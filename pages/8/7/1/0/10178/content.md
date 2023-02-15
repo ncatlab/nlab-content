@@ -1436,7 +1436,7 @@ Notice that by the above analogous discussion of the [[2d Chern-Simons theory]] 
 
 In view of this state of affairs one is to go up in dimension and quantize a 2-dimensional field theory, namely the [[string]] [[sigma model]] itself, once we canonically realize it as the boundary of a 3-dimensional field theory which is equipped with a suitable $E$-linearization. 
 
-A natural example for this is the [[heterotic string]] [[sigma model]] on the boundary of the [[M2-brane]] in the [[M9-brane]] inside the [[Horava-Witten theory]] [[spacetime]] of [[11-dimensional supergravity]], see [below](#HeteroticStringAtBoundaryOfMembrane). 
+A natural example for this is the [[heterotic string]] [[sigma model]] on the boundary of the [[M2-brane]] in the [[M9-brane]] inside the [[Hořava-Witten theory]] [[spacetime]] of [[11-dimensional supergravity]], see [below](#HeteroticStringAtBoundaryOfMembrane). 
 
 The [[supergravity C-field]] is now the [[higher prequantum bundle]] and is naturally turned into a [[higher prequantum line bundle|higher prequantum E-line bundle]] for $E = $ [[tmf]].
 
@@ -3054,13 +3054,13 @@ $$
 
 Traditionally the [[strict deformation quantization]] of a [[symplectic manifold]] with a good [[polarization]] $\mathcal{P}$ is taken to be the [[C*-algebra]] of [[compact operators]] on the [[leaf space]] $X/\mathcal{P}$. In ([EH 06](geometric+quantization+of+symplectic+groupoids#EH)) this is rederived as the polarized [[groupoid convolution algebra]] of the symplectic groupoid of $(X,\omega^{-1})$ naturally presented as the [[pair groupoid]] $SymplGrpd(X,\omega^{-1}) \simeq Pair(X/\mathcal{P})$. 
 
-However, once one passes from [[smooth manifolds]] to [[Lie groupoids]], it is unnatural to essentially distibuish the [[pair groupoid]] from the point, since both are [[Morita equivalence|Morita equivalent]]. Notably, in analogy to this the algebra of [[compact operators]] is of course itself [[Morita equivalence|Morita equivalent]] to the base algebra of [[complex numbers]]. 
+However, once one passes from [[smooth manifolds]] to [[Lie groupoids]], it is unnatural to essentially distinguish the [[pair groupoid]] from the point, since both are [[Morita equivalence|Morita equivalent]]. Notably, in analogy to this the algebra of [[compact operators]] is of course itself [[Morita equivalence|Morita equivalent]] to the base algebra of [[complex numbers]]. 
 
 As a consequence, the traditional description of the [[strict deformation quantization]] of [[symplectic manifolds]] in the refined perspective of ([EH 06](geometric+quantization+of+symplectic+groupoids#EH)) contains a conundrum: either one unnaturally breaks the natural Morita equivalence or else one arrives at a trivial quantization.
 
 In the following we see that this is resolved in motivic quantization. Here is is not just the symplectic groupoid itself that is quantized, but the [[correspondence]] $\ast \leftarrow X \to SymplGrp(X,\omega^{-1})$ which exhibits the original symplectic manifold as a boundary of the corresponding [[2d Chern-Simons theory]]. While the quantization of $SymplGrpd(X,\omega^{-1})$ itself is trivial when properly regarded in [[higher geometry]], that of $\ast \leftarrow X \to SymplGrpd(X,\omega^{-1})$ is not and in fact yields the correct quantization.
 
-A conceptual way to understand this phenomenon is to recall that the symplectic groupoid of a [[Poisson manifold]] is effectively a stacky model for the [[leaf space]] by [[symplectic leafs]] of the Poisson manifold. Since for symplectic Poisson manifolds the lead space is the point, accordingly so is the symplectic groupoid, up to equivalence.
+A conceptual way to understand this phenomenon is to recall that the symplectic groupoid of a [[Poisson manifold]] is effectively a stacky model for the [[leaf space]] by [[symplectic leafs]] of the Poisson manifold. Since for symplectic Poisson manifolds the leaf space is the point, accordingly so is the symplectic groupoid, up to equivalence.
 
 =--
 
@@ -3117,7 +3117,7 @@ This is discussed in detail at _[geometric quantization -- quantum states](#geom
 ###### Quantum observables and equivariant K-theory
  {#QuantumObservablesAndEquivariantKTheory}
 
-We now discuss how the traditional quantization of [[observables]] to [[quantum observables]] on [[symplectic manifolds]] is reproduced by motivic quantizaiton of the symplectic manifold regarded as a [[brane]] of its Poisson-[[2d Chern-Simons theory]].
+We now discuss how the traditional quantization of [[observables]] to [[quantum observables]] on [[symplectic manifolds]] is reproduced by motivic quantization of the symplectic manifold regarded as a [[brane]] of its Poisson-[[2d Chern-Simons theory]].
 
 
 Let $(X,\omega)$ be a [[symplectic manifold]]. 
@@ -3202,7 +3202,7 @@ $$
   i_!(\nabla//G) \in Rep(G)
 $$
 
-of the $G$-[[Hamiltonian action]] is element in $Rep(G)$ a [[space of quantum states]] equipped with the $G$-action of [[quantum observables]] in $G$.
+of the $G$-[[Hamiltonian action]] is an element in $Rep(G)$ a [[space of quantum states]] equipped with the $G$-action of [[quantum observables]] in $G$.
 
 
 
@@ -3503,7 +3503,7 @@ is called the corresponding _[[D-brane charge]]_.
 #### The heterotic string at the boundary of the M2-brane
  {#HeteroticStringAtBoundaryOfMembrane}
 
-In the previous example _[The charged particle at the boundary of the superstring](#ChargedParticleAtBoundaryOfSuperstring)_ we saw -- by analogy with the [particle at the boundary of the 2d Chern-Simons theory](#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory) -- the motivic quantization with [[coefficients]] in [[KU]] of the 1-dimensional field which is the [[sigma-model]] of a [[charged particle]] at the intersection of a 2-dimensional field theory which is an  [[open string]] [[sigma-model]] ending on a [[D-brane]]. Here we lift all these ingredients up one dimension and consider the motivic quantization with coefficients in [[tmf]] of the 2-dimensional field theory called the _[[heterotic string]]_ [[sigma-model]] as the boundary intersection of the 3d field theory known as the _[[M2-brane]]_ with a [[brane]] called sometimes the _[[M9-brane]]_ or the $O9$-plane of [[Ho?ava-Witten theory]].
+In the previous example _[The charged particle at the boundary of the superstring](#ChargedParticleAtBoundaryOfSuperstring)_ we saw -- by analogy with the [particle at the boundary of the 2d Chern-Simons theory](#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory) -- the motivic quantization with [[coefficients]] in [[KU]] of the 1-dimensional field which is the [[sigma-model]] of a [[charged particle]] at the intersection of a 2-dimensional field theory which is an  [[open string]] [[sigma-model]] ending on a [[D-brane]]. Here we lift all these ingredients up one dimension and consider the motivic quantization with coefficients in [[tmf]] of the 2-dimensional field theory called the _[[heterotic string]]_ [[sigma-model]] as the boundary intersection of the 3d field theory known as the _[[M2-brane]]_ with a [[brane]] called sometimes the _[[M9-brane]]_ or the $O9$-plane of [[Hořava-Witten theory]].
 
 The analog of the $\mathbb{Z}$-valued [[index]]/[[partition function]] in the [[K-theory]] of the point now is the [[Witten genus]] with values in [[topological modular forms]]
 
@@ -3519,7 +3519,7 @@ $\,,$
 
 More in detail, the setup is the following.
 
-* Let $X$ be a $\mathbb{Z}_2$-[[orbifold]] equipped with [[spin structure]], to be called the 11-dimensional [[spacetime]] of [[Ho?ava-Witten theory|Ho?ava-Witten]] [[11-dimensional supergravity]]/[[M-theory]];
+* Let $X$ be a $\mathbb{Z}_2$-[[orbifold]] equipped with [[spin structure]], to be called the 11-dimensional [[spacetime]] of [[Hořava-Witten theory|Hořava-Witten]] [[11-dimensional supergravity]]/[[M-theory]];
 
 * Let $\chi \colon X \to \mathbf{B}^3 U(1)$ be the ([[instanton sector]] of a) [[circle n-bundle with connection|circle 3-bundle]] on $X$. This is to be called the [[supergravity C-field]];  by the discussion there and at ([FSS 12b](#FSS12b)) this is constrained to satisfy
 
@@ -3532,7 +3532,7 @@ More in detail, the setup is the following.
 
   This is to be called the [[background gauge field]]/[[local action functional]] for the [[M2-brane]] 3d [[sigma-model]] field theory with [[target space]] $X$.
 
-* Write $Q \hookrightarrow X$ for the inclusion of the locus of $\mathbb{Z}_2$-fixed points of $X$. This is to be called the "[[M9-brane]]" [[worldvolume]] or equivalently the [[spacetime]] of [[heterotic string theory]] in [[Ho?ava-Witten theory]].
+* Write $Q \hookrightarrow X$ for the inclusion of the locus of $\mathbb{Z}_2$-fixed points of $X$. This is to be called the "[[M9-brane]]" [[worldvolume]] or equivalently the [[spacetime]] of [[heterotic string theory]] in [[Hořava-Witten theory]].
 
 * This data is required to constitute a [[higher orientifold]] structure on $X$ which means in particular that there is a trivialization
 
