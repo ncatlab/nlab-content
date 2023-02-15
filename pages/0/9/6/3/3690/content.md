@@ -36,10 +36,20 @@ Bourbaki has been blamed for following too formal an approach. Indeed, the  book
 Apart from the Bourbaki volumes, there is also a lively _Bourbaki seminar_ which takes place in Paris on certain Saturdays, is open to public and has non-Bourbaki members as invited speakers who present and discuss topics,chosen in advance, of recent development in mathematics. The expositions are subsequently published. 
 
 
+## Selected writings
+ {#SelectedWritings}
+
+On [[general topology]], [[uniform structures]], [[topological groups]] and the [[real numbers]] with some [[real analysis]]:
+
+* {#Bourbaki71} [[Nicolas Bourbaki]], *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+
+(...)
+
+
 ## Bourbaki's notion of _structure_ and the relation to category theory
  {#StructureAndCategoryTheory}
 
-A central point of view of Bourbaki is the emphasis of mathematics as the study of [[structure]], as in the approach developed by G&#246;ttingen mathematicians in the 1920s and 1930s, such as [[Emmy Noether]] and [[Emil Artin]], and written up by van der Waerden in _Moderne Algebra_ (see [Corry](#Corry)). This approach was very influential in the mainstream mathematics of the second half of the 20th century. 
+A central point of view of Bourbaki is the emphasis of mathematics as the study of *[[structure]]*, as in the approach developed by G&#246;ttingen mathematicians in the 1920s and 1930s, such as [[Emmy Noether]] and [[Emil Artin]], and written up by van der Waerden in _Moderne Algebra_ (see [Corry](#Corry)). This approach was very influential in the mainstream mathematics of the second half of the 20th century. 
 
 However, Bourbaki did not embrace [[category theory]], which may be thought of as being the essence of that structural approach (cf. [[structuralism]]), though some of the [[universal properties]] treated in category theory in fact first appeared in early editions of Bourbaki. Instead, Bourbaki proposed its own formalization of the notion of "structure" (in the book *Theory of Sets*), which however neither caught on nor does it seem to have been taken very seriously by the group itself. As documented by &lbrack;[Corry](#Corry)&rbrack;, the Elements pays only the slightest lip service to the Bourbaki formal notion of structure in its vast development (in the books after *Theory of Sets* when they are considered in their intended logical order). 
 
