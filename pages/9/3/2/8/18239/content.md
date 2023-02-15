@@ -246,13 +246,14 @@ A considerable expanded treatment is given in the third edition, see Chapter I, 
 
 English translation of the 1971 edition:
 
-* [[Nicolas Bourbaki]], _General Topology_ (Elements of Mathematics), Chapters 1–4.  Springer, 1987.
+* {#Bourbaki71} [[Nicolas Bourbaki]], *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
 
-The localic version of proper maps was introduced by [[Johnstone]]:
+
+The [[locale|localic]] version of proper maps was introduced in:
 
 * [[Peter Johnstone]], _Factorization and pullback theorems for localic geometric morphisms_, Univ. Cath. de Louvain, Sem. de math, pure, Rapport no. 79.
 
-* [[Peter Johnstone]], _The Gleason cover of a topos, II_, Journal of Pure and Applied Algebra 22:3 (1981), 229–247.  [doi](http://dx.doi.org/10.1016/0022-4049(81)90100-6).
+* [[Peter Johnstone]], _The Gleason cover of a topos, II_, Journal of Pure and Applied Algebra **22** 3 (1981) 229–247 &lbrack;<a href="http://dx.doi.org/10.1016/0022-4049(81)90100-6">doi:10.1016/0022-4049(81)90100-6</a>&rbrack;
 
 
 [[!redirects proper maps]]
