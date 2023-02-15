@@ -46,11 +46,11 @@ NMR is one possible platform for [[quantum computation]]:
 
 * [[Jonathan A. Jones]], *Quantum Computing with NMR*, Prog. NMR Spectrosc. **59** (2011) 91-120 &lbrack;[doi:10.1016/j.pnmrs.2010.11.001](https://doi.org/10.1016/j.pnmrs.2010.11.001), [arXiv:1011.1382](https://arxiv.org/abs/1011.1382)&rbrack;
 
-* Dorothea Golze, Maik Icker, Stefan Berger, *Implementation of two-qubit and three-qubit quantum computers using liquid-state nuclear magnetic resonance*, Concepts in Magnetic Resonance **40A** 1 (2012) 25-37 &lbrack;[doi:10.1002/cmr.a.21222](https://doi.org/10.1002/cmr.a.21222)&lbrack;
+* Dorothea Golze, Maik Icker, Stefan Berger, *Implementation of two-qubit and three-qubit quantum computers using liquid-state nuclear magnetic resonance*, Concepts in Magnetic Resonance **40A** 1 (2012) 25-37 &lbrack;[doi:10.1002/cmr.a.21222](https://doi.org/10.1002/cmr.a.21222)&rbrack;
 
 * *NMR Quantum Computing* (2012) &lbrack;slides [pdf](https://qudev.phys.ethz.ch/static/content/QSIT12/QSIT12_NMR_L01.pdf)&rbrack;
 
-* Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** 020308 &lbrack;[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)&rbrack;
+* Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** (2018) 020308 &lbrack;[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)&rbrack;
 
 See also:
 
