@@ -35,9 +35,12 @@ There is also the term _set-theoretic topology_, but that tends to allude to add
 
 ## References
 
-See the references at _[[topology]]_.
+* [[Nicolas Bourbaki]], *General topology*, Elements of Mathematics, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+
+For more see the references at _[[topology]]_.
 
 For introduction to general or point-set topology see at _[[Introduction to Topology -- 1]]_.
+
 
 
 
