@@ -1577,7 +1577,7 @@ Textbook accounts:
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], Chapter 1 of:  _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
+* {#Bourbaki71} [[Nicolas Bourbaki]], *Topological Structures*, Chapter 1 in: *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
 
