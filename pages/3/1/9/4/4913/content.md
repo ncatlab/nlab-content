@@ -16,6 +16,10 @@ Early note on what came to be known as *[[homotopy type theory]]*:
 
 * {#Awodey09} [[Steve Awodey]], _Homotopy and Type Theory_, grant proposal project description ([pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf))
 
+Proof that every [[simplicial model category]] in which the [[cofibrations]] are [[monomorphisms]] provides a sound [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] (i.e. including the [[identity types]] used in [[homotopy type theory]]):
+
+* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], *Homotopy theoretic models of identity type*,  Mathematical Proceedings of the Cambridge Philosophical Society **146** 1 (2009) &lbrack;[arXiv:0709.0248](http://arxiv.org/abs/0709.0248), [doi:10.1017/S0305004108001783](https://doi.org/10.1017/S0305004108001783)&rbrack;
+
 Stating [[Awodey's conjecture]]:
 
 * {#Awodey10} [[Steve Awodey]], _Type theory and homotopy_, Epistemology versus Ontology. Springer Netherlands, 2012. 183-201  ([arXiv:1010.1810](http://arxiv.org/abs/1010.1810))
