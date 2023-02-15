@@ -21,4 +21,10 @@ On [[higher inductive types]] in [[homotopy type theory]]:
 * [[Henning Basold]], [[Herman Geuvers]], [[Niels van der Weide]], *Higher Inductive Types in Programming*, Journal of Universal Computer Science **23** 1 (2017) 63-88 &lbrack;[pdf](https://www.jucs.org/jucs_23_1/higher_inductive_types_in/jucs_23_01_0063_0088_basold.pdf), [slides pdf](https://nmvdw.github.io/pubs/Agda25.pdf)&rbrack;
 
 
+On [[finite sets]] in [[homotopy type theory]]/[[univalent foundations of mathematics]]:
+
+* [[Dan Frumin]], [[Herman Geuvers]], [[Léon Gondelman]], [[Niels van der Weide]], _Finite Sets in Homotopy Type Theory_, in *CPP 2018: Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2018) 201–214 &lbrack;[doi:10.1145/3167085](https://doi.org/10.1145/3167085), [pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf)&rbrack;
+
+
+
 category: people
