@@ -180,7 +180,9 @@ and in section 4.4.17 of
 * {#Sch} _[[schreiber:differential cohomology in a cohesive topos]]_
  
 
+Another expository account, which spells out the details of the isomorphism from smooth functions with the Poisson bracket to infinitesimal quantomorphisms is given in
 
+* [[Jennifer Vaughan]], _[Quantomorphisms and Quantized Energy Levels for Metaplectic-c Quantization](https://hdl.handle.net/1807/77389)_, PhD dissertation, University of Toronto, 2016.
 
 ### Smooth manifold structure
  {#SmoothManifoldStructure}
