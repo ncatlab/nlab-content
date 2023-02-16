@@ -6,6 +6,6 @@ I am currently undertaking a PhD at Tallinn University of Technology under the s
 
 On [[optics (in computer science)]]:
 
-* [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
+* [[Bryce Clarke]], Derek Elkins, [[Jeremy Gibbons]], [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, 2020. ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
 category: people
