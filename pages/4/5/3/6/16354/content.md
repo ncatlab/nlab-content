@@ -16,7 +16,6 @@ On [[category theory]] in [[computer science]]/[[programming languages]] (such a
 
 On [[optics (in computer science)]]:
 
-* [[Bryce Clarke]], Derek Elkins, [[Jeremy Gibbons]], [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_ *lbrack[arXiv:2001.07488](https://arxiv.org/abs/2001.07488)&rbrack;
-
+* [[Bryce Clarke]], Derek Elkins, [[Jeremy Gibbons]], [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, 2020. ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
 category: people
