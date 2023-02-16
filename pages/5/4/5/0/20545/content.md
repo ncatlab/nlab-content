@@ -62,7 +62,7 @@ Discussion of [[anomaly cancellation]] and [[Green-Schwarz mechanism]]:
   > (Green-Schwarz anomaly in 1.2)
 
 
-* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
   > (Green-Schwarz anomaly on tensor branch of M5-branes on MO9 in 2.18)
 
