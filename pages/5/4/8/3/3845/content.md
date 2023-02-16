@@ -171,9 +171,9 @@ For a cubical approach to multiple compositions and other references see the pap
 
 * [[Philip J. Higgins]], _Thin elements and commutative shells in cubical omega-categories_, Theory and Applications of Categories, **14**, 2005. ([link](http://www.tac.mta.ca/tac/volumes/14/4/14-04abs.html))
 
-A formal approach to pasting in [[Gray categories]] is presented in:
+A formal approach to [[pasting diagrams]] in [[Gray categories]]:
 
-* {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories, **39**, 2023. ([link](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)) 
+* {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories **39** 5 (2023) 150-171 &lbrack;[tac:39-05](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)&rbrack;
 
 [[!redirects pasting diagrams]]
 [[!redirects pasting]]
