@@ -15,10 +15,20 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A _Jordan superalgebra_ is the analog of a [[Jordan algebra]] in [[superalgebra]]/[[supergeometry]]. A Jordan superalgebra $J$ is a $\mathbb{Z}_2$-graded algebra $J = J_0 \oplus J_1$, where $J_0$ is a Jordan algebra and $J_1$ a $J_0$-bimodule with a “Lie-like” product into $J_0$.
+Then notion of _Jordan superalgebra_ is the [[internalization|analog]] in [[superalgebra]]/[[supergeometry]]
+of that of *[[Jordan algebra]]*: 
 
-Elements of $J$ are supercommutative, that is, $a \cdot b = (-1)^{|a|\cdot|b|} b \cdot a$, and satisfy the super Jordan identity.
+A Jordan superalgebra is a [[supercommutative superalgebra]] 
+with [[underlying]] $\mathbb{Z}/2$-[[graded algebra]] $J = J_0 \oplus J_1$, where:
+
+* $J_0$ is an ordinary [[Jordan algebra]],
+
+* $J_1$ is a $J_0$-[[bimodule]] with a “[[Lie bracket]]-like” product into $J_0$,
+
+* satisfying a super Jordan identity.
+
 
 ## Classification
 
