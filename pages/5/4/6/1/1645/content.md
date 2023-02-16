@@ -317,7 +317,7 @@ An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[s
 
 * [[Curtis Callan]], [[Jeffrey Harvey]], _Anomalies and Fermion Zero Modes on Strings and Domain Walls_, Nucl. Phys. B250 (1985) 427-436 (<a href="https://doi.org/10.1016/0550-3213(85)90489-4">doi:10.1016/0550-3213(85)90489-4</a>, [spire:15691](http://inspirehep.net/record/15691))
 
-* [[Edward Witten]], Kazuya Yonekura, _Anomaly Inflow and the $\etas$-Invariant_ ([arXiv:1909.08775](https://arxiv.org/abs/1909.08775), [spire:1755070](http://inspirehep.net/record/1755070))
+* [[Edward Witten]], [[Kazuya Yonekura]], *Anomaly Inflow and the $\eta$-Invariant* &lbrack;[arXiv:1909.08775](https://arxiv.org/abs/1909.08775), [spire:1755070](http://inspirehep.net/record/1755070)&rbrack;
 
 
 ### In finite-dimensional quantum mechanics
