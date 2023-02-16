@@ -114,6 +114,7 @@ See also
 
 * Jan Albert, Justin Kaidi, Ying-Hsuan Lin, *Topological modularity of Supermoonshine* $[$[arXiv:2210.14923](https://arxiv.org/abs/2210.14923)$]$
 
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* $[$[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)$]$
 
 
 
