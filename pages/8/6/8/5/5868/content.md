@@ -42,4 +42,10 @@ On [[T-duality]] in the [[K-theory classification of topological phases of matte
 
 * [[Kiyonori Gomi]], [[Guo Chuan Thiang]], *Crystallographic T-duality*. J.Geom.Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
 
+On [[differential K-theory|differential]] [[KO-theory]] via [[mass terms]]:
+
+* [[Kiyonori Gomi]], [[Mayuko Yamashita]], *Differential KO-theory via gradations and mass terms* &lbrack;[arXiv:2111.01377](https://arxiv.org/abs/2111.01377)&rbrack;
+
+
+
 category: people
