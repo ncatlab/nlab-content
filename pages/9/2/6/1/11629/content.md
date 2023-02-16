@@ -23,7 +23,7 @@ and their [[anomaly cancellation]] via the [[Green-Schwarz mechanism]]:
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], _Anomaly polynomial of E-string theories_, J. High Energ. Phys. 2014, 2 (2014) ([arXiv:1404.3887](https://arxiv.org/abs/1404.3887))
 
-* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
 
 Relation of the [[GSO projection]] to the [[K-theory classification of topological phases of matter]]:
@@ -44,6 +44,9 @@ On [[anomaly cancellation]] via the [[Green-Schwarz mechanism]] from the point o
 
 * [[Yasunori Lee]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], *Matching higher symmetries across Intriligator-Seiberg duality* ([arXiv:2108.05369](https://arxiv.org/abs/2108.05369))
 
+On the mod-2 [[elliptic genus]], both as a [[partition function]] of a [[superstring]] as well as via the [[string-orientation of tmf]]:
+
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* $[$[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)$]$
 
 
 
