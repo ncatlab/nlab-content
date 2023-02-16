@@ -33,6 +33,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Internal categories and quantum groups|Marcelo Aguiar|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
 |Higher-Dimensional Category Theory: Opetopic Foundations|[[Eugenia Cheng]]|2002|[pdf](https://eugeniacheng.com/wp-content/uploads/2017/02/cheng-thesis.pdf)| |
 |Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| on [[polycategories]] via Kleisli bicategories and [[mixed distributive laws]] |
+| An algebraic theory of tricategories | [[Nick Gurski]] | 2007 | [[Gurski-AlgebraicTricategories.pdf:file]] | |
 | Bigroupoid 2-torsors | [[Igor Baković]] | 2008 | [doi](https://doi.org/10.5282/edoc.9209)  | on [[principal 2-bundles]] |
 | Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 | | |
 | Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | on [[codescent objects]] and 2-dimensional generalisations of [[internal categories]] |
