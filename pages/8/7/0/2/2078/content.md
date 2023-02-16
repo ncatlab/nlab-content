@@ -8,7 +8,7 @@ __Peter Tennant Johnstone__ is a Professor of Mathematics at the University of C
 
 
 
-## Selected writins
+## Selected writings
 
 On [[topos theory]]:
 
