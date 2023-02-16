@@ -429,6 +429,11 @@ On (in-)compatibility of quantum error correction with universality of quantum g
 
 * {#WVSB20} Paul Webster, Michael Vasmer, Thomas R. Scruby, Stephen D. Bartlett, *Universal Fault-Tolerant Quantum Computing with Stabiliser Codes* ([arXiv:2012.05260](https://arxiv.org/abs/2012.05260))
 
+For [[quantum annealing]] processes:
+
+* Kristen L. Pudenz, Tameem Albash, Daniel A. Lidar: *Error-corrected quantum annealing with hundreds of qubits*, Nature Communications **5** 3243 (2014) &lbrack;[doi:10.1038/ncomms4243](https://doi.org/10.1038/ncomms4243)&rbrack;
+
+
 On continuous variable quantum codes:
 
 * [[Samuel L. Braunstein]], Peter van Loock, §IV.C in: *Quantum information with continuous variables*, Rev. Mod. Phys. **77** 2 (2005) 513 &lbrack;[arXiv:quant-ph/0410100](https://arxiv.org/abs/quant-ph/0410100), [doi:10.1103/RevModPhys.77.513](https://doi.org/10.1103/RevModPhys.77.513)&rbrack;
