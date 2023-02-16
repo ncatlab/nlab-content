@@ -126,6 +126,8 @@ A conceptualization of computation as something at least close to [[path]]-[[lif
 
 Related discussion for [[quantum computation]], with [[quantum circuits]] regarded as paths:
 
+* [[Paolo Zanardi]], [[Mario Rasetti]], p. 1 of: *Holonomic Quantum Computation*, Phys. Lett. A **264** (1999) 94-99 &lbrack;<a href="https://doi.org/10.1016/S0375-9601(99)00803-8">doi:10.1016/S0375-9601(99)00803-8</a>, [arXiv:quant-ph/9904011](https://arxiv.org/abs/quant-ph/9904011)&rbrack;
+
 * {#NielsenDowlingGuDoherty06} [[Michael A. Nielsen]], [[Mark R. Dowling]], [[Mile Gu]], [[Andrew C. Doherty]], *Quantum Computation as Geometry*, Science, **311** 5764 (2006) 1133-1135 &lbrack;[doi:10.1126/science.1121541](https://doi.org/10.1126/science.1121541), [arXiv:quant-ph/0603161](https://arxiv.org/abs/quant-ph/0603161)&rbrack; 
 
 * [[Mark R. Dowling]], [[Michael A. Nielsen]], *The geometry of quantum computation*, Quantum Information & Computation **8** 10 (2008) 861–899 &lbrack;[doi:10.5555/2016985.2016986](https://dl.acm.org/doi/abs/10.5555/2016985.2016986), [arXiv:quant-ph/0701004](https://arxiv.org/abs/quant-ph/0701004)&rbrack;
