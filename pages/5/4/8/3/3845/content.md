@@ -119,9 +119,11 @@ Also related are various notions of categories of shapes, including
 
 The notion of pasting in a [[2-category]] was introduced in
 
-* [[Jean Benabou]], _Introduction to bicategories_ , in _Lecture Notes in Mathematics_ Vol. 47, pp. l-77, Springer-Verlag, New York/Berlin, (1967)
+* [[Jean Benabou]], _Introduction to bicategories_, Reports of the Midwest Category Seminar, Lecture Notes in Mathematics, **47**, 1967. ([doi:10.1007/BFb0074299](https://doi.org/10.1007/BFb0074299))
 
-A reasonably self-contained, formal, and illustrated seven-page introduction to pasting diagrams in the context of weak 2-categories, and their relation to [[string diagrams]] is given by [[Chris Schommer-Pries]] in Section A.4 of "The Classification of Two-Dimensional Extended Topological Field Theories", arXiv:1112.1000v2.
+A reasonably self-contained, formal, and illustrated seven-page introduction to pasting diagrams in the context of weak 2-categories, and their relation to [[string diagrams]] is given in Section A.4 of: 
+
+* [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_, 2011. ([arXiv:1112.1000v2](https://arxiv.org/abs/1112.1000v2))
 
 A survey discussion of pasting in [[2-categories]] is in 
 
@@ -129,36 +131,37 @@ A survey discussion of pasting in [[2-categories]] is in
 
 from definition 2.10 on. Details are in
 
-* [[John Power]], _A 2-categorical pasting theorem_ , Journal of Algebra
-Volume 129, Issue 2, March 1990, Pages 439-445 
+* [[John Power]], _A 2-categorical pasting theorem_ , Journal of Algebra, **129**, 1990. &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90229-H">doi:10.1016/0021-8693(90)90229-H</a>&rbrack;
 
 Dominic Verity gave a bicategorical pasting theorem in 
 
-* [[Dominic Verity]], Enriched categories, internal categories, and change of base, PhD thesis, Cambridge University, 1992. Reprinted in TAC ([link](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)). 
+* [[Dominic Verity]], _Enriched categories, internal categories, and change of base_, PhD thesis, Cambridge University, 1992. Reprinted in TAC ([link](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html)). 
 
 A definition and discussion of pasting diagrams in [[strict omega-categories]] is in
 
 * [[Sjoerd Crans]], _Pasting presentation for Omega-categories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.4342))
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://home.tiscali.nl/secrans/papers/thten.html), [ps](http://home.tiscali.nl/secrans/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
+* [[Sjoerd Crans]], _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://home.tiscali.nl/secrans/papers/thten.html), [ps](http://home.tiscali.nl/secrans/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
 
 The notion of pasting scheme used by Crans was introduced by Johnson, 
 
-* [[Michael Johnson]], The combinatorics of categorical pasting, J. Pure Appl. Alg. 62 (1989), 211-225. 
+* [[Michael Johnson]], _The combinatorics of n-categorical pasting_, Journal of Pure and Applied Algebra, **62**, 1989. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90136-9">doi:10.1016/0022-4049(89)90136-9</a>&rbrack;
 
 Other notions of pasting presentations have been given by Street and by Steiner, 
 
-* Street, Parity complexes, Cahiers Top. G&#233;om Diff. Cat&#233;goriques 32 (1991), 315-343. ([link](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_4/CTGDC_1991__32_4_315_0/CTGDC_1991__32_4_315_0.pdf)) Corrigenda, Cahiers Top. G&#233;om Diff. Cat&#233;goriques 35 (1994), 359-361. ([link](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1994__35_4/CTGDC_1994__35_4_359_0/CTGDC_1994__35_4_359_0.pdf))
+* [[Ross Street]], _Parity complexes_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **32**, 1991. ([link](http://www.numdam.org/item/?id=CTGDC_1991__32_4_315_0)) 
 
-* Richard Steiner, The algebra of directed complexes, Appl. Cat. Struct. 1 (1993), 247-284. 
+* [[Ross Street]], _Parity complexes : corrigenda_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **35**, 1994. ([link](http://www.numdam.org/item/?id=CTGDC_1994__35_4_359_0))
+
+* [[Richard Steiner]], _The algebra of directed complexes_, Applied Categorical Structures, **1**, 1993. ([doi:0.1007/BF00873990](https://doi.org/10.1007/BF00873990))
 
 These notions were compared, and a new generalized one introduced, in
 
-* Simon Forest, _Unifying notions of pasting diagrams_, [arxiv:1903.00282](https://arxiv.org/abs/1903.00282)
+* [[Simon Forest]], _Unifying notions of pasting diagrams_, Higher Structures, **6**, 2022 ([arxiv:1903.00282](https://arxiv.org/abs/1903.00282), [doi:10.21136/HS.2022.01](https://doi.org/10.21136/HS.2022.01))
 
 For an online link to the notion of directed complex, see 
 
-* [[Sjoerd Crans]] and Richard Steiner, Presentations of omega-categories by directed complexes, Journal of the Australian Mathematical Society (Series A), (1997), 63 : pp 47-77. ([link](http://journals.cambridge.org/download.php?file=%2FJAZ%2FJAZ1_63_01%2FS1446788700000318a.pdf&code=d96423d28d8595ef0e528452fc6608c7))
+* [[Sjoerd Crans]] and [[Richard Steiner]], _Presentations of omega-categories by directed complexes_, Journal of the Australian Mathematical Society, **63**, 1997. ([doi:10.1017/S1446788700000318](https://doi.org/10.1017/S1446788700000318))
 
 There is also
 
@@ -166,7 +169,11 @@ There is also
 
 For a cubical approach to multiple compositions and other references see the paper 
 
-*  Philip J. Higgins, Thin elements and commutative shells in cubical omega-categories, Theory and Applications of Categories, Vol. 14, 2005, No. 4, pp 60-74. ([link](http://www.tac.mta.ca/tac/volumes/14/4/14-04abs.html))
+* [[Philip J. Higgins]], _Thin elements and commutative shells in cubical omega-categories_, Theory and Applications of Categories, **14**, 2005. ([link](http://www.tac.mta.ca/tac/volumes/14/4/14-04abs.html))
+
+A formal approach to pasting in [[Gray categories]] is presented in:
+
+* {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories, **39**, 2023. ([link](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)) 
 
 [[!redirects pasting diagrams]]
 [[!redirects pasting]]
