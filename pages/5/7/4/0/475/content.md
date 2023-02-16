@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -63,7 +64,7 @@ The original source:
 
 refined in:
 
-* [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](https://dokumen.tips/documents/an-algebraic-theory-of-tricategories.html))
+* [[Nick Gurski]], _An algebraic theory of tricategories_, PhD thesis (2007) &lbrack;[pdf](https://dokumen.tips/documents/an-algebraic-theory-of-tricategories.html), [[Gurski-AlgebraicTricategories.pdf:file]]&rbrack;
 
 See also:
 
