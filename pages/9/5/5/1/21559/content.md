@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-Then notion of _Jordan superalgebra_ is the [[internalization|analog]] in [[superalgebra]]/[[supergeometry]]
+The notion of _Jordan superalgebra_ is the [[internalization|analog]] in [[superalgebra]]/[[supergeometry]]
 of that of *[[Jordan algebra]]*: 
 
 A Jordan superalgebra is a [[supercommutative superalgebra]] 
