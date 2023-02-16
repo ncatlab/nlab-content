@@ -10,7 +10,7 @@ I am broadly interested in category theory and its applications, and so far my r
 
 ## Selected writings
 
-On [[lenses (in computer science)]], in particular, on [[delta lenses]]:
+On [[lenses (in computer science)]], in particular on [[delta lenses]]:
 
 * {#Clarke20a} [[Bryce Clarke]], _Internal lenses as functors and cofunctors_, Proceedings Applied Category Theory 2019, Electronic Proceedings in Theoretical Computer Science, **323**, 2020. ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
 
