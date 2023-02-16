@@ -16,7 +16,7 @@
 
 ## Idea
 
-A $Gray$-category (or Gray category) is a certain type of [[semi-strict infinity-category|semi-strict]] [[3-category]], in which composition is strictly associative and unital, but the [[interchange law]] holds only up to isomorphism.
+A *$Gray$-category* (or *Gray category() is a certain type of [[semi-strict infinity-category|semi-strict]] [[3-category]], in which [[composition]] is strictly [[associativity|associative]] and [[unitality|unital]], but the [[interchange law]] holds only up to [[coherence|coherent]] [[isomorphism]].
 
 
 ## Definition
@@ -65,7 +65,7 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 * [[Robert Gordon]], [[John Power]], [[Ross Street]], _Coherence for tricategories_, Memoirs of the American Mathematical Society, **117**, 1995. ([doi:10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558))
 
-* [[Nick Gurski]], _Algebraic tricategories_, PhD Thesis.
+* [[Nick Gurski]], _An algebraic theory of tricategories_, PhD thesis (2007) &lbrack;[pdf](https://dokumen.tips/documents/an-algebraic-theory-of-tricategories.html), [[Gurski-AlgebraicTricategories.pdf:file]]&rbrack;
 
 * [[Tom Leinster]], _Higher operads, higher categories_, Cambridge University Press, 2004. ([arXiv:math/0305049](https://arxiv.org/abs/math/0305049), 
 [doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896))
@@ -76,7 +76,8 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 * Peter Guthmann, _The tricategory of formal composites and its strictification_, [arXiv:1903.05777](https://arxiv.org/abs/1903.05777)
 
-* {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories, **39**, 2023. ([link](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)) 
+* {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories **39** 5 (2023) 150-171 &lbrack;[tac:39-05](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)&rbrack;
+
 
 [[!redirects Gray category]]
 [[!redirects Gray-categories]]
