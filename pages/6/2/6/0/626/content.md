@@ -265,7 +265,11 @@ Discussion in [[representation theory]]:
 
 * {#Cvitanovic08} [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
 
-  (aimed at [[Lie theory]] and [[gauge theory]])
+  > (aimed at [[Lie theory]] and [[gauge theory]])
+
+* {#Peigné22} [[Stéphane Peigné]], *Introduction to color in QCD: Initiation to the birdtrack pictorial technique* &lbrack;[arXiv:2302.07574](https://arxiv.org/abs/2302.07574)&rbrack;
+
+  > (further focus on [[QCD]])
 
 
 Introductions to and surveys of string diagram calculus:
