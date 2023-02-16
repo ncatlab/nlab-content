@@ -208,6 +208,12 @@ However, brute-force computation in [[lattice QCD]] shows that the [[quark]]-mod
 * S. Aoki et. al. _Review of lattice results concerning low-energy particle physics_ ([arXiv:1607.00299](https://arxiv.org/abs/1607.00299))
 
 
+On [[string diagram]]-calculus ([Cvitanović 2008](string+diagram#Cvitanovic08): "bird tracks") for the [[representation theory]] involved in [[quantum chromodynamics]]
+
+* [[Stéphane Peigné]], *Introduction to color in QCD: Initiation to the birdtrack pictorial technique* &lbrack;[arXiv:2302.07574](https://arxiv.org/abs/2302.07574)&rbrack;
+
+
+
 
 
 [[!redirects quantum chromodynamics]]
