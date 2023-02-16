@@ -11,6 +11,7 @@ On [[string diagram]]/[[Penrose notation]] for [[Lie theory]] in [[physics]] ([[
 
 * [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
 
+Further discussed also by [Peigné (2022)](string+diagram#Peigné22).
 
 category: people
 
