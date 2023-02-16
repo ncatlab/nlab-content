@@ -63,21 +63,20 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 ## References
 
-* Gordon, Power, [[Ross Street|Street]], _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp.
+* [[Robert Gordon]], [[John Power]], [[Ross Street]], _Coherence for tricategories_, Memoirs of the American Mathematical Society, **117**, 1995. ([doi:10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558))
 
-* [[Nick Gurski]], _Algebraic tricategories_, Ph. D. Thesis.
+* [[Nick Gurski]], _Algebraic tricategories_, PhD Thesis.
 
-* [[Tom Leinster]], _Higher operads, higher categories_
+* [[Tom Leinster]], _Higher operads, higher categories_, Cambridge University Press, 2004. ([arXiv:math/0305049](https://arxiv.org/abs/math/0305049), 
+[doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896))
 
-* [[Steve Lack]], _A Quillen model structure for Gray-categories_ ([arxiv:1001.2366](http://arxiv.org/abs/1001.2366))
- {#Lack}
+*  {#Lack} [[Steve Lack]], _A Quillen model structure for Gray-categories_, Journal of K-Theory, **8**, 2011. ([arxiv:1001.2366](http://arxiv.org/abs/1001.2366), [doi:10.1017/is010008014jkt127](https://doi.org/10.1017/is010008014jkt127))
 
-* [[Nick Gurski]], [[Eugenia Cheng]], _The periodic table of n-categories II: degenerate tricategories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, 2011., ([arxiv:0706.2307](https://arxiv.org/abs/0706.2307))
- {#GurskiCheng}
+*  {#GurskiCheng} [[Nick Gurski]], [[Eugenia Cheng]], _The periodic table of n-categories II: degenerate tricategories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **52**, 2011. ([link](http://www.numdam.org/item/?id=CTGDC_2011__52_2_82_0), [arxiv:0706.2307](https://arxiv.org/abs/0706.2307))
 
 * Peter Guthmann, _The tricategory of formal composites and its strictification_, [arXiv:1903.05777](https://arxiv.org/abs/1903.05777)
 
-
+* {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories, **39**, 2023. ([link](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)) 
 
 [[!redirects Gray category]]
 [[!redirects Gray-categories]]
