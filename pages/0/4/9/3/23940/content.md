@@ -120,6 +120,11 @@ Discussion aimed at the description of [[topological semi-metal]]-phases in [[so
 
 * {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 ([arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005))
 
+See also discussion in the context of [[differential K-theory|differential]] [[KO-theory]]:
+
+* [[Kiyonori Gomi]], [[Mayuko Yamashita]], *Differential KO-theory via gradations and mass terms* &lbrack;[arXiv:2111.01377](https://arxiv.org/abs/2111.01377)&rbrack;
+
+
 Some of the above material is taken from:
 
 * {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Computation in TED-K]]*
