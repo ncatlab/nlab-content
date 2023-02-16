@@ -47,14 +47,30 @@ The following graphics shows this with labelling indicative of [momentum-space a
 ## References
  {#References}
 
+### General
+ {#ReferencesGeneral}
+
+* [[Edward Farhi]], [[Jeffrey Goldstone]], [[Sam Gutmann]], Michael Sipser, *Quantum Computation by Adiabatic Evolution* &lbrack;[arXiv:quant-ph/0001106](https://arxiv.org/abs/quant-ph/0001106)&rbrack;
+
+* [[Edward Farhi]], [[Jeffrey Goldstone]], [[Sam Gutmann]], Joshua Lapan, Andrew Lundgren, Daniel Preda, *A Quantum Adiabatic Evolution Algorithm Applied to Random Instances of an NP-Complete Problem*, Science  **292** 5516 (2001) 472-475 &lbrack;[doi:10.1126/science.1057726](https://doi.org/10.1126/science.1057726)&rbrack;
+
+* [[Dorit Aharonov]], [[Wim van Dam]], [[Julia Kempe]], [[Zeph Landau]], [[Seth Lloyd]], [[Oded Regev]], *Adiabatic Quantum Computation is Equivalent to Standard Quantum Computation*, SIAM Journal of Computing **37** 1 (2007) 166-194 &lbrack;[arXiv:quant-ph/0405098](https://arxiv.org/abs/quant-ph/0405098), [jstor:20454175](https://www.jstor.org/stable/20454175), [doi:10.1109/FOCS.2004.8](https://doi.org/10.1109/FOCS.2004.8), [doi:10.1137/080734479](https://doi.org/10.1137/080734479)&rbrack;
+
+Review: 
+
+* [[Andrew Childs]],  *Overview of adiabatic quantum computation*, talk at *[CIFAR](https://cifar.ca/research-programs/quantum-information-science/) Workshop on Quantum Information Processing* (2013) &lbrack;[pdf](https://www.cs.umd.edu/~amchilds/talks/cifar13-tutorial.pdf), [[Childs-AdiabaticQuantumComputation.pdf:file]]&rbrack;
+
+
 ### In optimization -- quantum annealing
  {#QuantumAnnealingReferences}
 
 Review with focus on optimization problems ([[quantum annealing]]):
 
-* Catherine C. McGeoch, *Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice* Synthesis Lectures on Quantum Computing &lbrack;[doi:10.2200/S00585ED1V01Y201407QMC008)](https://doi.org/10.2200/S00585ED1V01Y201407QMC008))&rbrack;
+* Catherine C. McGeoch, *Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice* Synthesis Lectures on Quantum Computing (2014) &lbrack;[doi:10.2200/S00585ED1V01Y201407QMC008)](https://doi.org/10.2200/S00585ED1V01Y201407QMC008)&rbrack;
 
 * Tameem Albash, Daniel A. Lidar,  *Adiabatic Quantum Computing*, Rev. Mod. Phys. **90** (2018) 015002 &lbrack;[arXiv:1611.04471](https://arxiv.org/abs/1611.04471), [doi:10.1103/RevModPhys.90.015002](https://doi.org/10.1103/RevModPhys.90.015002)&rbrack;
+
+* Salvador E. Venegas-Andraca, William Cruz-Santos, Catherine McGeoch, Marco Lanzagorta, *A cross-disciplinary introduction to quantum annealing-based algorithms*, Contemporary Physics **59** 02 (2018) 174-196 &lbrack;[arXiv:1803.03372](https://arxiv.org/abs/1803.03372), [doi:10.1080/00107514.2018.1450720](https://doi.org/10.1080/00107514.2018.1450720)&rbrack;
 
 * Erica K. Grant and Travis S. Humble, *Adiabatic Quantum Computing and Quantum Annealing*, Oxford research Encyclopedia (2020) &lbrack;[doi:10.1093/acrefore/9780190871994.013.32](https://doi.org/10.1093/acrefore/9780190871994.013.32)&rbrack;
 
@@ -65,14 +81,15 @@ See also:
 
 * Wikipedia, *[Adiabatic quantum computation](https://en.wikipedia.org/wiki/Adiabatic_quantum_computation)*
 
+* Kristen L. Pudenz, Tameem Albash, Daniel A. Lidar: *Error-corrected quantum annealing with hundreds of qubits*, Nature Communications **5** 3243 (2014) &lbrack;[doi:10.1038/ncomms4243](https://doi.org/10.1038/ncomms4243)&rbrack;
+
+  > (with [[quantum error correction]])
+
+
 * Minjae Jo, Michael Hanks, M. S. Kim, *Divide-and-conquer embedding for QUBO quantum annealing* &lbrack;[arXiv:2211.02184](https://arxiv.org/abs/2211.02184)&rbrack;
 
 * Yusuke Kimura, Hidetoshi Nishimori, *Rigorous convergence condition for quantum annealing*, J. Phys. A: Math. Theor. **55** (2022) 435302 &lbrack;[arXiv:2207.12096](https://arxiv.org/abs/2207.12096), [doi:10.1088/1751-8121/ac9dce](https://doi.org/10.1088/1751-8121/ac9dce)&rbrack;
 
-
-Proof that quantum annealing is universal for quantum computation:
-
-* Dorit Aharonov, Wim van Dam, Julia Kempe, Zeph Landau, [[Seth Lloyd]], Oded Regev, *Adiabatic Quantum Computation is Equivalent to Standard Quantum Computation*, SIAM Review **50** 4 (2008) &lbrack;[arXiv:quant-ph/0405098](https://arxiv.org/abs/quant-ph/0405098), [doi:10.1137/080734479](https://doi.org/10.1137/080734479)&rbrack;
 
 A more high-brow mathematical desription via "tangle machines":
 
