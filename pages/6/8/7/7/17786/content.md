@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Super-Algebra and Super-Geometry
+#### Super-Algebra
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
@@ -15,10 +15,14 @@
 
 ## Idea 
 
-A _super-commutative algebra_ is a [[commutative algebra]] _[[internalization|internal]]_ to the [[symmetric monoidal category]] of [[super vector spaces]], hence a $\mathbb{Z}/2$-[[graded algebra|graded]] [[associative algebra]] such that for $a, b$ any two elements of homogeneous degree $deg(a), deg(b) \in \mathbb{Z}/2 = \{0,1\}$, then
+A _super-commutative algebra_ is a [[commutative algebra]] _[[internalization|internal]]_ to the [[symmetric monoidal category]] of [[super vector spaces]], hence a $\mathbb{Z}/2$-[[graded algebra|graded]] [[associative algebra]] such that for $a, b$ any two elements of homogeneous degree $deg(a), deg(b) \in \mathbb{Z}/2 = \{0,1\}$, we have
 
 $$
-  a b = (-1)^{deg(a) deg(b)} b a 
+  a \cdot b 
+   \;\;=\;\; 
+  (-1)^{deg(a) deg(b)} 
+   \; 
+  b \cdot a 
   \,.
 $$
 
@@ -29,6 +33,8 @@ For more see at _[[geometry of physics -- superalgebra]]_.
 * The [[free construction|free]] supercommutative algebras are the _[[Grassmann algebras]]_.
 
 * [[stable homotopy groups]] of [[homotopy commutative ring spectrum]], see at _[[Introduction to Stable homotopy theory]]_ the section _[1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra)_
+
+* [[Jordan superalgebra]]
 
 
 ## Related concepts
