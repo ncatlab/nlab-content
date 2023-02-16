@@ -60,6 +60,11 @@ Review:
 
 * [[Andrew Childs]],  *Overview of adiabatic quantum computation*, talk at *[CIFAR](https://cifar.ca/research-programs/quantum-information-science/) Workshop on Quantum Information Processing* (2013) &lbrack;[pdf](https://www.cs.umd.edu/~amchilds/talks/cifar13-tutorial.pdf), [[Childs-AdiabaticQuantumComputation.pdf:file]]&rbrack;
 
+On robustness of adiabatic quantum computation (such as against [[decoherence]]):
+
+* {#ChildsFarhiPreskill02} [[Andrew Childs]], [[Edward Farhi]], [[John Preskill]], *Robustness of adiabatic quantum computation*, Phys.Rev. A **65** (2002) 012322 &lbrack;[arXiv:quant-ph/0108048](https://arxiv.org/abs/quant-ph/0108048), [doi:10.1103/PhysRevA.65.012322](https://doi.org/10.1103/PhysRevA.65.012322)&rbrack;
+
+
 
 ### In optimization -- quantum annealing
  {#QuantumAnnealingReferences}
@@ -101,8 +106,7 @@ A more high-brow mathematical desription via "tangle machines":
 
 References which consider quantum gates operating by (nonabelian) geometric Berry phases due to adiabatic parameter movement:
 
-* Paolo Zanardi, Mario Rasetti, *Holonomic Quantum Computation*, Phys. Lett. A **264** (1999) 94-99 &lbrack;[doi:10.1016/S0375-9601%2899%2900803-8](https://doi.org/10.1016/S0375-9601%2899%2900803-8), [arXiv:quant-ph/9904011](https://arxiv.org/abs/quant-ph/9904011)
-&rbrack;
+* [[Paolo Zanardi]], [[Mario Rasetti]], *Holonomic Quantum Computation*, Phys. Lett. A **264** (1999) 94-99 &lbrack;<a href="https://doi.org/10.1016/S0375-9601(99)00803-8">doi:10.1016/S0375-9601(99)00803-8</a>, [arXiv:quant-ph/9904011](https://arxiv.org/abs/quant-ph/9904011)&rbrack;
 
 * Jonathan A. Jones, Vlatko Vedral, Artur Ekert, Giuseppe Castagnoli, *Geometric quantum computation using nuclear magnetic resonance*, Nature **403** (2000) 869–871 &lbrack;[doi:10.1038/35002528](https://doi.org/10.1038/35002528)&rbrack;
 
@@ -119,9 +123,11 @@ References which consider quantum gates operating by (nonabelian) geometric Berr
 
 References which make explicit that [[topological quantum computation]] by [[braiding]] of [[anyon]] [[worldlines]] is a form of adiabatic quantum computation:
 
-* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](anyon#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
+* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](anyon#Wilczek90)) &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>&rbrack;
 
-* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 6 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
+* [Childs, Farhi & Preskill (2002)], p. 2(#ChildsFarhiPreskill02)
+
+* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 6 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003) 31-38 &lbrack;[arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf)&rbrack;
 
 * {#BonesteelHormoziZikosSimon05} [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], p. 1 of: *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) &lbrack;[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)&rbrack;
 
