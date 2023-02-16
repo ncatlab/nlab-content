@@ -107,7 +107,7 @@ Original articles on the BCH model:
 
 On the CCHM model and type theory:
 
-* {#CohenCoquandHuberMoertberg17} [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://hal.inria.fr/hal-01378906/document))
+* {#CohenCoquandHuberMoertberg17} [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://arxiv.org/pdf/1611.02108.pdf))
 
 * {#CubicalCanonicity} [[Simon Huber]], _Canonicity for Cubical Type Theory_ ([arXiv:1607.04156](https://arxiv.org/abs/1607.04156))
 
