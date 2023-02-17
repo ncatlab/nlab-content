@@ -117,6 +117,8 @@ If the [[topological space]] $X$ of data may be assumed to be a [[smooth manifol
 
 * [[persistent homology]], [[persistent homotopy]]
 
+* [[applied topology]]
+
 * [[computational topology]]
 
 * [[machine learning]]
