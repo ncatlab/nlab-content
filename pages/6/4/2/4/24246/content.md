@@ -52,9 +52,13 @@ with a comprehensive account in:
 
 * {#NicholsThesis02} Alexander Nichols, *$SU(2)_k$ Logarithmic Conformal Field Theories*, PhD thesis, Oxford (2002) $[$[arXiv:hep-th/0210070](https://arxiv.org/abs/hep-th/0210070), [spire:599081](https://inspirehep.net/literature/599081)$]$
 
-And the $c = -1$ model and relation to the [[beta-gamma system]]:
+On the $c = -1$ model as the $\mathfrak{su}(2)$ [[WZW model]] at fractional level $-1/2$ and relation to the [[beta-gamma system]]:
 
-* F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *The $\mathfrak{su}(2)_{-1/2}$ WZW model and the beta-gamma system* $[$[arXiv:hep-th/0207201](https://arxiv.org/abs/hep-th/0207201)$]$
+* {#LesageMathieuRasmussenSaleur02} F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *The $\mathfrak{su}(2)_{-1/2}$ WZW model and the beta-gamma system*, Nucl. Phys. B **647** (2002) 363-403  $[$[arXiv:hep-th/0207201](https://arxiv.org/abs/hep-th/0207201), <a href="https://doi.org/10.1016/S0550-3213(02)00905-7">doi:10.1016/S0550-3213(02)00905-7</a>a$]$
+
+and its lift to a [[logarithmic CFT]]:
+
+* {#LesageMathieuRasmussenSaleur04} F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *Logarithmic lift of the $\mathfrak{su}(2)_{-1/2}$ model*, Nuclear Physics B **686** 3 (2004) 313-346 &lbrack;[doi:10.1016/j.nuclphysb.2004.02.039](https://doi.org/10.1016/j.nuclphysb.2004.02.039)&rbrack;
 
 
 
