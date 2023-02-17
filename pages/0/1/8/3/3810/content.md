@@ -51,10 +51,15 @@ Some of the questions in [[set theory|set]] and [[model theory]] concerning the 
 
 * {#Stanley99} [[Richard Stanley]], *Enumerative combinatorics 2*, Cambridge University Press (1999, 2010) ([doi:10.1017/CBO9780511609589](https://doi.org/10.1017/CBO9780511609589), [webpage](http://www-math.mit.edu/~rstan/ec/))
 
-
 * [[Bruce Sagan]], *Combinatorics: The Art of Counting*, Graduate studies in Mathematics **210**, AMS  ([ISBN:978-1-4704-6032-7](https://bookstore.ams.org/gsm-210) [pdf](https://users.math.msu.edu/users/bsagan/Books/Aoc/final.pdf))
 
 * Martin Aigner, *A Course in Enumeration*, Springer 2007 ([doi:10.1007/978-3-540-39035-0](https://link.springer.com/book/10.1007/978-3-540-39035-0))
+
+On combinatorics in [[algebraic topology]]:
+
+* [[Dmitry N. Kozlov]], *Trends in Topological Combinatorics* &lbrack;[arXiv:math/0507390](https://arxiv.org/abs/math/0507390)&rbrack;
+
+* [[Dmitry Kozlov]], *Combinatorial Algebraic Topology*,  Algorithms and Computation in Mathematics **21**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-71962-5](https://doi.org/10.1007/978-3-540-71962-5)&rbrack;
 
 [[!redirects combinatorial]]
 [[!redirects combinatorialist]]
