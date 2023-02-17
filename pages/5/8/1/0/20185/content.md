@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,6 +21,8 @@
 ## Related pages
 
 * [[computing]]
+
+* [[parallel computing]]
 
 * [[arithmetic cryptography]], 
 
