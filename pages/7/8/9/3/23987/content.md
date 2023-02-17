@@ -146,6 +146,8 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ### Jan 2023
 
+\linebreak
+
 * 12-15 Jan 2023
 
   **[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)** -- *Classical and Quantum Aspects*
@@ -437,8 +439,12 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 * {#MurrayFeb2023} 20 Feb 2023
 
   [[Zachary Murray]] 
+  
+  **Constructive Real Numbers in the Agda Proof Assistant**
 
-  > on coding the [[real numbers]] in [[Agda]]
+  cf. [arXiv:2205.08354](https://arxiv.org/abs/2205.08354)
+
+  > [[proof assistant|Proof assistant]] software enables the development of [[proofs]] in a manner such that a computer can verify their validity. As proof assistants commonly take the form of a [[programming language]], users face programming-related problems, such as the naturality of expressing ideas and algorithms in the language, usability, and performance. We will investigate these issues as they occur in developing [[Errett Bishop]]’s [[constructive analysis|constructive]] [[Cauchy real number|real numbers]] in the [[Agda]] [[proof assistant]] and [[functional programming language]], with an introduction to each.
 
 
 
