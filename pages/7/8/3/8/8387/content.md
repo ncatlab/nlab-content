@@ -39,11 +39,13 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 * [[canonical form]]
 
-* [[computational trinitarianism]]
+* [[computational trilogy]]
 
 * [[computational consistency]]
 
 * [[programming language]]
+
+* [[distributed computing]]
 
 * [[reversible computation]]
 
