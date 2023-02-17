@@ -251,6 +251,10 @@ Explicit models of $E_\infty$-operads include
 
 ## References
 
+A comprehensive reference for many known models is
+
+* [[André Beuckelmann]], [[Ieke Moerdijk]], _A small catalogue of $E_n$-operads_, [arXiv:2212.03842v1](https://arxiv.org/abs/2212.03842v1).
+
 Review includes
 
 * {#Fresse18} [[Benoit Fresse]], _Little discs operads, graph complexes and Grothendieck--Teichmüller groups_, in [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1811.12536](https://arxiv.org/abs/1811.12536))
