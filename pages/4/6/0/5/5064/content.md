@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -180,6 +181,8 @@ Thus, a $\beta$-$\gamma$ system can be interpreted as a chiral (or Kac-Moody) qu
 
 ## References
 
+### General
+
 * [[Nikita Nekrasov]], _Lectures on curved beta-gamma systems, pure spinors, and anomalies_, ([hep-th/0511008](http://arxiv.org/abs/hep-th/0511008))
 
 * [[Anton Zeitlin]], _Beta-gamma systems and the deformations of the BRST operator_, ([arxiv/0904.2234](http://arxiv.org/abs/0904.2234))
@@ -194,4 +197,19 @@ A construction of [[chiral differential operator]]s via quantization of $\beta\g
 * [[Vassily Gorbounov]], [[Owen Gwilliam]], Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
 
 * {#LinRoc20} [[Ulf Lindstrom]], [[Martin Rocek]], _$\beta$-$\gamma$-systems interacting with sigma-models_, ([arXiv:2004.06544](https://arxiv.org/abs/2004.06544v3))
+
+
+### As a fractional level or logarithmic CFT
+
+On the beta-gamma system as the [[su(2)|$\mathfrak{su}(2)$]] [[WZW model]] at fractional [[level (Chern-Simons theory)|level]] $-1/2$:
+
+* {#LesageMathieuRasmussenSaleur02} F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *The $\mathfrak{su}(2)_{-1/2}$ WZW model and the beta-gamma system*, Nucl. Phys. B **647** (2002) 363-403  $[$[arXiv:hep-th/0207201](https://arxiv.org/abs/hep-th/0207201), <a href="https://doi.org/10.1016/S0550-3213(02)00905-7">doi:10.1016/S0550-3213(02)00905-7</a>a$]$
+
+and its lift to a [[logarithmic CFT]]:
+
+* {#LesageMathieuRasmussenSaleur04} F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *Logarithmic lift of the $\mathfrak{su}(2)_{-1/2}$ model*, Nuclear Physics B **686** 3 (2004) 313-346 &lbrack;[doi:10.1016/j.nuclphysb.2004.02.039](https://doi.org/10.1016/j.nuclphysb.2004.02.039)&rbrack;
+
+
+
+
 
