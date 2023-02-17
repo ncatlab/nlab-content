@@ -72,7 +72,7 @@ $$
 
 The situation with monoids is very similar to the situation with groups. 
 
-The **torsion subgroup** of a [[monoid]] $M \in $ [[Mon]] is the [[submonoid]] of all those [[elements]] $m \,\in\, M$ for which some power is the [[neutral element]]
+The **torsion subgroup** of a [[commutative monoid]] $M \in $ [[Mon]] is the [[submonoid]] of all those [[elements]] $m \,\in\, M$ for which some power is the [[neutral element]]
 $$
   m \in M \;\text{is torsion}
   \;\;\;\;\;\;\Leftrightarrow\;\;\;\;\;\;
