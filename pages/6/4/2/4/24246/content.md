@@ -51,6 +51,13 @@ with a comprehensive account in:
 
 * {#NicholsThesis02} Alexander Nichols, *$SU(2)_k$ Logarithmic Conformal Field Theories*, PhD thesis, Oxford (2002) $[$[arXiv:hep-th/0210070](https://arxiv.org/abs/hep-th/0210070), [spire:599081](https://inspirehep.net/literature/599081)$]$
 
+And the $c = -1$ model and relation to the [[beta-gamma system]]:
+
+* F. Lesage, P. Mathieu, J. Rasmussen, H. Saleur, *The $\mathfrak{su}(2)_{-1/2}$ WZW model and the beta-gamma system* $[$[arXiv:hep-th/0207201](https://arxiv.org/abs/hep-th/0207201)$]$
+
+
+
+
 On quasi-characters at fractional level:
 
 * Sachin Grover, *Quasi-Characters in $\widehat{\mathfrak{su}}(2)$ Current Algebra at Fractional Levels* $[$[arXiv:2208.09037](https://arxiv.org/abs/2208.09037)$]$
