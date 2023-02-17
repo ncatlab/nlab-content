@@ -20,6 +20,10 @@
 
 ## Related entries
 
+* [[computing]]
+
+* [[distributed computing]]
+
 * [[concurrency theory]]
 
 * [[quantum parallelism]], [[quantum computing]]
