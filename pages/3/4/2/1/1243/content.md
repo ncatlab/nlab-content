@@ -22,7 +22,7 @@ Beware that there are other, completely independent, concepts referred to as _[[
 
 ### In groups
 
-The **torsion subgroup** of a [[group]] $G \in $ [[Grp]] is the [[subgroup]] of all those [[elements]] $g \,\in\, G$, which have [[finite number|finite]] [[order]], i.e. those for which  some power is the [[neutral element]]
+The **torsion subgroup** of an [[abelian group]] $G \in $ [[Grp]] is the [[subgroup]] of all those [[elements]] $g \,\in\, G$, which have [[finite number|finite]] [[order]], i.e. those for which  some power is the [[neutral element]]
 $$
   g \in G \;\text{is torsion}
   \;\;\;\;\;\;\Leftrightarrow\;\;\;\;\;\;
@@ -48,7 +48,7 @@ A group is
 
 * *torsion-free* if its torsion subgroup is [[trivial subgroup|trivial]].
 
-Notice that for [[abelian groups]] $A \in $ [[AbGrp]], where the group operation is traditionally written as addition $+$ and the [[neutral element]] is written as zero, this reads:
+Notice that for [[abelian groups]] $A \in $ [[AbGrp]] the group operation is often written additively, namely as "$+$" and the [[neutral element]] is written as zero, whence this reads:
 
 $$
   a \in A \;\text{is torsion}
