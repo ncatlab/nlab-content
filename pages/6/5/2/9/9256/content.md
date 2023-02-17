@@ -25,6 +25,8 @@
 
 ## Subareas
 
+* [[applied topology]]
+
 * [[computational homology]]
 
 * [[persistent homology]]
