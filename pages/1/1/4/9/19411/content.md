@@ -15,6 +15,11 @@ On [[C-field tadpole cancellation]]:
 
 * {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
 
+On the [[WZW model]] [[2d CFT]] ar fractional [[level (Chern-Simons theory)|level]]:
+
+
+* [[Sunil Mukhi]], Sudhakar Panda, *Fractional-level current algebras and the classification of characters*, Nuclear Physics B **338** 1 (1990) 263-282 $[$<a href="https://doi.org/10.1016/0550-3213(90)90632-N">doi:10.1016/0550-3213(90)90632-N</a>$]$
+
 On the [[pp-wave spacetime]] [[Penrose limit]] of the [[AdS5-CFT4 correspondence]]:
 
 * N. Itzhaki, [[Igor Klebanov]], [[Sunil Mukhi]], _PP Wave Limit and Enhanced Supersymmetry in Gauge Theories_, JHEP 0203 (2002) 048 ([arXiv:hep-th/0202153](https://arxiv.org/abs/hep-th/0202153))
