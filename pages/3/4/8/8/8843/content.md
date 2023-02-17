@@ -10,14 +10,12 @@ The notion of [[o-minimal structure]] has been proposed as a reasonable candidat
 
 * [[Lou van den Dries]], _Exponential rings, exponential polynomials and exponential functions_ , Pacific Journal of Mathematics **113** no.1 (1984) pp.51&#8211;66. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.pjm/1102709376))
 
-* [[Lou van den Dries]], _A Generalization of the Tarski-Seidenberg
-Theorem and Some Nondefinability Results_ , Bull. Am. Math. Soc.
-**15** (1986) pp.189-193. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183553469))
+* [[Lou van den Dries]], _A Generalization of the Tarski-Seidenberg Theorem and Some Nondefinability Results_ , Bull. Am. Math. Soc. **15** (1986) pp.189-193. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183553469))
 
 * [[Lou van den Dries]], _Tame topology and O-minimal structures_, London Math. Soc. Lecture Notes Series __248__, Cambridge U. Press 1998. 
 
 * [[Alexandre Grothendieck]], _Esquisse d'un Programme_, section 5. English translation available in Geometric Galois Actions I (edited by L. Schneps and P. Lochak), LMS Lecture Notes Ser. 242, CUP 1997. 
 
-* Yuliy Baryshnikov, Robert Ghrist, _Euler integration over definable functions_ ([pdf](http://www.math.upenn.edu/~ghrist/preprints/definable.pdf)) 
+* Yuliy Baryshnikov, [[Robert Ghrist]], _Euler integration over definable functions_ ([pdf](http://www.math.upenn.edu/~ghrist/preprints/definable.pdf)) 
 
 * Jean Philippe Rolin, 
