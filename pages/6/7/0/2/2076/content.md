@@ -134,6 +134,10 @@ See also:
 
 There has been some historical discussion on this in the category list; Zoran's response is [here](http://mathlight.wordpress.com/2010/01/07/becks-theorem-vs-benabou-roubaud).
 
+The following reference presents a proof for a (generalization) of the Bénabou-Roubaud Theorem (pages 435 and 436):
+
+* [[Fernando Lucatelli Nunes]], *Pseudo-Kan extensions and descent theory*, TAC [33-15] (http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
+
 [[!redirects Benabou-Roubaud theorem]]
 [[!redirects Benabou–Roubaud theorem]]
 [[!redirects Benabou--Roubaud theorem]]
