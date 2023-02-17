@@ -1,9 +1,10 @@
 
-
 ### On fractional-level WZW models as logarithmic CFTs
  {#FractionalLevelWZWModelReferences}
 
 On [[WZW models]] at [[rational number|fractional]] [[level (Chern-Simons theory)|level]]:
+
+* [[Sunil Mukhi]], Sudhakar Panda, *Fractional-level current algebras and the classification of characters*, Nuclear Physics B **338** 1 (1990) 263-282 $[$<a href="https://doi.org/10.1016/0550-3213(90)90632-N">doi:10.1016/0550-3213(90)90632-N</a>$]$
 
 * [[Hidetoshi Awata]], [[Yasuhiko Yamada]], *Fusion rules for the fractional level $\widehat{\mathfrak{sl}(2)}$ algebra*,     Mod. Phys. Lett. A **7** (1992) 1185-1196 $[$[spire:332974](https://inspirehep.net/literature/332974), [doi:10.1142/S0217732392003645](https://doi.org/10.1142/S0217732392003645)$]$
 
