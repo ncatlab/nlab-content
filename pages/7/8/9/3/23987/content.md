@@ -833,6 +833,15 @@ Stone-von Neumann**
 
   > This is the bulk-boundary correspondence of the title. Time permitting, we will describe how such a correspondence appears in the [[deformation quantization]] of [[Poisson manifolds]].
 
+\linebreak
+
+* 22 Feb 2023
+
+  [[Dmitry Kozlov]]
+
+  **Applied and Computational Topology**
+
+  > We will give a brief introduction to the subject of [[applied topology|Applied]] and [[computational topology|Computational Topology]]. The survey of the subject's main ideas and tools will be complemented with applications to [[discrete mathematics]] and to theoretical [[distributed computing]]. We will conclude with stating an open problem in combinatorial topology which is related to the complexity of the Weak Symmetry Breaking distributed task.
 
  
 
