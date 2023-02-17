@@ -99,7 +99,7 @@ $$
   J \hookrightarrow \Omega
 $$
 
-satisfying three conditions. This perspective gives the direct relation to [[Grothendieck topologies]], as discussed [below](RelationToGrothendieckTopology).
+satisfying three conditions. This perspective gives the direct relation to [[Grothendieck topologies]], as discussed [below](#RelationToGrothendieckTopology).
 
 =--
 
@@ -257,7 +257,7 @@ $$
 
 since we have
 
-$$Sieves_C (U)=Sub_C(y(U))=hom(y(U),\Omega)=\Omega(U)$$
+$$Sieves_C (U)=Sub_E(y(U))=hom(y(U),\Omega)=\Omega(U)$$
 
 A [[subobject]] $J \hookrightarrow \Omega$ is therefore precisely a choice of a collection of sieves on each object, which is closed under pullback. The proof therefore amounts to checking that the condition that such a collection of sieves is a [[Grothendieck topology]] on $C$ is equivalent to the statement that the characteristic map $j : \Omega \to \Omega$ of $J \hookrightarrow \Omega$ (see remark \ref{LTTopologyAsSubobject}) is a Lawvere-Tierney topology. 
 
