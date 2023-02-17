@@ -43,20 +43,20 @@ one says that
 ###### Example
 **(discrete and co-discrete topology)**
 
-Let $S$ be any [[set]]. Then there are always the following two extreme
+Let $X$ be any [[set]]. Then there are always the following two extreme
 possibilities of equipping $X$ with a topology $\tau \subset P(X)$, and hence making it a [[topological space]]:
 
-1. $\tau \coloneq P(S)$ the set of _all_ open subsets; 
+1. $\tau \coloneqq P(X)$ the set of _all_ subsets; 
 
-   this is called the _[[discrete topology]]_ on $S$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
+   this is called the _[[discrete topology]]_ on $X$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
    
-   we write $Disc(S)$ for the resulting topological space;
+   we write $Disc(X)$ for the resulting topological space;
 
-1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
+1. $\tau \coloneqq \{ \emptyset, X \}$ the set contaning only the [[empty set|empty]] subset of $X$ and all of $X$ itself;
 
-   this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
+   this is called the _[[codiscrete topology]]_ on $X$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
    
-   we write $CoDisc(S)$ for the resulting topological space.
+   we write $CoDisc(X)$ for the resulting topological space.
    
 
 =--
