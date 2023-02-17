@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Computing
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
+
 \tableofcontents
 
 \section{Introduction}
@@ -8,8 +21,7 @@ Blockchain can be considered as certain data structure -- chain of blocks -- whi
 which follow a commonly accepted algorithm and each contains a copy of the blockchain (full node) or its essential part. Who adds a block, or whose added block is respected by other nodes is a part of the algorithm (blockchain protocol) and is desirable to be byzantine fault tolerant. The securest algorithm in nontrusted environment (public blockchain) is the proof of work algorithm. Regarding that blockchain is a tool to establish noncentralized record verification it is common to use blockchains to carry records of assets, including cryptocurrencies and other token, off chain assets, credential records, verification proofs and so on. These data and transaction steps belong and are authorized by accounts. Modern blockchain protocols
 assume also that code handling assets in deterministic manner may be part of the account, when the nodes add new blocks they should also execute the code of the contract, within a blockchain virtual machine; such accounts are called [[smart contract]]s and realize in a specific way the idea of smart contracts outlined in theoretical computer science before the blockchain era. 
 
-The phrase _distributed ledger_ is sometimes viewed as a synonym. Technically,
-distributed ledger is the same idea realized in a more general setup where the record may be organized in non-linear structure, for example when the blocks form a DAG (directed acyclic graph) rather than a single chain, with appropriate protocol. 
+The phrase _distributed ledger_ is sometimes viewed as a synonym. Technically, distributed ledger is the same idea realized in a more general setup where the record may be organized in non-linear structure, for example when the blocks form a DAG (directed acyclic graph) rather than a single chain, with appropriate protocol. 
 
 \section{Proof of work}
 
@@ -36,6 +48,10 @@ There are various further details, but this is the rough idea.
 While in its way ingenious, the use of proof of work underlying the notion of a blockchain is rather crude. Enormous amounts of electricity, for example, are [being consumed](https://digiconomist.net/bitcoin-energy-consumption) by large blockchain networks such as bitcoin during proof of work, whilst the outcome of that proof of work is typically useless. This is not sustainable. 
 
 A different criticism regards the algorithm itself. If nodes were to co-operate in such a way that they controlled over 50% of the computational power on the network, a tampering attempt would eventually be able to 'catch up' with the honest additions to the blockchain. 
+
+\section{Related concepts}
+
+* [[distributed computing]]
 
 \section{References}
 
@@ -78,7 +94,9 @@ ledger_, Ethereum, Tech. Rep. 2017
 * Joseph Poon, Vitalik Buterin, _Plasma: scalable autonomous smart contracts_,
 [pdf](https://www.plasma.io/plasma.pdf)
 * Joseph Poon, Tadge Dryja, _Lightning network_, [pdf](https://lightning.network/lightning-network-paper.pdf) Mar 2015.
+
 * [[Vitalik Buterin]], _Chain interoperability_, R3 reports, Sep 2016 [pdf](https://www.r3.com/wp-content/uploads/2018/04/Chain_Interoperability_R3.pdf)
+
 * Tier Nolan, _Re: Alt chains and atomic transfers_, 2013, bitcointalk discussion [post](https://bitcointalk.org/index.php?topic=193281.msg2224949#msg2224949)
 * [[Nikolai Durov]], _Telegram Open Network_, 132 pp. Dec 2017 [pdf](https://toncoin.tech/TON-official-whitepaper.pdf), mirror [pdf](https://www.kriptovaluta.hr/wp-content/uploads/2018/03/TON-Technology.pdf); _Telegram Open Network Blockchain_, Sep 2018, 121 pp. [pdf](https://www.docdroid.net/qY4sQEv/telegram-open-network-blockchain-september-5-2018.pdf); _Telegram Open Network Virtual Machine_, Sep. 2018, 148 pp. [pdf](https://www.docdroid.net/R3vEKBY/telegram-open-network-virtual-machine-september-5-2018.pdf); _Fift: a brief introduction_ (about a new programming language on TON), May 23, 2019, 87 pp. pdf is at channel [t.me/Tgram/170](https://t.me/Tgram/170)
 * L. Baird, _The Swirlds hashgraph consensus algorithm: fair, fast, byzantine fault tolerance_, [pdf](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf) (May 2016); _Hashgraph consensus: detailed examples_ [pdf](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf); _Overview of Swirlds Hashgraph: An Introduction To The Hashgraph (SDK Available Now)_ [online](https://steemit.com/technology/@swirlds/overview-of-swirlds-hashgraph-an-introduction-to-the-hashgraph-sdk-available-now); [Hedera](https://www.hedera.com/whitepaper) Hashgraph whitepaper [pdf](https://www.hedera.com/hh-whitepaper-v1.5-190219.pdf); intro to whitepaper [web](https://www.hedera.com/whitepaper)
