@@ -45,9 +45,13 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 * [[programming language]]
 
+* [[parallel computing]]
+
 * [[distributed computing]]
 
 * [[reversible computation]]
+
+* [[nondeterministic computing]]
 
 * [[quantum computation]], [[computable physics]]
 
