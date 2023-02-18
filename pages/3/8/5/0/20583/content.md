@@ -41,7 +41,7 @@ I \otimes \phi(A)
 \arrow[d, "{\phi(A', A'') \otimes 1}"']
 & 
 \\
-\phi(A'') \otimes \mathbf{B}(FA', FA'') \mathbf{B}(FA, FA')
+\phi(A'') \otimes \mathbf{B}(FA', FA'') \otimes  \mathbf{B}(FA, FA')
 \arrow[r, "1 \otimes \circ_{FA, FA', FA''}"']
 & \phi(A'') \otimes \mathbf{B}(FA, FA'')
 \end{tikzcd}
