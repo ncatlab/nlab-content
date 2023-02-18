@@ -757,6 +757,8 @@ Stone-von Neumann**
 
   video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543)
 
+  cf.: [arXiv:2302.07855](https://arxiv.org/abs/2302.07855)
+
   > At its current state of the art, [[(infinity,1)-category theory|$\infty$-category theory]] is challenging to explain even to specialists in closely related mathematical areas. Nevertheless, historical experience suggests that in, say, a century's time, we will routinely teach this material to undergraduates. This talk describes one dream about how this might come about --- under the assumption that 22nd century undergraduates have absorbed the background intuitions of [[homotopy type theory]]/[[univalent foundations]].
 
 \linebreak
@@ -770,7 +772,7 @@ Stone-von Neumann**
 
   slides: [[Finster-CQTS2022.pdf:file]]
 
-  video: [rec](https://nyu.zoom.us/rec/share/MFJT2B2SX8XUsB0n4z-hwMKb-mxyenQhE5HgBC72qIdHb-ixm7FqQ_KN8hDa0YWl.tEp5kHPzkef1ZDHU)
+  video: [rec](https://nyu.zoom.us/rec/share/MFJT2B2SX8XUsB0n4z-hwMKb-mxyenQhE5HgBC72qIdHb-ixm7FqQ_KN8hDa0YWl.tEp5kHPzkef1ZDHU), [YT](https://www.youtube.com/watch?v=RFm1nz6YV_U)
 
   > A major outstanding difficulty in [[homotopy type theory|Homotopy Type Theory]] is the description of [[coherence law|coherent]] [[nLab:higher algebra|higher algebraic structures]]. As an example, we know that the algebraic structure possessed by the collection of types and functions between them is *not* a traditional 1-category, but rather an [[(infinity,1)-category|(∞,1)-category]]. In this talk, I will describe how the addition of a finite collection of additional definitional equalities designed to render the notion of "[[opetopic type theory|opetopic type]]" definable in fact allows one to construct the [[(∞,1)-category]] structure on the [[universe of types]].
 
@@ -794,7 +796,7 @@ Stone-von Neumann**
 
   **Simplicial, Differential, and Equivariant Homotopy Type Theory**
 
-  video: [rec](https://nyu.zoom.us/rec/play/uk0LXy5ub2YUpJPhYq5p7GvpZ2I8_CZaWHSpWvZgwuUyHeWjXgUj2AQd21K1WSJo90V5DrE0BVhl7NuB.QbyHhtPHaJVQUj2A?continueMode=true&_x_zm_rtaid=Xyx9WZFLQzyRzu0Oh-2mNQ.1675318497581.13147cc7929a947e978b29124a207f98&_x_zm_rhtaid=938)
+  video: [rec](https://nyu.zoom.us/rec/play/uk0LXy5ub2YUpJPhYq5p7GvpZ2I8_CZaWHSpWvZgwuUyHeWjXgUj2AQd21K1WSJo90V5DrE0BVhl7NuB.QbyHhtPHaJVQUj2A?continueMode=true&_x_zm_rtaid=Xyx9WZFLQzyRzu0Oh-2mNQ.1675318497581.13147cc7929a947e978b29124a207f98&_x_zm_rhtaid=938), [YT](https://www.youtube.com/watch?v=4bj0M2L95Kw)
 
   cf.: [arXiv:2301.13780](https://arxiv.org/abs/2301.13780)
 
