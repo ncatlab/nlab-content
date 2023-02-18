@@ -2,6 +2,11 @@
 
 ## Selected writings
 
+On [[intuitionistic logic]]:
+
+* [[Hans Freudenthal]], *Zur intuitionistischen Deutung logischer Formeln*, Comp. Math. **4** (1937) 112-116 &lbrack;[numdam:CM_1937__4__112_0](http://www.numdam.org/item/?id=CM_1937__4__112_0)&rbrack;
+
+
 Introducing the [[Freudenthal suspension theorem]] (and the terminology "[[stem of homotopy groups of spheres]]"):
 
 * {#Freudenthal38} [[Hans Freudenthal]], first paragraph of: _Über die Klassen der Sphärenabbildungen I. Große Dimensionen_, Compositio Mathematica, Tome 5 (1938) , pp. 299-314  ([numdam:CM_1938__5__299_0](http://www.numdam.org/item/?id=CM_1938__5__299_0))
