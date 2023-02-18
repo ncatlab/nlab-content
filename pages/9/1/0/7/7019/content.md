@@ -76,7 +76,7 @@ The correspondence between the various terminologies is indicated in the followi
 
 The notion of "homotopy levels" (as a notion in [[type theory]]) originates with:
 
-* {#Voevodsky10} [[Vladimir Voevodsky]], p. 8, 10-11 of: *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+* {#Voevodsky10} [[Vladimir Voevodsky]], *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
 
 Further discussion:
 
