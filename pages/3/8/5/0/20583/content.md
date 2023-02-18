@@ -1,20 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+=--
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-When we define internal categories of some category $\mathcal{C}$ as monads in $\mathrm{Span}(\mathcal{C})$, there is a subtlety concerning the definition of internal functors. It is not the case that the morphisms of monads (namely colax monad morphisms) give us internal functors directly: we need to ask that the 1-cell of the morphism is a left adjoint in $\mathrm{Span}(\mathcal{C})$ (which corresponds to asking that the left leg of the span be the identity, or an isomorphism). (This is related to the [[profunctor#Properties|behaviour of profunctors]] in that they correspond to functors (via Yoneda) exactly when they are left adjoints.)  If in considering morphisms of monads in $Span(\mathcal{C})$ we _don't_ require this left-adjoint condition then we end up constructing **Mealy morphisms** between internal categories. 
+When we define [[internal categories]] of some category $\mathcal{C}$ as [[monads]] in the [[category of spans]] $\mathrm{Span}(\mathcal{C})$, there is a subtlety concerning the definition of [[internal functors]]. It is not the case that the morphisms of monads (namely [[colax morphism|colax]] monad morphisms) give us [[internal functors]] directly: we need to ask that the 1-cell of the morphism is a [[left adjoint]] in $\mathrm{Span}(\mathcal{C})$ (which corresponds to asking that the left leg of the span be the identity, or an isomorphism). (This is related to the [[profunctor#Properties|behaviour of profunctors]] in that they correspond to functors (via the [[Yoneda embedding]]) exactly when they are [[left adjoints]].)  If in considering morphisms of monads in $Span(\mathcal{C})$ we _don't_ require this left-adjoint condition then we end up constructing **Mealy morphisms** between internal categories. 
 
 'Mealy morphisms' are  named after [[Mealy machines]], which, in turn, were named after  [[George H. Mealy]].
 
 ## Definition
 
-Let $\mathbf{A}$ and $\mathbf{B}$ be categories [[enriched category|enriched]] in a [[monoidal category]] $(\mathbf{V}, I, \otimes)$. 
+Let $\mathbf{A}$ and $\mathbf{B}$ be [[categories]] [[enriched category|enriched]] in a [[monoidal category]] $(\mathbf{V}, I, \otimes)$. 
 
 A *Mealy morphism* $(F, \phi) \colon \mathbf{A} \rightarrow \mathbf{B}$ 
-consists of a pair of functions $F \colon Ob\mathbf{A} \rightarrow Ob\mathbf{B}$ and $\phi \colon \mathbf{A} \rightarrow \mathbf{V}$, 
-and for each pair of objects $A, A'$ in $\mathbf{A}$ a function
+consists of a [[pair]] of [[functions]] $F \colon Ob\mathbf{A} \rightarrow Ob\mathbf{B}$ and $\phi \colon \mathbf{A} \rightarrow \mathbf{V}$, 
+and for each [[pair]] of [[objects]] $A, A'$ in $\mathbf{A}$ a function
 \[
 \phi(A, A') \colon \mathbf{A}(A, A') \otimes \phi(A) \longrightarrow \phi(A') \otimes \mathbf{B}(FA, FA')
 \]
