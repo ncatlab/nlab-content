@@ -168,7 +168,11 @@ The [[(infinity,1)-topos|$(\infty,1)$-topos]] theoretic version:
 
 * [[Jacob Lurie]], section 6.5 of [[Higher Topos Theory]]
 
-A formalization in [[homotopy type theory]] written in [[Agda]] is in 
+The analogous formulation in [[homotopy type theory]]:
+
+* {#UFP13} [[Univalent Foundations Project]], §8.8 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+Corresponding formalization in [[Agda]]:
 
 * [[Dan Licata]], _[Whitehead.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Whitehead.agda)_
 
