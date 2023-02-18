@@ -22,7 +22,7 @@ and regarded as a [[programming language]]:
 
 * [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>, [pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
 
-and with emphasis on the meaning of the [[type formation]]-rules:
+and with emphasis on the meaning of [[judgements]] and [[type formation]]-rules (via the [intuitionistic interpretation of connectives](intuitionistic +logic#ConstructiveInterpretationOfConnectives)):
 
 * {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
