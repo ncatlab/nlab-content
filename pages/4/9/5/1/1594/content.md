@@ -292,9 +292,11 @@ On [[orbifolds]] regarded as naive local [[quotient spaces]] (instead of [[homot
 
 * {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
 
-On this approach seen in the broader context of [[higher differential geometry]]:
+On this approach seen in the broader context of [[cohesive homotopy theory|cohesive]] [[higher differential geometry]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+* [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
 
 
 ### Orbifold cobordism
