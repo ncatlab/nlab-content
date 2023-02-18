@@ -469,9 +469,7 @@ By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map
 
 The original reference is
 
-* [[Arend Heyting]],
-_Die formalen Regeln der intuitionistischen Logik. I, II, III._
-Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930), 42-56, 57-71, 158-169.
+* [[Arend Heyting]], *Die formalen Regeln der intuitionistischen Logik. I, II, III.* Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930) 42-56, 57-71, 158-169.
  
 
 A quick introduction can be found in §1.2 of
