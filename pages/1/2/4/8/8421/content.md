@@ -197,6 +197,9 @@ Inference rules in [[type theory]], for [[type formation]], [[term introduction]
 
 Introductions:
 
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), §2 of: *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+
+
 * {#MartinLoef96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
 
 * [[Paul Downen]], [[Zena M. Ariola]], *A tutorial on computational classical logic and the sequent calculus*, Journal of Functional Programming **28** (2018) e3 &lbrack;[doi:10.1017/S0956796818000023](https://doi.org/10.1017/S0956796818000023), [pdf](https://www.pauldownen.com/publications/sequent-intro.pdf)&rbrack;
