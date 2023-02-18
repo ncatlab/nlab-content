@@ -1,6 +1,8 @@
 
 A __logical connective__ is an [[function]] (possibly [[multifunction|of several variables]]) between [[propositions]] or the like.  The term 'connective' is used in [[mathematical logic]] because 'function' and 'operator' are often features of what the logic describes.  So 'connective' refers to a feature of the [[metalanguage]], while 'function' or 'operator' usually refer to features of the object language.
 
+[[!include logic symbols -- table]]
+
 
 [[!redirects logical connective]]
 [[!redirects logical connectives]]
