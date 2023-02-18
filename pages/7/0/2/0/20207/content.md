@@ -57,6 +57,11 @@ On [[twisted cohomology]] towards [hypergeometric integral KZ-solutions](Knizhni
 
 * [[David Jaz Myers]], *Objective Cohomology -- Towards topological quantum computation*, talk at *Geometry, Topology and Physics*-Seminar at [[CQTS]] ([Sep 2022](Center+for+Quantum+and+Topological+Systems#DavidJMyers22)) &lbrack;[[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]&rbrack;
 
+On [[orbifolds]] in [[differential cohesive (infinity,1)-topos|differential]] [[cohesive homotopy type theory]]:
+
+* [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
+
+
 On [[cohesive homotopy type theory]] with a pair of commuting cohesive structures (such as for [[differential cohomology|differential]] [[orbifold cohomology]]):
 
 * [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
