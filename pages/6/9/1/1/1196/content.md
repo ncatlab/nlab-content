@@ -29,7 +29,7 @@ Intuitionistic logic is most easily described as [[classical logic]] without the
 ### Constructive interpretation of connectives
  {#ConstructiveInterpretationOfConnectives}
 
-The *intuitionistic interpretation* of the [[logical connectives]] is such that the resulting [[proposition]] is regarded as [[true]] if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
+The *intuitionistic interpretation* of the [[logical connectives]] ([[Brouwer-Heyting-Kolmogorov interpretation]]) is such that the resulting [[proposition]] is regarded as [[true]] if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
 
 Notably, to assert a [[logical disjunction]] ("or") or an [[existential quantification]] ("exists") is taken to mean to prove one of the instances, so that there is no intuitionistic existence statement without construction of an example (the "disjunction property", see [below](#DisjunctionProperty)).
 
@@ -37,7 +37,7 @@ This constructive interpretation of logical truth is the crux of the rejection o
 
 (Here the classical mathematician is regarded as "idealistic" in their assumption that either case must hold, even if it is impossible to tell which one.)
 
-From [Bridges (1999), p. 96](#Bridges99):
+{#FromBridges} From [Bridges (1999), p. 96](#Bridges99):
 
 \begin{imagefromfile}
     "file_name": "Bridges-IntuitInterpOfConnectives.jpg",
@@ -99,7 +99,11 @@ The principle of [[excluded middle]] is not provable in intuitionistic logic, an
 
 Original articles:
 
-* {#Heyting1930} [[Arend Heyting]], *Die formalen Regeln der intuitionistischen Logik. I, II, III.* Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930) 42-56, 57-71, 158-169.
+* {#Heyting1930} [[Arend Heyting]], *Die formalen Regeln der intuitionistischen Logik. I, II, III.* Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930) 42-56, 57-71, 158-169
+
+  abridged reprint in:
+
+  Karel Berka, Lothar Kreiser (eds.), *Logik-Texte*, De Gruyter (1986) 188-192 &lbrack;[doi:10.1515/9783112645826](https://doi.org/10.1515/9783112645826)&rbrack;
 
 See also:
 
