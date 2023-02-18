@@ -29,13 +29,59 @@ Intuitionistic logic is most easily described as [[classical logic]] without the
 ### Constructive interpretation of connectives
  {#ConstructiveInterpretationOfConnectives}
 
-The *intuitionistic interpretation* of the [[logical connectives]] ([[Brouwer-Heyting-Kolmogorov interpretation]]) is such that the resulting [[proposition]] is regarded as [[true]] if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
+The *intuitionistic interpretation* of the [[logical connectives]] (known as the [[BHK interpretation]], due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Troelstra (1969, §2)](#Troelstra69)) is such that the resulting [[proposition]] is regarded as [[true]] if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
 
-Notably, to assert a [[logical disjunction]] ("or") or an [[existential quantification]] ("exists") is taken to mean to prove one of the instances, so that there is no intuitionistic existence statement without construction of an example (the "disjunction property", see [below](#DisjunctionProperty)).
+For instance, to assert a [[logical disjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof of all the instances.
+
+Dually but more notably, to assert a [[logical disjunction]] ("or") or an [[existential quantification]] ("exists") is taken to mean to prove one of the instances, so that there is no intuitionistic existence statement without construction of an example (the "disjunction property", see [below](#DisjunctionProperty)).
 
 This constructive interpretation of logical truth is the crux of the rejection of the [[principle of excluded middle]], for it implies that to prove $P \vee (\not P)$ (which may superficially/classically seem tautologous) one must prove $P$ or one must prove $\not P$ --- but neither proof may be known (e.g. if $P$ = [[Riemann hypothesis]]). 
 
 (Here the classical mathematician is regarded as "idealistic" in their assumption that either case must hold, even if it is impossible to tell which one.)
+
+{#FromKolmogorov} From [Kolmogorov (1932, p. 59)](#Kolmogorov32):
+
+\begin{imagefromfile}
+    "file_name": "KolmogorovIntroducingBHK.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+From [Troelstra (1969, p. 5)](#Troelstra69):
+
+\begin{imagefromfile}
+    "file_name": "Troelstra-IntroducingBHKInterp.jpg",
+    "width": 660,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+From [Troelstra (1977, p. 977)](#Troelstra77):
+
+\begin{imagefromfile}
+    "file_name": "Troelstra-AttributingBHK.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 {#FromBridges} From [Bridges (1999), p. 96](#Bridges99):
 
@@ -52,7 +98,7 @@ This constructive interpretation of logical truth is the crux of the rejection o
 \end{imagefromfile}
 
 
-An analogous discussion for [[inference rules]] in [[intuitionistic type theory]] is given in [Martin-Löf (1996, Lec 3)](#MartinLöf96).
+The analogous discussion for [[inference rules]] in [[intuitionistic type theory]] is then given spring in [Girard (1989, §2)](#Girard89) and with more emphasis in [Martin-Löf (1996, Lec 3)](#MartinLöf96).
 
 
 ## Properties
@@ -97,7 +143,7 @@ The principle of [[excluded middle]] is not provable in intuitionistic logic, an
 
 ## References
 
-Original articles:
+Original articles on [[intuitionism]]:
 
 * {#Heyting1930} [[Arend Heyting]], *Die formalen Regeln der intuitionistischen Logik. I, II, III.* Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930) 42-56, 57-71, 158-169
 
@@ -105,19 +151,45 @@ Original articles:
 
   Karel Berka, Lothar Kreiser (eds.), *Logik-Texte*, De Gruyter (1986) 188-192 &lbrack;[doi:10.1515/9783112645826](https://doi.org/10.1515/9783112645826)&rbrack;
 
+* [[Arend Heyting]], *Die intuitionistische Grundlegung der Mathematik*, Erkenntnis **2** (1931) 106-115 &lbrack;[jsotr:20011630](https://www.jstor.org/stable/20011630), [pdf](http://www.psiquadrat.de/downloads/heyting1931.pdf)&rbrack;
+
+* {#Kolmogorov32} [[Andrey Kolmogorov]], *Zur Deutung der intuitionistischen Logik*, Math. Z. **35** (1932) 58-65 &lbrack;[doi:10.1007/BF01186549](https://link.springer.com/article/10.1007/BF01186549)&rbrack;
+
+* [[Hans Freudenthal]], *Zur intuitionistischen Deutung logischer Formeln*, Comp. Math. **4** (1937) 112-116 &lbrack;[numdam:CM_1937__4__112_0](http://www.numdam.org/item/?id=CM_1937__4__112_0)&rbrack;
+
+* [[Arend Heyting]], *Bemerkungen zu dem Aufsatz von Herrn Freudenthal "Zur intuitionistischen Deutung logischer Formeln"*, Comp. Math. **4** (1937) 117-118 &lbrack;[doi:CM_1937__4__117_0](http://www.numdam.org/item/?id=CM_1937__4__117_0)&rbrack;
+
+* [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
+
+* {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
+
+The [[BHK interpretation]] of [[intuitionistic logic]] is due to:
+
+* {#Troelstra69} [[Anne Sjerp Troelstra]], §2 of: *Principles of Intuitionism*, Lecture Notes in Mathematics **95** Springer Heidelberg (1969)  &lbrack;[doi:10.1007/BFb0080643](https://link.springer.com/book/10.1007/BFb0080643)&rbrack;
+
+(where it is presented as the author's invention) and then in
+
+* {#Troelstra77} [[Anne Sjerp Troelstra]], §2 of: *Aspects of Constructive Mathematics*, Studies in Logic and the Foundations of Mathematics **90** 973-1052 (1977) &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)71127-3">doi:10.1016/S0049-237X(08)71127-3</a>&rbrack;
+
+(where the same is now called the "Brouwer-Heyting-*Kreisel* explanation")
+
+and then in the context of [[intuitionistic type theory]]:
+
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), §1.2.2 of: *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+
+(where it is called *Heyting semantics*), further expanded on on:
+
+* {#MartinLöf96} [[Per Martin-Löf]], Lecture 3 of: *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
+ 
+and recalled in the context of [[constructive analysis]]:
+
+* {#Bridges99}  [[Douglas Bridges]], p. 96 of: *Constructive mathematics: a foundation for computable analysis*, Theoretical Computer Science **219** 1–2 (1999) 95-109 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00285-0">doi:10.1016/S0304-3975(98)00285-0</a>&rbrack;
+
+
 See also:
 
 * Wikipedia, *[Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)*
 
-The intuitionistic interpretation of the logical connectives is reviewed 
-
-in the context of [[constructive analysis]] in:
-
-* {#Bridges99} [[Douglas Bridges]], p. 96 of: *Constructive mathematics: a foundation for computable analysis*, Theoretical Computer Science **219** 1–2 (1999) 95-109 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00285-0">doi:10.1016/S0304-3975(98)00285-0</a>&rbrack;
-
-and in the context of [[intuitionistic type theory]] in:
-
-* {#MartinLöf96} [[Per Martin-Löf]], *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
  
 
 The observation that the [[poset]] of [[open subsets]] of a [[topological space]] (the [[internal logic]] of the [[sheaf topos]]) serves as a model for [[intuitionistic logic]] is apparently originally due to
