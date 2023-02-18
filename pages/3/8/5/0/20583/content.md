@@ -8,6 +8,44 @@ When we define internal categories of some category $\mathcal{C}$ as monads in $
 
 'Mealy morphisms' are  named after [[Mealy machines]], which, in turn, were named after  [[George H. Mealy]].
 
+## Definition
+
+Let $\mathbf{A}$ and $\mathbf{B}$ be categories [[enriched category|enriched]] in a [[monoidal category]] $(\mathbf{V}, I, \otimes)$. 
+
+A *Mealy morphism* $(F, \phi) \colon \mathbf{A} \rightarrow \mathbf{B}$ 
+consists of a pair of functions $F \colon Ob\mathbf{A} \rightarrow Ob\mathbf{B}$ and $\phi \colon \mathbf{A} \rightarrow \mathbf{V}$, 
+and for each pair of objects $A, A'$ in $\mathbf{A}$ a function
+\[
+\phi(A, A') \colon \mathbf{A}(A, A') \otimes \phi(A) \longrightarrow \phi(A') \otimes \mathbf{B}(FA, FA')
+\]
+satisfying the following commutative diagrams. 
+\begin{tikzcd}
+I \otimes \phi(A) 
+\arrow[d, "\cong"']
+\arrow[r, "{j_{A} \otimes 1}"]
+& \mathbf{A}(A, A) \otimes \phi(A)
+\arrow[d, "{\phi(A, A)}"]
+\\
+\phi(A) \otimes I
+\arrow[r, "{1 \otimes j_{FA}}"']
+& \phi(A) \otimes \mathbf{B}(FA, FA)
+\end{tikzcd}
+\begin{tikzcd}
+\mathbf{A}(A', A'') \otimes \mathbf{A}(A, A') \otimes \phi(A)
+\arrow[r, "{\circ_{A, A', A''} \otimes \phi(A)}"]
+\arrow[d, "1 \otimes {\phi(A, A')}"']
+&[+3em] \mathbf{A}(A, A'') \otimes \phi(A)
+\arrow[dd, "{\phi(A, A'')}"]
+\\
+\mathbf{A}(A', A'') \otimes \phi(A') \otimes \mathbf{B}(FA, FA')
+\arrow[d, "{\phi(A', A'') \otimes 1}"']
+& 
+\\
+\phi(A'') \otimes \mathbf{B}(FA', FA'') \mathbf{B}(FA, FA')
+\arrow[r, "1 \otimes \circ_{FA, FA', FA''}"']
+& \phi(A'') \otimes \mathbf{B}(FA, FA'')
+\end{tikzcd}
+
 ## References
 
 The notion of Mealy morphism between [[enriched categories]] was introduced in the paper: 
@@ -18,10 +56,6 @@ Mealy morphisms are mentioned in Example 16.8 and Example 16.27 in the paper:
 
 * {#GarnerShulman16} [[Richard Garner]], [[Michael Shulman]], _Enriched categories as a free cocompletion_, Advances in Mathematics, 289, 2016 ([arXiv:1301.3191](https://arxiv.org/abs/1301.3191), [doi:10.1016/j.aim.2015.11.012](https://doi.org/10.1016/j.aim.2015.11.012))
 
-An application of Mealy morphisms to symmetric [[delta lens|(delta) lenses]] is the topic of the paper: 
-
-* {#Clarke21} [[Bryce Clarke]], _A diagrammatic approach to symmetric lenses_, EPTCS, 333, 2021 ([doi:10.4204/EPTCS.333.6](https://doi.org/10.4204/EPTCS.333.6))
-
 Mealy morphisms are also considered under the name "two-dimensional partial map" (a notion attributed to [[Lawvere]]) in the Appendix of the paper: 
 
 * {#LackStreet02} [[Stephen Lack]], [[Ross Street]], _The formal theory of monads II_, Journal of Pure and Applied Algebra, 175, 2002 ( [doi:10.1016/S0022-4049(02)00137-8](https://doi.org/10.1016/S0022-4049%2802%2900137-8))
@@ -29,7 +63,5 @@ Mealy morphisms are also considered under the name "two-dimensional partial map"
 Some talk slides which mention Mealy morphisms: 
 
 * [[Robert Paré]], [Mealy Morphisms for Tensor Categories](https://www.mscs.dal.ca/~pare/June2010.pdf) 
-
-* [[Bryce Clarke]], [Internal lenses as monad morphisms](http://conferences.inf.ed.ac.uk/ct2019/slides/63.pdf)
 
 [[!redirects Mealy morphisms]]
