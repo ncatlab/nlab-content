@@ -723,7 +723,7 @@ Stone-von Neumann**
 
   slides: [[Foit_CQTS-Nov2022.pdf:file]]
 
-  video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14)
+  video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14), [YT](https://www.youtube.com/watch?v=23A-jU_oiYc)
 
   > The [[Brownian loop soup]] (BLS) is a stochastic system that is constructed from random loops in the plane and is invariant under conformal transformations. Correlation functions of certain observables can be used to formulate the BLS as a Conformal Field Theory (CFT). I will give an overview of CFTs in two dimensions and point out their relation to certain stochastic systems. Then I will discuss the BLS including some recent progress, such as the operator content, the continuous spectrum, and hints of an extended symmetry algebra.
 
