@@ -65,7 +65,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   \linebreak
 
-  zoom link: [nyu.zoom.us/j/91860528688](https://nyu.zoom.us/j/91860528688)
+  video: [rec](https://nyu.zoom.us/j/91860528688)
 
   Schedule for **02 June 2022**:
 
@@ -355,7 +355,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   slides: [[Kent-CQTS-Nov2022.pdf:file]]
 
-  video: [rec](https://drive.google.com/file/d/1LTz2y6KrJytps94rlS6o0BET6rmzPFU_/view)
+  video: [rec](https://drive.google.com/file/d/1LTz2y6KrJytps94rlS6o0BET6rmzPFU_/view), [YT](https://www.youtube.com/watch?v=uyKKNAmKRcs)
 
   > Recent advances in magnetism research are likely to have an important impact on electronics and information processing. These advances use the electron magnetic moment (spin) to transmit, write and store information. They enable new devices that operate at high speed with very low energy consumption. The information is stored in the orientation of electron magnetic moments in magnetic materials and can persist without power; energy is only needed to write and read the information. Important physics concepts include the interconversion of electrical (charge) currents into spin currents, the efficiency of the interconversion, controlling the currents, spin polarization direction, and the associated spin torques on magnetic order. [Magnetic skyrmions](skyrmion#ReferencesInSolidStatePhysics) are also of interest both because of their stability --- they are topologically protected objects --- and because their nucleation and motion can be controlled using spin currents. In this talk I will highlight the new physics concepts that have enabled these advances and discuss some of their applications in information processing.
 
@@ -498,7 +498,7 @@ Weekly seminar, broadly on topics in [[geometry]], [[topology]] and [[theoretica
 
   **Higher quantum geometry and global string duality**
 
-  [zoom recording](https://nyu.zoom.us/rec/share/smsfBPZ5n5poB889nfwEzjcb20_SrsgCcFOJBcg492YsxbhCwTz1-8OXxJBGVvxx.CZRA2MziA5nleJWP)
+  video: [rec](https://nyu.zoom.us/rec/share/smsfBPZ5n5poB889nfwEzjcb20_SrsgCcFOJBcg492YsxbhCwTz1-8OXxJBGVvxx.CZRA2MziA5nleJWP)
 
   > In this talk I will discuss the relation between [[higher geometric quantisation]] and the [global geometry underlying](double+field+theory#ReferencesInHigherDifferentialGeometry) [[duality in string theory|string dualities]]. Higher geometric quantisation is a promising framework that makes quantisation of [[classical field theories]] achievable. This can be obtained by quantising either an ordinary prequantum bundle on the ∞-stack of solutions of the equations of motion or a categorified prequantum bundle on a generalised phase space. I will discuss how the higher quantum geometry of string theory underlies the [[topological T-duality|global geometry of]] [[T-duality]]. In particular, I will illustrate how a globally well-defined moduli stack of [[tensor hierarchies]] can be constructed and why this is related to a higher gauge theory with the [[string 2-group]]. Finally, I will interpret the formalism of Extended Field Theory as an atlas description of the higher quantum geometry of string theory.
 
@@ -511,7 +511,7 @@ Weekly seminar, broadly on topics in [[geometry]], [[topology]] and [[theoretica
 
   **The geometric cobordism hypothesis**
 
-  [zoom recording](https://nyu.zoom.us/rec/share/Q_RbpKr9uMn292h0xtV2_tCbt39l5ZesalIuTE3TejN-fn3y1HyaIMdIY60dhF7S.bivkO70zgwrnRcsD)
+  video: [rec](https://nyu.zoom.us/rec/share/Q_RbpKr9uMn292h0xtV2_tCbt39l5ZesalIuTE3TejN-fn3y1HyaIMdIY60dhF7S.bivkO70zgwrnRcsD)
 
   > I will explain my recent work with [[Daniel Grady]] on locality of [[FQFT|functorial field theories]] ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208)) and the geometric [[cobordism hypothesis]] ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095)). The latter generalizes the Baez–Dolan cobordism hypothesis to nontopological field theories, in which bordisms can be equipped with geometric structures, such as smooth maps to a fixed target manifold, Riemannian metrics, [[conformal structures]], [[principal bundles]] [[connection on a principal bundle|with connection]], or [[differential string structure|geometric]] [[string structures]].
 
@@ -530,7 +530,7 @@ Weekly seminar, broadly on topics in [[geometry]], [[topology]] and [[theoretica
 
   **The Kervaire Invariant, multiplicative norms, and N-infinity operads**
 
-  [zoom recording](https://nyu.zoom.us/rec/share/GGfyckAXd17ket9Oc24UiymACRyk68rkEHYywkN5q8fzLrVBq_0uUKyRAppbgBHR.8mbsXTDkkeCeWRbp)
+  video: [rec](https://nyu.zoom.us/rec/share/GGfyckAXd17ket9Oc24UiymACRyk68rkEHYywkN5q8fzLrVBq_0uUKyRAppbgBHR.8mbsXTDkkeCeWRbp)
 
   > In a 2016 Annals paper, Hill, Hopkins, and Ravenel solved the [[Arf-Kervaire invariant problem|Kervaire Invariant One Problem]] using tools from [[equivariant stable homotopy theory]]. This problem goes back over 60 years, to the days of Milnorand the discovery of exotic smooth structures on spheres. Of particular importance it its solution were equivariant commutative ring spectra and their multiplicative norms. A more thorough investigation of multiplicative norms, using the language of operads, was recently conducted by Blumberg and Hill, though the existence in general of their new “N-infinity” operads was left as a conjecture. In this talk, I will provide an overview of the Kervaire problem and its solution, I will explain where the [[operads]] enter the story, and I will prove the Blumberg-Hill conjecture using a new model structure on the categoryof equivariant operads.
 
@@ -543,7 +543,7 @@ Weekly seminar, broadly on topics in [[geometry]], [[topology]] and [[theoretica
 
   **How open space index theory appears in physics**
 
-  [zoom recording](https://nyu.zoom.us/rec/share/JbJ05VbCnnfrhsr0cpVzyPTYBzHfAClCfaA7HXNhk5m44aRSx4FLRDvpK0Isp580.QFIVD3Thyt4bvRhn)
+  video: [rec](https://nyu.zoom.us/rec/share/JbJ05VbCnnfrhsr0cpVzyPTYBzHfAClCfaA7HXNhk5m44aRSx4FLRDvpK0Isp580.QFIVD3Thyt4bvRhn)
 
   > The incredible stability of [[quantum Hall effect|quantum Hall systems]] and [[topological phase of matter|topological phases]] indicates protection by an underlying [[index theorem]]. In contrast to Atiyah-Singer theory for compactified problems, what is required is an index theory on noncompact Riemannian manifolds, with interplay between discrete and continuous spectra. Input data comes not from a topological category a la [[TQFT]], but a metrically-coarsened one. This is the subject of coarse geometry and index theory, and I will explain their experimental manifestations.
 		
@@ -755,7 +755,7 @@ Stone-von Neumann**
 
   **$\infty$-Category theory for undergraduates**
 
-  video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543)
+  video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543), [YT](https://www.youtube.com/watch?v=7g2rkiFsbXo)
 
   cf.: [arXiv:2302.07855](https://arxiv.org/abs/2302.07855)
 
