@@ -97,6 +97,10 @@ The reluctance to add function spaces is similar to the problem of function spac
 
 ## Related concepts
 
+* [[intuitionistic logic]]
+
+* [[BHK interpretation]]
+
 * [[constructive mathematics]]
 
 * [[intuitionistic type theory]]
@@ -126,11 +130,31 @@ Early exposition and endorsement:
 * [[Hermann Weyl]], *Die heutige Erkenntnislage in der Mathematik*, Weltkreis-Verlag, Erlangen 1926. ([GoogleBooks](https://books.google.de/books/about/Die_heutige_Erkenntnislage_in_der_Mathem.html?id=1KU_AQAAIAAJ&redir_esc=y))
 
 
-Then an [[axiom|axiomatization]] of intuitionistic mathematics is given in
+Original articles on the [[formal logic]] of [[intuitionism]] ([[intuitionistic logic]]):
+
+* {#Heyting1930} [[Arend Heyting]], *Die formalen Regeln der intuitionistischen Logik. I, II, III.* Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930) 42-56, 57-71, 158-169
+
+  abridged reprint in:
+
+  Karel Berka, Lothar Kreiser (eds.), *Logik-Texte*, De Gruyter (1986) 188-192 &lbrack;[doi:10.1515/9783112645826](https://doi.org/10.1515/9783112645826)&rbrack;
+
+* [[Arend Heyting]], *Die intuitionistische Grundlegung der Mathematik*, Erkenntnis **2** (1931) 106-115 &lbrack;[jsotr:20011630](https://www.jstor.org/stable/20011630), [pdf](http://www.psiquadrat.de/downloads/heyting1931.pdf)&rbrack;
+
+* [[Andrey Kolmogorov]], *Zur Deutung der intuitionistischen Logik*, Math. Z. **35** (1932) 58-65 &lbrack;[doi:10.1007/BF01186549](https://link.springer.com/article/10.1007/BF01186549)&rbrack;
+
+* [[Hans Freudenthal]], *Zur intuitionistischen Deutung logischer Formeln*, Comp. Math. **4** (1937) 112-116 &lbrack;[numdam:CM_1937__4__112_0](http://www.numdam.org/item/?id=CM_1937__4__112_0)&rbrack;
+
+* [[Arend Heyting]], *Bemerkungen zu dem Aufsatz von Herrn Freudenthal "Zur intuitionistischen Deutung logischer Formeln"*, Comp. Math. **4** (1937) 117-118 &lbrack;[doi:CM_1937__4__117_0](http://www.numdam.org/item/?id=CM_1937__4__117_0)&rbrack;
+
+* [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
+
+* {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
+
+
+Formalization in terms of [[realizability]] (the [[Kleene-Vesley topos]]), and hence proof that intuitionistic mathematics is consistent:
 
 * [[Stephen Kleene]], R. E. Vesley, _The foundations of intuitionistic mathematics_, North-Holland (1965)
 
-in terms of [[realizability]] (the [[Kleene-Vesley topos]]), and hence intuitionistic mathematics is shown to be consistent.
 
 General review:
 
