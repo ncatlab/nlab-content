@@ -1,7 +1,7 @@
 
 Luitzen Egbertus Jan Brouwer (1881--1966) was an early worker in [[algebraic topology]] and the founder of [[intuitionism]].
 
-Important results:
+## Important results:
 
 *  [[topological invariance of dimension]],
 *  [[Brouwer fixed point theorem]],
@@ -10,6 +10,15 @@ Important results:
 *  [[fan theorem]] and [[bar theorem]].
 
 * [[Brouwer-Heyting-Kolmogorov interpretation]]
+
+
+## Selected writings
+
+On [[intuitionism]]:
+
+* [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
+
+
 
 ## Brouwer's intuitionism
  {#BrouwerIntuitionism}
