@@ -94,9 +94,12 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 ### General
 
-An early account for [[intuitionistic type theory]]:
+Early account for [[intuitionistic type theory]]:
 
 * [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, noted of a Lecture in Padua 1984, Bibliopolis (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
+
+* {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), Chapter 3 of: *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
+
 
 Textbook accounts:
 
@@ -146,7 +149,7 @@ Also [[William Lawvere]] was there, lecturing on [[hyperdoctrines]]. Lawvere tol
 
 * [[William Lawvere]] interviewed by Felice Cardone, _The role of Cartesian closed categories in foundations_, March 2000 ([link](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/lawvere-cardone-2000/lawvere-cardone-2000.pdf))
 
-But the story started earlier with what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This view goes back to an observation of Kolmogorov that the formalisation of Brouwer's ideas by Heyting in 1930 can be semantically interpreted as a calculus of 'Aufgaben' - problems (and solutions), reported in
+But the story started earlier with what has been called the [[BHK interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This view goes back to an observation of Kolmogorov that the formalisation of Brouwer's ideas by Heyting in 1930 can be semantically interpreted as a calculus of 'Aufgaben' - problems (and solutions), reported in
 
 * [[Andrey Kolmogorov]], _Zur Deutung der intuitionistischen Logik_, Math. Z. **35** (1932) pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
 
