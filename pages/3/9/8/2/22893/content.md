@@ -26,7 +26,7 @@ $$
   \mathcal{C}
 $$
 
-there is induced an [[adjunction]] of [[opposite functors]]  between their [[opposite categories]] of the form
+there is an induced [[adjunction]] of [[opposite functors]]  between their [[opposite categories]] of the form
 
 $$
   \mathcal{C}^{op}
@@ -45,7 +45,7 @@ This is immediate from the definition of [[opposite categories]] and the charact
 The [[adjunction unit]] of the opposite adjunction has as components the components of the original [[adjunction counit]], regarded in the opposite category, and dually:
 
 $$
-  \epsilon^{R^{op} C^{op}}_{d}
+  \epsilon^{R^{op} L^{op}}_{d}
   \;\colon\;
   R^{op}\circ L^{op}(d)
   \xrightarrow{\;\;  \big( \eta^{R L}_d \big)^{op}  \;\;}
