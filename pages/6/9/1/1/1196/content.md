@@ -163,7 +163,11 @@ Original articles on [[intuitionism]]:
 
 * {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
 
-The [[BHK interpretation]] of [[intuitionistic logic]] is due to:
+Recognization statemens of the [[BHK interpretation]] of [[intuitionistic logic]] appear in 
+
+* [Kolmogorov (1932, p. 59)](#Kolmogorov32)
+
+(who however speaks not of propositions but of "Aufgaben") and then in
 
 * {#Troelstra69} [[Anne Sjerp Troelstra]], §2 of: *Principles of Intuitionism*, Lecture Notes in Mathematics **95** Springer Heidelberg (1969)  &lbrack;[doi:10.1007/BFb0080643](https://link.springer.com/book/10.1007/BFb0080643)&rbrack;
 
@@ -171,7 +175,7 @@ The [[BHK interpretation]] of [[intuitionistic logic]] is due to:
 
 * {#Troelstra77} [[Anne Sjerp Troelstra]], §2 of: *Aspects of Constructive Mathematics*, Studies in Logic and the Foundations of Mathematics **90** 973-1052 (1977) &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)71127-3">doi:10.1016/S0049-237X(08)71127-3</a>&rbrack;
 
-(where the same is now called the "Brouwer-Heyting-*Kreisel* explanation")
+(where the same is now called the "Brouwer-Heyting-*Kreisel* explanation", not mentioning Kolmogorov)
 
 and then in the context of [[intuitionistic type theory]]:
 
@@ -190,6 +194,7 @@ See also:
 
 * Wikipedia, *[Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)*
 
+* Stanford Encyclopedia, *[The Development of Intuitionistic Logic](https://plato.stanford.edu/entries/intuitionistic-logic-development/#ProoInte)*
  
 
 The observation that the [[poset]] of [[open subsets]] of a [[topological space]] (the [[internal logic]] of the [[sheaf topos]]) serves as a model for [[intuitionistic logic]] is apparently originally due to
