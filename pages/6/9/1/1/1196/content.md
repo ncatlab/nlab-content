@@ -29,7 +29,7 @@ Intuitionistic logic is most easily described as [[classical logic]] without the
 ### Constructive interpretation of connectives
  {#ConstructiveInterpretationOfConnectives}
 
-The *intuitionistic interpretation* of the [[logical connectives]] (known as the [[BHK interpretation]], due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Troelstra (1969, §2)](#Troelstra69)) is such that the resulting [[proposition]] is regarded as [[true]] if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
+The *intuitionistic interpretation* of the [[logical connectives]] (known as the [[BHK interpretation]], due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Troelstra (1969, §2)](#Troelstra69)) is such that the resulting [[proposition]] is regarded as [[true]] only if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
 
 For instance, to assert a [[logical disjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof of all the instances.
 
