@@ -354,7 +354,7 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 ## References
  {#References}
 
-* [[Harry Applegate]], [[Myles Tierney]], Section 6 in: *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *Seminar on Triples and Categorical Homology Theory* Lecture Notes in Mathematics, **80**, Springer  1969  ([doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086))
+* [[Harry Appelgate]], [[Myles Tierney]], Section 6 in: *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *Seminar on Triples and Categorical Homology Theory* Lecture Notes in Mathematics, **80**, Springer  1969  ([doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086))
 
 Textbook accounts:
 
