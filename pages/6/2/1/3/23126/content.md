@@ -1,5 +1,3 @@
-[[!redirects Harry Applegate]]
-
 * [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=18949)
 
 Beware that in his PhD dissertation and one of his papers (*[Iterated cotriples](#ApplegateTierney70)*), the last name is misspelled as “Applegate”.  In all other papers it is spelled “Appelgate”.
