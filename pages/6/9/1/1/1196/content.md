@@ -29,7 +29,7 @@ Intuitionistic logic is most easily described as [[classical logic]] without the
 ### Constructive interpretation of connectives
  {#ConstructiveInterpretationOfConnectives}
 
-The *intuitionistic interpretation* of the [[logical connectives]] (known as the [[BHK interpretation]], due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Troelstra (1969, §2)](#Troelstra69)) is such that the resulting [[proposition]] is regarded as [[true]] only if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
+The *intuitionistic interpretation* of the [[logical connectives]] (known as the [[BHK interpretation]], due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Heyting (1956, §7.1.1)](#Heyting56), [Troelstra (1969, §2)](#Troelstra69)) is such that the resulting [[proposition]] is regarded as [[true]] only if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
 
 For instance, to assert a [[logical disjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof of all the instances.
 
@@ -43,7 +43,21 @@ This constructive interpretation of logical truth is the crux of the rejection o
 
 \begin{imagefromfile}
     "file_name": "KolmogorovIntroducingBHK.jpg",
-    "width": 520,
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+From [Heyting (1956, p. 97)](#Heyting56):
+
+\begin{imagefromfile}
+    "file_name": "HeytingIntroducingBHK.jpg",
+    "width": 500,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -161,13 +175,29 @@ Original articles on [[intuitionism]]:
 
 * [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
 
+Early monographs:
+
+* {#Heyting56} [[Arend Heyting]], *Intuitionism: An introduction*, Studies in Logic and the Foundations of Mathematics, North-Holland (1956, 1971) &lbrack;[ISBN:978-0720422399]()&rbrack;
+
 * {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
 
-Recognization statemens of the [[BHK interpretation]] of [[intuitionistic logic]] appear in 
+Early historical account:
+
+* {#Troelstra90} [[Anne Sjerp Troelstra]], *On the Early History of Intuitionistic Logic*, in *Mathematical Logic*, Springer, (1990) &lbrack;[doi:10.1007/978-1-4613-0609-2_1](https://doi.org/10.1007/978-1-4613-0609-2_1)&rbrack;
+
+
+
+Recognizable statemens of the [[BHK interpretation]] of [[intuitionistic logic]] appear in 
 
 * [Kolmogorov (1932, p. 59)](#Kolmogorov32)
 
-(who however speaks not of propositions but of "Aufgaben") and then in
+(who however speaks not of propositions but of *Aufgaben*, i.e. "tasks", here in the sense of: "mathematical problems") 
+
+* [Heyting (1956, §7.1.1)](#Heyting56)
+
+(who is maybe the first to speak of the "meaning of logical connectives")
+
+and then in
 
 * {#Troelstra69} [[Anne Sjerp Troelstra]], §2 of: *Principles of Intuitionism*, Lecture Notes in Mathematics **95** Springer Heidelberg (1969)  &lbrack;[doi:10.1007/BFb0080643](https://link.springer.com/book/10.1007/BFb0080643)&rbrack;
 
