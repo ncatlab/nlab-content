@@ -321,11 +321,13 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 ## References
  {#References}
 
-Discussion of $n$-truncation as a [[higher inductive type]] in [[homotopy type theory]]:
-
-Original textbook account:
+Construction of $n$-truncation as a one-step [[higher inductive type]] in [[homotopy type theory]]:
 
 * {#UFP13} [[Univalent Foundations Project]], §6.9 & §7.3 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+Alternative construction of $n$-truncation as an iterated [[pushout type]] is (somewhat implicit) in:
+
+* {#Rijke19b} [[Egbert Rijke]], Section 7.2 (culminating in Thm. 7.2.10) of: _Classifying Types_ &lbrack;[arXiv:1906.09435](https://arxiv.org/abs/1906.09435)&rbrack;
 
 
 Discussion of $n$-truncation as a [[modality]]:
