@@ -140,11 +140,13 @@ The statement of the interpretation close to its modern formulation (but clearly
 Later, [Troelstra (1977, §2)](#Troelstra77) credits the idea to "Brouwer-Heyting-*Kreisel* (BHK)", not mentioning Kolmogorov --- indeed [Kreisel (1965)](#Kreisel65) is the only reference that [Troelstra (1969, §2)](#Troelstra69) makes explicit use of. 
 (While this is the origin of the term "BHK interpretation", the adjustment/correction of its expanded version by exchanging "*K*reisel" for "*K*olmogorov" seems to be due to [Troelstra (1990, §2.1)](#Troelstra90).)
 
-Still later, [Girard (1989, §1.2.2)](#Girard89) presents the same idea as "Heyting's semantics" (not mentioning anyone else, nor in fact actually citing Heyting).
+Still later, [Girard (1989, §1.2.2)](#Girard89) presents the same idea as "Heyting's semantics" (not mentioning anyone else, nor actually citing Heyting).
 
 More discussion of this history is in *[SEP: "The Development of Intuitionistic Logic"](https://plato.stanford.edu/entries/intuitionistic-logic-development/)*.
 
-Notice that Brouwer never explicitly formulated any interpretation of the kind that [Troelstra (1977, §2)](#Troelstra77) attributes to him, and in fact remained against all formalism his entire life. (His role in this history is to provide motivation and inspiration for Heyting and Kolmogorov.) Moreover, [Escardo & Xu (2015)](#EscardoXu15) have shown that Brouwer's famous intuitionistic theorem "all functions $\mathbb{N}^{\mathbb{N}} \to \mathbb{N}$ are continuous" is actually inconsistent under a literal version of this interpretation (i.e. without including [[propositional truncation]]).  Thus, perhaps it should only be called the "Heyting-Kolmogorov" interpretation. 
+Notice that Brouwer never explicitly formulated any interpretation of the kind that [Troelstra (1977, §2)](#Troelstra77) attributes to him, and in fact remained against all formalism his entire life. (His role in this history is to provide motivation and inspiration for Heyting and Kolmogorov.) Moreover, [Escardo & Xu (2015)](#EscardoXu15) have shown that Brouwer's famous intuitionistic theorem "all functions $\mathbb{N}^{\mathbb{N}} \to \mathbb{N}$ are continuous" is actually inconsistent under a literal version of this interpretation (i.e. without including [[propositional truncation]]).  
+
+Thus, perhaps it should be called the "Heyting-Kolmogorov" interpretation. 
 
 ## Related concepts
 
