@@ -15,6 +15,8 @@
 
 * [[identity morphism]]
 
+* [[identity functor]]
+
 * [[identity type]]
 
 * [[identity of indiscernibles]]
