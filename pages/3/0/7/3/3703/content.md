@@ -114,7 +114,7 @@ Obviously this has something to do with [[Moore closures]] (and hence [[monads]]
 
 This paper discusses bases in the generality of algebras over a monad:
 
-* [[Stefan Zetzsche1]], [[Alexandra Silva1]], [[Matteo Sammartino]]: _Generators and bases for algebras over a monad_ (2020), ([arXiv:010.10223](https://arxiv.org/abs/2010.10223))
+* [[Stefan Zetzsche]], [[Alexandra Silva]], [[Matteo Sammartino]]: _Generators and bases for algebras over a monad_ (2020), ([arXiv:010.10223](https://arxiv.org/abs/2010.10223))
 
 [[!redirects base]]
 [[!redirects subbase]]
