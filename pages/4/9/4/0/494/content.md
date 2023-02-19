@@ -877,6 +877,8 @@ or, in terms of left Kan liftings:
 
 - $L \simeq \mathop{Lift}_R 1_C$, and this Kan lifting is [[Kan lift|absolute]]
 
+This follows from the fact that the adjunction $L \dashv R$ [induces](#PrePostcompositeAdjunctions) adjunctions $- \circ R \dashv - \circ L$ and $L \circ - \dashv R \circ -$.
+
 The formulations in terms of liftings generalize to (unenriched) [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
 
 
@@ -1343,7 +1345,79 @@ $$
 $$
 
 
+### Composing adjunctions
 
+Given two pairs of [[adjoint functors]]
+
+$$
+  \mathcal{E}
+    \underoverset
+      {\underset{R'}{\longrightarrow}}
+      {\overset{L'}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  \mathcal{C}
+$$
+
+there is an induced *composite adjunction* $L' \circ L \dashv R \circ R'$ between $\mathcal{C}$ and $\mathcal{E}$.
+
+This is immediate from the characterization of adjoint functors in terms of [hom-isomorphisms](#InTermsOfHomIsomorphism):
+
+$$
+  Hom_{\mathcal{E}}(L'(L(-)),-) \;\simeq\; Hom_{\mathcal{D}}(L(-),R'(-)) \;\simeq\; Hom_{\mathcal{C}}(-,R(R'(-)))
+$$
+
+### Pre- and postcomposite adjoint functors
+  {#PrePostcompositeAdjunctions}
+
+Given a pair of [[adjoint functors]]
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  \mathcal{C}
+$$
+
+and a [[category]] $\mathcal{E}$, there is an induced adjunction of precomposition functors between the [[functor categories]] $[\mathcal{C}, \mathcal{E}]$ and $[\mathcal{D}, \mathcal{E}]$ of the form
+
+$$
+  [\mathcal{D}, \mathcal{E}]
+    \underoverset
+      {\underset{- \circ L}{\longrightarrow}}
+      {\overset{- \circ R}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  [\mathcal{C}, \mathcal{E}]
+  \,.
+$$
+
+Hence where $L$ was the [[left adjoint]], its precomposition functor $- \circ L$ becomes the [[right adjoint]], and dually for $R$.
+
+The components $\eta_F : F \Rightarrow F \circ R \circ L$ of the [[unit of an adjunction|unit]] and $\epsilon_F : F \circ L \circ R \Rightarrow F$ of the [[counit of an adjunction|counit]] are given by [[whiskering]] the original unit and counit with $F$ on the left.
+
+By uniqueness of adjoints, this implies that [[Kan extension|left Kan extensions]] along $L$ are given by precomposition with $R$, which is another way of saying that $R$ is the [absolute left Kan extension](#in_terms_of_kan_extensionsliftings) of the [[identity functor]] along $L$. Dually, [[Kan extension|right Kan extensions]] along $R$ are given by precomposition with $L$.
+
+There is also an induced adjunction of postcomposition functors between $[\mathcal{E}, \mathcal{C}]$ and $[\mathcal{E}, \mathcal{D}]$ of the form
+
+$$
+  [\mathcal{E}, \mathcal{D}]
+    \underoverset
+      {\underset{R \circ -}{\longrightarrow}}
+      {\overset{L \circ -}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  [\mathcal{E}, \mathcal{C}]
+  \,.
+$$
+
+The components $\eta_F : F \Rightarrow R \circ L \circ F$ of the [[unit of an adjunction|unit]] and $\epsilon_F : L \circ R \circ F \Rightarrow F$ of the [[counit of an adjunction|counit]] are given by [[whiskering]] the original unit and counit with $F$ on the right.
+
+By uniqueness of adjoints, this implies that [[Kan lift|left Kan lifts]] along $R$ are given by postcomposition with $L$, which is another way of saying that $L$ is the [absolute left Kan lift](#in_terms_of_kan_extensionsliftings) of the [[identity functor]] along $R$. Dually, [[Kan lift|right Kan lifts]] along $L$ are given by postcomposition with $R$.
 
 
 
