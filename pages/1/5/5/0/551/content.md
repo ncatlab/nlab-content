@@ -40,7 +40,7 @@ $$
   X \times X
 $$
 
-is [[complement|complemented]], as a [[subobject]] of the [[Cartesian product]] $X \times X$. 
+is [[complemented subobject|complemented]], as a [[subobject]] of the [[Cartesian product]] $X \times X$. 
 
 A [[morphism]] $f \colon A \to B$ is called _decidable_ if it is a decidable object in the [[slice category]] $\mathcal{C}/B$.
 
