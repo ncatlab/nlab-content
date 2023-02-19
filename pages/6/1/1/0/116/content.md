@@ -308,7 +308,7 @@ See also:
 * [[bananaspace]], *[群](https://www.bananaspace.org/wiki/%E7%BE%A4)* (Chinese)
 
 
-Formalization of groups in [[dependent type theory]] with the [[calculus of constructions]] 
+{#TTFormalizations} Formalization of group structure in [[dependent type theory]]:
 
 in [[Coq]]:
 
