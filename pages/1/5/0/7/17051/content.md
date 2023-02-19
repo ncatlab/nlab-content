@@ -23,3 +23,5 @@ This article collects some references about the deformation theory of sheaves on
 * [[Alexander I. Efimov]], [[Valery A. Lunts]], [[Dmitri O. Orlov]], _Deformation theory of objects in homotopy and derived categories III:  abelian categories_, [arXiv:math/0702840](http://arxiv.org/abs/math/0702840).
 
 * [[B. Toen]], [[M. Vaquie]], _Moduli of objects in dg-categories_, [arXiv:math/0503269](http://arxiv.org/abs/math/0503269).
+
+* [[J. P. Pridham]], Derived moduli of schemes and sheaves, [arXiv:1011.2742](http://arxiv.org/abs/1011.2742). 
