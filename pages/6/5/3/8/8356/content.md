@@ -150,13 +150,17 @@ Original articles on [[intuitionistic logic]]:
 
 Recognizable formulation of the so-called "BHK interretation" first appears in:
 
+* [Kolmogorov (1932, p. 59)](#Kolmogorov32)
+
+(who however speaks not of propositions but of "Aufgaben") and then
+
 * {#Troelstra69} [[Anne Sjerp Troelstra]], §2 of: *Principles of Intuitionism*, Lecture Notes in Mathematics **95** Springer Heidelberg (1969)  &lbrack;[doi:10.1007/BFb0080643](https://link.springer.com/book/10.1007/BFb0080643)&rbrack;
 
 (where it is presented as the author's invention) and then recalled in
 
 * {#Troelstra77} [[Anne Sjerp Troelstra]], §2 of: *Aspects of Constructive Mathematics*, Studies in Logic and the Foundations of Mathematics **90** 973-1052 (1977) &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)71127-3">doi:10.1016/S0049-237X(08)71127-3</a>&rbrack;
 
-(where the same is now called the "Brouwer-Heyting-*Kreisel* explanation").
+(where the same is now called the "Brouwer-Heyting-*Kreisel* explanation", not mentioning Kolmogorov).
 
 and later recalled in the context of [[constructive analysis]]:
 
@@ -180,6 +184,10 @@ reviewed in
 See also:
 
 * Wikipedia, _[BHK interpretation](http://en.wikipedia.org/wiki/BHK_interpretation)_
+
+* Stanford Encyclopedia of Philosophy, *[The Development of Intuitionistic Logic](https://plato.stanford.edu/entries/intuitionistic-logic-development/#ProoInte)*
+
+
 
 * Wouter Pieter Stekelenburg, _Realizability Categories_ , ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134)).
 
