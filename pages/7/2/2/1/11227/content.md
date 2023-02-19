@@ -15,6 +15,10 @@ On [[intuitionistic logic]]:
 
 * [[Arend Heyting]], *Bemerkungen zu dem Aufsatz von Herrn Freudenthal "Zur intuitionistischen Deutung logischer Formeln"*, Comp. Math. **4** (1937) 117-118 &lbrack;[doi:CM_1937__4__117_0](http://www.numdam.org/item/?id=CM_1937__4__117_0)&rbrack;
 
+and making explicit the [[BHK interpretation]]:
+
+* {#Heyting56} [[Arend Heyting]], *Intuitionism: An introduction*, Studies in Logic and the Foundations of Mathematics, North-Holland (1956, 1971) &lbrack;[ISBN:978-0720422399]()&rbrack;
+
 
 ## Related entries
 
