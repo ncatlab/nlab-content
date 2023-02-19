@@ -33,7 +33,7 @@ The idea of denotational semantics is thus to associate an appropriate  mathemat
 
 A key requirement on denotational semantics is that it respects the *compositionality* of programming languages, hence that the semantics of [[terms]] [[term introduction|constructed]] from sub-terms is correspondingly built from the semantics of these sub-terms.
 
-Under the [[Curry-Howard correspondence]], proofs can be seen as programs and thus one can apply denotational semantics to proofs. In this way proofs are interpreted as functions or more generally as morphisms of some category. It is used to interpret proofs of [[intuitionistic logic]] and [[linear logic]] as morphisms of respectively [[cartesian closed categories]] and [[star-autonomous categories]].
+{#UnderCurryHoward} Under the [[Curry-Howard correspondence]], also [[proofs]] can be seen as programs and thus one can apply denotational semantics to proofs. In this way proofs are interpreted as functions or more generally as [[morphisms]] of some [[category]]. This is used to interpret proofs of [[intuitionistic logic]] and [[linear logic]] as morphisms of respectively [[cartesian closed categories]] and [[star-autonomous categories]], as discussed at*[[relation between category theory and type theory]]*. For more general such semantics see at *[[categorical semantics of dependent]]*.
 
 
 ## Related entries
