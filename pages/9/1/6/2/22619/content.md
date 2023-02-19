@@ -15,9 +15,16 @@ Application to [[verified programming]] after implementation in [[Coq]]:
 
 * [[Robert Rand]], [[Jennifer Paykin]], Dong-Ho Lee, [[Steve Zdancewic]], *ReQWIRE: Reasoning about Reversible Quantum Circuits*, EPTCS **287** (2019) 299-312 &lbrack;[arXiv:1901.10118](https://arxiv.org/abs/1901.10118), [doi:10.4204/EPTCS.287.17](https://doi.org/10.4204/EPTCS.287.17)&rbrack;
 
-
 Using ambient [[homotopy type theory]]:
 
 * [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
+
+Further on [[quantum circuit]] [[certified programming|certification]] with the [[quantum programming language]] *[[SQIR]]*:
+
+* [[Kesha Hietala]], [[Robert Rand]], [[Shih-Han Hung]], Xiaodi Wu, [[Michael Hicks]], *A verified optimizer for Quantum circuits*, Proceedings of the ACM on Programming Languages **5** Issue POPL 37 (2021) 1–29 &lbrack;[doi:10.1145/3434318](https://doi.org/10.1145/3434318)&rbrack;
+
+* [[Kesha Hietala]], [[Robert Rand]], [[Shih-Han Hung]], Liyi Li, [[Michael Hicks]], *Proving Quantum Programs Correct*, in *12th International Conference on Interactive Theorem Proving (ITP 2021)*, Leibniz International Proceedings in Informatics (LIPIcs) **193** (2021) &lbrack;[arXiv:2010.01240](https://arxiv.org/abs/2010.01240)&rbrack;
+
+
 
 category: people
