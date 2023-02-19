@@ -206,6 +206,10 @@ Early review:
 
 An alternative/parallel approach to avoiding errors due to [[decoherence]] is [[topological quantum computation]], see [there](topological+quantum+computation#References) for references.
 
+Influential list of criteria necessary for physical realization of quantum computation:
+
+* {#DiVincenzo00} [[David P. DiVincenzo]], *The Physical Implementation of Quantum Computation*, Fortschr. Phys. **48** 9-11 (2000) 771-783 &lbrack;[arXiv:quant-ph/0002077](https://arxiv.org/abs/quant-ph/0002077), <a href="https://doi.org/10.1002/1521-3978(200009)48:9/11%3C771::AID-PROP771%3E3.0.CO;2-E">doi:10.1002/1521-3978(200009)48:9/11%3C771::AID-PROP771%3E3.0.CO;2-E</a>&rbrack;
+
 Simple quantum computers have been realized (first with [[NMR]] technology, see [references below](#SpinResonanceQBitsReferences), then with [[superconductor]] technology, see [references further below](#SuperconductingQBitsReferences)) and have been argued to demonstrate *[[quantum supremacy]]* (see [there](quantum+supremacy#References) for references) but existing machines remain "noisy and intermediate scale" (see the references [below](#ReferencesNISQ)).
 
 Textbook accounts on quantum computation:
