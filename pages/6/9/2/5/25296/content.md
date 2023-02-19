@@ -3,6 +3,11 @@
 ### Spin resonance qbits
  {#SpinResonanceQBitsReferences}
 
+The idea of [[qbits]] realized on [[quantum mechanics|quantum mechanical]] [[spinors]] (e.g. [[electron]]-spin or [[nucleus]]-spin):
+
+* [[Daniel Loss]], [[David P. DiVincenzo]], *Quantum Computation with Quantum Dots*, Phys. Rev. A **57** 120 (1998) $[$[arXiv:cond-mat/9701055](https://arxiv.org/abs/cond-mat/9701055), [doi:10.1103/PhysRevA.57.120](https://doi.org/10.1103/PhysRevA.57.120)$]$
+
+
 The very first proof-of-principle [[quantum computations]] were made with [[nuclear magnetic resonance]]-technology:
 
 * D. G. Cory et al, *NMR Based Quantum Information Processing: Achievements and Prospects*, Fortsch. Phys. **48** 9-11 (2000) 875-907 $[$[arXiv:quant-ph/0004104](https://arxiv.org/abs/quant-ph/0004104)$]$
@@ -15,8 +20,11 @@ The very first proof-of-principle [[quantum computations]] were made with [[nucl
 
 * *NMR Quantum Computing* (2012) $[$slides [pdf](https://qudev.phys.ethz.ch/static/content/QSIT12/QSIT12_NMR_L01.pdf)$]$
 
-
 * Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** 020308 $[$[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)$]$
+
+See also:
+
+* Lieven Vandersypen, Mark Eriksson: *Quantum computing with semiconductor spins*, Physics Today **72** 8 (2019) 38 $[$[doi:10.1063/PT.3.4270](https://doi.org/10.1063/PT.3.4270)$]$
 
 Exposition, review and outlook:
 
@@ -24,6 +32,8 @@ Exposition, review and outlook:
 
 
 See also:
+
+* Wikipedia, *[Spin qbit quantum computer](https://en.wikipedia.org/wiki/Spin_qubit_quantum_computer)*
 
 * Wikipedia, *[Nuclear magnetic resonance quantum computer](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_quantum_computer)*
 
