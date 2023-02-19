@@ -86,11 +86,22 @@ Further refinement of the algorithm:
 
 * Attila B. Nagy, *On an implementation of the Solovay-Kitaev algorithm*, 10th Rhine Workshop on Computer Algebra &lbrack;[arXiv:quant-ph/0606077](https://arxiv.org/abs/quant-ph/0606077)&rbrack;
 
+### Quantum circuit compilation
 
-### In topological quantum computation
+More on quantum circuit compilation:
+
+* Adi Botea, Akihiro Kishimoto, Radu Marinescu, *On the Complexity of Quantum Circuit Compilation*, Proceedings of the International Symposium on Combinatorial Search, **9** 1 (2018) &lbrack;[doi:10.1609/socs.v9i1.18463](https://doi.org/10.1609/socs.v9i1.18463)&rbrack;
+
+* Nathanial Stemen, *Quantum Circuit Compilation from the Ground Up* (2022) &lbrack;[pdf](https://uwaterloo.ca/applied-mathematics/sites/ca.applied-mathematics/files/uploads/files/quantum_circuit_compilation_from_the_ground_up.pdf)&rbrack;
+
+Using a [[proof assistant]] based on [[QWIRE]]:
+
+* [[Kesha Hietala]], *A verified software toolchain for quantum programming* (2022) &lbrack;[pdf](https://khieta.github.io/files/drafts/khieta-dissertation.pdf)&rbrack;
+
+### Topological quantum compilation
  {#ReferencesInTopologicalQuantumComputation}
 
-Discussion of the Solovay-Kitaev theorem in the context of [[topological quantum computation]]:
+Discussion of the Solovay-Kitaev theorem for quantum compilation in the context of [[topological quantum computation]]:
 
 * {#BonesteelHormoziZikosSimon05} [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) &lbrack;[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)&rbrack;
 
