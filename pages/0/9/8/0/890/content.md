@@ -46,7 +46,19 @@ Let $(T,\equiv)$ be a [[symmetric proset]]. The __quotient set__ $T/\equiv$ is a
 * a function $\iota: T \to T/\equiv$
 
 * a family of dependent terms
-$$a:T, b:T \vdash eq_{T/\equiv}(a, b): (a \equiv b) \to (\iota(a) =_{T/\equiv} \iota(b))$$
+
+
+  $$
+    a \colon T
+    ,\; 
+    b \colon T 
+    \;\;\; \vdash \;\;\; 
+    eq_{T/\equiv}(a, b)
+    \,\colon\, 
+    (a \equiv b) 
+    \;\to\; 
+    (\iota(a) =_{T/\equiv} \iota(b))
+  $$
 
 * a family of dependent terms 
 $$a:T/\equiv, b:T/\equiv \vdash \tau(a, b): isProp(a =_{T/\equiv} b)$$
