@@ -51,7 +51,22 @@ From [Kolmogorov (1932, p. 59)](#Kolmogorov32):
 
 \begin{imagefromfile}
     "file_name": "KolmogorovIntroducingBHK.jpg",
-    "width": 520,
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+From [Heyting (1956, p. 97)](#Heyting56):
+
+\begin{imagefromfile}
+    "file_name": "HeytingIntroducingBHK.jpg",
+    "width": 500,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -116,15 +131,20 @@ reviewed in [Girard (1989, §2)](#Girard89) and with more emphasis in [Martin-L�
 ## Attribution
  {#Attribution}
 
-The idea of the interpretation is clearly expressed in [Kolmogorov (1932, p. 59)](#Kolmogorov32), though rather briefly and in unusual terminology: Instead of *propositions*, Kolmogorov speaks of *Aufgaben* (Deutsch for "task", but here in the sense used in math classes where it means "exercise" or "mathematical problem") in order to amplify the [[constructive mathematics|constructive]] aspects (he expands it out to *Konstruktionsaufgabe*, meaning "construction task").
+The idea of the interpretation is clearly expressed in [Kolmogorov (1932, p. 59)](#Kolmogorov32), though rather briefly and in unusual terminology: Instead of *propositions*, Kolmogorov speaks of *Aufgaben* (Deutsch for "tasks", but here in the sense used in math classes where it means "exercises" or "mathematical problems") in order to amplify the [[constructive mathematics|constructive]] aspects (he expands it out to *Konstruktionsaufgabe*, meaning "construction task").
 
-The interpretation was then made quite explicit in [Troelstra (1969, §2)](#Troelstra69), where it is not attributed to anyone but the author's invention. 
+While [[Arend Heyting]] may have been speaking of the idea of the "proof interpretation" of propositions since the 1930s, the first recognizable statement of what later was called the BHK interpretation is given in [Heyting (1956, §7.1.1)](#Heyting56).
 
-Later, [Troelstra (1977, §2)](#Troelstra77) credits the idea to "Brouwer-Heyting-*Kreisel* (BHK)" (not mentioning Kolmogorov --- indeed [Kreisel (1965)](#Kreisel65) is the only reference that [Troelstra (1969, §2)](#Troelstra69) made explicit use of). 
+The statement of the interpretation close to its modern formulation (but clearly of the same conceptual content as previously expressed in [Kolmogorov (1932, p. 59)](#Kolmogorov32) and [Heyting (1956, §7.1.1)](#Heyting56)) was then made explicit in [Troelstra (1969, §2)](#Troelstra69), where it is not attributed to anyone but presented as if the author's invention. 
 
-Still later, [Girard (1989, §1.2.2)](#Girard89) presents the same idea as "Heyting's semantics" (not mentioning anyone else).
+Later, [Troelstra (1977, §2)](#Troelstra77) credits the idea to "Brouwer-Heyting-*Kreisel* (BHK)", not mentioning Kolmogorov --- indeed [Kreisel (1965)](#Kreisel65) is the only reference that [Troelstra (1969, §2)](#Troelstra69) makes explicit use of. 
+(While this is the origin of the term "BHK interpretation", the adjustment/correction of its expanded version by exchanging "*K*reisel" for "*K*olmogorov" seems to be due to [Troelstra (1990, §2.1)](#Troelstra90).)
 
-Certainly Brouwer never explicitly formulated any interpretation of this sort, and remained against all formalism his entire life.  Moreover, [Escardo & Xu (2015)](#EscardoXu15) have shown that Brouwer's famous intuitionistic theorem "all functions $\mathbb{N}^{\mathbb{N}} \to \mathbb{N}$ are continuous" is actually inconsistent under a literal version of this interpretation (i.e. without including [[propositional truncation]]).  Thus, perhaps it should only be called the "Heyting-Kolmogorov" interpretation. 
+Still later, [Girard (1989, §1.2.2)](#Girard89) presents the same idea as "Heyting's semantics" (not mentioning anyone else, nor in fact actually citing Heyting).
+
+More discussion of this history is in *[SEP: "The Development of Intuitionistic Logic"](https://plato.stanford.edu/entries/intuitionistic-logic-development/)*.
+
+Notice that Brouwer never explicitly formulated any interpretation of the kind that [Troelstra (1977, §2)](#Troelstra77) attributes to him, and in fact remained against all formalism his entire life. (His role in this history is to provide motivation and inspiration for Heyting and Kolmogorov.) Moreover, [Escardo & Xu (2015)](#EscardoXu15) have shown that Brouwer's famous intuitionistic theorem "all functions $\mathbb{N}^{\mathbb{N}} \to \mathbb{N}$ are continuous" is actually inconsistent under a literal version of this interpretation (i.e. without including [[propositional truncation]]).  Thus, perhaps it should only be called the "Heyting-Kolmogorov" interpretation. 
 
 ## Related concepts
 
@@ -134,7 +154,7 @@ Certainly Brouwer never explicitly formulated any interpretation of this sort, a
 
 ## References 
 
-Original articles on [[intuitionistic logic]]:
+Original articles on [[intuitionism]] and, eventually, on [[intuitionistic logic]]:
 
 * [[Arend Heyting]], *Die intuitionistische Grundlegung der Mathematik*, Erkenntnis **2** (1931) 106-115 &lbrack;[jsotr:20011630](https://www.jstor.org/stable/20011630), [pdf](http://www.psiquadrat.de/downloads/heyting1931.pdf)&rbrack;
 
@@ -146,21 +166,33 @@ Original articles on [[intuitionistic logic]]:
 
 * [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
 
+Early monographs:
+
+* {#Heyting56} [[Arend Heyting]], *Intuitionism: An introduction*, Studies in Logic and the Foundations of Mathematics, North-Holland (1956, 1971) &lbrack;[ISBN:978-0720422399]()&rbrack;
+
 * {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
+
+Early historical review:
+
+* {#Troelstra90} [[Anne Sjerp Troelstra]], *On the Early History of Intuitionistic Logic*, in *Mathematical Logic*, Springer, (1990) &lbrack;[doi:10.1007/978-1-4613-0609-2_1](https://doi.org/10.1007/978-1-4613-0609-2_1)&rbrack;
 
 Recognizable formulation of the so-called "BHK interretation" first appears in:
 
 * [Kolmogorov (1932, p. 59)](#Kolmogorov32)
 
-(who however speaks not of propositions but of "Aufgaben") and then
+(who however speaks not of propositions but of *Aufgaben*, i.e. "tasks", here in the sense of: "mathematical problems") 
+
+* [Heyting (1956, §7.1.1)](#Heyting56)
+
+(who is maybe the first to speak of the "meaning of logical connectives") and then 
 
 * {#Troelstra69} [[Anne Sjerp Troelstra]], §2 of: *Principles of Intuitionism*, Lecture Notes in Mathematics **95** Springer Heidelberg (1969)  &lbrack;[doi:10.1007/BFb0080643](https://link.springer.com/book/10.1007/BFb0080643)&rbrack;
 
-(where it is presented as the author's invention) and then recalled in
+(where it is presented as if the author's invention) and then recalled in
 
 * {#Troelstra77} [[Anne Sjerp Troelstra]], §2 of: *Aspects of Constructive Mathematics*, Studies in Logic and the Foundations of Mathematics **90** 973-1052 (1977) &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)71127-3">doi:10.1016/S0049-237X(08)71127-3</a>&rbrack;
 
-(where the same is now called the "Brouwer-Heyting-*Kreisel* explanation", not mentioning Kolmogorov).
+(where the same is now called the "Brouwer-Heyting-*Kreisel (BHK)* explanation" --- not mentioning Kolmogorov).
 
 and later recalled in the context of [[constructive analysis]]:
 
