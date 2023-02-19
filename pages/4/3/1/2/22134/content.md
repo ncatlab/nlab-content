@@ -45,6 +45,8 @@ Review:
 * [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
 
 * [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. 698 (2016) 012012 ([doi:10.1088/1742-6596/698/1/012012](https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012))
+
+* [[Ananda Roy]], [[David P. DiVincenzo]], *Topological Quantum Computing*, Lecture notes of the [48th IFF Spring School](https://www.fz-juelich.de/en/pgi/expertise/schools-and-courses/iff-spring-school/the-iff-spring-school-topics-and-history/springschool2017) (2017) $[$[arXiv:1701.05052](https://arxiv.org/abs/1701.05052)$]$
     
 * {#LahtinenPachos17} [[Ville Lahtinen]], [[Jiannis K. Pachos]], _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. **3** 021 (2017) $[$[arXiv:1705.04103](https://arxiv.org/abs/1705.04103), [doi:10.21468/SciPostPhys.3.3.021](https://scipost.org/SciPostPhys.3.3.021)$]$
 
