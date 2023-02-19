@@ -28,6 +28,12 @@ Thus, a sequential limit is a special case of a [[directed limit]]. See there fo
 
 * [[lim^1 and Milnor sequences]]
 
+## References
+
+Discussion of [[sequential colimits]] (in the generality of [[homotopy colimits]]) in [[homotopy type theory]]:
+
+* [[Egbert Rijke]], *Sequential colimits* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/sequences.pdf)&rbrack;, Lecture 15 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
 
 [[!redirects sequential limit]]
 [[!redirects sequential limits]]
