@@ -65,8 +65,6 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   \linebreak
 
-  video: [rec](https://nyu.zoom.us/j/91860528688)
-
   Schedule for **02 June 2022**:
 
   \linebreak
@@ -372,11 +370,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   slides: [[Equbal-CQTS-Nov2022.pdf:file]]
 
-  video: [rec](https://nyu.zoom.us/rec/play/YTjIGL-Bevb1H44UuL-ZimXdxph5cffddWpP3H4ZsuRT2xu3OrnTbC0NZLsKedUGwS68DJ8onVFPAETb.rreoi7Wt6uXFyaYN?continueMode=true&_x_zm_rtaid=e0VPIMlfT9KlVd_wiaOq6A.1669794985784.11f8cd37091ebf6bdd2a878668e26cd6&_x_zm_rhtaid=404)
+  video: [rec](https://nyu.zoom.us/rec/play/YTjIGL-Bevb1H44UuL-ZimXdxph5cffddWpP3H4ZsuRT2xu3OrnTbC0NZLsKedUGwS68DJ8onVFPAETb.rreoi7Wt6uXFyaYN?continueMode=true&_x_zm_rtaid=e0VPIMlfT9KlVd_wiaOq6A.1669794985784.11f8cd37091ebf6bdd2a878668e26cd6&_x_zm_rhtaid=404), [YT](https://www.youtube.com/watch?v=wceg7E1p5Kg)
 
-  > Spins are a purely quantum mechanical phenomenon and have been proposed as one of the several candidates for qubits in quantum information science. Quantum computers based on spin qubits were first proposed by DiVincenzo, who established five necessary criteria for building a quantum computer. The technology to control the quantum states of [[nuclear magnetic resonance|nuclear]] and electron spins and the theory of spin-spin and spin-magnetic field interactions are well developed, but a quantum computer based on spin qubits has not yet been realized. Why is this?
+  cf.: *[spin resonance qbits](nuclear+magnetic+resonance#SpinResonanceQBitsReferences)*
 
-  > In this talk, I will discuss the challenges in developing spin qubits that meet DiVincenzo's criteria for quantum computers. First, I will explain in a pedagogical way how to manipulate spins in an external magnetic field that form the building block of quantum logic gates. I will then provide some insight into my own recent research on the development of optically polarized molecular spin qubits in solids.
+  > [[spin|Spins]] are a purely [[quantum mechanics|quantum mechanical]] phenomenon and have been proposed as one of the several candidates for [[qubits]] in [[quantum information theory|quantum information science]]. [[quantum computer|Quantum computers]] based on [[spin]] [[qubits]] were first [proposed by DiVincenzo](quantum+computation#DiVincenzo00), who established five necessary criteria for building a [[quantum computer]]. The technology to control the [[quantum states]] of [[nuclear magnetic resonance|nuclear]] and [[electron]] [[spins]] and the theory of spin-spin and spin-[[magnetic field]] [[interactions]] are well developed, but a quantum computer based on spin qubits has not yet been realized. Why is this?
+
+  > In this talk, I will discuss the challenges in developing spin qubits that meet [DiVincenzo's criteria](quantum+computation#DiVincenzo00) for [[quantum computers]]. First, I will explain in a pedagogical way how to manipulate spins in an external [[magnetic field]] that form the building block of [[quantum logic gates]]. I will then provide some insight into my own recent research on the development of optically polarized molecular spin qubits in solids.
 
 \linebreak
 
