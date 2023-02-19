@@ -411,6 +411,8 @@ Since every proposition comes with an antithesis proposition in the antithesis i
   * [[Heyting scale]]
   * [[minor scale]]
 
+* [[linear lambda-calculus]]
+
 
 [[!include logic symbols -- table]]
 
