@@ -148,6 +148,8 @@ Original articles on the [[formal logic]] of [[intuitionism]] ([[intuitionistic 
 
 * [[L. E. J. Brouwer]], *Points and Spaces*, Canadian Journal of Mathematics **6** (1954) 1-17 &lbrack;[doi:10.4153/CJM-1954-001-9](https://doi.org/10.4153/CJM-1954-001-9)&rbrack;
 
+* {#Heyting56} [[Arend Heyting]], *Intuitionism: An introduction*, Studies in Logic and the Foundations of Mathematics, North-Holland (1956, 1971) &lbrack;[ISBN:978-0720422399]()&rbrack;
+
 * {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
 
 
