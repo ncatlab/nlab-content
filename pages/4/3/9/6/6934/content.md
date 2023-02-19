@@ -112,6 +112,10 @@ Agda landing page:
 
 * [wiki.portal.chalmers.se/agda/pmwiki.php](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 
+Documentation:
+
+* [agda.readthedocs.io](https://agda.readthedocs.io/en/v2.6.3)
+
 Plain Agda originates with:
 
 * [[Ulf Norell]], _Towards a practical programming language based on dependent type theory_, PhD thesis (2007) &lbrack;[pdf](https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf), [[Norell-PracticalDTT.pdf:file]]&rbrack;
