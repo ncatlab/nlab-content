@@ -10,6 +10,13 @@ philosophy of mathematics, history of logic and analytic philosophy. For the 'n-
 
 * [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
 
+### On type theory
+
+On [[propositional truncation]] in [[dependent type theory]]:
+
+* [[Steve Awodey]], [[Andrej Bauer]], *Propositions as $[$Types$]$*, Journal of Logic and Computation, **14**  (2004) 447-471 &lbrack;[doi:10.1093/logcom/14.4.447](https://doi.org/10.1093/logcom/14.4.447), [pdf](http://andrej.com/papers/brackets_letter.pdf)&rbrack;
+
+
 ### On homotopy type theory
 
 Early note on what came to be known as *[[homotopy type theory]]*:
