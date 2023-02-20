@@ -104,7 +104,7 @@ There exists a [[boolean topos]] in which the [[axiom of choice]] holds and the 
 
 =--
 
-One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow A\hookrightarrow 2^{\mathbb{N}}$ but no monomorphism $A \hookrightarrow N$ or $\Omega^N \hookrightarrow A$..
+One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow A\hookrightarrow 2^{\mathbb{N}}$ but no monomorphism $A \hookrightarrow N$ or $\Omega^N \hookrightarrow A$.
 
 The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, recall that the subobject classifier of $Set$ is $2\coloneqq \{0,1\}$. The technique of constructing such a topos is called [[forcing]].
  
@@ -112,7 +112,7 @@ The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, r
 ###### Definition
 **(Cohen poset)**
 
-Let $\mathbb{N}$ be the set of natural numbers; i.e. the [[natural numbers object]] in $Set$. Let $A$ be a set with strictly larger cardinality ${|A|}\gt {|\mathbb{N}|}$; e.g. $A\coloneqq 2^{2^{\mathbb{N}}}$ will do because of the [[diagonal argument]].  Then the *Cohen poset* $P$ is defined to be the set of morphisms
+Let $\mathbb{N}$ be the set of natural numbers; i.e. the [[natural numbers object]] in $Set$. Let $A$ be a set with strictly larger cardinality ${|A|}\gt {|2^\mathbb{N}|}$; e.g. $A\coloneqq 2^{2^{\mathbb{N}}}$ will do because of the [[diagonal argument]].  Then the *Cohen poset* $P$ is defined to be the set of morphisms
 
 $$p:F_p\to 2$$
 
@@ -124,7 +124,7 @@ $$q\le p\; iff\; F_q\supseteq F_p\;and\;q|_{F_p}=p$$
 where the right-hand condition means that $q$ restricted to $F_p$ must coincide with $p$.
 =--
 
-We think of each element of $P$ as an approximation to the function $F:A\times\mathbb{N}$ that is the [[exponential|transpose]] of the putative monomorphism
+We think of each element of $P$ as an approximation to the function $F:A\times\mathbb{N} \to 2$ that is the [[exponential|transpose]] of the putative monomorphism
 
 $$f:A\to 2^\mathbb{N}$$
 
