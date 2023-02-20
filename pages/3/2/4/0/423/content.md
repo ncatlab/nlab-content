@@ -1604,6 +1604,11 @@ Textbook accounts:
 
 * Anatole Katok, Alexey Sossinsky, *Introduction to Modern Topology and Geometry* (2010) &lbrack;[toc pdf](http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf), [[KatokSossinsky-Topology-Ch1.pdf:file]]&rbrack;
 
+and leading over to [[homotopy theory]]:
+
+* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer 1984 
+([doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6))
+
 
 On [[counterexamples]] in topology:
 
