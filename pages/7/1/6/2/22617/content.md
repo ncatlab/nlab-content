@@ -64,6 +64,11 @@ Using [[domain specific embedded programming language|embedding]] into [[homotop
 
 * {#PaykinZdancewic19}[[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) &lbrack;[arXiv:1904.04371](https://arxiv.org/abs/1904.04371)&rbrack;
 
+For development *EWIRE*:
+
+* [[Mathys Rennela]], [[Sam Staton]], *Classical Control, Quantum Circuits and Linear Logic in Enriched Category Theory*, Logical Methods in Computer Science **16** (2020) lmcs:6192 &lbrack;[arXiv:1711.05159](https://arxiv.org/abs/1711.05159)<a href="https://doi.org/10.23638/LMCS-16(1:30)2020">doi:10.23638/LMCS-16(1:30)2020</a>&rbrack;
+
+
 Fork development *SQIR*:
 
 * [[Kesha Hietala]], [[Robert Rand]], [[Shih-Han Hung]], Xiaodi Wu, [[Michael Hicks]], *A verified optimizer for Quantum circuits*, Proceedings of the ACM on Programming Languages **5** Issue POPL 37 (2021) 1–29 &lbrack;[doi:10.1145/3434318](https://doi.org/10.1145/3434318)&rbrack;
@@ -76,4 +81,5 @@ Fork development *SQIR*:
 category: people
 
 [[!redirects SQIR]]
+[[!redirects EWIRE]]
 
