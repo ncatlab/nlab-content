@@ -391,7 +391,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Algorithms, from noisy intermediate scale devices through the early fault-tolerant era** 
 
-  video: [rec](https://nyu.zoom.us/rec/share/ASWX0PDAIgB_fn-KLdF9t-lg2M62LAmTUJIvHKuTiK7K1XjRmdQ7GFmnEzfHlfxf.DQSy2riBLwIEgZvp?startTime=1670850106000)
+  video: [rec](https://nyu.zoom.us/rec/share/ASWX0PDAIgB_fn-KLdF9t-lg2M62LAmTUJIvHKuTiK7K1XjRmdQ7GFmnEzfHlfxf.DQSy2riBLwIEgZvp?startTime=1670850106000), [YT](https://www.youtube.com/watch?v=YljNgMWd4W8)
 
   > Reaching long-term maturity in [[quantum computation]] science and technology relies on the field delivering practically useful application in a short term. In this colloquium, I will discuss ideas for the noisy intermediate scale (NISQ) and early [[quantum error correction|fault-tolerant]] eras. I will divide my talk into two parts. In the first part, I will make a brief non-technical introduction to the field, its relevance to the UAE, and the main lines of research of the [Quantum Algorithms](https://www.tii.ae/quantum/our-research/quantum-algorithms) division at [QRC](https://www.tii.ae/quantum)-[TII](https://www.tii.ae/). 
 
