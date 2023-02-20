@@ -52,6 +52,11 @@ See also:
 
 * Wikipedia, *[Laughlin wavefunciton](https://en.wikipedia.org/wiki/Laughlin_wavefunction)*
 
+
+Characterization as a [[braid representation]]:
+
+* [[Janusz E. Jacak]], *Formal derivation of the Laughlin function and its generalization for other topological phases of FQHE*, Sci Rep **12** 616 (2022) &lbrack;[doi:10.1038/s41598-021-04672-z](https://doi.org/10.1038/s41598-021-04672-z)&rbrack;
+
 A "hierarchy" of Laughlin-like states:
 
 * [[Bertrand I. Halperin]], *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 $[$[doi:10.1103/PhysRevLett.52.1583](https://doi.org/10.1103/PhysRevLett.52.1583)$]$
