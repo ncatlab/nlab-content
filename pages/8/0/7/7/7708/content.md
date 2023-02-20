@@ -125,6 +125,23 @@ and their [[underlying]] abstract group structure:
 <img src="/nlab/files/UnderlyingGroupOfSubgroupStructure-230201.jpg" width="900">
 
 
+### Group action structure
+ {#GroupActionStructure}
+
+The [[dependent pair]]-[[telescope]] [[type]] declaration of [[group actions]] on [[sets]] ([[G-sets]]):
+
+
+<img src="/nlab/files/GroupActionDataStructure-230220.jpg" width="900">
+
+
+Specialization to [[torsors]]:
+
+<img src="/nlab/files/TorsorDataStructure-230220.jpg" width="900">
+
+
+
+
+
 ### Ring data structure
  {#RingDataStructure}
 
