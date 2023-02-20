@@ -10,6 +10,6 @@
 
 On [[topology|topological]] [[homotopy theory]]:
 
-* [[Brayton Gray]], *Homotopy Theory An Introduction to Algebraic Topology*, Academic Press (1975) $[$[ISBN:978-0-12-296050-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/64/suppl/C)$]$
+* [[Brayton Gray]], *Homotopy Theory: An Introduction to Algebraic Topology*, Academic Press (1975) $[$[ISBN:978-0-12-296050-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/64/suppl/C), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/gray.pdf)$]$
 
 category: people
