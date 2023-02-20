@@ -68,6 +68,7 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 Introductory texts:
 
+* [[Introduction to Homotopy Theory]]
 * {#Riehl2008} [[Emily Riehl]], [_Factorization Systems_](https://math.jhu.edu/~eriehl/factorization.pdf), 2008
 * The following dissertation section is entirely written after learning from Riehl's note above, but has complementary examples and may dive deeper into some proofs:
   * {#Nuyts2020} [[Andreas Nuyts]], _Contributions to Multimode and Presheaf Type Theory, section 2.4: Factorization Systems_, [PhD thesis](https://lirias.kuleuven.be/retrieve/581985), KU Leuven, Belgium, 2020
