@@ -165,7 +165,9 @@ On something like [[anyon]] [[braiding]] in photonic crystals:
 
 * {#ZhangEtAl22} Xu-Lin Zhang et al., *Non-Abelian braiding on photonic chips*, Nature Photonics **16** (2022) 390–395 &lbrack;[arXiv:2112.01776](https://arxiv.org/abs/2112.01776), [doi:10.1038/s41566-022-00976-2](https://doi.org/10.1038/s41566-022-00976-2)&rbrack;
 
+See also:
 
+* Hui Liu et al., *Topological phases and non-Hermitian topology in photonic artificial microstructures*, Nanophotonic (Feb. 2023) &lbrack;[arXiv:10.1515/nanoph-2022-0778](https://doi.org/10.1515/nanoph-2022-0778)&rbrack;
 
 #### Topological lasers
 
