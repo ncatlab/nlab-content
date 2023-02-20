@@ -21,7 +21,11 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
+* [[Brayton Gray]], *Homotopy Theory: An Introduction to Algebraic Topology*, Academic Press (1975) $[$[978-0-12-296050-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/64/suppl/C), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/gray.pdf)$]$
+
 * [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer 1984 ([doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6))
 
 * [[Renzo A. Piccinini]], *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
 
