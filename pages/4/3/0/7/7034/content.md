@@ -139,22 +139,25 @@ The original articles are
 
 * [[Frank Pfenning]], _Intensionality, extensionality, and proof irrelevance in modal type theory_, In Proceedings of the 16th Annual Symposium on Logic in Computer Science (LICS'01), June 2001. 
 
-* [[Steve Awodey]], [[Andrej Bauer]], _Propositions as $[$Types$]$_, Journal of Logic and Computation. Volume 14, Issue 4, August 2004, pp. 447-471 ([pdf](http://andrej.com/papers/brackets_letter.pdf))
+* [[Steve Awodey]], [[Andrej Bauer]], *Propositions as $[$Types$]$*, Journal of Logic and Computation, **14**  (2004) 447-471 &lbrack;[doi:10.1093/logcom/14.4.447](https://doi.org/10.1093/logcom/14.4.447), [pdf](http://andrej.com/papers/brackets_letter.pdf)&rbrack;
 
-Exposition in the context of [[homotopy type theory]] is in 
+Discussion in the context of [[homotopy type theory]]:
 
-* [[Mike Shulman]], _Minicourse on homotopy type theory_ (2012) ([web](http://www.sandiego.edu/~shulman/hottminicourse2012/))
- {#Shulman}
+* {#UFP13} [[Univalent Foundations Project]], §3.7 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-Formalization in the context of homotopy type theory is in 
 
-* [[Vladimir Voevodsky]], _The hProp version of the "inhabited" construction._ ([web](http://www.math.ias.edu/~vladimir/Foundations_library/hProp.html#lab140))
- {#Voevodsky}
+Exposition:
 
+* {#Shulman} [[Mike Shulman]], _Minicourse on homotopy type theory_ (2012) ([web](http://www.sandiego.edu/~shulman/hottminicourse2012/))
+
+Formalization:
+
+* {#Voevodsky} [[Vladimir Voevodsky]], _The hProp version of the "inhabited" construction._ ([web](http://www.math.ias.edu/~vladimir/Foundations_library/hProp.html#lab140))
+ 
 * [[Coq]] [HoTT library](https://github.com/HoTT/HoTT/tree/master/Coq), _[IsInhab.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/IsInhab.v)_
  {#HoTTLibrary}
 
-Discussion of this in the more general context of truncations is in 
+Discussion in the more general context of [[n-truncation modality|$n$-truncations]]:
 
 * [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
 
