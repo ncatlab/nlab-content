@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[general topology]] and [[homotopy theory]]:
+
+* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer 1984 
+([doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6))
+
 On [[algebraic topology]]:
 
 * [[Handbook of Algebraic Topology]]
