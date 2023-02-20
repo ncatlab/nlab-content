@@ -100,6 +100,10 @@ Early account for [[intuitionistic type theory]]:
 
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), Chapter 3 of: *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
+With a notion of [[propositional truncation]]:
+
+* [[Steve Awodey]], [[Andrej Bauer]], *Propositions as $[$Types$]$*, Journal of Logic and Computation, **14**  (2004) 447-471 &lbrack;[doi:10.1093/logcom/14.4.447](https://doi.org/10.1093/logcom/14.4.447), [pdf](http://andrej.com/papers/brackets_letter.pdf)&rbrack;
+
 
 Textbook accounts:
 
