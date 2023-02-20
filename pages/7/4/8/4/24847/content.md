@@ -70,6 +70,11 @@ More in-depth discussion of "dynamic lifting" is in:
 
 Proposals for [[categorical semantics]] of "dynamic lifting", mostly following along the lines of some [[dependent linear type theory]]:
 
+* [[Mathys Rennela]], [[Sam Staton]], *Classical Control, Quantum Circuits and Linear Logic in Enriched Category Theory*, Logical Methods in Computer Science **16** (2020) lmcs:6192 &lbrack;[arXiv:1711.05159](https://arxiv.org/abs/1711.05159)<a href="https://doi.org/10.23638/LMCS-16(1:30)2020">doi:10.23638/LMCS-16(1:30)2020</a>&rbrack;
+
+  (cf. *[[EWIRE]]*)
+
+
 * [[Dongho Lee]], Sebastien Bardin, [[Valentin Perrelle]], [[Benoît Valiron]], *Formalization of a Programming Language for Quantum Circuits with Measurement and Classical Control*, talk at *[Journées Informatique Quantique 2019](https://quantcert.github.io/GT-IQ'19/)* (Nov 2019) &lbrack;[pdf](https://quantcert.github.io/GT-IQ%2719/slides/Lee.pdf), [[LBPV_QCWithClassicalControl.pdf:file]]&rbrack;
 
 * [[Dongho Lee]], [[Valentin Perrelle]], [[Benoît Valiron]], Zhaowei Xu, *Concrete Categorical Model of a Quantum Circuit Description Language with Measurement*, Leibniz International Proceedings in Informatics **213** (2021) 51:1-51:20 &lbrack;[arXiv:2110.02691](https://arxiv.org/abs/2110.02691), [doi:10.4230/LIPIcs.FSTTCS.2021.51](https://doi.org/10.4230/LIPIcs.FSTTCS.2021.51)&rbrack;
@@ -80,6 +85,7 @@ Proposals for [[categorical semantics]] of "dynamic lifting", mostly following a
 and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, Nantes (2022)  &lbrack;[pdf](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_13.pdf), [[ColledanLago-DynamicsLifting.pdf:file]]&rbrack;
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *A biset-enriched categorical model for Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13039](https://arxiv.org/abs/2204.13039)&rbrack;
+
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13041](https://arxiv.org/abs/2204.13041)&rbrack;
 
