@@ -153,3 +153,4 @@ The concept of tensorial strength is a prerequisite for the concept of [[strong 
 [[!redirects tensorial strengths]]
 [[!redirects strong functor]]
 [[!redirects strong functors]]
+[[!redirects strength]]
