@@ -21,6 +21,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -37,7 +38,7 @@ In [[quantum computation]]-theory one interprets:
 
 1. the target element $g \,\in\, SU(2)$ as an intended operation on qbits (an intended quantum program);
 
-1. the sequence of elements $g_i$ used to approximate $g$ as a [[quantum circuit]] realizing the quantum program ("quantum compilation"),
+1. the sequence of elements $g_i$ used to approximate $g$ as a [[quantum circuit]] realizing the quantum program ("[[quantum compilation]]"),
 
 and then the Solovay-Kitaev theorem guarantees that the maximum *depth* of the quantum circuit grows only slowly with its required accuracy.
 
@@ -87,14 +88,27 @@ Further refinement of the algorithm:
 * Attila B. Nagy, *On an implementation of the Solovay-Kitaev algorithm*, 10th Rhine Workshop on Computer Algebra &lbrack;[arXiv:quant-ph/0606077](https://arxiv.org/abs/quant-ph/0606077)&rbrack;
 
 ### Quantum circuit compilation
+ {#QuantumCircuitCompilationReferences}
 
 More on quantum circuit compilation:
 
 * Adi Botea, Akihiro Kishimoto, Radu Marinescu, *On the Complexity of Quantum Circuit Compilation*, Proceedings of the International Symposium on Combinatorial Search, **9** 1 (2018) &lbrack;[doi:10.1609/socs.v9i1.18463](https://doi.org/10.1609/socs.v9i1.18463)&rbrack;
 
+* Robert Wille; Stefan Hillmich; Lukas Burgholzer, *Efficient and Correct Compilation of Quantum Circuits*, in *2020 IEEE International Symposium on Circuits and Systems (ISCAS)* IEEE Explore (2020) &lbrack;[doi:10.1109/ISCAS45731.2020.9180791](https://doi.org/10.1109/ISCAS45731.2020.9180791)&rbrack;
+
+* Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, *Quantum Compiling*, in *Quantum Computing Environments*, Springer (2021) &lbrack;[arXiv:2112.00187](https://arxiv.org/abs/2112.00187), [doi:10.1007/978-3-030-89746-8_2](https://doi.org/10.1007/978-3-030-89746-8_2)&rbrack;
+
 * Nathanial Stemen, *Quantum Circuit Compilation from the Ground Up* (2022) &lbrack;[pdf](https://uwaterloo.ca/applied-mathematics/sites/ca.applied-mathematics/files/uploads/files/quantum_circuit_compilation_from_the_ground_up.pdf)&rbrack;
 
-Using a [[proof assistant]] based on [[QWIRE]]:
+* Giulia Meuli, Fereshte Mozafari, Bruno Schmitt, Heinz Riener, Mathias Soeken, Giovanni De Micheli: *[Quantum Compilation](https://si2.epfl.ch/~demichel/research/quantum.html)*
+ 
+
+Quantum compulilation with a [[proof assistant]] based on [[QWIRE]]:
+
+* [[Kesha Hietala]], [[Robert Rand]], [[Shih-Han Hung]], Xiaodi Wu, [[Michael Hicks]], *A verified optimizer for Quantum circuits*, Proceedings of the ACM on Programming Languages **5** Issue POPL 37 (2021) 1–29 &lbrack;[doi:10.1145/3434318](https://doi.org/10.1145/3434318)&rbrack;
+
+* [[Kesha Hietala]], [[Robert Rand]], [[Shih-Han Hung]], Liyi Li, [[Michael Hicks]], *Proving Quantum Programs Correct*, in *12th International Conference on Interactive Theorem Proving (ITP 2021)*, Leibniz International Proceedings in Informatics (LIPIcs) **193** (2021) &lbrack;[arXiv:2010.01240](https://arxiv.org/abs/2010.01240)&rbrack;
+
 
 * [[Kesha Hietala]], *A verified software toolchain for quantum programming* (2022) &lbrack;[pdf](https://khieta.github.io/files/drafts/khieta-dissertation.pdf)&rbrack;
 
@@ -114,6 +128,11 @@ Discussion of the Solovay-Kitaev theorem for quantum compilation in the context 
 
 * Keisuke Fujii, *Quantum Computation with Topological Codes: from qubit to topological fault-tolerance*,  SpringerBriefs in Mathematical Physics **8** (2015) &lbrack;[arXiv:1504.01444](https://arxiv.org/abs/1504.01444), [doi:10.1007/978-981-287-996-7](https://doi.org/10.1007/978-981-287-996-7)&rbrack;
 
+[[!redirects quantum compilation]]
+[[!redirects quantum circuit compilation]]
+
+[[!redirects topological quantum compilation]]
+[[!redirects topological quantum circuit compilation]]
 
 
 
