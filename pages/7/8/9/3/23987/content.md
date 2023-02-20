@@ -411,7 +411,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   slides: [[Singh-CQTS-230130.pdf:file]]
 
-  video: [rec](https://nyu.zoom.us/rec/play/muLFC8rM9dqGp9OALgnVHx7zlkOkMGNA0OT4_OLowBMr1DfH2FL0ZHPC1JcBjxzMc1dwWYWivPkxCkNc.iXT4MQtD8XwT_av3?continueMode=true&_x_zm_rtaid=PE1QubLLRRqlcRKK1X-mgA.1675146681717.847782ca2b7ab36562f3b33ce99ec7dd&_x_zm_rhtaid=941)
+  video: [rec](https://nyu.zoom.us/rec/play/muLFC8rM9dqGp9OALgnVHx7zlkOkMGNA0OT4_OLowBMr1DfH2FL0ZHPC1JcBjxzMc1dwWYWivPkxCkNc.iXT4MQtD8XwT_av3?continueMode=true&_x_zm_rtaid=PE1QubLLRRqlcRKK1X-mgA.1675146681717.847782ca2b7ab36562f3b33ce99ec7dd&_x_zm_rhtaid=941), [YT](https://www.youtube.com/watch?v=kflh-6KEjh8)
 
   cf. [arXiv:2103.10228](https://arxiv.org/abs/2103.10228)
 
