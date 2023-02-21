@@ -29,5 +29,5 @@ The complex analog of the orthogonal calculus is known as the [[unitary calculus
 
 * {#Weiss95} [[Michael Weiss]], _Orthogonal calculus_, Trans. Amer. Math. Soc. 347 (1995), 3743-3796, [pdf](https://wwwmath.uni-muenster.de/u/michael.weiss/preprints/or.pdf)
 
-* [[David Barnes]], [[Rosona Eldred]], _Comparing the orthogonal and homotopy functor calculi_ ([arXiv:1505.05458](http://arxiv.org/abs/1505.05458))
+* [[David Barnes]], [[Rosona Eldred]], _Comparing the orthogonal and homotopy functor calculi_, Journal of Pure and Applied Algebra **220** 11 (2016) 3650-3675 &lbrack;[arXiv:1505.05458](http://arxiv.org/abs/1505.05458), [doi:10.1016/j.jpaa.2016.05.005](https://doi.org/10.1016/j.jpaa.2016.05.005)&rbrack;
 
