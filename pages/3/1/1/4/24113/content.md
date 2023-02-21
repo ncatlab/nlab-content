@@ -38,7 +38,7 @@ Every [[cotopos]] is a [[protomodular category]].
 
 ## Examples
 
-A [[binary relation]] $R$ between sets $A$ and $B$ is *injective* if for all $a \in A$, $b \in A$, and $c \in B$, if $R(a, c)$ and $R(b, c)$ then $a = c$. A binary relation $R$ between sets $A$ and $B$ is *onto* if for all $b \in B$ there exists an element $a \in A$ such that $R(a, b)$. The category of sets and injective onto binary relations is a cotopos. 
+A [[binary relation]] $R$ between sets $A$ and $B$ is *injective* if for all $a \in A$, $b \in A$, and $c \in B$, if $R(a, c)$ and $R(b, c)$ then $a = b$. A binary relation $R$ between sets $A$ and $B$ is *onto* if for all $b \in B$ there exists an element $a \in A$ such that $R(a, b)$. The category of sets and injective onto binary relations is a cotopos. 
 
 ## See also
 
