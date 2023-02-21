@@ -171,6 +171,11 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   > on [[quantum materials]], [[quantum computation]] and [[quantum programming]]
 
+<center>
+<img src="https://ncatlab.org/nlab/files/CQTS_and_TII_logo.jpg" width="240">
+</center>
+
+
 \linebreak
 
 ### Mar 2023
