@@ -89,9 +89,20 @@ By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic
 
 ## References
 
-Named after [[Giuseppe Peano]]
+Named after [[Giuseppe Peano]]; originating in
+
+* [[Richard Dedekind]], *Was sind und was sollen die Zahlen?* (1888) &lbrack;scan: [pdf](https://rcin.org.pl/Content/37485/WA35_52499_2264brosz_Was-sind.pdf), [doi:10.1007/978-3-663-02788-1](https://doi.org/10.1007/978-3-663-02788-1)&rbrack;
+
+* [[Richard Dedekind]] (transl. by W. Beman), _The nature and meaning of numbers_, Chapter II in: *Essays on the Theory of Numbers*, Chicago (1901) &lbrack;[Project Gutenberg](http://www.gutenberg.org/ebooks/21016), [pdf](https://www.gutenberg.org/files/21016/21016-pdf.pdf)&rbrack;
+
+* [[Giuseppe Peano]], *Arithmetices principia, nova methodo exposita*, &lbrack;[Wikipedia](https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita)&rbrack;
+
+Review:
+
+* [[David E. Joyce]], *The Dedekind/Peano Axioms* (2005) &lbrack;[pdf](http://aleph0.clarku.edu/~djoyce/numbers/peano.pdf)&rbrack;
 
 * Wikipedia, _[Peano axioms](http://en.wikipedia.org/wiki/Peano_axioms)_
 
 [[!redirects Peano axioms]]
 
+[[!redirects Dedekind-Peano axioms]]
