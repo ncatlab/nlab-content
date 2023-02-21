@@ -92,6 +92,8 @@ See also
 
 * Ratul Mahanta, Tanmoy Sengupta, *Modular linear differential equations for four-point sphere conformal blocks* &lbrack;[arXiv:2211.05158](https://arxiv.org/abs/2211.05158)&rbrack;
 
+* Mikhail Pavlov, *Global torus blocks in the necklace channel* &lbrack;[arXiv:2302.10153](https://arxiv.org/abs/2302.10153)&rbrack;
+
 
 Conformal blocks for [[self-dual higher gauge theory]]:
 
