@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -72,11 +71,15 @@ To a cosimplicial chain complex we can assign a double complex by taking the alt
 
 ## References
 
-The concept [[cosimplicial spaces]] originates with
+The concept for [[cosimplicial spaces]] originates with:
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], chapter X.3 of _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], chapter X.3 of _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, **304** Springer (1972)
 
-Quick review includes
+Introductory notes:
+
+* {#Eldred08} [[Rosona Eldred]], *Tot primer* (2008) &lbrack;[pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view)&rbrack;
+
+Quick review:
 
 * [[Daniel Dugger]], section 5.3 of _A primer on homotopy colimits_ ([pdf](https://pages.uoregon.edu/ddugger/hocolim.pdf))
 
@@ -88,9 +91,7 @@ Review of this includes
 
 * {#Levine13} [[Marc Levine]], _The Adams-Novikov spectral sequence and Voevodsky's slice tower_, Geom. Topol. 19 (2015) 2691-2740 ([arXiv:1311.4179](http://arxiv.org/abs/1311.4179))
 
-Some notes are in
 
-* Rosona Eldred, _Tot primer_ ([pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view))
 
 Discussion of totalizations as [[homotopy limits]] includes
 
