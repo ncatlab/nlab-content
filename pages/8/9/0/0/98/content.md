@@ -43,7 +43,7 @@ for the [[free construction|free]] graded-commutative algebra on the graded vect
 
 Here the elements in the $n$th term in parenthesis are in degree $n$.
 
-A plain vector space, such as the dual $\mathfrak{g}^*$ of the vector space underlying a Lie algebra, we regard her as a $\mathbb{N}$-graded vector space in degree 0. For such, $\wedge^\bullet \mathfrak{g}^*$ is the ordinary [[Grassmann algebra]] over $\mathfrak{g}^*$, where elements of $\mathfrak{g}^*$ are generators of degree 1.
+A plain vector space, such as the dual $\mathfrak{g}^*$ of the vector space underlying a Lie algebra, is regarded as a $\mathbb{N}$-graded vector space in degree 0. The quantity $\wedge^\bullet \mathfrak{g}^*$ is the ordinary [[Grassmann algebra]] over $\mathfrak{g}^*$, where elements of $\mathfrak{g}^*$ are generators of degree 1.
 
 
 
@@ -59,15 +59,14 @@ $$
   k \oplus \mathfrak{g}^* \oplus (\mathfrak{g}^* \wedge \mathfrak{g}^* ) \oplus \cdots
 $$ 
 
-(with the $n$th skew-symmetrized power in degree $n$)
-
-and whose [[differential]] $d$ (of degree +1) is on $\mathfrak{g}^*$ the dual of the Lie bracket
+(with the $n$th skew-symmetrized power in degree $n$),
+and whose [[differential]] $d$ (of degree +1) is defined on $\mathfrak{g}^*$ as the dual of the Lie bracket
 
 $$
-  d|_{\mathfrak{g}^*} := [-,-]^* : \mathfrak{g}^* \to \mathfrak{g}^* \wedge \mathfrak{g}^*
+  d|_{\mathfrak{g}^*} := [-,-]^* : \mathfrak{g}^* \to \mathfrak{g}^* \wedge \mathfrak{g}^*,
 $$
 
-extended uniquely as a graded [[derivation]] on $\wedge^\bullet \mathfrak{g}^*$.
+and extended uniquely as a graded [[derivation]] on $\wedge^\bullet \mathfrak{g}^*$.
 
 That this differential indeed squares to 0, $d \circ d = 0$, is precisely the fact that the Lie bracket satisfies the [[Jacobi identity]].
 
