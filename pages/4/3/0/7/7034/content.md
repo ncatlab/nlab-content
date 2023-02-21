@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -160,6 +161,11 @@ Formalization:
 Discussion in the more general context of [[n-truncation modality|$n$-truncations]]:
 
 * [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
+
+More on the [[universal property]] of propositional truncation:
+
+* [[Nicolai Kraus]], *The General Universal Property of the Propositional Truncation*, in *TYPES 2014* Leibniz International Proceedings in Informatics (LIPIcs) **39** (2015) &lbrack;[arXiv:1411.2682](https://arxiv.org/abs/1411.2682), [doi:10.4230/LIPIcs.TYPES.2014.111](https://doi.org/10.4230/LIPIcs.TYPES.2014.111)&rbrack;
+
 
 For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
