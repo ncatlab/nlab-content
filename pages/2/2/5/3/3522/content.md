@@ -285,7 +285,7 @@ Chris Schommer-Pries
 
 >Following this analogy, if we now have any old functor from space to spaces we can take its fibrant replacement in $W$-spaces. This is a linear functor which is the best approximation to the original functor. So it is like taking a derivative of a function. Goodwillie's insight was to extend this analogy to encompass the rudiments of calculus. There is in fact  a whole series of model categories on functors from spaces to spaces where the fibrant objects are Goodwillie's polynomial functors of degree $n$.
 
-See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](http://curiousreasoning.wordpress.com/2010/08/02/thoughts-on-the-goodwillie-calculus/)
+See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](https://web.archive.org/web/20121114044441/https://curiousreasoning.wordpress.com/2010/08/02/thoughts-on-the-goodwillie-calculus/)
 
 ## Properties
 
