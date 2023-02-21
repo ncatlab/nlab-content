@@ -88,7 +88,7 @@ Review of this includes
 
 * {#Levine13} [[Marc Levine]], _The Adams-Novikov spectral sequence and Voevodsky's slice tower_, Geom. Topol. 19 (2015) 2691-2740 ([arXiv:1311.4179](http://arxiv.org/abs/1311.4179))
 
-Some kind of notes are in
+Some notes are in
 
 * Rosona Eldred, _Tot primer_ ([pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view))
 
