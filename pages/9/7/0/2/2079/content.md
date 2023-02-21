@@ -17,6 +17,13 @@ On [[abstract Stone duality]]:
 
 *  15 papers: [web](http://www.paultaylor.eu/ASD/)
 
+On the [[Dedekind real numbers]] via [[abstract Stone duality]]:
+
+
+*  [[Paul Taylor]], *[Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)* (2007-2009?)
+
+* [[Andrej Bauer]], [[Paul Taylor]], *The Dedekind reals in abstract Stone duality*, Mathematical Structures in Computer Science **19** 4 (2009) 757-838 &lbrack;[doi:10.1017/S0960129509007695](https://doi.org/10.1017/S0960129509007695)&rbrack;
+
 
 
 
