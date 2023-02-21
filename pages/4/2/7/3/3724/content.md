@@ -14,9 +14,9 @@
 
 ## Idea
 
-Dedekind cuts are a way to make precise the idea that a [[real number]] is that which can be approximated (in the [[absolute value]] metric) by [[rational numbers]].
+What came to be called *Dedekind cuts* (a notion due to [Dedekind (1872)](#Dedekind1872)) is a way to make precise the idea that a [[real number]] is that which can be approximated (in the [[absolute value]] metric) by [[rational numbers]].
 
-In 1872, [[Richard Dedekind]] published _Stetigkeit und irrationale Zahlen_ (Continuity and irrational numbers), in which he pointed out that a real number may be uniquely determined its order relationships with rational numbers.  That is, the real number $x$ is determined by its __lower set__ $L_x$ and its __upper set__ $U_x$:
+[Dedekind 1872](#Dedekind1872) pointed out that a real number may be uniquely determined its order relationships with rational numbers.  That is, the real number $x$ is determined by its __lower set__ $L_x$ and its __upper set__ $U_x$:
 \[ \label{cuts} \begin {split}
    L_x \coloneqq \{ a\colon \mathbb{Q} \;|\; a \lt x \} ,\\
    U_x \coloneqq \{ b\colon \mathbb{Q} \;|\; x \lt b \}
@@ -202,26 +202,49 @@ The basic theory also generalises immediately to any unbounded, [[dense linear o
 ## See also
 
 * [[locator]]
+
 * [[Dedekind cut structure]]
+
 * [[streak]]
+
 
 ## References
 
-* [[Richard Dedekind]]; 1872; _Stetigkeit und irrationale Zahlen_:
-   *  [Google Books](http://books.google.com/books?id=AO4GAAAAYAAJ) (in Fraktur font),
-   *  [retyped](http://www.math.ru.nl/werkgroepen/gmfw/bronnen/dedekind2.html) 
-* [[Richard Dedekind]], _Continuity and irrational numbers_, in Essays on the Theory of Numbers (trans. W. Beman), 1901 ([Project Gutenberg](http://www.gutenberg.org/ebooks/21016))
+The original article:
 
-*  [[Paul Taylor]]; 2007--2009(?); [Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
-*  _[[HAF]]_, 4.31--4.39
+* {#Dedekind1872} [[Richard Dedekind]], _Stetigkeit und irrationale Zahlen_ (1872) &lbrack;[Google Books](http://books.google.com/books?id=AO4GAAAAYAAJ), retyped: [web](http://www.math.ru.nl/werkgroepen/gmfw/bronnen/dedekind2.html)&rbrack;
 
-* {#Vickers15} Steve Vickers, “Localic Completion Of Generalized Metric Spaces I”, [TAC](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
+* [[Richard Dedekind]] (transl. by W. Beman), _Continuity and irrational numbers_, Chapter I in: *Essays on the Theory of Numbers*, Chicago (1901) &lbrack;[Project Gutenberg](http://www.gutenberg.org/ebooks/21016), [pdf](https://www.gutenberg.org/files/21016/21016-pdf.pdf)&rbrack;
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+Review:
 
-* Auke B. Booij, Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+*  [[Eric Schechter]], 4.31-4.39 in *[[Handbook of Analysis and its Foundations]]*, Academic Press (1996) &lbrack;[doi:10.1016/B978-0-12-622760-4.X5000-6](https://doi.org/10.1016/B978-0-12-622760-4.X5000-6)&rbrack;
 
-* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
+Discussion in [[locale]]-theory:
+
+* {#Vickers15} [[Steve Vickers]], *Localic Completion Of Generalized Metric Spaces I*, Theory and Applications of Categories **14** 15 (2005) 328-356 &lbrack;[tac:14-15](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)&rbrack;
+
+Discussion via [[abstract Stone duality]]:
+
+*  [[Paul Taylor]], *[Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)* (2007-2009?)
+
+* [[Andrej Bauer]], [[Paul Taylor]], *The Dedekind reals in abstract Stone duality*, Mathematical Structures in Computer Science **19** 4 (2009) 757-838 &lbrack;[doi:10.1017/S0960129509007695](https://doi.org/10.1017/S0960129509007695)&rbrack;
+
+review in:
+
+* [[Andrej Bauer]], *Efficient Computation with Dedekind Reals*, talk at *[Computability and complexity in analysis 2008](https://math.andrej.com/2008/08/24/efficient-computation-with-dedekind-reals/)* and at *[Mathematics, Algorithms and Proofs 2008](http://cdsagenda5.ictp.trieste.it/full_display.php?smr=0&ida=a07167)* (2008) &lbrack;[web](https://math.andrej.com/2008/08/24/efficient-computation-with-dedekind-reals/), slides: [pdf](https://math.andrej.com/wp-content/uploads/2008/08/slides-map2008.pdf), extended abstract: [pdf](https://math.andrej.com/wp-content/uploads/2008/08/abstract-cca2008.pdf)&rbrack;
+
+Discussion in [[synthetic topology]]:
+
+* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces &lbrack;[arxiv:2104.10399](https://arxiv.org/abs/2104.10399)&rbrack;
+
+
+Formalization in [[homotopy type theory]]:
+
+* {#UFP13} [[Univalent Foundations Project]], §11.2 *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* [[Auke B. Booij]], Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+
 
 [[!redirects Dedekind cut]]
 [[!redirects Dedekind cuts]]
