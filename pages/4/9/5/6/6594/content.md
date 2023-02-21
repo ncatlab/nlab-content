@@ -660,7 +660,7 @@ Mentioning of the need for [[definite globalizations of WZW terms]] is (ever so 
 
 That there ought to be a systematic study of [[higher Klein geometry]] and higher Cartan geometry has been amplified by [[David Corfield]] since 2006.
 
-Construction of the higher WZW terms on homotopy quotients $G/H$ of higher super-gorups is due to
+Construction of the higher WZW terms on homotopy quotients $G/H$ of higher super-groups is due to
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
