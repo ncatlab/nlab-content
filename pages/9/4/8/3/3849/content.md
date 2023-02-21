@@ -2,8 +2,10 @@
 
 * nlab: [[Riemann conjecture]], [[Riemann surface]]
 
-##Writings
+## Writings
 
 * [[On the hypotheses which underlie geometry]]
 
 category: people
+
+[[!redirects Riemann]]
