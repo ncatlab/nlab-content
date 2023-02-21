@@ -371,6 +371,12 @@ See also:
 
 * Andrew Mauer-Oats, _Algebraic Goodwillie calculus and a cotriple model for the remainder_, Trans. Amer. Math. Soc. __358__  (2006),  no. 5, 1869--1895 [journal](http://www.ams.org/tran/2006-358-05/S0002-9947-05-03936-X/home.html), [math.AT/0212095](http://arxiv.org/abs/math/0212095)
 
+* [[David Barnes]], [[Rosona Eldred]], *Capturing Goodwillie's Derivative*, Journal of Pure and Applied Algebra
+**220** 1 (2016) 197-222 &lbrack;[arXiv:1406.0424](https://arxiv.org/abs/1406.0424), [doi:10.1016/j.jpaa.2015.06.006](https://doi.org/10.1016/j.jpaa.2015.06.006)&rbrack;
+
+
+
+
 Discussion in the context of [[chromatic homotopy theory]]:
 
 * {#AroneMahowald98} [[Greg Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae, February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf), [doi:10.1007/s002220050300](https://doi.org/10.1007/s002220050300))
