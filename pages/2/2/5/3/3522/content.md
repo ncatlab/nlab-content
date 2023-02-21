@@ -263,7 +263,7 @@ Gregory Arone in an MO [answer](http://mathoverflow.net/questions/32071/is-the-d
 
 >$\Gamma$-spaces also serve as a model for particularly well-behaved covariant functors from the category of pointed topological spaces to itself. Of course, these functors play an important role in topology as well. I like to think of Goodwillie's Calculus of Homotopy Functors (and also of Michael Weiss's Orthogonal Calculus) as a kind of "sheaf theory for covariant functors". In these theories, covariant functors are analogous to presheaves and linear functors are analogous to sheaves (The definition of a linear functor is essentially a homotopy-invariant version of the definition of a sheaf). The process of approximating a general functor by a linear one is analogous to sheafification, and so forth. These theories provide methods for studying certain types of functors, but of course they also tell you something about the category of spaces itself.
 
-Eric Finster's [research statement](http://people.virginia.edu/~elf9e/research.pdf)
+Eric Finster's research statement
 
 >One tantalizing aspect of the Goodwillie calculus is that it suggests the possibility of thinking geometrically about the global structure of homotopy theory. In this interpretation, the category of spectra plays the role of the tangent space to the category of spaces at the one-point space. Moreover, the identity functor from spaces to spaces is not linear...and one can interpret this as saying that spaces have some kind of non-trivial curvature.
 
