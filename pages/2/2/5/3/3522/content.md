@@ -267,7 +267,7 @@ Eric Finster's [research statement](http://people.virginia.edu/~elf9e/research.p
 
 >One tantalizing aspect of the Goodwillie calculus is that it suggests the possibility of thinking geometrically about the global structure of homotopy theory. In this interpretation, the category of spectra plays the role of the tangent space to the category of spaces at the one-point space. Moreover, the identity functor from spaces to spaces is not linear...and one can interpret this as saying that spaces have some kind of non-trivial curvature.
 
-However, Goodwillie remarks in the [report](http://www.mfo.de/document/0414/OWR_2004_17.pdf&#8206;) (p. 905) on a Oberwolfach meeting.:
+However, Goodwillie remarks in the [report](#OWR2004) (p. 905) on a Oberwolfach meeting.:
 
 >Rhetorical question: If the first derivative of the identity is the identity matrix, why is the second derivative not zero? Answer: Some of the terminology of homotopy calculus works better for functors from spaces to spectra than for functors from spaces to spaces. Specifically, since "linearity" means taking pushout squares to pullback squares, the identity functor is not linear and the composition of two linear functors is not linear.
 
@@ -275,7 +275,7 @@ However, Goodwillie remarks in the [report](http://www.mfo.de/document/0414/OWR_
 
 >Correction: After the talk Boekstedt asked about that remark. We discussed the matter at length and found more than one connection on the category of spaces, but none that was not flat. In fact curvature is the wrong thing to look for. There are in some sense exactly two tangent connections on the category of spaces (or should we say on any model category?). Both are  flat and torsion-free. There is a map between them, so it is meaningful to subtract them. As is well-known in differential geometry, the difference between two connections is a 1-form with values in endomorphisms (whereas the curvature is a 2-form with values in endomorphisms). Thus there is a way of discussing the discrepancy between pushouts and pullbacks in the language of differential geometry, but it is a tensor field of a different type from what I had guessed.
 
-This is from the [report](http://www.mfo.de/programme/schedule/2004/14/OWR_2004_17.pdf) (p. 905) on a Oberwolfach meeting. The table on p. 900 also makes comparisons to differential geometry.
+This is from the [report](#OWR2004) (p. 905) on a Oberwolfach meeting. The table on p. 900 also makes comparisons to differential geometry.
 
 Chris Schommer-Pries
 
@@ -344,6 +344,10 @@ The original articles:
 
 * [[Thomas Goodwillie]], _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([euclid:gt/1513883319](https://projecteuclid.org/euclid.gt/1513883319) [doi:10.2140/gt.2003.7.645](http://dx.doi.org/10.2140/gt.2003.7.645), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
 
+Oberwolfach Report
+
+* {#OWR2004} The Goodwillie Calculus of Functors. Workshop Report 2004,17. [doi:10.4171/OWR/2004/17](https://doi.org/10.14760/OWR-2004-17)
+
 
 Surveys and introductions:
 
@@ -370,12 +374,6 @@ A [[model category]] presentation for [[n-excisive functors]]:
 See also:
 
 * Andrew Mauer-Oats, _Algebraic Goodwillie calculus and a cotriple model for the remainder_, Trans. Amer. Math. Soc. __358__  (2006),  no. 5, 1869--1895 [journal](http://www.ams.org/tran/2006-358-05/S0002-9947-05-03936-X/home.html), [math.AT/0212095](http://arxiv.org/abs/math/0212095)
-
-* [[David Barnes]], [[Rosona Eldred]], *Capturing Goodwillie's Derivative*, Journal of Pure and Applied Algebra
-**220** 1 (2016) 197-222 &lbrack;[arXiv:1406.0424](https://arxiv.org/abs/1406.0424), [doi:10.1016/j.jpaa.2015.06.006](https://doi.org/10.1016/j.jpaa.2015.06.006)&rbrack;
-
-
-
 
 Discussion in the context of [[chromatic homotopy theory]]:
 
