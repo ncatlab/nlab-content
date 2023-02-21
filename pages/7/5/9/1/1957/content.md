@@ -110,7 +110,7 @@ If $V$ is equipped with a [[bilinear form]] then there is also the [[Clifford al
 
 But sometimes it is useful to consider the Grassmann algebra even in the presence of a non-degenerate bilinear form, in which case the inner product still serves to induce identifications between elements of the Grassmann algebra in different degree.
 
-Let $V$ be $\mathbf{R}^3$ equipped with its standard inner product.  Then an element of $\Lambda^0 V$ is a scalar (a [[real number]]), an element of $\Lambda^1 V$ may be identified with a vector in the elementary sense, an element of $\Lambda^2 V$ may be identified with a [[bivector]] or [[pseudovector]], and an element of $\Lambda^2 V$ may be identified a [[pseudoscalar]].
+Let $V$ be $\mathbf{R}^3$ equipped with its standard inner product.  Then an element of $\Lambda^0 V$ is a scalar (a [[real number]]), an element of $\Lambda^1 V$ may be identified with a vector in the elementary sense, an element of $\Lambda^2 V$ may be identified with a [[bivector]] or [[pseudovector]], and an element of $\Lambda^3 V$ may be identified a [[pseudoscalar]].
 
 More generally, let $V$ be $\mathbf{R}^n$, or indeed any real [[inner product space]].  Then an element of $\Lambda^p V$ is a $p$-vector as studied in [[geometric algebra]].  Using the inner product, we can identify $p$-vectors with $(n-p)$-pseudovectors.
 
