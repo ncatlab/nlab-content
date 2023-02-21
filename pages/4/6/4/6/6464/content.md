@@ -75,9 +75,10 @@ The concept for [[cosimplicial spaces]] originates with:
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], chapter X.3 of _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, **304** Springer (1972)
 
+
 Introductory notes:
 
-* {#Eldred08} [[Rosona Eldred]], *Tot primer* (2008) &lbrack;[pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view)&rbrack;
+* {#Eldred08} [[Rosona Eldred]], *Tot primer* (2008) &lbrack;[pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view), [[Eldred-Totalization.pdf:file]]&rbrack;
 
 Quick review:
 
