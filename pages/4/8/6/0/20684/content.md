@@ -1,5 +1,7 @@
 
-* [institute page](https://www.unige.ch/math/en/people/enseigne/)
+* [institute page](https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=1043)
+
+* [homepage](https://jpulmann.github.io/)
 
 ## Selected writings
 
