@@ -10,6 +10,8 @@ On [[intuitionistic mathematics]], [[constructive mathematics]] and the [[BHK in
 
 * {#Troelstra77} [[Anne Sjerp Troelstra]], *Aspects of Constructive Mathematics*, Studies in Logic and the Foundations of Mathematics **90** 973-1052 (1977) &lbrack;<a href="https://doi.org/10.1016/S0049-237X(08)71127-3">doi:10.1016/S0049-237X(08)71127-3</a>&rbrack;
 
+* [[Anne Sjerp Troelstra]], [[Dirk van Dalen]], *Constructivism in Mathematics -- An introduction*, Vol 1, Studies in Logic and the Foundations of Mathematics **121**, North-Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
+
 
 On [[intuitionistic logic]]:
 
