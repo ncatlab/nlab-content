@@ -287,6 +287,9 @@ rewritten as:
 
 * [[Errett Bishop]], [[Douglas Bridges]] *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
+Early monographs:
+
+* [[Anne Sjerp Troelstra]], [[Dirk van Dalen]], *Constructivism in Mathematics -- An introduction*, Vol 1, Studies in Logic and the Foundations of Mathematics **121**, North Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
 
 Gentle introductions:
 
@@ -306,7 +309,6 @@ An more technical introduction to constructive reasoning in mathematics is (with
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 Other accounts:
-
 
 * [[Michael J. Beeson]], *Foundations of Constructive Mathematics*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **3** 6, Springer 1985 ([doi:10.1007/978-3-642-68952-9](https://link.springer.com/book/10.1007/978-3-642-68952-9), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-642-68952-9.pdf))
 
@@ -339,7 +341,7 @@ General comments on intuitionistic mathematics/logic as the natural language for
 
 For more on [[physics]] formalized in intuitionistic mathematics (notably in [[topos theory]]) see at _[[geometry of physics]]_.
 
-For an emphasis on proof relevance, see:
+For an emphasis on [[proof relevance]], see:
 
 * {#Harper13} [[Robert Harper]],  _[Constructive Mathematics is not Metamathematics](https://existentialtype.wordpress.com/2013/07/10/constructive-mathematics-is-not-meta-mathematics/)_ (2013)
 
@@ -349,8 +351,8 @@ Most books on [[topos theory]] include some discussion of toposes\' [[internal l
 
 A historical account is in 
 
-* [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf)) 
- {#Troelstra91}
+* {#Troelstra91} [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf)) 
+ 
 
 The relation to [[realizability]] and [[computability]] is discussed in
 
