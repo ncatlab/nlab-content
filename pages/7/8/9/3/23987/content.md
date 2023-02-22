@@ -449,6 +449,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf. [arXiv:2205.08354](https://arxiv.org/abs/2205.08354)
 
+  video: [rec](https://nyu.zoom.us/rec/play/jZpU2ntT2u61_tnNIQZgJOHLvrc8w6t-7IjsWf6_TOuOVCgJoLwZtGg_33ZkUqIzmK9LZl7BRiElaZLq.tsHNOk7epHU9RWYE?continueMode=true), [YT](https://www.youtube.com/watch?v=7Q_sjfyPJqU)
+
   > [[proof assistant|Proof assistant]] software enables the development of [[proofs]] in a manner such that a computer can verify their validity. As proof assistants commonly take the form of a [[programming language]], users face programming-related problems, such as the naturality of expressing ideas and algorithms in the language, usability, and performance. We will investigate these issues as they occur in developing [[Errett Bishop]]’s [[constructive analysis|constructive]] [[Cauchy real number|real numbers]] in the [[Agda]] [[proof assistant]] and [[functional programming language]], with an introduction to each.
 
 
