@@ -313,6 +313,10 @@ Reviews with discussion of the impact on confinement in plain YM:
 
 * [[Michael Dine]], *On the Possibility of Demonstrating Confinement in Non-Supersymmetric Theories by Deforming Confining Supersymmetric Theories* &lbrack;[arXiv:2211.17134](https://arxiv.org/abs/2211.17134)&rbrack;
 
+See also:
+
+* Michele Della Morte, Benjamin Jäger, Francesco Sannino, Justus Tobias Tsang, Felix P. G. Ziegler, *The spectrum of QCD with one flavour: A Window for Supersymmetric Dynamics* &lbrack;[arXiv:2302.10514](https://arxiv.org/abs/2302.10514)&rbrack; 
+
 
 
 [[!include Polyakov gauge-string duality -- references]]
