@@ -1330,6 +1330,7 @@ See also
 
 * Yi Yang, Pei-Hung Yuan, _QCD Phase Diagram by Holography_ ([arXiv:2011.11941](https://arxiv.org/abs/2011.11941))
 
+* Nicolas Kovensky, Aaron Poole, Andreas Schmitt, *Phases of cold holographic QCD: baryons, pions and rho mesons* &lbrack;[arXiv:2302.10675](https://arxiv.org/abs/2302.10675)&rbrack;
 
 
 ### Application to meson physics
