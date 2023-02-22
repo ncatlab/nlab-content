@@ -343,11 +343,15 @@ The definition of the real numbers in [[constructive analysis]] as [[Cauchy real
 
 * [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
-Direct formalization of the definition from [Bishop (1967)](#Bishop67) in [[Agda]] is developed in
+Direct formalization of the definition of [[Cauchy real numbers]] from [Bishop (1967)](#Bishop67) in [[Agda]]:
 
 * [[Martin Lundfall]], *Formalizing real numbers in Agda* (2015) &lbrack;<a href="https://wcl.cs.rpi.edu/pilots/library/papers/TAGGED/4211-Lundfall%20(2015)%20-%20Formalizing%20Real%20Numbers%20in%20Agda.pdf">pdf</a>, [[Lundfall-RealNumbersInAgda.pdf:file]], [github](https://github.com/MrChico/Reals-in-agda)&rbrack;
 
 * [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
+
+review:
+
+* [[Zachary Murray]], *Constructive Real Numbers in the Agda Proof Assistant*, [talk at *CQTS*](Center+for+Quantum+and+Topological+Systems#MurrayFeb2023), (Feb 2023) &lbrack;video:[YT](https://www.youtube.com/watch?v=7Q_sjfyPJqU)&rbrack;
 
 and closely related constructions in [[Coq]] have been implemented in 
 
