@@ -258,6 +258,9 @@ Implementation of [[Errett Bishop|Bishop]]-style [[Cauchy real numbers]] in [[Ag
 
 * {#Murray22} [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
 
+review:
+
+* [[Zachary Murray]], *Constructive Real Numbers in the Agda Proof Assistant*, [talk at *CQTS*](Center+for+Quantum+and+Topological+Systems#MurrayFeb2023), (Feb 2023) &lbrack;video:[YT](https://www.youtube.com/watch?v=7Q_sjfyPJqU)&rbrack;
 
 
 A novel construction principle of the type of real numbers, as a [[higher inductive-inductive type]] in [[univalence axiom|univalent]] [[homotopy type theory]], not reliant on representatives by sequences of [[rational numbers]], and with provable [[Cauchy completeness]] even without extra [[axiom of countable choice]] is laid out (cf. *[[HoTT book real numbers]]*) in
