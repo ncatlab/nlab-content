@@ -106,6 +106,23 @@ From [Troelstra (1977, p. 977)](#Troelstra77):
 \end{imagefromfile}
 
 
+{#FromTroelstraVanDalen88} From [Troelstra & van Dalen (1988)](#TroelstraVanDalen88):
+
+\begin{imagefromfile}
+    "file_name": "Troelstra-VanDalen-BHKInterpretation.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
 {#FromBridges} From [Bridges (1999), p. 96](#Bridges99):
 
 \begin{imagefromfile}
@@ -174,13 +191,17 @@ Early monographs:
 
 * {#Kreisel65} [[Georg Kreisel]], Section 2 of: *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
 
+* {#TroelstraVanDalen88} [[Anne Sjerp Troelstra]], [[Dirk van Dalen]], Section 3.1 of: *Constructivism in Mathematics -- An introduction*, Vol 1, Studies in Logic and the Foundations of Mathematics **121**, North Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
+
 Early historical review:
 
 * {#Troelstra90} [[Anne Sjerp Troelstra]], *On the Early History of Intuitionistic Logic*, in *Mathematical Logic*, Springer, (1990) &lbrack;[doi:10.1007/978-1-4613-0609-2_1](https://doi.org/10.1007/978-1-4613-0609-2_1)&rbrack;
 
 Recognizable formulation of the so-called "BHK interretation" first appears in:
 
-* [Kolmogorov (1932, p. 59)](#Kolmogorov32)
+*
+
+ [Kolmogorov (1932, p. 59)](#Kolmogorov32)
 
 (who however speaks not of propositions but of *Aufgaben*, i.e. "tasks", here in the sense of: "mathematical problems") 
 
@@ -223,7 +244,7 @@ See also:
 
 
 
-* Wouter Pieter Stekelenburg, _Realizability Categories_ , ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134)).
+* Wouter Pieter Stekelenburg, _Realizability Categories_, ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134)).
 
 * {#EscardoXu15} [[Martin Escardo]], Chuangjie Xu, _The inconsistency of a Brouwerian continuity principle with the Curry--Howard interpretation_, 13th International Conference on Typed Lambda Calculi and Applications (TLCA 2015), Leibniz International Proceedings in Informatics (LIPIcs) *38* (2015) &lbrack;[doi:10.4230/LIPIcs.TLCA.2015.153](https://doi.org/10.4230/LIPIcs.TLCA.2015.153), [pdf](http://www.cs.bham.ac.uk/%7Emhe/papers/escardo-xu-inconsistency-continuity.pdf)&rbrack;
 
