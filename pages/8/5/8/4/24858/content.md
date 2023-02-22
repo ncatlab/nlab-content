@@ -100,15 +100,22 @@ Even if we restrict to internal definitional equality, there is still a distinct
 
 ## References
 
-There is 
+The first paper to mention intensional equality (and the fact that it should be decidable) may be: 
 
 * [[Kurt Gödel]], _Über eine bisher noch nicht benützte Erweiterung des finiten Standpunktes_. Dialectica (1958), pp. 280–287, 
 
-which might be the first paper to mention intensional equality (and the fact that it should be decidable), and there is
+The distinction between definitional equality and "book" equality:
 
 * [[Nicolaas de Bruijn]], _[[Automath]]_, 
 
-where de Bruijn makes a distinction between definitional equality and "book" equality.
+The notion of definitional equality in the context of ([[dependent type theory|dependent]]) [[type theory]]:
+
+* {#Thompson91} [[Simon Thompson]], §5.2.1 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
+specifically in the [[Coq]] [[proof assistant]]: 
+
+* [[Adam Chlipala]], §10.1 in: _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
+
 
 [[!redirects definitional equality]]
 [[!redirects definitional equalities]]
