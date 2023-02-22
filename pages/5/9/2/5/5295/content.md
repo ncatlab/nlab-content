@@ -157,10 +157,13 @@ Formalization in terms of [[realizability]] (the [[Kleene-Vesley topos]]), and h
 
 * [[Stephen Kleene]], R. E. Vesley, _The foundations of intuitionistic mathematics_, North-Holland (1965)
 
-
 General review:
 
 * Stanford Encyclopedia of Philosophy, _[Intuitionism in the Philosophy of Mathematics](http://plato.stanford.edu/entries/intuitionism/)
+
+See also texts on [[constructive mathematics]], such as:
+
+* [[Anne Sjerp Troelstra]], [[Dirk van Dalen]], *Constructivism in Mathematics -- An introduction*, Vol 1, Studies in Logic and the Foundations of Mathematics **121**, North Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
 
 Reviews with further developments:
 
