@@ -4,7 +4,7 @@
 ## Selected writings
 
 
-On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by (i.e. compiling them to) [[quantum circuit|cicuits]] of [[anyon]] [[braid representation|braid]] [[quantum gates|gates]] (generally considered for [[su(2)-anyons]] and here mostly for universal [[Fibonacci anyons]], to some extent also for non-universal [[Majorana anyons]]):
+On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by (i.e. [[quantum compilation|compiling]] them to) [[quantum circuit|cicuits]] of [[anyon]] [[braid representation|braid]] [[quantum gates|gates]] (generally considered for [[su(2)-anyons]] and here mostly for universal [[Fibonacci anyons]], to some extent also for non-universal [[Majorana anyons]]):
 
 * [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) $[$[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)$]$
 
@@ -15,6 +15,10 @@ On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by
 * M. Baraban, [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) $[$[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)$]$
 
   > (focus on compiling [[Shor's algorithm]])
+
+* Caitlin Carnahan, Daniel Zeuch, [[Nicholas E. Bonesteel]], *Systematically generated two-qubit anyon braids*, Phys. Rev. A **93** 052328 (2016) &lbrack;[arXiv:1511.00719](https://arxiv.org/abs/1511.00719), [doi:10.1103/PhysRevA.93.052328](https://doi.org/10.1103/PhysRevA.93.052328)&rbrack;
+
+
 
 and particularly by "weaves":
 
