@@ -274,15 +274,15 @@ Further references are given in [[directed homotopy theory]].
 
 * Emmanuel Haucourt, [_Streams, d-Spaces and Their Fundamental Categories_, Electronic Notes in Theoretical Computer Science, Volume 283, 15 June 2012, Pages 111-151](https://doi.org/10.1016/j.entcs.2012.05.008)
 
-Local models of framed spaces were introduced in the book:
+Some 'local combinatorial' aspects of framed spaces are discussed in:
 
 * {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdf](https://arxiv.org/abs/2112.14700))
 
-An overview of the book's result, as well their application to the theory of manifold diagrams is given in:
+An overview of the book's result, as well as their application to the theory of [[manifold diagram|manifold diagrams]] is given in:
 
 * {#DornDouglas22B} Christoph Dorn and Christopher Douglas, _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
 
-A global approach (from a higher categorical perspective) is sketched in:
+A global (higher-categorical) perspective on directed spaces is taken in:
 
 * {#Dorn23} Christoph Dorn, _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
 
