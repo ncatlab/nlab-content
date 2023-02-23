@@ -1099,6 +1099,10 @@ For [[2-categories]]:
 
 * [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_ ([arxiv:1211.6603](http://arxiv.org/abs/1211.6603))
 
+For [[bicategories]]:
+
+* [[Stephen Lack]] and [[Simona Paoli]], _2-nerves for bicategories_, K-Theory, **38**, 2008. ([arXiv:math/0607271](https://arxiv.org/abs/math/0607271), [doi:10.1007/s10977-007-9013-2](http://dx.doi.org/10.1007/s10977-007-9013-2))
+
 For [[3-categories]]:
 
 * {#Carrasco2014} Pilar Carrasco, _Nerves of Trigroupoids as Duskin-Glenn’s $3$-Hypergroupoids_, Applied Categorical Structures 23.5 (2015): 673-707 ([doi:10.1007/s10485-014-9374-7](https://doi.org/10.1007/s10485-014-9374-7))
