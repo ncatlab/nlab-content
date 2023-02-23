@@ -133,6 +133,9 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 * [[graded fusion category]]
 
+* [[Tambara-Yamagami category]]
+
+
 ## References ##
 
 ### General
