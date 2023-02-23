@@ -13,6 +13,16 @@ Application to [[verified programming]] after implementation in [[Coq]]:
 
 * [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
 
+  > &lbrack;p. iv:&rbrack; "We argue that [[quantum programs]] demand [[proof assistant|machine-checkable proofs]] of correctness. We justify this on the basis of the complexity of programs manipulating [[quantum states]], the expense of running [[quantum programs]], and the inapplicability of traditional debugging techniques to programs whose states cannot be examined."
+
+  > &lbrack;p. 3:&rbrack; "Quantum programs are tremendously difficult to understand and implement, almost guaranteeing that they will have bugs. And traditional approaches to debugging will not help us: We cannot set breakpoints and look at our qubits without [[quantum state collapse|collapsing the quantum state]]. Even techniques like unit tests and random testing will be impossible to run on classical machines and too expensive to run on quantum computers – and failed tests are unlikely to be informative"
+
+  > &lbrack;p. 4:&rbrack; "Thesis Statement: *[[quantum programming|Quantum programming]] is not only amenable to [[software verification|formal verification]]: it demands it.*"
+
+  > "The overarching goal of this thesis is to write and verify quantum programs together. Towards that end, we introduce a quantum programming language called [[Qwire]] and embed it inside the [[Coq]] [[proof assistant]]. We give it a [[linear type system]] to ensure that it obeys the laws of [[quantum mechanics]] and a [[denotational semantics]] to prove that programs behave as desired." 
+
+
+
 * [[Robert Rand]], [[Jennifer Paykin]], Dong-Ho Lee, [[Steve Zdancewic]], *ReQWIRE: Reasoning about Reversible Quantum Circuits*, EPTCS **287** (2019) 299-312 &lbrack;[arXiv:1901.10118](https://arxiv.org/abs/1901.10118), [doi:10.4204/EPTCS.287.17](https://doi.org/10.4204/EPTCS.287.17)&rbrack;
 
 Using ambient [[homotopy type theory]]:
