@@ -290,3 +290,6 @@ Systems of Nets_ ([pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.p
 
 [[!redirects linear type]]
 [[!redirects linear types]]
+
+[[!redirects linear type system]]
+[[!redirects linear type systems]]
