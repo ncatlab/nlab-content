@@ -57,3 +57,6 @@ Other QPLs are more algorithmic (such as *[[Q Sharp]]*).
 
 [[!redirects quantum programming]]
 
+[[!redirects quantum program]]
+[[!redirects quantum programs]]
+
