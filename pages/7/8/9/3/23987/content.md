@@ -165,15 +165,123 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ### Feb 2023
 
-* {#CQTSandTIIWorkshopFeb2023} 24 Feb 2023 (upcoming)
 
-  **CQTS and TII Workshop**
 
-  > on [[quantum materials]], [[quantum computation]] and [[quantum programming]]
+{#CQTSandTIIWorkshopFeb2023}  24 Feb 2023 (upcoming)
+
+**CQTS and TII Workshop**
+
+joint workshop with the [Quantum Research Center](https://www.tii.ae/quantum) (QRC) at the [Technology Innovation Institute](https://www.tii.ae/) (TII) in Abu Dhabi
+
+> on [[quantum materials]], [[quantum computation]] and [[quantum programming]]
 
 <center>
-<img src="https://ncatlab.org/nlab/files/CQTS_and_TII_logo.jpg" width="300">
+<img src="https://ncatlab.org/nlab/files/CQTS_and_TII_logo.jpg" width="340">
 </center>
+
+
+* 9:00 - 9:05
+
+  [[Hisham Sati]]:
+
+  **Welcome**
+
+* 9:05 - 9:15
+
+  [[Luigi Amico]]:
+
+  **Introduction to Quantum Physics @ TII**
+
+* 9:20 - 9:45
+
+  [[Juan Polo Gomez]]:
+
+  **Atomtronics**
+
+* 9:50 - 10:10 
+
+  Enrico Domanti: 
+
+  **Coherence of confined matter in lattice gauge theories at the mesoscopic scale**
+
+* 10:15 - 10:40 
+
+  Gianluigi Catelani:
+
+  **Superconducting qubits**
+
+Break: 10:40 - 11:10
+
+* 11:10 - 11:15
+
+  [[Leandro Aolita]]:
+
+  **Intro to Quantum Algorithms @TII**
+
+* 11:20 - 11:50
+
+  Ingo Roth:
+
+  **Quantum device characterization**
+
+* 11:55 - 12:25
+
+  Egor Tiunov:
+
+  **Quantum-inspired algorithms**
+
+* 12:30 - 13:00
+
+  Thais de Lima Silva:
+
+  **Quantum algorithms: Quantum Signal Processing**
+
+Lunch: 13:00 – 2:15
+
+* 14:15 - 14:25
+
+  [[Hisham Sati]]:
+
+  **Introducing research and researchers @CQTS**
+
+* 14:30 - 14:50
+
+  [[Amaria Javed]]:
+
+  **Quantum information processing via NLS**
+
+* 15:00 - 15:20
+
+  [[Marwa Mannaï]]:
+
+  **Tuning topological quantum materials**
+
+* 15:30 - 15:50
+
+  [[Mitchell Riley]]: 
+
+  **Verified quantum programming with linear HoTT**
+
+Break: 3:50-4:20 pm
+
+* 4:20 - 4:40
+
+  [[Vivek Singh]]:
+
+  **Topological Quantum field theory for TQC**
+
+* 16:50 - 17:10
+
+  [[Sachin Valera]]:
+
+  **Topological Qubits from Anyons**
+
+* 17:20 - 17:50
+
+  [[Urs Schreiber]]:
+
+  **Towards certifying hardware-aware topological quantum programming**
+
 
 
 \linebreak
@@ -844,7 +952,7 @@ Stone-von Neumann**
 
 \linebreak
 
-* 22 Feb 2023
+* {#KozlovFeb2023} 22 Feb 2023
 
   [[Dmitry Kozlov]]
 
