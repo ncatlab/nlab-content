@@ -32,7 +32,7 @@ There are multiple notions of uniqueness of identity proofs: for individual type
 ### For individual types
 
 Given a type $A$, uniqueness of identity proofs is the axiom that for all elements $a:A$ and $b:A$ and identifications $p:\mathrm{Id}_A(a, b)$ and $q:\mathrm{Id}_A(a, b)$, there is an identification $\mathrm{UIP}_A(a, b, p, q):\mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)$. This is the same as stating that there is a dependent function
-$$\mathrm{UIP}_A:\prod_{a:A} \prod_{a:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{q:\mathrm{Id}_A(a, b)} \mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)$$
+$$\mathrm{UIP}_A:\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{q:\mathrm{Id}_A(a, b)} \mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)$$
 
 Uniqueness of identity proofs implies that $A$ is an [[h-set]], and can be used in the definition of an [[h-set]]. 
 
