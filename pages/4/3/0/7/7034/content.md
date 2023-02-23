@@ -134,7 +134,7 @@ Therefore $[A] \to X$ is a [[monomorphism]], and hence the interpretation of a [
 
 The original articles are
 
-* M.E. Maietti, _The Type Theory of Categorical Universes_ PhD thesis, Universit&#224; Delgi Studi di Padova, 1998
+* M.E. Maietti, _The Type Theory of Categorical Universes_ PhD thesis, Universit&#224; Degli Studi di Padova, 1998
 
 (which speaks of "mono types") and
 
