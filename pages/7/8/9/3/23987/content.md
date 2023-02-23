@@ -169,7 +169,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 {#CQTSandTIIWorkshopFeb2023}  24 Feb 2023 (upcoming)
 
-**CQTS and TII Workshop**
+**CQTS and TII Workshop** 2023
 
 joint workshop with the [Quantum Research Center](https://www.tii.ae/quantum) (QRC) at the [Technology Innovation Institute](https://www.tii.ae/) (TII) in Abu Dhabi
 
