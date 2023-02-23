@@ -193,11 +193,11 @@ In the absence of inner products, one cannot speak of orthonormal frames any lon
 \begin{example} The standard orthonormal frame of $n$-dimensional euclidean space $\mathbb{R}^n$ consists for the ordered sequence of vectors $e_1 = (1,0,...,0)$, $e_2 = (0,1,0,...,0)$, ..., $e_n = (0,...,0,1)$. By the previous remark, this orthonormal frame is equivalently described by the sequence of projections $\pi_i : \mathbb{R}^i = \mathbb{R}^{i-1} \times \mathbb{R} \to \mathbb{R}^{i-1}$ (each $\mathbb{R}^i$ being endowed with standard orientation).
 \end{example}
 
-When forgetting basepoints, then the previous remark and example equally apply to [[affine space|affine spaces]], now endowing each point in the space with a basis of frames. Using affine standard framed $\mathbb{R}^n$ as our "local models" for framed spaces (or rather [[compact]] [[contractible]] "patches" of it, that interact nicely with the projections, see below), one may define global framed spaces and their maps.
+When forgetting basepoints, then the previous remark and example equally apply to [[affine space|affine spaces]], now endowing each point in the space with a basis of frames. Using affine standard framed $\mathbb{R}^n$ (or rather [[compact]] [[contractible]] patches of it, that interact nicely with the projections, see below) as our "local models" for framed spaces one may define global framed spaces and their maps.
 
 #### Definition
 
-\begin{terminology} Inductively in $n \in \mathbb{N}$, an *$n$-framed patch* $U \subset \mathbb{R}^n$ is a non-empty subspace of $\mathbb{R}^n$ with the property that its projection $\pi_n(U)$ is an $(n-1)$-framed patch, such that $\pi_n : U \to \pi_n(U)$ has fibers of the form $[\gamma_-(u),\gamma_+(u)]$ for two continuous sections $\gamma_\pm : \pi_n(U) \to \pi_n(U) \times \mathbb{R}$. Given two $n$-framed patches $U$ and $V$, a *(partial) $n$-framed patch map* $F : U \to V$ is a (partial) continuous map that descends along $\pi_n$ to a (partial) $(n-1)$-framed patch map $\pi_n (U) \to \pi_n(V)$.
+\begin{terminology} Inductively in $n \in \mathbb{N}$, an *$n$-framed patch* $U \subset \mathbb{R}^n$ is a non-empty subspace of $\mathbb{R}^n$ with the property that its projection $\pi_n(U)$ is an $(n-1)$-framed patch, such that $\pi_n : U \to \pi_n(U)$ has fibers $\pi^{-1}_n(x)$ of the form $[\gamma_-(u),\gamma_+(u)]$ for two continuous sections $\gamma_\pm : \pi_n(U) \to \pi_n(U) \times \mathbb{R}$. Given two $n$-framed patches $U$ and $V$, a *(partial) $n$-framed patch map* $F : U \to V$ is a (partial) continuous map which descends along $\pi_n$ to a (partial) $(n-1)$-framed patch map $F_{n-1} : \pi_n (U) \to \pi_n(V)$ such that mappings of fibers $F : \pi\inv_n(x) \to \pi\inv_n(F_{n-1}(x))$ are monotone.
 \end{terminology}
 
 Note that $n$-framed patches are [[compact]] and [[contractible]] spaces.
@@ -223,6 +223,9 @@ Maps of framed spaces could be defined along the following lines.
 \end{defn}
 
 Framed spaces and framed maps are, in a sense, "very rigid" variants of directed spaces. Nonetheless, they are interesting to study as they turn out to have a rich [[framed combinatorial topology|combinatorial theory associated to them]]. This combinatorial counterpart is particular useful when translating between the topology of directed spaces and the combinatorics of higher categories: an example of this is the definition of [[manifold diagram|manifold diagrams]] in the language of framed spaces.
+
+\begin{example} Realizations of geometric computads (resp. their functors) have the structure of framed spaces (resp. of framed maps), see [Dorn23](#Dorn23).
+\end{example}
 
 #### Comparison to $d$-spaces
 
@@ -271,11 +274,17 @@ Further references are given in [[directed homotopy theory]].
 
 * Emmanuel Haucourt, [_Streams, d-Spaces and Their Fundamental Categories_, Electronic Notes in Theoretical Computer Science, Volume 283, 15 June 2012, Pages 111-151](https://doi.org/10.1016/j.entcs.2012.05.008)
 
-For framed spaces see:
+Local models of framed spaces were introduced in the book:
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdf](https://cxdorn.github.io/assets/pdfs/fct_latest.pdf))
+* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdf](https://arxiv.org/abs/2112.14700))
+
+An overview of the book's result, as well their application to the theory of manifold diagrams is given in:
 
 * {#DornDouglas22B} Christoph Dorn and Christopher Douglas, _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
+
+A global approach (from a higher categorical perspective) is sketched in:
+
+* {#Dorn23} Christoph Dorn, _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
 
 
 
