@@ -33,7 +33,7 @@ In other words when [[quantum physics]] is axiomatized by [[quantum logic]] in t
 #### Elementary explanation
  {#ElementaryExplanation}
 
-In its original formulation, the statement of the "no-cloing theorem" is that given a quantum system with [[Hilbert space]] $H$ and with a chosen initial pure [[quantum state]] $e \in H$, then there is no [[unitary operator]] on the [[tensor product]] $H \otimes H$ which would take states of the form $(\psi, e)$ to $(\psi,\psi)$. 
+In its original formulation, the statement of the "no-cloning theorem" is that given a quantum system with [[Hilbert space]] $H$ and with a chosen initial pure [[quantum state]] $e \in H$, then there is no [[unitary operator]] on the [[tensor product]] $H \otimes H$ which would take states of the form $(\psi, e)$ to $(\psi,\psi)$. 
 
 Of course this cannot exist, because such a map would not even be [[linear map|linear]]. 
 
