@@ -69,7 +69,7 @@ $$
 
 * {#Yamagami} [[Shigeru Yamagami]], _Algebraic aspects in modular theory_, Publications of the Research Institute for Mathematical Sciences 28:6 (1992), 1075-1106.  [doi](http://dx.doi.org/10.2977/prims/1195167738).
 
-* [[Shugeru Yamagami]], _Modular theory for bimodules_, Journal of Functional Analysis 125:2 (1994), 327-357.  [doi](http://dx.doi.org/10.1006/jfan.1994.1127).
+* [[Shigeru Yamagami]], _Modular theory for bimodules_, Journal of Functional Analysis 125:2 (1994), 327-357.  [doi](http://dx.doi.org/10.1006/jfan.1994.1127).
 
 ### General
 
