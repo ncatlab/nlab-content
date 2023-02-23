@@ -184,6 +184,7 @@ A category $E$ is equivalent to a [[presheaf topos]] (functors with values in th
 
 * [[Cauchy completion]] 
 
+
 [[!redirects atom]]
 [[!redirects atoms]]
 [[!redirects atomic element]]
