@@ -958,6 +958,8 @@ Stone-von Neumann**
 
   **Applied and Computational Topology**
 
+  * video: [YT](https://www.youtube.com/watch?v=GB8i8foPw4w)
+
   > We will give a brief introduction to the subject of [[applied topology|Applied]] and [[computational topology|Computational Topology]]. The survey of the subject's main ideas and tools will be complemented with applications to [[discrete mathematics]] and to theoretical [[distributed computing]]. We will conclude with stating an open problem in combinatorial topology which is related to the complexity of the Weak Symmetry Breaking distributed task.
 
  
