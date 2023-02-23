@@ -36,7 +36,7 @@ The category of germs of space is the [[localization]] of the category of pointe
 
 A short exposition is contained in the textbook
 
-* {#Huybrechts04} [[Daniel Huybrechts]] _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
+* {#Huybrechts04} [[Daniel Huybrechts]], _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
 
 For germs in deformation theory, see for instance
 
