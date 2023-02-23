@@ -132,7 +132,7 @@ $$
      \\
      c_6 & \coloneqq - b_2^3 + 36 b_2 b_4 - 216 b_6
      \\
-     \Delta &\coloneqq - b_2^2 b_8 - 8 b_4^3 - 27 g_6^2 + 9 b_2 b_4 b_6
+     \Delta &\coloneqq - b_2^2 b_8 - 8 b_4^3 - 27 b_6^2 + 9 b_2 b_4 b_6
   \end{aligned}
   \,.
 $$
