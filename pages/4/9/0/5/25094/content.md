@@ -128,6 +128,12 @@ Discussion of the Solovay-Kitaev theorem for quantum compilation in the context 
 
 * Keisuke Fujii, *Quantum Computation with Topological Codes: from qubit to topological fault-tolerance*,  SpringerBriefs in Mathematical Physics **8** (2015) &lbrack;[arXiv:1504.01444](https://arxiv.org/abs/1504.01444), [doi:10.1007/978-981-287-996-7](https://doi.org/10.1007/978-981-287-996-7)&rbrack;
 
+* Vadym Kliuchnikov, Alex Bocharov, Krysta M. Svore, *Asymptotically Optimal Topological Quantum Compiling*, Phys. Rev. Lett. **112** (2014) 140504 &lbrack;[arXiv:1310.4150](https://arxiv.org/abs/1310.4150), [doi:10.1103/PhysRevLett.112.140504](https://doi.org/10.1103/PhysRevLett.112.140504)&rbrack;
+
+
+* Caitlin Carnahan, Daniel Zeuch, [[Nicholas E. Bonesteel]], *Systematically generated two-qubit anyon braids*, Phys. Rev. A **93** 052328 (2016) &lbrack;[arXiv:1511.00719](https://arxiv.org/abs/1511.00719), [doi:10.1103/PhysRevA.93.052328](https://doi.org/10.1103/PhysRevA.93.052328)&rbrack;
+
+
 [[!redirects quantum compilation]]
 [[!redirects quantum circuit compilation]]
 
