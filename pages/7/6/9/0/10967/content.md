@@ -160,7 +160,7 @@ There is a  slightly more substantial generalization of the no-cloning theorem t
 
 ## References
 
-The original articles:
+The original articles on the "no-cloning theorem":
 
 * [[Dennis Dieks]], _Communication in EPR devices_, Physics Letters A 92, 271-272 (1982)
 
@@ -178,6 +178,11 @@ The original suggestion to use the no-cloning theorem for [[quantum cryptography
 
 * [[Stephen Wiesner]], *Conjugate Coding* circulated in the 1960s, finally published in ACM SIGACT News **15** 1 (1083) 78–88 ([original pdf](http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/wiesner.pdf), [doi:10.1145/1008908.1008920](https://doi.org/10.1145/1008908.1008920))
 
+The original statement of the "no-deleting theorem":
+
+* [[Arun Kumar Pati]], [[Samuel L. Braunstein]], *Impossibility of deleting an unknown quantum state*, Nature **404** (2000) 164-165 &lbrack;[doi:10.1038/404130b0](https://doi.org/10.1038/404130b0), [arXiv:quant-ph/9911090](https://arxiv.org/abs/quant-ph/9911090)&rbrack;
 
 [[!redirects non-broadcasting theorem]]
 [[!redirects no-deleting theorem]]
+
+
