@@ -5,6 +5,11 @@ Sam Braunstein is a professor in the department of Computer Science of the Unive
 
 ## Selected writings
 
+Introducing the statement of the "[[no-deleting theorem]]" in [[quantum physics]]/[[quantum information theory]]:
+
+* [[Arun Kumar Pati]], [[Samuel L. Braunstein]], *Impossibility of deleting an unknown quantum state*, Nature **404** (2000) 164-165 &lbrack;[doi:10.1038/404130b0](https://doi.org/10.1038/404130b0), [arXiv:quant-ph/9911090](https://arxiv.org/abs/quant-ph/9911090)&rbrack;
+
+
 On [[quantum information theory]] with continuous variables and the corresponding [[quantum error correction]]:
 
 * [[Samuel L. Braunstein]], Peter van Loock, *Quantum information with continuous variables*, Rev. Mod. Phys. **77** 2 (2005) 513 &lbrack;[arXiv:quant-ph/0410100](https://arxiv.org/abs/quant-ph/0410100), [doi:10.1103/RevModPhys.77.513](https://doi.org/10.1103/RevModPhys.77.513)&rbrack;
