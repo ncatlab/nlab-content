@@ -56,7 +56,7 @@ Theoretical background:
 
   > &lbrack;p. 4:&rbrack; "Thesis Statement: *[[quantum programming|Quantum programming]] is not only amenable to [[software verification|formal verification]]: it demands it.*"
 
-  > The overarching goal of this thesis is to write and verify quantum programs together. Towards that end, we introduce a quantum programming language called [[Qwire]] and embed it inside the [[Coq]] [[proof assistant]]. We give it a [[linear type system]] to ensure that it obeys the laws of [[quantum mechanics]] and a [[denotational semantics]] to prove that programs behave as desired. 
+  > "The overarching goal of this thesis is to write and verify quantum programs together. Towards that end, we introduce a quantum programming language called [[Qwire]] and embed it inside the [[Coq]] [[proof assistant]]. We give it a [[linear type system]] to ensure that it obeys the laws of [[quantum mechanics]] and a [[denotational semantics]] to prove that programs behave as desired."
 
 
 * [[Jennifer Paykin]], *Linear/non-Linear Types For Embedded Domain-Specific Languages*, 2018 ([upenn:2752](https://repository.upenn.edu/edissertations/2752))
