@@ -280,7 +280,7 @@ Break: 3:50-4:20 pm
 
   [[Urs Schreiber]]:
 
-  **Towards certifying hardware-aware topological quantum programming**
+  **[Towards verified hardware-aware topological quantum programming](https://ncatlab.org/schreiber/show/Topological+Quantum+Gates+in+Homotopy+Type+Theory#TalkForTII)**
 
 
 
