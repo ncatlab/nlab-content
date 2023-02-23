@@ -48,7 +48,7 @@ The first mention of produoidal categories as a duoidale seems to be:
 
  * [[Thomas Booker]], [[Ross Street]]. _Tannaka duality and convolution for duoidal categories_, ([link](https://arxiv.org/pdf/1111.5659.pdf)).
 
-A explicit unpacking of the definition, along with examples including the category of [[optic (in computer science)|optics]] appears in
+An explicit unpacking of the definition, along with examples including the category of [[optic (in computer science)|optics]] appears in
 
  * [[Matt Earnshaw]], [[James Hefford]], [[Mario Román]]. _The Produoidal Algebra of Process Decomposition_ ([link](https://arxiv.org/abs/2301.11867)).
 
