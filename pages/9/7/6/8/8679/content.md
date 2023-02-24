@@ -86,6 +86,9 @@ Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT
 
 * {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
 
+Discussion of the connection with [[Dijkgraaf-Witten theory]]
+
+* Jerome Petit, 2006. _The invariant of Turaev-Viro from Group category_ ([math/0608614](https://arxiv.org/abs/math/0608614))
 
 
 [[!redirects Turaev-Viro construction]]
