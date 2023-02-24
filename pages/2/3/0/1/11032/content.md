@@ -96,11 +96,17 @@ For a [[cartesian monoidal category]], the existence of a trace operator is equi
 
 Since any full monoidal subcategory of a traced monoidal category inherits a trace, not every monoidal category can be fully embedded into a traced monoidal category, and hence also not into a compact closed category.  In fact, Plotkin observed that there are monoidal categories that cannot even be *faithfully* mapped into a traced monoidal category.  This can be seen from the fact that a traced monoidal category has the "cancellation property" that if $f\otimes id_{X\otimes X} = g \otimes id_{X\otimes X}$ then $f\otimes id_X = g\otimes \id_X$ (since the latter is a trace of the former with one of the copies of $X\otimes X$ transposed), but not all monoidal categories have this property.
 
+
+### Relation to feedback categories
+
+[[feedback categories|Feedback categories]]  [KSW02](#KatisSabadiniWalters02) are a weakening of the axioms of traced monoidal categories. Feedback categories do not satisfy the yanking axiom and they only satisfy a weaker form of naturality on the object to be traced. Examples include some categories of automata.
+
 ### Categorical semantics
 
 Traced monoidal categories serve as an "operational" [[categorical semantics]] for [[linear logic]], known as _[[Geometry of Interactions]]_. See there for more.
 
 In this context the free compact closure $Int(\mathcal{C})$ from [above](#RelationToCompactClosedCategories) is sometimes called the _Geometry of Interaction construction_ and denoted $\mathcal{G}(\mathcal{C})$ ([Abramsky-Haghverdi-Scott 02, def. 2.6](#AbramskyHaghverdiScott02)).
+
 
 ## References
 
@@ -122,6 +128,10 @@ The combination with [[star-autonomous category|star-autonomous]] structure was 
 
 * Tamás Hajgató and [[Masahito Hasegawa]], *Traced $\ast$-autonomous categories are compact closed*, [TAC](http://www.tac.mta.ca/tac/volumes/28/7/28-07abs.html), 2013
  {#HH13}
+
+Feedback categories and their connection to traced monoidal categories were discussed in
+
+* {#KatisSabadiniWalters02} Piergiulio Katis, Nicoletta Sabadini, [[Bob Walters]].  Feedback, trace and fixed-point semantics, 2002 ([Numdam](http://www.numdam.org/item/ITA_2002__36_2_181_0/)).  
 
 
 [[!redirects traced monoidal categories]]
