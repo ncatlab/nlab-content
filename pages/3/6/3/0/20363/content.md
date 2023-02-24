@@ -71,6 +71,20 @@ For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa
 
 The category of condensed sets $CondSet$ is then the (large) [[colimit]] of the category of $\kappa$-condensed sets along the [[filtered category|filtered]] [[poset]] of all uncountable [[strong limit cardinals]] $\kappa$, hence is the category of [[small sheaves]].
 
+## Equivalence of sites
+
+Several different [[sites]] can be used to define [[condensed sets]], and, more generally, condensed [[∞-groupoids]]:
+
+* [[compact Hausdorff spaces]];
+
+* [[Stone spaces]] (compact Hasdorff [[totally disconnected spaces]]);
+
+* [[Stonean spaces]] (compact Hausdorff [[extremally disconnected spaces]]).
+
+In all three cases, morphisms are given by continuous maps and covering families are given by finite families of jointly surjective continuous maps.
+
+The equivalence of sites is established in [Yamazaki](#Yamazaki).
+
 ## Properties
 
 Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary) $CondSet$, that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20))
@@ -124,6 +138,10 @@ structures, but in this case, the underlying set is not $T(*)$.
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
 * {#Scholze21} [[Peter Scholze]], Math Stack Exchange [answer](https://math.stackexchange.com/a/4199337/368788).
 * {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/abstract.cgi?talkid=1645).
+
+The equivalence of various sites for condensed sets is established in
+
+* {#Yamazaki} Koji Yamazaki, _Condensed Sets on Compact Hausdorff Spaces_, [arXiv:2211.13855](https://arxiv.org/abs/2211.13855).
 
 [[!redirects condensed sets]]
 [[!redirects CondSet]]
