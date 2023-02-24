@@ -1,5 +1,4 @@
 
-
 ### Superconducting qbits
  {#SuperconductingQBitsReferences}
 
@@ -28,5 +27,9 @@ Fine detail of the pulse control:
 * M. Carroll, S. Rosenblatt, P. Jurcevic, I. Lauer & A. Kandala. *Dynamics of superconducting qubit relaxation times*, npj Quantum Information **8** 132 (2022) $[$[doi:10.1038/s41534-022-00643-y](https://doi.org/10.1038/s41534-022-00643-y)$]$
 
 * Elisha Siddiqui Matekole, Yao-Lung L. Fang, Meifeng Lin, *Methods and Results for Quantum Optimal Pulse Control on Superconducting Qubit Systems*, 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (2022)  $[$[arXiv:2202.03260](https://arxiv.org/abs/2202.03260), [doi:10.1109/IPDPSW55747.2022.00102](https://doi.org/10.1109/IPDPSW55747.2022.00102)$]$
+
+Corrections due to [[quasiparticle]]-excitations:
+
+* [[Leonid I. Glazman]], [[Gianluigi Catelani]], *Bogoliubov Quasiparticles in Superconducting Qubits*, SciPost Phys. Lect. Notes **31** (2021) &lbrack;[arXiv:2003.04366](https://arxiv.org/abs/2003.04366), [doi:10.21468/SciPostPhysLectNotes.31](https://doi.org/10.21468/SciPostPhysLectNotes.31)&rbrack;
 
 
