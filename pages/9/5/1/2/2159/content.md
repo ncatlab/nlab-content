@@ -29,7 +29,7 @@ Some references:
 
 * S. L. Woronowicz, _Quantum exponential function_, Rev. Math. Phys. __12__ (2000) 873–920
 
-* [[Bernhard Keller]], _On cluster theory and quantum dilogarithm identities_, pp. 85–116 in A. Skowronski, K. Yamagata K. (eds.), Representations of algebras and related topics, Eur. Math. Soc. 2011 [doi](https://doi.org/10.4171/101-1/3) [arXiv/1102.4148](httpa://arxiv.org/abs/1102.4148)
+* [[Bernhard Keller]], _On cluster theory and quantum dilogarithm identities_, pp. 85–116 in A. Skowronski, K. Yamagata K. (eds.), Representations of algebras and related topics, Eur. Math. Soc. 2011 [doi](https://doi.org/10.4171/101-1/3) [arXiv/1102.4148](https://arxiv.org/abs/1102.4148)
 
 
 Appearance of quantum dilogarithm in computations related to some cases of [[mirror symmetry]] and in [[topological string]]s are studied in
