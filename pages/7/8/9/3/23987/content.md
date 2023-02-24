@@ -220,9 +220,9 @@ Break: 10:40 - 11:10
 
 * 11:20 - 11:50
 
-  Ingo Roth:
+  [[Ingo Roth]]:
 
-  **Quantum device characterization**
+  **[Quantum device characterization](certified+programming#QuantumHardwareVerification)**
 
 * 11:55 - 12:25
 
