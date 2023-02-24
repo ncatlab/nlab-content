@@ -286,9 +286,9 @@ For type 1 the $\mathbb{Z}/2\mathbb{Z}$-grading lifts to an $\mathbb{Z}$-grading
 
 | $\mathfrak{g}$ |  $\mathfrak{g}_{even}$  |  $\mathfrak{g}_{even}$ rep on $\mathfrak{g}_{{-1}}$ |
 |----------------|-------------------------|------------------|
-| $A(m,n)$ |  $A_m \oplus A_n \oplus C$ | vector $\otimes$ vector $\otimes$ $\mathbb{C}$ |
+| $A(m,n)$ |  $A_m \oplus A_n \oplus \mathbb{C}$ | vector $\otimes$ vector $\otimes$ $\mathbb{C}$ |
 | $A(m,m)$ | $A_m \oplus A_n$ | vector $\otimes$ vector |
-| $C(n)$ | $\mathbb{C}_{-1} \oplus \mathbb{C}$ | vector $\otimes$ $\mathbb{C}$ |
+| $C(n)$ | $C_{n-1} \oplus \mathbb{C}$ | vector $\otimes$ $\mathbb{C}$ |
 
 reviewed e.g. in ([Farmer 84, p. 25,26](#Farmer84), [Minwalla 98, section 4.1](#Minwalla98)).
 
