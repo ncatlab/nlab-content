@@ -8,7 +8,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -55,6 +54,8 @@ From [Ghani et al. 15](#GhaniEtAl15):
 Introduction:
 
 * Patrick Cousot, Radhia Cousot, *A gentle introduction to formal verification of computer systems by abstract interpretation*, NATO Science for Peace and Security Series - D: Information and Communication Security, **25** Logics and Languages for Reliability and Security (2009)&lbrack;[doi:10.3233/978-1-60750-100-8-1](https://dx.doi.org/10.3233/978-1-60750-100-8-1), [pdf](https://www.di.ens.fr/~cousot/publications.www/CousotCousot-Marktoberdorf-2009.pdf)&rbrack;
+
+* [[John Harrison]], *Formal Verification*, Lecture notes Marktoberdorf 2010 &lbrack;[web](https://www.cl.cam.ac.uk/~jrh13/papers/mark10.html), [pdf](https://www.cl.cam.ac.uk/~jrh13/papers/mark10.pdf), [[Harrison-FormalVerification.pdf:file]]&rbrack;
 
 * Catherine Meadows, *Program Verification and Security* ([doi:10.1007/978-1-4419-5906-5_863](https://doi.org/10.1007/978-1-4419-5906-5_863)), In:  Henk C. A. van Tilborg, Sushil Jajodia (ed.) *[Encyclopedia of Cryptography and Security](https://link.springer.com/referencework/10.1007/978-1-4419-5906-5)* Springer (2011)
 
@@ -190,7 +191,13 @@ Explicitly using [[type equivalences]]:
 ### For quantum programming languages
  {#ReferencesForQuantumProgrammingLanguages}
 
-Verification for [[quantum programming languages]] 
+On formal verification of [[quantum computing]] with/of [[quantum programming languages]]:
+
+general:
+
+* Marco Lewis, Sadegh Soudjani, Paolo Zuliani, *Formal Verification of Quantum Programs: Theory, Tools and Challenges* &lbrack;[arXiv:2110.01320](https://arxiv.org/abs/2110.01320)&rbrack;
+
+  > "Verifying programs is especially important in the quantum setting due to how difficult it is to program complex algorithms correctly on resource-constrained and error-prone quantum hardware."
 
 with [[QML]]:
 
@@ -248,6 +255,37 @@ See also:
   > (in [[Coq]])
 
 
+### Hardware verification
+ {#HardwareVerification}
+
+* J. Pau Roth, *Hardware Verification*,  IEEE Transactions on Computers C **26** 12 (1977) &lbrack;[doi:10.1109/TC.1977.1674795](https://doi.org/10.1109/TC.1977.1674795)&rbrack;
+
+* Paolo Camurati, Paolo Prinetto, *Formal Verification of Hardware Correctness: Introductions and Survey of Current Research*, ComputerVolume **21** 7 (1988)  &lbrack;[doi:10.1109/2.65](https://doi.org/10.1109/2.65), [Computer-doi:10.1109/2.65](https://doi.ieeecomputersociety.org/10.1109/2.65),  [pdf](https://www.cerc.utexas.edu/~jay/fv_surveys/camurati_fvsurvey_computer1988.pdf)&rbrack;
+
+* Aarti Gupta, *Formal Hardware Verification Methods: A survey*, Formal Methods in System Design **1** (1992) 151-238 &lbrack;[doi:10.1007/BF00121125](https://doi.org/10.1007/BF00121125), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4615-3556-0_2.pdf)&rbrack;
+
+* Sharad Malik, *Hardware Verification: Techniques, Methodology and Solutions*, in *Tools and Algorithms for the Construction and Analysis of Systems. TACAS 2008*, Lecture Notes in Computer Science **4963** &lbrack;[doi:10.1007/978-3-540-78800-3_1](https://doi.org/10.1007/978-3-540-78800-3_1)&rbrack;
+
+See also:
+
+* Wikipedia, *[Hardware verification language](https://en.wikipedia.org/wiki/Hardware_verification_language)*
+
+* Oxford University CS Department: *[Hardware verification](https://www.cs.ox.ac.uk/activities/hardwareverification/)*
+
+On [[hardware verification]] using [[proof assistants]]:
+
+* Mark Aagaard, Miriam Leeser, *A methodology for efficient hardware verification*, Formal Methods in System Design **5** (1994) 95-117 &lbrack;[doi:10.1007/BF01384235](https://doi.org/10.1007/BF01384235)&rbrack;
+
+    
+
+{#QuantumHardwareVerification} On [[hardware verification]] of [[quantum computing]]-[[quantum systems|systems]]:
+
+* [[Martin Kliesch]], [[Ingo Roth]], *Theory of Quantum System Certification*, PRX Quantum **2** (2021) 010201 &lbrack;[doi:10.1103/PRXQuantum.2.010201](https://doi.org/10.1103/PRXQuantum.2.010201), [arXiv:2010.05925](https://arxiv.org/abs/2010.05925)&rbrack;
+
+
+
+    
+
 
 [[!redirects verified software]]
 [[!redirects software verification]]
@@ -262,5 +300,5 @@ See also:
 [[!redirects certification language]]
 [[!redirects certification languages]]
 
-
-
+[[!redirects hardware verification]]
+[[!redirects hardware verifications]]
