@@ -190,25 +190,25 @@ joint workshop with the [Quantum Research Center](https://www.tii.ae/quantum) (Q
 
   [[Luigi Amico]]:
 
-  **Introduction to Quantum Physics @ TII**
+  **Introduction to [Quantum Physics @ TII](https://www.tii.ae/quantum)**
 
 * 9:20 - 9:45
 
   [[Juan Polo Gomez]]:
 
-  **Atomtronics**
+  **[[atomtronics|Atomtronics]]**
 
 * 9:50 - 10:10 
 
-  Enrico Domanti: 
+  [Enrico Domanti](https://www.tii.ae/team/enrico-domanti): 
 
-  **Coherence of confined matter in lattice gauge theories at the mesoscopic scale**
+  **Coherence of confined matter in [[lattice gauge theories]] at the mesoscopic scale**
 
 * 10:15 - 10:40 
 
-  Gianluigi Catelani:
+  [[Gianluigi Catelani]]:
 
-  **Superconducting qubits**
+  **[Superconducting qubits](superconductivity#SuperconductingQBitsReferences)**
 
 Break: 10:40 - 11:10
 
