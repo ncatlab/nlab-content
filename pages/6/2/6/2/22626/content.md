@@ -26,6 +26,9 @@
 ## Idea
  {#Idea}
 
+Broadly a *quantum logic circuit* is a [[logic circuit]] but in the context of [[quantum information theory]]/[[quantum computation]].
+Concretely, due to the [[linear logic]]/[[linear type theory]] underlying [[quantum physics]]: 
+
 In the context of [[quantum computation]], a *quantum circuit diagram* (originally: "quantum computational network", [Deutsch 1989](#Deutsch89)) is a kind of [[string diagram]] ([Abramsky & Coecke 2004](#AbramskyCoecke04)) in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]], typically used to express a sequence of low-level [[quantum logic gate|quantum gates]] mapping between [[space of quantum states|spaces of]] [[pure quantum state|pure]] [[quantum states]].
 
 A generic *pure* quantum circuit might look as follows:
@@ -169,6 +172,8 @@ See at *[[deferred measurement principle]]*.
 
 
 ## Related concepts
+
+* [[logic circuit]]
 
 * [[QRAM]]
 
