@@ -35,7 +35,7 @@ between [[cartesian products]] $\mathrm{Bool}^n$ of [[Booleans]] $Bool \,\colone
 
 Specifically, one calls such a function a *logic gate* if it is thought of as potentially implemented as a basic operation performed by a [[computing]] machine -- in which case the [[truth values]] are also called *[[bits]]*. 
 
-As such, typical logic gates are Boolean functions between a *small* number of [[bits]], with more complicated such functions thought as obtained by composing a given set of logic gates into  [[logic circuits]].
+As such, typical logic gates are Boolean functions between a *small* number of [[bits]], with more complicated such functions thought as obtained by composing a given set of logic gates into  [[logic circuit|logic circuits]].
 
 Analogously there are [[quantum logic gates]] compiled into [[quantum circuits]].
 
@@ -121,5 +121,4 @@ See also:
 
 [[!redirects logic gates]]
 
-[[!redirects logic circuit]]
-[[!redirects logic circuits]]
+
