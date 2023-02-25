@@ -38,4 +38,7 @@ See also:
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Analysis_Situs_(paper)">Analysis Situs_(paper)</a>*
 
+* [[Peter Hilton]], *Subjective History of Homology and Homotopy Theory*, Mathematics Magazine **61** 5 (1988) 282-291 $[$[doi:10.2307/2689545](https://doi.org/10.2307/2689545)$]$
+
+
 category: reference
