@@ -299,6 +299,8 @@ Thus, a $G$-torsor in a category with products can be tautologically interpreted
 
 * [[physical unit]]
 
+
+
 ## References 
 
 Elementary exposition:
@@ -310,7 +312,7 @@ Elementary exposition:
 
 Textbook accounts:
 
-* {#Milne80} [[James Milne]], Prop. III.4.1 in: _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp. ([jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1))
+* {#Milne80} [[James Milne]], Prop. III.4.1 in: _[[Étale Cohomology]]_, Princeton Mathematical Series **33** (1980) &lbrack;[jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1), [ISBN:9780691082387](https://press.princeton.edu/books/hardcover/9780691082387/etale-cohomology-pms-33-volume-33)&rbrack;
 
   > (discussion for [[algebraic groups]] in [[algebraic geometry]])
 
