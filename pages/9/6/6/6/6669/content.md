@@ -6,7 +6,7 @@
 
 ## Related articles
 
-[[Alexandrov space]]
+* [[Alexandrov space]]
 
 
 category: people
