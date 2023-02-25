@@ -14,24 +14,33 @@
 =--
 
 
-This page collects links related to 
+This page collects links related to the book:
 
-* [[James Milne]], 
+* [[James Milne]]:
 
-  _Lectures on &#201;tale Cohomology_ 
+  \linebreak
 
-  ([html](http://www.jmilne.org/math/CourseNotes/lec.html), [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
+  **Lectures on &#201;tale Cohomology**
 
-based on the textbook
+  [webpage](http://www.jmilne.org/math/CourseNotes/lec.html)
 
-* _&#201;tale Cohomology_, 
+  [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf)
 
-  Princeton Mathematical Series 33, 1980. xiii+323 pp.
+based on the textbook:
+
+* **&#201;tale Cohomology** 
+
+  Princeton Mathematical Series **33** 
+
+  Princeton University Press (1980) 
+
+  xiii+323 pp.
+
+  [ISBN:9780691082387](https://press.princeton.edu/books/hardcover/9780691082387/etale-cohomology-pms-33-volume-33)
 
   [jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1)
 
-
-on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
+both on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 #Contents#
 * table of contenta
