@@ -92,6 +92,9 @@ Further refinement of the algorithm:
 
 More on quantum circuit compilation:
 
+* [[Neil J. Ross]], Chapters 6-7 in: *Algebraic and Logical Methods in Quantum Computation*, Ph.D. thesis, Dalhousie University (2015) &lbrack;[arXiv:1510.02198](https://arxiv.org/abs/1510.02198)&rbrack;
+
+
 * Adi Botea, Akihiro Kishimoto, Radu Marinescu, *On the Complexity of Quantum Circuit Compilation*, Proceedings of the International Symposium on Combinatorial Search, **9** 1 (2018) &lbrack;[doi:10.1609/socs.v9i1.18463](https://doi.org/10.1609/socs.v9i1.18463)&rbrack;
 
 * Robert Wille; Stefan Hillmich; Lukas Burgholzer, *Efficient and Correct Compilation of Quantum Circuits*, in *2020 IEEE International Symposium on Circuits and Systems (ISCAS)* IEEE Explore (2020) &lbrack;[doi:10.1109/ISCAS45731.2020.9180791](https://doi.org/10.1109/ISCAS45731.2020.9180791)&rbrack;
@@ -102,6 +105,7 @@ More on quantum circuit compilation:
 
 * Giulia Meuli, Fereshte Mozafari, Bruno Schmitt, Heinz Riener, Mathias Soeken, Giovanni De Micheli: *[Quantum Compilation](https://si2.epfl.ch/~demichel/research/quantum.html)*
  
+
 
 Quantum compulilation with a [[proof assistant]] based on [[QWIRE]]:
 
