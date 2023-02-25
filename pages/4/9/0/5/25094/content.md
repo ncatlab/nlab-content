@@ -107,7 +107,7 @@ More on quantum circuit compilation:
  
 
 
-Quantum compulilation with a [[proof assistant]] based on [[QWIRE]]:
+Quantum compilation with a [[proof assistant]] based on [[QWIRE]]:
 
 * [[Kesha Hietala]], [[Robert Rand]], [[Shih-Han Hung]], Xiaodi Wu, [[Michael Hicks]], *A verified optimizer for Quantum circuits*, Proceedings of the ACM on Programming Languages **5** Issue POPL 37 (2021) 1–29 &lbrack;[doi:10.1145/3434318](https://doi.org/10.1145/3434318)&rbrack;
 
