@@ -9,8 +9,11 @@ Introducing the [[functional programming language|functional]] [[quantum program
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
 
-
 * [[Jonathan Smith]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: Concrete Resource Estimation in Quantum Algorithms_, QAPL 2014 ([arXiv:1412.0625](https://arxiv.org/abs/1412.0625))
+
+On [[quantum compilation]] and introducing [[Proto-Quipper]]:
+
+* [[Neil J. Ross]], *Algebraic and Logical Methods in Quantum Computation*, Ph.D. thesis, Dalhousie University (2015) &lbrack;[arXiv:1510.02198](https://arxiv.org/abs/1510.02198)&rbrack;
 
 
 On [[quantum programming]] via [[dependent linear type theory]] with [[Quipper]]:
