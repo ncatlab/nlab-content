@@ -29,7 +29,7 @@ More generally, the notion of relative category captures the idea of having a di
 
 ### Basic
 
-A **relative category** $C$ is a [[pair]] $(und C, weq C)$, where $und C$ is a [[category]] and $W$ is a [[wide subcategory]]. A [[morphism]] in $weq C$ is said to be a **[[weak equivalence]]** in $C$. A **relative functor** $f : C \to D$ is a [[functor]] $f \colon und C \to und D$ that preserves weak equivalences in the obvious sense.
+A **relative category** $C$ is a [[pair]] $(und C, weq C)$, where $und C$ is a [[category]] and $weq C$ is a [[wide subcategory]]. A [[morphism]] in $weq C$ is said to be a **[[weak equivalence]]** in $C$. A **relative functor** $f : C \to D$ is a [[functor]] $f \colon und C \to und D$ that preserves weak equivalences in the obvious sense.
 
 The **[[homotopy category]]** of a relative category $C$ is the ordinary category $Ho C$ obtained from $und C$ by [[localization|freely inverting]] the weak equivalences in $C$. 
 
@@ -152,7 +152,7 @@ This is discussed in further detail at [[model structure on categories with weak
 
 ## References
 
-* {#DwyerKan1980Localizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
+* {#DwyerKan1980Localizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([doi:10.1016/0022-4049(80)90049-3](https://doi.org/10.1016/0022-4049%2880%2990049-3))
   
 * {#BarwickKan12} [[Clark Barwick]], [[Daniel Kan]], _Relative categories: Another model for the homotopy theory of homotopy theories_. Indagationes Mathematicae 23 (2012) pp. 42&#8211;68 ([arXiv:1011.1691](https://arxiv.org/abs/1011.1691))
 
