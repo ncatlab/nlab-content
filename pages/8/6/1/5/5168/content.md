@@ -79,6 +79,11 @@ On the [[Mayer-Vietoris sequence]]:
 
 * {#EckmannHilton} [[Beno Eckmann]], [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
 
+On the early history of [[algebraic topology]] and [[homotopy theory]] (starting with *[[Analysis Situs]]*):
+
+* [[Peter Hilton]], *Subjective History of Homology and Homotopy Theory*, Mathematics Magazine **61** 5 (1988) 282-291 $[$[doi:10.2307/2689545](https://doi.org/10.2307/2689545)$]$
+
+
 See also:
 
 * A link to Peter Hilton's Alan Turing lecture 2006 is [here](http://www.colossus-computer.com/hilton.htm).
