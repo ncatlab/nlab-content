@@ -14,6 +14,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -252,6 +253,16 @@ As opposed to [[cohomology]] where people are used to talking about [[generalize
 ## References
 
 ### General
+
+On the early history of the notion of the higher homotopy groups (beyond the [[fundamental group]]):
+
+* [[Peter Hilton]], p. 289 (9 of 11) in: *Subjective History of Homology and Homotopy Theory*, Mathematics Magazine **61** 5 (1988) 282-291 &lbrack;[doi:10.2307/2689545](https://doi.org/10.2307/2689545)&rbrack;
+
+> "At a meeting in Vienna in 1931 [[Eduard Čech|Čech]] gave a paper in which he described certain groups from the homotopy point of view. He had no applications of these groups. Moreover, he had only one theorem, that they were [[abelian group|commutative]]. And he was persuaded by people, and we know that [[Aleksandr Aleksandrov|Alexandroff]] played a role here, that they could not be interesting, because it was thought that any information that could be obtained from [[abelian groups|Abelian groups]] must come from the [[ordinary homology|homology]]. [[Witold Hurewicz|Hurewicz]] redefined the [[homotopy groups]] and immediately gave important applications in a series of four notes which were intended as preliminary publications. In that series of four papers he showed the significance of what we now call [[obstruction theory]]." 
+
+
+
+Modern accounts (for more see at *[[homotopy theory]]*):
 
 * [[Paul Goerss]], [[J. F. Jardine]], section I.7 of: _[[Simplicial homotopy theory]]_,  Progress in Mathematics, Birkh&#228;user (1996)
 
