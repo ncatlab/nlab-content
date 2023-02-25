@@ -48,6 +48,8 @@ The theory of o-minimal structures has applications to [[number theory]] and [[a
 
 ## References 
 
+General:
+
 * Michel Coste, _An introduction to O-minimal geometry_ , Lecture notes Pisa 1999. ([pdf](http://perso.univ-rennes1.fr/michel.coste/polyens/OMIN.pdf))
 
 * [[Lou van den Dries]], _Exponential rings, exponential polynomials and exponential functions_ , Pacific Journal of Mathematics **113** no.1 (1984) pp.51&#8211;66. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.pjm/1102709376))
@@ -76,6 +78,12 @@ The theory of o-minimal structures has applications to [[number theory]] and [[a
 * [[Reid Barton]], Johan Commelin, _Model categories for o-minimal geometry_ ([arXiv:2108.11952](https://arxiv.org/abs/2108.11952))
 
 * {#Tsimerman19} Jacob Tsimerman, _Functional transcendence results and arithmetic applications_, Proceedings of the International Congress of Mathematicians (ICM 2018), pp. 435-454 (2019) [doi](https://doi.org/10.1142/9789813272880_0062) [pdf] (https://eta.impa.br/dl/091.pdf)
+
+In Physics, the concept of [[tame topology]] and [[o-minimal structures]] appears in a proposal for a finiteness condition in [[QFT]] in
+
+* [[Michael Douglas]], [[Thomas Grimm]], and Lorenz Schlechter. *The Tameness of Quantum Field Theory, Part I--Amplitudes.* (2022)([arXiv:2210.10057](https://arxiv.org/abs/2210.10057)).
+
+* [[Michael Douglas]], [[Thomas Grimm]], and Lorenz Schlechter. *The Tameness of Quantum Field Theory, Part II--Structures and CFTs* (2023) ([arXiv:2302.04275] (https://arxiv.org/abs/2302.04275)).
 
 [[!redirects O-minimal structure]]
 [[!redirects o-minimal structures]]
