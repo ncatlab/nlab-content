@@ -55,6 +55,11 @@ Original articles on Quipper:
 
 * [[Jonathan Smith]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: Concrete Resource Estimation in Quantum Algorithms_, QAPL 2014 ([arXiv:1412.0625](https://arxiv.org/abs/1412.0625))
 
+* [[Neil J. Ross]], Chapters 8-9 in: *Algebraic and Logical Methods in Quantum Computation*, Ph.D. thesis, Dalhousie University (2015) &lbrack;[arXiv:1510.02198](https://arxiv.org/abs/1510.02198)&rbrack;
+
+  > (introducing Proto-Quipper)
+
+
 Introduction and review:
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
@@ -99,3 +104,7 @@ and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, N
 
 
 [[!redirects QPL]]
+
+[[!redirects Proto-Quipper]]
+
+
