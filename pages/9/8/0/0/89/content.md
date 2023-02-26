@@ -140,7 +140,7 @@ For the use in O. Caramello's 'toposes as bridges'- approach that brings out the
 
 Other references include
 
-* [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ . ([[MeyerMoritaEquivalence.pdf:file]])
+* [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ . ([[MeyerMoritaEquivalence-2.pdf:file]]) 
 
 * [[I. Dell'Ambrogio]], [[Goncalo Tabuada]], _A Quillen model structure for classical Morita theory and a tensor categorification of the Brauer group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
 
