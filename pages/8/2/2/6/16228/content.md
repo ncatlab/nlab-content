@@ -31,7 +31,7 @@ Under the [[relation between type theory and category theory]] the term model is
 
 ## References
 
-* {#Hofmann} [[Martin Hofmann]], _On the interpretation of type theory in locally cartesian closed categories_ ([pdf](https://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/ontheinterpretationof-typetheory.pdf))
+* {#Hofmann} [[Martin Hofmann]], *On the interpretation of type theory in locally cartesian closed categories*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** (1994) 427–441 &lbrack;[doi:10.1007/BFb0022273](https://doi.org/10.1007/BFb0022273)&rbrack;
 
 * {#BuisseDybjer07} Alexandre Buisse, [[Peter Dybjer]], _Towards Formalizing Categorical Models of Type Theory in Type Theory_, 2007 ([pdf](http://www.cse.chalmers.se/~peterd/papers/Bremen2007.pdf))
 
