@@ -891,7 +891,7 @@ $$
 and for all $x \in X$ and all $n \geq 1$
 
 $$
-  \pi_n(f) \;\colon\; \pi_n(X,x) \stackrel{\simeq}{\longrightarrow} \pi_n(Y,f(y))
+  \pi_n(f) \;\colon\; \pi_n(X,x) \stackrel{\simeq}{\longrightarrow} \pi_n(Y,f(x))
   \,.
 $$
 
