@@ -83,7 +83,7 @@ Several different [[sites]] can be used to define [[condensed sets]], and, more 
 
 In all three cases, morphisms are given by continuous maps and covering families are given by finite families of jointly surjective continuous maps.
 
-The equivalence of sites is established in [Yamazaki](#Yamazaki).
+The equivalence of sites is established in [Yamazaki](#Yamazaki). See also [Proposition 2.3, 2.7](#ScholzeLCM).
 
 ## Properties
 
