@@ -52,6 +52,8 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 
 ## Examples
 
+* Every monad that is induced by an adjunction $L \dashv R$ is the codensity monad of $R$. In particular, every [[enriched monad]] is a codensity monad (via its [[Kleisli category]]).
+
 * The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
 
 * The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad. Its algebras are [[compact Hausdorff spaces]]. 
