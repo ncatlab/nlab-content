@@ -3763,6 +3763,11 @@ On geometric presentations of braid groups:
 
 * Byung Hee An, Tomasz Maciazek, *Geometric Presentations of Braid Groups for Particles on a Graph*, Communications in Mathematical Physics **384** (2021) 1109-1140 &lbrack;[doi:10.1007/s00220-021-04095-x](http://dx.doi.org/10.1007/s00220-021-04095-x)&rbrack;  
 
+On [[G-structure]] for $G = Br_\infty$ the infinite braid group:
+
+* [[Frederick R. Cohen]], *Braid orientations and bundles with flat connections*, Inventiones mathematicae **46** (1978) 99–110 &lbrack;[doi:10.1007/BF01393249](https://doi.org/10.1007/BF01393249)&rbrack;
+
+* [[Jonathan Beardsley]], *On Braids and Cobordism Theories*, Glasgow (2022) &lbrack;notes: [pdf](https://www.jonathanbeardsley.com/GlasgowNotes2022.pdf), [[Beardsley-BraidsAndCobordism.pdf:file]]&rbrack;
 
 
 [[!include braid group representations -- references]]
