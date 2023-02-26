@@ -50,7 +50,7 @@ Write
 
 The [[Goerss-Hopkins-Miller theorem]] equips these three moduli stacks with [[E-∞ ring]]-valued [[structure sheaves]] $\mathcal{O}^{top}$ (and by [[A Survey of Elliptic Cohomology|Lurie (Survey)]] that makes them into [[spectral Deligne-Mumford stacks]] which are moduli spaces for [[derived elliptic curves]] etc.)
 
-The _$tmf$-spectrum_ is defined to be the $E_\infty$-ring of [[global sections]] of $\mathcal{O}^{op}$ (in the sense of [[derived algebraic geometry]], hence the [[homotopy limit]] of $\mathcal{O}^{top}$ over the [[etale site]] of $\mathcal{M}$). More precisely one sets
+The _$tmf$-spectrum_ is defined to be the $E_\infty$-ring of [[global sections]] of $\mathcal{O}^{top}$ (in the sense of [[derived algebraic geometry]], hence the [[homotopy limit]] of $\mathcal{O}^{top}$ over the [[etale site]] of $\mathcal{M}$). More precisely one sets
 
 * $TMF \coloneqq \Gamma(\mathcal{M}_{ell}, \mathcal{O}^{top})$;
 
