@@ -18,7 +18,7 @@
 
 A **Tambara-Yamagami** (TY) category is a [[fusion category]] that may be regarded as a non-trivial extension of a category of $G$-[[graded vector spaces]], for $G$ a [[finite group]]. By nontrivial extension we mean that, even though it is constructed from a category of $G$-graded vector spaces, it itself cannot be presented as such. 
 
-In 2-dimensional [[quantum field theory]] (QFT), a YT category is thought to encodes what is nowadays known as a *[[non-invertible symmetry]]*, where the [[objects]] of the category correspond to line [[defects]].
+In 2-dimensional [[quantum field theory]] (QFT), a TY category is thought to encode as a [[symmetry category]] what is nowadays known as a *[[non-invertible symmetry]]*, where the [[objects]] of the category correspond to line [[defects]]. 
 
 ## Definition 
 
