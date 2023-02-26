@@ -271,13 +271,13 @@ Because all groups appearing here and in the following are [[cyclic groups]], we
 
 For the following statement it is convenient to restrict to J-homomorphism to the stable [[special orthogonal group]] $S O$, which removes the lowest degree homotopy group in the above
 
-| $n\;mod\; 8$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|-----|---|---|---|---|---|---|---|---|
-| $\pi_n(S O)$ | 0 | $\mathbb{Z}_2$ |0 | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ |
+| $n\;mod\; 8$ | $n = 0$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|---|---|---|---|---|---|---|---|---|
+| $\pi_n(S O)$ | 0 | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ |
 
-| $n\;mod\; 8$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|-----|---|---|---|---|---|---|---|---|
-| ${\vert\pi_n(S O)\vert}$ | 1 | 2 | 1 | $\infty$ | 1 | 1 | 1 | $\infty$ |
+| $n\;mod\; 8$ | $n = 0$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|---|---|---|---|---|---|---|---|---|
+| ${\vert\pi_n(S O)\vert}$ | 1 | 2 | 2 | 1 | $\infty$ | 1 | 1 | 1 | $\infty$ |
 
 
 +-- {: .num_theorem #AdamsQuillenTheorem}
