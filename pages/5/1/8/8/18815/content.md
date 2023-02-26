@@ -1,5 +1,5 @@
 
-* [webpage](https://arthur-parzygnat.uconn.edu/)
+* [webpage](https://arthurparzygnat.com/)
 
 ## Selected writings
 
