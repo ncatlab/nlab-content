@@ -23,6 +23,11 @@ On the [[enriched Grothendieck construction]]:
 * {#BeardsleyWong19} [[Jonathan Beardsley]], [[Liang Ze Wong]], *The operadic nerve, relative nerve and the Grothendieck construction*, Theory and Applications of Categories, **34** 13 (2019) 349-374 &lbrack;[tac:34-13](http://www.tac.mta.ca/tac/volumes/34/13/34-13abs.html)&rbrack;
 
 
+On [[G-structure]] for $G = Br_\infty$ the infinite [[braid group]]:
+
+* [[Jonathan Beardsley]], *On Braids and Cobordism Theories*, Glasgow (2022) &lbrack;notes: [pdf](https://www.jonathanbeardsley.com/GlasgowNotes2022.pdf), [[Beardsley-BraidsAndCobordism.pdf:file]]&rbrack;
+
+
 
 ## Related entries
 
