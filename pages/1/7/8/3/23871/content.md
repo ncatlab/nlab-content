@@ -67,6 +67,13 @@ Discussion of Fibonacci anyons:
 
 * {#Simeon21} Ryan Simeon, *Universality of Fibonacci anyons in topological quantum computing* (2021) &lbrack;[pdf](https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2021/Final%20Papers/Simeon-PHYS243_final.pdf)&rbrack;
 
+Discussion of universality at higher [[Chern-Simons level|level]] $k$ (and also for $SU(N)$-anyons with $N \gt 2$):
+
+* [[Nikita Kolganov]], [[Sergey Mironov]], [[Andrey Morozov]], *Large $k$ topological quantum computer*, Nuclear Physics B
+**987** (2023) 116072 &lbrack;[arXiv:2105.03980](https://arxiv.org/abs/2105.03980), [doi:10.1016/j.nuclphysb.2023.116072](https://doi.org/10.1016/j.nuclphysb.2023.116072)&rbrack;
+
+
+
 ### Experimental realization
 
 
