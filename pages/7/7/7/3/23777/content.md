@@ -9,7 +9,7 @@ Please feel free to contribute!
 The ideas here underlie some of the constructs of [Homtools](#Mainiero2019): specifically, one can think of a ``multipartite'' state as a presheaf valued in the category of states (defined below) over a collection of subsystems.
 The GNS representation can then be thought of as a functor that takes us into a "representation-theoretic" category where we can, e.g. compute an associated (co)homology using [[Čech methods]].
 
-## Baby's first GNS functor
+## Baby's first GNS functor {#baby}
 For the purposes of this section, $R$ is a fixed a unital ring and $Q$ is a unital $R$-algebra.
 Although $R$ will not appear explicitly in any of the discussion in this section (so that $Q$ could effectively just be thought of as a unital ring), we keep it around as the case where $Q$ is a finite-dimensional (semisimple) $\mathbb{C}$-algebra is most relevant to later discussions involving the GNS construction.
 
@@ -295,12 +295,26 @@ Our next step is to unravel the functors in the above diagrams, both which shoul
 \begin{definition}
 The functor:
 \[
-	\mathsf{Fnl} \colon \mathbf{Rep}^{\bullet}(E) \longrightarrow \mathbf{State}(A)
+	\mathsf{Fnl} \colon \mathbf{Rep}^{\bullet}(E) \longrightarrow \mathbf{State}(E)
 \]
 acts on objects by:
 \[
-	\mathsf{Fnl} \colon (\mathcal{H}, v, \pi: E \rightarrow \operatorname{B} \mathcal{H}) \mapsto (e \mapsto \langle v, \pi(e) v \rangle^{\mathcal{H}} )
+	\mathsf{Fnl} \colon (\mathcal{H}, v, \pi: E \rightarrow \operatorname{B} \mathcal{H}) \mapsto (e \mapsto \langle v, \pi(e) v \rangle^{\mathcal{H}} ),
 \]
+and takes a morphism $f \in \mathbf{Rep}^{\bullet}(E)[(\mathcal{H}_{1}, v_{1}, \pi_{1}), (\mathcal{H}_{2}, v_{2}, \pi_{2})]$ to the unique morphism in $\mathbf{State}(E)$ defined by the relation:
+\[
+     \langle v_{2}, \pi_{2}( e^{*} e ) v_{2} \rangle = \langle f v_{1}, \pi_{2}( e^{*} e ) f v_{1} \rangle =  \langle v_{1}, f^{*} f \pi_{1}( e^{*} e ) v_{1} \rangle
+       \leq
+       \langle v_{1}, \pi_{1}( e^{*} e) v_{1} \rangle,
+\]
+for all $e \in E$.
+\end{definition}
+
+Before defining the functor $\mathsf{L^2}$, we note that to any positive linear functional $\omega \colon E \to \mathbb{C}$, there is an associated left ideal $\ker^{L} \omega$.
+Thus, repeating the observations of [Section](#baby), there is an associated pointed (algebraic) left $E$-module $E/\ker^{L} \omega$
+
+\begin{definition}
+The functor $\mathsf{L^2} \colon \mathbf{State}(E) \rightarrow \mathbf{Rep}^{\bullet}(E)$ acts on objects by taking a positive linear functional $\omega$ to its corresponding GNS representation, and acts on a morphism $\nu \to \omega$ corresponding the relation $\omega \leq \nu$ by assigning the quotient map $\overline{q}(\omega, \nu) \colon \mathsf{L^{2}} \nu \to \mathsf{L^{2}} \omega$
 \end{definition}
 
 # The GNS construction *without* fixing an algebra
