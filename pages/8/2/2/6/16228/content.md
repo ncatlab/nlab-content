@@ -21,7 +21,7 @@
 
 Given a ([[dependent type theory|dependent]]) [[type theory]], then its _term model_ is a [[model]] which consists of exactly those [[types]] and [[terms]] which may be constructed (via the relevant [[natural deduction]] operations) in the type theory.
 
-The term model is supposed to be is the [[initial object]] in the [[category]] of all [[models]] of the given type theory.
+The term model is supposed to be the [[initial object]] in the [[category]] of all [[models]] of the given type theory; see [[initiality conjecture]].
 
 e.g. [Hofmann, example 1](#Hofmann)
 
