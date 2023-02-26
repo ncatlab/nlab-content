@@ -167,7 +167,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 
 
-{#CQTSandTIIWorkshopFeb2023}  24 Feb 2023 (upcoming)
+{#CQTSandTIIWorkshopFeb2023}  24 Feb 2023 
 
 **CQTS and TII Workshop** 2023
 
