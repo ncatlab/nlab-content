@@ -324,3 +324,7 @@ Concrete sheaves over trivial sites are called *extensional presheaves* in the f
 [[!redirects concrete presheaf]]
 [[!redirects extensional presheaf]]
 [[!redirects concrete presheaves]]
+[[!redirects concretization]]
+[[!redirects concretizations]]
+[[!redirects concretification]]
+[[!redirects concretifications]]
