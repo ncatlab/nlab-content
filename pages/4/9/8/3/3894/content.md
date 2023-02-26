@@ -393,6 +393,13 @@ Discussion of G-structures more generally on [[orbifolds]]:
 
 * [[Robert Wolak]], _Orbifolds, geometric structures and foliations. Applications to harmonic maps_, Rendiconti del seminario matematico - Universita politecnico di Torino vol. 73/1 , 3-4 (2016), 173-187 ([arXiv:1605.04190](https://arxiv.org/abs/1605.04190))
 
+On $G$-structure for $G = Br_\infty$ the infinite [[braid group]]:
+
+* [[Frederick R. Cohen]], *Braid orientations and bundles with flat connections*, Inventiones mathematicae **46** (1978) 99–110 &lbrack;[doi:10.1007/BF01393249](https://doi.org/10.1007/BF01393249)&rbrack;
+
+* [[Jonathan Beardsley]], *On Braids and Cobordism Theories*, Glasgow (2022) &lbrack;notes: [pdf](https://www.jonathanbeardsley.com/GlasgowNotes2022.pdf), [[Beardsley-BraidsAndCobordism.pdf:file]]&rbrack;
+
+
 
 
 ### In supergeometry
