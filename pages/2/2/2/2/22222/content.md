@@ -62,6 +62,8 @@ This is an example of a [[Grothendieck construction]].
 
 Define $J : D \to Fam(D) : d \mapsto (\{*\}, * \mapsto d)$.
 
+$Fam(D)$ is also the free cartesian category over $D$, with $J$ the unit of the free cartesian category monad.
+
 Then a multi-adjoint to $R : D \to C$ is a functor $K : C \to Fam(D)$ such that $R$ is the [[relative adjoint functor | $J$-right adjoint to $K$]], meaning that
 \[
         \alpha : Hom_{Fam(D)}(K c, J d) \cong Hom_{C}(c, R d),
