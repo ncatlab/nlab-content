@@ -14,7 +14,7 @@ On potential [[quantum measurement]] of non-abelian [[anyons]]:
 
 On [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
 
-* {#MPSS19} Thomas Mawson, Timothy Petersen, [[Joost Slingerland]], Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
+* {#MPSS19} Thomas Mawson, Timothy Petersen, [[Joost Slingerland]], [[Tapio Simula]], *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 &lbrack;[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)&rbrack;
 
 
 category: people
