@@ -1061,7 +1061,7 @@ is again a weak equivalence.
 =--
 \begin{proof}
 Let be a fibration $p:E\to B$ and let $e:A\to B$ be a weak equivalence. Without
-loss of generality we can assume that $e$ is a section of a acyclic fibration
+loss of generality we can assume that $e$ is a section of an acyclic fibration
 $q:B\to A$ -- otherwise we first decompose with the factorization lemma and then
 pull back along the factors individually.
 
