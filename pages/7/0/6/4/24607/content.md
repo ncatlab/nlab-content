@@ -24,7 +24,7 @@ While this prose may appear somewhat exotic, the actual mathematics underlying t
 ## History and perspective
  {#HistoryAndPerspective}
 
-Given that the basic axioms of quantum physics were established in the 1920s and widely appreciated by the 1930s, while the possibility of "quantum teleportation" was observed only [in 1993](#BBCJPW93), using neither tools nor notation not available to the founding fathers, one may naturally wonder (e.g [Coecke 2010, p. 1](#Coecke10)):
+Given that the basic axioms of quantum physics were established in the 1920s and widely appreciated by the 1930s, the observation of the possibility of "quantum teleportation" only [in 1993](#BBCJPW93), using tools and notation available to the founding fathers, may make one wonder (e.g [Coecke 2010, p. 1](#Coecke10)):
 
 > why did it take us 60 years to discover the conceptually
 intriguing and easily derivable physical phenomenon of 'quantum teleportation'?
