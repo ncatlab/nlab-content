@@ -38,6 +38,10 @@ On [[Cartesian bicategories]]:
 
 * Piergiulio Katis, Nicoletta Sabadini and [[Bob Walters]], _Span(Graph): A categorical algebra of transition systems_, Algebraic Methodology and Software Technology, AMAST '97, Michael Johnson (ed.), Lecture Notes in Computer Science, Springer, Germany, (1997), 307–321.  ([ps](http://aleteya.cs.buap.mx/~jlavalle/papers/categorias/walters/spangraph.ps))
 
+An introductory textbook on category theory for [[computer science]]:
+
+* [[R. F. C. Walters]], _Categories and Computer Science_, Cambridge University Press, 1992. ([doi:10.1017/CBO9780511608872](https://doi.org/10.1017/CBO9780511608872))
+
 ## Related entries: 
 
 * [[allegory]]
