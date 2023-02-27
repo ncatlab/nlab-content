@@ -608,7 +608,7 @@ There is another possible typing of quantum measurement, where a measurement lan
 \end{imagefromfile}
 
 
-These two are related by the following [[commuting diagram|diagram commutes]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
+These two are related by the following [[commuting diagram]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
 
 \[
   \label{MeasurementViaWritedComonad}
