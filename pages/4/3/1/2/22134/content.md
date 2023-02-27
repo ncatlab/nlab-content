@@ -52,7 +52,7 @@ Review:
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
-* Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology **3** (2018) 045004 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
+* Bernard Field, [[Tapio Simula]], _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology **3** (2018) 045004 $[$[arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2)$]$
 
 * [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* $[$[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)$]$
 
@@ -112,7 +112,7 @@ On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by
 
 * Yuan-Hang Zhang, Pei-Lin Zheng, Yi Zhang, Dong-Ling Deng, *Topological Quantum Compiling with Reinforcement Learning*, Phys. Rev. Lett. **125** 170501 (2020) $[$[doi:2004.04743](https://arxiv.org/abs/2004.04743), [doi:10.1103/PhysRevLett.125.170501](https://doi.org/10.1103/PhysRevLett.125.170501)$]$
 
-* Emil Génetay Johansen and Tapio Simula, *Fibonacci Anyons Versus Majorana Fermions: A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) $[$[doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)$]$
+*  [[Emil Génetay-Johansen]], [[Tapio Simula]], Section IV of: *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) $[$[arXiv:2008.10790](https://arxiv.org/abs/2008.10790), [doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)$]$
 
 * Cheng-Qian Xu, D. L. Zhou, *Quantum teleportation using Ising anyons*, Phys. Rev. A **106** 012413 (2022) $[$[arXiv:2201.11923](https://arxiv.org/abs/2201.11923), [doi:10.1103/PhysRevA.106.012413](https://doi.org/10.1103/PhysRevA.106.012413)$]$
 
