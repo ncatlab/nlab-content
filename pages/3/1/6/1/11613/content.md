@@ -31,7 +31,7 @@ There is at least some similarity between DSELs and [[synthetic mathematics]], s
 Many existing [[quantum programming languages]] are actually domain-specific languages for the description of [[quantum circuits]], and as such many are embedded in ambient [[type theories]].
 
 
-For instace:
+For instance:
 
 * *[[Quipper]]* is embedded into into [[Haskell]] &lbrack;[Green, Lumsdaine, Ross, Selinger & Valiron (2013)](Quipper#GLRSV13)&rbrack;;
 
