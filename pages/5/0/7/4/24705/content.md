@@ -300,7 +300,7 @@ Curiously, in terms of [[modal logic]], this is the *[[Gell-Mann principle]]* of
 
 $$
   \array{
-    \llap{\text{The}}\;\text{possible}
+    \llap{\text{The}}\; \text{possible}
     &
     \text{is} 
     &
