@@ -69,7 +69,7 @@ For the moment see at _[[geometry of physics -- perturbative quantum field theor
 ###### Example
 **([[polynomial]] [[local observables]] are [[polynomial observables]])**
 
-A [[local observable]] which comes form a [[variational differential form|horizontal differential form]] which is a [[polynomial]] in the fields and their jets times the [[volume form]] on [[spacetime]] is a [[polynomial observable]].
+A [[local observable]] which comes from a [[variational differential form|horizontal differential form]] which is a [[polynomial]] in the fields and their jets times the [[volume form]] on [[spacetime]] is a [[polynomial observable]].
 
 These happen to be also [[microcausal observables]] ([this example](microcausal+functional#CompactlySupportedPolynomialLocalDensities)).
 
