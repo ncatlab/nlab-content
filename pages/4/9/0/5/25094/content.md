@@ -137,6 +137,9 @@ Discussion of the Solovay-Kitaev theorem for quantum compilation in the context 
 
 * Caitlin Carnahan, Daniel Zeuch, [[Nicholas E. Bonesteel]], *Systematically generated two-qubit anyon braids*, Phys. Rev. A **93** 052328 (2016) &lbrack;[arXiv:1511.00719](https://arxiv.org/abs/1511.00719), [doi:10.1103/PhysRevA.93.052328](https://doi.org/10.1103/PhysRevA.93.052328)&rbrack;
 
+*  [[Emil Génetay-Johansen]], [[Tapio Simula]], Section IV of: *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) &lbrack;[arXiv:2008.10790](https://arxiv.org/abs/2008.10790), [doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)&rbrack;
+
+
 
 [[!redirects quantum compilation]]
 [[!redirects quantum circuit compilation]]
