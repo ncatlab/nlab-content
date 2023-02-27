@@ -104,7 +104,7 @@ $$
 into the 3-[[dimension|dimensional]] [[Cartesian space]] as the unit 2-sphere given by
 
 $$
-  S^2 = \left\{ (x_1, x_2, x_2) \in \mathbb{R}^3 \;|\; (x_1)^2 + (x_2)^2 + (x_3)^2 = 1 \right\}
+  S^2 = \left\{ (x_1, x_2, x_3) \in \mathbb{R}^3 \;|\; (x_1)^2 + (x_2)^2 + (x_3)^2 = 1 \right\}
 $$
 
 the 2-[[sphere]] inherits a [[Riemannian metric]] as the [[pullback of a differential form|pullback]] of the canonical metric $\sum_{i = 1} ^3  d x_i \otimes d x_i$  on $\mathbb{R}^3$. 
