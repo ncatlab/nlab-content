@@ -424,7 +424,7 @@ The case for [[locally presentable categories]] is discussed in
 
 A specialization to the locally $\alpha$-presentable case is given in Theorem 2.11 of
 
-* Giacomo Tendas, *On continuity of accessible functors*, Applied Categorical Structures, 2022, [doi](https://doi.org/10.1007/s10485-022-09677-x).
+* [[Giacomo Tendas]], *On continuity of accessible functors*, Applied Categorical Structures, 2022, [doi](https://doi.org/10.1007/s10485-022-09677-x).
 
 A relative version of Freyd's classical results is in
 
