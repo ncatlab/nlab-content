@@ -32,11 +32,11 @@ On [[Cartesian bicategories]]:
 
 * [[Aurelio Carboni]], [[Max Kelly]], [[Bob Walters]], [[Richard Wood]], _Cartesian Bicategories II_, Theory and Applications of Categories, Vol. 19, 2008, No. 6, pp 93-124. ([arXiv:0708.1921](https://arxiv.org/abs/0708.1921), [tac](http://www.tac.mta.ca/tac/volumes/19/6/19-06abs.html))
 
-*  Piergiulio Katis, Nicoletta Sabadini and [[Bob Walters]], _On the algebra of feedback and systems with boundary_, Rendiconti del Circolo Matematico di Palermo. (2) Supplemento, 64 (2000), 123–156.  ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.51.5758&rep=rep1&type=pdf))
+*  Piergiulio Katis, Nicoletta Sabadini, [[Bob Walters]], _On the algebra of feedback and systems with boundary_, Rendiconti del Circolo Matematico di Palermo. (2) Supplemento, 64 (2000), 123–156.  ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.51.5758&rep=rep1&type=pdf))
 
-* Piergiulio Katis, Nicoletta Sabadini and [[Bob Walters]], _Bicategories of processes_. Journal of Pure and Applied Algebra, 115 (1997), 141–178.  ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.5583&rep=rep1&type=pdf))
+* Piergiulio Katis, Nicoletta Sabadini, [[Bob Walters]], _Bicategories of processes_, Journal of Pure and Applied Algebra **115** (1997) 141–178 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(96)00012-6">doi:10.1016/S0022-4049(96)00012-6</a>, [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.5583&rep=rep1&type=pdf)&rbrack;
 
-* Piergiulio Katis, Nicoletta Sabadini and [[Bob Walters]], _Span(Graph): A categorical algebra of transition systems_, Algebraic Methodology and Software Technology, AMAST '97, Michael Johnson (ed.), Lecture Notes in Computer Science, Springer, Germany, (1997), 307–321.  ([ps](http://aleteya.cs.buap.mx/~jlavalle/papers/categorias/walters/spangraph.ps))
+* Piergiulio Katis, Nicoletta Sabadini, [[Bob Walters]]: *$Span(Graph)$: A categorical algebra of transition systems*, in Michael Johnson (ed.), *Algebraic Methodology and Software Technology, AMAST '97*, Lecture Notes in Computer Science **1349**, Springer (1997) 307–321 &lbrack;[doi:10.1007/BFb0000479](https://doi.org/10.1007/BFb0000479), [ps](http://aleteya.cs.buap.mx/~jlavalle/papers/categorias/walters/spangraph.ps)&rbrack;
 
 An introductory textbook on category theory for [[computer science]]:
 
