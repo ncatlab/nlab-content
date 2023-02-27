@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -29,7 +28,7 @@ With "Majorana anyons" ($k = 2$) and "Fibonacci anyons" ($k = 3$) this class sub
 
 {#NonRealizationOfMZZInNanowires} Notably [[Majorana anyons]] (in the guise of "[[Majorana zero modes]]" in super/semi-conducting nanowires) are (or were until recently, see [arXiv:2106.11840v4](https://arxiv.org/abs/2106.11840v4), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) at the focus of attention of an intense effort to finally provide a practical proof of principle for the old idea of [[topological quantum computation]] (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)). After initial claims had to be retracted [in 2021](https://www.nature.com/articles/d41586-021-00612-z) &lbrack;[doi:10.1038/s41586-021-03373-x](https://doi.org/10.1038/s41586-021-03373-x), [doi:10.5281/zenodo.4587841](https://doi.org/10.5281/zenodo.4587841), [doi:10.5281/zenodo.4545812](https://doi.org/10.5281/zenodo.4545812), [TU Delft press release](https://www.delta.tudelft.nl/article/majorana-not-fraud-confirmation-bias#)&rbrack; and again [in 2022](http://retractionwatch.com/2022/04/24/authors-retract-second-majorana-paper-from-nature/) &lbrack;[doi:10.1038/s41586-022-04704-2](https://doi.org/10.1038/s41586-022-04704-2)&rbrack; (further claims are under criticism, see e.g. [doi:10.5281/zenodo.6344447](https://doi.org/10.5281/zenodo.6344447), [doi:10.5281/zenodo.6325378](https://doi.org/10.5281/zenodo.6325378) and the list [here](https://twitter.com/spinespresso/status/1503352928656138241)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22), but see [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a) and [Frolov 22](#Frolov22).
 
-In any case, Majorana anyons are known not to be universal (not all [[quantum gates]] may be approximated with Majorana braiding). The simplest universal $\mathfrak{su}(2)$-anyon species are the Fibonacci anyons at [[level (Chern-Simons theory)|level]] $k = 3$ (e.g. [Simeon 2021](#Simeon21)).
+In any case, Majorana anyons are known not to be universal (not all [[quantum gates]] may be approximated with Majorana braiding). The simplest universal $\mathfrak{su}(2)$-anyon species are the Fibonacci anyons at [[level (Chern-Simons theory)|level]] $k = 3$ (e.g. [Simeon 2021](#Simeon21), also [Kolganov, Mironov & Morozon (2023)](#KolganovMironovMorozon23)).
 
 ## Related concepts
 
@@ -61,15 +60,15 @@ More concrete discussion of these phenomena in terms of [[anyons]]:
 
 * {#DasSarmaFreedmanNayak15} [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], *Majorana zero modes and topological quantum computation*, npj Quantum Inf **1** 15001 (2015) &lbrack;[doi:10.1038/npjqi.2015.1](https://doi.org/10.1038/npjqi.2015.1)&rbrack;
 
-*  E. G. Johansen, T. Simula, *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) &lbrack;[arXiv:2008.10790](https://arxiv.org/abs/2008.10790), [doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)&rbrack;
+*  [[Emil Génetay-Johansen]], [[Tapio Simula]], *Fibonacci anyons versus Majorana fermions -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) &lbrack;[arXiv:2008.10790](https://arxiv.org/abs/2008.10790), [doi:10.1103/PRXQuantum.2.010334](https://doi.org/10.1103/PRXQuantum.2.010334)&rbrack;
 
 Discussion of Fibonacci anyons:
 
-* {#Simeon21} Ryan Simeon, *Universality of Fibonacci anyons in topological quantum computing* (2021) &lbrack;[pdf](https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2021/Final%20Papers/Simeon-PHYS243_final.pdf)&rbrack;
+* {#Simeon21} Ryan Simeon, *Universality of Fibonacci anyons in topological quantum computing* (2021) &lbrack;[pdf](https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2021/Final%20Papers/Simeon-PHYS243_final.pdf), [[Simeon-UniversalityOfFibonacciAnyons.pdf:file]]&rbrack;
 
 Discussion of universality at higher [[Chern-Simons level|level]] $k$ (and also for $SU(N)$-anyons with $N \gt 2$):
 
-* [[Nikita Kolganov]], [[Sergey Mironov]], [[Andrey Morozov]], *Large $k$ topological quantum computer*, Nuclear Physics B
+* {#KolganovMironovMorozon23} [[Nikita Kolganov]], [[Sergey Mironov]], [[Andrey Morozov]], *Large $k$ topological quantum computer*, Nuclear Physics B
 **987** (2023) 116072 &lbrack;[arXiv:2105.03980](https://arxiv.org/abs/2105.03980), [doi:10.1016/j.nuclphysb.2023.116072](https://doi.org/10.1016/j.nuclphysb.2023.116072)&rbrack;
 
 
