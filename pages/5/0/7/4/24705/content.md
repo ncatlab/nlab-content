@@ -614,8 +614,8 @@ These two are related by the following [[commuting diagram]] (being the [[natura
   \label{MeasurementViaWritedComonad}
 \]
 \begin{imagefromfile}
-    "file_name": "MeasurementViaRandomMonad-221028.jpg",
-    "width": "540",
+    "file_name": "MeasurementViaRandomMonad-230227.jpg",
+    "width": "680",
     "unit": "px",
     "margin": {
         "top": -20,
