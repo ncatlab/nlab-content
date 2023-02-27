@@ -81,7 +81,7 @@ Relation to [[braid representations]]:
 
 and understood in terms of [[anyon statistics]]:
 
-* {#GuHaghighatLiu21} Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations* &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195)&rbrack;
+* {#GuHaghighatLiu21} Xia Gu, [[Babak Haghighat]], Yihua Liu, *Ising- and Fibonacci-Anyons from KZ-equations*, J. High Energ. Phys. **2022** 15 (2022) &lbrack;[arXiv:2112.07195](https://arxiv.org/abs/2112.07195), <a href="https://doi.org/10.1007/JHEP09(2022)015">doi:10.1007/JHEP09(2022)015</a>&rbrack;
 
 
 The generalization to higher [[genus of a surface|genus]] surfaces: 
