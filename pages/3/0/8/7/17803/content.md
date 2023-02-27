@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that over a connected [[smooth manifold]] $X$, 
+The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that over a [[smooth manifold]] $X$, 
 
 1. the [[section]] [[functor]]
 
@@ -28,7 +28,7 @@ The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that 
      C^\infty(X) Mod
    $$
 
-   that sends [[smooth vector bundles]] over $X$ of [[finite number|finite]] [[rank]] to their [[spaces of sections|spaces of]] smooth [[sections]], regarded as [[modules]] over the [[algebra of functions|algebra of]] [[smooth functions]] on $X$, is a [[fully faithful functor]]
+   that sends [[smooth vector bundles]] (with fibers of uniformly bounded dimension) over $X$ of [[finite number|finite]] [[rank]] to their [[spaces of sections|spaces of]] smooth [[sections]], regarded as [[modules]] over the [[algebra of functions|algebra of]] [[smooth functions]] on $X$, is a [[fully faithful functor]]
    
    ([Nestruev 03, theorem 11.29](#Nestruev03));
 
