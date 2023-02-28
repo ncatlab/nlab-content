@@ -189,7 +189,7 @@ of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $
 
 =--
 
-As a consequence of the above, any category with binary products and equalizers has pullbacks.
+As a consequence of the above, any category with binary products and equalizers has pullbacks.  Conversely any category with binary products and pullbacks has equalizers: the equalizer of $f,g:A \to B$ is the pullback of $(1,f) \maps A \to A \times B$ and $(1,g) \maps A \to A \times B$.
 
 +-- {: .num_prop #PullbackPreservesMonomorphisms}
 ###### Proposition
