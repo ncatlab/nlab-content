@@ -13,10 +13,18 @@ On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmet
 
 * [[Jens Hoppe]], _Membranes and Matrix Models_ ([arXiv:hep-th/0206192](https://arxiv.org/abs/hep-th/0206192))
 
-
 On the [[BMN matrix model]]:
 
 * [[Jens Hoppe]]. Ki-Myeong Lee, _New BPS Configurations of BMN Matrix Theory_, JHEP 0806:041, 2008 ([arXiv:0712.3616](https://arxiv.org/abs/0712.3616))
+
+On exact solutions to the (regularized) bosonic [[membrane]]/[[M2-brane]] model:
+
+
+* [[Jens Hoppe]], *Exact algebraic M(em)brane solutions* &lbrack;[arXiv:2107.00569](https://arxiv.org/abs/2107.00569)&rbrack;
+
+* [[Jens Hoppe]], *The fast non-commutative sharp drop* &lbrack;[arXiv:2302.13146](https://arxiv.org/abs/2302.13146)&rbrack;
+
+
 
 ## Related entries
 
