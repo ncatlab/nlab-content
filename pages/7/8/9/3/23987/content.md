@@ -561,7 +561,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > [[proof assistant|Proof assistant]] software enables the development of [[proofs]] in a manner such that a computer can verify their validity. As proof assistants commonly take the form of a [[programming language]], users face programming-related problems, such as the naturality of expressing ideas and algorithms in the language, usability, and performance. We will investigate these issues as they occur in developing [[Errett Bishop]]’s [[constructive analysis|constructive]] [[Cauchy real number|real numbers]] in the [[Agda]] [[proof assistant]] and [[functional programming language]], with an introduction to each.
 
+\linebreak
 
+* 27 Feb 2023
+
+  [[Aeysha Khalique]] (National University of Science and Technology, Islamabad)
+
+  > [[quantum mechanics|Quantum Mechanics]] offers phenomena which defy our everyday observation. These are not just theoretical principles but have wide range applications in [[quantum computation]] and [[quantum information]], making some tasks possible which are impossible to be done [[classical physics|classically]]. This talk will take you to the journey through quantum computation, starting from underlying principles to the applications, including my own own contribution to it.  
 
 
 
