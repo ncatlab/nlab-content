@@ -24,7 +24,7 @@ What is called the "geometrical formulation of quantum mechanics" &lbrack;[Ashte
 
 1. the [[projective space]] $P \mathscr{H}$ of the [[Hilbert space|Hilbert]] [[space of quantum states|space of]] [[pure quantum states]] $\mathscr{H}$ is canonically a [[Kähler manifold]] and so in particular a [[symplectic manifold]],
 
-1. the [[curves]] in $P \mathscr{H}$ wich currespond to solutions of the [[Schrödinger equation]] are [[Hamiltonian flows]] with respect to this symplectic structure.
+1. the [[curves]] in $P \mathscr{H}$ which correspond to solutions of the [[Schrödinger equation]] are [[Hamiltonian flows]] with respect to this symplectic structure.
 
 This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight that [[quantization]] is a [[deformation]] of this symplectic structure (whence: [[deformation quantization]]).
 
