@@ -87,7 +87,7 @@ From the point of view of [[type theory]] and in particular the "types &#224; la
 
 ### Simply typed lambda calculus
 
-In simply typed lambda calculus, each variable and term has a [[type theory|type]], and we can only form the application $f t$ if $t$ is of some type $A$ while $f$ is of a function type $A \to B = B^A$ whose domain is $A$; the type of $f t$ is then $B$.  Similarly, if $x$ is a variable of type $A$ and $t$ is a term of type $B$ involving $x$, then $\lambda x. t$ has type $A\to B$.
+In *[[simple type theory|simply typed]]* lambda calculus, each variable and term has a [[type theory|type]], and we can only form the application $f t$ if $t$ is of some type $A$ while $f$ is of a [[function type]] $A \to B = B^A$ whose domain is $A$; the type of $f t$ is then $B$.  Similarly, if $x$ is a variable of type $A$ and $t$ is a term of type $B$ involving $x$, then $\lambda x. t$ has type $A\to B$.
 
 Without some further type and term constructors, there is not much that can be done, but if we add a [[natural numbers object]] (that is, a type $N$ with constants $0$ of type $N$ and $s$ of type $N\to N$, along with a "definition-by-recursion" operator), then we can express many recursive functions.  (We cannot by this means express *all* computable functions, although we can go beyond [[primitive recursive function]]s; for instance we can define the [[Ackermann function]].  One way to increase the expressiveness to all [[partial recursive function]]s is to add a [[fixpoint]] [[combinator]], or an unbounded search operator).
 
@@ -118,7 +118,12 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 ## References
 
-Introduction to [[type theory|typed]] $\lambda$-calculus:
+Textbook accounts:
+
+* [[J. Roger Hindley]], [[Jonathan P. Seldin]], *Lambda-Calculus and Combinators -- An Introduction*, Cambridge University Press (2008) &lbrack;[doi:10.1017/CBO9780511809835](https://doi.org/10.1017/CBO9780511809835)&rbrack;
+
+
+Introduction to [[simple type theory|simply typed]] $\lambda$-calculus:
 
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
 
@@ -161,13 +166,6 @@ Another, more recent take on pure lambda calculus as a certain kind of [[algebra
 [[!redirects typed lambda-calculus]]
 [[!redirects typed λ-calculus]]
 
-[[!redirects simply typed lambda calculus]]
-[[!redirects simply typed lambda-calculus]]
-[[!redirects simply typed λ-calculus]]
-
-[[!redirects simply-typed lambda calculus]]
-[[!redirects simply-typed lambda-calculus]]
-[[!redirects simply-typed λ-calculus]]
 
 [[!redirects λ-term]]
 [[!redirects λ-terms]]
