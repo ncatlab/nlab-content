@@ -44,6 +44,8 @@ A & \underset{f}{\to} & B
 
 ### Equivalent conditions
 
+An extensive list of equivalent conditions is given on the page of [[lax-idempotent 2-adjunction]]s.
+
 +-- {: .num_theorem #AlgebraAdjoint}
 ###### Theorem
 A 2-monad $T$ as above, with unit $\eta: 1 \to T$, is lax-idempotent if and only if for any $T$-algebra $a \colon T A \to A$ there is a 2-cell $\theta_a \colon 1 \Rightarrow \eta_A \circ a$ such that $(\theta_a ,1_{1_A})$ are the unit and counit of an [[adjunction]] $a \dashv \eta_A$.
