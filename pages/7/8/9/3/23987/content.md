@@ -968,6 +968,23 @@ Stone-von Neumann**
 
   > We will give a brief introduction to the subject of [[applied topology|Applied]] and [[computational topology|Computational Topology]]. The survey of the subject's main ideas and tools will be complemented with applications to [[discrete mathematics]] and to theoretical [[distributed computing]]. We will conclude with stating an open problem in combinatorial topology which is related to the complexity of the Weak Symmetry Breaking distributed task.
 
+\linebreak
+
+### Mar 2023
+
+* 1 Mar 2023
+
+  [[Lukas Müller]]
+
+  **Deformation quantization and categorical factorization homology**
+
+  cf. [arXiv:2107.12348](factorization+homology#KellerMüller23)
+
+  > [[moduli space of flat connections|Moduli spaces of flat principal bundles]] on [[surfaces]] are a prominent object in [[mathematical physics]], [[algebraic geometry]] and [[geometric representation theory]]. In particular they are the [[phase space]] of 3-dimensional [[Chern-Simons theory]] on a surface times an interval and hence equipped with a [[symplectic structure]] going back to the work of [[Atiyah]] and [[Bott]]. Various [[deformation quantizations]] of the [[algebra of functions]] have been constructed. Ben-Zvi, Brochier & Jordan constructed "local to global" quantizations using [[factorization homology]] of representation categories of [[quantum groups]]. Local to global constructions in this setting only work if the [[higher geometry|higher geometric]] [[higher structure|structure]] of the moduli space of flat bundles is taken into account, i.e. it is treated as a [[moduli stack]]. In this setting the algebra of functions does not contain all the information and should be replaced by the category of [[quasicoherent sheaves]].
+
+
+  > In my talk we will explore [[categorifications]] of deformation quantization as deformations of [[symmetric monoidal categories]] (algebras over the [[E-infinity operad|$E_\infty$-operad]]) into $E_i$-categories and their interplay with factorization homology. The main result is that 2-dimensional factorization homology "commutes" with [[quantization]] in a way relating $E_0$-quantizations to braided ($E_2$) quantizations. We will illustrate our results with examples from [[Poisson geometry]] and [[quantum groups]]. As a specific application we show that deformation quantizations of the moduli space of flat bundles based on Kontsevich integrals constructed by Li, Bland & Ševera are equivalent to quantizations constructed by Alekseev, Grosse & Schomerus based on quantum groups. The talk is based on joint work in progress with Eilind Karlsson, [[Corina Keller]], and [[Jan Pulmann]].  
+
  
 
 
