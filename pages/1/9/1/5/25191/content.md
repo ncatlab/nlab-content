@@ -1,5 +1,5 @@
 
-* [personal page](https://w.lisaekdahl.com/)
+* [personal page](https://dwarn.se/)
 
 * [institute page](https://www.chalmers.se/en/staff/Pages/warnd.aspx)
 
