@@ -192,6 +192,16 @@ Discussion in the context of [[extended TQFT]] appears in
 
 * [Videos from  from the BIRS Workshop 15w5125](http://www.birs.ca/events/2015/5-day-workshops/15w5125/videos) on _Factorizable Structures in Topology and Algebraic Geometry_.
 
+For [[surfaces]] equipped with [[flat connections]] for a [[finite group]]:
+
+* {#KellerMüller23} [[Corina Keller]], [[Lukas Müller]], *Finite symmetries of quantum character stacks*, Theory and Applications of Categories **39** 3 (2023) 51-97  &lbrack;[arXiv:2107.12348](https://arxiv.org/abs/2107.12348), [tac:39-03](http://www.tac.mta.ca/tac/volumes/39/3/39-03abs.html)&rbrack;
+
+Survey:
+
+* [[Corina Keller]], *Twisted Character Varieties and Quantization via Factorization Homology*, talk at PIRSA (2022) &lbrack;video: [doi:10.48660/21100028](https://doi.org/10.48660/21100028)&rbrack;
+
+
+
 ### Relation to cohomology of configuration spaces
 
 Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
