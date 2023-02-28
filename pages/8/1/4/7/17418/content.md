@@ -90,7 +90,7 @@ A _partial combinatory algebra_ , also called a _Sch&#246;nfinkel algebra_ ,  is
 
 * {#Freyd89}[[Peter Freyd]], _Combinators_ , Contemp. Math. **92** (1989) pp.63-66. ([pdf](http://www.math.upenn.edu/~pjf/combinators.pdf))
 
-* R. Hindley, J. Seldin, _Introduction to Combinators and $\lambda$-Calculus_ , Cambridge UP 1986.
+* [[J. Roger Hindley]], [[Jonathan P. Seldin]], *Lambda-Calculus and Combinators -- An Introduction*, Cambridge University Press (2008) &lbrack;[doi:10.1017/CBO9780511809835](https://doi.org/10.1017/CBO9780511809835)&rbrack;
 
 * {#Lambek72}[[Jim Lambek]], _Deductive systems and categories III. Cartesian closed categories, intuitionist propositional calculus, and combinatory logic_ , pp.57&#8211;82 LNM **274** Springer Heidelberg 1972.
 
@@ -99,3 +99,9 @@ A _partial combinatory algebra_ , also called a _Sch&#246;nfinkel algebra_ ,  is
 [[!redirects BCI-logic]]
 [[!redirects BCK logic]]
 [[!redirects BCK-logics]]
+
+[[!redirects combinator]]
+[[!redirects combinators]]
+
+[[!redirects combinator logic]]
+[[!redirects combinator logics]]
