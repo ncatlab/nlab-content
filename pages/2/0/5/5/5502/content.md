@@ -217,3 +217,5 @@ The abstract approach behind Mann's work is the subject of the following course 
 
 [[!redirects six operation yoga]]
 [[!redirects six operations yoga]]
+
+[[!redirects motivic yoga]]
