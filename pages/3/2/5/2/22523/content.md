@@ -53,6 +53,10 @@ and thus as a [[linear map]] form the [[tensor product]] over the [[bulk]]-[[ver
 
 ## Related concepts
 
+* [[stabilizer code]]
+
+* [[bit flip code]]
+
 * [[Majorana dimer code]]
 
 ## References
