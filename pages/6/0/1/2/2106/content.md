@@ -24,10 +24,10 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 * In its application to [[physics]], symplectic geometry is the fundamental mathematical language for [[Hamiltonian mechanics]], [[geometric quantization]], geometrical optics. 
 
 
-* A tremendous amount of insight into higher [[Lie theory]] ([[Lie groupoid]]s, [[Lie ∞-groupoid]]s, [[Lie ∞-algebroid]]s) has derived from [[Alan Weinstein]]'s long-term project of understanding the role of symplectic geometry in [[geometric quantization]]. See there for more details.
+* A tremendous amount of insight into higher [[Lie theory]] ([[Lie groupoids]], [[Lie ∞-groupoids]], [[Lie ∞-algebroids]]) has derived from [[Alan Weinstein]]'s long-term project of understanding the role of symplectic geometry in [[geometric quantization]]. See there for more details.
 
 +--{.query}
-[[Zoran ?koda]]: it is true that large influence of Weinstein's program can not be overestimated, but it is not the origin of these considerations; it rather builds up on earlier fundamental works of Kirillov, Kostant, Souriau who invented geometric quantization, all of them originally in symplectic context; and the florishing of the subject from mid 1960s till mid 1980-s is related to their work; and other related tracks of Guillemin, Sternberg, Kashiwara, Karasev, Arnold and so on; and vast developments in harmonic analysis and representation theory (Kostant, Auslander, Vogan, Wallach, Stein...), [[microlocal analysis]] ([[Kashiwara]], Saito, Hormander, Maslov, Karasev, Duistermaat...),  [[integrable system]]s/[[quantum group]]s (this is more into more general Poisson geometry: Lie-Poisson groups, classical r-matrices, bihamiltonian systems...), and  related approaches to quantization (Berezin method, [[coherent state]]s...).  
+[[Zoran Skoda]]: it is true that large influence of Weinstein's program can not be overestimated, but it is not the origin of these considerations; it rather builds up on earlier fundamental works of Kirillov, Kostant, Souriau who invented geometric quantization, all of them originally in symplectic context; and the florishing of the subject from mid 1960s till mid 1980-s is related to their work; and other related tracks of Guillemin, Sternberg, Kashiwara, Karasev, Arnold and so on; and vast developments in harmonic analysis and representation theory (Kostant, Auslander, Vogan, Wallach, Stein...), [[microlocal analysis]] ([[Kashiwara]], Saito, Hormander, Maslov, Karasev, Duistermaat...),  [[integrable system]]s/[[quantum group]]s (this is more into more general Poisson geometry: Lie-Poisson groups, classical r-matrices, bihamiltonian systems...), and  related approaches to quantization (Berezin method, [[coherent state]]s...).  
 =--
 
 * [[T-duality]] and (related) [[mirror symmetry]] interchange the symplectic data and complex algebraic geometry data. Some cases of both the symplectic and complex algebraic picture can be unified and studied in a broader concept of [[generalized complex geometry]].
@@ -42,6 +42,10 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 * [[holomorphic symplectic geometry]]
 
 * [[Arnold conjecture]]
+
+* [[phase space]], [[Hamiltonian flow]], [[prequantum line bundle]]
+
+* [[symplectic formulation of quantum mechanics]]
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
