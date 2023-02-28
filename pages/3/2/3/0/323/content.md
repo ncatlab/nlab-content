@@ -189,6 +189,8 @@ of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $
 
 =--
 
+As a consequence of the above, any category with binary products and equalizers has pullbacks.
+
 +-- {: .num_prop #PullbackPreservesMonomorphisms}
 ###### Proposition
 **(pullbacks preserve monomorphisms and isomorphisms)
