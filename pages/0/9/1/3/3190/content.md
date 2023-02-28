@@ -36,3 +36,5 @@ On the [[rigidity theorem for elliptic genera]]:
 category: people
 
 [[!redirects R. Bott]]
+[[!redirects Bott]]
+
