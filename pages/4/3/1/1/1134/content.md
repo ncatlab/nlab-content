@@ -162,7 +162,7 @@ The first statement is a direct extension of the classical fact that [[smooth ma
 ## As manifolds modeled on Grassman algebras
  {#ModeledOnGrassmannAlgebra}
 
-We discuss a desription of supermanifolds that goes back to 
+We discuss a description of supermanifolds that goes back to 
 ([DeWitt 92](#DeWitt92)) and ([Rogers](#Rogers)).
 
 (...)
