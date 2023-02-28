@@ -6,6 +6,13 @@ The [[Poisson bracket]]-formulation of the [[classical mechanics|classical]] [[l
 
 * {#Hoppe82} [[Jens Hoppe]], _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, MIT 1982 ([dspace:1721.1/15717](http://hdl.handle.net/1721.1/15717), [[HoppeMembrane82.pdf:file]])
 
+Some exact solutions:
+
+* [[Jens Hoppe]], *Exact algebraic M(em)brane solutions* $[$[arXiv:2107.00569](https://arxiv.org/abs/2107.00569)$]$
+
+* [[Jens Hoppe]], *The fast non-commutative sharp drop* $[$[arXiv:2302.13146](https://arxiv.org/abs/2302.13146)$]$
+
+
 On the regularized [[light-cone gauge quantization]] of the [[Green-Schwarz sigma model]] for the [[M2-brane]] on ([[super Minkowski spacetime|super]]) [[Minkowski spacetime]], yielding the [[BFSS matrix model]]:
 
 
