@@ -303,7 +303,13 @@ See at *[[Majorana dimer code]]*.
 
 ### Classes of examples
 
+* [[bit flip code]]
+
 * [[stabilizer code]]
+
+  * [[HaPPY code]]
+
+  * [[Majorana dimer code]]
 
 
 ## Related concepts
