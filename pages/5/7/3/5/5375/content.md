@@ -74,7 +74,7 @@ Surveys include
 
 A comprehensive introduction is in 
 
-* Fedor Bogomolov, Yuri Tschinkel, _Introduction to birational anabelian geometry_ ([pdf](http://www.math.nyu.edu/~tschinke/papers/yuri/10msri/msri7.pdf))
+* [[Fedor Bogomolov]], Yuri Tschinkel, _Introduction to birational anabelian geometry_ ([pdf](http://www.math.nyu.edu/~tschinke/papers/yuri/10msri/msri7.pdf))
 
 
 Examples are discussed in
