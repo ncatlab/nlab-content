@@ -51,7 +51,12 @@ For [[differential equations]]:
 
 [[!redirects domain specific programming languages]]
 
+[[!redirects domain-specific programming language]]
+[[!redirects domain-specific programming languages]]
+
 [[!redirects domain specific language]]
 [[!redirects domain specific languages]]
 
 [[!redirects DSL]]
+
+
