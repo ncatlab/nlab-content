@@ -41,6 +41,8 @@ Much attention in [[coding theory]] is instead on the special class of *[[linear
     * [[binary Golay code]]
 
 * [[quantum error correcting code]]
+
+  * [[bit flip code]]
   
   * [[stabilizer code]]
 
