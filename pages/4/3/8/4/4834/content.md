@@ -23,7 +23,7 @@
 
 ## Idea ##
 
-A pure type system is an explicitly typed [[lambda calculus]]
+In [[type theory]], under a *pure type system* one understand and explicitly typed [[lambda calculus]]
 using [[dependent product]] as the type of lambda expressions:
 the basic idea is that
 $$\Gamma, x:A \vdash b:B$$
@@ -164,6 +164,8 @@ But there is an example with even non-circular system of axioms (System $\mathsf
 | $R = $ | $\{(\ast, \ast), (\square, \ast), (\square, \square), (\triangle, \square)\}$
 
 ## Related concepts
+
+* [[simple type theory]]
 
 * Pure type systems can be augmented with a *cumulativity* relation between sorts, so that if $s_1 \preceq s_2$, then any type in $s_1$ is also in $s_2$; see [Barras-Gregoire](#BG05).
 
