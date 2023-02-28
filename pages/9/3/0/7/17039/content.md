@@ -47,7 +47,17 @@ This page collects pointers related to the conference and book project:
 
   [gBooks](https://books.google.us/books?id=8XUfEAAAQBAJ)
 
-  [toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf)
+  \linebreak
+
+  _New spaces in physics: formal and conceptual reflections_, 
+
+  Cambridge University Press (2021)
+
+  ISBN:9781108854399
+
+  [doi:10.1017/9781108854439](https://doi.org/10.1017/9781108854439)
+
+[toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf)
 
 on current developments regarding foundations of [[geometry]] in [[mathematics]] and [[physics]].
 
@@ -334,6 +344,7 @@ Hanno Sahlmann on spin networks.
 
 
 
-
+[[!redirects New Spaces in Mathematics]]
+[[!redirects New Spaces in Physics]]
 
 category: reference
