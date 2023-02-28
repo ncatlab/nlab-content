@@ -176,7 +176,11 @@ Realization in [[experiment]]:
 
 * [[Dirk Bouwmeester]], Jian-Wei Pan, Klaus Mattle, Manfred Eibl, Harald Weinfurter, [[Anton Zeilinger]], *Experimental quantum teleportation*, Nature **390** 575–579 (1997) &lbrack;[doi:10.1038/37539](https://doi.org/10.1038/37539)&rbrack;
 
+* Syed Tahir Amin, [[Aeysha Khalique]], *Practical Quantum Teleportation of an Unknown Quantum State*, Can. J. Phys. **95** 5 (2017) 498 &lbrack;[arXiv:1508.01141](https://arxiv.org/abs/1508.01141), [doi:10.1139/cjp-2016-0758](https://doi.org/10.1139/cjp-2016-0758)&rbrack;
+
 * Dario Lago-Rivera, Jelena V. Rakonjac, Samuele Grandi, Hugues de Riedmatten, *Long-distance multiplexed quantum teleportation from a telecom photon to a solid-state qubit* &lbrack;[arXiv:2209.06249](https://arxiv.org/abs/2209.06249)&rbrack;
+
+
 
 
 Implementation of the quantum teleportation protocol in [[topological quantum computation]] via [[braiding]] of [[Ising anyons]]:
