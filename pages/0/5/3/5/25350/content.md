@@ -39,11 +39,11 @@ The observation is due to:
 
 Further discussion in:
 
+* L. P. Hughston, _Geometry of stochastic state vector reduction_, 452:1947 (1996), [doi](https://doi.org/10.1098/rspa.1996.0048).
+
 * A Benvegnù, N Sansonetto, M Spera, *Remarks on geometric quantum mechanics*, Journal of Geometry and Physics **51** 2 (2004) 229-243 &lbrack;[doi:10.1016/j.geomphys.2003.10.008](https://doi.org/10.1016/j.geomphys.2003.10.008)&rbrack;
 
 * J. F. Cariñena, J. Clemente-Gallardo & G. Marmo, *Geometrization of quantum mechanics*, Theoretical and Mathematical Physics **152** (2007) 894–903 &lbrack;[doi:10.1007/s11232-007-0075-3](https://doi.org/10.1007/s11232-007-0075-3)&rbrack;
-
-     
 
 * Secret Blogging Seminar, *[Quantum mechanics and geometry](https://sbseminar.wordpress.com/2009/11/16/quantum-mechanics-and-geometry/)* (2009)
 
