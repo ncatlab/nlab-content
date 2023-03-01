@@ -32,7 +32,7 @@ One way to do this is described in ([Garner](#Garner)).
 * [[Michael Batanin]], _Monoidal globular categories as a natural environment for the theory of weak $n$-categories_ , Advances in Mathematics 136 (1998), no. 1, 39&#8211;103.  
 
 * [[Ross Street]], _The role of Michael Batanin's monoidal globular categories_, in _Higher Category Theory_, eds. E. Getzler and M. Kapranov, Contemp. Math. 230, American
-Mathematial Society, Providence, Rhode Island, 1998, pp. 99--116.   ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=16090323CA625A93A8948A4F40401291?doi=10.1.1.51.2074&rep=rep1&type=pdf))
+Mathematial Society, Providence, Rhode Island, 1998, pp. 99--116.   ([pdf](https://www.researchgate.net/publication/2741768_The_role_of_Michael_Batanin's_monoidal_globular_categories/link/02bfe5108f456cad85000000/download))
 
 Work towards establishing the [[homotopy hypothesis]] for Batanin $\omega$-groupoids can be found here:
 
