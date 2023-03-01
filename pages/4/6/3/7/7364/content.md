@@ -68,7 +68,8 @@ Specifically for [[complex surfaces]]:
 * {#FriedmanMorgan94} [[Robert Friedman]], [[John Morgan]], _Smooth Four-Manifolds and Complex Surfaces_, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge / A Series of Modern Surveys in Mathematics (1994) ([doi:10.1007/978-3-662-03028-8](https://www.springer.com/gp/book/9783540570585))
 
 
-* Fedor Bogomolov, Yuri Tschinkel, _Monodromy of elliptic surfaces_ ([[MonodromyOfEllipticSurfaces.pdf:file]])
+* [[Fedor Bogomolov]], [[Yuri Tschinkel]], *Monodromy of elliptic surfaces* &lbrack;[[MonodromyOfEllipticSurfaces.pdf:file]], [arXiv:math/0002168](https://arxiv.org/abs/math/0002168)&rbrack;
+
 
 * Takahiko Yoshida, _Locally standard torus fibrations_ [pdf](http://www.isc.meiji.ac.jp/~takahiko/papers/sympo.pdf)
 
