@@ -168,7 +168,7 @@ $$
     \overset{\Delta_p}{\longrightarrow}
   (R \wedge \cdots \wedge R)^{t C_p}
     \overset{prod^{t C_p}}{\longrightarrow}
-  R^{C_p}
+  R^{t C_p}
 $$
 
 where
