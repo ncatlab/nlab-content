@@ -248,10 +248,13 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 
 * [[generating function in classical mechanics]], 
 
+
 ## References
 
 
-Classical textbooks include
+Classical textbooks:
+
+* [[Tom W. B. Kibble]], [[Frank Berkshire]], *Classical mechanics*, McGraw-Hill (1966, 1973, 2004) &lbrack;[pdf](https://physicaeducator.files.wordpress.com/2018/02/classical-mechanics-by-kibble-and-berkshire.pdf), <a href="https://en.wikipedia.org/wiki/Classical_Mechanics_(Kibble_and_Berkshire)">Wikipedia entry</a>&rbrack;
 
 * [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate texts in Mathematics 60 (1978)
 
