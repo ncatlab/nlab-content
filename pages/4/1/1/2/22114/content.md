@@ -14,6 +14,7 @@ It is an associative [[bialgebroid]] whose structure, given a Hopf-Galois extens
 * Tomasz Brzezi&#324;ski, Joost Vercruysse, _Bimodule herds_, J. Algebra __321__:9, (2009) 2670-2704 [arXiv:0805.2510](http://arXiv.org/abs/0805.2510) [doi](https://doi.org/10.1016/j.jalgebra.2009.01.020)
 * Xiao Han, Giovanni Landi, _On the gauge group of Galois objects_, [arxiv/2002.06097](https://arxiv.org/abs/2002.06097)
 * Xiao Han, _Twisted Ehresmann Schauenburg bialgebroids_, [arxiv/2009.02764](https://arxiv.org/abs/2009.02764); _Quantum principal bundles, gauge groupoids and coherent Hopf 2-algebras_, PhD thesis, SISSA 2019/20 [pdf](https://iris.sissa.it/retrieve/handle/20.500.11767/114051/125719/PhD%20Thesis%20Xiao.pdf)
+* Ludwik Dabrowski, [[Giovanni Landi]], Jacopo Zanchettin, _Hopf algebroids and twists for quantum projective spaces_, [arXiv:2302.12073](https://arxiv.org/abs/2302.12073)
 
 category: algebra
 
