@@ -144,6 +144,7 @@ Further discussion:
 
 * Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
 
+* Grégory Ginot, Owen Gwilliam, Alastair Hamilton, Mahmoud Zeinalian, _Large N phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631
 
 On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
 
