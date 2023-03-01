@@ -994,6 +994,8 @@ Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[
 
   [[infinite complex projective G-space]]
 
+* [[symplectic formulation of quantum mechanics]]
+
 ## References
 
 Textbook accounts:
