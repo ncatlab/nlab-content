@@ -164,7 +164,7 @@ Textbook accounts in [[quantum information theory]]:
 
 
 
-Discussion from the point of view of [[quantum probability]] includes
+Discussion from the point of view of [[quantum probability]]:
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
@@ -181,6 +181,13 @@ See also
 * Wikipedia, _[Wave function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse)_
 
 * Wikipedia, _[Born rule](https://en.wikipedia.org/wiki/Born_rule)_
+
+More speculative discussion of state collapse as caused by stochastic terms added to the [[Schrödinger equation]]:
+
+from the point of view of the [[symplectic formulation of quantum mechanics]]:
+
+* {#Hughston96} [[Lane P. Hughston]], *Geometry of stochastic state vector reduction*, Proceedings of the Royal Society A **452** 1947 (1996) &lbrack;[doi:10.1098/rspa.1996.0048](https://doi.org/10.1098/rspa.1996.0048), [jstor:52944](https://www.jstor.org/stable/52944)&rbrack;
+
 
 [[!redirects wave function collapse]]
 [[!redirects wavefunction collapse]]
