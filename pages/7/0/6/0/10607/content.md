@@ -217,8 +217,7 @@ $$
 =--
 
 
-
-### Werden : Sein $\dashv$ Nichts
+### Werden : Nichts $\dashv$ Sein
  {#Werden}
 
 For $\mathbf{H}$ a [[topos]]/[[(∞,1)-topos]] consider the "initial topos", the [[terminal category]] $\ast \simeq Sh(\emptyset)$ ([[category of sheaves]] on the empty site).
@@ -227,30 +226,33 @@ There is then an [[adjoint triple]]
 
 $$
   \mathbf{H}
-   \stackrel{\overset{\vdash \ast}{\longleftarrow}}{\stackrel{\overset{}{\longrightarrow}}{\underset{\vdash \emptyset}{\longleftarrow}}}
+   \stackrel
+     {\overset{\vdash \varnothing}{\longleftarrow}}  
+     {\stackrel{\overset{}{\longrightarrow}}
+     {\underset{\vdash \ast}{\longleftarrow}}}
   \ast
 $$
 
-given by including the [[initial object]] $\emptyset$ and the [[terminal object]] $\ast$ into $\mathbf{H}$.
+given by including the [[initial object]] $\varnothing$ and the [[terminal object]] $\ast$ into $\mathbf{H}$, respectively.
 
 
 In the [[type theory]] of $\mathbf{H}$ this corresponds to the [[adjoint pair]] of [[modalities]]
 
 $$
-  \emptyset \dashv \ast
+  \varnothing \dashv \ast
 $$
 
-which are constant on the [[initial object]]/[[terminal object]], respectively.
+which are [[constant functor|constant]] on the [[initial object]]/[[terminal object]], respectively.
 
-The induced unity transformation is
+The induced [[unit of an adjunction]] transformation is
 
 $$
   \array{
-    \emptyset \longrightarrow X \longrightarrow \ast
+    \varnothing \longrightarrow X \longrightarrow \ast
   }
 $$
 
-hence the unique factorization of the unique function $\emptyset \longrightarrow \ast$ through any other [[type]].
+hence the unique factorization of the unique function $\varnothing \longrightarrow \ast$ through any other [[type]].
 
 
 Looking through ([Hegel 1812, vol 1, book 1, section 1, chapter 1](#Hegel1812)) one might call $\emptyset$ "nothing", call $\ast$ "being" and then call this unity of opposites "becoming". In particular in &#167;174 of _[[Science of Logic]]_ it says
