@@ -115,6 +115,20 @@ A further non-example:
 
 [^Freyd]: Pointed out by [[Peter Freyd]] in [this discussion](https://www.mta.ca/~cat-dist/catlist/1999/extensive).
 
+## Free distributive categories
+
+\begin{proposition}
+
+* The free distributive category on a category $\mathcal{C}$ with finite products is given by the finite [[free coproduct completion]]: $FinCoprod(\mathcal{C})$. That is, $FinCoprod(\mathcal{C})$ is distributive, and induces a bijection between distributive functors $FinCoprod(\mathcal{C})\to \mathcal{D}$ and product preserving functors 
+$\mathcal{C}\to \mathcal{D}$, natural in distributive categories $\mathcal{D}$.
+
+* The free distributive category on a category $\mathcal{C}$ is the finite [[free coproduct completion]] of the finite [[free product completion]]: $FinCoprod(FinProd(\mathcal{C}))$. That is, $FinCoprod(FinProd(\mathcal{C}))$ is distributive, and induces a bijection between distributive functors $FinCoprod(FinProd(\mathcal{C}))\to \mathcal{D}$ and functors 
+$\mathcal{C}\to \mathcal{D}$, natural in distributive categories $\mathcal{D}$. 
+
+\end{proposition}
+This is noted in [Cockett 1993, p. 280, also Corollary 5.9](#Cockett93), where [[Bob Walters]] and [[Shu-Hao Sun]] are named as advocates of this method. (However, note that Cockett does not insist on an initial object.)
+
+In particular, then, the free distributive category, which is the free distributive category on the empty category, is the [[category of finite sets]], up to equivalence.
 
 ## Related concepts
 
@@ -145,7 +159,7 @@ A further non-example:
 
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
 
-
+* {#Cockett93} [[Robin Cockett]], _Introduction to distributive categories_, Mathematical Structures in Computer Science vol 3 pp. 277-307 (<a href="https://doi.org/10.1017/S0960129500000232">doi: 10.1017/S0960129500000232</a>). 
 
 * {#Lack} [[Stephen Lack]], _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
 
