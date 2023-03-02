@@ -321,6 +321,8 @@ More on the relation to [[universal algebra]]:
 
 * [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
 
+* Anthony Voutas, The basic theory of monads and their connection to universal algebra, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf)&rbrack;
+
 An elementary proof of the equivalence between infinitary [[Lawvere theories]] and [[monads]] on the [[category of sets]] is given in Appendix A of
 
 * [[Martin Brandenburg]], Large limit sketches and topological space objects, [arXiv:2106.11115](https://arxiv.org/abs/2106.11115).
