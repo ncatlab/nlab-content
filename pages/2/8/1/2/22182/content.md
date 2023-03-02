@@ -52,8 +52,17 @@ $$\mathbf{1} \rightrightarrows \mathbf{1} \to S^1$$
 The circle can also be defined without HITs using only univalence, as the type of $\mathbb{Z}$-torsors.  One can then prove that this type satisfies the same induction principle (propositionally).  This is due to [[Dan Grayson]].
 
 ## Properties ##
+ {#Properties}
 
-Its [[induction principle]] says that for any $P:S^1\to Type$ equipped with a point $base' : P(base)$ and a [[dependent identification|dependent path]] $loop':base'= base'$, there is $f:\prod_{(x:S^1)} P(x)$ such that:
+Its [[induction principle]] says (e.g. [UFP13, p. 177](#UFP13)) that for 
+
+* any $P \colon S^1 \to Type$ 
+
+* equipped with a point $base' \colon P(base)$ 
+
+* and a [[dependent identification|dependent path]] $loop' \,\colon\, base' =_{loop} base'$, 
+
+there is $f:\prod_{(x:S^1)} P(x)$ such that:
 
 $$f(base)=base'\qquad apd_f(loop) = loop'$$
 
