@@ -651,6 +651,11 @@ Wirthm&#252;ller morphisms between pointed objects and between bundles of module
  
 
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
+
+A twisted version of the Wirthm&#252;ller isomorphism is discussed in
+
+* Bastiaan Cnossen, _Twisted ambidexterity in equivariant homotopy theory_ ([arXiv:2303.00736](https://arxiv.org/abs/2303.00736))
+
  
 
 
