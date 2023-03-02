@@ -16,5 +16,4 @@ The formalism is applicable to $\lambda$-presentable stable ∞-categories, wher
 
 * [[Marc Hoyois]], _K-theory of dualizable categories (after A. Efimov)_, <https://hoyois.app.uni-regensburg.de/papers/efimov.pdf>.
 
-* Li He, _Efimov K-theory and universal localizing invariant_, [arXiv:2302.13052](https://arxiv.org/abs/2302.13052).
 
