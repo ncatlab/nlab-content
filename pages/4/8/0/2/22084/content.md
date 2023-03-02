@@ -12,6 +12,11 @@ On [[factorization homology]] for [[surfaces]] equipped with [[flat connections]
 
 * [[Corina Keller]], [[Lukas Müller]], *Finite symmetries of quantum character stacks*, Theory and Applications of Categories **39** 3 (2023) 51-97  &lbrack;[arXiv:2107.12348](https://arxiv.org/abs/2107.12348), [tac:39-03](http://www.tac.mta.ca/tac/volumes/39/3/39-03abs.html)&rbrack;
 
+Exposition:
+
+* [[Lukas Müller]], *Deformation quantization and categorical factorization homology*, talk at [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#MuellerMar2023), video:[YT](https://www.youtube.com/watch?v=kC488wISPX4)&rbrack;
+
+
 
 category: people
 
