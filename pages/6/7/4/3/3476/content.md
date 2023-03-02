@@ -258,7 +258,7 @@ $$
   \mathcal{C}_{/A} 
     \overset{\Pi_f}{\longrightarrow} 
   \mathcal{C}_{/C} 
-    \overset{\Sigma_B}{\longrightarrow} 
+    \overset{\Sigma_C}{\longrightarrow} 
   \mathcal{C}
   \,,
 $$
@@ -270,7 +270,7 @@ where
 * $\Pi_f$ denotes the interpretation of the [[dependent product]], i.e. the right [[base change]] along $f$; 
 
 
-* $\Sigma_C$ the denotes the interoretation of the [[dependent sum]], i.e. the left [[base change]] given by the  [[forgetful functor]] from $\mathcal{C}_{/B}$ to $\mathcal{C}$.  
+* $\Sigma_C$ the denotes the interpretation of the [[dependent sum]], i.e. the left [[base change]] given by the  [[forgetful functor]] from $\mathcal{C}_{/C}$ to $\mathcal{C}$.  
 
 Such a composite is called a _[[polynomial endofunctor]]_.  
 
