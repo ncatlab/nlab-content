@@ -95,7 +95,7 @@ The nLab's software and technical administrative matters are in the hands of the
 
 Much of the software behind the nLab has been written especially for the nLab: the latest source can be found at [GitHub](https://github.com/ncatlab/nlab). It was originally an instance of [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), and the shell of it remains (for the moment). Bug reports or other software issues/requests for the nLab are currently best raised in the category _[nLab Technical Matters](https://nforum.ncatlab.org/21/)_ at the [nForum](https://nforum.ncatlab.org/), but can also be posted [on GitHub](https://github.com/ncatlab/nlab/issues). 
 
-The $n$Lab page style is due to [[Jake Bian]], originating with his [Kan browser extension](https://sites.google.com/keplr.io/kan) 
+The $n$Lab page style is due to [[Jake Bian]], originating with his [Kan browser extension](https://github.com/jakebian/kan) 
 
 The $n$Lab logo is due to [[David Roberts]], inspired by Matisse's painting _[La Gerbe](https://collections.lacma.org/node/207557)_. Besides being an inside reference to [[schreiber:Higher Structures|higher structures]] known as _[[gerbes]]_, the logo represents maybe [[computational trinitarianism]] or the [[Science of Logic|progression of modalities]] or generally the unity of diverse mathematical phenomena revealed by the [[nPOV]]. 
 
