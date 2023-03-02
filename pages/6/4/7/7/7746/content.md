@@ -200,6 +200,8 @@ Survey:
 
 * [[Corina Keller]], *Twisted Character Varieties and Quantization via Factorization Homology*, talk at PIRSA (2022) &lbrack;video: [doi:10.48660/21100028](https://doi.org/10.48660/21100028)&rbrack;
 
+* [[Lukas Müller]], *Deformation quantization and categorical factorization homology*, talk at [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#MuellerMar2023), video:[YT](https://www.youtube.com/watch?v=kC488wISPX4)&rbrack;
+
 
 
 ### Relation to cohomology of configuration spaces
