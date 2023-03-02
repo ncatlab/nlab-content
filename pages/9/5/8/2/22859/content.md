@@ -77,7 +77,7 @@ A codifferential category is a CMon-enriched [[symmetric monoidal category]] tog
 \begin{tikzcd}
 S(A) \arrow[rrrrr, "d"]                                                                                &  &  &  &  & S(A) \otimes A                                               \\
                                                                                                         &  &  &  &  &                                                               \\
-S(A) \otimes S(A) \arrow[uu, "\nabla"] \arrow[rrrrr, "(d \otimes 1)(1\otimes \gamma) + 1 \otimes d"'] &  &  &  &  & S(A) \otimes \S(A) \otimes A \arrow[uu, "\nabla \otimes 1"']
+S(A) \otimes S(A) \arrow[uu, "\nabla"] \arrow[rrrrr, "(d \otimes 1)(1\otimes \gamma) + 1 \otimes d"'] &  &  &  &  & S(A) \otimes S(A) \otimes A \arrow[uu, "\nabla \otimes 1"']
 \end{tikzcd}
 It expresses that the differential of a product of two functions is the sum of the differential of the first function multiplied by the second one and the first function multiplied by the differential of the second one. 
 
