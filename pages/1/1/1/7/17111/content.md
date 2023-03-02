@@ -149,7 +149,7 @@ The standard [[basis]] elements of $\mathfrak{su}(2)$ given by the above present
 $$
   \sigma_1 
    \coloneqq
-  \frac{1}{\sqrt{2}}
+  \frac{1}{2}
   \left(
    \array{
      0 & 1
@@ -162,7 +162,7 @@ $$
 $$
   \sigma_2 
    \coloneqq
-  \frac{1}{\sqrt{2}}
+  \frac{1}{2}
   \left(
    \array{
      0 & i
@@ -175,7 +175,7 @@ $$
 $$
   \sigma_3
    \coloneqq
-  \frac{1}{\sqrt{2}}
+  \frac{1}{2}
   \left(
    \array{
      i & 0
