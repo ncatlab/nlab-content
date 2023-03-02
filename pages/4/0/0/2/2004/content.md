@@ -261,9 +261,10 @@ The example of [[idempotent monads]] is discussed also in
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
  {#Borceux}
 
-Discussion of the universal property as the final adjoint decomposition of the monad:
+Discussion of the [[universal property]] as the final adjoint decomposition of the monad:
 
-* Anthony Voutas, The basic theory of monads and their connection to universal algebra, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf)&rbrack;
+* [[Anthony Voutas]], *The basic theory of monads and their connection to universal algebra*, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf), [[Voutas-Monads.pdf:file]]&rbrack;
+
 
 Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-categories]] is around def. 6.1.7 of
 
