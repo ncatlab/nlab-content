@@ -71,6 +71,8 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 A short introductory/overview note:
 
+* Anthony Voutas, The basic theory of monads and their connection to universal algebra, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf)&rbrack;
+
 * {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, (2022) &lbrack;[pdf](https://anuyts.github.io/files/keml-diagrams.pdf)&rbrack;
 
 [[!redirects universal algebras]]
