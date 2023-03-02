@@ -203,8 +203,8 @@ A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation:
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
-A universal property for equivariant stable homotopy theory:
+A [[universal property]] characterizing equivariant stable homotopy theory:
 
-* Tim Campion, _Free duals and a new universal property for stable equivariant homotopy theory_ ([arXiv:2302.04207](https://arxiv.org/abs/2302.04207))
+* [[Tim Campion]], _Free duals and a new universal property for stable equivariant homotopy theory_ &lbrack;[arXiv:2302.04207](https://arxiv.org/abs/2302.04207)&rbrack;
 
 [[!redirects stable equivariant homotopy theory]]
