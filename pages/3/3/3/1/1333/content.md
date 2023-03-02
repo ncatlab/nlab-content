@@ -35,6 +35,9 @@ where $TV$ is the set (viewed a $2$-category) of [[truth values]], $Inh$ takes a
 ##Related concepts
 
 * [[codiscrete groupoid]]
+
+* [[category enriched in a bicategory]]
+
 [[!redirects indiscrete category]]
 [[!redirects indiscrete categories]]
 [[!redirects chaotic category]]
