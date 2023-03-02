@@ -563,9 +563,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 27 Feb 2023
+* {#KhaliqueFeb2023} 27 Feb 2023
 
-  [[Aeysha Khalique]] (National University of Science and Technology, Islamabad)
+  [[Aeysha Khalique]] (National University of Science and Technology, Islamabad):
+
+  **Computational Tasks through Non-Universal Quantum Computation**
+
+  video: [YT](https://www.youtube.com/watch?v=aWirOZe9AwM)
 
   > [[quantum mechanics|Quantum Mechanics]] offers phenomena which defy our everyday observation. These are not just theoretical principles but have wide range applications in [[quantum computation]] and [[quantum information]], making some tasks possible which are impossible to be done [[classical physics|classically]]. This talk will take you to the journey through quantum computation, starting from underlying principles to the applications, including my own own contribution to it.  
 
@@ -972,11 +976,13 @@ Stone-von Neumann**
 
 ### Mar 2023
 
-* 1 Mar 2023
+* {#MuellerMar2023} 1 Mar 2023
 
   [[Lukas Müller]]
 
   **Deformation quantization and categorical factorization homology**
+
+  video: [YT](https://www.youtube.com/watch?v=kC488wISPX4)
 
   cf. [arXiv:2107.12348](factorization+homology#KellerMüller23)
 
