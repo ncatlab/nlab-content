@@ -26,9 +26,11 @@ Due to the [[Meissner-Ochsenfeld effect]], a [[superconductor]] placed in a suff
 
 In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic flux]] enter the superconductor, carried by little _[[flux tubes]]_ inside _[[vortices]]_ of electric currents: _[[vortex strings]]_ (about a [[micron]] in diameter, e.g. [Chapman 00, p. 559](superconductivity#Chapman00)). Each vortex core carries one unit of magnetic flux -- also called a _fluxon_ --  while at some small finite distance away from all vortices, the bulk magnetic flux in the superconductor still vanishes (mathematically: it [[vanishes at infinity]]):
 
+\[\label{VortexStructure}\]
+
 \begin{imagefromfile}
-    "file_name": "SuperconductorVortexStructure.jpg",
-    "width": 570,
+    "file_name": "SuperconductorVortexStructure-230303.jpg",
+    "width": 650,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -36,7 +38,7 @@ In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic fl
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Loudon-Midgley 09](superconductivity#LoudonMidgley09)"
+    "caption": "adapted from [Loudon & Midgley 2009](superconductivity#LoudonMidgley09)"
 \end{imagefromfile}
 
 At sufficiently large density these vortices form hexagonal patterns, first described by  [Abrikosov 57](superconductivity#Abrikosov57), whence also known as _Abrikosov vortices_.
