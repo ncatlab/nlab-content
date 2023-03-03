@@ -16,7 +16,7 @@ Unlike [[lens (in computer science)|lenses]], in general optics do not require a
 Let $(\mathbf M, I, \otimes)$ be a symmetric monoidal category. Let $\mathbf C$ and $\mathbf D$ be $\mathbf M$-[[actegories]], i.e. there are pseudoactions $\bullet$ and $\ast$ of $\mathbf M$ acts on $\mathbf C$ and $\mathbf D$, respectively.
 
 \begin{definition}
-The category of optics $(\mathbf C, \mathbf D)$-mixed optics $\mathrm{Optic}_{\bullet, \ast}(\mathbf C, \mathbf D)$ has objects given by pairs $(X : \mathbf C,Y : \mathbf D)$ and hom-sets given by
+The category of $(\mathbf C, \mathbf D)$-mixed optics $\mathrm{Optic}_{\bullet, \ast}(\mathbf C, \mathbf D)$ has objects given by pairs $(X : \mathbf C,Y : \mathbf D)$ and hom-sets given by
 $$
   \mathrm{Optic}_{\bullet, \ast}(\mathbf C, \mathbf D)((S,T),(A,B)) = \int^{M : \mathbf M} \mathbf C(S, M \bullet A) \times \mathbf D(M \ast B, T)
 $$
@@ -38,7 +38,7 @@ One says optics are defined _up to sliding_ along the residual, a terminology su
 ## Profunctor representation
 
 Let $(\mathbf M, I, \otimes)$ be a monoidal V-category with two monoidal actions $(\bullet) \colon \mathbf{M} \otimes \mathbf{C} \to \mathbf{C}$ and $(\ast) \colon \mathbf{M} \otimes \mathbf{D} \to \mathbf{D}$. 
-A generalized **Tambara module** is of a V-profunctor $P \colon \mathbf{C}^{op} \otimes \mathbf{D} \to \mathbf{V}$ endowed with a family of morphisms
+A generalized **Tambara module** is a V-profunctor $P \colon \mathbf{C}^{op} \otimes \mathbf{D} \to \mathbf{V}$ endowed with a family of morphisms
   \[t_{M,A,B} \colon P(A,B) \to P(M \bullet A, M \ast B)\]
 V-natural in $A \in \mathbf{C}$ and $B \in \mathbf{D}$ and V-dinatural in $M \in \mathbf{M}$, which additionally satisfies some axioms, see [PS07](#PS07).
 
