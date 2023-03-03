@@ -90,7 +90,7 @@ First [[experiment|experimental]] detection of flux quantization in superconduct
 
 More on the experimental detection magnetic flux quantization and vortices:
 
-* {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, _Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope_, Ultramicroscopy 109: 700-729, 2009 ([arXiv:0807.2401](https://arxiv.org/abs/0807.2401))
+* {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, *Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope*, Ultramicroscopy **109** 6 (2009) 700-729 &lbrack;[arXiv:0807.2401](https://arxiv.org/abs/0807.2401), [doi:10.1016/j.ultramic.2009.01.008](https://doi.org/10.1016/j.ultramic.2009.01.008)&rbrack;
 
 More theoretically flavored discussion of the flux quantization mechanism:
 
