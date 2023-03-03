@@ -387,7 +387,7 @@ This and much more history is recalled in
 
 * [[Tom Leinster]], _[Basic Category Theory](http://www.maths.ed.ac.uk/~tl/bct/)_, 2014
 
-* [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
+* {#RiehlCTInContext} [[Emily Riehl]], _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
 
 * [[Martin Brandenburg]], *Einführung in die Kategorientheorie*, Springer 2017 
 
