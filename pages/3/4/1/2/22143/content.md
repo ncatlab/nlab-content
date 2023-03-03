@@ -53,7 +53,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 
 
-[[type theory|Typed]] [[functional programming languages]] for [[quantum computation]]:
+[[type theory|Typed]]$\;$[[functional programming languages]] for [[quantum computation]]:
 
 
 **[[QPL]]:**
