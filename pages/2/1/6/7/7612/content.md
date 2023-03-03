@@ -22,7 +22,7 @@ Certifications often take the form of a [[proof]] that a program, regarded as a 
 
 It is also possible to write a program in some less strongly typed language and provide an "external" certification for it, rather than one built into the program itself.  Computer proof assistants like [[Coq]] and [[Agda]] are also used for this, using a formal representation of some other programming language.  There are also other program analysis tools which can produce automated proofs of certain aspects of a computer program, such as safety and termination (although of course a *complete* solution to termination-checking is impossible, being the [[halting problem]]).
 
-### Via homotopy type theor
+### Via homotopy type theory
 
 From [Ghani et al. 15](#GhaniEtAl15):
 
@@ -108,6 +108,10 @@ Program verification via [[Hoare calculus]]:
 
 * {#Hoare69} [[C. A. R. Hoare]], *An axiomatic basis for computer programming*, Communications of the ACM **12** 10 (1969) 576–580 &lbrack;[doi:10.1145/363235.363259](https://doi.org/10.1145/363235.363259)&rbrack;
 
+For [[quantum programming languages]]:
+
+* [Wu (2019)](#Wu2019)
+
 
 ### Via (dependent) type theory
  {#ViaDependentTypeTheoryReferences}
@@ -191,29 +195,61 @@ Explicitly using [[type equivalences]]:
 ### For quantum programming languages
  {#ReferencesForQuantumProgrammingLanguages}
 
+
+First, on the problem of debugging quantum programs, as maybe first highlighted by [Rand (2018)](#Rand18) and [Ying & Feng (2018)](#YingFeng18):
+
+
+* Andriy Miranskyy, Lei Zhang, Javad Doliskani, *Is Your Quantum Program Bug-Free?*, in *ICSE-NIER '20: Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: New Ideas and Emerging Results* (2020) 29–32 &lbrack;[arXiv:2001.10870](https://arxiv.org/abs/2001.10870), [doi:10.1145/3377816.3381731](https://doi.org/10.1145/3377816.3381731)&rbrack;
+
+  > "The classical parts of a quantum program can be debugged using traditional methods. The quantum parts, however, can not be treated in the same way because of the properties of a QC -- such as superposition, entanglement, and no-cloning -- which are governed by the laws of quantum mechanics. The purpose of debugging a program is to present the user with human readable, i.e., classical, information about the runtime state of the system. Extracting classical information from a quantum state is done using measurement which is usually a non-unitary operation and results in collapse of the state, and hence an unintended behavior of the program."
+
+
 On formal verification of [[quantum computing]] with/of [[quantum programming languages]]:
 
 general:
+
+* {#YingFeng18} [[Mingsheng Ying]], [[Yuan Feng]], *Model Checking Quantum Systems --- A Survey* &lbrack;[arXiv:1807.09466](https://arxiv.org/abs/1807.09466)&rbrack;
+
+  > "But to check whether a quantum system satisfies a certain property at a time point, one has to perform a quantum-measurement on the system, which can change the state of the system. This makes studies of the long-term behaviours of quantum systems much harder than that of classical system."
+
+  > "The state spaces of the classical systems that model-checking algorithms can be applied to are usually finite or countably infinite. However, the state spaces of quantum systems are inherently continuous even when they are finite-dimensional. In order to develop algorithms for model-checking quantum systems, we have to exploit some deep mathematical properties of the systems so that it suffices to examine only a finite number of (or at most countably infinitely many) representative elements, e.g. those in an orthonormal basis, of their state spaces."
+
+> (repeated in [Ying & Feng (2021, Sec. 1.3)](#YingFeng21))
+
+* Ji Guan, [[Yuan Feng]], Andrea Turrini, [[Mingsheng Ying]], *Model Checking Applied to Quantum Physics* &lbrack;[arXiv:1902.03218](https://arxiv.org/abs/1902.03218)&rbrack;
+
+* {#YingFeng21} [[Mingsheng Ying]], [[Yuan Feng]], *Model Checking Quantum Systems -- Principles and Algorithms*, Cambridge University Press (2021) &lbrack;[ISBN:9781108484305](https://www.cambridge.org/ae/academic/subjects/computer-science/programming-languages-and-applied-logic/model-checking-quantum-systems-principles-and-algorithms?format=HB)&rbrack;
 
 * Marco Lewis, Sadegh Soudjani, Paolo Zuliani, *Formal Verification of Quantum Programs: Theory, Tools and Challenges* &lbrack;[arXiv:2110.01320](https://arxiv.org/abs/2110.01320)&rbrack;
 
   > "Verifying programs is especially important in the quantum setting due to how difficult it is to program complex algorithms correctly on resource-constrained and error-prone quantum hardware."
 
+* Carmelo R. Cartiere, *Formal Methods for Quantum Software Engineering*, in: *Quantum Software Engineering*, Springer (2022) &lbrack;[doi:10.1007/978-3-031-05324-5_5](https://doi.org/10.1007/978-3-031-05324-5_5)&rbrack;
+
+  > "The characteristic difficulty in creating pure quantum software is mainly due to the inaccessibility to intermediate states, which makes debugging practically impossible. However, the use of formal methods, which apply rigorous mathematical models to ensure error-free software, can overcome this barrier and enable the production of reliable quantum algorithms and applications right out of the box."
+
+
 with [[QML]]:
 
 * [[Alexander Green]], *Towards a formally verified functional quantum programming language* (2010) &lbrack;[eprints:11457](http://eprints.nottingham.ac.uk/11457)&rbrack;
 
+with [[QPMC]]:
 
-with [[Quipper]]:
+* [[Yuan Feng]], Ernst Moritz Hahn, Andrea Turrini, Lijun Zhang, *`QPMC`: A Model Checker for Quantum Programs and Protocols*, in *Formal Methods. FM 2015*, Lecture Notes in Computer Science **9109**, Springer (2015)  &lbrack;[doi:10.1007/978-3-319-19249-9_17](https://doi.org/10.1007/978-3-319-19249-9_17)&rbrack;
 
-* Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds) Reversible Computation. RC 2016. Lecture Notes in Computer Science, vol 9720. Springer, Cham ([doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16))
+  > "In practice, however, security analysis of [[quantum cryptography|quantum cryptographic]] protocols is notoriously difficult; for example, the manual proof of BB84 in &lbrack;15&rbrack; contains about 50 pages. It is hard to imagine such an analysis being carried out for more sophisticated quantum protocols. Thus, techniques for automated or semi-automated verification of these protocols will be indispensable."
+
+
+for [[Quipper]] with [[QPMC]]:
+
+* Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds.) *Reversible Computation. RC 2016*, Lecture Notes in Computer Science **9720** Springer (2016) &lbrack;[arXiv:1708.06312](https://arxiv.org/abs/1708.06312), [doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16)&rbrack;
 
 
 with [[QWIRE]] (in [[Coq]]):
 
 * [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
 
-* [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
+* {#Rand18} [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
 
   > emphasis on [[formal software verification]]:
 
@@ -244,7 +280,7 @@ See also:
   > (via [[Coq]])
 
 
-* Wenjun Shi, Qinxiang Cao, Yuxin Deng, Hanru Jiang, Yuan Feng, *Symbolic Reasoning about Quantum Circuits in Coq*, Journal of Computer Science and Technology (JCST), **36** 6 (2021) 1291-1306 $[$[arXiv:2005.11023](https://arxiv.org/abs/2005.11023), [doi:10.1007/s11390-021-1637-9](https://doi.org/10.1007/s11390-021-1637-9)$]$
+* Wenjun Shi, Qinxiang Cao, Yuxin Deng, Hanru Jiang, [[Yuan Feng]], *Symbolic Reasoning about Quantum Circuits in Coq*, Journal of Computer Science and Technology (JCST), **36** 6 (2021) 1291-1306 $[$[arXiv:2005.11023](https://arxiv.org/abs/2005.11023), [doi:10.1007/s11390-021-1637-9](https://doi.org/10.1007/s11390-021-1637-9)$]$
 
 * [[Mingsheng Ying]], *Model Checking for Verification of Quantum Circuits*, in: *Formal Methods. FM 2021*, Lecture Notes in Computer Science **13047**, Springer (2021) $[$[arXiv:2104.11359](https://arxiv.org/abs/2104.11359), [doi:10.1007/978-3-030-90870-6_2](https://doi.org/10.1007/978-3-030-90870-6_2)$]$
 
@@ -253,6 +289,10 @@ See also:
 * Li Zhou, Gilles Barthe, Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)&rbrack;
 
   > (in [[Coq]])
+
+Via [[Hoare logic]]:
+
+* {#Wu2019} Xiaodi Wu, *Toward Automatic Verification of Quantum Programs* (2019) &lbrack;[pdf](https://www.cs.umd.edu/class/fall2019/cmsc657/note/qhoare.pdf)&rbrack;
 
 
 ### Hardware verification
