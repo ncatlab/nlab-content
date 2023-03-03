@@ -272,7 +272,22 @@ where
 
 * $\Sigma_C$ the denotes the interpretation of the [[dependent sum]], i.e. the left [[base change]] given by the  [[forgetful functor]] from $\mathcal{C}_{/C}$ to $\mathcal{C}$.  
 
-Such a composite is called a _[[polynomial endofunctor]]_.  
+Equivalently, it is the composite
+
+$$
+  \mathcal{C}
+    \overset{C^*}{\longrightarrow}
+  \mathcal{C}_{/C}
+    \overset{\bigcirc_f}{\longrightarrow}
+  \mathcal{C}_{/C}
+    \overset{\Sigma_C}{\longrightarrow}
+  \mathcal{C}
+  \,,
+$$
+
+where $\bigcirc_f$ is the [[reader monad]] $\Pi_f \circ f^*$. In other words, the dependent product is not actually dependent.
+
+Such a composite is called a _[[polynomial endofunctor]]_. Explicitly, it is the functor $X \mapsto \sum_{c : C} X^{A_c}$.
 
 This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.  (A non-elementary construction of them is given by the [[transfinite construction of free algebras]].)
 
