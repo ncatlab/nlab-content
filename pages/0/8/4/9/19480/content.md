@@ -1815,7 +1815,7 @@ $$
   \,.
 $$
 
-Hence the [[adjunction unit]] of $Disc \dashv U$ and the [[adjunction counit]] of $U \dashv coDisc$ exhibit every [[topological space|topology]] on a given set as "in between the opposite extremes" (eq:OppositeExtremesAdjointTriple) of the discrete and the co-discrete
+Hence the [[adjunction counit]] of $Disc \dashv U$ and the [[adjunction unit]] of $U \dashv coDisc$ exhibit every [[topological space|topology]] on a given set as "in between the opposite extremes" (eq:OppositeExtremesAdjointTriple) of the discrete and the co-discrete
 
 $$
   Disc(U(X))
