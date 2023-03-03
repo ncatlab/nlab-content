@@ -25,7 +25,7 @@
 
 ## Idea
 
-In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$, given any [[object]]/[[type]] $W$ there is a [[monad]]
+In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$, given any [[object]]/[[type]] $B$ there is a [[monad]]
 
 $$
   Maps(B,-) \colon \mathcal{C} \to \mathcal{C}
