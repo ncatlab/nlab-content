@@ -81,6 +81,8 @@ For functoriality of [[sheaves]], see
 * [[direct image]]
 * [[inverse image]]
 
+The pseudofunctor PSh (with $-_!$ as its action on morphisms) takes a category to its [[free cocompletion]]. As such, it has the structure of a weak [[2-monad]], and more specifically it is a prototypical example of a [[lax-idempotent 2-monad]]. It factors over its Eilenberg-Moore 2-category, the 2-category of ([[total category|total]]? [[cocomplete]]?) categories, as a [[lax-idempotent 2-adjunction]].
+
 ## References
 
 * [[SGA 4]], Exp. I, no. 5.
