@@ -4,7 +4,7 @@
 
 The observation that a natural language for [[quantum information theory]] and [[quantum computation]], specifically for [[quantum circuit diagrams]], is that of [[string diagrams]] in [[†-compact categories]] (see *[[quantum information theory via dagger-compact categories]]*):
 
-* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) $[$[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)$]$
+* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) $[$[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)$]$
 
 * {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], *Categorical quantum mechanics*, in *[[Handbook of Quantum Logic and Quantum Structures]]*, Elsevier (2008) $[$[arXiv:0808.1023](http://arxiv.org/abs/0808.1023), [ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698/), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)$]$ 
 
