@@ -22,6 +22,10 @@ The original example are the magnetic flux tubes through the [[Abrikosov vortice
 
 More generally, such string-shaped vortices are considered in [[Yang-Mills theories]] with [[non-abelian group|non-abelian]] [[gauge group]] (see e.g. [Tong 09](#Tong09)).
 
+## Details
+
+[[!include flux quantization in superconductors -- section]]
+
 ## Related cocepts
 
 * [[Abrikosov vortex]]
