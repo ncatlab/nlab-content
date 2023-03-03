@@ -294,7 +294,7 @@ This definition makes sense in any [[locally cartesian closed category]], althou
 The above definition is most useful when the category $\mathcal{C}$ is not just 
 [[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $C$.  For example, a [[natural numbers object]] (Exp. \ref{NaturalNumbersAsWType}) is a $\mathcal{W}$-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a $\mathcal{W}$-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomials]] in the traditional sense:
 $$ F(Y) = A_n \times Y^{\times n}  + \dots + A_1 \times Y  + A_0 $$
-can be constructed as polynomial endofunctors in the above sense in any $\Pi$-pretopos.  A $\Pi$-pretopos in which all W-types exist is called a **[[ΠW-pretopos]]**.
+can be constructed as polynomial endofunctors in the above sense in any pretopos.  A $\Pi$-pretopos in which all W-types exist is called a **[[ΠW-pretopos]]**.
 
 In a [[topos]] with a [[natural numbers object]] (NNO), W-types for any polynomial endofunctor can be constructed as certain sets of well-founded trees; thus every topos with a NNO is a [[ΠW-pretopos]].  This applies in particular in the topos [[Set]] (unless one is a [[predicative mathematics|predicativist]], in which case $Set$ is not a topos and W-types in it must be postulated explicitly).
 
