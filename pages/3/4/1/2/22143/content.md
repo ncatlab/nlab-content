@@ -139,11 +139,11 @@ specifically with [[Quipper]]:
 
 See also [QS](https://ncatlab.org/schreiber/show/QS).
 
-On quantum [[software verification]]:
+On quantum **software engineering**:
 
-with [[Quipper]]:
+* Manuel A. Serrano, Ricardo Pérez-Castillo, Mario Piattini, *Quantum Software Engineering*, Springer (2022) $[$[doi:10.1007/978-3-031-05324-5](https://doi.org/10.1007/978-3-031-05324-5)$]$
 
-* Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds) Reversible Computation. RC 2016. Lecture Notes in Computer Science, vol 9720. Springer, Cham ([doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16))
+On **[[software verification]]**:
 
 with [[QWIRE]]:
 
@@ -151,6 +151,10 @@ with [[QWIRE]]:
 
 * [[Robert Rand]], [[Jennifer Paykin]], Dong-Ho Lee, [[Steve Zdancewic]], *ReQWIRE: Reasoning about Reversible Quantum Circuits*, EPTCS **287** (2019) 299-312 $[$[arXiv:1901.10118](https://arxiv.org/abs/1901.10118), [doi:10.4204/EPTCS.287.17](https://doi.org/10.4204/EPTCS.287.17)$]$
 
+
+for [[Quipper]] with [[QPMC]]:
+
+* Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds.) *Reversible Computation. RC 2016*, Lecture Notes in Computer Science **9720** Springer (2016) $[$[arXiv:1708.06312](https://arxiv.org/abs/1708.06312), [doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16)$]$
 
 with [[CoqQ]]: [Ying et al. (2022)](#YingEtAl22)
 
