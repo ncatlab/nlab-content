@@ -55,9 +55,11 @@ Lecture notes include
 
 See also
 
-* [[Jean-Louis Loday]], C. Procesi, _Cyclic homology and lambda-operations_, In: [[Frederick Jardine]] , [[Victor Snaith]] (eds.) _Algebraic K-Theory: Connections with Geometry and Topology_ NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 279. Springer, Dordrecht ([pdf](https://link.springer.com/content/pdf/10.1007/978-94-009-2399-7_9.pdf))
+* [[Jean-Louis Loday]], [[Claudio Procesi]], _Cyclic homology and lambda-operations_, In: [[Frederick Jardine]] , [[Victor Snaith]] (eds.) _Algebraic K-Theory: Connections with Geometry and Topology_ NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 279. Springer, Dordrecht ([pdf](https://link.springer.com/content/pdf/10.1007/978-94-009-2399-7_9.pdf))
 
-* Atabey Kaygun, _Loday--Quillen--Tsygan Theorem for Coalgebras
-Atabey Kaygun_ ([arXiv:math/0411661](https://arxiv.org/abs/math/0411661))
+Some extensions:
+
+* Atabey Kaygun, _Loday--Quillen--Tsygan Theorem for coalgebras_ ([arXiv:math/0411661](https://arxiv.org/abs/math/0411661))
+* [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _[[large N limit|Large N]] phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 [arXiv:2108.12109](https://arxiv.org/abs/2108.12109)
 
 [[!redirects Quillen-Loday-Tsygan theorem]]
