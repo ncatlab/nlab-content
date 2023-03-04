@@ -45,7 +45,7 @@ Let $G:D\to C$ be a diagram with colimit $x$.  Let $D'$ denote the category $D$ 
 
 +-- {: .num_theorem #UniversalityAndDescent}
 ###### Theorem
-Suppose $C$ has all colimits of $D$-shaped diagrams.  Then the colimit $x$ of $G:D\to C$ is van Kampen if and only if the following condition holds: for any diagram $F':D'\to C$ and natural transformation $\alpha':F'\to G'$ whose restriction $\alpha:F\to G$ to $D\subset D'$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
+Suppose $C$ has all colimits of $D$-shaped diagrams.  Then the colimit $x$ of $G:D\to C$ is van Kampen if and only if the following condition holds: for any diagram $F':D'\to C$ and natural transformation $\alpha':F'\Rightarrow G'$ whose restriction $\alpha:F\Rightarrow G$ to $D\subset D'$ is [[equifibered natural transformation|equifibered]], the following are equivalent:
 
 1. $\alpha'$ is equifibered.
 1. $F'$ is a colimiting cocone.
