@@ -3399,7 +3399,7 @@ $$
      {\underset{\phantom{AAAA}}{\hookrightarrow}}
      {\overset{\pi_0}{\longleftarrow}}
      {\bot}
-  Grp
+  Grpd
 $$
 
 of the [[category of sets]] (Example \ref{CategoryOfSets}) into the [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of [[small groupoids|small]] [[groupoids]] (Example \ref{Groupoid}) where
