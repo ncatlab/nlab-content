@@ -99,4 +99,3 @@ and discussed in the [[Witten-Sakai-Sugimoto model]] on [[D4-D8 brane intersecti
 [[!redirects sigma-mesons]]
 
 
-category: people
