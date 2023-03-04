@@ -102,6 +102,10 @@ Textbook accounts:
 
 * [[Yakov Shnir]], *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
+On the [[phenomenology]] of magnetic monopoles:
+
+* [[Particle Data Group]], *Magnetic Monopoles*, Section 95 in: *The Review of Particle Physics* (2022) &lbrack;[pdf](https://pdg.lbl.gov/2022/reviews/rpp2022-rev-mag-monopole-searches.pdf)&rbrack;
+
 On [[Yang-Mills monopoles]]:
 
 * [[Paul Sutcliffe]], *BPS Monopoles*, Int. J. Mod. Phys. A12:4663-4706 (1997) ([arXiv:hep-th/9707009](https://arxiv.org/abs/hep-th/9707009))
