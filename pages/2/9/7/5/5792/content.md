@@ -21,6 +21,12 @@ On [[rational homotopy theory]] for possibly non-[[nilpotent spaces]] via [[deck
 
 * [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]], *Rational homotopy equivalences and singular chains*, Algebr. Geom. Topol. **21** (2021) 1535-1552 &lbrack;[arXiv:1906.03655](https://arxiv.org/abs/1906.03655). [doi:10.2140/agt.2021.21.1535](https://doi.org/10.2140/agt.2021.21.1535)&rbrack;
 
+On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
+
+* [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
+
+
+
 
 [[!redirects M. Zeinalian]]
 
