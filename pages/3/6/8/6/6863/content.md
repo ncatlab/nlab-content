@@ -98,6 +98,11 @@ On [[quantum gravity]]:
 
 * [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
 
+On [[Lars Brink]]:
+
+* [[Hermann Nicolai]]: *[Lars Brink 1943–2022](https://cerncourier.com/a/lars-brink-1943-2022/)*, CernCourier (1 Mar 2023): 
+
+
 ## Related $n$Lab pages
 
 * [[supergravity]], [[gauged supergravity]]
