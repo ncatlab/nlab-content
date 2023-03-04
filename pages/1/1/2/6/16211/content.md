@@ -2,6 +2,9 @@
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Lars_Brink)
 
+* [[Hermann Nicolai]]: *[Lars Brink 1943–2022](https://cerncourier.com/a/lars-brink-1943-2022/)*, CernCourier (1 Mar 2023): 
+
+
 ## Selected writings
 
 On [[spinning particles]] and their [[worldline]] [[supersymmetry]]:
