@@ -99,7 +99,7 @@ A different sort of impredicativity is to be found in some [[type theory|type th
 
 The philosophy behind this sort of impredicative definition is that any inhabitant of such a type must be defined "uniformly" enough that it uses no details about the type $\alpha$, and thus can equally well be applied to any $\alpha$.  For instance, consider the operation which assigns to every $\alpha$ the identity $id\colon \alpha\to\alpha$; this is defined in exactly the same way for every $\alpha$, and hence inhabits the type $\forall \alpha:Type, \alpha\to\alpha$.
 
-This sort of impredicativism can be shown to be incompatible with impredicative set-theoretic axioms such as power sets; see [this paper](http://www.cl.cam.ac.uk/~amp12/papers/nontpt/nontpt.ps.gz) of Andy Pitts.  Since such type theories generally do have function types, it follows that they cannot be classical.
+This sort of impredicativism can be shown to be incompatible with impredicative set-theoretic axioms such as power sets; see [this paper](https://www.cl.cam.ac.uk/~amp12/papers/nontpt/nontpt.pdf) of Andy Pitts.  Since such type theories generally do have function types, it follows that they cannot be classical.
 
 
 ## The category of sets
