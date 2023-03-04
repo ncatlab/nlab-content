@@ -397,6 +397,19 @@ This is an [[equivalence of categories]].
 
 ([KashiwaraSchapira 06, prop. 6.1.12](#KashiwaraSchapira06))
 
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[small category]] and let $\mathcal{I}$ be a finite category. Then the canonical functor
+
+$$Ind(\mathcal{C}^{\mathcal{I}}) \to Ind(\mathcal{C})^{\mathcal{I}}$$
+
+is an [[equivalence of categories]].
+
+=--
+
+([Makkai 88, Lemma 5.1](#Makkai88))
+
 
 ### The case that $\mathcal{C}$ already admits filtered colimits
 
@@ -555,6 +568,10 @@ They are discussed in relation to generalisations in
 See also the remarks at the beginning of section 5.3 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Some relevant results are contained in:
+
+* {#Makkai88} [[Michael Makkai]], *Strong conceptual completeness for first-order logic*, Annals of pure and applied logic 40.2 (1988): 167-215.
 
 [[!redirects ind-objects]]
 [[!redirects ind object]]
