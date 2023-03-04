@@ -2434,7 +2434,9 @@ such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors 
   \label{UniversalArrowFactorization}
   f
   \;=\;
-  \eta_c \circ R(\widetilde f)
+  R(\widetilde f)
+    \circ 
+  \eta_c 
   \phantom{AAAA}
   \array{
     && c
@@ -2458,7 +2460,7 @@ for a _unique_ morphism $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be
 
 Let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]] (Def. \ref{Functors}). Then the following are equivalent:
 
-1. $R$ has a [[left adjoint]] functor $L \colon \mathcal{C} \to \mathcal{D}$ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets},
+1. $R$ has a [[left adjoint]] functor $L \colon \mathcal{C} \to \mathcal{D}$ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}.
 
 
 1. For every [[object]] $c \in \mathcal{C}$ there is a [[universal morphism]] $c \overset{\eta_c}{\longrightarrow} R(L(c))$, according to Def. \ref{UniversalArrow}.
