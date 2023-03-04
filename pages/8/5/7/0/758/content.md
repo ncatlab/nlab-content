@@ -26,6 +26,7 @@ Two important [[periodic table]]s are the table of $k$-[[k-tuply monoidal n-cate
 ## Definition
 
 A __$k$-tuply monoidal $(n,r)$-category__ is a [[pointed object|pointed]] $\infty$-[[infinity-category|category]] (which you may interpret as weakly or strictly as you like) such that:
+
 * any two parallel $j$-morphisms are equivalent, for $j \lt k$;
 * any $j$-morphism is an equivalence, for $j \gt r + k$;
 * any two parallel $j$-morphisms are equivalent, for $j \gt n + k$.
