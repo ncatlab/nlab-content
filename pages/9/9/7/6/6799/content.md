@@ -61,4 +61,7 @@ Proposing [[ER = EPR]]:
 
   S: uhm
 
+* Kristiane Bernhard-Novotny: *[Lost in the landscape](https://cerncourier.com/a/lost-in-the-landscape/)*, interview with Susskind for CernCourier (3 Mar 2023)
+
+
 category: people
