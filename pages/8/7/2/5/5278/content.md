@@ -17,7 +17,12 @@ On [[differentiable stacks]]:
 
 On [[level set]] [[persistent homology]] and [[sheaf theory]]:
 
-* {#BerkoukGinotOudot19} [[Nicolas Berkouk]], [[Grégory Ginot]], [[Steve Oudot]], *Level-sets persistence and sheaf theory* $[$[arXiv:1907.09759](https://arxiv.org/abs/1907.09759), [talk](Center+for+Quantum+and+Topological+Systems#GinotAtHomotopicalPerspectivesOnTDAJune2022)$]$
+* {#BerkoukGinotOudot19} [[Nicolas Berkouk]], [[Grégory Ginot]], [[Steve Oudot]], *Level-sets persistence and sheaf theory* &lbrack[arXiv:1907.09759](https://arxiv.org/abs/1907.09759), [talk](Center+for+Quantum+and+Topological+Systems#GinotAtHomotopicalPerspectivesOnTDAJune2022)&rbrack;
+
+On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
+
+* [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
+
 
 
 category: people
