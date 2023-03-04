@@ -49,7 +49,7 @@ $$
   \array{
     F'(*) &\overset{\alpha'_*}{\to}& colim_D G
     \\
-    \downarrow^{\mathrlap{\id}} && \downarrow^{\mathrlap{\id}}
+    ^\id\downarrow && \downarrow^\id
     \\
     F'(*) &\underset{\alpha'_*}{\to} & colim_D G
   }
@@ -63,7 +63,7 @@ $$
 
 But if $\alpha'$ is [[equifibered natural transformation|equifibered]], we have $G(d) \times_{colim_D G} F'(*) \simeq F(d)$, hence we get the desired isomorphism $F'(*) \simeq colim_D F$.
 
-Conversely, given a pullback diagram as above, let $F' = f^* \circ G'$ and $\alpha' : F' \Rightarrow G'$ the natural transformation induced by the pullback projections, which is [[equifibered natural transformation|equifibered]] as a consequence of the [[pasting law for pullbacks]]. Then $f^* \circ G'$ is a colimiting cocone, which is to say that $f^*$ preserves $colim_D G$.
+Conversely, given a pullback diagram as above, let $F' = f^* \circ G'$ (viewing $G'$ as a functor $D \to C/Z$ and remembering that colimits in $C/Z$ are [[over category#ColimitInSliceAreReflectedByColimitsInPlainCategory|computed]] as colimits in $C$) and $\alpha' : F' \Rightarrow G'$ the natural transformation induced by the pullback projections, which is [[equifibered natural transformation|equifibered]] as a consequence of the [[pasting law for pullbacks]]. Then $f^* \circ G'$ is a colimiting cocone, which is to say that $f^*$ preserves $colim_D G$.
 
 ## Examples
 
