@@ -29,7 +29,7 @@ In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic fl
 \[\label{VortexStructure}\]
 
 \begin{imagefromfile}
-    "file_name": "SuperconductorVortexStructure-230303.jpg",
+    "file_name": "SuperconductorVortexStructure-230304.jpg",
     "width": 650,
     "unit": "px",
     "margin": {
@@ -38,10 +38,11 @@ In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic fl
         "right": 0, 
         "left": 10
     },
-    "caption": "adapted from [Loudon & Midgley 2009](superconductivity#LoudonMidgley09)"
+    "caption": "adapted from [Loudon and Midgley 2009](superconductivity#LoudonMidgley09)"
 \end{imagefromfile}
 
-At sufficiently large density these vortices form hexagonal patterns, first described by  [Abrikosov 57](superconductivity#Abrikosov57), whence also known as _Abrikosov vortices_.
+
+At sufficiently large density these vortices arrange into hexagonal patterns, first described by  [Abrikosov 57](superconductivity#Abrikosov57), whence also known as _Abrikosov vortices_.
 
 This flux quantization in type II superconductors is traditionally explained via the [[effective field theory]] provided by the [[Landau-Ginzburg model]]; the derivation may be found reviewed in [Chapman 00 (Section 2, culminating in (2.33))](superconductivity#Chapman00). 
 
