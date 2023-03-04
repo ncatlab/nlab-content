@@ -61,5 +61,12 @@ Some extensions:
 
 * Atabey Kaygun, _Loday--Quillen--Tsygan Theorem for coalgebras_ ([arXiv:math/0411661](https://arxiv.org/abs/math/0411661))
 * [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _[[large N limit|Large N]] phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 [arXiv:2108.12109](https://arxiv.org/abs/2108.12109)
+* Lukas Miaskiwskyi, _Continuous cohomology of gauge algebras and bornological Loday-Quillen-Tsygan theorems_, [arXiv:2206.08879](https://arxiv.org/abs/2206.08879)
+* Masoud Khalkhali, _Homology of $L_{\infty}$-algebras and cyclic homology_, [arXiv:9805052](https://arxiv.org/abs/math/9805052)
+* Benjamin Hennion, _The tangent complex of K-theory_, 
+Journal de l’École polytechnique — Mathématiques __8__ (2021) 895--932.
+ 
+
+
 
 [[!redirects Quillen-Loday-Tsygan theorem]]
