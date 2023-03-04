@@ -144,7 +144,11 @@ Further discussion:
 
 * Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
 
-* Grégory Ginot, Owen Gwilliam, Alastair Hamilton, Mahmoud Zeinalian, _Large N phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631
+On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
+
+* [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
+
+
 
 On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
 
