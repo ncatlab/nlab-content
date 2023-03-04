@@ -30,3 +30,5 @@ On [[quotient types]], [[inductive types]] and [[inductive-inductive types]]:
 [[!redirects A. M. Pitts]]
 [[!redirects Andy Pitts]]
 [[!redirects A. Pitts]]
+
+category: people
