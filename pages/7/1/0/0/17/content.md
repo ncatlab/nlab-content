@@ -124,23 +124,58 @@ The following naming conventions for new entries are not set in stone, but we\'r
 ### How to merge pages
 {#merging}
 
-Suppose we have two pages, named 'A' and 'B', and you decide that they ought to be merged into a single page, say 'A'.  Of course, you need to edit 'A' to contain the material from 'B' and make a coherent whole, but there are also some technical aspects.  We do *not* want to simply delete 'B', since it contains the history of the edits to that page, which might turn out to be useful.  However, we *do* want these two things:
+It happens at times that you may wish the material in existing pages `A` and `B`, would be merged into a single page. (This occurs notably after any user accidentally created a new page unaware that another page on the topic was already in existence.) 
 
-1.  links to 'B' ought to send the reader to 'A';
-2.  the old page 'B' should be clearly marked as archive material.
+In most cases it will be best to raise the issue on the [nForum](https://nforum.ncatlab.org/), check if regulars agree that the pages ought to be merged, and hope that one of them takes care of it.
 
-We accomplish (1) with a [[redirect]]; we accomplish (2) with a [[page move]].  If you do this too carelessly, then it will not work; in the worst case, links to 'B' will still go to the archive page, and that will look to the casual reader like a regular page.  So follow these steps:
+If you do decide to merge on your own, here are instructions.
 
-1.  Edit 'A' so that it looks how you want, and add the line '[[!redirects B]]' to the bottom.  Submit.
-2.  Open 'B' for editing.
-3.  Click the checkbox 'Change page name.', which will bring up a new field 'New name:'.
-4.  In that field, add ' > history' to the end, so that 'B' becomes 'B > history'.
-5.  Click in the big edit box, which will automatically add '[[!redirects B]]' to the top.
-6.  Change the line '[[!redirects B]]' into '< [[B]]' instead.
-7.  Delete everything else (consisting of the material that you already merged into 'A').
-8.  Submit.
+> The basic idea is evident: Merge the content, delete one of the entries and make its previous name redirect to the remaining page. But the redirecting takes some care; and a complication is that $n$Lab pages cannot be deleted (not by regular users, anyway) but only "orphaned". 
 
-The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').  But if they\'re really at 'B > history' on purpose to check the edit history, then that history is there for them. 
+Suppose that `A` is the name of the page to be kept and and that `B` is the name of the one to be deleted. Then:
+
+1. Edit `A` 
+
+   1. so that it looks like the intended merged entry.
+
+   1. Add the line "<nowiki>[[!redirects B]]</nowiki>" to the bottom.
+
+      And in case the page `B` itself has <nowiki>[[!redirects X]]</nowiki>-lines in its source, copy them all over to `A`.
+
+   1. Submit.
+
+1. Edit `B`
+
+   1. by first clearing its content (e.g. with a keystroke such as `Ctrl-A` `Del`).
+
+   1. Click the checkbox 'Change page name.', which will bring up a new field 'New name:'.
+
+   1.  In that field, append "`> history`" to the string "`B`", so that the new page name becomes "`B > history`".
+
+       > (The idea is to change to any name that is neither coincides with an existing nor with a future entry.)
+
+       Do *not* submit the edit *yet*.
+
+   1. Before finishing we need to work around what Instiki thinks is intended behaviour:
+
+      1. Click in the big edit box -- this will automatically add the line "<nowiki>[[!redirects B]]</nowiki>".
+
+         > (Instiki is trying to be helpful, not knowing that we want to delete the entry for good.)
+
+      1. Delete that line (to ensure that all requests for `B` will now take the reader to `A`)
+
+      1. and instead add "`see` <nowiki>[[A]]</nowiki>". 
+
+         > (This just in case anyone ever comes across this page in the future -- which should not actually happen, due to the <nowiki>[[!redirects B]]</nowiki>-command meanwhile added to `A`.)
+
+   1. Finally ready to submit this quasi-deletion of `B`. 
+
+      But since the page's name was changed in the process, the software will require announcing this edit in the box below the edit box. So enter there something like:
+
+      "`As we discussed, I am orphaning this page and have merged its previous content into page "A".`"
+
+   1. Submit.
+
 
 
 ### How to remove a page 
