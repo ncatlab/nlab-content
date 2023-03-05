@@ -1,13 +1,14 @@
 **Hans Freudenthal** (17 September 1905 &#8211; 13 October 1990) was a Dutch mathematician, who worked in [[algebraic topology]] and also created an influential direction in [[mathematics education]]. 
 
 ## As a forerunner of category theory
+ {#AsAForerunnerOfCategoryTheory}
 
-His influence proved decisive for the invention of _abstract nonsense_ in algebraic topology: His 1937 paper on "[Entwicklungen von Räumen und Gruppen](#Freudenthal37)" stresses the importance of a general abstract theory for the connection between topological and algebraic systems in the passage to direct limits in order to avoid giving the same proofs over and over again:
+Freudenthal's influence proved decisive for the recognition of [[general abstract]] structures in [[algebraic topology]]: His 1937 paper on "[Entwicklungen von Räumen und Gruppen](#Freudenthal37)" stresses the importance of a general abstract theory for the connection between topological and algebraic systems in the passage to [[direct limits]] in order to avoid giving the same [[proofs]] over and over again:
 
->Der Zusammenhang zwischen beiden ist kaum bemerkt und niemals systematisch untersucht worden. Kap. I -II dieser Arbeit bringen die allgemeine Theorie dieser Entwicklungen. Kap. VI soll zeigen, welche Bedeutung die Harmonie der Entwicklungen von Gruppen mit denen von Räumen für die Topologie hat; es soll die logische Struktur des Gedankengeflechtes freilegen, das zahlreichen topologischen Betrachtungen gemeinsam ist. In der Tat sind es immer wieder dieselben Wege, auf denen sich bei der Definition Bettischer Gruppen usw. der Übergang vom Kombinatorischen zum Mengentheoretischen vollzieht; es sind immer wieder dieselben Beweismethoden, mit denen man zu den einfachsten Sätzen über diese Gruppen gelangt.(...) Welchen Nutzen unter solchen Umständen eine einmal entwickelte allgemeine Theorie tragen kann, leuchtet wohl ein. Konkrete neue Einsichten vermitteln die Kap. I, II, VI allerdings kaum. Der Sinn von Kap. I-II ist mehr der einer logische Analyse, der von Kap. VI ist der des Durchexerzierens der Begriffe und Sätze
-aus Kap.1-II an einer großen Anzahl (immerhin ganz allgemeiner) Beispiele. (p.147)
+> &lbrack;[p. 147](http://www.numdam.org/item/CM_1937__4__145_0.pdf#page=4)&rbrack;: "Der Zusammenhang zwischen beiden ist kaum bemerkt und niemals systematisch untersucht worden. Kap. I-II dieser Arbeit bringen die allgemeine Theorie dieser Entwicklungen. Kap. VI soll zeigen, welche Bedeutung die Harmonie der Entwicklungen von Gruppen mit denen von Räumen für die Topologie hat; es soll die logische Struktur des Gedankengeflechtes freilegen, das zahlreichen topologischen Betrachtungen gemeinsam ist. In der Tat sind es immer wieder dieselben Wege, auf denen sich bei der Definition Bettischer Gruppen usw. der Übergang vom Kombinatorischen zum Mengentheoretischen vollzieht; es sind immer wieder dieselben Beweismethoden, mit denen man zu den einfachsten Sätzen über diese Gruppen gelangt.(...) Welchen Nutzen unter solchen Umständen eine einmal entwickelte allgemeine Theorie tragen kann, leuchtet wohl ein. Konkrete neue Einsichten vermitteln die Kap. I, II, VI allerdings kaum. Der Sinn von Kap. I-II ist mehr der einer logischen Analyse, der von Kap. VI ist der des Durchexerzierens der Begriffe und Sätze
+aus Kap. 1-II an einer großen Anzahl (immerhin ganz allgemeiner) Beispiele."
 
-The term "natural homomorphism" is introduced on p.196. This is provides the blueprint for the definition of a [[natural transformation]] in the seminal Eilenberg-MacLane 1945 paper "General theory of natural equivalences" that introduced category theory (cf. their discussion of "naturality" on p.236) and resonated Freudenthal's "allgemeine Theorie" in the title.
+The term "natural homomorphism" is introduced on [p. 196](http://www.numdam.org/item/CM_1937__4__145_0.pdf#page=53). This provides the blueprint for the definition of *[[natural transformations]]* in the seminal paper "General theory of natural equivalences" by [Eilenberg & MacLane (1945)](category+theory#EilenbergMacLane45) that introduced [[category theory]] (cf. their discussion of "naturality" on p .236) and resonated Freudenthal's "allgemeine Theorie" in the title.
 
 ## Selected writings
 
@@ -22,21 +23,21 @@ Introducing the [[Freudenthal suspension theorem]] (and the terminology "[[stem 
 
 On [[Lie groups]]:
 
-* {#Freudenthal65} Hans Freudenthal, _Lie groups in the foundations of geometry_, Advances in Mathematics __1__ (1965) 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+* {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics __1__ (1965) 145 - 190 &lbrack;[dspace](http://dspace.library.uu.nl/handle/1874/17442)&rbrack;
 
 On teaching mathematics:
 
-* Hans Freudenthal, _Why to teach mathematics so as to be useful_, 1968, [pdf](https://promathmedia.files.wordpress.com/2013/09/freudenthal-1968.pdf)
+* [[Hans Freudenthal]], _Why to teach mathematics so as to be useful_ (1968) &lbrack;[pdf](https://promathmedia.files.wordpress.com/2013/09/freudenthal-1968.pdf)&rbrack;
 
 On [[category theory]] _avant la lettre_:
 
-* {#Freudenthal37} Hans Freudenthal, _Entwicklungen von Räumen und ihren Gruppen_, Comp. Math. **4** (1937) pp.145-234. ([numdam](http://www.numdam.org/item/CM_1937__4__145_0/))
+* {#Freudenthal37} [[Hans Freudenthal]], _Entwicklungen von Räumen und ihren Gruppen_, Comp. Math. **4** (1937) 145-234. &lbrack;[numdam](http://www.numdam.org/item/CM_1937__4__145_0/)&rbrack;
 
 On _lingua cosmica_, a tongue for intercourse with martians:
 
-* Hans Freudenthal, _Lincos: Design of a Language for Cosmic Intercourse Part I_, Elsevier Amsterdam (1960).
+* [[Hans Freudenthal]], _Lincos: Design of a Language for Cosmic Intercourse Part I_, Elsevier Amsterdam (1960).
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Freudenthal suspension theorem]]
 
