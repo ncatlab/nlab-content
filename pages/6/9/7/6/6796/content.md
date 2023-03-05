@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,6 +33,23 @@ $$
 $$
 
 where $F_\nabla$ is the [[curvature]] $(n+1)$-form. 
+
+
+\[\label{FluxSchematics}\]
+\begin{imagefromfile}
+    "file_name": "MagneticFluxSchematics-HyperphysicsFigure.png",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Hyperphysics](#Hyperphysics)"
+\end{imagefromfile}
+
+
 
 ## Properties
 
@@ -56,6 +74,13 @@ If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrighta
   * [[flux quantization]]
 
   * [[flux compactification]]
+
+
+## References
+
+Online exposition 
+
+* {#Hyperphysics} Hyperphysics, *Magnetic Flux* &lbrack;[hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html)&rbrack;
 
 [[!redirects fluxes]]
 
