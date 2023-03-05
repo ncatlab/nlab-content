@@ -6,7 +6,7 @@
 ## Idea
 
 One can possibly enlarge the [[simplex category]] to a one of the several interesting categories in homological algebra like [[cycle category]] of Connes and the skeletal category of finite sets.
-Such examples can be founded axiomatically as kind of extensions of the simplex category by a group with special properties. The resulting notion is a __skew-simplicial group__ (synonym: crossed simplicial group): the presheaves on a skew-simplicial group are skew-simplicial sets of the corresponding kind. In addition to cyclic and symmetric simplicial sets other important applications are [[dihedral set|dihedral]] and [[quaternionic  set|quaternionic]] sets/homology (cf. Loday [MR89e:18024](http://www.ams.org/mathscinet-getitem?mr=89e:18024)). The formalism has been found by Krasauskas and a bit later and independently also by Fiedorowicz and Loday.
+Such examples can be founded axiomatically as kind of extensions of the simplex category by a group with special properties. The resulting notion is a __skew-simplicial group__ (synonym: crossed simplicial group): the presheaves on a skew-simplicial group are skew-simplicial sets of the corresponding kind. In addition to cyclic and symmetric simplicial sets other important applications are [[dihedral set|dihedral]], [[quaternionic  set|quaternionic]] and hyperoctahedral sets/homology (cf. Loday [MR89e:18024](http://www.ams.org/mathscinet-getitem?mr=89e:18024)). The formalism has been found by Krasauskas and a bit later and independently also by Fiedorowicz and Loday.
 
 ##Related Lab entries
 
@@ -24,6 +24,10 @@ Original references are
 
 * Z. Fiedorowicz, Jean-Louis Loday, _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855)
 * R. Krasauskas, _Skew-simplicial groups_ (Russian) Litovsk. Mat. Sb.  __27__ (1987),  no. 1, 89--99, [MR88m:18022](http://www.ams.org/mathscinet-getitem?mr=88m:18022) (English transl. [[krasauskas.pdf:file]])
+
+A connection to geometry of surfaces is sketched in
+
+* R. Krasauskas, _Crossed simplicial groups of framed braids and mapping class groups of surfaces_, Lith. Math. J. __36__, 263--281 (1996) [doi](https://doi.org/10.1007/BF02986853)
 
 A recent treatise on connection to geometry is
 
