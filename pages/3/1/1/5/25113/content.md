@@ -1,5 +1,3 @@
-[[!redirects Robert D. Tennet]]
-[[!redirects Robert D. Tennet]]
 
 * [institute page](https://www.cs.queensu.ca/people/Bob/Tennent)
 
@@ -18,4 +16,6 @@ category: people
 [[!redirects Robert Tennet]]
 [[!redirects Robert D. Tennet]]
 
+[[!redirects Robert D. Tennet]]
+[[!redirects Robert D. Tennet]]
 
