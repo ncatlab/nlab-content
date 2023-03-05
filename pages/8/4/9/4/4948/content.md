@@ -27,7 +27,11 @@ Original references are
 
 A recent treatise on connection to geometry is
 
-* Tobias Dyckerhoff, Mikhail Kapranov, _Crossed simplicial groups and structured surfaces_, [arxiv/1403.5799](http://arxiv.org/abs/1403.5799)
+* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Crossed simplicial groups and structured surfaces_, [arxiv/1403.5799](http://arxiv.org/abs/1403.5799) In: Stacks and Categories in Geometry, Topology, and Algebra. Contemporary Mathematics __643__, 37--110, Amer. Math. Soc. (2015) [doi](https://doi.org/10.1090/conm/643/12896)
+
+They also play a major role in
+
+* S. Balchin, _Homotopy of planar Lie group equivariant presheaves_, J. Homotopy Relat. Struct. 13, 555--580 (2018) [doi](https://doi.org/10.1007/s40062-017-0193-z)
 
 [[!redirects skew-simplicial set]]
 [[!redirects skew-simplicial sets]]
