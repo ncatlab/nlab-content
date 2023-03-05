@@ -26,29 +26,9 @@ In [[mathematics]], an *example* for a [[proposition]] with a [[universal quanti
 
 ## Related concepts
 
-* [[theory]]
+[[!include mathematical statements --- contents]]
 
-* [[axiom]]
 
-* [[definition]]
-
-* [[lemma]]
-
-* [[proposition]]
-
-* [[theorem]]
-
-* [[proof]]
-
-* [[counterexample]]
-
-* [[conjecture]]
-
-* [[folklore]]
-
-* [[analogy]]
-
-* [[paradox]]
 
 ## See also
 
