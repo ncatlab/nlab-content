@@ -37,29 +37,7 @@ In [[constructive mathematics]] one considers also "[[weak counterexamples]]". S
 
 ## Related concepts
 
-* [[theory]]
-
-* [[axiom]]
-
-* [[definition]]
-
-* [[lemma]]
-
-* [[proposition]]
-
-* [[theorem]]
-
-* [[proof]]
-
-* [[example]]
-
-* [[conjecture]]
-
-* [[folklore]]
-
-* [[analogy]]
-
-* [[paradox]]
+[[!include mathematical statements --- contents]]
 
 
 
