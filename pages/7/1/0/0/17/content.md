@@ -156,13 +156,13 @@ Suppose that `A` is the name of the page to be kept and and that `B` is the name
 
        Do *not* submit the edit *yet*.
 
-   1. Before finishing we need to work around what Instiki thinks is intended behaviour:
+   1. Before finishing we need to work around what the wiki software thinks is intended behaviour:
 
       1. Click in the big edit box -- this will automatically add the line "<nowiki>[[!redirects B]]</nowiki>".
 
-         > (Instiki is trying to be helpful, not knowing that we want to delete the entry for good.)
+         > (The wiki software is trying to be helpful, not knowing that we want to delete the entry for good.)
 
-      1. Delete that line (to ensure that all requests for `B` will now take the reader to `A`)
+      1. Delete that line (to ensure that all requests for `B` will now take the reader to `A`),
 
       1. and instead add "`see` <nowiki>[[A]]</nowiki>". 
 
