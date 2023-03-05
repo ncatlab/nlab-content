@@ -270,6 +270,8 @@ This eventually became the trademark of the practice of [[dependent type theory]
 
 * [[type theory]], [[dependent type theory]]
 
+[[!include mathematical statements --- contents]]
+
 
 ## References
  {#References}
