@@ -292,15 +292,19 @@ See [[category theory vs order theory]] for more discussion.
 \section{References}
  {#References}
 
+
 \subsection{History}
  {#History}
 
 The concepts of _[[category]]_, _[[functor]]_ and _[[natural transformation]]_ were introduced in
 
-* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/1990284))
-  
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], *General Theory of Natural Equivalences*,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
 
-The reason for introducing [[categories]] was to introduce [[functors]], and the reason for introducing functors was to introduce [[natural transformations]] (more specifically [[natural equivalences]]) in order to define what _natural_ means in mathematics:
+apparently (see [there](Hans+Freudenthal#AsAForerunnerOfCategoryTheory)) taking inspiration from:
+
+* {#Freudenthal37} [[Hans Freudenthal]], *Entwicklungen von Räumen und ihren Gruppen*, Comp. Math. **4** (1937) 145-234. &lbrack;[numdam](http://www.numdam.org/item/CM_1937__4__145_0/)&rbrack;  
+
+The rational for introducing the concept of [[categories]] was to introduce the concept of [[functors]], and the reason for introducing functors was to introduce the concept of [[natural transformations]] (more specifically [[natural equivalences]]) in order to make precise the meaning of "natural" means in mathematics:
 
 > If [[topology]] were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
 
