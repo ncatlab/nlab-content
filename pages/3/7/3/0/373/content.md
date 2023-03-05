@@ -263,6 +263,8 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
   
   [[localization of a 2-category]]
 
+  [[2-type theory]], [[directed type theory]]
+
 * [[3-category]]
 
 * [[n-category]]
