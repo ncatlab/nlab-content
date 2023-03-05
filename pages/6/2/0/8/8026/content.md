@@ -27,31 +27,7 @@ When a proposition is *called* an exercise, this means at least that the omissio
 
 ## Related concepts
 
-* [[theory]]
-
-* [[axiom]]
-
-* [[definition]]
-
-* [[lemma]]
-
-* [[proposition]]
-
-* [[theorem]]
-
-* [[proof]]
-
-* [[example]]
-
-* [[counterexample]]
-
-* [[conjecture]]
-
-* [[folklore]]
-
-* [[analogy]]
-
-* [[paradox]]
+[[!include mathematical statements --- contents]]
 
 
 
