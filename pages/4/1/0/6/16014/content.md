@@ -612,6 +612,8 @@ this is picked up and claimed to be refined to a [[dialectic]] system of [[unity
 
 * Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
 
+* [[David Corfield]], Chap. 4 of _[Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)_.
+
 * [[Jake Chandler]], _Modality: Necessity and Possibility_, lecture notes ([pdf](http://www.jakechandler.com/assets/2006MetaphysicsBBK/%5B6%5D%20%5BModality%5D.pdf))
 
 * {#BiermanPaiva92} Gavin Bierman and [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_, Studia Logica (65):383-416, 2000 (preprint from 1992) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.5279))
