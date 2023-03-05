@@ -44,33 +44,8 @@ Assuming the deductive system is [[soundness theorem|sound]], every sequent whic
 
 * [[axiom schema]]
 
-* [[definition]]
 
-  * [[inductive definition]]
-
-  * [[coinductive definition]]
-
-* [[theory]]
-
-* [[lemma]]
-
-* [[proposition]]/[[type]] ([[propositions as types]]) 
-
-* [[proof]]/[[program]] ([[proofs as programs]])
-
-* [[theorem]]
-
-* [[example]]
-
-* [[counterexample]]
-
-* [[folklore]]
-
-* [[conjecture]]
-
-* [[paradox]]
-
-* [[exercise]]
+[[!include mathematical statements --- contents]]
 
 
 
