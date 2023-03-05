@@ -78,7 +78,7 @@ Origin of domain theory in [[denotational semantics]] for [[programming language
 
 Introductions and lecture notes:
 
-* [[Robert D. Tennet]], *The denotational semantics of programming languages*, Communications of the ACM **19** 8 (1976) 437–453 &lbrack;[doi:10.1145/360303.360308](https://doi.org/10.1145/360303.360308), [pdf](https://dl.acm.org/doi/pdf/10.1145/360303.360308)&rbrack;
+* [[Robert D. Tennent]], *The denotational semantics of programming languages*, Communications of the ACM **19** 8 (1976) 437–453 &lbrack;[doi:10.1145/360303.360308](https://doi.org/10.1145/360303.360308), [pdf](https://dl.acm.org/doi/pdf/10.1145/360303.360308)&rbrack;
 
 * [[Andrew M. Pitts]], *Lecture Notes on Denotational Semantics* (2012) &lbrack;[pdf](https://www.cl.cam.ac.uk/teaching/1112/DenotSem/dens-notes-bw.pdf), [[Pitts-DenotationalSemantics.pdf:file]]&rbrack;
 
