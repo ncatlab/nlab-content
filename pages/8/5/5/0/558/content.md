@@ -20,7 +20,7 @@
 
 ## Idea 
 
-The _homotopy hypothesis_ is the assertion that
+The _homotopy hypothesis_ is the [[hypothesis]] or [[assertion]] that
 
 * [[∞-groupoids]] are [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of [[topological spaces]] at their [[weak homotopy equivalences]],
 
