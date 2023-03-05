@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include type theory - contents]]
 =--
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea
 
-As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].  There are, potentially, many different kinds of "2-type theory" with different uses and semantics.  2-type theory is closely related to (and sometimes the same as) [[directed type theory]].
+As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].  There are, potentially, many different kinds of "2-type theory" with different uses and semantics.  2-type theory is closely related to (and sometimes the same as) *[[directed type theory]]*.
 
 ## Applications
 
@@ -28,6 +32,8 @@ As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type th
 * [[type theory]], [[logic]]
 
 * **2-type theory**, [[2-logic]]
+
+  [[directed homotopy type theory]]
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
