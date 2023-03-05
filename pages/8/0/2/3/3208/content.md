@@ -221,31 +221,8 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 \linebreak
 
-* [[axiom]]
+[[!include mathematical statements --- contents]]
 
-* [[definition]]
-
-  * [[inductive definition]]
-
-  * [[coinductive definition]]
-
-* [[lemma]]
-
-* [[proposition]]/[[type]] ([[propositions as types]]) 
-
-* [[proof]]/[[program]] ([[proofs as programs]])
-
-* [[theorem]]
-
-* [[folklore]]
-
-* [[conjecture]]
-
-* [[analogy]]
-
-* [[paradox]]
-
-* [[exercise]]
 
 \linebreak
 
