@@ -44,6 +44,22 @@ In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic fl
 
 At sufficiently large density these vortices arrange into hexagonal patterns, first described by  [Abrikosov 57](superconductivity#Abrikosov57), whence also known as _Abrikosov vortices_.
 
+
+\[\label{HexagonalStructure}\]
+\begin{imagefromfile}
+    "file_name": "AbrikosovVorticesHorizontalSchematics.png",
+    "width": 250,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Yu 2012](#Yu2012)"
+\end{imagefromfile}
+
+
 This flux quantization in type II superconductors is traditionally explained via the [[effective field theory]] provided by the [[Landau-Ginzburg model]]; the derivation may be found reviewed in [Chapman 00 (Section 2, culminating in (2.33))](superconductivity#Chapman00). 
 
 But, as indicated a little more explicitly in [Alvarez-Gaumé 98 (Section IV.B, culminating below IV.11)](superconductivity#AlvarezGaume98), the flux quantization as such is mathematically a direct consequence of the global topological nature of the [[electromagnetic field]], the argument being the direct 2-dimensional analog of the quantization of [[instantons in QCD]] in 4d (see also at [SU(2)-Instantons -- From the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)) and in fact is but a slight variation of the argument for [[Dirac charge quantization]] of [[magnetic monopoles]]:
