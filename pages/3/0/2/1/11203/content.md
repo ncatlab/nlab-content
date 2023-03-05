@@ -78,6 +78,12 @@ Original articles:
 
 * {#Abrikosov57} [[Alexei Abrikosov]], _The magnetic properties of superconducting alloys_, Journal of Physics and Chemistry of Solids Volume 2, Issue 3, 1957, Pages 199-208 (<a href="https://doi.org/10.1016/0022-3697(57)90083-5">doi:10.1016/0022-3697(57)90083-5</a>)
 
+
+Lecture notes:
+
+* {#Yu2012} Xiongjie Yu, *Vortices in Type-II Superconductors*, essay for *[Emergent States of Matter](https://guava.physics.uiuc.edu/~nigel/courses/569/Essays_Fall2012/)*, Urbana-Champaign (2012) &lbrack;[pdf](https://guava.physics.uiuc.edu/~nigel/courses/569/Essays_Fall2012/Files/yu.pdf), [[Yu-VorticesInSuperconductors.pdf:file]]&rbrack;
+
+
 See also 
 
 * Wikipedia, _[Abrikosov vortex](https://en.wikipedia.org/wiki/Abrikosov_vortex)_
