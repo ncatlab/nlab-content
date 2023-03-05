@@ -36,37 +36,7 @@ The (popular) claim that some statement is "well-known" -- without, however, the
 
 * [[list of lost manuscripts in category theory]]
 
-* [[axiom]]
-
-* [[definition]]
-
-  * [[inductive definition]]
-
-  * [[coinductive definition]]
-
-* [[theory]]
-
-* [[lemma]]
-
-* [[proposition]]/[[type]] ([[propositions as types]]) 
-
-* [[proof]]/[[program]] ([[proofs as programs]])
-
-* [[theorem]]
-
-* [[example]]
-
-* [[counterexample]]
-
-* [[folklore]]
-
-* [[conjecture]]
-
-* [[analogy]]
-
-* [[paradox]]
-
-* [[exercise]]
+[[!include mathematical statements --- contents]]
 
 
 
