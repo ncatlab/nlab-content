@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -44,6 +45,10 @@ One candidate for full [[omega-categories]] i.e. [[(∞,∞)-categories]] is _[[
 * [[Emily Riehl]] and [[Mike Shulman]], _A type theory for synthetic ∞-categories_, Higher Structures, 2017, [arxiv](https://arxiv.org/abs/1705.07442)
 
 * [[Paige Randall North]], _Towards a directed homotopy type theory_, ([arXiv:1807.10566](https://arxiv.org/abs/1807.10566))
+
+* [[Denis-Charles Cisinski]], Hoang Kim Nguyen. Tashi Walde: *Univalent Directed Type Theory*, lecture series in the *[CMU Homotopy Type Theory Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (13, 20, 27 Mar 2023)
+
+  > **Abstract** We will introduce a version of dependent type theory that is suitable to develop a synthetic theory of 1‑categories. The axioms are both a fragment and an extension of ordinary dependent type theory. The axioms are chosen so that (∞,1)‑category theory (under the form of quasi-categories or complete Segal spaces) gives a semantic interpretation, in a way which extends Voevodsky's interpretation of univalent dependent type theory in the homotopy theory of Kan complexes. More generally, using a slight generalization of Shulman's methods, we should be able to see that the theory of (∞,1)‑categories internally in any ∞‑topos (as developed by Martini and Wolf) is a semantic interpretation as well (hence so is parametrized higher category theory introduced by Barwick, Dotto, Glasman, Nardin and Shah). There are of course strong links with ∞‑cosmoi of Riehl and Verity as well as with cubical Hott (as strongly suggested by the work of Licata and Weaver), or simplicial Hott (as in the work of Buchholtz and Weinberger). We will explain the axioms in detail and have a glimpse at basic theorems and constructions in this context (Yoneda Lemma, Kan extensions, Localizations). We will also discuss the perspective of reflexivity: since the theory speaks of itself (through directed univalence), we can use it to justify new deduction rules that express the idea of working up to equivalence natively (e.g. we can produce a logic by rectifying the idea of having a locally cartesian type). In particular, this logic can be used to produce and study semantic interpretations of Hott.
 
 [[!redirects directed homotopy type theories]]
 
