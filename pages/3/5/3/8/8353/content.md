@@ -98,41 +98,11 @@ Another way of typally defining a type $A$ to be a type $B$ is via *[[copying]]*
 
 * [[natural deduction]]
 
-* [[axiom]]
-
-* [[definition]]
-
-  * [[inductive definition]]
-
-  * [[coinductive definition]]
-
-* [[theory]]
-
-* [[lemma]]
-
-* [[proposition]]/[[type]] ([[propositions as types]]) 
-
-* [[proof]]/[[program]] ([[proofs as programs]])
-
-* [[theorem]]
-
-* [[example]]
-
-* [[counterexample]]
-
-* [[conjecture]]
-
-* [[folklore]]
-
-* [[analogy]]
-
-* [[paradox]]
-
-* [[exercise]]
-
-* [[definition]], [[assignment]], [[equality]]
-
 * [[copy]]
+
+
+[[!include mathematical statements --- contents]]
+
 
 ## References
 
