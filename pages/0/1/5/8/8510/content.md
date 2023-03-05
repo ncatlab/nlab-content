@@ -24,8 +24,9 @@ If there is more than one [[disjunction|disjunctively]] connected consequent, th
 
 [[antecedents]] $\vdash$ [[succedents]]
 
-[[antecedents]] $\vdash$ **consequent**
+[[hypothesis]] $\vdash$ **consequent**
 
+[[!include mathematical statements --- contents]]
 
 [[!redirects consequent]]
 [[!redirects consequents]]
