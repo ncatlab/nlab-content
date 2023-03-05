@@ -10,10 +10,15 @@ One sometimes distinguishes between assignment operators which allow reassignmen
 
 The assignment operator in purely [[functional programming]] languages like [[Haskell]] amd [[Agda]] is an example of a single assignment operator. As purely functional programming languages can be represented in [[type theory]], and every [[foundations of mathematics]] could also be represented in type theory, the assignment operators used in [[definitions]] in mathematics, such as $\coloneqq$, are single assignment operators; see [[definition]] for more details. 
 
-## See also
+## Related concepts
 
 * [[functional programming]]
-* [[definition]], [[assignment]], [[equality]]
+
+* [[equality]]
+
+[[!include mathematical statements --- contents]]
+
+
 
 ## References
 
