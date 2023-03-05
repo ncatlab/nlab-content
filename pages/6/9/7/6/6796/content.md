@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -37,8 +36,8 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
 
 \[\label{FluxSchematics}\]
 \begin{imagefromfile}
-    "file_name": "MagneticFluxSchematics-HyperphysicsFigure.png",
-    "width": 650,
+    "file_name": "MagneticFlux-230305.jpg",
+    "width": 800,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -46,7 +45,7 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
         "right": 0, 
         "left": 10
     },
-    "caption": "from [Hyperphysics](#Hyperphysics)"
+    "caption": "adapted from [Hyperphysics](#Hyperphysics)"
 \end{imagefromfile}
 
 
