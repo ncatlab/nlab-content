@@ -35,6 +35,8 @@ The collection of all $(\infty,n)$-sheaves is an [[(∞,n)-topos]].
 
 * [[(∞,2)-sheaf]]
 
+* [[directed homotopy type theory]]
+
 [[!redirects (∞,n)-sheaf]]
 
 [[!redirects (∞,n)-sheaves]]
