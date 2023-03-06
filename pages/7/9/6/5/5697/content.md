@@ -12,6 +12,10 @@ Review:
 
 * [[Mikhail Khovanov]], Robert Lipshitz, _Categorical lifting of the Jones polynomial: a survey_, Bulletin (New Series) of the American Mathematical Society (2022) &lbrack;[doi:10.1090/bull/1772](https://doi.org/10.1090/bull/1772)&rbrack;
 
+On [[braid cobordism]] and [[triangulated categories]]:
+
+* {#KhovanovThomas07} [[Mikhail Khovanov]], [[Richard Thomas]], *Braid cobordisms, triangulated categories, and flag varieties*, Homology, Homotopy and Applications **9**(2007) 19-94 &lbrack;[arXiv:math/0609335](https://arxiv.org/abs/math/0609335), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/Braid-cobordisms-triangulated-categories-and-flag-varieties/hha/1201127331.full)&rbrack;
+
 
 ## Related entries
 
