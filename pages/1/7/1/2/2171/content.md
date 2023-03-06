@@ -3645,6 +3645,8 @@ $$
 
 * [[parenthesized braid operad]]
 
+* [[braid cobordism]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 
