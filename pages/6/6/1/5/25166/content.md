@@ -45,7 +45,7 @@ $$x:A, y:A \vdash \mathrm{ftid}(x, y):(x =_A y) \simeq B(x, y)$$
 1. For each $x:A$ and $y:A$, the function $f(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ftid}(x, y):\mathrm{isEquiv}(f(x, y))$$
 
-1. $f(x, y)$ has a [[retraction]] 
+1. $f(x, y)$ is a [[retraction]] 
 $$x:A, y:A \vdash \mathrm{ftid}(x, y):B(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:B(x, y) \vdash G(x, y):f(x, y, \mathrm{ftid}(x, y, r)) =_{B(x, y)} r$$
 
@@ -70,7 +70,7 @@ $$x:A \vdash \mathrm{ftid}(x):(a =_A x) \simeq B(x)$$
 1. For each $x:A$, the function $f(x)$ is an [[equivalence of types]]
 $$x:A \vdash \mathrm{ftid}(x):\mathrm{isEquiv}(f(x))$$
 
-1. For each $x:A$, $f(x)$ has a [[retraction]] 
+1. For each $x:A$, $f(x)$ is a [[retraction]] 
 $$x:A \vdash \mathrm{ftid}(x):B(x) \to (a =_A x)$$
 $$x:A, b:B(x) \vdash G(x):f(x, \mathrm{ftid}(x, r)) =_{B(x)} r$$
 
