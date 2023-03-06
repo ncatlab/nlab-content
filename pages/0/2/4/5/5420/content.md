@@ -108,3 +108,10 @@ Discussion in [[motivic cohomology]]:
 *  [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Doc. Math., 14:359&#8211;396 (electronic), 2009, [pdf](http://www.math.uni-bielefeld.de/documenta/vol-14/14.pdf)
 
 *  [[Ivan Panin]], Konstantin Pimenov, Oliver Röndings, _On the relation of Voevodsky’s algebraic cobordism to Quillen’s K-theory_, Invent. Math., __175__ (2009), no. 2, 435--451., [MR2470112](http://www.ams.org/mathscinet-getitem?mr=2470112)
+
+On a construction of [[algebraic cobordism]] as a non-[[A1-homotopy theory|$\mathbb{A}^1$-invariant]] [[cohomology theory]] on [[derived schemes]], and the resulting [[Conner-Floyd isomorphism]]:
+
+* Toni Annala, [[Marc Hoyois]], Ryomei Iwasa, _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ &lbrack;[arXiv:2303.02051](https://arxiv.org/abs/2303.02051)&rbrack;
+
+
+
