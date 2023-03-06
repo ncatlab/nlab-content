@@ -290,7 +290,7 @@ Break: 3:50-4:20 pm
 
 * 15-18 Mar 2023 (upcoming)
 
-  **[Geometric/Topological Quantum Field Theories and Cobordisms 2023](https://nyuad.nyu.edu/en/events/2023/march/quantum-fields-theories-and-cobordisms.html)**
+  **[Geometric/Topological Quantum Field Theories and Cobordisms](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)**
 
   > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
 
@@ -306,6 +306,7 @@ Break: 3:50-4:20 pm
     }
 \end{imagefromfile}
 
+> $\phantom{-----}$ &lbrack;logo adapted from [[schreiber:M/F-Theory as Mf-Theory|arXiv:2103.01877]]&rbrack;
 
 
 
@@ -1161,7 +1162,7 @@ Researchers:
 
 * [[Adrian Clough]]
 
-* [Tatiana Ezubova](https://de.linkedin.com/in/tatiana-ezubova-0b21091b9)
+* [Tatiana Ezubova](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/researchers/tatiana-ezubova.html)
 
 * [[Grigorios Giotopoulos]]
 
