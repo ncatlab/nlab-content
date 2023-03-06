@@ -72,6 +72,10 @@ Implementation of [[Cauchy real numbers]] (in [[Errett Bishop|Bishop]]-style [[c
 
 * [[Zachary Murray]], *Constructive Analysis in the Agda Proof Assistant* &lbrack;[arXiv:2205.08354](https://arxiv.org/abs/2205.08354), [github](https://github.com/z-murray/honours-project-constructive-analysis-in-agda)&rbrack;
 
+Coding of something like the [[HoTT book real numbers]] in [[Coq]]:
+
+* [[Gaëtan Gilbert]], *Formalising Real Numbers in Homotopy Type Theory*, in *CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs*  (2017) 112–124 &lbrack;[arXiv:1610.05072](https://arxiv.org/abs/1610.05072), [doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;
+
 
 
 [[!redirects exact real computer arithmetic]]
