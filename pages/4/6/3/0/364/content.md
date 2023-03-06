@@ -13,7 +13,12 @@ Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
-* {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
+* {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)&rbrack;
+
+On [[directed homotopy type theory]] via a form of [[simplicial type theory]]
+
+* [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
+
 
 Survey of [[homotopy theory]] from [[homotopical categories]] to [[(∞,1)-categories]]:
 
