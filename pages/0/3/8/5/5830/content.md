@@ -319,6 +319,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
   [[opetopic type theory]]
 
+  [[simplicial type theory]]
+
 
 \linebreak
 
