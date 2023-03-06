@@ -1582,6 +1582,8 @@ Formalizations of [[1-categories]] and [[(n,1)-categories]] internal to [[homoto
 
 [[!redirects internal (infinity,1)-category]]
 
+[[!redirects internal infinity1-category]]
+
 [[!redirects pre-category object in an (infinity,1)-category]]
 [[!redirects pre-category object in an (∞,1)-category]]
 [[!redirects pre-category objects in an (infinity,1)-category]]
