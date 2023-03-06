@@ -1047,6 +1047,7 @@ and extra [[properties]] that it may enjoy.
 
 * [[(∞,n)-category with all adjoints]]
 
+
 ## Related concepts
 
 * [[0-category]], [[(0,1)-category]]
@@ -1082,6 +1083,8 @@ and extra [[properties]] that it may enjoy.
 * [[(n,r)-category]]
 
 * [[(∞,n)-sheaf]], [[(∞,n)-topos]]
+
+* [[directed homotopy type theory]]
 
 ## References ##
 
