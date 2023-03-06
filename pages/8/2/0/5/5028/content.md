@@ -30,6 +30,12 @@ On [[mathematical structures]] formulated in [[dependent type theory]], specific
 
 * [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119)&rbrack;
 
+On [[software verification]] for [[blockchain]]-technology:
+
+* [[Bas Spitters]], *[Formal verificaton](https://cs.au.dk/research/centers/concordium/research-areas/formal-verification)* at *[Concordium Blockchain Research Center](https://cs.au.dk/research/centers/concordium/)*
+
+* {#ThomsenSpitters20} Søren Eller Thomsen, [[Bas Spitters]], *Formalizing Nakamoto-Style Proof of Stake* &lbrack;[eprint:2020/917](https://eprint.iacr.org/2020/917)&rbrack;
+
 
 category: people
 
