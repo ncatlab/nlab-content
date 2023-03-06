@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
 =--
 =--
 
@@ -15,12 +19,25 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 What [[homotopy type theory]] is for [[homotopy theory]]/[[(∞,1)-category theory]], _directed homotopy type theory_ is (or should be) for [[directed homotopy theory]]/[[(∞,n)-category]] [[higher category theory|theory]].
 
-One candidate for full [[omega-categories]] i.e. [[(∞,∞)-categories]] is _[[opetopic type theory]]_.
+More in detail: Where 
+
+* the [[types]] of [[homotopy type theory]] have [[relation between category theory and type theory|interpretation]] as [[∞-groupoids]] aka [[(∞,0)-categories]]  (and more generally: as [[∞-stacks]]), so that [[homotopy type theory]] itself is an [[internal language]] for the [[(∞,1)-categories]] (specifically, for [[univalence axiom|univalent HoTT]]: [[(∞,1)-toposes]]) that these [[(∞,0)-categories]] form
+
+so
+
+* the [[types]] of directed homotopy type theory ought to have [[relation between type theory and category theory|interpretation]] as [[(∞,n)-categories]] for some $n \in \{1, 2, \cdots, \infty\}$ (and more generally: as [[(∞,n)-sheaves|(∞,n+1)-sheaves]]) so that directed homotopy type theory itself should be an [[internal language]] for the [[(∞,n)-category|(∞,n+1)-categories]] (and in the suitably directed [[univalence axiom|univalent]] case: [[(∞,n)-toposes|(∞,n+1)-toposes]]) that these (geometric) [[(∞,n)-categories]] form.
+
+A proposal for the case $n = \infty$ (potentially describing [[(∞,∞)-categories]] aka [[omega-categories]]) is *[[opetopic type theory]]*, going back to [Finster (2012)](#opetopic+type+theory#Finster12).
+
+A proposal for the case $n = 1$ with the directed analog of the [[univalence axiom]] included --- hence for a type theory whose types may be interpreted as [[(∞,1)-categories]]/[[(∞,2)-sheaves]] and which itself would be the [[internal language]] of the [[(∞,2)-category|$(\infty,2)$-categories]]/[[(∞,2)-topos|$(\infty,2)$-toposes]] that these form --- is announced in [Cisinski et al. (2023)](#CisinskiEtAl23).
 
 ## Related concepts
+
+* [[directed type theory]], [[2-type theory]]
 
 * [[opetopic type theory]]
 
@@ -46,9 +63,10 @@ One candidate for full [[omega-categories]] i.e. [[(∞,∞)-categories]] is _[[
 
 * [[Paige Randall North]], _Towards a directed homotopy type theory_, ([arXiv:1807.10566](https://arxiv.org/abs/1807.10566))
 
-* [[Denis-Charles Cisinski]], Hoang Kim Nguyen. Tashi Walde: *Univalent Directed Type Theory*, lecture series in the *[CMU Homotopy Type Theory Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (13, 20, 27 Mar 2023)
 
-  > **Abstract** We will introduce a version of dependent type theory that is suitable to develop a synthetic theory of 1‑categories. The axioms are both a fragment and an extension of ordinary dependent type theory. The axioms are chosen so that (∞,1)‑category theory (under the form of quasi-categories or complete Segal spaces) gives a semantic interpretation, in a way which extends Voevodsky's interpretation of univalent dependent type theory in the homotopy theory of Kan complexes. More generally, using a slight generalization of Shulman's methods, we should be able to see that the theory of (∞,1)‑categories internally in any ∞‑topos (as developed by Martini and Wolf) is a semantic interpretation as well (hence so is parametrized higher category theory introduced by Barwick, Dotto, Glasman, Nardin and Shah). There are of course strong links with ∞‑cosmoi of Riehl and Verity as well as with cubical Hott (as strongly suggested by the work of Licata and Weaver), or simplicial Hott (as in the work of Buchholtz and Weinberger). We will explain the axioms in detail and have a glimpse at basic theorems and constructions in this context (Yoneda Lemma, Kan extensions, Localizations). We will also discuss the perspective of reflexivity: since the theory speaks of itself (through directed univalence), we can use it to justify new deduction rules that express the idea of working up to equivalence natively (e.g. we can produce a logic by rectifying the idea of having a locally cartesian type). In particular, this logic can be used to produce and study semantic interpretations of Hott.
+* {#CisinskiEtAl23} [[Denis-Charles Cisinski]], Hoang Kim Nguyen. Tashi Walde: *Univalent Directed Type Theory*, lecture series in the *[CMU Homotopy Type Theory Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (13, 20, 27 Mar 2023) &lbrack;[web](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html#230313)&rbrack;
+
+  > **Abstract:** We will introduce a version of [[dependent type theory]] that is suitable to develop a [[synthetic mathematics|synthetic]] theory of [[1-categories]]. The [[axioms]] are both a [[fragment]] and an extension of ordinary [[dependent type theory]]. The [[axioms]] are chosen so that [[(∞,1)-category theory]] (in the form of [[quasi-categories]] or [[complete Segal spaces]]) gives a [[categorical semantics|semantic interpretation]], in a way which extends [[Vladimir Voevodsky|Voevodsky]]'s interpretation of [[univalence axiom|univalent]] [[dependent type theory]] in the [[homotopy theory]] of [[Kan complexes]]. More generally, using a slight generalization of [Shulman's methods](relation+between+type+theory+and+category+theory#Shulman19), we should be able to see that the theory of [[internal (∞,1)-category|(∞,1)‑categories internally]] in any [[(∞,1)-topos|∞‑topos]] (as [developed by Martini and Wolf](internal+infinity1-category#ReferencesInternalToInfinityTopos)) is a [[categorical semantics|semantic interpretation]] as well (hence so is [[Parametrized Higher Category Theory and Higher Algebra|parametrized higher category theory]] introduced by Barwick, Dotto, Glasman, Nardin and Shah). There are of course strong links with [[∞-cosmoi]] of Riehl and Verity as well as with [[cubical type theory|cubical HoTT]] (as strongly suggested by the work of Licata and Weaver), or [[simplicial type theory|simplicial HoTT]] (as in the work of Buchholtz and Weinberger). We will explain the axioms in detail and have a glimpse at basic theorems and constructions in this context ([[(∞,1)-Yoneda lemma|Yoneda Lemma]], [[(∞,1)-Kan extension|Kan extensions]], [[localization of an (∞,1)-category|Localizations]]). We will also discuss the perspective of reflexivity: since the theory speaks of itself (through directed [[univalence axiom|univalence]]), we can use it to justify new deduction rules that express the idea of working up to [[equivalence]] natively (e.g. we can produce a logic by rectifying the idea of having a locally cartesian type). In particular, this logic can be used to produce and study [[categorical semantics|semantic interpretations]] of [[HoTT]].
 
 [[!redirects directed homotopy type theories]]
 
