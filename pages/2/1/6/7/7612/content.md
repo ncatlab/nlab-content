@@ -157,7 +157,7 @@ With [[Coq]]:
 
 * [Hedera](https://hedera.com/) blog: *[Coq Proof Completed By Carnegie Mellon Professor Confirms Hashgraph Consensus Algorithm Is Asynchronous Byzantine Fault Tolerant](https://hedera.com/blog/coq-proof-completed-by-carnegie-mellon-professor-confirms-hashgraph-consensus-algorithm-is-asynchronous-byzantine-fault-tolerant)* (Oct 2018)
 
-* Leemon Baird: *Formal Methods: A Deep Dive Using the Coq Proof Assistant -- Hedera18* (2018) &lbrack;video: [YT](https://youtu.be/6q15ytIOE3U?list=RDCMUCIhE4NYpaX9E9SssFnwrjww)&rbrack;
+* {#Baird18} Leemon Baird: *Formal Methods: A Deep Dive Using the Coq Proof Assistant -- Hedera18* (2018) &lbrack;video: [YT](https://youtu.be/6q15ytIOE3U?list=RDCMUCIhE4NYpaX9E9SssFnwrjww)&rbrack;
 
 * Karl Crary, *Formalizing the Hashgraph gossip protocol*, talk at *CyLab Partners Conference* (2019) &lbrack;[pdf](https://www.cylab.cmu.edu/_files/documents/formal-methods-3-kcrary-formalizing-the-hashgraph-gossip-protocol.pdf)&rbrack;
 
