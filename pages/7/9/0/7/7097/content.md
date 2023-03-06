@@ -12,7 +12,9 @@ On the [[Quillen plus construction]] in [[(∞,1)-category theory]]:
 
 * {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf))
 
+On a construction of [[algebraic cobordism]] as a non-$\mathbb{A}^1$-invariant [[cohomology theory]] on [[derived schemes]]:
 
+* Toni Annala, [[Marc Hoyois]], Ryomei Iwasa, _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ ([arXiv:2303.02051](https://arxiv.org/abs/2303.02051))
 
 
 ## Related entries
