@@ -20,9 +20,9 @@ The _smash product type_ is an [[axiom|axiomatization]] of the [[smash product]]
 
 The smash product type of two [[pointed type|pointed types]] $A,B$ can be defined as the [[pushout type]] of the span
 
-$$\mathbf 1 \leftarrow A \wedge B \rightarrow A \times B$$
+$$\mathbf 1 \leftarrow A \vee B \rightarrow A \times B$$
 
-where $A \wedge B \rightarrow A \times B$ is the inclusion of the [[wedge sum type]] in the [[product type]] both of which are pointed. The resulting pushout is denoted the smash product $A \wedge B$ and is pointed by $\star_{A \wedge B}\equiv\mathrm{inl}(\star_{\mathbf 1})$
+where $A \vee B \rightarrow A \times B$ is the inclusion of the [[wedge sum type]] in the [[product type]] both of which are pointed. The resulting pushout is denoted the smash product $A \wedge B$ and is pointed by $\star_{A \wedge B}\equiv\mathrm{inl}(\star_{\mathbf 1})$
 
 It can also be defined as the pushout type of the span
 
