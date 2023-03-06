@@ -29,3 +29,5 @@ See at _[Internal category object in an (∞,1)-category -- Iterated internaliza
 
 [[!include flavors of higher toposes -- list]]
 
+[[!redirects (∞,n)-toposes]]
+
