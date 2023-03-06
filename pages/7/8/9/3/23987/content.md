@@ -290,9 +290,23 @@ Break: 3:50-4:20 pm
 
 * 15-18 Mar 2023 (upcoming)
 
-  **Quantum Field Theories and Cobordisms 2023**
+  **[Geometric/Topological Quantum Field Theories and Cobordisms 2023](https://nyuad.nyu.edu/en/events/2023/march/quantum-fields-theories-and-cobordisms.html)**
 
   > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
+
+\begin{imagefromfile}
+    "file_name": "CQTS-CobordismWorkshop2023.png",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 
 
 \linebreak
@@ -305,15 +319,42 @@ Break: 3:50-4:20 pm
 
   > on [[quantum computing]]/[[quantum programming]]
 
+\begin{imagefromfile}
+    "file_name": "NYUAD-QuantumHackathon2023.png",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
 \linebreak
 
 ### May 2023
 
-* (upcoming)
+* {#QuantumConference2023} 22 - 26 May 2023 (upcoming)
 
   **Quantum Information, Quantum Matter and Quantum Gravity**
 
   > on [[quantum information]], [[quantum material|quantum matter]] and [[quantum gravity]]
+
+\begin{imagefromfile}
+    "file_name": "CQTS-QuantumConference-2023.png",
+    "width": 350,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 
 \linebreak
