@@ -112,24 +112,22 @@ Given a set of colors $\mathfrak{C}$ and a [[closed category|closed]] [[symmetri
 
 ## References
 
-* John Baez, Brandon Coya and Franciscus Rebro, *[Props in network theory](http://www.tac.mta.ca/tac/volumes/33/25/33-25abs.html)*, TAC 33 (2018), 727-783. 
+* [[John Baez]], Brandon Coya and Franciscus Rebro, _Props in network theory_,  Theory and Applications of Categories **33**, 2018. ([tac:33-25](http://www.tac.mta.ca/tac/volumes/33/25/33-25abs.html))
 
-* Wee Liang Gan, _Koszul Duality for Dioperads_, [(arXiv:0201074v2)](http://arxiv.org/abs/math/0201074). 
-{#Gan}
+* {#Gan} Wee Liang Gan, _Koszul Duality for Dioperads_, Mathematical Research Letters **10**, 2003. ([doi:10.4310/MRL.2003.v10.n1.a11](https://dx.doi.org/10.4310/MRL.2003.v10.n1.a11), [arXiv:math/0201074](https://arxiv.org/abs/math/0201074))
 
-* {#HR1} [[Philip Hackney]] and [[Marcy Robertson]], _On the Category of PROPs_, [arXiv:1207.2773v2](http://arxiv.org/pdf/1207.2773v2.pdf).
+* {#HR1} [[Philip Hackney]] and [[Marcy Robertson]], _On the Category of PROPs_, Applied Categorical Structures **23**, 2015. ([doi:10.1007/s10485-014-9369-4](https://doi.org/10.1007/s10485-014-9369-4), [arXiv:1207.2773](https://arxiv.org/abs/1207.2773))
 
-* {#HR2} [[Philip Hackney]] and [[Marcy Robertson]], _The Homotopy Theory of Simplicial PROPs_, [arXiv:1209.1087](http://arxiv.org/pdf/1209.1087.pdf).
+* {#HR2} [[Philip Hackney]] and [[Marcy Robertson]], _The Homotopy Theory of Simplicial PROPs_, Israel Journal of Mathematics **219**, 2017. ([doi:10.1007/s11856-017-1500-4](https://doi.org/10.1007/s11856-017-1500-4), [arXiv:1209.1087](https://arxiv.org/abs/1209.1087))
 
-*  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, TAC 13 (2004), No. 9, 147--163.
+*  [[Steve Lack]], _Composing PROPs_, Theory and Applications of Categories **13**, 2004. ([tac:13-9](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 
-* M. Markl, S. Merkulov, S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, J. Pure Appl. Algebra, 213(4):496–535, 2009, [math.AT/0610683](https://arxiv.org/abs/math/0610683)
+* [[Martin Markl|M. Markl]], S. Merkulov, S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, Journal of Pure and Applied Algebra **213**, 2009. ([doi:10.1016/j.jpaa.2008.08.007](https://doi.org/10.1016/j.jpaa.2008.08.007), [arXiv:math/0610683](https://arxiv.org/abs/math/0610683))
 
-* Teimuraz Pirashvili, *On the PROP corresponding to bialgebras*, http://arxiv.org/abs/math/0110014. ([link](http://arxiv.org/abs/math/0110014)) 
+* Teimuraz Pirashvili, _On the PROP corresponding to bialgebras_, Cahiers de Topologie et Géométrie Différentielle Catégoriques **43**, 2002.
+([publication](http://www.numdam.org/item/CTGDC_2002__43_3_221_0/), [arXiv:math/0110014](https://arxiv.org/abs/math/0110014))
 
-* {#Yau} [[Donald Yau]], _Higher dimensional algebras via colored PROPs_, ([arXiv:0809.2161](http://arxiv.org/abs/0809.2161)).
-
-
+* {#Yau} [[Donald Yau]], _Higher dimensional algebras via colored PROPs_, 2008. ([arXiv:0809.2161](https://arxiv.org/abs/0809.2161)).
 
 
 [[!redirects PROP]]
