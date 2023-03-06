@@ -292,6 +292,10 @@ On [[orbifolds]] regarded as naive local [[quotient spaces]] (instead of [[homot
 
 * {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
 
+and as [[stratified space|stratified]] [[diffeological spaces]]:
+
+* [[Serap Gürer]], [[Patrick Iglesias-Zemmour]], *Orbifolds as stratified diffeologies*, Differential Geometry and its Applications **86** (2023) 101969 &lbrack;[doi:10.1016/j.difgeo.2022.101969](https://doi.org/10.1016/j.difgeo.2022.101969)&rbrack;
+
 On this approach seen in the broader context of [[cohesive homotopy theory|cohesive]] [[higher differential geometry]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
