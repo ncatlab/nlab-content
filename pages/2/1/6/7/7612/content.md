@@ -170,6 +170,12 @@ With [[Agda]]:
 * Harold Carr, Christopher Jenkins, Mark Moir, Victor Cacciari Miraldo, Lisandra Silva, *Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda: Extended Version* &lbrack;[arXiv:2203.14711](https://arxiv.org/abs/2203.14711)&rbrack;
 
 
+See also:
+
+* {#SpittersConcordium} [[Bas Spitters]], *[Formal verificaton](https://cs.au.dk/research/centers/concordium/research-areas/formal-verification)* at *[Concordium Blockchain Research Center](https://cs.au.dk/research/centers/concordium/)*
+
+* {#ThomsenSpitters20} Søren Eller Thomsen, [[Bas Spitters]], *Formalizing Nakamoto-Style Proof of Stake* &lbrack;[eprint:2020/917](https://eprint.iacr.org/2020/917)&rbrack;
+
 
 #### Via homotopy type theory
 
