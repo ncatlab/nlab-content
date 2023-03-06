@@ -18,7 +18,7 @@
 
 ## Idea
 
-A [[category]] is _extensive_ if it has [[coproducts]] that interact well with [[pullbacks]].  Variations (some only terminological) include _lextensive_, _disjunctive_, and _positive_ categories.  All of these come in _finitary_ and _infinitary_ versions (and, more generally, $\kappa$-ary versions for any [[arity class]] $\kappa$).
+A [[category]] is _extensive_ if it has [[coproducts]] that interact well with a certain class of [[pullbacks]].  Variations (some only terminological) include _lextensive_, _disjunctive_, and _positive_ categories.  All of these come in _finitary_ and _infinitary_ versions (and, more generally, $\kappa$-ary versions for any [[arity class]] $\kappa$).
 
 ## Definitions
  {#Definition}
