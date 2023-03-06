@@ -464,6 +464,8 @@ See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[
 
 * [[Rezk completion]]
 
+* [[directed homotopy type theory]]
+
 * [[table - models for (infinity,1)-operads]]
 
 
