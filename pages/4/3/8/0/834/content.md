@@ -37,3 +37,7 @@ The notions of $1$-[[1-groupoid|groupoid]] and $1$-[[1-poset|poset]] are defined
 
 
 [[!redirects 1-categories]]
+
+[[!redirects 1‑categories]]
+
+
