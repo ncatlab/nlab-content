@@ -299,7 +299,7 @@ can be constructed as polynomial endofunctors in the above sense in any pretopos
 In a [[topos]] with a [[natural numbers object]] (NNO), W-types for any polynomial endofunctor can be constructed as certain sets of well-founded trees; thus every topos with a NNO is a [[ΠW-pretopos]].  This applies in particular in the topos [[Set]] (unless one is a [[predicative mathematics|predicativist]], in which case $Set$ is not a topos and W-types in it must be postulated explicitly).
 
 
-#### Dependent \mathcal{W}-types
+#### Dependent $\mathcal{W}$-types
  {#DependentWTypesCategoricalSemantics}
 
 The above has a natural generalization to [[dependent type|dependent]] or *indexed* W-types ([Gambino & Hyland (2004)](#GambinoHyland04)) with a type $C$ of *indices*: 
