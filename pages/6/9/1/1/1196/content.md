@@ -31,7 +31,7 @@ Intuitionistic logic is most easily described as [[classical logic]] without the
 
 The *intuitionistic interpretation* of the [[logical connectives]] (known as the [[BHK interpretation]], due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Heyting (1956, §7.1.1)](#Heyting56), [Troelstra (1969, §2)](#Troelstra69)) is such that the resulting [[proposition]] is regarded as [[true]] only if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
 
-For instance, to assert a [[logical disjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof of all the instances.
+For instance, to assert a [[logical conjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof of all the instances.
 
 Dually but more notably, to assert a [[logical disjunction]] ("or") or an [[existential quantification]] ("exists") is taken to mean to prove one of the instances, so that there is no intuitionistic existence statement without construction of an example (the "disjunction property", see [below](#DisjunctionProperty)).
 
