@@ -76,7 +76,7 @@ $$x:A, y:A \vdash \mathrm{ua}(x, y):(x =_A y) \simeq R(x, y)$$
 1. That for each $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$ is an [[equivalence of types]]
 $$x:A, y:A, \vdash \mathrm{ua}(x, y):\mathrm{isEquiv}(\mathrm{idtofam}(x, y))$$
 
-1. That $\mathrm{idtofam}(x, y)$ has a [[retraction]] (This is due to [[Daniel Licata]] in [Licata 16](#Licata16))
+1. That $\mathrm{idtofam}(x, y)$ is a [[retraction]] (This is due to [[Daniel Licata]] in [Licata 16](#Licata16))
 $$x:A, y:A \vdash \mathrm{ua}(x, y):R(x, y) \to (x =_A y)$$
 $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)) =_{R(x, y)} r$$
 
