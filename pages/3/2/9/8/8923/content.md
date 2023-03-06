@@ -27,6 +27,8 @@ See at _[Internal category object in an (∞,1)-category -- Iterated internaliza
 
 ## Related concepts
 
+* [[directed homotopy type theory]]
+
 [[!include flavors of higher toposes -- list]]
 
 [[!redirects (∞,n)-toposes]]
