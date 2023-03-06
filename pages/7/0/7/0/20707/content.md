@@ -38,6 +38,11 @@ On [[braid group representations]]:
 
 * [[Toshitake Kohno]], *Introduction to representation theory of braid groups*, Peking 2018 ([pdf](https://www.math.pku.edu.cn/misc/puremath/summerschool/Peking_SummerSchool_kohno.pdf), [[KohnoBraidRepresentations.pdf:file]])
 
+On [[2-representations]] of [[braid cobordism]] via [[higher holonomy]]:
+
+* {#Kohno16} [[Toshitake Kohno]], *Higher holonomy of formal homology connections and braid cobordisms*,  Journal of Knot Theory and Its Ramifications **25** 12  (2016) 1642007 &lbrack;[doi:10.1142/S0218216516420074](https://doi.org/10.1142/S0218216516420074), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/hhc.pdf)&rbrack;
+
+
 
 
 category: people
