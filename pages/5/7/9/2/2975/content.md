@@ -159,7 +159,12 @@ The close connection of algebraic cobordism with [[K-theory]] is discussed in
 
 An algebraic analogue of h-cobordism:
 
-* Aravind Asok, Fabien Morel, _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_, [arXiv:0810.0324](http://arxiv.org/abs/0810.0324)
+* Aravind Asok, Fabien Morel, _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_ ([arXiv:0810.0324](http://arxiv.org/abs/0810.0324)).
+
+A construction of algebraic cobordism as a non-$\mathbb{A}^1$-invariant [[cohomology theory]] on [[derived schemes]]:
+
+* Toni Annala, [[Marc Hoyois]], Ryomei Iwasa, _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ ([arXiv:2303.02051](https://arxiv.org/abs/2303.02051)).
+
 
 [[!redirects algebraic cobordism spectrum]]
 [[!redirects algebraic cobordism spectra]]
