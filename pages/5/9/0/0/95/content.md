@@ -126,6 +126,8 @@ K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park Cit
 
 * [[Terence Tao]], "[Counting objects up to isomorphism: groupoid cardinality](https://terrytao.wordpress.com/2017/04/13/counting-objects-up-to-isomorphism-groupoid-cardinality/)" (blog post), 13 April 2017.
 
+* Lior Yanovski, _Homotopy Cardinality via Extrapolation of Morava-Euler Characteristics_ ([arXiv:2303.02603](https://arxiv.org/abs/2303.02603))
+
 [[!redirects ∞-groupoid cardinality]]
 [[!redirects homotopy cardinality]]
 
