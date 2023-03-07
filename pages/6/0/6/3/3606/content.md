@@ -2,11 +2,11 @@
 
 * [website](http://web.comlab.ox.ac.uk/people/Bob.Coecke/)
 
-
+* Chief Scientist at *[Quantinuum](https://www.quantinuum.com/)*
 
 ## Selected writings
 
-On [[quantum protocols]] in [[quantum information theory]] (such as [[quantum teleportation]]) formalized as [[string diagrams]] in the [[dagger-compact category]] of [[finite dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]] ([[finite quantum mechanics in terms of dagger-compact categories]]):
+On [[quantum protocols]] in [[quantum information theory]] (such as [[quantum teleportation]]) formalized as [[string diagrams]] in the [[dagger-compact category]] of [[finite dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]] ([[quantum information theory via dagger-compact categories]]):
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
 
@@ -24,7 +24,7 @@ Textbook accounts:
 
 * [[Bob Coecke]], [[Aleks Kissinger]], *Picturing Quantum Processes -- A First Course in Quantum Theory and Diagrammatic Reasoning*, Cambridge University Press (2017) &lbrack;[ISBN:9781107104228](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/picturing-quantum-processes-first-course-quantum-theory-and-diagrammatic-reasoning?format=HB&isbn=9781107104228)&rbrack;
 
-* [[Bob Coecke]], Stefano Gogioso, _Quantum in Pictures: A New Way to Understand the Quantum World_ (2023) &lbrack;[ISBN 978-1739214715](https://www.amazon.co.uk/dp/1739214714)&rbrack
+* [[Bob Coecke]], [[Stefano Gogioso]], *Quantum in Pictures*, [Quantinuum Publications](https://www.quantinuum.com/publications) (2023) &lbrack;[ISBN 978-1739214715](https://www.amazon.co.uk/dp/1739214714), [Quantinuum blog](https://www.quantinuum.com/news/quantum-in-pictures)&rbrack;
 
   > (including the [[ZX-calculus]])
 
@@ -60,6 +60,8 @@ Discussion of [[DisCoPy]]:
   * [[dagger-category]]
 
   * [[classical structure]]
+
+  * [[ZX-calculus]]
 
 * [[quantum information theory]]
 
