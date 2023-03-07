@@ -9,4 +9,6 @@ On [[MOND]]:
 
 * [[Constantinos Skordis]], [[Tom Zlosnik]], *Aether scalar tensor theory: Linear stability on Minkowski space*. Physical Review D. Volume 106, Issue 10. Published 15 November 2022. ([doi:10.1103/PhysRevD.106.104041](https://doi.org/10.1103/PhysRevD.106.104041), [arXiv:2109.13287](https://arxiv.org/abs/2109.13287))
 
+* [[Daniel Thomas]], [[Ali Mozaffari]], [[Tom Zlosnik]], *Consistent cosmological structure formation on all scales in relativistic extensions of MOND* ([arXiv:2303.00038](https://arxiv.org/abs/2303.00038))
+
 category: people
