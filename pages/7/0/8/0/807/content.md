@@ -546,6 +546,10 @@ An exposition with an eye towards the relation between Euler characteristic and 
 * [[John Baez]], _The mysteries of counting: Euler characteristic versus homotopy cardinality_ ([web](http://math.ucr.edu/home/baez/counting/)) Lecture notes (2005)
  {#Baez05}
 
+A treatment of this relation using [[Morava K-theories]] is in
+
+* Lior Yanovski, _Homotopy Cardinality via Extrapolation of Morava-Euler Characteristics_ ([arXiv:2303.02603](https://arxiv.org/abs/2303.02603))
+
 The role of homotopy cardinality in [[quantization]] is touched on towards the end of
 
 * [[Daniel Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ 
