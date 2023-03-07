@@ -1,9 +1,25 @@
-# Idea
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 Copairing is [[opposite category|dual]] to [[pairing]].
 
 
-# Definition
+## Definition
 
 Let $X$ and $Y$ be [[objects]] of some [[category]] $C$, and suppose that [[the]] [[coproduct]] $X \sqcup Y$ exists in $C$.
 
@@ -12,14 +28,14 @@ Let $T$ be some object of $C$, and let $a\colon X \to T$ and $b\colon Y \to T$ b
 This $[a,b]$ is the __copairing__ of $a$ and $b$.
 
 
-# Notation
+## Notation
 
 When convenient, it is nice to write it vertically; all of the following are seen:
 $$ \left({a \atop b}\right) ,\quad \left[{a \atop b}\right] ,\quad \left\{{a \atop b}\right\} .$$
 The vertical notation can be combined with [[pairing]] to create a [[matrix calculus]] for morphisms from a coproduct to a product.  This works best when products and coproducts are the same, as described at [[matrix calculus]].
 
 
-# Examples
+## Examples
 
 One often sees a [[function]] defined by cases as follows:
 $$ 
