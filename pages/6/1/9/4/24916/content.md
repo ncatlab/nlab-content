@@ -36,7 +36,7 @@ One common view seems to be to found category theory on a theory of sets and cla
 
 If one does not accept the [[axiom of choice]], then there are additional complications in general category theory. In particular, one must distinguish between a universal *property* (for example, having all [[product]]s) and having a universal *structure* realising that property (in the example, a functor taking each pair $(x,y)$ of objects to a specific product cone $x \leftarrow x \times y \rightarrow y$). This difficulty was overcome by Michael Makkai using [[anafunctor]]s, but these have not been widely adopted, even by constructivists.
 
-For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
+For a summary of the mathematical foundations of category theory, see [[Mike Shulman]], _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
 
 
 ### The concept of _identity_
