@@ -56,7 +56,12 @@ Review:
 
 * [[Hans J. Briegel]], [[Dan E. Browne]], [[Wolfgang Dür]], [[Robert Raussendorf]], [[Maarten Van den Nest]], *Measurement-based quantum computation*, Nature Physics **5** 1 (2009) 19-26 &lbrack;[arXiv:0910.1116](https://arxiv.org/abs/0910.1116), [doi:10.1038/nphys1157](https://doi.org/10.1038/nphys1157)&rbrack;
 
-Using (motivating) the [[ZX-calculus]] for describing measurement-based quantum protocols
+Towards formalizing measurement-based quantum protocols:
+
+* {#DanosKahsefiPanangaden07} [[Vincent Danos]], [[Elham Kashefi]], [[Prakash Panangaden]], *The Measurement Calculus*, Journal of the ACM, **54** 2 (2007) &lbrack;[arXiv:0704.1263](https://arxiv.org/abs/0704.1263), [doi:10.1145/1219092.1219096](https://doi.org/10.1145/1219092.1219096)&rbrack;
+
+
+Using (motivating) the [[ZX-calculus]] for formalizing measurement-based quantum protocols
 
 * [[Ross Duncan]], [[Simon Perdrix]], *Rewriting Measurement-Based Quantum Computations with Generalised Flow*, in: *Automata, Languages and Programming. ICALP 2010*, Lecture Notes in Computer Science **6199**, Springer (2010) &lbrack;[doi:10.1007/978-3-642-14162-1_24](https://doi.org/10.1007/978-3-642-14162-1_24)&rbrack;
 
