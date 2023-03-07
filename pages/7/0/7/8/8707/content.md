@@ -132,6 +132,8 @@ Discussion of modal operators explicitly in [[dependent type theory]] (and with 
 
 * Daniel Gratzer, G. A. Kavvos, A. Nuyts, and [[Lars Birkedal]], _Multimodal Dependent Type Theory_, [arXiv:2011.15021](https://arxiv.org/abs/2011.15021)
 
+* [[Mike Shulman]], _Semantics of multimodal adjoint type theory_ ([arXiv:2303.02572](https://arxiv.org/abs/2303.02572)) 
+
 A survey of the field of modal type theory is in the collections
 
 * M. Fairtlough, M. Mendler, [[Eugenio Moggi]] (eds.), _Modalities in Type Theory_, Mathematical Structures in Computer Science, Vol. 11, No. 4, (2001)
