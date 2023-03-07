@@ -2,7 +2,7 @@
 ### Anyons in momentum-space
  {#ReferencesAnyonicBraidingInMomentumSpace}
 
-On non-trivial [[braid group statistics|braiding]] of modal points in the [[Brillouin torus]] of [[semi-metals]] ("braiding in momentum space"):
+On non-trivial [[braid group statistics|braiding]] of nodal points in the [[Brillouin torus]] of [[semi-metals]] ("braiding in momentum space"):
 
 * {#AhnParkYang19} Junyeong Ahn, Sungjoon Park, Bohm-Jung Yang, *Failure of Nielsen-Ninomiya theorem and fragile topology in two-dimensional systems with space-time inversion symmetry: application to twisted bilayer graphene at magic angle*, Phys. Rev. X **9** (2019) 021013 $[$[doi:10.1103/PhysRevX.9.021013](https://doi.org/10.1103/PhysRevX.9.021013), [arXiv:1808.05375](https://arxiv.org/abs/1808.05375)$]$
 
@@ -70,5 +70,13 @@ See also:
 
 
 Incidentally, references indicating that the required toroidal (or yet higher genus) geometry for anyonic topological order in position space is dubious (as opposed to the evident toroidal geometry of the momentum-space [[Brillouin torus]]): [Lan 19, p. 1](Laughlin+state#Lan19), ....
+
+**Knotted nodal lines in 3d semimetals**
+
+Beware that various authors consider [[braids]]/[[knots]] formed by nodal *lines* in *3d* semimetals, i.e. knotted nodal lines in 3 spatial dimensions, as opposed to [[worldlines]] (in 2+1 spacetime dimensions) of nodal points in effectively 2d semimetals needed for the [[anyon]]-[[braiding]] considered above.
+
+An argument that these nodal lines in 3d space, nevertheless, may be  controlled by [[Chern-Simons theory]]:
+
+* {#LianVafaVafaZhang17} [[Biao Lian]], [[Cumrun Vafa]], [[Farzan Vafa]], [[Shou-Cheng Zhang]], *Chern-Simons theory and Wilson loops in the Brillouin zone*, Phys. Rev. B **95** (2017) 094512 &lbrack;[doi:10.1103/PhysRevB.95.094512](https://doi.org/10.1103/PhysRevB.95.094512)&rbrack;
 
 
