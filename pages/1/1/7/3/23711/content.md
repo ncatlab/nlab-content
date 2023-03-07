@@ -93,7 +93,9 @@ After the synthesis of graphene, which is an effectively 2-dimensional material 
 
 ### General
 
-General textbook account:
+General monographs:
+
+* [[Tomáš Bzdušek]], *Symmetry and topology of nodal semimetals*, ETH (2017) &lbrack;[doi:10.3929/ethz-b-000216959](https://doi.org/10.3929/ethz-b-000216959)&rbrack;
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
