@@ -52,6 +52,8 @@ In the TVS case, with the appropriate meaning of basis understood, the Gram-Schm
 
 * [[normal vector]]
 
+* [[mutually unbiased bases]]
+
 ## References
 
 See also
