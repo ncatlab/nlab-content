@@ -152,3 +152,11 @@ On [[general relativity|relativistic]] MOND [[model (in theoretical physics)|mod
 * [[Constantinos Skordis]], [[Tom Zlosnik]], *Aether scalar tensor theory: Linear stability on Minkowski space*. Physical Review D. Volume 106, Issue 10. Published 15 November 2022. ([doi:10.1103/PhysRevD.106.104041](https://doi.org/10.1103/PhysRevD.106.104041), [arXiv:2109.13287](https://arxiv.org/abs/2109.13287))
 
 * [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
+
+* [[Mordehai Milgrom]], *Broader view of bimetric MOND*, Physical Review D, Volume 106, Issue 8. Published 10 October 2022. ([doi:10.1103/PhysRevD.106.084010](https://doi.org/10.1103/PhysRevD.106.084010), [arXiv:2208.10882](https://arxiv.org/abs/2208.10882))
+
+* [[Daniel Thomas]], [[Ali Mozaffari]], [[Tom Zlosnik]], *Consistent cosmological structure formation on all scales in relativistic extensions of MOND* ([arXiv:2303.00038](https://arxiv.org/abs/2303.00038))
+
+* [[Eanna Flanagan]], *Khronometric theories of modified Newtonian dynamics* ([arXiv:2302.14846](https://arxiv.org/abs/2302.14846))
+
+* Shuxun Tian, Shaoqi Hou, Shuo Cao, Zong-Hong Zhu, *Time evolution of the local gravitational parameters and gravitational wave polarizations in a relativistic MOND theory*, Physical Review D, Volume 107, Issue 4. Published 24 February 2023. ([doi:10.1103/PhysRevD.107.044062](https://doi.org/10.1103/PhysRevD.107.044062), [arXiv:2302.13304](https://arxiv.org/abs/2302.13304))
