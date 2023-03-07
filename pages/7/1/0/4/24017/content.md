@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[topological semimetals]]:
+
+* [[Tomáš Bzdušek]], *Symmetry and topology of nodal semimetals*, ETH (2017) &lbrack;[doi:10.3929/ethz-b-000216959](https://doi.org/10.3929/ethz-b-000216959)&rbrack;
+
+
 On non-trivial [[braid group statistics|braiding]] of [[semi-metal|nodal points]] in "momentum space" (i.e. in the [[Brillouin torus]]):
 
 * QuanSheng Wu, Alexey A. Soluyanov, [[Tomáš Bzdušek]], *Non-Abelian band topology in noninteracting metals*, Science **365** (2019) 1273-1277 ([arXiv:1808.07469](https://arxiv.org/abs/1808.07469) ,[doi:10.1126/science.aau8740](https://doi.org/10.1126/science.aau8740))
