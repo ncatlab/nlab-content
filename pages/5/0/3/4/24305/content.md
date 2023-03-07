@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+Introducing [[measurement-based quantum computation]]:
+
+* [[Daniel Gottesman]], [[Isaac L. Chuang]], *Quantum Teleportation is a Universal Computational Primitive*, Nature **402** (1999) 390-393 &lbrack;[doi:10.1038/46503](https://doi.org/10.1038/46503), [arXiv:quant-ph/9908010](https://arxiv.org/abs/quant-ph/9908010)&rbrack;
+
+
 On [[quantum computation]] and [[quantum information]]:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
