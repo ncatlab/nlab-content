@@ -7,4 +7,9 @@ On [[Chern-Simons theory]] potentially applicable to a form of [[Berry curvature
 
 * [[Biao Lian]], [[Cumrun Vafa]], [[Farzan Vafa]], [[Shou-Cheng Zhang]], *Chern-Simons theory and Wilson loops in the Brillouin zone*, Phys. Rev. B **95** (2017) 094512 &lbrack;[doi:10.1103/PhysRevB.95.094512](https://doi.org/10.1103/PhysRevB.95.094512)&rbrack;
 
+On [[Shoucheng Zhang]]:
+
+* [[Biao Lian]] et al (eds). *Memorial Volume for Shoucheng Zhang*, World Scientific (2021) &lbrack;[doi:10.1142/12146](https://doi.org/10.1142/12146)&rbrack;
+
+
 category: people
