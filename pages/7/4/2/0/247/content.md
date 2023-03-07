@@ -27,7 +27,21 @@ And here's the esh $&#643;$ (see [here](http://nforum.ncatlab.org/discussion/459
 
 ## Selected writings
 
+On [[modal type theory]]:
+
 * [[Mike Shulman]], _Semantics of multimodal adjoint type theory_ ([arXiv:2303.02572](https://arxiv.org/abs/2303.02572)) 
+
+On [[cohesive homotopy type theory]]:
+
+* [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+* [[Mike Shulman]], *Homotopy type theory: the logic of space*, New Spaces in Mathematics: Formal and Conceptual Reflections, ed. Gabriel Catren and Mathieu Anel, Cambridge University Press, 2021 ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
+
+## Talks
+
+On [[higher observational type theory]]:
+
+* [[Michael Shulman]], *Towards a Third-Generation HOTT:*, talk at *[Homotopy Type Theory at CMU](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2022)  &lbrack;part 1: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA); part 2: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU); part 3: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE)&rbrack;
 
 category: people
 
