@@ -29,7 +29,9 @@ The basic idea is to formalize the co-existence of the ubiquitous pair of [[quan
 
    $$
     \big\{ 
-      \vert 0 \rangle, \vert 1 \rangle 
+      \left\vert 0 \right\rangle
+      ,\, 
+      \left\vert 1 \right\rangle 
     \big\}
    $$ 
 
@@ -41,7 +43,9 @@ The basic idea is to formalize the co-existence of the ubiquitous pair of [[quan
      \Big\{ 
        \tfrac{1}{\sqrt{2}} 
        \big(
-         \vert 0 \rangle \pm \vert 1 \rangle  
+         \left\vert 0 \right\rangle 
+         \pm 
+         \left\vert 1 \right\rangle  
        \big) 
      \Big\}
    $$ 
