@@ -56,6 +56,10 @@ Textbook accounts (with background on relevant [[monoidal category|monoidal]] [[
 
   {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) $[$[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]$]$
 
+* [[Bob Coecke]], [[Stefano Gogioso]], *Quantum in Pictures*, [Quantinuum Publications](https://www.quantinuum.com/publications) (2023) $[$[ISBN 978-1739214715](https://www.amazon.co.uk/dp/1739214714), [Quantinuum blog](https://www.quantinuum.com/news/quantum-in-pictures)$]$
+
+  > (focus on [[ZX-calculus]])
+
 
 Refinement to the [[ZX-calculus]] for specific control of [[quantum circuit]]-diagrams:
 
