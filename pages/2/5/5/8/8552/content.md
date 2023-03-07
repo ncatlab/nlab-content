@@ -10,9 +10,13 @@
  
 * _[[An Essay on the Foundations of Geometry]]_ (1897)
 
+* _The Principles of Mathematics_ (1903) ([pdf](https://bertrandrussellsocietylibrary.org/br-pom/br-pom.pdf))
+
 * _[[Principia Mathematica]]_  (1910)
 
 * _[[Logic as the Essence of Philosophy]]_ (1914)
+
+* _Introduction to Mathematical Philosophy_ (1919) - Russell’s informal account of the mathematics and logic of _Principia Mathematica_ - ([web](https://people.umass.edu/klement/imp/imp.html))
 
 * _[[A History of Western Philosophy]]_ (1945)
 
