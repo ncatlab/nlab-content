@@ -12,7 +12,7 @@
 
 * _The Principles of Mathematics_ (1903) ([pdf](https://bertrandrussellsocietylibrary.org/br-pom/br-pom.pdf))
 
-* _[[Principia Mathematica]]_  (1910)
+* _[[Principia Mathematica]]_  (1910) with [[Alfred Whitehead]]
 
 * _[[Logic as the Essence of Philosophy]]_ (1914)
 
@@ -41,5 +41,7 @@ From *[Free Thought and Official Propaganda](https://www.gutenberg.org/files/449
 * [[analytic philosophy]]
 
 * [[type theory]]
+
+* [[assertion]]
 
 category: people
