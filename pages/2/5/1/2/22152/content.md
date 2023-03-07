@@ -1,6 +1,8 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Shoucheng_Zhang)
 
+* [[Biao Lian]] et al (eds). *Memorial Volume for Shoucheng Zhang*, World Scientific (2021) &lbrack;[doi:10.1142/12146](https://doi.org/10.1142/12146)&rbrack;
+
 ## Selected writings
 
 Predicting a [[quantum spin Hall effect]] in [[topological insulators]] based on mercury telluride (HgTe quantum wells):
@@ -20,3 +22,7 @@ On [[Chern-Simons theory]] potentially applicable to a form of [[Berry curvature
 
 
 category: people
+
+
+[[!redirects Shoucheng Zhang]]
+
