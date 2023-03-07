@@ -101,6 +101,7 @@ It is immediate to check that (eq:AlgebraOfProjectorsInIntroduction) canonically
 
 In this its incarnation as the $\mathbb{1}^B$-[[writer monad|writer]] [[Frobenius monad]], the quantum $B$-reader monad is famous in the literature on [[quantum information theory via dagger-compact categories]] as encoding [[quantum measurement]] with respect to the $B$-basis -- known as **classical structures** or **Frobenius structures**  in these references &lbrack;[Coecke & Pavlović (2008), §1.5.1](#CoeckePavlović08), [Coecke & Paquette (2008), §2.3](#CoeckePaquette08)&rbrack;, as well as [[classically controlled quantum gates]] &lbrack;[Heunen & Vicary (2019), around Lem.  5.61](#HeunenVicary19), albeit not making the monadic algebra explicit&rbrack; (See also at *[[no-cloning theorem]]* [this Remark](no-cloning+theorem#ExampleOfNonCloningOfCoalgebraMap).)
 
+In this guise, the quantum reader monad is reflected by the "green spiders" in the [[ZX-calculus]].
 
 ## Details
  {#Details}
