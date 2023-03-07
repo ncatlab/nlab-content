@@ -42,6 +42,8 @@ Specifically in [[representation theory of the symmetric group]]:
 
 * [[basis]]
 
+* [[mutually unbiased bases]]
+
 [[!redirects Hamel basis]]
 [[!redirects Hamel bases]]
 [[!redirects Hamel basises]]
