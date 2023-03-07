@@ -22,5 +22,11 @@ The vertical notation can be combined with [[pairing]] to create a [[matrix calc
 # Examples
 
 One often sees a [[function]] defined by cases as follows:
-$$ f(x) = \left\{\array{ g(x) & \text {if}\; \phi(x) \\ h(x) & \text {if}\; \psi(x) .}\right. $$
-Such a definition is valid in general iff the [[domain]] of $f$ is the (internal) [[disjoint union]] of its [[subsets]] $\{x : \phi(x)\}$ and $\{x : \psi(x)\}$.  In that case, let $X$ be the first subset, let $Y$ be the second, and let $T$ be the [[target]] of $f$; let $a\colon X \to T$ and $b\colon Y \to T$ be [[restrictions]] of $g$ and $h$.  Then we have $X \sqcup Y$ as the domain of $f$, and $f$ itself is the copairing $[a,b]$.
+$$ 
+f(x) = \left\{\array{ g(x) & \text {if}\; \phi(x) \\ h(x) & \text {if}\; \psi(x) 
+.}\right. 
+$$
+Such a definition is valid in general iff the [[domain]] of $f$ is the (internal) [[disjoint union]] of its [[subsets]] $\{x : \phi(x)\}$ and $\{x : \psi(x)\}$.  In that case, let $X$ be the first subset, let $Y$ be the second, and let $T$ be the [[target]] of $f$.  Then we have $X \sqcup Y$ as the domain of $f$, and $f$ itself is the copairing of $g$ and $h$, so that 
+$$
+f = \left[{g \atop h}\right]\,.
+$$
