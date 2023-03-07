@@ -117,6 +117,13 @@ This means that while every individual loop in $Conf_N(\mathbb{R}^3)$ is homotop
 
 * [[topological phase of matter]]
 
+* [[quantum computation]]
+
+  * [[adiabatic quantum computation]]
+
+  * [[measurement-based quantum computation]]
+
+
 
 ## References
   {#References}
