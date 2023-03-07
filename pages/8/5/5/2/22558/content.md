@@ -20,6 +20,10 @@ Mathematical argument that [[quantum computation]] with [[quantum error correcti
 
 * [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech H. Zurek]], *Resilient Quantum Computation: Error Models and Thresholds*, Proceedings of the Royal Society A **454** 1969 (1998) &lbrack;[arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
 
+Introducing [[measurement-based quantum computation]]:
+
+* [[Emanuel Knill]], [[Raymond Laflamme]], [[Gerard J. Milburn]], *A scheme for efficient quantum computation with linear optics*, Nature **409** (2001) 46–52 &lbrack;[doi:10.1038/35051009](https://doi.org/10.1038/35051009)&rbrack;
+
 
 Introducing the [[Eastin-Knill theorem]] on [[quantum error correction]] versus universality of [[quantum computation|quantum gates]]:
 
