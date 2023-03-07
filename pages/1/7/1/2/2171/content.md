@@ -73,7 +73,7 @@ review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62)):
 \begin{definition}\label{ArtinPresentation}
 **(Artin presentation)**
 
-The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by:
+The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by (this and the following graphics are taken from [[schreiber:Topological Quantum Gates in Homotopy Type Theory|Myers et al. (2023)]]):
 
 * generators: 
 
