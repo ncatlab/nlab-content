@@ -82,11 +82,18 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 ## References
 
+(...)
+
+See also:
+
 * [[Roland Omnès]], §3 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 
 [[!redirects quantum state]]
 [[!redirects quantum states]]
+
+[[!redirects quantum state space]]
+[[!redirects quantum state spaces]]
 
 
 [[!redirects mixed quantum state]]
