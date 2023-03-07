@@ -41,6 +41,8 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## Related concepts
 
+* [[Pauli gate]]
+
 * [[bit]], [[truth value]]
 
 * [[bit flip channel]], [[bit flip code]]
