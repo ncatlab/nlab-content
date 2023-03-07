@@ -47,6 +47,11 @@ On [[quantum measurement]] formulated in [[finite quantum mechanics in terms of 
 
 * [[Bob Coecke]], [[Duško Pavlović]], [[Jamie Vicary]],  *A new description of orthogonal bases*, Mathematical Structures in Computer Science **23** 3 (2012) 555- 567 &lbrack;[arXiv:0810.0812](https://arxiv.org/abs/0810.0812), [doi:10.1017/S0960129512000047](https://doi.org/10.1017/S0960129512000047)&rbrack;
 
+Introducting the [[ZX-calculus]]:
+
+* [[Bob Coecke]], [[Ross Duncan]], *A graphical calculus for quantum observables* &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/GreenRed.pdf)&rbrack;
+
+* {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 &lbrack;[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)&rbrack;
 
 Discussion of [[DisCoPy]]:
 
