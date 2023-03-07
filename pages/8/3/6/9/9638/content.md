@@ -125,6 +125,8 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 * [[topological quantum computation]]
 
+* [[measurement-based quantum computation]]
+
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
 * [[superoperator]]
