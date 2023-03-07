@@ -49,7 +49,7 @@ The data $f$, $g$, and $h$ that specify a polynomial functor is sometimes referr
 If $g$ is an identity, the functor is sometimes called a **linear functor** or a **linear polynomial functor**.  Note that this notion makes sense even if $C$ is not locally cartesian closed; all it needs are [[pullbacks]].  More generally, we can make sense of polynomial functors in any category with pullbacks if we restrict $g$ to be an [[exponentiable morphism]].
 
 
-## Example
+## Examples
 
 ### On sets
  {#ExamplesOnSets}
@@ -96,6 +96,50 @@ $$
 $$
 
 Under [[cardinality]] this becomes [[matrix multiplication]] acting on [[vectors]] (with entries in the [[natural numbers]]). So in this case the dependent polynomial functor is a linear functor of several variables, an [[integral transform]].
+
+### In a general lextensive category
+ {#ExamplesOnLextensiveCats}
+
+Taking the fibres in the previous example to be finite, uniformly bounded (in the sense that all the fibres have size at most $N$), we can partition the set $Y$ as $\coprod_{n \leq N} \{y\in Y\mid |g^{-1}(y)| = n \} = \coprod_{n \leq N} Y_n$. Then, after choosing isomorphisms $g^{-1}(y) \simeq \{1,\ldots,|g^{-1}(y)|\}$ for each $y\in Y$, the polynomial endofunctor $P_g$ is naturally isomorphic to the functor
+$$
+  S \mapsto  \coprod_{n=0}^N Y_n\times S^n\,,
+$$
+as the hom-set $S^{\{1,\ldots,n\}} \simeq S^n$.
+Thus we have a "literal polynomial" in the object argument of the functor. Such literal polynomials make sense as endofunctors of any [[lextensive category]], for example any [[pretopos]]. However, this does not automatically mean that these endofunctors are actually _polynomial_ endofunctors, strictly speaking. 
+
++--{: .num_prop}
+###### Proposition
+Literal polynomial endofunctors on an [[lextensive category]] are polynomial endofunctors.
+=--
+
++-- {: .proof}
+###### Proof
+Note that in an arbitrary lextensive category there is little guarantee that any dependent products exist. However, the right adjoint to pullback functor associated to an iterated [[codiagonal]] $\coprod_{k=1}^n A\to A$ does exist, for any lextensive category. And this is all that is needed.
+
+Consider, then, the map $g$ defined as
+$$
+  \coprod_{n=1}^N \left(\coprod_{k=1}^n Y_n \right) \stackrel{\coprod_{n=1}^N \nabla_{Y_n}}{\longrightarrow} \coprod_{n=0}^N Y_n
+$$
+The pullback along $\nabla_{Y_n}$ of an arbitrary map $f\colon T\to Y_n$ is $\coprod_{k=1}^n T \stackrel{\coprod_{k=1}^n f}{\longrightarrow} \coprod_{k=1}^n Y_n$. The dependent product along $\nabla_{Y_n}$ of an arbitrary map can be written as a composite of dependent product functors, which are themselves coproducts of dependent product along the ordinary codiagonal $Y_n \sqcup Y_n \to Y_n$, and along identity maps. The dependent product of $S\sqcup T \stackrel{f\sqcup g}{\longrightarrow} Y_n \sqcup Y_n$ along the codiagonal can be easily checked to be $S\times_{Y_n} T \to Y_n$. So we know that the functor $\Pi_{\nabla_{Y_n}}$ exists, and it remains to calculate what the polynomial functor associated to $g$ is.
+
+This can be done summand by summand, i.e. for each $n=1,\ldots, N$, since the final dependent sum merely takes the coproduct of each dependent product. So the only thing to double check is that, for each $n$, 
+$$
+  \Pi_{\nabla_{Y_n}} (\coprod_{k=1}^n Y_n \times S \to \coprod_{k=1}^n Y_n) = (Y_n\times S^n \to Y_n)\,,
+$$
+which follows from the description of the pullback along $\nabla_{Y_n}$ and the defining properties of products, coproducts, and their interactions in a lextensive category.
+There is a boundary case, namely that corresponding to $n=0$, which amounts to dependent product along $0 \to Y_0$. But in an extensive category, initial objects are strict, and so we need to take the dependent product of $0\times S = 0 \to 0$, which is then just the identity map on $Y_0$.
+
+The final dependent product then gives the output of the polynomial functor, which is then the literal polynomial we started with, namely $\coprod_{n=0}^N Y_n\times S^n$.
+
+=--
+
+In the above proof, the only place that the existence of arbitrary pullbacks in a lextensive category was used is in constructing the general dependent product along the codiagonal. Obviously one still needs finite products, just to get off the ground. For the purposes of expressing the literal polynomial as a polynomial functor, this dependent product only need be applied to the projection map $(Y\sqcup Y) \times S \to (Y\sqcup Y)$. Thus while $\Pi_{\nabla_{Y_n}}$ may not exist in a general _extensive_ category with binary products, the composite $\Pi_{\nabla_{Y_n}}\circ (Y\sqcup Y)^*$ does. The extent to which such an endofunctor deserves to be called a polynomial endofunctor is up for debate.
+
+In a lextensive category with _countable_ coproducts (and the corresponding compatibility with pullbacks), for instance an [[infinitary pretopos]] one can extend the above example to endofunctors of the form
+$$
+  S \mapsto  \coprod_{n=0}^\infty Y_n\times S^n\,,
+$$
+with practically identical proof and no additional assumptions.
 
 ## The 2-category of polynomial functors
 
