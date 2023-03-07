@@ -24,17 +24,25 @@ The "ZX-calculus" is an elaboration for the purpose of [[quantum computation]] o
 
 (...)
 
-The "green spiders" represent applications of the [[Frobenius monad|Frobenius]] [[quantum reader monad]] ([Coecke & Duncan (2011), Theorem 1](#CoeckeDuncan11))
+* The "green spiders" represent applications of the [[Frobenius monad|Frobenius]] [[quantum reader monad]] ([Coecke & Duncan (2011), Theorem 1](#CoeckeDuncan11))
+
+* ...
+
+(...)
 
 ## References
 
-Homepage
+Landing page:
 
 * [zxcalculus.com](https://zxcalculus.com/)
 
-The original article:
+The calculus has its origin as a tool for organizing [[measurement-based quantum computation]]-protocols:
+
+* [[Ross Duncan]], [[Simon Perdrix]], *Rewriting Measurement-Based Quantum Computations with Generalised Flow*, in: *Automata, Languages and Programming. ICALP 2010*, Lecture Notes in Computer Science **6199**, Springer (2010) &lbrack;[doi:10.1007/978-3-642-14162-1_24](https://doi.org/10.1007/978-3-642-14162-1_24)&rbrack;
 
 * [[Bob Coecke]], [[Ross Duncan]], *A graphical calculus for quantum observables* &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/GreenRed.pdf)&rbrack;
+
+The official introduction of the calculus:
 
 * {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 &lbrack;[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)&rbrack;
 
