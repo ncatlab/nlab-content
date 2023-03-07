@@ -68,6 +68,10 @@ Lecture notes:
 
 * [[Daniel Baumann]], *[General Relativity](http://cosmology.amsterdam/general-relativity/)*, 2021 ([pdf](http://cosmology.amsterdam/wp-content/uploads/2021/10/GR-Oct19.pdf))
 
+and with focus on [[causal structure]], the [[Penrose singularity theorem]] and related aspects:
+
+* [[Edward Witten]], *Light Rays, Singularities, and All That*, Rev. Mod. Phys. **92** 45004 (2020) &lbrack;[arXiv:1901.03928](https://arxiv.org/abs/1901.03928), [doi:10.1103/RevModPhys.92.045004](https://doi.org/10.1103/RevModPhys.92.045004), lecture: [video 1](https://www.youtube.com/watch?v=-vS_WIa0vYo), [2](https://www.youtube.com/watch?v=4kEiNotDhck), [3](https://www.youtube.com/watch?v=Qje1ak6XF20), [4](https://www.youtube.com/watch?v=tzt25nkGg3Q), [5](https://www.youtube.com/watch?v=yC5BHqPw38Q), [6](https://www.youtube.com/watch?v=GHPL2_aomo8), [7](https://www.youtube.com/watch?v=tDeQ9ght3aI), [8](https://www.youtube.com/watch?v=fsmcGpKFbFU), [9](https://www.youtube.com/watch?v=Z_crNwSKpW0)&rbrack;
+
 Emphasis on [[mathematical physics]]
 
 * [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
@@ -76,6 +80,8 @@ Emphasis on [[mathematical physics]]
 
 
 Introductory exposition:
+
+
 
 * [[John Baez]], [The General Relativity Tutorial](http://math.ucr.edu/home/baez/gr/gr.html)
 
