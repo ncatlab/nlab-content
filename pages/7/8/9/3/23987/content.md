@@ -1041,7 +1041,7 @@ Stone-von Neumann**
 ## External presentations
  {#ExternalTalk}
 
-Presentations reporting on work at CQTS.
+External presentations reporting on work at CQTS.
 
 \linebreak
 
@@ -1090,7 +1090,7 @@ Presentations reporting on work at CQTS.
 
 \linebreak
 
-### Dec 2020
+### Dec 2022
 
 * {#ValeraDec2020} 17 Dec 2022 at [AQIS 2022](http://aqis-conf.org/2022/)
 
@@ -1108,25 +1108,59 @@ Presentations reporting on work at CQTS.
 
 \linebreak
 
-* 15 Jan 2023 at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi
+* 15 Jan 2023 
 
   [[Hisham Sati]]:
 
   **M-theory and matter via Twisted Equivariant Differential (TED) K-theory**
+
+  talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi
 
   &lbrack;[links](/nlab/show/M-Theory+and+Mathematics#Sati2023)&rbrack;
 
 
 \linebreak
 
-* 15 Jan 2023 at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi:
+* 15 Jan 2023 
 
-  [[Urs Schreiber]]
+  [[Urs Schreiber]]:
 
   **[[schreiber:Topological Quantum Gates from M-Theory]]**
 
+  talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi
+
   &lbrack;[links](/nlab/show/M-Theory+and+Mathematics#Schreiber2023)&rbrack;
-  
+
+\linebreak
+
+### Feb 2023
+
+\begin{imagefromfile}
+    "file_name": "Javed-Portrait-At-UAEU-NonLin-Conf-2023.jpg",
+    "width": 180,
+    "unit": "px",
+    "float": "right",
+    "margin": {
+        "top": -60,
+        "bottom": 20,
+        "right": 20, 
+        "left": 50
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+
+* {#JavedFeb2023} 20 Feb 2023
+
+  [[Amaria Javed]]:
+
+  **Simulating an all-optical quantum controlled-NOT gate using soliton scattering by a reflectionless potential well**
+ 
+  talk at *[UAE U Nonlinear Physics Group Conference](https://ncatlab.org/nlab/files/UAEU-Non%20LinPhyGrpConf2023-Program.pdf)*, Al Ain
+
+
 
 \linebreak
 
