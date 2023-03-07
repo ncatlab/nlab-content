@@ -12,7 +12,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 \linebreak
 
 \begin{imagefromfile}
-    "file_name": "CQTS-Main-Poster-221212.jpg",
+    "file_name": "CQTS-Main-Poster-230307b.jpg",
    "float": "right",
     "width": 590,
     "unit": "px",
