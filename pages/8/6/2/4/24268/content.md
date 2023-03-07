@@ -43,6 +43,19 @@ The following graphics shows this with labelling indicative of [momentum-space a
 
 > (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS22]]) 
 
+## Related concepts
+
+* [[quantum adiabatic theorem]]
+
+* [[Berry phase]]
+
+* [[quantum computation]]
+
+  * [[measurement-based quantum computation]]
+
+  * [[topological quantum computation]]
+
+
 
 ## References
  {#References}
