@@ -151,6 +151,8 @@ The [[complexification]] of $\mathfrak{su}(2)$ is the [[special linear Lie algeb
 
 * [[SU(2)]]
 
+* [[Pauli quantum gate]]
+
 ## References
 
 Textbook accounts:
