@@ -161,6 +161,11 @@ On the [[M5-brane elliptic genus]]:
 
 * {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) &lbrack;[arXiv:1811.07884](https://arxiv.org/abs/1811.07884), <a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [spire:1704312](https://inspirehep.net/literature/1704312)&rbrack;
 
+On [[Chern-Simons theory]] potentially applicable to a form of [[Berry curvature]] on the [[Brillouin torus]] of 3d [[topological semimetals]], with nodal lines playing the role of [[Wilson lines]]:
+
+* [[Biao Lian]], [[Cumrun Vafa]], [[Farzan Vafa]], [[Shou-Cheng Zhang]], *Chern-Simons theory and Wilson loops in the Brillouin zone*, Phys. Rev. B **95** (2017) 094512 &lbrack;[doi:10.1103/PhysRevB.95.094512](https://doi.org/10.1103/PhysRevB.95.094512)&rbrack;
+
+
 Introducing the [[swampland cobordism conjecture]]:
 
 * {#McNamaVafa17} [[Jacob McNamara]], [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355), [spire:1755441](https://inspirehep.net/literature/1755441))
