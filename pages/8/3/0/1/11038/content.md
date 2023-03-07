@@ -46,7 +46,7 @@ The first examples are linearizations of classical  [[logic gates]], or rather o
 
 \linebreak
 
-**[[NOT]]:**
+**[[NOT]]** or **[[Pauli gate|X]]**:
 
 \begin{imagefromfile}
     "file_name": "NOT_LogicGate-221025.jpg",
@@ -114,6 +114,12 @@ The following examples have no classical analog:
         "left": 10
     }
 \end{imagefromfile}
+
+\linebreak
+
+**[[Pauli gate]]**
+
+(...)
 
 \linebreak
 
