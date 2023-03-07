@@ -1,8 +1,10 @@
 
 
- * [homepage](http://homepages.ulb.ac.be/~rduncan/)
+* [homepage](http://homepages.ulb.ac.be/~rduncan/)
 
 * [publications](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/d/Duncan:Ross.html)
+
+* Head of Quantum Software at *[Quantinuum](https://www.quantinuum.com/)*
 
 ## Selected writings
 
@@ -15,9 +17,14 @@ A [[quantum programming language]] based on [[linear type theory]]:
 
 * [[Ross Duncan]], *Types for Quantum Computing*, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
 
-On [[finite quantum mechanics in terms of dagger-compact categories]]:
+On [[quantum information theory via dagger-compact categories]] and introducing the [[ZX-calculus]]
 
-* [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
+* [[Ross Duncan]], [[Simon Perdrix]], *Rewriting Measurement-Based Quantum Computations with Generalised Flow*, in: *Automata, Languages and Programming. ICALP 2010*, Lecture Notes in Computer Science **6199**, Springer (2010) &lbrack;[doi:10.1007/978-3-642-14162-1_24](https://doi.org/10.1007/978-3-642-14162-1_24)&rbrack;
 
+  > (motivated from [[measurement-based quantum computation]])
+
+* [[Bob Coecke]], [[Ross Duncan]], *A graphical calculus for quantum observables* &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/GreenRed.pdf)&rbrack;
+
+* {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 &lbrack;[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)&rbrack;
 
 category: people
