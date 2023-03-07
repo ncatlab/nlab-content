@@ -25,6 +25,9 @@ And here's the esh $&#643;$ (see [here](http://nforum.ncatlab.org/discussion/459
 
       &#643;
 
+## Selected writings
+
+* [[Mike Shulman]], _Semantics of multimodal adjoint type theory_ ([arXiv:2303.02572](https://arxiv.org/abs/2303.02572)) 
 
 category: people
 
