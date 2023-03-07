@@ -134,6 +134,8 @@ The concrete implementation of the above protocol on given quantum hardware will
 
 * [[quantum entanglement]]
 
+* [[measurement-based quantum computation]]
+
 * [[no-cloning theorem]]
 
 * [[quantum information theory]]
