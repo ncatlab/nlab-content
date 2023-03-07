@@ -133,6 +133,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[interpretation of quantum mechanics]]
 
+* [[mutually unbiased bases]]
+
 ## References
 
 ### General
