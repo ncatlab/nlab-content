@@ -12,8 +12,12 @@ This article gives a review and careful re-analysis of [[covariant phase spaces]
 
 This article solves the existence problem of local gauge invariant [[observables]] in [[general relativity]] by showing that while these do not exist as global functions, they do exist as a [[sheaf]] of functions on [[covariant phase space]]:
 
-* {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. 32 185019, 2015 ([arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
-Levico Terme, Italy, September 2014)
+* {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. 32 185019, 2015 ([arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html) Levico Terme, Italy, September 2014)
+
+On [[higher gauge fields]] viewed through the [[variational bicomplex]]:
+
+* [[Igor Khavkine]], *Topology, rigid cosymmetries and linearization instability in higher gauge theories*, Annales Henri Poincaré **16** (2015) 255–288, &lbrack;[arXiv:1303.2406](https://arxiv.org/abs/1303.2406), [doi:10.1007/s00023-014-0321-9](https://doi.org/10.1007/s00023-014-0321-9)&rbrack;
+
 
 On [[jet comonads]]:
 
