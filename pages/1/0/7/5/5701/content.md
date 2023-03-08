@@ -12,6 +12,11 @@ On [[moduli stabilization]] in [[heterotic string theory]]:
 
 * [[Sergei Gukov]], [[Shamit Kachru]], Xiao Liu, [[Liam McAllister]], _Heterotic Moduli Stabilization with Fractional Chern-Simons Invariants_,  Phys.Rev.D **69** (2004) 086008 &lbrack;[arXiv:hep-th/0310159](http://arxiv.org/abs/hep-th/0310159)&rbrack;
 
+On [[topological M-theory]]:
+
+* [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], *Topological M-theory as Unification of Form Theories of Gravity*, Adv. Theor. Math. Phys. **9** (2005) 603-665 &lbrack;[arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073), [doi:10.4310/ATMP.2005.v9.n4.a5](https://dx.doi.org/10.4310/ATMP.2005.v9.n4.a5)&rbrack;
+
+
 On [[perturbative quantum field theory|perturbative]] [[Chern-Simons theory with complex gauge group]]:
 
 * {#DGLZ09} [[Tudor Dimofte]], [[Sergei Gukov]], [[Jonatan Lenells]], [[Don Zagier]], _Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group_, Commun. Num. Theor. Phys. **3** (2009) 363-443 &lbrack;[arXiv:0903.2472](http://arxiv.org/abs/0903.2472), [doi:10.4310/CNTP.2009.v3.n2.a4](https://dx.doi.org/10.4310/CNTP.2009.v3.n2.a4)&rbrack;
