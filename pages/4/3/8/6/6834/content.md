@@ -140,6 +140,10 @@ For technical introduction to the [[RR-field]] as a higher gauge field (for more
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
+Deriving [[higher gauge symmetries]] through the [[variational bicomplex]]:
+
+* [[Igor Khavkine]], *Topology, rigid cosymmetries and linearization instability in higher gauge theories*, Annales Henri Poincaré **16** (2015) 255–288, &lbrack;[arXiv:1303.2406](https://arxiv.org/abs/1303.2406), [doi:10.1007/s00023-014-0321-9](https://doi.org/10.1007/s00023-014-0321-9)&rbrack;
+
 
 For foundations of higher [[prequantum field theory]] see 
 
