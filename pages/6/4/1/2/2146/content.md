@@ -11,7 +11,8 @@ He has written extensively on [[Chu spaces]], taking simple examples to show the
 
 On [[quantum programming]] via [[quantum logic]] understood as [[linear type theory]] [[categorical semantics|interpreted in]] [[symmetric monoidal categories]]:
 
-* {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proc. of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)*, Dallas (1992) &lbrack;[pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogic.pdf:file]], [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817)&rbrack;
+* {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
+
 
 
 category: people
