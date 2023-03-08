@@ -101,6 +101,11 @@ On a [[mysterious duality]]:
 
 * {#INV01} [[Amer Iqbal]], [[Andrew Neitzke]], [[Cumrun Vafa]], _A mysterious duality_, ([arXiv:hep-th/0111068](https://arxiv.org/abs/hep-th/0111068))
 
+On [[topological M-theory]]:
+
+* [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], *Topological M-theory as Unification of Form Theories of Gravity*, Adv. Theor. Math. Phys. **9** (2005) 603-665 &lbrack;[arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073), [doi:10.4310/ATMP.2005.v9.n4.a5](https://dx.doi.org/10.4310/ATMP.2005.v9.n4.a5)&rbrack;
+
+
 On [[M-theory on S1/G_HW times H/G_ADE]] and [[D=6 N=(1,0) SCFT]]:
 
 * {#DHTV14} [[Michele Del Zotto]], [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015) 054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
