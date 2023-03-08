@@ -219,7 +219,7 @@ Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
 
 ([Yetter 90](#Yetter90)) observes the the relation of linear logic to [[quantales]], which have otherwise been proposed as providing a quantum logic.)
 
-* {#Pratt92} [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
+* {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
  
 ([Pratt 92](#Pratt92) is maybe the first to really say that linear logic is a good kind of quantum logic.
 
