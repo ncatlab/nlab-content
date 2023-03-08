@@ -7,6 +7,9 @@
 
 On [[domain specific programming languages]]:
 
+* [[Paul Hudak]], *Building Domain-Specific Embedded Languages*, ACM Computing Surveys **28** 4e (1996) 196–es &lbrack;[doi:10.1145/242224.242477](https://doi.org/10.1145/242224.242477), [web](https://dl.acm.org/doi/fullHtml/10.1145/242224.242477)&rbrack;
+
+
 * [[Paul Hudak]], *Domain Specific Languages*, Chapter 3 (pp. 39–60) in:  Peter H. Salas (ed), *Handbook of Programming Languages*, Vol. III: *Little Languages and Tools*, MacMillan  (1998) &lbrack;[pdf](http://cs448h.stanford.edu/DSEL-Little.pdf), [[Hudak-DSLs.pdf:file]]&rbrack;
 
 
