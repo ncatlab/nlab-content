@@ -34,9 +34,9 @@ One way to understand it is as a [[TQFT]]-analog of the [[M2-brane]] [[sigma-mod
 
 The notion has been introduced in 
 
-* {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], section 7 of_Topological strings and their physical applications_, [hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178)
+* {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], section 7 of: *Topological strings and their physical applications_*, [hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178)
 
-* [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological M-theory as Unification of Form Theories of Gravity_ ([arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073))
+* [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], *Topological M-theory as Unification of Form Theories of Gravity*, Adv. Theor. Math. Phys. **9** (2005) 603-665 &lbrack;[arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073), [doi:10.4310/ATMP.2005.v9.n4.a5](https://dx.doi.org/10.4310/ATMP.2005.v9.n4.a5)&rbrack;
 
 
 
@@ -44,11 +44,9 @@ Under the term "[[Z-theory]]" aspects were discussed in
 
 * [[Nikita Nekrasov]], _Z Theory_, ([arXiv:hep-th/0412021](http://arxiv.org/abs/hep-th/0412021))
 
+Overview:
 
-An introduction is in 
-
-* [[Andrew Neitzke]], _Elements of topological M-theory_ (2005) ([pdf](http://uw.physics.wisc.edu/~strings/group/slides.05.spring/neitzke.pdf))
-
+* {#Neitzke2005} [[Andrew Neitzke]], *Elements of topological M-theory* (2005) &lbrack;[[Neitzke-TopologicalMTheory.pdf:file]]&rbrack;
 
 The _[[topological membrane]]_ is made explicit in 
 
