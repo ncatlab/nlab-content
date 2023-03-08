@@ -27,3 +27,11 @@ In [[linear logic]] and its categorical models, the [[exponential modality]] ver
 ## In sequent calculus
 
 ... to come ...
+
+## In category theory
+
+... to come ...
+
+## Related concepts
+
+- [[Graded Seely isomorphism]]
