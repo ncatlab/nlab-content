@@ -121,3 +121,6 @@ Discussion in relation to the [[J-homomorphism]]:
 * [Bernoulli Numbers and the J-homomorphism](https://golem.ph.utexas.edu/category/2020/12/bernoulli_numbers_and_the_jhom.html) at the $n$-Category Café
 
 
+For an introduction to the [[third stable homotopy group of spheres]], see:
+
+* J. Baez, *This Week's Finds in Mathematical Physics: Weeks 101 to 150*, ([arXiv:2303.02785](https://arxiv.org/abs/2303.02785)).
