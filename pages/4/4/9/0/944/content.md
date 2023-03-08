@@ -28,7 +28,7 @@ The __Sierpi&#324;ski space__ $\Sigma$ is the [[topological space]]
 
 (We could exchange "0" and "1" here, the result would of course be [[homeomorphism|homeomorphic]]).
 
-Equivalently we may think of the underlying [[set]] as the set of of [[classical mathematics|classical]] [[truth values]]  $\{\bot, \top\}$, equipped with the [[specialization topology]], in which $\{\bot\}$ is [[closed subset|closed]] and $\{\top\}$ is an [[open subset|open]] but not conversely.  
+Equivalently we may think of the underlying [[set]] as the set of [[classical mathematics|classical]] [[truth values]]  $\{\bot, \top\}$, equipped with the [[specialization topology]], in which $\{\bot\}$ is [[closed subset|closed]] and $\{\top\}$ is an [[open subset|open]] but not conversely.  
 
 =--
 
