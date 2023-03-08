@@ -59,7 +59,7 @@ These four names have different reasons behind the use of the name:
 ### ML identity types
  {#IdeaMLIdentityTypes}
 
-The [[inference rules]] for identity types in [[Martin-Löf dependent type theory|Martin-Löf-]]/[[homotopy type theory]] (ML identity types) may be understood as follows:
+The [[inference rules]] for identity types in [[Martin-Löf dependent type theory|Martin-Löf-]]/[[homotopy type theory]] (ML identity types) may be understood as follows (exposition and diagrams follow [[schreiber:Topological Quantum Gates in Homotopy Type Theory|Myers et al. 2023]]):
 
 \linebreak
 
