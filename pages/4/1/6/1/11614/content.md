@@ -44,6 +44,8 @@ For [[differential equations]]:
 
 ## References
 
+* [[Paul Hudak]], *Building Domain-Specific Embedded Languages*, ACM Computing Surveys **28** 4e (1996) 196–es &lbrack;[doi:10.1145/242224.242477](https://doi.org/10.1145/242224.242477), [web](https://dl.acm.org/doi/fullHtml/10.1145/242224.242477)&rbrack;
+
 * [[Paul Hudak]], *Domain Specific Languages*, Chapter 3 (pp. 39–60) in:  Peter H. Salas (ed), *Handbook of Programming Languages*, Vol. III: *Little Languages and Tools*, MacMillan  (1998) &lbrack;[pdf](http://cs448h.stanford.edu/DSEL-Little.pdf), [[Hudak-DSLs.pdf:file]]&rbrack;
 
 * [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=685738), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
