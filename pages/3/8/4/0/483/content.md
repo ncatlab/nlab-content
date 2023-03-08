@@ -197,7 +197,7 @@ When forgetting basepoints, then the previous remark and example equally apply t
 
 #### Definition
 
-\begin{terminology} Inductively in $n \in \mathbb{N}$, an *$n$-framed patch* $U \subset \mathbb{R}^n$ is a non-empty subspace of $\mathbb{R}^n$ with the property that its projection $\pi_n(U)$ is an $(n-1)$-framed patch, such that $\pi_n : U \to \pi_n(U)$ has fibers $\pi^{-1}_n(x)$ of the form $[\gamma_-(u),\gamma_+(u)]$ for two continuous sections $\gamma_\pm : \pi_n(U) \to \pi_n(U) \times \mathbb{R}$. Given two $n$-framed patches $U$ and $V$, a *(partial) $n$-framed patch map* $F : U \to V$ is a (partial) continuous map which descends along $\pi_n$ to a (partial) $(n-1)$-framed patch map $F_{n-1} : \pi_n (U) \to \pi_n(V)$ such that mappings of fibers $F : \pi\inv_n(x) \to \pi\inv_n(F_{n-1}(x))$ are monotone.
+\begin{terminology} Inductively in $n \in \mathbb{N}$, an *$n$-framed patch* $U \subset \mathbb{R}^n$ is a non-empty subspace of $\mathbb{R}^n$ with the property that its projection $\pi_n(U)$ is an $(n-1)$-framed patch, such that $\pi_n : U \to \pi_n(U)$ has fibers $\pi^{-1}_n(x)$ of the form $[\gamma_-(u),\gamma_+(u)]$ for two continuous sections $\gamma_\pm : \pi_n(U) \to \pi_n(U) \times \mathbb{R}$. Given two $n$-framed patches $U$ and $V$, a *(partial) $n$-framed patch map* $F : U \to V$ is a (partial) continuous map which descends along $\pi_n$ to a (partial) $(n-1)$-framed patch map $F_{n-1} : \pi_n (U) \to \pi_n(V)$ such that mappings of fibers $F : \pi^{-1}_n(x) \to \pi^{-1}_n(F_{n-1}(x))$ are monotone.
 \end{terminology}
 
 Note that $n$-framed patches are [[compact]] and [[contractible]] spaces.
