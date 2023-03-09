@@ -32,6 +32,6 @@ While all of the above notions are "in essence" equivalent, they differ in some 
 
 * {#Hummon} Benjamin Hummon. _Surface diagrams for gray-categories_. Phd Thesis, UC San Diego. [pdf](https://escholarship.org/uc/item/5b24s9cc)
 
-* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([pdfs](https://cxdorn.github.io/manifold-diagram-paper/))
+* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758))
 
 [[!redirects surface diagrams]]
