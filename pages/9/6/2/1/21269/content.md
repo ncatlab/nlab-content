@@ -31,5 +31,5 @@ Higher-dimensional tangles, i.e. $m$-manifold with corners embedded in the $n$-c
 
 * {#BaezDolan95} [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002))
 
-* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([pdfs](https://cxdorn.github.io/manifold-diagram-paper/))
+* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758))
 
