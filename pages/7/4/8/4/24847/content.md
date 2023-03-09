@@ -68,7 +68,7 @@ More in-depth discussion of "dynamic lifting" is in:
 ### Categorical semantics
  {#ReferencesCategoricalSemantics}
 
-Proposals for [[categorical semantics]] of "dynamic lifting", mostly following along the lines of some [[dependent linear type theory]]:
+Proposals for [[categorical semantics]] of "dynamic lifting", mostly following along the lines of some [[dependent linear type theory]], such as found in [[Quipper]]:
 
 * [[Mathys Rennela]], [[Sam Staton]], *Classical Control, Quantum Circuits and Linear Logic in Enriched Category Theory*, Logical Methods in Computer Science **16** (2020) lmcs:6192 &lbrack;[arXiv:1711.05159](https://arxiv.org/abs/1711.05159)<a href="https://doi.org/10.23638/LMCS-16(1:30)2020">doi:10.23638/LMCS-16(1:30)2020</a>&rbrack;
 
@@ -86,9 +86,10 @@ and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, N
 
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *A biset-enriched categorical model for Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13039](https://arxiv.org/abs/2204.13039)&rbrack;
 
-
 * [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *Proto-Quipper with dynamic lifting*, in proceedings of *[Quantum Physics and Logic 2022](https://www.qplconference.org/)* &lbrack;[arXiv:2204.13041](https://arxiv.org/abs/2204.13041)&rbrack;
 
-* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+* {#CQTS22} [[Urs Schreiber]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
+
+* [[Dongho Lee]], *Formal Methods for Quantum Programming Languages*, Paris Saclay (Dec 2022) &lbrack;[hal:tel-03895847](https://hal.science/LMF/tel-03895847)&rbrack;
 
 
