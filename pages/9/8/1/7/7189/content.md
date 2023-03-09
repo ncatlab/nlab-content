@@ -79,6 +79,8 @@ Its algebras are precisely the [[sober spaces]].
 
 * For the codensity monad induced by the inclusion of [[homotopy types with finite homotopy groups]] into all [[homotopy types]] see [there](homotopy+type+with+finite+homotopy+groups#CodensityMonadOfInclusionIntoAllHomotopyTypes).
 
+* The codensity monad induced by the [[Yoneda embedding]] is isomorphic to the monad induced by the [[Isbell adjunction]].
+
 ## Properties
 
 ....
