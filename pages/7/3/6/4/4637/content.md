@@ -306,7 +306,7 @@ Isbell duality says that these are adjoint functors: $Y$ is right adjoint to $Z$
 
 $Spec$ is the [[left Kan extension]] of the [[Yoneda embedding]] along the contravariant Yoneda embedding, while $\mathcal{O}$ is the left Kan extension of the contravariant Yoneda embedding along the Yoneda embedding. 
 
-The [[codensity monad]] of the [[Yoneda embedding]] is isomorphic to the monad induced by the Isbell adjunction, $Spec \mathcal{O}$ ([Di Liberti 19, Thrm 2.7](#DiLiberti)).
+The [[codensity monad]] of the [[Yoneda embedding]] is isomorphic to the monad induced by the Isbell adjunction, $Spec \mathcal{O}$ ([Kock 66, Theorem 4.1](#Kock66) and [Di Liberti 19, Theorem 2.7](#DiLiberti)).
 
 ### Respect for limits
 
@@ -612,6 +612,8 @@ The original articles on Isbell duality and the [[Isbell envelope]] are
 * {#Isbell66} [[John Isbell]], _Structure of categories_, Bulletin of the American Mathematical Society 72 (1966), 619&#8211; 655. ([project euclid](http://projecteuclid.org/euclid.bams/1183528163))
 
 * {#Isbell67} [[John Isbell]], _Normal completions of categories_, Reports of the Midwest Category Seminar, vol. 47, Springer, 1967, 110&#8211;155.
+
+* {#Kock66} [[Anders Kock]]. _Continuous Yoneda representation of a small category_. University of Aarhus, Denmark, 1966.
 
 More recent discussion is in
 
