@@ -38,7 +38,9 @@ Additionally, if [[monoidal categories]] are regarded as one-object 2-categories
 
 Icons are also used to construct [[distributors]] in the context of enriched bicategories.
 
+## Relation to pseudo double categories
 
+A bicategory can be viewed as a [[pseudo double category]] whose tight-cells are trivial. An icon is then precisely a transformation of oplax functors of pseudo double categories.
 
 ## References
 
