@@ -276,11 +276,7 @@ Further references are given in [[directed homotopy theory]].
 
 Some 'local combinatorial' aspects of framed spaces are discussed in:
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdf](https://arxiv.org/abs/2112.14700))
-
-An overview of the book's result, as well as their application to the theory of [[manifold diagram|manifold diagrams]] is given in:
-
-* {#DornDouglas22B} Christoph Dorn and Christopher Douglas, _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
+* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700))
 
 A global (higher-categorical) perspective on directed spaces is taken in:
 
