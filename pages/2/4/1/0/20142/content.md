@@ -5,7 +5,7 @@
 
 ## Definition
 
-Let $V$ be a [[monoidal category]] and $C$ a $V$-[[enriched category]] with [[products]], in the enriched sense that we have a $V$-natural isomorphisms of [[hom-objects]] in $V$:
+Let $V$ be a [[monoidal category]] with [[products]] and $C$ a $V$-[[enriched category]] with [[products]], in the enriched sense that we have a $V$-natural isomorphisms of [[hom-objects]] in $V$:
 
 $$ C(Z, X\times Y) \cong C(Z,X) \times C(Z,Y). $$
 
