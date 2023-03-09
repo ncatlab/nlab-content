@@ -335,7 +335,7 @@ Instead of relating (structured) cobordisms with homs into Thom spectra, one may
 
 * {#BRS} Sandro Buonchristiano, Colin Rourke, and Brian Sanderson. _A geometric approach to homology theory_. Vol. 18. Cambridge University Press, 1976.
 
-The stratified Pontrjagin-Thom construction may also be considered in higher categorical terms, where it relates functors between weak [[computad|computads]] to [[manifold diagram|manifold diagrams]]. This is discussed at:
+The stratified Pontrjagin-Thom construction may also be considered in higher categorical terms, where it relates functors between [[geometric computad|geometric computads]] to [[manifold diagram|manifold diagrams]]. This is discussed at:
 
 * {#DornCategoricalTP} [[Christoph Dorn]], _The categorical Pontryagin-Thom construction_. [link](https://cxdorn.github.io/tcptc/)
 
