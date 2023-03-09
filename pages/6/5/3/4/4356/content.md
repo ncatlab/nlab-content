@@ -36,13 +36,13 @@ By tensoring with a [[Landweber exactness|Landweber exact ring]], this induces v
 
 ## References
 
-A model for a multiplicative differential refinement of [[complex cobordism cohomology theory]], the theory represented by the [[Thom spectrum]],  is in 
+A model for a multiplicative differential refinement of [[complex cobordism cohomology theory]], the theory represented by the [[Thom spectrum]] [[MU]],  is in 
 
 * [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schr&#246;der,  Moritz Wiethaup,  _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
 
-See also:
+Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
 
-* Knut Bjarte Haus, [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+* [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
 
 
 
