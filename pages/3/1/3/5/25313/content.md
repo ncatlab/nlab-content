@@ -34,4 +34,4 @@ In [[linear logic]] and its categorical models, the [[exponential modality]] ver
 
 ## Related concepts
 
-- [[Graded Seely isomorphism]]
+- [[graded Seely isomorphism]]
