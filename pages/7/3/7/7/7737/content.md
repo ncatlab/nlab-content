@@ -201,10 +201,6 @@ Poset-stratified spaces and the conicality condition, as well as the constructio
 
 * {#LurieHA} Jacob Lurie, [[Higher Algebra]], 2012, in particular Appendix A ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
 
-The perspective of stratifications as spatial decompositions that determine exit path posets and characteristic maps can be found e.g. in:
-
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021, in particular Appendix B ([pdf](https://cxdorn.github.io/assets/pdfs/fct_latest.pdf))
-
 
 [[!redirects stratified space]]
 [[!redirects stratified spaces]]
