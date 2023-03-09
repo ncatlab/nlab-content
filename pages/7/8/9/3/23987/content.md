@@ -6,7 +6,7 @@
 
 The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
-[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[Hypothesis H|in string theory]]. 
+[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[algebraic topology]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* ([[schreiber:M/F-Theory as Mf-Theory|aka]] *[[framed manifold|framed]] [[cobordism cohomology|Cobordism]]*) and [[generalized cohomology|generalized]] [[twisted cohomology|twisted]] [[equivariant cohomology|equivariant]] [[differential cohomology|differential]] (TED) [[cohomology]] theory, developed [[Hypothesis H|in string theory]]. 
 
 
 \linebreak
@@ -628,6 +628,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Technology with Trapped Ions**
 
+  video: [YT](https://www.youtube.com/watch?v=40_UDRGRP3Q)
+
   > Quantum technology is a rapidly advancing field that is poised to revolutionize numerousindustries, including computing, communications, sensing, and [[cryptography]]. At its core, quantum technology relies on the principles of [[quantum mechanics]], which allow for the creation of devices that operate on the quantum level. These devices based on quantum technology can perform tasks that are impossible or prohibitively difficult for [[classical physics|classical]] devices. One of the most promising applications of quantum technology is in [[quantum computing]], quantum communications, and quantum sensors.
 
   > Trapped ions are one of the promising platform for [[quantum computing]] and sensing. In this approach, individual ions are trapped in a vacuum chamber using [[electromagnetic fields]] and manipulated using [[lasers]] to perform quantum operations. As a quantum system, trapped ions offer several advantages. First, they have long coherence times, meaning that the quantum state of the ion can be preserved for a longer period, allowing for more complex calculations. Second, trapped ions can be precisely controlled and manipulated, allowing for the implementation of high-fidelity quantum gates. Finally, trapped ions can be entangled with one another, allowing for the implementation of quantum algorithms that are impossible to simulate on classical computers. Trapped ions also have great potential as quantum sensors. By using the properties of the ions to measure changes in their environment, trapped ions can detect minute changes in [[temperature]], [[magnetic fields]], and [[electric fields]], among other things. This makes them useful for applications in precision measurement, such as in atomic clocks, [[gravitational wave]] detection, and magnetometry.
@@ -1054,11 +1056,13 @@ Stone-von Neumann**
 
 * {#QuickMar2023} 8 Mar 2023
 
-  [[Gereon Quick]],
+  [[Gereon Quick]] (Norwegian University of Science and Technology):
 
   **Geometric Hodge filtered complex cobordism**
 
   cf.: [arXiv:2210.13259](https://arxiv.org/abs/2210.13259)
+
+  video: [YT](https://www.youtube.com/watch?v=pMu0gT5kIBo)
 
   > [[differential cohomology|Differential cohomology theories]] on [[smooth manifolds]] play an important role in [[mathematical physics]] and other areas of [[mathematics]]. In their [[Quadratic Functions in Geometry, Topology, and M-Theory|seminal work]], [[Mike Hopkins|Hopkins]] and [[Isadore Singer|Singer]] showed that every [[Whitehead-generalized cohomology theory|topological cohomology theory]] has a differential refinement. In this talk, I will first report on joint work with [[Mike Hopkins]] on a similar refinement of [[complex cobordism]] on [[complex manifolds]] which takes the [[Hodge filtration]] into account. I will then present joint work with [[Knut Haus]] in which we give a concrete geometric cycle model for this theory. This allows us to give a concrete description of an [[Abel-Jacobi map|Abel-Jacobi type]] [[secondary characteristic class|secondary invariant]] for topologically trivial cobordism cycles. 
 
