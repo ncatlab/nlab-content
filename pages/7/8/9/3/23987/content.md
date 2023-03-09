@@ -616,7 +616,25 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > [[quantum mechanics|Quantum Mechanics]] offers phenomena which defy our everyday observation. These are not just theoretical principles but have wide range applications in [[quantum computation]] and [[quantum information]], making some tasks possible which are impossible to be done [[classical physics|classically]]. This talk will take you to the journey through quantum computation, starting from underlying principles to the applications, including my own own contribution to it.  
 
 
+\linebreak
 
+### Mar 2023
+
+\linebreak
+
+* {#NizamaniIqbal2023} 6 Mar 2023
+
+  Altaf Nizamani and Qirat Iqbal (University of Sindh, Pakistan):
+
+  **Quantum Technology with Trapped Ions**
+
+  > Quantum technology is a rapidly advancing field that is poised to revolutionize numerousindustries, including computing, communications, sensing, and [[cryptography]]. At its core, quantum technology relies on the principles of [[quantum mechanics]], which allow for the creation of devices that operate on the quantum level. These devices based on quantum technology can perform tasks that are impossible or prohibitively difficult for [[classical physics|classical]] devices. One of the most promising applications of quantum technology is in [[quantum computing]], quantum communications, and quantum sensors.
+
+  > Trapped ions are one of the promising platform for [[quantum computing]] and sensing. In this approach, individual ions are trapped in a vacuum chamber using [[electromagnetic fields]] and manipulated using [[lasers]] to perform quantum operations. As a quantum system, trapped ions offer several advantages. First, they have long coherence times, meaning that the quantum state of the ion can be preserved for a longer period, allowing for more complex calculations. Second, trapped ions can be precisely controlled and manipulated, allowing for the implementation of high-fidelity quantum gates. Finally, trapped ions can be entangled with one another, allowing for the implementation of quantum algorithms that are impossible to simulate on classical computers. Trapped ions also have great potential as quantum sensors. By using the properties of the ions to measure changes in their environment, trapped ions can detect minute changes in [[temperature]], [[magnetic fields]], and [[electric fields]], among other things. This makes them useful for applications in precision measurement, such as in atomic clocks, [[gravitational wave]] detection, and magnetometry.
+
+  > One of the major challenges facing trapped ion systems is scalability. While individual ions have been used to perform simple quantum algorithms, scaling the system up to include a large number of ions is a difficult task. However, recent advances in ion trap technology have made it possible to trap larger numbers of ions and transport them in 2D and 3D space to perform more complex operations for quantum computation and sensing experiments. Realization of such devices is not far away. As compared to present atomic clocks, a new generation of quantum-enhanced clocks is now emerging showing significantly improved accuracy. Sensitive physical measurements are an essential component of modern science and technology. Developments in quantum sensors will outdate their classical counterparts.
+
+  > We will present recent developments and opportunities in quantum technology applications based on trapped ions, including quantum computation and sensing.
 
 
 
@@ -1030,10 +1048,19 @@ Stone-von Neumann**
 
   > [[moduli space of flat connections|Moduli spaces of flat principal bundles]] on [[surfaces]] are a prominent object in [[mathematical physics]], [[algebraic geometry]] and [[geometric representation theory]]. In particular they are the [[phase space]] of 3-dimensional [[Chern-Simons theory]] on a surface times an interval and hence equipped with a [[symplectic structure]] going back to the work of [[Atiyah]] and [[Bott]]. Various [[deformation quantizations]] of the [[algebra of functions]] have been constructed. Ben-Zvi, Brochier & Jordan constructed "local to global" quantizations using [[factorization homology]] of representation categories of [[quantum groups]]. Local to global constructions in this setting only work if the [[higher geometry|higher geometric]] [[higher structure|structure]] of the moduli space of flat bundles is taken into account, i.e. it is treated as a [[moduli stack]]. In this setting the algebra of functions does not contain all the information and should be replaced by the category of [[quasicoherent sheaves]].
 
-
   > In my talk we will explore [[categorifications]] of deformation quantization as deformations of [[symmetric monoidal categories]] (algebras over the [[E-infinity operad|$E_\infty$-operad]]) into $E_i$-categories and their interplay with factorization homology. The main result is that 2-dimensional factorization homology "commutes" with [[quantization]] in a way relating $E_0$-quantizations to braided ($E_2$) quantizations. We will illustrate our results with examples from [[Poisson geometry]] and [[quantum groups]]. As a specific application we show that deformation quantizations of the moduli space of flat bundles based on Kontsevich integrals constructed by Li, Bland & Ševera are equivalent to quantizations constructed by Alekseev, Grosse & Schomerus based on quantum groups. The talk is based on joint work in progress with Eilind Karlsson, [[Corina Keller]], and [[Jan Pulmann]].  
 
- 
+\linebreak
+
+* {#QuickMar2023} 8 Mar 2023
+
+  [[Gereon Quick]],
+
+  **Geometric Hodge filtered complex cobordism**
+
+  cf.: [arXiv:2210.13259](https://arxiv.org/abs/2210.13259)
+
+  > [[differential cohomology|Differential cohomology theories]] on [[smooth manifolds]] play an important role in [[mathematical physics]] and other areas of [[mathematics]]. In their [[Quadratic Functions in Geometry, Topology, and M-Theory|seminal work]], [[Mike Hopkins|Hopkins]] and [[Isadore Singer|Singer]] showed that every [[Whitehead-generalized cohomology theory|topological cohomology theory]] has a differential refinement. In this talk, I will first report on joint work with [[Mike Hopkins]] on a similar refinement of [[complex cobordism]] on [[complex manifolds]] which takes the [[Hodge filtration]] into account. I will then present joint work with [[Knut Haus]] in which we give a concrete geometric cycle model for this theory. This allows us to give a concrete description of an [[Abel-Jacobi map|Abel-Jacobi type]] [[secondary characteristic class|secondary invariant]] for topologically trivial cobordism cycles. 
 
 
 \linebreak
