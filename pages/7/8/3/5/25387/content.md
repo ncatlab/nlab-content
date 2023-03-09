@@ -26,7 +26,7 @@ This is a generalization of the [[Seely isomorphism]] to [[graded modalities]]. 
 $$
 !_{r}(A \oplus B) \cong \underset{s+t=r}{\bigoplus} !_{s}A \otimes !_{t}A
 $$
-One needs to combine [[graded linear logic]] and [[differential linear logic]] to go from the Seely isomorphism to the more general graded Seely isomorphism. The usual Seely isomorphism is obtained as a graded Seely isomorphism when one takes $R$ equal to the zero rig.
+One needs to combine [[graded linear logic]] and [[differential linear logic]] to go from the usual Seely isomorphism of linear logic to the more general graded Seely isomorphism. The usual Seely isomorphism is obtained as a graded Seely isomorphism when one takes $R$ equal to the zero rig.
 ## In sequent calculus
 
 ... to come ...
