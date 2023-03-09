@@ -316,7 +316,11 @@ The earliest accounts of enriched categories were given independently by Bénabo
 
 though Kelly also gave an account for enrichment in arbitrary categories (then deducing necessary structure on a tensor product):
 
-* [[Gregory Maxwell Kelly]]. "Tensor products in categories." Journal of Algebra 2.1 (1965): 15-37.
+* [[Gregory Maxwell Kelly]]. _Tensor products in categories_. Journal of Algebra 2.1 (1965): 15-37.
+
+See also:
+
+* [[Fred Linton]]. _Autonomous categories and duality of functors_. Journal of Algebra 2.3 (1965): 315-349.
 
 Enrichment in a [[multicategory]] was first suggested in:
 
