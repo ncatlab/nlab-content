@@ -1,4 +1,4 @@
-[website](http://wwwmath.uni-muenster.de/u/gquick/)
+[website](https://folk.ntnu.no/gereonq/)
 
 ## Selected writings
 
