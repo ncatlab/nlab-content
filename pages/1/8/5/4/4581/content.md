@@ -210,7 +210,7 @@ $$
 
 =--
 
-More abstractly, the horizontal complex may be understood in terms of [[differential operators]] and the [[jet comonad]] as follows.
+Yet more abstractly, the horizontal complex may be understood in terms of [[differential operators]] and the [[jet comonad]] as follows.
 
 +-- {: .num_remark #HorizontalComplexViaDifferentialOperators}
 ###### Remark
