@@ -18,9 +18,10 @@ On the [[e-invariant]] and the [[J-homomorphism]]:
 
 * [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
 
-On [[differential cobordism cohomology theory]]:
+Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
 
-* Knut Bjarte Haus, [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+* [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+
 
 
 
