@@ -23,8 +23,6 @@ The notion of [[site]] may be [[internalization|internalized]] in any [[topos]] 
 
 ## Definition
 
-The definition of internal site is obvious and straightforward.
-
 +-- {: .num_defn}
 ###### Definition
 
