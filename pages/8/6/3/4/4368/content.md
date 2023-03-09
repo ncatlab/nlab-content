@@ -76,7 +76,7 @@ Some other general treatments of Gabriel-Ulmer duality (and generalizations to o
 
 For a 2-dimensional analogue see the slides from a 2010 talk by Makkai: [pdf](http://www.math.mcgill.ca/makkai/scans/2010Washington0001.pdf)
 
-A formal-categorical account using [[Yoneda structure|Yoneda structures]] can be found in
+A formal-categorical account using [[KZ-doctrines]] can be found in
 
 * {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , ([arXiv:1804.08710](https://arxiv.org/abs/1804.08710))
 
