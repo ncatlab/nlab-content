@@ -8,6 +8,4 @@ Framed combinatorial topology studies combinatorial-topological concepts, such a
 
 ## References
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdf](https://cxdorn.github.io/assets/pdfs/fct_latest.pdf))
-
-* {#DornDouglas22B} Christoph Dorn and Christopher Douglas, _A brief introduction to framed combinatorial topology_, 2022 ([pdf](https://cxdorn.github.io/assets/pdfs/fctintro_latest.pdf))
+* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700))
