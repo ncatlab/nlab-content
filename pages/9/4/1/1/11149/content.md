@@ -1,5 +1,9 @@
 
+See:
 
-## References
+* [[modular group]]
 
-* Wikipedia, _[Modular group](http://en.wikipedia.org/wiki/Modular_group)_
+* [[modular tensor category]]
+
+[[!redirects modular transformation]]
+
