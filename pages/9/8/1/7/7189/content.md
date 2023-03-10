@@ -109,6 +109,10 @@ Its algebras are precisely the [[sober spaces]].
 
 ## References
 
+One of the first references is
+
+* [[Anders Kock]], _Continuous Yoneda Representations of a Small Category_, Preprint Aarhus University (1966). ([pdf](http://home.math.au.dk/kock/CYRSC.pdf))
+
 A very nice overview is provided by
 
 * {#Leinster13}[[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **12** no.13 (2013) pp.332-370.  ([abstract](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html))
