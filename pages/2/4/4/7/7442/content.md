@@ -25,7 +25,7 @@ The archetypical example is the [[(infinity,2)-category of (infinity,1)-categori
 
 ## Related concepts
 
-* [[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]*
+* [[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]
 
 * [[directed homotopy type theory]]
 
