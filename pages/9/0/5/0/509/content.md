@@ -13,18 +13,29 @@
 =--
 =--
 
-
 # Pointed objects
 * table of contents
 {: toc}
 
 ## Idea
+ {#Idea}
 
-In a [[category]] $C$ with a [[terminal object]] $1$, a **pointed object** is an [[object]] $X$ equipped with a [[global element]] $1\to X$, often called its __basepoint__.
+In a [[category]] $C$ with a [[terminal object]] $\ast \,\in\, C$, a **pointed object** $(X,x)$ is an [[object]] $X$ equipped with a [[global element]], hence with a [[morphism]] of the form $x \,\colon\, \ast \to X$, often called the _[[basepoint]]_.
 
-A pointed object is distinguished from an [[inhabited set|inhabited]] one in that the chosen point is _structure_ rather than a property.  In particular, a morphism of pointed objects is a morphism in the original category which preserves the points.  In other words, the category of pointed objects in $C$ is the [[under category|co-slice category]] $1/C$ under the terminal object.
+Pointed objects are distinguished from *[[inhabited objects]] * in that the chosen point is _[[structure]]_ rather than a [[property]].  In particular, a [[homomorphism]] of pointed objects is a [[morphism]] in the original category which preserves the basepoints.  In other words, the category of pointed objects in $C$ is the [[under category|co-slice category]] $\ast/C$ under the [[terminal object]].
 
-There is an obvious [[forgetful functor]] from $1/C$ to $C$.  If $C$ has [[finite colimit|finite]] [[coproducts]], this functor has a [[left adjoint|left]] [[adjoint functor]] which takes an object $X$ to the coproduct $1\sqcup X$, equipped with its obvious point (this functor underlies the "[[maybe monad]]").  This is often written $X_+$ and called "$X$ with a disjoint basepoint adjoined." A pointed object is equivalently a [[module over a monad]] of this monad.
+There is an obvious [[forgetful functor]] which forgets the basepoint
+
+$$
+  \begin{array}{ccc}
+    \ast/C &\longrightarrow& C
+    \\
+    (X,x) &\mapsto& X
+    \mathrlap{\,.}
+  \end{array}
+$$  
+
+If $C$ has [[finite colimit|finite]] [[coproducts]], this functor has a [[left adjoint|left]] [[adjoint functor]] which takes an object $X$ to the coproduct $\ast\sqcup X$, equipped with its obvious point (this functor underlies the "[[maybe monad]]").  This is often written $X_+$ and called "$X$ with a disjoint basepoint adjoined." A pointed object is equivalently a [[module over a monad]] for this monad.
 
 ## Definition
 
@@ -82,13 +93,40 @@ For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice 
 
 ## Examples
 
-* The basic example are [[pointed sets]].
+\begin{example}\label{PointedSets}
+ The poitned objects in [[Sets]] are [[pointed sets]].
+\end{example}
 
-* [[natural numbers object]]s, [[monoid object]]s, and [[group object]]s in a category are pointed objects. 
+\begin{example}
+  All [[internalization|internal notions]] of [[algebra|algebraic]] [[structures]] with [[units]], such as
 
-* [[pointed topological spaces]] and [[pointed simplicial sets]] are important in [[homotopy theory]] (where they are often called **based**) for instance for the discussion of [[homotopy fibers]], [[loop space objects]] etc. See also at _[[classical model structure on pointed topological spaces]]_, which makes them be models for [[pointed homotopy types]].
+  * [[natural numbers objects]] 
 
-* Pointed $n$-[[n-categories]] figure prominently in the [[delooping hypothesis]]; see also [[k-tuply monoidal n-category]].  In particular, a fancy name for a pointed set is a _0-tuply monoidal 0-category_.
+  * [[monoid objects]] 
+ 
+  * [[group objects]] 
+
+are in particular (i.e. have [[underlying]]) pointed objects in their ambient categories.
+\end{example}
+
+\begin{example}
+[[pointed topological spaces|Pointed topological spaces]] and [[pointed simplicial sets]] are important in [[homotopy theory]] (where they are often called **based**), for instance for the discussion of [[homotopy fibers]], [[loop space objects]] etc. See also at _[[classical model structure on pointed topological spaces]]_, which makes them be models for [[pointed homotopy types]].
+\end{example}
+
+
+\begin{example}\label{PointedCategories}
+**(relation to pointed categories)**
+\linebreak
+  If $\mathcal{D}$ is a "[[pointed category]]" in the sense that it contains a [[zero object]] (hence a [[terminal object]] which is also [[initial object|initial]]), then each of its objects carries a unique [[structure]] of a pointed object (by the [[universal property]] of [[initial objects]]).
+
+Moreover, any category $\mathcal{C}^{\ast/}$ of pointed objects is a [[pointed category]], in this sense, with the [[zero object]] of $\mathcal{C}^{\ast/}$ being $\ast \overset{\exists !}{\to} \ast$. This must be the origin of the terminology "pointed category".
+
+Alternatively, it makes (more?) sense to understand under a "pointed category" a [[pointed object]] $(\mathcal{E}, E)$ in [[Categories]], hence a category $\mathcal{E}$ equipped with an [[object]] $E \in \mathcal{E}$. Then one may want to say that the "$E$-pointed objects" $(X,x_E)$ in $(\mathcal{E}, E)$ are morphisms of the form $x_E \colon E \to X$ (i.e. [[generalized elements]] of $X$ at stage $E$). 
+\end{example}
+
+\begin{example}
+Pointed $n$-[[n-categories]] figure prominently in the [[delooping hypothesis]]; see also [[k-tuply monoidal n-category]].  In particular, a fancy name for a pointed set (Exp. \ref{PointedSets}) is a _0-tuply monoidal 0-category_.
+\end{example}
 
 ## Properties
 
