@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+
 # Cartesian closed enriched categories
 
 * table of contents
@@ -5,11 +17,16 @@
 
 ## Definition
 
-Let $V$ be a [[monoidal category]] with [[products]] and $C$ a $V$-[[enriched category]] with [[products]], in the enriched sense that we have a $V$-natural isomorphisms of [[hom-objects]] in $V$:
+Let $V$ be a [[monoidal category]] with [[products]] and $C$ a $V$-[[enriched category]] with [[products]], in the enriched sense that we have a [[enriched natural transformation|$V$-natural]] [[natural isomorphism|isomorphisms]] of [[hom-objects]] in $V$:
 
-$$ C(Z, X\times Y) \cong C(Z,X) \times C(Z,Y). $$
+$$ 
+  C(Z, X\times Y) 
+  \;\cong\; 
+  C(Z,X) \times C(Z,Y)
+  \,. 
+$$
 
-We say $C$ is **$V$-cartesian-closed** if each $V$-functor $(X\times -) : C\to C$ has a $V$-enriched [[right adjoint]].
+We say $C$ is **$V$-cartesian-closed** if each $V$-functor $(X\times -) \colon C \to C$ has a [[enriched adjunction|$V$-enriched]] [[right adjoint]].
 
 
 ## Relation to ordinary cartesian closedness
