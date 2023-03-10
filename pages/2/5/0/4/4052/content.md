@@ -136,6 +136,8 @@ Early developments include
 
 * [[Ross Street]], _Two dimensional sheaf theory_, J. Pure and Appl. Algebra 24 (1982) 2Opp.
 
+* [[Dominique Bourn]], _Sur les ditopos_, C. R. Acad. Sci. Paris 279, 911–913 (1974).
+
 A detailed discussion from the point of view of [[internal logic]] is at
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
