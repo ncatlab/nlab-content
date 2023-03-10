@@ -41,8 +41,7 @@ $L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of 
 
 The identification of the concept of (super-)$L_\infty$-algebras has a non-linear history:
 
-[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in [Stasheff 92](#Stasheff92), [Lada-Stasheff 92](#LadaStasheff92), based on the 
-example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was reported in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92). 
+[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in [Stasheff 92](#Stasheff92), [Lada-Stasheff 92](#LadaStasheff92), based on the example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was reported in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92). 
 
 [Lada-Stasheff 92](#LadaStasheff92) credit [Schlessinger-Stasheff 85](deformation+theory#SchlessingerStasheff85) with the introduction of the concept, but while that article considers many closely related structures, it does not consider $L_\infty$-algebras as such. [Lada-Markl 94](#LadaMarkl94) credit other work by Schlessinger-Stasheff as the origin, but that work appeared much later as [Schlessinger-Stasheff 12](deformation+theory#SchlessingerStasheff12).
 
