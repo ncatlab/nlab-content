@@ -46,17 +46,17 @@ One can use power sets to construct [[function sets]]; the converse also works u
 
 ### In dependent type theory
 
-In dependent type theory, if one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $A$, the power set of $A$ is the [[function type]] $\mathcal{P}(A) \coloneqq A \to \mathrm{Prop}$. This type is always an set because $\mathrm{Prop}$ is always a set, and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
+In [[dependent type theory]], if one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $S$, the power set of $S$ is the [[function type]] $\mathcal{P}S \coloneqq S \to \mathrm{Prop}$. The power set of a type is always an set, because $\mathrm{Prop}$ is always a set by [[univalence]], and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
 
-An element of a power set $P:\mathcal{P}(A)$ is a [[predicate]]. The type 
+An element of a power set $P:\mathcal{P}S$ is a [[predicate]]. The type 
 
-$$\sum_{x:A} \mathrm{El}(P(x))$$
+$$\sum_{x:S} \mathrm{El}(P(x))$$
 
-is the corresponding [[subtype]] of $A$, with canonical [[embedding]] given by the first projection function of the [[dependent sum type]]
+is the corresponding [[subtype]] of $S$, with canonical [[embedding]] given by the first projection function defined in the [[elimination rules]] of the [[negative type|negative]] [[dependent sum type]]. 
 
-$$\pi_1:\left(\sum_{x:A} \mathrm{El}(P(x))\right) \to A$$
+$$\pi_1:\left(\sum_{x:S} \mathrm{El}(P(x))\right) \to S$$
 
-There is also a local membership relation $(-)\in_A(-):\mathcal{P}(A \times (\mathcal{P}(A)))$ defined by $a \in_A B \coloneqq B(a)$ for all $a:A$ and $B:\mathcal{P}(A)$, where $B(a)$ is defined in the [[elimination rules]] for [[function types]]. 
+There is also a local membership relation $(-)\in_S(-):\mathcal{P}(S \times \mathcal{P}S)$ defined by $a \in_S B \coloneqq B(a)$ for all $a:S$ and $B:\mathcal{P}S$, where $B(a)$ is defined in the [[elimination rules]] for [[function types]]. 
 
 ## Properties
 
