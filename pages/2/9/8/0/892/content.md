@@ -32,11 +32,7 @@ Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [
 
 One generally needs a specific axiom in the [[foundations of mathematics]] to ensure the existence of power sets.  In [[material set theory]], this can be phrased as follows:
 
-+-- {: .un_defn}
-###### Axiom (power sets)
-
-If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal{P}$ if $A \subseteq S$.
-=--
+* If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal{P}$ if $A \subseteq S$.
 
 One can then use the [[axiom of separation]] ([[bounded separation]] is enough) to prove that $\mathcal{P}$ may be chosen so that the subsets of $A$ are the *only* members of $\mathcal{P}$; the [[axiom of extensionality]] proves that this $\mathcal{P}$ is unique.
 
@@ -48,6 +44,19 @@ In [[predicative mathematics]], the existence of power sets (along with other "i
 
 One can use power sets to construct [[function sets]]; the converse also works using [[excluded middle]] (or anything else that will guarantee the existence of the set of truth values).  In particular, power sets exist in any theory containing excluded middle and function sets; thus predicative theories which include function sets must also be [[constructive mathematics|constructive]].
 
+### In dependent type theory
+
+In dependent type theory, if one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $A$, the power set of $A$ is the [[function type]] $\mathcal{P}(A) \coloneqq A \to \mathrm{Prop}$. This type is always an set because $\mathrm{Prop}$ is always a set, and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
+
+An element of a power set $P:\mathcal{P}(A)$ is a [[predicate]]. The type 
+
+$$\sum_{x:A} \mathrm{El}(P(x))$$
+
+is the corresponding [[subtype]] of $A$, with canonical [[embedding]] given by the first projection function of the [[dependent sum type]]
+
+$$\pi_1:\left(\sum_{x:A} \mathrm{El}(P(x))\right) \to A$$
+
+There is also a local membership relation $(-)\in_A(-):\mathcal{P}(A \times (\mathcal{P}(A)))$ defined by $a \in_A B \coloneqq B(a)$ for all $a:A$ and $B:\mathcal{P}(A)$, where $B(a)$ is defined in the [[elimination rules]] for [[function types]]. 
 
 ## Properties
 
