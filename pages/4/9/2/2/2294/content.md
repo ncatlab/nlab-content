@@ -43,7 +43,7 @@ A **[[functor]]** between single-sorted categories is just a function $f:C\to D$
 
 Finally, a **[[natural transformation]]** between functors $f,g:C\to D$ of single-sorted categories is a function $\alpha:C\to D$ such that $s(\alpha(x)) = s(f(x))$, $t(\alpha(x)) = t(g(x))$, and $\alpha(x) \circ f(y) = g(x) \circ \alpha(y)$ whenever $x\circ y$ is defined (which implies that both composites in this identity are defined).  Note that while a natural transformation is ordinarily defined to consist of a component $\alpha(x)$ only when $x$ is an _object_, this definition supplies a component to each _morphism_.  In terms of the usual definition, the component of $\alpha$ at a morphism is the diagonal of the corresponding naturality square.
 
-It can now be proved that single-sorted categories, functors, and natural transformations form a $2$-[[2-category]] which is (strictly) [[equivalence of categories|equivalent]] to the usual $2$-category [[Cat]].
+It can now be proved that single-sorted categories, functors, and natural transformations form a [[2-category]] which is (strictly) [[equivalence of categories|equivalent]] to the usual $2$-category [[Cat]].
 
 
 ## Remarks
