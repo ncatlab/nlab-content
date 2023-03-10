@@ -62,6 +62,12 @@ In [[Agda]] [[syntax]] this is
 
 The [[recursion principle]] for $supp(A)$ says that if $B$ is a [[mere proposition]] and we have $f: A \to B$, then there is an induced $g : supp(A) \to B$ such that $g(isinhab(a)) \equiv f(a)$ for all $a:A$. In other words, any mere proposition which follows from (the inhabitedness of) $A$ already follows from $supp(A)$. Thus, $supp(A)$, as a mere proposition, contains no more information than the inhabitedness of $A$.
 
+### With a type of all propositions
+
+Suppose the [[dependent type theory]] has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$. Then the bracket type of $A$ could be defined as the type
+
+$$[A] \coloneqq \prod_{P:\mathrm{Prop}} (A \to \mathrm{El}(P)) \to \mathrm{El}(P)$$
+
 ### As localization
 
 Let $\mathbb{1}$ be the [[unit type]] and let $\mathbb{2}$ be the [[two-valued type]]. The bracket type of a type $A$ is the [[localization of a type at a family of functions|localization]] of $A$ at the unique function $\mathbb{2} \to \mathbb{1}$. 
