@@ -22,7 +22,7 @@ An **absolutely dense functor** $F \colon A \to B$ is a [[functor]] which is equ
 
 1. The [[counit]] of the adjunction $F_* \dashv F^* : [B^{op}, Set] \to [A^{op}, Set]$ is invertible.
 
-1. $F$ is [[co-fully faithful]] (also called a [[lax epimorphism]]) in [[Cat]].
+1. $F$ is [[corepresentably fully faithful]] (also called a [[lax epimorphism]]) in [[Cat]].
 
 1. For every functor $G : B^{op} \times B \to C$, there is a canonical isomorphism ([MathOverflow answer](https://mathoverflow.net/a/354097))
 $$ \int_{b \in B} G(b, b) \cong \int_{a \in A} G(F a, F a) $$
