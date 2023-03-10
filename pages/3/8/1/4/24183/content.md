@@ -2,6 +2,9 @@
 ### Anyonic topological order in terms of braided fusion categories
  {#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences}
 
+
+#### Claim and status
+
 In [[condensed matter theory]] it is [[folklore]] that species of [[anyon|anyonic]] [[topological order]] correspond to [[braided monoidal categories|braided]] [[unitary fusion category|unitary]] [[fusion categories]]/[[modular tensor categories]].
 
 The origin of the claim may be:
@@ -16,7 +19,6 @@ Early accounts re-stating this claim (without attribution):
 * [[Zhenghan Wang]], Section 6.3 of: *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS (2010) $[$[ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf)$]$
 
 Further discussion (all without attribution):
-
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
@@ -39,12 +41,6 @@ Further discussion (all without attribution):
 * Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* $[$[arXiv:2212.00831](https://arxiv.org/abs/2212.00831)$]$
 
 
-
-Relation to [[ZX-calculus]]:
-
-* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
-
-
 Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
 
 * {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) $[$
@@ -54,14 +50,23 @@ Exposition and review:
 
 * [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
 
-See also:
-
-* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, talk at [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]$]$
-
-
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]* $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. (20223) $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)$]$
 
+
+#### Further discussion
+
+Relation to [[ZX-calculus]]:
+
+* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
+
+On detection of [[topological order]] by observing [[modular transformations]] on the [[ground state]]:
+
+* [[Zhuan Li]], [[Roger S. K. Mong]], *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 $[$[doi:10.1103/PhysRevB.106.235115](https://doi.org/10.1103/PhysRevB.106.235115), [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
+
+See also:
+
+* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, [talk at](CQTS#KongOct2022) [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]$]$
 
 
