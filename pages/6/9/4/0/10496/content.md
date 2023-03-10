@@ -265,6 +265,7 @@ See also:
 * E. Keski-Vakkuri and [[Xiao-Gang Wen]], [Ground state structure of hierarchical QH states on torus and modular transformation](http://dao.mit.edu/~wen/pub/kw.pdf)
 Int. J. Mod. Phys. B7, 4227 (1993). 
 
+
 ### Topologically ordered materials
 
 On [[semimetals]] with degenerate ground states:
@@ -274,9 +275,16 @@ On [[semimetals]] with degenerate ground states:
 
 ### Other articles
 
-* Davide Gaiotto, Anton Kapustin, _Spin TQFTs and fermionic phases of matter_, [arxiv/1505.05856](http://arxiv.org/abs/1505.05856)
+On detection of [[topological order]] by observing [[modular transformations]] on the [[ground state]]:
 
-* N. Read and Subir Sachdev, _Large-N expansion for frustrated quantum antiferromagnets_, Phys. Rev. Lett. 66 1773 (1991) (on $Z_2$ topological order)
+* [[Zhuan Li]], [[Roger S. K. Mong]], *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 &lbrack;[doi:10.1103/PhysRevB.106.235115](https://doi.org/10.1103/PhysRevB.106.235115), [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)&rbrack;
+
+
+See also:
+
+* [[Davide Gaiotto]], [[Anton Kapustin]], _Spin TQFTs and fermionic phases of matter_, [arxiv/1505.05856](http://arxiv.org/abs/1505.05856)
+
+* [[Nicholas Read]], [[Subir Sachdev]], _Large-$N$ expansion for frustrated quantum antiferromagnets_, Phys. Rev. Lett. 66 1773 (1991) (on $Z_2$ topological order)
 
 * [[Xiao-Gang Wen]], _Mean Field Theory of Spin Liquid States with Finite Energy Gap and Topological orders_, Phys. Rev. B 44 2664 (1991). (on $Z_2$ topological order)
 
