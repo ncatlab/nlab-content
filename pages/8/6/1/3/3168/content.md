@@ -78,8 +78,15 @@ Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let
 
 * [[inhabited set]]
 
+* [[pointed object]]
+
+
+[[!redirects inhabited objects]]
 
 [[!redirects well-supported object]]
 [[!redirects well-supported objects]]
 
 [[!redirects inhabited]]
+
+
+
