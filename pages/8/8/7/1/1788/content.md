@@ -1,4 +1,6 @@
 
+[[schreiber:twisted equivariant differential K-theory|TED]]
+
 ## Lawvere on platonism
 
 >Platonic idealism, while mistaken on the relation between consciousness and matter, contains an aspect of truth when applied within the realm of ideas; for example, the doctrine of algebraic theories begins with the affirmation that there exists as a definite mathematical object the “perfect idea of a group” A of which the idea of any particular group is “merely an imperfect representation”. (Indeed, it is a simple further step to form as a mathematical object the “idea of an algebraic theory” of which any particular algebraic theory A is a representation, as was carried out as a part of Bénabou’s 1966 dissertation); of course, even here Platonic idealism is wrong on the order of development, since the ideas of several particular groups were concentrated from practice well before the idea of a group in general was concentrated from the practice of mathematicians around 1800. 
