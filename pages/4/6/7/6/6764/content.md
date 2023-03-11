@@ -50,7 +50,7 @@ Given a [[set]] $X$ and a collection $\mathcal{M}$ of [[subsets]] $S \subseteq X
 
    We can actually use the latter as an alternative to (2), since $S \cup T = (S \uplus T) \uplus (S \cap T)$.  Or we can use the pair as an alternative to (2,3), since $T \setminus S = (S \cap T) \uplus T$.  For that matter, we can weaken (1) to simply say that *some* set $S$ is in $\mathcal{M}$; then $\empty = S \setminus S$.
 
-   While the union and symmetric difference of an [[empty family]] (both the empty set) belong to $\mathcal{M}$, the intersection of an empty family (which is $S$ itself) might not.  The term 'ring' dates from the days when a [[ring]] in algebra was not assumed to be unital; so a ring on $X$ is simply a subring (in this sense) of the [[Boolean ring]] $\mathcal{P} X$.
+   While the union and symmetric difference of an [[empty family]] (both the empty set) belong to $\mathcal{M}$, the intersection of an empty family (which is $X$ itself) might not.  The term 'ring' dates from the days when a [[ring]] in algebra was not assumed to be unital; so a ring on $X$ is simply a subring (in this sense) of the [[Boolean ring]] $\mathcal{P} X$.
 
 
 *  A __$\delta$-ring__ on $X$ is a ring (as above) $\mathcal{M}$ which is closed under [[intersections]] of countably infinite families.  That is:
@@ -161,7 +161,7 @@ Note that [[countable choice]] is essential here and elsewhere in measure theory
 
 ## Alternatives
 
-We are now learning ways to understand measure theory and probability away from the traditional reliance on sets required with $\sigma$-algebras; see [[measurable space]] for a summary of other ways to define this concept.  We still need to know what happens to all of the *other* $\sigma$-algebras of measurable sets in a measurable space.  One solution may to use [[quotient space|quotient]] measurable spaces in place of sub-$\sigma$-algebras; for example, see explicit quotient in the example of macroscopic entropy above.
+We are now learning ways to understand measure theory and probability away from the traditional reliance on sets required with $\sigma$-algebras; see [[measurable space]] for a summary of other ways to define this concept.  We still need to know what happens to all of the *other* $\sigma$-algebras of measurable sets in a measurable space.  One solution may be to use [[quotient space|quotient]] measurable spaces in place of sub-$\sigma$-algebras; for example, see explicit quotient in the example of macroscopic entropy above.
 
 
 [[!redirects sigma-algebra]]
