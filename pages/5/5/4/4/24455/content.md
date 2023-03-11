@@ -1,6 +1,6 @@
 ## Idea
 Quasi-limits (sometimes called _soft limits_) are a weakening of the notion of [[bilimit]] so as to make them satisfy a 'quasi-universal' property. 
-This means that instead of being singled out up to unique isomorphism, they are identified only up to unique _adjunction_. They've been defined by [[John Gray|Gray]] in [his seminal 1974 book](#Gray74) on 2-category theory.
+This means that instead of being singled out up to unique isomorphism, they are identified only up to unique _adjunction_. They were defined by [[John Gray|Gray]] in [his seminal 1974 book](#Gray74) on 2-category theory.
 
 ## Definition
 Recall limits and colimits of shape $\mathbf K$ are computed by the right and left adjoint, respectively, to the diagonal $\Delta_{(-)} : \mathbf C \to [\mathbf K, \mathbf C]$ (aka constant functor):
