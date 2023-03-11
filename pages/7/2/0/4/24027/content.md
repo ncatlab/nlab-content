@@ -55,12 +55,23 @@ Relation of [[long-range entanglement]] to strong [[interaction]]:
 
   > In a way it appears obvious that the strongly interacting bosonic quantum critical state is subject to long-range entanglement. Nonetheless, the status of this claim is conjectural.
 
-  > It is at present impossible to arrive at more solid conclusions that are based on rigorous mathematical procedures. It does illustrate emphatically the central challenge in the pursuit of field-theoretical quantum information: there are as yet not general measures available to precisely enumerate the meaning of long- range entanglement in such seriously quantum field-theoretical systems. $[$p. 527$]$
-
+  > It is at present impossible to arrive at more solid conclusions that are based on rigorous mathematical procedures. It does illustrate emphatically the central challenge in the pursuit of field-theoretical quantum information: there are as yet not general measures available to precisely enumerate the meaning of long-range entanglement in such seriously quantum field-theoretical systems. $[$p. 527$]$
 
 * {#LuVijay22} Tsung-Cheng Lu, Sagar Vijay, *Characterizing Long-Range Entanglement in a Mixed State Through an Emergent Order on the Entangling Surface* $[$[arXiv:2201.07792](https://arxiv.org/abs/2201.07792)$]$
 
   > strongly interacting quantum phases of matter at zero temperature can exhibit universal patterns of long-range entanglement
+
+
+#### Characterizing topological order
+ {#CharacterizingTopologicalOrder}
+
+On characterizing [[anyon]] [[braiding]] / [[modular transformations]] on [[topological order|topologically ordered]] [[ground states]] by analysis of ([[topological entanglement entropy|topological]]) [[entanglement entropy]] of subregions:
+
+* [[Yi Zhang]], [[Tarun Grover]], [[Ari M. Turner]], [[Masaki Oshikawa]], [[Ashvin Vishwanath]], *Quasiparticle statistics and braiding from ground-state entanglement*, Phys. Rev. B **85** (2012) 235151 $[$[doi:10.1103/PhysRevB.85.235151](https://doi.org/10.1103/PhysRevB.85.235151)$]$
+
+* [[Yi Zhang]], [[Tarun Grover]], [[Ashvin Vishwanath]], *General procedure for determining braiding and statistics of anyons using entanglement interferometry*, Phys. Rev. B **91** (2015) 035127 $[$[arXiv:1412.0677](https://arxiv.org/abs/1412.0677), [doi:10.1103/PhysRevB.91.035127](https://doi.org/10.1103/PhysRevB.91.035127)$]$
+
+* [[Zhuan Li]], [[Roger S. K. Mong]], *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 &lbrack;[doi:10.1103/PhysRevB.106.235115](https://doi.org/10.1103/PhysRevB.106.235115), [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)&rbrack;
 
 
 
