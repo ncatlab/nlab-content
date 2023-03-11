@@ -50,7 +50,7 @@ Given a [[set]] $X$ and a collection $\mathcal{M}$ of [[subsets]] $S \subseteq X
 
    We can actually use the latter as an alternative to (2), since $S \cup T = (S \uplus T) \uplus (S \cap T)$.  Or we can use the pair as an alternative to (2,3), since $T \setminus S = (S \cap T) \uplus T$.  For that matter, we can weaken (1) to simply say that *some* set $S$ is in $\mathcal{M}$; then $\empty = S \setminus S$.
 
-   While the union and symmetric difference of an [[empty family]] (both the empty set) belong to $\mathcal{M}$, the intersection of an empty family (which is $X$ itself) might not.  The term 'ring' dates from the days when a [[ring]] in algebra was not assumed to be unital; so a ring on $X$ is simply a subring (in this sense) of the [[Boolean ring]] $\mathcal{P} X$.
+   {#EmptyFamilies} While the union and symmetric difference of an [[empty family]] belong to $\mathcal{M}$ (both being the empty set), the intersection of an empty family (which is $X$ itself) might not.  The term 'ring' dates from the days when a [[ring]] in algebra was not assumed to be unital; so a ring on $X$ is simply a subring (in this sense) of the [[Boolean ring]] $\mathcal{P} X$.
 
 
 *  A __$\delta$-ring__ on $X$ is a ring (as above) $\mathcal{M}$ which is closed under [[intersections]] of countably infinite families.  That is:
