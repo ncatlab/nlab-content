@@ -625,7 +625,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 13 Mar 2023
+* {#MongMar2023} 13 Mar 2023
  
   [[Roger S. K. Mong]] (Pittsburgh Quantum Institute, USA)
 
@@ -633,7 +633,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf.: [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)
 
-  > Every two-dimensional [[topological phase]] is associated with some [[topological quantum field theory]] (TQFT), or [more formally](modular+tensor+category#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences) a [[modular tensor category]].  The [[ground states]] of a [[topological phase]] encode information about the TQFT, which makes them useful in determining the TQFT data, such as [[anyon]] mutual statistics and self statistics.  For example, many numerical methods for detecting the TQFT relied on the use of minimum entanglement states (MESs), which are the eigenstates of the [[Wilson loop]] operators, and are labeled by the anyons corresponding to their eigenvalues.  Here we revisit the definition of the Wilson loop operators and MESs.  We rederive the [[modular transformation]] of the [[ground states]] purely from the Wilson loop algebra, and as a result, the modular $S$- and $T$-matrices naturally show up in the overlap of MESs.  Importantly, we show that due to the phase degree of freedom of the Wilson loop operators, the MES-anyon assignment is not unique.  This ambiguity means that there are some sets of TQFTs that cannot be distinguished from one another solely by the overlap of MESs.
+  > Every two-dimensional [[topological phase]] is associated with some [[topological quantum field theory]] (TQFT), or [more formally](modular+tensor+category#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences) a [[modular tensor category]].  The [[ground states]] of a [[topological phase]] [encode information](topological+entanglement+entropy+--+references#CharacterizingTopologicalOrder) about the TQFT, which makes them useful in determining the TQFT data, such as [[anyon]] mutual statistics and self statistics.  For example, many numerical methods for detecting the TQFT [relied on](topological+entanglement+entropy+--+references#CharacterizingTopologicalOrder) the use of minimum entanglement states (MESs), which are the eigenstates of the [[Wilson loop]] operators, and are labeled by the anyons corresponding to their eigenvalues.  Here we revisit the definition of the Wilson loop operators and MESs.  We rederive the [[modular transformation]] of the [[ground states]] purely from the Wilson loop algebra, and as a result, the modular $S$- and $T$-matrices naturally show up in the overlap of MESs.  Importantly, we show that due to the phase degree of freedom of the Wilson loop operators, the MES-anyon assignment is not unique.  This ambiguity means that there are some sets of TQFTs that cannot be distinguished from one another solely by the overlap of MESs.
 
 
 
