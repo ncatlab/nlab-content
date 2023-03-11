@@ -46,7 +46,7 @@ One can use power sets to construct [[function sets]]; the converse also works u
 
 ### In dependent type theory
 
-In [[dependent type theory]], if one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $S$, the power set of $S$ is the [[function type]] $\mathcal{P}S \coloneqq S \to \mathrm{Prop}$. The power set of a type is always an set, because $\mathrm{Prop}$ is always a set by [[univalence]], and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
+In [[dependent type theory]], if one has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$, then given a type $S$, the power set of $S$ is the [[function type]] $\mathcal{P}S \coloneqq S \to \mathrm{Prop}$. The power set of a type is always a set, because $\mathrm{Prop}$ is always a set by [[univalence]]; and if the [[codomain]] of a function type is a set, then the function type itself is a set. 
 
 An element of a power set $P:\mathcal{P}S$ is a [[predicate]]. The type 
 
