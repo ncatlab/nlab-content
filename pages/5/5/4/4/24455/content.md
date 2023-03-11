@@ -1,9 +1,9 @@
 ## Idea
-Quasi-limits (sometimes called _soft limits_) are a weakening of the notion of [[bilimit]] so as to make them satisfy a 'quasi-universal' property. 
-This means that instead of being singled out up to unique isomorphism, they are identified only up to unique _adjunction_. They were defined by [[John Gray|Gray]] in [his seminal 1974 book](#Gray74) on 2-category theory.
+Quasi-limits (sometimes called _soft limits_, see [(MS89)](#MS89)) are a weakening of the notion of [[bilimit]] so as to make them satisfy a 'quasi-universal' property. 
+This means that instead of being singled out up to unique isomorphism, they are identified only up to unique _adjunction_. They were defined by [[John Gray|Gray]] in [his 1974 book](#Gray74) on 2-category theory.
 
 ## Definition
-Recall limits and colimits of shape $\mathbf K$ are computed by the right and left adjoint, respectively, to the diagonal $\Delta_{(-)} : \mathbf C \to [\mathbf K, \mathbf C]$ (aka constant functor):
+Recall [[limits]] and [[colimits]] of shape $\mathbf K$ are computed by the right and left adjoint, respectively, to the diagonal $\Delta_{(-)} : \mathbf C \to [\mathbf K, \mathbf C]$ (aka constant functor):
 \[
    \colim \vdash \Delta \vdash \lim
 \]
@@ -32,6 +32,22 @@ naturally in $X:\mathbf C$.
 
 Notice that by replacing $1 : \mathbf C \to \mathrm{Cat}$ with an arbitrary weight $W$ we can easily give the definition of _weighted quasilimit_.
 
+## Examples
+
+* A **quasi-terminal** object in a 2-category $\mathbf C$ is an object $Q$ such that, for each other object $X: \mathbf C$, there exists a 'quasi-universal map' $t : X \to Q$ such that every other map $f : X \to Q$ admits a unique 2-cell $\phi_f : f \Rightarrow t$ to it. In $\mathbf C = \mathbf{Cat}$ quasi-terminal objects are categories with a [[terminal object]].
+
+From this example alone one can see quasi-limits are, in general, not unique up to isomorphism, like limits and other [[universal objects]]. The universality of the objects is replaced by universality of their quasi-universal maps. A consequence of this fact is that we can't say _the_ quasi-limit but _a_ quasi-limit.
+
+The following is an example of quasi-colimit from [(Gray '74, p.199)](#Gray74):
+
+* A **quasi-coproduct** of $A_1$ and $A_2$ in a 2-category $\mathbf C$ is an object $A_1 +_q A_2$ together with injections $i_j : A_j \to A_1 +_q A_2$ ($j=1,2$) which satisfies a relaxed version of the universal property of [[coproducts]]. Instead, we require that for any other object $X$ with maps $h_j : X_j \to X$ there is a map $h : A_1 +_q A_2 \to X$ and 2-cells $\lambda_j : h\circ i_j \Rightarrow h_j$ ($j=1,2$) which are terminal as such. This means that given any other $g : A_1 +_q A_2 \to X$ and 2-cells $\gamma_j : g \circ i_j \Rightarrow h_j$ ($j=1,2$), there is a 2-cell $\phi_{(g,\gamma_j)} : g \to h$ that factorizes $\gamma$ through $\lambda$: $(\tau \cdot i_j) \circ \lambda_j = \gamma_j$.
+
+In [Capucci '22](#Capucci22) it is shown this (with 2-cells reversed though) is the universal property of a certain example of monoidal product common in game theory, called _external choice_.
+
+* A **quasi-product** is dual to a quasi-coproduct in the sense of reversing 1-cells. Reversing 2-cells is also possible, but there doesn't seem to be an agreed terminological scheme to distinguish between the two kinds of quasi-limits.
+
+Notably, the product of sets, which in the 2-category of [[relations]] loses its usual universal property, becomes a quasi-product there. Notice both this and the above example of quasi-coproduct are unique up to iso.
+
 ## References
 
 Quasi-limits and their duals have been defined in §I.7.9 of:
@@ -43,3 +59,7 @@ See also
 
 * _["Very lax" 2
 -dimensional co/limits](https://mathoverflow.net/questions/386414/very-lax-2-dimensional-co-limits)_, MathOverflow
+
+* {#MS89} MacDonald, Stone, _[Soft adjunction between 2-categories](https://www.sciencedirect.com/science/article/pii/0022404989901278)_, Journal of Pure and Applied Algebra, Vol. 60, 1989
+
+* {#Capucci22} Matteo Capucci, _The Universal Property of External Choice_, ([pdf](https://matteocapucci.files.wordpress.com/2022/03/main.pdf)) 
