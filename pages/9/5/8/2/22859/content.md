@@ -25,31 +25,38 @@ The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCock
 ## Differential categories
  {#DifferentialCategories}
 
-###Definition
+The main intuition for differential categories, is that in a differential category morphisms $A \rightarrow B$ must be interpreted as linear morphisms from $A$ to $B$ while morphisms $!A \rightarrow B$ must be interpreted as smooth morphisms from $A$ to $B$. One can then differentiate these smooth morphisms from $A$ to $B$. If we have $f:!A \rightarrow B$, then we can obtain $D(f):!A \otimes A \rightarrow B$ which is smooth in the first variable and linear in the second variable. If we are in a [[monoidal closed category]], we can alternatively view $D(f)$ as a morphisms of type $!A \rightarrow (A \multimap B)$ which associate smoothly to every point of $A$ the linear approximation of $f$ around this point.
+
+\begin{definition}
+A coalgebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[comonad]] $(!,m,u)$ and two [[natural transformations]] $\epsilon:I \rightarrow !A$ and $\Delta:!A \otimes !A \rightarrow !A$ such that for every $A \in \mathcal{C}$, $(!A, \Delta, \epsilon)$ is a [[cocommutative comonoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
+\begin{tikzcd}
+!A \arrow[d, "m"'] \arrow[rr, "\Delta"] &  & !A \otimes !A \arrow[d, "m \otimes m"] \\
+!!A \arrow[rr, "\Delta"']             &  & !!A \otimes !!A              
+\end{tikzcd}
+\end{definition}
+
+The idea is that a colagebra modality allow us to perform various operations on smooth morphisms. 
+
+* If we start with $f:!A \rightarrow B$ and $g:!A \rightarrow C$, we can "multiply" these two smooth morphisms together to obtain a smooth morphism $!A \rightarrow B \otimes C$ defined as $\Delta;f \otimes g$.
+
+* If we start with $f:A \rightarrow B$ which is a linear morphism, we can say that it is a very simple form of smooth morphism and obtain a morphism $!A \rightarrow B$ from $f$ defined as $u;f$
+
+* If we start with a constant $f:I \rightarrow !A$, we can say that is an even simpler form of smooth morphism and obtain a morphism $!A \rightarrow B$ from $f$ defined as $\epsilon;f$.
+
+* If we start with two smooth morphisms $f:!A \rightarrow B$ and $g:!B \rightarrow C$, we can compose these two smooth morphisms to obtain a smooth morphism $!A \rightarrow C$ defined as $m;!(f);g$.
 
 \begin{definition}
 A CMon-enriched [[symmetric monoidal category]] is a [[symmetric monoidal category]] $\mathcal{C}$ such that each hom-set $\mathcal{C}[A,B]$ is a [[commutative monoid]] (in Set) and $- \otimes -$ as well as $-;-$ are bilinear ie. preserve sums and the zero in each variable.
 \end{definition}
 
 \begin{definition}
-A [[coalgebra modality]] in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[comonad]] $(S,m,u)$ and two [[natural transformations]] $\epsilon:I \rightarrow S(A)$ and $\Delta:S(A) \otimes S(A) \rightarrow S(A)$ such that for every $A \in \mathcal{C}$, $(S(A), \Delta, \epsilon)$ is a [[cocommutative comonoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
-\begin{tikzcd}
-S(A) \arrow[d, "m"'] \arrow[rr, "\Delta"] &  & S(A) \otimes S(A) \arrow[d, "m \otimes m"] \\
-S(S(A)) \arrow[rr, "\Delta"']             &  & S(S(A)) \otimes S(S(A))                   
-\end{tikzcd}
-\end{definition}
-
-\begin{definition}
-A differential category is a CMon-enriched [[symmetric monoidal category]] together with a coalgebra modality and a deriving transformation ie. a [[natural transformation]] $d:S(A) \otimes A \rightarrow S(A)$ such that the following diagrams commute:
+A differential category is a CMon-enriched [[symmetric monoidal category]] together with a coalgebra modality and a deriving transformation ie. a [[natural transformation]] $d:!A \otimes A \rightarrow !A$ such that the following diagrams commute:
 ...
 \end{definition}
 
 ###Examples
 
 ## Codifferential categories
-
-### Definition
- {#CodifferentialCategoriesDefinition}
 
 The definition of a *codifferential category* is the [[formal dual]] of that of a differential category:
 
@@ -119,15 +126,19 @@ If $\mathbb{K}$ is a field, then $Vect_{\mathbb{K}}$ is a codifferential categor
 
 The free $\mathcal{C}^{\infty}$-ring monad on $\mathbb{R}$-[[vector spaces]] provides a structure of codifferential category on **$Vect_{\mathbb{R}}$**.
 
-###Commentary on the type of the deriving transformation
+## Differential categories vs codifferential categories
 
-The deriving transformation in a codifferential category is a natural transformation of type $!A \rightarrow !A \otimes A$. As written before, in the example of vector spaces and symmetric algebras, we have thus $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
+The deriving transformation in a codifferential category is a natural transformation of type $!A \rightarrow !A \otimes A$. In the category of vector spaces with the exponential modality given by symmetric algebras, we have for example $d(X^{2}+YZ) = 2X \otimes X + Y \otimes Z + Z \otimes Y$.
 
-It could be more natural to have a deriving transformation of type $!A \rightarrow !A \otimes A^{*}$ and requiring the category to be [[*-autonomous]]. Thus, we would have $d(X^{2}+YZ) = 2X \otimes dX + Y \otimes dZ + Z \otimes dY$. However, the concept of [[graded codifferential category]] explains why the type $!A \rightarrow !A \otimes A$ is more natural.
+It would seem more natural to have a deriving transformation of type $!A \rightarrow !A \otimes A^{*}$ and to require the category to be [[*-autonomous]]. Thus, we would have $d(X^{2}+YZ) = 2X \otimes dX + Y \otimes dZ + Z \otimes dY$. The concept of [[graded codifferential category]] can help to enlighten why the type $!A \rightarrow !A \otimes A$ is in fact more natural. If we start with an element of the $(n+1)^{th}$ symmetric power $S_{n+1}A$ of $A$, ie. an [[homogeneous polynomial]] of degree $n+1$, the deriving transformation gives us as result an element of $S_{n}A \otimes A$ and not of $S_{n}A \otimes A^{*}$. There is an idea of "conservation of ressources", if one starts with $(n+1)$ (symmetrized) elements of type $A$, then a natural transformation must give as a result $n+1$ elements (with a symmetrization performed on the $n$ first here) and not $n-1$ (here it would be $n$ elements together with a "minus" element in $A^*$).
+
+If we wish to obtain a more natural typing, we need to use differential categories. In a differential category, the differential of a smooth function $!A \rightarrow B$ is given by $d;f:!{A} \otimes A \rightarrow B$. If we are in a [[*-autonomous category]], we can then represent it under the form a morphism $!A \rightarrow B \parr A^*$ using the dual tensor product $\parr$ defined by $A \parr B = (A^* \otimes B^*)^*$.
 
 \end{definition}
 
 ## Related concepts
+
+* [[differential linear logic]]
 
 * [[cartesian differential category]]
 
@@ -136,7 +147,6 @@ It could be more natural to have a deriving transformation of type $!A \rightarr
 * [[tangent category]], [[tangent (∞,1)-category]]
 
 * [[tangent bundle category]]
-
 
 ## References
 
