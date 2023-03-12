@@ -35,7 +35,7 @@ A coalgebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes
 \end{tikzcd}
 \end{definition}
 
-The idea is that a colagebra modality allow us to perform various operations on smooth morphisms. 
+The idea is that a coalgebra modality allow us to perform various operations on smooth morphisms. 
 
 * If we start with $f:!A \rightarrow B$ and $g:!A \rightarrow C$, we can "multiply" these two smooth morphisms together to obtain a smooth morphism $!A \rightarrow B \otimes C$ defined as $\Delta;f \otimes g$.
 
