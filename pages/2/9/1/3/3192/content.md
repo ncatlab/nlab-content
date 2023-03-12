@@ -155,9 +155,13 @@ See also:
 
 * Marina Prokhorova, _From graph to Riesz continuity_, [arXiv:2202.03337](https://arxiv.org/abs/2202.03337).
 
+For Fredholm complexes, see
+
+* [[Graeme Segal]], _Fredholm complexes_, Quarterly Journal of Mathematics 21:4 (1970), 385–402.  [doi](http://dx.doi.org/10.1093/qmath/21.4.385).
+
 category: analysis
+
 [[!redirects Fredholm complex]]
 [[!redirects Fredholm operators]]
-
 [[!redirects parametrix]]
 
