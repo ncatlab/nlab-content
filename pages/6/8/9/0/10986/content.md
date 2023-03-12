@@ -38,8 +38,10 @@ If $M$ is a Frobenius monad on a category $C$, then the usual [[free-forgetful a
 
 +-- {: .proof} 
 ###### Proof 
-In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[comonad]] structure [[mate]]d to the monad structure of $M$, and there is an [[adjoint equivalence]] $Alg_M \simeq CoAlg_K$ between their [[Eilenberg-Moore categories]] (considered as categories over $C$, via the usual [[forgetful functors]]). If $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to the monad is indeed the given comonad structure of $M$ (a proof is given [here](Frobenius+algebra#general)). Hence the [[left adjoint]] $C \to Alg_M$ to the forgetful functor may be identified with the [[right adjoint]] $C \to CoAlg_M$ of the forgetful functor, each being unique (up to isomorphism) lifts of $M \colon C \to C$ through the forgetful functors. 
+In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[comonad]] [[structure]] [[mate|mated]] to the monad structure of $M$, and there is an [[adjoint equivalence]] $Alg_M \simeq CoAlg_K$ between their [[Eilenberg-Moore categories]] (considered as categories over $C$, via the usual [[forgetful functors]]). If $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to the monad is indeed the given comonad structure of $M$ (a proof is given at *[[Frobenius algebra]]* (see [there](Frobenius+algebra#general)). Hence the [[left adjoint]] $C \to Alg_M$ to the [[forgetful functor]] may be identified with the [[right adjoint]] $C \to CoAlg_M$ of the forgetful functor, each being unique (up to isomorphism) lifts of $M \colon C \to C$ through the forgetful functors. 
 =-- 
+
+(cf. [Street (2004), Section II](#Street04))
 
 
 ## Examples 
@@ -56,7 +58,7 @@ In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[
 
 ## References
 
-* [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
+* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
 
 [[!redirects Frobenius monads]]
