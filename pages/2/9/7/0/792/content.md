@@ -143,6 +143,10 @@ reviewed in
 
 * {#Fiorenza18} [[Domenico Fiorenza]], _T-duality in rational homotopy theory_, talk at _[38th Srni Winter School on Geometry and Physics](http://conference.math.muni.cz/srni/files/archiv/2018/)_, 2018 ([[FiorenzaSrni2018.pdf:file]])
 
+and further expanded on on
+
+* [[Hisham Sati]], [[Urs Schreiber]], p. 7 of: *[[schreiber:Cyclification of Orbifolds]]* &lbrack;[arXiv:2212.13836](https://arxiv.org/abs/2212.13836)&rbrack;
+
 See also
 
 * [[Domenico Fiorenza]], Mattia Coloma, Eugenio Landi, _A very short note on the (rational) graded Hori map_ ([arXiv:2003.13066](https://arxiv.org/abs/2003.13066))
