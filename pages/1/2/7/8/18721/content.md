@@ -23,7 +23,10 @@ Where the [[homotopy hypothesis]] is the assertion that [[∞-groupoids]] are eq
 
 The construction relies on a fully faithful embedding of conically smooth stratified spaces, and conically smooth maps among them, into $(\infty, 1)$-categories via the exit-path functor, which maps stratified spaces to paths within them that once they leave a stratum do not re-enter it.
 
+In [Haine18](#Haine18) the author presents a completely self-contained proof of a precise form of the stratified homotopy hypothesis.
 
 ##References
 
 * {#AFR15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+
+* {#Haine18} [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
