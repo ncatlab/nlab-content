@@ -75,6 +75,8 @@ For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)categ
 
 Bicategories enriched in monoidal 2-categories first appeared in:
 
+* Syméon Bozapalides, _Théorie formelle des bicatégories_, PhD thesis, 1976.
+
 * Syméon Bozapalides, _Bicatégories relatives à une 2-catégorie multiplicative_, [[CRAS]], 1976.
 
 The definition appeared independently in:
