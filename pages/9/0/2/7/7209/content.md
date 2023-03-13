@@ -24,11 +24,11 @@ For $G$ a [[topological group]] a _compact subgroup_ is a topological [[subgroup
 +-- {: .num_defn}
 ###### Definition
 
-A [[compact topological space|compact]] [[subgroup]] $K \hookrightarrow G$ is called **maximal compact** if every compact subgroup of $G$ is [[conjugation|conjugate]] to a subgroup of $K$.
+A [[compact topological space|compact]] [[subgroup]] $K \hookrightarrow G$ is called **maximal compact** if it is not properly contained in another compact subgroup of $G$.
 
 =--
 
-If it exists then, by definition, it is unique up to conjugation.
+If $G$ is a Lie group, it is unique up to conjugation. In a $p$-adic group, there may be finitely many conjugacy classes of maximal compact subgroups.
 
 ## Properties
 
@@ -69,7 +69,7 @@ This is due to ([Malcev](#Malcev)) and ([Iwasawa](#Iwasawa)). See for instance (
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $G$ be a [[locally compact topological space|locally compact]] [almost connected](#AlmostConnected) [[topological group]].
+Let $G$ be a [[locally compact topological space|locally compact]] [almost connected](#AlmostConnected) [[Lie group]].
 
 Then a [[compact topological space|compact]] subgroup $K \hookrightarrow G$ is maximal compact precisely if the [[coset]] space $G/K$ is [[contractible space|contractible]]
 
