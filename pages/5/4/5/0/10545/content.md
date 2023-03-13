@@ -471,7 +471,7 @@ See the [references below](#ReferencesHopfAlgebroid).
 
 * [[Brown-Gitler spectrum]]
 
-* [[Generic representation theory]]
+* [[generic representation theory]]
 
 ## References
 
