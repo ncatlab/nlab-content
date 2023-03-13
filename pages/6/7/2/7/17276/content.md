@@ -44,11 +44,14 @@ using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Fran
 
 * [[Jacob Lurie]], [[Higher Algebra]], Appendix A.5
 
-* {#AFT} David Ayala, John Francis, Hiro Lee Tanaka, *Local structures on stratified spaces*, [arXiv](http://arxiv.org/abs/1409.0501)
+* {#AFT} [[David Ayala]], [[John Francis]], [[Hiro Lee Tanaka]], *Local structures on stratified spaces*, [arXiv](http://arxiv.org/abs/1409.0501)
 
-* David Ayala, John Francis, Nick Rozenblyum, *Factorization homology from higher categories*, [arXiv](http://arxiv.org/abs/1504.04007)
+* [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *Factorization homology from higher categories*, [arXiv](http://arxiv.org/abs/1504.04007)
 
-* {#AFRshh} David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+* {#AFRshh} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+
+* [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
+
 
 whilst an earlier paper on exit paths is
 
