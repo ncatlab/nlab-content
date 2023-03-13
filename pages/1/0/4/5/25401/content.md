@@ -56,22 +56,27 @@ Every category also admits $(\mathcal{C}, \mathcal{I})$ as a trivial orthogonal 
 These notions recover the order-theoretic ones when $\mathcal{C}$ is a preorder.
 \end{remark}
 
-\begin{proposition}
++-- {: .num_prop}
+###### Proposition
+
 The following are equivalent:
-<!-- -->
+
 1. An object $M : \mathcal{C}$ is $\mathcal{M}$-minimal
 2. Every morphism $h:A \to M$ is in $\mathcal{E}$.
 3. (if $\mathcal{E}$=epimorphisms and $\mathcal{C}$ has [[weak equalizers]]) All parallel pairs of arrows $A \rightrightarrows M$ are equal.
-\end{proposition}
 
-\begin{corollary}
+=--
+
++-- {: .num_cor}
+###### Corollary
+
 Dually, the following are equivalent:
-\begin{enumerate}
+
 1. An object $M : \mathcal{C}$ is $\mathcal{M}$-maximal
 2. Every morphism $h:M \to A$ is in $\mathcal{M}$.
 3. (if $\mathcal{M}$=monomorphisms and $\mathcal{C}$ has [[weak coequalizers]]) All parallel pairs of arrows $M \rightrightarrows A$ are equal (i.e. $M$ is [[subterminal]])
-\end{enumerate}
-\end{corollary}
+
+=--
 
 ## Examples
 
