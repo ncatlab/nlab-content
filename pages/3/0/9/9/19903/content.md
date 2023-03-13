@@ -33,6 +33,8 @@ in computer science and quantum physics (not to mention pure mathematics itself)
 
 * [[Brendan Fong]] and [[David Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). 
 
+* [Applied category theory](https://www.appliedcategorytheory.org/)
+
 [[John Baez]] ran a series of lectures based on this book:
 
 * lectures on chapter 1
