@@ -73,9 +73,13 @@ For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)categ
 
 ## References
 
-The definition first appeared in 
+Bicategories enriched in monoidal 2-categories first appeared in:
 
-* S. M. Carmody, _Cobordism Categories_ , PhD thesis, University of Cambridge, 1995.
+* Syméon Bozapalides, _Bicatégories relatives à une 2-catégorie multiplicative_, [[CRAS]], 1976.
+
+The definition appeared independently in:
+
+* S. M. Carmody, _Cobordism Categories_, PhD thesis, University of Cambridge, 1995.
 
 A definition also appeared in 
 
