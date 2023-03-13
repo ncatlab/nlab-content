@@ -18,6 +18,10 @@ On [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[different
 
 * {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), _Differential Cohomology: Categories, Characteristic Classes, and Connections_. Based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250))
 
+On [[poset-stratified spaces]]:
+
+* [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
+
 
 ## Related $n$Lab entries
 
