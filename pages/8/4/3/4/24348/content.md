@@ -56,6 +56,10 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Restriction presheaves and restriction colimits|Daniel Lin|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269712)| |
 |Structures in two dimensional category theory and applications to polynomial functors|Charles Walker|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1270211)| | 
 |The Gray tensor product for 2-quasi-categories|Yuki Maehara|2020|[Macquarie repository](http://hdl.handle.net/1959.14/1284564)| |
+|Monadic and Higher-Order Structure|Nathanael Arkor|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| |
+|Pseudomonads, Relative Monads and Strongly Finitary Notions of Multicategory|Gabriele Lobbia|2022|[Leeds repository](https://etheses.whiterose.ac.uk/30578/)| |
+|Enriched Categories and their Applications|Giacomo Tendas|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
+
 
 ## Related pages
 
