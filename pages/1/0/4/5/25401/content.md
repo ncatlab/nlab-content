@@ -85,7 +85,7 @@ Dually, the following are equivalent:
 
 ## References
 
-* {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_, Logical Methods in Computer Science, Vol. 18, [(link)](https://lmcs.episciences.org/9893)
+* {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ (2022), Logical Methods in Computer Science, Vol. 18, [(link)](https://lmcs.episciences.org/9893)
 
 [[!redirects minimal objects]]
 [[!redirects maximal object]]
