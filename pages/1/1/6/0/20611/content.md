@@ -3,7 +3,9 @@
 
 The following journals have, at least at some time in the past, published homotopy theory, category theory, and related material.  More need to be added.  No guarantee is made that the mentioned editors are current; check the journal web sites for current editorial boards.
 
-The general plan for the ordering of journals below should be roughly in the decreasing order of the number of articles they publish in the area of homotopy theory and category theory, as witnessed by the [[MathSciNet]] statistics. Unfortunately this webpage is in continuous update and it is not easy to keep track of this information consistently. 
+The general plan for the ordering of journals below should be roughly in the decreasing order of the number of articles they publish in the area of homotopy theory and category theory, as witnessed by the [[MathSciNet]] statistics. Unfortunately this webpage is in continuous update and it is not easy to keep track of this information consistently.
+
+## Journals currently publishing homotopy theory and/or category theory
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
@@ -35,7 +37,12 @@ The general plan for the ordering of journals below should be roughly in the dec
 |[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|[[Martin Hyland|Hyland]]|subscription|logic|
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
 |[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Colin McLarty|McLarty]], [[Steve Awodey|Awodey]]|subscription|logic|
-|[[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]|French Academy of Sciences| | | |
+
+## Journals previously publishing homotopy theory and/or category theory
+
+|Journal|Publisher|
+|-------|---------|
+|[[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]|French Academy of Sciences|
 
 ## Related pages
 
