@@ -224,7 +224,7 @@ Maps of framed spaces could be defined along the following lines.
 
 Framed spaces and framed maps are, in a sense, "very rigid" variants of directed spaces. Nonetheless, they are interesting to study as they turn out to have a rich [[framed combinatorial topology|combinatorial theory associated to them]]. This combinatorial counterpart is particular useful when translating between the topology of directed spaces and the combinatorics of higher categories: an example of this is the definition of [[manifold diagram|manifold diagrams]] in the language of framed spaces.
 
-\begin{example} Realizations of geometric computads (resp. their functors) have the structure of framed spaces (resp. of framed maps), see [Dorn23](#Dorn23).
+\begin{example} Realizations of [[geometric computad|geometric computads]] (resp. their functors) have the structure of framed spaces (resp. of framed maps), see [Dorn23](#Dorn23).
 \end{example}
 
 #### Comparison to $d$-spaces
