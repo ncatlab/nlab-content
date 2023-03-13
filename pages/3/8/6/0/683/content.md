@@ -1082,24 +1082,24 @@ More recently one has:
 
 An introduction is 
 
-* {#Dugger} [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf](http://math.uoregon.edu/~ddugger/hocolim.pdf))
+* {#Dugger} [[Daniel Dugger]], _A primer on homotopy colimits_, 2008 ([pdf](http://math.uoregon.edu/~ddugger/hocolim.pdf))
  
 
 A general overview via universal properties is in the 
 
 * [[Georges Maltsiniotis]] lectures, Sevilla (2008) 
 
-  I, localizers, ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf)); 
+  I, localizers, ([pdf](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Lecture_I_Localizers.pdf)); 
 
-  II, [[model categories]],  ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_II_Model_Categories.pdf)); 
+  II, [[model categories]],  ([pdf](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Lecture_II_Model_Categories.pdf)); 
 
-  III, [[derivator]]s, ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf)): 
+  III, [[derivator]]s, ([pdf](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Lecture_III_Derivators.pdf)): 
 
-  IV, summary on derivators ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf))
+  IV, summary on derivators ([pdf](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Summary_on_Derivators.pdf))
 
 In
 
-* Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) 
+* Wojciech Chacholski, Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) 
 
 is given a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and it is discussed how to compute homotopy (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
 
