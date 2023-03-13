@@ -15,10 +15,14 @@
 
 ## Idea
 
-A minimal [[ideal]].
+A minimal [[ideal]] is a proper ideal which doesn't contain any other proper ideal.
+Formally, $J$ is minimal iff for every ideal $I$, $I \leq J$ implies $I=(0)$ or $I=J$.
+
+This notion is the dual to the more popular one of [[maximal ideal]].
 
 ## Related concepts
 
+* [[minimal object]]
 * [[maximal ideal]]
 
 ## References
