@@ -167,6 +167,7 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _Catégories localement internes_, (1974), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6236784g/f355))
 - _Ditopos_, [[Dominique Bourn]] (1974), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6226936t/f15))
 - _Sur les ditopos_, [[Dominique Bourn]] (1974), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6226936t/f195))
+- _Une formalisation simple de la théorie des catégories_, Giorgio Germano (1974), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k64180124/f293))
 - _Structures et opérations initiales et finales_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62266732/f255))
 - _Préfiltres initiaux et finaux. Topologies initiales et finales_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6226674g/f17))
 - _J-monades_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6216795q/f279))
@@ -177,6 +178,15 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _Bon ordre dans l'objet des nombres naturels d'un topos booléen_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62154338/f9))
 - _Théories relatives à un corpus_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f105))
 - _Fibrations petites et localement petites_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171))
+- _Les fins cartésiennes_, Jean-Marie Sirot (1976), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6426770n/f42))
+- _Théorèmes, exemples et contre-exemples pour certaines propriétés des entiers naturels dans les topos_, Louis Mahé (1976), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62351984/f353))
+- _Objets à limites dans les bicatégories_, Syméon Bozapalides (1976), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6426770n/f372))
+- _Monoïdes et catégories avec zéro algébriquement ou existentiellement clos_, Bernard Calvo (1976), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6235850q/f247))
+- _Bicatégories relatives à une 2-catégorie multiplicative_, Syméon Bozapalides (1976), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62351984/f215))
+- _Les quasi-quotients dans le transfert d'adjonctions aux catégories commas_, Luc Van den Bril (1976), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62351984/f219))
 - _Spectres et localisations relatifs à un foncteur_, [[Yves Diers]] (1978), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6238948x/f513))
+- _Théories algébriques internes dans les topos_, Brigitte Lesaffre (1978), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6234149b/f395))
+- _Les théories convexes de Horn_, Jorge Herrera Miranda (1978), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k9813799h/f127))
+- _La Théorie de Galois dans les Catégories monoïdales_, Thomas S. Ligon (1979), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k98138170/f17))
 
 [[!redirects CRAS]]
