@@ -1,31 +1,94 @@
 
-[[schreiber:twisted equivariant differential K-theory|TED]]
+#Contents#
+* table of contents
+{:toc}
 
-## Lawvere on platonism
+## Idea
 
->Platonic idealism, while mistaken on the relation between consciousness and matter, contains an aspect of truth when applied within the realm of ideas; for example, the doctrine of algebraic theories begins with the affirmation that there exists as a definite mathematical object the “perfect idea of a group” A of which the idea of any particular group is “merely an imperfect representation”. (Indeed, it is a simple further step to form as a mathematical object the “idea of an algebraic theory” of which any particular algebraic theory A is a representation, as was carried out as a part of Bénabou’s 1966 dissertation); of course, even here Platonic idealism is wrong on the order of development, since the ideas of several particular groups were concentrated from practice well before the idea of a group in general was concentrated from the practice of mathematicians around 1800. 
+A **minimal object** generalizes the notion of minimal element of a preorder. Intuitively, minimal elements are ones that don't have anything below them, even though they might not be _the minimum_. A 'minimum object' would be instead an [[initial object]].
 
-Perugia notes, _lesson 4_ , unpublished manuscript (1972) p.140.
+Minimal objects have been first defined in [(Weissmann '22)](#Weissmann22) in the context of [[coalgebra]] theory, relative to an orthogonal factorization system. Trivializing the factorization system gives a general notion of minimality and maximality, though these are quite stronger in categories.
 
->The often repeated slander that mathematicians think
-"as if" they were "platonists" needs to be combatted rather than swallowed. What mathematicians and other scientists use is the objectively developed human
-instrument of general concepts. (The plan to misleadingly use that fact as a support for philosophical idealism may have been an
-honest mistake by Plato, or it may have been part of his job as disinformation officer for the Athenian CIA organization; it probably would not have survived until now had it not been for the special efforts of Cosimo de' Medici.)
-It seems that a general concept has two related aspects, as I began to realize more explicitly in connection with my paper Adjointness infoundations, Dialectica vol. 23, 1969 281-296; I later learned that some philosophers refer to these two aspects as "abstract general vs. concrete general". For example, there is the algebraic theory of rings  vs. the category of all rings, or a particular abstract group  vs. the category of all
-permutation representations of the group. While it is "obvious" that, at least in mathematics, a concrete general should have the structure of a category, because all the instances embody the same abstract general and hence any two instances can be compared in preferred ways, by contrast it was not until the late fifties that one realized that an abstract general can also be construed as a category in its own right. That
-realization essentially made explicit the fact that substitution is a logical operation and indeed is the most fundamental logical operation.
-Thus an abstract general is essentially a special
-algebraic structure indeed a category with additional structure such as finite limits or
-still richer doctrines. As with other algebraic
-structures there are again two aspects, the structures themselves and their presentations which are closely related, yet quite distinct; for example,
-more than one presentation may be needed for efficient calculations determining features of the same algebraic structure. What is meant by a presentation depends
-on the doctrine: for example Delta as a mere category has an infinite presentation used in topology, but as a strict monoidal category it has a finite presentation.
+## Definition
+### In preorders
+\begin{definition}
+In a [[preorder]] $(C, \leq)$, a minimal element $m \in C$ is one such that if $a \leq m$, then $m \leq a$. Dually, a maximal element is one such that $m \leq a$ implies $a \leq m$, i.e. which is minimal in $C^{op}$.
+\end{definition}
 
-Message to the Categories mailing list, 03 Dec 2001. ([link](https://www.mta.ca/~cat-dist/archive/2001/01-12))
+\begin{remark}
+If $C$ is [[bounded lattice|bounded below]], meaning there  is an element $\bot \in C$ such that $\bot \leq a$ for all $a \in C$ ($\bot$ is [[initial object|initial]]), then $\bot$ is the only minimal element in $C$.
+Hence in many cases (chiefly, when $C$ is the preorder of [[ideals]] of a ring), one speaks of minimality in $C\setminus\{\bot\}$, that is, one defines a minimal element to be one for which $a \leq m$ implies $a=m$ _or $a=\bot$.
 
->In my 1972 Perugia Notes I had made an attempt to characterize the relation between these sorts of mathematical considerations and philosophy by saying that while platonism is wrong on the relation between Thinking and Being, something analogous is correct WITHIN the realm of Thinking. The relevant dialectic there is between abstract general and concrete general. Not concrete particular ("concrete" here does not mean "real").
-There is another crucial dialectic making particulars (neither abstract nor concrete) give rise to an abstract general; since experiments do not mechanically give rise to theory, it is harder to give a purely mathematical outline of how that dialectic works, though it certainly does work. A mathematical model of it can be based on the hypothesis that a given set of particulars is somehow itself a category (or graph), i.e., that the appropriate ways of comparing the particulars are given but that their essence is not. Then their "natural structure" (analogous to cohomology operations) is an abstract general and the corresponding concrete general receives a Fourier-Gelfand-Dirac functor from the original particulars. That functor is usually not full because the real particulars are infinitely deep and the natural structure is computed with respect to some limited doctrine; the doctrine can be varied, or "screwed up or down" as James Clerk Maxwell put it, in order to see various
-phenomena.
+This is not the definition we take here!
+\end{remark}
 
-Message to the Categories mailing list, 05 Dec 2001. ([link](https://www.mta.ca/~cat-dist/archive/2001/01-12))
+### In categories
+Let $(\mathcal{E}, \mathcal{M})$ be an [[orthogonal factorization system]] on a category $\mathcal{C}$. This means:
 
+0. $\mathcal{E}$ and $\mathcal{M}$ are [[wide subcategories]] of $\mathcal{C}$ closed under composition and each containing all isomorphisms of $\mathcal{C}$.
+1. Every morphism in $\mathcal{C}$ factors uniquely as a morphism in $\mathcal{E}$ followed by one in $\mathcal{M}$:
+\[
+  a \overset{f}\to b = a \overset{e_f}\twoheadrightarrow \mathrm{im}(f) \overset{m_f}\rightarrowtail b.
+\]
+2. The morphisms in $\mathcal{E}$ are exactly the ones having the [[left lifting property]] against the morphisms in $\mathcal{M}$, and the morphisms in $\mathcal{M}$ are exactly the ones having the [[right lifting property]] against the morphisms in $\mathcal{E}$.
+3. The lifts are unique.
+
+Here we'll tend to denote morphisms in $\mathcal{E}$ with $\twoheadrightarrow$ and morphisms in $\mathcal{M}$ with $\rightarrowtail$. In fact, a common source of examples for these factorization systems is given by the systems of [[strong epimorphism|strongly epic]] and [[monic|monomorphism]] arrows.
+
+\begin{definition}
+An **$\mathcal{M}$-minimal object** is an object $M:\mathcal{C}$ such that every morphism $h : A \rightarrowtail M$ in $\mathcal{M}$ is an isomorphism.
+\end{definition}
+
+\begin{definition}
+An **$\mathcal{E}$-minimal object** is an object $M:\mathcal{C}$ such that every morphism $h : M \twoheadrightarrow A$ in $\mathcal{E}$ is an isomorphism.
+\end{definition}
+
+Clearly the two definitions above are dual to each other, since $\mathcal{C}^{op}$ is equipped with the orthogonal factorization system $(\mathcal{M}^{op}, \mathcal{E}^{op})$. Indeed, one might call $\mathcal{E}$-minimal objects **$\mathcal{M}$-maximal**.
+
+\begin{remark}
+Instantiating this definition for the trivial factorization systems gives us a general definition of minimal and maximal objects in a category:
+
+In fact, every category admits a trivial orthogonal factorization systems, namely $(\mathcal{I}, \mathcal{C})$, where $\mathcal{I}$ is the [[core|wide subcategory of isomorphisms]] of $\mathcal{C}$. In this instance, every object is $\mathcal{I}$-minimal (since every isomorphism to it is already an iso) but an $\mathcal{I}$-maximal object is one such that every morphism out of it is invertible.
+We call these simply **maximal objects**.
+
+Every category also admits $(\mathcal{C}, \mathcal{I})$ as a trivial orthogonal factorization system. In this case, $\mathcal{C}$-minimal objects are the ones for which every morphism into them is invertible, whereas every object is trivially $\mathcal{C}$-maximal. We call these simply **minimal objects**.
+
+These notions recover the order-theoretic ones when $\mathcal{C}$ is a preorder.
+\end{remark}
+
+\begin{proposition}
+The following are equivalent:
+
+1. An object $M : \mathcal{C}$ is $\mathcal{M}$-minimal
+2. Every morphism $h:A \to M$ is in $\mathcal{E}$.
+3. (if $\mathcal{E}$=epimorphisms and $\mathcal{C}$ has [[weak equalizers]]) All parallel pairs of arrows $A \rightrightarrows M$ are equal.
+
+\end{proposition}
+
+\begin{corollary}
+Dually, the following are equivalent:
+
+1. An object $M : \mathcal{C}$ is $\mathcal{M}$-maximal
+2. Every morphism $h:M \to A$ is in $\mathcal{M}$.
+3. (if $\mathcal{M}$=monomorphisms and $\mathcal{C}$ has [[weak coequalizers]]) All parallel pairs of arrows $M \rightrightarrows A$ are equal (i.e. $M$ is [[subterminal]])
+
+\end{corollary}
+
+## Examples
+
+1. Like for preorders, the maximal and minimal objects of a category with initial and terminal object are just those. Not all initial and terminal objects are minimal and maximal though! For instance, a minimal initial object is called [[strict initial object]].
+
+## Related concepts
+
+* [[minimal ideal]], [[maximal ideal]]
+* [[strict initial object]]
+* [[simple coalgebra]]
+* [[reachability]]
+
+## References
+
+* {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ (2022), Logical Methods in Computer Science, Vol. 18, [(link)](https://lmcs.episciences.org/9893)
+
+[[!redirects minimal objects]]
+[[!redirects maximal object]]
+[[!redirects maximal objects]]
