@@ -279,6 +279,9 @@ Refinements of string topology from [[homology groups]] to the full [[ordinary h
 
 * [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](https://arxiv.org/abs/1304.0613))
 
+* Kate Gruher, Paolo Salvatore, _Generalized string topology operations_, Proc. London Math. Soc. __96__:1
+(2008) 78--106 [doi](https://doi.org/10.1112/plms/pdm030)
+[math.AT/0602210](https://arxiv.org/abs/math/0602210)
 
 Further generalization to target spaces that are more generally [[differentiable stacks]]/[[Lie groupoids]] is discussed in
 
@@ -288,7 +291,7 @@ Further generalization to target spaces that are more generally [[differentiable
 
 The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
 
-* [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfces_ ([arXiv:0702859](http://arxiv.org/abs/math/0702859))
+* [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfaces_ ([arXiv:0702859](http://arxiv.org/abs/math/0702859))
 
 More developments are in
 
