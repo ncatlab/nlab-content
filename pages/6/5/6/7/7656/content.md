@@ -66,7 +66,7 @@ If we also take care of the appropriate morphisms have the following:
 
 ## References
 
-* J. Penon, _Categories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577-1580
+* J. Penon, _Catégories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577-1580 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6236784g/f355))
 
 * Locally internal categories, Appendix in: P. Johnstone, Topos theory, 1977
 
