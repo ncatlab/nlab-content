@@ -66,10 +66,11 @@ The following are equivalent:
 
 \begin{corollary}
 Dually, the following are equivalent:
-<!-- -->
+\begin{enumerate}
 1. An object $M : \mathcal{C}$ is $\mathcal{M}$-maximal
 2. Every morphism $h:M \to A$ is in $\mathcal{M}$.
 3. (if $\mathcal{M}$=monomorphisms and $\mathcal{C}$ has [[weak coequalizers]]) All parallel pairs of arrows $M \rightrightarrows A$ are equal (i.e. $M$ is [[subterminal]])
+\end{enumerate}
 \end{corollary}
 
 ## Examples
