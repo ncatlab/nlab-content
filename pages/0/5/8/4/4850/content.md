@@ -8,7 +8,9 @@ A **pseudoadjunction** is a kind of weak [[2-adjunction]].  Sometimes the word i
 
 ## References
 
-* [[Steve Lack]], *A coherent approach to pseudomonads*
+* [[Jacques Penon]], *Sous-catégorie classifiée d’une 2-catégorie*, 1974.
+
+* [[Steve Lack]], *A coherent approach to pseudomonads*, 2000.
 
 * I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra __173__ (2002), no. 3, 293--313, [MR2003f:18004](http://www.ams.org/mathscinet-getitem?mr=2003f:18004), <a href="http://dx.doi.org/10.1016/S0022-4049(02)00038-5">doi</a>
 
