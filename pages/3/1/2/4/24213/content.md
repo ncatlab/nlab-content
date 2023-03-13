@@ -64,7 +64,7 @@ If one restricts the types involved to h-sets, then this problem should go away;
 
 With semi-simplicial sets, the “iterated dependency” approach gives us at least a candidate approach for tackling coherence issues. With simplicial sets, it’s hard to see how one might tackle or avoid them. (Comparing it to the semi-simplicial approach, one requires degeneracy maps and equations between them, which lets loose the spectre of coherence again.) Furthermore, reasoning about Kan simplicial sets seems to insist on classical logic. For example, the classical result stating the homotopy equivalence of fibers of a Kan fibration cannot be proved constructively ([pdf](http://uf-ias-2012.wikispaces.com/file/view/countermodel.pdf/423334002/countermodel.pdf)).
 
-In homotopy-theoretic terms, this is because $\Delta{}i$ is a direct category, while $\Delta$ is not. 
+In homotopy-theoretic terms, this is because $\Delta{}i$ is a [[direct category]], while $\Delta$ is not. 
 
 ## See also
 
