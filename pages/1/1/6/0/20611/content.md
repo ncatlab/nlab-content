@@ -35,6 +35,7 @@ The general plan for the ordering of journals below should be roughly in the dec
 |[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|[[Martin Hyland|Hyland]]|subscription|logic|
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
 |[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Colin McLarty|McLarty]], [[Steve Awodey|Awodey]]|subscription|logic|
+|[[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]|French Academy of Sciences| | | |
 
 ## Related pages
 
