@@ -1,4 +1,4 @@
-*Comptes rendus hebdomadaires des séances de l'Académie des sciences* (CRAS) was a journal that published, among other topics, articles in category theory (usually under *Algèbre des catégories* or *Logique et catégories*) from 1960 – 1975 before it ended publication. (It has recently resumed under Elsevier, but no longer publishes category theory.)
+*Comptes rendus hebdomadaires des séances de l'Académie des sciences* (CRAS) was a journal that published, among other topics, articles in category theory (usually under *Algèbre des catégories*, *Théorie des catégories*, or *Logique et catégories*) from 1960 – 1978 before it ended publication. (It has recently resumed under Elsevier, but no longer publishes category theory.)
 
 The articles are up to 4 pages in length, which means that proofs are usually omitted. While CRAS articles have been archived, their text has not been indexed by search engines, which means it can be difficult to find copies of papers published in the journal. Therefore, here we list various articles pertaining to category theory that were published by CRAS.
 
@@ -173,9 +173,10 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _Arithmétique de premier ordre dans les topos_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62167964/f163))
 - _Théorème de Yoneda dans les bicatégories_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62167964/f245))
 - _Caractérisation de Dist(X) pour une bicatégorie X à sommes_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6234154n/f145))
-- _Les fins cartésiennes_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62154338/f5))
+- _Les fins cartésiennes_, Syméon Bozapalidès (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62154338/f5))
 - _Bon ordre dans l'objet des nombres naturels d'un topos booléen_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k62154338/f9))
 - _Théories relatives à un corpus_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f105))
 - _Fibrations petites et localement petites_, (1975), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171))
+- _Spectres et localisations relatifs à un foncteur_, [[Yves Diers]] (1978), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k6238948x/f513))
 
 [[!redirects CRAS]]
