@@ -373,6 +373,8 @@ see [[Pfaffian]] for the moment
 
 * [[Slater determinant]]
 
+* [[permanent]]
+
 ## References
 
 See also
