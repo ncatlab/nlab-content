@@ -490,6 +490,9 @@ Review and further development:
 
 * {#Moerdijk02} [[Ieke Moerdijk]], Section 6 in: _Orbifolds as Groupoids: an Introduction_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
+* [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Inertia and delocalized twisted cohomology_, Homotopy, Homology and Applications 10(1) 129--180 (2008)[math.KT/0609576](https://arxiv.org/abs/math/0609576)  	
+[doi](https://doi.org/10.4310/HHA.2008.v10.n1.a6)
+
 See also:
 
 * [[The Stacks Project]], *[The inertia stack](https://stacks.math.columbia.edu/tag/036X)* ([more](https://stacks.math.columbia.edu/tag/034H), [more](https://stacks.math.columbia.edu/tag/034I))
