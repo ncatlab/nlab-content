@@ -26,7 +26,7 @@ In the generality of [[higher algebra]]:
 +-- {: .num_defn #Modperf}
 ###### Definition
 
-Let $R$ be an [[A-∞ ring]]. Write $R Mod^{perf} \hookrightarrow R Mod$ for the smallest [[stable (∞,1)-category]] inside that of all [[∞-modules]]  which contains $R$ and is closed under [[retracts]]. An object in $R Mod$ is called a _perfect $R$-module_ .
+Let $R$ be an [[A-∞ ring]]. Write $R Mod^{perf} \hookrightarrow R Mod$ for the smallest [[stable (∞,1)-category]] inside that of all [[∞-modules]]  which contains $R$ and is closed under [[retracts]]. An object in $R Mod^{perf}$ is called a _perfect $R$-module_ .
 
 =--
 
