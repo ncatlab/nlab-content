@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The terms 'geometric $n$-category' or 'geometrical $n$-category' broadly refer to notions of [[higher categories]] whose composition is modelled on the stratified-geometric notion of [[manifold diagram|manifold diagrams]]. 
+The terms 'geometric $n$-category' or 'geometrical $n$-category' broadly refer to notions of [[higher categories]] whose [[composition]] [[operation]] is modelled on the [[stratified space|stratified-geometric]] notion of [[manifold diagram|manifold diagrams]]. 
 
 ## Examples
 
