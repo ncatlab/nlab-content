@@ -21,7 +21,7 @@
 
 This is a joint generalization of [[determinants]] and [[permanent|permanents]].
 
-If $(a_{i,j}) \in \mathcal{M}_{n,p}(R)$ where $R$ is a [[commutative ring]] and if $\lambda \vdash n$ is a [[partition]] of $n$, we define:
+If $A = (a_{i,j}) \in \mathcal{M}_{n,p}(R)$ where $R$ is a [[commutative ring]] and if $\lambda \vdash n$ is a [[partition]] of $n$, we define:
 
 $$
 Imm_{\lambda}(A) = \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\chi_{\lambda}(\sigma)a_{i,\sigma(i)}
