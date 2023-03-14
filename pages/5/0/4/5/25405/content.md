@@ -14,14 +14,13 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-This is an approach to [[linear representations]] of the groups $GL_{n}(\mathbf{F}_{q})$ which relates them to the [[Steenrod algebra]] in a very algebraic (and quite categorical) way.  It has been developed in a series of three papers by [[Nicholas Kuhn]]. 
+This is an approach to [[linear representations]] of the [[general linear groups]] $GL_{n}(\mathbf{F}_{q})$ over [[prime fields]] which relates them to the [[Steenrod algebra]] in a very [[algebra|algebraic]] (and quite [[category theory|category theoretic]]) way.  It has been developed in a series of three papers by [[Nicholas Kuhn]]. 
 
 From the first paper of the series:
 
