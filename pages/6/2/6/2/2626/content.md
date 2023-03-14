@@ -97,6 +97,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[Wilson loop]]
 
+* [[knots-quivers correspondence]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 
