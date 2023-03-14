@@ -137,6 +137,12 @@ So that then finally is the relation, in the ADE classification, between the sim
 * [[wrapped brane]]
 
 
+* [[AGT correspondence]]
+
+* [[3d-3d correspondence]]
+
+* [[knots-quivers correspondence]]
+
 ## References
 
 The original article is
