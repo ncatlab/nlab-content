@@ -16,6 +16,8 @@
 =--
 =--
 =--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,12 +25,11 @@
 
 ## Definition 
 
-+-- {: .num_defn}
-###### Definition 
-
+\begin{definition}
+\label{MonoidalMonad}
+\linebreak
 A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category|monoidal categories]], [[lax monoidal functor|lax monoidal functors]], and [[monoidal natural transformation|monoidal transformations]]. 
-
-=-- 
+\end{definition}
 
 +-- {: .num_remark}
 ###### Remark
@@ -48,47 +49,95 @@ We discuss how monoidal monads [[functor|functorially]] give rise to [[strong mo
 
 First to recall the notion of a [[strong monad]]:
 
-Let $V$ be a [[monoidal category]]. We say a [[functor]] $T \colon V \to V$ is **strong** if there are given left and right [[tensorial strength|tensorial strengths]] 
-$$\tau_{A, B} \colon A \otimes T(B) \to T(A \otimes B)$$
+Let $V$ be a [[monoidal category]]. We say a [[functor]] $T \colon V \to V$ is **strong** if there are given left and right [[tensorial strength|tensorial strengths]], namely [[natural transformations]] of the form: 
+
+
+$$
+  \tau_{A, B} 
+  \;\colon\; 
+  A \otimes T(B) 
+  \to 
+  T(A \otimes B)
+$$
 
 $$\,$$ 
 
-$$\sigma_{A, B} \colon T(A) \otimes B \to T(A \otimes B).$$ 
+$$
+  \sigma_{A, B} 
+  \;\colon\; 
+  T(A) \otimes B 
+  \to 
+  T(A \otimes B)
+  \,,
+$$ 
 
-which are suitably compatible with one another. The full set of [[coherence]] conditions may be summarized by saying $T$ preserves the two-sided monoidal [[action]] of $V$ on itself, in an appropriate [[2-category theory|2-categorical]] sense. More precisely: the two-sided action of $V$ on itself is a [[lax functor]] of 2-categories  
-$$\tilde{V} \colon B V \times (B V)^{op} \to Cat$$ 
-($B V$ is the one-object 2-category associated with a monoidal category $V$, and $(B V)^{op}$ is the same 2-category but with 1-cell composition (= tensoring) in reverse order), and the two-sided strength means we have a structure of [[lax natural transformation]] $\tilde{V} \to \tilde{V}$. 
+which are suitably compatible with one another: The full set of [[coherence]] conditions may be summarized by saying $T$ preserves the two-sided [[action of a monoidal category|monoidal action]] of $V$ on itself, in an appropriate [[2-category theory|2-categorical]] sense. More precisely: the two-sided action of $V$ on itself is a [[lax functor]] of [[2-categories]]  
+
+$$
+  \tilde{V} 
+  \colon 
+  B V \times (B V)^{op} 
+  \to 
+  Cat
+$$ 
+
+where
+
+* [[Cat]] dentes the 2-category of [[categories]], [[functors]] and [[natural transformations]],
+
+* $B V$ denotes the [[delooping]] one-object 2-category of the monoidal category $V$,
+
+* $(B V)^{op}$ denotes its [[opposite 2-category|1-cell dual]], hence the same 2-category except with [[1-morphism]] [[composition]] (here: [[tensor product]]) in reverse order),
+
+* the two-sided strength means we have a [[structure]] of [[lax natural transformation]] $\tilde{V} \to \tilde{V}$. 
 
 
 +-- {: .num_remark}
 ###### Remark
 
-In the setting where $V$ is _[[symmetric monoidal category|symmetric]]_ monoidal, we will assume that the left and right strengths $\tau$ and $\sigma$ are related by the symmetry in the obvious way, by a commutative square 
+In the setting where $V$ is _[[symmetric monoidal category|symmetric]]_ monoidal, we will assume that the left and right strengths $\tau$ and $\sigma$ are related by the symmetry in the obvious way, by a [[commutative square]] 
 
-$$\array{
-A \otimes T(B) & \stackrel{\tau_{A, B}}{\to} & T(A \otimes B) \\
- ^\mathllap{c} \downarrow & & \downarrow^\mathrlap{T(c)} \\
-T(B) \otimes A & \underset{\sigma_{B, A}}{\to} & T(B \otimes A)
+$$
+  \array{
+    A \otimes T(B) 
+    & 
+    \stackrel
+      {\tau_{A, B}}
+      {\longrightarrow} 
+    & 
+    T(A \otimes B) 
+    \\
+    \mathllap{^c} 
+    \big\downarrow 
+    & & 
+    \big\downarrow
+    \mathrlap{^{T(c)}} 
+    \\
+    T(B) \otimes A 
+    & 
+    \underset{
+      \sigma_{B, A}}
+      {\longrightarrow} 
+    & T(B \otimes A)
 }$$ 
 
 where the $c$'s are instances of the symmetry isomorphism. 
 
 =--
 
-There is a category of strong functors $V \to V$, where the morphisms are transformations $\lambda \colon S \to T$ which are compatible with the strengths in the obvious sense. Under composition, this is a strict monoidal category. 
 
 
 \begin{definition}
 \label{StrongMonad}
+There is a [[category]] of [[strong functors]] $V \to V$, whose [[morphisms]] are [[natural transformations]] $\lambda \colon S \to T$ which are compatible with the strengths in the obvious sense. Under [[composition]], this is a strict [[monoidal category]]. 
 
-Monoids in this monoidal category are called **[[strong monads]]**. 
-
+The [[monoid objects]] in this monoidal category are called **[[strong monads]]**. 
 \end{definition}
+
 
 
 \begin{definition}
 \label{CommutativeMonad}
-
 A [[strong monad]] $(T \colon V \to V, m \colon T T \to T, u: 1 \to T)$ (def. \ref{StrongMonad}) is a **[[commutative monad]]** if there is an [[equality]] of [[natural transformations]] $\alpha = \beta$ where 
 
 * $\alpha$ is the composite 
@@ -104,21 +153,45 @@ A [[strong monad]] $(T \colon V \to V, m \colon T T \to T, u: 1 \to T)$ (def. \r
 
 #### From monoidal to commutative strong monads 
 
-Let $(T \colon V \to V, u \colon 1 \to T, m \colon T T \to T)$ be a monoidal monad, with structural constraints on the underlying functor denoted by 
 
-$$\alpha_{A, B} \colon T(A) \otimes T(B) \to T(A \otimes B), \qquad \iota = u I: I \to T(I).$$ 
+\begin{definition}
+\label{StrengthFromMonoidalness}
+**(strength from monoidalness)**
+\linebreak
+For $(T \colon V \to V, u \colon id \to T, m \colon T T \to T)$  a monoidal monad (Def. \ref{MonoidalMonad}), with the monoidal monad-[[structure]] on the [[underlying]] [[functor]] denoted by 
 
-Define [[tensorial strength|strengths]] on both the left and the right by 
+$$
+  \alpha_{A, B} 
+  \,\colon\, 
+  T(A) \otimes T(B) 
+  \to 
+  T(A \otimes B), 
+  \qquad 
+  \iota = u(I) 
+  \,:\, I \to T(I)  
+  \,,
+$$ 
 
-$$\tau_{A, B} = (A \otimes T(B) \stackrel{u A \otimes 1}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B)),$$ 
+Define [[tensorial strength|strengths]] on both the left and the right by: 
+
+$$
+  \tau_{A, B} 
+  \coloneqq 
+  (A \otimes T(B) \stackrel{u A \otimes 1}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B)),
+$$ 
 
 $$\,$$ 
 
-$$\sigma_{A, B} = (T(A) \otimes B \stackrel{1 \otimes u B}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B)).$$ 
+$$
+  \sigma_{A, B} 
+  \coloneqq (T(A) \otimes B \stackrel{1 \otimes u B}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B))
+  \,.
+$$ 
+\end{definition}
 
 +-- {: .num_prop}
 ###### Proposition 
-$(m \colon T T \to T, u \colon 1 \to T)$ is a [[commutative monad]] (Def. \ref{CommutativeMonad}). 
+The strong monad structures obtained from monoidal monads via Def. \ref{StrengthFromMonoidalness} are [[commutative monads]] (Def. \ref{CommutativeMonad}). 
 =-- 
 
 +-- {: .proof} 
@@ -153,9 +226,7 @@ This construction is [[functorial]]:
 
 \begin{proposition}
 \label{cf}
-
-Given monoidal monads $S$ and $T$ on a [[monoidal category]] $C$, a [[monad#the_bicategory_of_monads|morphism of monads]] $\alpha \colon S\Rightarrow T$ is a [[morphism]] of [[strong monads]] if and only if it is a [[monoidal natural transformation]].
-
+Given monoidal monads $S$ and $T$ on a [[monoidal category]] $C$, a [[monad#the_bicategory_of_monads|morphism of monads]] $\alpha \colon S\Rightarrow T$ is a [[morphism]] of the induced [[strong monad]] structures (Def. \ref{StrengthFromMonoidalness}) if and only if it is a [[monoidal natural transformation]].
 \end{proposition}
 
 (e.g. [FPR (2019), Prop. C.5](#support))
