@@ -86,12 +86,12 @@ The action $\rho \colon (g,x) \mapsto g \cdot x$ is called *proper* ([Palais 61,
 1. {#PalaisProperness} **(Palais properness)** Every point $x \in X$ has a [[neighbourhood]] $U_x$ such that every point $y \in U_x$ has a neighbourhood $V_y$ such that
 
    $$
-     (U_x \vert U_y)
+     (U_x \vert V_y)
      \;\coloneqq\;
      \big\{
        g \in G
        \,\vert\,
-       g \cdot V_x \,\cap\, U_y \neq \varnothing
+       g \cdot U_x \,\cap\, V_y \neq \varnothing
      \big\}
      \;\subset\;
      G
