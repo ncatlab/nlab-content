@@ -189,7 +189,9 @@ A [[homotopy hypothesis]] for stratified spaces is discussed in
 
 * David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
 
-based on the notion of stratifications developed in
+* [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
+
+The former is based on the notion of stratifications developed in
 
 * {#AFT} David Ayala, John Francis, and Hiro Lee Tanaka. _Local structures on stratified spaces_. Advances in Mathematics 307 (2017): 903-1028.
 
