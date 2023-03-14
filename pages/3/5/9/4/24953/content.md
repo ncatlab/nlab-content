@@ -63,3 +63,10 @@ Review:
 
 [[!redirects repeat-until-success]]
 
+[[!redirects repeat-until-success quantum gate]]
+[[!redirects repeat-until-success quantum gates]]
+
+
+[[!redirects repeat-until-success gate]]
+[[!redirects repeat-until-success gates]]
+
