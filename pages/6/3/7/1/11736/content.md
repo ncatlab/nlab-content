@@ -62,9 +62,11 @@ Under [[geometric engineering of quantum field theory]] via [[D-branes]] situate
 
 * [[McKay correspondence]]
 
-* [[fractional D-brane]]
+* [[knots-quivers correspondence]]
 
 * [[AGT correspondence]]
+
+* [[fractional D-brane]]
 
 ## References
 
