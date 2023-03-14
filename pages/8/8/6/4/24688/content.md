@@ -51,12 +51,12 @@ Manifold diagrams are meant to provide a definitional framework for higher algeb
 
 ### Outline
 
-Several definitional variants exist in dimensions $\leq 4$ (see also at [[surface diagram|surface diagrams]]). In general dimensions, manifold diagrams can be defined as conical, compactly supported stratifications of [[directed topological space|directed euclidean space]].
+Several definitional variants exist in dimensions $\leq 4$ (see also at [[surface diagram|surface diagrams]]). In general dimensions, manifold diagrams can be defined as conical, compactly triangulable stratifications of [[directed topological space|directed euclidean space]].
 
-\begin{defn} A **manifold $n$-diagram** is a conical, compactly supported stratification of standard $n$-dimensional directed space.
+\begin{defn} A **manifold $n$-diagram** is a conical, compactly triangulable stratification of standard $n$-dimensional directed space.
 \end{defn}
 
-Here, "standard directed space" can be taken to mean [[directed topological space#framed_spaces|standard $\mathbb{R}^n$ with standard $n$-framing]]. The term "conical" means a directed version of usual [[stratified space#conical_strat|conicality]]; namely, in the context of directed spaces one requires tubular neighborhoods to interact nicely with the directions of the underlying directed space. "Compactly supported" means, roughly, that up to isomorphism a description by finite data can be given.
+Here, "standard directed space" can be taken to mean [[directed topological space#framed_spaces|standard $\mathbb{R}^n$ with standard $n$-framing]]. The term "conical" means a directed version of usual [[stratified space#conical_strat|conicality]]; namely, in the context of directed spaces one requires tubular neighborhoods to interact nicely with the directions of the underlying directed space. "Compact triangulability" means, roughly, that up to isomorphism a description by finite data can be given.
 
 
 ### Details
@@ -76,12 +76,12 @@ A framed _stratified_ map $(\mathbb{R}^n,f) \to (\mathbb{R},g)$ is a [[stratifie
 \begin{defn} A stratification $(\mathbb{R}^n,f)$ is _framed conical_ if each point $x \in \mathbb{R}^n$ it has a framed stratified neighborhood (framed) homeomorphic to $\mathbb{R}^k \times (\mathrm{Cone}(S^{n-k-1}), \mathrm{cone}(l))$ with $x \in \mathbb{R}^k \times \{0\}$, where $0 \leq k \leq n$ and $(S^{n-1}, l)$ is some stratification.
 \end{defn}
 
-\begin{defn} A _compactly-described triangulation_ $K$ of $\mathbb{R}^n$ is a finite stratification of $\mathbb{R}^n$ by open disks whose closures are the images of [linear embeddings](https://math.stackexchange.com/questions/1326711/what-is-a-linear-embedding-from-a-simplex-deltan-to-mathbbrn) $\Delta^k \times \mathbb{R}^l_{\geq 0} \into \mathbb{R}^n$ ($k + l \leq n$). This now translates to the framed stratified case as follows: a stratification $(\mathbb{R}^n,f)$ is _framed compactly supported_ if it admits a framed stratified subdivision $(\mathbb{R}^n,K) \to (\mathbb{R}^n,f)$ of $f$ by a compactly-described triangulation $K$.
+\begin{defn} A _compactly-described triangulation_ $K$ of $\mathbb{R}^n$ is a finite stratification of $\mathbb{R}^n$ by open disks whose closures are the images of [linear embeddings](https://math.stackexchange.com/questions/1326711/what-is-a-linear-embedding-from-a-simplex-deltan-to-mathbbrn) $\Delta^k \times \mathbb{R}^l_{\geq 0} \into \mathbb{R}^n$ ($k + l \leq n$). This now translates to the framed stratified case as follows: a stratification $(\mathbb{R}^n,f)$ is _framed compactly triangulable_ if it admits a framed stratified subdivision $(\mathbb{R}^n,K) \to (\mathbb{R}^n,f)$ of $f$ by a compactly-described triangulation $K$.
 \end{defn}
 
 We can now put these concepts together to obtain the following form definition of manifold diagrams.
 
-\begin{defn}(Formalization of earlier sketch). A **manifold $n$-diagram** is a framed conical, framed compactly supported stratification of $\mathbb{R}^n$.
+\begin{defn}(Formalization of earlier sketch). A **manifold $n$-diagram** is a framed conical, framed compactly triangulable stratification of $\mathbb{R}^n$.
 \end{defn}
 
 The natural 'isomorphism' relation of manifold diagrams is framed stratified homeomorphism.
@@ -91,7 +91,7 @@ The natural 'isomorphism' relation of manifold diagrams is framed stratified hom
 
 The definition has several important consequences.
 
-* While the compact support condition requires the existence of _some_ combinatorial representation, there is in fact a _canonical_ combinatorial representation for isomorphism classes of manifold diagrams. This leads to a theory of combinatorial objects called "trusses".
+* While the compact triangulability condition requires the existence of _some_ combinatorial representation, there is in fact a _canonical_ combinatorial representation for isomorphism classes of manifold diagrams. This leads to a theory of combinatorial objects called "trusses".
 
 * Strata in manifold diagrams are, indeed, manifolds. Moreover, they have canonical smooth structures. This follows since framed PL manifolds have unique framed smooth structure.
 
@@ -99,7 +99,7 @@ The definition has several important consequences.
 
 * Manifold diagrams have canonical geometric duals (in the sense of Poincaré duality). This relates manifold diagrams to diagrams of cells, and this may be considered as classical [[pasting diagram|pasting diagrams]] (but with cell shapes that generalize the usual shapes, such as 'globular', 'simplicial', or 'opetopic' shapes).
 
-These consequences have been worked out in [Dorn and Douglas 22](#DornDouglas22). (Note a minor presentational difference is that 'tameness' is being used in the definition of manifold diagrams in place of 'framed compact support'---the conditions are equivalent).
+These consequences have been worked out in [Dorn and Douglas 22](#DornDouglas22). (Note the primary definition in the latter text differs from that given here, but a comparison is given.)
 
 ## References
 
