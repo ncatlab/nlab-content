@@ -178,7 +178,7 @@ in the [[quantum programming language]] [[QPL]]/[[Quipper]]:
 * {#Selinger04} [[Peter Selinger]], p. 39 of: *Towards a quantum programming language*, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
 
 
-Discussion of quantum measurements in terms of [[finite quantum mechanics in terms of dagger-compact categories]] via [[Frobenius algebra]]-structures and the [[quantum reader monad]]:
+{#CoeckeEtAlClassicalStructures} Discussion of quantum measurements in terms of [[quantum information theory via dagger-compact categories]], by [[Frobenius algebra]]-structures and the [[quantum reader monad]]:
 
 * {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], *Quantum measurements without sums*, in [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 &lbrack;[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
 
