@@ -23,17 +23,22 @@ All the weak structure of an ANC lives in a notion of homotopy between composite
 
 This theory forms the basis for [[homotopy.io]], a [[proof assistant]] for higher category theory which is currently under development.
 
+Composition operations in associative $n$-categories naturally have stratified-geometric semantics in [[manifold diagram|manifold diagrams]], which makes them an instance of [[geometric n-category|geometrical $n$-categories]].
+
 ## Related concepts
 
 * [[semistrict n-category]]
 
+* [[geometric n-category]]
+
+* [[manifold diagram]]
+
 
 ## References
 
-
 * [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)).
 
-* [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf) [arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
+* [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
 
 * [[David Reutter]] and [[Jamie Vicary]], _High-level techniques for homotopy construction in associative $n$-categories_ ([arXiv:1902.03831](https://arxiv.org/abs/1902.03831)).
 
