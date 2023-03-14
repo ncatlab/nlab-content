@@ -50,8 +50,14 @@ Spcifically, the object $q$ is then called an **epi-pullback** or **quasi-pullba
 For a [[topos]] $T$ and $T^I$ its [[arrow category]] which is a topos, epi-pullback squares (in $T$) form a [[class]] of [[open morphisms]] in $T^I$.
 \end{proposition}
 
+\begin{proposition}
+Lax [[double functors]] $Rel(A) \to Rel(B)$ are equivalent to [[functors]] $A \to B$ preserving quasi-pullbacks.
+\end{proposition}
+
 ## Related pages
 
 * [[pullback]]
 
+## References
 
+- [[Robert Paré]], _Some things about double categories_, Talk at _Virtual Double Categories Workshop_ 2022, [pdf](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/robert-pare.pdf)
