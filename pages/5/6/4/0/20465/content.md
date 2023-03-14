@@ -49,6 +49,13 @@ for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGK
 
 [[wrapped brane|Wrapping]] the [[M5-brane]] instead on a 2-manifold yields: [[AGT correspondence]].
 
+
+* [[McKay correspondence]]
+
+* [[AGT correspondence]]
+
+* [[knots-quivers correspondence]]
+
 ## References
 
 ### General
