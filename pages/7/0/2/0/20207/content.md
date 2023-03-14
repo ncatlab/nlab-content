@@ -72,7 +72,6 @@ with exposition in:
 
 
 
-
 ## Related $n$Lab entries
 
 * [[logical topology]]
@@ -82,3 +81,7 @@ with exposition in:
 * [[modal type theory]]
 
 category: people
+
+[[!redirects David J. Myers]]
+
+
