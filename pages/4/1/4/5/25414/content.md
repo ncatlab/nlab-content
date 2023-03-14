@@ -5,7 +5,7 @@
 
 ## Idea
 
-The terms 'geometric $n$-category' or 'geometrical $n$-category' broadly refer to notions of higher categories whose composition is modelled on the stratified-geometric notion of [[manifold diagram|manifold diagrams]]. 
+The terms 'geometric $n$-category' or 'geometrical $n$-category' broadly refer to notions of [[higher categories]] whose composition is modelled on the stratified-geometric notion of [[manifold diagram|manifold diagrams]]. 
 
 ## Examples
 
@@ -24,6 +24,8 @@ While in some instances (such as the 'free' case of [[geometric computad|geometr
 * [[directed topological space|directed topological spaces]]
 
 * [[stratified space|stratified spaces]]
+
+* [[higher category theory]]
 
 ## References 
 
