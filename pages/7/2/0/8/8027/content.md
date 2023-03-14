@@ -57,6 +57,14 @@ More generally, this construction yields something like a decomposition of the [
 
 * [[Nekrasov function]]
 
+
+* [[McKay correspondence]]
+
+* [[3d-3d correspondence]]
+
+* [[knots-quivers correspondence]]
+
+
 Wrapping the [[M5-brane]] on a [[3-manifold]] instead yields: [[3d-3d correspondence]].
 
 ## References
