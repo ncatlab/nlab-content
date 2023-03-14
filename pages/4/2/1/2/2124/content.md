@@ -174,7 +174,7 @@ The BPS bound derives its name from the discussion of [[magnetic monopoles]] in 
 
 The extension of the term "BPS-saturated state" from this case to situations in [[string theory]] seems to have happened in 
 
-* {#Witten95} [[Edward Witten]], around (2.5) of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* {#Witten95} [[Edward Witten]], around (2.5) of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](https://arxiv.org/abs/hep-th/9503124))
 
 The original article identifying the role of BPS states in supersymmetric field theory is
 
@@ -189,9 +189,9 @@ Exposition and review includes
 
 Further developments are in
 
-*  [[Jeffrey Harvey]], [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182); 
+*  [[Jeffrey Harvey]], [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](https://arxiv.org/abs/hep-th/9510182); 
 
-*  [[Jeffrey Harvey]], [[Greg Moore]], _On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](http://dx.doi.org/10.1007/s002200050461), [hep-th/9609017](http://arxiv.org/abs/hep-th/9609017).
+*  [[Jeffrey Harvey]], [[Greg Moore]], _On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](https://doi.org/10.1007/s002200050461), [hep-th/9609017](https://arxiv.org/abs/hep-th/9609017).
 
 
 
@@ -202,21 +202,21 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * [[Tudor Dimofte]], [[Sergei Gukov]], _Refined, Motivic, and Quantum_, [arXiv:0904.1420](http://arXiv.org/abs/0904.1420) 
 
-* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation_, [arxiv:0907.3987](http://arxiv.org/abs/0907.3987)
+* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation_, [arxiv:0907.3987](https://arxiv.org/abs/0907.3987)
 
-* R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](http://arxiv.org/abs/0711.3899)
+* R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](https://arxiv.org/abs/0711.3899)
 
-* Markus Reineke, _Cohomology of quiver moduli, functional equations, and integrality of Donaldson-Thomas type invariants_, [arXiv:0903.0261](http://arXiv.org/abs/0903.0261)
+* [[Markus Reineke]], _Cohomology of quiver moduli, functional equations, and integrality of Donaldson-Thomas type invariants_, Compositio Mathematica __147__:3 (2011) 943--964 [doi](https://doi.org/10.1112/S0010437X1000521X) [arXiv:0903.0261](https://arXiv.org/abs/0903.0261)
 
-* Duiliu-Emanuel Diaconescu, _Moduli of ADHM sheaves and local Donaldson-Thomas theory_, [arXiv:0801.0820](http://arXiv.org/abs/0801.0820) 
+* Duiliu-Emanuel Diaconescu, _Moduli of ADHM sheaves and local Donaldson-Thomas theory_, J. Geom. & Physics __62__:4 (2012) 763--799 [arXiv:0801.0820](https://arXiv.org/abs/0801.0820) f[doi](https://doi.org/10.1016/j.geomphys.2011.12.018)
 
-* [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237)
+* [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](https://arxiv.org/abs/math/0212237)
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](https://arxiv.org/abs/0811.2435)
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [arxiv/0910.4315](http://arxiv.org/abs/0910.4315)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, in: Mirror Symmetry and Tropical Geometry, Contemp. Math. __527__ (2010) [doi](https://doi.org/10.1090/conm/527/10400) [arxiv/0910.4315](https://arxiv.org/abs/0910.4315)
 
-* [[Dominic Joyce]], Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
+* [[Dominic Joyce]], Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](https://arxiv.org/abs/0810.5645)
 
 
 ### Introductions, surveys and lectures
@@ -251,7 +251,7 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 * Andrew Callister, _Topological BPS charges in 10- and 11-dimensional supergravity_, thesis 2010 ([spire](http://inspirehep.net/record/1221591?ln=en))
 
 
-* Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
+* Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](https://arxiv.org/abs/1312.0578))
 
 
 Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d there is discussion in 
@@ -269,7 +269,7 @@ see also
 
 Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
 
-* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](https://arxiv.org/abs/1203.3546))
 
 Discussion for [[4d supergravity]], hence in [[KK-compactification]] of [[type II supergravity]] on a [[Calabi-Yau manifold]] is due to
 
@@ -286,7 +286,7 @@ Discussion of more general classification of solutions to [[supergravity]] prese
 
 The conceptual identification of the relevant brane-charge extension of the [[supersymmetry]] algebra as that of the [[conserved currents]] of the [[Green-Schwarz super p-brane sigma models]] for branes is due to
 
-* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
 reviewed in  
 
@@ -304,7 +304,7 @@ and the generalization to [[D-branes]] is discussed in
 
 Detailed discussion of examples for various backgrounds is in 
 
-* Takeshi Sato, _Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl.Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](http://arxiv.org/abs/hep-th/9812014))
+* Takeshi Sato, _Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl.Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
 
 Discussion of this in [[higher differential geometry]] via the [[Poisson bracket Lie n-algebra]] is in 
 
