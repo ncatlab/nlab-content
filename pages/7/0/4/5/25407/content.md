@@ -19,7 +19,7 @@
 
 ## Idea
 
-If $(a_{i,j}) \in \mathcal{M}_{n,p}(R)$ where $R$ is a commutative [[semi-ring]], we define:
+If $A = (a_{i,j}) \in \mathcal{M}_{n,p}(R)$ where $R$ is a commutative [[semi-ring]], we define:
 
 $$
 Perm(A) = \underset{\sigma \in \mathfrak{S}_{n}}{\sum}\underset{1 \le i \le n}{\prod}a_{i,\sigma(i)}
