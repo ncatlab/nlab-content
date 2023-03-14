@@ -45,7 +45,7 @@ In terms of [[monads in computer science]], the *effect* of (possibly) throwing 
      \;\coloneqq\; 
      D_2 \sqcup Msg 
      \xrightarrow{\; prog \sqcup Id_{Msg} \;} 
-     D_3 \sqcup String \sqcup Msg 
+     D_3 \sqcup Msg \sqcup Msg 
      \xrightarrow{\; id_{D_3} \sqcup \nabla \;} 
      D_3 \sqcup Msg
      \,,
