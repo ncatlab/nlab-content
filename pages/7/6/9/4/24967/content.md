@@ -78,6 +78,8 @@ The geometric or combinatorial semantics of epistemic models follows the same te
 
 * [[epistemology]]
 
+* [[necessity and possibility]]
+
 * [[modal logic]]
 
 * [[epistemology of mathematics]]
