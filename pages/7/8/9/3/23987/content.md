@@ -323,6 +323,16 @@ Break: 3:50-4:20 pm
 
 \linebreak
 
+* {#GukovMar2023} [[Sergei Gukov]] (DIAS, Dublin and Caltech)
+
+  **Machine learning and hard problems in topology**
+
+  cf.: [arXiv:2010.16263](https://arxiv.org/abs/2010.16263)
+
+
+
+\linebreak
+
 ### Apr 2023
 
 * 27 Apr - 1 Mar 2023 (upcoming)
