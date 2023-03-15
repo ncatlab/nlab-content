@@ -136,9 +136,26 @@ Further development:
 
 * [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Conical $SL(3)$ foams*, Journal of Combinatorial Algebra **6** 1/2 (2022) 79-108 &lbrack;[arXiv:2011.11077](https://arxiv.org/abs/2011.11077), [doi:10.4171/jca/61](https://doi.org/10.4171/jca/61)&rbrack;
 
+Reviewed in:
+
 * [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023)&rbrack;
+
+More on relation to [[topological quantum field theory]]:
+
+* [[Nitu Kitchloo]], *Symmetry Breaking and Link Homologies I* &lbrack;[arXiv:1910.07443](https://arxiv.org/abs/1910.07443)&rbrack;
+
+* [[Nitu Kitchloo]], *Symmetry Breaking and Link Homologies II* &lbrack;[arXiv:1910.07444](https://arxiv.org/abs/1910.07444)&rbrack;
+
+* [[Nitu Kitchloo]], *Symmetry Breaking and Link Homologies III* &lbrack;[arXiv:1910.07516](https://arxiv.org/abs/1910.07516)&rbrack;
+
+Review in:
+
+* [[Nitu Kitchloo]], *Symmetry breaking and homotopy types for link homologies*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KitchlooMar2023)&rbrack;
 
 [[!redirects knot homology]]
 
 
 [[!redirects link homology]]
+
+[[!redirects Khovanov-Rozansky link homology]]
+[[!redirects Khovanov-Rozansky homology]]
