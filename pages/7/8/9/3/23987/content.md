@@ -355,6 +355,17 @@ Break: 3:50-4:20 pm
 
   > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an invertible field theory in one dimension higher. Theorems of Freed-Hopkins-Teleman and Freed-Hopkins classify invertible field theories in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional invertible field theories does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with Matthew Yu using Baker-Lazarev's R-module Adams spectral sequence to simplify a large class of twisted spin and string bordism computations.
 
+\linebreak
+
+
+* {#YoungMar2023} [[Matthew Young]] (Utah State University):
+
+  **Non-semisimple TFT and $U(1 \vert 1)$ Chern-Simons theory**
+
+  cf.: [arXiv:2210.04286](https://arxiv.org/abs/2210.04286) and *[[super Chern-Simons theory]]* 
+
+  > [[Chern-Simons theory]], as [introduced by Witten](Chern-Simons+theory#Witten89), is a three dimensional [[quantum field theory|quantum]] [[gauge theory]] associated to a [[compact Lie group|compact]] [[simple Lie group]] and a [[level (Chern-Simons theory)|level]]. The mathematical model of this theory as a [[topological field theory]] was introduced by [[Reshetikhin-Turaev construction|Reshetikhin and Turaev]] and is at the core of modern [[quantum topology]]. The goal of this talk is to explain a non-semisimple modification of the construction of Reshetikhin and Turaev which realizes Chern-Simons theory with gauge [[supergroup]] $U(1\vert 1)$, as studied in the physics literature by Rozansky-Saleur and Mikhaylov. The key new algebraic structure is a relative [[modular tensor category|modular structure]] on the [[category of representations]] of the [[quantum group]] of $\mathfrak{gl}(1\vert 1)$. Based on joint work with [[Nathan Geer]].
+
 
 \linebreak
 
