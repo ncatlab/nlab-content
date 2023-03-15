@@ -10,6 +10,10 @@ On [[Lord Kelvin]]'s ideas "[[On Vortex Atoms]]" in view of [[classical field th
 
 * [[Samuel Lomonaco]], _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_, in: [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics, Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
 
+On [[quantum computation]]:
+
+* [[Samuel J. Lomonaco]] (ed.), *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) &lbrack;[doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)&rbrack;
+
 
 On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]] ([[braid group representations]]):
 
