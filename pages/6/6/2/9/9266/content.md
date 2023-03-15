@@ -754,12 +754,18 @@ In conclusion, up to equivalence the bimodule is $L^2(X)$ regarded as a $C(X)-\m
 (...)
 
 
+
 ## References
  {#References}
 
+* {#Hawkins08} [[Eli Hawkins]], *A Groupoid Approach to Quantization*, J. Symplectic Geom. **6** 1  (2008) 61-125 &lbrack;[arXiv:math/0612363](https://arxiv.org/abs/math/0612363), [euclid](https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-6/issue-1/A-groupoid-approach-to-quantization/jsg/1215032733.full)&rbrack;
+
 * Stefan Bongers, _[[schreiber:master thesis Bongers|Geometric quantization of symplectic and Poisson manifolds]]_, master thesis, Utrecht 2013
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, Utrecht 2013
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, Utrecht 2013
+
+Here section 5.2.2 of [Nuiten (2013)](#Nuiten13) essentially provides a re-casting of the quantization construction in [Hawkins (2008)](#Hawkins08) which gives it an invariant home and brings out the above holographic picture more explicitly.
+
 
 [[!redirects 2d Poisson-Chern-Simons theory]]
 [[!redirects 2d Poisson-Chern-Simons theories]]
