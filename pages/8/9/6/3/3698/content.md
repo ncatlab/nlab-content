@@ -24,9 +24,12 @@ A system in
 
 * [[quantum probability]]
 
+* [[quantum topology]]
+
 * [[quantum information theory]]
 
 * [[quantum computing]]
+
 
 ## Related concepts
 
