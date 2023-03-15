@@ -30,6 +30,8 @@ The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of 
 
 * [[van Kampen theorem]]
 
+* [[quantum topology]]
+
 * [[SnapPy]]
 
 [[!include low dimensional manifolds -- table]]
