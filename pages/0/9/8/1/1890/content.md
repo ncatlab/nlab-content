@@ -440,7 +440,7 @@ In other words, functions into a monoid form canonically a monoid under _pointwi
 
 ## Moggi's typing rules and parameterized definition
 
-Moggi ([Moggi '89](moggi89)) proposed the following typing rules for a sequence operator:
+Moggi ([Moggi '89](#Moggi89)) proposed the following typing rules for a sequence operator:
 \[
 \frac{\Gamma \vdash t:X}{\Gamma\vdash \eta(t):T(X)}
 \qquad
@@ -535,8 +535,9 @@ Usually strong monads are described explicitly in terms of data and coherence co
 
 Strong monads are important in Moggi's theory of notions of computation (see [[monad (in computer science)]]):
 
-* [[Eugenio Moggi]]. Notions Of Computation And Monads. Information And Computation. 1991;93:55&#8211;92. 
-* {#moggi89} [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
+* {#Moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
+
+* {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
 More in-text references:
 
