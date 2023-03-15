@@ -329,6 +329,19 @@ Break: 3:50-4:20 pm
 
   cf.: [arXiv:2010.16263](https://arxiv.org/abs/2010.16263)
 
+\linebreak
+
+
+
+* {#CarquevilleMar2023} [[Nils Carqueville]] (University of Vienna):
+
+  **Extended defect TQFTs**
+
+  slides: [pdf](https://www.carqueville.net/nils/RW.pdf), [[Carqueville-RW.pdf:file]]
+
+  cf.: [arXiv:2201.03284](https://arxiv.org/abs/2201.03284)
+
+  > According to the [[cobordism hypothesis]] with singularities, fully [[extended topological quantum field theories]] with [[defect QFT|defects]] are equivalently described in terms of coherent full duality data for objects and (higher) morphisms as well as appropriate [[homotopy fixed point]] [[structures]]. We discuss the 2-dimensional oriented case in some detail and apply it to truncated affine [[Rozansky-Witten theory|Rozansky-Witten models]], which are under very explicit computational control. This is joint work with [[Ilka Brunner]], [Pantelis Fragkos](https://www.theorie.physik.uni-muenchen.de/MATH/members/asc/sci_mem/fragkos_pantelis/index.html), and [[Daniel Roggenkamp]]. 
 
 
 \linebreak
