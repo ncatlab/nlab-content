@@ -95,6 +95,16 @@ This is what it's all about.
 * [[holographic principle of higher category theory|holographic principle]]
 
 
+
+## Idea of relation to other perspectives on higher structures
+
+As outlined in the introduction to this article, one motivation for higher category theory comes from the relation of [[infinity-groupoid|$\infty$-groupoids]] and [[topological spaces]] via the [[homotopy hypothesis]]. One can interpret the equivalence stated by the homotopy hypothesis as saying that both $\infty$-groupoids and topological spaces are models of the *same* kind of higher structures. Concretely, the higher structures in this example may be called [[homotopy type|homotopy types]]. 
+
+Similarly, generalizing the homotopy hypothesis, higher categories and [[directed space|higher directed spaces]] should model the same kind of higher structures: [[directed homotopy type|directed homotopy types]]. The difference between higher categories and directed spaces is that the latter notion (like topological spaces) usually relies on the continuum $\mathbb{R}$ in its definition---as such, we can call directed spaces a 'continuum' (or 'topological') model of directed homotopy types. In contrast, higher categories usually need not rely on the continuum but are defined in combinatorial terms (as 'sets of higher morphisms' etc.)---as such, we may call them 'combinatorial' models of higher structures.
+
+One can argue that there is also a third pole of models of higher structures, namely 'geometric' models (here, 'geometric' refers to definitions in terms of [[stratified space|stratified manifolds]]; this is different from the earlier '[[geometric definition of higher categories|geometric composition paradigm]] in combinatorial structures'). The argument is described, for instance, on the [$n$-Category Café](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html). It underlies the idea of applying higher category theory to cobordism theory, as described in the next section. It also leads to notions of [[geometric n-category|geometric higher categories]].
+
+
 ## Applications 
 
 See
@@ -222,7 +232,7 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 
 
-### 1-categorical models
+### Via 1-categorical presentations
 
 * [[homotopical category]]
 
