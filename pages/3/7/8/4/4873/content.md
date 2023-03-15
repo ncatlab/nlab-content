@@ -34,3 +34,16 @@ Computation of the perturbative [[Wilson loop observable]] ([[universal Vassilie
 following
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+
+
+On [[machine learning]] the detection of unknots:
+
+* [[Sergei Gukov]], [[James Halverson]], [[Fabian Ruehle]], [[Piotr Sułkowski]], *Learning to Unknot*, Mach. Learn.: Sci. Technol. **2** (2022) 025035 &lbrack;[arXiv:2010.16263](https://arxiv.org/abs/2010.16263), [doi:10.1088/2632-2153/abe91f](https://iopscience.iop.org/article/10.1088/2632-2153/abe91f)&rbrack;
+
+Exposition in:
+
+* [[Sergei Gukov]], *Machine learning and hard problems in topology*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#GukovMar2023)&rbrack;
+
+
+[[!redirects unknots]]
+
