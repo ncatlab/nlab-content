@@ -44,6 +44,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * [[quantum 2-group]]
 
+* [[quantum topology]]
 
 
 ## References
