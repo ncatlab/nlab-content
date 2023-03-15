@@ -296,7 +296,7 @@ Break: 3:50-4:20 pm
 
 \linebreak
 
-* {#KhovanovMar2023} [[Mikhail Khovanov]]:
+* {#KhovanovMar2023} [[Mikhail Khovanov]] (Columbia University):
 
   **Universal construction, foams and link homology**
 
@@ -310,7 +310,15 @@ Break: 3:50-4:20 pm
 
   > C) Robert-Wagner $GL(N)$ foam evaluation and its application to constructing link homology theories will be explained as well.
 
+\linebreak
 
+* {#KitchlooMar2023} [[Nitu Kitchloo]] (John Hopkins University):
+
+  **Symmetry breaking and homotopy types for link homologies**
+
+  cf.: [arXiv:1910.07443](https://arxiv.org/abs/1910.07443), [arXiv:1910.07444](https://arxiv.org/abs/1910.07444), [arXiv:1910.07516](https://arxiv.org/abs/1910.07516)
+
+  > I will describe how the spaces that record [[symmetry breaking]] data in a $U(n)$-[[gauge theory]] (for arbitrary $n$) can be used to construct [[homotopy types]] that are [[link invariant|invariants for links]] in $\mathbb{R}^3$. In particular, I will show how one may recover [[Khovanov-Rozansky link homology]] and $\mathfrak{sl}(n)$ [[link homology]] by evaluating this homotopy type under suitable [[Whitehead-generalized cohomology|cohomology theories]].
 
 
 \linebreak
