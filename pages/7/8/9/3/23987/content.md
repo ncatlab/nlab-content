@@ -343,6 +343,18 @@ Break: 3:50-4:20 pm
 
   > According to the [[cobordism hypothesis]] with singularities, fully [[extended topological quantum field theories]] with [[defect QFT|defects]] are equivalently described in terms of coherent full duality data for objects and (higher) morphisms as well as appropriate [[homotopy fixed point]] [[structures]]. We discuss the 2-dimensional oriented case in some detail and apply it to truncated affine [[Rozansky-Witten theory|Rozansky-Witten models]], which are under very explicit computational control. This is joint work with [[Ilka Brunner]], [Pantelis Fragkos](https://www.theorie.physik.uni-muenchen.de/MATH/members/asc/sci_mem/fragkos_pantelis/index.html), and [[Daniel Roggenkamp]]. 
 
+\linebreak
+
+
+
+* {#DebrayMar2023} [[Arun Debray]] (Purdue University):
+
+  **Twisted string bordism and a potential anomaly in $E_8 \times E_8$ heterotic string theory**
+
+  cf.: [arXiv:2210.04911](https://arxiv.org/abs/2210.04911)
+
+  > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an invertible field theory in one dimension higher. Theorems of Freed-Hopkins-Teleman and Freed-Hopkins classify invertible field theories in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional invertible field theories does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with Matthew Yu using Baker-Lazarev's R-module Adams spectral sequence to simplify a large class of twisted spin and string bordism computations.
+
 
 \linebreak
 
