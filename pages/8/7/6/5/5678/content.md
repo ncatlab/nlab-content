@@ -116,8 +116,8 @@ See also
 
 * [[Edward Witten]], _Khovanov homology and gauge theory_, [arxiv/1108.3103](http://arxiv.org/abs/1108.3103)
 
-* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
- {#Witten11}
+* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ 
 
 Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
 
@@ -130,5 +130,15 @@ See also
 
 * David Clark, [[Scott Morrison]], [[Kevin Walker]], _Fixing the functoriality of Khovanov homology_ ([arXiv:math/0701339](http://arxiv.org/abs/math/0701339) [pdf slides](http://canyon23.net/math/talks/Kh%20200704.pdf))
 
+Further development:
+
+* [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Foam evaluation and Kronheimer--Mrowka theories*, Advances in Mathematics **376**  (2021) 107433 &lbrack;[arXiv:1808.09662](https://arxiv.org/abs/1808.09662), [doi:10.1016/j.aim.2020.107433](https://doi.org/10.1016/j.aim.2020.107433)&rbrack;
+
+* [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Conical $SL(3)$ foams*, Journal of Combinatorial Algebra **6** 1/2 (2022) 79-108 &lbrack;[arXiv:2011.11077](https://arxiv.org/abs/2011.11077), [doi:10.4171/jca/61](https://doi.org/10.4171/jca/61)&rbrack;
+
+* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023)&rbrack;
 
 [[!redirects knot homology]]
+
+
+[[!redirects link homology]]
