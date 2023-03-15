@@ -3,7 +3,10 @@
 
 ## Selected writings
 
-Introducing [[monads in computer science]] (in the form of "[[extension systems]]", "[[Kleisli triples]]" as a form of [[computation]] with side-effects):
+Introducing ([[strong monad|strong]]) [[monads in computer science]] (in the form of "[[extension systems]]", "[[Kleisli triples]]" as a form of [[computation]] with side-effects):
+
+* {#Moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
+
 
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
