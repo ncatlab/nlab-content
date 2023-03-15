@@ -39,5 +39,9 @@ On [[D-branes]] in [[non-geometric vacua]]:
 
 * [[Ilka Brunner]], [[Jacques Distler]], _Torsion D-Branes in Nongeometrical Phases_ ([arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018))
 
+Discussion of [[Rozansky-Witten theory|Rozansky-Witten]] [[defect QFT]] as an [[extended TQFT]] via the [[cobordism hypothesis]]:
+
+* [[Ilka Brunner]], [[Nils Carqueville]], [[Daniel Roggenkamp]], *Truncated affine Rozansky--Witten models as extended TQFTs*,  Commun. Math. Phys. (2023) &lbrack;[arXiv:2201.03284](https://arxiv.org/abs/2201.03284), [doi:10.1007/s00220-022-04614-4](https://doi.org/10.1007/s00220-022-04614-4)&rbrack;
+
 
 category: people
