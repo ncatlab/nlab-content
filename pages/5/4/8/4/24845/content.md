@@ -25,6 +25,8 @@ This is the natural and common incarnation of [[monads in computer science]]; se
 
 ## References
 
+* {#Moggi89} [[Eugenio Moggi]], Def. 1.2 in: *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
+
 * {#Moggi91} [[Eugenio Moggi]], Def. 1.2 in: *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
 following
