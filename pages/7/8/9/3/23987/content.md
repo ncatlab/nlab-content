@@ -273,11 +273,11 @@ Break: 3:50-4:20 pm
 
 ### Mar 2023
 
-* 15-18 Mar 2023 (upcoming)
+15-18 Mar 2023 (ongoing)
 
-  **[Geometric/Topological Quantum Field Theories and Cobordisms](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)**
+**[Geometric/Topological Quantum Field Theories and Cobordisms](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)**
 
-  > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
+> on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
 
 \begin{imagefromfile}
     "file_name": "CQTS-CobordismWorkshop2023.png",
@@ -292,6 +292,24 @@ Break: 3:50-4:20 pm
 \end{imagefromfile}
 
 > $\phantom{-----}$ &lbrack;logo adapted from [[schreiber:M/F-Theory as Mf-Theory|arXiv:2103.01877]]&rbrack;
+
+
+\linebreak
+
+* {#KhovanovMar2023} [[Mikhail Khovanov]]:
+
+  **Universal construction, foams and link homology**
+
+  cf.: [arXiv:1808.09662](https://arxiv.org/abs/1808.09662), [arXiv:2011.11077](https://arxiv.org/abs/2011.11077)
+
+  > In this series of three talks we will explain the foam approach to [[link homology]]. Bigraded link homology theories [[categorification|categorify]] the [[Jones polynomial]] and other [[Reshetikhin-Turaev construction|Reshetikhin-Turaev]] [[link invariants]], such as the [[HOMFLY-PT polynomial]]. Foams, which are [[polyhedron|polyhedral]] 2D [[cell complex|complexes]] embedded in [[Euclidean space|3-space]] allow to construct state spaces for [[planar graphs]] which are then used to define link homology groups. The most explicit and efficient way to define graph state spaces is via evaluation of the closed foams (Robert-Wagner formula).
+
+  > A) This formula will be first explained in the less technical unoriented $SL(3)$ case. Resulting graph state spaces are then related to the Four-Color Theorem and Kronheimer-Mrowka homology for 3-[[orbifolds]].
+
+  > B) A step in that construction requires building a topological theory (a lax TQFT) from an evaluation of closed objects, such as closed $n$-manifolds. We will explain the setup for topological theories, including in two dimensions, recovering the Deligne categories and their generalizations. In one dimension and adding defects, these topological theories are related to noncommutative power series, pseudocharacters, and, over the Boolean semiring, to regular languages and automata.
+
+  > C) Robert-Wagner $GL(N)$ foam evaluation and its application to constructing link homology theories will be explained as well.
+
 
 
 
