@@ -56,19 +56,16 @@ Every category also admits $(\mathcal{C}, \mathcal{I})$ as a trivial orthogonal 
 These notions recover the order-theoretic ones when $\mathcal{C}$ is a preorder.
 \end{remark}
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
 The following are equivalent:
 
 1. An object $M : \mathcal{C}$ is $\mathcal{M}$-minimal
 2. Every morphism $h:A \to M$ is in $\mathcal{E}$.
 3. (if $\mathcal{E}$=epimorphisms and $\mathcal{C}$ has [[weak equalizers]]) All parallel pairs of arrows $A \rightrightarrows M$ are equal.
 
-=--
+\end{proposition}
 
-+-- {: .num_cor}
-###### Corollary
+\begin{corollary}
 
 Dually, the following are equivalent:
 
@@ -76,16 +73,27 @@ Dually, the following are equivalent:
 2. Every morphism $h:M \to A$ is in $\mathcal{M}$.
 3. (if $\mathcal{M}$=monomorphisms and $\mathcal{C}$ has [[weak coequalizers]]) All parallel pairs of arrows $M \rightrightarrows A$ are equal (i.e. $M$ is [[subterminal]])
 
-=--
+\end{corollary}
+
+## Relation with initial objects
+
+Like for preorders, the only minimal objects in a category having initial objects are the latter (up to isomorphism, of course). In fact, suppose $\mathcal{C}$ has initial object $0$ and suppose $M : \mathcal{C}$ is minimal. Then the initial map $?_M : 0 \to M$ has to be an isomorphism, so that $M \cong 0$.
+
+However, unlike in preorders, not all initial objects are minimal! Notice, in fact, that the argument above shows $0$ is minimal under the assumption a minimal object already exists, but this doesn't have to be true.
+A **minimal initial object** is known as [[strict initial object]].
+
+Everything just said dualizes: every maximal object in a category with terminal object is terminal, but not every terminal object is maximal. A **maximal terminal object** is known as [[strict terminal object]].
 
 ## Examples
 
-1. Like for preorders, the maximal and minimal objects of a category with initial and terminal object are just those. Not all initial and terminal objects are minimal and maximal though! For instance, a minimal initial object is called [[strict initial object]].
+1. Let $\mathcal{C} = \mathbf{Coalg}_*(F)$ is the category of [[pointed object|pointed]] [[coalgebras]] for some endofunctor $F:\mathbf{Set} \to \mathbf{Set}$. This category inherits the epi-mono factorization system from $\mathbf{Set}$. Then a mono-minimal object in $\mathbf{Coalg}_*(F)$ is a _reachable coalgebra_, that is, one that has no non-trivial pointed subcoalgebra. Intuitively, this means every state of a reachable coalgebra is reachable in finitely many transitions from its distinguished point (playing the role of 'initial state').
+
+2. In $\mathcal{C} = \mathbf{Coalg}(F)$, an epi-maximal object is a _simple coalgebra_, that is, one that has no non-trivial quotient. Intuitively, this means that there are no states in the coalgebra with the same behaviour.
 
 ## Related concepts
 
 * [[minimal ideal]], [[maximal ideal]]
-* [[strict initial object]]
+* [[strict initial object]],  [[strict terminal object]]
 * [[simple coalgebra]]
 * [[reachability]]
 
