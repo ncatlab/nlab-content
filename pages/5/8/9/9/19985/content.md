@@ -17,13 +17,33 @@
 ## Idea
 
 
-The theory of _associative $n$-categories_ (ANCs) is a model of [[higher category theory]] with strictly [[associativity|associative]] [[composition]], developed by [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [Christopher Douglas](https://www.maths.ox.ac.uk/people/christopher.douglas) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/). The theory is weakly unital, but has a canonical strictly-unital subtheory to which it can easily be restricted. Despite these strictness properties, it is conjectured that every [[weak n-category]] is weakly equivalent to an associative $n$-category with strict units.
+The theory of _associative $n$-categories_ (ANCs) is a model of [[higher category theory]] with strictly [[associativity|associative]] [[composition]], developed by [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [Christopher Douglas](https://www.maths.ox.ac.uk/people/christopher.douglas) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/). All higher [[coherence law|coherence laws]] in associative $n$-categories are strict, except for weak versions of higher exchange laws (i.e. higher analogs of the ordinary [[exchange law]]).
 
-All the weak structure of an ANC lives in a notion of homotopy between composites. This is similar to the case of a [[Gray category]], which is strictly associative and unital, but which has weak interchangers. In this sense, ANCs can be seen as a generalization of Gray categories.
+Composition operations in associative $n$-categories naturally have stratified-geometric semantics in [[manifold diagram|manifold diagrams]], which makes them an instance of [[geometric n-category|geometrical $n$-categories]]. In particular, the weak coherence laws of an associative $n$-category can be thought of in terms of a notion of homotopy between composites. This is similar to the case of a [[Gray-category]], which is strictly associative and unital, but which has a weak exchange law. In this sense, ANCs can be seen as a generalization of Gray categories.
 
-This theory forms the basis for [[homotopy.io]], a [[proof assistant]] for higher category theory which is currently under development.
+The theory of (free) associative $n$-categories forms the basis for [[homotopy.io]], a [[proof assistant]] for higher category theory which is currently under development.
 
-Composition operations in associative $n$-categories naturally have stratified-geometric semantics in [[manifold diagram|manifold diagrams]], which makes them an instance of [[geometric n-category|geometrical $n$-categories]].
+
+
+## Examples
+
+* An associative 0-category is a [[set]]
+
+* An associative 1-category is an [[biased definition|unbiased]] [[1-category]]
+
+* An associative 2-category is an [[biased definition|unbiased]] [[strict 2-category]]
+
+* An associative 3-category is an [[biased definition|unbiased]] [[Gray-category|Gray 3-category]]
+
+A separate notion of 'free' associative n-categories has been developed. These are instances of [[geometric computad|geometric computads]].
+
+## Remarks
+
+* It is conjectured that every [[weak n-category]] is weakly equivalent to an associative $n$-category with strict units. A (proof-wise) potentially more realistic version of this conjecture concerns the case of free associative $n$-categories, and is (as of 2023) a topic of active research.
+
+* A related conjecture is [[Simpson's conjecture]], which states that fully weak higher categories are (in an appropriate sense) equivalent to weakly unital higher categories.
+
+* The underlying idea of this line of modelling higher structures can be traced back to work on [[Gray-category|Gray 3-categories]] and [[surface diagram|surface diagrams]].
 
 ## Related concepts
 
@@ -32,6 +52,13 @@ Composition operations in associative $n$-categories naturally have stratified-g
 * [[geometric n-category]]
 
 * [[manifold diagram]]
+
+* [[surface diagram]]
+
+* [[Gray-category]]
+
+* [[Simpson's conjecture]]
+
 
 
 ## References
