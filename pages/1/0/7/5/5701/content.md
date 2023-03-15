@@ -39,6 +39,11 @@ On [[Rozansky-Witten theory]]:
 
 * [[Sergei Gukov]], Po-Shen Hsin, Hiraku Nakajima, Sunghyuk Park, Du Pei, Nikita Sopenko, _Rozansky-Witten geometry of Coulomb branches and logarithmic knot invariants_ ([arXiv:2005.05347](https://arxiv.org/abs/2005.05347))
 
+On [[machine learning]] the detection of [[unknots]]:
+
+* [[Sergei Gukov]], [[James Halverson]], [[Fabian Ruehle]], [[Piotr Sułkowski]], *Learning to Unknot*, Mach. Learn.: Sci. Technol. **2** (2022) 025035 &lbrack;[arXiv:2010.16263](https://arxiv.org/abs/2010.16263), [doi:10.1088/2632-2153/abe91f](https://iopscience.iop.org/article/10.1088/2632-2153/abe91f)&rbrack;
+
+* [[Sergei Gukov]], *Machine learning and hard problems in topology*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#GukovMar2023)&rbrack;
 
 
 category: people
