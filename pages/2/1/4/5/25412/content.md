@@ -11,6 +11,10 @@ Introducing the [[knots-quivers correspondence]]:
 
 * [[Piotr Kucharski]], [[Markus Reineke]], [[Marko Stosic]], [[Piotr Sułkowski]], *BPS states, knots and quivers*, Phys. Rev. D **96** 121902 (2017) &lbrack;[arXiv:1707.02991](https://arxiv.org/abs/1707.02991), [doi:10.1103/PhysRevD.96.121902](https://doi.org/10.1103/PhysRevD.96.121902)&rbrack;
 
+On [[machine learning]] the detection of [[unknots]]:
+
+* [[Sergei Gukov]], [[James Halverson]], [[Fabian Ruehle]], [[Piotr Sułkowski]], *Learning to Unknot*, Mach. Learn.: Sci. Technol. **2** (2022) 025035 &lbrack;[arXiv:2010.16263](https://arxiv.org/abs/2010.16263), [doi:10.1088/2632-2153/abe91f](https://iopscience.iop.org/article/10.1088/2632-2153/abe91f)&rbrack;
+
 
 category: people
 
