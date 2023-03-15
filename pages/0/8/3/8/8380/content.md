@@ -26,7 +26,7 @@
 ## Idea
  {#Idea}
 
-In [[computer science]], a *([[comonad|co-]])[[monad]]* (or *([[co-Kleisli category|co-]])[[Kleisli triple]]*, or *(co-)[[extension system]]*) is a kind of [[data type]]-structure which describes "notions of computations" &lbrack;[Moggi (1991)](#Moggi91)&rbrack; that may "have external effects or be subject to external contexts/causes" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
+In [[computer science]], a *([[comonad|co-]])[[monad]]* (or *([[co-Kleisli category|co-]])[[Kleisli triple]]*, or *(co-)[[extension system]]*) is a kind of [[data type]]-structure which describes "notions of computations" &lbrack;[Moggi (1989)](#Moggi89), [Moggi (1991)](#Moggi91)&rbrack; that may "have external effects or be subject to external contexts/causes" --- such as involving [[random access memory]], [[IO-monad|input/output]], [[exception monad|exception handling]], [[writer monad|writing to]] or [[reader monad|reading from]] global variables,  etc. --- as familiar from [[imperative programming]] but cast as "pure functions" with deterministic and [[verified programming|verifiable behaviour]], in the style of [[functional programming]].
 
 In short, a ("[[extension system]]-style" &lbrack;[Manes (1976), Ex. 3.12](#Manes76)&rbrack; or "[[Kleisli triple]]-style" &lbrack;[Moggi (1991), Def. 1.2](#Moggi91)&rbrack;) *[[monad]]* in a given [[programming language]] consists of *assignments* (but see [below](#RefinedIdea)):
 
@@ -654,6 +654,8 @@ and expanded on in
 but not related there to computation.
 
 The original observation of monads as "notions of computation" is:
+
+* {#Moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
 
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
