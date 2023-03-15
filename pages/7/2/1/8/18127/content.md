@@ -229,7 +229,7 @@ such that this makes the following  [[diagram]] in [[Top]] [[commuting diagram|c
 
 $$
   \array{
-     {0} \times X
+     \{0\} \times X
      \\
      {}^{\mathllap{(id,const_0)}}\downarrow & \searrow^{\mathrlap{f}}
      \\
@@ -516,7 +516,7 @@ In view of remark \ref{HomotopyCategory} a continuous function $f$ is
 a homotopy equivalence precisely if its image $\kappa(f)$ in the
 [[homotopy category]] is an [[isomorphism]].
 
-As an object of the [[homotopy category]], a topoogical space is often referred to
+As an object of the [[homotopy category]], a topological space is often referred to
 as a ([[strong homotopy type|strong]]) [[homotopy type]]. Homotopy types
 have a different nature than the [[topological spaces]] which _present_ them,
 in that topological spaces that are far from being [[homeomorphism|homeomorphic]]
