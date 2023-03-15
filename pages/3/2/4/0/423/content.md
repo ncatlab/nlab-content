@@ -1472,6 +1472,8 @@ See also [[examples in topology]].
 
 * [[low-dimensional topology]], [[3-manifold]]
 
+  [[quantum topology]]
+
 ### Algebraic topology and homotopy theory
 
 * [[homotopy]], [[homotopy inverse]], [[homotopy theory]], [[homotopy equivalence]], [[rational homotopy theory]]
