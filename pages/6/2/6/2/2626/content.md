@@ -99,6 +99,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[knots-quivers correspondence]]
 
+* [[quantum topology]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 
