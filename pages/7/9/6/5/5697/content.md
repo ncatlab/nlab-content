@@ -16,6 +16,14 @@ On [[braid cobordism]] and [[triangulated categories]]:
 
 * {#KhovanovThomas07} [[Mikhail Khovanov]], [[Richard Thomas]], *Braid cobordisms, triangulated categories, and flag varieties*, Homology, Homotopy and Applications **9**(2007) 19-94 &lbrack;[arXiv:math/0609335](https://arxiv.org/abs/math/0609335), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/Braid-cobordisms-triangulated-categories-and-flag-varieties/hha/1201127331.full)&rbrack;
 
+Foam construction of [[link homology]]:
+
+* [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Foam evaluation and Kronheimer--Mrowka theories*, Advances in Mathematics **376**  (2021) 107433 &lbrack;[arXiv:1808.09662](https://arxiv.org/abs/1808.09662), [doi:10.1016/j.aim.2020.107433](https://doi.org/10.1016/j.aim.2020.107433)&rbrack;
+
+* [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Conical $SL(3)$ foams*, Journal of Combinatorial Algebra **6** 1/2 (2022) 79-108 &lbrack;[arXiv:2011.11077](https://arxiv.org/abs/2011.11077), [doi:10.4171/jca/61](https://doi.org/10.4171/jca/61)&rbrack;
+
+* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023)&rbrack;
+
 
 ## Related entries
 
