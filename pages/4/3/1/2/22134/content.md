@@ -39,6 +39,11 @@ Textbook accounts:
 
 Review:
 
+* [[Louis Kauffman]], *Quantum Topology and Quantum Computing*, in: [[Samuel J. Lomonaco]] (ed.), *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) &lbrack;[pdf](https://redirect.cs.umbc.edu/~lomonaco/ams/lecturenotes/Kauffman.pdf), [doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)&rbrack;
+
+  > (in relation to [[quantum topology]])
+
+
 * [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 $[$[arXiv:0704.2241](https://arxiv.org/abs/0704.2241), [doi:10.1098/rspa.2007.0026](https://doi.org/10.1098/rspa.2007.0026)$]$
 
 * [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
