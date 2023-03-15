@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -126,8 +125,13 @@ Relation to [[equivariant cohomology]]:
 
 * Jian Qiu, _Rozansky-Witten theory, Localised then Tilted_ ([arXiv:2011.05375](https://arxiv.org/abs/2011.05375))
 
+Discussion of Rozansky-Witten [[defect QFT]] as an [[extended TQFT]] via the [[cobordism hypothesis]]:
 
+* [[Ilka Brunner]], [[Nils Carqueville]], [[Daniel Roggenkamp]], *Truncated affine Rozansky--Witten models as extended TQFTs*,  Commun. Math. Phys. (2023) &lbrack;[arXiv:2201.03284](https://arxiv.org/abs/2201.03284), [doi:10.1007/s00220-022-04614-4](https://doi.org/10.1007/s00220-022-04614-4)&rbrack;
 
+reviewed in:
+
+* [[Nils Carqueville]], *Extended defect TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CarquevilleMar2023), [pdf](https://www.carqueville.net/nils/RW.pdf), [[Carqueville-RW.pdf:file]]&rbrack;
 
 
 
