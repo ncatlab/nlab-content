@@ -32,7 +32,7 @@ For $G$ semisimple this is the [[schreiber:∞-Chern-Simons theory]] induced fro
 
 For the special case that $G$ is a [[discrete group]] the theory reduces to the (much simpler) [[Dijkgraaf-Witten theory]].
 
-The Chern-Simons TQFT was introduced in ([Witten 1989](#Witten)).
+The Chern-Simons TQFT was introduced in ([Witten 1989](#Witten89)).
 
 
 
@@ -143,7 +143,7 @@ $$
 
 The proof can be found spelled out at [[schreiber:∞-Chern-Simons theory]].
 
-The statements for equations of motion and gauge fixed Poisson structure appears for instance as ([Witten89, (2.3), (3,2)](#Witten)) or  ([FreedI, prop. 3.1, prop. 3.17](#FreedI)). The symplectic structure on the moduli space of flat connections is discussed in more detail also in ([Atiyah-Bott](#AtiyahBott)) and in ([Weinstein](#Weinstein)).
+The statements for equations of motion and gauge fixed Poisson structure appears for instance as ([Witten89, (2.3), (3,2)](#Witten89)) or  ([FreedI, prop. 3.1, prop. 3.17](#FreedI)). The symplectic structure on the moduli space of flat connections is discussed in more detail also in ([Atiyah-Bott](#AtiyahBott)) and in ([Weinstein](#Weinstein)).
 
 The [[presymplectic structure]] on the [[covariant phase space]] has apparently first been discussed in ([Witten86, section 5](#Witten86)) and in ([Zuckerman, section 3, example 2](#Zuckerman)).
 
@@ -169,7 +169,7 @@ But more fundamentally, the whole [[Wilson loop]] $W(\cdots)$ itself here is to 
 
 This means that the [[configuration space]] of Chern-Simons theory over $(\Sigma^{def} \hookrightarrow \Sigma)$ is the space of $G$-[[principal connections]] on $\Sigma$ and of maps to the [[coadjoint orbit]] on $\Sigma^{def}$, with the [[action functional]] now being the sum of 3-dimensional Chern-Simons theory over $\Sigma$ as above and of a [[1-dimensional Chern-Simons theory]] along $\Sigma^{def}$ for which the $G$-principal connection serves as a [[background gauge field]].
 
-This [[orbit method]]-formulation of Wilson loops in Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten)). 
+This [[orbit method]]-formulation of Wilson loops in Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten89)). 
 More details were discussed in ([EMSS 89](#EMSS)), but in the context of other [[gauge theories]] ([[Yang-Mills theory]]) the same formulation appears much earlier in ([Balachandran, Borchardt, Stern 78](#BBS)).
 A detailed review and further refinements are discussed in section 4 of ([Beasley 09](#Beasley)).
 Aspects of the formulation in the context of [[BV-BRST formalism]] are discussed in ([Alekseev-Barmaz-Mnev 12](#AlekseevBarmazMnev)). The formalizations via [[extended Lagrangians]] and [[extended prequantum field theory]] is in ([Fiorenza-Sati-Schreiber 12](#FiorenzaSatiSchreiber)). 
@@ -267,7 +267,7 @@ So for a 2-dimensional [[manifold]] $\Sigma$, a choice of [[polarization]] of th
 
 But since from the point of view of the 3d Chern-Simons theory the [[polarization]] $J$ is an arbitrary choice, the [[space of quantum states]] $\mathcal{H}_\Sigma^{(J)}$ should not depend on this choice, up to specified [[equivalence]]. Formally this means that as $J$ varies (over the [[moduli space of conformal structures]] on $\Sigma$) the $\mathcal{H}_{\Sigma}^{(J)}$ should form a [[vector bundle]] on this [[moduli space of conformal structures]] which is equipped with a [[flat connection]] whose [[parallel transport]] hence provides equivalences between between the [[fibers]] $\mathcal{H}_{\Sigma}^{(J)}$ of this vector bundle. 
 
-This flat connection is the _[[Knizhnik-Zamolodchikov connection]]_ / _[[Hitchin connection]]_. This was maybe first realized and explained in ([Witten 89, p. 20](#Witten)) and first actually constructed in ([Axelrod-Pietra-Witten 91](#AxelrodPietraWitten91)).
+This flat connection is the _[[Knizhnik-Zamolodchikov connection]]_ / _[[Hitchin connection]]_. This was maybe first realized and explained in ([Witten 89, p. 20](#Witten89)) and first actually constructed in ([Axelrod-Pietra-Witten 91](#AxelrodPietraWitten91)).
 
 
 For more see the references [below](http://ncatlab.org/nlab/show/Chern-Simons+theory#ReferencesGeometricQuantization).
@@ -402,7 +402,7 @@ Review:
 #### Path integral quantization
  {#PerturbativePathIntegralQuantization}
 
-[Witten (1989), section 2](#Witten) indicates the [[perturbation theory|perturbative]] [[path integral quantization]] of Chern-Simons theory and finds that the result after [[gauge fixing]] by a choice of [[Riemannian metric]] $g$ is the sum over equivalence classes of classical solutions, i.e. of [[flat connections]]/[[local systems]] $\nabla_{fl}$,  of the product of 
+[Witten (1989), section 2](#Witten89) indicates the [[perturbation theory|perturbative]] [[path integral quantization]] of Chern-Simons theory and finds that the result after [[gauge fixing]] by a choice of [[Riemannian metric]] $g$ is the sum over equivalence classes of classical solutions, i.e. of [[flat connections]]/[[local systems]] $\nabla_{fl}$,  of the product of 
 
 1. the exponentiated Chern-Simons action functional $\exp(i k \, S_{CS}(\nabla))$ of the classical solution;
 
@@ -420,12 +420,12 @@ $$
   \,.
 $$
 
-([Witten 89 (2.17)](#Witten))
+([Witten 89 (2.17)](#Witten89))
 
 For more on this see at _[eta invariant -- Boundaries, determinant line bundles and perturbative Chern-Simons](eta+invariant#OnManifoldsWithBoundary)_.
 
 
-Now this expression is not independent of the chosen metric $g$. But it becomes indepdendent of it after adding the $SO$-Chern-Simons term of the [[Levi-Civita connection]] of the metric ([Witten 89 (2.23)](#Witten)) (and is then well-defined after choosing an [[Atiyah 2-framing]]).
+Now this expression is not independent of the chosen metric $g$. But it becomes indepdendent of it after adding the $SO$-Chern-Simons term of the [[Levi-Civita connection]] of the metric ([Witten 89 (2.23)](#Witten89)) (and is then well-defined after choosing an [[Atiyah 2-framing]]).
 
 Notice that here $i k$ is $\tfrac{i}{\hbar}$,so that the [[limit of a sequence|limit]] $k \to \infty$ is the [[semiclassical limit]], i.e. this is perturbation theory in [[Planck's constant]] $\hbar$, as also considered in perturbative [[deformation quantization]].
 
@@ -591,7 +591,7 @@ Upon [[quantization]] the [[level (Chern-Simons theory)|Chern-Simons level]] rec
 The [[Wilson line]]-[[observable]]s in quantum Chern-Simons theory are
 given by [[knot invariant]]s.
 
-In [Witten (1989)](#Witten) it was shown  that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by [[Vaughan Jones]] in the context of [[von Neumann algebra]]s --  the [[Jones polynomial]] -- can be given a heuristic geometric interpretation: the [[Jones polynomial]] V(q) of a [[knot]] $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern–Simons]] [[action functional]] $S[A]$:
+In [Witten (1989)](#Witten89) it was shown  that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by [[Vaughan Jones]] in the context of [[von Neumann algebra]]s --  the [[Jones polynomial]] -- can be given a heuristic geometric interpretation: the [[Jones polynomial]] V(q) of a [[knot]] $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern–Simons]] [[action functional]] $S[A]$:
 \[
  V_K(q) = \int_{all\,connections\,A\,on\,M} hol_A(K) \,\, exp(iS[A])
 \]
@@ -713,7 +713,7 @@ This new definition actually converges, and makes sense. Apparantly the same tec
 ### Traces as a path integral?
  {#TraceAsAPathIntegral}
 
-In ([Witten 89](#Witten)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. The quote is reproduced at  _[[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]]_. 
+In ([Witten 89](#Witten89)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. The quote is reproduced at  _[[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]]_. 
 
 For technical details on this see at _[[orbit method]]_.
 
@@ -806,7 +806,7 @@ The local Chern-Simons term as an action functional for quantum field theory app
 
 The [[geometric quantization]] and [[path integral]] [[quantization]] of Chern-Simons theory and the relation of its [[Wilson line]] [[observables]] to the [[Jones polynomial]] was introduced in
 
-* {#Witten} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138))
+* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138))
  
 and also, indepndently at the same time
 
@@ -881,7 +881,7 @@ A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-We
 ### With Wilson loops, defects and boundaries
  {#ReferencesWithWilsonLoops}
 
-The [[orbit method]]-formulation of [[Wilson loops]] in 3d Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten)). 
+The [[orbit method]]-formulation of [[Wilson loops]] in 3d Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten89)). 
 More details were discussed in
 
 * S. Elitzur, [[Greg Moore]], A. Schwimmer, and [[Nathan Seiberg]], _Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory_, Nucl. Phys. B 326 (1989) 108&#8211;134.  
@@ -917,7 +917,7 @@ We list discussions of [[quantization]] of Chern-Simons theory.
 #### Geometric quantization
  {#ReferencesGeometricQuantization}
 
-The original method of quantization of Chern-Simons theory used already in ([Witten 89](#Witten)) is _[[geometric quantization]]_.
+The original method of quantization of Chern-Simons theory used already in ([Witten 89](#Witten89)) is _[[geometric quantization]]_.
 
 More discussion of this is in 
 
@@ -1036,8 +1036,8 @@ On p. 3 there it says:
 
 In 
 
-* [[Edward Witten]]. _Chern&#8211;Simons Theory as a String Theory_ Prog. Math. 133: 637&#8211;678. ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094)).
- {#Witten94}
+* {#Witten94} [[Edward Witten]]. _Chern&#8211;Simons Theory as a String Theory_ Prog. Math. 133: 637&#8211;678. ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094)).
+ 
 
 an argument was given that Chern-Simons theory can be understood as the [[effective QFT|effective]] [[target space]] [[string theory]] of the [[A-model]] or [[B-model]] [[TCFT]]. This argument has later been made more precise in the language of [[TCFT]]. See [TCFT -- Effective background theories](#http://nlab.mathforge.org/nlab/show/TCFT#ActionFunctionals) for more on this. 
 
@@ -1084,6 +1084,8 @@ Computations of flat Chern-Simons/[[Dijkgraaf-Witten theory]] [[action functiona
 
 * Victor Mikhaylov, _Analytic Torsion, 3d Mirror Symmetry,
 And Supergroup Chern-Simons Theories_ ([arXiv:1505.03130](https://arxiv.org/abs/1505.03130))
+
+For more see at *[[super Chern-Simons theory]]*.
 
 [[!include 3d gravity and Chern-Simons theory -- references]]
 
