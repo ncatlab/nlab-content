@@ -40,7 +40,7 @@ $$
   \,.
 $$
 
-
+In other words, a strict terminal object is a [[maximal object|maximal terminal object]].
 
 
 ## Examples
@@ -56,6 +56,7 @@ $$
 ## Related concepts
 
 * the [[formal dual]] concept: [[strict initial object]]
+* [[maximal object]]
 
 ##References
 
