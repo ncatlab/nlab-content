@@ -113,6 +113,9 @@ Relation to [[factorization algebras]]:
 * [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
 
 
+Review:
+
+* [[Alexander Schenkel]], *Quantum field theories on Lorentzian manifolds*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#SchenkelMar2023)&rbrack;
 
 
 
