@@ -516,6 +516,10 @@ This is due to ([Fiorenza-Rogers-Schreiber 13, section 2.6.1](#FiorenzaRogersSch
 
 * [[string group]], [[string 2-group]], [[string structure]], [[twisted string structure]]
 
+  [[string cobordism]]
+
+  [[stringor bundle]]
+
 * [[T-duality 2-group]]
 
 * [[string^c 2-group]]
