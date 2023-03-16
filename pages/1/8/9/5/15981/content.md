@@ -25,3 +25,5 @@ The category of pre-proper [[logarithmic geometry|logarithmic analytic spaces]] 
 * [[Vadim Vologodsky]], _Motivic homotopy type of a log scheme_, lecture at IHES 25-09-2015, [video](https://www.youtube.com/watch?v=3d1rTsv75yM).
 
 * [[Doosung Park]], _Triangulated categories of motives over fs log schemes_, thesis, [pdf](https://math.berkeley.edu/~doosung/thesis.pdf).
+
+* [[Federico Binda]], [[Doosung Park]], [[Paul Arne Østvær]] _Logarithmic motivic homotopy theory_, [arXiv:2303.02729](http://arxiv.org/abs/2303.02729).
