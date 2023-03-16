@@ -300,7 +300,7 @@ Break: 3:50-4:20 pm
 
   > A) This formula will be first explained in the less technical unoriented $SL(3)$ case. Resulting graph state spaces are then related to the Four-Color Theorem and Kronheimer-Mrowka homology for 3-[[orbifolds]].
 
-  > B) A step in that construction requires building a topological theory (a lax TQFT) from an evaluation of closed objects, such as closed $n$-manifolds. We will explain the setup for topological theories, including in two dimensions, recovering the Deligne categories and their generalizations. In one dimension and adding defects, these topological theories are related to noncommutative power series, pseudocharacters, and, over the Boolean semiring, to regular languages and automata.
+  > B) A step in that construction requires building a topological theory (a lax TQFT) from an evaluation of closed objects, such as closed $n$-manifolds. We will explain the setup for topological theories, including in two dimensions, recovering the Deligne categories and their generalizations. In one dimension and adding defects, these topological theories are related to noncommutative power series, pseudocharacters, and, over the Boolean semiring, to [[regular languages]] and [[automata]].
 
   > C) Robert-Wagner $GL(N)$ foam evaluation and its application to constructing link homology theories will be explained as well.
 
@@ -370,8 +370,17 @@ Break: 3:50-4:20 pm
 
   cf.: [arXiv:2301.00700](https://arxiv.org/abs/2301.00700)
 
-  > [[automata|Automata]] are important objects in theoretical [[computer science]]. I will describe how automata emerge from topological theories and [[TQFTs]] in dimension one and carrying [[defect QFT|defects]]. Conversely, given an automaton, there's a canonical Boolean TQFT associated with it. In those topological theories, one encounters pairs of a regular language and a circular regular language that describe the theory. 
+  > [[automata|Automata]] are important objects in theoretical [[computer science]]. I will describe how automata emerge from topological theories and [[TQFTs]] in dimension one and carrying [[defect QFT|defects]]. Conversely, given an automaton, there's a canonical Boolean TQFT associated with it. In those topological theories, one encounters pairs of a [[regular language]] and a circular regular language that describe the theory. 
 
+\linebreak
+
+* {#SchenkelMar2023} [[Alexander Schenkel]] (University of Nottingham):
+
+  **Quantum field theories on Lorentzian manifolds**
+
+  cf.: [arXiv:2208.04344](https://arxiv.org/abs/2208.04344) and  *[[homotopical AQFT]]*
+
+  > This talk provides an introduction and survey of recent developments in [[AQFT|algebraic QFT]] on [[Lorentzian manifolds]]. I will outline an [[axiom|axiomatization]] of such [[QFTs]] in terms of [[operad]] theory and illustrate this formalism through classification results in low dimensions. One of the central axioms is a certain local constancy condition, called the [[time-slice axiom]], that encodes a concept of time evolution. Using [[model category|model categorical]] [[localization of model categories|localization]] techniques, I will show that this i.g. [[homotopy]]-[[coherence|coherent]] time evolution admits a [[rectification|strictification]] in many relevant cases. I will conclude this talk by explaining similarities and differences between [[AQFT|algebraic QFT]] and other approaches such as [[factorization algebras]] and [[functorial field theories]].
 
 \linebreak
 
