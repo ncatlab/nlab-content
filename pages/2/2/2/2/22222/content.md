@@ -21,6 +21,8 @@ A **multi-adjoint** is like an [[adjoint functor]] but sends each [[object]] to 
 
 Under mild conditions it is equivalent to the notion of [[parametric right adjoint]].
 
+Every multiadjunction induces a [[multimonad]].
+
 ## Definition
 
 \begin{defn}\label{MultiAdjoints}
@@ -123,6 +125,12 @@ $= \alpha(J\chi \circ K(\phi, i')) = \alpha(J\chi \circ \alpha^{-1}(\eta_{c', i'
 $= R\chi \circ \eta_{c', i'} \circ \phi = \alpha(J\chi \circ (i', id_{c'})) \circ \phi = \alpha(i', \chi) \circ \phi = \alpha(\psi) \circ \phi$.
 \end{proof}
 
+\begin{proposition}
+A functor has a left multi-adjoint if and only if it facts (essentially uniquely) as a right adjoint functor followed by a discrete fibration.
+\end{proposition}
+
+For a proof, see ([Diers 80, Proposition 1.1](#Diers1980)).
+
 ## Examples
 
 \begin{example}
@@ -144,13 +152,7 @@ The [category of fields](field#category) has a multi-initial object, i.e. the fu
 
 \begin{example}
 The forgetful functor from the category of commutative [[local rings]] and local homomorphisms to the category of sets has a left multi-adjoint.
-\end{example} 
-
-## Multi-monads
-
-Any functor $U: A\to B$ which has a left multi-adjoint generates a _multi-monad_ on $B$. Categories $A$ which can be reconstructed from this multi-monad are called multi-monadic ([Diers 80](#Diers1980)).
-
-Multi-monadic categories on $Set$ can be characterized in the following way: they are regular, with connected limits, with coequalizers of coequalizable pairs, their equivalence relations are effective, their forgetful functors preserve coequalizers of equivalence relations and reflect isomorphisms. Unlike  monadic categories they need not have products. Examples include local rings, fields, inner spaces, locally compact spaces, locally compact groups, and complete ordered sets. ([Diers 80, p.153](#Diers1980))
+\end{example}
 
 ## Diers spectrum
 
@@ -172,11 +174,11 @@ The notion of multi-adjoints is credited by [Osmond 20a](#Osmond2020a), [20b](#O
 
 See also:
 
+* {#Diers1980} [[Yves Diers]], _Multimonads and multimonadic categories_, Journal of Pure and Applied Algebra 17 (1980) 153-170 ([pdf](https://core.ac.uk/download/pdf/82552386.pdf))
+
 * {#Osmond2020a} [[Axel Osmond]], _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
 
 * {#Osmond2020b} [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
-
-* {#Diers1980} [[Yves Diers]], _Multimonads and multimonadic categories_, Journal of Pure and Applied Algebra 17 (1980) 153-170 ([pdf](https://core.ac.uk/download/pdf/82552386.pdf))
 
 [[!redirects left multi-adjoint]]
 [[!redirects right multi-adjoint]]
@@ -185,3 +187,7 @@ See also:
 [[!redirects multiadjoints]]
 [[!redirects left multiadjoint]]
 [[!redirects left multiadjoints]]
+[[!redirects multi-adjunction]]
+[[!redirects multi-adjunctions]]
+[[!redirects multiadjunction]]
+[[!redirects multiadjunctions]]
