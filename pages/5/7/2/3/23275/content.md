@@ -117,4 +117,8 @@ Internal comprehensive factorisations (and [[torsors]]) are considered in:
 * [[Ross Street]], [[Dominic Verity]], *The comprehensive factorization and torsors*, [[TAC]] **23** (2010)  42-75 &lbrack;[tac:23-03](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)&rbrack;
 
 [[!redirects comprehensive factorization systems]]
+[[!redirects comprehensive factorization]]
+[[!redirects comprehensive factorisation]]
+[[!redirects comprehensive factorisation system]]
+[[!redirects comprehensive factorisation systems]]
 
