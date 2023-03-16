@@ -64,10 +64,10 @@ The original article observing the large $N$-behaviour and the [[planar limit]] 
 
 First inkling of [[holographic QCD]] and [[matrix models]]:
 
-* {#EguchiKawai82} [[Tohru Eguchi]], [[Hikaru Kawai]], _Reduction of Dynamical Degrees of Freedom in the Large-$N$ Gauge Theory_, Phys. Rev. Lett. 48, 1063 (1982) ([spire:176459](http://inspirehep.net/record/176459), [doi:10.1103/PhysRevLett.48.1063](https://doi.org/10.1103/PhysRevLett.48.1063))
+* {#EguchiKawai82} [[Tohru Eguchi]], [[Hikaru Kawai]], _Reduction of dynamical degrees of freedom in the large-$N$ gauge theory_, Phys. Rev. Lett. 48, 1063 (1982) ([spire:176459](http://inspirehep.net/record/176459), [doi:10.1103/PhysRevLett.48.1063](https://doi.org/10.1103/PhysRevLett.48.1063))
 
 
-* A. Gonzalez-Arroyo, M. Okawa, _A twisted model for large $N$ lattice gauge theory_, Physics Letters B Volume 120, Issues 1–3, 6 January 1983, Pages 174-178 (<a href="https://doi.org/10.1016/0370-2693(83)90647-0">doi:10.1016/0370-2693(83)90647-0</a>)
+* A. Gonzalez-Arroyo, M. Okawa, _A twisted model for large $N$ lattice gauge theory_, Physics Letters B120:1--3 (1983) 174--178 (<a href="https://doi.org/10.1016/0370-2693(83)90647-0">doi:10.1016/0370-2693(83)90647-0</a>)
 
 * A. Gonzalez-Arroyo, M. Okawa, _Twisted-Eguchi-Kawai model: A reduced model for large-
 $N$ lattice gauge theory_, Phys. Rev. D 27, 2397 (1983) ([doi:10.1103/PhysRevD.27.2397](https://doi.org/10.1103/PhysRevD.27.2397))
@@ -80,17 +80,15 @@ Lecture notes:
 
   in: A. Zichichi  (ed.) _Pointlike Structures Inside and Outside Hadrons_. The Subnuclear Series, vol 17. Springer 1982 ([doi:10.1007/978-1-4684-1065-5_2](https://doi.org/10.1007/978-1-4684-1065-5_2))
 
-  and Chapter 8 in: [[Sidney Coleman]], _Aspects of Symmetry_, Cambridge University Press 1985 ([doi:10.1017/CBO9780511565045.009]( https://doi.org/10.1017/CBO9780511565045.009))
+  and Chapter 8 in: [[Sidney Coleman]], _Aspects of Symmetry_, Cambridge University Press 1985 ([doi:10.1017/CBO9780511565045.009](https://doi.org/10.1017/CBO9780511565045.009))
 
 * [[Gerard 't Hooft]], _Large $N$_, workshop lecture ([hep-th/0204069](http://arxiv.org/abs/hep-th/0204069))
 
-* A. V. Manohar, _Large $N$ QCD_, Les Houches Lecture 2004, ([https://arxiv.org/abs/hep-ph/9802419](arXiv:hep-ph/9802419), [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf))
+* A. V. Manohar, _Large $N$ QCD_, Les Houches Lecture 2004, (arXiv:[hep-ph/9802419](https://arxiv.org/abs/hep-ph/9802419), [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf))
 
 * Markus Gross, _Large $N$_, 2006 ([[GrossLargeN.pdf:file]])
 
 * {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_, 2008 ([[GreevySwingle.pdf:file]])
-
-
 
 
 See also:
@@ -99,35 +97,36 @@ See also:
 
 * E. Br&#233;zin, S.R. Wadia, eds. _The Large $N$ Expansion in Quantum Field Theory and Statistical Physics_, a book collection of reprinted historical articles, [gBooks](http://books.google.com/books?id=4TbOUqWBf-IC)
 
+Application of [[WKB method]]:
+
+* [[V. P. Maslov]], O. Yu. Shvedov, _Large-N expansion as a semiclassical approximation to the third-quantized theory_, Physical Review D60(10) 105012 [doi](https://doi.org/10.1103/PhysRevD.60.105012)
+
 The refinement for [[super Yang-Mills theory]] to the [[AdS/CFT correspondence]] (see there for more) originates with
 
 * [[Juan Maldacena]], _The large $N$ limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys.2:231-252, 1998 [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in large N field theories_, hep-th/9803002. 
 
 reviewed for instance in 
 
-
 * {#Maldacena97a} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998 ([hep-th/9711200](http://arxiv.org/abs/hep-th/9711200))
 
 But see at _[[AdS/CFT correspondence]]_ for a more comprehensive list of references.
 
-
-
 Further discussion:
 
-* {#Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
+* {#Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57--115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
   (on [[mesons]] and [[baryons]] in the [[large N limit]])
 
 
 
-* A. Jevicki, _Instantons and the $1/N$ expansion in nonlinear $\sigma$ models_, Phys. Rev. D 20, 3331&#8211;3335 (1979) [pdf](http://prd.aps.org/pdf/PRD/v20/i12/p3331_1)
+* A. Jevicki, _Instantons and the $1/N$ expansion in nonlinear $\sigma$ models_, Phys. Rev. D 20, 3331--3335 (1979) [pdf](http://prd.aps.org/pdf/PRD/v20/i12/p3331_1)
 
-* Laurence G. Yaffe, _Large $N$ limits as classical mechanics_, Rev. Mod. Phys. __54__, 407&#8211;435 (1982) ([pdf](http://rmp.aps.org/pdf/RMP/v54/i2/p407_1))
+* Laurence G. Yaffe, _Large $N$ limits as classical mechanics_, Rev. Mod. Phys. __54__, 407--435 (1982) ([pdf](http://rmp.aps.org/pdf/RMP/v54/i2/p407_1))
 
-* A. A. Migdal, _Loop equations and $1/N$ expansion_, Physics Reports, 102 (4), 199-290 (1983) (<a href="http://dx.doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a>)
+* A. A. Migdal, _Loop equations and $1/N$ expansion_, Physics Reports, 102 (4), 199--290 (1983) (<a href="https://doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a>)
 
 
-* M. Bershadsky, Z. Kakushadze, [[Cumrun Vafa]], _String expansion as large $N$ expansion of gauge theories_, Nucl.Phys. B523 (1998) 59-72 ([hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>)
+* M. Bershadsky, Z. Kakushadze, [[Cumrun Vafa]], _String expansion as large $N$ expansion of gauge theories_, Nucl.Phys. B523 (1998) 59--72 ([hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>)
 
 * [[Gary Horowitz]], [[Hirosi Ooguri]], _Spectrum of large $N$ gauge theory from supergravity_, hep-th/9802116
 
@@ -137,35 +136,28 @@ Further discussion:
 
 * Hiroyuki Fuji, Yutaka Ookouchi, _Confining Phase Superpotentials for $SO/Sp$ Gauge Theories via Geometric Transition_, JHEP 0302:028, 2003 ([arXiv:hep-th/0205301](https://arxiv.org/abs/hep-th/0205301))
 
+* {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet derivation of a large $N$ duality_, Nucl. Phys. B641:3--34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
 
-
-* {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
-
-
-* Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
+* Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_,  J. High Energ. Phys. 2014, 133 (2014) <a href="https://doi.org/10.1007JHEP01(2014)133">doi</a> [arXiv:1309.7333](https://arxiv.org/abs/1309.7333)
 
 On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
 
 * [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
-
-
+* [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _A homological approach to the Gaussian Unitary Ensemble_, [arXiv:2206.04256](https://arxiv.org/abs/2206.04256)
 
 On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
 
-* [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43–52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
+* [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43--52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
 
 On the [[large N limit]] in [[lattice gauge theory]]:
 
 * Margarita Garcia Perez, _Prospects for large $N$ gauge theories on the lattice_ ([arXiv:2001.10859](https://arxiv.org/abs/2001.10859))
 
-
-
-
 ### Open/closed string duality
 
 On the role of [[open/closed string duality]] in interpreting the [[large N limit]]:
 
-* {#GopakumarVafa98} [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
+* {#GopakumarVafa98} [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415--1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
 
 
 * {#GaiottiRastelli05} [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
