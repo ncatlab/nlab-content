@@ -30,6 +30,10 @@ A Dirac operator on smooth loop space would also serve to make precise the sense
 The definition of Dirac operators on smooth loop spaces is technically tricky, but constructions do exist. It remains however unclear how these constructions relate to the [[Dirac-Ramond operator]] and a rigorous derivation of the [[Witten genus]] as an (equivariant) [[index of a Dirac operator]] along these lines seems to remain open.
 
 
+## Related concepts
+
+* [[stringor bundle]]
+
 ## References
 
 The motivation for constructing Dirac operator on smooth loop spaces is mainly due to the observations about the universal [[elliptic genus]] (the [[Witten genus]]) in
