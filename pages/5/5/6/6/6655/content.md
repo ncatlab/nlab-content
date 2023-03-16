@@ -196,7 +196,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 * Introduction rules for dependent sum types:
 
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash (a, b):\sum_{x:A} B(x)}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash (a, b):\sum_{x:A} B(x)}$$
 
 * Elimination rules for dependent sum types:
 
@@ -204,7 +204,7 @@ $$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash \pi_1(z):A} \qquad \frac{
 
 * Computation rules for dependent sum types:
 
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) \equiv b:B(\pi_1(a, b))}$$
+$$\frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash \pi_1(a, b) \equiv a:A} \qquad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B[a/x]}{\Gamma \vdash \pi_2(a, b) \equiv b:B(\pi_1(a, b))}$$
 
 * Uniqueness rules for dependent sum types:
 
