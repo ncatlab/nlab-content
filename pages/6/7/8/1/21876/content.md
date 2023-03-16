@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 #### Linguistics
 +-- {: .hide}
 [[!include linguistics - contents]]
@@ -45,3 +49,7 @@ Equivalently, a language is regular if it can be recognised by a finite-state [[
 ## Related entries
 
 * [[context-free grammar]]
+
+[[!redirects regular languages]]
+
+
