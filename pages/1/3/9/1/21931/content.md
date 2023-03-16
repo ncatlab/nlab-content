@@ -193,8 +193,13 @@ Via [[immersions]] of 3-spheres into Euclidean 4-space
 
 * A. Szűcs, _Two Theorems of Rokhlin_, Journal of Mathematical Sciences 113, 888–892 (2003) ([doi:10.1023/A:1021208007146](https://doi.org/10.1023/A:1021208007146))
 
-
 * Tobias Ekholm, Masamichi Takase, _Singular Seifert surfaces and Smale invariants for a family of 3-sphere immersions_, 	Bulletin of the London Mathematical Society 43 (2011) 251--266 ([arXiv:0903.0238](https://arxiv.org/abs/0903.0238))
+
+Discussion of [[geometric string structure|geometric]] string bordism in degreee 3 as a means to speak (via the [[Pontryagin-Thom theorem]]) about the [[third stable homotopy group of spheres]]:
+
+* [[Domenico Fiorenza]], [[Eugenio Landi]], *Integrals detecting degree 3 string cobordism classes* &lbrack;[arXiv:2209.12933](https://arxiv.org/abs/2209.12933)&rbrack;
+
+* [[Domenico Fiorenza]], *String bordism invariants in dimension 3 from $U(1)$-valued TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#FiorenzaMar2023)&rbrack;
 
 
 
