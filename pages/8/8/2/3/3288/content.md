@@ -378,14 +378,13 @@ The relation of this [[Fréchet manifold]]  structure to the canonical [[diffeol
  
 Discussion of [[G-structures]] on smooth loop spaces is in the following articles. 
 
-For [[orientation]] structure on loop space and its [[transgression]] from [[spin structure]] on target space:
+For [[orientation]] structure on loop space and its [[transgression]] from [[spin structure]] on target space (cf. *[[stringor bundle]]*):
 
 * {#Waldorf10} [[Konrad Waldorf]], _A Loop Space Formulation for Geometric Lifting Problems_ ([arXiv:1007.5373](http://arxiv.org/abs/1007.5373))
  
-
 For [[spin structure]] on loop spaces and its [[transgression]] from [[string structure]] on target space:
 
-* {#Stolz} [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) ([pdf])
+* {#Stolz} [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) &lbrack;[pdf](http://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/MPI.pdf), [[Stolz-Teichner-SpinorOnLoopSpace.pdf:file]]&rbrack;
  
 
 * {#Waldorf12} [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
