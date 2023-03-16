@@ -354,7 +354,11 @@ The rest of the diagram is constructed in order to prove the following:
 
 * [[p1-structure]], [[Atiyah 2-framing]]
 
-* **string structure**, [[differential string structure]]
+* **string structure**
+
+  [[differential string structure]]
+
+  [[stringor bundle]]
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
 
