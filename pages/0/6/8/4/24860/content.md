@@ -123,6 +123,8 @@ However, [Erhardt & Regnier (2009), p. 3](differential+linear+logic#EhrhardtRegn
 
 * [[computation]], [[quantum computation]]
 
+* [[non-deterministic automaton]]
+
 * [[repeat-until-success computing]]
 
 * [[reversible computation]]
