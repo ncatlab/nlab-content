@@ -279,17 +279,11 @@ Break: 3:50-4:20 pm
 
 > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
 
-\begin{imagefromfile}
-    "file_name": "CQTS-CobordismWorkshop2023.png",
-    "width": 350,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
+<center>
+<a href="https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html">
+<img src="https://ncatlab.org/nlab/files/CQTS-CobordismWorkshop2023.png" width="350">
+</a>
+</center>
 
 > $\phantom{-----}$ &lbrack;logo adapted from [[schreiber:M/F-Theory as Mf-Theory|arXiv:2103.01877]]&rbrack;
 
@@ -364,7 +358,19 @@ Break: 3:50-4:20 pm
 
   cf.: [arXiv:2210.04286](https://arxiv.org/abs/2210.04286) and *[[super Chern-Simons theory]]* 
 
-  > [[Chern-Simons theory]], as [introduced by Witten](Chern-Simons+theory#Witten89), is a three dimensional [[quantum field theory|quantum]] [[gauge theory]] associated to a [[compact Lie group|compact]] [[simple Lie group]] and a [[level (Chern-Simons theory)|level]]. The mathematical model of this theory as a [[topological field theory]] was introduced by [[Reshetikhin-Turaev construction|Reshetikhin and Turaev]] and is at the core of modern [[quantum topology]]. The goal of this talk is to explain a non-semisimple modification of the construction of Reshetikhin and Turaev which realizes Chern-Simons theory with gauge [[supergroup]] $U(1\vert 1)$, as studied in the physics literature by Rozansky-Saleur and Mikhaylov. The key new algebraic structure is a relative [[modular tensor category|modular structure]] on the [[category of representations]] of the [[quantum group]] of $\mathfrak{gl}(1\vert 1)$. Based on joint work with [[Nathan Geer]].
+  > [[Chern-Simons theory]], as [introduced by Witten](Chern-Simons+theory#Witten89), is a three dimensional [[quantum field theory|quantum]] [[gauge theory]] associated to a [[compact Lie group|compact]] [[simple Lie group]] and a [[level (Chern-Simons theory)|level]]. The mathematical model of this theory as a [[topological field theory]] was introduced by [[Reshetikhin-Turaev construction|Reshetikhin and Turaev]] and is at the core of modern [[quantum topology]]. The goal of this talk is to explain a non-[[semisimple category|semisimple]] modification of the [[Reshetikhin-Turaev construction|construction of Reshetikhin and Turaev]] which realizes Chern-Simons theory with gauge [[supergroup]] $U(1\vert 1)$, as studied in the physics literature by Rozansky-Saleur and Mikhaylov. The key new algebraic structure is a relative [[modular tensor category|modular structure]] on the [[category of representations]] of the [[quantum group]] of $\mathfrak{gl}(1\vert 1)$. Based on joint work with [[Nathan Geer]].
+
+\linebreak
+
+
+
+* {#ImMar2023} [[Mee Seong Im]] (United States Naval Academy):
+
+  **Correspondence between automata and one-dimensional Boolean topological theories and TQFTs**
+
+  cf.: [arXiv:2301.00700](https://arxiv.org/abs/2301.00700)
+
+  > [[automata|Automata]] are important objects in theoretical [[computer science]]. I will describe how automata emerge from topological theories and [[TQFTs]] in dimension one and carrying [[defect QFT|defects]]. Conversely, given an automaton, there's a canonical Boolean TQFT associated with it. In those topological theories, one encounters pairs of a regular language and a circular regular language that describe the theory. 
 
 
 \linebreak
@@ -383,6 +389,7 @@ Break: 3:50-4:20 pm
     "unit": "px",
     "margin": {
         "top": -20,
+
         "bottom": 20,
         "right": 0, 
         "left": 10
