@@ -384,6 +384,16 @@ Break: 3:50-4:20 pm
 
 \linebreak
 
+* {#WaldorfMar2023} [[Konrad Waldorf]] (University of Greifswald):
+
+  **The stringor bundle**
+
+  cf.: [arXiv:2206.09797](https://arxiv.org/abs/2206.09797)
+
+  >  The [[stringor bundle]] plays the role of the [[spinor bundle]], but in [[string theory]] instead of [[quantum mechanics]]. It has been anticipated in [[What is an elliptic object?|pioneering work of Stolz and Teichner]] as a [[vector bundle]] on [[loop space]]. I will talk about joint work with [[Matthias Ludewig]] and [[Peter Kristel]] that provides a fully rigorous and neat presentation of the stringor bundle as an associated 2-vector bundle, via a representation of the string 2-group on a [[von Neumann algebra]].
+
+\linebreak
+
 ### Apr 2023
 
 * 27 Apr - 1 Mar 2023 (upcoming)
