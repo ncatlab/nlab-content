@@ -40,6 +40,8 @@ Under [[Isbell duality]] and by the discussion at _[Modules -- as generalized ve
 
 ## Related concepts
 
+* [[stringor bundle]]
+
 * [[vector bundle]]
 
 * [[principal 2-bundle]]
@@ -64,6 +66,17 @@ The notion of 2-vector bundles based on regarding 2-vector spaces as algebras wi
 and much further developed in
 
 * [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *The insidious bicategory of algebra bundles* &lbrack;[arXiv:2204.03900](https://arxiv.org/abs/2204.03900)&rbrack;
+
+The example of the [[stringor bundle]]:
+
+* [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *A representation of the string 2-group*, &lbrack;[arXiv:2206.09797](https://arxiv.org/abs/2206.09797)&rbrack;
+
+Reviewed in: 
+
+* [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023)&rbrack;
+
+
+
 
 [[!redirects 2-vector bundles]]
 
