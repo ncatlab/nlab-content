@@ -51,6 +51,8 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 * [[twistor]]
 
+* [[stringor bundle]]
+
 [[!include standard model of fundamental physics - table]]
 
 ## References
