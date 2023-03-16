@@ -74,6 +74,12 @@ In more detail:
 
   limit-preserving: (no terminology introduced); 
 
+* [[Lurie]]'s *[[Higher Algebra]]*: 
+
+  colimit-preserving: _left cofinal_; 
+
+  limit-preserving: _right cofinal_ (page 13); 
+
 * [[Lurie]]'s *[[Kerodon]]*: 
  
   colimit-preserving: _right cofinal_ ([Tag 02N1](https://kerodon.net/tag/02N1)); 
