@@ -394,6 +394,16 @@ Break: 3:50-4:20 pm
 
 \linebreak
 
+* {#FiorenzaMar2023} [[Domenico Fiorenza]] (Sapienza University of Rome):
+
+  **String bordism invariants in dimension 3 from $U(1)$-valued TQFTs**
+
+  cf.: [arXiv:2209.12933](https://arxiv.org/abs/2209.12933)
+
+  > The third [[string bordism]] [[cohomology group|group]] [[third stable homotopy group of spheres|is known]] to be [[cyclic group|$\mathbb{Z}/$]][[24]]. Using [Waldorf's notion](differential+string+structure#Waldorf) of a [[geometric string structure]] on a manifold, Bunke-Naumann and Redden have exhibited integral formulas involving the [[Chern-Weil homomorphism|Chern-Weil form]] representative of the [[first Pontryagin class]] and the canonical 3-form of a [[geometric string structure]] that realize the [[isomorphism]] between the third [[string bordism]] group and $\mathbb{Z}/24$ (these formulas have been recently rediscovered by Gaiotto, Johnson-Freyd & Witten). In the talk I will show how these formulas naturally emerge when one considers the $U(1)$-valued 3d [[TQFTs]] associated with the [[moduli stack|classifying stacks]] of [[spin bundle|Spin bundles]] [[connection on a principal bundle|with connection]] and of [[string 2-group|String]] [[principal 2-bundle|bundles]] with [[differential string structure|geometric structure]]. Joint work with [[Eugenio Landi]] ([arXiv:2209.12933](https://arxiv.org/abs/2209.12933)).
+
+\linebreak
+
 ### Apr 2023
 
 * 27 Apr - 1 Mar 2023 (upcoming)
