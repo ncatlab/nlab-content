@@ -42,7 +42,11 @@ A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], 
 
 But one says _presheaf_ instead of (set-valued) _contravariant functor_ when one is interested in studying its [[sheafification]], or even if one is just interested in regarding the [[category of functors]] with its structure of a [[topos]]: the [[presheaf topos]].
 
+### Sieves
+ {#Sieve}
 
+A *[[sieve]]* is just a [[subfunctor]] of a [[representable functor]], but calling them "sieves" serves to indicate that (mostly) one is interested in regarding these as *[[covers]]* of a [[Grothendieck topology]] or [[coverage]], making the ambient [[category]] into a [[site]].
+ 
 ### Young diagrams
 
 A *[[Young diagram]]* is a [[partition]] that wants to become a [[Young tableau]].
