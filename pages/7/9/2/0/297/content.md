@@ -2663,6 +2663,9 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 
 [[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
 
+
+[[!redirects functorial field theories]]
+
 [[!redirects FQFTs]]
 [[!redirects Functorial quantum field theory]]
 [[!redirects Functorial quantum field theories]]
