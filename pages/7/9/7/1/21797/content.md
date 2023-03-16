@@ -39,6 +39,9 @@ Generalization to [[twisted equivariant K-theory|twisted equivariant]] [[KR-theo
 
 * [[Zhen Huan]], [[Matthew B. Young]], *Twisted Real quasi-elliptic cohomology* &lbrack;[arXiv:2210.07511](https://arxiv.org/abs/2210.07511)&rbrack;
 
+On [[2-representations]]:
+
+* [[Zhen Huan]], _2-Representations of Lie 2-groups and 2-Vector Bundles_ ([arXiv:2208.10042](https://arxiv.org/abs/2208.10042))
 
 ## Related entries
 
