@@ -1,1 +1,0 @@
-[[!redirects localization of a model category]]
