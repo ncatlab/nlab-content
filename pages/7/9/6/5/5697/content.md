@@ -25,6 +25,13 @@ Foam construction of [[link homology]]:
 * [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023)&rbrack;
 
 
+Discussion of [[non-deterministic automata]] as 1-dimensional [[defect QFT|defect]] [[TQFTs]]:
+
+* Paul Gustafson, [[Mee Seong Im]], Remy Kaldawy, [[Mikhail Khovanov]], Zachary Lihn, *Automata and one-dimensional TQFTs with defects* &lbrack;[arXiv:2301.00700](https://arxiv.org/abs/2301.00700)&rbrack;
+
+
+
+
 ## Related entries
 
 * [[Khovanov homology]]
