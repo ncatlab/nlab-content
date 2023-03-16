@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Computing
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 # Automata
 * table of contents
 {: toc}
@@ -44,7 +55,6 @@ There is a [[category]] $Aut$ whose [[object|objects]] are deterministic sequent
 
 ## Variants
 
-
 There are several variant forms of automaton.  The above just gives a basic one. Others are treated in the entries:
 
 * [[asynchronous automaton]];
@@ -79,6 +89,13 @@ An early discussion of automata via [[string diagrams]] in the [[Cartesian monoi
 
 * {#Hotz65} [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_, EIK, Bd. 1, (185-205), Bd, 2, (209-231) 1965 ([part I](https://www.magentacloud.de/lnk/LiPMlYfh), [part II](https://www.magentacloud.de/lnk/YivslUWJ), [[HotzSchaltkreise.pdf:file]])
 
+Discussion of [[non-deterministic automata]] as 1-dimensional [[defect QFT|defect]] [[TQFTs]]:
+
+* Paul Gustafson, [[Mee Seong Im]], Remy Kaldawy, [[Mikhail Khovanov]], Zachary Lihn, *Automata and one-dimensional TQFTs with defects* &lbrack;[arXiv:2301.00700](https://arxiv.org/abs/2301.00700)&rbrack;
+
+Review: 
+
+* [[Mee Seong Im]], *Correspondence between automata and one-dimensional Boolean topological theories and TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#ImMar2023)&rbrack;
 
 category:computer science
 
