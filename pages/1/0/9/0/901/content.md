@@ -400,7 +400,7 @@ This is an [[equivalence of categories]].
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[small category]] that is [[Cauchy complete]] and let $\mathcal{I}$ be a finite category. Then the canonical functor
+Let $\mathcal{C}$ be a [[small category]] that has [[finite colimits]] and let $\mathcal{I}$ be a small category. Then the canonical functor
 
 $$Ind(\mathcal{C}^{\mathcal{I}}) \to Ind(\mathcal{C})^{\mathcal{I}}$$
 
@@ -408,7 +408,7 @@ is an [[equivalence of categories]].
 
 =--
 
-([Makkai 88, Lemma 5.1](#Makkai88))
+([Henry 23](#Henry23))
 
 
 ### The case that $\mathcal{C}$ already admits filtered colimits
@@ -571,7 +571,7 @@ See also the remarks at the beginning of section 5.3 of
 
 Some relevant results are contained in:
 
-* {#Makkai88} [[Michael Makkai]], *Strong conceptual completeness for first-order logic*, Annals of pure and applied logic 40.2 (1988): 167-215.
+* {#Henry23} [[Simon Henry]] [MathOverflow answer](https://mathoverflow.net/a/442827)
 
 [[!redirects ind-objects]]
 [[!redirects ind object]]
