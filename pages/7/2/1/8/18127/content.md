@@ -94,7 +94,7 @@ The fundamental groupoid may be regarded as an [[algebra|algebraic]] incarnation
 [[homotopy type]] presented by a topological space, _up to level 1_ (the _[[homotopy 1-type]]_).
 
 The algebraic reflection of the full [[homotopy type]] of a topological space involves
-higher dimensional analogs fo the [[fundamental group]] called the _higher [[homotopy groups]]_.
+higher dimensional analogs for the [[fundamental group]] called the _higher [[homotopy groups]]_.
 We close with an outlook on these [below](#HigherHomotopyGroups).
 
 
@@ -146,7 +146,7 @@ $$
 
 Such "continuous deformations" are called _[[homotopies]]_:
 
-In the following we use this terminlogy:
+In the following we use this terminology:
 
 +-- {: .num_defn #TopologicalInterval}
 ###### Definition
@@ -618,7 +618,7 @@ $$
 with $\eta$ one of the given homotopies,
 exhibits a homotopy $ (g_1\circ g_2) \circ (f_2 \circ f_1) \Rightarrow g_1 \circ f_1$. Composing this with the
 given homotopy $g_1 \circ f_1 \Rightarrow id_X$ gives the first of the two homotopies required above.
-The second one follows by the same construction, just with the lables of the functions exchanged.
+The second one follows by the same construction, just with the labels of the functions exchanged.
 
 =--
 
@@ -1206,7 +1206,7 @@ A [[homomorphism]] between groupoids is the obvious: a [[function]] between thei
 
 For example if $f \;\colon\; X \to Y$ is a [[continuous function]] between topological spaces, then postcomposition of [[paths]] with this function induces a groupoid homomorphism $f_\ast \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)$ between the [[fundamental groupoids]] from above.
 
-Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a generalization of [[group theory]].
+Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the category [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a generalization of [[group theory]].
 
 However, for groupoids more than for groups one is typically interested in "[[conjugation actions]]" on homomorphisms. These are richer for groupoids than for groups, because one may conjugate with a different morphism at each object. If we think of groupoids as special cases of [[categories]], then these "conjugation actions on homomorphisms" are _[[natural transformations]]_ between [[functors]].
 
@@ -1257,7 +1257,7 @@ A _[[small groupoid]]_ $\mathcal{G}$ is
 
    to be called the _[[identity morphism]]_ on $x$;
 
-1. for all pairs $x,y \in Hom(x,y)$ of obects a function
+1. for all pairs $x,y \in Hom(x,y)$ of objects a function
 
    $$
      (-)^{-1} \;\colon\; Hom(x,y) \longrightarrow Hom(y,x)
@@ -1274,7 +1274,7 @@ such that
      h \circ (g \circ f) \;=\; (h \circ g) \circ f
    $$
 
-1. ([[unitality]]) for all [[pairs]] of objects $x,y \in X$ and all moprhisms $f \in Hom(x,y)$ [[equalities]]
+1. ([[unitality]]) for all [[pairs]] of objects $x,y \in X$ and all morphisms $f \in Hom(x,y)$ [[equalities]]
 
     $$
       id_y \circ f = f
@@ -1429,7 +1429,7 @@ simply by discarding all those [[morphisms]] that are not [[isomorphisms]].
 
 For instance
 
-* For $\mathcal{C} = $ [[Set]] then $Core(Set)$ is the goupoid of [[sets]] and [[bijections]] between them.
+* For $\mathcal{C} = $ [[Set]] then $Core(Set)$ is the groupoid of [[sets]] and [[bijections]] between them.
 
   For $\mathcal{C}  $ [[FinSet]] then the [[skeleton]] of this groupoid (prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}) is the disjoint union of deloopings (example \ref{DeloopingGroupoidDisjointUnion}) of all the [[symmetric groups]]:
 
@@ -1574,7 +1574,7 @@ is a [[category]] whose
 =--
 
 But since this [[1-category]] does not reflect the existence of [[homotopies]]/[[natural isomorphisms]]
-between homomorphsims/[[functors]] of groupoids (def. \ref{GroupoidDependentlyTypes})
+between homomorphisms/[[functors]] of groupoids (def. \ref{GroupoidDependentlyTypes})
 this [[1-category]] is not what one is interested in when considering [[homotopy theory]]/[[higher category theory]].
 
 In order to obtain the right notion of category of groupoids
@@ -1683,7 +1683,7 @@ $$
   \,.
 $$
 
-Here all steps are unwinding of the definition of horizontal and of ordinary (vbertical)
+Here all steps are unwinding of the definition of horizontal and of ordinary (vertical)
 composition of homotopies, except the third equality, which is the functoriality of $F_2$.
 
 =--
@@ -1692,7 +1692,7 @@ composition of homotopies, except the third equality, which is the functoriality
 ###### Lemma
 **([[horizontal composition]] of [[homotopies]])
 
-Consider a [[diagram]] of [[groupoids]], groupoid homomorphsims (functors) and homotopies (natural transformations) as follows:
+Consider a [[diagram]] of [[groupoids]], groupoid homomorphisms (functors) and homotopies (natural transformations) as follows:
 
 $$
   \mathcal{G}_1
@@ -1719,7 +1719,7 @@ $$
   \mathcal{G}_3
 $$
 
-may be defined in temrs of the horizontal composition of homotopies with morphisms (lemma \ref{HmotopiesWithMorphismsHorizontaComposition}) and the ("vertical") composition of homotopies with themselves, in two different ways, namely by decomposing the above diagram as
+may be defined in terms of the horizontal composition of homotopies with morphisms (lemma \ref{HmotopiesWithMorphismsHorizontaComposition}) and the ("vertical") composition of homotopies with themselves, in two different ways, namely by decomposing the above diagram as
 
 
 $$
@@ -1834,7 +1834,7 @@ $$
   \,.
 $$
 
-But the ommutativity of the square on the right is the defining compatibility condition on the components of $\eta_2$ applied to the morphism $\eta_1(x)$ in $\mathcal{G}_2$.
+But the commutativity of the square on the right is the defining compatibility condition on the components of $\eta_2$ applied to the morphism $\eta_1(x)$ in $\mathcal{G}_2$.
 
 =--
 
@@ -2001,7 +2001,7 @@ $$
 $$
 
 (In fact this means it even extends to a [[(2,1)-functor]] from the [[(2,1)-category]]
-of topological spaces, continuous functions, and [[higher homotopy]]-classes of left homotopues,
+of topological spaces, continuous functions, and [[higher homotopy]]-classes of left homotopies,
 to that of groupoids.)
 
 As a direct consequence it follows that if there is a [[homotopy equivalence]]
@@ -2011,7 +2011,7 @@ $$
 $$
 
 between [[topological spaces]], then there is an induced [[equivalence of groupoids]]
-betwee their [[fundamental groupoids]]
+between their [[fundamental groupoids]]
 
 $$
   \Pi_1(X) \simeq \Pi_1(Y)
@@ -2061,8 +2061,8 @@ $$
 
 into from the category [[Grp]] of groups to the [[1-category]] of [[groupoids]].
 
-But beware that this functor is not fully faithful when homotopies of groupoids are taken into acount,
-because there are in general non-trivial homotopies between morphims of the form
+But beware that this functor is not fully faithful when homotopies of groupoids are taken into account,
+because there are in general non-trivial homotopies between morphisms of the form
 
 $$
   B \phi_1, B \phi_2
@@ -2071,7 +2071,7 @@ $$
 $$
 
 By definition, such a homotopy (natural transformation) $\eta \;\colon\; B \phi_1 \Rightarrow B \phi_2$
-is a choice of a single elemet $\eta_p \in H$ such that for all $g \in G$
+is a choice of a single element $\eta_p \in H$ such that for all $g \in G$
 we have
 
 $$
@@ -2116,7 +2116,7 @@ $$
   B(-) \;\colon\; Grp \hookrightarrow Ho(Grpd^{\ast/})
 $$
 
-then also the homotopies are required to preserve the absepoint, and for
+then also the homotopies are required to preserve the basepoint, and for
 homotopies between homomorphisms between delooped groups this means, since there only
 is a single point, that these homotopies are all trivial. Hence regarded this way
 the functor is a [[fully faithful functor]] again, hence an [[equivalence of categories]]
@@ -2488,10 +2488,10 @@ $$
 Here $inc_1$ and $inc_2$ are equivalences of groupoids by prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}.
 Moreover, by assumption that $F$ is a weak homotopy equivalence $\tilde F$ is the union of of deloopings of
 isomorphisms of groups, and hence has a strict inverse, in particular a homotopy inverse, hence is in particular
-an euivalence of groupoids.
+an equivalence of groupoids.
 
 In conclusion, when regarded as a diagram in the [[homotopy category]] $Ho(Grpd)$ (def. \ref{HomotopyCategoryOfGroupoids}),
-the top, bottom and right moprhism of the above diagram are isomorphisms. It follows that also
+the top, bottom and right morphism of the above diagram are isomorphisms. It follows that also
 $f$ is an isomorphism in $Ho(Grpd)$. But this means exactly that it is a homotopy equivalence of groupoids, by
 def. \ref{EquivalenceOfGroupoids}.
 
@@ -2607,7 +2607,7 @@ $$
 
 is called a _trivialization_ of $E \overset{p}{\to} X$.
 
-It is in this sense that evry covering space $E$ is, by definition, locally trvializable.
+It is in this sense that every covering space $E$ is, by definition, locally trivializable.
 
 =--
 
@@ -2679,7 +2679,7 @@ Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[le
 set $\mathbb{Z}$ of [[integers]].
 
 Below in example \ref{UniversalCoveringRealLineOfCircle} we see that this is the _[[universal covering space]]_
-&#243;f the circle.
+of the circle.
 
 =--
 
@@ -2900,13 +2900,13 @@ against this class.
 
 We now discuss some [[right lifting properties]] satisfied by covering spaces:
 
-1. [homotopy-lifting propery](#HomotopyLiftingPropertyOfCoveringSpaces),
+1. [homotopy-lifting property](#HomotopyLiftingPropertyOfCoveringSpaces),
 
 1. the [lifting theorem](#TheTheoremLifting).
 
 A first application of the lifting theorem is that it gives the concept of the _[[universal covering space]]_
 (def. \ref{UniversalCoveringSpace}, prop. \ref{UniversalCoveringSpaceUniqueUpToIsomorphism} below)
-which is central to the theory of coverign spaces.
+which is central to the theory of covering spaces.
 
 These lifting properties will be used in [below](#Examples) for the computation of [[fundamental groups]]
 and higher [[homotopy groups]] of some topological spaces.
@@ -3033,7 +3033,7 @@ $$
 ###### Proof
 
 
-First consider the case that the covering space is trival, hence of the [[Cartesian product]] form
+First consider the case that the covering space is trivial, hence of the [[Cartesian product]] form
 
 $$
   pr_1 \;\colon\;  X \times Disc(S) \longrightarrow X
@@ -3098,7 +3098,7 @@ Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the trivial
 
 By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
 
-Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique. Altrnatively, uniqueness of the lifts is a special case of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
+Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique. Alternatively, uniqueness of the lifts is a special case of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
 
 =--
 
@@ -3642,7 +3642,7 @@ In particular, associated with any homotopy-class
 of a [[loop]], hence of an element in the [[fundamental group]], there is associated a
 [[bijection]] of the fiber over the loop's basepoint with itself, hence a [[permutation representation]]
 of the [[fundamental group]]. This is called the _[[monodromy]]_ of the covering space.
-It is a measure for how the coverign space fails to be globally trivial.
+It is a measure for how the covering space fails to be globally trivial.
 
 In fact the [[fundamental theorem of covering spaces]] (prop. \ref{FundamentalTheoremOfCoveringSpaces})
 below says that the [[monodromy]] representation characterizes the covering spaces completely
@@ -4175,7 +4175,7 @@ $$
 
 thus exhibiting $p^{-1}(U)$ as a union of base opens.
 
-Finally we need to see that this continuous function $p$ is a covering projection, hence that every point $x \in X$ has a neighbourhood $U$ such that $p^{-1}(U) \simeq U \times \rho(x)$. But this is again the case for those $U$ all whose loops are contractible in $X$, by the above identification via $\rho$, and these exist around every point by semi-local simply-connetedness of $X$.
+Finally we need to see that this continuous function $p$ is a covering projection, hence that every point $x \in X$ has a neighbourhood $U$ such that $p^{-1}(U) \simeq U \times \rho(x)$. But this is again the case for those $U$ all whose loops are contractible in $X$, by the above identification via $\rho$, and these exist around every point by semi-local simply-connectedness of $X$.
 
 This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Rec(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
 
@@ -4328,7 +4328,7 @@ $$
   }
 $$
 
-and hence this means that the top and bottom horizontal morphism are in fact equal. Directz unwiinding of the definitions shows that this is indeed the case.
+and hence this means that the top and bottom horizontal morphism are in fact equal. Direct unwinding of the definitions shows that this is indeed the case.
 
 Now we demonstrate a homotopy ([[natural isomorphism]]) of the form
 
@@ -4572,7 +4572,7 @@ $$
   \right\}
 $$
 
-is an [[open cover]] of $\mathbb{R}^1$, it follows that $f$ is unqiuely fixed by its restrictions to these two subsets.
+is an [[open cover]] of $\mathbb{R}^1$, it follows that $f$ is uniquely fixed by its restrictions to these two subsets.
 
 Now unwinding the definition of $p$ shows that the condition that the two restrictions coincide on the intersection $S^1 \setminus \{s,s'\}$ implies that there is $n \in \mathbb{Z}$ such that $\phi(k) = k+ n$ and $\phi'(k) = k+n$.
 
