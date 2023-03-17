@@ -449,11 +449,11 @@ Break: 3:50-4:20 pm
 
 \linebreak
 
-* [[Daniel Berwick-Evans]] (University of Illinois Urbana-Champaign)
+* {#BerwickEvansMar23} [[Daniel Berwick-Evans]] (University of Illinois Urbana-Champaign)
 
   **How do field theories detect the torsion in topological modular forms?**
 
-  cf.:[arXiv:2303.09138](https://arxiv.org/abs/2303.09138)
+  cf.: [arXiv:2303.09138](https://arxiv.org/abs/2303.09138)
 
   > Since the mid 1980s, there have been hints of a deep connection between 2-dimensional [[quantum field theory|field theories]] and [[elliptic cohomology]]. This lead to Stolz and Teichner's conjectured geometric model for the universal elliptic cohomology theory of [[topological modular forms]] ([[TMF]]) in which [[cocycles]] are [[(2,1)-dimensional Euclidean field theory|2-dimensional supersymmetric field theories]]. Basic properties of these field theories lead to expected integrality and modularity properties, but the abundant [[torsion subgroup|torsion]] in [[TMF]] has always been mysterious. In this talk, I will describe deformation invariants of 2-dimensional field theories that realize certain torsion classes in TMF. This leads to a description of the generator of [[tmf#HomotopyGroups|$\pi_3(TMF) =\mathbb{Z}/24$]] in terms of the [[(2,1)-dimensional Euclidean field theory|supersymmetric sigma model]] with [[target space|target]] [[3-sphere|$S^3$]].
 
