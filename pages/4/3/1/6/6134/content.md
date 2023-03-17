@@ -5,6 +5,7 @@
 
 [^rem]: In the same year Hasse and Michler published _Theorie der Kategorien_ , Deutscher Verlag der Wissenschaften Berlin 1966.
 
+* Klaus Volkert, _Vier Heidelberger Topologen 1935-1996_, Jahresbericht der Deutschen Mathematiker-Vereinigung **124**:215–238 (2022). ([doi](https://doi.org/10.1365/s); [pdf](https://link.springer.com/content/pdf/10.1365/s13291-022-00254-8.pdf))
 
 ## Selected publications
 
