@@ -59,7 +59,7 @@ The 'agent' terminology is extremely useful, but in pure modal logic texts is no
 The question then arises as to which axioms of modal logic are appropriate to the epistemic case. For instance, it is generally admitted that axiom (T) should hold, here 
 
 $$
-K \phi \to \phi,
+\mathbf{T}: K \phi \to \phi,
 $$
 
 which states that if $\phi$ is known then $\phi$ is true.
@@ -67,10 +67,23 @@ which states that if $\phi$ is known then $\phi$ is true.
 One contentious issue in the field is whether to admit an epistemic version of axiom (4). This corresponds to 
 
 $$
-K \phi \to K K \phi,
+\mathbf{4}: K \phi \to K K \phi,
 $$
 
 which states that when $\phi$ is known to be true then it is also known that it is known.  
+
+It is even possible to challenge the admission of two of the most fundamental modal axioms, axioms (N) and (K). These correspond to 
+
+$$
+\mathbf{N}: If P is a theorem, then so is K P,
+$$
+and 
+
+$$
+\mathbf{K}: K(P \to Q) \to (K P \to K Q).
+$$
+Evidently there are theorems of logical theories whose truth we do not know. Similarly, it is not clear that we know the deductive consequences of the collection of propositions that we know, such as the application of _modus ponens_ to every instance of $P \to Q$ and $P$. 
+
 
 
 ## Models for epistemic logics
