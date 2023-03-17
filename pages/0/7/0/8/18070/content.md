@@ -1696,7 +1696,11 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_, Algebr. Geom. Topol. 20 (2020) 2995–3012 ([doi:10.2140/agt.2020.20.2995](https://www.doi.org/10.2140/agt.2020.20.2995))
 
-* Christian Blanchet, [[Martin Palmer]], Awais Shaukat, *Heisenberg homology on surface configurations* $[$[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)$]$
+* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]], *Heisenberg homology on surface configurations* &lbrack;[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)&rbrack;
+
+* [[Awais Shaukat]], [[Christian Blanchet]], *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Archiv der Mathematik **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
+
+* [[Christian Blanchet]], *Heisenberg homologies of surface configurations*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BlanchetMar2023)&rbrack;
 
 Review:
 
