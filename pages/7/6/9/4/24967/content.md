@@ -72,15 +72,17 @@ $$
 
 which states that when $\phi$ is known to be true then it is also known that it is known.  
 
-It is even possible to challenge the admission of two of the most fundamental modal axioms, axioms (N) and (K). These correspond to 
+{#EvenPossible} It is even possible to challenge the admission of two of the most fundamental modal axioms, axioms (N) and (K). These correspond to 
 
 $$
-\mathbf{N}: If P is a theorem, then so is K P,
+  \mathbf{N}
+  \colon 
+  \text{If}\; P \;\text{is a theorem, then so is}\; K P
 $$
 and 
 
 $$
-\mathbf{K}: K(P \to Q) \to (K P \to K Q).
+  \mathbf{K}: K(P \to Q) \to (K P \to K Q).
 $$
 Evidently there are theorems of logical theories whose truth we do not know. Similarly, it is not clear that we know the deductive consequences of the collection of propositions that we know, such as the application of _modus ponens_ to every instance of $P \to Q$ and $P$. 
 
