@@ -11,6 +11,8 @@ __monoid theory__ in [[algebra]]:
 
 * [[monoid homomorphism]]
 
+* [[trivial monoid]]
+
 * [[submonoid]], [[quotient monoid]]
 
 * [[divisor]], [[multiple]], [[quotient element]]
