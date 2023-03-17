@@ -777,7 +777,7 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
 ## References 
 
-
+### Topological cobordisms
 
 The original hypothesis is formulated in 
 
@@ -787,23 +787,8 @@ A sketch of an approach to the formalization and proof of the cobordism hypothes
 
 * {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
-Higher cobordisms with geometric structure (for non-topological [[extended quantum field theory]]) are discussed in
 
-* {#Ayala} [[David Ayala]], _Geometric cobordism categories_ ([arXiv:0811.2280](https://arxiv.org/abs/0811.2280))
-
-* {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* &lbrack;[arXiv:2011.01208](https://arxiv.org/abs/2011.01208)&rbrack;
-
-and full proof of the cobordism hypothesis in this geometric generality (hence for non-topological [[extended quantum field theory|extended]] [[FQFT]] such as [[conformal field theory]]) is claimed in:
-
-* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
-
-based on [Grady & Pavlov 2020](#GradyPavlov20).
-
-
-
-
-
-In the topological case, the comparatively simple case of $n = 1$ is spelled out in detail in 
+The comparatively simple case of $n = 1$ is spelled out in detail in 
 
 * [[Yonatan Harpaz]], _The Cobordism Hypothesis in Dimension 1_ ([arXiv:1210.0229](http://arxiv.org/abs/1210.0229))
 
@@ -831,11 +816,29 @@ An approach to the proof of the cobordism hypothesis via [[factorization homolog
 
 * [[David Ayala]], [[John Francis]], _The cobordism hypothesis_, ([arXiv:1705.02240](https://arxiv.org/abs/1705.02240))
 
-
-
 Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may be thought of as a special case of the cobordism hypothesis) includes
 
 * {#GaudensMenichi07} Gerald Gaudens, [[Luc Menichi]],  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
+
+
+### Geometric cobordisms
+ {#ReferencesGeometricCobordisms}
+
+Higher cobordisms with geometric [[structure]] (i.e. for non-topological [[extended quantum field theory]]) are discussed in
+
+* {#Ayala} [[David Ayala]], _Geometric cobordism categories_ ([arXiv:0811.2280](https://arxiv.org/abs/0811.2280))
+
+* {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* &lbrack;[arXiv:2011.01208](https://arxiv.org/abs/2011.01208)&rbrack;
+
+and full proof of the cobordism hypothesis in this geometric generality (hence for non-topological [[extended quantum field theory|extended]] [[FQFT]] such as [[conformal field theory]]) is claimed in:
+
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
+
+based on [Grady & Pavlov 2020](#GradyPavlov20).
+
+Review:
+
+* [[Dmitri Pavlov]], *The geometric cobordism hypothesis*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]], [web](Center+for+Quantum+and+Topological+Systems#PavlovMar2023)&rbrack;
 
 
 
@@ -843,3 +846,8 @@ Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may b
 
 
 [[!redirects cobordism theorem]]
+
+
+[[!redirects geometric cobordism hypothesis]]
+
+
