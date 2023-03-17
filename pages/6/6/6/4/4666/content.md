@@ -36,6 +36,12 @@ It can be nontrivial to decide from a [[group presentation]] whether a group so 
 
 The trivial group is an example of a [[trivial algebra]].
 
+## Related concepts
+
+* [[trivial monoid]]
+
+* [[terminal category]]
+
 
 [[!redirects trivial group]]
 [[!redirects trivial groups]]
