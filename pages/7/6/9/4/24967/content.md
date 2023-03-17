@@ -53,17 +53,19 @@ The 'agent' terminology is extremely useful, but in pure modal logic texts is no
 =--
 
 
-## Varieties of epistemic logic
+## Axioms for epistemic logic {#Axioms}
 
-The question then arises as to which axioms of modal logic are appropriate to the epistemic case. For instance, it is generally admitted that axiom (T) should hold, here 
+The question then arises as to which axioms of modal logic are appropriate to the epistemic case. Answers will depend on what interpretation is given to `know' in specifying how the operator $K$ behaves. E.g., there is a difference between the knowledge of a realistic, cognitively-limited agent and that of some idealized agent with boundless resources.
+
+It is generally admitted that axiom (T) should hold, here 
 
 $$
 \mathbf{T}: K \phi \to \phi,
 $$
 
-which states that if $\phi$ is known then $\phi$ is true.
+which states that if $\phi$ is known then $\phi$ is true. Truth is generally taken to be a precondition of knowledge.
 
-One contentious issue in the field is whether to admit an epistemic version of axiom (4). This corresponds to 
+A much more contentious issue in the field is whether to admit an epistemic version of axiom (4). This corresponds to 
 
 $$
 \mathbf{4}: K \phi \to K K \phi,
