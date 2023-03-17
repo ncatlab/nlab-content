@@ -39,7 +39,7 @@ $$\begin{aligned}
 
 ## Examples
 
- * [[optic (in computer science)|Optics]] over a monoidal category form a produoidal category.
+ * [[optic (in computer science)|Optics]] over a monoidal category form a produoidal category. [EHR23](#EarnshawHeffordRoman23)
 
 
 ## References
@@ -50,5 +50,5 @@ The first mention of produoidal categories as a duoidale seems to be:
 
 An explicit unpacking of the definition, along with examples including the category of [[optic (in computer science)|optics]] appears in
 
- * [[Matt Earnshaw]], [[James Hefford]], [[Mario Román]]. _The Produoidal Algebra of Process Decomposition_ ([link](https://arxiv.org/abs/2301.11867)).
+ * {#EarnshawHeffordRoman23} [[Matt Earnshaw]], [[James Hefford]], [[Mario Román]]. _The Produoidal Algebra of Process Decomposition_ ([link](https://arxiv.org/abs/2301.11867)).
 
