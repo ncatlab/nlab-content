@@ -1,3 +1,6 @@
+[[!redirects (2,1)-dimensional Euclidean field theory]]
+[[!redirects (2,1)-dimensional Euclidean field theory]]
+[[!redirects (2,1)-dimensional Euclidean field theory]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -520,6 +523,7 @@ $$
 
 * [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?* &lbrack;[arXiv:2303.09138](https://arxiv.org/abs/2303.09138)&rbrack;
 
+* [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BerwickEvansMar23)&rbrack;
 
 
 [[!redirects (2,1)-dimensional Euclidean field theories]]
