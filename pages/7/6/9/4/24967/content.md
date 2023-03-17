@@ -84,7 +84,9 @@ and
 $$
   \mathbf{K}: K(P \to Q) \to (K P \to K Q).
 $$
-Evidently there are theorems of logical theories whose truth we do not know. Similarly, it is not clear that we know the deductive consequences of the collection of propositions that we know, such as the application of _modus ponens_ to every instance of $P \to Q$ and $P$. 
+An understanding of **N** that it states that all theorems are known is evidently problematic. Similarly for **K**, it is not clear that we know the deductive consequences of the collection of propositions that we know, such as the application of _modus ponens_ to every instance of known $P \to Q$ and $P$. 
+
+On the other hand, we might consider epistemic logic to represent the reasoning of an ideal, logically omniscient, agent, and so admit **N** and **K**.
 
 
 
