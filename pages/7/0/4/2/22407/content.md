@@ -50,6 +50,8 @@ In other words, a strict terminal object is a [[maximal object|maximal terminal 
 
 * Trivial [[Boolean algebra]]
 
+* Trivial [[absorption monoid]]
+
 * In general, for any algebraic theory with two constants $0$ and $1$ and a binary operation for which $0$ is a (left) absorbing element and $1$ is a (left) unit, the trivial model is strictly terminal.
 
 
@@ -61,3 +63,8 @@ In other words, a strict terminal object is a [[maximal object|maximal terminal 
 ##References
 
 * [[Zhen Lin Low]], _What do algebraic theories with strictly terminal trivial models look like?_, [MO question:159234](https://mathoverflow.net/q/159234/)
+
+[[!redirects strictly terminal]]
+
+[[!redirects strict terminal object]]
+[[!redirects strict terminal objects]]
