@@ -425,6 +425,44 @@ Break: 3:50-4:20 pm
 
 \linebreak
 
+* {#PavlovMar2023} [[Dmitri Pavlov]] (Texas Tech University):
+
+  **The geometric cobordism hypothesis**
+
+  slides: [pdf](https://dmitripavlov.org/nyuad.pdf) [[Pavlov-GCHatCQTS.pdf:file]]
+
+  cf.: [arXiv:2011.01208](https://arxiv.org/abs/2011.01208), [arXiv:2111.01095](https://arxiv.org/abs/2111.01095)
+
+  > I will explain my recent joint work with [[Daniel Grady]] on [[local field theory|locality]] of [[functorial field theories]] ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208)) and the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms) ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095)). The latter generalizes the Baez–Dolan [[cobordism hypothesis]] to non-[[topological field theories]], in which [[bordisms]] can be equipped with geometric [[structures]], such as [[smooth maps]] to a fixed [[target space|target]] manifold, [[Riemannian metrics]], [[conformal structures]], [[principal bundles]] [[connection on a bundle|with connection]], or [[geometric string structures]]. Applications include a generalization of the [Galatius–Madsen–Tillmann–Weiss theorem](cobordism+category#GMTWTheorem), a solution to a [[What is an elliptic object?|conjecture of Stolz and Teichner]] on representability of [[concordance classes]] of [[functorial field theories]], and a construction of [[power operations]] on the level of field theories (extending the [recent work of Barthel-Berwick-Evans-Stapleton](https://arxiv.org/abs/2006.09943)). 
+
+  > I will illustrate the general theory by constructing the [[prequantum field theory|prequantum]] [[Chern-Simons theory]] as a fully extended nontopological functorial field theory.
+
+  > If time permits, I will discuss the ongoing work on defining [[quantization]] of field theories in the setting of the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
+
+\linebreak
+
+* {#GradyMar2023} [[Daniel Grady]] (Wichita State University):
+
+  **Deformation classes of invertible field theories and the Freed-Hopkins conjecture**
+
+  > In their [seminal paper](https://arxiv.org/abs/1604.06527), Freed and Hopkins proved a classification theorem that identifies deformation classes of certain invertible [[topological field theories]] with the [[torsion subgroup]] of some generalized cohomology of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
+
+\linebreak
+
+* [[Daniel Berwick-Evans]] (University of Illinois Urbana-Champaign)
+
+  **How do field theories detect the torsion in topological modular forms?**
+
+  cf.:[arXiv:2303.09138](https://arxiv.org/abs/2303.09138)
+
+  > Since the mid 1980s, there have been hints of a deep connection between 2-dimensional [[quantum field theory|field theories]] and [[elliptic cohomology]]. This lead to Stolz and Teichner's conjectured geometric model for the universal elliptic cohomology theory of [[topological modular forms]] ([[TMF]]) in which [[cocycles]] are [[(2,1)-dimensional Euclidean field theory|2-dimensional supersymmetric field theories]]. Basic properties of these field theories lead to expected integrality and modularity properties, but the abundant [[torsion subgroup|torsion]] in [[TMF]] has always been mysterious. In this talk, I will describe deformation invariants of 2-dimensional field theories that realize certain torsion classes in TMF. This leads to a description of the generator of [[tmf#HomotopyGroups|$\pi_3(TMF) =\mathbb{Z}/24$]] in terms of the [[(2,1)-dimensional Euclidean field theory|supersymmetric sigma model]] with [[target space|target]] [[3-sphere|$S^3$]].
+
+  
+
+
+
+\linebreak
+
 ### Apr 2023
 
 * 27 Apr - 1 Mar 2023 (upcoming)
