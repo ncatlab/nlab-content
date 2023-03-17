@@ -372,6 +372,7 @@ Break: 3:50-4:20 pm
 
   > [[automata|Automata]] are important objects in theoretical [[computer science]]. I will describe how automata emerge from topological theories and [[TQFTs]] in dimension one and carrying [[defect QFT|defects]]. Conversely, given an automaton, there's a canonical Boolean TQFT associated with it. In those topological theories, one encounters pairs of a [[regular language]] and a circular regular language that describe the theory. 
 
+
 \linebreak
 
 * {#SchenkelMar2023} [[Alexander Schenkel]] (University of Nottingham):
@@ -401,6 +402,26 @@ Break: 3:50-4:20 pm
   cf.: [arXiv:2209.12933](https://arxiv.org/abs/2209.12933)
 
   > The third [[string bordism]] [[cohomology group|group]] [[third stable homotopy group of spheres|is known]] to be [[cyclic group|$\mathbb{Z}/$]][[24]]. Using [Waldorf's notion](differential+string+structure#Waldorf) of a [[geometric string structure]] on a manifold, Bunke-Naumann and Redden have exhibited integral formulas involving the [[Chern-Weil homomorphism|Chern-Weil form]] representative of the [[first Pontryagin class]] and the canonical 3-form of a [[geometric string structure]] that realize the [[isomorphism]] between the third [[string bordism]] group and $\mathbb{Z}/24$ (these formulas have been recently rediscovered by Gaiotto, Johnson-Freyd & Witten). In the talk I will show how these formulas naturally emerge when one considers the $U(1)$-valued 3d [[TQFTs]] associated with the [[moduli stack|classifying stacks]] of [[spin bundle|Spin bundles]] [[connection on a principal bundle|with connection]] and of [[string 2-group|String]] [[principal 2-bundle|bundles]] with [[differential string structure|geometric structure]]. Joint work with [[Eugenio Landi]] ([arXiv:2209.12933](https://arxiv.org/abs/2209.12933)).
+
+\linebreak
+
+* {#BlanchetMar2023} [[Christian Blanchet]] (Université Paris Cité):
+
+  **Heisenberg homologies of surface configurations**
+
+  cf.: [arXiv:2206.11475](https://arxiv.org/abs/2206.11475)
+
+  > The [[Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] action and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
+
+\linebreak
+
+* {#ChbiliMar2023} [[Nafaa Chbili]] (United Arab Emirates University):
+
+  **Quasi-alternating links, Examples and obstructions**
+
+  cf.: [arXiv:2009.08624](https://arxiv.org/abs/2009.08624)
+
+  > Quasi-alternating links represent an important class of [[links]] that has been [introduced by Ozsváth and Szabó](https://arxiv.org/abs/math/0309170) while studying the Heegaard Floer homology of the branched double-covers of alternating links. This new class of links, which share many [[Khovanov homology|homological properties]] with alternating links, is defined in a recursive way which is not easy to use in order to determine whether a given link is quasi-alternating. In this talk, we shall review the main obstruction criteria for quasi-alternating links. We also discuss how new examples of quasi-alternating links can constructed.
 
 \linebreak
 
