@@ -331,7 +331,7 @@ The category $E Bord_1^{fam}$ is generated from
 Because:
 
 $
-  E \in Fun^{\otimes}_{Diff}(E Bord^{fam}, TV^{fam})$
+  E \in Fun^{\otimes}_{Diff}(E Bord^{fam}, TV^{fam})
 $
 
 is determined by 
@@ -510,8 +510,16 @@ $$
 
 ## References
 
-* [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.nd.edu/~jcaine1/pdf/Lectures_complete.pdf))
- {#Stolz}
+* [[Stephan Stolz]], [[Peter Teichner]], *[[What is an elliptic object?]]* in: _Topology, geometry and quantum field theory_, London Math. Soc. LNS **308**, Cambridge Univ. Press (2004) 247-343  &lbrack;[pdf](https://math.berkeley.edu/~teichner/Papers/Oxford.pdf), [[Stolz-Teichner_EllipticObject.pdf:file]]&rbrack;
+
+
+* {#Stolz} [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.nd.edu/~jcaine1/pdf/Lectures_complete.pdf))
+ 
+
+* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_ , in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), *[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Symposia in Pure Mathematics (2011) &lbrack;[arXiv:1108.0189](http://arxiv.org/abs/1108.0189)&rbrack;
+
+* [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?* &lbrack;[arXiv:2303.09138](https://arxiv.org/abs/2303.09138)&rbrack;
+
 
 
 [[!redirects (2,1)-dimensional Euclidean field theories]]
