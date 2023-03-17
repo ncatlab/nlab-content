@@ -23,7 +23,7 @@
 
 
 
-*Epistemic logic* is the branch of [[modal logic]] which is concerned with [[epistemology]], hence with notions of knowledge and sometimes also notions of belief, although these may be treated separately by *doxastic* logic. In its applied form it has found considerable use in [[computer science]] and Artificial Intelligence.
+*Epistemic logic* is the branch of [[modal logic]] which is concerned with [[epistemology]], hence with notions of knowledge and sometimes also notions of belief, although these may be treated separately by [[doxastic logic]]. In its applied form it has found considerable use in [[computer science]] and Artificial Intelligence.
 
 The key [[modal operators]] for epistemic logic are forms of *[[necessity and possibility]]* corresponding to "It is known to be the case that" and "It may be the case that (so far as is known)". As a form of modal logic, the [[semantics]] typically used is *[[possible worlds semantics]]* where the worlds correspond to states of knowledge.
 
