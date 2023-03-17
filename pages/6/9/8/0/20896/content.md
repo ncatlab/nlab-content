@@ -59,16 +59,16 @@ $$   B_{x,x} \colon x \otimes x \to x \otimes x $$
 
 are identity morphisms.  Note that since a commutative monoidal category has this property, and this property is invariant under symmetric-monoidal-equivalence, the "only if" part of the characterization is certainly true.
 
+This conjecture was proved in [Kim 16](#Kim16).
 
 ## References
-
 
 
 * {#BaezMaster18} [[John Baez]], [[Jade Master]], Section 2 of: _Open Petri Nets_ ([arXiv:1808.05415](https://arxiv.org/abs/1808.05415))
 
 * [[James Dolan]], _[[jamesdolan:Algebraic Geometry|Doctrines of Algebraic Geometry]]_
 
-
+* {#Kim16}[[Youngsoo Kim]], _A Note on Strict Commutativity of a Monoidal Product_, Pure and Applied Mathematics Journal Volume 5, Issue 5, October 2016, pp. 155-159, [url](https://article.sciencepublishinggroup.com/html/10.11648.j.pamj.20160505.13.html)
 
 
 [[!redirects commutative monoidal categories]]
