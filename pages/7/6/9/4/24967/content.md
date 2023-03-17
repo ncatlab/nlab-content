@@ -24,7 +24,7 @@
 
 *Epistemic logic* is the branch of [[modal logic]] which is concerned with [[epistemology]], hence with notions of knowledge and sometimes also notions of belief, although these may be treated separately by [[doxastic logic]]. In its applied form it has found considerable use in [[computer science]] and Artificial Intelligence.
 
-The key [[modal operators]] for epistemic logic are forms of *[[necessity and possibility]]* corresponding to "It is known to be the case that" and "It may be the case that (so far as is known)". As a form of modal logic, the [[semantics]] typically used is *[[possible worlds semantics]]* where the worlds correspond to states of knowledge.
+The key [[modal operators]] for epistemic logic are forms of *[[necessity and possibility]]* corresponding to "It is known to be the case that" and "It may be the case that (so far as is known)". As a form of modal logic, the [[semantics]] typically used is *[[possible worlds semantics]]* where the worlds correspond to maximally specific ways the world could have been. Philosophers disagree as to whether to distinguish the space of *metaphysically* possible worlds from the space of *epistemically* possible worlds ([Kment 21](#Kment21)).
 
 ## Introduction
 
@@ -71,7 +71,7 @@ $$
 \mathbf{4}: K \phi \to K K \phi,
 $$
 
-which states that when $\phi$ is known to be true then it is also known that it is known.  
+which states that when $\phi$ is known to be true then it is also known that it is known.
 
 {#EvenPossible} It is even possible to challenge the admission of two of the most fundamental modal axioms, axioms (N) and (K). These correspond to 
 
@@ -129,6 +129,8 @@ General books on [[modal logic]] with discussion of epistemic logic:
 * [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999,
 
 * Johan van Benthem, _Dynamic logic for belief revision_ ([pdf](http://www.illc.uva.nl/Research/Reports/PP-2006-11.text.pdf))
+
+* {#Kment21} Boris Kment, _Varieties of Modality_, [SEP](https://plato.stanford.edu/entries/modality-varieties/#Dua)
 
 See also:
 
