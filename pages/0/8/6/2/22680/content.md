@@ -32,7 +32,7 @@ Equivalently, it is a [[monoid object]] in the [[category]] of [[pointed sets]],
 
 The [[initial object|initial]] absorption monoid is the [[boolean domain]] $\mathbb{2}$ with elements $0 \in \mathbb{2}$ representing [[false]], $1 \in \mathbb{2}$ representing [[true]], and $(-)\cdot(-):\mathbb{2} \times \mathbb{2} \to \mathbb{2}$ representing [[conjunction]]. 
 
-The [[terminal object|terminal]] absorption monoid is the [[trivial monoid]] $\mathbb{1}$, the monoid whose underlying [[set]] is a [[singleton]]. 
+The [[terminal object|terminal]] absorption monoid is the [[trivial monoid]] $\mathbb{1}$, the monoid whose underlying [[set]] is a [[singleton]]. The trivial monoid is also [[strictly terminal]]. 
 
 ### Absorption monoid homomorphisms
 
