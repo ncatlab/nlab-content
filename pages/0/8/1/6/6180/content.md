@@ -19,6 +19,13 @@ On the [[cobordism hypothesis]] for [[extended functorial field theory|extended]
 
 * [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
 
+Review:
+
+* [[Dmitri Pavlov]], *The geometric cobordism hypothesis*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]], [web](Center+for+Quantum+and+Topological+Systems#PavlovMar2023)&rbrack;
+
+
+
+
 On the [[Brown-Gersten property]] for [[simplicial presheaves]] over [[topological spaces]] and [[smooth manifolds]] ([[smooth infinity-groupoids|smooth $\infty$-groupoids]]):
 
 * {#Pavlov22} [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks* &#x5B;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120)]
