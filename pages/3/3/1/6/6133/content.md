@@ -8,6 +8,8 @@
 
 * [[William Lawvere]], _obituary message to cat list October 2011_ ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/6961))
 
+* Klaus Volkert, _Vier Heidelberger Topologen 1935-1996_, Jahresbericht der Deutschen Mathematiker-Vereinigung **124**:215–238 (2022). ([doi](https://doi.org/10.1365/s); [pdf](https://link.springer.com/content/pdf/10.1365/s13291-022-00254-8.pdf))
+
 ## Selected writings
 
 Introducing the [[Chern-Dold character]]:
