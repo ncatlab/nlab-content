@@ -10,11 +10,7 @@
 =--
 =--
 
-
-# Trivial algebras
-* table of contents
-{: toc}
-
+\tableofcontents
 
 ## Definition
 
@@ -24,6 +20,7 @@ Every [[algebraic category]] (in just about any sense of the term) has a [[termi
 ## Examples
 
 *  The [[singleton set]] is itself the trivial [[set]].
+*  The [[trivial monoid]] is the trivial [[monoid]].
 *  The [[trivial group]] is the trivial [[group]].
 *  The [[trivial ring]] is the trivial [[ring]].
 *  The $0$-dimensional vector space is the trivial [[vector space]].
