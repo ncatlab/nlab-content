@@ -12,11 +12,14 @@
 
 ## Definition
 
-The __trivial monoid__ is [[generalized the|the]] unique (up to isomorphism) [[monoid]] with a single [[element]] - the [[neutral element]] of the monoid. The trivial monoid is also a [[terminal object]] and an [[initial object]] of [[Mon]], making the trivial monoid a [[zero object]] of [[Mon]]. 
+The __trivial monoid__ is [[generalized the|the]] unique (up to [[isomorphism]]) [[monoid]] with a single [[element]] - the [[neutral element]] of the monoid. The trivial monoid is also a [[terminal object]] and an [[initial object]] of [[Mon]], making the trivial monoid a [[zero object]] of [[Mon]]. 
 
 ## See also
 
+* [[trivial group]]
+
 * [[trivial algebra]]
+
 * [[trivial category]]
 
 [[!redirects trivial monoid]]
