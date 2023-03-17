@@ -108,6 +108,13 @@ $\pi_3(\mathbb{S})$
 
 * [[Theo Johnson-Freyd]], *Topological Mathieu Moonshine* ([arXiv:2006.02922](https://arxiv.org/abs/2006.02922))
 
+Discussion properly via [[(2,1)-dimensional Euclidean field theory]]:
+
+* [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?* $[$[arXiv:2303.09138](https://arxiv.org/abs/2303.09138)$]$
+
+* [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BerwickEvansMar23)$]$
+
+
 See also
 
 * Ying-Hsuan Lin, [[Du Pei]], *Holomorphic CFTs and topological modular forms* &lbrack;[arXiv:2112.10724](https://arxiv.org/abs/2112.10724)&rbrack;
