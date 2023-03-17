@@ -3,11 +3,13 @@
 
 ## Selected writings
 
-On the [[ordinary homology]] of [[configuration spaces of points]]:
+On the [[ordinary homology]] of [[configuration spaces of points]] in a [[surface]] as a [[group representation]] of the [[mapping class group]]:
 
 * {#Palmer12} [[Martin Palmer]], *Configuration spaces and homological stability*, Oxford University Research Archive (2012) $[$[pdf](https://mdp.ac/thesis/thesis.pdf), [web](https://mdp.ac/thesis/index.html)$]$
 
-* Christian Blanchet, [[Martin Palmer]], Awais Shaukat, *Heisenberg homology on surface configurations* $[$[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)$]$
+* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]], *Heisenberg homology on surface configurations* &lbrack;[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)&rbrack;
+
+
 
 
 On [[mapping class group]]-[[linear representation|representations]]:
