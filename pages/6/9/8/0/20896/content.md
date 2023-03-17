@@ -59,7 +59,7 @@ $$   B_{x,x} \colon x \otimes x \to x \otimes x $$
 
 are identity morphisms.  Note that since a commutative monoidal category has this property, and this property is invariant under symmetric-monoidal-equivalence, the "only if" part of the characterization is certainly true.
 
-This conjecture was proved in [Kim 16](#Kim16).
+This conjecture was proved in [Kim 16](#Kim16) under the assumption that the objects of the monoidal category can be [[totally ordered]] (which is true, for instance, assuming the [[axiom of choice]]).
 
 ## References
 
