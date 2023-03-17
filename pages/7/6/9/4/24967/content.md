@@ -23,27 +23,23 @@
 
 
 
-*Epistemic logic* is the branch of [[modal logic]] which is concerned with [[epistemology]], hence with notions of knowledge and belief.  In its applied form it has found considerable use in [[computer science]] and Artificial Intelligence.
+*Epistemic logic* is the branch of [[modal logic]] which is concerned with [[epistemology]], hence with notions of knowledge and sometimes also notions of belief, although these may be treated separately by *doxastic* logic. In its applied form it has found considerable use in [[computer science]] and Artificial Intelligence.
 
-Its key [[modal operators]] are *[[necessity and possibility]]* and its popular [[semantics]] is known as *[[possible worlds semantics]]*.
+The key [[modal operators]] for epistemic logic are forms of *[[necessity and possibility]]* corresponding to "It is known to be the case that" and "It may be the case that (so far as is known)". As a form of modal logic, the [[semantics]] typically used is *[[possible worlds semantics]]* where the worlds correspond to states of knowledge.
 
 ## Introduction
 
-Epistemic modalities are captured in [[epistemic logic|epistemic modal logic]], where [[necessity]] is interpreted as saying _"I know that proposition $\phi$ is true"_, and in 'provability logic', the basic modal operator interprets  as _"it is provable that $\phi$"_. 
+Epistemic modalities are captured in [[epistemic logic|epistemic modal logic]] by interpreting "*necessarily $\phi$*" as saying _"It is known that proposition $\phi$ is true"_. It is common also to indicate the epistemic agent, so that corresponding to agent $x$ we have "$x$ knows that proposition $\phi$ is true".
 
-If we have the basic [[temporal logic]], then there is a future truth operator, so that $F\phi$ is intended to mean _'' $\phi$ will be true at some future time"_, and also a past operator $P$ so $P\phi$ is intended to mean "$\phi$ was true at some past time". 
-
+In the closely related 'provability logic', the basic modal operator interprets  as _"it is provable that $\phi$"_. 
 
 Notice that the notions of _[[possibility]]_ and _[[necessity]]_ have different senses in ordinary language. For example, if we say '$P$ is possible', we may mean that $P$ is: *epistemically* possible, not ruled out by anything I know; *physically* possible, not ruled out by the laws of physics; *logically* possible, not ruled out by the laws of logic. Some suggest that there is a further type of possibility, *metaphysical* possibility intermediate between logical and physical possibility. Metaphysical possibility would allow that different laws of physics might apply. 
 
-
-
-
 ## Epistemic formulae
 
-These are variants of the formulae of the basic [[modal logic|modal language]].  The basic modal operators are, here, labelled $K_i$ since they relate to 'knowledge'. These correspond to the $\Box$ operators in  the standard form, and are used in preference to the dual $\Diamond$ forms because of their interpretation (given below), which is more immediately relevant to the applications.
+These are variants of the formulae of the basic [[modal logic|modal language]].  The basic modal operators are, here, labelled $K_i$ since they relate to 'knowledge' and indicate the epistemic agent, the knower, $i$. These correspond to the $\Box$ operators in  the standard form, and are used in preference to the dual $\Diamond$ forms since they are more immediately relevant to applications.
 
-More formally, we have $P$ or $Prop$, is a set of countably (finite or infinite) many atomic formulae.  there is also a set $A$, often called the set of 'agents' and taken to be $A = \{1,\ldots,m\}$.  The set of epistemic formluae (= basic $m$-agent epistemic language) will be denoted  $\mathcal{L}^m_K(P)$ is given by the rules
+More formally, we have $P$ or $Prop$, is a set of countably (finite or infinite) many atomic formulae.  there is also a set $A$, often called the set of 'agents' and taken to be $A = \{1,\ldots,m\}$.  The set of epistemic formulae (= basic $m$-agent epistemic language) will be denoted  $\mathcal{L}^m_K(P)$ is given by the rules
 
 $$\phi ::= p \mid \bot \mid \neg \phi \mid \phi_1 \wedge \phi_2 \mid K_i\phi for i\in A.$$  
 
@@ -58,15 +54,23 @@ The 'agent' terminology is extremely useful, but in pure modal logic texts is no
 =--
 
 
-## List of frequently encountered epistemic logics
+## Varieties of epistemic logic
 
-* [[the logic K(m)| K(m)]];
+The question then arises as to which axioms of modal logic are appropriate to the epistemic case. For instance, it is generally admitted that axiom (T) should hold, here 
 
-* [[the logic T(m)| T(m)]];
+$$
+K \phi \to \phi,
+$$
 
-* [[the logic S4(m)|S4(m)]];
+which states that if $\phi$ is known then $\phi$ is true.
 
-* [[the logic S5(m)|S5(m)]].
+One contentious issue in the field is whether to admit an epistemic version of axiom (4). This corresponds to 
+
+$$
+K \phi \to K K \phi,
+$$
+
+which states that when $\phi$ is known to be true then it is also known that it is known.  
 
 
 ## Models for epistemic logics
@@ -83,6 +87,14 @@ The geometric or combinatorial semantics of epistemic models follows the same te
 * [[modal logic]]
 
 * [[epistemology of mathematics]]
+
+* [[the logic K(m)| K(m)]];
+
+* [[the logic T(m)| T(m)]];
+
+* [[the logic S4(m)|S4(m)]];
+
+* [[the logic S5(m)|S5(m)]].
 
 
 
