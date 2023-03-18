@@ -1,5 +1,5 @@
 
-* [webpage](http://www.christiansaemann.de/research.html)
+* [webpage](http://christiansaemann.de/)
 
 ## Selcected writings
 
