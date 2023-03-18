@@ -69,6 +69,8 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 ## Related concepts
 
+* [[handlebody]]
+
 * [[h-cobordism]]
 
 * [[movie]]
