@@ -97,7 +97,7 @@ Then
 
 1. $\Delta \hookrightarrow \mathbf{Cat}$ is a [[dense subcategory]] inclusion, 
 
-1. but the composite $\Delta_{\lt 2} \hookrightarrow \Delta \hookrightarrow Cat$ is *not* dense in $\mathbf{Cat}$ (see Remark \ref{DenseFunctorsNotClosedUnderComposition}).
+1. but the composite $\Delta_{\leq [1]} \hookrightarrow \Delta \hookrightarrow Cat$ is *not* dense in $\mathbf{Cat}$ (see Remark \ref{DenseFunctorsNotClosedUnderComposition}).
 
 \end{example}
 
