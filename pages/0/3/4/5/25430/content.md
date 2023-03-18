@@ -18,11 +18,15 @@
 
 (...)
 
-[[Kosinski-Handlebody1.jpg:file]]
+<img src="https://ncatlab.org/nlab/files/Kosinski-Handlebody1.jpg" width = "300"/>
 
-[[Kosinski-Handlebody2.jpg:file]]
+<img src="https://ncatlab.org/nlab/files/Kosinski-Handlebody2.jpg" width = "300"/>
 
 (...)
+
+## Definition
+
+An **$(m,k)$-handlebody of genus $g$** is a [[manifold]] consisting of $g$ $k$-[[handles]] attached to the [[disk]] $D^m$. 
 
 ## Related concepts
 
