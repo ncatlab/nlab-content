@@ -24,7 +24,7 @@ For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
 Review:
 
-* [[Carlo Collari]], *Weight systems which are quantum states*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#CollariMar2023)$]$
+* [[Carlo Collari]], *Weight systems which are quantum states*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#CollariMar2023), [[Collari-WeightSystems.pdf:file]]$]$
 
 
 
