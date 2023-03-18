@@ -18,8 +18,14 @@ For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
 * {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]*, Adv. Theor. Math. Phys. **26** 4 (2022) &lbrack;[arXiv:1912.10425](https://arxiv.org/abs/1912.10425)&rbrack;
 
-
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
+
+* {#Collari2023} [[Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023, in print) $[$[arXiv:2210.05399](https://arxiv.org/abs/2210.05399)$]$
+
+Review:
+
+* [[Carlo Collari]], *Weight systems which are quantum states*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#CollariMar2023)$]$
+
 
 
 #### In Chern-Simons theory
