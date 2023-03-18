@@ -458,6 +458,17 @@ Break: 3:50-4:20 pm
 
   > Since the mid 1980s, there have been hints of a deep connection between 2-dimensional [[quantum field theory|field theories]] and [[elliptic cohomology]]. This lead to Stolz and Teichner's conjectured geometric model for the universal elliptic cohomology theory of [[topological modular forms]] ([[TMF]]) in which [[cocycles]] are [[(2,1)-dimensional Euclidean field theory|2-dimensional supersymmetric field theories]]. Basic properties of these field theories lead to expected integrality and modularity properties, but the abundant [[torsion subgroup|torsion]] in [[TMF]] has always been mysterious. In this talk, I will describe deformation invariants of 2-dimensional field theories that realize certain torsion classes in TMF. This leads to a description of the generator of [[tmf#HomotopyGroups|$\pi_3(TMF) =\mathbb{Z}/24$]] in terms of the [[(2,1)-dimensional Euclidean field theory|supersymmetric sigma model]] with [[target space|target]] [[3-sphere|$S^3$]].
 
+\linebreak
+
+
+
+* {#SchweigertMar2023} [[Christoph Schweigert]] (Hamburg University)
+
+  **String-net methods for CFT correlators**
+
+  cf.: [arXiv:2302.01468](https://arxiv.org/abs/2302.01468)
+
+  > Based on a [[string diagram|graphical calculus]] for [[pivotal category|pivotal]] [[bicategories]], we develop a [[string-net model|string-net construction]] of a [[modular functor]]. We show that a rigid separable Frobenius functor between strictly pivotal bicategories induces a [[linear map]] between the corresponding bicategorical string-net spaces that is compatible with the [[mapping class group]] [[group action|actions]] and with [[sewing constraint|sewing]]. This result implies that [[correlators]] of [[2d CFT|two-dimensional conformal field theories]] factorize over string-net spaces constructed from [[defect QFT|defect data]].
   
 
 
