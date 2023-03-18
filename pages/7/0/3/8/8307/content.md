@@ -264,8 +264,8 @@ A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 
 The original definition is due to [[Hassler Whitney]]:
 
-* [[Hassler Whitney]], _Tensor products of Abelian groups_, Duke Mathematical Journal, Volume 4, Number 3 (1938), 495-528.
-[doi:10.1215/S0012-7094-38-00442-9](https://doi.org/10.1215/S0012-7094-38-00442-9).
+* [[Hassler Whitney]], *Tensor products of Abelian groups*, Duke Mathematical Journal **4** 3 (1938) 495-528
+&lbrack;[doi:10.1215/S0012-7094-38-00442-9](https://doi.org/10.1215/S0012-7094-38-00442-9)&rbrack;
 
 An exposition (in the case of vector spaces) is in 
 
