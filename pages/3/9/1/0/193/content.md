@@ -66,6 +66,7 @@ The general notion is obtained by [[internalization]] from the definition in [[C
 
 
 ### In terms of string diagrams
+ {#InTermsOfStringDiagrams}
 
 The definition of an adjunction may be nicely expressed using [[string diagrams]]. The data $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ are depicted as
 
