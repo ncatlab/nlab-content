@@ -58,6 +58,8 @@ Since full [[2d CFTs]] are what is relevant in [[string theory]], where these co
 
 * [[local-global principle]]
 
+* [[cobordism hypothesis]]
+
 ## References
 
 The construction and the proof of the classification result is originally described in the series of articles
