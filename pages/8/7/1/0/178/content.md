@@ -109,7 +109,7 @@ $$
 **([[Brown-Gersten property]])**
 \linebreak
 The [[homotopy descent]] of [[simplicial presheaves]] on the above site may conveniently be checked by a [[Brown-Gersten property]], see [there](Brown-Gersten+property#OverSmoothmanifolds).
-end{remark}
+\end{remark}
 
 
 
