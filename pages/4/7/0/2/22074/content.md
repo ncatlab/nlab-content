@@ -13,7 +13,8 @@ Identifying [[schreiber:Fundamental weight systems are quantum states|more]] [[w
 
 Review:
 
-* [[Carlo Collari]], *Weight systems which are quantum states*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CollariMar2023)&rbrack;
+* [[Carlo Collari]], *Weight systems which are quantum states*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CollariMar2023), [[Collari-WeightSystems.pdf:file]]&rbrack;
+
 
 
 category: people
