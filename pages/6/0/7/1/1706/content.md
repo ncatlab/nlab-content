@@ -16,36 +16,54 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 
 ## Idea 
+ {#Idea}
 
-The **Cobordism Hypothesis** states, roughly, that the [[(∞,n)-category of cobordisms]] $Bord_n^{fr}$ is the  [[free functor|free]] [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] on a single object.
+### Plain cobordism hypothesis
 
-Since a fully [[extended topological quantum field theory]] may be identified with a [[monoidal (∞,n)-functor|monoidal]] [[(∞,n)-functor]] $Z : Bord_n \to C$, this implies that all these [[TQFT]]s are entirely determined by their value on the point: "the [[n-vector space]] of [[state]]s" of the theory.
+What is known as the *Cobordism Hypothesis* is, in its most basic form, the [[conjecture]] that, roughly, the [[(∞,n)-category of cobordisms]] $Bord_n^{fr}$ with [[framed manifold|framing]] is [[equivalence|equivalently]] the  [[free construction|free]] [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] on a single [[object]].
 
+The idea is due to [Baez & Dolan (1995)](#BaezDolan95), who stated it in the further generality of [[k-tuply monoidal n-category|$k$-tuply monoidal $n$-categories]] (i.e. for $k \leq \infty$) under the name *Tangle Hypothesis* ([p. 23](https://arxiv.org/pdf/q-alg/9503002.pdf#page=23)), before definitions of these [[higher category theory|higher category theoretical]] notions were available. The term "cobordism hypothesis" is used by Baez and Dolan only in passing and without definition ([p. 25](https://arxiv.org/pdf/q-alg/9503002.pdf#page=25)) but was popularized by [Lurie (2009)](#Lurie09) who gave a detailed though still incomplete sketch of a [[proof]] by appeal to the notion of [[n-fold complete Segal space|$n$-fold complete Segal spaces]] as a [[geometric definition of higher categories]], thereby breaking the impasse caused by previous attempts (e.g. [tac:18-10](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html)) which instead tried [[algebraic definitions of higher categories]].
 
-As motivation, notice that by [Galatius-Madsen-Tillmann-Weiss 09](cobordism+category#GMWT) we have that the [[loop space]] of the [[geometric realization]] of the [[framed manifold|framed]] [[cobordism category]] is equivalent to the [[sphere spectrum]]
+Since a (framed) fully [[extended topological quantum field theory]] (TQFT) may be identified with a symmetric [[monoidal (∞,n)-functor|monoidal]] [[(∞,n)-functor|$(\infty,n)$-functor]] $Z \colon Bord^{fr}_n \to \mathcal{C}^\otimes$, the cobordism hypothesis implies (and should be implied by, via a higher [[Yoneda lemma]]) that [[fully extended TQFTs]] are entirely determined by their value on the point (the "[[n-vector space]] of [[states]]" of the theory), and conversely that [[fully dualizable objects]] in $\mathcal{C}^{\otimes}$ [[equivalence|equivalently]] encode such fully extended TQFTs. As such the hypothesis is actually called the "*Extended TQFT Hypothesis*" by [Baez & Dolan (1995)](#BaezDolan95) ([p. 28](https://arxiv.org/pdf/q-alg/9503002.pdf#page=28)).
 
-$$
-  \Omega \Vert Cob_d^{fr} \Vert
-  \simeq
-  \lim_{\to_{n \to \infty}} Maps_*(S^n, S^n)
-  \simeq
-  \Omega^\infty S^\infty
-$$
+From the cobordism hypothesis for [[framed manifold|framing]] structure it follows fairly readily that the [[infinity-groupoid|$\infty$-groupoid]] of [[fully dualizable objects]] in a symmetric monoidal $(\infty,n)$-category carries an [[group action|action]] of the [[orthogonal group]] $O(n)$ and that cobordisms with [[tangential structure|tangential]] [[G-structure]] for $G \hookrightarrow O(n)$ are similarly classified by the [[homotopy fixed points|homopy fixed loci]] of the [[restricted action|corresponding]] $G$-action &lbrack;[Lurie (2009, Thm. 2.4.26)](#Lurie09)&rbrack;. This yields the statement of the hypothesis for common notions of cobordisms, such as with [[orientation]] ([[SO(n)]][[G-structure|-structure]]), [[spin structure]] ([[Spin(n)]][[G-structure|-structure]]), etc.
 
-which can be understood as the free [[infinite loop space]] on the point.
+The idea of the cobordism hypothesis is that:
+
+1. [[cylinders]] count as trivial ([[identity morphism|identity]]) [[cobordisms]] between their [[boundary]] components, corresponding to how local [[spacetime]]-evolution in a [[topological quantum field theory]] is trivial (corresponding to the physics jargon that "their [[Hamiltonian]] vanishes"),
+
+1. so that all the non-trivial information in [[cobordism]] and in [[TQFT]]-propagation is in the structure of [[handle body]]-attachments (in physics known as: "topology change") which obey the [[triangle identity|zig-zag rules]] [known from](adjunction#InTermsOfStringDiagrams) [[adjunctions]], [[2-adjunctions]] and their further higher dimensional analogs,
+
+1. which means that the point -- regarded as a 0-dimensional element of an $n$-dimensional [[cobordism]] -- is equipped with the [[structure]] of, first of all, a [[dualizable object]] under the relevant [[tensor product]] of cobordisms (which is [[disjoint union]]), and next that of a $k$-dualizable object for all $k \leq n$.
+
+### Geometric cobordism hypothesis
+
+More generally, the *geometric* cobordism hypothesis &lbrack;[Grady & Pavlov (2021)](#GradyPavlov21)&rbrack; asserts that general non-topological *geometric* [[functorial field theory|extended functorial field theories]] (such as [[conformal field theory]] as well as the usual [[relativistic quantum field theory|relativistic]] [[AQFT on curved spacetimes|QFT on curved spacetimes]]) are similarly enocded by (1.) local data depending only on the notion of geometry and (2.)  global topological data encoded only in higher dualizability structure.
+
+For example, the [[FRS-theorem on rational 2d CFT]] is, at least in spirit, a realization of this idea: It states that [[rational CFT|rational]] [[2d conformal field theories]], when defined on all possible [[worldsheet]] [[surfaces]], are fully encoded (1.) by local geometric data encoded in [[vertex operator algebras]] or [[conformal nets]] or similar and (2.) global purely topological data (a suitable [[Frobenius algebra|Frobenius]] [[algebra object]] [[internalization|internal to]] the [[modular tensor category]] [[representation category|of representations]] of that [[vertex operator algebra]]/[[conformal net]]).
+
+Conversely, the plain (topological) cobordism hypothesis is the special case of the geometric cobordism hypothesis of no geometric structure and in this sense very much captures the idea which in physics is known as "TQFTs are those QFTS without local degrees of freedom".
+
+In general, where the notion of extended (geometric) [[functorial field theory]] is one candidate for a definition of (non-topological) [[non-perturbative quantum field theory]], the (geometric) cobordism hypothesis may be regarded as the first step in establishing the construction of such theories, reducing the problem entirely to the local behaviour of the theory. 
+
+Notice that the local behaviour of [[quantum field theory]] is still immensely rich: It keeps busy quantum field theorists most of whom never encounter a topological effect in their life. For example the original statement of the [[Wightman axioms]]/[[Haag-Kastler axioms]] are entirely concerned only with the local behaviour of Lorentzian QFTs (namely on [[Minkowski spacetime]]) and yet the construction of any non-trivial examples in dimensions $d \geq 4$ remains wide open.
+
+In this vein, much in the spirit of [Freyd's dictum](category+theory#WhatIsTriviallyTrivial) on the role of [[categorical algebra]] in general, one may read the (geometric) cobordism hypothesis as trivializing the trivial part of [[non-perturbative quantum field theory]]. 
+
+A proof of the geometric cobordism hypothesis is thus the important first step towards the [currently wide-open and yet crucial problem](mass+gap#ReferencesMassGapProblem) of mathematically constructing [[non-perturbative quantum field theories]].
+
 
 
 
 ## Formalization 
 
-In ([Lurie](#Lurie)) a sketch of an approach to the formalization and proof of the cobordism hypothesis is described.
+In &lbrack;[Lurie 2009](#Lurie09)&rbrack; a sketch of an approach to the formalization and proof of the cobordism hypothesis is described.
 
 ### For framed cobordisms
  {#ForFramed}
@@ -781,11 +799,11 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
 The original hypothesis is formulated in 
 
-*  [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ J.Math.Phys. 36 (1995) 6073-6105 ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002))
+*  {#BaezDolan95} [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ J. Math. Phys. **36** (1995) 6073-6105 &lbrack;[arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)&rbrack;
 
-A sketch of an approach to the formalization and proof of the cobordism hypothesis is described in, though it is not complete.
+A sketch of an approach to the formalization and proof of the cobordism hypothesis is described in:
 
-* {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
+* {#Lurie09} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465)&rbrack;
 
 
 The comparatively simple case of $n = 1$ is spelled out in detail in 
