@@ -461,7 +461,6 @@ Break: 3:50-4:20 pm
 \linebreak
 
 
-
 * {#SchweigertMar2023} [[Christoph Schweigert]] (Hamburg University)
 
   **String-net methods for CFT correlators**
@@ -470,6 +469,17 @@ Break: 3:50-4:20 pm
 
   > Based on a [[string diagram|graphical calculus]] for [[pivotal category|pivotal]] [[bicategories]], we develop a [[string-net model|string-net construction]] of a [[modular functor]]. We show that a rigid separable Frobenius functor between strictly pivotal bicategories induces a [[linear map]] between the corresponding bicategorical string-net spaces that is compatible with the [[mapping class group]] [[group action|actions]] and with [[sewing constraint|sewing]]. This result implies that [[correlators]] of [[2d CFT|two-dimensional conformal field theories]] factorize over string-net spaces constructed from [[defect QFT|defect data]].
   
+\linebreak
+
+* {#BeliakovaMar2023} [[Anna Beliakova]] (University of Zurich):
+
+  **On algebraisation of low-dimensional Topology**
+
+  cf.: [arXiv:2205.11385](https://arxiv.org/abs/2205.11385)
+
+  > [[cobordism category|Categories of $n$-cobordisms]]  (for $n=2$, $3$ and $4$) are among the most studied objects in [[low dimensional topology]]. For $n=2$ we know that $2Cob$ is a [[monoidal category]] [[free construction|freely generated]] by its [[commutative algebra|commutsative]] [[Frobenius algebra]] [[object]]: the [[circle]]. This result also classifies all [[TQFT]] functors on $2Cob$. In this talk I will present similar classification results for special categories of 3- and 4-cobordisms. They were obtained in collaboration with Marco De Renzi and are based on the work of  Bobtcheva and Piergallini.  Frobenius algebra in these cases will be replaced by a braided [[Hopf algebra]].
+
+  > I plan to finish by relating our results with the famous problem in [[combinatorial group theory]] — the Andrews–Curtis conjecture.
 
 
 
