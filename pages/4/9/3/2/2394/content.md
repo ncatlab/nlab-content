@@ -37,11 +37,16 @@ A _simplicial sheaf_ $A$ is equivalently
 
   is degreewise a [[sheaf]].
 
-## Model structure ##
+## Joyal model structure ##
 
 The Jardine local [[model structure on simplicial presheaves]] restricts to the standard [[model structure on simplicial sheaves]].  This restriction is a [[Quillen equivalence]], so that equipped with this model structure $SSh(C)$ is a [[models for ∞-stack (∞,1)-toposes|model]] for the [[hypercomplete (infinity,1)-topos]] over the site $C$.
 
 Historically, [[Joyal]] constructed his model structure on simplicial sheaves first and [[Jardine]] later constructed his model structure on [[simplicial presheaves]].
+
+## Local projective model structure
+
+Blandner proved that the category of simplicial sheaves
+admits a model structure whose weak equivalences are the same as in the Joyal model structure and acyclic fibrations are the projective (i.e., degreewise) acyclic fibrations.
 
 ## Related concepts
 
