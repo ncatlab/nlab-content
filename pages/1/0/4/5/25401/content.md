@@ -90,6 +90,24 @@ Everything just said dualizes: every maximal object in a category with terminal 
 
 2. In $\mathcal{C} = \mathbf{Coalg}(F)$, an epi-maximal object is a _simple coalgebra_, that is, one that has no non-trivial quotient. Intuitively, this means that there are no states in the coalgebra with the same behaviour.
 
+## Properties
+\begin{proposition}
+In a category $\mathcal{C}$ with products, minimal objects, if they exists, are unique up to isomorphism.
+\end{proposition}
+\begin{proof}
+Let $M,M'$ be minimal in $\mathcal{C}$. Then $\pi_M : M \times M' \to M$ and $\pi_{M'} : M \times M' \to M'$ are both invertible, proving $M \cong M \times M' \cong M'$.
+\end{proof}
+
+\begin{proposition}
+Let $\mathcal{C}$ be a category with finite products.
+Then if $M$ is minimal it is weakly initial.
+\end{proposition}
+\begin{proof}
+Let $M:\mathcal{C}$ be such minimal object. Let $A$ be any other object in $\mathcal{C}$. Then, by hypothesis on $M$, the projection $\pi_M : M \times A \to M$ is invertible. Therefore $M$ admits a morphism into every object of $\mathcal{C}$, given by $w_A := M \overset{\pi^{-1}_M}\to M \times A \overset{\pi_A}\to A$.
+\end{proof}
+
+Notice we can't say anything about the uniqueness of these morphisms $w_A : M \to A$. In general, they are not even functorially chosen.
+
 ## Related concepts
 
 * [[minimal ideal]], [[maximal ideal]]
