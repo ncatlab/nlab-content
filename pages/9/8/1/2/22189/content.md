@@ -16,6 +16,16 @@ The _[swampland cobordism conjecture](swampland#SwamplandCobordismConjecture)_ i
 
 * David Andriot, [[Nils Carqueville]], Niccolò Cribiori, _Looking for structure in the cobordism conjecture_ ([arXiv:2204.00021](https://arxiv.org/abs/2204.00021))
 
+Relation to [[topological K-theory]]:
+
+* [[Ralph Blumenhagen]], Niccolò Cribiori, Christian Kneissl, Andriana Makridou, *Dimensional Reduction of Cobordism and K-theory* $[$[arXiv:2208.01656](https://arxiv.org/abs/2208.01656)$]$
+
+* [[Ralph Blumenhagen]], Christian Kneissl, Chuying Wang, *Dynamical Cobordism Conjecture: Solutions for End-of-the-World Branes* $[$[arXiv:2303.03423](https://arxiv.org/abs/2303.03423)$]$
+
+Review:
+
+* [[Ralph Blumenhagen]], *Nullifying Cobordism in Quantum Gravity*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BlumenhagenMar2023)$]$
+
 
 A more concrete consequence of this conjecture is claimed ([McNamara-Vafa 17, Sec. 5.2, 2nd paragr.](https://arxiv.org/pdf/1909.10355.pdf#page=31)) to be the statement that -- paraphrasing/extrapolating somewhat: _[[Dirac charge quantization|brane charges are quantized]] in [[Cobordism cohomology]]_; so that, in particular _[[tadpole cancellation]] of brane charges is to happen in [[Cobordism cohomology]]._ This statement is discussed, as a consequence of [[Hypothesis H]], in (see [p. 83](https://arxiv.org/pdf/2103.01877.pdf#page=83)):
 
