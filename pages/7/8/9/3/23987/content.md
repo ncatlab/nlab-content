@@ -487,11 +487,28 @@ Break: 3:50-4:20 pm
 
   **Weight systems which are quantum states**
 
+  slides: [[Collari-WeightSystems.pdf:file]]
+
   cf. [arXiv:2210.05399](https://ncatlab.org/schreiber/show/Fundamental+weight+systems+are+quantum+states#Collari2023)
 
   > Roughly speaking, a [[weight system]] is a [[function]] from a space of [[chord diagrams]] to the [[complex numbers]]. Weight systems can be used to recover invariants for the relevant kind of knotted object (eg. [[knots]], [[links]], [[braids]] etc.) from the [[Kontsevich integral]]. The [[schreiber:Differential Cohomotopy implies intersecting brane observables|work of Sati and Schreiber]] highlighted the connection between ([[horizontal chord diagram|horizontal]]) chord diagrams and higher observables in quantum [[brane]] physics. This motivates the question: "which weight systems are quantum states?" [[schreiber:Fundamental weight systems are quantum states|Corfield, Sati and Schreiber showed]] that all $\mathfrak{gl}(n)$ [[weight systems]] associated to the [[fundamental representation|defining representation]] are indeed [[state on a star-algebra|quantum states]]. In this talk I will present an extension of their result to more general weight systems.
 
   > The plan of the talk is the following; first, I will introduce the mathematical problem. Then, I will review the proof given by Corfield, Sati and Schreiber that $\mathfrak{gl}(n)$ weight systems associated to the defining representation are quantum states. Finally, I will show how this result can be extended to weight systems associated to exterior and symmetric powers of the defining representation. 
+
+\linebreak
+
+
+
+* {#BlumenhagenMar2023} [[Ralph Blumenhagen]] (Max-Planck-Institute for Physics, Munich):
+
+  **Nullifying Cobordism in Quantum Gravity**
+
+  cf.: [arXiv:2208.01656](https://arxiv.org/abs/2208.01656), [arXiv:2303.03423](https://arxiv.org/abs/2303.03423)
+
+  > In the [[swampland]] program one tries to delineate [[effective quantum field theory|effective theories]] consistent with [[quantum gravity]] from those which are not by so-called swampland conjecture. As a consequence of the absence of [[global symmetries]] in [[quantum gravity|QG]], [one such conjecture](swampland#SwamplandCobordismConjecture) is saying that the [[cobordism group]] has to vanish. In mathematics very often these groups do not vanish right away. Physics tells us that this can be ameliorated by either [[gauge symmetry|gauging]] or [[symmetry breaking|breaking]] of the corresponding global symmetries.
+
+  > First, we show how the gauging fits into some known constraints in [[string theory]], the so-called [[tadpole cancellation]] conditions. Mathematically, this is reflecting a well known connection between certain [[topological K-theory|K-theory]] and [[cobordism groups]]. Second, we report on new results related to the breaking of a global symmetry via [[codimension]] one [[defect QFT|defects]]. In fact, going beyond topology a very similar mechanism arises for (for a long time puzzling) rolling solutions in string theory, giving rise to the notion of a dynamical cobordism conjecture.
+
 
 
 \linebreak
