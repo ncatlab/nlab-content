@@ -74,6 +74,10 @@ Constructing [[modular functors]] from [[pivotal category|pivotal]] [[bicategori
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]], *String-net models for pivotal bicategories* &lbrack;[arXiv:2302.01468](https://arxiv.org/abs/2302.01468)&rbrack;
 
 
+Exposition:
+
+* [[Christoph Schweigert]], *String-net methods for CFT correlators*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#SchweigertMar2023)&rbrack;
+
 
 [[!redirects string-net models]]
 
