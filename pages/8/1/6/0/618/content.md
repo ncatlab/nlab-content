@@ -19,7 +19,7 @@ A **coverage** on a [[category]] $C$ consists of, for each object $U\in C$, a co
 
 One of the main purposes of a coverage is that it provides the minimum structure necessary to define a notion of [[sheaf]] (or more generally [[stack]]) on $C$.  A [[Grothendieck topos]] is defined to be the category of sheaves (of sets) on a small site.  From this perspective, the example to keep in mind is the [[partial order|poset]] $O(X)$ of open sets in some [[topological space]] (or [[locale]]) $X$, where a morphism is an inclusion, and a family of inclusions $\{U_i \hookrightarrow U\}$ is a covering family iff $U = \bigcup_i U_i$.
 
-Another perspective on a coverage is that the covering families are "postulated well-behaved quotients."  That is, saying that $\{f_i:U_i\to U\}_{i\in I}$ is a covering family means that we want to think of $U$ as a well-behaved quotient (i.e. colimit) of the $U_i$.  Here "well-behaved" means primarily "stable under pullback."  In general, $U$ may or may not _actually_ be a colimit of the $U_i$; if it always is we call the site _subcanonical_.  From this perspective, the embedding of $C$ into its category of sheaves is "the free cocompletion of $C$ that takes covering families to well-behaved quotients"; compare how the [[Yoneda embedding]] of an arbitrary category $C$ into its category of [[presheaf|presheaves]] is its [[free cocompletion]], period.
+Another perspective on a coverage is that the covering families are "postulated well-behaved quotients."  That is, saying that $\{f_i:U_i\to U\}_{i\in I}$ is a covering family means that we want to think of $U$ as a well-behaved quotient (i.e. colimit) of the $U_i$.  Here "well-behaved" means primarily "stable under pullback."  In general, $U$ may or may not _actually_ be a colimit of the $U_i$; if it always is we call the site _[[subcanonical coverage|subcanonical]]_.  From this perspective, the embedding of $C$ into its category of sheaves is "the free cocompletion of $C$ that takes covering families to well-behaved quotients"; compare how the [[Yoneda embedding]] of an arbitrary category $C$ into its category of [[presheaf|presheaves]] is its [[free cocompletion]], period.
 
 The traditional name for a coverage, with the extra saturation conditions imposed, is a [[Grothendieck topology]], and this is still widely used in mathematics.  Following the [[Elephant]], on this page we use _coverage_ for a pullback-stable system of covering families and _Grothendieck coverage_ if the extra saturation conditions are imposed.  See [[Grothendieck topology]] for a discussion of the objections to that term. 
 
@@ -70,9 +70,9 @@ See [[sheaf]], of course, but it seems appropriate to briefly recall the concept
 
 * For any collection of elements $x_i \in X(U_i)$ such that, whenever $g:V\to U_i$ and $h:V\to U_j$ are such that $f_i g = f_j h$, we have $X(g)(x_i) = X(h)(x_j)$, then there exists a unique $x\in X(U)$ such that $X(f_i)(x)=x_i$ for all $i$.
 
-If $C$ is a site, a presheaf $X:C^{op}\to Set$ is called a **sheaf** on $C$ if it is a sheaf for every covering family in $C$.  We call a site $C$ **subcanonical** if every representable functor $C(-,c):C^{op}\to Set$ is a sheaf.
+If $C$ is a site, a presheaf $X:C^{op}\to Set$ is called a **sheaf** on $C$ if it is a sheaf for every covering family in $C$.  We call a site $C$ **[[subcanonical coverage|subcanonical]]** if every representable functor $C(-,c):C^{op}\to Set$ is a sheaf.
 
-The [[category of sheaves]] $Sh(C)$ is a full [[subcategory]] of the category $[C^{op},Set]$ of presheaves.  If $C$ is subcanonical, then its [[Yoneda embedding]] $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
+The [[category of sheaves]] $Sh(C)$ is a full [[subcategory]] of the category $[C^{op},Set]$ of presheaves.  If $C$ is [[subcanonical coverage|subcanonical]], then its [[Yoneda embedding]] $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
 
 
 ### Sites with pullbacks
@@ -130,7 +130,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 
 ## Examples {#Examples}
 
-* For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]], the collection of [[open cover]]s is a subcanonical coverage on $Op(X)$. I.e. a covering family on an open subset $U \subset X$ is a collection of further open subsets $\{U_i \subset X\}$ such that their union (in $X$) is $U$: $\cup_i U_i = U$. 
+* For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]], the collection of [[open cover]]s is a [[subcanonical coverage|subcanonical]] coverage on $Op(X)$. I.e. a covering family on an open subset $U \subset X$ is a collection of further open subsets $\{U_i \subset X\}$ such that their union (in $X$) is $U$: $\cup_i U_i = U$. 
 
   This is the standard choice of coverage on $Op(X)$. Sheaves for this coverage are the usual notion of sheaf on a topological space.  
 
