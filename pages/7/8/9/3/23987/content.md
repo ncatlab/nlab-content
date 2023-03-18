@@ -481,6 +481,17 @@ Break: 3:50-4:20 pm
 
   > I plan to finish by relating our results with the famous problem in [[combinatorial group theory]] — the Andrews–Curtis conjecture.
 
+\linebreak
+
+* {#CollariMar2023} [[Carlo Collari]] (University of Pisa):
+
+  **Weight systems which are quantum states**
+
+  cf. [arXiv:2210.05399](https://ncatlab.org/schreiber/show/Fundamental+weight+systems+are+quantum+states#Collari2023)
+
+  > Roughly speaking, a [[weight system]] is a [[function]] from a space of [[chord diagrams]] to the [[complex numbers]]. Weight systems can be used to recover invariants for the relevant kind of knotted object (eg. [[knots]], [[links]], [[braids]] etc.) from the [[Kontsevich integral]]. The [[schreiber:Differential Cohomotopy implies intersecting brane observables|work of Sati and Schreiber]] highlighted the connection between ([[horizontal chord diagram|horizontal]]) chord diagrams and higher observables in quantum [[brane]] physics. This motivates the question: "which weight systems are quantum states?" [[schreiber:Fundamental weight systems are quantum states|Corfield, Sati and Schreiber showed]] that all $\mathfrak{gl}(n)$ [[weight systems]] associated to the [[fundamental representation|defining representation]] are indeed [[state on a star-algebra|quantum states]]. In this talk I will present an extension of their result to more general weight systems.
+
+  > The plan of the talk is the following; first, I will introduce the mathematical problem. Then, I will review the proof given by Corfield, Sati and Schreiber that $\mathfrak{gl}(n)$ weight systems associated to the defining representation are quantum states. Finally, I will show how this result can be extended to weight systems associated to exterior and symmetric powers of the defining representation. 
 
 
 \linebreak
