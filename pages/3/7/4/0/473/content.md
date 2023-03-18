@@ -61,3 +61,5 @@ For a discussion of the generalized tangle hypothesis see
 * [n-Category Caf&eacute;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
 
 [[!redirects generalized tangle hypothesis]]
+
+[[!redirects Tangle Hypothesis]]
