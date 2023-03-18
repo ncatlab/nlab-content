@@ -229,3 +229,6 @@ See also:
 [[!redirects extended functorial field theory]]
 [[!redirects extended functorial field theories]]
 
+[[!redirects fully extended TQFT]]
+[[!redirects fully extended TQFTs]]
+
