@@ -12,6 +12,11 @@ reviewed in:
 
 * [[Nils Carqueville]], *Extended defect TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CarquevilleMar2023), [[Carqueville-RW.pdf:file]]&rbrack;
 
+A discussion of the [[swampland cobordism conjecture]]:
+
+* David Andriot, [[Nils Carqueville]], Niccolò Cribiori, _Looking for structure in the cobordism conjecture_ ([arXiv:2204.00021](https://arxiv.org/abs/2204.00021))
+
+
 
 
 ## Related entries
