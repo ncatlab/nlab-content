@@ -17,7 +17,7 @@
 
 ## Idea
 
-The notion of a 'manifold-diagrammatic higher category' (in some [places](#geocats) also referred to as a 'geometric' or 'geometrical' higher category) broadly refers [[higher categories]] whose [[composition]] [[operation]] is modelled on the [[stratified space|stratified-geometric]] notion of [[manifold diagram|manifold diagrams]]. 
+The notion of 'manifold-diagrammatic higher categories' (in some [places](#geocats) also referred to as a 'geometric' or 'geometrical' higher categories) broadly refers to [[higher categories]] whose [[composition]] [[operation]] is modelled on the [[stratified space|stratified-geometric]] notion of [[manifold diagram|manifold diagrams]]. 
 
 ## Examples
 
