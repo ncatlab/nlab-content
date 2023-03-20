@@ -47,12 +47,7 @@ Let $LieGroups_{simpl}$ be the [[full subcategory]] of $LieGroups$ consisting of
 ## Generalization of Lie's theorems to Lie groupoids
 
 The [[horizontal categorification]] of Lie's theorems for Lie groups leads to analogous statements for [[Lie groupoid|Lie groupoids]]. In other words, there are analogous properties for the differentiation functor 
-
-$$
-  diff : LieGroupoids \to LieAlgebroids
-  \,.
-$$
-
+$$diff : LieGroupoids \to LieAlgebroids.$$
 from [[Lie groupoid|Lie groupoids]] to [[Lie algebroid|Lie algebroids]]. 
 
 In the case of Lie groupoids, the condition of a group being simply connected which plays an important role in the above statements is generalized to the condition that _source fibers_ of the Lie groupoid  (the preimages $s^{-1}(x)$ of the source map $s : C_1 \to C_0$ at every object $x \in C_0$ of the Lie groupoid $C$) are simply connected. One says 
@@ -61,10 +56,8 @@ $$
   \Leftrightarrow
   (\forall x \in C_0 : 
     \pi_1(s^{-1}(x)) = 0
-  )
-  \,.
+  ).
 $$
-
 
 **_Lie II_ for Lie groupoids** now reads exactly as _Lie II_ for Lie groups, with "simply connected" replaced by "source simply connected". 
 
@@ -74,12 +67,17 @@ Lie II for Lie groupoids was proven in
 
 and
 
-* I. Moerdijk and J Mr&#269;un, _On integrability of infinitesimal actions_, Amer. J. Math. 124(3):567-593, 2002
+* I. Moerdijk and J Mrčun, _On integrability of infinitesimal actions_, Amer. J. Math. 124(3):567-593, 2002
 
 **_Lie III_ for Lie groupoids** does _not_ hold in direct generalization: 
 
 by the general mechanism of [[Lie integration]] the space of morphisms of the source simply-connected _topological_ groupoid $G$ integrating a Lie algebroid $\mathfrak{g}$ is a _quotient_ space. This quotient may fail to be a _manifold_ due to singularities.
 
+Enlarging [[Lie groupoids]] to groupoids in the category of [[etale stacks]] and smooth maps results in a Cartan–Lie theorem for [[Lie algebroids]]:
+
+* [[Hsian-Hua Tseng]], [[Chenchang Zhu]], _Integrating Lie algebroids via stacks_, Compositio Mathematica 142 (2006) 251–270, [doi:10.1112/S0010437X05001752](https://doi.org/10.1112/S0010437X05001752).
+
+In particular, a [[Lie algebroid]] can be integrated to an ordinary [[Lie groupoid]] if and only if the integrating groupoid in [[etale stacks]] is representable.
 
 On the precise conditions under which [[Lie algebroids]] do have [[Lie groupoids]] integrating them:
 
@@ -88,7 +86,6 @@ On the precise conditions under which [[Lie algebroids]] do have [[Lie groupoids
 Comprehensive review:
 
 * [[Rui Loja Fernandes]], [[Marius Crainic]], *Lectures on Integrability of Lie Brackets*, Geometry & Topology Monographs **17** (2011) 1–107 &lbrack;[arxiv:math.DG/0611259](https://arxiv.org/abs/math/0611259), [doi:10.2140/gtm.2011.17.1](http://dx.doi.org/10.2140/gtm.2011.17.1)&rbrack;
-
 
 and in the introduction of
 
