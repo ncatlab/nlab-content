@@ -35,6 +35,10 @@ Lie's three theorems can be understood as establishing salient properties of thi
 
   3. **Lie III** (Cartan-Lie theorem) The functor $Lie$ **is essentially surjective on objects**: for every finite dimensional real Lie algebra  $\mathfrak{g}$ there is a real Lie group $G$ such that $\mathfrak{g} \cong Lie(G)$. Moreover, there exists such $G$ which is simply connected. 
 
+For a classical account see:
+
+* [[Hans Duistermaat]], [[Johan A. C. Kolk]], Chapter 1 of: *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
+
 +-- {: .un_remark} 
 ###### Remarks 
 In his third theorem, Lie proved only the existence of a [[local Lie group]], but not the global existence (nor simply connected choice) which were established a few decades later by [[Elie Cartan]]. Hence the full theorem is properly called the Cartan-Lie theorem. From an [[nPOV]], the third Lie theorem establishes the essential surjectivity of the functor $Lie$ from the category of _local Lie groups_ to the category of finite dimensional real Lie algebras, and similarly the second Lie theorem establishes that this functor is fully faithful (so the two together establish that this functor is an equivalence). The historically incorrect naming of the Cartan-Lie theorem as the "third Lie theorem" is largely due to the influence of a book based on lectures of [[Jean-Pierre Serre]] (Lie algebras and Lie groups, W.A. Benjamin, 1965). 
@@ -73,15 +77,16 @@ and
 
 by the general mechanism of [[Lie integration]] the space of morphisms of the source simply-connected _topological_ groupoid $G$ integrating a Lie algebroid $\mathfrak{g}$ is a _quotient_ space. This quotient may fail to be a _manifold_ due to singularities.
 
-Enlarging [[Lie groupoids]] to groupoids in the category of [[etale stacks]] and smooth maps results in a Cartan–Lie theorem for [[Lie algebroids]]:
-
-* [[Hsian-Hua Tseng]], [[Chenchang Zhu]], _Integrating Lie algebroids via stacks_, Compositio Mathematica 142 (2006) 251–270, [doi:10.1112/S0010437X05001752](https://doi.org/10.1112/S0010437X05001752).
-
-In particular, a [[Lie algebroid]] can be integrated to an ordinary [[Lie groupoid]] if and only if the integrating groupoid in [[etale stacks]] is representable.
 
 On the precise conditions under which [[Lie algebroids]] do have [[Lie groupoids]] integrating them:
 
 * [[Marius Crainic]], [[Rui Loja Fernandes]], *Integrability of Lie brackets*, Ann. of Math. **157** 2 (2003) 575-620 &lbrack;[arXiv:math.DG/0105033](http://arxiv.org/abs/math.DG/0105033), [doi:10.4007/annals.2003.157.575](https://doi.org/10.4007/annals.2003.157.575)&rbrack;
+
+Enlarging [[Lie groupoids]] to groupoids in the category of [[etale stacks]] and smooth maps results in a Cartan–Lie theorem for [[Lie algebroids]]:
+
+* [[Hsian-Hua Tseng]], [[Chenchang Zhu]], *Integrating Lie algebroids via stacks*, Compositio Mathematica **142** (2006) 251–270 &lbrack;[doi:10.1112/S0010437X05001752](https://doi.org/10.1112/S0010437X05001752)&rbrack;
+
+In particular, a [[Lie algebroid]] can be integrated to an ordinary [[Lie groupoid]] if and only if the integrating groupoid in [[etale stacks]] is [[representable functor|representable]].
 
 Comprehensive review:
 
@@ -92,19 +97,11 @@ and in the introduction of
 * [[Chenchang Zhu]], _Lie II theorem for Lie algebroids via stacky Lie groupoids_, ([arXiv](http://arxiv.org/abs/math/0701024))
 
 
-## Motivation for generalized smooth groupoids
-
-This failure of Lie III for [[Lie groupoid|Lie groupoids]], i.e. for [[internal category|internal groupoids]] in [[Diff]] seems to suggest that the category of manifolds is not the natural home for general [[Lie theory]]. More concretely, it seems to suggest that [[Lie theory]] ought to be practiced internal to some category of [[generalized smooth space]]s.
-
-One such choice is given by replacing manifolds by [[differentiable stack]]s.
-
 ## Related concepts
 
 * [Lie's third theorem for Leibniz algebras](Leibniz+algebra#LieThirdTheorem)
 
-## References
 
-* [[Hans Duistermaat]], J. A. C. Kolk, chapter 1 _Lie groups_, 2000
 
 
 [[!redirects Lie's theorem]]
