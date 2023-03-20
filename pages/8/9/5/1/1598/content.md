@@ -232,7 +232,7 @@ The [[exceptional Lie groups]] incude
 
   > (in the context of [[representation theory]])
 
-* [[Hans Duistermaat]], J. A. C. Kolk, _Lie groups_, 2000
+* [[Hans Duistermaat]], [[Johan A. C. Kolk]], *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
 * Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
 
