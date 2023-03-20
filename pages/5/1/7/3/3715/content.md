@@ -35,11 +35,11 @@
 
 ## Idea
 
-The notion of *formal deformation quantization* (often the default notion of [[deformation quantization]]) is one formalization of the general idea of [[quantization]] of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]].
+The notion of *formal deformation quantization* (often taken to be the default notion of *[[deformation quantization]]*) is one formalization of the general idea of [[quantization]] of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]], at least [[perturbative quantum field theory|perturbatively]] in small (really: [[infinitesimal]]) values of [[Planck's constant]] $\hbar$.
 
-Deformation quantization focuses on the [[algebras of observables]] of a physical system (hence on the [[Heisenberg picture]]): it provides rules for how to [[deformation theory|deform]] the commutative algebra of classical observables to a non-commutative algebra of quantum observables. (This is in contrast to [[geometric quantization]], which focuses on the [[spaces of states]] and hence on the [[Schrödinger picture]].)
+Formal deformation quantization focuses on the [[algebras of observables]] of a physical system (hence on the [[Heisenberg picture]]): it provides rules for how to [[deformation theory|deform]] the commutative algebra of classical observables to a non-commutative algebra of quantum observables. (This is in contrast to [[geometric quantization]], which focuses on the [[spaces of states]] and hence on the [[Schrödinger picture]].)
 
-Usually and traditionally, _deformation quantization_ refers to (just) _formal_ deformations, in the sense that it produces [[formal power series]] expansions in a formal parameter $\hbar$ (physically: [[Planck's constant]]) of the product in the deformed algebra of observables.
+Usually and traditionally, _[[deformation quantization]]_ refers to (just) _formal_ deformations, in the sense that it produces [[formal power series]] expansions in a formal parameter $\hbar$ (physically: [[Planck's constant]]) of the product in the deformed algebra of observables.
 
 | [[classical mechanics]] | [[semiclassical approximation]] |  ... | [[formal deformation quantization]] | [[quantum mechanics]] |
 |--|--|--|--|--|
@@ -576,11 +576,11 @@ For discussion of [[motive|motivic structures]] in [[geometric quantization]] se
 
 ## References
 
-Survey includes
+Monographs:
 
-* {#Waldmann07} [[Stefan Waldmann]] _Poisson-Geometrie und Deformationsquantisierung. Eine Einf&#252;hrung_, Springer (2007)
+* {#Waldmann07} [[Stefan Waldmann]], _Poisson-Geometrie und Deformationsquantisierung_, Springer (2007) &lbrack;[doi:10.1007/978-3-540-72518-3](https://doi.org/10.1007/978-3-540-72518-3)&rbrack;
 
-* {#Gutt11} Simone Gutt, _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs 17 (2011) 171-220 ([pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf))
+* {#Gutt11} [[Simone Gutt]], _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs **17** (2011) 171-220 &lbrack;[gtm:17](https://msp.org/gtm/2011/17/p003.xhtml), [pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf)&rbrack;
 
 
 The concept of algebraic deformation quantization originates around
