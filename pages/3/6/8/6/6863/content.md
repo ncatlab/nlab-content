@@ -20,6 +20,8 @@ On relation to the [[string theory]]-[[dilaton]] under [[double dimensional redu
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* &lbrack;[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)&rbrack;
 
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
+
 
 On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
 
@@ -103,7 +105,7 @@ On [[Lars Brink]]:
 * [[Hermann Nicolai]]: *[Lars Brink 1943–2022](https://cerncourier.com/a/lars-brink-1943-2022/)*, CernCourier (1 Mar 2023): 
 
 
-## Related $n$Lab pages
+## Related entries
 
 * [[supergravity]], [[gauged supergravity]]
 
