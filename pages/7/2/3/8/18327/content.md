@@ -100,7 +100,7 @@ Recall
 the [[classical homotopy category]] $(Ho(Top), \times, \ast)$ which is a [[symmetric monoidal category]] with respect to forming [[Cartesian product|Cartesian]] [[product spaces]] ([[tensor unit]] is the [[point space]])
 
 
-its [[pointed objects]] version $(Ho(Top^{\ast/}), \wedge, S^1)$, which is a [[symmetric monoidal category]] with respect to [[smash product]] of [[pointed topological spaces]] ([[tensor unit]] is the [[0-sphere]])
+its [[pointed objects]] version $(Ho(Top^{\ast/}), \wedge, S^0)$, which is a [[symmetric monoidal category]] with respect to [[smash product]] of [[pointed topological spaces]] ([[tensor unit]] is the [[0-sphere]])
 
 
 the [[stable homotopy category]] $(Ho(Spectra), \wedge, \mathbb{S})$ which is a [[symmetric monoidal category]] with respect to the [[smash product of spectra]] ([[tensor unit]] is the [[sphere spectrum]])
