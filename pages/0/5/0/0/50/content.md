@@ -80,25 +80,19 @@ and
 
 by the general mechanism of [[Lie integration]] the space of morphisms of the source simply-connected _topological_ groupoid $G$ integrating a Lie algebroid $\mathfrak{g}$ is a _quotient_ space. This quotient may fail to be a _manifold_ due to singularities.
 
-The precise conditions under which Lie algebroids do have Lie groupoids integrating them were found in
 
-* Crainic and Fernandes, _Integrability of Lie brackets_ ([arXiv](http://arxiv.org/abs/math.DG/0105033)).
+On the precise conditions under which [[Lie algebroids]] do have [[Lie groupoids]] integrating them:
 
-A comprehensive review is in
+* [[Marius Crainic]], [[Rui Loja Fernandes]], *Integrability of Lie brackets*, Ann. of Math. **157** 2 (2003) 575-620 &lbrack;[arXiv:math.DG/0105033](http://arxiv.org/abs/math.DG/0105033), [doi:10.4007/annals.2003.157.575](https://doi.org/10.4007/annals.2003.157.575)&rbrack;
 
-* Rui Loja Fernandes, Marius Crainic,
-_Lectures on Integrability of Lie Brackets_,
-([arxiv](http://aps.arxiv.org/abs/math.DG/0611259))
+Comprehensive review:
 
-A review of Lie theory of Lie groupoids in on pages 3-5 of
+* [[Rui Loja Fernandes]], [[Marius Crainic]], *Lectures on Integrability of Lie Brackets*, Geometry & Topology Monographs **17** (2011) 1–107 &lbrack;[arxiv:math.DG/0611259](https://arxiv.org/abs/math/0611259), [doi:10.2140/gtm.2011.17.1](http://dx.doi.org/10.2140/gtm.2011.17.1)&rbrack;
 
-* Marius Crainic, Rui Loja Fernandes
-Lectures on Integrability of Lie Brackets
-([arxiv](http://aps.arxiv.org/abs/math.DG/0611259))
 
 and in the introduction of
 
- * Chenchang Zhu, _Lie II theorem for Lie algebroids via stacky Lie groupoids_, ([arXiv](http://arxiv.org/abs/math/0701024)).
+* [[Chenchang Zhu]], _Lie II theorem for Lie algebroids via stacky Lie groupoids_, ([arXiv](http://arxiv.org/abs/math/0701024))
 
 
 ## Motivation for generalized smooth groupoids
