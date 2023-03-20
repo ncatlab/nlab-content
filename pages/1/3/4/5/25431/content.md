@@ -27,7 +27,7 @@ Deformation quantization is often taken by default to refer to the historically 
 
 where $\hbar$ is just a formal [[variable]] (i.e. an [[infinitesimal]], but not an actual [[number]]) and the [[underlying]] [[vector space]] of all algebras in question is that of [[formal power series]] in $\hbar$.
 
-One might naively imagine that the [[formal power series]] appearing in [[formal deformation quantization]] have a finite [[radius of convergence]] $\epsilon \in \mathbb{R}_+$ thus yielding actual (non-formal) deformation quantizations for $\hbar \lt \epsilon$, but in practice this happens rarely. Indeed, [[geometric quantization]] makes manifest that [[prequantization]] conditions typically force admissible values of [[Planck's constant|$\hbar$]] to form a [[discrete space|discrete]] [[subspace]] of $\mathbb{R}_+$ with only an [[accumulation point]] at $\hbar = 0$.
+One might naively imagine that the [[formal power series]] appearing in [[formal deformation quantization]] have a finite [[radius of convergence]] $\epsilon \in \mathbb{R}_+$ thus yielding actual (non-formal) deformation quantizations for $\hbar \lt \epsilon$, but in practice this happens rarely (see reference [here](C*+algebraic+deformation+quantization#ConvergingFormalDeformationQuantization)). Indeed, [[geometric quantization]] makes manifest that [[prequantization]] conditions typically force admissible values of [[Planck's constant|$\hbar$]] to form a [[discrete space|discrete]] [[subspace]] of $\mathbb{R}_+$ with only an [[accumulation point]] at $\hbar = 0$ (namely, in [[geometric quantization]] the inverse $1/\hbar$ is typically constrained to come in [[natural number|integral]] multiples).
 
 Therefore, beyond formal deformation quantization there are notions of 
 
