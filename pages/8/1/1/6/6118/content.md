@@ -78,7 +78,7 @@ Conversely, a topology $\mathcal{O}$ can be retrieved from its notion of converg
 
 $$\tau(\xi) \coloneqq \{U \subseteq S: \; (\forall_{F: \beta S, x: S})\; (x \in U \; \wedge\; F \rightsquigarrow_\xi x) \Rightarrow U \in F\}.$$ 
 
-+-- {: .num_prop #topology} 
++-- {: .num_prop #topo} 
 ###### Proposition 
 $\tau(\xi)$ is a topology on $S$, for any $\xi: Rel(\beta S, S)$. 
 =-- 
@@ -113,7 +113,7 @@ If $\mathcal{O}$ is a topology on $S$, then $\mathcal{O} = \tau(conv(\mathcal{O}
 We already have $\mathcal{O} \subseteq \tau(conv(\mathcal{O}))$ from Proposition \ref{galois}. For the other direction, we must show that any $V$ belonging to $\tau(conv(\mathcal{O}))$ is an $\mathcal{O}$-neighborhood of each of its points. Suppose the contrary: that $x \in V$ but $V$ is not an $\mathcal{O}$-neighborhood of $x$. Holding $V$ fixed, for every $\mathcal{O}$-neighborhood $U \in N_x$ we have $U \cap \neg V \neq \emptyset$, so that sets of the form $U \cap \neg V$ with $U$ ranging over $N_x$ generate a filter. By the ultrafilter principle, we may extend this filter to an ultrafilter $F$; clearly we have $F \rightsquigarrow x$ and $\neg V \in F$, but since $F \rightsquigarrow x$ and $V \in \tau(conv(\mathcal{O}))$ and $x \in V$, we also have $V \in F$, which is inconsistent with $\neg V \in F$. 
 =-- 
 
-Propositions \ref{topology}, \ref{galois}, and \ref{fix} more or less show that a topological space $(S, \mathcal{O})$ is a particular type of [[pseudotopological space]]: 
+Propositions \ref{topo}, \ref{galois}, and \ref{fix} more or less show that a topological space $(S, \mathcal{O})$ is a particular type of [[pseudotopological space]]: 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -375,7 +375,7 @@ Indeed, $conv \circ \tau \circ conv = conv$ by general properties of Galois conn
 
 $$conv(\tau(\xi)) = (conv \circ \tau \circ conv)(\mathcal{C}) =  conv(\mathcal{C}) = \xi$$ 
 
-so the first equation implies the third. Which in turn implies the second, since we know by proposition \ref{topology} that collections $\mathcal{O}$ of the form $\tau(\xi)$ are topologies. The second equation trivially implies the first. 
+so the first equation implies the third. Which in turn implies the second, since we know by proposition \ref{topo} that collections $\mathcal{O}$ of the form $\tau(\xi)$ are topologies. The second equation trivially implies the first. 
 =-- 
 
 We now break up our Main Theorem \ref{conc} into the following two theorems. 
