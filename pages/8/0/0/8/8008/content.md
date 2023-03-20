@@ -23,14 +23,26 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-What is called the *strict* or *$C^\ast$-algebraic* form of  [[deformation quantization]] is an attempt to formalize [[quantization]] of [[phase spaces]] or more generally of [[Poisson manifolds]] by _[[continuous field of C*-algebras|continuously deforming]]_, in a precise sense, their [[commutative algebra|commutative]] [[algebras of functions]] ([[algebras of observables]]) to non-commutative [[C*-algebras]] whose [[commutators]] are, to "first order" in a suitable sense, determined by the given [[Poisson bracket]].
+What is called the *strict* or *$C^\ast$-algebraic* form of  [[deformation quantization]] (sometimes just: *strict quantization*) is an attempt to formalize [[quantization]] of [[phase spaces]] or more generally of [[Poisson manifolds]] by _[[continuous field of C*-algebras|continuously deforming]]_, in a precise sense, their [[commutative algebra|commutative]] [[algebras of functions]] ([[algebras of observables]]) to non-commutative [[C*-algebras]] whose [[commutators]] are, to "first order" in a suitable sense, determined by the given [[Poisson bracket]].
 
-This is in contrast to _[[formal deformation quantization]]_, where one asks not for [[C*-algebras]] but just for [[formal power series algebras]]. Where formal deformation quantization is _[[perturbative quantum field theory|perturbative]]_ quantization ([[perturbation]] in [[Planck's constant]], see [Collini 16](perturbative+algebraic+quantum+field+theory#Collini16)), strict deformation quantization is meant to reflect [[non-perturbative quantum field theory|non-perturbative]] quantization.
+This is in contrast to _[[formal deformation quantization]]_, where one asks not for [[C*-algebras]] but just for [[formal power series algebras]]. Where formal deformation quantization is _[[perturbative quantum field theory|perturbative]]_ quantization ([[perturbation]] in [[Planck's constant]], see [Collini (2016)](perturbative+algebraic+quantum+field+theory#Collini16)), strict deformation quantization is meant to reflect [[non-perturbative quantum field theory|non-perturbative]] quantization.
+
+In general, by *[[deformation quantization]]* one means notions of [[quantization]] of [[Poisson manifolds]] $\big(X, \{-,-\}\big)$ in terms of [[sequences]] of [[noncommutative algebra|non-commutative]] [[algebras]] $A_{\hbar}$ parameterized by specific admissible (formal) values of [[Planck's constant]] $\hbar$ including $\hbar = 0$, where $A_0 = C^\infty(X)$ is the ordinary commutative [[algebra of functions]] on the [[underlying]] [[smooth manifold]]. The idea is that $A_{\hbar}$ is the [[algebra of observables]] of the corresponding [[quantum system]] at that value of $\hbar$, arising from "deforming" the commutative product of $A_0$ in a way that increases with $\hbar$ and is [[infinitesimal|infinitesimally]] controlled by the given [[Poisson bracket]] $\{-,-\}$.
+
+Beware that the term "[[deformation quantization]]" is often taken by default to refer to the historically first notion of [[formal deformation quantization]], where $\hbar$ is just a formal [[variable]] (i.e. an [[infinitesimal]], but not an actual [[number]]) and the [[underlying]] [[vector space]] of all algebras in question is that of [[formal power series]] in $\hbar$.
+
+One might naively imagine that the [[formal power series]] appearing in [[formal deformation quantization]] have a finite [[radius of convergence]] $\epsilon \in \mathbb{R}_+$ thus yielding actual (non-formal) deformation quantizations for $\hbar \lt \epsilon$, but in practice this happens rarely (see the first references [below](#ConvergingFormalDeformationQuantization)). Indeed, [[geometric quantization]] makes manifest that [[prequantization]] conditions typically force admissible values of [[Planck's constant|$\hbar$]] to form a [[discrete space|discrete]] [[subspace]] of $\mathbb{R}_+$ with only an [[accumulation point]] at $\hbar = 0$.
+
+Therefore, in *strict* or $C^\ast$-algebraic deformation quantization the parameter [[Planck's constant|$\hbar$]] is typically allowed to take discrete [[positive number|positive]] [[real numbers|real values]] with an [[accumulation point]] at $\hbar = 0$, and where to each such value is associated an actual [[C*-algebra]]-[[algebra of observables|of observables]]. There are a variety of similar but different proposals for what exactly this should mean in detail, see [Hawkins (2008a), Section 2](#Hawkins08a) for overview and references.
+
+In its focus on [[algebras of observables]] the notion of deformation quantization is roughly dual to *[[geometric quantization]]*, which primarily constructs the [[spaces of quantum states]]. In special sitations both notions are compatible, but in general there is a large amount of ambiguity in [[quantization]], between but also within the different approaches.
+
+Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a suitable [[convolution algebra]] of suitably [[polarization|polarized]] sections over a [[Lie groupoid]] that [[Lie integration|Lie integrates]] a [[Poisson Lie algebroid]] which encodes the original [[Poisson bracket]] to be quantized &lbrack;[Hawkins (2008b)](#Hawkins08b)&rbrack;, see at _[[geometric quantization of symplectic groupoids]]_.
 
 While there are good examples of strict $C^\ast$-algebraic deformation quantization for toy examples such as low spacetime dimension (notably [[quantum mechanics]]) to date no examples of interacting field theories in spacetime dimension $\geq 4$ have a known non-perturbative quantization. (For the case of [[Yang-Mills theory]]/[[QCD]] the construction of its non-perturbative quantization is one of the open "Millennium Problems" listed by the Clay Mathematics Institute, see at _[[quantization of Yang-Mills theory]]_.) 
 
-Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a suitable [[convolution algebra]] of suitably [[polarization|polarized]] sections over a [[Lie groupoid]] that [[Lie integration|Lie integrates]] a [[Poisson Lie algebroid]] which encodes the original [[Poisson bracket]] to be quantized ([Hawkins 06](#Hawkins08)), see at _[[geometric quantization of symplectic groupoids]]_.
 
 ## Properties
 
@@ -60,6 +72,7 @@ with its [[Weyl algebra]] [[star product]]. (See [this MO discussion](http://mat
 ## References
 
 ### Converging formal deformation quantization
+ {#ConvergingFormalDeformationQuantization}
 
 On [[convergence]] of [[formal power series]] in [[formal deformation quantization]]:
 
@@ -89,13 +102,13 @@ More details are in
 
 Comparative review of notions of strict deformation quantization:
 
-* {#Hawkins07} [[Eli Hawkins]], Section 2 of: *An Obstruction to Quantization of the Sphere*, Communications in Mathematical Physics **283** (2008) 675–699  &lbrack;[arXiv:0706.2946](http://arxiv.org/abs/0706.2946), [doi:10.1007/s00220-008-0517-2](https://doi.org/10.1007/s00220-008-0517-2)&rbrack;
+* {#Hawkins08a} [[Eli Hawkins]], Section 2 of: *An Obstruction to Quantization of the Sphere*, Communications in Mathematical Physics **283** (2008) 675–699  &lbrack;[arXiv:0706.2946](http://arxiv.org/abs/0706.2946), [doi:10.1007/s00220-008-0517-2](https://doi.org/10.1007/s00220-008-0517-2)&rbrack;
  
 Discussion of strict deformation quantization in terms of [[geometric quantization of symplectic groupoids]] via [[polarization|polarized]] twisted [[groupoid convolution algebras]] is in
 
-* {#Hawkins08} [[Eli Hawkins]], *A Groupoid Approach to Quantization*, J. Symplectic Geom. **6** 1  (2008) 61-125 &lbrack;[arXiv:math/0612363](https://arxiv.org/abs/math/0612363), [euclid](https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-6/issue-1/A-groupoid-approach-to-quantization/jsg/1215032733.full)&rbrack;
+* {#Hawkins08b} [[Eli Hawkins]], *A Groupoid Approach to Quantization*, J. Symplectic Geom. **6** 1  (2008) 61-125 &lbrack;[arXiv:math/0612363](https://arxiv.org/abs/math/0612363), [euclid](https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-6/issue-1/A-groupoid-approach-to-quantization/jsg/1215032733.full)&rbrack;
 
-For the special case of [[Moyal deformation quantization]] ([Hawkins 06, section 6.2](#Hawkins08)) this construction had been suggested without proof in 
+For the special case of [[Moyal deformation quantization]] &lbrack;[Hawkins (2008b), section 6.2](#Hawkins08b)&rbrack; this construction had been suggested without proof in 
 
 * [[Alan Weinstein]], in P. Donato et al. (eds.) _Symplectic Geometry and Mathematical Physics,  (Birkh&#228;user, Basel, 1991); p. 446.
 
