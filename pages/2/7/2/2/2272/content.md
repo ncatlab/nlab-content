@@ -517,6 +517,10 @@ Now over each $U_i$ the the situation for the brackets is just that of corollary
 
 ## References
 
+The original reference is
+
+* [[André Lichnerowicz]], _Les variétés de Poisson et leurs algèbres de Lie associées_, Journal of Differential Geometry 12:2 (1977), 253–300.  [doi](http://dx.doi.org/10.4310/jdg/1214433987).
+
 Discussion in [[Lagrangian field theory]] inclues
 
 * {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Poisson algebras for non-linear field theories in the Cahiers topos_, Annales Henri Poincar\'e, 18(4), 1435-1464 (2017) ([arXiv:1602.00708](https://arxiv.org/abs/1602.00708))
