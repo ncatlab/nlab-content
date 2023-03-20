@@ -231,7 +231,7 @@ and the simplicially enriched model for [[(infinity,1)-category|(infinity,1)-cat
 
 ### Full and faithfulness
 
-Under some conditions one can characterize when and where the nerve construction is a [[full and faithful functor]]. For the moment see for instance _[[monad with arities]]_.
+When the nerve functor $N$ is a [[full and faithful functor]], the functor $S_C : S \to C$ is said to be a [[dense functor]].
 
 ## Related concepts
 
