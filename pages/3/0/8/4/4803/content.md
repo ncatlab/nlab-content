@@ -78,6 +78,7 @@ Further duscussion:
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Supermassive gravitinos and giant primordial black holes_ ([arXiv:2007.11889](https://arxiv.org/abs/2007.11889))
 
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
 
 
 
