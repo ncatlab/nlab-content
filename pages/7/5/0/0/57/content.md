@@ -816,9 +816,13 @@ Lie integration of [[dg-modules]] to [[smooth spectrum|smooth]] [[parameterized 
 
 Discussion of Lie integration of [[Lie algebroids]] by the path method is due to 
 
-* {#Crainic} [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_, Ann. of Math. (2), Vol. 157 (2003), no. 2, 575--620 ([arXiv:math.DG/0105033](http://arxiv.org/abs/math/0105033))
+* {#Crainic} [[Marius Crainic]], [[Rui Loja Fernandes]], *Integrability of Lie brackets*, Ann. of Math. **157** 2 (2003) 575-620 &lbrack;[arXiv:math.DG/0105033](http://arxiv.org/abs/math.DG/0105033), [doi:10.4007/annals.2003.157.575](https://doi.org/10.4007/annals.2003.157.575)&rbrack;
 
-following ([Duistermaat-Kolk 00, section 1.14](#DuistermaatKolk00)) and following the discussion of the special case of Lie integration of [[Poisson Lie algebroids]] to [[symplectic groupoids]] in 
+reviewed in
+
+* [[Rui Loja Fernandes]], [[Marius Crainic]], *Lectures on Integrability of Lie Brackets*, Geometry & Topology Monographs **17** (2011) 1–107 &lbrack;[arxiv:math.DG/0611259](https://arxiv.org/abs/math/0611259), [doi:10.2140/gtm.2011.17.1](http://dx.doi.org/10.2140/gtm.2011.17.1)&rbrack;
+
+and following [Duistermaat-Kolk (2000 section 1.14)](#DuistermaatKolk00), as well as the discussion of the special case of Lie integration of [[Poisson Lie algebroids]] to [[symplectic groupoids]] in 
 
 * {#CattaneoFelder01} [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#228;user,
 2001), 61&#8211;93. ([arXiv:math/0003023](http://arxiv.org/abs/math/0003023))
