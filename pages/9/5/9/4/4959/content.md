@@ -24,9 +24,11 @@ On [[étale infinity-groupoids]]:
 
 * [[David Carchedi]], _On the étale homotopy type of higher stacks_ ([arXiv:1511.07830](https://arxiv.org/abs/1511.07830))
 
+{#DerivedFieldTheory} On [[derived geometry]] for [[Lagrangian field theory]] in terms of [[smooth stacks]]:
 
+* [[David Carchedi]], *Derived differential geometry and quantum field theory*, talk in the *[Prague Mathematical Physics Seminar](https://www.youtube.com/@praguemathematicalphysicss9088)* (Dec 2020) &lbrack;video:[YT](https://www.youtube.com/watch?v=VdMSnlf7qK0)&rbrack;
 
-
+* [[David Carchedi]], *Derived differential geometry and the quantization of gauge field theories*, talk at *[Workshop on Supergeometry and Bracket Structures in Mathematics and Physics](http://www.fields.utoronto.ca/activities/21-22/supergeometry)*, Fields Institute (Mar 2022) &lbrack;video:[YT](https://www.youtube.com/watch?v=C8fEZPPsg_M)&rbrack;
 
 
 
