@@ -25,6 +25,8 @@ An [[algebra]] which is not a [[commutative algebra]].
 
 * [[nonunital algebra]]
 
+* [[deformation quantization]]
+
 * [[algebra of quantum observables]]
 
 * [[noncommutative geometry]]
