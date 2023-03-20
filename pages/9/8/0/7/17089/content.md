@@ -128,6 +128,9 @@ Discussion in terms of homotopy [[Lie-Rinehart pairs]] is due to
 
 The [[L-∞ algebroid]]-structure is also made explicit in ([def. 4.1 of v1](http://arxiv.org/abs/0910.4001v1)) of ([Sati-Schreiber-Stasheff 09](#SatiSchreiberStasheff09)).
 
+The extraction of [[L-infinity algebras|$L_\infty$-algebras]] from the formal neighbourhood of a [[derived critical locus]] is maybe first made explicit in:
+
+* [[Maxim Grigoriev]], [[Dmitry Rudinsky]], *Notes on the $L_\infty$-approach to local gauge field theories* $[$[arXiv2303.08990](https://arxiv.org/abs/2303.08990)$]$
 
 
 #### In string field theory
