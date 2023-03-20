@@ -515,19 +515,36 @@ Now over each $U_i$ the the situation for the brackets is just that of corollary
 
   * [[Poisson bracket Lie n-algebra]]
 
-## References
-
-The original reference is
-
-* [[André Lichnerowicz]], _Les variétés de Poisson et leurs algèbres de Lie associées_, Journal of Differential Geometry 12:2 (1977), 253–300.  [doi](http://dx.doi.org/10.4310/jdg/1214433987).
-
-Discussion in [[Lagrangian field theory]] inclues
-
-* {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Poisson algebras for non-linear field theories in the Cahiers topos_, Annales Henri Poincar\'e, 18(4), 1435-1464 (2017) ([arXiv:1602.00708](https://arxiv.org/abs/1602.00708))
+\linebreak
 
 [[!include Isbell duality - table]]
 
+\linebreak
+
+
 [[!include infinitesimal and local - table]]
+
+\linebreak
+
+
+## References
+
+The notion is due to:
+
+* [[André Lichnerowicz]], *Les variétés de Poisson et leurs algèbres de Lie associées*, Journal of Differential Geometry **12** 2 (1977) 253–300 &lbrack;[doi:10.4310/jdg/1214433987](http://dx.doi.org/10.4310/jdg/1214433987)&rbrack;
+
+Monograph on [[Poisson geometry]]:
+
+* [[Marius Crainic]], [[Rui Loja Fernandes]], *Lectures on Poisson Geometry*, Graduate Studies in Mathematics **217**, Amer. Math. Soc. (2021) &lbrack;[ISBN:978-1-4704-6430-1](https://bookstore.ams.org/view?ProductCode=GSM/217)&rbrack;
+
+See also:
+
+* Wikipedia, *[Poisson manifold](https://en.wikipedia.org/wiki/Poisson_manifold)*
+
+Discussion in [[Lagrangian field theory]] includes:
+
+* {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Poisson algebras for non-linear field theories in the Cahiers topos_, Annales Henri Poincar\'e, 18(4), 1435-1464 (2017) ([arXiv:1602.00708](https://arxiv.org/abs/1602.00708))
+
 
 
 [[!redirects Poisson Lie algebra]]
