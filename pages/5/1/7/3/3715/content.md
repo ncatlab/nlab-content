@@ -576,22 +576,22 @@ For discussion of [[motive|motivic structures]] in [[geometric quantization]] se
 
 ## References
 
+The concept of formal deformation quantization originates with:
+
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78} [[François Bayen]], [[Moshé Flato]], [[Christian Fronsdal]], [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. I. Deformations of symplectic structures._, Annals of Physics **111** 1 (1978) 61-110 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90224-5">doi:10.1016/0003-4916(78)90224-5</a>&rbrack;
+
+* {#BayenFlatoFronsdalLichnerowiczSternheimer78b} [[François Bayen]], [[Moshé Flato]], [[Christian Fronsdal]], [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. II. Physical applications_, Annals of Physics **111** 1 (1978) 111-151 &lbrack;<a href="https://doi.org/10.1016/0003-4916(78)90225-7">doi:10.1016/0003-4916(78)90225-7</a>&rbrack;
+
+Review:
+
+* [[Daniel Sternheimer]], _Deformation Quantization: Twenty Years After_, AIP Conf. Proc. **453** (1998) 107-145 &lbrack;[arXiv:math/9809056](https://arxiv.org/abs/math/9809056)&rbrack;
+
 Monographs:
 
 * {#Waldmann07} [[Stefan Waldmann]], _Poisson-Geometrie und Deformationsquantisierung_, Springer (2007) &lbrack;[doi:10.1007/978-3-540-72518-3](https://doi.org/10.1007/978-3-540-72518-3)&rbrack;
 
 * {#Gutt11} [[Simone Gutt]], _Deformation quantization of Poisson manifolds_, Geometry and Topology Monographs **17** (2011) 171-220 &lbrack;[gtm:17](https://msp.org/gtm/2011/17/p003.xhtml), [pdf](http://msp.org/gtm/2011/17/gtm-2011-17-003p.pdf)&rbrack;
 
-
-The concept of algebraic deformation quantization originates around
-
-* {#BayenFlatoFronsdalLichnerowiczSternheimer78} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. I. Deformations of symplectic structures._, Annals of Physics (N.Y.) 111, 61, 111 (1978) ([publisher](http://www.sciencedirect.com/science/article/pii/0003491678902245))
-
-* {#BayenFlatoFronsdalLichnerowiczSternheimer78b} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. II. Physical applications_, Annals of Physics 111, 111-151 (1978)  ([publisher](http://www.sciencedirect.com/science/article/pii/0003491678902257))
-
-Review is in 
-
-* [[Daniel Sternheimer]], _Deformation Quantization: Twenty Years After_, AIP Conf.Proc.453:107-145,1998 ([arXiv:math/9809056](https://arxiv.org/abs/math/9809056))
 
 The [[Fedosov deformation quantization]] prescription for deformation quantization of [[symplectic manifolds]] and varieties and also of [[Poisson manifolds]] that have a [[regular foliation]] by [[symplectic leaves]] is discussed in
 
