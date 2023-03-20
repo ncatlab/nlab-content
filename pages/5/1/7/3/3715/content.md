@@ -35,7 +35,7 @@
 
 ## Idea
 
-_Deformation quantization_ is one formalization of the general idea of [[quantization]] of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]].
+The notion of *formal deformation quantization* (often the default notion of [[deformation quantization]]) is one formalization of the general idea of [[quantization]] of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]].
 
 Deformation quantization focuses on the [[algebras of observables]] of a physical system (hence on the [[Heisenberg picture]]): it provides rules for how to [[deformation theory|deform]] the commutative algebra of classical observables to a non-commutative algebra of quantum observables. (This is in contrast to [[geometric quantization]], which focuses on the [[spaces of states]] and hence on the [[Schrödinger picture]].)
 
@@ -714,10 +714,8 @@ The action of a [[motivic Galois group]] ("[[cosmic Galois group]]") on the spac
 
 * {#Kontsevich99} [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
 
-
 See also at _[[motives in physics]]_.
 
-[[!redirects deformation quantizations]]
 
 [[!redirects algebraic deformation quantization]]
 
