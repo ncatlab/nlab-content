@@ -199,7 +199,7 @@ The suggestion that there should be such a relation is contained already in ([Ca
 
 To some extent in the following we review the traditional [[geometric quantization of symplectic groupoids]] while showing at the same time how its ingredients are (more) naturally interpreted in [[higher symplectic geometry]]. This makes quantization of symplectic groupoids a good test case against which to check notions of [[higher geometric quantization]].
 
-Specifically, we discuss what should be the first nontrivial case of the Chern-Simons-type _[[holographic principle]]_ realized in [[higher geometric quantization]]: The [[moduli stack]] of the [[2d Chern-Simons theory]] is the [[Lie integration]] of the [[Poisson Lie algebroid]] associated to a [[Poisson manifold]]. The latter we may think of as defining a [[quantum mechanical system]], hence a $(2-1) = 1$-dimensional [[quantum field theory]]. The higher geometric quantization of the 2-d theory yields a [[2-vector space]] [[space of states|of quantum 2-states]] (assigned to the point n codimension 2). Under the identification of [[2-vector spaces]] with [[categories of modules]] over an [[associative algebra]], this space of quantum 2-states identifies (the [[Morita equivalence]]-class of) an algebra. Suitably re-interpreting traditional results about the quantization of symplectic groupods shows that this algebra is the [[strict deformation quantization]] of that [[Poisson manifold]].
+Specifically, we discuss what should be the first nontrivial case of the Chern-Simons-type _[[holographic principle]]_ realized in [[higher geometric quantization]]: The [[moduli stack]] of the [[2d Chern-Simons theory]] is the [[Lie integration]] of the [[Poisson Lie algebroid]] associated to a [[Poisson manifold]]. The latter we may think of as defining a [[quantum mechanical system]], hence a $(2-1) = 1$-dimensional [[quantum field theory]]. The higher geometric quantization of the 2-d theory yields a [[2-vector space]] [[space of states|of quantum 2-states]] (assigned to the point n codimension 2). Under the identification of [[2-vector spaces]] with [[categories of modules]] over an [[associative algebra]], this space of quantum 2-states identifies (the [[Morita equivalence]]-class of) an algebra. Suitably re-interpreting traditional results about the quantization of symplectic groupods shows that this algebra serves as a kind of [[strict deformation quantization]] of that [[Poisson manifold]] &lbrack;[Hawkins (2008)](#Hawkins08)&rbrack;.
 
 Notice that at the level of just infinitesimal ("formal") [[deformation quantization]] a similar [[holographic principle|holographic]] relation between quantization of a Poisson manifold and of its associated 2d [[sigma-model]] QFT has famously been shown by [[Alberto Cattaneo]] and [[Giovanni Felder]] to underly [[Kontsevich]]'s construction of deformation quantization (see at _[[Poisson sigma-model]]_). We suggest that the discussion here provides the refinement of this relation to [[strict deformation quantization]].
 
@@ -758,13 +758,23 @@ In conclusion, up to equivalence the bimodule is $L^2(X)$ regarded as a $C(X)-\m
 ## References
  {#References}
 
+The above discussion was inspired by
+
 * {#Hawkins08} [[Eli Hawkins]], *A Groupoid Approach to Quantization*, J. Symplectic Geom. **6** 1  (2008) 61-125 &lbrack;[arXiv:math/0612363](https://arxiv.org/abs/math/0612363), [euclid](https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-6/issue-1/A-groupoid-approach-to-quantization/jsg/1215032733.full)&rbrack;
 
-* Stefan Bongers, _[[schreiber:master thesis Bongers|Geometric quantization of symplectic and Poisson manifolds]]_, master thesis, Utrecht 2013
+and details have been written out in these two theses:
 
-* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, Utrecht 2013
+* {#Bongers} Stefan Bongers, _[[schreiber:master thesis Bongers|Geometric quantization of symplectic and Poisson manifolds]]_, master thesis, Utrecht (2013)
 
-Here section 5.2.2 of [Nuiten (2013)](#Nuiten13) essentially provides a re-casting of the quantization construction in [Hawkins (2008)](#Hawkins08) which gives it an invariant home and brings out the above holographic picture more explicitly.
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, Utrecht (2013)
+
+Here section 4 of [Bongers (2013)](#Bongers) recalls and makes explicit relevant details in the construction of the [[symplectic groupoid]], and section 5.2.2 of [Nuiten (2013)](#Nuiten13) essentially provides a re-casting of the quantization construction in [Hawkins (2008)](#Hawkins08) which gives it an invariant home and brings out the above holographic picture more explicitly. 
+
+This reveals a general abstract nature of the construction which was meant to be further brought out in:
+
+* [[Urs Schreiber]], *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](https://arxiv.org/abs/1402.7041)&rbrack;
+
+where the above situation corresponds to "running example a)", Example 7.3 ([p. 70](https://arxiv.org/pdf/1402.7041.pdf#page=70)).
 
 
 [[!redirects 2d Poisson-Chern-Simons theory]]
