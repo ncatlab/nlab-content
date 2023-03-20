@@ -45,9 +45,11 @@ to "CPT self-conjugate" vacuum supermultiplets.
 
 * {#Dirac63} [[Paul Dirac]], _A remarkable representation of the 3+2 de Sitter group_, Journal of Mathematical Physics, 4(7), 901-909, 1963 ([doi:10.1063/1.1704016](https://aip.scitation.org/doi/pdf/10.1063/1.1704016))
 
-* {#Fronsdal81} [[Christian Fronsdal]], _Dirac supermultiplet_, Phys. Rev. D26 (1982) 1988
+* {#Fronsdal81} [[Christian Fronsdal]], _Dirac supermultiplet_, Phys. Rev. D **26** (1982) 1988 &lbrack;[doi:10.1103/PhysRevD.26.1988](https://doi.org/10.1103/PhysRevD.26.1988)&rbrack;
 
-* {#FlatoFronsdal81} [[Moshe Flato]], [[Christian Fronsdal]], _Quantum field theory of singletons. The rac, J. Math. Phys. 22 (1981) 1100.
+* {#FlatoFronsdal81} [[Moshé Flato]], [[Christian Fronsdal]], _Quantum field theory of singletons. The rac_, J. Math. Phys. **22** (1981) 1100 &lbrack;[doi:10.1063/1.524993](https://doi.org/10.1063/1.524993)&rbrack;
+
+
 
 * {#AngelopoulosFlatoFronsdalSternheimer81} E. Angelopoulos, [[Moshe Flato]], [[Christian Fronsdal]], [[Daniel Sternheimer]], _Massless Particles, Conformal Group, and De Sitter Universe_, Phys. Rev. D23 (1981) 1278
 
@@ -67,4 +69,7 @@ to "CPT self-conjugate" vacuum supermultiplets.
 
 * {#Gunyadin98} [[Murat Günaydin]], _Unitary Supermultiplets of $OSp(1 \vert32,\mathbb{R}) and M-theory_, Nucl.Phys.B528:432-450, 1998 ([arXiv:hep-th/9803138](https://arxiv.org/abs/hep-th/9803138))
 
+
 [[!redirects singleton representations]]
+
+
