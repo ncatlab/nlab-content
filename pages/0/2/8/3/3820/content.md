@@ -321,7 +321,7 @@ $$
 
 ### Relativistic particle
 
-The covarint phase space of the [[relativistic particle]] on a [[pseudo-Riemannian manifold]] $X$ is the space of [[geodesic]]s of $X$ (in the absence of a [[background gauge field]]).
+The covariant phase space of the [[relativistic particle]] on a [[pseudo-Riemannian manifold]] $X$ is the space of [[geodesic]]s of $X$ (in the absence of a [[background gauge field]]).
 
 ### Chern-Simons theory
 
