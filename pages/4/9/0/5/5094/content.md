@@ -11,8 +11,12 @@ See also:
 
 * [[Reinhard Börger]], [[Walter Tholen]], _Strong regular and dense generators_,  [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **32** 3 (1991) 257-276 &lbrack;[numdam:CTGDC_1991__32_3_257_0](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0), [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111)&rbrack;
 
+On (co-)[[reflective factorization systems]]:
 
-## Related $n$Lab entries
+* {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, **2** 2 (2007) 295-314  &lbrack;[arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/)&rbrack;
+
+
+## Related entries
 
 * [[duality]]
 
