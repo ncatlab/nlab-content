@@ -142,9 +142,14 @@ The basic theory is developed in
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures **5** (1997) 1-58 &lbrack;[doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444)&rbrack;
  
 
-Discussion of "simple" reflective factorization systems and of simultaneously reflective and coreflective factorization systems is in 
+Discussion of "simple" reflective factorization systems and of simultaneously reflective and coreflective factorization systems:
 
-* {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 295-314  ([arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/))
+* {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, **2** 2 (2007) 295-314  &lbrack;[arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/)&rbrack;
+
+Discussion from the perspective of [[modalities]] and [[modal homotopy type theory]]:
+
+
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], Section A.2 in: *Modalities in homotopy type theory*,  Logical Methods in Computer Science, **16** 1 (2020)  &lbrack;[arXiv:1706.07526](https://arxiv.org/abs/1706.07526), <a href="https://doi.org/10.23638/LMCS-16(1:2)2020">doi:10.23638/LMCS-16(1:2)2020</a>&rbrack;
  
 
 
