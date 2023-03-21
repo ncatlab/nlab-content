@@ -303,6 +303,9 @@ See also
 
 * Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ ([arXiv:1805.07506](https://arxiv.org/abs/1805.07506))
 
+Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
+
+* [[Ibrahima Bah]], Pierre Heidmann, *Geometric Resolution of Schwarzschild Horizon* &lbrack;[arXiv:2303.10186](https://arxiv.org/abs/2303.10186)&rbrack;
 
 
 
