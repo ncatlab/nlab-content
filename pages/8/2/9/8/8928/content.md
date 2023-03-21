@@ -232,6 +232,11 @@ Black holes in [[supergravity]]:
 
 * Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
 
+Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
+
+* [[Ibrahima Bah]], Pierre Heidmann, *Geometric Resolution of Schwarzschild Horizon* &lbrack;[arXiv:2303.10186](https://arxiv.org/abs/2303.10186)&rbrack;
+
+
 ### Fat black holes
 
 Discussion of black holes whose Schwarzschild radius is larger than the [[KK-compactification]]-scale:
