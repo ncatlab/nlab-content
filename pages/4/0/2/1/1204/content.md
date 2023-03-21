@@ -63,9 +63,9 @@ Other references include
 
 * [[Ronnie Brown]], _The twisted Eilenberg-Zilber Theorem_,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio. ([pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf))
 
-* {#BarnesLambe91} Donald W. Barnes, [[Larry Lambe|Larry A. Lambe]], 
-_A fixed point approach to homological perturbation theory_
-Proc. Amer. Math. Soc. 112 (1991), no. 3, 881--892. 
+* {#BarnesLambe91} Donald W. Barnes, [[Larry Lambe|Larry A. Lambe]], _A fixed point approach to homological perturbation theory_, Proc. Amer. Math. Soc. 112 (1991), no. 3, 881--892. 
+
+* V Gugenheim, LA Lambe, JD Stasheff, _Perturbation theory in differential homological algebra II_, Illinois Journal of Mathematics 35:3 (1991) 357--373 [euclid](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-35/issue-3/Perturbation-theory-in-differential-homological-algebra-II/10.1215/ijm/1255987784.full)
 
 For applications to  "make computable" a bicategory of isolated hypersurface singularities and matrix factorisations comp that has been studied in the context of [[topological field theory]], using the formulation in ([Barnes-Lambe 91](#BarnesLambe91))  is in 
 
@@ -76,13 +76,10 @@ See also _[[linear logic]]_.
 
 Discussion with an eye towards [[Hochschild cohomology]] and [[cyclic cohomology]] is in
 
-* [[Larry Lambe|Larry A. Lambe]], _Homological Perturbation Theory
-Hochschild Homology and Formal Groups_ Cont. Math., vol 189, AMS, 1992 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.8783&rep=rep1&type=pdf))
+* [[Larry Lambe|Larry A. Lambe]], _Homological perturbation theory, Hochschild homology and formal groups_ Contemp. Math. __189__, AMS, 1992 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.8783&rep=rep1&type=pdf))
 
 
-* V. &#193;lvarez ,  J.A. Armario ,  P. Real ,  B. Silva , _Homological Perturbation Theory And Computability Of Hochschild And Cyclic Homologies Of Cdgas_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.6955))
-
-
+* V. &#193;lvarez, J.A. Armario, P. Real, B. Silva, _Homological perturbation theory and computability Of Hochschild and cyclic homologies of cdgas_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.6955))
 
 Discussion in the context of [[BV-quantization]] is in section 2.5 of 
 
