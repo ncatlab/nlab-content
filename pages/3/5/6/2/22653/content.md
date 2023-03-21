@@ -258,9 +258,10 @@ An alternative derivation of this statement, using the formula for [[Cayley grap
 
 The Jucys-Murphy elements are independently due to:
 
-* {#Jucys71} [[Algimantas Adolfas Jucys]], *Factorization of Young projection operators for the symmetric group*, Lietuvos Fizikos Rinkinys, **11** (1) 9 (1971) ([journal content](http://www.itpa.lt/%7Elfd/Lfz/Turiniai/Turi1971.html#))
+* {#Jucys71} [[Algimantas Adolfas Jucys]], *Factorization of Young projection operators for the symmetric group*, Lietuvos Fizikos Rinkinys, **11** (1) 9 (1971) &lbrack;[journal content](http://www.itpa.lt/%7Elfd/Lfz/Turiniai/Turi1971.html#), [[Jucys-1971.pdf:file]]&rbrack;
 
 * {#Jucys74} [[Algimantas Adolfas Jucys]], *Symmetric polynomials and the center of the symmetric group ring*, Reports on Mathematical Physics, Volume 5, Issue 1, February 1974, Pages 107-112 (<a href="https://doi.org/10.1016/0034-4877(74)90019-6">doi:10.1016/0034-4877(74)90019-6</a>)
+
 
 and
 
