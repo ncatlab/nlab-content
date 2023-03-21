@@ -287,6 +287,48 @@ Describes how one can go from [[piecewise flat spacetime|dynamical triangulation
 
 * Yoshiyuki Watabiki, *The causality road from dynamical triangulations to quantum gravity that describes our Universe*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.13109](https://arxiv.org/abs/2212.13109)&rbrack;
 
+\linebreak
+
+A pedagogical introduction to the gravitational [[asymptotic safety]] program with a focus on conceptual issues:
+
+* Frank Saueressig, *The Functional Renormalization Group in Quantum Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.14152](https://arxiv.org/abs/2302.14152)&rbrack;
+
+\linebreak
+
+On [[loop quantum gravity]] and quantum [[Riemannian geometry]]:
+
+* Hal M. Haggard, Jerzy Lewandowski, Hanno Sahlmann, *Emergence of Riemannian Quantum Geometry*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.02840](https://arxiv.org/abs/2302.02840)&rbrack;
+
+\linebreak
+
+An introduction to Unimodular [[gravity]] at the classical and quantum level and applications to the [[cosmological constant]] problem:
+
+* Enrique Álvarez, Eduardo Velasco-Aja, *A Primer on Unimodular Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.07641](https://arxiv.org/abs/2301.07641)&rbrack;
+
+\linebreak
+
+On generic random [[tree]]s and two-dimensional causal triangulations:
+
+* Bergfinnur Durhuus, Thordur Jonsson, [[John Wheater]], *From Trees to Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.15247](https://arxiv.org/abs/2211.15247)&rbrack;
+
+\linebreak
+
+On [[renormalization]] and [[spin foam]]s:
+
+* Seth K. Asante, Bianca Dittrich, Sebastian Steinhaus, *Spin foams, Refinement limit and Renormalization*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09578](https://arxiv.org/abs/2211.09578)&rbrack;
+
+\linebreak
+
+On spherically symmetric midi-[[superspace]]s in [[loop quantum gravity]]:
+
+* Rodolfo Gambini, Javier Olmedo, Jorge Pullin, *Quantum geometry and black holes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.05621](https://arxiv.org/abs/2211.05621)&rbrack;
+
+\linebreak
+
+An overview on the use of Euclidean Dynamical Triangulations and Causal Dynamical Triangulations as lattice regularizations of [[quantum gravity]]:
+
+* Jan Ambjorn, *Lattice Quantum Gravity: EDT and CDT*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
+
 
 \linebreak
 
