@@ -153,6 +153,10 @@ There is also
 
 * Dennis Borisov, Justin Noel, _Simplicial approach to derived differential manifolds_ ([arXiv:1112.0033](http://arxiv.org/abs/1112.0033))
 
+The $(\infty, 1)$-category of derived manifolds is classified up to [[equivalence]] by a universal property in
+
+* [[David Carchedi]], Pelle Steffens, _On the universal property of derived manifolds_ &lbrack;[arXiv:1905.06195](https://arxiv.org/abs/1905.06195)&rbrack; 
+
 Seminar notes on differential [[derived geometry]] in general and derived smooth manifolds in particular are in 
 
 * [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
