@@ -157,6 +157,11 @@ Seminar notes on differential [[derived geometry]] in general and derived smooth
 
 * [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
 
+Further developments:
+
+* [[David Carchedi]], *Derived Manifolds as Differential Graded Manifolds* &lbrack;[arXiv:2303.11140](https://arxiv.org/abs/2303.11140)&rbrack;
+
+
 [[!redirects derived smooth manifolds]]
 
 [[!redirects derived manifold]]
