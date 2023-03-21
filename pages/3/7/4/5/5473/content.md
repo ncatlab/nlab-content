@@ -174,11 +174,11 @@ If $C$ is complete and cocomplete and $T: C \to C$ preserves [[filtered colimits
 
 If $C$ is a [[locally presentable category]] and $T$ is an [[accessible monad]] (aka a bounded monad, aka a monad with rank) on $C$, then $C^T$ is also locally presentable and in particular cocomplete. Details may be found in [[Locally presentable and accessible categories]]. 
 
-## Relatively free functors 
+## Algebraic functors have left adjoints 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Suppose that $\theta: S \to T$ is a morphism of monads on $C$, and suppose that $C^T$ has coequalizers. Then the relative "forgetful" functor 
+Suppose that $\theta: S \to T$ is a morphism of monads on $C$, and suppose that $C^T$ has coequalizers. Then the induced **algebraic functor**
 
 $$C^\theta: C^T \to C^S$$ 
 
