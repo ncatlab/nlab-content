@@ -339,6 +339,11 @@ See also
 https://doi.org/10.1103/PhysRevLett.129.222001
 ), [arXiv:2201.11637](https://arxiv.org/abs/2201.11637))
 
+Discussion via [[D-modules]]:
+
+* Johannes Henn, Elizabeth Pratt, Anna-Laura Sattelberger, Simone Zoia, *$D$-Module Techniques for Solving Differential Equations in the Context of Feynman Integrals* &lbrack;[arXiv:2303.11105](https://arxiv.org/abs/2303.11105)&rbrack;
+
+
 ### In causal perturbation theory
  {#ReferencesInCausalPerturbationTheory}
 
