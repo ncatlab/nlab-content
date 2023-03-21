@@ -37,6 +37,8 @@ of Linear Logic_, ([pdf](https://drops.dagstuhl.de/opus/volltexte/2015/5438/pdf/
 
 * Soichiro Fujii, Shin-ya Katsumata, Paul-André Melliès, _Towards a Formal Theory of Graded Monads_, ([doi](https://doi.org/10.1007/978-3-662-49630-5_30)) ([pdf](https://www.irif.fr/~mellies/papers/fossacs2016-final-paper.pdf))
 
+* [[J-B Vienney|Jean-Baptiste Vienney]], [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], _Graded Differential Categories and Graded Differential Linear Logic_, 2023, [arXiv](https://arxiv.org/abs/2303.10586) 
+
 A formal framework for type theories with a collection of modalities is in
 
 * [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
