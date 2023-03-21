@@ -9,7 +9,7 @@ Introducing the [[Jucys-Murphy elements]]:
 
 On expressing the [[Cayley distance kernel]] (not under that name, though) through [[Jucys-Murphy elements]]:
 
-* {#Jucys71} [[Algimantas Adolfas Jucys]], *Factorization of Young projection operators for the symmetric group*, Lietuvos Fizikos Rinkinys, **11** (1) 9 (1971) ([journal content](http://www.itpa.lt/%7Elfd/Lfz/Turiniai/Turi1971.html#))
+* {#Jucys71} [[Algimantas Adolfas Jucys]], *Factorization of Young projection operators for the symmetric group*, Lietuvos Fizikos Rinkinys, **11** (1) 9 (1971) &lbrack;[journal content](http://www.itpa.lt/%7Elfd/Lfz/Turiniai/Turi1971.html#), [[Jucys-1971.pdf:file]]&rbrack;
 
 category: people
 
