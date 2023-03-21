@@ -30,6 +30,9 @@ On [[étale infinity-groupoids]]:
 
 * [[David Carchedi]], *Derived differential geometry and the quantization of gauge field theories*, talk at *[Workshop on Supergeometry and Bracket Structures in Mathematics and Physics](http://www.fields.utoronto.ca/activities/21-22/supergeometry)*, Fields Institute (Mar 2022) &lbrack;video:[YT](https://www.youtube.com/watch?v=C8fEZPPsg_M)&rbrack;
 
+On [[derived smooth manifolds]]:
+
+* [[David Carchedi]], *Derived Manifolds as Differential Graded Manifolds* &lbrack;[arXiv:2303.11140](https://arxiv.org/abs/2303.11140)&rbrack;
 
 
 
