@@ -10,6 +10,9 @@ On [[locally presentable categories|locally presentable]] and [[accessible categ
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
 
+On (co-)[[reflective factorization systems]]:
+
+* {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, **2** 2 (2007) 295-314  &lbrack;[arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/)&rbrack;
 
 On [[combinatorial model categories]]:
 
