@@ -161,7 +161,7 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 
 =--
 
-The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens 79](#Takens79)). The above formulation as a sub-bicomplex of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman 87, p. 5](#Zuckerman87)).
+The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens 79](#Takens79)). The above formulation as a sub-bicomplex of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to &lbrack;[Zuckerman 87, p. 5](#Zuckerman87)&rbrack;.
 
 <img src="https://ncatlab.org/nlab/files/VariationalBicomplex.jpg" width="550">
 
@@ -372,7 +372,7 @@ Moreover
 
 =--
 
-This is ([Zuckerman 87, theorem 3](#Zuckerman87)).
+This is &lbrack;[Zuckerman 87, theorem 3](#Zuckerman87)&rbrack;.
 
 Here $E$ is the _[[Euler-Lagrange equations|Euler-Lagrange operator]]_ .
 
@@ -412,7 +412,7 @@ $$
 
 =--
 
-This is ([Zuckerman 87, lemma 8]{#Zuckerman87}).
+This is &lbrack;[Zuckerman 87, lemma 8](#Zuckerman87)&rbrack;.
 
 ### Presymplectic covariant phase space
 
@@ -492,7 +492,7 @@ The presymplectic form $\omega$ from def. \ref{ThePresymplecticForm} is annihila
 
 =--
 
-This appears as ([Zuckerman 87, theorem 13](#Zuckerman87)).0
+This appears as &lbrack;[Zuckerman 87, theorem 13](#Zuckerman87)&rbrack;.
 
 ## Elementary formalization in differential cohesion
  {#FormalizationInDifferentialCohesion}
@@ -759,7 +759,7 @@ Other surveys include
 
 An early discussion with application to [[covariant phase spaces]] and their [[presymplectic structure]] is in
 
-* {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
+* {#Zuckerman87} [[Gregg Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.) *Mathematical Aspects of String Theory*, World Scientific (1987) 259-284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/0383](https://doi.org/10.1142/0383)&rbrack;
 
 
 An invariant version (under group action) is in
@@ -768,8 +768,7 @@ An invariant version (under group action) is in
 
 A more detailed version of this is in
 
-* [[Irina Kogan]], [[Peter Olver]], _Invariant Euler-Lagrange Equations and
-the Invariant Variational Bicomplex_, [pdf](http://www4.ncsu.edu/~iakogan/papersPDF/ivbKoganOlver-cor.pdf)
+* [[Irina Kogan]], [[Peter Olver]], _Invariant Euler-Lagrange Equations and the Invariant Variational Bicomplex_, [pdf](http://www4.ncsu.edu/~iakogan/papersPDF/ivbKoganOlver-cor.pdf)
 
 See also 
 
