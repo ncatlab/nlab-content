@@ -17,4 +17,11 @@ On [[M5-branes]] and their [[quantum anomaly]]-cancellation:
 
 * {#BahBonettiMinasian20} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], _Discrete and higher-form symmetries in SCFTs from wrapped M5-branes_, J. High Energ. Phys. 2021, 196 (2021) ([arXiv:2007.15003](https://arxiv.org/abs/2007.15003))
 
+On sesolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 supergravity]]:
+
+* [[Ibrahima Bah]], Pierre Heidmann, *Geometric Resolution of Schwarzschild Horizon* &lbrack;[arXiv:2303.10186](https://arxiv.org/abs/2303.10186)&rbrack;
+
+
+
+
 category: people
