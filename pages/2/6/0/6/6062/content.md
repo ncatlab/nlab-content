@@ -822,13 +822,13 @@ The homotopy-theoretic nature of $L_\infty$-algebras and their relation to defor
 * {#Kontsevich94} [[Maxim Kontsevich]], _Topics in algebra &#8212; deformation theory_ Lecture Notes (1994) ([ps](http://www.math.brown.edu/&#8764;abrmovic/kontsdef.ps))
 
 
-Model structures on algebras over operads in chain complexes were discussed generally in 
+On [[model category]] [[structures]] on [[algebra over an operad|algebras over operads]] in [[chain complexes]]:
 
-* {#Hinich97} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_, Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+* {#Hinich97} [[Vladimir Hinich]],  *Homological algebra of homotopy algebras*, Communications in Algebra **25** 10   (1997) 3291-3323 &lbrack;[arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), [doi:10.1080/00927879708826055](https://doi.org/10.1080/00927879708826055), Erratum: ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453))&rbrack;
 
-The full model structure on dg-coalgebras (in characteristic 0) and the Quillen equivalence of dg-Lie algebras as well as the interpretation in terms of formal $\infty$-stacks is due to
+The full model structure on [[dg-coalgebras]] (in characteristic 0) as a [[model structure for L-infinity algebras|model structure for $L_\infty$-algebras]] and the [[Quillen equivalence]] between [[dg-Lie algebras]] as well as the interpretation in terms of formal $\infty$-stacks ([[L-infinity algebras|$L_\infty$-algebras]]):
 
-* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of pure and applied algebra 162.2 (2001): 209-250 ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of Pure and Applied Algebra **162** 2 (2001) 209-250 &lbrack;[arXiv:9812034](http://arxiv.org/abs/math/9812034), <a href="https://doi.org/10.1016/S0022-4049(00)00121-3">doi:10.1016/S0022-4049(00)00121-3</a>&rbrack;
 
 Also:
 
