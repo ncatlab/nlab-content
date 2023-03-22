@@ -51,22 +51,32 @@ such that
 
 
 
+\begin{theorem}[{\cite[Theorem 2.1.2]{Vi20}}]
+    A quasiadjunction induces an adjunction
+$$
+    (\mathbb{L}S \dashv\mathbb{R}\Lambda):\mathcal{H}o \mathcal{T}\rightleftharpoons \mathcal{H}o \mathcal{A}
+$$
+
+between the homotopy categories.
+\end{theorem} 
+
+
 ## Finite relative recognition theorem
 
 Let $1\leq N\leq \infty$ and $\mathcal{SC}_N$ be the cubical Swiss Cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^2$ of pairs of pointed topological spaces. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the mixed model structure induced by the one on $Top_*^2$. We denote pairs of pointed spaces as $X=(X_{c},X_{o})$.
 
-Denote by $Top_*^\rightarrow$ the category of pointed maps, equipped with the mixed projective model structure. We denote maps as $Y=(Y:Y_d\rightarrow Y_c)$.
+Denote by $Top_*^\rightarrow$ the category of pointed maps, equipped with the mixed projective model structure. We denote maps as $Y=(Y:Y_0\rightarrow Y_1)$.
 
 \begin{definition}
 For $1 \leq N \lt \infty$ the relative $N$-loop space functor is
 $$
-  \Omega^N_2:Top_*^{\rightarrow}\rightarrow Top_*^2,\qquad \Omega^N_2(Y):=(Y_c^{\mathbb{S}^N},(Y_o\times_{Y_c} Y_c^I)^{\mathbb{S}^{N-1}}).
+  \Omega^N_2:Top_*^{\rightarrow}\rightarrow Top_*^2,\qquad \Omega^N_2(Y)\coloneqq(Y_1^{\mathbb{S}^N},(Y_0\times_{Y_1} Y_1^I)^{\mathbb{S}^{N-1}}).
 $$
 
 The $N$-suspension functor is
 $$
 \Sigma^N_\to : Top_*^2\to Top_*^\to, \qquad
-\Sigma^N_\to(X)=
+\Sigma^N_\to(X)\coloneqq
 (X_{o} \wedge \mathbb{S}^{N-1} \to ((X_o \wedge I) \vee(X_c \wedge \mathbb{S}^1)) \wedge \mathbb{S}^{N-1} ).
 $$
 \end{definition}
@@ -74,7 +84,7 @@ $$
 \begin{theorem}
   We have a weak Quillen adjunction
 $$
-(\Sigma^N_\to \rvert \Omega^N_2).
+(\Sigma^N_\to \dashv \Omega^N_2).
 $$
 \end{theorem}
 
