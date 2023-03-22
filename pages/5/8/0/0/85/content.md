@@ -811,7 +811,11 @@ Day convolution for [[(∞,1)-categories]] is discussed in
 
 Other references cited in this page:
 
-* {#Fosco} [[Fosco Loregian]], _Coend calculus_ ([arXiv](http://arxiv.org/abs/1501.02503)).
+* {#Fosco} [[Fosco Loregian]], _Coend calculus_ &lbrack;[arXiv](http://arxiv.org/abs/1501.02503)&rbrack;
+
+On [[(infinity,1)-colimits|$\infty$-colimits]] and [[Day convolution]] in the context of [[enriched (infinity,1)-categories|enriched $\infty$-categories]]:
+
+* [[Vladimir Hinich]], *Colimits in enriched ∞-categories and Day convolution*, Theory and Applications of Categories **39** 12 (2023) 365-422 &lbrack;[tac:39-12](http://www.tac.mta.ca/tac/volumes/39/12/39-12abs.html), [arXiv:2101.09538](https://arxiv.org/abs/2101.09538)&rbrack;
 
 
 [[!redirects Day convolutions]]
