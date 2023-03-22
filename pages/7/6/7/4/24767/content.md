@@ -25,7 +25,8 @@ See there for introductory material.
 See also [[structured cospans]] and [[decorated cospans]]
 * Chad Nester, _Situated Transition Systems_, [(arXiv)](https://arxiv.org/abs/2105.04355), 2021
 * [[David Jaz Myers]], _Categorical systems theory_, [(online)](http://davidjaz.com/Papers/DynamicalBook.pdf), 2021
-* Evan Patterson, _Decorated cospans via the double Grothendieck construction_, [(arXiv)](https://topos.site/blog/2022/05/decorated-cospans-via-the-grothendieck-construction/), 2022
+* Evan Patterson, _Decorated cospans via the double Grothendieck construction_, [(Topos Institute)](https://topos.site/blog/2022/05/decorated-cospans-via-the-grothendieck-construction/), 2022
+* Evan Patterson, _Structured cospans as a cocartesian equipment_, [(Topos Institute)](https://topos.site/blog/2023/03/structured-cospans-as-a-cocartesian-equipment/), 2023
 * [[John Baez]], Kenny Courser, [[Christina Vasilakopoulou]], _Structured versus Decorated Cospans_, [(Compositionality)](https://compositionality-journal.org/papers/compositionality-4-3/pdf), 2022
 * Chad Nester, _Concurrent Process Histories and Resource Transducers_, [(arXiv)](https://arxiv.org/abs/2010.08233), 2022
 
