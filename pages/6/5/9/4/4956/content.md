@@ -67,7 +67,7 @@ _Differentiation_ in more conceptual terms is a [[functor]] $d : Diff \to Diff$ 
 
 Equivalently, a smooth map $f: X \to Y$ induces an algebra map $f^\ast = - \circ f: C^\infty(Y) \to C^\infty(X)$, and hence by composition sends a derivation $v: C^\infty(X) \to \mathbb{R}$ to a derivation $v \circ f^\ast: C^\infty(Y) \to \mathbb{R}$ augmented by $ev_{f(x)}: C^\infty(Y) \to \mathbb{R}$). Concretely: $v \circ f^\ast(\phi) = v(\phi \circ f)$ for $\phi \in C^\infty(Y)$. Then the differential $d f: T X \to T Y$ is defined by $d f(x, v) = (f(x), v \circ f^\ast)$. 
 
-According to either of these descriptions, differentiation is manifestly functorial. In the English literature, this fact is known as the "chain rule". In more traditional form: 
+According to either of these descriptions, differentiation is manifestly functorial. In the English literature, this fact is known as the [[chain rule]]. In more traditional form: 
 
 $$d(f \circ g)_x = d f_{g(x)} \circ d g_x.$$
 
