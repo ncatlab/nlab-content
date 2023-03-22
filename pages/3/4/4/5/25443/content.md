@@ -17,23 +17,28 @@ The following definition introduced in \cite{Vi20} is a generalization of Quille
 
 \begin{definition}\label{QsiAdjQuilFr} Let $\mathcal{T}$ and $\mathcal{A}$ be model categories. A weak Quillen quasiadjunction, or just quasiadjunction, between $\mathcal{T}$ and $\mathcal{A}$, denoted by 
 $$
-(S \dashv_{\ C,F}\Lambda):\mathcal{T}\rightleftharpoons \mathcal{A},
+(S \dashv_{\ \mathscr{C},\mathscr{F}}\Lambda):\mathcal{T}\rightleftharpoons \mathcal{A},
 $$
 is a quadruple of functors
-\begin{center}\begin{xymatrix}
-\mathcal{T}\ar@<0.1cm>[r]^{S}\ar@(dl,ul)[]^{C}&\mathcal{A}\ar@<0.1cm>[l]^{\Lambda}\ar@(ur,dr)[]^{F}
-\end{xymatrix}\end{center}
+$$
+\mathscr{C}:\mathcal{T} \to \mathcal{T}
+,\quad
+\mathscr{F}:\mathcal{A} \to \mathcal{A}
+,\quad
+S:\mathcal{T} \to \mathcal{A}
+,\quad
+\Lambda:\mathcal{A} \to \mathcal{T}
+$$
 with $S$ the left quasiadjoint and $\Lambda$ the right quasiadjoint, equipped with a natural span in $\mathcal{T}$ and a natural cospan in $\mathcal{A}$
-\begin{center}
-\begin{xymatrix}
-Id_{\mathcal{T}}& C \ar@{=>}[l]_{\eta'}^{\sim}\ar@{=>}[r]^{\eta}
-& \Lambda S
-&&
-& S \Lambda \ar@{=>}[r]^{\epsilon}
-&F
-& Id_{\mathcal{A}} \ar@{=>}[l]_{\epsilon'}^{\sim} 
-\end{xymatrix}
-\end{center}
+$$
+\eta':\mathscr{C}\xRightarrow{\sim} Id_{\mathcal{T}}
+,\quad
+\eta:\mathscr{C}\Rightarrow \Lambda S
+,\qquad
+\epsilon:S \Lambda \Rightarrow \mathscr{F},
+\quad
+\epsilon':Id_{\mathcal{A}}\xRightarrow{\sim}\mathscr{F}
+$$
 
 such that
 
@@ -63,19 +68,19 @@ between the homotopy categories.
 
 ## Finite relative recognition theorem
 
-Let $1\leq N\leq \infty$ and $\mathcal{SC}_N$ be the cubical Swiss Cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^2$ of pairs of pointed topological spaces. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the mixed model structure induced by the one on $Top_*^2$. We denote pairs of pointed spaces as $X=(X_{c},X_{o})$.
+Let $1\leq N\leq \infty$ and $\mathcal{SC}_N$ be the cubical Swiss Cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^{\{c, o\}}$ of pairs of pointed topological spaces.  We denote pairs of pointed spaces as $X=(X_{c},X_{o})$. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the mixed model structure induced by the one on $Top_*^{\{c, o\}}$.
 
 Denote by $Top_*^\rightarrow$ the category of pointed maps, equipped with the mixed projective model structure. We denote maps as $Y=(Y:Y_0\rightarrow Y_1)$.
 
 \begin{definition}
 For $1 \leq N \lt \infty$ the relative $N$-loop space functor is
 $$
-  \Omega^N_2:Top_*^{\rightarrow}\rightarrow Top_*^2,\qquad \Omega^N_2(Y)\coloneqq(Y_1^{\mathbb{S}^N},(Y_0\times_{Y_1} Y_1^I)^{\mathbb{S}^{N-1}}).
+  \Omega^N_2:Top_*^{\rightarrow}\rightarrow Top_*^{\{c,o\}},\qquad \Omega^N_2(Y)\coloneqq(Y_1^{\mathbb{S}^N},(Y_0\times_{Y_1} Y_1^I)^{\mathbb{S}^{N-1}}).
 $$
 
 The $N$-suspension functor is
 $$
-\Sigma^N_\to : Top_*^2\to Top_*^\to, \qquad
+\Sigma^N_\to : Top_*^{\{c,o\}}\to Top_*^\to, \qquad
 \Sigma^N_\to(X)\coloneqq
 (X_{o} \wedge \mathbb{S}^{N-1} \to ((X_o \wedge I) \vee(X_c \wedge \mathbb{S}^1)) \wedge \mathbb{S}^{N-1} ).
 $$
