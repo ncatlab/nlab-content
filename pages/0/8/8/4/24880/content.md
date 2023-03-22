@@ -25,7 +25,7 @@
 By the *linear reader monad* or *quantum reader monad* we shall mean the [[reader monad]] but on the [[category]] of [[vector spaces]] (in applications specifically of [[complex vector spaces]], though essentially all discussion here applies over any [[ground field]]):
 
 $$
-  S \,\colon\, Set
+  B \,\colon\, Set
   \;\;\;\;\;
   \vdash
   \;\;\;\;\;
