@@ -9,6 +9,6 @@ On [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]], relating to [[D=2 
 
 On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-brane models]] and [[Gepner models]]:
 
-* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building* &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
 
 category: people
