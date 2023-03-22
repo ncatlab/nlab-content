@@ -89,6 +89,11 @@ Reviews with emphasis on the AQFT-local-nets point of view:
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _QFT on curved spacetimes: axiomatic framework and examples_ ([arXiv:1412.5125](http://arxiv.org/abs/1412.5125))
 
+On the [[perturbative algebraic quantum field theory|locally covariant pAQFT approach]] to effective [[quantum gravity]] and applications to experiment:
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Kasia Rejzner]], *Locally covariant approach to effective quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07800](https://arxiv.org/abs/2212.07800)&rbrack;
+
+
 There is also a complementary approach via [[OPEs]]:
 
 * [[Stefan Hollands]], [[Robert Wald]], _Axiomatic quantum field theory in curved spacetime_, Commun. Math. Phys. 293:85-125, 2010 ([arXiv:0803.2003](https://arxiv.org/abs/0803.2003))
