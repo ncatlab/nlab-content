@@ -253,7 +253,7 @@ in non-negative degrees in
  
 and in unbounded degrees in
 
-* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of Pure and Applied Algebra Volume 162, Issues 2&#8211;3, 24 August 2001, Pages 209&#8211;250 ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of Pure and Applied Algebra Volume 162, Issues 2&#8211;3, 24 August 2001, Pages 209&#8211;250 &lbrack;[arXiv:math/9812034](http://arxiv.org/abs/math/9812034), <a href="https://doi.org/10.1016/S0022-4049(00)00121-3">doi:10.1016/S0022-4049(00)00121-3</a&rbrack;
 
 
 * {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
