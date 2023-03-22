@@ -289,6 +289,21 @@ Break: 3:50-4:20 pm
 > $\phantom{-----}$ &lbrack;logo adapted from [[schreiber:M/F-Theory as Mf-Theory|arXiv:2103.01877]]&rbrack;
 
 
+{#QFTandCobordism2023GroupPhoto} $\;\;$
+
+<img src="https://ncatlab.org/nlab/files/QFTandCobordism2023-GroupPhoto.jpg" width="750">
+
+
+[[Mee Seong Im]], [[Mikhail Khovanov]], [[Vivek Singh]], [[Sergei Gukov]], [[Anna Beliakova]],  [Khaled Qazaqzeh](https://math.sci.kuniv.edu.kw/people/faculty/khaled-qazaqezeh)
+
+[[Domenico Fiorenza]], [[Carlo Collari]], [[Sadok Kallel]] [[Nafaa Chbili]], [[Christian Blanchet]], [[David Jaz Myers]]
+
+$\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Nitu Kitchloo]], [[Daniel Berwick-Evans]], [[Adrian Clough]]
+
+[[Sachin Valera]], [Alonso Perez Lona](https://mathoverflow.net/users/172910/alonso-perez-lona), [[Urs Schreiber]] $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Daniel Grady]], [[Christoph Schweigert]]
+
+$\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Hisham Sati]], [[Konrad Waldorf]], [[Dmitri Pavlov]]
+
 \linebreak
 
 * {#KhovanovMar2023} [[Mikhail Khovanov]] (Columbia University):
