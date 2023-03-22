@@ -96,3 +96,5 @@ If $\bar f$ in the above decomposition is always an [[isomorphism]], then the pr
 The concept "pre-abelian category" is part of a sequence of concepts of [[additive and abelian categories]].
 
 [[!redirects pre-abelian categories]]
+[[!redirects preabelian categories]]
+[[!redirects preabelian category]]
