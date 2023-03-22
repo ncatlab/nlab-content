@@ -99,8 +99,7 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 
 * {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford 2011
 
-
-* wikipedia: [black hole](http://en.wikipedia.org/wiki/Black_hole)
+* Wikipedia, *[Black hole](http://en.wikipedia.org/wiki/Black_hole)*
 
 * [[Croatian black hole school]], 2010
 
@@ -116,7 +115,10 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 
 * [[Robert Wald]], _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press 1994; _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__, 1 (1977)
 
-* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, [http://arxiv.org/abs/arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)
+With focus on regular black holes:
+
+* Chen Lan, Hao Yang, Yang Guo, Yan-Gang Miao, *Regular black holes: A short topic review* &lbrack;[arXiv:2303.11696](https://arxiv.org/abs/2303.11696)&rbrack;
+
 
 
 ### In supergravity
