@@ -1,4 +1,4 @@
 
-* [website](http://www.mathematik.uni-regensburg.de/Blohmann/)
+* [website](https://people.mpim-bonn.mpg.de/blohmann/)
 
 category: people
