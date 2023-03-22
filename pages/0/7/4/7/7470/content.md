@@ -95,6 +95,12 @@ See also
 
 * {#Haugseng15} [[Rune Haugseng]], _Bimodules and natural transformations for enriched ∞-categories_ ([arXiv:1506.07341](http://arxiv.org/abs/1506.07341))
 
+On [[(infinity,1)-colimits|$\infty$-colimits]] and [[Day convolution]] in the context of [[enriched (infinity,1)-categories|enriched $\infty$-categories]]:
+
+* [[Vladimir Hinich]], *Colimits in enriched ∞-categories and Day convolution*, Theory and Applications of Categories **39** 12 (2023) 365-422 &lbrack;[tac:39-12](http://www.tac.mta.ca/tac/volumes/39/12/39-12abs.html), [arXiv:2101.09538](https://arxiv.org/abs/2101.09538)&rbrack;
+
+
+
 [[!redirects enriched (∞,1)-category]]
 [[!redirects enriched (∞,1)-categories]]
 
