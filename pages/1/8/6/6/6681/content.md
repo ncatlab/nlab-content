@@ -83,6 +83,10 @@ On [[magnetic black holes]]:
 
 * [[Juan Maldacena]], *Comments on magnetic black holes*,  J. High Energ. Phys. **2021** 79 (2021) &lbrack;[arXiv:2004.06084](https://arxiv.org/abs/2004.06084), <a href="https://doi.org/10.1007/JHEP04(2021)079">doi:10.1007/JHEP04(2021)079</a>&rbrack;
 
+Exposition of the [[BFSS matrix model]] in view of the [[holographic principle]]:
+
+* [[Juan Maldacena]], *A simple quantum system that describes a black hole* &lbrack;[arXiv:2303.11534](https://arxiv.org/abs/2303.11534)&rbrack;
+
 
 ## Related entries
 
