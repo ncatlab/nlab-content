@@ -123,8 +123,17 @@ Note that $n=2$ is the greatest value of $n$ for which every weak $n$-category i
 
 The [[proof]] of the coherence theorem is basically the same as the proof of the [[coherence theorem for monoidal categories]].  An abstract approach can be found in [Power 1989](#Power89). For a related statement see at *[[Lack's coherence theorem]]*.
 
-The [[rectification]] [[adjunction]] between [[bicategories]] and [[strict 2-categories]] can be expressed in terms of [[3-categories]]; see [Campbell](#Campbell18).
+The [[rectification]] [[adjunction]] between [[bicategories]] and [[strict 2-categories]] can be expressed in terms of a [[coreflection|coreflective]] [[triadjunction]] between [[tricategories]]; see [Campbell](#Campbell18).
 
+\begin{tikzcd}
+	{2\text{-}\mathrm{Cat}} & {\mathrm{Bicat}}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "{\mathrm{str}}"', shift right=2, from=1-2, to=1-1]
+	\arrow[""{name=1, anchor=center, inner sep=0}, shift right=2, from=1-1, to=1-2]
+	\arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=0, to=1]
+\end{tikzcd}
+
+Consequently, for any bicategory $B$ and 2-category $A$:
+$$2\text{-}\mathrm{Cat}(\mathrm{str} B, A) \simeq \mathrm{Bicat}(B, A)$$
 
 ## Terminology
 
