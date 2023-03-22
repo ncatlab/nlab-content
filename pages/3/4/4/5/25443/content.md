@@ -166,7 +166,7 @@ $$
 
 This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-1)$-connected and $Y_1$ is $N$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are the $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
 
-The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^N\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the two-sided bar construction.
+The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^\to\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the two-sided bar construction.
 
 \begin{definition}
   The relative $N$-delooping functor is
@@ -223,5 +223,45 @@ $$
 $$
 \end{definition}
 
-We have a natural stable weak equivalence $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad.
+We have a natural stable weak equivalence $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad, which is the left Bousfield localization of the strict mixed model structure on the pairs of stable weak equivalences.
 
+\begin{definition}
+  The relative base pair of spaces functor is
+$$
+\Lambda^\infty_2:Sp^{\nearrow}\to Top_*^{\{c,o\}},
+\qquad \Lambda^\infty_2(Y)\coloneqq (Y_{10},Y_{00}\times_{Y_{11}}Y_{11}^I).
+$$
+The relative $\infty$-loop pair of spaces functor is 
+$$\Omega^\infty_2:=\Lambda^\infty_2\widetilde{\Omega}_{\nearrow}:Sp^{\nearrow}\to Top_*^{\{c,o\}}.
+$$
+\end{definition}
+
+The images of $\Omega^\infty_2$ are naturally algebras over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$, so we have an induced functor $\Omega^\infty_2:Sp^{\nearrow}\rightarrow \mathcal{SC}_\infty[Top]$. 
+
+\begin{definition}
+The relative $\infty$-delooping functor is
+$$
+B^\infty_\nearrow:\mathcal{SC}_\infty[Top]\to Sp_\nearrow,
+\qquad 
+B^\infty_\nearrow(X)_\bullet\coloneqq B(\Sigma^{\bullet+1}_\to,SC_{\bullet+1},X).
+$$
+\end{definition}
+
+\begin{definition}
+  The resolution of $\mathcal{SC}_\infty$-spaces functor is
+$$
+\overline{B}_2:\mathcal{SC}_\infty[Top]\to\mathcal{SC}_\infty[Top],\qquad \overline{B}_2(X)=B(SC_\infty,SC_\infty,X).
+$$
+\end{definition}
+
+\begin{theorem}
+  We have an idempotent weak Quillen quasiadjunction
+$$
+  (B^\infty_\nearrow\dashv_{\ \overline{B}_2,\widetilde{\Omega}_\nearrow}\Omega^\infty_2):\mathcal{SC}_\infty[Top]\leftrightharpoons Sp^\nearrow
+$$
+which induces an equivalence 
+$$
+(\mathbb{L}B^\infty_\nearrow\dashv\mathbb{R}\Omega^\infty_2):\mathcal{H}o\mathcal{SC}_\infty[Top]_{grp}\leftrightharpoons \mathcal{H}o Sp^\nearrow_{con}
+$$
+between the homotopy subcategory of grouplike Swiss-Cheese spaces and the homotopy category of shifted spectra maps between connective spectra.
+\end{theorem}
