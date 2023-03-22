@@ -11,6 +11,11 @@ On [[anyons]]:
 
 *  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 $[$[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)$]$
 
+On the [[perturbative algebraic quantum field theory|locally covariant pAQFT approach]] to effective [[quantum gravity]] and applications to experiment:
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Kasia Rejzner]], *Locally covariant approach to effective quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07800](https://arxiv.org/abs/2212.07800)&rbrack;
+
+
 
 ## Related pages
 
