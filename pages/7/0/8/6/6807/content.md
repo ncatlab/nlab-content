@@ -116,13 +116,18 @@ In view of [[flat space holography]]:
 
 * [[Leonard Susskind]], *Holography in the flat space limit*, AIP Conf.Proc. 493 (1999) 1, 98-112,  ([spire](https://inspirehep.net/literature/482388), [arXiv:hep-th/9901079](https://arxiv.org/abs/hep-th/9901079), [doi:10.1063/1.1301570](https://doi.org/10.1063/1.1301570))
 
-Review includes
+Review:
 
 * [[Tom Banks]], _Matrix Theory_, Nucl.Phys.Proc.Suppl. 67 (1998) 180-224 ([arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231))
 
 * [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev. Mod. Phys. 73:419-462, 2001 ([arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126))
 
 * {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+
+Review in the context of the [[holographic principle]]:
+
+* [[Juan Maldacena]], *A simple quantum system that describes a black hole* &lbrack;[arXiv:2303.11534](https://arxiv.org/abs/2303.11534)&rbrack;
+
 
 A review of further developments is in 
 
