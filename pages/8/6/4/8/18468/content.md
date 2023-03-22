@@ -152,6 +152,8 @@ Survey and exposition of locally covariant algebraic quantum field theory beyond
 
 * {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
+* {#BrunettiFredenhagenTejzner23} [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Kasia Rejzner]], *Locally covariant approach to effective quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07800](https://arxiv.org/abs/2212.07800)&rbrack;
+
 
 ### Original articles
 
