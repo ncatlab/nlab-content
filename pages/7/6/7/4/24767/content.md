@@ -5,7 +5,7 @@ See there for introductory material.
 ## Theory
 ### [[2-category equipped with proarrows|Equipments]]
 * [[David Jaz Myers]], _String diagrams for double categories and (virtual) equipments_, [(arXiv)](https://arxiv.org/abs/1612.02762), 2016
-* [[Mike Shulman]], _Equipments_, [(n-Cafè)](https://golem.ph.utexas.edu/category/2009/11/equipments.html), 2009
+* [[Mike Shulman]], _Equipments_, [(n-Caf&eacute;)](https://golem.ph.utexas.edu/category/2009/11/equipments.html), 2009
 * [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, [(arXiv)](https://arxiv.org/abs/0706.1286), 2009
 * Max New, Dan Licata, _A Formal Logic for Formal Category Theory_, [(arXiv)](https://arxiv.org/abs/2210.08663), 2022
 
