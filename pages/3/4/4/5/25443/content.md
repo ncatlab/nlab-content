@@ -91,9 +91,6 @@ such that:
 \end{definition}
 
 
-The above definition can be dualized. The resulting idempotent quasicomonads induce right Bousfield localizations and associated coreflective homotopy subcategories.
-
-
 \begin{theorem}
   An idempotent quasimonad induces a left Bousfield localization $\mathcal{T}_Q=(\mathcal{T};W_Q,C_Q,F_Q)$ with $W_Q=Q^{-1}W$, $C_Q=C$ and $F_Q\subset F$ the subset composed of the fibrations $p\in F$ such that
 \begin{center}
@@ -110,6 +107,8 @@ of $Q$-fibrant objects.
 
 \end{theorem}
 
+
+The above definition can be dualized. The resulting idempotent quasicomonads induce right Bousfield localizations and associated coreflective homotopy subcategories.
 
 ### Idempotent quasiadjunctions
 
@@ -167,7 +166,7 @@ $$
 
 This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-1)$-connected and $Y_1$ is $N$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are the $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
 
-The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^N\rightarrow \mathcal{SC}[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the two-sided bar construction.
+The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^N\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the two-sided bar construction.
 
 \begin{definition}
   The relative $N$-delooping functor is
@@ -179,14 +178,14 @@ $$
 \begin{definition}
   The resolution of $\mathcal{SC}_N$-spaces functor is
 $$
-\overline{B}_2^N:\mathcal{SC}_N[Top]\to\mathcal{SC}_N[Top],\qquad \overline{B}_2^N(X)=B(SC_N,SC_N,X).
+\overline{B}_2:\mathcal{SC}_N[Top]\to\mathcal{SC}_N[Top],\qquad \overline{B}_2(X)=B(SC_N,SC_N,X).
 $$
 \end{definition}
 
 \begin{theorem}
   If $N\geq 3$ then we have an idempotent weak Quillen quasiadjunction
 $$
-  (B^N_\to\dashv_{\ \overline{B}^N_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to_{N-1}
+  (B^N_\to\dashv_{\ \overline{B}_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to_{N-1}
 $$
 which induces an equivalence 
 $$
@@ -206,14 +205,23 @@ $$
 
 $$ 
 ((f_{1\bullet},Y_{\bullet-1}),\sigma_{\bullet-1})
-:(X_{1\bullet}\vee_{X_{0(\bullet-2)}}Y_{0(\bullet-2)})\vee_{(X_{1(\bullet-1)}\vee_{X_{0(\bullet-2)}}Y_{0(\bullet-2)})\wedge\mathbb{S}^1} Y_{1(\bullet-1)}\wedge\mathbb{S}^1 \to Y_{1\bullet}
+:(X_{1\bullet}\vee_{X_{0(\bullet-1)}}Y_{0(\bullet-1)})\vee_{(X_{1(\bullet-1)}\vee_{X_{0(\bullet-2)}}Y_{0(\bullet-2)})\wedge\mathbb{S}^1} Y_{1(\bullet-1)}\wedge\mathbb{S}^1 \to Y_{1\bullet}
 $$
 are $m$-cofibrations.
 
 \begin{definition}
 The spectrification functor is
 $$
-\widetilde{\Omega}:Sp\to Sp,\qquad \widetilde{\Omega}(Y)_\bullet\coloneqq \colim_{q\to\infty} \overline Y_{\bullet+q}^{\mathbb{S}^q}
+\widetilde{\Omega}:Sp\to Sp,\qquad \widetilde{\Omega}(Y)_\bullet\coloneqq \colim_{q\to\infty} \widetilde Y_{\bullet+q}^{\mathbb{S}^q}
 $$
+where $\widetilde{Y}$ is a certain inclusion prespectrum constructed from $Y$, equipped with a quotient map $Y\to \widetilde{Y}$ \cite[Appendix 1]{LMS}. If $Y$ is already an inclusion spectrum then $\widetilde Y=Y$. 
 
+This functor induces a spectrification functor 
+$$
+\widetilde{\Omega}_{\nearrow}:Sp^{\nearrow}\to Sp^{\nearrow}
+,\qquad \widetilde{\Omega}_{\nearrow}(Y)\coloneqq(\widetilde{\Omega}(Y):\widetilde{\Omega}(Y_0)\to \widetilde{\Omega}(Y_1)[1]).
+$$
 \end{definition}
+
+We have a natural stable weak equivalence $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad.
+
