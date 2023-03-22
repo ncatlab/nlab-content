@@ -384,7 +384,7 @@ Press, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl1.pdf)
 
 * Erwin Dassen , _Adeles & Ideles_ ([pdf](http://www.math.leidenuniv.nl/~astolk/monday/notes/dassen-adeles-ideles.pdf))
 
-* {#Weston} Tom Weston, _The idelic approach to number theory_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
+* {#Weston} Tom Weston, _The idelic approach to number theory_ ([pdf](https://drive.google.com/file/d/1PK0lPR7yq-1s1aooX4ZLr_zY4s2Ej36z/view))
 
 * [MO/96137/categorical-description-of-the-restricted-product-adeles](http://mathoverflow.net/questions/96137/categorical-description-of-the-restricted-product-adeles)
  
