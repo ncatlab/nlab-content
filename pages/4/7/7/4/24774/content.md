@@ -1,6 +1,7 @@
 
 This page compiles pointers to material contained in the (upcoming) book collection:
 
+
 \linebreak
 
 * C. Bambi, L. Modesto and [[Ilya Shapiro]]:
@@ -241,9 +242,9 @@ On a formulation of [[entanglement entropy]] of a quantum [[scalar field]] in te
 
 \linebreak
 
-On recent constructions of four-dimensional [[vacuum|vacua]] of [[type II string theory]] and [[F-theory]] which yield the [[standard model of particle physics|Standard Model]] or extensions thereof:
+On [[string phenomenology]] constructions of four-dimensional [[vacuum|vacua]] of [[type II string theory]] and [[F-theory]] which yield something similar to the [[standard model of particle physics|Standard Model]] or extensions thereof ([[MSSM]]):
 
-* [[Fernando Marchesano]], Bert Schellekens, [[Timo Weigand]], *D-brane and F-theory Model Building*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
+* [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
 
 \linebreak
 
