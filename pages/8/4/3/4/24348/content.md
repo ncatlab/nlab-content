@@ -6,6 +6,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |-----|------|----|---|------|
 |[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| | 
 |[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
+|Functor theory|[[Peter Freyd]]|1960| | |
 |Categories of Set Valued Functors|[[Marta Bunge]]|1966| | on [[categories of presheaves]] |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
 |Limit monads in categories|[[Anders Kock]]|1967|[proquest](https://www.proquest.com/openview/61883e900f1fd8585fe4dfc4c3f271dc)| on [[lax idempotent 2-monads]] |
@@ -14,11 +15,13 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Construction of Biclosed Categories|[[Brian Day]]|1970|[Scan](http://web.science.mq.edu.au/~street/DayPhD.pdf)| |
 |A categorical approach to universal algebra|[[Bob Walters]]|1970|[ANU repository](https://openresearch-repository.anu.edu.au/handle/1885/133321)| on [[universal algebra]] |
 |Self-Dual Structure-Semantics and Algebraic Categories|Michel Thiébaud|1971| | |
+|Tensor and cotensor products of bifunctors|George D. Reynolds|1973| | |
 |Some Aspects of Internal Category Theory in an Elementary Topos|[[Peter Johnstone]]|1974| | |
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
 |Théorie formelle des bicatégories|Syméon Bozapalides|1976| <a href="https://ncatlab.org/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Indical methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
+|Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content)| |
 |Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
 |Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| on [[exponentiable objects]] (there called "cartesian objects") |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
@@ -54,11 +57,12 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Compact symmetric multicategories and the problem of loops|Sophie Raynor|2018|[Aberdeen repository](https://abdn.alma.exlibrisgroup.com/discovery/delivery/44ABE_INST:44ABE_VU1/12153018780005941)| |
 |Homotopy theory of Grothendieck ∞-groupoids and ∞-categories|Edoardo Lanari|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269609)| | 
 |Restriction presheaves and restriction colimits|Daniel Lin|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269712)| |
-|Structures in two dimensional category theory and applications to polynomial functors|Charles Walker|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1270211)| | 
+|Structures in two dimensional category theory and applications to polynomial functors|Charles Walker|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1270211)| |
+|The Scott adjunction|Ivan Di Liberti|2020|[arXiv](https://arxiv.org/abs/2009.07320)| |
 |The Gray tensor product for 2-quasi-categories|Yuki Maehara|2020|[Macquarie repository](http://hdl.handle.net/1959.14/1284564)| |
 |Monadic and Higher-Order Structure|Nathanael Arkor|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| |
 |Pseudomonads, Relative Monads and Strongly Finitary Notions of Multicategory|Gabriele Lobbia|2022|[Leeds repository](https://etheses.whiterose.ac.uk/30578/)| |
-|Enriched Categories and their Applications|Giacomo Tendas|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
+|Topics in the theory of enriched accessible categories|Giacomo Tendas|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
 
 
 ## Related pages
