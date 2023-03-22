@@ -38,10 +38,10 @@ The dual notion is that of [[power]]ing.
 +-- {: .un_defn}
 ###### Definition
 
-Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k\odot x \in C$ with a [[natural isomorphism]]
+Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k \cdot x \in C$ with a [[natural isomorphism]]
 
 $$
-  C(k\odot x, y) \cong V(k, C(x,y))
+  C(k \cdot x, y) \cong V(k, C(x,y))
 $$
 
 where $C(-,-)$ is the $V$-valued [[hom-functor]] of $C$ and $V(-,-)$ is the [[internal hom]] of $V$.
@@ -144,8 +144,8 @@ A particularly illuminating instance of Example \ref{CopoweringOfSmallCategories
   The copower $\otimes\colon Set\times Mon\to Mon$ also endows $Mon$ with [[skew monoidal]] structures $\triangleleft$ and $\triangleright$, given by
   $$
   \begin{aligned}
-      A\triangleleft B  &= |B|\odot A,\\
-      A\triangleright B &= |A|\odot B
+      A\triangleleft B  &= |B| \cdot A,\\
+      A\triangleright B &= |A| \cdot B
   \end{aligned}
   $$
   for each $A,B\in Obj(Mon)$, where $|A|$ and $|B|$ are the underlying sets of $A$ and $B$. While monoids in $CMon$ with respect to the [[tensor product of commutative monoids]] are [[semirings]], monoids in $Mon$ with respect to $\triangleleft$ and $\triangleright$ recover left and right [[near-semirings]].
