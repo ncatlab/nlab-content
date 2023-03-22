@@ -112,7 +112,7 @@ The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the mu
 
 * [[FinInj]]
 
-
+* [[axiom of finiteness]]
 
 ## References
 
