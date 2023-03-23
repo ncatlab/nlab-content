@@ -23,7 +23,7 @@
 
 ## Idea ##
 
-The notion of _weighted limit_ (also called _indexed limit_ in older texts) is naturally understood from the point of view on [[limits]] as described at _[[representable functor]]_:
+The notion of _weighted limit_ (also called _indexed limit_ or _mean cotensor product_ in older texts) is naturally understood from the point of view on [[limits]] as described at _[[representable functor]]_:
 
 Weighted limits make sense and are considered in the general context of $V$-[[enriched category theory]], but restrict attention to $V=$ [[Set]] for the moment, in order to motivate the concept.
 
@@ -287,4 +287,8 @@ The analogous notion of weighted [[(infinity,1)-limit]] is discussed in
 * Martina Rovelli, _Weighted limits in an (∞,1)-category_, 2019, [arxiv:1902.00805](https://arxiv.org/abs/1902.00805)
 
 [[!redirects weighted limits]]
+[[!redirects indexed limit]]
+[[!redirects indexed limits]]
+[[!redirects mean cotensor product]]
+[[!redirects mean cotensor products]]
 
