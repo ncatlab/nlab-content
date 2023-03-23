@@ -664,7 +664,7 @@ In this context there is also:
 
 See also at [[supersymmetric quantum mechanics]] and see
 
-* [[Albert Schwarz]], [[Ilya Shapiro]], *Twisted de Rham cohomology, homological definition of the integral and "Physics over a ring"*, Nucl. Phys. B **809** (2009) 547-560 &lbrack;[arXiv:0809.0086](https://arxiv.org/abs/0809.0086), &lbrack;[doi:10.1016/j.nuclphysb.2008.10.005](https://doi.org/10.1016/j.nuclphysb.2008.10.005)&rbrack;
+* [[Albert Schwarz]], [[Ilya Shapiro]], *Twisted de Rham cohomology, homological definition of the integral and "Physics over a ring"*, Nucl. Phys. B **809** (2009) 547-560 &lbrack;[arXiv:0809.0086](https://arxiv.org/abs/0809.0086), [doi:10.1016/j.nuclphysb.2008.10.005](https://doi.org/10.1016/j.nuclphysb.2008.10.005)&rbrack;
 
 
 
