@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -46,7 +47,7 @@ such that for every $X,Y,Z \colon \mathbf J$ and $k \colon J X \to T Y$ the foll
 
 1. _(right [[unitality]])_ $\eta_X^* = 1_{T X}$,
 
-1. _([[associativity]])_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $\ell : J Y \to T Z$.
+1. _([[associativity]])_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $k \colon J X \to T Y$ and $\ell \colon J Y \to T Z$.
 
 \end{definition}
 
@@ -70,7 +71,7 @@ In the special case that $\mathbf{J} = \mathbf{C}$ and $J = id$ the [[identity f
 
 ### As monoids in a skew-monoidal category
 
-The notion of a *[[skew-monoidal category]]* is like that of a [[monoidal category]] except that the [[unitors]] and [[associators]] are not necessarily [[invertible morphism|invertible]]. [[Monoids]] may be defined in a [[skew-monoidal category]] analogously as to in a [[monoidal category]].
+The notion of a *[[skew-monoidal category]]* is like that of a [[monoidal category]] except that the [[unitors]] and [[associators]] are not necessarily [[invertible morphism|invertible]]. [[monoid|Monoids]] may be defined in a [[skew-monoidal category]] analogously as to in a [[monoidal category]].
 
 In the general case that $\mathbf{J}$ is distinct from $\mathbf{C}$,  the [[functor category]] $Func(\mathbf J, \mathbf C)$ lacks a natural [[monoidal category]] [[structure]] (as opposed to the case of [[endofunctors]] $Func(\mathbf{C}, \mathbf{C})$) so that the usual definition of [[monads]] as [[monoids]] cannot apply --- but a suitable "skew" variant works:
 
