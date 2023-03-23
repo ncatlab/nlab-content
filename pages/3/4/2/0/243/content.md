@@ -519,7 +519,7 @@ if either side exists.
 
 +-- {: .num_prop #NatTrans}
 ###### Proposition
-Let $F, G: C \to D$ be [[functors]] between two categories, and let $Nat (F, G)$ be the set of [[natural transformations]] between them. Then we have
+Let $F, G: C \to D$ be [[functors]] between two categories, and let $[C, D] (F, G)$ be the set of [[natural transformations]] between them. Then we have
 $$
   [C, D] (F, G) = \int_{c \in C} D(F(c), G(c)).
 $$
