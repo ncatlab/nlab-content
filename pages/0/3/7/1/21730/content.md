@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-A cofunctor is a kind of morphism between [[category|categories]] (not to be confused with a [[contravariant functor]]). In contrast to a [[functor]], the assignment on objects of a cofunctor goes in the _opposite_ direction to the assignment on morphisms. 
+A **cofunctor** or **retrofunctor** is a kind of morphism between [[category|categories]] (not to be confused with a [[contravariant functor]]). In contrast to a [[functor]], the assignment on objects of a cofunctor goes in the _opposite_ direction to the assignment on morphisms. 
 
 Cofunctors generalise both [[bijective on objects functor|bijective-on-objects functors]] and [[discrete fibration|discrete opfibrations]]. 
 
@@ -127,3 +127,13 @@ The notion of cofunctor between partite [[internal category|internal categories]
 A detailed account of the relationship between cofunctors and polynomials appears in Chapter 6 of the draft textbook: 
 
 * {#SpivakNiu21} [[David Spivak]], Nelson Niu, _Polynomial Functors: A General Theory of Interaction_, 2021 ([pdf](https://topos.site/poly-book.pdf))
+
+The terminology _retrofunctor_ was introduced in:
+
+* Matthew Di Meglio. _The category of asymmetric lenses and its proxy pullbacks_. Master’s thesis. Macquarie University, 2021. doi: 10.25949/20236449, [pdf](https://mdimeglio.github.io/papers/The_category_of_asymmetric_lenses_and_its_proxy_pullbacks.pdf)
+
+The terminology is justified by the fact that retrofunctors are [[monad retromorphisms]] in the double category $Span(Set)$.
+
+[[!redirects cofunctors]]
+[[!redirects retrofunctor]]
+[[!redirects retrofunctors]]
