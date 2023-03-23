@@ -4,7 +4,7 @@ This page compiles pointers to material contained in the (upcoming) book collect
 
 \linebreak
 
-* C. Bambi, L. Modesto and [[Ilya Shapiro]]:
+* C. Bambi, L. Modesto and [[Ilya L. Shapiro]]:
 
   \linebreak
 
