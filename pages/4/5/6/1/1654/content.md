@@ -1,6 +1,6 @@
 ## Idea
 
-A weighted colimit is a concept of [[colimit]] suitable for [[enriched category theory]], dual (in the enriched sense) to the concept of [[weighted limit]]. 
+A weighted colimit (also called _indexed colimit_ or _mean tensor product_ in older texts) is a concept of [[colimit]] suitable for [[enriched category theory]], dual (in the enriched sense) to the concept of [[weighted limit]]. 
 
 ## Motivation ## 
 
@@ -100,3 +100,7 @@ To be filled in. The [[tensor product of functors]] is a general example.
 * Notes by Emily Riehl based on a talk by Mike Shulman [Weighted Limits and Colimits](http://www.math.jhu.edu/~eriehl/weighted.pdf)
 
 [[!redirects weighted colimits]]
+[[!redirects indexed colimit]]
+[[!redirects indexed colimits]]
+[[!redirects mean tensor product]]
+[[!redirects mean tensor products]]
