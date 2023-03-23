@@ -277,7 +277,7 @@ Textbook account:
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 12.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
-* {#Grandis19} [[Marco Grandis]], _Higher dimensional categories: from double to multiple categories_, [World Scientific]((https://doi.org/10.1142/11406)), 2019
+* {#Grandis19} [[Marco Grandis]], _Higher dimensional categories: from double to multiple categories_, World Scientific, 2019. ([doi:10.1142/11406](https://doi.org/10.1142/11406))
 
 See also:
 
