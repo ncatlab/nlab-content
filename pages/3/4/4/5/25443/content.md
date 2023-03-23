@@ -4,18 +4,24 @@
 
 ## Idea
 
-The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of pointed topolological spaces is of the homotopy type of a relative $N$-loop space pair of some $(N-1)$-connected topological pair if and only if it is a grouplike algebra over the Swiss-Cheese relative operad $\mathcal{SC}_N$.
+The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of pointed topolological spaces is of the homotopy type of a relative $N$-loop space pair of some $(N-1)$-connected topological pair if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$.
 
-The recognition principle for infinite relative loop spaces states that a pair of pointed toplological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty$.
+The recognition principle for infinite relative loop spaces states that a pair of pointed toplological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
+
+These are relative versions of [[May recognition theorem]] ([May 72](#May72)), ([May 74](#May74)) of loop spaces.
+
+The recognition principle for relative $N$-loop spaces was proved in ([Vieira 2020](#VVieira2020)) for $3\leq N\leq \infty$. The proof there works in the cases $N=1,2$ if we assume the spaces connected. The general case for $N=1$ was proved in ([Hoefel, Livernet, Stasheff 2016](#HLS16)). The unconnected case for $N=2$ remains open.
+
+Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations.
 
 
 ## Idempotent weak Quillen quasiadjunctions
 
 ### Weak Quillen quasiadjunction
 
-The following definition introduced in Vi20 is a generalization of Quillen adjunctions between model categories. The basic idea is that to construct the unit and counit natural transformations of an adjuction between the homotopy categories it suffices to construct a unit natural span and counit natural cospan at the model categories level, plus some additional compatibility conditions.
+To construct the unit and counit natural transformations of an adjuction between homotopy categories of model categories it suffices to construct a unit natural span and counit natural cospan at the model categories level, plus some additional compatibility conditions.
 
-\begin{definition}\label{QsiAdjQuilFr} Let $\mathcal{T}$ and $\mathcal{A}$ be model categories. A weak Quillen quasiadjunction, or just quasiadjunction, between $\mathcal{T}$ and $\mathcal{A}$, denoted by 
+\begin{definition}\label{QsiAdjQuilFr} ([Vieira 2020, Definition 2.1.1](#VVieira2020)) Let $\mathcal{T}$ and $\mathcal{A}$ be model categories. A weak Quillen quasiadjunction, or just quasiadjunction, between $\mathcal{T}$ and $\mathcal{A}$, denoted by 
 $$
 (S \dashv_{\ \mathscr{C},\mathscr{F}}\Lambda):\mathcal{T}\rightleftharpoons \mathcal{A},
 $$
@@ -55,7 +61,10 @@ such that
  (vi) If $Y\in\mathcal{A}$ is fibrant then $\Lambda\epsilon_Y \eta_{\Lambda Y}\simeq \Lambda\epsilon'_Y\eta'_{\Lambda Y}$.
 \end{definition}
 
-\begin{theorem}
+If $\mathscr{C}$, $\mathscr{F}$, $\eta'$ and $\epsilon'$ are all identities we recover the notion of a weak Quillen adjunction. If we further require $S$ to preserve cofibrations and $\Lambda$ to preserve fibrations we get a Quillen adjunction. Though weaker the above information suffices to construct an adjunction at the homotopy categories level. 
+
+
+\begin{theorem} ([Vieira 2020, Theorem 2.1.2](#VVieira2020))
     A quasiadjunction induces an adjunction
 $$
     (\mathbb{L}S \dashv\mathbb{R}\Lambda):\mathcal{H}o \mathcal{T}\rightleftharpoons \mathcal{H}o \mathcal{A}
@@ -70,7 +79,7 @@ between the homotopy categories.
 
 The following generalization of idempotent Quillen monads \cite{BF78} was also introduced following the same principle of only requiring the existence of a unit natural span, and they also induce Bousfield localizations.
 
-\begin{definition}
+\begin{definition}([Vieira 2020, Definition 2.3.1](#VVieira2020))
     Let $\mathcal{T}$ be a right proper model category. A Quillen idempotent quasimonad on $\mathcal{T}$, or simply an \textit{idempotent quasimonad}, is a pair of endofunctors $Q,\overline{\mathscr{C}}:\mathcal{T}\rightarrow\mathcal{T}$ equipped with a natural span 
 $$
   \eta':\overline{\mathscr{C}}\xRightarrow{\sim}Id_{\mathcal{T}}
@@ -91,8 +100,8 @@ such that:
 \end{definition}
 
 
-\begin{theorem}
-  An idempotent quasimonad induces a left Bousfield localization $\mathcal{T}_Q=(\mathcal{T};W_Q,C_Q,F_Q)$ with $W_Q=Q^{-1}W$, $C_Q=C$ and $F_Q\subset F$ the subset composed of the fibrations $p\in F$ such that
+\begin{theorem}([Vieira 2020, Theorem 2.3.5 / Proposition 2.3.6](#VVieira2020))
+  An idempotent quasimonad induces a left Bousfield localization $\mathcal{T}_Q=(\mathcal{T};W_Q,C_Q,F_Q)$ with $W_Q=Q^{-1}W$, $C_Q=C$ and $F_Q\subset F$ the subset composed of the fibrations $(p:E\twoheadrightarrow B)\in F$ such that
 \begin{center}
 \begin{xymatrix@=0.5cm}    E\ar@{->>}[d]_p\ar[r]^(0.25){i_E}&E\sqcup_{\overline{C} E}QE\ar[d]^{(p,Qp)}\\
     B\ar[r]_(0.25){i_B}&B\sqcup_{\overline{C} B}QB
@@ -123,11 +132,11 @@ $$
 \quad
 \epsilon'_{Fib}fib:Id_{\mathcal{A}}\xRightarrow{\sim} \mathscr{F} Fib
 $$
-\begin{definition}
+\begin{definition}([Vieira 2020, Definition 2.3.7](#VVieira2020))
     An idempotent quasiadjunction is a quasiadjunction such that the induced span and cospan are respectively an idempotent quasimonad and an idempotent quasicomonad.
 \end{definition}
 
-\begin{theorem}
+\begin{theorem}([Vieira 2020, Theorem 2.3.8](#VVieira2020))
 An idempotent quasiadjunction induces an equivalence between the associated (co)reflective homotopy subcategories.
 $$
 (\mathbb{L}S\dashv\mathbb{R}\Lambda):
@@ -138,7 +147,7 @@ $$
 
 ## Finite relative recognition theorem
 
-In this section fix some $1\leq N\lt \infty$. Let $\mathcal{SC}_N$ be the cubical Swiss-Cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^{\{c, o\}}$ of pairs of pointed topological spaces.  We denote pairs of pointed spaces as $X=(X_{c},X_{o})$. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the mixed model structure induced by the one on $Top_*^{\{c, o\}}$.
+In this section fix some $1\leq N\lt \infty$. Let $\mathcal{SC}_N$ be the cubical Swiss cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^{\{c, o\}}$ of pairs of pointed topological spaces.  We denote pairs of pointed spaces as $X=(X_{c},X_{o})$. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the mixed model structure induced by the one on $Top_*^{\{c, o\}}$.
 
 Denote by $Top_*^\rightarrow$ the category of pointed maps, equipped with the mixed projective model structure. We denote maps as $Y=(Y:Y_0\rightarrow Y_1)$.
 
@@ -191,7 +200,7 @@ which induces an equivalence
 $$
 (\mathbb{L}B^N_\to\dashv\mathbb{R}\Omega^N_2):\mathcal{H}o\mathcal{SC}_N[Top]_{grp}\leftrightharpoons \mathcal{H}oTop^\to_{N-1}
 $$
-between the homotopy subcategory of grouplike Swiss-Cheese spaces and the homotopy category of $(N-1)$-connected pointed maps.
+between the homotopy subcategory of grouplike Swiss cheese algebras and the homotopy category of $(N-1)$-connected pointed maps.
 \end{theorem}
 
 
@@ -236,7 +245,7 @@ $$\Omega^\infty_2:=\Lambda^\infty_2\widetilde{\Omega}_{\nearrow}:Sp^{\nearrow}\t
 $$
 \end{definition}
 
-The images of $\Omega^\infty_2$ are naturally algebras over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$, so we have an induced functor $\Omega^\infty_2:Sp^{\nearrow}\rightarrow \mathcal{SC}_\infty[Top]$. 
+The images of $\Omega^\infty_2$ are naturally algebras over $\mathcal{SC}_\infty$, so we have an induced functor $\Omega^\infty_2:Sp^{\nearrow}\rightarrow \mathcal{SC}_\infty[Top]$. 
 
 \begin{definition}
 The relative $\infty$-delooping functor is
@@ -263,5 +272,17 @@ which induces an equivalence
 $$
 (\mathbb{L}B^\infty_\nearrow\dashv\mathbb{R}\Omega^\infty_2):\mathcal{H}o\mathcal{SC}_\infty[Top]_{grp}\leftrightharpoons \mathcal{H}o Sp^\nearrow_{con}
 $$
-between the homotopy subcategory of grouplike Swiss-Cheese spaces and the homotopy category of shifted spectra maps between connective spectra.
+between the homotopy subcategory of grouplike Swiss cheese algebras and the homotopy category of shifted spectra maps between connective spectra.
 \end{theorem}
+
+
+## References
+
+* {#HLS16} [[Eduardo Hoefel]], [[Muriel Livernet]], [[Jim Stasheff]], _$A_\infty$-actions and recognition of relative loop spaces_, Topology and its Applications,
+Vol. 206, 2016, Pages 126-147 ([arXiv:1312.7155](https://arxiv.org/abs/1312.7155),[doi:10.1016/j.topol.2016.03.023](https://doi.org/10.1016/j.topol.2016.03.023))
+
+* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Lecture Notes in Mathematics, Springer 1972 ([doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), [pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
+
+* {#May74} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_, New Developments in Topology, London Math. Soc. Lecture Note Series 11 (1974) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
+
+* {#VVieira2020} [[Renato Vasconcellos Vieira]], _Relative recognition principle_, Algebr. Geom. Topol. 20(3): 1431-1486 (2020) ([arXiv:1802.01530](https://arxiv.org/abs/1802.01530), [doi:10.2140/agt.2020.20.1431](https://doi.org/10.2140/agt.2020.20.1431))
