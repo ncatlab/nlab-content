@@ -4,7 +4,7 @@
 
 ## Idea
 
-The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of pointed topolological spaces is of the homotopy type of a relative $N$-loop space pair of some $(N-1)$-connected topological pair if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$.
+The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the homotopy type of a relative $N$-loop space pair of some $(N-1)$-connected topological pair if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$.
 
 The recognition principle for infinite relative loop spaces states that a pair of pointed toplological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
 
@@ -12,7 +12,7 @@ These are relative versions of [[May recognition theorem]] ([May 72](#May72)), (
 
 The recognition principle for relative $N$-loop spaces was proved in ([Vieira 2020](#VVieira2020)) for $3\leq N\leq \infty$. The proof there works in the cases $N=1,2$ if we assume the spaces connected. The general case for $N=1$ was proved in ([Hoefel, Livernet, Stasheff 2016](#HLS16)). The unconnected case for $N=2$ remains open.
 
-Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations.
+Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations, in order to capture the fact we are interested in the homotopy subcategories of grouplike algebras and $N-1$-connected spaces/connective spectra.
 
 
 ## Idempotent weak Quillen quasiadjunctions
