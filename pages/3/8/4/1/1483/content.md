@@ -10,6 +10,15 @@ Given two [[topological space]]s $X,Y$ and a continuous map $f:X\to Y$, or equiv
 
 Let $F$ be a $R$-valued [[presheaf]] over a category $C$ and $G$ a $R$-valued presheaf over a category $D$. A __comorphism__ of $R$-valued presheaves $F\to G$ over a functor $f^{-1}:D\to C$ (thought of as a morphism $f$ of sites in the opposite direction) is a morphism $k$ of $R$-valued presheaves over $C$: $k : G\to f_* F = F\circ f^{-1}$. Instead of saying that $k$ is a co(homo)morphism over $f$ (or $f$-comorphism), one often says that comorphism of presheaves is a pair $(f,k)$. If the presheaf is the structure sheaf of a [[ringed site]] one calls the comorphism a _morphism_ of ringed sites; the usual notation is then $(f,f^\sharp)$.
 
+[\begin{tikzcd}
+	& {C^{op}} \\
+	{D^{op}} && R
+	\arrow["{f^{-1}}", from=2-1, to=1-2]
+	\arrow["F", from=1-2, to=2-3]
+	\arrow[""{name=0, anchor=center, inner sep=0}, "G"', from=2-1, to=2-3]
+	\arrow["k"', shorten <=3pt, Rightarrow, from=0, to=1-2]
+\end{tikzcd}](https://q.uiver.app/?q=WzAsMyxbMSwwLCJDXntvcH0iXSxbMiwxLCJSIl0sWzAsMSwiRF57b3B9Il0sWzIsMCwiZl57LTF9Il0sWzAsMSwiRiJdLFsyLDEsIkciLDJdLFs1LDAsImsiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MjB9fV1d)
+
 In the case of a topological space, and sheaves of sets (or algebras of some kind), there is another description in terms of stalks, namely comorphisms may be described as certain [[multivalued function|multi-valued maps]] between stalks. More precisely, given a continuous map $f:X\to Y$ and sheaves $F$ over $X$ and $G$ over $Y$, a comorphism $(f,f^\sharp)$ is a collection of maps $f^\sharp_x : G_{f(x)}\to F_{x}$ for all $x\in X$ such that for any [[section]] $s\in G(V)$ where $V^{\mathrm{open}}\subset Y$ the map $x\mapsto f^\sharp_x(s(f(x)))$ is a section of $F$ over $f^{-1}(V)$. We can view all $f^{\sharp}_x$ where $x\in f^{-1}(y)$ for a fixed $y$ as a single multi-valued map of stalks $G_y\to \coprod_{x\in f^{-1}(y)} F_x$ satisfying the continuity constraint mentioned.
 
 ##Remarks##
