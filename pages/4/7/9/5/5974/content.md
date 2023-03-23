@@ -30,3 +30,6 @@ On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of depende
 category: people
 
 [[!redirects Dan Licata]]
+
+[[!redirects Daniel R. Licata]]
+
