@@ -654,7 +654,14 @@ A formulation of aspects of this in [[(∞,1)-category theory]] is in
   
 Discussion of convenient [[model category]] [[presentable (infinity,1)-category|presentations]]:
 
-* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496)&rbrack;
+
+Discussion as a [[linear homotopy type theory]]:
+
+* {#Schreiber14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_ &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
+
+* [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
+
 
 
 [[!redirects parametrized homotopy theory]]
