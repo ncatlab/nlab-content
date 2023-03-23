@@ -4,15 +4,17 @@
 
 ## Idea
 
-The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the homotopy type of a relative $N$-loop space pair of some $(N-1)$-connected topological pair if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$.
+The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the [[homotopy type]] of a relative $N$-loop space pair of some $(N-1)$-connected inclusion map if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$, in the sense of an [[algebra over an operad]].
 
-The recognition principle for infinite relative loop spaces states that a pair of pointed toplological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
+The recognition principle for infinite relative loop spaces states that a pair of pointed topological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
 
-These are relative versions of [[May recognition theorem]] ([May 72](#May72)), ([May 74](#May74)) of loop spaces.
+These are relative versions of [[May recognition theorem]] ([May 72](#May72), [May 74](#May74)) of loop spaces.
 
 The recognition principle for relative $N$-loop spaces was proved in ([Vieira 2020](#VVieira2020)) for $3\leq N\leq \infty$. The proof there works in the cases $N=1,2$ if we assume the spaces connected. The general case for $N=1$ was proved in ([Hoefel, Livernet, Stasheff 2016](#HLS16)). The unconnected case for $N=2$ remains open.
 
-Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations, in order to capture the fact we are interested in the homotopy subcategories of grouplike algebras and $N-1$-connected spaces/connective spectra.
+Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof homotopical versions of the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations, in order to capture the fact we are interested in the homotopy subcategories of grouplike algebras and $N-1$-connected spaces/connective spectra. 
+
+Bellow the proof of the relative recognition of $N$-loop spaces for $3\leq N\leq \infty$ using the machinery of idempotent quasiadjunctions in ([Vieira 2020](#VVieira2020)) is sketched.
 
 
 ## Idempotent weak Quillen quasiadjunctions
@@ -61,7 +63,7 @@ such that
  (vi) If $Y\in\mathcal{A}$ is fibrant then $\Lambda\epsilon_Y \eta_{\Lambda Y}\simeq \Lambda\epsilon'_Y\eta'_{\Lambda Y}$.
 \end{definition}
 
-If $\mathscr{C}$, $\mathscr{F}$, $\eta'$ and $\epsilon'$ are all identities we recover the notion of a weak Quillen adjunction. If we further require $S$ to preserve cofibrations and $\Lambda$ to preserve fibrations we get a Quillen adjunction. Though weaker the above information suffices to construct an adjunction at the homotopy categories level. 
+If $\mathscr{C}$, $\mathscr{F}$, $\eta'$ and $\epsilon'$ are all identities and the homotopy equivalences in (v) and (vi) are equalities we recover the notion of a weak Quillen adjunction. If we further require $S$ to preserve cofibrations and $\Lambda$ to preserve fibrations we get a Quillen adjunction. Though weaker the above information suffices to construct an adjunction at the homotopy categories level. 
 
 
 \begin{theorem} ([Vieira 2020, Theorem 2.1.2](#VVieira2020))
@@ -73,11 +75,9 @@ between the homotopy categories.
 \end{theorem} 
 
 
-
-
 ### Idempotent quasi(co)monads
 
-The following generalization of idempotent Quillen monads \cite{BF78} was also introduced following the same principle of only requiring the existence of a unit natural span, and they also induce Bousfield localizations.
+The following generalization of idempotent Quillen monads (see [[Bousfield-Friedlander theorem]]) was also introduced following the same principle of only requiring the existence of a unit natural span, and they also induce [[Bousfield localization]]s.
 
 \begin{definition}([Vieira 2020, Definition 2.3.1](#VVieira2020))
     Let $\mathcal{T}$ be a right proper model category. A Quillen idempotent quasimonad on $\mathcal{T}$, or simply an \textit{idempotent quasimonad}, is a pair of endofunctors $Q,\overline{\mathscr{C}}:\mathcal{T}\rightarrow\mathcal{T}$ equipped with a natural span 
@@ -132,6 +132,9 @@ $$
 \quad
 \epsilon'_{Fib}fib:Id_{\mathcal{A}}\xRightarrow{\sim} \mathscr{F} Fib
 $$
+where $cof : Cof \xRightarrow{\sim} Id$ and $fib : Id \xRightarrow{\sim} Fib$ are the functorial (co)fibrant resolutions of the model structures. 
+
+
 \begin{definition}([Vieira 2020, Definition 2.3.7](#VVieira2020))
     An idempotent quasiadjunction is a quasiadjunction such that the induced span and cospan are respectively an idempotent quasimonad and an idempotent quasicomonad.
 \end{definition}
@@ -147,9 +150,9 @@ $$
 
 ## Finite relative recognition theorem
 
-In this section fix some $1\leq N\lt \infty$. Let $\mathcal{SC}_N$ be the cubical Swiss cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^{\{c, o\}}$ of pairs of pointed topological spaces.  We denote pairs of pointed spaces as $X=(X_{c},X_{o})$. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the mixed model structure induced by the one on $Top_*^{\{c, o\}}$.
+In this section fix some $1\leq N\lt \infty$. Let $\mathcal{SC}_N$ be the cubical Swiss cheese relative operad, a colored operad over the colors $\{c, o\}$, respectively referred to as the closed and open colors. It induces a monad $SC_N$ on the category $Top_*^{\{c, o\}}$ of pairs of pointed topological spaces (see [[algebra over an operad]]).  We denote pairs of pointed spaces as $X=(X_{c},X_{o})$. Denote by $\mathcal{SC}_N[Top]$ the category of algebras over $SC_N$, which we equip with the [[mixed model structure]] transferred from the one on $Top_*^{\{c, o\}}$.
 
-Denote by $Top_*^\rightarrow$ the category of pointed maps, equipped with the mixed projective model structure. We denote maps as $Y=(Y:Y_0\rightarrow Y_1)$.
+Denote by $Top_*^\rightarrow$ the category of pointed maps, equipped with the mixed [[projective model structure]]. We denote maps as $Y=(Y:Y_0\rightarrow Y_1)$.
 
 \begin{definition}
 The relative $N$-loop pair functor is
@@ -166,16 +169,16 @@ $$
 \end{definition}
 
 
-\begin{theorem}
+\begin{theorem} ([Vieira 2020, Proposition 2.2.3](#VVieira2020))
   We have a weak Quillen adjunction
 $$
 (\Sigma^N_\to \dashv \Omega^N_2):Top_*^{\{c,o\}}\leftrightharpoons Top_*^\to.
 $$
 \end{theorem}
 
-This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-1)$-connected and $Y_1$ is $N$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are the $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
+This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-1)$-connected and $Y_1$ is $N$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are the one homotopy equivalent to $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
 
-The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^\to\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the two-sided bar construction.
+The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^\to\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the [[two-sided bar construction]].
 
 \begin{definition}
   The relative $N$-delooping functor is
@@ -191,39 +194,36 @@ $$
 $$
 \end{definition}
 
-\begin{theorem}
+\begin{theorem} ([Vieira 2020, Theorem 4.3.5, Theorem 4.3.8](#VVieira2020))
   If $N\geq 3$ then we have an idempotent weak Quillen quasiadjunction
 $$
   (B^N_\to\dashv_{\ \overline{B}_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to_{N-1}
 $$
 which induces an equivalence 
 $$
-(\mathbb{L}B^N_\to\dashv\mathbb{R}\Omega^N_2):\mathcal{H}o\mathcal{SC}_N[Top]_{grp}\leftrightharpoons \mathcal{H}oTop^\to_{N-1}
+(\mathbb{L}B^N_\to\dashv\mathbb{R}\Omega^N_2):\mathcal{H}o\mathcal{SC}_N[Top]_{grp}\leftrightharpoons \mathcal{H}o Top^\to_{N-1}
 $$
 between the homotopy subcategory of grouplike Swiss cheese algebras and the homotopy category of $(N-1)$-connected pointed maps.
 \end{theorem}
 
+\begin{remark}
+In the reference [Vieira 2020](#VVieira2020) a cofibrant resolution of $\mathcal{SC}_N$ is used. The fact that $\mathcal{SC}_N$ is a $\Sigma$-cofibrant operad (see [[model structure on operads]]) when we consider the mixed model structure of collections means this assumption is not necessary. 
+\end{remark}
 
+\begin{remark}
+The reason the proof of the above theorem doesn't extend to the cases $N=1,2$ is due to the fact that the constructed unit of the quasiadjunction is induced by a natural map $\alpha:SC_N\Rightarrow \Omega^N_2\Sigma^N_\to$ which is a natural pair of [[group completion]]s if and only if $N\geq 3$.
+\end{remark}
 
 ## Infinite relative recognition theorem
 
-  Let $Sp^{\nearrow}$ be the category composed of pairs of spectra $Y_0,Y_1\in Sp$ equipped with a 1-shifted spectra map $Y:Y_0\to Y_1[1]$. Morphisms are pairs of spectra maps that commute with the shifted spectra maps in the appropriate sense. It admits a strict mixed model structure with weak equivalences the level-wise weak homotopy equivalences and with fibrations the level-wise Hurewicz fibrations. The cofibrations are the maps $f:X\to Y$ such that the maps
-$$(f_{0\bullet},\sigma_{\bullet-1}):X_{0\bullet}\vee_{X_{0(\bullet-1)}\wedge\mathbb{S}^1}(Y_{0(\bullet-1)}\wedge\mathbb{S}^1)\to Y_{0\bullet}
-$$
-
-
-$$ 
-((f_{1\bullet},Y_{\bullet-1}),\sigma_{\bullet-1})
-:(X_{1\bullet}\vee_{X_{0(\bullet-1)}}Y_{0(\bullet-1)})\vee_{(X_{1(\bullet-1)}\vee_{X_{0(\bullet-2)}}Y_{0(\bullet-2)})\wedge\mathbb{S}^1} Y_{1(\bullet-1)}\wedge\mathbb{S}^1 \to Y_{1\bullet}
-$$
-are $m$-cofibrations.
+  Let $Sp$ be the category of [[sequential spectra]], and $Sp^{\nearrow}$ the category composed of pairs of spectra $Y_0,Y_1\in Sp$ equipped with a 1-shifted spectra map $Y:Y_0\to Y_1[1]$. Morphisms are pairs of spectra maps that commute with the shifted spectra maps in the appropriate sense. It admits a strict mixed model structure with weak equivalences the level-wise weak homotopy equivalences and with fibrations the level-wise Hurewicz fibrations.
 
 \begin{definition}
 The spectrification functor is
 $$
 \widetilde{\Omega}:Sp\to Sp,\qquad \widetilde{\Omega}(Y)_\bullet\coloneqq \colim_{q\to\infty} \widetilde Y_{\bullet+q}^{\mathbb{S}^q}
 $$
-where $\widetilde{Y}$ is a certain inclusion prespectrum constructed from $Y$, equipped with a quotient map $Y\to \widetilde{Y}$ \cite[Appendix 1]{LMS}. If $Y$ is already an inclusion spectrum then $\widetilde Y=Y$. 
+where $\widetilde{Y}$ is a certain inclusion prespectrum constructed from $Y$, equipped with a quotient map $Y\to \widetilde{Y}$ ([LMS 86, Appendix 1](#LewisMaySteinberger86)). If $Y$ is already an inclusion spectrum then $\widetilde Y=Y$. 
 
 This functor induces a spectrification functor 
 $$
@@ -232,7 +232,7 @@ $$
 $$
 \end{definition}
 
-We have a natural stable weak equivalence $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad, which is the left Bousfield localization of the strict mixed model structure on the pairs of stable weak equivalences.
+We have a natural [[stable weak homotopy equivalence]] $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad, which is the left Bousfield localization of the strict mixed model structure on the pairs of stable weak homotopy equivalences.
 
 \begin{definition}
   The relative base pair of spaces functor is
@@ -263,7 +263,7 @@ $$
 $$
 \end{definition}
 
-\begin{theorem}
+\begin{theorem}([Vieira 2020, Theorem 4.3.5, Theorem 4.3.8](#VVieira2020))
   We have an idempotent weak Quillen quasiadjunction
 $$
   (B^\infty_\nearrow\dashv_{\ \overline{B}_2,\widetilde{\Omega}_\nearrow}\Omega^\infty_2):\mathcal{SC}_\infty[Top]\leftrightharpoons Sp^\nearrow
@@ -272,7 +272,7 @@ which induces an equivalence
 $$
 (\mathbb{L}B^\infty_\nearrow\dashv\mathbb{R}\Omega^\infty_2):\mathcal{H}o\mathcal{SC}_\infty[Top]_{grp}\leftrightharpoons \mathcal{H}o Sp^\nearrow_{con}
 $$
-between the homotopy subcategory of grouplike Swiss cheese algebras and the homotopy category of shifted spectra maps between connective spectra.
+between the homotopy category of grouplike Swiss cheese algebras and the homotopy category of shifted spectra maps between connective spectra.
 \end{theorem}
 
 
@@ -280,6 +280,8 @@ between the homotopy subcategory of grouplike Swiss cheese algebras and the homo
 
 * {#HLS16} [[Eduardo Hoefel]], [[Muriel Livernet]], [[Jim Stasheff]], _$A_\infty$-actions and recognition of relative loop spaces_, Topology and its Applications,
 Vol. 206, 2016, Pages 126-147 ([arXiv:1312.7155](https://arxiv.org/abs/1312.7155),[doi:10.1016/j.topol.2016.03.023](https://doi.org/10.1016/j.topol.2016.03.023))
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], [[Mark Steinberger]] (with contributions by [[James McClure|J.E. McClure]]), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics  **1213** (1986) &lbrack;[pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778)&rbrack;
 
 * {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Lecture Notes in Mathematics, Springer 1972 ([doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), [pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
 
