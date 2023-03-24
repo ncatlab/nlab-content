@@ -98,18 +98,33 @@ Every [[self-adjoint functor]] forms an ambidextrous adjunction.
 
 ## References
 
-* [[Ross Street]], _Frobenius monads and pseudomonoids_, J. Math. Phys. 45.(2004) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+On [[bireflective subcategories]]:
 
-* [[Aaron Lauda]], _Frobenius algebras and ambidextrous adjunctions_ ([arXiv:math/0502550](http://arxiv.org/abs/math/0502550))
- {#Lauda05}
+* [[Peter Freyd]], [[Peter O’Hearn]],  [[A. John Power]], [[M. Takeyama]], [[Ross Street]], [[Robert D. Tennent]], *Bireflectivity*, Theoretical Computer Science **228** 1–2 (1999) 49-76 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
 
-* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
 
-For the issue of equipping an ambidextrous adjunction $F \dashv G \dashv H$  with a specific equivalence between $F$ and $H$, see the [comment by Qiaochu Yuan](https://mathoverflow.net/a/377104) on MathOverflow.
+The concept of Frobenius monads:
+ 
+* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
+
+* {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
+
+See also:
+ 
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014)
+
+On the issue of equipping an ambidextrous adjunction $F \dashv G \dashv H$  with a specific equivalence between $F$ and $H$:
+
+* [[Qiaochu Yuan]], [MO:377104](https://mathoverflow.net/a/377104)
 
 [[!redirects ambidextrous adjunctions]]
+
+[[!redirects ambidextrous adjoint]]
+[[!redirects ambidextrous adjoints]]
 
 [[!redirects ambidextrous space]]
 [[!redirects ambidextrous spaces]]
 
 [[!redirects biadjoint pair]]
+
+
