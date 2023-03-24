@@ -5,7 +5,15 @@
 
 ## Idea
 
-__Berry's geometric phase__ is a correction to the wave function arising in the study of adiabatic quantum systems; it has been discovered by M. V. Berry. There are analogous effects for other [[wave]] phenomena; there has been also much earlier work of Pancharatnam on the related phenomenon in optics. The origin of the Berry's phase is in nonflatness of a [[parallel transport]] which appears in the corresponding phase factors.  
+__Berry's geometric phase__ is a correction to the [[wave function]] arising in the study of adiabatic quantum systems; it has been discovered by M. V. Berry. There are analogous effects for other [[wave]] phenomena; there has been also much earlier work of Pancharatnam on the related phenomenon in optics. The origin of the Berry's phase is in nonflatness of a [[parallel transport]] which appears in the corresponding phase factors.  
+
+## Related concepts
+
+* [[Berry connection]]
+
+* [[quantum adiabatic theorem]]
+
+* [[adiabatic quantum computation]]
 
 
 ## References
@@ -44,6 +52,14 @@ A relation to Chern-Bott connection is explained in 4.1 of lecture notes
 
 * Maxim Braverman, _The Berry phase and the phase of the determinant_, [arxiv/1310.6332](http://arxiv.org/abs/1310.6332)
 
+Review in a context of ([[adiabatic quantum computation|adiabatic]]) [[quantum computation]]:
+
+* Jiang Zhang, Thi Ha Kyaw, Stefan Filipp, Leong-Chuan Kwek, Erik Sjöqvist, Dianmin Tong, *Geometric and holonomic quantum computation* &lbrack;[arXiv:2110.03602](https://arxiv.org/abs/2110.03602)&rbrack;
+
+
+
 category: physics
+
+
 [[!redirects Berry phase]] 
 [[!redirects Berry's geometric phase]]
