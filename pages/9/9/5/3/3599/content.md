@@ -41,7 +41,7 @@ One may understand $A$-dependent types $a \colon A \;\vdash\; B(a)$ equivalently
 
 The [[domain]] $B$ --- i.e. the "total space" of these bundles --- is identified with the [[dependent sum]] of the "[[fibers]]" $B(a)$, and conversely these fibers are indeed recovered from any such bundle as the [[fiber types]].
 
-Under the [[categorical semantics]] of [[dependent type theory]] (cf. [[categorical model of dependent types]] and [[relation between type theory and category theory]]) it is exactly these associated "type bundles" which are identified with actual [[fibrations]] ("[[display maps]]") in the given semantix [[category]].
+Under the [[categorical semantics]] of [[dependent type theory]] (cf. [[categorical model of dependent types]] and [[relation between type theory and category theory]]) it is exactly these associated "type bundles" which are identified with actual [[fibrations]] ("[[display maps]]") in the given semantic [[category]].
 
 We now say this in more detail, first 
 
