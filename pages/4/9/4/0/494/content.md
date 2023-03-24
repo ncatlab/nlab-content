@@ -659,7 +659,7 @@ Given a [[functor]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, and an object $c
 
 1. an [[object]] $L(c)\in \mathcal{D}$ 
 
-1. a [[morphism]] $\eta_c \;\colon\; c \to R(L(c))$, to be called the _[[adjunction unit|unit]]_,
+1. a [[morphism]] $\eta_c \;\colon\; c \to R\big(L(c)\big)$, to be called the _[[adjunction unit|unit]]_,
 
 such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors through this unit $\eta_c$ as 
 
@@ -668,12 +668,25 @@ such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors 
   \array{
     && c 
     \\
-    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    & 
+    {}^{\mathllap{\eta_c}}\swarrow 
+    && 
+   \searrow^{\mathrlap{f}}
     \\
-    R(L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d)
+    R\big(L(c)\big) 
+    &&
+    \underset
+      {R (\widetilde f)}
+      {\longrightarrow}
+    && 
+    R(d)
     \\
     \\
-    L(c) &&\underset{ \widetilde f}{\longrightarrow}&& d
+    L(c) 
+    &&
+    \underset{ \widetilde f}{\longrightarrow}
+    && 
+    d
   }
 \]
 
