@@ -198,7 +198,7 @@ The impact of prop. \ref{FractureForSpectra} is that it decomposes the study of 
 
 1. [[p-adic homotopy theory]] for each prime $p$.
 
-Both the [[rationalization]] $X_{\mathbb{Q}}$ and the [[p-completion]] $X_{p}^\wedge$ are typically much easier to analyze than $p$ itself and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces. 
+Both the [[rationalization]] $X_{\mathbb{Q}}$ and the [[p-completion]] $X_{p}^\wedge$ are typically much easier to analyze than $X$ itself and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces. 
 This procedure is known in homotopy theory as working "one prime at a time".
 
 =--
