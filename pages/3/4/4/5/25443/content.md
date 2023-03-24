@@ -219,7 +219,7 @@ The reason the proof of the above theorem doesn't extend to the cases $N=1,2$ is
   Let $Sp$ be the category of [[sequential spectra]], and $Sp^{\nearrow}$ the category composed of pairs of spectra $Y_0,Y_1\in Sp$ equipped with a 1-shifted spectra map $Y:Y_0\to Y_1[1]$. Morphisms are pairs of spectra maps that commute with the shifted spectra maps in the appropriate sense. It admits a strict mixed model structure with weak equivalences the level-wise weak homotopy equivalences and with fibrations the level-wise Hurewicz fibrations.
 
 \begin{definition}
-The spectrification functor is
+The [[spectrification]] functor is
 $$
 \widetilde{\Omega}:Sp\to Sp,\qquad \widetilde{\Omega}(Y)_\bullet\coloneqq \colim_{q\to\infty} \widetilde Y_{\bullet+q}^{\mathbb{S}^q}
 $$
@@ -232,7 +232,7 @@ $$
 $$
 \end{definition}
 
-We have a natural [[stable weak homotopy equivalence]] $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad, which is the left Bousfield localization of the strict mixed model structure on the pairs of stable weak homotopy equivalences.
+We have a natural [[stable weak homotopy equivalence]] $\epsilon':Id_{Sp^{\nearrow}}\Rightarrow\widetilde{\Omega}_{\nearrow}$ which gives a Quillen idempotent monad structure on $\widetilde{\Omega}_{\nearrow}$. The stable mixed model structure on $Sp^{\nearrow}$ is the one induced by this idempotent monad, which is the left Bousfield localization of the strict mixed model structure on the pairs of stable weak homotopy equivalences. The fibrant objects in this model structure are the [[Omega-spectra]].
 
 \begin{definition}
   The relative base pair of spaces functor is
