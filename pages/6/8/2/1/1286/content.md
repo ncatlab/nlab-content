@@ -120,6 +120,12 @@ The fact is also mentioned and used in passing every now and then (e.g. p. 9) in
 
 But there must be a better reference, somewhere.
 
+## Related concepts
+
+* [[derived manifold]]
+
+* [[infinity-stack]]
+
 ## References
 
 An overview is provided in 
@@ -169,6 +175,10 @@ and in the introduction of
 The proof that [[simplicial object|simplicial]] [[algebra]]s are Quillen equivalent of [[differential graded algebra]]s -- so that derived stacks on simplicial algebras are the same as derived stacks on DGAs -- is in
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342)) .
+
+Further developments:
+
+* [[Gregory Taroyan]], *Equivalent models of derived stacks* &lbrack;[arXiv:2303.12699](https://arxiv.org/abs/2303.12699)&rbrack;
 
 
 [[!redirects derived stacks]]
