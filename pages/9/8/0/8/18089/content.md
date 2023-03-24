@@ -15,7 +15,7 @@
 
 ## Definition
 
-An _EI-category_ is a [[category]] in which every [[endomorphism]] is an [[isomorphism]]. 
+An _EI-category_ is a [[category]] in which every [[endomorphism]] is an [[isomorphism]], hence an [[automorphism]].
 
 
 Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which every [[endomorphism]] is an [[equivalence in an (∞,1)-category|equivalence]].
@@ -44,13 +44,27 @@ Let $\mathcal{S}$ be a set of [[subgroups]] of a [[group]] $G$. The following ar
 
 ### General
 
+EI-categories may be seen as those categories satisfying a  kind of [[Schröder–Bernstein theorem]].
+
+\begin{proposition}
+A category $C$ is EI if and only if every antiparallel pair $X \rightleftarrows Y$ exhibits a pair of isomorphisms.
+\end{proposition}
+
+\begin{proof}
+Assume that $C$ is EI, and let $f \colon X \rightleftarrows Y : g$ be an antiparallel pair. Consider $X \xrightarrow{f} Y \xrightarrow{g} X \xrightarrow{f} Y$. Since isomorphisms have the [[2-out-of-6 property]], and $gf$ and $fg$ are isomorphisms, $f$ and $g$ are also isomorphisms. Conversely, suppose that $C$ satisfies the assumption of the proposition. Let $i \colon X \to X$ be an endomorphism. Then $i \colon X \rightleftarrows X : i$ exhibits exhibits an antiparallel pair, so in particular $i$ is an isomorphism.
+\end{proof}
+
+In particular, assuming [[excluded middle]], the [[Schröder–Bernstein theorem]] states that [[Inj]], the wide subcategory of [[Set]] spanned by [[monomorphisms]], is an EI-category.
+
+### Partial ordering
+
 Given an EI-category, $C$, the [[set]] of [[isomorphism classes]] $[x]$ of [[objects]] $x \in C$ forms a [[partially ordered set]] under the [[relation]] 
 
 $$
   [x] \leq [y] 
   \phantom{AA} \text{if and only if}
   \phantom{AA} 
-  \text{there is a morphism}\; x \to y
+  \text{there is a morphism } x \to y
 $$
 
 ### Representation theory
