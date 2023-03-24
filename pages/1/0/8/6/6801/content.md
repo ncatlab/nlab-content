@@ -42,9 +42,14 @@ Review is in
 
 * [[David Kutasov]], _Introduction to Little String Theory_, Lectures 2001 ([pdf](http://users.ictp.it/~pub_off/lectures/lns007/Kutasov/Kutasov.pdf))
 
-Little string theories on [[heterotic string theory]] [[NS5-branes]] with $N = (1,0)$ [[supersymmetry]] are discussed in
+Little string theories on [[heterotic string theory]] [[NS5-branes]] with $N = (1,0)$ [[supersymmetry]]:
 
 * E. Gava, K.S. Narain, M.H. Sarmadi, _Little String Theories in Heterotic Backgrounds_, Nucl.Phys. B626 (2002) 3-25 ([arXiv:hep-th/0112200](http://arxiv.org/abs/hep-th/0112200))
+
+and via [[F-theory]] methods:
+
+* [[Michele Del Zotto]], Muyang Liu, Paul-Konstantin Oehlmann, *6D Heterotic Little String Theories and F-theory Geometry: An Introduction* &lbrack;[arXiv:2303.13502](https://arxiv.org/abs/2303.13502)&rbrack;
+
 
 The [[T-duality]] between type IIA and type IIB little strings is discussed in
 
