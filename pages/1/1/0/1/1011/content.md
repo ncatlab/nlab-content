@@ -49,7 +49,7 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 
 
 
-
 [[!redirects finite category]]
 [[!redirects finite categories]]
-[[!redirects finite categiry]]
+[[!redirects locally finite category]]
+[[!redirects locally finite categories]]
