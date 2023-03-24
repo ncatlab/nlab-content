@@ -450,6 +450,17 @@ and in
 
 * [[Christian Saemann]], [[Richard Szabo]], _Quantization of 2-Plectic Manifolds_ ([arXiv:1106.1890](http://arxiv.org/abs/1106.1890))
 
+### Examples
+
+Some references on particular constructions for gravity and Maxwell theory on n-plectic manifolds
+
+* [[Petr Horava]], _On a covariant Hamilton-Jacobi framework for the Einstein-Maxwell theory_ Classical and Quantum Gravity 8, no. 11 (1991): 2069.
+
+* [[Dmitri Vey]], _n-plectic Maxwell Theory_ ([arxiv:1303.2192] (https://arxiv.org/abs/1303.2192))
+
+* [[Dmitri Vey]], _Multisymplectic formulation of vielbein gravity. De Donder-Weyl formulation, Hamiltonian (n-1)-forms
+_ ([arxiv:1404.3546] (https://arxiv.org/abs/1404.3546))
+
 [[!redirects n-plectic manifold]]
 [[!redirects n-plectic manifolds]]
 
