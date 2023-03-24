@@ -411,8 +411,7 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 The observation that the would-be Poisson bracket induced by a higher degree closed form extends to the [[Poisson bracket Lie n-algebra]] is due to
 
-* {#Rogers10} [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
-Letters in Mathematical Physics April 2012, Volume 100, Issue 1, pp 29-50  ([arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)).
+* {#Rogers10} [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , Letters in Mathematical Physics  **100** 1 (2012) 29-50  &lbrack;[arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)&rbrack;
 
 * {#Rogers11} [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
  
@@ -452,14 +451,13 @@ and in
 
 ### Examples
 
-Some references on particular constructions for gravity and Maxwell theory on n-plectic manifolds
+On $n$-plectic formulation of [[gravity]], [[Maxwell theory]] and [[Einstein-Maxwell theory]]:
 
-* [[Petr Horava]], _On a covariant Hamilton-Jacobi framework for the Einstein-Maxwell theory_ Classical and Quantum Gravity 8, no. 11 (1991): 2069.
+* [[Petr Hořava]], _On a covariant Hamilton-Jacobi framework for the Einstein-Maxwell theory_ Classical and Quantum Gravity **8** 11 (1991) 2069 &lbrack;[doi:10.1088/0264-9381/8/11/016](https://iopscience.iop.org/article/10.1088/0264-9381/8/11/016)&rbrack;
 
-* [[Dmitri Vey]], _n-plectic Maxwell Theory_ ([arxiv:1303.2192] (https://arxiv.org/abs/1303.2192))
+* [[Dmitri Vey]], _$n$-Plectic Maxwell Theory_ &lbrack;[arxiv:1303.2192](https://arxiv.org/abs/1303.2192)&rbrack;
 
-* [[Dmitri Vey]], _Multisymplectic formulation of vielbein gravity. De Donder-Weyl formulation, Hamiltonian (n-1)-forms
-_ ([arxiv:1404.3546] (https://arxiv.org/abs/1404.3546))
+* [[Dmitri Vey]], *Multisymplectic formulation of vielbein gravity. De Donder-Weyl formulation, Hamiltonian $(n-1)$-forms*,  Classical and Quantum Gravity **32** 9 (2015) &lbrack;[arxiv:1404.3546](https://arxiv.org/abs/1404.3546), [doi:10.1088/0264-9381/32/9/095005](https://iopscience.iop.org/article/10.1088/0264-9381/32/9/095005)&lbrack;
 
 [[!redirects n-plectic manifold]]
 [[!redirects n-plectic manifolds]]
