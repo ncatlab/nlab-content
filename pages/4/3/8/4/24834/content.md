@@ -11,6 +11,11 @@ On [[graded monads]] [[monad in computer science|in computer science]] as [[enri
 
 * [[Dylan McDermott]], [[Tarmo Uustalu]]. _Flexibly graded monads and graded algebras_, in: *Mathematics of Program Construction MPC 2022*, Lecture Notes in Computer Science **13544**, Springer (2022) &lbrack;[doi:10.1007/978-3-031-16912-0_4](https://doi.org/10.1007/978-3-031-16912-0_4)&rbrack;
 
+On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual equipments]]:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], *The formal theory of relative monads* &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+
+
 
 category: people
 
