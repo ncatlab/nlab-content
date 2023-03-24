@@ -12,7 +12,7 @@ These are relative versions of [[May recognition theorem]] ([May 72](#May72), [M
 
 The recognition principle for relative $N$-loop spaces was proved in ([Vieira 2020](#VVieira2020)) for $3\leq N\leq \infty$. The proof there works in the cases $N=1,2$ if we assume the spaces connected. The general case for $N=1$ was proved in ([Hoefel, Livernet, Stasheff 2016](#HLS16)). The unconnected case for $N=2$ remains open.
 
-Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof homotopical versions of the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations, in order to capture the fact we are interested in the homotopy subcategories of grouplike algebras and $N-1$-connected spaces/connective spectra. 
+Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof, homotopical versions of the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations. This is because we are interested in the homotopy subcategories of grouplike algebras and $(N-1)$-connected spaces/connective spectra. 
 
 Bellow the proof of the relative recognition of $N$-loop spaces for $3\leq N\leq \infty$ using the machinery of idempotent quasiadjunctions in ([Vieira 2020](#VVieira2020)) is sketched.
 
@@ -63,7 +63,7 @@ such that
  (vi) If $Y\in\mathcal{A}$ is fibrant then $\Lambda\epsilon_Y \eta_{\Lambda Y}\simeq \Lambda\epsilon'_Y\eta'_{\Lambda Y}$.
 \end{definition}
 
-If $\mathscr{C}$, $\mathscr{F}$, $\eta'$ and $\epsilon'$ are all identities and the homotopy equivalences in (v) and (vi) are equalities we recover the notion of a weak Quillen adjunction. If we further require $S$ to preserve cofibrations and $\Lambda$ to preserve fibrations we get a Quillen adjunction. Though weaker the above information suffices to construct an adjunction at the homotopy categories level. 
+If $\mathscr{C}$, $\mathscr{F}$, $\eta'$ and $\epsilon'$ are all identities and the homotopy equivalences in (v) and (vi) are equalities we recover the notion of a weak Quillen adjunction. If we further require $S$ to preserve cofibrations and $\Lambda$ to preserve fibrations we get a Quillen adjunction. Though the above information is weaker than that of a Quillen adjunction it suffices to construct an adjunction at the homotopy categories level. 
 
 
 \begin{theorem} ([Vieira 2020, Theorem 2.1.2](#VVieira2020))
@@ -77,10 +77,10 @@ between the homotopy categories.
 
 ### Idempotent quasi(co)monads
 
-The following generalization of idempotent Quillen monads (see [[Bousfield-Friedlander theorem]]) was also introduced following the same principle of only requiring the existence of a unit natural span, and they also induce [[Bousfield localization]]s.
+The following generalization of Quillen idempotent monads (see [[Bousfield-Friedlander theorem]]) was also introduced following the same principle of only requiring the existence of a unit natural span, and they also induce [[Bousfield localization]]s.
 
 \begin{definition}([Vieira 2020, Definition 2.3.1](#VVieira2020))
-    Let $\mathcal{T}$ be a right proper model category. A Quillen idempotent quasimonad on $\mathcal{T}$, or simply an \textit{idempotent quasimonad}, is a pair of endofunctors $Q,\overline{\mathscr{C}}:\mathcal{T}\rightarrow\mathcal{T}$ equipped with a natural span 
+    Let $\mathcal{T}$ be a right proper model category. A Quillen idempotent quasimonad on $\mathcal{T}$, or simply an idempotent quasimonad, is a pair of endofunctors $Q,\overline{\mathscr{C}}:\mathcal{T}\rightarrow\mathcal{T}$ equipped with a natural span 
 $$
   \eta':\overline{\mathscr{C}}\xRightarrow{\sim}Id_{\mathcal{T}}
 ,\qquad 
@@ -176,7 +176,7 @@ $$
 $$
 \end{theorem}
 
-This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-1)$-connected and $Y_1$ is $N$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are the one homotopy equivalent to $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
+This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-2)$-connected and $Y_1$ is $(N-1)$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are homotopy equivalent to $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
 
 The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^\to\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the [[two-sided bar construction]].
 
@@ -195,11 +195,11 @@ $$
 \end{definition}
 
 \begin{theorem} ([Vieira 2020, Theorem 4.3.5, Theorem 4.3.8](#VVieira2020))
-  If $N\geq 3$ then we have an idempotent weak Quillen quasiadjunction
+  We have an idempotent weak Quillen quasiadjunction
 $$
-  (B^N_\to\dashv_{\ \overline{B}_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to_{N-1}
+  (B^N_\to\dashv_{\ \overline{B}_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to_{N-1}.
 $$
-which induces an equivalence 
+If $N\geq 3$ then this quasiadjunction induces an equivalence 
 $$
 (\mathbb{L}B^N_\to\dashv\mathbb{R}\Omega^N_2):\mathcal{H}o\mathcal{SC}_N[Top]_{grp}\leftrightharpoons \mathcal{H}o Top^\to_{N-1}
 $$
