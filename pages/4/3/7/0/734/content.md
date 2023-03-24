@@ -113,5 +113,9 @@ Note, though, that not _all_ homotopy limits produce weak limits in the homotopy
 [[!redirects weak finite limit]]
 [[!redirects weak finite limits]]
 
+[[!redirects weak terminal object]]
+[[!redirects weak terminal objects]]
+[[!redirects weakly terminal]]
+
 
 
