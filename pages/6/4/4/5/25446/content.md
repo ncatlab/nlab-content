@@ -16,9 +16,9 @@
 
 ## Definition
 
-A **combinatorial category** $C$ is a [[locally finite category]] satisfying the _unnatural isomorphism property_:
+A **combinatorial category** &lbrack;[Pultr (1973, Def. 1.7)](#Pultr73)&rbrack; $C$ is a [[locally finite category]] satisfying the _unnatural isomorphism property_:
 
-For all objects $A, B \in C$, if there is an [[unnatural isomorphism]] $C(-, A) \cong C(-, B)$, then $A \cong B$. Equivalently if $|C(X, A)| = |C(X, B)|$ for all objects $X \in C$.
+For all objects $A, B \in C$, if there is an [[unnatural isomorphism]] $C(-, A) \cong C(-, B)$, then $A \cong B$. Equivalently if $\left|C(X, A)\right| = \left|C(X, B)\right|$ for all objects $X \in C$.
 
 ## Properties
 
@@ -29,17 +29,19 @@ Let $C$ be a combinatorial category and let $A, B, X \in \C$. If $A \times X \co
 \begin{proof}
 For all $Y \in C$, we have
 \begin{equation}
-|C(Y, A)| \times |\C(Y, X)| = |C(Y, A \times X)| = |C(Y, B \times X)| = |C(Y, B)| \times |C(Y, X)|
+\left|C(Y, A)\right| \times \left|\C(Y, X)\right| = \left|C(Y, A \times X)\right| = \left|C(Y, B \times X)\right| = \left|C(Y, B)\right| \times \left|C(Y, X)\right|
 \end{equation}
-Hence we may divide both sides by $|C(Y, X)|$ (which is nonzero since $X$ is weakly terminal) and so $|C(Y, A)| = |C(Y, B)|$ for all $Y \in \C$, from which we have $A \cong B$.
+Hence we may divide both sides by $\left|C(Y, X)\right|$ (which is nonzero since $X$ is weakly terminal) and so $\left|C(Y, A)\right| = \left|C(Y, B)\right|$ for all $Y \in \C$, from which we have $A \cong B$.
 \end{proof}
 
 ## Related concepts
 
 * [[finite category]]
 
+* *not* related is the notion of *[[combinatorial model category]]*
+
 ## References
 
-* A. Pultr. _Isomorphism types of objects in categories determined by numbers of morphisms_. Acta Scientiarum Mathematicarum 35 (1973): 155-160. [pdf](http://acta.bibl.u-szeged.hu/14440/1/math_035_155-160.pdf)
+* {#Pultr73} A. Pultr, *Isomorphism types of objects in categories determined by numbers of morphisms*, Acta Scientiarum Mathematicarum **35** (1973) 155-160 &lbrack;[pdf](http://acta.bibl.u-szeged.hu/14440/1/math_035_155-160.pdf)&rbrack;
 
 [[!redirects combinatorial categories]]
