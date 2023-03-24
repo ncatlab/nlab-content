@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[n-plectic geometry|$n$-plectic]] formulation of [[Einstein-Maxwell theory]]:
+
+* [[Petr Hořava]], _On a covariant Hamilton-Jacobi framework for the Einstein-Maxwell theory_ Classical and Quantum Gravity **8** 11 (1991) 2069 &lbrack;[doi:10.1088/0264-9381/8/11/016](https://iopscience.iop.org/article/10.1088/0264-9381/8/11/016)&rbrack;
+
+
+
 On [[Chern-Simons theory]] on [[orbifolds]] via [[equivariant bundles]] in the general sense of [tom Dieck 69](equivariant+bundle#tomDieck69) (i.e. with [[action]] of the [[semidirect product]] of the [[gauge group]] with the [[equivariance group]]):
 
 * {#Horava94} [[Petr Hořava]], _Chern-Simons Gauge Theory on Orbifolds: Open Strings from Three Dimensions_, J. Geom. Phys. 21:1-33, 1996 ([arXiv:hep-th/9404101](https://arxiv.org/abs/hep-th/9404101))
