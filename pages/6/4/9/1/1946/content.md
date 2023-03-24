@@ -536,11 +536,13 @@ A quick review is in section A.2.9 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+An overview stressing the role of [[weighted colimit|weighted colimits]] is in
+
+* [[Emily Riehl]], [[Dominic Verity]], _The theory and practice of Reedy categories_, Theory and Applications of Categories **29** no.9 (2014) pp. 256-301. ([abstract](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html))
+
 A textbook account is in 
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], chapter 15 of _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
-
-
 
 Discussion of functoriality of Reedy model structures is in 
 
