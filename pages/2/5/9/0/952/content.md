@@ -34,7 +34,7 @@ The notion of [[cyclic set]] is intermediate between symmetric sets and simplici
 
 * [[Jiří Rosický]], [[Walter Tholen]], *Left-determined model categories and universal homotopy theories*, Trans. Amer. Math. Soc. 355 (2003), 3611-3623.
 
-* [[Jiří Rosický]], [[Walter Tholen]], 2008, 'Erratum to ``Left-determined model categories and universal homotopy theories''', _Transactions of the American Mathematical Society_, vol. 360, no. 11, pp. 6179-6179: doi:[10.1090/s0002-9947-08-04727-2](http://dx.doi.org/10.1090/s0002-9947-08-04727-2)
+* [[Jiří Rosický]], [[Walter Tholen]], 2008, 'Erratum to "Left-determined model categories and universal homotopy theories"', _Transactions of the American Mathematical Society_, vol. 360, no. 11, pp. 6179-6179: doi:[10.1090/s0002-9947-08-04727-2](http://dx.doi.org/10.1090/s0002-9947-08-04727-2)
 
 * [[Denis-Charles Cisinski]], _Les préfaisceaux comme modèles des types d'homotopie_, Astérisque 308, 2006 ([doi:10.24033/ast.715](https://smf.emath.fr/publications/les-prefaisceaux-comme-modeles-des-types-dhomotopie), [NUMDAM](http://www.numdam.org/item/AST_2006__308__R1_0/))
 
