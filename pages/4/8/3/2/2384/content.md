@@ -55,7 +55,7 @@ If we take the preorder $\mathbf{2} = \{ 0\leq 1\}$, then the following diagram 
 
 +-- {: .num_defn}
 ###### Definition
-For every preorder $(\Omega,\preceq)$, we define a _morphism of segments_ from segment $(n_0,n_1,t,c)$ on $\Omega$ to a segment $(n_0',n_1',t',c')$ on $\Omega$ as a pair $(f_1,f_0)$ where $f_1:[n_1] \to [n_1']$ is an order-preserving injection and $f_0:[n_0] \to [n_0']$ is an order-preserving surjection such that the relation $c'(f_0(i)) \preceq c(i)$ holds in $(\Omega,\preceq)$ for every $i \in [n_0]$.
+For every preorder $(\Omega,\preceq)$, we define a _morphism of segments_ from segment $(n_0,n_1,t,c)$ on $\Omega$ to a segment $(n_0',n_1',t',c')$ on $\Omega$ as a pair $(f_1,f_0)$ where $f_1:[n_1] \to [n_1']$ is an order-preserving injection and $f_0:[n_0] \to [n_0']$ is an order-preserving function such that the relation $c'(f_0(i)) \preceq c(i)$ holds in $(\Omega,\preceq)$ for every $i \in [n_0]$.
 =--
 
 We define the _category of segments over a preorder $(\Omega,\preceq)$_ as the category $\mathbf{Seg}(\Omega)$ whose objects are segments over $\Omega$ and whose arrows are the morphisms of segments between them. 
@@ -82,7 +82,7 @@ This section presents category theoretic models taking the form of diagrams. The
 
 ### Stock-flow diagrams and Petri nets
 
-In the spirit of [[David Spivak|Spivak's]] approach in encoding databases as functors over small categories, functors have been used to encode environments to organize and hence model biological data. One example is that of stock-flow diagrams, which are defined as follows.
+In the spirit of [[David Spivak|Spivak's]] approach in encoding databases as functors over small categories, functors have been used to organize (and hence model) biological data. One example is that of stock-flow diagrams, which are defined as follows.
 
 Let us denote as $\mathsf{H}$ the free category generated over the following graph:
 
