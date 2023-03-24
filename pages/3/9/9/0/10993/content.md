@@ -105,9 +105,12 @@ with essentially the same equations. This generalizes the previous definition by
 **(relative monads induced from actual monads)**
 \label{RelativeMonadsInducedFromActualMonads}
 Any actual [[monad]] $T$ on $\mathbf{C}$ induces a relative monad $T J$ on $J$, for any $J \colon \mathbf{J}\to \mathbf{C}$. 
+\end{example}
+
+This is the content of [ACU14, Prop. 2.3 (1)](#ACU14)
 
 A concrete instance of this case is spelled out in Exp. \ref{LinearSpan} below.
-\end{example}
+
 
 
 \begin{example}
@@ -331,6 +334,10 @@ $$
 The concept was introduced, in the context of [[monads in computer science]], in: 
 
 * {#ACU14} [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
+
+Abstract discussion via [[virtual equipments]]:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], *The formal theory of relative monads* &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
 
 [[!redirects relative monads]]
