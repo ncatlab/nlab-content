@@ -165,6 +165,8 @@ Further developments:
 
 * [[David Carchedi]], *Derived Manifolds as Differential Graded Manifolds* &lbrack;[arXiv:2303.11140](https://arxiv.org/abs/2303.11140)&rbrack;
 
+* [[Gregory Taroyan]], *Equivalent models of derived stacks* &lbrack;[arXiv:2303.12699](https://arxiv.org/abs/2303.12699)&rbrack;
+
 
 [[!redirects derived smooth manifolds]]
 
