@@ -3,7 +3,7 @@
 
 In [[general relativity]]: a [[timelike curve]] in [[spacetime]].
 
-## Relaed concepts
+## Related concepts
 
 * [[observable]]
 
