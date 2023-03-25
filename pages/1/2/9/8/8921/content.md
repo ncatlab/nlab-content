@@ -40,9 +40,22 @@ for some acceleration scale $a_0$ and some interpolating function $\mu \colon \m
 
 The motivation is that choosing the constant $a_0$ and the function $\mu$ suitably, then such a modified formula fits the rotation-velocities of observed [[galaxies]] in dependence of the [[radius]] remarkably well, something which the [[standard model of cosmology]] with [[dark matter]] still has some problems with (but see [Kaplinghat-Turner 02](#KaplinghatTurner02), [BLSF 09](#BLSF09), [Chan 13](#Chan13)). 
 
-## Consistent theory embedding?
+In 2020, David Merritt wrote a review of MOND and dark matter which stated that the observational evidence favors MOND over dark matter ([Merritt20](#Merritt20)). 
 
-Of course an ad-hoc such modification of the basic laws of physics breaks many established properties of physics, such as the [[principle of equivalence]] in [[general relativity]] and various [[conservation laws]]. It must be that this modified Newtonian force law is the effect of some more fundamental theory. The only proposal for such a theory apart from [[gravity]]+[[dark matter]] itself ([Kaplinghat-Turner 02](#KaplinghatTurner02), [BLSF 09](#BLSF09), [Chan 13](#Chan13)) is to add to Einstein gravity a unit vector field and a [[scalar field]] ([Bekenstein 04](#Bekenstein04), "TeVeS"), themselves thus otherwise unobserved "dark fields", as it were,  but, as opposed to say the [[axion]] dark matter candidate, not motivated beyond the desire to fit galaxy rotation curves.
+## Relativistic extensions of MOND
+
+The original MOND model by Milgrom is an ad-hoc such modification of the basic laws of physics and breaks many established properties of physics, such as the [[principle of equivalence]] in [[general relativity]] and various [[conservation laws]]. Thus, many theories have been developed to reconcile MOND with relativity, including 
+
+* Tensor-Vector-Scalar gravity ([Bekenstein 04](#Bekenstein04), "TeVeS") 
+* Aether scalar tensor theory ([SkordisZlosnik21](#SkordisZlosnik21), [SkordisZlosnik22](#SkordisZlosnik22), [MMH23](#MMH23), "AeST)
+* Bimetric MOND ([Milgrom22](#Milgrom22))
+* Khronometric MOND ([Flanagan23](#Flanagan23))
+
+In addition, there are also studies of relativistic MOND gravity in general ([TMZ23](#TMZ23), [THCZ23](#THCZ23)). 
+
+### Tensor-Vector-Scalar gravity
+
+The first such proposal for such a theory apart from [[gravity]]+[[dark matter]] itself ([Kaplinghat-Turner 02](#KaplinghatTurner02), [BLSF 09](#BLSF09), [Chan 13](#Chan13)) is to add to Einstein gravity a unit vector field and a [[scalar field]] ([Bekenstein 04](#Bekenstein04), "TeVeS"), themselves thus otherwise unobserved "dark fields", as it were,  but, as opposed to say the [[axion]] dark matter candidate, not motivated beyond the desire to fit galaxy rotation curves.
 
 From [Bekenstein 04, p. 9](#Bekenstein04) one sees explicitly that TeVeS is just Einstein-gravity coupled to peculiar "matter" fields:
 
@@ -64,10 +77,28 @@ The concept of MOND is due to
 
 * {#Milgrom83c} [[Mordehai Milgrom]], _A modification of the Newtonian dynamics - Implications for galaxy systems_, Astrophysical Journal. 270: 384. (1983) doi:10.1086/161132
 
-and its most popular relativistic completion TeVeS is due to
- * [Bekenstein 2004](#Bekenstein04)
+There are many relativistic extensions of MOND, which are listed in the following section: 
 
+### Relativistic MOND models
+ {#ReferencesRelativisticModels}
 
+On [[general relativity|relativistic]] MOND [[model (in theoretical physics)|models]]:
+
+* {#Bekenstein04} [[Jacob Bekenstein]], *Relativistic gravitation theory for the modified Newtonian dynamics paradigm*, Physical Review D **70** 8 (2004) 083509, &lbrack;[arXiv:astro-ph/0403694](https://arxiv.org/abs/astro-ph/0403694), [doi:10.1103/PhysRevD.70.083509](https://doi.org/10.1103/PhysRevD.70.083509)&rbrack;
+
+* {#SkordisZlosnik21} [[Constantinos Skordis]], [[Tom Zlosnik]], *A new relativistic theory for Modified Newtonian Dynamics*. Physical Review Letters. Volume 127, Issue 16. Published 15 October 2021 ([doi:10.1103/PhysRevLett.127.161302](https://doi.org/10.1103/PhysRevLett.127.161302), [arXiv:2007.00082](https://arxiv.org/abs/2007.00082))
+
+* {#SkordisZlosnik22} [[Constantinos Skordis]], [[Tom Zlosnik]], *Aether scalar tensor theory: Linear stability on Minkowski space*. Physical Review D. Volume 106, Issue 10. Published 15 November 2022. ([doi:10.1103/PhysRevD.106.104041](https://doi.org/10.1103/PhysRevD.106.104041), [arXiv:2109.13287](https://arxiv.org/abs/2109.13287))
+
+* {#MMH23} [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
+
+* {#Milgrom22} [[Mordehai Milgrom]], *Broader view of bimetric MOND*, Physical Review D, Volume 106, Issue 8. Published 10 October 2022. ([doi:10.1103/PhysRevD.106.084010](https://doi.org/10.1103/PhysRevD.106.084010), [arXiv:2208.10882](https://arxiv.org/abs/2208.10882))
+
+* {#TMZ23} [[Daniel Thomas]], [[Ali Mozaffari]], [[Tom Zlosnik]], *Consistent cosmological structure formation on all scales in relativistic extensions of MOND* ([arXiv:2303.00038](https://arxiv.org/abs/2303.00038))
+
+* {#Flanagan23} [[Eanna Flanagan]], *Khronometric theories of modified Newtonian dynamics* ([arXiv:2302.14846](https://arxiv.org/abs/2302.14846))
+
+* {#THCZ23} Shuxun Tian, Shaoqi Hou, Shuo Cao, Zong-Hong Zhu, *Time evolution of the local gravitational parameters and gravitational wave polarizations in a relativistic MOND theory*, Physical Review D, Volume 107, Issue 4. Published 24 February 2023. ([doi:10.1103/PhysRevD.107.044062](https://doi.org/10.1103/PhysRevD.107.044062), [arXiv:2302.13304](https://arxiv.org/abs/2302.13304))
 
 ### Review
 
@@ -83,6 +114,7 @@ General review includes
 
 * {#Peebles22} [[Phillip James E. Peebles]], §5.7 "Why is MOND Successful but Unpoular" of: *Anomalies in Physical Cosmology* &lbrack;[arXiv:2208.05018](https://arxiv.org/abs/2208.05018)&rbrack;
 
+* {#Merritt20} [[David Merritt]], *A Philosophical Approach to MOND: Assessing the Milgromian Research Program in Cosmology*. Cambridge University Press, 2020. ISBN:978-1108492690
 
 ### Experimental constraints
 
@@ -138,25 +170,3 @@ Hybrid models which contain both [[MOND]] and [[dark matter]] are explored in
 * [[Tobias Mistele]], *Cherenkov radiation from stars constrains hybrid MOND dark matter models*. Journal of Cosmology and Astroparticle Physics, Volume 2022, November 2022 ([doi:10.1088/1475-7516/2022/11/008](https://doi.org/10.1088/1475-7516/2022/11/008), [arXiv:2103.16954](https://arxiv.org/abs/2103.16954))
 
 * [[Tobias Mistele]], *A novel Cherenkov radiation constraint for hybrid MOND dark matter models*, ([arXiv:2208.14308](https://arxiv.org/abs/2208.14308))
-
-
-### Relativistic MOND models
- {#ReferencesRelativisticModels}
-
-On [[general relativity|relativistic]] MOND [[model (in theoretical physics)|models]]:
-
-* {#Bekenstein04} [[Jacob Bekenstein]], *Relativistic gravitation theory for the modified Newtonian dynamics paradigm*, Physical Review D **70** 8 (2004) 083509, &lbrack;[arXiv:astro-ph/0403694](https://arxiv.org/abs/astro-ph/0403694), [doi:10.1103/PhysRevD.70.083509](https://doi.org/10.1103/PhysRevD.70.083509)&rbrack;
-
-* [[Constantinos Skordis]], [[Tom Zlosnik]], *A new relativistic theory for Modified Newtonian Dynamics*. Physical Review Letters. Volume 127, Issue 16. Published 15 October 2021 ([doi:10.1103/PhysRevLett.127.161302](https://doi.org/10.1103/PhysRevLett.127.161302), [arXiv:2007.00082](https://arxiv.org/abs/2007.00082))
-
-* [[Constantinos Skordis]], [[Tom Zlosnik]], *Aether scalar tensor theory: Linear stability on Minkowski space*. Physical Review D. Volume 106, Issue 10. Published 15 November 2022. ([doi:10.1103/PhysRevD.106.104041](https://doi.org/10.1103/PhysRevD.106.104041), [arXiv:2109.13287](https://arxiv.org/abs/2109.13287))
-
-* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
-
-* [[Mordehai Milgrom]], *Broader view of bimetric MOND*, Physical Review D, Volume 106, Issue 8. Published 10 October 2022. ([doi:10.1103/PhysRevD.106.084010](https://doi.org/10.1103/PhysRevD.106.084010), [arXiv:2208.10882](https://arxiv.org/abs/2208.10882))
-
-* [[Daniel Thomas]], [[Ali Mozaffari]], [[Tom Zlosnik]], *Consistent cosmological structure formation on all scales in relativistic extensions of MOND* ([arXiv:2303.00038](https://arxiv.org/abs/2303.00038))
-
-* [[Eanna Flanagan]], *Khronometric theories of modified Newtonian dynamics* ([arXiv:2302.14846](https://arxiv.org/abs/2302.14846))
-
-* Shuxun Tian, Shaoqi Hou, Shuo Cao, Zong-Hong Zhu, *Time evolution of the local gravitational parameters and gravitational wave polarizations in a relativistic MOND theory*, Physical Review D, Volume 107, Issue 4. Published 24 February 2023. ([doi:10.1103/PhysRevD.107.044062](https://doi.org/10.1103/PhysRevD.107.044062), [arXiv:2302.13304](https://arxiv.org/abs/2302.13304))
