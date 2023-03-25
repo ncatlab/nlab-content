@@ -100,6 +100,10 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * [[Quillen coreflection]]
 
+* [[reflective subcategory]]
+
+* [[bireflective subcategory]]
+
 ## References
 
 * {#AdamekRosicky} [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
