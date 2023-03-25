@@ -21,7 +21,11 @@ The type-theoretic global choice operator implies global [[axiom K]] or global [
 
 If one wants to express the set-theoretic global choice operator and still consistently have a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]], one needs to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):\vert A \vert_0} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A)}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):\vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isSet}(A), x:\vert A \vert \vdash \varepsilon_A(p, x):A}$$
+
+The above rules could be simplified to the following rules using [[function types]] and [[product types]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to \vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \times \vert A \vert \to A}$$
 
 There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
 
