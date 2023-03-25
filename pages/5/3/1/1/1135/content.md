@@ -119,17 +119,17 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * the category of cocommutative Hopf algebras over a field. Was proven in papers by Gran/Kadjo/Vercruysse and Gran/Sterck/Vercruyse
 
-## Properties
-
-### General
-
-(...)
-
-
 ### Dold--Kan correspondence
 
 * The analogue of a [[Dold–Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
 
+## Related concepts
+
+* [[pseudo-abelian category]]
+
+* [[quasi-abelian category]]
+
+* [[abelian category]]
 
 
 ## References
