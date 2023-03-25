@@ -13,4 +13,6 @@ Tobias Mistele is a researcher at the [[Frankfurt Institute for Advanced Studies
 
 * [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
 
+* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Superfluid dark matter in tension with weak gravitational lensing data* ([arXiv:2303.08560](https://arxiv.org/abs/2303.08560))
+
 category: people
