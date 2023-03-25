@@ -258,6 +258,8 @@ Counter-examples:
 
 * [[quasi-abelian category]]
 
+* [[semi-abelian category]]
+
 * [[length of an object]]
 
 ## References
