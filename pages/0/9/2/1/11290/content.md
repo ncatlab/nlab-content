@@ -48,8 +48,9 @@ This is definition 2.1.1 in ([Kashiwara](#Kashiwara)).
 
 ## References
 
-* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and representation of real semisimple Lie groups_, 
-[pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf)
+* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and representation of real semisimple Lie groups_,  Lecture Notes in Mathematics 1931 (2008), 137–234.  [doi:10.1007/978-3-540-76892-0](https://doi.org/10.1007/978-3-540-76892-0_3).  [PDF](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf).
+
+* [[Jean-Pierre Schneiders]], _Quasi-abelian categories and sheaves_.  Mémoires de la Société Mathématique de France 76 (1999), 144 pp.  [doi](http://dx.doi.org/10.24033/msmf.389).
 
 * {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_,  Prepublications Mathematiques de l'Universite Paris 13, 46 (December 2000) ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
 
