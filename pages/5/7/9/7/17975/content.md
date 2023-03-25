@@ -148,8 +148,9 @@ Claim that the fitting of the [[galaxy rotation curves]] is not resolved after a
 
 * Mariangela Lisanti, Matthew Moschella, Nadav Joseph Outmezguine, Oren Slone, _The Inconsistency of Superfluid Dark Matter with Milky Way Dynamics_ ([arXiv:1911.12365](https://arxiv.org/abs/1911.12365))
 
+Claim that superfluid dark matter is in tension with weak gravitational lensing data:
 
-
+* [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Superfluid dark matter in tension with weak gravitational lensing data* ([arXiv:2303.08560](https://arxiv.org/abs/2303.08560))
 
 
 
@@ -157,3 +158,4 @@ Claim that the fitting of the [[galaxy rotation curves]] is not resolved after a
 [[!redirects BEC dark matter]]
 
 [[!redirects axion dark matter]]
+[[!redirects superfluid dark matter]]
