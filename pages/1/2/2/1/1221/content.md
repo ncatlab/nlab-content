@@ -55,6 +55,14 @@ The requirement that, say, a [[dg-category]] or a [[triangulated category]] be K
 
 The Karoubian envelope is also used in the construction of the [[category of pure motives]], and in [[K-theory]].
 
+## Related concepts
+
+* [[semi-abelian category]]
+
+* [[quasi-abelian category]]
+
+* [[abelian category]]
+
 
 ## References
 
