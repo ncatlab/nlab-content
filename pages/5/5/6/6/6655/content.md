@@ -34,45 +34,71 @@ There are many different ways to present Martin-Löf dependent type theory in a 
 
 This first presentation uses [[judgmental equality]], and could be contrasted with the second presentation, which uses [[propositional equality]] and a very weak [[logic]] over [[dependent type theory]]. 
 
+
+
 #### Judgments and contexts
+ {#JudgmentsAndContexts}
 
-The syntax of Martin-Löf dependent type theory can be constructed in two stages. The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not meaningful. The second stage consists of defining the *derivable judgements* of the type theory inductively which then pick out the meaningful contexts, types and terms.
+The [[syntax]] of Martin-Löf dependent type theory can be constructed in two stages: 
 
-A context is a list of types. Variables can be defined as De Bruijn indices in which case the type of a variable $n$ is given by $n$th type in a context.
+* The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not necessarily meaningful. 
+
+* The second stage consists of defining the *derivable judgements* of the type theory [[induction|inductively]] which then pick out the meaningful [[contexts]], [[types]] and [[terms]].
+
+A [[context]] is a [[list]] of succesivley [[dependent types]]. The [[variables]] may be defined as [[de Bruijn indices]], in which case the type of a variable $n$ is given by $n$th type in a [[context]].
 
 One may also define contexts as coming with a variable name, in which case one needs a notion of $\alpha$-equivalence (syntactic identity modulo renaming of bound variables) and of capture-free substitution. De Bruijn indices avoid this step but can be more obfuscating.
 
 Types and terms are built inductively from various constructors. Types, terms and contexts are defined mutually.
 
-We have the basic judgement forms:
+We have the basic [[judgement]] forms:
 
-* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in context $\Gamma$.
-* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in context $\Gamma$.
-* $\Gamma \; \mathrm{ctx}$ - $\Gamma$ is a well-formed context. 
+* $\Gamma \; \mathrm{ctx}$ 
 
-In addition, we work in the logical framework of [[natural deduction]], where everything is given by rules. Contexts are defined by the following rules:
+  saying that: "$\Gamma$ is a well-formed context";
 
-$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+* $\Gamma \vdash A\; \mathrm{type}$ 
+
+  saying that "$A$ is a well-typed [[dependent type]] in [[context]] $\Gamma$";
+
+* $\Gamma \vdash a : A$ 
+
+  saying that "$a$ is a well-typed [[term]] of [[type]] $A$ in [[context]] $\Gamma$";
+
+The following table indicates the corresponding [[categorical semantics]] [[categorical semantics of dependent types|of these notions of dependent type theory]]:
+
+<center>
+<img src="/nlab/files/DependentTermsSyntaxAndSemantics-230326.jpg" width="650">
+</center>
+
+
+We work in the [[logical framework]] of [[natural deduction]], where everything is given by [[inference rules]]. 
+
+To start with, [[contexts]] are built from [[dependent types]] by the following rules (cf. [[type telescope]]):
+
+$$
+  \frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}
+$$
+
 
 #### Structural rules
+ {#StructuralRules}
 
-There are three structural rules in dependent type theory, the [[variable rule]], the [[weakening rule]], and the [[substitution rule]]. 
+Among the *[[structural rules]]* of dependent type theory are (e.g. [Jacobs (1998), p. 122](#Jacobs98), [UFP13, A.2.2](#UFP13), [Rijke (2018), Sec. 1.4](#Rijke18)):
 
-The variable rule states that we may derive a typing judgment if the typing judgment is in the context already:
+* the [[variable rule]], 
 
-$$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
+* the [[weakening rule]], 
 
-Let $\mathcal{J}$ be any arbitrary judgment. Then we have the following rules:
+* the [[substitution rule]]
 
-The weakening rule:
+shown in the following table together with their [[categorical semantics]] [[categorical semantics of dependent types|of dependent types]]:
 
-$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
+<center>
+<img src="/nlab/files/StructuralTypeInferenceRules-230326b.jpg" width="650">
+</center>
 
-The substitution rule:
-
-$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta \vdash \mathcal{J}}{\Gamma, \Delta[a/b] \vdash \mathcal{J}[a/b]}$$
-
-The weakening and substitution rules are admissible rules: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
+The weakening and substitution rules are [[admissible rules]]: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
 
 #### Definitional equality
 
@@ -761,14 +787,31 @@ also published as:
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, in *Semantics and logics of computation*, Publ. Newton Inst. **14**, Cambridge Univ. Press (1997) 79-130 &lbrack;[doi:10.1017/CBO9780511526619.004](https://doi.org/10.1017/CBO9780511526619.004)&rbrack;
 
+Textbook accounts on general [[dependent type theory]]:
+
+* {#Thompson91} [[Simon Thompson]], §6.3 in: *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+
+* {#Jacobs98} [[Bart Jacobs]], Chapter 10 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+  > (emphasis on the [[categorical model of dependent types]])
+
+* {#UFP13} [[Univalent Foundations Project]], §A of *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+  > (in the context of [[homotopy type theory]])
+
+
+* {#Rijke18} [[Egbert Rijke]], *Dependent type theory* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/dtt.pdf)&rbrack;, Lecture 1 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
+  > (in the context of [[homotopy type theory]])
+
 
 A philosophical examination:
 
 * [[Göran Sundholm​]], _Proof Theory and Meaning_ (1986), ([pdf](https://openaccess.leidenuniv.nl/bitstream/handle/1887/11978/9_05?sequence=1))
 
-An introduction and survey (with an eye towards [[homotopy type theory]]) is in chapter 1 of
+An introduction and survey (with an eye towards [[homotopy type theory]]):
 
-* {#Warren} [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+* {#Warren} [[Michael Warren]], chapter 1 of: _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
  
 as well as
 
@@ -812,6 +855,9 @@ Discussion of the logical [[axiom of choice]] in dependent type theory is in
 
 [[!redirects intuitionistic type theory]]
 [[!redirects intuitionistic type theories]]
+
+[[!redirects intuitionistic dependent type theory]]
+[[!redirects intuitionistic dependent type theories]]
 
 
 [[!redirects MLTT]]
