@@ -378,6 +378,9 @@ Discussion of a [[modal type theory]] for bireflective [[modalities]], in a cont
 
 * {#RFL21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], Section 7.1 in: *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
 
+On a closely related notion of localisation:
+
+* {#JS96}[[Peter Johnstone]], _Remarks on Quintessential and Persistent Localizations_, TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
 
 [[!redirects bireflective subcategories]]
