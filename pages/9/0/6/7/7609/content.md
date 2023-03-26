@@ -15,29 +15,44 @@
 
 ## Idea
 
-Syntactic _substitution_ for [[variables]] is one of the basic operations in formal mathematics, such as symbolic [[logic]] and [[type theory|type theories]]. 
+Syntactic _substitution_ of/for [[variables]] is one of the basic operations in formal mathematics, such as in [[formal logic]] and [[type theory|type theories]], where it is part of the *[[structural rules]]*.
 
 
 ## Syntactic substitution
 
-Substitution is usually defined as an *operation* on expressions containing variables.  (These expressions may be [[terms]], [[formulas]], [[propositions]], [[dependent types]], etc.)  Suppose that $P$ an expression in the [[context]] of a [[variable]] $x$, and that $t$ is an expression which has the same type as $x$.  Then we denote by 
+Substitution is usually defined as an *operation* on expressions (such [[strings (computer science)|strings]] of letters from an [[alphabet]] and representing [[terms]], [[formulas]], [[propositions]], [[dependent types]], etc.) containing [[variables]].    
 
-$$ P[t/x] $$
+Suppose that $P$ is an expression in the [[context]] of a [[variable]] $x \,\colon\, X$ of [[type]], and that $t \colon X$ is an expression which has the same [[type]] as $x$.  Then one denotes by 
+
+$$ 
+  P[t/x] 
+$$
 
 the result of **substituting** $t$ for all occurrences of $x$ in $P$.
 
 For example, if $P$ is $x^2 + 2x y + 3$ and $t$ is $(y+z)$, then $P[t/x]$ is $(y+z)^2 + 2(y+z)y + 3$.
 
-Note that in this approach, substitution is an *operation on syntax*, not an element of syntax itself.  In particular, the bracket notation $[t/x]$ is part of "meta-syntax", not the syntax in question.  That is, the literal string of symbols "$P[t/x]$" is not itself an expression in the language under consideration, but *denotes* such an expression, in the same way that "$2+2$" is not literally an integer but *denotes* the integer $4$.
+\begin{remark}
+**(substitution is a meta-operation on syntax)**
+\label{AsOperationOnSyntax}
+In this approach, substitution is an *operation on syntax*, not an element of [[syntax]] itself. In particular, the bracket notation $[t/x]$ is part of "meta-syntax", not the syntax in question.  
 
+That is, the literal string of symbols "$P[t/x]$" is not itself an expression in the language under consideration, but *denotes* such an expression, in the same way that "$2+2$" is not literally an [[integer]] but *denotes* the [[numeral]] "$4$".
+
+Compare also Rem. \ref{TypesettingByActualSubstitution} below.
+\end{remark}
 
 ### Simultaneous substitution
 
-Substitution for multiple variables does not, in general, commute.  That is,
+Substitution for multiple variables does not, in general, commute.  That is, the expressions
 
-$$P[t/x][s/y] \qquad\text{and}\qquad P[s/y][t/x]$$
+$$
+  P[t/x][s/y] 
+  \qquad\text{and}\qquad 
+  P[s/y][t/x]
+$$
 
-are not in general the same: the former substitutes $s$ for occurrences of $y$ in $t$, but not $t$ for occurrences of $x$ in $s$, while the latter has the opposite behavior.  We also write
+are not in general the same: The former substitutes $s$ for occurrences of $y$ in $t$, but not $t$ for occurrences of $x$ in $s$, while the latter has the opposite behavior.  We also write
 
 $$ P[t,s/x,y] $$
 
@@ -52,21 +67,71 @@ For instance, if $P$ is $\exists y (x + y = 1)$, and $t$ is the free variable $y
 
 We say that $t$ is **substitutable** for $x$ in $P$ if performing a literal textual substitution as above would not result in undesired variable capture.  If $t$ is not substitutable for $x$ in $P$, then we can always replace $P$ by an [[alpha-equivalent]] expression in which $t$ *is* substitutable for $x$.  Since we often consider formulas only up to $\alpha$-equivalence anyway, one usually defines the notation "$P[t/x]$" to include an $\alpha$-conversion of $P$, if necessary, to make $t$ substitutable for $x$.
 
-In computer implementations of type theories, however, the issue of variable binding and capture is one of the trickiest things to get right.  Performing $\alpha$-conversions is difficult and tedious, and other solutions exist, such as using [[de Brujin indices]] to represent bound variables.
+In computer implementations of type theories, however, the issue of variable binding and capture is one of the trickiest things to get right.  Performing $\alpha$-conversions is difficult and tedious, and other solutions exist, such as using [[de Bruijn indices]] to represent bound variables.
 
 
-### As an admissible rule
+### As an admissible type inference rule
 
-A general property of type theories (and other formal mathematics) is that *substitution is an admissible rule*.  Roughly, this means that if $P$ is an expression of some type, then so is the result $P[t/x]$ of substitution (as long as $t$ and $x$ have the same type).  This is generally not a rule "put into" the theory, but rather a property one *proves* about the theory; type theorists say that substitution is an [[admissible rule]] rather than a [[derivable rule]].
+A general property of [[type theories]] (and other formal mathematics) is that *substitution is an admissible rule*.  
 
-For instance, in the language of [[dependent type theory]] we can show that the following substitution rule is admissible:
+Roughly, this means that if $P$ is an [[term|expression]] of some [[type]], then so is the result $P[t/x]$ of substitution (as long as $t$ and $x$ have the same type).  This is generally not a rule "put into" the theory, but rather a property one *proves* about the theory; type theorists say that substitution is an [[admissible rule]] rather than a [[derivable rule]].
 
-$$ \frac{\Gamma \vdash (t:A) \qquad (x:A) \vdash P \;type}{\Gamma \vdash P[t/x] \;type} $$
+For instance, in the language of [[dependent type theory]] the following *substitution rule* (one of the [[structural rules]]) is an [[admissible rule]]:
+
+\[
+  \label{SubstitutionRuleInDependentTypeTheory} 
+  Sub
+  \frac{
+    \Gamma,\; (x:A) \vdash P \;type
+    \qquad 
+    \Gamma \vdash (t:A) 
+  }{
+   \Gamma \vdash P[t/x] \;type
+  } 
+  \,.
+\]
 
 Here "admissibility" means that if there exist derivations of $\Gamma \vdash (t:A)$ and $(x:A) \vdash P \;type$, then there also exists a derivation of $\Gamma \vdash P[t/x] \;type$.  By contrast, saying that this is a derivable rule would mean that it can occur itself as *part* of a derivation, rather than being a meta-statement *about* derivations.
 
 The substition rule is closely related to the [[cut rule]], and admissibility of such rules is generally proven by [[cut elimination]].
 
+\begin{remark}
+\label{TypesettingByActualSubstitution}
+**(alternative typesetting of substitution rule)**
+\linebreak
+In view of Remark \ref{AsOperationOnSyntax} we may re-express the substitution rule (eq:SubstitutionRuleInDependentTypeTheory) by using actual syntactic substitutions instead of the meta-instruction "[t/x]" to perform these, if only we make explicit the [[variable]] [[dependent type|dependency]] of all [[terms]], say by a subscript:
+
+$$
+  Sub
+  \frac{
+      \gamma \colon \Gamma
+      ,\;\;
+      a_\gamma \colon A_\gamma
+      \;\;\;
+      \vdash
+      \;\;\;
+      P_{a_\gamma} \;type
+      \;\;\;\;\;\;\;\;\;\;\;
+      \gamma \colon \Gamma
+      \;\;\;
+      \vdash
+      \;\;\;
+      t_\gamma \colon A
+  }{
+    \gamma \colon \Gamma
+    \;\;\;
+      \vdash
+    \;\;\;
+    P_{t_\gamma} \;type
+  }
+$$
+
+<center>
+<img src="/nlab/files/StructuralTypeInferenceRules-230326b.jpg" width="650">
+</center>
+
+
+\end{remark}
 
 ## Explicit substitution
 
@@ -158,11 +223,21 @@ Specifically, if $X$ is the [[unit]] type it is interpreted as a [[terminal obje
 
 $$
   \array{
-    P(y_0) &\to& P
+    P(y_0) 
+    &\longrightarrow& 
+    P
     \\
-    \downarrow && \downarrow
+    \big\downarrow 
+      && 
+    \big\downarrow
     \\
-    * &\stackrel{y_0}{\to}& Y
+    \ast 
+    &
+    \overset
+      {y_0}
+      {\longrightarrow}
+    & 
+    Y
   }
 $$
 
@@ -184,6 +259,22 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 * [[dependent sum]], [[existential quantifier]]
 
 ## References
+ {#References}
+
+Discussion of the substitution rule in [[intuitionistic type theory|intuitionistic]] [[dependent type theory]]:
+
+* {#Jacobs98} [[Bart Jacobs]], p. 122 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+  > (emphasis on the [[categorical model of dependent types]])
+
+* {#UFP13} [[Univalent Foundations Project]], p. 423 of: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+  > (in the context of [[homotopy type theory]])
+
+* {#Rijke18} [[Egbert Rijke]], p. 4 of: *Dependent type theory* &lbrack;[pdf](https://www.andrew.cmu.edu/user/erijke/hott/dtt.pdf)&rbrack;, Lecture 1 in: *[[Introduction to Homotopy Type Theory]]*, lecture notes, CMU (2018) &lbrack;[pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [[Rijke-IntroductionHoTT-2018.pdf:file]], [webpage](https://www.andrew.cmu.edu/user/erijke/hott/)&rbrack;
+
+  > (in the context of [[homotopy type theory]])
+
 
 The observation that substitution forms an [[adjoint pair]]/[[adjoint triple]] with [[quantifiers]] is due to
 
@@ -194,7 +285,7 @@ and further developed in
 * [[Bill Lawvere]], _Equality in hyperdoctrines and
 comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
-Exposition of the interpretation of substitution as pullback is in 
+Exposition of the interpretation of substitution as pullback:
 
 * [[Andrej Bauer]], _[Substitution is pullback](http://math.andrej.com/2012/09/28/substitution-is-pullback/)_, 2012
 
@@ -203,6 +294,7 @@ The [[coherence]] issue involved in making this precise is discussed in
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
 
 * {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013  ([[LumsdaineWarren2013.pdf:file]])
+
 
 [[!redirects substitution]]
 [[!redirects substitutions]]
