@@ -214,6 +214,20 @@ The elimination, computation, and uniqueness rules for the natural numbers type 
 
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).\mathrm{Id}_{C(0)}(c(0), c_0) \times \prod_{x:\mathbb{N}} \mathrm{Id}_{C(s(x))}(c(s(x)), c_s(c(x)))}$$
 
+### Extensionality principle of the natural numbers
+
+First we [[inductive definition|inductively define]] a [[binary function]] into the [[boolean domain]] called [[observational equality]] of the natural numbers: 
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Eq}_\mathbb{N}:\mathbb{N} \times \mathbb{N} \to \mathrm{Bit}}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \delta^{0, 0}:\mathrm{Id}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(0, 0), 1)} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, n:\mathbb{N} \vdash \delta^{0, s}(n):\mathrm{Id}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(0, s(n)), 0)}$$
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N} \vdash \delta^{s, 0}(m):\mathrm{Id}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(s(m), 0), 0)} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta^{s, s}(m, n):\mathrm{Id}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(s(m), s(n)),\mathrm{Eq}_\mathbb{N}(m, n))}$$
+
+The extensionality principle of the natural numbers states that the natural numbers has [[decidable equality]] given by observational equality:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta(m, n):\mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(m, n)) \simeq \mathrm{Id}_\mathbb{N}(m, n)}$$
+
 ## Properties
 
 ### General
