@@ -48,6 +48,12 @@ The converse of this is also true: if untruncated decidable equality holds, then
 
 For non-h-sets, the difference between untruncated decidable equality and truncated decidable equality can be dramatic. For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies truncated decidable equality (which is what it means for the logic to be boolean), but only the h-sets satisfy untruncated decidable equality (in accordance with Hedberg\'s theorem).
 
+### Using the boolean domain
+
+There is also another definition of decidable equality in [[dependent type theory]], which relies on the fact that the [[boolean domain]] with its extensionality principle forms a [[univalent Tarski universe]] $(\mathrm{Bit}, \mathrm{El}_\mathrm{Bit})$ and that the decidable equality is always valued in the [[boolean domain]]: decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences 
+$$x:A, y:A \vdash \delta(x, y):\mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_A(x, y)) \simeq (x =_A y)$$
+This is typically how the [[natural numbers type]] is proven to have decidable equality, by defining a binary function into the boolean domain called [[observational equality]] and using the extensionality principle of the natural numbers. 
+
 ## Related concepts
 
 * [[decidability]]
