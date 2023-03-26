@@ -333,13 +333,37 @@ which holds by [[natural transformation|naturality]] of $\epsilon$.
 The other claims follow similarly.
 \end{proof}
 
+## Modal type theory
+ {#ModalTypeTheory}
+
+A [[modal type theory]] for bireflection [[modalities]] has been proposed in [RFL21](#RFL21).
+
+We show the [[inference rules]] which are added to plain [[intuitionistic type theory]] for encoding the presence of a bireflection $\natural$ on the type system.
+
+(Beware the notational asymmetry: An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along $\epsilon$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-modal or not.)
+
+<center>
+<img src="/nlab/files/BireflectiveTypesStructureRules-230327.jpg" width="690">
+</center>
+
+<center>
+<img src="/nlab/files/BireflectiveModalityInferenceRules-230327.jpg" width="690">
+</center>
+
+<center>
+<img src="/nlab/files/BireflectiveModalityComputationRules-230327.jpg" width="690">
+</center>
+
+\linebreak
+
+
 ## Examples
 
 \begin{example}
   For any [[ground field]],
   let $\mathcal{B} \coloneqq Vect_{Set} \coloneqq \int_{S \in Set} Vect S$ be the category of of [[vector bundles]] over [[Sets]], hence of [[indexed set|indexed]] [[vector spaces]]. Then the functor
 $$
- Set \xhookrightarrow{ 0 } Vect_{Set}
+  Set \xhookrightarrow{\;\; 0 \;\;} Vect_{Set}
 $$
 which sends any set $S$ to the [[zero object|zero]] vector bundle $S \times \{0\}$ over $S$ is an ambidextrously bireflective subcategory in the sense of Def. \ref{BireflectiveSubcategory}.
 \end{example}
@@ -350,7 +374,7 @@ The notion of ambidextrously bireflective subcategories is due to:
 
 * {#FOPTST99} [[Peter Freyd]], [[Peter O’Hearn]],  [[A. John Power]], [[M. Takeyama]], [[Ross Street]], [[Robert D. Tennent]], *Bireflectivity*, Theoretical Computer Science **228** 1–2 (1999) 49-76 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
 
-Discussion in a context of [[categorical semantics]] for [[linear homotopy type theory]]:
+Discussion of a [[modal type theory]] for bireflective [[modalities]], in a context of [[linear homotopy type theory]]:
 
 * {#RFL21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], Section 7.1 in: *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
 
