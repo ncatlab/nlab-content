@@ -44,14 +44,20 @@ In 2020, David Merritt wrote a review of MOND and dark matter which stated that 
 
 ## Relativistic extensions of MOND
 
-The original MOND model by Milgrom is an ad-hoc such modification of the basic laws of physics and breaks many established properties of physics, such as the [[principle of equivalence]] in [[general relativity]] and various [[conservation laws]]. Thus, many theories have been developed to reconcile MOND with relativity, including 
+The original MOND model by Milgrom is an ad-hoc such modification of the basic laws of physics and breaks many established properties of physics, such as the [[principle of equivalence]] in [[general relativity]] and various [[conservation laws]]. Thus, many theories have been developed to reconcile MOND with relativity, including:
 
 * Tensor-Vector-Scalar gravity ([Bekenstein 04](#Bekenstein04), "TeVeS") 
+
 * Aether scalar tensor theory ([SkordisZlosnik21](#SkordisZlosnik21), [SkordisZlosnik22](#SkordisZlosnik22), [MMH23](#MMH23), "AeST)
+
 * Bimetric MOND ([Milgrom22](#Milgrom22))
+
 * Khronometric MOND ([Flanagan23](#Flanagan23))
 
 In addition, there are also studies of relativistic MOND gravity in general ([TMZ23](#TMZ23), [THCZ23](#THCZ23)). 
+
+{#TheseTheories} These theories tend to postulate new [[relativistic field theory|relativistic]] [[field (physics)|fields]] adjoined to plain [[Einstein gravity]]. While their [[relativistic field theory|relativistic]] [[interactions]] are designed to mimic the originally postulated MOdfied Newtonian Dynamics in appropriate regimes, to be [[phenomenology|phenomenologically]] viable they must otherwise be effectively unobservable and as such are rather like the [[dark matter]] [[field (physics)|fields]] whose introduction the original idea of MOND it was to avoid. The difference between the oxymoronic "relativistic MOND" and mainstream [[dark matter]] is now more one of style and focus than of principle.
+
 
 ### Tensor-Vector-Scalar gravity
 
