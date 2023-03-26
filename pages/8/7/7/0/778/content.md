@@ -85,7 +85,7 @@ as well as the introduction and appendices to
 
 For longer surveys, see
 
-* [[Bernhard Keller]], _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
+* [[Bernhard Keller]], _On differential graded categories_, International Congress of Mathematicians. **II** (2006) 151-190, Eur. Math. Soc., Z&#252;rich &lbrack;[arXiv:math/0601185](http://arxiv.org/abs/math/0601185)&rbrack;
 
 and
 
