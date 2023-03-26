@@ -26,6 +26,26 @@ In fact, intuitionistic logic proves that there is no truth value that is neithe
 
 In [[material set theory]], [Shulman 18](#Shulman18) makes the distinction between **full classical logic**, where the principle of excluded middle holds for all logical formulae in the [[material set theory]], and **$\Delta_0$-classical logic**, where the principle of excluded middle holds for only holds for $\Delta_0$-formulae. $\Delta_0$-formulae are logical formulae where every [[quantifier]] $Q$ has to be bounded by the membership relation; i.e. $Q x \in y.P(x) \coloneqq Q x.x \in y \wedge P(x)$. In [[structural set theory]], the above difference between full classical logic and $\Delta_0$-classical logic in [[material set theory]] is the difference between defining [[structural set theory]] as a [[well-pointed topos|well-pointed]] [[Boolean topos]] in [[classical logic]] and in [[intuitionistic logic]] respectively. 
 
+## In type theory
+
+In [[dependent type theory]], there are many statements of excluded middle. 
+
+The statement which directly corresponds to excluded middle in logic states that given a type $P$, if $P$ is a [[mere proposition]], then either $P$ or the negation of $P$ holds
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to (P \vee \neg P)}$$
+
+where $\mathrm{isProp}$ is the [[isProp]] [[modality]] commonly defined as $\prod_{x:P} \prod_{y:P} \mathrm{Id}_P(x, y)$, negation $\neg P$ is simply the the function type $P \to \mathbb{0}$ into the [[empty type]] and [[disjunction]] $A \vee B$ is the [[bracket type]] of the [[sum type]] $[A + B]$. There is also an untruncated version of excluded middle, which uses the sum type instead of the disjunciton:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to (P + \neg P)}$$
+
+If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+
+By definition, the only two booleans are $0$ representing false and $1$ representing true. Similarly as above, there is also an untruncated version using [[dependent sum types]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \sum_{Q:\mathrm{Bit}} P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+
 ## Relation to the axiom of choice
  {#RelationToTheAxiomOfChoice}
 
