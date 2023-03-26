@@ -11,9 +11,15 @@ Unlike primitive and derivable rules, an admissible rule need *not* be satisfied
 ## Examples
 
 * the [[cut rule]] and the identity in [[sequent calculus]]
-* [[substitution]] in [[natural deduction]]
+
+* [[substitution]] and [[weakening rule|weakening]] in [[natural deduction]]
+
 * [[negation]] in [[classical logic|classical]] [[linear logic]]
 
 ## Related Concepts
 
 * [[focusing]]
+
+* [[structural rule]]
+
+[[!redirects admissible rules]]
