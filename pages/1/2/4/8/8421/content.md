@@ -148,13 +148,17 @@ For instance, the connectives of type theory are presentations of [[functors]], 
 
 * [[deduction calculus]]
 
-* [[definition]]
+* [[intuitionistic type theory|intuitionistic]]$\;$[[dependent type theory|dependent]]$\;$[[type theory]]
 
-* [[type theory]], [[meaning explanation]]
+  [[meaning explanation]]
 
 * [[sequent calculus]]
 
+* [[structural rule]]
+
 * [[calculus of constructions]]
+
+* [[definition]]
 
 ## References
 
