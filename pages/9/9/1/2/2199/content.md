@@ -83,6 +83,18 @@ $$\frac{\Gamma, x:\mathrm{Bit} \vdash C(x) \; \mathrm{type}}{\Gamma, c_0:C(0), c
 
 The judgmental computation and uniqueness rules imply the typal computation and uniqueness rules and thus imply the dependent universal property of the boolean domain. 
 
+#### Extensionality principle of the boolean domain
+
+The elements of the boolean domain represent certain truth values or propositions, namely, [[true]] and [[false]]. By the principle of [[propositions as some types]], truth values or propositions are represented as certain types: specifically, [[true]] or $1$ is represented by the [[unit type]] $\mathbb{1}$, and [[false]] or $0$ is represented by the [[empty type]] $\mathbb{0}$. We represent the above by making the boolean domain into a [[Tarski universe]], by including rules 
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bit} \vdash \mathrm{El}_\mathrm{Bit}(x) \; \mathrm{type}} \qquad\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{El}_\mathrm{Bit}(1) \equiv \mathbb{1} \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{El}_\mathrm{Bit}(0) \equiv \mathbb{0} \; \mathrm{type}}$$
+
+The extensionality principle of the boolean domain is then given by the [[univalence axiom]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathrm{Bit}, y:\mathrm{Bit} \vdash \mathrm{ua}(x, y):\mathrm{Id}_\mathrm{Bit}(x, y) \simeq (\mathrm{El}_\mathrm{Bit}(x) \simeq \mathrm{El}_\mathrm{Bit}(y))}$$
+
+Since the empty type is not equivalent to the unit type, this automatically implies that $0$ is not equal to $1$. 
+
 ### In homotopy type theory
  {#InHomotopyTypeTheory}
 
@@ -94,7 +106,9 @@ In [[homotopy type theory]] the type of booleans / bits looks as [above](#InType
 
 \linebreak
 
+## Related concepts
 
+* [[decidable equality]]
 
 ## References
 
