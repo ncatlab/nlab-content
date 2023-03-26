@@ -226,7 +226,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N} \vdash \delta^{s, 0}(m):\ma
 
 The extensionality principle of the natural numbers states that the natural numbers has [[decidable equality]] given by observational equality:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta(m, n):\mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(m, n)) \simeq \mathrm{Id}_\mathbb{N}(m, n)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta(m, n):\mathrm{Id}_\mathbb{N}(m, n) \simeq \mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(m, n))}$$
 
 ## Properties
 
