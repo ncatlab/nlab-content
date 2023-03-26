@@ -39,6 +39,10 @@ The original paper is
 
 * [[Alexandre Grothendieck]], _Sur quelques points d'algèbre homologique_.  [Project Euclid](http://projecteuclid.org/euclid.tmj/1178244839).
 
+A Russian translation:
+
+* А. Гротендик, _О некоторых вопросах гомологической алгебры_, Москва, Издательство иностранной литературы, 1961.  Перевод с французского Б. Б. Венкова, А. В. Руколайне, Б. В. Степанова.  [DjVu](http://ncatlab.org/nlab/files/GrotendikTohoku.djvu).
+
 An English translation due to [[Michael Barr]] can be found in
 
 * [[Alexandre Grothendieck]], _Some aspects of homological algebra_.  [PDF](https://www.math.mcgill.ca/barr/papers/gk.pdf).
