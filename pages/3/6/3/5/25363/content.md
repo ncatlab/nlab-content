@@ -29,5 +29,7 @@
 
 * [[analogy]]
 
+* [[tautology]]
+
 * [[paradox]]
 
