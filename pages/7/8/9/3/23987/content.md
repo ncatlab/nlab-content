@@ -867,6 +867,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Every two-dimensional [[topological phase]] is associated with some [[topological quantum field theory]] (TQFT), or [more formally](modular+tensor+category#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences) a [[modular tensor category]].  The [[ground states]] of a [[topological phase]] [encode information](topological+entanglement+entropy+--+references#CharacterizingTopologicalOrder) about the TQFT, which makes them useful in determining the TQFT data, such as [[anyon]] mutual statistics and self statistics.  For example, many numerical methods for detecting the TQFT [relied on](topological+entanglement+entropy+--+references#CharacterizingTopologicalOrder) the use of minimum entanglement states (MESs), which are the eigenstates of the [[Wilson loop]] operators, and are labeled by the anyons corresponding to their eigenvalues.  Here we revisit the definition of the Wilson loop operators and MESs.  We rederive the [[modular transformation]] of the [[ground states]] purely from the Wilson loop algebra, and as a result, the modular $S$- and $T$-matrices naturally show up in the overlap of MESs.  Importantly, we show that due to the phase degree of freedom of the Wilson loop operators, the MES-anyon assignment is not unique.  This ambiguity means that there are some sets of TQFTs that cannot be distinguished from one another solely by the overlap of MESs.
 
+\linebreak
+
+* 27 Mar 2023
+
+  [[Matthias Christandl]] (Centre for the Mathematics of Quantum Theory, U. Copenhagen):
+
+  **Quantum Software**
+
+  >  In these days, we are witnessing amazing progress in both the variety and quality of platforms for [[quantum computation]] and [[quantum information|quantum communication]]. Since [[algorithms]] and communication protocols designed for traditional 'classical' hardware do not employ the [[superposition principle]] and thus provide no gain even when used on quantum hardware, we are in need of developing specific quantum algorithms and quantum communication protocols that make clever use of the superposition principle and extract a [[quantum advantage]]. "Quantum hardware needs quantum software", so to say. Furthermore, due to noise in the [[qubits]], known as [[decoherence]], an additional quantum-specific software layer is required that emulates a perfect quantum machine on top of a noisy one. I will demonstrate our recent work on this subject with theorems as well data from university and commercial quantum devices. 
 
 
 
