@@ -8,6 +8,10 @@ On [[System F]]:
 
 * [[Jean-Yves Girard]], _Interprétation functionelle et élimination des coupures dans l'arithmétique d'ordre supérieure_, Ph.D. thesis, Université Paris VII (1972) &lbrack;[pdf](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/kw/www/scans/girard72thesis.pdf), [[Girard-InterpretationFunctionelle.pdf:file]]&rbrack;
 
+Introducing [[linear logic]]:
+
+* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
+
 
 On [[formal logic|formal]] [[logic]] and [[formal proof|formal]] [[proof]] [[proof theory|theory]] ([[type theory|typed]] [[lambda-calculus|$\lambda$-calculus]], [[linear logic]],  [[coherence spaces]], ...)
 
