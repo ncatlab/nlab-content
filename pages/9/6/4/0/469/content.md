@@ -186,6 +186,8 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
 * **closed monoidal category** ,  [[closed monoidal (∞,1)-category]]
 
+  * [[doubly closed monoidal category]]
+
   * [[closed monoidal functor]]
 
   * [[internal hom]]
