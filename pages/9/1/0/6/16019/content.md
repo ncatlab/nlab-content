@@ -51,7 +51,7 @@ The terminology is presumably chosen in view of the concept of a _von Neumann re
 
 * [[Francis Borceux|F. Borceux]], [[Jiri Rosicky|J. Rosicky]], _On Von Neumann Varieties_ , TAC **13** no. 1 (2004) pp.5-26. ([pdf](http://www.tac.mta.ca/tac/volumes/13/1/13-01.pdf))
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) 261-299 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 * {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Ioowa, May 22-24 1989, Iowa City, pp.51-74. 
 
