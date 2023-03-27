@@ -64,7 +64,7 @@ Review:
 
 * {#Chen19} Yi-Hsiu Chen, *Computational Notions of Entropy: Classical, Quantum, and Applications*, 2019 ([pdf](https://dash.harvard.edu/bitstream/handle/1/42029772/CHEN-DISSERTATION-2019.pdf?sequence=1&isAllowed=y))
 
-* Robert Koenig, Renato Renner, Christian Schaffner, *The operational meaning of min- and max-entropy*, IEEE Trans. Inf. Th., vol. 55, no. 9 (2009) ([arXiv:0807.1338](https://arxiv.org/abs/0807.1338))
+* Robert Koenig, [[Renato Renner]], Christian Schaffner, *The operational meaning of min- and max-entropy*, IEEE Trans. Inf. Th., vol. 55, no. 9 (2009) &lbrack;[arXiv:0807.1338](https://arxiv.org/abs/0807.1338), [doi:10.1109/TIT.2009.2025545](https://doi.org/10.1109/TIT.2009.2025545)&rbrack;
 
 See also:
 
