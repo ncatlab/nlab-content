@@ -515,5 +515,9 @@ $$
 
 * [[tangent (infinity,1)-category|tangent $\infty$-category]]
 
+* [[parameterized spectra]]
+
+* [[doubly closed monoidal category]]
+
 
 [[!redirects VectorBundles]]
