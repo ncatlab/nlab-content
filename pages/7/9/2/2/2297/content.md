@@ -1,4 +1,5 @@
-* [Homepage](http://www.ms.unimelb.edu.au/~nganter)
+* [Homepage](https://researchers.ms.unimelb.edu.au/~nganter@unimelb/)
+
 * [School staff page](http://www.ms.unimelb.edu.au/Personnel/profile.php?PC_id=662)
 
 ## Research program
