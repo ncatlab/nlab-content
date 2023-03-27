@@ -121,10 +121,23 @@ Since every identity type $x =_\mathbb{1} y$ is contractible for elements $x:\ma
 
 #### The unit type as a univalent universe
 
-The unit type could also be represented as a univalent universe. We [[inductive definition|inductively define]] the type family $x:\mathbb{1} \vdash \mathrm{El}_\mathbb{1}(x) \; \mathrm{type}$ by defining 
+In [[set theory]], regular and inaccessible cardinals are useful in determining [[size issues]] in [[strongly predicative]] and [[weakly predicative]]/[[impredicative]] mathematics respectively. Some definitions of regular and inaccessible cardinals do not have a requirement that the cardinals be infinite; thus finite cardinals such as $0$ and $1$ could be considered to be regular and inaccessible cardinals. Univalent universes in type theory which are closed under [[dependent sum types]] are the type theoretic equivalent of [[regular cardinals]], and univalent universe which are additionally closed under [[power sets]] are the type theoretic equivalent of [[inaccessible cardinals]]. 
+
+We [[inductive definition|inductively define]] the type family $x:\mathbb{1} \vdash \mathrm{El}_\mathbb{1}(x) \; \mathrm{type}$ by defining 
 $$\mathrm{El}_\mathbb{1}(*) \coloneqq \mathbb{1}$$
-which makes the unit type into a [[Tarski universe]]. The extensionality principle for the unit type then is simply the [[univalence axiom]]:
+The extensionality principle for the unit type then is simply the [[univalence axiom]]:
 $$\mathrm{ext}_\mathbb{1}:\prod_{x:\mathbb{1}} \prod_{y:\mathbb{1}} (x =_\mathbb{1} y) \simeq (\mathrm{El}_\mathbb{1}(x) \simeq \mathrm{El}_\mathbb{1}(y))$$
+The unit type $\mathbb{1}$ represents the trivial universe, the universe with only one element up to identification, where every type in the universe is a [[contractible type]] and thus every contractible type is [[essentially small type|essentially $\mathbb{1}$-small]]. The [[equivalence type]] between the two contractible types $\mathrm{El}_\mathbb{1}(x)$ and $\mathrm{El}_\mathbb{1}(y)$ is itself contractible and thus equivalent to $\mathbb{1}$ itself. As proven in the previous section, $\mathbb{1}$ is equivalent to $x =_\mathbb{1} y$ for any $x:\mathbb{1}$ and $y:\mathbb{1}$. Thus the univalence axiom for $\mathbb{1}$ is true. 
+
+In addition, given any type $A$, functions into the unit type $A \to \mathbb{1}$ are families of [[contractible types]]. The universe $(\mathbb{1}, \mathrm{El}_\mathbb{1})$ is also closed under [[dependent sum types]], as for any family of contractible types $p:B \to \mathbb{1}$,
+$$\left(\sum_{x:\mathbb{1}} \mathrm{El}_\mathbb{1}(B(x))\right) \simeq \mathbb{1}$$
+This makes the unit type into a [[Tarski universe]] representing a finite regular cardinal. As a universe, the unit type also satisfies [[propositional resizing]]: the type of all $\mathbb{1}$-small propositions is simply the unit type itself as a [[weakly Tarski universe]], which is essentially $\mathbb{1}$-small. 
+
+If the [[dependent type theory]] also has [[weak function extensionality]], then the universe above is also closed under [[dependent product types]], as weak function extensionality states that for any family of contractible types $p:B \to \mathbb{1}$,
+$$\left(\prod_{x:\mathbb{1}} B(x)\right) \simeq \mathbb{1}$$
+Thus, in the context of [[weak function extensionality]], [[power sets]] exist in the unit type, making the unit type impredicative: power sets are just [[function types]] into the unit type. This makes the unit type into a [[Tarski universe]] representing a finite [[inaccessible cardinal]]. 
+
+The unit type is also the only universe which contains itself, as any univalent universe which contains the [[empty type]] and itself makes the entire [[dependent type theory]] inconsistent. 
 
 ### In lambda-calculus 
 
