@@ -1,12 +1,15 @@
+
+> not to be confused with [[Franco Rota]]
+
+***
+
 __Gian-Carlo Rota__ was a great [[combinatorialist]]; in addition to numerous concrete results he deserves much credit on systematizing many methods.   
 
 * [wikipedia](http://en.wikipedia.org/wiki/Gian-Carlo_Rota)
 
-Related entries in nlab include [[umbral calculus]], [[Möbius inversion]], and [[Rota-Baxter algebra]].
 
 
-
-## Writings
+## Selected writings
 
 A nice reading about appreciation of systematic/foundational work in mathematics is his preface ([pdf](http://bergeron.math.uqam.ca/wp-content/uploads/2013/11/introductionrota.pdf), [ps.gz](http://bergeron.math.uqam.ca/Species/foreword.ps.gz), [bookpage](http://bergeron.math.uqam.ca/Species/especes.html)) to [[Combinatorial species and tree-like structures]] (Enc. Math. Appl., Camb. Univ. Press 1997) by F. Bergeron, G. Labelle and P. Leroux.
 
@@ -25,8 +28,17 @@ Most mathematicians are a mixture of the two although it is easy to find extreme
 
 > To the theorizer, the supreme achievement of mathematics is a theory that sheds sudden light on some incomprehensible phenomenon. Success in mathematics does not lie in solving problems but in their trivialization. The moment of glory comes with the discovery of a new theory that does not solve any of the old problems but renders them irrelevant. The theorizer is a revolutionary at heart. Mathematical concepts received from the past are regarded as imperfect instances of more general ones yet to be discovered. Mathematical exposition is considered a more difficult undertaking than mathematical research. To the theorizer, the only mathematics that will survive are the definitions. Great definitions are what mathematicians contribute to the world. Theorems are tolerated as a necessary evil since they play a supporting role &#8212; or rather, as the theorizer will reluctantly admit, an essential role &#8212; in the understanding of definitions. Theorizers often have trouble being recognized by the community of mathematicians. Their consolation is the certainty, which may or may not be borne out by history, that their theories will survive long after the problems of the day have been forgotten. 
 
-> If I were a space engineer looking for a mathematician to help me send a rocket into
-space, I would choose a problem solver. But if I were looking for a mathematician to give a good education to my child, I would unhesitatingly prefer a theorizer.
+> If I were a space engineer looking for a mathematician to help me send a rocket into space, I would choose a problem solver. But if I were looking for a mathematician to give a good education to my child, I would unhesitatingly prefer a theorizer.
+
+## Related entries
+
+* [[umbral calculus]]
+
+* [[Möbius inversion]]
+
+* [[Rota-Baxter algebra]]
+
+
 
 category: people
 
