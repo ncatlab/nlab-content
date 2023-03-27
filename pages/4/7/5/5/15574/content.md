@@ -593,7 +593,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], *Remarks on Quintessential and Persistent Localizations*, TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 * {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
