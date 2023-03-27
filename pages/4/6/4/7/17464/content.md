@@ -8,6 +8,8 @@
 On [[bunched logic]]:
 
 * [[Peter O'Hearn]], [[David J. Pym]], *The Logic of Bunched Implications*, The Bulletin of Symbolic Logic **5** 2 (1999) 215-244  &lbrack;[pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf), [doi:10.2307/421090](https://doi.org/10.2307/421090)&rbrack;
+
+* [[Peter O'Hearn]], *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
  
 
 
