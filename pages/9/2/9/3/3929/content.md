@@ -93,7 +93,11 @@ On [[monoid objects in monoidal categories]]:
 1. (with R. Paré) A note on the Albert-Kelly paper “The closure of a class of colimits”, J. Pure Appl. Algebra 51 (1988) 19–25.
 1. Elementary observations on 2-categorical limits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
 1. (with R. Blackwell and A. J. Power) Two dimensional monad theory, J. Pure Appl. Algebra 59 (1989) 1–41.
-1. (with F. W. Lawvere) On the complete lattice of essential localizations, Bull. Soc. Math. Belgique 41 (1989) 289–319.
+
+1. (with [[F. W. Lawvere]]) *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+
+   > (on [[essential localizations]])
+
 1. (with G. J. Bird, A. J. Power and R. H. Street) Flexible limits for 2-categories, J. Pure Appl. Algebra 61 (1989) 1–27.
 1. (with A. Carboni and R. J. Wood) A 2-categorical approach to change of base and geometric morphisms I, Cahiers de topologieet géométrie différentielle catégoriques 32 (1991) 47–95.
 1. A note on relations relative to a factorization system, Lecture Notes in Math. 1448 (Springer-Verlag, 1991) 249–261.
