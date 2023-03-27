@@ -20,7 +20,9 @@
 ## Definition
 
 An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$, or
-more precisely equipped with a specific equivalence.  Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of a biadjunction).
+more precisely: equipped with a specified equivalence.  Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of *[[biadjunction]]*).
+
+In the special case that $G$ is a [[fully faithful functor]] with an ambidextrous adjoint one also speaks of an *[[essential localization]]* (cf. *[[bireflective subcategory]]*).
 
  
 ## Properties
