@@ -95,7 +95,9 @@ We know that $A$ is an h-set just when all $x=_A y$ have split support.
 
 * {#KECA} [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf).  In this paper, steady functions are called "constant".
  
-* [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]]. "Notions of Anonymous Existence in Martin-Löf Type Theory".  Logical Methods in Computer Science, Volume 13, Issue 1.  [doi](https://lmcs.episciences.org/3217),  [arXiv](https://arxiv.org/abs/1610.03346).
+* [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
+
+[[!redirects weakly constant functions]]
 
 [[!redirects steady function]]
 [[!redirects steady functions]]
