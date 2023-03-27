@@ -184,9 +184,18 @@ Exposition of the tensor product of $R$-[[modules]] is for instance in
 
 * Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
 
-A characterization for tensor products of $R$-modules in terms of heteromorphisms appears in section 9 of.
+For the [[category theory|category theoretic]] formalization of tensor products see the references at
 
-* David Ellerman, _Mac Lane, Bourbaki, and Adjoints: A Heteromorphic Retrospective_ ([pdf](http://www.ellerman.org/wp-content/uploads/2015/06/Maclane-Bourbaki-Redux.pdf))
+* *[[monoidal category]]* and *[[tensor category]]*
+
+A characterization for tensor products of $R$-modules in terms of [[heteromorphisms]]:
+
+* David Ellerman, Section 9 of: _Mac Lane, Bourbaki, and Adjoints: A Heteromorphic Retrospective_ ([pdf](http://www.ellerman.org/wp-content/uploads/2015/06/Maclane-Bourbaki-Redux.pdf))
+
+Formalization of tensor products in [[dependent linear type theory]]:
+
+* {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
+
 
 
 [[!redirects tensor products]]
