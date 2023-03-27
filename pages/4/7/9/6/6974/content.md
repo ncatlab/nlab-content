@@ -1,9 +1,11 @@
 
 * **[[subcategory]]**
 
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]], 
+  * [[full subcategory|full]], [[wide subcategory|wide]], [[dense subcategory|dense]], [[replete subcategory|replete]]
 
-  * [[abelian subcategory]], [[Serre subcategory]], [[topologizing subcategory]]
+  * [[reflective subcategory|reflective]], [[coreflective subcategory|coreflective]], [[bireflective subcategory|bireflective]]
+
+  * [[abelian subcategory|abelian]], [[Serre subcategory|Serre]] [[topologizing subcategory|topologizing]]
 
   * [[internal subcategory]]
 
@@ -24,7 +26,6 @@
   * [[reflective sub-(∞,1)-category]] ([[reflective sub-(∞,1)-category - internal formulation|internal formulation]])
 
   * [[reflective product-preserving sub-(∞,1)-category]] ([[reflective product-preserving sub-(∞,1)-category - internal formulation|internal formulation]])
-
 
 * [[thick subcategory]] (of a [[triangulated category]])
 
