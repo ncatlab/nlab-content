@@ -421,7 +421,7 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 The original article:
 
-* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;[pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
+* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
  
 
 Review:
