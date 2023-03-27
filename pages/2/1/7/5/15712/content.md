@@ -4,7 +4,7 @@
 
 ## Selected writings
 
-Om [[synthetic topology]]:
+On [[synthetic topology]]:
 
 * [[Martín Escardó]], _Synthetic topology of data types and classical spaces_  &lbrack;[pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf)&rbrack;
 
@@ -35,6 +35,10 @@ On [[Hedberg's theorem]]:
 On [[compactness and stable closure]]:
 
 * [[Martín Escardó]], Intersections of compactly many open sets are open, 2009 [(pdf)](http://www.cs.bham.ac.uk/~mhe/papers/compactness-submitted.pdf)
+
+On [[weakly constant functions]] and [[propositional truncation]] in [[homotopy type theory]]:
+
+* [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
 
 On [[injective objects]] in [[homotopy type theory]]:
 
