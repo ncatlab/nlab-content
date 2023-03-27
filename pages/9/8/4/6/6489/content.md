@@ -527,6 +527,8 @@ Further developments include
 
 * {#Stellari15} Paolo Stellari, _A tour on Bridgeland stability_, 2015 ([pdf](https://users.unimi.it/stellari/Research/Slides/LucidiStabCondBeamer.pdf))
 
+* [[Franco Rota]], _An introduction to stability conditions_, lecture notes &lbrack;[pdf](https://drive.google.com/file/d/1sJSwN-JTOr77fpIgRWfDXkidYZmrJ0jC/view), [[Rota-StabilityConditions.pdf:file]]&rbrack;
+
 ### Examples
 
 Discussion of examples of stability conditions 
