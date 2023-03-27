@@ -73,6 +73,8 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 * [[potentiality]]
 
+* [[quantum state tomography]]
+
 [[!include states and observables -- content]]
 
 \linebreak
