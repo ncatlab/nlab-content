@@ -16,6 +16,12 @@ On [[enriched category theory]]:
 
   Republished as: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
+On [[essential localizations]]:
+
+* [[Max Kelly]], [[F. W. Lawvere]] *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+
+
+
 On [[reflective factorization systems]]:
 
 * {#CHK} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
@@ -30,6 +36,7 @@ On [[Cartesian bicategories]]:
 On [[monoid objects in monoidal categories]]:
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+
 
 ## Publications
 
@@ -93,10 +100,6 @@ On [[monoid objects in monoidal categories]]:
 1. (with R. Paré) A note on the Albert-Kelly paper “The closure of a class of colimits”, J. Pure Appl. Algebra 51 (1988) 19–25.
 1. Elementary observations on 2-categorical limits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
 1. (with R. Blackwell and A. J. Power) Two dimensional monad theory, J. Pure Appl. Algebra 59 (1989) 1–41.
-
-1. (with [[F. W. Lawvere]]) *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
-
-   > (on [[essential localizations]])
 
 1. (with G. J. Bird, A. J. Power and R. H. Street) Flexible limits for 2-categories, J. Pure Appl. Algebra 61 (1989) 1–27.
 1. (with A. Carboni and R. J. Wood) A 2-categorical approach to change of base and geometric morphisms I, Cahiers de topologieet géométrie différentielle catégoriques 32 (1991) 47–95.
