@@ -182,6 +182,13 @@ As for binary [[sum types]], it is possible to present the empty type as a [[neg
 
 The two definitions are provably equivalent, but only using the [[contraction rule]] and the [[weakening rule]].  Thus, in [[linear logic]] they become distinct; the positive empty type is "zero" $\mathbf{0}$ and the negative one is "bottom" $\bot$.
 
+## Properties
+
+#### The empty type as a univalent universe
+
+The empty type could be represented as a univalent universe. The type family $x:\mathbb{0} \vdash \mathrm{El}_\mathbb{0}(x) \; \mathrm{type}$ is already [[inductive definition|inductively defined]], and is enough to make the empty type into a [[Tarski universe]]. The extensionality principle for the empty type then is simply the [[univalence axiom]]:
+$$\mathrm{ext}_\mathbb{0}:\prod_{x:\mathbb{0}} \prod_{y:\mathbb{0}} (x =_\mathbb{0} y) \simeq (\mathrm{El}_\mathbb{0}(x) \simeq \mathrm{El}_\mathbb{0}(y))$$
+Thus the empty type is the empty univalent universe: a univalent universe which has no small types. 
 
 ## Related concepts
 
