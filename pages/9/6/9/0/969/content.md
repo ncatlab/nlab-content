@@ -189,6 +189,14 @@ See also [[localization of a simplicial model category]].
 
 * [[localization at an object]]
 
+* [[reflective localization]]
+
+  [[essential localization]]
+
+  [[quintessential localization]]
+
+  [[reflective bicategory]]
+
 * [[monoidal localization]]
 
 * [[simplicial localization]]
@@ -219,7 +227,7 @@ See also [[localization of a simplicial model category]].
 
 The classical reference to localization for categories is the book by Gabriel and Zisman:
 
-* [[Pierre Gabriel], [[Michele Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
+* [[Pierre Gabriel]], [[Michele Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
  
 A more recent account of localization with a [[calculus of fractions]] is section 7 of
 
