@@ -470,6 +470,12 @@ Thus the essentially unique factorization of $F$ through $L$ now follows by Prop
 
 * [[reflective subcategory]], [[coreflective subcategory]]
 
+* [[essential localization]]
+
+  [[quintessential localization]]
+
+  [[bireflective subcategory]]
+
 * [[reflective factorization system]]
 
 * [[Bousfield localization]], [[Quillen reflection]]
