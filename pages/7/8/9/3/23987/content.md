@@ -875,6 +875,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Quantum Software**
 
+  cf.: [arXiv:2009.07161](https://arxiv.org/abs/2009.07161)  [doi:10.1109/TIT.2022.3169438](https://ieeexplore.ieee.org/document/9761242)
+
   >  In these days, we are witnessing amazing progress in both the variety and quality of platforms for [[quantum computation]] and [[quantum information|quantum communication]]. Since [[algorithms]] and communication protocols designed for traditional 'classical' hardware do not employ the [[superposition principle]] and thus provide no gain even when used on quantum hardware, we are in need of developing specific quantum algorithms and quantum communication protocols that make clever use of the superposition principle and extract a [[quantum advantage]]. "Quantum hardware needs quantum software", so to say. Furthermore, due to noise in the [[qubits]], known as [[decoherence]], an additional quantum-specific software layer is required that emulates a perfect quantum machine on top of a noisy one. I will demonstrate our recent work on this subject with theorems as well data from university and commercial quantum devices. 
 
 
