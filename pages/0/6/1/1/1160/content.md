@@ -50,9 +50,15 @@ For non-h-sets, the difference between untruncated decidable equality and trunca
 
 ### Using the boolean domain
 
-There is also another definition of decidable equality in [[dependent type theory]], which relies on the fact that the [[boolean domain]] with its extensionality principle forms a [[univalent Tarski universe]] $(\mathrm{Bit}, \mathrm{El}_\mathrm{Bit})$ and that the decidable equality is always valued in the [[boolean domain]]: decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences 
+There is also a few definitions of decidable equality in [[dependent type theory]], which rely on the [[boolean domain]] with its extensionality principle and the fact that that the decidable equality is always valued in the [[boolean domain]]. 
+
+The first definition states that decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences
+$$x:A, y:A \vdash \delta(x, y):\mathrm{Id}_A(x, y) \simeq \mathrm{Id}_\mathbb{2}(\mathrm{Eq}_A(x, y), 1)$$
+
+The second also relies on the fact that the [[boolean domain]] forms a [[univalent Tarski universe]] $(\mathrm{Bit}, \mathrm{El}_\mathrm{Bit})$. Here, decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences 
 $$x:A, y:A \vdash \delta(x, y):\mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_A(x, y)) \simeq (x =_A y)$$
-This is typically how the [[natural numbers type]] is proven to have decidable equality, by defining a binary function into the boolean domain called [[observational equality]] and using the extensionality principle of the natural numbers. 
+
+Either way, this is typically how the [[natural numbers type]] is proven to have decidable equality, by defining a binary function into the boolean domain called [[observational equality]] and using the extensionality principle of the natural numbers. 
 
 ## Related concepts
 
