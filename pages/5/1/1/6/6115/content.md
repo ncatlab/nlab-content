@@ -99,6 +99,8 @@ In [[twisted cohomology]].
 
 * [[tangent (infinity,1)-category]]
 
+* [[cartesian doubly closed monoidal (infinity,1)-category]]
+
 * [[sheaf of spectra]]
 
 * [[rational parameterized stable homotopy theory]]
