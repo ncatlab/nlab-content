@@ -232,7 +232,7 @@ Proofs of the folklore Proposition \ref{FullyFaithful} can be found in
 
 * {#DyckhoffTholen} Roy Dyckhoff and [[Walter Tholen]], "Exponentiable morphisms, partial products, and pullback complements", JPAA 49 (1987), 103--116.
 
-* {#KellyLawvere} [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289--319.
+* {#KellyLawvere} [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 * {#SGL} [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic|Sheaves in Geometry and Logic --- A First Introduction to Topos Theory]]_, Springer (1992), [doi](https://dx.doi.org/10.1007/978-1-4612-0927-0).
 
