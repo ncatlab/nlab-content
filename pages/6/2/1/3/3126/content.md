@@ -904,6 +904,8 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 
 * [[Joyal locus]]
 
+* [[doubly closed monoidal (infinity,1)-category]]
+
 * [[differentiable (∞,1)-category]]
 
 * [[Goodwillie calculus]]
