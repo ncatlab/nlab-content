@@ -162,7 +162,7 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 * _An elementary theory of the category of sets_, 1964, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511. Expanded version with commentary by [[Colin McLarty]] and the author in:
 Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac](http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
-   > (axiomatizing the category [[Set]] of sets; see at *[[ETCS]]*)
+  > (axiomatizing the category [[Set]] of sets; see at *[[ETCS]]*)
 
 *  _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
 
@@ -185,7 +185,12 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
   (on [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
 )
 
-*  _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
+* (with [[Max Kelly]]) *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+
+  > (on [[essential localizations]])
+
+
+* _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
 
     (on [[comprehension]] in [[hyperdoctrines]])
 
