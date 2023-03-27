@@ -59,6 +59,14 @@ Finally, $f$ being a monomorphism in a [[category]] $\mathcal{C}$ means equivale
 
 ### General
 
++-- {: .num_example}
+###### Example
+**(monomorphisms in preorders)
+
+In a [[preorder]], all arrows are mono because they satisfy the required condition vacuously (any pair of parallel arrows is equal in a preorder).
+
+=--
+
 +-- {: .num_example #MonomorphismsInSet}
 ###### Example
 **(monomorphisms in $Set$)
