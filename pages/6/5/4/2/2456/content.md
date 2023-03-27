@@ -84,6 +84,9 @@ category: foundational axiom
 [[!redirects set-theoretic global choice operators]]
 
 [[!redirects axiom of existence]]
+[[!redirects type-theoretic axiom of existence]]
+[[!redirects set-theoretic axiom of existence]]
+
 [[!redirects axiom scheme of existence]]
 [[!redirects axiom schema of existence]]
 [[!redirects axiom schemas of existence]]
