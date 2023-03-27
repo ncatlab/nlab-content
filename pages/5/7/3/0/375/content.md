@@ -206,6 +206,8 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 
 * **cartesian closed category**, [[locally cartesian closed category]]
 
+  * [[cartesian doubly closed monoidal category]]
+
 * [[cartesian closed functor]], [[locally cartesian closed functor]]
 
 * [[cartesian closed model category]], [[locally cartesian closed model category]]
@@ -246,3 +248,5 @@ See also the references at *[[exponential object]]*.
 
 [[!redirects cartesian closed monoidal category]]
 [[!redirects cartesian closed monoidal categories]]
+
+
