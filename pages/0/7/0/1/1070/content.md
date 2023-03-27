@@ -236,6 +236,9 @@ Other lecture notes include
 
 * Theo B&#252;hler, _An introduction to the derived category_ ([pdf](http://www.uni-math.gwdg.de/theo/intro-derived.pdf))
 
+and for applications to [[coherent sheaves]],
+
+* [[Franco Rota]], _An introduction to the derived category of coherent sheaves_ ([pdf](https://drive.google.com/file/d/12fhshN_lFOi54pjBdjVEPzUb1XBxz-TW/view))
 
 For a discussion in the context of [[(∞,1)-category|(∞,1)-categories]] and in particular [[stable (∞,1)-category|stable (∞,1)-categories]] see [section 13, p. 53](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=53) of
 
