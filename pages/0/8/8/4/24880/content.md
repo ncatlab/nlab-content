@@ -539,6 +539,7 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 
 * [[quantum circuits via dependent linear types]]
 
+* [[doubly closed monoidal category]]
 
 ## References
 
