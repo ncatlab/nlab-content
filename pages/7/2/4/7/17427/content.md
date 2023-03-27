@@ -44,7 +44,7 @@ Usually the reason for using a bunched logic is that the different structural co
 
 ### Bunched implications
 
-In **bunched implications** logic ([BI](#BI)), the semicolon allows contraction and weakening while the comma does not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
+In **bunched implications** logic ([O'Hearn & Pym (1999)](#O'HearnPym99)), the semicolon allows contraction and weakening while the comma does not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
 
 ### Relevance logic
 
@@ -88,7 +88,7 @@ An English translation appears in the Journal of Soviet Mathematics 6 (1976) 422
 
 The original articles:
 
-* {#BI} [[Peter O'Hearn]], [[David J. Pym]], *The Logic of Bunched Implications*, The Bulletin of Symbolic Logic **5** 2 (1999) 215-244  &lbrack;[pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf), [doi:10.2307/421090](https://doi.org/10.2307/421090)&rbrack;
+* {#O'HearnPym99} [[Peter O'Hearn]], [[David J. Pym]], *The Logic of Bunched Implications*, The Bulletin of Symbolic Logic **5** 2 (1999) 215-244  &lbrack;[pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf), [doi:10.2307/421090](https://doi.org/10.2307/421090)&rbrack;
   
 * {#Pym2002} [[David Pym]], *The Semantics and Proof Theory of the Logic of Bunched Implications*, Applied Logic Series **26**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0091-7](https://doi.org/10.1007/978-94-017-0091-7), [GoogleBooks](https://books.google.com/books/about/The_Semantics_and_Proof_Theory_of_the_Lo.html?id=0bAfqhzDuOcC&redir_esc=y)&rbrack;
 
@@ -96,7 +96,7 @@ The original articles:
 
 Review and further development:
 
-* Bodil Biering, *On the logic of bunched implications -- and its relation to separation logic*, MSc thesis Copenhagen (2004) &lbrack;[[Biering-BunchedLogic.pdf:file]]&rbrack;
+* Bodil Biering, *On the logic of bunched implications -- and its relation to separation logic*, MSc thesis, Copenhagen (2004) &lbrack;[[Biering-BunchedLogic.pdf:file]]&rbrack;
  
 
 * Brotherston and Calcagno, *Classical BI: Its Semantics and Proof Theory*, [arxiv](http://arxiv.org/abs/1005.2340)
