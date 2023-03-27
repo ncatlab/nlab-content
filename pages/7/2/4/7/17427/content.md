@@ -66,6 +66,8 @@ Bunched logics naturally have semantics in categories with more than one [[monoi
 
 * [[linear logic]]
 
+* [[doubly closed monoidal category]]
+
 * [[relevance logic]]
 
 * [[separation logic]]
@@ -79,17 +81,22 @@ Bunched logics naturally have semantics in categories with more than one [[monoi
 
 ## References
 
-* {#BI} [[Peter O'Hearn]], [[David J. Pym]], *The Logic of Bunched Implications*, The Bulletin of Symbolic Logic **5** 2 (1999) 215-244  &lbrack;[pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf), [doi:10.2307/421090](https://doi.org/10.2307/421090)&rbrack;
- 
+Precursors:
+
 * {#Mints} G. E. Mints. *Cut-elimination theorem for relevant logics*, Zap. Nauchn. Sem. LOMI, 1972,	Volume 32, Pages 90&#8211;97. ([math-net.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=2569&option_lang=eng)).
-An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.422-8. ([doi](http://doi.org/10.1007/BF01084083))
- 
+An English translation appears in the Journal of Soviet Mathematics 6 (1976) 422-8 &lbrack;[doi:10.1007/BF01084083](http://doi.org/10.1007/BF01084083)&rbrack;
 
-* Bodil Biering, *On the logic of bunched implications - and its relation to separation logic*, [masters thesis](http://www.itu.dk/people/biering/papers/speciale.ps)
+The original articles:
 
+* {#BI} [[Peter O'Hearn]], [[David J. Pym]], *The Logic of Bunched Implications*, The Bulletin of Symbolic Logic **5** 2 (1999) 215-244  &lbrack;[pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf), [doi:10.2307/421090](https://doi.org/10.2307/421090)&rbrack;
+  
 * {#Pym2002} [[David Pym]], *The Semantics and Proof Theory of the Logic of Bunched Implications*, Applied Logic Series **26**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0091-7](https://doi.org/10.1007/978-94-017-0091-7), [GoogleBooks](https://books.google.com/books/about/The_Semantics_and_Proof_Theory_of_the_Lo.html?id=0bAfqhzDuOcC&redir_esc=y)&rbrack;
 
 * [[Peter O'Hearn]], *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
+
+Review and further development:
+
+* Bodil Biering, *On the logic of bunched implications -- and its relation to separation logic*, MSc thesis Copenhagen (2004) &lbrack;[[Biering-BunchedLogic.pdf:file]]&rbrack;
  
 
 * Brotherston and Calcagno, *Classical BI: Its Semantics and Proof Theory*, [arxiv](http://arxiv.org/abs/1005.2340)
@@ -111,3 +118,7 @@ A bunched logic for [[dependent linear types]], reflecting contexts built not ju
 [[!redirects BI]]
 [[!redirects structural connective]]
 [[!redirects structural connectives]]
+
+
+[[!redirects bunched type theory]]
+[[!redirects bunched type theories]]
