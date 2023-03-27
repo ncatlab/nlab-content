@@ -20,14 +20,7 @@
 # Contents
 * table of contents
 {:toc}
-[[!redirects quality]]
-[[!redirects Quality type]]
-[[!redirects extensive quality]]
-[[!redirects intensive quality]]
-[[!redirects persistent localization]]
-[[!redirects quintessential localization]]
-[[!redirects quintessential localisation]]
-[[!redirects persistent localisation]]
+
 
 ## Idea
 
@@ -51,7 +44,7 @@ In the following we discuss the case for ordinary categories, for the higher ord
 
 ## Definition
 
-Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful functor]] $q^*:\mathcal{S}\to\mathcal{F}$ is said to exhibit $\mathcal{F}$ as a **quality type** over $\mathcal{S}$ if $q^*$ has both a left and a right adjoint which moreover coincide: $q_!\dashv q^*\dashv q_*$ and $q_!\cong q_*$.
+Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful functor]] $q^*:\mathcal{S}\to\mathcal{F}$ is said to exhibit $\mathcal{F}$ as a **quality type** over $\mathcal{S}$ if $q^*$ has both a [[left adjoint]] and a [[right adjoint]] which moreover coincide (an [[ambidextrous adjoint]]): $q_!\dashv q^*\dashv q_*$ and $q_!\cong q_*$.
 
 Let $\mathcal{E}$ be a (pre)cohesive category over $\mathcal{S}$ with adjoint string $p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$ and $q^*:\mathcal{S}\to\mathcal{F}$ a quality type over $\mathcal{S}$. A functor $s:\mathcal{E}\to\mathcal{F}$ is called an **intensive quality** on $\mathcal{E}$ if $s$ preserves finite products and finite coproducts and $q_*\circ s =p_*$.
 
@@ -139,11 +132,14 @@ For the proof cf. ([Johnstone 1996](#JS96), p.93).
 
 ## Related entries
 
+
 * [[cohesive topos]]
 
 * [[infinitesimal cohesive (infinity,1)-topos]]
 
 * [[compactly generated topological space]]
+
+* [[essential localization]]
 
 * [[bireflective subcategory]]
 
@@ -216,4 +212,29 @@ In a complementary direction, _[[homotopy type theory]]_ provides a synthetic fo
 
 [^GoC]: From another perspective, one could view an object in a quality type as a set with _germs of cohesion_.
 
+
+[[!redirects quality]]
+[[!redirects Quality type]]
+
+[[!redirects extensive quality]]
+[[!redirects intensive quality]]
+
+
+[[!redirects quintessential localization]]
+[[!redirects quintessential localizations]]
+
+[[!redirects quintessential localisation]]
+[[!redirects quintessential localisations]]
+
+[[!redirects persistent localization]]
+[[!redirects persistent localizations]]
+
+
+[[!redirects persistent localisation]]
+[[!redirects persistent localisations]]
+
+
 [[!redirects bireflective subcategory]]
+
+
+
