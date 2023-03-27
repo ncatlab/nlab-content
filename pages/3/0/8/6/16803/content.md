@@ -141,7 +141,7 @@ that expresses abstractly a [[adjoint cylinder|cylinder configuration]] correspo
 
 ## References
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the complete lattice of essential localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319. ([pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1988-on-the-complete-lattice-of-essential-localizations.pdf))
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the complete lattice of essential localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 * [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. {#Law89b}  ([pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1989-display-of-graphics-and-their-applications-exemplifed-by-2-categories-and-the-hegelian-taco.pdf))
 
