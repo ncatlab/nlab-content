@@ -322,7 +322,7 @@ The case of sheaves valued in [[FinSet]] is considered in
 
 The standard reference for _essential localizations_ [^further], aka [[level of a topos|levels]], is
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 [^further]: See at [[Aufhebung]] for further references on essential localizations.
 
