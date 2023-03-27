@@ -38,7 +38,7 @@ On [[monoid objects in monoidal categories]]:
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
 
-## Publications
+## Further publications
 
 1. Topics in homology theory (PhD Thesis, University of Cambridge, 1957; supervisors S. Wylie and M. G. Barratt).
 1. Single-space axioms for homology theory, Proc. Cambridge Phil. Soc. 55 (1959) 10–22.
