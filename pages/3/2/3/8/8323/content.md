@@ -19,6 +19,8 @@
 
 The _structural rules_ of a [[logic]] or [[deductive system]] are those rules which make no reference to logical operators but only to the unstructured [[premise]]s of a [[deduction]].
 
+In standard [[intuitionistic logic]] the structural rules notably include the [[weakening rule]] and the [[contraction rule]]. Discarding these rules leads to [[linear logic]]. Generally, logical systems discarding some structural rules are called *[[substructural logics]]*.
+
 ### In dependent type theory
  {#InDependentTypeTheory}
 
