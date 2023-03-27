@@ -366,7 +366,7 @@ to the standard textbook
 
 The result concerning essential localizations is in
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 The topos $Set^{M_2}$ is studied under the name _category of autographs_ in
 
