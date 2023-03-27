@@ -44,6 +44,7 @@
 | [[linear logic]] |  | [[linear hyperdoctrine]] | |
 | [[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
 | extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
+| [[bunched logic]] | | [[doubly closed monoidal category]] |  ([O'Hearn & Pym 1999](bunched+logic#O'HearnPym99)) |
 | [[homotopy type theory]] without [[univalence]] (intensional M-L dependent type theory) |  | [[locally cartesian closed (∞,1)-category]] | ([Cisinski 12](locally+cartesian+closed+%28infinity%2C1%29-category#Presentations)-([Shulman 12](#Shulman12)) |
 | [[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | see [[homotopytypetheory:model of type theory in an (infinity,1)-topos|here]] |
 | [[dependent linear type theory]] |   | [[indexed monoidal category]] (with comprehension)  | ([V&#225;k&#225;r 14](#Vakar14)) |  
