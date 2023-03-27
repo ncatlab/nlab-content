@@ -15,13 +15,13 @@
 
 ## Idea
 
-Generally, by a "doubly closed monoidal category" one may mean a [[category]] equipped with not just one but two different [[closed monoidal category]]-[[structures]] &lbrack;[O'Hearn (2003), §2.2](O'Hearn03)&rbrack;.
+Generally, by a "doubly closed monoidal category" one may mean a [[category]] equipped with not just one but two different [[closed monoidal category]]-[[structures]] &lbrack;[O'Hearn & Pym (1999), §3](#O'HearnPym99); [O'Hearn (2003), §2.2](O'Hearn03)&rbrack;.
 
-A common and relevant special case is that of a [[cartesian closed category]] which is equipped with further non-cartesian [[closed monoidal category]]-[[structure]], in which case one may speak of *cartesian doubly closed monoidal categories* &lbrack;[Jeltsch (2016), Def. 3](#Jeltsch16)&rbrack;.
+A common and relevant special case is that of a [[cartesian closed category]] which is equipped with further non-cartesian [[closed monoidal category]]-[[structure]], in which case one may speak of *cartesian doubly closed monoidal categories* &lbrack;[O'Hearn & Pym (1999), §3](#O'HearnPym99); [Jeltsch (2016), Def. 3](#Jeltsch16)&rbrack;.
 
-Examples of these commonly arise as "parameterized" generalizations of plain [[closed monoidal categories]]. For example, categories *[[VectBund]]* of [[finite number|finite]] [[rank of a vector bundle|rank]] [[vector bundles]] over base spaces taken from [[convenient categories of topological spaces]] (or just over [[Sets]]), whose [[morphisms]] admit [[base change]], are cartesian doubly closed monoidal, with the further non-cartesian tensor product being the [[external tensor product]] of [[vector bundles]]. In the same vein, [[tangent (infinity,1)-toposes|tangent $\infty$-toposes]] of [[parameterized spectra|parameterized]] ([[module spectra|module]]-)[[spectra]] form cartesian doubly [[monoidal (infinity,1)-category|closed monoidal $\infty$-categories]].
+Examples of these commonly arise as "parameterized" generalizations of plain [[closed monoidal categories]]. For example, categories *[[VectBund]]* of [[finite number|finite]] [[rank of a vector bundle|rank]] [[vector bundles]] over base spaces taken from [[convenient categories of topological spaces]] (or just over [[Sets]]), whose [[morphisms]] admit [[base change]], are cartesian doubly closed monoidal with the further non-cartesian [[tensor product]] being the [[external tensor product]] of [[vector bundles]]. In the same vein, [[tangent (infinity,1)-toposes|tangent $\infty$-toposes]] of [[parameterized spectra|parameterized]] ([[module spectra|module]]-)[[spectra]] form cartesian doubly [[monoidal (infinity,1)-category|closed monoidal $\infty$-categories]].
 
-The [[internal language]] of such cartesian double closed monoidal categories is a combination of classical ([[intuitionistic type theory|intuitionistc]]) [[type theory]] for the cartesian closed [[fragment]], and some kind of [[linear type theory]] for the non-cartesian closed [[fragment]]: Where a [[context]] in [[intuitionistic type theory]] is an iterated cartesian ([[dependent product type|dependent]]) [[product type]] $(-)\times (-)$ and a context in [[linear type theory]] is an iterated [[multiplicative conjunction]] $(-) \otimes (-)$, so a context in the [[internal language]] of cartesian doubly monoidal categories is obtained as an alternation of these two construction principles, forming a [[tree]] with nodes or "bunches" labeled either "$\times$" or "$\otimes$" --- this is the topic of *[[bunched type theory]]*.
+By the general [[relation between category theory and type theory]], the [[internal language]] of such cartesian double closed monoidal categories is a combination of classical ([[intuitionistic type theory|intuitionistc]]) [[type theory]] for the cartesian closed [[fragment]], and some kind of [[linear type theory]] for the non-cartesian closed [[fragment]]: Where a [[context]] in [[intuitionistic type theory]] is an iterated cartesian ([[dependent product type|dependent]]) [[product type]] $(-)\times (-)$ and a context in [[linear type theory]] is an iterated [[multiplicative conjunction]] $(-) \otimes (-)$, so a context in the [[internal language]] of cartesian doubly monoidal categories is obtained as an alternation of these two construction principles, forming a [[tree]] with nodes or "bunches" labeled either "$\times$" or "$\otimes$" --- this is the topic of *[[bunched type theory]]*.
 
 ## Related concepts
 
@@ -33,6 +33,8 @@ The [[internal language]] of such cartesian double closed monoidal categories is
 ## References
 
 Discussion of doubly closed monoidal categories as [[categorical semantics]] for [[bunched logic]]/[[bunched type theory]]:
+
+* {#O'HearnPym99} [[Peter O'Hearn]], [[David J. Pym]], §3 in: *The Logic of Bunched Implications*, The Bulletin of Symbolic Logic **5** 2 (1999) 215-244  &lbrack;[pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf), [doi:10.2307/421090](https://doi.org/10.2307/421090)&rbrack;
 
 * {#O'Hearn03} [[Peter O'Hearn]], §2.2 in: *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
 
