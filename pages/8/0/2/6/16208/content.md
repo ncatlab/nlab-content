@@ -75,7 +75,15 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
   * _[What does Lean already know?](https://xenaproject.wordpress.com/what-does-lean-already-know/)_
 
-
   (on the [[Xena project]])
 
 * _[Lean community and Mathlib] (https://leanprover-community.github.io/)_
+
+Tutorials and workshops:
+
+* *Lean for the Curious Mathematician 2020*, online event (Jul 2020) &lbrack;[web](https://leanprover-community.github.io/lftcm2020/)&rbrack;
+
+* *Lean for the Curious Mathematician 2022*, Brown University (Jul 2022) &lbrack;[web](https://icerm.brown.edu/topical_workshops/tw-22-lean/)&rbrack;
+
+* *Lean for the Curious Mathematician 2023*, Düsseldorf Univ. (Sep 2023) &lbrack;[web](https://lftcm2023.github.io)&rbrack;
+
