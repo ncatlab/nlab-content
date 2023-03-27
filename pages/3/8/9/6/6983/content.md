@@ -119,6 +119,13 @@ Given elements $x:\mathbb{1}$ and $y:\mathbb{1}$, there is an [[equivalence of t
 Since every identity type $x =_\mathbb{1} y$ is contractible for elements $x:\mathbb{1}$ and $y:\mathbb{1}$, and $\mathbb{1}$ itself is contractible, this implies that every identity type $x =_\mathbb{1} y$ is equivalent to $\mathbb{1}$. 
 \end{proof}
 
+#### The unit type as a univalent universe
+
+The unit type could also be represented as a univalent universe. We [[inductive definition|inductively define]] the type family $x:\mathbb{1} \vdash \mathrm{El}_\mathbb{1}(x) \; \mathrm{type}$ by defining 
+$$\mathrm{El}_\mathbb{1}(*) \coloneqq \mathbb{1}$$
+which makes the unit type into a [[Tarski universe]]. The extensionality principle for the unit type then is simply the [[univalence axiom]]:
+$$\mathrm{ext}_\mathbb{1}:\prod_{x:\mathbb{1}} \prod_{y:\mathbb{1}} (x =_\mathbb{1} y) \simeq (\mathrm{El}_\mathbb{1}(x) \simeq \mathrm{El}_\mathbb{1}(y))$$
+
 ### In lambda-calculus 
 
 In lambda-calculus, for both the positive unit type and the negative unit type, the rule for building the unit type is the same, namely "it exists":
