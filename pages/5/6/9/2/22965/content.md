@@ -52,7 +52,7 @@ See also
 
 * Wikipedia, *[Quantum cryptography](https://en.wikipedia.org/wiki/Quantum_cryptography)*
 
-* Renato Renner, Ramona Wolf, *Quantum Advantage in Cryptography* $[$[arXiv:2206.04078](https://arxiv.org/abs/2206.04078)$]$
+* [[Renato Renner]], Ramona Wolf, *Quantum Advantage in Cryptography*, AIAA Journal  (2023) 1-16 &lbrack;[arXiv:2206.04078](https://arxiv.org/abs/2206.04078), [doi:10.2514/1.J062267](https://doi.org/10.2514/1.J062267)&rbrack;
 
 [[!redirects quantum key distribution]]
 
