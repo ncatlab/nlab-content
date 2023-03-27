@@ -429,6 +429,11 @@ In the context of [[quantum secret sharing]]:
 
 * {#CleveGottesmanLo99} Richard Cleve, [[Daniel Gottesman]], Hoi-Kwong Lo, *How to share a quantum secret*, Phys. Rev. Lett. 83 (1999) 648-651 ([arXiv:quant-ph/9901025](https://arxiv.org/abs/quant-ph/9901025))
 
+In the context of quantum communication:
+
+* [[Matthias Christandl]], Alexander Müller-Hermes, *Fault-tolerant Coding for Quantum Communication*,
+IEEE Transactions on Information Theory, &lbrack;[arXiv:2009.07161](https://arxiv.org/abs/2009.07161)  [doi:10.1109/TIT.2022.3169438](https://ieeexplore.ieee.org/document/9761242)&rbrack;
+
 On (in-)compatibility of quantum error correction with universality of quantum gates ([[Eastin-Knill theorem]]):
 
 * [[Bryan Eastin]], [[Emanuel Knill]], *Restrictions on Transversal Encoded Quantum Gate Sets*,  Phys. Rev. Lett. 102, 110502 (2009) ([arXiv:0811.4262](https://arxiv.org/abs/0811.4262))
