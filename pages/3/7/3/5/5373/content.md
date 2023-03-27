@@ -362,8 +362,9 @@ We show the [[inference rules]] which are added to plain [[intuitionistic type t
 </center>
 
 <center>
-<img src="/nlab/files/BireflectiveModalityComputationRules-230327.jpg" width="690">
+<img src="/nlab/files/BireflectiveModalityComputationRules-230327b.jpg" width="690">
 </center>
+
 
 \linebreak
 
