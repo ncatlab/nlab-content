@@ -24,6 +24,10 @@ On the [[structure identity principle]]:
 
 * [[Thierry Coquand]], [[Nils Anders Danielsson]], *Isomorphism is equality*, Indagationes Mathematicae **24** 4 (2013) 1105-1120 &lbrack;[doi:10.1016/j.indag.2013.09.002](https://doi.org/10.1016/j.indag.2013.09.002)&rbrack;
 
+On [[weakly constant functions]] and [[propositional truncation]] in [[homotopy type theory]]:
+
+* [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
+
 
 ## Related entries
 
