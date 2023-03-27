@@ -186,9 +186,11 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 #### The empty type as a univalent universe
 
-The empty type could be represented as a univalent universe. The type family $x:\mathbb{0} \vdash \mathrm{El}_\mathbb{0}(x) \; \mathrm{type}$ is already [[inductive definition|inductively defined]], and is enough to make the empty type into a [[Tarski universe]]. The extensionality principle for the empty type then is simply the [[univalence axiom]]:
+The empty type can be represented as a univalent universe. We [[inductive definition|inductively define]] the type family $x:\mathbb{0} \vdash \mathrm{El}_\mathbb{0}(x) \; \mathrm{type}$ by defining 
+$$\mathrm{El}_\mathbb{0}(*) \coloneqq \mathbb{0}$$
+The extensionality principle for the unit type then is simply the [[univalence axiom]]:
 $$\mathrm{ext}_\mathbb{0}:\prod_{x:\mathbb{0}} \prod_{y:\mathbb{0}} (x =_\mathbb{0} y) \simeq (\mathrm{El}_\mathbb{0}(x) \simeq \mathrm{El}_\mathbb{0}(y))$$
-Thus the empty type is the empty univalent universe: a univalent universe which has no small types. 
+The empty type $\mathbb{0}$ represents the empty universe, the universe with no elements up to identification and thus no small types. Thus, the univalence axiom is trivially true. 
 
 ## Related concepts
 
