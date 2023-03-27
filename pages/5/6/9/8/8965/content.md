@@ -228,6 +228,10 @@ The extensionality principle of the natural numbers states that the natural numb
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta(m, n):\mathrm{Id}_\mathbb{N}(m, n) \simeq \mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_\mathbb{N}(m, n))}$$
 
+or equivalently
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta(m, n):\mathrm{Id}_\mathbb{N}(m, n) \simeq \mathrm{Id}_\mathbb{2}(\mathrm{Eq}_\mathbb{N}(m, n), 1)}$$
+
 ## Properties
 
 ### General
