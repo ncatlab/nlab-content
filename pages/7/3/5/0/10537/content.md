@@ -47,7 +47,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]]. Such a [[localization of a category|localization]] is called a "quintessential localization" in ([Johnstone 96](#Johnstone96)).
+The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]]. Such a [[localization of a category|localization]] is called a "quintessential localization" by [Johnstone (1996)](#Johnstone96), see at *[[bireflective subcategory]]*.
 
 =--
 
@@ -154,21 +154,25 @@ $$
 
 ## Related concepts
 
+* [[bireflective subcategory]]
+
 * [[differential cohesion]]
 
 * [[differential cohesion and idelic structure]]
 
+
+
 ## References
 
 The notion of infinitesimal cohesion appears under the name "quality type" in def. 1 of 
-
-* [[William Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
- {#Lawvere07}
+ 
+* {#Lawvere07} [[William Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+ 
 
 An earlier hint of the same notion seems to be that on the bottom of p. 9 in 
 
-* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ (1991)
- {#Lawvere91} 
+* {#Lawvere91}  [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ (1991)
+ 
 
 The above examples of infinitesimal cohesion appear in 
 
