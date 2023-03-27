@@ -19,17 +19,26 @@
 
 ## Idea
 
-By a _bireflective subcategory_ one may mean a [[subcategory]] $\mathcal{B} \hookrightarrow \mathcal{C}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]].
+By a _bireflective subcategory_ one might mean:
 
-The [[adjoint pair]] induced from the [[adjoint triple]] given by reflection, inclusion and coreflection of a bireflective subcategory is an [[adjoint modality]]. See there for more.
+1. a [[subcategory]] $\iota \,\colon\, \mathcal{B} \hookrightarrow \mathcal{C}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]]: $L \dashv \iota \dashv R$ (*[[reflective localization]]* and *coreflective localization*).
 
-The terminology "bireflective" was coined in [FOPTST99](#FOPTST99) where --- beware --- it is in addition required that:
+   Such subcategories are called **essential localizations** by [Kelly & Lawvere (1989)](#KellyLawvere89), following the terminology of *[[essential geometric morphisms]]* from [[topos theory]], see also at *[[level of a topos]]*.
 
-1. the left and right adjoints are equal, hence forming an [[ambidextrous adjoint]],
+   The [[adjoint pair]] $\iota \circ L \dashv \iota \circ R$ is then an [[adjoint modality]]; see there for more.
 
-1. such that the [[adjunction unit]] followed by the [[adjunction counit]] is the [[identity morphism]].
+1. More specfically, one may in addition ask that $L \simeq R$, hence that the subcategory inclusion $\iota$ has an [[ambidextrous adjoint]] $\beta \dashv \iota \dashv \beta$. 
 
-## Ambidextrously bireflective subcategories
+   Such subcategories are called **quintessential localizations** by [Johnstone (1996)](#JS96).
+
+   The corresponding ([[comonad|co]]-)[[monad]] $\natural \coloneqq \iota \circ \beta$ is then a *[[Frobenius monad]]*.
+
+1. Finally, one may moreover ask that the [[points-to-pieces transform]] $\natural \overset{\epsilon}{\longrightarrow} id \overset{\eta}{\longrightarrow} \natural$ of a quintessential localization be the [[identity morphisms]].
+
+   This strong form of the notion is the case actually called **bireflective subcategories** by [Freyd et al. (1999)](#FOPTST99).
+
+
+## Definition
  {#AmbidextrouslyBireflectiveSubcategories}
 
 \begin{definition}
@@ -100,7 +109,7 @@ The terminology "bireflective" was coined in [FOPTST99](#FOPTST99) where --- bew
     ]
   \end{tikzcd}
 
-(2.) such that for all $E \in \mathcal{B}$ the [[counit of an adjunction|counit]] of the right adjunction followed by the [[unit of an adjunction|unit]] of the left adjunction equals the [[identity morphisms|identity]]:
+(2.) such that for all $E \in \mathcal{B}$ the [[counit of an adjunction|counit]] of the right adjunction followed by the [[unit of an adjunction|unit]] of the left adjunction (the [[points-to-pieces transform]]) equals the [[identity morphisms|identity]]:
 
   \begin{tikzcd}
     \natural E
@@ -131,6 +140,8 @@ The terminology "bireflective" was coined in [FOPTST99](#FOPTST99) where --- bew
 
 \begin{remark}
   The first clause in Def. \ref{BireflectiveSubcategory} does not in general by itself enforce the second clause. A [[counter-example]] is given in [FOPTST99, Rem. 12](#FOPTST99).
+
+However, the second clause does follow automatically when $\mathcal{B}$ is a [[Cauchy-complete category]] ([Johnstone (1996)](#JS96)).
 \end{remark}
 
 \begin{remark}
@@ -368,9 +379,23 @@ $$
 which sends any set $S$ to the [[zero object|zero]] vector bundle $S \times \{0\}$ over $S$ is an ambidextrously bireflective subcategory in the sense of Def. \ref{BireflectiveSubcategory}.
 \end{example}
 
+
+## Related concepts
+
+* [[infinitesimal cohesion]]
+
+
 ## References
 
-The notion of ambidextrously bireflective subcategories is due to:
+On subcategory inclusion which have both a left and a right adjoint ([[essential localizations]]):
+
+* {#KellyLawvere89} [[G. M. Kelly]], [[F. W. Lawvere]], *On the complete lattice of essential localizations*, Bull. Soc. Math. Belg. S&eacute;r. A **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+
+On subcategory inclusions with ambidextrous adjoints ([[quintessential localizations]]):
+
+* {#JS96} [[Peter Johnstone]], _Remarks on Quintessential and Persistent Localizations_, TAC **2** 8 (1996) 90-99. &lbrack;[pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf), [2-08](http://www.tac.mta.ca/tac/volumes/1996/n8/2-08abs.html)&rbrack;
+
+On subcategory inclusions with ambidextrous adjoints whose [[points-to-pieces transform]] is the [[identity]] (actual *bireflective subcategories*):
 
 * {#FOPTST99} [[Peter Freyd]], [[Peter O’Hearn]],  [[A. John Power]], [[M. Takeyama]], [[Ross Street]], [[Robert D. Tennent]], *Bireflectivity*, Theoretical Computer Science **228** 1–2 (1999) 49-76 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
 
@@ -378,11 +403,12 @@ Discussion of a [[modal type theory]] for bireflective [[modalities]], in a cont
 
 * {#RFL21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], Section 7.1 in: *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
 
-On a closely related notion of localisation:
 
-* {#JS96}[[Peter Johnstone]], _Remarks on Quintessential and Persistent Localizations_, TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
 
 [[!redirects bireflective subcategories]]
 
+
+[[!redirects essential localization]]
+[[!redirects essential localizations]]
 
