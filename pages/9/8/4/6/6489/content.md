@@ -557,7 +557,7 @@ over [[resolution of singularities|resolutions]] of [[ADE-singularities]]:
 
 The proposal that slope-stability of vector bundles should generalize to a notion of stability ("$\Pi$-stability") of [[B-branes]]/[[D-branes]] originates with
 
-* {#DouglasFiolRomerlsberger00} [[Michael Douglas]], Bartomeu Fiol, Christian Römelsberger, _Stability and BPS branes_, JHEP 0509:006, 2005 ([arXiv:hep-th/0002037](https://arxiv.org/abs/hep-th/0002037))
+* {#DouglasFiolRomerlsberger00} [[Michael Douglas]], Bartomeu Fiol, Christian Römelsberger, _Stability and BPS branes_, JHEP 0509:006, 2005 ([arXiv:hep-th/0002037](https://arxiv.org/abs/hep-th/0002037) [doi](https://doi.org/10.1088/1126-6708/2005/09/006))
 
 In terms of stability ($\Pi$-stability) of [[B-branes]] of the [[B-model]] [[topological string]]:
 
