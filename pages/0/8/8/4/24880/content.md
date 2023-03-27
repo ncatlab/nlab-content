@@ -543,7 +543,7 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 
 ## References
 
-The [[quantum reader monad]] -- implicitly, in its incarnation as the $\mathbb{1}^B$-[[writer monad|writer]] [[Frobenius monad]] is highlighted in the literature [[quantum information theory via dagger-compact categories]] as formalizing "classical structures" (namely linear bases for [[quantum measurement]]):
+The [[quantum reader monad]] -- implicitly, in its incarnation as the $\mathbb{1}^B$-[[writer monad|writer]] [[Frobenius monad]] -- is highlighted in the literature on [[quantum information theory via dagger-compact categories]] as formalizing "classical structures" (namely [[linear bases]] for [[quantum measurement]]):
 
 * {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], §1.5.1 of: *Quantum measurements without sums*, in [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 &lbrack;[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
 
