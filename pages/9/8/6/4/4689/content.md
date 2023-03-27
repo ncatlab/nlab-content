@@ -224,6 +224,8 @@ Regarding the [[cosmological constant]]:
 
 * [[John Donoghue]], *The cosmological constant and the use of cutoffs* ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
 
+* David Prinz, *On Perturbative Quantum Gravity with a Cosmological Constant* &lbrack;[arXiv:2303.14160](https://arxiv.org/abs/2303.14160)&rbrack;
+
 
 Corrections at [[loop order|1-loop]] from [[quantum gravity]] to the [[anomalous magnetic moment]] of the [[leptons]] are discussed in
 
