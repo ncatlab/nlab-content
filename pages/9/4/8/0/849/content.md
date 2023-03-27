@@ -196,7 +196,7 @@ In fact the 3-variable adjunction from Prop. \ref{InternalHomBifunctor} even hol
 ###### Proposition
 **(internal tensor/hom-adjunction)**
 
-In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+In a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
 
 $$
   [X \otimes Y, Z]
