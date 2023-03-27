@@ -131,11 +131,13 @@ The unit type $\mathbb{1}$ represents the trivial universe, the universe with on
 
 In addition, given any type $A$, functions into the unit type $A \to \mathbb{1}$ are families of [[contractible types]]. The universe $(\mathbb{1}, \mathrm{El}_\mathbb{1})$ is also closed under [[dependent sum types]], as for any family of contractible types $p:B \to \mathbb{1}$,
 $$\left(\sum_{x:\mathbb{1}} \mathrm{El}_\mathbb{1}(B(x))\right) \simeq \mathbb{1}$$
-This makes the unit type into a [[Tarski universe]] representing a finite regular cardinal. As a universe, the unit type also satisfies [[propositional resizing]]: the type of all $\mathbb{1}$-small propositions is simply the unit type itself as a [[weakly Tarski universe]], which is essentially $\mathbb{1}$-small. 
+This makes the unit type into a [[Tarski universe]] representing a finite regular cardinal. 
 
 If the [[dependent type theory]] also has [[weak function extensionality]], then the universe above is also closed under [[dependent product types]], as weak function extensionality states that for any family of contractible types $p:B \to \mathbb{1}$,
 $$\left(\prod_{x:\mathbb{1}} B(x)\right) \simeq \mathbb{1}$$
-Thus, in the context of [[weak function extensionality]], [[power sets]] exist in the unit type, making the unit type impredicative: power sets are just [[function types]] into the unit type. This makes the unit type into a [[Tarski universe]] representing a finite [[inaccessible cardinal]]. 
+making the unit type into a [[Tarski universe]] representing a finite [[product-regular cardinal]]. 
+
+As a universe, the unit type also satisfies [[propositional resizing]]: the type of all $\mathbb{1}$-small propositions is simply the unit type itself as a [[weakly Tarski universe]], which is essentially $\mathbb{1}$-small. Thus, in the context of [[weak function extensionality]], [[power sets]] exist in the unit type, making the unit type impredicative: power sets are just [[function types]] into the unit type. This makes the unit type into a [[Tarski universe]] representing a finite [[inaccessible cardinal]]. 
 
 The unit type is also the only universe which contains itself, as any univalent universe which contains the [[empty type]] and itself makes the entire [[dependent type theory]] inconsistent. 
 
