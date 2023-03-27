@@ -87,7 +87,7 @@ The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the t
 
 * {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, section 3.5)
 
-* {#KL89}[[G. M. Kelly]], [[William Lawvere|F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.261-299.
+* {#KL89}[[G. M. Kelly]], [[William Lawvere|F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) 261-299 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
 
 [[!redirects Subtopos]]
