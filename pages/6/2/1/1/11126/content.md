@@ -100,6 +100,8 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 * [[VectBund]]
 
+* [[doubly closed monoidal category]]
+
 ## References
 
 Textbook accounts:
