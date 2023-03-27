@@ -7,10 +7,13 @@ On the [[universal property]] of [[propositional truncation]]:
 
 * [[Nicolai Kraus]], *The General Universal Property of the Propositional Truncation*, in *TYPES 2014* Leibniz International Proceedings in Informatics (LIPIcs) **39** (2015) &lbrack;[arXiv:1411.2682](https://arxiv.org/abs/1411.2682), [doi:10.4230/LIPIcs.TYPES.2014.111](https://doi.org/10.4230/LIPIcs.TYPES.2014.111)&rbrack;
 
-
 On [[homotopy n-types]] ("[[homotopy levels]]") in [[homotopy type theory]]:
 
 * [[Nicolai Kraus]], *Truncation levels in Homotopy Type Theory*, Nottingham (2015) &lbrack;[pdf](https://eprints.nottingham.ac.uk/28986/1/thesis.pdf), [eprints:28986](https://eprints.nottingham.ac.uk/28986)&rbrack;
+
+On [[weakly constant functions]] and [[propositional truncation]] in [[homotopy type theory]]:
+
+* [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
 
 
 On [[higher inductive types]] in [[homotopy type theory]]:
