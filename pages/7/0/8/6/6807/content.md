@@ -208,7 +208,7 @@ Volume 797, 2019, 134873 ([arXiv:1811.05758](https://arxiv.org/abs/1811.05758))
 ### Graviton scattering
  {#ReferencesGravitonScattering}
 
-Computation of [[graviton]] [[scattering amplitudes]]:
+Computation of [[graviton]] [[scattering amplitudes]] with the BFSS matrix model:
 
 * [[Katrin Becker]], [[Melanie Becker]], _A Two-Loop Test of M(atrix) Theory_, Nucl.Phys. B506 (1997) 48-60 ([arXiv:hep-th/9705091](https://arxiv.org/abs/hep-th/9705091))
 
@@ -225,6 +225,8 @@ Computation of [[graviton]] [[scattering amplitudes]]:
 In relation to the [[soft graviton theorem]]:
 
 * Noah Miller, [[Andrew Strominger]], Adam Tropper, Tianli Wang, *Soft Gravitons in the BFSS Matrix Model* &lbrack;[arXiv:2208.14547](https://arxiv.org/abs/2208.14547)&rbrack;
+
+* Adam Tropper, Tianli Wang, *Lorentz Symmetry and IR Structure of The BFSS Matrix Model* &lbrack;[arXiv:2303.14200](https://arxiv.org/abs/2303.14200)&rbrack;
 
 
 
