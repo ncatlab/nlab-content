@@ -19,7 +19,7 @@
 
 ## Idea
 
-While a (left or right) [[adjoint]] to a [[functor]] may be understood as the best approximation (from one side or the other) of a possibly non-existent [[inverse]], any pair of [[adjoint functors]] restricts to an [[equivalence of categories]] on [[subcategories]]. These subcategories are sometimes known as the _center_ of the adjunction, their objects are sometimes known as the _fixed points_ of the adjunction.
+While a (left or right) [[adjoint]] to a [[functor]] may be understood as the best approximation (from one side or the other) of a possibly non-existent [[inverse]], any pair of [[adjoint functors]] restricts to a [[equivalence of categories]] on [[subcategories]]. These subcategories are sometimes known as the _center_ of the adjunction, their objects are sometimes known as the _fixed points_ of the adjunction.
 
 The [[equivalences of categories]] that arise from fixed points of adjunctions this way are often known as [[dualities]]. Examples include _[[Pontrjagin duality]]_, _[[Gelfand duality]]_, _[[Stone duality]]_, and the _[[Isbell duality]]_ between [[commutative rings]] and [[affine schemes]] (see [Porst-Tholen 91](#PorstTholen91)).
 
@@ -114,6 +114,8 @@ Then the proof only uses the unit/counit definition of adjunction, which is vali
 ## Properties
 
 * If the adjunction is [[idempotent adjunction|idempotent]], then the fixed objects in $\mathcal{C}$ are precisely those of the form $G d$, and dually the fixed objects in $\mathcal{D}$ are those of the form $F c$.  Indeed, this is essentially the definition of an idempotent adjunction.
+
+* At the other extreme, it may be the case that there are no fixed points of an adjunction, and the restriction to an equivalence is between empty categories. An example is the adjunction between sets and [[pointed sets]]. The left adjoint adjoins a new distinguished point and the right adjoint forgets which point is chosen. In this case, the unit of the adjunction is never surjective and so is never an isomorphism. This can be generalized to any algebraic theory that has a non-trivial constant. These examples give adjunctions which are "maximally non-idempotent".
 
 ## Examples
  {#Examples}
