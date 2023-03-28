@@ -62,6 +62,26 @@ In some models of [[braid group statistics]] (see [there](braid+group+statistics
 
 * [[subsystem]]
 
+
+## References
+
+
+Discussion of classically-[[parameterized quantum system|parameterized]] quantum circuits:
+
+(...)
+
+Discussion of quantumly-[[parameterized quantum systems|parameterized]] quantum circuits:
+
+* Evan Peters, Prasanth Shyamsundar, *Qarameterized circuits: Quantum parameters for QML* &lbrack;[web](https://peterse.github.io/groveropt/)&rbrack;
+
+following
+
+* Guillaume Verdon, Jason Pye, Michael Broughton, *A Universal Training Algorithm for Quantum Deep Learning* &lbrack;[arXiv:1806.09729](https://arxiv.org/abs/1806.09729)&rbrack;
+
+* Prasanth Shyamsundar, *Non-Boolean Quantum Amplitude Amplification and Quantum Mean Estimation* &lbrack;[arXiv:2102.04975](https://arxiv.org/abs/2102.04975)&rbrack;
+
+
+
 [[!redirects parameterized quantum systems]]
 
 [[!redirects time-dependent Hamiltonian]]
