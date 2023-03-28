@@ -137,6 +137,10 @@ See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for
 
   * **loop space**, [[free loop space]], 
 
+  * [[relative loop space]]
+
+  * [[iterated loop space]]
+
   * [[infinite loop space]]
 
   * [[formal loop space]]
