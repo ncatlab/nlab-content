@@ -43,6 +43,11 @@ On [[homotopy theory]] in [[physics]]:
 
 * Jim Stasheff, _[[A Survey of Cohomological Physics]]_
 
+On [[recognition of relative loop spaces]]:
+
+* {#HLS16} [[Eduardo Hoefel]], [[Muriel Livernet]], [[Jim Stasheff]], _$A_\infty$-actions and recognition of relative loop spaces_, Topology and its Applications **206** (2016) 126-147 &lbrack;[arXiv:1312.7155](https://arxiv.org/abs/1312.7155), [doi:10.1016/j.topol.2016.03.023](https://doi.org/10.1016/j.topol.2016.03.023)&rbrack;
+
+
 A proposal for understanding [[tensor hierarchies]] as [[L-infinity algebra]]-refinenents of [[Leibniz algebras]]:
 
 * [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
