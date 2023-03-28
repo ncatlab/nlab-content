@@ -92,7 +92,7 @@ Similarly using I.1.6, one finds the general result:
 Let $\ell C^\infty(U)/I$ be a [[smooth locus]] with $U \subset \mathbb{R}^n$ open and $I$ an ideal of $C^\infty(U)$. Then, up to isomorphisms, its covering families are precisely those families 
 
 $$
-  \{\ell C^\infty(U_i)/(I|U_i) \to \ell C^\infty(U_i)/I\}_{i=1}^n
+  \{\ell C^\infty(U_i)/(I|_{U_i}) \to \ell C^\infty(U)/I\}_{i=1}^n
 $$
 
 such that the $U_i \subset U$ are an ordinary open cover of $U$.
