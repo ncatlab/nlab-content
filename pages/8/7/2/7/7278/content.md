@@ -304,6 +304,12 @@ $$
 
 ## Related concepts
 
+* [[loop space]], [[free loop space]]
+
+* [[infinite loop space]]
+
+* [[relative loop space]]
+
 [[!include k-monoidal table]]
 
 ## References
