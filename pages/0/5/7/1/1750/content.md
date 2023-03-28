@@ -114,7 +114,7 @@ It is easy to show that a composite of fibrations is a fibration.  Moreover, if 
 A morphism in $Fib(X)$ is a fibration in the 2-category $Fib(X)$ iff its underlying morphism in $K$ is a fibration.
 =--
 
-This is a standard result, at least in the case $K=Cat$, and is apparently due to Benabou.  References include ([Bénabou 1985](#Benabou85)), ([Hermida 1999](#Hermida99)) and ([Jacobs 1999, Chapter 9](#Jacobs)). Therefore, for any fibration $A\to X$ in $K$ we have $Fib_K(A) \simeq Fib_{Fib_K(X)}(A\to X)$, and similarly for opfibrations.  This is a fibrational 2-categorical analogue of the standard equivalence $K/A \simeq (K/X)/(A\to X)$ for ordinary [[slice categories]].
+This is a standard result, at least in the case $K=Cat$, and is apparently due to Benabou.  References include ([Bénabou 1985](#Benabou85)), ([Hermida 1999, Section 4.3](#Hermida99)) and ([Jacobs 1999, Chapter 9](#Jacobs)). Therefore, for any fibration $A\to X$ in $K$ we have $Fib_K(A) \simeq Fib_{Fib_K(X)}(A\to X)$, and similarly for opfibrations.  This is a fibrational 2-categorical analogue of the standard equivalence $K/A \simeq (K/X)/(A\to X)$ for ordinary [[slice categories]].
 
 
 ## Related concepts
