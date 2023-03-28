@@ -22,6 +22,8 @@
   * [[Beth definability theorem]]
 
   * [[Craig interpolation theorem]]
+  
+  * [[definability (fibred category theory)]]
 
 * [[decidability]]
 
