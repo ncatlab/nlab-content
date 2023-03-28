@@ -59,7 +59,7 @@ $$
 
 This function would/could be called the "controlled logic gate". Notice that the control bits in the above function are "discarded after use", in that they cannot in general be recovered from the output of the above function.
 
-The subtleties with generalizing this situation to [[quantum logic gates]] is:
+The subtleties with generalizing this situation to [[quantum logic gates]] are:
 
 1. The control of quantum gates may be either by quantum data or by classical data, which is not quite the same.
 
@@ -160,7 +160,7 @@ then this gives a (invertible!) quantum gate on the tensor product space $QBit \
 
 1. $\vert 1 \rangle \,\otimes\, \vert \psi \rangle \;\;\mapsto\;\; \vert 0 \rangle \,\otimes\, G\vert \psi \rangle$
 
-In words: "*If the control Qbit is definitely set, then we operate with the $G$, if it is definitely not set then we operate trivially, and in general we operate with the respective superposition of these two actions.*"
+In words: "*If the control Qbit is definitely set, then we operate with $G$, if it is definitely not set then we operate trivially, and in general we operate with the respective superposition of these two actions.*"
 
 A basic example of this construction is the [[controlled quantum NOT gate]].
 
