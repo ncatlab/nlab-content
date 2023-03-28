@@ -271,6 +271,24 @@ Formal [[quantum programming language]]-perspective on quantum circuits:
 * [[Yuri Gurevich]], [[Andreas Blass]], *Software science view on quantum circuit algorithms* &lbrack;[arXiv:2209.13731](https://arxiv.org/abs/2209.13731)&rbrack;
 
 
+### Parameterized quantum circuits
+ {#ReferencesParameterizedQuantumCircuits}
+
+Discussion of classically-[[parameterized quantum system|parameterized]] quantum circuits:
+
+(...)
+
+Discussion of quantumly-[[parameterized quantum systems|parameterized]] quantum circuits:
+
+* Evan Peters, Prasanth Shyamsundar, *Qarameterized circuits: Quantum parameters for QML* &lbrack;[web](https://peterse.github.io/groveropt/)&rbrack;
+
+following
+
+* Guillaume Verdon, Jason Pye, Michael Broughton, *A Universal Training Algorithm for Quantum Deep Learning* &lbrack;[arXiv:1806.09729](https://arxiv.org/abs/1806.09729)&rbrack;
+
+* Prasanth Shyamsundar, *Non-Boolean Quantum Amplitude Amplification and Quantum Mean Estimation* &lbrack;[arXiv:2102.04975](https://arxiv.org/abs/2102.04975)&rbrack;
+
+
 
 
 
