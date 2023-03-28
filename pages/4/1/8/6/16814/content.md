@@ -99,11 +99,16 @@ Hence we need to show that
 
 1. for $d \in \mathcal{D}_{fix} \hookrightarrow \mathcal{D}$ we have that $\eta_{R(d)}$ is an [[isomorphism]].
 
-For the first case we claim that $L(\eta_{c})$ provides an [[inverse morphism|inverse]]: by the [[triangle identity]] (eq:TriangleIdentities) it is a [[right inverse]], but by assumption it is itself an [[invertible morphism]], which implies that $\epsilon_{L(c)}$ is an isomorphism.
+For the first case we claim that $L(\eta_{c})$ provides an [[inverse morphism|inverse]]: by the [[triangle identity]] it is a [[right inverse]], but by assumption it is itself an [[invertible morphism]], which implies that $\epsilon_{L(c)}$ is an isomorphism.
 
 The second claim is [[formal duality|formally dual]].
 
 =--
+
+\begin{remark}
+Notice the above theorem and proof are valid in any [[2-category]] admitting [[inverters]]. In fact $\mathcal{C}_{fix}$ and $\mathcal{D}_{fix}$ can be presented, respectively, as the inverter of the unit and the counit of the adjunction.
+Then the proof only uses the unit/counit definition of adjunction, which is valid in every 2-category (see [[adjunction]]) and general facts about invertibility.
+\end{remark}
 
 
 ## Properties
