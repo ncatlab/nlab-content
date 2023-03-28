@@ -54,7 +54,7 @@ There is a [[model category]] structure on presheaves on $\Theta_n$ which models
 
 * [[Clemens Berger]], _A cellular nerve for higher categories_, Adv. Math. 169 (2002), 118-175, [pdf](http://math.unice.fr/~cberger/nerve.pdf).
 
-A sketch of some of related combinatorics "on open boxes and prisms" is in one of the chapters in Joyal's Barcelona [course](http://www.crm.cat/HigherCategories/hc2.pdf).
+A sketch of some of related combinatorics "on open boxes and prisms" is in one of the chapters in Joyal's Barcelona [course](https://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf).
 
 
 [[!redirects cellular sets]]
