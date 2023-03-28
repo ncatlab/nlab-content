@@ -4,9 +4,10 @@ Note: the list is ordered first by year, then alphabetically by last name.
 
 |Title|Author|Year|URL|Summary|
 |-----|------|----|---|------|
-|[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| | 
-|[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
+|[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| |
 |Functor theory|[[Peter Freyd]]|1960| | |
+|[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
+|The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| |
 |Categories of Set Valued Functors|[[Marta Bunge]]|1966| | on [[categories of presheaves]] |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
 |Limit monads in categories|[[Anders Kock]]|1967|[proquest](https://www.proquest.com/openview/61883e900f1fd8585fe4dfc4c3f271dc)| on [[lax idempotent 2-monads]] |
