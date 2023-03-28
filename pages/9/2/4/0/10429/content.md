@@ -220,6 +220,10 @@ Review and survey:
 * [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* &lbrack;[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)&rbrack;
 
 
+Discussion with emphasis of the role of [[quantum anomalies]]:
+
+* [[Jürg Fröhlich]], *Gauge Invariance and Anomalies in Condensed Matter Physics*, Journal of Mathematical Physics &lbrack;[arXiv:2303.14741](https://arxiv.org/abs/2303.14741)&rbrack;
+
 
 See also:
 
