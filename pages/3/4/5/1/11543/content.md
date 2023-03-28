@@ -95,6 +95,8 @@ may be interpreted combinatorially: a $k$-element subset $K$ of $X + 1$ is eithe
 
 * [[Catalan number]]
 
+* [[binomial type]]
+
 ## References
 
 See also 
