@@ -58,7 +58,15 @@ In some models of [[braid group statistics]] (see [there](braid+group+statistics
 
 * [[quantum adiabatic theorem]]
 
+* [[controlled quantum gate]]
+
 * [parameterized quantum computation](quantum+computation#ClassicalControlQuantumData)
+
+* [[parameterized homotopy theory]]
+
+* [[parameterized stable homotopy theory]]
+
+* [[dependent linear type theory]]
 
 * [[subsystem]]
 
