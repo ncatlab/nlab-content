@@ -1,24 +1,90 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
 
-The *binomial types* or *binomial sets* are the [[categorification]] of the [[binomial coefficients]] and the extensions from [[finite types]]/[[finite sets]] to arbitrary types or sets. 
+In [[type theory]], the *binomial types* or *binomial sets* are the [[categorification]] of the [[binomial coefficients]] and then the further generalization from [[family of finite types|finite types]]/[[finite sets]] to arbitrary [[types]] or [[sets]]. 
 
 ## Definition
 
-In [[type theory]], given types $A$ and $B$, the **binomial type** of $A$ and $B$ is defined as
+Given [[types]] $A$ and $B$, the **binomial type** of $A$ and $B$ is defined as
 
-$$\left(\begin{array}{c}A \\ B\end{array}\right) \coloneqq \sum_{f:A \to \mathbb{2}} \left[B \simeq \sum_{a:A} f(a) =_\mathbb{2} 1\right]$$
+$$
+  \left(
+    \begin{array}{c}
+    A 
+    \\ 
+    B
+   \end{array}
+\right) 
+  \;\coloneqq\;
+  \sum_{
+   f \colon 
+   A \to \mathbb{2}
+   } 
+  \left[
+    B \simeq 
+    \left(
+    \sum_{a \colon A} 
+      f(a) 
+      =_\mathbb{2} 
+      1
+    \right)
+  \right]
+  \,,
+$$
 
-The above definition could also be translated directly into [[set theory]] notation as follows: 
+where 
 
-$$\left(\begin{array}{c}A \\ B\end{array}\right) \coloneqq \biguplus_{f \in \mathbb{2}^A} \left[B \cong \{a \in A \vert f(a) = 1\}\right]$$
+* $\sum_{(-)} (-)$ denotes the [[dependent pair type]]-formation;
 
-where $\left[A\right]$ is the [[support of a set|support]] of set $A$ and $\mathbb{2}^A$ is the [[function set]] with domain $A$ and codomain $\mathbb{2}$. This results in **binomial sets**. 
+* $(-)\to(-)$ denotes [[function type]]-formation;
+
+* $\mathbb{2}$ denotes the finite type with two elements "$0$" and "$1$";
+
+* $(-) =_\mathbb{2} (-)$ denotes its [[identification type]]; 
+
+* $[-]$ denotes [[propositional truncation]] ([[bracket types]]).
+
+
+This definition can be translated directly into [[set theory]] notation as follows: 
+
+$$
+  \left(
+    \begin{array}{c}
+      A 
+      \\ 
+      B
+    \end{array}
+   \right) 
+   \;\coloneqq\; 
+   \coprod_{f \in \mathbb{2}^A} 
+   \Big[
+     B \cong 
+     \big\{
+       a \in A 
+     \vert 
+       f(a) = 1
+     \big\}
+   \Big]
+   \,,
+$$
+
+where $\left[A\right]$ is the [[support of a set|support]] of the set $A$ and $\mathbb{2}^A$ is the [[function set]] with [[domain]] $A$ and [[codomain]] the two-element $\mathbb{2}$ (the classical [[boolean domain]]). This results in **binomial sets**. 
 
 ### Locally small binomial types
 
-There is an alternate way to express the second definition, by use of a [[univalent universe]] instead of deloopings and loop space types, but the resulting type is only locally small relative to the universe. 
+There is an alternative way to express the second definition, by use of a [[univalent universe]] instead of deloopings and loop space types, but the resulting type is only locally small relative to the universe. 
 
 We define the type of decidable embeddings as the type of functions whose fibers are decidable:
 $$A \hookrightarrow_d B \coloneqq \sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b\right) \vee \neg \left(\sum_{a:A} f(a) =_B b\right)$$ 
@@ -31,13 +97,14 @@ $$\left(\begin{array}{c}A \\ B\end{array}\right)_U \coloneqq \sum_{X:U_B} \left[
 ## See also
 
 * [[binomial theorem]]
+
 * [[categorification]]
 
 ## References
 
-The above definitions of binomial types could be found respectively in remark 17.6.7 and definition 17.6.7 of:
+The above definitions of binomial types can be found, respectively, in remark 17.6.7 and definition 17.6.7 of:
 
-* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press (2023) &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&lbrack;
 
 [[!redirects binomial type]]
 [[!redirects binomial types]]
