@@ -47,6 +47,9 @@ Discussion in the [[BFSS matrix model]]:
 
 * Noah Miller, [[Andrew Strominger]], Adam Tropper, Tianli Wang, *Soft Gravitons in the BFSS Matrix Model* &lbrack;[arXiv:2208.14547](https://arxiv.org/abs/2208.14547)&rbrack;
 
+* Adam Tropper, Tianli Wang, *Lorentz Symmetry and IR Structure of The BFSS Matrix Model* &lbrack;[arXiv:2303.14200](https://arxiv.org/abs/2303.14200)&rbrack;
+
+
 Analogous discussion for [[gluons]]:
 
 * Peng Cheng, Pujian Mao, *Soft gluon theorems in curved spacetime* &lbrack;[arXiv:2211.00031](https://arxiv.org/abs/2211.00031)&rbrack;
