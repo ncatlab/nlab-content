@@ -9,14 +9,13 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Suppose we have a fibration $p:\mathcal{E} \to \mathcal{B}$, representing type families (living in the fibers of $\mathcal{E}$) indexed by contexts (living in $\mathcal{B}$).
+Suppose we have a [[fibered category]] $p \colon \mathcal{E} \to \mathcal{B}$, representing [[type families]] (living in the fibers of $\mathcal{E}$) indexed by [[contexts]] (living in $\mathcal{B}$).
 
 A **definable collection** of objects of the total category $\mathcal{E}$ corresponds, intuitively, to the extension of a 'meta-property' of the types which we can use to single out subcontexts by means of a generalized '[[comprehension category|comprehension]]'.
 
