@@ -168,6 +168,9 @@ $$
 $$
 \end{definition}
 
+\begin{remark}
+  See [[relative loop space]] for details on why we use this definition for relative loop spaces. Note that the above functor outputs both a relative loop space and a loop space of the total space, since the structure of interest here includes the action of $Y_1^{\mathbb{S}^N}$ on $(Y_0\times_{Y_1} Y_1^I)^{\mathbb{S}^{N-1}}$.
+\end{remark}
 
 \begin{theorem} ([Vieira 2020, Proposition 2.2.3](#VVieira2020))
   We have a weak Quillen adjunction
@@ -275,6 +278,14 @@ $$
 between the homotopy category of grouplike Swiss cheese algebras and the homotopy category of shifted spectra maps between connective spectra.
 \end{theorem}
 
+
+## Related concepts
+
+* [[relative loop space]]
+
+* [[May recognition theorem]]
+
+* [[Quillen equivalence]]
 
 ## References
 
