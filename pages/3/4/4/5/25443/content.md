@@ -1,12 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The recognition principle for finite relative loop spaces states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the [[homotopy type]] of a relative $N$-loop space pair of some $(N-1)$-connected inclusion map if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$, in the sense of an [[algebra over an operad]].
+The recognition principle for finite [[relative loop spaces]] states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the [[homotopy type]] of a relative $N$-loop space pair of some $(N-1)$-connected inclusion map if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$, in the sense of an [[algebra over an operad]].
 
-The recognition principle for infinite relative loop spaces states that a pair of pointed topological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
+The recognition principle for infinite [[relative loop spaces]] states that a pair of pointed topological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
 
 These are relative versions of [[May recognition theorem]] ([May 72](#May72), [May 74](#May74)) of loop spaces.
 
@@ -169,7 +185,7 @@ $$
 \end{definition}
 
 \begin{remark}
-  See [[relative loop space]] for details on why we use this definition for relative loop spaces. Note that the above functor outputs both a relative loop space and a loop space of the total space, since the structure of interest here includes the action of $Y_1^{\mathbb{S}^N}$ on $(Y_0\times_{Y_1} Y_1^I)^{\mathbb{S}^{N-1}}$.
+  See *[[relative loop space]]* for details on why we use this definition for relative loop spaces. Note that the above functor outputs both a relative loop space and a loop space of the total space, since the structure of interest here includes the action of $Y_1^{\mathbb{S}^N}$ on $(Y_0\times_{Y_1} Y_1^I)^{\mathbb{S}^{N-1}}$.
 \end{remark}
 
 \begin{theorem} ([Vieira 2020, Proposition 2.2.3](#VVieira2020))
@@ -289,8 +305,7 @@ between the homotopy category of grouplike Swiss cheese algebras and the homotop
 
 ## References
 
-* {#HLS16} [[Eduardo Hoefel]], [[Muriel Livernet]], [[Jim Stasheff]], _$A_\infty$-actions and recognition of relative loop spaces_, Topology and its Applications,
-Vol. 206, 2016, Pages 126-147 ([arXiv:1312.7155](https://arxiv.org/abs/1312.7155),[doi:10.1016/j.topol.2016.03.023](https://doi.org/10.1016/j.topol.2016.03.023))
+* {#HLS16} [[Eduardo Hoefel]], [[Muriel Livernet]], [[Jim Stasheff]], _$A_\infty$-actions and recognition of relative loop spaces_, Topology and its Applications **206** (2016) 126-147 &lbrack;[arXiv:1312.7155](https://arxiv.org/abs/1312.7155), [doi:10.1016/j.topol.2016.03.023](https://doi.org/10.1016/j.topol.2016.03.023)&rbrack;
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], [[Mark Steinberger]] (with contributions by [[James McClure|J.E. McClure]]), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics  **1213** (1986) &lbrack;[pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778)&rbrack;
 
@@ -298,4 +313,6 @@ Vol. 206, 2016, Pages 126-147 ([arXiv:1312.7155](https://arxiv.org/abs/1312.7155
 
 * {#May74} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_, New Developments in Topology, London Math. Soc. Lecture Note Series 11 (1974) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
 
-* {#VVieira2020} [[Renato Vasconcellos Vieira]], _Relative recognition principle_, Algebr. Geom. Topol. 20(3): 1431-1486 (2020) ([arXiv:1802.01530](https://arxiv.org/abs/1802.01530), [doi:10.2140/agt.2020.20.1431](https://doi.org/10.2140/agt.2020.20.1431))
+* {#VVieira2020} [[Renato Vasconcellos Vieira]], _Relative recognition principle_, Algebr. Geom. Topol. 20(3): 1431-1486 (2020) &lbrack;[arXiv:1802.01530](https://arxiv.org/abs/1802.01530), [doi:10.2140/agt.2020.20.1431](https://doi.org/10.2140/agt.2020.20.1431)&rbrack;
+
+
