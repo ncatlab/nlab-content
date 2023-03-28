@@ -66,7 +66,7 @@ $T^\infty X$ is the [[infinitesimal disk bundle]].
 
 ## Properties
 
-The [[Eilenberg-Moore category]] of [[coalgebras]] over the Jet comonad has the interpretation of the category of [[partial differential equations]] with [[variables]]  in $X$. The [[co-Kleisli category]] of the Jet comonad has the interpretation as being the category of bundles over $X$ with [[differential operators]] between them as morphisms ([Marvan 86](#Marvan86), [Marvan 89](#Marvan89)).
+The [[Eilenberg-Moore category]] of [[coalgebras]] over the jet comonad has the interpretation of the category of [[partial differential equations]] with [[variables]]  in $X$. The [[co-Kleisli category]] of the jet comonad has the interpretation as being the category of bundles over $X$ with [[differential operators]] between them as morphisms ([Marvan 86](#Marvan86), [Marvan 89](#Marvan89)).
 
 ## Related concepts
 
