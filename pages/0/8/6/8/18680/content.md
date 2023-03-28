@@ -231,11 +231,10 @@ Since the Grothendieck construction of the standard indexed monoidal $(\infty,1)
 
 What should be the [[categorical semantics]] of one kind of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). 
 
+
 ## Related concepts
 
-* dependent linear type theory has [[categorical semantics]] in:
-
-  [[indexed monoidal (∞,1)-category]]
+* dependent linear type theory has [[categorical semantics]] in [[indexed monoidal (∞,1)-categories]]
 
 * [[linear type theory]]
 
