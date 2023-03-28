@@ -43,6 +43,11 @@ On [[quantum measurement]]:
 
 * [[Jürg Fröhlich]], Zhou Gang, *On the Evolution of States in a Quantum-Mechanical Model of Experiments* &lbrack;[arXiv:2212.02599](https://arxiv.org/abs/2212.02599)&rbrack;
 
+On [[topological phases of matter]] in [[condensed matter physics]] with focus on the role of [[quantum anomalies]]:
+
+* [[Jürg Fröhlich]], *Gauge Invariance and Anomalies in Condensed Matter Physics*, Journal of Mathematical Physics &lbrack;[arXiv:2303.14741](https://arxiv.org/abs/2303.14741)&rbrack;
+
+
 ## Quotes
  {#Quotes}
 
