@@ -9,14 +9,17 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
-#Idea#
+## Idea
 
 Complicial sets are precisely those [[stratified simplicial set]]s which arise as the [[oriental|omega nerve]] of a [[strict omega-category]].
 
 
 
-#Definition#
+## Definition
 
 A $k$-**admissible** $n$-simplex in a stratified simplicial set $X$ is a [[stratified simplicial set|map of stratified simplicial sets]] $\Delta^a_k[n] \to X$. Explicitly, this consists of a (thin) $n$-simplex $x \in X$ such that $x\cdot\alpha$ is thin for every $\alpha \colon [m] \to [n]$ whose image contains $k-1$, $k$, and $k+1$.
 
@@ -36,11 +39,11 @@ Equivalently, a **complicial set** is a stratified simplicial set that is (right
 
 3. the unique surjection $\Delta[1]_t \to \Delta[0]$, where every 1-simplex in $\Delta[1]_t$ is thin.
 
-#Generalizations#
+## Generalizations
 
 Weakening the conditions on a [[stratified simplicial set]] to be a complicial set yields notions of [[simplicial weak omega-category]].
 
-#References#
+## References
 
 The original idea is developed in 
 
