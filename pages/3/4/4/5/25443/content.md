@@ -20,7 +20,7 @@
 
 ## Idea
 
-The recognition principle for finite [[relative loop spaces]] states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the [[homotopy type]] of a relative $N$-loop space pair of some $(N-1)$-connected inclusion map if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$, in the sense of an [[algebra over an operad]].
+The recognition principle for finite [[relative loop spaces]] states that, for $1 \leq N \lt \infty$, a pair of [[pointed topological space]]s is of the [[homotopy type]] of a relative $N$-loop space pair of some $(N-2,N-1)$-connected inclusion map if and only if it is a grouplike algebra over the [[Swiss cheese operad]] $\mathcal{SC}_N$, in the sense of an [[algebra over an operad]].
 
 The recognition principle for infinite [[relative loop spaces]] states that a pair of pointed topological spaces is of the homotopy type of a relative $\infty$-loop space pair of some 1-shifted morphism of connective spectra if and only if it is a grouplike algebra over $\mathcal{SC}_\infty\coloneqq \colim_{N\to\infty}\mathcal{SC}_N$.
 
@@ -28,10 +28,12 @@ These are relative versions of [[May recognition theorem]] ([May 72](#May72), [M
 
 The recognition principle for relative $N$-loop spaces was proved in ([Vieira 2020](#VVieira2020)) for $3\leq N\leq \infty$. The proof there works in the cases $N=1,2$ if we assume the spaces connected. The general case for $N=1$ was proved in ([Hoefel, Livernet, Stasheff 2016](#HLS16)). The unconnected case for $N=2$ remains open.
 
-Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof, homotopical versions of the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations. This is because we are interested in the homotopy subcategories of grouplike algebras and $(N-1)$-connected spaces/connective spectra. 
+Notoriously the loop space functors that appear in these recognition theorems are not right adjoint, thus they cannot be proved as an equivalence of homotopy categories induced by a [[Quillen equivalence]]. May's original strategy is to define what essentially constitutes adjunction units up to resolutions induced by the [[two-sided bar construction]]. The strategy of ([Vieira 2020](#VVieira2020)) is to define a generalization of [[Quillen adjunction]] that allow for the units and counits to exist only up to functorially determined resolutions, providing a natural model theoretical axiomatization of the essential elements of May’s original proof. For the full proof, homotopical versions of the concepts of [[idempotent monad]] and [[idempotent adjunction]] require similar generalizations. This is because we are interested in the homotopy subcategories of grouplike algebras and $(N-2,N-1)$-connected spaces/connective spectra. 
 
 Bellow the proof of the relative recognition of $N$-loop spaces for $3\leq N\leq \infty$ using the machinery of idempotent quasiadjunctions in ([Vieira 2020](#VVieira2020)) is sketched.
 
+
+In ([Vieira 2023](#VVieira2020)) idempotent quasiadjunctions were used to prove a recognition theorem of $\infty$-loop pairs of commutative [[algebra spectra]] over commutative [[ring spectra]]. There it is shown that the multiplicative structure induced by the [[linear isometries operad]] is compatible with the model theoretical machinery presented here.
 
 ## Idempotent weak Quillen quasiadjunctions
 
@@ -195,7 +197,7 @@ $$
 $$
 \end{theorem}
 
-This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-1)$-connected if $Y_0$ is $(N-2)$-connected and $Y_1$ is $(N-1)$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are homotopy equivalent to $(N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-1}$.
+This adjunction transfers a new model structure on $Top_*^\to$, with weak equivalences the commutative squares $f\in Top_*^\to(X,Y)$ such that $f_{0,*}:\pi_q X_0\to \pi_q Y_0$ are isomorphisms for all $q\geq N$ and $(f_0,f_1^I)_*:\pi_q(X_0\times_{X_1}X_1^I)\to \pi_q(Y_0\times_{Y_1}Y_1^I)$ are isomorphisms for all $q\geq N-1$. All objects of $Top_*^\to$ are fibrant in this model structure. We will say a pointed map $Y\in Top_*^\to$ is $(N-2,N-1)$-connected if $Y_0$ is $(N-2)$-connected and $Y_1$ is $(N-1)$-connected. The cofibrant objects are the $Y\in Top_*^\to$ that are homotopy equivalent to $(N-2,N-1)$-connected inclusions of relative CW-pairs. We denote the category of pointed maps equipped with this model structure as $Top^\to_{N-2,N-1}$.
 
 The images of $\Omega^N_2$ are naturally algebras over $\mathcal{SC}_N$, so we have an induced functor $\Omega^N_2:Top_*^\to\rightarrow \mathcal{SC}_N[Top]$. This functor is not a right adjoint, but it does have a left weak Quillen quasiadjoint induced by the [[two-sided bar construction]].
 
@@ -216,13 +218,13 @@ $$
 \begin{theorem} ([Vieira 2020, Theorem 4.3.5, Theorem 4.3.8](#VVieira2020))
   We have an idempotent weak Quillen quasiadjunction
 $$
-  (B^N_\to\dashv_{\ \overline{B}_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to_{N-1}.
+  (B^N_\to\dashv_{\ \overline{B}_2,Id_{Top_*^\to}}\Omega^N_2):\mathcal{SC}_N[Top]\leftrightharpoons Top^\to.
 $$
 If $N\geq 3$ then this quasiadjunction induces an equivalence 
 $$
-(\mathbb{L}B^N_\to\dashv\mathbb{R}\Omega^N_2):\mathcal{H}o\mathcal{SC}_N[Top]_{grp}\leftrightharpoons \mathcal{H}o Top^\to_{N-1}
+(\mathbb{L}B^N_\to\dashv\mathbb{R}\Omega^N_2):\mathcal{H}o\mathcal{SC}_N[Top]_{grp}\leftrightharpoons \mathcal{H}o Top^\to_{N-2,N-1}
 $$
-between the homotopy subcategory of grouplike Swiss cheese algebras and the homotopy category of $(N-1)$-connected pointed maps.
+between the homotopy subcategory of grouplike Swiss cheese algebras and the homotopy category of $(N-2,N-1)$-connected pointed maps.
 \end{theorem}
 
 \begin{remark}
@@ -314,5 +316,7 @@ between the homotopy category of grouplike Swiss cheese algebras and the homotop
 * {#May74} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_, New Developments in Topology, London Math. Soc. Lecture Note Series 11 (1974) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
 
 * {#VVieira2020} [[Renato Vasconcellos Vieira]], _Relative recognition principle_, Algebr. Geom. Topol. 20(3): 1431-1486 (2020) &lbrack;[arXiv:1802.01530](https://arxiv.org/abs/1802.01530), [doi:10.2140/agt.2020.20.1431](https://doi.org/10.2140/agt.2020.20.1431)&rbrack;
+
+* {#VVieira2023} [[Renato Vasconcellos Vieira]], _Recognition of connective commutative algebra spectra through quasiadjunction_, Algebr. Geom. Topol. 23(1):[arXiv:2101.03052](https://arxiv.org/abs/2101.03052), 295-338 (2023) & [doi:10.2140/agt.2023.23.295](https://doi.org/10.2140/agt.2023.23.295)&rbrack;
 
 
