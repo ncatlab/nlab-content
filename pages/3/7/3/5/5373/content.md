@@ -31,7 +31,7 @@ By a _bireflective subcategory_ one might mean:
 
    Such subcategories are called **quintessential localizations** by [Johnstone (1996)](#JS96).
 
-   The corresponding ([[comonad|co]]-)[[monad]] $\natural \coloneqq \iota \circ \beta$ is then a *[[Frobenius monad]]*.
+   The corresponding ([[comonad|co]]-)[[monad]] $\natural \coloneqq \iota \circ \beta$ is then a *[[Frobenius monad]]* (see at *[[classical modality]]*).
 
 1. Finally, one may moreover ask that the [[points-to-pieces transform]] $\natural \overset{\epsilon}{\longrightarrow} id \overset{\eta}{\longrightarrow} \natural$ of a quintessential localization be the [[identity morphisms]].
 
@@ -373,7 +373,7 @@ We show the [[inference rules]] which are added to plain [[intuitionistic type t
 
 \begin{example}
   For any [[ground field]],
-  let $\mathcal{B} \coloneqq Vect_{Set} \coloneqq \int_{S \in Set} Vect S$ be the category of of [[vector bundles]] over [[Sets]], hence of [[indexed set|indexed]] [[vector spaces]]. Then the functor
+  let $\mathcal{B} \coloneqq Vect_{Set} \coloneqq \int_{S \in Set} Vect S$ be the category [[VectBund]] of [[vector bundles]] over [[Sets]], hence of [[indexed set|indexed]] [[vector spaces]]. Then the functor
 $$
   Set \xhookrightarrow{\;\; 0 \;\;} Vect_{Set}
 $$
@@ -385,6 +385,9 @@ which sends any set $S$ to the [[zero object|zero]] vector bundle $S \times \{0\
 
 * [[infinitesimal cohesion]]
 
+* [[classical modality]]
+
+* [[VectBund]]
 
 ## References
 
