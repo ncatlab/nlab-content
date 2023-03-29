@@ -83,9 +83,11 @@ More controversially, two entirely different probabilisitic combinations of stat
 
 ## References
 
+Most accounts of [[quantum physics]] discuss density matrices in some form. See for instance:
+
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], §2.4 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
-
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapters 8 and 12 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
 
 * [[Benjamin Schumacher]], [[Michael Westmoreland]], §8 of:  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
 
