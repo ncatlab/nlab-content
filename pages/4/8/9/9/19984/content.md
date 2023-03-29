@@ -26,9 +26,11 @@
 
 This page describes _homotopy.io_, a web-based [[proof assistant]] for finitely-presented [[globular set|globular]] [[n-category|_n_-categories]], for arbitrary $n$. It is available at the following address:
 
-* [https://homotopy.io](https://homotopy.io)
+* [homotopy.io](https://homotopy.io)
 
-It is based on the theory of [[associative n-categories|associative _n_-categories (ANCs)]], which provides a strictly associative and unital model of composition. This reduces proof bureaucracy, with all the remaining weak structure in homotopies of composites, which a direct geometrical interpretation. The proof assistant allows the user to define [[generators and relations|generators]] for a [[higher category]], [[composition|compose]] them, apply [[homotopies]], and visualize the resulting composites as [[string diagrams]] in 2 dimensions or [[surface diagrams]] in 3 dimensions. Interaction with the proof assistant is entirely by direct manipulation using the mouse.
+* [github.com/homotopy-io](https://github.com/homotopy-io)
+
+It is based on the theory of [[associative n-categories|associative _n_-categories (ANCs)]], which provides a strictly associative and unital model of [[composition]]. This reduces proof bureaucracy, with all the remaining weak structure in [[homotopies]] of composites, which a direct geometrical interpretation. The proof assistant allows the user to define [[generators and relations|generators]] for a [[higher category]], [[composition|compose]] them, apply [[homotopies]], and visualize the resulting composites as [[string diagrams]] in 2 dimensions or [[surface diagrams]] in 3 dimensions. Interaction with the proof assistant is entirely by direct manipulation using the mouse.
 
 It can be considered a successor to the existing proof assistant [[Globular]], which allows the construction of formal proofs in a strictly associative and unital model of [[4-categories]].
 
@@ -208,15 +210,28 @@ Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ 
 
 ## Related entries
 
+* [[associative n-category]]
+
+* [[Globular]]
+
 [[!include proof assistants and formalization projects -- list]]
 
 ## References
 
-* [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)).
+Background on [[associative n-categories]]:
 
-* [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf), [arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
+* [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ &lbrack;[pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)&rbrack;
 
-* [[David Reutter]] and [[Jamie Vicary]], _High-level methods for homotopy construction in associative $n$-categories_, ([arXiv:1902.03831](https://arxiv.org/abs/1902.03831)). Proceedings of LICS 2019.
+* [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis &lbrack;[arXiv:1812.10586](https://arxiv.org/abs/1812.10586)&rbrack;
+
+In relation to `homotopy.io`:
 
 * [[Jamie Vicary]], _Strictly associative and unital higher categories_, talk at the _[2018 Midland Graduate School Christmas Seminar](http://www.cs.bham.ac.uk/~axj/2018-mgs-xmas.html)_ ([pdf](http://www.cs.bham.ac.uk/~axj/files/mgs-xmas-2018-Jamie.pdf)).
+
+* [[David Reutter]], [[Jamie Vicary]], _High-level methods for homotopy construction in associative $n$-categories_, LICS '19: Proceedings of the 34th Annual ACM/IEEE Symposium on Logic in Computer ScienceJune **62** (2019) 1–13 &lbrack;[arXiv:1902.03831](https://arxiv.org/abs/1902.03831), [doi:10.1109/LICS52264.2021.9470575](https://doi.org/10.1109/LICS52264.2021.9470575)&rbrack;
+
+* [[Lukas Heidemann]], [[David Reutter]], [[Jamie Vicary]], *Zigzag normalisation for associative $n$-categories*, Proceedings of the Thirty-Seventh Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2022) &lbrack;[arXiv:2205.08952](https://arxiv.org/abs/2205.08952), [doi:10.1145/3531130.3533352](https://dl.acm.org/doi/10.1145/3531130.3533352)&rbrack;
+
+
+
 
