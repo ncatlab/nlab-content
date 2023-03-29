@@ -317,6 +317,7 @@ between the homotopy category of grouplike Swiss cheese algebras and the homotop
 
 * {#VVieira2020} [[Renato Vasconcellos Vieira]], _Relative recognition principle_, Algebr. Geom. Topol. 20(3): 1431-1486 (2020) &lbrack;[arXiv:1802.01530](https://arxiv.org/abs/1802.01530), [doi:10.2140/agt.2020.20.1431](https://doi.org/10.2140/agt.2020.20.1431)&rbrack;
 
-* {#VVieira2023} [[Renato Vasconcellos Vieira]], _Recognition of connective commutative algebra spectra through quasiadjunction_, Algebr. Geom. Topol. 23(1):[arXiv:2101.03052](https://arxiv.org/abs/2101.03052), 295-338 (2023) & [doi:10.2140/agt.2023.23.295](https://doi.org/10.2140/agt.2023.23.295)&rbrack;
+* {#VVieira2023} [[Renato Vasconcellos Vieira]], _Recognition of connective commutative algebra spectra
+through an idempotent quasiadjunction_, Algebr. Geom. Topol. 23(1):[arXiv:2101.03052](https://arxiv.org/abs/2101.03052), 295-338 (2023) & [doi:10.2140/agt.2023.23.295](https://doi.org/10.2140/agt.2023.23.295)&rbrack;
 
 
