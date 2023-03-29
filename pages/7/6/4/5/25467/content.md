@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
+#### Fibred category theory
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include fibred category theory - contents]]
 =--
 =--
 =--
