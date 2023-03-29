@@ -201,13 +201,15 @@ Textbook accounts:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+* [[Benjamin Schumacher]], [[Michael Westmoreland]],  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
+
 * Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
+
+* [[Masahito Hayashi]], _Quantum information theory - mathematical foundation_, Graduate Texts in Physics, Springer (2017) &lbrack;[doi:10.1007/978-3-662-49725-8](https://doi.org/10.1007/978-3-662-49725-8)&rbrack;
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific 2018  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
 
-* [[Benjamin Schumacher]], [[Michael Westmoreland]],  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
-
-* [[Masahito Hayashi]], _Quantum information theory - mathematical foundation_, Graduate Texts in Physics, Springer (2017) &lbrack;[doi:10.1007/978-3-662-49725-8](https://doi.org/10.1007/978-3-662-49725-8)&rbrack;
+* [[John Watrous]], *The Theory of Quantum Information*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316848142](https://doi.org/10.1017/9781316848142), [webpage](https://cs.uwaterloo.ca/~watrous/TQI/), [pdf](https://cs.uwaterloo.ca/~watrous/TQI/TQI.pdf)&rbrack;
 
 * [[Joseph M. Renes]], *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
 
