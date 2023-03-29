@@ -190,6 +190,9 @@ Review and survey:
 
 * {#Kuperberg05} [[Greg Kuperberg]], section 1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 10 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+
 * [[Robert B. Griffiths]], *Quantum Channels, Kraus Operators, POVMs* (2012) &lbrack;[pdf](https://quantum.phys.cmu.edu/QCQI/qitd412.pdf), [[Griffiths-QuantumChannels.pdf:file]]&rbrack;
 
 * [[Stéphane Attal]], *Quantum Channels*, Lecture 6 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Channels.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
@@ -233,10 +236,9 @@ For the universal property, see
 
 On quantum channel capacity:
 
-* [[Alexander S. Holevo]], *Quantum Systems, Channels, Information -- A Mathematical Introduction*, Studies in Mathematical Physics **16**, De Gruyter (2013) &lbrack;[doi:10.1515/9783110273403](https://doi.org/10.1515/9783110273403)&rbrack;
+* Alexander S. Holevo, *Quantum Systems, Channels, Information -- A Mathematical Introduction*, Studies in Mathematical Physics **16**, De Gruyter (2013) &lbrack;[doi:10.1515/9783110273403](https://doi.org/10.1515/9783110273403)&rbrack;
 
-
-* [[Alexander S. Holevo]], *Quantum channel capacities*, Quantum Electron. **50** 440 (2020) &lbrack;[doi:10.1070/QEL17285/meta](https://iopscience.iop.org/article/10.1070/QEL17285/meta)&rbrack;
+* Alexander S. Holevo, *Quantum channel capacities*, Quantum Electron. **50** 440 (2020) &lbrack;[doi:10.1070/QEL17285/meta](https://iopscience.iop.org/article/10.1070/QEL17285/meta)&rbrack;
 
 
 [[!redirects quantum channel]]
