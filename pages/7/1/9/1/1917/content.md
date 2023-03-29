@@ -304,6 +304,11 @@ Related ideas are discussed in
 
 * {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv:hep-th/0609042](http://arxiv.org/abs/hep-th/0609042))
 
+See also:
+
+* [[João Faria Martins]], [[Timothy Porter]], *A categorification of Quinn's finite total homotopy TQFT with application to TQFTs and once-extended TQFTs derived from strict omega-groupoids* &lbrack;[arXiv:2301.02491](https://arxiv.org/abs/2301.02491)&rbrack;
+
+
 
 [[!redirects HQFTs]]
 
