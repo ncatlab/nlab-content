@@ -42,3 +42,5 @@ where $(-)^{op} : Cat \to Cat$ is the operation sending any category to its oppo
 * {#Borceux} [[Francis Borceux]], [[Handbook of Categorical Algebra]] (see Volume 2, 8.3).
 
 * {#AKock15} [[Anders Kock]], The dual fibration in elementary terms, [arXiv:1501.01947](https://arxiv.org/abs/1501.01947).
+
+[[!redirects opposite fibration]]
