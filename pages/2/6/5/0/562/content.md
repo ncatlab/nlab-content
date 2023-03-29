@@ -316,7 +316,9 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 * [[Cartesian fibration]]
 
+
 ## References 
+ {#References}
 
 The concept was introduced in the context of [[descent theory]] by [[Alexander Grothendieck]] in a [[Bourbaki]] seminar in 1959-60 ([numdam](http://www.numdam.org/numdam-bin/item?id=SB_1958-1960__5__299_0)) and then elaborated in expos&#233; VI of
 
@@ -334,7 +336,7 @@ Textbook accounts:
 
 * [[Bart Jacobs]], Chapters 1 and 9 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
-  > (in the context of [[categorical models for dependent types]])
+  > (in the context of [[categorical semantics of dependent types]])
 
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 9 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
