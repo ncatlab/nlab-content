@@ -140,6 +140,8 @@ $$
 
 * [[fermionic modality]] $\dashv$ [[bosonic modality]] $\dashv$ [[rheonomy modality]]
 
+* [[classical modality]]
+
 * [[affine modality]]
 
 * [[graded modality]]
