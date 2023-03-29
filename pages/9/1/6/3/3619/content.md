@@ -125,6 +125,12 @@ Introduction:
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
 
+Textbook account:
+
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 15 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+
+
 In relation to *[[correlation]]*:
 
 * {#LuoLuo03} Shun-long Luo, You-feng Luo, *Correlation and Entanglement*, Acta Mathematicae Applicatae Sinica **19** (2003) 581–598 $[$[doi:10.1007/s10255-003-0133-z](https://doi.org/10.1007/s10255-003-0133-z)$]$
