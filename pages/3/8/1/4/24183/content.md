@@ -2,12 +2,11 @@
 ### Anyonic topological order in terms of braided fusion categories
  {#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences}
 
-
 #### Claim and status
 
 In [[condensed matter theory]] it is [[folklore]] that species of [[anyon|anyonic]] [[topological order]] correspond to [[braided monoidal categories|braided]] [[unitary fusion category|unitary]] [[fusion categories]]/[[modular tensor categories]].
 
-The origin of the claim may be:
+The origin of the claim is:
 
 * {#Kitaev06} [[Alexei Kitaev]], Section 8 and Appendix E of: *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
 
@@ -18,7 +17,12 @@ Early accounts re-stating this claim (without attribution):
 
 * [[Zhenghan Wang]], Section 6.3 of: *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS (2010) $[$[ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf)$]$
 
-Further discussion (all without attribution):
+Further discussion (mostly review and mostly without attribution):
+
+* [[Simon Burton]], *A Short Guide to Anyons and Modular Functors* $[$[arXiv:1610.05384](https://arxiv.org/abs/1610.05384)$]$
+
+  > (this one stands out as still attributing the claim to [Kitaev (2006), Appendix E](#Kitaev06))
+
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
@@ -38,7 +42,11 @@ Further discussion (all without attribution):
 
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* $[$[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)$]$
 
+* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
+
+
 * Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* $[$[arXiv:2212.00831](https://arxiv.org/abs/2212.00831)$]$
+
 
 
 Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
@@ -46,9 +54,6 @@ Emphasis that the expected description of [[anyons]] by [[braided fusion categor
 * {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) $[$
 [arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)$]$
 
-Exposition and review:
-
-* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
 
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
