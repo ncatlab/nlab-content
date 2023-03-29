@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-This corresponds to what is referred to as the *total homotopy order of a space*, which occurs  notably  in notes [[Frank Quinn]] in 1995 on TQFTs (see reference list), although similar ideas were explored by several researchers at that time.
+This corresponds to what is referred to as the *total homotopy order of a space* by [Quinn (1995)](#Quinn95), although similar ideas were explored by several researchers at that time.
 
 
 
@@ -121,8 +121,7 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 
 * Kazunori Noguchi, _The Euler characteristic of infinite acyclic categories with filtrations_, [arxiv/1004.2547](http://arxiv.org/abs/1004.2547)
 
-* [[Frank Quinn]], 1995, Lectures on axiomatic topological quantum field theory , in D. Freed and 
-K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
+* {#Quinn95} [[Frank Quinn]], *Lectures on axiomatic topological quantum field theory*, in [[Dan Freed]], [[Karen Uhlenbeck]] (eds.) *Geometry and Quantum Field Theory* **1** (1995) &lbrack;[doi:10.1090/pcms/001](https://doi.org/10.1090/pcms/001)&rbrack;
 
 * [[Terence Tao]], "[Counting objects up to isomorphism: groupoid cardinality](https://terrytao.wordpress.com/2017/04/13/counting-objects-up-to-isomorphism-groupoid-cardinality/)" (blog post), 13 April 2017.
 
