@@ -28,6 +28,7 @@ Equivalently, it is a [[globular set]] $X_\bullet$ equipped with a [[unit law|un
 ## Properties
 
 ### Relation to crossed complexes
+ {#RelationToCrossedComplexes}
 
 Following work of [[J. H. C. Whitehead]], in  ([Brown-Higgins](#BrownHiggins)) it is shown that the [[1-category]] of strict $\omega$-groupoids is equivalent to that of [[crossed complexes]]. This equivalence is a generalization of the [[Dold-Kan correspondence]] to which it reduces when restricted to crossed complexes whose fundamental group is abelian and acts trivially. More details in this are at _[[Nonabelian Algebraic Topology]]_.
 
