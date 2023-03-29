@@ -43,14 +43,14 @@ If $N\geq 2$ then $\pi_N(X,A)$ is a group, which is abelian if $N\geq 3$.
 
 If we are interested in the [[homotopy theory]] of relative loop spaces (as in *[[recognition of relative loop spaces]]*) the above definition is not appropriate since there is no [[model category]]-[[structure]] on the category of topological pairs, as explained in [this mathoverflow discussion](https://mathoverflow.net/questions/128976/can-one-make-the-category-of-pairs-of-topological-spaces-a-model-category).
 
-The solution here is to work in the category $Top^\to$ of continuous maps equipped with the [[projective model structure on functors]]. If we start with the [[classical model structure on topological spaces|Quillen model structure]] on $Top$, the [[cofibrant objects]] in $Top^\to$ athe inclusions of CW-pairs, and if we start with the [[mixed model structure]] we get the maps homotopy equivalent to those.
+The solution here is to work in the category $Top^\to_*$ of continuous pointed maps equipped with the [[projective model structure on functors]]. If we start with the [[classical model structure on topological spaces|Quillen model structure]] on $Top$, the [[cofibrant objects]] in $Top^\to_*$ are the inclusions of CW-pairs, and if we start with the [[mixed model structure]] we get the maps homotopy equivalent to those.
 
 We can then define relative loop spaces as loop spaces of homotopy fibers.
 
 \begin{definition}
   For $N\geq 1$ the relative $N$-loop space functor is the right derivable functor
 $$
-\Omega^N_{rel}:Top^\to \to Top, \qquad \Omega^N_{rel}(\iota:A\rightarrow X)\coloneqq (A\times_X X^I)^{\mathbb{S}^{N-1}}.
+\Omega^N_{rel}:Top_*^\to \to Top_*, \qquad \Omega^N_{rel}(\iota:A\rightarrow X)\coloneqq (A\times_X X^I)^{\mathbb{S}^{N-1}}.
 $$
 \end{definition}
 
