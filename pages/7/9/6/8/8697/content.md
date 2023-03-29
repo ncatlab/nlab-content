@@ -21,6 +21,8 @@ Thus they conclude that quantum mechanics is not complete.
 
 * [[ER = EPR]]
 
+* [[parameterized quantum systems]]
+
 ## References
 
 The original article is
@@ -58,3 +60,7 @@ with [[Bose-Einstein condensates]]:
 [[!redirects Einstein-Podolsky-Rosen argument]]
 [[!redirects Einstein–Podolsky–Rosen argument]]
 [[!redirects Einstein--Podolsky--Rosen argument]]
+
+[[!redirects EPR phenomenon]]
+[[!redirects EPR phenomena]]
+
