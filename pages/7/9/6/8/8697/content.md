@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-The "EPR paradox" is an argument (historically perceived of as leading to a "[[paradox]]") about fundamental properties of [[quantum mechanics]], due to ([Einstein, Podoldsky & Rosen 1935](#EinsteinPodoldskyRosen35)).
+The "EPR paradox" is an argument due to [Einstein, Podoldsky & Rosen (1935)](#EinsteinPodoldskyRosen35) (historically perceived of as leading to a "[[paradox]]") about fundamental properties of [[quantum mechanics]] related to [[quantum entanglement]].
 
 The argument begins by giving a necessary condition for a [[theory]] to be complete, that every element of reality features in the theory.
 
