@@ -93,6 +93,8 @@ In many of the simplest examples, this is taken to be the [[classifying space]] 
 ## References
  {#References}
 
+
+
 See also the references at [[2d TQFT]], [[3d TQFT]] and [[4d TQFT]].
 
 
@@ -126,9 +128,12 @@ Exposition of the conceptual ingredients:
 
 * [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_ ([arXiv:quant-ph/0404040](http://arxiv.org/abs/quant-ph/0404040))
 
-and more technical lecture notes include 
+More technical lecture notes:
 
 * [[Daniel Freed]], _Lectures on topological quantum field theory_, 1992 ([pdf](http://www.ma.utexas.edu/users/dafr/OldTQFTLectures.pdf))
+
+* {#Quinn95} [[Frank Quinn]], *Lectures on axiomatic topological quantum field theory*, in [[Dan Freed]], [[Karen Uhlenbeck]] (eds.) *Geometry and Quantum Field Theory* **1** (1995) &lbrack;[doi:10.1090/pcms/001](https://doi.org/10.1090/pcms/001)&rbrack;
+
 
 * {#Walker06} [[Kevin Walker]], _TQFTs_, 2006 ([pdf](http://canyon23.net/math/tc.pdf))
 
