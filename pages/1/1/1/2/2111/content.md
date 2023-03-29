@@ -49,6 +49,11 @@ The basic example of the space $X$ is the homogeneous space $G^{\mathbb {C}}/B =
 
 ## References
 
+Textbook account:
+
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 6 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+See also:
 
 * A. M. Perelomov, [Coherent states for arbitrary Lie groups](http://projecteuclid.org/euclid.cmp/1103858078),
 Comm. Math. Phys., 26 (1972), pp. 222--236; archived as [arXiv:math-ph/0203002](http://arxiv.org/abs/math-ph/0203002).
