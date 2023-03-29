@@ -147,7 +147,15 @@ Discussion as a [[linear homotopy type theory]]:
 
 * {#Schreiber14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_ &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
 
+  > (intended [[categorical semantics]])
+
 * [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
+
+  > ([[inference rules]] for the [[classical modality]] $\natural$)
+
+* {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269),  [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
+
+  > (full [[inference rules]] by bringing in the required [[bunched logic]])
 
 
 
