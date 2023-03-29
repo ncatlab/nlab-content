@@ -15,10 +15,38 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In [[logic]], and more specifically in [[sequent calculus]]/[[natural deduction]], a **bunched logic** is a logic in which the formulas in the [[context]] are not just a [[list]] or [[set]] but have some additional, usually [[tree]]-like, structure.
+In [[formal logic]], and more specifically in [[sequent calculus]]/[[natural deduction]]/[[type theory]], a **bunched logic** is a logical [[theory]] in which the [[formulas]] appearing in any [[context]] are not necessarily just a [[list]] but have some additional structure, usually that of [[tree]] whose nodes are then the eponymous "bunches":
 
-This can be indicated [[syntax|syntactically]] by the use of two or more punctuation symbols, such as comma and semicolon, along with parentheses for grouping.  Thus for instance a sequent with bunches might be written like
+Where a classical [[context]] is traditionally presented as a comma-separated [[list]] of [[propositions]] [[propositions as types|and/or]] [[types]], e.g.
+
+$$
+  \Gamma 
+  ,\;
+  X
+  ,\;
+  Y
+  \;\;\;
+  ctxt
+  \,,
+$$
+
+which classically may always be thought of as a ([[dependent pair type|dependent]]) classical [[product type]]
+
+$$
+  \Gamma 
+  \times
+  X
+  \times
+  Y
+  \;\;\;
+  ctxt
+  \,,
+$$
+
+so a context in bunched logic is allowed, more generally, to be a nested list of *[[structural rule|structural]] [[logical connective|connectives]]*, iterating between this comma-denoted conjunction and another connective typically denoted by a semicolon, e.g.:
+
 
 $$ 
   A,\;
@@ -30,15 +58,50 @@ $$
     F
   \big),\;
   (G;\,H) 
-  \;\;\;\;\vdash\;\;\;\; 
-  K 
+  \;\;\;\;
+  ctxt
+  \,.
 $$
 
-The contexts put together with both commas and semicolons are called *bunches*.  The general phrase *bunched logic* is not entirely standard, although the word "bunches" has been used with more than one logic of this form (the original is "bunched implication (BI)", below).
+The original and common motivation for such "bunched contexts" is the existence of further ([[function types]] and) [[product types]] *in addition* to the classical ones; such as in [[linear type theories]] with their additional ([[linear implication]] $(-)\multimap (-)$ and) [[linear conjunction]] $(-)\otimes (-)$, and more generally in the [[internal logic]] of a [[doubly closed monoidal category]], whence bunched contexts as above may usefully be thought of as types formed consecutively from [[cartesian products]] and another [[tensor product]]: 
 
-Each type of punctuation also comes with a nullary version.  The punctuation symbols like comma and semicolon are sometimes called *structural connectives*, since they are part of the judgmental structure (like [[structural rules]]) but are closely related to the [[logical connectives]] such as conjunction and disjunction.
+$$ 
+  A
+  \times
+  B  
+  \times
+  \big(
+    C
+    \otimes
+    (D \times E);
+    \otimes
+    F
+  \big)
+  \times
+  (G \otimes H) 
+  \;\;\;\;
+  ctxt
+  \,.
+$$
 
-Usually the reason for using a bunched logic is that the different structural connectives obey different [[structural rules]].  For instance, the semicolon might allow the [[contraction rule]] and/or the [[weakening rule]], while the comma does not.
+> (NB: In saying this we are reversing the role of commas and semicolons as compared to the original literature on bunched logic, so that the comma retains it original meaning as the classical connective.)
+
+Accordingly, the bunched context indicates a variation of [[structural rules]]: The classical product $\times$ will admit the [[contraction rule]] and/or the [[weakening rule]], while $\otimes$ may not.
+
+
+Notice that the general phrase *bunched logic* is not entirely standard, and the word "bunches" has been used with more than one logic of this form. 
+
+The notion (together with its [[categorical semantics]] in [[doubly closed monoidal categories]]) originates with the logic of "bunched implication" (BI) and its "$\alpha \lambda$-calculus" (a bunched variation of the [[lambda-calculus]]) due to &lbrack;[O'Hearn & Pym (1999)](#O'HearnPym99), [Pym (2002)](#Pym2002), see also [O'Hearn (2003)](#O'Hearn03).
+
+But aspects of the proposal of [O'Hearn & Pym (1999)](#O'HearnPym99) and [Pym (2002)](#Pym2002) have remained unsatisfactory, see [Pym (2008), Errata to Pym (2002)](#Pym08Errata) and [Riley(2022)](#Riley22Thesis), [pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29) and Rem. 1.4.1 ([p. 64](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=64)): 
+
+> [Riley 2022, pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29): &lbrack;Since&rbrack; context manipulations are not recorded in the terms, typechecking a term can be difficult. First, it is not always obvious when and how the contraction rule has to be applied, and secondly, it is not always obvious how the context has to be split into two pieces to apply $\multimap$-ELIM. Besides the challenge of typechecking, the combination of the weakening rule and the rules for the monoidal unit also breaks soundness for the intended semantics.
+
+> The various extensions of the αλ-calculus that have since appeared &lbrack;BO06; CPR08; SS04; Atk04&rbrack; do not resolve these issues. It is also not so clear how to add [[dependent types]] to this system and how dependency should behave between bunches.
+
+In reaction to this, [Riley (2022)](#Riley22Thesis) proposes an enhanced form of bunched type theory which is claimed to fix all these problems at least in the case that the second structural connective $\otimes$ is a [[multiplicative conjunction]] in a [[linear type theory]], hence for a form of [[dependent linear type theory]]. The key new ingredients in [Riley (2022)](#Riley22Thesis) to make this work are (1.) a [[classical modality]] $\natural$ which from any "parameterized linear type" projects out the underlying classical type and (2.) a decoration of bunched contexts by "color palettes" which keep explicit track of the bunching/tree structure. (On the other hand, especially the second point leads to a proliferation of [[inference rules]], but maybe that's what it takes.)
+
+
 
 ## Examples
 
@@ -92,7 +155,12 @@ The original articles:
   
 * {#Pym2002} [[David Pym]], *The Semantics and Proof Theory of the Logic of Bunched Implications*, Applied Logic Series **26**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0091-7](https://doi.org/10.1007/978-94-017-0091-7), [GoogleBooks](https://books.google.com/books/about/The_Semantics_and_Proof_Theory_of_the_Lo.html?id=0bAfqhzDuOcC&redir_esc=y)&rbrack;
 
-* [[Peter O'Hearn]], *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
+  {#Pym08Errata} Errata and Remarks for *The Semantics and Proof Theory of the Logic of Bunched Implications* (2008) &lbrack;[pdf](http://www.cs.bath.ac.uk/~pym/
+BI-monograph-errata.pdf)&rbrack;
+
+  > &lbrack;[p. 5](www0.cs.ucl.ac.uk/staff/D.Pym/BI-monograph-errata.pdf#page=5)&rbrack; "Items 3, 4, and 5 in the errata for Chapter 12 and 4, 5 in Chapter 13, whilst necessary to fix a technical problem, leave us in a conceptually and computationally undesirable situation: we have no clean characterization of a useful notion of well-formedness, leading to obvious computational difficulties in, say, theorem proving. We conclude that such a highly multiplicative system is far too complex, at least in its current formulation, to be of much value. All of the applications of multiplicative quantifiers known to-date require much simpler systems. It is the author's recommendation that readers should not devote very much of their resources to studying the system of predicate BI discussed in these chapters"
+
+* {#O'Hearn03} [[Peter O'Hearn]], *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
 
 Review and further development:
 
