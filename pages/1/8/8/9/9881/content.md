@@ -114,12 +114,14 @@ See also
 
 * {#Moore93} [[Gregory Moore]], _Symmetries of the Bosonic String S-Matrix_ ([arXiv:hep-th/9310026](https://arxiv.org/abs/hep-th/9310026))
 
+* Gaston Giribet, Nicholas Labranche, Joan La Madrid, *Comments on the two-point string amplitudes* &lbrack;[arXiv:2303.15658](https://arxiv.org/abs/2303.15658)&rbrack;
+
+
 On string scattering amplitudes in view of the [[S-matrix bootstrap]]:
 
 * Andrea Guerrieri, Joao Penedones, Pedro Vieira, _Where is String Theory?_ ([arXiv:2102.02847](https://arxiv.org/abs/2102.02847))
 
-
-For more references see also at _[[string theory results applied elsewhere]]_.
+For more references see also at *[[string theory results applied elsewhere]]*.
 
 
 ### Superstring scattering
