@@ -313,9 +313,17 @@ Dscussion in [[higher differential geometry]]:
 
 
 
-Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
+Discussion of geometric T-duality in terms of some form of [[differential cohomology]]:
+
+as an operation on [[twisted K-theory|twisted]] [[differential K-theory]]:
 
 * {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
+
+using [[adjusted Weil algebra|adjusted]] [[principal 2-connections]]:
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* *lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
 
 * [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
  
@@ -366,9 +374,7 @@ Discussion of T-duality that takes into account the [[super p-brane]] charges (i
 
   reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
 
-Discussion of non-geometric T-duality:
 
-* Hyungrok Kim, Christian Saemann, _Non-Geometric T-Duality as Higher Groupoid Bundles with Connections_ ([arXiv:2204.01783](https://arxiv.org/abs/2204.01783))
 
 [[!redirects Buscher rule]]
 [[!redirects Buscher rules]]
