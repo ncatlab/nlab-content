@@ -114,3 +114,7 @@ These consequences have been worked out in [Dorn and Douglas 22](#DornDouglas22)
 A fast introduction to manifold diagrams can be found in:
 
 * [An Invitation to Geometric Higher Categories](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html), $n$-Category Café post
+
+
+[[!redirects manifold diagrams]]
+
