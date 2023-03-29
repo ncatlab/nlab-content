@@ -80,7 +80,7 @@ Discussion of classically-[[parameterized quantum system|parameterized]] quantum
 
 Discussion of quantumly-[[parameterized quantum systems|parameterized]] quantum circuits:
 
-* Evan Peters, Prasanth Shyamsundar, *Qarameterized circuits: Quantum parameters for QML* &lbrack;[web](https://peterse.github.io/groveropt/)&rbrack;
+* Evan Peters, Prasanth Shyamsundar, *Qarameterized circuits: Quantum parameters for QML* (2021) &lbrack;[web](https://peterse.github.io/groveropt/)&rbrack;
 
 following
 
