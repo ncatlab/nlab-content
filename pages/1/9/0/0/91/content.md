@@ -18,6 +18,7 @@
 * table of contents
 {: toc}
 
+
 ## Idea
 
 Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
