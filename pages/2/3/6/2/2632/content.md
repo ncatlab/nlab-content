@@ -429,6 +429,9 @@ More recent textbook accounts:
 
 * [[Serge Haroche]], [[Jean-Michel Raimond]], *Exploring the Quantum: Atoms, Cavities, and Photons*, Oxford University Press (2006) &lbrack;[doi:10.1093/acprof:oso/9780198509141.001.0001](https://doi.org/10.1093/acprof:oso/9780198509141.001.0001)&rbrack;
  
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+  > (focus on the [[geometry]] of [[quantum state spaces]] and culminating in a chapter on [[quantum entanglement]])
 
 * {#Landsman17} [[Klaas Landsman]], *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
