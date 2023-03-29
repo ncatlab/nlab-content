@@ -1,7 +1,7 @@
 
 * [webpage](http://christiansaemann.de/)
 
-## Selcected writings
+## Selected writings
 
 On the [[M2-brane 3-algebra]] and the [[BLG model]]:
 
