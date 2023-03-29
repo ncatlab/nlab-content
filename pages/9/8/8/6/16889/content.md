@@ -10,7 +10,10 @@
 =--
 =--
 
-_The initial release of Globular works best in the Chrome browser. For discussion, go to the [nForum thread](http://nforum.ncatlab.org/discussion/6829/globular)._ 
+> _The initial release of Globular works best in the Chrome browser. For discussion, go to the [nForum thread](http://nforum.ncatlab.org/discussion/6829/globular)._ 
+
+> *Globular* may have been superceded by its successor tool _[[homotopy.io]]_, see there for more.
+
 
 #Contents#
 * table of contents
@@ -21,8 +24,9 @@ _The initial release of Globular works best in the Chrome browser. For discussio
 ## Introduction ##
 
 ### Overview ###
+ {#Overview}
 
-_Globular_ is a web-based [[proof assistant]] for finitely-presented [[semistrict]] [[globular set|globular]] [[higher categories]]. It allows one to formalize higher-categorical proofs in finitely-presented [[n-categories]], visualize them as [[string diagrams]], and share them with collaborators, or with the world. It is available at this address:
+_Globular_ is a web-based [[proof assistant]] for finitely-presented [[semistrict]] [[globular set|globular]] [[higher categories]] ("[[associative n-category|associative $n$-categories]]"). It allows one to formalize higher-categorical proofs in finitely-presented [[n-categories]], visualize them as [[string diagrams]], and share them with collaborators, or with the world. It is available at this address:
 
 * [http://globular.science](http://globular.science)
 
@@ -42,7 +46,6 @@ If you've never used <i>Globular</i> before, the [tutorial video](https://youtu.
 
 We are extremely grateful to John Baez, Manuel B&#228;renz, Bruce Bartlett, Eugenia Cheng, Chris Douglas, Eric Finster, Nick Gurski, Andr&#233; Henriques, Samuel Mimram and Dominic Verdon for useful discussions.
 
-Globular will soon followed by a successor tool _[[homotopy.io]]_.
 
 {#HowToCite} If you would like to cite _Globular_, you can use the BiBTeX entry 
 
@@ -231,6 +234,8 @@ The coordinate system for an $n$-diagram is defined in the following way. An $n$
 
 
 ## Related entries
+
+* [[homotopy.io]]
 
 * [[rewriting]]
 
