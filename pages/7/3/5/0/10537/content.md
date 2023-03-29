@@ -38,9 +38,10 @@ A [[cohesive (∞,1)-topos]] $\mathbf{H}$ with its [[shape modality]] $\dashv$ [
 
 $$
   \flat \stackrel{\simeq}{\longrightarrow} &#643;
-  \,.
 $$
 
+
+in which case all three [[modal operators]] collapse to a single "[[classical modality]]" $\natural$ of a [[bireflective subcategory]].
 
 =--
 
@@ -155,6 +156,10 @@ $$
 ## Related concepts
 
 * [[bireflective subcategory]]
+
+* [[classical modality]]
+
+* [[linear homotopy type theory]]
 
 * [[differential cohesion]]
 
