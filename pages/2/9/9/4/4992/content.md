@@ -29,7 +29,7 @@ The subject of free Lie algebras is combinatorially rich with lots of open probl
 
 * sbseminar blog: [Tannakian construction of the fundamental group and Kapranov's fundamental Lie algebra](http://sbseminar.wordpress.com/2008/03/17/tannakian-construction-of-the-fundamental-group-and-kapranovs-fundamental-lie-algebra)
 
-* Nantel Bergeron, Muriel Livernet, _A combinatorial basis for the free Lie algebra of the labelled rooted trees_, Journal of Lie Theory __20__ (2010) 3&#8211;15, [pdf](www.math.univ-paris13.fr/~livernet/publications/BerLiv_JOLT.pdf)
+* Nantel Bergeron, [[Muriel Livernet]], _A combinatorial basis for the free Lie algebra of the labelled rooted trees_, Journal of Lie Theory __20__ (2010) 3--15, [pdf](https://www.math.univ-paris13.fr/~livernet/publications/BerLiv_JOLT.pdf)
 
 * [[Leila Schneps]], _On the Poisson bracket on the free Lie algebra in two generators_, [pdf](http://www.math.jussieu.fr/~leila/Poisson.pdf)
 
