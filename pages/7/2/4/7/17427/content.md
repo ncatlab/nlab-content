@@ -155,10 +155,10 @@ The original articles:
   
 * {#Pym2002} [[David Pym]], *The Semantics and Proof Theory of the Logic of Bunched Implications*, Applied Logic Series **26**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0091-7](https://doi.org/10.1007/978-94-017-0091-7), [GoogleBooks](https://books.google.com/books/about/The_Semantics_and_Proof_Theory_of_the_Lo.html?id=0bAfqhzDuOcC&redir_esc=y)&rbrack;
 
-  {#Pym08Errata} Errata and Remarks for *The Semantics and Proof Theory of the Logic of Bunched Implications* (2008) &lbrack;[pdf](http://www.cs.bath.ac.uk/~pym/
-BI-monograph-errata.pdf)&rbrack;
+  {#Pym08Errata} Errata and Remarks for *The Semantics and Proof Theory of the Logic of Bunched Implications* (2008) &lbrack;[pdf](https://www.cantab.net/users/david.pym/BI-monograph-errata.pdf), [[Pym-BI-Errata.pdf:file]]&rbrack;
 
   > &lbrack;[p. 5](www0.cs.ucl.ac.uk/staff/D.Pym/BI-monograph-errata.pdf#page=5)&rbrack; "Items 3, 4, and 5 in the errata for Chapter 12 and 4, 5 in Chapter 13, whilst necessary to fix a technical problem, leave us in a conceptually and computationally undesirable situation: we have no clean characterization of a useful notion of well-formedness, leading to obvious computational difficulties in, say, theorem proving. We conclude that such a highly multiplicative system is far too complex, at least in its current formulation, to be of much value. All of the applications of multiplicative quantifiers known to-date require much simpler systems. It is the author's recommendation that readers should not devote very much of their resources to studying the system of predicate BI discussed in these chapters"
+
 
 * {#O'Hearn03} [[Peter O'Hearn]], *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
 
