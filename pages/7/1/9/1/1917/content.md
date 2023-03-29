@@ -278,6 +278,10 @@ These ideas were further developed in
 
 * {#FreedQuinn1991} [[Daniel S. Freed]], [[Frank Quinn]], _Chern-Simons Theory with Finite Gauge Group_, [arXiv:hep-th/9111004](https://arxiv.org/abs/hep-th/9111004).
 
+* {#Quinn95} [[Frank Quinn]], *Lectures on axiomatic topological quantum field theory*, in [[Dan Freed]], [[Karen Uhlenbeck]] (eds.) *Geometry and Quantum Field Theory* **1** (1995) &lbrack;[doi:10.1090/pcms/001](https://doi.org/10.1090/pcms/001)&rbrack;
+
+
+
 The theory of HQFTs was developed in
 
 *  {#Turaev99} [[Vladimir Turaev]], _Homotopy field theory in dimension 2 and group-algebras_ ([arXiv:math.QA/9910010](http://arxiv.org/abs/math.QA/9910010))
@@ -305,3 +309,6 @@ Related ideas are discussed in
 
 [[!redirects homotopy quantum field theory]]
 [[!redirects homotopy quantum field theories]]
+
+[[!redirects homotopy field theory]]
+[[!redirects homotopy field theories]]
