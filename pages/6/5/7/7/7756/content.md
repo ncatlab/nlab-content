@@ -21,9 +21,9 @@
 
 ## Idea
 
-A __first-order theory__ is a [[theory]] written in the language of [[first-order logic]] i.e it is a set of formulas or sequents (or generally, [[axioms]] over a signature) whose [[quantification|quantifiers]] and variables range over individuals of the underlying domain, but not over subsets of individuals nor over functions or relations of individuals etc. A first-order theory is called [[infinitary logic|infinitary]] when the expressions contain infinite disjunctions or conjunctions, else it is called _finitary_.
+A __first-order theory__ is a [[theory]] written in the language of [[first-order logic]] i.e it is a set of formulas or sequents (or generally, [[axioms]] over a signature) whose [[quantification|quantifiers]] and variables range over individuals of the underlying domain, but not over subsets of individuals nor over functions or relations of individuals etc. A first-order theory is called [[infinitary logic|infinitary]] when the expressions contain infinite [[disjunctions]] or [[conjunctions]], else it is called _finitary_.
 
-Another name for a first-order theory is _elementary theory_ which is found in the older literature but by now has gone extinct though it has left its traces in names like [[elementary topos]], [[elementary embedding]], [[ETCC]] etc.
+Another name for a first-order theory is _elementary theory_ which is found in the older literature but by now has gone extinct, though it has left its traces in names like [[elementary topos]], [[elementary embedding]], [[ETCC]] etc.
 
 The characterization of set-theoretic [[models]] of (finitary) first-order theories is the topic of traditional [[model theory]].
 
@@ -53,6 +53,8 @@ This result due to [[Peter Freyd|P. Freyd]] is discussed in Johnstone ([2002](#J
 If $\mathbb{T}$ is a theory over a countable signature, then $\mathcal{E}$ can be taken as the topos $Sh(2^{\mathbb{N}})$ of sheaves on the [[Cantor space]] $2^{\mathbb{N}}$. This completeness result shows that $Sh(2^{\mathbb{N}})$ plays in constructive first-order logic a role similar to the role of $Set$ in classical first-order logic.
 
 ## Related entries
+
+* [[dependent type theory]]
 
 * [[second-order logic]]
 
