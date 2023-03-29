@@ -6,5 +6,9 @@ A **cartesian object** in a [[2-category]] with [[2-limit|finite products]] is a
 
 For example, a cartesian object in [[Cat]] is precisely a category with finite [[products]], which is of course a [[monoidal category]] in a canonical way.
 
+## References
+
+* Carboni, Kelly, Wood, _A 2-categorical approach to change of base and geometric morphisms I_ (1991) ([Numdam](http://www.numdam.org/item/?id=CTGDC_1991__32_1_47_0)), Section 5: Cartesian objects in $F$ and various morphisms between them
+
 [[!redirects cartesian objects]]
 
