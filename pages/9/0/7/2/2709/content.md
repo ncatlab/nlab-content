@@ -14,9 +14,9 @@ On [[mixed motives]]:
 
 * [[Denis-Charles Cisinski]] and [[Frédéric Déglise]], _Triangulated categories of mixed motives_, Springer Monographs in Mathematics, 2019 ([doi:10.1007/978-3-030-33242-6](https://www.springer.com/gp/book/9783030332419), [arXiv](https://arxiv.org/abs/0912.2110))
 
-On the [[(infinity,1)-Grothendieck construction]]:
+On the [[(infinity,1)-Grothendieck construction]] via [[straightening and unstraightening]] entirely within the context of [[quasi-categories]]:
 
-* [[Denis-Charles Cisinski]], Hoang Kim Nguyen, *The universal coCartesian fibration* &lbrack;[arXiv:2210.08945](https://arxiv.org/abs/2210.08945)&rbrack;
+* [[Denis-Charles Cisinski]], [[Hoang Kim Nguyen]], *The universal coCartesian fibration* &lbrack;[arXiv:2210.08945](https://arxiv.org/abs/2210.08945)&rbrack;
 
 ## Related $n$Lab entries
 
