@@ -52,3 +52,6 @@ For more see the references at *[[linear logic]]*.
 [[!redirects cotenability conjunctions]]
 [[!redirects cotenability]]
 
+[[!redirects linear conjunction]]
+[[!redirects linear conjunctions]]
+
