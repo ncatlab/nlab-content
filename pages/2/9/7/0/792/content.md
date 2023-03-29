@@ -76,13 +76,17 @@ of a certain prescribed [[integral transform]]-form ([Bunke-Rumpf-Schick 08, p. 
 
 ## References
 
-The concept was introduced on the level of differential form data in
+### General
+
+The concept of topological T-duality was introduced on the level of [[differential form]]-data in
 
 * {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun. Math. Phys. 249:383-415, 2004 &lbrack;[hep-th/0306062](http://arxiv.org/abs/hep-th/0306062), [doi:10.1007/s00220-004-1115-6](https://doi.org/10.1007/s00220-004-1115-6)&rbrack; 
 
 * {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]], [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
-In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way.  The formalization with the above data originates in 
+In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way.  
+
+The formalization with the above topological/[[homotopy theory|homotopy theoretic]] data originates in 
 
 * {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev. Math. Phys. **17** (2005) 77-112 &lbrack;[arXiv:math/0405132](https://arxiv.org/abs/math/0405132), [doi:10.1142/S0129055X05002315](https://doi.org/10.1142/S0129055X05002315)&rbrack;
 
@@ -108,8 +112,8 @@ Introduction and review:
 
 * [[Jonathan Rosenberg]], *Topology, $C^*$-algebras, and string duality*, Regional Conference Series in Mathematics **111**, Amer. Math. Soc. (2009)  &lbrack;[doi:10.1090/cbms/111](https://doi.org/10.1090/cbms/111), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete)&rbrack;
 
-* [[Konrad Waldorf]], §1 in: *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
- 
+* §1 in [Waldorf 2022](#Waldorf22) 
+
 
 Another discussion that instead of [[noncommutative geometry]] uses [[topological groupoids]] is in 
 
@@ -160,12 +164,22 @@ Comprehensive discussion in [[higher differential geometry]]:
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
 
+### Geometric refinement
+ {#ReferencesGeometricRefinement}
 
+On possible geometric refinement of topological T-duality via some form of [[differential cohomology]]:
 
-The refinement of topological T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
+via [[differential K-theory]] classes:
 
-* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics, **16** 02 (2014) &lbrack;[arXiv:0912.2516](http://arxiv.org/abs/0912.2516), [doi:10.1142/S0219199713500144](https://doi.org/10.1142/S0219199713500144)&rbrack;
  
+using [[adjusted Weil algebra|adjusted]] [[principal 2-connections]]:
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* &lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
+
+* {#Waldorf22} [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
 
 
 
