@@ -14,6 +14,7 @@
 =--
 
 
+
 # Globular sets
 * table of contents
 {: toc}
@@ -23,8 +24,6 @@
 
 Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
-
-Globular sets have been used as a [[geometric shape for higher structures]]: when equipped with suitable [[composition]] operation on their cells they model a notion of [[strict ∞-categories]]. 
 
 
 
@@ -195,8 +194,9 @@ Note that a $1$-globular set is just a [[directed graph]], and a $0$-globular se
 
 * The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
 
+## Properties
 
-## Grothendieck homotopy theory
+### Grothendieck homotopy theory
 
 The category of [[globes]] is not a [[weak test category]] according
 to Scholium 8.4.14 in [Cisinski 06](#Cisinski06).
@@ -204,6 +204,17 @@ to Scholium 8.4.14 in [Cisinski 06](#Cisinski06).
 However, if we construct the free [[strict monoidal category]]
 on the category of [[globes]], while ensuring that the terminal object becomes the monoidal unit,
 then the resulting category of polyglobes is a [[test category]].
+
+
+### As shapes for higher categories
+ {#AsShapesForHigherCategories}
+
+Globular sets may be used as a [[geometric shape for higher structures|geometric shape]] for [[algebraic definitions of higher categories]]:
+
+* Equipped with strictly compatible [[composition]] [[structure]] on cells in any dimension, globular sets model *[[strict ∞-categories]]* (originally often: "[[omega-category|omega-categories]]", see also at *[[complicial sets]]*), historically one of the earliest notions of [[higher category theory]] but too restrictive to be useful for most purposes (in their further restriction to [[strict omega-groupoids]] they [are equivalent](strict+omega-groupoid#RelationToCrossedComplexes) just to [[crossed complexes]]). 
+
+* A more general ([[semi-strict infinity-category|semi-strict]]) notion of [[n-categories|$n$-categories]] modeled on globular sets are known as *[[associative n-category|associative $n$-categories]]*, see there for more, and see a corresponding [[proof assistant]]: *[[Globular]]*.
+
 
 
 ## Related concepts
@@ -234,6 +245,9 @@ then the resulting category of polyglobes is a [[test category]].
 
   * [[semisimplicial set]]
 
+* [[strict infinity-category]], [[strict omgega-groupoid]]
+
+* [[associative n-category]], [[Globular]]
 
 
 ## References
@@ -254,14 +268,8 @@ See also
 
 The definition of globular set, without using that term, is in 2.2 and 2.3 of the following paper: 
 
-* [[Ronnie Brown]] and Philip J. Higgins,  "The equivalence of $\infty$-groupoids
-and crossed  complexes",  Cah. Top. G\'eom. Diff. 22 (1981) 371-386.
+* [[Ronnie Brown]] and Philip J. Higgins, *The equivalence of $\infty$-groupoids and crossed  complexes*,  Cah. Top. G\'eom. Diff. 22 (1981) 371-386.
 
-The following paper constructs from the cubical case  a strict globular $\omega$-groupoid of a filtered space: 
-
-* [[Ronnie Brown]] "A new higher homotopy groupoid: the fundamental  globular
-$\omega$-groupoid of a filtered space", Homotopy, Homology and
-Applications, 10 (2008), No. 1, pp.327-343.
 
 [[!redirects globular set]]
 [[!redirects globular sets]]
