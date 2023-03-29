@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -125,9 +129,15 @@ Introduction:
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
 
-Textbook account:
-
 * [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 15 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+Extensive survey of the field:
+
+* Ryszard Horodecki, Paweł Horodecki, Michał Horodecki, and Karol Horodecki: *Quantum entanglement*, Rev. Mod. Phys. **81** (2009) 865 &lbrack;[arXiv:quant-ph/0702225](https://arxiv.org/abs/quant-ph/0702225), [doi:10.1103/RevModPhys.81.865](https://doi.org/10.1103/RevModPhys.81.865)&rbrack;
+
+As a notion in [[quantum information theory]]:
+
+* [[John Watrous]], Chapter 6 of: *The Theory of Quantum Information*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316848142](https://doi.org/10.1017/9781316848142), [webpage](https://cs.uwaterloo.ca/~watrous/TQI/), [pdf](https://cs.uwaterloo.ca/~watrous/TQI/TQI.pdf)&rbrack;
 
 
 
