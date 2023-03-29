@@ -16,12 +16,12 @@
 
 ## Idea
 
+The notion of *associative $n$-categories* (ANCs, [Dorn 2018](#Dorn18), [Reutter & Vicary 2019](#ReutterVicary19)) is a [[semi-strict infinity-category|semi-strict]] [[algebraic definition of higher categories|algebraic model]] for [[higher category theory]] based on the [[geometric shape for higher structures|geometric shape]] of [[globular sets]] with strictly [[associativity|associative]] [[composition]]: All higher [[coherence law|coherence laws]] in associative $n$-categories are strict, except for weak versions of higher [[exchange laws]].
 
-The theory of _associative $n$-categories_ (ANCs) is a model of [[higher category theory]] with strictly [[associativity|associative]] [[composition]], developed by [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [Christopher Douglas](https://www.maths.ox.ac.uk/people/christopher.douglas) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/). All higher [[coherence law|coherence laws]] in associative $n$-categories are strict, except for weak versions of higher exchange laws (i.e. higher analogs of the ordinary [[exchange law]]).
+Due to the tight control over [[coherence]]-issues, the theory of (free) associative $n$-categories lends itself to [[formal proof]], for implementation of corresponding [[proof assistants]] see* [[homotopy.io]]* (and its precursor *[[Globular]]*).
 
 Composition operations in associative $n$-categories naturally have stratified-geometric semantics in [[manifold diagram|manifold diagrams]], which makes them an instance of [[geometric n-category|geometrical $n$-categories]]. In particular, the weak coherence laws of an associative $n$-category can be thought of in terms of a notion of homotopy between composites. This is similar to the case of a [[Gray-category]], which is strictly associative and unital, but which has a weak exchange law. In this sense, ANCs can be seen as a generalization of Gray categories.
 
-The theory of (free) associative $n$-categories forms the basis for [[homotopy.io]], a [[proof assistant]] for higher category theory which is currently under development.
 
 
 
@@ -47,6 +47,10 @@ A separate notion of 'free' associative n-categories has been developed. These a
 
 ## Related concepts
 
+* [[globular set]]
+
+* [[homotopy.io]], [[Globular]]
+
 * [[semistrict n-category]]
 
 * [[geometric n-category]]
@@ -60,12 +64,16 @@ A separate notion of 'free' associative n-categories has been developed. These a
 * [[Simpson's conjecture]]
 
 
-
 ## References
 
 * [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)).
 
-* [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
+* {#Dorn18} [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
 
-* [[David Reutter]] and [[Jamie Vicary]], _High-level techniques for homotopy construction in associative $n$-categories_ ([arXiv:1902.03831](https://arxiv.org/abs/1902.03831)).
+* {#ReutterVicary19} [[David Reutter]], [[Jamie Vicary]], _High-level methods for homotopy construction in associative $n$-categories_, LICS '19: Proceedings of the 34th Annual ACM/IEEE Symposium on Logic in Computer ScienceJune **62** (2019) 1–13 &lbrack;[arXiv:1902.03831](https://arxiv.org/abs/1902.03831), [doi:10.1109/LICS52264.2021.9470575](https://doi.org/10.1109/LICS52264.2021.9470575)&rbrack;
+
+* [[Lukas Heidemann]], [[David Reutter]], [[Jamie Vicary]], *Zigzag normalisation for associative $n$-categories*, Proceedings of the Thirty-Seventh Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2022) &lbrack;[arXiv:2205.08952](https://arxiv.org/abs/2205.08952), [doi:10.1145/3531130.3533352](https://dl.acm.org/doi/10.1145/3531130.3533352)&rbrack;
+
+
+[[!redirects associative n-categories]]
 
