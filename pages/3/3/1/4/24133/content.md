@@ -70,6 +70,7 @@ In some models of [[braid group statistics]] (see [there](braid+group+statistics
 
 * [[subsystem]]
 
+* [[EPR phenomena]]
 
 ## References
 
