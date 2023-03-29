@@ -234,15 +234,22 @@ What should be the [[categorical semantics]] of one kind of dependent linear typ
 
 ## Related concepts
 
-* dependent linear type theory has [[categorical semantics]] in [[indexed monoidal (∞,1)-categories]]
+* [[dependent type theory]], [[linear type theory]]
 
-* [[linear type theory]]
+* [[classical modality]]
+
+* [[categorical semantics]]: 
+  
+  [[indexed monoidal (∞,1)-categories]], 
+
+  [[tangent (∞,1)-toposes]]
 
 * [[quantum logic]], [[quantum programming]]
 
-* [[dependent type theory]]
-
 * [[parameterized quantum system]]
+
+
+
 
 ## References
  {#References}
