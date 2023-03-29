@@ -1,5 +1,4 @@
 
-
 **[[cohesion]]**
 
 * ([[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]) 
@@ -15,6 +14,10 @@
 * [[dR-shape modality]] $\dashv$ [[dR-flat modality]]
 
   $\esh_{dR} \dashv \flat_{dR}$
+
+**[[infinitesimal cohesion]]**
+
+* [[classical modality]]
 
 **[[tangent cohesive (∞,1)-topos|tangent cohesion]]**
 
