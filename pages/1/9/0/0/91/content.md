@@ -24,6 +24,7 @@
 
 Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
+Much like [[simplicial sets]] underly common [[geometric definitions of higher categories]], so globular sets underly some [[algebraic definitions of higher categories]], see [below](#AsShapesForHigherCategories).
 
 
 
@@ -213,7 +214,7 @@ Globular sets may be used as a [[geometric shape for higher structures|geometric
 
 * Equipped with strictly compatible [[composition]] [[structure]] on cells in any dimension, globular sets model *[[strict ∞-categories]]* (originally often: "[[omega-category|omega-categories]]", see also at *[[complicial sets]]*), historically one of the earliest notions of [[higher category theory]] but too restrictive to be useful for most purposes (in their further restriction to [[strict omega-groupoids]] they [are equivalent](strict+omega-groupoid#RelationToCrossedComplexes) just to [[crossed complexes]]). 
 
-* A more general ([[semi-strict infinity-category|semi-strict]]) notion of [[n-categories|$n$-categories]] modeled on globular sets are known as *[[associative n-category|associative $n$-categories]]*, see there for more, and see a corresponding [[proof assistant]]: *[[Globular]]*.
+* A more general ([[semi-strict infinity-category|semi-strict]]) notion of [[n-categories|$n$-categories]] modeled on globular sets are known as *[[associative n-category|associative $n$-categories]]*, see there for more, and see a corresponding [[proof assistant]]: *[[homotopy.io]]* (previously: *[[Globular]]*).
 
 
 
@@ -245,7 +246,7 @@ Globular sets may be used as a [[geometric shape for higher structures|geometric
 
   * [[semisimplicial set]]
 
-* [[strict infinity-category]], [[strict omgega-groupoid]]
+* [[strict infinity-category]], [[strict omega-groupoid]]
 
 * [[associative n-category]], [[Globular]]
 
@@ -268,7 +269,7 @@ See also
 
 The definition of globular set, without using that term, is in 2.2 and 2.3 of the following paper: 
 
-* [[Ronnie Brown]] and Philip J. Higgins, *The equivalence of $\infty$-groupoids and crossed  complexes*,  Cah. Top. G\'eom. Diff. 22 (1981) 371-386.
+* [[Ronnie Brown]], [[Philip J. Higgins]], *The equivalence of $\infty$-groupoids and crossed  complexes*,  Cah. Top. G\'eom. Diff. 22 (1981) 371-386.
 
 
 [[!redirects globular set]]
