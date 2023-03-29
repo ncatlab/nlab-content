@@ -9,7 +9,10 @@ On [[E-infinity spaces|$E_\infty$-spaces]] and [[E-infinity ring spectra|$E_\inf
 
 * [[Peter May]] with contributions by [[Frank Quinn]], [[Nigel Ray]] and [[Jørgen Tornehave]], _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
 
+On [[TQFT]] and [[HQFT]]:
 
+
+* {#Quinn95} [[Frank Quinn]], *Lectures on axiomatic topological quantum field theory*, in [[Dan Freed]], [[Karen Uhlenbeck]] (eds.) *Geometry and Quantum Field Theory* **1** (1995) &lbrack;[doi:10.1090/pcms/001](https://doi.org/10.1090/pcms/001)&rbrack;
 
 On the relation between the practice of [[mathematics]] and [[physics]] (for historical context see [Hitchin 20, Sec. 8](Michael+Atiyah#Hitchin20)):
 
@@ -28,7 +31,9 @@ On rigorous [[mathematics]] and [[formal proof]]:
 
 ## Related $n$Lab entries
 
-* [[TQFT]],
+* [[TQFT]]
+
+* [[TQFT]]
 
 category: people
 
