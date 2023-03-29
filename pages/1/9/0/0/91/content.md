@@ -23,7 +23,8 @@
 
 Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
-They are one of the major [[geometric shapes for higher structures]]: if they satisfy a globular [[Segal condition]] then they are equivalent to [[strict ∞-categories]]. 
+
+Globular sets have been used as a [[geometric shape for higher structures]]: when equipped with suitable [[composition]] operation on their cells they model a notion of [[strict ∞-categories]]. 
 
 
 
