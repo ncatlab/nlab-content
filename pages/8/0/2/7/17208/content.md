@@ -1002,6 +1002,10 @@ Textbook accounts:
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Exp. 14.22 of: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
 
+In the context of [[quantum state spaces]]:
+
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapter 4 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
 
 See also
 
