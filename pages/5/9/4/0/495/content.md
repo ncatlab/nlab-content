@@ -83,7 +83,7 @@ If $E$ is internally projective, then given an epimorphism $A\to I\times E$ as a
 
 Conversely, suppose the above condition holds, and let $e:B\to A$ be an epimorphism in $\mathcal{T}/E$.  Let $I = \Pi_E(A)$, and let $C$ be the pullback of $e$ along the counit $\Pi_E(A) \times E\to A$.  Then $\Pi_E(B)$ is equivalently $\Pi_{pr_1}(C)$, where $pr_1:I \times E \to I$ is the projection.
 
-Morevoer, $C \to I\times E$ is epi, so by assumption there is an epi $p:J\to I$ such that $(p\times id)^*C \to J\times E$ is split.  Since pullback along epis reflects epis, it suffices to show that $p^* \Pi_{pr_1}(C)$ is split.  However, we have a pullback square
+Moreover, $C \to I\times E$ is epi, so by assumption there is an epi $p:J\to I$ such that $(p\times id)^*C \to J\times E$ is split.  Since pullback along epis reflects epis, it suffices to show that $p^* \Pi_{pr_1}(C)$ is split.  However, we have a pullback square
 $$ \array{
   J\times E & \to & I\times E \\
   ^{pr_1}\downarrow & & \downarrow^{pr_1} \\
@@ -92,7 +92,7 @@ $$ \array{
 so by the [[Beck-Chevalley condition]], $p^* \Pi_{pr_1}(C)$ is equivalently $\Pi_{pr_1}(p\times id)^* C$.  But $(p\times id)^*C$ is split, and all functors preserve split epis.
 =--
 
-Note that Lemma 4.5.3(iii) of [[Sketches of an Elephant]] is the special case of the above stack-semantics version of internal projectivity when $I=1$.  This is insufficient for the implication (iii)$\Rightarrow$(ii) of that lemma to hold, since if so, then every projective object would be internally projective, which as we show below is not the case.
+Note that Lemma D4.5.3(iii) of [[Sketches of an Elephant]] is the special case of the above stack-semantics version of internal projectivity when $I=1$.  This is insufficient for the implication (iii)$\Rightarrow$(ii) of that lemma to hold, since if so, then every projective object would be internally projective, which as we show below is not the case.
 
 
 ## Projectivity versus internal projectivity
