@@ -25,9 +25,37 @@
 
 ## Idea
 
-Linear logic is sometimes thought of as being a logic for arguing about resource sensitive issues, but it can also be thought of categorically, or interpreted using Game Semantics, or as being related to Petri nets, or as a particular form of [[quantum logic]]. A bit more formally: 
-
 **Linear logic** is a [[substructural logic]] in which the [[contraction rule]] and the [[weakening rule]] are omitted, or at least have their applicability restricted.  
+
+Notice that these are the two [[inference rules]] which exhibit [[context extensions]] $\Gamma, T$ as admitting a [[diagonal map]] and [[projection]] maps, respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times T$:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/WeakeningContractionRules-230330b.jpg" width="600">
+</center>
+
+Therefore, if these rules are dropped then the resulting [[multiplicative conjunction]] $\otimes$ of contexts may still have [[categorical semantics|interpretation]] as a [[symmetric monoidal category|symmetric monoidal]] [[tensor product]] (such as known from the [[tensor product of vector spaces]]) but not necessarily as a [[cartesian monoidal category|cartesian monoidal]] [[product]] (such as known from the [[topological product space|product of topological spaces]]).
+
+Accordingly, if [[implication]] still follows the usual [[inference rule]] of [[function types]] but now with respect to a non-cartesian [[multiplicative conjunction]] $\otimes$
+
+$$
+  \frac{
+    \Gamma \otimes P 
+      \;\;\vdash\;\; 
+    t_p \,\colon\, T
+  }
+  {
+    \Gamma 
+      \;\;\vdash\;\; 
+    (p \mapsto t_p) 
+      \,\colon\, 
+    P \multimap T
+  }
+$$
+
+etc., then the [[function type]] $P \multimap T$ may be [[categorical semantics|interpreted]] as an [[internal hom]]
+in a non-[[cartesian closed category|cartesian]] [[closed monoidal category]] such as that of [[finite-dimensional vector spaces]], in which case the [[terms]] $\Gamma \vdash f \colon P \multimap T$ [[categorical semantics|interpret]] as *[[linear functions]]*, whence the [[logical connective]] "\multimap" is also called *[[linear implication]]*.
+
+
 
 In the original definition of ([Girard 87](#Girard)) linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton--Bierman--de Paiva--Hyland 92](#BentonBiermanPaivaHyland92), [Hyland--de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly–Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
 
@@ -35,8 +63,10 @@ Indeed, these more general senses of linear logic still faithfully follow the or
 
 In addition to these usual "denotational" categorical semantics, linear logic also has an "operational" categorical semantics, called the _[[Geometry of Interaction]]_, in [[traced monoidal categories]].
 
-Although linear logic is traditionally presented in terms of inference rules, it was apparently discovered by Girard while studying [[coherence
-spaces]].
+Although linear logic is traditionally presented in terms of [[inference rules]], it was apparently discovered by Girard while studying [[coherence spaces]].
+
+Linear logic is sometimes thought of as being a logic for arguing about resource sensitive issues, but it can also be thought of categorically, or interpreted using Game Semantics, or as being related to Petri nets, or as a particular form of [[quantum logic]]. A bit more formally: 
+
 
 ### Quantum logic
 
