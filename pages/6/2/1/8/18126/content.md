@@ -265,7 +265,7 @@ or is content with ignoring the motivation coming from analysis should skip righ
 
 A _[[metric space]]_ is
 
-1. a [[set]] $X$ (the "underlying set");
+1. a [[set]] $X$ (the "[[underlying]] set");
 
 1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]]
 
@@ -18096,5 +18096,4 @@ Detailed discussion of the [[Hausdorff reflection]] is in
 ## Index
 
 [[!include topology - contents]]
-
 
