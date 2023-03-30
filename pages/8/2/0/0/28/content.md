@@ -1245,11 +1245,11 @@ For instance
 
 * For $\mathcal{C} = $ [[Vect]] then $Core(Vect)$ is the groupoid of [[vector spaces]] and [[linear map|linear]] [[bijections]] between them.
 
-  For $\mathcal{C} = $ [[FinVect]] then the [[skeleton]] of this groupoid is the disjoint union of delooping of all the
+  For $\mathcal{C} = $ [[FinDimVect]] then the [[skeleton]] of this groupoid is the disjoint union of delooping of all the
   [[general linear groups]]
 
   $$
-    Core(FinVect) \simeq \underset{n \in \mathbb{N}}{\sqcup} GL(n)
+    Core(FinDimVect) \simeq \underset{n \in \mathbb{N}}{\sqcup} GL(n)
     \,.
   $$
 
