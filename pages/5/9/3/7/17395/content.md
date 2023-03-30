@@ -9,7 +9,7 @@
 
 ## General description
 
-There are a number of logics that have been considered in the context of "relevance".  Many of them can, at least roughly, be regarded as [[substructural logics]] like [[linear logic]].  Unlike linear logic, most relevance logics permit the [[contraction rule]], but not the [[weakening rule]].  Thus in a sense they are the "dual" of [[affine logic]] which permits weakening but not contraction.
+There are a number of logics that have been considered in the context of "relevance".  Many of them can, at least roughly, be regarded as [[substructural logics]] like [[linear logic]].  Unlike linear logic, most relevance logics permit the [[contraction rule]], but not the [[weakening rule]].  Thus in a sense they are the "dual" (or complement) of [[affine logic]] which permits weakening but not contraction.
 
 Generally speaking, most relevance logics contain the following [[logical connectives]]:
 
