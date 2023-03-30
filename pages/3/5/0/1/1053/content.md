@@ -18,6 +18,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -31,9 +32,18 @@
 
 Notice that [[contraction rule|contraction]] and [[weakening rule|weakening]] are the two [[inference rules]] which exhibit [[context extensions]] $\Gamma \,\mapsto\, \Gamma, P$ as admitting a [[diagonal map]] and [[projection]] maps, respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times P$:
 
-<center>
-<img src="https://ncatlab.org/nlab/files/WeakeningContractionRules-230330c.jpg" width="600">
-</center>
+
+\begin{imagefromfile}
+    "file_name": "WeakeningContractionRules-230330d.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 
 Therefore, when these [[inference rules]] are dropped then the resulting [[multiplicative conjunction]] $\otimes$ of contexts may still have [[categorical semantics|interpretation]] as a [[symmetric monoidal category|symmetric monoidal]] [[tensor product]] (such as known from the [[tensor product of vector spaces]]) but not necessarily as a [[cartesian monoidal category|cartesian monoidal]] [[product]] (such as known from the [[topological product space|product of topological spaces]]).
