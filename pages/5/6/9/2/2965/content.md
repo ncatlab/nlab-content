@@ -65,8 +65,9 @@ These results can all be generalized to [[enriched categories]], and also relati
   
 The results of Chorny--Dwyer are cited by Rosický in 
 
-* [[Jiří Rosický]] _Accessible categories and homotopy theory_, lecture notes for the Summer School on Contemporary Categorical Methods in Algebra
-and Topology (2007) [pdf](https://www.math.muni.cz/~rosicky/papers/homacc3.pdf)
+* [[Jiří Rosický]], _Accessible categories and homotopy theory_, lecture notes for the Summer School on Contemporary Categorical Methods in Algebra and Topology (2007) [pdf](https://www.math.muni.cz/~rosicky/papers/homacc3.pdf)
+
+See also
 
 * [[Boris Chorny]], David White, _Homotopy theory of homotopy presheaves_. [arXiv:1805.05378](https://arxiv.org/abs/1805.05378).
 
