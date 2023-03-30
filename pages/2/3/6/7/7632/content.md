@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +22,9 @@
 **Substructural logic** is a general term for [[logic]]s in which the *[[structural rules]]*:
 
 * the [[contraction rule]]
+
 * the [[weakening rule]]
+
 * the [[exchange rule]]
 
 are not necessarily allowed, or are only allowed with restrictions.
@@ -20,6 +35,11 @@ Some particular substructural logics include:
 * [[affine logic]] omits only the contraction rule.  One might call it "coaffine logic" if we omit only the weakening rule.
 * Some forms of [[relevant logic]] and [[paraconsistent logic]] can be regarded as substructural logics (often of the coaffine variety).
 
+## Related concepts
+
+* [[bunched logic]]
+
+* [[structural rules]]
 
 ## References
 
