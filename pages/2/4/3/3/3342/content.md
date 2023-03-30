@@ -214,14 +214,14 @@ The observation that [[causal perturbation theory]] yields [[quantum observables
 
 
 
-An introduction into Tomita-Takesaki modular theory is here:
+An introduction into [[Tomita-Takesaki modular theory]]:
 
 * Stephen J. Summers: "Tomita-Takesaki Modular Theory" ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0511034))
 
-...while a paper that puts it to serious work is this:
+and on its role in AQFT:
 
-* H.J. Borchers: "On Revolutionizing of Quantum Field Theory
-with Tomita's Modular Theory", ([ESI preprint page] (http://www.esi.ac.at/preprints/ESI-Preprints.html))
+* [[Hans-Jürgen Borchers]], *On Revolutionizing of Quantum Field Theory with Tomita's Modular Theory*, ESI Preprint 773 (1999) &lbrack;[pdf](https://www.mat.univie.ac.at/~esiprpr/esi773.pdf)&rbrack; 
+
 
 A discussion of how the Haag-Kastler axioms (those concerning locality) follow from an extended [[FQFT]] with Lorentzian structure is in 
 
