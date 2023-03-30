@@ -113,7 +113,8 @@ and
 
 Reference:
 
-* H.J. Borchers, Jakob Yngvason: "From quantum fields to local von Neumann algebras", Rev.Math.Phys. Special issue, 1992, p.15-47.
+* [[Hans-Jürgen Borchers]], [[Jakob Yngvason]], *From quantum fields to local von Neumann algebras*, Rev. Math. Phys. **4** spec01 (1992) 15-47 &lbrack;[doi:10.1142/S0129055X92000145](https://doi.org/10.1142/S0129055X92000145)&rbrack;
+
 
 +--{: .query}
 
