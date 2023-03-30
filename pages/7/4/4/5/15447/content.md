@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[vector space]] is _finite-dimensional_ if it admits a [[finite set|finite]] [[basis]]. The category [[FinVect]] of finite-dimensional vector spaces is of course the [[full subcategory]] of [[Vect]] whose objects are finite-dimensional. 
+A [[vector space]] is _finite-dimensional_ if it admits a [[finite set|finite]] [[basis]]. The category [[FinDimVect]] of finite-dimensional vector spaces is of course the [[full subcategory]] of [[Vect]] whose objects are finite-dimensional. 
 
 ## Properties
 
@@ -53,7 +53,7 @@ This means that
 +-- {: .num_prop}
 ###### Proposition
 
-Finite-dimensional vector spaces are exactly the [[compact objects]] of [[Vect]] in the sense of [[locally presentable categories]], but also the compact = [[dualizable objects]] in the sense of [[monoidal category]] theory. In particular the category [[FinVect]] is a [[compact closed category]]. 
+Finite-dimensional vector spaces are exactly the [[compact objects]] of [[Vect]] in the sense of [[locally presentable categories]], but also the compact = [[dualizable objects]] in the sense of [[monoidal category]] theory. In particular the category [[FinDimVect]] is a [[compact closed category]]. 
 
 =--
 
