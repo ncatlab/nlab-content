@@ -83,7 +83,7 @@ Indeed:
 
 1. the absence of the [[contraction rule]] [above](#AbsenceOfWeakeningAndContraction), whose [[categorical semantics]] is the *duplication* of [[data]], exactly reflects the *[[no-cloning theorem]]* of [[quantum physics]]
 
-1. the absence of the [[contraction rule]] [above](#AbsenceOfWeakeningAndContraction), whose [[categorical semantics]] is the *erasure* of [[data]], exactly reflects the [[no-deleting theorem]], 
+1. the absence of the [[weakening rule]] [above](#AbsenceOfWeakeningAndContraction), whose [[categorical semantics]] is the *erasure* of [[data]], exactly reflects the [[no-deleting theorem]], 
 
 1. the non-cartesian [[multiplicative conjunction]] $\otimes$, whose [[categorical semantics]] is given by [[tensor products]] (such as [[tensor product of Hilbert spaces|of Hilbert spaces]]), reflects the existence of [[quantum entanglement|entangled]] [[terms]] &lbrack;[Baez (2004)](#Baez04)&rbrack;. 
 
