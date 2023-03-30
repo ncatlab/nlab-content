@@ -50,10 +50,10 @@ If $\Sigma$ has at least one hole (boundary component), then the [[fundamental g
 A _modular functor_ is a holomorphic functor 
 
 $$
-  E \colon \mathcal{S}_\Phi \longrightarrow sFinVect
+  E \colon \mathcal{S}_\Phi \longrightarrow sVect
 $$
 
-(i.e. a morphism of [[complex analytic stacks]] from the [[Riemann moduli space]] to the stack of [[holomorphic vector bundles]], in general with [[super vector space]]-fibers)
+(i.e. a morphism of [[complex analytic stacks]] from the [[Riemann moduli space]] to the stack of ([[finite number|finite]]-[[rank of a vector bundle|rank]]) [[holomorphic vector bundles]], in general with [[super vector space]]-[[fibers]])
 
 such that
 
