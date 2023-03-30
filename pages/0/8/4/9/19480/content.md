@@ -3822,9 +3822,9 @@ $$
 be an [[adjoint triple]] (Remark \ref{AdjointTriples}) such that $L$ and $R$ are [[fully faithful functors]] (necessarily both, by Prop. \ref{FullyFaithfulAdjointTriple}). By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, there are induced [[modal operators]]
 
 $$
-  \Box \;\coloneqq\; L \circ C
+  \bigcirc \;\coloneqq\; L \circ C
   \phantom{AA}
-  \bigcirc \;\coloneqq\; R \circ C
+  \Box \;\coloneqq\; R \circ C
 $$
 
 which themselves form am [[adjoint pair]]
@@ -3930,10 +3930,10 @@ $$
 be an [[adjoint triple]] with induced [[adjoint modality]] (Def. \ref{AdjointModality}) to be denoted
 
 $$
-  \left( \Box \;\coloneqq\; C \circ L\right)
+  \left( \bigcirc \;\coloneqq\; C \circ L\right)
   \;\dashv\;
   \left(
-    \bigcirc \;\coloneqq\; C \circ R
+    \Box \;\coloneqq\; C \circ R
   \right)
 $$
 
@@ -4001,7 +4001,7 @@ $$
     \\
     & {}^{ L \epsilon^\Box_X }\swarrow
     && \searrow^{ \mathrlap{ L C R \eta^{\bigcirc}_X } }
-    && {}^{\mathllap{ \eta^{\bigcirc}_{R C L X} }}\nearrow
+    && {}^{\mathllap{ \epsilon^{\bigcirc}_{R C L X} }}\nearrow
     && \nwarrow^{ \mathrlap{ \eta^{\Box}_{L X} } }
     \\
     L X
@@ -4065,11 +4065,11 @@ with induced [[adjoint modality]] (Def. \ref{AdjointModality}) to be denoted
 
 $$
   \left( 
-    \Box \;\coloneqq\; C \circ L 
+    \bigcirc \;\coloneqq\; C \circ L 
   \right)
   \;\dashv\;
   \left(
-    \bigcirc \;\coloneqq\; C \circ R 
+    \Box \;\coloneqq\; C \circ R 
   \right)
 $$
 
@@ -4678,7 +4678,7 @@ $$
     \mathcal{C} && \overset{F}{\longrightarrow} &&  \mathcal{D}
     \\
     &
-      {}_{\mathllap{id}}\searrow
+      {}_{\mathllap{L}}\searrow
     &
     {}^{\mathllap{\eta}}\Downarrow
     &
