@@ -30,7 +30,7 @@
 ### Absence of weakening and contraction
  {#AbsenceOfWeakeningAndContraction}
 
-Notice that [[contraction rule|contraction]] and [[weakening rule|weakening]] are the two [[inference rules]] which exhibit [[context extensions]] $\Gamma \,\mapsto\, \Gamma, P$ as admitting a [[diagonal map]] and [[projection]] maps, respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times P$:
+Notice that [[contraction rule|contraction]] and [[weakening rule|weakening]] are the two [[inference rules]] which exhibit [[context extensions]] $\Gamma \,\mapsto\, \Gamma, P$ as admitting [[natural transformation|natural]] [[diagonal map|diagonal]] and [[projection]] [[maps]], respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times P$:
 
 
 \begin{imagefromfile}
