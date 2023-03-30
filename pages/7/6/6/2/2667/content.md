@@ -19,9 +19,11 @@
 
 Classically, a 'Schur functor' is a specific sort of [[functor]] 
 
-$$S: FinVect \to FinVect$$ 
+$$
+  S \,\colon\, FinDimVect \longrightarrow FinDimVect
+$$ 
 
-where [[FinVect]] is the category of [[finite dimensional vector spaces]] over the [[complex numbers]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.  In fact, Schur functors can be defined on a large class of [[categories]] resembling $FinVect$: for example, [[categories of representations]] of a [[group]], or [[vector bundles]], or [[coherent sheaves]].  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be '[[natural transformation|naturally]]' --- or more precisely, '[[pseudonatural transformation|pseudonaturally]]' defined on all [[symmetric monoidal category|symmetric monoidal]] [[linear category|linear]] [[Cauchy complete categories]].
+where [[FinDimVect]] is the category of [[finite dimensional vector spaces]] over the [[complex numbers]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.  In fact, Schur functors can be defined on a large class of [[categories]] resembling [[FinDimVect]]: for example, [[categories of representations]] of a [[group]], or [[vector bundles]], or [[coherent sheaves]].  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be '[[natural transformation|naturally]]' --- or more precisely, '[[pseudonatural transformation|pseudonaturally]]' defined on all [[symmetric monoidal category|symmetric monoidal]] [[linear category|linear]] [[Cauchy complete categories]].
 
 The most famous examples of Schur functors are these:
 
@@ -81,7 +83,7 @@ $$ p_\lambda = p^A_\lambda p^S_\lambda $$
 is idempotent up to a scalar multiple!  
 
 This element $p_\lambda \in \mathbb{C}[S_n]$ is called the **Young symmetrizer** corresponding to the $n$-box Young diagram $\lambda$.   There is a functor, called a **Schur functor**: 
-$$  S_\lambda : FinVect \to FinVect $$
+$$  S_\lambda \colon FinDimVect \to FinDimVect $$
 defined on any finite-dimensional vector space $X$ as follows:
 $$  S_\lambda(X) = p_\lambda X^{\otimes n} $$
 Here we are using the fact that $S_n$, and thus its group algebra, acts on $X^{\otimes n}$.  Thus, $p_\lambda$ acts as an idempotent operator on $X^{\otimes n}$, and $S_\lambda(X)$ as defined above is the range of this operator.
@@ -106,7 +108,7 @@ $$
 These isomorphisms here are natural, so there is no harm in _defining_ the Schur functor $S_\lambda$ by
 $$   S_\lambda(-) = V_\lambda \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} $$
 This formula defines the Schur functor not only on objects but also on morphisms.  Even better, we can use the same formula to define a functor 
-$$  S_R : FinVect \to FinVect $$
+$$  S_R \colon FinDimVect \to FinDimVect $$
 for _any_ representation $R$ of $S_n$, as follows:
 $$   S_R(-) = R \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, . $$
 These more general functors are still called 'Schur functors'.
@@ -126,7 +128,7 @@ $$   S_R(-) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} 
 
 There is a category $Schur$ with
 
-* Schur functors $S_R : FinVect \to FinVect$ as objects.  Here
+* Schur functors $S_R \colon FinDimVect \to FinDimVect$ as objects.  Here
 $$   S_R(-) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, $$
 each $R_n$ is a finite-dimensional representation of $S_n$, and only finitely many of these representations are nonzero.
 
@@ -154,7 +156,7 @@ we can linearize any ordinary species $T$ and obtain a linear species $F \circ T
 
 However, not all $Vect$-valued species corresond to Schur functors, because we have defined Schur functors to arise from _finite_ direct sums of irreducible representations of permutation groups.   So, $Schur$ is equivalent to the category where:
 
-* objects are **polynomial species**: that is, functors $R: core(Fin\Set) \to FinVect$ such that $R(n) = \{0\}$ for all sufficiently large finite sets $n$;
+* objects are **polynomial species**: that is, functors $R: core(Fin\Set) \to FinDimVect$ such that $R(n) = \{0\}$ for all sufficiently large finite sets $n$;
 
 * morphisms are natural transformations.
 
@@ -192,7 +194,7 @@ Mathematicians often work with a decategorified version of $Schur$: its [[Grothe
 
 We have described Schur functors as special functors
 
-$$  F: FinVect \to FinVect  $$
+$$  F \,\colon\, FinDimVect \to FinDimVect  $$
 
 But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts. For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works. More importantly, Schur functors can be applied to any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] ("[[tensor category]]").  Here by **linear category** we mean a category [[enriched category|enriched]] over [[Vect]], the category of vector spaces over $k$.  Such a category is **Cauchy complete** when:
 
@@ -204,7 +206,7 @@ To illustrate the full breadth of this generalization, here are a few examples:
 
 * the category [[Vect]], consisting of vector spaces over any field $k$ of [[characteristic zero]]
 
-* the category [[FinVect]], consisting of [[finite-dimensional vector spaces]] over $k$
+* the category [[FinDimVect]], consisting of [[finite-dimensional vector spaces]] over $k$
 
 * the [[category of representations]] of any [[group]] on vector spaces (or [[finite-dimensional vector spaces]]) over $k$
 
@@ -220,7 +222,7 @@ These examples can be hybridized, and thus they multiply indefinitely: for examp
 
 In the following subsections, we explain how to define Schur functors on any category of this sort.  A somewhat novel feature of our treatment is that we _do not require the theory of Young diagrams_ to define and study Schur functors.  
 
-Our strategy is as follows.  We fix a symmetric monoidal Cauchy complete linear category, $C$. The group algebra $k[S_n]$ begins life as a [[monoid]] in the symmetric monoidal category $FinVect$.   However, we shall explain how interpret it as living in $C$ by a "change of base" functor going from $FinVect$ to $C$.   This will let us use the Young symmetrizers $p_\lambda$ to construct idempotents on $V^{\otimes k}$ for any object $V \in C$.  Splitting these idempotents, we obtain the Schur functors $S_\lambda : C \to C$.
+Our strategy is as follows.  We fix a symmetric monoidal Cauchy complete linear category, $C$. The group algebra $k[S_n]$ begins life as a [[monoid]] in the symmetric monoidal category [[FinDimVect]].   However, we shall explain how interpret it as living in $C$ by a "change of base" functor going from [[FinDimVect]] to $C$.   This will let us use the Young symmetrizers $p_\lambda$ to construct idempotents on $V^{\otimes k}$ for any object $V \in C$.  Splitting these idempotents, we obtain the Schur functors $S_\lambda : C \to C$.
 
 ### Change of base ###
 
@@ -228,13 +230,13 @@ To achieve the desired change of base, let $Mat$ be the linear category whose ob
 
 $$Mat \to C$$ 
 
-which takes $m$ to $I^m$, the direct sum of $m$ copies of the tensor unit $I$. It is the unique linear functor taking $1$ to $I$, up to unique linear isomorphism. In the case $C = FinVect$, the linear functor 
+which takes $m$ to $I^m$, the direct sum of $m$ copies of the tensor unit $I$. It is the unique linear functor taking $1$ to $I$, up to unique linear isomorphism. In the case $C = FinDimVect$, the linear functor 
 
-$$Mat \to FinVect,$$ 
+$$Mat \to FinDimVect,$$ 
 
 taking $1$ to $k$, is a linear equivalence (exhibiting $Mat$ as a [[skeleton]] of $C$). Because of this equivalence, we could equally well say that there is a linear functor 
 
-$$i: FinVect \to C$$ 
+$$i \colon FinDimVect \to C$$ 
 
 which, up to unique linear isomorphism, is the unique linear functor taking $k$ to $I$. Notice that a [[symmetric monoidal functor]] of this form must take the tensor unit $k$ to $I$ (up to coherent isomorphism, as always), and in fact $i$ is symmetric monoidal, because there is a canonical isomorphism
 
@@ -247,7 +249,7 @@ In summary, we have the following proposition.
 +-- {: .num_prop}
 ######Proposition 
 There is exactly one symmetric monoidal linear functor 
-$i: FinVect \to C$, up to symmetric monoidal linear isomorphism. 
+$i \colon FinDimVect \to C$, up to symmetric monoidal linear isomorphism. 
 =--
 
 ### The action of Young symmetrizers ###
@@ -268,7 +270,7 @@ The key step is to apply base change to $k[S_n]$.   Here we exploit the fact tha
 
 $$   k[S_n] = \bigoplus_{\sigma \in S_n}  k $$
 
-is a [[monoid]] in the monoidal category $FinVect$.  Since $i : FinVect \to C$ is a monoidal functor, it follows that $i$ carries $k[S_n]$ to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  As an object of $C$, we have
+is a [[monoid]] in the monoidal category [[FinDimVect]].  Since $i \colon FinDimVect \to C$ is a [[monoidal functor]], it follows that $i$ carries $k[S_n]$ to a [[monoid object]] in $C$, which we again call $k[S_n]$ by abuse of notation.  As an object of $C$, we have
 
 \[  k[S_n] \cong \bigoplus_{\sigma \in S_n}  I  \label{sum} \]
 
@@ -350,7 +352,7 @@ S_{\lambda, D} (G X) = V_{\lambda, D} \otimes_{S_n} (G X)^{\otimes n} & \cong & 
  & \cong & G(S_{\lambda, C}(X))
 }$$ 
 
-where the first isomorphism uses the symmetric monoidal structure of $G$; the second uses the fact that $V_{\lambda, D} \cong G(V_{\lambda, C})$ because there is, up to isomorphism, only one symmetric monoidal linear functor $FinVect \to D$; the third uses the symmetric monoidal structure again and preservation of idempotent splittings. 
+where the first isomorphism uses the symmetric monoidal structure of $G$; the second uses the fact that $V_{\lambda, D} \cong G(V_{\lambda, C})$ because there is, up to isomorphism, only one symmetric monoidal linear functor $FinDimVect \to D$; the third uses the symmetric monoidal structure again and preservation of idempotent splittings. 
 
 If $R$ is any representation, then by writing $R$ as a direct sum of irreducible representations $V_\lambda$ and using the fact that $G$ preserves direct sums, we have more generally 
 
@@ -550,7 +552,7 @@ so that $\widebar{k \mathbb{P}}$ is the representing object.
 
 Let us now calculate $\widebar{k \mathbb{P}}$. In general, the linear Cauchy completion of a linear category $C$ consists of the full subcategory of linear presheaves $C^{op} \to Vect$ that are obtained as retracts of finite direct sums of representables $C(-, c): C^{op} \to Vect$.  In the case $C = k\mathbb{P}$, these are the functors 
 
-$$F: \mathbb{P}^{op} \to FinVect$$ 
+$$F \colon \mathbb{P}^{op} \to FinDimVect$$ 
 
 where $F(n) = 0$ for large enough $n$.  For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \cdots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
 
@@ -558,7 +560,7 @@ So, inspired by Joyal's work on [[combinatorial species]], we make the following
 
 +-- {: .num_defn}
 ######Definition 
-A **polynomial species** is a functor $F: \mathbb{P}^{op} \to FinVect$ where $F(n) = 0$ for all sufficiently large $n$.  A morphism of polynomial species is a natural transformation between such functors.
+A **polynomial species** is a functor $F: \mathbb{P}^{op} \to FinDimVect$ where $F(n) = 0$ for all sufficiently large $n$.  A morphism of polynomial species is a natural transformation between such functors.
 
 =--
 
@@ -607,14 +609,14 @@ In other words,
 
 +-- {: .num_theorem}
 ######Theorem 
-The category $Schur$ is equivalent to the category of polynomial species $\mathbb{P}^{op} \to FinVect$. 
+The category $Schur$ is equivalent to the category of polynomial species $\mathbb{P}^{op} \to FinDimVect$. 
 =-- 
 
 NB: This theorem refers only to the underlying category $U(\overline{k\mathbb{P}})$. In other words, this category certainly has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
 
 ## Composition of Schur functors ##
 
-Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence of the preceding theorem to a monoidal structure on the underlying category of Schur functors, or equivalently, polynomial species $\mathbb{P}^{op} \to FinVect$. We proceed to analyze this monoidal structure. 
+Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence of the preceding theorem to a monoidal structure on the underlying category of Schur functors, or equivalently, polynomial species $\mathbb{P}^{op} \to FinDimVect$. We proceed to analyze this monoidal structure. 
 
 It may be easier to do this in reverse.  Any Schur functor may regarded as a functor
 
@@ -642,7 +644,7 @@ It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for $n \gt (deg G)(de
 
 +-- {: .num_prop}
 ######Proposition 
-The product $\boxtimes$ makes the category of polynomial species into a monoidal category. The unit for this product is polynomial species $X$ given by the representable $\mathbb{P}(-, 1): \mathbb{P}^{op} \to FinVect$. 
+The product $\boxtimes$ makes the category of polynomial species into a monoidal category. The unit for this product is polynomial species $X$ given by the representable $\mathbb{P}(-, 1): \mathbb{P}^{op} \to FinDimVect$. 
 =-- 
 
 +-- {: .proof}
@@ -733,7 +735,7 @@ The first thing that should be understood from the beginning is that a general S
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
-is not assumed to respect the linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums (that is, [[biproduct|biproducts]], it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect$. 
+is not assumed to respect the linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums (that is, [[biproduct|biproducts]], it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinDimVect$. 
 
 =--
 
@@ -743,7 +745,7 @@ is not assumed to respect the linear structure. In fact, linear Schur functors a
 
 ### Modules over a bimonoid ###
 
-Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a [[bialgebra]] --- or in fancier language, a  [[bimonoid]] in the [[symmetric monoidal category]] [[FinVect]]${}_k$.  Since $i \colon FinVect_k \to C$ is a [[symmetric monoidal functor]], this means that $i$ carries $k[S_n]$ to a  bimonoid in $C$.  As noted above, we call this bimonoid by the same name, $k[S_n]$.
+Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a [[bialgebra]] --- or in fancier language, a  [[bimonoid]] in the [[symmetric monoidal category]] [[FinDimVect]]${}_k$.  Since $i \colon FinDimVect_k \to C$ is a [[symmetric monoidal functor]], this means that $i$ carries $k[S_n]$ to a  bimonoid in $C$.  As noted above, we call this bimonoid by the same name, $k[S_n]$.
 
 The [[category of modules]] over a [[bimonoid]] is a [[monoidal category]]. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
 
