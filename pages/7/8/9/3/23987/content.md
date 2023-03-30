@@ -1306,7 +1306,7 @@ Stone-von Neumann**
 
 \linebreak
 
-* [[João Faria Martins]] (Leeds University, UK)
+* {#MartinsMar2023} [[João Faria Martins]] (Leeds University, UK)
 
   **Quinn Finite Total Homotopy TQFT as a once-extended TQFT**
 
