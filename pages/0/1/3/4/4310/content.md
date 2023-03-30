@@ -1,4 +1,9 @@
-##The idea##
+
+#Contents#
+* table of contents
+{:toc}
+
+## The idea
 
 Just as a [[bimonoid]] is both a [[monoid]] and a [[comonoid]] in a compatible way, a 'biring' is both a commutative [[ring]] and a commutative [[coring]] in a compatible way.
 
@@ -44,9 +49,9 @@ The most important example of a biring is $\Lambda$, the ring of [[symmetric pol
 
 The biring $\Lambda$ is the [[Grothendieck group]] of the category of [[Schur functors]], which is equivalent to the [[functor category]]
 
-$$[\mathbb{P}, FinVect] $$
+$$[\mathbb{P}, FinDimVect] $$
 
-where $\mathbb{P}$ is the [[permutation groupoid]] and $FinVect$ is the category of finite-dimensional [[vector spaces]] over a field $k$ of characteristic zero.  $\Lambda$ is also the Grothendieck group of 
+where $\mathbb{P}$ is the [[permutation groupoid]] and [[FinDimVect]] is the category of [[finite-dimensional vector spaces]] over a [[field]] $k$ of [[characteristic zero]].  $\Lambda$ is also the [[Grothendieck group]] of 
 
 $$[\mathbb{P}, Vect ]$$
 
