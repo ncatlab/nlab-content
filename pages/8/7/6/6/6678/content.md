@@ -45,9 +45,9 @@ An exposition and motivation by means of the simple case of a quantum particle i
 
 * {#BonneauFarautValent01} Guy Bonneau, Jacques Faraut, Galliano Valent, _Self-adjoint extensions of operators and the teaching of quantum mechanics_, [arXiv:quant-ph/0103153](http://arxiv.org/abs/quant-ph/0103153)
 
-A discussion in the context of [[AQFT]] is in 
+A discussion in the context of [[local nets of observables]] in [[algebraic quantum field theory]]: 
 
-* H. J. Borchers,  Jakob Yngvason, _Local nets and self-adjoint extensions of quantum field operators_ , Letters in mathematical physics ([web](http://adsabs.harvard.edu/abs/1991LMaPh..21..151B))
+*  [[Hans-Jürgen Borchers]], [[Jakob Yngvason]], *Local nets and self-adjoint extensions of quantum field operators*, Letters in Mathematical Physics, **21** (1991) 151–155 &lbrack;[doi:10.1007/BF00401649](https://doi.org/10.1007/BF00401649)&rbrack;
 
 Applications to [[quantum field theory]] of [[anyons]] is discussed in
 
