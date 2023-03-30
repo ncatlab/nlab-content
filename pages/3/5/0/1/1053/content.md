@@ -1,5 +1,4 @@
 
-> For the use of "categorical"/"categorial" below, see at _[[categorical semantics]]_ the section on [Terminology](categorical+semantics#Terminology).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -27,13 +26,17 @@
 
 **Linear logic** is a [[substructural logic]] in which the [[contraction rule]] and the [[weakening rule]] are omitted, or at least have their applicability restricted.  
 
-Notice that these are the two [[inference rules]] which exhibit [[context extensions]] $\Gamma, T$ as admitting a [[diagonal map]] and [[projection]] maps, respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times T$:
+### Absence of weakening and contraction
+ {#AbsenceOfWeakeningAndContraction}
+
+Notice that [[contraction rule|contraction]] and [[weakening rule|weakening]] are the two [[inference rules]] which exhibit [[context extensions]] $\Gamma \,\mapsto\, \Gamma, P$ as admitting a [[diagonal map]] and [[projection]] maps, respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times P$:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/WeakeningContractionRules-230330b.jpg" width="600">
+<img src="https://ncatlab.org/nlab/files/WeakeningContractionRules-230330c.jpg" width="600">
 </center>
 
-Therefore, if these rules are dropped then the resulting [[multiplicative conjunction]] $\otimes$ of contexts may still have [[categorical semantics|interpretation]] as a [[symmetric monoidal category|symmetric monoidal]] [[tensor product]] (such as known from the [[tensor product of vector spaces]]) but not necessarily as a [[cartesian monoidal category|cartesian monoidal]] [[product]] (such as known from the [[topological product space|product of topological spaces]]).
+
+Therefore, when these [[inference rules]] are dropped then the resulting [[multiplicative conjunction]] $\otimes$ of contexts may still have [[categorical semantics|interpretation]] as a [[symmetric monoidal category|symmetric monoidal]] [[tensor product]] (such as known from the [[tensor product of vector spaces]]) but not necessarily as a [[cartesian monoidal category|cartesian monoidal]] [[product]] (such as known from the [[topological product space|product of topological spaces]]).
 
 Accordingly, if [[implication]] still follows the usual [[inference rule]] of [[function types]] but now with respect to a non-cartesian [[multiplicative conjunction]] $\otimes$
 
@@ -53,36 +56,58 @@ $$
 $$
 
 etc., then the [[function type]] $P \multimap T$ may be [[categorical semantics|interpreted]] as an [[internal hom]]
-in a non-[[cartesian closed category|cartesian]] [[closed monoidal category]] such as that of [[finite-dimensional vector spaces]], in which case the [[terms]] $\Gamma \vdash f \colon P \multimap T$ [[categorical semantics|interpret]] as *[[linear functions]]*, whence the [[logical connective]] "\multimap" is also called *[[linear implication]]*.
+in a non-[[cartesian closed category|cartesian]] [[closed monoidal category]] with [[symmetric monoidal category|symmetric monoidal]] *[[tensor product]]* $\otimes$ --- such as the category  of [[finite-dimensional vector spaces]], in which case the [[terms]] $\Gamma \vdash f \colon P \multimap T$ [[categorical semantics|interpret]] as *[[linear functions]]* --- whence the [[logical connective]] "$\multimap$" is also called *[[linear implication]]*.
 
+Which exact flavour of [[monoidal category]] provides [[categorical semantics]] for linear logic depends on exactly which further [[inference rules]] are considered (see also at *[[bunched logic]]*):
+In the original definition of [Girard (1987)](#Girard), linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton--Bierman--de Paiva--Hyland 92](#BentonBiermanPaivaHyland92), [Hyland--de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly–Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
 
+Indeed, these more general senses of linear logic still faithfully follow the original motivation for the term "linear" as connoting "resource availability" explained [below](#ResourceAvailability), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
 
-In the original definition of ([Girard 87](#Girard)) linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton--Bierman--de Paiva--Hyland 92](#BentonBiermanPaivaHyland92), [Hyland--de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly–Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
-
-Indeed, these more general senses of linear logic still faithfully follow the original motivation for the term "linear" as connoting "resource availability" explained below (and in [Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
-
-In addition to these usual "denotational" categorical semantics, linear logic also has an "operational" categorical semantics, called the _[[Geometry of Interaction]]_, in [[traced monoidal categories]].
+In addition to these usual "[[denotational semantics|denotational]]" categorical semantics, linear logic also has an "[[operational semantics|operational]]" categorical semantics, called the _[[Geometry of Interaction]]_, in [[traced monoidal categories]].
 
 Although linear logic is traditionally presented in terms of [[inference rules]], it was apparently discovered by Girard while studying [[coherence spaces]].
 
-Linear logic is sometimes thought of as being a logic for arguing about resource sensitive issues, but it can also be thought of categorically, or interpreted using Game Semantics, or as being related to Petri nets, or as a particular form of [[quantum logic]]. A bit more formally: 
 
 
-### Quantum logic
+### As a quantum logic
+ {#AsAQuantumLogic}
 
-Linear logic and [[linear type theory]] can be argued to be the proper incarnation of _[[quantum logic]]_ (see there for references). In this context the linearity of the logic, hence the absence of [[diagonal]] maps in its [[categorical semantics]] (in non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]]) reflects the _[[no-cloning theorem]]_ of [[quantum physics]].
+With the archetypical [[categorical semantics]] of linear logic in the [[compact closed category]] of [[finite dimensional vector spaces]] in mind, which is the habitat of [[quantum information theory]] (see [[quantum information theory via dagger-compact categories|there]] for more), one may naturally understand linear logic as a form of [[quantum logic]] &lbrack;[Pratt (1992)](#Pratt92)&rbrack; and in its natural [[propositions as types|enhancement]] to [[linear type theory]] also as a [[quantum circuit]]-[[quantum programming language|language]] &lbrack;[Abramsky & Duncan (2006)](#AbramskyDuncan06); [Duncan (2006)](#Duncan06)&rbrack;.
 
-### Resource availability
+> &lbrack;[Dal Lago & Faggian (2012)](#DalLagoFaggian12)&rbrack;: "It’s more and more clear that strong relationships exist between [[linear logic]] and [[quantum computation]]. This seems to go well beyond the easy observation that the intrinsic resource-consciousness of
+linear logic copes well with the [[no-cloning theorem|impossibility of cloning and erasing]] qubits."
 
-Unlike traditional [[logics]], which deal with the _[[truth]]_ of
-_[[propositions]]_, linear logic is often described as dealing
-with the _availability_ of _resources_.  A proposition, if it is
-true, remains true no matter how we use that fact in proving
-other propositions.  By contrast, in using a resource $A$ to
-make available a resource $B$, $A$ itself may be consumed or
+> &lbrack;[Staton (2015), p. 1](#Staton15)&rbrack;: "A [[quantum programming language]] captures the ideas of [[quantum computation]] in a [[linear type theory]]." 
+
+Indeed:
+
+1. the absence of the [[contraction rule]] [above](#AbsenceOfWeakeningAndContraction), whose [[categorical semantics]] is the *duplication* of [[data]], exactly reflects the *[[no-cloning theorem]]* of [[quantum physics]]
+
+1. the absence of the [[contraction rule]] [above](#AbsenceOfWeakeningAndContraction), whose [[categorical semantics]] is the *erasure* of [[data]], exactly reflects the [[no-deleting theorem]], 
+
+1. the non-cartesian [[multiplicative conjunction]] $\otimes$, whose [[categorical semantics]] is given by [[tensor products]] (such as [[tensor product of Hilbert spaces|of Hilbert spaces]]), reflects the existence of [[quantum entanglement|entangled]] [[terms]] &lbrack;[Baez (2004)](#Baez04)&rbrack;. 
+
+Historically, linear logic was not explicitly motivated as a  [[quantum logic]] this way, but as a logic keeping track of "*resource availability*" (see [below](#ResourceAvailability)), where (again due to the absence of the [[contraction rule]]) a [[variable]] could, a priori, be "only used once" and in fact (due to the absence of the [[weakening rule]]) "exacty once". However, meanwhile the resource concept has also (independently) penetrated [[quantum information theory]] (for example, the [[quantum teleportation]]-protocol uses [[Bell states]] as a resource that allow for and are consumed by  the intended "teleportation" operation), see the references [there](quantum+information#ReferencesQuantumResources).
+
+
+
+### As a logic of resource availability
+ {#ResourceAvailability}
+
+Unlike many traditional formal systems of [[logic]], which deal with the _[[truth]]_ of _[[propositions]]_, linear logic is often described and was originally motivated &lbrack;[Girard (1987)](#Girard87)&rbrack; as dealing with the _availability_ of _resources_.  
+
+A proposition, if it is true, remains true no matter how we use that fact in proving other propositions.  By contrast, in using a resource $A$ to make available a resource $B$, $A$ itself may be consumed or
 otherwise modified.  Linear logic deals with this by
 restricting our ability to duplicate or discard resources
-freely.  For example, we have
+freely.  
+
+
+
+For example:
+
+> Let's please add a better example!
+
+We have
 
 $$\text{have cake} \vdash \text{eat cake}$$
 
@@ -95,9 +120,7 @@ which by left [[contraction rule|contraction]] (duplication of inputs) in [[clas
 
 $$\text{have cake} \vdash \text{have cake} \wedge \text{eat cake}$$
 
-Linear logic would disallow the contraction step and treat
-$\text{have cake},\; \text{have cake} \vdash A$ as explicitly
-meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corresponds to the fact that we can't turn one slice of cake into two (more's the pity), so you can\'t have your cake and eat it too.
+Linear logic would disallow the [[contraction rule|contraction]] step and treat $\text{have cake},\; \text{have cake} \vdash A$ as explicitly meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corresponds to the fact that we can't turn one slice of cake into two (more's the pity), so you can\'t have your cake and eat it too.
 
 
 ### Game semantics
@@ -110,10 +133,10 @@ means roughly that if I am playing three simultaneous games of $P$, $Q$, and $R$
 
 For example, $P \vdash P$ can be won by using the copycat strategy where one makes the two games identical except with left and right players reversed.
 
-### As a relevant logic
 
-Linear logic is closely related to notions of [[relevant logic]], which have been studied for much longer.  The goal of relevant logic is to disallow statements like "if pigs can fly, then grass is green" which are true, under the usual logical interpretation of [[implication]], but in which the hypothesis has nothing to do with the conclusion.  Clearly there is a relationship with the "resource semantics": if we want to require that all hypotheses are "used" in a proof then we need to disallow weakening.
+### As a relevance logic
 
+Linear logic is closely related to notions of [[relevance logic]], which have been studied for much longer.  The goal of relevance logic is to disallow statements like "if pigs can fly, then grass is green" which are true, under the usual logical interpretation of [[implication]], but in which the hypothesis has nothing to do with the conclusion.  Clearly there is a relationship with the "resource semantics": if we want to require that all hypotheses are "used" in a proof then we need to disallow weakening.
 
 
 
@@ -160,7 +183,7 @@ However, the connectives and constants can also be grouped in different ways.  F
 
 But conversely, the natural grouping by multiplicative/additive, or equivalently by de Morgan dual pairs, has led many authors to alter Girard's notation, in particular reverting to the category-theoretic $\times$ and $+$ for the additives $\&$ and $\oplus$, and introducing a different symbol such as $\odot$, $\bullet$ or (confusingly) $\oplus$ for Girard's $\parr$.  But on this page we will stick to Girard's conventions for consistency.
 
-In [[relevant logic]], the terms "conjunction" and "disjunction" are often reserved for the additive versions $\&$ and $\oplus$, which are written with the traditional notations $\wedge$ and $\vee$.  In this case, the multiplicative conjunction $A\otimes B$ is called **fusion** and denoted $A\circ B$, while the multiplicative disjunction $A\parr B$ is called **fission** and denoted $A+B$ (or sometimes, confusingly, $A\oplus B$).  In relevant logic the symbol $\bot$ may also be used for the *additive* falsity, here denoted $\mathbf{0}$.  Also, sometimes the additive connectives are called **extensional** and the multiplicatives **intensional**.
+In [[relevance logic]], the terms "conjunction" and "disjunction" are often reserved for the additive versions $\&$ and $\oplus$, which are written with the traditional notations $\wedge$ and $\vee$.  In this case, the multiplicative conjunction $A\otimes B$ is called **fusion** and denoted $A\circ B$, while the multiplicative disjunction $A\parr B$ is called **fission** and denoted $A+B$ (or sometimes, confusingly, $A\oplus B$).  In relevance logic the symbol $\bot$ may also be used for the *additive* falsity, here denoted $\mathbf{0}$.  Also, sometimes the additive connectives are called **extensional** and the multiplicatives **intensional**.
 
 Sometimes one does not define the operation of negation, defining only $p^\perp$ for a propositional variable $p$.  It is a theorem that every proposition above is equivalent (in the sense defined below) to a proposition in which negation is applied only to propositional variables.
 
@@ -539,21 +562,30 @@ Further discussion of [[linear type theory]] is for instance in
 
 See also
 
-* [[Andreas Blass]], 1992. _A game semantics for linear logic_. _Annals of Pure and Applied Logic_ 56: 183--220. 1992.
-  {#Blass1992}
+* {#Blass1992} [[Andreas Blass]], 1992. _A game semantics for linear logic_. _Annals of Pure and Applied Logic_ 56: 183--220. 1992.
+  
 
 *  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied [[fragments]].
 
 Discussion of application of linear logic to [[quantum logic]], [[quantum computing]] and generally to [[quantum physics]] includes
 
-* [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
+* {#Pratt92} [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
 
-* [[Ross Duncan]], _Types for quantum computation_, 2006 ([pdf](http://www.cs.ox.ac.uk/files/2425/Types%20for%20Quantum%20Computation.pdf))
+* {#Baez04} [[John Baez]], *Quantum Quandaries: a Category-Theoretic Perspective*, in D. Rickles et al. (ed.) *The structural foundations of quantum gravity*, Clarendon Press (2006) 240-265 &lbrack;[arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040), [ISBN:9780199269693](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)&rbrack;
 
-* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
-Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
+
+* {#AbramskyDuncan06} [[Samson Abramsky]], [[Ross Duncan]], *A Categorical Quantum Logic*, Mathematical Structures in Computer Science **16** 3 (2006) &lbrack;[arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275)&rbrack;
+
+* {#Duncan06} [[Ross Duncan]], _Types for quantum computation_, 2006 ([pdf](http://www.cs.ox.ac.uk/files/2425/Types%20for%20Quantum%20Computation.pdf))
+
+* {#DalLagoFaggian12} [[Ugo Dal Lago]], [[Claudia Faggian]], *On Multiplicative Linear Logic, Modality and Quantum Circuits*, EPTCS 95 (2012) 55-66 &lbrack;[arXiv:1210.0613](http://arxiv.org/abs/1210.0613), [doi:10.4204/EPTCS.95.6](https://doi.org/10.4204/EPTCS.95.6)&rbrack;
+
+* {#Staton15} [[Sam Staton]], *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) $[$[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)$]$
+
+
+
+* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
   
-* [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
 
 See also at *[[quantum programming languages]]*
 
