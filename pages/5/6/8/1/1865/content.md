@@ -276,7 +276,8 @@ The operation of [[T-duality]] on hypothetical [[twisted differential K-theory]]
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
 
-* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
+* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, 
+Advances in Theoretical and Mathematical Physics **26** (2022) 5 &lbrack;[arXiv:1903.08843](https://arxiv.org/abs/1903.08843), [doi:10.4310/ATMP.2022.v26.n5.a2](https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2)&rbrack;
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
