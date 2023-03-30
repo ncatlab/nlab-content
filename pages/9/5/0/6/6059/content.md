@@ -72,7 +72,7 @@ See also:
 
 More detailed discussion of twisted differential K-theory for [[KU]]/[[KO]] and its application to [[K-theory classification of D-brane charge]]:
 
-* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
+* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, Advances in Theoretical and Mathematical Physics **26** 5 (2022) &lbrack;[doi:10.4310/ATMP.2022.v26.n5.a2](https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2), [arXiv:1903.08843](https://arxiv.org/abs/1903.08843)&rbrack;
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
