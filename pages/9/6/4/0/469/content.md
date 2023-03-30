@@ -9,28 +9,43 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-A *closed monoidal category* is a [[monoidal category]] $C$ that is also a [[closed category]], in a compatible way:
+A *closed monoidal category* is a [[monoidal category]] $\big( \mathcal{C}, \, \mathbb{1},\, \otimes \big)$ that is also a [[closed category]], in a compatible way, i.e. such that for each [[object]] $Y \,\in\, \mathcal{C}$ 
 
-it has for each [[object]] $X$ a [[functor]] $(-) \otimes X : C \to C$ of forming the [[tensor product]] with $X$, as well as a functor $[X,-] : C \to C$ of forming the [[internal-hom]] with $X$, and these form a pair of [[adjoint functors]].
+1. the [[functor]] 
 
+   $$
+     (-) \otimes Y  \;\colon\; C \longrightarrow C
+   $$ 
 
-The strategy for formalizing the idea of a closed category, that "the collection of morphisms from $a$ to $b$ can be regarded as an object of $C$ itself", is to mimic the situation in [[Set]] where for any three objects (sets) $a$, $b$, $c$ we have [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
+   of forming the [[tensor product]] with $Y$, 
+
+1. has a [[right adjoint]] [[functor]] 
+
+   $$
+     [Y,-] \;\colon\; C \longrightarrow C
+   $$ 
+
+   forming the [[internal-hom]] out of $Y$
+
+in that for all [[triples]] of [[objects]] $X,\, Y,\, Z $ there is a [[natural isomorphism|natural]] [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of the following form:
+
 $$
-  Hom(a \otimes b, c) \simeq Hom(a, [b,c])
-  \,,
+  Hom_{\mathcal{C}}(X \otimes Y,\, Z) 
+    \;\simeq\; 
+  Hom_{\mathcal{C}}\big(X, [Y,Z] \big)
+  \,.
 $$
-[[natural transformation|natural]] in all three [[variables]],
-where $\otimes = \times$ is the standard [[cartesian product]] of sets.  This [[natural isomorphism]] is called [[currying]].
 
-Currying can be read as a characterization of the [[internal hom]] $Hom(b,c)$ and is the basis for the following definition.
+The archetypical example is the [[cartesian closed category]] of [[Sets]], where the [[internal hom]] is given by forming [[function sets]], so that the above [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) expresses the fact that a [[function]] $(x,y) \mapsto f(x,y)$ of two variables is equivalently a function of a single variable with values in functions of the other variable: $x \mapsto \big(y \maspto f(x,t) \big)$. In [[formal logic]] this is known as "[[currying]]".
 
-A closed monoidal category is a special case of the notion of [[closed pseudomonoid]] in a [[monoidal bicategory]].
+More abstractly, from the point of view of [[2-category]] theory, closed monoidal categories may be regarded as a special case of the notion of [[closed pseudomonoids]] in a [[monoidal bicategory]].
 
 
 ## Definitions
@@ -39,7 +54,7 @@ A closed monoidal category is a special case of the notion of [[closed pseudomon
 ### Symmetric closed monoidal category
 
 
-A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ b \otimes - : C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
+A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ b \otimes - \colon C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
 
 $$
   \underset{b \in C}{\forall}
