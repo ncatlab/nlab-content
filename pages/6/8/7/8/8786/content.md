@@ -25,11 +25,12 @@ The processes can either be the nil process $0$, parallel execution $P \mid Q$, 
 
 * [[Some geometric perspectives in concurrency theory]]
 
-* in a wider sense also articles related to [[directed homotopy theory]], e.g.
+* in a wider sense also articles related to [[directed homotopy theory]], cf.
 
   * [[Directed Algebraic Topology]]
 
-  * [[motivation for directed homotopy]]
+  * [[directed homotopy type theory]]
+
 
 
 ## References
