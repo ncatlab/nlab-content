@@ -158,7 +158,7 @@ $$
 
 ## Examples 
 
-* Let [[FinVect]] be the category of [[finite-dimensional vector spaces]] (over some [[field]]). Let $V$ be an infinite-dimensional vector space. Then $V$ can be regarded as an object of $ind-FinVect$ as the colimit $colim_{V' \hookrightarrow V} Y(V')$ over the [[filtered category]] whose objects are inclusions $V' \hookrightarrow V$ of finite dimensional vector spaces $V'$ into $V$ of the representables $Y(V') : FinVect^{op} \to Set$ ($Y$ is the [[Yoneda embedding]]).
+* Let [[FinDimVect]] be the [[category]] of [[finite-dimensional vector spaces]] (over some [[field]]). Let $V$ be an infinite-dimensional vector space. Then $V$ can be regarded as an object of $ind-FinDimVect$ as the colimit $colim_{V' \hookrightarrow V} Y(V')$ over the [[filtered category]] whose objects are inclusions $V' \hookrightarrow V$ of finite dimensional vector spaces $V'$ into $V$ of the representables $Y(V') : FinDimVect^{op} \to Set$ ($Y$ is the [[Yoneda embedding]]).
 
 * For $\mathcal{C}$ the category of finitely presented objects of some equationally defined structure, $ind\text{-}\mathcal{C}$ is the category of all these structures.
 
