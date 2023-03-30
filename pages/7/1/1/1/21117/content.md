@@ -68,7 +68,7 @@ From [CDCW 21](#CDCW21):
 
 The simple but important special case of passive correction of erasures may be  handled by *quantum error correcting codes*:
 
-Recall that a classical [[error correcting code]] on a [[finite set]] of states $S$ is, typically, a choice of [[injection]] of $S$ into some larger set, typically a [[Cartesian power]] 
+Recall that a classical [[error correcting code]] on a [[finite set]] of states $L$ is, typically, a choice of [[injection]] of $L$ into some larger set, typically a [[Cartesian power]] 
 
 $$
   L \overset{code}{\hookrightarrow} P \coloneqq H \times \cdots \times H
@@ -76,7 +76,7 @@ $$
 
 (often considered in the form of [[linear codes]], but classical nonetheless). In [[quantum physics]] the [[Cartesian product]] of sets of states is replaced by the [[tensor product of vector spaces|tensor product]] of [[Hilbert spaces]].
 
-For $\mathcal{L}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a larger Hilbert spaces, often an  $n$-fold [[tensor product]] of copies of some $H$:
+For $\mathcal{L}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{L}$ into a larger Hilbert spaces, often an  $n$-fold [[tensor product]] of copies of some $\mathcal{H}$:
 
 $$
   \array{
@@ -85,7 +85,7 @@ $$
      \atop
      {\color{blue}qbits}
     }{
-      \mathcal{H}
+      \mathcal{L}
     }
     & 
       \underoverset
@@ -113,7 +113,7 @@ $$
 
 such that the information in $code(\psi)$ in some of the tensor factors $\mathcal{H}^{(i)}$ can be lost without obstructing the reconstruction of $\psi$ (e.g. [Rowell & Wang 17, Sec. 3.2.3](#RowellWang17)).
 
-(Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combionations of operators that act non-trivially only on some of the tensor factors.)
+(Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combinations of operators that act non-trivially only on some of the tensor factors.)
 
 While this is superficially analogous to a classical [[error correcting code]], the crucial and subtle difference is that quantum error correction codes thus take place in a non-[[cartesian monoidal category|Cartesian]] [[symmetric monoidal category|symmetric]] [[monoidal category]]. For this reason, effects of [[quantum entanglement]] play a paramount role in quantum error correction codes.
 
@@ -664,6 +664,10 @@ In relation to the [[large N limit]]:
 In relation to [[renormalization group flow]]:
 
 * Keiichiro Furuya, Nima Lashkari, Mudassir Moosa, *Renormalization group and approximate error correction* ([arXiv:2112.05099](https://arxiv.org/abs/2112.05099))
+
+In relation to fixed-point [[path integrals]]:
+
+* Andreas Bauer, _Topological error correcting processes from fixed-point path integrals_ ([arXiv:2303.16405](https://arxiv.org/abs/2303.16405))
 
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
