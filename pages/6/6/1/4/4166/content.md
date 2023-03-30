@@ -328,9 +328,7 @@ Notice that for $H R$ to be a spectrum we only need the additive structure $(R, 
    of finite sets as above we have that $H E$ is 
    the [[sphere spectrum]].
 
-1. For $R := V = Core(FinVect)$ the core of complex finite dimensional
-   vector spaces we have $H V$ is the complex 
-   [[K-theory spectrum]].
+1. For $R := V = Core(FinDimVect)$ the [[core]] of [[complex vector spaces|complex]] [[finite dimensional vector spaces]] we have $H V$ is the complex [[K-theory spectrum]].
 
 1. For $V_{\mathbb{R}}$ analogously we get the real K-theory spectrum.
 
