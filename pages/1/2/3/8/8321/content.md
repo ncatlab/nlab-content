@@ -26,27 +26,27 @@ $$
   W
   \frac{
     \Gamma
-    ,\;
+    ,\,
     \Delta
-    \;\;
+    \;
       \vdash
-    \;\;
+    \;
     j \colon J
     \;\;\;\;\;\;\;\;
     \Gamma
-    \;\;
+    \;
       \vdash
-    \;\;
+    \;
     A \colon Type
   }{
     \Gamma
     ,\;
     A 
-    ,\;
+    ,\,
     \Delta
-    \;\;\;
+    \;
     \vdash
-    \;\;\;
+    \;
     j \colon J
   }
 $$
