@@ -12,7 +12,7 @@
 
 * [[Models for concurrency]];
 
-* [[Topological Data Analysis]] and [[persistent homology]];
+* [[topological data analysis]] and [[persistent homology]];
 
 * Models for mixed temporal-spatial [[modal logics]];
 
