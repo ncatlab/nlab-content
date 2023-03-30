@@ -45,9 +45,9 @@ One may understand _vertical categorification_ as any operation that is a [[sect
 
   From the point of view of [[category theory]], there is some justification to the converse of this statement: the study of the natural numbers is nothing but the study of the isomorphism classes in $FinSet$. In a way, the very notion of **counting** is about this. This point is made nicely in [BaDo98](http://arxiv.org/abs/math.QA/9802029).
 
-  But there are other categorifications of the natural numbers, for instance the category $FinVect$ of finite dimensional [[vector spaces]] (over any given field). This is not equivalent to $FinSet$, but still, its set of isomorphism classes is also canonically in bijection with the natural numbers:
+  But there are other categorifications of the natural numbers, for instance the category [[FinDimVect]] of [[finite dimensional vector spaces]] (over any given [[field]]). This is not equivalent to [[FinSet]], but still, its set of [[isomorphism classes]] is also canonically in [[bijection]] with the [[natural numbers]]:
 
-  $$ \mathbb{N} \simeq FinVect_\sim .$$
+  $$ \mathbb{N} \;\simeq\; FinDimVect_{/\sim} \,. $$
 
 
 ### As internalization in $n Cat$
