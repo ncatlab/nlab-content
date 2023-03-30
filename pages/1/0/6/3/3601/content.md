@@ -292,6 +292,17 @@ In relation to the [[AdS-CFT correspondence]] via [[holographic entanglement ent
 * [[Bowen Chen]], [[Bartlomiej Czech]], [[Zi-zhi Wang]], *Quantum Information in Holographic Duality*, Rept. Prog. Phys. **85** (2022) 4, 046001 &lbrack;[arXiv:2108.09188](https://arxiv.org/abs/2108.09188), [doi:10.1088/1361-6633/ac51b5](https://doi.org/10.1088/1361-6633/ac51b5)&rbrack;
 
 
+### Quantum resources
+ {#ReferencesQuantumResources}
+
+On ([[quantum entanglement|entangled]]) [[quantum states]] as *resources*, not unlike the idea of resources in [[linear logic]]:
+
+* [[Charles H. Bennett]], *A resource-based view of quantum information*, Quantum Information & Computation **4** 6 (2004) 460–466 &lbrack;[doi:10.5555/2011593.2011598](https://dl.acm.org/doi/abs/10.5555/2011593.2011598)&rbrack;
+
+* Igor Devetak; Aram W. Harrow; [[Andreas J. Winter]], *A Resource Framework for Quantum Shannon Theory*, IEEE Transactions on Information Theory **54** 10 (2008) &lbrack;[doi:10.1109/TIT.2008.928980](https://doi.org/10.1109/TIT.2008.928980)&rbrack;
+
+* Eric Chitambar, Gilad Gour, *Quantum Resource Theories* &lbrack;[arXiv:1806.06107](https://arxiv.org/abs/1806.06107)&rbrack;
+
 
 
 [[!include quantum information theory via string diagrams -- references]]
