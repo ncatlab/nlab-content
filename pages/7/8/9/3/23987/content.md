@@ -1306,11 +1306,15 @@ Stone-von Neumann**
 
 \linebreak
 
-* {#MartinsMar2023} [[João Faria Martins]] (Leeds University, UK)
+* {#MartinsMar2023} 29 Mar 2023
+
+  [[João Faria Martins]] (Leeds University, UK)
 
   **Quinn Finite Total Homotopy TQFT as a once-extended TQFT**
 
   cf.: [arXiv:2301.02491](https://arxiv.org/abs/2301.02491)
+
+  video: [YT](https://www.youtube.com/watch?v=K2kSKxr-I7Q)
 
   > [Quinn Finite Total Homotopy TQFT](HQFT#Quinn95) is a [[TQFT]] defined for any dimension, $n$, of space, and that depends on the choice of a [[pi-finite homotopy type|homotopy finite space]], $B$, (e.g. $B$ can be the [[classifying space]] of a finite group or of a finite 2-group). I will report on ongoing joint work with [[Tim Porter]] on once-extended versions of Quinn Finite total homotopy TQFT, taking values in the ([[symmetric monoidal category|symmetric monoidal]]) [[bicategory]] of [[groupoids]], linear [[profunctors]], and [[natural transformations]] between profunctors. The construction works in all dimensions, thus in particular it yields (0,1,2), (1,2,3) and (2,3,4)-[[extended TQFTs]], any time we are given a homotopy finite space $B$. I will show how to compute these once-extended TQFTs for the case when $B$ is the classifying space of a finite [[strict omega-groupoid]], represented by a [[crossed complex]].
 
