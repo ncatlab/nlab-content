@@ -100,7 +100,7 @@ As an example one can base the 'sense of direction' on a closed [[preorder]] or 
 </svg>
 In other words, a circle with direction determined by the anticlockwise sense. Again it is easy to see that there are certain paths that respect the direction, 'directed paths' whilst others do not. 
 
-So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. Another suggested notion for modelling directed spaces is that of _framed spaces_, which is tailored towards certain higher categorical applications.
+So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. Another suggested notion for modelling directed spaces is that of _[framed spaces](#framed_spaces)_, which is tailored towards certain higher categorical applications.
 
 Note that a directed space is like a generalised space; not every directed space need be a space in the traditional sense, in accordance with the [[red herring principle]]. As an instance of this, note that [[Marco Grandis]] in his book [[Directed Algebraic Topology]] handles the directed homotopy of small categories, and of cubical complexes, since this is useful for comparison an interpretation of directed homotopy 'invariants'.
 
@@ -276,11 +276,11 @@ Further references are given in [[directed homotopy theory]].
 
 Some 'local combinatorial' aspects of framed spaces are discussed in:
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700))
+* {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700))
 
 A global (higher-categorical) perspective on directed spaces is taken in:
 
-* {#Dorn23} Christoph Dorn, _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
+* {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
 
 
 
@@ -365,4 +365,3 @@ _Toby_: I\'ll discuss this at [[directed object]].
 
 [[!redirects d-space]]
 [[!redirects d-spaces]]
-[[!redirects directed space]]
