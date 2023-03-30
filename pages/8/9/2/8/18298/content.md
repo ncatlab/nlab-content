@@ -204,13 +204,14 @@ We write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of this ca
 \label{FiberwiseOperations} 
 **(fiberwise operations)**
 \linebreak
-The [[category]] $FinVect$ of [[finite dimensional vector spaces]] over a [[topological field|topological]] [[ground field]] is canonically a [[Top]]-[[enriched category]], and so are hence its [[product categories]] $FinVect^{n}$, for $n \in \mathbb{N}$. Any [[Top]]-[[enriched functor]]
+The [[category]] [[FinDimVect]] of [[finite dimensional vector spaces]] over a [[topological field|topological]] [[ground field]] is canonically a [[Top]]-[[enriched category]], and so are hence its [[product categories]] $FinDimVect^{n}$, for $n \in \mathbb{N}$. Any [[Top]]-[[enriched functor]]
 
 $$
   F
   \;\colon\;
-  FinVect^n \longrightarrow
-  FinVect
+  FinDimVect^n 
+   \longrightarrow
+  FinDimVect
 $$
 
 induces a functorial construction of new topological vector bundles $\widehat{F}(\mathcal{V}_1,, \cdots, \mathcal{V}_n)$ from any [[n-tuple]] $(\mathcal{V}_1, \mathcal{V}_2 , \cdots, \mathcal{V}_n)$ of vector bundles over the same base space $B$, by taking the new [[fiber]] over a point $b \in B$ to be (e.g. [Milnor & Stasheff 1974, p. 32](#MilnorStasheff74)):
@@ -237,14 +238,14 @@ $$
 
 For example:
 
-* if $F \,\coloneqq\, (-)^\ast \,\colon\, FinVect \longrightarrow FinVect$ is the operation of forming [[dual vector spaces]], then $\widehat{F}$ constructs the fiberwise [[dual vector bundle]];
+* if $F \,\coloneqq\, (-)^\ast \,\colon\, FinDimVect \longrightarrow FinDimVect$ is the operation of forming [[dual vector spaces]], then $\widehat{F}$ constructs the fiberwise [[dual vector bundle]];
 
-* if $F \,\coloneqq\, det \,\colon\, FinVect \longrightarrow FinVect$ is the operation of forming [[determinants]], then $\widehat{F}$ is the construction of fiberwise [[determinant line bundles]];
+* if $F \,\coloneqq\, det \,\colon\, FinDimVect \longrightarrow FinDimVect$ is the operation of forming [[determinants]], then $\widehat{F}$ is the construction of fiberwise [[determinant line bundles]];
 
-* if $F \,\coloneqq\, \oplus \,\colon\, FinVect^2 \longrightarrow FinVect$ is the [[direct sum]] of vector space, then $\widehat{F}$ constructs the fiberwise [[direct sum of vector bundles]] ("[[Whitney sum]]");
+* if $F \,\coloneqq\, \oplus \,\colon\, FinDimVect^2 \longrightarrow FinDimVect$ is the [[direct sum]] of vector space, then $\widehat{F}$ constructs the fiberwise [[direct sum of vector bundles]] ("[[Whitney sum]]");
 
 
-* if $F \,\coloneqq\, \otimes \,\colon\, FinVect^2 \longrightarrow FinVect$ is the [[tensor product of vector spaces]], then $\widehat{F}$ constructs the fiberwise [[tensor product of vector bundles]].
+* if $F \,\coloneqq\, \otimes \,\colon\, FinDimVect^2 \longrightarrow FinDimVect$ is the [[tensor product of vector spaces]], then $\widehat{F}$ constructs the fiberwise [[tensor product of vector bundles]].
 
 \end{remark}
 
