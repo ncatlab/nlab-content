@@ -368,7 +368,7 @@ $$
 
 in [[Vect]], where the coend ranges over finite dimensional modules. 
 
-If $A$ itself is finite dimensional then this is yet again just a special case of the enriched Yoneda lemma for $V$-modules, for the case $V = FinVect^{op}$: this general statement says that $A$ is recovered as the [[end]]
+If $A$ itself is finite dimensional then this is yet again just a special case of the enriched Yoneda lemma for $V$-modules, for the case $V = FinDimVect^{op}$ (the [[opposite]] of the [[category]] [[FinDimVect]] of [[finite-dimensional vector spaces]]): this general statement says that $A$ is recovered as the [[end]]
 
 $$
   A = \int_{N \in A Mod_{fin}} V(F(N), F(N))
