@@ -43,7 +43,7 @@ $$
   \,.
 $$
 
-The archetypical example is the [[cartesian closed category]] of [[Sets]], where the [[internal hom]] is given by forming [[function sets]], so that the above [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) expresses the fact that a [[function]] $(x,y) \mapsto f(x,y)$ of two variables is equivalently a function of a single variable with values in functions of the other variable: $x \mapsto \big(y \maspto f(x,t) \big)$. In [[formal logic]] this is known as "[[currying]]".
+The archetypical example is the [[cartesian closed category]] of [[Sets]], where the [[internal hom]] is given by forming [[function sets]], so that the above [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) expresses the fact that a [[function]] $(x,y) \mapsto f(x,y)$ of two variables is equivalently a function of a single variable with values in functions of the other variable: $x \mapsto \big(y \mapsto f(x,t) \big)$. In [[formal logic]] this is known as "[[currying]]".
 
 More abstractly, from the point of view of [[2-category]] theory, closed monoidal categories may be regarded as a special case of the notion of [[closed pseudomonoids]] in a [[monoidal bicategory]].
 
