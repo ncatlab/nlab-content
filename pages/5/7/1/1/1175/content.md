@@ -336,6 +336,12 @@ A comprehensive three-volume treatise:
 
 * [[Masamichi Takesaki]]_, _Theory of Operator Algebras_, Encyclopaedia of Mathematical Sciences 124, 125, 127.  2002, 2003.  First Edition of Volume I: 1979.
 
+On [[von Neumann algebras]] in [[algebraic quantum field theory]]:
+
+* [[Hans-Jürgen Borchers]], [[Jakob Yngvason]], *From quantum fields to local von Neumann algebras*, Rev. Math. Phys. **4** spec01 (1992) 15-47 &lbrack;[doi:10.1142/S0129055X92000145](https://doi.org/10.1142/S0129055X92000145)&rbrack;
+
+See also:
+
 * [[Jacob Lurie]], _von Neumann algebras_, lecture series (2011) ([web](http://www.math.harvard.edu/~lurie/261y.html))
 
 * Abraham Westerbaan, _The Category of von Neumann Algebras_, [1804.02203](https://arxiv.org/abs/1804.02203) 2018
