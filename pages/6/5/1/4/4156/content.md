@@ -114,10 +114,9 @@ Textbook accounts of this formulation in [[algebraic quantum field theory]]:
 
 * {#Strocchi13} [[Franco Strocchi]], §4.3 in: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
+On the [[PCT theorem]] for [[local observables]] in [[algebraic quantum field theory]]:
 
-See also
-
-* Borchers, Yngvason: _On the PCT--Theorem in the Theory of Local Observables_ ([arXiv:math-ph/0012020](http://arxiv.org/abs/math-ph/0012020))
+* [[Hans-Jürgen Borchers]], [[Jakob Yngvason]], *On the PCT--Theorem in the Theory of Local Observables*, in: *Mathematical physics in mathematics and physics: Quantum and operator algebraic aspects*, Fields Inst. Commun. **30** (2001) 39-64  &lbrack;[arXiv:math-ph/0012020](http://arxiv.org/abs/math-ph/0012020), [spire:538524](https://inspirehep.net/literature/538524)&rbrack;
 
 Proof for [[Lagrangian]] field theory (not falling back to the [[AQFT]] axiomatics) is in 
 
