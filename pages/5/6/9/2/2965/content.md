@@ -63,7 +63,10 @@ These results can all be generalized to [[enriched categories]], and also relati
 
 * [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
   
-The results of Chorny--Dwyer are cited by Rosicky in _Accessible categories and homotopy theory_, [pdf](http://www.math.yorku.ca/~tholen/HB07Rosicky.pdf)
+The results of Chorny--Dwyer are cited by Rosický in 
+
+* [[Jiří Rosický]] _Accessible categories and homotopy theory_, lecture notes for the Summer School on Contemporary Categorical Methods in Algebra
+and Topology (2007) [pdf](https://www.math.muni.cz/~rosicky/papers/homacc3.pdf)
 
 * [[Boris Chorny]], David White, _Homotopy theory of homotopy presheaves_. [arXiv:1805.05378](https://arxiv.org/abs/1805.05378).
 
