@@ -34,9 +34,9 @@ Slightly alternatively, a smooth functor may be understood as an [[enriched func
 
 ### In global analysis
 
-Much more specifically, "smooth functor" is used by [Kriegl & Michor 97, Sec 29.5](KrieglandMichor1997) to refer to an [[endofunctor]] of [[FinVect]], when $FinVect$ is viewed as a [[enriched category|category enriched]] in the category of [[smooth manifolds]].
+Much more specifically, "smooth functor" is used by [Kriegl & Michor 97, Sec 29.5](KrieglandMichor1997) to refer to an [[endofunctor]] of [[FinDimVect]], when $FinDimVect$ is viewed as a [[enriched category|category enriched]] in the category of [[smooth manifolds]].
 
-That is, a smooth functor is a functor $F \colon FinVect \to FinVect$ such that the map $FinVect(X,Y) \to FinVect(F(X),F(Y))$ is smooth for every $X$, $Y$.
+That is, a smooth functor is a functor $F \colon FinDimVect \to FinDimVect$ such that the map $FinDimVect(X,Y) \to FinDimVect(F(X),F(Y))$ is smooth for every $X$, $Y$.
 
 Currently, the remainder of this entry focuses on this specific notion.
 
@@ -48,7 +48,7 @@ The iterated wedge product $X \mapsto \bigwedge_{i=1}^n X$ is a smooth functor
 
 ## Extensions
 
-The concept of smooth functor can be extended to multivariate functors $FinVect^n \to FinVect$, and also to contravariant functors $FinVect^{op} \to FinVect$, such as the dual $V \mapsto V^*$.
+The concept of smooth functor can be extended to multivariate functors $FinDimVect^n \to FinDimVect$, and also to [[contravariant]] functors $FinDimVect^{op} \to FinDimVect$, such as the dual $V \mapsto V^*$.
 
 ## Related concepts
 
