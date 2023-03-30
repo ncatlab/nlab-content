@@ -38,7 +38,7 @@ The study of $Vect$ is called _[[linear algebra]]_.
 
 ### Finite-dimensional vector spaces
 
-The [[full subcategory]] of Vect consisting of [[finite-dimensional vector spaces]] is denoted **[[FinVect]]**.
+The [[full subcategory]] of Vect consisting of [[finite-dimensional vector spaces]] is denoted **[[FinDimVect]]**.
 
 This is a [[compact closed category]] (see [here](finite-dimensional+vector+space#CompactClosure)).
 
