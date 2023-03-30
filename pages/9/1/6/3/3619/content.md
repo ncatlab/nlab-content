@@ -158,7 +158,7 @@ and in the context of [[entanglement entropy]] of [[topological phases of matter
 
 Exposition of entanglement as a phenomenon of non-[[Cartesian monoidal category|Cartesian]] [[monoidal categories]]:
 
-* {#Baez04} [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_, D. Rickles et al. (ed.) _[The structural foundations of quantum gravity](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)_ 240-265 ([arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040))
+* {#Baez04} [[John Baez]], *Quantum Quandaries: a Category-Theoretic Perspective*, in D. Rickles et al. (ed.) *The structural foundations of quantum gravity*, Clarendon Press (2006) 240-265 &lbrack;[arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040), [ISBN:9780199269693](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)&rbrack;
 
 A discussion in [[quantum mechanics in terms of dagger-compact categories]] is in
 
