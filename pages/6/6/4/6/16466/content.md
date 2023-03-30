@@ -1237,15 +1237,15 @@ If in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ every object has a lef
 Let
 
 $$
-  FinVect_k \hookrightarrow Vect_k
+  FinDimVect_k \hookrightarrow Vect_k
 $$
 
-be the [[full subcategory]] of that of all [[vector spaces]] (over the given [[ground field]] $k$) on those which are **[[finite dimensional vector spaces]]**.
+be the [[full subcategory]] [[FinDimVect]] of that of all [[vector spaces]] (over the given [[ground field]] $k$) on those which are **[[finite dimensional vector spaces]]**.
 
 Clearly the [[tensor product of vector spaces]] (def. \ref{TensorProductOfVectorSpaces}) restricts to those of [[finite number|finite]] [[dimension]], and so there is the induced [[monoidal category]] structure from example \ref{VectAsAMonoidalCategory}
 
 $$
-  (FinVect_k, \otimes = \otimes_k, 1 = k )
+  (FinDimVect_k, \otimes = \otimes_k, 1 = k )
    \hookrightarrow
   (Vect_k, \otimes_k, k)
   \,.
@@ -1320,7 +1320,7 @@ Physicists will recognize this as just the basic rules for [[tensor]] calculus i
 Similarly, the full subcategory
 
 $$
-  (sFinVect, \otimes_k, k, \tau^{super})
+  (sFinDimVect, \otimes_k, k, \tau^{super})
     \hookrightarrow
   (sVect, \otimes_k, k, \tau^{super})
 $$
@@ -1549,7 +1549,7 @@ The evident example is the following:
 +-- {: .num_example}
 ###### Example
 
-The tensor category $k$-[[FinVect]] of [[finite dimensional vector spaces]] from example \ref{FiniteDimensionalVectorSpaces} has subexponential growth (def. \ref{SubexponentialGrowth}), for $N_X = dim(X)$ the [[dimension]] of a vector space $X$, we have
+The tensor category $k$-[[FinDimVect]] of [[finite dimensional vector spaces]] from example \ref{FiniteDimensionalVectorSpaces} has subexponential growth (def. \ref{SubexponentialGrowth}), for $N_X = dim(X)$ the [[dimension]] of a vector space $X$, we have
 
 $$
   dim\left( X^{\otimes^n} \right) = \left(dim(X)\right)^n
@@ -1614,7 +1614,7 @@ The category of all vector spaces is the category of [[ind-objects]] of the [[te
 of [[finite dimensional vector spaces]] (example \ref{FiniteDimensionalVectorSpaces}):
 
 $$
-  Vect \simeq Ind(FinVect)
+  Vect \simeq Ind(FinDimVect)
   \,.
 $$
 
@@ -1623,7 +1623,7 @@ is the category of ind-objects of that of finite-dimensional super vector spaces
 (example \ref{FiniteDimensionalSuperVectorSpaces})
 
 $$
-  sVect \simeq Ind(sFinVect)
+  sVect \simeq Ind(sFinDimVect)
   \,.
 $$
 
@@ -3894,7 +3894,7 @@ from $\mathcal{A}$ to the [[category of modules|category of]] [[module objects]]
 
 1. an [[exact functor]] in both variables.
 
-If here $\mathcal{T} = $ [[sFinVect]] (def. \ref{FiniteDimensionalSuperVectorSpaces}), then this is called a **super fiber functor**.
+If here $\mathcal{T} = $ [[sFinDimVect]] (def. \ref{FiniteDimensionalSuperVectorSpaces}), then this is called a **super fiber functor**.
 
 =--
 
