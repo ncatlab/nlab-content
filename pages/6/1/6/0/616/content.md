@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
 =--
 =--
 
@@ -13,17 +17,21 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea##
 
-Directed Homotopy Theory is a variant of [[homotopy theory]] which aims to study the properties of [[directed space]]s. Much of the impetus for the theory  comes from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space. This is discussed in more detail in the entry on [[motivation for directed homotopy]].
+Directed Homotopy Theory is a variant of [[homotopy theory]] which aims to study the properties of [[directed spaces]]. 
+
+Much of the impetus for the theory  comes from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space. 
 
 The following examples illustrate the sort of problems that arise:
 
 
+
 ##Example##
+
 The example uses two directed spaces that are slightly different and use a [[pospace]], i.e. a space with a closed partial order.
 (Both these use a rectangle with order $(x,y)\leq (x\prime, y\prime)$ if and only if $|y\prime - y| \leq x\prime - x$, so the [[future cone]] of any point is a cone symmetric about a horizontal line through the point and with edges at $\pm 45$ degrees to that line.)
 
@@ -283,14 +291,28 @@ The two spaces are
 In both the space is the rectangle with two smaller rectangles removed.  The position of the upper left small rectangle is the same in both, but that of the righthand lower rectangle is shifted slightly to the right in the second picture.  The directed homotopy classes of d-paths from $p$ to $p^\prime$ in the two cases are different. The crucial point is that in the second there is such a class that was impossible in the first example, yet the spaces are homeomorphic, so classically would be 'the same'. The subtlety is in the order.
  
 
-###Problem
+### Problem
+
 The first problem is to find a small model of such structures.  The [[fundamental category]] would be a model, but unlike with the [[fundamental groupoid]] in the non-directed case, it is not sufficient to take a 'base point' in each connected component.  That would ignore the order.
 
 ## Related concepts
+ {#RelatedConcepts}
 
 * [[directed homotopy type theory]]
 
-##References
+* [[models for concurrency]];
+
+* [[topological data analysis]] and [[persistent homology]];
+
+* Models for mixed temporal-spatial [[modal logics]];
+
+* [[causal sets]], discrete models for space time and [[causal models]] in Computer Science, Physics and Systems Biology;
+
+* models for multi-agent systems, [[multimodal logics]]
+
+
+
+## References
 
 (See also under [[directed space]].)
 
