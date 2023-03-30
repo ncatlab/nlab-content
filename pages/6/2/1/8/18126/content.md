@@ -719,7 +719,7 @@ $\,$ $\,$ _Continuous pre-Images of open subsets are open._
 Observe, by direct unwinding the definitions,
 that the epsilontic definition of continuity (def. \ref{EpsilonDeltaDefinitionOfContinuity}) says equivalently in
 terms of [[open balls]] (def. \ref{OpenBalls}) that
-$f$ is continous at $x$ precisely if for every open ball $B^\circ_{f(x)}(\epsilon)$ around an image
+$f$ is continuous at $x$ precisely if for every open ball $B^\circ_{f(x)}(\epsilon)$ around an image
 point, there exists an open ball $B^\circ_x(\delta)$ around the corresponding pre-image
 point which maps into it:
 
@@ -1348,7 +1348,7 @@ def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
    we write $Disc(S)$ for the resulting topological space;
 
-1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
+1. $\tau \coloneqq \{ \emptyset, S \}$ the set containing only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
 
    this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
 
@@ -1817,7 +1817,7 @@ $$
   Cl(\underset{i \in I}{\cup}U_i)
 $$
 
-because if every neighbourhood of a point intersects sopme $U_i$, then every neighbourhood intersects their union.
+because if every neighbourhood of a point intersects some $U_i$, then every neighbourhood intersects their union.
 
 The other direction
 
@@ -2766,7 +2766,7 @@ $\,$
 
 We discuss here some basic examples of [[continuous functions]] (def. \ref{ContinuousMaps}) between [[topological spaces]] (def. \ref{TopologicalSpace}) to get a feeling for the nature of the concept.
 But as with topological spaces themselves, continuous functions between them
-are ubiquituous in mathematics, and no list will exhaust all classes of examples. Below in the section
+are ubiquitous in mathematics, and no list will exhaust all classes of examples. Below in the section
 _[Universal constructions](#UniversalConstructions)_ we discuss a general principle that serves to
 produce examples of continuous functions with prescribed "[[universal properties]]".
 
@@ -2883,7 +2883,7 @@ Also:
 **([[diagonal]])**
 
 For $X$ a [[set]], its _[[diagonal]]_ $\Delta_X$ is the [[function]] from $X$
-to the [[Cartesian product]] of $X$ with itsef, given by
+to the [[Cartesian product]] of $X$ with itself, given by
 
 $$
   \array{
@@ -3264,7 +3264,7 @@ $$
   \,.
 $$
 
-Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]].
+Since such $g$ is unique if it exists, one often writes "$f^{-1}$" for this [[inverse morphism]].
 
 
 +-- {: .num_defn #Homeomorphism}
@@ -3362,7 +3362,7 @@ and try to make that context always unambiguously explicit.
 +-- {: .num_remark }
 ###### Remark
 
-If $f \colon (X, \tau_X) \to (Y, \tau_Y)$ is a [[homeomorphism]] (def. \ref{Homeomorphism}) with inverse coninuous function $g$, then
+If $f \colon (X, \tau_X) \to (Y, \tau_Y)$ is a [[homeomorphism]] (def. \ref{Homeomorphism}) with inverse continuous function $g$, then
 
 
 1. also $g$ is a homeomophism, with inverse continuous function $f$;
@@ -3510,9 +3510,9 @@ are all homeomorphic to each other,
 
 1. the closed intervals $[a,b]$ are all homeomorphic to each other,
 
-1. the half-open intervals of the form $[a,b)$ are all homeomophic to each other;
+1. the half-open intervals of the form $[a,b)$ are all homeomorphic to each other;
 
-1. the half-open intervals of the form $(a,b]$ are all homeomophic to each other.
+1. the half-open intervals of the form $(a,b]$ are all homeomorphic to each other.
 
 Generally, every [[open ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$:
 
