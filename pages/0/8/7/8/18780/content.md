@@ -1,4 +1,3 @@
-[[!redirects FinVect]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -33,3 +32,11 @@ A [[compact closed monoidal category]]
 * [[quantum information theory]]$\;$[[quantum information theory in terms of dagger-compact categories|in terms of dagger-comact categories]]
 
 * [[linear logic]]
+
+
+[[!redirects FinDimVec]]
+
+[[!redirects FinVect]]
+[[!redirects FinVec]]
+
+
