@@ -266,9 +266,12 @@ The original articles are
 
 * {#RyuTakayanagi06a} [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Aspects of Holographic Entanglement Entropy_, JHEP 0608:045, 2006 ([arXiv:hep-th/0605073](https://arxiv.org/abs/hep-th/0605073))
 
-A proposal for a conceptual explanation is made in 
+A proposal for a conceptual explanation:
 
 * {#LewkowyczMaldacena13} Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_, J. High Energ. Phys. (2013) 2013: 90 ([arXiv:1304.4926](https://arxiv.org/abs/1304.4926))
+
+* [[Nele Callebaut]], *Entanglement in conformal field theory and holography* &lbrack;[arXiv:2303.16827](https://arxiv.org/abs/2303.16827)&rbrack;
+
 
 Review:
 
