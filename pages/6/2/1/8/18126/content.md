@@ -265,7 +265,7 @@ or is content with ignoring the motivation coming from analysis should skip righ
 
 A _[[metric space]]_ is
 
-1. a [[set]] $X$ (the "[[underlying]] set");
+1. a [[set]] $X$ (the "underlying set");
 
 1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]]
 
@@ -3689,7 +3689,7 @@ _[[monoidal category]]_ which moreover is _[[symmetric monoidal category|symmetr
 
 From this, a basic result of [[category theory]], the _[[coherence theorem for monoidal categories|MacLane coherence theorem]]_, guarantees that there is
 no essential ambiguity re-backeting arbitrary iterations of the binary product topological space construction,
-as long as the above homeomorphsims are understood.
+as long as the above homeomorphisms are understood.
 
 Accordingly, we may write
 
@@ -3886,7 +3886,7 @@ $$
 This homeomorphism is given by "[[stereographic projection]]":
 One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, then the homeomorphism is the
 function which sends a point $x \in S^{n}\setminus \{p\}$ along the line connecting it with $p$ to
-the point $y$ where this line intersects tfhe equatorial plane.
+the point $y$ where this line intersects the equatorial plane.
 
 In the canonical ambient [[coordinates]] this [[stereographic projection]] is given as follows:
 
@@ -4197,7 +4197,7 @@ $$
 
 is called the **line with two origins**. These "two origins" are the points $0_0$ and $0_1$.
 
-We claim that in this space _every neighbourhood of $0_0$ intersects every neighbouhood of $0_1$.
+We claim that in this space _every neighbourhood of $0_0$ intersects every neighbourhood of $0_1$.
 
 Because, by definition of the [[quotient topological space|quotient space topology]], the [[open neighbourhoods]] of $0_i \in   \left( \mathbb{R} \sqcup \mathbb{R} \right)/\sim$ are precisely those that contain subsets of the form
 
@@ -4224,7 +4224,7 @@ $$
 
 
 In many applications one wants to exclude at least some such exotic examples
-of topologial spaces from the discussion and instead concentrate on those examples for which
+of topological spaces from the discussion and instead concentrate on those examples for which
 the topology recognizes the separation of distinct points, or of more general
 [[disjoint subsets]].
 The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_
@@ -4259,7 +4259,7 @@ All separation axioms are satisfied by [[metric spaces]] (example \ref{Hausdorff
 ### $T_n$ spaces
  {#TnTopologicalSpaces}
 
-There are many variants of separation axims. The classical ones are labeled $T_n$
+There are many variants of separation axioms. The classical ones are labeled $T_n$
 (for German "Trennungsaxiom") with $n \in \{0,1,2,3,4,5\}$ or higher. These we now introduce in def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}.
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
@@ -5521,7 +5521,7 @@ $$
 equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). By
 prop. \ref{TiSubspaces} also the image $f(X)$ is a $T_n$-topological space, since $Y$ is.
 This means that if two elements $x_1, x_2 \in X$ have the same equivalence class, then, by definition of the
-equivalence relation, they have the same image under _all_ comntinuous surjective functions into a $T_n$-space,
+equivalence relation, they have the same image under _all_ continuous surjective functions into a $T_n$-space,
 hence in particular they have the same image under $f \colon X \overset{\text{surjective}}{\longrightarrow} f(X) \hookrightarrow Y$:
 
 $$
@@ -5990,7 +5990,7 @@ $$
   }
 $$
 
-in fact preserves arbitrary unions and finite intersections. Whith this the statement follows by the fact that $\tau_X$ is closed under these operations.
+in fact preserves arbitrary unions and finite intersections. With this the statement follows by the fact that $\tau_X$ is closed under these operations.
 
 To see that $\widetilde{(-)}$ indeed preserves unions, observe that (e.g. [Johnstone 82, II 1.3 Lemma](#Johnstone82))
 
@@ -6361,7 +6361,7 @@ $$
 
 Let $X$ be a [[topological space]], and let $\sim$ be an [[equivalence relation]] on its
 underlying set. Then the corresponding [[quotient topological space]] $X/\sim$
-together with the corresponding qutient [[continuous function]]
+together with the corresponding quotient [[continuous function]]
 $p \colon X \to X/\sim$ has the following [[universal property]]:
 
 Given $f \colon X \longrightarrow Y$ any [[continuous function]] out of $X$
@@ -6581,7 +6581,7 @@ $$
 
 These are called _[[span]] [[diagrams]]_.
 
-Similary, there is the _[[cospan]]_ diagram of the form
+Similarly, there is the _[[cospan]]_ diagram of the form
 
 $$
   \array{
@@ -7190,7 +7190,7 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
 +-- {: .proof}
 ###### Proof
 
-We dicuss the proof of the first case. The second is directly analogous.
+We discuss the proof of the first case. The second is directly analogous.
 
 First observe that indeed, by construction, the projection maps $p_i$ as given do make a cone over the free diagram,
 by the very nature of the relation that is imposed on the tuples:
@@ -7242,7 +7242,7 @@ $$
   \,.
 $$
 
-As shown on the right, the data in such a cone is equivantly: for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
+As shown on the right, the data in such a cone is equivalently: for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
 then $f_\alpha(x'_i) = x'_j$. But this is precisely the relation used in the construction of the limit above and hence there
 is a unique map
 
@@ -7727,7 +7727,7 @@ universal property of a colimit with respect to the category of Hausdorff spaces
 
 First to see that right/left adjoint functors preserve limits/colimits:
 We discuss the case of the right adjoint functor preserving limits. The other case is
-directly anlogous (just reverse the direction of all arrows).
+directly analogous (just reverse the direction of all arrows).
 
 So let  $\underset{\longleftarrow}{\lim}_i X_i$
 be the limit over some diagram $\left\{ X_i \overset{f_\alpha}{\to} X_j\right\}_{i,j \in I, \alpha \in I_{i,j}}$.
@@ -7926,7 +7926,7 @@ Notice the subtlety: Naively we could have considered as open subsets the unions
 $\underset{i \in I}{\prod}U_i$ of open
 subsets of the factors, without the constraint that only finitely many of them differ from the corresponding total space.
 This also defines a topology, called the _[[box topology]]_. For a [[finite set|finite index set]] $I$
-the box topology coincides with the product space (Tychinoff) topology, but for non-finite $I$ it is strictly
+the box topology coincides with the product space (Tychonoff) topology, but for non-finite $I$ it is strictly
 [[fine topology|finer]] (def. \ref{TopologyFinerCoarser}).
 
 =--
@@ -7935,7 +7935,7 @@ the box topology coincides with the product space (Tychinoff) topology, but for 
 ###### Example
 **([[Cantor space]])**
 
-Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points (example \ref{CoDiscreteTopology}). Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,2\})$ for the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of a [[countable set]] of copies of this discrete space with itself (i.e. the corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the [[Tychonoff topology]] induced from the [[discrete topology]] of $\{0,1\}$).
+Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points (example \ref{CoDiscreteTopology}). Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,2\})$ for the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of a [[countable set]] of copies of this discrete space with itself (i.e. thehight corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the [[Tychonoff topology]] induced from the [[discrete topology]] of $\{0,1\}$).
 
 Notice that due to  the nature of the [[Tychonoff topology]], this product space is _not_ itself discrete.
 
@@ -8403,9 +8403,9 @@ such that
      }
    $$
 
-If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable hight.
+If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable height.
 
-Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
+Finally, a topological (relative) cell complex of countable height is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
 
 $$
   \array{
@@ -8754,7 +8754,7 @@ $$
 $$
 
 Equivalently, the connected components are the [[maximal elements]] in the [[pre-ordered set]] of connected [[subspaces]],
-pre-ordred by inclusion.
+pre-ordered by inclusion.
 
 =--
 
@@ -9017,7 +9017,7 @@ Now assume that every connected component of every open subset $U$ is open. Sinc
 
 Finally assume that every open subspace is the disjoint union of its connected components. Let $x$ be a point and $U_x \supset \{x\}$ a neighbourhood. We need to show that $U_x$ contains a connected neighbourhood of $x$.
 
-But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumption this decomposes as the disjoint union of its connected components. One of these contains $x$. Since in a [[disjoint union space]] all summands are open, this is the required connected open neighbourhod.
+But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumption this decomposes as the disjoint union of its connected components. One of these contains $x$. Since in a [[disjoint union space]] all summands are open, this is the required connected open neighbourhood.
 
 =--
 
@@ -10300,7 +10300,7 @@ $$
 
 By prop. \ref{ClosedProjectionCharacterizationOfCompactness},
 the first map here is closed since $(X_{n+1}, \tau_{n+1})$ is compact by the assumption of the proposition, and similarly the second is closed
-by induction assumtion. Hence the composite is a closed map.
+by induction assumption. Hence the composite is a closed map.
 
 
 =--
@@ -10354,7 +10354,7 @@ Accordingly it makes sense to consider the following:
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). It is called
 _[[sequentially compact topological space|sequentially compact]]_ if for every [[sequence]]
 of points $(x_n)$ in $X$ (def. \ref{Sequences}) there exists a sub-sequence $(x_{n_k})_{k \in \mathbb{N}}$
-which [[convergence|converges]] acording to def. \ref{TopologicalSpaceSequenceConverging}.
+which [[convergence|converges]] according to def. \ref{TopologicalSpaceSequenceConverging}.
 
 =--
 
@@ -10495,7 +10495,7 @@ general topological spaces being [[sequentially compact space|sequentially compa
 That [[compact topological space|compactness]] of topological spaces is not detected by
 [[convergence]] of [[sequences]] (remark \ref{SequentiallyCompactNeitherImpliesNorIsImpliedByCompactness})
 may be regarded as a shortcoming of the concept of _[[sequence]]_. While a sequence is indexed
-over the [[natural numbers]], the concept of [[convergence]] of sequnces only invokes that the natural
+over the [[natural numbers]], the concept of [[convergence]] of sequences only invokes that the natural
 numbers form a _[[directed set]]_. Hence the concept of convergence immediately generalizes to
 sets of points in a space which are indexed over an arbitrary [[directed set]]. This is called a _[[net]]_.
 
@@ -10833,7 +10833,7 @@ Now
 
 =--
 
-As an immdiate corollary we record this useful statement:
+As an immediate corollary we record this useful statement:
 
 +-- {: .num_prop #ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
 ###### Proposition ######
@@ -10929,7 +10929,7 @@ Then $\tau_Y$ is the [[quotient topological space|quotient topology]] inherited 
 ###### Proof
 
 We need to show that a subset $U \subset Y$ is an [[open subset]] of $(Y , \tau_Y)$ precisely if its [[pre-image]] $\pi^{-1}(U) \subset X$
-is an open subset in $(X,\tau_X)$. Equivalenty, as in prop. \ref{ClosedSubsetContinuity}, we need to show that $U$ is a [[closed subset]]
+is an open subset in $(X,\tau_X)$. Equivalently, as in prop. \ref{ClosedSubsetContinuity}, we need to show that $U$ is a [[closed subset]]
 precisely if $\pi^{-1}(U)$ is a closed subset. The implication
 
 $$
@@ -10980,7 +10980,7 @@ Then the following are equivalent
 +-- {: .proof}
 ###### Proof
 
-The implicaton $\left( (Y, \tau_Y)\, \text{Hausdorff} \right) \Rightarrow \left( \pi \, \text{closed}  \right)$
+The implication $\left( (Y, \tau_Y)\, \text{Hausdorff} \right) \Rightarrow \left( \pi \, \text{closed}  \right)$
 is given by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}. We need to show the converse.
 
 Hence assume that $\pi$ is a closed map. We need to show that for every pair of
@@ -11091,7 +11091,7 @@ It turns out (prop. \ref{LocallyCompactHausdorffAreSubspacesOfCompactHausdorff} 
 that locally compact Hausdorff spaces are precisely the open [[subspaces]] of
 the [[compact Hausdorff spaces]]  discussed [above](#CompactSpaces).
 
-A key application of local compactness ist that the _[[mapping spaces]]_ (topological spaces
+A key application of local compactness is that the _[[mapping spaces]]_ (topological spaces
 of continuous functions, def. \ref{CompactOpenTopology} below) out of a locally compact space behave as expected from mapping spaces.
 (prop. \ref{UniversalPropertyOfMappingSpace} below). This gives rise for instance the [[loop spaces]] and [[path spaces]]
 (example \ref{LoopSpace} below) which become of paramount importance in the discussion of [[homotopy theory]].
@@ -11306,7 +11306,7 @@ Generally, definition \ref{LocallyCompactSpace} directly implies definition \ref
 
 Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
 
-So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbouhood
+So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbourhood
 
 $$
   \{x\} \subset Int(K_x) \subset K_x \subset U_x \subset X
@@ -11546,7 +11546,7 @@ hence $f$ is continuous.
 
 In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
 says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
-is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it beahves in all abstract ways just as
+is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it behaves in all abstract ways just as
 a [[function set]] does for plain functions, but it does so for continuous functions and being itself
 equipped with a topology.
 
@@ -11569,7 +11569,7 @@ with the [[opposite category]] of the [[subcategory]] of [[locally compact topol
 
 The [[point space]] $\ast$ (example \ref{Point}) is clearly a [[locally compact topological space]].
 Hence for every [[topological space]] $(X,\tau)$ the [[compact-open topology|mapping space]] $Maps(\ast, (X,\tau))$
-(exmaple \ref{CompactOpenTopology}) exists. This is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the space $(x,\tau)$ itself:
+(example \ref{CompactOpenTopology}) exists. This is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the space $(x,\tau)$ itself:
 
 $$
   Maps(\ast, (X,\tau))
@@ -11932,7 +11932,7 @@ locally compact Hausdorff space arises this way.
 
 But if $X$ is locally compact Hausdorff, then its [[one-point compactification]] $X^\ast$ is compact Hausdorff
 by prop. \ref{OnePointExtensionIsCompact} and prop. \ref{HausdorffOnePointCompactification}. Moreover the
-canonical embedding $X \hookrightarrow X^\ast$ exhibts $X$ as an open subspace of $X^\ast$ by prop. \ref{InclusionIntoOnePointExtensionIsOpenEmbedding}.
+canonical embedding $X \hookrightarrow X^\ast$ exhibits $X$ as an open subspace of $X^\ast$ by prop. \ref{InclusionIntoOnePointExtensionIsOpenEmbedding}.
 
 =--
 
@@ -11985,7 +11985,7 @@ $$
   U_y \coloneqq V_y \setminus ( f(C) \cap (Cl(V_y)) ) = V_y \setminus f(C)
 $$
 
-is an open neighbourhod of $y$ not intersecting $f(C)$.
+is an open neighbourhood of $y$ not intersecting $f(C)$.
 
 =--
 
@@ -12945,7 +12945,7 @@ Let $(X,\tau)$ be a paracompact Hausdorff space
 We first show that it is [[regular topological space|regular]]: To that end,
 let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
 
-First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhoods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
 
 $$
   \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
@@ -13016,7 +13016,7 @@ $$
   X \setminus C
 $$
 
-is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elements we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
 
 $$
   \{ V_c \subset U_c \subset X \}_{c \in C}
@@ -13349,7 +13349,7 @@ Regarding the definition of [[partition of unity]] (def. \ref{PartitionOfUnity})
    1. they cover because, by the third clause, for each $x \in x$ there is at least one $i \in I$ with $h_i(X) \gt 0$,
       hence $x \in h_i^{-1}((0,1])$
 
-   1. they are locally finite because by the second clause alreay their closures are locally finite.
+   1. they are locally finite because by the second clause already their closures are locally finite.
 
 =--
 
@@ -13624,7 +13624,7 @@ Then a _topological $k$-vector bundle over $X$_ is
 
 1. a [[continuous function]] $E \overset{\pi}{\to} X$
 
-1. for each $x \in X$ the stucture of a [[finite-dimensional vector space|finite-dimensional]] $k$-[[vector space]] on the [[pre-image]]
+1. for each $x \in X$ the structure of a [[finite-dimensional vector space|finite-dimensional]] $k$-[[vector space]] on the [[pre-image]]
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
 
@@ -13656,7 +13656,7 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
         \,.
       $$
 
-Here is the [[diagram]] of continuous functions that illustartes these conditions:
+Here is the [[diagram]] of continuous functions that illustrates these conditions:
 
 $$
   \array{
@@ -13719,7 +13719,7 @@ modulo invertible [[homomorphism]] between them) we denote by $Vect(X)_{/\sim}$.
 There is a larger category, where we allow the morphisms to involve a [[continuous function]]
 $\tilde f \colon X \longrightarrow Y$ between base spaces, so that the continuous functions on total
 spaces $f \colon E_1 \longrightarrow E_2$ are, besides being fiberwise linear, required to make the
-follwoing diagram commute:
+following diagram commute:
 
 $$
   \array{
@@ -13754,7 +13754,7 @@ in particular of _[[real line bundles]]_ and of _[[complex line bundles]]_.
 
 +-- {: .num_remark #CommonOpenCoverLocalTrivialization}
 ###### Remark
-**(any two topologial vector bundles have [[local trivialization]] over a common [[open cover]])**
+**(any two topological vector bundles have [[local trivialization]] over a common [[open cover]])**
 
 Let $[E_1 \to X]$ and $[E_2 \to X]$ be two topological vector bundles (def. \ref{TopologicalVectorBundle}).
 Then there always exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ such that both bundles
@@ -13897,7 +13897,7 @@ for a unique such section $\sigma$.
 ###### Example
 **(topological vector sub-bundle)**
 
-Given a topological vector bundel $E \to X$ (def. \ref{TopologicalVectorBundle}), then a _sub-bundle_ is a homomorphism of topological vector bundles over $X$
+Given a topological vector bundle $E \to X$ (def. \ref{TopologicalVectorBundle}), then a _sub-bundle_ is a homomorphism of topological vector bundles over $X$
 
 $$
   i\;\colon\; E' \hookrightarrow E
@@ -14004,7 +14004,7 @@ $$
 
 To see that this is an open cover:
 
-1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
+1. This is a cover because with the origin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
    at least one of the $x_i$ has to be non-vanishing.
 
 1. These subsets are open in the [[quotient topology]] $kP^n = (k^n \setminus \{0\})/\sim$, since their [[pre-image]] under the quotient co-projection $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n+1\}}{\prod} k$.
@@ -14118,7 +14118,7 @@ vector bundles are precisely the result of "continuously gluing" trivial vector 
 This gives a
 "local-to-global principle" for constructions on vector bundles. For instance it
 allows to easily obtain concepts of [[direct sum of vector bundles]] and [[tensor product of vector bundles]]
-(def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below) by applying the usual operations from linear algebra on a local trivialization and then re-glung the result
+(def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below) by applying the usual operations from linear algebra on a local trivialization and then re-gluing the result
 via the combined transition functions.
 
 $\,$
@@ -14367,7 +14367,7 @@ $$
   }
 $$
 
-which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since the corresponding continuous [[function]] on the un-quotientd disjoint union space respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $k^n$, and hence canonicaly carries the structure of a [[vector space]].
+which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since the corresponding continuous [[function]] on the un-quotiented disjoint union space respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $k^n$, and hence canonically carries the structure of a [[vector space]].
 
 Finally, the quotient co-projections  constitute a local trivialization of this vector bundle over the given open cover.
 
@@ -15679,7 +15679,7 @@ $$
   \mathcal{V} \coloneqq \{V_j \subset X \}_{j \in J}
 $$
 
-as well as a locally finite cover $\{Cl(V_j) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the orignal cover, all the $Cl(V_j)$ are contained in one of the compact subspaces $K_i$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), the $Cl(V_j)$ are also closed as subsets of the $K_i$.
+as well as a locally finite cover $\{Cl(V_j) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the original cover, all the $Cl(V_j)$ are contained in one of the compact subspaces $K_i$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), the $Cl(V_j)$ are also closed as subsets of the $K_i$.
 Since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it follows that the $Cl(V_j)$ are themselves compact and hence form a locally finite cover by compact subspaces.
 
 Now fix any $j_0 \in J$.
@@ -15814,7 +15814,7 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
 =--
 
 
-Next we consider the case that the gluing functions of a topologiclal manifold
+Next we consider the case that the gluing functions of a topological manifold
 are [[differentiable functions]] in which case one speaks of a _[[differentiable manifold]]_ (def. \ref{DifferentiableManifold} below).
 For convenience we first recall the definition of [[differentiable functions]]
 between [[Euclidean spaces]]:
@@ -16009,7 +16009,7 @@ Then:
    Because, by definition, $f$ is in particular a [[continuous function]], as is its [[inverse function]] $g$.
 
 1. The [[derivative]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}) $d f$ of
-   takes values in invertible linear maps, i.e. $d f_x \colon T_x X \overset{\simeq}{\to} T_{f(x)} X$ is a linear isomorphsm
+   takes values in invertible linear maps, i.e. $d f_x \colon T_x X \overset{\simeq}{\to} T_{f(x)} X$ is a linear isomorphism
    for all $x \in X$.
 
    This is because by the [[chain rule]] (prop. \ref{ChainRuleOnEuclideanSpace}) the defining equations
@@ -16162,7 +16162,7 @@ and hence it cannot be a diffeomorphism by remark \ref{BasicPropertiesOfDiffeomo
 ###### Example
 **([[n-sphere]] as a [[smooth manifold]])**
 
-For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane
+For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manifold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane
 
 $$
   \left\{
@@ -16266,7 +16266,7 @@ $$
   \phi_i^{-1}(U_i \cap U_j) \subset \mathbb{R}^n
 $$
 
-canonically are diffrentiable manifolds themselves. By definition of differentiable manifolds, the
+canonically are differentiable manifolds themselves. By definition of differentiable manifolds, the
 [[coordinate transformation]] functions
 
 $$
@@ -16427,7 +16427,7 @@ be differentiable:
 **([[differentiable vector bundle]])**
 
 Let $k$ be a "differentiable field", specifically $k  \in \{\mathbb{R}, \mathbb{C}\}$
-so that $k^n$ is equipped with the canonical [[smooth structure|differentiable sructure]] from example \ref{DifferentiableManifoldCartesianSpace}.
+so that $k^n$ is equipped with the canonical [[smooth structure|differentiable structure]] from example \ref{DifferentiableManifoldCartesianSpace}.
 
 Given a [[differentiable manifold]] $X$ (def. \ref{DifferentiableManifold}),
 then a _[[differentiable vector bundle|differentiable k-vector bundle]]_ over $X$ of [[rank of a vector bundle|rank]] $k$ is
@@ -16441,7 +16441,7 @@ then a _[[differentiable vector bundle|differentiable k-vector bundle]]_ over $X
 such that there exists
 
 1. an [[open cover]] of $X$ $\{\mathbb{R}^d \underoverset{\simeq}{\phi_i}{\to}\}_{i \in I}$ by open subsets [[diffeomorphism|diffeomorphic]]
-   to Euclidean space with its canonica smooth structure from example \ref{DifferentiableManifoldCartesianSpace}
+   to Euclidean space with its canonical smooth structure from example \ref{DifferentiableManifoldCartesianSpace}
    (hence an [[atlas]] exhibiting the [[smooth structure]] of $X$)
 
 1. for each $i \in I$ a [[differentiable function]] as on the top of this diagram
@@ -16458,7 +16458,7 @@ such that there exists
 
    which makes this diagram commute and which is [[fiber]]-wise a [[linear map]].
 
-A [[homomorphism]] between differentiabe vector bundles $[E_1 \overset{\pi_1}{\to}X]$
+A [[homomorphism]] between differentiable vector bundles $[E_1 \overset{\pi_1}{\to}X]$
 and $[E_2 \overset{\pi_2}{\to} X]$ over the same base differentiable manifolds is
 a [[differentiable function]] as in the top of the following [[diagram]]
 
@@ -16481,7 +16481,7 @@ $$
 on the [[fiber]] over each point $x \in X$.
 
 More generally, if $[E_1 \overset{}{\to} X_1]$ and $[E_2 \overset{\pi_2}{\to} X_2]$
-are differentable vector bundles over possibly different differentiable base manifolds, then
+are differentiable vector bundles over possibly different differentiable base manifolds, then
 a homomorphism is a differentiable function $f \colon E_1 \to E_2$ together with a
 differentiable function $f \colon X \to Y$ that make the diagram
 
@@ -16544,7 +16544,7 @@ of that point. The union of all these [[tangent spaces]] is called the _[[tangen
 of the [[differentiable manifold]], an example of a [[topological vector bundle]].
 
 The [[sections]] of a [[tangent bundle]] are therefore a choice of [[tangent vector]]
-for each point of a manifold, variying continuously or in fact diffrentiably.
+for each point of a manifold, varying continuously or in fact differentiably.
 Such a "field" of tangent vectors is called a _[[tangent vector field]]_.
 
 One may think of this as specifying a direction along the manifold at each point,
@@ -17691,7 +17691,7 @@ Finally the function $x \mapsto \phi_\varepsilon(x-x_0)$ has support the closed 
 =--
 
 We want to say that a smooth manifold admits subordinate partitions of unity by bump functions (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below). To that end we first need to see that
-it admits refinemens of covers by closed balls.
+it admits refinements of covers by closed balls.
 
 
 +-- {: .num_lemma #SmoothManifoldClosedBallRefinementOfCover}
@@ -17775,7 +17775,7 @@ $$
   \right\}_{l \in L}
 $$
 
-is a finite cover by closed balls, hence in particular locally finite, and by construction it is still a refinement of the orignal cover.
+is a finite cover by closed balls, hence in particular locally finite, and by construction it is still a refinement of the original cover.
 This shows the statement for $X$ compact.
 
 Now for general $X$, notice that without restriction we may assume that $X$ is [[connected topological space|connected]]
@@ -17946,7 +17946,7 @@ $$
 $$
 
 be an [[atlas]] exhibiting the [[smooth structure]] of $X$ (def. \ref{SmoothStructure}),
-hence an [[open cover]] by pathces [[diffeomorphism|diffeomorphic]] to [[Euclidean space]]. By compactness there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+hence an [[open cover]] by patches [[diffeomorphism|diffeomorphic]] to [[Euclidean space]]. By compactness there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
 
 $$
   \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\}_{i \in J \subset I}
@@ -18096,4 +18096,5 @@ Detailed discussion of the [[Hausdorff reflection]] is in
 ## Index
 
 [[!include topology - contents]]
+
 
