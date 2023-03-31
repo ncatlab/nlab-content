@@ -209,7 +209,7 @@ which views probability measures via double dualization, restricted to weakly av
 
 Some corrections from an earlier version of the article, were pointed out in
 
-* T. Avery, _Codensity and the Giry monad_, arXiv:[1410.4432](http://arxiv.org/abs/1410.4432) (2014).
+* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, Journal of Pure and Applied Algebra **220** 3 (2016) 1229-1251 &lbrack;[arXiv:1410.4432](https://arxiv.org/abs/1410.4432), [doi:10.1016/j.jpaa.2015.08.017](https://doi.org/10.1016/j.jpaa.2015.08.017)&rbrack;
 
 Apart from these papers, there are similar developments in
 
