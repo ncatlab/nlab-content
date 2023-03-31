@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -32,9 +37,9 @@ Abstractly, the free bicompletion construction is the [[coproduct]] of the two [
 
 ## References
 
-* [[Andre Joyal]]. _Free bicomplete categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 219-224. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
+* [[André Joyal]]. _Free bicomplete categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 219-224. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
 
-* [[Andre Joyal]]. _Free bicompletion of enriched categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 213-218. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
+* [[André Joyal]]. _Free bicompletion of enriched categories_. Mathematical Reports of the Academy of Sciences 17.5 (1995): 213-218. ([link](https://mathreports.ca/article/free-bicomplete-categories/))
 
 The above references do not contain proofs. For a sketch of the existence of free bicompletions of categories, see [this MathOverflow question](https://math.stackexchange.com/questions/1686774/can-we-simultaneously-freely-adjoin-both-limits-and-colimits-to-a-category).
 
