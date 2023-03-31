@@ -62,6 +62,10 @@ $$
 
 ## References
 
+* [[Francis Borceux]], Section 1.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+See also:
+
 * {#FL} R. Fritsch, D. M. Latch, _Homotopy inverses for nerve_, Math. Z. 177 (1981), no. 2, 147–179, doi:[10.1007/BF01214196](https://doi.org/10.1007/BF01214196).
 
 
