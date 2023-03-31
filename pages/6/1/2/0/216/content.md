@@ -548,7 +548,7 @@ Given a [[groupoid object in an (∞,1)-category|groupoid object]] $\mathcal{G}_
 
 * a $C(\mathcal{G}_1) \otimes_{C(\mathcal{G}_{0,1})} C(\mathcal{G}_1)-C(\mathcal{G}_{0})$-bimodule, assigned to the [[composition]] functor $\partial_1 \colon \mathcal{G}_1 \underset{\mathcal{G}_0}{\times} \mathcal{G}_1 \to \mathcal{G}_1$.
 
-Under the 2-functoriality of $C$, the [[Segal conditions]] satisfied by $\mathcal{G}_\bullet$ make this bimodule exhibi a [[sesquialgebra]] structure over $C(\mathcal{G}_{0,1})$.
+Under the 2-functoriality of $C$, the [[Segal conditions]] satisfied by $\mathcal{G}_\bullet$ make this bimodule exhibit a [[sesquialgebra]] structure over $C(\mathcal{G}_{0,1})$.
 
 This sesquialgebra we call the the **double groupoid convolution 2-algebra** of $\mathcal{G}_\bullet$.
 
