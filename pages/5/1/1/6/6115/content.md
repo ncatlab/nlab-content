@@ -95,6 +95,8 @@ In [[twisted cohomology]].
 
 ## Related concepts
 
+* [[model structure for parameterized spectra]]
+
 * [[excisive functor]]
 
 * [[tangent (infinity,1)-category]]
