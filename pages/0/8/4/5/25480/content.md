@@ -29,7 +29,7 @@ The **reflexive completion** (also called the **Isbell completion**) of a catego
 
 ## References
 
-* Tom Avery and [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, 36(12), 306-347. ([pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf))
+* [[Tom Avery]], [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, **36** 12 (2021) 306-347 &lbrack;[tac:36-12](http://www.tac.mta.ca/tac/volumes/36/12/36-12abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf)&rbrack;
 
 
 [[!redirects reflexive completions]]
