@@ -82,6 +82,12 @@ Comprehensive review is in
  
 * {#Schwede12} [[Stefan Schwede]], part III of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/people/schwede/SymSpec-v3.pdf))
 
+Generalization to a [[model structure for parameterized spectra]]:
+
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
+
+  > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]])
+
 [[!redirects model structures on symmetric spectra]]
 
 [[!redirects model structure on symmetric spectrum objects]]
