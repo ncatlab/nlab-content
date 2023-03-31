@@ -127,6 +127,8 @@ Then the proof only uses the unit/counit definition of adjunction, which is vali
 
 ## Related concepts
 
+* [[envelope of an adjunction]]
+
 * [[nucleus of a profunctor]]
 
 * [[idempotent adjunction]]
