@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -147,6 +148,19 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
  
 
 * [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998.
+
+Classification of strongly rational holomorphic vertex operator algebras of [[central charge]] $\leq 24$ (of relevance in [[heterotic string theory]] and [[monstrous moonshine]]):
+
+* [[Adrian Norbert Schellekens]], *Meromorphic $c = 24$ Conformal Field Theories*, Commun. Math. Phys. **153** (1993) 159-186 &lbrack;[doi:10.1007/BF02099044](https://doi.org/10.1007/BF02099044)&rbrack;
+
+* [[Chongying Dong]], [[Geoffrey Mason]], *Holomorphic Vertex Operator Algebras of Small Central Charges*, Pacific Journal of Mathematics **213** 2 (2004) 253–266 &lbrack;[arXiv:math/0203005](https://arxiv.org/abs/math/0203005), [doi:10.2140/pjm.2004.213.253](http://dx.doi.org/10.2140/pjm.2004.213.253)&rbrack;
+
+* Philip Boyle Smith, Ying-Hsuan Lin, Yuji Tachikawa, Yunqin Zheng, *Classification of chiral fermionic CFTs of central charge $\leq 16$* &lbrack;[arXiv:2303.16917](https://arxiv.org/abs/2303.16917)&rbrack;
+
+* Brandon C. Rayhaun, *Bosonic Rational Conformal Field Theories in Small Genera, Chiral Fermionization, and Symmetry/Subalgebra Duality* &lbrack;[arXiv:2303.16921](https://arxiv.org/abs/2303.16921)&rbrack;
+
+* [[Gerald Höhn]], [[Sven Möller]], *Classification of Self-Dual Vertex Operator Superalgebras of Central Charge at Most 24* &lbrack;[arXiv:2303.17190](https://arxiv.org/abs/2303.17190)&rbrack;
+
 
 
 ### As algebras over the holomorphic sphere operad
