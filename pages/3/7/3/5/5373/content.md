@@ -429,6 +429,8 @@ $$
   Sp^{\Sigma}_{\mathcal{R}}
 $$
 of [[I-spaces|$\mathcal{I}$-spaces]] into [[symmetric spectra]] [[internalization|internal to]] [[retractive spaces]] (Exp. \ref{ReractiveSpaces}).
+
+An analogous statement is in [Braunack-Mayer (2019), Cor. 2.45](model+structure+for+parameterized+spectra#BraunackMayer19).
 \end{example}
 
 
