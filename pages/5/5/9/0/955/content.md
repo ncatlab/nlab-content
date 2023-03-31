@@ -34,6 +34,8 @@ An object is a triple $X = (P,F,c)$ where
 
 (We conventionally write $X = (P_X, F_X, c_X)$.)
 A morphism $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$. 
+
+Abstractly, this is (a reformulation of) the [[envelope of an adjunction|envelope]] of the [[Isbell duality]] adjunction associated to $\mathcal{T}$.
 =--
 
 The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets, and thus that this is a [[locally small category]].
@@ -293,6 +295,8 @@ Hence $X$ is $F$--concrete.
 When $\mathcal{T}$ is a [[poset]], the category of saturated objects in its Isbell envelope coincides with its [[MacNeille completion]].
 
 ## References
+
+The original reference, in which the Isbell envelope was called the **couple category**:
 
 * [[John Isbell]], _Structure of categories_, Bulletin of the American Mathematical Society 72 (1966), 619&#8211; 655.
 
