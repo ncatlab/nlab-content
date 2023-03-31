@@ -35,10 +35,16 @@ On [[full field algebra]] for [[2d conformal field theory]]:
 
 * {#HuangKong05} [[Yi-Zhi Huang]], [[Liang Kong]], _Full field algebras_, Commun. Math. Phys. **272** (2007) 345-396 &lbrack;[arXiv:0511328](http://arxiv.org/abs/math/0511328), [doi:10.1007/s00220-007-0224-4](https://doi.org/10.1007/s00220-007-0224-4)&rbrack;
 
+On [[braided fusion categories]] formed by [[affine Lie algebra]]-[[representations]] at admissible fractional [[level (Chern-Simons theory)|level]]:
 
-For [[orbifolds]]:
+* [[Thomas Creutzig]], [[Yi-Zhi Huang]], [[Jinwei Yang]], *Braided tensor categories of admissible modules for affine Lie algebras*, Commun. Math. Phys. **362** (2018) 827–854 &lbrack;[arXiv:1709.01865](https://arxiv.org/abs/1709.01865)&rbrack;
+
+
+On [[vertex operator algebras]] for [[orbifold]] [[CFT]]s:
 
 * [[Yi-Zhi Huang]], _Representation theory of vertex operator algebras and orbifold conformal field theory_ ([arXiv:2004.01172](https://arxiv.org/abs/2004.01172))
+
+
 
 
 
