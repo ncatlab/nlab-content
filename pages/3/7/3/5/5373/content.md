@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -371,14 +372,35 @@ We show the [[inference rules]] which are added to plain [[intuitionistic type t
 
 ## Examples
 
-\begin{example}
+\begin{example}\label{ZeroVectorBundlesAmongVectorBundles}
+**(zero-vector bundles among all [[vector bundles]])**
+\linebreak
   For any [[ground field]],
   let $\mathcal{B} \coloneqq Vect_{Set} \coloneqq \int_{S \in Set} Vect S$ be the category [[VectBund]] of [[vector bundles]] over [[Sets]], hence of [[indexed set|indexed]] [[vector spaces]]. Then the functor
 $$
   Set \xhookrightarrow{\;\; 0 \;\;} Vect_{Set}
 $$
-which sends any set $S$ to the [[zero object|zero]] vector bundle $S \times \{0\}$ over $S$ is an ambidextrously bireflective subcategory in the sense of Def. \ref{BireflectiveSubcategory}.
+which sends any set $S$ to the [[zero object|zero]] vector bundle $S \times \{0\}$ over $S$ is a bireflective subcategory in the sense of Def. \ref{BireflectiveSubcategory}.
 \end{example}
+
+\begin{example}\label{ZeroSpectrumBundlesAmongSpectrumBundles}
+**(zero-spectrum bundles among all [[parameterized spectra]])**
+\linebreak
+Let $T Grpd_\infty$ denote the [[(infinity,1)-category|$\infty$-category]] of [[parameterized spectra]] over varying [[infinity-groupoids|$\infty$-groupoids]] (the [[tangent (infinity,1)-category|tangent $\infty$-category]] of [[∞Grpd|$Grpd_\infty$]]). Then the inclusion
+$$
+  Grpd_\infty \hookrightarrow T Grpd_\infty
+$$
+given by sending $X \in Grpd_\infty$ to the zero-spectrum bundle over $X$ ought to count as a "bireflective [[sub-(infinity,1)-category|sub-$\infty$-category]]" (cf. [here](https://ncatlab.org/nlab/show/infinitesimal+cohesion#GoodwillieTangentCohesion) at *[[infinitesimal cohesion]]*). 
+
+A [[model category]]-presentation of this situation by a (left and right) [[Quillen functor]] to a [[model structure for parameterized spectra]] [[underlying]] which is a bireflective sub-1-category inclusion (Def. \ref{BireflectiveSubcategory}) may be recognized in [Hebestreit, Sagave & Schlichtkrull (2020), Lem. 3.19](model+structure+for+parameterized+spectra#HebestreitSagaveSchlichtkrull20), there incarnated as the canonical inclusion
+$$
+  \mathcal{S}^{\mathcal{I}}
+  \hookrightarrow
+  Sp^{\Sigma}_{\mathcal{R}}
+$$
+of [[I-spaces|$\mathcal{I}$-spaces]] into [[symmetric spectra]] [[internalization|internal to]] [[retractive spaces|retractive]] [[I-spaces|$\mathcal{I}$-spaces]].
+\end{example}
+
 
 
 ## Related concepts
