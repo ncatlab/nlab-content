@@ -17,6 +17,20 @@
 
 The **reflexive completion** (also called the **Isbell completion**) of a category $A$ is the [[fixed point of an adjunction|fixed point]] of the [[Isbell duality]] adjunction for $A$.
 
+## Properties
+
+* The reflexive completion is a full subcategory of the [[Isbell envelope]], and can be concretely described as a [[2-pullback]]:
+\begin{tikzcd}
+	{\mathcal R(A)} & {[A^{\mathrm{op}}, \mathrm{Set}]} \\
+	{[A, \mathrm{Set}]^{\mathrm{op}}} & {\mathcal I(A)}
+	\arrow[hook, from=1-1, to=1-2]
+	\arrow[hook, from=1-1, to=2-1]
+	\arrow[hook, from=1-2, to=2-2]
+	\arrow[hook, from=2-1, to=2-2]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+\end{tikzcd}
+See [[envelope of an adjunction]].
+
 ## Related concepts
 
 * [[Isbell duality]]
