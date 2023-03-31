@@ -69,6 +69,8 @@ Then there is also the
 
 * [[model structure for ring spectra]] 
 
+* [[model structure for parameterized spectra]]
+
 * [[model structure for dendroidal left fibrations]]
 
 * [[higher algebra]], [[brave new algebra]], [[higher linear algebra]]
