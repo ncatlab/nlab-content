@@ -15,7 +15,7 @@
 
 ## Definition
 
-Let $L \dashv R$ be an [[adjunction]].
+Let $L \dashv R$ be a pair of [[adjoint functors]] (an [[adjunction]] in [[Cat]]).
 \begin{tikzcd}
 	C & D
 	\arrow[""{name=0, anchor=center, inner sep=0}, "L", bend left, from=1-1, to=1-2]
@@ -39,7 +39,7 @@ such that $(R q) \circ f = f' \circ p$ or equivalently $q \circ g = g' \circ (L 
 
 ## Properties
 
-* A [[functor]] $L \colon C \to D$ is [[left adjoint]] to a functor $R \colon D \to C$ if and only if there is an isomorphism of [[comma categories]] $L \downarrow D \cong C \downarrow R$ and this isomorphism commutes with the [[forgetful functors]] to the [[product category]] $C \times D$. In this case, the envelope $Env(L \dashv R)$ is also isomorphic to these comma categories over the evident forgetful functor to $C \times D$.
+* {#EnvelopeOfAdjunctionCOmmaCategory} A [[functor]] $L \colon C \to D$ is [[left adjoint]] to a functor $R \colon D \to C$ if and only if there is an isomorphism of [[comma categories]] $L \downarrow D \cong C \downarrow R$ and this isomorphism commutes with the [[forgetful functors]] to the [[product category]] $C \times D$ (see [there](adjoint+functor#InTermsOfCommaCategories)). In this case, the envelope $Env(L \dashv R)$ is also isomorphic to these comma categories over the evident [[forgetful functor]] to $C \times D$.
 
 * Every adjunction factors through its envelope via a [[reflection|reflective subcategory]] and a [[coreflection|coreflective subcategory]].
 \begin{tikzcd}
@@ -94,4 +94,5 @@ In particular, $Inv(F \dashv G)$ is the full subcategory of $Env(F \dashv G)$ wh
 ## References
 
 * {#AveryLeinster} [[Tom Avery]], [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, **36** 12 (2021) 306-347 &lbrack;[tac:36-12](http://www.tac.mta.ca/tac/volumes/36/12/36-12abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf)&rbrack;
+
 * {#PavlovicHughes} [[Dusko Pavlovic]], and Dominic JD Hughes. _Tight limits and completions from Dedekind-MacNeille to Lambek-Isbell_. ([arXiv](https://arxiv.org/abs/2204.09285))
