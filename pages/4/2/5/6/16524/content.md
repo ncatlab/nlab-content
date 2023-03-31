@@ -4,6 +4,7 @@
 
 * [webpage](http://www.math.uzh.ch/index.php?assistenten&key1=9218)
 
+
 ## Selected writings
 
 On dg-algebraic models for [[rational parameterized stable homotopy theory]]:
@@ -26,9 +27,9 @@ On dg-algebraic models for [[rational parameterized stable homotopy theory]]:
  
   [doi:10.2140/agt.2021.21.917](https://doi.org/10.2140/agt.2021.21.917)
 
-On [[combinatorial model category]] [[presentable (infinity,1)-category|presentations]] of [[tangent (∞,1)-toposes]]:
+On [[combinatorial model category|combinatorial]] [[model structures for parameterized spectra]]:
 
-* [[nLab:Vincent Braunack-Mayer]], 
+* [[Vincent Braunack-Mayer]], 
 
   **Combinatorial parametrised spectra**
 
