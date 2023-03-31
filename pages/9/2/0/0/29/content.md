@@ -105,6 +105,8 @@ Suppose given $g:hom_A(b,a)$ and $\eta:1_a = g \circ f$ and $\epsilon : f \circ 
 
 * {#Poincaré1908} [[Henri Poincaré]], *The future of mathematics*, Revue generale des Sciences pures et appliquees, Paris, 19th year, No. 23, December, 1908 ([pdf](https://sites.math.rutgers.edu/courses/535/535-f08/Poincare.pdf))
 
+* [[Francis Borceux]], Section 1.9 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
 
 [[!redirects isomorphic]]
 [[!redirects isomorphisms]]
