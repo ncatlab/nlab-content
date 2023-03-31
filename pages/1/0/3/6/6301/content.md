@@ -157,7 +157,7 @@ Then they comment on Martinec's account above, and other's, by saying:
 
 * {#Grigoriev} V. I. Grigor'ev, _Microcausality condition_, The Great Soviet Encyclopedia, 3rd Edition (1970-1979) ([web](http://encyclopedia2.thefreedictionary.com/Microcausality+Condition))
  
-* Jessey Wright, _Quantum field theory: Motivating  the Axiom of Micorcausality_, PhD thesis 2012 ([pdf](http://uwspace.uwaterloo.ca/bitstream/10012/6998/1/Wright_Jessey.pdf))
+* Jessey Wright, _Quantum field theory: Motivating  the Axiom of Microcausality_, PhD thesis 2012 ([pdf](http://uwspace.uwaterloo.ca/bitstream/10012/6998/1/Wright_Jessey.pdf))
 
 * Anthony Duncan, _The Conceptual Framework of Quantum Field Theory -- Dynamics IV: Aspects of locality: clustering, microcausality, and analyticity_, Oxford Scholarship Online ([web](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199573264.001.0001/acprof-9780199573264-chapter-6))
 
