@@ -635,6 +635,10 @@ If two categories can be Morita equivalent, should this be reflected in the page
 
 * [[idempotent complete (infinity,1)-category]]
 
+* [[free bicompletion]]
+
+* [[reflexive completion]]
+
 ## References
 
 The notion of Cauchy complete categories was introduced in
