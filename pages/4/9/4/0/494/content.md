@@ -784,6 +784,16 @@ exhibiting $\mathcal{D}$ as a [[reflective subcategory]] of $\mathcal{C}$. In th
 =--
 
 
+### In terms of comma categories
+ {#InTermsOfCommaCategories}
+
+
+A [[functor]] $L \colon C \to D$ is [[left adjoint]] to a functor $R \colon D \to C$ if and only if there is an isomorphism (not [[equivalence]]) of [[comma categories]] $L \downarrow D \cong C \downarrow R$ and this isomorphism commutes with the [[forgetful functors]] to the [[product category]] $C \times D$. See §B.I.2 of *[[Functorial Semantics of Algebraic Theories]]*.
+
+This characterisation generalises (in the unenriched setting) to [[relative adjunctions]] by replacing $C \downarrow R$ by $J \downarrow R$.
+
+
+
 ### In terms of cographs/correspondences/heteromorphisms
  {#InTermsOfCographsHeteromorphisms}
 
