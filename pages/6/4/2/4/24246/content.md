@@ -18,8 +18,15 @@ with a good review in:
 
 * [[A. Ch. Ganchev]], [[Valentina B. Petkova]], G. M. T. Watts, *A note on decoupling conditions for generic level $\widehat{s l}(3)_k$ and fusion rules*, Nucl. Phys. B **571** (2000) 457-478 $[$<a href="https://doi.org/10.1016/S0550-3213(99)00745-2">doi:10.1016/S0550-3213(99)00745-2</a>$]$
 
+On [[braided fusion categories]] formed by [[affine Lie algebra]]-[[representations]] at admissible fractional [[level (Chern-Simons theory)|level]]:
 
-and interpreted as [[logarithmic CFT|logarithmic]] [[2d CFT|CFTs]]:
+* [[Thomas Creutzig]], [[Yi-Zhi Huang]], [[Jinwei Yang]], *Braided tensor categories of admissible modules for affine Lie algebras*, Commun. Math. Phys. **362** (2018) 827–854 $[$[arXiv:1709.01865](https://arxiv.org/abs/1709.01865)$]$
+
+
+
+
+
+On interpreting fractional level [[WZW models]] as [[logarithmic CFT|logarithmic]] [[2d CFT|CFTs]]:
 
 * {#Gaberdiel01} [[Matthias R. Gaberdiel]], *Fusion rules and logarithmic representations of a WZW model at fractional level*, Nucl. Phys. B **618** (2001) 407-436 $[$[arXiv:hep-th/0105046](https://arxiv.org/abs/hep-th/0105046), <a href="https://doi.org/10.1016/S0550-3213(01)00490-4">doi:10.1016/S0550-3213(01)00490-4</a>)$]$
 
