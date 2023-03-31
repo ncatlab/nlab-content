@@ -191,8 +191,18 @@ For a proof, see
 * [[comma object]]
 
 ## References
+ {#References}
 
-* Comma categories were introduced (without a name) by [[Bill Lawvere]] in [[Functorial Semantics of Algebraic Theories]] to capture [[adjunctions]].
+Comma categories were introduced (in order to [characterize](adjoint+functor#InTermsOfCommaCategories)  [[adjoint functors]], but without giving them a name) in: 
+
+* [[F. W. Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University (1963)
+
+Textbook accounts:
+
+* [[Francis Borceux]], Section 1.6 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+
+See also:
 
 * [[Toby Bartels]], _[Comma categories](http://tobybartels.name/notes/#comma)_
 
