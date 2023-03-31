@@ -294,6 +294,10 @@ Hence $X$ is $F$--concrete.
 
 When $\mathcal{T}$ is a [[poset]], the category of saturated objects in its Isbell envelope coincides with its [[MacNeille completion]].
 
+## Pseudomonadicity and factorisation systems
+
+The assignment of a category to its Isbell envelope extends to a pseudomonad on [[CAT]], whose algebras are categories equipped with [[cylinder factorisation systems]]. See [Garner](#Garner).
+
 ## References
 
 The original reference, in which the Isbell envelope was called the **couple category**:
@@ -302,7 +306,7 @@ The original reference, in which the Isbell envelope was called the **couple cat
 
 * [[John Isbell]], _Normal completions of categories_, Reports of the Midwest Category Seminar, vol. 47, Springer, 1967, 110&#8211;155.
 
-* [[Richard Garner]], _The Isbell monad_, Advances in Mathematics **274** (2015) 516&#8211;537.  [arxiv:1410.7108](https://arxiv.org/abs/1410.7108)
+* {#Garner} [[Richard Garner]], _The Isbell monad_, Advances in Mathematics **274** (2015) 516&#8211;537.  [arxiv:1410.7108](https://arxiv.org/abs/1410.7108)
 
 * [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_, Fundamenta Informaticae 103 (2010), 203&#8211;218.
 
