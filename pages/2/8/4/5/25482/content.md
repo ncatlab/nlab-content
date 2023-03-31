@@ -83,7 +83,9 @@ In particular, $Inv(F \dashv G)$ is the full subcategory of $Env(F \dashv G)$ wh
 
 ## Examples
 
-* The envelope of the [[Isbell duality]] adjunction associated to a category $A$ is the [[Isbell envelope]] of $A$.
+* The envelope of the [[Isbell duality]] adjunction associated to a category $A$ is the [[Isbell envelope]] of $A$ (called the _category of gaps_ in $A$ by [Pavlovic and Hughes](#PavlovicHughes)).
+
+* The envelope of the [[nuclear adjunction]] associated to the [[Isbell duality]] adjunction for a small category $A$ is what [Pavlovic and Hughes](#PavlovicHughes) call the _category of intervals_ in $A$.
 
 ## Related concepts
 
