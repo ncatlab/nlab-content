@@ -2,7 +2,7 @@ __Tom Leinster__ is a mathematician at the University of Edinburgh.
 
 * [web](http://www.maths.ed.ac.uk/~tl/)
 
-## Articles
+## Selected writings
 
 * _Rethinking set theory_, e-print [arXiv:1212.6543 [math.LO]](https://arxiv.org/abs/1212.6543), 2012; see also [discussion on nCafé](https://golem.ph.utexas.edu/category/2012/12/rethinking_set_theory.html)
 
@@ -16,6 +16,10 @@ __Tom Leinster__ is a mathematician at the University of Edinburgh.
   At https://ncatlab.org/publications/published/Leinster2011 , but as of 2022 the live version is not entirely readable: the diagrams and some other typesetting are broken.
 
   A [readable version](https://web.archive.org/web/20131212071554/http://ncatlab.org:80/publications/published/Leinster2011) (give the scripts a few seconds to load after opening the page) can be found in the Internet Archive.
+
+On [[Isbell duality]] and [[reflexive completion]]:
+
+* [[Tom Avery]], [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, **36** 12 (2021) 306-347 &lbrack;[tac:36-12](http://www.tac.mta.ca/tac/volumes/36/12/36-12abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf)&rbrack;
 
 
 ## Books
