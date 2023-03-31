@@ -450,7 +450,7 @@ $$
 
 of finitely generated [[subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[direct sum]] of [[cyclic groups]]. 
 
-By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every cyclic group is sent to a torsion group (of either $A$ or $B).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of direct sums of torsion groups. This is itself a torsion group.
+By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every cyclic group is sent to a torsion group (of either $A$ or $B$).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of direct sums of torsion groups. This is itself a torsion group.
 
 =--
 
