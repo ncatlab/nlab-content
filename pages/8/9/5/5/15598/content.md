@@ -24,7 +24,7 @@ $$
 
 In the case of the $Hom$ profunctor, $Hom: A^{op} \otimes A \to V$, of a $V$-enriched category $A$, this adjunction is known as [[Isbell duality]] or Isbell conjugation.
 
-The **nucleus** of $F$ is the [[center of an adjunction|center]] of this adjunction. In the case where $F = Hom$, the nucleus is called the Isbell or reflexive completion.
+The **nucleus** of $F$ is the [[center of an adjunction|center]] of this adjunction. In the case where $F = Hom$, the nucleus is called the [[reflexive completion]].
 
 ##Examples with $F = Hom$##
 
