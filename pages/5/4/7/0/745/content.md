@@ -192,6 +192,8 @@ For a proof, see
 
 ## References
 
+* Comma categories were introduced (without a name) by [[Bill Lawvere]] in [[Functorial Semantics of Algebraic Theories]] to capture [[adjunctions]].
+
 * [[Toby Bartels]], _[Comma categories](http://tobybartels.name/notes/#comma)_
 
 [[!redirects comma categories]]
