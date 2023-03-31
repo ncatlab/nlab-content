@@ -193,7 +193,7 @@ For a proof, see
 ## References
  {#References}
 
-Comma categories were introduced (in order to [characterize](adjoint+functor#InTermsOfCommaCategories)  [[adjoint functors]], but without giving them a name) in: 
+The notion of comma categories was introduced (in order to [characterize](adjoint+functor#InTermsOfCommaCategories)  [[adjoint functors]], but without giving them a name) in: 
 
 * [[F. W. Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University (1963)
 
