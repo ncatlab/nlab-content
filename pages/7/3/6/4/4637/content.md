@@ -406,6 +406,10 @@ where the second step is the [[Yoneda lemma]]. Similarly the other way round.
 
 See [[Isbell envelope]].
 
+### Reflexive completion
+
+See [[reflexive completion]].
+
 
 ## Examples and similar dualities
 
