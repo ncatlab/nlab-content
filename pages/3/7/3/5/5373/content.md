@@ -22,13 +22,13 @@
 
 By a _bireflective subcategory_ one might mean:
 
-1. a [[subcategory]] $\iota \,\colon\, \mathcal{B} \hookrightarrow \mathcal{C}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]]: $L \dashv \iota \dashv R$ (*[[reflective localization]]* and *coreflective localization*).
+1. a [[subcategory]] $\iota \,\colon\, \mathcal{C} \hookrightarrow \mathcal{B}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]]: $L \dashv \iota \dashv R$ (*[[reflective localization]]* and *coreflective localization*).
 
    Such subcategories are called **essential localizations** by [Kelly & Lawvere (1989)](#KellyLawvere89), following the terminology of *[[essential geometric morphisms]]* from [[topos theory]], see also at *[[level of a topos]]*.
 
    The [[adjoint pair]] $\iota \circ L \dashv \iota \circ R$ is then an [[adjoint modality]]; see there for more.
 
-1. More specfically, one may in addition ask that $L \simeq R$, hence that the subcategory inclusion $\iota$ has an [[ambidextrous adjoint]] $\beta \dashv \iota \dashv \beta$. 
+1. More specifically, one may in addition ask that $L \simeq R$, hence that the subcategory inclusion $\iota$ has an [[ambidextrous adjoint]] $\beta \dashv \iota \dashv \beta$. 
 
    Such subcategories are called **quintessential localizations** by [Johnstone (1996)](#JS96).
 
@@ -372,6 +372,36 @@ We show the [[inference rules]] which are added to plain [[intuitionistic type t
 
 ## Examples
 
+\begin{example}\label{ReractiveSpaces}
+**(spaces among retractive spaces)**
+\linebreak
+  Let $\mathcal{B}$ be the category of [[retraction|retractive]] [[topological spaces]] (or just of [[Sets]]), i.e. the category of [[diagrams]] in [[Top]] ([[Set]]) of the form $B \xrightarrow{i} E \xrightarrow{p} B$ such that $p \circ i \,=\, id_B$. Then the functor
+
+$$
+  \begin{array}{ccc}
+    Top &\hookrightarrow& Top_{\mathcal{R}}
+    \\
+    B &\mapsto& \big[ B \xrightarrow{id} B \xrightarrow{id} B \big]
+  \end{array}
+$$
+
+is a bireflective subcategory inlusion (Def. \ref{BireflectiveSubcategory}) with [[ambidextrous adjoint]] given by 
+
+$$
+  \begin{array}{ccc}
+    Top_{\mathcal{R}} &\longrightarrow& Top
+    \\
+    \big[
+      B \xrightarrow{i} E \xrightarrow{p} B
+    \big]
+    &\mapsto&
+    B
+  \end{array}
+$$
+
+
+\end{example}
+
 \begin{example}\label{ZeroVectorBundlesAmongVectorBundles}
 **(zero-vector bundles among all [[vector bundles]])**
 \linebreak
@@ -398,7 +428,7 @@ $$
   \hookrightarrow
   Sp^{\Sigma}_{\mathcal{R}}
 $$
-of [[I-spaces|$\mathcal{I}$-spaces]] into [[symmetric spectra]] [[internalization|internal to]] [[retractive spaces|retractive]] [[I-spaces|$\mathcal{I}$-spaces]].
+of [[I-spaces|$\mathcal{I}$-spaces]] into [[symmetric spectra]] [[internalization|internal to]] [[retractive spaces]] (Exp. \ref{ReractiveSpaces}).
 \end{example}
 
 
