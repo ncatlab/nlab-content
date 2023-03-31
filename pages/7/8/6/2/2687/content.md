@@ -224,6 +224,8 @@
 
 * [[model structure on ring spectra]]
 
+* [[model structure on parameterized spectra]]
+
 * [[model structure on presheaves of spectra]]
 
 
