@@ -43,6 +43,10 @@ On the [[partition function]] of the [[superstring]] ([[heterotic string theory|
 
 * [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]],  [[Nicholas P. Warner]], *Anomaly cancelling terms from the elliptic genus*, Nuclear Physics B Volume 299, Issue 1, 28 March 1988, Pages 91-116 (<a href="https://doi.org/10.1016/0550-3213(88)90468-3">doi:10.1016/0550-3213(88)90468-3</a>)
 
+On classification of strongly rational holomorphic [[vertex operator algebras]] of [[central charge]] $\leq 24$ (of relevance in [[heterotic string theory]] and [[monstrous moonshine]]):
+
+* [[Adrian Norbert Schellekens]], *Meromorphic $c = 24$ Conformal Field Theories*, Commun. Math. Phys. **153** (1993) 159-186 &lbrack;[doi:10.1007/BF02099044](https://doi.org/10.1007/BF02099044)&rbrack;
+
 
 
 
