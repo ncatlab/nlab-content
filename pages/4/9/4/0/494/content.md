@@ -8,6 +8,9 @@
 =--
 =--
 
+
+> (The special case in [[Cat]] of the general notion of *[[adjunction]]*.)
+
 #Contents#
 * table of contents
 {:toc}
