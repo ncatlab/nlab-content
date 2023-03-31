@@ -199,9 +199,9 @@ where $\overline{\otimes}$ is the external product of def. \ref{ExternalTensorPr
  {#InTermsOfProfunctors}
 
 The Day convolution can also be expressed in terms of [[profunctors]].  The tensor product $\otimes :\mathcal{C}\otimes \mathcal{C}\to \mathcal{C}$ induces a representable profunctor $\mathcal{C}(\otimes,1): \mathcal{C} &#8696; \mathcal{C}\otimes \mathcal{C}$.  The above definition can be interpreted to say that if $X,Y\in [\mathcal{C},V]$ are regarded as profunctors $\mathcal{C} &#8696; I$, where $I$ is the unit $V$-category, then $X\otimes_{Day} Y$ is the composite of profunctors
-$$ \mathcal{C} \xrightarrow{\mathcal{C}(\otimes,1)} \mathcal{C}\otimes \mathcal{C} \xrightarrow{X\otimes Y} I\otimes I \cong I. $$
+$$ \mathcal{C}\xrightarrow{\mathcal{C}(\otimes,1)} \mathcal{C}\otimes \mathcal{C}\xrightarrow{X\otimes Y} I\otimes I \cong I. $$
 A more "global" way to say the same thing is to consider the "evaluation" functor $[\mathcal{C},V] \otimes \mathcal{C} \to V$ to be a profunctor $E:\mathcal{C}&#8696;[\mathcal{C},V]^{op}$.  Then the profunctor composite
-$$ \mathcal{C} \xrightarrow{\mathcal{C}(\otimes,1)} \mathcal{C}\otimes \mathcal{C} \xrightarrow{E\otimes E} [\mathcal{C},V]^{op} \otimes [\mathcal{C},V]^{op}$$
+$$ \mathcal{C}\xrightarrow{\mathcal{C}(\otimes,1)} \mathcal{C}\otimes \mathcal{C}\xrightarrow{E\otimes E} [\mathcal{C},V]^{op} \otimes [\mathcal{C},V]^{op}$$
 is a functor $\mathcal{C}\otimes [\mathcal{C},V] \otimes [\mathcal{C},V] \to V$, which by exponential transpose gives a functor $[\mathcal{C},V] \otimes [\mathcal{C},V] \to [\mathcal{C},V]$; this is the Day convolution product.
 
 
