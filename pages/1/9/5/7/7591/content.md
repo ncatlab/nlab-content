@@ -348,7 +348,7 @@ A notion of spectrum of units of an $E_\infty$-ring was originally described in
 
 One explicit model was given in
 
-* {#Schlichtkrull04} [[Christian Schlichtkrull]], _Units of ring spectra and their traces in algebraic K-theory_, Geom. Topol. 8(2004) 645-673 ([arXiv:math/0405079](http://arxiv.org/abs/math/0405079), [euclid:gt/1513883412](https://projecteuclid.org/euclid.gt/1513883412))
+* {#Schlichtkrull04} [[Christian Schlichtkrull]], _Units of ring spectra and their traces in algebraic K-theory_, Geom. Topol. **8** (2004) 645-673 ([arXiv:math/0405079](http://arxiv.org/abs/math/0405079), [euclid:gt/1513883412](https://projecteuclid.org/euclid.gt/1513883412))
 
 Further discussion in 
 
@@ -380,16 +380,16 @@ A survey of the situation in [[(∞,1)-category theory]] is also in section 3.1 
 
 A construction in terms of a [[model structure on spectra]] is in
 
-* John Lind, _Diagram spaces, diagram spectra, and spectra of units_ ([arXiv:0908.1092](http://arxiv.org/abs/0908.1092))
+* [[John Lind]], _Diagram spaces, diagram spectra, and spectra of units_ ([arXiv:0908.1092](http://arxiv.org/abs/0908.1092))
 
 
-A refinement of the construction of $\infty$-groups of units to [[augmented ∞-groups]] over the [[sphere spectrum]], such as to distinguish $gl_1$ of a [[periodic E-∞ ring]] from its connective cover, is in
+A refinement (using [[I-space|$\mathcal{I}$-spaces]]) of the construction of $\infty$-groups of units to [[augmented ∞-groups]] over the [[sphere spectrum]], such as to distinguish $gl_1$ of a [[periodic E-∞ ring]] from its [[connective cover]]:
 
 * {#Sagave11} [[Steffen Sagave]], _Spectra of units for periodic ring spectra_, Algebr. Geom. Topol. 16 (2016) 1203-1251 ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
  
 based on ([Schlichtkrull 04](#Schlichtkrull04)). See also
 
-* {#SagaveSchlichtkrull11} [[Steffen Sagave]], [[Christian Schlichtkrull]], _Diagram spaces and symmetric spectra_, Advances in Mathematics, Volume 231, Issues 3&#8211;4, October&#8211;November 2012, Pages 2116&#8211;2193 ([arXiv:1103.2764](https://arxiv.org/abs/1103.2764))
+* {#SagaveSchlichtkrull11} [[Steffen Sagave]], [[Christian Schlichtkrull]], *Diagram spaces and symmetric spectra*, Advances in Mathematics **231** 3-4 (2012) 2116-2193 &lbrack;[arXiv:1103.2764](https://arxiv.org/abs/1103.2764), [doi:10.1016/j.aim.2012.07.013](https://doi.org/10.1016/j.aim.2012.07.013)&rbrack;
 
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
