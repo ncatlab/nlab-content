@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 #### Yoneda lemma
 +--{: .hide}
 [[!include Yoneda lemma - contents]]
