@@ -51,6 +51,10 @@ A quintet construction is a [[left adjoint]] to a functor that picks out the [[c
 
 * The assignment of [[homotopy categories]] and [[derived functors]] to [[model categories]] can be made into a [[double pseudofunctor]] from the [[double category of model categories]] to the double category of quintets in [[Cat]] ([this Prop.](double+category+of+model+categories#HomotopyDoublePseudofunctor)).  This implies that [[mates]] are preserved even when they relate composites of left and right [[Quillen functors]].
 
+## Properties
+
+* The quintet construction admits a [[left adjoint]] (see Proposition 8 in [Multiple Functors IV](#BastianiEhresmann79)).
+
 ## References
 
 The concept is due to 
@@ -60,6 +64,8 @@ The concept is due to
 It appears spelled out also in
 
 * {#BastianiEhresmann74} A. Bastiani, [[Charles Ehresmann]], pages 272-273 of  _Multiple functors. I. Limits relative to double categories_, Cah. Top. G&#233;om. Diff&#233;r. Cat&#233;g. 15 (1974) 215&#8211;292
+
+* {#BastianiEhresmann79} [[Andrée Ehresmann]] and [[Charles Ehresmann]]. _Multiple functors IV. Monoidal closed structures on $Cat_n$_, Cahiers de topologie et géométrie différentielle, Volume 20 (1979) no. 1, pp. 59-104. ([link](http://www.numdam.org/item/CTGDC_1979__20_1_59_0/))
 
 * {#GrandisPare04} Grandis, Marco, and Robert Paré. "Adjoint for double categories." Cahiers de topologie et géométrie différentielle catégoriques 45.3 (2004): 193-240. [link](http://www.numdam.org/item/CTGDC_2004__45_3_193_0/)
 
