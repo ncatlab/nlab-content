@@ -1443,7 +1443,15 @@ External presentations reporting on work at CQTS.
  
   talk at *[UAE U Nonlinear Physics Group Conference](https://ncatlab.org/nlab/files/UAEU-Non%20LinPhyGrpConf2023-Program.pdf)*, Al Ain
 
+\linebreak
 
+### Mar 2023
+
+<center>
+<img src="/nlab/files/CQTS-QC_Presentation_to_AlRaha.jpg" width="750">
+</center>
+
+> [[Asif Equbal]] (far left) and [[Amaria Javed]] (far right)
 
 \linebreak
 
