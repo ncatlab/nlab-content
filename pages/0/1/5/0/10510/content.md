@@ -620,11 +620,14 @@ On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mappin
 
 ## Related concepts
 
+* [[model structure for parameterized spectra]]
+
 * [[rational parametrized homotopy theory]]
 
   * [[rational fibration lemma]]
 
 * [[rational parameterized stable homotopy theory]]
+
 
 ## References
 
@@ -647,20 +650,35 @@ On respective [[model category]]-structures:
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
-  
-A formulation of aspects of this in [[(∞,1)-category theory]] is in 
+Discussion of [[parameterized spectra]] over varying bases, hence of [[tangent (infinity,1)-category|tangent $\infty$-categories]]:
+
+Discussion in [[(∞,1)-category theory]]: 
 
 * {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22 (2018) 3761-3825 ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
   
-Discussion of convenient [[model category]] [[presentable (infinity,1)-category|presentations]]:
+  
+Discussion of [[model structures for parameterized spectra]]:
 
-* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496)&rbrack;
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
+
+  > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]])
+
+* [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
 
 Discussion as a [[linear homotopy type theory]]:
 
 * {#Schreiber14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_ &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
 
+  > (intended [[categorical semantics]])
+
 * [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
+
+  > ([[inference rules]] for the [[classical modality]] $\natural$)
+
+* {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269),  [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
+
+  > (including [[inference rules]] for the [[multiplicative conjunction]] by bringing in the required [[bunched logic]])
+
 
 
 
