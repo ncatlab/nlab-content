@@ -226,6 +226,11 @@ In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any mono
 
 * [[jointly monic morphisms]]
 
+## References
+
+* [[Francis Borceux]], Section 1.7 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+
 [[!redirects monomorphisms]]
 [[!redirects monic]]
 [[!redirects monics]]
