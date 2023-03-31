@@ -77,19 +77,23 @@ In any category enriched over pointed sets, the kernel of a morphism $f:c\to d$ 
 This is a special case of the construction of [[generalized kernels]] in enriched categories.
 
 ### As a representing object
+ {#AsARepresentingObject}
 
-Let $Ab$ be the category of abelian groups. It is a category with kernels. In  every $Ab$-enriched category $A$, for every morphism $f: X\to Y$ in $A$ there is a [[subfunctor]] 
+Let [[Ab]] be the [[category]] of [[abelian groups]]. This has all kernels, in particular (it is the archetypical [[abelian category]]). 
 
-$$ker f : A^{op}\to Ab$$
+In  every [[Ab]]-[[enriched category]] $A$, for every [[morphism]] $f \colon X\to Y$ in $A$ there is a [[subfunctor]] 
 
-of the representable functor $hom(-,X)$, defined on objects by
+$$ker f \colon A^{op}\to Ab$$
 
-$$ (ker f)(Z) = ker(hom(Z,X)\to hom(Z,Y)), $$
+of the [[representable functor]] $hom(-,X)$, defined on [[objects]] by
 
-where $ker$ on the right-hand side is the kernel in the category of abelian groups.
+$$ (ker f)(Z) = ker\big(hom(Z,X)\to hom(Z,Y)\big), $$
 
-If the category is in fact preabelian, $ker f$ is also representable with representing object $Ker f$. One has to be careful with $Coker f$ which does not represent the functor naive  $coker f$ defined as $(coker f)(Z) = coker(hom(Z,X)\to hom(Z,Y))$ in $Ab$,
-which is often not representable at all, even in the simple example of the category of abelian groups.  Instead, as a colimit construction, one should *co*represent another functor, namely, the covariant functor $Z\mapsto ker(hom(Y,Z) \to hom(X,Z))$ (which is a quotient of the corepresentable functor $hom(X,-)$). In short, $Coker f$ is defined by the double dualization using the kernel in $Ab$: $Coker f = (Ker f^{op})^{op}$.  This is a particular case of the dualization involved in defining any [[colimit]] from its corresponding [[limit]].
+where $ker$ on the right-hand side is the kernel in [[Ab]].
+
+If the category is in fact [[preabelian category|preabelian]], $ker f$ is also representable with [[representing object]] $Ker f$. One has to be careful with the [[cokernel]] $Coker f$, which does not represent the functor naive  $coker f$ defined as $(coker f)(Z) = coker\big(hom(Z,X)\to hom(Z,Y)\big)$ in [[Ab]],
+which is often not representable at all, even in the simple example of the category of [[abelian groups]].  Instead, as a [[colimit]] construction, one should [[corepresentable functor|co-represent]] another functor, namely, the [[covariant functor]] $Z\mapsto ker\big(hom(Y,Z) \to hom(X,Z)\big)$ (which is a [[quotient object|quotent]] of the corepresentable functor $hom(X,-)$). In short, $Coker f$ is defined by the "double dualization" (passing to [[opposite categories]]) of the kernel in [[Ab]]: $Coker f = (Ker f^{op})^{op}$.  This is a particular case of the dualization involved in defining any [[colimit]] from its corresponding [[limit]].
+
 
 ### In an $(\infty,1)$-category 
 
