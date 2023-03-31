@@ -26,15 +26,15 @@ The operation of completion is a [[2-monad]] which is [[colax idempotent 2-monad
 
 ## Related concepts
 
-* [[free construction]]
-
 * [[free cocompletion]]
 
-  [[free coproduct completion]]
+* [[free bicompletion]]
 
-  [[idempotent completion]], [[Karoubi envelope]]
+* [[free construction]]
 
-  [[Cauchy completion]]
+* [[free coproduct completion]]
+
+* [[idempotent completion]], [[Karoubi envelope]], [[Cauchy completion]]
 
 [[!redirects free completions]]
 
