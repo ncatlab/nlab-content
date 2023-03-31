@@ -902,6 +902,8 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 
 * [[parameterized spectra]]
 
+* [[model structure for parameterized spectra]]
+
 * [[Joyal locus]]
 
 * [[doubly closed monoidal (infinity,1)-category]]
