@@ -633,7 +633,10 @@ More recent discussion is in
 
 * {#DiLiberti} [[Ivan Di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, ([arXiv:1910.01014](https://arxiv.org/abs/1910.01014))
 
-* Tom Avery, [[Tom Leinster]], _Isbell conjugacy and the reflexive completion_, arXiv:2102.08290 (2021). ([abstract](https://arxiv.org/abs/2102.08290))
+* [[Tom Avery]], [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, **36** 12 (2021) 306-347 &lbrack;[tac:36-12](http://www.tac.mta.ca/tac/volumes/36/12/36-12abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf)&rbrack;
+
+  > (relation to [[reflexive completion]])
+
 
 * {#Baez22} [[John Baez]], Isbell duality, *Notices Amer. Math. Soc.* **70** (2022) 140-141 &lbrack;[doi:10.1090/noti2602](https://doi.org/10.1090/noti2602), [pdf](https://www.ams.org/journals/notices/202301/rnoti-p140.pdf)&rbrack;
 
