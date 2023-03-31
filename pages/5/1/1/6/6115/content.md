@@ -111,9 +111,13 @@ In [[twisted cohomology]].
 
 * [[twisted differential cohomology]]
 
+
 ## References
  {#References}
 
+### Over a fixed base
+
+> See also the further references at _[[(∞,1)-module bundle]]_.
 
 Parameterized spectra over a fixed base (in any suitable [[model category]]) are discussed in 
 
@@ -121,27 +125,33 @@ Parameterized spectra over a fixed base (in any suitable [[model category]]) are
 
 A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
 
-* {#MaySigurdsson06} [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_, 2006
-  
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_, Mathematical Surveys and Monographs **132**, AMS (2006) &lbrack;[arXiv:math/0411656](https://arxiv.org/abs/math/0411656)&rbrack;
 
-A formulation of aspects of this in [[(∞,1)-category theory]] is in 
+A formulation of aspects of this in [[(∞,1)-category theory]]:
 
 * {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22 (2018) 3761-3825 ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
-  
-Discussion of convenient [[model category]] [[presentable (infinity,1)-category|presentations]]:
 
-* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
+Discussion of the [[Beck-Chevalley condition]]:
 
-See also the further references at _[[(∞,1)-module bundle]]_.
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], prop. 4.3.3 in: _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
-Discussion of the [[Beck-Chevalley condition]] is in prop. 4.3.3 of
-
-* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
-
-Discussion of the Kozul duality between $\mathbb{S}[\Omega X]$-module spectra and $\mathbb{S}[X]$-comodule spectra is in
+Discussion of the [[Koszul duality]] between $\mathbb{S}[\Omega X]$-module spectra and $\mathbb{S}[X]$-comodule spectra is in
 
 * {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]], _Waldhausen K-theory of spaces via comodules_, Advances in Mathematics 290 (2016): 1079-1137 ([arXiv:1402.4719](https://arxiv.org/abs/1402.4719))
 
+
+
+### Over varying bases
+
+Discussion of parameterized spectra over varying bases, hence of [[tangent (infinity,1)-category|tangent $\infty$-categories]]:
+  
+Discussion of suitable [[model structures for parameterized spectra]]:
+
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
+
+  > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]])
+
+* [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
 
 Discussion as a [[linear homotopy type theory]]:
 
@@ -155,7 +165,7 @@ Discussion as a [[linear homotopy type theory]]:
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269),  [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
-  > (full [[inference rules]] by bringing in the required [[bunched logic]])
+  > (including [[inference rules]] for the [[multiplicative conjunction]] by bringing in the required [[bunched logic]])
 
 
 
