@@ -225,6 +225,8 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 * [[free completion]]
 
+* [[free bicompletion]]
+
 ## References 
 
 * {#DayLack} [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
