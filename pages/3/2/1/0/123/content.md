@@ -467,7 +467,12 @@ which provides an alternative expression of the functoriality condition as simpl
 
 ## References
 
-See the references at:
+Textbook accounts:
+
+* [[Francis Borceux]], Section 1.2 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+
+See also the references at:
 
 * [[category theory#references|category theory - references]].
 
