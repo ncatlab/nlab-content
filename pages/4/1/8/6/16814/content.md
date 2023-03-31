@@ -113,6 +113,8 @@ Then the proof only uses the unit/counit definition of adjunction, which is vali
 
 ## Properties
 
+* The fixed point construction can be seen as a 2-adjoint. See [[envelope of an adjunction]] for details.
+
 * If the adjunction is [[idempotent adjunction|idempotent]], then the fixed objects in $\mathcal{C}$ are precisely those of the form $G d$, and dually the fixed objects in $\mathcal{D}$ are those of the form $F c$.  Indeed, this is essentially the definition of an idempotent adjunction.
 
 * At the other extreme, it may be the case that there are no fixed points of an adjunction, and the restriction to an equivalence is between empty categories. An example is the adjunction between sets and [[pointed sets]]. The left adjoint adjoins a new distinguished point and the right adjoint forgets which point is chosen. In this case, the unit of the adjunction is never surjective and so is never an isomorphism. This can be generalized to any algebraic theory that has a non-trivial constant. These examples give adjunctions which are "maximally non-idempotent".
