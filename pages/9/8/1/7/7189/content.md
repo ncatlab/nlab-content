@@ -131,7 +131,7 @@ The role in shape theory is discussed in
 
 For a description of the [[Giry monad]] and other [[probability monads]] as codensity monads, see
 
-* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
+* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, Journal of Pure and Applied Algebra **220** 3 (2016) 1229-1251 &lbrack;[arXiv:1410.4432](https://arxiv.org/abs/1410.4432), [doi:10.1016/j.jpaa.2015.08.017](https://doi.org/10.1016/j.jpaa.2015.08.017)&rbrack;
 
 * Ruben Van Belle, _Probability monads as codensity monads_. Theory and Applications of Categories 38 (2022), 811–842, ([tac](http://tac.mta.ca/tac/volumes/38/21/38-21abs.html))
 
