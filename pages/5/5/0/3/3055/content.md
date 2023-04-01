@@ -24,24 +24,24 @@
 For $C$ any [[category]], there is a [[functor]]
 
 $$
-  t : [I,C] \to C
+  t \;\colon\; [I,C] \longrightarrow C
   \,,
 $$
 
 from the [[arrow category]] $[I,C] = Arr(C)$ that sends each [[morphism]] $(c_1 \stackrel{f}{\to} c_2) \in [I,C]$ to its [[codomain]] $c_2$.
 
-This functor is always an [[Grothendieck fibration|opfibration]]. Under the [[Grothendieck construction]] it corresponds to the [[pseudofunctor]]
+This functor is always an [[Grothendieck opfibration]]. Under the [[Grothendieck construction]] it corresponds to the [[pseudofunctor]]
 
 $$
-  C/(-) : C \to Cat
+  C_{(-)} \,\colon\, C \longrightarrow Cat
 $$
 
-that sends each object $c \in C$ to the [[overcategory]] $C/c$.
+that sends each object $c \in C$ to the [[overcategory]] $C_{/c}$.
 
-If $C$ has all [[pullbacks]], then the functor is in addition a [[Grothendieck fibration|fibration]], hence a [[bifibration]]. 
-Traditionally, though, its fibered aspect is emphasised (and it even motivates the notion of cartesianess for categories over categories).  A right adjoint $u_*$ of $u^*$ exists for every morphism $u$ in $C$ iff C is a [[locally cartesian closed category]].
+If $C$ has all [[pullbacks]], then the functor is in addition a [[Grothendieck fibration]], hence a [[bifibration]]. 
+Traditionally it is this fibered aspect is emphasised (and it even motivates the notion of *[[Cartesian fibrations]]*).  A [[right adjoint]] $u_*$ of $u^*$ exists for every morphism $u$ in $C$ iff C is a [[locally cartesian closed category]].
 
-This functor $cod : [I,C] \to C$ is called the **codomain fibration** of $C$.
+In any case, this functor $cod \colon [I,C] \to C$ is called the **codomain fibration** of $C$.
 
 Some say **basic fibration** or **[[indexed category|self-indexing]]** or the **fundamental fibration** --- anything with so many names must be important! 
 
@@ -56,13 +56,13 @@ We spell out the details of the functor, of its cartesian and opcartesian morphi
 Recall from the discussion at [[arrow category]] that the objects in $Arr(C)$ are morphisms in $C$ and the morphisms $(f:x_1\to x_2)\to (g: y_1\to y_2)$ in $Arr(C)$ are the commutative squares in $C$ of the form 
 
 $$\array{
-    x_1 &\stackrel{v}\to& y_1
+    x_1 &\stackrel{v}\longrightarrow& y_1
     \\
-    \downarrow\mathrlap{f} 
+    \big\downarrow\mathrlap{f} 
     &&
-   \downarrow\mathrlap{g}
-   \\
-   x_2 &\stackrel{u}\to& y_2
+    \big\downarrow\mathrlap{g}
+    \\
+    x_2 &\stackrel{u}\longrightarrow& y_2
 }$$
 
 with the obvious composition. 
