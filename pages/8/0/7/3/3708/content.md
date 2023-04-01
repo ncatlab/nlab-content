@@ -1,4 +1,4 @@
-> This page is about the construction of "the tangent category of a category" by abelianization.  For categories equipped with an abstract "tangent bundle" construction on their objects, see [[tangent bundle category]].
+> This page is about the construction of "the tangent category of a category" by abelianization.  For categories equipped with an abstract "tangent bundle" construction on their objects, see *[[tangent bundle category]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,7 +22,7 @@ For the moment see there for further motivation.
 
 The tangent category $T_C$ of $C$ is effectively the _fiberwise abelianization_ of the [[codomain fibration]] $cod : [I,C] \to C$:
 
-we may think of it as obtained from the codomain fibration by replacing each [[overcategory]] fiber $[I,C]_A = C/A$ by the corresponding category of abelian [[group object]]s and restricting the morphisms such as to respect the abelian group object structure.
+we may think of it as obtained from the codomain fibration by replacing each [[overcategory]] fiber $[I,C]_A = C/A$ by the corresponding category of [[abelian group|abelian]] [[group objects]] and restricting the morphisms such as to respect the abelian group object structure.
 
 ## Definition
 
@@ -30,7 +30,7 @@ Let $C$ be a [[category]] with [[pullback]]s. Then the **tangent category** $T_C
 
 * [[object]]s are pairs $(A,\mathcal{A})$ with $A \in Ob(C)$ and with $\mathcal{A}$ a [[Beck module]] over $A$, i.e. an abelian [[group object]] in the [[overcategory]] $C/A$;
 
-  notice that for $\mathcal{B} \to B$ an object in the overcategory that is equipped with the structure of an abelian group object -- notably with a product $prod_{\mathcal{B}} : \mathcal{B} \times_B \mathcal{B} \to  \mathcal{B}$ -- and for $f : A \to B$ any morphism in $C$, the [[pullback]] $f^* \mathcal{B} := A \times_B \mathcal{B}$ in $C$ is naturally equipped with the structure of an abelian group object in $C/A$;
+  notice that for $\mathcal{B} \to B$ an object in the overcategory that is equipped with the structure of an abelian group object -- notably with a product $prod_{\mathcal{B}} : \mathcal{B} \times_B \mathcal{B} \to  \mathcal{B}$ -- and for $f \colon A \to B$ any morphism in $C$, the [[pullback]] $f^* \mathcal{B} \coloneqq A \times_B \mathcal{B}$ in $C$ is naturally equipped with the structure of an [[abelian group|abelian]] [[group object]] [[internalization|internal to]] the [[slice category]] $C/A$;
   
 
 * [[morphism]]s $(f, \mathcal{f}) : (A,\mathcal{A}) \to (B, \mathcal{B})$ are commuting squares
