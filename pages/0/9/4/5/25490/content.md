@@ -61,4 +61,14 @@ This monoidal structure on $\mathcal{I}$-spaces is more homotopy-truthful than t
 
 * {#SagaveSchlichtkrull11} [[Steffen Sagave]], [[Christian Schlichtkrull]], §1.1 and §3 in: *Diagram spaces and symmetric spectra*, Advances in Mathematics **231** 3-4 (2012) 2116-2193 &lbrack;[arXiv:1103.2764](https://arxiv.org/abs/1103.2764), [doi:10.1016/j.aim.2012.07.013](https://doi.org/10.1016/j.aim.2012.07.013)&rbrack;
 
+Discussion mostly in relation to [[symmetric spectra]]
+
+* [[Stefan Schwede]], Section 3.4 of: *[[Symmetric spectra]]* (2012) &lbrack;[pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf)&rbrack;
+
+and [[parameterized spectra|paramterized]] [[symmetric spectra]]:
+
+* {#HebestreitSagaveSchlichtkrull20} [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
+
+
+
 [[!redirects I-spaces]]
