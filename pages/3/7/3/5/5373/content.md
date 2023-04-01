@@ -350,9 +350,9 @@ The other claims follow similarly.
 
 A [[modal type theory]] for bireflection [[modalities]] has been proposed in [RFL21](#RFL21).
 
-We show the [[inference rules]] which are added to plain [[intuitionistic type theory]] for encoding the presence of a bireflection $\natural$ on the type system.
+We show the [[inference rules]] which are added to plain [[intuitionistic type theory]] for encoding the presence of a bireflection [[classical modality]] $\natural$ on the type system.
 
-(Beware the notational asymmetry: An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along $\epsilon$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-modal or not.)
+(Beware the notational asymmetry: An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along the [[counit of a comonad|counit]] $\epsilon^{\natural}$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-[[modal type|modal]] or not.)
 
 <center>
 <img src="/nlab/files/BireflectiveTypesStructureRules-230327.jpg" width="690">
@@ -375,7 +375,7 @@ We show the [[inference rules]] which are added to plain [[intuitionistic type t
 \begin{example}\label{ReractiveSpaces}
 **(spaces among retractive spaces)**
 \linebreak
-  Let $\mathcal{B}$ be the category of [[retraction|retractive]] [[topological spaces]] (or just of [[Sets]]), i.e. the category of [[diagrams]] in [[Top]] ([[Set]]) of the form $B \xrightarrow{i} E \xrightarrow{p} B$ such that $p \circ i \,=\, id_B$. Then the functor
+  Let $\mathcal{B}$ be the category of [[retractive space|retractive]] [[topological spaces]] (or just of [[Sets]]), i.e. the category of [[diagrams]] in [[Top]] ([[Set]]) of the form $B \xrightarrow{i} E \xrightarrow{p} B$ such that $p \circ i \,=\, id_B$. Then the functor
 
 $$
   \begin{array}{ccc}
