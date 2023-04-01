@@ -697,7 +697,7 @@ and in improved form due to
 
 The right-properness condition is shown to be unnecessary in 
 
-* {#Stanculescu08} Alexandru E. Stanculescu, _Note on a theorem of Bousfield and Friedlander_, Topology Appl. 155 (2008), no. 13, 1434--1438 ([arXiv:0806.4547](http://arxiv.org/abs/0806.4547))
+* {#Stanculescu} [[Alexandru E. Stanculescu]], *Note on a theorem of Bousfield and Friedlander*, Topology and its Applications **155** 13 (2008) 1434-1438 &lbrack;[arxiv:0806.4547](https://arxiv.org/abs/0806.4547), [doi:10.1016/j.topol.2008.05.003](https://doi.org/10.1016/j.topol.2008.05.003)&rbrack;
 
 Textbook accounts include
 
