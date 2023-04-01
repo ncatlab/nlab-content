@@ -335,6 +335,8 @@ With this the claim follows as in prop. \ref{RetractsOfLimits}.
 
 ## Related concepts
 
+* [[retractive space]]
+
 * [[deformation retract]], [[neighbourhood retract]]
 
 * [[absolute retract]]
