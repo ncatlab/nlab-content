@@ -1,4 +1,5 @@
 
+* [SEP entry](https://plato.stanford.edu/entries/tarski/)
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Alfred_Tarski)
 
