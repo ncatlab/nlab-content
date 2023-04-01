@@ -118,9 +118,10 @@ This means that:
 
 * the [[objects]] of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$,
 
-* {#TheMorphisms} and morphisms in $\int F$ are given by pairs $\big(c \overset{f}{\to} c',\, F(f)(a) \overset{\phi}{\to} a'\big)$. This may be visualized as:
+* {#TheMorphisms} and morphisms in $\int F$ are given by pairs $\big(c \overset{f}{\to} c',\, F(f)(a) \overset{\phi}{\to} a'\big)$. As systems of [[diagrams]] in [[Cat]] this looks as follows:
 
-<img src="/nlab/files/CovariantGrothendieckConstrSchema-230401b.jpg" width="300">
+<img src="/nlab/files/CovariantGrothendieckConstrSchema-230401c.jpg" width="300">
+
 
 This construction extends to a [[2-functor]] between [[bicategories]]
 
@@ -151,7 +152,11 @@ In this case,
 
 * the objects of $\int F$ are again pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$, but
 
-* the morphisms in $\int F$ from $(c,a)$ to $(c',a')$ are pairs $(c \overset{f}{\to} c', a \overset{\alpha}{\to} F(f)(a'))$.
+* {#TheMorphismsContra} the morphisms in $\int F$ from $(c,a)$ to $(c',a')$ are pairs $\big(c \overset{f}{\to} c', a \overset{\phi}{\to} F(f)(a')\big)$:
+
+<img src="/nlab/files/ContravariantGrothendieckConstrSchema-230401.jpg" width="300">
+
+
 
 
 ## Properties
@@ -663,13 +668,173 @@ The term 'Grothendieck Construction' is applied in the literature to at least tw
 
 ## Examples
 
-A [[representable functor]] $C(-,X) :  C^{op} \to Set \hookrightarrow Cat$ maps under the Grothendieck construction to the [[slice category]] $C/X$. The corresponding fibrations $C/X \to C$ are also called [[representable fibered categories]].
+\begin{example}
+**(representable functor and slice categories)**
+\linebreak
+A [[representable functor]] $C(-,X) \colon  C^{op} \to Set \hookrightarrow Cat$ maps under the Grothendieck construction to the [[slice category]] $C/X$. The corresponding fibrations $C/X \to C$ are also called *[[representable fibered categories]]*.
+\end{example}
+
+\begin{example}\label{SliceCategoriesAndArrowCategory}
+**(slice categories and arrow category)**
+\linebreak
+For $\mathcal{S}$ any category, let
+$$
+  \mathcal{S}_{(-)}
+  \,\colon\,
+  \mathcal{S}
+  \longrightarrow
+  Cat
+$$
+be the [[pseudofunctor]] which sends
+
+* an [[object]] $B \,\in\, \mathcal{S}$ to the [[slice category]] $\mathcal{S}_{/B}$,
+
+* a [[morphism]] $f \colon B \to B'$ to the left [[base change]] [[functor]] $f_! \,\colon\, \mathcal{C}_{B} \to \mathcal{C}_{/B'}$ given by post-[[composition]] in $\mathcal{C}$.
+
+The [[Grothendieck construction]] on this functor is the [[arrow category]] $\mathcal{S}^{I}$ of $\mathcal{S}$:
+
+$$
+  \mathcal{S}^{I}
+  \;\;\;
+    \simeq
+  \;\;\;
+  \int_{B \in \mathcal{S}}
+  \mathcal{S}_{/B}
+  \mathrlap{\,.}
+$$
+
+This follows readily by unwinding the definitions.
+In the refinement to the [[Grothendieck construction for model categories]] (here: [[slice model categories]] and [[model structures on functors]]) this equivalence is also considered for instance in [Harpaz & Prasma (2015), above Cor. 6.1.2](Grothendieck+construction+for+model+categories#HarpazPrasma15).
+
+The correponding [[Grothendieck fibration]] is also known as the *[[codomain fibration]]*, a priori an [[opfibration]].
+
+But if $\mathcal{S}$ has all [[pullbacks]], then there is also the [[contravariant functor|contravariant]] [[pseudofunctor]]
+$$
+  \mathcal{S}_{(-)}
+  \,\colon\,
+  \mathcal{S}^{op}
+  \longrightarrow
+  Cat
+$$
+which sends
+
+* an [[object]] $B \,\in\, \mathcal{S}$ to the [[slice category]] $\mathcal{S}_{/B}$,
+
+* a [[morphism]] $f \colon B \to B'$ to the [[base change]] [[functor]] $f^\ast \,\colon\, \mathcal{C}_{B'} \to \mathcal{C}_{/B}$ given by [[pullback]] in $\mathcal{C}$.
+
+The corresponding (contravariant) Grothendieck construction is still the [[arrow category]] of $\mathcal{S}$, but now exhibited as a [[Grothendieck fibration]] (instead of or rather: in addition to being an [[opfibration]]) over $\mathcal{S}$. This is often the default meaning of the term *[[codomain fibration]]*.
+\end{example}
+
+In slight variation of Exp. \ref{SliceCategoriesAndArrowCategory}:
+
+\begin{example}\label{PointedSliceCategoriesAndRetractiveSpaces}
+**(pointed slice categories and retractive spaces)**
+\linebreak
+Let $\mathcal{S}$ be a category with all [[pushouts]] and consider the [[pseudofunctor]]
+
+$$
+  \big(\mathcal{S}_{(-)}\big)^{\ast/}
+  \,\colon\,
+  \mathcal{S}
+  \longrightarrow
+  Cat
+$$
+which sends
+
+* an [[object]] $B \,\in\, \mathcal{S}$ to the category of [[pointed objects]] in the [[slice category]] $\mathcal{S}_{/B}$,
+
+* a [[morphism]] $f \colon B \to B'$ to the [[functor]] $f_! \;\colon\; \big(\mathcal{S}_{/B}\big)^{\ast/} \to \big(\mathcal{S}_{/B'}\big)^{\ast/}$ which forms the [[pushout]] of [[retraction]] [[diagrams]]:
+
+\begin{tikzcd}[
+    row sep=30pt
+  ]
+    B 
+    \ar[d, "{i}"{description}]
+    \ar[rr, "{f}"{description}]
+    \ar[
+      drr,
+      phantom,
+      "{
+        \scalebox{.6}{
+          (po)
+        }
+      }"{pos=.7}
+    ]
+    &&
+    B' 
+    \ar[d, "{ f_!(i) }"{description}]    
+    \\
+    E 
+    \ar[d, "{p}"{description}]
+    \ar[rr, "{\widehat f}"{description}]
+    \ar[
+      drr,
+      phantom,
+      "{
+        \scalebox{.6}{
+          (po)
+        }
+      }"{pos=.7}
+    ]
+    &&
+    f_! E
+    \ar[d, "{f_!(p)}"{description}]
+    \\
+    B
+    \ar[
+      rr, 
+      "{f}"{description}
+    ]
+    &&
+    B'
+\end{tikzcd}
+
+The corresponding [[Grothendieck construction]] is also known (at least when $\mathcal{S}$ is regarded as a category of "spaces") as the category $\mathcal{S}_{\mathcal{R}}$ of "[[retractive spaces]]" in $\mathcal{S}$:
+
+$$
+  \mathcal{S}_{\mathcal{R}}
+  \;\;\;
+    \simeq
+  \;\;\;
+  \int_{B \in \mathcal{S}}
+  \big(
+    \mathcal{S}_{/\mathcal{B}}
+  \big)^{\ast/}
+  \,.
+$$
+
+This follows readily from the definitions, but see also [Braunack-Mayer (2021), Rem. 1.15](retractive+space#BraunackMayer19); [Hebestreit, Sagave & Schlichtkrull (2020), Lem. 2.14](retractive+space#HebestreitSagaveSchlichtkrull20), where this is the basis of a [[model structure for parameterized spectra|model category-presentation]] of the [[tangent (infinity,1)-category|tangent $\infty$-category]] of (the [[simplicial localization]] of) $\mathcal{S}$.
+\end{example}
+
+In alternative slight variation of Exp. \ref{SliceCategoriesAndArrowCategory}:
+
+\begin{example}\label{AbelianizedSlicesAndTangentCategory}
+**(abelianized slice categories and tangent category)**
+For $\mathcal{S}$ a category with [[finite limits]], let 
+
+$$
+  Ab\big(
+    \mathcal{S}_{/(-)}
+  \big)
+  \;\;
+  \colon
+  \;\;
+  \mathcal{S}^{op}
+  \longrightarrow
+  Cat
+$$
+be the [[contravariant functor|contravariant]] [[pseudofunctor]] which sends
+
+* any [[object]] $B \in \mathcal{S}$ to the category $Ab\big(\mathcal{S}_{/B}\big)$ of [[abelian group|abelian]] [[group objects]] [[internalization|internal]] to the [[slice category]] $\mathcal{S}_{/B}$
+
+* any [[morphism]] $f \colon B \to B'$ to the [[base change]] [[functor]] $f^\ast \colon Ab\big(\mathcal{S}_{/B'}\big) \to Ab\big(\mathcal{S}_{/B}\big)$ given by [[pullback]] in $\mathcal{C}$ (which [[preserved limit|preserves]] [[group objects]]).
+
+The [[Grothendieck construction]] on this functor may be called the *[[tangent category]]* of $\mathcal{S}$.
+\end{example}
 
 ## Related concepts
 
 * [[category of elements]]
-
-* **Grothendieck construction**
 
 * [[(infinity,1)-Grothendieck construction]]
 
