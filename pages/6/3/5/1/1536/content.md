@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -75,54 +74,63 @@ The Grothendieck construction can also be generalized beyond fibrations, to the 
 
 
 ## Definition 
+ {#Definition}
 
-Let [[Cat]] be the [[2-category]] of [[categories]], [[functor]]s and [[natural transformation]]s.  In line with the philosophy of [[generalized universal bundles]], the "universal [[Cat]]-[[bundle]]" is $Cat_{*,\ell} \to Cat$.  Here $Cat_{*,\ell}$ denotes the (2-)category of "lax-[[pointed object|pointed]]" [[categories]], also known as the "lax slice" of $Cat$ under the [[terminal category]] $*\in Cat$.  Its objects are pointed categories, i.e. pairs $(A,a)$ where $A$ is a category and $a$ is an object of $A$, and its morphisms $(A,a) \to (B,b)$ are pairs $(f,\gamma)$ where $f\colon A\to B$ is a functor and $\gamma\colon f(a)\to b$ is a morphism in $B$.  The projection $Cat_{*,\ell} \to Cat$ is just the forgetful functor.
+Let [[Cat]] denote the [[2-category]] of [[categories]], [[functors]] and [[natural transformations]].  
 
-Then if $F\colon C \to Cat$ is a [[pseudofunctor]] from a category $C$ to $Cat$, the **Grothendieck construction** for $F$ is the (strict) [[2-pullback]] $ p : \int F \to C$ of $Cat_{*,\ell} \to Cat$ along $F$:
+In line with the philosophy of [[generalized universal bundles]], consider the "universal [[Cat]]-[[bundle]]"  
+
+$$
+  \begin{array}{c}
+    Cat_{*,\ell}
+    \\
+    \big\downarrow
+    \\
+    Cat
+    \mathrlap{\,,}
+  \end{array}
+$$
+
+namely the [[2-category]] of "lax-[[pointed object|pointed]]" [[categories]], also known as the "[[lax slice 2-category|lax slice]]" of [[Cat]] under the [[terminal category]] $\ast \,\in\, Cat$:  
+
+* Its objects are [[pointed categories]] (i.e. [[pairs]] $(A,a)$ where $A$ is a category and $a$ is an [[object]] of $A$) 
+
+* and its [[morphisms]] $(A,a) \to (B,b)$ are pairs $(f,\gamma)$, where $f \colon A\to B$ is a [[functor]] and $\gamma\colon f(a)\to b$ is a [[morphism]] in $B$.  
+
+* The projection $Cat_{*,\ell} \to Cat$ is the evident [[forgetful functor]].
+
+Now if $F \colon C \to Cat$ is a [[pseudofunctor]] from a category $C$ to $Cat$, then its **Grothendieck construction** is the (strict) [[2-pullback]] $ p \colon \int F \to C$ of $Cat_{*,\ell} \to Cat$ along $F$:
 
 $$
   \array{
-    \int F &\to& Cat_{*,\ell}
+    \int F &\longrightarrow& Cat_{*,\ell}
     \\
-    {}^{p}\downarrow && \downarrow
+    \mathllap{{}^{p}}\big\downarrow 
+    && 
+    \big\downarrow
     \\
-    C &\overset{F}{\to}& Cat
+    C &\underset{F}{\longrightarrow}& Cat
+    \mathrlap{\,.}
   }
-  \,.
 $$
 
-This means that
+This means that:
 
-* the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ 
+* the [[objects]] of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$,
 
-* and morphisms in $\int F$ are given by pairs $(c \overset{f}{\to} c', F(f)(a) \overset{\alpha}{\to} a')$. This may be visualized as
+* {#TheMorphisms} and morphisms in $\int F$ are given by pairs $\big(c \overset{f}{\to} c',\, F(f)(a) \overset{\phi}{\to} a'\big)$. This may be visualized as:
 
-$$
-  \int F = 
-  \left\{
-  \array{
-    && {*}
-    \\
-    & {}^a\swarrow &\seArrow^{\alpha}& \searrow^{a'}
-    \\
-    F(c) && \stackrel{F(f)}{\to} && F(c')
-    \\
-    \\
-    c &&\stackrel{f}{\to}&& c'
-  }
-  \right\}
-  \,.
-$$
+<img src="/nlab/files/CovariantGrothendieckConstrSchema-230401b.jpg" width="300">
 
-This extends to a 2-functor between [[bicategories]]
+This construction extends to a [[2-functor]] between [[bicategories]]
 
 $$
-  \int \;\; : \;\; [C, Cat] \to Cat/C
+  \int \;\; : \;\; [C, Cat] \longrightarrow Cat/C
 $$
 
-from [[pseudofunctor]]s on $C$ to the [[overcategory]] of [[Cat]] over $C$.
+from [[pseudofunctors]] on $C$ to the [[overcategory]] of [[Cat]] over $C$.
 
-The more commonly described version of this construction works instead on contravariant pseudofunctors, i.e. pseudofunctors $C^{op}\to Cat$.  In this case we use instead the "universal $Cat$-cobundle" $(Cat_{*,c})^{op} \to Cat^{op}$, where $(Cat_{*,c})$ is the colax slice, whose objects are  again pointed categories $(A,a)$, but whose morphisms $(A,a) \to (B,b)$ are pairs $(f,\gamma)$ where $f\colon A\to B$ and $\gamma\colon b \to f(a)$.  Now the 2-pullback
+The more commonly described version of this construction works instead on [[contravariant functor|contravariant]] pseudofunctors, i.e. pseudofunctors $C^{op}\to Cat$ from an [[opposite category]].  In this case we use instead the "universal $Cat$-cobundle" $(Cat_{*,c})^{op} \to Cat^{op}$, where $(Cat_{*,c})$ is the colax slice, whose objects are  again pointed categories $(A,a)$, but whose morphisms $(A,a) \to (B,b)$ are pairs $(f,\gamma)$ where $f\colon A\to B$ and $\gamma\colon b \to f(a)$.  Now the 2-pullback
 
 $$
   \array{
