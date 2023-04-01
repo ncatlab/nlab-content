@@ -203,7 +203,7 @@ The following proposition asserts that for the construction of [[(n,1)-topos]]es
 ###### Proposition
 **(localizations of presentable $n$-categories are topological)**
 
-Let $C$ be a [[locally presentable (∞,1)-category|locall presentable]] [[(n,1)-category]] for $n \in \mathbb{N}$ finite with [[universal colimits]]. Then every left exact [[localization of an (∞,1)-category|localization of]] $C$ is a topological localization
+Let $C$ be a [[locally presentable (∞,1)-category|locally presentable]] [[(n,1)-category]] for $n \in \mathbb{N}$ finite with [[universal colimits]]. Then every left exact [[localization of an (∞,1)-category|localization of]] $C$ is a topological localization
 
 =--
 
