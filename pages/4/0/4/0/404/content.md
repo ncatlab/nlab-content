@@ -41,13 +41,53 @@ for $I$ the [[interval category]] $\{0 \to 1\}$.  $Arr(C)$ is also written $[\ma
 
 ## Properties
 
-* $Arr(C)$ is equivalently the [[comma category]] $(id/id)$ where $id\colon C \to C$ is the [[identity functor]].
-
-* $Arr(C)$ plays the role of a directed [[homotopy|path object]] for categories in that functors
+\begin{proposition}
+The arrow category $Arr(C)$ is equivalently the [[comma category]] $(id/id)$ for the case that $id\colon C \to C$ is the [[identity functor]].
+\end{proposition}
+\begin{remark}
+$Arr(C)$ plays the role of a [[directed homotopy theory|directed]] [[homotopy|path object]] for categories in that functors
 $$
   X \to Arr(Y)
 $$
 are the same as [[natural transformations]] between functors between $X$ and $Y$.
+\end{remark}
+
+\begin{example}\label{SliceCategoriesAndArrowCategory}
+**(arrow category is [[Grothendieck construction]] on [[slice categories]])**
+\linebreak
+For $\mathcal{S}$ any category, let
+$$
+  \mathcal{S}_{(-)}
+  \,\colon\,
+  \mathcal{S}
+  \longrightarrow
+  Cat
+$$
+be the [[pseudofunctor]] which sends
+
+* an [[object]] $B \,\in\, \mathcal{S}$ to the [[slice category]] $\mathcal{S}_{/B}$,
+
+* a [[morphism]] $f \colon B \to B'$ to the left [[base change]] [[functor]] $f_! \,\colon\, \mathcal{C}_{B} \to \mathcal{C}_{/B'}$ given by post-[[composition]] in $\mathcal{C}$.
+
+The [[Grothendieck construction]] on this functor is the [[arrow category]] $Arr(\mathcal{S})$ of $\mathcal{S}$:
+
+$$
+  Arr(\mathcal{S})
+  \;\;\;
+    \simeq
+  \;\;\;
+  \int_{B \in \mathcal{S}}
+  \mathcal{S}_{/B}
+  \mathrlap{\,.}
+$$
+
+This follows readily by unwinding the definitions.
+In the refinement to the [[Grothendieck construction for model categories]] (here: [[slice model categories]] and [[model structures on functors]]) this equivalence is also considered for instance in [Harpaz & Prasma (2015), above Cor. 6.1.2](Grothendieck+construction+for+model+categories#HarpazPrasma15).
+
+The correponding [[Grothendieck fibration]] is also known as the *[[codomain fibration]]*.
+\end{example}
+
+
 
 
 ## Related concepts
