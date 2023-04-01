@@ -37,7 +37,7 @@ Then these classes of maps make $\int F$ a model category.
 
 ## Properties
 
-Given a proper relative $F:M\to ModelCat$, we can compose with the underlying $(\infty,1)$-category functor $Ho:ModelCat \to QCat$ with values in (say) [[quasicategories]].  Since $F$ is relative, this map takes weak equivalences in $M$ to equivalences of quasicategories, so it induces a functor of quasicategories $Ho(M) \to Ho(QCat) = (\infty,1)Cat$.  The [[(∞,1)-Grothendieck construction]] of this functor is then equivalent, over $Ho(M)$, to the underlying $(\infty,1)$-category of the Grothendieck-construction model structure on $\int F$; this is [Harpaz-Prasma, Proposition 3.1.2](#HarpazPrasma14).
+Given a proper relative $F:M\to ModelCat$, we can compose with the underlying $(\infty,1)$-category functor $Ho:ModelCat \to QCat$ with values in (say) [[quasicategories]].  Since $F$ is relative, this map takes weak equivalences in $M$ to equivalences of quasicategories, so it induces a functor of quasicategories $Ho(M) \to Ho(QCat) = (\infty,1)Cat$.  The [[(∞,1)-Grothendieck construction]] of this functor is then equivalent, over $Ho(M)$, to the underlying $(\infty,1)$-category of the Grothendieck-construction model structure on $\int F$; this is [Harpaz & Prasma (2015), Proposition 3.1.2](#HarpazPrasma15).
 
 ## Related pages
 
@@ -48,15 +48,15 @@ Given a proper relative $F:M\to ModelCat$, we can compose with the underlying $(
 
 The first [[model category]] version of the [[Grothendieck construction]] was given in
 
-* {#Roig94} [[Agustí Roig]], _Model category structures in bifibred categories_, Journal of Pure and Applied Algebra 95.2, p.203–223, (1994) (<a href="https://doi.org/10.1016/0022-4049(94)90074-4">doi:10.1016/0022-4049(94)90074-4</a>)
+* {#Roig94} [[Agustí Roig]], _Model category structures in bifibred categories_, Journal of Pure and Applied Algebra **95** 2 (1994) 203–223 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90074-4">doi:10.1016/0022-4049(94)90074-4</a>&rbrack;
 
 This article ([Roig 94](#Roig94)) had a mistake, which was fixed in
 
-* {#Stanculesu12} Alexandru E. Stanculescu, _Bifibrations and weak factorisation systems_, Applied Categorical Structures 20.1, p.19–30, (2012) (<a href="https://link.springer.com/article/10.1007/s10485-009-9214-3">doi:10.1007/s10485-009-9214-3</a>)
+* {#Stanculesu12} [[Alexandru E. Stanculescu]], *Bifibrations and weak factorisation systems*, Applied Categorical Structures **20** 1 (2012) 19–30 &lbrack;<a href="https://link.springer.com/article/10.1007/s10485-009-9214-3">doi:10.1007/s10485-009-9214-3</a>&rbrack;
 
 The construction was then generalized in
 
-* {#HarpazPrasma14} [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, Advances in Mathematics, Volume 281, 20 August 2015, Pages 1306-1363 ([arXiv:1404.1852](https://arxiv.org/abs/1404.1852))
+* {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
 
 Another approach is found in
 
@@ -77,3 +77,7 @@ For the special case of pseudofunctors with values in [[groupoids]], a [[model c
 [[!redirects model structure on a lax colimit]]
 [[!redirects model structures on a lax colimit]]
 [[!redirects model structures on lax colimits]]
+
+[[!redirects model structure on Grothendieck fibration]]
+[[!redirects model structures on Grothendieck fibrations]]
+
