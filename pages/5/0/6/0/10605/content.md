@@ -94,6 +94,13 @@ Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Frie
 
 ## References
 
+The primary source is:
+
+* [[Diogenes Laërtius]], (translated by Robert Drew Hicks): *Lives of the Eminent Philosophers* Book IX: *Others*, 1. *Heraclitus* (~200 AD) &lbrack;[Wikisource](https://en.m.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_IX#Heraclitus), [perseus.tufts](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0258%3Abook%3D9%3Achapter%3D1)
+&rbrack;
+
+Book IX
+
 Discussion of the possible formalization of [[dialectics]] and [[duality]] by the concept of _[[adjunction]]_ ([[adjoint functors]]) is in
 
 * {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
