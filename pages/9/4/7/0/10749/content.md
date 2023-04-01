@@ -68,7 +68,7 @@ The "S-model structure" (also called "flat model structure" in [Schwede 12, part
 
 See also
 
-* {#Hovey00} [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
+* {#Hovey00} [[Mark Hovey]], *Spectra and symmetric spectra in general model categories*, Journal of Pure and Applied Algebra **165** 1 (2001) 63-127 &lbrack;[arXiv:0004051](http://arxiv.org/abs/math/0004051), <a href="https://doi.org/10.1016/S0022-4049(00)00172-9">doi:10.1016/S0022-4049(00)00172-9</a>&rbrack;
 
 Another proof, beyond ([Hovey-Shipley-Smith 00](#HoveyShipleySmith00)), of the Quillen equivalence to the [[Bousfield-Friedlander model structure]] is due to
 
