@@ -78,12 +78,15 @@ The basic theory of [[2-fibrations]], fibrations of bicategories, is developed i
 
 * [[Dusko Pavlovic|Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ , pp.306-325  in _Category theory Como 1990_, LNM **1488** Springer Heidelberg 1991.
 
-* [[Tamara von Glehn]], *Polynomials and models of type theory*, [PhD thesis](https://www.repository.cam.ac.uk/handle/1810/254394)
- {#vonGlehn}
+* {#vonGlehn} [[Tamara von Glehn]], *Polynomials and models of type theory*, [PhD thesis](https://www.repository.cam.ac.uk/handle/1810/254394)
+
+* {#Stanculesu12} [[Alexandru E. Stanculescu]], *Bifibrations and weak factorisation systems*, Applied Categorical Structures **20** 1 (2012) 19–30 &lbrack;<a href="https://link.springer.com/article/10.1007/s10485-009-9214-3">doi:10.1007/s10485-009-9214-3</a>&rbrack;
+ 
 
 * [[Mitchell Buckley]], _Fibred 2-categories and bicategories_, ([arXiv:1212.6283](https://arxiv.org/abs/1212.6283)) {#Buckley}
 
 * {#CagMell} [[Pierre Cagne]], [[Paul-André Melliès]], _On bifibrations of model categories_, ([arXiv:1709.10484](https://arxiv.org/abs/1709.10484))
+
 
 
 [[!redirects bifibrations]]
