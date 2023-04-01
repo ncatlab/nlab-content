@@ -532,6 +532,8 @@ The argument may be found spelled out in: [MO:a/1645794/](https://math.stackexch
 
 * [[pointed simplicial set]]
 
+* [[retractive space]]
+
 * [[loop space]], [[reduced suspension]]
 
 * [[smash product]], [[wedge sum]]
