@@ -95,6 +95,8 @@ In [[twisted cohomology]].
 
 ## Related concepts
 
+* [[retractive space]]
+
 * [[model structure for parameterized spectra]]
 
 * [[excisive functor]]
