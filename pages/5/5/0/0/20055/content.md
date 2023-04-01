@@ -45,7 +45,7 @@ For details of the proof, see the references.  The central point is the construc
 
 * {#Bousfield01} [[Aldridge Bousfield]], *On the telescopic homotopy theory of spaces*, Trans. Amer. Math. Soc. 353 (2001), 2391-2426, [web with fulltext](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-00-02649-0/)
 
-* {#Stanculescu} [[Alexandru E. Stanculescu]], *Note on a theorem of Bousfield and Friedlander*, Topology and its Applications 155(13), [arxiv:0806.4547](https://arxiv.org/abs/0806.4547).
+* {#Stanculescu} [[Alexandru E. Stanculescu]], *Note on a theorem of Bousfield and Friedlander*, Topology and its Applications **155** 13 (2008) 1434-1438 &lbrack;[arxiv:0806.4547](https://arxiv.org/abs/0806.4547), [doi:10.1016/j.topol.2008.05.003](https://doi.org/10.1016/j.topol.2008.05.003)&rbrack;
 
 * {#Hirschhorn} [[Philip Hirschhorn]], chapter 13 of _Model Categories and Their Localizations_, 2003 ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
  
