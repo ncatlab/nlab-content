@@ -74,6 +74,10 @@ Basic Examples:
 
 #### 3.3 Constructions involving ring spectra
 
+#### 3.4 Symmetric Spectra and $I$-spaces
+
+* [[I-space]]
+
 ### 4. Stable equivalences
 
 * [[spectrification]]
