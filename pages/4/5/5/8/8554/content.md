@@ -69,11 +69,13 @@ Moreover, this model structure is combinatorial.
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] section A.3.2
 
-* Alexandru Stanculescu, "Constructing model categories with prescribed fibrant objects" ([arXiv:1208.6005](http://arxiv.org/abs/1208.6005))
+* [[Alexandru Stanculescu]], *Constructing model categories with prescribed fibrant objects*, Theory and Applications of Categories, **29** 23 (2014) 635-653  &lbrack;[arXiv:1208.6005](http://arxiv.org/abs/1208.6005), [tac:29-23](http://www.tac.mta.ca/tac/volumes/29/23/29-23abs.html)&rbrack;
 
 * {#BergerMoerdijk12} [[Clemens Berger]], [[Ieke Moerdijk]], _On the homotopy theory of enriched categories_ ([arXiv:1201.2134](http://arxiv.org/abs/1201.2134))
 
 * {#Muro} [[Fernando Muro]], _Dwyer–Kan homotopy theory of enriched categories_.  [arXiv:1201.1575](https://arxiv.org/abs/1201.1575).
+
+[[!redirects model structures on enriched categories]]
 
 [[!redirects Dwyer-Kan model structure on enriched categories]]
 [[!redirects Dwyer–Kan model structure on enriched categories]]
