@@ -64,15 +64,6 @@ $$
 
 * [[Francis Borceux]], Section 1.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-See also:
-
-* {#FL} R. Fritsch, D. M. Latch, _Homotopy inverses for nerve_, Math. Z. 177 (1981), no. 2, 147–179, doi:[10.1007/BF01214196](https://doi.org/10.1007/BF01214196).
-
-
-* {#Stanculescu} Alexandru E. Stanculescu, _Constructing model categories with prescribed fibrant objects_, Theory and Applications of Categories, Vol. 29, (2014) No. 23, pp 635-653, [journal page](http://www.tac.mta.ca/tac/volumes/29/23/29-23abs.html), arXiv:[1208.6005](https://arxiv.org/abs/1208.6005).
- 
-
-* {#Simpson} [[Carlos Simpson]], [[Homotopy Theory of Higher Categories]]
 
 
 
