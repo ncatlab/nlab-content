@@ -151,7 +151,7 @@ Discussion of suitable [[model structures for parameterized spectra]]:
 
 * {#BraunackMayer19} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
 
-  > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]])
+  > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]], 2018)
 
 * [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
 
