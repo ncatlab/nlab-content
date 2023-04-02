@@ -7,6 +7,10 @@ On [[topological quantum computation]] with [[abelian anyons]]:
 
 * [[Seth Lloyd]], *Quantum computation with abelian anyons*, Quantum Information Processing **1** 1/2 (2002) ([arXiv:quant-ph/0004010](https://arxiv.org/abs/quant-ph/0004010), [doi:10.1023/A:1019649101654](https://doi.org/10.1023/A:1019649101654))
 
+On [[quantum metrology]]:
+
+* Vittorio Giovannetti, [[Seth Lloyd]], Lorenzo Maccone, *Quantum metrology*,  	Phys. Rev. Lett. **96** (2006) 010401 &lbrack;[arXiv:quant-ph/0509179](https://arxiv.org/abs/quant-ph/0509179), [doi:10.1103/PhysRevLett.96.010401](https://doi.org/10.1103/PhysRevLett.96.010401)&rbrack;
+
 
 On [[adiabatic quantum computation]]:
 
