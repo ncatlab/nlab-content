@@ -119,6 +119,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[Bell's inequality]]
 
+* [[quantum sensing]]
+
 * [[no-cloning theorem]]
 
 * [[quantum reader monad]]
