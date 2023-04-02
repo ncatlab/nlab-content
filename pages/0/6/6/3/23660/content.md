@@ -74,7 +74,7 @@ $$a:C(\mathbb{R}_H), b:\mathbb{Q}, \delta:\mathbb{Q}_{+}, \epsilon:\mathbb{Q}_{+
 $$a:C(\mathbb{R}_H), b:C(\mathbb{R}_H), \delta:\mathbb{Q}_{+}, \epsilon:\mathbb{Q}_{+}, \eta:\mathbb{Q}_{+} \vdash \mu_{C(\mathbb{R}_H), C(\mathbb{R}_H)}(a, b, \delta, \epsilon, \eta): (a_{\delta} \sim_{\epsilon} b_{\eta} ) \to (lim(a) \sim_{\delta + \epsilon + \eta} lim(b))$$
 
 * a dependent family of terms
-$$a:\mathbb{Q}, b:\mathbb{Q}, \epsilon:\mathbb{Q}_{+} \vdash \pi(a, b, \epsilon): isProp(a \sim_{\epsilon} b)$$
+$$a:\mathbb{R}_H, b:\mathbb{R}_H, \epsilon:\mathbb{Q}_{+} \vdash \pi(a, b, \epsilon): isProp(a \sim_{\epsilon} b)$$
 
 ## Properties 
 
