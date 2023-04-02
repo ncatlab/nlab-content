@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[parameterized homotopy theory]], by a *retractive space* one means a [[retraction]] in a given [[category]] $\mathcal{S}$ of [[model category|models]] for [[homotopy types]] (usually in [[TopologicalSpaces]] or [[SimplicialSets]]), to be thought of as a *[[bundle]] $p \colon E \to B$ of [[pointed topological spaces]]* over a *base space* $B$, where the [[section]] $i \colon B \to E$ exhibits the [[fiber]]-wise [[base points]].
+In [[parameterized homotopy theory]], by a *retractive space* (older terminology: "ex-space" &lbrack;[James (1995)](#James95)&rbrack;, cf. footnote 1, [p. 19](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf#page=27) in [May & Sigurdsson (2006)](#MaySigurdsson06)) one means a [[retraction]] in a given [[category]] $\mathcal{S}$ of [[model category|models]] for [[homotopy types]] (usually in [[TopologicalSpaces]] or [[SimplicialSets]]), to be thought of as a *[[bundle]] $p \colon E \to B$ of [[pointed topological spaces]]* over a *base space* $B$, where the [[section]] $i \colon B \to E$ exhibits the [[fiber]]-wise [[base points]].
 
 Just as plain [[pointed topological spaces]] serve as the basis on which to construct [[spectra]], so retractive spaces serve as a basis on which to construct [[parameterized spectra]].
 
@@ -152,7 +152,19 @@ This follows readily from the definitions, but see also [Braunack-Mayer (2021), 
 
 ## References
 
+The terminology "ex-spaces" is due to Ioan James, used for instance in:
+
+* {#James95}  [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_ in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
+
+Early discussion of their [[model category]] structures includes
+
+* Michele Intermont, [[Mark Johnson]], *Model structures on the category of ex-spaces*, Topology and its Applications **119** 3 (2002) 325-353 &lbrack;<a href="https://doi.org/10.1016/S0166-8641(01)00076-1">doi:10.1016/S0166-8641(01)00076-1</a>&rbrack;
+
+
 Discussion in the context of [[model structures for parameterized spectra]]:
+
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], Sections 1.3 and 8.5 of: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
 
 * {#BraunackMayer21} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
 
@@ -160,8 +172,18 @@ Discussion in the context of [[model structures for parameterized spectra]]:
 
 * {#HebestreitSagaveSchlichtkrull20} [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
 
+* [[Cary Malkiewich]], Section 2.1 in: *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+
+
 [[!redirects retractive spaces]]
 
 [[!redirects retractive topological space]]
 [[!redirects retractive topological spaces]]
+
+[[!redirects ex-spaces]]
+[[!redirects ex-spaces]]
+
+[[!redirects ex-object]]
+[[!redirects ex-objects]]
+
 
