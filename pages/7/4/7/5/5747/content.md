@@ -22,7 +22,7 @@ The semi-simplicial set version of a [[simplicial complex]] is also called a _[[
 
 ## Definition
 
-Let $\Delta$ denote the [[simplex category]], which is a [[skeleton]] of the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].   Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]].   Thus, $\Delta_+$ is equivalent to the category of inhabited finite totally ordered sets and order-preserving injections.  
+Let $\Delta$ denote the [[simplex category]], which is a [[skeleton]] of the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].   Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]] (it is sometimes written $\Delta_{inj}$, $\Delta_i$, $\widehat{\Delta}$, $\Delta'$ or $\overline{\Delta}$).   Thus, $\Delta_+$ is equivalent to the category of inhabited finite totally ordered sets and order-preserving injections.  
 
 Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.  Similarly, a **semi-simplicial set** is a presheaf $X\colon \Delta_+^{op} \to Set$.
 
@@ -132,6 +132,10 @@ The concept is essentially the same as that of $\Delta$-set, as used by [Rourke 
 
 On the other hand, in other contexts the prefix "semi-" is used to denote absence of identities (such as a [[semigroup]] (which is, admittedly, missing more than identities relative to a group) or a [[semicategory]]),  thus if we start from the modern name "simplicial sets" it makes independent sense to refer to their degeneracy-less variant as "semi-simplicial sets."  This is coincidentally in line with the original terminology of Eilenberg and Zilber, but not of course with the intermediate usage of "semi-simplicial set" for what we now call a "simplicial set."
 
+Note also the existence of an alternative terminology "presimplicial sets", or "pre-simplicial sets", which can be traced back at least to the textbook "Cellular Structures in Topology" by Fritsch and Piccinini in 1990. This terminology is commonly used e.g. in the context of simplicial models for concurrent programs or higher-dimensional [[automata]] (see e.g. "First introduction to simplicial sets" by [[Sina Hazratpour]]).
+
+Similarly, the subcategory of injective functions of the simplex category was written $\Delta$ at some time of the history (e.g. in [Rourke & Sanderson 71](#RourkeSanderson71)) but this is now the standard notation for the [[simplex category]]. In the more recent history, different notations can be found but none seems to be widely adopted. $\Delta_+$ emphasizes that it is the subcategory of $\Delta$ that raise the degree when $\Delta$ is seen as a [[Reedy category]] but the $+$ may also ambiguously suggests that it adds something to $\Delta$. The notation $\Delta_{inj}$  emphasizes that it is the subcategory of injective morphisms of $\Delta$. Similarly for $\Delta_i$ though less explicitly. The notation $\widehat{\Delta}$ (e.g. in [Friedman](#Friedman12)) has the risk of introducing a confusion for readers used with the hat notation for presheaves. The notation $\Delta'$ and $\overline{\Delta}$ (e.g. in [[Sina Hazratpour]]) express that it is a variant of $\Delta$ but without giving precisions.
+
 ## Related concepts
 
 * [[semi-simplicial object]]
@@ -154,6 +158,8 @@ Volume 4, Issue 2, April 1970, Pages 170-171 (<a href="https://doi.org/10.1016/0
 * [[Alex Heller]], _Homotopy resolutions of semi-simplicial complexes_, Transactions of the American Mathematical Society Vol. 80, No. 2 (Nov., 1955), pp. 299-344 ([JSTOR](http://www.jstor.org/stable/1992992))
 
 * [[James McClure]], On semisimplicial sets satisfying the Kan condition ([arXiv:1210.5650](http://arxiv.org/abs/1210.5650)).
+
+* {#Friedman12} [[Greg Friedman]], _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221)).
 
 See also the references at _[[semi-simplicial object]]_ and:
 
