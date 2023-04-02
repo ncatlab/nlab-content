@@ -178,6 +178,8 @@ CPM, classical structures, ...
 
 * [[quantum computation]], [[quantum cryptography]]
 
+* [[quantum sensing]]
+
 * [[qbit]], [[quantum circuit model]]
 
 * [[quantum teleportation]]
