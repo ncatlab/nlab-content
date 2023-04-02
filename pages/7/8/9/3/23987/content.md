@@ -296,7 +296,7 @@ Break: 3:50-4:20 pm
 
 [[Mee Seong Im]], [[Mikhail Khovanov]], [[Vivek Singh]], [[Sergei Gukov]], [[Anna Beliakova]],  [Khaled Qazaqzeh](https://math.sci.kuniv.edu.kw/people/faculty/khaled-qazaqezeh)
 
-[[Domenico Fiorenza]], [[Carlo Collari]], [[Sadok Kallel]] [[Nafaa Chbili]], [[Christian Blanchet]], [[David Jaz Myers]]
+[[Domenico Fiorenza]], [[Carlo Collari]], [[Sadok Kallel]], [[Nafaa Chbili]], [[Christian Blanchet]], [[David Jaz Myers]]
 
 $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Nitu Kitchloo]], [[Daniel Berwick-Evans]], [[Adrian Clough]]
 
@@ -847,11 +847,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   video: [YT](https://www.youtube.com/watch?v=40_UDRGRP3Q)
 
-  > Quantum technology is a rapidly advancing field that is poised to revolutionize numerousindustries, including computing, communications, sensing, and [[cryptography]]. At its core, quantum technology relies on the principles of [[quantum mechanics]], which allow for the creation of devices that operate on the quantum level. These devices based on quantum technology can perform tasks that are impossible or prohibitively difficult for [[classical physics|classical]] devices. One of the most promising applications of quantum technology is in [[quantum computing]], quantum communications, and quantum sensors.
+  > [[quantum physics|Quantum]] technology is a rapidly advancing field that is poised to revolutionize numerous industries, including [[quantum computing|computing]], communications, [[quantum sensing|sensing]], and [[cryptography]]. At its core, quantum technology relies on the principles of [[quantum mechanics]], which allow for the creation of devices that operate on the quantum level. These devices based on quantum technology can perform tasks that are impossible or prohibitively difficult for [[classical physics|classical]] devices. One of the most promising applications of quantum technology is in [[quantum computing]], quantum communications, and [[quantum sensors]].
 
-  > Trapped ions are one of the promising platform for [[quantum computing]] and sensing. In this approach, individual ions are trapped in a vacuum chamber using [[electromagnetic fields]] and manipulated using [[lasers]] to perform quantum operations. As a quantum system, trapped ions offer several advantages. First, they have long coherence times, meaning that the quantum state of the ion can be preserved for a longer period, allowing for more complex calculations. Second, trapped ions can be precisely controlled and manipulated, allowing for the implementation of high-fidelity quantum gates. Finally, trapped ions can be entangled with one another, allowing for the implementation of quantum algorithms that are impossible to simulate on classical computers. Trapped ions also have great potential as quantum sensors. By using the properties of the ions to measure changes in their environment, trapped ions can detect minute changes in [[temperature]], [[magnetic fields]], and [[electric fields]], among other things. This makes them useful for applications in precision measurement, such as in atomic clocks, [[gravitational wave]] detection, and magnetometry.
+  > Trapped ions are one of the promising platform for [[quantum computing]] and sensing. In this approach, individual ions are trapped in a vacuum chamber using [[electromagnetic fields]] and manipulated using [[lasers]] to perform quantum operations. As a quantum system, trapped ions offer several advantages. First, they have long coherence times, meaning that the quantum state of the ion can be preserved for a longer period, allowing for more complex calculations. Second, trapped ions can be precisely controlled and manipulated, allowing for the implementation of high-fidelity quantum gates. Finally, trapped ions can be entangled with one another, allowing for the implementation of quantum algorithms that are impossible to simulate on classical computers. Trapped ions also have great potential as [[quantum sensors]]. By using the properties of the ions to measure changes in their environment, trapped ions can detect minute changes in [[temperature]], [[magnetic fields]], and [[electric fields]], among other things. This makes them useful for applications in precision measurement, such as in atomic clocks, [[gravitational wave]] detection, and magnetometry.
 
-  > One of the major challenges facing trapped ion systems is scalability. While individual ions have been used to perform simple quantum algorithms, scaling the system up to include a large number of ions is a difficult task. However, recent advances in ion trap technology have made it possible to trap larger numbers of ions and transport them in 2D and 3D space to perform more complex operations for quantum computation and sensing experiments. Realization of such devices is not far away. As compared to present atomic clocks, a new generation of quantum-enhanced clocks is now emerging showing significantly improved accuracy. Sensitive physical measurements are an essential component of modern science and technology. Developments in quantum sensors will outdate their classical counterparts.
+  > One of the major challenges facing trapped ion systems is scalability. While individual ions have been used to perform simple quantum algorithms, scaling the system up to include a large number of ions is a difficult task. However, recent advances in ion trap technology have made it possible to trap larger numbers of ions and transport them in 2D and 3D space to perform more complex operations for quantum computation and sensing experiments. Realization of such devices is not far away. As compared to present atomic clocks, a new generation of quantum-enhanced clocks is now emerging showing significantly improved accuracy. Sensitive physical measurements are an essential component of modern science and technology. Developments in [[quantum sensors]] will outdate their classical counterparts.
 
   > We will present recent developments and opportunities in quantum technology applications based on trapped ions, including quantum computation and sensing.
 
@@ -879,7 +879,32 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   >  In these days, we are witnessing amazing progress in both the variety and quality of platforms for [[quantum computation]] and [[quantum information|quantum communication]]. Since [[algorithms]] and communication protocols designed for traditional 'classical' hardware do not employ the [[superposition principle]] and thus provide no gain even when used on quantum hardware, we are in need of developing specific quantum algorithms and quantum communication protocols that make clever use of the superposition principle and extract a [[quantum advantage]]. "Quantum hardware needs quantum software", so to say. Furthermore, due to noise in the [[qubits]], known as [[decoherence]], an additional quantum-specific software layer is required that emulates a perfect quantum machine on top of a noisy one. I will demonstrate our recent work on this subject with theorems as well data from university and commercial quantum devices. 
 
+\linebreak
 
+### Apr
+
+
+* 3 Apr 2023
+
+  [[Mouzhe Xie]] (University of Chicago)
+
+  **Diamond-based quantum sensor for molecular analytics**
+
+  cf.: [arXiv:2108.04843](https://arxiv.org/abs/2108.04843)
+
+  > [[quantum sensing|Quantum sensing]] technologies enable some of the most precise [[measurements]] that human beings have ever achieved. In recent years, optically addressable [[nitrogen-vacancy center|nitrogen-vacancy (NV)]] color center hosted by diamond crystal has been used as a novel quantum sensor, which has exquisitely sensitive response to local magnetic field fluctuations. It is therefore capable to perform micro-/nano-scale [[nuclear magnetic resonance|NMR experiments]], manifesting enormous potential to study biological systems on extremely small sample volume -- even down to single-molecule regime.
+
+  > In this seminar, I will discuss some of the comprehensive efforts to develop NV-based quantum sensing platforms for a wide range of applications in [[chemistry]] and [[biology]]. I will start with a general introduction to [[quantum sensing]] followed by conventional [[NMR]] spectroscopy as a powerful tool to study biomolecules, as well as their connections to the [[NV center|NV]]-based nanoscale [[NMR]]. I will then introduce a biocompatible surface functionalization architecture for interfacing a diamond quantum sensor with individual intact biomolecules under physiological conditions. A sensing modality based on diamond membrane integrated with flow channel will also be discussed, which is a promising platform for a variety of experiments a molecular, cellular, and even living-organism levels. Finally, I will conclude by providing an outlook on how NV-based quantum sensing platforms, combined with other advanced spectroscopy and microscopy methods, can be utilized to address important biophysical and bioanalytical questions with unprecedented sensitivity and spatial resolution, which will enhance our understanding of molecular interactions and cellular processes and ultimately improve human health.
+
+\linebreak
+
+* 3 Apr 2023
+
+  Sophia Economou (Center for Quantum Information Science and Engineering, Virginia Tech, USA)
+
+  **Control and distribution of entanglement in quantum networks**
+
+  > Quantum networks are pursued as a quantum backbone on which to perform secure quantum communications, distributed [[quantum sensing]], and blind [[quantum computation]]. The building blocks of these networks are quantum repeaters, where [[photon|photonic]] [[quantum information]] carriers are generated and [[quantum error correction|error corrected]] through [[interactions]] with matter [[qubits]]. I will describe two paradigms of quantum repeaters and discuss in each case how careful control of a register of [[spin]] qubits can increase the [[quantum entanglement|entanglement]] distribution rate over the network. Specifically, I will describe our recent work on the accurate and fast control of [[NMR|nuclear spin]] memory qubits coupled to spin defects such as the [[NV center]] in diamond. I will also discuss the deterministic generation of photonic 'graph" states from such quantum emitters.
 
 
 \linebreak
