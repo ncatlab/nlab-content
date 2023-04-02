@@ -4,7 +4,8 @@
 
 ## Definition
 
-A __diamond__ is a finite [[directed graph]] without oriented cycles which is a union of two (directed) chains with common minimum and common maximum (some other intermediate points and even edges may be in common as well). 
+
+In [[graph theory]], by a  _diamond_ one means a finite [[directed graph]] without oriented cycles which is a union of two (directed) chains with common minimum and common maximum (some other intermediate points and even edges may be in common as well). 
 
 
 ## Completing spans to diamonds
