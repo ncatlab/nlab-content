@@ -27,7 +27,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -127,11 +126,14 @@ Parameterized spectra over a fixed base (in any suitable [[model category]]) are
 
 * {#Schwede97} [[Stefan Schwede]], section 3 of _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
 
-A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
+A comprehensive textbook account of [[model structures for parameterized spectra]] in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]]:
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_, Mathematical Surveys and Monographs **132**, AMS (2006) &lbrack;[arXiv:math/0411656](https://arxiv.org/abs/math/0411656)&rbrack;
 
-A formulation of aspects of this in [[(∞,1)-category theory]]:
+* [[Cary Malkiewich]], *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+
+
+Alternative formulation in [[(∞,1)-category theory]]:
 
 * {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22 (2018) 3761-3825 ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
 
