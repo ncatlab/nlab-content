@@ -113,6 +113,8 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 * [[quantum information theory]]
 
+* [[quantum sensing]]
+
 * [[qbit]], [[qtrit]], [[qdit]]
 
 * [[quantum logic gate]], [[quantum circuit]]
