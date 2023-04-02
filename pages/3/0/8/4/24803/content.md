@@ -17,6 +17,15 @@
 
 In [[physics]], by *nuclear magnetic resonance* (NMR) one refers to resonant control of the [[spin]] of [[atomic nuclei]] through an external [[electromagnetic field]].
 
+## Related concepts
+
+* [[nitrogen-vacancy center]]
+
+* [[quantum computing]]
+
+* [[quantum sensing]]
+
+
 ## References
 
 ### General
