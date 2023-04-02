@@ -35,7 +35,7 @@ For formalizations see also at
 
 ## Parameterized point-set topology
 
-> The [[point-set topology]] of parametrized spaces is surprisingly subtle. $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06)$]$
+> The [[point-set topology]] of parametrized spaces is surprisingly subtle. &lbrack;[May & Sigurdsson 2006, p. 15](#MaySigurdsson06)&rbrack;
 
 Write:
 
@@ -61,7 +61,7 @@ $$
   \big(
     X \times_B Y
     ,\,
-    p_X \circ pr_X 
+    p_X \circ pr_X
     =
     p_Y \circ pr_Y
   \big)
@@ -98,7 +98,7 @@ notice the usal [[base change]] [[adjoint triple]]:
   \,,
 \end{tikzcd}
 
-where 
+where
 
 1. $f^\ast$ is [[pullback]] in $kTop$ along $f$;
 
@@ -117,7 +117,7 @@ Notice the "[[Frobenius reciprocity]] law" (in its [[cartesian monoidal category
   \;\simeq\;
   \big(
     f_!(U,p_U)
-  \big) 
+  \big)
   \times
   (X,p_X)
   \,.
@@ -156,13 +156,13 @@ we have $kTop_{/\ast} \,\simeq\, kTop$ and the above [[base change]] [[adjoint t
   \,,
 \end{tikzcd}
 
-In this case 
+In this case
 
 1. the functor $(p_B)^\ast$ is the [[Cartesian product]] with $B$, regarded as the trivial fibration:
 
    \[
      \label{TrivialFibration}
-     (p_B^\ast) X_0 
+     (p_B^\ast) X_0
      \;=\;
      B \times X_0 \xrightarrow{\; pr_B \;} B
      \,,
@@ -177,19 +177,19 @@ In this case
 1. $(p_B)_*$ gives the [[space of sections]] of a fibration.
 
 
-Eventually we consider [[pointed objects]] 
+Eventually we consider [[pointed objects]]
 
 $$
-  (X, p_X, \sigma_X) \;\in\; \big( kTop_{/B}\big)^{B/} \;=\; kTop_{/B}^{B/} 
+  (X, p_X, \sigma_X) \;\in\; \big( kTop_{/B}\big)^{B/} \;=\; kTop_{/B}^{B/}
 $$
 
-in the [[slice category]] of such a base space -- hence topological "[[bundles]]" $X \xrightarrow{p_X} B$ (in the most general sense, without any condition on the bundle projection, except [[continuous function|continuity]]) equipped with a fixed [[section]] $\sigma_X$ (sometimes called "ex-spaces", see $[$[May & Sigurdsson 2006, p. 19, footnote 1](#MaySigurdsson06)$]$).
+in the [[slice category]] of such a base space -- hence topological "[[bundles]]" $X \xrightarrow{p_X} B$ (in the most general sense, without any condition on the bundle projection, except [[continuous function|continuity]]) equipped with a fixed [[section]] $\sigma_X$ (sometimes called "ex-spaces", see &lbrack;[May & Sigurdsson 2006, p. 19, footnote 1](#MaySigurdsson06)&rbrack;).
 
 
 ### Fiberwise mapping spaces
  {#FiberwiseMappingSpaces}
 
-> Parametrized mapping spaces are especially delicate $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06), see Rem. \ref{FibMapSpaceDoesNotPreserveWeakHausdorffness} below$]$
+> Parametrized mapping spaces are especially delicate &lbrack;[May & Sigurdsson 2006, p. 15](#MaySigurdsson06), see Rem. \ref{FibMapSpaceDoesNotPreserveWeakHausdorffness} below&rbrack;
 
 
 \begin{definition}\label{PartialMapClassifierSpace}
@@ -198,8 +198,8 @@ in the [[slice category]] of such a base space -- hence topological "[[bundles]]
   For $X \,\in\, kTop$, write $\widetilde X \,\in\, kTop$ for its continuous [[partial map classifier]]: The result of forming the [[disjoint union]] of the [[underlying]] [[set]] of $X$ with a [[singleton set]] $\{\bot\}$  and declaring the [[closed subsets]] on the result to be those of $X$ under the defining [[injection]]
 $$
   X \xhookrightarrow{\;\; \iota_X \;\;} \widetilde{X}
-$$ 
-together with $\widetilde{X}$ itself. 
+$$
+together with $\widetilde{X}$ itself.
 
 \end{definition}
 
@@ -209,7 +209,7 @@ together with $\widetilde{X}$ itself.
 \begin{definition}\label{FiberwiseMappingSpace}
 **(fiberwise mapping space)**
 \linebreak
-For 
+For
 $$
   (X, p_X),
   \,
@@ -251,10 +251,10 @@ their *fiberwise mapping space* is the [[pullback]] (in $kTop$):
     B
     &
     \underset{
-     b \mapsto 
+     b \mapsto
      \left(
-       x 
-       \mapsto 
+       x
+       \mapsto
        \left\{
          \begin{array}{ll}
            b & if\, x \in X_b
@@ -366,7 +366,7 @@ $$
       p_B^\ast A_0
     \big)
     \\
-    & 
+    &
     \;\simeq\;
     kTop_{/B}
     \big(
@@ -388,7 +388,7 @@ $$
     \;\simeq\;
     kTop
     \Big(
-      U 
+      U
       ,\,
       Map
       \big(
@@ -429,7 +429,7 @@ $$
     \Big)
   \end{aligned}
 $$
-Here most steps are [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the various [[adjoint functors]]: (eq:TerminalBaseChange) and (eq:ExponentialLawForFiberwiseMappingSpace). 
+Here most steps are [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the various [[adjoint functors]]: (eq:TerminalBaseChange) and (eq:ExponentialLawForFiberwiseMappingSpace).
 Since this holds naturally for all $(U, p_U)$, the claim follows by the [[Yoneda lemma]] (over the [[large category]] $\big(kTop_{/B}\big)^{op}$).
 \end{proof}
 
@@ -463,7 +463,7 @@ $$
 In other words: Pullback $f^\ast$ is a [[closed functor]] with respect to fiberwise mapping spaces.
 \end{proposition}
 \begin{proof}
-For any $(U, p_U) \,\in\, kTop_{/B'}$ we have the following sequence of [[natural isomorphisms]]: 
+For any $(U, p_U) \,\in\, kTop_{/B'}$ we have the following sequence of [[natural isomorphisms]]:
 $$
   \begin{aligned}
     &
@@ -471,7 +471,7 @@ $$
     \Big(
       (U,p_U)
       ,\,
-      f^\ast 
+      f^\ast
       Map
       \big(
         (X,p_X)
@@ -548,7 +548,7 @@ $$
     \Big)
   \end{aligned}
 $$
-Here the crucial step, besides various [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism), is the use of Cartesian "[[Frobenius reciprocity]]" (eq:CartesianFrobeniusReciprocity). 
+Here the crucial step, besides various [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism), is the use of Cartesian "[[Frobenius reciprocity]]" (eq:CartesianFrobeniusReciprocity).
 
 Since these isomorphism are [[natural isomorphism|natural]] in $(U,p_U)$, the claim follows by the [[Yoneda embedding]] (for the [[large category]] $\big( kTop_{/B'}\big)^{op}$).
 \end{proof}
@@ -610,7 +610,7 @@ $$
 **(fiberwise mapping space does not preserve weak Hausdorffness)**
 \linebreak
   Even if $X$ and $A$ are [[weak Hausdorff spaces]] over the weak Hausdorff space $B$ (eq:kwHausBaseSpace), their
-  fiberwise mapping space (Def. \ref{FiberwiseMappingSpace}) need  not be weak Hausdorff ([Booth & Brown 1974a](#BoothBrown74a)). Sufficient conditions for this to be the case are given in [Lewis 1985, Prop. 1.5](#Lewis85) 
+  fiberwise mapping space (Def. \ref{FiberwiseMappingSpace}) need  not be weak Hausdorff ([Booth & Brown 1974a](#BoothBrown74a)). Sufficient conditions for this to be the case are given in [Lewis 1985, Prop. 1.5](#Lewis85)
 
 On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mapping space will again be weak Hausdorff (see [MaSi06, p. 19](#MaySigurdsson06)).
 \end{remark}
@@ -619,6 +619,10 @@ On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mappin
 
 
 ## Related concepts
+
+* [[retractive space]]
+
+* [[parameterized spectrum]]
 
 * [[model structure for parameterized spectra]]
 
@@ -640,30 +644,31 @@ On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mappin
 
 On the [[homotopy theory]] of such parameterized topological spaces:
 
-* [[Ioan Mackenzie James]], §IV of: *Fibrewise topology*, Cambridge Tracts in Mathematics, Cambridge University Press (1989) $[$ISBN:9780521360906$]$
+* [[Ioan Mackenzie James]], §IV of: *Fibrewise topology*, Cambridge Tracts in Mathematics, Cambridge University Press (1989) &lbrack;ISBN:9780521360906&rbrack;
 
 * [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
 
-* [[Michael C. Crabb]], [[Ioan Mackenzie James]]: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) $[$[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)$]$
+* [[Michael C. Crabb]], [[Ioan Mackenzie James]]: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) &lbrack;[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)&rbrack;
 
-On respective [[model category]]-structures:
+On [[model structures for parameterized spectra]]:
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
-
-Discussion of [[parameterized spectra]] over varying bases, hence of [[tangent (infinity,1)-category|tangent $\infty$-categories]]:
-
-Discussion in [[(∞,1)-category theory]]: 
-
-* {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22 (2018) 3761-3825 ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
-  
-  
-Discussion of [[model structures for parameterized spectra]]:
 
 * {#BraunackMayer19} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
 
   > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]])
 
 * [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
+
+
+* [[Cary Malkiewich]], *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+
+
+Discussion in [[(∞,1)-category theory]]:
+
+* {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22 (2018) 3761-3825 ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+
+
 
 Discussion as a [[linear homotopy type theory]]:
 
