@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,8 +29,13 @@ At least some aspects of the carbon [[atomic nucleus]] may be modeled by [[Skyrm
 <img src="https://ncatlab.org/nlab/files/SkyrmionB12.jpg" width="300">
 \end{center}
 
-> graphics grabbed form [Lau-Manton 14](#LauMaonton14)
+> graphics grabbed form [Lau-Manton 14](#LauManton14)
 
+## Related entries
+
+* [[diamond]]
+
+* [[nitrogen-vacancy center in diamond]]
 
 ## References
 
