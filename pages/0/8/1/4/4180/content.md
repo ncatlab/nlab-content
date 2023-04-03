@@ -252,3 +252,5 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 
 
 [[!redirects inverse semigroups]]
+[[!redirects ordered groupoids]]
+[[!redirects ordered groupoid]]
