@@ -36,6 +36,9 @@
 
 * [[end|end and coend]]
 
+* [[fibered limit]]
+
+
 ## 2-Categorical
 
 * [[2-limit]]
