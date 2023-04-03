@@ -1,8 +1,10 @@
 [[!redirects N. D. Gilbert]]
-Nick Gilbert is a British mathematician based in Heriot Watt universtiy in Edinburgh.
+Nick Gilbert is a British mathematician based in Heriot Watt university in Edinburgh but now retired.
 
-* [Homepage](http://www.ma.hw.ac.uk/~nick/)
+His recent research work has benn in the study of [[ordered groupoids]] and the use of [[groupoids]]  in the algebra of rewriting for [[group presentations]] and related structures.
 
-* [Recent preprints and publications](http://www.ma.hw.ac.uk/~nick/ndg_research.html)
+* [Researchgate page](https://www.researchgate.net/profile/Nick-Gilbert-3)
+
+
 
 category:people
