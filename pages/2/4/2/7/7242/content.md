@@ -17,7 +17,7 @@ On [[knot theory]]:
 
 On [[rewriting]] in [[group presentations]]:
 
-[[Nick Gilbert]], Emma Antonia Mcdougall, _Groupoids and the algebra of rewriting in group presentations_,     Beitrage zur Algebra und Geometrie 62(3):1-17, &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6)&rbrack;, and &lbrack;[Arxiv preprint](https://arxiv.org/abs/1901.04348).&rbrack;
+* [[Nick Gilbert]], Emma Antonia Mcdougall, _Groupoids and the algebra of rewriting in group presentations_, Beitr&auml;ge zur Algebra und Geometrie **62** 3 (2021) 1-17 &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6), [arXiv:1901.04348](https://arxiv.org/abs/1901.04348)&rbrack;
 
 
 
