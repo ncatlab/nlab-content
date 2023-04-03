@@ -64,6 +64,11 @@ Springer-Verlag, 1993.
 
 *   _Terese_, Term rewriting systems, Cambridge Tracts in Theoretical Computer Science, vol. 55, Cambridge University Press, 2003. 
 
+On [[rewriting]] in [[group presentations]]:
+
+* [[Nick Gilbert]], Emma Antonia Mcdougall, _Groupoids and the algebra of rewriting in group presentations_, Beitr&auml;ge zur Algebra und Geometrie **62** 3 (2021) 1-17 &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6), [arXiv:1901.04348](https://arxiv.org/abs/1901.04348)&rbrack;
+
+
 ### Higher dimensional rewriting
 
 For the higher dimensional forms of rewriting, one source is in the work of Guiraud and Malbos:
