@@ -3,8 +3,12 @@
 ## Concepts
 
 * [[Grothendieck fibration]]
+
 * [[indexed category]]
+
 * [[Grothendieck construction]]
+
+* [[fibered limit]]
 
 ## Theorems
 
