@@ -4,6 +4,12 @@ Samuel Mimram is a professor in (and head of) the Cosynus team at the LIX labora
 
 ##Selected Preprints and publications
 
-* _Towards Higher dimensional rewriting theory_, [semanticscholar](https://pdfs.semanticscholar.org/a887/10b141afeb7bcee157e56beff635dcfb4350.pdf?_ga=2.155145712.991874601.1564010891-2034645618.1564010891)
+On [[rewriting]] theory:
 
-* _Towards 3-dimensional rewriting theory_, [arxiv](https://arxiv.org/pdf/1403.4094.pdf)
+* [[Samuel Mimram]], _Towards Higher dimensional rewriting theory_, [semanticscholar](https://pdfs.semanticscholar.org/a887/10b141afeb7bcee157e56beff635dcfb4350.pdf?_ga=2.155145712.991874601.1564010891-2034645618.1564010891)
+
+* [[Samuel Mimram]], _Towards 3-dimensional rewriting theory_, [arxiv](https://arxiv.org/pdf/1403.4094.pdf)
+
+On [[polynomial functors]]:
+
+* {#FMLS} [[Eric Finster]], [[Samuel Mimram]], Maxime Lucas, Thomas Seiller, _A Cartesian Bicategory of Polynomial Functors in Homotopy Type Theory_ ([arXiv:2112.14050](https://arxiv.org/abs/2112.14050)).
