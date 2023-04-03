@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,21 +14,22 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-(...)
+In [[solid state physics]], an impure form of [[diamond]] may be obtained where, in the center of the [[Bravais lattice]], [[carbon]] [[nuclei]] are replaced by a [[nitrogen]] [[nucleus]] and a vacancy, referred to as the *nitrogen-vacancy center in diamond* (often short: *NV center*).
+
+In such a material, the [[spin]] of one of the [[electron]] orbitals bound to the [[nitrogen]] nucleus has a long [[quantum decoherence]] time and lends itself to manipulation by [[spin resonance]]. 
 
 
 <img src="/nlab/files/NVCenterSchematics.jpg" width="600">
 
 > from [AHWZ18, Fig 1](#AHWZ18)
 
-(...)
+Therefore NV center spins serve as a platform for [[spin resonance qbits]], used in [[quantum sensing]], [[quantum information theory|quantum information processing]] and simple [[quantum computing]].
 
 ## Related concepts
 
@@ -37,7 +39,9 @@
 
 ## References
 
-* {#AHWZ18} David D. Awschalom, Ronald Hanson, Jörg Wrachtrup & Brian B. Zhou, *Quantum technologies with optically interfaced solid-state spins*, Nature Photonics **12** (2018) 516–527 &lbrack;[doi:10.1038/s41566-018-0232-2](https://doi.org/10.1038/s41566-018-0232-2)&rbrack;
+* {#AHWZ18} [[David D. Awschalom]], Ronald Hanson, Jörg Wrachtrup & Brian B. Zhou, *Quantum technologies with optically interfaced solid-state spins*, Nature Photonics **12** (2018) 516–527 &lbrack;[doi:10.1038/s41566-018-0232-2](https://doi.org/10.1038/s41566-018-0232-2)&rbrack;
+
+* [Awschalom group](https://pme.uchicago.edu/group/awschalom-group), *The Nitrogen-Vacancy Center in Diamond* &lbrack;[web](https://pme.uchicago.edu/awschalom-group/nitrogen-vacancy-center-diamond)&rbrack;
     
 Application to [[quantum sensing]]:
 
@@ -49,8 +53,12 @@ See also:
 
 * Wikipedia, *[Nitrogen-vacancy center](https://en.wikipedia.org/wiki/Nitrogen-vacancy_center)*
 
+[[!redirects nitrogen-vacancy center]]
+
 [[!redirects NV center]]
 [[!redirects NV centers]]
 
 [[!redirects NV-center]]
 [[!redirects NV-centers]]
+
+
