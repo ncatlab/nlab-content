@@ -76,7 +76,7 @@ The original source is the following.
 
 Simple examples of invariants under the Reidemeister Moves are given in, for instance, the following.
 
-* [[N. D. Gilbert]] and [[T. Porter]], _Knots and Surfaces_, Oxford U.P., 1994.
+* [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
 * {#KauffmanKnotDiagrammatics}
  [[Louis Kauffman | Louis H. Kauffman]], _Knot diagrammatics_, Handbook of knot theory, Elsevier, 233 - 318, 2005 [arXiv:math/0410329](https://arxiv.org/abs/math/0410329)
