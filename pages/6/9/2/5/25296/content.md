@@ -3,7 +3,7 @@
 ### Spin resonance qbits
  {#SpinResonanceQBitsReferences}
 
-The idea of [[qbits]] realized on [[quantum mechanics|quantum mechanical]] [[spinors]] (e.g. [[electron]]-spin or [[nucleus]]-spin):
+The idea of [[spin resonance qbit|spin resonance qbits]], i.e. of [[qbits]] realized on [[quantum mechanics|quantum mechanical]] [[spinors]] (e.g. [[electron]]-spin or [[nucleus]]-spin) and [[quantum gate|manipulated]] via [[spin resonance]]:
 
 * [[Daniel Loss]], [[David P. DiVincenzo]], *Quantum Computation with Quantum Dots*, Phys. Rev. A **57** 120 (1998) $[$[arXiv:cond-mat/9701055](https://arxiv.org/abs/cond-mat/9701055), [doi:10.1103/PhysRevA.57.120](https://doi.org/10.1103/PhysRevA.57.120)$]$
 
@@ -47,6 +47,7 @@ and analogously on [[electron]]-[[spin]]:
 
 * M. Yu. Volkov and K. M. Salikhov, *Pulse Protocols for Quantum Computing with Electron Spins as Qubits*, Appl Magn Reson **41** (2011) 145–154 $[$[doi:10.1007/s00723-011-0297-2](https://doi.org/10.1007/s00723-011-0297-2)$]$
 
+For references on spin resonance qbits realized on a *[[nitrogen-vacancy center in diamond]]*, see there.
 
 There exist toy desktop [[quantum computers]] for educational purposes, operating on a couple of nuclear magnetic resonance [[qbits]] at room temperature :
 
