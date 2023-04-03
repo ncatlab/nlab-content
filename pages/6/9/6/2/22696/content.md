@@ -1,11 +1,14 @@
-> This entry is about semigroups with a two-sided inverse. For the semigroup with a unary operator $i$ such that $s \cdot i(s) \cdot s = s$ and $i(s) \cdot s \cdot i(s) = i(s)$, see [[inverse semigroup]]. 
+
+> This entry is about [[semigroups]] with two-sided [[inverses]]. For semigroups with a unary operator $i$ such that $s \cdot i(s) \cdot s = s$ and $i(s) \cdot s \cdot i(s) = i(s)$, see instead at *[[inverse semigroup]]*. 
+
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Group Theory
-+-- {: .hide}
-[[!include group theory - contents]]
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 #### Representation theory
 +-- {: .hide}
