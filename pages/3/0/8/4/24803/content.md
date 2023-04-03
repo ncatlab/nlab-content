@@ -17,6 +17,8 @@
 
 In [[physics]], by *nuclear magnetic resonance* (NMR) one refers to resonant control of the [[spin]] of [[atomic nuclei]] through an external [[electromagnetic field]].
 
+One way to realize [[qbits]] (in [[quantum information theory]] and [[quantum computing]]) is as spin-[[quantum states]] [[quantum gate|manipulated]] via spin resonance: [[spin resonance qbits]]. A prominent example of [[spin resonance qbit]] realizations uses a [[nitrogen-vacancy center in diamond]].
+
 ## Related concepts
 
 * [[nitrogen-vacancy center in diamond]]
