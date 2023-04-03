@@ -1,5 +1,5 @@
 <div style="float:right;margin:0 20px 10px 20px;">
-<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html">
+<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
 <img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
 </a>
 </div>
@@ -800,11 +800,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Demonstration of Quantum Energy Teleportation by Superconducting Quantum Processors and Implications for Communications and High Energy Physics**
 
-  > Quantum energy teleportation is a theoretical concept in [[quantum physics]] that describes the transfer of [[energy]] from one location to another without the need for a physical medium to carry it. This is made possible by means of universal properties of [[quantum entanglement]] and measurement of quantum states. The role of QET in physics and information engineering is largely unexplored, as the theory has not received much attention for long time since it was proposed about 15 years ago. To validate it on a real quantum processor, my research has tested the energy teleportation protocol in its most visible form for the first time on IBM's superconducting quantum computer. In my colloquium talk, I will explain the historical background of quantum energy teleportation, quantum circuits and quantum operations. Moreover I will present a concrete setup for a long-distance and large-scale quantum energy teleportation with real quantum networks.
+  > Quantum energy teleportation is a theoretical concept in [[quantum physics]] that describes the transfer of [[energy]] from one location to another without the need for a physical medium to carry it. This is made possible by means of universal properties of [[quantum entanglement]] and measurement of quantum states. The role of QET in physics and information engineering is largely unexplored, as the theory has not received much attention for long time since it was proposed about 15 years ago. To validate it on a real quantum processor, my research has tested the energy teleportation protocol in its most visible form for the first time on IBM's superconducting quantum computer. In my colloquium talk, I will explain the historical background of quantum energy teleportation, quantum circuits and quantum operations. Moreover I will present a concrete setup for a long-distance and large-scale quantum energy teleportation with real [[quantum networks]].
 
   > In addition, I will present the results of quantum simulations with relativistic field theory as a study based on the high-energy physics perspective and the [[symmetry protected topological phase|symmetry-protected topological (SPT) phase of matter]] of quantum energy teleportation. The models will describe include the two dimensional QED (the massive Thirring model), the AKLT model, the [[Haldane model]], and the Kitaev model. Those results show that the phase diagrams of the field theory and SPT phase are closely related to energy teleportation.
 
-  > In summary my talk will provide a novel suggestion that quantum energy teleportation paves a new pathway to a link between quantum communication on real quantum network, phase diagram of quantum many-body system, and quantum computation.
+  > In summary my talk will provide a novel suggestion that quantum energy teleportation paves a new pathway to a link between quantum communication on real [[quantum network]], phase diagram of quantum many-body system, and quantum computation.
 
 \linebreak
 
@@ -881,8 +881,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-### Apr
-
+### Apr 2023
 
 * {#XieApr2023} 3 Apr 2023
 
@@ -892,6 +891,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf.: [arXiv:2108.04843](https://arxiv.org/abs/2108.04843)
 
+  slides: [[Xie-CQTS-Apr2023.pdf:file]]
+
   > [[quantum sensing|Quantum sensing]] technologies enable some of the most precise [[measurements]] that human beings have ever achieved. In recent years, optically addressable [[nitrogen-vacancy center|nitrogen-vacancy (NV)]] color center hosted by [[diamond]] [[crystal]] has been used as a novel [[quantum sensor]], which has exquisitely sensitive response to local [[magnetic field]] fluctuations. It is therefore capable to perform micro-/nano-scale [[nuclear magnetic resonance|NMR experiments]], manifesting enormous potential to study [[biology|biological systems]] on extremely small sample volume -- even down to single-molecule regime.
 
   > In this seminar, I will discuss some of the comprehensive efforts to develop [[NV center|NV]]-based [[quantum sensing]] platforms for a wide range of applications in [[chemistry]] and [[biology]]. I will start with a general introduction to [[quantum sensing]] followed by conventional [[NMR]] [[spectroscopy]] as a powerful tool to study biomolecules, as well as their connections to the [[NV center|NV]]-based nanoscale [[NMR]]. I will then introduce a biocompatible surface functionalization architecture for interfacing a diamond quantum sensor with individual intact biomolecules under physiological conditions. A sensing modality based on diamond membrane integrated with flow channel will also be discussed, which is a promising platform for a variety of experiments a molecular, cellular, and even living-organism levels. Finally, I will conclude by providing an outlook on how NV-based quantum sensing platforms, combined with other advanced spectroscopy and microscopy methods, can be utilized to address important biophysical and bioanalytical questions with unprecedented sensitivity and spatial resolution, which will enhance our understanding of molecular interactions and cellular processes and ultimately improve human health.
@@ -900,11 +901,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * 3 Apr 2023
 
-  Sophia Economou (Center for Quantum Information Science and Engineering, Virginia Tech, USA)
+  [[Sophia Economou]] (Center for Quantum Information Science and Engineering, Virginia Tech, USA)
 
   **Control and distribution of entanglement in quantum networks**
 
-  > Quantum networks are pursued as a quantum backbone on which to perform secure quantum communications, distributed [[quantum sensing]], and blind [[quantum computation]]. The building blocks of these networks are quantum repeaters, where [[photon|photonic]] [[quantum information]] carriers are generated and [[quantum error correction|error corrected]] through [[interactions]] with matter [[qubits]]. I will describe two paradigms of quantum repeaters and discuss in each case how careful control of a register of [[spin]] qubits can increase the [[quantum entanglement|entanglement]] distribution rate over the network. Specifically, I will describe our recent work on the accurate and fast control of [[NMR|nuclear spin]] memory qubits coupled to spin defects such as the [[NV center]] in diamond. I will also discuss the deterministic generation of photonic 'graph" states from such quantum emitters.
+  cf.: [arXiv:2212.10820](https://arxiv.org/abs/2212.10820)
+
+  > [[quantum network|Quantum networks]] are pursued as a quantum backbone on which to perform secure [[quantum communication]], distributed [[quantum sensing]], and blind [[quantum computation]]. The building blocks of these networks are [[quantum repeaters]], where [[photon|photonic]] [[quantum information]] carriers are generated and [[quantum error correction|error corrected]] through [[interactions]] with matter [[qubits]]. I will describe two paradigms of quantum repeaters and discuss in each case how careful control of a register of [[spin]] qubits can increase the [[quantum entanglement|entanglement]] distribution rate over the network. Specifically, I will describe our recent work on the accurate and fast control of [[NMR|nuclear spin]] memory qubits coupled to spin defects such as the [[NV center]] in diamond. I will also discuss the deterministic generation of photonic 'graph" states from such quantum emitters.
 
 
 \linebreak
