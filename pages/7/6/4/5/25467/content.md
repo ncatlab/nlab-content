@@ -31,6 +31,8 @@ In a sense, a definable collection is a very weak notion of [[coreflective subca
 We follow the exposition in [(Jacobs '99)](#Jacobs).
 Fix a [[Grothendieck fibration|fibration]] $p:\mathcal{E} \to \mathcal{B}$.
 
+### Of collections of objects
+
 \begin{definition}
 
 Let $\mathcal{P}$ be a collection of object in $\mathcal{E}$, and denote by $\mathcal{P}_B$ the subcollection of those objects in $\mathcal{P}$ over a chosen $B:\mathcal{B}$.
@@ -60,6 +62,27 @@ Then the following our equivalent:
 \begin{proof}
   The idea is that $\{X\}_P$ is the representing object for the presheaf object of (2).
 \end{proof}
+
+### Of collections of functors
+\begin{definition}
+Let $\mathcal{C}$ be a category, that we think of as trivially fibred $!_{\mathcal{C}} : \mathcal{C} \to 1$. A collection of fibred functors $\{(I_a, f_a) : !_{\mathcal{C}} \to p\}_{a:A}$ (where $A$ is a [[class]]) is definable iff it is definable as a collection of object of the [[exponent fibration]] $p^{!_{\mathcal{C}}}$.
+\end{definition}
+
+Recall the exponent fibration $p^{!_{\mathcal{C}}}$ is a fibration over $\mathcal{B}$ whose fiber over $I:\mathcal{B}$ is given by functors $\mathcal{C} \to \mathcal{E}_I$ and whose reindexing is given by post-composition with the reindexing functors of $p$. See [[exponent fibration]] for more details.
+
+\begin{remark}
+Clearly this definition generalizes the previous one since collections of objects of $\mathcal{E}$ are given by collections of functors out of $\mathcal{C}$.
+\end{remark}
+
+### Of collections of vertical morphisms
+\begin{definition}
+A collection of [[vertical morphisms]] of $\mathcal{E}$ os definable iff it is definable as collection of functors out of the arrow category $\downarrow$.
+\end{definition}
+
+### Of subfibrations
+\begin{definition}
+A [[subfibration]] $p': \mathcal{E}' \to \mathcal{B}$ of $p$ is definable iff its collection of objects and vertical morphisms are both definable.
+\end{definition}
 
 ## Examples
 
