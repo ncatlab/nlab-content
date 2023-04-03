@@ -24,6 +24,10 @@ Exposition and review:
 
 * [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]&rbrack;
 
+On [[quantum teleportation]] with [[anyons]]:
+
+* {#Valera23} [[Sachin J. Valera]], *Topological Quantum Teleportation and Superdense Coding Without Braiding* &lbrack;[arXiv:2303.17700](https://arxiv.org/abs/2303.17700)&rbrack;
+
 
 category: people
 
