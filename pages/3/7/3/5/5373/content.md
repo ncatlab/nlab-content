@@ -369,8 +369,9 @@ We show the [[inference rules]] which these authors propose to add to plain [[in
 {#InternalUnitConstruction} Using these ingredients, one finds that the function $a \,\mapsto\, \underline{a}^\natural$ is interpreted simply as postcomposition with the $\eta^{\natural}$-[[naturality square]]:
 
 <center>
-<img src="/nlab/files/BireflectiveModalityUnitDefinition-230304.jpg" width="690">
+<img src="/nlab/files/BireflectiveModalityUnitDefinition-230304b.jpg" width="690">
 </center>
+
 
 
 
