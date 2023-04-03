@@ -19,7 +19,9 @@ In [[physics]], by *nuclear magnetic resonance* (NMR) one refers to resonant con
 
 ## Related concepts
 
-* [[nitrogen-vacancy center]]
+* [[nitrogen-vacancy center in diamond]]
+
+* [[spin resonance qbit]]
 
 * [[quantum computing]]
 
@@ -52,7 +54,7 @@ Further development:
 
 
 
-
-
 [[!redirects nuclear magnetic resonances]]
 [[!redirects NMR]]
+
+[[!redirects spin resonance]]
