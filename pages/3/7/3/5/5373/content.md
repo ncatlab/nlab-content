@@ -348,11 +348,11 @@ The other claims follow similarly.
 ## Modal type theory
  {#ModalTypeTheory}
 
-A [[modal type theory]] for bireflection [[modalities]] has been proposed in [RFL21](#RFL21).
+A [[modal type theory]] for bireflection [[modalities]] has been proposed in [Riley, Finster & Licata (2021)](#RFL21), [Riley (2022)](#Riley22).
 
-We show the [[inference rules]] which are added to plain [[intuitionistic type theory]] for encoding the presence of a bireflection [[classical modality]] $\natural$ on the type system.
+We show the [[inference rules]] which these authors propose to add to plain [[intuitionistic type theory]] for encoding the presence of a bireflection [[classical modality]] $\natural$ on the type system, and we show corresponding [[categorical semantics]] via [[commuting diagrams]] in an interpreting [[locally cartesian closed category]]  (a more syntactic semantics is indicated in [RFL21, Sec. 7, esp. Fig. 6](#RFL21)).
 
-(Beware the notational asymmetry: An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along the [[counit of a comonad|counit]] $\epsilon^{\natural}$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-[[modal type|modal]] or not.)
+(Beware the notational asymmetry in the following: An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along the [[counit of a comonad|counit]] $\epsilon^{\natural}$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-[[modal type|modal]] or not.)
 
 <center>
 <img src="/nlab/files/BireflectiveTypesStructureRules-230327.jpg" width="690">
@@ -365,6 +365,13 @@ We show the [[inference rules]] which are added to plain [[intuitionistic type t
 <center>
 <img src="/nlab/files/BireflectiveModalityComputationRules-230327b.jpg" width="690">
 </center>
+
+{#InternalUnitConstruction} Using these ingredients, one finds that the function $a \,\mapsto\, \underline{a}^\natural$ is interpreted simply as postcomposition with the $\eta^{\natural}$-[[naturality square]]:
+
+<center>
+<img src="/nlab/files/BireflectiveModalityUnitDefinition-230304.jpg" width="690">
+</center>
+
 
 
 \linebreak
@@ -461,6 +468,7 @@ Discussion of a [[modal type theory]] for bireflective [[modalities]], in a cont
 
 * {#RFL21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel R. Licata]], Section 7.1 in: *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
 
+* {#Riley22} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
 
 
