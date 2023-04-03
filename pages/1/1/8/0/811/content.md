@@ -123,17 +123,16 @@ One expects that in this way, the $(n+1)$-category of fibered $n$-categories ove
 
 ## References 
 
-[Claudio Hermida](http://maggie.cs.queensu.ca/chermida) introduced 2-fibrations in:
+The notion of 2-fibrations was introduced in:
 
-* Claudio Hermida, "Some properties of Fib as a fibred 2-category," J. Pure Appl. Algebra 134 (1), 83--109, 1999; [preprint version ps.gz](http://maggie.cs.queensu.ca/chermida/papers/jpaa.ps.gz)
- {#Hermida}
+* {#Hermida} [[Claudio Hermida]], *Some properties of $Fib$ as a fibred 2-category*, Journal of Pure and Applied Algebra **134** (1999) 83-109 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00129-1">doi:10.1016/S0022-4049(97)00129-1</a>, [ps.gz](http://maggie.cs.queensu.ca/chermida/papers/jpaa.ps.gz)&rbrack;
 
 In fact they also appeared earlier, in some form, in [[Gray-adjointness-for-2-categories|Gray's book]].
 
 However, Hermida's definition was missing the stability of cartesian 2-cells under postcomposition, which is necessary for the "Grothendieck construction" turning a pseudofunctor into a fibration to have an inverse.  This was rectified, and the definition generalized to bicategories, in
 
-* Igor Bakovic, "Fibrations of bicategories", [preprint](http://www.irb.hr/korisnici/ibakovic/groth2fib.pdf)
- {#Bakovic}
+* {#Bakovic} [[Igor Baković]], "Fibrations of bicategories", [preprint](http://www.irb.hr/korisnici/ibakovic/groth2fib.pdf)
+ 
 
 * Mitchell Buckley, "Fibred 2-categories and bicategories", [doi](https://doi.org/10.1016/j.jpaa.2013.11.002), [arxiv](https://arxiv.org/abs/1212.6283)
  {#Buckley}
@@ -160,10 +159,18 @@ Pseudo functors and non abelian weak equivalences, in "Categorical algebra and i
 
 [[!redirects 2-fibration]]
 [[!redirects 2-fibrations]]
+
 [[!redirects fibered 2-category]]
+[[!redirects fibered 2-categories]]
+
 [[!redirects fibred 2-category]]
+[[!redirects fibred 2-categories]]
+
 [[!redirects fibered bicategory]]
+[[!redirects fibered bicategories]]
+
 [[!redirects fibred bicategory]]
+[[!redirects fibred bicategories]]
 
 [[!redirects fibration of n-categories]]
 [[!redirects fibration of 2-categories]]
