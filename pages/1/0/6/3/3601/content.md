@@ -176,6 +176,8 @@ CPM, classical structures, ...
 
 * [[quantum probability]], [[quantum mechanics]]
 
+* [[quantum communication]]
+
 * [[quantum computation]], [[quantum cryptography]]
 
 * [[quantum sensing]]
