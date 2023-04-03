@@ -30,6 +30,8 @@ The [[periodic table of the elements]] organizes the elements according to their
 
 * [[carbon]]
 
+* [[nitrogen]]
+
 ## References
 
 See also
