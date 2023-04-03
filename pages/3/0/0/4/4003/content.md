@@ -42,7 +42,7 @@ where $\Pi_g$ and $\Sigma_h$ are the [[dependent product]] and [[dependent sum]]
 
 When $W=Z$, this is a **polynomial endofunctor**.
 
-Sometimes this general notion is called a **dependent polynomial functor** (also **typed** or **colored** ([FMLS, p. 68](#FMLS)), with "polynomial (endo)functor" reserved for the "one-variable" case, when $W=Z=1$ is the [[terminal object]].
+Sometimes this general notion is called a **dependent polynomial functor** (also **typed** or **colored** ([FMLS, p. 68](#FMLS))), with "polynomial (endo)functor" reserved for the "one-variable" case, when $W=Z=1$ is the [[terminal object]].
 
 The data $f$, $g$, and $h$ that specify a polynomial functor is sometimes referred to as a **container** (or an **indexed container**, with *container* reserved for the case $W=Z=1$).  Other times *container* is used as a synonym for "polynomial functor".  Sometimes the data $f,g,h$ are instead referred to as a **polynomial** to distinguish them from the "polynomial functor" they determine.
 
