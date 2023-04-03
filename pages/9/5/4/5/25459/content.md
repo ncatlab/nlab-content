@@ -84,7 +84,7 @@ where $\left[A\right]$ is the [[support of a set|support]] of the set $A$ and $\
 
 ### Locally small binomial types
 
-There is an alternative way to express the second definition, by use of a [[univalent universe]] instead of deloopings and loop space types, but the resulting type is only locally small relative to the universe. 
+There is an alternative way to express the second definition, by use of a [[univalent universe]], but the resulting type is only locally small relative to the universe. 
 
 We define the type of decidable embeddings as the type of functions whose fibers are decidable:
 $$A \hookrightarrow_d B \coloneqq \sum_{f:A \to B} \prod_{b:B} \left(\sum_{a:A} f(a) =_B b\right) \vee \neg \left(\sum_{a:A} f(a) =_B b\right)$$ 
