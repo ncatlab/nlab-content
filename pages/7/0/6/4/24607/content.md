@@ -127,6 +127,8 @@ The concrete implementation of the above protocol on given quantum hardware will
 <img src="https://ncatlab.org/nlab/files/BraidCircuitQuantumTeleProtocol-220915.jpg" width="450">
 </center>
 
+See also [Valera (2023)](#Valera23).
+
 
 \linebreak
 
@@ -188,6 +190,10 @@ Realization in [[experiment]]:
 Implementation of the quantum teleportation protocol in [[topological quantum computation]] via [[braiding]] of [[Ising anyons]]:
 
 * {#XuZhou22} Cheng-Qian Xu, D. L. Zhou, *Quantum teleportation using Ising anyons*, Phys. Rev. A **106** 012413 (2022) &lbrack;[arXiv:2201.11923](https://arxiv.org/abs/2201.11923), [doi:10.1103/PhysRevA.106.012413](https://doi.org/10.1103/PhysRevA.106.012413)&rbrack;
+
+and via fusion of anyons:
+
+* {#Valera23} [[Sachin J. Valera]], *Topological Quantum Teleportation and Superdense Coding Without Braiding* &lbrack;[arXiv:2303.17700](https://arxiv.org/abs/2303.17700)&rbrack;
 
 
 Implementation in [[quantum programming languages]]:
