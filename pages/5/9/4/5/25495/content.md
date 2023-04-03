@@ -22,6 +22,13 @@
 
 (...)
 
+
+<img src="/nlab/files/NVCenterSchematics.jpg" width="600">
+
+> from [AHWZ18, Fig 1](#AHWZ18)
+
+(...)
+
 ## Related concepts
 
 * [[nuclear magnetic resonance]]
@@ -30,7 +37,7 @@
 
 ## References
 
-* David D. Awschalom, Ronald Hanson, Jörg Wrachtrup & Brian B. Zhou, *Quantum technologies with optically interfaced solid-state spins*, Nature Photonics **12** (2018) 516–527 &lbrack;[doi:10.1038/s41566-018-0232-2](https://doi.org/10.1038/s41566-018-0232-2)&rbrack;
+* {#AHWZ18} David D. Awschalom, Ronald Hanson, Jörg Wrachtrup & Brian B. Zhou, *Quantum technologies with optically interfaced solid-state spins*, Nature Photonics **12** (2018) 516–527 &lbrack;[doi:10.1038/s41566-018-0232-2](https://doi.org/10.1038/s41566-018-0232-2)&rbrack;
     
 Application to [[quantum sensing]]:
 
