@@ -48,7 +48,7 @@ Textbook accounts:
 
 * [[R. H. Crowell]] and [[R. H. Fox]], *Introduction to Knot Theory* Springer, Graduate Texts **57** (1963)
 
-* [[N. D. Gilbert]] and [[T. Porter]], *Knots and Surfaces*, Oxford U.P. (1994)
+* [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
 
 
