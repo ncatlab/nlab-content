@@ -22,11 +22,13 @@ By *quantum sensing* (or *quantum metrology*) one means the theory technology of
 
 * [[nuclear magnetic resonance]]
 
-* [[nitrogen-vacancy center]]
+* [[nitrogen-vacancy center in diamond]]
 
 * [[quantum measurement]]
 
 * [[quantum computing]]
+
+* [[quantum communication]]
 
 * [[quantum information theory]]
 
@@ -43,6 +45,17 @@ See also:
 * Wikipedia, *[Quantum sensor](https://en.wikipedia.org/wiki/Quantum_sensor)*
 
 * Wikipedia, *[Quantum metrology](https://en.wikipedia.org/wiki/Quantum_metrology)*
+
+Via [[spin resonance]] on a [[nitrogen-vacancy center in diamond]]:
+
+* Jixing Zhang, Lixia Xu, Guodong Bian, Pengcheng Fan, Mingxin Li, Wuming Liu, Heng Yuan, *Diamond Nitrogen-Vacancy Center Magnetometry: Advances and Challenges* &lbrack;[arXiv:2010.10231](https://arxiv.org/abs/2010.10231)&rbrack;
+
+* [[Mouzhe Xie]] et al., *Biocompatible surface functionalization architecture for a diamond quantum sensor*, PNAS **119** 8 (2022) e2114186119 &lbrack;[arXiv:2108.04843](https://arxiv.org/abs/2108.04843), [doi:10.1073/pnas.2114186119](https://doi.org/10.1073/pnas.2114186119)&rbrack;
+
+Survey:
+
+* [[Mouzhe Xie]], *Diamond-based quantum sensor for molecular analytics*, [talk at](Center+for+Quantum+and+Topological+Systems#XieApr2023) [[CQTS]] (Apr 2023) &lbrack;slides: [[Xie-CQTS-Apr2023.pdf:file]]&rbrack;
+
 
 [[!redirects quantum sensor]]
 [[!redirects quantum sensors]]
