@@ -31,6 +31,9 @@ On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of depende
 
 * {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
 
+On [[polynomial functors]]:
+
+* {#FMLS} [[Eric Finster]], [[Samuel Mimram]], Maxime Lucas, Thomas Seiller, _A Cartesian Bicategory of Polynomial Functors in Homotopy Type Theory_ ([arXiv:2112.14050](https://arxiv.org/abs/2112.14050)).
 
 
 ## Related entries
