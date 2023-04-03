@@ -33,9 +33,13 @@
 
     * [[quantum measurement]]
 
+      [[wave function collapse]]
+
       [[Born rule]]
 
-      [[wave function collapse]]
+      [[deferred measurement principle]]
+
+      [[quantum reader monad]]
 
       [[measurement problem]]
 
