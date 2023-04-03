@@ -155,7 +155,7 @@ The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psue
 
 * Every fibration or opfibration is an [[isofibration]].  In particular, [[strict 2-limit|strict 2-pullbacks]] of fibrations are also [[2-pullbacks]].
 
-* Suppose that $p\colon A\to B$ is a fibration, and $B$ has $I$-indexed [[limits]]. Then $A$ has $I$-indexed limits and $p$ strictly preserves them if and only if $p$ has fibred $I$-indexed limits. This is in [Gray 66](#Gray); for a general perspective, see [Hermida 99, Corollary 4.9](#Hermida). Concretely, for instance, from right to left, given a [[diagram]] $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$. 
+* {#FiberedLimit} Suppose that $p\colon A\to B$ is a fibration, and $B$ has $I$-indexed [[limits]]. Then $A$ has $I$-indexed limits and $p$ strictly preserves them if and only if $p$ has $I$-indexed [[fibered limit|fibred limits]]. This is in [Gray 66](#Gray); for a general perspective, see [Hermida 99, Corollary 4.9](#Hermida). Concretely, for instance, from right to left, given a [[diagram]] $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$. 
 
 * Dually, if $p\colon A\to B$ is an opfibration, then [[colimits]] in $A$ can be constructed out of those in $B$ and in the fiber categories.
 
@@ -326,7 +326,7 @@ The concept was introduced in the context of [[descent theory]] by [[Alexander G
 
 Another important early reference is
 
-* {#Gray} [[John W. Gray]], _Fibred and Cofibred Categories_ , pp.21-83 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
+* {#Gray} [[John W. Gray]], *Fibred and Cofibred Categories*, in [[Samuel Eilenberg,Eilenberg]], Harrison, [[Saunders MacLane|MacLane]], Röhrl (eds.), *Proceedings of the Conference on Categorical Algebra - La Jolla 1965*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 Textbook accounts:
 
@@ -344,7 +344,7 @@ Textbook accounts:
 
 Hermida worked on the 2-category of fibrations and the application of fibrations to computer science. 
 
-* {#Hermida} [[Claudio Hermida]], _Some properties of Fib as a fibred 2-category_, Journal of Pure and Applied Algebra 134 (1999) 83-109. 
+* {#Hermida} [[Claudio Hermida]], *Some properties of $Fib$ as a fibred 2-category*, Journal of Pure and Applied Algebra **134** (1999) 83-109 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00129-1">doi:10.1016/S0022-4049(97)00129-1</a>&rbrack;
 
 * {#HermidaThesis} [[Claudio Hermida]], [PhD thesis, University of Edinburgh](https://era.ed.ac.uk/bitstream/handle/1842/14057/Hermida1993.Pdf)
 
@@ -398,8 +398,17 @@ The Wikipedia entry on fibered / fibred categories is okay, and contains a numbe
 [[!redirects fibered categories]]
 [[!redirects fibred categories]]
 
+[[!redirects cofibered category]]
+[[!redirects cofibered categories]]
+
+[[!redirects cofibred category]]
+[[!redirects cofibred categories]]
+
+
+
 [[!redirects (Grothendieck) fibration]]
 [[!redirects (Grothendieck) fibrations]]
 
 [[!redirects morphism of fibrations]]
 [[!redirects morphisms of fibrations]]
+
