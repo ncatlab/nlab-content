@@ -167,6 +167,10 @@ On (finitely) presented groups as [[fundamental groups]] of ([[finite cell compl
 
 * Behrooz Mashayekhy, Hanieh Mirebrahimi, *Some Properties of Finitely Presented Groups with Topological Viewpoints*, International Journal of Mathematics, Game Theory and Algebra **18** 6 (2010) 511-515 &lbrack;[arXiv:1012.1744](https://arxiv.org/abs/1012.1744)&rbrack;
 
+On [[rewriting]] in group presentations:
+
+* [[Nick Gilbert]], Emma Antonia Mcdougall, _Groupoids and the algebra of rewriting in group presentations_, Beitr&auml;ge zur Algebra und Geometrie **62** 3 (2021) 1-17 &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6), [arXiv:1901.04348](https://arxiv.org/abs/1901.04348)&rbrack;
+
 
 category: group theory
 
