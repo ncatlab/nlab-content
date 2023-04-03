@@ -15,6 +15,11 @@ On [[knot theory]]:
 
 * [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
+On [[rewriting]] in [[group presentations]]:
+
+[[Nick Gilbert]], Emma Antonia Mcdougall, _Groupoids and the algebra of rewriting in group presentations_,     Beitrage zur Algebra und Geometrie 62(3):1-17, &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6)&rbrack;, and &lbrack;[Arxiv preprint](https://arxiv.org/abs/1901.04348).&rbrack;
+
+
 
 
 category:people
