@@ -39,6 +39,12 @@ Therefore NV center spins serve as a platform for [[spin resonance qbits]], used
 
 ## References
 
+Original articles:
+
+* J. M. Taylor et al., *High-sensitivity diamond magnetometer with nanoscale resolution*, Nature Phys **4** (2008) 810–816 &lbrack;[doi:10.1038/nphys1075](https://doi.org/10.1038/nphys1075)&rbrack;
+
+Review and further discussion     
+
 * {#AHWZ18} [[David D. Awschalom]], Ronald Hanson, Jörg Wrachtrup & Brian B. Zhou, *Quantum technologies with optically interfaced solid-state spins*, Nature Photonics **12** (2018) 516–527 &lbrack;[doi:10.1038/s41566-018-0232-2](https://doi.org/10.1038/s41566-018-0232-2)&rbrack;
 
 * [Awschalom group](https://pme.uchicago.edu/group/awschalom-group), *The Nitrogen-Vacancy Center in Diamond* &lbrack;[web](https://pme.uchicago.edu/awschalom-group/nitrogen-vacancy-center-diamond)&rbrack;
@@ -48,6 +54,11 @@ Application to [[quantum sensing]]:
 * Jixing Zhang, Lixia Xu, Guodong Bian, Pengcheng Fan, Mingxin Li, Wuming Liu, Heng Yuan, *Diamond Nitrogen-Vacancy Center Magnetometry: Advances and Challenges* &lbrack;[arXiv:2010.10231](https://arxiv.org/abs/2010.10231)&rbrack;
 
 * [[Mouzhe Xie]] et al., *Biocompatible surface functionalization architecture for a diamond quantum sensor*, PNAS **119** 8 (2022) e2114186119 &lbrack;[arXiv:2108.04843](https://arxiv.org/abs/2108.04843), [doi:10.1073/pnas.2114186119](https://doi.org/10.1073/pnas.2114186119)&rbrack;
+
+Survey:
+
+* [[Mouzhe Xie]], *Diamond-based quantum sensor for molecular analytics*, [talk at](Center+for+Quantum+and+Topological+Systems#XieApr2023) [[CQTS]] (Apr 2023) &lbrack;slides: [[Xie-CQTS-Apr2023.pdf:file]]&rbrack;
+
 
 See also:
 
