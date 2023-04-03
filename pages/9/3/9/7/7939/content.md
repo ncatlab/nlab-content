@@ -41,6 +41,8 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## Related concepts
 
+* [[spin resonance qbit]]
+
 * [[Pauli gate]]
 
 * [[bit]], [[truth value]]
