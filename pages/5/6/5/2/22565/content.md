@@ -1,11 +1,10 @@
 
 
-
 **[[quantum logic]]**
 
-* ([[dependent linear type theory|dependent]]) [[linear type theory]]
+* [[linear logic]], [[dependent linear type theory|dependent]] [[linear type theory]]
 
-  [[string diagrams]] in [[finite quantum mechanics in terms of dagger-compact categories|†-compact categories]]
+  [[string diagrams]] in [[quantum information theory via dagger-compact categories|†-compact categories]]
 
   [[tensor networks]]
 
@@ -61,9 +60,13 @@
 
 **[[quantum information]]**
 
+* [[quantum information via dagger-compact categories]]
+
 * [[quantum operation]], [[quantum channel]]
 
-* [[entanglement]]
+* [[quantum teleportation]]
+
+* [[quantum entanglement]]
 
 * [[entanglement entropy]]
 
@@ -78,13 +81,15 @@
 \linebreak
 
 
-
-
 **[[quantum computation]]**
+
+* [[adiabatic quantum computation]]
+
+* [[measurement-based quantum computation]]
 
 * [[topological quantum computation]]
 
-* [[quantum circuit]]
+* [[quantum gate]], [[quantum circuit]]
 
 * [[quantum programming language]]
 
@@ -95,14 +100,23 @@
   * [[Majorana dimer code]]
 
 
+[[qbit]]
+
+* [[spin resonance qbit]]
+
 quantum algorithms:
 
 * [[Grover's algorithm]]
 
 * [[Shor's algorithm]]
 
+\linebreak
 
+**[[quantum sensing]]**
 
+\linebreak
+
+**[[quantum communication]]**
 
 
 
