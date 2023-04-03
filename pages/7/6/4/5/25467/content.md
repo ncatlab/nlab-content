@@ -19,8 +19,8 @@ Suppose we have a [[fibered category]] $p \colon \mathcal{E} \to \mathcal{B}$, w
 
 A **definable collection** of objects of the total category $\mathcal{E}$ corresponds, intuitively, to the extension of a 'meta-property' of the types which we can use to single out subcontexts by means of a generalized '[[comprehension category|comprehension]]'.
 
-The archetypal example is given by 'truth'. Suppose $p$ has [[fibred terminal objects]], i.e. over each context $B:\mathcal{B}$, there is a 'unit type' $1_B : \mathcal{E}_B$, terminal in the fiber.
-Then the collection $\{1_B : \mathcal{E} \mid B: \mathcal{B}\}$ is an extensive definition of the meta-property of 'being true' (or better: being inhabited).
+The archetypal example is given by '[[truth]]': Suppose $p$ has [[fibred terminal objects]], i.e. over each [[context]] $B \colon \mathcal{B}$, there is a '[[unit type]]' $1_B \colon \mathcal{E}_B$ which is [[terminal object|terminal]] in the fiber.
+Then the collection $\{1_B \colon \mathcal{E} \mid B \colon \mathcal{B}\}$ is an extensive definition of the meta-property of 'being true' (or better: being [[inhabited type|inhabited]]).
 
 Once we have a definable collection $\mathcal{P}$, and given an object $X: \mathcal{E}_B$, we can ask: which members of the 'family' $X$ 'satisfy' $P$? This question is answered by a subobject $\{b:B \mid X_b : \mathcal{P}\} \rightarrowtail B : \mathcal{B}$.
 
