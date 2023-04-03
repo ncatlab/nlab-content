@@ -884,7 +884,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 ### Apr
 
 
-* 3 Apr 2023
+* {#XieApr2023} 3 Apr 2023
 
   [[Mouzhe Xie]] (University of Chicago)
 
@@ -892,9 +892,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf.: [arXiv:2108.04843](https://arxiv.org/abs/2108.04843)
 
-  > [[quantum sensing|Quantum sensing]] technologies enable some of the most precise [[measurements]] that human beings have ever achieved. In recent years, optically addressable [[nitrogen-vacancy center|nitrogen-vacancy (NV)]] color center hosted by diamond crystal has been used as a novel quantum sensor, which has exquisitely sensitive response to local magnetic field fluctuations. It is therefore capable to perform micro-/nano-scale [[nuclear magnetic resonance|NMR experiments]], manifesting enormous potential to study biological systems on extremely small sample volume -- even down to single-molecule regime.
+  > [[quantum sensing|Quantum sensing]] technologies enable some of the most precise [[measurements]] that human beings have ever achieved. In recent years, optically addressable [[nitrogen-vacancy center|nitrogen-vacancy (NV)]] color center hosted by [[diamond]] [[crystal]] has been used as a novel [[quantum sensor]], which has exquisitely sensitive response to local [[magnetic field]] fluctuations. It is therefore capable to perform micro-/nano-scale [[nuclear magnetic resonance|NMR experiments]], manifesting enormous potential to study [[biology|biological systems]] on extremely small sample volume -- even down to single-molecule regime.
 
-  > In this seminar, I will discuss some of the comprehensive efforts to develop NV-based quantum sensing platforms for a wide range of applications in [[chemistry]] and [[biology]]. I will start with a general introduction to [[quantum sensing]] followed by conventional [[NMR]] spectroscopy as a powerful tool to study biomolecules, as well as their connections to the [[NV center|NV]]-based nanoscale [[NMR]]. I will then introduce a biocompatible surface functionalization architecture for interfacing a diamond quantum sensor with individual intact biomolecules under physiological conditions. A sensing modality based on diamond membrane integrated with flow channel will also be discussed, which is a promising platform for a variety of experiments a molecular, cellular, and even living-organism levels. Finally, I will conclude by providing an outlook on how NV-based quantum sensing platforms, combined with other advanced spectroscopy and microscopy methods, can be utilized to address important biophysical and bioanalytical questions with unprecedented sensitivity and spatial resolution, which will enhance our understanding of molecular interactions and cellular processes and ultimately improve human health.
+  > In this seminar, I will discuss some of the comprehensive efforts to develop [[NV center|NV]]-based [[quantum sensing]] platforms for a wide range of applications in [[chemistry]] and [[biology]]. I will start with a general introduction to [[quantum sensing]] followed by conventional [[NMR]] [[spectroscopy]] as a powerful tool to study biomolecules, as well as their connections to the [[NV center|NV]]-based nanoscale [[NMR]]. I will then introduce a biocompatible surface functionalization architecture for interfacing a diamond quantum sensor with individual intact biomolecules under physiological conditions. A sensing modality based on diamond membrane integrated with flow channel will also be discussed, which is a promising platform for a variety of experiments a molecular, cellular, and even living-organism levels. Finally, I will conclude by providing an outlook on how NV-based quantum sensing platforms, combined with other advanced spectroscopy and microscopy methods, can be utilized to address important biophysical and bioanalytical questions with unprecedented sensitivity and spatial resolution, which will enhance our understanding of molecular interactions and cellular processes and ultimately improve human health.
 
 \linebreak
 
