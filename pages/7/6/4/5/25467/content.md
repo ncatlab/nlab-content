@@ -19,7 +19,7 @@ Suppose we have a [[fibered category]] $p \colon \mathcal{E} \to \mathcal{B}$, w
 
 A **definable collection** of objects of the total category $\mathcal{E}$ corresponds, intuitively, to the extension of a 'meta-property' of the types which we can use to single out subcontexts by means of a generalized '[[comprehension category|comprehension]]'.
 
-The archetypal example is given by '[[truth]]': Suppose $p$ has [[fibred terminal objects]], i.e. over each [[context]] $B \colon \mathcal{B}$, there is a '[[unit type]]' $1_B \colon \mathcal{E}_B$ which is [[terminal object|terminal]] in the fiber.
+{#ArchetypicalExample} The archetypal example is given by '[[truth]]': Suppose $p$ has [[fibred terminal objects]], i.e. over each [[context]] $B \colon \mathcal{B}$, there is a '[[unit type]]' $1_B \colon \mathcal{E}_B$ which is [[terminal object|terminal]] in the fiber.
 Then the collection $\{1_B \colon \mathcal{E} \mid B \colon \mathcal{B}\}$ is an extensive definition of the meta-property of 'being true' (or better: being [[inhabited type|inhabited]]).
 
 Once we have a definable collection $\mathcal{P}$, and given an object $X: \mathcal{E}_B$, we can ask: which members of the 'family' $X$ 'satisfy' $P$? This question is answered by a subobject $\{b:B \mid X_b : \mathcal{P}\} \rightarrowtail B : \mathcal{B}$.
@@ -110,4 +110,5 @@ Definability is introduced on p.35 ('Short annotated glossary') of
 
 A modern and more traditional account is given in Section 9.6 of
 
-* {#Jacobs} [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics, 141. North-Holland Publishing Co., Amsterdam, 1999. xviii+760 pp. ISBN: 0-444-50170-3 ([pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)) ([contents](http://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html))
+* {#Jacobs} [[Bart Jacobs]], *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf), [webpage](http://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html)&rbrack;
+
