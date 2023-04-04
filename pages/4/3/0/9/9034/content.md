@@ -113,6 +113,11 @@ See also at _[Spin Grassmannians](Spn.Sp1#SpinGrassmannians)_.
 
 * [[Mikhail Katz]], [[Steven Shnider]], _Cayley 4-form, comass, and triality isomorphisms_ ([arXiv:0801.0283](http://arxiv.org/abs/0801.0283))
 
+On a complex and [[Lorentzian manifold|Lorentzian]] variant:
+
+* [[Kirill Krasnov]], *Lorentzian Cayley Form* &lbrack;[arXiv:2304.01118](https://arxiv.org/abs/2304.01118)&rbrack;
+
+
 
 ### In string theory/M-theory
 
