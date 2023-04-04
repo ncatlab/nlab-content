@@ -428,6 +428,10 @@ Beware of some non-obvious properties of the following type-theoretic [[syntax]]
 
 \end{remark}
 
+\linebreak
+
+The list of [[inference rules]] and their [[categorical semantics]] (first the [[axioms]] then derived rules):
+
 <center>
 <img src="/nlab/files/BireflectiveTypesStructureRules-230327.jpg" width="690">
 </center>
@@ -455,6 +459,25 @@ Using these ingredients, one finds that the function $a \,\mapsto\, \underline{a
 <img src="/nlab/files/BireflectiveModalityUnitDefinition-230304b.jpg" width="690">
 </div>
 </center>
+
+With this, one finds the following rule for $\natural$ respecting [[dependent pair types]]:
+
+
+\linebreak
+\linebreak
+
+\[
+  \label{NaturalRespectsDependentPairs}
+  \;
+\]
+
+<center>
+<div style="margin:-130px 10px 10px 0;">
+<img src="/nlab/files/BireflectiveModalityRespectForPairs-230404b.jpg" width="690">
+</div>
+</center>
+
+
 
 
 
