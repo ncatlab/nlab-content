@@ -211,5 +211,11 @@ In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called a
 [[!redirects weak direct products]]
 
 [[!redirects direct sum of groups]]
+[[!redirects direct sums of groups]]
+
 [[!redirects direct sum of abelian groups]]
+[[!redirects direct sums of abelian groups]]
+
+[[!redirects direct sum of vector spaces]]
+[[!redirects direct sums of vector spaces]]
 
