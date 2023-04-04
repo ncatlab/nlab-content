@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -58,11 +59,6 @@ Therefore one way to think of [[vertical categorification]] is as a [[right inve
 
 A precise way to define the decategorification of a 2-category in the above sense is to identify all 1-arrows which are 2-isomorphic (note that this defines an equivalence relation on 1-arrows and respects composition), and to discard the 2-arrows.
 
-## Example ##
-
-The decategorification, in the above sense, of the 2-category of (small) groupoids is equivalent to the (homotopy) category of [[homotopy 1-types]].
-
-The decategorification in the same sense of the 2-category of (small) categories is equivalent to the full [[homotopy category of topological spaces|homotopy category]].
 
 ## Extra structure ##
 
@@ -72,20 +68,28 @@ A famous example are [[fusion category|fusion categories]] whose decategorificat
 
 There may also be extra structure induced more directly on $K(C)$. For instance the [[K-theory|K-group]] of an [[abelian category]] is the decategorification of its category of bounded [[chain complexes]] and this inherits a group structure from the fact that this is a [[triangulated category]] (a [[stable (∞,1)-category]]) in which there is a notion of [[fibration sequence|homotopy exact sequences]].
 
+## Examples
 
-## Further examples ##
+* The decategorifications of [[finite sets]] and [[finite dimensional vector spaces]] (over any [[ground field]]) are [[natural numbers]]
 
-* The decategorifications of finite [[sets]] and [[finite dimensional vector spaces]] are [[natural numbers]]
   $$
-    FinSet/\sim \simeq \mathbb{N}
+    FinSet_{/\sim} \simeq \mathbb{N}
   $$
  
   $$
-    FinDimVect/\sim \simeq \mathbb{N}
+    FinDimVect_{/\sim} \simeq \mathbb{N}
   $$
 
+  For instance the [[rank-nullity theorem]] is the decategorification of the [[splitting lemma]] in the category [[FinDimVect]].
 
-...
+* The decategorification of the 2-category [[Grpd]] of (small) [[groupoids]] is equivalent to the [[homotopy category]] of [[homotopy 1-types]].
+
+* The decategorification in the same sense of the 2-category of ([[small category|small]]) [[categories]] is equivalent to the full [[homotopy category of topological spaces|homotopy category]]. (explain...)
+
+
+
+
+
 
 ## Parable ##
 From John Baez, https://math.ucr.edu/home/baez/week121.html
