@@ -87,7 +87,7 @@ That seems to make much of the above-listed criticism appear in a different ligh
 
 [[conjunction]] is given by intersection of two linear subspaces
 
-[[disjunction]] however is given by forming the [[linear space]] of two linear subspaces. Hence [[quantum states]] in the conjunction $A \vee B$ may be [[linear combinations]] of states in $A$ and $B$. This is an incarnation of [[superposition principle]] of [[quantum mechanics]].
+[[disjunction]] however is given by forming the [[linear span]] of two linear subspaces. Hence [[quantum states]] in the conjunction $A \vee B$ may be [[linear combinations]] of states in $A$ and $B$. This is an incarnation of [[superposition principle]] of [[quantum mechanics]].
 
 as a result, the BvN disjunction does not [[distributivity|distribute]] over conjunction, and hence the BvN lattice is not a [[distributive lattice]].
 
