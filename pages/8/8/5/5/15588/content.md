@@ -60,7 +60,7 @@ Review is for instance
 
 See also
 
-* [[Jochen Heinloth]], _Uniformization of $\mathcal{G}$-Bundles_ ([pdf](https://www.uni-due.de/~hm0002/Artikel/Uniformization_17-8-09.pdf))
+* [[Jochen Heinloth]], _Uniformization of $\mathcal{G}$-Bundles_ ([pdf](https://dare.uva.nl/search?identifier=35a7a6fe-9e92-4e37-8c2c-4b357709cc6f))
 
 For more references see at _[[moduli stack of bundles]]_.
 
