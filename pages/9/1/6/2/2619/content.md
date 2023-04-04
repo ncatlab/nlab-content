@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny** or **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits.
+Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny**, **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits. It is called **absolutely presentable** if the functor preserves all colimits.
 
 More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) : E \to V$ preserves all small colimits.
 =--
@@ -393,3 +393,5 @@ The term "atomic object" or rather "a.t.o.m" is suggested in
 
 [[!redirects atomic object]]
 [[!redirects atomic objects]]
+
+[[!redirects absolutely presentable]]
