@@ -352,7 +352,81 @@ A [[modal type theory]] for bireflection [[modalities]] has been proposed in [Ri
 
 We show the [[inference rules]] which these authors propose to add to plain [[intuitionistic type theory]] for encoding the presence of a bireflection [[classical modality]] $\natural$ on the type system, and we show corresponding [[categorical semantics]] via [[commuting diagrams]] in an interpreting [[locally cartesian closed category]]  (a more syntactic semantics is indicated in [RFL21, Sec. 7, esp. Fig. 6](#RFL21)).
 
-(Beware the notational asymmetry in the following: An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along the [[counit of a comonad|counit]] $\epsilon^{\natural}$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-[[modal type|modal]] or not.)
+\begin{remark}
+  Given a bireflection $\natural \colon \mathcal{B} \to \mathcal{B}$ as above, then for $\Gamma \in \mathcal{B}$ we obtain a [[monad]] on the [[slice category]], to be denoted
+
+\[
+  \label{TheMonadOnSlices}
+  \natural_\Gamma
+  \;\colon\;
+  \mathcal{B}_{/\Gamma} \to \mathcal{B}_{/\Gamma}
+\]
+
+by setting
+
+$$
+  \natural\Gamma
+  \left[
+  \begin{array}{c}
+    A
+    \\
+    \big\downarrow \mathrlap{\!\! {}^{p_A} }
+    \\
+    \Gamma
+  \end{array}
+  \;\;\;\;
+  \right]
+  \;\;\coloneqq\;\;
+  \big(\eta^\natural_\Gamma\big)^\ast 
+  \,\natural\, 
+  \left[
+  \begin{array}{c}
+    \natural A
+    \\
+    \big\downarrow \mathrlap{\!\! {}^{\natural p_A} }
+    \\
+    \natural \Gamma
+  \end{array}
+  \;\;\;\;
+  \right]
+$$
+
+\end{remark}
+
+\begin{remark}\label{OdditiesOfTheRFLSyntax}
+Beware of some non-obvious properties of the following type-theoretic [[syntax]]:
+
+1. There is an asymmetry in the meaning of $\underline{(-)}$:
+
+   An underline of a context denotes application of $\natural$, but an underline of a type in context only means its pullback along the [[counit of a comonad|counit]] $\epsilon^{\natural}$. The idea is that underlines indicate *dependency* on $\natural$-modal variables, to be distinguished of a type itself being $\natural$-[[modal type|modal]] or not.
+
+1. The syntactic symbol "$\natural$" is not exactly [[categorical semantics|interpreted]] as the bireflective monad of that name. Rather:
+
+   * An unadorned "$\natural$" in the syntax [[categorical semantics|interprets]], in [[context]] $\Gamma$, as the [[relative monad]]
+
+     $$
+       \array{
+         \mathcal{B}_{/\natural \Gamma}
+         &
+           \xrightarrow{
+             (\eta^\natural_\Gamma)^\ast
+           }
+         &
+         \mathcal{B}_{/\Gamma}
+         &
+           \xrightarrow{
+             \natural_\Gamma
+           }
+         &
+         \mathcal{B}_{/\Gamma}
+       }
+     $$
+
+   * The combination $\natural \underline{(-)}$ is what actually [[categorical semantics|interprets]] as $\natural_\Gamma$ (eq:TheMonadOnSlices).
+
+     This transpires syntactically in [RFL21, Cor. 2.14](#RFL21); [Riley22, Cor. 1.1.16](#Riley22), and semantically in (eq:InternalUnitConstruction) below.
+
+\end{remark}
 
 <center>
 <img src="/nlab/files/BireflectiveTypesStructureRules-230327.jpg" width="690">
@@ -366,16 +440,28 @@ We show the [[inference rules]] which these authors propose to add to plain [[in
 <img src="/nlab/files/BireflectiveModalityComputationRules-230327b.jpg" width="690">
 </center>
 
-{#InternalUnitConstruction} Using these ingredients, one finds that the function $a \,\mapsto\, \underline{a}^\natural$ is interpreted simply as postcomposition with the $\eta^{\natural}$-[[naturality square]]:
+Using these ingredients, one finds that the function $a \,\mapsto\, \underline{a}^\natural$ is interpreted simply as postcomposition with the $\eta^{\natural}$-[[naturality square]]:
+
+\linebreak
+\linebreak
+
+\[
+  \label{InternalUnitConstruction}
+  \;
+\]
 
 <center>
+<div style="margin:-130px 10px 10px 0;">
 <img src="/nlab/files/BireflectiveModalityUnitDefinition-230304b.jpg" width="690">
+</div>
 </center>
 
 
 
 
 \linebreak
+
+
 
 
 ## Examples
