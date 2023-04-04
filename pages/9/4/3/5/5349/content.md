@@ -19,11 +19,19 @@ If $N$ has a basis it is called a _[[nLab:free module]]_ (over $A$). For many ex
 All of the following are invariant basis rings (source: [Wikipedia](http://en.wikipedia.org/wiki/Invariant_basis_number)):
 
 *  any nontrivial [[commutative ring]] $K$,
+
 *  the [[group ring]] $K(G)$ for $K$ any [[field]] (or nontrival commutative ring?) and $G$ any [[group]],
+
 *  any [[Noetherian ring]].
 
 Besides the [[trivial ring]] (over which any module is free with any set as basis), an example of a ring without invariant basis number is the ring of $\aleph_0$-dimensional square [[matrix|matrices]] (over any ring) in which each column has only finitely many nonzero entries (which allows multiplication to be defined).  As a module over itself, this ring is free on any inhabited finite set, as may be shown by using the equation $\aleph_0 = n \aleph_0$ (applied to the columns).
 
+## Rank of a linear map
+ {#RankOfALinearMap}
+
+Given a [[linear map]], hence a [[homomorphism]] of [[modules]], its rank is the rank of its [[image]]-module.
+
+Often this is considered for the case that the linear map is represented by a [[matrix]] and one speaks of the *rank of a matrix*.
 
 ## Rank of a sheaf of modules
 
@@ -59,6 +67,8 @@ The properties of functors with rank are discussed in section 5.5 of Borceux ([1
 
 ## Rank of a Lie group
 
+* [[rank-nullity theorem]]
+
 * [[rank of a Lie group]]
 
 * [[rank of a coherent sheaf]], 
@@ -69,9 +79,14 @@ The properties of functors with rank are discussed in section 5.5 of Borceux ([1
 
 * [[stable coherent sheaf]], [[Bridgeland stability condition]]
 
-## Reference
+## Related concepts
 
-* {#Borceux2}[[Francis Borceux]], _Handbook of Categorical Algebra vol. 2_ , Cambridge UP 1994.
+* [[rank-nullity theorem]]
+
+
+## References
+
+* {#Borceux2}[[Francis Borceux]], _[[Handbook of Categorical Algebra]] vol. 2_ , Cambridge UP 1994.
 
 [[!redirects ranks]]
 
@@ -80,4 +95,11 @@ The properties of functors with rank are discussed in section 5.5 of Borceux ([1
 
 [[!redirects monad rank]]
 [[!redirects monad with rank]]
+
+[[!redirects rank of a linear map]]
+[[!redirects ranks of linear maps]]
+
+[[!redirects rank of a matrix]]
+[[!redirects ranks of matrices]]
+
 
