@@ -20,7 +20,7 @@
 
 ## Idea
 
-While every [[functor]] might be understood as constituting a "comparison" between its [[domain]] and [[codomain]]-[[categories]], the term "comparison functor" is often understood by default as referring, in [[categorical algebra]]., to the unique functor that relates any [[adjoint functors|adjunction]] to its [[monadic adjunction]] -- this is the case we discuss here.
+While every [[functor]] might be understood as constituting a "comparison" between its [[domain]] and [[codomain]]-[[categories]], the term "comparison functor" is often understood by default as referring, in [[categorical algebra]], to the unique functor that relates any [[adjoint functors|adjunction]] to its [[monadic adjunction]] -- this is the case we discuss here.
 
 But other instances of functorial "comparison" are bound to be relevant. For instance, for the "[[comparison lemma]]" in [[topos theory]] see there.
 
@@ -186,6 +186,11 @@ Here:
 (See for instance [MacLane (1971), §VI.3](#MacLane71))
 
 
+## Properties
+
+* $K^{UF}$ is [[fully faithful]] if and only if $U$ is of [[descent type]]. In this case, $K^{UF}$ has a [[right adjoint]] if and only if it is an [[equivalence of categories]], since [[coreflective category|coreflections]] create colimits, and every algebra is a colimit of a free algebra.
+
+* When $F \dashv U$ is the adjunction associated to the [[Kleisli category]] of a monad, $K^{UF}$ is [[dense]] and [[fully faithful]].
 
 
 ## Related concepts
