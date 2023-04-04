@@ -38,11 +38,11 @@ The study of $Vect$ is called _[[linear algebra]]_.
 
 ### Finite-dimensional vector spaces
 
-The [[full subcategory]] of Vect consisting of [[finite-dimensional vector spaces]] is denoted **[[FinDimVect]]**.
+The [[full subcategory]] of Vect consisting of [[finite-dimensional vector spaces]] may be denoted **[[FinDimVect]]**.
 
 This is a [[compact closed category]] (see [here](finite-dimensional+vector+space#CompactClosure)).
 
-$Fin Vect$ is where most of ordinary [[linear algebra]] lives, although much of it makes sense in all of $Vect$.  See also at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
+$FinDimVect$ is where most of ordinary [[linear algebra]] lives, although much of it makes sense in all of $Vect$.  See also at _[[quantum information theory in terms of dagger-compact categories]]_.
  
 On the other hand, anything involving transposes or [[inner products]] really takes place in $Fin$ [[Hilb]].
 
