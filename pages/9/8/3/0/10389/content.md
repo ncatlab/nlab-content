@@ -25,6 +25,6 @@ The *[[stuff]]* of a linear subspace of $A$ is a [[subset]] of $|A|$; it has the
 
 * [[subobject]], [[subspace]]
 
-* [[Hilbert lattice]]
+* [[Hilbert lattice]], [[quantum logic]]
 
 [[!redirects linear subspaces]]
