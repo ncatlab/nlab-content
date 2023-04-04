@@ -21,10 +21,11 @@ Review:
 
 * {#Petrov19} [[Leonid Petrov]], *Random Matrices*, lecture notes 2019 ([pdf slides](https://rmt-fall2019.s3.amazonaws.com/rmt-fall2019.pdf), [[PetrovRandomMatrices.pdf:file]], [webpage](https://lpetrov.cc/2019/07/rmt-announce))
 
-
 * Madan Lal Mehta, _Random matrices_, 3rd ed. Pure and Applied Math. (Amsterdam) __142__, Elsevier/Academic Press 2004. xviii+688 pp. [MR2129906](http://www.ams.org/mathscinet-getitem?mr=2129906), [gBooks](http://books.google.com/books?id=Kp3Nx03_gMwC&lpg=PP1&pg=PP1#v=onepage&q&f=false)
 
 * Wikipedia, _[Random matrix](http://en.wikipedia.org/wiki/Random_matrix)_
+
+* [[Terrence Tao]], _Topics in random matrix theory_ [pdf](https://www.math.hkbu.edu.hk/~ttang/UsefulCollections/matrix-book-2011-08.pdf)
 
 See also:
 
