@@ -61,6 +61,8 @@ One of the milestones in the study of contact geometry is [[Daniel Bennequin|Ben
 
 ## Related concepts
 
+* [[Reeb vector field]]
+
 * [[Legendrean submanifold]]
 
 * [[symplectic manifold]]
@@ -76,22 +78,21 @@ One of the milestones in the study of contact geometry is [[Daniel Bennequin|Ben
 
 ### General
 
-Monographs and introductions include 
+Monographs and introductions:
 
-* [[Hansjörg Geiges]], _Contact geometry_, in F. J. E. Dillen and L. C. A. Verstraelen, (eds.), _Handbook of Differential Geometry vol. 2  North-Holland, Amsterdam (2006), pp. 315-382 ([arXiv:math/0307242](http://arxiv.org/abs/math/0307242))
+* [[Hansjörg Geiges]], *Contact geometry*, in F. J. E. Dillen and L. C. A. Verstraelen, (eds.), *Handbook of Differential Geometry* vol. 2  North-Holland, Amsterdam (2006) 315-382 &lbrack;[arXiv:math/0307242](http://arxiv.org/abs/math/0307242), [ISBN:978-0-444-52052-4](https://www.sciencedirect.com/handbook/handbook-of-differential-geometry/vol/2/suppl/C)&rbrack;
 
-
-* {#Geiges} [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([doi:10.1017/CBO9780511611438]( https://doi.org/10.1017/CBO9780511611438))
+* {#Geiges} [[Hansjörg Geiges]], *An Introduction to Contact Topology*, Cambridge Studies in Advanced Mathematics **109**, Cambridge University Press (2008) &lbrack;[doi:10.1017/CBO9780511611438](https://doi.org/10.1017/CBO9780511611438)&rbrack;
  
 
-* {#Lin}Xiao-Song Lin, _An introduction to 3-dimensional contact geometry_ ([pdf](http://math.ucr.edu/~xl/contact.pdf))
+* {#Lin} Xiao-Song Lin, _An introduction to 3-dimensional contact geometry_ &lbrack;[pdf](http://math.ucr.edu/~xl/contact.pdf)&rbrack;
   
 
-* John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math.  71 (2003), 81-107.  ([pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf))
+* John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math. **71** (2003) 81-107  &lbrack;[pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf)&rbrack;
 
 Discussion in terms of (a modification of) [[G-structures]]:
 
-* Alfonso Giuseppe Tortorella, Luca Vitagliano & Ori Yudilevich, _Homogeneous G-structures_, Annali di Matematica (2020) ([doi:10.1007/s10231-020-00972-9](https://doi.org/10.1007/s10231-020-00972-9))
+* Alfonso Giuseppe Tortorella, Luca Vitagliano & Ori Yudilevich, _Homogeneous G-structures_, Annali di Matematica (2020) &lbrack;[doi:10.1007/s10231-020-00972-9](https://doi.org/10.1007/s10231-020-00972-9)&rbrack;
  
 
 
@@ -169,3 +170,7 @@ T&#244;hoku Math. J. 49 (1997), 415-422.
 
 [[!redirects contact form]]
 [[!redirects contact forms]]
+
+[[!redirects contact 1-form]]
+[[!redirects contact 1-forms]]
+
