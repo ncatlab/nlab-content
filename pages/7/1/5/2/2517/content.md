@@ -57,7 +57,7 @@ $$
   (x,d) \mapsto  (\epsilon \mapsto x + \epsilon d)
 $$
 
-is an [[isomorphism]].
+is an [[isomorphism]] of objects in $T$.
 
 
 ### KL axiom for spectra of internal Weil algebras
@@ -103,7 +103,7 @@ $$
   W \to R^{Spec_R(W)}
 $$
 
-is an [[isomorphism]].
+is an [[isomorphism]] of objects in $T$. Note that because the canonical morphism is also a homomorphism of $R$-algebras, and inverses of algebra homomorphisms are algebra homomorphisms, this gives an isomorphism of internal $R$-algebras.
 
 ## References
 
