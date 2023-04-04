@@ -30,6 +30,8 @@ If one is interested in tensor products as well, then one gets a generalization 
 
 * [[linear map]], [[linear equation]]
 
+* [[rank-nullity theorem]]
+
 * [[higher linear algebra]]
 
 * [[linear type theory]]
@@ -37,7 +39,15 @@ If one is interested in tensor products as well, then one gets a generalization 
 
 ## References
 
+Historical precursors:
+
 * [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+
+Introductory textbooks:
+
+* Sheldon Axler, *Linear Algebra Done Right*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-11080-6](https://doi.org/10.1007/978-3-319-11080-6)&rbrack;
+
+See also:
 
 * wikipedia [linear algebra](http://en.wikipedia.org/wiki/Linear_algebra)
 
