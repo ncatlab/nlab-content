@@ -23,7 +23,7 @@
 
 By a _bireflective subcategory_ one might mean:
 
-1. a [[subcategory]] $\iota \,\colon\, \mathcal{C} \hookrightarrow \mathcal{B}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]]: $L \dashv \iota \dashv R$ (*[[reflective localization]]* and *coreflective localization*).
+1. A [[subcategory]] $\iota \,\colon\, \mathcal{C} \hookrightarrow \mathcal{B}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]]: $L \dashv \iota \dashv R$ (*[[reflective localization]]* and *coreflective localization*).
 
    Such subcategories are called **essential localizations** by [Kelly & Lawvere (1989)](#KellyLawvere89), following the terminology of *[[essential geometric morphisms]]* from [[topos theory]], see also at *[[level of a topos]]*.
 
@@ -366,7 +366,7 @@ We show the [[inference rules]] which these authors propose to add to plain [[in
 by setting
 
 $$
-  \natural\Gamma
+  \natural_\Gamma
   \left[
   \begin{array}{c}
     A
@@ -406,6 +406,10 @@ Beware of some non-obvious properties of the following type-theoretic [[syntax]]
    * An unadorned "$\natural$" in the syntax [[categorical semantics|interprets]], in [[context]] $\Gamma$, as the [[relative monad]]
 
      $$
+       \classical^{rel}_\Gamma
+       \;\;
+       \colon
+       \;\;
        \array{
          \mathcal{B}_{/\natural \Gamma}
          &
@@ -478,7 +482,7 @@ With this, one finds the following rule for $\natural$ respecting [[dependent pa
 </div>
 </center>
 
-Using this one finds that every type $A$ is the [[dependent sum type]] of its fiber [[linear types]] $A_{\underline{x}}$:
+Using this one finds that every type $A$ is the [[dependent sum type]] of its fiber [[linear types]] $A_{\underline{x}}$ (NB: we show 1-categorical semantics, interpreting [[identification types]] as [[diagonal morphisms]]):
 
 
 \linebreak
