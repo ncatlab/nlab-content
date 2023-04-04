@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -477,6 +478,22 @@ With this, one finds the following rule for $\natural$ respecting [[dependent pa
 </div>
 </center>
 
+Using this one finds that every type $A$ is the [[dependent sum type]] of its fiber [[linear types]] $A_{\underline{x}}$:
+
+
+\linebreak
+\linebreak
+
+\[
+  \label{LinearTpes}
+  \;
+\]
+
+<center>
+<div style="margin:-130px 10px 10px 0;">
+<img src="/nlab/files/BireflectiveModalityLinearTpes-230404.jpg" width="690">
+</div>
+</center>
 
 
 
@@ -559,6 +576,8 @@ An analogous statement is in [Braunack-Mayer (2019), Cor. 2.45](model+structure+
 * [[classical modality]]
 
 * [[VectBund]]
+
+* [[parameterized spectra]]
 
 ## References
 
