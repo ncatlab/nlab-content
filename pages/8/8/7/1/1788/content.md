@@ -1,136 +1,38 @@
 
-
-[[CovariantGrothendieckConstrSchema-230401b.jpg:file]]
-
-<img src="/nlab/files/CovariantGrothendieckConstrSchema-230401b.jpg" width="300">
+For a given [[ground field]], we consider the category [[FinDimVect]] whose [[objects]] [[finite-dimensional vector spaces]] $V$ and whose [[morphisms]] are [[linear maps]] $V_1 \to V_2$ between these.
 
 
-## Idea
-
-In [[parameterized homotopy theory]], by a *retractive space* one means a [[retraction]] in a given [[category]] $\mathcal{S}$ of [[model category|models]] for [[homotopy types]], usually in [[TopologicalSpaces]] or [[SimplicialSets]].
-
-In other words, a retractive space is a [[commuting diagram]] in such $\mathcal{S}$ of this form
 
 \begin{tikzcd}[
-    column sep=10pt
-  ]
-    & E
-    \ar[
-      d,
-      "{ p }"
-    ]
-    \\
-    B
-    \ar[r, equals]
-    \ar[ur, "i"]
-    &
-    B
-    \mathrlap{\,.}
-\end{tikzcd}
-
-In [[parameterized homotopy theory]] one is to think of such a [[retraction]] as being a *[[bundle]] of [[pointed topological spaces]]* over a *base space* $B$, where the [[section]] $i \colon B \to E$ exhibits the [[fiber]]-wise [[base points]].
-
-Indeed, taking the [[category]] $\mathcal{S}_{\mathcal{R}}$ of retractive spaces to have as [[morphisms]] the evident [[commuting diagrams]]
-
-\begin{tikzcd}[
-  sep=20pt
+  row sep=20pt,
+  column sep=5pt
 ]
-    B 
-    \ar[d, "{i}"]
-    \ar[rr, "{f}"]
-    &&
-    B' 
-    \ar[d, "{ i' }"]    
-    \\
-    E 
-    \ar[d, "{p}"]
-    \ar[rr, "{\widehat f}"]
-    &&
-    E'
-    \ar[d, "{p'}"]
-    \\
-    B
-    \ar[rr, "{f}"]
-    &&
-    B'
+  &
+  \mathrm{ker}(f_1)
+  \oplus 
+  \big(
+  f_1(V_1) \cap_B f_2(V_2) 
+  \big)
+  \oplus 
+  \mathrm{ker}(f_2)
+  \ar[d, phantom, "{\simeq}"{rotate=-90}]
+  \\[-10pt]
+  \mathrm{ker}(f_1)
+  \ar[d, hook]
+  &
+  V_1 \times_{{}_{B}} V_2
+  \ar[dl]
+  \ar[dr]
+  \ar[dd, phantom, "{\scalebox{.6}{(pb)}}"{pos=.2}]
+  &
+  \mathrm{ker}(f_2)
+  \ar[d, hook]
+  \\
+  V_1 
+  \ar[dr, "{f_1}"{description}]
+  && 
+  V_2
+  \ar[dl, "{f_2}"{description}]
+  \\
+  & B
 \end{tikzcd}
-
-reflecting [[bundle]]-[[homomorphisms]] respecting the [[base points]], this is [[equivalence of categories|equivalent]] to the [[Grothendieck construction]] on the [[pseudo-functor]] 
-
-$$
-  \big(\mathcal{S}_{/(-)}\big)^{\ast/}
-  \;\colon\;
-  \mathcal{S} \longrightarrow Cat
-$$
-
-which sends a morphism $f \colon B \to B'$ of base spaces to the [[functor]] $f_!$ forming [[pushouts]] of bundles along $f_!$:
-
-\begin{tikzcd}[
-    row sep=30pt
-  ]
-    B 
-    \ar[d, "{i}"{description}]
-    \ar[rr, "{f}"{description}]
-    \ar[
-      drr,
-      phantom,
-      "{
-        \scalebox{.6}{
-          (po)
-        }
-      }"{pos=.7}
-    ]
-    &&
-    B' 
-    \ar[d, "{ f_!(i) }"{description}]    
-    \\
-    E 
-    \ar[d, "{p}"{description}]
-    \ar[rr, "{\widehat f}"{description}]
-    \ar[
-      drr,
-      phantom,
-      "{
-        \scalebox{.6}{
-          (po)
-        }
-      }"{pos=.7}
-    ]
-    &&
-    f_! E
-    \ar[d, "{f_!(p)}"{description}]
-    \\
-    B
-    \ar[
-      rr, 
-      "{f}"{description}
-    ]
-    &&
-    B'
-\end{tikzcd}
-
-i.e. 
-
-$$
-  \mathcal{S}_{mathcal{R}}
-  \;\simeq\;
-  \int_{B \in \mathcal{S}} \big(\mathcal{S}_{/B}\big)^{\ast/}
-  \,.
-$$
-
-This follows readily from the definitions, but see also [Braunack-Mayer (2021), Rem. 1.15](#BraunackMayer19), [Hebestreit, Sagave & Schlichtkrull (2020), Lem. 2.14](#HebestreitSagaveSchlichtkrull20).
-
-
-## References
-
-Discussion in the context of [[model structures for parameterized spectra]]:
-
-* {#BraunackMayer21} [[Vincent Braunack-Mayer]], *Combinatorial parametrised spectra*, Algebr. Geom. Topol. **21** (2021) 801-891 &lbrack;[arXiv:1907.08496](https://arxiv.org/abs/1907.08496), [doi:10.2140/agt.2021.21.801](https://doi.org/10.2140/agt.2021.21.801)&rbrack;
-
-  > (based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]], 2018)
-
-* {#HebestreitSagaveSchlichtkrull20} [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
-
-
-
-
