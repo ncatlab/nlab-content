@@ -19,13 +19,11 @@
 
 ## Definition
 
-An **intersection** is a [[meet]] of [[subset]]s or (more generally) [[subobject]]s.
-
-The dual notion is that of [[union]]/[[join]].
+An **intersection** is a [[meet]] of [[subset]]s or (more generally) [[subobject]]s. Dually, a **cointersection** is a [[union]]/[[join]] of cosubobjects.
 
 This includes the traditional [[set theory|set-theoretic]] intersection of subsets of some ambient set, as well as intersections of completely arbitrary sets (which are subsets of the [[universe]]) in [[material set theory]].
 
-In a [[finitely complete category]], the intersection of two [[monomorphism]]s $A\hookrightarrow X$ and $B\hookrightarrow X$ can be computed by a [[pullback]] of the [[cospan]] $A\to X \leftarrow B$.
+In a [[finitely complete category]], the intersection of two [[monomorphism]]s $A\hookrightarrow X$ and $B\hookrightarrow X$ can be computed by a [[pullback]] of the [[cospan]] $A\to X \leftarrow B$. Dually, the cointersection of two [[epimorphisms]] is their [[pushout]].
 
 The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary intersection__ is the intersection of two sets, and a __finitary intersection__ is the intersection of [[finite set|finitely]] many sets.  Finitary intersections may be built out of binary and nullary intersections.
 
@@ -49,6 +47,9 @@ The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary in
 
 [[!redirects intersection]]
 [[!redirects intersections]]
+
+[[!redirects cointersection]]
+[[!redirects cointersections]]
 
 [[!redirects nullary intersection]]
 [[!redirects nullary intersections]]
