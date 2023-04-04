@@ -108,15 +108,17 @@ commutes. Now an initial object is the limit of the identity functor, but this i
 
 1. Let $Y$ be a category. Call a small family of objects $F$ _weakly initial_ if for every object $y$ of $Y$ there exists $x \in F$ and a morphism $f: x \to y$. 
 
-1. Suppose $Y$ has small products. If $F$ is a weakly initial family, then $\prod_{x \in F} x$ is a [[weak multilimit|weakly initial]] object. 
+1. Suppose $Y$ has small products. If $F$ is a [[weak multilimit|weakly initial family]], then $\prod_{x \in F} x$ is a [[weakly initial object]]. 
 
-1. **Claim:** Suppose $Y$ is locally small and small complete. If $x$ is a weakly initial object, then the domain $e$ of the joint equalizer $i: e \to x$ of all arrows $x \to x$ is an initial object. **Proof:** clearly $e$ is weakly initial. Suppose given an object $y$ and arrows $f, g: e \to y$; we must show $f = g$. Let $j: d \to e$ be the equalizer of $f$ and $g$. There exists an arrow $k: x \to d$. The arrow $i: e \to x$ equalizes $1_x$ and $i j k: x \to x$, so $i j k i = i$. Since $i$ is monic, $j (k i) = 1_e$. Thus $j$ is an epi, and $f = g$ follows. 
+1. **Claim:** Suppose $Y$ is locally small and has join equalizers of small families. If $x$ is a weakly initial object, then the domain $e$ of the joint equalizer $i: e \to x$ of all arrows $x \to x$ is an initial object. **Proof:** clearly $e$ is weakly initial. Suppose given an object $y$ and arrows $f, g: e \to y$; we must show $f = g$. Let $j: d \to e$ be the equalizer of $f$ and $g$. There exists an arrow $k: x \to d$. The arrow $i: e \to x$ equalizes $1_x$ and $i j k: x \to x$, so $i j k i = i$. Since $i$ is monic, $j (k i) = 1_e$. Thus $j$ is an epi, and $f = g$ follows. 
 
 If $C$ is locally small and small-complete and $R: C \to D$ preserves limits, then $d \downarrow R$ is locally small and small-complete for every object $d$ of $D$. 
 
 If in addition each $d \downarrow R$ has a weakly initial family (solution set condition), then by 2. and 3. each $d \downarrow R$ has an initial object. This restates the condition that $R$ has a left adjoint.
 
 =--
+
+In fact, it suffices for $C$ to be [[Cauchy complete]] and for $R$ to be $\alpha$-[[flat functor|flat]] for every $\alpha$ (i.e. for its [[Yoneda extension]] to be continuous). See [Borceux](#Bouceux). 
 
 +-- {: .proof} 
 ###### Proof of SAFT 
@@ -388,9 +390,11 @@ A more recent exposition is in
 
 * [[Peter Freyd]], Andre Scedrov, *Categories, Allegories*, North-Holland, 1990. (Also Dover reprint New York 2014, pp.144-148)
 
+where the [[solution set condition]] is called "pre-adjointness".
+
 Careful discussions can be found in
 
-* [[Francis Borceux]], *Handbook of Categorical Algebra I*, Cambridge UP, 1994. (sections 3.3, 6.6)
+* {#Bouceux} [[Francis Borceux]], *Handbook of Categorical Algebra I*, Cambridge UP, 1994. (sections 3.3, 6.6)
 
 * [[Saunders Mac Lane]], *Categories for the Working Mathematician*, Springer Heidelberg, 1998&#178;. (sections V.6, V.8)
 
