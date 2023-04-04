@@ -33,6 +33,8 @@ Note that if the structure on X is such that matrix multiplication is associativ
 
 * [[diagonal matrix]]
 
+* [[rank of a matrix]]
+
 * [[inverse matrix]]
 
 * [[matrix equivalence]]
