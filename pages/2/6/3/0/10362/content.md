@@ -297,10 +297,18 @@ In relation to the [[Grothendieck inequality]]:
 
 * Wikipedia, *[Tsirelson's bound](https://en.wikipedia.org/wiki/Tsirelson%27s_bound)*
 
+### In quantum field theory
+
+In the generality of [[quantum field theory]]:
+
 
 On Bell inequalities in [[particle physics]] and possible relation to the [[weak gravity conjecture]]:
 
 * Aninda Sinha, Ahmadullah Zahed, *Bell inequalities in 2-2 scattering* &lbrack;[arXiv:2212.10213](https://arxiv.org/abs/2212.10213)&rbrack;
+
+On [[BRST complex|BRST invariant]] Bell inequality in [[gauge field theory]]:
+
+* David Dudal, Philipe De Fabritiis, Marcelo S. Guimaraes, Giovani Peruzzo, Silvio P. Sorella: *BRST invariant formulation of the Bell-CHSH inequality in gauge field theories* &lbrack;[arXiv:2304.01028](https://arxiv.org/abs/2304.01028)&rbrack;
 
 
 
