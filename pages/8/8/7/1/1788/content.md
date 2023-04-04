@@ -1,4 +1,6 @@
 
+$\not$
+
 For a given [[ground field]], we consider the category [[FinDimVect]] whose [[objects]] [[finite-dimensional vector spaces]] $V$ and whose [[morphisms]] are [[linear maps]] $f \colon D \to C$ between these.
 
 Recall that [[splitting lemma]] says that ever [[short exact sequence]] of [[vector spaces]] [[split exact sequence|splits]]
