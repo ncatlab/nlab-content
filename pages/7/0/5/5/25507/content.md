@@ -1,0 +1,1 @@
+If $\alpha$ is a contact 1-form, then the Reeb vector field $R$ is a vector field satisfying $\alpha(R) = 1$ and $R \in \ker d\alpha$.
