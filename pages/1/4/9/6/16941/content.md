@@ -32,6 +32,8 @@ a [[square matrix]], the following are equivalent:
 
 ## Related concepts
 
+* [[rank of a matrix]]
+
 * [[matrix group]]
 
 * [[general linear group]]
