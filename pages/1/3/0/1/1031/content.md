@@ -240,7 +240,11 @@ More generally, for $R$ any [[ring]], this is true in $R$[[Mod]]: the kernel of 
 
 ## Related concepts
 
-* **kernel**, [[fiber]], [[generalized kernel]]
+* [[generalized kernel]]
+
+* [[rank-nullity theorem]]
+
+* [[fiber]]
 
 * [[homotopy fiber]]
 
