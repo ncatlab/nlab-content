@@ -20,5 +20,9 @@ New perspective on the [[symmetry breaking]] of [[Spin(10)]]-[[GUT]] to the [[st
 
 * [[Kirill Krasnov]], *Geometry of $Spin(10)$ Symmetry Breaking* &lbrack;[arXiv:2209.05088](https://arxiv.org/abs/2209.05088)&rbrack;
 
+On complex and Lorentzian analogs of [[Cayley forms]]:
+
+* [[Kirill Krasnov]], *Lorentzian Cayley Form* &lbrack;[arXiv:2304.01118](https://arxiv.org/abs/2304.01118)&rbrack;
+
 
 category: people
