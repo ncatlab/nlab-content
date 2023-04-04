@@ -188,9 +188,9 @@ Here:
 
 ## Properties
 
-* $K^{UF}$ is [[fully faithful]] if and only if $U$ is of [[descent type]]. In this case, $K^{UF}$ has a [[right adjoint]] if and only if it is an [[equivalence of categories]], since [[coreflective category|coreflections]] create colimits, and every algebra is a colimit of a free algebra.
+* $K^{UF}$ is [[fully faithful]] if and only if $U$ is of [[descent type]]. In this case, $K^{UF}$ has a [[right adjoint]] if and only if it is [[essentially surjective]] if and only if it is an [[equivalence of categories]], since [[coreflections]] create colimits, and every algebra is a colimit of a free algebra (see [here](https://ncatlab.org/nlab/show/Eilenberg-Moore+category#AsColimitCompletionOfKleisliCategory)).
 
-* When $F \dashv U$ is the adjunction associated to the [[Kleisli category]] of a monad, $K^{UF}$ is [[dense]] and [[fully faithful]].
+* When $F \dashv U$ is the adjunction associated to the [[Kleisli category]] of a monad, $K^{UF}$ is [[dense functor|dense]] (a corollary of [the pullback theorem](https://ncatlab.org/nlab/show/Eilenberg-Moore+category#AsColimitCompletionOfKleisliCategory)) and [[fully faithful]].
 
 
 ## Related concepts
