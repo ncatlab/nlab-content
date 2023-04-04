@@ -51,7 +51,7 @@ And for example in ([Heunen-Landsman-Spitters 07, p. 4](#HeunenLandsmanSpitters0
 
 > 3. Quantum 'logic' is a [[propositional logic|propositional]] language; no satisfactory generalization to [[predicate logic]] has been found. 
 
-> Quantum logic is also problematic from a physical perspective. Since (by various theorems and wide agreement) quantum probabilities do not admit an ignorance interpretation, $[0, 1]$-valued truth values attributed to propositions by pure states via the [[Born rule]] cannot be regarded as sharp (i.e. {0, 1}-valued) truth values muddled by human ignorance. This implies that, if $X = [a \in \Delta]$ represents a quantum-mechanical proposition, it is wrong to say that either $x$ or its negation holds, but we just do not know which of these alternatives applies. However, in quantum logic one has the law of the excluded middle in the form $x \vee x^\perp = 1$ for all $x$. Thus the formalism of quantum logic does not match the probabilistic structure of quantum theory responsible for its empirical content.
+> Quantum logic is also problematic from a physical perspective. Since (by various theorems and wide agreement) quantum probabilities do not admit an ignorance interpretation, $[0, 1]$-valued truth values attributed to propositions by pure states via the [[Born rule]] cannot be regarded as sharp (i.e. {0, 1}-valued) truth values muddled by human ignorance. This implies that, if $X = [a \in \Delta]$ represents a quantum-mechanical proposition, it is wrong to say that either $x$ or its [[negation]] holds, but we just do not know which of these alternatives applies. However, in quantum logic one has the law of the excluded middle in the form $x \vee x^\perp = 1$ for all $x$. Thus the formalism of quantum logic does not match the probabilistic structure of quantum theory responsible for its empirical content.
 
 But notice that one may argue that the first three points here are squarely resolved by thinking of BvN-quantum logic as embedded into [[linear logic]], we come back to this in a moment. Concerning the last point one might argue that the propositions in BvN-quantum logic concern the [[quantum measurement]]-outcomes (only), for which, at least in some  [[interpretation of quantum mechanics|interpretations]], it does make sense to speak of a definite result.
 
@@ -70,7 +70,7 @@ This is stated explicitly for instance in ([Pratt 92, p.4](#Pratt92)):
 
 Notice that the [[subobjects]] in a category of ([[finite-dimensional vector space|finite dimensional]]) [[Hilbert spaces]], and hence the [[propositions]] in the [[categorical logic]] of [[Hilbert spaces]], are the ([[closed subspace|closed]]) [[linear subspaces]]. Therefore Birkhoff-von Neumann quantum logic is indeed subsumed as a fragment of [[linear logic]]. This (obvious) fact was highlighted in [Crown 1975](#Crown75) and then later with more of [[categorical logic]] in place and emphasizing [[dagger-category|dagger]]-structures in [Heunen 2008](#Heunen08), [Harding 2008](#Harding08) [Heunen-Jacobs 2009](#HeunenJacobs09), [Coecke-Heunen-Kissinger 2013](#CoeckeHeunenKissinger13). Also [CCGP 09, section 9.3](#CCGP09)):
 
-> both orthologic (or weakenings thereof) and linear logic share the failure of lattice distributivity. In particular, the fragment of linear logic that includes just negation and the additive connectives is nothing but a version of the paraconsistent quantum logic PQL.
+> both orthologic (or weakenings thereof) and linear logic share the failure of lattice distributivity. In particular, the fragment of linear logic that includes just [[negation]] and the additive connectives is nothing but a version of the paraconsistent quantum logic PQL.
  
 That seems to make much of the above-listed criticism appear in a different light. For instance there is also a natural notion of [[dependent linear type theory]] and that does yield a well-behaved kind of [[predicate logic]] with [[quantifiers]] for linear logic.
 
@@ -79,38 +79,118 @@ That seems to make much of the above-listed criticism appear in a different ligh
 
 ## Approaches
 
+
 ### Birkhoff-von Neumann quantum logic
+ {#BirkhoffVonNeumannQuantumLogic}
 
-[Birkhoff & von Neumann 1936](#BirkhoffvonNeumann36) is based on the setting the [[Hilbert lattice]] (of closed suspaces of a Hilbert space) to represent the set of propositions of quantum system. 
+The original proposal for quantum logic by [Birkhoff & von Neumann 1936](#BirkhoffvonNeumann36) (BvN quantum logic) is to regard, given a [[quantum system]] with [[Hilbert space]] [[space of quantum states|of states]] $\mathscr{H}$, the [[Hilbert lattice]] of [[closed subspace|closed]] [[linear subspaces]] $V \subset_{cl} \mathscr{H}$ as the set of [[propositions]] about the quantum system. 
 
-...
+Then:
 
-[[conjunction]] is given by intersection of two [[linear subspaces]],
+* logical [[conjunction]] is given by intersection of  [[linear subspaces]] 
 
-[[disjunction]] however is given by forming the [[linear span]] of two [[linear subspaces]]. Hence [[quantum states]] in the conjunction $A \vee B$ may be [[linear combinations]] of states in $A$ and $B$. This is an incarnation of [[superposition principle]] of [[quantum mechanics]].
+  $$
+    V_1 \wedge V_2
+    \;\coloneqq\;
+    V_1 \cap_{\mathscr{H}} V_2
+    \,,
+  $$
 
-as a result, the BvN disjunction does not [[distributivity|distribute]] over conjunction, and hence the BvN lattice is not a [[distributive lattice]].
+* logical [[disjunction]] is given by forming the [[linear span]] 
 
-[[negation]] is given by forming [[orthogonal complement]]
+  $$
+    V_1 \vee V_2
+    \;\coloneqq\;
+    Span_{\mathscr{H}}(V_1 \, V_2)
+  $$ 
+  
+  of two [[linear subspaces]]. 
 
-[[Hilbert lattice]]
+* logical [[negation]] is given by forming [[orthogonal complement]]:
+
+  $$
+    \not V \;\coloneqq\; V^{\perp_{\mathscr{H}}}
+    \,.
+  $$
 
 
-### Logic of Quantales
+Notice that [[quantum states]] in the conjunction $V_1 \vee V_2$ may be [[linear combinations]] of states in $V_1$ and $V_2$, in reflection of the [[superposition principle]] of [[quantum mechanics]].
+As a result, the BvN disjunction does not [[distributivity|distribute]] over conjunction, and hence the BvN lattice of quantum propositions is not a [[distributive lattice]].
 
-On top of the above [[lattice]] of linear subspaces, take into account that it carries naturally a [[tensor product]]. That makes it a _[[quantale]]_.
+### Tensor logic of Quantales
 
-### Linear logic
+The [[tensor product of Hilbert spaces]] -- which in the jargon of [[linear logic]] would be called the *[[multiplicative conjunction]]* $\otimes$ --  makes the [above](#BirkhoffVonNeumannQuantumLogic) [[Hilbert lattice]] a _[[quantale]]_.
 
-More generally, if we do not just consider the monoidal [[poset]] (quantale) but more generally [[symmetric monoidal categories]] then this is  _[[linear logic]]_, _[[linear type theory]]_
 
-(...)
+### Linear logic and dependent linear type theory
+ {#LinearLogicAndDependentLinearTypeTheory}
 
-_[[quantum computing]]_.
+We point out that --- at least for the [finite dimensional Hilbert spaces](Hilbert+space#FiniteDimensionalInnerProductSpaces) relevant in [[quantum information theory]] --- [BvN quantum logic](#BirkhoffVonNeumannQuantumLogic) is just the [[linear logic]] of [[linear type|linearly]]-[[dependent type|dependent]] [[linear types]] inside [[dependent linear type theory]] [[categorical semantics|interpreted]] in [[VectBund]] over the [[complex numbers]]. 
 
-(...)
+Namely, the [[linear types]] in [[VectBund]] form the subcategory [[FinDimVect]]. Any [[finite dimensional vector space]] admits a [[hermitian inner product]] making it a [[Hilbert space]]. For the discussion of logical [[conjunction]] and [[disjunction]] this Hilbert space structure plays no role and we may and will ignore it.
 
-The linearity of the logic, hence the absence of a [[diagonal]] in its [[categorical semantics]], corresponds to the [[no-cloning theorem]] of [[quantum physics]]
+So given $\mathscr{H} \in FinDimVect$, a [[proposition]] about it in the [[internal logic]] sense of [[dependent type theory]] is, in [[categorical semantics]], a [[(-1)-truncation|(-1)-truncated]] [[object]] in the [[slice category]] over $\mathscr{H}$, hence a [[linear subspace]]
+
+$$
+  (\mathscr{V} \hookrightarrow \mathscr{H})
+  \;\in\;
+  \tau_{-1}\big(FinDimVect_{/\mathscr{H}}\big)
+  \,.
+$$
+
+We need to consider the (co)fiber products of such objects (discussed [here](FinDimVect#FiberCoProducts) at *[[FinDimVect]]*):
+
+Logical [[conjunction]] of such slice objects is given by their [[cartesian product]] in the slice, hence by the [[fiber product]] of their inclusion maps in $FinDimVect$. This is evidently given by the intersection of the subspaces:
+
+\begin{tikzcd}[
+  sep=20pt
+]
+  &
+  \mathcal{V}_1 \cap_{_{\mathcal{H}}} \mathcal{V}_2
+  \ar[d, phantom, "\simeq"{rotate=-90}]
+  \\[-10pt]
+  & 
+  \mathcal{V}_1 \times_{\mathcal{H}} \mathcal{V}_2
+  \ar[dl]
+  \ar[dr]
+  \ar[dd, phantom, "\scalebox{.6}{(pb)}"]
+  \\
+  \mathcal{V}_1
+  \ar[dr, hook]
+  &&
+  \mathcal{V}_2
+  \ar[dl, hook']
+  \\
+  &
+  \mathcal{H}
+\end{tikzcd} 
+
+Logical [[disjunction]] of such slice objects is given by the [[(-1)-truncation]] of their [[coproduct]] in the slice. Using that coproducts in slices are computed in the ambient category (see [there](over+category#LimitsAndColimits)) this is given by the [[image]] of the abstract [[direct sum]] of the subspaces, which is the [[linear span]]:
+
+\begin{tikzcd}[
+  sep=30pt
+]
+  \mathcal{V}_1
+  \ar[r, hook]
+  \ar[ddr, hook]
+  &
+  \mathcal{V}_1 \oplus \mathcal{V}_2
+  \ar[d, ->>]
+  &
+  \mathcal{V}_2
+  \ar[l, hook']
+  \ar[ddl, hook']
+  \\[-10pt]
+  &
+  \mathrm{Span}_{\mathcal{H}}(\mathcal{V}_1, \mathcal{V}_2)
+  \ar[d, hook]
+  \\[+10pt]
+  &
+  \mathcal{H}
+\end{tikzcd}
+
+Notice that it is the linearity of [[linear logic]], which enforces (see [there](linear+logic#AbsenceOfWeakeningAndContraction) for more) both the [[no-cloning theorem]] and the [[no-deleting theorem]] of [[quantum physics]]/[[quantum information theory]]. 
+
 
 ### Bohr toposes
 
@@ -171,57 +251,57 @@ See at _[[Bohr topos]]_ for more.
 
 ## Literature
 
+The original proposal on quantum logic:
+
+* {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
+
 General introductions and surveys:
+
+* [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
+
+  > (including discussion of [[quantum probability theory]])
 
 * [[Roland Omnès]], §5 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) *[[Handbook of Quantum Logic and Quantum Structures]]* Elsevier (2009) &lbrack;[ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698)&rbrack;
 
-* I. Pitowsky, _Quantum probability &#8212; quantum logic_, Springer Lecture Notes in Physics __321__
 
-* P. Pt&#225;k and S. Pulmannov&#225;, _Orthomodular structures as quantum logics_, ser. Fundamental theories of physics. Kluwer Academic Publishers,
-1991.
+* Pavel Pták , Sylvia Pulmannová , *Orthomodular structures as quantum logics*, Fundamental Theories of Physics **44** Kluwer, Springer (1991) &lbrack;[ISBN:978-0-7923-1207-9](https://link.springer.com/book/9780792312079)&rbrack;
 
+See also:
 
 * Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
 
 * Stanford encyclopaedia of philosophy, _[Quantum logic and probability theory](http://plato.stanford.edu/entries/qt-quantlog)_
 
+A bibliography of hundreds of works up to 1992:
 
-A bibliography of hundreds of works up to 1992 is
-
-* Mladen Pavi&#269;i&#263;, _Bibliography on quantum logics and related structures_, [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf).
-
-The original article on quantum logic:
-
-* {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
+* [[Mladen Pavičić]], *Bibliography on quantum logics and related structures*,  Int J Theor Phys **31** (1992) 373–455 &lbrack;[doi:10.1007/BF00739999](https://doi.org/10.1007/BF00739999), [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf)&rbrack;
  
 
 Further discussion:
 
-* A. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics __6__: 885-893 (1957)
+* [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics __6__ (1957) 885-893
 
 * Samuel S. Holland Jr., _Orthomodularity in infinite dimensions; a theorem of M. Sol&#232;r_, Bull. Amer. Math. Soc. (N.S.) __32__ (1995) 205-234, [arXiv:math.RA/9504224](http://arxiv.org/abs/math/9504224)
 
 Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hence of [[linear logic]] as quantum logic is in 
 
-* G.D. Crown, _On some orthomodular posets of vector bundles_. Journ. of
-Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
- {#Crown75}
+* {#Crown75} G. D. Crown, _On some orthomodular posets of vector bundles_. Journ. of Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
+ 
 
-* [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
- {#Girard}
+* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
+  
 
-([Girard 87](#Girard) introduces [[linear logic]] nad suggests a possible relation to [[quantum physics]], but remains undecided on thatM on p. 7 it says: "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!")
+[Girard (1987)](#Girard) introduces [[linear logic]] ANDd suggests a possible relation to [[quantum physics]], but remains undecided; on p. 7 it says: "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!")
 
-* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41-64.
- {#Yetter90}
+* {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990) 41-64 
 
-([Yetter 90](#Yetter90)) observes the the relation of linear logic to [[quantales]], which have otherwise been proposed as providing a quantum logic.)
+[Yetter (1990)](#Yetter90) observes the the relation of linear logic to [[quantales]], which have otherwise been proposed as providing a quantum logic.)
 
 * {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
  
-([Pratt 92](#Pratt92) is maybe the first to really say that linear logic is a good kind of quantum logic.
+[Pratt (1992)](#Pratt92) is maybe the first to really say that linear logic is a good kind of quantum logic.
 
 * {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 
@@ -239,8 +319,7 @@ Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
 * {#HeunenJacobs09} [[Chris Heunen]], [[Bart Jacobs]], _Quantum Logic in Dagger Kernel Categories_, Order, July 2010, Volume 27, Issue 2, pp 177-212,  ([arXiv:0902.2355](http://arxiv.org/abs/0902.2355))
  
 
-* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
-Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
+* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
   
 
 * [[Samson Abramsky]], _Temperley-Lieb Algebra: From Knot Theory to Logic and Computation via Quantum Mechanics_, In Goong Chen, [[Louis Kauffman]],
