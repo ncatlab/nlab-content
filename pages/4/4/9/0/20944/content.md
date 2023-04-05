@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functorial quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,14 +30,29 @@ As formalizing [[short-range entanglement]] in [[topological phases of matter]]:
 
 * {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
 
+On classification (via [[reflection positivity]]):
+
+* {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
+
 Review:
 
-* {#DGP19} Arun Debray, [[Soren Galatius]], Martin Palmer, _Lectures on invertible field theories_, ([arXiv:1912.08706](https://arxiv.org/abs/1912.08706))
+* {#DGP19} [[Arun Debray]], [[Soren Galatius]], [[Martin Palmer]], _Lectures on invertible field theories_, &lbrack;[arXiv:1912.08706](https://arxiv.org/abs/1912.08706)&rbrack;
+
+Relation to [[cutting and pasting of manifolds]]:
+
+* [[Carmen Rovi]], Matthew Schoenbauer, *Relating Cut and Paste Invariants and TQFTs*, The Quarterly Journal of Mathematics **73** 2 (2022) 579–607 &lbrack;[arXiv:1803.02939](https://arxiv.org/abs/1803.02939), [doi:10.1093/qmath/haab044](https://doi.org/10.1093/qmath/haab044)&rbrack;
+
 
 
 [[!redirects invertible field theories]]
 
+[[!redirects invertible quantum field theory]]
+[[!redirects invertible quantum field theories]]
 
 [[!redirects invertible topological field theory]]
 [[!redirects invertible topological field theories]]
+
+[[!redirects invertible TQFT]]
+[[!redirects invertible TQFTs]]
+
 
