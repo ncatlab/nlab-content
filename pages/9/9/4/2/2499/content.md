@@ -1170,6 +1170,11 @@ Discussion in this formalism of the [[Green-Schwarz action functional]] for the 
 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl. Phys.  B 763:1-34, 2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
+Relation to [[pure spinor]]-formalism:
+
+* [[Pietro Antonio Grassi]], *Remarks on the Integral Form of $D=11$ Supergravity* &lbrack;[arXiv:2304.01743](https://arxiv.org/abs/2304.01743)&rbrack;
+
+
 
 [[!redirects geometric supergravity]]
 
