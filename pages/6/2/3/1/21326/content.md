@@ -6,6 +6,12 @@ On a [[2-monad|2-monadic]] treatment of [[ultracategories]]:
 
 * [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, PhD thesis (1995) &lbrack;[hdl:10222/55092](https://dalspace.library.dal.ca/handle/10222/55092), [pdf](https://dalspace.library.dal.ca/bitstream/handle/10222/55092/NN08788.PDF?sequence=1&isAllowed=y)&rbrack;
 
+On [[Beck's theorem]] for [[pseudomonads]] ([[higher monadic descent]]):
+
+* I. J. Le Creurer, [[Francisco Marmolejo]], [[Enrico M. Vitale]], _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra **173** 3 (2002) 293-313 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00038-5">doi:10.1016/S0022-4049(02)00038-5</a>&rbrack;
+
+
+
 On [[monads]] as [[extension systems]] (as in [[monads in computer science]]):
 
 * {#MarmolejoWood10} [[Francisco Marmolejo]], [[Richard J. Wood]], *Monads as extension systems -- no iteration is necessary* [[TAC]] **24** 4 (2010) 84-113 &lbrack;[24-04](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html)&rbrack;
