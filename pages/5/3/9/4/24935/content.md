@@ -728,14 +728,13 @@ $$
 
 We want to point out a way in which $VectBund$ with its [[external tensor product]]-structure is the canonical "amalgamation" of 
 
-1. vector spaces equipped with theiry tensor product 
+1. vector spaces equipped with theiry tensor product,
 
-1. vector spaces equipped with parametrization, namely vector bundles
+1. vector spaces equipped with parametrization, namely vector bundles,
 
 at least in the case that the base space is discrete.
 
 In order to formalize this idea, we need to work inside a [[2-category]] which suitably subsumes all of the following
-
 [[very large category|very large]] [[(2,1)-categories]]:
 
 * $Cat$ of [[categories]] 
@@ -763,7 +762,7 @@ $$
   \array{
     (1,0) &\longrightarrow& (1,1)
     \\
-    \big\downarrow && \big\downarrow
+    \big\uparrow && \big\uparrow
     \\
     (0,0) &\longrightarrow& (1,0)
   }
