@@ -1,4 +1,6 @@
 
+> For the non-cartesian case see at *[[distributive monoidal category]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
