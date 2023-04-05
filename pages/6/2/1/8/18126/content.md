@@ -3871,7 +3871,7 @@ If the sides are identified with opposite orientation, the result is the _[[Möb
 **([[stereographic projection]])**
 
 For $n \in \mathbb{N}$ then there is a [[homeomorphism]] (def. \ref{Homeomorphism})
-between between the [[n-sphere]] $S^n$ (example \ref{SpheresAndDisks}) with one point $p \in S^n$ removed
+between the [[n-sphere]] $S^n$ (example \ref{SpheresAndDisks}) with one point $p \in S^n$ removed
 and the $n$-dimensional [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}):
 
 $$
