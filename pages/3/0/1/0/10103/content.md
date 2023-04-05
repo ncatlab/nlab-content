@@ -1,4 +1,6 @@
 
+> For the cartesian case see at *[[distributive category]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -45,6 +47,8 @@ $$\array{
 ## Examples
  {#Examples}
 
+### Various
+
 Beyond [[distributive categories]], examples of distributive monoidal categories include the following:
 
 * [[Ab]], the category of [[abelian groups]] equipped with the [[tensor product of abelian groups]]
@@ -53,13 +57,229 @@ Beyond [[distributive categories]], examples of distributive monoidal categories
 
 * $k$[[Vect]] = $k$[[Mod]], the category of [[vector space]] over some [[field]] $k$, equipped with the [[tensor product of vector spaces]],
 
-* $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] for $X$ some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]].
+* $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] over some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]],
+
+* the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
 
 In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
 
 Also:
 
-* the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
+* $k$[[VectBund]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] over any ([[convenient category of topological spaces|convenient]]) [[topological spaces]], equipped with the [[external tensor product of vector bundles]] (more on this [below](#ExamplesBundlesWithExternalTensorProduct)).
+
+
+### Vector bundles with external tensor product
+ {#ExamplesBundlesWithExternalTensorProduct}
+
+We spell out in much detail the example of the [[category]] [[VectBund|$Vect_{Set}$]] of [[vector bundles]] over arbitrary base spaces and equipped with the [[external tensor product]] --- for the simple special case that the base spaces are [[discrete topological spaces]], i.e. plain [[sets]]:
+
+\begin{definition}
+  For any [[ground field]], write [[VectBund|$Vect_{Set}$]] for the [[category]] of [[indexed sets]] of [[vector spaces]].
+\end{definition}
+\begin{remark}
+We may and will present [[objects]] $\mathcal{V}$ of [[VectBund|$Vect_{Set}$]] as [[pairs]] consisting of a [[set]] $S$ and a [[function]] $\mathcal{V}_{(-)}$ (really a [[functor]] on the [[discrete category]] on $S$) to [[Vect]]:
+$$
+  \left(
+    \array{
+      S &\longrightarrow& Vect
+      \\
+      s &\mapsto& \mathcal{V}_s
+    }
+  \right)
+  \;\;
+  \in
+  \;\;
+  Vect_{Set}
+  \mathrlap{\,.}
+$$
+\end{remark}
+
+\begin{definition}
+\label{ExternalTensorProductInVectSet}
+The "[[external tensor product|external]]" [[tensor product]] on [[VectBund|$Vect_{Set}$]] is the [[functor]] 
+$$
+  \boxtimes
+  \,\colon\,
+  Vect_{Set} \times VectSet 
+    \longrightarrow
+  Vect_{Set}
+$$
+given by
+$$
+  \big(
+    \mathcal{V}_{(-)} \,\colon\, S \to \Vect
+  \big)
+  \,\boxtimes\,
+  \big(
+    \mathcal{V}'_{(-)} \,\colon\, S' \to \Vect
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  \left(
+    \array{
+      S \times S' &\longrightarrow& \Vect
+      \\
+      (s, s') 
+        &\mapsto& 
+      \mathcal{V}_s \otimes \mathcal{V}'_{s'}
+    }
+  \right)
+  \mathrlap{\,.}
+$$
+\end{definition}
+
+\begin{proposition}
+\label{CoproductInVectSet}
+  The [[coproduct]] in [[VectBund|$Vect_{Set}$]] is given by [[disjoint union]] of [[bundles]]:
+$$
+  \big(
+    \mathcal{V}^{(1)}_{(-)} \,\colon\, S_1 \to \Vect
+  \big)
+  \;
+  \sqcup
+  \;
+  \big(
+    \mathcal{V}^{(1)}_{(-)} \,\colon\, S_2 \to \Vect
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \left(
+    \array{
+      S_1 \sqcup S_2 &\longrightarrow& \Vect
+      \\
+      s_i &\mapsto& \mathcal{V}^{(i)}_{s_i}
+    }
+  \right)
+$$
+\end{proposition}
+\begin{proof}
+  It is immediate to check the [[universal property]] characterizing the coproduct.
+\end{proof}
+
+\begin{proposition}
+The [[external tensor product]] $\boxtimes$ 
+(Def. \ref{ExternalTensorProductInVectSet})
+[[distributive monoidal category|distributes]] over the coproduct (Prop. \ref{CoproductInVectSet}):
+$$
+  \mathcal{E} \boxtimes ( \mathcal{V}^{(1)} \sqcup  \mathcal{V}^{(2)}) 
+  \;\simeq\;
+  \big(  
+    \mathcal{E} \boxtimes \mathcal{V}^{(1)}
+  \big)
+  \,\sqcup\,
+  \big(
+    \mathcal{E} \boxtimes \mathcal{V}^{(2)}
+  \big)
+$$
+and hence gives a [[distributive monoidal category]]:
+$$
+  \big(
+    Vect_{Set}
+    ,
+    \sqcup
+    ,
+    \boxtimes
+  \big)
+  \;\in\;
+  DistMonCat
+  \mathrlap{\,.}
+$$
+\end{proposition}
+\begin{proof}
+Unwinding the above definitions and using that [[Set]] is a [[distributive category]], we have the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{array}{l}
+    \mathcal{E} 
+    \,\boxtimes\,
+    \big(
+      \mathcal{V}^{(1)}
+      \,\sqcup\,
+      \mathcal{V}^{(2)}
+    \big)
+    \\
+    \;\equiv\;
+    \big(
+      \mathcal{E}_{(-)} \,\colon\, S_E \to Vect
+    \big)
+    \,\boxtimes\,
+    \Big(
+      \big(
+        \mathcal{V}^{(1)}_{(-)} \,\colon\, S_1 \to Vect
+      \big)
+      \,\sqcup\,
+      \big(
+        \mathcal{V}^{(2)}_{(-)} \,\colon\, S_2 \to Vect
+      \big)
+    \Big)
+    \\
+    \;\simeq\;
+    \big(
+      \mathcal{E}_{(-)} \,\colon\, S_E \to Vect
+    \big)
+    \,\boxtimes\,
+    \left(
+      \array{
+        S_1 \sqcup S_2 &\longrightarrow& Vect
+        \\
+        s_i &\mapsto& \mathcal{V}^{(i)}_{s_i}
+      }
+    \right)
+    \\
+    \;\simeq\;
+    \left(
+      \array{
+        S_E \times (S_1 \sqcup S_2)
+        &\longrightarrow& Vect
+        \\
+        (s_E , s_i) &\mapsto&
+        \mathcal{E}_{s_E} \otimes \mathcal{V}^{(i)}_{s_i}
+      }
+    \right)
+    \\
+    \;\simeq\;
+    \left(
+      \array{
+        (S_E \times S_1) \,\sqcup\, (S_2 \times S_2)
+        &\longrightarrow& Vect
+        \\
+        (s_E , s_i) &\mapsto&
+        \mathcal{E}_{s_E} \otimes \mathcal{V}^{(i)}_{s_i}
+      }
+    \right)
+    \\
+    \;\simeq\;
+    \left(
+      \array{
+        S_E \times S_1 
+        &\longrightarrow& Vect
+        \\
+        (s_E , s_1) 
+         &\mapsto&
+        \mathcal{E}_{s_E} \otimes \mathcal{V}^{(1)}_{s_1}
+      }
+    \right)
+    \,\sqcup\,
+    \left(
+      \array{
+        S_E \times S_2 
+        &\longrightarrow& Vect
+        \\
+        (s_E , s_2) 
+         &\mapsto&
+        \mathcal{E}_{s_E} \otimes \mathcal{V}^{(2)}_{s_2}
+      }
+    \right)
+    \\
+    \;\equiv\;
+    \mathcal{E} \boxtimes \mathcal{V}^{(1)}
+    \,\sqcup\,
+    \mathcal{E} \boxtimes \mathcal{V}^{(2)}
+  \end{array}
+$$
+\end{proof}
+
 
 
 ## Properties
