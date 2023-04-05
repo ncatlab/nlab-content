@@ -39,7 +39,15 @@ By [[Deligne's theorem on tensor categories]] the most general regular [[tensor 
 
 * [[Veeravalli Varadarajan]], section 5.3 of _Unitary representations of super Lie groups_, 2006 ([pdf](http://www.math.ucla.edu/~vsv/ur.pdf))
 
+See also:
+
 * Wikipedia, _[Supermultiplet](https://en.wikipedia.org/wiki/Supermultiplet)_
+
+Relation to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism:
+
+* [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
+
+
 
 [[!redirects super multiplets]]
 
