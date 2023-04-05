@@ -35,16 +35,21 @@ See also [[cohomological descent]].
 ### Amitsur complex, Sweedler corings, Hopf algebroids
  {#AmitsurComplex}
 
-For $\phi \colon B \longrightarrow A$ a [[homomorphism]]
+For $\phi \,\colon\, B \longrightarrow A$ a [[homomorphism]]
 of suitable [[monoids]], there is the corresponding pull-push [[adjunction]] 
 ([[extension of scalars]] $\dashv$ [[restriction of scalars]]) on [[categories of modules]]
 
 
 $$
-  ((- )\otimes_B A \dashv \phi^\ast )
+  \big(
+    (- )\otimes_B A \dashv \phi^\ast 
+  \big)
   \;\colon\;
    Mod_A
-    \stackrel{\overset{(-)\otimes_B A}{\leftarrow}}{\underset{\phi^\ast}{\longrightarrow}}
+    \underoverset
+      {\underset{\;\; \phi^\ast \;\;}{\longrightarrow}}
+      {\overset{(-)\otimes_B A}{\longleftarrow}}
+      {\bot}
    Mod_B
   \,.
 $$
@@ -80,11 +85,11 @@ The [[bar construction]] of the corresponding [[monad]] is the corresponding [[A
 
 A pseudomonadicity theorem for [[2-monad|pseudomonads]] is proved in Theorem 3.6 of:
 
-* I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
+* I. J. Le Creurer, [[Francisco Marmolejo]], [[Enrico M. Vitale]], _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra **173** 3 (2002) 293-313 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00038-5">doi:10.1016/S0022-4049(02)00038-5</a>&rbrack;
 
 and sharpened in Theorem A.2 of:
 
-* [[Claudio Hermida]], _Descent on 2-fibrations and strongly 2-regular 2-categories_, Appl. Categ. Structures __12__ (2004), no. 5-6, 427&#8211;459.
+* [[Claudio Hermida]], *Descent on 2-fibrations and strongly 2-regular 2-categories*, Appl. Categ. Structures **12** 5-6 (2004)  427-459 &lbrack;[doi:10.1023/B:APCS.0000049311.17100.da](https://doi.org/10.1023/B:APCS.0000049311.17100.da)&rbrack;
 
 (see Remark A.3 for a comparison with the work of Creurer et al.).
 
