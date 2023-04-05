@@ -38,13 +38,13 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 
 ## Related concepts
 
+* [[unit]], [[tensor unit]]
+
 * [[associativity]], [[co-associativity]]
 
 * [[co-unitality]]
 
 * [[unitization]]
-
-* [[unit]] 
 
 * [[equivalence]]
 
