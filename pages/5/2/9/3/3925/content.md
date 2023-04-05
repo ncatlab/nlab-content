@@ -47,15 +47,23 @@ that satisfy a [[coherence law]] among themselves.
 
 By the [[periodic table of higher categories]] a [[monoidal category]] is a pointed [[bicategory]] with a single object, its [[object]]s are the 1-morphisms of the bicategory. 
 
-Accordingly, a [[monoidal category]] is equipped with a [[natural isomorphism]]
+Accordingly, a [[monoidal category]] with [[tensor product]] $\otimes$ and [[tensor unit]] "$1$" is equipped with a [[natural isomorphism]] of the form
 
-$$ \ell_x : 1 \otimes x \to x $$
+$$ \ell_x : 1 \otimes x \to x \,, $$
 
 called the **left unitor**, and a natural isomorphism
 
-$$ r_x : x \otimes 1 \to x $$
+$$ r_x : x \otimes 1 \to x \,, $$
 
 called the **right unitor**.
+
+## Related concepts
+
+* [[unit]]
+
+* [[unitality]]
+
+* [[tensor unit]]
 
 
 [[!redirects unitor]]
