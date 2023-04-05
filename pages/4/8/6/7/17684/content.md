@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,7 +25,7 @@ $$
 
 ## Related concepts
 
-* [[Berkovits string]]
+* [[Berkovits superstring]]
 
 
 ## References
@@ -37,6 +47,10 @@ Relation to [[picture changing operators]]:
 
 * Andrei Mikhailov, Dennis Zavaleta, _Geometrical framework for picture changing operators in the pure spinor formalism_ ([arXiv:2003.13995](https://arxiv.org/abs/2003.13995))
 
+
+Relating the [[D'Auria-Fré formulation of supergravity]] to pure spinor-formalism:
+
+* [[Pietro Antonio Grassi]], *Remarks on the Integral Form of $D=11$ Supergravity* &lbrack;[arXiv:2304.01743](https://arxiv.org/abs/2304.01743)&rbrack;
 
 
 
