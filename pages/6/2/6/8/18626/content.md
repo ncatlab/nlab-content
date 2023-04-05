@@ -23,9 +23,9 @@ In [[quantum field theory]] _reflection positivity_ is the incarnation of unitar
 
 * [[Arthur Jaffe]], _Reflection Positivity Then and Now_ ([arXiv:1802.07880](https://arxiv.org/abs/1802.07880))
 
-Discussion with tools from [[extended TQFT]] and [[stable homotopy theory]] is in
+Discussion with tools from [[extended TQFT]] and [[stable homotopy theory]] (aimed at [[invertible TQFTs]]):
 
-* [[Daniel Freed]], [[Michael Hopkins]], _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
+* {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
 
 In relation to the [[conformal bootstrap]]:
 
