@@ -47,7 +47,7 @@ $$ a_r \;\colon\; 0 \otimes x \longrightarrow 0 $$
 
 satisfying a set of [[coherence laws]] worked out in ([Laplaza 72](#Laplaza72)) and ([Kelly74](#Kelly74)).
 
-Note that these authors used the term "ring category".  We take the liberty of switching to "rig category" because it is typical for these to lack additive inverses.
+Note that these authors used the term "ring category".  We take the liberty of switching to "rig category"(as in *[[rig]]*) because it is typical for these to lack additive inverses.
 
 While a rig can have the [[extra property]] of being [[commutative ring|commutative]] (i.e. of its multiplication being commutative), a rig category can have the [[extra structure]] of (its monoidal structure $\otimes$) being [[braided monoidal category|braided]] (compatibly with the distributive laws) and may then have the further property of being [[symmetric monoidal category|symmetric]].
 
