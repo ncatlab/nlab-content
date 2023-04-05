@@ -33,6 +33,10 @@ A proposal for understanding [[tensor hierarchies]] as [[dg-Lie algebra]]/[[L-in
 
 * [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
 
+Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism:
+
+* [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
+
 
 
 
