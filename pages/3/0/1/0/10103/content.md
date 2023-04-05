@@ -71,7 +71,7 @@ Also:
 ### Vector bundles with external tensor product
  {#ExamplesBundlesWithExternalTensorProduct}
 
-We spell out in much detail the example of the [[category]] [[VectBund|$Vect_{Set}$]] of [[vector bundles]] over arbitrary base spaces and equipped with the [[external tensor product]] --- for the simple special case that the base spaces are [[discrete topological spaces]], i.e. plain [[sets]]:
+We spell out in much detail the example of the [[category]] [[VectBund|$Vect_{Set}$]] of [[vector bundles]] over arbitrary base spaces and equipped with the [[external tensor product]] [[external tensor product of vector bundles|of vector bundles]] --- for the simple special case that the base spaces are [[discrete topological spaces]], i.e. plain [[sets]]:
 
 \begin{definition}
   For any [[ground field]], write [[VectBund|$Vect_{Set}$]] for the [[category]] of [[indexed sets]] of [[vector spaces]].
