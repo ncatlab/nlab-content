@@ -78,15 +78,17 @@ The [[bar construction]] of the corresponding [[monad]] is the corresponding [[A
 
 ### 2-categorical monadic descent
 
-A monadicity theorem for [[2-monad|pseudomonads]] is proved in
+A pseudomonadicity theorem for [[2-monad|pseudomonads]] is proved in Theorem 3.6 of:
 
 * I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
 
-In [[2-category]]-theory, a notion of 2-[[fibered category|fibered categories]] are defined in Gray's work and then again introduced and discussed at length by Claudio Hermida, who has good ideas on higher n (and I will be trilled to hear once that he found the time to return to the topic and give us good answers). An appendix in
+and sharpened in Theorem A.2 of:
 
 * [[Claudio Hermida]], _Descent on 2-fibrations and strongly 2-regular 2-categories_, Appl. Categ. Structures __12__ (2004), no. 5-6, 427&#8211;459.
 
-is discussing a 2-categorical version of Beck-Chevalley condition needed to compare it with the 2-monadic descent; there is also a version of Beck's theorem sketched there. 
+(see Remark A.3 for a comparison with the work of Creurer et al.).
+
+More generally, this paper discusses a notion of 2-[[fibered category|fibered categories]], originally defined in Gray's work, and then again introduced and discussed at length in this paper. The appendix also discusses a 2-categorical version of Beck-Chevalley condition needed for a comparison with 2-monadic descent. 
 
 ### $(\infty,1)$-categorical monadic descent
 
