@@ -22,7 +22,7 @@ Since a morphism is a split epimorphism if and only if its image in the [[preshe
 
 ## Properties
 
-Any EZ-category is a [[generalized Reedy category]] where $R^+$ and $R^-$ are the monomorphisms and the split epimorphisms, respectively.  Moreover, $R^{op}$ is also a generalized Reedy category where the definitions of $R^+$ and $R^-$ are reversed.  However, the generalized Reedy model structures on contravariant functors (corresponding to the generalized Reedy strurcture on $R^{op}$) are generally better-behaved.
+Any EZ-category is a [[generalized Reedy category]] where $R^+$ and $R^-$ are the monomorphisms and the split epimorphisms, respectively.  Moreover, $R^{op}$ is also a generalized Reedy category where the definitions of $R^+$ and $R^-$ are reversed.  However, the generalized Reedy model structures on contravariant functors (corresponding to the generalized Reedy structure on $R^{op}$) are generally better-behaved.
 
 Any element of a presheaf on an EZ-category $R$ is a degeneracy of a unique nondegenerate element.
 
