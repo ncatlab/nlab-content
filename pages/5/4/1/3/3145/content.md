@@ -110,6 +110,10 @@ Solving the [[Arf-Kervaire invariant problem]] with methods of [[equivariant sta
 
 * {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_ (2016) &lbrack;[pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf)&rbrack;
    
+On classification of [[invertible TQFTs]] via [[reflection positivity]]:
+
+* {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
+
 
 
 ## Related entries
