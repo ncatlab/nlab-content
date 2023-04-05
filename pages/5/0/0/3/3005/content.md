@@ -314,7 +314,7 @@ The monadicity theorem also plays a central role in [[monadic descent]].
 ## In $(\infty,1)$-categories
  {#InInfinityCategories}
 
-There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
+There is a version of the monadicity theorem for [[(∞,1)-monads]] in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
@@ -376,15 +376,20 @@ Further references:
 * {#Riehl17} [[Emily Riehl]], §5.5 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
   
 
-There is a version for [[Morita context]]s instead of monads:
+There is a version for [[Morita contexts]] instead of monads:
 
 * [[Tomasz Brzezinski]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Appl. Categ. Structures __19__ (2011), no. 5, 821&#8211;858 [MR2836546](http://www.ams.org/mathscinet-getitem?mr=2836546) [doi](http://dx.doi.org/10.1007/s10485-009-9217-0)
 
-Discussion for [[(infinity,1)-monads]] is in 
+On Beck's theorem for [[pseudomonads]] ([[higher monadic descent]]):
+
+* I. J. Le Creurer, [[Francisco Marmolejo]], [[Enrico M. Vitale]], _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra **173** 3 (2002) 293-313 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00038-5">doi:10.1016/S0022-4049(02)00038-5</a>&rbrack;
+
+
+Discussion for [[(infinity,1)-monads]]:
 
 * [[Jacob Lurie]], section 6.2. of _[[Higher Algebra]]_
 
-and realized in the context of [[quasi-categories]] in 
+and realized in the context of [[quasi-categories]]:
 
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], section 7.2 of _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  
