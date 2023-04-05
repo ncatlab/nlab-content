@@ -143,6 +143,11 @@ An introduction specifically to [[2d TQFTs]] is in
 
 See also the references at _[[HQFT]]_.
 
+Relation to [[cutting and pasting of manifolds|cut-and-paste-ivariants]]:
+
+* [[Carmen Rovi]], Matthew Schoenbauer, *Relating Cut and Paste Invariants and TQFTs*, The Quarterly Journal of Mathematics **73** 2 (2022) 579–607 &lbrack;[arXiv:1803.02939](https://arxiv.org/abs/1803.02939), [doi:10.1093/qmath/haab044](https://doi.org/10.1093/qmath/haab044)&rbrack;
+
+
 ### Local ($n$-functorial) TQFT
 
 The local [[FQFT]] formulation (i.e. [[n-functor|n-functorial]]) together with the [[cobordism hypothesis]] was suggested in
