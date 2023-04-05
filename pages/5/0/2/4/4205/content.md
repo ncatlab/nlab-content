@@ -27,6 +27,7 @@ A _modular operad_ is an [[operad]] that has the kind of extra structure which i
 
 * Serguei Barannikov, _Modular operads and Batalin-Vilkovisky geometry_, Int. Math. Res. Not. IMRN  2007,  no. 19, Art. ID rnm075, 31 pp. [arxiv/0912.5484](http://arxiv.org/abs/0912.5484)
 * Martin Doubek, [[Branislav Jurčo]], Lada Peksová, Ján Pulmann, _Connected sum for modular operads and Beilinson-Drinfeld algebras_, [arXiv:2210.06517](https://arxiv.org/abs/2210.06517)
+* [[Jeffrey Giansiracusa]], _Moduli spaces and modular operads_, Morfismos __17__:2, 101--125 [journal](https://issuu.com/morfismos/docs/v17n2dic2013) [author pdf](https://cronfa.swan.ac.uk/Record/cronfa18942)
 
 
 
