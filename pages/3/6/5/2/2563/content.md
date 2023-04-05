@@ -57,6 +57,10 @@ On [[self-dual field theory]] via [[supergeometry]]:
 
 * [[C. A. Cremonini]], [[Pietro Grassi]], _Self-Dual Forms in Supergeometry I: The Chiral Boson_ ([arXiv:2012.10243](https://arxiv.org/abs/2012.10243))
 
+Relating the [[D'Auria-Fré formulation of supergravity]] to [[pure spinor]]-formalism:
+
+* [[Pietro Antonio Grassi]], *Remarks on the Integral Form of $D=11$ Supergravity* &lbrack;[arXiv:2304.01743](https://arxiv.org/abs/2304.01743)&rbrack;
+
 
 
 category: people
