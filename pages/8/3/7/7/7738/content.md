@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+Introducing the notion of [[cutting and pasting of manifolds]]:
+
+* U. Karras, [[Matthias Kreck]], [[Walter D. Neumann]], E. Ossa, *Cutting and Pasting of Manifolds; SK-Groups*, Publish or Perish (1973) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/skbook.pdf), [[Karras-Kreck-Neumann-Ossa_CutNPaste.pdf:file]]&rbrack;
+
+
+
 On [[elliptic genera]]:
 
 * {#KreckStolz93} [[Matthias Kreck]], [[Stephan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]], [euclid:acta/1485890737](https://projecteuclid.org/euclid.acta/1485890737))
