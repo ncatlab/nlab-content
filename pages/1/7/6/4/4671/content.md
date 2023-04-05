@@ -1,13 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A __cocartesian monoidal category__ is a [[monoidal category]] whose monoidal product is a [[coproduct]] (and so whose unit is an [[initial object]]).  It is the [[opposite category|dual]] of a [[cartesian monoidal category]].
+A __cocartesian monoidal category__ is a [[monoidal category]] $\big(\mathcal{C}, 0, \sqcup \big)$ whose monoidal product functor $\sqcup \,\colon\, \mathcal{C} \times \mathcal{C} \to \mathcal{C}$ is given by the [[coproduct]] (and so whose [[tensor unit]] is an [[initial object]] "$0$").  
 
-Sometime we refer to a category as __cocartesian monoidal__ just to indicate that it *has* all finitary coproducts.
+This is the [[opposite category|dual]] notion of that of a *[[cartesian monoidal categories]]*.
+
+Sometime we refer to a category as __cocartesian monoidal__ just to indicate that it *has* all [[finite coproducts]].
+
 
 ## Related concepts
 
