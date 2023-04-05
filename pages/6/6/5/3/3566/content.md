@@ -102,7 +102,7 @@ If $\mathcal{C}$ is a [[presentable (∞,1)-category]], then $Sub(Z)$ is a [[sma
 
 =--
 
-This appears as [[Higher Topos Theory|HTT, prop. 6.2.1.4]].
+This appears as [[Higher Topos Theory|HTT, prop. 6.2.1.3]].
 
 +-- {: .num_prop}
 ###### Proposition
