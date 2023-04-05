@@ -363,7 +363,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2210.04911](https://arxiv.org/abs/2210.04911)
 
-  > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an invertible field theory in one dimension higher. Theorems of Freed-Hopkins-Teleman and Freed-Hopkins classify invertible field theories in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional invertible field theories does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with Matthew Yu using Baker-Lazarev's R-module Adams spectral sequence to simplify a large class of twisted spin and string bordism computations.
+  > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an [[invertible field theory]] in one dimension higher. Theorems of Freed-Hopkins-Teleman and [Freed-Hopkins](invertible+field+theory#FreedHopkins21) classify [[invertible field theories]] in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional [[invertible field theories]] does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with Matthew Yu using Baker-Lazarev's R-module Adams spectral sequence to simplify a large class of twisted spin and string bordism computations.
 
 \linebreak
 
@@ -461,7 +461,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Deformation classes of invertible field theories and the Freed-Hopkins conjecture**
 
-  > In their [seminal paper](https://arxiv.org/abs/1604.06527), Freed and Hopkins proved a classification theorem that identifies deformation classes of certain invertible [[topological field theories]] with the [[torsion subgroup]] of some generalized cohomology of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
+  > In their [seminal paper](https://arxiv.org/abs/1604.06527), [Freed and Hopkins](#FreedHopkins21) proved a classification theorem that identifies deformation classes of certain [[invertible field theory|invertible]] [[topological field theories]] with the [[torsion subgroup]] of some [[Whitehead-generalized cohomology theory|generalized cohomology]] of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
 
 \linebreak
 
@@ -1030,7 +1030,7 @@ Stone-von Neumann**
 
   [zoom link](https://nyu.zoom.us/rec/play/7bZ5QFOvN2cUPSEQ2-8F1Ek8-SjV7ibQbBJANgPd1jJKP5Fv3J664ck86Rin-74Sv6HLOxSrhqOhVx4u.4Dxb1bbc5C0fN-nB?autoplay=true&startTime=1649246546000)
 
-  > [[differential cohomology|Differential generalized cohomologies]] refine generalized cohomologies on manifolds so as to retain information on differential forms. The aim of my talk is to describe formulations of [[differential K-theory|differential]] [[KO-theory]] based on gradations and [[mass terms]]. The formulation based on mass terms is motivated by a conjecture of Freed and Hopkins about a classification of invertible quantum field theories and by a model of the Anderson dual of cobordism theory given by Yamashita and Yonekura. I will start with an account of this background, and then describe the formulation of differential KO-theory. In the formulation a key role is played by a uperconnection associated to a mass term. This is a joint work with Mayuko Yamashita.
+  > [[differential cohomology|Differential generalized cohomologies]] refine generalized cohomologies on manifolds so as to retain information on differential forms. The aim of my talk is to describe formulations of [[differential K-theory|differential]] [[KO-theory]] based on gradations and [[mass terms]]. The formulation based on mass terms is motivated by a conjecture of Freed and Hopkins about a classification of [[invertible quantum field theories]] and by a model of the [[Anderson dual]] of [[cobordism cohomology|cobordism theory]] given by Yamashita and Yonekura. I will start with an account of this background, and then describe the formulation of [[differential K-theory|differential]] [[KO-theory]]. In the formulation a key role is played by a uperconnection associated to a mass term. This is a joint work with Mayuko Yamashita.
 
 \linebreak
 
@@ -1345,6 +1345,20 @@ Stone-von Neumann**
   video: [YT](https://www.youtube.com/watch?v=K2kSKxr-I7Q)
 
   > [Quinn Finite Total Homotopy TQFT](HQFT#Quinn95) is a [[TQFT]] defined for any dimension, $n$, of space, and that depends on the choice of a [[pi-finite homotopy type|homotopy finite space]], $B$, (e.g. $B$ can be the [[classifying space]] of a finite group or of a finite 2-group). I will report on ongoing joint work with [[Tim Porter]] on once-extended versions of Quinn Finite total homotopy TQFT, taking values in the ([[symmetric monoidal category|symmetric monoidal]]) [[bicategory]] of [[groupoids]], linear [[profunctors]], and [[natural transformations]] between profunctors. The construction works in all dimensions, thus in particular it yields (0,1,2), (1,2,3) and (2,3,4)-[[extended TQFTs]], any time we are given a homotopy finite space $B$. I will show how to compute these once-extended TQFTs for the case when $B$ is the classifying space of a finite [[strict omega-groupoid]], represented by a [[crossed complex]].
+
+\linebreak
+
+### Apr 2023
+
+* 05 Apr 2023
+
+  [[Carmen Rovi]] (Loyola University, Chicago):
+
+  **Relating cut and paste invariants and TQFTS**
+
+  cf.: [arXiv:1803.02939](https://arxiv.org/abs/1803.02939)
+
+  > In this talk, we will be concerned with a relation between [[TQFTs]] and the [cut-and-paste SKK invariants](scissors+congruence#CutAndPasteOfManifolds) introduced by [Karras, Kreck, Neumann, and Ossa](scissors+congruence#KarrasKreckNeumannOssa73). Cut-and-paste SKK  invariants are [[functions]] on the set of [[smooth manifolds]] whose values on [[cutting and pasting of manifolds|cut-and-paste equivalent manifolds]] differ by an error term depending only on the gluing [[diffeomorphisms]]. I will present a natural [[group homomorphism]] between the [[group]] of [[invertible TQFTs]] and the group of SKK invariants and describe how these groups fit into a [[split exact sequence]]. We conclude in particular that all positive real-valued SKK invariants can be realized as restrictions of [[invertible TQFTs]].
 
 
 \linebreak
