@@ -90,6 +90,11 @@ On formalizing [[short-range entanglement]] in [[topological phases of matter]] 
 
 * {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
 
+On classification of [[invertible TQFTs]] via [[reflection positivity]]:
+
+* {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
+
+
 On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
