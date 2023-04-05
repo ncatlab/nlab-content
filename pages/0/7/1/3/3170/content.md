@@ -12,5 +12,9 @@ On [[fibered 2-categories]] (and discussing [[fibered limits]]):
 
 * _Descent on 2-fibrations and strongly 2-regular 2-categories_, Appl. Categ. Structures __12__ (2004), no. 5--6, 427--459.
 
+On [[higher monadic descent]]:
+
+* [[Claudio Hermida]], *Descent on 2-fibrations and strongly 2-regular 2-categories*, Appl. Categ. Structures **12** 5-6 (2004)  427-459 &lbrack;[doi:10.1023/B:APCS.0000049311.17100.da](https://doi.org/10.1023/B:APCS.0000049311.17100.da)&rbrack;
+
 
 category: people
