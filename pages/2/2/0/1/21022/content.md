@@ -29,5 +29,9 @@ On holomorphic [[topological twist|twists]] of [[superconformal algebras]]:
 
 * [[Ingmar Saberi]], [[Brian Williams]], *Superconformal algebras and holomorphic field theories* ([arXiv:1910.04120](https://arxiv.org/abs/1910.04120))
 
+Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism:
+
+* [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
+
 
 category: people
