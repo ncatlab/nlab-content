@@ -78,3 +78,7 @@ Anderson duality in [[equivariant stable homotopy theory]] is discussed in
 
 
 [[!redirects Anderson spectrum]]
+
+[[!redirects Anderson dual]]
+[[!redirects Anderson duals]]
+
