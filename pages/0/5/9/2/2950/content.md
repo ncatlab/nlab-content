@@ -48,6 +48,11 @@ On relating the [[Monster vertex operator algebra]] and its cousins to [[quantum
 
 * [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
 
+On the [[10-fold way]]:
+
+* {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]]: _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
+
+
 
 ## Related $n$Lab entries
 
