@@ -7,7 +7,7 @@
 
 A wheel is an algebraic concept similar to a [[field]] but in which division is *always* defined, even division by zero.  This naturally requires modifications to the usual axioms.  Every [[commutative ring]] gives rise to a wheel using a simple modification of the construction of the [[field of fractions]], although there are other examples.
 
-The terminology 'wheel' comes from the example of the wheel of [[real numbers]], which geometrically consists of a circle (the circle of [[extended real numbers]]) together with an additional point (thought of as the spoke of the wheel), thus looking like $\odot$.
+The terminology 'wheel' comes from the example of the wheel of [[real numbers]], which geometrically consists of a circle (the circle of [[extended real numbers]]) together with an additional point (thought of as the hub of the wheel), thus looking like $\odot$.
 
 
 ## Notation
