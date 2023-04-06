@@ -51,10 +51,11 @@ Further discussion:
 
 * Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
 
+* Eyal Cornfeld, Shachar Carmeli, *Tenfold topology of crystals: Unified classification of crystalline topological insulators and superconductors*, Phys. Rev. Research **3** (2021) 013052 $[$[doi:10.1103/PhysRevResearch.3.013052](https://doi.org/10.1103/PhysRevResearch.3.013052), [arXiv:2009.04486](https://arxiv.org/abs/2009.04486)$]$
 
 Further generalization to include interacting [[topological order]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
 
 Via [[cobordism cohomology]]:
 
