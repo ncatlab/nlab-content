@@ -100,7 +100,7 @@ However, see below for additional remarks on the usage of the terms "image" and 
 ### Construction via limits 
  {#AsEqualizer}
 
-Suppose that the category $C$ admits finite [[limits]] and [[colimits]], and that $M=RegMono$ consists of the [[regular monomorphisms]].  Then the $M$-image of a morphism $f : c \to d$ may be constructed as
+Suppose that the category $C$ admits [[finite limits]] and [[finite colimits]], and that $M=RegMono$ consists of the [[regular monomorphisms]].  Then the $M$-image of a morphism $f : c \to d$ may be constructed as
 
 $$
   Im f \simeq lim (d \rightrightarrows d \sqcup_c d)
