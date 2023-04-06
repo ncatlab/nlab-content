@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -125,7 +126,9 @@ The [[tensor product of Hilbert spaces]] -- which in the jargon of [[linear logi
 ### Linear logic and dependent linear type theory
  {#LinearLogicAndDependentLinearTypeTheory}
 
-We point out that --- at least for the [finite dimensional Hilbert spaces](Hilbert+space#FiniteDimensionalInnerProductSpaces) relevant in [[quantum information theory]] --- [BvN quantum logic](#BirkhoffVonNeumannQuantumLogic) is just the [[linear logic]] of [[linear type|linearly]]-[[dependent type|dependent]] [[linear types]] inside [[dependent linear type theory]] [[categorical semantics|interpreted]] in [[VectBund]] over the [[complex numbers]]. 
+We point out that --- at least for the [finite dimensional Hilbert spaces](Hilbert+space#FiniteDimensionalInnerProductSpaces) relevant in [[quantum information theory]] --- [BvN quantum logic](#BirkhoffVonNeumannQuantumLogic) is just the [[linear logic]] of a kind of [[linear type|linearly]]-[[dependent type|dependent]] [[linear types]] inside [[dependent linear type theory]] [[categorical semantics|interpreted]] in [[VectBund]] over the [[complex numbers]]. 
+
+(Notice that it is the linearity of [[linear logic]], which enforces (see [there](linear+logic#AbsenceOfWeakeningAndContraction) for more) both the [[no-cloning theorem]] and the [[no-deleting theorem]] of [[quantum physics]]/[[quantum information theory]].)
 
 Namely, the [[linear types]] in [[VectBund]] form the subcategory [[FinDimVect]]. Any [[finite dimensional vector space]] admits a [[hermitian inner product]] making it a [[Hilbert space]]. For the discussion of logical [[conjunction]] and [[disjunction]] this Hilbert space structure plays no role and we may and will ignore it.
 
@@ -189,7 +192,30 @@ Logical [[disjunction]] of such slice objects is given by the [[(-1)-truncation]
   \mathcal{H}
 \end{tikzcd}
 
-Notice that it is the linearity of [[linear logic]], which enforces (see [there](linear+logic#AbsenceOfWeakeningAndContraction) for more) both the [[no-cloning theorem]] and the [[no-deleting theorem]] of [[quantum physics]]/[[quantum information theory]]. 
+
+<center>
+<img src="/nlab/files/InternalLogicInSlicesOfVect-230406.jpg" width="600">
+</center>
+
+The historical debate [above](#History) about justifying BvN logic as a formal logic is ultimately rooted in the fact that [[Vect]] is not a [[cartesian closed category]] (much less a [[locally cartesian closed category]]) so that its [[internal logic]] is exotic.
+
+But in the spirit of [[dependent linear type theory]] we notice the [[reflective subcategory]]-inclusion
+
+$$
+  Vect 
+  \underoverset
+    {\hookrightarrow}
+    {\overset{\mathrm{Q}}{\longleftarrow}}
+    {\bot}
+  Vect_{Set}
+$$
+
+into [[VectBund|VectSet]].
+
+Now...
+
+(...)
+
 
 
 ### Bohr toposes
