@@ -9,15 +9,33 @@
 =--
 
 
-Transactions of the American Mathematical Society 58 (1945), 231–294.  [doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6).
+This page is about:
+
+* [[Samuel Eilenberg]] and [[Saunders Mac Lane]]:
+
+  \linebreak
+
+  **General theory of natural equivalences**
+
+  \linebreak
+
+  Transactions of the American Mathematical Society 
+
+  **58** (1945) 231–294 
+
+  [doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6)
+
+  [jstor:1990284](http://www.jstor.org/stable/1990284)
+
+introducing basic notions of [[category theory]] ([[category]], [[functor]], [[natural transformations]]...).
+
 
 The first page says
 
 > Presented to the Society, September 8, 1942; received by the editors May 15, 1945.
 
 
-[[Samuel Eilenberg|Eilenberg]] and [[Saunders MacLane|MacLane]]'s 1945 paper General Theory of Natural Equivalences is sometimes regarded the foundational document of [[category theory]]. 
-Notably, in it the term [[natural transformation]] was defined, while the concept of a [[category of categories]] was not mentioned (all the constructions necessary to define it being introduced in the paper).
+This paper is regarded as the foundational document of [[category theory]]. Notably, in it the term [[natural transformation]] was defined, while the concept of a [[category of categories]] was not mentioned (all the constructions necessary to define it being introduced in the paper).
 
 The authors also make careful linguistic, logical and [[foundations|foundational]] comments, some of them remarkable prescient, such as on page 247 where one reads 
 
