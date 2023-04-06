@@ -17,7 +17,7 @@
 
 The notion of  **minimal objects** generalizes the notion of minimal elements of [[preorders]]. Intuitively, minimal elements are ones that don't have anything below them, even though they might not be _the minimum_. A 'minimum object' would be instead an [[initial object]].
 
-Minimal objects have been first defined in [(Weissmann '22)](#Weissmann22) in the context of [[coalgebra]] theory, relative to an [[orthogonal factorization system]]. Trivializing the [[factorization system]] gives a general notion of minimality and maximality, though these are quite a bit stronger in more general [[categories]].
+Minimal objects have been first defined in [(Adámek et al. '12)](#ABHKMS) in the context of [[coalgebra]] theory, relative to an [[orthogonal factorization system]]. Trivializing the [[factorization system]] gives a general notion of minimality and maximality, though these are quite a bit stronger in more general [[categories]].
 
 ## Definition
 ### In preorders
@@ -128,6 +128,9 @@ Notice we can't say anything about the uniqueness of these morphisms $w_A : M \t
 * [[reachability]]
 
 ## References
+
+* {#ABHKMS} J. Adámek, F. Bonchi, M. Hülsbusch, B. König, S. Milius, and A. Silva, _A coalgebraic perspective on minimization and determinization_, in Proceedings of the 15th international conference on Foundations of Software Science and Computational Structures, 2012, pp. 58–73.
+
 
 * {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ Logical Methods in Computer Science **18** (2022) &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:31)2022">doi:10.46298/lmcs-18(3:31)2022</a>&rbrack;
 
