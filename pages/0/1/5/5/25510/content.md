@@ -55,7 +55,9 @@ In &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; it is argued that the proper
 
 * {#Moore13} [[Gregory Moore]], _Quantum symmetries and compatible Hamiltonians_ (2013) &lbrack;[pdf](http://www.physics.rutgers.edu/~gmoore/695Fall2013/CHAPTER1-QUANTUMSYMMETRY-OCT5.pdf)&rbrack;
 
-* {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]]: _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
+* {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]], _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
+
+* [[John Baez]], _The Tenfold Way_, [webpage](https://math.ucr.edu/home/baez/tenfold.html)
 
 
 [[!redirects tenfold way]]
