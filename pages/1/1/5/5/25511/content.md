@@ -17,7 +17,7 @@
 
 The concept of a **division superalgebra** (also **super division algebra**) is the equivalent of a [[division algebra]] in the context of [[superalgebra]]. As such, a division superalgebra is a superalgebra in which every nonzero homogeneous element is [[invertible]].
 
-The classification of the real division superalgebras is given by a "[[ten-fold way]]" famous from the [[K-theory classification of topological phases of matter]].
+The classification of the [[associative]] real division superalgebras is given by a "[[ten-fold way]]" famous from the [[K-theory classification of topological phases of matter]].
 
 ## Related concepts
 
