@@ -88,6 +88,8 @@ Accordingly the basic properties of complex [[spinor representations]] are the s
 
 ## Related concepts
 
+* [[ten-fold way]]
+
 * [[Hopf fibration]]
 
 * [[periodic cohomology theory]]
