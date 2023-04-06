@@ -90,6 +90,8 @@ Everything just said dualizes: every maximal object in a category with terminal 
 
 2. In $\mathcal{C} = \mathbf{Coalg}(F)$, an epi-maximal object is a _simple coalgebra_, that is, one that has no non-trivial quotient. Intuitively, this means that there are no states in the coalgebra with the same behaviour.
 
+3. In the same setting as (2), when $F$ preserves monos, then a quotient $m : S \to S'$ where $S'$ is epi-maximal is called a _minimization_ for $S$. Concretely, it exhibits a way to reduce the automaton $S$ to a smaller automaton $S'$ in which no states are duplicated (where we consider duplicated states with the same behaviour).
+
 ## Properties
 \begin{proposition}
 In a category $\mathcal{C}$ with products, minimal objects, if they exists, are unique up to isomorphism.
@@ -118,6 +120,8 @@ Notice we can't say anything about the uniqueness of these morphisms $w_A : M \t
 ## References
 
 * {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ (2022), Logical Methods in Computer Science, Vol. 18, [(link)](https://lmcs.episciences.org/9893)
+
+* {#BKP} Bezhanishvili, Nick, Clemens Kupke, and [[Prakash Panangaden]], _Minimization via Duality_, Logic, Language, Information and Computation: 19th International Workshop, WoLLIC 2012, Buenos Aires, Argentina, September 3-6, 2012. Proceedings 19, 191–205. Springer, 2012. [(link)](https://staff.science.uva.nl/n.bezhanishvili/Papers/Wollic.pdf)
 
 [[!redirects minimal objects]]
 [[!redirects maximal object]]
