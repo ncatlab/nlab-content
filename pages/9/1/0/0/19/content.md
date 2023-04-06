@@ -298,7 +298,7 @@ See [[category theory vs order theory]] for more discussion.
 
 The concepts of _[[category]]_, _[[functor]]_ and _[[natural transformation]]_ were introduced in
 
-* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], *General Theory of Natural Equivalences*,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], *[[General Theory of Natural Equivalences]]*,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
 
 apparently (see [there](Hans+Freudenthal#AsAForerunnerOfCategoryTheory)) taking inspiration from:
 
