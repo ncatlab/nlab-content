@@ -113,6 +113,10 @@ A more high-brow mathematical desription via "tangle machines":
 
 * Avishy Y. Carmi, [[Daniel Moskovich]], §5 of: *Tangle Machines*, Proc. R. Soc. A **471** (2015) 20150111 &lbrack;[arXiv:1404.2862](https://arxiv.org/abs/1404.2862), [doi:10.1098/rspa.2015.0111](https://doi.org/10.1098/rspa.2015.0111)&rbrack;
 
+On adiabatic quantum computation combined with [[parameterized quantum system|parameterized]] [[quantum circuits]]:
+
+* Ioannis Kolotouros, Ioannis Petrongonas, Miloš Prokop, Petros Wallden, *Adiabatic quantum computing with parameterized quantum circuits* &lbrack;[arXiv:2206.04373](https://arxiv.org/abs/2206.04373)&rbrack;
+
 
 
 ### Geometric phase gates
