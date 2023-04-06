@@ -1,13 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A **minimal object** generalizes the notion of minimal element of a preorder. Intuitively, minimal elements are ones that don't have anything below them, even though they might not be _the minimum_. A 'minimum object' would be instead an [[initial object]].
+The notion of  **minimal objects** generalizes the notion of minimal elements of [[preorders]]. Intuitively, minimal elements are ones that don't have anything below them, even though they might not be _the minimum_. A 'minimum object' would be instead an [[initial object]].
 
-Minimal objects have been first defined in [(Weissmann '22)](#Weissmann22) in the context of [[coalgebra]] theory, relative to an orthogonal factorization system. Trivializing the factorization system gives a general notion of minimality and maximality, though these are quite stronger in categories.
+Minimal objects have been first defined in [(Weissmann '22)](#Weissmann22) in the context of [[coalgebra]] theory, relative to an [[orthogonal factorization system]]. Trivializing the [[factorization system]] gives a general notion of minimality and maximality, though these are quite a bit stronger in more general [[categories]].
 
 ## Definition
 ### In preorders
@@ -23,7 +33,7 @@ This is not the definition we take here!
 \end{remark}
 
 ### In categories
-Let $(\mathcal{E}, \mathcal{M})$ be an [[orthogonal factorization system]] on a category $\mathcal{C}$. This means:
+Let $(\mathcal{E}, \mathcal{M})$ be an [[orthogonal factorization system]] on a [[category]] $\mathcal{C}$. This means:
 
 0. $\mathcal{E}$ and $\mathcal{M}$ are [[wide subcategories]] of $\mathcal{C}$ closed under composition and each containing all isomorphisms of $\mathcal{C}$.
 1. Every morphism in $\mathcal{C}$ factors uniquely as a morphism in $\mathcal{E}$ followed by one in $\mathcal{M}$:
@@ -119,9 +129,9 @@ Notice we can't say anything about the uniqueness of these morphisms $w_A : M \t
 
 ## References
 
-* {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ (2022), Logical Methods in Computer Science, Vol. 18, [(link)](https://lmcs.episciences.org/9893)
+* {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ Logical Methods in Computer Science **18** (2022) &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:31)2022">doi:10.46298/lmcs-18(3:31)2022</a>&rbrack;
 
-* {#BKP} Bezhanishvili, Nick, Clemens Kupke, and [[Prakash Panangaden]], _Minimization via Duality_, Logic, Language, Information and Computation: 19th International Workshop, WoLLIC 2012, Buenos Aires, Argentina, September 3-6, 2012. Proceedings 19, 191–205. Springer, 2012. [(link)](https://staff.science.uva.nl/n.bezhanishvili/Papers/Wollic.pdf)
+* {#BKP} Nick Bezhanishvili, Clemens Kupke, [[Prakash Panangaden]], *Minimization via Duality*, in: *Logic, Language, Information and Computation. WoLLIC 2012*, Lecture Notes in Computer Science **7456**, Springer (2012) &lbrack;[doi:10.1007/978-3-642-32621-9_14](https://doi.org/10.1007/978-3-642-32621-9_14), [pdf](https://staff.science.uva.nl/n.bezhanishvili/Papers/Wollic.pdf)&rbrack;
 
 [[!redirects minimal objects]]
 [[!redirects maximal object]]
