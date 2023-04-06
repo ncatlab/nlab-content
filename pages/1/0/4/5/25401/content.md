@@ -94,6 +94,16 @@ A **minimal initial object** is known as [[strict initial object]].
 
 Everything just said dualizes: every maximal object in a category with terminal object is terminal, but not every terminal object is maximal. A **maximal terminal object** is known as [[strict terminal object]].
 
+## Minimization
+Let $\mathcal{C}$ be a category equipped with an $(\mathcal{E}, \mathcal{M})$-factorization system.
+
+\begin{definition}
+An **$\mathcal{M}$-minimization** of $A: \mathcal{C}$ is a morphism $m:M \to A$ in $\mathcal{M}$ where $M:\mathcal{C}$ is $\mathcal{M}-minimal$.
+Dually, an **$\mathcal{E}$-minimization** of $A: \mathcal{C}$ is a morphism $e:A \to E$ in $\mathcal{E}$ where $E:\mathcal{C}$ is $\mathcal{E}-minimal$.
+\end{definition}
+
+With abuse of notation, we call 'minimization of $A$' both the morphism and the minimal object.
+
 ## Examples
 
 1. Let $\mathcal{C} = \mathbf{Coalg}_*(F)$ is the category of [[pointed object|pointed]] [[coalgebras]] for some endofunctor $F:\mathbf{Set} \to \mathbf{Set}$. This category inherits the epi-mono factorization system from $\mathbf{Set}$. Then a mono-minimal object in $\mathbf{Coalg}_*(F)$ is a _reachable coalgebra_, that is, one that has no non-trivial pointed subcoalgebra. Intuitively, this means every state of a reachable coalgebra is reachable in finitely many transitions from its distinguished point (playing the role of 'initial state').
@@ -129,8 +139,7 @@ Notice we can't say anything about the uniqueness of these morphisms $w_A : M \t
 
 ## References
 
-* {#ABHKMS} J. Adámek, F. Bonchi, M. Hülsbusch, B. König, S. Milius, and A. Silva, _A coalgebraic perspective on minimization and determinization_, in Proceedings of the 15th international conference on Foundations of Software Science and Computational Structures, 2012, pp. 58–73.
-
+* {#ABHKMS} [[Jiri Adamek|J. Adámek]], [[Filippo Bonchi|F. Bonchi]], M. Hülsbusch, B. König, S. Milius, and [[Alexandra Silva|A. Silva]], _A coalgebraic perspective on minimization and determinization_, in Proceedings of the 15th international conference on Foundations of Software Science and Computational Structures, 2012, pp. 58–73.
 
 * {#Weissmann22} Thorsten Weissmann, _Minimality Notions via Factorization Systems and Examples_ Logical Methods in Computer Science **18** (2022) &lbrack;<a href="https://doi.org/10.46298/lmcs-18(3:31)2022">doi:10.46298/lmcs-18(3:31)2022</a>&rbrack;
 
