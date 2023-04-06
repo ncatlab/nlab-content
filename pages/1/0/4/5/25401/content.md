@@ -98,8 +98,8 @@ Everything just said dualizes: every maximal object in a category with terminal 
 Let $\mathcal{C}$ be a category equipped with an $(\mathcal{E}, \mathcal{M})$-factorization system.
 
 \begin{definition}
-An **$\mathcal{M}$-minimization** of $A: \mathcal{C}$ is a morphism $m:M \to A$ in $\mathcal{M}$ where $M:\mathcal{C}$ is $\mathcal{M}-minimal$.
-Dually, an **$\mathcal{E}$-minimization** of $A: \mathcal{C}$ is a morphism $e:A \to E$ in $\mathcal{E}$ where $E:\mathcal{C}$ is $\mathcal{E}-minimal$.
+An **$\mathcal{M}$-minimization** of $A: \mathcal{C}$ is a morphism $m:M \to A$ in $\mathcal{M}$ where $M:\mathcal{C}$ is $\mathcal{M}$-minimal.
+Dually, an **$\mathcal{E}$-minimization** of $A: \mathcal{C}$ is a morphism $e:A \to E$ in $\mathcal{E}$ where $E:\mathcal{C}$ is $\mathcal{E}$-minimal.
 \end{definition}
 
 With abuse of notation, we call 'minimization of $A$' both the morphism and the minimal object.
