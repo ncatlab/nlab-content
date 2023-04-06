@@ -539,7 +539,7 @@ The "[[external tensor product|external]]" [[tensor product]]  on [[VectBund|$Ve
 $$
   \boxtimes
   \,\colon\,
-  Vect_{Set} \times VectSet 
+  Vect_{Set} \times Vect_{Set} 
     \longrightarrow
   Vect_{Set}
 $$
@@ -728,7 +728,7 @@ $$
 
 We want to point out a way in which $VectBund$ with its [[external tensor product]]-structure is the canonical "amalgamation" of 
 
-1. vector spaces equipped with theiry tensor product,
+1. vector spaces equipped with their tensor product,
 
 1. vector spaces equipped with parametrization, namely vector bundles,
 
