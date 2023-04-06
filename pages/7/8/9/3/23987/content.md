@@ -901,13 +901,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 3 Apr 2023
+* {#EconomouApr2023} 3 Apr 2023
 
   [[Sophia Economou]] (Center for Quantum Information Science and Engineering, Virginia Tech, USA)
 
   **Control and distribution of entanglement in quantum networks**
 
   cf.: [arXiv:2212.10820](https://arxiv.org/abs/2212.10820)
+
+  video: [YT](https://www.youtube.com/watch?v=V5pYJLBvNJs)
 
   > [[quantum network|Quantum networks]] are pursued as a quantum backbone on which to perform secure [[quantum communication]], distributed [[quantum sensing]], and blind [[quantum computation]]. The building blocks of these networks are [[quantum repeaters]], where [[photon|photonic]] [[quantum information]] carriers are generated and [[quantum error correction|error corrected]] through [[interactions]] with matter [[qubits]]. I will describe two paradigms of quantum repeaters and discuss in each case how careful control of a register of [[spin]] qubits can increase the [[quantum entanglement|entanglement]] distribution rate over the network. Specifically, I will describe our recent work on the accurate and fast control of [[NMR|nuclear spin]] memory qubits coupled to spin defects such as the [[NV center]] in diamond. I will also discuss the deterministic generation of photonic 'graph" states from such quantum emitters.
 
@@ -1359,6 +1361,8 @@ Stone-von Neumann**
   **Relating cut and paste invariants and TQFTS**
 
   cf.: [arXiv:1803.02939](https://arxiv.org/abs/1803.02939)
+
+  video: [YT](https://www.youtube.com/watch?v=lD8wQhwyrdg)
 
   > In this talk, we will be concerned with a relation between [[TQFTs]] and the [cut-and-paste SKK invariants](scissors+congruence#CutAndPasteOfManifolds) introduced by [Karras, Kreck, Neumann, and Ossa](scissors+congruence#KarrasKreckNeumannOssa73). Cut-and-paste SKK  invariants are [[functions]] on the set of [[smooth manifolds]] whose values on [[cutting and pasting of manifolds|cut-and-paste equivalent manifolds]] differ by an error term depending only on the gluing [[diffeomorphisms]]. I will present a natural [[group homomorphism]] between the [[group]] of [[invertible TQFTs]] and the group of SKK invariants and describe how these groups fit into a [[split exact sequence]]. We conclude in particular that all positive real-valued SKK invariants can be realized as restrictions of [[invertible TQFTs]].
 
