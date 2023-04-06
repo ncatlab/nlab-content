@@ -28,7 +28,7 @@ The term became rather popular in the wake of the seminal suggestion by [Kitaev 
 
 Kitaev's suggestion was made more precise by [Freed & Moore (2013)](#FreedMoore13) (who, however and ironically, doubted, on [p. 57](https://arxiv.org/pdf/1208.5055.pdf#page=57), its application to topological phases -- but see [pp. 2](https://arxiv.org/pdf/2206.13563.pdf#page=2) of [SS23](K-theory+classification+of+topological+phases+of+matter#SatiSchreiber23) for resolution) and it is these authors who very much amplify (and may have actually coined) the term "10-fold way". Moreover, they point out ([pp. 75](https://arxiv.org/pdf/1208.5055.pdf#page=75)) that a 10-fold classification is already contained in [Dyson (1962)](#Dyson62)!
 
-Moore argues ([Moore 13, p. 129](#Moore13)) that the proper basis of the 10-fold way is the classification of real [[division superalgebras]]. A 1-1 correspondence between these and Dyson's 10 types is established in ([Geiko & Moore 2021](#GeikoMoore2021)).
+In &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; it is argued that the proper basis of the 10-fold way is the classification of real [[super division algebras]]. A bijective correspondence between these and Dyson's 10 types is established in [Geiko & Moore (2021)](#GeikoMoore2021).
 
 
 
@@ -53,9 +53,9 @@ Moore argues ([Moore 13, p. 129](#Moore13)) that the proper basis of the 10-fold
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013)  1927-2023 &lbrack;[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)&rbrack;
 
-* {#Moore13} [[Gregory Moore]], _Quantum symmetries and compatible Hamiltonians_, 2013, ([pdf](http://www.physics.rutgers.edu/~gmoore/695Fall2013/CHAPTER1-QUANTUMSYMMETRY-OCT5.pdf)).
+* {#Moore13} [[Gregory Moore]], _Quantum symmetries and compatible Hamiltonians_ (2013) &lbrack;[pdf](http://www.physics.rutgers.edu/~gmoore/695Fall2013/CHAPTER1-QUANTUMSYMMETRY-OCT5.pdf)&rbrack;
 
-* {#GeikoMoore21} _Dyson’s classification and real division superalgebras_, April 2021, Journal of High Energy Physics 2021(4):299, ([doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)).
+* {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]]: _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
 
 
 [[!redirects tenfold way]]
