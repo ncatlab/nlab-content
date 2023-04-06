@@ -8,6 +8,7 @@ Related notions in $n$Lab: [[Calabi-Yau algebra]], [[Calabi-Yau category]], [[Ca
 
 > We elucidate the relation between smooth Calabi-Yau structures and pre-Calabi-Yau structures. We show that, from a smooth Calabi-Yau structure on an A∞-category A, one can produce a pre-Calabi-Yau structure on A; as defined in our previous work, this is a shifted noncommutative version of an integrable polyvector field. We explain how this relation is an analogue of the Legendre transform, and how it defines a one-to-one mapping, in a certain homological sense. For concreteness, we apply this formalism to chains on based loop spaces of (possibly non-simply connected) Poincaré duality spaces, and fully calculate the case of the circle.
 
+* Alex Takeda, _The noncommutative Legendre transform and Calabi-Yau structures_, Purdue Topology Seminar [youtube](https://www.youtube.com/watch?v=na-wj6aOw2E)
 * Johan Leray, [[Bruno Vallette]], _Pre-Calabi--Yau algebras and homotopy double Poisson gebras_, [arXiv:2203.05062](https://arxiv.org/abs/2203.05062)
 * Wai-Kit Yeung, _Pre-Calabi-Yau structures and moduli of representations_, [arXiv:1802.05398](https://arxiv.org/abs/1802.05398); _Ribbon dioperads and modular ribbon properads_, [arXiv:2202.13269](https://arxiv.org/abs/2202.13269)
 * [[David Fernández]], Estanislao Herscovich, _Double quasi-Poisson algebras are pre-Calabi-Yau_, [arXiv:2002.10495](https://arxiv.org/abs/2002.10495)
