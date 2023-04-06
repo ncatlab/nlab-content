@@ -57,7 +57,7 @@ Application to [[quantum sensing]]:
 
 Survey:
 
-* [[Mouzhe Xie]], *Diamond-based quantum sensor for molecular analytics*, [talk at](Center+for+Quantum+and+Topological+Systems#XieApr2023) [[CQTS]] (Apr 2023) &lbrack;slides: [[Xie-CQTS-Apr2023.pdf:file]]&rbrack;
+* [[Mouzhe Xie]], *Diamond-based quantum sensor for molecular analytics*, [talk at](Center+for+Quantum+and+Topological+Systems#XieApr2023) [[CQTS]] (Apr 2023) &lbrack;slides: [[Xie-CQTS-Apr2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=f4qv-H5vkR0)&rbrack;
 
 
 See also:
