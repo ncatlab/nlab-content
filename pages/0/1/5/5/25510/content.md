@@ -26,9 +26,10 @@ The specific term "10-fold way" is a variation of the term "threefold way" used 
 
 The term became rather popular in the wake of the seminal suggestion by [Kitaev (2009)](#Kitaev09) that "free" [[topological phases of matter]], specifically free [[crystalline topological insulator|crystalline]] [[topological insulator]]-phases,  are classified by some form of [[topological K-theory]] (though [Kitaev (2009)](#Kitaev09) does not use the term "10-fold way", either): see at *[[K-theory classification of topological phases of matter]]* for more on this.
 
-Kitaev's suggestion was made more precise by [Freed & Moore (2013)](#FreedMoore13) (who, however and ironically, doubted, on [p. 57](https://arxiv.org/pdf/1208.5055.pdf#page=57), its application to topological phases -- but see [pp. 2](https://arxiv.org/pdf/2206.13563.pdf#page=2) of [SS23](K-theory+classification+of+topological+phases+of+matter#SatiSchreiber23) for resolution) and it is these authors who very much amplify (and may have actually coined) the term "10-fold way". Moreover, they point out ([pp. 75](https://arxiv.org/pdf/1208.5055.pdf#page=75)) that a 10-fold classification is already contained in [Dyson (1962)](#Dyson62)!
+Kitaev's suggestion was made more precise by [Freed & Moore (2013)](#FreedMoore13) (who, however and ironically, doubted, on [p. 57](https://arxiv.org/pdf/1208.5055.pdf#page=57), its application to topological phases -- but see [pp. 2](https://arxiv.org/pdf/2206.13563.pdf#page=2) of [SS23](K-theory+classification+of+topological+phases+of+matter#SatiSchreiber23) for resolution) and it is these authors who very much amplify (and may have actually coined) the term "10-fold way". Moreover, they point out ([pp. 75](https://arxiv.org/pdf/1208.5055.pdf#page=75)) that a 10-fold classification is already contained in [Dyson (1962)](#Dyson62)(!), which the authors re-interpret as the classification of [[super division algebras]]. 
 
-In &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; it is argued that the proper basis of the 10-fold way is the classification of real [[super division algebras]]. A bijective correspondence between these and Dyson's 10 types is established in [Geiko & Moore (2021)](#GeikoMoore2021).
+This 10-fold way of [[super-division algebras]] is further amplified in &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; and [Geiko & Moore (2021)](#GeikoMoore2021)
+
 
 
 
@@ -57,7 +58,9 @@ In &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; it is argued that the proper
 
 * {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]], _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
 
-* [[John Baez]], _The Tenfold Way_, [webpage](https://math.ucr.edu/home/baez/tenfold.html)
+Review:
+
+* [[John Baez]], _The Tenfold Way_ (2020) &lbrack;[webpage](https://math.ucr.edu/home/baez/tenfold.html)&rbrack;
 
 
 [[!redirects tenfold way]]
