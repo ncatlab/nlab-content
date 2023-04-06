@@ -210,7 +210,7 @@ $$
   Vect_{Set}
 $$
 
-into the categoy [[VectBund|$Vect_{Set}$]] of [[indexed sets]] $ (s \colon S) \mapsto \mathscr{V}_s$ of [[vector spaces]], which is a [[cartesian closed category]].
+into the category [[VectBund|$Vect_{Set}$]] of [[indexed sets]] $ (s \colon S) \mapsto \mathscr{V}_s$ of [[vector spaces]], which is a [[cartesian closed category]].
 
 In the plain [[internal logic]] of [[VectBund|$Vect_{Set}$]] the above [[logical disjunction]] is quite different, in fact it coincides with the above conjunction (we abbreviate the [[singleton set|singleton]]-indexed vector space $(\cdot \colon \ast) \mapsto \mathscr{V}$ by $\mathscr{V}$):
 
