@@ -3,7 +3,7 @@
 
 #### For free-fermion topological insulators
 
-On the classification of *[[free field|free]] [[fermion]]* [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], specifically [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+On the classification (now often referred to, somewhat rudimentarily, as the *[[ten-fold way]]*) of *[[free field|free]] [[fermion]]* [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], specifically [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
 
 
 Precursor discussion phrased in terms of [[random matrix theory]] instead of K-theory:
@@ -55,7 +55,7 @@ Further discussion:
 
 Further generalization to include interacting [[topological order]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
+* {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
 
 Via [[cobordism cohomology]]:
 
