@@ -12,7 +12,7 @@ More precisely,
 
 > [[Kullback-Leibler information]], or [[relative entropy]], features as a measure of [[divergence]] (not quite a [[metric]], because it's asymmetric), and [[Fisher information]] takes the role of [[curvature]]. One useful aspect of information geometry is that it gives a means to prove results about statistical models, simply by considering them as well-behaved geometrical objects. For instance, it's basically a tautology to say that a [[manifold]] is not changing much in the vicinity of points of low curvature, and changing greatly near points of high curvature. Stated more precisely, and then translated back into probabilistic language, this becomes the [[Cramer-Rao inequality]], that the variance of a parameter estimator is at least the reciprocal of the [[Fisher information]]. ([Shalizi](#Shalizi))
 
-Founders of the systematical theory are N. N. Chentsov and Shun-ichi [Amari](http://www.brain.riken.jp/labs/mns/amari/home-E.html).
+Founders of the systematical theory are N. N. Chentsov and [[Shun-ichi Amari]].
 
 ## Definitions
 
@@ -43,10 +43,10 @@ See also [[Fisher metric]], where Fisher metric in other contexts and quantum ge
 Textbooks providing the big picture
 
 * Nihat Ay, Jürgen Jost, [[Hông Vân Lê]], Lorenz Schwachhöfer, _Information geometry_, Ergeb. der Mathematik and ihrer Grenzgebiete 3. Folge, 64, Springer 2017
-* Shun-ichi Amari, O. E. Barndorff-Nielsen, R. E. Kass, S. L. Lauritzen, and C. R. Rao, _Differential geometry in statistical inference_ ([project Euclid](http://projecteuclid.org/euclid.lnms/1215467056))
+* [[Shun-ichi Amari]], O. E. Barndorff-Nielsen, R. E. Kass, S. L. Lauritzen, C. R. Rao, _Differential geometry in statistical inference_ ([project Euclid](http://projecteuclid.org/euclid.lnms/1215467056))
  {#AmariTextbook}
-* Shun-ichi Amari, _Information geometry and its applications_, Applied Mathematical Sciences 194, Springer 2016
-*  Shun-ichi Amari, Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
+* [[Shun-ichi Amari]], _Information geometry and its applications_, Applied Mathematical Sciences 194, Springer 2016
+* [[Shun-ichi Amari]], Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
 
 For a series of articles, see
 
@@ -55,8 +55,8 @@ For a series of articles, see
 
 Lecture notes include
 
-*  Shun-ichi Amari, MaxEnt 2007 [lecture](http://video.google.com/videoplay?docid=2175767568645553282#)
-*  Shun-ichi Amari, ETVC08 [lecture](http://videolectures.net/etvc08_amari_igaia/).
+*  [[Shun-ichi Amari]], MaxEnt 2007 [lecture](http://video.google.com/videoplay?docid=2175767568645553282#)
+*  [[Shun-ichi Amari]], ETVC08 [lecture](http://videolectures.net/etvc08_amari_igaia/).
 *  Sanjoy Dasgupta, [lecture](http://videolectures.net/mlss05us_dasgupta_ig/).
 
 See also
