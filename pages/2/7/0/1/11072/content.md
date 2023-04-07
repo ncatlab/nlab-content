@@ -87,7 +87,7 @@ Suppose $F \colon M \rightleftarrows C : G$ is a linear-nonlinear adjunction, wh
 The embedding of $C$ in $Chu(C,\bot)$ as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal, hence the adjunction is a monoidal adjunction.  Therefore, the composite adjunction $M \rightleftarrows C \rightleftarrows Chu(C,\bot)$ is again a linear-nonlinear-adjunction.
 \end{proof}
 
-Note that this theorem is a direct consequence of the work of Lafont and Streicher on game semantics using the Chu construction, together with Benton's reformulation of linear logic in terms of  monoidal adjunctions. Since a Chu construction is $\ast$-autonomous, this !-modality implies a dual ?-modality.
+Note that this theorem is a direct consequence of the work of [[Yves Lafont]] and [[Thomas Streicher]] on game semantics using the Chu construction, together with Benton's reformulation of linear logic in terms of  monoidal adjunctions. Since a Chu construction is $\ast$-autonomous, this !-modality implies a dual ?-modality.
 
 \begin{corollary}
 If $C$ is a cartesian closed category with finite limits and colimits and $\bot\in C$ is an object, then there is a linear-nonlinear adjunction $C \rightleftarrows Chu(C,\bot)$, and hence $Chu(C,\bot)$ admits a !-modality.
