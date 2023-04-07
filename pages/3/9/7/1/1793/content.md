@@ -1201,48 +1201,45 @@ and are reviewed in
 ### For unbounded chain complexes
   {#ForUnboundedChainComplexes}
 
-Spaltenstein wrote a famous paper
+Influential precusor discussion of homotopy theory of unbounded chain complexes (introducing notions like K-projective and K-injective complexes):
 
-* N. Spaltenstein, _Resolutions of unbounded complexes_, Compositio Mathematica, 65 no. 2 (1988), p. 121-154 ([numdam](http://www.numdam.org/item?id=CM_1988__65_2_121_0))
+* [[Nicolas Spaltenstein]], *Resolutions of unbounded complexes*, Compositio Mathematica **65** 2 (1988) 121-154 &lbrack;[numdam:CM_1988__65_2_121_0](http://www.numdam.org/item?id=CM_1988__65_2_121_0), [eudml:89885](https://eudml.org/doc/89885)&rbrack;
 
-on how to do homological algebra with unbounded complexes (in both sides) where he introduced notions like K-projective and K-injective complexes. Later,
+The observation that from this one obtains a model category structure on unbounded chain complexes is due to:
 
-* [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
-([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf))
+* {#Hinich97} [[Vladimir Hinich]],  *Homological algebra of homotopy algebras*, Communications in Algebra **25** 10   (1997) 3291-3323 &lbrack;[arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), [doi:10.1080/00927879708826055](https://doi.org/10.1080/00927879708826055), Erratum: [arXiv:math/0309453](http://arxiv.org/abs/math/0309453)&rbrack;
 
-shows that there is a model category structure on the category of unbounded chain complexes, reproduces Spaltenstein's results from that perspective and extends them.
+and maybe independently due to:
 
-The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in
+* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  after theorem 9.3.1 in: *Axiomatic stable homotopy theory*, Memoirs Amer. Math. Soc. **610** (1997) &lbrack;[ISBN:978-1-4704-0195-5](https://bookstore.ams.org/memo-128-610), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf)&rbrack;
 
-* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  *Axiomatic stable homotopy theory*, Memoirs Amer. Math. Soc. **610** (1997) &lbrack;[ISBN:978-1-4704-0195-5](https://bookstore.ams.org/memo-128-610), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf)&rbrack;
+(where the relevant insights are credited to [Weibel (1994)](https://ncatlab.org/nlab/show/homological+algebra#Weibel94))
 
-and noticed as cofibrantly generated model structure on p. 7 of
+and shown to be [[cofibrantly generated model category|cofibrantly generated]] in:
 
-* {#SchwedeShipley98} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
+* {#SchwedeShipley98} [[Stefan Schwede]], [[Brooke Shipley]], p. 7 of: *Algebras and modules in monoidal model categories*, Proc. London Math. Soc. **80** 2  (2000)  491-511  &lbrack;[arXiv:math/9801082](https://arxiv.org/abs/math/9801082), [doi:10.1112/S002461150001220X](https://doi.org/10.1112/S002461150001220X)&rbrack;
+
+* {#Hovey} [[Mark Hovey]], Thm 2.3.1 in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+
+and shown to be ([[cofibrantly generated model category|cofibrantly generated]] and in addition) [[proper model category|proper]] and [[monoidal model category|monoidal]] in:
+
+* {#Strickland20} [[Neil Strickland]], *The model structure for chain complexes* &lbrack;[arXiv:2001.08955](https://arxiv.org/abs/2001.08955)&rbrack;
+
 
 In the context of the [[Dold-Kan correspondence]] with the [[model structure on simplicial abelian groups]]:
 
-* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376))
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_, Algebr. Geom. Topol. **3** (2003) 287-334 &lbrack;[arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376)&rbrack;
 
-Also:
 
-* {#Strickland20} [[Neil Strickland]], *The model structure for chain complexes* ([arXiv:2001.08955](https://arxiv.org/abs/2001.08955))
+That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is 
+
+* {#RezkSchwedeShipley01} [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], Cor. 4.6 in: *Simplicial structures on model categories and functors*, American Journal of Mathematics **123** 3 (2001) 551-575  &lbrack;[arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor:25099071](https://www.jstor.org/stable/25099071)&rbrack;
  
-
-A textbook account is around Theorem 2.3.11 of:
-
-* {#Hovey} [[Mark Hovey]], _Model Categories_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover), [ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s))
-
-That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in
-
-* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
- {#RezkSchwedeShipley01}
-
 
 The article
 
-* [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
-{#ChristensenHovey}
+* {#ChristensenHovey} [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_, Math. Proc. Cambridge Philos. Soc. **133** 2 (2002) 261-293 &lbrack;[arXiv:math/0011216](https://arxiv.org/abs/math/0011216), [doi:10.1017/S0305004102006126](https://doi.org/10.1017/S0305004102006126)&rbrack;
+
 
 discusses model structures on unbounded chain complexes with generalized notions of epimorphisms induced from "projective classes".
 
@@ -1252,8 +1249,8 @@ See also
 
 Another approach is due to James Gillespie, using [[cotorsion pairs]].  An overview of this work is in
 
-* [[Mark Hovey]], _Cotorsion pairs and model categories_, 2006 ([pdf](http://homepages.math.uic.edu/~bshipley/hovey.pdf))
-{#HoveyOverview}
+* {#HoveyOverview} [[Mark Hovey]], _Cotorsion pairs and model categories_, 2006 ([pdf](http://homepages.math.uic.edu/~bshipley/hovey.pdf))
+
 
 Some generalizations and simplifications of the original approach are discussed in
 
@@ -1292,3 +1289,4 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects injective model structure on connective cochain complexes]]
 
 
+recalled in
