@@ -27,7 +27,10 @@ On [[exact (∞,1)-categories]]:
 
 * [[Clark Barwick]], _On the Q construction for exact quasicategories_ ([arXiv:1301.4725](http://arxiv.org/abs/1301.4725))
 
-* [[Clark Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
+and the [[theorem of the heart]]:
+
+* [[Clark Barwick]], *On exact infinity-categories and the Theorem of the Heart*, Compositio Mathematica **151** (2015) 2160-2186 &lbrack;[arXiv:1212.5232](https://arxiv.org/abs/1212.5232), [doi:10.1112/S0010437X15007447](https://doi.org/10.1112/S0010437X15007447)&rbrack;
+
 
 
 On [[spectral Mackey functors]] and [[equivariant algebraic K-theory]]:
