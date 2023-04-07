@@ -6,7 +6,7 @@
 
 ## Idea
 
-In [[proof theory]], the **Dialectica interpretation** is a proof interpretation of intuitionistic arithmetic ([[Heyting arithmetic]]) into a finite type extension of [[primitive recursive arithmetic]].  It was reinterpreted by [de Paiva](#DePaiva) as a construction (actually, multiple related constructions) on [[categories]], related to (but distinct from) the [[Chu construction]].
+In [[proof theory]], the Gödel's **Dialectica interpretation** is a proof interpretation of intuitionistic arithmetic ([[Heyting arithmetic]]) into a finite type extension of [[primitive recursive arithmetic]].  It was reinterpreted by [de Paiva](#DePaiva) as a construction (actually, multiple related constructions) on [[categories]], related to (but distinct from) the [[Chu construction]].
 
 ## Examples
 
@@ -33,9 +33,11 @@ Other work in proof theory:
 
 The categorical construction originally appeared in
 
-* {#DePaiva} [[Valeria de Paiva]], _The Dialectica Categories_. University of Cambridge, Computer Laboratory, PhD Thesis, Technical Report 213, ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf)).
+* {#DePaiva} [[Valeria de Paiva]], _The Dialectica Categories_. University of Cambridge, Computer Laboratory, PhD Thesis, Technical Report 213, 1991 ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf)).
 
-and has been studied further by de Paiva and many others.  For comparisons to the Chu construction, see
+and has been studied further by de Paiva and many others.
+
+  For comparisons to the Chu construction, see
 
 * [[Valeria de Paiva]], _Dialectica and Chu Constructions: Cousins?_, Theory and Applications of Categories, Vol. 17, 2006, No. 7, pp 127-152., [link](http://www.tac.mta.ca/tac/volumes/17/7/17-07abs.html)
 
