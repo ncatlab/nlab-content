@@ -21,6 +21,11 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 
 * [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
 
+More on holographic [[quantum error correcting codes]]:
+
+* Matthew Steinberg, Sebastian Feld, [[Alexander Jahn]], *Holographic Codes from Hyperinvariant Tensor Networks* &lbrack;[arXiv:2304.02732](https://arxiv.org/abs/2304.02732)&rbrack;
+
+
 
 
 category: people
