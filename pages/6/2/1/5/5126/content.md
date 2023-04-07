@@ -26,13 +26,17 @@ On general [[model structures on symmetric spectra]] (applicable e.g. to [[model
 
 * {#Hovey00} [[Mark Hovey]], *Spectra and symmetric spectra in general model categories*, Journal of Pure and Applied Algebra **165** 1 (2001) 63-127 &lbrack;[arXiv:0004051](http://arxiv.org/abs/math/0004051), <a href="https://doi.org/10.1016/S0022-4049(00)00172-9">doi:10.1016/S0022-4049(00)00172-9</a>&rbrack;
 
+On [[model structures on chain complexes]] in [[homological algebra]]:
+
+* [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_, Math. Proc. Cambridge Philos. Soc. **133** 2 (2002) 261-293 &lbrack;[arXiv:math/0011216](https://arxiv.org/abs/math/0011216), [doi:10.1017/S0305004102006126](https://doi.org/10.1017/S0305004102006126)&rbrack;
+
 
 On [[algebraic topology]]:
 
 * [[Mark Hovey]], *[Algebraic Topology Problem List](https://www-users.cse.umn.edu/~tlawson/hovey/)*
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[2-model category]]
 
