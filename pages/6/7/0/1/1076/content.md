@@ -558,9 +558,11 @@ Similar axioms were already given in
 
 * [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren_, Annales de l'Institut Fourier (Universit&#233; de Grenoble) 11: 201&#8211;312, 1961, [eudml](https://eudml.org/doc/73776).
 
-A comprehensive monograph is 
+Monographs:
 
-* {#Neeman01} [[Amnon Neeman]], _Triangulated Categories_, Annals of Mathematics Studies 213, Princeton University Press 2001 ([pulisher](https://press.princeton.edu/titles/7102.html), [pdf](http://www.mi-ras.ru/~akuznet/homalg/Neeman%20Triangulated%20categories.pdf))
+* {#GelfandManin96} [[Sergei Gelfand]], [[Yuri Manin]], Section IV of: *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
+
+* {#Neeman01} [[Amnon Neeman]], *Triangulated Categories*, Annals of Mathematics Studies **213**, Princeton University Press (2001) &lbrack;[ISBN:9780691086866](https://press.princeton.edu/titles/7102.html), [pdf](http://www.mi-ras.ru/~akuznet/homalg/Neeman%20Triangulated%20categories.pdf)&rbrack;
 
 Discussion of the relation to [[stable model categories]] originates in 
 
