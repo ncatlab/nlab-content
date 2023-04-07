@@ -1,7 +1,9 @@
 
 **[[measure theory]]**
 
-**[[probability theory]]**
+**[[probability theory]]** 
+
+([[quantum probability]])
 
 ## Measure theory
 
@@ -49,4 +51,7 @@
 
 * [[Riesz representation theorem]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/measure+theory+-+contents)</div>
+## Applications
+
+* [[machine learning]], [[neural networks]]
+
