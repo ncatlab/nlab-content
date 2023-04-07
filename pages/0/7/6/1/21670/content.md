@@ -12,7 +12,7 @@ This page has material related to the book
 
   [doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)
 
-on [[homological algebra]] and  [[homotopical algebra]] ([[rational homotopy theory]] via [[model structure on dgc-algebras]]).
+on [[homological algebra]] and  [[homotopical algebra]] (including [[triangulated categories]], [[t-structures]] and also [[rational homotopy theory]] via [[model structure on dgc-algebras]]).
 
 \linebreak
 
