@@ -51,20 +51,22 @@ at _[[module spectrum]]_.
  {#InTermsOfEMModuleSpectra}
 
 
-+-- {: .num_theorem #StableDoldKan}
-###### Theorem
-
+\begin{proposition}
+\label{StableDoldKan}
 For $R$ any [[ring]] (or [[ringoid]], even) there is a [[Quillen equivalence]] 
 
 $$
-  H R ModSpectra \simeq Ch_\bullet(R Mod)
+  H R ModSpectra 
+  \;\simeq\; 
+  Ch_\bullet(R Mod)
 $$
 
-between a model structure on  $H R$-[[module spectra]] over the [[Eilenberg-MacLane spectrum]] $H R$ and the [[model structure on unbounded chain complexes]] of ordinary $R$-[[modules]].
+between a [[model category]] of  $H R$-[[module spectra]] over the [[Eilenberg-MacLane spectrum]] $H R$ and the [[model structure on unbounded chain complexes]] of ordinary $R$-[[modules]].
 
 This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a [[commutative ring]], then this is an equivalence of [[symmetric monoidal (∞,1)-categories]].
+\end{proposition}
 
-=--
+{#DerivedCategory} (Notice that the [[homotopy category of a model category|homotopy category]] of the [[model structure on unbounded chain complexes|model structure on $R$-chain complexes]] is the "[[derived category]]" of [[Mod|$R Mod$]].)
 
 This equivalence on the level of [[homotopy categories]] is due to ([Robinson 87](#Robinson87)). The refinement to a [[Quillen equivalence]] is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Higher Algebra|Lurie HA, theorem 7.1.2.13]]).
 
