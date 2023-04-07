@@ -17,7 +17,9 @@
 ### For plain spectra
  {#ForPlainSpectra}
 
-[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra $E \mapsto E \langle 0 \rangle$ is called the _connective cover_ construction. This comes with the [[coreflective subcategory|coreflection]] morphism of spectra
+[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]] (as part of the canonical [[t-structure]] in spectra, see [there](t-structure#CanonicalTStructureOnSpectra)). 
+
+The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra $E \mapsto E \langle 0 \rangle$ is called the _connective cover_ construction. This comes with the [[coreflective subcategory|coreflection]] morphism of spectra
 
 \[
   \label{CoreflectionOfSpectrumFromItsConnectiveCover}
