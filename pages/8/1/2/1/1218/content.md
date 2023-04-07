@@ -433,7 +433,7 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 ## References 
  {#References}
 
-### General
+### Foundations
   {#ReferencesGeneral}
 
 The basic idea of understanding [[generalized smooth spaces]] as [[concrete sheaves]] on a [[site]] of smooth test spaces originates in work of [[Kuo Tsai Chen]] (see also at _[[Chen space]]_):
@@ -466,6 +466,19 @@ The proper concept of diffeological spaces was introduced, under the name _diff&
 
 motivated there by [[diffeological groups]] arising in [[geometric quantization]].
 
+The article 
+
+* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_, Transactions of the American Mathematical Society Vol. 363, No. 11  ([arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [jstor:41307457](https://www.jstor.org/stable/41307457))
+
+proved that diffeological spaces are [[concrete sheaves]] forming a [[quasi-topos]].
+
+A discussion of the relations of variants of the definition is in
+
+* {#Stacey11} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac:25-04](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
+
+
+### Differential geometry of diffeological spaces
+
 Following Souriau, a comprehensive textbook account of [[differential geometry]] formulated in terms of [[diffeological spaces]] (and coining that term) is 
 
 * {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
@@ -483,26 +496,18 @@ Further exposition and lecture notes are in
 
 * {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]], _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics: Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](http://www.turkmath.org/beta/konferans.php?id_konferans=365)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
 
-The article 
 
-* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_, Transactions of the American Mathematical Society Vol. 363, No. 11  ([arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [jstor:41307457](https://www.jstor.org/stable/41307457))
+[[Cartan calculus]] for [[diffeological spaces]] is developed in
 
-proved that diffeological spaces are [[concrete sheaves]] forming a [[quasi-topos]].
-
-
-A discussion of the relations of variants of the definition is in
-
-* {#Stacey11} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac:25-04](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
-
-More pointers and monthly seminars at:
-
-* [diffeology.net](http://diffeology.net/)
-
+* [[Christian Blohmann]], _Elastic diffeological spaces_, [arXiv:2301.02583](https://arxiv.org/abs/2301.02583).
 
 Application to [[classifying spaces]] and [[universal connections]]:
 
 * [[Mark Mostow]], _The differentiable space structures of Milnor classifying spaces, simplicial complexes, and geometric realizations_, J. Differential Geom. Volume 14, Number 2 (1979), 255-293 ([euclid:jdg/1214434974](https://projecteuclid.org/euclid.jdg/1214434974))
 
+More pointers and monthly seminars at:
+
+* [diffeology.net](http://diffeology.net/)
 
 ### Full subcategories
 
