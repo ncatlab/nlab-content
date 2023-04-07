@@ -50,9 +50,9 @@ For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]], flat $\infty$-conne
 
 ### Flat $(\infty,1)$-vector bundles ($\infty$-local systems)
 
-For $A = Core(Ch_k)$ the [[core]] of an [[(infinity,1)-category]] of chain complexes, functors $\esh X \longrightarrow A$ are [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]].
+For $A = Core(Ch_k)$ the [[core]] of an [[(infinity,1)-category of chain complexes]], functors $\esh X \longrightarrow A$ are [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]].
 
-In parts of the literature this case is understood by default when speaking of "$\infty$-local systems".
+In parts of the literature this case is understood by default when speaking of "$\infty$-local systems". Other parts refer to this as "[[representations up to homotopy]]" (really: up to [[coherence|coherent]] [[higher homotopy]]).
 
 
 
