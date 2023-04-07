@@ -16,7 +16,9 @@ A discussion of the [[swampland cobordism conjecture]]:
 
 * David Andriot, [[Nils Carqueville]], Niccolò Cribiori, _Looking for structure in the cobordism conjecture_ ([arXiv:2204.00021](https://arxiv.org/abs/2204.00021))
 
+A [[bicategory]] of [[Landau-Ginzburg model]]s where matrix factorizations supply morphisms is studied in 
 
+* Nils Carqueville, [[Daniel Murfet]], _Adjunctions and defects in Landau-Ginzburg models_, Advances in Mathematics 289 (2016) 480--566 [doi](https://doi.org/10.1016/j.aim.2015.03.033)
 
 
 ## Related entries
