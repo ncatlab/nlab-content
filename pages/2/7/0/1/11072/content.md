@@ -22,7 +22,7 @@ In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [
 
 In classical linear logic (meaning with involutive de Morgan duality), the de Morgan dual of "!" is denoted "?" and called the "why not"-modality.
 
-In [[categorical semantics]] of linear type theory the !-modality typically appears as a kind of [[Fock space]] construction. If one views [[linear logic]] as [[quantum logic]] (as discussed there), then this means that the !-modality produces [[free field theory|free]] [[second quantization]].
+In [[categorical semantics]] of linear type theory, if one views [[linear logic]] as [[quantum logic]], the !-modality typically appears as a kind of [[Fock space]] construction.  Then this means that the !-modality produces [[free field theory|free]] [[second quantization]]. The original categorical semantics of linear logic, in terms of [Dialectica categories](#dePaiva89), sees the !-modality simply as a kind of free (as much as possible) comonoid.
 
 
 ## Categorical semantics
@@ -152,6 +152,8 @@ Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
 
 On the semantics of exponential conjunction as a [[comonad]]:
+
+* {#depaiva89} [[ Valeria de Paiva]], *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92).
 
 * {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
   
