@@ -82,3 +82,6 @@ The collection of all probability distributions on a measurable space carries va
 [[!redirects probability distributions]]
 [[!redirects probability measure]]
 [[!redirects probability measures]]
+
+[[!redirects statistical distribution]]
+[[!redirects statistical distributions]]
