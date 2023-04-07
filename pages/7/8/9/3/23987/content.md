@@ -374,6 +374,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2210.04286](https://arxiv.org/abs/2210.04286) and *[[super Chern-Simons theory]]* 
 
+  video: [YT](https://www.youtube.com/watch?v=m73KQCwXOrY)
+
   > [[Chern-Simons theory]], as [introduced by Witten](Chern-Simons+theory#Witten89), is a three dimensional [[quantum field theory|quantum]] [[gauge theory]] associated to a [[compact Lie group|compact]] [[simple Lie group]] and a [[level (Chern-Simons theory)|level]]. The mathematical model of this theory as a [[topological field theory]] was introduced by [[Reshetikhin-Turaev construction|Reshetikhin and Turaev]] and is at the core of modern [[quantum topology]]. The goal of this talk is to explain a non-[[semisimple category|semisimple]] modification of the [[Reshetikhin-Turaev construction|construction of Reshetikhin and Turaev]] which realizes Chern-Simons theory with gauge [[supergroup]] $U(1\vert 1)$, as studied in the physics literature by Rozansky-Saleur and Mikhaylov. The key new algebraic structure is a relative [[modular tensor category|modular structure]] on the [[category of representations]] of the [[quantum group]] of $\mathfrak{gl}(1\vert 1)$. Based on joint work with [[Nathan Geer]].
 
 \linebreak
