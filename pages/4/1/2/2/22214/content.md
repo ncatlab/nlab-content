@@ -38,6 +38,8 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 
 * [[singular learning theory]]
 
+* [[information geometry]]
+
 ## References
 
 ### Classical machine learning
@@ -48,6 +50,9 @@ Textbook accounts:
 
 * [[Sumio Watanabe]], _Mathematical theory of Bayesian statistics_, Cambridge University Press (2018) &lbrack;[ISBN:9780367734817](https://www.routledge.com/Mathematical-Theory-of-Bayesian-Statistics/Watanabe/p/book/9780367734817), [pdf](http://196.189.45.87/bitstream/123456789/36917/1/Sumio%20Watanabe_2018.pdf)&rbrack;
 
+* [[Shai Shalev-Shwartz]], [[Shai Ben-David]], _Understanding machine learning: from theory to algorithms_, Cambridge University Press 2014 [doi](https://doi.org/10.1017/CBO9781107298019)
+
+* Ian Goodfellow, Y. Bengio, A. Courville, _Deep learning_, [pdf](https://github.com/janishar/mit-deep-learning-book-pdf) MIT Press 2016
 
 For a treatment in terms of [[category theory]] see
 
