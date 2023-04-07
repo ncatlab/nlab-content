@@ -47,8 +47,8 @@ Textbook accounts:
 
 Geometry understood as a section in
 
-* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380
-* Tai Tsun Wu, Chen Ning Yang, _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976)
+* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac monopole without strings: monopole harmonics_, Nuclear Physics B107:3 (1976) 365--380, <https://doi.org/10.1016/0550-3213(76)90143-7>
+* [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976), <https://doi.org/10.1103/PhysRevD.14.437>
 
 
 [[!redirects Dirac monopoles]]
