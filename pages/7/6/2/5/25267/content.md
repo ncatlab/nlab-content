@@ -35,4 +35,5 @@ For a series of talks and further texts:
 
 * Singular Learning Theory seminar, ([webpage](https://metauni.org/slt/))
 
+* S. Wei, [[Daniel Murfet]], M. Gong, H. Li , J. Gell-Redman, T. Quella, _Deep learning is singular, and that’s good_, IEEE Transactions on neural networks and learning systems [pdf](https://www.suswei.com/publication/wei-2022-singular/wei-2022-singular.pdf)
 
