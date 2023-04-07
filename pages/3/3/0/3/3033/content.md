@@ -63,7 +63,7 @@ Currently revising:
 
 ## Selected writings
 
-On [[t-structures]]:
+On [[t-structures]] and [[reflective factorization systems]]:
 
 * [[Domenico Fiorenza]], [[Fosco Loregian]], *$t$-Structures are normal torsion theories*, Appl Categor Struct **24** (2016) 181–208 &lbrack;[arxiv:1408.7003](http://arxiv.org/abs/1408.7003), [doi:10.1007/s10485-015-9393-z](https://doi.org/10.1007/s10485-015-9393-z)&rbrack; 
 
