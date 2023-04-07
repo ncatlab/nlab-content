@@ -18,7 +18,7 @@
 
 The term  _simplicial groupoid_ is often used for a [[simplicial object]] in the [[category]] [[Grpd]] of [[groupoids]] whose [[simplicial set]] of objects is simplicially constant. We will write $s Grpd$ for the category of such simplicial groupoids.
 
-(BEWARE: perhaps a more accurate term for this concept is **simplicially enriched groupoid**, and conceptually it is often the enriched category structure that is useful. Because of this it is advisable to check the use being made of the term when consulting the literature. This is more fully discussed at [[simplicial category]].)
+(BEWARE: perhaps a more accurate term for this concept is **simplicially enriched groupoid**, and conceptually it is often the [[sSet-enriched category]]-[[structure]] that is useful. Because of this it is advisable to check the use being made of the term when consulting the literature. This is more fully discussed at *[[simplicial category]]*.)
 
 
 ## Definition
@@ -74,7 +74,4 @@ When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bull
 
 ## References
 
-The model structure is discussed after corollary 7.3 in chapter V of
-
-* {#GoerssJardine} [[Paul Goerss]] and [[Frederick Jardine]], 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
- 
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], after corollary 7.3 in chapter V of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
