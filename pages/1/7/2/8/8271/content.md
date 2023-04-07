@@ -14,10 +14,10 @@
 {:toc}
 
 ## Definition
+ {#Definition}
 
-+-- {: .num_defn #tStruc}
-###### Definition
-
+\begin{definition}
+\label{tStructure}
 Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] $\mathfrak{t}=(C_{\ge 0}, C_{\le 0})$ of [[strictly full subcategories]]
 
 $$
@@ -30,15 +30,13 @@ such that
 
 1. the subcategories are closed under [[suspension]]/desuspension: $C_{\geq 0}[1] \subset C_{\geq 0}$ and $C_{\leq 0}[-1] \subset C_{\leq 0}$.
 
-1. For all [[objects]] $X \in C$ there is a [[fiber sequence]] $Y \to X \to Z$ with $Y \in C_{\geq 0}$ and $Z \in C_{\leq 0}[-1]$.
+1. For all [[objects]] $X \in C$ there is a [[fiber sequence]] (i.e. an [[exact triangle]]) $Y \to X \to Z$ with $Y \in C_{\geq 0}$ and $Z \in C_{\leq 0}[-1]$.
 
- 
-=--
+\end{definition} 
 
-+-- {: .num_defn }
-###### Definition
-
-Given a t-structure, its _heart_ is the intersection
+\begin{definition}
+\label{HeartOfATStructure}
+Given a t-structure (Def. \ref{tStructure}), its _heart_ is the intersection
 
 $$
   C_{\geq 0} \cap C_{\leq 0}
@@ -47,13 +45,16 @@ $$
   \,.
 $$
 
-=--
+\end{definition}
+
+
 
 ### In stable $\infty$-categories
+ {#InStableInfinityCategories}
 
-In the [[infinity-category|infinity-categorical]] setting $t$-structures arise as [[torsion theory|torsion/torsionfree]] classes associated to suitable [[orthogonal factorization system|factorization systems]] on a [[stable infinity-category]] $C$.
+In the [[(∞,1)-category theory]], $t$-structures arise as [[torsion theory|torsion/torsionfree]] classes associated with suitable [[orthogonal factorization system|factorization systems]] on [[stable ∞-categories]] $C$.
 
-* In a stable setting, the subcategories are closed under de/suspension simply because they are co/reflective and reflective and these operations are co/limits. Co/reflective subcategories of $C$ arise from co/[[reflective factorization systems]] on $C$;
+* In [[stable ∞-category]]-theory, the relevant sub-[[(∞,1)-categories]] are closed under de/suspension simply because they are (co-)[[reflective sub-(∞,1)-categories|reflective]], arising from co/[[reflective factorization systems]] on $C$.
 
 * A _bireflective_ factorization system on a $\infty$-category $C$ consists of a [[orthogonal factorization system|factorization system]] $\mathbb{F}=(E,M)$ where both classes satisfy the [[two-out-of-three]] property.
 
@@ -69,30 +70,47 @@ $$
 $$
 is a fiber sequence for any object $X$; see [FL0, Def 3.5 and Prop. 3.10](#FL0) for equivalent conditions for normality.
 
-**Remark.** [CHK](#CHK) established a hierarchy between the three notions of simple, semi-exact and normal factorization system: in the setting of stable $\infty$-category the three notions turn out to be equivalent: see [FL0, Thm 3.11](#FL0).
+\begin{remark}
+[CHK](#CHK) established a hierarchy between the three notions of simple, semi-exact and normal factorization system: in the setting of stable $\infty$-category the three notions turn out to be equivalent: see [FL0, Thm 3.11](#FL0).
+\end{remark}
 
-**Theorem.** There is a bijective correspondence between the class $TS( C )$ of $t$-structures and the class of normal torsion theories on a stable $\infty$-category $C$, induced by the following correspondence:
+\begin{proposition}
+\label{CorrespondenceWithNormalTorsionTheories}
+There is a bijective correspondence between the class $TS( C )$ of $t$-structures and the class of normal torsion theories on a stable $\infty$-category $C$, induced by the following correspondence:
 
 * On the one side, given a normal, bireflective factorization system $(E,M)$ on $C$ we define the two classes $(C_{\ge0}(\mathbb{F}), C_{\lt 0}(\mathbb{F}))$ of a $t$-structure $\mathfrak{t}(\mathbb{F})$ to be the torsion and torsionfree classes $(*\!/E, M/\!*)$  associated to the factorization $(E,M)$.
+
 * On the other side, given a $t$-structure on $C$ we set
 $$E(t)=\{f\in C^{\Delta[1]} \mid \tau_{\lt 0}(f) \;\text{ is an equivalence}\};$$
-$$M(t)=\{f\in C^{\Delta[1]} \mid \tau_{\geq0}(f) \;\text{ is an equivalence}\}.$$
+$$
+  M(t)=\{f\in C^{\Delta[1]} \mid \tau_{\geq0}(f) \;\text{ is an equivalence}\}.
+$$
 
-_Proof._ This is [FL0, Theorem 3.13](#FL0)
+\end{proposition}
 
-**Theorem.** There is a natural monotone action of the group $\mathbb{Z}$ of integers on the class $TS( C )$ (now confused with the class $FS_\nu( C )$ of normal torsion theories on $C$) given by the suspension functor: $\mathbb{F}=(E,M)$ goes to $\mathbb{F}[1] = (E[1], M[1])$. 
+This is [FL0, Theorem 3.13](#FL0)
+
+\begin{proposition}
+There is a natural monotone action of the group $\mathbb{Z}$ of integers on the class $TS( C )$ (now confused with the class $FS_\nu( C )$ of normal torsion theories on $C$) given by the suspension functor: $\mathbb{F}=(E,M)$ goes to $\mathbb{F}[1] = (E[1], M[1])$. 
+\end{proposition}
 
 This correspondence leads to study _families_ of $t$-structures $\{\mathbb{F}_i\}_{i\in I}$; more precisely, we are led to study _$\mathbb{Z}$-equivariant_ [[k-ary factorization system|multiple factorization systems]] $J\to TS( C )$.
 
-**Theorem.** Let $\mathfrak{t} \in TS(C)$ and $\mathbb{F}=(E,M)$ correspond each other under the above bijection; then the following conditions are equivalent:
+\begin{proposition}
+\label{StableTStructure}
+Let $\mathfrak{t} \in TS(C)$ and $\mathbb{F}=(E,M)$ correspond each other under the above bijection (Prop. \ref{CorrespondenceWithNormalTorsionTheories}); then the following conditions are equivalent:
 
 1. $\mathfrak{t}[1]=\mathfrak{t}$, i.e. $C_{\geq 1}= C_{\geq 0}$;
+
 2. $C_{\geq 0}=*\!/E$ is a stable $\infty$-category;
+
 3. the class $E$ is closed under pullback.
+
+\end{proposition}
 
 In each of these cases, we say that $\mathfrak{t}$ or $(E,M)$ is _stable_.
 
-_Proof._ This is [FL1, Theorem 2.16](#FL1)
+This is [FLM19, Theorem 6.3](#FLM19)
 
 This results allows us to recognize _$t$-structures with stable classes_ precisely as those which are fixed in the natural $\mathbb{Z}$-action on $TS( C )$.
 
@@ -120,12 +138,32 @@ The heart of a stable $(\infty,1)$-category is an [[abelian category]].
 
 =--
 
-([BBD 82](#BBD82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL0, Ex. 4.1](#FL0) and [FL1, &#167;3.1](#FL1))
+([BBD 82](#BBD82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL0, Ex. 4.1](#FL0) and [FLM19, &#167;3.1](#FLM19))
 
 
-### Application to spectral sequence
+### Relation to spectral sequences
 
-If the heart of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] converges (see there).
+If the heart (Def. \ref{HeartOfATStructure}) of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] [converges](spectral+sequence#ConvergenceOfSpectralSequences) (see there).
+
+## Examples
+ {#Examples}
+
+The archetypical and historically motivating example (cf. [Gelfand & Manin (1996), IV.4 §1](#GelfandManin96)) is the following:
+
+\begin{example}
+\label{TStructureOnDerivedCategoryOfAbelianCategory}
+**(canonical t-structure on the [[derived category]] of an [[abelian category]])**
+\linebreak
+  For $\mathcal{A}$ an [[abelian category]], its unbounded [[derived category]] $\mathcal{D}_\bullet(\mathcal{A})$
+
+1. carries a t-structure (Def. \ref{tStructure}) for which $\mathcal{D}(\mathcal{A})_{\geq n}$ (rep. $\mathcal{D}(\mathcal{A})_{\leq n}$) is the [[full subcategory]] of [[objects]] presented by [[chain complexes]] $V_\bullet$ whose [[chain homology]]-[[homology groups|groups]] are [[trivial group|trivial]] in degrees $\lt n$ (resp. $\gt n$);
+
+1. whose heart (Def. \ref{HeartOfATStructure}) is [[equivalence of categories|equivalent]] to $\mathcal{A}$ (embedded as the [[chain complexes]] which are concentrated in degree 0).
+
+\end{example}
+
+(eg. [Gelfand & Manin (1996), IV.4 §3](#GelfandManin96))
+
 
 ## Related concepts
 
@@ -135,38 +173,37 @@ If the heart of a t-structure on a [[stable (∞,1)-category]] with [[sequential
 
 For [[triangulated categories]]:
 
-* [[Sergei Gelfand]], [[Yuri Manin]], *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
+* {#GelfandManin96} [[Sergei Gelfand]], [[Yuri Manin]], Section IV.4  of: *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
 
-* [[Donu Arapura]], _Triangulated categories and $t$-structures_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/perv2.pdf))
+* [[Donu Arapura]], _Triangulated categories and $t$-structures_ &lbrack;[pdf](http://www.math.purdue.edu/~dvb/preprints/perv2.pdf)&rbrack;
 
-* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], _Faisceaux pervers_, Asterisque __100__, Volume 1, 1982
- {#BBD82}
+* {#BBD82} [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], _Faisceaux pervers_, Asterisque __100__, Volume 1, 1982
+ 
+* D. Abramovich, [[Alexander Polishchuk]], *Sheaves of t-structures and valuative criteria for stable complexes*, J. reine angew. Math. **590** (2006) 89-130
 
-* D. Abramovich, A. Polishchuk, _Sheaves of t-structures and valuative criteria for stable complexes_, J. reine angew. Math. __590__ (2006), 89&#8211;130
+* A. L. Gorodentsev, S. A. Kuleshov, A. N. Rudakov, _t-stabilities and t-structures on triangulated categories_, Izv. Ross. Akad. Nauk Ser. Mat. __68__ (2004), no. 4, 117-150
 
-* A. L. Gorodentsev, S. A. Kuleshov, A. N. Rudakov, _t-stabilities and t-structures on triangulated categories_, Izv. Ross. Akad. Nauk Ser. Mat. __68__ (2004), no. 4, 117&#8211;150
+* [[Alexander Polishchuk]], _Constant families of t-structures on derived categories of coherent sheaves_, Moscow Math. J. __7__ (2007), 109-134
 
-* A. Polishchuk, _Constant families of t-structures on derived categories of coherent sheaves_, Moscow Math. J. __7__ (2007), 109&#8211;134
-
-* John Collins, [[Alexander Polishchuk]], _Gluing stability conditions_, [arxiv/0902.0323](http://arxiv.org/abs/0902.0323)
+* John Collins, [[Alexander Polishchuk]], _Gluing stability conditions_ &lbrack;[arxiv/0902.0323](http://arxiv.org/abs/0902.0323)&rbrack;
 
 
-For [[stable (∞,1)-categories]]
+For [[stable (∞,1)-categories]]:
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
 
-For [[reflective factorization systems]] and normal torsion theories in stable $\infty$-categories:
+On [[reflective factorization systems]] 
 
-* Cassidy and H&#233;bert and [[Max Kelly|Kelly]], "Reflective subcategories, localizations, and factorization systems".  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329 ([pdf](http://journals.cambridge.org/download.php?file=%2FJAZ%2FJAZ1_38_03%2FS1446788700023624a.pdf&code=5796045be8904c5183c2e95bce65491e))
+* {#CHK} C. Cassidy, M. Hébert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) **38** (1985) 287-329 &lbrack;[doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624)&rbrack;
  
+* {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 295-314  &lbrack;[arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/)&rbrack;
 
-* {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 295-314  ([arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/))
-
+and normal torsion theories in stable $\infty$-categories:
 
 * {#FL0} [[Domenico Fiorenza]], [[Fosco Loregian]], *$t$-Structures are normal torsion theories*, Appl Categor Struct **24** (2016) 181–208 &lbrack;[arxiv:1408.7003](http://arxiv.org/abs/1408.7003), [doi:10.1007/s10485-015-9393-z](https://doi.org/10.1007/s10485-015-9393-z)&rbrack; 
 
-* {#FL1} [[Domenico Fiorenza]], [[Fosco Loregian]], [[Giovanni Marchetti]], *Hearts and towers in stable $\infty$-categories*,  J. Homotopy Relat. Struct. **14**  (2019) 993–1042 &lbrack;[arXiv:1501.04658](https://arxiv.org/abs/1501.04658), [doi:10.1007/s40062-019-00237-0](https://doi.org/10.1007/s40062-019-00237-0)&rbrack;
+* {#FLM19} [[Domenico Fiorenza]], [[Fosco Loregian]], [[Giovanni Marchetti]], *Hearts and towers in stable $\infty$-categories*,  J. Homotopy Relat. Struct. **14**  (2019) 993–1042 &lbrack;[arXiv:1501.04658](https://arxiv.org/abs/1501.04658), [doi:10.1007/s40062-019-00237-0](https://doi.org/10.1007/s40062-019-00237-0)&rbrack;
 
 
 [[!redirects t-structures]]
