@@ -51,10 +51,11 @@ On [[rational homotopy theory]] of [[Kähler manifolds]]:
   (containing the statement that _[[the co-binary Sullivan differential is the dual Whitehead product]]_)
 
 
+Introducing the notion of [[perverse sheaves]] (and of [[t-structures]] on [[triangulated categories]]):
 
-On [[perverse sheaves]]:
+* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], *Faisceaux pervers*, Astérisque **100** (1982) &lbrack;[ISBN:978-2-85629-878-7](https://smf.emath.fr/publications/faisceaux-pervers), [pdf](https://publications.ias.edu/sites/default/files/Faisceaux%20pervers.pdf), [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)&rbrack;
 
-* [[A. A. Beilinson]], J. Bernstein, P. Deligne, _Faisceaux pervers_,  Ast&#233;risque __100__ (1983).
+
 
 On [[Tannakian categories]]:
 
