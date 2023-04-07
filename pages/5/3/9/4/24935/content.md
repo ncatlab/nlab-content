@@ -732,7 +732,9 @@ We want to point out a way in which $VectBund$ with its [[external tensor produc
 
 1. vector spaces equipped with parametrization, namely vector bundles,
 
-at least in the case that the base space is discrete.
+at least in the case that the base space is discrete. 
+
+The argument generalizes immediately to [[flat vector bundles]] over arbitrary base spaces (by enhancing the following parameter [[sets]] to [[fundamental groupoids]]), and in fact to [[(infinity,1)-vector bundle|$(\infty,1)$-vector bundles]] with [[flat infinity-connection|flat $\infty$-connections]] (by enhancing the [[fundamental groupoids]] further to [[fundamental infinity-groupoids|fundamental $\infty$-groupoids]] and the [[category of vector spaces]] to the [[(infinity,1)-category of chain complexes]]).
 
 In order to formalize this idea, we need to work inside a [[2-category]] which suitably subsumes all of the following
 [[very large category|very large]] [[(2,1)-categories]]:
