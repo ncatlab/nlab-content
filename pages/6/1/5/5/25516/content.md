@@ -2,6 +2,8 @@ Hông Vân Lê is a Vietnamese-Czech mathematician with research in [[differenti
 
 * [webpage](https://users.math.cas.cz/~hvle) at the Institute of Mathematics of Czech Academy of Sciences in Prague
 
+## Selected writings
+
 * Hông Vân Lê, _Geometric structures associated with a simple Cartan 3-form_, J. of Geometry and Physics 70 (2013) 205--223 [arXiv:1103.1201](https://arxiv.org/abs/1103.1201)
 * Nihat Ay, Jürgen Jost, [[Hông Vân Lê]], Lorenz Schwachhöfer, _Information geometry_, Ergeb. der Mathematik and ihrer Grenzgebiete 3. Folge, 64, Springer 2017
 
