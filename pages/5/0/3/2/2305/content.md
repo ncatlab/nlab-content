@@ -28,7 +28,14 @@ As $X$ varies this constitutes an [[abelian sheaf]] of complexes.
 
 ### For smooth manifolds
 
-The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] which in degree $n \in \mathbb{N}$ has the [[vector space]] $\Omega^n(X)$ of degree-$n$ [[differential forms]] on $X$. The coboundary map is the deRham _[[exterior derivative]]_. The [[chain cohomology|cohomology]] of the de Rham complex (hence the [[quotient]] of [[closed differential forms]] by [[exact differential forms]]) is __de Rham cohomology__. Under the [[wedge product]], the deRham complex becomes a [[differential graded algebra]]. This may be regarded as the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ of $X$.
+The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] which in degree $n \in \mathbb{N}$ has the [[vector space]] $\Omega^n(X)$ of degree-$n$ [[differential forms]] on $X$. The coboundary map is the deRham _[[exterior derivative]]_.
+
+Explicitly, given a differential $k$-form $\omega$, its de Rham differential $d\omega$ can be computed as
+$$d\omega(v_0,\ldots,v_k)=\sum_i (-1)^i \mathcal{L}_{v_i} \omega(v_0,\ldots,v_{i-1},v_{i+1},\ldots,v_k)+\sum_{i\lt j}(-1)^{i+j}\omega([v_i,v_j],v_0,\ldots,v_{i-1},v_{i+1},\ldots,v_{j-1},v_{j+1},\ldots,v_k),$$
+where $v_i$ are [[vector fields]] on $X$, $[-,-]$ is the [[Lie bracket of vector fields]], and $\mathcal{L}_{v}$ is the [[Lie derivative]] of a smooth function with respect to a vector field $v$.
+
+
+The [[chain cohomology|cohomology]] of the de Rham complex (hence the [[quotient]] of [[closed differential forms]] by [[exact differential forms]]) is __de Rham cohomology__. Under the [[wedge product]], the deRham complex becomes a [[differential graded algebra]]. This may be regarded as the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ of $X$.
 
 The corresponding [[abelian sheaf]] in this case defines a [[smooth spectrum]] via the [[stable Dold-Kan correspondence]], see at _[smooth spectrum -- Examples -- De Rham spectra](smooth+spectrum#ExamplesDeRhamSpectra)_.
 
