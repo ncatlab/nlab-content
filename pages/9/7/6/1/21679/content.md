@@ -464,7 +464,7 @@ Together this implies that the top rectangle commutes, which is the claim to be 
 
 The full-blown equivalence first appears in
 
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], *[[On PL deRham theory and rational homotopy type]]*, Memoirs of the AMS **179** (1976) &lbrack;[ams:memo-8-179](https://bookstore.ams.org/memo-8-179)&rbrack;
 
 Concise review (without [[model category]]-theory, but discussion as an [[sSet]]-[[enriched adjunction]] nonetheless) and generalization both to [[Borel-equivariant rational homotopy theory]] (of [[covering spaces]] of non-[[nilpotent spaces]]), as well as to [[real homotopy theory]]:
 
