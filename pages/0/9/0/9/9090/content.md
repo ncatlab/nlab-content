@@ -53,11 +53,20 @@ On [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]] for [[Li
 * {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 
-
-
 ## Related concepts
 
 * [[B-model]] [[topological string]]
+
+## References
+
+On [[t-structures]] on [[derived categories of coherent sheaves]]:
+
+* [[Dan Abramovich]], [[Alexander Polishchuk]], *Sheaves of t-structures and valuative criteria for stable complexes*, J. reine angew. Math. **590** (2006) 89-130 &lbrack;[arXiv:math/0309435](https://arxiv.org/abs/math/0309435), [doi:10.1515/CRELLE.2006.005](https://doi.org/10.1515/CRELLE.2006.005)&rbrack;
+
+* [[Alexander Polishchuk]], *Constant families of t-structures on derived categories of coherent sheaves*, Moscow Math. J. __7__ (2007) 109-134 &lbrack;[arXiv:math/0606013](https://arxiv.org/abs/math/0606013)&rbrack;
+
+
+
 
 [[!redirects derived categories of coherent sheaves]]
 [[!redirects derived category of quasi-coherent sheaves]]
