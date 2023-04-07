@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Constructivism, Realizability, Computability
+#### Probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
 =--
 =--
+
+
 
 
 #Contents#
@@ -35,6 +41,13 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 ## References
 
 ### Classical machine learning
+
+Textbook accounts:
+
+* [[Sumio Watanabe]], _Algebraic geometry and statistical learning theory_, CRC Press (2009) &lbrack;[doi:10.1017/CBO9780511800474]( https://doi.org/10.1017/CBO9780511800474)&rbrack;
+
+* [[Sumio Watanabe]], _Mathematical theory of Bayesian statistics_, Cambridge University Press (2018) &lbrack;[ISBN:9780367734817](https://www.routledge.com/Mathematical-Theory-of-Bayesian-Statistics/Watanabe/p/book/9780367734817), [pdf](http://196.189.45.87/bitstream/123456789/36917/1/Sumio%20Watanabe_2018.pdf)&rbrack;
+
 
 For a treatment in terms of [[category theory]] see
 
