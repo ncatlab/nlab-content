@@ -50,9 +50,9 @@ Textbook accounts:
 
 * [[Sumio Watanabe]], _Mathematical theory of Bayesian statistics_, Cambridge University Press (2018) &lbrack;[ISBN:9780367734817](https://www.routledge.com/Mathematical-Theory-of-Bayesian-Statistics/Watanabe/p/book/9780367734817), [pdf](http://196.189.45.87/bitstream/123456789/36917/1/Sumio%20Watanabe_2018.pdf)&rbrack;
 
-* [[Shai Shalev-Shwartz]], [[Shai Ben-David]], _Understanding machine learning: from theory to algorithms_, Cambridge University Press 2014 [doi](https://doi.org/10.1017/CBO9781107298019)
+* [[Shai Shalev-Shwartz]], [[Shai Ben-David]], _Understanding machine learning: from theory to algorithms_, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107298019](https://doi.org/10.1017/CBO9781107298019)&rbrack;
 
-* Ian Goodfellow, Y. Bengio, A. Courville, _Deep learning_, [pdf](https://github.com/janishar/mit-deep-learning-book-pdf) MIT Press 2016
+* Ian Goodfellow, Y. Bengio, A. Courville, _Deep learning_, MIT Press (2016) &lbrack;[web](https://www.deeplearningbook.org/), [pdf](https://github.com/janishar/mit-deep-learning-book-pdf), [ISBN:9780262035613](https://mitpress.mit.edu/9780262035613/)&rbrack;
 
 For a treatment in terms of [[category theory]] see
 
