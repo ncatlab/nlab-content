@@ -16,8 +16,21 @@
 ## Definition
  {#Definition}
 
-\begin{definition}
-\label{tStructure}
+Originally, t-structures were defined 
+
+* [on triangulated categories](#OnTriangulatedCategories)
+
+These typically arise as [[homotopy category of an (infinity,1)-category|homotopy categories]] of t-structures
+
+* [on stable $\infty$-categories](#InStableInfinityCategories).
+
+
+### On triangulated categories
+ {#OnTriangulatedCategories}
+
+\begin{definition}\label{tStructure}
+**(t-structure on a triangulated category)**
+\linebreak
 Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] $\mathfrak{t}=(C_{\ge 0}, C_{\le 0})$ of [[strictly full subcategories]]
 
 $$
@@ -49,8 +62,73 @@ $$
 
 
 
-### In stable $\infty$-categories
+### On stable $\infty$-categories
  {#InStableInfinityCategories}
+
+
+\begin{definition}\label{tStructureOnStableInfinityCategory}
+**(t-structure in a stable $\infty$-category)**
+\linebreak
+  A *t-structure* on a [[stable (∞,1)-category]] $\mathcal{C}$ is a t-structure in the above sense (Def. \ref{tStructure}) on its [[underlying]] [[homotopy category of an (∞,1)-category|homotopy category]] (which is [[triangulated category|triangulated]], see [there](stable+infinity-category#TheTriangulatedHomotopyCategory)).
+\end{definition}
+([Lurie, Higher Algebra, Def. 1.2.1.4](#LurieHA))
+
+Therefore, a t-structure on a stable $\infty$-category $\mathcal{C}$ is a system of [[full sub-(∞,1)-categories]] $\mathcal{C}_{\geq n}$, $\mathcal{C}_{\leq n}$, $n \in \mathbb{Z}$.
+
+\begin{proposition}
+  In this situation (Def. \ref{tStructureOnStableInfinityCategory}) 
+
+1. the $\mathcal{C}_{\leq n} $ are [[reflective sub-(∞,1)-categories]]
+
+   $$
+     \mathcal{C}_{\leq n}
+     \underoverset
+       {\underset{}{\hookrightarrow}}
+       {\overset{\tau_{\leq n}}{\longleftarrow}}
+       {\;\; \bot \;\;}
+     \mathcal{C}
+   $$
+
+1. the $\mathcal{C}_{\geq n}$ are [[coreflective sub-(∞,1)-categories]];
+
+   $$
+     \mathcal{C}
+     \underoverset
+       {\underset{\tau_{\geq n}}{\longrightarrow}}
+       {\hookleftarrow}
+       {\;\; \bot \;\;}
+     \mathcal{C}_{\leq n}
+   $$
+ 
+\end{proposition}
+([Lurie, Higher Algebra, Def. 1.2.1.5, Cor. 1.2.1.6, Ntn. 1.2.1.7](#LurieHA))
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HeartOfTStructureAsCoModals-230408.jpg" width="600">
+</center>
+
+
+
+## Properties
+
+### General
+
++-- {: .num_prop }
+###### Proposition
+
+The heart of a stable $(\infty,1)$-category is an [[abelian category]]. 
+
+=--
+
+([BBD 82](#BeilinsonBernsteinDeligne82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL16, Ex. 4.1](#FL16) and [FLM19, &#167;3.1](#FLM19))
+
+
+### Relation to spectral sequences
+
+If the heart (Def. \ref{HeartOfATStructure}) of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] [converges](spectral+sequence#ConvergenceOfSpectralSequences) (see there).
+
+### Relation to normal torsion theories
+ {#RelationToNormalTorsionTheories}
 
 In the [[(∞,1)-category theory]], $t$-structures arise as [[torsion theory|torsion/torsionfree]] classes associated with suitable [[orthogonal factorization system|factorization systems]] on [[stable ∞-categories]] $C$.
 
@@ -124,26 +202,6 @@ Two "extremal" choices of $\mathbb{Z}$-chains of $t$-structures draw a connectio
 
 The HN-filtration induced by a $t$-structure and the factorization induced by a [[semiorthogonal decomposition]] on $C$ both are the byproduct of the _tower_ associated to a tuple $\mathfrak{t}_{1,\dots, n}$:
 
-(...)
-
-
-## Properties
-
-### General
-
-+-- {: .num_prop }
-###### Proposition
-
-The heart of a stable $(\infty,1)$-category is an [[abelian category]]. 
-
-=--
-
-([BBD 82](#BeilinsonBernsteinDeligne82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL16, Ex. 4.1](#FL16) and [FLM19, &#167;3.1](#FLM19))
-
-
-### Relation to spectral sequences
-
-If the heart (Def. \ref{HeartOfATStructure}) of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] [converges](spectral+sequence#ConvergenceOfSpectralSequences) (see there).
 
 ## Examples
  {#Examples}
@@ -181,6 +239,10 @@ The [[stable (infinity,1)-category of spectra]], $Spectra$, carries a canonical 
 ## Related concepts
 
 * [[Bridgeland stability]]
+
+* [[connective cover]]
+
+* [[theorem of the heart]]
 
 ## References
 
