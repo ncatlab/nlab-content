@@ -28,7 +28,7 @@ A _differential equation_ is an [[equation]] involving [[terms]] that are [[deri
 
 ## As sub-$\infty$-groupoids of tangent and jet bundle
 
-Analogous to how ordinary equations determine and are determined by their spaces of solutions -- the corresponding [[scheme]]s -- accordingly differential equations $F(\partial^i x)$ on sections of a bundle $E \to X$ determine and are determined by their solution spaces, which are sub-[[D-scheme]]s of the [[jet bundle]] D-scheme:
+Analogous to how ordinary equations determine and are determined by their spaces of solutions -- the corresponding [[schemes]] -- accordingly differential equations $F(\partial^i x)$ on sections of a bundle $E \to X$ determine and are determined by their solution spaces, which are sub-[[D-schemes]] of the [[jet bundle]] D-scheme:
 
 $$
   \array{
@@ -42,7 +42,7 @@ $$
 
 In fact there is an [[equivalence of categories]] between the [[Eilenberg-Moore category]] of the [[jet comonad]] over $X$ and the category of partial differential equations with variables in $X$ ([Marvan 86](#Marvan86)). 
 
-At least in nice cases for differential equations on functions on $X$ this is equivalently modeled by sub-[[Lie algebroid]]s of [[tangent Lie algebroid]]s.
+At least in nice cases for differential equations on functions on $X$ this is equivalently modeled by sub-[[Lie algebroids]] of [[tangent Lie algebroids]].
 
 $$
   \array{
@@ -155,8 +155,6 @@ In this diagram now
 * [[Schrödinger equation]]
 
 * [[Dirac equation]]
-
-* ...
 
 * [[Green hyperbolic partial differential equation]]
 
