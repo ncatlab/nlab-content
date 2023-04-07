@@ -24,7 +24,7 @@ As a special case, if the data set $D$ is a "choice of rankings", hence the [[se
 
 A kernel on a set $X$ is a function $K: X \times X \to \mathbb{R}$ (although complex-valued kernels are also used) which is symmetric and positive definite, in the sense that for any $N \geq 1$ and any $x_1,..., x_N \in X$, the matrix $K_{i j} = K(x_i, x_j)$ is positive definite, i.e., $\sum_{i, j} c_i c_j K_{i j} \geq 0$ for all $c_1, ..., c_N \in \mathbb{R}$.  
 
-This may be reformulated as a mapping $\phi : X \to H$, where $H$ is a *reproducing kernel Hilbert space*, a function space in which pointwise evaluation is a continuous linear functional.
+This may be reformulated as a mapping $\phi : X \to H$, where $H$ is a *[[reproducing kernel Hilbert space]]*, a function space in which pointwise evaluation is a continuous linear functional.
 
 The 'kernel' and 'feature map to Hilbert space' stories relate to each other as follows:
 
@@ -60,6 +60,8 @@ Consider binary classification where we look to form a classifier which accurate
 * [[machine learning]]
 
 * [[geometric group theory]]
+
+* [[reproducing kernel Hilbert space]]
 
 * [[Mallows kernel]], [[Kendall kernel]]
 
