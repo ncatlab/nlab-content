@@ -24,31 +24,30 @@ The classical examples considers for $X$ a [[smooth manifold]] the [[de Rham com
 (There are of course other differential geometric structures named after Cartan, see also at [[equivariant de Rham cohomology]] the section [The Cartan model](equivariant+de+Rham+cohomology#TheCartanModel).)
 
 Every [[vector field]] $v \in \Gamma(T X)$ of $X$ induces a [[derivation]] on this [[dg-algebra]] of degree $-1$ 
-
 $$
   \iota_v : \Omega^\bullet(X) \to \Omega^{\bullet-1}(X)
 $$
-
 given by evaluation of forms on $v$.
 
 As every degree -1-map, this induces a [[chain homotopy]] 
-
 $$
-  0 \stackrel{\iota_v}{\to} [d_{dR},\iota_v]
-  : 
-  \Omega^\bullet(X) \to \Omega^\bullet(X)
-  \,.
+  0 \stackrel{\iota_v}{\to} [d_{dR},\iota_v]: 
+  \Omega^\bullet(X) \to \Omega^\bullet(X).
 $$
 
 One finds that
 
-* $[d_{dR},\iota_v,] = \mathcal{L}_v$ is the [[Lie derivative]] on forms along $v$;
+* $[d_{dR},\iota_v] = \mathcal{L}_v$ is the [[Lie derivative]] on forms along $v$;
 
-* $[\mathcal{L}_v, \mathcal{L}_w] = \mathcal{L}_{[v,w]}$
+* $[d_{dR},\mathcal{L}_v]=0$;
 
-* $[\mathcal{L}_v, \iota_w] = \iota_{[v,w]}$
+* $[\mathcal{L}_v, \mathcal{L}_w] = \mathcal{L}_{[v,w]}$;
 
-* $[\iota_v, \iota_w] = 0$.
+* $[\mathcal{L}_v, \iota_w] = \iota_{[v,w]}$;
+
+* $[\iota_v, \iota_w] = 0$;
+
+* $[d_{dR},\iota_v]=0$.
 
 These relations are sometimes called **Cartan calculus**. The first one is sometimes called **Cartan's magic formula** or _[[Cartan's homotopy formula]]_.
 
@@ -71,6 +70,10 @@ There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], w
 ## References
 
 Named after [[Élie Cartan]].
+
+Cartan calculus on [[diffeological spaces]] requires a nontrivial condition, which is explored and developed in
+
+* [[Christian Blohmann]], _Elastic diffeological spaces_, [arXiv:2301.02583](https://arxiv.org/abs/2301.02583).
 
 For the closely related Cartan model of [[equivariant de Rham cohomology]] see the references [there](equivariant+de+Rham+cohomology#References).
 
