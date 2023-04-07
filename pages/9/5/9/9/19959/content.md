@@ -15,7 +15,7 @@
 
 ## Idea
 
-Ordinary [[substitution]] is a meta-level notion, i.e. an operation *on* [[syntax]].  By contrast, *explicit substitutions* incorporate a notion of substitution as *part* of a syntax.
+Ordinary [[substitution]] is a meta-level notion, i.e. an operation *on* [[syntax]].  By contrast, *explicit substitutions* incorporate a notion of substitution as *part* of a syntax. The original calculus of explicit substitutions was introduced by Abadi, Cardelli, Curien and Lévy.
 
 ## Definition/Example
 
