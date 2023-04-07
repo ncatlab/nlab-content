@@ -193,6 +193,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
 * [[Waldhausen K-theory of a dg-category]]
 
+* [[theorem of the heart]]
+
 * [[groupoid K-theory]]
 
 * [[operator K-theory]]
