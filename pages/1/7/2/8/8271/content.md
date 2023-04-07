@@ -138,7 +138,7 @@ The heart of a stable $(\infty,1)$-category is an [[abelian category]].
 
 =--
 
-([BBD 82](#BBD82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL16, Ex. 4.1](#FL16) and [FLM19, &#167;3.1](#FLM19))
+([BBD 82](#BeilinsonBernsteinDeligne82), [[Higher Algebra|Higher Algebra, remark 1.2.1.12]], [FL16, Ex. 4.1](#FL16) and [FLM19, &#167;3.1](#FLM19))
 
 
 ### Relation to spectral sequences
@@ -164,6 +164,19 @@ The archetypical and historically motivating example (cf. [Gelfand & Manin (1996
 
 (eg. [Gelfand & Manin (1996), IV.4 §3](#GelfandManin96))
 
+\begin{example}
+\label{CanonicalTStructureOnSpectra}
+**(canonical t-structure on spectra)**
+\linebreak
+The [[stable (infinity,1)-category of spectra]], $Spectra$, carries a canonical t-structure for which 
+
+* $Spectra_{\geq 0}$ is the sub-category of [[connective spectra]], with $\tau_{\geq 0} \colon Spectra \to Spectra_{\geq 0}$ the [[connective cover]]-construction.
+
+* ...
+
+\end{example}
+
+(e.g. [Lurie, Higher Algebr, pp. 150](#LurieHA))
 
 ## Related concepts
 
@@ -175,7 +188,7 @@ For [[triangulated categories]]:
 
 the notion is due to 
 
-* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], *Faisceaux pervers*, Astérisque **100** (1982) &lbrack;[ISBN:978-2-85629-878-7](https://smf.emath.fr/publications/faisceaux-pervers), [pdf](https://publications.ias.edu/sites/default/files/Faisceaux%20pervers.pdf), [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)&rbrack;
+* {#BeilinsonBernsteinDeligne82} [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], *Faisceaux pervers*, Astérisque **100** (1982) &lbrack;[ISBN:978-2-85629-878-7](https://smf.emath.fr/publications/faisceaux-pervers), [pdf](https://publications.ias.edu/sites/default/files/Faisceaux%20pervers.pdf), [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)&rbrack;
 
   > (otherwise introducing [[perverse sheaves]])
 
@@ -185,7 +198,6 @@ Further development:
 
 * [[Donu Arapura]], _Triangulated categories and $t$-structures_ &lbrack;[pdf](http://www.math.purdue.edu/~dvb/preprints/perv2.pdf)&rbrack;
 
-* {#BBD82} [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], _Faisceaux pervers_, Asterisque __100__, Volume 1, 1982
  
 * [[Dan Abramovich]], [[Alexander Polishchuk]], *Sheaves of t-structures and valuative criteria for stable complexes*, J. reine angew. Math. **590** (2006) 89-130 &lbrack;[arXiv:math/0309435](https://arxiv.org/abs/math/0309435), [doi:10.1515/CRELLE.2006.005](https://doi.org/10.1515/CRELLE.2006.005)&rbrack;
 
@@ -198,7 +210,7 @@ Further development:
 
 For [[stable (∞,1)-categories]]:
 
-* [[Jacob Lurie]], Section 1.2.1 in: *[[Higher Algebra]]*
+* {#LurieHA} [[Jacob Lurie]], Section 1.2.1 in: *[[Higher Algebra]]*
 
 
 On [[reflective factorization systems]]:
@@ -213,7 +225,7 @@ and on normal torsion theories in stable $\infty$-categories:
 
 * {#FLM19} [[Domenico Fiorenza]], [[Fosco Loregian]], [[Giovanni Marchetti]], *Hearts and towers in stable $\infty$-categories*,  J. Homotopy Relat. Struct. **14**  (2019) 993–1042 &lbrack;[arXiv:1501.04658](https://arxiv.org/abs/1501.04658), [doi:10.1007/s40062-019-00237-0](https://doi.org/10.1007/s40062-019-00237-0)&rbrack;
 
-* [[Fosco Loregian]], [[Simone Vrili]] *Triangulated factorization systems and t-structures*, Journal of Algebra **550** (2020) 219-241 &lbrack;[doi:10.1016/j.jalgebra.2019.12.021](https://doi.org/10.1016/j.jalgebra.2019.12.021)&rbrack;
+* [[Fosco Loregian]], [[Simone Virili]] *Triangulated factorization systems and t-structures*, Journal of Algebra **550** (2020) 219-241 &lbrack;[doi:10.1016/j.jalgebra.2019.12.021](https://doi.org/10.1016/j.jalgebra.2019.12.021)&rbrack;
 
 
 [[!redirects t-structures]]
