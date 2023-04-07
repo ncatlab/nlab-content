@@ -24,4 +24,6 @@ On [[categorical semantics]] of constructive [[modal logics]]:
 
 * Gödel's [[Dialectica interpretation]]
 
+* [[explicit substitution]]
+
 category: people
