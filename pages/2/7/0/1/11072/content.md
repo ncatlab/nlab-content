@@ -31,7 +31,7 @@ Everyone agrees that ! should be a [[comonad]] (and ? should be a [[monad]], see
 
 ### Intuitionistic case
 
-The original definition from [Seely](#Seely89), adapted to the intuitionistic case and modernized, is:
+The definition from [Seely](#Seely89), adapted to the intuitionistic case and modernized, is:
 
 +-- {: .num_defn}
 ###### Definition
@@ -58,7 +58,7 @@ A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F \colon M \righ
 
 =--
 
-This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.  Conversely, in any linear-nonlinear adjunction the induced comonad $F G$ can be shown to be a linear exponential comonad.  Moreover, if $!$ is a linear exponential comonad on a symmetric monoidal category $C$ with finite products, then the cofree !-coalgebra functor is a right adjoint and hence preserves cartesian products; but the cartesian products of coalgebras are the tensor product in $C$, so we have $!(A\times B) \cong !A \otimes !B$, the Seely condition.
+This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.  Conversely, in any linear-nonlinear adjunction the induced comonad $F G$ can be shown to be a linear exponential comonad.  Moreover, if $!$ is a linear exponential comonad on a symmetric monoidal category $C$ with finite products, then the cofree !-coalgebra functor is a right adjoint and hence preserves cartesian products; but the cartesian products of coalgebras are the tensor products in $C$, so we have $!(A\times B) \cong !A \otimes !B$, the Seely condition.
 
 
 ### Classical case
@@ -87,7 +87,7 @@ Suppose $F \colon M \rightleftarrows C : G$ is a linear-nonlinear adjunction, wh
 The embedding of $C$ in $Chu(C,\bot)$ as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal, hence the adjunction is a monoidal adjunction.  Therefore, the composite adjunction $M \rightleftarrows C \rightleftarrows Chu(C,\bot)$ is again a linear-nonlinear-adjunction.
 \end{proof}
 
-Since a Chu construction is $\ast$-autonomous, this !-modality implies a dual ?-modality.
+Note that this theorem is a direct consequence of the work of Lafont and Streicher on game semantics using the Chu construction, together with Benton's reformulation of linear logic in terms of  monoidal adjunctions. Since a Chu construction is $\ast$-autonomous, this !-modality implies a dual ?-modality.
 
 \begin{corollary}
 If $C$ is a cartesian closed category with finite limits and colimits and $\bot\in C$ is an object, then there is a linear-nonlinear adjunction $C \rightleftarrows Chu(C,\bot)$, and hence $Chu(C,\bot)$ admits a !-modality.
