@@ -6,8 +6,12 @@ Dan Christensen is a mathematician at the University of Western Ontario.
 
 ## Selected writings
 
-On [[Cayley-Dickson algebras]]:
+On [[model structures on chain complexes]] in [[homological algebra]]:
 
+* [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_, Math. Proc. Cambridge Philos. Soc. **133** 2 (2002) 261-293 &lbrack;[arXiv:math/0011216](https://arxiv.org/abs/math/0011216), [doi:10.1017/S0305004102006126](https://doi.org/10.1017/S0305004102006126)&rbrack;
+
+
+On [[Cayley-Dickson algebras]]:
 
 * Daniel K. Biss, [[J. Daniel Christensen]], [[Daniel Dugger]], [[Daniel Isaksen]], _Large annihilators in Cayley-Dickson algebras II_, 	Boletin de la Sociedad Matematica Mexicana (3) 13(2) (2007), 269-292 ([arxiv:math/0702075](https://arxiv.org/abs/math/0702075))
 
