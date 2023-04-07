@@ -21,9 +21,9 @@
 
 ## Idea
 
-The _derived (infinity,1)-category_ or _derived category_ of an [[abelian category]] $\mathcal{A}$ is the setting for [[homological algebra]] in $\mathcal{A}$: the [[(infinity,1)-categorical localization]] of the [[category of chain complexes]] in $\mathcal{A}$ at the class of [[quasi-isomorphisms]]. The derived category is a fundamental example of a [[stable (infinity,1)-category]]. By the [[stable Dold-Kan correspondence]], it may be viewed as a linearization of the [[stable (infinity,1)-category of spectra]].
+The _derived (infinity,1)-category_ or _derived category_ of an [[abelian category]] $\mathcal{A}$ is the setting for [[homological algebra]] in $\mathcal{A}$: the [[(infinity,1)-categorical localization]] of the [[category of chain complexes]] in $\mathcal{A}$ at the class of [[quasi-isomorphisms]]. The derived category is a fundamental example of a [[stable (infinity,1)-category]]. In the case that $\mathcal{A} \simeq$ [[Mod|$R Mod$]] (cf. the [[Freyd-Mitchell embedding theorem]]), the [[stable Dold-Kan correspondence]] says that the derived $\infty$-category of $\mathcal{A}$ is equivalently the [[stable (infinity,1)-category of spectra|stable $\infty$-category of]] [[Eilenberg-MacLane spectrum|$H R$]]-[[module spectra]].
 
-The derived (infinity,1)-category is presented by various [[dg-model structures]] on the [[category of chain complexes]], as described at [[model structures on chain complexes]]. As such it has also a natural incarnation as a [[pretriangulated dg-category]], which might be called the _derived dg-category_.
+The derived $\infty$-category is presented by various [[dg-model structures]] on the [[category of chain complexes]], as described at [[model structures on chain complexes]]. As such it has also a natural incarnation as a [[pretriangulated dg-category]], which might be called the _derived dg-category_.
 
 Like any [[stable (infinity,1)-category]], the [[homotopy category of an (infinity,1)-category|homotopy category]] of the derived (infinity,1)-category admits a canonical [[triangulated category]] structure. Often in the literature, the term _derived category_ refers to the [[homotopy category of an (infinity,1)-category|homotopy category]], viewed only as a [[triangulated category]]. The loss of information can often be problematic, but for many purposes is not important.
 
@@ -201,14 +201,19 @@ For instance ([Schapira, cor. 7.2.3](#Schapira)).
 
 ## References 
 
-The original reference is the thesis of [[Verdier]]:
+The original reference:
 
 * [[Verdier, Jean-Louis]], _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
 
-A systematic discussion from the point of view of [[localization]] and [[homotopy theory]] is in section 13 of 
+Review:
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
- {#KashiwaraSchapira}
+* {#GelfandManin96} [[Sergei Gelfand]], [[Yuri Manin]], Section III of: *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
+
+
+Systematic discussion from the point of view of [[localization]] and [[homotopy theory]]:
+
+* {#KashiwaraSchapira} [[Masaki Kashiwara]], [[Pierre Schapira]], section 13 of  *[[Categories and Sheaves]]* (2006)
+ 
 
 and, similarly, in section 7 of 
 
@@ -254,7 +259,7 @@ For the applications of derived categories in [[algebraic geometry]], see
 
 * [[Igor Dolgachev]], [_Derived categories_](http://www.math.lsa.umich.edu/~idolga/derived9.pdf).
 
-* [[Andrei Caldararu]], _Derived categories of coherent sheaves: a skimming_.  Lecture notes from _Algebraic Geometry: Presentations by Young Researchers_ in Snowbird, Utah, July 2004.  Available on [arXiv](http://arxiv.org/abs/math/0501094).
+* Andrei Caldararu, _Derived categories of coherent sheaves: a skimming_.  Lecture notes from _Algebraic Geometry: Presentations by Young Researchers_ in Snowbird, Utah, July 2004.  Available on [arXiv](http://arxiv.org/abs/math/0501094).
 
 [[!redirects derived categories]]
 [[!redirects bounded derived category]]
