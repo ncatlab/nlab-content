@@ -293,6 +293,8 @@ hence of possibly "non-linear" $\infty$-representations. (See at _[[∞-action]]
 
 ## Related concepts
 
+* [[(∞,1)-module bundle]]
+
 * [[action]], [[∞-action]]
 
 * [[module]], [[∞-module]]
