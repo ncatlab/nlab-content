@@ -273,17 +273,18 @@ Idea of proof: the analogous statement for simplicial Lie algebras replaced by r
 
 ## References
 
-A classical reference on plain [[rational homotopy theory]] is
+A classical reference on plain [[rational homotopy theory]] is:
 
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], *[[On PL deRham theory and rational homotopy type]]*, Memoirs of the AMS **179** (1976) &lbrack;[ams:memo-8-179](https://bookstore.ams.org/memo-8-179)&rbrack;
 
-The equivalence between $H R$-module spectra (unparametrized) and $R$-chain complexes is due to
+
+The equivalence between $H R$-[[module spectra]] (unparametrized) and $R$-[[chain complexes]] is due to
 
 * {#Schwede97} [[Stefan Schwede]], section 3 of _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
 
 * {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_ , Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
 
-Discussion of rational fiberwise [[suspension spectra]] is in
+Discussion of rational fiberwise [[suspension spectra]]:
 
 * [[Michael C. Crabb]], [[Ioan Mackenzie James]], around Prop. 15.8 of: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) $[$[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)$]$
 
@@ -294,7 +295,7 @@ A discussion of full-blown rational parametrized stable homotopy theory is due t
 
 * [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich, 2018
   
-* [[Vincent Braunack-Mayer]], _Strict algebraic models for rational parametrised spectra I_,  Algebraic & Geometric Topology 21 (2021) 917–1019 ([arXiv:1910.14608](https://arxiv.org/abs/1910.14608), [doi:10.2140/agt.2021.21.917](https://doi.org/10.2140/agt.2021.21.917))
+* [[Vincent Braunack-Mayer]], _Strict algebraic models for rational parametrised spectra I_,  Algebraic & Geometric Topology 21 (2021) 917–1019 &lbrack;[arXiv:1910.14608](https://arxiv.org/abs/1910.14608), [doi:10.2140/agt.2021.21.917](https://doi.org/10.2140/agt.2021.21.917)&rbrack;
 
 Application to mathematical analysis of [[duality between M-theory and type IIA string theory]]:
 
