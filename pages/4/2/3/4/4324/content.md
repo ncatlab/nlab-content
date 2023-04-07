@@ -89,15 +89,22 @@ These statements prolong to [[sheaves of spectra]].
 e.g. ([[Spectral Schemes|Lurie, "Spectral Schemes", example 1.23]])
 
 ### Connective cover
+ {#ConnectiveCover}
 
-By the [above](#InclusionIntoAllSpectra), connective spectra form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _[[connective cover]]_ construction.
+By the [above](#InclusionIntoAllSpectra), connective spectra form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] $\tau_{\geq 0}$ from spectra to connective spectra is called the _[[connective cover]]_ construction, part of the canonical [[t-structure]] on spectra (see [there](t-structure#CanonicalTStructureOnSpectra)).
 
 
 ## Related concepts
 
 * [[connective cover]]
 
+* [[t-structure]]
+
 * [[model structure for connective spectra]]
+
+## Literature
+
+* [[Jacob Lurie]], pp. 150 in: *[[Higher Algebra]]*
 
 [[!include k-monoidal table]]
 
