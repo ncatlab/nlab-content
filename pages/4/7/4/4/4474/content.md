@@ -5,9 +5,9 @@
 
 ## Selected writings
 
-On [[model category]] [[structures]] on [[algebra over an operad|algebras over operads]] in [[chain complexes]]:
+On [[model category]] [[structures]] on [[algebra over an operad|algebras over operads]] in [[chain complexes]] (and introducing the [[model structure on unbounded chain complexes]]):
 
-* {#Hinich97} [[Vladimir Hinich]],  *Homological algebra of homotopy algebras*, Communications in Algebra **25** 10   (1997) 3291-3323 &lbrack;[arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), [doi:10.1080/00927879708826055](https://doi.org/10.1080/00927879708826055), Erratum: ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453))&rbrack;
+* {#Hinich97} [[Vladimir Hinich]],  *Homological algebra of homotopy algebras*, Communications in Algebra **25** 10   (1997) 3291-3323 &lbrack;[arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), [doi:10.1080/00927879708826055](https://doi.org/10.1080/00927879708826055), Erratum: [arXiv:math/0309453](http://arxiv.org/abs/math/0309453)&rbrack;
 
 The [[model structure on dg-coalgebras]] (in [[characteristic zero]]) as a [[model structure for L-infinity algebras|model structure for $L_\infty$-algebras]] and the [[Quillen equivalence]] between [[dg-Lie algebras]] as well as the interpretation in terms of formal $\infty$-stacks ([[L-infinity algebras|$L_\infty$-algebras]]):
 
