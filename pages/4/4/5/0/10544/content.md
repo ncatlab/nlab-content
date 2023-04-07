@@ -31,8 +31,14 @@ On [[ends]] and [[coends]]:
 
 * [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
 
+On [[t-structures]]:
 
-## Related $n$Lab entries
+* [[Domenico Fiorenza]], [[Fosco Loregian]], *$t$-Structures are normal torsion theories*, Appl Categor Struct **24** (2016) 181–208 &lbrack;[arxiv:1408.7003](http://arxiv.org/abs/1408.7003), [doi:10.1007/s10485-015-9393-z](https://doi.org/10.1007/s10485-015-9393-z)&rbrack; 
+
+* [[Domenico Fiorenza]], [[Fosco Loregian]], [[Giovanni Marchetti]], *Hearts and towers in stable $\infty$-categories*,  J. Homotopy Relat. Struct. **14**  (2019) 993–1042 &lbrack;[arXiv:1501.04658](https://arxiv.org/abs/1501.04658), [doi:10.1007/s40062-019-00237-0](https://doi.org/10.1007/s40062-019-00237-0)&rbrack;
+
+
+## Related entries
 
 * [[orthogonal factorization system in a derivator]]
 
