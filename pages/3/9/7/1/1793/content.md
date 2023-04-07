@@ -390,8 +390,7 @@ $$
 +-- {: .num_lemma}
 ###### Lemma
 
-For all $n \in \mathbb{N}$, the morphism $0 \to \mathbb{Z}[n-1,n]$
-are acyclic cofibrations, in that they have the [[left lifting property]] again all degreewise surjections.
+For all $n \in \mathbb{N}$, the morphism $0 \to \mathbb{Z}[n-1,n]$ are acyclic cofibrations, in that they have the [[left lifting property]] again all degreewise surjections.
 
 =--
 
@@ -1215,8 +1214,7 @@ shows that there is a model category structure on the category of unbounded chai
 
 The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in
 
-* {#HoveyPalmieriStrickland97} [[Mark Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
- 
+* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  *Axiomatic stable homotopy theory*, Memoirs Amer. Math. Soc. **610** (1997) &lbrack;[ISBN:978-1-4704-0195-5](https://bookstore.ams.org/memo-128-610), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf)&rbrack;
 
 and noticed as cofibrantly generated model structure on p. 7 of
 
