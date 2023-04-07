@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -138,4 +150,8 @@ Further discussion under the relation of [[renormalization group flow]] to [[bul
 
 [[!redirects quantum neural network]]
 [[!redirects quantum neural networks]]
+
+[[!redirects deep neural network]]
+[[!redirects deep neural networks]]
+
 
