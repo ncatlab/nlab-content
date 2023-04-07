@@ -18,3 +18,7 @@ Textbook treatments:
 For an informal discussion:
 
 * {#Hoogland} Jesse Hoogland, _Neural networks generalize because of this one weird trick_ ([blog post](https://www.jessehoogland.com/article/neural-networks-generalize-because-of-this-one-weird-trick)); Jesse Hoogland, Filip Sondej, _Spooky action at a distance in the loss landscape_ ([blog post](https://www.lesswrong.com/posts/2N7eEKDuL5sHQou3N/spooky-action-at-a-distance-in-the-loss-landscape)).
+
+For a series of talks and further texts:
+
+* Singular Learning Theory seminar, ([webpage](https://metauni.org/slt/))
