@@ -61,7 +61,7 @@ Lecture notes include
 
 See also
 
-*  H&#244;ng V&#226;n L&#234;, Statistical manifolds are statistical models, Journal of Geometry 84(1-2), March 2006, pp. 83-93.
+*  [[Hông Vân Lê|H&#244;ng V&#226;n L&#234;]], Statistical manifolds are statistical models, Journal of Geometry 84(1-2) (2006) 83--93.
 
 
 *  Blog [post](http://golem.ph.utexas.edu/category/2006/11/infinitedimensional_exponentia.html).
