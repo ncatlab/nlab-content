@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _Freyd--Mitchell embedding theorem_ says that every [[abelian category]] is a [[full subcategory]] of a [[category of modules]] over some [[ring]] $R$ and that the embedding is an [[exact functor]].
+The _Freyd--Mitchell embedding theorem_ says that every [[abelian category]] $\mathcal{A}$ is a [[full subcategory]] of a [[category of modules]] over some [[ring]] $R$, such that the [[fully faithful functor|embedding functor]] $\mathcal{A} \hookrightarrow R Mod$ is an [[exact functor]].
 
 ## Details
 
@@ -34,14 +34,14 @@ It is easy to see that not every abelian category is _[[equivalence of categorie
 
 =--
 
-However, we have
+However, we have:
 
-+-- {: .num_theorem}
-###### Mitchell's Embedding Theorem
-
+\begin{theorem}
+\label{MitchellEmbeddingTheorem}
+**(Mitchell embedding theorem)**
+\linebreak
 Every [[small category|small]] [[abelian category]] admits a [[full functor|full]], [[faithful functor|faithful]] and [[exact functor|exact]] functor to the category $R$[[Mod]] for some [[ring]] $R$.
-
-=--
+\end{theorem}
 
 
 This result can be found as Theorem 7.34 on page 150 of ([Freyd](#Freyd)).  (The terminology there is a bit outdated, in that it calls an abelian category "fully abelian" if it admits a full and faithful exact functor to a category of $R$-modules.)  A pedagogical discussion is in section 1.6 of ([Weibel](#Weibel)). See also ([Wikipedia](#Wikipedia)) for the idea of the proof.
@@ -107,6 +107,8 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 * [stable model category -- as A-infinity algebroid module categories](stable+model+category#AsCategoriesOfModules)
 
 * [[reconstruction theorem]]
+
+* [[derived category]]
 
 ## References
 
