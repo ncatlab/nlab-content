@@ -10,6 +10,14 @@ His other works concentrated on [[motives]], [[higher regulators]], [[epsilon-fa
 
 * wikipedia: [Alexander Beilinson](http://en.wikipedia.org/wiki/Alexander_Beilinson)
 
+## Selected writings
+
+Introducing the notion of [[perverse sheaves]] (and of [[t-structures]] on [[triangulated categories]]):
+
+* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], *Faisceaux pervers*, Astérisque **100** (1982) &lbrack;[ISBN:978-2-85629-878-7](https://smf.emath.fr/publications/faisceaux-pervers), [pdf](https://publications.ias.edu/sites/default/files/Faisceaux%20pervers.pdf), [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)&rbrack;
+
+See also:
+
 * {#Beilinson85} [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861))
 
 * {#Beilinson80} [[Alexander Beilinson]], _Higher regulators of curves_, Funct. Anal. Appl. 14 (1980), 116-118, [mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=faa&paperid=1800&option_lang=eng).
@@ -23,13 +31,11 @@ His other works concentrated on [[motives]], [[higher regulators]], [[epsilon-fa
 
 * A. A. Be&#301;linson, V. A. Ginsburg, V. V. Schechtman, _Koszul duality_,  J. Geom. Phys. __5__  (1988),  no. 3, 317--350.
 
-* A. A. Beilinson, J. Bernstein, [[P. Deligne]], _Faisceaux pervers_, Ast&#233;risque __100__ (1980).
-
 * A. Beilinson, [[Victor Ginzburg|V. Ginzburg]], _[[wall crossing|Wall-crossing]] functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999)
 
 * A. Be&#301;linson, [[J. Bernstein]], _A proof of Jantzen conjectures_, I. M. Gel&#697;fand Seminar,  1--50, Adv. Soviet Math., 16, Part 1, Amer. Math. Soc. 1993, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/BB%20-%20Jantzen.pdf)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Deligne-Beilinson cohomology]]
 
