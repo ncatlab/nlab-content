@@ -12,6 +12,8 @@ In [[quantum mechanics]] an observable is conserved in time if it commutes with 
 ## Related concepts
 
 * [[conserved current]]
+* [[Noether theorem]]
+* [[symplectic integrator]]
 
 ## References
 
