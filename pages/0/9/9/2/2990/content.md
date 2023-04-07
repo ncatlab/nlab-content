@@ -29,7 +29,7 @@ $$
 }
 $$
 
-in [[Top]], where $I = [0,1]$ (the [[unit interval]]) and $\sigma_0:X\to X\times I$ is given by $x\mapsto (x,0)$. By tradition, [[homotopy theory|homotopy theorists]] sometimes use the inverted (upside-down) mapping cylinder where $\sigma_0$ is replaced by $\sigma_1:x\mapsto (x,1)$. Of course the two mapping cylinders are [[homeomorphism|homeomorphic]] so it is matter of convention which one to use, of course, compatibly with other constructions depending on the [[orientation]] of $I$. 
+in [[Top]], where $I = [0,1]$ (the [[unit interval]]) and $\sigma_0:X\to X\times I$ is given by $x\mapsto (x,0)$. By tradition, [[homotopy theory|homotopy theorists]] sometimes use the inverted (upside-down) mapping cylinder where $\sigma_0$ is replaced by $\sigma_1:x\mapsto (x,1)$. The two mapping cylinders are [[homeomorphism|homeomorphic]] so it is a matter of convention which one to use, of course, compatibly with other constructions depending on the [[orientation]] of $I$. 
 
 Set-theoretically, the mapping cylinder is usually represented as the [[quotient space]] $(X\times I \coprod Y)/{\sim}$ where $\sim$ is the smallest [[equivalence relation]] identifying $(x,0)\sim f(x)$ for all $x\in X$. 
 
