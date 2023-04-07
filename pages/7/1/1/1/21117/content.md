@@ -618,6 +618,8 @@ Further discussion of holographic quantum error correcting codes:
 
 * Dmitry S. Ageev, *Exploring uberholography* &lbrack;[arXiv:2208.07387](https://arxiv.org/abs/2208.07387)&rbrack;
 
+* Matthew Steinberg, Sebastian Feld, [[Alexander Jahn]], *Holographic Codes from Hyperinvariant Tensor Networks* &lbrack;[arXiv:2304.02732](https://arxiv.org/abs/2304.02732)&rbrack;
+
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
