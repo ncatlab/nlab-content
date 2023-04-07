@@ -38,7 +38,7 @@ y \langle x\coloneqq N\rangle &\to y \quad (x\neq y)\\
 (\lambda y.M)\langle x\coloneqq N\rangle &\to \lambda y. (M\langle x\coloneqq N\rangle) \quad (x\neq y \;\text{and}\; y \;\text{not free in}\; N)
 \end{aligned}$$
 
-(We are being somewhat cavalier about [[variables]]; one can also implement explicit substitutions using [[de Bruijn indices]].)
+(We are being somewhat cavalier about [[variables]]; one can also define and implement explicit substitutions using [[de Bruijn indices]].)
 
 ## Combining substitutions and strong normalization
 
@@ -56,21 +56,26 @@ Apparently for a long time it was hoped that this would work, but [Mellies](#Mel
 
 ## Categorical Models of Explicit Substitutions
 
-The original calculus of explicit substitutions, considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. 
+The original calculus of explicit substitutions of Abadi et al, considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. 
 
-This explicit substitutions construction is parametric in the kind of logic that your terms stand for: the Calculus of Constructions ([Ritter] (#Ritter)), intuitionistic propositional logic, Intuitionistic Linear Logic ([Ghani2000] (#Ghani2000)) and propositional Constructive Necessity ([Ghani1998] (#Ghani1998)) can be given formalizations in terms of explicit substitutions calculi. These constructions help to show the correctness of the implementation of the associated type theories.
+This explicit substitutions construction is parametric in the kind of logic that the terms stand for. The Calculus of Constructions ([Ritter] (#Ritter)), Intuitionistic Propositional Logic and Intuitionistic Linear Logic ([Ghani2000] (#Ghani2000)) and propositional Constructive Necessity ([Ghani1998] (#Ghani1998)) can be given formalizations and implementations in terms of explicit substitutions calculi. These constructions help to show the correctness of the implementation of the associated type theories.
 
 ## The linear substitution calculus
 
-More recently, in 2010 the *linear substitution calculus* was introduced by Delia Kesner and Beniamino Accattoli, which according to Damiano Mazza is based on two fundamental ideas:
+In 2010 a new version of a *linear substitution calculus* was introduced by Delia Kesner and Beniamino Accattoli, which according to Damiano Mazza is based on two fundamental ideas:
 
 > *Explicit substitutions in the $\lambda$-calculus come from [[linear logic]]*: if you write down a term calculus for the $\{\multimap,!\}$ fragment of ILL, however you do it, you're going to see let binders pop up, and these behave very much like explicit substitutions, in the sense that normalization needs commuting conversions. Now, if you take Girard's (call-by-name) embedding of the $\lambda$-calculus in ILL, you see that $\beta$-reduction decomposes exactly along the lines of what an ES calculus would do, with the explicit substitutions corresponding to the let binders for exponentials. While I think that this had been noticed immediately after the introduction of linear logic, Delia and Beniamino took it a step further and designed an ES calculus (the structural $\lambda$-calculus, a precursor to the LSC) by mimicking the behavior of ILL terms which are in the image of Girard's embedding. The upshot is that, since Girard's embedding preserves SN, so does the structural $\lambda$-calculus: linear logic is the "right" way of implementing explicit substitutions.
 
 > *Explicit substitutions should behave like boxes in proof nets*: the let binders mentioned above correspond to what are known as "exponential boxes" in proof nets. Cut-elimination in proof nets has the amazing property (from the rewriting viewpoint) that it does not need commuting conversions. In terms of explicit substitutions, this means that ESs should not need to "move" through a term in order to be applied, one should be able to apply them just where they are created. Rewriting should happen "remotely" or, as they say, "at a distance". Beniamino and Delia noticed that there's a consistent way of generalizing redexes in a term calculus with ESs (no need for proof nets!) so that they are transparent to the presence of ESs. Combine this with the above idea (that ESs should behave like in linear logic, i.e., be "linear", substituting one occurrence at a time) and you obtain the LSC.
 
-The LSC has found applications in:
+The LSC, just as the previous versions of explicit substitutions calculi, has found applications in
 
 > **abstract machines**: Beniamino Accattoli, Pablo Barenbaum, and Damiano Mazza showed how the LSC may be related in a very sharp way to a host of abstract machines, for any reduction strategy you can think of (call by name, call by value, call by need). Each strategy in the LSC "distills" an abstract machine, in the sense that the rewriting rules of the LSC are in bijection with the actual computational transitions of the machines, while the "administrative" transitions (needed by the machine to navigate through the term in search for the next redex) sort of "evaporate" and become structural equivalences in the LSC (they relate syntactically different terms which are behaviorally equal). In particular, the LSC gives a slick formulation of (weak) call-by-need.
+
+In fact the formalization of abstract machines is given as the original motivation of Abadi et al.
+
+
+The LSC also has applications in:
 
 > **complexity**: for decades, people had been wondering whether $\beta$-reduction is a reasonable cost model for [[computational complexity]].  Most were convinced that the answer was "no", because $\beta$-reduction may make an arbitrary number of duplications in just one step.  Suprisingly, Beniamino Accattoli and Ugo Dal Lago showed that the answer is in fact "yes", and their proof uses the LSC in a crucial way, in particular its capability of succinctly expressing computation thanks to sharing.
 
