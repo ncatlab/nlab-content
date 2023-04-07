@@ -47,7 +47,7 @@ The origin of the terminology is recalled by one of its inventors on [MO here](h
 
 ## References
 
-* [[Alexander Beilinson]], J. Bernstein, [[Pierre Deligne]], _Faisceaux pervers_, Ast&#233;risque __100__ (1980) [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)
+* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], *Faisceaux pervers*, Astérisque **100** (1982) &lbrack;[ISBN:978-2-85629-878-7](https://smf.emath.fr/publications/faisceaux-pervers), [pdf](https://publications.ias.edu/sites/default/files/Faisceaux%20pervers.pdf), [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)&rbrack;
 
 * {#MacPherson} [[Robert MacPherson]], _Intersection Homology and Perverse Sheaves_, [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
 
