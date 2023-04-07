@@ -133,31 +133,35 @@ If the heart of a t-structure on a [[stable (∞,1)-category]] with [[sequential
 
 ## References
 
+For [[triangulated categories]]:
 
-For triangulated categories
-
-* S. I. Gelfand, [[Yuri Manin]], _Methods of homological algebra_, Nauka 1988, Springer 1998, 2003
+* [[Sergei Gelfand]], [[Yuri Manin]], *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
 
 * [[Donu Arapura]], _Triangulated categories and $t$-structures_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/perv2.pdf))
 
 * [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], _Faisceaux pervers_, Asterisque __100__, Volume 1, 1982
  {#BBD82}
+
 * D. Abramovich, A. Polishchuk, _Sheaves of t-structures and valuative criteria for stable complexes_, J. reine angew. Math. __590__ (2006), 89&#8211;130
+
 * A. L. Gorodentsev, S. A. Kuleshov, A. N. Rudakov, _t-stabilities and t-structures on triangulated categories_, Izv. Ross. Akad. Nauk Ser. Mat. __68__ (2004), no. 4, 117&#8211;150
+
 * A. Polishchuk, _Constant families of t-structures on derived categories of coherent sheaves_, Moscow Math. J. __7__ (2007), 109&#8211;134
+
 * John Collins, [[Alexander Polishchuk]], _Gluing stability conditions_, [arxiv/0902.0323](http://arxiv.org/abs/0902.0323)
+
 
 For [[stable (∞,1)-categories]]
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
-For reflective factorization systems and normal torsion theories in stable $\infty$-categories
+
+For [[reflective factorization systems]] and normal torsion theories in stable $\infty$-categories:
 
 * Cassidy and H&#233;bert and [[Max Kelly|Kelly]], "Reflective subcategories, localizations, and factorization systems".  *J. Austral. Math Soc. (Series A)* 38 (1985), 287--329 ([pdf](http://journals.cambridge.org/download.php?file=%2FJAZ%2FJAZ1_38_03%2FS1446788700023624a.pdf&code=5796045be8904c5183c2e95bce65491e))
  
 
 * {#RosickyTholen08} [[Jiri Rosicky]], [[Walter Tholen]], _Factorization, Fibration and Torsion_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 295-314  ([arXiv:0801.0063](http://arxiv.org/abs/0801.0063), [publisher](http://www.emis.de/journals/JHRS/volumes/2007/n2a14/))
- 
 
 
 * {#FL0} [[Domenico Fiorenza]], [[Fosco Loregian]], *$t$-Structures are normal torsion theories*, Appl Categor Struct **24** (2016) 181–208 &lbrack;[arxiv:1408.7003](http://arxiv.org/abs/1408.7003), [doi:10.1007/s10485-015-9393-z](https://doi.org/10.1007/s10485-015-9393-z)&rbrack; 
