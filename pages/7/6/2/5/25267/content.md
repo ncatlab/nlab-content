@@ -21,6 +21,11 @@ In the context of [[machine learning]], *singular learning theory* applies resul
 
 ## References
 
+Historically, it has been understood that the neural networks are singuar statistical models in
+
+* [[Shun-ichi Amari]], T. Ozeki, H. Park, _Learning and inference in hierarchical models with singularities_, Syst. Comput. Japan __34__:7 (2003) 34--42
+* [[Sumio Watanabe]], _Almost all learning machines are singular_, Proc. IEEE Symp. Found. Comput. Intell., Apr. 2007, 383--388.
+
 Textbook treatments:
 
 * [[Sumio Watanabe]], _Algebraic geometry and statistical learning theory_, CRC Press (2009) &lbrack;[doi:10.1017/CBO9780511800474]( https://doi.org/10.1017/CBO9780511800474)&rbrack;
@@ -30,6 +35,9 @@ Textbook treatments:
 For an informal discussion:
 
 * {#Hoogland} Jesse Hoogland, _Neural networks generalize because of this one weird trick_ ([blog post](https://www.jessehoogland.com/article/neural-networks-generalize-because-of-this-one-weird-trick)); Jesse Hoogland, Filip Sondej, _Spooky action at a distance in the loss landscape_ ([blog post](https://www.lesswrong.com/posts/2N7eEKDuL5sHQou3N/spooky-action-at-a-distance-in-the-loss-landscape)).
+
+
+
 
 For a series of talks and further texts:
 
