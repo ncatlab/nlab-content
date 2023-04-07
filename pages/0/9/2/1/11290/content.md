@@ -48,15 +48,17 @@ This is definition 2.1.1 in ([Kashiwara](#Kashiwara)).
 
 ## References
 
-* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and representation of real semisimple Lie groups_,  Lecture Notes in Mathematics 1931 (2008), 137–234.  [doi:10.1007/978-3-540-76892-0](https://doi.org/10.1007/978-3-540-76892-0_3).  [PDF](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf).
+* [[Jean-Pierre Schneiders]], _Quasi-abelian categories and sheaves_., Mémoires de la Société Mathématique de France **76** (1999), 144 pp. &lbrack;[doi:10.24033/msmf.389](http://dx.doi.org/10.24033/msmf.389)&rbrack;
 
-* [[Wolfgang Rump]], _Almost abelian categories_, Cahiers de topologie et géométrie différentielle catégoriques, tome 42, no 3 (2001), p. 163–225.  [numdam](http://www.numdam.org/item?id=CTGDC_2001__42_3_163_0).
+* {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_,  Prepublications Mathematiques de l'Universite Paris **13** 46 (2000) &lbrack;[pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf)&rbrack;
 
-* [[Jean-Pierre Schneiders]], _Quasi-abelian categories and sheaves_.  Mémoires de la Société Mathématique de France 76 (1999), 144 pp.  [doi](http://dx.doi.org/10.24033/msmf.389).
+* [[Wolfgang Rump]], _Almost abelian categories_, Cahiers de topologie et géométrie différentielle catégoriques, tome 42, no 3 (2001) 163–225. &lbrack;[numdam:CTGDC_2001__42_3_163_0](http://www.numdam.org/item?id=CTGDC_2001__42_3_163_0)&rbrack;
 
-* {#ProsmansSchneiders00} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_,  Prepublications Mathematiques de l'Universite Paris 13, 46 (December 2000) ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
+* {#Bambozzi14} [[Federico Bambozzi]], section 1 of: _On a generalization of affinoid varieties_ &lbrack;[arXiv:1401.5702](http://arxiv.org/abs/1401.5702)&rbrack;
 
-* Rhiannon Savage, _Koszul monoids in quasi-abelian categories_, [arXiv:2203.08789](https://arxiv.org/abs/2203.08789) 
+* {#Kashiwara} [[Masaki Kashiwara]], _Equivariant derived category and representation of real semisimple Lie groups_,  Lecture Notes in Mathematics **1931** (2008) 137–234  &lbrack;[doi:10.1007/978-3-540-76892-0](https://doi.org/10.1007/978-3-540-76892-0_3),  [pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf)&rbrack;
 
-* {#Bambozzi14} [[Federico Bambozzi]], section 1 of _On a generalization of affinoid varieties_ ([arXiv:1401.5702](http://arxiv.org/abs/1401.5702))
+* Rhiannon Savage, _Koszul monoids in quasi-abelian categories_ &lbrack;[arXiv:2203.08789](https://arxiv.org/abs/2203.08789)&rbrack;
 
+
+[[!redirects quasi-abelian categories]]
