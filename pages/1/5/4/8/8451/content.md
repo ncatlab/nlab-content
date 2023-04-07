@@ -99,8 +99,9 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 
 * {#Polya} [[George Polya]], _Mathematics and Plausible Reasoning: Vol. II: Patterns of Plausible Inference_, Princeton University Press, 1954.
 
-* {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003, Chap. 4.
+* {#Corfield} [[David Corfield]], Chap. 4  of: _Towards a Philosophy of Real Mathematics_, Cambridge University Press (2003) &lbrack;[doi:10.1017/CBO9780511487576](https://doi.org/10.1017/CBO9780511487576)&rbrack;
 
+* [[Sumio Watanabe]], _Mathematical theory of Bayesian statistics_, Cambridge University Press (2018) &lbrack;[ISBN:9780367734817](https://www.routledge.com/Mathematical-Theory-of-Bayesian-Statistics/Watanabe/p/book/9780367734817), [pdf](http://196.189.45.87/bitstream/123456789/36917/1/Sumio%20Watanabe_2018.pdf)&rbrack;
 
 
 
@@ -164,3 +165,6 @@ Discussion of applications in [[astronomy]], [[cosmology]] and [[particle physic
 
 [[!redirects Bayesian inference]]
 [[!redirects Bayesian inferences]]
+
+[[!redirects Bayesian statistics]]
+
