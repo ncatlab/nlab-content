@@ -20,7 +20,7 @@ on [[geometric models for elliptic cohomology]] with speculations about the form
 
 Related discussion of the [[stringor bundle]]:
 
-* [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) &lbrack;[pdf](http://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/MPI.pdf), [[Stolz-Teichner-SpinorOnLoopSpace.pdf:file]]&rbrack;
+* {#StolzTeichner2005} [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) &lbrack;[pdf](http://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/MPI.pdf), [[Stolz-Teichner-SpinorOnLoopSpace.pdf:file]]&rbrack;
 
 
 In more recent developments the authors exchanged, for technical convenience, the conformal structure in favor of flat [[Riemannian metric|Riemannian structure]] in 
