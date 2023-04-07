@@ -1,8 +1,17 @@
-[[!redirects reproducing kernel]]
 
-__Reproducing kernel Hilbert space__ is a [[Hilbert space]] of functions in which point evaluation is a continuous linear functional. 
+#Contents#
+* table of contents
+{:toc}
 
-See also [[projection measure]], [[Bergman kernel]], [[Bargmann-Segal transform]], [[coherent state]]. Using reproducing kernels in the context of [[machine learning]] is known as the [[kernel method]].
+## Idea
+
+A __reproducing kernel Hilbert space__ is a [[Hilbert space]] of functions in which point evaluation is a continuous linear functional. 
+
+## Related pages
+
+* [[projection measure]], [[Bergman kernel]], [[Bargmann-Segal transform]], [[coherent state]]. Using reproducing kernels in the context of [[machine learning]] is known as the [[kernel method]].
+
+## Literature
 
 * wikipedia: [reproducing kernel Hilbert space](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space)
 * N. Aronszajn, _Theory of reproducing kernels_, Trans. Amer. Math. Soc. 68 (1950) 337--404
@@ -12,3 +21,4 @@ See also [[projection measure]], [[Bergman kernel]], [[Bargmann-Segal transform]
 
 
     
+[[!redirects reproducing kernel]]
