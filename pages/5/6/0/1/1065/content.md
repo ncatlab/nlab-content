@@ -90,7 +90,7 @@ Classical accounts:
 
 A standard modern textbook introduction is
 
-* [[Charles Weibel]], _[[An introduction to homological algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994 ([pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf))
+* {#Weibel94} [[Charles Weibel]], *[[An introduction to homological algebra]]*,  Cambridge Studies in Adv. Math. **38**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
 
 and a more systematic modern development of the theory is in sections 8 and 12-18 of
 
