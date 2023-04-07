@@ -38,7 +38,7 @@ and review of [[Shor's algorithm]]:
 
 * [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
-On [[homological algebra]] and [[homotopical algebra]] (via a [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
+On [[homological algebra]] and [[homotopical algebra]] (via [[triangulated categories]] and including the [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
 
 * [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,   transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
 
