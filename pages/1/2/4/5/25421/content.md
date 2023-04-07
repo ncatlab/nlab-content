@@ -37,7 +37,7 @@ The idea and the terminology of "stringor bundles" originates with:
 
 An actual construction appears in:
 
-* [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *A representation of the string 2-group*, &lbrack;[arXiv:2206.09797](https://arxiv.org/abs/2206.09797)&rbrack;
+* {#KristelLudewigWaldorf22} [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *A representation of the string 2-group*, &lbrack;[arXiv:2206.09797](https://arxiv.org/abs/2206.09797)&rbrack;
 
 Reviewed in: 
 
