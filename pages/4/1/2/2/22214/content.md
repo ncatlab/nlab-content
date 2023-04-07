@@ -61,6 +61,7 @@ For a treatment in terms of [[category theory]] see
 See also:
 
 * Wikipedia, *[Machine learning](https://en.wikipedia.org/wiki/Machine_learning)*
+* Juergen Schmidhuber (2015), Scholarpedia, 10(11):32832 [Deep learning](http://www.scholarpedia.org/article/Deep_Learning) (with extensive historical bibliography)
 
 With regards to [[kernel methods]]:
 
