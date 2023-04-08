@@ -240,7 +240,7 @@ This goes back to [Montgomery & Samelson (1943)](#MontgomerySamelson43), see [Gr
 
 The [[isomorphisms]] in Prop. \ref{nSphereAsCosetSpace} and Prop. \ref{OddDimSphereAsSpecialUnitaryCoset} above hold in the [[category]] of [[topological spaces]] ([[homeomorphisms]]), but in fact also in the [[category]] of [[smooth manifolds]] ([[diffeomorphisms]]) and even in the [[category]] of [[Riemannian manifolds]] ([[isometries]]).
 
-But the other [[coset space]] realizations of some [[n-spheres]] in Prop. \ref{TransitiveEffectiveActionsOfConnectedLieGroupsOnSpheres} are [[homeomorphisms]], but not necessarily [[isometries]] ("[[squashed spheres]]"). There is also a [[double coset space]] realization which is not even a [[diffeomorphisms]] ("[[exotic sphere]]", the [[Gromoll-Meyer sphere]]). 
+The other [[coset space]] realizations of some [[n-spheres]] in Prop. \ref{TransitiveEffectiveActionsOfConnectedLieGroupsOnSpheres} are [[homeomorphisms]], but not necessarily [[isometries]] ("[[squashed spheres]]"). There is also a [[double coset space]] realization which is not even a [[diffeomorphisms]] ("[[exotic sphere]]", the [[Gromoll-Meyer sphere]]). 
 
 For more see _[7-sphere -- Coset space realization](7-sphere#CosetSpaceRealization)_.
 
