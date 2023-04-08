@@ -49,6 +49,10 @@ In this form this appears as [de Jong, def. 35.6.1](#deJong).
 
 * [[Artin representability theorem]]
 
+## Related concepts
+
+* [[algebraic stack]]
+
 ## References
 
 Algebraic spaces are the topic of part 4 (tag 0ELT) in
@@ -56,13 +60,17 @@ Algebraic spaces are the topic of part 4 (tag 0ELT) in
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_
 {#deJong}
 
-A standard monograph on algebraic spaces is
+Monographs:
 
-* D. Knutson, _Algebraic spaces_ , LNM 203, Springer 1971.
+* [[Donald Knutson]], *Algebraic spaces*, Lecture Notes in Mathematics, **203**, Springer (1971) &lbrack;[doi:10.1007/BFb0059750](https://link.springer.com/book/10.1007/BFb0059750)&rbrack;
 
-Lecture notes include
+* [[Martin Olsson]], *Algebraic Spaces and Stacks*, Colloquium Publications **62** (2016) &lbrack;[doi:10.1090/coll/062](https://doi.org/10.1090/coll/062), [ISBN:978-1-4704-2798-6](https://bookstore.ams.org/coll-62)&rbrack;
+
+
+Lecture notes:
 
 * [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
+
 * G. B. Winters, _An elementary lecture on algebraic spaces_, in: P. Salmon (eds) Categories and Commutative Algebra. C.I.M.E. Summer Schools __58__ (Varena 1971), C.I.M.E., Ed. Cremonese, Roma 1973; reprint Springer 2010, [doi 2010](https://doi.org/10.1007/978-3-642-10979-9_9) 
 
 Definition in [[E-∞ geometry]] is in 
