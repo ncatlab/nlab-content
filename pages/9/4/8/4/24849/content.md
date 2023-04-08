@@ -91,7 +91,7 @@ The official introduction of the ZX-calculus:
 
 * {#CoeckeDuncan} [[Bob Coecke]], [[Ross Duncan]], *A graphical calculus for quantum observables* &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/GreenRed.pdf)&rbrack;
 
-* [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)&rbrack;
+* {#CoeckeDuncan08} [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)&rbrack;
 
 * {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 &lbrack;[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)&rbrack;
 
