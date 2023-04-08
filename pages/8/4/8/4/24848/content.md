@@ -14,6 +14,7 @@ On the relation to [[quantum logic]]/[[linear logic]]:
  
 * {#Duncan06} [[Ross Duncan]], _Types for quantum mechanics_, 2006 $[$[pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf)$]$
 
+
 Early exposition with introduction to [[monoidal category|monoidal]] [[category theory]]:
 
 * {#CoeckeKindergarten} [[Bob Coecke]], *Kindergarten quantum mechanics* $[$[arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032)$]$
@@ -26,7 +27,13 @@ Early exposition with introduction to [[monoidal category|monoidal]] [[category 
 
 * {#CoeckePicturalism} [[Bob Coecke]], *Quantum Picturalism* $[$[arXiv:0908.1787](http://arxiv.org/abs/0908.1787)$]$
 
-With further emphasis on [[quantum computation]]:
+
+Review in contrast to [[quantum logic]]:
+
+* {#AbramskyCoecke2007} [[Samson Abramsky]], [[Bob Coecke]], *Physics from Computer Science: a Position Statement*, [International Journal of Unconventional Computing **3** 3 (2007)](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/) $[$[pdf](https://www.cs.ox.ac.uk/files/349/YORKIJUC.pdf), [ijuc-3-3-p-179-197](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/ijuc-3-3-p-179-197/)$]$
+
+
+and with emphasis on [[quantum computation]]:
 
 * [[Jamie Vicary]], *The Topology of Quantum Algorithms*, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science (2013) 93-102 $[$[arXiv:1209.3917](https://arxiv.org/abs/1209.3917), [doi:10.1109/LICS.2013.14](https://doi.org/10.1109/LICS.2013.14)$]$
 
