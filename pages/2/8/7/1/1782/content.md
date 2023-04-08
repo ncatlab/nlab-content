@@ -3,12 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -20,7 +25,7 @@
 
 Algebraic K-theory is about natural constructions of [[cohomology theories]]/[[spectra]] from [[algebra|algebraic]] data such as [[commutative rings]], [[symmetric monoidal categories]] and various [[homotopy theory|homotopy theoretic]] refinements of these. 
 
-From a modern perspective, the algebraic K-theory [[spectrum]] $\mathbf{K}(R)$ of a [[commutative ring]] is simply the [[K-theory of a symmetric monoidal category|∞-group completion]] of [[algebraic vector bundles]] on $Spec(R)$; this will be discussed in more detail [below](#AsTheKTheoryOfAlgebraicVectorBundles). In particular there is a natural concept of algebraic K-theory of "[[brave new rings]]", i.e. of [[ring spectra]]/[[E-∞ rings]].
+From a modern perspective, the algebraic K-theory [[spectrum]] $\mathbf{K}(R)$ of a [[commutative ring]] is simply the [[K-theory of a symmetric monoidal (∞,1)-category|∞-group completion]] of [[algebraic vector bundles]] on $Spec(R)$; this will be discussed in more detail [below](#AsTheKTheoryOfAlgebraicVectorBundles). In particular there is a natural concept of algebraic K-theory of "[[brave new rings]]", i.e. of [[ring spectra]]/[[E-∞ rings]].
 
 Historically, the _algebraic K-theory_ of a [[commutative ring]] $R$ (what today is the "0th" algebraic K-theory group) was originally defined to be the [[Grothendieck group]] of its [[symmetric monoidal category]] of [[projective modules]] (under [[tensor product]] of modules). Under the [relation between modules and vector bundles](module#RelationToVectorBundlesInIntroduction), this is directly analogous to the basic definition of [[topological K-theory]], whence the common term. (In fact when applied to the _[[stack]]_ of [[vector bundles]] then algebraic K-theory subsumes [[topological K-theory]] and also [[differential K-theory]], see [below](#OnMonoidalStacks)).
 
@@ -32,7 +37,7 @@ For more on the history of the subject see ([Arlettaz 04](#Arlettaz04), [Grayson
 
 There are two ways to think of the traditional algebraic K-theory of a commutative ring more conceptually: on the one hand this construction is the [[group completion]] of the [[direct sum]] [[symmetric monoidal category|symmetric monoidal]]-structure on the [[category of modules]], on the other hand it is the group completion of the addition operation expressed by [[short exact sequences]] in that category. This leads to the two modern ways of expressing and viewing algebraic K-theory:
 
-1. **monoidal.** The [[core]] of a [[symmetric monoidal category]] or more generally of a [[symmetric monoidal (∞,1)-category]] has a [[universal construction|universal]] completion to an [[abelian ∞-group]]/[[connective spectrum]] optained by universally adjoining [[inverses]] to the symmetric monoidal operation -- the [[∞-group completion]]. This yields the concept of [[K-theory of a permutative category|algebraic K-theory of a symmetric monoidal category]] and more generally that of [[algebraic K-theory of a symmetric monoidal (∞,1)-category]];
+1. **monoidal.** The [[core]] of a [[symmetric monoidal category]] or more generally of a [[symmetric monoidal (∞,1)-category]] has a [[universal construction|universal]] completion to an [[abelian ∞-group]]/[[connective spectrum]] optained by universally adjoining [[inverses]] to the symmetric monoidal operation -- the [[K-theory of a symmetric monoidal (∞,1)-category|∞-group completion]]. This yields the concept of [[K-theory of a permutative category|algebraic K-theory of a symmetric monoidal category]] and more generally that of [[algebraic K-theory of a symmetric monoidal (∞,1)-category]];
 
 1. **exact/stable.** Analogously, inverting the addition operation expressed by the [[exact sequences]] in an [[abelian category]] or more generally in a [[stable (∞,1)-category]] yields the [[algebraic K-theory of a stable (∞,1)-category]]. Explicit ways to express this are known as the  _[[Quillen Q-construction]]_ and the _[[Waldhausen S-construction]]_. This turns out to be a universal construction in the context of [[non-commutative motives]].
 
