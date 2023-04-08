@@ -9,13 +9,14 @@
 =--
 =--
 
+
 # Descent morphisms
 * table of contents
 {: toc}
 
 ## Idea
 
-Given a [[fibered category]], a morphism along which the induced [[comparison functor]] between the category of the descent data and the codomain fiber is fully faithful (equivalence of categories) is said to be a descent morphism (resp. effective descent morphism). 
+Given a [[fibered category]], a morphism along which the induced [[comparison functor]] between the category of the [[descent data]] and the [[codomain fibration]] is [[fully faithful functor|fully faithful]] (resp. an [[equivalence of categories]]) is said to be a *descent morphism* (resp. *effective descent morphism*). 
 
 
 ## The case of codomain fibration 
@@ -124,6 +125,9 @@ A criterion for categories (including [[quasi-abelian categories]]) under which 
 [[!redirects descent morphisms]]
 [[!redirects effective descent morphism]]
 [[!redirects effective descent morphisms]]
+
+[[!redirects effective descent]]
+
 [[!redirects descent map]]
 [[!redirects descent maps]]
 [[!redirects effective descent map]]
