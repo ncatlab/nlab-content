@@ -159,6 +159,12 @@ In summary this means that the [[internal logic]] of [[slice category|slices]] o
 
 * [[linear logic]]
 
+## References
+
+Discussion of [[linear algebra]] in $FinDimVect$ as [[categorical semantics]] for [[linear logic]]:
+
+* {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
+
 
 [[!redirects FinDimVec]]
 
