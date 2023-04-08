@@ -199,22 +199,38 @@ Sometimes one does not define the operation of negation, defining only $p^\perp$
 
 We now define the valid sequents, where we write $A, B, C \vdash D, E, F$ to state the validity of the sequent consisting of the list $(A,B,C)$ and the list $(D,E,F)$ and use Greek letters for sublists:
 
-*  The [[structural rule]]s:
+*  The [[structural rules]]:
+
    *  The [[exchange rule]]:  If a sequent is valid, then any [[permutation]] of it (created by permuting its left and right sides independently) is valid.
+
    *  The restricted [[weakening rule]]:  If $\Gamma, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$, for any $A$; conversely and dually, if $\Gamma \vdash \Delta, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$ for any $A$.
+
    *  The restricted [[contraction rule]]:  If $\Gamma, !{A}, !{A}, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$; conversely and dually, if $\Gamma \vdash \Delta, ?{A}, ?{A}, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$.
-   *  The [[identity rule]]:  Always, $A \vdash A$;
+
+   *  The [[variable rule]]:  Always, $A \vdash A$;
+
    *  The [[cut rule]]:  If $\Gamma \vdash A, \Phi$ and $\Psi,A \vdash \Delta$, then $\Psi,\Gamma \vdash \Delta,\Phi$.
-*  The logical rules for each operation:
+
+*  The [[inference rules]] for each operation:
+
    *  If $\Gamma \vdash A, \Delta$, then $\Gamma, A^\perp \vdash \Delta$; conversely and dually, if $\Gamma, A \vdash \Delta$, then $\Gamma \vdash A^\perp, \Delta$.
+
    *  If $\Gamma, A, \Delta \vdash \Theta$ or $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \& B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A, \Theta$ and $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \& B, \Theta$.
+
    *  Dually, if $\Gamma \vdash \Delta, A, \Theta$ or $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \oplus B, \Theta$; conversely, if $\Gamma, A, \Delta \vdash \Theta$ and $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \oplus B, \Delta \vdash \Theta$.
+
    *  If $\Gamma, A, B, \Delta \vdash \Theta$, then $\Gamma, A \otimes B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A$ and $\Lambda \vdash B, \Theta$, then $\Gamma, \Lambda \vdash \Delta, A \otimes B, \Theta$.
+
    *  Dually, if $\Gamma \vdash \Delta, A, B, \Theta$, then $\Gamma \vdash \Delta, A \parr B, \Theta$; conversely, if $\Gamma, A \vdash \Delta$ and $B, \Theta \vdash \Lambda$, then $\Gamma, A \parr B, \Theta \vdash \Delta, \Lambda$.
+
    *  Always $\Gamma \vdash \Delta, \top, \Theta$; dually (there is no converse), $\Gamma, \mathbf{0}, \Delta \vdash \Theta$.
+
    *  If $\Gamma, \Delta \vdash \Theta$, then $\Gamma, \mathbf{1}, \Delta \vdash \Theta$; conversely, $\vdash \mathbf{1}$.
+
    *  Dually, if $\Gamma \vdash \Delta, \Theta$, then $\Gamma \vdash \Delta, \bot, \Theta$; conversely, $\bot \vdash$.
+
    *  If $\Gamma, A, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A, \Theta$, then $\Gamma \vdash \Delta, !{A}, \Theta$, whenever $\Gamma$ consists entirely of propositions of the form $!{-}$ while $\Delta$ and $\Theta$ consist entirely of propositions of the form $?{-}$.
+
    *  Dually, if $\Gamma \vdash \Delta, A, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$; conversely, if $\Gamma, A, \Delta \vdash \Theta$, then $\Gamma, ?{A}, \Delta \vdash \Theta$, whenever $\Gamma$ and $\Delta$ consist entirely of propositions of the form $!{-}$ while $\Theta$ consists entirely of propositions of the form $?{-}$.
 
 The main point of linear logic is the restricted use of the weakening and contraction rules; if these were universally valid (applying to any $A$ rather than only to $!{A}$ or $?{A}$), then the additive and multiplicative operations would be equivalent (in the sense defined below) and similarly $!{A}$ and $?{A}$ would be equivalent to $A$, which would give us [[classical logic]].  On the other hand, one can also remove the exchange rule to get a variety of [[noncommutative logic]]; one must then be careful about how to write the other rules (which we have been above).
@@ -498,15 +514,14 @@ Review:
 
 * {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
 
-* {#Murfet14} [[Daniel Murfet]], _Logic and linear algebra: an introduction_ ([arXiv:1407.2650](http://arxiv.org/abs/1407.2650))
+and making explicit the [[categorical semantics]] of linear logic in the category [[FinDimVect]] of [[finite-dimensional vector spaces]]:
 
+* {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
 
-
-The [[categorical semantics]] of linear logic in [[star-autonomous categories]] originally appeared in
+The [[categorical semantics]] of linear logic in general [[star-autonomous categories]] originally appeared in
 
 * {#Seely} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
  
-
 and for the special case of [[quantales]] in 
 
 * {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41--64.
@@ -531,8 +546,8 @@ Volume 115 Issue 1, July 5, 1993  Pages 3--41
 * {#BentonBiermanPaivaHyland92} [[Nick Benton]], Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666), [ps](http://www.cs.bham.ac.uk/~vdp/publications/tr262.ps))
  
 
-* [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp. 273--291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
- {#HylandPaiva93}
+* {#HylandPaiva93} [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp. 273--291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
+ 
 
 * {#Bierman95} G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing Laboratory, University of Cambridge, 1995 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.588&rep=rep1&type=pdf))
 
@@ -592,8 +607,6 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 
 * {#Staton15} [[Sam Staton]], *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) $[$[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)$]$
 
-
-
 * {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
   
 
@@ -601,7 +614,7 @@ See also at *[[quantum programming languages]]*
 
 Discussion for [[matrix factorization]] in [[Landau–Ginzburg models]] is in
 
-* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
+* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ &lbrack;[arXiv:1402.4541](http://arxiv.org/abs/1402.4541)&rbrack;
 
 
 Discussion of [[linear type theory]] without [[units]] is in 
