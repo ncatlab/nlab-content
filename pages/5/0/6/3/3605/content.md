@@ -10,11 +10,15 @@ On [[domain theory]]:
 * [[Samson Abramsky]], [[Achim Jung]], *Domain Theory*, in: *Handbook of Logic in Computer Science* **3**, Oxford University Press (1995) &lbrack;[ISBN:9780198537625](https://global.oup.com/academic/product/handbook-of-logic-in-computer-science-9780198537625?cc=de&lang=en&), [pdf](https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf)&rbrack;
 
 
-On [[quantum protocols]] in [[quantum information theory]] (such as [[quantum teleportation]]) formalized as [[string diagrams]] in the [[dagger-compact category]] of [[finite dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]] ([[finite quantum mechanics in terms of dagger-compact categories]]):
+On [[quantum protocols]] in [[quantum information theory]] (such as [[quantum teleportation]]) formalized as [[string diagrams]] in the [[dagger-compact category]] of [[finite dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]] ([[quantum information theory via dagger-compact categories]]):
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
 
 * {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], *Categorical quantum mechanics*, in *[[Handbook of Quantum Logic and Quantum Structures]]*, Elsevier (2008) &lbrack;[arXiv:0808.1023](http://arxiv.org/abs/0808.1023), [ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698/), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)&rbrack; 
+
+Survey in contrast to [[quantum logic]]:
+
+* {#AbramskyCoecke2007} [[Samson Abramsky]], [[Bob Coecke]], *Physics from Computer Science: a Position Statement*, [International Journal of Unconventional Computing **3** 3 (2007)](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/349/YORKIJUC.pdf), [ijuc-3-3-p-179-197](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/ijuc-3-3-p-179-197/)&rbrack;
 
 
 On [[quantum logic]] as the [[linear logic]] [[internal language]] of [[symmetric monoidal categories]]:
