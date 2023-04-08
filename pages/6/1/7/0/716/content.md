@@ -76,6 +76,8 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 * [[compact closed dagger category]]
 
+* [[linear logic]]
+
 ## References
 
 The characterization of the free compact closed category over a closed symmetric monoidal category is described in
