@@ -18,7 +18,7 @@
 
 A __ringed space__ is a pair $(X,O_X)$ where $X$ is a [[topological space]] and $O_X$ is a [[sheaf]] of unital [[ring]]s. The sheaf $O_X$ is called the __[[structure sheaf]]__ of the ringed space $(X,O_X)$. 
 
-If all [[stalk]]s of the structure sheaf are [[local ring]]s, it is called a [[locally ringed space]].
+If all [[stalks]] of the structure sheaf are [[local ring]]s, it is called a [[locally ringed space]].
 
 A __morphism of ringed spaces__ $(f,f^\sharp):(X,O_X)\to (Y,O_Y)$ is a pair
 where $f:X\to Y$ is a continuous map and the __[[comorphism]]__ $f^\sharp : O_Y\to f_* O_X$ is a morphism of [[sheaf|sheaves]] of rings over $Y$. Here $f_*$ denotes the [[direct image]] [[functor]] for [[sheaf|sheaves]]. Any sheaf of abelian modules $\mathcal{M}$ equipped with actions $O_X(U)\times\mathcal{M}(U)\to\mathcal{M}(U)$ making $\mathcal{M}(U)$ left $O_X$-modules, and such that the actions strictly commute with the restrictions,
@@ -34,7 +34,7 @@ is called a __sheaf of left $O_X$-modules__.
 
 ## Related concepts
 
-* **ringed space**, [[locally ringed space]], 
+* [[locally ringed space]]
 
 * [[ringed site]], [[locally ringed site]] 
 
@@ -46,9 +46,15 @@ is called a __sheaf of left $O_X$-modules__.
 
 ## References
 
-Section 6.25 of
+Textbook accounts:
 
-* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* [[Siegfried Bosch]], p. 247-248 in *Algebraic Geometry and Commutative Algebra*, Universitext, Springer (2017) &lbrack;[doi:10.1007/978-1-4471-4829-6](https://doi.org/10.1007/978-1-4471-4829-6)&rbrack;
+
+*  Ulrich Görtz, Torsten Wedhorn, p. 55 in: *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)&rbrack;
+
+See also:
+
+* [[Aise Johan de Jong]], Section 6.25 of _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 {#deJong}
 
 
