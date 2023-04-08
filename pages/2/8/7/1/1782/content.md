@@ -31,7 +31,7 @@ Historically, the _algebraic K-theory_ of a [[commutative ring]] $R$ (what today
 
 There are canonical maps $K_0(R)\to Pic(R)$ from the 0th algebraic K-theory of a ring to its [[Picard group]] and $K_1(R)\to GL_1(R)$ from the first algebraic K-theory group of $R$ to its [[group of units]] which are given in components by the [[determinant]] functor. This fact is sometimes used to motivate algebraic K-theory as a "generalization of [[linear algebra]]" (see e.g. [this MO discussion](http://mathoverflow.net/a/171369/381)). This is also how the traditional [[regulator of a number field]] relates to [[Beilinson regulators]] of algebraic K-theory.
 
-More generally, following the axiomatics of _[[generalized (Eilenberg-Steenrod) cohomology]]_ any _algebraic K-theory_ should be given by a sequence of [[functors]] $K_i$ from some suitable class of [[categories]] of "algebraic nature" to [[abelian groups]], satisfying some natural conditions. Moreover, following the [[Brown representability theorem]] these groups should arise as the [[homotopy groups]] of a [[spectrum]], the algebraic _[[K-theory spectrum]]_. Classical constructions producing this by combinatorial means are known as the _[[Quillen Q-construction]]_ defined on _[[Quillen exact categories]]_ and more generally the _[[Waldhausen S-construction]]_ defined on _[[Waldhausen categories]]_.
+More generally, following the axiomatics of _[[Whitehead-generalized cohomology]]_ any _algebraic K-theory_ should be given by a sequence of [[functors]] $K_i$ from some suitable class of [[categories]] of "algebraic nature" to [[abelian groups]], satisfying some natural conditions. Moreover, following the [[Brown representability theorem]] these groups should arise as the [[homotopy groups]] of a [[spectrum]], the algebraic _[[K-theory spectrum]]_. Classical constructions producing this by combinatorial means are known as the _[[Quillen Q-construction]]_ defined on _[[Quillen exact categories]]_ and more generally the _[[Waldhausen S-construction]]_ defined on _[[Waldhausen categories]]_.
 
 For more on the history of the subject see ([Arlettaz 04](#Arlettaz04), [Grayson 13](#Grayson13)) and see at at _[[Algebraic K-theory, a historical perspective]]_.
 
@@ -44,7 +44,7 @@ There are two ways to think of the traditional algebraic K-theory of a commutati
 Here the second construction may be understood as first [[split exact sequence|splitting]] the [[exact sequences]] and then applying the first construction to the resulting [[direct sum]] monoidal structure. Typically the first construction here contains more information but is harder to compute, and vice versa (see also MO-discussion [here](http://mathoverflow.net/a/98602/381) and [here](http://mathoverflow.net/a/102583/381)).
 
 
-Both of these constructions produce a [[spectrum]] (hence [[Brown representability theorem|representing]] a [[generalized (Eilenberg-Steenrod) cohomology theory]]) -- called the _[[K-theory spectrum]]_ -- and the algebraic K-theory groups are the [[homotopy groups]] of that spectrum.
+Both of these constructions produce a [[spectrum]] (hence [[Brown representability theorem|representing]] a [[Whitehead-generalized cohomology theory]]) -- called the _[[K-theory spectrum]]_ -- and the algebraic K-theory groups are the [[homotopy groups]] of that spectrum.
 
 
 
@@ -248,6 +248,8 @@ Notably, applied to the monoidal [[stack]] of [[vector bundles]] (with [[connect
 
 
 ## Related concepts
+
+* [[Eilenberg swindle]]
 
 * [[equivariant algebraic K-theory]]
 
