@@ -1,3 +1,4 @@
+Barry Charles Mazur is a mathematician at Harvard University.
 
 * [website](http://www.math.harvard.edu/~mazur/)
 
@@ -15,5 +16,7 @@ On [[elliptic curves]] over general [[commutative rings]] (in [[arithmetic geome
 
 
 [[!redirects B. Mazur]]
+[[!redirects Barry C. Mazur]]
+[[!redirects Barry Charles Mazur]]
 
 category: people
