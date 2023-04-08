@@ -406,6 +406,8 @@ Classical textbook account:
 
 * [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
+  > (including an influential proposal for [[quantum logic]])
+
 * Eduard Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press (1971) &lbrack;[ISBN: 9780080874081](https://www.elsevier.com/books/quantum-mechanics-in-hilbert-space/prugovecki/978-0-12-566060-0)&rbrack;
 
 * {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
