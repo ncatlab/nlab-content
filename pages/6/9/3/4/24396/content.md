@@ -18,7 +18,7 @@
 
 ## Idea
 
-On the one hand, [[infinity-groupoids|$\infty$-groupoids]] form an [[(infinity,1)-topos|$(\infty,1)$-topos]] ($Grpd_\infty$), while their [[stabilization]] -- plain [[spectra]] form -- form instead a [[stable (infinity,1)-category|stable $(\infty,1)$-category]]; on the other hand, the collection of *[[parameterized spectra]]*, parameterized over [[infinity-groupoids|$\infty$-groupoids]], forms again an [[(infinity,1)-topos|$(\infty,1)$-topos]]: the "[[tangent (infinity,1)-topos|tangent $(\infty,1)$-topos]]" $T Grpd_\infty$.
+On the one hand, [[infinity-groupoids|$\infty$-groupoids]] form an [[(infinity,1)-topos|$(\infty,1)$-topos]] ($Grpd_\infty$), while their [[stabilization]] -- plain [[spectra]] form -- form instead a [[stable (infinity,1)-category|stable $(\infty,1)$-category]]; on the other hand, the collection of (ie.: the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]] on) *[[parameterized spectra]]*, parameterized over [[infinity-groupoids|$\infty$-groupoids]], forms again an [[(infinity,1)-topos|$(\infty,1)$-topos]]: the "[[tangent (infinity,1)-topos|tangent $(\infty,1)$-topos]]" $T Grpd_\infty$.
 
 In search for a term to capture this curious phenomenon more generally, [Joyal 2015](#Joyal15) proposed to call a ([[pointed (infinity,1)-category|pointed]]) [[presentable (infinity,1)-category|presentable $(\infty,1)$-category]] an "$\infty$-locus" if the collection of its $Grpd_\infty$-parameterized objects (namely [[(infinity,1)-functors|$(\infty,1)$-functors]] $Grpd_\infty \to \mathcal{C}$) forms an [[(infinity,1)-topos|$(\infty,1)$-topos]]. 
 
