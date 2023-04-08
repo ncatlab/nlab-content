@@ -12,7 +12,11 @@ On [[quantum protocols]] in [[quantum information theory]] (such as [[quantum te
 
 * {#AbramskyCoecke08} [[Samson Abramsky]], [[Bob Coecke]], *Categorical quantum mechanics*, in *[[Handbook of Quantum Logic and Quantum Structures]]*, Elsevier (2008) &lbrack;[arXiv:0808.1023](http://arxiv.org/abs/0808.1023), [ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698/), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)&rbrack; 
 
-More on the use of [[string diagrams]] in and [[finite quantum mechanics in terms of dagger-compact categories]]:
+Survey in contrast to [[quantum logic]]:
+
+* {#AbramskyCoecke2007} [[Samson Abramsky]], [[Bob Coecke]], *Physics from Computer Science: a Position Statement*, [International Journal of Unconventional Computing **3** 3 (2007)](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/) $[$[pdf](https://www.cs.ox.ac.uk/files/349/YORKIJUC.pdf), [ijuc-3-3-p-179-197](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/ijuc-3-3-p-179-197/)$]$
+
+More on the use of [[string diagrams]] in [[quantum information theory via dagger-compact categories]]:
 
 * [[Bob Coecke]], _Kindergarten quantum mechanics_ ([arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032))
 
