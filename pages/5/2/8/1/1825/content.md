@@ -232,7 +232,7 @@ $$
 
 =--
 
-This goes back to [Montgomery & Samelson (1943)](#MontgomerySamelson43), see [Gray & Green (1070), p. 1-2](#GrayGreen70), also [Borel & Serre (1953), 17.1](#BorelSerre53).
+This goes back to [Montgomery & Samelson (1943)](#MontgomerySamelson43), see [Gray & Green (1970), p. 1-2](#GrayGreen70), also [Borel & Serre (1953), 17.1](#BorelSerre53).
 
 
 +-- {: .num_remark}
