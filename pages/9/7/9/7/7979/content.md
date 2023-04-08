@@ -150,18 +150,22 @@ $d \star F = 0$ gives Gauss's law and Amp&#232;re-Maxwell law
 
 ## References
 
-[[Maxwell's equations]] originate in
+Maxwell's equations originate in:
 
-* [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
- {#Maxwell}
+* {#Maxwell} [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
+ 
 
-Discussion in terms of [[differential forms]] is for instance in 
+Discussion in terms of [[differential forms]] and the [[Hodge star operator]]:
 
 * [[Theodore Frankel]], _Maxwell's equations_, The American Mathematical Monthly, Vol 81, No 4 (1974) ([pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D))
 
 * [[Theodore Frankel]], section 3.5 in _[[The Geometry of Physics - An Introduction]]_
 
-* Gregory L. Naber, _Topology, geometry and gauge fields_, Appl. Math. Sciences vol. __141__, Springer 2000
+* Gregory L. Naber, _Topology, geometry and gauge fields_, Appl. Math. Sciences vol. __141__, Springer (2000)
+
+* {#FBM20} Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
+
+
 
 Some history and reflection is in 
 
