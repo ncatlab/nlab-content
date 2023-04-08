@@ -111,17 +111,25 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 * [[Angelo Vistoli]], Appendix of: _Intersection theory on algebraic stacks and on their moduli spaces_, Inventiones mathematicae volume 97, pages 613–670 (1989) ([doi:10.1007/BF01388892]( https://doi.org/10.1007/BF01388892))
 
-* G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
-{#LaumontMoret-Bailly}
+* {#LaumontMoret-Bailly} G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
+
 
 * {#deJong} [[Aise Johan de Jong]], _[[The Stacks Project]]_, _[Tag026K](https://stacks.math.columbia.edu/tag/026K)_.
 
+Monographs:
 
-Course notes are in
+* [[Martin Olsson]], *Algebraic Spaces and Stacks*, Colloquium Publications **62** (2016) &lbrack;[doi:10.1090/coll/062](https://doi.org/10.1090/coll/062), [ISBN:978-1-4704-2798-6](https://bookstore.ams.org/coll-62)&rbrack;
 
-* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
 
-A brief overview is in
+
+Course notes:
+
+* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_ (2005)
+
+* [[Fredrik Meyer]], *Notes on algebraic stacks* (2013) &lbrack;[pdf](https://fredrikmeyer.net/uio-math/algstacks.pdf), [[Meyer_AlgebraicStacks.pdf:file]]&rbrack;
+
+
+Brief overview:
 
 * Anatoly Preygel, _Algebraic stacks_, Seminar notes: Quantization of Hitchin's integrable system and Hecke eigensheaves, 2009, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Sept15-17%28stacks%29.pdf).
 
