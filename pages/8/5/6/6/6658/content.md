@@ -111,10 +111,14 @@ Of course, there are also many effective descent morphisms relative to fibration
  
 
 * {#RST} J. Reiterman, M. Sobral, [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
- 
 
 
 * {#EDM} [[Maria Manuel Clementino]], [[George Janelidze]], _Another note on effective descent morphisms of topological spaces and relational algebras_. Topology Appl. 273 (2020), 106961. [DOI](https://doi.org/10.1016/j.topol.2019.106961).
+
+A criterion for categories (including [[quasi-abelian categories]]) under which effective descent morphisms and descent morphisms coincide is established in
+
+* [[Marino Gran]], Olivette Ngaha Ngaha, _Effective descent morphisms in star-regular categories_, Homology, Homotopy and Applications 15:2 (2013), 127-144.  [doi](http://dx.doi.org/10.4310/hha.2013.v15.n2.a7).
+
 
 [[!redirects descent morphism]]
 [[!redirects descent morphisms]]
