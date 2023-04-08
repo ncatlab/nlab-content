@@ -1003,6 +1003,7 @@ for the moment see
 
 * [[Grothendieck construction for model categories]]
 
+* [[Joyal locus]], [[tangent (infinity,1)-topos]]
 
 ## References
 
