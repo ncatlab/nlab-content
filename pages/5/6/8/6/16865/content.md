@@ -108,6 +108,7 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * {#Menni14a}[[Matías Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **LV** no.2 (2014) pp.113-149. ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
+* {#Menni22}[[Matías Menni]], _Decidable objects and molecular toposes_ , arXiv:2212.03647 (2022). ([abstract](http://arxiv.org/abs/2212.03647v1))
 
 [[!redirects gaeta topos]]
 [[!redirects Gaeta topology]]
