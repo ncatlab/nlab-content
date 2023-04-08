@@ -26,6 +26,7 @@
 [[type theory|Type theory]] and certain kinds of [[category theory]] are closely related.  By a [[syntax-semantics duality]] one may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory.  The flavor of category theory used depends on the flavor of type theory; this also extends to [[homotopy type theory]] and certain kinds of [[(∞,1)-category theory]].
  
 
+
 ## Overview
  {#Overview}
 
@@ -35,21 +36,21 @@
 | [[intuitionistic logic|intuitionistic]] [[propositional logic]] | | [[Heyting algebra]] | |
 | [[classical logic|classical]] [[propositional logic]] | | [[Boolean algebra]] | |
 | [[dual intuitionistic logic|dual intuitionistic]] [[propositional logic]] | | [[co-Heyting algebra]] | |
-| [[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
+| [[first-order logic]] |  | [[hyperdoctrine]] | [Seely 1984a](#SeelyA) |
 | [[regular logic]] |  | [[regular hyperdoctrine]]/[[regular category]] | |
 | [[coherent logic]] |  | [[coherent hyperdoctrine]]/[[coherent category]] | |
 | [[intuitionistic logic|intuitionistic]] [[predicate logic]] |  | [[first-order hyperdoctrine]]/[[Heyting category]] | |
 | [[classical logic|classical]] [[predicate logic]] |  | [[Boolean hyperdoctrine]]/[[Boolean category]] | |
 | [[modal logic]] |  | [[modal hyperdoctrine]] | |
 | [[linear logic]] |  | [[linear hyperdoctrine]] | |
-| [[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
-| extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
-| [[bunched logic]] | | [[doubly closed monoidal category]] |  ([O'Hearn & Pym 1999](bunched+logic#O'HearnPym99)) |
-| [[homotopy type theory]] without [[univalence]] (intensional M-L dependent type theory) |  | [[locally cartesian closed (∞,1)-category]] | ([Cisinski 12](locally+cartesian+closed+%28infinity%2C1%29-category#Presentations)-([Shulman 12](#Shulman12)) |
+| [[simply-typed lambda calculus]] | | [[cartesian closed category]] | [Lambek & Scott 1986, Part I](#LambekScott86) |
+| extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | [Seely 1984b](#Seely) |
+| [[bunched logic]] | | [[doubly closed monoidal category]] |  [O'Hearn & Pym 1999](bunched+logic#O'HearnPym99) |
+| [[homotopy type theory]] without [[univalence]] (intensional M-L dependent type theory) |  | [[locally cartesian closed (∞,1)-category]] | [Cisinski 2012](locally+cartesian+closed+%28infinity%2C1%29-category#Presentations) & [Shulman 2012](#Shulman12) |
 | [[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | see [[homotopytypetheory:model of type theory in an (infinity,1)-topos|here]] |
-| [[dependent linear type theory]] |   | [[indexed monoidal category]] (with comprehension)  | ([V&#225;k&#225;r 14](#Vakar14)) |  
-| [[multiplicative intuitionistic linear logic]] | | symmetric [[closed monoidal category]] | ([various authors since ~68](linear%20type%20theory#HistoryCategoricalSemantics)) | 
-| [[classical linear logic]] | | [[star-autonomous category ]] | ([Seely 89](#Seely89)) |
+| [[multiplicative intuitionistic linear logic]] | | [[symmetric monoidal category|symmetric]] [[closed monoidal category]] | [various authors since ~68](linear%20type%20theory#HistoryCategoricalSemantics) | 
+| [[classical linear logic]] | | [[star-autonomous category ]] | [Seely 1989](#Seely89) |
+| [[dependent linear type theory]] |   | [[indexed monoidal category]] (with comprehension)  | [V&#225;k&#225;r 14](#Vakar14) |  
 
 [[!include types and logic - table]]
 
@@ -438,7 +439,7 @@ For [[dependent linear type theory]] see
 
 An [[adjunction]] between the category of [[type theory|type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of
 
-* [[Joachim Lambek]], P. Scott, _Introduction to higher order categorical logic_, Cambridge University Press (1986) .
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
 
 The [[equivalence of categories]] between [[locally cartesian closed categories]] and [[dependent type theories]] was originally claimed in 
 
