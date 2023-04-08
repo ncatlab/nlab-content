@@ -234,6 +234,12 @@ Discussion with focus on [[mapping spaces]] ([[compact-open topology]]) in [[top
 See also the references at *[[exponential object]]*.
 
 
+Establishing the [[syntax-semantics duality|syntax/semantics]] [[relation between category theory and type theory|relation between]] cartesian closed categories and [[simply-typed lambda calculi]]:
+
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], Part I of: *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
+
+
+
 [[!redirects cartesian closed]]
 [[!redirects cartesian closed category]]
 [[!redirects cartesian closed categories]]
