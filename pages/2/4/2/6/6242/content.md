@@ -36,7 +36,7 @@ Typically  in the literature the term "quantum logic" is taken to refer very spe
 
 This formalization is often understood as being the default meaning of "quantum logic". But the proposal has later been much criticised, for its lack of key properties that one would demand of any [[formal logic]]. 
 
-For instance in [Abramsky 2009](#Abramsky09) it is called a "non-logic":
+{#NonLogic} For instance in [Abramsky & Coecke (2007)](#AbramskyCoecke2007) it is called a "non-logic":
 
 > The term quantum logic is usually understood in connection with the 1936 Birkhoff-von Neumann proposal to consider the ([[closed subspace|closed]]) [[linear subspaces]] of a [[Hilbert space]] ordered by inclusion as the formal expression of the logical distinction between quantum and classical physics. While in classical logic we have deduction, the linear subspaces of a Hilbert space form a non-distributive lattice and hence there is no obvious notion of implication or deduction. Quantum logic was therefore always seen as logically very weak, or even as a non-logic. In addition, it has never given a satisfactory account of compound systems and entanglement.
 
@@ -272,6 +272,19 @@ The original proposal on quantum logic:
 
 * {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
 
+Proposal for an enhancement of these axioms by [[probability measures]]:
+
+* [[George Mackey]], Section 2-2 of: *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
+
+further discussed in:
+
+* {#Gleason57} [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. **6** 4 (1957), 885-893 &lbrack;[IUMJ:56050](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050), [pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1957/6/56050/pdf)&rbrack;
+
+  > ([[Gleason's theorem]])
+
+* Samuel S. Holland Jr., _Orthomodularity in infinite dimensions; a theorem of M. Sol&#232;r_, Bull. Amer. Math. Soc. (N.S.) __32__ (1995) 205-234 &lbrack;[arXiv:math.RA/9504224](http://arxiv.org/abs/math/9504224)&rbrack;
+
+
 General introductions and surveys:
 
 * [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
@@ -281,7 +294,6 @@ General introductions and surveys:
 * [[Roland Omnès]], §5 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) *[[Handbook of Quantum Logic and Quantum Structures]]* Elsevier (2009) &lbrack;[ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698)&rbrack;
-
 
 * Pavel Pták , Sylvia Pulmannová , *Orthomodular structures as quantum logics*, Fundamental Theories of Physics **44** Kluwer, Springer (1991) &lbrack;[ISBN:978-0-7923-1207-9](https://link.springer.com/book/9780792312079)&rbrack;
 
@@ -295,12 +307,10 @@ A bibliography of hundreds of works up to 1992:
 
 * [[Mladen Pavičić]], *Bibliography on quantum logics and related structures*,  Int J Theor Phys **31** (1992) 373–455 &lbrack;[doi:10.1007/BF00739999](https://doi.org/10.1007/BF00739999), [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf)&rbrack;
  
+Critique in contrast to [[quantum information via dagger-compact categories]]:
 
-Further discussion:
+* {#AbramskyCoecke2007} [[Samson Abramsky]], [[Bob Coecke]], *Physics from Computer Science: a Position Statement*, [International Journal of Unconventional Computing **3** 3 (2007)](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/349/YORKIJUC.pdf), [ijuc-3-3-p-179-197](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/ijuc-3-3-p-179-197/)&rbrack;
 
-* [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics __6__ (1957) 885-893
-
-* Samuel S. Holland Jr., _Orthomodularity in infinite dimensions; a theorem of M. Sol&#232;r_, Bull. Amer. Math. Soc. (N.S.) __32__ (1995) 205-234, [arXiv:math.RA/9504224](http://arxiv.org/abs/math/9504224)
 
 Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hence of [[linear logic]] as quantum logic is in 
 
@@ -310,7 +320,7 @@ Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hen
 * {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
   
 
-[Girard (1987)](#Girard) introduces [[linear logic]] ANDd suggests a possible relation to [[quantum physics]], but remains undecided; on p. 7 it says: "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!")
+[Girard (1987)](#Girard) introduces [[linear logic]] and suggests a possible relation to [[quantum physics]], but remains undecided; on p. 7 it says: "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!")
 
 * {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990) 41-64 
 
