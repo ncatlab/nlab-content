@@ -23,12 +23,23 @@ This page collects links related to
 
 * [[Jean-Yves Girard]]
 
-  _The Blind Spot: Lectures on Logic_
+  \linebreak
 
-  European Mathematical Society 2011
+  **The Blind Spot: Lectures on Logic**
 
-on [[formal logic]] and its [[categorical semantics]] with an emphasis on [[linear logic]] and in fact on some kind of [[quantum logic]] (section 17), but emphatically not in the old sense of Birkhoff-vonNeumann.
+  \linebreak
 
+  European Mathematical Society 
+
+  2011
+
+  [doi:10.4171/088](https://doi.org/10.4171/088)
+
+on [[formal logic]] and its [[categorical semantics]] with an emphasis on [[linear logic]] and in fact on some kind of [[quantum logic]] (section 17), but emphatically not in the original sense of [Birkhoff & von Neumann (1936)](BirkhoffvonNeumann36).
+
+A kind of survey is in:
+
+* [[Jean-Yves Girard]], *The Blind Spot*, in Jocelyn Benoist, Jean-Yves Girard, Yoshinori Ogawa, Mitsuhiro Okada (eds.) *Towards New Logic and Semantics* (2006) &lbrack;[ISBN:978-4-7664-1331-1 C3310](https://www.keio-up.co.jp/kup/eng/philo/13310.html), talk slides: [pdf](https://girard.perso.math.cnrs.fr/keio2006.pdf), [[Girard_Keio2006.pdf:file]]&rbrack;
 
 ## Foreword
 
