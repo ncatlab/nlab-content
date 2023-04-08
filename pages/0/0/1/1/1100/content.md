@@ -390,6 +390,10 @@ A quick introduction to the topic is in
 
 * [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
 
+On $\infty$-toposes [[category object in an (infinity,1)-category|internal to]] other $\infty$-toposes;
+
+* [[Louis Martini]], [[Sebastian Wolf]], *Internal higher topos theory* &lbrack;[arXiv:2303.06437](https://arxiv.org/abs/2303.06437)&rbrack;
+
 
 ### Giraud-Rezk-Lurie axioms
 
