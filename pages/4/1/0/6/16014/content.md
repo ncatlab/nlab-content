@@ -62,6 +62,7 @@ In terms of [[categorical logic]] interpreting propositional logic into a [[Heyt
 * $\lozenge$ is a (necessarily [[idempotent monad|idempotent]]) [[monad]] which is a "$\Box$-[[strong functor|strong]] functor", and (perhaps) preserves coproducts.
 
 As usual, we can also replace the Heyting algebra by a [[cartesian closed category]], thereby obtaining a "proof-relevant" system; in this case monoidality of $\Box$ doesn't imply directly that it preserves products, although one might reasonably ask that it does.  See _[[monad in computer science]]_.
+Note that if one moves from Heyting algebras to cartesian closed categories the (co)monads are not necessarily idempotent (and there are good proof-theoretical reasons why they should not be so).
 
 The above reasoning makes plausible that any operators expressing "necessity" and "possibility" should *at least* satisfy these (co)monad axioms.  However, not every (co)monad is sensibly interpreted this way.
 
