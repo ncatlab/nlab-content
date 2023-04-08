@@ -138,7 +138,7 @@ Further development:
 
 Reviewed in:
 
-* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023)&rbrack;
+* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023), video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc)&rbrack;
 
 More on relation to [[topological quantum field theory]]:
 
