@@ -52,6 +52,13 @@ The condition that all stalks $\mathcal{O}_{X,x}$ are local rings can be reformu
 ## References
  {#References}
 
+Textbook accounts:
+
+* [[Siegfried Bosch]], p. 247-248 in *Algebraic Geometry and Commutative Algebra*, Universitext, Springer (2017) &lbrack;[doi:10.1007/978-1-4471-4829-6](https://doi.org/10.1007/978-1-4471-4829-6)&rbrack;
+
+*  Ulrich Görtz, Torsten Wedhorn, p. 55 in: *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)&rbrack;
+
+See also:
 
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_, ([tag 01HA](http://stacks.math.columbia.edu/tag/01HA))
 {#deJong}
