@@ -113,6 +113,7 @@ The role of [[complex numbers]] in general $\dagger$-compact categories:
 
 * {#Vicary} [[Jamie Vicary]], _Completeness of $\dagger$-categories and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
 
+[[!redirects quantum information via dagger-compact categories]]
 
 [[!redirects quantum information theory via dagger-compact categories]] 
 
@@ -126,3 +127,6 @@ The role of [[complex numbers]] in general $\dagger$-compact categories:
 [[!redirects quantum information theory in terms of dagger-compact categories]]
 
 [[!redirects categorical quantum mechanics]]
+
+
+
