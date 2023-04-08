@@ -19,7 +19,7 @@ The _deduction theorem_ in [[formal logic]] says (when it holds) that if in some
 
 This hence relates [[entailment]] in the [[metalanguage]] with [[implication]] in the [[object language]].
 
-This seems obvious, but there are formal logical systems where this fails, for instance in the original Birkhoff-vonNeumann [[quantum logic]].  On the other hand, it may be taken as an [[axiom]]; it is the [[introduction rule]] for the conditional operator in [[natural deduction]].
+This seems obvious, but there are formal logical systems where this fails, for instance in the original Birkhoff-vonNeumann [[quantum logic]].  On the other hand, it may be taken as an [[axiom]]; it is the [[introduction rule]] for the [[implication]]/[[function type]] in [[natural deduction]].
 
 
 ## References
