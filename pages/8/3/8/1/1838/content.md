@@ -59,10 +59,17 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 ## References
 
+
+Exposition of the formulation of [[Maxwell's equations]] via [[differential forms]] and the [[Hodge star operator]]:
+
+* Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
+
+
+More advanced discussion:
+
 * [[Mikio Nakahara]], Section 10.5 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
-
-Discussion of electromagnetism as [[quantum field theory on curved spacetimes]] originates with 
+Discussion of electromagnetism in the generality of [[quantum field theory on curved spacetimes]] originates with 
 
 * {#Dimock92} [[Jonathan Dimock]], _Quantized Electromagnetic Field on a Manifold_, Reviews in Mathematical Physics, Volume 04, Issue 02, 1992 ([doi:10.1142/S0129055X92000078](https://doi.org/10.1142/S0129055X92000078))
 
