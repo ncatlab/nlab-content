@@ -69,7 +69,7 @@ etc., then the [[function type]] $P \multimap T$ may be [[categorical semantics|
 in a non-[[cartesian closed category|cartesian]] [[closed monoidal category]] with [[symmetric monoidal category|symmetric monoidal]] *[[tensor product]]* $\otimes$ --- such as the category  of [[finite-dimensional vector spaces]], in which case the [[terms]] $\Gamma \vdash f \colon P \multimap T$ [[categorical semantics|interpret]] as *[[linear functions]]* --- whence the [[logical connective]] "$\multimap$" is also called *[[linear implication]]*.
 
 Which exact flavour of [[monoidal category]] provides [[categorical semantics]] for linear logic depends on exactly which further [[inference rules]] are considered (see also at *[[bunched logic]]*):
-In the original definition of [Girard (1987)](#Girard), linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton--Bierman--de Paiva--Hyland 92](#BentonBiermanPaivaHyland92), [Hyland--de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly–Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
+In the original definition of [Girard (1987)](#Girard1987), linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton--Bierman--de Paiva--Hyland 92](#BentonBiermanPaivaHyland92), [Hyland--de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly–Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
 
 Indeed, these more general senses of linear logic still faithfully follow the original motivation for the term "linear" as connoting "resource availability" explained [below](#ResourceAvailability), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
 
@@ -104,7 +104,7 @@ Historically, linear logic was not explicitly motivated as a  [[quantum logic]] 
 ### As a logic of resource availability
  {#ResourceAvailability}
 
-Unlike many traditional formal systems of [[logic]], which deal with the _[[truth]]_ of _[[propositions]]_, linear logic is often described and was originally motivated &lbrack;[Girard (1987)](#Girard87)&rbrack; as dealing with the _availability_ of _resources_.  
+Unlike many traditional formal systems of [[logic]], which deal with the _[[truth]]_ of _[[propositions]]_, linear logic is often described and was originally motivated &lbrack;[Girard (1987)](#Girard1987)&rbrack; as dealing with the _availability_ of _resources_.  
 
 A proposition, if it is true, remains true no matter how we use that fact in proving other propositions.  By contrast, in using a resource $A$ to make available a resource $B$, $A$ itself may be consumed or
 otherwise modified.  Linear logic deals with this by
@@ -500,7 +500,7 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 The original article:
 
-* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
+* {#Girard1987} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
  
 
 Review:
@@ -515,8 +515,13 @@ Review:
 * {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
 
 and making explicit the [[categorical semantics]] of linear logic in the category [[FinDimVect]] of [[finite-dimensional vector spaces]]:
-
+ 
 * {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
+
+following a remark in section 2.4.2 of [Hyland & Schalk(2003)](#HylandSchalk03).
+
+* {#HylandSchalk03} [[Martin Hyland]], Andrea Schalk, *Glueing and orthogonality for models of linear logic*, Theoretical Computer Science **294** 1–2 (2003) 183-231 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00241-9">doi:10.1016/S0304-3975(01)00241-9</a>&rbrack;
+
 
 The [[categorical semantics]] of linear logic in general [[star-autonomous categories]] originally appeared in
 
