@@ -47,9 +47,14 @@ Introductory textbooks:
 
 * Sheldon Axler, *Linear Algebra Done Right*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-11080-6](https://doi.org/10.1007/978-3-319-11080-6)&rbrack;
 
+Discussion of linear algebra as [[categorical semantics]] for [[linear logic]]:
+
+* {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
+
+
 See also:
 
-* wikipedia [linear algebra](http://en.wikipedia.org/wiki/Linear_algebra)
+* Wikipedia, *[Linear algebra](http://en.wikipedia.org/wiki/Linear_algebra)*
 
 * [[Jean Dieudonné]], _Linear algebra and geometry_, Translated from the French Houghton Mifflin Co., Boston, Mass. 1969, 207 pp
 
