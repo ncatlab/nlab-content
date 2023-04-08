@@ -518,7 +518,7 @@ and making explicit the [[categorical semantics]] of linear logic in the categor
  
 * {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
 
-following a remark in section 2.4.2 of [Hyland & Schalk(2003)](#HylandSchalk03).
+following a remark in section 2.4.2 of [Hyland & Schalk (2003)](#HylandSchalk03).
 
 * {#HylandSchalk03} [[Martin Hyland]], Andrea Schalk, *Glueing and orthogonality for models of linear logic*, Theoretical Computer Science **294** 1–2 (2003) 183-231 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00241-9">doi:10.1016/S0304-3975(01)00241-9</a>&rbrack;
 
