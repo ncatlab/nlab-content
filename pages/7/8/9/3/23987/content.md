@@ -341,6 +341,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2010.16263](https://arxiv.org/abs/2010.16263)
 
+  video: [YT](https://www.youtube.com/watch?v=dHkGJIP1u4U)
+
 \linebreak
 
 
