@@ -14,4 +14,9 @@ internal [[presentable (∞,1)-categories]]:
 
 * [[Louis Martini]], [[Sebastian Wolf]], *Presentable categories internal to an ∞-topos* &lbrack;[arXiv:2209.05103](https://arxiv.org/abs/2209.05103)&rbrack;
 
+and [[(infinity,1)-toposes|$\infty$-toposes]] internal to [[(infinity,1)-toposes|$\infty$-toposes]]:
+
+* [[Louis Martini]], [[Sebastian Wolf]], *Internal higher topos theory* &lbrack;[arXiv:2303.06437](https://arxiv.org/abs/2303.06437)&rbrack;
+
+
 category: people
