@@ -36,6 +36,8 @@ Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, 
 
 * [[Smith normal form]]
 
+* [[Eilenberg swindle]]
+
 
 ## References
 
