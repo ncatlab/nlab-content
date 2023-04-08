@@ -18,7 +18,7 @@
 
 In [[homological algebra|homological]] [[algebra]], what came to be known &lbrack;[Bass (1963)](#Bass63)&rbrack; as the *Eilenberg swindle* (in honor of [[Samuel Eilenberg]]) is an argument (originally due to [Mazur (1961)](#Mazur61)) proving that the [[Grothendieck group]] (the 0th [[algebraic K-theory]] group $K_0$) of many [[abelian categories]] is [[trivial group|trivial]]. 
 
-The idea of the "swindle" is essentially the following [Hilbert hotel](https://en.m.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)-type argument:
+The content of the "swindle" is essentially the following [Hilbert hotel](https://en.m.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)-type argument:
 
 In an [[abelian category]] $A$ with [[countable set|countable]] [[direct sums]], we have for any [[object]]  $X \in A$ an [[isomorphism]] 
 
