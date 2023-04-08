@@ -93,7 +93,7 @@ Notice that the general phrase *bunched logic* is not entirely standard, and the
 
 The notion (together with its [[categorical semantics]] in [[doubly closed monoidal categories]]) originates with the logic of "bunched implication" (BI) and its "$\alpha \lambda$-calculus" (a bunched variation of the [[lambda-calculus]]) due to &lbrack;[O'Hearn & Pym (1999)](#O'HearnPym99), [Pym (2002)](#Pym2002), see also [O'Hearn (2003)](#O'Hearn03).
 
-But aspects of the proposal of [O'Hearn & Pym (1999)](#O'HearnPym99) and [Pym (2002)](#Pym2002) have remained unsatisfactory, see [Pym (2008), Errata to Pym (2002)](#Pym08Errata) and [Riley(2022)](#Riley22Thesis), [pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29) and Rem. 1.4.1 ([p. 64](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=64)): 
+{#Unsatisfactory} But aspects of the proposal of [O'Hearn & Pym (1999)](#O'HearnPym99) and [Pym (2002)](#Pym2002) have remained unsatisfactory, see [Pym (2008), Errata to Pym (2002)](#Pym08Errata) and [Riley(2022)](#Riley22Thesis), [pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29) and Rem. 1.4.1 ([p. 64](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=64)): 
 
 > [Riley 2022, pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29): &lbrack;Since&rbrack; context manipulations are not recorded in the terms, typechecking a term can be difficult. First, it is not always obvious when and how the contraction rule has to be applied, and secondly, it is not always obvious how the context has to be split into two pieces to apply $\multimap$-ELIM. Besides the challenge of typechecking, the combination of the weakening rule and the rules for the monoidal unit also breaks soundness for the intended semantics.
 
