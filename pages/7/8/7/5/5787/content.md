@@ -87,6 +87,9 @@ Clean proofs are by Mesablishvili and by Janelidze,
 
 * Bachuki Mesablishvili, _Pure morphisms of commutative rings are effective descent morphisms for modules -- a new proof_, Theory and Appl. of Categories __7__, 2000, No. 3, 38-42, [tac](http://www.tac.mta.ca/tac/volumes/7/n3/7-03abs.html)
 
+
+* Bachuki Mesablishvili, _Pure morphisms are effective for modules_, Applied Categorical Structures 21 (2013), 801–809.  [arXiv](https://arxiv.org/abs/1206.3439), [doi](https://doi.org/10.1007/s10485-012-9283-6).
+
 * [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge Univ. Press 2003; [errata pdf](http://maths.swan.ac.uk/staff/tb/corinerr.pdf)
 
 * [[George Janelidze]], [[Walter Tholen]], _Facets of descent III: monadic descent for rings and algebras_,  Appl. Categ. Structures __12__ (2004), no. 5-6, 461&#8211;477, [MR2005i:13019](http://www.ams.org/mathscinet-getitem?mr=2107397), [doi](http://dx.doi.org/10.1023/B:APCS.0000049312.36783.0a)
