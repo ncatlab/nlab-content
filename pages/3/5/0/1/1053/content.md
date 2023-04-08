@@ -617,9 +617,10 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 
 See also at *[[quantum programming languages]]*
 
-Discussion for [[matrix factorization]] in [[Landau–Ginzburg models]] is in
+Application of linear logic to [[matrix factorization]] in [[Landau–Ginzburg models]]:
 
-* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ &lbrack;[arXiv:1402.4541](http://arxiv.org/abs/1402.4541)&rbrack;
+* [[Daniel Murfet]], _The cut operation on matrix factorisations_, Journal of Pure and Applied Algebra
+**222** 7 (2018) 1911-1955 &lbrack;[arXiv:1402.4541](https://arxiv.org/abs/1402.4541), [doi:10.1016/j.jpaa.2017.08.014](https://doi.org/10.1016/j.jpaa.2017.08.014)&rbrack;
 
 
 Discussion of [[linear type theory]] without [[units]] is in 
