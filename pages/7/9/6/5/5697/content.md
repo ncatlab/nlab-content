@@ -22,7 +22,7 @@ Foam construction of [[link homology]]:
 
 * [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Conical $SL(3)$ foams*, Journal of Combinatorial Algebra **6** 1/2 (2022) 79-108 &lbrack;[arXiv:2011.11077](https://arxiv.org/abs/2011.11077), [doi:10.4171/jca/61](https://doi.org/10.4171/jca/61)&rbrack;
 
-* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023)&rbrack;
+* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023), video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc)&rbrack;
 
 
 Discussion of [[non-deterministic automata]] as 1-dimensional [[defect QFT|defect]] [[TQFTs]]:
