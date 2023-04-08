@@ -137,7 +137,7 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 Gleason's original paper outlining the theorem:
 
-* {#Gleason57} [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
+* {#Gleason57} [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. **6** 4 (1957), 885-893 &lbrack;[IUMJ:56050](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050), [pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1957/6/56050/pdf)&rbrack;
  
 
 Textbook accounts:
