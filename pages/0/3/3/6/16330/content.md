@@ -13,13 +13,13 @@
 
 ## Idea
 
-Originally, "simple type theory" was the name of the [[type theory]] introduced by [Church (1940)](#Church40) (therefore often and more informatively: "Church's type theory" or similar). This [[type theory]] allowed (only) [[function type]]-[[type formation]] (therefore often: "simply typed [[lambda-calculus]]") based on two elementary types (a kind of [[type of natural numbers]] and a [[type of propositions]]).
+Originally, "*simple type theory*" was the name of the [[type theory]] introduced by [Church (1940)](#Church40) (therefore often and more informatively: "*Church's type theory*" or similar). This [[type theory]] allowed (only) [[function type]]-[[type formation]] (therefore often: "simply typed [[lambda-calculus]]") based on two elementary types (a kind of [[type of natural numbers]] and a [[type of propositions]]).
 
-In mild generalization, if one admits in addition [[product type]]-[[type formation]] then &lbrack;e.g. [Gunter (1992)](#Gunter92)&rbrack; these are the type theories whose [[categorical semantics]] is in [[cartesian closed categories]] (see also at *[[relation between category theory and type theory]]*).
+In mild generalization, if one admits in addition [[product type]]-[[type formation]] then &lbrack;e.g. [Gunter (1992)](#Gunter92)&rbrack; these are the type theories whose [[categorical semantics]] is in [[cartesian closed categories]] &lbrack;[Lambek & Scott (1986), Part I](#LambekScott86)&rbrack;, see also at *[[relation between category theory and type theory]]*.
 
 More generally, the term "simple type theory" has come to refer to any [[type theory]] whose [[type formations]] are *not indexed*, in that the [[judgment]] that a [[type]] $A$ is well-formed has no other inputs, understood *in contrast* to:
 
-* [[polymorphism|polymorphic type theory]], where types depend on a context of type variables, 
+* [[polymorphism|polymorphic type theory]], where types depend on a [[context]] of type variables, 
 
 * [[dependent type theory]], where types depend on a [[context]] of more general variables.
 
@@ -39,6 +39,11 @@ Original articles:
 See also 
 
 * Stanford Encyclopedia of Philosophy, *[Church’s Type Theory](https://plato.stanford.edu/entries/type-theory-church/)*
+
+Establishing the [[syntax-semantics duality|syntax/semantics]] [[relation between category theory and type theory|relation between]] [[cartesian closed categories]] and simply-typed lambda calculi:
+
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], Part I of: *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
+
 
 Lecture notes:
 
@@ -70,7 +75,13 @@ See also:
 [[!redirects simply typed λ-calculus]]
 
 [[!redirects simply-typed lambda calculus]]
+[[!redirects simply-typed lambda calculi]]
+
+
 [[!redirects simply-typed lambda-calculus]]
+[[!redirects simply-typed lambda-calculi]]
+
 [[!redirects simply-typed λ-calculus]]
+[[!redirects simply-typed λ-calculi]]
 
 
