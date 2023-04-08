@@ -58,7 +58,7 @@ But notice that one may argue that the first three points here are squarely reso
 
 In [Girard 2011, page xii](#Girard11) it says:
 
-> Among the magisterial mistakes of logic, one will first mention quantum logic, whose ridiculousness can only be ascribed to a feeling of superiority of the language &#8211; and ideas, even bad, as soon as they take a written form &#8211; over the physical world. Quantum logic is indeed a sort of punishment inflicted on nature, guilty of not yielding to the prejudices of logicians... just like Xerxes had the Hellespont &#8211; which had destroyed a boat bridge &#8211; whipped.
+> {#MagisteralMistake} Among the magisterial mistakes of logic, one will first mention quantum logic, whose ridiculousness can only be ascribed to a feeling of superiority of the language &#8211; and ideas, even bad, as soon as they take a written form &#8211; over the physical world. Quantum logic is indeed a sort of punishment inflicted on nature, guilty of not yielding to the prejudices of logicians... just like Xerxes had the Hellespont &#8211; which had destroyed a boat bridge &#8211; whipped.
 
 
 For more and more objective criticism see [Girard 2011, section 17](#Girard11).
@@ -320,7 +320,10 @@ Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hen
 * {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
   
 
-[Girard (1987)](#Girard) introduces [[linear logic]] and suggests a possible relation to [[quantum physics]], but remains undecided; on p. 7 it says: "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!")
+[Girard (1987)](#Girard) introduces [[linear logic]] and suggests a possible relation to [[quantum physics]], but remains undecided; on p. 7 it says: 
+
+> {#WildHopes} "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!"
+
 
 * {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990) 41-64 
 
