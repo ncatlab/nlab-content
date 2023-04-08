@@ -38,7 +38,7 @@ This formalization is often understood as being the default meaning of "quantum 
 
 {#NonLogic} For instance in [Abramsky & Coecke (2007)](#AbramskyCoecke2007) it is called a "non-logic":
 
-> The term quantum logic is usually understood in connection with the 1936 Birkhoff-von Neumann proposal to consider the ([[closed subspace|closed]]) [[linear subspaces]] of a [[Hilbert space]] ordered by inclusion as the formal expression of the logical distinction between quantum and classical physics. While in classical logic we have deduction, the linear subspaces of a Hilbert space form a non-distributive lattice and hence there is no obvious notion of implication or deduction. Quantum logic was therefore always seen as logically very weak, or even as a non-logic. In addition, it has never given a satisfactory account of compound systems and entanglement.
+> {#NonLogic} The term quantum logic is usually understood in connection with the 1936 Birkhoff-von Neumann proposal to consider the ([[closed subspace|closed]]) [[linear subspaces]] of a [[Hilbert space]] ordered by inclusion as the formal expression of the logical distinction between quantum and classical physics. While in classical logic we have deduction, the linear subspaces of a Hilbert space form a non-distributive lattice and hence there is no obvious notion of implication or deduction. Quantum logic was therefore always seen as logically very weak, or even as a non-logic. In addition, it has never given a satisfactory account of compound systems and entanglement.
 
 Here by "no [[deduction]]" is meant "no [[deduction theorem]]".
 
