@@ -126,7 +126,13 @@ General defects of B-twisted affine LG models were first discussed in
 
 The graded pivotal bicategory of B-twisted affine LG models is studied in detail in 
 
-* Nils Carqueville, [[Daniel Murfet]], _Adjunctions and defects in Landau--Ginzburg models_, Advances in Mathematics, Volume 289 (2016), 480--566, ([arXiv:1208.1481](http://arxiv.org/abs/1208.1481))
+* [[Nils Carqueville]], [[Daniel Murfet]], *Adjunctions and defects in Landau-Ginzburg models*, Advances in Mathematics **289** (2016) 480-566 &lbrack;[doi:10.1016/j.aim.2015.03.033](https://doi.org/10.1016/j.aim.2015.03.033), [arXiv:1208.1481](https://arxiv.org/abs/1208.1481)&rbrack;
+
+and described in terms of [[linear logic]] and the [[geometry of interactions]]:
+
+* [[Daniel Murfet]], _The cut operation on matrix factorisations_, Journal of Pure and Applied Algebra
+**222** 7 (2018) 1911-1955 &lbrack;[arXiv:1402.4541](https://arxiv.org/abs/1402.4541), [doi:10.1016/j.jpaa.2017.08.014](https://doi.org/10.1016/j.jpaa.2017.08.014)&rbrack;
+
 
 Orbifolds of defects are studied in
 
