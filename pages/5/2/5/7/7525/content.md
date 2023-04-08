@@ -15,9 +15,9 @@ On the role of [[adjunctions]] and [[dualities]] in [[mathematics]]:
 
 * {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
 
-On [[categorical logic]] and [[topos theory]]:
+On [[categorical logic]] and [[topos theory]] (and establishing the [[relation between category theory and type theory|relation]] between [[simply-typed lambda calculus]] and [[cartesian closed categories]]):
 
-* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], _Introduction to higher order categorical logic_, Cambridge Studies in Advanced Mathematics 7 (1986) ([ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534))
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
 
 
 
@@ -25,10 +25,15 @@ On [[categorical logic]] and [[topos theory]]:
 ## Related entries
 
 * [[lambda-calculus]]/[[relation between type theory and category theory]]
+
 * [[biclosed monoidal category]]
+
 * [[initial algebra]]
+
 * [[linguistics]]
+
 * [[categorial grammar]]
+
 * [[Introduction to Higher-Order Categorical Logic]]
 
 category: people
