@@ -23,6 +23,9 @@ There is also the Calabi-Yau/Landau-Ginzburg correspondence. In some cases, cate
 
 For general theory and properties of matrix factorizations, see work of Orlov. For example, matrix factorization categories are related to derived categories of singularities.
 
+## Related concepts
+
+* [[Landau-Ginzburg model]]
 
 ## Literature
 
@@ -47,18 +50,28 @@ See also
 * Junwu Tu, _Matrix factorizations via Koszul duality_, [arxiv/1009.4151](http://arxiv.org/abs/1009.4151)
 
 * J. Burke, M. E. Walker, _Matrix factorizations over projective schemes_, [arxiv/1110.2918](http://arxiv.org/abs/1110.2918)
+
 * Matthew Ballard, David Favero, [[Ludmil Katzarkov]], _A category of kernels for graded matrix factorizations and its implications for Hodge theory_, [arxiv/1105.3177](http://arxiv.org/abs/1105.3177)
-* Nils Carqueville, [[Daniel Murfet]], _Adjunctions and defects in Landau-Ginzburg models_, [arxiv/1208.1481](http://arxiv.org/abs/1208.1481)
+
+
 * [[Alexander I. Efimov]], _Cyclic homology of categories of matrix factorizations_, [arxiv/1212.2859](http://arxiv.org/abs/1212.2859)
-* Alexander Polishchuk, _Homogeneity of cohomology classes associated with Koszul matrix factorizations_, [arxiv/1409.7115](http://arxiv.org/abs/1409.7115)
 
-A formulation in terms of [[linear logic]] and the [[geometry of interactions]] is in
+* [[Alexander Polishchuk]], _Homogeneity of cohomology classes associated with Koszul matrix factorizations_, [arxiv/1409.7115](http://arxiv.org/abs/1409.7115)
 
-* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
-
-A connection to the representation theory of loop groups and families of Dirac operators (and the [[string 2-group]]) is in 
+On a connection to the representation theory of loop groups and families of Dirac operators (and the [[string 2-group]]) 
 
 * {#FreedTeleman14} [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
+
+
+On a [[bicategory]] of [[Landau-Ginzburg models]] with [[matrix factorizations]] as [[1-morphisms]]:
+
+* [[Nils Carqueville]], [[Daniel Murfet]], *Adjunctions and defects in Landau-Ginzburg models*, Advances in Mathematics **289** (2016) 480-566 &lbrack;[doi:10.1016/j.aim.2015.03.033](https://doi.org/10.1016/j.aim.2015.03.033), [arXiv:1208.1481](https://arxiv.org/abs/1208.1481)&rbrack;
+
+On a category of [[matrix factorizations]] in the context of [[Landau-Ginzburg models]], described in terms of [[linear logic]] and the [[geometry of interactions]]:
+
+* [[Daniel Murfet]], _The cut operation on matrix factorisations_, Journal of Pure and Applied Algebra
+**222** 7 (2018) 1911-1955 &lbrack;[arXiv:1402.4541](https://arxiv.org/abs/1402.4541), [doi:10.1016/j.jpaa.2017.08.014](https://doi.org/10.1016/j.jpaa.2017.08.014)&rbrack;
+
 
 
 
