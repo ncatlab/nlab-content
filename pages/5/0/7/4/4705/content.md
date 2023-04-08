@@ -133,7 +133,7 @@ Discussion of Rozansky-Witten [[defect QFT]] as an [[extended TQFT]] via the [[c
 
 reviewed in:
 
-* [[Nils Carqueville]], *Extended defect TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CarquevilleMar2023), [pdf](https://www.carqueville.net/nils/RW.pdf), [[Carqueville-RW.pdf:file]]&rbrack;
+* [[Nils Carqueville]], *Extended defect TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#CarquevilleMar2023), [pdf](https://www.carqueville.net/nils/RW.pdf), [[Carqueville-RW.pdf:file]], video:[YT](https://www.youtube.com/watch?v=bwDJSitenVE)&rbrack;
 
 Relation to [[super Chern-Simons theory]]:
 
