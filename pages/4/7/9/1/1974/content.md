@@ -283,6 +283,8 @@ These two examples illustrate a general fact: the Grothendieck group of a [[mono
 
 * [[K-theory]]
 
+* [[Eilenberg swindle]]
+
 ## References 
 
 
