@@ -184,6 +184,11 @@ Heterotic strings were introduced in
 
 * {#Schellekens91} [[Bert Schellekens]], _Classification of Ten-Dimensional Heterotic Strings_, Phys.Lett. B277 (1992) 277-284 ([arXiv:hep-th/9112006](http://arxiv.org/abs/hep-th/9112006))
 
+Relation to [[Niemeier lattices]]:
+
+* [[Wolfgang Lerche]], [[Dieter Lüst]], [[Adrian Norbert Schellekens]], *Ten-dimensional heterotic strings from Niemeier lattices*, Physics Letters B **181** 1–2 (1986) 71-75 &lbrack;<a href="https://doi.org/10.1016/0370-2693(86)91257-8">doi:10.1016/0370-2693(86)91257-8</a>, [inspire:233203](https://inspirehep.net/literature/233203)&rbrack;
+
+
 Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3 (which is part 6) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
