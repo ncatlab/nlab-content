@@ -11,25 +11,28 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
-##Idea
+## Idea
 
-
-The **Umbral Moonshine Conjectures** assert that there are infinite-dimensional graded modules, for prescribed finite groups, whose McKay-Thompson series are certain distinguished mock modular forms. It relates the 23 Niemeier lattices, even unimodular positive-definite lattices of rank 24 with non-trivial root systems, to mock theta functions. 
+The **Umbral Moonshine Conjectures** assert that there are infinite-dimensional graded modules, for prescribed finite groups, whose McKay-Thompson series are certain distinguished mock modular forms. It relates the 23 [[Niemeier lattices]], even unimodular positive-definite lattices of rank 24 with non-trivial root systems, to [[mock theta functions]]. 
 
 Umbral moonshine is a generalization of the [[Mathieu moonshine]] phenomenon which relates representations of the [[Mathieu group]] $M_24$ with [[K3 surfaces]], and which corresponds to the Niemeier lattice with the simplest root system $X = A_1^{24}$. As noted in 2010 by Eguchi, Ooguri, and Tachikawa, dimensions of some representations of $M_24$, the largest sporadic simple Mathieu group, are multiplicities of superconformal algebra characters in the K3 elliptic genus. 
 
 ## Related entries
 
+* [[Niemeier lattice]]
+
 * [[Moonshine]]
+
 * [[K3 surface]]
 
 ## References
 
-* Miranda C. N. Cheng, John F. R. Duncan, Jeffrey A. Harvey, _Umbral Moonshine_ ([arXiv:1204.2779](http://arxiv.org/abs/1204.2779))
+* [[Miranda C. N. Cheng]], John F. R. Duncan, Jeffrey A. Harvey, _Umbral Moonshine_ ([arXiv:1204.2779](http://arxiv.org/abs/1204.2779))
 
 * Miranda C. N. Cheng, John F. R. Duncan, Jeffrey A. Harvey, _Umbral Moonshine and the Niemeier Lattices_ ([arXiv:1307.5793](https://arxiv.org/abs/1307.5793))
 
