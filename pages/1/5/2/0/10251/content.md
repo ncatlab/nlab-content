@@ -26,7 +26,9 @@ As an example, from [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchelle
 
 On [[heterotic string theory]]:
 
-* {#LercheLustSchellekens86} [[Wolfgang Lerche]], [[Dieter Lüst]], [[Bert Schellekens]], _Ten dimensional heterotic strings from Niemeier lattices_, Physics Letters B, Volume 181, Issues 1-2, 1986 ([pdf](http://cds.cern.ch/record/170910/files/198609340.pdf))
+* [[Wolfgang Lerche]], [[Dieter Lüst]], [[Adrian Norbert Schellekens]], *Ten-dimensional heterotic strings from Niemeier lattices*, Physics Letters B **181** 1–2 (1986) 71-75 &lbrack;<a href="https://doi.org/10.1016/0370-2693(86)91257-8">doi:10.1016/0370-2693(86)91257-8</a>, [inspire:233203](https://inspirehep.net/literature/233203)&rbrack;
+
+  > (relation to [[Niemeier lattices]])
 
 * {#LercheLustSchellekens87} [[Wolfgang Lerche]], [[Dieter Lüst]], [[Bert Schellekens]], _Chiral Four-dimensional Heterotic Strings from Self-dual Lattices_  Nucl. Phys. B 287, 477, 1987 ([pdf](http://lerche.web.cern.ch/lerche/papers/4dhetstrings.pdf))
 
