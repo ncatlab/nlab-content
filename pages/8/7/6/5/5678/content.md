@@ -148,9 +148,9 @@ More on relation to [[topological quantum field theory]]:
 
 * [[Nitu Kitchloo]], *Symmetry Breaking and Link Homologies III* &lbrack;[arXiv:1910.07516](https://arxiv.org/abs/1910.07516)&rbrack;
 
-Review in:
+Relation to [[gauge theory]]:
 
-* [[Nitu Kitchloo]], *Symmetry breaking and homotopy types for link homologies*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KitchlooMar2023)&rbrack;
+* [[Nitu Kitchloo]], *Symmetry breaking and homotopy types for link homologies*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KitchlooMar2023), video:[YT](https://www.youtube.com/watch?v=StRyIjpER9I)&rbrack;
 
 See also:
 
