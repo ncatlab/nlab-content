@@ -100,7 +100,7 @@ In [[twisted cohomology]].
 
 * [[excisive functor]]
 
-* [[tangent (infinity,1)-category]]
+* [[tangent (infinity,1)-category]], [[Joyal locus]]
 
 * [[cartesian doubly closed monoidal (infinity,1)-category]]
 
