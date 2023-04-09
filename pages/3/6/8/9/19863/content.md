@@ -19,11 +19,11 @@ On [[moonshine]] around the [[duality between heterotic and type II string theor
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[automorphism of a vertex operator algebra]]
 
-* [[Moonshine]]
+* [[Moonshine]], [[umbral moonshine]]
 
 * [[string theory]] on [[K3-surfaces]]
 
@@ -32,3 +32,6 @@ On [[moonshine]] around the [[duality between heterotic and type II string theor
 * [[elliptic genus]]
 
 category: people
+
+[[!redirects Miranda C. N. Cheng]]
+
