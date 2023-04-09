@@ -370,6 +370,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   **Twisted string bordism and a potential anomaly in $E_8 \times E_8$ heterotic string theory**
 
   cf.: [arXiv:2210.04911](https://arxiv.org/abs/2210.04911)
+  
+  video: [YT](https://www.youtube.com/watch?v=wkucLJ7jTlM)
 
   > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an [[invertible field theory]] in one dimension higher. Theorems of Freed-Hopkins-Teleman and [Freed-Hopkins](invertible+field+theory#FreedHopkins21) classify [[invertible field theories]] in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional [[invertible field theories]] does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with Matthew Yu using Baker-Lazarev's R-module Adams spectral sequence to simplify a large class of twisted spin and string bordism computations.
 
