@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+Relation of [[Niemeier lattices]] to [[heterotic string theory]]:
+
+* [[Wolfgang Lerche]], [[Dieter Lüst]], [[Adrian Norbert Schellekens]], *Ten-dimensional heterotic strings from Niemeier lattices*, Physics Letters B **181** 1–2 (1986) 71-75 &lbrack;<a href="https://doi.org/10.1016/0370-2693(86)91257-8">doi:10.1016/0370-2693(86)91257-8</a>, [inspire:233203](https://inspirehep.net/literature/233203)&rbrack;
+
+
 
 On [[heterotic M-theory on ADE-orbifolds]]:
 
