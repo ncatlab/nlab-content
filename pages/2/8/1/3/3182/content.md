@@ -22,7 +22,7 @@
 
 A _D-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form [[D-topology]], as in [[D-topological spaces]]/[[Delta-generated topological spaces]]. The latter are among the [[concrete object|concrete]] [[0-truncated object in an (infinity,1)-category|0-truncated]] D-topological $\infty$-groupoids, containing, in particular, the [[topological manifolds]].
 
-Examples of [[1-truncated object in an (infinity,1)-category|1-truncated objects]] in D-topological $\infty$-groupoifds are [[topological groupoids]]/[[topological stacks]] which are presented by [[internal groupoids]] in [[D-topological spaces]] (hence degree-wise [[concrete object|concrete]]). 
+Examples of [[1-truncated object in an (infinity,1)-category|1-truncated objects]] in D-topological $\infty$-groupoids are [[topological groupoids]]/[[topological stacks]] which are presented by [[internal groupoids]] in [[D-topological spaces]] (hence degree-wise [[concrete object|concrete]]). 
 
 More generally, every [[simplicial topological space]] whose topology is degreewise [[D-topological space|D-topological]] canonically presents a D-topological $\infty$-groupoid. Various constructions with simplicial toppological spaces find their natural home in this [[(∞,1)-topos]]. For instance:
 
@@ -62,7 +62,7 @@ to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 +-- {: .un_prop #ETopInfGrpdAsCohesiveTopos}
 ###### Proposition
 
-The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
+The [[(∞,1)-topos]] $ETop \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 
 =--
 
@@ -522,6 +522,7 @@ $$
 $$
 
 is a [[weak homotopy equivalence]], since $U \in CartSp$ is [[contractible space|contractible]].
+
 
 Therefore the inclusion of simplicial presheaves
 
