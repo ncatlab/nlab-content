@@ -44,7 +44,7 @@ For the case over more general [[base (infinity,1)-toposes|base $(\infty,1)$-top
 
 The terminology was proposed in:
 
-* {#Joyal15} [[André Joyal]] at [58:00](https://youtu.be/qmCh9KwrQq8?t=3476), [59:52](https://youtu.be/qmCh9KwrQq8?t=3592) in: *New variations on the notion of topos* talk at IHES (2015) &lbrack;[video](https://www.youtube.com/watch?v=qmCh9KwrQq8)&rbrack;
+* {#Joyal15} [[André Joyal]] at [58:00](https://youtu.be/qmCh9KwrQq8?t=3476), [59:52](https://youtu.be/qmCh9KwrQq8?t=3592) in: *New variations on the notion of topos*, talk at IHES (2015) &lbrack;[video](https://www.youtube.com/watch?v=qmCh9KwrQq8)&rbrack;
 
 apparently motivated by the archetypical example of the [[tangent (infinity,1)-topos|tangent]] [[(infinity,1)-topos|$(\infty,1)$-topos]] of [[parameterized spectra]], previously noticed in 
 
