@@ -95,11 +95,21 @@ The notion (together with its [[categorical semantics]] in [[doubly closed monoi
 
 {#Unsatisfactory} But aspects of the proposal of [O'Hearn & Pym (1999)](#O'HearnPym99) and [Pym (2002)](#Pym2002) have remained unsatisfactory, see [Pym (2008), Errata to Pym (2002)](#Pym08Errata) and [Riley(2022)](#Riley22Thesis), [pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29) and Rem. 1.4.1 ([p. 64](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=64)): 
 
-> [Riley 2022, pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29): &lbrack;Since&rbrack; context manipulations are not recorded in the terms, typechecking a term can be difficult. First, it is not always obvious when and how the contraction rule has to be applied, and secondly, it is not always obvious how the context has to be split into two pieces to apply $\multimap$-ELIM. Besides the challenge of typechecking, the combination of the weakening rule and the rules for the monoidal unit also breaks soundness for the intended semantics.
+> &lbrack;[Riley 2022, pp. 19](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=29)&rbrack;: &lbrack;Since&rbrack; context manipulations are not recorded in the terms, typechecking a term can be difficult. First, it is not always obvious when and how the contraction rule has to be applied, and secondly, it is not always obvious how the context has to be split into two pieces to apply $\multimap$-ELIM. Besides the challenge of typechecking, the combination of the weakening rule and the rules for the monoidal unit also breaks soundness for the intended semantics.
 
 > The various extensions of the αλ-calculus that have since appeared &lbrack;BO06; CPR08; SS04; Atk04&rbrack; do not resolve these issues. It is also not so clear how to add [[dependent types]] to this system and how dependency should behave between bunches.
 
-In reaction to this, [Riley (2022)](#Riley22Thesis) proposes an enhanced form of bunched type theory which is claimed to fix all these problems at least in the case that the second structural connective $\otimes$ is a [[multiplicative conjunction]] in a [[linear type theory]], hence for a form of [[dependent linear type theory]]. The key new ingredients in [Riley (2022)](#Riley22Thesis) to make this work are (1.) a [[classical modality]] $\natural$ which from any "parameterized linear type" projects out the underlying classical type and (2.) a decoration of bunched contexts by "color palettes" which keep explicit track of the bunching/tree structure. (On the other hand, especially the second point leads to a proliferation of [[inference rules]], but maybe that's what it takes.)
+Further developments had not resolved the fundamental issue:
+
+> {#UnsatisfactorySchöppStark} &lbrack;[Riley 2022, p. 91](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=101):&rbrack; Schöpp and Stark’s Bunched Dependent Type Theory &lbrack;[Schöpp & Stark (2004)](#SchöppStark04)&rbrack; &lbrack;admits&rbrack; no dependency across bunches. The corresponding monoidal pair type therefore requires the input types to be closed. &lbrack;...&rbrack; the monoidal unit is the terminal object. This is certainly not the case in &lbrack;linear&rbrack; models of interest.
+
+In reaction to this, [Riley (2022)](#Riley22Thesis) proposes an enhanced form of bunched type theory which is claimed to fix all these problems at least in the case that the second structural connective $\otimes$ is a [[multiplicative conjunction]] in a [[linear type theory]], hence for a form of [[dependent linear type theory]]. The key new ingredients in [Riley (2022)](#Riley22Thesis) to make this work are: 
+
+1. a [[classical modality]] $\natural$ which from any "parameterized linear type" projects out the underlying classical type;
+
+2. a decoration of bunched contexts by "color palettes" which keep explicit track of the bunching/tree structure. 
+
+  (On the other hand, this second point leads to a proliferation of [[inference rules]], but maybe that's what it takes.)
 
 
 
@@ -107,7 +117,7 @@ In reaction to this, [Riley (2022)](#Riley22Thesis) proposes an enhanced form of
 
 ### Bunched implications
 
-In **bunched implications** logic ([O'Hearn & Pym (1999)](#O'HearnPym99)), the semicolon allows contraction and weakening while the comma does not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
+In **bunched implications** logic ([O'Hearn & Pym (1999)](#O'HearnPym99)), the semicolon allows contraction and weakening while the comma does not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the "" [[additive disjunction]] and moreover both come with a corresponding implication: the "additive" [[implication]] and the [[multiplicative implication]].
 
 ### Relevance logic
 
@@ -169,11 +179,12 @@ Review and further development:
 
 * Brotherston and Calcagno, *Classical BI: Its Semantics and Proof Theory*, [arxiv](http://arxiv.org/abs/1005.2340)
 
-A bunched [[dependent type theory]], reflecting contexts built not just from [[Cartesian products]] but also from [[tensor products]]:
+A bunched [[dependent type theory]], to some extent:
 
-* Ulrich Schöpp, Ian Stark, *A Dependent Type Theory with Names and Binding*, Computer Science Logic. CSL 2004. Lecture Notes in Computer Science **3210** (2004) &lbrack;[doi:10.1007/978-3-540-30124-0_20](https://doi.org/10.1007/978-3-540-30124-0_20)&rbrack;
+* {#SchöppStark04} [[Ulrich Schöpp]], [[Ian Stark]], *A Dependent Type Theory with Names and Binding*, Computer Science Logic. CSL 2004. Lecture Notes in Computer Science **3210** (2004) &lbrack;[doi:10.1007/978-3-540-30124-0_20](https://doi.org/10.1007/978-3-540-30124-0_20)&rbrack;
 
-and refinement to *dependent bunches*  for a [[dependent linear types|dependent linear]] [[homotopy type theory|homotopy types]]:    
+
+Further refinement to *dependent bunches*  for a [[dependent linear types|dependent linear]] [[homotopy type theory|homotopy types]]:    
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
