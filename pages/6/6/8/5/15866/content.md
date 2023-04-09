@@ -70,7 +70,7 @@ See also the case of [[Batalin-Vilkovisky algebra]].
 
 ## References
 
-* Dmitri Tamarkin, Boris Tsygan, _Noncommutative differential calculus, homotopy BV algebras and formality conjectures_, Metods of Functional Analysis and topology, 1, 2001 [arxiv:math.KT/0002116v1](http://arxiv.org/abs/math/0002116v1)
+* Dmitri Tamarkin, Boris Tsygan, _Noncommutative differential calculus, homotopy BV algebras and formality conjectures_, Metods of Functional Analysis and topology, 1, 2001 [arXiv:math.KT/0002116v1](https://arxiv.org/abs/math/0002116v1)
 
 * R. Nest, B. Tsygan, _On the cohomology ring of an algebra_, Advances in geometry, Progr. Math. __172__, Birkhauser 1999, pp. 337&#8211;370 [arxiv:math.QA/9803132](http://arxiv.org/abs/math/9803132)
 
@@ -82,10 +82,11 @@ See also the case of [[Batalin-Vilkovisky algebra]].
 Many examples of such noncommutative differential calculi are constructed using [[Hopf algebroid]]s 
 (Schauenburg's version) in works
 
-* Niels Kowalzig, _Gerstenhaber and Batalin-Vilkovisky structures on modules over operads_, [arxiv:1312.1642](http://arxiv.org/abs/1312.1642);
-_Batalin-Vilkovisky algebra structures on (Co)Tor and Poisson bialgebroids_ [arXiv:1305.2992](http://arxiv.org/abs/1305.2992)
+* Niels Kowalzig, _Gerstenhaber and Batalin-Vilkovisky structures on modules over operads_, [arxiv:1312.1642](https://arxiv.org/abs/1312.1642);
+_Batalin-Vilkovisky algebra structures on (Co)Tor and Poisson bialgebroids_ [arXiv:1305.2992](https://arxiv.org/abs/1305.2992)
 
-* Niels Kowalzig, Ulrich Kraehmer, _Batalin-Vilkovisky structures on Ext and Tor_,  [arxiv:1203.4984](http://arxiv.org/abs/1203.4984)
+* [[Niels Kowalzig]], [[Ulrich Kraehmer]], _Batalin-Vilkovisky structures on Ext and Tor_,   Journal für die reine und angewandte Mathematik 697 (2014)
+[doi](https://doi.org/10.1515/crelle-2012-0086) [arXiv:1203.4984](https://arxiv.org/abs/1203.4984)
 
 
 [[!redirects noncommutative calculus]]
