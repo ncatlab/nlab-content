@@ -22,6 +22,8 @@ Notable examples of classical lattices (in $\mathbb{R}^n$) include
 
 * [[Leech lattice]], [[E8 lattice]] 
 
+* [[Niemeier lattice]]
+
 The standard diagonal inclusion of a [[global field]] (such as a [[number field]]) $k$ into its [[ring of adeles]] $A_k$ is a lattice in the more general sense. Recalling that $A_k$ is Pontryagin dual to itself, the lattice $k$ is identified with its dual lattice. 
 
 
