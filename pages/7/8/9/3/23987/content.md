@@ -330,6 +330,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:1910.07443](https://arxiv.org/abs/1910.07443), [arXiv:1910.07444](https://arxiv.org/abs/1910.07444), [arXiv:1910.07516](https://arxiv.org/abs/1910.07516)
 
+  video: [YT](https://www.youtube.com/watch?v=StRyIjpER9I)
+
   > I will describe how the spaces that record [[symmetry breaking]] data in a $U(n)$-[[gauge theory]] (for arbitrary $n$) can be used to construct [[homotopy types]] that are [[link invariant|invariants for links]] in $\mathbb{R}^3$. In particular, I will show how one may recover [[Khovanov-Rozansky link homology]] and $\mathfrak{sl}(n)$ [[link homology]] by evaluating this homotopy type under suitable [[Whitehead-generalized cohomology|cohomology theories]].
 
 
@@ -453,13 +455,13 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **The geometric cobordism hypothesis**
 
-  slides: [pdf](https://dmitripavlov.org/nyuad.pdf) [[Pavlov-GCHatCQTS.pdf:file]]
+  slides: [pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]]
 
   cf.: [arXiv:2011.01208](https://arxiv.org/abs/2011.01208), [arXiv:2111.01095](https://arxiv.org/abs/2111.01095)
 
-  > I will explain my recent joint work with [[Daniel Grady]] on [[local field theory|locality]] of [[functorial field theories]] ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208)) and the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms) ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095)). The latter generalizes the Baez–Dolan [[cobordism hypothesis]] to non-[[topological field theories]], in which [[bordisms]] can be equipped with geometric [[structures]], such as [[smooth maps]] to a fixed [[target space|target]] manifold, [[Riemannian metrics]], [[conformal structures]], [[principal bundles]] [[connection on a bundle|with connection]], or [[geometric string structures]]. Applications include a generalization of the [Galatius–Madsen–Tillmann–Weiss theorem](cobordism+category#GMTWTheorem), a solution to a [[What is an elliptic object?|conjecture of Stolz and Teichner]] on representability of [[concordance classes]] of [[functorial field theories]], and a construction of [[power operations]] on the level of field theories (extending the [recent work of Barthel-Berwick-Evans-Stapleton](https://arxiv.org/abs/2006.09943)). 
+  > I will explain my recent joint work with [[Daniel Grady]] on [[local field theory|locality]] of [[functorial field theories]] ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208)) and the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms) ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095)). The latter generalizes the Baez–Dolan [[cobordism hypothesis]] to non-[[topological field theories]], in which [[bordisms]] can be equipped with [[geometry|geometric]] [[structures]], such as [[smooth maps]] to a fixed [[target space|target]] [[smooth manifold|manifold]], [[Riemannian metrics]], [[conformal structures]], [[principal bundles]] [[connection on a bundle|with connection]], or [[geometric string structures]]. Applications include a generalization of the [Galatius–Madsen–Tillmann–Weiss theorem](cobordism+category#GMTWTheorem), a solution to a [[What is an elliptic object?|conjecture of Stolz and Teichner]] on [[representable functor|representability]] of [[concordance classes]] of [[functorial field theories]], and a construction of [[power operations]] on the level of [[functorial field theory|field theories]] (extending the [recent work of Barthel-Berwick-Evans-Stapleton](https://arxiv.org/abs/2006.09943)). 
 
-  > I will illustrate the general theory by constructing the [[prequantum field theory|prequantum]] [[Chern-Simons theory]] as a fully extended nontopological functorial field theory.
+  > I will illustrate the general theory by constructing the [[prequantum field theory|prequantum]] [[Chern-Simons theory]] as a [[extended functorial field theory|fully extended]] nontopological [[functorial field theory]].
 
   > If time permits, I will discuss the ongoing work on defining [[quantization]] of field theories in the setting of the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
 
@@ -957,7 +959,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 ## Geometry, Topology & Physics (GTP) Seminar
  {#GTPSeminar}
 
-Weekly seminar, broadly on topics in [[geometry]], ([[algebraic topology|algebraic]]) [[topology]] and [[theoretical physics|theoretical]]/[[mathematical physics]], with some focus on applicability to [[high energy physics]]/[[string theory]] and [[quantum systems]].
+Weekly seminar, broadly on topics in [[geometry]], ([[algebraic topology|algebraic]]) [[topology]] and [[theoretical physics|theoretical]]/[[mathematical physics]], with focus on applicability to [[high energy physics]]/[[string theory]] and [[quantum systems]].
 
 \linebreak
 
