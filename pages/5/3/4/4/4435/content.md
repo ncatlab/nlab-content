@@ -67,6 +67,8 @@ There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], w
 
 * [[equivariant de Rham cohomology]]
 
+* [[noncommutative differential calculus]] (in the sense of Tsygan, Tamarkin and Nest)
+
 ## References
 
 Named after [[Élie Cartan]].
