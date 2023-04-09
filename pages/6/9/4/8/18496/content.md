@@ -125,7 +125,7 @@ precisely if the following condition holds
       \;\leq\;
       C 
       \underset{ {\vert \alpha \vert \leq k} }{\sum} 
-      \underset{x \in K}{sup} \vert \partial^\alpha K \vert
+      \underset{x \in K}{sup} \vert \partial^\alpha \Phi \vert
     \right)
   $$
 
