@@ -9,7 +9,7 @@ A [[unimodular integral lattice]] in $\mathbb{R}^{24}$. Related to the [[monster
 
 ## Related concepts
 
-* [[E8 lattice]]
+* [[E8 lattice]], [[Niemeier lattice]]
 
 * [[bosonic string theory]]
 
