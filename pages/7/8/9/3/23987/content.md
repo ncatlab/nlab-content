@@ -343,6 +343,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2010.16263](https://arxiv.org/abs/2010.16263)
 
+  slides: [[Gukov-at-QFTAndCobordism2023.pdf:file]]
+
   video: [YT](https://www.youtube.com/watch?v=dHkGJIP1u4U)
 
 \linebreak
@@ -384,6 +386,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2210.04286](https://arxiv.org/abs/2210.04286) and *[[super Chern-Simons theory]]* 
 
+  slides: [[Young-at-QFTAndCobordism2023.pdf:file]]
+
   video: [YT](https://www.youtube.com/watch?v=m73KQCwXOrY)
 
   > [[Chern-Simons theory]], as [introduced by Witten](Chern-Simons+theory#Witten89), is a three dimensional [[quantum field theory|quantum]] [[gauge theory]] associated to a [[compact Lie group|compact]] [[simple Lie group]] and a [[level (Chern-Simons theory)|level]]. The mathematical model of this theory as a [[topological field theory]] was introduced by [[Reshetikhin-Turaev construction|Reshetikhin and Turaev]] and is at the core of modern [[quantum topology]]. The goal of this talk is to explain a non-[[semisimple category|semisimple]] modification of the [[Reshetikhin-Turaev construction|construction of Reshetikhin and Turaev]] which realizes Chern-Simons theory with gauge [[supergroup]] $U(1\vert 1)$, as studied in the physics literature by Rozansky-Saleur and Mikhaylov. The key new algebraic structure is a relative [[modular tensor category|modular structure]] on the [[category of representations]] of the [[quantum group]] of $\mathfrak{gl}(1\vert 1)$. Based on joint work with [[Nathan Geer]].
@@ -409,6 +413,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2208.04344](https://arxiv.org/abs/2208.04344) and  *[[homotopical AQFT]]*
 
+  slides: [[Schenkel-at-QFTAndCobordism2023.pdf:file]]
+
   > This talk provides an introduction and survey of recent developments in [[AQFT|algebraic QFT]] on [[Lorentzian manifolds]]. I will outline an [[axiom|axiomatization]] of such [[QFTs]] in terms of [[operad]] theory and illustrate this formalism through classification results in low dimensions. One of the central axioms is a certain local constancy condition, called the [[time-slice axiom]], that encodes a concept of time evolution. Using [[model category|model categorical]] [[localization of model categories|localization]] techniques, I will show that this i.g. [[homotopy]]-[[coherence|coherent]] time evolution admits a [[rectification|strictification]] in many relevant cases. I will conclude this talk by explaining similarities and differences between [[AQFT|algebraic QFT]] and other approaches such as [[factorization algebras]] and [[functorial field theories]].
 
 \linebreak
@@ -429,6 +435,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2209.12933](https://arxiv.org/abs/2209.12933)
 
+  pdf: [[Fiorenza-at-QFTAndCobordism2023.pdf:file]]
+
   video: [YT](https://www.youtube.com/watch?v=6DUxyCgYFLw)
 
   > The third [[string bordism]] [[cohomology group|group]] [[third stable homotopy group of spheres|is known]] to be [[cyclic group|$\mathbb{Z}/$]][[24]]. Using [Waldorf's notion](differential+string+structure#Waldorf) of a [[geometric string structure]] on a manifold, Bunke-Naumann and Redden have exhibited integral formulas involving the [[Chern-Weil homomorphism|Chern-Weil form]] representative of the [[first Pontryagin class]] and the canonical 3-form of a [[geometric string structure]] that realize the [[isomorphism]] between the third [[string bordism]] group and $\mathbb{Z}/24$ (these formulas have been recently rediscovered by Gaiotto, Johnson-Freyd & Witten). In the talk I will show how these formulas naturally emerge when one considers the $U(1)$-valued 3d [[TQFTs]] associated with the [[moduli stack|classifying stacks]] of [[spin bundle|Spin bundles]] [[connection on a principal bundle|with connection]] and of [[string 2-group|String]] [[principal 2-bundle|bundles]] with [[differential string structure|geometric structure]]. Joint work with [[Eugenio Landi]] ([arXiv:2209.12933](https://arxiv.org/abs/2209.12933)).
@@ -441,6 +449,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2206.11475](https://arxiv.org/abs/2206.11475)
 
+  slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]]
+
   > The [[Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] action and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
 
 \linebreak
@@ -452,6 +462,18 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   cf.: [arXiv:2009.08624](https://arxiv.org/abs/2009.08624)
 
   > Quasi-alternating links represent an important class of [[links]] that has been [introduced by Ozsváth and Szabó](https://arxiv.org/abs/math/0309170) while studying the Heegaard Floer homology of the branched double-covers of alternating links. This new class of links, which share many [[Khovanov homology|homological properties]] with alternating links, is defined in a recursive way which is not easy to use in order to determine whether a given link is quasi-alternating. In this talk, we shall review the main obstruction criteria for quasi-alternating links. We also discuss how new examples of quasi-alternating links can constructed.
+
+\linebreak
+
+* [Khaled Qazaqzeh](https://math.sci.kuniv.edu.kw/people/faculty/khaled-qazaqezeh) (Kuwait University):
+
+  **On the Finiteness of Quasi-alternating Links**
+
+  slides: [[Qazaqzeh-at-QFTAndCobordism2023.pdf:file]]
+
+  > The generalization of alternating links to quasi-alternating links raises some natural questions that have affirmative answer in the class of alternating links. 
+
+  > In this talk, we discuss these questions and then we give an affirmative answer to one question without any assumption. As a consequence, we prove that one of these questions is solved in the affirmative iff Green's conjecture on the finiteness of quasi-alternating links of a given determinant holds.  Also, we prove that another question is solved in the affirmative implies Green's conjecture on the finiteness of quasi-alternating links of a given determinant holds.
 
 \linebreak
 
@@ -475,6 +497,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Deformation classes of invertible field theories and the Freed-Hopkins conjecture**
 
+  slides: [[Grady-at-QFTAndCobordism2023.pdf:file]]
+
   > In their [seminal paper](https://arxiv.org/abs/1604.06527), [Freed and Hopkins](#FreedHopkins21) proved a classification theorem that identifies deformation classes of certain [[invertible field theory|invertible]] [[topological field theories]] with the [[torsion subgroup]] of some [[Whitehead-generalized cohomology theory|generalized cohomology]] of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
 
 \linebreak
@@ -495,6 +519,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   **String-net methods for CFT correlators**
 
   cf.: [arXiv:2302.01468](https://arxiv.org/abs/2302.01468)
+
+  slides: [[Schweigert-at-QFTAndCobordism2023.pdf:file]]
 
   > Based on a [[string diagram|graphical calculus]] for [[pivotal category|pivotal]] [[bicategories]], we develop a [[string-net model|string-net construction]] of a [[modular functor]]. We show that a rigid separable Frobenius functor between strictly pivotal bicategories induces a [[linear map]] between the corresponding bicategorical string-net spaces that is compatible with the [[mapping class group]] [[group action|actions]] and with [[sewing constraint|sewing]]. This result implies that [[correlators]] of [[2d CFT|two-dimensional conformal field theories]] factorize over string-net spaces constructed from [[defect QFT|defect data]].
   
@@ -533,6 +559,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   **Nullifying Cobordism in Quantum Gravity**
 
   cf.: [arXiv:2208.01656](https://arxiv.org/abs/2208.01656), [arXiv:2303.03423](https://arxiv.org/abs/2303.03423)
+
+  slides: [[Blumenhagen-at-QFTAndCobordism2023.pdf:file]]
 
   > In the [[swampland]] program one tries to delineate [[effective quantum field theory|effective theories]] consistent with [[quantum gravity]] from those which are not by so-called swampland conjecture. As a consequence of the absence of [[global symmetries]] in [[quantum gravity|QG]], [one such conjecture](swampland#SwamplandCobordismConjecture) is saying that the [[cobordism group]] has to vanish. In mathematics very often these groups do not vanish right away. Physics tells us that this can be ameliorated by either [[gauge symmetry|gauging]] or [[symmetry breaking|breaking]] of the corresponding global symmetries.
 
@@ -934,6 +962,8 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   Zain Saleem (Argonne National Lab, USA)
 
   **Classical simulators as quantum error mitigators via circuit cutting**
+  
+  cf.: [arXiv:2212.07335](https://arxiv.org/abs/2212.07335)
    
   > We introduce an error mitigation framework that mitigates errors in a [[quantum circuit]] using circuit cutting. Our framework can be implemented in polynomial time for a wide variety of quantum circuits. Our technique involves cutting the circuit in such a way that we run the circuit that needs to be executed on the quantum hardware whereas the error mitigation circuit is run on a simulator. We perform error mitigation qubit by qubit and then provide a way to combine the different probabilities from each of the individual qubit error mitigation runs such that the full circuit is error mitigated. We apply our framework to the VQE hardware-efficient ansatz acheiving estimated ground state energies very close to the noise-free simulation results.
 
