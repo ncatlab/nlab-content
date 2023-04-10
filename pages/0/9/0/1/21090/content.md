@@ -44,6 +44,9 @@ Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is 
 
 (...)
 
+## Remarks
+
+* A Markov category can equivalently be defined as a semicartesian symmetric monoidal category that [[supply in a monoidal category|supplies]] commutative comonoids.
 
 ## Examples 
 
