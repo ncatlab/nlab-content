@@ -51,6 +51,8 @@ Note in particular that we do *not* require the morphisms of the category to be 
 
 * Note that the special commutative Frobenius algebras are not required to be "extra-special", meaning that the morphism $I = X^{\otimes 0} \to X^{\otimes 0} = I$ need not be the identity.  Thus, the relevant sort of "hypergraphs" can contain "edges not incident to any vertices".  If we add the extra-special condition, the cospans are replaced by "co-relations", i.e. jointly surjective cospans.
 
+* A hypergraph category can be equivalently defined as a symmetric monoidal category that [[supply in a monoidal category|supplies]] special commutative Frobenius algebras.
+
 ## Properties
 
 ### As monoids in a presheaf category
