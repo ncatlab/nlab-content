@@ -64,5 +64,7 @@ via [[AdS/CFT]] for [[Jackiw-Teitelboim gravity]]:
 
 * {#StanfordWitten19} [[Douglas Stanford]], [[Edward Witten]], _JT Gravity and the Ensembles of Random Matrix Theory_ ([arXiv:1907.03363](https://arxiv.org/abs/1907.03363))
 
+category: physics
+
 [[!redirects random matrix theory]]
 [[!redirects random matrices]]
