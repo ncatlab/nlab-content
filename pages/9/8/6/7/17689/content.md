@@ -18,7 +18,7 @@ See also wikipedia: [Jarzynski equality](https://en.wikipedia.org/wiki/Jarzynski
 
 See also azimuth: [Effective thermodynamics for a marginal observer](https://johncarlosbaez.wordpress.com/2018/05/08/effective-thermodynamics-for-a-marginal-observer) (2018) and articles listed therein, including M. Polettini, M. Esposito, _Effective fluctuation and response theory_, [arxiv/1803.03552](https://arxiv.org/abs/1803.03552)
 
-Related $n$Lab entries include [[statistical physics]], [[thermodynamics]], [[stochastic process]], [[Langevin equation]], [[Brownian motion]], [[white noise]]
+Related $n$Lab entries include [[statistical physics]], [[thermodynamics]], [[dissipation]], [[stochastic process]], [[Langevin equation]], [[Brownian motion]], [[white noise]]
 
 category: physics
 [[!redirects fluctuation-dissipation relation]]
