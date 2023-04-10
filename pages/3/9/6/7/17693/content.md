@@ -19,7 +19,7 @@ __Statistical mechanics__ is the theoretical study of systems with a large numbe
 
 ## Related entries
 
-* [[thermodynamics]]
+* [[thermodynamics]], [[ergodic theory]]
 
 * [[Brownian motion]]
 
@@ -29,11 +29,13 @@ __Statistical mechanics__ is the theoretical study of systems with a large numbe
 
 * [[stochastic process]]
 
-* [[fluctuation-dissipation theorem]]
+* [[dissipation]], [[fluctuation-dissipation theorem]]
 
 * [[random matrix theory]]
 
 * [[Euclidean field theory]]
+
+* [[KMS state]]
 
 category: physics
 
