@@ -261,6 +261,8 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
   * [[symmetric 2-group]], [[abelian ∞-group]]
 
+* [[supply in a monoidal category]]
+
 ## References
 
 Original references:
