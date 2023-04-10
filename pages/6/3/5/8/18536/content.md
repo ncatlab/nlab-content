@@ -35,6 +35,8 @@ On [[effective field theory]]-foundations of [[nuclear physics]] (introducing, a
 
 * [[Tomonaga-Schwinger equation]]
 
+* [[Schwinger-Keldysh formalism]]
+
 category: people
 
 [[!redirects Schwinger]]
