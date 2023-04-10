@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _vielbein_ or _solder form_ on a [[manifold]] $X$ is a linear identification of a [[tangent bundle]] with a [[vector bundle]] with explicit ([[pseudo-orthogonal structure|pseudo-]])[[orthogonal structure]].
+A _vielbein_ or _solder form_ on a [[manifold]] $X$ is a linear identification of the [[tangent bundle]] with a [[vector bundle]] with explicit ([[pseudo-orthogonal structure|pseudo-]])[[orthogonal structure]].
 
 Any such choice encodes a ([[pseudo-Riemannian metric|pseudo-]])[[Riemannian metric]] on $X$. 
 
@@ -35,7 +35,7 @@ There are different equivalent perspectives on the notion of vielbein that are c
 ### In terms of Cartan geometry
  {#InTermsOfCartanGeometry}
 
-Let $X$ be a [[smooth manifold]] of [[dimension]] $d$. For definitness we assume here that $X$ is [[orientation|oriented]], but this is not necessary.
+Let $X$ be a [[smooth manifold]] of [[dimension]] $d$. For definiteness we assume here that $X$ is [[orientation|oriented]], but this is not necessary.
 
 A [[Lie algebra valued 1-form]]
 
@@ -90,7 +90,7 @@ $$
 form the [[Jacobian matrix]] of [[smooth functions]]
 
 $$
-  ((\lambda_{i j})^{\mu}{}_{\mu})
+  ((\lambda_{i j})^{\mu}{}_{\nu})
   \coloneqq
   \left[\frac{d}{d x^\nu} \phi_j \circ \phi_i^{-1} (x^\mu)
   \right]
