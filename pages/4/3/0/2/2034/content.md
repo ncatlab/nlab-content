@@ -209,6 +209,8 @@ $$
 
 * [[Enrico Vitale]], _A Picard-Brauer exact sequence of categorical groups_, [pdf](http://www.math.ucl.ac.be/membres/vitale/cat-gruppi2.pdf)
 
+* Ana-L. Agore, [[Stefan Caenepeel]], Gigel Militaru,  _Braidings on the category of bimodules, Azumaya algebras and epimorphisms of rings_, Appl. Categor. Struct. 22, 29--42 (2014) [doi](https://doi.org/10.1007/s10485-012-9294-3)
+
 The observation that passing to [[derived algebraic geometry]] makes also the non-torsion elements in the "[[bigger Brauer group]]" $H^2_{et}(-,\mathbb{G}_m)$ be represented by (derived) Azumaya algebras is due to
 
 * {#Toen10} [[Bertrand Toën]], _Derived Azumaya algebras and generators for twisted derived categories_ ([arXiv:1002.2599](http://arxiv.org/abs/1002.2599))
