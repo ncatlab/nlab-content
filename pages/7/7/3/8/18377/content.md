@@ -63,7 +63,7 @@ See any of the references, particularly [(Walker)](#Decagons), who simplified th
 * Charles Walker, *Distributive laws via admissibility*, [arXiv:1706.09575](https://arxiv.org/abs/1706.09575)
  {#Walker}
 
-* Charles Walker. _Distributive laws, pseudodistributive laws and decagons_. arXiv preprint arXiv:2102.12468 (2021). {#Decagons}
+* Charles Walker. _Distributive laws, pseudodistributive laws and decagons_. [arXiv:2102.12468](https://arxiv.org/abs/2102.12468) (2021). {#Decagons}
 
 [[!redirects pseudo-distributive laws]]
 [[!redirects pseudodistributive law]]
