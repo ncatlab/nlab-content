@@ -1,11 +1,22 @@
-# Supply in a monoidal category
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Supply in a monoidal category
 * toc
 {: toc}
 
 ## Idea
 
-Suppose given some algebraic structure $P$ that there can be on an object of a [[symmetric monoidal category]], such as monoids, comonoids, etc.  We say that a symmetric monoidal category $C$ *supplies* $P$ if every object of $C$ is equipped with a $P$-structure, compatibly with the tensor product.  Importantly, the morphisms of $C$ are *not* all required to be $P$-homomorphisms.
+Consider a type $P$ of [[algebra|algebraic]] [[structure]] (such as [[monoid]]-structure, [[comonoid]]-structure,etc.)
+that may be put on an [[object]] of a [[symmetric monoidal category]].  We say that a symmetric monoidal category $C$ *supplies* $P$ if every object of $C$ can be equipped with such $P$-structure, compatibly with the given [[tensor product]].  Importantly, the morphisms of $C$ are *not* all required to be $P$-homomorphisms.
 
 ## Definition
 
@@ -28,7 +39,7 @@ The notion of "supply" does not satisfy the [[principle of equivalence]]: if $C\
 
 ## References
 
-* Brendan Fong and David I, Spivak, _Supplying bells and whistles in symmetric monoidal categories_, [arxiv](https://arxiv.org/abs/1908.02633), 2019
+* [[Brendan Fong]], [[David Spivak]], _Supplying bells and whistles in symmetric monoidal categories_, &lbrack;[arxiv:1908.02633](https://arxiv.org/abs/1908.02633)&rbrack;
 
 [[!redirects supplies in a monoidal category]]
 [[!redirects supply]]
