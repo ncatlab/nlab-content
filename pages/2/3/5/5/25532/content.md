@@ -15,7 +15,7 @@
 
 ## Idea
 
-Consider a type $P$ of [[algebra|algebraic]] [[structure]] (such as [[monoid]]-structure, [[comonoid]]-structure,etc.)
+Consider a type $P$ of [[algebra|algebraic]] [[structure]] (such as [[monoid]]-structure, [[comonoid]]-structure, etc.)
 that may be put on an [[object]] of a [[symmetric monoidal category]].  We say that a symmetric monoidal category $C$ *supplies* $P$ if every object of $C$ can be equipped with such $P$-structure, compatibly with the given [[tensor product]].  Importantly, the morphisms of $C$ are *not* all required to be $P$-homomorphisms.
 
 ## Definition
