@@ -1,7 +1,7 @@
 
 The document
 
-* [[Aise Johan de Jong]],  _The Stacks Project_ collaborative textbook project, $\gt 6000$ pages ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf))  ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* [[Aise Johan de Jong]],  _The Stacks Project_ collaborative textbook project, $\gt 7500$ pages ([online version](https://stacks.math.columbia.edu/), [pdf](https://stacks.math.columbia.edu/download/book.pdf))
 
 is a textbook that leads from basics of [[category theory]] and [[algebra]] to a discussion of [[scheme]]s, [[algebraic space]]s and [[algebraic stack]]s.
 
