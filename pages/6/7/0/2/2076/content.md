@@ -24,7 +24,7 @@ The theorem ([B&#233;nabou-Roubaud 70](#BenabouRoubaud70)) identifies the [[Eile
 
 A [[functor]] $P : F\to A$ is a [[Grothendieck opfibration]] if $P^{op}:F^{op}\to A^{op}$ is a [[Grothendieck fibration]], and a functor $P:F\to A$ is a __[[bifibration]]__ if $P$ is both a Grothendieck opfibration and fibration (no additional compatibility asked!). Thus we can talk about [[cartesian morphism|cartesian]] and [[cocartesian morphism|cocartesian]] arrows in $F$.
 
-In a bifibered category, automatically for any morphism $a:A_1\to A_0$ in the base, the "inverse image" (or "pullback" or "restriction") functor $a^*:F(A_0)\to F(A_1)$ is [[right adjoint]] to the "pushforward" functor $a_!:F(A_1)\to F(A_0)$; with unit $\eta^a : Id_{F(A_1)} \to a^* a_!$ and counit $\epsilon^a : a_! a^* \to Id_{F(A_0)}$.
+Given a bifibration  $P : F\to A$, automatically for any morphism $a:A_1\to A_0$ in $A$ the "inverse image" (or "pullback" or "restriction") functor $a^*:F(A_0)\to F(A_1)$ is [[right adjoint]] to the "pushforward" functor $a_!:F(A_1)\to F(A_0)$; with unit $\eta^a : Id_{F(A_1)} \to a^* a_!$ and counit $\epsilon^a : a_! a^* \to Id_{F(A_0)}$.
 
 (Note that in [[topos theory]] and [[algebraic geometry]], functors $a^*$ called "[[inverse images]]" usually have *right* adjoints $a_*$.  This situation can be reconciled with the setup of bifibrations either by taking fiberwise opposites, so that left and right adjoints are switched, or by taking opposites of both the base and total categories, so that the direct and inverse images are switched.  However, there are also many bifibrations arising in other contexts in which $a^*$ has both a left adjoint $a_!$ *and* a right adjoint $a_*$, although the latter cannot then be described cleanly in fibrational terms.)
 
