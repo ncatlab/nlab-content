@@ -54,8 +54,8 @@ Textbook accounts:
 
 See also:
 
-* [[Aise Johan de Jong]], Section 6.25 of _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
-{#deJong}
+* {#deJong} [[Aise Johan de Jong]], _[[The Stacks Project]]_, _Ringed spaces_, ([tag 0090](https://stacks.math.columbia.edu/tag/0090))
+
 
 
 [[!redirects ringed spaces]]
