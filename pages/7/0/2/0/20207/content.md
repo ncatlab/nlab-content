@@ -72,7 +72,7 @@ with exposition in:
 
 Exposition of [[homotopy type theory]]:
 
-* [[David Jaz Myers]], *How do you identify one thing with another? -- an intro to Homotopy Type Theory*, talk in Prof. [[Sadok Kallel]]'s seminar at American Univerity of Sharjah (10 Apr 2023) &lbrack;slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]&rbrack;
+* [[David Jaz Myers]], *How do you identify one thing with another? -- an intro to Homotopy Type Theory*, talk in Prof. [[Sadok Kallel]]'s seminar at American University of Sharjah (10 Apr 2023) &lbrack;slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]&rbrack;
 
 ## Related $n$Lab entries
 
