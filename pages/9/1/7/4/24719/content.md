@@ -8,7 +8,7 @@ Do not include recent references that are likely still to appear. If the author 
 |-----|------|--------|--------|---|
 | | [[Jon Beck]] | *Many sources* | The [[monadicity theorem]] | [PDF](https://ncatlab.org/nlab/files/Beck_MonadicityTheorem.pdf), provided by [[John Kennison]] |
 | *Formal Category Theory II* | [[John Gray]] | [[Topos Theory]] [168] | A "detailed account of [[internal categories]] from a [[2-category|2-categorical]] point of view" | According to [[Peter Johnstone]], a manuscript was never circulated |
-| | [[Claude Chevalley]] | [[Categories for the Working Mathematician]] | "A systematic treatment of all possible properties of [[limits]]" | |
+| | [[Claude Chevalley]] | [[Categories for the Working Mathematician]] | "A systematic treatment of all possible properties of [[limits]]" | According to [[Saunders Mac Lane]] in [[CWM]], the manuscript was lost by a shipping company |
 | *A note on a construction of Kleisli* (1965) | [[Michael Barr]] | *An outline of functorial semantics*, [[Fred Linton]] (1969) | Universal property of the Kleisli construction |Michael Barr no longer has a copy|
 | *Relative Functorial Semantics, III: Triples vs. Theories* (1974) | [[Fred Linton]] | *Functorial semantics and HSP type theorems*, [[Michael Barr]] (1994); *Monads of sets*, [[Ernest Manes]] (2003) | Characterisation of the [[Eilenberg--Moore category]] for an (enriched) monad as a [[pullback]] over [[presheaves]] on the [[Kleisli category]] | [[Linton_RelativeFunctorialSemanticsIII.pdf:file]], provided by [[Ernie Manes]] |
 | *J-adjonctions et J-monades* (1970) | [[Yves Diers]] | *Monades involutives complémentées* [21], [[René Guitart]] (1975) | [[relative monads|Relative monads]] and [[relative adjunctions]] | |
