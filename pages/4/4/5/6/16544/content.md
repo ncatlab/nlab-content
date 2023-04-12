@@ -36,7 +36,7 @@ $$
  \,.
 $$
 
-Sometimes the term *co-Kleisli category* is encountered, but this is redundant, since there is only one notation of Kleisli category for a comonad.
+Sometimes the term *co-Kleisli category* is encountered, but this is redundant, since there is only one notion of Kleisli category for a comonad.
 
 ## Examples
  {#Examples}
