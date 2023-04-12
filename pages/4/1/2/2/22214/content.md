@@ -69,6 +69,19 @@ With regards to [[kernel methods]]:
 
 * [[Julien Mairal]], [[Jean-Philippe Vert]], *Machine Learning with Kernel Methods*, 2017 ([pdf](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/slides/master2017/master2017.pdf), [[MarailVertKernelMethods.pdf:file]])
 
+The following framework claims to relate to [[homotopy type theory]] 
+
+* Ben Goertzel, _Reflective metagraph [[rewriting system|rewriting]] as a foundation for an AGI "Language of Thought"_, [arXiv:2112.08272](https://arxiv.org/abs/2112.08272)
+
+On a definition of artificial *general* intelligence
+
+* S. Legg, M. Hutter, _Universal intelligence: a definition of machine intelligence_, Minds & Machines 17, 391--444 (2007) [doi](https://doi.org/10.1007/s11023-007-9079-x)
+
+* M. Hutter, _Universal artificial intelligence: sequential decisions based on algorithmic
+probability_, Springer 2005; book presentation [pdf](http://www.hutter1.net/ai/suaibook.pdf)
+
+* Shane Legg, _Machine super intelligence_, PhD thesis, 2008 [pdf](https://sonar.ch/documents/317954/files/2008INFO002.pdf)
+
 ### Quantum machine learning
  {#ReferencesQuantumMachineLearning}
 
