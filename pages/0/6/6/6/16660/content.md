@@ -55,11 +55,15 @@ Without the Vop&#283;nka principle the best results known so far require additio
 
 * J. Rosick&#253;, W. Tholen, 2003, 'Left-determined model categories and universal homotopy theories', _Transactions of the American Mathematical Society_, vol. 355, no. 09, pp. 3611-3623: doi:[10.1090/s0002-9947-03-03322-1](http://dx.doi.org/10.1090/s0002-9947-03-03322-1) {#RT}
 
-* J. Rosick&#253;, W. Tholen, 2008, 'Erratum to ``Left-determined model categories and universal homotopy theories''', _Transactions of the American Mathematical Society_, vol. 360, no. 11, pp. 6179-6179: doi:[10.1090/s0002-9947-08-04727-2](http://dx.doi.org/10.1090/s0002-9947-08-04727-2)
+* J. Rosick&#253;, W. Tholen, 2008, 'Erratum to "Left-determined model categories and universal homotopy theories"', _Transactions of the American Mathematical Society_, vol. 360, no. 11, pp. 6179-6179: doi:[10.1090/s0002-9947-08-04727-2](http://dx.doi.org/10.1090/s0002-9947-08-04727-2)
 
 * Marc Olschok, 2009, 'Left Determined Model Structures for Locally Presentable Categories', _Applied Categorical Structures_, vol. 19, no. 6, pp. 901-938: doi:[10.1007/s10485-009-9207-2](http://dx.doi.org/10.1007/s10485-009-9207-2) {#Olschok09}
 
 * {#G} [[Philippe Gaucher]], _Left determined model categories_, New York Journal of Mathematics **21** (2015), 1093-1115 ([nyjm:j/2015/21-50](http://nyjm.albany.edu/j/2015/21-50.html), [arXiv:1507.02128](https://arxiv.org/abs/1507.02128))
 
+* [[Simon Henry]], _Minimal model structures_, arXiv:2011.13408 (2020). ([abstract](https://arxiv.org/abs/2011.13408))
+
 [[!redirects left-determined model categories]]
+[[!redirects left-determined model structure]]
+[[!redirects left-determined model structures]]
 
