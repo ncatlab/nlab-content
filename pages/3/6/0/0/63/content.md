@@ -87,7 +87,7 @@ see also the references at _[[BRST]]_.
 
 A classical standard references for the Lagrangian formalism is
 
-* {#Henneaux90} [[Marc Henneaux]], _Lectures on the Antifield-BRST formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 ([pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
+* {#Henneaux90} [[Marc Henneaux]], _Lectures on the Antifield-BRST formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 (<a href="https://doi.org/10.1016/0920-5632(90)90647-D">doi</a> [pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
 
 Similarly the bulk of the textbook
 
