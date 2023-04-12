@@ -1568,6 +1568,22 @@ External presentations reporting on work at CQTS.
 
 \linebreak
 
+
+### Apr 2023
+
+* {#MyersApr2023} 10 Apr 2023
+
+  [[David Jaz Myers]]:
+
+  **How do you identify one thing with another? -- an intro to Homotopy Type Theory**
+
+  talk at Prof. [[Sadok Kallel]]'s colloquium,
+
+  American Univerity of Sharjah 
+
+  slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]
+
+
 \linebreak
 
 ***
