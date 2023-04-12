@@ -90,7 +90,7 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 ## References
 
-* {#CPR01}[[Aurelio Carboni]], [[Maria Cristina Pedicchio]], [[Jiri Rosicky]], _Syntactical Characterization of Various Locally Presentable Categories_ , JPAA **161** (2001) pp.65-90.
+* {#CPR01}[[Aurelio Carboni]], [[Maria Cristina Pedicchio]], [[Jiri Rosicky]], _Syntactic characterization of various classes of locally presentable categories_ , JPAA **161** (2001) pp.65-90.([zbMath entry](https://zbmath.org/0982.18006))
 
 * {#Gaeta74}[[Federico Gaeta]], _Introduction to Functorial Algebraic Geometry - After a Summer Course by A. Grothendieck: I Affine Algebraic Geometry_ , Suny Buffalo 1974. ([pdf scan](http://matematicas.unex.es/~navarro/res/ifag.pdf))
 
