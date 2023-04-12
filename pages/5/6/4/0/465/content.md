@@ -205,7 +205,7 @@ is not a regular epi in $Cat$. A very similar example is found at [Bednarczyk et
 
 Textbook accounts:
 
-* [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], Def. 7.71 in: *[[Abstract and Concrete Categories -- The Joy of Cats]]* John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+* [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], Def. 7.71 in: *[[Abstract and Concrete Categories -- The Joy of Cats]]* John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/))
 
 * {#Borceux94I} [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
