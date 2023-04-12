@@ -1579,7 +1579,7 @@ External presentations reporting on work at CQTS.
 
   talk at Prof. [[Sadok Kallel]]'s colloquium,
 
-  American Univerity of Sharjah 
+  American University of Sharjah 
 
   slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]
 
