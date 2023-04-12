@@ -7,7 +7,7 @@
 
 ## Idea
 
-An infinitary Lawvere theory is a generalisation of a [[Lawvere theory]] to allow infinitary operations.  As a motivating example, consider the theory of [[suplattices]], where we have, for every [[cardinal number]] $n$, an operation to take the [[supremum]] of $n$ elements.
+An infinitary Lawvere theory is a generalisation of a [[Lawvere theory]] to allow infinitary operations.  As a motivating example, consider the theory of [[suplattices]], where we have, for every [[cardinal number]] $\kappa$, an operation to take the [[supremum]] of $\kappa$-many elements.
 
 Size issues can be tricky for infinitary Lawvere theories.  Na&#239;vely, you would expect an infinitary Lawvere theory of [[complete lattices]] too, but there is none, because a smallness condition fails.  (This is connected to the nonexistence of [[free complete lattices]].)
 
