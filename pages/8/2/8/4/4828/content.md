@@ -107,7 +107,7 @@ It seems unlikely that these desiderata can be reconciled purely in the world of
 * {#PR97} [[John Power]] and [[Edmund Robinson]], _Premonoidal categories and notions of computation_, Math. Structures Comput. Sci., 7(5):453&#8211;468, 1997. Logic, domains, and programming languages (Darmstadt, 1995). 
  [PostScript](http://www.eecs.qmul.ac.uk/~edmundr/pubs/mscs97/premoncat.ps)
 
-* Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](http://fpl.cs.depaul.edu/ajeffrey/papers/premonA.pdf)
+* Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](https://web.archive.org/web/20120303033606if_/http://fpl.cs.depaul.edu/ajeffrey/papers/premonA.pdf)
 
 * {#SL13} [[Sam Staton]] and Paul Blain Levy, *Universal Properties of Impure Programming Languages*.  ACM Sigplan Notices, 2013, [doi](https://doi.org/10.1145/2480359.2429091).
 
