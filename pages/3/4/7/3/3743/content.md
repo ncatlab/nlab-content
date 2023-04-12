@@ -110,6 +110,11 @@ See also:
 
 > Tracelets are the intrinsic carriers of causal information in categorical rewriting systems. In this work, we assemble tracelets into a symmetric monoidal decomposition space, inducing a cocommutative Hopf algebra of tracelets. This Hopf algebra captures important combinatorial and algebraic aspects of rewriting theory, and is motivated by applications of its representation theory to stochastic rewriting systems such as chemical reaction networks. 
 
+The following [[machine learning]]-inspired rewriting systems for meta/hyper-graphs claim to be related to [[homotopy type theory]]
+
+* [[Ben Goertzel]], _Reflective metagraph rewriting as a foundation for an AGI "Language of Thought"_, [arXiv:2112.08272](https://arxiv.org/abs/2112.08272)
+* Xerxes D Arsiwalla, Jonathan Gorard, _Pregeometric spaces from Wolfram model rewriting systems as homotopy types_ [arXiv:2111.03460](https://arxiv.org/abs/2111.03460)
+
 category: combinatorics, algebra, computer science, logic
 [[!redirects rewriting]]
 [[!redirects rewriting system]]
