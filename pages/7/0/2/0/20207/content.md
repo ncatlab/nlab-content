@@ -70,7 +70,9 @@ with exposition in:
 
 * [[David Jaz Myers]], *Simplicial, Differential, and Equivariant Homotopy Type Theory*, talk at [[CQTS]] (Jan 2023) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uk0LXy5ub2YUpJPhYq5p7GvpZ2I8_CZaWHSpWvZgwuUyHeWjXgUj2AQd21K1WSJo90V5DrE0BVhl7NuB.QbyHhtPHaJVQUj2A?continueMode=true&_x_zm_rtaid=Xyx9WZFLQzyRzu0Oh-2mNQ.1675318497581.13147cc7929a947e978b29124a207f98&_x_zm_rhtaid=938)&rbrack;
 
+Exposition of [[homotopy type theory]]:
 
+* [[David Jaz Myers]], *How do you identify one thing with another? -- an intro to Homotopy Type Theory*, talk in Prof. [[Sadok Kallel]]'s seminar at American Univerity of Sharjah (10 Apr 2023) &lbrack;slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]&rbrack;
 
 ## Related $n$Lab entries
 
