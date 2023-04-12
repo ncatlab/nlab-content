@@ -402,7 +402,10 @@ Introduction and review:
 
 * {#Rijke19b} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
 
-An introduction to the notion of [[equivalence]] in HoTT is in
+* [[David Jaz Myers]], *How do you identify one thing with another? -- an intro to Homotopy Type Theory*, talk in Prof. [[Sadok Kallel]]'s seminar at American University of Sharjah (10 Apr 2023) &lbrack;slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]&rbrack;
+
+
+An introduction to the notion of [[equivalence]] in HoTT:
 
 * [[Andrej Bauer]], _Introduction to homotopy type theory_ (2019) &lbrack;[YT](https://www.youtube.com/playlist?list=PL-47DDuiZOMCRDiXDZ1fI0TFLQgQqOdDa)&rbrack;
 
