@@ -662,6 +662,9 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 [[!redirects categorical semantics of dependent types]]
 [[!redirects categorical semantics of dependent type theory]]
 
+[[!redirects categorical semantics for dependent types]]
+[[!redirects categorical semantics for dependent type theory]]
+
 
 [[!redirects categorical model of dependent types]]
 [[!redirects categorical models of dependent types]]
@@ -684,3 +687,6 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 [[!redirects contextual categories]]
 [[!redirects C-system]]
 [[!redirects C-systems]]
+
+
+
