@@ -51,7 +51,7 @@ where the first two rows and the middle two columns are triangles.
 
 * Every suspended category in which $S$ is an equivalence is triangulated. 
 
-* Under mild assumptions, the [[stable category]] of [[Quillen exact category]] $(A,E)$ is a suspended category. If $A$ is [[Frobenius category]] then $A$ is [[triangulated category]].
+* Under mild assumptions, the [[stable category]] of a [[Quillen exact category]] $(A,E)$ is a suspended category. If $A$ is a [[Frobenius category]], then $A$ is a [[triangulated category]].
 
 ## References
 
