@@ -7,7 +7,7 @@ There are many variants of a generalization of the concept of [[homogeneous spac
 
 Most often here one considers the homogeneous spaces for [[Hopf algebras]] (viewed as [[quantum group]]s). 
 
-Given a Hopf algebra $H$ and a right $H$-comodule $(E,\rho)$ (where $\rho:E\to E\otimes H$ is a right coaction), a subspace $A\subset E$ is __coinvariant subspace__ foir coaction $\rho$ if $\rho(A)\subset A\otimes H$. If $(E,\rho)$ is a $H$-[[comodule algebra]], viewed as a (formal dual to) noncommutative $Spec H$-space, one can consider its coinvariant subalgebras. If $H = E$ and $\rho = \Delta$ then the coinvariant subalgebras represent (the formal duals of) quantum homogenous spaces of the (formal dual of) $H$.
+Given a Hopf algebra $H$ and a right $H$-comodule $(E,\rho)$ (where $\rho:E\to E\otimes H$ is a right coaction), a subspace $A\subset E$ is __coinvariant subspace__ for coaction $\rho$ if $\rho(A)\subset A\otimes H$. If $(E,\rho)$ is a $H$-[[comodule algebra]], viewed as a (formal dual to) noncommutative $Spec H$-space, one can consider its coinvariant subalgebras. If $H = E$ and $\rho = \Delta$ then the coinvariant subalgebras represent (the formal duals of) quantum homogenous spaces of the (formal dual of) $H$.
 
 For example, a [[quotient Hopf algebra]] $B$ of $H$, with quotient map $\pi: H\to B$, can be considered as representing a quantum subgroup. Then $B$ coacts on $H$ by map $(id\circ\pi)\circ\Delta: H\to H\otimes B$. The space of $B$-[[coinvariant]]s gives an example of a coinvariant subalgebra in $H$. 
 
