@@ -21,7 +21,7 @@
 ###### Definition
 **(germ-determined $C^\infty$-ideal)**
 
-For $M$ a [[smooth manifold]], an [[ideal]] $I \,\subset\, C^\infty(M)$ in its [[C-infinity ring]] ([[smooth algebra]]) of [[smooth functions]] is called _germ determined_ if for any $f \in I$ such that the [[germ]] of $f$ at any point $x$ in the [[zero locus]] of $I$ in $M$ coincides with the [[germ]] of some element of $I$ at $x$, then $f$ itself belongs to $I$. 
+For $M$ a [[smooth manifold]], an [[ideal]] $I \,\subset\, C^\infty(M)$ in its [[C-infinity ring]] ([[smooth algebra]]) of [[smooth functions]] is called _germ determined_ if for any $f \in C^\infty(M)$ such that the [[germ]] of $f$ at any point $x$ in the [[zero locus]] of $I$ in $M$ coincides with the [[germ]] of some element of $I$ at $x$, then $f$ itself belongs to $I$. 
 
 =--
 
