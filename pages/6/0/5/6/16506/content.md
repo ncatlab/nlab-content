@@ -33,7 +33,7 @@ $$
 
 given by forming the [[internal hom]] out of $B$, hence the "space of functions" out of $B$. This is sometimes called the _function monad_.  Its [[unit of a monad|unit]] is given by sending values to [[constant functions]] with that value, and the monad operation is given by evaluating on the [[diagonal]].
 
-In the context of [[monads in computer science]] this monad is called the _reader monad_ or _environment monad_. It serves to write programs in which all operations may "read in" a state of type $W$ (an "environment").
+In the context of [[monads in computer science]] this monad is called the _reader monad_ or _environment monad_. It serves to write programs in which all operations may "read in" a state of type $B$ (an "environment" variable).
 
 ## Definition
  {#Definition}
@@ -293,7 +293,7 @@ $$
 ### Via base change
  {#DefinitionViaBaseChange}
 
-For $B \in Sets$, write $\mathcal{C}_B$ for the category of $B$-[[indexed sets]] $(D_b)_{b \colon B}$ of [[objects]] of $\mathcal{C}$. (More generally, if $\mathcal{C}$ is a [[locally cartesian closed category]] ([[categorical semantics]] for [[dependent type theory]]), take $\mathcal{C}_B$ be the [[slice category]] over $B$.)
+For $B \in Sets$, write $\mathcal{C}_B$ for the category of $B$-[[indexed sets]] $(D_b)_{b \colon B}$ of [[objects]] of $\mathcal{C}$. (More generally, if $\mathcal{C}$ is a [[locally cartesian closed category]] ([[categorical semantics for dependent type theory]]), take $\mathcal{C}_B$ be the [[slice category]] over $B$.)
 
 The right [[base change]] [[adjoint functor|adjunction]] ([[context extension]] $\dashv$ [[dependent product]]) is
 
@@ -999,6 +999,7 @@ The [[quantum reader monad]] -- implicitly, in its incarnation as the $k^B$-Dual
 The account above follows:
 
 * {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)*, talk at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)* @ *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Nov 2022) &lbrack;[pdf](/schreiber/files/QuantumDataInLHoTT-221117.pdf)&rbrack;
+
 
 
 [[!redirects reader monads]]
