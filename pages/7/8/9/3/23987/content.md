@@ -1583,6 +1583,21 @@ External presentations reporting on work at CQTS.
 
   slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]
 
+\linebreak
+
+
+* [13 April 2023](https://researchseminars.org/talk/ToposInstituteColloquium/87/)
+
+  [[Urs Schreiber]]:
+
+  **[[schreiber:Quantum Certification via Linear Homotopy Types|Effective Quantum Certification via Linear Homotopy Types]] --- Part I** 
+
+  [talk at](https://researchseminars.org/talk/ToposInstituteColloquium/87/) [Colloquium of the *Topos Institute*](https://topos.site/topos-colloquium/)
+
+  slides: [pdf](https://ncatlab.org/schreiber/files/Schreiber-ToposInstitute-230413b.pdf) (view full screen)
+
+  video: [YT](https://www.youtube.com/watch?v=G24jHsx_BQE)
+
 
 \linebreak
 
