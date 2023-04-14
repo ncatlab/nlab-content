@@ -110,3 +110,6 @@ category: geometry
 
 [[!redirects rigid geometry]]
 [[!redirects rigid geometries]]
+
+[[!redirects non-archemedean analysis]]
+[[!redirects non-archimedean analysis]]
