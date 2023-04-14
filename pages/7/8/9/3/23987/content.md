@@ -957,13 +957,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* 10 Apr 2023
+* {#SaleemApr2023} 10 Apr 2023
 
   Zain Saleem (Argonne National Lab, USA)
 
   **Classical simulators as quantum error mitigators via circuit cutting**
   
   cf.: [arXiv:2212.07335](https://arxiv.org/abs/2212.07335)
+
+  video: [YT](https://www.youtube.com/watch?v=hOluuHpU-aY)
    
   > We introduce an error mitigation framework that mitigates errors in a [[quantum circuit]] using circuit cutting. Our framework can be implemented in polynomial time for a wide variety of quantum circuits. Our technique involves cutting the circuit in such a way that we run the circuit that needs to be executed on the quantum hardware whereas the error mitigation circuit is run on a simulator. We perform error mitigation qubit by qubit and then provide a way to combine the different probabilities from each of the individual qubit error mitigation runs such that the full circuit is error mitigated. We apply our framework to the VQE hardware-efficient ansatz acheiving estimated ground state energies very close to the noise-free simulation results.
 
@@ -1432,7 +1434,7 @@ Stone-von Neumann**
 
 \linebreak
 
-* 12 Apr 2023
+* {#LudewigApr2023} 12 Apr 2023
 
   [[Matthias Ludewig]] (University of Regensburg, Germany)
 
@@ -1440,7 +1442,9 @@ Stone-von Neumann**
 
   cf.: [arXiv:2206.09797](https://arxiv.org/abs/2206.09797)
 
-  > We will discuss the definition of the [[stringor bundle|spinor bundle on loop space]] and the construction of its fusion product, as suggested in a [2005 preprint by Stolz and Teichner](What+is+an+elliptic+object%3F#StolzTeichner2005). This is based on [work](stringor+bundle#KristelLudewigWaldorf22) by Kristel and Waldorf, involving some simplifications and additions due to myself.
+  video: [YT](https://www.youtube.com/watch?v=iiRm47HavRU)
+
+  > We will discuss the definition of the [[stringor bundle|spinor bundle on loop space]] and the construction of its fusion product, as suggested in a [2005 preprint by Stolz and Teichner](What+is+an+elliptic+object%3F#StolzTeichner2005). This is based on [work by Kristel and Waldorf](stringor+bundle#KristelLudewigWaldorf22), involving some simplifications and additions due to myself.
 
 \linebreak
 
