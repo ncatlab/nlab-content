@@ -20,16 +20,17 @@
 
 ## Idea
 
-A slight variant $\tilde Mot_{num}(k,\mathbb{Q})$ of the [[category of pure motives|category of pure]] [[numerical motives]] $Mot_{num}(k,\mathbb{Q})$ is a [[Tannakian category]] [[equivalence of categories|equivalent]] to a [[category of representations]] of some [[algebraic group]] $GMot_k$:
+Simply by changing the symmetry in the [[symmetric monoidal category|symmetric monoidal]] [[category of pure motives|category of pure]] [[numerical motives]] $Mot_{num}(k,\mathbb{Q})$, we can obtain a [[Tannakian category]] 
+$\tilde Mot_{num}(k,\mathbb{Q})$, which is thus [[equivalence of categories|equivalent]] to a [[category of representations]] of some [[algebraic group]] $GMot_k$:
 
 $$
   \tilde Mot_{num}(k,\mathbb{Q}) \simeq Rep(GMot_k)
   \,.
 $$
 
-In the sense of [[Galois theory]], that [[algebraic group]] is called the _motivic Galois group_ for pure motives. There is also a motivic Galois group of mixed motives. 
+In the sense of [[Galois theory]], this [[algebraic group]] is called the _motivic Galois group_ for pure motives. There is also a motivic Galois group of mixed motives. 
 
-That group is, or is closely related to, the group of algebraic _[[periods]]_, and as such is related to expressions appearing in [[deformation quantization]] and in [[renormalization]] in [[quantum field theory]], whence it is also sometimes referred to as the _[[cosmic Galois group]]_. See there for more on this.
+This group is, or is closely related to, the group of algebraic _[[periods]]_, and as such is related to expressions appearing in [[deformation quantization]] and in [[renormalization]] in [[quantum field theory]], whence it is also sometimes referred to as the _[[cosmic Galois group]]_. See there for more on this.
  
 
 ##(Mixed) Motivic Galois groups
