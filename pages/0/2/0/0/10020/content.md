@@ -96,6 +96,12 @@ Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT
 
 * {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
 
+Via [[factorization algebras]]:
+
+* {#GwilliamRabinovichWilliams2022} [[Owen Gwilliam]], [[Eugene Rabinovich]], [[Brian R. Williams]], *Factorization algebras and abelian CS/WZW-type correspondences*, Pure and Applied Mathematics Quarterly **18** 4 (2022) 1485–1553  &lbrack;[arXiv:2001.07888](https://arxiv.org/abs/2001.07888), [doi:10.4310/PAMQ.2022.v18.n4.a7](https://dx.doi.org/10.4310/PAMQ.2022.v18.n4.a7)&rbrack;
+
+
+
 [[!include 3d gravity and Chern-Simons theory -- references]]
 
 ### $AdS_3$/$CFT_2$
