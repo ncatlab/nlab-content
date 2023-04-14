@@ -10,5 +10,9 @@ On [[2-representations]] of the [[string 2-group]] on [[2-vector spaces]] and th
 
 * [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *A representation of the string 2-group*, &lbrack;[arXiv:2206.09797](https://arxiv.org/abs/2206.09797)&rbrack;
 
+Review:
+
+* [[Matthias Ludewig]], *The spinor bundle on loop space and its fusion product*, talk at [[CQTS]] (Apr 2023) &lbrack;[web](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#LudewigApr2023), video: [YT](https://www.youtube.com/watch?v=iiRm47HavRU)&rbrack;
+
 
 category: people
