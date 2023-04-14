@@ -967,6 +967,16 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
    
   > We introduce an error mitigation framework that mitigates errors in a [[quantum circuit]] using circuit cutting. Our framework can be implemented in polynomial time for a wide variety of quantum circuits. Our technique involves cutting the circuit in such a way that we run the circuit that needs to be executed on the quantum hardware whereas the error mitigation circuit is run on a simulator. We perform error mitigation qubit by qubit and then provide a way to combine the different probabilities from each of the individual qubit error mitigation runs such that the full circuit is error mitigated. We apply our framework to the VQE hardware-efficient ansatz acheiving estimated ground state energies very close to the noise-free simulation results.
 
+\linebreak
+
+* 17 Apr 2023
+
+  [[Piotr Sułkowski]] (University of Warsaw, Poland)
+
+  **Knots-quivers correspondence: summary and update**
+
+  > In this talk I will review the knots-quivers correspondence and mention some recent developments in this regard. The [[knots-quivers correspondence]] is the statement that various invariants associated to a knot are encoded in the corresponding quiver. This statement follows from engineering both knots and quivers in related brane systems in string theory. Recent developements, which I will mention at least briefly, include understanding the structure of various quivers that correspond to the same knot, using topological recursion to determine quiver generating series and corresponding quiver A-polynomias, and finding a quiver representation of so-called Z-hat invariants.
+
 
 \linebreak
 
@@ -1431,6 +1441,16 @@ Stone-von Neumann**
   cf.: [arXiv:2206.09797](https://arxiv.org/abs/2206.09797)
 
   > We will discuss the definition of the [[stringor bundle|spinor bundle on loop space]] and the construction of its fusion product, as suggested in a [2005 preprint by Stolz and Teichner](What+is+an+elliptic+object%3F#StolzTeichner2005). This is based on [work](stringor+bundle#KristelLudewigWaldorf22) by Kristel and Waldorf, involving some simplifications and additions due to myself.
+
+\linebreak
+
+* [[Owen Gwilliam]] (University of Massachusetts, Amherst, USA)
+
+  **A bulk-boundary correspondence with factorization algebras**
+
+  cf.: [arXiv:2001.07888](https://arxiv.org/abs/2001.07888)
+
+  > [[factorization algebra|Factorization algebras]] provide a flexible language for describing the [[observables]] of a [[perturbative quantum field theory]], as shown in joint work with [[Kevin Costello]]. In [joint work with Eugene Rabinovich and Brian Williams](AdS3-CFT2+and+CS-WZW+correspondence#GwilliamRabinovichWilliams2022), we extended those constructions to a [[manifold with boundary]] for a special class of theories that includes, as an example, a perturbative version of the correspondence between chiral $U(1)$ currents on a Riemann surface and abelian Chern-Simons theory on a bulk 3-manifold. (These methods extend to interacting theories, thanks to the thesis of Rabinovich.) Given time, I'll sketch a systematic higher dimensional version for [[higher Chern-Simons theory|higher abelian CS theory]] on an oriented smooth manifold of dimension $4n+3$ with boundary a complex manifold of complex dimension $2n+1$. The talk is expository, and it can be redirected according to the audience's interests and requests.
 
 \linebreak
 
