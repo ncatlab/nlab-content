@@ -22,7 +22,7 @@
 ## Idea 
   {#Idea}
 
-In [[category theory]] and [[universal algebra]], a *mondacity theorem* serves to characterize/recognize whether a given [[functor]] is a [[monadic functor]].
+In [[category theory]] and [[universal algebra]], a *monadicity theorem* serves to characterize/recognize whether a given [[functor]] is a [[monadic functor]].
 
 
 ## Statement
