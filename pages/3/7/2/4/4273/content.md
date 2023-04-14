@@ -13,6 +13,10 @@ On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and rel
 
 * [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
 
+On the [[CS-WZW correspondence]] via [[factorization algebras]]:
+
+* {#GwilliamRabinovichWilliams2022} [[Owen Gwilliam]], [[Eugene Rabinovich]], [[Brian R. Williams]], *Factorization algebras and abelian CS/WZW-type correspondences*, Pure and Applied Mathematics Quarterly **18** 4 (2022) 1485–1553  &lbrack;[arXiv:2001.07888](https://arxiv.org/abs/2001.07888), [doi:10.4310/PAMQ.2022.v18.n4.a7](https://dx.doi.org/10.4310/PAMQ.2022.v18.n4.a7)&rbrack;
+
 
 
 ## Related entries
