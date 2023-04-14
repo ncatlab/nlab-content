@@ -9,13 +9,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Solid abelian groups are objects which form the basis of non-archimedean analysis in certain approaches to mathematics, such as [[condensed mathematics]]. 
+Solid abelian groups are objects which form the basis of [[non-archimedean analysis]] in certain approaches, such as in [[condensed mathematics]]. 
 
 ## Definition
 
