@@ -231,6 +231,8 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 * [[free bicompletion]]
 
+* [[conservative cocompletion]]
+
 ## References 
 
 * {#DayLack} [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
@@ -240,6 +242,10 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 
 * {#PT} [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+
+On strict free cocompletions:
+
+* Erwan Beurier, Dominique Pastor, and René Guitart. _Presentations of clusters and strict free-cocompletions_. [[Theory and Applications of Categories]] 36.17 (2021): 492-513. ([link](http://www.tac.mta.ca/tac/volumes/36/17/36-17abs.html))
 
 
 This reference might also give helpful clues:
