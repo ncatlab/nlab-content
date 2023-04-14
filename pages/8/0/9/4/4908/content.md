@@ -42,6 +42,7 @@ category: people
 
 [[!redirects Jiří Adámek]]
 [[!redirects Jiri Adamek]]
+[[!redirects Jiřı́ Adámek]]
 [[!redirects Adamek]]
 [[!redirects Adámek]]
  
