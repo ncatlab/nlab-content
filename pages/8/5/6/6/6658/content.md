@@ -51,7 +51,7 @@ Perhaps more surprising is:
 Effective descent morphisms are closed under pullback and composition.
 =--
 
-See ([ST](#ST)) and ([RST](#RST)) for proofs.
+See ([JT](#JT), 2.4), ([ST](#ST)) and ([RST](#RST)) for proofs.
 
 ## General case
 
@@ -107,6 +107,8 @@ Of course, there are also many effective descent morphisms relative to fibration
 
 
 ## References
+
+* {#JT} [[George Janelidze|G. Janelidze]], and [[Walter Tholen|W. Tholen]]. _How algebraic is the change-of-base functor?._ Category Theory: Proceedings of the International Conference held in Como, Italy, July 22–28, 1990. Springer Berlin Heidelberg, 1991.
 
 * {#ST} M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
  
