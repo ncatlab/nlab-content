@@ -411,6 +411,10 @@ For [[topological strings]] the [[path integral as a pull-push transform]] for t
 
 * {#Abramovich05} [[Dan Abramovich]], _Lectures on Gromov-Witten invariants of orbifolds_ ([arXiv:math/0512372](http://arxiv.org/abs/math/0512372))
  
+On orbifolds by [[2-groups]] in view of [[sigma-models]] inspired from [[string theory]]:
+
+* [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
+
 
 category: Lie theory
 
