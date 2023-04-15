@@ -73,12 +73,11 @@ Each of the following conditions is sufficient for guaranteeing that a functor $
 
 ## Examples
 
-+-- {: .num_example}
-###### Example
+\begin{example}
+\label{HomFunctor}
+The [[hom-functor]] $Hom(-,-) \colon \mathcal{A}^{op}\times \mathcal{A} \to Ab$ is additive in both arguments separately.
+\end{example}
 
-The [[hom-functor]] $Hom(-,-) \colon \mathcal{A}^{op}\times \mathcal{A} \to Ab$ is additive (and in both arguments separately).
-
-=--
 
 +-- {: .num_example}
 ###### Example
@@ -152,7 +151,7 @@ This is ([Watts, theorem 1](#Watts)),
 
 ## References
 
-* [[Charles Watts]], _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
- {#Watts}
+* {#Watts} Charles Watts, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society, **11** 1 (1960) 5-8 (1959) &lbrack;[jstor:2032707](http://www.jstor.org/stable/2032707)&rbrack;
+ 
 
 [[!redirects additive functors]]
