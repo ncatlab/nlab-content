@@ -50,6 +50,11 @@ Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
 
 * [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
 
+On [[orbifolds]] by [[2-groups]] in view of [[sigma-models]] inspired from [[string theory]]:
+
+* [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
+
+
 ## Selected talks
 
 * [[Eric Sharpe]], _Sigma models on gerbes_, talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1864sharpe.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1864shar.mp4))
