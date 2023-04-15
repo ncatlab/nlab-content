@@ -402,6 +402,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2301.00700](https://arxiv.org/abs/2301.00700)
 
+  video: [YT](https://www.youtube.com/watch?v=q5kynYxwTmk)
+
   > [[automata|Automata]] are important objects in theoretical [[computer science]]. I will describe how automata emerge from topological theories and [[TQFTs]] in dimension one and carrying [[defect QFT|defects]]. Conversely, given an automaton, there's a canonical Boolean TQFT associated with it. In those topological theories, one encounters pairs of a [[regular language]] and a circular regular language that describe the theory. 
 
 
@@ -415,6 +417,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   slides: [[Schenkel-at-QFTAndCobordism2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=YiQNAgcwZYQ)
+
   > This talk provides an introduction and survey of recent developments in [[AQFT|algebraic QFT]] on [[Lorentzian manifolds]]. I will outline an [[axiom|axiomatization]] of such [[QFTs]] in terms of [[operad]] theory and illustrate this formalism through classification results in low dimensions. One of the central axioms is a certain local constancy condition, called the [[time-slice axiom]], that encodes a concept of time evolution. Using [[model category|model categorical]] [[localization of model categories|localization]] techniques, I will show that this i.g. [[homotopy]]-[[coherence|coherent]] time evolution admits a [[rectification|strictification]] in many relevant cases. I will conclude this talk by explaining similarities and differences between [[AQFT|algebraic QFT]] and other approaches such as [[factorization algebras]] and [[functorial field theories]].
 
 \linebreak
@@ -424,6 +428,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   **The stringor bundle**
 
   cf.: [arXiv:2206.09797](https://arxiv.org/abs/2206.09797)
+
+  video: [YT](https://www.youtube.com/watch?v=wX99ZbMuyMA)
 
   >  The [[stringor bundle]] plays the role of the [[spinor bundle]], but in [[string theory]] instead of [[quantum mechanics]]. It has been anticipated in [[What is an elliptic object?|pioneering work of Stolz and Teichner]] as a [[vector bundle]] on [[loop space]]. I will talk about joint work with [[Matthias Ludewig]] and [[Peter Kristel]] that provides a fully rigorous and neat presentation of the stringor bundle as an associated 2-vector bundle, via a representation of the string 2-group on a [[von Neumann algebra]].
 
