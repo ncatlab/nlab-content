@@ -105,3 +105,9 @@ Here is some blog discussion about this topic:
   * _[Nekrasov on pure spinor superstring](http://golem.ph.utexas.edu/string/archives/000661.html)_
 
     _[Sheaves of CDOs](http://golem.ph.utexas.edu/string/archives/000668.html)_
+
+
+[[!redirects Berkovits string]]
+
+[[!redirects pure spinor superstring]]
+
