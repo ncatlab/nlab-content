@@ -919,13 +919,26 @@ Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https:/
  
 Lecture notes on principal bundles include
 
-* {#Mitchell}  Stephen A. Mitchell, _Notes on principal bundles and classifying spaces_, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
+* {#Mitchell}  [[Stephen A. Mitchell]], *Notes on principal bundles and classifying spaces* (2011) &lbrack;[pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]]&rbrack;
 
 
-### In general categories
+### Internal to more general categories
+ {#ReferencesInternalToMoreGeneralCategories}
 
-* [[Anders Kock]], _Fibre bundles in general categories_, Journal of Pure and Applied Algebra 56(3):233-245, 1989; _Generalized fibre bundles_, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics 1348, pp 194-207 (2006)
+Discussion of [[fiber bundles]] [[internalization|internal]] to [[finitely complete categories]]:
+
+* [[Anders Kock]], *Fibre bundles in general categories*, Journal of Pure and Applied Algebra **56** 3 (1989) 233-245 &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90059-5">doi:10.1016/0022-4049(89)90059-5</a>&rbrack;
+
+* [[Anders Kock]], *Generalized fibre bundles*, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics **1348** (2006) 194-207 &lbrack;[doi:10.1007/BFb0081359](https://doi.org/10.1007/BFb0081359)&rbrack;
+
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Part 2 of: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
+  > (in the generality of [[equivariant principal bundles]])
+
+See also:
+
 * C. Townsend, _Principal bundles as Frobenius adjunctions with application to geometric morphisms_, Math. Proc. Camb. Phil. Soc. 159(03) (2015), 433-444 [pdf](http://www.christophertownsend.org/Documents/Principal.pdf)
+
 
 * [[Tomasz Brzezinski]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213)
 
