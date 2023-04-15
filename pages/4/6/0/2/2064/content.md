@@ -140,9 +140,11 @@ Every [[locally trivial]] topological fiber bundle projection is a [[Serre fibra
 
 ## References
 
-Fiber bundles (then spelled fibre-bundles) were defined by [[Hassler Whitney]] in
+Fiber bundles (then spelled fibre-bundles) were originally defined in:
 
-* [[Hassler Whitney]], _On the theory of sphere-bundles_, Proceedings of the National Academy of Sciences 26:2 (1940), 148-153.  [doi](https://doi.org/10.1073/pnas.26.2.148).
+* [[Hassler Whitney]], *On the theory of sphere-bundles*, Proceedings of the National Academy of Sciences **26** 2 (1940) 148-153 &lbrack;[doi:10.1073/pnas.26.2.148](https://doi.org/10.1073/pnas.26.2.148)&rbrack;
+
+  > (with focus on [[sphere bundles]])
 
 Other sources:
 
@@ -164,13 +166,17 @@ Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenche
 
   > (in the context of [[homotopy theory]])
 
-
 With an eye towards application in [[mathematical physics]]:
 
 * [[Mikio Nakahara]], Chapter 9 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 * [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
+Discussion of fiber bundles [[internalization|internal]] to [[finitely complete categories]]:
+
+* [[Anders Kock]], *Fibre bundles in general categories*, Journal of Pure and Applied Algebra **56** 3 (1989) 233-245 &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90059-5">doi:10.1016/0022-4049(89)90059-5</a>&rbrack;
+
+* [[Anders Kock]], *Generalized fibre bundles*, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics **1348** (2006) 194-207 &lbrack;[doi:10.1007/BFb0081359](https://doi.org/10.1007/BFb0081359)&rbrack;
 
 [[!redirects fibre bundle]]
 [[!redirects standard fiber]]
