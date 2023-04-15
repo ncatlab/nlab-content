@@ -53,7 +53,7 @@ Further discussion includes
 
 * [[Dimitrios Tsimpis]], section 4.1. of _M-theory on eight-manifolds revisited: $N=1$ supersymmetry and generalized $Spin(7)$ structures_, JHEP 0604 (2006) 027 ([arXiv:hep-th/0511047](https://arxiv.org/abs/hep-th/0511047))
 
-* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _Spin(7)-manifolds in compactifications to four dimensions_, High Energ. Phys. (2014) 2014: 46 ([arXiv:1405.3698](https://arxiv.org/abs/1405.3698))
+* [[Mariana Graña]], [[Carlos S. Shahbazi]], [[Marco Zambon]], _Spin(7)-manifolds in compactifications to four dimensions_, High Energ. Phys. (2014) 2014: 46 ([arXiv:1405.3698](https://arxiv.org/abs/1405.3698))
 
 [[!redirects generalized Spin(7)-manifolds]]
 
