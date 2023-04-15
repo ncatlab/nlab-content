@@ -105,13 +105,13 @@ Computation rules are defined for function types:
 
 $$(f =_{A \to B}^\varsigma g) \equiv \prod_{a:A} \prod_{b:A} \prod_{q:(a =_A b)} (f(a) =_B^\varsigma g(b))$$
 
+Computation rules are defend for dependent function types:
+
+$$(f =_{\prod_{x:A} B(x)}^\varsigma g) \equiv \prod_{a:A} \prod_{b:A} \prod_{p:(a =_{A}^\varsigma b)} (f(a) =_{B}^{\varsigma,p} g(b))$$
+
 Computation rules are defend for dependent pair types:
 
 $$(s =_{\sum_{x:A} B(x)}^\varsigma t) \equiv \sum_{p:(\pi_1(s) =_A^\varsigma \pi_1(t))} (\pi_2(s) =_{B}^{\varsigma,p} \pi_2(t))$$
-
-Computation rules are defend for dependent pair types:
-
-$$(f =_{\prod_{x:A} B(x)}^\varsigma g) \equiv \prod_{a:A} \prod_{b:A} \prod_{p:(a =_{A}^\varsigma b)} (f(a) =_{B}^{\varsigma,p} g(b))$$
 
 ### Dependent Ap ###
 
