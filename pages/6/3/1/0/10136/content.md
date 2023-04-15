@@ -14,10 +14,14 @@ Introducing the term "[[cohomology]]":
 
 See also:
 
-* [[Hassler Whitney]], _On products in a complex_, Annals of Math. 39 (1938) 397–432 ([doi:10.2307/1968795](https://doi.org/10.2307/1968795))
+* [[Hassler Whitney]], _On products in a complex_, Annals of Math. **39** (1938) 397–432 &lbrack;[doi:10.2307/1968795](https://doi.org/10.2307/1968795)&rbrack;
+
+Early discussion of [[sphere bundles]] and introducing the general notion of [[fiber bundles]]:
+
+* [[Hassler Whitney]], *On the theory of sphere-bundles*, Proceedings of the National Academy of Sciences **26** 2 (1940) 148-153 &lbrack;[doi:10.1073/pnas.26.2.148](https://doi.org/10.1073/pnas.26.2.148)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Stiefel-Whitney class]], [[integral Stiefel-Whitney class]]
 
