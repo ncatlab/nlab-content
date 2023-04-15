@@ -35,7 +35,7 @@ On [[2-representations]] of the [[string 2-group]] on [[2-vector spaces]] and th
 
 Reviewed in:
 
-* [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023)&rbrack;
+* [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023), video:[YT](https://www.youtube.com/watch?v=wX99ZbMuyMA)&rbrack;
 
 
 
