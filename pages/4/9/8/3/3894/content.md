@@ -464,7 +464,7 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
 * [[Elena Babalic]], [[Calin Lazaroiu]], _Foliated eight-manifolds for M-theory compactification_, JHEP 01 (2015) 140 ([arXiv:1411.3148](https://arxiv.org/abs/1411.3148))
 
-* C. S. Shahbazi, _M-theory on non-Kähler manifolds_, JHEP 09 (2015) 178 ([arXiv:1503.00733](https://arxiv.org/abs/1503.00733))
+* [[Carlos S. Shahbazi]], _M-theory on non-Kähler manifolds_, JHEP 09 (2015) 178 &lbrack;[arXiv:1503.00733](https://arxiv.org/abs/1503.00733)&rbrack;
 
 * [[Elena Babalic]], [[Calin Lazaroiu]], _The landscape of $G$-structures in eight-manifold compactifications of M-theory_, JHEP 11 (2015) 007 ([arXiv:1505.02270](https://arxiv.org/abs/1505.02270))
 
