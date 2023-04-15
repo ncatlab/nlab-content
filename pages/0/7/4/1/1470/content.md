@@ -120,7 +120,7 @@ Monographs:
 
 * [[Martin Olsson]], *Algebraic Spaces and Stacks*, Colloquium Publications **62** (2016) &lbrack;[doi:10.1090/coll/062](https://doi.org/10.1090/coll/062), [ISBN:978-1-4704-2798-6](https://bookstore.ams.org/coll-62)&rbrack;
 
-
+* [[Frank Neumann]], *Algebraic Stacks and Moduli of Vector Bundles*, impa (2011) &lbrack;[pdf](https://impa.br/wp-content/uploads/2017/04/PM_36.pdf), [pdf](https://www.cimat.mx/~luis/seminarios/Pilas-algebraicas/neumann-Stacks.pdf)&rbrack;
 
 Course notes:
 
