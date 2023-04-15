@@ -226,3 +226,8 @@ Discussion of [[equivariant ordinary differential cohomology]]
 * Cheng-Yong Du Xiaojuan Zhao, _Spark and Deligne-Beilinson cohomology on orbifolds_, Journal of Geometry and Physics Volume 104, June 2016, Pages 277-290 ([doi:10.1016/j.geomphys.2016.02.011](https://doi.org/10.1016/j.geomphys.2016.02.011))
 
 * Cheng-Yong Du, Lili Shen, Xiaojuan Zhao, _Spark complexes on good effective orbifold atlases categorically_, Theory and Applications of Categories, 33(26):784-812, 2018 ([tac:33-26](http://www.tac.mta.ca/tac/volumes/33/26/33-26abs.html), [arXiv:1708.07551](https://arxiv.org/abs/1708.07551))
+
+Discussion of variants of [[differential concretification|differentially concretified]] [[infinity-stack|higher]] [[moduli stacks]] of [[ordinary differential cohomology]] (higher [[bundle gerbes with connection]]) with application to [[higher gauge theory]]:
+
+* [[Severin Bunk]], [[Carlos S. Shahbazi]], *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633](https://arxiv.org/abs/2304.06633)&rbrack;
+
