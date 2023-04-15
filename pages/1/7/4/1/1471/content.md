@@ -27,7 +27,7 @@ A **topological stack** is a [[geometric stack]] on the [[site]] [[Top]]: a [[to
 
 ## Definition
 
-Let [[Top]] be the [[category]] of [[compactly generated space]]s and [[continuous function]]. When equipped with a [[Grothendieck topology]] given by usual [[open cover]]s this becomes a [[subcanonical coverage|subcanonical]] [[large site]]. 
+Let [[Top]] be the [[category]] of [[compactly generated spaces]] and [[continuous function]]. When equipped with a [[Grothendieck topology]] given by usual [[open cover]]s this becomes a [[subcanonical coverage|subcanonical]] [[large site]]. 
 
 Consider the [[(2,1)-topos]] [[(2,1)-sheaves]]=[[stack]]s
 
@@ -108,7 +108,7 @@ Basics
 
 * {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf). [[CarchediDifferentiableStacks.pdf:file]])
 
-* [[David Carchedi]], _Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks_, Advances in Mathematics, Vol.229(6) (2012) 3339-3397, doi:[10.1016/j.aim.2012.02.006](http://dx.doi.org/10.1016/j.aim.2012.02.006), ([arXiv:0907.3925](http://arxiv.org/abs/0907.3925))
+* [[David Carchedi]], *Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks*, Advances in Mathematics **229** 6 (2012) 3339-3397 &lbrack;[doi:10.1016/j.aim.2012.02.006](http://dx.doi.org/10.1016/j.aim.2012.02.006), [arXiv:0907.3925](http://arxiv.org/abs/0907.3925)&rbrack;
 
 * Metzler, _Topological and smooth stacks_ ([arXiv:math/0306176](http://arxiv.org/abs/math/0306176))
 
@@ -125,7 +125,7 @@ On [[mapping stacks]] of [[topological stacks]]:
  
 and in the special case of [[free loop stacks]]:
 
-* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ ([arXiv:0712.3857](http://front.math.ucdavis.edu/0712.3857))
+* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ &lbrack;[arXiv:0712.3857](https://arxiv.org/abs/0712.3857)&rbrack;
 
 
 [[!redirects topological stack]]
