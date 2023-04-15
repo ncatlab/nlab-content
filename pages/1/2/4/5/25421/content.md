@@ -41,7 +41,7 @@ An actual construction appears in:
 
 Reviewed in: 
 
-* [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023)&rbrack;
+* [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023), video:[YT](https://www.youtube.com/watch?v=wX99ZbMuyMA)&rbrack;
 
 * [[Matthias Ludewig]], *The spinor bundle on loop space and its fusion product*, talk at [[CQTS]] (Apr 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#LudewigApr2023), video: [YT](https://www.youtube.com/watch?v=iiRm47HavRU)&rbrack;
 
