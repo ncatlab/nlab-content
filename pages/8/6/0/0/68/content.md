@@ -99,7 +99,8 @@ See also
 
 * [[Grégory Ginot]], _Introduction to Differentiable Stacks (and gerbes, moduli spaces ...)_, 2013 ([pdf](https://webusers.imj-prg.fr/~gregory.ginot/papers/DiffStacksIGG2013.pdf), [[GinotDifferentiableStacks.pdf:file]])
 
-* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~mat903/preprints/heinloth.pdf))
+* [[Jochen Heinloth]], *Notes on differentiable stacks* (2004) &lbrack;[pdf](https://math.nyu.edu/~tschinke/WS04/pdf/heinloth.pdf), [[Heinloth-DifferentiableStacks.pdf:file]]&rbrack;
+ 
 
 * [[Richard Hepworth]], _Vector fields and flows on differentiable stacks_ ([arXiv](http://arxiv.org/abs/0810.0979)).
 
