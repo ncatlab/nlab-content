@@ -86,7 +86,7 @@ with that of [[L-∞ algebras]].
 
 =--
 
-In this form this is ([Lurie, theorem 0.0.13](#Lurie)).
+In this form this is ([Lurie, theorem 0.0.13](#Lurie)), originally proved as ([Pridham, theorem 2.30 and proposition 4.42](#Pridham)).
 See at _[[model structure for L-∞ algebras]]_ for various other incarnations of this equivalence.
 
 
