@@ -75,7 +75,7 @@ Each of the following conditions is sufficient for guaranteeing that a functor $
 
 \begin{example}
 \label{HomFunctor}
-The [[hom-functor]] $Hom(-,-) \colon \mathcal{A}^{op}\times \mathcal{A} \to Ab$ is additive in both arguments separately.
+The [[hom-functor]] $Hom(-,-) \colon \mathcal{A}^{op}\times \mathcal{A} \to Ab$ is additive in both arguments separately (using the nature of [[biproducts]] and that [[hom-functors preserve limits]] in each variable separately).
 \end{example}
 
 
