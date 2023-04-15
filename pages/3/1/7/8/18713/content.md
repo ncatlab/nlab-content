@@ -18,5 +18,11 @@ On [[principal ∞-bundles]]:
 
 * [[Severin Bunk]], *Principal ∞-Bundles and Smooth String Group Models* ([arXiv:2008.12263](https://arxiv.org/abs/2008.12263))
 
+On variants of [[differential concretification|differentially concretified]] [[infinity-stack|higher]] [[moduli stacks]] of [[ordinary differential cohomology]] (higher [[bundle gerbes with connection]]) with application to [[higher gauge theory]]:
+
+* [[Severin Bunk]], [[Carlos S. Shahbazi]], *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633](https://arxiv.org/abs/2304.06633)&rbrack;
+
+
+
 
 category: people
