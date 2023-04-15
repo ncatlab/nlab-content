@@ -90,7 +90,7 @@ $$
 
 A good discussion of topological and differentiable stacks is around definition 2.3 in
 
-* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
+* [[Jochen Heinloth]], *Notes on differentiable stacks* (2004) &lbrack;[pdf](https://math.nyu.edu/~tschinke/WS04/pdf/heinloth.pdf), [[Heinloth-DifferentiableStacks.pdf:file]]&rbrack;
 
 Differentiable stacks are discussed in
 
