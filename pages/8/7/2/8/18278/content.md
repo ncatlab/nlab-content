@@ -22,7 +22,7 @@
 
 ## Idea
 
-One of the basic facts of [[category theory]] is that the [[hom-functor]] on a [[category]] $\mathcal{C}$ [[preserved limit|preserve]] [[limits]] in both [[variables]] (remembering that a limit in the first variable, due to contravariance, is actually a [[colimit]] in $\mathcal{C}$).
+One of the basic facts of [[category theory]] is that the [[hom-functor]] on a [[category]] $\mathcal{C}$ [[preserved limit|preserve]] [[limits]] in both [[variables]] separately (remembering that a limit in the first variable, due to contravariance, is actually a [[colimit]] in $\mathcal{C}$).
 
 ## Statement
 
