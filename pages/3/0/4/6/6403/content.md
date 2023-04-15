@@ -76,8 +76,9 @@ See also
 
 * &#214;zg&#252;r A&#231;&#305;k, _Field equations from Killing spinors_ ([arXiv:1705.04685](https://arxiv.org/abs/1705.04685))
 
-* Ángel Murcia, C. S. Shahbazi, 
-_Parallel spinors on globally hyperbolic Lorentzian four-manifolds_ ([arXiv:2011.02423](https://arxiv.org/abs/2011.02423))
+* [[Ángel Murcia]], [[Carlos S. Shahbazi]], *Parallel spinors on globally hyperbolic Lorentzian four-manifolds*, Ann Glob Anal Geom **61** (2022) 253–292 &lbrack;[arXiv:2011.02423](https://arxiv.org/abs/2011.02423), [doi:10.1007/s10455-021-09808-y](https://doi.org/10.1007/s10455-021-09808-y)&rbrack;
+
+  > (on [[globally hyperbolic Lorentzian manifolds]])
 
 
 Discussion relating to [[Killing vectors]] in [[supergeometry]] ([[superisometries]]) is in
