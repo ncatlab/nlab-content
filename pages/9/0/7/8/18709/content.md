@@ -435,7 +435,14 @@ These appear in the discussion of [[Thom spaces]] and hence of [[Thom spectra]],
 
 * [[twisted Cohomotopy]]
 
+
 ## References
+
+Early discussion of sphere bundles (and introducing the general notion of [[fiber bundles]]):
+
+* [[Hassler Whitney]], *On the theory of sphere-bundles*, Proceedings of the National Academy of Sciences **26** 2 (1940) 148-153 &lbrack;[doi:10.1073/pnas.26.2.148](https://doi.org/10.1073/pnas.26.2.148)&rbrack;
+
+
 
 With focus on [[3-sphere]]-fiber bundles over the [[4-sphere]] and the construction of [[exotic 7-spheres]]:
 
