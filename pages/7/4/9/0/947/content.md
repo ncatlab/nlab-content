@@ -17,7 +17,7 @@
 
 ### In sets
 
-The __complement__ $X \setminus S$ of a [[subset]] $S \subset X$ of a [[set]] $X$ is the set of ell [[elements]] of $X$ not contained in $S$: 
+The __complement__ $X \setminus S$ of a [[subset]] $S \subset X$ of a [[set]] $X$ is the set of all [[elements]] of $X$ not contained in $S$: 
 
 
 $$
