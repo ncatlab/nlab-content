@@ -57,7 +57,9 @@
 
 * Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
 
-* Ángel Murcia, C. S. Shahbazi, _Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity_ ([arXiv:1912.08723](https://arxiv.org/abs/1912.08723))
+* [[Ángel Murcia]], [[Carlos S. Shahbazi]], *Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity*, Journal of Geometry and Physics **158** (2020) &lbrack;[arXiv:1912.08723](https://arxiv.org/abs/1912.08723), [doi:10.1016/j.geomphys.2020.103868](https://doi.org/10.1016/j.geomphys.2020.103868)&rbrack;
+
+  > (relation to [[contact geometry]])
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
 
@@ -95,7 +97,7 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 * Yue-Zhou Li, Shou-Long Li, H. Lu, _Exact Embeddings of JT Gravity in Strings and M-theory_, Eur. Phys. J. C (2018) 78: 791 ([arXiv:1804.09742](https://arxiv.org/abs/1804.09742))
 
-* Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
+* [[Iosif Bena]], Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
 
 
 [[!redirects 6d supergravity]]
