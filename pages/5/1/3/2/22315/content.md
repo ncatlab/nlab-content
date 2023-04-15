@@ -22,3 +22,5 @@ Lecture notes on [[principal bundles]], their [[classifying spaces]], their [[un
 category: people
 
 [[!redirects Steve Mitchell]]
+
+[[!redirects Stephen A. Mitchell]]
