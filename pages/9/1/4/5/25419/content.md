@@ -10,7 +10,7 @@ Discussion of [[non-deterministic automata]] as 1-dimensional [[defect QFT|defec
 
 Review: 
 
-* [[Mee Seong Im]], *Correspondence between automata and one-dimensional Boolean topological theories and TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#ImMar2023)&rbrack;
+* [[Mee Seong Im]], *Correspondence between automata and one-dimensional Boolean topological theories and TQFTs*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#ImMar2023), video:[YT](https://www.youtube.com/watch?v=q5kynYxwTmk)&rbrack;
 
 
 category: people
