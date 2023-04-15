@@ -112,14 +112,25 @@ There is a canonical projection $\overline{\rho} \;\colon\; V// G \to \mathbf{B}
 
 * [[geometric invariant theory]]
 
-
 ## References
+ {#References}
 
-(...)
+The common construction of quotient stacks $X\sslash G$ via stacks of $G$-[[principal bundles]] equipped with $G$-[[equivariant maps]] to $X$ is considered for instance in:
+
+* [[Jochen Heinloth]], Exp. 1.5 in: *Notes on differentiable stacks* (2004) &lbrack;[pdf](https://math.nyu.edu/~tschinke/WS04/pdf/heinloth.pdf), [[Heinloth-DifferentiableStacks.pdf:file]]&rbrack;
+
+* [[Frank Neumann]], p. 28 in: *Algebraic Stacks and Moduli of Vector Bundles*, impa (2011) &lbrack;[pdf](https://impa.br/wp-content/uploads/2017/04/PM_36.pdf), [pdf](https://www.cimat.mx/~luis/seminarios/Pilas-algebraicas/neumann-Stacks.pdf)&rbrack;
+
+Discussion of sufficient conditions for this construction to really yield a [[stack]] (instead of just a [[prestack]]):
+
+* [[Elena Caviglia]], *Generalized principal bundles and quotient stacks* &lbrack;[arXiv:2302.07852](https://arxiv.org/abs/2302.07852)&rbrack;
+
+
+
+See also:
 
 * [[Jack Morava]], _Theories of anything_ ([arXiv:1202.0684](http://arxiv.org/abs/1202.0684))
 
-* [[J. Heinloth]], _Some notes on Differentiable stacks_([stacks] (https://www.uni-due.de/~hm0002/stacks.pdf))
 
 [[!redirects quotient stacks]]
 
