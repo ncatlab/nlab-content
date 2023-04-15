@@ -300,7 +300,7 @@ Break: 3:50-4:20 pm
 
 $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Nitu Kitchloo]], [[Daniel Berwick-Evans]], [[Adrian Clough]]
 
-[[Sachin Valera]], [Alonso Perez Lona](https://mathoverflow.net/users/172910/alonso-perez-lona), [[Urs Schreiber]] $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Daniel Grady]], [[Christoph Schweigert]]
+[[Sachin Valera]], [[Alonso Perez-Lona]], [[Urs Schreiber]] $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Daniel Grady]], [[Christoph Schweigert]]
 
 $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ [[Hisham Sati]], [[Konrad Waldorf]], [[Dmitri Pavlov]]
 
