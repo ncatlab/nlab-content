@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -116,7 +115,12 @@ There is a canonical projection $\overline{\rho} \;\colon\; V// G \to \mathbf{B}
 ## References
  {#References}
 
-The common construction of quotient stacks $X\sslash G$ via stacks of $G$-[[principal bundles]] equipped with $G$-[[equivariant maps]] to $X$ is considered for instance in:
+The definition of quotient stacks as [[stackifications]] of ([[(2,1)-presheaves|presheaves of]]) [[action groupoids]] is considered for instance in:
+
+* {#LaumontMoret-Bailly} [[Gérard Laumon]], [[Laurent Moret-Bailly]], Prop. 4.3.1 in: _Champs alg&#233;briques_, Ergebn. der Mathematik und ihrer Grenzgebiete **39**, Springer (2000) &lbrack;[doi:10.1007/978-3-540-24899-6](https://doi.org/10.1007/978-3-540-24899-6)&rbrack;
+
+
+The construction of quotient stacks $X\sslash G$ as [[prestacks]] of $G$-[[principal bundles]] equipped with $G$-[[equivariant maps]] to $X$ is considered for instance in:
 
 * [[Jochen Heinloth]], Exp. 1.5 in: *Notes on differentiable stacks* (2004) &lbrack;[pdf](https://math.nyu.edu/~tschinke/WS04/pdf/heinloth.pdf), [[Heinloth-DifferentiableStacks.pdf:file]]&rbrack;
 
