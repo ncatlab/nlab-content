@@ -69,8 +69,13 @@ $$
 
 ## References
 
-See the references at *[[ringed space]]* and *[[ringed topos]]*.
+In the generality of [[ringed toposes]]:
+
+* [[Alexander Grothendieck]], [[Jean-Louis Verdier]], Def. 13.1 of *Morphisme de topos annelés*, Section 13 in Exposé iv in: [[M. Artin]] et al., *Théorie des topos et cohomologie étale des schémas. Tome 1: Théorie des topos*, Séminaire de Géométrie Algébrique du Bois-Marie 1963–1964 ([[SGA 4]]), Lecture Notes in Mathematics __269__, Springer (1972) &lbrack;[doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf)&rbrack;
+
+See also the references at *[[ringed space]]* and *[[ringed topos]]*.
 
 [[!redirects comorphism]]
 
+[[!redirects comorphisms]]
 
