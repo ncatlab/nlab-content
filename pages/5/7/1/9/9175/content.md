@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -120,6 +121,11 @@ The common construction of quotient stacks $X\sslash G$ via stacks of $G$-[[prin
 * [[Jochen Heinloth]], Exp. 1.5 in: *Notes on differentiable stacks* (2004) &lbrack;[pdf](https://math.nyu.edu/~tschinke/WS04/pdf/heinloth.pdf), [[Heinloth-DifferentiableStacks.pdf:file]]&rbrack;
 
 * [[Frank Neumann]], p. 28 in: *Algebraic Stacks and Moduli of Vector Bundles*, impa (2011) &lbrack;[pdf](https://impa.br/wp-content/uploads/2017/04/PM_36.pdf), [pdf](https://www.cimat.mx/~luis/seminarios/Pilas-algebraicas/neumann-Stacks.pdf)&rbrack;
+
+* [[Michael Groechenig]], Def. 5.23 in: *Algebraic Stacks*, Lecture notes (2014) &lbrack;[web](http://individual.utoronto.ca/groechenig/stacks.html), [pdf](http://individual.utoronto.ca/groechenig/stacks.pdf), [[Groechenig-AlgebraicStacks.pdf:file]]&rbrack;
+
+* [[Daniel Halpern-Leistner]], Section 7.1 of: *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
+
 
 Discussion of sufficient conditions for this construction to really yield a [[stack]] (instead of just a [[prestack]]):
 
