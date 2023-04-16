@@ -540,6 +540,10 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
 
 ## References
 
+The original references:
+
+* {#Grothendieck60} [[Alexander Grothendieck]], *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire [[N. Bourbaki]] exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
+
 * [[A. Grothendieck]], M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ ([[SGA1]]), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203); published  version Documents Math&#233;matiques __3__, Soci&#233;t&#233; Math&#233;matique de France, Paris 2003)
 *  [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512) pp. 1--104 in Barbara Fantechi, Lothar G&#246;ttsche, Luc Illusie, Steven L. Kleiman, Nitin Nitsure, Angelo Vistoli, _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. 2005. x+339 pp. [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001) 
 
@@ -562,7 +566,7 @@ Making good use of this connection, we have:
 
 A survey, with lots of new results, of the categorical perspective on descent theory can be found in: 
 
-* [[George Janelidze]], [[Manuela Sobral]], [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
+* [[George Janelidze]], Manuela Sobral, [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
 
 
 Further developments with categorical perspectives and generalizations can be found in:
