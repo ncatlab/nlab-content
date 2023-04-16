@@ -44,10 +44,14 @@ A morphism of ringed toposes $(f, \eta) : (\mathcal{X}, \mathcal{O}_{\mathcal{X}
     (f^* \dashv f_*) : \mathcal{X} \to \mathcal{Y}
   $$
 
-* and a morphism of ring objects in $\mathcal{X}$
+* and a morphism ("[[comorphism]]") of ring objects in $\mathcal{X}$
 
   $$
-    \eta : f^* \mathcal{O}_{\mathcal{Y}} \to \mathcal{O}_{\mathcal{X}}
+    \eta 
+      \colon 
+    f^* \mathcal{O}_{\mathcal{Y}} 
+      \to 
+    \mathcal{O}_{\mathcal{X}}
   $$
 
   which is equivalently, by the $(f^* \dashv f_*)$-[[adjunction]], a morphism of ring objects
@@ -238,26 +242,24 @@ for $(\mathcal{Y}, \mathcal{O}_{\mathcal{Y}}) \stackrel{f_i}{\to} (\mathcal{X}_i
 
 ## References
 
-An original reference is
+Original references:
 
-* [[SGA]] IV 
+* [[Alexander Grothendieck]], [[Jean-Louis Verdier]], *Topos annelés, localisation dans les topos annelés*, Section 11 in Exposé iv in: [[M. Artin]] et al., *Théorie des topos et cohomologie étale des schémas. Tome 1: Théorie des topos*, Séminaire de Géométrie Algébrique du Bois-Marie 1963–1964 ([[SGA 4]]), Lecture Notes in Mathematics __269__, Springer (1972) &lbrack;[doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf)&rbrack;
 
-A systematic development of [[geometry]] internal to a ringed topos is discussed in
+* [[Monique Hakim]], Chapitre III in: *Topos annelés et schémas relatifs*, Ergebnisse der Mathematik und ihrer Grenzgebiete **64**, Springer (1972) &lbrack;[doi:10.1007/978-3-662-59155-0](https://doi.org/10.1007/978-3-662-59155-0)&rbrack; 
 
-* [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972). 
+See also:
 
-A textbook source is section 18.7 of 
+* {#deJong} [[Aise Johan de Jong]], section 18.7 of: _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 
-* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
-{#deJong}
 
 The generalization to [[structured (infinity,1)-toposes]] is due to
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
 
-See also
+See also references at *[[ringed space]]*, such as
 
-* [[eom]], _[Ringed spaces](http://eom.springer.de/R/r082460.htm)_
+* [[eom]], *[Ringed spaces](https://encyclopediaofmath.org/wiki/Ringed_space)*
 
 
 [[!redirects ringed toposes]]
