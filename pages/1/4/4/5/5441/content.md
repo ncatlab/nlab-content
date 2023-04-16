@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,15 +26,21 @@ This is the general notion of [[algebraic stack]]. But often the latter term is 
 
 ## References
 
-Artin stacks are named after [[Michael Artin]].
+The original article:
 
-See for instance
+* [[Michael Artin]], *Versal deformations and algebraic stacks*, Invent Math **27** (1974) 165–189 &lbrack;[doi:10.1007/BF01390174](https://doi.org/10.1007/BF01390174), [eudml:142310](https://eudml.org/doc/142310),  [pdf](http://math.uchicago.edu/~drinfeld/Artin_on_stacks.pdf)&rbrack;    
 
-* [[Gérard Laumon]], L. Moret-Bailly, _Champs alg&#233;briques_ , A series of Modern
-Surveys in Mathematics vol. 39, Springer-Verlag 2000.
+Review in the general context of [[algebraic stacks]]:
 
-* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
+* {#LaumontMoret-Bailly} [[Gérard Laumon]], [[Laurent Moret-Bailly]], _Champs alg&#233;briques_, Ergebn. der Mathematik und ihrer Grenzgebiete **39**, Springer (2000) &lbrack;[doi:10.1007/978-3-540-24899-6](https://doi.org/10.1007/978-3-540-24899-6)&rbrack;
 
-* [[Dennis Gaitsgory]], [[Nick Rozenblyum]], _[[A study in derived algebraic geometry]]_, Section I.2.4.
+* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_
+
+and in the broader context of [[derived algebraic geometry]]:
+
+* [[Dennis Gaitsgory]], [[Nick Rozenblyum]], Section I.2.4 in: *[[A study in derived algebraic geometry]]*
+
 
 [[!redirects Artin stacks]]
+
+
