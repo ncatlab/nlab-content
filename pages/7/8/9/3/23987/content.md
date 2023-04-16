@@ -471,7 +471,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 \linebreak
 
-* [Khaled Qazaqzeh](https://math.sci.kuniv.edu.kw/people/faculty/khaled-qazaqezeh) (Kuwait University):
+* {#QazaqzehMar2023} [Khaled Qazaqzeh](https://math.sci.kuniv.edu.kw/people/faculty/khaled-qazaqezeh) (Kuwait University):
 
   **On the Finiteness of Quasi-alternating Links**
 
