@@ -320,13 +320,17 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 ## References 
  {#References}
 
-The concept was introduced in the context of [[descent theory]] by [[Alexander Grothendieck]] in a [[Bourbaki]] seminar in 1959-60 ([numdam](http://www.numdam.org/numdam-bin/item?id=SB_1958-1960__5__299_0)) and then elaborated in expos&#233; VI of
+The concept was introduced in the context of [[descent theory]] in
 
-* [[Alexander Grothendieck]] , _Rev&#234;tements Etales et Groupe Fondamental - S&#233;minaire de G&#233;ometrie Alg&#233;brique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer Heidelberg 1971. (updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203))
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 300 in: *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire [[N. Bourbaki]] exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
+
+and then elaborated on in
+
+* [[Alexander Grothendieck]], expos&#233; VI of: _Rev&#234;tements Etales et Groupe Fondamental - S&#233;minaire de G&#233;ometrie Alg&#233;brique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
 
 Another important early reference is
 
-* {#Gray} [[John W. Gray]], *Fibred and Cofibred Categories*, in [[Samuel Eilenberg,Eilenberg]], Harrison, [[Saunders MacLane|MacLane]], Röhrl (eds.), *Proceedings of the Conference on Categorical Algebra - La Jolla 1965*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+* {#Gray} [[John W. Gray]], *Fibred and Cofibred Categories*, in [[Samuel Eilenberg|Eilenberg]], Harrison, [[Saunders MacLane|MacLane]], Röhrl (eds.), *Proceedings of the Conference on Categorical Algebra - La Jolla 1965*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 Textbook accounts:
 
