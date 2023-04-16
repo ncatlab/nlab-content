@@ -148,44 +148,48 @@ Special kinds of stacks include
 
 ## References
 
-The concept originates, under the French term _champ_, in 
+The concept originates (under the French term _champ_ and for the purpose of defining [[non-abelian cohomology]]) in:
 
-* {#Giraud66} [[Jean Giraud]], _Cohomologie non ab&#233;lienne_, Columbia University  (1966) ([GoogleBooks](https://books.google.de/books/about/Cohomologie_non_ab%C3%A9lienne.html?id=EQ1CAAAAIAAJ&redir_esc=y))
+* {#Giraud66} [[Jean Giraud]], _Cohomologie non ab&#233;lienne_, Columbia University  (1966) &lbrack;[GoogleBooks](https://books.google.de/books/about/Cohomologie_non_ab%C3%A9lienne.html?id=EQ1CAAAAIAAJ&redir_esc=y)&rbrack;
 
-  published as: Grundlehren 179, Springer Verlag (1971) ([doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071))
+  published as: Grundlehren **179**, Springer (1971) &lbrack;[doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071)&rbrack;
 
-and under the English term _stack_ in
+and under the English term _stack_ (for specialization to [[Deligne-Mumford stacks]]/[[orbifolds]]) in:
 
-* {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], _The irreducibility of the space of curves of given genus_, Publications Math&#233;matiques de l'IH&#201;S (Paris) 36: 75&#8211;109 (1969) ([numdam:PMIHES_1969__36__75_0](http://www.numdam.org/item?id=PMIHES_1969__36__75_0))
+* {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], *The irreducibility of the space of curves of given genus*, Publications Math&#233;matiques de l'IH&#201;S (Paris) **36**   (1969) 75-109 &lbrack;[doi:10.1007/BF02684599](https://doi.org/10.1007/BF02684599), [numdam:PMIHES_1969__36__75_0](http://www.numdam.org/item?id=PMIHES_1969__36__75_0)&rbrack;
 
+and in the context of [[classifying toposes]]:
 
 * [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics, vol 274. Springer (1972) ([doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964))
 
-Further early discussion includes
+Further early discussion:
 
-* [[Marta Bunge]], [[Robert Pare]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no.4 (1979) ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
+* [[Marta Bunge]], [[Robert Pare]], *Stacks and equivalence of indexed categories*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no.4 (1979) &lbrack;[numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
  
-* [[Marta Bunge]], _Stack completions and Morita equivalence for categories in a topos_, Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle xx-4, (1979)
-401-436, ([MR558106](http://www.ams.org/mathscinet-getitem?mr=558106), [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0))
+* [[Marta Bunge]], *Stack completions and Morita equivalence for categories in a topos*, Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle xx-4 (1979)
+401-436 &lbrack;[MR558106](http://www.ams.org/mathscinet-getitem?mr=558106), [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0)&rbrack;
 
-See also the references at _[[2-sheaf]]_.
+See also the references at *[[2-sheaf]]* and for considerably more literature see at *[[algebraic stack]]*.
  
 Review:
 
-* [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
+* [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ &lbrack;[arXiv:math/0212266](http://arxiv.org/abs/math/0212266)&rbrack;
 
-* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
+  > (including discussion of [[gerbes]])
 
-Discussion of stacks in their incarnation (under the [[Grothendieck construction]]) as [[Grothendieck fibrations]].
+* [[Jochen Heinloth]], *Notes on differentiable stacks* (2004) &lbrack;[pdf](https://math.nyu.edu/~tschinke/WS04/pdf/heinloth.pdf), [[Heinloth-DifferentiableStacks.pdf:file]]&rbrack;
 
-*  [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512) pp. 1--104 in Barbara Fantechi, Lothar G&#246;ttsche, Luc Illusie, Steven L. Kleiman, Nitin Nitsure, Angelo Vistoli, _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. 2005. x+339 pp. [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)  
+  > (focused on [[differentiable stacks]])
 
+Discussion of stacks in their incarnation (under the [[Grothendieck construction]]) as [[Grothendieck fibrations]]:
 
-A [[model category]] structure on [[presheaves of groupoids]], presenting stacks, by a [[Bousfield localization of model categories|localization]] of a [[model structure on simplicial presheaves]] (modeling [[∞-stacks]] before localization) is discussed in
+*  [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ &lbrack;[math.AG/0412512](http://arxiv.org/abs/math/0412512), [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406)&rbrack;  in: Fantechi et al. (eds.), _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)&rbrack;  
 
-* [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, Homotopy and Applications, vol. 3 (2), 2001, pp.361--384 ([euclid:hha/1139840259](https://projecteuclid.org/euclid.hha/1139840259))
+A [[model category]] structure on [[presheaves of groupoids]], presenting stacks, by a [[Bousfield localization of model categories|localization]] of a [[model structure on simplicial presheaves]] (modeling [[∞-stacks]] before localization):
 
-* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_, Israel Journal of Mathematics, 163(1), 93-124  (2008) ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5))
+* [[John F. Jardine]], *Stacks and the homotopy theory of simplicial sheaves*, Homology, Homotopy and Applications, **3** 2  (2001) 361-384 &lbrack;[euclid:hha/1139840259](https://projecteuclid.org/euclid.hha/1139840259)&rbrack;
+
+* {#Hollander01} [[Sharon Hollander]], *A homotopy theory for stacks*, Israel Journal of Mathematics **163** 1 (2008) 93-124 &lbrack;[arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5)&rbrack;
 
 [[!redirects stack*]]
 [[!redirects stacks]]
