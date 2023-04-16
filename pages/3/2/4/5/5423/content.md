@@ -7,6 +7,10 @@ His father was [[Emil Artin]].
 
 ## Selected writings
 
+On [[algebraic stacks]] and introducing what came to be known as *[[Artin stacks]]*:
+
+* [[Michael Artin]], *Versal deformations and algebraic stacks*, Invent Math **27** (1974) 165–189 &lbrack;[doi:10.1007/BF01390174](https://doi.org/10.1007/BF01390174), [eudml:142310](https://eudml.org/doc/142310),  [pdf](http://math.uchicago.edu/~drinfeld/Artin_on_stacks.pdf)&rbrack;    
+
 Introducing [[Artin-Mazur formal groups]]:
 
 * {#ArtinMazur77} [[Michael Artin]], [[Barry Mazur]], _Formal Groups Arising from Algebraic Varieties_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 10 no. 1 (1977), p. 87-131  ([numdam:ASENS_1977_4_10_1_87_0](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663))
