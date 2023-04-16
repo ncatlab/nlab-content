@@ -260,16 +260,9 @@ Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
 cartesian closed]] ([Cagliari-Matovani-Vitale 1995, p. 4](#CagliariMatovaniVitale95))
 
-{#PartialLocalCartesianClosure} However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the pullback functor $K/B\to K/A$ has a right adjoint. (see [Booth & Brown 1978a, Thm. 3.5](#BoothBrown78a); [May & Sigurdsson 2006, §1.3.7-§1.3.9](#MaySigurdsson06)).
+{#PartialLocalCartesianClosure} However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the [[pullback]] ([[base change]]) [[functor]] $K_{/B} \to K_{/A}$ has a [[right adjoint]]. (see [Booth & Brown 1978a, Thm. 3.5 & 7.3](#BoothBrown78a); [May & Sigurdsson 2006, §1.3.7-§1.3.9](#MaySigurdsson06)).
 
-There is still a lot of work on fibred exponential
-laws and their applications. One reason for the success and
-difficulties is that it is easy to give a topology on the space of
-closed subsets of a space $X$ by regarding this as the space of maps
-to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1\}$
-is closed but not open). From this one can get an [[exponential law for
-spaces]] over $B$ if $B$ is $T_0$, so that all fibres of spaces over
-$B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
+There is still a lot of work on fibred exponential laws and their applications. One reason for the success and difficulties is that it is easy to give a topology on the space of closed subsets of a space $X$ by regarding this as the space of maps to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1\}$ is closed but not open). From this one can get an [[exponential law for spaces]] over $B$ if $B$ is [[To|$T_0$]], so that all fibres of spaces over $B$ are closed in their total space.  Note that weak Hausdorff implies [[T0|$T_0$]].
 \end{remark}
 
 
