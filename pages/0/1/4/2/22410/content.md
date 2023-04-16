@@ -106,7 +106,7 @@ Then the following are equivalent:
 
 The term seems to be due to:
 
-* {#Grothendieck60} [[Alexander Grothendieck]], p. 312 (15 of 30) in: *Technique de descente et théorèmes d’existence engéométrie algébrique. I. Généralités. Descente parmorphismes fidèlement plats*, Séminaire N. Bourbaki, 1960, exp. no190, p. 299-327 ([numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0))
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 312 (15 of 30) in: *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire N. Bourbaki exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
 
 * {#Grothendieck67} [[Alexander Grothendieck]], 16.5.15 in: *[[Éléments de géométrie algébrique]]* : IV. *Étude locale des schémas et des morphismes de schémas (Quatrième partie)*, Publications mathématiques de l’I.H.É.S., tome  32 (1967), p. 5-361 ([numdam:PMIHES_1967__32__5_0](http://www.numdam.org/item/PMIHES_1967__32__5_0))
 
