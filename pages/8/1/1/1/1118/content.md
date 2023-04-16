@@ -265,7 +265,9 @@ With emphasis of the role of the [[Yoneda lemma]]:
 
 Review:
 
-* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=50955ae82b159304262bd82a6dea1db57b68aefc)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford (1995) &lbrack;[doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)&rbrack;
+
+* [[Magnus Forrester-Barker]], *Group Objects and Internal Categories* &lbrack;[arXiv:math/0212065](https://arxiv.org/abs/math/0212065)&rbrack;
 
 
 In the broader context of internalization via [[sketches]]:
@@ -284,8 +286,7 @@ With focus on internalization in [[sheaf toposes]]:
 [[!redirects internal groups]]
 [[!redirects inner group]]
 [[!redirects inner groups]]
-[[!redirects group object]]
-[[!redirects group objects]]
+
 
 [[!redirects abelian group object]]
 [[!redirects abelian group objects]]
