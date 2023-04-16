@@ -12,7 +12,7 @@ Discussion of [[topological modular forms]] via [[(2,1)-dimensional Euclidean fi
 
 Review:
 
-* [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BerwickEvansMar23)$]$
+* [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BerwickEvansMar23), video:[YT](https://www.youtube.com/watch?v=fw7yxFsDmjs)&rbrack;
 
 
 
