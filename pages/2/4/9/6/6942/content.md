@@ -92,9 +92,20 @@ A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of ell
 
 * [[classifying space]], [[moduli space]], [[derived moduli space]], [[geometric invariant theory]]
 
+* [[algebraic stack]]
+
 * [[rigidification of a stack]]
 
 * [[Yoneda lemma]], [[(∞,1)-Yoneda lemma]]
+
+## References
+
+Lecture notes:
+
+* [[Daniel Halpern-Leistner]], *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
+
+For more see also the references at *[[algebraic stack]]*.
+
 
 [[!redirects moduli stack]]
 [[!redirects classifying stack]]
