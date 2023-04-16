@@ -61,11 +61,14 @@ For action groupoid $\mathcal{G}=G\ltimes X$, let $B\mathcal{G}$ be the correspo
  * If the action of the Lie group $G$ on the manifold $X$ is not necessarily free and proper, what we get is   **a Lie groupoid** denoted (among other symbols) by $X//G$. Stack associated to this Lie groupoid $X//G$ is $B(X//G)$ which we call to be the quotient stack, denote by $[X/G]$.
 
 ## Universal property (??) for Quotient stack
+ {#AsFibrationsOverBG}
+
+> (references for what the following paragraphs are getting at are listed [below](#ReferencesAsFibrationsOverBG))
 
 Let $G$ be a Lie group and $X$ be a manifold with a $G$-action. 
 
 Supposing that $G$ acts freely and properly on $X$, the quotient stack $[X/G]$ will be the stack $\underline{X/G}$. 
-This action yields a [[principal bundles | principal $G$-bundle]] of manifolds $X\rightarrow X/G$, which gives a morphism of stacks $\underline{X}\rightarrow \underline{X/G}$. We refer to this stack morphism $\underline{X}\rightarrow \underline{X/G}$ as a principal $G$-bundle of stacks. 
+This action yields a [[principal bundles|principal $G$-bundle]] of manifolds $X\rightarrow X/G$, which gives a morphism of stacks $\underline{X}\rightarrow \underline{X/G}$. We refer to this stack morphism $\underline{X}\rightarrow \underline{X/G}$ as a principal $G$-bundle of stacks. 
 
 More precisely, a stack morphism $\underline{M}\rightarrow \mathcal{D}$ is said to be **representable** if given a manifold $N$ and a stack morphism $\underline{N}\rightarrow \mathcal{D}$, the fiber product $\underline{M}\times_{\mathcal{D}}\underline{N}$ is a manifold. 
 A representable morphism of stacks is said to be a **principal $G$ bundle of stacks** if the map $\underline{M}\times_{\mathcal{D}}\underline{N}\rightarrow N$ is a principal $G$-bundle of manifolds. 
@@ -115,10 +118,15 @@ There is a canonical projection $\overline{\rho} \;\colon\; V// G \to \mathbf{B}
 ## References
  {#References}
 
+### As stackification of action groupoids
+
 The definition of quotient stacks as [[stackifications]] of ([[(2,1)-presheaves|presheaves of]]) [[action groupoids]] is considered for instance in:
 
 * {#LaumontMoret-Bailly} [[Gérard Laumon]], [[Laurent Moret-Bailly]], Prop. 4.3.1 in: _Champs alg&#233;briques_, Ergebn. der Mathematik und ihrer Grenzgebiete **39**, Springer (2000) &lbrack;[doi:10.1007/978-3-540-24899-6](https://doi.org/10.1007/978-3-540-24899-6)&rbrack;
 
+* [[Stacks Project]], Definition 77.20.1 in: *Quotient Stacks* &lbrack;[tag:044Q](https://stacks.math.columbia.edu/tag/044Q)&rbrack;
+
+### As presheaves of equivariant maps out of principal bundles 
 
 The construction of quotient stacks $X\sslash G$ as [[prestacks]] of $G$-[[principal bundles]] equipped with $G$-[[equivariant maps]] to $X$ is considered for instance in:
 
@@ -128,14 +136,26 @@ The construction of quotient stacks $X\sslash G$ as [[prestacks]] of $G$-[[princ
 
 * [[Michael Groechenig]], Def. 5.23 in: *Algebraic Stacks*, Lecture notes (2014) &lbrack;[web](http://individual.utoronto.ca/groechenig/stacks.html), [pdf](http://individual.utoronto.ca/groechenig/stacks.pdf), [[Groechenig-AlgebraicStacks.pdf:file]]&rbrack;
 
-* [[Daniel Halpern-Leistner]], Section 7.1 of: *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
-
+* {#Halpern-Leistner20} [[Daniel Halpern-Leistner]], Section 7.1 of: *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
 
 Discussion of sufficient conditions for this construction to really yield a [[stack]] (instead of just a [[prestack]]):
 
 * [[Elena Caviglia]], *Generalized principal bundles and quotient stacks* &lbrack;[arXiv:2302.07852](https://arxiv.org/abs/2302.07852)&rbrack;
 
+### As fibrations over $\mathbf{B}G$
+ {#ReferencesAsFibrationsOverBG}
 
+The characterization of quotient stacks $X \sslash G$ as fibrations over [[looping and delooping|delooping stacks]] $\ast \sslash G \simeq \mathbf{B}G$ with [[homotopy fiber]] $X$ (cf. also the discussion at *[[infinity-action|$\infty$-action]]*):
+
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Exp. 4.4 in: _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- General theory]]_, J. Hom. Rel. Struc. **10** 4 (2015) 749-801 &lbrack;[arXiv:1207.0248](https://arxiv.org/abs/1207.0248), [doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6)&rbrack;
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], Prop. 2.79 in: _[[schreiber:Proper Orbifold Cohomology]]_ &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Prop. 0.2.1 (ii) & Prop. 3.2.76 in: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
+* [Halpern-Leistner (2020), Exc. 7.2](#Halpern-Leistner20)  
+
+### More
 
 See also:
 
