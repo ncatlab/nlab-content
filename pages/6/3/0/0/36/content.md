@@ -276,7 +276,12 @@ The general notion of internalization is due to
 
 with specialization to [[internal groups]], [[internal actions]], [[internal categories]] and [[internal groupoids]] made explicit in:
 
-* {#Grothendieck61} [[Alexander Grothendieck]], Section 4 of: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-III.pdf), [web version](https://thosgood.com/fga/book/FGA-3-III)).
+* {#Grothendieck61} [[Alexander Grothendieck]], Sections 3, 4 of: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-III.pdf), [web version](https://thosgood.com/fga/book/FGA-3-III)).
+
+and to the case of internal [[principal bundles]] (see at *[[pseudo-torsor]]*) in:
+
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 312 (15 of 30) in: *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire N. Bourbaki exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
+
 
 Discussion with focus on [[H-spaces]], [[internal monoids]] and [[internal groups]] and proving the [[Eckmann-Hilton argument]] originates with:
 
@@ -311,11 +316,15 @@ Review of internal category theory ([[internal categories]], [[internal functors
 
 * [[Francis Borceux]], Chapter 8 in Vol 1 _Basic Category Theory_ of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
-* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
-
 * [[Peter Johnstone]], Chapter B2 in: Vol. 1 of: _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford University Press (2002)([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
 
-More general internal internal algebraic structures, known as [[algebra over a Lawvere theory|algebras]] over [[Lawvere theories]] originate with:
+Review of internal [[group objects]], [[action objects]], [[internal categories]] (though without attribution to the above original articles):
+
+* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford (1995) &lbrack;[doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)&rbrack;
+
+* [[Magnus Forrester-Barker]], *Group Objects and Internal Categories* &lbrack;[arXiv:math/0212065](https://arxiv.org/abs/math/0212065)&rbrack;
+
+More general internal algebraic structures, known as [[algebra over a Lawvere theory|algebras]] over [[Lawvere theories]] originate with:
 
 * {#Lawvere63} [[William Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac:tr5](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
