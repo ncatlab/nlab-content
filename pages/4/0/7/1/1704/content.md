@@ -750,7 +750,7 @@ A more comprehensive conceptual account is in
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory]]_
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- General theory]]_, J. Hom. Rel. Struc. **10** 4 (2015) 749-801 &lbrack;[arXiv:1207.0248](https://arxiv.org/abs/1207.0248), [doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6)&rbrack;
 
 The [[classifying spaces]] for a large class of principal $\infty$-bundles are discussed in
 
