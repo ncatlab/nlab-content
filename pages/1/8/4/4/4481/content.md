@@ -39,3 +39,6 @@ The [[left adjoint]] $L$ to the inclusion of [[stack]]s into all [[2-functor]]s 
 * [[(∞,1)-sheafification]]
 
 [[!redirects stackification]]
+
+[[!redirects stackifications]]
+
