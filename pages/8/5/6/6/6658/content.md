@@ -108,6 +108,13 @@ Of course, there are also many effective descent morphisms relative to fibration
 
 ## References
 
+Original articles:
+
+* {#Grothendieck60} [[Alexander Grothendieck]], Def. 1.7 in: *Technique de descente et théorèmes d’existence engéométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire N. Bourbaki exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
+
+
+See also:
+
 * {#JT} [[George Janelidze|G. Janelidze]], and [[Walter Tholen|W. Tholen]]. _How algebraic is the change-of-base functor?._ Category Theory: Proceedings of the International Conference held in Como, Italy, July 22–28, 1990. Springer Berlin Heidelberg, 1991.
 
 * {#ST} M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
