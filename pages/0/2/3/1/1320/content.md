@@ -99,6 +99,18 @@ For a specific [[counter-example]]: the category of [[reflexive graph|reflexive 
 This is an instance of a general phenomenon: Let $\mathcal{C}$ be a reflective subcategory of a presheaf category $\widehat{A}$ (e.g. every [[locally presentable category]] is of this form). Then the adjunction between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the adjunction between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
 \end{remark}
 
+\begin{proposition}\label{MonadicFunctorsCreateLimits}
+**([[monadic functors]] [[created limit|create limits]])**
+A [[monadic functor]] 
+
+1. [[created limit|creates]] all [[limits]] that exist in its [[codomain]];
+
+1. creates all [[colimits]] that exist in its codomain and are preserved by the corresponding monad (or, equivalently, by the monadic functor itself).  
+
+\end{proposition}
+(e.g. [MacLane 71, Exercise IV.2.2 (p. 138)](#MacLane71))
+
+
 ### Monadicity theorem
 
 Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem" in older literature) give sufficient, and sometimes necessary, conditions for a given functor to be monadic. There are also dual, [[comonadic functor|comonadic versions]].
@@ -114,6 +126,8 @@ Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem"
 * [[monadic decomposition]]
 
 ## References
+
+* {#MacLane71} [[Saunders Mac Lane]], Section VI in: _[[Categories for the Working Mathematician]]_ (1971)
 
 * [[Francis Borceux]], Def. 4.4.1 in: *[[Handbook of Categorical Algebra]]*,   Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
