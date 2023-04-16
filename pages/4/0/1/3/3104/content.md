@@ -71,9 +71,11 @@ A textbook account in [[topos theory]] is in
  
 Discussion of examples:
 
-* [[Cynthia Lester]], *Covers in the Canonical Grothendieck Topology* ([arXiv:1909.03384](https://arxiv.org/abs/1909.03384))
+* [[Cynthia Lester]], *Covers in the Canonical Grothendieck Topology* &lbrack;[arXiv:1909.03384](https://arxiv.org/abs/1909.03384)&rbrack;
 
-* [[Cynthia Lester]], *The canonical Grothendieck topology and a homotopical analog*, 2019 ([uoregon:1794/24924](https://scholarsbank.uoregon.edu/xmlui/handle/1794/24924) [pdf](https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/24924/Lester_oregon_0171A_12522.pdf?sequence=1&isAllowed=y))
+* [[Cynthia Lester]], *The canonical Grothendieck topology and a homotopical analog*, PhD thesis (2019) &lbrack;[uoregon:1794/24924](https://scholarsbank.uoregon.edu/xmlui/handle/1794/24924) [pdf](https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/24924/Lester_oregon_0171A_12522.pdf?sequence=1&isAllowed=y)&rbrack;
+
+* [[Cynthia Lester]], *The canonical Grothendieck topology and a homotopical analog* &lbrack;[arXiv:1909.03188](https://arxiv.org/abs/1909.03188)&rbrack;
 
 
 Discussion in the refined context of [[higher topos theory]] is in 
