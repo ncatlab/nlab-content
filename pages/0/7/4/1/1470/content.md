@@ -93,6 +93,8 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 ## Related concepts
 
+* [[stack]], [[moduli stack]]
+
 * [[lisse-étale site]]
 
 * [[geometric stack]]
@@ -107,12 +109,16 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 * [[geometric ∞-stack]]
 
+
 ## References
 
 * [[Angelo Vistoli]], Appendix of: _Intersection theory on algebraic stacks and on their moduli spaces_, Inventiones mathematicae volume 97, pages 613–670 (1989) ([doi:10.1007/BF01388892]( https://doi.org/10.1007/BF01388892))
 
-* {#LaumontMoret-Bailly} G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
+* {#LaumontMoret-Bailly} G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_, Ergebn. der Mathematik und ihrer Grenzgebiete **39**, Springer (2000)
 
+* [[Michael Groechenig]], *Algebraic Stacks*, Lecture notes (2014) &lbrack;[web](http://individual.utoronto.ca/groechenig/stacks.html), [pdf](http://individual.utoronto.ca/groechenig/stacks.pdf), [[Groechenig-AlgebraicStacks.pdf:file]]&rbrack;
+
+* [[Daniel Halpern-Leistner]], *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
 
 * {#deJong} [[Aise Johan de Jong]], _[[The Stacks Project]]_, _[Tag026K](https://stacks.math.columbia.edu/tag/026K)_.
 
