@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 
 * automatic table of contents goes here
@@ -112,25 +113,47 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 ## References
 
-* [[Angelo Vistoli]], Appendix of: _Intersection theory on algebraic stacks and on their moduli spaces_, Inventiones mathematicae volume 97, pages 613–670 (1989) ([doi:10.1007/BF01388892]( https://doi.org/10.1007/BF01388892))
+The original articles:
 
-* {#LaumontMoret-Bailly} G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_, Ergebn. der Mathematik und ihrer Grenzgebiete **39**, Springer (2000)
+* {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], *The irreducibility of the space of curves of given genus*, Publications Math&#233;matiques de l'IH&#201;S (Paris) **36**   (1969) 75-109 &lbrack;[doi:10.1007/BF02684599](https://doi.org/10.1007/BF02684599), [numdam:PMIHES_1969__36__75_0](http://www.numdam.org/item?id=PMIHES_1969__36__75_0)&rbrack;
 
-* [[Michael Groechenig]], *Algebraic Stacks*, Lecture notes (2014) &lbrack;[web](http://individual.utoronto.ca/groechenig/stacks.html), [pdf](http://individual.utoronto.ca/groechenig/stacks.pdf), [[Groechenig-AlgebraicStacks.pdf:file]]&rbrack;
+  > (cf. *[[Deligne-Mumford stack]]*)
 
-* [[Daniel Halpern-Leistner]], *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
+* [[Michael Artin]], *Versal deformations and algebraic stacks*, Invent Math **27** (1974) 165–189 &lbrack;[doi:10.1007/BF01390174](https://doi.org/10.1007/BF01390174), [eudml:142310](https://eudml.org/doc/142310),  [pdf](http://math.uchicago.edu/~drinfeld/Artin_on_stacks.pdf)&rbrack;    
 
-* {#deJong} [[Aise Johan de Jong]], _[[The Stacks Project]]_, _[Tag026K](https://stacks.math.columbia.edu/tag/026K)_.
+  > (cf. *[[Artin stack]]*)
 
-Monographs:
+Early review:
 
-* [[Martin Olsson]], *Algebraic Spaces and Stacks*, Colloquium Publications **62** (2016) &lbrack;[doi:10.1090/coll/062](https://doi.org/10.1090/coll/062), [ISBN:978-1-4704-2798-6](https://bookstore.ams.org/coll-62)&rbrack;
+* [[Angelo Vistoli]], Appendix of: _Intersection theory on algebraic stacks and on their moduli spaces_, Inventiones mathematicae **97** (1989) 613–670 &lbrack;[doi:10.1007/BF01388892](https://doi.org/10.1007/BF01388892)&rbrack;
+
+Monographs and review:
+
+* {#LaumontMoret-Bailly} [[Gérard Laumon]], [[Laurent Moret-Bailly]], _Champs alg&#233;briques_, Ergebn. der Mathematik und ihrer Grenzgebiete **39**, Springer (2000) &lbrack;[doi:10.1007/978-3-540-24899-6](https://doi.org/10.1007/978-3-540-24899-6)&rbrack;
+
+* [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ &lbrack;[math.AG/0412512](http://arxiv.org/abs/math/0412512), [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406)&rbrack;  in: Fantechi et al. (eds.), _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)&rbrack;  
+
+  > (focusing on the incarnation of stacks, under the [[Grothendieck construction]], as [[Grothendieck fibrations]]) 
+
+* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_ (2005)
 
 * [[Frank Neumann]], *Algebraic Stacks and Moduli of Vector Bundles*, impa (2011) &lbrack;[pdf](https://impa.br/wp-content/uploads/2017/04/PM_36.pdf), [pdf](https://www.cimat.mx/~luis/seminarios/Pilas-algebraicas/neumann-Stacks.pdf)&rbrack;
 
-Course notes:
+* [[Michael Groechenig]], *Algebraic Stacks*, Lecture notes (2014) &lbrack;[web](http://individual.utoronto.ca/groechenig/stacks.html), [pdf](http://individual.utoronto.ca/groechenig/stacks.pdf), [[Groechenig-AlgebraicStacks.pdf:file]]&rbrack;
 
-* [[Bertrand Toen]], _[[Master course on algebraic stacks]]_ (2005)
+* [[Martin Olsson]], *Algebraic Spaces and Stacks*, Colloquium Publications **62** (2016) &lbrack;[doi:10.1090/coll/062](https://doi.org/10.1090/coll/062), [ISBN:978-1-4704-2798-6](https://bookstore.ams.org/coll-62)&rbrack;
+
+* [[Daniel Halpern-Leistner]], *Moduli theory*, Lecture notes (2020) &lbrack;[pdf](http://pi.math.cornell.edu/~danielhl/moduli_theory_notes.pdf), [[Halpern-Leistner_ModuliTheory.pdf:file]]&rbrack;
+
+
+See also:
+
+* {#deJong} [[Aise Johan de Jong]], _[[The Stacks Project]]_, &lbrack;[tag:026K](https://stacks.math.columbia.edu/tag/026K)&rbrack;
+
+
+
+
+
 
 * [[Fredrik Meyer]], *Notes on algebraic stacks* (2013) &lbrack;[pdf](https://fredrikmeyer.net/uio-math/algstacks.pdf), [[Meyer_AlgebraicStacks.pdf:file]]&rbrack;
 
