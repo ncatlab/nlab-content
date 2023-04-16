@@ -21,9 +21,10 @@ For the sake of preparatory/foundational steps he wrote a quick amendement for t
 
 ## Selected writings
 
-On [[Deligne-Mumford stacks]] and the example of the [[moduli space of curves]]:
+Introducing the notion of [[algebraic stacks]] and (what came to be called) [[Deligne-Mumford stacks]], and on the example of the [[moduli space of curves]]:
 
-* [[Pierre Deligne]], [[David Mumford]], _The irreducibility of the space of curves of a given genus_ Publ. Math. de l'IH&#201;S __36__ (1969) pp. 75&#8211;109, [numdam](http://www.numdam.org/item?id=PMIHES_1969__36__75_0).
+* {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], *The irreducibility of the space of curves of given genus*, Publications Math&#233;matiques de l'IH&#201;S (Paris) **36**   (1969) 75-109 &lbrack;[doi:10.1007/BF02684599](https://doi.org/10.1007/BF02684599), [numdam:PMIHES_1969__36__75_0](http://www.numdam.org/item?id=PMIHES_1969__36__75_0)&rbrack;
+
 
 On [[differential equations]] with regular singular points (and developing [[local systems]], [[twisted cohomology]], [[twisted de Rham cohomology]], [[Gauss-Manin connections]]):
 
