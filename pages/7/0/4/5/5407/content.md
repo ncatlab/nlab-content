@@ -72,7 +72,8 @@ Definition \ref{InTermsOfStalks} is indeed a special case of def. \ref{InTermsOf
 
 =--
 
-This is for instance in ([Johnstone]{#Johnstone}) and in ([Lurie, remark 2.5.11](#Lurie))
+This is for instance in [Johnstone (2002)](#Johnstone2002) and in [Lurie (2009), remark 2.5.11](#Lurie2009)
+
 
 ## Related concepts
 
@@ -90,25 +91,23 @@ This is for instance in ([Johnstone]{#Johnstone}) and in ([Lurie, remark 2.5.11]
 
 ## References
 
-Section VIII.6 of 
+Original references
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* [[Alexander Grothendieck]], [[Jean-Louis Verdier]], *Topos annelés, localisation dans les topos annelés*, Section 11 in Exposé iv in: [[M. Artin]] et al., *Théorie des topos et cohomologie étale des schémas. Tome 1: Théorie des topos*, Séminaire de Géométrie Algébrique du Bois-Marie 1963–1964 ([[SGA 4]]), Lecture Notes in Mathematics __269__, Springer (1972) &lbrack;[doi:10.1007/BFb0081551](https://link.springer.com/book/10.1007/BFb0081551), [pdf](http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf)&rbrack;
 
-Section abc of
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* [[Monique Hakim]], Chapitre III in: *Topos annelés et schémas relatifs*, Ergebnisse der Mathematik und ihrer Grenzgebiete **64**, Springer (1972) &lbrack;[doi:10.1007/978-3-662-59155-0](https://doi.org/10.1007/978-3-662-59155-0)&rbrack; 
 
-Section 2.5 of 
+See also:
+ 
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], Section VIII.6 ofL _[[Sheaves in Geometry and Logic]]_ (1992)
 
-* [[Jacob Lurie]], _[[Structured Spaces]]_
- {#Lurie}
+* {#Johnstone2002} [[Peter Johnstone]], _[[Sketches of an Elephant]]_ (2002)
+ 
+* {#Lurie2009} [[Jacob Lurie]], Section 2.5 of: _[[Structured Spaces]]_ (2009)
+ 
+* {#deJong} [[Aise Johan de Jong]], Section 14.33 of: _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 
-Section 14.33 of 
-
-* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
-{#deJong}
 
 
 [[!redirects locally ringed toposes]]
