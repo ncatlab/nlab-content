@@ -169,7 +169,7 @@ Survey:
 
 A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov:
 
-* Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](https://etale.site/livetex/saft/henn.pdf),)
+* [[Hans-Werner Henn]], _Recent developments in chromatic stable homotopy theory_ &lbrack;[pdf](https://etale.site/livetex/saft/henn.pdf)&rbrack
 
 A collection of various lecture notes and other material is kept at
 
