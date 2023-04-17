@@ -180,7 +180,7 @@ Discussion in the context of [[model structures for parameterized spectra]]:
 [[!redirects retractive topological space]]
 [[!redirects retractive topological spaces]]
 
-[[!redirects ex-spaces]]
+[[!redirects ex-space]]
 [[!redirects ex-spaces]]
 
 [[!redirects ex-object]]
