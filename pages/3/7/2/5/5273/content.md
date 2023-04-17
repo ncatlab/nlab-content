@@ -27,6 +27,8 @@ A [[section]] of a spinor bundle is called a **spinor** (a [[fermion]] [[field (
 
 * [[Clifford bundle]]
 
+* [[stringor bundle]]
+
 * [[fiber bundles in physics]]
 
 * [[rotor]]
