@@ -301,11 +301,8 @@ The category $Str n Cat_{gaunt}$ is a [[locally presentable category]] and in fa
 
 We are going to be interested in a full [[subcategory]] $Str n Cat_{gen} \hookrightarrow Str n Cat_{gaunt}$, given below in def. \ref{nCatGen}, which knows about the higher [[profunctors]]/[[correspondence|correspondences]] between $n$-categories.
 
-+-- {: .num_remark }
-###### Observation
-
-For $A,B$ two categories, a [[profunctor]] $A^{op} \times B \to Set$
-is equivalently a category [[slice category|over]] the 1-globe functor, hence a functor 
+\begin{remark}
+For $A,B$ two categories, a [[profunctor]] $A^{op} \times B \to Set$ is equivalently a category [[slice category|over]] the 1-globe functor, hence a functor 
 
 $$
   \array{
@@ -318,8 +315,8 @@ $$
 $$
 
 equipped with an identification $A \simeq K_0$ and $B \simeq K_1$.
+\end{remark}
 
-=--
 
 This motivates the following definition.
 
