@@ -152,6 +152,8 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 * [[core in a 2-category]]
 
+* [[decategorification]]
+
 ## References
 
 Discussion in the generality of [[(infinity,n)-categories|$(\infty,n)$-categories]]:
