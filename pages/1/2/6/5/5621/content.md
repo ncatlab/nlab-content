@@ -56,4 +56,8 @@ If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full su
 [[!redirects full and faithful 2-functor]]
 [[!redirects full and faithful 2-functors]]
 
+[[!redirects fully faithful 2-functor]]
+[[!redirects fully faithful 2-functors]]
+
+
 [[!redirects sub-2-category]]
