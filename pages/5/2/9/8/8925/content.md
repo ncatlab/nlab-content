@@ -114,6 +114,12 @@ $$\array{U & \to & \exists_j U\\
 where the vertical arrows are ff and the bottom arrow $J\to X$ is faithful and pseudomonic, from which it follows that $U\to \exists_j U$ is also faithful and pseudomonic.  Since $U\to \exists_j U$  is eso by definition, $U$ is a core of $\exists_j U$, and since $j^*\exists_j U$ is a groupoid mapping to $\exists_j U$, it factors through $U$, as desired.
 =--
 
+## Related concepts
+
+* [[core]]
+
+* [[decategorification]]
+
 ## References
 
 The material on this page is taken from
