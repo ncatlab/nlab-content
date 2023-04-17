@@ -32,7 +32,7 @@ Here we construct [[Voevodsky]]'s [[triangulated category]] of mixed motives fol
 
 3.  Let $\mathcal{T}_S$ denote the set of [[complexes]] $Cone(L_S[A^1_X] \to L_S[X])$ where $A^1_X = A^1_S \times_S X$ is the [[affine line]] over $X$.  Call a [[complex]] $K$ **$A^1$-local** if $Hom_{D(A)}(T, K[n]) = 0$ for all $T \in \mathcal{T}$ and integers $n$.   Equivalently, the [[Nisnevich]] [[hypercohomology sheaves]] are [[homotopy invariant]].  In particular, for $F$ [[fibrant]] with respect to the above [[model structure]], $F$ is $A^1$-local iff the morphism $F(X) \to F(A^1_X)$ induced by the projection is a [[quasi-isomorphism]] for all $X \in Sm_S$.  This is again equivalent to the [[cohomology]] [[presheaves]] of $F$ being [[homotopy invariant]].
 
-4.  Consider the [[left Bousfield localization]] of the above [[model structure]] at the class of morphisms $0 \to T[n]$ for $T \in \mathcal{T}_S$ and $n \in \mathbf{Z}$.  The [[fibrant objects]] are $G_S$-local and $A^1$-local complexes.  One can prove that this [[model structure]] is still [[symmetric monoidal model structure||symmetric monoidal]].
+4.  Consider the [[left Bousfield localization]] of the above [[model structure]] at the class of morphisms $0 \to T[n]$ for $T \in \mathcal{T}_S$ and $n \in \mathbf{Z}$.  The [[fibrant objects]] are $G_S$-local and $A^1$-local complexes.  One can prove that this [[model structure]] is still [[symmetric monoidal model structure|symmetric monoidal]].
 
 4.  The [[homotopy category]] of this [[model category]] is called the **triangulated category of effective motives** over $S$, denoted $DM^{eff}(S)$.  It is canonically equivalent to the [[full subcategory]] of the [[derived category]] $D(N_S^{tr})$ spanned by Nisnevich fibrant and $A^1$-local complexes.
 
@@ -60,8 +60,10 @@ Here we construct [[Voevodsky]]'s [[triangulated category]] of mixed motives fol
 
 * [[Marc Levine]], _Mixed Motives_, Handbook of K-theory ([pdf](http://www.uni-due.de/~bm0032/publ/MixMotKHB.pdf))
 
-* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], _Local and stable homological algebra in Grothendieck abelian categories_, [arXiv](http://arxiv.org/abs/0712.3296).
-{#CD}
+* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
+
+* {#CD} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Local and stable homological algebra in Grothendieck abelian categories*, Homology, Homotopy and Applications **11** 1 (2009) 219–260 &lbrack;[arXiv:0712.3296](http://arxiv.org/abs/0712.3296), [hha:1251832567](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-11/issue-1/Local-and-stable-homological-algebra-in-Grothendieck-abelian-categories/hha/1251832567.full)&rbrack;
+
 
 Section 8.3 of 
 
