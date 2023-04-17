@@ -590,7 +590,7 @@ Further discussion of contextual categories is in
 
 * {#Voevodsky15d} [[Vladimir Voevodsky]], _Subsystems and regular quotients of C-systems_ ([arXiv:1406.7413](https://arxiv.org/abs/1406.7413))
 
-Discussion of B-systems, another essential algebraic model, is in
+Discussion of B-systems, another essentially algebraic model, is in
 
 * {#Voevodsky14} [[Vladimir Voevodsky]], _B-systems_ ([arXiv:1410.5389](https://arxiv.org/abs/1410.5389))
 
