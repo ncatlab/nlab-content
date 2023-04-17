@@ -34,11 +34,17 @@ Some of the additional assumptions on a model category $M$ that are often useful
 
 * $M$ is a [[locally cartesian closed category]], or at least that pullback along [[fibrations]] has a right adjoint.
 
-* $M$ is [[combinatorial model category|combinatorial]], or at least [[accessible model category|accessible]] and/or [[cofibrantly generated model category|cofibrantly generated]].
+* $M$ is [[combinatorial model category|combinatorial]], 
+
+  or at least [[accessible model category|accessible]] 
+
+  or [[cofibrantly generated model category|cofibrantly generated]].
 
 * The cofibrations in $M$ are the monomorphisms; 
 
-  or at least: they are closed under limits, preserved by pullbacks, all monomorphisms are cofibrations, and/or all fibrant objects are cofibrant.
+  or at least: they are closed under [[limits]], preserved by [[pullbacks]], and all [[monomorphisms]] are [[cofibrations]], 
+
+  or all [[fibrant objects]] are also [[cofibrant objects|cofibrant]].
 
 * Acyclic cofibrations are preserved by pullback along fibrations.
 
@@ -71,6 +77,8 @@ Definitions in the literature include:
 ## Properties
 
 ### Modeling type theory
+
+(cf. [[categorical semantics of dependent types]])
 
 * Since fibrations are closed under composition, $M$ always models [[Σ-types]].
 
