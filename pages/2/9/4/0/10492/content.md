@@ -352,9 +352,13 @@ A discussion in the general abstract context of [[(∞,1)-category theory]] is i
 
 * {#HigherAlg} [[Jacob Lurie]], section 6.1.1 of _[[Higher Algebra]]_
  
-Review includes
+Review includes:
 
 * {#Harpaz2013} [[Yonatan Harpaz]], section 5 of _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
+
+On excisive 1-functors for [[genuine G-spectra]] (i.e.  in [[proper equivariant stable homotopy theory|proper]] [[equivariant stable homotopy theory]]):
+
+* {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], Section 3.1 of: _Proper equivariant stable homotopy theory_, Memoirs of the AMS &lbrack;[arXiv:1908.00779](https://arxiv.org/abs/1908.00779)&rbrack;
 
 A [[model structure for excisive functors]] was given in 
 
