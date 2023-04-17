@@ -161,6 +161,8 @@ Volume 4, Issue 2, April 1970, Pages 170-171 (<a href="https://doi.org/10.1016/0
 
 * {#Friedman12} [[Greg Friedman]], _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221)).
 
+* [[Andrew Ranicki]], _Algebraic L-Theory and Topological Manifolds_, Cambridge University Press 2002.
+
 See also the references at _[[semi-simplicial object]]_ and:
 
 * Wikipedia, _[Delta sets](http://en.wikipedia.org/wiki/Delta_set)_
@@ -168,6 +170,9 @@ See also the references at _[[semi-simplicial object]]_ and:
 * MO, _[Semi-simplicial versus simplicial sets (and simplicial categories)](http://mathoverflow.net/questions/75094/semi-simplicial-versus-simplicial-sets-and-simplicial-categories)_
     _[Degeneracies for semi-simplicial Kan complexes](http://mathoverflow.net/questions/57653/degeneracies-for-semi-simplicial-kan-complexes/)_
 
+In [[homotopy type theory]]:
+
+* [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Nicolai Kraus]], _Extending Homotopy Type Theory with Strict Equality_, CSL 2016, [arXiv](http://arxiv.org/abs/1604.03799)
 
 On the [[model structure on semi-simplicial sets]]:
 
