@@ -24,7 +24,7 @@ Typically one is interested in the case where the category is equipped with extr
 
 In this sense decategorification is a "[[left inverse]]" to ([[vertical categorification|vertical]]) "[[categorification]]" (see there for more), namely to the process of asking for [[category theory|category theoretic]] [[higher structures]] analogous to given  [[set theory|set theoretic]] [[structures]]. 
 
-Crucially, though, decategorification is a systematic process (in fact a [[2-functor]], see [below](#Definition)) while [[categorification]], being a (local) [[section]] of this functor involves making choices: There are in general several categorical structures which have the same decategorification. For instance, the [[rig category|rig]] [[monoidal categories]] [[FinSet]] (with its [[cartesian product]]) and [[FinDimVect]] (with its [[tensor product of vector spaces]]) both decategorify to the [[rig]] [[monoid]] of [[natural numbers]].
+Crucially, though, decategorification is a systematic process (in fact a [[2-functor]], see [below](#Definition)) while [[categorification]], being a (local) [[section]] of this functor involves making choices: There are in general several categorical structures which have the same decategorification. For instance, the [[rig category|rig]] [[monoidal categories]] [[FinSet]] (with its [[cartesian product]]) and [[FinDimVect]] (with its [[tensor product of vector spaces]]) both decategorify to the [[rig]] [[monoid]] of [[natural numbers]] (see further examples [below](#Examples)).
 
 More generally, in [[higher category theory]] there are higher sequences of "higher decategorification" functors which incrementally discard non-invertible [[higher morphisms]] and [[quotient]] by remaining invertible [[higher morphisms]] up to some degree (see [below](#DefinitionForHigherCategories)).
 
@@ -104,7 +104,7 @@ $$
       {\underset{Core_n}{\longleftarrow}}
       {\hookrightarrow}
       {\;\; \bot \;\;}
-  (\infty,n+1)
+  (\infty,n+1)Cat
 $$
 
 which together with the [[truncated object in an (infinity,1)-category|$m$-truncation]]-operation to [[homotopy n-types|homotopy $m$-types]] yields towers of higher decategorification functors
@@ -144,6 +144,7 @@ A famous example are [[fusion category|fusion categories]] whose decategorificat
 There may also be extra structure induced more directly on $K(C)$. For instance the [[K-theory|K-group]] of an [[abelian category]] is the decategorification of its category of bounded [[chain complexes]] and this inherits a group structure from the fact that this is a [[triangulated category]] (a [[stable (∞,1)-category]]) in which there is a notion of [[fibration sequence|homotopy exact sequences]].
 
 ## Examples
+ {#Examples}
 
 * The decategorifications of [[finite sets]] and [[finite dimensional vector spaces]] (over any [[ground field]]) are [[natural numbers]]
 
