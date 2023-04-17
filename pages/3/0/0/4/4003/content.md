@@ -195,6 +195,10 @@ Furthermore, this bicategory is actually the horizontal bicategory of a [[double
 
 ## References
 
+The standard reference, which considers dependent (multivariate) polynomial functors, is: 
+
+* {#GK} [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
+
 The relation of plain polynomial functors to [[trees]] is discussed in
 
 * {#Kock} [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874))
@@ -202,11 +206,6 @@ The relation of plain polynomial functors to [[trees]] is discussed in
 The category, $Poly$, of one-variable polynomial functors on $Set$ and its application to [[dynamical systems]] is considered in
 
 * [[David Spivak]], _Poly: An abundant categorical setting for mode-dependent dynamics_, ([arXiv:2005.01894](https://arxiv.org/abs/2005.01894)) 
- 
-
-Dependent (multivariate) polynomial functors are considered in 
-
-* {#GK} [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
 
 * {#FMLS} [[Eric Finster]], [[Samuel Mimram]], Maxime Lucas, Thomas Seiller, _A Cartesian Bicategory of Polynomial Functors in Homotopy Type Theory_ ([arXiv:2112.14050](https://arxiv.org/abs/2112.14050)).
 
