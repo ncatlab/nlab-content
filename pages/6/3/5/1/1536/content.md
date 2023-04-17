@@ -898,6 +898,10 @@ A [[monoidal category|monoidal]] version:
 
 * {#MoellerVasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], *Monoidal Grothendieck Construction*,  2019 ([arXiv:1809.00727](https://arxiv.org/abs/1809.00727))
 
+A call to think twice before using a Grothendieck construction:
+
+* {#Nuyts20} [[Andreas Nuyts]], *A Vision for Natural Type Theory*, Part I: Grothendieck Construction Considered Harmful, [Note](https://anuyts.github.io/files/nattt-vision.pdf)
+
 
 [[!redirects Grothendieck constructions]]
 
