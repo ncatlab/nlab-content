@@ -26,9 +26,155 @@ On [[model category]] [[structures]] [[presentable (infinity,1)-category|present
 ## Properties
  {#Properties}
 
-(...)
+We consider some properties of model category 
 
-* {#QuillenRightBaseChange} The model category $Sp^\Sigma_{\mathcal{R}}$ of parameterized spectra given in [Hebestreit, Sagave & Schlichtkrull (2020)](#HebestreitSagaveSchlichtkrull20) is not quite [[right proper]] (cf. pp. 40) but, in its version based on [[simplicial sets]], left [[base change]] $f^\ast$ along [[Kan fibrations]] $f \,\colon\, B_1 \to B_2$ of ([[zero-spectrum bundles]] over) [[Kan complexes]] *is* a [[left Quillen functor]] between the [[slice model structures]] (by [HSS20, Lem 7.22](#HebestreitSagaveSchlichtkrull20)).
+\[
+  \label{ModelCategoryOfSpectraInISpaces}
+  \mathrm{Sp}^\Sigma_{\mathcal{R}}
+  \;\;
+  \in
+  \;\;
+  ModCat
+\] 
+
+of parameterized [[symmetric spectra]] in [[I-space|$\mathcal{I}$-spaces]] based on [[SimplicialSets]]
+
+$$
+  \mathcal{S} \coloneqq sSet
+$$
+
+as given in [Hebestreit, Sagave & Schlichtkrull (2020)](#HebestreitSagaveSchlichtkrull20):
+
+\begin{proposition}
+With the [[external tensor product|external]] [[smash product of spectra]] the model category (eq:ModelCategoryOfSpectraInISpaces) 
+
+1. is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] 
+
+1. with [[tensor unit]] the [[sphere spectrum]] $\mathcal{S}$,
+
+1. which satisfies the [[pushout-product axiom]]
+
+1. and the [[unit axiom]],
+
+hence is a [[monoidal model category]].
+\end{proposition}
+\begin{proof}
+The first statements are made explicit in [HSS, Prop. 4.5](#HebestreitSagaveSchlichtkrull20). 
+To see that also the unit axiom is satisfied it is sufficient to see that $\mathbb{S}$ is a [[cofibrant object]]. For that use the definition of $\mathbb{S}$ as $\mathbb{S}_t^{\mathcal{I}}[\ast]$ (hidden on [p. 38](https://arxiv.org/pdf/1904.01824.pdf#page=38)) and the fact that $\mathbb{S}_t^{\mathcal{I}}$ is a [[left Quillen functor]], from (3.17) on [p. 15](https://arxiv.org/pdf/1904.01824.pdf#page=15).
+\end{proof}
+
+\begin{proposition}
+The inclusion of [[I-spaces|$\mathcal{I}$-spaces]] via their [[zero-spectrum bundles]] is a [[bireflective subcategory]] (according to [this Def.](bireflective+subcategory#BireflectiveSubcategory)) which is also a [[Quillen adjoint triple]]:
+
+\[
+  \label{BireflectionOfZeroSpectrumBundles}
+\]
+
+\begin{tikzcd}
+  \phantom{-}
+  \\[-70pt]
+  \mathcal{S}^{\mathcal{I}}
+  \ar[
+    from=rr,
+    shift left=22pt,
+    "{ \beta }"{description}
+  ]
+  \ar[
+    rr,
+    hook,
+    "{ 0 }"{description}
+  ]
+  \ar[
+    from=rr,
+    shift right=22pt,
+    "{ \beta }"{description}
+  ]
+  \ar[
+    rr,
+    phantom,
+    shift left=11pt,
+    "{ \scalebox{.6}{$\bot_{{}_{\mathrlap{\mathrm{Qu}}}}$} }"
+  ]
+  \ar[
+    rr,
+    phantom,
+    shift right=11pt,
+    "{ \scalebox{.6}{$\bot_{{}_{\mathrlap{\mathrm{Qu}}}}$} }"
+  ]
+  &&
+  \mathrm{Sp}^\Sigma_{\mathcal{R}}
+\end{tikzcd}
+
+\end{proposition}
+\begin{proof}
+This may be recognized from [HSS, Lem. 3.19](#HebestreitSagaveSchlichtkrull20).
+\end{proof}
+
+\begin{definition}
+In the following we will leave the inclusions 
+$$
+  \mathcal{S} 
+    \overset{const}{\hookrightarrow}   
+  \mathcal{S}^{\mathcal{I}}
+    \overset{0}{\hookrightarrow}
+  \mathrm{Sp}^\Sigma_\mathcal{R}
+$$
+notationally implicit. For example, for $B$ a [[simplicial set]] we write $\big(\mathrm{Sp}^\Sigma_\mathcal{R}\big)_{/B}$ for the [[slice model structure]] of (eq:ModelCategoryOfSpectraInISpaces) over the [[zero-spectrum bundle]] over $B$.
+\end{definition}
+
+The model category (eq:ModelCategoryOfSpectraInISpaces) is not quite [[right proper]] (cf. [pp. 40](https://arxiv.org/pdf/1904.01824.pdf#page=40)) but, in its version based on [[simplicial sets]], we have:
+
+\begin{proposition}\label{QuillenRightBaseChange}
+Left [[base change]] $f^\ast$ along [[Kan fibrations]] $f \,\colon\, B_1 \to B_2$ of ([[zero-spectrum bundles]] (eq:BireflectionOfZeroSpectrumBundles) over) [[Kan complexes]] *is* a [[left Quillen functor]] between the [[slice model structures]] . Since, generally, $f^\ast$ is also a [[right Quillen functor]], we have [[base change]] [[Quillen adjoint triples]] of this form: 
+
+\begin{tikzcd}
+  \left.
+  \begin{array}{r}
+    \mbox{$B_2$ Kan complex}
+    \\
+    \mbox{$f : B_1 \to B_2$ Kan fibration}
+  \end{array}
+  \right\}
+  \;\;\;\;
+    \vdash
+  \;\;\;\;
+  \big(\mathrm{Sp}^\Sigma_{\mathcal{R}}\big)_{/B_1}
+  \ar[
+    rr,
+    shift left=22pt,
+    "{ f_! }"{description}
+  ]
+  \ar[
+    from=rr,
+    shift left=00pt,
+    "{ f^\ast }"{description}
+  ]
+  \ar[
+    rr,
+    shift right=22pt,
+    "{ f_\ast }"{description}
+  ]
+  \ar[
+    rr,
+    phantom,
+    shift left=11pt,
+    "{ \scalebox{.6}{$\bot_{{}_{\mathrlap{\mathrm{Qu}}}}$} }"
+  ]
+  \ar[
+    rr,
+    phantom,
+    shift right=11pt,
+    "{ \scalebox{.6}{$\bot_{{}_{\mathrlap{\mathrm{Qu}}}}$} }"
+  ]
+  &&
+  \big(\mathrm{Sp}^\Sigma_{\mathcal{R}}\big)_{/B_2}
+\end{tikzcd}
+
+\end{proposition}
+\begin{proof}
+  The left Quillen property of $f^\ast$ is shown in [HSS20, Lem. 7.22](#HebestreitSagaveSchlichtkrull20).
+The right Quillen property is mentioned inside the proof of Lem. 8.10 there.
+\end{proof}
 
 (...)
 
