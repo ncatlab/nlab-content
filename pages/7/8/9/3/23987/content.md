@@ -987,7 +987,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Knots-quivers correspondence: summary and update**
 
-  > In this talk I will review the knots-quivers correspondence and mention some recent developments in this regard. The [[knots-quivers correspondence]] is the statement that various invariants associated to a knot are encoded in the corresponding quiver. This statement follows from engineering both knots and quivers in related brane systems in string theory. Recent developements, which I will mention at least briefly, include understanding the structure of various quivers that correspond to the same knot, using topological recursion to determine quiver generating series and corresponding quiver A-polynomias, and finding a quiver representation of so-called Z-hat invariants.
+  cf. [arXivL2110.13768](https://arxiv.org/abs/2110.13768) following [arXiv:1707.04017](https://arxiv.org/abs/1707.04017), [arXiv:1707.02991](https://arxiv.org/abs/1707.02991)
+
+  > In this talk I will review the [[knots-quivers correspondence]] and mention some recent developments in this regard. The [[knots-quivers correspondence]] is the statement that various [[knot invariant|invariants]] associated to a [[knot]] are encoded in the corresponding [[quiver]]. This statement follows from [[geometric engineering of QFTs|engineering]] both knots and quivers in related [[intersecting brane system|brane systems]] in [[string theory]]. Recent developements, which I will mention at least briefly, include understanding the structure of various quivers that correspond to the same knot, using [[topological recursion]] to determine quiver generating series and corresponding quiver A-polynomials, and finding a quiver representation of so-called Z-hat invariants.
 
 
 \linebreak
