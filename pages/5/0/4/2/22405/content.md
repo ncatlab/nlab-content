@@ -107,6 +107,8 @@ Empty fiber bundles play a central role in the context of [[equivariant bundles]
 
 ## Related concepts
 
+* [[zero bundle]]
+
 [[!include empty objects -- contents]]
 
 [[!redirects empty bundles]]
