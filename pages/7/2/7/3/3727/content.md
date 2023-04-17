@@ -47,9 +47,18 @@ On [[homotopy theory]] and [[model categories]]:
 
   in: [[Ioan Mackenzie James|I. M. James]], *[[Handbook of Algebraic Topology]]*, North Holland 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
+On [[homotopy theory|homotopy theoretic]] methods in [[group cohomology]]:
+
+* [[William G. Dwyer]], [[Hans-Werner Henn]], *Homotopy Theoretic Methods in Group Cohomology*, Advanced Courses in Mathematics - CRM Barcelona, Springer (2001) &lbrack;[doi:10.1007/978-3-0348-8356-6](https://doi.org/10.1007/978-3-0348-8356-6)&rbrack;
+
+
 On [[derived functors]] such as [[homotopy limit]]-functors on [[model categories]] and more general [[homotopical categories]]:
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+
+On [[localization]] in [[homotopy theory]]:
+
+* [[William Dwyer]], _Localizations_, in: _Axiomatic, enriched and motivic homotopy theory_, NATO Sci. Ser. II **131**, Kluwer Acad. Publ. (2004) 3-28 &lbrack;[doi:10.1007/978-94-007-0948-5](https://doi.org/10.1007/978-94-007-0948-5)&rbrack;
 
 
 On [[homotopy theory]] and [[classifying spaces]]:
@@ -58,12 +67,9 @@ On [[homotopy theory]] and [[classifying spaces]]:
 
 
 
-See also:
-
-* [[Homotopy theoretic methods in group cohomology]]
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Dwyer-Kan localization]]
 
