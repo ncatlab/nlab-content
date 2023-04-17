@@ -5,9 +5,14 @@ My webpage can be found [here](http://www.math.jhu.edu/~eriehl/).
 
 ## Selected writings
 
+On [[level of a topos|topos levels]] in [[simplicial sets]] and [[cubical sets]]:
+
+* {#KRRZ11} C. Kennett, [[Emily Riehl]], [[Michael Roy]], M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215**  5 (2011)  949-961 &lbrack;[arXiv:1003.5944](http://arxiv.org/abs/1003.5944), [doi:j.jpaa.2010.07.002](https://doi.org/10.1016/j.jpaa.2010.07.002)&rbrack;
+
+
 An introductory [[category theory]] textbook for beginning graduate students or advanced undergraduates with an emphasis on applications of categorical concepts to a variety of areas of mathematics.
 
-* [[Emily Riehl]], _[[Category Theory in Context]]_
+* [[Emily Riehl]], _[[Category Theory in Context]]_ (2017)
 
 Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory (via [[∞-cosmoi]] and the [[homotopy 2-category of (∞,1)-categories]]):
 
