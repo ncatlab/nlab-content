@@ -23,6 +23,15 @@ On [[model category]] [[structures]] [[presentable (infinity,1)-category|present
 
 (...)
 
+## Properties
+ {#Properties}
+
+(...)
+
+* {#QuillenRightBaseChange} The model category $Sp^\Sigma_{\mathcal{R}}$ of parameterized spectra given in [Hebestreit, Sagave & Schlichtkrull (2020)](#HebestreitSagaveSchlichtkrull20) is not quite [[right proper]] (cf. pp. 40) but, in its version based on [[simplicial sets]], left [[base change]] $f^\ast$ along [[Kan fibrations]] $f \,\colon\, B_1 \to B_2$ of ([[zero-spectrum bundles]] over) [[Kan complexes]] *is* a [[left Quillen functor]] between the [[slice model structures]] (by [HSS20, Lem 7.22](#HebestreitSagaveSchlichtkrull20)).
+
+(...)
+
 ## Related concepts
 
 * [[model structure for spectra]]
