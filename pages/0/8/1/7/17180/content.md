@@ -642,11 +642,11 @@ Model structure for [[excisive functors]] on [[simplicial sets]] (hence also a [
 
 A similar model structure on functors on topological spaces was given in
 
-* [[William Dwyer]], _Localizations_, In _Axiomatic, enriched and motivic homotopy theory_, volume 131 of NATO Sci. Ser. II Math. Phys. Chem., pages 3&#8211;28. Kluwer Acad. Publ., Dordrecht, 2004
+* [[William Dwyer]], _Localizations_, in: _Axiomatic, enriched and motivic homotopy theory_, NATO Sci. Ser. II **131**, Kluwer Acad. Publ. (2004) 3-28 &lbrack;[doi:10.1007/978-94-007-0948-5](https://doi.org/10.1007/978-94-007-0948-5)&rbrack;
 
 and also excisive functors modeled on topological spaces are the $\mathcal{W}$-spectra in
 
-* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society **82** (2001) 441-512 &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf)&rbrack;
 
 
 Discussion of the restriction from excisive functors to [[symmetric spectra]] includes
@@ -660,9 +660,9 @@ The [[functors with smash products]] ("FSP"s) appearing in ([Lydakis 98, remark 
 
 Further generalization of the model structure for excisive functor, in particular to [[enriched functors]] and to a [[model structure for n-excisive functors]] for $n \geq 1$ is discussed in
 
-* {#BiedermannChornyRondings06} [[Georg Biedermann]], [[Boris Chorny]], Oliver R&#246;ndigs, _Calculus of functors and model categories_, Advances in Mathematics 214 (2007) 92-115 ([arXiv:math/0601221](http://arxiv.org/abs/math/0601221))
+* {#BiedermannChornyRondings06} [[Georg Biedermann]], [[Boris Chorny]], [[Oliver Röndigs]], _Calculus of functors and model categories_, Advances in Mathematics **214** (2007) 92-115 &lbrack;[arXiv:math/0601221](http://arxiv.org/abs/math/0601221), [doi:10.1016/j.aim.2006.10.009](https://doi.org/10.1016/j.aim.2006.10.009)&rbrack;
 
-* [[Georg Biedermann]], Oliver R&#246;ndigs, _Calculus of functors and model categories II_ ([arXiv:1305.2834v2](http://arxiv.org/abs/1305.2834v2))
+* [[Georg Biedermann]], [[Oliver Röndigs]], _Calculus of functors and model categories II_, Algebr. Geom. Topol. **14** (2014) 2853-2913 &lbrack;[arXiv:1305.2834v2](http://arxiv.org/abs/1305.2834), [doi:10.2140/agt.2014.14.2853](https://doi.org/10.2140/agt.2014.14.2853)&rbrack;
 
 
 [[!redirects model structure for excisive functors]]
