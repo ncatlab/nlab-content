@@ -1,4 +1,5 @@
 
+
 # Rewriting
 * table of contents
 {: toc}
@@ -49,9 +50,9 @@ A classical foundational paper is
 
 * Axel Thue,  Probleme &#252;ber Ver&#228;nderungen von Zeichenreihen nach gegebenen Regeln., Kristiania Vidensk. Selsk, Skr. (1914), no. 10, 493&#8211;524.
 
-A key lemma, often called [[Newman lemma]], is given in the beautiful paper:
+A key lemma, often called *[[Newman's lemma]]*, is given in the beautiful paper:
 
-* [[Max Newman|Maxwell Herman Alexander Newman]], _On theories with a combinatorial definition of "equivalence"_, Annals of Mathematics __43__ (1942), no. 2, 223&#8211;243. 
+* [[Max H. A. Newman]], *On theories with a combinatorial definition of "equivalence"*, Annals of Mathematics **43** 2 (1942) 223-243 &lbrack;[doi:10.2307/1968867](https://doi.org/10.2307/1968867)&rbrack;
 
 For good references on word rewriting see
 
