@@ -75,8 +75,16 @@ $$
 
 of the category [[VectBund(X)|VectBund(B)]] of vector bundles over $B$,
 
+## Properties
 
-## Closed monoidal structures
+### Bireflective inclusion of zero-bundles
+ {#BireflectiveInclusionOfZeroBundles}
+
+The construction which to any base space $B$ assigns the [[zero-vector bundle]] over $B$ constitutes a [[bireflective subcategory]]-inclusion (see [there](bireflective+subcategory#ZeroVectorBundlesAmongVectorBundles)) of the category of base spaces into that over vector bundles over these base spaces.
+
+
+
+### Closed monoidal structures
  {#ClosedMonoidalStructures}
 
 For a fixed base space $B$, the [[monoidal category]]-[[structures]] on [[VectBund(B)|$VectBund_B$]] are well known, given [[fiber]]-wise by the respective structures on [[VectorSpaces]]:
@@ -95,7 +103,7 @@ But analogous -- if subtly different -- monoidal structures exist on the total c
 In discussing this now, we (have to and want to) assume that the ambient [[category]] of [[TopologicalSpaces]] is itself [[cartesian closed category|cartesian closed]] (a "[[convenient category of topological spaces]]"), such as that of [[compactly generated topological spaces]] or of [[D-topological spaces]]. 
 
 
-### Cartesian monoidal structure
+#### Cartesian monoidal structure
  {#CartesianMonoidalStructure}
 
 The [[cartesian product]] in $VectBund$ is readily checked to be the "external direct sum", namely the result of [[pullback of vector bundles|pulling back]] the two vector bundles to the [[product space]] of their base spaces along the [[projection maps]] 
@@ -309,7 +317,7 @@ $$
 
 
 
-### Tensor monoidal structure
+#### Tensor monoidal structure
  {#TensorMonoidalStructure}
 
 Consider now the [[symmetric monoidal structure]] on $VectBund$ given by the [[external tensor product]] [[external tensor product of vector bundles|of vector bundles]]
@@ -506,9 +514,8 @@ $$
   \right)
 $$
 
-### Distributive monoidal structure
- {#
-}
+#### Distributive monoidal structure
+ {#DistributiveMonoidalStructure}
 
 With respect to the [[coproduct]] and the [[external tensor product]] [[external tensor product of vector bundles|of vector bundles]], $VectBund$ is a [[distributive monoidal category]]. We spell this out in detail for the case of [[discrete topological space|discrete]] base spaces (sets):
 
@@ -721,7 +728,7 @@ $$
 
 
 
-### Amalgamation of monoidal and parameter structures
+#### Amalgamation of monoidal and parameter structures
  {#AmalgamationOfMonoidalAndParameterStructures}
 
 > under construction
