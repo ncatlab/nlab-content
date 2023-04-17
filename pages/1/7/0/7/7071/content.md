@@ -65,6 +65,8 @@ If the $(n,r)$-category has sufficient [[familial regularity and exactness|exact
 
 * [[n-truncation modality]]
 
+* [[decategorification]]
+
 [[!redirects truncated]]
 [[!redirects truncated object]]
 [[!redirects truncated objects]]
