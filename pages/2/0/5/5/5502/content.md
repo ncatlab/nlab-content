@@ -183,8 +183,8 @@ reviewed for instance in
 
 A quick list of the axioms with a  Grothendieck's six operations with an eye towards the definition of [[motives]] is in section A.5 of 
 
-* [[Denis-Charles Cisinski]], Fr&#233;d&#233;ric D&#233;glise, _Triangulated categories of mixed motives_ ([arXiv:0912.2110](http://arxiv.org/abs/0912.2110))
- {#CisinskiDeglise09}
+* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
+ 
 
 The six operations for [[derived categories]] of [[quasi-coherent sheaves]], [[ind-coherent sheaves]], and [[D-modules]] on [[derived stacks]] are developed in
 
