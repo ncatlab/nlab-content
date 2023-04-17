@@ -54,20 +54,26 @@ Textbook accounts:
 
 * Ian Goodfellow, Y. Bengio, A. Courville, _Deep learning_, MIT Press (2016) &lbrack;[web](https://www.deeplearningbook.org/), [pdf](https://github.com/janishar/mit-deep-learning-book-pdf), [ISBN:9780262035613](https://mitpress.mit.edu/9780262035613/)&rbrack;
 
-For a treatment in terms of [[category theory]] see
-
-* Dan Shiebler, [[Bruno Gavranović]], Paul Wilson, _Category Theory in Machine Learning_ ([arXiv:2106.07032](https://arxiv.org/abs/2106.07032))
-
 See also:
 
 * Wikipedia, *[Machine learning](https://en.wikipedia.org/wiki/Machine_learning)*
 * Juergen Schmidhuber (2015), Scholarpedia, 10(11):32832 [Deep learning](http://www.scholarpedia.org/article/Deep_Learning) (with extensive historical bibliography)
+
+Expository review: 
+
+* [[Stephen Wolfram]], *[What Is ChatGPT Doing… and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)* (Feb 2023)
 
 With regards to [[kernel methods]]:
 
 * Thomas Hofmann, [[Bernhard Schölkopf]], Alexander J. Smola, *Kernel methods in machine learning*, Annals of Statistics 2008, Vol. 36, No. 3, 1171-1220 ([arXiv:math/0701907](https://arxiv.org/abs/math/0701907))
 
 * [[Julien Mairal]], [[Jean-Philippe Vert]], *Machine Learning with Kernel Methods*, 2017 ([pdf](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/slides/master2017/master2017.pdf), [[MarailVertKernelMethods.pdf:file]])
+
+
+Proposal for applications of [[category theory]] to machine learning:
+
+* Dan Shiebler, [[Bruno Gavranović]], Paul Wilson, _Category Theory in Machine Learning_ ([arXiv:2106.07032](https://arxiv.org/abs/2106.07032))
+
 
 The following framework claims to relate to [[homotopy type theory]] 
 
