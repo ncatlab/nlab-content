@@ -15,10 +15,15 @@
 
 ## Idea
 
-A [[string structure]] on a [[manifold]] [[transgression|transgresses]] into a kind of [[spin structure]] on its [[free loop space]], which is "fusive" with respect to fusion of loops (along [[trinions]]). Equipped with this structure this should be a [[2-vector bundle]] on the base space, and this is what is called the *stringor bundle*.
+In a [[higher structure|higher]] version of how a [[spin structure]] induces [[spinor bundles]],
+so [[string structure]] on a [[manifold]] [[transgression|transgresses]] into a kind of [[spin structure]] on its [[free loop space]], which is "fusive" with respect to fusion of loops (along [[trinions]]). Equipped with this structure this should be a [[2-vector bundle]] on the base space, and this is what is called the *stringor bundle*.
  
 
 ## Related concepts
+
+* [[spinor bundle]]
+
+* [[fusion bundle]]
 
 * [[Dirac operator on loop space]]
 
