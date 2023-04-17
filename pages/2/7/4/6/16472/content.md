@@ -44,6 +44,10 @@ On the [[time slice axiom]] in [[homotopical AQFT]]:
 
 * [[Marco Benini]], [[Victor Carmona]], [[Alexander Schenkel]], *Strictification theorems for the homotopy time-slice axiom* &lbrack;[arxiv:2208.04344](https://arxiv.org/abs/2208.04344)&rbrack;
 
+On [[model structure on modules in a monoidal model category|model structure on modules]] for representations of higher [[local nets of observables]] in [[homotopical AQFT]]:
+
+* Angelos Anastopoulos, [[Marco Benini]], *Homotopy theory of net representations*, Rev. Math. Phys. &lbrack;[arXiv:2201.06464](https://arxiv.org/abs/2201.06464), [doi:10.1142/S0129055X23500083](https://doi.org/10.1142/S0129055X23500083)&rbrack;
+
 
 
 ## Related $n$Lab entries
