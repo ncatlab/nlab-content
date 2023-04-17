@@ -23,6 +23,7 @@ On [[model category]] [[structures]] [[presentable (infinity,1)-category|present
 
 (...)
 
+
 ## Properties
  {#Properties}
 
@@ -37,7 +38,7 @@ We consider some properties of model category
   ModCat
 \] 
 
-of parameterized [[symmetric spectra]] in [[I-space|$\mathcal{I}$-spaces]] based on [[SimplicialSets]]
+of parameterized [[symmetric spectra]] in [[I-space|$\mathcal{I}$-spaces]] based on [[SimplicialSets]] and equipped with the absolute/positive local model structures.
 
 $$
   \mathcal{S} \coloneqq sSet
@@ -59,8 +60,8 @@ With the [[external tensor product|external]] [[smash product of spectra]] the m
 hence is a [[monoidal model category]].
 \end{proposition}
 \begin{proof}
-The first statements are made explicit in [HSS, Prop. 4.5](#HebestreitSagaveSchlichtkrull20). 
-To see that also the unit axiom is satisfied it is sufficient to see that $\mathbb{S}$ is a [[cofibrant object]]. For that use the definition of $\mathbb{S}$ as $\mathbb{S}_t^{\mathcal{I}}[\ast]$ (hidden on [p. 38](https://arxiv.org/pdf/1904.01824.pdf#page=38)) and the fact that $\mathbb{S}_t^{\mathcal{I}}$ is a [[left Quillen functor]], from (3.17) on [p. 15](https://arxiv.org/pdf/1904.01824.pdf#page=15).
+The first statements are made explicit in [HSS, Prop. 4.5 & Prop. 5.11](#HebestreitSagaveSchlichtkrull20). 
+To see that also the unit axiom is satisfied it is sufficient to see that $\mathbb{S}$ is a [[cofibrant object]]. For that use the definition of $\mathbb{S}$ as $\mathbb{S}_t^{\mathcal{I}}[\ast]$ (hidden on [p. 38](https://arxiv.org/pdf/1904.01824.pdf#page=38)) and the fact that $\mathbb{S}_t^{\mathcal{I}}$ is a [[left Quillen functor]], by [HSS, Lem. 5.12](#HebestreitSagaveSchlichtkrull20).
 \end{proof}
 
 \begin{proposition}
@@ -107,7 +108,7 @@ The inclusion of [[I-spaces|$\mathcal{I}$-spaces]] via their [[zero-spectrum bun
 
 \end{proposition}
 \begin{proof}
-This may be recognized from [HSS, Lem. 3.19](#HebestreitSagaveSchlichtkrull20).
+This may be recognized from [HSS, Lem. 3.19 & Cor. 5.13](#HebestreitSagaveSchlichtkrull20).
 \end{proof}
 
 \begin{definition}
@@ -125,7 +126,7 @@ notationally implicit. For example, for $B$ a [[simplicial set]] we write $\big(
 The model category (eq:ModelCategoryOfSpectraInISpaces) is not quite [[right proper]] (cf. [pp. 40](https://arxiv.org/pdf/1904.01824.pdf#page=40)) but, in its version based on [[simplicial sets]], we have:
 
 \begin{proposition}\label{QuillenRightBaseChange}
-Left [[base change]] $f^\ast$ along [[Kan fibrations]] $f \,\colon\, B_1 \to B_2$ of ([[zero-spectrum bundles]] (eq:BireflectionOfZeroSpectrumBundles) over) [[Kan complexes]] *is* a [[left Quillen functor]] between the [[slice model structures]] . Since, generally, $f^\ast$ is also a [[right Quillen functor]], we have [[base change]] [[Quillen adjoint triples]] of this form: 
+Left [[base change]] $f^\ast$ along [[Kan fibrations]] $f \,\colon\, B_1 \to B_2$ of ([[zero-spectrum bundles]] (eq:BireflectionOfZeroSpectrumBundles) over) [[Kan complexes]] *is* a [[left Quillen functor]] between the [[slice model structures]] of the *absolute* local model structure. Since, generally, $f^\ast$ is also a [[right Quillen functor]], we have [[base change]] [[Quillen adjoint triples]] of this form: 
 
 \begin{tikzcd}
   \left.
@@ -172,8 +173,61 @@ Left [[base change]] $f^\ast$ along [[Kan fibrations]] $f \,\colon\, B_1 \to B_2
 
 \end{proposition}
 \begin{proof}
-  The left Quillen property of $f^\ast$ is shown in [HSS20, Lem. 7.22](#HebestreitSagaveSchlichtkrull20).
+  The left Quillen property of $f^\ast$ is HSS20, Lem. 7.22](#HebestreitSagaveSchlichtkrull20).
 The right Quillen property is mentioned inside the proof of Lem. 8.10 there.
+\end{proof}
+
+Similarly, but now also for the positive local model structure, we have:
+
+\begin{proposition}
+With respect absolute *or* positive local model structure:
+
+\begin{tikzcd}
+  \left.
+  \begin{array}{r}
+    \mbox{$B_2$ Kan complex}
+    \\
+    \mbox{$f : B_1 \to B_2$ Kan fibration}
+  \end{array}
+  \right\}
+  \;\;\;\;
+    \vdash
+  \;\;\;\;
+  \mathrm{Sp}^\Sigma_{B_1}
+  \ar[
+    rr,
+    shift left=22pt,
+    "{ f_! }"{description}
+  ]
+  \ar[
+    from=rr,
+    shift left=00pt,
+    "{ f^\ast }"{description}
+  ]
+  \ar[
+    rr,
+    shift right=22pt,
+    "{ f_\ast }"{description}
+  ]
+  \ar[
+    rr,
+    phantom,
+    shift left=11pt,
+    "{ \scalebox{.6}{$\bot_{{}_{\mathrlap{\mathrm{Qu}}}}$} }"
+  ]
+  \ar[
+    rr,
+    phantom,
+    shift right=11pt,
+    "{ \scalebox{.6}{$\bot_{{}_{\mathrlap{\mathrm{Qu}}}}$} }"
+  ]
+  &&
+  \mathrm{Sp}^\Sigma_{/B_2}
+\end{tikzcd}
+
+\end{proposition}
+\begin{proof}
+[HSS, Lem. 5.17 & Lem. 7.25](#HebestreitSagaveSchlichtkrull20) 
 \end{proof}
 
 (...)
