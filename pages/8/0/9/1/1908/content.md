@@ -9,60 +9,135 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Decategorification is the reverse of [[vertical categorification]] and turns an $n$-[[n-category|category]] into an $(n-1)$-category.  
+In [[category theory]], by "decategorification" one means (see [below](#Definition)) the process which turns a [[category]] into a [[set]], namely into its set of [[isomorphism classes]]. 
 
-It corresponds in [[homotopy theory]] to [[truncated|truncation]].
+Typically one is interested in the case where the category is equipped with extra [[higher structure|higher]] [[structure]] (see [further below](#ExtraStructure)), whence its set of isomorphism classes will carry the corresponding ordinary [[structure]]. For example: the decategorification of a [[monoidal category]] is canonically a [[monoid]], the decategorification of a [[rig category]] is canonically a [[rig]], the decategorification of a [[2-group]] is canonically a plain [[group]], etc. 
+
+(Combined with [[group completion]], decategorification of [[monoidal categories]] is often known as a form of [[K-theory]] in degree 0, see for instance at *[[K-theory of a permutative category]]*.)
+
+In this sense decategorification is a "[[left inverse]]" to ([[vertical categorification|vertical]]) "[[categorification]]" (see there for more), namely to the process of asking for [[category theory|category theoretic]] [[higher structures]] analogous to given  [[set theory|set theoretic]] [[structures]]. 
+
+Crucially, though, decategorification is a systematic process (in fact a [[2-functor]], see [below](#Definition)) while [[categorification]], being a (local) [[section]] of this functor involves making choices: There are in general several categorical structures which have the same decategorification. For instance, the [[rig category|rig]] [[monoidal categories]] [[FinSet]] (with its [[cartesian product]]) and [[FinDimVect]] (with its [[tensor product of vector spaces]]) both decategorify to the [[rig]] [[monoid]] of [[natural numbers]].
+
+More generally, in [[higher category theory]] there are higher sequences of "higher decategorification" functors which incrementally discard non-invertible [[higher morphisms]] and [[quotient]] by remaining invertible [[higher morphisms]] up to some degree (see [below](#DefinitionForHigherCategories)).
+
+In particular, in the [[homotopy theory]] of [[groupoids]], [[higher groupoids]] and [[infinity-groupoid|$\infty$-groupoids]], namely in [[(infinity,0)-category|$(\infty,0)$-category]]-theory, decategorification is nothing but [[truncated object in an (infinity,1)-category|truncation]] and the tower of decategorifications/[[n-truncation|$n$-truncations]] is known as the *[[Postnikov tower]]*.
 
 
 ## Definitions
+ {#Definition}
 
-Given a ([[small category|small]] or [[essentially small category|essentially small]]) [[category]] $C$, the [[set]] of __[[isomorphism classes]]__ $K(C)$ of objects of $C$ is called the **decategorification** of $C$.
+### For categories
+ {#DefinitionForCategories}
 
-This is a [[functor]]
+Given an ([[essentially small category|essentially]] [[small category|small]]) [[category]] $\mathcal{C}$, its decategorification is the [[set]] $K(C)$ of [[isomorphism classes]] of [[objects]] of $\mathcal{C}$.
 
-$$
-  K : Cat \to Set
-$$
+This construction extends to a [[2-functor]]
 
-from the category (or even $2$-[[2-category|category]]) [[Cat]] of (small) categories to the category (or [[locally discrete 2-category]]) [[Set]] of sets. Notice that we may think of a [[set]] as [[0-category]], so that this can be thought of as
+\[
+  \label{PlainDecategorification}
+  \begin{array}{rcl}
+  \mathllap{K \;\colon\; }
+   Cat &\longrightarrow& Set
+   \\
+   \mathcal{C} &\mapsto& Obj(\mathcal{C})_{/iso}
+  \end{array}
+\]
 
-$$
-  K : 1Cat \to 0Cat
-  \,.
-$$
+from the ([[2-category|2-]])[[category]]  [[Cat]] of ([[essentially small categories|essentially]] [[small category|small]]) [[categories]] to the category (or [[locally discrete 2-category]]) [[Set]] of [[sets]]. 
 
-
-Decategorification decreases categorical degree by forming equivalence classes. Accordingly for all $n \gt m $ and all suitable notions of [[higher category theory|higher categories]] one can consider decategorifications
-
-$$
-  n Cat \to m Cat
-  \,.
-$$
-
-For instance forming the [[homotopy category of an (∞,1)-category]] means decategorifying as
+Notice that we may think of [[sets]] as [[0-categories]], so that (eq:PlainDecategorification) may equivalently be thought of as being of the form
 
 $$
-  (\infty,1)Cat \to 1 Cat
-  \,.
+  K \colon 1Cat \longrightarrow 0Cat
+  \,,
 $$
 
-Therefore one way to think of [[vertical categorification]] is as a [[right inverse]] to decategorification.
+which makes manifest that and how decategorification indeed *decreases categorical degree*.
 
-## Decategorification of a 2-category ##
+For generalization of decategorification to [[higher category theory]] ([below](#DefinitionForHigherCategories)) it is useful to make explicit that the decategorification 2-functor (eq:PlainDecategorification) factors as 
 
-A precise way to define the decategorification of a 2-category in the above sense is to identify all 1-arrows which are 2-isomorphic (note that this defines an equivalence relation on 1-arrows and respects composition), and to discard the 2-arrows.
+\[
+  \label{PlainDecategorificationFactoredThroughCore}
+  K 
+  \,\colon\,
+  Cat
+    \overset{Core}{\longrightarrow}
+  Grpd
+    \overset{\tau_0}{\longrightarrow}
+  Set
+  \,,
+\]
+
+where
+
+1. $Core$ assigns the "[[core]]" of a category, namely the maximal [[groupoid]] inside it, hence $Core$ "discards" all non-invertible morphisms;
+
+2. $\tau_0$ is the [[0-truncation]] functor which turns a [[1-groupoid]] into its [[0-groupoid]] of [[connected components]].
+
+It may be interesting to notice here that:
+
+* [[core|Core]] is *[[right adjoint]]* to the [[fully faithful 2-functor|embedding]] $Grpd \hookrightarrow Cat$, hence is a [[coreflective subcategory|co-reflection]],
+
+* [[0-truncation|$\tau_0$]] is *[[left adjoint]]* to the [[fully faithful functor|embedding]] $Set \hookrightarrow Grp$, hence is a [[reflective subcategory|reflection]].
 
 
-## Extra structure ##
+### For higher categories
+ {#DefinitionForHigherCategories}
 
-If the category in question has extra structure, then this is usually inherited in some decategorified form by its decategorification. For instance if $C$ is a [[monoidal category]] then $K(C)$ is a [[monoid]].
+For any sensible notion of [[higher categories]] one will have corresponding analogs of the [[core]]- and the [[truncation]]-operations used in (eq:PlainDecategorificationFactoredThroughCore), which allows to define decategorification of higher categories.
+
+For example, for [[2-categories]] there are the evident notions of *[[core in a 2-category]]*.
+
+More generally, for any of the models of [[(infinity,n)-categories|$(\infty,n)$-categories]] we have a [[coreflection]]
+
+$$
+  (\infty,n) Cat
+    \underoverset
+      {\underset{Core_n}{\longleftarrow}}
+      {\hookrightarrow}
+      {\;\; \bot \;\;}
+  (\infty,n+1)
+$$
+
+which together with the [[truncated object in an (infinity,1)-category|$m$-truncation]]-operation to [[homotopy n-types|homotopy $m$-types]] yields towers of higher decategorification functors
+
+$$
+  (\infty,n+1)Cat
+  \overset{Core_n}{\longrightarrow}
+  (\infty,n)Cat  
+  \to 
+  \cdots
+  \to
+  (\infty,0)Cat  
+  \;\simeq\;
+  \infty Grpd
+  \overset{ \tau_m }{\longrightarrow}
+  m Grpd
+  \to 
+  \cdots 
+  \to
+  0 Grpd 
+  \;\simeq\; 
+  Set
+  \,,
+$$
+
+any stage of which may reasonably be addressed as an intermediate stage of higher decategorification.
+
+
+
+## Extra structure
+ {#ExtraStructure}
+
+If the category in question has [[extra structure|extra]] [[higher structure|higher]] [[structure]], then this is usually inherited in some decategorified form by its decategorification. For instance if $C$ is a [[monoidal category]] then $K(C)$ is a [[monoid]].
 
 A famous example are [[fusion category|fusion categories]] whose decategorifications are called _[[Verlinde ring]]s_.
 
