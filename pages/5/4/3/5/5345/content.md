@@ -18,7 +18,9 @@
 
 The term  _simplicial groupoid_ is often used for a [[simplicial object]] in the [[category]] [[Grpd]] of [[groupoids]] whose [[simplicial set]] of objects is simplicially constant. We will write $s Grpd$ for the category of such simplicial groupoids.
 
-(BEWARE: perhaps a more accurate term for this concept is **simplicially enriched groupoid**, and conceptually it is often the [[sSet-enriched category]]-[[structure]] that is useful. Because of this it is advisable to check the use being made of the term when consulting the literature. This is more fully discussed at *[[simplicial category]]*.)
+\begin{remark}
+Perhaps a more accurate term for this concept is **simplicially enriched groupoid**, and conceptually it is often the [[sSet-enriched category]]-[[structure]] that is useful. Because of this it is advisable to check the use being made of the term when consulting the literature. This is more fully discussed at *[[simplicial category]]*.
+\end{remark}
 
 
 ## Definition
@@ -57,7 +59,7 @@ where both $G$ and $\bar W$ preserve all [[weak equivalence]]s.
 =--
 
 This appears for instance as 
-([GoerssJardine, theorem 7.8](#GoerssJardine))
+([Goerss & Jardine, theorem 7.8](#GoerssJardine))
 
 +-- {: .num_remark}
 ###### Remark
