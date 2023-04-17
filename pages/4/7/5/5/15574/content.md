@@ -552,7 +552,7 @@ On the mathematical side, the book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04)
 
 Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92),[1994a](#Law94a)) with the second containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the latter containing a discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
-The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors.
+The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors (e.g. [Roy  (2021)](#Roy21)).
 
 Further results on essential localizations can be found in the papers by [Borceux-Korotenski (1991)](#BK91), [Johnstone (1996)](#JS96), [Vitale (2001)](#VT01) and [Lucyshyn-Wright (2011)](#LW11) or in [SGA 4](#SGA4).
 
@@ -652,6 +652,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * J. P. Pertille, *Aufhebung - Meta-categoria da L&#243;gica Hegeliana*, Revista Eletr&#244;nica Estudos Hegelianos **8** no.15 (2011) pp.58-66. ([pdf](http://www.hegelbrasil.org/reh_2011_2_art4.pdf))
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, *Distributive Adjoint Strings*, TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
+
+* {#Roy21}Michael Roy, _The topos of ball complexes_, TAC Reprints no.28 (2021) pp.1-62. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/28/tr28abs.html))
 
 * {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
