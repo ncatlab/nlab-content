@@ -4,11 +4,16 @@ Frédéric Déglise is a mathematician working on the theory of motives and rela
 
 ## Selected writings
 
-On [[motives]]:
+On [[triangulated categories]] of [[mixed motives]] and their [[yoga of six functors]]:
 
-* [[Denis-Charles Cisinski]] and [[Frédéric Déglise]], _Triangulated categories of mixed motives_, Springer Monographs in Mathematics, 2019 ([doi:10.1007/978-3-030-33242-6](https://www.springer.com/gp/book/9783030332419), [arXiv](https://arxiv.org/abs/0912.2110))
+* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
 
-## Related $n$Lab entries
+and the relevant [[model structures on chain complexes]]:
+
+* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Local and stable homological algebra in Grothendieck abelian categories*, Homology, Homotopy and Applications **11** 1 (2009) 219–260 &lbrack;[arXiv:0712.3296](http://arxiv.org/abs/0712.3296), [hha:1251832567](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-11/issue-1/Local-and-stable-homological-algebra-in-Grothendieck-abelian-categories/hha/1251832567.full)&rbrack;
+
+
+## Related entries
 
 * [[motives]]
 
@@ -17,6 +22,8 @@ On [[motives]]:
   * [[motivic homotopy theory]]
   * [[motivic cohomology]]
   * [[algebraic K-theory]]
+
+* [[model structure on chain complexes]]
 
 category: people
 
