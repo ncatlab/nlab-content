@@ -51,7 +51,7 @@ General discussion:
 
 {#TheSpecialCaseInFunctorCategory} The special case of the model structure on modules in a [[functor category]] with values in a closed symmetric monoidal model category is (re-)derived (see the discussion [here](https://nforum.ncatlab.org/discussion/14400/model-structure-on-modules-in-a-monoidal-model-category/?Focus=99231#Comment_99231)) in:
 
-* Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations* $[$[arXiv:2201.06464](https://arxiv.org/abs/2201.06464)$]$
+* Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations*, Rev. Math. Phys. (2023) &lbrack;[arXiv:2201.06464](https://arxiv.org/abs/2201.06464), [doi:10.1142/S0129055X23500083](https://doi.org/10.1142/S0129055X23500083)&rbrack;
 
 (there for the purpose of desribing representations of [[nets of observables]] in [[homotopical algebraic quantum field theory]]). 
 
