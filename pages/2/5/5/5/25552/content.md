@@ -15,7 +15,7 @@ Newman's diamond lemma is a simple theorem on [[rewriting systems]] guaranteeing
 
 * [[confluence]]
 
-* [[Church-Roesser theorem]], 
+* [[Church-Rosser theorem]], 
 
 ## References
 
@@ -24,5 +24,5 @@ Newman's diamond lemma is a simple theorem on [[rewriting systems]] guaranteeing
 * (Širšov-Bergman) [[zoranskoda:diamond lemma]] (zoranskoda lab)
 
 
-[[!redirects Newman's theorem]]
+[[!redirects Newman's lemma]]
 
