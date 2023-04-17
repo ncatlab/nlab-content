@@ -35,6 +35,9 @@ See [[zoranskoda:diamond lemma]] and the discussion starting [here](http://nforu
 
 Distinguish from the 5-edge 4-point [undirected diamond graph](http://en.wikipedia.org/wiki/Diamond_graph).
 
+## Related entries
+
+* [[Newman's diamond lemma]]
 
 [[!redirects diamond]]
 [[!redirects diamonds]]
