@@ -899,7 +899,9 @@ A [[monoidal category|monoidal]] version:
 
 * {#MoellerVasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], *Monoidal Grothendieck Construction*,  2019 ([arXiv:1809.00727](https://arxiv.org/abs/1809.00727))
 
-A call to think twice before using a Grothendieck construction (at least as categorical semantics for constructions in [[directed homotopy type theory]]):
+The Grothendieck construction generalizes the Σ-type construction for sets/types to categories. However, there are many other Σ-like constructions (as well as dualizations of the Grothendieck construction) for category-like objects.
+The first part of the following note discusses alternatives and calls to consider these before making a choice.
+The note itself is motivated by the search for categorical semantics of [[directed homotopy type theory]], but the first part may be more generally relevant:
 
 * {#Nuyts20} [[Andreas Nuyts]], *A Vision for Natural Type Theory*, Part I: Grothendieck Construction Considered Harmful, [Note](https://anuyts.github.io/files/nattt-vision.pdf)
 
