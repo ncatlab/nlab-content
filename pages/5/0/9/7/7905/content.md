@@ -1,10 +1,11 @@
 
 **[[bundles]]**
 
-(see also _[[Chern-Weil theory]]_, [[parameterized homotopy theory]])
+* ([[parameterized stable homotopy theory|stable]]) [[parameterized homotopy theory]]
 
+* [[fiber bundles in physics]]
 
-[[fiber bundles in physics]]
+* [[Chern-Weil theory]]
 
 
 
@@ -12,15 +13,21 @@
 
 * [[slice topos]], [[slice (∞,1)-topos]]
 
-* [[dependent type theory]]
+* ([[dependent linear type theory|linear]]) [[dependent type theory]]
 
 ## Classes of bundles
 
 * [[covering space]]
 
+* [[retractive space]]
+
 * [[fiber bundle]], [[fiber ∞-bundle]]
 
   [[numerable bundle]]
+
+  * [[sphere bundle]]
+
+  * [[projective bundle]]
 
 * [[principal bundle]], [[principal ∞-bundle]]
 
@@ -28,30 +35,53 @@
 
   * [[circle bundle]], [[circle n-bundle with connection|circle n-bundle]]
 
+  * [[orientation bundle]]
+
+  * [[spinor bundle]], [[stringor bundle]]
+
 * [[associated bundle]], [[associated ∞-bundle]]
 
   * [[gerbe]], [[2-gerbe]], [[∞-gerbe]], 
 
   * [[local coefficient bundle]]
 
-* [[vector bundle]], [[(∞,1)-vector bundle]]
+* [[vector bundle]], [[2-vector bundle]], [[(∞,1)-vector bundle]]
 
-  * [[topological vector bundle]], [[differentiable vector bundle]], [[algebraic vector bundle]]
+  [[real vector bundle|real]], [[complex vector bundle|complex]]/[[holomorphic vector bundle|holomorphic]], [[quaternionic vector bundle|quaternionic]]
+
+
+  [[topological vector bundle|topological]], [[differentiable vector bundle|differentiable]], [[algebraic vector bundle|algebraic]]
+
+  [[connection on a vector bundle|with connection]]
+
+  * [[line bundle]]
+
+    [[complex line bundle|complex]], [[holomorphic line bundle|holomorphic]], [[algebraic line bundle|algebraic]]
+
+    [[cubical structure on a line bundle|cubical structure]]
 
   * [[Chern-Weil theory]]
 
   * [[topological K-theory]]
 
   * [[tensor category]] [[Vect(X)|of vector bundles]]
+    
+    ([[VectBund]])
 
-  * [[real vector bundle]], [[complex vector bundle]]
+  * [[direct sum of vector bundles|direct sum]], [[tensor product of vector bundles|tensor product]], [[external tensor product of vector bundles|external tensor product]], [[inner product of vector bundles|inner product]]
 
-  * [[direct sum of vector bundles]], [[tensor product of vector bundles]], [[inner product of vector bundles]], [[dual vector bundle]]
+  * [[dual vector bundle]]
 
   * [[stable vector bundle]]
 
   * [[virtual vector bundle]]
+
+* [[bundle of spectra]]
   
+* [[natural bundle]]
+
+* [[equivariant bundle]]
+
 
 ## Universal bundles
 
@@ -72,6 +102,8 @@
 
 ## Examples
 
+* [[empty bundle]], [[zero bundle]]
+
 * [[trivial vector bundle]]
 
 * [[tangent bundle]], [[normal bundle]]
@@ -90,14 +122,6 @@
 
 * [[clutching construction]]
 
-* [[direct sum of vector bundles]], [[tensor product of vector bundles|tensor product]], [[external tensor product of vector bundles|external tensor product]], 
-
-* [[inner product on vector bundles]]
-
-* [[dual vector bundle]]
-
-* [[projective bundle]]
 
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/bundles+-+contents)</div>
