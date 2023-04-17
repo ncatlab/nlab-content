@@ -477,6 +477,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   slides: [[Qazaqzeh-at-QFTAndCobordism2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=bUsCDAUiX60)
+
   > The generalization of alternating links to quasi-alternating links raises some natural questions that have affirmative answer in the class of alternating links. 
 
   > In this talk, we discuss these questions and then we give an affirmative answer to one question without any assumption. As a consequence, we prove that one of these questions is solved in the affirmative iff Green's conjecture on the finiteness of quasi-alternating links of a given determinant holds.  Also, we prove that another question is solved in the affirmative implies Green's conjecture on the finiteness of quasi-alternating links of a given determinant holds.
