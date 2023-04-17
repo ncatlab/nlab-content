@@ -55,7 +55,7 @@ For the case of [[highly structured spectra]] such as [[orthogonal spectra]], [[
 
 ### For excisive functors
 
-For the monoidal [[model structure]] for excisive functors, the fact that monoids with respect to the [[symmetric smash product of spectra]] are equivalently FSPs is discussed in ([Lydakis 98, remark 5.12](#Lydakis98)). See [this proposition](model+structure+for+excisive+functors#MonoidsInLydakisModelStructureAreFSP).
+For the monoidal [[model structure]] for [[excisive functors]], the fact that monoids with respect to the [[symmetric smash product of spectra]] are equivalently FSPs is discussed in ([Lydakis 98, remark 5.12](#Lydakis98)). See [this proposition](model+structure+for+excisive+functors#MonoidsInLydakisModelStructureAreFSP).
 
 ## Ingredients
 
