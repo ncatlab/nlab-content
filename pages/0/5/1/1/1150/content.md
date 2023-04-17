@@ -110,9 +110,11 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 ## References
 
-A useful collection of introductory notes to fiber bundles, vector bundles and fiber bundles with connection is at 
+Introductory notes on [[fiber bundles]], [[vector bundles]] and [[connections on bundles]]:
 
 * Steven Bradlow, [Vector bundles and introduction to gauge theory](http://cwillett.imathas.com/bundles/)
+
+See also many references at *[[fiber bundles in physics]]*.
 
 
 [[!redirects bundles]]
