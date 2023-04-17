@@ -1257,10 +1257,13 @@ Some generalizations and simplifications of the original approach are discussed 
 * {#Gillespie} James Gillespie, _Kaplansky classes and derived categories_, 2007, [pdf](http://phobos.ramapo.edu/~jgillesp/updated%20qcsheaf.pdf)
 
 
-Finally a third approach to the unbounded case is discussed in
+Finally a third approach to the unbounded case is discussed (in a context of [[mixed motives]]) in:
 
-* [[Denis-Charles Cisinski]], F. D&#233;glise, _Local and stable homologial algebra in Grothendieck abelian categories_, Homology, Homotopy and Applications, vol. 11 (1) (2009)  ([url](http://www.intlpress.com/HHA/v11/n1/a11/))
-{#CisinskiDeglise}
+* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Local and stable homological algebra in Grothendieck abelian categories*, Homology, Homotopy and Applications **11** 1 (2009) 219–260 &lbrack;[arXiv:0712.3296](http://arxiv.org/abs/0712.3296), [hha:1251832567](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-11/issue-1/Local-and-stable-homological-algebra-in-Grothendieck-abelian-categories/hha/1251832567.full)&rbrack;
+
+* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
+
+
 
 A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in
 
