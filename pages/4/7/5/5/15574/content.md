@@ -458,7 +458,7 @@ $$
 
 Given a topos $\mathcal{E}$ the highest level is always given by $id_\mathcal{E}$ yielding the trivial [[adjoint string]] $id_\mathcal{E}\dashv id_\mathcal{E}\dashv id_\mathcal{E}$ with no less trivial adjoint modalities $id_\mathcal{E}\dashv id_\mathcal{E}$. Obviously, the sheaves and skeleta for this level coincide. Since the corresponding subtopos is simply $\mathcal{E}$, this level _resolves every other level_ and suggests to view the ascension from $\emptyset\dashv\ast$ to $id_\mathcal{E}\dashv id_\mathcal{E}$ as a process of increasing stepwise the number of objects that are sheaves as well as skeleta at a given level. The definition of resolution ensures that a level inherits the objects in the intersection from lower levels but also that all non-sheaves from the lower levels will be henceforth in the intersection.
 
-Note that though $id_\mathcal{E}$ resolves every level it need not be the Aufhebung of any strictly lower level. This situation occurs e.g. in the examples from combinatorial topology discussed [below](#SimplicialAndCubicalSets): Here the levels correspond to the geometrical dimension of the 'triangulated spaces' involved plus the highest level 'at infinity' and the Aufhebung is a simple numerical relation between finite levels e.g. in the topos of Ball complexes the Aufhebung of level $n$ is $n+1$. Of course, $id_\mathcal{E}$ is always its own Aufhebung and we see, incidentally, that a level might be the Aufhebung of more than one level, namely e.g. itself and perhaps several other levels - this might happen with $id_\mathcal{E}$ when the lattice of levels is finite e.g. in the [[Sierpinski topos]] $Set^{\to}$ (see [below](#SierpExample)).
+Note that though $id_\mathcal{E}$ resolves every level it need not be the Aufhebung of any strictly lower level. This situation occurs e.g. in the examples from combinatorial topology discussed [below](#SimplicialAndCubicalSets): Here the levels correspond to the geometrical dimension of the 'triangulated spaces' involved plus the highest level 'at infinity' and the Aufhebung is a simple numerical relation between finite levels e.g. in the topos of ball complexes &lbrack;[Roy (1997)](#Roy97)&rbrack; the Aufhebung of level $n$ is $n+1$. Of course, $id_\mathcal{E}$ is always its own Aufhebung and we see, incidentally, that a level might be the Aufhebung of more than one level, namely e.g. itself and perhaps several other levels - this might happen with $id_\mathcal{E}$ when the lattice of levels is finite e.g. in the [[Sierpinski topos]] $Set^{\to}$ (see [below](#SierpExample)).
 
 Though $id_\mathcal{E}$ is trivial from a mathematical point of view, paradoxically it nevertheless captures on the philosophical side one of the most enigmatic concepts of the early _identity philosophy_ of Hegel and Schelling, namely the **absolute** as the identity of identity and non-identity:
 
@@ -552,7 +552,7 @@ On the mathematical side, the book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04)
 
 Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92),[1994a](#Law94a)) with the second containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the latter containing a discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
-The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors (e.g. [Roy  (2021)](#Roy21)).
+The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors (e.g. [Roy  (1997)](#Roy97)).
 
 Further results on essential localizations can be found in the papers by [Borceux-Korotenski (1991)](#BK91), [Johnstone (1996)](#JS96), [Vitale (2001)](#VT01) and [Lucyshyn-Wright (2011)](#LW11) or in [SGA 4](#SGA4).
 
@@ -593,9 +593,9 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], *Remarks on Quintessential and Persistent Localizations*, TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+* {#KL89} [[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
-* {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
+* {#KRRZ11} C. Kennett, [[Emily Riehl]], [[Michael Roy]], M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215**  5 (2011)  949-961 &lbrack;[arXiv:1003.5944](http://arxiv.org/abs/1003.5944), [doi:j.jpaa.2010.07.002](https://doi.org/10.1016/j.jpaa.2010.07.002)&rbrack;
 
 * {#Koch09} A. F. Koch, *Hegel's Science of Logic*, Lectures Emory University 2009. ([pdf](http://www.philosophie.uni-hd.de/md/philsem/personal/koch_hegel_science_of_logic_winter_2016.pdf))
 
@@ -653,7 +653,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, *Distributive Adjoint Strings*, TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
 
-* {#Roy21}Michael Roy, _The topos of ball complexes_, TAC Reprints no.28 (2021) pp.1-62. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/28/tr28abs.html))
+* {#Roy97} [[Michael Roy]], *The topos of ball complexes*, PhD thesis (1997), reprinted as: TAC Reprints **28** (2021) 1-62 &lbrack;[tac:tr28](http://www.tac.mta.ca/tac/reprints/articles/28/tr28abs.html)&rbrack;
 
 * {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
