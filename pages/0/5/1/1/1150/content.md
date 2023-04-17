@@ -62,7 +62,7 @@ One generally considers bundles with extra properties or structure:
 
 The category of bundles over a given object $B$ is the [[over category]] $\mathcal{C}/B$. The collection of all bundles in a given [[category]] $\mathcal{C}$ therefore arranges itself into the [[codomain fibration]] $cod : [I,\mathcal{C}] \to \mathcal{C}$. As such, the [[descent]] for bundles may be expressed as [[monadic descent]] with respect to the codomain [[bifibration]]. This does in general not work inside one of the more restrictive subcategories of bundles with extra structure and property, as the push-forward operation typically does not respect these extra conditions. For more on this see [monadic descent of bundles](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
-## Relation to other concepts
+## Related concepts
 
 * Bundles tend to have [[sheaf|sheaves]] of local [[section]]s.
 
@@ -74,7 +74,7 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 * [[sub-bundle]]
 
-* [[ex-space]]
+* [[retractive space]]
 
 * **[[fiber bundle]]** / [[fiber ∞-bundle]]
 
