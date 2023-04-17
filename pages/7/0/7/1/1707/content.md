@@ -924,6 +924,10 @@ specifically for [[algebraic groups]]:
 
 * {#Milne17} [[James Milne]], Section 15 (16 in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
+On [[homotopy theory]]-methods:
+ 
+* [[William G. Dwyer]], [[Hans-Werner Henn]], *Homotopy Theoretic Methods in Group Cohomology*, Advanced Courses in Mathematics - CRM Barcelona, Springer (2001) &lbrack;[doi:10.1007/978-3-0348-8356-6](https://doi.org/10.1007/978-3-0348-8356-6)&rbrack;
+
 Further exposition:
 
 * [[Alejandro Adem]], _Lectures on the cohomology of finite groups_ ([pdf](http://www.math.uic.edu/~bshipley/ConMcohomology1.pdf))
