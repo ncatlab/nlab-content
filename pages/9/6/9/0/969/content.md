@@ -225,23 +225,27 @@ See also [[localization of a simplicial model category]].
 
 ## References
 
-The classical reference to localization for categories is the book by Gabriel and Zisman:
+A classical reference:
 
-* [[Pierre Gabriel]], [[Michele Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
- 
-A more recent account of localization with a [[calculus of fractions]] is section 7 of
+* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
 
-* [[M. Kashiwara]], [[P. Schapira]], _[[Categories and Sheaves]]_, Springer 2000. 
+An excellent account emphasizing the interplay of the different notions ([[reflective subcategory]], [[calculus of fractions]], [[closure operator]]):
 
-An excellent account emphasizing the interplay of the different notions (reflective subcategory, calculus of fractions, closure operator) can be found in ch. V of
+* [[Francis Borceux|F. Borceux]], ch V of: _[[Handbook of Categorical Algebra]] vol. 1_ , Cambridge UP (1994)
 
-* [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra vol. 1_ , Cambridge UP 1994.[^borceux]
+  > (See also vols. 2 and 3 for examples of the theory in action in abelian categories, sheaf theory etc.)
 
-[^borceux]: See also vols.2,3 for examples of the theory in action in abelian categories, sheaf theory etc.
+* [[M. Kashiwara]], [[P. Schapira]], section 7 of: _[[Categories and Sheaves]]_, Springer (2000) 
+
 
 The pioneering work on abelian categories, with a large part on the localization in abelian categories is
 
 * [[Pierre Gabriel]], [[Des catégories abéliennes]], Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448, [numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0)
+
+Review of localization in [[homotopy theory]]:
+
+* [[William Dwyer]], _Localizations_, in: _Axiomatic, enriched and motivic homotopy theory_, NATO Sci. Ser. II **131**, Kluwer Acad. Publ. (2004) 3-28 &lbrack;[doi:10.1007/978-94-007-0948-5](https://doi.org/10.1007/978-94-007-0948-5)&rbrack;
+
 
 A __terminological discussion__ prompted by question in which sense "localization" is a descriptive term or not is archived ion $n$Forum [here](https://nforum.ncatlab.org/discussion/481/localization/?Focus=23461#Comment_23461).
 
