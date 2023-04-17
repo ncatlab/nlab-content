@@ -10,9 +10,14 @@ On [[(∞,1)-category theory]] and [[homotopical algebra]]:
 
 * [[Denis-Charles Cisinski]], _[[Higher categories and homotopical algebra]]_, Cambridge University Press, 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
-On [[mixed motives]]:
+On [[triangulated categories]] of [[mixed motives]] and their [[yoga of six functors]]:
 
-* [[Denis-Charles Cisinski]] and [[Frédéric Déglise]], _Triangulated categories of mixed motives_, Springer Monographs in Mathematics, 2019 ([doi:10.1007/978-3-030-33242-6](https://www.springer.com/gp/book/9783030332419), [arXiv](https://arxiv.org/abs/0912.2110))
+* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
+
+and the relevant [[model structures on chain complexes]]:
+
+* [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Local and stable homological algebra in Grothendieck abelian categories*, Homology, Homotopy and Applications **11** 1 (2009) 219–260 &lbrack;[arXiv:0712.3296](http://arxiv.org/abs/0712.3296), [hha:1251832567](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-11/issue-1/Local-and-stable-homological-algebra-in-Grothendieck-abelian-categories/hha/1251832567.full)&rbrack;
+
 
 On the [[(infinity,1)-Grothendieck construction]] via [[straightening and unstraightening]] entirely within the context of [[quasi-categories]]:
 
