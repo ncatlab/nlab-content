@@ -1,6 +1,6 @@
 | [[algebra|algebraic]] [[mathematical structure|structure]] | [[oidification]] |  
 |----------------|----------|
-|[[truth value]]|[[preorder]]|
+|[[truth values]]|[[preorder]]|
 |[[magma]]|[[magmoid]]|
 |[[pointed set|pointed]] [[magma]] with an [[endofunction]]|[[setoid]]/[[Bishop set]]|
 |[[unital magma]]|[[unital magmoid]]|
