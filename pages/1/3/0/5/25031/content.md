@@ -60,6 +60,9 @@ Curiously, the fusion operation that is formalized by the notion of fusion bundl
     }
 \end{imagefromfile}
 
+## Related concepts
+
+* [[stringor bundle]]
 
 ## References
 
