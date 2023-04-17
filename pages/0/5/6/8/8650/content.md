@@ -11,20 +11,27 @@ _Mathematica_ is a computer algebra software package.
 
 * [[list of mathematics software]]
 
-* [[Coq]], [[Agda]]
+* [[proof assistants]]:
 
-* [[ELF]]
+  * [[Coq]], [[Agda]]
 
-* [[Sage]]
+  * [[ELF]]
 
-##Other packages etc.
+  * [[Sage]]
+
 
 * [[GAP]]
 
 ## References and links
 
+Mathematica is the brain child of [[Stephen Wolfram]].
+
+* [www.wolfram.com/mathematica](https://www.wolfram.com/mathematica)
+
 * Wikipedia, _[Mathematica](Mathematica)_
-* [SuperLie](http://equaonline.com/math/SuperLie), a Mathematica package for
-calculations with Lie algebras and superalgebras
+
+A Mathematica package for calculations with ([[super Lie algebra|super]])[[Lie algebras]]:
+
+* [SuperLie](http://equaonline.com/math/SuperLie)
 
 category: software
