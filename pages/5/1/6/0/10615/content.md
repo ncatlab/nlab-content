@@ -315,6 +315,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 ## Related concepts
 
+* [[decategorification]], [[core]]
+
 [[!include homotopy n-types - table]]
 
 
