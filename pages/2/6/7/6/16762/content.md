@@ -52,6 +52,8 @@ Typical resolution of singularities is by "blow-up" of the singularity where the
 
   [[tautological equivariant line bundle]]
 
+* [[derived blow-up]]
+
 ## References
 
 The existence of resolutions of singularities by "blow-up" was established, for [[ground fields]] of [[characteristic zero]], in some generality in
