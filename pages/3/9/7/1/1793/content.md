@@ -652,7 +652,7 @@ The [[cofibrations]] are all, in particular, degreewise [[split monomorphism|spl
 
 \end{proposition}
 \begin{proof}
-Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98). 
+Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99)
 
 {#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]] (so that the model structure is [[combinatorial model category|combinatorial]]): This follows because:
 
@@ -665,7 +665,7 @@ Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickla
 \end{proof}
 
 \begin{remark}\label{NotAllUnboundedComplexesAreProjectivelyCofibrant}
-  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, *not* every chain complex is [[cofibrant object|cofibrant]], not even if the [[ground field]] has [[characteristic zero]] --
+  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, *not* every chain complex is [[cofibrant object|cofibrant]], not even those consisting of [[projective modules]] and not even if the [[ground field]] has [[characteristic zero]] --
 a [[counterexample]] is given in [Hovey (1999), Rem. 2.3.7](#Hovey99):
 
 For $\mathbb{K}$ any [[field]], let $R \coloneqq \mathbb{K} \oplus \mathbb{K} \cdot x$ be its [[ring of dual numbers]], i.e. with $x^2 = 0$. 
@@ -790,6 +790,14 @@ $$
 It follows that the lift does not exist, hence that we found an object $\mathcal{A}$ in the model structure from Prop. \ref{StandardModelStructureOnUnboundedComplexes} which is not cofibrant.
 \end{remark}
 
+On the other hand:
+
+\begin{proposition}
+  Every bounded-below chain complex of [[projective modules]] is [[cofibrant object|cofibrant]] in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes}.
+\end{proposition}
+([Hovey (1999), Lem. 2.3.6](#Hovey99))
+
+
 
 +-- {: .num_prop }
 ###### Proposition
@@ -803,6 +811,26 @@ The [[category of simplicial objects]] $\big(Ch_\bullet(k Mod)\big)^{\Delta^{op}
 This is [Rezk, Schwede & Shipley (2001_, cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
 Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
+
+#### Standard injective model structure on unbounded chain complexes
+ {#InjectiveModelStructureOnUnboundedChainComplexes}
+
+\begin{proposition}
+\label{StandardInjectiveModelStructureOnUnboundedComplexes}
+For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch_\bullet(R Mod)$ of $R$-[[modules]]  carries the structure of a
+
+* [[cofibrantly generated model category|cofibrantly generated]] 
+
+* [[combinatorial model category|combinatorial]]
+
+[[model category]] with
+
+* [[weak equivalences]] the [[quasi-isomorphisms]]
+
+* [[cofibrations]] the (degreewise) [[injections]].
+
+\end{proposition}
+This is [Hovey (1999), Thm. 2.3.13](#Hovey99).
 
 
 #### Christensen-Hovey model structures using projective classes
