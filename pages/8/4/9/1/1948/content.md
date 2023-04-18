@@ -211,7 +211,7 @@ Moreover, if $(L \dashv R)$ is a [[Quillen equivalence]], then so is $([C,L] \da
 
 =--
 
-For the case that $C$ is a small category this is ([Lurie, remark A.2.8.6](#Lurie)), for the enriched case this is ([Lurie, prop. A.3.3.6](#Lurie)).
+For the case that $C$ is a small category this is &lbrack;[Lurie, remark A.2.8.6](#Lurie)&rbrack;, for the enriched case this is &lbrack;[Lurie, prop. A.3.3.6](#Lurie)&rbrack;.
 
 
 
@@ -223,7 +223,9 @@ The Quillen-functoriality on the [[domain]] is more asymmetric.
 For $p : C_1 \longrightarrow C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let
 
 $$
-  (p_! \dashv p^* \dashv p_*) :  [C_2,D]
+  (p_! \dashv p^* \dashv p_*)
+  \;\colon\;
+  [C_2,D]
   \stackrel{\overset{p_!}{\longleftarrow}}{\stackrel{\overset{p^*}{\longrightarrow}}{\underset{p_*}{\longleftarrow}}}
  [C_1,D]
 $$
@@ -233,7 +235,8 @@ be the [[adjoint triple]] where $p^*$ is precomposition with $p$ and where $p_!$
 Then we have [[Quillen adjunctions]]
 
 $$
-  (p_! \dashv p^*) :
+  (p_! \dashv p^*) 
+  \;\colon\;
   [C_1,D]_{proj} \stackrel{\overset{p_!}{\longrightarrow}}{\underset{p^*}{\longleftarrow}}
   [C_2,D]_{proj}
 $$
@@ -241,7 +244,8 @@ $$
 and
 
 $$
-  (p^* \dashv p_*) :
+  (p^* \dashv p_*)
+  \;\colon\;
   [C_1,D]_{inj} \stackrel{\overset{p^*}{\longleftarrow}}{\underset{p_*}{\longrightarrow}}
   [C_2,D]_{inj}
   \,.
@@ -250,12 +254,12 @@ $$
 
 =--
 
-For $C$ not enriched this appears as ([Lurie, prop. A.2.8.7](#Lurie)), for the enriched case it appears as ([Lurie, prop. A.3.3.7](#Lurie)).
+For $C$ not enriched this appears as &lbrack;[Lurie, prop. A.2.8.7](#Lurie)&rbrack;, for the enriched case it appears as &lbrack;[Lurie, prop. A.3.3.7](#Lurie)&rbrack;.
 
 +-- {: .num_remark }
 ###### Remark
 
-In the $sSet$-enriched case, if $p : D_1 \longrightarrow D_2$ is an [[weak equivalence]] in the [[model structure on sSet-categories]], then these two Quillen adjunctions are both [[Quillen equivalence]]s.
+In the $sSet$-enriched case, if $p : D_1 \longrightarrow D_2$ is a [[weak equivalence]] in the [[model structure on sSet-categories]], then these two Quillen adjunctions are both [[Quillen equivalence]]s.
 
 =--
 
