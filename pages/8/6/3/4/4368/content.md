@@ -1,4 +1,4 @@
-[[!redirects Gabriel-Ulmer duality]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
