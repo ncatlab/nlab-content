@@ -14,21 +14,21 @@
 {:toc}
 
 
-## Idea 
+## Idea
 
 The [[model category]] structures on [[functor category|functor categories]] are models for [[(∞,1)-category of (∞,1)-functors|(∞,1)-categories of (∞,1)-functors]].
 
 For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structure on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structures.  For completely general $C$, neither one need exist, but there are rather general conditions that ensure their existence.  In particular, the projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while both model structures exist if $C$ is [[accessible model category|accessible]] (and in particular if it is [[combinatorial model category|combinatorial]]).  In the case of [[enriched category|enriched]] diagrams, additional cofibrancy-type conditions are required on $D$.
 
 A related kind of model structure is the [[Reedy model structure]]/[[generalized Reedy model structure]] on functor categories, which applies for *any* model category $C$, but requires $D$ to be a very special sort of category, namely a [[Reedy category]]/[[generalized Reedy category]].
-  
+
 In the special case that $C = $ [[sSet]] is the [[classical model structure on simplicial sets]] the projective and injective model structure on the functor categories $[D,SSet]$ are described in more detail at [[global model structure on simplicial presheaves]] and [[model structure on sSet-enriched presheaves]].
 
 ## Definition
 
 Let $\mathbf{S}$ be a [[symmetric monoidal category]], let $C$ be an $\mathbf{S}$-[[model category]] that is an $\mathbf{S}$-[[enriched category]], and let $D$ be a [[small category|small]] $\mathbf{S}$-enriched category. Usually we have either $\mathbf{S}=Set$ or else $\mathbf{S}$ is a [[monoidal model category]] and $C$ an $\mathbf{S}$-[[enriched model category]].
 
-Let $[D,C]$ denote the enriched [[functor category]], whose objects are $\mathbf{S}$-enriched functors $D\to C$.
+Let $[D,C]$ denote the enriched [[functor category]], whose objects are $\mathbf{S}$-enriched functors $D\longrightarrow C$.
 
 +-- {: .num_defn #ProjectiveAndInjectiveStructure}
 ###### Definition
@@ -58,7 +58,7 @@ Then the projective model structure $[D,C]_{proj}$ exists, and is again cofibran
 =--
 +-- {: .proof}
 ###### Proof
-Assuming the existence of such copowers, for any $x\in ob(D)$ the "[[evaluation]] at $x$" functor $ev_x \colon [D,C]\to C$ has a [[left adjoint]] $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
+Assuming the existence of such copowers, for any $x\in ob(D)$ the "[[evaluation]] at $x$" functor $ev_x \colon [D,C]\longrightarrow C$ has a [[left adjoint]] $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
 =--
 
 There do exist projective model structures that do not fall under this theorem, however, such as the following.
@@ -107,7 +107,7 @@ It suffices to construct the factorizations, which follows from [Makkai & Rosick
 
 ## Properties
 
-### General 
+### General
 
 +-- {: .num_prop}
 ###### Proposition
@@ -122,6 +122,15 @@ The projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$, def. \
 
 The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.8.4]].
 
++-- {: .num_prop #PresentationOfInfinityFunctors}
+###### Proposition
+
+For $C$ a [[combinatorial simplicial model category]], the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $[D,C]_{proj}$ and $[D,C]_{inj}$ under the above assumptions is the [[(∞,1)-category of (∞,1)-functors]] $Func(D,C^\circ)$ from the ordinary category $D$ to the $(\infty,1)$-category presented by $C$.
+
+=--
+
+See at *[[(∞,1)-category of (∞,1)-functors]]* for more.
+
 
 ### Relation to other model structures
 
@@ -134,7 +143,7 @@ This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma
 
 +-- {: .proof}
 ###### Proof
-If $i:A\to B$ is a trivial cofibration in $C$ and $x\in ob(D)$, then the first assumption implies that $F_x(i) : F_x(A) \to F_x(B)$, for $F_x(A) (y) = D(x,y) \odot A$ the left adjoint of $ev_x : [D,C] \to C$, is a trivial cofibration in $[D,C]_{inj}$.  Thus, any fibration $p$ in $[D,C]_{inj}$ has the right lifting property with respect to it, which is to say that $ev_x(p)$ has the right lifting property with respect to $i$.  Since this is true for any $i$, each $ev_x(p)$ is a fibration, i.e. $p$ is a fibration in $[D,C]_{inj}$.  The other half is dual.
+If $i:A\longrightarrow B$ is a trivial cofibration in $C$ and $x\in ob(D)$, then the first assumption implies that $F_x(i) : F_x(A) \longrightarrow F_x(B)$, for $F_x(A) (y) = D(x,y) \odot A$ the left adjoint of $ev_x : [D,C] \longrightarrow C$, is a trivial cofibration in $[D,C]_{inj}$.  Thus, any fibration $p$ in $[D,C]_{inj}$ has the right lifting property with respect to it, which is to say that $ev_x(p)$ has the right lifting property with respect to $i$.  Since this is true for any $i$, each $ev_x(p)$ is a fibration, i.e. $p$ is a fibration in $[D,C]_{inj}$.  The other half is dual.
 =--
 
 +-- {: .num_cor}
@@ -143,20 +152,20 @@ If $i:A\to B$ is a trivial cofibration in $C$ and $x\in ob(D)$, then the first a
 The [[identity functors]]
 
 $$
-  [D,C]_{inj}   
-    \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [D,C]_{inj}
+    \stackrel{\overset{Id}{\longleftarrow}}{\underset{Id}{\longrightarrow}}
   [D,C]_{proj}
 $$
 
-form a [[Quillen equivalence]] (with $Id : [D,C]_{proj} \to [D,C]_{inj}$ being the left Quillen functor).
+form a [[Quillen equivalence]] (with $Id : [D,C]_{proj} \longrightarrow [D,C]_{inj}$ being the left Quillen functor).
 
 If $D$ is a [[Reedy category]] this factors through the [[Reedy model structure]]
 
 $$
-  [D,C]_{inj}   
-    \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [D,C]_{inj}
+    \stackrel{\overset{Id}{\longleftarrow}}{\underset{Id}{\longrightarrow}}
   [D,C]_{Reedy}
-    \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+    \stackrel{\overset{Id}{\longleftarrow}}{\underset{Id}{\longrightarrow}}
   [D,C]_{proj}
 $$
 
@@ -170,19 +179,31 @@ $$
 The functor model structures depend [[Quillen adjunction|Quillen-functorially]] on their [[codomain]], in that for
 
 $$
-  D_1 \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D_2
+  D_1
+  \stackrel
+    {\overset{L}{\longleftarrow}}
+    {\underset{R}{\longrightarrow}}
+  D_2
 $$
 
-a $\mathbf{S}$-[[enriched Quillen adjunction]] between [[combinatorial model categories|combinatorial]] $\mathbf{S}$-[[enriched model categories]], postcomposition induces $\mathbf{S}$-[[enriched Quillen adjunctions]]
+an $\mathbf{S}$-[[enriched Quillen adjunction]] between [[combinatorial model categories|combinatorial]] $\mathbf{S}$-[[enriched model categories]], postcomposition induces $\mathbf{S}$-[[enriched Quillen adjunctions]]
 
 $$
-  [C,D_1]_{proj} \stackrel{\overset{[C,L]}{\leftarrow}}{\underset{[C,R]}{\to}} [C,D_2]_{proj}  
+  [C,D_1]_{proj}
+    \stackrel
+      {\overset{[C,L]}{\longleftarrow}}
+      {\underset{[C,R]}{\longrightarrow}}
+  [C,D_2]_{proj}
 $$
 
 and
 
 $$
-  [C,D_1]_{inj} \stackrel{\overset{[C,L]}{\leftarrow}}{\underset{[C,R]}{\to}} [C,D_2]_{inj}  
+  [C,D_1]_{inj}
+    \stackrel
+      {\overset{[C,L]}{\longleftarrow}}
+      {\underset{[C,R]}{\longrightarrow}}
+  [C,D_2]_{inj}
   \,.
 $$
 
@@ -194,18 +215,18 @@ For the case that $C$ is a small category this is ([Lurie, remark A.2.8.6](#Luri
 
 
 
-The Quillen-functoriality on the domain is more asymmetric. 
+The Quillen-functoriality on the [[domain]] is more asymmetric.
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $p : C_1 \to C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let 
+For $p : C_1 \longrightarrow C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let
 
 $$
-  (p_! \dashv p^* \dashv p_*) :  [C_2,D] 
-  \stackrel{\overset{p_!}{\leftarrow}}{\stackrel{\overset{p^*}{\to}}{\underset{p_*}{\leftarrow}}}
+  (p_! \dashv p^* \dashv p_*) :  [C_2,D]
+  \stackrel{\overset{p_!}{\longleftarrow}}{\stackrel{\overset{p^*}{\longrightarrow}}{\underset{p_*}{\longleftarrow}}}
  [C_1,D]
-$$ 
+$$
 
 be the [[adjoint triple]] where $p^*$ is precomposition with $p$ and where $p_!$ and $p_*$ are left and right [[Kan extension]] along $p$, respectively.
 
@@ -213,7 +234,7 @@ Then we have [[Quillen adjunctions]]
 
 $$
   (p_! \dashv p^*) :
-  [C_1,D]_{proj} \stackrel{\overset{p_!}{\to}}{\underset{p^*}{\leftarrow}}
+  [C_1,D]_{proj} \stackrel{\overset{p_!}{\longrightarrow}}{\underset{p^*}{\longleftarrow}}
   [C_2,D]_{proj}
 $$
 
@@ -221,7 +242,7 @@ and
 
 $$
   (p^* \dashv p_*) :
-  [C_1,D]_{inj} \stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}}
+  [C_1,D]_{inj} \stackrel{\overset{p^*}{\longleftarrow}}{\underset{p_*}{\longrightarrow}}
   [C_2,D]_{inj}
   \,.
 $$
@@ -231,37 +252,29 @@ $$
 
 For $C$ not enriched this appears as ([Lurie, prop. A.2.8.7](#Lurie)), for the enriched case it appears as ([Lurie, prop. A.3.3.7](#Lurie)).
 
-+-- {: .num_remark } 
++-- {: .num_remark }
 ###### Remark
 
-In the $sSet$-enriched case, if $p : D_1 \to D_2$ is an [[weak equivalence]] in the [[model structure on sSet-categories]], then these two Quillen adjunctions are both [[Quillen equivalence]]s.
+In the $sSet$-enriched case, if $p : D_1 \longrightarrow D_2$ is an [[weak equivalence]] in the [[model structure on sSet-categories]], then these two Quillen adjunctions are both [[Quillen equivalence]]s.
 
 =--
 
-+-- {: .num_prop #PresentationOfInfinityFunctors} 
-###### Proposition
-
-For $C$ a [[combinatorial simplicial model category]], the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $[D,C]_{proj}$ and $[D,C]_{inj}$ under the above assumptions is the [[(∞,1)-category of (∞,1)-functors]] $Func(D,C^\circ)$ from the ordinary category $D$ to the $(\infty,1)$-category presented by $C$.
-
-=--
-
-See [[(∞,1)-category of (∞,1)-functors]] for details.
 
 
 ### Relation to homotopy Kan extensions/limits/colimits
 
-Often functors $D \to C$ are thought of as [[diagram]]s in the model category $C$, and one is interested in obtaining their [[homotopy limit]] or [[homotopy colimit]] or, generally, for $p : D \to D'$ any functor, their left and right [[homotopy Kan extension]].
+Often functors $D \longrightarrow C$ are thought of as [[diagram]]s in the model category $C$, and one is interested in obtaining their [[homotopy limit]] or [[homotopy colimit]] or, generally, for $p : D \longrightarrow D'$ any functor, their left and right [[homotopy Kan extension]].
 
 These are the left and right [[derived functor]]s $HoLan := \mathbb{L} p_1$ and $HoRan := \mathbb{R} p_*$ of
 
 $$
-  [D,C]_{proj} \stackrel{p_!}{\to}  [D',C]_{proj}
+  [D,C]_{proj} \stackrel{p_!}{\longrightarrow}  [D',C]_{proj}
 $$
 
 and
 
 $$
-  [D,C]_{inj} \stackrel{p_*}{\to} [D',C]_{inj}
+  [D,C]_{inj} \stackrel{p_*}{\longrightarrow} [D',C]_{inj}
 $$
 
 respectively.
@@ -270,7 +283,7 @@ For more on this see [[homotopy Kan extension]]. For the case that $D' = *$ this
 
 ## Examples
 
-Examples of cofibrant objects in the projective model structure are discussed at 
+Examples of cofibrant objects in the projective model structure are discussed at
 
 * [[projectively cofibrant diagram]].
 
@@ -294,7 +307,7 @@ The projective model structure on $Top_{Quillen}$-enriched functors is discussed
 
   also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
-See also 
+See also
 
 * [[Alex Heller]], _Homotopy in functor categories_, Transactions of the AMS, vol 272, Number 1, July 1982 ([JSTOR](http://www.jstor.org/stable/1998955))
 
@@ -334,7 +347,7 @@ The more general result above on combinatoriality of injective model structures 
 
 * {#MakkaiRosický14} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
 
-See also 
+See also
 
 * [[David White]], _Modified projective model structure_ ([MO comment](http://mathoverflow.net/questions/76160/acyclic-models-via-model-categories/104423#104423))
 
