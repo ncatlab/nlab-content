@@ -119,6 +119,9 @@ Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
 
+* [[Christian Schubert]], *The worldline formalism in strong-field QED* &lbrack;[arXiv:2304.07404](https://arxiv.org/abs/2304.07404)&rbrack; 
+
+
 Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
 
 * Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_,  Nuclear Physics B, Volume 852, Issue 1, 1 November 2011, Pages 61-70 ([arxiv:1102.5318](https://arxiv.org/abs/1102.5318))
