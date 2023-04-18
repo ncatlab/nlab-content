@@ -51,6 +51,10 @@ On (enhancement and generalization of) [[Elmendorf's theorem]] in [[equivariant 
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
 
+Introducing the [[model structure on simplicial groupoids]]:
+
+* [[William Dwyer]], [[Daniel Kan]],  *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
+
 
 On [[homotopy commutative diagrams]]:
 
@@ -83,7 +87,9 @@ On [[derived functors]] such as [[homotopy limit]]-functors on [[model categorie
 
 * [[relative category]]
 
+
 category: people
+
 
 [[!redirects Dan Kan]]
 [[!redirects D. M. Kan]]
