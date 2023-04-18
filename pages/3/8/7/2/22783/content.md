@@ -821,15 +821,15 @@ $$
 ## References
 
 The idea of constructing $\overline{W}$ using the [[bar construction]]
-is due to [[Eilenberg]] and [[MacLane]], who apply it to [[simplicial rings]] with the usual [[tensor product]] operation:
+is due 
 
 * {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series, Vol. 58, No. 1 (Jul., 1953), pp. 55-106 ([jstor:1969820](https://www.jstor.org/stable/1969820)) (See, in particular, §17.)
 
-This was also later discussed in
+who apply it to [[simplicial rings]] with the usual [[tensor product]] operation. This was also later discussed in:
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])  (See, in particular, §3.)
 
-The first reference where $\overline{W}$ is defined explicitly for [[simplicial groups]] and the adjunction between [[simplicial groups]] and [[reduced simplicial sets]] is explicitly spelled out is
+The first reference where $\overline{W}$ is defined explicitly for [[simplicial groups]] and the [[adjoint functor|adjunction]] between [[simplicial groups]] and [[reduced simplicial sets]] is explicitly spelled out:
 
 * {#Kan58} [[Daniel Kan]], Sections 10-11 in: _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53 ([jstor:1970042](https://www.jstor.org/stable/1970042))
 
@@ -855,8 +855,7 @@ Identification of the [[slice model structure]] over $\overline{W}G$ with the [[
 
 * {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
 
-Generalization to [[simplicial groupoids]]:
-
+Generalization to [[simplicial groupoids]], now [[right adjoint]] to the [[Dwyer-Kan loop groupoid]]-construction:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.2 of:  *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
