@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[simplicial homotopy theory]] there is a standard construction ([Kan 58](#Kan58)), traditionally denoted $G$, for the simplicial analog of the [[homotopy type]] of the [[loop space]] $\Omega X$ of a [[connected topological space]], now incarnated as a [[simplicial group]]: It is the [[left adjoint]] in an [[adjunction]]
+In [[simplicial homotopy theory]] there is a standard construction &lbrack;[Kan (1958)](#Kan58)&rbrack; -- traditionally denoted $G$ -- for the simplicial analog of the [[homotopy type]] of the [[loop space]] $\Omega X$ of a [[connected topological space]], now incarnated as a [[simplicial group]]: It is the [[left adjoint]] in an [[adjunction]]
 $$
   (G \dashv \overline{W}) 
     \;\colon\;
@@ -33,9 +33,9 @@ between [[pointed simplicial sets]] and [[simplicial groups]], whose [[right adj
 
 This adjunction is a [[Quillen adjunction]] for the [[Kan–Quillen model structure]] on [[pointed simplicial sets]] and its [[transferred model structure]] on [[simplicial groups]].
 
-When restricted to [[reduced simplicial sets]], this [[Quillen adjunction]] becomes a [[Quillen equivalence]].
+When restricted to [[reduced simplicial sets]], this [[Quillen adjunction]] becomes a [[Quillen equivalence]] which exhibits the [[homotopy theory]] of [[simplicial groups]] as [[equivalence of (infinity,1)-categories|equivalent]] to the [[classical homotopy theory]] of [[pointed homotopy type|pointed]] [[connected homotopy type]] [[homotopy type]] (cf. at *[[looping and delooping]]*).
 
-The generalization of this construction to non-reduced simplicial sets and [[simplicial groupoids]] is the [[Dwyer-Kan loop groupoid]] functor.
+The generalization of the Kan loop group construction to non-reduced simplicial sets -- and then taking values in [[simplicial groupoids]] -- is the *[[Dwyer-Kan loop groupoid]]* functor.
 
 ## Properties
 
