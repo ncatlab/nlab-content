@@ -2,7 +2,18 @@
 This entry is about the article
 
 
-* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_, Advances in Mathematics __164__, 144&#8211;176 (2001) ([arXiv:math/0007070](http://arxiv.org/abs/math/0007070))
+* [[Daniel Dugger]]:
+
+  **[[DuggerUniv.pdf:file]]**
+
+  Advances in Mathematics __164__, 
+
+  144-176 (2001) 
+
+  [arXiv:math/0007070](http://arxiv.org/abs/math/0007070)
+
+\linebreak
+
 
   **Abstract** _Given a small category $C$, we show that there is a universal way of expanding $C$ into a model category, essentially by formally adjoining homotopy colimits. The technique of localization becomes a method for imposing "relations" into these universal gadgets. The paper develops this formalism and discusses various applications, for instance to the study of homotopy colimits, the Dwyer-Kan theory of framings, and to the homotopy theory of schemes._
 
