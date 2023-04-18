@@ -31,17 +31,22 @@ On the [[KLT relations]]:
 
 * [[Zvi Bern]], _The S-matrix reloaded: Twistors, Unitarity, Gauge theories and Gravity_, 2005 ([pdf](http://online.kitp.ucsb.edu/online/strings05/bern/))
 
-* Zvi Bern, John Joseph Carrasco, Lance Dixon, Henrik Johansson, Radu Roiban, _Amplitudes and Ultraviolet Behavior of N=8 Supergravity_ ([arXiv:1103.1848](http://arxiv.org/abs/1103.1848))
+in [[D=4 N=8 supergravity]]:
 
-On the [[double copy]]-approach
+* [[Zvi Bern]], [[John Joseph Carrasco]], [[Lance Dixon]], [[Henrik Johansson]], [[Radu Roiban]], _Amplitudes and Ultraviolet Behavior of $N=8$ Supergravity_, Fortschr. Phys. **59** (2011) 7-8 &lbrack;[arXiv:1103.1848](http://arxiv.org/abs/1103.1848), [doi:10.1002/prop.201100037](https://doi.org/10.1002/prop.201100037)&rbrack;
 
-* [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys. Rev .Lett. 105:061602,2010 ([arXiv:1004.0476](https://arxiv.org/abs/1004.0476))
+On the "[[double copy]]" [[KLT relations]]-approach to [[scattering amplitudes]] in [[perturbative quantum gravity]] and [[supergravity]]:
 
-* [[Zvi Bern]], D.C. Dunbar, T. Shimada, _String-Based Methods in Perturbative Gravity_, Phys.Lett.B312:277-284, 1993 ([arXiv:hep-th/9307001](https://arxiv.org/abs/hep-th/9307001))
+* [[Zvi Bern]], [[John Joseph Carrasco]], [[Henrik Johansson]], _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys. Rev. Lett. **105** 061602 (2010) &lbrack;[arXiv:1004.0476](https://arxiv.org/abs/1004.0476)&rbrack;
+
+* [[Zvi Bern]], D.C. Dunbar, T. Shimada, _String-Based Methods in Perturbative Gravity_, Phys. Lett. B **312** (1993) &lbrack;[arXiv:hep-th/9307001](https://arxiv.org/abs/hep-th/9307001)&rbrack;
+
+* [[Zvi Bern]], [[John Joseph Carrasco]], [[Marco Chiodaroli]], [[Henrik Johansson]], [[Radu Roiban]], *Supergravity amplitudes, the double copy and ultraviolet behavior*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2304.07392](https://arxiv.org/abs/2304.07392)&rbrack;
+
 
 On using [[KLT relation]]/[[double copy]] for computing [[gravitational wave]]-signatures of [[relativistic binary]] mergers for use with [[LIGO]]:
 
-* {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
+* {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, [[Radu Roiban]], Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
 
 On evidence for high [[loop order]] finiteness of [[D=4 N=8 supergravity]] as in [[perturbative quantum gravity]]:
 
