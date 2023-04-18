@@ -1,45 +1,86 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+
 # Dwyer--Kan loop groupoid
 * table of contents
-{: toc}
+{:toc}
 
 ## Idea
 
-The _Dwyer--Kan loop groupoid_ ([Dwyer-Kan 84](#DwyerKan84)) of a [[simplicial set]] $K$ is a [[simplicial groupoid|simplically enriched groupoid]] whose objects are the vertices of $K$ and the simplicial set of paths between two such picks up the composable 'strings' of higher dimensional simplices where the zeroth vertex is thought of as the domain vertex and the first vertex as the codomain.
+The *Dwyer-Kan loop groupoid* &lbrack;[Dwyer & Kan (1984), §3.1](#DwyerKan84)&rbrack; of a [[simplicial set]] $K$ is the [[simplicial groupoid]] whose [[objects]] are the [[vertices]] of $K$ and whose [[hom object|hom]]-[[simplicial set]] between a [[pair]] of such picks up the composable sequences of higher dimensional simplices, where the zeroth [[vertex]] is thought of as the [[domain]] [[object]] and the first [[vertex]] as the [[codomain]].
 
-This construction establishes an equivalence between the [[homotopy theory]] of [[simplicial groupoid]] and the classical homotopy theory of [[simplicial sets]] (exhibiting both as models for [[infinity-groupoids]]). It generalizes the [[simplicial loop space]] functor from [[reduced simplicial sets]] to [[simplicial groups]].
+Applied to the special case of a [[reduced simplicial set]] this construction reduces to the *[[Kan loop group]]* construction.
+
+The Dwyer-Kan loop groupoid construction is a [[left Quillen functor|left]] [[Quillen equivalence]] ([[right adjoint]] to a groupoidal [[simplicial classifying space]]-construction) from the [[classical model structure on simplicial sets]] to the [[model structure on simplicial groupoids]] &lbrack;[Dwyer & Kan (1984), Thm. 3.3](#DwyerKan84)&rbrack;,
+and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [[equivalence of (infinity,1)-categories|equivalent]] incarnation of [[classical homotopy theory]].
 
 
 ## Definition
 
-The **loop groupoid functor of Dwyer and Kan** is a functor 
-$$G: \Simp\Set \to \Simp\Set\Groupoid,$$
-which takes the simplicial set $K$ to the [[simplicial groupoid]] $G K$, where $(G K)_n$ is the [[free groupoid]] on the [[quiver]] given by a pair of arrows
-$$s,t: K_{n+1}\rightarrow K_0,$$
-where the two functions, $s$, source, and $t$, target, are $s = (d_1)^{n+1}$ and $t = d_0(d_2)^n$ with relations $s_0x = id$ for $x \in K_n$.  
+The **loop groupoid functor of Dwyer and Kan** is a [[functor]] 
 
-The face and degeneracy maps are given on generators by 
+$$
+  \mathcal{G} 
+    \colon 
+  sSet 
+  \longrightarrow 
+  sGrpd
+  \,,
+$$
 
-*   $s_i^{G K}(x) = s_{i+1}^K(x),$
+which takes a [[simplicial set]] $K$ to the [[simplicial groupoid]] $\mathcal{G}(K)$, where for each $n \in \mathbb{N}$:
 
-*   $d_i^{G K}(x) = d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
+* $\mathcal{G}(K)_n$ is the [[free groupoid]] on the [[graph]]
 
-*   $d_0^{G K}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
+  $$
+    s,t \colon K_{n+1} \rightarrow K_0,
+    \,,
+  $$
 
+* with [[domain]]-function $s \coloneqq (d_1)^{n+1}$ 
 
-## Remarks
+  and [[codomain]]-function $t \coloneqq d_0(d_2)^n$, 
 
-*  This simplicial groupoid is a simplicially enriched groupoid, as the face and degeneracy operators are constant on the objects.
+* [[quotient|quotiented]] by the [[relations]] 
 
-* The loop groupoid functor has a [[right adjoint]], $\overline{W}$, called the (simplicial) [[classifying space]] functor.  This is given in more detail in the entry on [[simplicial group]].
+  $s_0 \sigma_n \overset{!}{=} id$, for all $\sigma_n \in K_n$.  
+
+* The [[face and degeneracy maps]] are given on generators by 
+
+  *   $s_i^{\mathcal{G}(K)}(x) \coloneqq s_{i+1}^K(x),$
+
+  *   $d_i^{\mathcal{G}(K)}(x) \coloneqq d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
+
+  *   $d_0^{\mathcal{G}(K)}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
+
+\begin{remark}
+This is indeed a simplicial groupoid (as discussed [there](simplicial+groupoid#Definition)) in the sense of Dwyer & Kan, in that the face and degeneracy maps are constant on the objects.
+\end{remark}
+
+\begin{remark}
+The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer & Kan (1984) §3.2](#DwyerKan84)&rbrack; called the [[simplicial classifying space]] functor.  
+\end{remark}
 
 ## References
 
-The original reference is 
+The original reference:
 
-* {#DwyerKan84} [[William Dwyer|W. G. Dwyer]] and [[Dan Kan|D. M. Kan]],  _Homotopy theory and simplicial groupoids_,  Nederl. Akad. Wetensch. Indag. Math., 46, (1984), 379 &#8211; 385,
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]],  *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
-but beware, there are some typographic errors in key formulas.
+
 
 [[!redirects Dwyer-Kan loop groupoid]]
 [[!redirects Dwyer–Kan loop groupoid]]
