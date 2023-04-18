@@ -38,6 +38,8 @@ In other words, for every [[pair]] $X,Y$ of [[objects]] in $\mathcal{C}$, the [[
 
 * [[model 2-category]]
 
+* [[Ho(CombModCat)]]
+
 ## References
 
 The homotopy 2-category of [[topological spaces]], [[continuous functions]] and [[homotopies]], regarded as a [[strict (2,1)-category]], hence a [[Grpd]]-[[enriched category]]:
