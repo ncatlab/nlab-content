@@ -545,6 +545,9 @@ Discussion via [[worldline formalism]]:
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
 
+* [[Christian Schubert]], *The worldline formalism in strong-field QED* &lbrack;[arXiv:2304.07404](https://arxiv.org/abs/2304.07404)&rbrack; 
+
+
 More theoretical background on [[QED]] in [[background fields]]:
 
 * Uwe Hernandez Acosta, Burkhard Kämpfer, *Strong-field QED in Furry-picture momentum-space formulation: Ward identities and Feynman diagrams* &lbrack;[arXiv:2303.12941](https://arxiv.org/abs/2303.12941)&rbrack;
