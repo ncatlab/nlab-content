@@ -26,9 +26,15 @@ On general [[model structures on symmetric spectra]] (applicable e.g. to [[model
 
 * {#Hovey00} [[Mark Hovey]], *Spectra and symmetric spectra in general model categories*, Journal of Pure and Applied Algebra **165** 1 (2001) 63-127 &lbrack;[arXiv:0004051](http://arxiv.org/abs/math/0004051), <a href="https://doi.org/10.1016/S0022-4049(00)00172-9">doi:10.1016/S0022-4049(00)00172-9</a>&rbrack;
 
-On [[model structures on chain complexes]] in [[homological algebra]]:
+On [[model structures on chain complexes]] in [[homological algebra]] (and in the generality of [[abelian sheaves]] of chain complexes):
+
+* [[Mark Hovey]], *Model category structures on chain complexes of sheaves* (1999) &lbrack;[K-theory:0366](https://faculty.math.illinois.edu/K-theory/0366), [pdf](https://faculty.math.illinois.edu/K-theory/0366/sheaves.pdf), [[Hovey-SheavesOfChainComplexesPreprint.pdf:file]]&rbrack;
+
+* {#Hovey01} [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. **353** 6 (2001) &lbrack;[ams:S0002-9947-01-02721-0](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-01-02721-0), [jstor:221954](https://www.jstor.org/stable/221954)&rbrack;  
+
 
 * [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_, Math. Proc. Cambridge Philos. Soc. **133** 2 (2002) 261-293 &lbrack;[arXiv:math/0011216](https://arxiv.org/abs/math/0011216), [doi:10.1017/S0305004102006126](https://doi.org/10.1017/S0305004102006126)&rbrack;
+
 
 
 On [[algebraic topology]]:
