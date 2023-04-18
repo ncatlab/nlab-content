@@ -88,6 +88,13 @@ On the [[D'Auria-Fré formulation of supergravity]]:
 
 \linebreak
 
+On [[scattering amplitudes]] in [[supergravity]] via "[[double copy]]" [[KLT relations]]:
+
+* [[Zvi Bern]], [[John Joseph Carrasco]], [[Marco Chiodaroli]], [[Henrik Johansson]], [[Radu Roiban]], *Supergravity amplitudes, the double copy and ultraviolet behavior*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2304.07392](https://arxiv.org/abs/2304.07392)&rbrack;
+
+
+\linebreak
+
 On [[quantum anomalies]] and the [[Green-Schwarz mechanism]]:
 
 * [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Anomalies and the Green-Schwarz Mechanism*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.06467](https://arxiv.org/abs/2211.06467)&rbrack;
