@@ -62,7 +62,8 @@ A Grothendieck category $C$ satisfies the following properties.
 * The [[Gabriel-Popescu theorem]] exhibits any [[Grothendieck abelian category]] as a [[reflective subcategory]] of a [[category of modules]] over a [[ring]].
 
 * Any [[Grothendieck abelian category]] is [[locally presentable]].
-See, for example, [Krause](#Krause), Corollary 5.2, and references therein.
+
+  ([Beke (2000), Prop. 3.10](#Beke00), see also [Krause (2015), Corollary 5.2](#Krause) and references therein.)
 
 * More generally, any [[cocomplete]] [[abelian category]] with a [[set]] of [[generators]] in which $\kappa$-[[filtered colimits]] commute with [[finite limits]] for some [[regular cardinal]] $\kappa$ is a [[locally presentable category]].  See [Positselski-Rosicky](#PositselskiRosicky), Theorem 2.2.
 
@@ -76,11 +77,33 @@ Much of the localization theory of rings generalizes to general Grothendieck cat
 
 ## Examples
 
-* For $R$ a [[commutative ring]], its [[category of modules]] $R$[[Mod]] is a Grothendieck category. (see e.g [Kiersz 06, prop. 4](#Kiersz) for the proof that filtered colimits here are exact.)
+\begin{example}\label{CateoriesOfModules}
+**($R$[[Mod]] is Grothendieck abelian)**
+\linebreak
+For $R$ a [[commutative ring]], its [[category of modules]] $R$[[Mod]] is a Grothendieck category. 
+(See e.g [Kiersz 06, prop. 4](#Kiersz) for the proof that filtered colimits here are exact.)
+This statement remains true [[internalization|internal]] to any [[Grothendieck topos]] &lbrack;[Johnstone (1977), Thm. 8.11 (iii)](#Johnstone1977)&rbrack;.
+\end{example}
 
-* For $C$ a [[small category|small]] [[abelian category]], the category $Ind(C)$ of [[ind-objects]] in $C$ is a Grothendieck category.
+\begin{example}\label{CategoriesOfVectorSpaces}
+**([[Vect]] is Grothendieck abelian)**
+\linebreak
+Taking $R$ in Exp. \ref{CateoriesOfModules} to be a [[field]] it follows that [[categories of vector spaces]] are Gorthendieck abelian. 
+\end{example}
 
-* for $C$ a Grothendieck category, the category $C_c$ of [[complex]]es in $C$ is again a Grothendieck category.
+\begin{example}\label{ChainComplexesInGrothAbCat}
+**([[category of chain complexes|$Ch_\bullet(\mathcal{A}_{Gr})$]] is Grothendieck abelian)**
+\linebreak
+For $\mathcal{A}$ a Grothendieck category, the (unbounded) [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ in $\mathcal{A}$ is again a Grothendieck category (e.g. [Hovey (1999), p. 3](#Hovey99)).
+
+With Exp. \ref{CateoriesOfModules} it follows that the usual categories $Ch_\bullet(R Mod)$ of [[chain complexes]] of [[modules]] over a [[ring]] are all Grothendieck abelian.
+\end{example}
+
+\begin{example}
+**([[category of ind-objects|$Ind(\mathcal{A})$]] is Grothendieck abelian)**
+\linebreak
+For $\mathcal{A}$ a [[small category|small]] [[abelian category]], the category $Ind(\mathcal{A})$ of [[ind-objects]] in $C$ is a Grothendieck category. \end{example}
+
 
 ## Related concepts
 
@@ -105,15 +128,21 @@ The proof that filtered colimits in $R Mod$ are exact is spelled out for instanc
 
 * {#Kiersz} Andy Kiersz, _Colimits and homological algebra_, 2006 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2006/PAPERS/Kiersz.pdf))
 
-See also 
+Proof that $R$[[Mod]] internal to any Grothendieck topos is Grothendieck abelian:
+
+* {#Johnstone1977} [[Peter Johnstone]]: Theorem 8.11 in: *[[Topos Theory]]*, Academic Press (1977) Dover reprint (2014)
+
+See also:
 
 * [[Peter Freyd]], _Abelian categories_, Harper (1966O) 
 
 * Nicolae Popescu, *An introduction to Abelian categories with applications to rings and modules*_, Academic Press 1973
 
-The fact that all Grothendieck categories are [[locally presentable]] is proved in Corollary 5.2 of
+The fact that all Grothendieck categories are [[locally presentable]]:
 
-* {#Krause} [[Henning Krause]], _Deriving Auslander's formula_, [arXiv:1409.7051](https://arxiv.org/abs/1409.7051).
+* {#Beke00} [[Tibor Beke]], Prop. 3.10 in: *Sheafifiable homotopy model categories*, Math. Proc. Cambridge Philosophical Society **129** 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](https://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack;
+
+* {#Krause15} [[Henning Krause]], Corollary 5.2 in: _Deriving Auslander's formula_, Documenta Math. **20** (2015) 669-688 &lbrack;[arXiv:1409.7051](https://arxiv.org/abs/1409.7051)&rbrack;
 
 A generalization to $\kappa$-Grothendieck categories (defined using $\kappa$-filtered colimits) is proved in Theorem 2.2 of
 
@@ -131,6 +160,10 @@ Formalization of Grothendieck categories as [[univalent categories]] in [[homoto
 Formalization of [[abelian category|abelian]] [[univalent categories]] of [[ring]]-[[modules]], in [[homotopy type theory]] ([[univalent foundations of mathematics]]):
 
 * [[Jarl G. Taxerås Flaten]], Section 3.1 in *Univalent categories of modules* &lbrack;[arXiv:2207.03261](https://arxiv.org/abs/2207.03261)&rbrack;
+
+On Grothendieck abelian categories of chain complexes:
+
+* {#Hovey99} [[Mark Hovey]], p. 3 of: *Model category structures on chain complexes of sheaves* (1999) &lbrack;[K-theory:0366](https://faculty.math.illinois.edu/K-theory/0366), [pdf](https://faculty.math.illinois.edu/K-theory/0366/sheaves.pdf), [[Hovey-SheavesOfChainComplexesPreprint.pdf:file]]&rbrack;
 
 
 
