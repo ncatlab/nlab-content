@@ -21,13 +21,14 @@ For $R$ a [[ring]], an [[associative algebra]] over $R$ is a [[ring]] $A$ equipp
 +-- {: .num_defn}
 ###### Definition
 
-If the $R$-algebra $A$ is equipped with an $R$-algebra homomorphism the other way round, 
+If the $R$-algebra $A$ is equipped with an $R$-algebra [[homomorphism]] the other way around, 
 
 $$
   \epsilon \colon A \to R
+  \,,
 $$
 
-then it is called an _augmented algebra_.
+then it is called an _augmented $R$-algebra_.
 
 =--
 
