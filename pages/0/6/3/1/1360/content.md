@@ -581,8 +581,13 @@ A particularly important type of simplicial model categories are those that are 
 
 A [[combinatorial simplicial model category]] is precisely a _presentation_ for a [[locally presentable (∞,1)-category]]. See there for more details.
 
+## Related concepts
 
+* [[Dugger's theorem]]
 
+* [[combinatorial model category]]
+
+* [[Ho(CombModCat)]]
 
 ## References
 
@@ -600,14 +605,15 @@ Further review:
 
 * {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model categories and simplicial methods_ ([arXiv:math/0609537](http://arxiv.org/abs/math/0609537))
  
-Further developments:
+On Quillen-equivalent simplicial enhancements of model categories:
 
 * {#RezkSchwedeShipley} [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
  
+* {#Dugger} [[Dan Dugger]], *Replacing model categories with simplicial ones*, Trans. Amer. Math. Soc. **353** 12 (2001) 5003-5027 &lbrack;[ams:S0002-9947-01-02661-7](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7), [pdf](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7/S0002-9947-01-02661-7.pdf)&rbrack;
 
-* {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
-  
+* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. **164** (2001) 1 177-201 &lbrack;[arXiv:math/0007068](http://arxiv.org/abs/math/0007068), [doi:10.1006/aima.2001.2015](https://doi.org/10.1006/aima.2001.2015)&rbrack;
 
+  > (cf. *[[Dugger's theorem]]*)
 
 
 [[!redirects simplicial model categories]]
