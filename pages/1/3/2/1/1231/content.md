@@ -104,6 +104,12 @@ A form of Koszul duality with dg algebras replaced by dg categories has been dev
 
  * [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 
+## Global Koszul duality
+
+Another variant of Koszul duality defined in terms of model structures on curved dg coalgebras.
+
+* Matt Booth, Andrey Lazarev, _Global Koszul duality_, [arXiv:2304.08409](https://arxiv.org/abs/2304.08409)
+
 
 ## Related concepts
 
