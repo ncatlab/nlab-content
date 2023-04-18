@@ -656,8 +656,7 @@ See ([Hovey-Palmieri-Strickland 97, remark after theorem 9.3.1](#HoveyPalmieriSt
 +-- {: .num_prop }
 ###### Proposition
 
-The [[category of simplicial objects]] $(Ch_\bullet(k Mod))^{\Delta^{op}}$ in the [[category of unbounded chain complexes]]
-carries the structure of a [[simplicial model category]] whose
+The [[category of simplicial objects]] $\big(Ch_\bullet(k Mod)\big)^{\Delta^{op}}$ in the [[category of unbounded chain complexes]] carries the structure of a [[simplicial model category]] whose
 
 * weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
 
