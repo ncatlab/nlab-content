@@ -76,14 +76,13 @@ $D(\mathcal{A})$, obtained from $Ch_\bullet(\mathcal{A})$ or $K(\mathcal{A})$ by
 
 ## Properties
 
-### Abelian category 
+### Abelian structure
  {#AbelianCategoryStructure}
 
 +-- {: .num_theorem #IsAbelian}
 ###### Theorem
 
-For $\mathcal{A}$ an [[abelian category]] also the category of 
-chain complexes $Ch_\bullet(\mathcal{A})$ is again an abelian category.
+For $\mathcal{A}$ an [[abelian category]] also the category of  chain complexes $Ch_\bullet(\mathcal{A})$ is again an abelian category.
 
 =--
 
@@ -110,6 +109,23 @@ A sequence of chain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0
 =--
 
 (...)
+
+In fact:
+
+\begin{proposition}\label{ChInGrothAbCatIsGrothAbCat}
+When $\mathcal{A}$ is a [[Grothendieck abelian category]] then so is $Ch_\bullet(\mathcal{A})$. 
+\end{proposition}
+(e.g. [Hovey (1999), p. 3](#Hovey99), see also [this example](Grothendieck+category#ChainComplexesInGrothAbCat) at *[[Grothendieck category]]*).
+
+Since every [[Grothendieck abelian category]] is [[locally presentable category|locally presentable]] ([Beke 2000, Prop. 3.10](locally+presentable+category#Beke00), see [this example](locally+presentable+category#GrothAbCatsAreLocPresntbl)), it follows that:
+
+\begin{corollary}
+When $\mathcal{A}$ is a [[Grothendieck abelian category]] then its category of chain complexes $Ch_\bullet(\mathcal{A})$ is [[locally presentable category|locally presentable]]. 
+\end{corollary}
+
+\begin{example}
+The assumption in Prop. \ref{ChInGrothAbCatIsGrothAbCat} is fulfilled in the usual situation of chain complexes of $R$-[[modules]] (e.g.: of [[vector spaces]], when $R$ is a field), since for any [[commutative ring]] $R$ the category $R$[[Mod]] is a [[Grothendieck abelian category]] (by [this example](Grothendieck+category#CateoriesOfModules)).
+\end{example}
 
 ### Closed monoidal structure
 
@@ -149,6 +165,10 @@ the [[internal hom]] is the standard [[nLab:internal hom of chain complexes]].
 A basic introduction is in chapter 1 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+Discussion in the context of [[model structures on chain complexes]]:
+
+* {#Hovey99} [[Mark Hovey]], p. 3 of: *Model category structures on chain complexes of sheaves* (1999) &lbrack;[K-theory:0366](https://faculty.math.illinois.edu/K-theory/0366), [pdf](https://faculty.math.illinois.edu/K-theory/0366/sheaves.pdf), [[Hovey-SheavesOfChainComplexesPreprint.pdf:file]]&rbrack;
 
 
 
