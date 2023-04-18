@@ -467,6 +467,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2009.08624](https://arxiv.org/abs/2009.08624)
 
+  video: [YT](https://www.youtube.com/watch?v=1hd0vFxU2ro)
+
   > Quasi-alternating links represent an important class of [[links]] that has been [introduced by Ozsváth and Szabó](https://arxiv.org/abs/math/0309170) while studying the Heegaard Floer homology of the branched double-covers of alternating links. This new class of links, which share many [[Khovanov homology|homological properties]] with alternating links, is defined in a recursive way which is not easy to use in order to determine whether a given link is quasi-alternating. In this talk, we shall review the main obstruction criteria for quasi-alternating links. We also discuss how new examples of quasi-alternating links can constructed.
 
 \linebreak
@@ -474,6 +476,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 * {#QazaqzehMar2023} [Khaled Qazaqzeh](https://math.sci.kuniv.edu.kw/people/faculty/khaled-qazaqezeh) (Kuwait University):
 
   **On the Finiteness of Quasi-alternating Links**
+
+  cf.: [arXiv:2208.02984](https://arxiv.org/abs/2208.02984)
 
   slides: [[Qazaqzeh-at-QFTAndCobordism2023.pdf:file]]
 
@@ -506,6 +510,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   **Deformation classes of invertible field theories and the Freed-Hopkins conjecture**
 
   slides: [[Grady-at-QFTAndCobordism2023.pdf:file]]
+  
+  video: [YT](https://www.youtube.com/watch?v=PzD6IDeLlS4)
 
   > In their [seminal paper](https://arxiv.org/abs/1604.06527), [Freed and Hopkins](#FreedHopkins21) proved a classification theorem that identifies deformation classes of certain [[invertible field theory|invertible]] [[topological field theories]] with the [[torsion subgroup]] of some [[Whitehead-generalized cohomology theory|generalized cohomology]] of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
 
