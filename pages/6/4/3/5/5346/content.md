@@ -73,6 +73,8 @@ with the [[model structure on reduced simplicial sets]].
 
 ## Related concepts
 
+* [[model structure on simplicial groupoids]]
+
 * [[Borel model structure]] (presenting [[infinity-actions]] of simplicial groups)
 
 ## References
