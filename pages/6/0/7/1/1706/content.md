@@ -856,7 +856,7 @@ based on [Grady & Pavlov 2020](#GradyPavlov20).
 
 Review:
 
-* [[Dmitri Pavlov]], *The geometric cobordism hypothesis*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]], [web](Center+for+Quantum+and+Topological+Systems#PavlovMar2023)&rbrack;
+* [[Dmitri Pavlov]], *The geometric cobordism hypothesis*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]], [web](Center+for+Quantum+and+Topological+Systems#PavlovMar2023), video: [YT](https://www.youtube.com/watch?v=n6Eog_z82eA)&rbrack;
 
 
 
