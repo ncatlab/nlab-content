@@ -104,13 +104,13 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 ## References
 
-* [[Ross Street]], [[R. F. C. Walters]], *The Comprehensive Factorization of Functor*, Bull. Amer. Math. Soc. 79(5): 936-941 ([bams:1183534973](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-79/issue-5/The-comprehensive-factorization-of-a-functor/bams/1183534973.full))
+* [[Ross Street]], [[R. F. C. Walters]], *The Comprehensive Factorization of Functor*, Bulletin of the American Mathematical Society 79(5): 936-941 ([bams:1183534973](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-79/issue-5/The-comprehensive-factorization-of-a-functor/bams/1183534973.full), [doi:10.1090/S0002-9904-1973-13268-9](https://doi.org/10.1090/S0002-9904-1973-13268-9))
 
-* [[Fosco Loregian]], [[Emily Riehl]], *Categorical Notions of Fibration* ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129))
+* [[Fosco Loregian]], [[Emily Riehl]], *Categorical Notions of Fibration*, Expositiones Mathematicae **38**, 2020. ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004))
 
 * [[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
 
-* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Kan Extensions are Partial Colimits. Applied Categorical Structures **30**, 685–753 (2022). ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531). [doi:10.1007/s10485-021-09671-9](https://doi.org/10.1007/s10485-021-09671-9))
 
 Internal comprehensive factorisations (and [[torsors]]) are considered in:
 
