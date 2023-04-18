@@ -27,3 +27,5 @@ He has published several papers based on his work (jointly with Tim Porter).  Th
 
 
 category: people
+
+[[!redirects Philip Ehlers]]
