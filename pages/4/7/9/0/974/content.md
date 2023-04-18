@@ -324,7 +324,7 @@ A [[poset]], considered as a category, is locally presentable precisely if it is
 =--
 
 \begin{example}\label{GrothAbCatsAreLocPresntbl}
-Every [[Grothendieck abelian category]] is locally presentable &lbrack;[Beke, Prop. 3.10](#Beke00), cf. [Krause (2015), Cor. 5.2](#Krause15)&rbrack;.
+Every [[Grothendieck abelian category]] is locally presentable &lbrack;[Beke (200), Prop. 3.10](#Beke00), cf. [Krause (2015), Cor. 5.2](#Krause15)&rbrack;.
 
 This implies in particular (by [this example](Grothendieck+category#ChainComplexesInGrothAbCat) at *[[Grothendieck abelian category]]*) that for $R$ a [[commutative ring]] ([[internalization|internal]] to any [[Grothendieck topos]]):
 
