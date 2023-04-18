@@ -459,7 +459,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   video: [YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)
 
-  > The [[Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] action and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
+  > The [[Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] [[group action|action]] and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
 
 \linebreak
 
