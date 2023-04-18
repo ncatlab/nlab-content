@@ -328,7 +328,7 @@ In fact:
 In summary:
 \begin{proposition}\label{EveryPiZeroEpiIsResolvedByASurjectiveKanFibration}
   Let 
-  $X \xrightarrow{f} Y$ be any morphism of [[simplicial sets]] which is a [[surjection]] on [[connected components]]: $\pi_0(f) \,\colon\, \pi_0(X) \twoheadrightarrow \pi_0(Y)$ (hence presenting an effective epimorphism of $\infty$-groupoids, by [this Prop.](effective+epimorphism+in+an+infinity1-category#EffectiveEpisOfInfinityGroupoids)). Then $f$ factors as a [[simplicial weak equivalence]] followed by a Kan fibration which is a degreewise [[surjection]] (and [hence](SimpSet#EpimorphismsOfSimplicialSetsDetectedDegreewise) an [[epimorphism]] of [[simplicial sets]]).
+  $X \xrightarrow{f} Y$ be any morphism of [[simplicial sets]] which is a [[surjection]] on [[connected components]]: $\pi_0(f) \,\colon\, \pi_0(X) \twoheadrightarrow \pi_0(Y)$ (hence presenting an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] of [[infinity-groupoids|$\infty$-groupoids]], by [this Prop.](effective+epimorphism+in+an+infinity1-category#EffectiveEpisOfInfinityGroupoids)). Then $f$ factors as a [[simplicial weak equivalence]] followed by a Kan fibration which is a degreewise [[surjection]] (and [hence](SimpSet#EpimorphismsOfSimplicialSetsDetectedDegreewise) an [[epimorphism]] of [[simplicial sets]]).
 \end{proposition}
 \begin{proof}
   The factorization follows by standard constructions such as the [[factorization lemma]] or the existence of the [[classical model structure on simplicial sets]]. With this the claim follows by Lemma \ref{KanFibrationWhichIsEpiOnComponentsIsEpi}.
