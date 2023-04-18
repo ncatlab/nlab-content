@@ -62,6 +62,11 @@ The standard diagonal inclusion of a [[global field]] (such as a [[number field]
 
 * Wikipedia, _[Lattice (module)](http://en.wikipedia.org/wiki/Lattice_%28module%29)_
 
+Applications in [[heterotic string theory]] and [[F-theory]]:
+
+* Dmitry Manning-Coe, *Lattices: From Roots to String Compactifications* &lbrack;[arXiv:2304.05394](https://arxiv.org/abs/2304.05394)&rbrack;
+
+
 [[!redirects lattice in a vector space]]
 
 [[!redirects lattices in a vector space]]
