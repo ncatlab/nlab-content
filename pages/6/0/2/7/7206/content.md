@@ -204,7 +204,7 @@ Evidence for high [[loop order]] finiteness of $N=8$ 4d supergravity as as [[per
 
 * [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], [[Radu Roiban]], _Three-Loop Superfiniteness of N=8 Supergravity_, Phys.Rev.Lett.98:161303,2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
 
-* [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, R. Roiban, _The Ultraviolet Behavior of $N=8$ Supergravity at Four Loops_, Phys. Rev. Lett.103:081301, 2009 ([arXiv:0905.2326](https://arxiv.org/abs/0905.2326))
+* [[Zvi Bern]], [[John Joseph Carrasco]], [[Lance Dixon]], [[Henrik Johansson]], [[Radu Roiban]], _Amplitudes and Ultraviolet Behavior of $N=8$ Supergravity_, Fortschr. Phys. **59** (2011) 7-8 &lbrack;[arXiv:1103.1848](http://arxiv.org/abs/1103.1848), [doi:10.1002/prop.201100037](https://doi.org/10.1002/prop.201100037)&rbrack;
 
 and via [[KLT relations]]:
 
