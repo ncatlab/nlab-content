@@ -654,7 +654,7 @@ The cofibrations are all in particular degreewise split injections, but not ever
 \begin{proof}
 Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98). 
 
-{#LocalPresentability} It remains to see that the underlying category is [[locally presentable category|locally presentable]] (so that the model structure is [[combinatorial model category|combinatorial]]): This follows because:
+{#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]] (so that the model structure is [[combinatorial model category|combinatorial]]): This follows because:
 
 1. $R$[[Mod]] is a [[Grothendieck abelian category]] (by [this example](Grothendieck+category#CateoriesOfModules));
 
