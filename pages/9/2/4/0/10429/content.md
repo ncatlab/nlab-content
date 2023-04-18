@@ -311,7 +311,7 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 
 * Jan Carl Budich, Bj&#246;rn Trauzettel, _From the adiabatic theorem of quantum mechanics to topological states of matter_, physica status solidi (RRL) 7, 109 (2013) [arXiv:1210.6672](http://arxiv.org/abs/1210.6672)
 
-* [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, Modern Physics Letters __A29__:13 (2014) [arxiv/1306.5570](http://arxiv.org/abs/1306.5570) [doi](http://dx.doi.org/10.1142/S0217732314500643)
+* [[Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, Modern Physics Letters __A29__ 13 (2014) &lbrack;[arxiv/1306.5570](http://arxiv.org/abs/1306.5570) [doi:10.1142/S0217732314500643](http://dx.doi.org/10.1142/S0217732314500643)&rbrack;
 
 * Yosuke Kubota, _Controlled topological phases and bulk-edge correspondence_, [arxiv/1511.05314](http://arxiv.org/abs/1511.05314)
  
