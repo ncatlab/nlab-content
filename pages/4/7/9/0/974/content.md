@@ -307,10 +307,10 @@ A [[poset]], regarded as a category, is locally finitely presentable if it is a 
 
 =--
 
-+-- {: .num_example}
-###### Nonexamples
-
-* The category [[FinSet]] of _finite_ sets is not locally finitely presentable, as it does not have all countable colimits.
+\begin{remark}
+**([[counter-example]])**
+The category [[FinSet]] of _[[finite set|finite]]_ sets is not locally finitely presentable, as it does not have all countable colimits.
+\end{remark}
 
 * The category of fields and field homomorphisms is not locally presentable, as it does not have all binary coproducts (for instance, there are none between fields of differing characteristics).
 
@@ -329,6 +329,10 @@ A [[poset]], regarded as a category, is locally finitely presentable if it is a 
 A [[poset]], considered as a category, is locally presentable precisely if it is a complete [[lattice]]. 
 
 =--
+
+\begin{example}\label{GrothAbCatsAreLocPresntbl}
+Every [[Grothendieck abelian category]] is locally presentable (e.g. [Beke, Prop. 3.10](#Beke00), [Krause (2015), Cor. 5.2](#Krause15)).
+\end{example}
 
 +-- {: .num_example }
 ###### Example
@@ -428,11 +432,16 @@ See also
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]: III Categories of Sheaves_ (proposition 3.4.16), page 220. 
 
 
-See also section A.1.1 of 
+* [[Jacob Lurie]], A.1.1 of: _[[Higher Topos Theory]]_
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+  > (where locally presentable categories are called [[presentable categories]]*)
 
-where locally presentable categories are called just [[presentable category|presentable categories]].
+On the example of Grothendieck abelian categories:
+
+* {#Beke00} [[Tibor Beke]], *Sheafifiable homotopy model categories*, Math. Proc. Cambridge Philosophical Society **129** 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](https://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack;
+
+* {#Krause15} [[Henning Krause]], _Deriving Auslander's formula_, Documenta Math. **20** (2015) 669-688 &lbrack;[arXiv:1409.7051](https://arxiv.org/abs/1409.7051)&rbrack;
+
 
 
 [[!redirects locally presentable]]
