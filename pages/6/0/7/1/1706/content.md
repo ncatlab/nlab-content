@@ -43,6 +43,7 @@ The idea of the cobordism hypothesis is that:
 1. which means that the point -- regarded as a 0-dimensional element of an $n$-dimensional [[cobordism]] -- is equipped with the [[structure]] of, first of all, a [[dualizable object]] under the relevant [[tensor product]] of cobordisms (which is [[disjoint union]]), and next that of a $k$-dualizable object for all $k \leq n$.
 
 ### Geometric cobordism hypothesis
+ {#GeometricCobordismHypothesis}
 
 More generally, the *geometric* cobordism hypothesis &lbrack;[Grady & Pavlov (2021)](#GradyPavlov21)&rbrack; asserts that general non-topological *geometric* [[functorial field theory|extended functorial field theories]] (such as [[conformal field theory]] as well as the usual [[relativistic quantum field theory|relativistic]] [[AQFT on curved spacetimes|QFT on curved spacetimes]]) are similarly enocded by (1.) local data depending only on the notion of geometry and (2.)  global topological data encoded only in higher dualizability structure.
 
