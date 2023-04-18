@@ -632,26 +632,37 @@ There are several approaches to defining model structures on the [[category of u
 #### Standard projective model structure on unbounded chain complexes
  {#ProjectiveModelStructureOnUnboundedChainComplexes}
 
-+-- {: .num_prop #ProjModelStructureOnUnbounded}
-###### Proposition
-
-For $k$ a [[commutative ring]] the [[category of unbounded chain complexes]] of $k$-[[modules]] $Ch_\bullet(k Mod)$ carries the structure of a
+\begin{proposition}
+\label{StandardModelStructureOnUnboundedComplexes}
+For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch_\bullet(R Mod)$ of $R$-[[modules]]  carries the structure of a
 
 * [[proper model category|proper]]
 
-* [[cofibrantly generated model category|cofibrantly generated]]
+* [[cofibrantly generated model category|cofibrantly generated]] 
+
+* [[combinatorial model category|combinatorial]]
 
 [[model category]] with
 
-* weak equivalences the [[quasi-isomorphisms]]
+* [[weak equivalences]] the [[quasi-isomorphisms]]
 
-* fibrations the (degreewise) [[epimorphisms]].
+* [[fibrations]] the (degreewise) [[epimorphisms]].
 
 The cofibrations are all in particular degreewise split injections, but not every degreewise split injection is a cofibration.
 
-=--
+\end{proposition}
+\begin{proof}
+Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98). 
 
-See ([Hovey-Palmieri-Strickland 97, remark after theorem 9.3.1](#HoveyPalmieriStrickland97), [Schwede-Shipley 98, p. 7](#SchwedeShipley98)).
+{#LocalPresentability} It remains to see that the underlying category is [[locally presentable category|locally presentable]] (so that the model structure is [[combinatorial model category|combinatorial]]): This follows because:
+
+1. $R$[[Mod]] is a [[Grothendieck abelian category]] (by [this example](Grothendieck+category#CateoriesOfModules));
+
+1. when $\mathcal{A}$ is a Grothendieck abelian category then so is $Ch_\bullet(\mathcal{A})$ (by [this example](Grothendieck+category#ChainComplexesInGrothAbCat));
+
+1. all Grothendick abelian categories are locally presentable (by [this example](locally+presentable+category#GrothAbCatsAreLocPresntbl)).
+
+\end{proof}
 
 +-- {: .num_prop }
 ###### Proposition
@@ -662,9 +673,9 @@ The [[category of simplicial objects]] $\big(Ch_\bullet(k Mod)\big)^{\Delta^{op}
 
 =--
 
-This is ([Rezk-Schwede-Shipley 01, cor 4.6](#RezkSchwedeShipley01)), using the methods discussed at _[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_.
+This is [Rezk, Schwede & Shipley (2001_, cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
-Below this model structure is recovered as one example of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults), as example \ref{CategoricalProjectiveClasses}.
+Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
 
 
 #### Christensen-Hovey model structures using projective classes
@@ -1173,7 +1184,9 @@ it seems that the injective model structure on chain complexes has been made ful
 
 The projective model structure is discussed after that in
 
-* [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
+* [[Mark Hovey]], *Model category structures on chain complexes of sheaves* (1999) &lbrack;[K-theory:0366](https://faculty.math.illinois.edu/K-theory/0366), [pdf](https://faculty.math.illinois.edu/K-theory/0366/sheaves.pdf), [[Hovey-SheavesOfChainComplexesPreprint.pdf:file]]&rbrack;
+
+* {#Hovey01} [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. **353** 6 (2001) &lbrack;[ams:S0002-9947-01-02721-0](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-01-02721-0), [jstor:221954](https://www.jstor.org/stable/221954)&rbrack;  
 
 An explicit proof of the injective model structure with monos in positive degree is spelled out in
 
@@ -1270,7 +1283,7 @@ A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex
 
 A model structure on noncommutative [[dg-algebra]]s whose proof strategy is useful also for cochain complexes is in
 
-* [[J. F. Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58.
+* [[J. F. Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications **17**, AMS (1997) 55-58.
 
 
 [[!redirects model structures on chain complexes]]
@@ -1291,4 +1304,3 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects injective model structure on connective cochain complexes]]
 
 
-recalled in
