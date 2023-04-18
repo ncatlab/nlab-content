@@ -457,6 +457,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)
+
   > The [[Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] action and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
 
 \linebreak
@@ -493,9 +495,11 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **The geometric cobordism hypothesis**
 
+  cf.: [arXiv:2011.01208](https://arxiv.org/abs/2011.01208), [arXiv:2111.01095](https://arxiv.org/abs/2111.01095)
+
   slides: [pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]]
 
-  cf.: [arXiv:2011.01208](https://arxiv.org/abs/2011.01208), [arXiv:2111.01095](https://arxiv.org/abs/2111.01095)
+  video: [YT](https://www.youtube.com/watch?v=n6Eog_z82eA)
 
   > I will explain my recent joint work with [[Daniel Grady]] on [[local field theory|locality]] of [[functorial field theories]] ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208)) and the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms) ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095)). The latter generalizes the Baez–Dolan [[cobordism hypothesis]] to non-[[topological field theories]], in which [[bordisms]] can be equipped with [[geometry|geometric]] [[structures]], such as [[smooth maps]] to a fixed [[target space|target]] [[smooth manifold|manifold]], [[Riemannian metrics]], [[conformal structures]], [[principal bundles]] [[connection on a bundle|with connection]], or [[geometric string structures]]. Applications include a generalization of the [Galatius–Madsen–Tillmann–Weiss theorem](cobordism+category#GMTWTheorem), a solution to a [[What is an elliptic object?|conjecture of Stolz and Teichner]] on [[representable functor|representability]] of [[concordance classes]] of [[functorial field theories]], and a construction of [[power operations]] on the level of [[functorial field theory|field theories]] (extending the [recent work of Barthel-Berwick-Evans-Stapleton](https://arxiv.org/abs/2006.09943)). 
 
