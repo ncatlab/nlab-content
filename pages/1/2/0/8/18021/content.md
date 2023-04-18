@@ -66,6 +66,8 @@ The [[left adjoint]] $\Omega$ is the [[simplicial loop space]]-construction.
 
 * [[simplicial delooping functor]]
 
+* [[Dwyer-Kan loop groupoid]]
+
 ## References
 
 For a more complete list of references, see the article [[simplicial delooping functor]].
