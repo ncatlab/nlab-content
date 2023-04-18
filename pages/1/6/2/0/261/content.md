@@ -389,3 +389,6 @@ category: simplicial object
 [[!redirects coface maps]]
 [[!redirects codegeneracy map]]
 [[!redirects codegeneracy maps]]
+
+[[!redirects face and degeneracy maps]]
+
