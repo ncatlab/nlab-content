@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -29,6 +30,7 @@ Perhaps a more accurate term for this concept is **simplicially enriched groupoi
 
 Write $sGrpd$ for the [[category]] of [[simplicial groupoids]].
 
+\begin{proposition}
 There is a [[model category]] structure on $sGrpd$ whose
 
 * [[fibrations]] are those morphisms $f \colon H \to K$ such that 
@@ -42,7 +44,8 @@ There is a [[model category]] structure on $sGrpd$ whose
   1. $f$ induces in [[isomorphism]] on [[connected components]] $\pi_0 f \colon \pi_0 H \to \pi_0 K$;
 
   1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[model structure on simplicial sets]].
-
+\end{proposition}
+This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), reviewed in [Goerss & Jardine (2009), p. 316 and after cor V.7.3](#GoerssJardine09).
 
 ## Properties
 
@@ -73,6 +76,8 @@ When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bull
 =--
 
 ## Related concepts
+
+* [[model structure on simplicial groups]]
 
 * [[model structure on simplicial sets]]
 
