@@ -308,8 +308,6 @@ Nucl. Phys. B419, 455 (1994).
 
 * Jan Carl Budich, Bj&#246;rn Trauzettel, _From the adiabatic theorem of quantum mechanics to topological states of matter_, physica status solidi (RRL) 7, 109 (2013) [arXiv:1210.6672](http://arxiv.org/abs/1210.6672)
 
-* [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, [arxiv/1306.5570](http://arxiv.org/abs/1306.5570)
-
 * {#WilczekZee1984} [[Frank Wilczek]],  [[Anthony Zee]], *Appearance of gauge structure in simple dynamical systems*, Physical Review Letters **52** 24 (1984) 2111 $[$[doi:10.1103/PhysRevLett.52.2111](https://doi.org/10.1103/PhysRevLett.52.2111)$]$
 
 
