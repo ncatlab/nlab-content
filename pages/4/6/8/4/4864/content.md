@@ -192,3 +192,5 @@ On [[Freudenthal magic square|magic squares]] of [[magic supergravities]]  and [
 category: people
 
 [[!redirects Mike Duff]]
+
+[[!redirects Mike J. Duff]]
