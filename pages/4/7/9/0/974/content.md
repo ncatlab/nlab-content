@@ -292,33 +292,26 @@ The category of [[algebra over a Lawvere theory|algebras of]] a [[Lawvere theory
 
 =--
 
-+-- {: .num_example }
-###### Example
-
+\begin{example}
 The category of [[coalgebras]] over a [[field]] $k$ is locally finitely presentable; similarly the category of commutative coalgebras over $k$ is locally finitely presentable. 
+\end{example}
 
-=--
-
-+-- {: .num_example }
-###### Example
-
-
+\begin{example}
 A [[poset]], regarded as a category, is locally finitely presentable if it is a complete [[lattice]] which is [[algebraic lattice|algebraic]] (each element is a directed [[join]] of finite elements).
-
-=--
+\end{example}
 
 \begin{remark}
-**([[counter-example]])**
-The category [[FinSet]] of _[[finite set|finite]]_ sets is not locally finitely presentable, as it does not have all countable colimits.
-\end{remark}
+**([[counter-examples]])**
 
-* The category of fields and field homomorphisms is not locally presentable, as it does not have all binary coproducts (for instance, there are none between fields of differing characteristics).
+* The category [[FinSet]] of _[[finite set|finite]]_ sets is *not* locally finitely presentable, as it does not have all countable colimits.
 
-* [[Top]] is not locally finitely presentable.
+* The category of [[fields]] and field [[homomorphisms]] is *not* locally presentable, as it does not have all binary coproducts (for instance, there are none between fields of differing characteristics).
+
+* [[TopologicalSpaces]] is not locally finitely presentable.
 
 * The [[opposite category]] of a locally presentable category (in particular, a locally finitely presentable category) is _never_ locally presentable, unless it is a poset.  This is  [Gabriel-Ulmer, Satz 7.13](#GabrielUlmer).
 
-=--
+\end{remark}
 
 
 ### Locally presentable categories
@@ -331,7 +324,14 @@ A [[poset]], considered as a category, is locally presentable precisely if it is
 =--
 
 \begin{example}\label{GrothAbCatsAreLocPresntbl}
-Every [[Grothendieck abelian category]] is locally presentable (e.g. [Beke, Prop. 3.10](#Beke00), [Krause (2015), Cor. 5.2](#Krause15)).
+Every [[Grothendieck abelian category]] is locally presentable &lbrack;[Beke, Prop. 3.10](#Beke00), cf. [Krause (2015), Cor. 5.2](#Krause15)&rbrack;.
+
+This implies in particular (by [this example](Grothendieck+category#ChainComplexesInGrothAbCat) at *[[Grothendieck abelian category]]*) that for $R$ a [[commutative ring]] ([[internalization|internal]] to any [[Grothendieck topos]]):
+
+* the category $R$[[Mod]] of $R$-[[modules]] is locally presentable
+
+* the category [[category of chain complexes|$Ch_\bullet(R Mod)$]] of [[chain complexes]] is locally presentable.
+
 \end{example}
 
 +-- {: .num_example }
