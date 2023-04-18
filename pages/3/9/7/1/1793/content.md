@@ -648,7 +648,7 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 
 * [[fibrations]] the (degreewise) [[epimorphisms]].
 
-The cofibrations are all in particular degreewise split injections, but not every degreewise split injection is a cofibration.
+The [[cofibrations]] are all, in particular, degreewise [[split monomorphism|split injections]], but not every degreewise split injection is a cofibration.
 
 \end{proposition}
 \begin{proof}
@@ -663,6 +663,133 @@ Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickla
 1. all Grothendick abelian categories are locally presentable (by [this example](locally+presentable+category#GrothAbCatsAreLocPresntbl)).
 
 \end{proof}
+
+\begin{remark}\label{NotAllUnboundedComplexesAreProjectivelyCofibrant}
+  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, *not* every chain complex is [[cofibrant object|cofibrant]], not even if the [[ground field]] has [[characteristic zero]] --
+a [[counterexample]] is given in [Hovey (1999), Rem. 2.3.7](#Hovey99):
+
+For $\mathbb{K}$ any [[field]], let $R \coloneqq \mathbb{K} \oplus \mathbb{K} \cdot x$ be its [[ring of dual numbers]], i.e. with $x^2 = 0$. 
+
+Denote its [[augmented algebra|augmentation]] by
+
+$$
+  \array{
+    \mathllap{
+    \epsilon
+    \;\colon\;
+    }
+    \mathbb{K} \oplus \mathbb{K} \cdot x
+    &\longrightarrow&
+    \mathbb{K}
+    \\
+    a + b x &\mapsto& a
+  }
+$$
+
+Via this [[ring homomorphism]] we regard $\mathbb{K}$ as an $R$-[[module]].
+
+Now in the category $Ch_\bullet(R Mod)$, consider the following unbounded chain complex:
+
+$$
+  \mathcal{A}
+  \;\coloneqq\;
+  \left(
+  \cdots
+  \to 
+  \mathbb{K} \oplus \mathbb{K}x
+  \xrightarrow{
+    \;\;
+    \cdot x
+    \;\;
+  }
+  \mathbb{K} \oplus \mathbb{K}x
+  \xrightarrow{
+    \;\;
+    \cdot x
+    \;\;
+  }
+  \mathbb{K} \oplus \mathbb{K}x
+  \to 
+  \cdots
+  \right)
+  \,.
+$$
+Since its [[chain homology]] clearly vanishes in every degree, the morphism it receives out of the [[zero object]] is a [[quasi-isomorphism]] and hence a [[weak equivalence]]
+$$
+  0 \underset{\in \mathrm{W}}{\longrightarrow} \mathcal{A}
+$$
+and hence would be an [[acyclic cofibration]] if $\mathcal{A}$ were cofibrant.
+
+But consider then the following [[lifting problem]] with this morphism
+
+$$
+  \array{
+    &\longrightarrow&
+    \big(
+      \cdots \to 0 \to 0 \to R \to 0 \to 0 \to \cdots
+    \big)
+    \\
+    \Bigg\downarrow
+    &&
+    \Bigg\downarrow
+    {}^{
+      \epsilon
+    }
+    \\
+    \mathcal{A}
+    &
+    \overset{
+      \;\;
+      \epsilon
+      \;\;\;
+    }{
+      \longrightarrow
+    }
+    &
+    \big(
+      \cdots \to 0 \to 0 \to \mathbb{K} \to 0 \to 0 \to \cdots
+    \big)
+    \mathrlap{\,,.}
+  }
+$$
+
+Since the morphism on the right is clearly degreewise surjective and hence a [[fibration]] in the model structure, cofibrancy of $\mathcal{A}$ would imply that a [[lift]] in this diagram exists. But to be even a lift of the [[underlying]] [[graded modules]] this lift would have to be the [[identity morphism]] on $R$ in degree 0, in order to make (in degree 0), this [[diagram]] of $R$-[[modules]] [[commuting diagram|commute]]:
+
+$$
+  \array{
+    && R
+    \\
+    & \mathllap{^{id}}\nearrow 
+    & \downarrow \mathrlap{^\epsilon}
+    \\
+    R &\underset{\epsilon}{\longrightarrow}& \mathbb{K}
+  }
+$$
+
+But that underlying lift fails to be a [[chain map]] in degrees (-1,0), where the following [[diagram]] does *not* [[commuting diagram|commute]]
+
+$$
+  \array{
+    0 
+    &\longrightarrow&
+    \mathbb{K} \oplus \mathbb{K}x     
+    \\
+    \mathllap{^{id}}
+    \Big\uparrow
+    &\color{red}\times&
+    \Big\uparrow
+    \mathrlap{^{id}}
+    \\
+    \mathbb{K} \oplus \mathbb{K}x 
+    &\underset{\cdot x}{\longrightarrow}&      
+    \mathbb{K} \oplus \mathbb{K}x 
+    \mathrlap{\,.}
+  }
+$$
+
+It follows that the lift does not exist, hence that we found an object $\mathcal{A}$ in the model structure from Prop. \ref{StandardModelStructureOnUnboundedComplexes} which is not cofibrant.
+\end{remark}
+
 
 +-- {: .num_prop }
 ###### Proposition
@@ -1231,7 +1358,7 @@ and shown to be [[cofibrantly generated model category|cofibrantly generated]] i
 
 * {#SchwedeShipley98} [[Stefan Schwede]], [[Brooke Shipley]], p. 7 of: *Algebras and modules in monoidal model categories*, Proc. London Math. Soc. **80** 2  (2000)  491-511  &lbrack;[arXiv:math/9801082](https://arxiv.org/abs/math/9801082), [doi:10.1112/S002461150001220X](https://doi.org/10.1112/S002461150001220X)&rbrack;
 
-* {#Hovey} [[Mark Hovey]], Thm 2.3.1 in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+* {#Hovey99} [[Mark Hovey]], Thm 2.3.1 in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
 and shown to be ([[cofibrantly generated model category|cofibrantly generated]] and in addition) [[proper model category|proper]] and [[monoidal model category|monoidal]] in:
 
