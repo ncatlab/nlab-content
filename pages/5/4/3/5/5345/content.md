@@ -32,10 +32,10 @@ Perhaps a more accurate term for this concept is **simplicially enriched groupoi
 
 ## Definition
 
-Write $sGrpd$ for the [[category]] of [[simplicial groupoids]].
+Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[simplicial sets]] of [[objects]] are understood to be constant, see the discussion [there](simplicial+groupoid#Definition)).
 
-\begin{proposition}
-There is a [[model category]] structure on $sGrpd$ whose
+\begin{proposition}\label{TheModelStructure}
+There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
 * [[fibrations]] are those morphisms $f \colon H \to K$ such that 
 
@@ -56,26 +56,36 @@ This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), review
 +-- {: .num_prop}
 ###### Proposition
 
-We have a [[Quillen adjunction]]
+The 
+
+* [[Dwyer-Kan loop groupoid]]-construction $\mathcal{G}$ ([[left adjoint]])
+
+* [[simplicial classifying space]]-construction $\overline{W}$ ([[right adjoint]])
+
+constitute a [[Quillen equivalence]]
 
 $$
-  (G \dashv \bar W) : 
-  Grpd^\Delta
-   \stackrel{\overset{G}{\leftarrow}}{\underset{\bar W}{\to}}
-  sSet_{Quillen}  
+  sGrpd_{DK}
+  \underoverset
+    {\underset{\overline{W}}{\longrightarrow}}
+    {\overset{\mathcal{G}}{\longleftarrow}}
+    {\;\;\;\; \simeq_{_{\mathrlap{Qu}}} \;\;\;\;}
+  sSet_{Qu}  
 $$
 
-where both $G$ and $\bar W$ preserve all [[weak equivalence]]s.
+between the model structure on $sGrpd_{DK}$ from Prop. \ref{TheModelStructure} and the [[classical model structure on simplicial sets]].
+
+In addition both $\mathcal{G}$ and $\overline W$ preserve all [[weak equivalences]].
 
 =--
 
-This appears for instance as 
-([Goerss & Jardine, theorem 7.8](#GoerssJardine))
+This is due to [Dwyer & Kan (1984)](#DwyerKan84), reviewed in [Goerss & Jardine (2009), Theorem 7.8](#GoerssJardine).
+
 
 +-- {: .num_remark}
 ###### Remark
 
-When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bullet$ a [[simplicial group]] and $B G_n$ its [[delooping]] [[groupoid]] this produces a standard presentation of [[looping and delooping]] for [[infinity-group]]s. See there for more details.
+When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bullet$ a [[simplicial group]] and $B G_n$ its [[delooping]] [[groupoid]] this produces a standard presentation of [[looping and delooping]] for [[infinity-groups]]. See there and at *[[model structure on simplicial groups]]* for more.
 
 =--
 
@@ -93,7 +103,11 @@ When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bull
 
 ## References
 
+The original article:
+
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]],  *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
+
+A textbook account:
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], after corollary 7.3 in chapter V of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
 
