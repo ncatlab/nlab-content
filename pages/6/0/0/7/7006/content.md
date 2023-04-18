@@ -49,6 +49,8 @@ A proposal for the case $n = 1$ with the directed analog of the [[univalence axi
 
 * [[fibered category theory]]
 
+* [[Grothendieck construction#generalizations|Generalizations of the Grothendieck construction]]
+
 ## References
 
 ### General
@@ -68,6 +70,14 @@ A proposal for the case $n = 1$ with the directed analog of the [[univalence axi
 * [[Paige Randall North]], _Towards a directed homotopy type theory_ &lbrack;[arXiv:1807.10566](https://arxiv.org/abs/1807.10566)&rbrack;
 
 * [[Alex Kavvos]], *A quantum of direction* (2019) &lbrack;[pdf](https://seis.bristol.ac.uk/~tz20861/papers/meio.pdf)&rbrack;
+
+### Naturality type theory
+
+* {#Nuyts23} [[Andreas Nuyts]], _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTT/UF 2023, [PDF](https://hott-uf.github.io/2023/HoTTUF_2023_paper_1410.pdf)
+
+* {#Nuyts20} [[Andreas Nuyts]], *A Vision for Natural Type Theory*, [Note](https://anuyts.github.io/files/nattt-vision.pdf)
+
+* [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_, [PDF](https://anuyts.github.io/files/mathesis.pdf)
 
 ### Cisinski et al.
  {#ReferencesCisinskiEtAl}
