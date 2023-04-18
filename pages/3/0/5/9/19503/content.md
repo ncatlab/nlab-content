@@ -37,7 +37,7 @@ $$
 
 =--
 
-This is ([Dugger 01, theorem 1.1](#Dugger01)) building on results in ([DuggerUniversalHomotopy](#DuggerUniversalHomotopy)).
+This is [Dugger (2001), theorem 1.1](#Dugger01) building on results in [Dugger (2001b)](#Dugger01b).
 
 
 +-- {: .proof}
@@ -131,11 +131,12 @@ Every combinatorial model category is [[Quillen equivalence|Quillen equivalent]]
 
 Dugger's theorem is due to
 
-* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
+* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. **164** (2001) 1 177-201 &lbrack;[arXiv:math/0007068](http://arxiv.org/abs/math/0007068), [doi:10.1006/aima.2001.2015](https://doi.org/10.1006/aima.2001.2015)&rbrack;
 
 based on results in
 
-* {#DuggerUniversalHomotopy} [[Dan Dugger]], _[[Universal homotopy theories]]_
+* {#Dugger01b} [[Dan Dugger]], _[[Universal homotopy theories]]_, Advances in Mathematics **164** (2001)
+144-176 &lbrack;[arXiv:math/0007070](https://arxiv.org/abs/math/0007070)&rbrack;
 
 The interpretation in terms of [[locally presentable (infinity,1)-categories]] is due to
 
