@@ -12,9 +12,9 @@ with [[level structure on an elliptic curve|level structure]]:
 * {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_, Inventiones mathematicae volume 203, pages 359–416 (2016) ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394), [doi:10.1007/s00222-015-0589-5](https://doi.org/10.1007/s00222-015-0589-5))
 
 
-On [[Bousfield localization of spectra]]:
+On [[Bousfield localization of model categories]] ([[Bousfield localization of spectra]]):
 
-* [[Tyler Lawson]], *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888)) in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*  MSRI Book Series, Cambridge University Press
+* [[Tyler Lawson]], *An introduction to Bousfield localization* &lbrack;[arXiv:2002.03888](https://arxiv.org/abs/2002.03888)&rbrack; in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*  MSRI Book Series, Cambridge University Press (2022)
 
 
 category: people
