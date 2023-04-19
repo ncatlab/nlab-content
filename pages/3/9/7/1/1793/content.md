@@ -648,13 +648,14 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 
 * [[fibrations]] the (degreewise) [[epimorphisms]].
 
-The [[cofibrations]] are all, in particular, degreewise [[split monomorphism|split injections]], but not every degreewise split injection is a cofibration.
+*  [[cofibrations]] the degreewise [[split monomorphism|split injections]] with cofibrant [[cokernel]].
 
 \end{proposition}
+(For partial characterization of the [[cofibrant objects]] see further [below](#BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant).)
 \begin{proof}
 Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99)
 
-{#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]] (so that the model structure is [[combinatorial model category|combinatorial]]): This follows because:
+{#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]], so that the model structure is [[combinatorial model category|combinatorial]]. (This minor but important point must be clear to the above authors, but seems not to be made explicit in any of the references.) This follows because:
 
 1. $R$[[Mod]] is a [[Grothendieck abelian category]] (by [this example](Grothendieck+category#CateoriesOfModules));
 
@@ -792,8 +793,10 @@ It follows that the lift does not exist, hence that we found an object $\mathcal
 
 On the other hand:
 
-\begin{proposition}
-  Every bounded-below chain complex of [[projective modules]] is [[cofibrant object|cofibrant]] in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes}.
+\begin{proposition}\label{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}
+**([[bounded-below chain complexes]] of [[projective modules]] are projectively [[cofibrant object|cofibrant]])**
+\linebreak
+  Every [[bounded-below chain complex]] of [[projective modules]] is [[cofibrant object|cofibrant]] in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes}.
 \end{proposition}
 ([Hovey (1999), Lem. 2.3.6](#Hovey99))
 
