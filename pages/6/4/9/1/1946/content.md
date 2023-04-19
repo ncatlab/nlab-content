@@ -56,14 +56,15 @@ then:
 
 The **latching object** of $X$ at stage $r$ is the [[colimit]] 
 
-$$ 
+\[
+  \label{LatchingObject}
   L_r X 
   \;\coloneqq\;
   \underset{
     s \underset{+}{\to} r
   }{colim} 
   X_s
-$$
+\]
 
 over the [[full subcategory]] of the [[slice category]] $R_+/r$ containing all objects except the [[identity morphism|identity]] $id_r$.  
 
@@ -71,7 +72,8 @@ over the [[full subcategory]] of the [[slice category]] $R_+/r$ containing all o
 
 The **matching object** of $X$ at stage $r$ is the [[limit]]
 
-$$ 
+\[
+  \label{MatchingObject}
   M_r X 
   \;\coloneqq\;
   \underset{
@@ -79,30 +81,45 @@ $$
   {\lim}
   X_s
   \,,
-$$
+\]
 
 over the [[full subcategory]] of the [[coslice category]] $r/R_-$ containing all objects except $id_r$.  
 
 By the [[universal property]] of ([[colimit|co]])[[limits]] there are evident [[natural transformations]]:
 
-$$
+\[
+  \label{ComparisonMapsFromLatchingToMatchingObject}
   L_r X
   \longrightarrow 
   X_r 
   \longrightarrow 
   M_r X
   \,.
-$$
+\]
 \end{definition}
 (e.g. [Hovey (1999), Def. 5.2.2](#Hovey99); [Hirschhorn (2002), Def. 15.2.5](#Hirschhorn02))
+
+
+\begin{example}\label{LatchingOfSimplicialObjects}
+**(latching of simplicial objects)**
+\linebreak
+Consider the case that $\mathcal{R} = \Delta^{op}$ is the [[opposite category|opposite]] [[simplex category]] with its canonical Reedy structure ([here](Reedy+category#ReedyStructureOnSimplexCategory)), where $(\Delta^{op})_+ \,=\, (\Delta_-)^{op}$ is the opposite of the [[surjections]] $[r] \to [r-k]$.
+
+For $X \colon \Delta^{op} \to \mathcal{C}$ a [[simplicial object]], its value on such a morphism is the corresponding [[degeneracy map]].
+
+This means that the [[cocone]] morphism (eq:ComparisonMapsFromLatchingToMatchingObject) out of the the latching object (eq:LatchingObject) has as components in degree $r$ all [inclusions of degenerate simplices](simplicial+identities#DegeneracyMapsAreSplitMono) 
+$$
+  X_{r-k} \overset{\phantom{--}}{\hookrightarrow} X_r
+$$
+which $X_r$ receives.
+
+Hence one may roughly think of the latching object $L_r X$ of a [[simplicial object]] $X$ as the object of _degenerate_ [[n-simplex|$r$-simplices]] sitting inside the object $X_r$ of all $r$-simplices.  
+\end{example}
 
 \begin{remark}
 Notice that $L_0 X = 0$ is the [[initial object]] and $M_0 X$ is the [[terminal object]], since there are no objects of degree $\lt 0$.
 \end{remark}
 
-\begin{example}
-In the case $\mathcal{R} = \Delta^{op}$ is the [[opposite category|opposite]] [[simplex category]], the latching object $L_n X$ can be thought of as the object of _degenerate_ [[n-simplex|$n$-simplices]] sitting inside the object $X_n$ of all $n$-simplices.  
-\end{example}
 
 \begin{example}
 When $\mathcal{R} = \alpha$ is an [[ordinal]] (regarded as a [[poset]] and thus as a [[category]]), then $L_{n+1} X = X_n$ and $M_n X = 1$; and dually for $\mathcal{R}=\alpha^{op}$.
