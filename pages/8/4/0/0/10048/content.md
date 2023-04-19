@@ -59,6 +59,10 @@ By the [[adjoint functor theorem]] for total categories, a total category is tot
 
 ## Related pages
 
+* [[distributive category]]
+
+* [[completely distributive category]]
+
 * Totally distributive categories are "almost" an example of [[continuous algebras]] for a [[lax-idempotent 2-monad]].
 
 ## References
