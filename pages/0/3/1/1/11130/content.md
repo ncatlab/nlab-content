@@ -28,7 +28,7 @@ $$Ideal(S) = \{f \in k[x_1, \ldots, x_n]: \forall_x x \in S \Rightarrow f(x) = 0
 
 which defines the Galois connection. 
 
-The fixed points of $Var \circ Ideal: P(k^n) \to P(k^n)$ are, by definition, the closed sets of the [[Zariski topology]] on the [[affine space]] $k^n$ ("affine space" here in the sense of algebraic geometry). These are the closed subvarieties of $k^n$. 
+The fixed points of $Var \circ Ideal: P(k^n) \to P(k^n)$ are, by definition, the closed sets of the [[Zariski topology]] on the [[affine space]] $k^n$ ("affine space" here in the sense of algebraic geometry). These are the closed (not necessarily reduced) [[subvarieties]] of $k^n$. 
 
 On the other side, the fixed points of $Ideal \circ Var$ is what the classical Nullstellensatz is about: 
 
