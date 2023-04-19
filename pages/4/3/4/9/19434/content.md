@@ -435,11 +435,11 @@ The pertaining technical ingredients on KZ doctrines are due to the following tw
 
 * {#BF99} [[Marta Bunge]], [[Jonathon Funk]], _On a bicomma object condition for KZ-doctrines_ , JPAA **143** (1999) pp.69-105.
 
-* {#MW12} Francisco Marmolejo, [[Richard J. Wood]], _Kan extensions and lax idempotent pseudomonads_ , TAC **26** no.1 (2012) pp.1-19. ([abstract](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html))
+* {#MW12} [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
 
 The relation to pro-arrow equipments, the presheaf construction and Isbell duality is discused in
 
-* {#DL19} Ivan Di Liberti, [[Fosco Loregian]], _On the Unicity of Formal Category Theories_ , arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
+* {#DL19} [[Ivan Di Liberti]], [[Fosco Loregian]], _On the Unicity of Formal Category Theories_ , arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
 
 [[!redirects yoneda structure]]
 [[!redirects Yoneda Structure]]
