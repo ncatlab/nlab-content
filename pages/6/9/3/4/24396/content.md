@@ -37,8 +37,11 @@ If one drops the requirement that $\mathcal{C}$ be [[pointed (infinity,1)-catego
 
 For the case over more general [[base (infinity,1)-toposes|base $(\infty,1)$-toposes]]: [[sheaves of spectra]] over an [[(infinity,1)-site|$(\infty,1)$-site]] $\mathcal{S}$ may be [[parameterized spectrum|parameterized]] over objects of the [[infinity-stack (infinity,1)-topos|$\infty$-stack $(\infinity,1)$-topos]] $Sh_\infty(\mathcal{S})$ and the collection of these parameterized sheaves of spectra forms the [[tangent (infinity,1)-topos|tangent $(\infty,1)$-topos]] $T Sh_\infty(\mathcal{S})$. Analogous statements hold more generally for [[n-excisive (infinity,1)-functors|$n$-excisive $(\infty,1)$-functors]] into any [[(infinity,1)-topos|$(\infty,1)$-topos]] (see [there](https://ncatlab.org/nlab/show/n-excisive+functor#nExcisiveFunctorsFormInfinityTopos)).
 
+## Related concepts
 
+* [[doubly monoidal (∞,1)-topos]]
 
+* [[doubly closed monoidal category]]
 
 ## References
 
