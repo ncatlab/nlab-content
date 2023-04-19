@@ -275,15 +275,21 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
      (\lim_{\to} \dashv const)
      \colon
      C
-     \stackrel{\overset{\lim_\to}{\longleftarrow}}{\underset{const}{\longrightarrow}}
-     [\Delta^{op}, C]_{proj, S}
+     \underoverset
+       {\underset{\;const\;}{\longrightarrow}}
+       {\overset{\underset{\to}{\lim}}{\longleftarrow}}
+       {\;\;\bot\;\;}
+       [\Delta^{op}, C]_{proj, S}
    $$
 
    constitute a [[Quillen equivalence]], the identity functors constitute a Quillen equivalence
 
    $$
      [\Delta^{op}, C]_{Reedy, S}
-     \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
+     \underoverset
+       {\underset{id}{\longrightarrow}}
+       {\overset{id}{\longleftarrow}}
+       {\bot}
      [\Delta^{op}, C]_{proj, S}
      \,,
    $$
@@ -292,9 +298,12 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
 
    $$
      (const \dashv ev_0) 
-      : 
+     \;\colon\; 
      [\Delta^{op}, C]_{Reedy,S}
-      \stackrel{\overset{const}{\longleftarrow}}{\underset{ev_0}{\longrightarrow}}
+     \underoverset
+       {\underset{\;ev_0\;}{\longrightarrow}}
+       {\overset{const}{\longleftarrow}}
+       {\bot}
      C
      \,;
    $$
