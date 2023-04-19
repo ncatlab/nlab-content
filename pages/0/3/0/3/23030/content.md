@@ -1386,7 +1386,7 @@ In discussion of [[homotopy theory]] (together with [[crossed modules]]):
 
 * {#Whitehead49} [[J. H. C. Whitehead]], Section 3 of: _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496 ([euclid:1183513797](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full))
 
-A brief yextbook account in this generality
+A brief textbook account in this generality
 
 * {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, pages 16 & 24 in: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
 
