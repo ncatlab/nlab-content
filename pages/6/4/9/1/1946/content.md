@@ -10,10 +10,11 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
+ {#Idea}
 
 A _Reedy model structure_ is a [[global model structure on functors]]:
 
@@ -25,15 +26,35 @@ If all three exist, then, in a precise sense, the Reedy model structure sits _in
 
 
 ## Definition
+ {#Definition}
 
 ### Plain version
+ {#PlainVersion}
 
-+-- {: .num_theorem #model}
-###### Theorem
-If $R$ is a [[Reedy category]] and $C$ is a [[model category]], then there is a canonical induced [[model category|model structure]] on the [[functor category]] $C^R$ in which the weak equivalences are the objectwise weak equivalences in $C$.
-=--
+For
 
-The basic idea is as follows.  Given a [[diagram]] $X \colon R\to C$ and an [[object]] $r\in R$, define its **latching object** to be
+* $\mathcal{R}$ a [[Reedy category]] 
+
+* $\mathcal{C}$ a [[model category]].
+
+consider 
+
+* the [[functor category]] $\mathcal{C}^\mathcal{R}$ 
+
+  whose [[objects]] $X \colon \mathcal{R} \to \mathcal{C}$ we refer to as ($\mathcal{R}$-shaped) *[[diagrams]]* in $\mathcal{C}$.
+
+\begin{definition}\label{LatchingAndMatchingObjects}
+**(latching and matching objects)**
+\linebreak
+Given 
+
+1. a [[diagram]] $X \colon \mathcal{R} \to \mathcal{C}$,
+
+2. an [[object]] $ r \in \mathcal{R}$
+
+then:
+
+The **latching object** of $X$ at stage $r$ is the [[colimit]] 
 
 $$ 
   L_r X 
@@ -44,7 +65,11 @@ $$
   X_s
 $$
 
-where the [[colimit]] is over the [[full subcategory]] of $R_+/r$ containing all objects except the [[identity morphism|identity]] $1_r$.  Dually, define its **matching object** to be
+over the [[full subcategory]] of the [[slice category]] $R_+/r$ containing all objects except the [[identity morphism|identity]] $id_r$.  
+
+[[formal duality|Dually]]:
+
+The **matching object** of $X$ at stage $r$ is the [[limit]]
 
 $$ 
   M_r X 
@@ -56,22 +81,82 @@ $$
   \,,
 $$
 
-where the [[limit]] is over the [[full subcategory]] of $r/R_-$ containing all objects except $1_r$.  There are evident canonical, and natural, morphisms
-$$L_r X\to X_r \to M_r X.$$
+over the [[full subcategory]] of the [[coslice category]] $r/R_-$ containing all objects except $id_r$.  
 
+By the [[universal property]] of ([[colimit|co]])[[limits]] there are evident [[natural transformations]]:
+
+$$
+  L_r X
+  \longrightarrow 
+  X_r 
+  \longrightarrow 
+  M_r X
+  \,.
+$$
+\end{definition}
+(e.g. [Hovey (1999), Def. 5.2.2](#Hovey99); [Hirschhorn (2002), Def. 15.2.5](#Hirschhorn02))
+
+\begin{remark}
 Notice that $L_0 X = 0$ is the [[initial object]] and $M_0 X$ is the [[terminal object]], since there are no objects of degree $\lt 0$.
+\end{remark}
 
-In the case $R=\Delta^{op}$, the latching object $L_n X$ can be thought of as the object of _degenerate_ $n$-simplices sitting inside the object $X_n$ of all $n$-simplices.  When $R=\alpha$ is an ordinal, then $L_{n+1} X = X_n$ and $M_n X = 1$, and dually for $R=\alpha^{op}$.
+\begin{example}
+In the case $\mathcal{R} = \Delta^{op}$ is the [[opposite category|opposite]] [[simplex category]], the latching object $L_n X$ can be thought of as the object of _degenerate_ [[n-simplex|$n$-simplices]] sitting inside the object $X_n$ of all $n$-simplices.  
+\end{example}
 
-We now define a morphism $f:X\to Y$ in $C^R$ to be a cofibration or trivial cofibration if for all $r$, the map
-$$L_r Y \amalg_{L_r X} X_r \to Y_r$$
-is a cofibration or trivial cofibration in $C$, respectively, and to be a fibration or trivial fibration if for all $r$, the map
-$$ X_r \to M_r X \times_{M_r Y} Y_r$$
-is a fibration or trivial fibration in $C$, respectively.  Define $f$ to be a weak equivalence if each $f_r$ is a weak equivalence in $C$.
+\begin{example}
+When $\mathcal{R} = \alpha$ is an [[ordinal]] (regarded as a [[poset]] and thus as a [[category]]), then $L_{n+1} X = X_n$ and $M_n X = 1$; and dually for $\mathcal{R}=\alpha^{op}$.
+\end{example}
 
-One then verifies that this defines a model structure; the details can be found in (for instance) Hovey and Hirschhorn's books.  In particular, to factor a morphism $f:X\to Y$ in either of the two necessary ways, we construct the factorization $f_r = g_r h_r$ inductively on $r$, by factoring the induced morphism
+\begin{definition}\label{ReedyModelStructure}
+A [[morphism]] $f \colon X \to Y$ in the [[functor category]] $\mathcal{C}^{\mathcal{R}}$ (hence a [[natural transformation]] between [[diagrams]]) is called:
+
+* a *Reedy equivalence* if each component morphism $f_r$ is a [[weak equivalence]] in $\mathcal{C}$;
+
+* a *Reedy-cofibration* or *acyclic Reedy-cofibration* if for all $r \in \mathcal{R}$, the map 
+
+  $$
+    L_r Y 
+     \overset
+       {L_r X}
+       {\amalg}
+    X_r 
+      \longrightarrow
+    Y_r
+  $$
+
+  is a [[cofibration]] or [[acyclic cofibration]] in $\mathcal{C}$, respectively;
+
+* a *Reedy-fibration* or *acyclic Reedy-fibration* if for all $r \in \mathcal{R}$, the map
+
+  $$ 
+    X_r 
+     \longrightarrow 
+    M_r X 
+     \underset
+     {M_r Y}
+     {\times} 
+    Y_r
+  $$
+
+  is a [[fibration]] or [[acyclic fibration]] in $\mathcal{C}$, respectively.  
+
+\end{definition}
+(e.g. [Hirschhorn (2002), Def. 15.3.3](#Hirschhorn02))
+
+\begin{proposition}\label{model}
+**(Reedy model structure)**
+\linebreak
+The classes of morphisms in Def. \ref{ReedyModelStructure} consistute a [[model category]]-[[structure]] on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$, called the *Reedy model structure*.
+\end{proposition}
+(e.g. [Hovey (1999), Thm. 5.2.5](#Hovey99); [Hirschhorn (2002), Thm 15.3.4](#Hirschhorn02))
+
+\begin{remark}
+To see the factorization of a morphism $f \colon X\to Y$ in either of the two necessary ways, construct the factorization $f_r = g_r h_r$ inductively on $r$, by factoring the induced morphism
 $$ L_r Z \amalg_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
-in the appropriate way in $C$.
+in the appropriate way in $\mathcal{C}$.
+\end{remark}
+
 
 ### Enriched version
 
@@ -312,9 +397,11 @@ More details on this are currently at _[[generalized Reedy model structure]]_.
 +-- {: .num_example #EveryBisimplicialSetIsReedyCofibrant}
 ###### Example
 
-If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]], then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ ([[bisimplicial sets]]) is cofibrant ([Hirschhorn 02, corollary 15.8.8](#Hirschhorn02)). 
+If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]], then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ (i.e. evert [[bisimplicial sets]]) is Reedy-cofibrant. 
 
 =--
+
+([Hirschhorn (2002), corollary 15.8.8](#Hirschhorn02))
 
 ##### With values in simplicial sets
   {#OverDeltaWithValuesInSimplicialSets}
@@ -547,6 +634,12 @@ The original text is
 A quick review is in section A.2.9 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+
+Textbook accounts:
+
+* {#Hovey99} [[Mark Hovey]], Section 5.2 of: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], Chapter 15 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
 An overview stressing the role of [[weighted colimit|weighted colimits]] is in
 
