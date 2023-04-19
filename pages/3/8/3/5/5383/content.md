@@ -48,7 +48,18 @@ A [[chain complex]] $A_\bullet$ is called
 * [[perfect chain complex]]
 
 
-[[!redirects bounded complex]]
-
-[[!redirects bounded complexes]]
 [[!redirects bounded chain complexes]]
+
+[[!redirects bounded complex]]
+[[!redirects bounded complexes]]
+
+[[!redirects bounded-below chain complex]]
+[[!redirects bounded-below chain complexes]]
+
+[[!redirects bounded-below complex]]
+[[!redirects bounded-below complexes]]
+
+[[!redirects bounded-above complex]]
+[[!redirects bounded-above complexes]]
+
+
