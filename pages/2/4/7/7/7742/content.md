@@ -76,6 +76,10 @@ Hrushovski's correspondence between definable connected groupoids in a theory $T
 
 * Levon Haykazyan, Rahim Moosa, _Functoriality and uniformity in Hrushovski's groupoid-cover correspondence_, Annals of Pure and Applied Logic __169__:8 (2018) 705-- 730 [arXiv/1711.03531](https://arxiv.org/abs/1711.03531) [doi](https://doi.org/10.1016/j.apal.2018.03.005)
 
+On higher categorical analogues of definable groupoids and internal covers:
+
+* [[Moshe Kamensky]], _Higher internal covers_, [arXiv:2210.02699](https://arxiv.org/pdf/2210.02699)
+
 category:
 
 [[!redirects definable groupoids]]
