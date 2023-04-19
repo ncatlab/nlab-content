@@ -22,7 +22,7 @@
 
 ## Idea
 
-A **total category** is a category with a well-behaved [[Yoneda embedding]] endowing the category with very good completeness and cocompleteness properties but still admitting most types of categories occurring "in practice".
+A **total category** is a category with a well-behaved [[Yoneda embedding]] endowing the category with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties but still admitting most types of categories occurring "in practice".
 
 ## Definition
 
@@ -134,14 +134,14 @@ But cototal categories do occur:
 * [[Walter Tholen]], _Note on total categories_, Bulletin of the Australian Mathematical Society [cambridge journals](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=4759056)
  {#Tholen}
 
-* [[Brian Day]], _Further criteria for totality_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 28 no. 1 (1987), p. 77-78, [numdam](http://www.numdam.org/item?id=CTGDC_1987__28_1_77_0)
- {#Day}
+* {#Day} [[Brian Day]], _Further criteria for totality_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 28 no. 1 (1987), p. 77-78, [numdam](http://www.numdam.org/item?id=CTGDC_1987__28_1_77_0)
+ 
 
 * {#Garner13} [[Richard Garner]], _Topological=Total_  ([arXiv:1310.0903](https://arxiv.org/abs/1310.0903))
 
 * {#Street84} [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1984) pp.355-369, (<a href="https://www.ams.org/journals/tran/1984-284-01/S0002-9947-1984-0742429-3/S0002-9947-1984-0742429-3.pdf">AMS</a>)
 
-* {#Wood82} [[Richard J. Wood]], _Some remarks on total categories_, J. Algebra **75**:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
+* {#Wood82} [[Richard J. Wood]], *Some remarks on total categories*, J. Algebra **75** 2 (1982) 538-545 &lbrack;<a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi:10.1016/0021-8693(82)90055-2</a>&rbrack;
 
 [[!redirects total categories]]
 [[!redirects cototal category]]
