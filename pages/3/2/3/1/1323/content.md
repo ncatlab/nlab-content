@@ -152,6 +152,10 @@ In particular, then, the free distributive category, which is the free distribut
 
 * [[objective number theory]]
 
+* [[completely distributive category]]
+
+* [[totally distributive category]]
+
 ## Link
 
 * {#catlistdiscussion}[Freyd, Lack, Lawvere et al: CATLIST discussion on extensive categories 1996](https://www.mta.ca/~cat-dist/catlist/1999/extensive)
