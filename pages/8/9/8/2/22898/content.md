@@ -22,9 +22,11 @@ This page compiles links related to the book collection:
 
   MSRI Book Series
 
-  Cambridge University Press
+  Cambridge University Press (2022)
 
   ISBN: 9781009123297
+
+  &lbrack;[GoogleBooks](https://books.google.de/books/about/Stable_Categories_and_Structured_Ring_Sp.html?id=mN6YzgEACAAJ&redir_esc=y)&rbrack;
 
 on [[stable homotopy theory]] and [[ring spectra]] ([[higher algebra]], [[brave new algebra]]).
 
@@ -49,7 +51,7 @@ On [[ring spectra]]:
 
 * [[Birgit Richter]], _Commutative ring spectra_ ([arXiv:1710.02328](https://arxiv.org/abs/1710.02328), [pdf](https://www.math.uni-hamburg.de/home/richter/rev-commringspectra.pdf))
 
-On [[Bousfield localization of spectra]]:
+On [[Bousfield localization of model categories]] ([[Bousfield localization of spectra]]):
 
 * [[Tyler Lawson]], *An introduction to Bousfield localization* ([arXiv:2002.03888](https://arxiv.org/abs/2002.03888))
 
