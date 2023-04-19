@@ -63,10 +63,17 @@ of period 2.
 
 ## References
 
-* [[Bob Rosebrugh]] and R. J. Wood, *Distributive Adjoint Strings*, Theory and Applications of Categories, Vol. 1, 1995, No. 6, pp 119-145, [TAC](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)
 
-* [[Bob Rosebrugh]] and R. J. Wood, *An adjoint characterization of the category of sets*,  Proc. Amer. Math. Soc. **122** (1994), 409-413, doi:[10.1090/S0002-9939-1994-1216823-2](https://doi.org/10.1090/S0002-9939-1994-1216823-2)
- {#RWSets}
+Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] extends to the [[left adjoint|left]] to an [[adjoint quintuple]] of [[adjoint functors]]:
+
+* {#RWSets} [[Robert Rosebrugh]], [[Richard J. Wood]], *An adjoint characterization of the category of sets*. PAMS **122** 2 (1994) 409-413 &lbrack;[jstor:2161031](https://www.jstor.org/stable/2161031)&rbrack;
+
+
+On [[adjoint quadruples]] with a [[fully faithful functor|fully faithful]] [[right adjoint]]:
+
+* [[Bob Rosebrugh]], [[Richard J. Wood]], *Distributive Adjoint Strings*, Theory and Applications of Categories, **1** 6 (1995) 119-145 &lbrack;[tac:1-06](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)&rbrack;
+
+See also: 
 
 * {#GrothShul17} [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_, [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
 
