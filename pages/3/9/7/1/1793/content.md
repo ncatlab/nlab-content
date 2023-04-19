@@ -808,7 +808,7 @@ The [[category of simplicial objects]] $\big(Ch_\bullet(k Mod)\big)^{\Delta^{op}
 
 =--
 
-This is [Rezk, Schwede & Shipley (2001_, cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
+This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
 Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
 
