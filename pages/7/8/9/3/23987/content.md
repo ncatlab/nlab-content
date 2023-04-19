@@ -517,7 +517,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   
   video: [YT](https://www.youtube.com/watch?v=PzD6IDeLlS4)
 
-  > In their [seminal paper](https://arxiv.org/abs/1604.06527), [Freed and Hopkins](#FreedHopkins21) proved a classification theorem that identifies deformation classes of certain [[invertible field theory|invertible]] [[topological field theories]] with the [[torsion subgroup]] of some [[Whitehead-generalized cohomology theory|generalized cohomology]] of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
+  > In their [seminal paper](https://arxiv.org/abs/1604.06527), [Freed and Hopkins](#FreedHopkins21) proved a classification theorem that identifies [[deformation]] classes of certain [[invertible field theory|invertible]] [[topological field theories]] with the [[torsion subgroup]] of some [[Whitehead-generalized cohomology theory|generalized cohomology]] of a [[Thom spectrum]]. They [[conjecture|conjectured]] that the identification continues to hold for non-topological field theories, if one passes from the torsion subgroup to the full [[Whitehead-generalized cohomology|generalized cohomology group]] of the [[Thom spectrum]]. In this talk, I will discuss a result which provides an affirmative answer to this conjecture. The method of proof uses recent joint work with [[Dmitri Pavlov]] on the [geometric cobordism hypothesis](cobordism+hypothesis#ReferencesGeometricCobordisms).
 
 \linebreak
 
@@ -552,9 +552,9 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2205.11385](https://arxiv.org/abs/2205.11385)
 
-  > [[cobordism category|Categories of $n$-cobordisms]]  (for $n=2$, $3$ and $4$) are among the most studied objects in [[low dimensional topology]]. For $n=2$ we know that $2Cob$ is a [[monoidal category]] [[free construction|freely generated]] by its [[commutative algebra|commutsative]] [[Frobenius algebra]] [[object]]: the [[circle]]. This result also classifies all [[TQFT]] functors on $2Cob$. In this talk I will present similar classification results for special categories of 3- and 4-cobordisms. They were obtained in collaboration with Marco De Renzi and are based on the work of  Bobtcheva and Piergallini.  Frobenius algebra in these cases will be replaced by a braided [[Hopf algebra]].
+  > [[cobordism category|Categories of $n$-cobordisms]]  (for $n=2$, $3$ and $4$) are among the most studied objects in [[low dimensional topology]]. For $n=2$ we know that $2Cob$ is a [[monoidal category]] [[free construction|freely generated]] by its [[commutative algebra|commutsative]] [[Frobenius algebra]] [[object]]: the [[circle]]. This result also classifies all [[TQFT]] functors on $2Cob$. In this talk I will present similar classification results for special categories of 3- and 4-[[cobordisms]]. They were obtained in [collaboration with Marco De Renzi](https://arxiv.org/abs/2205.11385) and are based on the [work of Bobtcheva and Piergallini](https://arxiv.org/abs/1108.2717). [[Frobenius algebra]] in these cases will be replaced by a braided [[Hopf algebra]].
 
-  > I plan to finish by relating our results with the famous problem in [[combinatorial group theory]] — the Andrews–Curtis conjecture.
+  > I plan to finish by relating our results with the famous problem in [[combinatorial group theory]] — the [[Andrews–Curtis conjecture]].
 
 \linebreak
 
@@ -562,13 +562,16 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Weight systems which are quantum states**
 
-  slides: [[Collari-WeightSystems.pdf:file]]
-
   cf. [arXiv:2210.05399](https://ncatlab.org/schreiber/show/Fundamental+weight+systems+are+quantum+states#Collari2023)
 
-  > Roughly speaking, a [[weight system]] is a [[function]] from a space of [[chord diagrams]] to the [[complex numbers]]. Weight systems can be used to recover invariants for the relevant kind of knotted object (eg. [[knots]], [[links]], [[braids]] etc.) from the [[Kontsevich integral]]. The [[schreiber:Differential Cohomotopy implies intersecting brane observables|work of Sati and Schreiber]] highlighted the connection between ([[horizontal chord diagram|horizontal]]) chord diagrams and higher observables in quantum [[brane]] physics. This motivates the question: "which weight systems are quantum states?" [[schreiber:Fundamental weight systems are quantum states|Corfield, Sati and Schreiber showed]] that all $\mathfrak{gl}(n)$ [[weight systems]] associated to the [[fundamental representation|defining representation]] are indeed [[state on a star-algebra|quantum states]]. In this talk I will present an extension of their result to more general weight systems.
+  slides: [[Collari-WeightSystems.pdf:file]]
 
-  > The plan of the talk is the following; first, I will introduce the mathematical problem. Then, I will review the proof given by Corfield, Sati and Schreiber that $\mathfrak{gl}(n)$ weight systems associated to the defining representation are quantum states. Finally, I will show how this result can be extended to weight systems associated to exterior and symmetric powers of the defining representation. 
+  video: [YT](https://www.youtube.com/watch?v=1De0T_8ojvs)
+
+
+  > Roughly speaking, a [[weight system]] is a [[function]] from a space of [[chord diagrams]] to the [[complex numbers]]. Weight systems can be used to recover [[knot invariant|invariants]] for the relevant kind of knotted object (eg. [[knots]], [[links]], [[braids]] etc.) from the [[Kontsevich integral]]. The [[schreiber:Differential Cohomotopy implies intersecting brane observables|work of Sati and Schreiber]] highlighted the connection between ([[horizontal chord diagram|horizontal]]) [[chord diagrams]] and higher [[quantum observable|observables]] in quantum [[brane]] physics. This motivates the question: "which [[weight systems]] are [[state on a star-algebra|quantum states]]?" [[schreiber:Fundamental weight systems are quantum states|Corfield, Sati and Schreiber showed]] that all $\mathfrak{gl}(n)$ [[weight systems]] associated to the [[fundamental representation|defining representation]] are indeed [[state on a star-algebra|quantum states]]. In this talk I will present an extension of their result to more general weight systems.
+
+  > The plan of the talk is the following; first, I will introduce the mathematical problem. Then, I will review the [[schreiber:Fundamental weight systems are quantum states|proof given by Corfield, Sati and Schreiber]] that $\mathfrak{gl}(n)$ weight systems associated to the defining representation are [[state on a star-algebra|quantum states]]. Finally, I will show how this result can be extended to weight systems associated to exterior and symmetric powers of the defining representation. 
 
 \linebreak
 
@@ -1705,7 +1708,6 @@ Researchers:
 \linebreak
 
 \linebreak
-
 
 
 [[!redirects CQTS]]
