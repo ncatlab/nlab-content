@@ -325,6 +325,10 @@ should be.
 
 * [[category object in an (∞,1)-topos]]
 
+* [[tangent (∞,1)-topos]]
+
+* [[doubly monoidal (∞,1)-topos]]
+
 
 [[!include flavors of higher toposes -- list]]
 
