@@ -37,7 +37,7 @@ For a presentation, you give a set of generators $X$, so there will be an epimor
 
 ## Definition
 
-A presentation of a group, $G$, is a [[coequalizer|coequalizer diagram]] $F R \rightrightarrows F X \twoheadrightarrow G$, where $FX$ is the free group on a set of *generators*, and $FR$ one on a set of *relations* (or *relators*, depending on how the relations are specified).
+A presentation of a group, $G$, is a [[coequalizer|coequalizer diagram]] $F R \rightrightarrows F X \twoheadrightarrow G$, where $F X$ is the free group on a set of *generators*, and $F R$ one on a set of *relations* (or *relators*, depending on how the relations are specified).
 
 
 This is not quite the usual `classical' form of the definition, so we will take it apart to show the relationship.
@@ -172,7 +172,7 @@ On (finitely) presented groups as [[fundamental groups]] of ([[finite cell compl
 
 On [[rewriting]] in group presentations:
 
-* [[Nick Gilbert]], Emma Antonia Mcdougall, _Groupoids and the algebra of rewriting in group presentations_, Beitr&auml;ge zur Algebra und Geometrie **62** 3 (2021) 1-17 &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6), [arXiv:1901.04348](https://arxiv.org/abs/1901.04348)&rbrack;
+* [[Nick Gilbert]], Emma Antonia McDougall, _Groupoids and the algebra of rewriting in group presentations_, Beitr&auml;ge zur Algebra und Geometrie **62** 3 (2021) 1-17 &lbrack;[doi:10.1007/s13366-020-00531-6](https://doi.org/10.1007/s13366-020-00531-6), [arXiv:1901.04348](https://arxiv.org/abs/1901.04348)&rbrack;
 
 
 category: group theory
