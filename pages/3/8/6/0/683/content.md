@@ -991,7 +991,7 @@ So given a cotower with such a property, its homotopy colimit is just the ordina
 
 Dually for sequential limits of a tower diagram.
 
-A standard application for this is for instance the construction of the [[classifying space]]  $B U = \underset{\to_n}{\lim} B U(n)$ for reduced [[topological K-theory]]. See there for more.
+A standard application for this is for instance the construction of the [[classifying space]] $B U = \underset{\underset{n}{\longrightarrow}}{\lim} B U(n)$ for reduced [[topological K-theory]]. See at *[[stable unitary group]]* for more.
 
 
 #### $\lim^1$ and Milnor sequences
