@@ -18,8 +18,11 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Every [[topos]] $\mathbf{H}$ is canonically a [[cartesian monoidal category]] $(\mathbf{H}, \times)$, with the [[tensor product]] being the [[cartesian product]]. If in addition to this canonical product $\mathbf{H}$ is equipped with _another_ noncartesian [[monoidal category]] structure $\otimes$, then $(\mathbf{H}, \otimes)$ might be called a _monoidal topos_. 
+Every [[topos]] $\mathbf{H}$ is canonically a [[cartesian closed monoidal category]] $(\mathbf{H}, \times)$, with the [[tensor product]] being the [[cartesian product]] "$\times$". But if, in addition to this canonical product, $\mathbf{H}$ is equipped with _another_ (hence necessarily non-[[cartesian monoidal category|cartesian]]) [[monoidal category|monoidal]] [[tensor product]] [[structure]] "$\otimes$", then $(\mathbf{H}, \otimes)$ might be called a _monoidal topos_. 
+
+If the extra monoidal structure is also [[closed monoidal category|closed]], one also speaks, generally, of a *[[doubly closed monoidal category]]*-[[structure]] (with [[internal logic]] a *[[bunched logic]]*). Hence instead of "monoidal topos" it might make sense to speak of "doubly monoidal topos".
 
 Of course, a topos may carry more than one non-cartesian monoidal category structure, and in some of the interesting examples, the various monoidal structures will be interlinked in some way. A typical example is the phenomenon of [[plethysm]]. 
 
@@ -46,6 +49,7 @@ $$
       \\
       \mathbb{G}
    }
+   \;\;
   \right]
   \otimes_{\mathbb{G}}
   \left[
@@ -56,6 +60,7 @@ $$
       \\
       \mathbb{G}
    }
+   \;\;
   \right]
   \;\;
   \coloneqq
@@ -72,7 +77,7 @@ $$
       \\
       \mathbb{G}
     }
-    \;\;\;\;
+    \;\;\;\;\;
   \right]
   \,.
 $$
@@ -83,7 +88,7 @@ Such monoidal toposes appear as categories of [[local action functionals]] in th
 +-- {: .num_example #ClassifyingToposForTheoryOfObjects}
 ###### Example
 
-The [[classifying topos for the theory of objects]] which is the [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] or equivalently the category of [[finitary monad|finitary]] [[endofunctors]] $End_f(Set)$ is naturally a monoidal topos under [[composition]] of endofunctors. A standard textbook reference is ([Johnstone D3.2](#Johnstone)). The [[enriched category theory]] over this monoidal category is discussed in ([Garner 13](#Garner13)).
+The [[classifying topos for the theory of objects]] -- namely the [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]], or equivalently the category of [[finitary monad|finitary]] [[endofunctors]] $End_f(Set)$ -- is naturally a monoidal topos under [[composition]] of endofunctors. A standard textbook reference is ([Johnstone D3.2](#Johnstone)). The [[enriched category theory]] over this monoidal category is discussed in ([Garner 13](#Garner13)).
 
 =-- 
 
@@ -108,13 +113,23 @@ The category of [[dendroidal sets]] is a topos (the [[presheaf topos]] on the [[
 +-- {: .num_example}
 ###### Example
 
-In ([Dolan 11](#Dolan11)) is indicated a category of "toric [[quasicoherent sheaves]]" which is a topos and hence under tensor product of quansicoherent sheaves a (semi?)-monoidal topos.
+In &lbrack;[Dolan 2011](#Dolan11)&rbrack; is indicated a category of "toric [[quasicoherent sheaves]]" which is a topos and hence under tensor product of quansicoherent sheaves a (semi?)-monoidal topos.
 
 =--
+
+\begin{example}\label{TangentInfinityTopos}
+  Given an [[(\infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$, its [[tangent (infinity,1)-topos|tangent $\infty$-topos]] $T \mathbf{H}$ carries the [[external tensor product|external]] [[smash product of spectra]].
+
+Similarly, given a [[stable (infinity,1)-category|stable $\infty$-category]] $\mathcal{A}$ (or more generally a [[Joyal locus]], see there for more), the [[(infinity,1)-category]] $\int_{\mathcal{X} \in Grpd_\infty} Func(\mathcal{X}, \mathcal{A})$ of [[infinity-Grpd|$Grpd_\infty$]]-[[parameterized stable homotopy theory|parameterized]] $\mathcal{A}$-objects (is an [[(infinity,1)-topos|$\infty$-topos]] and) should carry the corresponding [[external tensor product]].
+\end{example}
+
 
 ## Related pages
 
 * [[Day convolution]]
+
+* [[doubly closed monoidal category]]
+
 * [[bunched logic]]
 
 ## References
@@ -123,17 +138,42 @@ For references on [[Day convolution]] see there.
 
 The monoidal [[classifying topos for the theory of objects]] is discussed for instance in 
 
-* [[Peter Johnstone]], section D3.2 in _[[Sketches of an Elephant]]_
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], section D3.2 in _[[Sketches of an Elephant]]_
+ 
 
-* [[Richard Garner]], _Lawvere theories, finitary monads and Cauchy-completion_ ([arXiv:1307.2963](http://arxiv.org/abs/1307.2963))
- {#Garner13}
+* {#Garner13} [[Richard Garner]], _Lawvere theories, finitary monads and Cauchy-completion_ ([arXiv:1307.2963](http://arxiv.org/abs/1307.2963))
+ 
 
 
 A monoidal classifying topos of "toric quasicoherent sheaves" is indicated in
 
-* [[James Dolan]], _tannakian correspondence for toric varieties (sketch for a doctoral thesis)_, December 2011 ([web](http://notebook360x.blogspot.nl/2011/12/toposes-of-toric-quasicoherent-sheaves.html))
- {#Dolan11}
+* {#Dolan11} [[James Dolan]], _tannakian correspondence for toric varieties (sketch for a doctoral thesis)_, December 2011 ([web](http://notebook360x.blogspot.nl/2011/12/toposes-of-toric-quasicoherent-sheaves.html))
+ 
 
 [[!redirects monoidal toposes]]
+[[!redirects monoidal topoi]]
+
+[[!redirects doubly monoidal topos]]
+[[!redirects doubly monoidal toposes]]
+[[!redirects doubly monoidal topoi]]
+
+[[!redirects monoidal (infinity,1)-topos]]
+[[!redirects monoidal (infinity,1)-toposes]]
+[[!redirects monoidal (infinity,1)-topoi]]
+
+[[!redirects doubly monoidal (infinity,1)-topos]]
+[[!redirects doubly monoidal (infinity,1)-toposes]]
+[[!redirects doubly monoidal (infinity,1)-topoi]]
+
+[[!redirects monoidal (∞,1)-topos]]
+[[!redirects monoidal (∞,1)-toposes]]
+[[!redirects monoidal (∞,1)-topoi]]
+
+[[!redirects doubly monoidal (∞,1)-topos]]
+[[!redirects doubly monoidal (∞,1)-toposes]]
+[[!redirects doubly monoidal (∞,1)-topoi]]
+
+
+
+
 
