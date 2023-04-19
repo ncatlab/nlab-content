@@ -276,12 +276,12 @@ Break: 3:50-4:20 pm
 
 15-18 Mar 2023
 
-**[Geometric/Topological Quantum Field Theories and Cobordisms](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)**
+**Geometric/Topological Quantum Field Theories and Cobordisms** ([live page](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html), [recorded talks](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/conferences/geometric-topological-quantum-field-theories-and-cobordisms-conference.html))
 
 > on [[functorial quantum field theory]], [[knot homology]] and [[cobordism theory]]/[[cobordism categories]]/[[cobordism hypothesis]]
 
 <center>
-<a href="https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html">
+<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/conferences/geometric-topological-quantum-field-theories-and-cobordisms-conference.html">
 <img src="https://ncatlab.org/nlab/files/CQTS-CobordismWorkshop2023.png" width="350">
 </a>
 </center>
