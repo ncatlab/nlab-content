@@ -33,21 +33,33 @@ If all three exist, then, in a precise sense, the Reedy model structure sits _in
 If $R$ is a [[Reedy category]] and $C$ is a [[model category]], then there is a canonical induced [[model category|model structure]] on the [[functor category]] $C^R$ in which the weak equivalences are the objectwise weak equivalences in $C$.
 =--
 
-The basic idea is as follows.  Given a diagram $X:R\to C$ and an object $r\in R$, define its **latching object** to be
+The basic idea is as follows.  Given a [[diagram]] $X \colon R\to C$ and an [[object]] $r\in R$, define its **latching object** to be
 
 $$ 
-  L_r X = \colim_{s \overset{+}{\to} r} X_s
+  L_r X 
+  \;\coloneqq\;
+  \underset{
+    s \underset{+}{\to} r
+  }{colim} 
+  X_s
 $$
 
-where the colimit is over the full subcategory of $R_+/r$ containing all objects except the identity $1_r$.  Dually, define its **matching object** to be
+where the [[colimit]] is over the [[full subcategory]] of $R_+/r$ containing all objects except the [[identity morphism|identity]] $1_r$.  Dually, define its **matching object** to be
 
 $$ 
-  M_r X = \lim_{r \overset{-}{\to} s} X_s
+  M_r X 
+  \;\coloneqq\;
+  \underset{
+    r \underset{-}{\to} s }
+  {\lim}
+  X_s
+  \,,
 $$
 
-where the limit is over the full subcategory of $r/R_-$ containing all objects except $1_r$.  There are evident canonical, and natural, morphisms
+where the [[limit]] is over the [[full subcategory]] of $r/R_-$ containing all objects except $1_r$.  There are evident canonical, and natural, morphisms
 $$L_r X\to X_r \to M_r X.$$
-Note that $L_0 X = 0$ is the initial object and $M_0 X$ is the terminal object, since there are no objects of degree $\lt 0$.
+
+Notice that $L_0 X = 0$ is the [[initial object]] and $M_0 X$ is the [[terminal object]], since there are no objects of degree $\lt 0$.
 
 In the case $R=\Delta^{op}$, the latching object $L_n X$ can be thought of as the object of _degenerate_ $n$-simplices sitting inside the object $X_n$ of all $n$-simplices.  When $R=\alpha$ is an ordinal, then $L_{n+1} X = X_n$ and $M_n X = 1$, and dually for $R=\alpha^{op}$.
 
