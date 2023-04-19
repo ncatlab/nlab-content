@@ -4,7 +4,7 @@
 </a>
 </div>
 
-The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, withIin the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
 [CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[algebraic topology]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ([[persistent cohomotopy|persistent]]) *[[Cohomotopy]]* ([[schreiber:M/F-Theory as Mf-Theory|aka]] *[[framed manifold|framed]] [[cobordism cohomology|Cobordism]]*, [aka](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement) *[[field with one element|absolute $\mathbb{F}_1$]]-[[algebraic K-theory]]*) and [[generalized cohomology|generalized]] [[twisted cohomology|Twisted]] [[equivariant cohomology|Equivariant]] [[differential cohomology|Differential]] ([[schreiber:Twisted Equivariant Differential non-abelian generalized cohomology|TED]]) [[cohomology]], developed [[Hypothesis H|in string theory]]. 
 
@@ -575,8 +575,6 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 \linebreak
 
-
-
 * {#BlumenhagenMar2023} [[Ralph Blumenhagen]] (Max-Planck-Institute for Physics, Munich):
 
   **Nullifying Cobordism in Quantum Gravity**
@@ -585,13 +583,30 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   slides: [[Blumenhagen-at-QFTAndCobordism2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=jLlE_jSH0lk)
+
   > In the [[swampland]] program one tries to delineate [[effective quantum field theory|effective theories]] consistent with [[quantum gravity]] from those which are not by so-called swampland conjecture. As a consequence of the absence of [[global symmetries]] in [[quantum gravity|QG]], [one such conjecture](swampland#SwamplandCobordismConjecture) is saying that the [[cobordism group]] has to vanish. In mathematics very often these groups do not vanish right away. Physics tells us that this can be ameliorated by either [[gauge symmetry|gauging]] or [[symmetry breaking|breaking]] of the corresponding global symmetries.
 
   > First, we show how the gauging fits into some known constraints in [[string theory]], the so-called [[tadpole cancellation]] conditions. Mathematically, this is reflecting a well known connection between certain [[topological K-theory|K-theory]] and [[cobordism groups]]. Second, we report on new results related to the breaking of a global symmetry via [[codimension]] one [[defect QFT|defects]]. In fact, going beyond topology a very similar mechanism arises for (for a long time puzzling) rolling solutions in string theory, giving rise to the notion of a dynamical cobordism conjecture.
 
+\linebreak
 
+* {#SatiMar2023} [[Hisham Sati]] (CQTS, NYU Abu Dhabi):
+
+  **Cobordism in Quantum M-Theory 1: M/F-Theory as Mf-Theory**
+
+  > In the quest for mathematical foundations of M-theory, the "[[schreiber:Hypothesis H|Hypothesis H]]" that [[flux quantization|fluxes are quantized]] in [[Cohomotopy theory]], implies that [[M-brane]] charges on flat [[spacetimes]] locally organize into equivariant [[homotopy groups of spheres]]. This leads generally to a correspondence between phenomena conjectured in [[M-theory]] and fundamental mathematical concepts/results in [[stable homotopy theory|stable homotopy]], [[generalized cohomology theory|generalized cohomology]] and [[Cobordism theory]] $M f$. (Based on [[schreiber:M/F-Theory as Mf-Theory|arxiv.org/abs/2103.01877]]).
 
 \linebreak
+
+* {#SchreiberMar2023} [[Urs Schreiber]]
+
+  **Cobordism in Quantum M-Theory 2: Topological Quantum Gates in HoTT**
+
+  > Recent results on [[defect branes]] in [[string theory|string]]/[[M-theory]] and on their [[AdS/CMT correspondence|holographically dual]] [[anyon|anyonic]] defects in [[condensed matter theory]] allow for the specification of realistic [[topological quantum computation|topological]] [[quantum gates]], operating by anyon defect [[braiding]] in [[topological order|topologically ordered]] [[quantum materials]]. This has a surprisingly slick formulation in [[parametrized homotopy theory|parameterized]] [[point-set topology]], which is so fundamental that it lends itself to [[software verification|certification]] in modern [[homotopy type theory|homotopically typed programming languages]], such as [[cubical Agda]]. (Based on [[schreiber:Anyonic topological order in TED K-theory|arxiv.org/abs/2303.02382]]). 
+
+\linebreak
+
 
 ### Apr 2023
 
