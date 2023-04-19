@@ -1,6 +1,6 @@
 
 
-
+$\amalg$ $\times$
 
 For $\mathbb{K}$ a [[field]], let $R \coloneqq \mathbb{K} \oplus x \mathbb{K}$ be its [[ring of dual numbers]], i.e. with $x^2 = 0$. 
 
