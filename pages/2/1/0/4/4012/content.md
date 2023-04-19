@@ -145,10 +145,10 @@ Special facets of the concept are studied in
 
 Their distributive laws come into focus in
 
-* Francisco Marmolejo, *Distributive laws for pseudomonads*, [TAC](http://tac.mta.ca/tac/volumes/1999/n5/5-05abs.html)
- {#MarmolejoDL}
+* {#MarmolejoDL} [[Francisco Marmolejo]], *Distributive laws for pseudomonads*, Theory and Applications of Categories, **5** 5 (1999) 81-147 &lbrack;[tac](http://tac.mta.ca/tac/volumes/1999/n5/5-05abs.html)&rbrack;
+ 
 
-* {#MW12} Francisco Marmolejo, [[Richard J. Wood]], _Kan extensions and lax idempotent pseudomonads_ , TAC **26** no.1 (2012) pp.1-19. ([abstract](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html))
+* {#MW12} [[Francisco Marmolejo]], [[Richard J. Wood]], _Kan extensions and lax idempotent pseudomonads_ , TAC **26** no.1 (2012) pp.1-19. ([abstract](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html))
 
 * Charles Walker, *Distributive Laws via Admissibility*, [arXiv](https://arxiv.org/abs/1706.09575)
  {#WalkerDL}
