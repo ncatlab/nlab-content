@@ -95,7 +95,7 @@ and
 
 The [[homotopy theory]] of [[dg-categories]] is studied in
 
-* [[Gonçalo Tabuada]], _Homotopy theory of DG categories_, Thesis, Paris, 2007, [pdf](http://people.math.jussieu.fr/~keller/TabuadaThese.pdf).
+* [[Gonçalo Tabuada]], _Théorie homotopique des DG-caté́gories_, Thesis, Paris, 2007, [pdf](https://arxiv.org/pdf/0710.4303.pdf).
 
 * [[Gonçalo Tabuada]], _Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories_,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
 
