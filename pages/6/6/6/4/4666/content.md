@@ -38,6 +38,8 @@ The trivial group is an example of a [[trivial algebra]].
 
 ## Related concepts
 
+* [[Andrews-Curtis conjecture]]
+
 * [[trivial monoid]]
 
 * [[terminal category]]
