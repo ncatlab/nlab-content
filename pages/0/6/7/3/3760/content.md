@@ -11,6 +11,7 @@
 =--
 
 
+
 # Presentations of groups
 * table of contents
 {: toc}
@@ -140,6 +141,8 @@ The theory of group presentations generalises to that of presentations of monoid
 * [[finitely presentable group]]
 
 * [[combinatorial group theory]]
+
+* [[Andrews-Curtis conjecture]]
 
 ## References
 
