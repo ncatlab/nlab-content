@@ -20,3 +20,4 @@ category: people
 [[!redirects Алексей Игоревич Бондал]]
 [[!redirects A. Bondal]]
 [[!redirects Bondal]]
+[[!redirects A.I.Bondal]]
