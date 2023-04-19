@@ -38,7 +38,7 @@ Let $S \in $ [[sSet]] with
 
 The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
 
-$$
+\[
 \array{
   \partial_i 
     \circ 
@@ -64,9 +64,10 @@ $$
   &
   i \gt j
 }
-$$
+\]
 
-$$
+\[
+  \label{MixedSimplicialIdentities}
   {\phantom{AAAAA}}
   \partial_i 
     \circ 
@@ -97,11 +98,15 @@ $$
       i \gt j+1 
     } 
   \right. 
-$$
+\]
 
 =--
 
 (e.g. [Goerss & Jardine 1999/2009, I.1. (1.3)](#GoerssJardine09))
+
+\begin{remark}\label{DegeneracyMapsAreSplitMono}
+  The middle case in (eq:MixedSimplicialIdentities) implies in particular that degeneracy maps are ([[split monomorphisms|split]]) [[monomorphisms]]: One may think of them as including degenerate simplices into all simplices of a given dimension.
+\end{remark}
 
 ## Properties
 
