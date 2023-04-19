@@ -67,7 +67,7 @@ By the [[adjoint functor theorem]] for total categories, a total category is tot
 
 ## References
 
-* R. Rosebrugh and R.J. Wood. *An adjoint characterization of the category of sets*. PAMS, Vol. 122, No. 2, 409&#8211;413, 1994.
+* [[Robert Rosebrugh]], [[Richard J. Wood]], *An adjoint characterization of the category of sets*. PAMS **122** 2 (1994) 409-413 &lbrack;[jstor:2161031](https://www.jstor.org/stable/2161031)&rbrack;
 
 * Rory Lucyshyn-Wright, *Totally distributive toposes*.  [spnet](https://selectedpapers.net/arxiv/1108.4032).
 
