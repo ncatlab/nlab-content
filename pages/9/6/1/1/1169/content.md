@@ -34,30 +34,37 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategorie
 
 ## Examples
 
+### The simplex category
+
+The prototypical examples of Reedy categories are the [[simplex category]] $\Delta$ and its [[opposite category|opposite]] $\Delta^{op}$.  (More generally, for any [[simplicial set]] $X$, its [[category of simplices]] $\Delta/X$ is a Reedy category.)
+
+\begin{definition}\label{ReedyStructureOnSimplexCategory}
+**(Reedy structure on the simplex category)**
+\linebreak
+The Reedy category structure on $\Delta$ is defined by:
+
+* The degree function $d \colon Ob(\Delta) \to \mathbb{N}$ is defined by $[k] \mapsto k$. 
+
+* a map $[k] \to [n]$ is in $\Delta_+$ precisely if it is [[injective]];
+
+* a map $[n] \to [k]$ is in $\Delta_-$ precisely if it is [[surjective]].
+
+And the Reedy category structure on $\Delta^{op}$ is defined by switching $\Delta_+$ and $\Delta_-$.
+\end{definition}
+
+### Further examples
+
 * Any ordinal $\alpha$, considered as a [[poset]] and hence a category, is a Reedy category with $\alpha_+=\alpha$, $\alpha_-$ the [[discrete category]] on $Ob(\alpha)$, and $d$ the identity.
 
 * The [[opposite category|opposite]] of any Reedy category is a Reedy category: use the same degree function, and exchange $R_+$ and $R_-$.
 
 * The integers regarded as a poset is NOT a Reedy category, since it is not well-founded in either direction.
 
-* [[Theta category|Joyal's category]],   $\Theta$, is also a Reedy category.
+* [[Theta category|Joyal's category]] $\Theta$ is also a Reedy category.
 
 * Many very small categories of diagram shapes are Reedy categories, such as $(\cdot\to\cdot\to \dots)$, or $(\cdot\leftarrow \cdot\rightarrow\cdot)$, or $(\cdot\rightrightarrows\cdot)$.  This is of importance for the construction of [[homotopy limits]] and colimits over such diagram shapes.
 
 
-### The simplex category
-
-The prototypical examples of Reedy categories are the [[simplex category]] $\Delta$ and its opposite $\Delta^{op}$.  More generally, for any [[simplicial set]] $X$, its [[category of simplices]] $\Delta/X$ is a Reedy category.
-
-The Reedy category structure on $\Delta$ is defined by:
-
-* The degree function $d: Ob(\Delta) \to \mathbb{N}$ is defined by $[k] \mapsto k$. 
-
-* a map $[k] \to [n]$ is in $\Delta_+$ precisely if it is injective;
-
-* a map $[n] \to [k]$ is in $\Delta_-$ precisely if it is surjective.
-
-And the Reedy category structure on $\Delta^{op}$ is defined by switching $\Delta_+$ and $\Delta_-$.
 
 ## Related notions
 
