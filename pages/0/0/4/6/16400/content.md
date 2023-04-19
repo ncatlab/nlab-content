@@ -27,7 +27,7 @@ This page collects material related to the book
 
 which introduces [[set theory]] and the [[foundations of mathematics]] from a practical and [[categorical logic|category theoretic]] point of view known as _[[structural set theory]]_ ("informal [[ETCS]]").
 
-## related entries
+## Related entries
 
 * [[Paul Taylor]]
 
