@@ -1398,7 +1398,7 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 ## References
 
-The original reference is
+The original article:
 
 * [[A. K. Bousfield]], _The localization of spaces with respect to homology_, Topology 14 (1975), 133–150.  [doi]
 
@@ -1406,15 +1406,15 @@ The original reference is
 
 Bousfield localization appears as definition 3.3.1 in
 
-* {#Hirschhorn} [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 2009,
+* {#Hirschhorn} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
-for left proper [[cellular model category|cellular model categories]].
+for [[left proper model category|left proper]] [[cellular model category|cellular model categories]].
 
-In  proposition A.3.7.3 of
+In  
 
-* [[Jacob Lurie]], [[Higher Topos Theory]],
+* [[Jacob Lurie]], proposition A.3.7.3 of *[[Higher Topos Theory]]*
 
-it is discussed in the context of [[combinatorial model category|combinatorial model categories]] and of [[combinatorial simplicial model category|combinatorial simplicial model categories]] in particular.
+is discussion in the context of [[combinatorial model category|combinatorial model categories]] and of [[combinatorial simplicial model category|combinatorial simplicial model categories]] in particular.
 
 The relation to [[localization of an (infinity,1)-category]] is also in [[Higher Topos Theory|HTT]], for the time being see the discussion at [[models for ∞-stack (∞,1)-toposes]] for more on that.
 
@@ -1422,15 +1422,18 @@ A detailed discussion of Bousfield localization in the general context of [[enri
 
 * {#Barwick} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
 
-* [[Clark Barwick]], _On the Dreaded Right Bousfield Localization_ ([arXiv:0708.3435](http://arxiv.org/abs/0708.3435))
-
-Bousfield localization_ ([pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf))
+* [[Clark Barwick]], _On the Dreaded Right Bousfield Localization_ &lbrack;[arXiv:0708.3435](http://arxiv.org/abs/0708.3435), [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf)&rbrack;
 
 in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
 
 The relation to [[Vopěnka's principle]] is discussed in
 
-* {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society, Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
+* {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society **355** 9 (2003) 3611-3623 &lbrack;[jstor:1194855](http://www.jstor.org/stable/1194855)&rbrack;
+
+Comprehensive review:
+
+* {#Lawson2022} [[Tyler Lawson]], *An introduction to Bousfield localization*, in: *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press (2022) &lbrack;[arXiv:2002.03888](https://arxiv.org/abs/2002.03888)&rbrack;
+
 
 
 
