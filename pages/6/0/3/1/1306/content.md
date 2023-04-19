@@ -245,7 +245,7 @@ This is ([Cisinski, prop. 8.1.31, 8.1.35](#Cisinski)).
 +-- {: .num_defn }
 ###### Definition
 
-For $S$ a [[small category]], a **crossed $S$-group** is a [[presheaf]] $G : S^{op} \to Set$ equipped with
+For $S$ a [[small category]], a **[[crossed group|crossed $S$-group]]** is a [[presheaf]] $G : S^{op} \to Set$ equipped with
 
 1. for each object $s \in S$ a group structure on $G_s$;
 
@@ -263,7 +263,7 @@ such that for all morphisms $\alpha : s \to r$ and $\beta : t \to s$ in $S$ and 
 
 where $g_*$, $h_*$ denotes the group action and $\alpha^* : G_r \to G_s$ the presheaf map. 
 
-The **total category** $S G$ of an crossed $S$-group $G$ is the category with the same objects as $S$, and with morphisms $r \to s$ being pairs $(\alpha, g) \in S(s,r)\times G_r$ and with composition defined by
+The **total category** $S G$ of an [[crossed group|crossed $S$-group]] $G$ is the category with the same objects as $S$, and with morphisms $r \to s$ being pairs $(\alpha, g) \in S(s,r)\times G_r$ and with composition defined by
 
 $$
   (\alpha, g) \circ (\beta, h)
@@ -279,7 +279,7 @@ $$
 +-- {: .num_defn }
 ###### Definition
 
-If $S$ is equipped with a generalized Reedy structure, then an $S$-crossed group $G$ is called **compatible** with that generalized Reedy structure if 
+If $S$ is equipped with a generalized Reedy structure, then an [[crossed group|crossed $S$-group]] $G$ is called **compatible** with that generalized Reedy structure if 
 
 1. the $G$-action respects $S^+$ and $S^-$;
 
@@ -290,14 +290,14 @@ If $S$ is equipped with a generalized Reedy structure, then an $S$-crossed group
 +-- {: .num_example }
 ###### Example
 
-The category $\Omega_{pl}$ of planar finite rooted [[trees]] is a strict [[Reedy category]]. The category $\Omega$ of non-planar finite rooted [[trees]] is the total category of an $\Omega_{pl}$-crossed group which to a planar tree $T$ assigns its group of non-planar automorphisms.
+The category $\Omega_{pl}$ of planar finite rooted [[trees]] is a strict [[Reedy category]]. The category $\Omega$ of non-planar finite rooted [[trees]] is the total category of an $\Omega_{pl}$-[[crossed group]] which to a planar tree $T$ assigns its group of non-planar automorphisms.
 
 =--
 
 +-- {: .num_prop }
 ###### Proposition
 
-Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed group. Then there exists a unique dualizabe generalized Reedy structure on $S G$ for which the embedding $S \hookrightarrow S G$ is a morphism of generalized Reedy categories.
+Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible [[crossed group|crossed $S$-group]]. Then there exists a unique dualizabe generalized Reedy structure on $S G$ for which the embedding $S \hookrightarrow S G$ is a morphism of generalized Reedy categories.
 
 =--
 
