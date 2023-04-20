@@ -312,7 +312,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:1808.09662](https://arxiv.org/abs/1808.09662), [arXiv:2011.11077](https://arxiv.org/abs/2011.11077)
 
-  video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc) 2:[YT](https://www.youtube.com/watch?v=SPBcAAmGT88)
+  video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc), 2:[YT](https://www.youtube.com/watch?v=SPBcAAmGT88)
 
   > In this series of three talks we will explain the foam approach to [[link homology]]. Bigraded link homology theories [[categorification|categorify]] the [[Jones polynomial]] and other [[Reshetikhin-Turaev construction|Reshetikhin-Turaev]] [[link invariants]], such as the [[HOMFLY-PT polynomial]]. Foams, which are [[polyhedron|polyhedral]] 2D [[cell complex|complexes]] embedded in [[Euclidean space|3-space]] allow to construct state spaces for [[planar graphs]] which are then used to define link homology groups. The most explicit and efficient way to define graph state spaces is via evaluation of the closed foams (Robert-Wagner formula).
 
