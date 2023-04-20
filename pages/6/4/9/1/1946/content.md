@@ -414,7 +414,7 @@ If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]],
 
 ([Hirschhorn (2002), corollary 15.8.8](#Hirschhorn02))
 
-The idea is to observe that the latching objects are the [[sub-objects]] of degeenrate cells, so that the comparison morphism is a [[monomorphism]] and hence a [[cofibration]] in the [[classical model structure on simplicial sets]].
+The idea is to observe that the latching objects are the [[sub-objects]] of degeenrate cells, so that the comparison morphism (eq:ComparisonMapsFromLatchingToMatchingObject) is a [[monomorphism]] and hence a [[cofibration]] in the [[classical model structure on simplicial sets]].
 
 Similarly:
 
@@ -518,13 +518,14 @@ By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the p
   \label{LatchingInAbelianCategoryIsDegeneracySubobject}
   Let $\mathcal{A}$ be an [[additive category]] in which all [[retractions]] exhibit [[direct sums]] (such as in an [[abelian category]]).
 
-Then for any [[simplicial object]] $X_\bullet \in s\mathcal{A} \coloneqq \mathcal{A}^{\Delta^{op}}$ and all $n \in \mathbb{N}$, the comparison morphism from the $n$th latching object of $X_\bullet$ is a ([[split monomorphism|split]]) [[monomorphism]]:
+Then for any [[simplicial object]] $X_\bullet \in s\mathcal{A} \coloneqq \mathcal{A}^{\Delta^{op}}$ and all $n \in \mathbb{N}$, the comparison morphism (eq:ComparisonMapsFromLatchingToMatchingObject) from the $n$th latching object (Def. \ref{LatchingAndMatchingObjects}) of $X_\bullet$ is a ([[split monomorphism|split]]) [[monomorphism]]:
 
 $$
   L_n X \xhookrightarrow{\phantom{---}} X_n
   \,.
 $$
 \end{proposition}
+This and the following proof spells out a suggestion by [[Charles Rezk]] in [MO:a/300657](https://mathoverflow.net/a/300657/381).
 \begin{proof}
   Under the given assumption on $\mathcal{A}$ the [[Dold-Kan correspondence]] applies (see [there](Dold-Kan+correspondence#StatementAdditiveACase)) to [[simplicial objects]] in $\mathcal{A}$ and says that, up to [[isomorphism]], $X_\bullet$ is of the form $X_\bullet \simeq \Gamma(V_\bullet)$ for some [[connective chain complex]] $V_\bullet$ (in fact $V_\bullet \simeq N X_\bullet$ is the [[normalized chain complex]] of $X_\bullet$, but we don't even need this), in that each $X_r$ is the [[direct sum]] of one copy of $V_s$ for each [[surjection]] $[r] \twoheadrightarrow [s]$ in [[simplex category|$\Delta$]] (by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)):
 
@@ -552,8 +553,7 @@ $$
 $$
 (On the right we have split off the summand corresponding to the [[identity morphism]], just for emphasis, since this is what matters in a moment).
 
-Moreover (still by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)), under this identification the [[degeneracy maps]] $X_{[r'] \overset{p}{\twoheadrightarrow} [r]}$ of $X_\bullet$ are simply given on these [[direct sum|direct summands]] by precomposition of their labels with $p$.
-
+Moreover (still by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)), under this identification the [[degeneracy maps]] $X_{[r'] \overset{p}{\twoheadrightarrow} [r]}$ of $X_\bullet$ are simply given on these [[direct sum|direct summands]] by precomposition of their labels with $p$:
 $$
   \array{
     X_{r} 
@@ -563,20 +563,20 @@ $$
     X_{r'}
     \\
     \big(
-      [r] \overset{\sigma}{\twoheadrightarrow} [s]
+      [r] \overset{q}{\twoheadrightarrow} [s]
       ,\,
       v \in V_s
     \big)
     &\mapsto&
     \big(
-      [r'] \overset{\sigma \circ p}{\twoheadrightarrow} [s]
+      [r'] \overset{q \circ p}{\twoheadrightarrow} [s]
       ,\,
       v \in V_s
     \big)
   }
 $$
 
-This implies that the colimit defining $L_r X$ consists of [[equivalence classes]] of triples of the form 
+We claim (argument below) that this implies that the colimit defining $L_r X$ consists of [[equivalence classes]] of triples of the form 
 $
 \Big(  
     [r] 
@@ -589,10 +589,7 @@ $
   \Big)
 $
 for non-identity $p$,
-under the [[equivalence relation]] which identifies $(p,q,v)$ with $(p'q',v')$ iff $p \circ q \,=\, p' \circ q'$ and $v = v'$. But this evidently means that the equivalence classes are simply labeled by pairs $\big([r] {\twoheadrightarrow} [s] ,\,  v \in V_s\big)$ where the surjection is non-identity. 
-
-Hence the colimit is
-
+under the [[equivalence relation]] which identifies $(p,q,v)$ with $(p'q',v')$ iff $p \circ q \,=\, p' \circ q'$ and $v = v'$. This will mean that the equivalence classes are simply labeled by pairs $\big([r] {\twoheadrightarrow} [s] ,\,  v \in V_s\big)$ where the surjection is non-identity, hence that the colimit is
 $$
   L_r X
   \;\coloneqq\;
@@ -616,17 +613,81 @@ $$
   }{\bigoplus}
   V_s
 $$
-
-and the comparison map $L_r X \to X_r$ is the canonical inclusion of all the non-identity [[direct summands]]:
-
+and that the comparison map $L_r X \to X_r$ is the canonical inclusion of all the non-identity [[direct summands]]:
 $$
   L_r X 
   \xhookrightarrow{\phantom{--}}
   L_r X \,\oplus\, V_r
   \;\simeq\;
   X_\bullet
-  \,.  
+  \,,  
 $$
+which proves the proposition.
+
+Hence it remains to show the claim about the colimit. For that it is sufficient to observe that whenever we have a [[commuting diagram]] in [[simplex category|$\Delta$]] of the form
+
+\begin{tikzcd}[sep=20pt]
+    & 
+    {[r]}
+    \ar[dl,->>, "{p}"{swap}]
+    \ar[dr,->>, "{p'}"]
+    \\
+    {[s]} 
+    \ar[dr,->>, "{q}"{swap}]
+    &
+    & 
+    {[s']}
+    \ar[dl,->>, "{q'}"]
+    \\
+    &
+    {[t]}
+\end{tikzcd}
+
+we may equivalently factor it as a [[zig-zag]] of diagrams 
+
+\begin{tikzcd}[sep=20pt]
+    & 
+    {[r]}
+    \ar[dl,->>, "{p}"{swap}]
+    \ar[dr,->>, "{p'}"]
+    \ar[d, ->>]
+    \\
+    {[s]} 
+    \ar[dr,->>, "{q}"{swap}]
+    &
+    {[t]}
+    \ar[d, equals]
+    \ar[from=r, ->>]
+    \ar[from=l, ->>]
+    & 
+    {[s']}
+    \ar[dl,->>, "{q'}"]
+    \\
+    &
+    {[t]}
+\end{tikzcd}
+
+Now, the left half of this zig-zag is
+
+\begin{tikzcd}[sep=20pt]
+    & 
+    {[r]}
+    \ar[dl,->>, "{ p  }"{swap}]
+    \ar[dr,->>, "{ q \,\circ\, p }"]
+    \\
+    {[s]} 
+    \ar[dr,->>, "{q}"{swap}]
+    \ar[rr, ->>, "{q}"{description}]
+    &
+    & 
+    {[t]}
+    \ar[dl,->>, "{\mathrm{id}}"]
+    \\
+    &
+    {[t]}
+\end{tikzcd}
+
+and exhibits that, in the colimit, $(p,q,v)$ is identified with $(q\circ p, id, v) \,=\, (q' \circ p', id, v)$; and, analogously, the right half shows that this in turn is identified with $(p',q',v)$.
 \end{proof}
 
 
