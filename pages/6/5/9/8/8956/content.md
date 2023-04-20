@@ -28,7 +28,10 @@ $$
   \,.
 $$
 
-This is _connective_ as in _[[connective spectrum]]_. Hence a connective chain complex is in particular a [[bounded chain complex]], bounded from below.
+Such connective chain complexes are the [[connective objects]] in the [[(infinity,1)-category of chain complexes|$\infty$-category of chain complexes]]. Rearding under the [[stable Dold-Kan correspondence]] as $H R$-[[module spectra]] they are the *[[connective spectra]]*. 
+
+Hence a connective chain complex is in particular a [[bounded chain complex]], bounded from below.
+
 
 ## Examples
 
@@ -41,6 +44,8 @@ This is _connective_ as in _[[connective spectrum]]_. Hence a connective chain c
 The [[Dold-Kan correspondence]] asserts that connective chain complexes of [[abelian groups]] are equivalent to [[abelian group|abelian]] [[simplicial groups]]. 
 
 ## Related concepts
+
+* [[connective object]], [[connective spectrum]]
 
 * [[category of chain complexes]]
 
