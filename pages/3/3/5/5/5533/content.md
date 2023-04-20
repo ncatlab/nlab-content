@@ -1,14 +1,22 @@
 
-See:
+As a noun:
 
-* [[connective object]],
-* [[connective spectrum]],
-* [[connective spectrum object]],
-* [[connective chain complex]],
 * [[logical connective]].
+
+As an adjective:
+
+* [[connective object]]
+
+  * [[connective chain complex]]
+
+  * [[connective spectrum]]
+
+  * [[connective spectrum object]]
+
+
+See also:
+
 * [[connectology]]
 
 
-category: adjective
-
-[[!redirects connective]]
+category: disambiguation
