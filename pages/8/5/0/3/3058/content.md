@@ -23,9 +23,10 @@ With Zisman he introduced a general localization method in homotopy theory (see 
 
 * P. Gabriel, M. Zisman, _Calculus of fractions and homotopy theory_, Springer 1967. Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35.
 
-On [[locally presentable categories]]:
+Introducing the notion of [[locally presentable categories]]:
 
-* [[Peter Gabriel]], [[Friedrich Ulmer]], *Lokal präsentierbare Kategorien*, Lecture Notes in Mathematics 221, Springer 1971 ([doi:10.1007/bfb0059396](http://dx.doi.org/10.1007/bfb0059396), [MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)).
+* [[Pierre Gabriel]], [[Friedrich Ulmer]], *Lokal präsentierbare Kategorien*, Springer LNM **221** (1971) &lbrack;[doi:10.1007/BFb0059396](https://doi.org/10.1007/BFb0059396), [MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)&rbrack;
+
 
 
 In later part of his mathematical career, Gabriel worked on representation theory of finite-dimensional associative algebras and [[quivers]], where he found some of the basic theorems, see _[[Gabriel's theorem]]_.
