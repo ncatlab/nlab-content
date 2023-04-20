@@ -10,6 +10,8 @@ Such examples can be founded axiomatically as kind of extensions of the simplex 
 
 ##Related Lab entries
 
+* [[crossed group]]
+
 * [[cyclic set]]
 
 * [[dihedral homology]]
