@@ -38,6 +38,8 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 In Wikipedia a [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_.  However, [Springer's Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Category_with_involution) requires that a "category with involution" is also compatibly [[enriched category|enriched]] over [[posets]].
 
+In enriched category theory, involutive categories have also been called **symmetric categories**. Sometimes the involution is required to be strict in the sense that the dagger is an *equality* rather than an *isomorphism*: in line with [[horizontal categorification]], one could argue these should be called **commutative categories**, since a one-object category with such an involution is a [[commutative monoid]].
+
 ## Definition
 
 ### Dagger categories
@@ -411,6 +413,10 @@ The importance of $\dagger$-categories in quantum theory is discussed here:
 
 Note that in older literature, the term "$\star$-category"  or "star-category" is sometimes used instead of $\dagger$-category.
 
+The term "symmetric category" is occasionally encountered, analogous to [[symmetric proset]] or [[symmetric bicategory]], e.g. in
+
+* R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
+
 Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modular tensor category|modular tensor categories]], play an important role in topological quantum field theory and the theory of quantum groups:
 
 * [[Jürg Fröhlich]] and Thomas Kerler, _Quantum Groups, Quantum Categories, and Quantum Field Theory_, Springer Lecture Notes in Mathematics 1542, Springer-Verlag, Berlin, 1991. 
@@ -425,3 +431,6 @@ Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modu
 [[!redirects dagger categories]]
 [[!redirects †-category]]
 [[!redirects †-categories]]
+
+[[!redirects symmetric category]]
+[[!redirects symmetric categories]]
