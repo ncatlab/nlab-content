@@ -397,6 +397,19 @@ Given a class of morphisms $\Sigma$ in a locally presentable category, the answe
 
 See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/functor+category#LocalPresentability)_.
 
+\begin{proposition}
+\label{PresheavesWithValuesInLocPresAreLocPres}
+ Given
+
+* $\mathcal{C}$ a [[small category]]
+
+* $\mathcal{A}$ a locally presentable category
+
+then also the [[functor category]] $Func(\mathcal{C}, \mathcal{A})$ is locally presentbale.
+\end{proposition}
+
+As part of discussion of [[combinatorial model categories|combinatorial]] [[model structures on functors]], this appears in [Lurie, Prop. 2.8.2](#Lurie)
+
 ## Related concepts
 
 * [[PrCat]], [[Pr(∞,1)Cat]], [[Ho(CombModCat)]]
@@ -416,15 +429,19 @@ See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/
 
 The definition is due to
 
-* {#GabrielUlmer} [[Pierre Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_, Springer LNM 221, 1971
-
+* {#GabrielUlmer} [[Pierre Gabriel]], [[Friedrich Ulmer]], *Lokal präsentierbare Kategorien*, Springer LNM **221** (1971) &lbrack;[doi:10.1007/BFb0059396](https://doi.org/10.1007/BFb0059396), [MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)&rbrack;
 
 Textbook account:
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
- 
 
-See also
+Review for the case of [[locally finitely presentable categories]]:
+
+* [[Maru Sarazola]], *An introduction to locally finitely presentable categories* (2017) &lbrack;[pdf](https://pi.math.cornell.edu/~maru/documents/locally_finitely_presentable_cats.pdf), [[Sarazola_LocallyPresentableCategories.pdf:file]]&rbrack;
+
+
+See also:
+
 
 * {#CentazzoRosickyVitale} C. Centazzo, [[Jiří Rosický]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
 
@@ -432,7 +449,7 @@ See also
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]: III Categories of Sheaves_ (proposition 3.4.16), page 220. 
 
 
-* [[Jacob Lurie]], A.1.1 of: _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], A.1.1 of: _[[Higher Topos Theory]]_
 
   > (where locally presentable categories are called [[presentable categories]]*)
 
@@ -450,3 +467,6 @@ On the example of Grothendieck abelian categories:
 [[!redirects presentable category]]
 [[!redirects presentable categories]]
 [[!redirects locally representable category]]
+
+
+
