@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -212,6 +213,16 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
 
 ## Properties 
   {#Properties}
+
+### Combinatorial structure
+
+\begin{proposition}
+\label{ReedyStructureCofibrantlyGenerated}
+  If $\mathcal{C}$ is a [[cofibrantly generated model category]] then also the Reedy model structure on $\mathcal{C}^{\mathcal{R}}$ is cofibrantly generated.
+\end{proposition}
+&lbrack;[Hirschhorn (2002), Theorem 15.6.27](#Hirschorn02)&rbrack;
+
+(assuming that [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]])
 
 ### Enriched model structure
  {#EnrichedModelStructure}
