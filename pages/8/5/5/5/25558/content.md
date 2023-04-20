@@ -114,7 +114,9 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 * [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie|Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
  {#Cisinski}
 
-* B. L. Feigin, B. L. Tsygan, _Additive K-theory_, pp.67-203 in LNM 1289 Springer Heidelberg (1986).
+* [[Tobias Dyckerhoff]], [[Mikhail Kapranov]], _Crossed simplicial groups and structured surfaces_, arXiv:1403.5799 (2014). ([abstract](https://arxiv.org/abs/1403.5799))
+
+* B. L. Feigin, B. L. Tsygan, _Additive K-theory_, pp.67-203 in LNM 1289 Springer Heidelberg 1986.
 
 * Zbigniew Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** pp.57-87 (1991).
 
