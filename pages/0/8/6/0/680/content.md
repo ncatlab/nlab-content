@@ -21,7 +21,7 @@
 
 The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial groups]] and [[connective chain complex|connective]] [[chain complexes]] of [[abelian groups]].
 
-Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group object|group structure]], hence an [[∞-groupoid]] with group structure, hence an [[∞-group]], the Dold-Kan correspondence says that connective chain complexes are a model for certain [[abelian ∞-groups]], thus the correspondence interpolates between [[homological algebra]] and general [[simplicial homotopy theory]]. (This is part of the [[cosmic cube]] of [[higher category theory]]). The relevance of this is that chain complexes are typically easier to handle: all the tools of [[homological algebra]] apply. In fact, the [[functor]] that identifies simplicial abelian groups with their corresponding chain complexes -- the [[Moore complex|normalized chains functor]] -- does precisely this: it _normalizes_ an abelian group by discarding irrelevant information and constructing a smaller and less redundant model for it.
+Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group object|group structure]], hence an [[∞-groupoid]] with group structure, hence an [[∞-group]], the Dold-Kan correspondence says that [[connective chain complexes]] are a model for certain [[abelian ∞-groups]], thus the correspondence interpolates between [[homological algebra]] and general [[simplicial homotopy theory]]. (This is part of the [[cosmic cube]] of [[higher category theory]]). The relevance of this is that chain complexes are typically easier to handle: all the tools of [[homological algebra]] apply. In fact, the [[functor]] that identifies simplicial abelian groups with their corresponding chain complexes -- the [[Moore complex|normalized chains functor]] -- does precisely this: it _normalizes_ an abelian group by discarding irrelevant information and constructing a smaller and less redundant model for it.
 
 There are various variants and generalizations of the Dold-Kan correspondence. These are discussed further [below](#Variants).
 
@@ -37,7 +37,7 @@ $$
   Ch^+_\bullet(A) \hookrightarrow Ch_\bullet(A)
 $$
 
-of connective chain complexes is naturally identified with the category of $\mathbb{N}$-graded chain complexes.
+of [[connective chain complexes]] is naturally identified with the category of $\mathbb{N}$-graded chain complexes.
 
 ### Equivalence of categories {#EquivalenceOfCategories}
 
@@ -273,7 +273,7 @@ $$
   \,.
 $$
 
-This manifestly [[presentable (infinity,1)-category|presents]] connective chain complexes as models for certain [[∞-groupoid]]s.
+This manifestly [[presentable (infinity,1)-category|exhibits]] [[connective chain complexes]] as models for certain [[∞-groupoids]].
 
 
 =--
