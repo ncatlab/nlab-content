@@ -552,6 +552,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   cf.: [arXiv:2205.11385](https://arxiv.org/abs/2205.11385)
 
+  video: [YT](https://www.youtube.com/watch?v=7I5526YkI44)
+
   > [[cobordism category|Categories of $n$-cobordisms]]  (for $n=2$, $3$ and $4$) are among the most studied objects in [[low dimensional topology]]. For $n=2$ we know that $2Cob$ is a [[monoidal category]] [[free construction|freely generated]] by its [[commutative algebra|commutsative]] [[Frobenius algebra]] [[object]]: the [[circle]]. This result also classifies all [[TQFT]] functors on $2Cob$. In this talk I will present similar classification results for special categories of 3- and 4-[[cobordisms]]. They were obtained in [collaboration with Marco De Renzi](https://arxiv.org/abs/2205.11385) and are based on the [work of Bobtcheva and Piergallini](https://arxiv.org/abs/1108.2717). [[Frobenius algebra]] in these cases will be replaced by a braided [[Hopf algebra]].
 
   > I plan to finish by relating our results with the famous problem in [[combinatorial group theory]] — the [[Andrews–Curtis conjecture]].
