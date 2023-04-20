@@ -13,7 +13,7 @@ $\,$
 {:toc}
 
 <div style="float:right;margin:0 20px 10px 20px;">
-<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html">
+<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
 <img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
 </a>
 </div>
@@ -21,10 +21,10 @@ $\,$
 ## position
 
 I work in <br>
-the [Mathematics Department](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
+the [Mathematics Division of Science](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
 of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/) <br/>
 in the group of Prof. [[Hisham Sati]] leading the <br/>
-[Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) <br/>
+[Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html) <br/>
 (see at *[[CQTS]]* for latest activity).
 
 * [page at NYU AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/urs-schreiber.html)
@@ -36,12 +36,17 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 ## research 
 
-I am doing research in mathematical fundamental physics (e.g. on *[[Hypothesis H]]* and *[[schreiber:Topological Quantum Programming in TED-K|TQC in TED-K]]*).
+I am researching mathematical and fundamental physics (e.g. on *[[Hypothesis H]]* and *[[schreiber:Quantum Certification via Linear Homotopy Types|Quantum Systems]]*).
 
-For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
+For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References)
 
+## selected talks
 
-Latest activity:
+* **[[schreiber:Topological Quantum Gates from M-Theory|Topological Quantum Gates from M-Theory]]** 
+
+  [talk at](M-Theory+and+Mathematics#Schreiber2023) *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*
+  
+  video: [YT](https://www.youtube.com/watch?v=Ob9tOgWumPI)
 
 <center>
 <a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
@@ -51,14 +56,29 @@ Latest activity:
 
 > $\phantom{------}$ (logo adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
 
+\linebreak
+
+* **[[schreiber:Topological Quantum Programming in TED-K]]**
+
+  [talk at](https://planqc2022.hotcrp.com/paper/33) *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
+
+  video: [YT](https://www.youtube.com/watch?v=hDwXQVcloB8&feature=emb_logo)
+
+* **[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in Homotopy Type Theory]]**
+
+  [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#SchreiberMar2023) *[QFT and Cobordism 2023](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)*
+
+  video: [YT](https://www.youtube.com/watch?v=pu5bpJ263X0)
 
 
 ## publications
 
 
-* on the [arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1) preprint server
+* see [at GoogleScholar](https://scholar.google.com/citations?hl=en&user=bDfHFDcAAAAJ)
 
-* about *[Hypothesis H](https://ncatlab.org/nLab/show/Hypothesis%20H#References)*
+* & [on the arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1) preprint server
+
+* & those about *[Hypothesis H](https://ncatlab.org/nLab/show/Hypothesis%20H#References)*
 
 * monographs on the [[nLab]]:
 
@@ -99,9 +119,11 @@ For more on the $n$Lab, see:
 
 ## more web logs
 
-For logs of further activity see my page
+For logs of further activity see 
 
-* _[at Twitter](https://twitter.com/SchreiberUrs)_
+* [my page at Twitter](https://twitter.com/SchreiberUrs)
+
+* [my channel on YouTupe](https://www.youtube.com/@UrsSchreiber)
 
 while [[nLab|$n$Lab]]-edits are announced
 
