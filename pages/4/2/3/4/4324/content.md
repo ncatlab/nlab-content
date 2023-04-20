@@ -18,7 +18,7 @@
 
 ### General 
 
-A **connective spectrum** is a [[spectrum]] $S$ whose [[homotopy group of a spectrum|homotopy groups]] in all [[negative number|negative]] degrees are [[trivial groups|trivial]]: $\pi_{\bullet \lt 0}(S) \,=\, 0$.
+A **connective spectrum** is a [[connective object]] in the [[stable (infinity,1)-category of spectra|stable $\infty$-category of spectra]],  hence a [[spectrum]] $S$ whose [[homotopy group of a spectrum|homotopy groups]] in all [[negative number|negative]] degrees are [[trivial groups|trivial]]: $\pi_{\bullet \lt 0}(S) \,=\, 0$.
 
 These are equivalently:
 
@@ -96,7 +96,7 @@ By the [above](#InclusionIntoAllSpectra), connective spectra form a [[coreflecti
 
 ## Related concepts
 
-* [[connective cover]]
+* [[connective object]], [[connective cover]]
 
 * [[t-structure]]
 
