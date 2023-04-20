@@ -307,7 +307,7 @@ from the normalized chain complex, def. \ref{NormalizedChainComplexOnGeneralGrou
 +-- {: .num_cor #SplittingOffDegenerateCells}
 ###### Corollary
 
-For $A$ a [[simplicial abelian group]], there is a splitting
+For $A$ a [[simplicial abelian group]], there is a [[split exact sequence|splitting]]
 
 $$
   C_\bullet(A) \simeq N_\bullet(A) \oplus D_\bullet(A)
