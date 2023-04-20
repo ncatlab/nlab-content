@@ -53,8 +53,8 @@ This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), review
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proposition}
+\label{QuillenEquivalenceWithSimplicialSets}
 
 The 
 
@@ -77,7 +77,7 @@ between the model structure on $sGrpd_{DK}$ from Prop. \ref{TheModelStructure} a
 
 In addition both $\mathcal{G}$ and $\overline W$ preserve all [[weak equivalences]].
 
-=--
+\end{proposition}
 
 This is due to [Dwyer & Kan (1984)](#DwyerKan84), reviewed in [Goerss & Jardine (2009), Theorem 7.8](#GoerssJardine).
 
