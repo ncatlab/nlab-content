@@ -198,6 +198,8 @@ between the [[categories of monoids]] in $C$ and $D$, respectively.
 
 =--
 
+More generally, lax functors send [[enriched categories]] to enriched categories, an operation known as [[change of enriching category]]. See there for more details.
+
 Similarly: 
 
 +-- {: .un_prop #OplaxSendsComonoidsToComonoids}
