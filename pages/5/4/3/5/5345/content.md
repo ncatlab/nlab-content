@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -60,7 +61,7 @@ The
 
 * [[Dwyer-Kan loop groupoid]]-construction $\mathcal{G}$ ([[left adjoint]])
 
-* [[simplicial classifying space]]-construction $\overline{W}$ ([[right adjoint]])
+* [[simplicial classifying space]]-construction  $\overline{W}$ ([[right adjoint]], see [here](simplicial+classifying+space#BarWForSimplicialGroupoid))
 
 constitute a [[Quillen equivalence]]
 
@@ -89,6 +90,19 @@ When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bull
 
 =--
 
+\begin{lemma}\label{AcyclicFibrationsSurjectiveOnObjects}
+Any [[acyclic fibration]] $f \in Fib \cap \mathrm{W}$ of simplicial groupoids is [[surjective]] on objects. 
+\end{lemma}
+One lazy way to see this:
+\begin{proof}
+For $f_\bullet \in Fib \cap \mathrm{W}$ an acyclic Kan fibration, notice that:
+
+1. Since the [[simplicial classifying space]] functor on simplicial groupoids ([here](simplicial+classifying+space#BarWForSimplicialGroupoid)) is a [[right Quillen functor]] by Prop. \ref{QuillenEquivalenceWithSimplicialSets} it follows that $\overline{W}(f) \in Fib \cap \mathrm{W}$ is an [[acyclic Kan fibration]]
+
+1. All acylic fibrations in the [[classical model structure on simplicial sets]] are degreewise surjective (see [this Prop.](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)). 
+
+But since $\overline{W}$ is the identity on the sets of objects/vertices (by its definition [here](simplicial+classifying+space#BarWForSimplicialGroupoid)), the claim follows.
+\end{proof}
 
 ## Related concepts
 
