@@ -281,6 +281,10 @@ The same method of proof shows that for an arbitrary family of [[connected space
 
 * [[n-connected object in an (∞,1)-topos]]
 
+## References
+
+* R. E. Hoffmann. *A categorical concept of connectedness*. Résumés Coll. Amiens. [[Cahiers]]. XIV-2 (1973). ([pdf](http://www.numdam.org/item/CTGDC_1973__14_2_153_0.pdf) page 34)
+
 
 
 [[!redirects connected object]]
