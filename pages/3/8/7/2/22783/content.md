@@ -34,6 +34,8 @@ $$
 $$
 is a [[Quillen equivalence]] (Prop. \ref{QuillenEquivalenceBetweenSimplicialGroupsAndReducedSimplicialSets} below) between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]], modelling [[looping and delooping]] of [[homotopy types]] in [[simplicial homotopy theory]].
 
+The construction generalized from [[simplicial groups]] to [[simplicial groupoids]], where the groupoidal $\overline{W}$ is accompanied by a corresponding [[left adjoint]] known as the *[[Dwyer-Kan loop groupoid]]-construction*, and together they constitute  a [[Quillen equivalence]] between then [[model structure on simplicial groupoids]] and the [[classical model structure on simplicial sets]], exhibiting [[simplicial groupoids]] as an [[equivalence of (infinity,1)-categories|equivalent]] presentation of [[classical homotopy theory]].
+
 ## Definition
 
 ### In components
@@ -329,6 +331,35 @@ $$
 \end{definition}
 
 (This goes back to [MacLane 1954, p. 3](#MacLane54), [Kan 1958, Def. 10.3](#Kan58); the above follows [Goerss & Jardine 1999/2009, p. 269](#GoerssJardine09).)
+
+More generally:
+\begin{definition}\label{BarWForSimplicialGroupoid}
+ For $\mathcal{G}$ a Dwyer-Kan [[simplicial groupoid]], $\overline{W}\mathcal{G}$ is the [[simplicial set]] with
+
+1. set of vertices (0-cells) equal to the set of [[objects]] of $\mathcal{G}$,
+
+1. set of [[n-simplex|$n$-simplices]] for $n \geq 1$ equal to sequences of morphisms of the form
+
+   $$
+     x_n 
+       \overset{f_{n-1}}{\longrightarrow}
+     x_{n-1}
+       \overset{f_{n-2}}{\longrightarrow}
+     x_{n-2}
+       \to \cdots \to
+     x_1 
+       \overset{f_{0}}{\longrightarrow}
+     x_0
+   $$
+
+   where 
+
+   * $x_i \in Obj(\mathcal{G})$ 
+
+   * $f_k \in Mor(\mathcal{G}_k)$
+
+\end{definition}
+&lbrack;[Dwyer & Kan 1984, §3.2](#DwyerKan84)&rbrack;
 
 \begin{remark}\label{Decalage}
 **([[décalage]])** \linebreak
