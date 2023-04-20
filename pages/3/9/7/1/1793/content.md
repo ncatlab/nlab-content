@@ -634,7 +634,7 @@ There are several approaches to defining model structures on the [[category of u
 
 \begin{proposition}
 \label{StandardModelStructureOnUnboundedComplexes}
-For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch_\bullet(R Mod)$ of $R$-[[modules]]  carries the structure of a
+For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch_\bullet(R Mod)$ of $R$-[[modules]]  admits the [[structure]] of a
 
 * [[proper model category|proper]]
 
@@ -788,7 +788,7 @@ $$
   }
 $$
 
-It follows that the lift does not exist, hence that we found an object $\mathcal{A}$ in the model structure from Prop. \ref{StandardModelStructureOnUnboundedComplexes} which is not cofibrant.
+It follows that the lift does not exist, hence that we have found an object $\mathcal{A}$ in the model structure from Prop. \ref{StandardModelStructureOnUnboundedComplexes} which is not cofibrant.
 \end{remark}
 
 On the other hand:
@@ -801,15 +801,13 @@ On the other hand:
 ([Hovey (1999), Lem. 2.3.6](#Hovey99))
 
 
-
-+-- {: .num_prop }
-###### Proposition
-
-The [[category of simplicial objects]] $\big(Ch_\bullet(k Mod)\big)^{\Delta^{op}}$ in the [[category of unbounded chain complexes]] carries the structure of a [[simplicial model category]] whose
+\begin{proposition}
+\label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
+The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose
 
 * weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
 
-=--
+\end{proposition}
 
 This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
