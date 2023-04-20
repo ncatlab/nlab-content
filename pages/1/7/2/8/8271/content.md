@@ -240,6 +240,8 @@ The [[stable (infinity,1)-category of spectra]], $Spectra$, carries a canonical 
 
 * [[Bridgeland stability]]
 
+* [[n-connective object]]
+
 * [[connective cover]]
 
 * [[theorem of the heart]]
