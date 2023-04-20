@@ -52,7 +52,7 @@ A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is called **$n$-connected*
 
 =--
 
-This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "$(n+1)$-connective".  Another possible term is "$n$-simply connected"; see [[n-connected space]] for discussion.
+This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "[[n-connective object|$(n+1)$-connective]]".  Another possible term is "$n$-simply connected"; see [[n-connected space]] for discussion.
 
 One adopts the following convenient terminology.
 
@@ -259,6 +259,8 @@ See also [[(eso+full, faithful) factorization system]].
 
 * [[n-truncated object in an (infinity,1)-category]]
 
+* [[n-connective object]]
+
 * [[Eilenberg subcomplex]]
 
 * [[connective spectrum]], [[connective cover]]
@@ -281,24 +283,24 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects (-2)-connected]]
 [[!redirects (-1)-connected]]
 [[!redirects 0-connected]]
-[[!redirects 0-connective]]
 [[!redirects 1-connected]]
-[[!redirects 1-connective]]
+
 [[!redirects 2-connected]]
-[[!redirects 2-connective]]
 [[!redirects 3-connected]]
-[[!redirects 3-connective]]
 [[!redirects 4-connected]]
 [[!redirects 5-connected]]
 [[!redirects ∞-connected]]
-[[!redirects ∞-connective]]
+
+
 [[!redirects n-connected]]
-[[!redirects n-connective]]
+
+
+
 
 [[!redirects n-connected object]]
-[[!redirects n-connective object]]
+
+
 [[!redirects n-connected objects]]
-[[!redirects n-connective objects]]
 [[!redirects n-simply connected object]]
 [[!redirects n-simply connected objects]]
 
@@ -353,13 +355,13 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects connected object in an infinity-topos]]
 [[!redirects connected object of an infinity-topos]]
 [[!redirects n-connected object of an infinity-topos]]
+[[!redirects n-connected object of an infinity1-topos]]
 
 
 [[!redirects connected object in an (infinity,1)-category]]
 [[!redirects connected object in an (∞,1)-category]]
 [[!redirects connected object in an (infinity,1)-topos]]
 [[!redirects connected object in an (∞,1)-topos]]
-[[!redirects connective object]]
 
 [[!redirects 0-connected morphism]]
 [[!redirects 0-connected morphisms]]
