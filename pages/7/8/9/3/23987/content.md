@@ -609,7 +609,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   video: [YT](https://www.youtube.com/watch?v=pu5bpJ263X0)
 
-  > Recent results on [[defect branes]] in [[string theory|string]]/[[M-theory]] and on their [[AdS/CMT correspondence|holographically dual]] [[anyon|anyonic]] defects in [[condensed matter theory]] allow for the specification of realistic [[topological quantum computation|topological]] [[quantum gates]], operating by anyon defect [[braiding]] in [[topological order|topologically ordered]] [[quantum materials]]. This has a surprisingly slick formulation in [[parametrized homotopy theory|parameterized]] [[point-set topology]], which is so fundamental that it lends itself to [[software verification|certification]] in modern [[homotopy type theory|homotopically typed programming languages]], such as [[cubical Agda]]. (Based on [[schreiber:Anyonic topological order in TED K-theory|arxiv.org/abs/2303.02382]]). 
+  > [[schreiber:Anyonic defect branes in TED-K-theory|Recent results]] on [[defect branes]] in [[string theory|string]]/[[M-theory]] and on their [[AdS/CMT correspondence|holographically dual]] [[anyon|anyonic]] defects in [[condensed matter theory]] allow for the specification of realistic [[topological quantum computation|topological]] [[quantum gates]], operating by anyon defect [[braiding]] in [[topological order|topologically ordered]] [[quantum materials]]. This has a surprisingly slick formulation in [[parametrized homotopy theory|parameterized]] [[point-set topology]], which is so fundamental that it lends itself to [[software verification|certification]] in modern [[homotopy type theory|homotopically typed programming languages]], such as [[cubical Agda]]. (Based on [[schreiber:Anyonic topological order in TED K-theory|arxiv.org/abs/2303.02382]]). 
 
 \linebreak
 
@@ -1716,7 +1716,6 @@ Researchers:
 * [[Vivek Kumar Singh]]
 
 * [[Sachin Valera]]
-
 
 
 
