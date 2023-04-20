@@ -334,6 +334,10 @@ In summary:
   The factorization follows by standard constructions such as the [[factorization lemma]] or the existence of the [[classical model structure on simplicial sets]]. With this the claim follows by Lemma \ref{KanFibrationWhichIsEpiOnComponentsIsEpi}.
 \end{proof}
 
+\begin{remark}\label{SurjectivityOfAcyclicKanFibrations}
+The assumption in Prop. \ref{EveryPiZeroEpiIsResolvedByASurjectiveKanFibration} is met in particular for [[acyclic Kan fibrations]]. In this special case the above factorization is trivial in that acyclic Kan fibrations are already degreewise surjective themselves (see the discussion [there](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)).
+\end{remark}
+
 \linebreak
 
 ### Acyclic Kan fibrations and weak homotopy equivalences
