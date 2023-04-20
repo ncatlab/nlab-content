@@ -214,3 +214,5 @@ But since everything else commutes, the two ways of going around this diagram co
 
 [[!redirects colimits of presheaves are computed objectwise]]
 
+[[!redirects limits of functors are computed objectwise]]
+
