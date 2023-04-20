@@ -227,3 +227,10 @@ Discussion of left exactness (or [[flat functor]]) in the context of [[(∞,1)-c
 [[!redirects rex functors]]
 [[!redirects rex]]
 
+[[!redirects finitely continuous]]
+[[!redirects finitely continuous functor]]
+[[!redirects finitely continuous functors]]
+[[!redirects finitely cocontinuous]]
+[[!redirects finitely cocontinuous functor]]
+[[!redirects finitely cocontinuous functors]]
+
