@@ -1,4 +1,5 @@
 
+* [GoogleScholar page](https://scholar.google.co.cr/citations?user=mFszLq4AAAAJ&hl=en)
 
 ## Selected writings:
 
@@ -20,7 +21,13 @@ On [[renormalization]] of the [[Higgs field]]'s diphoton decay using [[causal pe
 
 * [[Pawel Duch]], [[Michael Duetsch]], [[Jose Gracia-Bondia]], _Diphoton decay of the higgs from the Epstein--Glaser viewpoint_ ([arXiv:2011.12675](https://arxiv.org/abs/2011.12675))
 
-## Related $n$Lab entries
+
+On [[perturbative quantum gravity]] via [[string-localized quantum fields]]:
+
+* Christian Gaß, [[José M. Gracia-Bondía]], Karl-Henning Rehren, *Quantum general covariance* &lbrack;[arXiv:2304.09843](https://arxiv.org/abs/2304.09843)&rbrack;
+
+
+## Related entries
 
 * [[Moyal deformation quantization]]
 
@@ -38,3 +45,8 @@ category: people
 
 [[!redirects José Gracia-Bondia]]
 [[!redirects José Gracia-Bondía]]
+
+[[!redirects José M. Gracia-Bondia]]
+[[!redirects José M. Gracia-Bondía]]
+
+
