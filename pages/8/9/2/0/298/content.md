@@ -109,9 +109,11 @@ The [[Moonshine]] module over the [[Griess algebra]] admits the structure of a v
 
 * has trivial degree-1 subspaces.
 
-A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties.
+A conjecture due to
 
-See at _[[monster vertex algebra]]_.
+* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998.
+
+says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties. See at _[[monster vertex algebra]]_.
 
 ## Variants 
 
@@ -139,15 +141,30 @@ See at _[[monster vertex algebra]]_.
 
 ### General
 
-* [[Victor Kac]], _Vertex algebras for beginners_, Amer. Math. Soc.  ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0924.17023&format=complete))
+* [[Victor Kac]], *Vertex algebras for beginners*, Amer. Math. Soc., Univ. Lecture Series **10** (1998)  &lbrack;[ams:ulect-10-r](https://bookstore.ams.org/ulect-10-r), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0924.17023&format=complete)&rbrack;
 
-* [[Edward Frenkel]], [[David Ben-Zvi]]: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
-xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
+* [[Edward Frenkel]], [[David Ben-Zvi]]: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS (2001) xii+348 pp. &lbrack;[review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete)&rbrack;
 
 * {#FrenkenHuangLepowsky} [[Igor Frenkel]], [[Yi-Zhi Huang]], [[James Lepowsky]], _On Axiomatic approaches to Vertex Operator Algebras and Modules_, Memoirs of the AMS Vol 104, No 494 (1993)
+
+See also:
+
+* [what-is-the-motivation-for-a-vertex-algebra](http://mathoverflow.net/questions/53988/what-is-the-motivation-for-a-vertex-algebra) - a MathOverflow discussion on the motivation 
+
+* [The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas)
  
 
-* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998.
+* [[Keith Hubbard]], _The duality between vertex operator algebras and coalgebras, modules and comodules_, &lbrack;[pdf](http://www.faculty.sfasu.edu/hubbardke/duality.pdf)&rbrack;
+
+
+Relation to [[sporadic groups]]:
+
+* [[John Duncan]], _Vertex operator algebras and sporadic groups_, [pdf](http://arxiv.org/PS_cache/arxiv/pdf/0811/0811.1306v1.pdf); _Moonshine for Rudvalis's sporadic group I_, [pdf](http://arxiv.org/PS_cache/math/pdf/0609/0609449v2.pdf)
+
+Vertex operator algebras over [[non-archimedean fields]]:
+
+* [[Victor Kac]], _Non-Archimedean vertex algebras_ &lbrack;[arXiv:2304.09651](https://arxiv.org/abs/2304.09651)&rbrack;
+
 
 Classification of strongly rational holomorphic vertex operator algebras of [[central charge]] $\leq 24$ (of relevance in [[heterotic string theory]] and [[monstrous moonshine]]):
 
@@ -172,10 +189,16 @@ The original article with the interpretation of vertex operator algebras as holo
 
 A standard textbook summarizing these results is
 
-* {#HuangCFT} [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser 1997, [gbooks](http://books.google.hr/books?isbn=0817638296)
+* {#HuangCFT} [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser (1997) [gbooks](http://books.google.hr/books?isbn=0817638296)
  
+As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here. 
 
-As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here. Other operadic approaches are known, e.g. an earlier one in 
+See also:
+
+* [[Yi-Zhi Huang]], _Meromorphic open-string vertex algebras_, J. Math. Phys. __54__, 051702 (2013) &lbrack;[doi:10.1063/1.4806686](http://dx.doi.org/10.1063/1.4806686)&rbrack;    
+
+
+Other operadic approaches are known, e.g. an earlier one in:
 
 * Bojko Bakalov, Alessandro D'Andrea, [[Victor Kac]], _Theory of finite pseudoalgebras_, Adv. Math. __162__ (2001), no. 1, 1--140, [MR2003c:17020](http://www.ams.org/mathscinet-getitem?mr=2003c:17020) 
 
@@ -244,13 +267,8 @@ Relation of the corresponding [[ribbon categories]]:
 * {#Gui18} Bin Gui, _Categorical extensions of conformal nets_ ([arXiv:1812.04470](https://arxiv.org/abs/1812.04470))
 
 
-### Category of vertex operator algebras
 
-* [[Keith Hubbard]], _The duality between vertex operator algebras and coalgebras, modules and comodules_, [pdf](http://www.faculty.sfasu.edu/hubbardke/duality.pdf)
 
-### Relation to sporadic groups
-
-* [[John Duncan]], _Vertex operator algebras and sporadic groups_, [pdf](http://arxiv.org/PS_cache/arxiv/pdf/0811/0811.1306v1.pdf); _Moonshine for Rudvalis's sporadic group I_, [pdf](http://arxiv.org/PS_cache/math/pdf/0609/0609449v2.pdf)
 
 ### Deformations
 
@@ -267,15 +285,8 @@ A class of "free" vertex algebras are also quantized using [[Batalin-Vilkovisky 
 
 * [[Si Li]], _Vertex algebras and quantum master equation_([arxiv/1612.01292](https://arxiv.org/abs/1612.01292))
 
-### Over non-Archimedean fields
 
-* [[Victor Kac]], _Non-Archimedean vertex algebras_, [arXiv:2304.09651](https://arxiv.org/abs/2304.09651)
 
-### Further references
-
-* [what-is-the-motivation-for-a-vertex-algebra](http://mathoverflow.net/questions/53988/what-is-the-motivation-for-a-vertex-algebra) - a MathOverflow discussion on the motivation 
-* [The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas)
-* Yi-Zhi Huang, _Meromorphic open-string vertex algebras_, J. Math. Phys. __54__, 051702 (2013) [doi](http://dx.doi.org/10.1063/1.4806686)    
 
 [[!redirects vertex algebra]]
 [[!redirects vertex algebras]]
