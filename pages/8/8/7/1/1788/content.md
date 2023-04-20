@@ -1,4 +1,71 @@
 
+Hence it remains to see the claim about the colimit. For that it is sufficient to observe that whenever have a [[commuting diagram]] in [[simplex category|$\Delta$]] of the form
+
+\begin{tikzcd}[sep=20pt]
+    & 
+    {[r]}
+    \ar[dl,->>, "{p}"{swap}]
+    \ar[dr,->>, "{p'}"]
+    \\
+    {[s]} 
+    \ar[dr,->>, "{q}"{swap}]
+    &
+    & 
+    {[s']}
+    \ar[dl,->>, "{q'}"]
+    \\
+    &
+    {[t]}
+\end{tikzcd}
+
+we may equivalently factor it as a [[zig-zag]] of diagrams 
+
+\begin{tikzcd}[sep=20pt]
+    & 
+    {[r]}
+    \ar[dl,->>, "{p}"{swap}]
+    \ar[dr,->>, "{p'}"]
+    \ar[d, ->>]
+    \\
+    {[s]} 
+    \ar[dr,->>, "{q}"{swap}]
+    &
+    {[t]}
+    \ar[d, equals]
+    \ar[from=r, ->>]
+    \ar[from=l, ->>]
+    & 
+    {[s']}
+    \ar[dl,->>, "{q'}"]
+    \\
+    &
+    {[t]}
+\end{tikzcd}
+
+Now the right half of this commuting diagram
+
+\begin{tikzcd}[sep=20pt]
+    & 
+    {[r]}
+    \ar[dl,->>, "{ p  }"{swap}]
+    \ar[dr,->>, "{ q' \,\circ\, p' }"]
+    \\
+    {[s]} 
+    \ar[dr,->>, "{q}"{swap}]
+    \ar[rr, ->>, "{q}"]
+    &
+    & 
+    {[t]}
+    \ar[dl,->>, "{\mathrm{id}}"]
+    \\
+    &
+    {[t]}
+\end{tikzcd}
+
+
+This [[zig-zag]] of diagrams means that in the colimit the left pair of maps will be identified with the right pair of maps.
+
+
 \begin{proposition}
   Let $\mathcal{A}$ be an [[additive category]] in which all [[retractions]] exhibit [[direct sums]] (such as in an [[abelian category]]).
 
