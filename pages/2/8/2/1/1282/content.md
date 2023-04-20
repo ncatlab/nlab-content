@@ -445,12 +445,14 @@ W
 
 
 ## Limits and colimits in functor categories
+ {#InFunctorCategories}
 
+The main point is that *[[limits of functors are computed objectwise]]*. See there for more
 
-### Colimit of a representable functor
+## Colimit of a representable functor
  {#ColimitOfARepresentablefunctor}
 
-The [[colimit]] over a [[representable functor]] (with values in [[Set]]) is the [[point]], i.e. the [[terminal object]] in [[Set]].
+The [[colimit]] of a [[representable functor]] (with values in [[Set]]) is the [[point]], i.e. the [[terminal object]] in [[Set]].
 
 One can readily see this from a [[universal element]]-style argument, by direct inspection of [[cocones]]. 
 
