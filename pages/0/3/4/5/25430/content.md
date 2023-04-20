@@ -44,6 +44,9 @@ See also:
 
 * Wikipedia, *[Handle decomposition](https://en.wikipedia.org/wiki/Handle_decomposition)*
 
+* [[Anna Beliakova]], Marco De Renzi, *Refined Bobtcheva-Messia Invariants of 4-Dimensional 2-Handlebodies* &lbrack;[arXiv:2205.11385](https://arxiv.org/abs/2205.11385)&rbrack;
+
+
 [[!redirects handlebodies]]
 
 [[!redirects handle body]]
