@@ -27,8 +27,7 @@ The historically original example is the [[Bousfield localization of spectra]]. 
 
 ## Definition
 
-\begin{definition}
-
+\begin{definition}\label{DefinitionOfLeftBousfieldLocalizations}
 A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations,
 
 $$
