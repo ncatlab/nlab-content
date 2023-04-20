@@ -71,6 +71,10 @@ See also
 
 * [[Boris Chorny]], David White, _Homotopy theory of homotopy presheaves_. [arXiv:1805.05378](https://arxiv.org/abs/1805.05378).
 
+On when [[finitely continuous]] [[presheaves]] are small:
+
+* [[Jiří Adámek]], V. Koubek, and V. Trnková. *How large are left exact functors?*. Theory and Applications of Categories 8.13 (2001): 377-390. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n13/n13.pdf))
+
 [[!redirects small presheaves]]
 [[!redirects small functor]]
 [[!redirects small functors]]
