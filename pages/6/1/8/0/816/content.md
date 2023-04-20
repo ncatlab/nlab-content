@@ -270,6 +270,8 @@ is discussed there in definition 14.7.8 on p. 269.
 
 Weighted limits were introduced in
 
+* [[Francis Borceux]]. *Une notion de $V$-limite*. Colloque sur l'algèbre des catégories. Amiens-1973. Résumés des conférences. ([numdam](http://www.numdam.org/item/CTGDC_1973__14_2_153_0/) page 10)
+
 * [[Francis Borceux]] and [[Gregory Maxwell Kelly]]. *A notion of limit for enriched categories*. Bulletin of the Australian Mathematical Society 12.1 (1975): 49-72.
 
 A standard reference is
