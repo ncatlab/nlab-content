@@ -39,13 +39,13 @@ For every [[object]] $s \in S$, every [[functor]] $X : S \to \mathcal{C}$ and ev
 
 * write
 
-  $$Latch_s(X) := {\lim_{\underset{(r \to s) \in S^+(s)}{\to}}} X(r)$$ 
+  $$Latch_s(X) \coloneqq  {\lim_{\underset{(r \to s) \in S^+(s)}{\to}}} X(r)$$ 
 
   for the [[colimit]] of $X$ over $S^+(s)$, called the **latching object** of $X$ at $s$;
 
 * write
 
-  $$Match_s(X) := {\lim_{\underset{(s \to r) \in S^-(s)}{\leftarrow}}} X(r)$$ 
+  $$Match_s(X) \coloneqq {\lim_{\underset{(s \to r) \in S^-(s)}{\leftarrow}}} X(r)$$ 
  
   for the [[limit]] of $X$ over $S^-(s)$, called the **matching object** of $X$ at $s$.
 
@@ -207,12 +207,12 @@ $$
 
 For $n \in \mathbb{N}$, let $X \in [S, \mathcal{C}]$. Write 
 
-* $X_n := j_n^* X = X|_{G_n(S)} \in [G_n(S), \mathcal{C}]$;
+* $X_n \coloneqq j_n^* X = X|_{G_n(S)} \in [G_n(S), \mathcal{C}]$;
 
 * the **$n$th latching object** is 
 
   $$
-    Latch_n(X) := (cod_n)! dom_n^* X \in [G_n(S), \mathcal{C}]
+    Latch_n(X) \coloneqq (cod_n)! dom_n^* X \in [G_n(S), \mathcal{C}]
     \,.
   $$
 
@@ -304,7 +304,7 @@ $$
 and 
 
 $$
-  Match_n X := (dom_n)_* cod_n^* X
+  Match_n X \coloneqq (dom_n)_* cod_n^* X
   \,,
 $$
 
@@ -422,7 +422,7 @@ With this the statement follows from the fact that restriction along cofinal fun
 $$
   \begin{aligned}
     sk_{n-1}(X)_n(s)
-    & :=
+    & \coloneqq
     (j_n^* (t_{n-1})_! t_{n-1}^* X )(s)
     \\
     & \simeq 
@@ -898,9 +898,9 @@ $$
 
 Given a Reedy category $S$, examples of $\phi$ satisfying this condition include
 
-1. $\phi := dom_n \circ i_n : S^+(n) \to S$;
+1. $\phi \coloneqq dom_n \circ i_n : S^+(n) \to S$;
 
-1. $\phi := : S_{\leq n} \hookrightarrow S$.
+1. $\phi \colon S_{\leq n} \hookrightarrow S$.
 
 =--
 
@@ -1011,7 +1011,7 @@ $$
 with $g$ a fibration in $[Obj(S)_n, \mathcal{C}]_{proj/inh}$ (hence over every object of degree $n$) has a lift. Since by lemma \ref{DiagramOfRestrictions} we have
 
 $$
-  i^*_n Latch_n := i_n^* cod_! dom_n^* \simeq cod_! i_n^* dom_n^*
+  i^*_n Latch_n \coloneqq i_n^* cod_! dom_n^* \simeq cod_! i_n^* dom_n^*
 $$
 
 such a filler is equivalently a filler in 
