@@ -26,7 +26,6 @@ Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group
 There are various variants and generalizations of the Dold-Kan correspondence. These are discussed further [below](#Variants).
 
 
-
 ## Statement (abelian case)
 
 Let $A$ be an [[abelian category]].
@@ -43,7 +42,7 @@ of [[connective chain complexes]] is naturally identified with the category of $
 
 \begin{theorem}
 **(Dold--Puppe)**
-For $A$ an [[abelian category]] 
+For $A$ an [[abelian category]]
 there is an [[equivalence of categories]]
 
 $$
@@ -51,7 +50,7 @@ $$
       \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) \;\colon\; \Gamma
 $$
 
-between 
+between
 
 * the [[category of simplicial objects]] in $A$;
 
@@ -71,23 +70,23 @@ For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors
 
 $$
   \mathbb{Z}[-]
-  \;\colon\; 
+  \;\colon\;
   \Delta \longrightarrow Ch_+(Ab)
 $$
 
 that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the [[free simplicial abelian group]] $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
 
 $$
-    \Gamma(V) 
-    \;\colon\; 
-    [k]  
-    \mapsto 
+    \Gamma(V)
+    \;\colon\;
+    [k]
+    \mapsto
     Hom_{Ch_\bullet^+(Ab)}
     \Big(
       N
       \big(
         \mathbb{Z}(\Delta[k])
-      \big), 
+      \big),
       \,
       V
     \Big)
@@ -100,48 +99,67 @@ This is due to ([Kan 58](#Kan58)).
 
 More explicitly:
 
-+-- {: .num_prop #ExplicitUnitAndCounit}
-###### Proposition
+\begin{proposition}\label{ExplicitFormOfGamma}
 
-* For $V \in Ch_\bullet^+$ the [[simplicial abelian group]] $\Gamma(V)$ is in degree $n$ given by
+* For $V \in Ch_\bullet^+$ the [[simplicial abelian group]] $\Gamma(V)$ is in degree $n  \in \mathbb{N}$ given by
 
   $$
-    \Gamma(V)_n = \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+    \Gamma(V)_n 
+    \;=\; 
+    \bigoplus_{[n] \twoheadrightarrow [k]} V_k
   $$
 
   and for $\theta : [m] \to [n]$ a morphism in $\Delta$ the corresponding map
-  $\Gamma(V)_n \to \Gamma(V)_m$ 
+  $\Gamma(V)_n \to \Gamma(V)_m$
 
   $$
-    \theta^* : \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
-     \to 
-     \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+    \theta^* : \bigoplus_{[n] \twoheadrightarrow [k]} V_k
+     \to
+     \bigoplus_{[m] \twoheadrightarrow [r]} V_r
   $$
-  
-  is given on the summand indexed by some $\sigma : [n] \to [k]$ by the composite
-  
+
+  is given on the [[direct sum|direct summand]] indexed by some $\sigma \colon [n] \to [k]$ by the composite
+
   $$
-    V_k  \stackrel{d^*}{\to} V_s \hookrightarrow \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+    V_k  
+      \overset{d^*}{\to} 
+    V_s 
+      \hookrightarrow 
+    \bigoplus_{[m] \twoheadrightarrow [r]} 
+      V_r
+    \,,
   $$
 
   where
 
   $$
-    [m] \stackrel{t}{\to} [s] \stackrel{d}{\to} [k]
+    [m]
+     \overset{t}{\twoheadrightarrow}
+    [s]
+      \overset{d}{\hookrightarrow}
+    [k]
   $$
 
-  is the [[weak factorization system|epi-mono factorization]] of the composite $[m] \stackrel{\theta}{\to} [n] \stackrel{\sigma}{\to} [k]$.
+  is the [[epi-mono factorization]] of the [[composition|composite]] $[m] \stackrel{\theta}{\to} [n] \stackrel{\sigma}{\to} [k]$.
+
+\end{proposition}
+
+In these terms (Prop. \ref{ExplicitFormOfGamma}) we have:
+
++-- {: .num_prop #ExplicitUnitAndCounit}
+###### Proposition
+
 
 * The [[natural isomorphism]] $\Gamma N \to Id$ is given on $A \in sAb^{\Delta^{op}}$ by the map
 
   $$
-    \bigoplus_{[n] \underset{surj}{\to} [k]}
+    \bigoplus_{[n] \twoheadrightarrow [k]}
      (N A)_k
     \to
     A_n
   $$
 
-  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite 
+  which on the [[direct sum|direct summand]] indexed by $\sigma \colon [n] \to [k]$ is the composite
 
   $$
     N A_k \hookrightarrow A_k \stackrel{\sigma^*}{\to} A_n
@@ -157,10 +175,10 @@ More explicitly:
   with the inverse
 
   $$
-    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)  
+    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)
   $$
 
-  of 
+  of
 
   $$
     N \Gamma(V) \hookrightarrow C(\Gamma(V)) \to C(\Gamma(V))/D(\Gamma(V))
@@ -170,14 +188,14 @@ More explicitly:
 
 =--
 
-This is spelled out in  ([Goerss-Jardine, prop. 2.2 in section III.2](#Goerssjardine)).
+This is spelled out in  [Goerss & Jardine, prop. 2.2 in section III.2](#GoerssJardine99)
 
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$ 
+With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$
 
 =--
 
@@ -194,7 +212,7 @@ It follows that with the inverse structure maps, we also have an [[adjunction]] 
 
 ### Quillen equivalence of model categories {#ModelCatVersion}
 
-Both $Ch_\bullet^+(A)$ and $A^{\Delta^{op}}$ are [[categories with weak equivalences]] in an standard way: 
+Both $Ch_\bullet^+(A)$ and $A^{\Delta^{op}}$ are [[categories with weak equivalences]] in an standard way:
 
 * the weak equivalences of simplicial abelian groups are the [[weak homotopy equivalences]] of the underlying [[Kan complexes]], hence morphisms that induce [[isomorphisms]] on all [[simplicial homotopy groups]];
 
@@ -203,7 +221,7 @@ Both $Ch_\bullet^+(A)$ and $A^{\Delta^{op}}$ are [[categories with weak equivale
 +-- {: .num_prop }
 ###### Proposition
 
-These functors $N$ and $\Gamma$ both respect all weak equivalences 
+These functors $N$ and $\Gamma$ both respect all weak equivalences
 with respect to the [[classical model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy groups]] and [[homology group]]s.
 
 =--
@@ -218,12 +236,12 @@ The structures of categories with weak equivalences have standard refinements to
 +-- {: .num_prop #QuillenEquivalenceBetweensAbAndCh}
 ###### Proposition
 
-Both 
+Both
 
 $$
-  (N \dashv \Gamma) 
-  \;\colon\; 
-  Ch_\bullet^+ 
+  (N \dashv \Gamma)
+  \;\colon\;
+  Ch_\bullet^+
     \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
   sAb
 $$
@@ -231,9 +249,9 @@ $$
 as well as
 
 $$
-  (\Gamma \dashv N) 
-  \;\colon\; 
-  sAb 
+  (\Gamma \dashv N)
+  \;\colon\;
+  sAb
     \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}}
   Ch_\bullet^+
 $$
@@ -279,6 +297,12 @@ This manifestly [[presentable (infinity,1)-category|exhibits]] [[connective chai
 =--
 
 
+## Statement (additive case)
+ {#StatementAdditiveACase}
+
+The Dold-Kan correspondence generalizes from  [[Ab]] to any [[abelian category]] ([Lurie, §1.2.3](#LurieHA)) and fruther to [[additive categories]] for which all [[retractions]] come from [[direct sums]], as is the case for [[triangulated categories]] ([Lurie, §1.2.4](#LurieHA)).
+
+
 ## Statement (general nonabelian case) {#StatementGeneral}
 
 
@@ -303,18 +327,18 @@ Write [[Ab]] for the category of [[abelian group]]s. (Could be any [[additive ca
 
 \end{theorem}
 
-A proof with references to the rich literature can be found for instance in 
+A proof with references to the rich literature can be found for instance in
 
-* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_ 
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
 
 see the section  [Cubical Dold-Kan theorem](http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#CubicalDoldKan).
 
-This version of the Dold-Kan theorem reproduces the simplicial Dold-Kan theorem after application of the [[omega-nerve]], i.e. the simplicial Dold-Kan correspondence factors through the globular one via the $\omega$-nerve. 
+This version of the Dold-Kan theorem reproduces the simplicial Dold-Kan theorem after application of the [[omega-nerve]], i.e. the simplicial Dold-Kan correspondence factors through the globular one via the $\omega$-nerve.
 
 
 ### Presentation of strict groupal $\infty$-groupoids
 
-It was mentioned above that the standard simplicial Dold-Kan correspondence $Ch_\bullet(Ab) \stackrel{\leftarrow}{\to} sAb$ may be understood as identifying strictly abelian  [[strict ∞-groupoid]]s among all [[∞-groupoid]]s. This statement is also surveyed and put into a larger context at [[cosmic cube of higher category theory]]. 
+It was mentioned above that the standard simplicial Dold-Kan correspondence $Ch_\bullet(Ab) \stackrel{\leftarrow}{\to} sAb$ may be understood as identifying strictly abelian  [[strict ∞-groupoid]]s among all [[∞-groupoid]]s. This statement is also surveyed and put into a larger context at [[cosmic cube of higher category theory]].
 
 We now give a formal version of this statement, following an observation by [[Richard Garner]]. A different but closely analogous sequence of arguments to the same extent is also in the book
 
@@ -329,7 +353,7 @@ Write
 
 $$
   (L \dashv R) : Ch_\bullet(Ab)^+ \stackrel{\leftarrow}{\to}
-  Str \infty Cat(Ab) 
+  Str \infty Cat(Ab)
   \stackrel{\leftarrow}{\to}
   Str \infty Cat(Set)
 $$
@@ -369,12 +393,12 @@ Use that $\mathcal{O}(n)$ is the [[free construction|free]] strict $\infty$-cate
 Observe that $L$ sends a strict $\omega$-category $X$ to the chain complex obtained from the abelian reflexive globular set $X \times \mathb{Z}$. In particular the value on the $n$-[[globe]] is the chain complex
 
 $$
-  \mathbb{Z} \to \mathbb{Z}\oplus\mathbb{Z} \to 
+  \mathbb{Z} \to \mathbb{Z}\oplus\mathbb{Z} \to
    \mathbb{Z}\oplus\mathbb{Z} \to \cdots \to
    \mathbb{Z}\oplus\mathbb{Z}
 $$
 
-with $(n+1)$ terms and differential given by $x \mapsto (x, -x)$ in each dimension. 
+with $(n+1)$ terms and differential given by $x \mapsto (x, -x)$ in each dimension.
 
 Moreover, the value of $L$ on the boundary of the $n$-globe is the chain complex obtained from this by removing the uppermost copy of $\mathbb{Z}$.
 
@@ -389,7 +413,7 @@ Given a [[computad]] $C$, the associated abelian chain complex $L C$ has for $(L
 The simplicial Dold-Kan map
 
 $$
-  Hom(C_\bullet \Delta[n], -) : Ch_\bullet + \to sSet 
+  Hom(C_\bullet \Delta[n], -) : Ch_\bullet + \to sSet
 $$
 
 factors as the identification of chain complexes with strictly abelian strict $\infty$-groupoids, followed by the functor that forgets the abelian structure and then followed by the [[omega-nerve]] operation that embeds strict $\infty$-groupoids into all $\infty$-groupoids.
@@ -423,7 +447,7 @@ $$
 
 Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by [[Pilar Carrasco]], who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  [[Dominique Bourn]] has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
 
-Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of [[Carrasco]] and [[Cegarra]], but here they fall out from the theory.  On the down side there is apparently no 
+Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of [[Carrasco]] and [[Cegarra]], but here they fall out from the theory.  On the down side there is apparently no
 full analysis as yet of the actual form of this monad.
 
 
@@ -492,7 +516,7 @@ Dold--Kan correspondence.
 
 * The statement of the Dold--Kan correspondence generalizes to [[sheaf|sheaves]] with values in the respective categories and this way from [[∞Grpd]] to more general $(\infty,1)$-[[(infinity,1)-topos|topoi]]:
 
-  For $X$ be a [[site]], let $Sh(X, sAb)$ be the category of  _simplicial abelian sheaves_ -- i.e. [[simplicial presheaf|simplicial sheaves]] which take values in simplicial abelian groups -- and let $Sh(X, Ch_+(Ab))$ be the category of [[sheaf|sheaves]] on $S$ with values in non-negatively graded [[chain complexes]] of abelian groups. The normalized chain complex extends objectwise to a functor 
+  For $X$ be a [[site]], let $Sh(X, sAb)$ be the category of  _simplicial abelian sheaves_ -- i.e. [[simplicial presheaf|simplicial sheaves]] which take values in simplicial abelian groups -- and let $Sh(X, Ch_+(Ab))$ be the category of [[sheaf|sheaves]] on $S$ with values in non-negatively graded [[chain complexes]] of abelian groups. The normalized chain complex extends objectwise to a functor
   $$
    Sh(X,sAb) \stackrel{\simeq}{\to} Sh(X, Ch_+(Ab))
   $$
@@ -500,7 +524,7 @@ Dold--Kan correspondence.
 and the weak equivalences in $Sh(X, Ch_+(Ab))$ are the [[quasi-isomorphisms]]. The normalized chain complex functor preserves these weak equivalences.
 This sheaf version of the Dold--Kan correspondence  allows to understand [[abelian sheaf cohomology]] as a special case of [[nonabelian cohomology]].
 
-  See page 9,10 of 
+  See page 9,10 of
 
   * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
@@ -512,13 +536,13 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
   $$
     Fun(N(\mathbb{Z}_{\geq 0}), C)
     \simeq
-    Fun(N(\Delta)^{op}, C)  
+    Fun(N(\Delta)^{op}, C)
     \,.
   $$
 
-  This is [[infinity-Dold-Kan correspondence]] is [theorem 12.8, p. 50](http://www.math.harvard.edu/~lurie/topoibook/DAGI.pdf) of 
+  This is [[infinity-Dold-Kan correspondence]] is [theorem 12.8, p. 50](http://www.math.harvard.edu/~lurie/topoibook/DAGI.pdf) of
 
-  * [[Jacob Lurie]], [[Stable ∞-Categories]] 
+  * [[Jacob Lurie]], [[Stable ∞-Categories]]
 
 
 * There is a version of the Dold--Kan correspondence with [[simplicial sets]] generalized to [[dendroidal sets]]. This is described in
@@ -531,7 +555,7 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
 * There is a [[categorification]] of the correspondence, [[categorified Dold-Kan correspondence]] ([Dyckerhoff17](#Dyckerhoff17))
 
 
-## Applications 
+## Applications
   {#Applications}
 
 
@@ -543,7 +567,7 @@ The Dold-Kan correspondence gives a convenient construction of [[Eilenberg-MacLa
 +-- {: .num_prop #ExplicitUnitAndCounit}
 ###### Proposition
 
-For $A$ an [[abelian group]] write $A[-n]$ for the [[chain complex]] concentrated on $A$ in degree $n$. 
+For $A$ an [[abelian group]] write $A[-n]$ for the [[chain complex]] concentrated on $A$ in degree $n$.
 
 The simplicial abelian group $\Gamma (A[-n])$ is an [[Eilenberg-MacLane object]] $K(A,n)$.
 
@@ -569,8 +593,8 @@ natural in $G \in sAbGrpd$.
 
 =--
 
-This appears for instance as 
-([GoerssJardine, remark III.5.6](#GoerssJardine)) or around ([Jardine, theorem 4.57](#Jardine)).
+This appears for instance as
+([Goerss & Jardine, remark III.5.6](#GoerssJardine99)) or around ([Jardine, theorem 4.57](#Jardine)).
 
 ### Abelian sheaf cohomology in nonabelian cohomology
 
@@ -615,68 +639,72 @@ generalizes the result to arbitrary [[abelian category|abelian categories]].
 The general expression of the correspondence in terms of [[nerve and realization]] is due to
 
 * {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, **87** 2 (March 1958) 330-346 ([jstor:1993103](http://www.jstor.org/stable/1993103)).
-  
+
   > This remarkable article introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called *[[Kan extension]]*.
 
 The Dold-Kan correspondence as a [[Quillen equivalence]] between the [[model structure on simplicial abelian groups]] and the projective [[model structure on chain complexes]] is due to
 
 * {#Quillen67} [[Daniel Quillen]], Section II.4 item 5 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
-A textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
+A textbook reference for the ordinary Dold-Kan correspondence:
 
-* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
- 
+* {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]], Section III.2 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack;
 
-Similar material is in section 4.6 of 
+Similar material is in section 4.6 of
 
 * {#Jardine} [[Rick Jardine]], _Generalized etale cohomology theories_ Modern Birkh&#228;user Classics, (1991)
- 
 
-Interpretation via model categories:
+
+Interpretation via [[model categories]]:
 
 * {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_, Algebr. Geom. Topol. **3** (2003) 287-334 &lbrack;[arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376)&rbrack;
 
 * {#Jardine03} [[J. F. Jardine]], Lemma 1.5 in: _Presheaves of chain complexes_, K-theory 30.4 (2003): 365-420 ([pdf](https://pdfs.semanticscholar.org/360c/fd4eb76da956e0c8dd897377f6d6f342e44e.pdf), [[JardinePresheavesOfChainComplexes.pdf:file]])
 
+Further review: 
 
-Discussion in the generality of [[idempotent complete category|idempotent complete]] [[additive categories]] is in 
+* [[Jacob Lurie]], *The Dold-Kan correspondence*, Section 2.5.6 in *[[Kerodon]]* &lbrack;[tag 00QQ](https://kerodon.net/tag/00QQ)&rbrack;
 
-* [[Jacob Lurie]], section 1.2.3 of _[[Higher Algebra]]_
- 
+Discussion in the generality of [[abelian categories]] (and further generalization, in [section 1.2.4](#LurieHA) to [[additive categories]] in which [[retractions]] come from [[direct sums]]):
+
+* {#LurieHA} [[Jacob Lurie]], section 1.2.3 of: _[[Higher Algebra]]_
+
+
+
 The relation between [[strict ∞-groupoids]] and [[crossed complexes]] is in
 
 * [[Ronnie Brown|R. Brown]] and P.J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 371--386  ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_4_371_0.pdf))
 
 
-P. 59 of 
+P. 59 of
 
 * R. Brown, _Groupoids and crossed objects in algebraic topology_, Homology, Homotopy and Applications, 1 (1999) 1-78.
 
-gives seven equivalent categories with the equivalences all expressing  nonabelian versions of the Dold--Kan correspondence. One of these is given in 
+gives seven equivalent categories with the equivalences all expressing  nonabelian versions of the Dold--Kan correspondence. One of these is given in
 
-* Ashley, N., _Simplicial T-complexes and crossed complexes: a  nonabelian version of a theorem of Dold and Kan_. University of Wales PhD Thesis, (1978);  Dissertationes Math. (Rozprawy Mat.) 265 (1988) 1--61. 
+* Ashley, N., _Simplicial T-complexes and crossed complexes: a  nonabelian version of a theorem of Dold and Kan_. University of Wales PhD Thesis, (1978);  Dissertationes Math. (Rozprawy Mat.) 265 (1988) 1--61.
 
-The relation of these with the abelian version is given in 
+The relation of these with the abelian version is given in
 
-* Brown, R. and Higgins, P. J., _Cubical abelian groups with connections are equivalent to   chain complexes_. Homology Homotopy Appl. 5 (1) (2003) 49--52. 
+* Brown, R. and Higgins, P. J., _Cubical abelian groups with connections are equivalent to   chain complexes_. Homology Homotopy Appl. 5 (1) (2003) 49--52.
 
 
-The paper 
+The paper
 
 * [[Ellis, G.J.]] and [[Steiner, R.]] _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
 
-should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey theorem]]. 
+should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey theorem]].
 
-See also 
+See also
 
-* Brown, R. _Modelling and computing homotopy types: I_, Indagationes Math: Special Issue in honor of L.E.J. Brouwer, (2017) 
+* Brown, R. _Modelling and computing homotopy types: I_, Indagationes Math: Special Issue in honor of L.E.J. Brouwer, (2017)
  ([pdf](http://groupoids.org.uk/pdffiles/brouwer-honor.pdf))
 
 
 The discussion of Dold--Kan in the general context of [[semi-abelian category|semi-abelian categories]] is in
 
-* [[Dominique Bourn]], _Moore normalisation and Dold--Kan theorem for semi-Abelian categories_, in 
-Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 
+* [[Dominique Bourn]], _Moore normalisation and Dold--Kan theorem for semi-Abelian categories_, in
+Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math.,
 105--124, Amer. Math. Soc., Providence, RI. (2007)
 
 The classical Dold-Kan theorem occurs as a special case among others from [[combinatorics]] and [[representation theory]], and in particular from homological stability, in:
