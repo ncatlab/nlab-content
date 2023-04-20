@@ -113,7 +113,7 @@ $$
 $$
 which $X_r$ receives.
 
-Hence one may roughly think of the latching object $L_r X$ of a [[simplicial object]] $X$ as the object of _degenerate_ [[n-simplex|$r$-simplices]] sitting inside the object $X_r$ of all $r$-simplices.  
+Hence one may often think of the latching object $L_r X$ of a [[simplicial object]] $X$ as the object of _degenerate_ [[n-simplex|$r$-simplices]] sitting inside the object $X_r$ of all $r$-simplices. Cf. Prop. \ref{EveryBisimplicialSetIsReedyCofibrant} and Prop. \ref{LatchingInAbelianCategoryIsDegeneracySubobject} below.
 \end{example}
 
 \begin{remark}
@@ -217,7 +217,7 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
  {#EnrichedModelStructure}
 
 +-- {: .num_prop }
-###### Observation
+###### Proposition
 
 For $C$ a [[Reedy category]] and $A$ a [[symmetric monoidal category|symmetric]] [[monoidal model category]], the Reedy model structure on $[C,A]_{Reedy}$ is naturally an $A$-[[enriched model category]].
 
@@ -229,10 +229,11 @@ This appears as ([Barwick, lemma 4.2, corollary 4.3](#Barwick)).
 
 (...check assumptions...)
 
+
 ### Relation to other model structures
 
 +-- {: .num_prop }
-###### Observation
+###### Proposition
 
 Let $C$ be a [[combinatorial model category]] and $R$ a [[Reedy category]].
 
@@ -389,18 +390,14 @@ Dually, for the [[opposite category]] $\Delta^{op}$
 
 Let $C = sSet_{Quillen}$ be the category [[sSet]] equipped with the standard [[model structure on simplicial sets]] and consider the Reedy model structures on $[\Delta^{op}, sSet_{Quillen}]$ $[\Delta,sSet_{Quillen}]$. 
 
-#### Properties 
 
-We record some useful facts.
-
-##### Fibrant and cofibrant objects
-
-Let $\mathcal{C}$ be a [[model category]]
+#### With values in simplicial sets
+  {#OverDeltaWithValuesInSimplicialSets}
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $X  \in [\Delta^{op},\mathcal{C}]$ a [[simplicial object]]
+For $X  \in [\Delta^{op},Set]$ a [[simplicial object]]
 and $n \in \mathbb{N}$,
 
 * the [[latching object]] $L_n X$ is the [[union]] of all degenerate $n$-cells;
@@ -411,64 +408,18 @@ and $n \in \mathbb{N}$,
 
 More details on this are currently at _[[generalized Reedy model structure]]_. 
 
-+-- {: .num_example #EveryBisimplicialSetIsReedyCofibrant}
-###### Example
-
-If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]], then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ (i.e. evert [[bisimplicial sets]]) is Reedy-cofibrant. 
-
-=--
+\begin{proposition}\label{EveryBisimplicialSetIsReedyCofibrant}
+If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]], then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ (i.e. every [[bisimplicial sets]]) is Reedy-cofibrant. 
+\end{proposition}
 
 ([Hirschhorn (2002), corollary 15.8.8](#Hirschhorn02))
 
-##### With values in simplicial sets
-  {#OverDeltaWithValuesInSimplicialSets}
+The idea is to observe that the latching objects are the [[sub-objects]] of degeenrate cells, so that the comparison morphism is a [[monomorphism]] and hence a [[cofibration]] in the [[classical model structure on simplicial sets]].
+
+Similarly:
 
 +-- {: .num_prop}
-###### Observation
-
-
-Every simplicial set $X$ regarded as a simplicial diagram
-
-$$
-  X : \Delta^{op} \to Set \hookrightarrow sSet
-$$
-
-is Reedy cofibrant in $[\Delta^{op}, sSet]$.
-
-=--
-
-+-- {: .proof}
-###### Proof
- 
-The latching object of $X$ at $n$ is
-
-$$
-  L_n(X)
-  =
-  \lim_{\to} \left( 
-    ([n]\to [k]\;surj.\;in\;\Delta)
-    \mapsto
-    X_k
-  \right)
-  \,.
-$$
-
-The canonical map 
-
-$$
-  L_n(X) \to X_n
-$$
-
-identifies  $X_k$ along $X([n] \to [k]) :  X_k \to X_n$ in $X_n$ as a bunch of degenrate $n$-cells. In total, $L_n(X)$ is identified as the set of all degenerate $n$-cells of $X$.
-
-Therefore $L_n(X) \to X_n$ is clearly an injection of sets, hence a monomorphism of (constant) simplicial sets. Monomorphisms are the cofibrations in $sSet_{Quillen}$.
-
-=--
-
-
-
-+-- {: .num_prop}
-###### Observation
+###### Proposition
 
 The canonical cosimplicial simplicial set
 
@@ -501,7 +452,7 @@ This is $\partial \Delta[n]$. The inclusion $\partial \Delta[n] \to \Delta[n]$ i
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_cor}
 ###### Corollary
 
 Every [[simplicial set]] is the [[homotopy colimit]] over its diagram of simplices (with values in the constant simplicial set on the sets of simplicies $X_n$):
@@ -510,7 +461,6 @@ $$
   X \simeq hocolim ( [n] \mapsto const X_n)
   \,.
 $$
-
 
 =--
 
@@ -547,7 +497,7 @@ This kind of argument has many immediate generalizations. For instance for $C = 
 For the following write $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]].  
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 The fat simplex is Reedy cofibrant.
 
@@ -561,7 +511,128 @@ By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the p
 
 =--
 
-##### With values in an arbitrary model category
+#### With values in an abelian model category
+ {#WithValuesInAnAbelianCategory}
+
+\begin{proposition}
+  \label{LatchingInAbelianCategoryIsDegeneracySubobject}
+  Let $\mathcal{A}$ be an [[additive category]] in which all [[retractions]] exhibit [[direct sums]] (such as in an [[abelian category]]).
+
+Then for any [[simplicial object]] $X_\bullet \in s\mathcal{A} \coloneqq \mathcal{A}^{\Delta^{op}}$ and all $n \in \mathbb{N}$, the comparison morphism from the $n$th latching object of $X_\bullet$ is a ([[split monomorphism|split]]) [[monomorphism]]:
+
+$$
+  L_n X \xhookrightarrow{\phantom{---}} X_n
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  Under the given assumption on $\mathcal{A}$ the [[Dold-Kan correspondence]] applies (see [there](Dold-Kan+correspondence#StatementAdditiveACase)) to [[simplicial objects]] in $\mathcal{A}$ and says that, up to [[isomorphism]], $X_\bullet$ is of the form $X_\bullet \simeq \Gamma(V_\bullet)$ for some [[connective chain complex]] $V_\bullet$ (in fact $V_\bullet \simeq N X_\bullet$ is the [[normalized chain complex]] of $X_\bullet$, but we don't even need this), in that each $X_r$ is the [[direct sum]] of one copy of $V_s$ for each [[surjection]] $[r] \twoheadrightarrow [s]$ in [[simplex category|$\Delta$]] (by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)):
+
+$$
+  X_r 
+  \;\simeq\;
+  \underset
+    {[r] \twoheadrightarrow [s]}
+    {\bigoplus}
+  V_s
+  \;\simeq\;
+  \left(
+  \underset
+    {
+      {[r] \overset{p}{\twoheadrightarrow} [s]}
+      \atop
+      p \neq id_{[r]}
+    }
+    {\bigoplus}
+  V_s
+  \right)
+  \,\oplus\,
+  V_r
+  \,.
+$$
+(On the right we have split off the summand corresponding to the [[identity morphism]], just for emphasis, since this is what matters in a moment).
+
+Moreover (still by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)), under this identification the [[degeneracy maps]] $X_{[r'] \overset{p}{\twoheadrightarrow} [r]}$ of $X_\bullet$ are simply given on these [[direct sum|direct summands]] by precomposition of their labels with $p$.
+
+$$
+  \array{
+    X_{r} 
+    &
+    \overset{X_{[r'] \overset{p}{\twoheadrightarrow} [r]} }{\longrightarrow}
+    &
+    X_{r'}
+    \\
+    \big(
+      [r] \overset{\sigma}{\twoheadrightarrow} [s]
+      ,\,
+      v \in V_s
+    \big)
+    &\mapsto&
+    \big(
+      [r'] \overset{\sigma \circ p}{\twoheadrightarrow} [s]
+      ,\,
+      v \in V_s
+    \big)
+  }
+$$
+
+This implies that the colimit defining $L_r X$ consists of [[equivalence classes]] of triples of the form 
+$
+\Big(  
+    [r] 
+      \overset{p}{\twoheadrightarrow} 
+    [r'] 
+      \overset{q}{\twoheadrightarrow}
+    [s]
+   ,\,
+  v \in V_s 
+  \Big)
+$
+for non-identity $p$,
+under the [[equivalence relation]] which identifies $(p,q,v)$ with $(p'q',v')$ iff $p \circ q \,=\, p' \circ q'$ and $v = v'$. But this evidently means that the equivalence classes are simply labeled by pairs $\big([r] {\twoheadrightarrow} [s] ,\,  v \in V_s\big)$ where the surjection is non-identity. 
+
+Hence the colimit is
+
+$$
+  L_r X
+  \;\coloneqq\;
+  \underset{
+    \underset
+      {
+        { p \colon [r] \twoheadrightarrow [s] }
+        \atop
+        { p \neq id }
+      }
+      {\longrightarrow}
+  }{\lim}
+  X_s
+  \;\simeq\;
+  \underset{
+      {
+        { p \colon [r] \twoheadrightarrow [s] }
+        \atop
+        { p \neq id }
+      }
+  }{\bigoplus}
+  V_s
+$$
+
+and the comparison map $L_r X \to X_r$ is the canonical inclusion of all the non-identity [[direct summands]]:
+
+$$
+  L_r X 
+  \xhookrightarrow{\phantom{--}}
+  L_r X \,\oplus\, V_r
+  \;\simeq\;
+  X_\bullet
+  \,.  
+$$
+\end{proof}
+
+
+
+
+#### With values in an arbitrary model category
 
 Let $C$ be a [[model category]].
 
@@ -594,7 +665,7 @@ $$
 
 =--
 
-##### Enrichment
+#### Enrichment
  {#EnrichmentOverTheSimplexCategory}
 
 The following proposition should be read as a **warning** that 
@@ -682,7 +753,6 @@ The main statement is theorem 4.7 there.
 The Reedy model structure on towers is discussed for instance in chapter 6 of 
 
 * {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html) [PDF](http://dodo.pdmi.ras.ru/~topology/books/goerss-jardine.pdf)) 
- 
 
 The Reedy model structure on categories of simplicial objects is discussed in more detail for instance in 
 
