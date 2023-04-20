@@ -264,6 +264,7 @@ Model structure for [[genuine equivariant spectra]] parameterized over a fixed b
 
 
 ### Over varying bases
+ {#ReferencesOverVaryingBases}
 
 Model structures of parameterized spectra over varying bases:
 
