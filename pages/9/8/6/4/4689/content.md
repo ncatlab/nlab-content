@@ -251,6 +251,10 @@ With an emphasis on the [[S-matrix]]-perspective:
 
 * [[Pierre Vanhove]], *S-matrix approach to general gravity and beyond* ([arXiv:2104.10148](https://arxiv.org/abs/2104.10148))
 
+On [[perturbative quantum gravity]] via [[string-localized quantum fields]]:
+
+* Christian Gaß, [[José M. Gracia-Bondía]], Karl-Henning Rehren, *Quantum general covariance* &lbrack;[arXiv:2304.09843](https://arxiv.org/abs/2304.09843)&rbrack;
+
 
 For more discussion of perturbative [[supergravity]] see at 
 
