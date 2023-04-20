@@ -26,7 +26,7 @@ Let $M$ be a [[commutative monoid]] (in the category $\mathbf{Sets}$). A **$M$-g
   $$ \eta: I \to \Phi_0 $$
 such that the obvious [[associativity]] and [[unit]] [[axioms]] hold.
 
-Thus, a $M$-graded monoid is in particular a $M$-[[graded object]]. In fact, a $M$-graded monoid is just a [[monoid in a monoidal category|monoid]] in the monoidal category of $M$-graded objects of $\mathcal{V}$.
+Thus, a $M$-graded monoid is in particular a $M$-[[graded object]]. In fact, a $M$-graded monoid is just a [[monoid in a monoidal category|monoid]] in the monoidal category of $M$-graded objects of $\mathcal{V}$, hence a [[lax monoidal functor]] $M \to \mathcal{V}$ by [[Day convolution#DayMonoidsAreLaxMonoidalFunctorsOnTheSite|this proposition]] (where $M$ is viewed as a [[discrete category|discrete]] monoidal category).
 
 We say that a $M$-graded monoid is **connected** if
 
