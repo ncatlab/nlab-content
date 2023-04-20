@@ -130,9 +130,9 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 * [[Jun Yoshida]], _Colimits and limits of crossed groups_, arXiv:1802.06644 (2018). ([abstract]())
 
-[[!redirects crossed simplicial group]]
+
 [[!redirects crossed groups]]
-[[!redirects skew-simplicial group]]
+
 
 
 
