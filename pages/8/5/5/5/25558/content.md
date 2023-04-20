@@ -97,6 +97,8 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 ## Related entries
 
+* [[skew-simplicial set]]
+
 * [[generalized Reedy category]]
 
 * [[crossed homomorphism]]
