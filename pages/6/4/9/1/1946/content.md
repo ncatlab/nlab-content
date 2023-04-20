@@ -218,11 +218,21 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
 
 \begin{proposition}
 \label{ReedyStructureCofibrantlyGenerated}
-  If $\mathcal{C}$ is a [[cofibrantly generated model category]] then also the Reedy model structure on $\mathcal{C}^{\mathcal{R}}$ is cofibrantly generated.
+  If $\mathcal{C}$ is a [[cofibrantly generated model category]] (and $\mathcal{R}$ is a [[Reedy category]]) then also the Reedy model structure (Def. \ref{ReedyModelStructure}) on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$ is cofibrantly generated.
 \end{proposition}
-&lbrack;[Hirschhorn (2002), Theorem 15.6.27](#Hirschorn02)&rbrack;
+This is due to [Hirschhorn (2002), Theorem 15.6.27](#Hirschorn02), assuming here that the [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]].
 
-(assuming that [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]])
+(A dual statement concerning *fibrant* generation is in [BHKKRS15, Thm. 5.9](#BHKKRS15)).
+
+\begin{corollary}
+\label{ReedyStructureCombinatorial}
+  If $\mathcal{C}$ is a [[combinatorial model category]] (and $\mathcal{R}$ is a [[small category|small]] [[Reedy category]]) then also the Reedy model structure (Def. \ref{ReedyModelStructure}) on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$ is combinatorial.
+\end{corollary}
+\begin{proof}
+  Recall that "combinatorial" means "locally presentable and cofibrantly generated". Prop. \ref{ReedyStructureCofibrantlyGenerated} gives the cofibrant generation, and local presentability follows from general results on locally presentable functor categories (see [there](locally+presentable+category#PresheavesWithValuesInLocPresAreLocPres)).
+\end{proof}
+
+
 
 ### Enriched model structure
  {#EnrichedModelStructure}
@@ -840,32 +850,32 @@ The original text is
 
 * [[Chris Reedy]], _Homotopy Theory of Model Categories_  ([retyped pdf](http://www-math.mit.edu/~psh/reedy.pdf))
 
-A quick review is in section A.2.9 of
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
-
 Textbook accounts:
 
 * {#Hovey99} [[Mark Hovey]], Section 5.2 of: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Chapter 15 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
+* {#Lurie} [[Jacob Lurie]], Section A.2.9 in _[[Higher Topos Theory]]_  (2009)
+
 An overview stressing the role of [[weighted colimit|weighted colimits]] is in
 
 * [[Emily Riehl]], [[Dominic Verity]], _The theory and practice of Reedy categories_, Theory and Applications of Categories **29** no.9 (2014) pp. 256-301. ([abstract](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html))
 
-A textbook account is in 
 
-* {#Hirschhorn02} [[Philip Hirschhorn]], chapter 15 of _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
-
-Discussion of functoriality of Reedy model structures is in 
+Discussion of functoriality of Reedy model structures:
 
 * {#Barwick} [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](http://arxiv.org/abs/0708.2832))
  
 
-The discussion of enriched Reedy model structures is in
+The discussion of enriched Reedy model structures:
 
 * {#Angeltveit} Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
+
+Discussion of fibrant generation of Reedy model structure:
+
+* {#BHKKRS15} [[Marzieh Bayeh]], [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], Thm. 5.9 in:  *Left-induced model structures and diagram categories*, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** American Mathematical Society (2015) &lbrack;[arXiv:1401.3651](http://arxiv.org/abs/1401.3651), [ISBN:978-1-4704-2495-4](https://bookstore.ams.org/conm-641)&rbrack;
+
  
 
 The main statement is theorem 4.7 there.
