@@ -20,6 +20,11 @@ Massless string localized fields motovated by a long-ignored sector in the [[Wig
 
 and reviewed for instance in 
 
-' Christian K&#246;hler, _String-localized fields and point-localized currents in massless Wigner representations with infinite spin_, Diplom(Master) thesis (2005) ([pdf](http://www.theorie.physik.uni-goettingen.de/forschung/qft/theses/dipl/Koehler.pdf))
+* Christian K&#246;hler, _String-localized fields and point-localized currents in massless Wigner representations with infinite spin_, Diplom(Master) thesis (2005) ([pdf](http://www.theorie.physik.uni-goettingen.de/forschung/qft/theses/dipl/Koehler.pdf))
+
+On [[perturbative quantum gravity]] via string-localized quantum fields:
+
+* Christian Gaß, [[José M. Gracia-Bondía]], Karl-Henning Rehren, *Quantum general covariance* &lbrack;[arXiv:2304.09843](https://arxiv.org/abs/2304.09843)&rbrack;
+
 
 [[!redirects string-localized quantum fields]]
