@@ -40,6 +40,8 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 
 ## References
 
+For instance:
+
 * {#Borceux94} [[Francis Borceux]], vol 1, section 4.4. of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 
@@ -68,3 +70,7 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 [[!redirects (effective epi, mono) factorization systems]]
 [[!redirects (effective epi,mono) factorization system]]
 [[!redirects (effective epi,mono) factorization systems]]
+
+[[!redirects epi-mono factorization]]
+[[!redirects epi-mono factorizations]]
+
