@@ -76,7 +76,7 @@ Indeed, the point is this: given a $\kappa$-[[accessible category]] $\mathcal{C}
 
 1. If $\mathcal{D}$ is accessible, then so is $[\mathcal{A}, \mathcal{D}]$.
 
-2. If $\mathcal{D}$ is locally $\lambda$-presentable, then so is $[\mathcal{A}, \mathcal{D}]$.
+2. {#FunctorsIntoLocallyPresCatAreLocallyPres} If $\mathcal{D}$ is locally $\lambda$-presentable, then so is $[\mathcal{A}, \mathcal{D}]$.
 
 3. Colimit-preserving functors out of a locally $\kappa$-presentable category are $\kappa$-accessible. 
 
