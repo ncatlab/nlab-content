@@ -36,3 +36,6 @@ Alexander-Whitney map, almost free morphism, anodyne extension, barycentric subd
 ---
 
 category: reference
+
+[[!redirects Simplicial Homotopy Theory]]
+
