@@ -53,9 +53,10 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 * P. Gabriel, F. Ulmer, _Lokal präsentierbare Kategorien_, Springer Lect. Notes in Math. __221__ 1971 [Zbl0225.18004](https://zbmath.org/?q=an:0225.18004) [MR327863](https://mathscinet.ams.org/mathscinet-getitem?mr=327863)
 * Jiří Adámek, Jiří Rosicky, _Locally presentable and accessible categories_, Cambridge University Press 1994.
 
-A good introductory account is in
+Introductory account:
 
-* Maru Sarazola, _An introduction to locally finitely presentable categories_, ([pdf](https://pi.math.cornell.edu/~maru/documents/locally_finitely_presentable_cats.pdf))
+* [[Maru Sarazola]], *An introduction to locally finitely presentable categories* (2017) &lbrack;[pdf](https://pi.math.cornell.edu/~maru/documents/locally_finitely_presentable_cats.pdf), [[Sarazola_LocallyPresentableCategories.pdf:file]]&rbrack;
+
 
 In additive context
 
