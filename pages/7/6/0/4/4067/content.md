@@ -60,3 +60,7 @@ The _Happy Family_ is taken to be formed of three generations
 
 [[!redirects exceptional finite group]]
 [[!redirects exceptional finite groups]]
+
+[[!redirects sporadic group]]
+[[!redirects sporadic groups]]
+
