@@ -122,7 +122,7 @@ $$
 
 ## Examples
 
-* [[possibility]] $\dashv$ [[necessity]]
+* [[necessity]] $\dashv$ [[possibility]]
 
 * [[local modality]], [[Lawvere-Tierney topology]]
 
