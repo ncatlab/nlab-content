@@ -154,6 +154,8 @@ Perhaps surprisingly, this adjunction is even a *simplicially enriched* adjuncti
 
 ## Related concepts
 
+* [[Reedy model structure]]
+
 * [[simplex]], [[simplex category]]
 
 * **simplicial object**
