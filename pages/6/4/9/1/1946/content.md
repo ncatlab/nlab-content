@@ -511,14 +511,16 @@ By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the p
 
 =--
 
-#### With values in an abelian model category
+#### With values in an addive model category
  {#WithValuesInAnAbelianCategory}
+
+In this section, let $\mathcal{A}$ be an [[additive category|additive]] [[model category]] in which all [[retractions]] exhibit [[direct sums]] (such as in an [[abelian category]], such as in a [[model structure on chain complexes]]).
+
+In this situaiton the [[Dold-Kan correspondence]] applies (see [there](Dold-Kan+correspondence#StatementAdditiveACase)) and can be used to get further information about the Reedy model structure on the category $s\mathcal{A} \coloneqq \mathcal{A}^{(\Delta^{op})}$ of [[simplicial objects]] in $\mathcal{A}$.
 
 \begin{proposition}
   \label{LatchingInAbelianCategoryIsDegeneracySubobject}
-  Let $\mathcal{A}$ be an [[additive category]] in which all [[retractions]] exhibit [[direct sums]] (such as in an [[abelian category]]).
-
-Then for any [[simplicial object]] $X_\bullet \in s\mathcal{A} \coloneqq \mathcal{A}^{\Delta^{op}}$ and all $n \in \mathbb{N}$, the comparison morphism (eq:ComparisonMapsFromLatchingToMatchingObject) from the $n$th latching object (Def. \ref{LatchingAndMatchingObjects}) of $X_\bullet$ is a ([[split monomorphism|split]]) [[monomorphism]]:
+Under the above assumptions, for any [[simplicial object]] $X_\bullet \in s\mathcal{A}$ and all $n \in \mathbb{N}$, the comparison morphism (eq:ComparisonMapsFromLatchingToMatchingObject) from the $n$th latching object (Def. \ref{LatchingAndMatchingObjects}) of $X_\bullet$ is a ([[split monomorphism|split]]) [[monomorphism]]:
 
 $$
   L_n X \xhookrightarrow{\phantom{---}} X_n
@@ -667,7 +669,7 @@ we may equivalently factor it as a [[zig-zag]] of diagrams
     {[t]}
 \end{tikzcd}
 
-Now, the left half of this zig-zag is
+because the left half of this zig-zag is
 
 \begin{tikzcd}[sep=20pt]
     & 
@@ -687,10 +689,57 @@ Now, the left half of this zig-zag is
     {[t]}
 \end{tikzcd}
 
-and exhibits that, in the colimit, $(p,q,v)$ is identified with $(q\circ p, id, v) \,=\, (q' \circ p', id, v)$; and, analogously, the right half shows that this in turn is identified with $(p',q',v)$.
+and exhibits that, in the colimit, $(p,q,v)$ is identified with $(q\circ p, id, v) \,=\, (q' \circ p', id, v)$; while, analogously, the right half shows that this in turn is identified with $(p',q',v)$.
 \end{proof}
 
+\begin{proposition}
+ For $\mathcal{A}$ an [[additive category|additive]] [[model category]] as above, if a [[morphisms]] $f_\bullet \colon X_\bullet \to Y_\bullet$ of [[simplicial objects]] in $\mathcal{A}$ is Reedy cofibrant (Def. \ref{ReedyModelStructure}) then the morphism $N f_\bullet$ of [[normalized chain complexes]] corresponding to it under the [[Dold-Kan correspondence]] is, as a [[chain map]], degreewise a [[cofibration]] in $\mathcal{A}$.
+\end{proposition}
+\begin{proof}
+Recall (from [here](Moore+complex#SplittingOffDegenerateCells)) that the components of the [[normalized chain complex]] $N X_\bullet$ of $X_\bullet$ in any degree $r \in \mathbb{N}$ are [[isomorphism|isomorphically]], the [[quotient]] of $X_r$ by the subgroup of degenerate cells. By Prop. \ref{LatchingInAbelianCategoryIsDegeneracySubobject} that subgroup is equivalently the [[latching object]] in that degree, so that we have [[natural isomorphisms]]
+\[
+  \label{NormalizedChainAsQuotientByLatching}
+  (N X)_r \;\simeq\; X_r/L_r X
+  \,.
+\]
+ 
+Now consider the following [[commuting diagram]] in $\mathcal{A}$:
+$$
+  \array{
+    L_r X 
+      &\longrightarrow& 
+    X_r
+    \\
+    \big\downarrow 
+      && 
+    \big\downarrow 
+      & 
+    \searrow\mathrlap{{}^{f_r}}
+    \\
+    L_r Y 
+      & \longrightarrow & 
+    L_r Y \overset{L_r X}{\sqcup} X_r 
+      & \underset{\in Cof}{\longrightarrow} & 
+    Y_r
+    \\
+    \big\downarrow 
+      && 
+    \big\downarrow 
+      && 
+    \big\downarrow
+    \\
+    0 
+      &\longrightarrow& 
+    X_r / L_r X 
+      &\underset{(N f)_r}{\longrightarrow}& 
+    Y_r/L_r Y
+  }
+$$
+Here the top square, the left rectangle and the bottom rectagle are [[pushouts]] by definition of the latching object (Def. \ref{LatchingAndMatchingObjects}) and by the characterization (eq:NormalizedChainAsQuotientByLatching) of normalized chains.
+Therefore the [[pasting law]] implies first that the left bottom square and then that the right bottom square is a pushout. 
 
+This exhibits $(N f)_r$ as the pushout of a cofibration, and hence as a cofibration itself.
+\end{proof}
 
 
 #### With values in an arbitrary model category
