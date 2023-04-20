@@ -286,7 +286,7 @@ as being a bundle in $\mathbf{H}$ over the [[moduli stack]] $\mathbf{B}GL(n)$ wi
 This means that if the tangent bundle $T X$ is trivializable, then the coset space $O(n)\backslash GL(n)$ is the moduli space for vielbein fields on $T X$, in that the space of these is 
 
 $$
-  \mathbf{H}(X, O(n)\backslash GL(n)) = C^\infty(X, O(n)\backslashGL(n))
+  \mathbf{H}(X, O(n)\backslash GL(n)) = C^\infty(X, O(n)\backslash GL(n))
   \,.
 $$
 
