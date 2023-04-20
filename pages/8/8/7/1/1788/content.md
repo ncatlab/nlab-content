@@ -34,7 +34,7 @@ We discuss these conditions in turn:
 
 1. To see relative-ness:
 
-   By general discussion in [[Higher Topos Theory]], our functor [[presentable (infinity,1)-category|presents]] the $\infty$-functor $Func_\infty(-; H k Mod) \,\colon\, Grpd_\infty \to (H k) Mod$. By $\infty$-functoriality, this preserves [[equivalence in an (infinity,1)-category|$\infty$-equivalences]] which here means that weak equivalences $f$ in $sGrpd$ are sent to [[derived functors]] $\mathbb{L} f_!$ which, in particular, induced [[equivalence of categories|equivalences]] on the [[homotopy category of an (infinity,1)-category|homotopy categories of $\infty$-catgories]], hence of [[homotopy category of a model category|homotopy categories of model categories]]. This means that $f_! \dashv f^\ast$ is indeed a [[Quillen equivalence]].
+   By general facts in *[[Higher Topos Theory]]* and using the [[stable Dold-Kan correspondence]], our functor [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-functor|$\infty$-functor]] $Func_\infty\big(-; (H k) Mod\big) \,\colon\, Grpd_\infty \to (H k) Mod$ assigning to base-[[infinity-groupoids|$infty$-groupoids]] their [[stable (infinity,1)-categories|stable $\infty$-categories]] of [[parameterized spectra|parameterized]] [[Eilenberg-MacLane spectrum|$H \mathbb{C}$]]-[[module spectra]] ("[[infinity-local system|$\infty$-local systems]]"). By $\infty$-functoriality, this preserves [[equivalence in an (infinity,1)-category|$\infty$-equivalences]] which here means that weak equivalences $f$ in $sGrpd$ are sent to [[derived functors]] $\mathbb{L} f_!$ which, in particular, induced [[equivalence of categories|equivalences]] on the [[homotopy category of an (infinity,1)-category|homotopy categories of $\infty$-catgories]], hence of [[homotopy category of a model category|homotopy categories of model categories]]. This means that $f_! \dashv f^\ast$ is indeed a [[Quillen equivalence]].
 
 1. To see properness:
 
@@ -103,8 +103,8 @@ $$
 
 Now we claim that each $cn_{\geq n} V^\bullet_\bullet(-)$ is a [[cofibrant object]] in $sFunc\big(sGrpd, sCh_\bullet(k)\big)$. Because:
 
-Since we are using the injective [[model structure on functors]], we need to see that for $\mathcal{X} \in sGrpd$ the object $cn_{\geq n} V^\bullet_\bullet(\mathcal{X})$ is [[Reedy model structure|Reedy cofibrant]]. 
-By [definition](Reedy+model+structure#ReedyModelStructure)
+Since we are using the injective [[model structure on functors]], we need to see that for $\mathcal{X} \in sGrpd$ the object $cn_{\geq n} V^\bullet_\bullet(\mathcal{X})$ is cofibrant in the Bousfield localized Reedy model structure. Since left Bousfield localization does not change the class of [[cofibrations]] ([by definition](Bousfield+localization+of+model+categories#DefinitionOfLeftBousfieldLocalizations)) we are reduced to arguing plain[[Reedy model structure|Reedy cofibrancy]]. 
+Again [by definition](Reedy+model+structure#ReedyModelStructure)
 this means that we need to show that the comparison maps $L_r(-) \to (-)_r$ from its [[latching objects]] are cofibrations in $Ch_\bullet(k)$.
 Since $Ch_\bullet(k)$ is an [[abelian category]] (see [there](category+of+chain \+complexes#AbelianCategoryStructure)), it follows (by [this prop.](Reedy+model+structure#LatchingInAbelianCategoryIsDegeneracySubobject)) that $L_r(-) \to (-)_r$ is a monomorphism on our objects. Monomorphisms are cofibrations in the [[model structure on chain complexes]] over a [[field]] (where all injections are split) iff their [[cokernel]] is cofibrant (by [this Prop.](model+structure+on+chain+complexes#StandardModelStructureOnUnboundedComplexes)). But since we are dealing with maps between $n$-connective covers, also the cokernels are $n$-connective and hence cofibrant by the above argument. QED.
 
@@ -114,6 +114,5 @@ So far this means that $f_!$ sends any weak equivalence to a colimit, in the [[a
 This concludes the proof that also $f_!$ preserves weak equivalences. 
 \end{proof}
 
-> (forgot to say that left Bousfield localization preserves cofibration, so that all arguments go through. will add later...)
 
 
