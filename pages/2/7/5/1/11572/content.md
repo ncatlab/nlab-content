@@ -14,6 +14,11 @@
 
 ## Idea
 
+### General
+ {#General}
+
+Generally, given a [[stable (infinity,1)-category|stable $\infty$-category]] $\mathcal{A}$ equipped with a [[t-structure]] $\mathcal{A}_{\geq 0}, \mathcal{A}_{\leq 0} \hookrightarrow \mathcal{A}$, the [[coreflective subcategory|coreflection]] $\mathcal{A} \to \mathcal{A}_{\geq 0}$ onto the [[connective objects]] is called the *connective cover*-construction.
+
 ### For plain spectra
  {#ForPlainSpectra}
 
@@ -45,8 +50,6 @@ $$
 $$
 
 
-
-
 ### For ring spectra
  {#ForRingSpectra}
 
@@ -60,6 +63,8 @@ Besides a canonically inherited ring structure, the connective cover may sometim
 * [[ku]] is the connective cover of [[KU]]
 
 ## Related concepts
+
+* [[n-connective object]]
 
 * [[n-connected object of an (infinity,1)-topos]]
 
