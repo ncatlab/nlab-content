@@ -60,7 +60,7 @@ A [[model category]] $C$ is **combinatorial** if it is
 
 and
 
-* [[cofibrantly generated model category|cofibrantly generated]] as a model category.
+* [[cofibrantly generated model category|cofibrantly generated]] as a [[model category]].
 
 =--
 
