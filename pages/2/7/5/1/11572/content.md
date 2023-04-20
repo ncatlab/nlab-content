@@ -19,6 +19,63 @@
 
 Generally, given a [[stable (infinity,1)-category|stable $\infty$-category]] $\mathcal{A}$ equipped with a [[t-structure]] $\mathcal{A}_{\geq 0}, \mathcal{A}_{\leq 0} \hookrightarrow \mathcal{A}$, the [[coreflective subcategory|coreflection]] $\mathcal{A} \to \mathcal{A}_{\geq 0}$ onto the [[connective objects]] is called the *connective cover*-construction.
 
+### For chain complexes
+ {#ForChainComplexes}
+
+Given an unbounded [[chain complex]] $V_\bullet \,\in\, Ch_\bullet(\mathcal{A})$ in some [[abelian category]] $\mathcal{A}$, 
+
+$$
+  V_\bullet
+  \;=\;
+  \big(
+    \cdots 
+      \to
+    V_2
+      \overset{\partial_2}{\to} 
+    V_1
+      \overset{\partial_1}{\to} 
+    V_0   
+      \overset{\partial_0}{\to} 
+    V_{-1}   
+      \overset{\partial_{-1}}{\to} 
+    V_{-2}
+      \to
+    \cdots   
+  \big)
+$$
+
+its connective cover is obtained by 
+
+* retaining its entries in positive degrees,
+
+* replacing its entries in negative degree by [[zero objects]],
+
+* replacing its entry in degree 0 by the [[kernel]] of the [[differential]] in this degree:
+
+$$
+  cn_{\geq 0}
+  V_\bullet
+  \;=\;
+  \big(
+    \cdots 
+      \to 
+    V_2
+      \overset{\partial_2}{\to} 
+    V_1
+      \overset{\partial_2}{\to} 
+    \ker(\partial_0)   
+      \to
+    0
+      \to
+    0
+      \to
+    \cdots   
+  \big)
+  \,.
+$$
+
+(e.g. [Lurie, Rem. 1.2.3.4](#Lurie))
+
 ### For plain spectra
  {#ForPlainSpectra}
 
