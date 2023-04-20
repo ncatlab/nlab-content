@@ -267,6 +267,9 @@ A class of "free" vertex algebras are also quantized using [[Batalin-Vilkovisky 
 
 * [[Si Li]], _Vertex algebras and quantum master equation_([arxiv/1612.01292](https://arxiv.org/abs/1612.01292))
 
+### Over non-Archimedean fields
+
+* [[Victor Kac]], _Non-Archimedean vertex algebras_, [arXiv:2304.09651](https://arxiv.org/abs/2304.09651)
 
 ### Further references
 
