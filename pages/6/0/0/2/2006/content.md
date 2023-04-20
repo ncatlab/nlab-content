@@ -134,8 +134,7 @@ from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[
 +-- {: .proof}
 ###### Proof 
 
-[[full functor|Fullness]] holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has 
-as antecedent the composite $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$.
+[[full functor|Fullness]] holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has as antecedent the composite $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$.
 Indeed, the latter is mapped by the functor into
 $\mu_Y \circ T(g) \circ T(\eta_X)$, which is seen to be equal to $g \circ \mu_X \circ T(\eta_X) \;=\;g$, using that $g$ is a [[homomorphism]] of algebras.
 
