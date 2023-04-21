@@ -133,7 +133,8 @@ A [[morphism]] $f \colon X \to Y$ in the [[functor category]] $\mathcal{C}^{\mat
 
 * a *Reedy-cofibration* or *acyclic Reedy-cofibration* if for all $r \in \mathcal{R}$, the map 
 
-  $$
+  \[
+    \label{CharacterizingReedyCofibrations}
     L_r Y 
      \overset
        {L_r X}
@@ -141,13 +142,14 @@ A [[morphism]] $f \colon X \to Y$ in the [[functor category]] $\mathcal{C}^{\mat
     X_r 
       \longrightarrow
     Y_r
-  $$
+  \]
 
   is a [[cofibration]] or [[acyclic cofibration]] in $\mathcal{C}$, respectively;
 
 * a *Reedy-fibration* or *acyclic Reedy-fibration* if for all $r \in \mathcal{R}$, the map
 
-  $$ 
+  \[ 
+    \label{CharacterizingReedyFibrations}
     X_r 
      \longrightarrow 
     M_r X 
@@ -155,7 +157,7 @@ A [[morphism]] $f \colon X \to Y$ in the [[functor category]] $\mathcal{C}^{\mat
      {M_r Y}
      {\times} 
     Y_r
-  $$
+  \]
 
   is a [[fibration]] or [[acyclic fibration]] in $\mathcal{C}$, respectively.  
 
@@ -548,9 +550,9 @@ $$
   \,.
 $$
 \end{proposition}
-This and the following proof spells out a suggestion by [[Charles Rezk]] in [MO:a/300657](https://mathoverflow.net/a/300657/381).
+This statement and the following proof spells out a suggestion by [[Charles Rezk]] in [MO:a/300657](https://mathoverflow.net/a/300657/381).
 \begin{proof}
-  Under the given assumption on $\mathcal{A}$ the [[Dold-Kan correspondence]] applies (see [there](Dold-Kan+correspondence#StatementAdditiveACase)) to [[simplicial objects]] in $\mathcal{A}$ and says that, up to [[isomorphism]], $X_\bullet$ is of the form $X_\bullet \simeq \Gamma(V_\bullet)$ for some [[connective chain complex]] $V_\bullet$ (in fact $V_\bullet \simeq N X_\bullet$ is the [[normalized chain complex]] of $X_\bullet$, but we don't even need this), in that each $X_r$ is the [[direct sum]] of one copy of $V_s$ for each [[surjection]] $[r] \twoheadrightarrow [s]$ in [[simplex category|$\Delta$]] (by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)):
+  Under the given assumption on $\mathcal{A}$ the [[Dold-Kan correspondence]] applies (see [there](Dold-Kan+correspondence#StatementAdditiveACase)) to [[simplicial objects]] in $\mathcal{A}$ and says that, up to [[isomorphism]], $X_\bullet$ is of the form $X_\bullet \simeq \Gamma(V_\bullet)$ for some [[connective chain complex]] $V_\bullet$ (in fact $V_\bullet \simeq N X_\bullet$ is the [[normalized chain complex]] of $X_\bullet$), in that each $X_r$ is the [[direct sum]] of one copy of $V_s$ for each [[surjection]] $[r] \twoheadrightarrow [s]$ in [[simplex category|$\Delta$]] (by [this Prop.](Dold-Kan+correspondence#ExplicitFormOfGamma)):
 
 $$
   X_r 
@@ -560,6 +562,10 @@ $$
     {\bigoplus}
   V_s
   \;\simeq\;
+  \underset{
+    (D X)_r
+  }{
+  \underbrace{
   \left(
   \underset
     {
@@ -570,8 +576,16 @@ $$
     {\bigoplus}
   V_s
   \right)
+  }
+  }
   \,\oplus\,
-  V_r
+  \underset{
+    (N X)_r
+  }{
+  \underbrace{
+    V_r
+  }
+  }
   \,.
 $$
 (On the right we have split off the summand corresponding to the [[identity morphism]], just for emphasis, since this is what matters in a moment).
@@ -647,7 +661,42 @@ $$
 $$
 which proves the proposition.
 
-Hence it remains to show the claim about the colimit. For that it is sufficient to observe that whenever we have a [[commuting diagram]] in [[simplex category|$\Delta$]] of the form
+Hence it remains to show the claim about the colimit. Since the degeneracy maps on the triples $\big( [r] \overset{p}{\twoheadrightarrow} [r'] \overset{q}{\twoheadrightarrow} [s], \, v \in V_2 \big)$ all act trivially on the $v$-component, we may regard this as a colimit in [[Set]] over the $(p,q)$-pairs. This may be computed as the set of all such pairs quotiented by the [[equivalence relation]] which is generated from the [[relation]] imposed by the morphisms in the diagram, which, unwinding the definitions, is:
+$$
+  (p,q) \simeq (p',q')
+  \;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;
+  \exists
+  \;\;\;
+  \array{
+   && [r]
+   \\
+   & 
+   \mathllap{^p}\swarrow 
+   && 
+   \searrow\mathrlap{^{p'}}
+   \\
+   [s] 
+   && 
+   \longrightarrow
+   && 
+   [s']
+   \\
+   & 
+   \mathllap{_q}
+   \searrow 
+   && 
+   \swarrow\mathrlap{_{q'}}
+   \\
+   && 
+   [t]
+   \mathrlap{\,.}
+  }
+$$
+This already shows the claim for the case that the horizontal [[lift]] seen in the diagram on the right exist. 
+
+In general, given a [[commuting diagram]] in the [[simplex category|$\Delta$]] of the form
 
 \begin{tikzcd}[sep=20pt]
     & 
@@ -666,7 +715,7 @@ Hence it remains to show the claim about the colimit. For that it is sufficient 
     {[t]}
 \end{tikzcd}
 
-we may equivalently factor it as a [[zig-zag]] of diagrams 
+(without necessarily a horizontal lift), then we may equivalently factor it as a [[zig-zag]] of diagrams 
 
 \begin{tikzcd}[sep=20pt]
     & 
@@ -690,7 +739,7 @@ we may equivalently factor it as a [[zig-zag]] of diagrams
     {[t]}
 \end{tikzcd}
 
-because the left half of this zig-zag is
+where the left half of this zig-zag is
 
 \begin{tikzcd}[sep=20pt]
     & 
@@ -710,21 +759,43 @@ because the left half of this zig-zag is
     {[t]}
 \end{tikzcd}
 
-and exhibits that, in the colimit, $(p,q,v)$ is identified with $(q\circ p, id, v) \,=\, (q' \circ p', id, v)$; while, analogously, the right half shows that this in turn is identified with $(p',q',v)$.
+and exhibits that, in the colimit, $(p,q,v)$ is identified with $(q\circ p, id, v) \,=\, (q' \circ p', id, v)$; while, analogously, the right half exhibits that this in turn is identified with $(p',q',v)$.
 \end{proof}
 
-\begin{proposition}
- For $\mathcal{A}$ an [[additive category|additive]] [[model category]] as above, if a [[morphisms]] $f_\bullet \colon X_\bullet \to Y_\bullet$ of [[simplicial objects]] in $\mathcal{A}$ is Reedy cofibrant (Def. \ref{ReedyModelStructure}) then the morphism $N f_\bullet$ of [[normalized chain complexes]] corresponding to it under the [[Dold-Kan correspondence]] is, as a [[chain map]], degreewise a [[cofibration]] in $\mathcal{A}$.
-\end{proposition}
+\begin{corollary}
+\label{SimplicialReedyCofibsInAbelianCatsUnderDoldKan}
+  Let $\mathcal{A}$ be a [[model category]] whose [[underlying]] category is as above, then a morphism $f_\bullet \,\colon\, X_\bullet \to Y_\bullet$ in $s\mathcal{A}$ is a Reedy cofibration (Def. \ref{ReedyModelStructure}) if and only if the [[Dold-Kan correspondence|Dold-Kan-corresponding]] [[chain map]] $N f_\bullet$ of [[normalized chain complexes]] is degreewise a cofibration in $\mathcal{A}$.
+\end{corollary}
 \begin{proof}
-Recall (from [here](Moore+complex#SplittingOffDegenerateCells)) that the components of the [[normalized chain complex]] $N X_\bullet$ of $X_\bullet$ in any degree $r \in \mathbb{N}$ are [[isomorphism|isomorphically]], the [[quotient]] of $X_r$ by the subgroup of degenerate cells. By Prop. \ref{LatchingInAbelianCategoryIsDegeneracySubobject} that subgroup is equivalently the [[latching object]] in that degree, so that we have [[natural isomorphisms]]
-\[
-  \label{NormalizedChainAsQuotientByLatching}
-  (N X)_r \;\simeq\; X_r/L_r X
-  \,.
-\]
- 
-Now consider the following [[commuting diagram]] in $\mathcal{A}$:
+  By Prop. \ref{LatchingInAbelianCategoryIsDegeneracySubobject} the maps (eq:CharacterizingReedyCofibrations) are of this form 
+$$
+  \array{
+    L_r Y \overset{L_r X}{\amalg} X_r
+    &\longrightarrow& 
+    Y_r
+    \\
+    (N X)_r \oplus (D Y)_r
+    &\overset{(N f)_r \oplus id}{\longrightarrow}&
+    (N Y)_r \oplus (D Y)_r
+  }
+$$
+But $(N f)_r \oplus id$ is clearly a cofibration iff $(N f)_r$ is.
+\end{proof}
+\begin{remark}
+  One direction of the implication in Cor. \ref{SimplicialReedyCofibsInAbelianCatsUnderDoldKan} holds generally without any assumptions on $\mathcal{A}$ or $\mathcal{R}$:
+
+If a [[morphisms]] $f_\bullet \colon X_\bullet \to Y_\bullet$ of functors $\mathcal{R} \to \mathcal{C}$ is Reedy cofibrant (Def. \ref{ReedyModelStructure}) then for each $r \in \mathcal{R}$ the induced morphism
+$$
+  X_r/L_r X 
+   \overset
+     {\;\; f_r/L_r f \;\;}
+     {\longrightarrow} 
+  Y_r/L_r Y
+$$
+is a cofibration in $\mathcal{C}$.
+\end{remark}
+\begin{proof}
+Consider the following [[commuting diagram]] in $\mathcal{C}$:
 $$
   \array{
     L_r X 
@@ -749,19 +820,19 @@ $$
       && 
     \big\downarrow
     \\
-    0 
+    \ast
       &\longrightarrow& 
     X_r / L_r X 
-      &\underset{(N f)_r}{\longrightarrow}& 
+      &\underset{f_r / L_r f}{\longrightarrow}& 
     Y_r/L_r Y
   }
 $$
-Here the top square, the left rectangle and the bottom rectagle are [[pushouts]] by definition of the latching object (Def. \ref{LatchingAndMatchingObjects}) and by the characterization (eq:NormalizedChainAsQuotientByLatching) of normalized chains.
+Here the top square, the left rectangle and the bottom rectagle are [[pushouts]] by definition of the latching object (Def. \ref{LatchingAndMatchingObjects}) and by definition of the quotients $X_r/L_r X \,\coloneqq\, cofib(L_r X \to X_r)$.
 Therefore the [[pasting law]] implies first that the left bottom square and then that the right bottom square is a pushout. 
-
-This exhibits $(N f)_r$ as the pushout of a cofibration, and hence as a cofibration itself.
+This exhibits $f_r/L_r f$ as the pushout of a cofibration, and hence as a cofibration itself.
 \end{proof}
 
+\linebreak
 
 #### With values in an arbitrary model category
 
