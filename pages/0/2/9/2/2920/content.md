@@ -905,7 +905,7 @@ $$
 
 =--
 
-This is due to Hirschhorn.
+This is due to [Hirschhorn (2002)](#Hirschhorn02).
 
 #### Further properties
 
@@ -943,14 +943,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The first part is theorem 3.3.19 in [Hirschhorn](#Hirschhorn). The second part is prop 3.3.4, which follows directly from the following proposition.
+The first part is theorem 3.3.19 in [Hirschhorn (2002)](#Hirschhorn02). The second part is prop 3.3.4, which follows directly from the following proposition.
 
 =--
 
 
 ## Existence of localizations for combinatorial model categories {#Existence}
 
-We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available.
+We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]] &lbrack;[Hirschhorn (2002)](#Hirschhorn02)&rbrack;, but for the combinatorial case a somewhat better theory is available.
 
 By the corollary to [[Dugger's theorem]] on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
 
@@ -1402,11 +1402,11 @@ The original article:
 
   [doi]: http://dx.doi.org/10.1016/0040-9383(75)90023-3
 
-Bousfield localization appears as definition 3.3.1 in
+Detailed discussion (for [[left proper model category|left proper]] [[cellular model category|cellular model categories]]):
 
-* {#Hirschhorn} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
+* {#Hirschhorn02} [[Philip Hirschhorn]], Section 3.3 and Chapter 4 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs **99* (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
-for [[left proper model category|left proper]] [[cellular model category|cellular model categories]].
+
 
 In  
 
