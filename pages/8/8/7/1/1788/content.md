@@ -3,9 +3,11 @@ Consider
 
 * $k$ a [[field]];
 
-* $Ch_\bullet(k)$ its [[category of chain complexes]] (unbounded) of $k$-[[vector spaces]] equipped with its projective [[model category]] [[structure]] ([here](model+structure+on+chain+complexes#StandardModelStructureOnUnboundedComplexes));
+* $Ch_\bullet(k)$ its [[category of chain complexes]] (unbounded) of $k$-[[vector spaces]] equipped with its projective [[model category]] [[structure]] (this is a [[proper model category|proper]] [[combinatorial model category]], by [this Prop.](model+structure+on+chain+complexes#StandardModelStructureOnUnboundedComplexes))
 
-* $sCh_\bullet(k)$ the corresponding [[category of simplicial objects]] equipped with the [[Bousfield localization of model categories|left Bousfield localization]] of the corresponding [[Reedy model structure]] which makes it (by [this Prop.](model+structure+on+chain+complexes#LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes)) a [[simplicial model category]] whose [[underlying]] model category is [[Quillen equivalence|Quillen equivalent]] to $Ch_\bullet(k)$;
+* $sCh_\bullet(k)$ the corresponding [[category of simplicial objects]] equipped with a [[Bousfield localization of model categories|left Bousfield localization]] of the corresponding [[Reedy model structure]] which makes it (by [this Prop.](model+structure+on+chain+complexes#LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes)) a [[simplicial model category]] whose [[underlying]] model category is [[Quillen equivalence|Quillen equivalent]] to $Ch_\bullet(k)$;
+
+  ($sCh_\bullet(k)$ is, besides being [[simplicial model category|simplicial]], a [[left proper model category|left proper]] [[combinatorial model category]] by [this Prop.](Reedy+model+structure#LeftProperness) and ... some localization result...)
 
 * $sGrpd$ the category of Dwyer-Kan [[simplicial groupoids]] equipped with the projective [[model structure on simplicial groupoids]];
 
