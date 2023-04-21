@@ -241,7 +241,15 @@ The [[formal duality|dual]] statement concerning *fibrant* generation is in [BHK
 \begin{proposition}\label{LeftProperness}
 **(left properness)**
 \linebreak
-  If $\mathcal{C}$ is [[combinatorial model category|combinatorial]] and [[left proper model category|left proper]], then also the Reedy model structure on $\mathcal{C}^{\mathcal{R}}$ is (combinatoral, by Cor. \ref{ReedyStructureCombinatorial} and) left proper.
+  If $\mathcal{C}$ is 
+
+* [[combinatorial model category|combinatorial]] and [[left proper model category|left proper]]
+
+or
+
+* [[cellular model category|cellular]] and [[left proper model category|left proper]]
+
+then also the Reedy model structure on $\mathcal{C}^{\mathcal{R}}$ is (combinatorial, by Cor. \ref{ReedyStructureCombinatorial}, or cellular, respectively, and) left proper.
 \end{proposition}
 This is mentioned in [Dugger 2001, item 3. on p. 5008 (6 of 25)](#Dugger01).
 
