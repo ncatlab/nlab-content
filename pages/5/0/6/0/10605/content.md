@@ -113,7 +113,7 @@ The primary source is:
 
 Discussion of the possible formalization of [[dialectics]] and [[duality]] by the concept of _[[adjunction]]_ ([[adjoint functors]]) is in
 
-* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
+* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981) doi:[10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6), [ResearchGate pdf](https://www.researchgate.net/profile/Costas-Drossos/post/What_splits_us_up/attachment/59d634bfc49f478072ea2f15/AS%3A273656826007552%401442256279433/download/LambekHeraclitus.pdf)
 
 based on discussion with [[William Lawvere]], who in turn took hints from
 
