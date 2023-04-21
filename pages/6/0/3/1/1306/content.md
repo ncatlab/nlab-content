@@ -25,7 +25,7 @@
 
 The notion of _[[Reedy category]]_, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity [[isomorphisms]].  This is problematic for many "[[geometric shape for higher structures|shape]] categories" such as Connes' [[category of cycles]] $\Lambda$, [[Segal's category Gamma|Segal's category]] $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
 
-In fact, there are two notions of generalized Reedy category in the literature. Cisinski's "cat&#233;gories squelletiques" (Ch. 8 in  [_PCMH_](#Cisinski)) provide a natural generalization of the [[simplex category]], so that diagrams based on them behave much like [[simplicial objects]]. They were introduced primarily for the purposes of modeling [[homotopy types]]. The ["generalized Reedy categories"](#BergerMoerdijk) of Berger and Moerdijk are a strictly broader generalization suitable e.g. for describing [[dendroidal sets]]. They were introduced for the purposes of modelling more general classes of structure, particularly [[operads]].
+In fact, there are two notions of generalized Reedy category in the literature. Cisinski's "cat&#233;gories squelletiques" (Ch. 8 in  [_PCMH_](#Cisinski)) provide a natural generalization of the [[simplex category]], so that diagrams based on them behave much like [[simplicial objects]]. They were introduced primarily for the purposes of modeling [[homotopy types]]. The "generalized Reedy categories" of [Berger & Moerdijk 2011](#BergerMoerdijk11) are a strictly broader generalization suitable e.g. for describing [[dendroidal sets]]. They were introduced for the purposes of modelling more general classes of structure, particularly [[operads]].
 
 
 ## Definitions
@@ -61,7 +61,7 @@ A [[morphism]] of generalized Reedy category $S \to R$ is a [[functor]] whish ta
 
 =--
 
-This appears as ([Berger-Moerdijk, def. 1.1](#BergerMoerdijk)).
+This appears as ([Berger & Moerdijk 2011, def. 1.1](#BergerMoerdijk11)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -274,7 +274,7 @@ $$
 
 =--
 
-([Ber-Moe, def. 2.1](#BergerMoerdijk)).
+([BM11, def. 2.1](#BergerMoerdijk11)).
 
 +-- {: .num_defn }
 ###### Definition
@@ -301,7 +301,7 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible [[crossed gro
 
 =--
 
-([Ber-Moe, prop. 2.10](#BergerMoerdijk)).
+([BM11, prop. 2.10](#BergerMoerdijk11)).
 
 ## Related concepts
 
@@ -319,8 +319,8 @@ Cisinski's notion of generalized Reedy category appears as def 8.1.1 in
 
 The Berger-Moerdijk definition of generalized Reedy category appears in 
 
-* [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
- {#BergerMoerdijk}
+* {#BergerMoerdijk11} [[Clemens Berger]], [[Ieke Moerdijk]], *On an extension of the notion of Reedy category*, Mathematische Zeitschrift **269** (2011) 977–1004 &lbrack;[arXiv:0809.3341](http://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x](https://doi.org/10.1007/s00209-010-0770-x)&rbrack;
+ 
 
 
 [[!redirects generalized Reedy categories]]
