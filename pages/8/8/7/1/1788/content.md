@@ -7,7 +7,7 @@ Consider
 
 * $sCh_\bullet(k)$ the corresponding [[category of simplicial objects]] equipped with a [[Bousfield localization of model categories|left Bousfield localization]] of the corresponding [[Reedy model structure]] which makes it (by [this Prop.](model+structure+on+chain+complexes#LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes)) a [[simplicial model category]] whose [[underlying]] model category is [[Quillen equivalence|Quillen equivalent]] to $Ch_\bullet(k)$;
 
-  ($sCh_\bullet(k)$ is, besides being [[simplicial model category|simplicial]], a [[left proper model category|left proper]] [[combinatorial model category]] by [this Prop.](Reedy+model+structure#LeftProperness) and ... some localization result...)
+  ($sCh_\bullet(k)$ is, besides being [[simplicial model category|simplicial]], a [[left proper model category|left proper]] [[combinatorial model category]] by [this Prop.](Reedy+model+structure#LeftProperness) and [this Prop.](Bousfield+localization+of+model+categories#ExistenceForLeftProperCombinatorialSimplicialModelCategories))
 
 * $sGrpd$ the category of Dwyer-Kan [[simplicial groupoids]] equipped with the projective [[model structure on simplicial groupoids]];
 
