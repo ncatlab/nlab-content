@@ -135,6 +135,12 @@ $Quiv$ is of course a presheaf category $[Q^{op},Set]$, where $Q$ is the categor
 
 * [[Aurelio Carboni]] and [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_, [MR](http://www.ams.org/mathscinet-getitem?mr=1377312)
 
+Parametric right adjoints were introduced in:
+
+* * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
+
+See also:
+
 * [[Mark Weber]], _Generic morphisms, parametric representations, and weakly cartesian monads_, Theory and applications of categories, 13:191&#8211;234, 2004. [link](http://www.tac.mta.ca/tac/volumes/13/14/13-14abs.html)
 
 * [[Mark Weber]], _Familial 2-functors and parametric right adjoints_, 2008 [link](http://www.tac.mta.ca/tac/volumes/18/22/18-22abs.html)
