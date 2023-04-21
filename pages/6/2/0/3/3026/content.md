@@ -285,12 +285,9 @@ which is the identity on $X \setminus \{x_0\}$ and sends $x_0 \mapsto \infty$ (h
 
 As a [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]], the one-point compactification of $X$ may be described by a [[universal property]]: 
 
-For every [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$...
+For every [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all closed sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
 
-> This can't be quite the right condition. See discussion [here](https://nforum.ncatlab.org/discussion/1968/onepoint-compactification/?Focus=108740#Comment_108740).
-
-...there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
-
+To see this, note that such a map is necessarily unique. It suffices to show existence. Extend $f$ to a map $f^\ast: X^\ast \to Y$ such that $\infty\mapsto y_0$. If $U\subset Y$ is open, and $y_0\notin U$ then $(f^\ast)^{-1}(U) = f^{-1}(U)$ is open. If $y_0\in U$ then $Y\setminus U$ is closed and $f^{-1}(Y\setminus U)$ is compact, by the hypothesis. Put $K = f^{-1}(Y\setminus U)$; then $K$ is closed and compact and so $(f^\ast)^{-1}(U) = X^\ast\setminus K$ is open. It follows that $f^\ast$ is continuous.
 
 This property characterizes $X^\ast$ in an [[essentially unique]] manner.
 
