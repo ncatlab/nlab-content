@@ -115,7 +115,7 @@ More in detail, the weak equivalences that are added under Bousfield localizatio
 
 Let $C$ be a
 
-* [[proper model category|left proper]]
+* [[left proper model category|left proper]]
 
 * [[cofibrantly generated model category|cofibrantly generated]]
 
@@ -957,9 +957,8 @@ By the corollary to [[Dugger's theorem]] on presentations for [[combinatorial mo
 Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
 
 
-+-- {: .num_theorem #ExistenceForLeftProperCombinatorialSimplicialModelCategories}
-###### Theorem
-
+\begin{theorem}
+\label{ExistenceForLeftProperCombinatorialSimplicialModelCategories}
 If $C$ is a
 
 * [[proper model category|left proper]]
@@ -981,7 +980,7 @@ Moreover, it satisfies the following conditions:
 * $L_S C$ is itself a [[simplicial model category]].
 
 
-=--
+\end{theorem}
 
 +-- {: .proof}
 ###### Proof
