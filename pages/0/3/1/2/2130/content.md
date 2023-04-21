@@ -245,6 +245,11 @@ On [[symplectic orbifolds]]:
 
 * [[Misha Verbitsky]], _Holomorphic symplectic geometry and orbifold singularities_, Asian J. Math. 4 (2000), no. 3, 553-563 ([arXiv:math/9903175](https://arxiv.org/abs/math/9903175))
 
+On a proposal for [[homotopy theory]] of symplectic manifolds:
+
+* [[Vardan Oganesyan]], _The first step towards symplectic homotopy theory_, ([arXiv:2304.10529] (https://arxiv.org/abs/2304.10529))
+
+
 [[!redirects symplectic manifolds]]
 [[!redirects symplectic form]]
 [[!redirects symplectic forms]]
