@@ -285,7 +285,12 @@ which is the identity on $X \setminus \{x_0\}$ and sends $x_0 \mapsto \infty$ (h
 
 As a [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]], the one-point compactification of $X$ may be described by a [[universal property]]: 
 
-For every [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
+For every [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$...
+
+> This can't be quite the right condition. See discussion [here](https://nforum.ncatlab.org/discussion/1968/onepoint-compactification/?Focus=108740#Comment_108740).
+
+...there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
+
 
 This property characterizes $X^\ast$ in an [[essentially unique]] manner.
 
@@ -573,7 +578,7 @@ Textbook accounts:
 
 Review:
 
-* {#Cutler20} Tyrone Cutler, _The category of pointed topological spaces_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]])
+* {#Cutler20} [[Tyrone Cutler]], _The category of pointed topological spaces_ (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]]&rbrack;
 
 
 See also 
