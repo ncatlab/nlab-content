@@ -10,6 +10,11 @@ On the [[categorical semantics]] of well-founded [[inductive types]] ([[W-types|
 
 * {#MoerdijkPalmgren00} [[Ieke Moerdijk]], [[Erik Palmgren]], *Wellfounded trees in categories*, Annals of Pure and Applied Logic **104** 1-3 (2000) 189-218 &lbrack;<a href="https://doi.org/10.1016/S0168-0072(00)00012-9">doi:10.1016/S0168-0072(00)00012-9</a>&rbrack;
 
+On [[generalized Reedy categories]]:
+
+* {#BergerMoerdijk} [[Clemens Berger]], [[Ieke Moerdijk]], *On an extension of the notion of Reedy category*, Mathematische Zeitschrift **269** (2011) 977–1004 &lbrack;[arXiv:0809.3341](http://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x](https://doi.org/10.1007/s00209-010-0770-x)&rbrack;
+
+
 
 ## books with table of contents and links on the $n$Lab ##
 
