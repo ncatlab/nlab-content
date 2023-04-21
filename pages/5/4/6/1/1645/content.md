@@ -322,7 +322,8 @@ An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[s
 
 ### In finite-dimensional quantum mechanics
 
-* A. P. Balachandran, Amilcar R. de Queiroz, _Mixed states from anomalies_, [arxiv/1108.3898](http://arxiv.org/abs/1108.3898)
+* A. P. Balachandran, Amilcar R. de Queiroz, _Mixed states from anomalies_, Phys. Rev. __D85__ (2012) 025017
+[arxiv/1108.3898](https://arxiv.org/abs/1108.3898) [doi](https://doi.org/10.1103/PhysRevD.85.025017)
 * Carlos Alcalde, Daniel Sternheimer, _Analytic vectors, anomalies and star representations_, Lett. Math. Phys. __17__ (1989), no. 2, 117&#8211;127. [MR90h:22012](http://www.ams.org/mathscinet-getitem?mr=993017), [doi](http://dx.doi.org/10.1007/BF00402326) (the last section has also the field theory case)
 
 [[!redirects anomaly]]
