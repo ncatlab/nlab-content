@@ -220,21 +220,30 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
 
 \begin{proposition}
 \label{ReedyStructureCofibrantlyGenerated}
+**(cofibrant generation)**
+\linebreak
   If $\mathcal{C}$ is a [[cofibrantly generated model category]] (and $\mathcal{R}$ is a [[Reedy category]]) then also the Reedy model structure (Def. \ref{ReedyModelStructure}) on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$ is cofibrantly generated.
 \end{proposition}
-This is due to [Hirschhorn (2002), Theorem 15.6.27](#Hirschorn02), assuming here that the [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]].
+This is due to [Hirschhorn (2002), Theorem 15.6.27](#Hirschorn02), assuming here that the [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]]. In the generality of [[generalized Reedy categories]] cf. [Berger & Moerdijk (2011), Thm. 7.5](generalized+Reedy+category#BergerMoerdijk11)
 
-(A dual statement concerning *fibrant* generation is in [BHKKRS15, Thm. 5.9](#BHKKRS15)).
+The [[formal duality|dual]] statement concerning *fibrant* generation is in [BHKKRS15, Thm. 5.9](#BHKKRS15).
 
 \begin{corollary}
 \label{ReedyStructureCombinatorial}
+**(combinatoriality)**
+\linebreak
   If $\mathcal{C}$ is a [[combinatorial model category]] (and $\mathcal{R}$ is a [[small category|small]] [[Reedy category]]) then also the Reedy model structure (Def. \ref{ReedyModelStructure}) on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$ is combinatorial.
 \end{corollary}
 \begin{proof}
   Recall that "combinatorial" means "locally presentable and cofibrantly generated". Prop. \ref{ReedyStructureCofibrantlyGenerated} gives the cofibrant generation, and local presentability follows from general results on locally presentable functor categories (see [there](locally+presentable+category#PresheavesWithValuesInLocPresAreLocPres)).
 \end{proof}
 
-
+\begin{proposition}\label{LeftProperness}
+**(left properness)**
+\linebreak
+  If $\mathcal{C}$ is [[combinatorial model category|combinatorial]] and [[left proper model category|left proper]], then also the Reedy model structure on $\mathcal{C}^{\mathcal{R}}$ is (combinatoral, by Cor. \ref{ReedyStructureCombinatorial} and) left proper.
+\end{proposition}
+This is mentioned in [Dugger 2001, item 3. on p. 5008 (6 of 25)](#Dugger01).
 
 ### Enriched model structure
  {#EnrichedModelStructure}
@@ -891,7 +900,7 @@ More precisely the following parts of the [[pushout-product axiom]] for the $sSe
 
 =--
 
-That the first two items do hold is discussed for instance as ([Dugger, prop. 4.4](#Dugger)). A counterexample for the third item is in ([Dugger, remark 4.6](#Dugger)).
+That the first two items do hold is discussed for instance as [Dugger 2001, prop. 4.4](#Dugger01). A counterexample for the third item is in [Dugger 2001, remark 4.6](#Dugger01).
 
 +-- {: .num_remark}
 ###### Remark
@@ -958,11 +967,12 @@ The Reedy model structure on towers is discussed for instance in chapter 6 of
 
 The Reedy model structure on categories of simplicial objects is discussed in more detail for instance in 
 
-* {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7/S0002-9947-01-02661-7.pdf)) 
+* {#Dugger01} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. **353** 12 (2001) 5003-5027 &lbrack;[ams:S0002-9947-01-02661-7](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7), [pdf](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7/S0002-9947-01-02661-7.pdf)&rbrack;
   
 Monoidal Reedy model structures are discussed in
 
 * Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, [arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w).
+
 
 
 
