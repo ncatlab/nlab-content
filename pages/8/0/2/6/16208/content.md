@@ -77,6 +77,8 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
   (on the [[Xena project]])
 
+  * _The rise of formalism in mathematics_, ICM 2022 [yt](https://www.youtube.com/watch?v=SEID4XYFN7o)
+
 * _[Lean community and Mathlib] (https://leanprover-community.github.io/)_
 
 Tutorials and workshops:
