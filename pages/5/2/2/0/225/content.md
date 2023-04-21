@@ -76,13 +76,13 @@ Indeed, the point is this: given a $\kappa$-[[accessible category]] $\mathcal{C}
 
 1. If $\mathcal{D}$ is accessible, then so is $[\mathcal{A}, \mathcal{D}]$.
 
-2. {#FunctorsIntoLocallyPresCatAreLocallyPres} If $\mathcal{D}$ is locally $\lambda$-presentable, then so is $[\mathcal{A}, \mathcal{D}]$.
+2. {#FunctorsIntoLocallyPresCatAreLocallyPres} If $\mathcal{A}$ is [[small category|small]] and $\mathcal{D}$ is locally $\lambda$-presentable, then also the functor category $[\mathcal{A}, \mathcal{D}]$ is locally presentable.
 
 3. Colimit-preserving functors out of a locally $\kappa$-presentable category are $\kappa$-accessible. 
 
 4. A right adjoint between locally $\kappa$-presentable categories is $\kappa$-accessible if and only if its left adjoint is strongly $\kappa$-accessible (i.e. preserves $\kappa$-presentable objects as well as $\kappa$-filtered colimits); and every limit-preserving accessible functor between locally presentable categories is a right adjoint.
 
-Statements 1 and 2 are proved in [Adamek and Rosick&#253;, _Locally presentable and accessible categories_], statement 3 is obvious, and statement 4 is a straightforward exercise. Thus the claims follow.
+Statement 2 is [Adámek & Rosický (1994), Cor. 1.54](#AdámekRosický94). Statement 3 is obvious, and statement 4 is a straightforward exercise. 
 
 In general, accessible functors between accessible
 categories do not form an accessible category
@@ -173,7 +173,12 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 
 ## References ##
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+See most references at *[[category theory]]*.
+
+Discussion of [[locally presentable category|local presentability]]:
+
+* {#AdámekRosický94} [[Jiří Adámek]], [[Jiří Rosický]], Cor. 1.54 in: *[[Locally presentable and accessible categories]]*, London Mathematical Society Lecture Note Series **189**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)&rbrack;
+
 
 [[!redirects functor category]]
 [[!redirects functor categories]]
