@@ -144,9 +144,31 @@ $$R_2 R_1 \cap S_2 S_2 \subseteq T_2 T_1 \qquad implies \qquad S_1 R_{1}^{op} \c
 
 Then, under the assumption that equivalence relations internal to $T$-$Alg$ commute (so that the join of equivalence relations $R, S$ on $X$ is their relational composite $R S = R \circ S$), the Desarguesian axiom follows immediately. 
 
+## Generalized Malcev operations and connection to unorderability
+
+An algebra $A$ for a theory is _unorderable_ if there is no non-trivial compatible [[partial order]] structure on it. It is _absolutely unorderable_ if whenever there is an embedding $A \to B$, then $B$ is unorderable. 
+
+Every algebra in a Malcev variety is absolutely unorderable. For if $t\leq u$, then 
+
+$$u= M(t,t,u) \leq M(t,u,u) = t,$$
+
+hence $t=u$. 
+
+More generally, an algebra has a _generalized_ Malcev operation if and only if it is absolutely unorderable. 
+
+Here, a generalized Malcev operation is a sequence of $n$ ternary operations $M_1\dots M_n$ such that 
+
+$$ t = M_1(t,u,u);\ \  M_1(t,t,u)=M_2(t,u,u);\ \  M_2(t,t,u) = M_3(t,u,u);\ \  \dots M_n(t,t,u)=u.$$
+ 
+
 ## References
 
 See the monograph [[Borceux-Bourn]].
+
+For the connection to unorderability, see the following article and references therein:
+
+* [[Peter Selinger]], [_Order-Incompleteness and Finite Lambda Reduction Models_](https://www.mscs.dal.ca/~selinger/papers/cmaa.pdf), Theoretical Computer Science 309 (2003) 43–63.
+
 
 
 ## Spelling
