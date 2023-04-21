@@ -171,7 +171,7 @@ A profunctor $F$ between $C$ and $D$ can also be viewed as a span $C_0 \leftarro
 
 * If a [[functor]] represents a given profunctor, then the action of the functor on morphisms is determined by the action of the profunctor and the representation isomorphism. For details see at _[[representability determines functoriality]]_
 
-* If $\mathcal{D}$ is [[Cauchy complete category|Cauchy complete]], then the profunctors that correspond to functors (via Yoneda, which here looks like $F\mapsto F_*$, with $F_*(d,c)=\mathcal{D}(d,F c)$) are exactly those that admit right adjoints.  In general, right adjoint profunctors correspond to profunctors into the [[Cauchy complete category#InOrdinaryCatTheoryByProfunctors|Cauchy completion]] of their codomain.
+* If $\mathcal{D}$ is [[Cauchy complete category|Cauchy complete]], then the profunctors that correspond to functors (via Yoneda, which here looks like $F\mapsto F_*$, with $F_*(d,c)=\mathcal{D}(d,F c)$) are exactly those that admit right adjoints.  In general, right adjoint profunctors correspond to functors into the [[Cauchy complete category#InOrdinaryCatTheoryByProfunctors|Cauchy completion]] of their codomain.
 
 ## Related entries ##
 
