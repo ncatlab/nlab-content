@@ -48,11 +48,11 @@ between the [[homotopy category|homotopy categories]], called its (total) left [
 +-- {: .num_defn}
 ###### Definition
 
-A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
+A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied:
 
-* The total left [[derived functor]] $\mathbb{L} : Ho(C) \to Ho(D)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
+* The total left [[derived functor]] $\mathbb{L} \colon Ho(C) \to Ho(D)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
-* The total right [[derived functor]] $\mathbb{R} : Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
+* The total right [[derived functor]] $\mathbb{R} \colon Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
 * {#AdjunctOfWeakEquivalence} For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
