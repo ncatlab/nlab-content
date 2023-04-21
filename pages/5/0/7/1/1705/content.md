@@ -339,15 +339,18 @@ The original articles:
   
 * {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
   
-* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_, Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983), Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
+* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_, Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983), Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. (1987) 
   
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
+and in modernized form:
+
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], around 35.6 of : *[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]*, Mathematical Surveys and Monographs **113**, AMS (2004) &lbrack;[ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf)&rbrack;
+
 
 Survey:
 
-* [[Tim Porter]], Section 4.1 of: _$S$-Categories, $S$-groupoids, Segal categories and quasicategories_ ([arXiv](http://arxiv.org/abs/math/0401274))
+* [[Tim Porter]], Section 4.1 of: _$S$-Categories, $S$-groupoids, Segal categories and quasicategories_ &lbrack;[arXiv:math/0401274](http://arxiv.org/abs/math/0401274)&rbrack;
 
-* [[Clark Barwick]], Section 2: _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+* [[Clark Barwick]], Section 2 of: *On (enriched) Bousfield localization of model categories* &lbrack;[arXiv:0708.2067](http://arxiv.org/abs/0708.2067)&rbrack;
 
 
 Further development:
