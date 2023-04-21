@@ -11,7 +11,9 @@ Consider
 
 * $sGrpd$ the category of Dwyer-Kan [[simplicial groupoids]] equipped with the projective [[model structure on simplicial groupoids]];
 
-* $sFunc\big(\mathcal{X}, sCh_\bullet(k)\big)$, for $\mathcal{X} \in sGrpd$, the [[sSet]]-[[enriched functor category]] from the [[sSet-enriched category]] [[underlying]] $\mathcal{X}$ and equipped with the injective [[model structure on functors]];
+* $sFunc\big(\mathcal{X}, sCh_\bullet(k)\big)$, for $\mathcal{X} \in sGrpd$, the [[sSet]]-[[enriched functor category]] from the [[sSet-enriched category]] [[underlying]] $\mathcal{X}$ and equipped with the injective [[model structure on functors]]
+
+  (this exists and is [[combinatorial model category|combinatorial]] because $sCh_\bullet(k)$ is, by discussion [there](model+structure+on+functors#CombinatorialCase));
 
 * $sFunc\big(-,sCh_\bullet(k)\big) \colon sGrpd \to Cat$ the [[pseudofunctor]] to [[Cat]] which on [[morphisms]] $f \colon \mathcal{X} \to \mathcal{Y}$ is given by [[left Kan extension]] $f_! \,\colon\, sFunc\big(\mathcal{X},sCh_\bullet(k)\big) \to sFunc\big(\mathcal{Y},sCh_\bullet(k)\big)$;
 
@@ -23,7 +25,7 @@ Consider
 \begin{proof}
   By the discussion [there](Grothendieck+construction+for+model+categories#Definition), it is sufficient to check that $sFunc\big(-,sCh_\bullet(k)\big)$
 
-1. is "*relative*" in that it sends weak equivalences in $sGrpd$ to [[Quillen equivalences]];
+1. is "*relative*" as a functor to [[Ho(CombModCat)]] in that it sends weak equivalences in $sGrpd$ to [[Quillen equivalences]];
 
 1. is "*proper*" in that
 
@@ -36,13 +38,13 @@ We discuss these conditions in turn:
 
 1. To see relative-ness:
 
-   By general facts in *[[Higher Topos Theory]]* and using the [[stable Dold-Kan correspondence]], our functor [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-functor|$\infty$-functor]] $Func_\infty\big(-; (H k) Mod\big) \,\colon\, Grpd_\infty \to (H k) Mod$ assigning to base-[[infinity-groupoids|$infty$-groupoids]] their [[stable (infinity,1)-categories|stable $\infty$-categories]] of [[parameterized spectra|parameterized]] [[Eilenberg-MacLane spectrum|$H \mathbb{C}$]]-[[module spectra]] ("[[infinity-local system|$\infty$-local systems]]"). By $\infty$-functoriality, this preserves [[equivalence in an (infinity,1)-category|$\infty$-equivalences]] which here means that weak equivalences $f$ in $sGrpd$ are sent to [[derived functors]] $\mathbb{L} f_!$ which, in particular, induced [[equivalence of categories|equivalences]] on the [[homotopy category of an (infinity,1)-category|homotopy categories of $\infty$-catgories]], hence of [[homotopy category of a model category|homotopy categories of model categories]]. This means that $f_! \dashv f^\ast$ is indeed a [[Quillen equivalence]].
+   By general facts in *[[Higher Topos Theory]]* and using the [[stable Dold-Kan correspondence]], our functor [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-functor|$\infty$-functor]] $Func_\infty\big(-; (H k) Mod\big) \,\colon\, Grpd_\infty \to (H k) Mod$ assigning to base-[[infinity-groupoids|$\infty$-groupoids]] their [[stable (infinity,1)-categories|stable $\infty$-categories]] of [[parameterized spectra|parameterized]] [[Eilenberg-MacLane spectrum|$H \mathbb{C}$]]-[[module spectra]] ("[[infinity-local system|$\infty$-local systems]]"). By $\infty$-functoriality, this preserves [[equivalence in an (infinity,1)-category|$\infty$-equivalences]] which here means that weak equivalences $f$ in $sGrpd$ are sent to [[derived functors]] $\mathbb{L} f_!$ that, in particular, induce [[equivalence of categories|equivalences]] on the [[homotopy category of an (infinity,1)-category|homotopy categories of $\infty$-catgories]], hence of [[homotopy category of a model category|homotopy categories of model categories]]. But this  means that [[Quillen adjunction]] $f_! \dashv f^\ast$ induced by an equivalence $f$ is indeed a [[Quillen equivalence]].
 
 1. To see properness:
 
    1. Recall that the weak equivalences in [[model structure on functors]] are objectwise in $sGrpd$ the weak equivalences in $sCh_\bullet$. This immediately implies that $f^\ast$ (given by precomposition of functors) preserves weak equivalences (no matter the nature of $f$).
 
-   1. We show that $f_!$ preserves weak equivalences (again independently of the nature of $f$, even) by arguing that it essentially acts as its own derived functor already.
+   1. We will show that $f_!$ preserves weak equivalences (again independently of the nature of $f$, even) by arguing that it essentially acts as its own derived functor already.
 
 This last argument occupies the remainder of the proof:
 
