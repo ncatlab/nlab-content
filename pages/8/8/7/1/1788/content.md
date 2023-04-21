@@ -13,14 +13,16 @@ Consider
 
 * $sFunc\big(\mathcal{X}, sCh_\bullet(k)\big)$, for $\mathcal{X} \in sGrpd$, the [[sSet]]-[[enriched functor category]] from the [[sSet-enriched category]] [[underlying]] $\mathcal{X}$ and equipped with the injective [[model structure on functors]]
 
-  (this exists and is [[combinatorial model category|combinatorial]] because $sCh_\bullet(k)$ is, by discussion [there](model+structure+on+functors#CombinatorialCase));
+  (this exists and is [[combinatorial model category|combinatorial]], by discussion [there](model+structure+on+functors#CombinatorialCase), because $sCh_\bullet(k)$ is combinatorial);
 
-* $sFunc\big(-,sCh_\bullet(k)\big) \colon sGrpd \to Cat$ the [[pseudofunctor]] to [[Cat]] which on [[morphisms]] $f \colon \mathcal{X} \to \mathcal{Y}$ is given by [[left Kan extension]] $f_! \,\colon\, sFunc\big(\mathcal{X},sCh_\bullet(k)\big) \to sFunc\big(\mathcal{Y},sCh_\bullet(k)\big)$;
+* $sFunc\big(-,sCh_\bullet(k)\big) \colon sGrpd \to Cat$ the [[pseudofunctor]] to [[Cat]] which on [[morphisms]] $f \colon \mathcal{X} \to \mathcal{Y}$ is given by [[left Kan extension]] $f_! \,\colon\, sFunc\big(\mathcal{X},sCh_\bullet(k)\big) \to sFunc\big(\mathcal{Y},sCh_\bullet(k)\big)$
+
+  > mistake here: $f_!$ is left Quillen on the projective but not on the injective model structure...
 
 * $\underset{\mathcal{X} \in sGrpd}{\int} sFunc\big( \mathcal{X} ,\, sCh_\bullet(k)  \big)$ the [[Grothendieck construction]] on this pseudofunctor.
 
 \begin{proposition}
-  The category $\underset{\mathcal{X} \in sGrpd}{\int} sFunc\big( \mathcal{X} ,\, sCh_\bullet(k)  \big)$ admits the corresponding [[model structure on the Grothendieck construction]].
+  The category $\underset{\mathcal{X} \in sGrpd}{\int} sFunc\big( \mathcal{X} ,\, sCh_\bullet(k)  \big)$ admits the corresponding [[integral model structure]].
 \end{proposition}
 \begin{proof}
   By the discussion [there](Grothendieck+construction+for+model+categories#Definition), it is sufficient to check that $sFunc\big(-,sCh_\bullet(k)\big)$
@@ -66,9 +68,9 @@ $$
   cn_{\geq n-1} V_\bullet
   \cdots
   \big)
+  \,,
 $$
-and since [[colimits]] of [[simplicial objects]] are computed degreewise (by [[limits of presheaves are computed objectwise|general facts]]), the same holds for any functor of simplicial chain complexes $V^\bullet_\bullet(-) \in sFunc\big(\mathcal{X}, sCh_\bullet(k)\big)$
-
+and since [[colimits]] of [[simplicial objects]] are computed degreewise (by [[limits of presheaves are computed objectwise|general facts]]), the same holds for any functor of simplicial chain complexes $V^\bullet_\bullet(-) \in sFunc\big(\mathcal{X}, sCh_\bullet(k)\big)$:
 $$
   V^\bullet_\bullet(-)
   \;\simeq\;
@@ -107,10 +109,11 @@ $$
 
 Now we claim that each $cn_{\geq n} V^\bullet_\bullet(-)$ is a [[cofibrant object]] in $sFunc\big(sGrpd, sCh_\bullet(k)\big)$. Because:
 
-Since we are using the injective [[model structure on functors]], we need to see that for $\mathcal{X} \in sGrpd$ the object $cn_{\geq n} V^\bullet_\bullet(\mathcal{X})$ is cofibrant in the Bousfield localized Reedy model structure. Since left Bousfield localization does not change the class of [[cofibrations]] ([by definition](Bousfield+localization+of+model+categories#DefinitionOfLeftBousfieldLocalizations)) we are reduced to arguing plain[[Reedy model structure|Reedy cofibrancy]]. 
-Again [by definition](Reedy+model+structure#ReedyModelStructure)
-this means that we need to show that the comparison maps $L_r(-) \to (-)_r$ from its [[latching objects]] are cofibrations in $Ch_\bullet(k)$.
-Since $Ch_\bullet(k)$ is an [[abelian category]] (see [there](category+of+chain \+complexes#AbelianCategoryStructure)), it follows (by [this prop.](Reedy+model+structure#LatchingInAbelianCategoryIsDegeneracySubobject)) that $L_r(-) \to (-)_r$ is a monomorphism on our objects. Monomorphisms are cofibrations in the [[model structure on chain complexes]] over a [[field]] (where all injections are split) iff their [[cokernel]] is cofibrant (by [this Prop.](model+structure+on+chain+complexes#StandardModelStructureOnUnboundedComplexes)). But since we are dealing with maps between $n$-connective covers, also the cokernels are $n$-connective and hence cofibrant by the above argument. QED.
+Since we are using the injective [[model structure on functors]], we need to see that for $\mathcal{X} \in sGrpd$ the object $cn_{\geq n} V^\bullet_\bullet(\mathcal{X})$ is cofibrant in the Bousfield localized Reedy model structure. Since left Bousfield localization does not change the class of [[cofibrations]] ([by definition](Bousfield+localization+of+model+categories#DefinitionOfLeftBousfieldLocalizations)) we are reduced to arguing this for plain [[Reedy model structure|Reedy cofibrancy]]. 
+Here, again [by definition](Reedy+model+structure#ReedyModelStructure),
+this means that we need to show that the [comparison maps](Reedy+model+structure#eq:ComparisonMapsFromLatchingToMatchingObject) $L_r(-) \to (-)_r$ from its [[latching objects]] are cofibrations in $Ch_\bullet(k)$.
+
+But since $Ch_\bullet(k)$ is an [[abelian category]] (see [there](category+of+chain \+complexes#AbelianCategoryStructure)), it follows (by [this prop.](Reedy+model+structure#LatchingInAbelianCategoryIsDegeneracySubobject)) that $L_r(-) \to (-)_r$ is a monomorphism on our objects. Monomorphisms are cofibrations in the [[model structure on chain complexes]] over a [[field]] (where all injections are split) iff their [[cokernel]] is cofibrant (by [this Prop.](model+structure+on+chain+complexes#StandardModelStructureOnUnboundedComplexes)). But since we are dealing with maps between $n$-connective covers, also the cokernels are $n$-connective and hence cofibrant by the above argument. QED.
 
 It follows that the [[left Quillen functor]] $f_!$ on the right hand side in the above formula is applied to cofibrant objects and hence coincides with its [[derived functor]] there, thus sending weak equivalences to weak equivalences ([Ken Brown's lemma](Introduction+to+Homotopy+Theory#KenBrownLemma)). 
 
