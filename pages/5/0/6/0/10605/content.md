@@ -21,7 +21,7 @@ Heraclitus was an ancient [[philosophy|philosopher]].
 
 * [Wikipedia page](http://en.wikipedia.org/wiki/Heraclitus)
 
-{#RelationToHegel} The extremely fragmentary record that survided (see [below](#DiogenesOnHeraclitus)) suggests that Heraclitus entertained thoughts similar to the ontological progression of [[unity of opposites]] later developed in [[Hegel]]'s *[[Science of Logic]]* (see Hegel's own account of Heraclitus [further below](#HegelOnHeraclitus), in particular [here](#HegelHistory1b)), which, in turn, was yet later argued by [[William Lawvere]] to be formalized by the notion of [[adjoint modalities]].
+{#RelationToHegel} The extremely fragmentary record that survided (see [below](#DiogenesOnHeraclitus)) suggests that Heraclitus entertained thoughts similar to (and [apparently](#HegelHistory1b) being inspiration for) the ontological progression of [[unity of opposites]] later developed in [[Hegel]]'s *[[Science of Logic]]* (see Hegel's own account of Heraclitus [further below](#HegelOnHeraclitus), in particular [here](#HegelHistory1b)), which, in turn, was yet later (as recounted by [Lambek 1981](#Lambek81)) argued by [[William Lawvere]] to be formalized by the notion of [[adjoint modalities]].
 
 
 ## Diogenes Laërtius on Heraclitus
@@ -113,14 +113,14 @@ The primary source is:
 
 Discussion of the possible formalization of [[dialectics]] and [[duality]] by the concept of _[[adjunction]]_ ([[adjoint functors]]) is in
 
-* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981) doi:[10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6), [ResearchGate pdf](https://www.researchgate.net/profile/Costas-Drossos/post/What_splits_us_up/attachment/59d634bfc49f478072ea2f15/AS%3A273656826007552%401442256279433/download/LambekHeraclitus.pdf)
+* {#Lambek81} [[Joachim Lambek]], *The Influence of Heraclitus on Modern Mathematics*, in: Joseph Agassi and Robert S Cohen (eds.), *Scientific Philosophy Today: Essays in Honor of Mario Bunge*, Boston Studies in the Philosophy of Science **67**, D. Reidel Publishing (1981) 111-121 &lbrack;[doi:10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6), [ResearchGate pdf](https://www.researchgate.net/profile/Costas-Drossos/post/What_splits_us_up/attachment/59d634bfc49f478072ea2f15/AS%3A273656826007552%401442256279433/download/LambekHeraclitus.pdf)&rbrack;
 
 based on discussion with [[William Lawvere]], who in turn took hints from
 
-* [[Hegel]], _[[Science of Logic]]_
+* [[Hegel]], _[[Science of Logic]]_.
 
 Comparative discussion with [[taoism]] is in
 
-* {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris 2013 ([[Butti13.pdf:file]])
+* {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris **13** 1 (2013) &lbrack;[ephemeris:13-1](https://digitalworks.union.edu/ephemeris/vol13/iss1/1), [pdf](https://www.cpp.edu/~jet/Documents/JET/Jet21/Butti41-54.pdf), [[Butti13.pdf:file]]&rbrack;
 
 category: people 
