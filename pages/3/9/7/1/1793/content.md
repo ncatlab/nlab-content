@@ -653,7 +653,7 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 \end{proposition}
 (For partial characterization of the [[cofibrant objects]] see further [below](#BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant).)
 \begin{proof}
-Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99)
+Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98), see also [Fauk (2006), Thm. 3.2](#Fausk06). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99)
 
 {#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]], so that the model structure is [[combinatorial model category|combinatorial]]. (This minor but important point must be clear to the above authors, but seems not to be made explicit in any of the references.) This follows because:
 
@@ -1357,8 +1357,8 @@ The resolution model structures on cofibrant objects go back to
 
 and are reviewed in
 
-* A. Bousfield, _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
-{#Bousfield}
+* {#Bousfield} [[Aldrich Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
+
 
 
 
@@ -1399,16 +1399,16 @@ In the context of the [[Dold-Kan correspondence]] with the [[model structure on 
 That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thus a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is 
 
 * {#RezkSchwedeShipley01} [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], Cor. 4.6 in: *Simplicial structures on model categories and functors*, American Journal of Mathematics **123** 3 (2001) 551-575  &lbrack;[arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor:25099071](https://www.jstor.org/stable/25099071)&rbrack;
- 
+
+Generalization to [[presheaves]] of chain complexes:
+
+* {#Fausk06} [[Halvard Fausk]], *T-model structures on chain complexes of presheaves* &lbrack;[arXiv:math/0612414](https://arxiv.org/abs/math/0612414)&rbrack;
 
 The article
 
 * {#ChristensenHovey} [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_, Math. Proc. Cambridge Philos. Soc. **133** 2 (2002) 261-293 &lbrack;[arXiv:math/0011216](https://arxiv.org/abs/math/0011216), [doi:10.1017/S0305004102006126](https://doi.org/10.1017/S0305004102006126)&rbrack;
 
-
-discusses model structures on unbounded chain complexes with generalized notions of epimorphisms induced from "projective classes".
-
-See also
+discusses model structures on unbounded chain complexes with generalized notions of epimorphisms induced from "projective classes". See also:
 
 * [[Dan Christensen]], _Derived categories and projective classes_ , (2005) ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
 
@@ -1436,7 +1436,7 @@ A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex
 
 A model structure on noncommutative [[dg-algebra]]s whose proof strategy is useful also for cochain complexes is in
 
-* [[J. F. Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications **17**, AMS (1997) 55-58.
+* [[J. F. Jardine]], _[[JardineModelDG.pdf:file]]_, Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications **17**, AMS (1997) 55-58.
 
 
 [[!redirects model structures on chain complexes]]
