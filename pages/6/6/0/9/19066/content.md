@@ -37,7 +37,7 @@ In the [[Grothendieck construction]] $\int F$ we define a morphism $(f,\phi) \co
 * a *fibration* if $f$ is a fibration in $M$ and the [[adjunct]] $\hat{\phi} \colon X\to f^*(Y)$ is a fibration in $F(A)$.
 
 \begin{proposition}\label{ExistenceStatement}
-There classes of maps make $\int F$ a model category.
+There classes of maps make $\int F$ a model category, called the *integral model structure*.
 \end{proposition}
 This is [Harpaz & Prasma (2015), Theorem 3.0.12](#HarpazPrasma15).
 
@@ -80,6 +80,7 @@ For the special case of pseudofunctors with values in [[groupoids]], a [[model c
 
 [[!redirects Grothendieck construction of model categories]]
 [[!redirects model category-theoretic Grothendieck construction]]
+
 [[!redirects integral model structure]]
 [[!redirects integral model structures]]
 [[!redirects lax colimit model structure]]
