@@ -21,26 +21,130 @@
 
 ## Idea
 
-Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]]: [[reflective localization]]. In fact, left Bousfield localization is a [[Quillen reflection]].
+Left Bousfield localization is a model-categorical analogue of [[reflective localization]].
 
-The historically original example is the [[Bousfield localization of spectra]]. But the notion is much more general.
+Recall that the reflective localization of a category $C$ at a set of morphisms $S$ can be presented as the [[category of fractions]] of $C$ with respect to the class of $S$-local equivalences.
 
-## Definition
+In complete analogy to this, the left Bousfield localization of a [[model category]], and, more generally, a [[relative category]] $C$ at a set of morphisms $S$ can be presented as the same underlying category of $C$ equipped with the larger class of weak equivalences: $S$-local weak equivalences.
+
+Here the process of enlarging the class of weak equivalences can be seen as the homotopy coherent analogue of the [[category of fractions]].
+
+A left Bousfield localization is in particular a [[Quillen reflection]].
+
+The historically original example is the [[Bousfield localization of spectra]].
+But the notion is much more general, as explained above.
+
+## Left and right localization at a class of morphisms
+
+\begin{definition}
+(Hirschhorn, Definition 3.3.1.)
+The __left localization__ of a [[model category]] $C$ with respect to a class of morphisms $S$ in $C$
+is the initial object (if it exists) $C\to L_S C$ in the following category.
+Objects are [[left Quillen functors]] $C\to D$ whose [[left derived functor]] sends elements of $S$ to weak equivalences in $D$.
+Morphisms are commutative triangles of left Quillen functors.
+\end{definition}
+
+The definition immediately implies that left localizations, if they exist, are unique up to a unique isomorphism.
+
+The adjective “left” refers to the fact that the localization functor is implemented as the [[left derived functor]] of $C\to L_S C$,
+in complete analogy to how the localization functor for a [[reflective localization]] is a left adjoint functor.
+
+Right localizations are defined analogously and generalize [[coreflective localizations]].
+
+## Local objects and local equivalences
+
+Let $C$ be a [[model category]] with a class of morphisms $S$.
+
+We want to characterize objects in $C$ that “see elements of $S$ as weak equivalences”.
+
+\begin{lemma}
+In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
+$$
+  Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
+$$
+is an [[isomorphism]] (of sets, i.e., a [[bijection]]).
+\end{lemma}
+
+So we can “test isomorphism by homming them into objects”.
+
+More generally, recall the following facts about [[reflective localizations]].
+If $C$ is a category and $S$ is a class of morphisms in $C$, then an $S$-local object is an object $X\in C$ such that for every $f\colon A\to B$ in $S$, the map $C(B,X)\to C(A,X)$ is an isomorphism.  An $S$-local equivalence is a morphism $g\colon E\to F$ such that for every $S$-local object $X\in C$, the map $C(F,X)\to C(E,X)$ is an isomorphism.  The reflective localization of $C$ at $S$ (if it exists) is defined as an initial object in the category whose objects are left adjoint functors $C\to D$ that send elements of $S$ to isomorphisms in $D$, and morphisms are commutative triangles of left adjoint functors.
+The functor from the full subcategory of $S$-local objects in $C$ into the [[category of fractions]] of $C$ with respect to $S$-local equivalences is an equivalence of categories.  Thus, both domain and codomain of the above functor are models for the [[reflective localization]] of $C$ at $S$.
+
+The following definitions offer a completely analogous picture for [[model categories]].
+
++-- {: .num_defn }
+###### Definition
+**($S$-local objects and $S$-local weak equivalences)**
+
+(Hirschhorn {#Hirschhorn}, Definition 3.1.4.)
+
+Say that
+
+* an object $X$ is an $S$-[[local object]] if for all $s : A \hookrightarrow B$ in $S$ the morphism
+$$RMap(s,X) : RMap(B,X) \to RMap(A,X)$$
+is a weak equivalence of [[simplicial sets]], where $RMap$ denotes the [[homotopy function complex]], implemented, for example, as the [[hammock localization]];
+
+* conversely, say that a map $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $RMap(f,X) : RMap(B,X) \to
+RMap(A,X)$ is a weak equivalence of simplicial sets.
+
+=--
+
+We write $W_S$ for the collection of $S$-local weak equivalences.
+
++-- {: .num_remark }
+###### Remark
+
+For every weak equivalence $f : A \stackrel{\simeq}{\to} B$ between cofibrant objects and every fibrant object $X$ in a [[simplicial model category]] $C$
+the map
+$$C(f,X) : C(B,X) \to C(A,X)$$
+is a weak equivalence of simplicial sets.
+This is described in detail at
+[enriched homs from cofibrants to fibrants](http://ncatlab.org/nlab/show/%28infinity%2C1%29-categorical+hom-space#EnrichedHomsCofToFib).
+
+=--
+
+\begin{lemma}
+(Hirschhorn, Proposition 3.1.5.)(
+Every ordinary weak equivalence is also $S$-local weak equivalence.
+$$W \subset W_S.$$
+\end{lemma}
+
+## Left and right Bousfield localizations
+{#Definition}
+
++-- {: .num_defn }
+###### Definition
+**(left Bousfield localization)**
+
+The left Bousfield localization $L_S C$ of a [[model category]] $C$ **at a class of morphisms $S$** is, if it exists, the new model category structure on $C$ with
+
+* cofibrations are the same as before, $cof_{L_S C } = cof_C$;
+
+* weak equivalences are $S$-local equivalences.
+
+=--
+
+Again, the adjective “left” refers to the fact that the localization is implemented by the [[left derived functor]], generalizing [[reflective localizations]].
+
+Right Bousfield localizations are defined analogously and generalize [[coreflective localizations]].
+
+\begin{proposition}
+(Hirschhorn, Theorem 3.3.19.)
+Any left Bousfield localization of $M$ at $S$ is also a left localization of $M$ at $S$.
+Likewise for right localizations.
+\end{proposition}
+
+In practice, left localizations are always constructed as left Bousfield localizations.
+Therefore, both notions are used interchangeably.
+
+## Third definition
 
 \begin{definition}\label{DefinitionOfLeftBousfieldLocalizations}
 A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations,
-
-$$
-  cof_{C_{loc}} = cof_c
-$$
-
+$$cof_{C_{loc}} = cof_c$$
 but more weak equivalences
-
-$$
-  W_{C_{loc}} \supset W_C
-  \,.
-$$
-
+$$W_{C_{loc}} \supset W_C.$$
 \end{definition}
 
 While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
@@ -97,137 +201,19 @@ Bousfield localization is a model category version of _reflection onto [[local o
 
 =--
 
-Indeed -- at least when $C$ is a [[combinatorial simplicial model category]] -- Bousfield localization is an example of a [[localization of a simplicial model category]] and under [[presentable (infinity,1)-category|passage to the sub-category of fibrant-cofibrant objects]] this Quillen adjunction becomes the inclusion of a [[reflective (∞,1)-subcategory]]
-
+Indeed, the Quillen adjunction given by a left Bousfield localization under [[presentable (infinity,1)-category|passage to the sub-category of fibrant-cofibrant objects]] becomes the inclusion of a [[reflective (∞,1)-subcategory]]
 $$
   {C_{loc}}^\circ \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
   C^\circ
 $$
-
 hence of a [[localization of an (∞,1)-category]].
 
 Such a localization is determined by the collection $S$ of _[[local object|local weak equivalences]]_ in $C$, and alternatively by the collection of $S$-[[local object]]s in $C$. Indeed, ${C_{loc}}^\circ$ is the full $(\infty,1)$-subcategory on the cofibrant and fibrant and $S$-local objects of $C$.
 
 
-## Localization at $S$-local weak equivalences {#Definition}
+## Properties {#Properties}
 
-More in detail, the weak equivalences that are added under Bousfield localization are ''$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see [below](#LocHasToBeSLoc) why this is necessarily the case if $C$ is a [[cofibrantly generated model category]]. For the moment, we take the following to be a refined definition of left Bousfield localization.
-
-Let $C$ be a
-
-* [[left proper model category|left proper]]
-
-* [[cofibrantly generated model category|cofibrantly generated]]
-
-* [[simplicial model category]].
-
-* $S \subset cof_C \subset Mor(C)$ be a subclass of cofibrations with cofibrant domain.
-
-We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that
-
-\begin{lemma}
-
-In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
-
-$$
-  Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
-$$
-
-is an [[isomorphism]] (of sets, i.e. a [[bijection]]).
-\end{lemma}
-
-So we can "test isomorphism by homming them into objects".
-This phenomenon we use now the other way round, to characterize new weak equivalences:
-
-+-- {: .num_defn }
-###### Definition
-**($S$-local objects and $S$-local weak equivalences)**
-
-Say that
-
-* a fibrant object $X$ is an $S$-[[local object]] if for all $s : A \hookrightarrow B$ in $S$ the morphism
-
-  $$
-    C(s,X) : C(B,X) \to C(A,X)
-  $$
-
-  is a trivial [[Kan fibration]];
-
-* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local fibrant objects $X$ the morphism $C(f,X) : C(B,X) \to
-C(A,X)$ is a trivial [[Kan fibration]].
-
-=--
-
-This is a slightly simplified version of a more general definition using [[derived hom space]]s, where we do not have to assume that the domains and codomains of elements are $S$ and not that the local objects are fibrant.
-
-
-+-- {: .num_def }
-###### Definition
-**($S$-local objects and $S$-local weak equivalences)**
-
-Assume that we have fibrant and cofibrant replacement functors $P,Q : C \to C$. Then say
-
-* an object $X$ is an $S$-[[local object]] if for all $s : A \hookrightarrow B$ in $S$ the morphism
-
-  $$
-    C(Q s,P X) : C(Q B,P X) \to C(Q A,P X)
-  $$
-
-  is a [[model structure on simplicial sets|weak equivalence of simplicial sets]];
-
-* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $C(Q f,P X) : C(Q B,P X) \to
-C(Q A,P X)$ is a weak equivalence.
-
-That this second condition is indeed compatible with the first one is shown [here](http://ncatlab.org/nlab/show/local+object#PropInModCat).
-
-=--
-
-We write $W_S$ for the collection of $S$-local weak equivalences.
-
-+-- {: .num_remark }
-###### Remark
-
-For every weak equivalence $f : A \stackrel{\simeq}{\to} B$ between cofibrant objects and every fibrant object $X$ it follows generally from the fact that $C$ is an [[SSet]]-[[enriched category]] that
-
-$$
-  C(f,X) : C(B,X) \to C(A,X)
-$$
-
-is a weak equivalence of simplicial sets.
-This is described in detail at
-[enriched homs from cofibrants to fibrants](http://ncatlab.org/nlab/show/%28infinity%2C1%29-categorical+hom-space#EnrichedHomsCofToFib).
-
-=--
-
-Here this implies in particular
-
-
-\begin{lemma}
-Every ordinary weak equivalence is also $S$-local weak equivalence.
-
-$$
-  W \subset W_S
-  \,.
-$$
-\end{lemma}
-
-Therefore, for any set $S$, we can consider the left Bousfield localization at the $S$-local weak equivalences $W_S$:
-
-+-- {: .num_defn }
-###### Definition
-**(left Bousfield localization)**
-
-The left Bousfield localization $L_S C$ of $C$ **at $S$** is, if it exists, the new model category structure on $C$ with
-
-* cofibrations are the same as before, $cof_{L_S C } = cof_C$;
-
-* acyclic cofibrations are the cofibrations that are $S$-local weak equivalences.
-
-=--
-
-### Properties {#Properties}
-
-Assume that the left Bousfield localization $L_S C$ of a given model category at a class $S$ of cofibrations with cofibrant domain exists. Then it has the following properties.
+Assume that the left Bousfield localization $L_S C$ of a given model category at a class $S$ of morphisms in $C$ exists. Then it has the following properties.
 
 #### Fibrants in $L_S C$ are the $S$-local fibrants in $C$
 
@@ -1406,10 +1392,14 @@ The original article:
 
   [doi]: http://dx.doi.org/10.1016/0040-9383(75)90023-3
 
-Detailed discussion (for [[left proper model category|left proper]] [[cellular model category|cellular model categories]]):
+Detailed discussion (including existence results for [[left proper model category|left proper]] [[cellular model category|cellular model categories]]):
 
-* {#Hirschhorn02} [[Philip Hirschhorn]], Section 3.3 and Chapter 4 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs **99* (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
+* {#Hirschhorn02} [[Philip Hirschhorn]], Section 3.3 and Chapter 4 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
+Existence results for [[combinatorial model categories]]:
+
+* [[Clark Barwick]], _On left and right model categories and left and right Bousfield localizations_, Homology, Homotopy and Applications 12:2 (2010), 245–320.
+[arXiv:0708.2067v2](https://arxiv.org/abs/0708.2067), [doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9).
 
 
 In  
