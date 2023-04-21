@@ -1,6 +1,6 @@
 
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Richard_Taylor_(mathematician))
+* <a href="https://en.wikipedia.org/wiki/Richard_Taylor_(mathematician)">Wikipedia</a>
 
 On the [[modularity theorem]]:
 
