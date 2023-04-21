@@ -100,4 +100,6 @@ Review of the fact that Galois representations encode [[local systems]] are are 
 
 See also at _[[function field analogy]]_.
 
+* [[Peter Scholze]], _Locally symmetric spaces, and Galois representations_, Harvard CMD conference 2015, [yt](https://www.youtube.com/watch?v=4NCk8ItLMR0)
+
 [[!redirects Galois representations]]
