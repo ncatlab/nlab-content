@@ -119,7 +119,7 @@ Locally presentable categories are precisely the categories of [[sketch|models o
 
 =--
 
-This is ([Adamek-Rosicky, corollary 1.52](#AdamekRosicky)).
+This is [Adámek & Rosický (1994), corollary 1.52](#AdámekRosický94).
 
 Restricted to locally finitely presentable categories this becomes:
 
@@ -162,7 +162,7 @@ of [[categories of presheaves]] on some category $K$.
 =--
 
 
-This appears as ([Ad&#225;mek-Rosick&#253;, prop 1.46](#AdamekRosicky)).
+This appears as [Adámek & Rosický (1994), prop 1.46](#AdámekRosický94).
 
 +-- {: .num_remark}
 ###### Remark
@@ -219,31 +219,13 @@ which sends a finitely complete category $C$ to the category of [[models]] of $C
 =-- 
 
 
-### Stability of presentability under various operations
 
-+-- {: .num_lemma }
-###### Lemma
-
-A [[slice category]] of a locally presentable category
-is again locally presentable.
-
-=--
-
-This appears for instance as [Centazzo-Rosick&#253;-Vitale, remark 3](#CentazzoRosickyVitale).
-
-
-+-- {: .num_theorem}
-###### Theorem
-
-If $A$ is locally presentable and $C$ is a [[small category]], then the [[functor category]] $A^C$ is locally presentable. 
-
-=--
 
 ### Well-poweredness and well-copoweredness
 
 * Every [[locally presentable category]] is well-powered, since it is a full reflective subcategory of a presheaf topos, so its subobject lattices are subsets of those of the latter.
 
-* Every locally presentable category is also well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdamekRosicky).
+* Every locally presentable category is also well-*copowered*.  This is shown in [Adámek & Rosický (1994), Prop. 1.57 & Thm. 2.49](#AdámekRosický94).
 
 
 ## Examples and applications
@@ -343,7 +325,9 @@ The following three examples, being [[presheaf categories]], are locally finitel
 
 * the category [[dSet]] of [[dendroidal sets]].
 
-* for $C$ a [[small category]] the [[functor category]] $Funct(C,sSet)$ of [[simplicial presheaves]]. 
+* for $C$ a [[small category]] the [[functor category]] $Funct(C,sSet)$ of [[simplicial presheaves]]
+
+  (see Prop. \ref{PresheavesWithValuesInLocPresAreLocPres} below). 
 
 =--
 
@@ -377,11 +361,34 @@ This implies that all [[representable functor|representables]] in a [[sheaf topo
 If $T$ is an [[accessible monad]] (a [[monad]] whose underlying [[functor]] is an [[accessible functor]]) on a locally presentable category $A$, then the category $A^T$ of [[algebras over a monad|algebras over the monad]] is locally presentable. In particular, if $A$ is locally presentable and $i: B \to A$ is a [[reflective subcategory]], then $B$ is locally presentable if $i$ is accessible.  
 =--
 
-This appears in ([Adamek-Rosicky, 2.78](#AdamekRosicky)).
+This appears in [Adámek & Rosický (1994), 2.78](#AdámekRosický94).
 
 +-- {: .query} 
 This is actually somewhat subtle and gets into some transfinite combinatorics, from what I can gather. 
 =--
+
+
+\begin{proposition}
+\label{PresheavesWithValuesInLocPresAreLocPres}
+Given
+
+* $\mathcal{C}$ a [[small category]],
+
+* $\mathcal{A}$ a locally presentable category
+
+then also the [[functor category]] $Func(\mathcal{C}, \mathcal{A})$ is locally presentable.
+\end{proposition}
+This is [Adámek & Rosický (1994), Cor. 1.54](#AdámekRosický94)
+
+See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/functor+category#LocalPresentability)_ for more.
+
+\begin{proposition}
+A [[slice category]] of a locally presentable category
+is again locally presentable.
+
+\end{proposition}
+
+This appears for instance as [Centazzo-Rosick&#253;-Vitale, remark 3](#CentazzoRosickyVitale).
 
 
 ### Combinatorial model categories
@@ -393,22 +400,6 @@ A [[combinatorial model category]] is a [[model category]] that is in particular
 
 Given a class of morphisms $\Sigma$ in a locally presentable category, the answer to the [[orthogonal subcategory problem]] for $\Sigma^\perp$ is affirmative if $\Sigma$ is small, and is affirmative for any class $\Sigma$ assuming the large cardinal axiom known as [[Vopenka's principle]]. 
 
-### Functor categories
-
-See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/functor+category#LocalPresentability)_.
-
-\begin{proposition}
-\label{PresheavesWithValuesInLocPresAreLocPres}
- Given
-
-* $\mathcal{C}$ a [[small category]]
-
-* $\mathcal{A}$ a locally presentable category
-
-then also the [[functor category]] $Func(\mathcal{C}, \mathcal{A})$ is locally presentbale.
-\end{proposition}
-
-As part of discussion of [[combinatorial model categories|combinatorial]] [[model structures on functors]], this appears in [Lurie, Prop. 2.8.2](#Lurie)
 
 ## Related concepts
 
@@ -433,7 +424,7 @@ The definition is due to
 
 Textbook account:
 
-* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
+* {#AdámekRosický94} [[Jiří Adámek]], [[Jiří Rosický]], *[[Locally presentable and accessible categories]]*, London Mathematical Society Lecture Note Series **189**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)&rbrack;
 
 Review for the case of [[locally finitely presentable categories]]:
 
