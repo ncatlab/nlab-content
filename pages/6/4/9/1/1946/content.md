@@ -667,7 +667,7 @@ $$
   }{\bigoplus}
   V_s
 $$
-and that the comparison map $L_r X \to X_r$ is the canonical inclusion of all the non-identity [[direct summands]]:
+and that the comparison map $L_r X \to X_r$ (eq:ComparisonMapsFromLatchingToMatchingObject) is the canonical inclusion of all the non-identity [[direct summands]]:
 $$
   L_r X 
   \xhookrightarrow{\phantom{--}}
