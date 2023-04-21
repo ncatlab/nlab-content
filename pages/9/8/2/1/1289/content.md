@@ -122,3 +122,6 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 [[!redirects coreflectors]]
 [[!redirects coreflection]]
 [[!redirects coreflections]]
+
+[[!redirects coreflective localization]]
+[[!redirects coreflective localizations]]
