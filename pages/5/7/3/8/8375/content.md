@@ -74,6 +74,10 @@ In [[constructive mathematics]], however, not every arity class besides $\{1\}$ 
 
 * [[arity space]]
 
+## References
+
+* [[Michael Shulman]], "Exact completions and small sheaves".  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  [Free online](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)
+
 [[!redirects arity class]]
 [[!redirects arity classes]]
 
