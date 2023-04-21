@@ -144,7 +144,7 @@ $$R_2 R_1 \cap S_2 S_2 \subseteq T_2 T_1 \qquad implies \qquad S_1 R_{1}^{op} \c
 
 Then, under the assumption that equivalence relations internal to $T$-$Alg$ commute (so that the join of equivalence relations $R, S$ on $X$ is their relational composite $R S = R \circ S$), the Desarguesian axiom follows immediately. 
 
-## Generalized Malcev operations and connection to unorderability
+## Generalized Malcev operations and connection to unorderability and recursion
 
 An algebra $A$ for a theory is _unorderable_ if there is no non-trivial compatible [[partial order]] structure on it. It is _absolutely unorderable_ if whenever there is an embedding $A \to B$, then $B$ is unorderable. 
 
@@ -152,20 +152,37 @@ Every algebra in a Malcev variety is absolutely unorderable. For if $t\leq u$, t
 
 $$u= M(t,t,u) \leq M(t,u,u) = t,$$
 
-hence $t=u$. 
+hence $t=u$. More generally:
 
-More generally, an algebra has a _generalized_ Malcev operation if and only if it is absolutely unorderable. 
++-- {: .un_prop}
+######Theorem
+An algebra has a _generalized_ Malcev operation if and only if it is absolutely unorderable. 
+=--
 
-Here, a generalized Malcev operation is a sequence of $n$ ternary operations $M_1\dots M_n$ such that 
+Here, a generalized Malcev operation is a finite sequence of ternary operations $M_1\dots M_n$ such that 
 
 $$ t = M_1(t,u,u);\ \  M_1(t,t,u)=M_2(t,u,u);\ \  M_2(t,t,u) = M_3(t,u,u);\ \  \dots M_n(t,t,u)=u.$$
  
+### Recursion and the lambda calculus
+
+Orders are often used to explain [[recursion]], by saying that a recursive definition has a solution via [[Kleene's fixed point theorem]]. Since the [[lambda calculus]] is a famous calculus for computation and recursion, there is a question (attributed to [[Gordon Plotkin]]) of whether the [[lambda calculus]] is necessarily orderable to some extent. [[Peter Selinger]] then asked, is the lambda calculus inconsistent with Malcev operators? 
+
++-- {: .un_prop}
+######Theorem 
+(Plotkin, Simpson, Selinger)
+There can be no generalized Malcev operator with $n=1$ or $n=2$ in the lambda calculus. 
+=--
+
++-- {: .un_prop}
+######Question
+For $n\gt 2$, it is an open question whether generalized Malcev operators are consistent with the lambda calculus. 
+=--
 
 ## References
 
 See the monograph [[Borceux-Bourn]].
 
-For the connection to unorderability, see the following article and references therein:
+For the connection to unorderability and recursion, see the following article and references therein:
 
 * [[Peter Selinger]], [_Order-Incompleteness and Finite Lambda Reduction Models_](https://www.mscs.dal.ca/~selinger/papers/cmaa.pdf), Theoretical Computer Science 309 (2003) 43–63.
 
