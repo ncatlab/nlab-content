@@ -80,7 +80,15 @@ Note that $C$ need not be cofibrantly generated (and the 2-trivial model structu
 In the case when $C$ is an [[accessible model category]], i.e. it is a [[locally presentable category]] and its constituent [[weak factorization systems]] have [[accessible functor|accessible]] realizations as [[functorial factorizations]], we have the following general result from [Moser](#Moser) (the unenriched case appears in [HKRS15](#HKRS15) and [GKR18](#GKR18)).
 
 \begin{theorem}\label{Accessible}
-Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cosmos]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-[[enriched category]] that is an [[accessible model category]], and $D$ a small $\mathbf{S}$-category.  Then:
+Let 
+
+* $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cosmos]]
+
+* $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-[[enriched category]] that is an [[accessible model category]], 
+
+* $D$ a [[small category|small]] $\mathbf{S}$-category.  
+
+Then:
 
 1. If [[copowers]] by the [[hom-objects]] $D(x,y)$ preserve [[acyclic cofibrations]], then the projective model structure on $[D,C]$ exists and is accessible.
 
@@ -90,8 +98,11 @@ Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cos
 
 
 ### Combinatorial case
+ {#CombinatorialCase}
 
-Every [[combinatorial model category]] (i.e. locally presentable and cofibrantly generated) is accessible, so Theorem \ref{Accessible} shows that both model structures exist, and Theorem \ref{CofGenProj} shows that the projective model structure is cofibrantly generated, hence also combinatorial.  In fact the injective model structure is also combinatorial, although the proof is much more involved, because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  This was first proven by in [[Higher Topos Theory|HTT, prop. A.2.8.2 and A.3.3.2]] under strong assumptions on the enriching category (in particular that all objects are cofibrant), and later generalized by [Makkai & Rosický 2014](#MakkaiRosický14) to essentially the following:
+Every [[combinatorial model category]] (i.e. locally presentable and cofibrantly generated) is accessible, so Theorem \ref{Accessible} shows that both model structures exist, and Theorem \ref{CofGenProj} shows that the projective model structure is cofibrantly generated, hence (by [this Prop.](locally+presentable+category#PresheavesWithValuesInLocPresAreLocPres)) also [[combinatorial model category|combinatorial]].  
+
+In fact the injective model structure is also combinatorial, although the proof is much more involved, because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  This was first proven by in [[Higher Topos Theory|HTT, prop. A.2.8.2 and A.3.3.2]] under strong assumptions on the enriching category (in particular that all objects are cofibrant), and later generalized by [Makkai & Rosický 2014](#MakkaiRosický14) to essentially the following:
 
 \begin{theorem}\label{Combinatorial}
 Let $\mathbf{S}$ be a [[locally presentable category|locally presentable]] [[cosmos]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-[[enriched category]] that is a [[combinatorial model category]], and $D$ a small $\mathbf{S}$-category.  Then:
