@@ -62,7 +62,7 @@ $$
     V_2
       \overset{\partial_2}{\to} 
     V_1
-      \overset{\partial_2}{\to} 
+      \overset{\partial_1}{\to} 
     \ker(\partial_0)   
       \to
     0
