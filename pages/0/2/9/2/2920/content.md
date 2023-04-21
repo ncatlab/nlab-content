@@ -961,11 +961,13 @@ Therefore there is little loss in assuming this extra structure, which the follo
 \label{ExistenceForLeftProperCombinatorialSimplicialModelCategories}
 If $C$ is a
 
-* [[proper model category|left proper]]
+* [[left proper model category|left proper]]
+
+* [[combinatorial model category|combinatorial]]
 
 * [[simplicial model category|simplicial]]
 
-* [[combinatorial model category]]
+[[model category]]
 
 * and $S \subset Mor(C)$ is a [[small set]] of morphisms,
 
@@ -981,6 +983,8 @@ Moreover, it satisfies the following conditions:
 
 
 \end{theorem}
+
+(Without the assumption or conclusion of simplicial enrichment, this is [Thm. 2.11](#Barwick07a).)
 
 +-- {: .proof}
 ###### Proof
@@ -1021,7 +1025,7 @@ In particular, in a locally presentable category the [[small object argument]] f
 
 A [[combinatorial model category]] is a [[locally presentable category]] that is equipped with a [[cofibrantly generated model category]] structure. So in particular there is a set of generating (acyclic) cofibrations that map between [[small objects]].
 
-[Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) says that a [[locally presentable category]] has a combinatorial model category structure already if it has weak equivalences and generating cofibrations satisfying a simple condition and if weak equivalences form an [[accessible category|accessible]] [[subcategory]] of the [[arrow category]]. This means that only two thirds of the data for a generic combinatorial model category needs to be checked and greatly facilitates checking model category structures.
+[Smith's recognition theorem](combinatorial+model+category#SmithTheorem) says that a [[locally presentable category]] has a combinatorial model category structure already if it has weak equivalences and generating cofibrations satisfying a simple condition and if weak equivalences form an [[accessible category|accessible]] [[subcategory]] of the [[arrow category]]. This means that only two thirds of the data for a generic combinatorial model category needs to be checked and greatly facilitates checking model category structures.
 
 [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) implies that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
 
@@ -1240,7 +1244,7 @@ Then the left enriched Bousfield localization $L_{S/V} C$ does exist and is [[pr
 =--
 
 
-This is ([Barwick, theorem 4.46](#Barwick)).
+This is ([Barwick 2007a, theorem 4.46](#Barwick07a)).
 
 
 
@@ -1418,9 +1422,9 @@ The relation to [[localization of an (infinity,1)-category]] is also in [[Higher
 
 A detailed discussion of Bousfield localization in the general context of [[enriched model category]] theory is in
 
-* {#Barwick} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
+* {#Barwick07a} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ &lbrack;[arXiv:0708.2067](http://arxiv.org/abs/0708.2067)&rbrack;
 
-* [[Clark Barwick]], _On the Dreaded Right Bousfield Localization_ &lbrack;[arXiv:0708.3435](http://arxiv.org/abs/0708.3435), [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf)&rbrack;
+* {#Barwick07a} [[Clark Barwick]], *On the Dreaded Right Bousfield Localization* &lbrack;[arXiv:0708.3435](http://arxiv.org/abs/0708.3435), [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf)&rbrack;
 
 in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
 
