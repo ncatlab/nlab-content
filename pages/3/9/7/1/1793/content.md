@@ -803,10 +803,7 @@ On the other hand:
 
 \begin{proposition}
 \label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
-The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose
-
-* weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
-
+The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
 \end{proposition}
 
 This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
