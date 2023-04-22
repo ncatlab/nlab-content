@@ -44,6 +44,8 @@ $ f_x(a): f_y(b)\cong f_x(b):f_{a^{-1}}(y) $ .
 
 * [[quaternion group]]
 
+* [[quaternionic set]]
+
 * [[code loop]]
 
 ## Related pages
