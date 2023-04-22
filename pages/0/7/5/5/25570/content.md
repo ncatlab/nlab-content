@@ -18,23 +18,23 @@
 
 ## Idea
 
-A **quaternionic set** is a [[simplicial set]] with a [[quaternion group|quarternionic]] symmetry, in other words it is a [[presheaf]] on the quaternionic simplex category $\Delta Q$ which contains the ordinary [[simplex category]] $\Delta$ and a [[quaternion group]] $Q_{n+1}^{op}$ as the automorphism group at the objects $[n]$, whence quaternionic sets are an example of the construction of [[skew-simplicial set|skew-simplicial sets]] from a [[crossed group|crossed simplicial group]].
+A **quaternionic set** is a [[simplicial set]] with a [[quaternion group|quarternionic]] symmetry, in other words it is a [[presheaf]] on the quaternionic simplex category $\Delta Q$ which contains the ordinary [[simplex category]] $\Delta$ and an opposite [[quaternion group]] $Q_{n+1}^{op}$ as the automorphism group at the objects $[n]$, whence quaternionic sets are an example of the construction of [[skew-simplicial set|skew-simplicial sets]] from a [[crossed group|crossed simplicial group]].
 
 ## Definition
 
 Let $Q_n$ be the [[group]] given by the [[group presentation|presentation]] $\{x,y| x^n  = y^2\;,y x y^{-1}=x^{-1}\}$, hence the $n$th [[quaternion group]], also called a *[[binary dihedral group]]*.
 
 \begin{definition}\label{Definition}
-The **quaternionic simplex category** $\Delta Q$ has objects $[n],\; n\geq 0\;$, contains the (topologists’) [[simplex category]] $\Delta$ as a (non-[[full subcategory|full]]) [[wide subcategory]] where each [[object]] $[n]$ has as [[automorphism group]] the ([[opposite group|opposite]] of the) $n+1$st [[quaternion group]]: $Aut_{\Delta Q}([n]) = Q_{n+1}^{op}$. 
+The **quaternionic simplex category** $\Delta Q$ has objects $[n],\; n\geq 0\;$, contains the (topologists’) [[simplex category]] $\Delta$ as a (non-[[full subcategory|full]]) [[wide subcategory]] and each [[object]] $[n]$ has as [[automorphism group]] the ([[opposite group|opposite]] of the) $n+1$st [[quaternion group]]: $Aut_{\Delta Q}([n]) = Q_{n+1}^{op}$. 
 
-Furthermore, any [[morphism]] $\varphi$ in $\Delta Q$ can be written uniquely factored as $\varphi = s\circ q$ with $s\in \Delta$ and $q=Q_{n+1}^{op}$. 
+Furthermore, any [[morphism]] $\varphi:[m]\to [n]$ in $\Delta Q$ can be uniquely factored as $\varphi = s\circ q$ with $s:[m]\to [n]\in \Delta$ and $q\in Q_{m}^{op}$. 
 
 A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 \end{definition}
 
 ## Properties
 
-* According to the classification of [[crossed group|crossed simplicial groups]], $\Delta Q$ corresponds to the [[exact sequence]] of crossed groups $1\to \mathbb{Z}/2\to Q_*\to D_*\to 1\; .$ Whence it is of _dihedral type_. The [[geometric realization]] of $Q_*$ is the normalizer of $S^1$ in $S^3$ (cf. [Fiedorowicz-Loday](#FL91), [Krasausakas](#Krasausakas87)).
+* According to the classification of [[crossed group|crossed simplicial groups]], $\Delta Q$ or, more precisely, the equivalent crossed group $Q_*$ corresponds to the [[exact sequence]] of crossed groups $1\to \mathbb{Z}/2\to Q_*\to D_*\to 1\; .$ Whence it is of _dihedral type_. The [[geometric realization]] of $Q_*$ is the normalizer of $S^1$ in $S^3$ (cf. [Fiedorowicz-Loday](#FL91), [Krasauskas](#Krasausakas87)).
 
 * Truncating $\Delta Q$ at $[1]$ and taking presheaves, one obtains a category of quaternionic graphs $Set^{\Delta Q_{\leq 1}^{op}}$ with a $Q_2$ action, just like [[graphic category|reflexive graphs]] result from $\Delta_1$, resp. reversible graphs from truncating $\Delta S$ in the [[symmetric set|symmetric simplex category]].
 
