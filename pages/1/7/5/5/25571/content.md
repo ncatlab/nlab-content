@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,7 +8,6 @@
 =--
 =--
 =--
-
 
 
 #Contents#
@@ -58,6 +56,10 @@ A category $A$ is **[[compact category|compact]]** in the sense of [Isbell (1968
 
 Every compact category has small [[limits]] and [[intersections]] of [[monomorphisms]], but not necessarily small colimits. A [[counterexample]] is mentioned in §3.15 of [Börger et al.](#Borger1981).
 
+## All large colimits
+
+Despite its ill behaviour, it is possible to describe the cocompletion of a locally small category $A$ under large colimits (assuming the [[law of excluded middle]]): it is given by the [[functor category]] $[A^{op}, 2]$ where $2$ is the [[interval category]]. In particular, this gives rise to a [[lax-idempotent pseudomonad]] whose unit components are (unusually) not [[representably fully faithful]]. (One might argue this disqualifies it from being a "cocompletion" in the traditional sense.) See the discussion following Example 26 of [Walker](#Walker2019).
+
 ## Related pages
 
 * [[total category]]
@@ -71,6 +73,8 @@ Every compact category has small [[limits]] and [[intersections]] of [[monomorph
 * {#Borger1981} R. Börger, [[Walter Tholen]], M. B. Wischnewsky & H. Wolff. _Compact and hypercomplete categories_. Journal of Pure and Applied Algebra 21.2 (1981): 129-144.
 
 * {#Kelly1986} [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
+
+* {#Walker2019} [[Charles Walker]]. "Distributive laws via admissibility." Applied Categorical Structures 27.6 (2019): 567-617.
 
 * {#LackTendas2023} [[Stephen Lack]] and [[Giacomo Tendas]]. _Virtual concepts in the theory of accessible categories_. Journal of Pure and Applied Algebra 227.2 (2023): 107196.
 
