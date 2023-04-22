@@ -705,3 +705,5 @@ For further developments see the references at *[[adjusted Weil algebra]]*.
 [[!redirects principal infinity-connections]]
 
 [[!redirects connections on principal ∞-bundles]]
+
+[[!redirects connection on principal L-infinity bundle]]
