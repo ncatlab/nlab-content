@@ -45,7 +45,7 @@ Then for $S \subset X$ any [[subset]], its _[[causal cone]]_ $J(S)$ is the subse
 For $S \subset X$ a [[subset]] of a [[Lorentzian manifold]], its _causal complement_ $S^\perp$ is the [[complement]] of the [[causal cone]]:
 
 $$
-  S^\perp \;\coloneqq\; S \setminus J(S)
+  S^\perp \;\coloneqq\; X \setminus J(S)
   \,.
 $$
 
