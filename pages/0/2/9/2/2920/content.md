@@ -1384,7 +1384,9 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 * [[semi-left-exact left Bousfield localization]]
 
+
 ## References
+ {#References}
 
 The original article:
 
