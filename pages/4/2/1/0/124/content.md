@@ -55,7 +55,7 @@ Finally, mixing this point of view with the second one, we can regard toposes ov
 
  (iv) 'A topos is (the extensional essence of) a first-order (infinitary) geometric theory'
 
- (v) 'A topos is a totally cocomplete object in the meta-2-category CART of cartesian (i.e. , finitely complete) categories'
+ (v) 'A topos is a [[total category|totally cocomplete]] object in the meta-2-category CART of cartesian (i.e. , finitely complete) categories'
 
  (vi) 'A topos is a generalized space'
 
