@@ -970,7 +970,7 @@ Moreover, it satisfies the following conditions:
 
 \end{theorem}
 
-(Without the assumption or conclusion of simplicial enrichment, this is [Beke (2000), Thm. 1.7](#Beke00) [Barwick (2010), Prop. 2.2 (Thm. 2.11 in preprint)](#Barwick10).)
+(Without the assumption or conclusion of simplicial enrichment, this is [Barwick (2010), Prop. 2.2 (Thm. 2.11 in preprint)](#Barwick10), see also [Beke (2000), Thm. 1.7, Prop. 1.15 & 1.19](#Beke00)).
 
 +-- {: .proof}
 ###### Proof
@@ -1398,14 +1398,14 @@ Detailed discussion (including existence results for [[left proper model categor
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Section 3.3 and Chapter 4 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
-Existence results for [[combinatorial model categories]]:
-
-* {#Beke00} [[Tibor Beke]], Theorem 1.7 in: *Sheafifiable homotopy model categories*,  Math. Proc. Cambridge Philos. Soc. __129__ 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](http://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack; 
-
-and generalization to [[enriched model categories]]:
+Existence results for (plain an [[enriched model category|enriched]]) [[combinatorial model categories]]:
 
 * {#Barwick10} [[Clark Barwick]], *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320
-&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), under other title:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067)&rbrack;
+&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), under different title:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067)&rbrack;
+
+see also
+
+* {#Beke00} [[Tibor Beke]], Theorem 1.7, Prop. 1.15, 1.19 in: *Sheafifiable homotopy model categories*,  Math. Proc. Cambridge Philos. Soc. __129__ 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](http://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack; 
 
 and specifically for combinatorial [[simplicial model categories]]:
 
