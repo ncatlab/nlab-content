@@ -27,7 +27,7 @@ One point in favour of the terminology "nuclear" over "bimonadic" is that the te
 
 ## Properties
 
-* Consider an adjunction $F \dashv G$, generating a [[monad]] $T$ and a [[comonad]] $D$. Under minimal assumptions on the categories, there is an adjunction between the category of $T$-algebras, and the category of $D$-coalgebras, and this adjunction is nuclear. See [Pavlovic–Hughes](#PavlovicHughes20).
+* Consider an adjunction $F \dashv G$, generating a [[monad]] $T$ and a [[comonad]] $D$. Under minimal assumptions on the categories, there is an adjunction between the category of $T$-algebras, and the category of $D$-coalgebras, and this adjunction is nuclear. See [Pavlovic–Hughes](#PavlovicHughes20). (Note that this construction is distinct from [[monadic decomposition]].)
 
 * Consider an adjunction $F \dashv G : B \to A$, generating a [[monad]] $T$ and a [[comonad]] $D$. Assuming that $B$ is [[Cauchy complete]], $F$ is [[comonadic]] if and only if the free–forgetful adjunction associated to the [[Eilenberg–Moore category]] of $T$ is nuclear. See [Mesablishvili](#Mesablishvili06).
 
