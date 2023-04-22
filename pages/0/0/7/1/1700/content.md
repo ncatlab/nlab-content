@@ -444,20 +444,20 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 ## References
 
-Lecture notes on the Galois theory for schemes are in
+Introduction:
 
-* [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985) ([pdf](http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf))
- {#Lenstra}
-
-Some of the material above is taken from this.
+* {#Lenstra} [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985) &lbrack;[pdf](http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf)&rbrack;
+ 
+  > Some of the material above is taken from this.
 
 * [[Ravi Vakil]], [[Kirsten Wickelgren]], _Universal covering spaces and fundamental groups in algebraic geometry as schemes_, ([pdf](http://math.stanford.edu/~vakil/files/VW2Dec1910.pdf)).
 
-A comprehensive textbook is
+Monographs:
 
-* {#BorceuxJanelidze2001} [[Francis Borceux]], [[George Janelidze]], _Galois theories_, Camb. Stud. Adv. Math. 72, Cambridge: Cambridge University Press (2001)
+* {#BorceuxJanelidze2001} [[Francis Borceux]], [[George Janelidze]], _[[Galois Theories]]_, Camb. Stud. Adv. Math. 72, Cambridge: Cambridge University Press (2001)
 
-a review of which can be found at [[Galois Theories]].
+* [[Jean-Pierre Tignol]], *Galois' Theory of Algebraic Equations*, World Scientific (2001) &lbrack;[doi:10.1142/4628](https://doi.org/10.1142/4628)&rbrack;
+
 
 The locally simply connected case is discussed for instance in 
 
