@@ -107,13 +107,19 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 ## References
 
+On the history of the notion of complex numbers:
+
+* [[Jean-Pierre Tignol]], p. 19 of: *Galois' Theory of Algebraic Equations*, World Scientific (2001) &lbrack;[doi:10.1142/4628](https://doi.org/10.1142/4628)&rbrack;
+
+* Orlando Merino, *A Short History of Complex Numbers* (2006) &lbrack;[pdf](https://www.math.uri.edu/~merino/spring06/mth562/ShortHistoryComplexNumbers2006.pdf), [[Merino-ComplexNumbers.pdf:file]]&rbrack;
+
 * [[Leo Corry]], *A Brief History of Numbers*, Oxford University Press (2015) &lbrack;[ISBN:9780198702597](https://global.oup.com/academic/product/a-brief-history-of-numbers-9780198702597)&rbrack;
 
 See also:
 
 * Wikipedia, _[Complex numbers](https://en.wikipedia.org/wiki/Complex_number)_
 
-* [[Tom Leinster]], _Objects of categories as complex numbers_, [	arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
+* [[Tom Leinster]], _Objects of categories as complex numbers_, [arXiv:math/0212377](http://arxiv.org/abs/math/0212377)
 
 
 [[!redirects complex numbers]]
