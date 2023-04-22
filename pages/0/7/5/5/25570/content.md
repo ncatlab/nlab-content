@@ -27,7 +27,7 @@ Let $Q_n$ be the [[group]] given by the [[group presentation|presentation]] $\{x
 \begin{definition}\label{Definition}
 The **quaternionic simplex category** $\Delta Q$ has objects $[n],\; n\geq 0\;$, contains the (topologists’) [[simplex category]] $\Delta$ as a (non-[[full subcategory|full]]) [[wide subcategory]] and each [[object]] $[n]$ has as [[automorphism group]] the ([[opposite group|opposite]] of the) $n+1$st [[quaternion group]]: $Aut_{\Delta Q}([n]) = Q_{n+1}^{op}$. 
 
-Furthermore, any [[morphism]] $\varphi:[m]\to [n]$ in $\Delta Q$ can be uniquely factored as $\varphi = s\circ q$ with $s:[m]\to [n]\in \Delta$ and $q\in Q_{m}^{op}$. 
+Furthermore, any [[morphism]] $\varphi:[m]\to [n]$ in $\Delta Q$ can be uniquely factored as $\varphi = s\circ q$ with $s:[m]\to [n]\in \Delta$ and $q\in Q_{m+1}^{op}$. 
 
 A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 \end{definition}
