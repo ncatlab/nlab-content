@@ -3,18 +3,12 @@
 
 ## Selected writings
 
+On [[model categories]] and [[Bousfield localization of model categories|Bousfield]] [[localization of model categories]]:
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/pshmain.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 
-On [[homotopy limits]]:
-
-* _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_
-
-On [[model categories]] and [[Bousfield localization of model categories]]:
-
-* {#Hirschhorn02} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
-
-
-On [[derived functors]] such as [[homotopy limit]]-functors on [[model categories]] and more general [[homotopical categories]]:
+On [[derived functors]] (such as [[homotopy limit]]-functors) on [[model categories]] and more general [[homotopical categories]]:
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
 
