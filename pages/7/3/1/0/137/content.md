@@ -333,7 +333,7 @@ subject to the equations $f h = f k$ and $g h = g k$, both $f$ and $g$ are stron
 
 * [[Francis Borceux]], Section 1.8 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-
+* [[G. M. Kelly]], _Monomorphisms, Epimorphisms, and Pullbacks_, Journal of the Australian Mathematical Society 9.1-2 (1969), pp. 124–142.  [doi:10.1017/s1446788700005693](https://doi.org/10.1017/s1446788700005693).
 
 [[!redirects epimorphisms]]
 [[!redirects epic]]
