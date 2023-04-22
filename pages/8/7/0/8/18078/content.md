@@ -1,2 +1,2 @@
 
-* &lbrack;and&rbrack;
+...
