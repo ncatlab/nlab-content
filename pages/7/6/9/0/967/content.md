@@ -65,6 +65,8 @@ $(\mathcal{O} \dashv Spec)$-[[adjunction]] discussed at _[[Isbell duality]]_ and
 
 * A total category $\mathcal{C}$ is [[cartesian closed category|cartesian closed]] iff $L$ preserves binary products (cf. [Wood 1982](#Wood82), Thm. 9).
 
+* Recall that every functor $f : A \to X$ factors via the [[comprehensive factorisation]] as a [[final functor]] $e$ follows by a [[discrete fibration]] $m$. A locally small category $X$ is total if and only if for every such functor $f$, such that the discrete fibration $m$ has small fibres, has a colimit. (In fact, this definition makes sense even when $X$ is not locally small.)
+
 ## Examples
 
 +-- {: .num_prop #Day} 
@@ -144,6 +146,8 @@ But cototal categories do occur:
 * {#Wood82} [[Richard J. Wood]], *Some remarks on total categories*, J. Algebra **75** 2 (1982) 538-545 &lbrack;<a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi:10.1016/0021-8693(82)90055-2</a>&rbrack;
 
 * Michael Albert Wendt. _An introduction to totally cocomplete categories_. Master thesis (1985). ([url](https://dalspace.library.dal.ca/handle/10222/80035))
+
+* [[Ross Street]]. _The comprehensive construction of free colimits_. Sydney Category Seminar Reports (Macquarie University). 1979. ([pdf](http://science.mq.edu.au/~street/CCoFC.pdf))
 
 [[!redirects total categories]]
 [[!redirects cototal category]]
