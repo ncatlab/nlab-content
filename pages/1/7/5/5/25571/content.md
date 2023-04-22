@@ -52,7 +52,7 @@ A [[total category]] is a category whose [[Yoneda embedding]] admits a [[left ad
 
 ### Compact categories
 
-A category $A$ is **[[compact category|compact]]** in the sense of [[John Isbell|Isbell]] if every [[cocontinuous functor]] from $A$ has a [[right adjoint]].
+A category $A$ is **[[compact category|compact]]** in the sense of [Isbell (1968)](#Isbell68) if every [[cocontinuous functor]] from $A$ has a [[right adjoint]].
 
 > Beware that this is *un-related* to the notion of [[compact closed category]].
 
@@ -64,7 +64,7 @@ Every compact category has small [[limits]] and [[intersections]] of [[monomorph
 
 ## References
 
-* [[John Isbell]]. _Small subcategories and completeness_. Mathematical systems theory 2.1 (1968): 27-50.
+* {#Isbell68} [[John Isbell]]. _Small subcategories and completeness_. Mathematical systems theory **2** 1 (1968) 27-50 &lbrack;[doi:10.1007/BF01691344](https://doi.org/10.1007/BF01691344)&rbrack;
 
 * {#KellyKoubek1981} [[Max Kelly]] and V. Koubek. _The large limits that all good categories admit_. Journal of Pure and Applied Algebra 22.3 (1981): 253-263.
 
