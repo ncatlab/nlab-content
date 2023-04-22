@@ -1,10 +1,18 @@
-This entry is about the monograph
+This entry is about the monograph:
 
-* {#BorceuxJanelidze2001} [[Francis Borceux]], [[George Janelidze]], _Galois theories_, Camb. Stud. Adv. Math. 72, Cambridge: Cambridge University Press (2001)
+* {#BorceuxJanelidze2001} 
+ 
+  [[Francis Borceux]] and [[George Janelidze]]: 
 
-+-- {: .query}
-(Initially it will be in the form of a book review. The initial version is an edited and adapted version of a review of the book by [[Tim Porter]] that appeared in Proceedings of the Edinburgh Mathematical Society (Series 2)  (2002), 45 : 761-762. When the entry has been influenced by other sources, please remove this box) 
-=--
+  **Galois theories** 
+  
+  Camb. Stud. Adv. Math. **72** 
+
+  Cambridge University Press (2001)
+
+on [[Galois theory]].
+
+> The following starts out with an edited and adapted version of a review of the book by [[Tim Porter]] that appeared in Proceedings of the Edinburgh Mathematical Society (Series 2)  (2002), 45 : 761-762. 
 
 The developments  that lead to this book are due to some deeply based analogies between some initially very different looking mathematical theories, one in algebra, another in topology.
 
