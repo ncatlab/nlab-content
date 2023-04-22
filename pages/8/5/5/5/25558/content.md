@@ -105,6 +105,10 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 * [[cyclic set]]
 
+* [[symmetric set]]
+
+* [[quaternionic set]]
+
 
 ## References
 
@@ -126,9 +130,11 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 * R. Krasauskas, _Skew-simplicial groups_, Lithuanian Math. J. **27** pp.47-54 (1987).
 
-* [[Jean-Louis Loday]], _Cyclic Homology_, Springer Heidelberg 1992.
+* [[Jean-Louis Loday]], _Cyclic Homology_, Springer Heidelberg 1998$^2$.
 
-* [[Jun Yoshida]], _Colimits and limits of crossed groups_, arXiv:1802.06644 (2018). ([abstract]())
+* [[Jun Yoshida]], _A general method to construct cube-like categories and applications to homotopy theory_, arXiv:1502.07539. ([abstract](https://arxiv.org/abs/1502.07539))
+
+* [[Jun Yoshida]], _Colimits and limits of crossed groups_, arXiv:1802.06644 (2018). ([abstract](https://arxiv.org/abs/1802.06644))
 
 
 [[!redirects crossed groups]]
