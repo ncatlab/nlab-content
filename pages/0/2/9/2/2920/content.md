@@ -21,35 +21,35 @@
 
 ## Idea
 
-Left Bousfield localization is a model-categorical analogue of [[reflective localization]].
+What is known as *left Bousfield localization of model categories* ([Hirschhorn (2002), §3.3](#Hirschhorn02) following [Bousfield  (1975)](#Bousfield75)) is a special case of *[[localization of model categories]]* corresponding to *[[reflective localization]]*, namely  it is a [[Quillen reflection]] inducing a [[reflective sub-(infinity,1)-category|reflective sub-$\infty$-category]] inclusion in the [[simplicial localization|associated]] [[(infinity,1)-categories|$\infty$-categories]].
 
-Recall that the reflective localization of a category $C$ at a set of morphisms $S$ can be presented as the [[category of fractions]] of $C$ with respect to the class of $S$-local equivalences.
+Recall that the [[reflective localization]] of a category $C$ at a [[set]] of morphisms $S$ can be presented as the [[category of fractions]] of $C$ with respect to the class of $S$-local equivalences. In complete analogy to this, the left Bousfield localization of a [[model category]] (and, more generally, of a [[relative category]] $C$) at a set of morphisms $S$ can be presented as the same underlying category of $C$ equipped with the larger class of [[weak equivalences]], called the $S$-[[local morphisms]].
 
-In complete analogy to this, the left Bousfield localization of a [[model category]], and, more generally, a [[relative category]] $C$ at a set of morphisms $S$ can be presented as the same underlying category of $C$ equipped with the larger class of weak equivalences: $S$-local weak equivalences.
+Here the process of enlarging the class of weak equivalences can be seen as the homotopy coherent analogue of the classical [[category of fractions]].
 
-Here the process of enlarging the class of weak equivalences can be seen as the homotopy coherent analogue of the [[category of fractions]].
+The historically original example is the [[Bousfield localization of spectra]] &lbrack;[Bousfield  (1975)](#Bousfield75)&rbrack;, but the notion is much more general, as explained above. 
 
-A left Bousfield localization is in particular a [[Quillen reflection]].
-
-The historically original example is the [[Bousfield localization of spectra]].
-But the notion is much more general, as explained above.
+The existence of Bousfield localizations for [[cellular model categories]] was established in [Hirschhorn (2002), Ch. 4](#Hirschhorn02) and for [[combinatorial model categories]] in [Barwick (2010), Prop. 2.2](#Barwick10) (Thm. 2.11 in the preprint, based on [Smith's theorem](combinatorial+model+category#SmithTheorem)) with discussion for the special case of [[simplicial model categories]] also in [Lurie (2009), around A.3.7.3](#Lurie).
 
 ## Left and right localization at a class of morphisms
 
-\begin{definition}
-(Hirschhorn, Definition 3.3.1.)
-The __left localization__ of a [[model category]] $C$ with respect to a class of morphisms $S$ in $C$
-is the initial object (if it exists) $C\to L_S C$ in the following category.
-Objects are [[left Quillen functors]] $C\to D$ whose [[left derived functor]] sends elements of $S$ to weak equivalences in $D$.
-Morphisms are commutative triangles of left Quillen functors.
+\begin{definition}\label{LeftLocalization}
+The __[[localization of a model category|left localization]]__ of a [[model category]] $C$ with respect to a class of morphisms $S$ in $C$ is the [[initial object]] (if it exists) $C \to L_S C$ in the following category:
+
+* The [[objects]] are [[left Quillen functors]] $C\to D$ whose [[left derived functor]] sends elements of $S$ to weak equivalences in $D$
+
+* the [[morphisms]] are commutative triangles of left Quillen functors.
+
 \end{definition}
+([Hirschhorn 2002, Def. 3.3.1](#Hirschhorn02))
 
-The definition immediately implies that left localizations, if they exist, are unique up to a unique isomorphism.
+This definition \ref{LeftLocalization} immediately implies that left localizations, if they exist, are unique up to a unique isomorphism.
 
-The adjective “left” refers to the fact that the localization functor is implemented as the [[left derived functor]] of $C\to L_S C$,
-in complete analogy to how the localization functor for a [[reflective localization]] is a left adjoint functor.
+The adjective "left" in Def. \ref{LeftLocalization} refers to the fact that the localization functor is implemented as the [[left derived functor]] of $C\to L_S C$,
+in complete analogy to how the localization functor for a [[reflective localization]] is a [[left adjoint]] functor.
 
 Right localizations are defined analogously and generalize [[coreflective localizations]].
+
 
 ## Local objects and local equivalences
 
@@ -58,9 +58,9 @@ Let $C$ be a [[model category]] with a class of morphisms $S$.
 We want to characterize objects in $C$ that “see elements of $S$ as weak equivalences”.
 
 \begin{lemma}
-In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
+In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f \colon A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
 $$
-  Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
+  Hom_C(f,X) \colon Hom_C(B,X) \to Hom_C(A,X)
 $$
 is an [[isomorphism]] (of sets, i.e., a [[bijection]]).
 \end{lemma}
@@ -76,10 +76,7 @@ The following definitions offer a completely analogous picture for [[model categ
 +-- {: .num_defn }
 ###### Definition
 **($S$-local objects and $S$-local weak equivalences)**
-
-(Hirschhorn {#Hirschhorn}, Definition 3.1.4.)
-
-Say that
+We say that
 
 * an object $X$ is an $S$-[[local object]] if for all $s : A \hookrightarrow B$ in $S$ the morphism
 $$RMap(s,X) : RMap(B,X) \to RMap(A,X)$$
@@ -89,6 +86,9 @@ is a weak equivalence of [[simplicial sets]], where $RMap$ denotes the [[homotop
 RMap(A,X)$ is a weak equivalence of simplicial sets.
 
 =--
+
+([Hirschhorn 2002, Def. 3.1.4](#Hirschhorn02))
+
 
 We write $W_S$ for the collection of $S$-local weak equivalences.
 
@@ -105,10 +105,11 @@ This is described in detail at
 =--
 
 \begin{lemma}
-(Hirschhorn, Proposition 3.1.5.)(
 Every ordinary weak equivalence is also $S$-local weak equivalence.
 $$W \subset W_S.$$
 \end{lemma}
+([Hirschhorn 2002, Prop 3.1.5](#Hirschhorn02))
+
 
 ## Left and right Bousfield localizations
 {#Definition}
@@ -130,10 +131,10 @@ Again, the adjective “left” refers to the fact that the localization is impl
 Right Bousfield localizations are defined analogously and generalize [[coreflective localizations]].
 
 \begin{proposition}
-(Hirschhorn, Theorem 3.3.19.)
 Any left Bousfield localization of $M$ at $S$ is also a left localization of $M$ at $S$.
 Likewise for right localizations.
 \end{proposition}
+([Hirschhorn 2002, Thm. 3.3.19](#Hirschhorn02))
 
 In practice, left localizations are always constructed as left Bousfield localizations.
 Therefore, both notions are used interchangeably.
@@ -936,9 +937,11 @@ The first part is theorem 3.3.19 in [Hirschhorn (2002)](#Hirschhorn02). The seco
 
 ## Existence of localizations for combinatorial model categories {#Existence}
 
-We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the context of [[cellular model category|cellular model categories]] &lbrack;[Hirschhorn (2002)](#Hirschhorn02)&rbrack;, but for the combinatorial case a somewhat better theory is available.
+We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]] &lbrack;[Barwick (2010), Prop. 2.2 (Thm. 2.11 in preprint)](#Barwick10)&rbrack;. 
 
-By the corollary to [[Dugger's theorem]] on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
+A similar existence result is available in the context of [[cellular model categories]] &lbrack;[Hirschhorn (2002)](#Hirschhorn02)&rbrack;, but for the combinatorial case a somewhat better theory is available.
+
+By the corollary to [[Dugger's theorem]] on presentations for [[combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category.
 
 Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
 
@@ -1390,9 +1393,7 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 The original article:
 
-* [[A. K. Bousfield]], _The localization of spaces with respect to homology_, Topology 14 (1975), 133–150.  [doi]
-
-  [doi]: http://dx.doi.org/10.1016/0040-9383(75)90023-3
+* {#Bousfield75} [[A. K. Bousfield]], *The localization of spaces with respect to homology*, Topology **14** (1975), 133–150 &lbrack;<a href="http://dx.doi.org/10.1016/0040-9383(75)90023-3">doi:10.1016/0040-9383(75)90023-3</a>&rbrack;
 
 Detailed discussion (including existence results for [[left proper model category|left proper]] [[cellular model category|cellular model categories]]):
 
