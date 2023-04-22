@@ -9,6 +9,11 @@ On [[(∞,n)-categories]]:
 
 * {#BarwickThesis} [[Clark Barwick]], _$(\infty,n)$-$Cat$ as a closed model category_ PhD (2005)
 
+On [[Bousfield localization of model categories|Bousfield localization of]] [[combinatorial model categories]]:
+
+* {#Barwick10} [[Clark Barwick]], *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320
+&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), under different title:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067)&rbrack;
+
 
 On [[relative categories]]:
 
