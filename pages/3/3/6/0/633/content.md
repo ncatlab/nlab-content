@@ -57,6 +57,7 @@ In the [[2-category]] [[Cat]] the full and faithful morphisms are precisely the 
 [[!redirects ff morphisms]]
 [[!redirects fully faithful morphism]]
 [[!redirects fully faithful morphisms]]
+[[!redirects representably fully faithful]]
 [[!redirects representably fully faithful morphism]]
 [[!redirects representably fully faithful morphisms]]
 [[!redirects 1-monic morphism]]
