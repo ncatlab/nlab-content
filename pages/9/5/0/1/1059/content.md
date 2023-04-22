@@ -40,7 +40,9 @@ If the composition $g\circ f$ is a strict epimorphism then $g$ is a strict epimo
 
 Textbook accounts:
 
-* [[Masaki Kashiwara]], [[Pierre Shapira]], p. 115-116 in: _[[Categories and Sheaves]]_ 
+* [[Ion Bucur]], [[Aristide Deleanu]], _Introduction to the theory of categories and functors_, Wiley, 1968.  
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], p. 115-116 in: _[[Categories and Sheaves]]_ 
 
 
 [[!redirects strict epimorphism]]
