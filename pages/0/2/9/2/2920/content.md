@@ -970,7 +970,7 @@ Moreover, it satisfies the following conditions:
 
 \end{theorem}
 
-(Without the assumption or conclusion of simplicial enrichment, this is [Thm. 2.11](#Barwick07a).)
+(Without the assumption or conclusion of simplicial enrichment, this is [Beke (2000), Thm. 1.7](#Beke00) [Barwick (2010), Prop. 2.2 (Thm. 2.11 in preprint)](#Barwick10).)
 
 +-- {: .proof}
 ###### Proof
@@ -1400,27 +1400,24 @@ Detailed discussion (including existence results for [[left proper model categor
 
 Existence results for [[combinatorial model categories]]:
 
-* [[Clark Barwick]], _On left and right model categories and left and right Bousfield localizations_, Homology, Homotopy and Applications 12:2 (2010), 245–320.
-[arXiv:0708.2067v2](https://arxiv.org/abs/0708.2067), [doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9).
+* {#Beke00} [[Tibor Beke]], Theorem 1.7 in: *Sheafifiable homotopy model categories*,  Math. Proc. Cambridge Philos. Soc. __129__ 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](http://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack; 
 
+and generalization to [[enriched model categories]]:
 
-In  
+* {#Barwick10} [[Clark Barwick]], *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320
+&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), under other title:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067)&rbrack;
 
-* [[Jacob Lurie]], proposition A.3.7.3 of *[[Higher Topos Theory]]*
+and specifically for combinatorial [[simplicial model categories]]:
 
-is discussion in the context of [[combinatorial model category|combinatorial model categories]] and of [[combinatorial simplicial model category|combinatorial simplicial model categories]] in particular.
+* {#Lurie} [[Jacob Lurie]], around prop. A.3.7.3 of: *[[Higher Topos Theory]]* (2009)
 
-The relation to [[localization of an (infinity,1)-category]] is also in [[Higher Topos Theory|HTT]], for the time being see the discussion at [[models for ∞-stack (∞,1)-toposes]] for more on that.
+The relation to [[localization of an (infinity,1)-category]] is also in *[[Higher Topos Theory]]*, for the time being see discussion at [[models for ∞-stack (∞,1)-toposes]].
+ 
+On [[right Bousfield localization]]
 
-A detailed discussion of Bousfield localization in the general context of [[enriched model category]] theory is in
+* {#Barwick07b} [[Clark Barwick]], *On the Dreaded Right Bousfield Localization* &lbrack;[arXiv:0708.3435](http://arxiv.org/abs/0708.3435), [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf)&rbrack;
 
-* {#Barwick07a} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ &lbrack;[arXiv:0708.2067](http://arxiv.org/abs/0708.2067)&rbrack;
-
-* {#Barwick07a} [[Clark Barwick]], *On the Dreaded Right Bousfield Localization* &lbrack;[arXiv:0708.3435](http://arxiv.org/abs/0708.3435), [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf)&rbrack;
-
-in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
-
-The relation to [[Vopěnka's principle]] is discussed in
+The relation to [[Vopěnka's principle]]:
 
 * {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society **355** 9 (2003) 3611-3623 &lbrack;[jstor:1194855](http://www.jstor.org/stable/1194855)&rbrack;
 
@@ -1448,3 +1445,14 @@ Comprehensive review:
 [[!redirects left Bousfield localisations]]
 [[!redirects right Bousfield localisation]]
 [[!redirects right Bousfield localisations]] 
+
+
+[[!redirects localization of a simplicial model category]]
+[[!redirects localization of simplicial model categories]]
+
+[[!redirects Bousfield localization of a simplicial model category]]
+[[!redirects Bousfield localization of simplicial model categories]]
+
+
+
+
