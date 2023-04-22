@@ -613,9 +613,9 @@ The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[
 
 The original articles on Isbell duality and the [[Isbell envelope]] are
 
-* {#Isbell66} [[John Isbell]], _Structure of categories_, Bulletin of the American Mathematical Society 72 (1966), 619&#8211; 655. ([project euclid](http://projecteuclid.org/euclid.bams/1183528163))
+* {#Isbell66} [[John Isbell]], *Structure of categories*, Bulletin of the American Mathematical Society **72** (1966), 619-655. &lbrack;[euclid:1183528163](http://projecteuclid.org/euclid.bams/1183528163), [ams:1966-72-04/S0002-9904-1966-11541-0](https://www.ams.org/journals/bull/1966-72-04/S0002-9904-1966-11541-0/)&rbrack;
 
-* {#Isbell67} [[John Isbell]], _Normal completions of categories_, Reports of the Midwest Category Seminar, vol. 47, Springer, 1967, 110&#8211;155.
+* {#Isbell67} [[John Isbell]], _Normal completions of categories_, Reports of the Midwest Category Seminar, **47**, Springer (1967) 110-155 &lbrack;[doi:10.1007/BFb0074302](https://doi.org/10.1007/BFb0074302)&rbrack;
 
 * {#Kock66} [[Anders Kock]]. _Continuous Yoneda representation of a small category_. University of Aarhus, Denmark, 1966.
 
