@@ -50,3 +50,6 @@ See also:
 [[!redirects weakly initial algebras]]
 [[!redirects weak initial algebra]]
 [[!redirects weak initial algebras]]
+
+[[!redirects weakly terminal object]]
+[[!redirects weakly terminal objects]]
