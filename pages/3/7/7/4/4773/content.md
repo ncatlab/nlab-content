@@ -5,7 +5,7 @@
 * G.-C. Rota, B. D. Taylor, SIAM J. Math. Anal. __25__ (1994), no. 2, 694--711; [MR95d:05014](http://www.ams.org/mathscinet-getitem?mr=95d:05014), [doi](http://dx.doi.org/10.1137/S0036141093245616)
 * Thomas J. Robinson, _Formal calculus and umbral calculus_, The electronic journal of combinatorics 17 (2010), $\sharp R95$, [pdf](http://www.combinatorics.org/Volume_17/PDF/v17i1r95.pdf)
 * [[Doron Zeilberger]], _The umbral transfer-matrix method. I. Foundations._, In memory of Gian-Carlo Rota. J. Combin. Theory Ser. A 91 (2000), no. 1-2, 451--463, [MR2001g:05018](http://www.ams.org/mathscinet-getitem?mr=2001g:05018), [doi](http://dx.doi.org/10.1006/jcta.2000.3110)
-* A D Buchianico, D. Loeb, _A selected survey of umbral calculus_, [pdf](www.combinatorics.org/Surveys/ds3.pdf)
+* A. Di Bucchianico, D. Loeb, _A selected survey of umbral calculus._ Electronic Journal of Combinatorics __2__ (1995), 28, [pdf](https://www.combinatorics.org/files/Surveys/ds3/ds3v2-2000.pdf)
 * Li Guo, _Baxter algebras and the umbral calculus_,  Adv. in Appl. Math. __27__ (2001), 405-426; cf. also [[Rota-Baxter algebra]]
 * G. Dattoli, E. Palma, , E. Sabia, K. Górska, A. Horzela, K. A. Penson, _[[operational calculus|Operational]] versus umbral methods and the Borel transform_, Int. J. Appl. Comput. Math (2017) 3: 3489 [doi](https://doi.org/10.1007/s40819-017-0315-7)
 
