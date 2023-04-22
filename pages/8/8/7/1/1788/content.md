@@ -50,6 +50,8 @@ We discuss these conditions in turn:
 
 This last argument occupies the remainder of the proof:
 
+> The following is besides the point, since it is referring to the injective model structure where it should be referring to the projective one. Will fix...
+
 First observe that, while not all chain complexes are cofibrant ([this remark](model+structure+on+chain+complexes#NotAllUnboundedComplexesAreProjectivelyCofibrant)), *all [[bounded-below chain complexes]] are cofibrant* (by [this Prop.](model+structure+on+chain+complexes#BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant) and using that we are working over a [[field]] all whose [[modules]], namely [[vector spaces]], are [[projective module|projective]], by [this Prop.](projective+module#ModuleOverAFieldIsProjective) ).
 
 But every chain complex $V_\bullet \,\in\, Ch_\bullet(k)$ is the [[colimit]] over its [[cotower]] of $n$-[[connective covers]] 
