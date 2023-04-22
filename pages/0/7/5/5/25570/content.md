@@ -18,16 +18,19 @@
 
 ## Idea
 
-A **quaternionic set** is a [[simplicial set]] with a [[quaternion group|quarternionic]] symmetry, in other words it is a [[presheaf]] on the quaternionic simplex category $\Delta Q$ which contains the ordinary [[simplex category]] $\Delta$ plus $Q_{n+1}^{op}$ as the automorphism group at the objects $[n]$ whence quaternionic sets are an example of the construction of [[skew-simplicial set|skew-simplicial sets]] from a [[crossed group|crossed simplicial group]].
+A **quaternionic set** is a [[simplicial set]] with a [[quaternion group|quarternionic]] symmetry, in other words it is a [[presheaf]] on the quaternionic simplex category $\Delta Q$ which contains the ordinary [[simplex category]] $\Delta$ and a [[quaternion group]] $Q_{n+1}^{op}$ as the automorphism group at the objects $[n]$, whence quaternionic sets are an example of the construction of [[skew-simplicial set|skew-simplicial sets]] from a [[crossed group|crossed simplicial group]].
 
 ## Definition
 
-Let $Q_n$ be the group given by the presentation $\{x,y| x^n=y^2\;,yxy^{-1}=x^{-1}\}$ be the nth [[quaternion group]], also called a binary [[dihedral group]].
+Let $Q_n$ be the [[group]] given by the [[group presentation|presentation]] $\{x,y| x^n  = y^2\;,y x y^{-1}=x^{-1}\}$, hence the $n$th [[quaternion group]], also called a *[[binary dihedral group]]*.
 
-+-- {: .num_defn }
-###### Definition
-The **quaternionic simplex category** $\Delta Q$ has objects $[n],\; n\geq 0\;$, contains the (topologists’) [[simplex category]] $\Delta$ as a subcategory and has $Aut_{\Delta Q}([n])=Q_{n+1}^{op}$. Furthermore, any morphism $\varphi$ in $\Delta Q$ can be written uniquely as a product $\varphi=s\circ q$ with $s\in \Delta$ and $q=Q_{n+1}^{op}$. A **quaternionic set** is a presheaf on $\Delta Q$.
-=--
+\begin{definition}\label{Definition}
+The **quaternionic simplex category** $\Delta Q$ has objects $[n],\; n\geq 0\;$, contains the (topologists’) [[simplex category]] $\Delta$ as a (non-[[full subcategory|full]]) [[wide subcategory]] where each [[object]] $[n]$ has as [[automorphism group]] the ([[opposite group|opposite]] of the) $n+1$st [[quaternion group]]: $Aut_{\Delta Q}([n]) = Q_{n+1}^{op}$. 
+
+Furthermore, any [[morphism]] $\varphi$ in $\Delta Q$ can be written uniquely factored as $\varphi = s\circ q$ with $s\in \Delta$ and $q=Q_{n+1}^{op}$. 
+
+A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
+\end{definition}
 
 ## Properties
 
