@@ -22,7 +22,7 @@
 
 ## Idea
 
-A **total category** is a category with a well-behaved [[Yoneda embedding]] endowing the category with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties but still admitting most types of categories occurring "in practice".
+A **total category** (also called **totally cocomplete categories**) is a category with a well-behaved [[Yoneda embedding]] endowing the category with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties but still admitting most types of categories occurring "in practice".
 
 ## Definition
 
@@ -143,6 +143,10 @@ But cototal categories do occur:
 
 * {#Wood82} [[Richard J. Wood]], *Some remarks on total categories*, J. Algebra **75** 2 (1982) 538-545 &lbrack;<a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi:10.1016/0021-8693(82)90055-2</a>&rbrack;
 
+* Michael Albert Wendt. _An introduction to totally cocomplete categories_. Master thesis (1985). ([url](https://dalspace.library.dal.ca/handle/10222/80035))
+
 [[!redirects total categories]]
 [[!redirects cototal category]]
 [[!redirects cototal categories]]
+[[!redirects totally cocomplete category]]
+[[!redirects totally cocomplete categories]]
