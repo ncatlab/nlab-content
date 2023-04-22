@@ -143,12 +143,16 @@ This is useful in the construction of [[reflective factorization systems]].
 
 [[!redirects M-complete category]]
 [[!redirects M-complete categories]]
+[[!redirects M-limit]]
+[[!redirects M-limits]]
 
 [[!redirects mono-complete category]]
 [[!redirects mono-complete categories]]
 
 [[!redirects E-cocomplete category]]
 [[!redirects E-cocomplete categories]]
+[[!redirects E-colimit]]
+[[!redirects E-colimits]]
 
 [[!redirects epi-cocomplete category]]
 [[!redirects epi-cocomplete categories]]
