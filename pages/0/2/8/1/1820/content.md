@@ -277,7 +277,7 @@ of the [[arrow category]] on the weak equivalences is an [[accessible functor|ac
 
 =--
 
-This is due to Smith. A proof appears as ([Dugger 01, 7.4](#Dugger01)). See also ([Barwick, prop. 1.10](#Barwick)).
+This is due to Smith. A proof appears as [Dugger 01, 7.4](#Dugger01). See also [Barwick, prop. 1.10](#Barwick).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -631,7 +631,7 @@ The definition of combinatorial model categories is recalled also as:
 
 * {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_ (2009) 
 
-Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)). For more see at *[[Bousfield localization of model categories]]*.
+Smith's theorem appears as [Lurie, A.2.6.10](#Lurie)  and as [Barwick, prop. 1.7](#Barwick). For more see at *[[Bousfield localization of model categories]]*.
 
 
 Futher details are discussed in:
