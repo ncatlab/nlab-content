@@ -85,4 +85,6 @@ If $T$ is a (Brugui&#232;res-Lack-Virelizier) Hopf monad on a [[closed monoidal 
 
 [[!redirects Hopf monads]]
 [[!redirects bimonad]]
+[[!redirects bimonads]]
 [[!redirects opmonoidal monad]]
+[[!redirects opmonoidal monads]]
