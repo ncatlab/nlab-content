@@ -627,7 +627,7 @@ An early explicit account of the notion of combinatorial model categories is in 
 The definition of combinatorial model categories is recalled also as:
 
 * {#Barwick10} [[Clark Barwick]], Def. 1.3 in: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320
-&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), under other title:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067)&rbrack;
+&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), subsuming:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
 
 * {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_ (2009) 
 
