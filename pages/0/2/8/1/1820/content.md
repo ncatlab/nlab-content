@@ -616,7 +616,7 @@ Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]
 
 After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently  
 
-* {#Beke} [[Tibor Beke]], Theorem 1.7 in: _Sheafifiable homotopy model categories_, Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
+* {#Beke} [[Tibor Beke]], Theorem 1.7 in: *Sheafifiable homotopy model categories*,  Math. Proc. Cambridge Philos. Soc. __129__ 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](http://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack; 
 
 An early explicit account of the notion of combinatorial model categories is in Section II of:
 
@@ -626,13 +626,13 @@ An early explicit account of the notion of combinatorial model categories is in 
 
 The definition of combinatorial model categories is recalled also as:
 
-* {#Barwick} [[Clark Barwick]], Def. 1.3 in: _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
+* {#Barwick10} [[Clark Barwick]], Def. 1.3 in: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320
+&lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), under other title:[arXiv:0708.2067](https://arxiv.org/abs/0708.2067)&rbrack;
 
-* {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_ (2009)
- 
+* {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_ (2009) 
 
-Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
- 
+Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)). For more see at *[[Bousfield localization of model categories]]*.
+
 
 Futher details are discussed in:
 
