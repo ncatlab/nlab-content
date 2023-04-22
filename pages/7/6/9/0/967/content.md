@@ -22,7 +22,7 @@
 
 ## Idea
 
-A **total category** (also called **totally cocomplete categories**) is a category with a well-behaved [[Yoneda embedding]] endowing the category with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties but still admitting most types of categories occurring "in practice".
+The notion of **total categories** (also called **totally cocomplete categories**) is that of a [[categories]] with a well-behaved [[Yoneda embedding]] endowing them with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties while still admitting many types of categories occurring "in practice".
 
 ## Definition
 
