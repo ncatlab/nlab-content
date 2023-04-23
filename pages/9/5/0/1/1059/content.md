@@ -35,7 +35,6 @@ It is easy to see that in *any* category, any regular epimorphism is strict.  In
 
 If the composition $g\circ f$ is a strict epimorphism then $g$ is a strict epimorphism.
 
-
 ## References
 
 Textbook accounts:
