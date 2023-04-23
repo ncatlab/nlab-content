@@ -37,7 +37,11 @@ such that the following two compatibility conditions are satisfied
 1. {#PushoutProductAxiom} ([[pushout-product axiom]]) For every [[pair]] of [[cofibrations]] $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the [[pushout|cofibered]] [[coproduct]] over ways of forming the [[tensor product]] of these objects
 
    $$
-     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
+     (X \otimes Y') 
+       \overset
+        {X \otimes X'}
+        {\amalg}
+     (Y \otimes X')
      \longrightarrow
      Y \otimes Y'
      \,,
