@@ -77,8 +77,11 @@ it is shown that if $X$ is proper over an algebraically closed field $k$ of [[ch
 
 The result about the geometric theory classified by the big infinitesimal topos appears in
 
-* {#Hutzler18} Matthias Hutzler, _Internal language and classified theories of
+* {#Hutzler18}[[Matthias Hutzler]], _Internal language and classified theories of
 toposes in algebraic geometry_, Master's thesis at the University of Augsburg, 2018, [GitLab](https://gitlab.com/MatthiasHu/master-thesis/blob/master/thesis.pdf), [pdf download](https://gitlab.com/MatthiasHu/master-thesis/raw/master/thesis.pdf?inline=false)
+
+* [[Matthias Hutzler]], _Syntactic presentations for glued toposes and for crystalline toposes_, Phd. diss. Universität Augsburg 2021. ([arXiv:2206.11244](https://arxiv.org/abs/2206.11244))
+
 
 [[!redirects infinitesimal site]]
 [[!redirects crystaline site]]
