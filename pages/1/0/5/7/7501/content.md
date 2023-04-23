@@ -198,8 +198,12 @@ Let now $\mathcal{E}_3$ have [[finite limits|finite]] [[colimits]] and let $\oti
 for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, write
 
 $$
-  A \otimes Y \coprod_{A \otimes X} B \otimes X
-  \to
+  A \otimes Y 
+    \overset
+      {A \otimes X} 
+      {\amalg}
+  B \otimes X
+  \longrightarrow
   B \otimes Y
 $$
 
