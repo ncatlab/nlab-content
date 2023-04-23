@@ -154,6 +154,11 @@ The classification theorems are due to
 Discussion of the notion of stable model categories with the abstract notion of [[stabilization]] in [[(infinity,1)-category theory]] is in section 4.2 (prop. 4.15) of
 
 * {#Robalo12} [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
+
+On ([[monoidal localization|monoidal]]) [[Bousfield localization of model categories|Bousfield localization]] of stable model categories:
+
+* [[Luca Pol]], [[Jordan Williamson]], *The Left Localization Principle, completions, and cofree $G$-spectra*, J. Pure Appl. Algebra **224** 11 (2020) 106408 &lbrack;[arXiv:1910.01410](https://arxiv.org/abs/1910.01410), [doi:10.1016/j.jpaa.2020.106408](https://doi.org/10.1016/j.jpaa.2020.106408)&rbrack;
+
   
 
 [[!redirects stable model categories]]
