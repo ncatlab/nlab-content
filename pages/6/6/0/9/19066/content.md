@@ -29,39 +29,47 @@ Let $\mathcal{M}$ be a [[model category]] and
     \\
     X &\mapsto& F(X)
     \\
-    \Big\downarrow
+    \Big\downarrow\mathrlap{^{f}}
     &&
-    \mathllal{f_\ast}\Big\uparrow\Big\downarrow\mathrlap{^{f_1}}
+    \mathllap{^{f^\ast}}\Big\uparrow
+    \Big\downarrow\mathrlap{^{f_!}}
     \\
     Y &\mapsto& F(Y)
   }
 \]
 
-a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_1$), and [[mate]]-pairs of [[natural isomorphisms]].  
+a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_!$), and [[mate]]-pairs of [[natural isomorphisms]].  
 
 We say that:
 
 \begin{definition}\label{RelativePseudoFunctor}
-$F$ is *[[relative functor]]* if for a [[weak equivalence]] $f$ in $M$, the associated Quillen adjunction $f_! \dashv f^*$ is a [[Quillen equivalence]].  
+$F$ is *[[relative functor]]* if for any [[weak equivalence]] $f$ in $M$, the associated Quillen adjunction $f_! \dashv f^*$ is a [[Quillen equivalence]].  
 \end{definition}
 
 \begin{definition}\label{ProperPseudofunctor}
-$F$ is "*proper*", if for $f \colon A\to B$ is an [[acyclic cofibration]] (resp. an [[acyclic fibration]]) in $\mathcal{M}$, then $f_!$ (resp. $f^*$) preserves all [[weak equivalences]].
+$F$ is "*proper*", if when $f \colon A\to B$ is an [[acyclic cofibration]] (resp. an [[acyclic fibration]]) in $\mathcal{M}$ then $f_!$ (resp. $f^*$) preserves all [[weak equivalences]].
 \end{definition}
 
 \begin{definition}\label{IntegralModelStructure}
 **(integral model structure)**
 \linebreak
 Given a [[pseudofunctor]] as in (eq:ThePseudofunctor),
-in its [[Grothendieck construction]] $\int_{X \in \mathcal{M}} F(X)$ we say that a morphism $(f,\phi) \colon (X,A) \to (Y,B)$ (where $f \colon X\to Y$ in $\mathcal{M}$ and $\phi \colon f_!(A) \to B$ in $F(Y)$), to be:
+we say that a morphism 
+$$
+  (f,\phi) 
+   \;\colon\; 
+  (X,A) \longrightarrow (Y,B)
+$$ 
+in its [[Grothendieck construction]] $\int_{X \in \mathcal{M}} F(X)$
+(where $f \colon X\to Y$ in $\mathcal{M}$ and $\phi \colon f_!(A) \to B$ in $F(Y)$) is:
 
 * an *integral equivalence* iff 
 
-  1. $f \colon X \to Y$ is a [[weak equivalence]] in $mathcal{M}$ 
+  1. $f \colon X \to Y$ is a [[weak equivalence]] in $\mathcal{M}$ 
 
   2. $f_!(Q A) \to f_!(A) \xrightarrow{\phi} B$ is a [[weak equivalence]] in $F(Y)$, where $Q$ is a [[cofibrant replacement]].  
 
-    (Since $f_!\dashv f^*$ is a Quillen equivalence by relativeness, this is equivalent to the [[adjunct]] condition that $A \xrightarrow{\widetilde{\phi}} f^*(B) \to f^*(R B)$ is a weak equivalence in $F(X)$.)
+     (Since $f_!\dashv f^*$ is a Quillen equivalence by relativeness, this is equivalent to the [[adjunct]] condition that $A \xrightarrow{\widetilde{\phi}} f^*(B) \to f^*(R B)$ is a weak equivalence in $F(X)$.)
 
 * an *integral cofibration* iff 
 
@@ -73,12 +81,12 @@ in its [[Grothendieck construction]] $\int_{X \in \mathcal{M}} F(X)$ we say that
 
   1. $f$ is a [[fibration]] in $\mathcal{M}$ 
 
-  1. the [[adjunct]] $\hat{\phi} \colon A \to f^*(B)$ is a fibration in $F(X)$.
+  1. the [[adjunct]] $\widetilde{\phi} \colon A \to f^*(B)$ is a [[fibration]] in $F(X)$.
 
 \end{definition}
 
 \begin{proposition}\label{ExistenceStatement}
-If the pseudofunctor is relative (Def. \ref{RelativePseudoFunctor}) and proper (Def. \ref{ProperPseudofunctor}) the classes of maps in Def. \ref{IntegralModelStructure}
+If the pseudofunctor (eq:ThePseudofunctor) is relative (Def. \ref{RelativePseudoFunctor}) and proper (Def. \ref{ProperPseudofunctor}) then the classes of maps in Def. \ref{IntegralModelStructure}
 make $\int_{X \in \mathcal{M}} F(X)$ a [[model category]].
 \end{proposition}
 This is [Harpaz & Prasma (2015), Theorem 3.0.12](#HarpazPrasma15).
@@ -120,7 +128,7 @@ $$
     sFunc(\mathcal{Y},\,\mathcal{C})_{proj}
   }
 $$
-is relative and proper (in the sense [above](#Definition)), hence the integral model structure on the category of *parameterized $\mathcal{C}$ objects*
+is relative and proper (in the sense [above](#Definition)), hence the integral model structure (Prop. \ref{ExistenceStatement}) on the category of *parameterized $\mathcal{C}$ objects*
 $$
   \mathcal{C}_{sGrpd}
   \;\;\coloneqq\;\;
