@@ -15,19 +15,16 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 
-
+Before we start, beware the usual terminology issue with "[[simplicial groupoids]]":
 
 \begin{remark}
 **(terminology)**
-The term  _[[simplicial groupoid]]_ is often used for a [[simplicial object]] in the [[category]] [[Grpd]] of [[groupoids]] whose [[simplicial set]] of objects is simplicially constant. We will write $s Grpd$ for the category of such simplicial groupoids.
-
-Perhaps a more accurate term for this concept is **simplicially enriched groupoid**, and conceptually it is often the [[sSet-enriched category]]-[[structure]] that is useful. Because of this it is advisable to check the use being made of the term when consulting the literature. This is more fully discussed at *[[simplicial category]]*.
+This entry is concernd with  _[[simplicial groupoids]]_ as traditionally understood (following [Dwyer & Kan (1984)](#DwyerKan84)), referring to [[simplicial objects]] in the [[category]] [[Grpd]] of [[groupoids]] with the special property that their [[simplicial set]] of objects is simplicially constant. Any such "Dwyer-Kan simplicial groupoid" is equivalently an [[sSet-enriched category]] that is a [[groupoid]] in the [[enriched category theory|enriched]] sense. Therefore, and since in applications it is often this [[sSet]]-[[enriched category|enriched]] [[structure]] which matters, a more accurate term would be *simplicially enriched groupoids*, but this terminology is not at all standard. See the corresponding discussion at *[[simplicial groupoid]]* ([here](simplicial+groupoid#Definition)).
 \end{remark}
 
 
@@ -35,7 +32,31 @@ Perhaps a more accurate term for this concept is **simplicially enriched groupoi
 
 Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[simplicial sets]] of [[objects]] are understood to be constant, see the discussion [there](simplicial+groupoid#Definition)).
 
+\begin{definition}\label{FreeMorphismsOfSimplicialGroupoids}
+**(free morphisms of simplicial groupoids)**
+\linebreak
+  Say that a [[morphism]] $f \colon X \to Y$ of [[simplicial groupoids]] is *free* iff:
+
+1. it is degreewise [[injective]] (i.e. on the [[sets]] of [[objects]] and on the sets of [[morphisms]] in each degree);
+
+1. there is a [[subset]] $\Gamma \subset Y$ of [[morphisms]] in $Y$ (of any degree) with the following properties:
+
+   1. $\Gamma$ contains no [[identity morphisms]];
+
+   1. $\Gamma$ is closed under forming degenerate cells;
+
+   1. every non-[[identity morphism]] in $Y$ is *uniquely* a [[composition|composite]] of morphisms in $\Gamma$ where
+
+      1. no morphism is composed with its inverse
+
+      1. no two non-[[identity morphisms]] in the [[image]] of $f$ are composed with each other.
+\end{definition}
+&lbrack;[Dwyer & Kan 1984, §2.3](#DwyerKan84)&rbrack;
+
+
 \begin{proposition}\label{TheModelStructure}
+**(Dwyer-Kan model structure on simplicial groupoids)**
+\linebreak
 There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
 * [[fibrations]] are those morphisms $f \colon H \to K$ such that 
@@ -49,10 +70,22 @@ There is a [[model category]] structure on $sGrpd_{DK}$ whose
   1. $f$ induces in [[isomorphism]] on [[connected components]] $\pi_0 f \colon \pi_0 H \to \pi_0 K$;
 
   1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[model structure on simplicial sets]].
+
+* [[cofibrations]] are the [[retracts]] (in the [[arrow category]]) of the free maps from Def. \ref{FreeMorphismsOfSimplicialGroupoids}.
+
 \end{proposition}
+
 This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), reviewed in [Goerss & Jardine (2009), p. 316 and after cor V.7.3](#GoerssJardine09).
 
+\begin{remark}\label{RelationToModelStructureOnSimplicialGroups}
+**(relation to model structure on simplicial groups)**
+\linebreak
+  An $X \in sGrpd_{DK}$ for which $X_0 = \ast$ is the [[terminal groupoid]] is, when regarded as a [[pointed object]], equivalently the ([[delooping]] of the) [[simplicial group]] which is its unique [[hom-object]]. Restricted to such "simplicial [[delooping groupoids]]" of simplicial groups and under this identitificaiton, the fibrations and weak equivalences in Prop. \ref{FreeMorphismsOfSimplicialGroupoids} are those of the [[model structure on simplicial groups]].
+\end{remark}
+
 ## Properties
+
+### Relation to simplicial sets
 
 \begin{proposition}
 \label{QuillenEquivalenceWithSimplicialSets}
