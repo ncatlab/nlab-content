@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -220,7 +221,7 @@ There is a model structure on $Ch^{\bullet\geq 0}(A)_{tot}$ whose
 +-- {: .num_example}
 ###### Example
 
-If $C = $ [[Vect]] is a category of [[vector space]]s over some [[field]], we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence.  Moreover, in this case every chain complex is quasi-isomorphic to its [[homology]] (regarded as a chain complex with zero differentials).
+If $C = $ [[Vect]] is a category of [[vector spaces]] over some [[field]], we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence.  Moreover, in this case every chain complex is quasi-isomorphic to its [[homology]] (regarded as a chain complex with zero differentials).
 
 This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebras]] over a [[field]] that is used in [[rational homotopy theory]].
 
@@ -648,7 +649,7 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 
 * [[fibrations]] the (degreewise) [[epimorphisms]].
 
-*  [[cofibrations]] the degreewise [[split monomorphism|split injections]] with cofibrant [[cokernel]].
+* [[cofibrations]] the degreewise [[split monomorphism|split injections]] with cofibrant [[cokernel]].
 
 \end{proposition}
 (For partial characterization of the [[cofibrant objects]] see further [below](#BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant).)
@@ -666,7 +667,7 @@ Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickla
 \end{proof}
 
 \begin{remark}\label{NotAllUnboundedComplexesAreProjectivelyCofibrant}
-  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, in general *not* every chain complex is [[cofibrant object|cofibrant]], not even those consisting of [[projective modules]] --
+  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, over general rings (not though over [[fields]], see Prop. \ref{UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant} below) *not* every chain complex is [[cofibrant object|cofibrant]], not even those consisting of [[projective modules]] --
 a [[counterexample]] is given in [Hovey (1999), Rem. 2.3.7](#Hovey99):
 
 For $\mathbb{K}$ any [[field]], let $R \coloneqq \mathbb{K} \oplus \mathbb{K} \cdot x$ be its [[ring of dual numbers]], i.e. with $x^2 = 0$. 
@@ -800,6 +801,38 @@ On the other hand:
 \end{proposition}
 ([Hovey (1999), Lem. 2.3.6](#Hovey99))
 
+This implies:
+
+\begin{proposition}
+\label{UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant}
+  For $k$ a [[field]]:
+
+1. every object in the projective model structure $Ch_\bullet(k Mod)$ (Prop. \ref{StandardModelStructureOnUnboundedComplexes}) is cofibrant.
+
+1. the cofibrations are exactly the [[monomorphisms]].
+
+\end{proposition}
+\begin{proof}
+ By the assumption that $k$ is a field, every $k$-module (i.e. every $k$-[[vector space]]) is [[projective module|projective]] ([this Prop.](projective+module#ModuleOverAFieldIsProjective)). Therefore Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant} says, in this situation, that every [[bounded-below chain complex]] is cofibrant
+Moreover, since every injection of vector spaces splits ([here](Vect#ShortExactSequencesSplit)) the characterization of cofibrations in Prop. \ref{StandardModelStructureOnUnboundedComplexes} says that every [[injection]] into a [[bounded-below chain complex]] of vector spaces is a cofibration (since its [[cokernel]] is clearly itself bounded-below and hence cofibrant by the previous statement) . 
+
+Now every chain complex $V_\bullet$ is the [[colimit]] of its stages of lower [[connective covers]]:
+
+$$
+  cn_0 V_\bullet
+  \hookrightarrow
+  cn_{-1} V_\bullet
+  \hookrightarrow
+  cn_{-2} V_\bullet
+  \hookrightarrow
+  \cdots
+  \,.
+$$
+By the previous paragraph, $cn_0 V_\bullet$ is cofibrant and each morphism in this [[cotower]] is a cofibration. Therefore $cn_0 V_\bullet \hookrightarrow V_\bullet$ is a [[transfinite composition]] of cofibrations, hence a cofibration, and therefore $V_\bullet$ is cofibrant.  
+
+This proves the first statement. From this the second follows by the characterization of the cofibrations in Prop. \ref{StandardModelStructureOnUnboundedComplexes} and using again that all injections here are split.
+\end{proof}
+(Alternatively one may argue via the generating cofibration, cf. [MO:a/2457259](https://math.stackexchange.com/a/2457259/58526).)
 
 \begin{proposition}
 \label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
@@ -809,6 +842,17 @@ The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective m
 This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
 Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
+
+\begin{proposition}
+\label{OverGroundFieldAllObjectsInSimplicialStructureOnUnboundedComplexesAreCofibrant}
+ Over a [[field]] $k$, every object in the model structure on $sCh_\bullet(k Mod)$ (from Prop. \ref{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}) is cofibrant.
+\end{proposition}
+\begin{proof}
+Since [[Bousfield localization of model categories|left Bousfield localization]] does not change the class of cofibrations, we need to show that every object $V_\bullet^\bullet \in sCh_\bullet(k Mod)$ is [Reedy cofibrant](Reedy+model+structure#ReedyModelStructure),
+hence (cf. [this Remark](Reedy+model+structure#ReedyCofibrantObjects)) that the comparison morphisms from the [[latching objects]] $L_r V^r_\bullet \to V^r_\bullet$ are monomorphisms for all $r \in \mathbb{R}$.
+
+But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of+chain+complexes#AbelianCategoryStructure)), [this Prop.](Reedy+model+structure#LatchingInAbelianCategoryIsDegeneracySubobject) at *[[Reedy model structure]]* says that these are [[monomorphisms]] and hence the claim follows by Prop. \ref{UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant}.
+\end{proof}
 
 #### Standard injective model structure on unbounded chain complexes
  {#InjectiveModelStructureOnUnboundedChainComplexes}
