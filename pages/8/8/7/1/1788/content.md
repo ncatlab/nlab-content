@@ -1,4 +1,447 @@
 
+Let $\mathcal{C}$ an [[simplicial model category]].
+We write $\cdot \,\colon\, sSet \times \mathcal{C} \to \mathcal{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works more generally, too.)
+
+For $H \in Grp(sSet)$ a [[simplicial group]] and $X \in Obj(C)$, we may consider [[group actions]] $\rho \colon H \cdot X \to X$. Write $H Act(\mathcal{C})$ for the [[category]] these form.
+
+Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restriction" functor
+
+\[
+  \label{RestrictionOfSimplicialGroupActions}
+  \phi^\ast 
+    \,\colon\, 
+  G Act(\mathcal{C}) \to H Act(\mathcal{C})
+  \,.
+\]
+
+At least for $\mathcal{C} = sSet$ itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following [[pushout]]-construction of such left-induced actions:
+
+\begin{proposition}
+  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathcal{C})$ to the unique $(G \cdot_{_H} X,\, \phi_!(\rho))$ which makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathcal{C}$: 
+
+\begin{tikzcd}
+    \ast \cdot H \cdot X
+    \ar[
+      dr,
+      "{ \mathrm{e} \cdot \phi \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rr,
+      "{ \mathrm{id} \,\cdot\, \rho }"{description}
+    ]
+    &&
+    \ast \cdot X
+    \ar[
+      dd,
+      equals
+    ]
+    \ar[
+      dr,
+      "{
+        \mathrm{e} \,\cdot\, \iota
+      }"{description}
+    ]
+    \\
+    & 
+    G \cdot G \cdot X
+    \ar[
+      rr,
+      crossing over
+    ]
+    &&
+    G \cdot \big( G  \cdot_{_H} X \big)
+    \ar[
+      dd,
+      dashed,
+      "{
+        \phi_!(\rho)
+      }"{description}
+    ]
+    \\
+    H \cdot X
+    \ar[
+      from=uu,
+      equals
+    ]
+    \ar[
+      dr,
+      "{ \phi \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rr,
+      "{ \rho }"{description, pos=.8}
+    ]
+    &&
+    X
+    \ar[
+      dr,
+      "{ \iota }"{description}
+    ]
+    \\
+    & 
+    G \cdot X
+    \ar[
+      from=uu,
+      crossing over,
+      "{
+        \mu \,\cdot\, \mathrm{id}
+      }"{description, pos=.3}
+    ]
+    \ar[rr]
+    &&
+    G \cdot_{_H} X
+\end{tikzcd}
+
+\end{proposition}
+\begin{proof}
+This is elementary, but we spell it out in pedantic detail.
+
+We will denote the [[neutral element]] and the group operation in $H$ by
+
+$$
+  \mathrm{e} \colon \ast \to H
+  ,\;\;\;\;
+  \mu \colon H \cdot H \to X
+  \,,
+$$
+
+respectively.
+
+Given
+
+* $(X, \rho) \,\in\, H Act(\mathcal{C})$
+
+* $(Y, \rho_Y) \,\in\, G Act(\mathcal{C})$.
+
+we need to establish a [[natural bijection]] of morphisms
+
+$$
+  \frac{
+    G \cdot_{_H} X \overset{f}{\longrightarrow} X
+  }{
+    X \overset{\;\;\; f \circ \iota \;\;\;}{\longrightarrow} Y
+  }
+$$
+
+where top one is $G$-equivariant, and the bottom one $H$-equivariant.
+
+To have the top morphism means to have a commuting diagram as follows:
+
+\begin{tikzcd}[
+    row sep=10pt
+  ]
+    &
+    \ast \cdot H \cdot X
+    \ar[
+      ddr,
+      "{ \mathrm{e} \cdot \phi \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rr,
+      "{ \mathrm{id} \,\cdot\, \rho }"{description}
+    ]
+    \ar[
+      dddd,
+      equals
+    ]
+    &&
+    \ast \cdot X
+    \ar[
+      dddd,
+      equals
+    ]
+    \ar[
+      ddr,
+      "{ \mathrm{e} \,\cdot\, \iota }"{description}
+    ]
+    \\
+    \\
+    &
+    & 
+    G \cdot G \cdot X
+    \ar[
+      rr,
+      crossing over,
+      "{ \mathrm{id} \,\cdot\,   q }"{description, pos=.2}
+    ]
+    &&
+    G \cdot \big( G  \cdot_{_H} X \big)
+    \ar[
+      dddd,
+      dashed,
+      "{
+        \phi_!(\rho)
+      }"{description}
+    ]
+    \ar[
+      drr,
+      "{ \mathrm{id} \,\cdot\, f }"{description}
+    ]
+    \\
+    &
+    && &&&
+    G \cdot Y
+    \ar[
+      dddd,
+      "{ \rho_{_Y} }"{description}
+    ]
+    \\
+    &
+    H \cdot X
+    \ar[
+      ddr,
+      "{ \phi \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rr,
+      "{ \rho }"{description, pos=.8}
+    ]
+    &&
+    X
+    \ar[
+      ddr,
+      "{
+        \iota
+      }"{description}
+    ]
+    \\
+    \\
+    &
+    & 
+    G \cdot X
+    \ar[
+      from=uuuu,
+      crossing over,
+      "{
+        \mu \,\cdot\, \mathrm{id}
+      }"{description, pos=.3}
+    ]
+    \ar[
+      rr,
+      "{ q }"{description}
+    ]
+    &&
+    G \cdot_{_H} X
+    \ar[ 
+      drr,
+      "{ f }"{description}
+    ]
+    \\
+    &
+    &&&&& 
+    Y
+\end{tikzcd}
+
+We claim that $f \circ q$ here is fixed to be 
+
+$$
+  f \circ q
+  \;=\;
+  \rho_Y
+  \circ
+  \big(
+    \mathrm{id} \cdot (f \circ \iota)
+  \big)
+  \,.
+$$
+
+To see this, use the [[unitality]] of $\mu$ and $\rho$ 
+
+\begin{tikzcd}[
+    row sep=10pt
+  ]
+    {}
+    &
+    &
+    \ast \cdot H \cdot X
+    \ar[
+      ddr,
+      "{ \mathrm{e} \cdot \phi \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rrr,
+      "{ \mathrm{id} \,\cdot\, \rho }"{description}
+    ]
+    &&&
+    \ast \cdot X
+    \ar[
+      dddd,
+      equals
+    ]
+    \ar[
+      ddr,
+      "{ \mathrm{e} \,\cdot\, \iota }"{description}
+    ]
+    \\
+    \\
+    G \cdot \ast \cdot X
+    &
+    &
+    & 
+    G \cdot G \cdot X
+    \ar[
+      rrr,
+      crossing over,
+      "{ \mathrm{id} \,\cdot\,   q }"{description, pos=.2}
+    ]
+    &&&
+    G \cdot \big( G  \cdot_{_H} X \big)
+    \ar[
+      dddd,
+      dashed,
+      "{
+        \phi_!(\rho)
+      }"{description}
+    ]
+    \ar[
+      drr,
+      "{ \mathrm{id} \,\cdot\, f }"{description}
+    ]
+    \\
+    &
+    \ast \cdot X
+    \ar[
+      dr,
+      "{ \mathrm{e} \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rrr,
+      equals
+    ]
+    &
+    &
+    & 
+    X
+    \ar[dr, equals]
+    &&
+    &&
+    G \cdot Y
+    \ar[
+      dddd,
+      "{ \rho_{_Y} }"{description}
+    ]
+    \\
+    &
+    &
+    H \cdot X
+    \ar[
+      from=uuuu,
+      crossing over,
+      equals
+    ]
+    \ar[
+      ddr,
+      "{ \phi \cdot \mathrm{id} }"{description}
+    ]
+    \ar[
+      rrr,
+      "{ \rho }"{description, pos=.8}
+    ]
+    &&&
+    X
+    \ar[
+      ddr,
+      "{
+        \iota
+      }"{description}
+    ]
+    \\
+    \\
+    G \cdot X
+    \ar[rrr, equals]
+    \ar[from=uuuu, equals]
+    &
+    &
+    & 
+    G \cdot X
+    \ar[
+      from=uuuu,
+      crossing over,
+      "{
+        \mu \,\cdot\, \mathrm{id}
+      }"{description, pos=.8}
+    ]
+    \ar[
+      rrr,
+      "{ q }"{description}
+    ]
+    &&&
+    G \cdot_{_H} X
+    \ar[ 
+      drr,
+      "{ f }"{description}
+    ]
+    \\
+    &
+    &
+    &&&&& &
+    Y
+    %
+    \ar[
+      from=3-1, 
+      to=3-4,
+      crossing over,
+      "{ \mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id} }"{description, pos=.3}
+    ]
+\end{tikzcd}
+
+to compute as follows:
+
+$$
+  \begin{array}{l}
+    f \circ q
+    \\
+    \;=\;
+    f 
+      \circ 
+    q 
+      \circ 
+    (\mu \cdot \mathrm{id}) 
+      \circ 
+    (\mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id})
+    \\
+    \;=\;
+    f 
+      \circ
+    \phi_!(\rho)
+      \circ
+    (\mathrm{id} \cdot q)
+      \circ 
+    (\mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id})
+    \\
+    \;=\;
+    \rho_Y
+      \circ
+    (\mathrm{id} \cdot f)
+      \circ
+    (\mathrm{id} \cdot q)
+      \circ 
+    (\mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id})
+    \\
+    \;=\;
+    \rho_Y
+      \circ
+    (\mathrm{id} \cdot f)
+      \circ
+    \Big(
+      \mathrm{id}
+        \cdot
+      \big( q \circ (\mathrm{e} \cdot \mathrm{id}) \big)
+    \Big)
+    \\
+    \;=\;
+    \rho_Y
+      \circ
+    \big(\mathrm{id} \cdot (f \circ \iota) \big)
+  \end{array}
+$$
+
+Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the universality of the pushout. 
+\end{proof}
+
+
+***
+
 Consider
 
 * $k$ a [[field]];
