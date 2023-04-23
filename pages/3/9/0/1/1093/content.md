@@ -129,7 +129,7 @@ But by assumption $L(f)$ is an [[isomorphism]], so the claim is immediate.
 Conversely, if for all $f$ the function $Hom(f,A)$ is a bijection, define $\hat A := L(A)$ and let $ \epsilon_A : A \to i L(A)$ be the 
 $(L \dashv i)$-[[unit of an adjunction|unit]]. 
 
-By the assumption that $i$ is a [[full and faithful functor]] and basic properties of [[adjoint functor]]s we habe that the counit
+By the assumption that $i$ is a [[full and faithful functor]] and basic properties of [[adjoint functor]]s we have that the counit
 
 $$
   L i \to Id
