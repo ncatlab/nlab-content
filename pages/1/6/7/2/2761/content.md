@@ -145,7 +145,7 @@ $$
   \stackrel{L}{\to}
   Topos(\mathcal{X}, PSh_{(\infty,1)}(\mathcal{G}))
   \stackrel{y}{\to}
-  Func(\mathcal{G}, \mathcal{X})
+  Func(\mathcal{X}, \mathcal{G})
 $$
 
 given by precomposition of [[inverse image]] functors by [[∞-stackification]] and by the [(∞,1)-Yoneda embedding](#YonedaEmbedding)
