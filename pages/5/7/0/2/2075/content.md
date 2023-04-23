@@ -1,4 +1,3 @@
-[[!redirects equivalence of quasi-categories]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -98,3 +97,13 @@ Thus, $f_*$ restricts to an equivalence between the subcomplexes consisting of t
 ## References
 
 * {#Cisinksi} [[Denis-Charles Cisinski]], "Higher Categories and Homotopical Algebra"
+
+
+[[!redirects equivalence of quasi-categories]]
+[[!redirects equivalences of quasi-categories]]
+
+[[!redirects equivalence of quasicategories]]
+[[!redirects equivalences of quasicategories]]
+
+
+
