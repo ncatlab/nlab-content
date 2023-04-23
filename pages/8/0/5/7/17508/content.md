@@ -1,11 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The concept of [[localization]] of a category for the case of [[monoidal categories]] with localization functors being [[monoidal functors]].
+The concept of [[localization]] of a [[category]] for the case of [[monoidal categories]] with localization functors being [[monoidal functors]].
 
 ## Related concepts
 
@@ -20,6 +35,9 @@ For [[Bousfield localization of model categories|Bousfield localization]] of [[m
 * {#Barwick10} [[Clark Barwick]], Prop. 4.47 in: *On left and right model categories and left and right Bousfield localizations*, Homology Homotopy Appl. **12** 2 (2010) 245-320 &lbrack;[euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full)&rbrack;
 
 * {#Lawson2022} [[Tyler Lawson]], Prop. 12.18 in: *An introduction to Bousfield localization*, in: *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press (2022) &lbrack;[arXiv:2002.03888](https://arxiv.org/abs/2002.03888)&rbrack;
+
+* [[Luca Pol]], [[Jordan Williamson]], *The Left Localization Principle, completions, and cofree $G$-spectra*, J. Pure Appl. Algebra **224** 11 (2020) 106408 &lbrack;[arXiv:1910.01410](https://arxiv.org/abs/1910.01410), [doi:10.1016/j.jpaa.2020.106408](https://doi.org/10.1016/j.jpaa.2020.106408)&rbrack;
+
 
 [[!redirects monoidal localizations]]
 
