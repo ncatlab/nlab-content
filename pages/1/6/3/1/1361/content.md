@@ -224,6 +224,11 @@ See also:
 
 * [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
 
+On enriched [[Reedy model categories]]:
+
+* {#Angeltveit} [[Vigleik Angeltveit]], *Enriched Reedy categories*, Proceedings of the American Mathematical Society **136** 7 (2008)  &lbrack;[arXiv:math/0612137](http://arxiv.org/abs/math/0612137), [AMS:S0002-9939-08-09185-5](https://www.ams.org/journals/proc/2008-136-07/S0002-9939-08-09185-5/home.html), [jstor:20535419](https://www.jstor.org/stable/20535419)&rbrack;
+
+
 [[!redirects enriched model categories]]
 
 [[!redirects enriched model structure]]
