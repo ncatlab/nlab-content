@@ -69,7 +69,7 @@ There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
   1. $f$ induces in [[isomorphism]] on [[connected components]] $\pi_0 f \colon \pi_0 H \to \pi_0 K$;
 
-  1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[model structure on simplicial sets]].
+  1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[classical model structure on simplicial sets]].
 
 * [[cofibrations]] are the [[retracts]] (in the [[arrow category]]) of the free maps from Def. \ref{FreeMorphismsOfSimplicialGroupoids}.
 
@@ -119,7 +119,7 @@ This is due to [Dwyer & Kan (1984)](#DwyerKan84), reviewed in [Goerss & Jardine 
 +-- {: .num_remark}
 ###### Remark
 
-When restricted to simplicial groupoids of the form $(B G)_\bullet$ for $G_\bullet$ a [[simplicial group]] and $B G_n$ its [[delooping]] [[groupoid]] this produces a standard presentation of [[looping and delooping]] for [[infinity-groups]]. See there and at *[[model structure on simplicial groups]]* for more.
+When restricted to simplicial groupoids of the form $(\mathbf{B} G)_\bullet$ for $G_\bullet$ a [[simplicial group]] and $\mathbf{B} G_n$ its [[delooping groupoid]] this produces a standard presentation of [[looping and delooping]] for [[infinity-groups]]. See there and at *[[model structure on simplicial groups]]* for more.
 
 =--
 
@@ -135,6 +135,16 @@ For $f_\bullet \in Fib \cap \mathrm{W}$ an acyclic Kan fibration, notice that:
 1. All acylic fibrations in the [[classical model structure on simplicial sets]] are degreewise surjective (see [this Prop.](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)). 
 
 But since $\overline{W}$ is the identity on the sets of objects/vertices (by its definition [here](simplicial+classifying+space#BarWForSimplicialGroupoid)), the claim follows.
+\end{proof}
+
+Also useful to notice is:
+
+\begin{proposition}
+\label{sGrpdCofibrationIsObjectwiseSSetCofibration}
+  A (acyclic) cofibration of simplicial groupoids is objectwise an (acyclic) injection, hence a [[classical model structure on simplicial sets|Kan-Quillen]] (acyclic) cofibation, of simplicial [[hom-sets]].
+\end{proposition}
+\begin{proof}
+  By Def. \ref{FreeMorphismsOfSimplicialGroupoids} and Prop. \ref{TheModelStructure} these cofibrations of simplicial groupoids are, in particular, retracts of monomorphisms of simplcial set. Since [[sSet]] is a [[topos]], its [[epi-mono factorization system]] implies that monomorphisms are preserved under retracts. And of course also the Kan-Quillen weak equivalences are preserved under retract.
 \end{proof}
 
 ## Related concepts
@@ -157,4 +167,7 @@ The original article:
 A textbook account:
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], after corollary 7.3 in chapter V of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
+
+
+[[!redirects model category of simplicial groupoids]]
 
