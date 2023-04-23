@@ -1414,13 +1414,18 @@ and specifically for combinatorial [[simplicial model categories]]:
 
 The relation to [[localization of an (infinity,1)-category]] is also in *[[Higher Topos Theory]]*, for the time being see discussion at [[models for ∞-stack (∞,1)-toposes]].
  
-On [[right Bousfield localization]]
+On [[right Bousfield localization]]:
 
 * {#Barwick07b} [[Clark Barwick]], *On the Dreaded Right Bousfield Localization* &lbrack;[arXiv:0708.3435](http://arxiv.org/abs/0708.3435), [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf)&rbrack;
 
 The relation to [[Vopěnka's principle]]:
 
 * {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society **355** 9 (2003) 3611-3623 &lbrack;[jstor:1194855](http://www.jstor.org/stable/1194855)&rbrack;
+
+Bousfield localization specifically for [[stable model categories]] (such as [[model structures on spectra]]):
+
+* [[Luca Pol]], [[Jordan Williamson]], *The Left Localization Principle, completions, and cofree $G$-spectra*, J. Pure Appl. Algebra **224** 11 (2020) 106408 &lbrack;[arXiv:1910.01410](https://arxiv.org/abs/1910.01410), [doi:10.1016/j.jpaa.2020.106408](https://doi.org/10.1016/j.jpaa.2020.106408)&rbrack;
+
 
 Comprehensive review:
 
