@@ -55,7 +55,7 @@ where
 
 * $\Omega^\bullet(\Delta^k)\otimes \mathfrak{h}$ is the canonical dg-Lie algebra structure on the [[tensor product]].
 
-([Hinich 97, 4.8.2](#Hinich97), following [Bousfield-Gugenheim 76](model structure on dg-algebras#HomComplexes))
+([Hinich 97, 4.8.2](#Hinich97), following [Bousfield & Gugenheim 1976](model+structure+on+dg-algebras#HomComplexes))
 
 This enrichment satisfies together with the model structure some of the properties of a [[simplicial model category]] ([Hinich 97, 4.8.3, 4.8.4](#Hinich97)), but not all of them.
 
