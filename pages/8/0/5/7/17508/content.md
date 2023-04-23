@@ -32,7 +32,7 @@ The concept of [[localization]] of a [[category]] for the case of [[monoidal cat
 
 For [[Bousfield localization of model categories|Bousfield localization]] of [[monoidal model categories]]:
 
-* {#Barwick10} [[Clark Barwick]], Prop. 4.47 in: *On left and right model categories and left and right Bousfield localizations*, Homology Homotopy Appl. **12** 2 (2010) 245-320 &lbrack;[euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full)&rbrack;
+* {#Barwick10} [[Clark Barwick]], Prop. 4.47 in: *On left and right model categories and left and right Bousfield localizations*, Homology Homotopy Appl. **12** 2 (2010) 245-320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
 
 * {#Lawson2022} [[Tyler Lawson]], Prop. 12.18 in: *An introduction to Bousfield localization*, in: *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press (2022) &lbrack;[arXiv:2002.03888](https://arxiv.org/abs/2002.03888)&rbrack;
 
