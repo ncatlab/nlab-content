@@ -104,6 +104,8 @@ This implies e.g. that any consistent theory of presheaf type has models in $Set
 
 * {#Cara18}[[Olivia Caramello]], _Theories, Sites, Toposes_ , Oxford UP 2018. (chapters 6-9)
 
+* [[Matthias Hutzler]], _Syntactic presentations for glued toposes and for crystalline toposes_, Phd. diss. Universität Augsburg 2021. ([arXiv:2206.11244](https://arxiv.org/abs/2206.11244))
+
 * {#JT02}[[Peter Johnstone]], _[[Sketches of an Elephant]] vols.1-2_ , Oxford UP 2002.
 
 [[!redirects theories of presheaf type]]
