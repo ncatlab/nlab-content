@@ -306,7 +306,7 @@ is an [[exact functor]].
 
 =--
 
-(e.g. [Kiersz, prop. 4](#Kiersz))
+(e.g. [Weibel 1994, Lem. 2.6.14](#Weibel94) [Kiersz, prop. 4](#Kiersz)).
 
 
 ### $R Mod$ is a closed monoidal category
@@ -417,9 +417,13 @@ Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for in
 
 * Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
 
-Discussion of limits and colimits in $R Mod$ is in 
+Discussion of [[limits]] and [[colimits]] in $R Mod$:
+
+* {#Weibel94} [[Charles Weibel]], *[[An introduction to homological algebra]]*,  Cambridge Studies in Adv. Math. **38**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
+
 
 * {#Kiersz} Andy Kiersz, _Colimits and homological algebra_, 2006 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2006/PAPERS/Kiersz.pdf))
+
 
 Discussion of homotopy theoretic modules via [[stabilization]] of [[slice model structures]] is in 
 
