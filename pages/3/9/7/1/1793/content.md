@@ -666,7 +666,7 @@ Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickla
 \end{proof}
 
 \begin{remark}\label{NotAllUnboundedComplexesAreProjectivelyCofibrant}
-  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, *not* every chain complex is [[cofibrant object|cofibrant]], not even those consisting of [[projective modules]] and not even if the [[ground field]] has [[characteristic zero]] --
+  It is clear that every chain complex in the model structure of Prop. \ref{StandardModelStructureOnUnboundedComplexes} is [[fibrant object|fibrant]]. However, in general *not* every chain complex is [[cofibrant object|cofibrant]], not even those consisting of [[projective modules]] --
 a [[counterexample]] is given in [Hovey (1999), Rem. 2.3.7](#Hovey99):
 
 For $\mathbb{K}$ any [[field]], let $R \coloneqq \mathbb{K} \oplus \mathbb{K} \cdot x$ be its [[ring of dual numbers]], i.e. with $x^2 = 0$. 
