@@ -17,7 +17,7 @@ Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restrictio
 At least for $\mathcal{C} = sSet$ itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following [[pushout]]-construction of such left-induced actions:
 
 \begin{proposition}
-  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathcal{C})$ to the unique $(G \cdot_{_H} X,\, \phi_!(\rho))$ which makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathcal{C}$: 
+  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathcal{C})$ to the unique $(G \cdot_{_H} X,\, \phi_!(\rho))$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathcal{C}$: 
 
 \begin{tikzcd}
     \ast \cdot H \cdot X
@@ -439,6 +439,70 @@ $$
 Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the universality of the pushout. 
 \end{proof}
 
+\begin{proposition}
+  Let $\mathcal{C}$ be a [[combinatorial model category|combinatorial]] [[simplicial model category]] in which all [[objects]] are [[cofibrant objects|cofibrant]].
+Then then [[pseudofunctor]]
+$$
+  \array{
+    sGrpd &\longrightarrow& ModCat
+    \\
+    \mathcal{X} 
+      &\mapsto& 
+    sFunc(\mathcal{X},\,\mathcal{S})_{proj}
+    \\
+    \Big\downarrow\mathrlap{^f}
+    && 
+   \Big\downarrow\mathrlap{^f_!}
+    \\
+    \mathcal{Y}
+    &\mapsto&
+    sFunc(\mathcal{Y},\,\mathcal{S})_{proj}
+  }
+$$
+is relative and proper.
+\end{proposition}
+\begin{proof}
+  By general results in [[Higher Topos Theory]], the pseudofunctor presents the $\infty$-functor 
+$$
+  \array{
+    Grpd_\infty &\longrightarrow& Cat_\infty
+    \\
+    \mathcal{X} 
+      &\mapsto& 
+    Func_\infty(\mathcal{X},\,L^W \mathcal{S})
+  }
+$$
+By passage to [[homotopy category of an (infinity,1)-category|homotopy categories]] and using functoriality it follows that for $f$ an [[equivalence in an (infinity,1)-category|equivalence]], so is the [[derived functor]] of $f_!$, whence $f_!$ is a left [[Quillen equivalence]]. This shows that the pseudofunctor is relative.
+
+Right properness is immediate: Since the weak equivalences in the projective [[model structure on functors]] are objectwise, the precomposition functor $f^\ast$ preserves weak equivalences for all $f$.
+
+Left properness follows from Lemma ...: If $f$ is an acyclic cofibration of simplicial groupoids, then it is so on all connected components, and here it is an injective weak equivalence and hence an acyclic cofibration of simplicial sets on all endomorphisms objects. 
+
+By groupoidiality we may without restriction assume that $f$ goes between simplicial groupoids whose set of objects is a singleton, hence that $f$ is of the form $f = \mathbf{B}\phi\colon \mathbf{B}H \to \mathbf{B}G$ for $\phi \colon H to G$ a homomorphism of [[simplicial groups]].
+
+In this case the simplicial functors $\mathbf{B}H \to \mathcal{C}$ are equivalently $H$-actions in $\mathcal{C}$
+
+
+Hence by lemma ... the functor $f_!$ is given on such an object $(X,\rho)$ by the following pushout:
+
+$$
+  \array{
+    H \cdot X &\overset{\rho}{\longrightarrow}& X
+    \\
+    \mathllap{^{\phi \cdot id}}
+    \big\downarrow
+      &^{_{(po)}}& 
+    \big\downarrow
+    \\
+    G \cdot X
+    &\longrightarrow&
+    G \cdot_{_H} X
+  }
+$$
+
+Here the left morphism is an acyclic cofibration by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathcal{C}$, using the assumptions that $X$ is cofibrant in $\mathcal{X}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
+Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalences.  
+\end{proof}
 
 ***
 
