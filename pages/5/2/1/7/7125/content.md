@@ -377,6 +377,8 @@ Of course, more interesting examples of the gluing construction abound as well. 
 
 * Peter F. Faul, Graham Manuell, José Siqueira, _Artin glueings of toposes as adjoint split extensions_ , arXiv:2012.04963 (2020). ([abstract](https://arxiv.org/abs/2012.04963))
 
+* [[Matthias Hutzler]], _Syntactic presentations for glued toposes and for crystalline toposes_, Phd. diss. Universität Augsburg 2021. ([arXiv:2206.11244](https://arxiv.org/abs/2206.11244))
+
 * [[Mamuka Jibladze]], _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/pubs/baglue.pdf))
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (section 4.2, pp.107-112)
