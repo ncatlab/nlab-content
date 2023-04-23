@@ -100,7 +100,6 @@ By the [[universal property]] of ([[colimit|co]])[[limits]] there are evident [[
 \end{definition}
 (e.g. [Hovey (1999), Def. 5.2.2](#Hovey99); [Hirschhorn (2002), Def. 15.2.5](#Hirschhorn02))
 
-
 \begin{example}\label{LatchingOfSimplicialObjects}
 **(latching of simplicial objects)**
 \linebreak
@@ -163,6 +162,16 @@ A [[morphism]] $f \colon X \to Y$ in the [[functor category]] $\mathcal{C}^{\mat
 
 \end{definition}
 (e.g. [Hirschhorn (2002), Def. 15.3.3](#Hirschhorn02))
+
+\begin{remark}\label{ReedyCofibrantObjects}
+In particular this means that:
+
+1. An object $X$ is Reedy-cofibrant iff the comparison maps $L_r \to X_r$ (eq:ComparisonMapsFromLatchingToMatchingObject) from its latching object are cofibrations.
+
+1. An object $X$ is Reedy-fibrant iff the comparison maps $X_r \to M_r X$ (eq:ComparisonMapsFromLatchingToMatchingObject) to its matching object are fibrations.
+
+\end{remark}
+
 
 \begin{proposition}\label{model}
 **(Reedy model structure)**
