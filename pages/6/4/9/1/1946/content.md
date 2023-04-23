@@ -957,7 +957,7 @@ Textbook accounts:
 
 An overview stressing the role of [[weighted colimit|weighted colimits]] is in
 
-* [[Emily Riehl]], [[Dominic Verity]], _The theory and practice of Reedy categories_, Theory and Applications of Categories **29** no.9 (2014) pp. 256-301. ([abstract](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html))
+* [[Emily Riehl]], [[Dominic Verity]], *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html),[arXiv:1304.6871](https://arxiv.org/abs/1304.6871)&rbrack;
 
 
 Discussion of functoriality of Reedy model structures:
@@ -965,15 +965,19 @@ Discussion of functoriality of Reedy model structures:
 * {#Barwick} [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](http://arxiv.org/abs/0708.2832))
  
 
-The discussion of enriched Reedy model structures:
+On [[enriched model category|enriched]] 
 
-* {#Angeltveit} Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
+* {#Angeltveit} [[Vigleik Angeltveit]], *Enriched Reedy categories*, Proceedings of the American Mathematical Society **136** 7 (2008)  &lbrack;[arXiv:math/0612137](http://arxiv.org/abs/math/0612137), [AMS:S0002-9939-08-09185-5](https://www.ams.org/journals/proc/2008-136-07/S0002-9939-08-09185-5/home.html), [jstor:20535419](https://www.jstor.org/stable/20535419)&rbrack;
+
+and [[monoidal model category|monoidal]] Reedy model structures:
+
+* Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, Applied Categorical Structures **27** (2019) 549–566 &lbrack;[arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w)&rbrack;
 
 Discussion of fibrant generation of Reedy model structure:
 
 * {#BHKKRS15} [[Marzieh Bayeh]], [[Kathryn Hess]], [[Varvara Karpova]], [[Magdalena Kedziorek]], [[Emily Riehl]], [[Brooke Shipley]], Thm. 5.9 in:  *Left-induced model structures and diagram categories*, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** American Mathematical Society (2015) &lbrack;[arXiv:1401.3651](http://arxiv.org/abs/1401.3651), [ISBN:978-1-4704-2495-4](https://bookstore.ams.org/conm-641)&rbrack;
 
- 
+
 
 The main statement is theorem 4.7 there.
 
@@ -986,9 +990,6 @@ The Reedy model structure on categories of simplicial objects is discussed in mo
 
 * {#Dugger01} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. **353** 12 (2001) 5003-5027 &lbrack;[ams:S0002-9947-01-02661-7](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7), [pdf](https://www.ams.org/journals/tran/2001-353-12/S0002-9947-01-02661-7/S0002-9947-01-02661-7.pdf)&rbrack;
   
-Monoidal Reedy model structures are discussed in
-
-* Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, [arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w).
 
 
 
