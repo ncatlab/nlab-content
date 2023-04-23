@@ -15,39 +15,82 @@
 
 ## Idea
 
-The [[Grothendieck construction]] may be lifted from [[categories]] to [[model categories]], where it serves as a presentation for the [[(infinity,1)-Grothendieck construction]].
+The [[Grothendieck construction]] may be lifted from [[categories]] to [[model categories]], where it serves as a presentation for the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]].
 
 ## Definition
  {#Definition}
 
-Let $M$ be a [[model category]] and $F \colon M \to ModelCat$ a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] pointing in the direction of their [[left adjoints]], and [[mate]]-pairs of [[natural isomorphisms]].  Assume furthermore that:
+Let $\mathcal{M}$ be a [[model category]] and 
 
-* $F$ is *[[relative functor|relative]]*, meaning that whenever $f \colon A\to B$ is a [[weak equivalence]] in $M$, then the Quillen adjunction $f_! \colon F(A) \rightleftarrows F(B) : f^*$ is a [[Quillen equivalence]].  (That is, $F$ is a [[relative functor]].)
+\[
+  \label{ThePseudofunctor}
+  \array{
+    \mathcal{M} &\longrightarrow& Mod Cat
+    \\
+    X &\mapsto& F(X)
+    \\
+    \Big\downarrow
+    &&
+    \mathllal{f_\ast}\Big\uparrow\Big\downarrow\mathrlap{^{f_1}}
+    \\
+    Y &\mapsto& F(Y)
+  }
+\]
 
-* $F$ is "*proper*", meaning that whenever $f \colon A\to B$ is an acyclic cofibration (resp. an acyclic fibration) in $M$, then $f_!$ (resp. $f^*$) preserves [[weak equivalences]].
+a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_1$), and [[mate]]-pairs of [[natural isomorphisms]].  
 
-In the [[Grothendieck construction]] $\int F$ we define a morphism $(f,\phi) \colon (A,X) \to (B,Y)$ (where $f \colon A\to B$ in $M$ and $\phi \colon f_!(X) \to Y$ in $F(B)$), to be:
+We say that:
 
-* a *weak equivalence* iff $f \colon A\to B$ is a weak equivalence in $M$ and $f_!(Q X) \to f_!(X) \xrightarrow{\phi} Y$ is a weak equivalence in $F(B)$, where $Q$ is a [[cofibrant replacement]].  
+\begin{definition}\label{RelativePseudoFunctor}
+$F$ is *[[relative functor]]* if for a [[weak equivalence]] $f$ in $M$, the associated Quillen adjunction $f_! \dashv f^*$ is a [[Quillen equivalence]].  
+\end{definition}
 
-  (Since $f_!\dashv f^*$ is a Quillen equivalencen by relativeness, this is equivalent to the dual condition that $X \xrightarrow{\hat{\phi}} f^*(Y) \to f^*(R Y)$ is a weak equivalence in $F(A)$.)
+\begin{definition}\label{ProperPseudofunctor}
+$F$ is "*proper*", if for $f \colon A\to B$ is an [[acyclic cofibration]] (resp. an [[acyclic fibration]]) in $\mathcal{M}$, then $f_!$ (resp. $f^*$) preserves all [[weak equivalences]].
+\end{definition}
 
-* a *cofibration* iff $f$ is a cofibration in $M$ and $\phi \colon f_!(X)\to Y$ is a cofibration in $F(B)$.
+\begin{definition}\label{IntegralModelStructure}
+**(integral model structure)**
+\linebreak
+Given a [[pseudofunctor]] as in (eq:ThePseudofunctor),
+in its [[Grothendieck construction]] $\int_{X \in \mathcal{M}} F(X)$ we say that a morphism $(f,\phi) \colon (X,A) \to (Y,B)$ (where $f \colon X\to Y$ in $\mathcal{M}$ and $\phi \colon f_!(A) \to B$ in $F(Y)$), to be:
 
-* a *fibration* if $f$ is a fibration in $M$ and the [[adjunct]] $\hat{\phi} \colon X\to f^*(Y)$ is a fibration in $F(A)$.
+* an *integral equivalence* iff 
+
+  1. $f \colon X \to Y$ is a [[weak equivalence]] in $mathcal{M}$ 
+
+  2. $f_!(Q A) \to f_!(A) \xrightarrow{\phi} B$ is a [[weak equivalence]] in $F(Y)$, where $Q$ is a [[cofibrant replacement]].  
+
+    (Since $f_!\dashv f^*$ is a Quillen equivalence by relativeness, this is equivalent to the [[adjunct]] condition that $A \xrightarrow{\widetilde{\phi}} f^*(B) \to f^*(R B)$ is a weak equivalence in $F(X)$.)
+
+* an *integral cofibration* iff 
+
+  1. $f$ is a [[cofibration]] in $\mathcal{M}$ 
+
+  1. $\phi \colon f_!(A) \to B$ is a [[cofibration]] in $F(Y)$.
+
+* an *integral fibration* iff 
+
+  1. $f$ is a [[fibration]] in $\mathcal{M}$ 
+
+  1. the [[adjunct]] $\hat{\phi} \colon A \to f^*(B)$ is a fibration in $F(X)$.
+
+\end{definition}
 
 \begin{proposition}\label{ExistenceStatement}
-There classes of maps make $\int F$ a model category, called the *integral model structure*.
+If the pseudofunctor is relative (Def. \ref{RelativePseudoFunctor}) and proper (Def. \ref{ProperPseudofunctor}) the classes of maps in Def. \ref{IntegralModelStructure}
+make $\int_{X \in \mathcal{M}} F(X)$ a [[model category]].
 \end{proposition}
 This is [Harpaz & Prasma (2015), Theorem 3.0.12](#HarpazPrasma15).
 
 ## Properties
 
 \begin{proposition}
-Given a proper relative $F:M\to ModelCat$, we can compose with the underlying [[(infinity,1)-functor|$(\infty,1)$-functor]] $Ho \colon ModelCat \to QCat$ with values in (say) [[quasicategories]].  
-Since $F$ is relative, this map takes weak equivalences in $M$ to equivalences of quasicategories, so it induces a functor of quasicategories $Ho(M) \to Ho(QCat) = (\infty,1)Cat$.  The [[(∞,1)-Grothendieck construction]] of this functor is then equivalent, over $Ho(M)$, to the underlying $(\infty,1)$-category of the Grothendieck-construction model structure on $\int F$
+Given a proper relative $F \colon \mathcal{M} \to ModelCat$, we can compose with the underlying [[(infinity,1)-functor|$(\infty,1)$-functor]] $Ho \colon ModelCat \to QCat$ with values in (say) [[quasicategories]].  
+Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[equivalences of quasicategories]], so it induces a functor of quasicategories $Ho(M) \to Ho(QCat) = (\infty,1)Cat$.  The [[(∞,1)-Grothendieck construction]] of this functor is then equivalent, over $Ho(M)$, to the underlying $(\infty,1)$-category of the Grothendieck-construction model structure on $\int F$
 \end{proposition}
 ([Harpaz & Prasma (2015), Proposition 3.1.2](#HarpazPrasma15))
+
 
 ## Examples
 
