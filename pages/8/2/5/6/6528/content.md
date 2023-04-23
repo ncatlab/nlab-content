@@ -39,7 +39,7 @@ Write $F_\nabla \in \Omega^2(X,End(E))$ for the [[curvature]] [[differential for
 One says that $\nabla$ is an **instanton configuration** if $F_\nabla$ is [[Hodge star operator|Hodge]]-self dual
 
 $$
-  \star F_\nabla = - F_\nabla
+  \star F_\nabla =  F_\nabla
   \,,
 $$
 
