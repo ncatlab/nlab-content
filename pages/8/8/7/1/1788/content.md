@@ -1,4 +1,10 @@
 
+If $\mathcal{C}$ is symmetric monoidal model then so is $C_{sGrpd}$ under the external tensor.
+
+Namely, first use projection formula to see that external tensor by objects preserves the fiberwise (acyclic) cofibrations. 
+
+...
+
 Let $\mathcal{C}$ an [[simplicial model category]].
 We write $\cdot \,\colon\, sSet \times \mathcal{C} \to \mathcal{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works more generally, too.)
 
