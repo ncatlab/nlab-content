@@ -41,8 +41,12 @@ Let $C$ be a [[closed monoidal category|closed]] [[monoidal category|symmetric m
 Then $C$ satisfies the _pushout-product axiom_ if for any pair of [[cofibrations]] $f : X \to Y$ and $f' \colon X' \to Y'$ their [[pushout-product]], hence the induced morphism out of the [[coproduct]]
 
 $$
-  (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
-  \to
+  (X \otimes Y') 
+  \overset 
+    {X \otimes X'}
+    {\amalg}
+  (Y \otimes X')
+  \longrightarrow
   Y \otimes Y'
   \,,
 $$
