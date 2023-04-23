@@ -9,6 +9,10 @@ On [[level of a topos|topos levels]] in [[simplicial sets]] and [[cubical sets]]
 
 * {#KRRZ11} C. Kennett, [[Emily Riehl]], [[Michael Roy]], M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215**  5 (2011)  949-961 &lbrack;[arXiv:1003.5944](http://arxiv.org/abs/1003.5944), [doi:j.jpaa.2010.07.002](https://doi.org/10.1016/j.jpaa.2010.07.002)&rbrack;
 
+On [[Reedy model structures]] via [[weighted colimits]]:
+
+* [[Emily Riehl]], [[Dominic Verity]], *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html),[arXiv:1304.6871](https://arxiv.org/abs/1304.6871)&rbrack;
+
 
 An introductory [[category theory]] textbook for beginning graduate students or advanced undergraduates with an emphasis on applications of categorical concepts to a variety of areas of mathematics.
 
