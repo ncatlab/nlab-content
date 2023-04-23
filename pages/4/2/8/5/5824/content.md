@@ -127,9 +127,9 @@ Then the right square is a pullback iff the total rectangle is.
 \end{proposition}
 (e.g. [Gran 2021, Lem. 1.15](#Gran21), see also [Carboni, Janelidze, Kelly and Paré 1997, Lemma 4.6](#CarboniJanelidzeKellyParé97), [Garner and Lack 2012, Lemma 2.2](#GarnerLack12))
 
-For a more general statement that holds in categories that are not necessarily [[regular]], see [Przybylek](#Przybylek).
+For a more general statement that holds in categories that are not necessarily [[regular]], see [Przybylek (2013)](#Przybylek13).
 
-This implies the $\infty$-category theoretic statement at least in good cases:
+Prop. \ref{WrongWayPastingLawInRegularCategory} implies the $\infty$-category theoretic reverse pasting law, at least in good cases:
 
 \begin{proposition}\label{ReversePastingLawForInfinityGroupoids}
 **(reverse pasting law for $\infty$-pullbacks of $\infty$-groupoids)**
@@ -204,7 +204,9 @@ The reverse pasting law is discussed in:
 
 * {#Gran21} [[Marino Gran]], *An introduction to regular categories*, in: New Perspectives in Algebra, Topology and Categories,  Coimbra Mathematical Texts, Springer (2021) &lbrack;[arXiv:2004.08964](https://arxiv.org/abs/2004.08964), [ISBN:978-3-030-84319-9](https://www.springerprofessional.de/en/new-perspectives-in-algebra-topology-and-categories/19764096)&rbrack;
 
-* {#Przybylek} [[Michal Przybylek]]. _The other pullback lemma_. [arXiv preprint 1311.2974](https://arxiv.org/abs/1311.2974) (2013).
+* {#Przybylek13} [[Michal Przybylek]], _The other pullback lemma_ (2013) &lbrack;[arXiv:1311.2974](https://arxiv.org/abs/1311.2974)&rbrack;
+
+cf. [MO:143070](https://mathoverflow.net/q/143070/381)
 
 
 ### In model category theory
