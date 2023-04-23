@@ -697,7 +697,7 @@ I imagine that there would then be an $(\infty,1)$-version using whatever passes
 
 ## Related pages
 
-* A Cartesian morphism is the special case of an [[initial lift]] of a structured [[cosink]] when the cosink is a singleton.
+* A Cartesian morphism is the special case of a [[strictly final lift]] of a structured [[sink]] when the sink is a singleton.
 
 ## References 
 
