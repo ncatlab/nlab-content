@@ -39,7 +39,13 @@ Let $C, D, E$ be [[model category|model categories]]. A
    the induced ([[pushout product]]) morphism 
    
    $$
-     F(c', d) \coprod_{F(c,d)} F(c,d') \to F(c', d')
+     F(c', d) 
+     \overset
+       {F(c,d)}
+       {\amalg} 
+     F(c,d') 
+       \longrightarrow 
+     F(c', d')
    $$
 
    is a [[cofibration]] in $E$, which is a [[weak equivalence]] if either $i$ or $j$ is a weak equivalence
