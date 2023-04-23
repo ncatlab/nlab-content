@@ -47,6 +47,8 @@ The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[equiv
 
 =--
 
+(e.g. [Hatcher (2002)](#Hatcher02), p. 147)
+
 +-- {: .proof}
 ###### Proof
 
@@ -81,28 +83,34 @@ A [[long exact sequence]] $C_\bullet$ is _split exact_ precisely if the [[weak h
 ### Of free modules and vector spaces
  {#OfVectorSpaces}
 
+Assuming the [[axiom of choice]]:
+
 +-- {: .num_prop}
 ###### Proposition
 
-Every exact sequence of [[free abelian groups]] is split, assuming the [[axiom of choice]].
+Every [[exact sequence]] of [[free abelian groups]] is split.
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-Every exact sequence of [[free modules]] which is bounded below is split.
+Every exact sequence of [[free modules]] which is [[bounded-below chain complex|bounded below]] is split.
 
 =--
 
 Let $k$ be a [[field]] and denote by $\mathcal{A} \coloneqq k$[[Vect]] the [[category]] of [[vector spaces]] over $k$.
 
-+-- {: .num_cor}
++-- {: .num_cor #SESOfVectorSpacesSplits}
 ###### Corollary
 
 Every [[short exact sequence]] of vector spaces is split.
 
 =--
+
+(Essentially by the [[basis theorem]], for exposition see for instance [here](https://unapologetic.wordpress.com/2008/06/26/exact-sequences-split).)
+
+
 
 ### Involving injective/projective objects
  {#InvolvingInjectiveObjects}
@@ -144,9 +152,12 @@ Hence $q$ is a [[retract]] as in def. \ref{SplitnessInAbelianCategory}.
 
 ## References
 
-For instance section 1.4 of 
+For instance 
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* [[Charles Weibel]], Section 1.4 of: _[[An Introduction to Homological Algebra]]_ (1994)
+
+* {#Hatcher02} [[Allen Hatcher]], pp. 147 of: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
 
 
 [[!redirects split sequence]]
