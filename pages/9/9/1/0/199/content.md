@@ -32,7 +32,19 @@ Via [[direct sum]] and [[tensor product of vector spaces]] $\otimes_k$, this bec
 
 The study of $Vect$ is called _[[linear algebra]]_.
 
+## Properties
 
+### Splitting lemma
+
+Assuming the [[axiom of choice]] (and essentially by the [[basis theorem]]):
+\begin{proposition}\label{ShortExactSequencesSplit}
+In $Vect$ every [[short exact sequence]] [[split short exact sequence|splits]].
+\end{proposition}
+(See [there](split+exact+sequence#SESOfVectorSpacesSplits).)
+
+\begin{remark}
+On [[FinDimVect]] this is a [[categorification]] of the [[rank-nullity theorem]].
+\end{remark}
 
 ## Related categories
 
