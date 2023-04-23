@@ -1,5 +1,6 @@
 
-* [webpage](http://www.math.uic.edu/people/profile?mscsid=bous)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Aldridge_Bousfield)
 
 ## Selected writings
 
@@ -7,6 +8,11 @@
 On [[homotopy limits]], [[completion of a space|completions]] and [[localization of a space|localizations]] (such as [[p-completion]] and [[rationalization]]):
 
 * {#BousfieldKan71} [[Aldridge Bousfield]], [[Daniel Kan]], *Localization and completion in homotopy theory*, Bull. Amer. Math. Soc. **77** 6 (1971) 1006-1010 &lbrack;[doi:10.1090/S0002-9904-1971-12837-9](https://doi.org/10.1090/S0002-9904-1971-12837-9), [pdf](https://www.ams.org/journals/bull/1971-77-06/S0002-9904-1971-12837-9/S0002-9904-1971-12837-9.pdf)&rbrack;
+
+Introducing what came to be known as *[[Bousfield localization]]* ([[Bousfield localization of spectra|of spectra]] via that of [[Bousfield localization of model categories|model categories]]):
+
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology Volume 18 Issue 4 (1979) (<a href="https://doi.org/10.1016/0040-9383(79)90018-1">doi:10.1016/0040-9383(79)90018-1</a>, [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
 
 
 * [[Daniel M. Kan]] and [[Aldridge K. Bousfield]], *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
@@ -51,4 +57,5 @@ category: people
 
 [[!redirects A. K. Bousfield]]
 [[!redirects Aldridge K. Bousfield]]
+[[!redirects Aldridge Knight Bousfield]]
 [[!redirects Bousfield]]
