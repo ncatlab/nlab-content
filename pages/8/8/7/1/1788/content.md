@@ -1,4 +1,118 @@
 
+We shall denote morphisms in $\mathbf{C}_{sGrpd}$ as follows:
+
+$$
+  \phi_f
+  \;\;\colon\;\;
+  \left(
+  \array{
+    \mathscr{V}_{\mathcal{X}}
+    &\overset{\phi}{\longrightarrow}&
+    f^\ast \mathscr{W}_{\mathcal{Y}}
+    \\
+    \mathcal{X}
+    &\overset{f}{\longrightarrow}&
+    \mathcal{Y}
+  }
+  \right)
+$$
+
+
+Let $\mathbf{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] [[sSet-enriched category]] with 
+
+* [[tensor product]] denoted $(-)\otimes (-)$
+
+* [[internal hom]] denoted $[-,-]$.
+
+With this
+
+$$
+  \mathbf{C}^{\mathcal{X}} 
+    \,\coloneqq\,
+  sFunc\big(
+    \mathcal{X}
+    ,\,
+    \mathbf{C}
+  \big)
+$$
+becomes closed monoidal with the pointwise operations.
+
+Furthermore, 
+
+$$
+  \mathbf{C}_{sGrpd}
+  \;\coloneqq\;
+  \int_{\mathcal{X} \in sGrpd} \mathbf{C}^{\mathcal{X}}
+$$
+
+becomes monoidal with respect to the [[external tensor product]]
+
+which is defined first on morphisms which are constant in $sGrpd$ by 
+
+$$
+  \boxtimes
+  \;\colon\;
+  \mathbf{C}^{\mathcal{X}}
+  \times
+  \mathbf{C}^{\mathcal{Y}}
+  \overset{
+    (pr_{\mathcal{X}})^\ast
+    \times
+    (pr_{\mathcal{Y}})^\ast
+  }{\longrightarrow}
+  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \times
+  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \overset{
+    \otimes
+  }{\longrightarrow}
+  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+$$
+
+$$
+  \left[
+  \array{
+    \mathscr{V}_{\mathcal{X}}
+    \\
+    \Big\downarrow\mathrlap{^{\phi_f}}
+    \\
+    \mathscr{W}_{\mathcal{Y}}
+  }
+  \;\;\,
+  \right]
+  \boxtimes
+  \left[
+  \array{
+    \mathscr{V}'_{\mathcal{X}'}
+    \\
+    \Big\downarrow\mathrlap{^{\phi'_{f'}}}
+    \\
+    \mathscr{W}'_{\mathcal{Y}'}
+  }
+  \;\;\;
+  \right]
+  \;\;
+  \coloneqq
+  \;\;
+  \left[
+  \array{
+    \mathscr{V}_{\mathcal{X}}
+    \boxtimes
+    \mathscr{V}'_{\mathcal{X}'}
+    \\
+    \Big\downarrow\mathrlap{{}^{\phi_f \boxtimes \phi'_{f'}}}
+    \\
+    \mathscr{W}_{\mathcal{Y}}
+    \boxtimes
+    \mathscr{W}'_{\mathcal{Y}'}
+  }
+  \;\;\;\;
+  \right]
+$$
+
+
+
+
 If $\mathcal{C}$ is symmetric monoidal model then so is $C_{sGrpd}$ under the external tensor.
 
 Namely, first use projection formula to see that external tensor by objects preserves the fiberwise (acyclic) cofibrations. 
