@@ -35,7 +35,7 @@
 
 _Gelfand duality_ is a [[Isbell duality|duality between spaces and their algebras of functions]] for the case of [[compact space|compact]] [[topological space]]s and [[commutative C-star-algebra|commutative]] [[C-star algebras]]:
 
-> Every (nonunital) $C^\ast$-algebra $A$ is equivalent to the $C^\ast$-algebra of [[continuous functions]] on the [[topological space]] called its _[[Gelfand spectrum]]_ $sp(A)$.
+> Every (nonunital) commutative $C^\ast$-algebra $A$ is equivalent to the $C^\ast$-algebra of [[continuous functions]] on the [[topological space]] called its _[[Gelfand spectrum]]_ $sp(A)$.
 
 This theorem is the basis for regarding non-commutative $C^\ast$-algebras as formal duals to spaces in [[noncommutative geometry]].
 
