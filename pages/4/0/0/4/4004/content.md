@@ -133,24 +133,23 @@ $Quiv$ is of course a presheaf category $[Q^{op},Set]$, where $Q$ is the categor
 
 ## References
 
-* [[Aurelio Carboni]] and [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_, [MR](http://www.ams.org/mathscinet-getitem?mr=1377312)
+* [[Aurelio Carboni]] and [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_, Mathematical Structures in Computer Science **5(4)**, 1995, pp. 441 - 459. ([MR:1377312](http://www.ams.org/mathscinet-getitem?mr=1377312), [doi:10.1017/S0960129500001183](https://doi.org/10.1017/S0960129500001183))
 
 Parametric right adjoints were introduced in:
 
-* * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
+* [[R. Street]], _The petit topos of globular sets_ , Journal of Pure and Applied Algebra **154**, 2000, pp. 299-315. (<a href="https://doi.org/10.1016/S0022-4049(99)00183-8">doi:10.1016/S0022-4049(99)00183-8</a>)
 
 See also:
 
-* [[Mark Weber]], _Generic morphisms, parametric representations, and weakly cartesian monads_, Theory and applications of categories, 13:191&#8211;234, 2004. [link](http://www.tac.mta.ca/tac/volumes/13/14/13-14abs.html)
+* [[Mark Weber]], _Generic morphisms, parametric representations, and weakly cartesian monads_, Theory and Applications of Categories, Vol. 13, 2004, No. 14, pp 191-234. ([tac](http://www.tac.mta.ca/tac/volumes/13/14/13-14abs.html))
 
-* [[Mark Weber]], _Familial 2-functors and parametric right adjoints_, 2008 [link](http://www.tac.mta.ca/tac/volumes/18/22/18-22abs.html)
- {#Weber08}
-
-* {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
+* {#Weber08} [[Mark Weber]], _Familial 2-functors and parametric right adjoints_, Theory and Applications of Categories, Vol. 18, 2007, No. 22, pp 665-732. ([tac](http://www.tac.mta.ca/tac/volumes/18/22/18-22abs.html))
+ 
+* {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_, Journal of Pure and Applied Algebra **216**, 2011. ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064), [doi:10.1016/j.jpaa.2012.02.039](https://doi.org/10.1016/j.jpaa.2012.02.039))
 
 In [[database theory]] p.r.a.s between copresheaf categories, known as _data migration functor_, are treated in
 
-* {#Spivak10} [[David Spivak]], _Functorial Data Migration_, ([arXiv:1009.1166](https://arxiv.org/abs/1009.1166))
+* {#Spivak10} [[David Spivak]], _Functorial Data Migration_, Information and Computation **217**, 2012. ([arXiv:1009.1166](https://arxiv.org/abs/1009.1166), [doi:10.1016/j.ic.2012.05.001](https://doi.org/10.1016/j.ic.2012.05.001))
 
 
 [[!redirects parametric right adjoints]]
