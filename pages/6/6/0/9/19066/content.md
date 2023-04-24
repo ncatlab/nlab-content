@@ -107,6 +107,8 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 
 > under construction --- handle with care
 
+#### Plain model structure
+
 \begin{definition}
 **(Notation)**
 For 
@@ -123,6 +125,15 @@ $$
   sFunc(\mathcal{X}, \mathbf{}C)
 $$
 for the [[sSet]]-[[enriched functor category]] from $\mathcal{X}$ (regarded as a [[small category|small]] [[sSet-enriched category]]) to $\mathbf{C}$.
+
+We denote the generic object here
+
+$$
+  \mathscr{V}_{\mathcal{X}}
+  \;\in\;
+  \mathbf{C}^{\mathcal{X}}
+  \,.
+$$
 
 If $\mathbf{C}$ is [[cocomplete category|cocomplete]], then by [[left Kan extension]] $(-)_!$ these categories arrange into a [[pseudofunctor]]
 $$
@@ -160,10 +171,50 @@ whose [[Grothendieck construction]] we abbreviate by
 \]
 
 We may think of this as the category of *$sGrpd$-parameterized objects of $\mathbf{C}$*.
+
+We denote the morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]]:
+$$
+  \phi_f
+  \;\;\colon\;\;
+  \left(
+  \array{
+    \mathscr{V}_{\mathcal{X}}
+    &\overset{\phi}{\longrightarrow}&
+    f^\ast \mathscr{W}_{\mathcal{Y}}
+    \\
+    \mathcal{X}
+    &\overset{f}{\longrightarrow}&
+    \mathcal{Y}
+  }
+  \right)
+$$
+
+
 \end{definition}
+
+\begin{example}\label{InitialParameterizedObject}
+**(initial parameterized object)**
+\linebreak
+With the [[initial objects]] 
+
+* of $sGrpd$ denoted $\varnothing \,\in\, sGrpd$
+
+* of $\mathbf{C}$ denoted $0 \,in\, \mathbf{C}$;
+
+* of $\mathbf{C}^{\mathcal{X}}$ denoted $0_{\mathcal{X}} \,in\, \mathbf{C}^{\mathcal{X}}$;
+
+the [[initial object]] of $\mathbf{C}_{sGrpd}$ is 
+
+* $0_{\varnothing} \,\in\, \mathbf{C}_{sGrpd}$.
+
+\end{example}
+
 
 
 \begin{proposition}
+  \label{ModelStructureOnParameterizedObjects}
+**(integral model structure on parameterized objects)**
+\linebreak
   Let $\mathbf{C}$ be a [[combinatorial model category|combinatorial]] [[simplicial model category]] in which all [[objects]] are [[cofibrant objects|cofibrant]].
 
 Then the [[pseudofunctor]] on the [[model category of simplicial groupoids]] which sends a [[simplicial groupoid]] $\mathcal{X}$ to the [[projective model structure on simplicial functors]] $\mathbf{C}^{\mathcal{X}}_{proj}$
@@ -679,10 +730,148 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 \end{proof}
 
 
+#### Monoidal model structure
+
+Now assume that $\mathbf{C}$ is in addition a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with
+
+* [[tensor product]] denoted $(-) \otimes (-) \,\colon\, \mathbf{C} \times \mathbf{C} \to \mathbf{C}$
+
+* [[internal hom]] denoted $[-,-] \,\colon\, \mathbf{C}^{op} \times \mathbf{C} \to \mathbf{C}$
+
+\begin{definition}\label{ExternalTensorProduct}
+**(external tensor product)**
+\linebreak
+  The *[[external tensor product]]* on $\mathbf{C}_{sGrpd}$ (eq:CategoryOfParameterizedObjects) 
+
+$$
+  \boxtimes
+  \;\colon\;
+  \mathbf{C}_{sGrpd}
+  \times
+  \mathbf{C}_{sGrpd}
+  \longrightarrow
+  \mathbf{C}_{sGrpd}
+$$
+
+is defined first on morphisms covering [[identity morphisms]] in $sGrpd$ by
+
+$$
+  \boxtimes
+  \;\colon\;
+  \mathbf{C}^{\mathcal{X}}
+  \times
+  \mathbf{C}^{\mathcal{Y}}
+  \overset{
+    (pr_{\mathcal{X}})^\ast
+    \times
+    (pr_{\mathcal{Y}})^\ast
+  }{\longrightarrow}
+  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \times
+  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \overset{
+    \otimes
+  }{\longrightarrow}
+  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+$$
+
+and then in general by
+
+$$
+  \left[
+  \array{
+    \mathscr{V}_{\mathcal{X}}
+    \\
+    \Big\downarrow\mathrlap{^{\phi_f}}
+    \\
+    \mathscr{W}_{\mathcal{Y}}
+  }
+  \;\;\,
+  \right]
+  \boxtimes
+  \left[
+  \array{
+    \mathscr{V}'_{\mathcal{X}'}
+    \\
+    \Big\downarrow\mathrlap{^{\phi'_{f'}}}
+    \\
+    \mathscr{W}'_{\mathcal{Y}'}
+  }
+  \;\;\;
+  \right]
+  \;\;
+  \coloneqq
+  \;\;
+  \left[
+  \array{
+    \mathscr{V}_{\mathcal{X}}
+    \boxtimes
+    \mathscr{V}'_{\mathcal{X}'}
+    \\
+    \Big\downarrow\mathrlap{{}^{\phi_f \boxtimes \phi'_{f'}}}
+    \\
+    \mathscr{W}_{\mathcal{Y}}
+    \boxtimes
+    \mathscr{W}'_{\mathcal{Y}'}
+  }
+  \;\;\;\;
+  \right]
+$$
+\end{definition}
+
+\begin{lemma}
+  The functor forming the [[external tensor product]] (Def. \ref{ExternalTensorProduct}) with a fixed object $\mathscr{V}'_{\mathcal{X}'} \,\in\, \mathbf{C}_{sGrpd}$
+$$
+  (-) \boxtimes \mathscr{V}'_{\mathcal{X}'}
+  \;\colon\;
+  \mathbf{C}_{sGrpd}
+  \longrightarrow
+  \mathbf{C}_{sGrpd}
+$$
+is a [[left Quillen functor]] on the integral model structure of Prop \ref{ModelStructureOnParameterizedObjects}.
+\end{lemma}
+\begin{proof}
+  For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration, write
+$$
+  \left[
+  \array{
+    \mathscr{V}_{\mathcal{X}} 
+    \boxtimes
+    \mathscr{V}'_{\mathcal{X}'}
+    \\
+    \Big\downarrow\mathrlap{{}^{\phi_f \boxtimes id}}
+    \\
+    \mathscr{W}_{\mathcal{Y}} 
+    \boxtimes
+    \mathscr{V}'_{\mathcal{X}'}
+  }
+  \;\;\;\;
+  \right]
+  \;\;\;\;=\;\;\;\;
+  \array{
+    (pr_{\mathcal{X}})^\ast \mathscr{V}
+    \otimes
+    (\phi_f \boxtimes id)^\ast 
+    (pr_{\mathcal{X}'})^\ast \mathscr{V}'
+  }
+$$
+
+(...)
+\end{proof}
+
+\linebreak
 
 ## Related pages
 
 * The [[formal duality|dual]] notion is a [[model structure on sections]]
+
+* [[tangent (infinity,1)-topos]]
+
+* [[Joyal locus]]
+
+* [[parameterized homotopy theory]]
+
+* [[parameterized stable homotopy theory]]
 
 
 ## References
