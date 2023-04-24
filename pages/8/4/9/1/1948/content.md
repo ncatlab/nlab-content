@@ -389,3 +389,6 @@ See also
 [[!redirects injective model structures on enriched functors]]
 
 [[!redirects model structure on simplicial functors]]
+[[!redirects projective model structure on simplicial functors]]
+[[!redirects injective model structure on simplicial functors]]
+
