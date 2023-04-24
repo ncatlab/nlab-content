@@ -14,7 +14,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -284,6 +283,8 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 * [[enriched poset]]
 
+* [[enriched groupoid]]
+
 * [[enriched presheaf]]
 
 * [[enriched monad]]
@@ -378,5 +379,3 @@ Further examples are discussed in
 [[!redirects enriched]]
 [[!redirects polyad]]
 
-[[!redirects enriched groupoid]]
-[[!redirects enriched groupoids]]
