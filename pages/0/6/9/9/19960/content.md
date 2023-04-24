@@ -712,6 +712,9 @@ reviewed in:
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+* Si-wen Li, Xiao-tong Zhang, *The D4/D8 model and holographic QCD* &lbrack;[arXiv:2304.10826](https://arxiv.org/abs/2304.10826)&rbrack;
+
+
 See also:
 
 * Vikas Yadav, *String/$\mathcal{M}$-theory Dual of Large-$N$ Thermal QCD-Like Theories at Intermediate Gauge/'t Hooft Coupling and Holographic Phenomenology* ([arXiv:2111.12655](https://arxiv.org/abs/2111.12655))
