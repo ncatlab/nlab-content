@@ -27,7 +27,7 @@ $$
 
 of $T$ applied to the [[slice category]] $A \simeq A/1$, followed by [[dependent sum]] (projection on the source). 
 
-We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ is a [[right adjoint]].  Parametric right adjoints are also called **local right adjoints**. It is equivalent to the notion of right [[multi-adjoint]], but [[multi-adjoints]] can be formulated without assuming $A$ has a terminal object.
+We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ is a [[right adjoint]].  Parametric right adjoints are also called **local right adjoints**, though this terminology conflicts with that of [[local adjunctions]] (see [[locally]]). It is equivalent to the notion of right [[multi-adjoint]], but [[multi-adjoints]] can be formulated without assuming $A$ has a terminal object.
 
 A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its unit and multiplication are [[cartesian natural transformation|cartesian]].  Thus in particular it is a [[cartesian monad]].  A p.r.a. monad is also called a **strongly cartesian monad**.
 
