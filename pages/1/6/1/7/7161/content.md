@@ -62,7 +62,7 @@ A **groupoid object in** $C$ is an [[internal category]] $A$ such that there is 
 
 * [[group]], **group object**, [[group object in an (∞,1)-category]]
 
-* [[groupoid]], [[groupoid object]], [[groupoid object in an (∞,1)-category]]
+* [[groupoid]], [[groupoid object]], [[enriched groupoid]], [[simplicial groupoid]], [[groupoid object in an (∞,1)-category]]
 
 * [[infinity-groupoid]], [[infinity-groupoid object]], [[groupoid object in an (∞,1)-category]]
 
