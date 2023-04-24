@@ -26,6 +26,11 @@ On [[descent]]:
 
 * [[Stephen Lack]]. _Codescent objects and coherence_. Journal of Pure and Applied Algebra **175** 1-3 (2002) 223-241 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00136-6">doi:10.1016/S0022-4049(02)00136-6</a>&rbrack;
 
+On [[Hopf monads]]:
+
+* [[Alain Bruguières]], [[Steve Lack]], [[Alexis Virelizier]], *Hopf monads on monoidal categories*,  Adv. Math. __227__ 2 (2011) 745-800 &lbrack;[arXiv:1003.1920](https://arxiv.org/abs/1003.1920), [doi:10.1016/j.aim.2011.02.008](https://doi.org/10.1016/j.aim.2011.02.008)&rbrack;
+
+
 On [[adhesive categories]]:
 
 * {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
@@ -47,7 +52,7 @@ See also:
 
 * Gabriella B&#246;hm and Stephen Lack, A simplicial approach to multiplier bimonoids, Bulletin of the Belgian Mathematical Society - Simon Stevin, 24:107–122, 2017.
 
-* Gabriella B&#246;hm and Stephen Lack, Multiplier Hopf monoids, Algebras and Representation Theory, 20(1):1–46, 2017; also available as arXiv:1511.03806.
+* Gabriella B&#246;hm and Stephen Lack, *Multiplier Hopf monoids*, Algebras and Representation Theory, 20(1):1–46, 2017; also available as arXiv:1511.03806.
 
 * Gabriella B&#246;hm and Stephen Lack, A category of multiplier bimonoids, Applied Categorical Structures, 25(2):279–301, 2017; and available as arXiv:1509.07171.
 
