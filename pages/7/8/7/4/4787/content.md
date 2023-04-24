@@ -6,7 +6,7 @@
 
 ## Idea
 
-A notion of _dimension_ is a notion of "size" of [[object]]s. There are various variations of what exactly this means, applicaple in various contexts, that tend to agree when they jointly apply.
+A notion of _dimension_ is a notion of "size" of [[objects]]. There are various variations of what exactly this means, applicable in various contexts, that tend to agree when they jointly apply.
 
 ### Of spaces
 
@@ -16,9 +16,9 @@ There are many notions of _dimension_ of [[space]]s.  What they all have in comm
 
    The [[trace]] of a the [[identity]] on a  vector space coincides with its categorical trace in the [[symmetric monoidal category]] [[Vect]] of [[vector spaces]].
 
-* Generalizing from this example, the [[trace]] of an object in a [[spherical category|sphereical]] [[fusion category]] is called its *[[quantum dimension]]*.
+* Generalizing from this example, the [[trace]] of an object in a [[spherical category|spherical]] [[fusion category]] is called its *[[quantum dimension]]*.
 
-*  A [[manifold]] has [[dimension of a manifold]]equal to $n$ if it is locally isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.  A [[complex manifold]] is of __complex dimension__ $n$ if it is locally isomorphic to $\mathbb{C}^n$, hence has (real) dimension $2 n$.
+*  A [[manifold]] has [[dimension of a manifold]] equal to $n$ if it is locally isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.  A [[complex manifold]] is of __complex dimension__ $n$ if it is locally isomorphic to $\mathbb{C}^n$, hence has (real) dimension $2 n$.
 
 *  A [[topological space]] $X$ has (Lebesgue) __[[covering dimension]]__ less than $n$ if every [[open cover]] $U$ of $X$ has a [[refinement]] $V$ such that every element of $X$ belongs to fewer than $n + 1$ elements of $V$.  (Then $X$ has dimension $n$ if it has dimension less than $n + 1$ but not less than $n$.)  By [[negative thinking]], this makes sense for $n \geq -1$; precisely the [[empty space]] has dimension $-1$, and precisely the [[point]] (of course) has dimension $0$.
 
@@ -84,7 +84,7 @@ The following notions of dimension capture aspects of the concept for objects in
 
 For the dimension in symmetric monoidal categories see the references at [[Euler characteristic]].
 
-A general abstract [[(∞,1)-topos theory|(∞,1)-topos theoretic]] discusssion of notions of homotopy/cohomology/covering _dimension_ is in section 7.2 of 
+A general abstract [[(∞,1)-topos theory|(∞,1)-topos theoretic]] discussion of notions of homotopy/cohomology/covering _dimension_ is in section 7.2 of 
 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
