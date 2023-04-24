@@ -839,7 +839,7 @@ This proves the first statement. From this the second follows by the characteriz
 The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
 \end{proposition}
 
-This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using the methods discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
+This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using methods like those discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
 Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
 
@@ -850,9 +850,10 @@ Below, this model structure is recovered as example \ref{CategoricalProjectiveCl
 \begin{proof}
 Since [[Bousfield localization of model categories|left Bousfield localization]] does not change the class of cofibrations, we need to show that every object $V_\bullet^\bullet \in sCh_\bullet(k Mod)$ is [Reedy cofibrant](Reedy+model+structure#ReedyModelStructure),
 hence (cf. [this Remark](Reedy+model+structure#ReedyCofibrantObjects)) that the comparison morphisms from the [[latching objects]] $L_r V^r_\bullet \to V^r_\bullet$ are monomorphisms for all $r \in \mathbb{R}$.
-
 But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of+chain+complexes#AbelianCategoryStructure)), [this Prop.](Reedy+model+structure#LatchingInAbelianCategoryIsDegeneracySubobject) at *[[Reedy model structure]]* says that these are [[monomorphisms]] and hence the claim follows by Prop. \ref{UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant}.
 \end{proof}
+
+\linebreak
 
 #### Standard injective model structure on unbounded chain complexes
  {#InjectiveModelStructureOnUnboundedChainComplexes}
