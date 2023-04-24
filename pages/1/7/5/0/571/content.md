@@ -167,6 +167,8 @@ Monomorphisms are preserved by [[pullback]].
 
 =--
 
+(In an [[adhesive category]] they are also preserved by [[pushout]].)
+
 
 +-- {: .num_prop}
 ###### Proposition
