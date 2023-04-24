@@ -45,11 +45,11 @@ Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[sim
 
    1. $\Gamma$ is closed under forming degenerate cells;
 
-   1. every non-[[identity morphism]] in $Y$ is *uniquely* a [[composition|composite]] of morphisms in $\Gamma$ where
+   1. every non-[[identity morphism]] in $Y$ is *uniquely* a [[composition]] of those sequences of morphisms in $\Gamma$ and their [[inverse morphisms|inverses]] which are *reduced* in that:
 
-      1. no morphism is composed with its inverse
+      1. no morphism in the sequences is consecutive with its [[inverse morphisms|inverse]],
 
-      1. no two non-[[identity morphisms]] in the [[image]] of $f$ are composed with each other.
+      1. no two non-[[identity morphisms]] in the [[image]] of $f$ are consecutive.
 \end{definition}
 &lbrack;[Dwyer & Kan 1984, §2.3](#DwyerKan84)&rbrack;
 
