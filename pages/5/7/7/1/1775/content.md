@@ -560,6 +560,8 @@ This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
 
 * [[∞-group]]
 
+* [[groupoid object]], [[enriched groupoid]], [[simplicial groupoid]]
+
 * [[groupoid objects in an (∞,1)-topos are effective]]
 
 * [[monoid]]. [[monoid object]], [[monoid object in an (∞,1)-category]]
