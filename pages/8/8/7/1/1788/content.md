@@ -1,4 +1,49 @@
 
+$$
+  \left[
+  \array{
+    \mathscr{V}_{\mathcal{X}} 
+    \boxtimes
+    \mathscr{V}'_{\mathcal{X}'}
+    \\
+    \Big\downarrow\mathrlap{{}^{\phi_f \boxtimes id}}
+    \\
+    \mathscr{W}_{\mathcal{Y}} 
+    \boxtimes
+    \mathscr{V}'_{\mathcal{X}'}
+  }
+  \;\;\;\;
+  \right]
+  \;\;\;\;=\;\;\;\;
+  \array{
+    \big(
+      (pr_{\mathcal{X}})^\ast \mathscr{V}
+    \big)
+    \otimes
+    \big(
+      (f \times id)^\ast 
+      (pr_{\mathcal{X}'})^\ast \mathscr{V}'
+    \big)
+    \\
+    \Big\downarrow\mathrlap{{}^{
+      \big(
+      \big((pr_{\mathcal{X}})^\ast \phi\big)
+      \otimes 
+      id
+      \big)_{f \times id}
+    }}
+    \\
+    \big(
+      (pr_{\mathcal{Y}})^\ast \mathscr{W}
+    \big)
+    \otimes
+    \big(
+      (pr_{\mathcal{X}'})^\ast \mathscr{V}'
+    \big)
+  }
+$$
+
+
 We shall denote morphisms in $\mathbf{C}_{sGrpd}$ as follows:
 
 $$
@@ -114,6 +159,12 @@ $$
 
 
 If $\mathcal{C}$ is symmetric monoidal model then so is $C_{sGrpd}$ under the external tensor.
+
+
+\begin{lemma}
+  Let $\mathscr{V}'_{}$
+\end{lemma}
+
 
 Namely, first use projection formula to see that external tensor by objects preserves the fiberwise (acyclic) cofibrations. 
 
