@@ -643,9 +643,9 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 * {#QuantumConference2023} 22 - 26 May 2023 (upcoming)
 
-  **Quantum Information, Quantum Matter and Quantum Gravity**
+  **Quantum Information and Quantum Matter**
 
-  > on [[quantum information]], [[quantum material|quantum matter]] and [[quantum gravity]]
+  > on [[quantum information]], [[quantum material|quantum matter]]
 
 \begin{imagefromfile}
     "file_name": "CQTS-QuantumConference-2023.png",
