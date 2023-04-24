@@ -36,7 +36,13 @@ $$
 $$
 over the functor
 $$
-  D(F(-),G(-)) : C^{op} \otimes C \to V
+  D\big(
+    F(-)
+    ,\,
+    G(-)
+  \big) 
+  \;\colon\; 
+  C^{op} \otimes C \to V
   \,.
 $$
 Write in the following $E_c : [C,D](F,G) \to D(F(c),G(c))$ for the canonical morphism out of the end (the counit).
