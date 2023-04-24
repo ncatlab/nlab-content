@@ -29,10 +29,10 @@ Let $\mathcal{M}$ be a [[model category]] and
     \\
     X &\mapsto& F(X)
     \\
-    \Big\downarrow\mathrlap{^{f}}
+    \Big\downarrow\mathrlap{{}^{f}}
     &&
     \mathllap{^{f^\ast}}\Big\uparrow
-    \Big\downarrow\mathrlap{^{f_!}}
+    \Big\downarrow\mathrlap{{}^{f_!}}
     \\
     Y &\mapsto& F(Y)
   }
@@ -107,17 +107,73 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 
 > under construction --- handle with care
 
+\begin{definition}
+**(Notation)**
+For 
+
+1. $\mathbf{C} \in sSet Cat$ an [[sSet-enriched category]];
+
+1. $\mathbf{C} \in sGrpd$ a Dwyer-Kan [[simplicial groupoid]], i.e an [[sSet]]-[[enriched groupoid]],
+
+let's write
+$$
+  \mathbf{C}^{\mathcal{X}}
+  \;\;
+  \coloneqq
+  sFunc(\mathcal{X}, \mathbf{}C)
+$$
+for the [[sSet]]-[[enriched functor category]] from $\mathcal{X}$ (regarded as a [[small category|small]] [[sSet-enriched category]]) to $\mathbf{C}$.
+
+If $\mathbf{C}$ is [[cocomplete category|cocomplete]], then by [[left Kan extension]] $(-)_!$ these categories arrange into a [[pseudofunctor]]
+$$
+  \array{
+    \mathllap{
+      \mathbf{C}^{(-)}
+      \;\colon\;
+    }
+    sGrpd &\longrightarrow& Cat
+    \\
+    \mathcal{X} 
+      &\mapsto& 
+    \mathbf{C}^{\mathcal{X}}
+    \\
+    \Big\downarrow\mathrlap{{}^f}
+    && 
+    \Big\downarrow\mathrlap{{}^{f_!}}
+    \\
+    \mathcal{Y}
+    &\mapsto&
+    \mathbf{C}^{\mathcal{X}}
+  }
+$$
+
+whose [[Grothendieck construction]] we abbreviate by
+\[
+  \label{CategoryOfParameterizedObjects}
+  \mathbf{C}_{sGrpd}
+  \;\;
+    \coloneqq
+  \;\;
+  \underset{\mathcal{X} \in sGrpd}{\int}
+  \mathbf{C}^{\mathcal{X}}
+  \,.
+\]
+
+We may think of this as the category of *$sGrpd$-parameterized objects of $\mathbf{C}$*.
+\end{definition}
+
 
 \begin{proposition}
-  Let $\mathcal{C}$ be a [[combinatorial model category|combinatorial]] [[simplicial model category]] in which all [[objects]] are [[cofibrant objects|cofibrant]].
-Then then [[pseudofunctor]] on the [[model category of simplicial groupoids]] which sends a [[simplicial groupoid]] $\mathcal{X}$ to the projective [[model structure on simplicial functors]] from $\mathcal{X}$ to $\mathcal{C}$
+  Let $\mathbf{C}$ be a [[combinatorial model category|combinatorial]] [[simplicial model category]] in which all [[objects]] are [[cofibrant objects|cofibrant]].
+
+Then the [[pseudofunctor]] on the [[model category of simplicial groupoids]] which sends a [[simplicial groupoid]] $\mathcal{X}$ to the [[projective model structure on simplicial functors]] $\mathbf{C}^{\mathcal{X}}_{proj}$
 $$
   \array{
     sGrpd &\longrightarrow& ModCat
     \\
     \mathcal{X} 
       &\mapsto& 
-    sFunc(\mathcal{X},\,\mathcal{C})_{proj}
+    \mathbf{C}^{\mathcal{X}}_{proj}
     \\
     \Big\downarrow\mathrlap{^f}
     && 
@@ -125,15 +181,15 @@ $$
     \\
     \mathcal{Y}
     &\mapsto&
-    sFunc(\mathcal{Y},\,\mathcal{C})_{proj}
+    \mathbf{C}^{\mathcal{X}}_{proj}
   }
 $$
-is relative and proper (in the sense [above](#Definition)), hence the integral model structure (Prop. \ref{ExistenceStatement}) on the category of *parameterized $\mathcal{C}$ objects*
+is relative and proper (in the sense [above](#Definition)), hence the integral model structure (Prop. \ref{ExistenceStatement}) on the category of *parameterized $\mathbf{C}$ objects* (eq:CategoryOfParameterizedObjects)
 $$
-  \mathcal{C}_{sGrpd}
+  \mathbf{C}_{sGrpd}
   \;\;\coloneqq\;\;
   \underset{\mathcal{X} \in sGrpd}{\int}
-  sFunc(\mathcal{X},\,\mathcal{C})_{proj}
+  \mathbf{C}^{\mathcal{X}}_{proj}
 $$
 exists.
 \end{proposition}
@@ -145,7 +201,7 @@ $$
     \\
     \mathcal{X} 
       &\mapsto& 
-    Func_\infty(\mathcal{X},\,L^W \mathcal{S})
+    Func_\infty(\mathcal{X},\,L^W \mathbf{C})
     \mathrlap{\,.}
   }
 $$
@@ -157,8 +213,8 @@ It remains to argue left-properness: If $f$ is an acyclic cofibration of simplic
 
 By groupoidiality we may without restriction assume that $f$ goes between simplicial groupoids whose set of objects is a singleton, hence that $f$ is of the form $f = \mathbf{B}\phi\colon \mathbf{B}H \to \mathbf{B}G$ for $\phi \colon H to G$ a homomorphism of [[simplicial groups]].
 
-In this case the simplicial functors $\mathbf{B}H \to \mathcal{C}$ are equivalently $H$-[[action objects]] in $\mathcal{C}$.
-On such an object $(X,\rho)$ the functor $f_!$ is given by the following pushout (this is Lemma \ref{LeftInducedActionViaPushout} below):
+In this case the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[action objects]] in $\mathbf{C}$.
+On such an object $(X,\rho)$ the functor $f_!$ is given by the following [[pushout]] (this is proven as Lemma \ref{LeftInducedActionViaPushout} below):
 
 $$
   \array{
@@ -175,16 +231,16 @@ $$
   }
 $$
 
-Here the left morphism is an acyclic cofibration by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathcal{C}$, using the assumptions that $X$ is cofibrant in $\mathcal{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
+Here the left morphism is an [[acyclic cofibration]] by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathbf{C}$, using the assumptions that $X$ is cofibrant in $\mathbf{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
 Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalences.  
 \end{proof}
 
 Now to discuss the lemma used in the proof.
 
-Let $\mathcal{C}$ an [[simplicial model category]].
-We write $\cdot \,\colon\, sSet \times \mathcal{C} \to \mathcal{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works more generally, too.)
+Let $\mathbf{C}$ be a [[simplicial model category]].
+We write $\cdot \,\colon\, sSet \times \mathbf{C} \to \mathbf{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works more general enriched categories, too.)
 
-For $H \in Grp(sSet)$ a [[simplicial group]] and $X \in Obj(C)$, we may consider [[group actions]] $\rho \colon H \cdot X \to X$. Write $H Act(\mathcal{C})$ for the [[category]] these form.
+For $H \in Grp(sSet)$ a [[simplicial group]] and $X \in Obj(C)$, we may consider [[group actions]] $\rho \colon H \cdot X \to X$. Write $H Act(\mathbf{C})$ for the [[category]] these form.
 
 Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restriction" functor
 
@@ -192,15 +248,15 @@ Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restrictio
   \label{RestrictionOfSimplicialGroupActions}
   \phi^\ast 
     \,\colon\, 
-  G Act(\mathcal{C}) \to H Act(\mathcal{C})
+  G Act(\mathbf{C}) \to H Act(\mathbf{C})
   \,.
 \]
 
-At least for $\mathcal{C} = sSet$ itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following [[pushout]]-construction of such left-induced actions:
+At least for $\mathbf{C} = $ [[sSet]] itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following [[pushout]]-construction of such left-induced actions:
 
 \begin{lemma}
 \label{LeftInducedActionViaPushout}
-  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathcal{C})$ to the unique $(G \cdot_{_H} X,\, \phi_!(\rho))$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathcal{C}$: 
+  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathbf{C})$ to the unique $(G \cdot_{_H} X,\, \phi_!(\rho))$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$: 
 
 \begin{tikzcd}
     \ast \cdot H \cdot X
@@ -292,9 +348,9 @@ respectively.
 
 Given
 
-* $(X, \rho) \,\in\, H Act(\mathcal{C})$
+* $(X, \rho) \,\in\, H Act(\mathbf{C})$
 
-* $(Y, \rho_Y) \,\in\, G Act(\mathcal{C})$.
+* $(Y, \rho_Y) \,\in\, G Act(\mathbf{C})$.
 
 we need to establish a [[natural bijection]] of morphisms
 
@@ -619,7 +675,7 @@ $$
   \end{array}
 $$
 
-Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the universality of the pushout. 
+Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the [[universal property]] of the [[pushout]]. 
 \end{proof}
 
 
