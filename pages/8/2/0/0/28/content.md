@@ -1714,6 +1714,12 @@ The disadvantage of the simplicial approach is the difficulty of describing mult
 
 [[!include homotopy n-types - table]]
 
+* [[internal groupoid]], [[enriched groupoid]]
+
+* [[simplicial groupoid]]
+
+* [[groupoid object in an (∞,1)-category]]
+
 * [[groupoid action]], [[groupoid-principal bundle]]
 
 * [[presheaf of groupoids]]
