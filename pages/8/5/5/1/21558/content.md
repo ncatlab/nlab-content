@@ -2,15 +2,26 @@
 
 \section{Idea}
 
-The _walking isomorphism_ or _free-standing isomorphism_ or _interval groupoid_ is the [[category]]:
+The  _[[interval object]] in [[groupoids]]_ or _free-standing isomorphism_ or, if you insist, the "[[walking structure|walking]] isomorphism", is the [[groupoid]]:
 \[
-0 \quad \cong \quad 1.
+  I_\sim
+  \;\coloneqq\;
+  \big\{
+    a \overset{\;\; \sim \;\;}{\leftrightarrows} b
+  \big\}
 \]
-It has two objects and one isomorphism between them, thus is a [[groupoid]]. It 'represents' [[isomorphism|isomorphisms]] in a category, meaning functors out of it correspond to isomorphisms.
+with precisely two [[objects]] and (besides their [[identity morphisms]]) one [[isomorphism]] and its [[inverse morphism]] connecting them. 
 
-The word "walking" is because it's a "[[walking structure]]".
+This is such that for $\mathcal{C}$ any [[category]], a [[functor]] of the form
 
-The walking isomorphism can be [[categorified]] in a number of ways: to the [[walking equivalence]], to the [[walking adjoint equivalence]], or to the [[walking 2-isomorphism]]. Related, though not quite a categorification in one of the usual senses, is the [[walking 2-isomorphism with trivial boundary]]. 
+$$
+  I_\sim \longrightarrow \mathcal{C}
+$$
+
+is precisely a choice of [[isomorphism]] in $\mathcal{C}$.
+
+The interval groupoid can be [[categorified]] in a number of ways: to the [[walking equivalence]], to the [[walking adjoint equivalence]], or to the [[walking 2-isomorphism]]. Related, though not quite a categorification in one of the usual senses, is the [[walking 2-isomorphism with trivial boundary]]. 
+
 
 \section{Definition}
 
