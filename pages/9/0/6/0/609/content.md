@@ -30,7 +30,7 @@ The notion of *simplicial groupoids* pairs the concepts of *[[groupoids]]* and *
 
 A priori, the term *simplicial groupoid* may refer to [[simplicial objects]] in the ([[1-category|1-]])[[category]] [[Grpd]] of ([[small category|small]]) [[strict category|strict]] [[groupoids]].
 
-However (cf. discussion at *[[simplicial category]]*), in applications (notably in [[homotopy theory]]) one is interested only in those simplicial objects in [[Grpd]] whose [[underlying]] simplicial [[sets]] of [[objects]] are *simplicially constant*. This more restrictive notion is traditionally still referred to as "simplicial groupoids" &lbrack;e.g. [Dwyer & Kan (1984),  §1.2.(ii)](#DwyerKan84), [Goerss & Jardine (2009), V.7](GoerssJardine09)&rbrack;; but for the moment let us call these instead "simplicial DK-groupoids", for clarity, and let us denote the [[full subcategory]] they form by
+However (cf. discussion at *[[simplicial category]]*), in applications (notably in [[homotopy theory]]) one is interested only in those simplicial objects in [[Grpd]] whose [[underlying]] simplicial [[sets]] of [[objects]] are *simplicially constant*. This more restrictive notion --- equivalent to *[[sSet]]-[[enriched groupoids]]* --- is traditionally still referred to as "simplicial groupoids" &lbrack;e.g. [Dwyer & Kan (1984),  §1.2.(ii)](#DwyerKan84), [Goerss & Jardine (2009), V.7](GoerssJardine09)&rbrack;; but for the moment let us call these instead "simplicial DK-groupoids", for clarity, and let us denote the [[full subcategory]] they form by
 
 $$
   sGrpd_{DK} 
