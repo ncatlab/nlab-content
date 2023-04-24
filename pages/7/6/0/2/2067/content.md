@@ -683,18 +683,6 @@ The second statement is [[Higher Topos Theory|HTT, prop. 2.4.1.5]].
 
 
 
-## Variants
-
-+--{: .query}
-[[David Roberts]]: There would surely be an [[anafunctor]] version of this, that would require no choices whatsoever. It is unlikely that I would be able to find time to write this up, so my plea goes out to those in the know...
-
-I imagine that there would then be an $(\infty,1)$-version using whatever passes as anafunctors in that setting (dratted memory, failing at the first gate)
-
-[[Mike Shulman]]: Yes, there would surely be such a version.  (-:  The simplest way would be to take the specifications $|f^*|$ for the anafunctor $f^*$ to be the cartesian morphisms over $f$, with domain and codomain giving the functions $\sigma$ and $\tau$.  Unique factorization would give you the values of morphisms.
-
-[[David Roberts]]: just stumbled on this old comment - I'm reading Makkai more closely, and I'm convinced that basically anything defined by a universal property is given by a saturated anafunctor. So this is a heads up for posterity, that a map is a fibration iff the fairly obvious span of functors defines a [[saturated anafunctor]].
-=--
-
 ## Related pages
 
 * A Cartesian morphism is the special case of a [[strictly final lift]] of a structured [[sink]] when the sink is a singleton.
