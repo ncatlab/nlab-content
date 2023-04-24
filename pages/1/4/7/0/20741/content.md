@@ -113,7 +113,13 @@ Quantum neural networks (in [[quantum computation]] for [[quantum machine learni
 
 * Stefano Mangini, Francesco Tacchino, Dario Gerace, Daniele Bajoni, Chiara Macchiavello, *Quantum computing models for artificial neural networks*, EPL (Europhysics Letters) 134(1), 10002 (2021) ([arXiv:2102.03879](https://arxiv.org/abs/2102.03879))
 
+Topological deep learning for data supported on topological domains such as [[simplicial complexes]], [[cell complexes]], and [[hypergraphs]]:
 
+* Ephy R. Love, Benjamin Filippenko, Vasileios Maroulas, Gunnar Carlsson, _Topological Deep Learning_ ([arXiv:2101.05778](https://arxiv.org/abs/2101.05778))
+
+* Mathilde Papillon, Sophia Sanborn, Mustafa Hajij, Nina Miolane, _Architectures of Topological Deep Learning: A Survey on Topological Neural Networks_ ([arXiv:2304.10031](https://arxiv.org/abs/2304.10031))
+
+* Mustafa Hajij et al., _Topological Deep Learning: Going Beyond Graph Data_ ([pdf](https://www.researchgate.net/publication/370134352_Topological_Deep_Learning_Going_Beyond_Graph_Data))
 
 
 ### Relation to tensor networks
