@@ -238,3 +238,7 @@ See also *[[category theory#references|category theory - references]]*.
 [[!redirects naturality square]]
 [[!redirects naturality squares]]
 
+[[!redirects natural map]]
+[[!redirects natural maps]]
+
+
