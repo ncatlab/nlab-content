@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -183,15 +184,19 @@ $$
 
 $$
   A \otimes_X B
-  \stackrel{}{\longrightarrow}
+  \overset
+    { \eta_A \otimes \eta_B }
+    {\longrightarrow}
   (f^\ast f_! A) \otimes_X (f^\ast f_! B)
-  \stackrel{\simeq}{\longrightarrow}
+  \overset
+    {\simeq}
+    {\longrightarrow}
   f^\ast ( (f_! A) \otimes_Y (f_! B) )
   \,,
 $$
 
 where the first morphism is the [[tensor product]] of two copies of the
-[[unit of an adjunction|adjunction unit]] and where the second
+[[adjunction unit]] and where the second
 is the [[equivalence]] that exhibits $f^\ast$ as a [[strong monoidal functor]].
 
 
@@ -216,16 +221,26 @@ given as the composite
 $$
   \overline{\pi}
   \;\colon\;
-  f_! ((f^\ast B) \otimes A) 
-   \stackrel{}{\longrightarrow}
-  (f_! f^\ast B) \otimes_Y (f_! A)
-   \longrightarrow 
+  f_! 
+  \big(
+    (f^\ast B) \otimes A
+  \big) 
+   \overset  
+     { \widetilde{ \eta_{f^\ast B} \otimes \eta_A }  }
+     {\longrightarrow}
+   (f_! f^\ast B) \otimes_Y (f_! A)
+   \overset
+     { \epsilon_B \otimes_Y id }
+     {\longrightarrow}
   B \otimes f_! A
   \,,
 $$
 
-where the first morphism is that of remark \ref{QuasiMonoidalnessOfLeftAdjoint} and where the second 
-is the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]] (tensored with an identity).
+where 
+
+* the first morphism is that of remark \ref{QuasiMonoidalnessOfLeftAdjoint} 
+
+* the second is the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]] (tensored with an [[identity morphism]]).
 
 Also write
 
@@ -327,6 +342,41 @@ $$
 is often called the *[[projection formula]]*. In [[representation theory]] this is also sometimes called *[[Frobenius reciprocity]]*, though mostly that term is used for (just) the existence of the $(f_! \dashv f^\ast)$-[[adjunction]], where in representation theory the [[left adjoint]] $f_!$ forms [[induced representations]].
 
 =--
+
+\begin{remark}\label{ProjectionComposedWithCounitInRemainingVariable}
+  In the special case that both of its variables are in the image of $f^\ast$, then
+  composing the [[projection formula]]-map from Def. \ref{ComparisonMaps} with the [[adjunction counit]] in the first variable equals the adjunction unit of the full term, in that the following [[commuting diagram|diagram commutes]] (where we are leaving the structure isomorphism of the [[strong monoidal functor]] $f^\ast$ notationally implicit):
+  $$
+    \array{
+      f_! 
+      \big( 
+        (f^\ast A) \otimes (f^\ast B) 
+      \big)
+      &\overset{ \overline{\pi} }{\longrightarrow}&
+      (f_! f^\ast A) \otimes B
+      \\
+      \mathllap{{}^{\epsilon_{A \otimes B}}}\Big\downarrow
+      &&
+      \Big\downarrow
+      \mathrlap{ {}^{ \epsilon \otimes id } }
+      \\
+      A \otimes B
+      &=&
+      A \otimes B
+    }
+  $$
+  because: 
+
+The [[adjunct]] of the composite of the top and the right morphism is the composite of 
+
+* the [[adjunct]] of the top morphism, which by Def. \ref{ComparisonMaps} is $f^\ast A \otimes f^\ast B \overset{\eta_{f^\ast A} \otimes \eta_{f^\ast B}}{\longrightarrow} f^\ast f_! f^\ast A \otimes f^\ast f_! f^\ast B \overset{id \otimes f^\ast \epsilon_B}{\longrightarrow}$
+
+* the image under $f^\ast$ of the right morphism, which is $f^\ast f_! f^ \ast A \otimes f^\ast  B \overset{f^\ast \epsilon_A \otimes id}{\longrightarrow} f^\ast A \otimes f^\ast B$.
+
+That composite is the identity by the [[triangle identity]] in each of the two variables. 
+
+In conclusion, the left vertical morphism is the adjunct of the identity, and hence the counit as claimed.
+\end{remark}
 
 
 ### Comparison of push-forwards and Wirthm&#252;ller isomorphism
