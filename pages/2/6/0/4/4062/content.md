@@ -19,64 +19,287 @@
 ## Definition
  {#Definition}
 
-+-- {: .num_prop #MateBijection}
-###### Proposition
-
+\begin{proposition}\label{MateBijection}
+**(mate bijection)**
+\linebreak
 Given a [[2-category]] $K$, [[adjunction|adjoint pairs]] $(\eta,\epsilon) \colon f \dashv u \colon b \to a$ and $(\eta',\epsilon') \colon f' \dashv u' \colon b' \to a'$ , and [[1-morphisms|1-cells]] $x \colon a \to a'$ and $y \colon b \to b'$, there is a [[bijection]]
 $$ K(a,b')(f' x,y f) \cong K(b,a')(x u,u' y) $$
-given by [[pasting]] with the [[unit of an adjunction|unit]] of one adjunction and the [[counit of an adjunction|counit]] of the other, i.e.
+given by [[pasting]] with the [[unit of an adjunction|unit]] of one adjunction and the [[counit of an adjunction|counit]] of the other, i.e.:
 
-$$
-  \array{
-    a & \overset{x}{\to} & a' 
+\begin{tikzcd}[
+   sep = 30pt
+  ]
+    a
+    \ar[r, "{ x }"{description}]
+    \ar[d, "{ f }"{description}]
+    &
+    a'
+    \ar[
+      d, 
+      "{ f' }"{description}
+    ]
+    \ar[
+      dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \lambda }"
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift right=20pt,
+      "{ \mapsto }"
+    ]
+    &&
+    b
+    \ar[d, equals]
+    \ar[r, "{ u }"{description}]
+    &
+    a
+    \ar[
+      dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \epsilon }"
+    ]
+    \ar[r, "{ x }"{description}]
+    \ar[d, "{ f }"{description}]
+    &
+    a'
+    \ar[
+      d, 
+      "{ f' }"{description}
+    ]
+    \ar[
+      dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \lambda }"
+    ]
+    \ar[r, equals]
+    &
+    a'
+    \ar[
+      dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \eta' }"
+    ]
+    \ar[
+      d,
+      equals
+    ]
     \\
-    \mathllap{f} \downarrow & \mathllap{\lambda} \Downarrow & \downarrow     \mathrlap{f'} 
-    \\
-    b & \underset{y}{\to} & b'
-  }
-  \;\;\;\;\;
-    \mapsto
-  \;\;\;\;\;
-  \array{
-    b & \overset{u}{\to} & a & \overset{x}{\to} 
-    & a' &   \overset{1}{\to} &     a' 
-   \\
-    \mathllap{1} \downarrow & \mathllap{\epsilon} \Downarrow & \mathllap{f} \downarrow &  
-    \mathllap{\lambda}      \Downarrow     & \downarrow \mathrlap{f'} & \Downarrow \mathrlap{\eta'} 
-    & \downarrow \mathrlap{1} \\
-    b & \underset{1}{\to} & b & \underset{y}{\to} 
-    & b' & \underset{u'}{\to}    & a'
-  }
-$$
+    b
+    \ar[r, "{ y }"{description}]
+    &
+    b'
+    &&
+    b
+    \ar[r, equals]
+    &
+    b
+    \ar[r, "{ y }"{description}]
+    &
+    b'
+    \ar[r, "{ u' }"{description}
+    ]
+    &
+    a'
+\end{tikzcd}
 
 and
 
-$$
-  \array{
-    b & \overset{y}{\to} & b' \\ 
-    \mathllap{u} \downarrow & \mathllap{\mu} \Uparrow & \downarrow \mathrlap{u'} \\
-    a & \underset{x}{\to} & a'
-  }
-  \;\;\;\;\;
-    \mapsto 
-  \;\;\;\;\;
-  \array{
-    a & \overset{f}{\to} & b & \overset{y}{\to} & b' 
-    & \overset{1}{\to} &     b' \\
-    \mathllap{1} \downarrow & \mathllap{\eta} \Uparrow & \mathllap{u} \downarrow 
-    & \mathllap{\mu} \Uparrow & \downarrow \mathrlap{u'} & \Uparrow \mathrlap{\epsilon'} & \downarrow \mathrlap{1} \\
-    a & \underset{1}{\to} & a & \underset{x}{\to} & a' & \underset{f'}{\to} &     b'
-  }
-$$
+\begin{tikzcd}[
+   sep = 30pt
+  ]
+    b
+    \ar[r, "{ y }"{description}]
+    \ar[d, "{ u }"{description}]
+    &
+    b'
+    \ar[
+      d, 
+      "{ u' }"{description}
+    ]
+    \ar[
+      from=dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \mu }"{swap}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift right=20pt,
+      "{ \mapsto }"
+    ]
+    &&
+    a
+    \ar[d, equals]
+    \ar[r, "{ f }"{description}]
+    &
+    b
+    \ar[
+      from=dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \eta }"{swap}
+    ]
+    \ar[r, "{ y }"{description} ]
+    \ar[d, "{ u }"{description}]
+    &
+    b'
+    \ar[
+      d, 
+      "{ u' }"{description}
+    ]
+    \ar[
+      from=dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \mu }"{swap}
+    ]
+    \ar[r, equals]
+    &
+    b'
+    \ar[
+      from=dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \epsilon' }"{swap}
+    ]
+    \ar[
+      d,
+      equals
+    ]
+    \\
+    a
+    \ar[r, "{ x }"{description}]
+    &
+    a'
+    &&
+    a
+    \ar[r, equals]
+    &
+    a
+    \ar[r, "{ x }"{description}]
+    &
+    a'
+    \ar[r, "{ f' }"{description}
+    ]
+    &
+    b'
+\end{tikzcd}
 
-=--
+\end{proposition}
 
-+-- {: .proof}
-###### Proof
 
-That this is a bijection follows easily from the [[triangle identities]].  
+\begin{proof}\label{ProofOfMateBijection}
+That this is a bijection follows easily from the [[triangle identities]], which say that the gray-shaded cells in the following [[pasting diagram]] cancel out;
 
-=--
+\begin{tikzcd}[
+   sep = 30pt
+  ]
+    \color{gray}
+    a
+    \ar[
+      d, 
+      gray,
+      "{ f }"{description}
+    ]
+    \ar[r, equals, gray]
+    &
+    \color{gray}a
+    \ar[
+      dl,
+      gray,
+      Rightarrow,
+      shorten=10pt,
+      "{ \mu }"
+    ]
+    \ar[d, equals, gray]
+    \\
+    \color{gray}
+    b
+    \ar[d, equals, gray]
+    \ar[r, gray, "{ u }"{description}]
+    &
+    a
+    \ar[
+      dl,
+      gray,
+      Rightarrow,
+      shorten=10pt,
+      "{ \epsilon }"{gray}
+    ]
+    \ar[r, "{ x }"{description}]
+    \ar[d, "{ f }"{description}]
+    &
+    a'
+    \ar[
+      d, 
+      "{ f' }"{description}
+    ]
+    \ar[
+      dl,
+      Rightarrow,
+      shorten=10pt,
+      "{ \lambda }"
+    ]
+    \ar[r, gray, equals]
+    &
+    \color{gray}
+    a'
+    \ar[
+      dl,
+      gray,
+      Rightarrow,
+      shorten=10pt,
+      "{ \eta' }"
+    ]
+    \ar[
+      d,
+      gray,
+      equals
+    ]
+    \\
+    \color{gray}
+    b
+    \ar[r, gray, equals]
+    &
+    b
+    \ar[r, "{ y }"{description}]
+    &
+    b'
+    \ar[r, gray, "{ u' }"{description}
+    ]
+    \ar[
+      d, gray, equals
+    ]
+    &
+    \color{gray}
+    a'
+    \ar[
+      dl,
+      gray,
+      Rightarrow,
+      shorten=10pt,
+      "{ \epsilon' }"
+    ]
+    \ar[d, gray, "{ f' }"]
+    \\
+    & & 
+    \color{gray}
+    b'
+    \ar[r, equals, gray]
+    &
+    \color{gray}
+    b'
+\end{tikzcd}
+
+\end{proof}
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -185,12 +408,15 @@ The relationship between two of the adjoints in a multivariable adjunction can b
 
 * [[Emily Riehl]], _Parametrized mates and multivariable adjunctions_ [blog post](https://golem.ph.utexas.edu/category/2012/11/parametrized_mates_and_multiva.html).
 
-{#ReferencesGeneralizationtoBicategories} Generalization to [[bicategories]] is discussed in
+{#ReferencesGeneralizationtoBicategories} Discussion in the generalization of [[bicategories]]:
 
-* [[Aaron Lauda]], &#167;3 of _Frobenius algebras and ambidextrous adjunctions_, Theory and Applications of Categories, 16:84&#8211;122, 2006. 52, [journal abstract page](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html).
+* [[Aaron Lauda]], &#167;3 of _Frobenius algebras and ambidextrous adjunctions_, Theory and Applications of Categories, **16** 04 (2006) 84-122 &lbrack[tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
 
-* [[Richard Garner]], [[Michael Shulman]], around 13.7 of _Enriched categories as a free cocompletion_, Advances in Mathematics
-**289** (2016) Pages 1-94, [doi:10.1016/j.aim.2015.11.012](https://doi.org/10.1016/j.aim.2015.11.012), [arXiv:1301.3191](https://arxiv.org/abs/1301.3191).
+* [[Richard Garner]], [[Michael Shulman]], around 13.7 of _Enriched categories as a free cocompletion_, Advances in Mathematics **289** (2016) Pages 1-94, [doi:10.1016/j.aim.2015.11.012](https://doi.org/10.1016/j.aim.2015.11.012), [arXiv:1301.3191](https://arxiv.org/abs/1301.3191).
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Def. 6.1.12 in: *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
+
+
 
 [[!redirects mates]]
 [[!redirects mate correspondence]]
