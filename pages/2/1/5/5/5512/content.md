@@ -119,14 +119,21 @@ This terminology is most commonly used in the following situations:
 ### In six operations yoga
  {#InWirthmuellerContexts}
 
-The projection formula plays a notable role in Grothendieck's yoga of [[six operations]].  For example if an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$ between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is a _[[Wirthmüller context]]_ ([May 05](#May05)), $f^\ast$ is a strong [[closed monoidal functor]].  This implies the projection formula, i.e. the existence of a natural isomorphism
+The projection formula plays a notable role in Grothendieck's yoga of [[six operations]].  For example if an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$ between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is a _[[Wirthmüller context]]_ ([May 05](#May05)), $f^\ast$ is a strong [[closed monoidal functor]].  This implies the projection formula, i.e. the existence of a [[natural isomorphism]] of the form
 
 $$
-  \pi \colon\;
-  f_!(f^\ast a \otimes c) \stackrel{\sim}{\longrightarrow} a \otimes f_! c
+  \pi 
+    \;\colon\;
+  f_!
+  \big(
+     f^\ast a \otimes c
+  \big) 
+  \overset{\sim}{\longrightarrow} 
+  a \otimes (f_! c)
+  \,.
 $$
 
-The projection formula also holds in a [[Grothendieck context]] or a [[Verdier-Grothendieck context]] ([May 05](#May05)).
+The [[projection formula]] also holds in a [[Grothendieck context]] or a [[Verdier-Grothendieck context]] ([May 05](#May05)).
 
 ## Properties
 
@@ -139,26 +146,44 @@ Recall that a monoidal category $\mathcal{Y}$ is **[left closed](https://ncatlab
 A functor $F$ between left closed monoidal categories is **lax closed** it if preserves the internal hom and the unit object up to a specified map  
 
 $$ 
-\hat{F}: F[a,b] \to [F a,F b], \qquad  F_0 : I \to F(I),
+  \hat{F}
+  \;\colon\; 
+  F[a,b] \to [F a,F b], 
+  \qquad  
+  F_0 \colon I \to F(I)
+  \,,
 $$
 
-natural in both variables and obeying some coherence laws listed at [[closed functor]].   If these are natural isomorphisms we call the functor **strong closed**.   Any lax monoidal functor betweeen left closed monoidal categories is lax closed (for a sketch of the argument see [[closed functor]]), but a strong monoidal functor may not be strong closed.   
+[[natural transformation|natural]] in both variables and obeying some [[coherence laws]] listed at *[[closed functor]]*.  If these are [[natural isomorphisms]] we call the functor **[[strong closed functor|strong closed]]**.  
+
+Any [[lax monoidal functor]] betweeen left [[closed monoidal categories]] is lax closed (for a sketch of the argument see *[[closed functor]]*), but a [[strong monoidal functor]] may not be [[strong closed functor|strong closed]].   
 
 +-- {: .num_prop}
 ###### Proposition
 
-Suppose $f_! \dashv f^\ast$ is an adjunction between left closed monoidal categories.   Then natural maps
+Suppose $f_! \dashv f^\ast$ is an [[adjoint functor|adjunction]] between left [[closed monoidal categories]]. Then [[natural transformations]]
 
-$$ \phi \colon f^*[a,b] \to [f^*a, f^*b]  $$
-
-correspond bijectively to natural maps
-
-$$
-  \pi \colon\;
-  f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c
+$$ 
+  \phi 
+   \;\colon\; 
+  f^*[a,b] \to [f^*a, f^*b]  
 $$
 
-Furthermore, $\phi$ is an isomorphism if and only if $\pi$ is, in which case we say the **projection formula** holds.
+correspond [[bijection|bijectively]] to [[natural maps]]
+
+$$
+  \pi 
+    \;\colon\;
+  f_!
+  \big(
+    (f^\ast a) \otimes c
+  \big) 
+    \longrightarrow 
+  a \otimes (f_! c)
+  \,.
+$$
+
+Furthermore, $\phi$ is an isomorphism if and only if $\pi$ is, in which case we say the **[[projection formula]]** holds.
 
 =--
 
