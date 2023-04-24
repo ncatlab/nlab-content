@@ -261,7 +261,7 @@ A map between [[homotopy type theory|homotopy types]] is equivalent to a [[depen
 
 The original proposal for formalizing notions of [[mathematical structures]] via [[category theory]], specifically via the [[forgetful functors]] between the [[groupoids]] which they form:
 
-* {#Ehresmann57} [[Charles Ehresmann]], *Gattungen in Lokalen Strukturen*, Jahresbericht der Deutschen Mathematiker-Vereinigung **60** (1958) 49-77 &lbrack;[dml:146434](https://eudml.org/doc/146434)&rbrack;
+* {#Ehresmann57} [[Charles Ehresmann]], *Gattungen von lokalen Strukturen*, Jahresbericht der Deutschen Mathematiker-Vereinigung **60** (1958) 49-77 &lbrack;[dml:146434](https://eudml.org/doc/146434)&rbrack;
 
 * {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Séminaire Ehresmann. Topologie et géométrie différentielle **6** (1964) 1-31 &lbrack;[numdam:SE_1964__6__A8_0](http://www.numdam.org/item?id=SE_1964__6__A8_0), [dml:112200](https://eudml.org/doc/112200)&rbrack;
 
