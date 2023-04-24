@@ -44,7 +44,7 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 ###### Proposition
 In an adhesive category, suppose given a [[pushout]] square
 $$ \array{ C & \xrightarrow{m} & A \\ ^f\downarrow && \downarrow^g \\ B & \xrightarrow{n} & D } $$
-such that $m$ is a monomorphism.  Then:
+such that $m$ is a [[monomorphism]].  Then:
 
 1. $n$ is also a monomorphism.
 2. The square is also a [[pullback]] square.
