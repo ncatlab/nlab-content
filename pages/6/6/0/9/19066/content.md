@@ -831,30 +831,36 @@ $$
 is a [[left Quillen functor]] on the integral model structure of Prop \ref{ModelStructureOnParameterizedObjects}.
 \end{lemma}
 \begin{proof}
-  For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration, write
+  For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration, 
+we need to show that the adjunct of the component map 
+
 $$
-  \left[
-  \array{
-    \mathscr{V}_{\mathcal{X}} 
-    \boxtimes
-    \mathscr{V}'_{\mathcal{X}'}
-    \\
-    \Big\downarrow\mathrlap{{}^{\phi_f \boxtimes id}}
-    \\
-    \mathscr{W}_{\mathcal{Y}} 
-    \boxtimes
-    \mathscr{V}'_{\mathcal{X}'}
-  }
-  \;\;\;\;
-  \right]
-  \;\;\;\;=\;\;\;\;
-  \array{
-    (pr_{\mathcal{X}})^\ast \mathscr{V}
-    \otimes
-    (\phi_f \boxtimes id)^\ast 
-    (pr_{\mathcal{X}'})^\ast \mathscr{V}'
-  }
+  \big(
+    (\mathrm{pr}_{\mathcal{X}})^\ast
+    \phi
+  \big)
+  \otimes
+  (f \times id)^\ast
+  (pr_{\mathcal{X}'})^\ast
+  id_{\mathscr{V}'}
 $$
+
+is an (acyclic) cofibration in $\mathbf{C}$. Here on the right we have inserted the operation $(f \times id)^\ast$ --- which we may since it equals the identity in its postcomposition with $(pr_{\mathcal{X}'})^\ast$. But with that term inserted, we may apply [[Frobenius reciprocity]] when computing the [[adjunct]] of this map as its image under $(f \times id)_!$ composed with the counit. 
+
+This formula for the adjunct is the total left morphism in the following commuting diagram. Here
+
+* the top left square is the [[naturality square]] of the [[projection formula]]
+
+* the bottom left square is from [this Remarj](Wirthmüller+context#ProjectionComposedWithCounitInRemainingVariable)
+
+* the top right square is a [[Beck-Chevalley condition|Beck-Chevalley]] [[naturality square]]
+
+* the bottom right square expresses the equality of two ways of moving the zig-zag morphism through the [[pasting diagram]] further below to the top right, one direct and the other by first moving its to the bottom left, using that the pasting of the left two squares and that of the bottom three squares are isomorphisms.
+
+
+<img src="/nlab/files/LemmaDiagram-230424b.jpg" width="800">
+
+The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with an object of $\mathbf{C}$. Thus...
 
 (...)
 \end{proof}
