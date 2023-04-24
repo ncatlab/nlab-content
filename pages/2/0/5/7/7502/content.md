@@ -28,8 +28,12 @@ Let $ \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a funct
 For $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, the **pushout product** $f \Box g$ morphism is the morphism
 
 $$
-  A \otimes Y \coprod_{A \otimes X} B \otimes X
-  \to
+  A \otimes Y 
+    \overset
+      {A \otimes X}
+      {\amalg} 
+  B \otimes X
+  \longrightarrow
   B \otimes Y
 $$
 
@@ -90,6 +94,13 @@ In the context of [[monoidal model category]] theory, prop. \ref{PushoutProductO
 
 ## Examples
  {#Examples}
+
+\begin{example}
+  Pushout-products of monomorphisms in [[Set]] ([[injections]]) are again injections:
+
+<img src="/nlab/files/PushoutProductOfInjections-230424.jpg" width="300">
+
+\end{example}
 
 +-- {: .num_example #PushoutProductOfSpheresInclusionsIntoDisks}
 ###### Example
