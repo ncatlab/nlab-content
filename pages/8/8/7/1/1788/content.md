@@ -1,5 +1,22 @@
 
 $$
+  \array{
+    \mathscr{V} \otimes f^\ast \mathscr{V}'
+    \\
+    \Big\downarrow\mathrlap{{}^{ \phi \otimes f^\ast(id) }}
+    \\
+    f^\ast( \mathscr{W}) 
+      \otimes 
+    f^\ast(\mathscr{V}')
+  }
+  \;\;\;
+  =
+  \;\;\;
+$$
+
+By definition we have
+
+$$
   \left[
   \array{
     \mathscr{V}_{\mathcal{X}} 
@@ -15,22 +32,22 @@ $$
   \;\;\;\;
   \right]
   \;\;\;\;=\;\;\;\;
+  \left[
   \array{
     \big(
       (pr_{\mathcal{X}})^\ast \mathscr{V}
     \big)
     \otimes
     \big(
-      (f \times id)^\ast 
       (pr_{\mathcal{X}'})^\ast \mathscr{V}'
     \big)
     \\
     \Big\downarrow\mathrlap{{}^{
-      \big(
-      \big((pr_{\mathcal{X}})^\ast \phi\big)
-      \otimes 
-      id
-      \big)_{f \times id}
+      \Big(
+        \big((pr_{\mathcal{X}})^\ast \phi\big)
+        \otimes 
+        (pr_{\mathcal{X}'})^\ast id_{\mathscr{V}'}
+      \Big)_{f \times id}
     }}
     \\
     \big(
@@ -41,7 +58,138 @@ $$
       (pr_{\mathcal{X}'})^\ast \mathscr{V}'
     \big)
   }
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \right]
 $$
+
+
+noticing here that 
+
+$$
+  \mathcal{X} \times \mathcal{X}'
+  \overset{ pr_{\mathcal{X}'} }{\longrightarrow}
+  \mathcal{X}'
+  \;\;\;\;\;
+  =
+  \;\;\;\;\;
+  \mathcal{X} \times \mathcal{X}' 
+  \overset{ f \times id}{\longrightarrow}
+  \mathcal{Y} \times \mathcal{X}' 
+  \overset{ pr_{\mathcal{X}'} }{\longrightarrow}
+  \mathcal{X}'
+$$
+
+this equals
+
+$$
+  \cdots
+  \;\;\;\;=\;\;\;\;
+  \left[
+  \array{
+    \big(
+      (pr_{\mathcal{X}})^\ast \mathscr{V}
+    \big)
+    \otimes
+    \big(
+      (f \times id)^\ast
+      (pr_{\mathcal{X}'})^\ast \mathscr{V}'
+    \big)
+    \\
+    \Big\downarrow\mathrlap{{}^{
+      \Big(
+        \big((pr_{\mathcal{X}})^\ast \phi\big)
+        \otimes 
+        (f \times id)^\ast
+        (pr_{\mathcal{X}'})^\ast id_{\mathscr{V}'}
+      \Big)_{f \times id}
+    }}
+    \\
+    \big(
+      (pr_{\mathcal{Y}})^\ast \mathscr{W}
+    \big)
+    \otimes
+    \big(
+      (pr_{\mathcal{X}'})^\ast 
+      \mathscr{V}'
+    \big)
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \right]
+$$
+
+which, by definition, has component maps
+
+$$
+  \array{
+    \big(
+      (pr_{\mathcal{X}})^\ast \mathscr{V}
+    \big)
+    \otimes
+    \big(
+      (f \times id)^\ast
+      (pr_{\mathcal{X}'})^\ast \mathscr{V}'
+    \big)
+    \\
+    \Big\downarrow\mathrlap{{}^{
+      \Big(
+        \big((pr_{\mathcal{X}})^\ast \phi\big)
+        \otimes 
+        (f \times id)^\ast
+        (pr_{\mathcal{X}'})^\ast id_{\mathscr{V}'}
+      \Big)
+    }}
+    \\
+    \big(
+      (f \times id)^\ast
+      (pr_{\mathcal{Y}})^\ast \mathscr{W}
+    \big)
+    \otimes
+    \big(
+      (f \times id)^\ast
+      (pr_{\mathcal{X}'})^\ast 
+      \mathscr{V}'
+    \big)
+    \mathrlap{\,,}
+  }
+$$
+
+where at the bottom we used that $(-)^\ast$ is strong monoidal.
+
+By [[natural transformation|natural]] [[Frobenius reciprocity]], the image under $(f \times id)_!$ of this morphism is
+
+$$
+  (f \times id)_!(-)
+  \;\;=\;\;
+  \array{
+    \big(
+      (f \times id)_!
+      (pr_{\mathcal{X}})^\ast \mathscr{V}
+    \big)
+    \otimes
+      (pr_{\mathcal{X}'})^\ast \mathscr{V}'
+    \\
+    \Big\downarrow\mathrlap{{}^{
+      \Big(
+        (f \times id)_!
+        \big((pr_{\mathcal{X}})^\ast \phi\big)
+        \otimes 
+        (pr_{\mathcal{X}'})^\ast id_{\mathscr{V}'}
+      \Big)
+    }}
+    \\
+    \big(
+      (f \times id)_!
+      (f \times id)^\ast
+      (pr_{\mathcal{Y}})^\ast \mathscr{W}
+    \big)
+    \otimes
+    \big(
+      (pr_{\mathcal{X}'})^\ast 
+      \mathscr{V}'
+    \big)
+  }
+$$
+
 
 
 We shall denote morphisms in $\mathbf{C}_{sGrpd}$ as follows:
