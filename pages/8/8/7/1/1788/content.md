@@ -158,7 +158,7 @@ where at the bottom we used that $(-)^\ast$ is strong monoidal.
 By [[natural transformation|natural]] [[Frobenius reciprocity]], the image under $(f \times id)_!$ of this morphism is
 
 $$
-  (f \times id)_!(-)
+  (f \times id)_!(\cdots)
   \;\;=\;\;
   \array{
     \big(
@@ -169,12 +169,10 @@ $$
       (pr_{\mathcal{X}'})^\ast \mathscr{V}'
     \\
     \Big\downarrow\mathrlap{{}^{
-      \Big(
         (f \times id)_!
         \big((pr_{\mathcal{X}})^\ast \phi\big)
         \otimes 
         (pr_{\mathcal{X}'})^\ast id_{\mathscr{V}'}
-      \Big)
     }}
     \\
     \big(
