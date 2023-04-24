@@ -542,6 +542,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   slides: [[Schweigert-at-QFTAndCobordism2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=JOF72-GXFYw)
+
   > Based on a [[string diagram|graphical calculus]] for [[pivotal category|pivotal]] [[bicategories]], we develop a [[string-net model|string-net construction]] of a [[modular functor]]. We show that a rigid separable Frobenius functor between strictly pivotal bicategories induces a [[linear map]] between the corresponding bicategorical string-net spaces that is compatible with the [[mapping class group]] [[group action|actions]] and with [[sewing constraint|sewing]]. This result implies that [[correlators]] of [[2d CFT|two-dimensional conformal field theories]] factorize over string-net spaces constructed from [[defect QFT|defect data]].
   
 \linebreak
