@@ -13,6 +13,6 @@ Let $\mathscr{A}$ and $\mathscr{B}$ be bicategories. A **local adjunction** betw
 
 Local adjunctions are defined in:
 
-Colin Barry Jay. _Local adjunctions_. Journal of Pure and Applied Algebra 53.3 (1988): 227-238.
+Colin Barry Jay. _Local adjunctions_. Journal of Pure and Applied Algebra 53.3 (1988): 227-238. (<a href="https://doi.org/10.1016/0022-4049(88)90124-7">doi:10.1016/0022-4049(88)90124-7</a>)
 
 [[!redirects local adjunctions]]
