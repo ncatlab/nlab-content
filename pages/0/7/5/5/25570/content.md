@@ -38,11 +38,13 @@ A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 
 * According to the classification of [[crossed group|crossed simplicial groups]], $\Delta Q$ or, more precisely, the equivalent crossed group $Q_*$ corresponds to the [[exact sequence]] of crossed groups $1\to \mathbb{Z}/2\to Q_*\to D_*\to 1\; .$ Whence it is of _dihedral type_ and, accordingly, the [[model category]] techniques for planar crossed simplicial groups apply (cf. [Spaliński](#Spalinski95), [Balchin](#Balchin18)).
 
-* The [[geometric realization]] of $Q_*$ is the normalizer of $S^1$ in $S^3$ (cf. [Fiedorowicz-Loday](#FL91)).
+* The [[geometric realization]] of $Q_*$ is the normalizer of $S^1$ in $S^3$ (cf. [Loday](#Loday87)).
 
 * As usual for [[crossed group|crossed groups]] (or, more generally, for functors between small categories that are surjective on objects; cf. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], pp.359, 377f), the inclusion $i:\Delta\to \Delta Q$ induces by [[Kan extension]] an [[essential geometric morphism|essential]] [[surjective geometric morphism]] $i_!\vdash i^*\vdash i_*: Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}\;$. Here the [[inverse image]] $i^*:Set^{\Delta Q^{op}}\to Set^{\Delta^{op}}$ extends a presheaf $P$ on $\Delta Q$ to one on $\Delta$ by precompostion: $i^*(P)=P\circ i^{op}\,$.
 
-* Since $i:Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}$ is surjective, it follows again by generalities (e.g. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], p.372) that $Set^{\Delta Q^{op}}$ is (equivalent to) the category of coalgebras for a [[left exact]] [[comonad]] on $Set^{\Delta^{op}}$ whence quaternionic sets are indeed [[simplicial set|simplicial sets]] enhanced with a quaternionic coalgebra structure. (For an explicit description of the comonad for general crossed groups $G_*$ see [Krasauskas](#Krasauskas87).)
+* Just like in the [[cyclic set|cyclic]] and [[dihedral set|dihedral]] cases, $\Delta Q$ is _self-dual_: $\Delta Q\cong \Delta Q^{op}$ (cf. [Dunn](#Dunn89), prop.1.4).
+
+* Since $i:Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}$ is surjective, it follows again by generalities (e.g. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], p.372) that $Set^{\Delta Q^{op}}$ is (equivalent to) the category of coalgebras for a [[left exact]] [[comonad]] on $Set^{\Delta^{op}}$ whence quaternionic sets are indeed [[simplicial set|simplicial sets]] enhanced with a quaternionic coalgebra structure. (For an explicit description of the free [[skew-simplicial set]] on a [[simplicial set]] and the corresponding monad for general crossed groups $G_*$ see [Krasauskas](#Krasauskas87).)
 
 * Truncating $\Delta Q$ at $[1]$ and taking presheaves, one obtains a _category of quaternionic graphs_ $Set^{\Delta Q_{\leq 1}^{op}}$ with a $Q_2$ action, just like [[graphic category|reflexive graphs]] result from $\Delta_1$, resp. reversible graphs from truncating $\Delta S$ in the [[symmetric set|symmetric simplex category]].
 
@@ -53,6 +55,8 @@ A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 * [[crossed group]]
 
 * [[cyclic set]]
+
+* [[dihedral set]]
 
 * [[quaternion]]
 
