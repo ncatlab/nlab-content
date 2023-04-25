@@ -847,10 +847,10 @@ $$
 Write 
 
 $$
-  \mathcal{O} : \mathbf{H} \to ((cdgAlg_k^{op})^\circ
+  \mathcal{O} : \mathbf{H} \to (cdgAlg_k^{op})^\circ
 $$
 
-for the $(\infty,1)$-[[Yoneda extension]] of the inclusion $C \hookrightarrow ((cdgAlg_k^{op})^\circ_, \hookrightarrow ((cdgAlg_k^{op})^\circ$.
+for the $(\infty,1)$-[[Yoneda extension]] of the inclusion $C \hookrightarrow (cdgAlg_k^{op})^\circ_- \hookrightarrow (cdgAlg_k^{op})^\circ$.
 
 =--
 
@@ -864,7 +864,7 @@ $$
   \,.
 $$
 
-The functor $\mathcal{O}$ simply evaluates this colimit in $((cdgAlg_k^{op})^\circ$, which is the [[(∞,1)-limit]] in the [[opposite (∞,1)-category]]
+The functor $\mathcal{O}$ simply evaluates this colimit in $(cdgAlg_k^{op})^\circ$, which is the [[(∞,1)-limit]] in the [[opposite (∞,1)-category]]
 
 $$
   \mathcal{O}X \simeq {\lim_\leftarrow}_i \mathcal{O}(U_i) \;\; \in (cdgAlg_k)^\circ
@@ -882,14 +882,14 @@ where we write $\mathcal{O}(U_i)$ simply for the object $U_i$ regarded in the op
 By construction $\mathcal{O}$ is a colimit-preserving $(\infty,1)$-functor between [[locally presentable (∞,1)-categories]]. Accordingly, by the [[adjoint (∞,1)-functor theorem]] is has a [[right adjoint|right]] [[adjoint (∞,1)-functor]].
 
 $$
-  j : ((cdgAlg_k^{op})^\circ \to Sh_{(\infty,1)}(C)
+  j : (cdgAlg_k^{op})^\circ \to Sh_{(\infty,1)}(C)
   \,.
 $$
 
 This is given by 
 
 $$
-  Spec(A) : U \mapsto ((cdgAlg_k^{op})^\circ(U,A)
+  Spec(A) : U \mapsto (cdgAlg_k^{op})^\circ(U,A)
   \,.
 $$
 
