@@ -1025,8 +1025,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   cf. [arXivL2110.13768](https://arxiv.org/abs/2110.13768) following [arXiv:1707.04017](https://arxiv.org/abs/1707.04017), [arXiv:1707.02991](https://arxiv.org/abs/1707.02991)
 
-  > In this talk I will review the [[knots-quivers correspondence]] and mention some recent developments in this regard. The [[knots-quivers correspondence]] is the statement that various [[knot invariant|invariants]] associated to a [[knot]] are encoded in the corresponding [[quiver]]. This statement follows from [[geometric engineering of QFTs|engineering]] both knots and quivers in related [[intersecting brane system|brane systems]] in [[string theory]]. Recent developements, which I will mention at least briefly, include understanding the structure of various quivers that correspond to the same knot, using [[topological recursion]] to determine quiver generating series and corresponding quiver A-polynomials, and finding a quiver representation of so-called Z-hat invariants.
+  > In this talk I will review the [[knots-quivers correspondence]] and mention some recent developments in this regard. The [[knots-quivers correspondence]] is the statement that various [[knot invariant|invariants]] associated to a [[knot]] are encoded in the corresponding [[quiver]]. This statement follows from [[geometric engineering of QFTs|engineering]] both knots and quivers in related [[intersecting brane|brane systems]] in [[string theory]]. Recent developements, which I will mention at least briefly, include understanding the structure of various quivers that correspond to the same knot, using [[topological recursion]] to determine quiver generating series and corresponding quiver A-polynomials, and finding a quiver representation of so-called Z-hat invariants.
 
+\linebreak
+
+* 24 Apr 2023
+
+  Mauro Paternostro (Queen's University Belfast, Ireland):
+
+  **Alice through the looking glass: cavity optomechanics for the study of the foundation of quantum mechanics**
+
+  cf.: [arXiv:2302.08995](https://arxiv.org/abs/2302.08995)
+
+  > I will illustrate how cavity optomechanics is helping us addressing deep  questions on our understanding of the foundations of [[quantum theory]], from  non-equilibrium quantum dynamics to the [[collapse of the wave-function]]. Towards the end of my talk, I will propose an optomechanical pathway for the exploration of the potential quantum nature of gravity.
 
 \linebreak
 
@@ -1503,6 +1514,18 @@ Stone-von Neumann**
   cf.: [arXiv:2001.07888](https://arxiv.org/abs/2001.07888)
 
   > [[factorization algebra|Factorization algebras]] provide a flexible language for describing the [[observables]] of a [[perturbative quantum field theory]], as shown in joint work with [[Kevin Costello]]. In [joint work with Eugene Rabinovich and Brian Williams](AdS3-CFT2+and+CS-WZW+correspondence#GwilliamRabinovichWilliams2022), we extended those constructions to a [[manifold with boundary]] for a special class of theories that includes, as an example, a perturbative version of the correspondence between chiral $U(1)$ currents on a Riemann surface and abelian Chern-Simons theory on a bulk 3-manifold. (These methods extend to interacting theories, thanks to the thesis of Rabinovich.) Given time, I'll sketch a systematic higher dimensional version for [[higher Chern-Simons theory|higher abelian CS theory]] on an oriented smooth manifold of dimension $4n+3$ with boundary a complex manifold of complex dimension $2n+1$. The talk is expository, and it can be redirected according to the audience's interests and requests.
+
+\linebreak
+
+* {#WilsonApr2023} 26 Apr 2023
+
+  [[Jenny Wilson]] (University of Michigan, USA):
+
+  **Stability patterns for braid groups and configuration spaces**
+
+  cf.: [arXiv:2201.04096](https://arxiv.org/abs/2201.04096)
+
+  > This talk will give an introduction of the field of '[[representation stability]]'. I will discuss how we can use [[representation theory]] to illuminate the structure of certain families of [[groups]] or [[topological spaces]] with [[group action|actions]] of the [[symmetric groups]], focusing on [[braid groups]] and [[configuration spaces of points|configuration spaces]] as motivating examples.
 
 \linebreak
 
