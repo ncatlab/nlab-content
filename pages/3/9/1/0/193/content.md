@@ -1,5 +1,5 @@
 
-> This page is about adjunctions in general [[2-categories]]. For adjunctions in [[Cat]] see at *[[adjoint functors]]*.
+> This page is about adjunctions in general [[2-categories]]. Spwcifically for the common case of adjunctions in [[Cat]] see at *[[adjoint functors]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
