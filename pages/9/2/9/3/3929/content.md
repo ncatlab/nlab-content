@@ -2,7 +2,12 @@ __Gregory Maxwell Kelly__ (1930-2007) was a category theorist, the founder of th
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Max_Kelly)
 
+
 ## Selected writings
+
+Introducing the notion of [[closed categories]]:
+
+* [[Samuel Eilenberg]], [[Max Kelly]], *Closed categories*,  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965), Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_22](https://doi.org/10.1007/978-3-642-99902-4_22)&rbrack;
 
 
 On [[limits]] and [[colimits]] and [[exponential objects]] in the [[category]] [[Top]] of [[topological spaces]]:
@@ -53,7 +58,8 @@ On [[monoid objects in monoidal categories]]:
 1. Tensor products in categories, J. Algebra 2 (1965) 15–37.
 1. Chain maps inducing zero homology maps, Proc. Cambridge Phil. Soc. 61 (1965), 847–854.
 1. (with S. Eilenberg) A generalization of the functorial calculus, J. Algebra 3 (1966), 366–375.
-1. (with S. Eilenberg) Closed categories, in Proc. Conference on Categorical Algebra (La Jolla, 1965) (Springer-Verlag, Berlin-Heidelberg-New York, 1966) 421–562. Gregory Maxwell Kelly 1930–2007 249
+
+
 1. Monomorphisms, epimorphisms, and pullbacks, J. Austral. Math. Soc. 9 (1969) 124–142.
 1. Adjunction for enriched categories, Lecture Notes in Math. 106 (Springer-Verlag, 1969) 166–177.
 1. (with B. J. Day) Enriched functor categories, Lecture Notes in Math. 106 (Springer-Verlag, 1969) 178–191.
