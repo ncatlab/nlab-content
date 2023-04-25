@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[ambidextrous adjunctions]]:
+
+* [[Peter Haine]], *Ambidexterity* (2018) &lbrack;[pdf](https://math.berkeley.edu/~phaine/files/Ambidexterity_4.pdf), [[Haine-Ambidexterity.pdf:file]]&rbrack;
+
+
 On [[differential geometry]] with emphasis on [[differential forms]] and their [[de Rham cohomology]]:
 
 * {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
