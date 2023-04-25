@@ -35,13 +35,16 @@ On [[homological algebra]]:
 
 * {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
 
-
 On [[homology of loop spaces]]:
 
 * [[Samuel Eilenberg]], [[John Moore]], _Homology and fibrations_, Comment. Math. Helv., 40 (1966), pp. 199-236 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilemoor.pdf))
 
+Introducing the notion of [[closed categories]]:
 
-## Related $n$Lab entries
+* [[Samuel Eilenberg]], [[Max Kelly]], *Closed categories*,  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965), Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_22](https://doi.org/10.1007/978-3-642-99902-4_22)&rbrack;
+
+
+## Related entries
 
 * [[category theory]]
 
