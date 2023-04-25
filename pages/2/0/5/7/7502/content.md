@@ -19,15 +19,34 @@ The concept of _pushout product_ is a natural kind of pairing operation on [[mor
 
 
 ## Definition
+ {#Definition}
 
-Let $ \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a functor (e.g. a [[tensor product]], [[tensoring]]). Let $\mathcal{E}_3$ have [[pushouts]].
+Consider
+
+* three [[categories]] $\mathcal{E}_i$, $i \in \{1,2,3\}$
+ 
+  (often taken to be the same),
+
+* a [[functor]]  $\otimes \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ out of the [[product category]] 
+
+  (often being the [[tensor product]] on a [[monoidal category]] or the [[tensoring]] of an [[enriched category]] over its [[cosmos]]). 
+
+Assume that $\mathcal{E}_3$ has all [[pushouts]].
 
 +-- {: .num_defn}
 ###### Definition
 
-For $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, the **pushout product** $f \Box g$ morphism is the morphism
+Given a [[pair]] of [[morphisms]] 
+
+* $f \colon A \to B$ in $\mathcal{E}_1$ 
+
+* $g \colon X \to Y$ in $\mathcal{E}_2$, 
+
+their **pushout product** is the [[morphism]] in $\mathcal{E}_3$
 
 $$
+  f \Box g 
+  \;\;\colon\;\;
   A \otimes Y 
     \overset
       {A \otimes X}
@@ -37,19 +56,53 @@ $$
   B \otimes Y
 $$
 
-
-out of the [[pushout]], induced from the [[commuting diagram]]
+out of the [[pushout]] of the two morphisms, which is induced by the [[universal property]] of the pushout by the following [[commuting diagram]] (induced, in turn, from the [[functor|functoriality]] of the [[tensor product]] as a functor on a [[product category]]):
 
 $$
   \array{
-    A \otimes X &\to& B \otimes X
+    A \otimes X 
+    &\overset{f \otimes id_X}{\longrightarrow}& 
+    B \otimes X
     \\
-    \downarrow && \downarrow
+    \mathllap{{}^{id_A \otimes g}}\Big\downarrow 
+    && 
+    \Big\downarrow\mathrlap{{}^{id_B \otimes g}}
     \\
-    A \otimes Y &\to& B \otimes Y
+    A \otimes Y 
+    &\underset{f \otimes id_Y}{\longrightarrow}& 
+    B \otimes Y
+    \mathrlap{\,.}
   }
-  \,.
 $$
+
+\begin{tikzcd}[
+ row sep=40pt,
+ column sep=20pt
+]
+  A \otimes X 
+  \ar[rr, "{ f \otimes \mathrm{id}_X }"{description}]
+  \ar[dd, "{ \mathrm{id}_A \otimes g }"{description}]
+  \ar[dr, phantom, "{ \scalebox{.6}{(po)} }"{pos=.8}]
+  && 
+  B \otimes X
+  \ar[dd, "{ \mathrm{id}_B \otimes g }"{description}]
+  \ar[dl]
+  \\
+  &   
+  A \otimes Y 
+    \overset
+      {A \otimes X}
+      {\sqcup} 
+  B \otimes X
+  \ar[dr, dashed, "{ f \,\Box\, g }"{sloped, description}]
+  \\
+  A \otimes Y
+  \ar[rr, "{ f \otimes \mathrm{id}_Y }"{description}]
+  \ar[ur]
+  &&
+  B \otimes Y
+\end{tikzcd}
+
 
 =--
 
@@ -95,10 +148,17 @@ In the context of [[monoidal model category]] theory, prop. \ref{PushoutProductO
 ## Examples
  {#Examples}
 
-\begin{example}
-  Pushout-products of monomorphisms in [[Set]] ([[injections]]) are again injections:
+\begin{example}\label{InjectionsOfSets}
+  Pushout-products of monomorphisms ([[injections]]) in [[Set]], with respect to the [[Cartesian product]]
 
-<img src="/nlab/files/PushoutProductOfInjections-230424.jpg" width="300">
+$$
+  \times \,\colon\, Set \times Set \longrightarrow Set
+$$
+
+are again injections. The following graphics illustrates this for [[interval]]-subsets of the [[plane]]:
+
+<img src="/nlab/files/PushoutProductOfInjections-230425.jpg" width="300">
+
 
 \end{example}
 
@@ -192,7 +252,10 @@ The relations in example \ref{PushoutProductOfSpheresInclusionsIntoDisks} are th
 
 * [[Joyal-Tierney calculus]]
 
+
 ## References
+
+Pushout-products are prominently discussed in the context of [[monoidal model category]]-theory (where they appear in a *[[pushout-product axiom]]*), and here a key motivation are constructions of [[symmetric monoidal smash products of spectra]]. See for instance:
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
