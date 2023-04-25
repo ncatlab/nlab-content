@@ -322,6 +322,8 @@ $$
 Here the left morphism is an [[acyclic cofibration]] by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathbf{C}$, using the assumptions that $X$ is cofibrant in $\mathbf{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
 Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.
 
+> This is the only point where we make use of this assumption. Hence the argument generalizes along [[changes of enrichment]] $v \colon sSet \to \mathbf{V}$ which preserve acyclic cofibrations, for $\mathbf{V}$ a [[monoidal model category]] and $\mathbf{C}$ a $\mathbf{V}$-[[enriched model category]] such that the projective model structures  on $\mathbf{V}Func( v_\ast \mathcal{X} ,\, \mathbf{V} )$ exist (see [this Thm.](model+structure+on+functors#CofGenProj)).
+
 Now since this construction is [[natural transformation|natural]], given a weak equivalence $\phi \,\colon\, (X,\rho) \to (X', \rho')$  we find that its image under $f_!$ sits in a [[commuting diagram]] of the form
 $$
   \array{
