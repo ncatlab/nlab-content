@@ -125,7 +125,7 @@ The [[cyclic group]] $\mathbb{Z}/(m+1)$ [[group action|acts]] on $\Delta^{op}(m,
 
 $$k \cdot f = \tau^{-f(k)} \circ f \circ \tau^k$$ 
 
-or in other words, via $(k \cdot f)(i) \coloneqq f(k+i) - f(k)$. 
+or in other words, via $(k \cdot f)(i) \coloneqq f(k+i) - f(k)$.
 =-- 
 
 +-- {: .proof} 
@@ -139,7 +139,7 @@ j \cdot (k \cdot f) & = & \tau^{-(k \cdot f)(j)} \circ (k \cdot f) \circ \tau^j 
  & = & (j + k) \cdot f.
 }$$
 
-Moreover, $((m+1)\cdot f)(i) = f(i+m+1)-f(0+m+1) = f(i)+n+1 - (f(0)+n+1) = f(i) - f(0) = f(i)$, so that the $\mathbb{Z}$-action $(k, f) \mapsto k \cdot f$ factors through a $\mathbb{Z}/(m+1)$-action. 
+Moreover, $((m+1)\cdot f)(i) = f(i+m+1)-f(0+m+1) = f(i)+n+1 - (f(0)+n+1) = f(i) - f(0) = f(i),$ so that the $\mathbb{Z}$-action $(k, f) \mapsto k \cdot f$ factors through a $\mathbb{Z}/(m+1)$-action. 
 =--  
 
 +-- {: .num_prop} 
