@@ -194,10 +194,12 @@ from the point of view of the [[symplectic formulation of quantum mechanics]]:
 
 [[!redirects collapse of the wave function]]
 [[!redirects collapse of the wavefunction]]
+[[!redirects collapse of the wave-function]]
 
 [[!redirects quantum state collapse]]
 
 [[!redirects Born's rule]]
 
 [[!redirects projection postulate]]
+
 
