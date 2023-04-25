@@ -1,4 +1,69 @@
 
+$$
+  \begin{array}{l}
+  Maps\big(
+    \mathcal{F}(\Delta[n])
+    ,\,
+    \mathcal{X}
+  \big)
+  \xrightarrow{\phantom{----}}
+  Maps\big(
+    \mathcal{F}(\partial \Delta[n])
+    ,\,
+    \mathcal{X}
+  \big)
+  \;\;
+  \underset{
+    \mathclap{
+      \mathclap{\phantom{\vert^{vert}}}
+    Maps\big(
+      \mathcal{F}(\partial \Delta[n])
+      ,\,
+      \mathcal{Y}
+    \big)
+    }
+  }{\times}
+  \;\;
+  Maps\big(
+    \mathcal{F}(\Delta[n])
+    ,\,
+    \mathcal{Y}
+  \big)
+  \\
+  \underset{x,y \in Obj(\mathcal{X})}{\coprod}
+  Maps\big(
+    \Delta[n]
+    ,\,
+    \mathcal{X}(x,y)
+  \big)
+  \xrightarrow{\phantom{----}}
+  \underset{x,y \in Obj(\mathcal{X})}{\coprod}
+  Maps\big(
+    \partial \Delta[n]
+    ,\,
+    \mathcal{X}(x,y)
+  \big)
+  \;\;
+  \underset{
+    \mathclap{
+      \mathclap{\phantom{\vert^{vert}}}
+    Maps\big(
+      \partial \Delta[n]
+      ,\,
+      \mathcal{Y}\big(f(x), f(y)\big)
+    \big)
+    }
+  }{\times}
+  \;\;
+  Maps\big(
+    \Delta[n]
+    ,\,
+    \mathcal{Y}\big(f(x),f(y)\big)
+  \big)  
+  \end{array}
+$$
+
+
 \begin{definition}\label{SimplicialIntervalCategory}
   For $n \in \mathbb{N}$ write $\mathcal{I}^{(n+1)} \,\in\, sSet\text{-}Cat$ for the [[sSet-enriched category]] with
 
