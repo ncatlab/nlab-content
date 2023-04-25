@@ -183,7 +183,7 @@ We reiterate the development in the [section on structure](#structure) in summar
 3. Any morphism $f$ in $\Lambda([n],[m])$ can be uniquely written as a composition $f = \phi\circ g$ where $\phi\in\Delta([n],[m])$ and $g\in\Aut_\Lambda([n])$.
 =--
 
-The generalizations of this theorem are the starting point of the theory of [[skew-simplicial set]]s of Krasausukas or equivalently crossed simplicial groups of Loday and Fiedorowicz.
+The generalizations of this theorem are the starting point of the theory of [[skew-simplicial set]]s of Krasauskas or equivalently crossed simplicial groups of Loday and Fiedorowicz.
 
 The cyclic category is a [[generalized Reedy category]], as explained [here](http://arxiv.org/abs/0809.3341).
 
