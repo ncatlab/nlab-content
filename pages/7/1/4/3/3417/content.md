@@ -40,12 +40,12 @@ Both are special cases of a [[model structure on enriched categories]].
 Here we describe the model category structure on [[SSet Cat]] that 
 makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
 
-+-- {: .num_defn}
-###### Definition
-
+\begin{definition}\label{DwyerKanEquivalences}
+**(Dwyer-Kan equivalences)**
+\linebreak
 An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is called a **weak equivalence** precisely if
 
-* it is **essentially surjective** in that the induced functor of [[homotopy categories]] is an ordinary [[essentially surjective functor]];
+* it is *essentially surjective* in that the induced functor of [[homotopy categories]] is an ordinary [[essentially surjective functor]];
 
 * it is an $\infty$-[[full and faithful functor]] in that for all objects $x,y \in C$ the morphism
 
@@ -55,9 +55,10 @@ An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is ca
 
   is a weak equivalence in the standard [[model structure on simplicial sets]].
 
-=--
+\end{definition}
 
 This notion is due to [Dwyer & Kan 80 FuncComp, Sec. 2.4](#DwyerKan80FunctionComplexes) and known as *[[Dwyer-Kan equivalences]]*.
+
 
 
 +-- {: .num_prop}
