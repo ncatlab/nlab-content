@@ -97,13 +97,13 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 
 
-##References
+## References
 
 * {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, Springer LNM vol.269 (1972), pp.479-484.
 
 * {#Carchedi13}[[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_ , arXiv1312.2204 (2013). ([pdf](http://arxiv.org/pdf/1312.2204v1.pdf))
 
-* D. De Wolf, [[Dorette Pronk|D. Pronk]], _A Double-Categorical View on Representations of Etendues_, Cah. Top. G&#233;om. Diff. Cat. **LXI** 1 (2020) pp.3-56. ([pdf](http://cahierstgdc.com/wp-content/uploads/2020/01/DEWOLF-PRONK-61-1.pdf))
+* Darian De Wolf, [[Dorette Pronk|D. Pronk]], _A Double-Categorical View on Representations of Etendues_, Cah. Top. G&#233;om. Diff. Cat. **LXI** 1 (2020) 3-56 &lbrack;, [pdf](http://cahierstgdc.com/wp-content/uploads/2020/01/DEWOLF-PRONK-61-1.pdf), [arXiv:1910.02540](https://arxiv.org/abs/1910.02540)&rbrack;
 
 * {#FreydScedrov90}[[Peter Freyd|P. J. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
