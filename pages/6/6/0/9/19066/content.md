@@ -245,14 +245,18 @@ $$
 exists.
 \end{proposition}
 \begin{proof}
-By general results in [[Higher Topos Theory]], the given pseudofunctor presents the $\infty$-functor 
+By general results in [[Higher Topos Theory]], the given pseudofunctor presents the [[(infinity,1)-functor|$\infty$-functor]] 
 $$
   \array{
     Grpd_\infty &\longrightarrow& Cat_\infty
     \\
     \mathcal{X} 
       &\mapsto& 
-    Func_\infty(\mathcal{X},\,L^W \mathbf{C})
+    Func_\infty\big(
+     \mathcal{X}
+     ,\,
+     L^W \mathbf{C}
+    \big)
     \mathrlap{\,.}
   }
 $$
@@ -262,9 +266,42 @@ Right properness is immediate: Since the weak equivalences in the projective [[m
 
 It remains to argue left-properness: If $f$ is an acyclic cofibration of simplicial groupoids, then it is so on all connected components, and here it is an injective weak equivalence and hence an acyclic cofibration (see [here](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration)) of simplicial sets on all endomorphisms objects. 
 
-By groupoidiality we may without restriction assume that $f$ goes between simplicial groupoids whose set of objects is a singleton, hence that $f$ is of the form $f = \mathbf{B}\phi\colon \mathbf{B}H \to \mathbf{B}G$ for $\phi \colon H to G$ a homomorphism of [[simplicial groups]].
+First notice that it is sufficent to check the statement over simplicial groupoids whose set of objects is a singleton, hence that $f$ is of the form $f = \mathbf{B}\phi\colon \mathbf{B}H \to \mathbf{B}G$ for $\phi \colon H to G$ a homomorphism of [[simplicial groups]].
 
-In this case the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[action objects]] in $\mathbf{C}$.
+Namely, first of all it is clearly sufficient to check on connected components, and then for $f \colon \mathcal{X} \to \mathcal{Y}$ a morphism of connected simplicial groupoids, any choice of object $x \in Obj(\mathcal{X})$ gives a [[pullback square]]
+
+$$
+  \array{
+    && \mathbf{B}\mathcal{X}(x,x)
+    \\
+    & 
+    \mathllap{{}^{\iota_x}}\swarrow 
+    && 
+    \searrow\mathrlap{{}^{f_{x,x}}}
+    \\
+    \mathcal{X} 
+      && && 
+    \mathbf{B}\mathcal{Y}\big(f(x),f(x)\big)
+    \\
+    & 
+    \mathllap{{}_{f}}\searrow 
+    && 
+    \swarrow\mathrlap{{}_{\iota_{f(x)}}}
+    \\
+    && \mathcal{Y}
+  }
+$$
+whose associated [[Beck-Chevalley condition]] says that
+$$
+  (\iota_{f(x)})^\ast \circ f_!
+  \;=\;
+  (f_x)_! (\iota_{x})^\ast
+  \,.
+$$
+But since pullback preserves all weak equivalences (as already remarked above) this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does. Finally noticing that connected simplicial groupoids have [[automorphisms]] which act as any [[permutation]] on their set of objects, the claim follows.
+
+
+Now the case of a single-object simplicial groupoids, the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[action objects]] in $\mathbf{C}$.
 On such an object $(X,\rho)$ the functor $f_!$ is given by the following [[pushout]] (this is proven as Lemma \ref{LeftInducedActionViaPushout} below):
 
 $$
@@ -283,12 +320,37 @@ $$
 $$
 
 Here the left morphism is an [[acyclic cofibration]] by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathbf{C}$, using the assumptions that $X$ is cofibrant in $\mathbf{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
-Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.\end{proof}
+Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.
+
+Now since this construction is [[natural transformation|natural]], given a weak equivalence $\phi \,\colon\, (X,\rho) \to (X', \rho')$  we find that its image under $f_!$ sits in a [[commuting diagram]] of the form
+$$
+  \array{
+    X
+    &
+      \underoverset
+        {\in \mathrm{W}}
+        {\;\;\; \phi \;\;\;}
+        {\longrightarrow}
+    &
+    Y
+    \\
+    \Big\downarrow\mathrlap{{}^{\in \mathrm{W}}}
+    &&
+    \Big\downarrow\mathrlap{{}^{\in \mathrm{W}}}
+    \\
+    G \cdot_{_H} X
+    &\underset{f_!(\phi)}{\longrightarrow}&
+    G \cdot_{_H} Y    
+    \mathrlap{\,.}
+  }
+$$
+This implies, by the [[2-out-of-3 property]], that also $f_!(\phi)$ is a weak equivalence.
+\end{proof}
 
 Next to discuss the lemma used in this proof.
 
 Let $\mathbf{C}$ be a [[simplicial model category]].
-We write $\cdot \,\colon\, sSet \times \mathbf{C} \to \mathbf{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works more general enriched categories, too.)
+We write $\cdot \,\colon\, sSet \times \mathbf{C} \to \mathbf{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works for more general enriched categories, too.)
 
 For $H \in Grp(sSet)$ a [[simplicial group]] and $X \in Obj(C)$, we may consider [[group actions]] $\rho \colon H \cdot X \to X$. Write $H Act(\mathbf{C})$ for the [[category]] these form.
 
@@ -728,8 +790,11 @@ $$
 Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the [[universal property]] of the [[pushout]]. 
 \end{proof}
 
+\linebreak
 
 #### Monoidal model structure
+
+> The following proof remains incomplete.
 
 Now assume that $\mathbf{C}$ is in addition a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with
 
@@ -852,14 +917,40 @@ This formula for the adjunct is the total left morphism in the following commuti
 
 * the bottom left square is from [this Remarj](Wirthmüller+context#ProjectionComposedWithCounitInRemainingVariable)
 
-* the top right square is a [[Beck-Chevalley condition|Beck-Chevalley]] [[naturality square]]
+* the top right square is a [[Beck-Chevalley condition|Beck-Chevalley]] [[naturality square]] associated with the evident [[pullback]] square
+
+
+  $$
+    \array{
+      & &
+      \mathcal{X} \times \mathcal{X}'
+      \\
+      & 
+      \mathllap{{}^{pr_{\mathcal{X}}}}\swarrow 
+      && 
+      \searrow\mathrlap{^{f \times id}}
+      \\
+      \mathcal{X} && && \mathcal{Y} \times \mathcal{X}'
+      \\
+      & 
+      \mathllap{{}_{f}}\searrow 
+     && 
+       \swarrow\mathrlap{{}_{pr_{\mathcal{Y}}}}
+      \\
+      && 
+      \mathcal{Y}
+    }
+  $$
+
 
 * the bottom right square expresses the equality of two ways of moving the zig-zag morphism through the [[pasting diagram]] further below to the top right, one direct and the other by first moving its to the bottom left, using that the pasting of the left two squares and that of the bottom three squares are isomorphisms.
 
 
 <img src="/nlab/files/LemmaDiagram-230424b.jpg" width="800">
 
-The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with an object of $\mathbf{C}$. Thus...
+The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with the pullback of a object of $\mathbf{C}^{\mathcal{X}'}$. 
+
+Thus it remains to see that pullback along product projections preserves cofibrations...
 
 (...)
 \end{proof}
