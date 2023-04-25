@@ -136,14 +136,15 @@ The notion was introduced in
 
 * {#Lawvere69} [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.tac.mta.ca/tac/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
  
-
-
 and further developed in 
 
 * [[Bill Lawvere]], _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14. ([pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf))
 
-* {#SeelyA} [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r math. Logik und Grundlagen der Math., Band 29, 505-542 (1983). ([pdf](http://www.math.mcgill.ca/~rags/ZML/ZML.PDF))
+and with further emphasis on the role of the [[Beck-Chevalley condition]]:
+
+* {#SeelyA} [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
  
+
 
 Surveys and reviews include
 
