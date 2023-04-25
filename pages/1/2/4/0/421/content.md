@@ -378,6 +378,9 @@ The [[orientals]] relate simplices to [[globes]].
 [[!redirects k-simplex]]
 [[!redirects k-simplices]]
 
+[[!redirects 0-simplex]]
+[[!redirects 0-simplices]]
+
 [[!redirects 1-simplex]]
 [[!redirects 1-simplices]]
 
