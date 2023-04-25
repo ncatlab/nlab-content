@@ -364,10 +364,10 @@ Since $\phi$ is [[opfibration|opfibered]], for every object $c \in C$ the embedd
 
 $$
   \phi_1(X)_c \simeq \lim_{\underset{\phi^{-1}(c)}{\to}} X
-  \,.
+  \,,
 $$
 
-Therefore we have a sequence of [[isomorphisms]]
+and so wwe have a sequence of [[isomorphisms]]
 
 $$
   \begin{aligned}
