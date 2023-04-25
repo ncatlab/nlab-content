@@ -16,7 +16,7 @@ A **fibration fibered in groupoids** is a [[functor]] $p : E \to B$ such that th
 
 =--
 
-Under forming [[opposite categories]] we obtain the notion of an **op-fibration fibered in groupoids**. In old literature this is sometimes called a "cofibration in groupoids" but that terminology collides badly with the notion of cofibration in [[homotopy theory]] and [[model category]] theory.
+Under forming [[opposite categories]] we obtain the notion of an **op-fibration fibered in groupoids**. In old literature this is sometimes called a "cofibration in groupoids" but that terminology collides badly with the notion of *[[cofibration]]* in [[homotopy theory]] and [[model category]] theory.
 
 ## Properties
 
