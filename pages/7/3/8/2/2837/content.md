@@ -1,6 +1,7 @@
 
 * [website](http://www.people.virginia.edu/~jeb2md/)
 
+
 ## Selected writings
 
 Introducing the [[model structure on sSet-categories]]:
@@ -19,9 +20,12 @@ On comparison of [[model categories]] of [[(∞,1)-categories]]:
 
 * [[Julia Bergner]], _Equivalence of models for equivariant $(\infty,1)$-categories_, Glasgow Mathematical Journal, Volume 59, Issue 1 (2016) ([arXiv:1408.0038](https://arxiv.org/abs/1408.0038), [doi:10.1017/S0017089516000136](https://doi.org/10.1017/S0017089516000136))
 
+On [[model categories]] presenting [[(infinity,0)-categories|$(\infty,0)$-categories]], namely models for [[infinity-groupoids|$\infty$-groupoids]] (such as the [[model structure on simplicial groupoids]]) akin to corresponding models for [[(infinity,1)-categories|$(\infty,1)$-categories]] (such as the [[model structure on simplicial categories]]):
+
+* [[Julia E. Bergner]], *Adding inverses to diagrams II: Invertible homotopy theories are spaces*, Homology, Homotopy Appl. **10** 2 (2008) 175-193 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a9](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a9), [doi:0710.2254](https://arxiv.org/abs/0710.2254), erratum:[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15)&rbrack;
 
 
-## Eelated $n$Lab entries 
+## Related entries 
 
 * [[model category]]
 
@@ -34,6 +38,7 @@ On comparison of [[model categories]] of [[(∞,1)-categories]]:
 * [[(∞,n)-category]]
 
 * [[cobordism hypothesis]]
+
 
 category: people
 
