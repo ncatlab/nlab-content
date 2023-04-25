@@ -373,7 +373,7 @@ As for ordinary [[adjoint functors]] we have the following relations between ful
 
 Given an $(\infty,1)$-adjunction $(L \dashv R) : C \to  D$
 
-* $R$ is a [[full and faithful (∞,1)-functor]] precisely is the counit $L R \stackrel{}{\to} Id$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functor]]
+* $R$ is a [[full and faithful (∞,1)-functor]] precisely is the counit $L R \stackrel{}{\to} Id$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functors]].
 
   In this case $C$ is a [[reflective (∞,1)-subcategory]] of $D$.
 
