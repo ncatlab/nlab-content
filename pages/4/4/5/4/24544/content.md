@@ -60,3 +60,5 @@ or
 For this reason, it is often worth considering whether a different term than "locally" may be used when naming such a concept.
 
 (Note that for the [[bicategory of spans]] in some [[finitely complete category]] $E$ the [[hom-category]] $Span(E)(A, B)$ is the [[slice category]] $E/(A \times B)$.  Thus, hom-wise properties of $Span(E)$ coincide with slice-wise properties of $E$.)
+
+category: disambiguation
