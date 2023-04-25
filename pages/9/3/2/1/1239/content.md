@@ -123,11 +123,16 @@ More in detail, this yields the following identifications:
 * [[geometric representation theory]]
   
   * [[Borel-Weil theorem]], [[Beilinson-Bernstein localization]]
+
   * [[D-module]], [[perverse sheaf]], [[BBDG decomposition theorem]]
+
   * [[Kazhdan-Lusztig theory]]
+
   * [[Dirac induction]]
 
 * [[Verma module]], [[BGG resolution]]
+
+* [[representation stability]]
 
 * [[Grothendieck group]], [[lambda-ring]], [[symmetric function]], [[formal group]]
 
@@ -139,7 +144,7 @@ More in detail, this yields the following identifications:
 
 * [[Eilenberg-Moore category]], [[algebra over an operad]], [[actegory]], [[crossed module]]
 
-* [[reconstruction theorem]]s
+* [[reconstruction theorems]]
 
 
 ## References
