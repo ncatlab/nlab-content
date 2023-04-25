@@ -3566,7 +3566,9 @@ See also
 [[!redirects symmetric smash products of spectra]]
 
 [[!redirects symmetric monoidal smash product of spectra]]
+[[!redirects symmetric monoidal smash products of spectra]]
 
 [[!redirects symmetric smash product on spectra]]
+[[!redirects symmetric smash products on spectra]]
 
 
