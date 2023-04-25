@@ -67,5 +67,15 @@ and thus $N(\mathcal{I})$ represents the subpresheaf $FullSub \subseteq Sub$ of 
 
 \begin{rmk} This also implies $N(\mathcal{I})$ is the full subcategory classifier of $qCat$, the 1-category of [[quasi-category|quasi-categories]], since those are given by full subspaces of simplicial sets. \end{rmk}
 
+## References
+
+A generalization of the notion of the interval groupoid to [[simplicial groupoids]] is considered in 
+
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §2.8 of: *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
+
+and plays a key role in the discussion of the [[model structure on simplicial groupoids]], see [there](model+structure+on+simplicial+groupoids#SimplicialIntervalGroupoid).
+
+
+
 [[!redirects free-standing isomorphism]]
 [[!redirects interval groupoid]]
