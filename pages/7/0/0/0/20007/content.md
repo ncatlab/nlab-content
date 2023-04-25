@@ -111,7 +111,7 @@ The nerve functor $N:Cat \to SSet$ preserves products and has a left adjoint $\t
 ###### Example
 **([[poly-morphisms]])**
 
-For $F =P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of base functor $P_\ast \;\colon\;
+For $F = P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of base functor $P_\ast \;\colon\;
  Cat \to Cat$ sends plain [[categories]] to plain categories. For $C$ any category, the morphisms of $C^{poly} \coloneqq P\ast(C)$ are called the _[[poly-morphisms]]_ of $C$ in [Mochizuki 12, section 0](poly-morphism#Mochizuki12).
 
 =--
@@ -119,16 +119,21 @@ For $F =P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of b
 ## References
 
 
-* {#EilenbergKelly65} [[Samuel Eilenberg]], [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  
-
-* {#Crutwell14} [[Geoff Cruttwell]], chapter 4 of _Normed spaces and the Change of Base for Enriched Categories_, 2014 ([pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf))
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[Max Kelly]], *Closed categories*,  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965), Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_22](https://doi.org/10.1007/978-3-642-99902-4_22)&rbrack;
 
 
-* {#Riehl14} [[Emily Riehl]], lemma 3.4.3 in _[[Categorical Homotopy Theory]]_, Cambridge University Press 2014
+* {#Crutwell14} [[Geoff Cruttwell]], chapter 4 of: _Normed spaces and the Change of Base for Enriched Categories_, 2014 ([pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf))
+
+
+* {#Riehl14} [[Emily Riehl]], lemma 3.4.3 inL _[[Categorical Homotopy Theory]]_, Cambridge University Press (2014)
 
 [[!redirects changes of enriching category]]
 [[!redirects changes of enriching categories]]
 [[!redirects change of enriching categories]]
+
+[[!redirects change of enrichment]]
+[[!redirects changes of enrichment]]
+[[!redirects changes of enrichments]]
 
 [[!redirects change of enriching base]]
 [[!redirects changes of enriching base]]
@@ -137,3 +142,6 @@ For $F =P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of b
 [[!redirects change of base in enriched category theory]]
 [[!redirects changes of base in enriched category theory]]
 [[!redirects changes of bases in enriched category theory]]
+
+
+
