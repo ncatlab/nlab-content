@@ -65,7 +65,7 @@ There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
   1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[classical model structure on simplicial sets]].
 
-* [[fibrations]] are the "[[essentially surjective (infinity,1)-functor|essentially surjective]] [[isofibrations]]", namely those morphisms $f \colon H \to K$ such that 
+* [[fibrations]] are the [[Kan fibration|Kan]]-[[isofibrations]], namely those morphisms $f \colon H \to K$ such that 
 
   1. for every [[object]] $x$ of $H$ and every [[morphism]] $\omega \colon f(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
 
@@ -110,7 +110,7 @@ for the [[functor]] which sends a [[simplicial set]] $S$ to the [[sSet]]-[[enric
 This is [Dwyer & Kan (1984), §2.8](#DwyerKan84), related to the [[Milnor construction]] in [Goerss & Jardine (2009), pp. 314](#GoerssJardine09). (Beware that in [Bergner (2008), p. 4](#Bergner08) the statement of free generation is missing.)
 
 \begin{example}
-  The construction of Def. \ref{SimplicialIntervalGroupoid} applied to the [[terminal object|terminal]]  ([[0-simplex]], "[[singleton]]") [[simplicial set]] $\Delta[0]$ is the [[interval groupoid]]:
+  The construction of Def. \ref{SimplicialIntervalGroupoid} applied to the [[terminal object|terminal]]  [[simplicial set]] $\Delta[0]$ ([[0-simplex]], "[[singleton]]") is the [[interval groupoid]]:
 $$
   \mathcal{F}(\ast) \,=\,
   \big\{
@@ -245,7 +245,7 @@ A proof of the model structure closer to that establishing the [[model structure
 
 See also:
 
-* A. R. Garzon, J. G. Miranda and R. Osorio, *A simplicial description of the homotopy category of simplicial groupoids*, Theory and Applications of Categories **7**  14  (2000)263-283 &lbrack;[tac:](http://www.tac.mta.ca/tac/volumes/7/n14/7-14abs.html)&rbrack;
+* A. R. Garzon, J. G. Miranda and R. Osorio, *A simplicial description of the homotopy category of simplicial groupoids*, Theory and Applications of Categories **7**  14  (2000)263-283 &lbrack;[tac:7-14](http://www.tac.mta.ca/tac/volumes/7/n14/7-14abs.html)&rbrack;
 
 
 [[!redirects model category of simplicial groupoids]]
