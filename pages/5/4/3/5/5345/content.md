@@ -59,17 +59,17 @@ Write $sGrpd_{DK}$ for the [[category]] of [[simplicial groupoids]] (whose [[sim
 \linebreak
 There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
-* [[fibrations]] are those morphisms $f \colon H \to K$ such that 
-
-  1. for every [[object]] $x$ of $H$ and every [[morphism]] $\omega \colon f(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
-
-  1. for every object $x$ in $H$ the induced morphism $f \colon H(x,x) \to K(f(x), f(x))$ is a [[Kan fibration]].
-
-* [[weak equivalences]] are those morphisms $f \colon H \to K$ such that
+* [[weak equivalences]] are the [Dwyer-Kan equivalences](model+structure+on+sSet-categories#DwyerKanEquivalences), hence those morphisms $f \colon H \to K$ such that
 
   1. $f$ induces in [[isomorphism]] on [[connected components]] $\pi_0 f \colon \pi_0 H \to \pi_0 K$;
 
   1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[classical model structure on simplicial sets]].
+
+* [[fibrations]] are the "[[essentially surjective (infinity,1)-functor|essentially surjective]] [[iso-fibrations]]", namely those morphisms $f \colon H \to K$ such that 
+
+  1. for every [[object]] $x$ of $H$ and every [[morphism]] $\omega \colon f(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
+
+  1. for every object $x$ in $H$ the induced morphism $f \colon H(x,x) \to K(f(x), f(x))$ is a [[Kan fibration]].
 
 * [[cofibrations]] are the [[retracts]] (in the [[arrow category]]) of the free maps from Def. \ref{FreeMorphismsOfSimplicialGroupoids}.
 
@@ -83,7 +83,78 @@ This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), review
   An $X \in sGrpd_{DK}$ for which $X_0 = \ast$ is the [[terminal groupoid]] is, when regarded as a [[pointed object]], equivalently the ([[delooping]] of the) [[simplicial group]] which is its unique [[hom-object]]. Restricted to such "simplicial [[delooping groupoids]]" of simplicial groups and under this identitificaiton, the fibrations and weak equivalences in Prop. \ref{FreeMorphismsOfSimplicialGroupoids} are those of the [[model structure on simplicial groups]].
 \end{remark}
 
+
+
 ## Properties
+
+### Extra model category properties
+ {#ExtraModelCategoryProperties}
+
+We write $sSet\text{-}Grpd$ for the category of Dwyer-Kan simplicial groupoids.
+
+\begin{definition}\label{SimplicialIntervalGroupoid}
+**(simplicial interval groupoid)**
+\linebreak
+ Write
+$$
+  \mathcal{F}
+  \;\colon\;
+  sSet
+   \overset{\mathcal{I}}{\longrightarrow}
+  sSet\text{-}Cat
+    \longrightarrow
+  sSet\text{-}Grpd
+$$
+for the [[functor]] which sends a [[simplicial set]] $S$ to the [[sSet]]-[[enriched groupoid]] $\mathcal{F}(S)$ which has precisely two objects $0,1$, no non-trivial [[endomorphisms]] and isomorphisms between $0$ and $1$ freely generated from the cells of $X$.
+\end{definition}
+This is [Dwyer & Kan (1984), §2.8](#DwyerKan84), related to the [[Milnor construction]] in [Goerss & Jardine (2009), pp. 314](#GoerssJardine09). (Beware that in [Bergner (2008), p. 4](#Bergner08) the statement of free generation is missing.)
+
+\begin{example}
+  The construction of Def. \ref{SimplicialIntervalGroupoid} applied to the [[terminal object|terminal]]  ([[0-simplex]], "[[singleton]]") [[simplicial set]] $\Delta[0]$ is the [[interval groupoid]]:
+$$
+  \mathcal{F}(\ast) \,=\,
+  \big\{
+    0 \overset{\sim}{\leftrightarrows} 1
+  \big\}
+  \,.
+$$
+\end{example}
+
+\begin{proposition}
+  The model structure on simplicial groupoids from Prop. \ref{TheModelStructure} is [[cofibrantly generated model category|cofibrantly generated]] with generating (acyclic) cofibrations the images under the simplicial interval functor (Def. \ref{SimplicialIntervalGroupoid}) of the generating (acyclic) cofibrations in the [[classical model structure on simplicial sets]] (see [there](classical+model+structure+on+simplicial+sets#AsACofibrantlyGeneratedModelCategory)), hence of the [[boundary]]- and [[horn]]-inclusions of [[simplices]], respectively:
+
+$$
+  \begin{array}{l}
+  I 
+    \,\coloneqq\,
+  \Big\{
+    \mathcal{F}(i_n) 
+      \,\colon\, 
+    \mathcal{F}\big(\partial \Delta[n]\big)
+     \hookrightarrow
+    \mathcal{F}\big(\Delta[n]\big)
+  \Big\}_{n \in \mathbb{N}}
+  \\
+  J 
+    \,\coloneqq\,
+  \Big\{
+    \mathcal{F}(j^k_n) 
+      \,\colon\, 
+    \mathcal{F}\big(\Lambda_k[n]\big)
+     \hookrightarrow
+    \mathcal{F}\big(\Lambda_k[n]\big)
+  \Big\}_{n \in \mathbb{N}_+, 0 \leq k \leq n}
+  \end{array}
+$$
+
+\end{proposition}
+This is essentially [Dwyer & Kan (1984), Prop. 2.9, 2.10](#DwyerKan84), made more explicit in [Bergner (2008), Thm. 2.2](#Bergner08).
+
+\begin{proposition}
+  The model structure on simplicial groupoids from Prop. \ref{TheModelStructure} is [[right proper model category|right proper]].
+\end{proposition}
+This is [Bergner (2008), Prop. 2.5](#Bergner08).
+
 
 ### Relation to simplicial sets
 
@@ -113,7 +184,7 @@ In addition both $\mathcal{G}$ and $\overline W$ preserve all [[weak equivalence
 
 \end{proposition}
 
-This is due to [Dwyer & Kan (1984)](#DwyerKan84), reviewed in [Goerss & Jardine (2009), Theorem 7.8](#GoerssJardine).
+This is due to [Dwyer & Kan (1984), Thm. 3.3](#DwyerKan84), reviewed in [Goerss & Jardine (2009), Thm. 7.8](#GoerssJardine).
 
 
 +-- {: .num_remark}
@@ -167,6 +238,14 @@ The original article:
 A textbook account:
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], after corollary 7.3 in chapter V of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
+
+A proof of the model structure closer to that establishing the [[model structure on simplicial categories]] and making explicit the [[cofibrantly generated model category|cofibrant generation]]:
+
+* {#Bergner08} [[Julia E. Bergner]], Section 2 of: *Adding inverses to diagrams II: Invertible homotopy theories are spaces*, Homology, Homotopy Appl. **10** 2 (2008) 175-193 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a9](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a9), [doi:0710.2254](https://arxiv.org/abs/0710.2254), erratum:[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15)&rbrack;
+
+See also:
+
+* A. R. Garzon, J. G. Miranda and R. Osorio, *A simplicial description of the homotopy category of simplicial groupoids*, Theory and Applications of Categories **7**  14  (2000)263-283 &lbrack;[tac:](http://www.tac.mta.ca/tac/volumes/7/n14/7-14abs.html)&rbrack;
 
 
 [[!redirects model category of simplicial groupoids]]
