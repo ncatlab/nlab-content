@@ -530,9 +530,13 @@ Monoidal Reedy model structures are discussed in
 
 * Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, [arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w).
 
-Monoidal presheaf categories make an appearance in
+On enhancement of monoidal model categories up to [[strong monoidal functor|strong]] [[monoidal Quillen adjunction|monoidal]] [[Quillen equivalence]]:
 
-* {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], p. 20 of: *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 $[$[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)$]$
+* {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], p. 20 of: *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 &lbrack;[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)&rbrack;
+
+and for monoidal [[simplicial model categories]]:
+
+* [[Haldun Özgür Bayındır]], [[Boris Chorny]], *Admissible replacements for simplicial monoidal model categories*, Algebr. Geom. Topol. **23** (2023) 43-73 &lbrack;[arXiv:2008.00515](https://arxiv.org/abs/2008.00515), [doi:10.2140/agt.2023.23.43](https://doi.org/10.2140/agt.2023.23.43)&rbrack;
 
 
 [[!redirects monoidal model categories]]
