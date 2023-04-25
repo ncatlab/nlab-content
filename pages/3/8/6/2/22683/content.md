@@ -31,6 +31,7 @@ In [[topological quantum computation]] on [[anyons]], braid representations serv
 
 * [[Knizhnik-Zamolodchikov equation]]
 
+* [[representation stability]]
 
 ## References
 
