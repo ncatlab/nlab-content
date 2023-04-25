@@ -65,7 +65,7 @@ There is a [[model category]] structure on $sGrpd_{DK}$ whose
 
   1. for each object $x$ of $H$ the induced morphism $H(x,x) \to K(f(x), f(x))$ is a weak equivalence in the [[model structure on simplicial groups]] or equivalently in the [[classical model structure on simplicial sets]].
 
-* [[fibrations]] are the "[[essentially surjective (infinity,1)-functor|essentially surjective]] [[iso-fibrations]]", namely those morphisms $f \colon H \to K$ such that 
+* [[fibrations]] are the "[[essentially surjective (infinity,1)-functor|essentially surjective]] [[isofibrations]]", namely those morphisms $f \colon H \to K$ such that 
 
   1. for every [[object]] $x$ of $H$ and every [[morphism]] $\omega \colon f(x) \to y$ in $K_0$ there is a morphism $\hat \omega : x \to z$ of $H_0$ such that $f(\hat \omega) = \omega$;
 
