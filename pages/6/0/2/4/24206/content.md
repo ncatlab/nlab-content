@@ -91,6 +91,10 @@ Implementation of [[ordinary cohomology|ordinary]] [[integral cohomology]] (i.e.
 
 * [[Guillaume Brunerie]], [[Axel Ljungström]], [[Anders Mörtberg]], *Synthetic Integral Cohomology in Cubical Agda*, 30th EACSL Annual Conference on Computer Science Logic (CSL 2022) **216** (2022) $[$[doi:10.4230/LIPIcs.CSL.2022.11](https://doi.org/10.4230/LIPIcs.CSL.2022.11)$]$
 
+Implementation of [[cohomology rings]] in [[cubical agda]]:
+
+* [[Thomas Lamiaux]], [[Axel Ljungström]], [[Anders Mörtberg]], _Computing Cohomology Rings in Cubical Agda_ ([arxiv:2212.04182] (https://arxiv.org/abs/2212.04182))
+
 
 
 
