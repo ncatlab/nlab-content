@@ -103,6 +103,8 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 * {#Carchedi13}[[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_ , arXiv1312.2204 (2013). ([pdf](http://arxiv.org/pdf/1312.2204v1.pdf))
 
+* D. De Wolf, [[Dorette Pronk|D. Pronk]], _A Double-Categorical View on Representations of Etendues_, Cah. Top. G&#233;om. Diff. Cat. **LXI** 1 (2020) pp.3-56. ([pdf](http://cahierstgdc.com/wp-content/uploads/2020/01/DEWOLF-PRONK-61-1.pdf))
+
 * {#FreydScedrov90}[[Peter Freyd|P. J. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002, pp.769-775.
