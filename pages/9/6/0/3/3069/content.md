@@ -422,22 +422,38 @@ Original articles:
 
   > (in terms of [[base change]] as the [[categorical semantics]] for [[universal quantification]]/[[dependent product]] and [[existential quantification]]/[[dependent sum]])
 
+expanded on in 
+
+* [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
+
 Review:
+
 
 * {#Pavlović91} [[Duško Pavlović]], Section 1 of: *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
 
+* [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
+
 * [[Paul Balmer]], around §7.5 of: *Stacks of group representations*, J. European Math. Soc. **17** 1 (2015) 189-228 &lbrack;[arXiv:1302.6290](https://arxiv.org/abs/1302.6290), [doi:10.4171/jems/501](https://doi.org/10.4171/jems/501)&rbrack;
 
-and in the generality of [[(infinity,1)-categories|$\infty$-categories]]:
+Discussion for [[subobject lattices]]:
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around p. 205) of: _[[Sheaves in Geometry and Logic]]_,   Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
+
+
+Discussion in the generality of [[enriched category theory]]:
+
+* [[Michael Shulman]], e.g. Thm. 9.3 in: *Enriched indexed categories*, Theory Appl. Categ. **28** (2013) 616-695 &lbrack;[doi:1212.3914](https://arxiv.org/abs/1212.3914), [tac:28-21](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html)&rbrack;
+
+
+Discussion in the generality of [[(infinity,1)-categories|$\infty$-categories]]:
 
 * [[Urs Schreiber]], around Def. 5.5 of: *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](https://arxiv.org/abs/1402.7041)&rbrack;
 
 * {#GaitsgoryLurie} [[Dennis Gaitsgory]], [[Jacob Lurie]], Section 2.4.1 of: _Weil's conjecture for function fields_ (2014-2017) &lbrack;["first volume of expanded account" pdf](https://www.math.ias.edu/~lurie/papers/tamagawa-abridged.pdf)&rbrack;
 
+for [[infinity-cosmos|$\infty$-cosmoi]]:
 
-Discussion for [[subobject lattices]]:
-
-* [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around p. 205) of: _[[Sheaves in Geometry and Logic]]_,   Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
+* [[Emily Riehl]], [[Dominic Verity]], Prop. 5.3.9 in: *Kan extensions and the calculus of modules for ∞-categories*, Algebr. Geom. Topol. **17** (2017) 189-271 &lbrack;[doi:10.2140/agt.2017.17.189](https://doi.org/10.2140/agt.2017.17.189), [arXiv:1507.01460](https://arxiv.org/abs/1507.01460)&rbrack;
 
 Discussion for presheaf categories in the context of [[quasicategories]] ([[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]]):
 
