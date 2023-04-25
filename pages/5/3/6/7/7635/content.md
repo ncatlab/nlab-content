@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[hyperdoctrines]], and [[natural deduction]] in [[categorical logic]], and the [[Beck-Chevalley condition]]:
+
+* [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
+
+
 On the [[relation between type theory and category theory]]...
 
 ...the [[equivalence of categories]] between [[first order logic|first order theories]] and [[hyperdoctrines]]:
@@ -47,7 +52,8 @@ Introducing [[differential categories]]:
 
 category: people
 
-
+[[!redirects Robert A. G. Seely]]
 [[!redirects R. A. G. Seely]]
 [[!redirects R.A.G. Seely]]
 [[!redirects R.A.G.Seely]]
+
