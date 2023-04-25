@@ -19,9 +19,13 @@ On [[Goodwillie calculus]], [[n-excisive functors]] and [[Whitehead products]]:
 * {#SchererChorny11} [[Jerome Scherer]], [[Boris Chorny]], _Goodwillie calculus and Whitehead products_, Forum Math. 27 (2015), no. 1, 119 - 130 ([arXiv:1109.2691](https://arxiv.org/abs/1109.2691))
 
 
+On enhancement of [[simplicial model categories|simplicial]] [[monoidal model categories]] up to [[strong monoidal functor|strong]] [[monoidal Quillen adjunction|monoidal]] [[Quillen equivalence]]:
+
+* [[Haldun Özgür Bayındır]], [[Boris Chorny]], *Admissible replacements for simplicial monoidal model categories*, Algebr. Geom. Topol. **23** (2023) 43-73 &lbrack;[arXiv:2008.00515](https://arxiv.org/abs/2008.00515), [doi:10.2140/agt.2023.23.43](https://doi.org/10.2140/agt.2023.23.43)&rbrack;
 
 
-## Related $n$Lab pages
+
+## Related entries
 
 * [[Goodwillie calculus]]
 
