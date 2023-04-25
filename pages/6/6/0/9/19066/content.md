@@ -283,10 +283,9 @@ $$
 $$
 
 Here the left morphism is an [[acyclic cofibration]] by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathbf{C}$, using the assumptions that $X$ is cofibrant in $\mathbf{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
-Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalences.  
-\end{proof}
+Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.\end{proof}
 
-Now to discuss the lemma used in the proof.
+Next to discuss the lemma used in this proof.
 
 Let $\mathbf{C}$ be a [[simplicial model category]].
 We write $\cdot \,\colon\, sSet \times \mathbf{C} \to \mathbf{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works more general enriched categories, too.)
