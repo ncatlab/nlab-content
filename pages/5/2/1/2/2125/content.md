@@ -31,13 +31,13 @@ This way it extends to a [[Quillen equivalence]] between [[model categories]] of
 
 Notice that 
 
-* monoids in the [[category of chain complexes]] are [[differential graded ring]]s
+* monoids in the [[category of chain complexes]] are [[differential graded rings]]
 
-* monoids in the category of simplicial abelian groups are [[simplicial object|simplicial]] [[ring]]s.
+* monoids in the category of simplicial abelian groups are [[simplicial object|simplicial]] [[rings]].
 
 If instead we look at chain complexes and [[simplicial object]]s not in [[Ab]] but in [[Vect]] then
 
-* monoids in the [[category of chain complexes]] of vector spaces are [[differential graded algebra]]s
+* monoids in the [[category of chain complexes]] of vector spaces are [[differential graded algebras]]
 
 * monoids in the category of simplicial vector spaces are simplicial algebras.
 
@@ -47,7 +47,7 @@ A crucial fact about the [[Dold-Kan correspondence]] is that
 
 * The two functors in the Dold-Kan correspondence individually respect these monoidal structures, in the sense that they are lax [[monoidal functors]] (but not [[strong monoidal functors]], see remark \ref{RemarkOnLaxStrongDistinction}).
 
-However, the [[adjunction]] fails to be a [[monoidal adjunction]] of any sort (i.e. the unit and counit are not monoidal natural transformations).  (Note that if it were a monoidal adjunction, then by [[doctrinal adjunction]], both functors would necessarily be strong monoidal, and hence an equivalence of monoidal categories.)  As a result, the Dold-Kan equivalence of categories does not induce an [[equivalence of categories]] or even an adjunction between (co)simplicial rings and (co)chain complexes.
+However, the [[adjunction]] fails to be a [[monoidal adjunction]] of any sort (i.e. the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] are not monoidal natural transformations).  (Note that if it were a monoidal adjunction, then by [[doctrinal adjunction]], both functors would necessarily be strong monoidal, and hence an equivalence of monoidal categories.)  As a result, the Dold-Kan equivalence of categories does not induce an [[equivalence of categories]] or even an adjunction between (co)simplicial rings and (co)chain complexes.
 
 There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed constructions):
 
