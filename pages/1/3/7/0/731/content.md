@@ -14,7 +14,8 @@
 =--
 
 
-# Dwyer--Kan loop groupoid
+
+# Dwyer-Kan loop groupoid
 * table of contents
 {:toc}
 
@@ -30,7 +31,7 @@ and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [
 
 ## Definition
 
-The **loop groupoid functor of Dwyer and Kan** is a [[functor]] 
+The **loop groupoid functor** is a [[functor]]  of [Dwyer & Kan (1984), §3.1](#DwyerKan84)
 
 $$
   \mathcal{G} 
@@ -41,44 +42,66 @@ $$
   \,,
 $$
 
-which takes a [[simplicial set]] $K$ to the [[simplicial groupoid]] $\mathcal{G}(K)$, where for each $n \in \mathbb{N}$:
+takes a [[simplicial set]] $S$ to the Dwyer-Kan [[simplicial groupoid]] (i.e. [[sSet]]-[[enriched groupoid]]) $\mathcal{G}(S)$, whose
 
-* $\mathcal{G}(K)_n$ is the [[free groupoid]] on the [[graph]]
+* [[objects]] are the [[vertices]] of $S$:
+
+  $Obj\big(\mathcal{G}(K)\big) \,\coloneqq\, K_0$;
+
+* [[morphisms]] in degree $n \in \mathbb{N}$ form the [[groupoid]] which is the [[quotient object|quotient]] 
 
   $$
-    s,t \colon K_{n+1} \rightarrow K_0,
+    \array{
+      S_{n+1} 
+        &\overset{\phantom{----}}{\rightrightarrows}
+      & S_0
+      \\
+      \mathllap{{}^{q}}\Big\downarrow 
+      && 
+      \Big\downarrow\mathrlap{{}^=}
+      \\
+      \mathcal{G}(S)_n
+        &\overset{\phantom{----}}{\rightrightarrows}&
+      Obj\big(\mathcal{G}(S)\big)
+    }
+  $$
+
+  of the [[free groupoid]] on the [[graph]] 
+
+  $$
+    s,t 
+     \,\colon\, 
+    S_{n+1} 
+      \overset{\phantom{--}}{\rightrightarrows} 
+    S_0,
     \,,
   $$
 
-* with [[domain]]-function $s \coloneqq (d_1)^{n+1}$ 
+  * with [[domain]]-function $s \coloneqq d_0 \circ d_2 \cdot d_3 \cdots d_{n+1}$ 
 
-  and [[codomain]]-function $t \coloneqq d_0(d_2)^n$, 
+    and [[codomain]]-function $t \coloneqq d_1 \circ d_2 \cdot d_3 \cdots d_{n+1}$, 
 
-* [[quotient|quotiented]] by the [[relations]] 
+  by the [[relations]] 
 
-  $s_0 \sigma_n \overset{!}{=} id$, for all $\sigma_n \in K_n$.  
+  $q(s_0 \sigma_n) \,\sim\, id_{d_1 \cdots d_n \sigma_n}$, for all $\sigma_n \in S_n$.  
 
 * The [[face and degeneracy maps]] are given on generators by 
 
-  *   $s_i^{\mathcal{G}(K)}(x) \coloneqq s_{i+1}^K(x),$
+  * $d_0\big(q(\sigma)\big) \,\coloneqq\, q\big(d_1(\sigma_n)\big)^{-1}$
 
-  *   $d_i^{\mathcal{G}(K)}(x) \coloneqq d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
+  * $d_i\big(q(\sigma)\big) \,\coloneqq\,q\big(d_{i+1}(\sigma)\big)$ for $i \gt 0$
 
-  *   $d_0^{\mathcal{G}(K)}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
-
+  * $s_i\big(q(\sigma)\big) \,\coloneqq\,q\big(s_{i+1}(\sigma)\big)$ for $i \geq 0$.
+ 
 \begin{remark}
-This is indeed a simplicial groupoid (as discussed [there](simplicial+groupoid#Definition)) in the sense of Dwyer & Kan, in that the face and degeneracy maps are constant on the objects.
-\end{remark}
-
-\begin{remark}
-The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer & Kan (1984) §3.2](#DwyerKan84)&rbrack; called the [[simplicial classifying space]] functor.  
+The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer & Kan (1984) §3.2](#DwyerKan84)&rbrack; also called the *[[simplicial classifying space]] functor*.  
 \end{remark}
 
 ## References
 
 The original reference:
 
-* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]],  *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
+* {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
 
 
@@ -91,3 +114,4 @@ The original reference:
 
 [[!redirects Dwyer-Kan loop group]]
 [[!redirects Dwyer-Kan loop groups]]
+
