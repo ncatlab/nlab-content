@@ -197,6 +197,10 @@ All this has been embedded into a coherent global theory in the setting of [[qua
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+Textbook account on presentation by [[model structures on simplicial presheaves]]:
+
+* {#Jardine15} [[John F. Jardine]], *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
+
 
 [[!redirects infinity-stacks]]
 [[!redirects ∞-stack]]
