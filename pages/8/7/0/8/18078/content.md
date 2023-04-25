@@ -1,6 +1,28 @@
 
 $$
   \array{
+    & &
+    \mathcal{X} \times \mathcal{X}'
+    \\
+    & 
+    \mathllap{{}^{pr_{\mathcal{X}}}}\swarrow 
+    && 
+    \searrow\mathrlap{^{f \times id}}
+    \\
+    \mathcal{X} && && \mathcal{Y} \times \mathcal{X}'
+    \\
+    & 
+    \mathllap{{}_{f}}\searrow 
+    && 
+    \swarrow\mathrlap{{}_{pr_{\mathcal{Y}}}}
+    \\
+    && 
+    \mathcal{Y}
+  }
+$$
+
+$$
+  \array{
   (\mathcal{X} \to \mathcal{Y})
   &\longrightarrow&
   sCh_\bullet(k)
