@@ -123,5 +123,5 @@ For instance, a one-object [[sSet]]-groupoid (Exp. \ref{SimplicialGroupoid}) is 
 
 * [[groupoid object in an (∞,1)-category]]
 
-[[!redirects enriched groupoid]]
+[[!redirects enriched groupoids]]
 
