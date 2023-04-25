@@ -52,6 +52,7 @@ The projective model structure can be regarded as a right-[[transferred model st
 Suppose that
 
 1. $C$ is a [[cofibrantly generated model category]], and
+
 2. $C$ admits [[copowers]] by the [[hom-objects]] $D(x,y)\in \mathbf{S}$, which preserve [[acyclic cofibrations]].  (For instance, this is the case if $\mathbf{S}=$ [[Set]], or if $\mathbf{S}$ is a [[monoidal model category]], $C$ is an [[enriched model category|$\mathbf{S}$-model category]], and the [[hom-objects]] $D(x,y)$ are cofibrant in $\mathbf{S}$.)
 
 Then the projective model structure $[D,C]_{proj}$ exists, and is again cofibrantly generated.
