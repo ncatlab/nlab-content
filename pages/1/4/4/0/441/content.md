@@ -56,15 +56,15 @@ denote the standard simplicial $n$-[[simplex]] in [[SimpSet]].
 ###### Definition
 **(horns)**
 
-For all $n,i$ with $n\geq 1$ and $0\leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box**  is the [[subobject|sub]]-[[simplicial set]]
+For all $n, k \,\in\, \mathbb{N}$ with $n\geq 1$ and $0\leq k \leq n$, the **$(n,k)$-horn** or **$(n,k)$-box**  is the [[subobject|sub]]-[[simplicial set]]
 
 $$
-  \Lambda^i[n]
+  \Lambda_k[n]
   \hookrightarrow
   \Delta[n] 
 $$
 
-which is the [[union]] of all faces _except_ the  $i^{th}$ one.
+which is the [[union]] of all faces _except_ the  $k$th one.
 
 {#InnerHorns} This is called an **outer horn** if $k = 0$ or $k = n$, otherwise it is an **inner horn**.
 
@@ -72,7 +72,7 @@ which is the [[union]] of all faces _except_ the  $i^{th}$ one.
 =--
 
 \begin{remark}
-Since [[sSet]]  is a [[presheaf topos]], [[unions]] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which factor through some coface map $[n-1] \to [n]$ which is _not_ the $i^{th}$ one.
+Since [[sSet]]  is a [[presheaf topos]], [[unions]] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f \colon [m] \to [n]$ which factor through some coface map $[n-1] \to [n]$ which is _not_ the $k$th one.
 \end{remark}
 
 
