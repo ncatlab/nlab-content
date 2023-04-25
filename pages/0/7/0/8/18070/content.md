@@ -1479,11 +1479,15 @@ For more on this see at _[[correlators as differential forms on configuration sp
 
 ## Related concepts
 
+
 * [[Hilbert scheme]]
 
 * [[arrangements of hyperplanes]]
 
 * [[Knizhnik-Zamolodchikov connection]]
+
+* [[representation stability]]
+
 
 ## References
 
@@ -1702,9 +1706,9 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Christian Blanchet]], *Heisenberg homologies of surface configurations*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BlanchetMar2023)&rbrack;
 
-Review:
+Review with focus on the phenomenon of [[representation stability]]:
 
-* {#RollandWilson22} Rita Jimenez Rolland, Jennifer C.H. Wilson, *Stability properties of moduli spaces*,  Notices of the American Mathematical Society (2022) $[$[arXiv:2201.04096](https://arxiv.org/abs/2201.04096), [web](https://www.ams.org/journals/notices/202204/noti2452/noti2452.html?adat=April%202022&trk=2452&galt=feature&cat=feature&pdfissue=202204)$]$
+* {#RollandWilson22}  [[Rita Jimenez Rolland]], [[Jennifer C. H. Wilson]], *Stability properties of moduli spaces*, Notices of the AMS [**69** 4](https://www.ams.org/notices/202204/202204FullIssue.pdf) (April 2022) &lbrack;[arXiv:2201.04096](https://arxiv.org/abs/2201.04096), [pdf](https://www.ams.org/journals/notices/202204/rnoti-p522.pdf), [web](https://www.ams.org/journals/notices/202204/noti2452/noti2452.html)&rbrack;
 
 
 Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
