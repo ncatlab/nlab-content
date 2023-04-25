@@ -133,6 +133,8 @@ $$
 
 * [[local net of observables]]
 
+* [[representation stability]]
+
 [[!include Isbell duality - table]]
 
 
@@ -206,9 +208,9 @@ Survey:
 
 ### Relation to cohomology of configuration spaces
 
-Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
+Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]], and relation to [[representation stability]]:
 
-* Quoc P. Ho, _Higher representation stability for ordered configuration spaces and twisted commutative factorization algebras_ ([arXiv:2004.00252](https://arxiv.org/abs/2004.00252))
+* [[Quoc P. Ho]], _Higher representation stability for ordered configuration spaces and twisted commutative factorization algebras_ &lbrack;[arXiv:2004.00252](https://arxiv.org/abs/2004.00252)&rbrack;
 
 
 
