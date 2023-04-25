@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -33,6 +34,8 @@ A priori, the term *simplicial groupoid* may refer to [[simplicial objects]] in 
 However (cf. discussion at *[[simplicial category]]*), in applications (notably in [[homotopy theory]]) one is interested only in those simplicial objects in [[Grpd]] whose [[underlying]] simplicial [[sets]] of [[objects]] are *simplicially constant*. This more restrictive notion --- equivalent to *[[sSet]]-[[enriched groupoids]]* --- is traditionally still referred to as "simplicial groupoids" &lbrack;e.g. [Dwyer & Kan (1984),  §1.2.(ii)](#DwyerKan84), [Goerss & Jardine (2009), V.7](GoerssJardine09)&rbrack;; but for the moment let us call these instead "simplicial DK-groupoids", for clarity, and let us denote the [[full subcategory]] they form by
 
 $$
+  sSet\text{-}Grpd
+  \;\simeq\;
   sGrpd_{DK} 
     \overset{\phantom{---}}{\hookrightarrow} 
   Func(\Delta^{op}, Grpd)
@@ -87,6 +90,172 @@ $$
 *  A simplicially enriched groupoid having exactly one object is essentially the same as a [[simplicial group]]. Notationally however it is often important to distinguish a simplicial group form the corresponding single object simplicially enriched groupoid.
 
 *  Many constructions on simplicial groups, such as that of its [[Moore complex]] carry over to simplicialy enriched groupoids without difficulty.
+
+## Properties
+
+### Cartesian closed structure
+ {#CartesianClosedStructure}
+
+We discuss how the [[category]] of Dwyer-Kan simplicial groupoids ([[sSet]]-[[enriched groupoids]]) is a [[cartesian closed category]] (with [[internal hom]] given in Def. \ref{SimplicialMappingGroupoid} below). Since this is a property inherited from [[sSet-enriched categories]], we denote the category of simplicial groupoids now by $sSet\text{-}Grpd$.
+
+\begin{definition}\label{SimplicialIntervalCategory}
+  For $n \in \mathbb{N}$ write $\mathcal{I}^{(n+1)} \,\in\, sSet\text{-}Cat$ for the [[sSet-enriched category]] with
+
+* precisely two [[objects]] $Obj(I^{(n+1)}) \,\coloneqq\, \{0,1\}$
+
+* with trivial [[endomorphism]] [[hom-objects]] 
+
+  $\mathcal{I}^{(n+1)}(0,0) \,\coloneqq\, \ast$
+
+  $\mathcal{I}^{(n+1)}(1,1) \,\coloneqq\, \ast$
+
+* [[empty set|empty]]$\;$[[hom-object]] from $1$ to $0$
+
+  $\mathcal{I}^{(n+1)}(1,0) \,\coloneqq\, \varnothing$
+
+* [[hom-object]] from $0$ to $1$ being the simplicial [[n-simplex]] $\Delta[n] \,\coloneqq\, \Delta(-,[n]) \colon \Delta^{op} \to sSet$:
+
+  $\mathcal{I}^{(n+1)}(0,1) \,\coloneqq\, \Delta[n]$.  
+
+With this minimalistic collection of morphisms, there are no nontrivial [[composition]]-operations to be specified.
+
+Finally we declare that $\mathcal{I}^{(0)} \,\in\, sSet\text{Cat}$ is the [[terminal category|terminal]] simplicial category, i.e. that with a single object $\ast$ and $\mathcal{I}^{(0)}(\ast, \ast) \,\coloneqq\, \ast$.
+\end{definition}
+
+\begin{remark}\label{CoRepresentingNMorphismsOfSimplicialGroupoids}
+  For $\mathcal{X} \,\in\, sSet\text{Grpd} \hookrightarrow sSet\text{Cat}$, morphisms from the simplicial category of Def. \ref{SimplicialIntervalCategory}
+$$
+  \mathcal{I}^{(n+1)} \longrightarrow \mathcal{X}
+$$
+are in [[natural bijection]] with [[n-morphism|$(n+1)$-morphisms]] of $\mathcal{X}$, hence the [[1-morphisms]] in $\mathcal{X}_n$:
+$$
+  Hom_{sSet\text{Cat}}( \mathcal{I}^{(n+1)},\, \mathcal{X} )
+  \;\simeq\;
+  Mor\big(\mathcal{X}_{n}\big)
+  \,.
+$$
+Similarly:
+$$
+  Hom_{sSet\text{Cat}}( \mathcal{I}^{(0)},\, \mathcal{X} )
+  \;\simeq\;
+  Obj(\mathcal{X})
+  \,.
+$$
+\end{remark}
+
+\begin{definition}
+  \label{CartesianProductOfsSetCategories}
+  For $\mathcal{C},\mathcal{C}' \,\in\, sSet\text{-}Cat$ a [[pair]] of [[sSet-enriched categories]], their [[Cartesian product]] is the $sSet$-category
+$$
+  \mathcal{C} \times \mathcal{C}' 
+  \,\in\,
+  sSet\text{-}Cat
+$$ 
+with
+
+* $
+    Obj\big( \mathcal{C} \times \mathcal{C}' \big)
+    \,\coloneqq\,
+    Obj(\mathcal{C}) \times Obj(\mathcal{C}')  
+  $
+
+* $(\mathcal{C} \times \mathcal{C}')\big((X, X'), \, (Y,Y')\big) \,\coloneqq\, \mathcal{C}(X,\,Y) \times \mathcal{C}(X',\,Y')$
+
+* [[composition]] inherited component-wise from that of $\mathcal{C}$ and $\mathcal{C}$'.
+
+In other words, $\mathcal{C} \times \mathcal{C}'$ is in each degree a [[product category]]:
+
+$$
+  (\mathcal{C} \times \mathcal{C}')_n
+  \;\coloneqq\;
+  \mathcal{C}_n \times \mathcal{C}'_n
+  \,.
+$$
+
+\end{definition}
+
+\begin{definition}\label{SimplicialMappingGroupoid}
+**(simplicial mapping groupoid)**
+\linebreak
+  For $\mathcal{X},\mathcal{Y} \,\in\, sSet\text{-}Grpd$ define their [[mapping object]]
+  $$
+    Maps(\mathcal{X},\,\mathcal{Y})
+    \;\;\in\;\;
+    sSet\text{-}Grpd
+  $$
+
+to be the simplicial groupoid whose $n$-morphisms are the homomorphism of [[sSet-enriched categories]] to $\mathcal{Y}$ from the cartesian product (Def. \ref{CartesianProductOfsSetCategories}) of $\mathcal{X}$ with $\mathcal{I}^{n}$ (Def. \ref{SimplicialIntervalCategory}):
+
+* $Obj\big(Maps(\mathcal{X},\,\mathcal{Y})\Big) \,\coloneqq\, Hom_{sSet\text{-}Grpd}(\mathcal{X},\,\mathcal{Y})$,
+
+* $Mor\big(Maps(\mathcal{X},\,\mathcal{Y})\Big)_n \,\coloneqq\, Hom_{sSet\text{-}Grpd}\big(\mathcal{X} \times \mathcal{I}^{(n+1)},\,\mathcal{Y}\big)$
+
+* with [[face and degeneracy maps]] induced from $\Delta[\bullet] \,=\, Hom\big( \mathcal{I}^{(\bullet + 1)} \big)$,
+
+* with [[composition]] induced from composition in $\mathcal{Y}$.
+
+\end{definition}
+
+\begin{proposition}
+  The simplicial mapping groupoid construction of Def. \ref{SimplicialMappingGroupoid} makes $sSet\text{-}Grpd$ a [[cartesian closed category]] in that there are [[natural isomorphisms]]
+\[
+  \label{MappingObjectHomIsomorphism}
+  Hom_{sSet\text{-}Grpd}
+  \big(
+    \mathcal{X} \times \mathcal{Y}
+    ,\,
+    \mathcal{Z}
+  \big)
+  \;\;\simeq\;\;
+  Hom_{sSet\text{-}Grpd}
+  \big(
+    \mathcal{X}
+    ,\,
+    Maps(\mathcal{Y},\,\mathcal{Z})
+  \big)
+  \,.
+\]
+\end{proposition}
+\begin{proof}
+This is a standard argument. The point of Def. \ref{SimplicialMappingGroupoid} is that, in view of Rem. \ref{CoRepresentingNMorphismsOfSimplicialGroupoids} is that we have [[natural bijections]] of [[hom-sets]]
+$$
+  Hom\big(
+    \mathcal{I}^{(n)}
+    ,\,
+    Maps(\mathcal{Y},\,\mathcal{Z})
+  \big)
+  \;\simeq\;
+  Hom\big(
+    \mathcal{Y} \times \mathcal{I}^{(n)}
+    ,\,
+    \mathcal{Z}
+  \big)
+  \,.
+$$
+Since the [[hom-functor preserves limits|hom-functor preserves products]] in its second argument
+$$
+  Hom\big(
+    \mathcal{I}^{(n)}
+    ,\,
+    \mathcal{X} \times \mathcal{Y}
+  \big)
+  \;\simeq\;
+  Hom\big(
+    \mathcal{I}^{(n)}
+    ,\,
+    \mathcal{X}
+  \big)
+  \,\times\,
+  Hom\big(
+    \mathcal{I}^{(n)}
+    ,\,
+    \mathcal{Y}
+  \big)
+$$
+this establishes an [[underlying]] bijection of component [[sets]] in (eq:MappingObjectHomIsomorphism) via the [[cartesian closed monoidal category]]-structure of [[Set]] itself. It remains to see that this is compatible with the structure morphisms, which is degree-wise the same argument which shows that a [[functor category]] is an [[internal hom]] in [[Cat]].
+\end{proof}
+
+
 
 ## Related concepts
 
