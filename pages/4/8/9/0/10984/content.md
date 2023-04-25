@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -115,9 +116,16 @@ See also:
  
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014)
 
+with some review in:
+
+* [[Peter Haine]], *Ambidexterity* (2018) &lbrack;[pdf](https://math.berkeley.edu/~phaine/files/Ambidexterity_4.pdf), [[Haine-Ambidexterity.pdf:file]]&rbrack;
+
+
 On the issue of equipping an ambidextrous adjunction $F \dashv G \dashv H$  with a specific equivalence between $F$ and $H$:
 
 * [[Qiaochu Yuan]], [MO:377104](https://mathoverflow.net/a/377104)
+
+
 
 [[!redirects ambidextrous adjunctions]]
 
