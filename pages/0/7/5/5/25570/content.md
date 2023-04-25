@@ -40,9 +40,9 @@ A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 
 * The [[geometric realization]] of $Q_*$ is the normalizer of $S^1$ in $S^3$ (cf. [Loday](#Loday87)).
 
-* As usual for [[crossed group|crossed groups]] (or, more generally, for functors between small categories that are surjective on objects; cf. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], pp.359, 377f), the inclusion $i:\Delta\to \Delta Q$ induces by [[Kan extension]] an [[essential geometric morphism|essential]] [[surjective geometric morphism]] $i_!\vdash i^*\vdash i_*: Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}\;$. Here the [[inverse image]] $i^*:Set^{\Delta Q^{op}}\to Set^{\Delta^{op}}$ extends a presheaf $P$ on $\Delta Q$ to one on $\Delta$ by precompostion: $i^*(P)=P\circ i^{op}\,$.
-
 * Just like in the [[cyclic set|cyclic]] and [[dihedral set|dihedral]] cases, $\Delta Q$ is _self-dual_: $\Delta Q\cong \Delta Q^{op}$ (cf. [Dunn](#Dunn89), prop.1.4).
+
+* As usual for [[crossed group|crossed groups]] (or, more generally, for functors between small categories that are surjective on objects; cf. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], pp.359, 377f), the inclusion $i:\Delta\to \Delta Q$ induces by [[Kan extension]] an [[essential geometric morphism|essential]] [[surjective geometric morphism]] $i_!\vdash i^*\vdash i_*: Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}\;$. Here the [[inverse image]] $i^*:Set^{\Delta Q^{op}}\to Set^{\Delta^{op}}$ extends a presheaf $P$ on $\Delta Q$ to one on $\Delta$ by precompostion: $i^*(P)=P\circ i^{op}\,$.
 
 * Since $i:Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}$ is surjective, it follows again by generalities (e.g. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], p.372) that $Set^{\Delta Q^{op}}$ is (equivalent to) the category of coalgebras for a [[left exact]] [[comonad]] on $Set^{\Delta^{op}}$ whence quaternionic sets are indeed [[simplicial set|simplicial sets]] enhanced with a quaternionic coalgebra structure. (For an explicit description of the free [[skew-simplicial set]] on a [[simplicial set]] and the corresponding monad for general crossed groups $G_*$ see [Krasauskas](#Krasauskas87).)
 
