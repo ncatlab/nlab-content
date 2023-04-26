@@ -243,9 +243,13 @@ Symmetric powers in a symmetric monoidal $\mathbb{Q}^{+}$-linear category  are c
 
 * [[Bourbaki]], _Alg&#232;bre_, chap. III, &#167; 6.
 
-The [[symmetric algebra spectrum]] of the [[sphere spectrum]], and its structure as a [[Hopf ring spectrum]] is discussed in
+On the [[symmetric algebra spectrum]] of the [[sphere spectrum]], and its structure as a [[Hopf ring spectrum]]:
 
-* [[Neil Strickland]], [[Paul Turner]], _Rational Morava $E$-theory and $D S^0$_, Topology Volume 36, Issue 1, January 1997, Pages 137-151 ([pdf](http://hopf.math.purdue.edu/Strickland-PTurner/rme.pdf))
+* [[Neil Strickland]], [[Paul Turner]], _Rational Morava $E$-theory and $D S^0$_, Topology **36** 1 (1997) 137-151 ([pdf](http://hopf.math.purdue.edu/Strickland-PTurner/rme.pdf))
+
+Further on symmetric powers in [[homotopical algebra|homotopical]]/[[higher algebra]]:
+
+* {#GorchinskiyGuletskii16} [[Sergey Gorchinskiy]], [[Vladimir Guletskii]], *Symmetric powers in abstract homotopy categories*, Adv. Math., **292** (2016) 707-754 &lbrack;[arXiv:0907.0730](https://arxiv.org/abs/0907.0730), [doi:10.1016/j.aim.2016.01.011](https://doi.org/10.1016/j.aim.2016.01.011)&rbrack;
 
 
 [[!redirects symmetric algebras]]
