@@ -161,34 +161,40 @@ In this case,
 
 ## Properties
 
-### Limits and colimits
+### Limits and colimits in a Grothendieck construction
+ {#CoLimitsInAGrothendieckConstruction}
 
-The following results are due to ([Tarlecki, Burstall, Goguen 91](#TBG91)). 
+We discuss existence and characterization of ([[colimit|co]])[[limits]] *in* a Grothendieck construction.
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proposition}
+Given a [[pseudofunctor]] $F \colon C^{op} \to Cat$.
 
-Let $F : C^{op} \to Cat$ be such that the following conditions hold.
+If 
 
-1. $C$ is complete.
+1. $C$ is [[complete]].
+
 1. $F(J)$ is complete for all $J \in C$.
-1. $F(f) : F(J) \to F(K)$ preserves limits for all $f : K \to J$ in $C$.
 
-Then $\int F$ is complete.
-=--
+1. $F(f) : F(J) \to F(K)$ preserves limits for all $f : K \to 
 
-+-- {: .num_prop}
-###### Proposition
+J$ in $C$.
 
-Let $F : C^{op} \to Cat$ be such that the following conditions hold.
+then $\int F$ is complete.
+
+Dually, if
 
 1. $C$ is cocomplete.
+
 1. $F(J)$ is cocomplete for all $J \in C$.
+
 1. $F(f) : F(J) \to F(K)$ has a left adjoint for all $f : K \to J$ in $C$.
 
 Then $\int F$ is cocomplete.
 
-=--
+\end{proposition}
+This is due to [Tarlecki, Burstall & Goguen (1991)](#TBG91). See also [Harpaz & Prasma (2015), Section 2.4](Grothendieck+construction+for+model+categories#HarpazPrasma15)
+
+
 
 ### As an oplax colimit
  {#AsALaxColimit}
@@ -864,9 +870,10 @@ The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
 
 * [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_
 
-Limits and colimits are analysed in
+On limits and colimits in Grothendieck constructions:
 
-* {#TBG91} Andrzej Tarlecki, [[Rod M. Burstall]] [[Joseph A. Goguen]], _Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories_ , ([Theoretical Computer Science vol. 91 (1991)](https://www.sciencedirect.com/science/article/pii/030439759190085G))
+* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
+
 
 The analog for simplicial sets instead of groupoids is discussed in
 
