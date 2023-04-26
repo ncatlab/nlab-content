@@ -31,7 +31,15 @@ and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [
 
 ## Definition
 
-The **loop groupoid functor** is a [[functor]]  of [Dwyer & Kan (1984), §3.1](#DwyerKan84)
+There are different choices of how to define a DK-type loop group functor, depending on which [[pair]] of vertices in the [[n-simplex|$n$-simplex]] of a simplcial set are to be regarded as the [[source]] and the [[target]] of the corresponding [[morphism]] in the loop groupoid. In the
+
+* [original definition](#OriginalDefinition)
+
+Dwyer & Kan took the direction of the morphism to point from the first to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$, which can be achieved with an equivalent 
+
+* [alternative definition](#AlternativeDefinition).
+
+In any case, the DK loop groupoid construciton is a [[functor]]
 
 $$
   \mathcal{G} 
@@ -42,7 +50,12 @@ $$
   \,,
 $$
 
-takes a [[simplicial set]] $S$ to the Dwyer-Kan [[simplicial groupoid]] (i.e. [[sSet]]-[[enriched groupoid]]) $\mathcal{G}(S)$, whose
+which takes a [[simplicial set]] $S$ to a Dwyer-Kan [[simplicial groupoid]] (i.e. [[sSet]]-[[enriched groupoid]]) $\mathcal{G}(S)$.
+
+### Original definition
+ {#OriginalDefinition}
+
+Let $S \in sSet$. In [Dwyer & Kan (1984), §3.1](#DwyerKan84), the simplicial groupoid $\mathcal{G}(S)$ is defined as follows:
 
 * [[objects]] are the [[vertices]] of $S$:
 
@@ -92,6 +105,32 @@ takes a [[simplicial set]] $S$ to the Dwyer-Kan [[simplicial groupoid]] (i.e. [[
   * $d_i\big(q(\sigma)\big) \,\coloneqq\,q\big(d_{i+1}(\sigma)\big)$ for $i \gt 0$
 
   * $s_i\big(q(\sigma)\big) \,\coloneqq\,q\big(s_{i+1}(\sigma)\big)$ for $i \geq 0$.
+
+
+
+### Alternative definition
+ {#AlternativeDefinition}
+
+
+Take the simplicial set $K$ to the [[simplicial groupoid]] $\mathcal{G}(K)$, where $(\mathcal{G} K)_n$ is the [[free groupoid]] on the [[directed graph]] given by a pair of arrows
+
+$$
+  s,t \colon K_{n+1}\rightarrow K_0
+  \,,
+$$
+
+where the two functions, $s$, [[source]], and $t$, [[target]], are $s = (d_1)^{n+1}$ and $t = d_0(d_2)^n$ with relations $s_0x = id$ for $x \in K_n$.  
+
+The [[face and degeneracy maps]] are given on generators by 
+
+*   $s_i^{\mathcal{G}K}(x) = s_{i+1}^K(x),$
+
+*   $d_i^{\mathcal{G}K}(x) = d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
+
+*   $d_0^{\mathcal{G}K}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
+
+
+## Properties
  
 \begin{remark}
 The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer & Kan (1984) §3.2](#DwyerKan84)&rbrack; also called the *[[simplicial classifying space]] functor*.  
