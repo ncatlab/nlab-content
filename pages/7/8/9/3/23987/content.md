@@ -1507,13 +1507,13 @@ Stone-von Neumann**
 
 \linebreak
 
-* [[Owen Gwilliam]] (University of Massachusetts, Amherst, USA)
+* {#GwilliamApr2023} [[Owen Gwilliam]] (University of Massachusetts, Amherst, USA)
 
   **A bulk-boundary correspondence with factorization algebras**
 
   cf.: [arXiv:2001.07888](https://arxiv.org/abs/2001.07888)
 
-  > [[factorization algebra|Factorization algebras]] provide a flexible language for describing the [[observables]] of a [[perturbative quantum field theory]], as shown in joint work with [[Kevin Costello]]. In [joint work with Eugene Rabinovich and Brian Williams](AdS3-CFT2+and+CS-WZW+correspondence#GwilliamRabinovichWilliams2022), we extended those constructions to a [[manifold with boundary]] for a special class of theories that includes, as an example, a perturbative version of the correspondence between chiral $U(1)$ currents on a Riemann surface and abelian Chern-Simons theory on a bulk 3-manifold. (These methods extend to interacting theories, thanks to the thesis of Rabinovich.) Given time, I'll sketch a systematic higher dimensional version for [[higher Chern-Simons theory|higher abelian CS theory]] on an oriented smooth manifold of dimension $4n+3$ with boundary a complex manifold of complex dimension $2n+1$. The talk is expository, and it can be redirected according to the audience's interests and requests.
+  > [[factorization algebra|Factorization algebras]] provide a flexible language for describing the [[observables]] of a [[perturbative quantum field theory]], as shown in joint work with [[Kevin Costello]]. In [joint work with Eugene Rabinovich and Brian Williams](AdS3-CFT2+and+CS-WZW+correspondence#GwilliamRabinovichWilliams2022), we extended those constructions to a [[manifold with boundary]] for a special class of theories that includes, as an example, a [[perturbative quantum field theory|perturbative]] version of the correspondence between chiral [[circle group|$U(1)$]] [[current algebra|currents]] on a [[Riemann surface]] and abelian [[Chern-Simons theory]] on a [[bulk]] [[3-manifold]]. (These methods extend to [[interacting field theory|interacting]] theories, thanks to the thesis of Rabinovich.) Given time, I'll sketch a systematic higher dimensional version for [[higher Chern-Simons theory|higher abelian CS theory]] on an oriented smooth manifold of dimension $4n+3$ with boundary a [[complex manifold]] of complex dimension $2n+1$. The talk is expository, and it can be redirected according to the audience's interests and requests.
 
 \linebreak
 
