@@ -1,51 +1,75 @@
 
-$$
+Given a [[pseudofunctor]]
+\[
+  \label{ThePseudofunctor}
   \array{
-    & &
-    \mathcal{X} \times \mathcal{X}'
+    \mathllap{
+      \mathbf{C} \,\colon\,
+      \;
+    }
+    Base &\longrightarrow& Cat
     \\
-    & 
-    \mathllap{{}^{pr_{\mathcal{X}}}}\swarrow 
-    && 
-    \searrow\mathrlap{^{f \times id}}
+    \mathcal{X} &\mapsto& \mathbf{C}_{\mathcal{X}}
     \\
-    \mathcal{X} && && \mathcal{Y} \times \mathcal{X}'
+    \Big\downarrow\mathrlap{{}^{f}}
+    &&
+    \mathllap{^{f^\ast}}\Big\uparrow
+    \Big\downarrow\mathrlap{{}^{f_!}}
     \\
-    & 
-    \mathllap{{}_{f}}\searrow 
-    && 
-    \swarrow\mathrlap{{}_{pr_{\mathcal{Y}}}}
-    \\
-    && 
-    \mathcal{Y}
+    \mathcal{Y} &\mapsto& \mathbf{C}_{\mathcal{Y}}
   }
-$$
+\]
+such that 
+
+1. $Base$ is cocomplete
+
+2. $\mathbf{C}_{\mathcal{X}}$ is [[cocomplete category|cocomplete]] for each $\mathcal{X} \in Base$ 
+
+then also the [[Grothendieck construction]] $\int_{\mathcal{X}} \mathbf{C}_{\mathcal{X}} \,\in\, Cat$ is cocomplete.
+
+Explicitly, [[colimits]] in $\int_{\mathcal{X}} \mathbf{C}_{\mathcal{X}}$ are computed as follows:
+
+Given a diagram in the Grothendieck construction
 
 $$
-  \array{
-  (\mathcal{X} \to \mathcal{Y})
-  &\longrightarrow&
-  sCh_\bullet(k)
-  \\
-  \big(f \colon \mathcal{X} \to \mathcal{Y}\big)
-  &\mapsto&
-  (\mathscr{V} \multimap f^\ast \mathscr{W})
-  }
-$$
+  \mathscr{V}_{\mathcal{X}}
+  \;\colon\;
+  I
+  \longrightarrow
+  \int \mathbf{C}_{(-)}
+$$ 
 
+its [[underlying]] diagram in $Base$
 
 $$
-  \times \;\; \to
+  \mathcal{X}
+  \;\colon\;
+  I
+  \overset{ \mathscr{V}_{\mathcal{X}} }{\longrightarrow}
+  \int \mathbf{C}_{(-)}
+  \overset{\pi}{\longrightarrow}
+  Base
 $$
+
+has a colimit by assumption on $Base$, with [[coprojection]] morphisms to be denoted like this:
+
 $$
-  \otimes \;\; \multimap
+  \mathcal{X}(i) 
+   \overset{\;\; q(i) \;\;}{\longrightarrow}
+  \underset{\underset{j \in I}{\longrightarrow}}{\lim}
+  \mathcal{X}(j)
+  \,.
 $$
-$$
-  \boxtimes \;\; \rightarrowtriangle
-$$
+
+Now the idea is that the full colimit in $\int \mathbf{C}_{(-)}$ is obtained by 
+
+1. first pushing all morphisms $\phi \colon f_!\mathscr{V}(i) \to \mathscr{V}(j)$ in the diagram forward along the respective $q_j$
+
+1. to hence obtain a diagram $q_! \mathscr{V}$ in $\mathbf{C}_{\underset{\longrightarrow}{\lim} \mathcal{X}}$
+
+1. whose colimit $\underset{\longrightarrow}{\lim} q_! \mathscr{V}$ exists by assumption on $\mathbf{C}$
+
+and then $\big(\underset{\longrightarrow}{\lim} q_! \mathscr{V}\big)_{\underset{\longrightarrow}{\lim}\mathcal{X}}$ is the desired colimit in $\int \mathbf{C}$
 
 
 
-
-$$
-\rightarrow ( = \to), \longrightarrow, \Rightarrow ( = \implies), \hookrightarrow ( = \embedsin), \mapsto ( = \map), \leftarrow, \longleftarrow, \Leftarrow ( = \impliedby), \hookleftarrow, \leftrightarrow, \Leftrightarrow, \Longleftrightarrow ( = \iff), \nearrow ( = \nearr), \nwarrow ( = \nwarr), \searrow ( = \searr), \swarrow ( = \swarr), \neArrow ( = \neArr), \nwArrow ( = \nwArr), \seArrow ( = \seArr), \swArrow ( = \swArr), \darr, \Downarrow, \uparr, \Uparrow, \downuparrow ( = \duparr = \updarr), \Updownarrow, \leftsquigarrow, \rightsquigarrow, \leftrightsquigarrow, \upuparrows, \rightleftarrows, \rightrightarrows, \dashleftarrow, \dashrightarrow, \curvearrowleft, \curvearrowbotright, \downdownarrows, \leftleftarrows, \leftrightarrows, \righttoleftarrow, \lefttorightarrow, \circlearrowleft, \circlearrowright, \curvearrowright, \leftarrowtail, \rightarrowtail, \leftrightsquigarrow, \Lleftarrow, \Rrightarrow, \looparrowleft, \looparrowright, \Lsh, \Rsh, \twoheadleftarrow, \twoheadrightarrow, \nLeftarrow, \nleftarrow, \nLeftrightarrow, \nleftrightarrow, \nRightarrow, \nrightarrow, \leftharpoonup, \leftharpoondown, \rightharpoonup, \rightharpoondown, \downharpoonleft, \downharpoonright, \leftrightharpoons, \rightleftharpoons, \upharpoonleft, \upharpoonright$$
