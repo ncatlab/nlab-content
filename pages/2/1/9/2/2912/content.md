@@ -29,6 +29,13 @@ His PhD students include [[David L. Rector]], [[Aldridge K. Bousfield]], [[Stewa
 
 ## Selected writings
 
+On [[simplicial groups]] and introducing the [[simplicial loop group]]-functor:
+
+* {#Kan58a} [[Daniel M. Kan]], *A combinatorial definition of homotopy groups*, Annals of Mathematics **67** 2 (1958) 282–312 &lbrack;[doi:10.2307/1970006](https://doi.org/10.2307/1970006)&rbrack;
+
+* {#Kan58b} [[Daniel M. Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958) 38-53 &lbrack;[jstor:1970042](https://www.jstor.org/stable/1970042)&rbrack;
+
+
 On [[homotopy limits]], [[completion of a space|completions]] and [[localization of a space|localizations]] (such as [[p-completion]] and [[rationalization]]):
 
 * {#BousfieldKan71} [[Aldridge Bousfield]], [[Daniel Kan]], *Localization and completion in homotopy theory*, Bull. Amer. Math. Soc. **77** 6 (1971) 1006-1010 &lbrack;[doi:10.1090/S0002-9904-1971-12837-9](https://doi.org/10.1090/S0002-9904-1971-12837-9), [pdf](https://www.ams.org/journals/bull/1971-77-06/S0002-9904-1971-12837-9/S0002-9904-1971-12837-9.pdf)&rbrack;
@@ -71,7 +78,7 @@ On [[derived functors]] such as [[homotopy limit]]-functors on [[model categorie
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
 
 
-## Related $n$Lab entries 
+## Related entries 
 
 * [[homotopy theory]]
 
