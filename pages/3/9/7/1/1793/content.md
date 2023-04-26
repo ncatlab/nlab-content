@@ -838,7 +838,7 @@ This proves the first statement. From this the second follows by the characteriz
 \label{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}
 The [[tensor product of chain complexes]] makes the projective model structure on unbounded chain complexes $Ch_\bullet(R Mod)$ (Prop. \ref{StandardModelStructureOnUnboundedComplexes}) a [[monoidal model category]].
 \end{proposition}
-For the case that all [[submodules]] of [[free modules]] are again free (such as over $R = \mathbb{Z}$ the [[integers]], by [this Prop.](free+abelian+group#SubgroupsOfFreeAbelianGroupsAreFree), or for $R = k$ a [[field]] by [this Prop](free+module#EveryModuleOverAFieldIsFree), and in general for $R$ a [[principal ideal domain]], by [this Prop.](free+module#submod)) a short proof is given in [Strickland (2020), Prop. 25](#Strickland20).
+For the special case that all [[submodules]] of [[free modules]] are again free (such as over $R = \mathbb{Z}$ the [[integers]], by [this Prop.](free+abelian+group#SubgroupsOfFreeAbelianGroupsAreFree), or for $R = k$ a [[field]] by [this Prop](free+module#EveryModuleOverAFieldIsFree), and in general for $R$ a [[principal ideal domain]], by [this Prop.](free+module#submod)) a short proof is given in [Strickland (2020), Prop. 25](#Strickland20). The general statement is also a special case of [Hovey (2001), Cor. 3.7](#Hovey01) [Fausk (2006), Thm. 6.1](#Fausk06) (which state an even more general result about *[[sheaves]]* of chain complexes).
 
 \begin{proposition}
 \label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
@@ -873,7 +873,7 @@ But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of
 \begin{proposition}
 \label{MonoidalSimplicialEnhancementOfUnboundedChainModelStructure}
   At least over a [[field]] $k$,
-  the local model structure on $sCh_\bullet(k)$ from Prop. \ref{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes} becomes a [[monoidal model category]] via the $\Delta$-object-wise [[tensor product of chain complexes]], and the [[Quillen equivalence]] (eq:QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement) is a compatibly [[monoidal Quillen adjunction]] with respect to the corresponding monoidal model structure on $Ch_\bullet(k)$ from Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}.
+  the local model structure on $sCh_\bullet(k)$ from Prop. \ref{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes} becomes a [[monoidal model category]] via the $\Delta$-object-wise [[tensor product of chain complexes]], and the [[Quillen equivalence]] (eq:QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement) is a compatibly [[monoidal Quillen adjunction]] with respect to the corresponding monoidal model structure on $Ch_\bullet(k)$ from Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}, Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}.
 \end{proposition}
 For the moment see the discussion at [MO:q/445397](https://mathoverflow.net/q/445397/381), [MO:a/445522](https://mathoverflow.net/a/445522/381), indicating a fairly straightforward check of the respective sufficient conditions from the literature on monoidal Bousfield localizations [here](Bousfield+localization+of+model+categories#ReferencesMonoidal).
 
@@ -1407,9 +1407,9 @@ it seems that the injective model structure on chain complexes has been made ful
 
 (at least according to the remark below that).
 
-The projective model structure is discussed after that in
+The projective model structure is discussed after that (and shown to be a [[monoidal model category]]) in:
 
-* [[Mark Hovey]], *Model category structures on chain complexes of sheaves* (1999) &lbrack;[K-theory:0366](https://faculty.math.illinois.edu/K-theory/0366), [pdf](https://faculty.math.illinois.edu/K-theory/0366/sheaves.pdf), [[Hovey-SheavesOfChainComplexesPreprint.pdf:file]]&rbrack;
+* {#Hovey99KTh} [[Mark Hovey]], *Model category structures on chain complexes of sheaves* (1999) &lbrack;[K-theory:0366](https://faculty.math.illinois.edu/K-theory/0366), [pdf](https://faculty.math.illinois.edu/K-theory/0366/sheaves.pdf), [[Hovey-SheavesOfChainComplexesPreprint.pdf:file]]&rbrack;
 
 * {#Hovey01} [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. **353** 6 (2001) &lbrack;[ams:S0002-9947-01-02721-0](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-01-02721-0), [jstor:221954](https://www.jstor.org/stable/221954)&rbrack;  
 
