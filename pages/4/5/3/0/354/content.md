@@ -921,3 +921,5 @@ Discussion of the [[homotopy theory]] of [[smooth ∞-groupoids]] presented by "
 
 
 [[!redirects Kan complexes]]
+
+[[!redirects KanCplx]]
