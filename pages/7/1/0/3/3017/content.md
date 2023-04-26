@@ -31,11 +31,16 @@ This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. 
 
 ## References
 
-* [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, Theory and Applications of Categories, Vol. 20, No. 18, 2008, pp. 650–738. ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
+* [[Mike Shulman]], *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories **20** 18 (2008) 650–738 &lbrack;[tac:2018](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html), [arXiv:0706.1286](https://arxiv.org/abs/0706.1286)&rbrack;
+
 * [[Nicola Gambino]], [[Joachim Kock]], _Polynomial functors and polynomial monads_, ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931))
+
 * [[Thomas Fiore]], [[Nicola Gambino]], [[Joachim Kock]], _Monads in double categories_, ([arXiv:1006.0797](http://arxiv.org/abs/1006.0797))
+
 * [[Patrick Schultz]], _Regular and exact (virtual) double categories_, ([arXiv:1505.00712](http://arxiv.org/abs/1505.00712))
+
 * [[Patrick Schultz]], [[David Spivak]], [[Christina Vasilakopoulou]], Ryan Wisnesky, _Algebraic Databases_, ([arXiv:1602.03501](http://arxiv.org/abs/1602.03501))
+
 * Pierre-Evariste Dagand, Conor McBride, _A Categorical Treatment of Ornaments_, ([arXiv:1212.3806](http://arxiv.org/abs/1212.3806))
 
 [[!redirects framed bicategories]]
