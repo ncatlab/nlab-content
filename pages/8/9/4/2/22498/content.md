@@ -102,6 +102,8 @@ $$
 
 * [[Jucys-Murphy element]]
 
+* [[FI-representation]]
+
 ## References
 
 Textbook accounts:
@@ -147,3 +149,7 @@ In relation to [[quantum information theory]]:
 
 [[!redirects representation theory of the symmetric groups]]
 [[!redirects representation theory of symmetric groups]]
+
+[[!redirects symmetric group representation]]
+[[!redirects symmetric group representations]]
+
