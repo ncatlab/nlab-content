@@ -33,9 +33,9 @@ and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [
 
 ## Definitions
 
-There are different choices of how to define a DK-type loop group functor, depending, for instance, on which [[pair]] of [[vertices]] in the [[n-simplex|$n$-simplex]] of a simpilcial set are to be regarded as the [[source]]- and [[target]]-[[object]] of the corresponding [[morphism]] in the loop groupoid. In the original definition [Dwyer & Kan (1984), §3.1](#DwyerKan84) took the direction of the morphism to point from the $1$st to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$.
+There are different choices of how to define a DK-type loop groupoid functor, depending, for instance, on which [[pair]] of [[vertices]] in the [[n-simplex|$n$-simplex]] of a simpilcial set are to be regarded as the [[source]]- and [[target]]-[[object]] of the corresponding [[morphism]] in the loop groupoid. In the original definition [Dwyer & Kan (1984), §3.1](#DwyerKan84) took the direction of the morphism to point from the $1$st to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$.
 
-Moreover, apparently the original definition in [Dwyer & Kan (1984), §3.1](#DwyerKan84) had a mistake in its definition of $d_0$ (according to [Ehlers (1991), p. 10](#Ehlers91)). Both issues are claimed to be fixed in [Ehlers (1991), pp. 10](#Ehlers91).
+Moreover, apparently the original definition in [Dwyer & Kan (1984), §3.1](#DwyerKan84) had a mistake in its definition of $d_0$ (according to [Ehlers (1991), p. 10](#Ehlers91)). Both issues are said to be fixed in [Ehlers (1991), pp. 10](#Ehlers91).
 
 Other definitions have been given, too (all necessarily isomorphic to each after their [[left adjoint|left adjointness]] to the [[simplicial classifying space]]-construction has been established, by [uniqueness of adjoint](adjoint+functor#UniquenessOfAdjoints)).
 
@@ -56,7 +56,7 @@ which takes a [[simplicial set]] $S$ to a Dwyer-Kan [[simplicial groupoid]] (i.e
 ### Original definition, fixed
  {#OriginalDefinition}
 
-The following is a slight modification of the original [Dwyer & Kan (1984), §3.1](#DwyerKan84), due to [Ehlers (1991), pp. 10](#Ehlers91):
+The following is a slight modification of the original [Dwyer & Kan (1984), §3.1](#DwyerKan84), given by [Ehlers (1991), pp. 10](#Ehlers91):
 
 For $S \in sSet$ the simplicial groupoid $\mathcal{G}(S)$ is defined as follows:
 
