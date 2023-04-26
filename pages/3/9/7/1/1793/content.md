@@ -13,7 +13,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -834,9 +833,27 @@ This proves the first statement. From this the second follows by the characteriz
 \end{proof}
 (Alternatively one may argue via the generating cofibration, cf. [MO:a/2457259](https://math.stackexchange.com/a/2457259/58526).)
 
+
+\begin{proposition}
+\label{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}
+The [[tensor product of chain complexes]] makes the projective model structure on unbounded chain complexes $Ch_\bullet(R Mod)$ (Prop. \ref{StandardModelStructureOnUnboundedComplexes}) a [[monoidal model category]].
+\end{proposition}
+For the case that all [[submodules]] of [[free modules]] are again free (such as over $R = \mathbb{Z}$ the [[integers]], by [this Prop.](free+abelian+group#SubgroupsOfFreeAbelianGroupsAreFree), or for $R = k$ a [[field]] by [this Prop](free+module#EveryModuleOverAFieldIsFree), and in general for $R$ a [[principal ideal domain]], by [this Prop.](free+module#submod)) a short proof is given in [Strickland (2020), Prop. 25](#Strickland20).
+
 \begin{proposition}
 \label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
-The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
+The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor, and such that the [[underlying]] [[model category]] is [[Quillen equivalence|Quillen equivalent]] via :
+\[
+  \label{QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement}
+  const 
+    \,\colon\,
+  Ch_\bullet(R Mod) 
+  \rightleftarrows
+  sCh_bullet(R Mod)
+   \,\colon\,
+  ev_0
+  \,.
+\]
 \end{proposition}
 
 This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using methods like those discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
@@ -852,6 +869,14 @@ Since [[Bousfield localization of model categories|left Bousfield localization]]
 hence (cf. [this Remark](Reedy+model+structure#ReedyCofibrantObjects)) that the comparison morphisms from the [[latching objects]] $L_r V^r_\bullet \to V^r_\bullet$ are monomorphisms for all $r \in \mathbb{R}$.
 But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of+chain+complexes#AbelianCategoryStructure)), [this Prop.](Reedy+model+structure#LatchingInAbelianCategoryIsDegeneracySubobject) at *[[Reedy model structure]]* says that these are [[monomorphisms]] and hence the claim follows by Prop. \ref{UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant}.
 \end{proof}
+
+\begin{proposition}
+\label{MonoidalSimplicialEnhancementOfUnboundedChainModelStructure}
+  At least over a [[field]] $k$,
+  the local model structure on $sCh_\bullet(k)$ from Prop. \ref{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes} becomes a [[monoidal model category]] via the $\Delta$-object-wise [[tensor product of chain complexes]], and the [[Quillen equivalence]] (eq:QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement) is a compatibly [[monoidal Quillen adjunction]] with respect to the corresponding monoidal model structure on $Ch_\bullet(k)$ from Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}.
+\end{proposition}
+For the moment see the discussion at [MO:q/445397](https://mathoverflow.net/q/445397/381), [MO:a/445522](https://mathoverflow.net/a/445522/381), indicating a fairly straightforward check of the respective sufficient conditions from the literature on monoidal Bousfield localizations [here](Bousfield+localization+of+model+categories#ReferencesMonoidal).
+
 
 \linebreak
 
@@ -1061,6 +1086,8 @@ Suppose $(\mathcal{G}, \mathcal{H})$ is a _weakly flat_ descent structure on $\m
 =--
 
 ## Properties
+
+> Beware that this entry has evolved in a way that deserves re-organization now: What follows are mainly properties of or arguments for the model structures on not-unbounded chain complexes.
 
 ### Properness
  {#Properness}
