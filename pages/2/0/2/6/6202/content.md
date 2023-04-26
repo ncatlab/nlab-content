@@ -63,6 +63,8 @@ Of course, if $C$, $D$, $F$, and $G$ are [[symmetric monoidal category|symmetric
 
 * [[Adriana Balan]], *On Hopf adjunctions, Hopf monads and Frobenius-type properties*, Appl. Categ. Structures **25** 5 (2017) 747-774 &lbrack;[arxiv:1411.2236](https://arxiv.org/abs/1411.2236), [doi:10.1007/s10485-016-9428-0](https://doi.org/10.1007/s10485-016-9428-0)&rbrack;
 
+* Harshit Yadav, _Frobenius monoidal functors from (co)Hopf adjunctions_, [arXiv:2209.15606v2](https://arxiv.org/abs/2209.15606)
+
 
 [[!redirects Hopf adjunctions]]
 
