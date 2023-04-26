@@ -117,7 +117,12 @@ where also weak quasi-bialgebras are considered and physical motivation is discu
 
 * [[G. Böhm]], [[K. Szlachányi]], _A coassociative $C^\ast$-quantum group with non-integral dimensions_, Lett. Math. Phys. __35__ (1996) 437--456, [arXiv:q-alg/9509008](http://arxiv. rg/abs/q-alg/9509008); _Weak $C*$-Hopf algebras: the coassociative symmetry of non-integral dimensions_, in: Quantum groups and quantum spaces (Warsaw, 1995), 9-19, Banach Center Publ. __40__, Polish Acad. Sci., Warszawa 1997. 
 * Florian Nill, _Axioms for weak bialgebras_, [math.QA/9805104](http://arxiv.org/abs/math/9805104)
-* [[G. Böhm]], F. Nill, [[K. Szlachányi]], _Weak Hopf algebras. I. Integral theory and $C^\ast$-structure, J. Algebra __221__ (1999), no. 2, 385-438, [math.QA/9805116](http://arxiv.org/abs/math/9805116) #{BohmNillSzlachanyi}
+* [[G. Böhm]], F. Nill, [[K. Szlachányi]], _Weak Hopf algebras. I. Integral theory and $C^\ast$-structure, J. Algebra __221__ (1999), no. 2, 385-438, [math.QA/9805116](https://arxiv.org/abs/math/9805116) #{BohmNillSzlachanyi}
+
+A book exposition is in [chapter](https://link.springer.com/chapter/10.1007/978-3-319-98137-6_6) weak (Hopf) bialgebras in 
+
+* [[Gabriella Böhm]], _Hopf algebras and their generalizations from a category theoretical point of view_, Lecture Notes in Math. __2226__, Springer 2018, [doi](https://link.springer.com/book/10.1007/978-3-319-98137-6)
+
 
 Now these works are understood categorically from the point of view of weak monad theory:
 
