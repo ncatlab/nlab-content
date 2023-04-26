@@ -29,17 +29,17 @@ The Dwyer-Kan loop groupoid construction is a [[left Quillen functor|left]] [[Qu
 and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [[equivalence of (infinity,1)-categories|equivalent]] incarnation of [[classical homotopy theory]].
 
 
-## Definition
+## Definitions
 
 There are different choices of how to define a DK-type loop group functor, depending on which [[pair]] of vertices in the [[n-simplex|$n$-simplex]] of a simplcial set are to be regarded as the [[source]] and the [[target]] of the corresponding [[morphism]] in the loop groupoid. In the
 
 * [original definition](#OriginalDefinition)
 
-Dwyer & Kan took the direction of the morphism to point from the first to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$, which can be achieved with an equivalent 
+Dwyer & Kan took the direction of the morphism to point from the $1$st to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$, which can be achieved with an equivalent 
 
 * [alternative definition](#AlternativeDefinition).
 
-In any case, the DK loop groupoid construciton is a [[functor]]
+In any case, the DK loop groupoid construction is a [[functor]]
 
 $$
   \mathcal{G} 
@@ -112,23 +112,39 @@ Let $S \in sSet$. In [Dwyer & Kan (1984), §3.1](#DwyerKan84), the simplicial gr
  {#AlternativeDefinition}
 
 
-Take the simplicial set $K$ to the [[simplicial groupoid]] $\mathcal{G}(K)$, where $(\mathcal{G} K)_n$ is the [[free groupoid]] on the [[directed graph]] given by a pair of arrows
+Take the simplicial set $S$ to the [[simplicial groupoid]] $\mathcal{G}(S)$, where $(\mathcal{G} S)_n$ is the [[free groupoid]] on the [[directed graph]] given by a pair of arrows
 
 $$
-  s,t \colon K_{n+1}\rightarrow K_0
+  s,t \colon S_{n+1}\rightarrow S_0
   \,,
 $$
 
-where the two functions, $s$, [[source]], and $t$, [[target]], are $s = (d_1)^{n+1}$ and $t = d_0(d_2)^n$ with relations $s_0x = id$ for $x \in K_n$.  
+where 
+
+* $s \coloneqq (d_1)^{n+1}$ 
+
+* $t \coloneqq d_0(d_2)^n$ 
+
+quotiented by the relations 
+
+* $s_0x = id$ for $x \in K_n$.  
 
 The [[face and degeneracy maps]] are given on generators by 
 
-*   $s_i^{\mathcal{G}K}(x) = s_{i+1}^K(x),$
+*   $s_i^{\mathcal{G}S}(x) \coloneqq s_{i+1}^S(x)$,
 
-*   $d_i^{\mathcal{G}K}(x) = d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
+*   $d_i^{\mathcal{G}S}(x) \coloneqq d_{i+1}^S(x)$, for $x \in S_{n+1}$, $1 \lt i \leq n$,
 
-*   $d_0^{\mathcal{G}K}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
+*   $d_0^{\mathcal{G}S}(x) \coloneqq \big(d_0^S(x)\big)^{-1}\big(d_1^K(x)\big)$. 
 
+
+### Goerss & Jardine
+ {#DefinitionByGoerssJardine}
+
+Here is the definition given in [Goerss & Jardine (1999) p. 322, (2009) p. 302](#GoerssJardine09):
+
+
+<img src="/nlab/files/DefinitionByGoerssJardine.jpg" width="620">
 
 ## Properties
  
@@ -141,6 +157,10 @@ The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer
 The original reference:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
+
+See also:
+
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.7 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
 
 
 
