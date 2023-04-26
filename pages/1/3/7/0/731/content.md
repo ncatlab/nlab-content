@@ -130,14 +130,13 @@ The original references:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
-Beware that, apparently, their definition doesn't quite work, as the $\delta_0$ does not generalise that of Kan's original loop group definition. This  was fixed in work by Joyal and Tierney, and a corrected definition is given in:
+{#ReferencesBeware} Beware that the definition in [Dwyer & Kan (1984) §3.1](#DwyerKan84) apparently contains a mistake (in its  formula for $d_0$). It may be that this problem was early on known and communicated by [[Andre Joyal|Joyal]] and [[Myles Tierney|Tierney]], but in print the correction is claimed in:
 
 * {#Ehlers91} [[Philip Ehlers]], pp. 10 in: _Simplicial groupoids as models for homotopy type_, Master's thesis (1991) &lbrack;[pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf)&rbrack;
 
-
 See also:
 
-* [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
+* {#JoyalTierney00} [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.7 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
 
