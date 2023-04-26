@@ -133,7 +133,9 @@ This perspective suggests that when $X$ is not locally contractible, a better re
 
 ## Related concepts
 
-* [[fundamental groupoid]], **fundamental ∞-groupoid**
+* [[fundamental groupoid]]
+
+* fundamental $\infty$-groupoids incarnated as [[sSet]]-[[enriched groupoids]] aka "Dwyer-Kan [[simplicial groupoids]]" are known as *[[Dwyer-Kan loop groupoids]]*.
 
 * [[fundamental category]], [[fundamental (∞,1)-category]]
 
