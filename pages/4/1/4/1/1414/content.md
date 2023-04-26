@@ -536,7 +536,11 @@ For more references see [[relation between quasi-categories and simplicial categ
 
 Two query-discussions on terminology and concrete description of the coherent/"simplicial" nerve are archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=754&Focus=20607#Comment_20607).  For an overview of the 2009 paper by Dugger and Spivak, see also:
 
-* Emily Riehl, [Understanding the homotopy coherent nerve](https://golem.ph.utexas.edu/category/2010/04/understanding_the_homotopy_coh.html), n-Category Caf&#233;, 29 April 2010.
+* [[Emily Riehl]], [Understanding the homotopy coherent nerve](https://golem.ph.utexas.edu/category/2010/04/understanding_the_homotopy_coh.html), n-Category Caf&#233;, 29 April 2010.
+
+Relating the [[Dwyer-Kan loop groupoid]]-construction to the homotopy coherent nerve-construction:
+
+* {#MinichielloRiveraZeinalian23} [[Emilio Minichiello]], [[Manuel Rivera]], [[Mahmoud Zeinalian]], *Categorical models for path spaces*, Advances in Mathematics **415** (2023) 108898 &lbrack;[arXiv:2201.03046](https://arxiv.org/abs/2201.03046), [doi:10.1016/j.aim.2023.108898](https://doi.org/10.1016/j.aim.2023.108898)&rbrack;
 
 
 [[!redirects homotopy coherent nerves]]
