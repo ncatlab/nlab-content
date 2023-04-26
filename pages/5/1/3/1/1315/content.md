@@ -89,6 +89,13 @@ See also
 * [[Atiyah Lie groupoid]].
 
 
+## References
+
+For "path groupoids" in [[simplicial sets]], aka *[[Dwyer-Kan loop groupoids]]* see there, such as:
+
+* [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
+
+
 [[!redirects path goupoid]]
 [[!redirects path groupoids]]
 
