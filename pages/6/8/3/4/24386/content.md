@@ -46,7 +46,7 @@ On the other hand, [Borsten, Kim & Saemann 2021](#BorstenKimSaemann21) argue tha
 
 The original discussion for the special case of [[string 2-connections]] and their higher analogs (such as [[Fivebrane structure|fivebrane]] 6-connections, [[Ninebrane structure|Ninebrane]] 10-connections etc.):
 
-* [[Urs Schreiber]], *[Obstructions to $n$-Bundle Lifts Part II](https://golem.ph.utexas.edu/category/2007/10/obstructions_to_nbundle_lifts.html)* (Oct 2007) &lbrack;bottom right corner in this hand-drawn diagram: [[Schreiber-PrincipalInfinityConnections-2007.pdf:file]]&rbrack;
+* {#Schreiber07} [[Urs Schreiber]], *[Obstructions to $n$-Bundle Lifts Part II](https://golem.ph.utexas.edu/category/2007/10/obstructions_to_nbundle_lifts.html)* (Oct 2007) &lbrack;bottom right corner in this hand-drawn diagram: [[Schreiber-PrincipalInfinityConnections-2007.pdf:file]]&rbrack;
 
 * {#SSS09} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], Def. 23 on  [p. 47](https://arxiv.org/pdf/0801.3480.pdf#page=47) with Prop. 21 on [p. 48](https://arxiv.org/pdf/0801.3480.pdf#page=48) in:  *[[schreiber:L-infinity algebra connections|$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport]]*, in *Quantum Field Theory*, Birkhäuser (2009) 303-424 &lbrack;[arXiv:0801.3480](https://arxiv.org/abs/0801.3480), [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17)&rbrack;
 
