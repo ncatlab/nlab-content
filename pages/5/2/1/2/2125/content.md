@@ -107,24 +107,24 @@ We first discuss the extent to which the [[Moore complex]] functor is monoidal. 
 ### Bilax monoidal Frobenius structure on normalized chains {#BilaxFrobStruc}
 
 
-+-- {: .num_prop }
++-- {: .num_prop #ChainsIsLaxMonoidal}
 ###### Proposition
 
 The [[Moore complex]] functor
 
 $$
-  C_\bullet : sAb \to Ch_\bullet^+
+  C_\bullet \colon sAb \to Ch_\bullet^+
 $$
 
 as well as the normalized chains/normalized Moore complex functor
 
 $$
-  N_\bullet : sAb \to Ch_\bullet^+
+  N_\bullet \colon sAb \to Ch_\bullet^+
 $$
 
 are both
 
-* [[symmetric monoidal functor|symmetric]] [[lax monoidal functors]] 
+* [[symmetric monoidal functor|symmetric]]$\;$[[lax monoidal functors]] 
 
 * [[oplax monoidal functors]] 
 
@@ -274,17 +274,23 @@ for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[conne
 
 Since $N$ and $\Gamma$ are strictly inverse to each other, this may be regarded as a pair of [[adjoint functor]]s in two ways. Moreover, with respect to the standard [[model category]] structures (the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) and the projective [[model structure on simplicial T-algebras|model structure on simplicial abelian groups]] (fibrations the underlying [[Kan fibration]])s ) both adjunctions are [[Quillen equivalence]]s.
 
+\begin{definition}
+\label{MonoidalCategoryStructures}
+**(Monoidal category strcutures)**
+\linebreak
 Let 
 
-* $(Ch_\bullet^+, \otimes)$ be the standard [[monoidal category]] structure on the [[category of chain complexes]];
+* $(Ch_\bullet^+, \otimes)$ be the standard [[monoidal category]] structure on the [[category of chain complexes]] via the [[tensor product of chain complexes]];
 
-*  And let $(sAb, \otimes)$ be the monoidal category structure that is degreewise that of [[Ab]].
+* $(sAb, \otimes)$ be the [[monoidal category]] [[structure]] that is degreewise that of [[Ab]], via the [[tensor product of abelian groups]].
 
-For $(C, \otimes)$ a monoidal category, write $Mon(C)$ for its category of [[monoid]]s. Notice that
+For $(C, \otimes)$ a monoidal category, write $Mon(C)$ for its [[category of monoids]], hence
 
-* $Mon(Ch_\bullet^+)$ is the category of connective differential graded rings.
+* $Mon(Ch_\bullet^+)$ is the category of [[connective chain complex|connective]] [[differential graded rings]].
 
-* $Mon(sAb)$ is the category of [[simplicial ring]]s.
+* $Mon(sAb)$ is the category of [[simplicial rings]].
+
+\end{definition}
 
 +-- {: .num_lemma}
 ###### Lemma
