@@ -24,7 +24,7 @@ $$
   (F\dashv G) : D \to C
 $$ 
 
-is a __Frobenius pair__ if $F$ is not only a [[left adjoint]] to $G$ but also a [[right adjoint]] to $G$, hence if we have an [[adjoint triple]]
+is a __Frobenius pair__ if $F$ is not only a [[left adjoint]] to $G$ but also a [[right adjoint]] to $G$, hence if we have an [[ambidextrous adjunction]], i.e. an [[adjoint triple]]
 
 $$
   (F \dashv G \dashv F) : D \to C
