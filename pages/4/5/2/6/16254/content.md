@@ -1,5 +1,5 @@
 
-Kellogg Stelle is professor for theoretical [[physics]] at Imperial College London.
+Kellogg Stelle is a professor of theoretical [[physics]] at Imperial College London.
 
 * [webpage](http://www.imperial.ac.uk/people/k.stelle/)
 
