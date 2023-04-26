@@ -1,19 +1,15 @@
+
 Phil Ehlers was a postgraduate student (1989-1993) at Bangor, working in the team of [[Ronnie Brown]] and [[Tim Porter]], who was Phil's doctoral supervisor.
 
-His MSc thesis was entitled: Simplicial Groupoids as Models 
-for Homotopy Types.  (Thanks are due to [[Stephen Gaito]] for preparing a scanned version with Phil's permission.) Here are the details:
+## Selected writings
 
-*[[Phil Ehlers|P. J. Ehlers]], _Simplicial Groupoids as Models 
-for Homotopy Types _, 1991, MSc thesis,
-University of Wales Bangor, available [[Ehlers-MSc-thesis.pdf|here:file]],
+On [[simplicial groupoids]] (thanks are due to [[Stephen Gaito]] for preparing a scanned version with Phil's permission):
 
+* [[Philip J. Ehlers]], _Simplicial groupoids as models for homotopy type_, Master's thesis (1991) &lbrack;[pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf)&rbrack;
 
+also known as [[sSet]]-[[enriched groupoids]]:
 
-
-His PhD thesis was:
-
-*[[Phil Ehlers|P. J. Ehlers]], _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
-University of Wales Bangor, available [[Ehlers-thesis.pdf|here:file]].
+* [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis, University of Wales Bangor (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
 
 
 He has published several papers based on his work (jointly with Tim Porter).  These include:
@@ -29,3 +25,5 @@ He has published several papers based on his work (jointly with Tim Porter).  Th
 category: people
 
 [[!redirects Philip Ehlers]]
+
+[[!redirects Philip J. Ehlers]]
