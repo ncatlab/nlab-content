@@ -31,13 +31,12 @@ and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [
 
 ## Definitions
 
-There are different choices of how to define a DK-type loop group functor, depending on which [[pair]] of vertices in the [[n-simplex|$n$-simplex]] of a simplcial set are to be regarded as the [[source]] and the [[target]] of the corresponding [[morphism]] in the loop groupoid. In the
+There are different choices of how to define a DK-type loop group functor, depending, for instance, on which [[pair]] of [[vertices]] in the [[n-simplex|$n$-simplex]] of a simpilcial set are to be regarded as the [[source]]- and [[target]]-[[object]] of the corresponding [[morphism]] in the loop groupoid. In the original definition [Dwyer & Kan (1984), §3.1](#DwyerKan84) took the direction of the morphism to point from the $1$st to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$.
 
-* [original definition](#OriginalDefinition)
+Moreover, apparently the original definition in [Dwyer & Kan (1984), §3.1](#DwyerKan84) had a mistake in its definition of $d_0$ (according to [Ehlers (1991), p. 10](#Ehlers91)). Both issues are claimed to be fixed in [Ehlers (1991), pp. 10](#Ehlers91).
 
-Dwyer & Kan took the direction of the morphism to point from the $1$st to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$, which can be achieved with an equivalent 
+Other definitions have been given, too (all necessarily isomorphic to each after their [[left adjoint|left adjointness]] to the [[simplicial classifying space]]-construction has been established, by [uniqueness of adjoint](adjoint+functor#UniquenessOfAdjoints)).
 
-* [alternative definition](#AlternativeDefinition).
 
 In any case, the DK loop groupoid construction is a [[functor]]
 
@@ -52,10 +51,12 @@ $$
 
 which takes a [[simplicial set]] $S$ to a Dwyer-Kan [[simplicial groupoid]] (i.e. [[sSet]]-[[enriched groupoid]]) $\mathcal{G}(S)$.
 
-### Original definition
+### Original definition, fixed
  {#OriginalDefinition}
 
-Let $S \in sSet$. In [Dwyer & Kan (1984), §3.1](#DwyerKan84), the simplicial groupoid $\mathcal{G}(S)$ is defined as follows:
+The following is a slight modification of the original [Dwyer & Kan (1984), §3.1](#DwyerKan84), due to [Ehlers (1991), pp. 10](#Ehlers91):
+
+For $S \in sSet$ the simplicial groupoid $\mathcal{G}(S)$ is defined as follows:
 
 * [[objects]] are the [[vertices]] of $S$:
 
@@ -90,9 +91,9 @@ Let $S \in sSet$. In [Dwyer & Kan (1984), §3.1](#DwyerKan84), the simplicial gr
     \,,
   $$
 
-  * with [[domain]]-function $s \coloneqq d_0 \circ d_2 \cdot d_3 \cdots d_{n+1}$ 
+  * with [[domain]]-function $s \coloneqq d_1 \circ d_2 \cdot d_3 \cdots d_{n+1}$, 
 
-    and [[codomain]]-function $t \coloneqq d_1 \circ d_2 \cdot d_3 \cdots d_{n+1}$, 
+    and [[codomain]]-function $t \coloneqq d_0 \circ d_2 \cdot d_3 \cdots d_{n+1}$ 
 
   by the [[relations]] 
 
@@ -100,45 +101,14 @@ Let $S \in sSet$. In [Dwyer & Kan (1984), §3.1](#DwyerKan84), the simplicial gr
 
 * The [[face and degeneracy maps]] are given on generators by 
 
-  * $d_0\big(q(\sigma)\big) \,\coloneqq\, q\big(d_1(\sigma_n)\big)^{-1}$
+  * $d_0\big(q(\sigma)\big) \,\coloneqq\, q\big(d_1(\sigma_n)\big) \cdot q\big( d_0(\sigma_n)\big)^{-1}$
 
   * $d_i\big(q(\sigma)\big) \,\coloneqq\,q\big(d_{i+1}(\sigma)\big)$ for $i \gt 0$
 
   * $s_i\big(q(\sigma)\big) \,\coloneqq\,q\big(s_{i+1}(\sigma)\big)$ for $i \geq 0$.
 
 
-
-### Alternative definition
- {#AlternativeDefinition}
-
-
-Take the simplicial set $S$ to the [[simplicial groupoid]] $\mathcal{G}(S)$, where $(\mathcal{G} S)_n$ is the [[free groupoid]] on the [[directed graph]] given by a pair of arrows
-
-$$
-  s,t \colon S_{n+1}\rightarrow S_0
-  \,,
-$$
-
-where 
-
-* $s \coloneqq (d_1)^{n+1}$ 
-
-* $t \coloneqq d_0(d_2)^n$ 
-
-quotiented by the relations 
-
-* $s_0x = id$ for $x \in K_n$.  
-
-The [[face and degeneracy maps]] are given on generators by 
-
-*   $s_i^{\mathcal{G}S}(x) \coloneqq s_{i+1}^S(x)$,
-
-*   $d_i^{\mathcal{G}S}(x) \coloneqq d_{i+1}^S(x)$, for $x \in S_{n+1}$, $1 \lt i \leq n$,
-
-*   $d_0^{\mathcal{G}S}(x) \coloneqq \big(d_0^S(x)\big)^{-1}\big(d_1^K(x)\big)$. 
-
-
-### Goerss & Jardine
+### By Goerss & Jardine
  {#DefinitionByGoerssJardine}
 
 Here is the definition given in [Goerss & Jardine (1999) p. 322, (2009) p. 302](#GoerssJardine09):
@@ -157,6 +127,11 @@ The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer
 The original reference:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
+
+Apparently their definition didn't quite work and was fixed in:
+
+* {#Ehlers91} [[Philip Ehlers]], pp. 10 in: _Simplicial groupoids as models for homotopy type_, Master's thesis (1991) &lbrack;[pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf)&rbrack;
+
 
 See also:
 
