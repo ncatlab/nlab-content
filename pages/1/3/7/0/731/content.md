@@ -23,7 +23,9 @@
 
 The *Dwyer-Kan loop groupoid* &lbrack;[Dwyer & Kan (1984), §3.1](#DwyerKan84)&rbrack; of a [[simplicial set]] $K$ is the [[simplicial groupoid]] whose [[objects]] are the [[vertices]] of $K$ and whose [[hom object|hom]]-[[simplicial set]] between a [[pair]] of such picks up the composable sequences of higher dimensional simplices, where the zeroth [[vertex]] is thought of as the [[domain]] [[object]] and the first [[vertex]] as the [[codomain]].
 
-Applied to the special case of a [[reduced simplicial set]] this construction reduces to the *[[Kan loop group]]* construction.
+So the "loop"-terminology is a misnomer: It really refers to a [[simplicial homotopy theory|simplicial]] version of a [[path groupoid]]-construction which may be thought of as modelling a [[fundamental infinity-groupoid|fundamental $\infty$-groupoid]] as a [[simplicial groupoid]].
+
+But applied to the special case of a [[reduced simplicial set]] this construction reduces to the *[[Kan loop group]]* construction, which is properly a model for a [[loop space]]-construction.
 
 The Dwyer-Kan loop groupoid construction is a [[left Quillen functor|left]] [[Quillen equivalence]] ([[right adjoint]] to a groupoidal [[simplicial classifying space]]-construction) from the [[classical model structure on simplicial sets]] to the [[model structure on simplicial groupoids]] &lbrack;[Dwyer & Kan (1984), Thm. 3.3](#DwyerKan84)&rbrack;,
 and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [[equivalence of (infinity,1)-categories|equivalent]] incarnation of [[classical homotopy theory]].
@@ -124,16 +126,18 @@ The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer
 
 ## References
 
-The original reference:
+The original references:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
-Their definition doesn't quite work, as the $\delta_0$ does not generalise that of Kan's original loop group definition. This  was fixed in work by Joyal and Tierney, as discussed in:
+Beware that, apparently, their definition doesn't quite work, as the $\delta_0$ does not generalise that of Kan's original loop group definition. This  was fixed in work by Joyal and Tierney, and a corrected definition is given in:
 
 * {#Ehlers91} [[Philip Ehlers]], pp. 10 in: _Simplicial groupoids as models for homotopy type_, Master's thesis (1991) &lbrack;[pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf)&rbrack;
 
 
 See also:
+
+* [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.7 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
 
@@ -151,4 +155,7 @@ Relating the Dwyer-Kan loop groupoid-construction to the [[homotopy coherent ner
 
 [[!redirects Dwyer-Kan loop group]]
 [[!redirects Dwyer-Kan loop groups]]
+
+[[!redirects Joyal-Tierney loop groupoid]]
+[[!redirects Joyal-Tierney loop groupoids]]
 
