@@ -287,7 +287,7 @@ For applications in proof theory of classical and [[linear logic]] or linguistic
 
 * [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
 
-* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about Meaning in Natural Language with Compact Closed Categories and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/1401.5980v1))
+* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about meaning in natural language with compact closed categories and Frobenius algebras_ , arXiv:1401.5980 (2014). ([arXiv:1401.5980](https://arxiv.org/abs/1401.5980))
 
 Frobenius algebras in linearly distributive categories are discussed in
 
@@ -305,11 +305,13 @@ See also
 * {#Street2004} [[Ross Street]] (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 
 
-* R. F. C. Walters, R. J. Wood, _Frobenius Objects in Cartesian Bicategories_ , TAC **20** no. 3 (2008) pp.25-47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
+* R. F. C. Walters, R. J. Wood, _Frobenius objects in Cartesian cicategories_ , TAC **20** no. 3 (2008) 25--47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
 
 * [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_ , pp.141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_ , LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
 
-* {#PastroStreet2008} Craig Pastro and [[Ross Street]], *Weak Hopf monoids in braided monoidal categories*, 2008, [arxiv](https://arxiv.org/abs/0801.4067)
+* {#PastroStreet2008} Craig Pastro and [[Ross Street]], *Weak Hopf monoids in braided monoidal categories*, 2008, [arXiv:0801.4067](https://arxiv.org/abs/0801.4067)
+
+category: algebra
 
 [[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
