@@ -126,7 +126,11 @@ The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer
 
 ## References
 
-The original references:
+The original reference for the functor $G$ is Section 9 in
+
+* [[Daniel M. Kan]], _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi:10.2307/1970006](https://doi.org/10.2307/1970006).
+
+Later, Dwyer and Kan constructed the right adjoint $\bar W$ to $G$ in
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
