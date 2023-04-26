@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -842,23 +843,27 @@ For the special case that all [[submodules]] of [[free modules]] are again free 
 
 \begin{proposition}
 \label{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes}
-The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor, and such that the [[underlying]] [[model category]] is [[Quillen equivalence|Quillen equivalent]] via :
+The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective model structure on unbounded chain complexes (from Prop. \ref{BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant}) carries the structure of a [[combinatorial model category|combinatorial]] [[simplicial model category]] (obtained as a [[Bousfield localization of model categories|left Bousfield localization]] of the [[Reedy model structure]]), whose weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor, and such that the [[underlying]] [[model category]] is [[Quillen equivalence|Quillen equivalent]] via :
 \[
   \label{QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement}
   const 
     \,\colon\,
   Ch_\bullet(R Mod) 
   \rightleftarrows
-  sCh_bullet(R Mod)
+  sCh_\bullet(R Mod)
    \,\colon\,
   ev_0
   \,.
 \]
 \end{proposition}
+\begin{proof}
+The existence as a simplicial model categor and its Quillen equivalence is due to [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using methods like those discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
-This is [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using methods like those discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
+Moreover, general facts imply that the left Bousfield localization of a Reedy model category into a combinatorial model category is itself combinatorial (see [here](Reedy+model+structure#ReedyStructureCofibrantlyGenerated) and [here](Bousfield+localization+of+model+categories#Existence)).
+\end{proof}
 
 Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
+
 
 \begin{proposition}
 \label{OverGroundFieldAllObjectsInSimplicialStructureOnUnboundedComplexesAreCofibrant}
