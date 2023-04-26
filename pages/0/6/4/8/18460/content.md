@@ -27,10 +27,9 @@ In general, even in good categories, pushout complements may not exist.  However
 
 ## References
 
-* H. Ehrig, M. Pfender, and H.J. Schneider. Graph-grammars: an algebraic approach. In IEEE Conf. on Automata and Switching Theory, pages 167&#8211;180, 1973.
+* H. Ehrig, M. Pfender and H. J. Schneider. _Graph-grammars: An algebraic approach_, 14th Annual Symposium on Switching and Automata Theory, 1973, pp. 167-180. ([doi:10.1109/SWAT.1973.11](https://doi.org/10.1109/SWAT.1973.11))
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/adhesive.pdf)
- {#LS}
+* {#LS} [[Steve Lack]] and [[Pawel Sobocinski]], _Adhesive categories_, Foundations of Software Science and Computation Structures. FoSSaCS 2004. Lecture Notes in Computer Science, vol 2987. Springer, Berlin, Heidelberg. doi:[10.1007/978-3-540-24727-2_20](https://doi.org/10.1007/978-3-540-24727-2_20), [PDF](https://www.ioc.ee/~pawel/papers/adhesive.pdf)
 
 [[!redirects pushout complements]]
 [[!redirects pullback complement]]
