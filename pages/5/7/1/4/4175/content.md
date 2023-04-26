@@ -69,6 +69,10 @@ If $T$ is a (Brugui&#232;res-Lack-Virelizier) Hopf monad on a [[closed monoidal 
 
 ## References
 
+Hopf (bi)monads are extensively studied in the book
+
+* [[Gabriella Böhm]], _Hopf algebras and their generalizations from a category theoretical point of view_, Lecture Notes in Math. __2226__, Springer 2018, [doi](https://link.springer.com/book/10.1007/978-3-319-98137-6)
+
 * [[Alain Bruguières]], [[Alexis Virelizier]], *Hopf monads*, Advances in Mathematics **215** 2 (2007) 679-733 &lbrack;[doi:10.1016/j.aim.2007.04.011](https://doi.org/10.1016/j.aim.2007.04.011), [arXiv:math/0604180](https://arxiv.org/abs/math/0604180)&rbrack;
 
 * Wikipedia. *[Opmonoidal monad](http://en.wikipedia.org/wiki/Monoidal_monad)*
@@ -105,6 +109,10 @@ If $T$ is a (Brugui&#232;res-Lack-Virelizier) Hopf monad on a [[closed monoidal 
 * [[Anders Kock]], _Strong functors and monoidal monads_, [pdf](http://home.imf.au.dk/kock/SFMM.pdf), Archiv der Math. __23__: 113&#8211;120, (1972) [doi](http://dx.doi.org/10.1007%2FBF01304852); _Monads on symmetric monoidal categories_, [pdf](http://home.imf.au.dk/kock/MSMCC.pdf)
 * B. J. Day, _Note on monoidal monads_, J. Austral. Math. Soc. A __23__, 292-311 (1977) [pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=4897004)
 * Alain Brugui&#232;res, Sonia Natale, _Exact sequences of tensor categories_, [arXiv:math.QA/1006.0569](http://arxiv.org/abs/1006.0569) (generalizes Schneider's work on [[exact sequences of Hopf algebras]]; uses Hopf monads)
+
+[[weak bimonad|Weak bimonad]] version
+
+* [[Gabriella Böhm]], [[Stephen Lack]], [[Ross Street]], _Weak bimonads and weak Hopf monads_, J. Algebra 328 (2011), 1-30, [arXiv:1002.4493](http://arxiv.org/abs/1002.4493)
 
 [[!redirects Hopf monads]]
 [[!redirects bimonad]]
