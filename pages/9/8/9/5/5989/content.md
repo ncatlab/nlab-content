@@ -10,6 +10,8 @@ He had six Ph.D. students: Ira Wolf (1971), Carol Ann Keller (1983), Norman Adam
 
 Myles Tierney died on October 5, 2017 having turned 80 in September. He made important contributions to category theory in collaboration with [[Bill Lawvere]] and with [[André Joyal]].
 
+
+
 ## Selected writings
 
 On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
@@ -37,9 +39,9 @@ On [[stacks]] and [[classifying spaces]]:
 
 * [[André Joyal]] and [[Myles Tierney]], _Strong stacks and classifying spaces_,  Category theory (Como, 1990),  213--236, Lecture Notes in Math. __1488__, Springer 1991. 
 
-On [[path groupoids]]
+On the [[Dwyer-Kan loop groupoid]]-construction ([[path groupoid|path]]-[[simplicial groupoids]]):
 
-* [[André Joyal]] and [[Myles Tierney]], _On the theory of path groupoids_,  J. Pure Appl. Algebra __149__  (2000),  no. 1, 69--100, [doi](http://dx.doi.org/10.1016/S0022-4049%2898%2900164-9)
+* [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
 On [[quasicategories]] and [[complete Segal spaces]]:
 
