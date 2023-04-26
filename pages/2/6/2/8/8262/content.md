@@ -155,13 +155,10 @@ This follows, for instance, from the above expression (Prop. \ref{FreeAbelianGro
 ### Subgroups
  {#Subgroups}
 
-+-- {: .num_prop #SubgroupsOfFreeAbelianGroupsAreFree}
-###### Proposition
-
+\bgein{proposition}
+\label{SubgroupsOfFreeAbelianGroupsAreFree}
 Assuming the [[axiom of choice]], then every [[subgroup]] of a free abelian group (def. \ref{FreeAbelianGroup}) is itself a free abelian group.
-
-=--
-
+\end{proposition}
 (e.g. [Lang 02, Appendix 2 &#167;2, page 880](#Lang02)) For a full **proof** see at _[[principal ideal domain]]_ [this theorem](principal+ideal+domain#free).
 
 +-- {: .num_remark}
