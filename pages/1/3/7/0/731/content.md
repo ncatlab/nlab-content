@@ -128,7 +128,7 @@ The original reference:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], §3.1 in *Homotopy theory and simplicial groupoids*, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
 
-Apparently their definition didn't quite work and was fixed in:
+Their definition doesn't quite work, as the $\delta_0$ does not generalise that of Kan's original loop group definition. This  was fixed in work by Joyal and Tierney, as discussed in:
 
 * {#Ehlers91} [[Philip Ehlers]], pp. 10 in: _Simplicial groupoids as models for homotopy type_, Master's thesis (1991) &lbrack;[pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf)&rbrack;
 
