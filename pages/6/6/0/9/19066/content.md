@@ -113,9 +113,9 @@ We discuss a class of examples of integral model structures on categories of "$s
 #### Plain model structure
 
 
-\begin{definition}
-**(Notation)**
-
+\begin{definition}\label{SetupAndNotationForParameterizedObjects}
+**(Setup and notation)**
+\linebreak
 We consider:
 
 * $\mathbf{V}$ a [[combinatorial model category|combinatorial]] [[symmetric monoidal category|symmetric]] [[monoidal model category]] (to play the role an [[enriched category theory|enrichment]] [[cosmos]] besides [[sSet]]) -- all whose objects are [[cofibrant object|cofibrant]],
@@ -124,7 +124,7 @@ We consider:
 
 * $\mathbf{v}_\ast \colon sSet\text{-}Cat \to \mathbf{V}\text{-}Cat$ its induced [[change of enrichment]]-[[functor]],   
 
-* $\mathbf{C}$ a [[combinatorial model category|combinatorial]] $V$-[[enriched model category]] (such as $\mathbf{V}$ itself via its canonical self-enrichment).
+* $\mathbf{C}$ a [[combinatorial model category|combinatorial]] $V$-[[enriched model category]] all whose objecta are cofibrant (such as $\mathbf{V}$ itself via its canonical self-enrichment).
 
 For 
 
@@ -140,7 +140,7 @@ $$
   \coloneqq
   \mathbf{V}Func
   \big(
-    \mathbf{v}\ast\mathcal{X}
+    \mathbf{v}_\ast\mathcal{X}
     ,\, 
     \mathbf{C}
   \big)
@@ -199,7 +199,7 @@ whose [[Grothendieck construction]] we abbreviate by
 We may think of this as the category of *$sGrpd$-parameterized objects of $\mathbf{C}$*.
 
 We denote the component morphisms of 
-morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ with via the right adjoints $f^\ast$):
+morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
 $$
   \text{i.e.}
   \;\;\;
@@ -211,38 +211,81 @@ $$
   \;\;\;
   \text{means that}
   \;\;\;
-  \left(
-  \array{
+  \begin{array}{cccc}
+    \phi 
+    &\colon&
     \mathscr{V}_{\mathcal{X}}
-    &\overset{\phi}{\longrightarrow}&
+    &\overset{}{\longrightarrow}&
     f^\ast \mathscr{W}_{\mathcal{Y}}
     \\
+    f
+    &\colon&
     \mathcal{X}
-    &\overset{f}{\longrightarrow}&
+    &\overset{}{\longrightarrow}&
     \mathcal{Y}
-  }
-  \right)
+  \end{array}
   \,.
 $$
 \end{definition}
 
-\begin{example}\label{InitialParameterizedObject}
+\begin{remark}\label{InitialParameterizedObject}
 **(initial parameterized object)**
 \linebreak
-With the [[initial objects]] 
+So with the [[initial objects]] 
 
-* of $sGrpd$ denoted $\varnothing \,\in\, sGrpd$
+* of $sGrpd$ denoted $\varnothing$
 
-* of $\mathbf{C}$ denoted $0 \,in\, \mathbf{C}$;
+* of $\mathbf{C}$ denoted $0$;
 
-* of $\mathbf{C}^{\mathcal{X}}$ denoted $0_{\mathcal{X}} \,in\, \mathbf{C}^{\mathcal{X}}$;
+* of $\mathbf{C}^{\mathcal{X}}$ denoted $0_{\mathcal{X}}$;
 
-the [[initial object]] of $\mathbf{C}_{sGrpd}$ is 
+the [[initial object]] of $\mathbf{C}_{sGrpd}$ is denoted
 
-* $0_{\varnothing} \,\in\, \mathbf{C}_{sGrpd}$.
+* $0_{\varnothing} \,\in\, \underset{\simeq \{0_{\varnothing}\}}{\underbrace{\mathbf{C}^{\varnothing}}} \,\in\, \mathbf{C}_{sGrpd}$.
+
+\end{remark}
+
+\begin{example}
+\label{ExamplesOfModelStructureOnsSgrpdParametrizedObjects}
+  Situations in which the assumptions of Def. \ref{SetupAndNotationForParameterizedObjects} are verified:
+
+1. The choice 
+
+   * $\mathbf{V} \,\equiv\, sSet_{Qu}$ the [[classical model structure on simplicial sets]],
+ 
+   * $\mathbf{v} \,\equiv\, id$
+
+   * $\mathbf{C} \,\equiv\, sSet_{Qu}$
+
+   yields (another proof of) [Harpaz & Prasma (2015), Prop. 6.2.1](#HarpazPrasma15) generalized from [[delooping groupoids]] of [[simplicial groups]] to all [[simplicial groupoids]].
+
+1. The choice
+
+   * $\mathbf{V} \,\equiv\, Ch_\bullet(k)$ the [[projective model structure on unbounded chain complexes]] over a [[field]]
+
+     (which is combinatorial by [this Prop.](model+structure+on+chain+complexes#StandardModelStructureOnUnboundedComplexes), monoidal by [this Prop.](model+structure+on+chain+complexes#MonoidalProjectiveModelStructureOnUnboundedChainComplexes), with all objects cofibrant by [this Prop.](model+structure+on+chain+complexes#UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant))
+
+   * $\mathbf{v} \,\equiv\, N\big(k[-]\big) \,\colon\, sSet \to Ch_\bullet(k)$ the construction of [[normalized chain complexes]] of the degreewise [[free abelian group|free]] [[simplicial abelian group]] [[tensor product of abelian groups|tensored]] with $k$
+
+     (which is [[lax monoidal functor|lax monoidal]] by [this remark](free+abelian+group#FreeSimplicialAbelianGroupConstrIsStrongMonoidal) and [this Prop.](monoidal+Dold-Kan+correspondence#ChainsIsLaxMonoidal) and [[left Quillen functor|left Quillen]] by [this Prop.](Dold-Kan+correspondence#QuillenEquivalenceBetweensAbAndCh)) 
+
+   * $\mathbf{C} \,\equiv\, \mathbf{V}$
+
+   yields a [[model category]]-structure for [[flat infinity-vector bundles|flat $\infty$-vector bundles]] ([[infinity-local systems|$\infty$-local systems]] or, [[stable Dold-Kan correspondence|equivalently]], [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H k$]]-[[module spectra]]) over varying base spaces.
+
+1. The choice
+
+   * $\mathbf{V} \,\equiv\, sSet_{Qu}$ the [[classical model structure on simplicial sets]],
+
+   * $\mathbf{v} \,\equiv\, id_{sSet}$,
+
+   * $\mathbf{C} \,\equiv\, sCh_\bullet(k)$ the local model structure on the simplicial enhancement of the above projective model structure on chain complexes over a field $k$ (from [this Prop.](model+structure+on+chain+complexes#LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes))
+
+     (all whose objects are still cofibrant, by [this Prop](model+structure+on+chain+complexes#OverGroundFieldAllObjectsInSimplicialStructureOnUnboundedComplexesAreCofibrant))
+   
+   yields another [[model category]]-structure for [[flat infinity-vector bundles|flat $\infty$-vector bundles]] ([[infinity-local systems|$\infty$-local systems]] or, [[stable Dold-Kan correspondence|equivalently]], [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H k$]]-[[module spectra]]) over varying base spaces.
 
 \end{example}
-
 
 
 \begin{proposition}
@@ -356,8 +399,6 @@ $$
 Here the left morphism is an [[acyclic cofibration]] by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathbf{C}$, using the assumptions that $X$ is cofibrant in $\mathbf{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
 Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.
 
-> This is the only point where we make use of this assumption. Hence the argument generalizes along [[changes of enrichment]] $v \colon sSet \to \mathbf{V}$ which preserve acyclic cofibrations, for $\mathbf{V}$ a [[monoidal model category]] and $\mathbf{C}$ a $\mathbf{V}$-[[enriched model category]] such that the projective model structures  on $\mathbf{V}Func( v_\ast \mathcal{X} ,\, \mathbf{V} )$ exist (see [this Thm.](model+structure+on+functors#CofGenProj)).
-
 Now since this construction is [[natural transformation|natural]], given a weak equivalence $\phi \,\colon\, (X,\rho) \to (X', \rho')$  we find that its image under $f_!$ sits in a [[commuting diagram]] of the form
 $$
   \array{
@@ -385,8 +426,7 @@ This implies, by the [[2-out-of-3 property]], that also $f_!(\phi)$ is a weak eq
 
 Next to discuss the lemma used in this proof.
 
-Let $\mathbf{C}$ be a [[simplicial model category]].
-We write $\cdot \,\colon\, sSet \times \mathbf{C} \to \mathbf{C}$ for its [[sSet]]-[[tensoring]]. (The following clearly works for more general enriched categories, too.)
+We write $\cdot \,\colon\,\mathbf{V} \times \mathbf{C} \to \mathbf{C}$ for the $\mathbf{V}$-[[tensoring]] of the $\mathbf{V}$-[[enriched model category]] $mathbf{C}$.
 
 For $H \in Grp(sSet)$ a [[simplicial group]] and $X \in Obj(C)$, we may consider [[group actions]] $\rho \colon H \cdot X \to X$. Write $H Act(\mathbf{C})$ for the [[category]] these form.
 
@@ -396,15 +436,17 @@ Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restrictio
   \label{RestrictionOfSimplicialGroupActions}
   \phi^\ast 
     \,\colon\, 
-  G Act(\mathbf{C}) \to H Act(\mathbf{C})
+  (\mathbf{v}_\ast G) Act(\mathbf{C}) 
+  \longrightarrow 
+  (\mathbf{v}_\ast H) Act(\mathbf{C})
   \,.
 \]
 
-At least for $\mathbf{C} = $ [[sSet]] itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following [[pushout]]-construction of such left-induced actions:
+At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following general [[pushout]]-construction of such left-induced actions:
 
 \begin{lemma}
 \label{LeftInducedActionViaPushout}
-  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathbf{C})$ to the unique $(G \cdot_{_H} X,\, \phi_!(\rho))$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$: 
+  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in (\mathbf{v}H) Act(\mathbf{C})$ to the unique $\big((\mathbf{v}H) \cdot_{_{\mathbf{v}H}} X,\, \phi_!(\rho)\big)$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$ (we now notationally suppress the [[change of enrichment]] $\mathbf{v}$): 
 
 \begin{tikzcd}
     \ast \cdot H \cdot X
@@ -830,7 +872,7 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 
 #### Monoidal model structure
 
-> The following proof remains incomplete.
+> The following proof remains incomplete. Am working on filling in the last step "..." at the end.
 
 Now assume that $\mathbf{C}$ is in addition a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with
 
