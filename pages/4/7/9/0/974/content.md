@@ -387,9 +387,42 @@ A [[slice category]] of a locally presentable category
 is again locally presentable.
 
 \end{proposition}
-
 This appears for instance as [Centazzo-Rosick&#253;-Vitale, remark 3](#CentazzoRosickyVitale).
 
+\begin{proposition}
+\label{LocallyPresentableGrothendieckConstruction}
+**(locally presentable Grothendieck constructions)**
+\linebreak
+Given a [[pseudofunctor]] with values in [[adjoint functors|adjunctions]]
+$$
+  \array{
+    \mathllap{
+      \mathbf{C} \,\colon\,
+      \;
+    }
+    Base &\longrightarrow& Cat
+    \\
+    \mathcal{X} &\mapsto& \mathbf{C}_{\mathcal{X}}
+    \\
+    \Big\downarrow\mathrlap{{}^{f}}
+    &&
+    \mathllap{^{f^\ast}}\Big\uparrow
+    \Big\downarrow\mathrlap{{}^{f_!}}
+    \\
+    \mathcal{Y} &\mapsto& \mathbf{C}_{\mathcal{Y}}
+  }
+$$
+such that 
+
+1. $Base$ is locally presentable,
+
+1. each $\mathbf{C}_{\mathcal{X}}$ is locally presentable,
+
+1. $\mathbf{C}_{(-)}$ [[preserved colimit|preserves]] [[filtered colimit|filtered]] [[2-colimits]]
+
+then also the [[Grothendieck construction]] $\int \mathbf{C}$ is locally presentable.
+\end{proposition}
+([MO:a/102083](https://mathoverflow.net/a/102083/381))
 
 ### Combinatorial model categories
 
