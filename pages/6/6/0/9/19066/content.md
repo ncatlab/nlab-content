@@ -105,37 +105,63 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 ### Parameterized objects 
  {#ParameterizedObjects}
 
+We discuss a class of examples of integral model structures on categories of "$sGrpd$-parameterized objects".
+
 > under construction --- handle with care
+
 
 #### Plain model structure
 
+
 \begin{definition}
 **(Notation)**
+
+We consider:
+
+* $\mathbf{V}$ a [[combinatorial model category|combinatorial]] [[symmetric monoidal category|symmetric]] [[monoidal model category]] (to play the role an [[enriched category theory|enrichment]] [[cosmos]] besides [[sSet]]) -- all whose objects are [[cofibrant object|cofibrant]],
+
+* $\mathbf{v} \colon sSet_{Qu} \to \mathbf{V}$ a [[lax monoidal functor|lax monoidal]] [[left Quillen functor]] from the [[classical model structure on simplicial sets]] with its [[cartesian monoidal category|cartesian monoidal]]-structure, with
+
+* $\mathbf{v}_\ast \colon sSet\text{-}Cat \to \mathbf{V}\text{-}Cat$ its induced [[change of enrichment]]-[[functor]],   
+
+* $\mathbf{C}$ a [[combinatorial model category|combinatorial]] $V$-[[enriched model category]] (such as $\mathbf{V}$ itself via its canonical self-enrichment).
+
 For 
 
-1. $\mathbf{C} \in sSet Cat$ an [[sSet-enriched category]];
+* $\mathcal{X} \in sGrpd$ a Dwyer-Kan [[simplicial groupoid]], i.e an [[sSet]]-[[enriched groupoid]] (to be regarded as a [[small category|small]] [[sSet-enriched category]]),
 
-1. $\mathbf{C} \in sGrpd$ a Dwyer-Kan [[simplicial groupoid]], i.e an [[sSet]]-[[enriched groupoid]],
+* $\mathbf{v}_\ast \mathcal{X} \,\in\, \mathbf{V} Cat$ its induced  $\mathbf{V}$-[[enriched category]],
 
-let's write
+we write
+
 $$
   \mathbf{C}^{\mathcal{X}}
   \;\;
   \coloneqq
-  sFunc(\mathcal{X}, \mathbf{}C)
+  \mathbf{V}Func
+  \big(
+    \mathbf{v}\ast\mathcal{X}
+    ,\, 
+    \mathbf{C}
+  \big)
 $$
-for the [[sSet]]-[[enriched functor category]] from $\mathcal{X}$ (regarded as a [[small category|small]] [[sSet-enriched category]]) to $\mathbf{C}$.
+for the $\mathbf{V}$-[[enriched functor category]] from $\mathbf{v}_\ast\mathcal{X}$ to $\mathbf{C}$, 
+regarded as equipped with its [[projective model structure on functors]] --- which exists (due to [this Theorem](model+structure+on+functors#CofGenProj)) by the assumption that $\mathbf{C}$ is combinatorial and all objects of $\mathbf{V}$ are cofibrant.
 
 We denote the generic object here
 
 $$
   \mathscr{V}_{\mathcal{X}}
+  \,\equiv\,
+  \big(
+    x \colon \mathcal{X} \,\mapsto\, \mathscr{V}_x
+  \big)
   \;\in\;
   \mathbf{C}^{\mathcal{X}}
   \,.
 $$
 
-If $\mathbf{C}$ is [[cocomplete category|cocomplete]], then by [[left Kan extension]] $(-)_!$ these categories arrange into a [[pseudofunctor]]
+By [[left Kan extension]] $(-)_!$ these categories arrange into a [[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
 $$
   \array{
     \mathllap{
@@ -172,10 +198,19 @@ whose [[Grothendieck construction]] we abbreviate by
 
 We may think of this as the category of *$sGrpd$-parameterized objects of $\mathbf{C}$*.
 
-We denote the morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]]:
+We denote the component morphisms of 
+morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ with via the right adjoints $f^\ast$):
 $$
+  \text{i.e.}
+  \;\;\;
   \phi_f
   \;\;\colon\;\;
+  \mathscr{V}_{\mathcal{X}}
+  \longrightarrow
+  \mathscr{V}_{\mathcal{X}}
+  \;\;\;
+  \text{means that}
+  \;\;\;
   \left(
   \array{
     \mathscr{V}_{\mathcal{X}}
@@ -187,9 +222,8 @@ $$
     \mathcal{Y}
   }
   \right)
+  \,.
 $$
-
-
 \end{definition}
 
 \begin{example}\label{InitialParameterizedObject}
