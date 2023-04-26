@@ -25,10 +25,23 @@ The notion of a **weak distributive law** between two [[monads]] is a generalisa
 
 ## References
 
+See also [[weak bimonad]].
+
+For the weak _mixed_ distributive law version see
+
 * [[Ross Street]], *Weak distributive laws* Theory and Applications of Categories **22** (2009) 313-320 &lbrack;[tac:22-12](http://www.tac.mta.ca/tac/volumes/22/12/22-12abs.html)&rbrack;
 
-* [[Daniela Petrisan]] and Ralph Sarkis. _Semialgebras and Weak Distributive Laws_, Proceedings 37th Conference on 
-Mathematical Foundations of Programming Semantics, EPTCS 351, 2021, pp. 218-241. ([doi:10.4204/EPTCS.351.14](https://doi.org/10.4204/EPTCS.351.14))
+2-categorical context in the sense of formal theory of monads is exposed in 
+
+* [[Gabriella Böhm]], [[Stephen Lack]], [[Ross Street]], _On the 2-categories of weak distributive laws_, Comm. Alg. _39_:12 (2011) 4567--4583 [doi](https://doi.org/10.1080/00927872.2011.616436)
+
+* [[Daniela Petrisan]], Ralph Sarkis. _Semialgebras and weak distributive laws_, Proceedings 37th Conference on 
+Mathematical Foundations of Programming Semantics, EPTCS 351 (2021) 218--241. ([doi:10.4204/EPTCS.351.14](https://doi.org/10.4204/EPTCS.351.14))
+
+An application of weak distributive laws to explain Street's weak wreath products and also related bilinear factorization structures
+
+* [[Gabriella Böhm]], _On the iteration of weak wreath products_, Theory and Appl. of Categories __26__:2 (2012) 30--59 [arXiv:1110.0652](https://arxiv.org/abs/1110.0652)
+* [[Gabriella Böhm]], [[José Gómez-Torrecillas]], _Bilinear factorization of algebras_, Bull. Belg. Math. Soc. Simon Stevin 20(2): 221-.244 (may 2013) [doi](https://doi.org/10.36045/bbms/1369316541) 
 
 [[!redirects weak distributive laws]]
 
