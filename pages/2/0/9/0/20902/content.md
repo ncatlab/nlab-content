@@ -19,7 +19,14 @@ Joe Moeller is an NRC postdoc at NIST. He did his PhD at UCR under [[John Baez]]
 
 On the [[monoidal Grothendieck construction]]:
 
-* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 $[$[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [tac:35-31](www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)$]$
+* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 &lbrack;[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [tac:35-31](www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)&rbrack;
+
+On [[FI-representations]] and [[representation stability]]:
+
+* [[Joe Moeller]], *Extensions of representation stable categories* &lbrack;[arXiv:2209.03879](https://arxiv.org/abs/2209.03879)&rbrack;
+
+
+
 
 category: people
 
