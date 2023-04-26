@@ -806,9 +806,9 @@ This implies:
 \label{UnboundedChainComplexOfVectorSpacesProjectivelyCofibrant}
   For $k$ a [[field]]:
 
-1. every object in the projective model structure $Ch_\bullet(k Mod)$ (Prop. \ref{StandardModelStructureOnUnboundedComplexes}) is cofibrant.
+1. every [[object]] in the projective model structure $Ch_\bullet(k Mod)$ (Prop. \ref{StandardModelStructureOnUnboundedComplexes}) is [[cofibrant objects|cofibrant]].
 
-1. the cofibrations are exactly the [[monomorphisms]].
+1. the [[cofibrations]] are exactly the [[monomorphisms]].
 
 \end{proposition}
 \begin{proof}
@@ -1524,8 +1524,17 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects model structures on unbounded chain complexes]]
 
 [[!redirects projective model structure on chain complexes]]
+[[!redirects projective model structures on chain complexes]]
+
 [[!redirects injective model structure on chain complexes]] 
+[[!redirects injective model structures on chain complexes]] 
 
 [[!redirects injective model structure on connective cochain complexes]]
+
+[[!redirects projective model structure on unbounded chain complexes]]
+[[!redirects projective model structures on unbounded chain complexes]]
+
+[[!redirects injective model structure on unbounded chain complexes]]
+[[!redirects injective model structures on unbounded chain complexes]]
 
 
