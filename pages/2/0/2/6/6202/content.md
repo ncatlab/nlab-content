@@ -61,9 +61,9 @@ Of course, if $C$, $D$, $F$, and $G$ are [[symmetric monoidal category|symmetric
 
 * [[Alain Bruguières]], [[Steve Lack]], [[Alexis Virelizier]], *Hopf monads on monoidal categories*,  Adv. Math. __227__ 2 (2011) 745-800 &lbrack;[arXiv:1003.1920](https://arxiv.org/abs/1003.1920), [doi:10.1016/j.aim.2011.02.008](https://doi.org/10.1016/j.aim.2011.02.008)&rbrack;
 
-* [[Adriana Balan]], *On Hopf adjunctions, Hopf monads and Frobenius-type properties*, Appl. Categ. Structures **25** 5 (2017) 747-774 &lbrack;[arxiv:1411.2236](https://arxiv.org/abs/1411.2236), [doi:10.1007/s10485-016-9428-0](https://doi.org/10.1007/s10485-016-9428-0)&rbrack;
+* Adriana Balan, *On Hopf adjunctions, Hopf monads and Frobenius-type properties*, Appl. Categ. Structures **25** 5 (2017) 747-774 &lbrack;[arxiv:1411.2236](https://arxiv.org/abs/1411.2236), [doi:10.1007/s10485-016-9428-0](https://doi.org/10.1007/s10485-016-9428-0)&rbrack;
 
-* Harshit Yadav, _Frobenius monoidal functors from (co)Hopf adjunctions_, [arXiv:2209.15606v2](https://arxiv.org/abs/2209.15606)
+* Harshit Yadav, *Frobenius monoidal functors from (co)Hopf adjunctions* &lbrack;[arXiv:2209.15606v2](https://arxiv.org/abs/2209.15606)&rbrack;
 
 
 [[!redirects Hopf adjunctions]]
