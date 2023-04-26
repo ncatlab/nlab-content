@@ -103,6 +103,8 @@ $$
 
 \begin{example}\label{SimplicialGroupoid}
   The [[sSet]]-enriched groupoids are traditionally  misnamed *[[simplicial groupoids]]* (following [Dwyer & Kan (1984)](simplicial+groupoid#DwyerKan84) and similar abuse for *[[simplicial category]]*), see there for more. More pedantically, $sSet$-enriched groupoids are only those [[sSet]]-[[internal groupoids]] whose set of objects is constant, cf. Exp. \ref{RelationToInternalGroupoids} below.
+
+Moreover, [[fundamental infinity-groupoid|fundamental $\infty$-groupoids]] incarnated as [[sSet]]-[[enriched groupoids]] aka "Dwyer-Kan [[simplicial groupoids]]" are (mis-)named *[[Dwyer-Kan loop groupoids]]*.
 \end{example}
 
 \begin{example}
