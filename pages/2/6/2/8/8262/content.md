@@ -140,8 +140,8 @@ $$
   The free abelian group of a [[Cartesian product]]
   $S \times Z$ of [[sets]] $S, T \,\in\, Sets$
   is [[natural isomorphism|naturally isomorphic]] to 
-  the [[tensor product of abelian groups|tensor product]]
-  of the free abelian groups of the factors:
+  the [[tensor product of abelian groups|tensor product of]]
+  the free abelian groups of the factors:
   $$
     \mathbb{Z}[S \times T]
     \;\simeq\;
@@ -158,6 +158,23 @@ $$
 \end{proposition}
 This follows, for instance, from the above expression (Prop. \ref{FreeAbelianGroupIsGroupOfFormalLinearCombinations}) of free abelian groups as groups of formal linear combinations.
 
+\begin{remark}
+\label{FreeSimplicialAbelianGroupConstrIsStrongMonoidal}
+  In [[homotopy theory]]/[[algebraic topology]], the free abelian group construction is frequently applied degreewise to a [[simplicial set]] $S_\bullet$ which is (or is [[simplicial weak homotopy equivalence|weakly equivalent to]]) the [[singular simplicial complex]] of a [[topological space]] --- because the resulting [[chain complex]] (under the [[Dold-Kan correspondence]]) then computes the [[ordinary homology|ordinary]] [[singular homology]] of that space.
+But since 
+
+1. the [[product of simplicial sets]] is degreewise that in [[Set]], 
+
+1. the [tensor product of simplicial abelian groups](monoidal+Dold-Kan+correspondence#MonoidalCategoryStructures) is degreewise the [[tensor product of abelian groups]]
+
+the above Prop. \ref{FreeAbelianGroupFunctorSendsProductsToTensorProducts} implies that also the functor
+$$
+ \mathbb{Z}[-]
+  \;\colon\;
+  sSet \longrightarrow sAb
+$$
+from [[sSet]] to [[sAb]] is [[strong monoidal functor|strong monoidal]].
+\end{remark}
 
 ### Subgroups
  {#Subgroups}
