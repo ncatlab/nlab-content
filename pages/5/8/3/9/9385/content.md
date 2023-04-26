@@ -106,6 +106,11 @@ Enhancement of the [[Chern-Weil homomorphism]] from [[ordinary cohomology]]-grou
 [[!redirects flat ∞-connection]]
 [[!redirects flat ∞-connections]]
 
+[[!redirects flat infinity-vector bundle]]
+[[!redirects flat infinity-vector bundles]]
+[[!redirects flat ∞-vector bundle]]
+[[!redirects flat ∞-vector bundles]]
+
 
 [[!redirects infinity-local system]]
 [[!redirects infinity-local systems]]
