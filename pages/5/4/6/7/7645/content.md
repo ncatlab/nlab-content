@@ -83,5 +83,4 @@ Section 3 of
 * [[Clemens Berger]], _Iterated wreath product of the simplex category and iterated loop spaces_ ([arXiv:math/0512575](http://arxiv.org/abs/math/0512575)),
   {#Berger}
 
-
 [[!redirects categorical wreath products]]
