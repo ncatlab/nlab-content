@@ -148,6 +148,13 @@ $$
     \mathbb{Z}[S] \otimes \mathbb{Z}[T]
     \,.
   $$
+  In other words, as a [[functor]] from [[Set]] to [[Ab]]
+  $$
+    \mathbb{Z}[-]
+    \;\colon\;
+    Set \longrightarrow Ab
+  $$
+  this is a [[strong monoidal functor]].
 \end{proposition}
 This follows, for instance, from the above expression (Prop. \ref{FreeAbelianGroupIsGroupOfFormalLinearCombinations}) of free abelian groups as groups of formal linear combinations.
 
