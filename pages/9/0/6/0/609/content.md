@@ -283,7 +283,10 @@ with a detailed textbook account in:
 
 See also:
 
-* [[Philip Ehlers]], _Simplicial groupoids as models for homotopy type_ Master's thesis (1991) ([pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf))
+* [[Philip Ehlers]], _Simplicial groupoids as models for homotopy type_, Master's thesis (1991) &lbrack;[pdf](https://ncatlab.org/nlab/files/Ehlers-MSc-thesis.pdf)&rbrack;
+
+* [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
+
 
 [[!redirects simplicial groupoids]]
 [[!redirects simplicially enriched groupoids]]
