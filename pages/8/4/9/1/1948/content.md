@@ -229,10 +229,11 @@ For the case that $C$ is a small category this is &lbrack;[Lurie, remark A.2.8.6
 
 The Quillen-functoriality on the [[domain]] is more asymmetric.
 
-+-- {: .num_prop}
-###### Proposition
-
-For $p : C_1 \longrightarrow C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let
+\begin{proposition}
+\label{QuillenFunctorialityInDomain}
+**(Quillen functoriality in the domain category)
+\linebreak
+For $p \colon C_1 \longrightarrow C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let
 
 $$
   (p_! \dashv p^* \dashv p_*)
@@ -263,8 +264,7 @@ $$
   \,.
 $$
 
-
-=--
+\end{proposition}
 
 For $C$ not enriched this appears as &lbrack;[Lurie, prop. A.2.8.7](#Lurie)&rbrack;, for the enriched case it appears as &lbrack;[Lurie, prop. A.3.3.7](#Lurie)&rbrack;.
 
