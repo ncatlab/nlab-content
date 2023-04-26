@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[simplicial homotopy theory]] there is a standard construction &lbrack;[Kan (1958)](#Kan58)&rbrack; -- traditionally denoted $G$ -- for the simplicial analog of the [[homotopy type]] of the [[loop space]] $\Omega X$ of a [[connected topological space]], now incarnated as a [[simplicial group]]: It is the [[left adjoint]] in an [[adjunction]]
+In [[simplicial homotopy theory]] there is a standard construction &lbrack;[Kan (1958a)](#Kan58a), [Kan (1958b)](#Kan58b)&rbrack; -- traditionally denoted "$G$" -- for the simplicial analog of the [[homotopy type]] of the [[loop space]] $\Omega X$ of a [[connected topological space]], now incarnated as a [[simplicial group]]: It is the [[left adjoint]] in an [[adjunction]]
 $$
   (G \dashv \overline{W}) 
     \;\colon\;
@@ -68,20 +68,27 @@ The [[left adjoint]] $\Omega$ is the [[simplicial loop space]]-construction.
 
 * [[Dwyer-Kan loop groupoid]]
 
+
 ## References
 
-For a more complete list of references, see the article [[simplicial delooping functor]].
+The original articles:
 
-* {#Kan58} [[Daniel Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53 ([jstor:1970042](https://www.jstor.org/stable/1970042)) (Sections 10–11.)
+* {#Kan58a} [[Daniel M. Kan]], Section 9 of: *A combinatorial definition of homotopy groups*, Annals of Mathematics **67** 2 (1958) 282–312 &lbrack;[doi:10.2307/1970006](https://doi.org/10.2307/1970006)&rbrack;
 
-* [[Peter May]], chapter VI of _Simplicial objects in algebraic topology_, Van Nostrand, Princeton (1967) ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+* {#Kan58b} [[Daniel M. Kan]], Sections 10–11 in: _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958) 38-53 &lbrack;[jstor:1970042](https://www.jstor.org/stable/1970042)&rbrack;
+
+Early review:
+
+* [[Peter May]], chapter VI of _Simplicial objects in algebraic topology_, Van Nostrand, Princeton (1967) &lbrack;[ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)&rbrack;
+
+A modern monograph account:
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
 
 More details and relation to [[décalage]]:
 
-* [[Danny Stevenson]], _Décalage and Kan's simplicial loop group functor_, Theory and Applications of Categories, Vol. 26, 2012, No. 28, pp 768-787 ([arXiv:1112.0474](https://arxiv.org/abs/1112.0474), [tac:26-28](http://www.tac.mta.ca/tac/volumes/26/28/26-28abs.html))
+* [[Danny Stevenson]], _Décalage and Kan's simplicial loop group functor_, Theory and Applications of Categories, Vol. 26, 2012, No. 28, pp 768-787 &lbrack;[arXiv:1112.0474](https://arxiv.org/abs/1112.0474), [tac:26-28](http://www.tac.mta.ca/tac/volumes/26/28/26-28abs.html)&rbrack;
 
 
 [[!redirects simplicial loop spaces]]
