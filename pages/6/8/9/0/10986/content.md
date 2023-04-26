@@ -59,6 +59,10 @@ In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[
 ## References
 
 * {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
+* F. Castaño Iglesias, J. Gómez Torrecillas, C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__:10, 4879--4900 (1998) [doi](https://doi.org/10.1080/00927879908826735)
+
+
+
 
 
 [[!redirects Frobenius monads]]
