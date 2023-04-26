@@ -439,6 +439,13 @@ Discussion for [[subobject lattices]]:
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around p. 205) of: _[[Sheaves in Geometry and Logic]]_,   Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
+Discussion for [[derived functors]] with focus on the example of [[base change]] of [[retractive spaces]] and [[homotopy categories]] of [[parameterized spectra]]:
+
+* [[Michael Shulman]], *Comparing composites of left and right derived functors*, New York Journal of Mathematics **17** (2011) 75-125 &lbrack;[arXiv:0706.2868](https://arxiv.org/abs/0706.2868), [eudml:229181](https://eudml.org/doc/229181)&rbrack;
+
+* [[Mike Shulman]], *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories, **20** 18 (2008) 650–738 &lbrack;[tac:2018](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html), [arXiv:0706.1286](https://arxiv.org/abs/0706.1286)&rbrack;
+
+
 
 Discussion in the generality of [[enriched category theory]]:
 
