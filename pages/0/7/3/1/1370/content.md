@@ -30,11 +30,14 @@ On [[transition systems]], [[bisimulations]] and [[open morphisms]]:
 
 * {#JoyalNielsenWisnkel94} [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]]: *Bisimulation from open maps*, BRICS report series RS-94-7 (1994) &lbrack;[doi:10.7146/brics.v1i7.21663](https://doi.org/10.7146/brics.v1i7.21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)&rbrack;, Information and Computation **127** 2 (1996) 164-185 &lbrack;[doi:10.1006/inco.1996.0057](https://doi.org/10.1006/inco.1996.0057)&rbrack;
 
+On the [[Dwyer-Kan loop groupoid]]-construction ([[path groupoid|path]]-[[simplicial groupoids]]):
+
+* [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
+
 
 On [[quasi-categories]]:
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
-
 
 
 
