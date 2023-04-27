@@ -65,7 +65,8 @@ The result was announced by Walters on the [[Isle of Thorns]] in 1976, a proof c
 
 * {#SW78}[[Ross Street|R. Street]], [[Bob Walters|R. Walters]], _Yoneda structures on 2-Categories_ , JA **50** no.2 (1978) pp.350-379.
 
-* R.J. Wood, _Some remarks on total categories_ , JA **75** no.2 (1982) pp.538-545.
+* [[R. J. Wood]], _Some remarks on total categories_ , JA **75** 2 (1982) 538-545 &lbrack;<a href="https://doi.org/10.1016/0021-8693(82)90055-2">doi:10.1016/0021-8693(82)90055-2</a>&rbrack;
+
 
 [[!redirects lex total categories]]
 [[!redirects lex-total categories]]
