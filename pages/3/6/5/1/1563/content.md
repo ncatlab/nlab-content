@@ -3,7 +3,7 @@
 
 
 +-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
++-- {: .toc .clickDown tabiJndex="0"}
 ### Context
 #### Foundations
 +-- {: .hide}
@@ -164,7 +164,8 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 
   > (axiomatizing the category [[Set]] of sets; see at *[[ETCS]]*)
 
-*  _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
+*  _The Category of Categories as a Foundation for Mathematics_, pp. 1-20 in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 
    > (axiomatizing the [[2-category]] [[Cat]] of categories; see at *[[ETCC]]*)
 
