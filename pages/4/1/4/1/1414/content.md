@@ -21,74 +21,93 @@ The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicial
 The homotopy coherent nerve operation
 
 $$
-  N : sSet\text{-}Cat \to sSet
+  N \colon sSet\text{-}Cat \longrightarrow sSet
   \,.
 $$
 
-is induced, by the general machinery of [[nerve and realization]], by a 
-[[simplicial object|cosimplicial]] [[simplicially enriched category]], namely a [[functor]]
+is induced, by the general machinery of [[nerve and realization]], by a  [[cosimplicial object|cosimplicial]] [[simplicially enriched category]], namely a [[functor]]
 
 $$
-  \Delta \to sSet\text{-}Cat
+  \Delta \longrightarrow sSet\text{-}Cat
 $$
 
 from the [[simplex category]] to the category of 
 [[simplicially enriched categories]] which regards each
 $n$-[[simplex]] as a [[sSet]]-[[enriched category]]
-with $n$ objects analogous to how the [[oriental]]s
-regard the $n$-simplex as an [[strict omega-category|n-category]].
+with $n$ objects analogous to how the [[orientals]]
+regard the $n$-simplex as an [[strict omega-category|strict $n$-category]].
 
 
 
 ## Definitions
-
 
 ### The cosimplicial $sSet$-category
 
 We here describe the cosimplicial [[sSet]]-[[enriched category]] 
 
 $$
-  S : \Delta \to sSet\text{-}Cat
+  S \colon \Delta \longrightarrow sSet\text{-}Cat
 $$
 
 that induces the homotopy coherent nerve.
 
 ### A categorical description 
 
-Recall from the entry, [[reflexive graph]], that a [[graph]], $\Gamma$, is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[edge]] $v \to v$. Similarly a **reflexive [[quiver]]** has a specified identity edge $i_X: X \to X$ on each object (vertex) $X$.
+Recall that a [[graph]], $\Gamma$, is _[[reflexive graph|reflexive]]_ if for each [[vertex]] $v$ it is equipped with a (specified) [[edge]] $v \to v$. Similarly, a **reflexive [[directed graph]]** has a specified identity edge $i_X \colon X \to X$ on each object (vertex) $X$.
 
+The [[free category]] on a reflexive directed graph has 
 
-The [[free category]] on a reflexive quiver has the same objects,
- [[identity morphism]]s corresponding to the identity edges,
- and non-identity morphisms consisting of paths of non-identity edges. The functor, $F$, that assigns the free category on $\Gamma$ to $\Gamma$, in this sense, is left adjoint to the forgetful functor, $U: Cat \to reflGraph$. (We will look at some simple cases of this construction later.)
+* as [[objects]] the [[vertices]] of the graph,
 
-The composite,  $G = FU : Cat\to Cat$, defines a [[comonad]] on $Cat$. 
+* [[identity morphisms]] corresponding to the identity edges, 
 
-By the definition its  [[simplicial resolution]] gives an augmented simplicial endofunctor $S :\Delta\to sSet-Cat$ with natural augmentation $S\to Id$, and which is a cofibrant replacement construction in the [[Bergner model structure]] on $sSet-Cat$ ("model structure for simplicially enriched categories"). 
+* non-identity morphisms consisting of sequences of non-identity edges. 
 
-####Remark
+The [[free category]]-construction extends to a [[functor]]
 
+$$
+  F
+  \;\colon\;
+  ReflxDGraph \longrightarrow Cat 
+$$
+and as such 
+is [[left adjoint]] to the [[forgetful functor]]
+
+$$
+  F
+  \;\colon\;
+  Cat \longrightarrow ReflxDGraph 
+  \,.
+$$
+
+Hence the composite $G = F U \colon Cat\to Cat$ constitutes a [[comonad]] on $Cat$. 
+
+The [[simplicial resolution]] of this comonad gives an augmented simplicial [[endofunctor]] $S \colon \Delta \longrightarrow sSet\text{-}Cat$ with natural augmentation $S\to Id$, and which is a [[cofibrant replacement]]-construction in the [[Bergner model structure]] on $sSet-Cat$ ("model structure for simplicially enriched categories"). 
+
+\begin{remark}
 Some *words of caution*, as always with simplicial resolutions, there are two conventions which differ by being the opposite simplicial object of each other.  In the original paper, Cordier uses a different one of these conventions from some of the other sources mentioned here. A similar problem occurs in the following combinatorial description as some sources use 'reverse inclusion' where others just use 'inclusion' for the partial order on the poset. This corresponds more or less exactly to the distinction between 'op-lax' and 'lax' functors in the theory of 2-categories. 
 
 Because of this, it is always important to test the definition being used on a simple example, $[2]$ will do, before commiting to the use of any specific formulae. We will see this again in another Remark later on in this entry.
+\end{remark}
+
 
 ### A combinatorial description
 
-For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $SSet$-category $S[n]$ as follows:
+For $[n]$ the finite [[ordinal number|ordinal]] $[n] \coloneqq \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] [[simplex|$n$-simplex]], define the [[sSet-enriched category]] $S[n]$ as follows:
 
-* the [[object]]s of $S[n]$ are $\{0,1, \cdots, n\}$;
+* the [[objects]] of $S[n]$ are $\{0,1, \cdots, n\}$;
 
-* the [[hom-object]]s $S[n]_{i,j} \in sSet$ for $i, j \in \{0,1,\cdots, n\}$ are the [[nerve]]s 
+* the [[hom-objects]] $S[n]_{i,j} \in sSet$ for $i, j \in \{0,1,\cdots, n\}$ are the [[nerves]]
 
   $$
-    S[n](i,j) = N(P_{i,j})
+    S[n](i,j) \coloneqq N(P_{i,j})
   $$ 
 
   of the [[poset]] $P_{i,j}$ which is equivalently
 
-  1. the [[poset]] of [[subset]]s of $[i,j]$ that contain both $i$ and $j$ (so in particular if $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve) with the partial order is given by reverse inclusion.
+  1. the [[poset]] of [[subsets]] of $[i,j]$ that contain both $i$ and $j$ (so in particular if $i \gt j$ then $P(i,j)$ is [[empty set|empty]] and hence so is its nerve) with the partial order is given by reverse inclusion.
 
-   1. the poset of [[path category|path]]s in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $a$ visits all the vertices that $b$ does ... and perhaps some others as well.
+   1. the poset of [[path category|paths]] in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $a$ visits all the vertices that $b$ does ... and perhaps some others as well.
 
       Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits and _vice versa_.
 
@@ -125,33 +144,39 @@ The choice to order paths by reverse inclusion agrees with constructions such as
 The **homotopy coherent nerve** functor
 
 $$
-  N := Hom_{sSet Cat}(S[\bullet],-) : sSet Cat \to sSet
+  N 
+    \coloneqq 
+  Hom_{sSet Cat}(S[\bullet],-) 
+  \colon sSet Cat \longrightarrow sSet
 $$
 
-is the [[nerve]] defined by the cosimplicial $sSet$-category $S : \Delta \to sSet Cat$ defined above.
+is the [[nerve]] defined by the [[cosimplicial object|cosimplicial]] [[sSet-enriched category]] $S \colon \Delta \to sSet Cat$ defined above.
 
-For $C \in sSet Cat$ a [[simplicially enriched category]], the homotopy coherent nerve  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula 
+For $C \in sSet Cat$ any [[sSet-enriched category]], the homotopy coherent nerve  $N(C)$ is the [[simplicial set]] uniquely characterized as giing a [[natural isomorphism]] of the form
 
 $$ 
-  Hom_{SSet}(\Delta[n], N(C)) = Hom_{SSet Cat}(S[n], C)
+  Hom_{SSet}\big(\Delta[n], N(C)\big) 
+   \;\simrq\; 
+  Hom_{SSet Cat}\big(S[n], C\big)
   \,.
 $$
 
 By the general logic of [[nerve and realization]], this functor has a [[left adjoint]]
 
 $$
-  S(-) : SSet \to SSet Cat
+  S(-) \colon SSet \to SSet Cat
 $$
 
 the **realization** functor given by the [[coend]] formula
 
 $$
-  S(X) := \int^{[n] \in \Delta} X_n \cdot S[n]
+  S(X) 
+  \coloneqq 
+  \int^{[n] \in \Delta} X_n \cdot S[n]
   \,.
 $$
 
-This functor does extend the functor $S : \Delta \to sSet Cat$ 
-in that there is a canonical isomorphism
+This functor does extend the functor $S : \Delta \to sSet Cat$  in that there is a canonical isomorphism
 
 $$
   S(\Delta[n]) \cong S[n]
@@ -479,25 +504,25 @@ In more modern terminology as [[Kan complex]]es can be considered as [[∞-group
 
 The homotopy coherent nerve operation was introduced, explicitly, in
 
-* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112, available from [numdam](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1982__23_1)
+* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1 (1982) 93-112 &lbrack;[numdam:CTGDC_1982__23_1](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1982__23_1)&rbrack;
 
-Cordier made the link with earlier work by R.D. Leitch,
+making a link with earlier work in
 
-* R. D. Leitch, _The homotopy commutative cube_, J. London Math. Soc. (2) 9, (1974), 23&#8211;29.
+* R. D. Leitch, _The homotopy commutative cube_, J. London Math. Soc. **2** 9 (1974) 23-29 &lbrack;[doi:10.1112/jlms/s2-9.1.23](https://doi.org/10.1112/jlms/s2-9.1.23)&rbrack;
 
-as well as the paper by [[Vogt]] (see below) and earlier work of [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]],
+as well as with [Vogt (1973)](#Vogt73) and with
 
-* [[Michael Boardman]], [[Rainer Vogt]], 1973, _Homotopy invariant algebraic structures on topological spaces_, Lec. Notes in Math. __347__, Springer-Verlag.
+* [[Michael Boardman]], [[Rainer Vogt]], *Homotopy invariant algebraic structures on topological spaces*, Lec. Notes in Math. __347__ Springer (1973) &lbrack;[doi:10.1007/BFb0068547](https://doi.org/10.1007/BFb0068547)&rbrack;
 
-With [[Tim Porter]], Cordier proved the simplicial generalisation of a theorem of [[Rainer Vogt|Vogt]] in
+Poof of an [[equivalence of categories|equivalence]] between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the [[homotopy category]] of [[homotopy coherent diagrams]]:
 
-*  [[Jean-Marc Cordier]], [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc. __100__, (1986), 65 &#8211; 90.
+* {#Vogt73} [[Rainer Vogt]], *Homotopy limits and colimits*, Math. Z. __134__ (1973) 11-52 &lbrack;[eudml:171965](https://eudml.org/doc/171965), [doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090)&rbrack;
 
-This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a [[quasicategory]], as well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
+and explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a [[quasicategory]], as well as the harder result on when [[outer horns]] in this quasicategory can be filled:
 
-Vogt's original version of the theorem is in 
+* [[Jean-Marc Cordier]], [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc. __100__ (1986) 65-90
 
-* [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z. __134__, (1973), 11&#8211;52.  
+
  
 Two other papers are relevant to this:
 
@@ -510,14 +535,16 @@ An elementary discussion of the concept of homotopy coherence forms Chapter V of
 *  [[K. H. Kamps]], [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
 
 
-
 For the role played by Cordier's simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_, section 1.1.5
-* [[Andre Joyal]], _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
-* [[Andre Joyal]], _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
-This emphasises the adjunction corresponding to the homotopy coherent ("simplicial") nerve construction. 
+[[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
+
+* [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
+
+* [[Jacob Lurie]], section 1.1.5 in: *[[Higher Topos Theory]]* (2009) 
+
+This emphasizes the [[adjoint functor|adjunction]] corresponding to the homotopy coherent ("simplicial") nerve construction. 
 
 
 A review of this latter aspect is also in
