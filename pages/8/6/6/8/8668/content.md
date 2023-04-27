@@ -88,7 +88,7 @@ The [[cardinality]] $\kappa = {\vert S\vert}$ of a [[set]] $S$ is _[[regular car
 +-- {: .num_example}
 ###### Example
 
-The smallest [[regular cardinal]] is $\aleph_0 = {\vert \mathbb{N}\vert}$: every finite union of finite sets is itself a finite set. (See the entry on [[regular cardinal]]s for a discussion as to whether one might consider some finite cardinals as being `regular'.)
+The smallest [[regular cardinal]] is $\aleph_0 = {\vert \mathbb{N}\vert}$: every finite [[union]] of [[finite sets]] is itself a finite set. (See the entry on [[regular cardinal]]s for a discussion as to whether one might consider some finite cardinals as being `regular'.)
 
 =--
 
