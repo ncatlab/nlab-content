@@ -184,6 +184,8 @@ $$
   }
 $$
 
+> (Should change the base to [[sSet]] and precompose the abve pseudofunctor with the [[Dwyer-Kan path groupoid]]-construction.)
+
 whose [[Grothendieck construction]] we abbreviate by
 \[
   \label{CategoryOfParameterizedObjects}
@@ -197,6 +199,7 @@ whose [[Grothendieck construction]] we abbreviate by
 \]
 
 We may think of this as the category of *$sGrpd$-parameterized objects of $\mathbf{C}$*.
+
 
 We denote the component morphisms of 
 morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
