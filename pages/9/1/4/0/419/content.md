@@ -458,7 +458,7 @@ preserves and reflects fibrations and weak equivalences.
 =--
 
 
-See for instance ([BergerMoerdijk 2.5](#BergerMoerdijkResolution)).
+See [Berger & Moerdijk (2006) 2.5](#BergerMoerdijkResolution).
 
 
 ### Model structure on monoids
@@ -503,8 +503,12 @@ Textbook accounts:
 
 * [[Jacob Lurie]], Def. A.3.1.2 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
+Conditions for the existence of induced monoidal model structure on [[Reedy model categories]]:
 
-Some relevant homotopy category background is in
+* {#Barwick10} [[Clark Barwick]], p. 282 in: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack;
+
+
+Some relevant homotopy category background:
 
 * {#Shulman11} [[Mike Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics Volume 17 (2011) 75-125 ([arXiv:0706.2868](http://arxiv.org/abs/0706.2868), [publisher](http://nyjm.albany.edu/j/2011/17-5.html))
 
@@ -521,7 +525,7 @@ Further variation of the axiomatics is discussed in
 
 The monoidal model structure on the [[Borel model structure]] $\mathcal{E}^{\mathbf{B}G}$ is discussed for instance in
 
-* {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_, Topology 45 (2006), 807&#8211;849.
+* {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], *The Boardman-Vogt resolution of operads in monoidal model categories*, Topology **45** (2006) 807-849 &lbrack;[arXiv:math/0502155](https://arxiv.org/abs/math/0502155), [doi:10.1016/j.top.2006.05.001](https://doi.org/10.1016/j.top.2006.05.001)&rbrack;
 
 Relation to [[symmetric monoidal (infinity,1)-categories]] (in particular, that every locally presentable symmetric monoidal $(\infty,1)$-category arises from a symmetric monoidal model category) is discussed in 
 
