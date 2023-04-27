@@ -32,7 +32,7 @@ Furthermore, any [[morphism]] $\varphi:[m]\to [n]$ in $\Delta Q$ can be uniquely
 A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 \end{definition}
 
-[^term]: Since $\Delta Q$ encapsulates exactly the structure of $Q_*$ (i.e. the simplicial set that has fibers $Q_{n+1}$ at $[n]$ together with simplicially compatible actions) it is also referred to as the _quaternionic crossed simplicial group_. The terminology used at [[crossed group]] would refer to it as the _total category_ of the [[skew-simplicial set|crossed simplicial group]] $Q_*$.
+[^term]: Since $\Delta Q$ encapsulates exactly the structure of $Q_*$ (i.e. the simplicial set that has fibers $Q_{n+1}$ at $[n]$ together with simplicially compatible actions) it is also referred to as the _quaternionic crossed simplicial group_. The terminology used at [[crossed group]] would refer to it as the _total category_ of the [[skew-simplicial set|crossed simplicial group]] $Q_*$. Note also that we follow [Loday](#Loday87) by taking $Q_n^{op}$ as automorphism group at $[n-1]$ whereas other authors like Krasauskas or Dyckerhoff-Kapranov use $Q_n$.
 
 ## Properties
 
@@ -42,9 +42,11 @@ A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 
 * Just like in the [[cyclic set|cyclic]] and [[dihedral set|dihedral]] cases, $\Delta Q$ is _self-dual_: $\Delta Q\cong \Delta Q^{op}$ (cf. [Dunn](#Dunn89), prop.1.4).
 
-* As usual for [[crossed group|crossed groups]] (or, more generally, for functors between small categories that are surjective on objects; cf. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], pp.359, 377f), the inclusion $i:\Delta\to \Delta Q$ induces by [[Kan extension]] an [[essential geometric morphism|essential]] [[surjective geometric morphism]] $i_!\vdash i^*\vdash i_*: Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}\;$. Here the [[inverse image]] $i^*:Set^{\Delta Q^{op}}\to Set^{\Delta^{op}}$ extends a presheaf $P$ on $\Delta Q$ to one on $\Delta$ by precompostion: $i^*(P)=P\circ i^{op}\,$.
+* As usual for [[crossed group|crossed groups]] (or, more generally, for functors between small categories that are surjective on objects; cf. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], pp.359, 377f), the inclusion $i:\Delta\to \Delta Q$ induces by [[Kan extension]] an [[essential geometric morphism|essential]] [[surjective geometric morphism]] $i_!\vdash i^*\vdash i_*: Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}\;$. Here the [[inverse image]] $i^*:Set^{\Delta Q^{op}}\to Set^{\Delta^{op}}$ restricts a presheaf $P$ on $\Delta Q$ to one on $\Delta$ by pre-composition: $i^*(P)=P\circ i^{op}\,$.
 
-* Since $i:Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}$ is surjective, it follows again by generalities (e.g. [[Sheaves in Geometry and Logic|Moerdijk-Maclane]], p.372) that $Set^{\Delta Q^{op}}$ is (equivalent to) the category of coalgebras for a [[left exact]] [[comonad]] on $Set^{\Delta^{op}}$ whence quaternionic sets are indeed [[simplicial set|simplicial sets]] enhanced with a quaternionic coalgebra structure. (For an explicit description of the free [[skew-simplicial set]] on a [[simplicial set]] and the corresponding monad for general crossed groups $G_*$ see [Krasauskas](#Krasauskas87).)
+* Since $i:Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}$ is surjective, it follows again by generalities that $Set^{\Delta Q^{op}}$ is (equivalent to) the category of algebras for the [[monad]] induced by $i^*i_!$ on $Set^{\Delta^{op}}$ whence quaternionic sets are indeed [[simplicial set|simplicial sets]] enhanced with a quaternionic algebra structure (cf. [Berger-Moerdijk](#BM11) ex. 6.8). (For an explicit description of the free [[skew-simplicial set]] on a [[simplicial set]] and the corresponding monad for general crossed groups $G_*$ see [Krasauskas](#Krasauskas87).)
+
+* Since, accordingly, $i_!:Set^{\Delta^{op}}\to Set^{\Delta Q^{op}}$ is a [[free functor]], it follows that $i^*$ creates [[absolute colimit|absolute pushouts]] whence $\Delta Q$ is an [[Eilenberg-Zilber category]] with degree function $deg:\Delta Q\to \mathbb{N}$ inherited from $\Delta$. The same holds for other types of [[skew-simplicial set|skew simplicial sets]], or more generally, for [[crossed group|crossed groups]] over a strict [[Reedy category]] (cf. [Berger-Moerdijk](#BM11) ex. 6.8).
 
 * Truncating $\Delta Q$ at $[1]$ and taking presheaves, one obtains a _category of quaternionic graphs_ $Set^{\Delta Q_{\leq 1}^{op}}$ with a $Q_2$ action, just like [[graphic category|reflexive graphs]] result from $\Delta_1$, resp. reversible graphs from truncating $\Delta S$ in the [[symmetric set|symmetric simplex category]].
 
@@ -72,6 +74,8 @@ A **quaternionic set** is a [[presheaf]] on $\Delta Q$.
 * {#Krasauskas87}R. Krasauskas, _Skew-simplicial groups_, Lithuanian Math. J. **27** pp.47-54 (1987).
 
 * {#FL91}Zbigniew Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_, Trans. AMS **326** pp.57-87 (1991).
+
+*  {#BM11}[[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Math. Z. **269** (2011) pp.977-1004. ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
 
 * [[Tobias Dyckerhoff]], [[Mikhail Kapranov]], _Crossed simplicial groups and structured surfaces_, arXiv:1403.5799 (2014). ([abstract](https://arxiv.org/abs/1403.5799))
 
