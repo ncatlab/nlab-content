@@ -947,6 +947,8 @@ Now assume that $\mathbf{C}$ is in addition a [[symmetric monoidal category|symm
 
 * [[internal hom]] denoted $[-,-] \,\colon\, \mathbf{C}^{op} \times \mathbf{C} \to \mathbf{C}$
 
+The projective model structures $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ inherit monoidal model structure, by an evident generalization of the argument in [Berger & Moerdijk (2006), Lem. 2.5.2](Borel+model+structure#BergerMoerdijk2006).
+
 \begin{definition}\label{ExternalTensorProduct}
 **(external tensor product)**
 \linebreak
