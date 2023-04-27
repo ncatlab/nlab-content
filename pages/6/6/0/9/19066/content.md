@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -128,9 +129,11 @@ We consider:
 
 For 
 
-* $\mathcal{X} \in sGrpd$ a Dwyer-Kan [[simplicial groupoid]], i.e an [[sSet]]-[[enriched groupoid]] (to be regarded as a [[small category|small]] [[sSet-enriched category]]),
+* $X \in sSet$ a [[simplicial set]]
 
-* $\mathbf{v}_\ast \mathcal{X} \,\in\, \mathbf{V} Cat$ its induced  $\mathbf{V}$-[[enriched category]],
+* $\mathcal{X} \coloneqq \mathcal{G}(X) \in sGrpd$ its [[Dwyer-Kan simplical path groupoid]], as [[sSet]]-[[enriched groupoid]] to be regarded as a [[small category|small]] [[sSet-enriched category]],
+
+* $\mathbf{v}_\ast \mathcal{X} \,\in\, \mathbf{V} Cat$ its [[change of enrichment|induced]]  $\mathbf{V}$-[[enriched category]],
 
 we write
 
@@ -148,7 +151,7 @@ $$
 for the $\mathbf{V}$-[[enriched functor category]] from $\mathbf{v}_\ast\mathcal{X}$ to $\mathbf{C}$, 
 regarded as equipped with its [[projective model structure on functors]] --- which exists (due to [this Theorem](model+structure+on+functors#CofGenProj)) by the assumption that $\mathbf{C}$ is combinatorial and all objects of $\mathbf{V}$ are cofibrant.
 
-We denote the generic object here
+In general we denote the objects of these categories as
 
 $$
   \mathscr{V}_{\mathcal{X}}
@@ -161,48 +164,46 @@ $$
   \,.
 $$
 
-By [[left Kan extension]] $(-)_!$ these categories arrange into a [[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
+By [[left Kan extension]] $(-)_!$ these categories arrange into an [[indexed category]], namely a[[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
 $$
   \array{
     \mathllap{
       \mathbf{C}^{(-)}
       \;\colon\;
     }
-    sGrpd &\longrightarrow& Cat
+    sSet &\longrightarrow& Cat
     \\
-    \mathcal{X} 
+    X 
       &\mapsto& 
-    \mathbf{C}^{\mathcal{X}}
+    \mathbf{C}^{\mathcal{G}(X)}
     \\
     \Big\downarrow\mathrlap{{}^f}
     && 
     \Big\downarrow\mathrlap{{}^{f_!}}
     \\
-    \mathcal{Y}
+    Y
     &\mapsto&
-    \mathbf{C}^{\mathcal{X}}
+    \mathbf{C}^{\mathcal{G}(Y)}
   }
 $$
-
-> (Should change the base to [[sSet]] and precompose the abve pseudofunctor with the [[Dwyer-Kan path groupoid]]-construction.)
 
 whose [[Grothendieck construction]] we abbreviate by
 \[
   \label{CategoryOfParameterizedObjects}
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
   \;\;
     \coloneqq
   \;\;
-  \underset{\mathcal{X} \in sGrpd}{\int}
-  \mathbf{C}^{\mathcal{X}}
+  \underset{X \in sSet}{\int}
+  \mathbf{C}^{\mathcal{G}(X)}
   \,.
 \]
 
-We may think of this as the category of *$sGrpd$-parameterized objects of $\mathbf{C}$*.
+We may think of this as the category of *objects of $\mathbf{C}$ parameterized over [[infinity-groupoids|$\infty$-groupoids]]*.
 
 
-We denote the component morphisms of 
-morphisms in $\mathbf{C}_{sGrpd}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
+We will denote the components of 
+morphisms in $\mathbf{C}_{sSet}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
 $$
   \text{i.e.}
   \;\;\;
@@ -227,8 +228,8 @@ $$
     &\overset{}{\longrightarrow}&
     \mathcal{Y}
   \end{array}
-  \,.
 $$
+(because in this form their [[external tensor product]] is more readily expressed, see [below](#ExternalTensorProduct)).
 \end{definition}
 
 \begin{remark}\label{InitialParameterizedObject}
@@ -236,13 +237,13 @@ $$
 \linebreak
 So with the [[initial objects]] 
 
-* of $sGrpd$ denoted $\varnothing$
+* of $sSet$ or $sGrpd$ denoted $\varnothing$
 
 * of $\mathbf{C}$ denoted $0$;
 
 * of $\mathbf{C}^{\mathcal{X}}$ denoted $0_{\mathcal{X}}$;
 
-the [[initial object]] of $\mathbf{C}_{sGrpd}$ is denoted
+the [[initial object]] of $\mathbf{C}_{sSet}$ is denoted
 
 * $0_{\varnothing} \,\in\, \underset{\simeq \{0_{\varnothing}\}}{\underbrace{\mathbf{C}^{\varnothing}}} \,\in\, \mathbf{C}_{sGrpd}$.
 
@@ -300,11 +301,11 @@ the [[initial object]] of $\mathbf{C}_{sGrpd}$ is denoted
 Then the [[pseudofunctor]] on the [[model category of simplicial groupoids]] which sends a [[simplicial groupoid]] $\mathcal{X}$ to the [[projective model structure on simplicial functors]] $\mathbf{C}^{\mathcal{X}}_{proj}$
 $$
   \array{
-    sGrpd &\longrightarrow& ModCat
+    sSet &\longrightarrow& ModCat
     \\
     \mathcal{X} 
       &\mapsto& 
-    \mathbf{C}^{\mathcal{X}}_{proj}
+    \mathbf{C}^{\mathcal{G}(X)}_{proj}
     \\
     \Big\downarrow\mathrlap{^f}
     && 
@@ -312,19 +313,20 @@ $$
     \\
     \mathcal{Y}
     &\mapsto&
-    \mathbf{C}^{\mathcal{X}}_{proj}
+    \mathbf{C}^{\mathcal{G}(Y)}_{proj}
   }
 $$
 is relative and proper (in the sense [above](#Definition)), hence the integral model structure (Prop. \ref{ExistenceStatement}) on the category of *parameterized $\mathbf{C}$ objects* (eq:CategoryOfParameterizedObjects)
 $$
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
   \;\;\coloneqq\;\;
-  \underset{\mathcal{X} \in sGrpd}{\int}
-  \mathbf{C}^{\mathcal{X}}_{proj}
+  \underset{X \in sSet}{\int}
+  \mathbf{C}^{\mathcal{G}(X)}_{proj}
 $$
 exists.
 \end{proposition}
 \begin{proof}
+First to prove that the pseudofunctor is relative, here is a lazy argument:
 By general results in [[Higher Topos Theory]], the given pseudofunctor presents the [[(infinity,1)-functor|$\infty$-functor]] 
 $$
   \array{
