@@ -401,7 +401,9 @@ More generally, if a [[small category]] $\mathcal{S}$ has [[finite products]] an
 
 ### Homological algebra and stable homotopy theory
 
-* The category of [[chain complex]]es with the usual [[tensor product]] of chain complexes and the [[model structure on chain complexes|projective model structure]].
+* The [[category of chain complexes]] with the usual [[tensor product of chain complexes]] carries various monoidal model category structures, see 
+
+* the [[model structure on chain complexes]].
 
 With respect to a [[symmetric monoidal smash product of spectra]]:
 
