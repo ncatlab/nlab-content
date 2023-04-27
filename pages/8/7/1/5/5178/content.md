@@ -238,11 +238,11 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 
 ## References
 
-Indexed categories were introduced and developed by [[Lawvere]] in early 1970s.  Further contributions were made by [[Bénabou]].  An early account of the theory can be found in
+The notion of indexed categories were introduced and developed by [[Lawvere]] in early 1970s.  Further contributions were made by [[Bénabou]].  An early account of the theory can be found in
 
-* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics 661 (1978).  [doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362).
+* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
 
-Original motivation from [[categorical semantics]] in [[computer science]]:
+Discussion in the context of [[categorical semantics]] in [[computer science]]:
 
 * {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
 
