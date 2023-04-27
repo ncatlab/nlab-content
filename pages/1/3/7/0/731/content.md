@@ -167,6 +167,10 @@ Relating the Dwyer-Kan loop groupoid-construction to the [[homotopy coherent ner
 [[!redirects Dwyer--Kan path groupoid]]
 [[!redirects Dwyer--Kan path groupoids]]
 
+[[!redirects Dwyer-Kan simplicial path groupoid]]
+[[!redirects Dwyer-Kan simplicial path groupoids]]
+[[!redirects Dwyer--Kan simplicial path groupoid]]
+[[!redirects Dwyer--Kan simplicial path groupoids]]
 
 
 
