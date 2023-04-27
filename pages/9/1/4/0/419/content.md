@@ -447,7 +447,7 @@ such that
 +-- {: .un_prop}
 ###### Proposition
 
-Under these conditions there is for each [[finite group]] $G$ the structure of a [[monoidal model category]] on the [[Borel model structure]] $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[group action|action]], for which the [[forgetful functor]]
+Under these conditions there is for each [[discrete group]] $G$ the structure of a [[monoidal model category]] on the [[Borel model structure]] $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[group action|action]], for which the [[forgetful functor]]
 
 $$
   \mathcal{E}^{\mathbf{B}G} \to \mathcal{E}
