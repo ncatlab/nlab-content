@@ -120,7 +120,7 @@ The [[2-category]] $Acc$ of accessible categories, accessible functors, and natu
 
 =--
 
-This can be found in [Makkai-Par&#233;](#MakkaiPare).  Some special cases are proven in [Ad&#225;mek-Rosick&#253;](#AdamekRosicky).
+This can be found in [Makkai & Paré (1989)](#MakkaiParé1989).  Some special cases are proven in [Ad&#225;mek-Rosick&#253;](#AdamekRosicky).
 
 
 
@@ -153,7 +153,7 @@ A [[small category]] is accessible precisely when it is [[idempotent complete ca
 
 =--
 
-[Makkai-Par&#233;](#MakkaiPare) say that this means accessibility is an "almost pure smallness condition."
+[Makkai & Paré (1989)](#MakkaiParé1989) say that this means accessibility is an "almost pure smallness condition."
 
 
 ### Categories of models over a theory
@@ -211,10 +211,9 @@ See at _[Functor category -- Accessibility](functor+category#LocalPresentability
 
 The term _accessible category_ is due to
 
-* {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
+* {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
 
-
-A standard textbook on the theory of accessible categories:
+Further monographs (with focus on [[locally presentable categories]]):
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994) 
 
