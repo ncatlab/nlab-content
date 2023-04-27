@@ -150,7 +150,9 @@ d_0(f_1)=d_0(f_2)\wedge d_1(f_1)=d_1(f_2)\vdash \exists f_3\exists f_4\big (C(f_
 
 * {#Law63}F. W. Lawvere, _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
 
-* {#Law66}F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
+* {#Law66} *[[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp. 1-20 in: [[John W. Gray]], *Fibred and Cofibred Categories*, in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 
 * {#Tierney76}[[Myles Tierney]], _Forcing Topologies and Classifying Toposes_ , pp.211-219 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_  , Academic Press New York 1976.
 
