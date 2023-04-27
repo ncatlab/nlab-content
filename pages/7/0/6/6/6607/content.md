@@ -1,11 +1,21 @@
 
-# Contraction
-* table of contents
-{: toc}
+The term *contraction* can mean:
 
-## Disambiguation
+* in [[metric space]] theory: see *[[short map]]*
 
-In [[physics]], __contraction__ is a dilation with coefficient $\lambda\lt 1$. This notion is used in fixed point theory, theory of topological vector spaces etc. There is also a notion of contraction from [[metric space]] theory; see [[short map]]. There is also a notion of [[tensor contraction]]. There is also a notion of contraction in [[dependent type theory]]; see [[center of contraction]]. Finally, the [[contraction rule]] is a structural rule in [[logic]] and [[type theory]]. 
+* in [[fixed point]] theory and [[topological vector spaces]]: dilation with coefficient $\lambda\lt 1$ 
+
+* in [[differential geometry]]/[[linear algebra]]: *[[tensor contraction]]* refers to the [[evaluation]] of [[tensors]] on each other (such as of [[differential forms]] on [[vector fields]]).
+
+* in [[formal logic]] and [[type theory]]: the *[[contraction rule]]* is one of the [[structural rules]],
+
+* [[homotopy theory]]: see at [[contractible homotopy type]]
+
+  for the corresponding notion in
+
+  [[homotopy type theory]] see: *[[center of contraction]]*
+
+
 
 category: disambiguation
 
