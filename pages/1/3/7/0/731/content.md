@@ -162,3 +162,11 @@ Relating the Dwyer-Kan loop groupoid-construction to the [[homotopy coherent ner
 [[!redirects Joyal-Tierney loop groupoid]]
 [[!redirects Joyal-Tierney loop groupoids]]
 
+[[!redirects Dwyer-Kan path groupoid]]
+[[!redirects Dwyer-Kan path groupoids]]
+[[!redirects Dwyer--Kan path groupoid]]
+[[!redirects Dwyer--Kan path groupoids]]
+
+
+
+
