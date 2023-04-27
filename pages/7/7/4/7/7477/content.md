@@ -109,8 +109,8 @@ The (bi-) category $\mathfrak{CCD}$ with CCD lattices and sup-preserving maps is
 * [[Olivia Caramello]], _A topos-theoretic approach to Stone-type dualities_  , ms. 2011. ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello11}
 
-* B. Fawcett, R. J. Wood, _Constructive complete distributivity I_ , Math. Proc. Camb. Phil. Soc. **107** (1990)  pp.81-89.
- {#WoodFawcett}
+* {#WoodFawcett} [[Barry Fawcett]], [[Richard J. Wood]], *Constructive complete distributivity I* , Math. Proc. Camb. Phil. Soc. **107** (1990) 81-89 &lbrack;[doi:10.1017/S0305004100068377](https://doi.org/10.1017/S0305004100068377)&rbrack;
+ 
 
 * R. Guitart, J. Riguet, _Enveloppe Karoubienne de Cat&#233;gories de Kleisli_ , Cah. Top. Geom. Diff. Cat. **XXXIII** no.3 (1992) pp.261-266. ([pdf](http://archive.numdam.org/article/CTGDC_1992__33_3_261_0.pdf))
 
