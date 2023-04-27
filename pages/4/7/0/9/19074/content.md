@@ -4,9 +4,19 @@ Richard Wood is a mathematician specializing in category theory and lattice theo
 
 ## Selected writings
 
+On [[indexed categories]]:
+
+* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
+
+
 On [[total categories]]:
 
 * {#Wood82} [[Richard J. Wood]], *Some remarks on total categories*, J. Algebra **75** 2 (1982) 538-545 &lbrack;<a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi:10.1016/0021-8693(82)90055-2</a>&rbrack;
+
+
+On [[completely distributive lattices]]:
+
+* {#WoodFawcett} [[Barry Fawcett]], [[Richard J. Wood]], *Constructive complete distributivity I* , Math. Proc. Camb. Phil. Soc. **107** (1990) 81-89 &lbrack;[doi:10.1017/S0305004100068377](https://doi.org/10.1017/S0305004100068377)&rbrack;
 
 
 Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] extends to the [[left adjoint|left]] to an [[adjoint quintuple]] of [[adjoint functors]]:
@@ -43,3 +53,5 @@ On [[lenses (in computer science)]]:
 
 
 [[!redirects Richard Wood]] 
+
+[[!redirects R. J. Wood]]
