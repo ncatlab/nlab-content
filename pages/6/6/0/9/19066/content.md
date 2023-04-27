@@ -939,7 +939,7 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 #### Monoidal model structure
  {#MonoidalModelStructureOnParameterizedObjects}
 
-> The following proof remains incomplete. Am working on filling in the last step "..." at the end.
+> Still to spell out some technical bits in Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below...
 
 Now assume that $\mathbf{C}$ is in addition a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with
 
@@ -1087,7 +1087,7 @@ This formula for the adjunct is the total left morphism in the following commuti
       \\
       && 
       \mathcal{Y}
-      \mathrmal{\,,}
+      \mathrlap{\,,}
     }
   $$
 
@@ -1098,10 +1098,27 @@ This formula for the adjunct is the total left morphism in the following commuti
 
 The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with the pullback of a object of $\mathbf{C}^{\mathcal{X}'}$. 
 
-Thus it remains to see that pullback along product projections preserves cofibrations...
-
-(...)
+Thus it remains to see that pullback along product projections preserves cofibrations, this Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below.
 \end{proof}
+
+\begin{lemma}
+  \label{ExternalTensorWithUnitBundleIsLeftQuillen}
+  Pullback along a projection $pr_{Y} \colon X \times Y \to Y$  
+  $$
+    (pr_{Y})^\ast
+    \;\colon\;
+    \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(Y)}
+    \longrightarrow
+    \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X \times Y)}
+  $$
+is left Quillen.
+\end{lemma}
+\begin{proof}
+Sketch:
+We may equivalently produce a right adjoint and show that it is right Quillen. We claim that the right adjoint is the functor which takes an $\mathscr{V}_{\mathcal{G}_{\mathbf{v}}(Y)}$ to the parameterization over $Y^X$ which over $f \colon X \to Y$ is $\big(\mathcal{G}_{\mathbf{v}}(p_X)\big)_\ast \mathcal{G}_{\mathbf{v}}(f)^\ast \mathscr{V}$. 
+Now the pullback functor clearly preserves all fibrations and weak equivalences. Moreover, observe that the right push-forward to the *point* is equivalently the $\mathbf{V}$-[[copower]] out of $\mathbb{1} \in \mathbf{V}$ By the assumption that all object of $\mathbf{V}$ are cofibrant, this is a right Quillen functor by the [[pullback-power axiom]] satisfied in [[enriched model categories]].
+\end{proof}
+
 
 \linebreak
 
