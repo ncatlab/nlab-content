@@ -68,6 +68,9 @@ A counter-example is in [Schnürer 11, Remark 3.2](#Schnurer11)
 
 ## References
 
+* [[Francis Borceux]], Section 6.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+
 In [[triangulated categories]]:
 
 * {#BokstedtNeeman93} [[Marcel Bökstedt]], [[Amnon Neeman]], _Homotopy limits in triangulated categories_, Compositio Mathematica, tome 86, no 2 (1993) p. 209-234 ([numdam](http://www.numdam.org/item?id=CM_1993__86_2_209_0))
