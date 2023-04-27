@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
+=--
+=--
+=--
+
 # Contraction
 * table of contents
 {: toc}
@@ -23,7 +38,7 @@ These operations can be symmetrized or antisymmetrised appropriately to make sen
 
 For example, there is a contraction of a vector $X\in V$ and a $n$-form $\omega\in \Lambda V^*$:
 $$(X,\omega)\mapsto \iota_X(\omega)$$
-and $\iota_X: \omega\mapsto \iota_X(\omega)$ is a graded derivation of the exterior algebra of degree $-1$. This is also done for the tangent bundle which is a $C^\infty(M)$-module $V = T M$, then one gets the contraction of vector fields and differential forms. It can also be done in vector spaces, fibrewise.  
+and $\iota_X: \omega\mapsto \iota_X(\omega)$ is a graded derivation of the exterior algebra of degree $-1$. This is also done for the tangent bundle which is a $C^\infty(M)$-module $V = T M$, then one gets the contraction of [[vector fields]] and [[differential forms]]. It can also be done in vector spaces, fibrewise.  
 
 ## Related concepts
 
