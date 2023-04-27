@@ -880,7 +880,13 @@ But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of
   At least over a [[field]] $k$,
   the local model structure on $sCh_\bullet(k)$ from Prop. \ref{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes} becomes a [[monoidal model category]] via the $\Delta$-object-wise [[tensor product of chain complexes]], and the [[Quillen equivalence]] (eq:QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement) is a compatibly [[monoidal Quillen adjunction]] with respect to the corresponding monoidal model structure on $Ch_\bullet(k)$ from Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}, Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}.
 \end{proposition}
-For the moment see the discussion at [MO:q/445397](https://mathoverflow.net/q/445397/381), [MO:a/445522](https://mathoverflow.net/a/445522/381), indicating a fairly straightforward check of the respective sufficient conditions from the literature on monoidal Bousfield localizations [here](Bousfield+localization+of+model+categories#ReferencesMonoidal).
+\begin{proof}
+  First, the plain [[Reedy model structure]] in $sCh_\bullet(k)$ becomes a [[monoidal model category]] under the objectwise [[tensor product of chain complexes]], by [Barwaick (2010), Thm. 3.51](monoidal+model+category#Barwick10) (beware that the notation "$\mathbf{M}(A)$" there does refer to the Reedy model structure on *presheaves*, $Func(A^{op}, \mathbf{M})$ (cf. p. 265), which means that the condition that $A^{\leftarrow}$ consists of epimorphisms *is* satisfied for our case where, under this notational convention, $A = \Delta$).
+
+Next, to see that this monoidal model structure passes to the [[Bousfield localization of model categories|left Bousfield localization]] of $sCh_\bullet(k)$ at the realization equivalences, it is sufficient to check (e.g. [White (2014), Thm. 4.6](Bousfield+localization+of+model+categories#White14)) that the [[tensoring]] of a realization equivalence with any chain complex is still a realization-[[local equivalence]], which here is evidently the case.
+
+It remains to observe that the Quillen equivalence to $Ch_\bullet(k)$ is monoidal Quillen, for an argument see [MO:q/445397](https://mathoverflow.net/q/445397/381), [MO:a/445522](https://mathoverflow.net/a/445522/381).
+\end{proof}
 
 
 \linebreak
