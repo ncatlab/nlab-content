@@ -856,9 +856,10 @@ Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence
 
 * {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._ , Journal of Algebra **1** (1964) pp.397-402. 
  
-The first monograph-length discussion appeared in
+The first monograph:
 
-* {#EilKel66} [[Samuel Eilenberg|S. Eilenberg]], [[Max Kelly|M. G. Kelly]], *Closed Categories*, pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
+* {#EilKel66} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 
 Other textbook accounts include
 
