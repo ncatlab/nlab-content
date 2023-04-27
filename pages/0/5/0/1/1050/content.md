@@ -186,20 +186,19 @@ The properties of corollary \ref{ExactFunctorPreservesExactSequences} explain th
 
 * [[satellite]]
 
+
 ## References
 
+An early use of _left exact_ and _exact_:
 
-An early use of _left exact_ and _exact_ is in:
-
-*  [[A. Grothendieck]], 1959, _Technique de descente et th&#233;or&#232;mes d'existence 
-en g&#233;om&#233;trie alg&#232;brique. II. Le th&#233;or&#232;me d'existence en th&#233;orie formelle
-des modules_, in S&#233;minaire Bourbaki, Vol. 5 , Exp. No. 195, 369 &#8211; 390, 
+*  [[A. Grothendieck]], 1959, _Technique de descente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#232;brique. II. Le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, in S&#233;minaire Bourbaki, Vol. 5 , Exp. No. 195, 369 &#8211; 390, 
 Soc. Math. France [Numdam](http://www.numdam.org/numdam-bin/item?id=SB_1958-1960__5__369_0), Paris. 
 
+General discussion
 
-A general discussion is for instance in section 3.3 of
+* [[Francis Borceux]], Section 6.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 3.3 in: _[[Categories and Sheaves]]_
 
 A detailed discussion of how the property of a functor being exact is related to the property of it preserving homology in generalized situations is in 
 
