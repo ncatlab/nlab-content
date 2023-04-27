@@ -404,7 +404,7 @@ $$
     && 
     \searrow\mathrlap{{}^{\mathcal{G}_{\mathbf{v}}(f)_{x,x}}}
     \\
-    \mathcal{X} 
+    \mathcal{G}_{\mathbf{v}}(X) 
       && && 
     \mathbf{B}\mathcal{G}_{\mathbf{v}}(Y)_{f(x),f(x)}
     \\
