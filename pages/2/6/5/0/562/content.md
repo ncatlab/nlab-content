@@ -320,7 +320,7 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 ## References 
  {#References}
 
-The concept was introduced in the context of [[descent theory]] in
+The concept was introduced in the context of [[descent theory]] and in the guise now known as [[indexed categories]], in
 
 * {#Grothendieck60} [[Alexander Grothendieck]], p. 300 in: *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire [[N. Bourbaki]] exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
 
@@ -328,14 +328,21 @@ and then elaborated on in
 
 * [[Alexander Grothendieck]], expos&#233; VI of: _Rev&#234;tements Etales et Groupe Fondamental - S&#233;minaire de G&#233;ometrie Alg&#233;brique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
 
-Reviewed in:
+Another important early reference:
+
+* {#Gray} [[John W. Gray]], *Fibred and Cofibred Categories*, pp. 21-83 in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+Early development of the theory:
+
+* {#Bénabou1975} [[Jean Bénabou]], _Fibrations petites et localement petites_, C. R. Acad. Sci. Paris **281** Série A (1975) 897-900 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171.image#)&rbrack;
+
+* {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
+
+
+Review:
 
 * [[Barbara Fantechi]], [[Lothar Göttsche]], [[Luc Illusie]], [[Steven L. Kleiman]], [[Nitin Nitsure]], [[Angelo Vistoli]], Chapter 3 of: _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) &lbrack;[MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001), [ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [lecture notes](http://indico.ictp.it/event/a0255/other-view?view=ictptimetable)&rbrack;
 
-
-Another important early reference is
-
-* {#Gray} [[John W. Gray]], *Fibred and Cofibred Categories*, in [[Samuel Eilenberg|Eilenberg]], Harrison, [[Saunders MacLane|MacLane]], Röhrl (eds.), *Proceedings of the Conference on Categorical Algebra - La Jolla 1965*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 Textbook accounts:
 
@@ -371,9 +378,6 @@ B&#233;nabou's perspective on fibrations and some results related to Moens' thes
 
 * {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean B&#233;nabou_ , arXiv:1801.02927 (2018). ([abstract](https://arxiv.org/abs/1801.02927))
 
-B&#233;nabou _en personne_ on the role of fibrations in the foundations of category theory and on differences to [[indexed categories]]:
-
-* [[Jean Bénabou]], _Fibered Categories and the Foundations of Naive Category Theory_ , JSL **50** (1985) pp.10-37.
 
 The following lecture notes stress the original perspective of [[algebraic geometry]]:
 
