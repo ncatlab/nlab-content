@@ -338,6 +338,7 @@ For example, consider the [[canonical indexing]] of a locally small category $A$
 
 
 ### The equivalence between fibrations and pseudofunctors
+ {#EquivalenceBetweenFiberedCategoriesAndPsuedofunctors}
 
 One can characterize the _image_ of the Grothendieck construction
 as consisting precisely of those objects in $Cat/C$ that are
