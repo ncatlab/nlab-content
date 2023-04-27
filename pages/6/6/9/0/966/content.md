@@ -143,13 +143,12 @@ gives a subobject $k$ of $\prod_s k_s$ that maps to $x$, and into which $0$ embe
 =--
 
 In practice an important special case is that of functors between
-[[locally presentable categories]]. For these there is the following 
-version of an adjoint functor theorem.
+[[locally presentable categories]]. For these there is the following version of an adjoint functor theorem.
 
 +-- {: .num_theorem #AdjFuncTheoremForLocallyPresentableCats}
 ###### Theorem
 
-Let $F : C \to D$ be a functor between [[locally presentable categories]]. Then
+Let $F \colon C \to D$ be a functor between [[locally presentable categories]]. Then
 
 * $F$ has a [[right adjoint]] if and only if it preserves all small [[colimits]].
 
