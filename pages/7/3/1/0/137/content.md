@@ -169,7 +169,7 @@ The converse of the above proposition fails, and an epimorphism is called a [[re
 +-- {: .num_prop}
 ###### Proposition
 
-Epimorphisms are preserved by [[pushout]]: if $f : x \to y$ is an epimorphism and
+Epimorphisms are preserved by [[pushout]]: if $f \colon x \to y$ is an epimorphism and
 
 $$
   \array{
@@ -195,7 +195,7 @@ Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{
 +-- {: .num_prop}
 ###### Proposition
 
-Epimorphisms are preserved by any [[left adjoint]] [[functor]], or more generally any functor that preserves [[pushouts]]: if $F : C \to D$ is a [[functor]] that preserves pushouts and $f \in Mor(C)$ an epimorphism then $F(f) \in Mor(D)$ is an epimorphism.
+Epimorphisms are preserved by any [[left adjoint]] [[functor]], or more generally any functor that preserves [[pushouts]]: if $F \colon C \to D$ is a [[functor]] that preserves pushouts and $f \in Mor(C)$ an epimorphism then $F(f) \in Mor(D)$ is an epimorphism.
 
 =--
 
