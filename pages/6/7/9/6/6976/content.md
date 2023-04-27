@@ -31,10 +31,9 @@ This is ([Johnstone, theorem B2.4.6](#Johnstone)).
 
 ## References
 
-* R. Par&#233;, D. Schumacher, _Abstract families and the adjoint functor theorems_, in _Indexed categories and their applications_, Lecture Notes in Math. vol 661 Springer (1978)
+* [[Robert Paré]], Dietmar Schumacher, *Abstract families and the adjoint functor theorems*, in _Indexed categories and their applications_, Lecture Notes in Math. **661** Springer (1978) &lbrack;[doi:10.1007/BFb0061361](https://doi.org/10.1007/BFb0061361)&rbrack;
 
-Section B2.4 in 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], Section B2.4 in: _[[Sketches of an Elephant]]_
+ 
 
