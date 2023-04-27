@@ -16,6 +16,10 @@ On [[topos theory]]:
 
 *  _[[Elephant|Sketches of an elephant: a topos theory compendium]]_, Oxford University Press (2002)
 
+On [[indexed categories]]:
+
+* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
+
 On [[Stone spaces]] and [[Stone duality]]:
  
 *  _[[Stone Spaces]]_ (1982)
