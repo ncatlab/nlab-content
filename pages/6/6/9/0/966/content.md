@@ -440,6 +440,6 @@ A relative version of Freyd's classical results is in
 
 [[indexed adjoint functor theorem|Adjoint functor theorems for indexed categories]] are discussed in
 
-* [[Robert Paré]], Dietmar Schumacher, _Abstract Families and the Adjoint Functor Theorems_ , pp.1-125 in LNM **661** Springer Heidelberg 1978.
+* [[Robert Paré]], [[Dietmar Schumacher]], _Abstract Families and the Adjoint Functor Theorems_ , pp.1-125 in LNM **661** Springer Heidelberg 1978.
 
 [[!redirects adjoint functor theorems]]
