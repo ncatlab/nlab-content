@@ -67,7 +67,9 @@ Contexts for developing formal category theory:
 
 An axiomatization of (just) the ([[very large category|very large]]) [[1-category]] of all categories, but fully in [[formal logic]] is the *[[elementary theory of the category of categories]]* (ETCC) due to:
 
-* {#Law66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
+* {#Law66} *[[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp. 1-20 in: [[John W. Gray]], *Fibred and Cofibred Categories*, in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 
 The undertaking of laying these foundations instead for the [[2-category]] of all categories is famously associated with:
 
