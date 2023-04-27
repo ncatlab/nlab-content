@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On [[categorical algebra]]:
+
+* [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 On [[totally convex spaces]]:
 
 * [[Dieter Pumplün]], [[Helmut Röhrl]]: _Banach Spaces and totally convex spaces I_, Comm. Alg. **12** 8 (1984) 953-1019 &lbrack;[doi:10.1080/00927878408823035](https://doi.org/10.1080/00927878408823035)&rbrack;
@@ -19,3 +24,5 @@ On [[totally convex algebras]]:
 &lbrack;[pdf](http://emis.maths.tcd.ie/journals/CMUC/pdf/cmuc9202/pump.pdf), [dml:10338.dmlcz/118490](https://dml.cz/handle/10338.dmlcz/118490)&rbrack;
 
 category: people
+
+[[!redirects H. Röhrl]]
