@@ -1,5 +1,9 @@
 
 $$
+  \mathbb{1}
+$$
+
+$$
   \array{ 
     \mathcal{X}_i
     \times
