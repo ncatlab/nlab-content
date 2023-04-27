@@ -64,7 +64,12 @@ On [[homotopy 3-types]]:
 
 * {#WhiteheadMacLane50} (with [[J. H. C. Whitehead]]) _On the 3-type of a complex_, Proc. Nat. Acad. Sci.  U.S.A., 36, (1950), 41 &#8211; 48 (N.B.  Their 3-type is the modern 2-type.)
 
-On [[classical mechanics]]
+On [[categorical algebra]]:
+
+* [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
+On [[classical mechanics]]:
 
 * {#MacLane68} _Geometrical Mechanics_, Lectures 1968 ([web](https://harrydole.com/wp/2017/09/10/saunders-mac-lane-geometrical-mechanics/))
 
