@@ -98,3 +98,6 @@ Finishing the motivating example, a __[[flat functor]]__ may be defined as one t
 [[!redirects preserves]]
 [[!redirects preserved]]
 
+[[!redirects preserves colimits]]
+[[!redirects preserving colimits]]
+
