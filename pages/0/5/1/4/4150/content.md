@@ -39,10 +39,16 @@ An account of the basics may be found at _[[geometry of physics -- categories an
 
 ## References
 
+Some references use "categorical algebra" much as a synonym for [[category theory]] as such:
+ 
+* [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994)
+
+Discussion more focused on actual [[universal algebra]]:
+
 * [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
 
-
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, III Vols. 
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
