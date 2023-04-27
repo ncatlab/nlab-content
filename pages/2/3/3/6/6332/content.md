@@ -5,6 +5,9 @@ Bob Rosebrugh is a [[category theory|category theorist]], based in New Brunswick
 
 ## Selected writings:
 
+On [[indexed categories]]:
+
+* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
 
 
 Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] extends to the [[left adjoint|left]] to an [[adjoint quintuple]] of [[adjoint functors]]:
@@ -39,3 +42,5 @@ On [[lenses (in computer science)]]:
 
 [[!redirects Bob Rosebrugh]]
 [[!redirects Rosebrugh]]
+
+[[!redirects R. D. Rosebrugh]]
