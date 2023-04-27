@@ -58,12 +58,10 @@ If follows that every [[object]] in a locally presentable category is a [[small 
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-The _locally_ in _locally presentable category_ refers to the fact that it is the _objects_  that are presentable, not the category as such (which is itself an object of [[Cat]]). This permits the distinction between, for instance, locally presentable categories, and [[finitely presentable objects]] of [[Cat]], which could be called "finitely presentable categories". In practice, however, it is common to drop "locally" from "locally presentable category" without modifying the meaning.
-
-=--
+\begin{remark}
+\label{Terminology}
+The _locally_ in _locally presentable category_ refers to the fact that it is the _[[objects]]_ of (in) the category that are presentable, not the category as such (which is itself an [[object]] of [[Cat]]). This permits the distinction between, for instance, locally presentable categories, and [[finitely presentable objects]] of [[Cat]], which could be called "finitely presentable categories". In practice, however, it is common to drop "locally" from "locally presentable category" without modifying the meaning.
+\end{remark}
 
 
 +-- {: .num_remark}
