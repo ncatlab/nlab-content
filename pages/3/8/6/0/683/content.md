@@ -1069,7 +1069,7 @@ Classical references:
 
 * {#BousfieldKan} [[Aldridge K. Bousfield]] and [[Daniel M. Kan]], Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
 
-*  [[R. M. Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52.
+* {#Vogt73} [[Rainer Vogt]], *Homotopy limits and colimits*, Math. Z. __134__ (1973) 11-52 &lbrack;[eudml:171965](https://eudml.org/doc/171965), [doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090)&rbrack;
 
 See
 
