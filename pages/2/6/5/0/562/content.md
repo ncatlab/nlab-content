@@ -328,6 +328,11 @@ and then elaborated on in
 
 * [[Alexander Grothendieck]], expos&#233; VI of: _Rev&#234;tements Etales et Groupe Fondamental - S&#233;minaire de G&#233;ometrie Alg&#233;brique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
 
+Reviewed in:
+
+* [[Barbara Fantechi]], [[Lothar Göttsche]], [[Luc Illusie]], [[Steven L. Kleiman]], [[Nitin Nitsure]], [[Angelo Vistoli]], Chapter 3 of: _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) &lbrack;[MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001), [ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [lecture notes](http://indico.ictp.it/event/a0255/other-view?view=ictptimetable)&rbrack;
+
+
 Another important early reference is
 
 * {#Gray} [[John W. Gray]], *Fibred and Cofibred Categories*, in [[Samuel Eilenberg|Eilenberg]], Harrison, [[Saunders MacLane|MacLane]], Röhrl (eds.), *Proceedings of the Conference on Categorical Algebra - La Jolla 1965*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
