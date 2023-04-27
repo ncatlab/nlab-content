@@ -1084,7 +1084,11 @@ Discussion with the model of [[∞-groups]] by [[simplicial groups]] replaced by
 
 * [[Matan Prasma]], _Segal Group Actions_ ([arXiv:1311.4749](http://arxiv.org/abs/1311.4749))
 
-Discussion of a [[global equivariant homotopy theory|globalized]] model structure for actions of all simplicial groups is in
+Discussion of [[monoidal model category]]-enhancement on the Borel model structure:
+
+* {#BergerMoerdijk2006} [[Clemens Berger]], [[Ieke Moerdijk]], §2.5 in: *The Boardman-Vogt resolution of operads in monoidal model categories*, Topology **45** (2006) 807-849 &lbrack;[arXiv:math/0502155](https://arxiv.org/abs/math/0502155), [doi:10.1016/j.top.2006.05.001](https://doi.org/10.1016/j.top.2006.05.001)&rbrack;
+
+Discussion of a the [[integral model structure]] for actions of all simplicial groups:
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], section 6.2 of _The Grothendieck construction for model categories_ ([arXiv:1404.1852](http://arxiv.org/abs/1404.1852))
 
