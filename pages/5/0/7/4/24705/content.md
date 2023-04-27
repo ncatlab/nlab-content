@@ -1236,6 +1236,8 @@ The [[quantum bit flip code]] for 3-qbit encoding:
 
 * {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)*, talk at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)* @ *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Nov 2022) &lbrack;[pdf](/schreiber/files/QuantumDataInLHoTT-221117.pdf)&rbrack;
 
+* [[David J. Myers]], [[Mitchell Riley]], [[Hisham Sati]],[[Urs Schreiber]], *[[schreiber:Effective Quantum Certification via Linear Homotopy Types]]*, extended abstract for QPL 2023 &lbrack;[pdf](https://ncatlab.org/schreiber/files/QPinLHOTT-ExtendedAbstract-230328.pdf)&rbrack;
+
 
 The above figure of an SQRAM scheme is taken from:
 
