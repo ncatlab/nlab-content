@@ -238,9 +238,13 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 
 ## References
 
-Section B1.2 in 
+Original motivation from [[categorical semantics]] in [[computer science]]:
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
+
+Discussion in a context of [[topos theory]]:
+
+* {#Johnstone} [[Peter Johnstone]], Section B1.2  in: _[[Sketches of an Elephant]]_ (2002)
+ 
 
 [[!redirects indexed categories]]
