@@ -210,7 +210,9 @@ There is a notion that is related to a [[bicategory]] in the same way that a clo
 
 Closed categories were first defined in:
 
-* {#EK65} [[Samuel Eilenberg]], [[Max Kelly]], *Closed categories*,  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965), Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_22](https://doi.org/10.1007/978-3-642-99902-4_22)&rbrack;
+* {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 
 Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]] in 
 
