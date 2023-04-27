@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -393,7 +394,7 @@ This appears for instance as [Centazzo-Rosick&#253;-Vitale, remark 3](#CentazzoR
 \label{LocallyPresentableGrothendieckConstruction}
 **(locally presentable Grothendieck constructions)**
 \linebreak
-Given a [[pseudofunctor]] with values in [[adjoint functors|adjunctions]]
+Given a [[pseudofunctor]] with values in [[adjoint functors|adjunctions]] as
 $$
   \array{
     \mathllap{
@@ -412,17 +413,19 @@ $$
     \mathcal{Y} &\mapsto& \mathbf{C}_{\mathcal{Y}}
   }
 $$
-such that 
+such that for some [[regular cardinal]] $\kappa$
 
-1. $Base$ is locally presentable,
+1. $Base$ is locally $\kappa$-presentable,
 
 1. each $\mathbf{C}_{\mathcal{X}}$ is locally presentable,
 
-1. $\mathbf{C}_{(-)}$ [[preserved colimit|preserves]] [[filtered colimit|filtered]] [[2-colimits]]
+1. $\mathbf{C}_{(-)}$ [[preserved colimit|preserves]] [[filtered colimit|$\kappa$-filtered]] [[2-limits]]
 
 then also the [[Grothendieck construction]] $\int \mathbf{C}$ is locally presentable.
 \end{proposition}
-([MO:a/102083](https://mathoverflow.net/a/102083/381))
+This follows, as explained in [MO:a/102083](https://mathoverflow.net/a/102083/381) from the analogous statement for [[accessible category|accessibility]] which appears as 
+[Makkai & Paré (1989), Prop. 5.3.1. (4)](accessible+category#MakkaiParé1989).
+
 
 ### Combinatorial model categories
 
