@@ -973,7 +973,11 @@ $$
 is a [[left Quillen functor]] on the integral model structure of Prop \ref{ModelStructureOnParameterizedObjects}.
 \end{lemma}
 \begin{proof}
-  For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration, 
+First to see that it is a [[left adjoint]]: By [this Prop.](external+tensor+product#CocontinuityAndAdjoints) it [[preserves colimits]] and by [this Prop.](locally+presentable+category#LocallyPresentableGrothendieckConstruction) our [[Grothendieck construction]]-category is [[locally presentable]], whence the existence of a [[right adjoint]] follows by the [[adjoint functor theorem]] ([this Prop.](adjoint+functor+theorem#AdjFuncTheoremForLocallyPresentableCats)).
+
+The bulk of the work is to see that the external tensor proserves (acyclic) cofibrations:
+
+For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration, 
 we need to show that the adjunct of the component map 
 
 $$
@@ -989,14 +993,13 @@ $$
 
 is an (acyclic) cofibration in $\mathbf{C}$. Here on the right we have inserted the operation $(f \times id)^\ast$ --- which we may since it equals the identity in its postcomposition with $(pr_{\mathcal{X}'})^\ast$. But with that term inserted, we may apply [[Frobenius reciprocity]] when computing the [[adjunct]] of this map as its image under $(f \times id)_!$ composed with the counit. 
 
-This formula for the adjunct is the total left morphism in the following commuting diagram. Here
+This formula for the adjunct is the total left morphism in the following commuting diagram. Here:
 
-* the top left square is the [[naturality square]] of the [[projection formula]]
+* the top left square is the [[naturality square]] of the [[projection formula]],
 
-* the bottom left square is from [this Remarj](Wirthmüller+context#ProjectionComposedWithCounitInRemainingVariable)
+* the bottom left square is from [this Remark](Wirthmüller+context#ProjectionComposedWithCounitInRemainingVariable),
 
 * the top right square is a [[Beck-Chevalley condition|Beck-Chevalley]] [[naturality square]] associated with the evident [[pullback]] square
-
 
   $$
     \array{
@@ -1017,12 +1020,12 @@ This formula for the adjunct is the total left morphism in the following commuti
       \\
       && 
       \mathcal{Y}
+      \mathrmal{\,,}
     }
   $$
 
 
 * the bottom right square expresses the equality of two ways of moving the zig-zag morphism through the [[pasting diagram]] further below to the top right, one direct and the other by first moving its to the bottom left, using that the pasting of the left two squares and that of the bottom three squares are isomorphisms.
-
 
 <img src="/nlab/files/LemmaDiagram-230424b.jpg" width="800">
 
