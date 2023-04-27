@@ -34,9 +34,10 @@ $$
 
 over a [[cartesian monoidal category]] $\mathbf{H}$.
 
-+-- {: .num_defn}
-###### Definition
 
+\begin{definition}\label{ExternalTensorProduct}
+**(external tensor product)**
+\linebreak
 Given $X_1, X_2 \in \mathbf{H}$ the _external tensor product_ over these is the [[functor]]
 
 $$
@@ -55,8 +56,7 @@ $$
 $$
 
 where $p_1, p_2$ denote the [[projection]] maps out of the [[Cartesian product]] $X_1 \times X_2 \in \mathbf{H}$.
-
-=--
+\end{definition}
 
 +-- {: .num_remark}
 ###### Remark
@@ -89,6 +89,318 @@ Under suitable conditions on compact generation of $Mod(-)$ then one may deduce 
 $Mod(X_1)$ and $Mod(X_2)$.
 
 ([Bondal-vdBerg 03](#BondalvdBerg03), [BFN 08, proof of prop. 3.24](#BFN08))
+
+### Cocontinuity and adjoints
+ {#CocontinuityAndAdjoints}
+
+Suppose that the monoidal fibration satisfies the [[motivic yoga]] in that:
+
+1. the corresponding [[pseudofunctor]] takes values in [[adjoint functors]]
+
+   $$
+     \array{
+       \mathllap{
+         \mathbf{C} \,\colon\,
+         \;
+       }
+       Base &\longrightarrow& Cat
+       \\
+       \mathcal{X} &\mapsto& \mathbf{C}_{\mathcal{X}}
+       \\
+       \Big\downarrow\mathrlap{{}^{f}}
+       &&
+       \mathllap{^{f^\ast}}\Big\uparrow
+       \Big\downarrow\mathrlap{{}^{f_!}}
+       \\
+       \mathcal{Y} &\mapsto& \mathbf{C}_{\mathcal{Y}}
+     }
+   $$
+
+1. between [[closed monoidal categories]]
+
+1. the [[base change]] functors $f^\ast$ are 
+
+   1. besides being [[strong monoidal functors]]
+
+   1. also [[strong closed functors]], 
+
+      hence the pushforward functors $f_!$ satisfy the [[projection formula]] ("[[Frobenius reciprocity]]")
+
+   1. [[preserving colimits]]
+
+1. pull-push through [[cartesian squares]] in $Base$ satisfies the [[Beck-Chevalley condition]].
+
+Also assume that 
+
+* $Base$ is [[cocomplete]] 
+
+* $\mathbf{C}_{\mathcal{X}}$ is cocomplete for each $\mathcal{X} \in Base$.
+
+Then:
+
+\begin{proposition}  
+  The external tensor product (Def. \ref{ExternalTensorProduct}) on the [[Grothendieck construction]] $\int \mathbf{C}$ [[preserves colimits]] in each variable.
+\end{proposition}
+\begin{proof}
+
+Consider any [[object]]
+$$
+  \mathcal{W}_{\mathcal{Y}} \,\in\, \int \mathbf{C}
+$$
+and any [[diagram]]
+$$
+  \begin{array}{ccc}
+    \mathcal{V}_{\mathcal{X}}
+    \,\colon\,
+    I &\longrightarrow& \int \mathbf{C}
+    \\
+    i &\mapsto& \mathcal{V}(i)_{\mathcal{X}_i}
+  \end{array}
+$$
+in the Grothendieck construction category $\int \mathbf{C}$.
+
+Then with
+
+* the description of colimits in Grothendieck constructions as (see [there](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) 
+
+  $$
+    \underset{\underset{i \in I}{\longrightarrow}}{lim}
+    \big(
+      \mathcal{V}(i)_{\mathcal{X}_i}
+    \big)
+    \;\simeq\;
+    \left(
+      \underset{\underset{i \in I}{\longrightarrow}}{lim}
+      q^{\mathcal{X}_i}_! 
+      \mathcal{V}(i)
+    \right)_{
+      \underset{\underset{i \in I}{\longrightarrow}}{lim}
+      \mathcal{X}_i
+    }
+  $$
+
+  where 
+
+  $$
+    q^{\mathcal{X}_i}
+    \;\colon\;
+    \mathcal{X}_i 
+      \longrightarrow
+    \underset{\longrightarrow}{lim} \mathcal{X}
+  $$
+
+  denote the [[coprojections]] of the [[colimit]] of the [[underlying]] [[diagram]] in $Base$,
+
+* the [[Beck-Chevalley condition]] for the following [[cartesian squares]] in $Base$
+
+  $$
+    \array{ 
+      \mathcal{X}_i
+      \times
+      \mathcal{Y}
+      &
+      \overset{\; pr_{\mathcal{X}_i} \;}{\longrightarrow}
+      &
+      \mathcal{X}_i
+      \\
+      \mathllap{{q}^{\mathcal{X}_i} \times id_{\mathcal{Y}}}
+      \Big\downarrow
+      && 
+      \Big\downarrow
+      \mathrlap{{}^{ q^{\mathcal{X}_i} }}
+      \\
+      \underset{\underset{j \in I}{\longrightarrow}}{lim}
+      \mathcal{X}_j 
+         \times 
+      \mathcal{Y}
+      &
+      \underset
+        {pr_{\underset{\longrightarrow}{lim}\mathcal{X}}}  
+        {\longrightarrow}
+      &
+      \underset{\underset{j \in I}{\longrightarrow}}{lim} 
+      \mathcal{X}_j
+      \mathrlap{\,,}
+    }
+  $$
+
+* the fact that both $(-) \times \mathcal{Y}$ and $(-)\otimes (pr_{\mathcal{Y}})^\ast\mathscr{W}$ [[preserve colimits]] ([[left adjoints preserve colimits|being left adjoints]])
+
+we obtain the following sequence of [[natural isomorphisms]]:
+
+$$
+  \begin{array}{ll}
+  \Big(
+  \underset{\underset{i \in I}{\longrightarrow}}{lim}
+  \mathscr{V}(i)_{\mathcal{X}_i}
+  \Big)
+  \boxtimes 
+  \mathscr{W}_{\mathcal{Y}}
+  \\
+  \;\simeq\;
+  \left(
+  \big(
+    \underset{\longrightarrow}{\lim}
+    q^{\mathcal{X}}_!\mathscr{V}
+  \big)_{\underset{\longrightarrow}{\lim}\mathcal{X}}
+  \right)
+  \boxtimes
+  \mathscr{W}_{\mathcal{Y}}
+  &
+  \text{colimit in Groth. constr.}
+  \\
+  \;\simeq\;
+  \Big(
+    \big(
+    (pr_{\underset{\longrightarrow}{lim}\mathcal{X}})^\ast
+    (
+      \underset{\longrightarrow}{\lim}
+      q^{\mathcal{X}}_!\mathscr{V}
+    )
+    \big)
+    \,\otimes\,
+    \big(
+    (pr_{\mathcal{Y}})^\ast
+    \mathscr{W}
+    \big)
+  \Big)_{
+    \big(\underset{\longrightarrow}{\lim}\mathcal{X}\big)
+    \times
+    \mathcal{Y}
+  }
+  &
+  \text{def. of external tensor}
+  \\
+  \;\simeq\;
+  \Big(
+    \big(
+      \underset{\longrightarrow}{\lim}
+      (pr_{\underset{\longrightarrow}{lim}\mathcal{X}})^\ast
+      q^{\mathcal{X}}_!
+      \mathscr{V}
+    \big)
+    \,\otimes\,
+    \big(
+      (pr_{\mathcal{Y}})^\ast
+      \mathscr{W}
+    \big)
+  \Big)_{
+    \big(\underset{\longrightarrow}{\lim}\mathcal{X}\big)
+    \times
+    \mathcal{Y}
+  }
+  &
+  \text{pullback preserves colimits}
+  \\
+  \;\simeq\;
+  \Big(
+    \big(
+      \underset{\longrightarrow}{\lim}
+      (q^{\mathcal{X}} \times id_{\mathcal{Y}} )_!
+      (pr_{\mathcal{X}})^\ast
+      \mathscr{V}
+    \big)
+    \,\otimes\,
+    \big(
+      (pr_{\mathcal{Y}})^\ast
+      \mathscr{W}
+    \big)
+  \Big)_{
+    \big(\underset{\longrightarrow}{\lim}\mathcal{X}\big)
+    \times
+    \mathcal{Y}
+  }
+  &
+  \text{Beck-Chevalley}
+  \\
+  \;\simeq\;
+  \bigg(
+    \underset{\longrightarrow}{\lim}
+    \Big(
+    \big(
+      (q^{\mathcal{X}} \times id_{\mathcal{Y}} )_!
+      (pr_{\mathcal{X}})^\ast
+      \mathscr{V}
+    \big)
+    \,\otimes\,
+    \big(
+      (pr_{\mathcal{Y}})^\ast
+      \mathscr{W}
+    \big)
+    \Big)
+  \bigg)_{
+    \underset{\longrightarrow}{\lim}
+    \big(
+    \mathcal{X}
+    \times
+    \mathcal{Y}
+    \big)
+  }
+  &
+  \text{products preserve colimits}
+  \\
+  \;\simeq\;
+  \bigg(
+    \underset{\longrightarrow}{\lim}
+    (q^{\mathcal{X}} \times id_{\mathcal{Y}} )_!
+    \Big(
+    \big(
+      (pr_{\mathcal{X}})^\ast
+      \mathscr{V}
+    \big)
+    \,\otimes\,
+    \big(
+      (pr_{\mathcal{Y}})^\ast
+      \mathscr{W}
+    \big)
+    \Big)
+  \bigg)_{
+    \underset{\longrightarrow}{\lim}
+    \big(
+    \mathcal{X}
+    \times
+    \mathcal{Y}
+    \big)
+  }
+  &
+  \text{projection formula}
+  \\
+  \;\simeq\;
+  \underset{\underset{i \in I}{\longrightarrow}}{lim}
+  \bigg(
+  \Big(
+    \big(
+      (pr_{\mathcal{X}_i})^\ast \mathscr{V}(i)
+    \big)
+    \,\otimes\,
+    \big(
+      (pr_{\mathcal{Y}})^\ast \mathscr{W}
+    \big)
+  \Big)_{ 
+    \underset{\longrightarrow}{lim} 
+    (
+    \mathcal{X}
+    \times
+    \mathcal{Y}
+    )
+  } 
+  \bigg)
+  &
+  \text{colimit in Groth. constr.}
+  \\
+  \;\simeq\;
+  \underset{\underset{i \in I}{\longrightarrow}}{lim}
+  \Big(
+    \mathscr{V}(i)_{\mathcal{X}_i}
+    \,\boxtimes\,
+    \mathscr{W}_{\mathcal{Y}}
+  \Big)
+  &
+  \text{def of external tensor.}
+  \end{array}
+$$
+\end{proof}
+
 
 ## Examples
 
