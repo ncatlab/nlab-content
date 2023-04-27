@@ -34,7 +34,15 @@ Alternatively, it is also possible to define a split monomorphism as an __absolu
 
 ## Properties
 
-* Any split monomorphism is a [[monomorphism]], in fact a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
+\begin{proposition}
+Any split monomorphism is a [[monomorphism]], in fact a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
+\end{proposition}
+
+Evident but important and in contrast to general [[monomorphisms]]:
+\begin{proposition}
+  All [[functors]] preserve split monomorphisms.
+\end{proposition}
+
 
 ## Examples
 
@@ -57,6 +65,8 @@ In general, we can say that in an $(n,1)$-[[(n,1)-category|category]], a "split 
 * in an [[(∞,1)-category]], a split mono is not necessarily truncated at any finite level.
 
 ## Related concepts
+
+* [[monomorphism]]
 
 * [[split epimorphism]]
 
