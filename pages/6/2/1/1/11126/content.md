@@ -93,7 +93,7 @@ $Mod(X_1)$ and $Mod(X_2)$.
 ### Cocontinuity and adjoints
  {#CocontinuityAndAdjoints}
 
-Suppose that the monoidal fibration satisfies the [[motivic yoga]] in that:
+Suppose that the monoidal fibration satisfies the [[motivic yoga]] ([[Wirthmüller context]]-form) in that:
 
 1. the corresponding [[pseudofunctor]] takes values in [[adjoint functors]]
 
@@ -132,7 +132,7 @@ Suppose that the monoidal fibration satisfies the [[motivic yoga]] in that:
 
 Also assume that 
 
-* $Base$ is [[cocomplete]] 
+* $Base$ is [[cocomplete]] and [[cartesian closed category|cartesian closed]],
 
 * $\mathbf{C}_{\mathcal{X}}$ is cocomplete for each $\mathcal{X} \in Base$.
 
