@@ -237,12 +237,20 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 * [[hyperdoctrine]]
 
 ## References
+  
+The notion of *indexed categories* was introduced in
 
-The notion of indexed categories were introduced and developed by [[Lawvere]] in early 1970s.  Further contributions were made by [[Bénabou]].  An early account of the theory can be found in
+* {#Grothendieck60} [[Alexander Grothendieck]], §A.1 ([p. 3](http://www.numdam.org/item/SB_1958-1960__5__299_0.pdf#page=3)) of *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire [[N. Bourbaki]] exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
+
+but under the name "[[fibered category]]" (*catégorie fibrée*) which later became the standard term, instead, for the ([equivalent](Grothendieck+construction#EquivalenceBetweenFiberedCategoriesAndPsuedofunctors)) [[Grothendieck construction]] on an indexed category, cf.:
+
+* {#Bénabou1975} [[Jean Bénabou]], p. 898 (2 of 41) of: _Fibrations petites et localement petites_, C. R. Acad. Sci. Paris **281** Série A (1975) 897-900 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f171.image#)&rbrack;
+
+An early monograph:
 
 * [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
 
-Discussion in the context of [[categorical semantics]] in [[computer science]]:
+Early discussion in the context of [[categorical semantics]] in [[computer science]]:
 
 * {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
 
