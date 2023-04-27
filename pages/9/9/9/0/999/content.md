@@ -15,15 +15,19 @@
 
 ## Idea
 
-An [[object]] of a [[category]] is called *compact* if it is "finite" or "small" in some precise sense. There are however different formalizations of this idea. Here discussed is the notion, usually going by this term, where an object $X$  is called _compact_ if mapping out of it commutes with [[filtered colimits]]. 
+An [[object]] of a [[category]] is called *compact* if it is "finite" or "small" in some precise sense. There are however different formalizations of this idea. Here discussed is the notion, usually going by this term, where an object $X$  is called _compact_ if mapping out of it [[preserved colimit|preserves]] [[filtered colimits]]. 
 
 This means that if any other object $A$ is given as the [[colimit]] of a "suitably increasing" family of objects $\{A_i\}$, then every morphism 
 
 $$
-  X \to A = \lim_{\to_i} A_i
+  X 
+  \longrightarrow 
+  A 
+   = 
+  \underset{\underset{i}{\longrightarrow}}{\lim} A_i
 $$
 
-out of the compact object $X$ into that colimit factors through one of the inclusions $A_i \to \underset{\to_i}\lim A_i$.
+out of the compact object $X$ into that colimit factors through one of the [[coprojections]] $A_i \to \underset{\underset{i}{\longrightarrow}}{lim A_i}$.
 
 The notion of _[[small object]]_ is essentially the same, with a bit more flexibility on when the family $\{A_i\}$ is taken to be "suitably increasing". An important application of the above factorization property is accordingly named the _[[small object argument]]_.
 On the other hand, there is also the notion of _[[finite object]]_ (in a [[topos]]) which, while closely related, is different. See also _[Subtleties and different meanings](#SubtletiesAndDifferentMeanings)_ below.
