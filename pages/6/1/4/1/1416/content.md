@@ -294,8 +294,8 @@ One says that $PSh(C)$ is the _[[classifying topos]]_ for internally flat functo
 
 ## References
 
-* [[Francis Borceux]], _Handbook of categorical algebra_ , volume I, _Basic category theory_.  Representable flatness is discussed in chapter 6.
-{#Borceux}
+* {#Borceux} [[Francis Borceux]], Section 6.3  in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
 
 In 
 
@@ -338,7 +338,7 @@ Discussion of [[left exact functors]] or flat functors in the context of [[(∞,
 
 A notion of "flat 2-functor" is discussed, with an eye towards applications with [[2-topos]]es, in the article
 
-* M.E. Descotte, [[E.J. Dubuc]], M. Szyld, _Sigma limits in 2-categories and flat pseudofunctors_, (v1: On the notion of flat 2-functors) [arXiv:1610.09429](https://arxiv.org/abs/1610.09429) Adv. Math. __333__ (2018) 266--313
+* M.E. Descotte, [[Eduardo J. Dubuc]], M. Szyld, _Sigma limits in 2-categories and flat pseudofunctors_, (v1: On the notion of flat 2-functors) [arXiv:1610.09429](https://arxiv.org/abs/1610.09429) Adv. Math. __333__ (2018) 266--313
 
 Enriched flat functors are studied and characterized in
 
