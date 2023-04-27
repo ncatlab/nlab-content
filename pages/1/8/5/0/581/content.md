@@ -34,19 +34,36 @@ Alternatively, it is also possible to define a split epimorphism as an __absolut
 
 ## Properties
 
-* Any split epimorphism is automatically a [[regular epimorphism]] (it is the [[coequalizer]] of $s\circ e$ and $1_A$), and therefore also a [[strong epimorphism]], an [[extremal epimorphism]], and (of course) an [[epimorphism]].
+\begin{proposition}
+Any split epimorphism is automatically a [[regular epimorphism]] (it is the [[coequalizer]] of $s\circ e$ and $1_A$), and therefore also a [[strong epimorphism]], an [[extremal epimorphism]], and (of course) an [[epimorphism]].
+\end{proposition}
 
-* The [[axiom of choice]] [[internal logic|internal]] to a category $C$ can be phrased as "all epimorphisms are split."  In [[Set]] this is equivalent to the usual axiom of choice; in many other categories it may be true without assuming the axiom of choice (in $Set$), or it may be false regardless of the axiom of choice.
+Evident but important and in contrast to general [[epimorphisms]]:
+\begin{proposition}
+  All [[functors]] preserve split epimorphisms.
+\end{proposition}
+
+\begin{proposition}
+**(relation to the [[axiom of choice]])**
+\linebreak
+The [[axiom of choice]] [[internal logic|internal]] to a category $C$ can be phrased as "all epimorphisms are split."  In [[Set]] this is equivalent to the usual axiom of choice; in many other categories it may be true without assuming the axiom of choice (in $Set$), or it may be false regardless of the axiom of choice.
+\end{proposition}
 
 
 ## Applications
 
-The notion of split epimorphism arises often as a condition on fibrations in [[categories of chain complexes]]. See there for details.
+The notion of split epimorphism arises often as a condition on [[fibrations]] in [[categories of chain complexes]]. See there for details.
 
 
 ## Examples
 
 * In [[Vect]], every epimorphism is split. For $\phi\colon V \to W$ a surjective linear map, we can find an isomorphism $V \simeq ker(\phi) \oplus V'$. Then $\phi|_{V'}$ is an isomorphism, and its inverse $W \to V' \hookrightarrow ker(\phi) \oplus V'$ is a section of $\phi$.
+
+## Related concepts
+
+* [[epimorphism]]
+
+* [[split monomorphism]]
 
 
 [[!redirects split epimorphism]]
