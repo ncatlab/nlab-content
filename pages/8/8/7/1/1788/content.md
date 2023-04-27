@@ -1,7 +1,26 @@
 
+
 $$
-  \mathbb{1}
+  \begin{array}{l}
+   Hom\big(
+    (p_X)^\ast
+    \mathscr{V}_\ast
+    ,\,
+    \mathscr{W}_{X}
+  \big)
+  \\
+  \;\simeq\;
+   Hom\big(
+    \mathbb{1}_{X}
+    \otimes
+    \mathscr{V}_{\ast}
+    ,\,
+    \mathscr{W}_X
+  \big)
+  \end{array}
 $$
+
+
 
 $$
   \array{ 
