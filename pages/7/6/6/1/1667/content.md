@@ -5,6 +5,14 @@ This medium of mathematical converse was a pipedream for me for many years. It w
 Hitherto I have not used wikis much, but have preferred to restrict myself to a medium over which I have nearly complete control, my [home pages](http://www.wra1th.plus.com/). Because of my emotional attachment to an operating system, RISC OS, that is almost extinct, I have missed out on a good deal of the software necessary for modern mathematical communication. The falling price of notebook computers has at last tempted me to come out of my shell.
 
 
+
+## Selected writings
+
+On [[indexed categories]]:
+
+* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
+
+
 category: people
 
 
@@ -12,3 +20,6 @@ category: people
 [[!redirects Gavin W]]
 [[!redirects GavinW]]
 [[!redirects Gavin C. Wraith]]
+[[!redirects G. C. Wraith]]
+
+
