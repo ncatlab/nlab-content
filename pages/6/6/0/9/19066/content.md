@@ -131,27 +131,27 @@ For
 
 * $X \in sSet$ a [[simplicial set]]
 
-* $\mathcal{X} \coloneqq \mathcal{G}(X) \in sGrpd$ its [[Dwyer-Kan simplical path groupoid]], as [[sSet]]-[[enriched groupoid]] to be regarded as a [[small category|small]] [[sSet-enriched category]],
+* $\mathcal{G}(X) \in sGrpd$ its [[Dwyer-Kan simplicial path groupoid]], an [[sSet]]-[[enriched groupoid]] to be regarded as a [[small category|small]] [[sSet-enriched category]],
 
-* $\mathbf{v}_\ast \mathcal{X} \,\in\, \mathbf{V} Cat$ its [[change of enrichment|induced]]  $\mathbf{V}$-[[enriched category]],
+* $\mathcal{G}_{\mathbf{v}} \coloneqq \mathbf{v}_\ast \mathcal{G}(X) \,\in\, \mathbf{V} Cat$ its [[change of enrichment|induced]] $\mathbf{V}$-[[enriched groupoid]],
 
 we write
 
 $$
-  \mathbf{C}^{\mathcal{X}}
+  \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}
   \;\;
   \coloneqq
   \mathbf{V}Func
   \big(
-    \mathbf{v}_\ast\mathcal{X}
+    \mathcal{G}_\mathbf{v}(X)
     ,\, 
     \mathbf{C}
   \big)
 $$
-for the $\mathbf{V}$-[[enriched functor category]] from $\mathbf{v}_\ast\mathcal{X}$ to $\mathbf{C}$, 
-regarded as equipped with its [[projective model structure on functors]] --- which exists (due to [this Theorem](model+structure+on+functors#CofGenProj)) by the assumption that $\mathbf{C}$ is combinatorial and all objects of $\mathbf{V}$ are cofibrant.
+for the $\mathbf{V}$-[[enriched functor category]] from $\mathcal{G}_{\mathbf{v}}(X)$ to $\mathbf{C}$, 
+regarded as equipped with its [[projective model structure on functors]] --- which exists (due to [this Theorem](model+structure+on+functors#CofGenProj)) by the assumptions that $\mathbf{C}$ is combinatorial and that all objects of $\mathbf{V}$ are cofibrant.
 
-In general we denote the objects of these categories as
+In general we denote the objects of these categories, which are [[dependent pairs]] $(\mathcal{X}, \mathscr{V})$, as
 
 $$
   \mathscr{V}_{\mathcal{X}}
@@ -164,29 +164,49 @@ $$
   \,.
 $$
 
-By [[left Kan extension]] $(-)_!$ these categories arrange into an [[indexed category]], namely a[[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
+We denote the [[initial objects]] 
+
+* of $sSet$ or of $sGrpd$ by $\varnothing$
+
+* of $\mathbf{C}$ by $0$;
+
+* of $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ as $0_{\mathcal{G}_{\mathbf{v}}(X)}$;
+
+and so that 
+
+* of $\mathbf{C}_{sSet}$ by $0_{\varnothing} \,\in\, \underset{\simeq \{0_{\varnothing}\}}{\underbrace{\mathbf{C}^{\varnothing}}} \,\in\, \mathbf{C}_{sSet}$.
+
+
+Now by
+
+* [[precomposition]]$\;\mathcal{G}_{\mathbf{v}}(f)^\ast \,\coloneqq\, (-) \circ \mathcal{G}_{\mathbf{v}}(f)$ 
+
+and
+
+* [[left Kan extension]] $\mathcal{G}_{\mathbf{v}}(f)_!$ 
+
+these categories arrange into an [[indexed category]], namely a [[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
 $$
   \array{
     \mathllap{
-      \mathbf{C}^{(-)}
+      \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(-)}
       \;\colon\;
     }
     sSet &\longrightarrow& Cat
     \\
     X 
       &\mapsto& 
-    \mathbf{C}^{\mathcal{G}(X)}
+    \mathbf{C}^{\mathcal{G}_\mathbf{v}(X)}
     \\
     \Big\downarrow\mathrlap{{}^f}
     && 
-    \Big\downarrow\mathrlap{{}^{f_!}}
+    \Big\downarrow\mathrlap{{}^{\mathcal{G}_\mathbf{v}(f)_!}}
     \\
     Y
     &\mapsto&
-    \mathbf{C}^{\mathcal{G}(Y)}
+    \mathbf{C}^{\mathcal{G}_\mathbf{v}(Y)}
   }
 $$
-
 whose [[Grothendieck construction]] we abbreviate by
 \[
   \label{CategoryOfParameterizedObjects}
@@ -195,32 +215,54 @@ whose [[Grothendieck construction]] we abbreviate by
     \coloneqq
   \;\;
   \underset{X \in sSet}{\int}
-  \mathbf{C}^{\mathcal{G}(X)}
+  \mathbf{C}^{\mathcal{G}_\mathbf{v}(X)}
   \,.
 \]
 
-We may think of this as the category of *objects of $\mathbf{C}$ parameterized over [[infinity-groupoids|$\infty$-groupoids]]*.
+We may think of this as the category of *objects of $\mathbf{C}$ parameterized over [[infinity-groupoids|$\infty$-groupoids]]* (where the choice of $\mathbf{v}$ matters, but we leave it notationally implicit, for convenience).
 
 
 We will denote the components of 
-morphisms in $\mathbf{C}_{sSet}$ by their $f_! \dashv f^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
+morphisms in $\mathbf{C}_{sSet}$ by their $(-)_! \dashv (-)^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
 $$
   \text{i.e.}
   \;\;\;
   \phi_f
   \;\;\colon\;\;
-  \mathscr{V}_{\mathcal{X}}
+  \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
   \longrightarrow
-  \mathscr{V}_{\mathcal{X}}
+  \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(Y)}
   \;\;\;
   \text{means that}
   \;\;\;
   \begin{array}{cccc}
     \phi 
     &\colon&
-    \mathscr{V}_{\mathcal{X}}
+    \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
     &\overset{}{\longrightarrow}&
-    f^\ast \mathscr{W}_{\mathcal{Y}}
+    \mathcal{G}_\mathbf{v}(f)^\ast 
+    \big(
+      \mathscr{W}_{\mathcal{G}_\mathbf{v}(Y)}
+    \big)
+    \\
+    f
+    &\colon&
+    \mathcal{X}
+    &\overset{}{\longrightarrow}&
+    \mathcal{Y}
+  \end{array}
+  \;\;\;
+  \text{hence that}
+  \;\;\;
+  \begin{array}{cccc}
+    \widetilde{\phi} 
+    &\colon&
+    \mathcal{G}_\mathbf{v}(f)_!
+    \big(  
+      \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
+    \big)
+    &\overset{}{\longrightarrow}&
+    \mathscr{W}_{\mathcal{G}_\mathbf{v}(Y)}
     \\
     f
     &\colon&
@@ -232,22 +274,6 @@ $$
 (because in this form their [[external tensor product]] is more readily expressed, see [below](#ExternalTensorProduct)).
 \end{definition}
 
-\begin{remark}\label{InitialParameterizedObject}
-**(initial parameterized object)**
-\linebreak
-So with the [[initial objects]] 
-
-* of $sSet$ or $sGrpd$ denoted $\varnothing$
-
-* of $\mathbf{C}$ denoted $0$;
-
-* of $\mathbf{C}^{\mathcal{X}}$ denoted $0_{\mathcal{X}}$;
-
-the [[initial object]] of $\mathbf{C}_{sSet}$ is denoted
-
-* $0_{\varnothing} \,\in\, \underset{\simeq \{0_{\varnothing}\}}{\underbrace{\mathbf{C}^{\varnothing}}} \,\in\, \mathbf{C}_{sGrpd}$.
-
-\end{remark}
 
 \begin{example}
 \label{ExamplesOfModelStructureOnsSgrpdParametrizedObjects}
@@ -261,7 +287,7 @@ the [[initial object]] of $\mathbf{C}_{sSet}$ is denoted
 
    * $\mathbf{C} \,\equiv\, sSet_{Qu}$
 
-   yields (another proof of) [Harpaz & Prasma (2015), Prop. 6.2.1](#HarpazPrasma15) generalized from [[delooping groupoids]] of [[simplicial groups]] to all [[simplicial groupoids]].
+   yields (another proof of) [Harpaz & Prasma (2015), Prop. 6.2.1](#HarpazPrasma15) generalized from [[delooping groupoids]] of [[simplicial groups]] to all [[simplicial groupoids]] (i.e. away from just connected base types --- which is a mild generalization in itself but crucial for equipping the resulting Grothendieck construction with [[closed monoidal category|closed monoidal]]-structure, see [below](#MonoidalModelStructureOnParameterizedObjects)).
 
 1. The choice
 
@@ -296,24 +322,22 @@ the [[initial object]] of $\mathbf{C}_{sSet}$ is denoted
   \label{ModelStructureOnParameterizedObjects}
 **(integral model structure on parameterized objects)**
 \linebreak
-  Let $\mathbf{C}$ be a [[combinatorial model category|combinatorial]] [[simplicial model category]] in which all [[objects]] are [[cofibrant objects|cofibrant]].
-
-Then the [[pseudofunctor]] on the [[model category of simplicial groupoids]] which sends a [[simplicial groupoid]] $\mathcal{X}$ to the [[projective model structure on simplicial functors]] $\mathbf{C}^{\mathcal{X}}_{proj}$
+In the situation of Def. \ref{SetupAndNotationForParameterizedObjects}, the [[pseudofunctor]] 
 $$
   \array{
     sSet &\longrightarrow& ModCat
     \\
     \mathcal{X} 
       &\mapsto& 
-    \mathbf{C}^{\mathcal{G}(X)}_{proj}
+    \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}_{proj}
     \\
-    \Big\downarrow\mathrlap{^f}
+    \Big\downarrow\mathrlap{{}^f}
     && 
-   \Big\downarrow\mathrlap{^f_!}
+   \Big\downarrow\mathrlap{{}^{\mathcal{G}_{\mathbf{v}}(f)_!}}
     \\
     \mathcal{Y}
     &\mapsto&
-    \mathbf{C}^{\mathcal{G}(Y)}_{proj}
+    \mathbf{C}^{\mathcal{G}_\mathbf{v}(Y)}_{proj}
   }
 $$
 is relative and proper (in the sense [above](#Definition)), hence the integral model structure (Prop. \ref{ExistenceStatement}) on the category of *parameterized $\mathbf{C}$ objects* (eq:CategoryOfParameterizedObjects)
@@ -321,12 +345,12 @@ $$
   \mathbf{C}_{sSet}
   \;\;\coloneqq\;\;
   \underset{X \in sSet}{\int}
-  \mathbf{C}^{\mathcal{G}(X)}_{proj}
+  \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}_{proj}
 $$
 exists.
 \end{proposition}
 \begin{proof}
-First to prove that the pseudofunctor is relative, here is a lazy argument:
+First to prove that the pseudofunctor is relative, here is a lazy argument (to be improved):
 By general results in [[Higher Topos Theory]], the given pseudofunctor presents the [[(infinity,1)-functor|$\infty$-functor]] 
 $$
   \array{
@@ -346,31 +370,50 @@ By passage to [[homotopy category of an (infinity,1)-category|homotopy categorie
 
 Right properness is immediate: Since the weak equivalences in the projective [[model structure on functors]] are objectwise, the precomposition functor $f^\ast$ preserves weak equivalences for all $f$.
 
-It remains to argue left-properness: If $f$ is an acyclic cofibration of simplicial groupoids, then it is so on all connected components, and here it is an injective weak equivalence and hence an acyclic cofibration (see [here](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration)) of simplicial sets on all endomorphisms objects. 
+It remains to argue left-properness. So given $f \colon X \to Y$ an acyclic cofibration of simplicial sets, we need to show that $\mathcal{G}_{\mathbf{v}}(f)_!$ preserves all [[weal equivalences]].
 
-First notice that it is sufficent to check the statement over simplicial groupoids whose set of objects is a singleton, hence that $f$ is of the form $f = \mathbf{B}\phi\colon \mathbf{B}H \to \mathbf{B}G$ for $\phi \colon H to G$ a homomorphism of [[simplicial groups]].
+First, since the [[Dwyer-Kan simplicial path groupoid]] functor is a [[left Quillen functor]] (in fact a [[Quillen equivalence]], by [this Prop.](model+structure+on+simplicial+groupoids#QuillenEquivalenceWithSimplicialSets))
+\[
+  \label{DwyerKanQuillenEquialence}
+  sSet
+  \underoverset
+    { \underset{\overline{\mathrm{W}}}{\longleftarrow} }
+    {\overset{\mathcal{G}}{\longrightarrow}}
+    { \bot_{\mathrlap{Qu}} }
+  sSet\text{-}Grpd
+\]
+it follows that $\mathcal{G}(f) \colon \mathcal{G}(X) \to \mathcal{G}(Y)$ is an acyclic cofibration of simplicial groupoids, which means in particular (see [this remark](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration)) that it is [[hom-object]]-wise $\mathcal{G}_{x,y} \colon \mathcal{G}(X)_{x,y} \longrightarrow \mathcal{G}(Y)_{f(x), f(y)}$ again an acyclic cofibration in $sSet$. Finally, by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]], this implies that also all $\mathbf{V}$-[[hom-object]] components $\mathcal{G}_{\mathbf{v}}(X)_{x,y} \colon \mathcal{G}_{\mathbf{v}}(X)_{x,y} \longrightarrow \mathcal{G}_{\mathbf{v}}(Y)_{f(x), f(y)}$ are acyclic cofibrations in $\mathbf{V}$.
 
-Namely, first of all it is clearly sufficient to check on connected components, and then for $f \colon \mathcal{X} \to \mathcal{Y}$ a morphism of connected simplicial groupoids, any choice of object $x \in Obj(\mathcal{X})$ gives a [[pullback square]]
+Next we claim that that it is sufficent to check the statement over [[reduced simplicial sets]], hence the case where $\mathcal{G}_{\mathbf{v}}(f)$ is of the form
+$$
+  \mathcal{G}_{\mathbf{v}}(f) \colon \mathbf{B}\phi \colon \mathbf{B}H \to \mathbf{B}G
+$$ 
+with a single comonent map
+$$
+  \phi \,\coloneqq\, \mathcal{G}_{\mathbf{v}}(f)_{x,x}
+$$
+being a [[homomorphism]] of $\mathbf{V}$-[[monoid objects]].
 
+Namely, first of all it is clearly sufficient to check on connected components, and then for $\mathcal{G}_{\mathbf{v}}(f) \,\colon\, \mathcal{G}_{\mathbf{v}}(X) \to \mathcal{G}_{\mathbf{v}}(Y)$ a morphism of connected $\mathbf{V}$-enriched categories, any choice of object $x \in Obj\big(\mathcal{G}_{\mathbf{v}}(X)\big)$ (i.e. a [[vertex]] in $X$) gives a [[pullback square]]
 $$
   \array{
-    && \mathbf{B}\mathcal{X}(x,x)
+    && \mathbf{B}\mathcal{G}_{\mathbf{v}}(X)
     \\
     & 
     \mathllap{{}^{\iota_x}}\swarrow 
     && 
-    \searrow\mathrlap{{}^{f_{x,x}}}
+    \searrow\mathrlap{{}^{\mathcal{G}_{\mathbf{v}}(f)_{x,x}}}
     \\
     \mathcal{X} 
       && && 
-    \mathbf{B}\mathcal{Y}\big(f(x),f(x)\big)
+    \mathbf{B}\mathcal{G}_{\mathbf{v}}(Y)_{f(x),f(x)}
     \\
     & 
-    \mathllap{{}_{f}}\searrow 
+    \mathllap{{}_{ \mathcal{G}_{\mathbf{v}}(f) }}\searrow 
     && 
     \swarrow\mathrlap{{}_{\iota_{f(x)}}}
     \\
-    && \mathcal{Y}
+    && \mathcal{G}_{\mathbf{v}}(Y)
   }
 $$
 whose associated [[Beck-Chevalley condition]] says that
@@ -380,7 +423,7 @@ $$
   (f_x)_! (\iota_{x})^\ast
   \,.
 $$
-But since pullback preserves all weak equivalences (as already remarked above) this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does. Finally noticing that connected simplicial groupoids have [[automorphisms]] which act as any [[permutation]] on their set of objects, the claim follows.
+But since pullback preserves all weak equivalences (as already remarked above) this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does. Finally noticing that a presheaf on a connected [[enriched groupoid]] takes *[[isomorphism|isomorphic]]* values on all objects, the claim follows.
 
 
 Now the case of a single-object simplicial groupoids, the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[action objects]] in $\mathbf{C}$.
@@ -401,7 +444,25 @@ $$
   }
 $$
 
-Here the left morphism is an [[acyclic cofibration]] by the [[pushout-product axiom]] in the [[sSet]]-[[enriched model category]] $\mathbf{C}$, using the assumptions that $X$ is cofibrant in $\mathbf{C}$ and that $f$ and hence $\phi$ is an acyclic cofibration.
+Here the left morphism is an [[acyclic cofibration]] since
+
+1. $\phi = $
+
+   1. it starts out as an cofibration in $sSet$, by assumption in the left properness clause we are checking,
+
+   1. its image under the [[Dwyer-Kan simplicial path groupoid]] functor $\mathcal{G}$ remains an acyclic cofibration because $\mathcal{G}$ is a [[left Quillen functor]] (by [this Prop.](model+structure+on+simplicial+groupoids#QuillenEquivalenceWithSimplicialSets))
+
+   1. its further image under $\mathbf{v}$ remains an acyclic cofibration by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]]
+
+1. $X$ is cofibrant by assumption on $\mathbf{C}$, 
+
+1. so that the [[pushout-product axiom]] in the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$ implies that also $f \otimes X$ is an acyclic cofibration
+
+1. which finally means that its hom-component $\phi$ is, 
+
+
+
+
 Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.
 
 Now since this construction is [[natural transformation|natural]], given a weak equivalence $\phi \,\colon\, (X,\rho) \to (X', \rho')$  we find that its image under $f_!$ sits in a [[commuting diagram]] of the form
@@ -876,6 +937,7 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 \linebreak
 
 #### Monoidal model structure
+ {#MonoidalModelStructureOnParameterizedObjects}
 
 > The following proof remains incomplete. Am working on filling in the last step "..." at the end.
 
