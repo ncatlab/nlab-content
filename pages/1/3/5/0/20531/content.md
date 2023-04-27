@@ -14,6 +14,20 @@
 
 ## Definition
 
+### For general submersions
+
+Given a [[submersion]] $p\colon E\to B$, one may ask: which [[differential forms]] on $E$ are pullbacks of [[differential forms]] on $B$?
+
+If the fibers of $p$ are connected (otherwise the characterization given below is valid only locally in $E$), the answer is provided by the notion of a __basic form__: a form $\omega$ is basic if the following two conditions are met:
+
+* The [[contraction]] of $\omega$ with any $p$-[[vertical vector field]] is zero.
+
+* The [[Lie derivative]] of $\omega$ with respect to any $p$-vertical vector field is zero.
+
+Using [[Cartan's magic formula]], in the presence of the first condition, the second condition can be replaced by the following one:
+
+* The [[contraction]] of $d\omega$ (where $d$ is the [[de Rham differential]]) with any $p$-[[vertical vector field]] is zero.
+
 ### Via pullback to smooth principal bundles
 
 Given a [[Lie group]] $G$ and a [[smooth manifold|smooth]] $G$-[[principal bundle]] $P \overset{p}{\longrightarrow} X$ over a base [[smooth manifold]] $X$, a [[differential form]] $\omega \in \Omega^\bullet\big( P \big)$ on the total space $P$ is called _basic_ if it is the [[pullback of differential forms]] along the [[bundle]] projection $p$ of a differential form $\beta \in \Omega^\bullet\big( X \big)$ of the base manifold
