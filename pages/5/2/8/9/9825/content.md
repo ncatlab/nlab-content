@@ -137,6 +137,7 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[mutually unbiased bases]]
 
+
 ## References
 
 ### General
@@ -164,6 +165,10 @@ Review and discussion:
 See also:
 
 * [[Jürg Fröhlich]], Zhou Gang, *On the Evolution of States in a Quantum-Mechanical Model of Experiments* &lbrack;[arXiv:2212.02599](https://arxiv.org/abs/2212.02599)&rbrack;
+
+Discussion in the refined context of ([[local field theory|local]] [[algebraic quantum field theory|algebraic]]) [[quantum field theory]] [[AQFT on curved spacetimes|on Lorentzian manifolds]]:
+
+* [[Christopher J. Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory* &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
 
 
 ### Formalization
