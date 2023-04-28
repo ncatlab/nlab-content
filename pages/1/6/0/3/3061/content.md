@@ -77,7 +77,7 @@ For Atiyah classes see:
 * U. Bruzzo, I. Mencattini, V. Rubtsov, P. Tortella, _Nonabelian Lie algebroid extensions_, arXiv:1305.2377.
 * Zhuo Chen, Mathieu Sti&#233;non, Ping Xu, _From Atiyah classes to homotopy Leibniz algebras_, [arXiv/1204.1075](http://arxiv.org/abs/1204.1075); _A Hopf algebra associated to a Lie pair_, [arxiv/1409.6803](http://arxiv.org/abs/1409.6803)
 * R. A. Mehta, M. Sti&#233;non, P. Xu, _The Atiyah class of a dg-vector bundle_, [arxiv/1502.03119](http://arxiv.org/abs/1502.03119)
-* [[Nikita Markarian]], _The Atiyah class, Hochschild cohomology and the Riemann-Roch theorem_, J. Lond. Math. Soc. (2) 79 (2009), no. 1, 129&#8211;143
+* [[Nikita Markarian]], _The Atiyah class, Hochschild cohomology and the Riemann-Roch theorem_, J. Lond. Math. Soc. (2) 79 (2009), no. 1, 129--143 [doi](https://doi.org/10.1112/jlms/jdn064)
 * F. Bottacin, _Atiyah classes for Lie algebroids_, [pdf](http://www.math.unipd.it/~bottacin/papers/liealgebroids.pdf)
 * Ajay C. Ramadoss, The big Chern classes and the Chern character, Internat. J. Math. 19 (2008), no. 6, 699&#8211;746.
 
