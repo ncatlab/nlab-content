@@ -16,21 +16,21 @@
 
 ## Idea
 
-The _free category_ on a "set of arrows", hence on a [[directed graph]], is the ([[strict category|strict]]) [[category]] whose 
+The _free category_ on a "set of arrows", hence on a [[directed graph]], is the ([[strict category|strict]]) [[category]] whose: 
 
-* [[objects]] are the [[vertices]] of the graph
+* [[objects]] are the [[vertices]] of the graph,
 
 * [[morphisms]] are the [[tuples]] of [[composition|composable]] [[edges]], hence the morphisms [[free construction|freely generated]] from these (directed) edges. 
 
-  These morphisms may also be thought of as the "paths" that one may trace out in the directed graph by traversing in each step along an arrow, and therefore free categories are also called _[[path categories]]_.
+  These morphisms may also be thought of as the "paths" traced out in the directed graph by traversing stepwise along its  [[edges]], whence free categories are also called *[[path categories]]*.
 
-{#MorePrecisely} More formally, there is a [[forgetful functor]] $U$ from the [[1-category]] [[Cat|$Cat^{strct}_{smll}$]] of [[small categories|small]] [[strict categories]] (and [[functors]] between them) to that of [[directed graphs]] (assigning the [[underlying]] graph of morphisms, i.e. forgetting the [[composition]]-operation); and the free category construction is the [[left adjoint]] $F$ to this functor:
+{#MorePrecisely} More formally, there is a [[forgetful functor]] $U_{Cat}$ from the [[1-category]] [[Cat|$Cat^{strct}_{smll}$]] of [[small categories|small]] [[strict categories]] (and [[functors]] between them) to that of [[directed graphs]] (assigning the [[underlying]] graph of morphisms, i.e. forgetting the [[composition]]-operation); and the free category construction is its [[left adjoint]] [[free construction]] $F_{Cat}$:
 
 $$
   Cat^{strct}_{smll}
   \underoverset
-    {\underset{U}{\longrightarrow}}
-    {\overset{F}{\longleftarrow}}
+    {\underset{U_{Cat}}{\longrightarrow}}
+    {\overset{F_{Cat}}{\longleftarrow}}
     {\;\;\bot\;\;\;}
   DiGrph
 $$
@@ -63,22 +63,22 @@ $$
 
 * [[free topos]]
 
+* a [[quiver representation]] is equivalently a [[functor]] on the free category of the given [[quiver]]
+
+
+
 
 ## References
+ {#References}
 
-This notion of  *free category on a graph* has a section on it in
+Some introductions to [[category theory]] have 
+a discussion of free categories, for instance:
 
-* [[Francis Borceux]], _Handbook of categorical Algebra vol. 1_ , Cambridge UP 1994.
+* {#BarrWells} [[Michael Barr]], [[Charles Wells]], §2.6.16 in: *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
-and also in 
+* {#MacLane} [[Saunders MacLane]], Section II.7 (pp. 48) in: *[[Categories for the Working Mathematician]]*, Springer (1998) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* {#MacLane} [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ , Springer 1998.
-
-The following is another source for this, even an open source:
-
-* {#BarrWells}[[Michael Barr]] and [[Charles Wells]], _Category Theory for Computing Science_ [PDF](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf)
-
-The path categories of context free grammars are explored in
+On path categories of [[context-free grammars]]:
 
 * {#Latch} Dana Latch, _The connection between the fundamental groupoid and a unification algorithm for syntactil algebras (extended abstract)_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** (1991).  ([link](http://www.numdam.org/item?id=CTGDC_1991__32_3_203_0))
 
