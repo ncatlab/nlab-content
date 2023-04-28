@@ -19,22 +19,22 @@
 
 In the context of $V$-[[enriched category theory]], for 
 $
-  F,G : C \to D
+  F,G \colon C \to D
 $
-two $V$-[[enriched functor|enriched functors]] between $V$-[[enriched category|enriched categories]], the collection of [[natural transformation]]s from $F$ to $G$ can also be given the structure of an object in $V$, so that the [[functor category]], denoted $[C,D]$ in the enriched context, is itself a $V$-enriched category.
+a [[pair]] of $V$-[[enriched functors]] between $V$-[[enriched category|enriched categories]], the collection of [[enriched natural transformations]] from $F$ to $G$ can also be given the [[structure]] of an [[object]] in $V$, so that the [[functor category]], $[C,D]$ becomes itself a $V$-[[enriched category]].
 
 
 ## Definition
 
-For $C$ and $D$ $V$-enriched categories, there is a $V$-[[enriched category]] denoted $[C,D]$ whose
+For $C$ and $D$ $V$-[[enriched categories]], there is a $V$-[[enriched category]], denoted $[C,D]$, whose
 
-* objects are the $V$-functors $F : C \to D$
+* [[objects]] are the $V$-functors $F \colon C \to D$
 
-* [[hom-objects]] $\text{ }[C,D](F,G)$ between $V$-functors $F, G$ are given by the $V$-enriched [[end]]
+* [[hom-objects]] $\;[C,D](F,G)$ between $V$-functors $F, G$ are given by the $V$-enriched [[end]]
 $$
   [C,D](F,G) \coloneqq \int_{c \in C} D(F(c), G(c))
 $$
-over the functor
+over the [[enriched hom-functor]]
 $$
   D\big(
     F(-)
@@ -43,15 +43,15 @@ $$
   \big) 
   \;\colon\; 
   C^{op} \otimes C \to V
-  \,.
+  \,,
 $$
-Write in the following $E_c : [C,D](F,G) \to D(F(c),G(c))$ for the canonical morphism out of the end (the counit).
 
-* the composition operation 
+
+* the [[composition]] operation 
 $$
-  \circ_{K,F,G} : [C,D](F,G)\otimes [C,D](K,F) \to [C,D](K,G)
+  \circ_{K,F,G} \colon [C,D](F,G)\otimes [C,D](K,F) \to [C,D](K,G)
 $$
-is the universal morphism into the end $[C,D](K,F)$ obtained from observing that the composites
+is the universal morphism into the [[end]] $[C,D](K,F)$ obtained from observing that the composites
 $$
  [C,D](F,G)\otimes [C,D](K,F)
  \stackrel{E_c\otimes E_d}{\to}
@@ -59,7 +59,10 @@ $$
  \stackrel{\circ_{K(c), F(c), G(c)}}{\to}
  D(K(c), F(c))
 $$
-form an extraordinary $V$-natural family, equivalently that
+
+  (where $E_c \colon [C,D](F,G) \to D(F(c),G(c))$ denotes the canonical [[morphism]] out of the [[end]], i.e. the counit)
+
+  form an [[extranatural transformation|extra $V$-natural]] family, equivalently that
 $$
  [C,D](F,G)\otimes [C,D](K,F)
  \stackrel{\prod_{c \in Obj(c)}E_c\otimes E_c}{\to}
@@ -68,7 +71,7 @@ $$
  \stackrel{\prod_{c \in Obj(c)}\circ_{K(c), F(c), G(c)}}{\to}
  \prod_{c \in Obj(c)}D(K(c), G(c))
 $$
-equalizes the two maps appearing in the [[equalizer]] definition of the [[end]].
+equalizes the two maps appearing in the [[equalizer]]-definition of the [[end]].
 
 
 +-- {: .un_prop}
@@ -91,7 +94,7 @@ $$
   D(F(-),G(-)) : C^{op} \otimes C \to Set
 $$
 
-as an [[equalizer]]: it is the universal subobject 
+as an [[equalizer]]: it is the [[universal property|universal]] [[subobject]] 
 
 $$
   \int_{c \in C} D(F(c), G(c))
@@ -99,13 +102,13 @@ $$
   \prod_{c \in Obj(C)} D(F(c), G(c))
 $$
 
-of the product of all [[hom-set]]s in $D$ between the images of objects in $C$ under the functors $F$ and $G$. So one element $ \eta \in \int_{c \in C} D(F(c), G(c))$ is a collection of morphisms
+of the [[product]] of all [[hom-sets]] in $D$ between the [[images]] of [[objects]] in $C$ under the [[functors]] $F$ and $G$. So one element $ \eta \in \int_{c \in C} D(F(c), G(c))$ is a collection of morphisms
 
 $$
   ( F(c) \stackrel{\eta_c}{\to} G(c))_{c \in Obj(c)}
 $$
 
-such that the "left and right [[action]]" (in the sense of [[distributor]]s) of $D(F(-),G(-))$ on these elements coincides. Unwrapping what this action is (see the details at [[end]]) one find that 
+such that the "left and right [[action]]" (in the sense of [[distributors]]) of $D(F(-),G(-))$ on these elements coincides. Unwrapping what this action is (see the details at [[end]]) one find that 
 
 * the "right [[action]]" by a morphism $c \stackrel{f}{\to} d$ is the postcomposition $
   (F(c) \stackrel{\eta_c}{\to} G(c)) \mapsto
@@ -117,7 +120,7 @@ $
   (F(c) \stackrel{F(f)}{\to} F(d) \stackrel{\eta_d}{\to} G(d) )
 $.
 
-So the invariants under the combined action are those $\eta$ for which for all $f : c \to d$ in $C$ the diagram
+So the [[invariants]] under the combined action are those $\eta$ for which for all $f \colon c \to d$ in $C$ the diagram
 $$
   \array{
     F(c) &\stackrel{\eta_c}{\to} & G(c)
@@ -138,14 +141,17 @@ For categories enriched in [[truth values]], the enriched functor category is gi
 
 ## Related concepts
 
-* [[enriched Reedy category]], [[model structure on homotopical presheaves]], [[model structure on sSet-presheaves]]
+* [[enriched Reedy category]]
+
+* [[model structure on homotopical presheaves]]
+
+* [[model structure on sSet-presheaves]]
 
 ## References
 
-An original article is
+An original article:
 
-* [[Brian Day]] [[Max Kelly]], _Enriched functor categories_, Reports
-of the Midwest Category Seminar III (Lecture Notes in Mathematics, Volume 106, 1969), 178 - 191.
+* [[Brian Day]], [[Max Kelly]], *Enriched functor categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106** (1969) 178-191 &lbrack;[doi:10.1007/BFb0059146](https://doi.org/10.1007/BFb0059146), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0059146.pdf)&rbrack;
 
 Review includes
 
