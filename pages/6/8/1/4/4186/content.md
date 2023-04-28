@@ -96,6 +96,10 @@ Relation to [[vertex operator algebras]] is discussed in
 
 * {#Carpi16} [[Sebastiano Carpi]], _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) ([arXiv:1603.06742](http://arxiv.org/abs/1603.06742))
 
+and for [[super vertex operator algebras]]:
+
+* [[Sebastiano Carpi]], [[Tiziano Gaudio]], [[Robin Hillier]], *From vertex operator superalgebras to graded-local conformal nets and back* &lbrack;[arXiv:2304.14263](https://arxiv.org/abs/2304.14263)&rbrack;
+
 See also
 
 * James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
