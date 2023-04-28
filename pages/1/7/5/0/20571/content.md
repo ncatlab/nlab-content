@@ -25,6 +25,10 @@ On the [[Wess-Zumino-Witten model]]:
 
 * [[Lorenz Eberhardt]], *Wess-Zumino-Witten models*, lecture notes at *[YRISW 2019: A modern primer for 2D CFT](https://conf.itp.phys.ethz.ch/esi-school/)*, Vienna (2019) &lbrack;[pdf](https://conf.itp.phys.ethz.ch/esi-school/Lecture_notes/WZW%20models.pdf), [[Eberhardt-WZWModels.pdf:file]]&rbrack;
 
+On 3-dimensional ([[quantum gravity|quantum]]) [[gravity]] ([[general relativity]]) with [[cosmological constant]], and its (non-)relation to [[Chern-Simons theory]] with non-[[compact Lie group|compact]] [[gauge groups]]:
+
+* [[Scott Collier]], [[Lorenz Eberhardt]], [[Mengyang Zhang]], *3d gravity and Chern-Simons theory -- references* &lbrack;[arXiv:2304.13650](https://arxiv.org/abs/2304.13650)&rbrack;
+
 
 
 category: people
