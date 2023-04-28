@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[full subcategory|inclusion]] of actual [[spectra]] (e.g. [[sequential spectrum|sequential]] [[Omega-spectra]] or [[excisive functors]] on $(\infty Grpd_{fin}^{\ast/})^{op}$) into [[pre-spectra]] (e.g. [[sequential spectrum|sequential]] pre-spectra or all functors on on $(\infty Grpd_{fin}^{\ast/})^{op}$) has a ([[adjoint (infinity,1)-functor|infinity]]-)[[left adjoint]], "spectrification".
+The [[full subcategory|inclusion]] of actual [[spectra]] (e.g. [[sequential spectrum|sequential]] [[Omega-spectra]] or [[excisive functors]] on $(\infty Grpd_{fin}^{\ast/})^{op}$) into [[pre-spectra]] (e.g. [[sequential spectrum|sequential]] pre-spectra or all functors on $(\infty Grpd_{fin}^{\ast/})^{op}$) has a ([[adjoint (infinity,1)-functor|infinity]]-)[[left adjoint]], "spectrification".
 
 ## Existence
 
