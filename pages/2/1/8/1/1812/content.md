@@ -88,4 +88,6 @@ Apparently there is no written account by [[Jean Bénabou]] of his definition of
 
 [[!redirects cosmoi]]
 
+[[!redirects cosmos for enrichment]]
+
 
