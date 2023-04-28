@@ -2345,9 +2345,9 @@ since there is only a single object. But this means $F_{i,i}$ and $G_{j,j}$ are 
 ###### Proposition
 **(every [[groupoid]] is [[equivalence of groupoids|equivalent]] to a [[disjoint union]] of [[group]] [[deloopings]])
 
-Assuming the [[axiom of choice]], then:
+Assuming the relevant [[axiom of choice]], then:
 
-For $\mathcal{G}$ any [[groupoid]], then there exists a [[set]] $\{G_i\}_{i \in I}$ of groups and an [[equivalence of groupoids]] (def. \ref{EquivalenceOfGroupoids})
+For $\mathcal{G}$ any [[groupoid]], then there exists a [[set]] $\{G_i\}_{i \in I}$ of [[groups]] and an [[equivalence of groupoids]] (def. \ref{EquivalenceOfGroupoids})
 
 $$
   \mathcal{G} \simeq \underset{i \in I}{\sqcup} B G_i
@@ -2393,8 +2393,7 @@ $$
 $$
 
 which sends each object to its connected component, and
-which for pairs of objects $y$, $z$ of $\mathcal{G}$ is given by conjugation with the
-morphisms choosen above:
+which for pairs of objects $y$, $z$ of $\mathcal{G}$ is given by [[conjugation]] with the morphisms choosen above:
 
 $$
   \array{
