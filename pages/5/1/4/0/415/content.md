@@ -31,7 +31,7 @@ $$
 
 The notion of **copowering** generalizes this to the situation where a category $C$ does not act on itself by tensors, but where another category $V$ acts on $C$.
 
-The dual notion is that of [[power]]ing.
+The [[formal duality|dual]] notion is that of *[[powering]]*.
 
 ## Definition 
 
