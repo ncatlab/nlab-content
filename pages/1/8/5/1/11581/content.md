@@ -59,6 +59,10 @@ Possible relation to [[bosonic M-theory]]:
 
 * [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
+Discussion in terms of [[conformal nets]]:
+
+* [[Sebastiano Carpi]], [[Tiziano Gaudio]], [[Robin Hillier]], *From vertex operator superalgebras to graded-local conformal nets and back* &lbrack;[arXiv:2304.14263](https://arxiv.org/abs/2304.14263)&rbrack;
+
 
 
 [[!redirects monster vertex operator algebra]]
