@@ -217,7 +217,8 @@ induces
 
    with components $\gamma_x$ (which satisfies its "enriched [[naturality square]]-condition" [here](enriched+natural+transformation#eq:ExtranaturalitySquare) essentially by construction of $p$).
 
-Similarly there is an enriched transformation $p \circ \iota \longrightarrow  id_{\mathcal{X}}$, but if we choose $\beta_{x_[x]} \coloneqq id_{x_{[x]}}$ --- as we may --- then there is already an [[equality]] $p \circ \iota = id_{\mathcal{X}}$.
+Similarly there is an enriched transformation $id_{\mathcal{X}} \longrightarrow  p \circ \iota$, and these make the [[adjunction unit|unit]] and [[adjunction counit|counit]] of an "enriched [[adjoint equivalence]]".
+But if we choose $\beta_{x_[x]} \coloneqq id_{x_{[x]}}$ --- as we may --- then there is already an [[equality]] $p \circ \iota = id_{\mathcal{X}}$.
 \end{proof}
 
 Some consequences:
@@ -263,9 +264,9 @@ $$
   \big)  
 $$
 is inverse to $p^\ast$ (eq:ContractionOntoConnectedComponents)
-up to a [[natural isomorphism]] whose component at any [[enriched functor]] $F \colon \mathcal{X} \longrightarrow \mathbf{C}$ is the [[enriched natural transformation]] $p^\ast \iota^\ast F\longrightarrow F$ obtained as the [[horizontal composition]] ("[[whiskering]]" of enriched transformations, see [there](enriched+natural+transformation#RightWhiskering)) by $F$ of the enriched transformation (eq:ContractingHomotopy).
+up to a [[natural isomorphism]] whose component at any [[enriched functor]] $F \colon \mathcal{X} \longrightarrow \mathbf{C}$ is the [[enriched natural transformation]] $p^\ast \iota^\ast F\longrightarrow F$ obtained as the [[horizontal composition]] ("[[whiskering]]" of enriched transformations, see [there](enriched+natural+transformation#RightWhiskering)) by $F$ of the enriched transformation (eq:ContractingHomotopy). Notice that this is already an [[adjoint equivalence]].
 
-If $\mathbf{C}$ is moreover [[tensoring|tensored]] over [[sSet]], then this, in turn, is [[equivalence of categories|equivalent]] to a product of categories of [[simplicial group]][[group actions]] on objects in $\mathbf{C}$:
+If $\mathbf{C}$ is moreover [[tensoring|tensored]] over [[sSet]], then this, in turn, is [[equivalence of categories|equivalent]] to a product of categories of [[simplicial group]]$\;$[[group actions]] on objects in $\mathbf{C}$:
 $$
   sFunc(\mathcal{X},\,\mathbf{C})
   \;\simeq\;
