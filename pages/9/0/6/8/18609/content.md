@@ -21,7 +21,12 @@ On [[homotopical AQFT]]:
 * [[Simen Bruinsma]], [[Christopher J. Fewster]], [[Alexander Schenkel]], *Relative Cauchy evolution for linear homotopy AQFTs* ([arXiv:2108.10592](https://arxiv.org/abs/2108.10592))
 
 
-## Related $n$Lab entries
+On [[quantum measurement]] in the refined context of ([[local field theory|local]] [[algebraic quantum field theory|algebraic]]) [[quantum field theory]] [[AQFT on curved spacetimes|on Lorentzian manifolds]]:
+
+* [[Christopher J. Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory* &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
+
+
+## Related entries
 
 * [[AQFT]]
 
