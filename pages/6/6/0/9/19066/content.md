@@ -941,11 +941,16 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 
 > Still to spell out some technical bits in Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below...
 
-Now assume that $\mathbf{C}$ is in addition a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with
+Now assume in addition that 
 
-* [[tensor product]] denoted $(-) \otimes (-) \,\colon\, \mathbf{C} \times \mathbf{C} \to \mathbf{C}$
+1. the [[tensor product]] in $\mathbf{V}$ is the [[cartesian product]],
 
-* [[internal hom]] denoted $[-,-] \,\colon\, \mathbf{C}^{op} \times \mathbf{C} \to \mathbf{C}$
+1. $\mathbf{C}$ is also a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with
+
+  * [[tensor product]] denoted $(-) \otimes (-) \,\colon\, \mathbf{C} \times \mathbf{C} \to \mathbf{C}$
+
+  * [[internal hom]] denoted $[-,-] \,\colon\, \mathbf{C}^{op} \times \mathbf{C} \to \mathbf{C}$
+
 
 The projective model structures $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ inherit monoidal model structure, by an evident generalization of the argument in [Berger & Moerdijk (2006), Lem. 2.5.2](Borel+model+structure#BergerMoerdijk2006).
 
