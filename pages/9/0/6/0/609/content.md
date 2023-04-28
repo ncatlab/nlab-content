@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -131,7 +132,8 @@ For $\mathcal{X} \,\in\, sSet\text{-}Grpd$ a DK-simplicial groupoid, write:
 **(simplicial groupoids equivalent to unions of simplicial deloopings)**
 \linebreak
   Assuming the [[axiom of choice]], every [[sSet]]-[[enriched groupoid]] is "enriched [[homotopy equivalence|homotopy equivalent]]" to a [[disjoint union]] of simplicial delooping groupoids (Exp. \ref{SimplicialDeloopingGroupoids}), one for each [[connected components]], in that given a choice of representative [[objects]] $(i, x_i) \,\in\, \big(i \in \pi_0(\mathcal{X})\big) \times Obj(\mathcal{X}_i)$ of all the [[connected components]], the [[full subcategory|inclusion]] [[enriched functor]]
-$$
+\[
+  \label{FullInclusionOfConnectedComponents}
   \iota
   \,\colon\,
   \left(
@@ -140,7 +142,7 @@ $$
   \right)
   \xhookrightarrow{\phantom{---}}
   \mathcal{X}
-$$
+\]
 has a strict [[left inverse]] and a [[right inverse]] up to [[enriched natural transformation|enriched natural]] [[isomorphism]].
 \end{proposition}
 \begin{proof}
@@ -158,10 +160,15 @@ induces
 
 1. an [[enriched functor]]
 
-   $$
+   \[
+     \label{ContractionOntoConnectedComponents}
      \array{
        \mathcal{X} 
-         &\overset{p}{\longrightarrow}& 
+         &\xrightarrow{
+          \phantom{----}
+          p
+          \phantom{----}
+         }& 
        \underset{i \in \pi_0(\mathcal{X})}{\amalg}
        \mathbf{B}\big( \mathcal{X}(x_i,\,x_i) \big)
        \\
@@ -195,23 +202,83 @@ induces
          \times
          \mathcal{X}(x_{[x]},x)
      }
-   $$
+   \]
 
 1. an [[enriched natural transformation]]
 
-   $$
+   \[
+     \label{ContractingHomotopy}
      \gamma 
        \,\colon\, 
      \iota \circ p 
        \longrightarrow 
      id_{\mathcal{X}}
-   $$
+   \]
 
    with components $\gamma_x$ (which satisfies its "enriched [[naturality square]]-condition" [here](enriched+natural+transformation#eq:ExtranaturalitySquare) essentially by construction of $p$).
 
 Similarly there is an enriched transformation $p \circ \iota \longrightarrow  id_{\mathcal{X}}$, but if we choose $\beta_{x_[x]} \coloneqq id_{x_{[x]}}$ --- as we may --- then there is already an [[equality]] $p \circ \iota = id_{\mathcal{X}}$.
 \end{proof}
 
+Some consequences:
+
+\begin{remark}
+\label{sSetPresheavesOnSimplicialGroupoidsAreProductsOfsSetGroupActions}
+**([[simplicial presheaves]] on [[simplicial groupoids]] are [[equivalence of categories|equivalently]] [[products]] of [[simplicial group actions]])**
+\linebreak
+  For 
+
+  * $\mathcal{X}$ a DK-enriched groupoid regarded as an [[sSet-enriched category]]
+
+  * $\mathbf{C}$ any [[sSet-enriched category]]
+
+the [[enriched functor category]] between the two is [[equivalence of categories|equivalent]] (as a plain [[locally small category]]) to a [[product category|product]] of [[enriched functor categories]] on simplicial delooping groupoids (Exp. \ref{SimplicialDeloopingGroupoids}), one for each connected component of $\mathcal{X}$, 
+$$
+  sFunc(\mathcal{X},\,\mathbf{C})
+  \;\simeq\;
+  \underset{
+   i \in \pi_0(\mathcal{X})
+  }{\prod}
+  sFunc\big(
+    \mathbf{B}\mathcal{X}(x_i,x_i)
+    ,\,
+    \mathbf{C}
+  \big)
+  \,.
+$$
+
+This follows by observing that the functor of precomposion with the inclusion (eq:FullInclusionOfConnectedComponents)
+$$
+  \iota^\ast
+  \;\colon\;
+  sFunc(\mathcal{X},\,\mathbf{C})
+  \longrightarrow
+  \underset{
+   i \in \pi_0(\mathcal{X})
+  }{\prod}
+  sFunc\big(
+    \mathbf{B}\mathcal{X}(x_i,x_i)
+    ,\,
+    \mathbf{C}
+  \big)  
+$$
+is inverse to $p^\ast$ (eq:ContractionOntoConnectedComponents)
+up to a [[natural isomorphism]] whose component at any [[enriched functor]] $F \colon \mathcal{X} \longrightarrow \mathbf{C}$ is the [[enriched natural transformation]] $p^\ast \iota^\ast F\longrightarrow F$ obtained as the [[horizontal composition]] ("[[whiskering]]" of enriched transformations, see [there](enriched+natural+transformation#RightWhiskering)) by $F$ of the enriched transformation (eq:ContractingHomotopy).
+
+If $\mathbf{C}$ is moreover [[tensoring|tensored]] over [[sSet]], then this, in turn, is [[equivalence of categories|equivalent]] to a product of categories of [[simplicial group]][[group actions]] on objects in $\mathbf{C}$:
+$$
+  sFunc(\mathcal{X},\,\mathbf{C})
+  \;\simeq\;
+  \underset{
+   i \in \pi_0(\mathcal{X})
+  }{\prod}
+  \Big(
+  \big(\mathcal{X}(x_i,x_i)\big)
+  Act(\mathbf{C})
+  \Big)
+  \,.
+$$
+\end{remark}
 
 ### Cartesian closed structure
  {#CartesianClosedStructure}
