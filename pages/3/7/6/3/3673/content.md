@@ -46,7 +46,7 @@ a pair of [[adjoint functors]] with [[right adjoint]] $U$.  Define a morphism in
 
 * a *fibration* or *weak equivalence* precisely if its image under $U$ is so in $C$, respectively
 
-  (by adjointness this means that the fibrations form equivalently the class with the [[right lifting property]] against the image under $F$ of the [[acyclic cofibrations]] in $C$);
+  (by [adjointness](adjoint+functor#InTermsOfHomIsomorphism) this means that the fibrations form equivalently the class with the [[right lifting property]] against the image under $F$ of the [[acyclic cofibrations]] in $C$);
 
 * a *cofibration* precisely if it has the [[left lifting property]] with respect to the fibrations that are also weak equivalences, according to the previous item.
 
