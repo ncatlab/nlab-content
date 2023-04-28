@@ -6,6 +6,11 @@ Brian John Day (1945-2012) was an Australian [[category theory|category theorist
 
 ## Selected writings
 
+On [[enriched functor categories]]:
+
+* [[Brian Day]], [[Max Kelly]], *Enriched functor categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106** (1969) 178-191 &lbrack;[doi:10.1007/BFb0059146](https://doi.org/10.1007/BFb0059146), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0059146.pdf)&rbrack;
+
+
 On [[limits]] and [[colimits]] and [[exponential objects]] in the [[category]] [[Top]] of [[topological spaces]]:
 
 * {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
