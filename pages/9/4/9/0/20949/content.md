@@ -1,6 +1,8 @@
 ### 3d Gravity and Chern-Simons theory
  {#3dGravityAndChernSimonsTheoryReferences}
 
+On 3-dimensional ([[quantum gravity|quantum]]) [[gravity]] ([[general relativity]]) with [[cosmological constant]], and its (non-)relation to [[Chern-Simons theory]] with non-[[compact Lie group|compact]] [[gauge groups]]:
+
 The original articles on [[3d gravity]], discussing its formulation as a [[Chern-Simons theory]] and discovering its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
 * [[Stanley Deser]], [[Roman Jackiw]], [[Gerard 't Hooft]], _Three-dimensional Einstein gravity: Dynamics of flat space_, Ann. Phys. 152 (1984) 220 (<a href="https://doi.org/10.1016/0003-4916(84)90085-X">doi:10.1016/0003-4916(84)90085-X</a>)
@@ -54,5 +56,7 @@ Further developments:
 * [[Marc Henneaux]], [[Wout Merbis]], Arash Ranjbar, _Asymptotic dynamics of $AdS_3$ gravity with two asymptotic regions_ ([arXiv:1912.09465](https://arxiv.org/abs/1912.09465))
 
 * Viraj Meruliya, [[Sunil Mukhi]], Palash Singh, _Poincaré Series, 3d Gravity and Averages of Rational CFT_ ([arXiv:2102.03136](https://arxiv.org/abs/2102.03136))
+
+* [[Scott Collier]], [[Lorenz Eberhardt]], [[Mengyang Zhang]], *3d gravity and Chern-Simons theory -- references* &lbrack;[arXiv:2304.13650](https://arxiv.org/abs/2304.13650)&rbrack;
 
 
