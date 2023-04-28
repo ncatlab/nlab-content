@@ -320,8 +320,12 @@ A substantiation of this argument via [[AdS/CFT]] is given in
 
 See also:
 
-
 * Sylvain Fichet, Prashant Saraswat, _Approximate Symmetries and Gravity_ ([arXiv:1909.02002](https://arxiv.org/abs/1909.02002))
+
+
+[[!include 3d gravity and Chern-Simons theory -- references]]
+
+
 
 
 [[!redirects perturbative quantum gravity]]
