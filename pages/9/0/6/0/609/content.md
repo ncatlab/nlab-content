@@ -93,6 +93,126 @@ $$
 
 ## Properties
 
+### Relation to simplicial groups
+ {#RelationToSimplicialGroups}
+
+\begin{example}\label{SimplicialDeloopingGroupoids}
+**([[simplicial groupoid|simplicial]] [[delooping groupoid]])**
+\linebreak
+For $\mathcal{G} \,\in\, Grp(sSet)$ a [[simplicial group]], we obtain its simplicial [[delooping groupoid]] $\mathbf{B}\mathcal{G}$ by setting
+
+* $Obj(\mathbf{B}\mathcal{G}) \,\coloneqq\, \ast$ (the [[singleton set]]),
+
+* $(\mathbf{B}\mathcal{G})(\ast,\ast) \,\coloneqq\, \mathcal{G}$
+
+* with [[composition]] given by the group operation of $\mathcal{G}$.
+
+Conversely, for $\mathcal{X} \,\in\, sSet\text{-}Grpd$ and $x \,\in\, Obj(\mathcal{X})$, the [[endomorphism]]-[[hom-object]] at $x$ canonically carries the [[structure]] of a [[simplicial group]]:
+$$
+  \mathcal{X}(x,x) \,\in\, Grp(sSet)
+  \,.
+$$
+\end{example}
+
+\begin{definition}
+**(some notation)**
+\linebreak
+For $\mathcal{X} \,\in\, sSet\text{-}Grpd$ a DK-simplicial groupoid, write:
+
+* $\mathcal{X}_0 \,\in\, Grpd$ for its [[underlying]] plain (i.e. [[Set]]-enriched) [[groupoid]] (its [[change of enrichment]] along the [[terminal category|terminal]] functor $sSet \to \ast$)
+
+* $\pi_0(\mathcal{X}) \,\coloneqq\, \pi_0(\mathcal{X}_0) \,\in\, Set$ for the set of [[isomorphism classes]] of [[objects]], hence for the set of *[[connected components]]* of $\mathcal{X}$,
+
+* $\mathcal{X}_{[x]} \hookrightarrow \mathcal{X}$ for the enriched [[full subcategory]] on all objects in the connected component $[x] \,\in\, \pi_0(\mathcal{X})$.
+
+\end{definition}
+
+\begin{proposition}
+**(simplicial groupoids equivalent to unions of simplicial deloopings)**
+\linebreak
+  Assuming the [[axiom of choice]], every [[sSet]]-[[enriched groupoid]] is "enriched [[homotopy equivalence|homotopy equivalent]]" to a [[disjoint union]] of simplicial delooping groupoids (Exp. \ref{SimplicialDeloopingGroupoids}), one for each [[connected components]], in that given a choice of representative [[objects]] $(i, x_i) \,\in\, \big(i \in \pi_0(\mathcal{X})\big) \times Obj(\mathcal{X}_i)$ of all the [[connected components]], the [[full subcategory|inclusion]] [[enriched functor]]
+$$
+  \iota
+  \,\colon\,
+  \left(
+  \underset{i \in \pi_0(\mathcal{X})}{\amalg}
+  \mathbf{B}\big(\mathcal{X}(x_i,\,x_i)\big)
+  \right)
+  \xhookrightarrow{\phantom{---}}
+  \mathcal{X}
+$$
+has a strict [[left inverse]] and a [[right inverse]] up to [[enriched natural transformation|enriched natural]] [[isomorphism]].
+\end{proposition}
+\begin{proof}
+  This follows in direct [[enriched category theory|enriched]]-analogy to the corresponding statement for plain [[groupoids]] (as for instance spelled out [here](Introduction+to+Topology+--+2#EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings)) using (only) that the [[cosmos]] [[sSet]] is [[cartesian monoidal category|cartesian monoidal]]:
+
+Choosing for each $x \in Obj(\mathcal{X})$ an element 
+
+$$
+  \gamma_x 
+  \,\colon\, 
+  \ast \to \mathcal{X}(x_{[x]}, x)
+$$ 
+
+induces
+
+1. an [[enriched functor]]
+
+   $$
+     \array{
+       \mathcal{X} 
+         &\overset{p}{\longrightarrow}& 
+       \underset{i \in \pi_0(\mathcal{X})}{\amalg}
+       \mathbf{B}\big( \mathcal{X}(x_i,\,x_i) \big)
+       \\
+       x &\mapsto& x_{[x]}
+       \\
+       \mathcal{X}(x,y) 
+         &\xrightarrow{
+            \phantom{----}
+            p_{x,y}
+            \phantom{----}
+         }&
+       \mathcal{X}(x_{[x]}, x_{[y]})
+       \\
+       \mathllap{\simeq}\Big\downarrow
+       &&
+       \Big\uparrow\mathrlap{\circ}
+       \\
+       \ast \times \mathcal{X}(x,y) \times \ast
+       &
+       \underset{
+         \big((-)^{-1}\circ \gamma_y\big)
+         \times
+         id
+         \times
+         \gamma_x
+       }{\longrightarrow}
+       &
+         \mathcal{X}(x_{[y]},y)
+         \times
+         \mathcal{X}(x,y)
+         \times
+         \mathcal{X}(x_{[x]},x)
+     }
+   $$
+
+1. an [[enriched natural transformation]]
+
+   $$
+     \gamma 
+       \,\colon\, 
+     \iota \circ p 
+       \longrightarrow 
+     id_{\mathcal{X}}
+   $$
+
+   with components $\gamma_x$ (which satisfies its "enriched [[naturality square]]-condition" [here](enriched+natural+transformation#eq:ExtranaturalitySquare) essentially by construction of $p$).
+
+Similarly there is an enriched transformation $p \circ \iota \longrightarrow  id_{\mathcal{X}}$, but if we choose $\beta_{x_[x]} \coloneqq id_{x_{[x]}}$ --- as we may --- then there is already an [[equality]] $p \circ \iota = id_{\mathcal{X}}$.
+\end{proof}
+
+
 ### Cartesian closed structure
  {#CartesianClosedStructure}
 
