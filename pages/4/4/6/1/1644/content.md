@@ -152,7 +152,7 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 ## Related concepts
 
-* [[free grouoid]], [[free category]]
+* [[free groupoid]], [[free category]]
 
 * [[core in a 2-category]]
 
