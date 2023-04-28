@@ -47,11 +47,13 @@ $$
   Grpd_n
   \underoverset
     {\underset{core}{\longleftarrow}}
-    {\hookrightarrow}
+    {\overset{F}{\hookrightarrow}}
     {\bot}
   Cat_{n,r}
   \,.
 $$
+
+(Incidentally, the [[forgetful functor]] $F$ from $Grp$ to $Cat$ also has a [[left adjoint]], called the *[[free groupoid]]*-construction.)
 
 
 ## Definition
@@ -150,9 +152,12 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 ## Related concepts
 
+* [[free grouoid]], [[free category]]
+
 * [[core in a 2-category]]
 
 * [[decategorification]]
+
 
 ## References
 
@@ -161,11 +166,14 @@ Discussion in the generality of [[(infinity,n)-categories|$(\infty,n)$-categorie
 * {#Lurie09} [[Jacob Lurie]], Around Prop. 1.1.14 in: _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  
 
+[[!redirects core groupoids]]
 
 [[!redirects core]]
 [[!redirects cores]]
+
 [[!redirects underlying groupoid]]
 [[!redirects underlying groupoids]]
+
 [[!redirects maximal subgroupoid]]
 [[!redirects maximal subgroupoids]]
 [[!redirects maximal sub-groupoid]]
