@@ -15,7 +15,7 @@ and if $\alpha$ is a limit ordinal:
 
 $$ L_\alpha = \bigcup_{\beta\lt \alpha} L_\beta$$
 
-Here, for $X$ a pure set, by $I(X)$ we denote the smallest set containing $X$ and closed with respect to the operations of [[Cartesian product]], [[relative complement|set difference]], [[unordered pair]], [[pairing|ordered pair]], taking the [[domain]] of a [[binary relation]], and performing a [[permutation]] of an ordered triple. 
+Here, for $X$ a pure set, by $I(X)$ we denote the smallest set containing $X$ and closed with respect to the operations of [[Cartesian product]], [[relative complement|set difference]], [[unordered pair]], [[pairing|ordered pair]], taking the [[domain]] of a [[binary relation]], and performing a [[permutation]] of an ordered triple. This definition, while less technical, offers different levels than the standard set-theoretical definition, for example the ordinal $\alpha$ need not be a member of $L_{\alpha+1}$.
 
 Alternatively, we may say that
 $$ L_\alpha = \bigcup_{\beta \lt \alpha} P(L_\beta) \cap I(L_\beta \cup \{L_\beta\}) $$
