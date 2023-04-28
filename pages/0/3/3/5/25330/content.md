@@ -27,28 +27,57 @@ A Tambara-Yamagami category $TY(G)$ is defined as follows.
 Starting from a [[finite group]] $G$, consider the set $I=G\coprod \{m\}$. We construct $TY(G)$ by defining the simple objects as $\{U_g\}_{g\in G}\coprod \{U_m\}$. These have fusion rules:
 
 * $U_{g}\otimes U_{g'}=U_{gg'}$
-* $U_{g}\otimes U_m = U_g$
-* $U_m\otimes U_g = U_g$
+* $U_{g}\otimes U_m = U_m$
+* $U_m\otimes U_g = U_m$
 * $U_m\otimes U_m = \sum_{g\in G} U_g$
 
+Unless stated otherwise, we assume the ground field of $TY(G)$ to be $\mathbb{C}$. It has been shown that the above fusion rules also admit categorification over the reals (see [Plavnik & Sanford & Sconce 2023](#PlavnikSanfordSconce2023)).
 
 ## Properties
 
-It was shown by [Tambara & Yamagami (1998)] (#Tambara1998tensor) that these categories are classified by pairs $(\chi,\tau)$ for $\chi:G\times G\to \C^*$ a bicharacter, and $\tau$ a square root of $\frac{1}{|G|}$.
+It was shown by [Tambara & Yamagami (1998)] (#Tambara1998tensor) that these categories are classified by pairs $(\chi,\tau)$ for $\chi:G\times G\to \mathbb{C}^*$ a bicharacter, and $\tau$ a square root of $\frac{1}{|G|}$.
 
++-- {: .num_remark}
+###### Remark
+Since $\chi$ is symmetric and nondegenerate, $TY(G)$ exists only if $G$ is abelian. $TY(G)$ is not necessarily unique for a choice of $G$.
+=--
+
++-- {: .num_prop}
+###### Proposition
+$TY(G)$ is a [unitary fusion category](unitary+fusion+category).
+=--
+
+This follows from ([Galindo & Hong & Rowell 2013, theorem 5.20](#GalindoHongRowell2013)).
+
++-- {: .num_prop}
+###### Proposition
+$TY(G)$ is a braided fusion category if and only if $G\cong\mathbb{Z}_{2}^{n}$.
+=--
+
+The above is due to ([Siehler 2000, theorem 1.2(1)](#Siehler2000)).
 
 ## Examples
 
-(...)
+* $TY(\mathbb{Z}_{2})$ is realised by two distinct unitary fusion categories (distinguished by the Frobenius-Schur indicator $\varkappa_{m}\in\{+1,-1\}$ of $m$), each of which admit $4$ distinct braidings. All $8$ of these unitary braided fusion categories (UBFCs) are [modular](modular+tensor+category). In particular, the $4$ UBFCs with $\varkappa_{m}=+1$ are also known as the Ising categories (which describe [$SU(2)$-anyons](su2-anyon) at level $k=2$).
+
+* $TY(\mathbb{Z}_{2}\times\mathbb{Z}_{2})$ is equivalent to the [representation category](category+of+representations) of $D_4$ (see [AnyonWiki](#AnyonWiki)).
 
 
 ## References
+
+* {#PlavnikSanfordSconce2023} Julia Plavnik, Sean Sanford, Dalton Sconce, *Tambara-Yamagami Categories over the Reals: The Non-Split Case*, preprint (2023) &lbrack;[arXiv:2303.17843](https://arxiv.org/abs/2303.17843)&rbrack;
+
+* {#GalindoHongRowell2013} Cesar Galindo, Seung-Moon Hong, [[Eric Rowell]], *Generalized and Quasi-Localizations of Braid Group Representations*, International Mathematics Research Notices **2013(3)** (2013) 693-731 &lbrack;[doi:10.1093/imrn/rnr269](https://doi.org/10.1093/imrn/rnr269)&rbrack;
+
+* {#Siehler2000} Jacob Siehler, *Braided Near-Group Categories*, preprint (2000) &lbrack;[arXiv:0011037](https://arxiv.org/abs/math/0011037)&rbrack;
+
+* {#AnyonWiki} AnyonWiki, [List of small multiplicity-free fusion rings](http://www.thphys.nuim.ie/AnyonWiki/index.php/List_of_small_multiplicity-free_fusion_rings)
 
 ### General
 
 Original articles:
 
 * {#Tambara1998tensor} [[Daisuke Tambara]], [[Shigeru Yamagami]], *Tensor categories with fusion rules of self-duality for finite abelian groups*, Journal of Algebra **209**  (1998)  692-707 &lbrack;[doi:10.1006/jabr.1998.7558](https://doi.org/10.1006/jabr.1998.7558)&rbrack;
-
+ 
 
 [[!redirects Tambara-Yamagami categories]]
