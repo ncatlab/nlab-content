@@ -44,6 +44,11 @@ The [[supersymmetry|supersymmetric]] version of a [[vertex operator algebra]]; t
 
 * [[Edward Frenkel]], [[David Ben-Zvi]], _Vertex algebras and algebraic curves_, 2nd Ed., American Mathematical Society, Providence, RI, 2004.
 
+In relation to [[conformal nets]]:
+
+* [[Sebastiano Carpi]], [[Tiziano Gaudio]], [[Robin Hillier]], *From vertex operator superalgebras to graded-local conformal nets and back* &lbrack;[arXiv:2304.14263](https://arxiv.org/abs/2304.14263)&rbrack;
+
+
 
 [[!include elliptic genera as partition functions -- references]]
 
