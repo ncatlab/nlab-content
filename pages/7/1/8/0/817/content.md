@@ -28,9 +28,9 @@ As such one may and does call this ordinary category the "enriched functor categ
 
 However, this category of enriched functors canonically enhances further to a $V$-[[enriched category]] itself, hence to an "enriched-functor enriched-category", then traditionally often denoted $[\mathbf{C}, \mathbf{D}]$ or similar.
 
-Concretely, for
+Namely, for
 $
-  F, \,G \colon \mathbf{C} \longrightarrow \mathbf{D}
+  F, G \,\colon\, \mathbf{C} \longrightarrow \mathbf{D}
 $
 a [[pair]] of $V$-[[enriched functors]] between $V$-[[enriched categories]], the collection of [[enriched natural transformations]] from $F$ to $G$ can also be given the [[structure]] of an [[object]] in $V$, in a compatible way:
 
