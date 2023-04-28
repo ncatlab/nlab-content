@@ -20,6 +20,7 @@ An _enriched natural transformation_ is the appropriate notion of [[homomorphism
 
 
 ## Definition 
+ {#Definition}
 
 For $V$ a [[cosmos for enrichment]], let 
 
@@ -31,6 +32,8 @@ For $V$ a [[cosmos for enrichment]], let
 
 Then:
 
+\begin{definition}
+\label{EnrichedNaturalTransformation}
 An **enriched natural transformation** between these enriched functors
 
 $$
@@ -51,6 +54,7 @@ $$
 
 such that for any [[pair]] of objects $c, c' \,\in\, Obj(\mathbf{C})$ the following [[commuting diagram|diagram commutes]]: 
 
+\[\label{ExtranaturalitySquare}\]
 \begin{tikzcd}
   &
   \mathbf{C}(c,c')
@@ -110,6 +114,7 @@ such that for any [[pair]] of objects $c, c' \,\in\, Obj(\mathbf{C})$ the follow
   ]
 \end{tikzcd}
 
+\end{definition}
 Here
 
 * $\otimes$ denotes the [[tensor product]] in $V$,
@@ -144,6 +149,92 @@ $$
   }
 $$
 
+## Properties
+
+### As 2-morphisms
+
+In generalization of how for plain [[natural transformations]] there is a notion of [[horizontal composition]] ("[[whiskering]]") and [[vertical composition]], so for enriched natural transformations:
+
+\begin{proposition}\label{RightWhiskering}
+**(horizontal composition)**
+\linebreak
+Given
+
+\begin{tikzcd}
+  \mathbf{C}
+  \ar[
+    rr,
+    bend left=30,
+    "{ F }",
+    "{\ }"{name=s, swap}
+  ]
+  \ar[
+    rr,
+    bend right=30,
+    "{ G }"{swap},
+    "{\ }"{name=t}
+  ]
+  \ar[
+     from=s,
+     to=t,
+     Rightarrow,
+     shorten=10pt,
+     "{ \eta }"
+  ]
+  &&
+  \mathbf{D}
+  \ar[
+    rr,
+    "{ H }"
+  ]
+  &&
+  \mathbf{E}
+\end{tikzcd}
+
+where
+
+1. $\eta$ is an enriched natural transformations (Def. \ref{EnrichedNaturalTransformation}) 
+
+1. $H$ is an [[enriched functor]]
+
+then we obtain an enriched natural transformation of the form
+
+\begin{tikzcd}   
+  \mathbf{C}
+  \ar[
+    rr,
+    bend left=30,
+    "{ H \circ F }",
+    "{\ }"{name=s, swap}
+  ]
+  \ar[
+    rr,
+    bend right=30,
+    "{ H \circ G }"{swap},
+    "{\ }"{name=t}
+  ]
+  \ar[
+     from=s,
+     to=t,
+     Rightarrow,
+     shorten=10pt,
+     "{ H(\eta) }"
+  ]
+  &&
+  \mathbf{E}
+\end{tikzcd}
+
+with component maps given as the [[composition]]
+
+$$
+  I 
+  \overset{\eta_c}{\longrightarrow}
+  \mathbf{D}\big(F(c),\,G(c)\big)
+  \overset{H_{F(c), G(c)}}{\longrightarrow}
+  \mathbf{E}\big(H \circ F(c),\,H \circ G(c)\big)
+  \,.
+$$
+\end{proposition}
 
 
 ## Related concepts
