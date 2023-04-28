@@ -16,14 +16,46 @@
 
 ## Idea
 
-The _free category_ on a "set of arrows", hence on a [[directed graph]], is the [[category]] whose [[morphisms]] are the [[tuples]] of composable arrows, hence the morphisms [[free construction|freely generated]] from these arrows. These morphisms may also be thought of as the "paths" that one may trace out in the directed graph by traversing in each step along an arrow, and therefore free categories are also called _[[path categories]]_.
+The _free category_ on a "set of arrows", hence on a [[directed graph]], is the ([[strict category|strict]]) [[category]] whose 
 
-More formally, there is a [[forgetful functor]] from the [[category]] of [[small categories]] and [[functors]] to that of [[directed graphs]] and their morphisms, and the free category construction is the [[left adjoint]] to this functor.
+* [[objects]] are the [[vertices]] of the graph
 
+* [[morphisms]] are the [[tuples]] of [[composition|composable]] [[edges]], hence the morphisms [[free construction|freely generated]] from these (directed) edges. 
+
+  These morphisms may also be thought of as the "paths" that one may trace out in the directed graph by traversing in each step along an arrow, and therefore free categories are also called _[[path categories]]_.
+
+{#MorePrecisely} More formally, there is a [[forgetful functor]] $U$ from the [[1-category]] [[Cat|$Cat^{strct}_{smll}$]] of [[small categories|small]] [[strict categories]] (and [[functors]] between them) to that of [[directed graphs]] (assigning the [[underlying]] graph of morphisms, i.e. forgetting the [[composition]]-operation); and the free category construction is the [[left adjoint]] $F$ to this functor:
+
+$$
+  Cat^{strct}_{smll}
+  \underoverset
+    {\underset{U}{\longrightarrow}}
+    {\overset{F}{\longleftarrow}}
+    {\;\;\bot\;\;\;}
+  DiGrph
+$$
+
+{#FreeGroupoid} Often this is considered in [[composition]] with the "localization" functor that constructs the [[free groupoid]] on a given category:
+
+$$
+  Grpd^{strct}_{smll}
+  \underoverset
+    {\underset{U_{Grpd}}{\longrightarrow}}
+    {\overset{F_{Grpd}}{\longleftarrow}}
+    {\;\;\bot\;\;\;}
+  Cat^{strct}_{smll}
+  \underoverset
+    {\underset{U_{Cat}}{\longrightarrow}}
+    {\overset{F_{Cat}}{\longleftarrow}}
+    {\;\;\bot\;\;\;}
+  DiGrph
+$$
+
+(which relates to the [[Milnor construction]], see [Goerss & Jardine (2009), V.7](Dwyer-Kan+loop+groupoid#GoerssJardine09))
 
 ## Related concepts
 
-* [[free groupoid]]
+* [[free groupoid]], [[core groupoid]]
 
 * [[free diagram]]
 
