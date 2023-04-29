@@ -24,7 +24,7 @@ By giving a semantics to formulas written in the [[higher-order logic|higher-ord
 
 Kripke--Joyal semantics provides rules and prescriptions for semantic interpretation for general toposes but these prescriptions may simplify for special classes of toposes e.g. the rules resulting for [[presheaf toposes]] over posets (when restricted to first-order formulas) correspond to the original notion of model for IPL considered by [[Saul Kripke|Kripke]] et al.
 
-There should be a version of Kripke--Joyal semantics for [[homotopy type theory]], as claimed [here](n-types+cover#InModels). 
+Kripke--Joyal semantics for [[homotopy type theory]], as claimed [here](n-types+cover#InModels), can be found in Awodey, Gambino, and Hazratpour ([2021](#AGH21)).
 
 ## Formulation
 
@@ -203,6 +203,11 @@ A generalization to [[quantales]] is in
 Semantics via generalized elements in categories with pullbacks is studied in
 
 * [[Anders Kock]], _Elementwise semantics in categories with pull-backs_, arXiv:2004.14731 (2020). ([abstract](http://arxiv.org/abs/2004.14731))
+
+Kripke-Joyal semantics for [[Homotopy type theory]] are developed in
+
+* {#AGH21}S. Awodey, N. Gambino, and S. Hazratpour, Kripke-Joyal forcing for type theory and uniform fibrations, 2022.  ([arXiv](https://arxiv.org/abs/2110.14576))
+
 
 
 [[!redirects Kripke-Joyal semantics]]
