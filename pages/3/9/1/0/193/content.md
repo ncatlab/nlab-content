@@ -17,70 +17,165 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Two [[morphisms]] $C \stackrel{L}{\to} D$ and $D \stackrel{R}{\to} C$ in a [[2-category]] $\mathcal{C}$ form an **adjunction** if they are **dual** to each other ([Lambek 82](#Lambek82)).
+A [[pair]] of [[1-morphisms]] in a [[2-category]] form an **adjunction** if they are **dual** to each other ([Lambek (1982)](#Lambek82), cf. [here](geometry+of+physics+--+categories+and+toposes#CategoryTheoryIsTheoryOfDuality)) in a precise sense.
 
-There are two archetypical examples:
+There are two archetypical classes of examples:
 
-*  If $A$ is a [[monoidal category]] and $\mathcal{C} = \mathbf{B}A$ is the one-object 2-category incarnation of $A$ (the [[delooping]] of $A$), so that the morphisms in $\mathcal{C}$ correspond to the objects of $A$, then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of [[dualizable object|dual objects]] in $A$.
+* If $A$ is a [[monoidal category]] and $\mathbf{B}A$ denotes the [[singleton|one-]][[object]] 2-category whose single [[hom-category]] is $A$ (the [[delooping]] of $A$), then the notion of adjoint morphisms in $\mathbf{B}A$ coincides precisely with the notion of [[dualizable object|dual objects]] in $A$, subsuming, in turn, classical examples such as [[dual vector spaces]] in the case that $A =  $ [[FinDimVect]].
 
-*  If $\mathcal{C}$ is the $2$-category [[Cat]], so that the morphisms in $\mathcal{C}$ are [[functors]], then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of _[[adjoint functors]]_.
+* Adjunctions in the [[2-category]] [[Cat]] of [[categories]] are  _[[adjoint functors]]_.
 
+  * Notice that essentially everything that makes [[category theory]] nontrivial and interesting, beyond [[groupoid]]-theory, is governed by the concept of [[adjoint functors]]. In particular [[universal constructions]] such as [[limit|limits and colimits]], [[Kan extensions]], ([[coend|co]])[[ends]] are examples of adjunctions in [[Cat]].
 
+  * Similarly, for $V$ any [[cosmos for enrichment]], adjunctions in the 2-category [[VCat]] of $V$-[[enriched categories]] are equivalently [[enriched adjoint functors]]. Already in simple cases such $V = $ [[truth values]] this subsumes classical concepts such as that of [[Galois connections]].
 
-The notion of adjunction may usefully be thought of as a weakened version of the notion of [[equivalence]] in a [[2-category]]: a morphism in an adjunction need not be invertible, but it has in some sense _a left inverse from below_ and _a right inverse from above_. If the morphism in an adjunction does happen to be a genuine equivalence, then we speak of the adjunction being an [[adjoint equivalence]].
+  * Remarkably, even adjunctions in the [[homotopy 2-category]] of [[(infinity,1)-categories|$(\infty,1)$-categories]] are equivalent to [[adjoint (infinity,1)-functors|adjoint $\infty$-functors]], see the examples [below](#AdjointInfinityOneFunctors). 
 
-Essentially everything that makes category theory nontrivial and interesting beyond [[groupoid]] theory can be derived from the concept of adjoint functors. In particular [[universal constructions]] such as [[limit|limits and colimits]] are examples of certain adjunctions.  Adjunctions are already interesting (but simpler) in [[2-posets]], such as the $2$-poset [[Pos]] of [[posets]].
+  These classes of examples make adjunctions a key notion in *[[formal category theory]]*.
 
+      
+Finally, the notion of *adjunction* may usefully be thought of as a generalization of the notion of *[[equivalence in a 2-category]]*: an adjoint [[1-morphism]] need not be [[invertible morphism|invertible]] (even up to [[2-isomorphism]]) but it does have, in a precise sense, _a left inverse from below_ or _a right inverse from above_. 
 
+If an adjoint 1-morphisms happens to be a genuine [[equivalence in a 2-category]], then the adjunction is called an *[[adjoint equivalence]]*.
 
 
 
 ## Definition
+ {#Definition}
 
-### Directly
+\begin{defn} \label{DefinitionAdjunction} 
+An _adjunction_ in a [[2-category]] is 
 
-\begin{defn} \label{DefinitionAdjunction} An _adjunction_ in a [[2-category]] is a pair of [[objects]] $C,D$ together with [[morphisms]] $L: C \to D$, $R : D \to C$ and [[2-morphisms]] $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ such that the following diagrams commute, where $\cdot$ denotes [[whiskering]].
+* a [[pair]] of [[objects]] $C$ and $D$ 
+
+* a [[pair]] of [[1-morphisms]] 
+
+  $L \colon C \longrightarrow D$ (the *[[left adjoint]]*) 
+
+  $R \colon D \longrightarrow C$ (the *[[right adjoint]]*)
+
+* a [[pair]] of [[2-morphisms]] 
+
+  $\eta \colon 1_C \longrightarrow R \circ L$ (the *[[adjunction unit]]*)
+
+  $\epsilon \colon L \circ R \longrightarrow 1_D$ (the *[[adjunction counit]]*)
+
+such that the following equivalent conditions hold:
+
+* **[[triangle identity]]** the follwing [[commuting diagram|diagrams commute]] in the [[hom-categories]] (where "$\cdot$" denotes [[whiskering]]):
 
 \begin{centre}
   \begin{tikzcd} 
-    L \ar[r, "L \cdot \eta"] \ar[dr, swap, "id"] & L \circ R \circ L \ar[d, "\epsilon \cdot L"] \\
-                                                     & L 
+    L \ar[r, "L \cdot \eta"] 
+    \ar[dr, swap, "\mathrm{id}"] 
+    & L \circ R \circ L \ar[d, "\epsilon \cdot L"] 
+    \\ & L 
   \end{tikzcd}
 \end{centre}
 
 \begin{centre}
   \begin{tikzcd} 
-    R \ar[r, "\eta \cdot R"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "R \cdot \epsilon"] \\
-                                                     & R 
+    R \ar[r, "\eta \cdot R"] \ar[dr, swap, "id"] & R \circ L \circ R \ar[d, "R \cdot \epsilon"] 
+   \\ & R 
   \end{tikzcd}
 \end{centre}
 
-\end{defn}
+* **[[zig-zag law]]** the following [[equality]] of [[2-morphisms]]:
 
-\begin{rmk} The diagrams in Definition \ref{DefinitionAdjunction} are sometimes referred to as the [[triangle identities]] or the _zig-zag identities_. \end{rmk}
+\begin{tikzcd}[row sep=10pt]
+  C
+  \ar[rr, bend left=40, "{\mathrm{id}}", 
+      "{\ }"{name=s1, swap}
+  ]
+  \ar[r, "L"{description}, "{\ }"{name=t1, pos=.9}]
+  \ar[
+    from=s1,
+    to=t1,
+    Rightarrow,
+    "{ \eta }"{swap}
+  ]
+  &
+  D
+  \ar[rr, bend right=40, "{\mathrm{id}}"{swap},
+    "{\ }"{name=t2}
+  ]
+  \ar[r, "R"{description}]
+  &
+  C
+  \ar[r, "L"{description}, "{\ }"{swap, name=s2, pos=.1}]
+  \ar[
+    from=s2,
+    to=t2,
+    Rightarrow,
+    "{ \epsilon }"
+  ]  
+  &
+  D
+  &=&
+  C
+  \ar[r, bend left=40, "{L}", "{\ }"{name=s3, swap}]
+  \ar[r, bend right=40, "{\mathrm{id}}"{swap}, "{\ }"{name=t3}]
+  \ar[from=s3, to=t3, Rightarrow, "{\mathrm{id}}"]
+  &
+  D
+\end{tikzcd}
 
-\begin{terminology} Given an adjunction as in Definition \ref{DefinitionAdjunction}, we refer to $L$ as the [[left adjoint]] (of $R$), and to $R$ as the [[right adjoint]] (of $L$). We refer to $\eta$ as the [[unit of the adjunction]], and to $\epsilon$ as the [[counit of the adjunction]]. \end{terminology}
+\begin{tikzcd}[row sep=10pt]
+  D
+  \ar[rr, bend right=40, "{\mathrm{id}}"{swap}, 
+      "{\ }"{name=s1}
+  ]
+  \ar[r, "R"{description}, "{\ }"{name=t1, pos=.9, swap}]
+  \ar[
+    from=t1,
+    to=s1,
+    Rightarrow,
+    "{ \epsilon }"{swap, pos=.3}
+  ]
+  &
+  C
+  \ar[rr, bend left=40, "{\mathrm{id}}",
+    "{\ }"{name=t2, swap}
+  ]
+  \ar[r, "L"{description}]
+  &
+  D
+  \ar[r, "R"{description}, "{\ }"{name=s2, pos=.1}]
+  \ar[
+    from=t2,
+    to=s2,
+    Rightarrow,
+    "{ \eta }"{pos=.8}
+  ]  
+  &
+  C
+  &=&
+  D
+  \ar[r, bend left=40, "{R}", "{\ }"{name=s3, swap}]
+  \ar[r, bend right=40, "{R}"{swap}, "{\ }"{name=t3}]
+  \ar[from=s3, to=t3, Rightarrow, "{\mathrm{id}}"]
+  &
+  C
+\end{tikzcd}
 
-\begin{rmk} When interpreted in the prototypical 2-category [[Cat]] of categories, $C$ and $D$ are [[categories]], $L$ and $R$ are [[functors]], and $\eta$ and $\epsilon$ are [[natural transformations]].  In this case (which was of course the first to be defined) there are a number of equivalent definitions of an adjunction, which can be found on the page [[adjoint functor]]. 
-
-The general notion is obtained by [[internalization]] from the definition in [[Cat]]. \end{rmk}
-
-
-### In terms of string diagrams
- {#InTermsOfStringDiagrams}
-
-The definition of an adjunction may be nicely expressed using [[string diagrams]]. The data $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ are depicted as
+{#InTermsOfStringDiagrams} In terms of [[string diagrams]] the above data entering the definition looks like
 
 [[adjunction-L.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-R.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-unit.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-co-unit.png:pic]]
 
-(where 1-cells read from right to left and 2-cells from bottom to top), and the zigzag identities are expressed as "pulling zigzags straight" (hence the name):
+(where 1-cells read from right to left and 2-cells from bottom to top), and the [[zig-zag identities]] appear as moves "pulling zigzags straight" (hence the name):
 
 [[adjunction-up-string.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-down-string.png:pic]]
 
 Often, arrows on strings are used to distinguish $L$ and $R$, and most or all other labels are left implicit; so the zigzag identities, for instance, become:
 
 [[adjunction-up-string-minimal.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-down-string-minimal.png:pic]]
+
+
+\end{defn}
+
+
 
 
 ## Properties
@@ -216,7 +311,7 @@ Here $\eta_X$ is a component of what we call the [[unit of an adjunction|unit of
 
 \begin{remark}
   In view of Prop. \ref{AdjunctionsInCatAreAdjointFunctors},
-  the remarkable aspect of Prop. \ref{AdjointInfinityFunctorsInHomotopy2Category} is that the [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category of $\infty$-categories]] is sufficient to detect adjointness of [[(infinity,1)-functors|$\infty$-functors]], which would, *a priori*, be defined as a kind of homotopy-coherent adjointness in the full [[(infinity,2)-category|$(\infty,2)$-category]] [[(infinity,1)Cat|$Cat_{(\infty,1)}$]]. For more on this reduction of homotopy-coherent adjunctions to plain adjunctions see [Riehl & Verity 2016, Thm. 4.3.11, 4.4.11](adjoint+infinity1-functor#RiehlVerity16).
+  the remarkable aspect of Prop. \ref{AdjointInfinityFunctorsInHomotopy2Category} is that the [[homotopy 2-category of (infinity,1)-categories|homotopy 2-category of $\infty$-categories]] is sufficient to detect adjointness of [[(infinity,1)-functors|$\infty$-functors]], which would, *a priori*, be defined as a kind of [[higher homotopy]]-[[coherence law|coherent]] adjointness in the full [[(infinity,2)-category|$(\infty,2)$-category]] [[(infinity,1)Cat|$Cat_{(\infty,1)}$]]. For more on this reduction of homotopy-coherent adjunctions to plain adjunctions see [Riehl & Verity 2016, Thm. 4.3.11, 4.4.11](adjoint+infinity1-functor#RiehlVerity16).
 \end{remark}
 
 
@@ -255,12 +350,15 @@ Here $\eta_X$ is a component of what we call the [[unit of an adjunction|unit of
 
 ## References
 
-For the basics, see any text on [[category theory]] (and see the references at _[[adjoint functor]]_), for instance:
+Review:
 
-* {#Borceux94} [[Francis Borceux]], Vol 1, Section 3 of _[[Handbook of Categorical Algebra]]_
+* {#Lack10} [[Steve Lack]], §2.1 in: *A 2-categories companion*,  in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152** Springer (2010) &lbrack;[arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4)&rbrack;
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 6 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
+Fr the special case of [[adjoint functors]] see any text on [[category theory]] (and see the references at _[[adjoint functor]]_), for instance:
+
+* {#Borceux94} [[Francis Borceux]], Vol 1, Section 3 of _[[Handbook of Categorical Algebra]]_
  
 * _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
 
@@ -270,13 +368,13 @@ For some early history and illustrative examples see
 
   (more along these lines at _[[objective logic]]_).
 
-The fundamental role of adjunctions in [[logic]]/[[type theory]] originates with the observaiton that [[substitution]] forms an [[adjoint triple]] with [[existential quantification]] and [[universal quantification]]:
+The fundamental role of [[adjoint functors]] in [[logic]]/[[type theory]] originates with the observaiton that [[substitution]] forms an [[adjoint triple]] with [[existential quantification]] and [[universal quantification]]:
 
 * {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([tac:16](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
 * [[William Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf))
 
-Adjunctions in [[programming languages]]:
+Adjunctions in [[programming languages]] (though mainly again just [[adjoint functors]]):
 
 * {#Hinze12} Ralf Hinze, _Generic Programming with Adjunctions_,  In: J. Gibbons  (ed.) _Generic and Indexed Programming_ Lecture Notes in Computer Science, vol 7470. Springer 2012 ([pdf](http://www.cs.ox.ac.uk/ralf.hinze/LN.pdf), [slides](http://www.cs.ox.ac.uk/ralf.hinze/SSGIP10/Slides.pdf) [doi:10.1007/978-3-642-32202-0_2](https://doi.org/10.1007/978-3-642-32202-0_2))
 
@@ -284,7 +382,7 @@ Adjunctions in [[programming languages]]:
 
 See also
 
-* Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
+* Wikipedia, *[Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)*
 
 * Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
 
