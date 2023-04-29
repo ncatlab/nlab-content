@@ -225,6 +225,7 @@ We may think of this as the category of *objects of $\mathbf{C}$ parameterized o
 We will denote the components of 
 morphisms in $\mathbf{C}_{sSet}$ by their $(-)_! \dashv (-)^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
 $$
+  \begin{array}{ll}
   \text{i.e.}
   \;\;\;
   \phi_f
@@ -232,7 +233,7 @@ $$
   \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
   \longrightarrow
   \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(Y)}
-  \;\;\;
+  &
   \text{means that}
   \;\;\;
   \begin{array}{cccc}
@@ -251,7 +252,8 @@ $$
     &\overset{}{\longrightarrow}&
     \mathcal{Y}
   \end{array}
-  \;\;\;
+  \\
+  &
   \text{hence that}
   \;\;\;
   \begin{array}{cccc}
@@ -263,16 +265,12 @@ $$
     \big)
     &\overset{}{\longrightarrow}&
     \mathscr{W}_{\mathcal{G}_\mathbf{v}(Y)}
-    \\
-    f
-    &\colon&
-    \mathcal{X}
-    &\overset{}{\longrightarrow}&
-    \mathcal{Y}
+  \end{array}
   \end{array}
 $$
 (because in this form their [[external tensor product]] is more readily expressed, see [below](#ExternalTensorProduct)).
 \end{definition}
+
 
 
 \begin{example}
@@ -370,7 +368,7 @@ By passage to [[homotopy category of an (infinity,1)-category|homotopy categorie
 
 Right properness is immediate: Since the weak equivalences in the projective [[model structure on functors]] are objectwise, the precomposition functor $f^\ast$ preserves weak equivalences for all $f$.
 
-It remains to argue left-properness. So given $f \colon X \to Y$ an acyclic cofibration of simplicial sets, we need to show that $\mathcal{G}_{\mathbf{v}}(f)_!$ preserves all [[weal equivalences]].
+It remains to argue left-properness. So given $f \colon X \to Y$ an acyclic cofibration of simplicial sets, we need to show that $\mathcal{G}_{\mathbf{v}}(f)_!$ preserves all [[weak equivalences]].
 
 First, since the [[Dwyer-Kan simplicial path groupoid]] functor is a [[left Quillen functor]] (in fact a [[Quillen equivalence]], by [this Prop.](model+structure+on+simplicial+groupoids#QuillenEquivalenceWithSimplicialSets))
 \[
