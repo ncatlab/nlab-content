@@ -5,11 +5,11 @@
 
 ## Idea
 
-An implicative structure is an ample generalization of [[complete Heyting algebra|complete Heyting algebras]] introduced by Alexandre Miquel in [(Miquel '20)](#Miquel20).
+An implicative structure is an ample generalization of [[complete Heyting algebra|complete Heyting algebras]] introduced by Alexandre Miquel in [(Miquel '20a)](#Miquel20a).
 
-Implicative structures are used to define [[implicative algebra|implicative algebras]], with are implicative structures equipped with a 'separator', which generalizes a filter for an Heyting algebra. From an implicative algebra, one can then construct an [[implicative tripos]].
+Implicative structures are used to define [[implicative algebra|implicative algebras]], with are implicative structures equipped with a 'separator', which generalizes a filter for an Heyting algebra. From an implicative algebra, one can then construct an [[implicative tripos]], a construction which is the real motivation behind implicative structures and algebras.
 
-These triposes end up generalizing many others, constructed from [[complete Heyting algebra|complete Heyting algebras]], [[partial combinatory algebras]], ordered combinatory algebras, and Krivine structures, thus unifying the methodology of realizability theory.
+These triposes end up generalizing many others, constructed from [[complete Heyting algebra|complete Heyting algebras]], [[partial combinatory algebras]], ordered combinatory algebras, and Krivine structures, thus unifying the methodology of realizability theory. More strikingly, Miquel proved all triposes over $\mathbf{Set}$ are implicative triposes [(Miquel'20b)](#Miquel20b).
 
 ## Definition
 \begin{definition}
@@ -44,9 +44,12 @@ This is interesting since cosmoi are 'good enrichment bases' for *categories*, w
 
 ## See also
 
+* [[implicative algebra]]
 * [[realizability]]
 * [[forcing]]
-* [[tripos]]
+* [[tripos]], in particular [[implicative tripos]]
 
 ## References
-* {#Miquel20} Alexandre Miquel, _Implicative algebras: a new foundation for realizability and forcing_, Mathematical Structures in Computer Science 30 (5): 458–510. [(doi)](https://doi.org/10.1017/S0960129520000079).
+* {#Miquel20a} Alexandre Miquel, _Implicative algebras: a new foundation for realizability and forcing_, Mathematical Structures in Computer Science 30 (5): 458–510. [(doi)](https://doi.org/10.1017/S0960129520000079).
+* {#Miquel20b} Alexandre Miquel. 2020. _Implicative Algebras II: Completeness w.r.t. Set-Based Triposes_. arXiv. https://doi.org/10.48550/arXiv.2011.09085.
+ [(arxiv)](https://arxiv.org/abs/2011.09085)
