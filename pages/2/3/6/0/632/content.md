@@ -122,4 +122,5 @@ For an example of a conservative, but not faithful, functor $f: A\to Set$ having
 
 
 [[!redirects conservative functors]]
+[[!redirects conservative]]
 
