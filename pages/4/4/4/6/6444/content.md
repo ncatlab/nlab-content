@@ -30,13 +30,13 @@ For general non-technical background information see also at _[[string theory FA
 
 The two popular books whose appearance in hindsight mark the change of the nature in the "public perception" of string theory are
 
-* Peter Woit, [Not Even Wrong](http://www.amazon.com/gp/product/0465092756) and [blog](http://www.math.columbia.edu/~woit/wordpress/)
+* [[Peter Woit]], [Not Even Wrong](http://www.amazon.com/gp/product/0465092756) and [blog](http://www.math.columbia.edu/~woit/wordpress/)
 
-* Lee Smolin, [The Trouble with Physics](http://www.thetroublewithphysics.com)
+* [[Lee Smolin]], [The Trouble with Physics](http://www.thetroublewithphysics.com)
 
 More technical critical discussion is for instance in 
 
-* Carlo Rovelli, _A critical look at strings_, [arxiv/1108.0868](http://lanl.arxiv.org/abs/1108.0868)
+* [[Carlo Rovelli]], _A critical look at strings_, [arxiv/1108.0868](http://lanl.arxiv.org/abs/1108.0868)
 
 See also
 
