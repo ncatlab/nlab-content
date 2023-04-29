@@ -61,53 +61,11 @@ $$ \array {
    \mathrm{Spec} k(x) & \to & X
 } $$
 
-### Categories
 
-In a 2-category we define **[[homotopy fibers]]** of a morphism $f: A \to B$ over a point $\ast \to B$ to be the [[weak pullback]] of the diagram
-
-$$
-  \array{
-    A \times_B * &\to& *
-    \\
-    \downarrow && \downarrow_pt
-    \\
-    A &\stackrel{f}{\to}& B
-  }
-$$
-
-or more precisely the iso-comma object. When we work this out in the case of the 2-category Cat, the homotopy fiber over an object $b \in B$ of a functor $f: A \to B$ is the category where:
-
-* an object is a pair $(a,\alpha)$ consisting of an object $a \in A$ equipped with an isomorphism $\alpha: f(a) \to b$.
-* a morphism from $(a,\alpha)$ to $(a', \alpha')$ is a morphism $f: a \to a'$ such that $\alpha' \circ F(f) = \alpha$.  
-
-When $f$ is thought of as a [[forgetful functor]], the homotopy fiber over $b \in B$ should be thought of as the category of ways $b$ could arise as the underlying object of some object in $A$.  The following easy results then provide useful intuitions:
-
-+-- {: .num_prop #homotopy_fibers_faithful}
-###### Proposition
-
-If the functor $f: A \to B$ is [[faithful]], all its homotopy fibers are preorders.
-=--
-
-+-- {: .num_prop #homotopy_fibers_conservative}
-###### Proposition
-
-If the functor $f: A \to B$ is [[conservative functor|conservative]], all its homotopy fibers are groupoids.
-=--
-
-and thus:
-
-+-- {: .num_prop #homotopy_fibers_faithful_and_conservative}
-###### Proposition
-
-If the functor $f: A \to B$ is faithul and conservative all its homotopy fibers are equivalent to discrete categories.
-=--
-
-For example, there is a preorder of ways a set could arise as the underlying set of a topological space, but a mere set (or discrete category) of ways a set could arise as the underlying set of a group.
-
-Examples along these lines serve as a useful warmup for [[homotopy fibers]] of maps between $(\infty,1)$-categories.
 
 ## Related concepts
 
+* [[essential fiber]]
 
 * [[homotopy fiber]], [[fiber sequence]]
 
