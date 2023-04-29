@@ -1061,7 +1061,7 @@ Here:
 
 * the second step is the description of the hom-set of a [[functor category]] as an [[end]] of object-wise hom-sets;
 
-* the third step uses that [[ends]] are [[limits]] and [[limits commute with limits|hence commute]] the the [[fiber product]];
+* the third step uses that [[ends]] are [[limits]] and [[limits commute with limits|hence commute]] with the [[fiber product]];
 
 * the fourth step recognizes again, now object-wise, the hom-set in a [[slice category]];
 
@@ -1143,7 +1143,7 @@ has, by [this Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureO
   I_{\mathcal{G}Act(\mathbf{C})}
   &\coloneqq&
   \mathcal{G}\cdot(I_{\mathbf{C}})
-  \;\defneq\;
+  \;\equiv\;
   \big\{
     \mathcal{G} \cdot i
     \,\big\vert\,
@@ -1153,7 +1153,7 @@ has, by [this Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureO
   J_{\mathcal{G}Act(\mathbf{C})}
   &\coloneqq&
   \mathcal{G}\cdot(J_{\mathbf{C}})
-  \;\defneq\;
+  \;\equiv\;
   \big\{
     \mathcal{G} \cdot j
     \,\big\vert\,
@@ -1195,12 +1195,12 @@ whose [[right adjoint]] may be thought of as the right [[induced action]] or equ
 
 \begin{proposition}
 \label{ExistenceOfMonoidalModelStructure}
-  For $\mathcal{G} \in Grp(sSet)$ and $\mathbf{C}$ a [[combinatorial simplicial model category]] with compatible  [[closed monoidal category|closed]] [[monoidal model category]]-[[structure]], i.e. with an [[sSet]]-[[enriched functor]]  $(-)\otimes(-)$, the objectwise [[tensor product]] 
+  For $\mathcal{G} \in Grp(sSet)$ and $\mathbf{C}$ a [[combinatorial simplicial model category]] with compatible  [[closed monoidal category|closed]] [[monoidal enriched category]]-[[structure]], i.e. with an [[sSet]]-[[enriched functor]]  $(-)\otimes(-)$, the the objectwise [[tensor product]] 
 $$
   \mathcal{G}Act(\mathbf{C})
   \times
   \mathcal{G}Act(\mathbf{C})
-  \,\defneq\,
+  \,\equiv\,
   sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
   \times
   sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
