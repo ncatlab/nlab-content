@@ -15,6 +15,11 @@ On [[bicategories]]
 
 * Jean B&#233;nabou, _Introduction to Bicategories_, Lecture Notes in Mathematics 47, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
 
+See also:
+
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
+
+
 On [[monadic descent]] via the [[Beck-Chevalley condition]], the [[monadicity theorem]] and introducing the [[Bénabou-Roubaud theorem]]:
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
