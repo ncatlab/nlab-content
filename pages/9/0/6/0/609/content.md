@@ -129,9 +129,9 @@ For $\mathcal{X} \,\in\, sSet\text{-}Grpd$ a DK-simplicial groupoid, write:
 \end{definition}
 
 \begin{proposition}
-**(simplicial groupoids equivalent to unions of simplicial deloopings)**
+**(simplicial groupoids adjoint equivalent to unions of simplicial deloopings)**
 \linebreak
-  Assuming the [[axiom of choice]], every [[sSet]]-[[enriched groupoid]] is "enriched [[homotopy equivalence|homotopy equivalent]]" to a [[disjoint union]] of simplicial delooping groupoids (Exp. \ref{SimplicialDeloopingGroupoids}), one for each [[connected components]], in that given a choice of representative [[objects]] $(i, x_i) \,\in\, \big(i \in \pi_0(\mathcal{X})\big) \times Obj(\mathcal{X}_i)$ of all the [[connected components]], the [[full subcategory|inclusion]] [[enriched functor]]
+  Assuming the [[axiom of choice]], every [[sSet]]-[[enriched groupoid]] is [[sSet]]-[[enriched adjoint equivalence|enriched adjoint equivalent]] to a [[disjoint union]] of simplicial delooping groupoids (Exp. \ref{SimplicialDeloopingGroupoids}), one for each [[connected components]], in that given a choice of representative [[objects]] $(i, x_i) \,\in\, \big(i \in \pi_0(\mathcal{X})\big) \times Obj(\mathcal{X}_i)$ of all the [[connected components]], the [[full subcategory|inclusion]] [[enriched functor]]
 \[
   \label{FullInclusionOfConnectedComponents}
   \iota
