@@ -20,11 +20,13 @@ On [[denotational semantics]] and [[domain theory]] for [[functional programming
 
 * [[Thomas Streicher]], *Domain-Theoretic Foundations of Functional Programming*, World Scientific (2006) &lbrack;[pdf](https://doc.lagout.org/programmation/Functional%20Programming/Domain-Theoretic%20Foundations%20of%20Functional%20Programming%20%5BStreicher%202006-12-04%5D.pdf), [doi:10.1142/6284](https://www.worldscientific.com/worldscibooks/10.1142/6284)&rbrack;
 
-
-
 On [[first-order set theory]] and [[categorical logic]]:
 
 * [[Steve Awodey]], [[Carsten Butz]], [[Alex Simpson]], [[Thomas Streicher]], *Relating first-order set theories, toposes and categories of classes*, Annals of Pure and Applied Logic **165** 2 (2014) 428-502 &lbrack;[doi:10.1016/j.apal.2013.06.004](https://doi.org/10.1016/j.apal.2013.06.004)&rbrack;
+
+On [[fibered categories]] following [[Jean Bénabou]]:
+
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
 
 
 
