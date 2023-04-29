@@ -16,7 +16,12 @@
 
 ## Idea
 
-A [[functor]] is _amnestic_ if its [[domain]] has no more duplication of [[isomorphic]] [[objects]] than its [[codomain]].  This formalizes the sense in which (for example) the [[concrete category]] $Met_cont$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and continuous maps), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_cont \to Set$ does not.  As ‘amnestic’ is basically a fancy synonym of ‘forgetful’, the idea is to identify a property that one would like in a forgetful functor.
+A [[strict functor]] is _amnestic_ if its [[domain]] has no more duplication of [[isomorphic]] [[objects]] than its [[codomain]].  
+
+As ‘amnestic’ is basically a fancy synonym of ‘forgetful’, the idea is to identify a property that one would like in a [[forgetful functor]].
+
+For example, the notion of amnestic functors formalizes the sense in which the [[concrete category]] $Met_cont$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and [[continuous maps]]), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_cont \to Set$ does not.  
+
 
 There is a corresponding notion of _amnesticization_ of a functor (called the _amnestic modification_ in _[[The Joy of Cats]]_), which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_cont \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.  Although not needed in this case, we need the [[axiom of choice]] (AC) in general to prove that every functor has an amnesticization.  Without AC, we can use amnestic [[anafunctors]] to make everything work out, although much of the convenience is lost.
 
@@ -28,12 +33,15 @@ Amnesticity is really a property of [[strict functors]] (or anafunctors) between
 +-- {: .num_defn}
 ###### Definition
 
-Let $C$ and $D$ be two [[strict categories]], and let $U$ be a [[strict functor]] from $D$ to $C$.  We say that $U$ is __amnestic__ if its [[core]] reflects [[identity morphisms]].  Explicitly, $U$ is amnestic iff, whenever $a$ and $b$ are [[objects]] of $D$, $f$ is an [[isomorphism]] in $D$ from $a$ to $b$, $U(a)$ and $U(b)$ are equal objects in $C$, and $U(f)$ is the [[identity morphism]] on this object in $C$, then $a$ and $b$ are equal objects in $D$, and $f$ is the identity morphism on this object in $D$.
+Let $C$ and $D$ be two [[strict categories]], and let $U$ be a [[strict functor]] from $D$ to $C$.  We say that $U$ is __amnestic__ if its [[groupoid core]] reflects [[identity morphisms]].  
 
-In other words, a functor is amnestic if its strict fibers are [[gaunt category|gaunt]].
+Explicitly, $U$ is amnestic iff, for every [[isomorphism]] $f \colon a \to B$ in $D$ that $U$ takes to an [[identity morphism]] $U(f) = id_{U(a)} = id_{U(b)}$, then already $f$ itself is an [[identity morphism]].
+
+In other words, a functor is amnestic if its strict [[fibers]] are [[gaunt category|gaunt]].
+
 =--
 
-If we follow the [[principle of equivalence]] and refuse to state equations between objects, then we must modify the hypothesis to say that $U(a)$ and $U(b)$ are *[[isomorphic]]* in $C$ (say via $g\colon U(a) \to U b$) and $U(f)$ is the identity *relative to* this isomorphism (so $U(f) = \id_{U(b)} \circ g \circ \id_{U(a)}$; since we can simply let $g$ be $U(f)$, this is trivial (beyond the initial isomorphism $f\colon a \to b$).  Similarly, we must modify the conclusion to say that $a$ and $b$ are *isomorphic* (say via $h\colon a \to b$) and $f$ is the identity *relative to* this isomorphism (so $f = \id_b \circ h \circ \id_a$); since we can simply let $h$ be $f$, this is also trivial.  Thus up to [[equivalence of categories|equivalence]], this property is trivial; on the other hand, it is preserved by [[isomorphism of categories|isomorphism]].
+If we follow the [[principle of equivalence]] and refuse to state [[equalities]] between objects, then we must modify the hypothesis to say that $U(a)$ and $U(b)$ are *[[isomorphic]]* in $C$ (say via $g\colon U(a) \to U b$) and $U(f)$ is the identity *relative to* this isomorphism (so $U(f) = \id_{U(b)} \circ g \circ \id_{U(a)}$; since we can simply let $g$ be $U(f)$, this is trivial (beyond the initial isomorphism $f\colon a \to b$).  Similarly, we must modify the conclusion to say that $a$ and $b$ are *isomorphic* (say via $h\colon a \to b$) and $f$ is the identity *relative to* this isomorphism (so $f = \id_b \circ h \circ \id_a$); since we can simply let $h$ be $f$, this is also trivial.  Thus up to [[equivalence of categories|equivalence]], this property is trivial; on the other hand, it is preserved by [[isomorphism of categories|isomorphism]].
 
 +-- {: .num_defn #anafunctor}
 ###### Definition
