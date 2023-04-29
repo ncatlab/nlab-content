@@ -468,7 +468,7 @@ Forums dedicated to homotopy type theory
 
 The HoTT research group at Carnegie Mellon University:
 
-* [CMU website](https://cmuhott.wordpress.com/)
+* [CMU website](https://www.cmu.edu/dietrich/philosophy/hott/)
 
 The HoTT electronic seminar talks:
 
