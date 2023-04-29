@@ -470,6 +470,8 @@ See [[model structure on monoids in a monoidal model category]].
 
 * [[cartesian closed monoidal model category]]
 
+* [[enriched monoidal model category]]
+
 * [[monoidal localization]]
 
 * [[monoidal Quillen adjunction]]
