@@ -150,6 +150,10 @@ In [[higher category theory]], one expects to have a similar "fully coherent" no
 
 * For [[quasicategories]], the theorem is true, where an "adjoint equivalence" means simply a map out of the [[nerve]] of the [[interval groupoid]]; see [[equivalence in a quasicategory]].
 
+## Related concepts
+
+* [[enriched adjoint equivalence]]
+
 [[!redirects adjoint equivalences]]
 
 [[!redirects adjoint equivalence of categories]]
