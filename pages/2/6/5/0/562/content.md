@@ -370,14 +370,15 @@ The elephant contains a lot of basic information and some good intuition[^caveat
 
 [^caveat]: But beware that Johnstone uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism!
 
-A standard reference that focusses on the interplay with [[type theory]] is
+A standard reference that focusses on the interplay with [[categorical semantics of dependent type theory]]:
 
-* [[Bart Jacobs]], _Categorical Logic and Type Theory_ , Elsevier Amsterdam 1999.
 
-B&#233;nabou's perspective on fibrations and some results related to Moens' thesis are documented in the highly recommendable lecture notes:
+* [[Bart Jacobs]], *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
-* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean B&#233;nabou_ , arXiv:1801.02927 (2018). ([abstract](https://arxiv.org/abs/1801.02927))
 
+[[Jean Bénabou]]'s perspective on fibrations and some results related to Moens' thesis are documented in the highly recommendable lecture notes:
+
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
 
 The following lecture notes stress the original perspective of [[algebraic geometry]]:
 
