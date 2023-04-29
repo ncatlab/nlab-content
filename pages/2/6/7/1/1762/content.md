@@ -30,9 +30,6 @@ On [[Frobenius monads]]:
 * [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
 
-
-
-
 An attempt to fomulate [[descent]] theory using [[strict omega-categories]]:
 
 * Ross Street, _Categorical and combinatorial aspects of descent theory_, Applied Categorical Structures 12, 537--576 (2004) [doi](https://doi.org/10.1023/B:APCS.0000049317.24861.36)
@@ -74,6 +71,9 @@ On [[comprehensive factorization systems]] and [[torsors]]:
 
 * [[Ross Street]], [[Dominic Verity]], *The comprehensive factorization and torsors*, [[TAC]] **23** (2010)  42-75 &lbrack;[tac:23-03](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)&rbrack;
 
+On [[monoidal categories]]:
+
+* [[Ross Street]], *Monoidal categories in, and linking, geometry and algebra*, Bull. Belg. Math. Soc. Simon Stevin **19** 5 (2012) 769-820 &lbrack;[arXiv:1201.2991](https://arxiv.org/abs/1201.2991), [doi:10.36045/bbms/1354031551](https://projecteuclid.org/journals/bulletin-of-the-belgian-mathematical-society-simon-stevin/volume-19/issue-5/Monoidal-categories-in-and-linking-geometry-and-algebra/10.36045/bbms/1354031551.full)&rbrack;
 
 category: people
 
