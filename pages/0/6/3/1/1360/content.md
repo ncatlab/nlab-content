@@ -619,11 +619,15 @@ A [[combinatorial simplicial model category]] is precisely a _presentation_ for 
 
 ## Related concepts
 
+
 * [[Dugger's theorem]]
 
 * [[combinatorial model category]]
 
 * [[Ho(CombModCat)]]
+
+* [[simplicial monoidel model category]]
+
 
 ## References
 
