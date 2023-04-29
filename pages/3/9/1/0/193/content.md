@@ -350,6 +350,10 @@ Here $\eta_X$ is a component of what we call the [[unit of an adjunction|unit of
 
 ## References
 
+Adjunctions in 2-categories were introduced in:
+
+* [[Max Kelly]]. _Adjunction for enriched categories_. Reports of the Midwest Category Seminar III. Springer Berlin Heidelberg, 1969.
+
 Review:
 
 * {#Lack10} [[Steve Lack]], §2.1 in: *A 2-categories companion*,  in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152** Springer (2010) &lbrack;[arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4)&rbrack;
