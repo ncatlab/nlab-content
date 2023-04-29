@@ -52,7 +52,7 @@ Further:
 
 * R. Street, _Characterization of bicategories of stacks_, In: Kamps, K.H., Pumplün, D., Tholen, W. (eds) Category Theory. Lect. Notes Math. __962__, Springer 1982 [doi](https://doi.org/10.1007/BFb0066909)
 
-On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]]:
+On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]] (and [[pseudomonoids]]):
 
 * [[Brian Day]], [[Ross Street]], _Monoidal bicategories and Hopf algebroids_, Adv. Math. __129__:1 (1997) 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
 
