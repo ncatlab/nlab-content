@@ -811,7 +811,9 @@ higher versions
 
 * [[MonCat]]
 
-* [[no-cloning theorem]]
+* [[enriched monoidal category]]
+
+* [[tensor category]]
 
 * [[Drinfeld center]]
 
@@ -828,6 +830,8 @@ higher versions
 * [[DisCoPy]]
 
 * [[monoidal groupoid]]
+
+* [[no-cloning theorem]]
 
 ## References
 
