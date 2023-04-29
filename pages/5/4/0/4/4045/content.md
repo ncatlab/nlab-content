@@ -1,10 +1,10 @@
 **[[monoidal categories]]**
 
-* [[tensor category]]
+* [[enriched monoidal category]], [[tensor category]]
 
 * [[string diagram]], [[tensor network]]
 
-## With symmetry
+## With braiding
 
 * [[braided monoidal category]]
 
@@ -124,4 +124,3 @@
 
 * [[compact double category]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/monoidal+categories+-+contents)</div>
