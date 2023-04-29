@@ -58,9 +58,13 @@
 
   * [[enriched Quillen adjunction]]
 
+* [[monoidal enriched model category]]
+
 * [[simplicial model category]]
 
   * [[simplicial Quillen adjunction]]
+
+  * [[simplicial monoidal model category]]
 
 * [[cofibrantly generated model category]]
 
