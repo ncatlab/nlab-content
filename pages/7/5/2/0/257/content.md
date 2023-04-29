@@ -333,16 +333,33 @@ is an [[isomorphism]], namely a [[bijection]] of sets. The [[equivalence relatio
 
 =--
 
-### Opposite model structure
+### Basic closure properties of class of model categories
+ {#BasicClosurePropertiesOfClassOfModelCategories}
 
-+-- {: .num_prop}
-###### Proposition
 
-If a category $C$ carries a model category structure, then the [[opposite category]] $C^{op}$ carries the [[opposite model structure]]: 
+\begin{proposition}\label{ProductModelStructure}
+**(product model structure)**
+\linebreak
+For $\mathcal{C}$, $\mathcal{D}$ a [[pair]] of [[model categories]], the [[product category]] of their [[underlying]] [[categories]] carries the *product model structure* $\mathcal{C} \times \mathcal{D}$ whose [[weak equivalences]]/[[fibrations]]/[[cofibrations]] are the [[pairs]] of the corresponding such morphisms in $\mathcal{C}$ and $\mathcal{D}$.
+\end{proposition}
+(e.g. [Hovey (1999), Exp. 1.1.6](#Hovey99))
+
+\begin{proposition}\label{OppositeModelStructure}
+**([[opposite model structure]])**
+\linebreak
+If a category $C$ carries a [[model category]]-[[structure]], then the [[opposite category]] $C^{op}$ carries the [[opposite model structure]]: 
 
 its weak equivalences are those morphisms whose dual was a weak equivalence in $C$, its fibrations are those morphisms that were cofibrations in $C$ and similarly for its cofibrations.
+\end{proposition}
+(e.g. [Hovey (1999), Rem. 1.1.7](#Hovey99))
 
-=--
+\begin{proposition}
+**([[transferred model structure]] along [[adjoint equivalence]])**
+\linebreak
+  Given an [[right adjoint|right]] [[adjoint equivalence]] $R \colon \mathcal{D} \overset{\sim}{\longrightarrow} \mathcal{C}$ between [[categories]] and a [[model category]]-[[structure]] on $C$, then $D$ carries the [[transferred model structure]] whose [[weak equivalences]]/[[fibrations]]/[[cofibrations]] are the [[preimages]] under $R$ of the corresponding morphisms in $\mathcal{C}$. With respect to this transferred structre, the original [[adjunction]] $L \dashv R$ is a [[Quillen equivalence]].
+\end{proposition}
+(cf. [this Example](transferred+model+structure#RightTransferAlongAdjointEquivalence) at *[[transferred model structure]]*)
+
 
 ### Homotopy and Homotopy category
 
