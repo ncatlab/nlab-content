@@ -18,24 +18,31 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A __tensor category__ is a [[category]] equipped with an operation similar to the [[tensor product]] in [[Ab]].
+A _tensor category_ is usually understood to be a [[monoidal category]] equipped with further "[[linear algebra|linear algebraic]]" [[properties]] and [[structure]], hence with [[monoidal category|monoidal]]-[[structure]] given by a kind of [[tensor product]] in the original sense (i.e. actually being a universal [[bilinear map]] of sorts) whence the name.
 
-The precise definition associated with the term "tensor category" varies somewhat in the literature.
+Conventions differ, but at the very least one means 
 
-It may mean any :
+* a [[monoidal category]],
 
-*  any [[monoidal category]],
+which is typically required to be
 
-*  a [[symmetric monoidal category]] (and then a __quasitensor category__ is a [[braided monoidal category]]),
+* [[symmetric monoidal category|symmetric monoidal]] 
 
-*  an [[Ab-enriched category|Ab-enriched]] or [[Vect]]-enriched (symmetric) monoidal category.
+   (and if it is only [[braided monoidal category|braided monoidal]] one speaks of a _quasitensor category_),
 
-*  an [[additive category|additive]] (symmetric) monoidal category, so that the tensor preserves finite direct sums, 
+* ([[Ab]], [[tensor product of abelian groups|$\otimes$]])-[[enriched category|enriched]] or ([[Vect]],[[tensor product of vector spaces|$\otimes$]])-[[enriched category|enriched]],
 
-* an [[abelian category|abelian]] (symmetric) monoidal category, in which the tensor preserves finite colimits in separate arguments, 
+  to make an [[enriched monoidal category]]  
 
-* an abelian (symmetric) monoidal category with [[dual objects]] ([[rigid monoidal category]])
+and, in addition, often
+
+* [[additive category|additive]] (symmetric) monoidal, so that the [[tensor product]] [[preserved limit|preserves]] [[finite product|finite]] [[direct sums]], 
+
+* [[abelian category|abelian]] (symmetric) monoidal, in which the [[tensor product]] [[preserved colimit|preserves]] [[finite colimits]] in separate arguments, 
+
+* with [[dual objects]], making a [[rigid monoidal category]].
 
 ## Properties 
 
