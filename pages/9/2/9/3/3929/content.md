@@ -5,6 +5,11 @@ __Gregory Maxwell Kelly__ (1930-2007) was a category theorist, the founder of th
 
 ## Selected writings
 
+Precursor discussion towards the notion of [[enriched categories]]:
+
+* [[Gregory Maxwell Kelly]]. _Tensor products in categories_. Journal of Algebra **2** 1 (1965) 15-37 &lbrack;<a href="https://doi.org/10.1016/0021-8693(65)90022-0">doi:10.1016/0021-8693(65)90022-0</a>&rbrack;
+
+
 Introducing the notion of [[closed categories]]:
 
 * {#EilenbergKelly66} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
@@ -64,7 +69,6 @@ On [[monoid objects in monoidal categories]]:
 1. Complete functors in Homology: II. The exact homology sequence, Proc. Cambridge Phil. Soc. 60 (1964) 737–749.
 1. On the Mac Lane’s conditions for coherence of natural associativities, commutativities, etc. , J. Algebra 1 (1964) 397–402.
 1. A lemma in homological algebra, Proc. Cambridge Phil. Soc. 61 (1965) 49–52.
-1. Tensor products in categories, J. Algebra 2 (1965) 15–37.
 1. Chain maps inducing zero homology maps, Proc. Cambridge Phil. Soc. 61 (1965), 847–854.
 1. (with S. Eilenberg) A generalization of the functorial calculus, J. Algebra 3 (1966), 366–375.
 
