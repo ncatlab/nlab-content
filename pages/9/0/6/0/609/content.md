@@ -281,6 +281,124 @@ $$
 $$
 \end{remark}
 
+\begin{example}
+\label{BorelModelStructureOnSimplicialGroupActions}
+**([[Borel model structure]] on [[simplicial group actions]] over simplicial groupoids)**
+\linebreak
+For $\mathcal{G} \,\in\, Grp(sSet)$ a [[simplicial group]] with [[sSet]]-[[enriched groupoid|enriched]] [[delooping groupoid]] denoted $\mathbf{B}\mathcal{G} \in sSet\text{-}Grpd$, an [[sSet]]-[[enriched functor]] $\mathbf{B}\mathcal{G} \longrightarrow sSet$ is equivalently a [[simplicial group action]] of $\mathcal{G}$.
+
+Under this identification, the projective model strcuture on [[simplicial functors]] ([this Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureOnEnrichedFunctors)) is equivalently the *[[Borel model structure]]* on [[simplicial group actions]], a context of Borel-[[equivariant homotopy theory]]:
+
+$$
+  sFunc\big(
+    \mathbf{B}\mathcal{G}
+    ,\,
+    sSet
+  \big)_{proj}
+  \;\;
+  =
+  \;\;
+  \mathcal{G}Act(sSet)_{Borel}
+  \,.
+$$
+
+More generally, for $\mathcal{X} \in sSet\text{-}Grpd$ an [[sSet]]-[[enriched groupoid]] (Dwyer-Kan [[simplicial groupoid]]) with a single [[connected component]] $\pi_0(\mathcal{X}) \simeq \{[x]\}$, so that the inclusion
+$$
+  \iota 
+    \,\colon\, 
+  \mathbf{B}(\mathcal{X}(x,x))
+  \xhookrightarrow{\phantom{---}}
+  \mathcal{X}
+$$
+is an [[sSet]]-[[enriched adjoint equivalence]] (see discussion [there](simplicial+groupoid#RelationToSimplicialGroups)) the projective model structure on [[simplicial functors]] (from [that Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureOnEnrichedFunctors)) is [[transferred model structure|transferred]] under the induced [[adjoint equivalence]] of [[sSet]]-[[enriched functor categories]]
+$$
+  sFunc\big(
+    \mathcal{X}
+    ,\,
+    sSet
+  \big)_{proj}
+  \underoverset
+    {\underset{\iota^\ast}{\longrightarrow}}
+    {\overset{\iota_!}{\longleftarrow}}
+    {\;\; \bot_{\simeq} \;\;}
+  sFunc\Big(
+    \mathbf{B}\big(\mathcal{X}(x,x)\big)
+    ,\,
+    sSet
+  \Big)_{proj}
+  \;=\;
+  \big(\mathcal{X}(x,x)\big) Act(sSet)_{Borel}
+$$
+By [this example](transferred+model+structure#RightTransferAlongAdjointEquivalence) it follows that morphisms in all three classes $(\mathrm{W}, Fib, Cof)$ in $sFunc(\mathcal{X}, \, sSet)_{proj}$ are those which restrict on $x \in Obj(\mathcal{X})$ to the respective class in $\big(\mathcal{X}(x,x)\big) Act(sSet)_{Borel}$.
+
+It follows that for $\mathcal{X} \,\in\, sSet\text{-}Grpd$ a [[simplicial groupoid]] with any set $\pi_0(\mathcal{X})$ of [[connected components]], the projective model structure of simplicial functors over it is the [product model structure](model+category#ProductModelStructure) of the [[Borel model structures]] of [[simplicial group actions]], one for each connected component:
+$$
+  sFunc\big(
+    \mathcal{X}
+    ,\,
+    sSet
+  \big)_{proj}
+  \underoverset
+    {\underset{\iota^\ast}{\longrightarrow}}
+    {\overset{\iota_!}{\longleftarrow}}
+    {\;\; \bot_{\simeq} \;\;}
+  \underset{i \in \pi_0(\mathcal{X})}{\prod}
+  sFunc\Big(
+    \mathbf{B}\big(\mathcal{X}(x_i,x_i)\big)
+    ,\,
+    sSet
+  \Big)_{proj}
+  \;=\;
+  \underset{i \in \pi_0(\mathcal{X})}{\prod}
+  \big(\mathcal{X}(x_i,x_i)\big) Act(sSet)_{Borel}
+  \,.
+$$
+
+The analogous statement holds (still by [that Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureOnEnrichedFunctors)) for the [[codomain]] [[sSet]] replaced by any [[combinatorial simplicial model category]] $\mathbf{C}$:
+$$
+  sFunc\big(
+    \mathcal{X}
+    ,\,
+    \mathbf{C}
+  \big)_{proj}
+  \underoverset
+    {\underset{\iota^\ast}{\longrightarrow}}
+    {\overset{\iota_!}{\longleftarrow}}
+    {\;\; \bot_{\simeq} \;\;}
+  \underset{i \in \pi_0(\mathcal{X})}{\prod}
+  sFunc\Big(
+    \mathbf{B}\big(\mathcal{X}(x_i,x_i)\big)
+    ,\,
+    \mathbf{C}
+  \Big)_{proj}
+  \;=\;
+  \underset{i \in \pi_0(\mathcal{X})}{\prod}
+  \big(\mathcal{X}(x_i,x_i)\big) Act(\mathbf{C})_{Borel}
+  \,.
+$$
+
+Moreover, if $I_{\mathbf{C}}, J_{\mathbf{C}} \,\subset\, \mathbf{C}$ denote [[classes]] of (acyclic) [[generating cofibrations]] of $\mathbf{C}$, then [that Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureOnEnrichedFunctors) gives [[generating cofibrations]] of $\mathcal{G}Act(\mathbf{C})_{Borel}$ to be
+$$
+  I^{\mathcal{G}}_{\mathbf{C}} \,\coloneqq\,
+  \big\{
+    \mathcal{G} \cdot i
+    \;\vert\;
+    i \in I_{\mathbf{C}}
+  \big\}
+  \,,\;\;\;\;
+  J^{\mathcal{G}}_{\mathbf{C}} \,\coloneqq\,
+  \big\{
+    \mathcal{G} \cdot j
+    \;\vert\;
+    i \in J_{\mathbf{C}}
+  \big\}
+  \,.
+$$
+\end{example}
+
+
+
+
 ### Cartesian closed structure
  {#CartesianClosedStructure}
 
