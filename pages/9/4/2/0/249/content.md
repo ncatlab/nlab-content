@@ -17,37 +17,39 @@
 
 A [[functor]] $F: C \to D$ is __pseudomonic__ if
 
-1. it is [[faithful functor|faithful]]; that is, for any pair of objects $x,y\in C$ the function $F: C(x,y) \to D(F x,F y)$ is injective, and
-2. it is _full on isomorphisms_, meaning that for  any pair of objects $x,y\in C$ the function $F: Iso_C(x,y) \to Iso_D(F x, F y)$ is surjective (hence bijective), where $Iso_C(x,y)$ means the set of [[isomorphism|isomorphisms]] from $x$ to $y$ in $C$.
+1. it is [[faithful functor|faithful]]; that is, for any [[pair]] of [[objects]] $x,y\in C$ the component [[function]] $F \colon C(x,y) \to D(F x,F y)$ between [[hom-sets]] is injective, and
 
-More generally, a morphism $f:C\to D$ in any [[2-category]] $K$ is called **[[pseudomonic morphism]]** if the square analogous to that below is a pullback, or equivalently if $K(X,C)\to K(X,D)$ is a pseudomonic functor for any $X$.  
+2. it is _full on isomorphisms_, meaning that for any [[pair]] of [[objects]] $x,y\in C$ the [[function]] $F \olon Iso_C(x,y) \to Iso_D(F x, F y)$ to the [[set]] of [[isomorphisms]] between them is [[surjective]] (hence [[bijective]]), where $Iso_C(x,y)$.
+
+More generally, a [[1-morphism]] $f \colon C\to D$ in any [[2-category]] $K$ is called a **[[pseudomonic morphism]]** if the square analogous to that below is a [[2-pullback]], or equivalently if $K(X,C)\to K(X,D)$ is a pseudomonic functor for any $X$.  
 
 
 ## Properties
 
 
-Every [[full functor|full]] and faithful functor is pseudomonic, and every pseudomonic functor is [[conservative functor|conservative]].  A functor $F: C \to D$ is pseudomonic if and only if the square
+Every [[fully faithful functor]] is pseudomonic, and every pseudomonic functor is [[conservative functor|conservative]].  
+
+A functor $F \colon C \to D$ is pseudomonic if and only if the [[commuting square]]
 
 $$
   \array{ 
-    C &\stackrel{Id}{\to}& C
+    C &\overset{Id}{\longrightarrow}& C
     \\
-    \downarrow^{Id}
+    \Big\downarrow\mathrlap{^{Id}}
     &&
-    \downarrow^F
+    \Big\downarrow\mathrlap{{}^F}
     \\
-    C &\stackrel{F}{\to}& D
+    C &\underset{F}{\longrightarrow}& D
   }
 $$
 
-is a [[2-limit|pullback]] in [[Cat]].
+is a [[2-pullback]] in [[Cat]] (cf. the pullback characterization of 1-[[monomorphisms]], [here](monomorphism#BasicCharacterizationOfMonomorphisms)).
 
 ## Examples
 
+An interesting example of the notion appears in the context of Joyal's [[combinatorial species]] of structures.
 
-An interesting example of the notion appears in the context of Joyal's species of structures.
-
-A species is a functor from the category $Bij$ of finite sets and bijections to $Set$, and the functors that are obtained by taking left Kan extensions of species along the embedding $I:Bij \to Set$ are called _analytic functors_. Now taking left Kan extensions along $I$ is pseudomonic, and this implies that the coefficients of an analytic functor are unique up to isomorphism.
+A *[[combinatorial species]]* is a [[functor]] from the [[category]] $Bij$ of [[finite sets]] and [[bijections]] between them to [[Set]], and the functors that are obtained by taking [[left Kan extensions]] of species along the [[subcategory]]-inclusion $I \colon Bij \to Set$ are called _analytic functors_. Now taking left Kan extensions along $I$ is pseudomonic, and this implies that the [[coefficients]] of an analytic functor are unique up to isomorphism.
 
 Arguably, pseudomonic functors are precisely the functors for which it makes sense to say that $A$ is uniquely determined by $F A$ up to unique isomorphism.  However, we do not really need faithfulness for this; bijectivity on isos suffices.
 
