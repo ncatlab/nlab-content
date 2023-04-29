@@ -21,7 +21,7 @@ The [[Grothendieck construction]] may be lifted from [[categories]] to [[model c
 ## Definition
  {#Definition}
 
-Let $\mathcal{M}$ be a [[model category]] and 
+Let $\mathcal{M}$ be a [[model category]] and
 
 \[
   \label{ThePseudofunctor}
@@ -39,12 +39,12 @@ Let $\mathcal{M}$ be a [[model category]] and
   }
 \]
 
-a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_!$), and [[mate]]-pairs of [[natural isomorphisms]].  
+a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_!$), and [[mate]]-pairs of [[natural isomorphisms]].
 
 We say that:
 
 \begin{definition}\label{RelativePseudoFunctor}
-$F$ is *[[relative functor]]* if for any [[weak equivalence]] $f$ in $M$, the associated Quillen adjunction $f_! \dashv f^*$ is a [[Quillen equivalence]].  
+$F$ is *[[relative functor]]* if for any [[weak equivalence]] $f$ in $M$, the associated Quillen adjunction $f_! \dashv f^*$ is a [[Quillen equivalence]].
 \end{definition}
 
 \begin{definition}\label{ProperPseudofunctor}
@@ -55,32 +55,32 @@ $F$ is "*proper*", if when $f \colon A\to B$ is an [[acyclic cofibration]] (resp
 **(integral model structure)**
 \linebreak
 Given a [[pseudofunctor]] as in (eq:ThePseudofunctor),
-we say that a morphism 
+we say that a morphism
 $$
-  (f,\phi) 
-   \;\colon\; 
+  (f,\phi)
+   \;\colon\;
   (X,A) \longrightarrow (Y,B)
-$$ 
+$$
 in its [[Grothendieck construction]] $\int_{X \in \mathcal{M}} F(X)$
 (where $f \colon X\to Y$ in $\mathcal{M}$ and $\phi \colon f_!(A) \to B$ in $F(Y)$) is:
 
-* an *integral equivalence* iff 
+* an *integral equivalence* iff
 
-  1. $f \colon X \to Y$ is a [[weak equivalence]] in $\mathcal{M}$ 
+  1. $f \colon X \to Y$ is a [[weak equivalence]] in $\mathcal{M}$
 
-  2. $f_!(Q A) \to f_!(A) \xrightarrow{\phi} B$ is a [[weak equivalence]] in $F(Y)$, where $Q$ is a [[cofibrant replacement]].  
+  2. $f_!(Q A) \to f_!(A) \xrightarrow{\phi} B$ is a [[weak equivalence]] in $F(Y)$, where $Q$ is a [[cofibrant replacement]].
 
      (Since $f_!\dashv f^*$ is a Quillen equivalence by relativeness, this is equivalent to the [[adjunct]] condition that $A \xrightarrow{\widetilde{\phi}} f^*(B) \to f^*(R B)$ is a weak equivalence in $F(X)$.)
 
-* an *integral cofibration* iff 
+* an *integral cofibration* iff
 
-  1. $f$ is a [[cofibration]] in $\mathcal{M}$ 
+  1. $f$ is a [[cofibration]] in $\mathcal{M}$
 
   1. $\phi \colon f_!(A) \to B$ is a [[cofibration]] in $F(Y)$.
 
-* an *integral fibration* iff 
+* an *integral fibration* iff
 
-  1. $f$ is a [[fibration]] in $\mathcal{M}$ 
+  1. $f$ is a [[fibration]] in $\mathcal{M}$
 
   1. the [[adjunct]] $\widetilde{\phi} \colon A \to f^*(B)$ is a [[fibration]] in $F(X)$.
 
@@ -95,7 +95,7 @@ This is [Harpaz & Prasma (2015), Theorem 3.0.12](#HarpazPrasma15).
 ## Properties
 
 \begin{proposition}
-Given a proper relative $F \colon \mathcal{M} \to ModelCat$, we can compose with the underlying [[(infinity,1)-functor|$(\infty,1)$-functor]] $Ho \colon ModelCat \to QCat$ with values in (say) [[quasicategories]].  
+Given a proper relative $F \colon \mathcal{M} \to ModelCat$, we can compose with the underlying [[(infinity,1)-functor|$(\infty,1)$-functor]] $Ho \colon ModelCat \to QCat$ with values in (say) [[quasicategories]].
 Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[equivalences of quasicategories]], so it induces a functor of quasicategories $Ho(M) \to Ho(QCat) = (\infty,1)Cat$.  The [[(∞,1)-Grothendieck construction]] of this functor is then equivalent, over $Ho(M)$, to the underlying $(\infty,1)$-category of the Grothendieck-construction model structure on $\int F$
 \end{proposition}
 ([Harpaz & Prasma (2015), Proposition 3.1.2](#HarpazPrasma15))
@@ -103,7 +103,7 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 
 ## Examples
 
-### Parameterized objects 
+### Parameterized objects
  {#ParameterizedObjects}
 
 We discuss a class of examples of integral model structures on categories of "$sGrpd$-parameterized objects".
@@ -123,11 +123,11 @@ We consider:
 
 * $\mathbf{v} \colon sSet_{Qu} \to \mathbf{V}$ a [[lax monoidal functor|lax monoidal]] [[left Quillen functor]] from the [[classical model structure on simplicial sets]] with its [[cartesian monoidal category|cartesian monoidal]]-structure, with
 
-* $\mathbf{v}_\ast \colon sSet\text{-}Cat \to \mathbf{V}\text{-}Cat$ its induced [[change of enrichment]]-[[functor]],   
+* $\mathbf{v}_\ast \colon sSet\text{-}Cat \to \mathbf{V}\text{-}Cat$ its induced [[change of enrichment]]-[[functor]],
 
 * $\mathbf{C}$ a [[combinatorial model category|combinatorial]] $V$-[[enriched model category]] all whose objecta are cofibrant (such as $\mathbf{V}$ itself via its canonical self-enrichment).
 
-For 
+For
 
 * $X \in sSet$ a [[simplicial set]]
 
@@ -144,11 +144,11 @@ $$
   \mathbf{V}Func
   \big(
     \mathcal{G}_\mathbf{v}(X)
-    ,\, 
+    ,\,
     \mathbf{C}
   \big)
 $$
-for the $\mathbf{V}$-[[enriched functor category]] from $\mathcal{G}_{\mathbf{v}}(X)$ to $\mathbf{C}$, 
+for the $\mathbf{V}$-[[enriched functor category]] from $\mathcal{G}_{\mathbf{v}}(X)$ to $\mathbf{C}$,
 regarded as equipped with its [[projective model structure on functors]] --- which exists (due to [this Theorem](model+structure+on+functors#CofGenProj)) by the assumptions that $\mathbf{C}$ is combinatorial and that all objects of $\mathbf{V}$ are cofibrant.
 
 In general we denote the objects of these categories, which are [[dependent pairs]] $(\mathcal{X}, \mathscr{V})$, as
@@ -164,7 +164,7 @@ $$
   \,.
 $$
 
-We denote the [[initial objects]] 
+We denote the [[initial objects]]
 
 * of $sSet$ or of $sGrpd$ by $\varnothing$
 
@@ -172,18 +172,18 @@ We denote the [[initial objects]]
 
 * of $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ as $0_{\mathcal{G}_{\mathbf{v}}(X)}$;
 
-and so that 
+and so that
 
 * of $\mathbf{C}_{sSet}$ by $0_{\varnothing} \,\in\, \underset{\simeq \{0_{\varnothing}\}}{\underbrace{\mathbf{C}^{\varnothing}}} \,\in\, \mathbf{C}_{sSet}$.
 
 
 Now by
 
-* [[precomposition]]$\;\mathcal{G}_{\mathbf{v}}(f)^\ast \,\coloneqq\, (-) \circ \mathcal{G}_{\mathbf{v}}(f)$ 
+* [[precomposition]]$\;\mathcal{G}_{\mathbf{v}}(f)^\ast \,\coloneqq\, (-) \circ \mathcal{G}_{\mathbf{v}}(f)$
 
 and
 
-* [[left Kan extension]] $\mathcal{G}_{\mathbf{v}}(f)_!$ 
+* [[left Kan extension]] $\mathcal{G}_{\mathbf{v}}(f)_!$
 
 these categories arrange into an [[indexed category]], namely a [[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
 $$
@@ -194,12 +194,12 @@ $$
     }
     sSet &\longrightarrow& Cat
     \\
-    X 
-      &\mapsto& 
+    X
+      &\mapsto&
     \mathbf{C}^{\mathcal{G}_\mathbf{v}(X)}
     \\
     \Big\downarrow\mathrlap{{}^f}
-    && 
+    &&
     \Big\downarrow\mathrlap{{}^{\mathcal{G}_\mathbf{v}(f)_!}}
     \\
     Y
@@ -222,7 +222,7 @@ whose [[Grothendieck construction]] we abbreviate by
 We may think of this as the category of *objects of $\mathbf{C}$ parameterized over [[infinity-groupoids|$\infty$-groupoids]]* (where the choice of $\mathbf{v}$ matters, but we leave it notationally implicit, for convenience).
 
 
-We will denote the components of 
+We will denote the components of
 morphisms in $\mathbf{C}_{sSet}$ by their $(-)_! \dashv (-)^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
 $$
   \begin{array}{ll}
@@ -237,11 +237,11 @@ $$
   \text{means that}
   \;\;\;
   \begin{array}{cccc}
-    \phi 
+    \phi
     &\colon&
     \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
     &\overset{}{\longrightarrow}&
-    \mathcal{G}_\mathbf{v}(f)^\ast 
+    \mathcal{G}_\mathbf{v}(f)^\ast
     \big(
       \mathscr{W}_{\mathcal{G}_\mathbf{v}(Y)}
     \big)
@@ -257,10 +257,10 @@ $$
   \text{hence that}
   \;\;\;
   \begin{array}{cccc}
-    \widetilde{\phi} 
+    \widetilde{\phi}
     &\colon&
     \mathcal{G}_\mathbf{v}(f)_!
-    \big(  
+    \big(
       \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
     \big)
     &\overset{}{\longrightarrow}&
@@ -271,16 +271,28 @@ $$
 (because in this form their [[external tensor product]] is more readily expressed, see [below](#ExternalTensorProduct)).
 \end{definition}
 
+\begin{remark}
+  The [[model structure on functors|projective model structure on simplicial functors]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is a [[product model category]] of [[Borel model structures]] on the [[simplicial group actions]] of the [[connected components]], by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
+$$
+  \mathbf{C}^{\mathcal{G}_{\mathbf{v}}X}_{proj}
+  \;\simeq\;
+  \underset{i \in \pi_0(X)}{\prod}
+  \big(
+    \mathcal{G}_{\mathbf{v}}(X)(x_i,x_i)
+  \big)Act(\mathbf{C})_{Borel}
+  \,.
+$$
+\end{remark}
 
 
 \begin{example}
 \label{ExamplesOfModelStructureOnsSgrpdParametrizedObjects}
   Situations in which the assumptions of Def. \ref{SetupAndNotationForParameterizedObjects} are verified:
 
-1. The choice 
+1. The choice
 
    * $\mathbf{V} \,\equiv\, sSet_{Qu}$ the [[classical model structure on simplicial sets]],
- 
+
    * $\mathbf{v} \,\equiv\, id$
 
    * $\mathbf{C} \,\equiv\, sSet_{Qu}$
@@ -295,7 +307,7 @@ $$
 
    * $\mathbf{v} \,\equiv\, N\big(k[-]\big) \,\colon\, sSet \to Ch_\bullet(k)$ the construction of [[normalized chain complexes]] of the degreewise [[free abelian group|free]] [[simplicial abelian group]] [[tensor product of abelian groups|tensored]] with $k$
 
-     (which is [[lax monoidal functor|lax monoidal]] by [this remark](free+abelian+group#FreeSimplicialAbelianGroupConstrIsStrongMonoidal) and [this Prop.](monoidal+Dold-Kan+correspondence#ChainsIsLaxMonoidal) and [[left Quillen functor|left Quillen]] by [this Prop.](Dold-Kan+correspondence#QuillenEquivalenceBetweensAbAndCh)) 
+     (which is [[lax monoidal functor|lax monoidal]] by [this remark](free+abelian+group#FreeSimplicialAbelianGroupConstrIsStrongMonoidal) and [this Prop.](monoidal+Dold-Kan+correspondence#ChainsIsLaxMonoidal) and [[left Quillen functor|left Quillen]] by [this Prop.](Dold-Kan+correspondence#QuillenEquivalenceBetweensAbAndCh))
 
    * $\mathbf{C} \,\equiv\, \mathbf{V}$
 
@@ -310,7 +322,7 @@ $$
    * $\mathbf{C} \,\equiv\, sCh_\bullet(k)$ the local model structure on the simplicial enhancement of the above projective model structure on chain complexes over a field $k$ (from [this Prop.](model+structure+on+chain+complexes#LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes))
 
      (all whose objects are still cofibrant, by [this Prop](model+structure+on+chain+complexes#OverGroundFieldAllObjectsInSimplicialStructureOnUnboundedComplexesAreCofibrant))
-   
+
    yields another [[model category]]-structure for [[flat infinity-vector bundles|flat $\infty$-vector bundles]] ([[infinity-local systems|$\infty$-local systems]] or, [[stable Dold-Kan correspondence|equivalently]], [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H k$]]-[[module spectra]]) over varying base spaces.
 
 \end{example}
@@ -320,17 +332,17 @@ $$
   \label{ModelStructureOnParameterizedObjects}
 **(integral model structure on parameterized objects)**
 \linebreak
-In the situation of Def. \ref{SetupAndNotationForParameterizedObjects}, the [[pseudofunctor]] 
+In the situation of Def. \ref{SetupAndNotationForParameterizedObjects}, the [[pseudofunctor]]
 $$
   \array{
     sSet &\longrightarrow& ModCat
     \\
-    \mathcal{X} 
-      &\mapsto& 
+    \mathcal{X}
+      &\mapsto&
     \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}_{proj}
     \\
     \Big\downarrow\mathrlap{{}^f}
-    && 
+    &&
    \Big\downarrow\mathrlap{{}^{\mathcal{G}_{\mathbf{v}}(f)_!}}
     \\
     \mathcal{Y}
@@ -349,13 +361,13 @@ exists.
 \end{proposition}
 \begin{proof}
 First to prove that the pseudofunctor is relative, here is a lazy argument (to be improved):
-By general results in [[Higher Topos Theory]], the given pseudofunctor presents the [[(infinity,1)-functor|$\infty$-functor]] 
+By general results in [[Higher Topos Theory]], the given pseudofunctor presents the [[(infinity,1)-functor|$\infty$-functor]]
 $$
   \array{
     Grpd_\infty &\longrightarrow& Cat_\infty
     \\
-    \mathcal{X} 
-      &\mapsto& 
+    \mathcal{X}
+      &\mapsto&
     Func_\infty\big(
      \mathcal{X}
      ,\,
@@ -385,7 +397,7 @@ it follows that $\mathcal{G}(f) \colon \mathcal{G}(X) \to \mathcal{G}(Y)$ is an 
 Next we claim that that it is sufficent to check the statement over [[reduced simplicial sets]], hence the case where $\mathcal{G}_{\mathbf{v}}(f)$ is of the form
 $$
   \mathcal{G}_{\mathbf{v}}(f) \colon \mathbf{B}\phi \colon \mathbf{B}H \to \mathbf{B}G
-$$ 
+$$
 with a single comonent map
 $$
   \phi \,\coloneqq\, \mathcal{G}_{\mathbf{v}}(f)_{x,x}
@@ -397,18 +409,18 @@ $$
   \array{
     && \mathbf{B}\mathcal{G}_{\mathbf{v}}(X)
     \\
-    & 
-    \mathllap{{}^{\iota_x}}\swarrow 
-    && 
+    &
+    \mathllap{{}^{\iota_x}}\swarrow
+    &&
     \searrow\mathrlap{{}^{\mathcal{G}_{\mathbf{v}}(f)_{x,x}}}
     \\
-    \mathcal{G}_{\mathbf{v}}(X) 
-      && && 
+    \mathcal{G}_{\mathbf{v}}(X)
+      && &&
     \mathbf{B}\mathcal{G}_{\mathbf{v}}(Y)_{f(x),f(x)}
     \\
-    & 
-    \mathllap{{}_{ \mathcal{G}_{\mathbf{v}}(f) }}\searrow 
-    && 
+    &
+    \mathllap{{}_{ \mathcal{G}_{\mathbf{v}}(f) }}\searrow
+    &&
     \swarrow\mathrlap{{}_{\iota_{f(x)}}}
     \\
     && \mathcal{G}_{\mathbf{v}}(Y)
@@ -421,7 +433,8 @@ $$
   (f_x)_! (\iota_{x})^\ast
   \,.
 $$
-But since pullback preserves all weak equivalences (as already remarked above) this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does. Finally noticing that a presheaf on a connected [[enriched groupoid]] takes *[[isomorphism|isomorphic]]* values on all objects, the claim follows.
+But since the pullback operations preserve all weak equivalences (as already remarked above) and the weak equivalences over a connected simplicial groupoid are detected over any object (by discussion [here](simplicial+groupoid#BorelModelStructureOnSimplicialGroupActions))
+this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does.
 
 
 Now the case of a single-object simplicial groupoids, the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[action objects]] in $\mathbf{C}$.
@@ -433,7 +446,7 @@ $$
     \\
     \mathllap{^{\phi \cdot id}}
     \big\downarrow
-      &^{_{(po)}}& 
+      &^{_{(po)}}&
     \big\downarrow
     \\
     G \cdot X
@@ -452,11 +465,11 @@ Here the left morphism is an [[acyclic cofibration]] since
 
    1. its further image under $\mathbf{v}$ remains an acyclic cofibration by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]]
 
-1. $X$ is cofibrant by assumption on $\mathbf{C}$, 
+1. $X$ is cofibrant by assumption on $\mathbf{C}$,
 
 1. so that the [[pushout-product axiom]] in the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$ implies that also $f \otimes X$ is an acyclic cofibration
 
-1. which finally means that its hom-component $\phi$ is, 
+1. which finally means that its hom-component $\phi$ is,
 
 
 
@@ -481,7 +494,7 @@ $$
     \\
     G \cdot_{_H} X
     &\underset{f_!(\phi)}{\longrightarrow}&
-    G \cdot_{_H} Y    
+    G \cdot_{_H} Y
     \mathrlap{\,.}
   }
 $$
@@ -498,10 +511,10 @@ Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restrictio
 
 \[
   \label{RestrictionOfSimplicialGroupActions}
-  \phi^\ast 
-    \,\colon\, 
-  (\mathbf{v}_\ast G) Act(\mathbf{C}) 
-  \longrightarrow 
+  \phi^\ast
+    \,\colon\,
+  (\mathbf{v}_\ast G) Act(\mathbf{C})
+  \longrightarrow
   (\mathbf{v}_\ast H) Act(\mathbf{C})
   \,.
 \]
@@ -510,7 +523,7 @@ At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical ele
 
 \begin{lemma}
 \label{LeftInducedActionViaPushout}
-  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in (\mathbf{v}H) Act(\mathbf{C})$ to the unique $\big((\mathbf{v}H) \cdot_{_{\mathbf{v}H}} X,\, \phi_!(\rho)\big)$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$ (we now notationally suppress the [[change of enrichment]] $\mathbf{v}$): 
+  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in (\mathbf{v}H) Act(\mathbf{C})$ to the unique $\big((\mathbf{v}H) \cdot_{_{\mathbf{v}H}} X,\, \phi_!(\rho)\big)$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$ (we now notationally suppress the [[change of enrichment]] $\mathbf{v}$):
 
 \begin{tikzcd}
     \ast \cdot H \cdot X
@@ -535,7 +548,7 @@ At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical ele
       }"{description}
     ]
     \\
-    & 
+    &
     G \cdot G \cdot X
     \ar[
       rr,
@@ -571,7 +584,7 @@ At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical ele
       "{ \iota }"{description}
     ]
     \\
-    & 
+    &
     G \cdot X
     \ar[
       from=uu,
@@ -650,7 +663,7 @@ To have the top morphism means to have a commuting diagram as follows:
     \\
     \\
     &
-    & 
+    &
     G \cdot G \cdot X
     \ar[
       rr,
@@ -700,7 +713,7 @@ To have the top morphism means to have a commuting diagram as follows:
     \\
     \\
     &
-    & 
+    &
     G \cdot X
     \ar[
       from=uuuu,
@@ -715,17 +728,17 @@ To have the top morphism means to have a commuting diagram as follows:
     ]
     &&
     G \cdot_{_H} X
-    \ar[ 
+    \ar[
       drr,
       "{ f }"{description}
     ]
     \\
     &
-    &&&&& 
+    &&&&&
     Y
 \end{tikzcd}
 
-We claim that $f \circ q$ here is fixed to be 
+We claim that $f \circ q$ here is fixed to be
 
 $$
   f \circ q
@@ -738,7 +751,7 @@ $$
   \,.
 $$
 
-To see this, use the [[unitality]] of $\mu$ and $\rho$ 
+To see this, use the [[unitality]] of $\mu$ and $\rho$
 
 \begin{tikzcd}[
     row sep=10pt
@@ -770,7 +783,7 @@ To see this, use the [[unitality]] of $\mu$ and $\rho$
     G \cdot \ast \cdot X
     &
     &
-    & 
+    &
     G \cdot G \cdot X
     \ar[
       rrr,
@@ -803,7 +816,7 @@ To see this, use the [[unitality]] of $\mu$ and $\rho$
     ]
     &
     &
-    & 
+    &
     X
     \ar[dr, equals]
     &&
@@ -845,7 +858,7 @@ To see this, use the [[unitality]] of $\mu$ and $\rho$
     \ar[from=uuuu, equals]
     &
     &
-    & 
+    &
     G \cdot X
     \ar[
       from=uuuu,
@@ -860,7 +873,7 @@ To see this, use the [[unitality]] of $\mu$ and $\rho$
     ]
     &&&
     G \cdot_{_H} X
-    \ar[ 
+    \ar[
       drr,
       "{ f }"{description}
     ]
@@ -871,7 +884,7 @@ To see this, use the [[unitality]] of $\mu$ and $\rho$
     Y
     %
     \ar[
-      from=3-1, 
+      from=3-1,
       to=3-4,
       crossing over,
       "{ \mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id} }"{description, pos=.3}
@@ -885,21 +898,21 @@ $$
     f \circ q
     \\
     \;=\;
-    f 
-      \circ 
-    q 
-      \circ 
-    (\mu \cdot \mathrm{id}) 
-      \circ 
+    f
+      \circ
+    q
+      \circ
+    (\mu \cdot \mathrm{id})
+      \circ
     (\mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id})
     \\
     \;=\;
-    f 
+    f
       \circ
     \phi_!(\rho)
       \circ
     (\mathrm{id} \cdot q)
-      \circ 
+      \circ
     (\mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id})
     \\
     \;=\;
@@ -908,7 +921,7 @@ $$
     (\mathrm{id} \cdot f)
       \circ
     (\mathrm{id} \cdot q)
-      \circ 
+      \circ
     (\mathrm{id} \cdot \mathrm{e} \cdot \mathrm{id})
     \\
     \;=\;
@@ -929,7 +942,7 @@ $$
   \end{array}
 $$
 
-Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the [[universal property]] of the [[pushout]]. 
+Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the [[universal property]] of the [[pushout]].
 \end{proof}
 
 \linebreak
@@ -939,7 +952,7 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 
 > Still to spell out some technical bits in Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below...
 
-Now assume in addition that 
+Now assume in addition that
 
 1. the [[tensor product]] in $\mathbf{V}$ is the [[cartesian product]],
 
@@ -949,22 +962,21 @@ Now assume in addition that
 
   * [[internal hom]] denoted $[-,-] \,\colon\, \mathbf{C}^{op} \times \mathbf{C} \to \mathbf{C}$
 
-
-The projective model structures $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ inherit monoidal model structure, by an evident generalization of the argument in [Berger & Moerdijk (2006), Lem. 2.5.2](Borel+model+structure#BergerMoerdijk2006).
+Then the projective model structures $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ inherit [[monoidal model structure]], by the discussion [here](Borel+model+structure#MonoidalModelStructure).
 
 \begin{definition}\label{ExternalTensorProduct}
 **(external tensor product)**
 \linebreak
-  The *[[external tensor product]]* on $\mathbf{C}_{sGrpd}$ (eq:CategoryOfParameterizedObjects) 
+  The *[[external tensor product]]* on $\mathbf{C}_{sSet}$ (eq:CategoryOfParameterizedObjects)
 
 $$
   \boxtimes
   \;\colon\;
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
   \times
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
   \longrightarrow
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
 $$
 
 is defined first on morphisms covering [[identity morphisms]] in $sGrpd$ by
@@ -1034,13 +1046,13 @@ $$
 \end{definition}
 
 \begin{lemma}
-  The functor forming the [[external tensor product]] (Def. \ref{ExternalTensorProduct}) with a fixed object $\mathscr{V}'_{\mathcal{X}'} \,\in\, \mathbf{C}_{sGrpd}$
+  The functor forming the [[external tensor product]] (Def. \ref{ExternalTensorProduct}) with a fixed object $\mathscr{V}'_{\mathcal{X}'} \,\in\, \mathbf{C}_{sSet}$
 $$
   (-) \boxtimes \mathscr{V}'_{\mathcal{X}'}
   \;\colon\;
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
   \longrightarrow
-  \mathbf{C}_{sGrpd}
+  \mathbf{C}_{sSet}
 $$
 is a [[left Quillen functor]] on the integral model structure of Prop \ref{ModelStructureOnParameterizedObjects}.
 \end{lemma}
@@ -1049,8 +1061,8 @@ First to see that it is a [[left adjoint]]: By [this Prop.](external+tensor+prod
 
 The bulk of the work is to see that the external tensor proserves (acyclic) cofibrations:
 
-For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration, 
-we need to show that the adjunct of the component map 
+For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration,
+we need to show that the adjunct of the component map
 
 $$
   \big(
@@ -1063,7 +1075,7 @@ $$
   id_{\mathscr{V}'}
 $$
 
-is an (acyclic) cofibration in $\mathbf{C}$. Here on the right we have inserted the operation $(f \times id)^\ast$ --- which we may since it equals the identity in its postcomposition with $(pr_{\mathcal{X}'})^\ast$. But with that term inserted, we may apply [[Frobenius reciprocity]] when computing the [[adjunct]] of this map as its image under $(f \times id)_!$ composed with the counit. 
+is an (acyclic) cofibration in $\mathbf{C}$. Here on the right we have inserted the operation $(f \times id)^\ast$ --- which we may since it equals the identity in its postcomposition with $(pr_{\mathcal{X}'})^\ast$. But with that term inserted, we may apply [[Frobenius reciprocity]] when computing the [[adjunct]] of this map as its image under $(f \times id)_!$ composed with the counit.
 
 This formula for the adjunct is the total left morphism in the following commuting diagram. Here:
 
@@ -1078,19 +1090,19 @@ This formula for the adjunct is the total left morphism in the following commuti
       & &
       \mathcal{X} \times \mathcal{X}'
       \\
-      & 
-      \mathllap{{}^{pr_{\mathcal{X}}}}\swarrow 
-      && 
+      &
+      \mathllap{{}^{pr_{\mathcal{X}}}}\swarrow
+      &&
       \searrow\mathrlap{^{f \times id}}
       \\
       \mathcal{X} && && \mathcal{Y} \times \mathcal{X}'
       \\
-      & 
-      \mathllap{{}_{f}}\searrow 
-     && 
+      &
+      \mathllap{{}_{f}}\searrow
+     &&
        \swarrow\mathrlap{{}_{pr_{\mathcal{Y}}}}
       \\
-      && 
+      &&
       \mathcal{Y}
       \mathrlap{\,,}
     }
@@ -1101,14 +1113,14 @@ This formula for the adjunct is the total left morphism in the following commuti
 
 <img src="/nlab/files/LemmaDiagram-230424b.jpg" width="800">
 
-The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with the pullback of a object of $\mathbf{C}^{\mathcal{X}'}$. 
+The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with the pullback of a object of $\mathbf{C}^{\mathcal{X}'}$.
 
 Thus it remains to see that pullback along product projections preserves cofibrations, this Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below.
 \end{proof}
 
 \begin{lemma}
   \label{ExternalTensorWithUnitBundleIsLeftQuillen}
-  Pullback along a projection $pr_{Y} \colon X \times Y \to Y$  
+  Pullback along a projection $pr_{Y} \colon X \times Y \to Y$
   $$
     (pr_{Y})^\ast
     \;\colon\;
@@ -1120,7 +1132,7 @@ is left Quillen.
 \end{lemma}
 \begin{proof}
 Sketch:
-We may equivalently produce a right adjoint and show that it is right Quillen. We claim that the right adjoint is the functor which takes an $\mathscr{V}_{\mathcal{G}_{\mathbf{v}}(Y)}$ to the parameterization over $Y^X$ which over $f \colon X \to Y$ is $\big(\mathcal{G}_{\mathbf{v}}(p_X)\big)_\ast \mathcal{G}_{\mathbf{v}}(f)^\ast \mathscr{V}$. 
+We may equivalently produce a right adjoint and show that it is right Quillen. We claim that the right adjoint is the functor which takes an $\mathscr{V}_{\mathcal{G}_{\mathbf{v}}(Y)}$ to the parameterization over $Y^X$ which over $f \colon X \to Y$ is $\big(\mathcal{G}_{\mathbf{v}}(p_X)\big)_\ast \mathcal{G}_{\mathbf{v}}(f)^\ast \mathscr{V}$.
 Now the pullback functor clearly preserves all fibrations and weak equivalences. Moreover, observe that the right push-forward to the *point* is equivalently the $\mathbf{V}$-[[copower]] out of $\mathbb{1} \in \mathbf{V}$ By the assumption that all object of $\mathbf{V}$ are cofibrant, this is a right Quillen functor by the [[pullback-power axiom]] satisfied in [[enriched model categories]].
 \end{proof}
 
