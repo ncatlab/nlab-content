@@ -8,12 +8,8 @@ On [[string diagrams]]
 
 * {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([hal:00154243](https://dumas.ccsd.cnrs.fr/PPS/hal-00154243), [pdf](https://hal.archives-ouvertes.fr/hal-00154243/document), [[MelliesFunctorialBoxesInStringDiagrams.pdf:file]])
 
-On [[presheaves]] of [[modules]] as models for [[intuitionistic linear logic]]
 
-* [[Paul-André Melliès]], _A Functorial Excursion Between Algebraic Geometry and Linear Logic_, in 37th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) (LICS '22), August 2–5, 2022, Haifa, Israel. ACM, New York, ([doi:10.1145/3531130.3532488](https://doi.org/10.1145/3531130.3532488), [pdf](https://www.irif.fr/~mellies//papers/functorial-excursion.pdf))
-
-
-On [[type refinement]]
+On [[type refinement]]:
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
 
@@ -26,7 +22,18 @@ On the [[local state monad]]:
 * [[Paul-André Melliès]], *Local States in String Diagrams*, In: G. Dowek (eds.) *Rewriting and Typed Lambda Calculi* RTA TLCA 2014, Lecture Notes in Computer Science **8560** Springer (2014) &lbrack;[doi:10.1007/978-3-319-08918-8_23](https://doi.org/10.1007/978-3-319-08918-8_23)&rbrack;
 
 
+On the [[Grothendieck construction for model categories]]:
+
+* [[Pierre Cagne]], [[Paul-André Melliès]], *On bifibrations of model categories*, Advances in Mathematics
+**370** (2020) 107205 &lbrack;[arXiv:1709.10484](https://arxiv.org/abs/1709.10484), [doi:10.1016/j.aim.2020.107205](https://doi.org/10.1016/j.aim.2020.107205)&rbrack;
+
+
+On [[presheaves]] of [[modules]] as models for [[intuitionistic linear logic]]
+
+* [[Paul-André Melliès]], _A Functorial Excursion Between Algebraic Geometry and Linear Logic_, in 37th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) (LICS '22), August 2–5, 2022, Haifa, Israel. ACM, New York, ([doi:10.1145/3531130.3532488](https://doi.org/10.1145/3531130.3532488), [pdf](https://www.irif.fr/~mellies//papers/functorial-excursion.pdf))
 
 
 category: people
+
 [[!redirects Paul André Melliès]]
+
