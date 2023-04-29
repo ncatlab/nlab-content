@@ -72,15 +72,22 @@ $$
 
 is a fibration, which, furthermore, is [[acyclic fibration|acyclic]] if $f$ or $g$ is.
 
-However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], the pullback-power axiom holds if and only if the pushout-power axiom holds.
+By [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], the [[pullback-power axiom]] holds if and only if the [[pushout-product axiom]] holds.
 
-## Remarks
+\begin{remark}
+The pushout-product axiom implies in particular that [[tensoring]] with [[cofibrant objects]] preserves [[cofibrations]] and [[acyclic cofibrations]].
 
-* This implies in particular that tensoring with [[cofibrant objects]] preserves cofibrations and acyclic cofibrations.
+However the plain tensor product of a pair of (acyclic) cofibrations is in general not an (acyclic) cofibration.
+\end{remark}
 
-* However the tensor product of two (acyclic) cofibrations is in general not an (acyclic) cofibration.
+\begin{remark}
+\label{InCofibrantlyGeneratedModelCategories}
+  In a [[cofibrantly generated model category]] the pushout product axiom holds as soon as it holds for (acyclic) [[generating cofibration]] (see [here](pushout-product#PushoutProductAxiomInCofibrantlyGeneratedModelCategories)).
+\end{remark}
 
-* The pushout-product axiom makes sense more generally in the context of a [[two-variable adjunction]] between model categories.  This is important in [[enriched homotopy theory]].
+\begin{remark}
+The pushout-product axiom makes sense more generally in the context of a [[two-variable adjunction]] between model categories.  This is important in [[enriched homotopy theory]].
+\end{remark}
 
 ## Related concepts
 
@@ -93,6 +100,14 @@ However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], t
 * [[Joyal-Tierney calculus]]
 
 ## References
+
+See the references at 
+
+* *[[monoidal model category]]*
+
+* *[[enriched model category]]* 
+
+* *[[pushout-product]]*.
 
 Discussion for [[model (infinity,1)-categories|model $\infty$-categories]] (such as with [[homotopy Kan fibrations]]):
 
