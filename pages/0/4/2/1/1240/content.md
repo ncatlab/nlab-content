@@ -522,3 +522,7 @@ The general case of $\infty$-groups in $\infty$-toposes is further discussed in
 [[!redirects coinduced representations]]
 [[!redirects coinduction functor]]
 [[!redirects coinduction functors]]
+
+[[!redirects induced action]]
+[[!redirects induced actions]]
+
