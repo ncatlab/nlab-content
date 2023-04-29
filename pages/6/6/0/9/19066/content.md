@@ -950,7 +950,7 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 #### Monoidal model structure
  {#MonoidalModelStructureOnParameterizedObjects}
 
-> Still to spell out some technical bits in Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below...
+> still incomplete...
 
 Now assume in addition that
 
@@ -962,7 +962,54 @@ Now assume in addition that
 
   * [[internal hom]] denoted $[-,-] \,\colon\, \mathbf{C}^{op} \times \mathbf{C} \to \mathbf{C}$
 
-Then the projective model structures $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ inherit [[monoidal model structure]], by the discussion [here](Borel+model+structure#MonoidalModelStructure).
+Then the projective model structures $\mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}$ inherit [[monoidal model structure]] from the objectwise-tensor product in $\mathbf{C}$, by the discussion [here](Borel+model+structure#MonoidalModelStructure).
+
+Since also the corresponding [[internal hom]] is formed objectwise, the pre-composition functors
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& Y
+    \\
+    sFunc\big(
+      \mathcal{G}(X)
+      ,\,
+      \mathbf{C}
+    \big)
+    &\overset{
+     \big(
+       \mathcal{G}(f) 
+     \big)^\ast
+    }{\longleftarrow}&
+    sFunc\big(
+      \mathcal{G}(Y)
+      ,\,
+      \mathbf{C}
+    \big)
+  }
+$$
+
+are both [[strong monoidal functor|strong monoidal]] and [[strong closed functors]]. This should imply that
+
+\begin{lemma}
+\label{BeckChevalleyCondition}
+  Our [[indexed monoidal category]]
+  $$
+    \array{
+    sSet &\longrightarrow& MonCat
+    \\
+    X 
+      &\mapsto& 
+    \big(
+      \mathbf{C}^{\mathcal{G}(X)}
+      ,\, 
+      \otimes_{\mathcal{G}(X)}
+      ,\,
+      \mathbb{1}_{\mathcal{G}(X)}
+    \big)
+    }
+  $$
+satisfies the [[Beck-Chevalley condition]].
+\end{lemma}
 
 \begin{definition}\label{ExternalTensorProduct}
 **(external tensor product)**
@@ -979,26 +1026,26 @@ $$
   \mathbf{C}_{sSet}
 $$
 
-is defined first on morphisms covering [[identity morphisms]] in $sGrpd$ by
+is defined first on morphisms covering [[identity morphisms]] in $sSet$ by
 
 $$
   \boxtimes
   \;\colon\;
-  \mathbf{C}^{\mathcal{X}}
+  \mathbf{C}^{\mathcal{G}(X)}
   \times
-  \mathbf{C}^{\mathcal{Y}}
+  \mathbf{C}^{\mathcal{G}(Y)}
   \overset{
-    (pr_{\mathcal{X}})^\ast
+    \big(\mathcal{G}(pr_{X})\big)^\ast
     \times
-    (pr_{\mathcal{Y}})^\ast
+    \big(\mathcal{G}(pr_{Y})\big)^\ast
   }{\longrightarrow}
-  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \mathbf{C}^{\mathcal{G}(X \times Y)}
   \times
-  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \mathbf{C}^{\mathcal{G}(X \times Y)}
   \overset{
     \otimes
   }{\longrightarrow}
-  \mathbf{C}^{\mathcal{X} \times \mathcal{Y}}
+  \mathbf{C}^{\mathcal{G}(X \times Y)}
 $$
 
 and then in general by
@@ -1006,22 +1053,22 @@ and then in general by
 $$
   \left[
   \array{
-    \mathscr{V}_{\mathcal{X}}
+    \mathscr{V}_{\mathcal{G}(X)}
     \\
     \Big\downarrow\mathrlap{^{\phi_f}}
     \\
-    \mathscr{W}_{\mathcal{Y}}
+    \mathscr{W}_{\mathcal{G}(Y)}
   }
   \;\;\,
   \right]
   \boxtimes
   \left[
   \array{
-    \mathscr{V}'_{\mathcal{X}'}
+    \mathscr{V}'_{\mathcal{G}(X')}
     \\
     \Big\downarrow\mathrlap{^{\phi'_{f'}}}
     \\
-    \mathscr{W}'_{\mathcal{Y}'}
+    \mathscr{W}'_{\mathcal{G}(Y')}
   }
   \;\;\;
   \right]
@@ -1030,15 +1077,15 @@ $$
   \;\;
   \left[
   \array{
-    \mathscr{V}_{\mathcal{X}}
+    \mathscr{V}_{\mathcal{G}(X)}
     \boxtimes
-    \mathscr{V}'_{\mathcal{X}'}
+    \mathscr{V}'_{\mathcal{G}(X')}
     \\
     \Big\downarrow\mathrlap{{}^{\phi_f \boxtimes \phi'_{f'}}}
     \\
-    \mathscr{W}_{\mathcal{Y}}
+    \mathscr{W}_{\mathcal{G}(Y)}
     \boxtimes
-    \mathscr{W}'_{\mathcal{Y}'}
+    \mathscr{W}'_{\mathcal{G}(Y')}
   }
   \;\;\;\;
   \right]
@@ -1048,7 +1095,7 @@ $$
 \begin{lemma}
   The functor forming the [[external tensor product]] (Def. \ref{ExternalTensorProduct}) with a fixed object $\mathscr{V}'_{\mathcal{X}'} \,\in\, \mathbf{C}_{sSet}$
 $$
-  (-) \boxtimes \mathscr{V}'_{\mathcal{X}'}
+  (-) \boxtimes \mathscr{V}'_{\mathcal{G}(X')}
   \;\colon\;
   \mathbf{C}_{sSet}
   \longrightarrow
@@ -1059,7 +1106,7 @@ is a [[left Quillen functor]] on the integral model structure of Prop \ref{Model
 \begin{proof}
 First to see that it is a [[left adjoint]]: By [this Prop.](external+tensor+product#CocontinuityAndAdjoints) it [[preserves colimits]] and by [this Prop.](locally+presentable+category#LocallyPresentableGrothendieckConstruction) our [[Grothendieck construction]]-category is [[locally presentable]], whence the existence of a [[right adjoint]] follows by the [[adjoint functor theorem]] ([this Prop.](adjoint+functor+theorem#AdjFuncTheoremForLocallyPresentableCats)).
 
-The bulk of the work is to see that the external tensor proserves (acyclic) cofibrations:
+The bulk of the work is to see that the external tensor preserves (acyclic) cofibrations:
 
 For $\phi_f \;\colon\; \mathscr{V}_{\mathcal{X}} \to \mathscr{W}_{\mathcal{Y}}$ an (acyclic) integral cofibration,
 we need to show that the adjunct of the component map
@@ -1088,22 +1135,22 @@ This formula for the adjunct is the total left morphism in the following commuti
   $$
     \array{
       & &
-      \mathcal{X} \times \mathcal{X}'
+      X \times X'
       \\
       &
-      \mathllap{{}^{pr_{\mathcal{X}}}}\swarrow
+      \mathllap{{}^{pr_{X}}}\swarrow
       &&
       \searrow\mathrlap{^{f \times id}}
       \\
-      \mathcal{X} && && \mathcal{Y} \times \mathcal{X}'
+      X && && Y \times X'
       \\
       &
       \mathllap{{}_{f}}\searrow
      &&
-       \swarrow\mathrlap{{}_{pr_{\mathcal{Y}}}}
+       \swarrow\mathrlap{{}_{pr_{Y}}}
       \\
       &&
-      \mathcal{Y}
+      Y
       \mathrlap{\,,}
     }
   $$
@@ -1115,7 +1162,7 @@ This formula for the adjunct is the total left morphism in the following commuti
 
 The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with the pullback of a object of $\mathbf{C}^{\mathcal{X}'}$.
 
-Thus it remains to see that pullback along product projections preserves cofibrations, this Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen} below.
+Thus it remains to see that pullback along product projections preserves cofibrations, this is Lemma \ref{ExternalTensorWithUnitBundleIsLeftQuillen}.
 \end{proof}
 
 \begin{lemma}
@@ -1166,9 +1213,10 @@ The construction was then generalized in
 
 * {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
 
-Another approach is found in
+and further in
 
-* [[Pierre Cagne]], [[Paul-André Melliès]], _On bifibrations of model categories_, ([arXiv:1709.10484](https://arxiv.org/abs/1709.10484))
+* [[Pierre Cagne]], [[Paul-André Melliès]], *On bifibrations of model categories*, Advances in Mathematics
+**370** (2020) 107205 &lbrack;[arXiv:1709.10484](https://arxiv.org/abs/1709.10484), [doi:10.1016/j.aim.2020.107205](https://doi.org/10.1016/j.aim.2020.107205)&rbrack;
 
 
 For the special case of pseudofunctors with values in [[groupoids]], a [[model category]] version of the Grothendieck construction was discussed in
