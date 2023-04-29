@@ -112,25 +112,25 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 ## References
 
-A standard textbook is
+Original articles:
 
-* [[Peter Freyd]], _[Abelian Categories (pdf)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3.pdf))
- {#Freyd}
+* [[Barry Mitchell]], *The Full Imbedding Theorem*, American Journal of Mathematics **86** 3 (1964) 619-637 &lbrack;[doi:10.2307/2373027](https://doi.org/10.2307/2373027)&rbrack;
+
+Textbook account:
+
+* {#Freyd} [[Peter Freyd]], *Abelian Categories*, Harper and Row (1964), Reprints in Theory and Applications of Categories **3** (2003) 23-164 &lbrack;[tac:tr3](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html)&rbrack;
 
 Details on the proof and its variants are also in
 
-section 1.6 of
-
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
- {#Weibel}
-
+* {#Weibel} [[Charles Weibel]], section 1.6 of: _[[An Introduction to Homological Algebra]]_
+ 
 and
 
-* [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf))
- {#Ginzburg}
+* {#Ginzburg} [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf))
+ 
 
-* A. Nyman , S. Paul Smith, _A generalization of Watts's Theorem: Right exact functors on module categories_ ([arXiv:0806.0832](http://arxiv.org/abs/0806.0832))
- {#NymanSmith}
+* {#NymanSmith} A. Nyman , S. Paul Smith, _A generalization of Watts's Theorem: Right exact functors on module categories_ ([arXiv:0806.0832](http://arxiv.org/abs/0806.0832))
+ 
 
 An introductory survey is for instance also in section 3 of 
 
@@ -156,3 +156,5 @@ See also
 
 [[!redirects Watt's theorem]]
 [[!redirects Watt theorem]]
+
+[[!redirects Mitchell embedding theorem]]
