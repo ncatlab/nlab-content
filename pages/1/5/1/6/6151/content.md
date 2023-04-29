@@ -16,7 +16,7 @@ On [[limits]] and [[colimits]] and [[exponential objects]] in the [[category]] [
 * {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
 
 
-On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]]:
+On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]] (and [[pseudomonoids]]):
 
 * [[Brian Day]], [[Ross Street]], *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
 
