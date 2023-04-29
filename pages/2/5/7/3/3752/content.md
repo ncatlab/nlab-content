@@ -201,6 +201,10 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 
 ## References
 
+Semicategories were introduced in
+
+* Barry Mitchell. _The dominion of Isbell_. Transactions of the American Mathematical Society 167 (1972): 319-331.
+
 Enriched semicategory theory is developed in 
 
 * {#MBB02}M.-A. Moens, U. Bernani-Canani, [[Francis Borceux|F. Borceux]], _On regular presheaves and regular semi-categories_ , Cah. Top. G&#233;om. Diff. Cat. **XLIII** no.3 (2002) pp.163-190. ([numdam](http://www.numdam.org/item?id=CTGDC_2002__43_3_163_0))
