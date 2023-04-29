@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The term _simplicial functor_ is usually used to refer to [[sSet]]-[[enriched functors]], hence to _simplicially enriched functors_, hence to [[morphisms]] between [[simplicially enriched categories]].
 
 In principle, but less commonly so in practice, it may also refer to  a morphism of [[simplicial object in Cat]].
@@ -12,7 +28,14 @@ to the [[simplicial category]] of [[simplicial sets]].
 This [[simplicial category]] is equipped with a stable [[model structure]]
 that makes it [[Quillen equivalent]] to the Bousfield–Friedlander
 model structure on [[simplicial spectra]].
+
 See [[model structure on reduced excisive functors]] for more information.
+
+## Related concepts
+
+* [[simplicial category]], [[simplicial model category]]
+
+* [[simplicial groupoid]]
 
 [[!redirects simplicial functors]]
 
