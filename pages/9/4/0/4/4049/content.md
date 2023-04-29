@@ -16,8 +16,9 @@
 
 ## Idea 
 
-An _enriched natural transformation_ is the appropriate notion of [[homomorphism]] between [[enriched functors]], the analog in [[enriched category theory]] of the ordinary notion of [[natural transformation]] in ordinary [[category theory]].
+The notion of _$V$-enriched natural transformation_ is the appropriate notion of [[homomorphism]] between [[enriched functors]], the analog in [[enriched category theory]] of the ordinary notion of [[natural transformation]] in ordinary [[category theory]].
 
+$V$-Enriched natural transformations constitute the [[2-morphisms]] in the [[2-category]] [[VCat]].
 
 ## Definition 
  {#Definition}
