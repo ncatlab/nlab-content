@@ -16,9 +16,15 @@
 
 * [[enriched functor]], [[profunctor]]
 
+* [[enriched natural transformation]]
+
 * [[enriched functor category]]
 
+* [[enriched adjoint functor]]
 
+* [[monoidal enriched category]]
+
+* [[enriched model category]]
 
 ## Universal constructions
 
@@ -29,7 +35,9 @@
 
 ## Extra stuff, structure, property
 
-* [[copower]]ing (tensoring), [[power]]ing (cotensoring)
+* [[copowering]] ([[tensoring]])
+
+  [[powering]] ([[cotensoring]])
 
 ### Homotopical enrichment
 
@@ -39,10 +47,6 @@
 
 * [[model structure on homotopical presheaves]]
 
-
-
-
-<div markdown="1">[Edit this sidebar](/nlab/edit/enriched+category+theory+contents)</div>
 
 
 [[!redirects enriched category theory - contents]]
