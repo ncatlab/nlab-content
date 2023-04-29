@@ -93,6 +93,7 @@ This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model 
 \end{defn}
 
 ### In combinatorial simplicial model categories
+ {#DefinitionInCombSimpModCat}
 
 More generally, if $\mathbf{C}$ is an [[sSet-enriched category]] which is also [[tensoring|tensored]] over [[sSet]], via an [[enriched functor]]
 $$
@@ -1102,6 +1103,13 @@ $$
 ### In combinatorial simplicial model categories
  {#PropertiesInCombSimpModCats}
 
+#### Monoidal model structure
+ {#MonoidalModelStructure}
+
+We discuss (Prop. \ref{ExistenceOfMonoidalModelStructure} below) induced [[monoidal model category]]-[[structure]] on the Borel model structure, in the generality of [[coefficients]] any (cofibrantly generated)  simplicial model structure (as [above](#DefinitionInCombSimpModCat)), which in addition carries compatible [[monoidal model structure]].
+
+First some preliminaries: 
+
 Given
 
 * $\mathcal{G} \,\in\, Grp(sSet)$ a [[simplicial group]],
@@ -1131,8 +1139,9 @@ $$
 has, by [this Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureOnEnrichedFunctors), (acyclic) [[generating cofibrations]] given by [[tensoring]] these with $\mathcal{G} = (\mathbf{B}\mathcal{G})(\ast, \ast)$ and understood as equipped with the $\mathcal{G}$-[[action]] induced by the [[regular action]] of $\mathcal{G}$ on itself:
 \[
   \label{GeneratingCofibrationsForBorelInCombSimpCat}
+  \array{
   I_{\mathcal{G}Act(\mathbf{C})}
-  \;\coloneqq\;
+  &\coloneqq&
   \mathcal{G}\cdot(I_{\mathbf{C}})
   \;\defneq\;
   \big\{
@@ -1140,11 +1149,9 @@ has, by [this Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureO
     \,\big\vert\,
     i \in I
   \big\}
-  \;\;
-  \text{and}
-  \;\;
+  \\
   J_{\mathcal{G}Act(\mathbf{C})}
-  \;\coloneqq\;
+  &\coloneqq&
   \mathcal{G}\cdot(J_{\mathbf{C}})
   \;\defneq\;
   \big\{
@@ -1152,7 +1159,8 @@ has, by [this Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureO
     \,\big\vert\,
     j \in J
   \big\}
-  \,.
+  \mathrlap{\,,}
+  }
 \]
 where we noticed that these are just the [[images]] under the (acyclic) [[generating cofibrations]] of $\mathbf{C}$ under the left-[[induced action]]
 \[
@@ -1160,7 +1168,7 @@ where we noticed that these are just the [[images]] under the (acyclic) [[genera
   \mathbf{C}
   \underoverset
     {\underset{undrl}{\longleftarrow}}
-    {\overset{\mathcal{G}\cdot}{\longrightarrow}}
+    {\overset{\mathcal{G}\cdot(-)}{\longrightarrow}}
     {\;\; \bot \;\;}
   \mathcal{G}Act(\mathbf{C})
   \,.
@@ -1173,10 +1181,9 @@ But since
 
 1. $\mathbf{C}$ is an $sSet$-[[enriched model category]]
 
-the [[pushout-product axiom]] satisfied by the [[tensoring]] implies that the [[underlying]] morphisms of these (acyclic) [[generating cofibration]] in the Borel structure, i.e. [[forgetful functor|forgetting]] their [[equivariant map|equivariance]] under the [[simplicial group action]], as still (acyclic) cofibrations in $\mathbf{C}$ itself, hence that we also have a [[Quillen adjunction]] of the form
+the [[pushout-product axiom]] satisfied by the [[tensoring]] implies that the [[underlying]] morphisms of these (acyclic) [[generating cofibration]] in the Borel structure, i.e. [[forgetful functor|forgetting]] their [[equivariant map|equivariance]] under the [[simplicial group action]], are still (acyclic) cofibrations in $\mathbf{C}$ itself, hence that we also have a [[Quillen adjunction]] of the form
 \[
   \label{RightQuillenInductionForBorelInCombSimpModCat}
-  \label{}
     \mathbf{C}   
     \underoverset
       {\underset{R}{\longrightarrow}}
@@ -1187,17 +1194,54 @@ the [[pushout-product axiom]] satisfied by the [[tensoring]] implies that the [[
 whose [[right adjoint]] may be thought of as the right [[induced action]] or equivalently as right [[Kan extension]] along the [[sSet]]-[[enriched functor]] $\ast \to \mathbf{B}\mathcal{G}$.
 
 \begin{proposition}
-  For $\mathcal{G} \in Grp(sSet)$ and $\mathbf{C}$ a [[combinatorial simplicial model category]] with further [[monoidal model category]]-[[structure]] $\otimes$ for [[cofibrant object|cofibrant]] [[unit object]] $I$, the objectwise [[tensor product]] makes the Borel model structure (eq:BorelModelStructureForCombinatoriaSimplicialModelCat)
+\label{ExistenceOfMonoidalModelStructure}
+  For $\mathcal{G} \in Grp(sSet)$ and $\mathbf{C}$ a [[combinatorial simplicial model category]] with compatible  [[closed monoidal category|closed]] [[monoidal model category]]-[[structure]], i.e. with an [[sSet]]-[[enriched functor]]  $(-)\otimes(-)$, the objectwise [[tensor product]] 
+$$
+  \mathcal{G}Act(\mathbf{C})
+  \times
+  \mathcal{G}Act(\mathbf{C})
+  \,\defneq\,
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
+  \times
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
+  \;\simeq\;
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C} \times \mathbf{C})
+  \overset
+    {   
+      sFunc(\mathbf{B}\mathcal{G},\, \otimes)
+    }
+    {\longrightarrow}
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
+$$
+and the objectwise [[internal hom]]
+$$
+  \mathcal{G}Act(\mathbf{C})
+  \times
+  \mathcal{G}Act(\mathbf{C})
+  \,\simeq\,
+  sFunc\big(\mathbf{B}\mathcal{G},\,\mathbf{C}^{op})
+  \times
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
+  \;\simeq\;
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C} \times \mathbf{C})
+  \overset
+    {   
+      sFunc(\mathbf{B}\mathcal{G},\, [-,-])
+    }
+    {\longrightarrow}
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})
+$$
+make the Borel model structure (eq:BorelModelStructureForCombinatoriaSimplicialModelCat)
 $$
   \big(\mathcal{G}Act(\mathbf{C}), \otimes \big)
 $$
 a [[monoidal model category]].
 \end{proposition}
-The following proof is the evident generalization of that given in [Berger & Moerdijk (2006), Lem. 2.5.2](#BergerMoerdijk2006).
+The following proof of the [[pushout-product axiom]] is the evident generalization of that given in [Berger & Moerdijk (2006), Lem. 2.5.2](#BergerMoerdijk2006) for $\mathbf{C} = sSet$.
 \begin{proof}
-It is sufficient to check the [[pushout-product axiom]] on (acyclic) [[generating cofibrations]]. To that end, given 
+It is sufficient to check the [[pushout-product axiom]] on (acyclic) [[generating cofibrations]] (by [this remark](pushout-product#PushoutProductAxiomInCofibrantlyGeneratedModelCategories)). To that end, given 
 
-* [[generating cofibrations]] $A \to B$ and $X \to Y$ in $I_{\mathcal{G}Act(\mathbf{C})}$, we need to check that their [[pushout product]] is still a cofibration, which means that for any 
+* [[generating cofibrations]]$\;A \to B$ and $X \to Y$ in $I_{\mathcal{G}Act(\mathbf{C})}$, we need to check that their [[pushout product]] is still a cofibration, which means that for any 
 
 * [[acyclic fibration]] $Z \to W$ in $WFib_{\mathcal{G}Act(\mathbf{C})} = undrl^{-1} WFib_{\mathbf{C}}$
 
@@ -1223,7 +1267,7 @@ $$
   \;\;\;\text{in}\;\; \mathcal{G}Act(\mathbf{C})
   \,.
 $$
-By [[Joyal-Tierney calculus]], this is equivalent to finding a [[lifti]] in the [[internal hom]]-[[adjunct]] diagram:
+By [[Joyal-Tierney calculus]], this is equivalent to finding a [[lift]] in the [[internal hom]]-[[adjunct]] diagram:
 $$
   \array{
     A 
@@ -1241,7 +1285,7 @@ $$
   \;\;\;\text{in}\;\; \mathcal{G}Act(\mathbf{C})
   \,.
 $$
-Now by (eq:GeneratingCofibrationsForBorelInCombSimpCat) the (acyclic) Borel-cofibration on the left in the image of the [[left adjoint]] functor $\mathcal{G}\cdot(-)$ whose [[right adjoint]] unde the [[forgetful functor]] remembering just the [[underlying]] morphisms in $\mathbf{C}$. Therefore a lift in the above diagram is equivalently a lift of its [[adjunct]], which is the same underlying diagram:
+Now observe that the (acyclic) Borel-cofibration on the left is, by (eq:GeneratingCofibrationsForBorelInCombSimpCat), in the image of the [[left adjoint]] functor $\mathcal{G}\cdot(-)$ whose [[right adjoint]] is the [[forgetful functor]] remembering just the [[underlying]] morphisms in $\mathbf{C}$. Therefore a lift in the above diagram is equivalently a lift of its [[adjunct]], which is just the [[underlying]] diagram in $\mathbf{C}$:
 $$
   \array{
     A 
@@ -1259,17 +1303,34 @@ $$
   \;\;\;\text{in}\;\; \mathbf{C}
   \,.
 $$
-But now the fact that 
+But now using that
 
-1. the underling map of the previous acyclic fibration is still an acyclic fibration in $\mathbf{C}$, by definition of the projective/Borel model strcuture,
+1. the underlying map of the previous [[acyclic fibration]] is still an acyclic fibration in $\mathbf{C}$, by definition of the projective/Borel model strcuture,
 
-1. the underlying maps of the previous cofibrations are still cofibrations in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat)
+1. the underlying maps of the previous [[cofibrations]] are still cofibrations in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat)
 
 1. the [[pullback-power axiom]] satisfied in the [[monoidal model category]] $\mathbf{C}$
 
 it follows that the left map in this diagram is a cofibration and the right map is still an acyclic fibration, whence a lift exists by the model category axioms on $\mathbf{C}$.
 
 A directly analogous argument applies in the cases where $A \to B$ or $X \to Y$ are in addition weak equivalences. Hence the [[pushout-product axiom]] is verified.
+
+Finally, to verify the [[unit axiom]]: 
+
+If $\mathbb{1} \,\in\, \mathbf{C}$ denotes the given [[tensor unit]], then the [[tensor unit]] in $\mathcal{G}Act(\mathbf{C})$ is the [[constant functor]] $\mathbf{B}\mathcal{G} \to \ast \overset{\mathbb{1}}{\longrightarrow}$, hence the [[trivial action]] on $\mathbb{1}$. Writing $p_{const \mathbb{1}} \colon Q const(\mathbb{1}) \to const \mathbb{1}$ for a [[cofibrant resolution]], we need to see that given an [[object]] $X \in \mathcal{G}Act(\mathbf{C})$ the composite
+$$
+  (Q const \mathbb{1})
+    \otimes
+  X
+  \overset{
+    p_{const \mathbb{I}} \otimes id_X
+  }{\longrightarrow}
+  (const \mathbb{1}) \otimes X
+  \underoverset{\sim}{l}{\longrightarrow}
+  X
+  \,.
+$$
+For this it is sufficient that $(-) \otimes X$ is a [[left Quillen functor]], hence that its [[right adjoint]] is a [[right Quillen functor]]. But on underlying morphisms the right adjoint is given by the [[internal hom]] $[X,-]$. Since the [[underlying]] object of $X$ is still cofibrant in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat) the tatement follows by the definition of the projective model structure and the fact that $[X,-]$ satisfies the [[pullback-power axiom]] in the [[monoidal model category]] $\mathbf{C}$.
 \end{proof}
 
 
