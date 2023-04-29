@@ -59,7 +59,9 @@ for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base c
 +-- {: .num_example #FullyFaithfulFunctorIsConservative}
 ###### Example
 
-Every [[fully faithful functor]] is a conservative functor.
+Every [[fully faithful functor]], and more generally any [[pseudomonic functor]], is a conservative functor.
+
+Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
 
 An example of a functor that is conservative but not fully faithful is the inclusion of the [[groupoid core]] of a [[category]] into the category.
 
