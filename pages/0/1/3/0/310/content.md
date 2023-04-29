@@ -62,6 +62,7 @@ The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$.
 
 \end{definition}
 
+Often (for instance, when doing forcing categorically) one is interested in *complete* Heyting algebras, which are Heyting algebras than admit *arbitrary* meets and joins (that is, not necessarily finite).
 
 
 \begin{remark}
@@ -464,6 +465,7 @@ By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map
 
 * [[Heyting algebra object]]
 * [[locally Heyting-algebraic 2-poset]]
+* [[implicative structure]]
 
 ## References
 
