@@ -107,7 +107,7 @@ Cegarra and Remedios have proved a version of the Eilenberg -  Zilber theorem fo
 
 ## Applications 
 
-### Eilenberg-Zilber/Alexaner-Whitney deformation retraction
+### Eilenberg-Zilber/Alexander-Whitney deformation retraction
 
 \begin{proposition}\label{EZAWDeformationRetract}
 **([[Eilenberg-Zilber/Alexander-Whitney deformation retraction]])** \linebreak
