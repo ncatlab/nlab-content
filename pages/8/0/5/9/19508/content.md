@@ -194,6 +194,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 * [[PrCat]], [[Pr(∞,1)Cat]]
 
+* [[combinatorial simplicial model category]]
+
 
 [[!include locally presentable categories - table]]
 
