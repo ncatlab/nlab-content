@@ -295,6 +295,8 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 * [[model structure on enriched categories]]
 
+* [[enriched monoidal category]]
+
 * [[enriched model category]]
 
 * [[cartesian closed enriched category]], [[locally cartesian closed enriched category]]
@@ -317,7 +319,7 @@ The earliest accounts of enriched categories were given independently by Bénabo
 
 though Kelly also gave an account for enrichment in arbitrary categories (then deducing necessary structure on a tensor product):
 
-* [[Gregory Maxwell Kelly]]. _Tensor products in categories_. Journal of Algebra 2.1 (1965): 15-37.
+* [[Gregory Maxwell Kelly]]. _Tensor products in categories_. Journal of Algebra **2** 1 (1965) 15-37 &lbrack;<a href="https://doi.org/10.1016/0021-8693(65)90022-0">doi:10.1016/0021-8693(65)90022-0</a>&rbrack;
 
 See also:
 
