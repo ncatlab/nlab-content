@@ -38,20 +38,34 @@ The [[formal duality|dual]] notion is that of *[[powering]]*.
 +-- {: .un_defn}
 ###### Definition
 
-Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k \cdot x \in C$ with a [[natural isomorphism]]
+Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]] serving as the [[cosmos for enrichment]]. 
+
+ In a $V$-[[enriched category]] $\mathbf{C}$, the **copower** of an object $c \in \mathbf{C}$ by an object $v \in V$ is an object $v \cdot c \in \mathbf{C}$ with a [[natural isomorphism]]
 
 $$
-  C(k \cdot x, y) \cong V(k, C(x,y))
+  \mathbf{V}\big(
+    v \cdot c,\, c'
+  \big) 
+  \;\;\cong\;\; 
+  \mathbf{V}\big(
+    v
+    ,\, 
+    \mathbf{C}(c,c')
+  \big)
 $$
 
-where $C(-,-)$ is the $V$-valued [[hom-functor]] of $C$ and $V(-,-)$ is the [[internal hom]] of $V$.
+where 
+
+* $C(-,-)$ denotes the $V$-valued [[hom-object]] of $C$ 
+
+* $\mathbf{V}(-,-)$ denotes correspondingly the [[internal hom]] of $V$ (i.e. the [[hom-object]] with respect to its canonical self-enrichment).
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
-
-
+**(terminology)**
+\linebreak
 Copowers are frequently called _tensors_ and a $V$-category having all copowers is called _tensored_, while the word "copower" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a copower) is a colimit, while a cotensor (= [[power]]) is a limit.
 
 
