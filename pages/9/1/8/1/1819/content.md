@@ -1,12 +1,35 @@
-# Idea #
 
-Combinatorial simplicial model categories, i.e. [[model category|model categories]] that are both
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
 
-* [[combinatorial model category|combinatorial model categories]]
+#Contents#
+* table of contents
+{:toc}
 
-* [[simplicial model category|simplicial model categories]]
+## Idea 
 
-are precisely those [[model category|model categories]] that present [[presentable (infinity,1)-category|presentable (infinity,1)-categories]] (see there for details).
+Combinatorial simplicial model categories, i.e. [[sSet-enriched category|sSet-enriched]] [[model categories]] that are both
+
+* [[combinatorial model categories]]
+
+* [[simplicial model categories]]
+
+are precisely those [[model category|model categories]] that present [[presentable (infinity,1)-category|presentable $\infty$-categories]] (see there for details).
+
+## Related concepts
+
+* [[Ho(CombModCat)]]
 
 
 [[!redirects combinatorial simplicial model categories]]
