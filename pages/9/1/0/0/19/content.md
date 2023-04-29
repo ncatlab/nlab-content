@@ -130,9 +130,9 @@ This abstraction power of category theory has led Norman Steenrod to coin the te
 
 > {#WhatIsTriviallyTrivial} "Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
 
-But abstract nonsense still tends to meet with some resistance. In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
+But abstract nonsense still tends to meet with some resistance. In the preface of [Mitchell (1965)](#Mitchell65) it says:
 
->A number of sophisticated people tend to disparage category theory as consistently as others disparage certain kinds of classical music. When obliged to speak of a category they do so in an apologetic tone, similar to the way some say, "It was a gift &#8211; I've never even played it" when a record of Chopin Nocturnes is discovered in their possession. For this reason I add to the usual prerequisite that the reader have a fair amount of mathematical sophistication, the further prerequisite that he have no other kind.
+> A number of sophisticated people tend to disparage category theory as consistently as others disparage certain kinds of classical music. When obliged to speak of a category they do so in an apologetic tone, similar to the way some say, "It was a gift &#8211; I've never even played it" when a record of Chopin Nocturnes is discovered in their possession. For this reason I add to the usual prerequisite that the reader have a fair amount of mathematical sophistication, the further prerequisite that he have no other kind.
 
 =--
 
@@ -341,6 +341,8 @@ This and much more history is recalled in
 * {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
 
 * {#Freyd65} [[Peter Freyd]], _The theories of functors and models_, in: Proceedings of _Symposium on the Theory of Models_, North Holland, 1965 ([doi:10.1016/C2013-0-11897-1](https://doi.org/10.1016/C2013-0-11897-1))
+
+* {#Mitchell65} [[Barry Mitchell]], *Theory of categories*, Pure and Applied Mathematics **17**, Academic Press (1965) &lbrack;[ISBN:978-0-12-499250-4](https://www.elsevier.com/books/theory-of-categories/mitchell/978-0-12-499250-4)&rbrack;
 
 
 * [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
