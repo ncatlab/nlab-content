@@ -163,7 +163,11 @@ An pair of [[truth values]]-enriched functors is equivalently known as a *[[Galo
 
 ## References
 
-* [[Max Kelly]]. _Adjunction for enriched categories_. Reports of the Midwest Category Seminar III. Springer Berlin Heidelberg, 1969.
+The notion is due to
+
+* [[Max Kelly]], §3 in: *Adjunction for enriched categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059145](https://doi.org/10.1007/BFb0059145)&rbrack;
+
+Review:
 
 * {#Kelly} [[Max Kelly]], section 1.11 of: _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics **64** (1982),  Republished in: Reprints in Theory and Applications of Categories, **10** (2005) 1-136 &lbrack;[tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
