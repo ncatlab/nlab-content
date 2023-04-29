@@ -18,7 +18,7 @@
 
 Given a [[submersion]] $p\colon E\to B$, one may ask: which [[differential forms]] on $E$ are [[pullback of differential forms|pullbacks]] of [[differential forms]] on $B$?
 
-If the [[fibers]] of $p$ are [[connected topological space|connected]] (otherwise the characterization given below is valid only locally in $E$), the answer is provided by the notion of a __basic form__: a diiferential form $\omega$ is basic if the following two conditions are met:
+If the [[fibers]] of $p$ are [[connected topological space|connected]] (otherwise the characterization given below is valid only locally in $E$), the answer is provided by the notion of a __basic form__: a differential form $\omega$ is basic if the following two conditions are met:
 
 * The [[tensor contraction|contraction]] of $\omega$ with any $p$-[[vertical vector field]] is [[zero]].
 
