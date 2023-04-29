@@ -11,9 +11,9 @@
 
 This page collects material related to the textbook
 
-* [[Paul Goerss]], [[J. F. Jardine]], 
+* [[Paul Goerss]], [[J. F. Jardine]]:
 
-  _Simplicial homotopy theory_, 
+  **Simplicial homotopy theory** 
 
   Progress in Mathematics, Birkh&#228;user (1999) 
 
