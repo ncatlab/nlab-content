@@ -122,7 +122,7 @@ is a [[pair]] of $\mathcal{V}$-[[enriched functors]] as shown, such that the fol
  \mathbf{D}
 \end{tikzcd}
 
-* there is a $\mathcal{V}$-[[enriched natural isomorphism]] between [[enriched hom-functors]] of the form
+* {#ViaHomIsomorphism} there is a $\mathcal{V}$-[[enriched natural isomorphism|enriched natural]] [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) between [[enriched hom-functors]], of the form
 
 $$
   \mathbf{C}\big(L(-),-\big)
