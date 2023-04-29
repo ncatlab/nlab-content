@@ -18,10 +18,14 @@ On [[full field algebra]] for [[2d conformal field theory]]:
 
 * {#Kong11} [[Liang Kong]], *Conformal field theory and a new geometry*, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[arXiv:1107.3649](http://arxiv.org/abs/1107.3649), [ISBN:978-0-8218-5195-1](http://bookstore.ams.org/PSPUM-83)&rbrack;
 
+On [[enriched monoidal categories]]:
+
+* [[Liang Kong]], Wei Yuan, Zhi-Hao Zhang, Hao Zheng, *Enriched monoidal categories I: centers* &lbrack;[arXiv:2104.03121](https://arxiv.org/abs/2104.03121)&rbrack;
+
 
 On [[topological order]], [[braided fusion categories]] and the [[holographic principle]]:
 
-* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, talk at [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]$]$
+* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, talk at [[CQTS]] (Oct 2022) &lbrack;[[Kong-TalkAtCQTS-20221019.pdf:file]]&rbrack;
 
 
 ## Related entries
