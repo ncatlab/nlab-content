@@ -442,7 +442,7 @@ To make the second magic wand work, the magic words to say are "there is a monad
 
 Of course, both are also sort of a cheat, since in order to prove that the biased and unbiased definitions are equivalent, you need to have the [[coherence theorem]] for the biased definition.  However, it's only because of the coherence theorem that we can say definitely that the usual set of complicated-looking diagrams is "correct."  The approach using lax $\infty$-functors really only postpones this question, since you also need a coherence theorem to show that the definition of lax $\infty$-functor is "correct."  So perhaps there is no magic wand after all, at least not one that produces the _specific_ diagrams in the usual biased definition of monoidal category.
 
-However, if we temporarily ignore the unitors and focus on the associator, we may ask _where does the pentagon identity come from?_  And one answer to this is provided by the Stasheff polytopes, which can be nicely obtained using Ross Street's theory of orientals.   For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third.  The following section explains this in a bit more detail.
+However, if we temporarily ignore the unitors and focus on the associator, we may ask _where does the pentagon identity come from?_  And one answer to this is provided by the Stasheff polytopes, which can be nicely obtained using [[orientals]].  For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third.  The following section explains this in a bit more detail.
 
 
 ## Relation to lax functors, orientals and descent
@@ -877,7 +877,9 @@ London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; 
 
 A survey of some applications is in
 
-* [[Ross Street]], _Monoidal categories in, and linking, geometry and algebra_ ([arXiv:1201.2991](https://arxiv.org/abs/1201.2991))
+* [[Ross Street]], *Monoidal categories in, and linking, geometry and algebra*, Bull. Belg. Math. Soc. Simon Stevin **19** 5 (2012) 769-820 &lbrack;[arXiv:1201.2991](https://arxiv.org/abs/1201.2991), [doi:10.36045/bbms/1354031551](https://projecteuclid.org/journals/bulletin-of-the-belgian-mathematical-society-simon-stevin/volume-19/issue-5/Monoidal-categories-in-and-linking-geometry-and-algebra/10.36045/bbms/1354031551.full)&rbrack;
+
+(for more see also at *[[tensor category]]* and *[[fusion category]]* etc.).
 
 Quick surveys of relevant definitions include also
 
