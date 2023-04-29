@@ -1,4 +1,11 @@
 
+\begin{example}
+\label{BorelModelStructureOnSimplicialGroupActions}
+
+
+It follows that for $\mathcal{X} \,\in\, sSet\text{-}Grpd$ a [[simplicial groupoid]] with any set $\pi_0(\mathcal{X})$ of [[connected components]], the projective model structure of simplicial functors over it is the [product model structure](model+category#ProductModelStructure) of the [[Borel model structures]] of [[simplicial group actions]], one for each connected component:
+\end{example}
+
 
 $$
   \begin{array}{l}
