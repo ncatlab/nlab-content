@@ -90,8 +90,58 @@ For $G_\bullet$ a [[simplicial group]] write
 * $G_\bullet Acts\big(sSet_{Qu}\big)_{proj} \coloneqq sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
 
 This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model category]] ([DDK 80, Prop. 2.4](#DDK80), [Goerss & Jardine 09, Chapter V, Thm. 2.3](#GoerssJardine09)).
-
 \end{defn}
+
+### In combinatorial simplicial model categories
+
+More generally, if $\mathbf{C}$ is an [[sSet-enriched category]] which is also [[tensoring|tensored]] over [[sSet]], via an [[enriched functor]]
+$$
+  sSet \times \mathbf{C} \longrightarrow \mathbf{C}   
+  \,,
+$$
+then for $\mathcal{G} \in Grp(sSet)$ the [enriched hom-isomorphism](enriched+adjoint+functor#ViaHomIsomorphism) of the [[tensoring]] 
+
+$$
+  Hom\big( 
+    \mathcal{G}
+    ,\,
+    \mathbf{C}(\mathscr{V},\,\mathscr{V})
+  \big) 
+  \;\;\simeq\;\;
+  Hom\big(
+    \mathcal{G} \cdot \mathscr{V}
+    ,\,
+    \mathscr{V}
+  \big)
+$$
+shows that [[sSet]]-[[enriched functors]]
+$$
+  F 
+    \,\colon\,
+  \mathbf{B}\mathcal{G} \longrightarrow \mathbf{C}
+$$
+may equivalently be thought of as [[simplicial group actions]] 
+$$
+  \mathcal{G} \cdot \mathscr{V}
+  \overset{\rho}{\longrightarrow}
+  \mathscr{V}
+$$
+of $\mathcal{G}$ acting on [[objects]] $\mathscr{V} \coloneqq F(\ast)$ via [[tensoring]].
+
+If now $\mathbf{C}$ is in fact a [[combinatorial simplicial model category]], then the respective projective [[model structure on functors]] exists ([that Prop.](model+structure+on+functors#ExistenceOfProjectiveStructureOnEnrichedFunctors)), which we may hence think of as the Borel model structure on $\mathcal{G}$-actions on objects of $\mathbf{C}$:
+$$
+  \mathcal{G}Act(\mathbf{C})_{Borel}
+  \,\coloneqq\,
+  sFunc(\mathbf{B}\mathcal{G},\,\mathbf{C})_{proj}
+  \,.
+$$
+
+
+
+spring
+
+
+
 
 ## Properties
 
@@ -1050,6 +1100,10 @@ $$
 $$
 
 \end{proof}
+
+### In combinatorial simplicial model categories
+
+(...)
 
 
 ## Related concepts
