@@ -1,8 +1,28 @@
-##Idea##
-A **pseudomonoid** (sometimes also called a **monoidale**) in a [[monoidal 2-category]] is a [[categorification]] of the notion of a [[monoid object]] in a [[monoidal category]].
 
-##Definition## 
-A pseudomonoid in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]] is precisely a [[monoidal category]].  The general definition can be extracted from this special case in a straightforward way. The precise definition can be found in Section 3 of the paper of Day and Street referenced below. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+The notion of **pseudomonoid** (sometimes also called a **monoidale**) in a [[monoidal 2-category]] is a [[categorification]] of the notion of a *[[monoid object]]* in a [[monoidal category]].
+
+See [Street & Day (1997)](#StreetDay97)
+
+
+The archetypical example are [[monoidal categories]], which are the pseudomonoids in the [[cartesian monoidal category|cartesian]] [[monoidal 2-category]] [[Cat]]. Similarly, [[monoidal enriched categories]] are pseudomonoids in [[VCat]].
+
 
 Just as a monoid in a monoidal category $C$ can be equivalently defined as a [[monad]] in the corresponding one-object [[2-category]] $\mathbf{B}C$ (the [[delooping]] of $C$), so a pseudomonoid in a monoidal 2-category $C$ can equivalently be defined as a [[pseudomonad]] in the corresponding one-object [[3-category]] $\mathbf{B}C$.
 
@@ -25,9 +45,9 @@ Eventually these should probably have their own pages.
 
 The 2-category of symmetric pseudomonoids in a symmetric monoidal 2-category has (weak) 2-coproducts given by the tensor product of underlying objects (analogously to how the category of [[commutative monoids]] in a monoidal category has coproducts given by the tensor product of the underlying objects).  This is proven in [Schaeppi, Appendix A](#Schaeppi).
 
-##References##
+## References 
 
-* Ross Street and Brian Day, *[Monoidal bicategories and Hopf algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492)*, Advances in Mathematics, Volume 129, Issue 1, 15 July 1997, Pages 99-157. 
+* {#StreetDay97} [[Ross Street]], [[Brian Day]], *Monoidal bicategories and Hopf algebroids*, Advances in Mathematics, **129** 1 (1997) 99-157 &lbrack;[doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649)&rbrack;
 
 * {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arXiv](https://arxiv.org/abs/1211.3678), 2014.
 
@@ -55,3 +75,6 @@ The 2-category of symmetric pseudomonoids in a symmetric monoidal 2-category has
 [[!redirects autonomous pseudomonoids]]
 [[!redirects compact closed pseudomonoid]]
 [[!redirects compact closed pseudomonoids]]
+
+[[!redirects pseudo-monoid]]
+[[!redirects pseudo-monoids]]
