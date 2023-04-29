@@ -47,20 +47,28 @@ If either of these choices defines a model structure on $[D,C]$, we call it the 
 
 The projective model structure can be regarded as a right-[[transferred model structure]].  This yields the following basic result on its existence.
 
-+-- {: .num_theorem #CofGenProj}
-###### Theorem
-Suppose that
+\\begin{theorem}\label{ExistenceOfProjectiveStructureOnEnrichedFunctors}
+**(existence and cofibrant generation of projective structure on enriched fuinctors)**
+\linebreak
+Given
 
-1. $C$ is a [[cofibrantly generated model category]], and
+* $\mathbf{S}$ a [[cosmos for enrichment]],
 
-2. $C$ admits [[copowers]] by the [[hom-objects]] $D(x,y)\in \mathbf{S}$, which preserve [[acyclic cofibrations]].  (For instance, this is the case if $\mathbf{S}=$ [[Set]], or if $\mathbf{S}$ is a [[monoidal model category]], $C$ is an [[enriched model category|$\mathbf{S}$-model category]], and the [[hom-objects]] $D(x,y)$ are cofibrant in $\mathbf{S}$.)
+* $D$, $C$ a pair of $\mathbf{S}$-enriched categories
 
-Then the projective model structure $[D,C]_{proj}$ exists, and is again cofibrantly generated.
-=--
-+-- {: .proof}
-###### Proof
+where $C$ carries the [[structure]] of 
+
+1. a [[cofibrantly generated model category]], 
+
+2. which admits [[copowers]] by the [[hom-objects]] $D(x,y)\in \mathbf{S}$, which preserve [[acyclic cofibrations]].  
+
+   (This is the case for instance if $\mathbf{S}=$ [[Set]], or if $\mathbf{S}$ is a [[monoidal model category]], $C$ is an [[enriched model category|$\mathbf{S}$-model category]], and the [[hom-objects]] $D(x,y)$ are cofibrant in $\mathbf{S}$.)
+
+Then the projective model structure $[D,C]_{proj}$ on the [[enriched functor category]] exists, and is again cofibrantly generated.
+\end{theorem}
+\begin{proof}
 Assuming the existence of such copowers, for any $x\in ob(D)$ the "[[evaluation]] at $x$" functor $ev_x \colon [D,C]\longrightarrow C$ has a [[left adjoint]] $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
-=--
+\end{proof}
 
 There do exist projective model structures that do not fall under this theorem, however, such as the following.
 
@@ -299,9 +307,91 @@ For more on this see [[homotopy Kan extension]]. For the case that $D' = *$ this
 
 ## Examples
 
-Examples of cofibrant objects in the projective model structure are discussed at
+Examples of cofibrant objects in the projective model structure are discussed at *[[projectively cofibrant diagram]]*.
 
-* [[projectively cofibrant diagram]].
+\begin{example}
+**([[model structure on simplicial presheaves]])**
+\linebreak
+  Model structures on [[sSet]]-valued [[functors]], hence on [[simplicial presheaves]], play a central role in the theory of [[combinatorial model categories]] and specifically in [[model topos]]-theory presenting [[(infinity,1)-topos|$\infty$-toposes]]. See at *[[model structure on simplicial presheaves]]* for more.
+\end{example}
+
+Specifically:
+
+\begin{example}
+\label{BorelModelStructureOnSimplicialGroupActions}
+**([[Borel model structure]] on [[simplicial group actions]])**
+\linebreak
+For $\mathcal{G} \,\in\, Grp(sSet)$ a [[simplicial group]] with [[sSet]]-[[enriched groupoid|enriched]] [[delooping groupoid]] denoted $\mathbf{B}\mathcal{G} \in sSet\text{-}Grpd$, an [[sSet]]-[[enriched functor]] $\mathbf{B}\mathcal{G} \longrightarrow sSet$ is equivalently a [[simplicial group action]] of $\mathcal{G}$.
+
+Under this identification, the projective model strcuture on [[simplicial functors]] (Prop. \ref{ExistenceOfProjectiveStructureOnEnrichedFunctors}) is equivalently the *[[Borel model structure]]* on [[simplicial group actions]], a context of Borel-[[equivariant homotopy theory]]:
+
+$$
+  sFunc\big(
+    \mathbf{B}\mathcal{G}
+    ,\,
+    sSet
+  \big)_{proj}
+  \;\;
+  =
+  \;\;
+  \mathcal{G}Act(sSet)_{Borel}
+  \,.
+$$
+
+More generally, for $\mathcal{X} \in sSet\text{-}Grpd$ an [[sSet]]-[[enriched groupoid]] (Dwyer-Kan [[simplicial groupoid]]) with a single [[connected component]] $\pi_0(\mathcal{X}) \simeq \{[x]\}$, so that the inclusion
+$$
+  \iota 
+    \,\colon\, 
+  \mathbf{B}(\mathcal{X}(x,x))
+  \xhookrightarrow{\phantom{---}}
+  \mathcal{X}
+$$
+is an [[sSet]]-[[enriched adjoint equivalence]] (see discussion [there](simplicial+groupoid#RelationToSimplicialGroups)) the projective model structure on [[simplicial functors]] from Prop. \ref{ExistenceOfProjectiveStructureOnEnrichedFunctors} is [[transferred model structure|transferred]] under the induced [[adjoint equivalence]] of [[sSet]]-[[enriched functor categories]]
+$$
+  sFunc\big(
+    \mathcal{X}
+    ,\,
+    sSet
+  \big)_{proj}
+  \underoverset
+    {\underset{\iota^\ast}{\longrightarrow}}
+    {\overset{\iota_!}{\longleftarrow}}
+    {\;\; \bot_{\simeq} \;\;}
+  sFunc\Big(
+    \mathbf{B}\big(\mathcal{X}(x,x)\big)
+    ,\,
+    sSet
+  \Big)_{proj}
+  \;=\;
+  \big(\mathcal{X}(x,x)\big) Act(sSet)_{Borel}
+$$
+By [this example](transferred+model+structure#RightTransferAlongAdjointEquivalence) it follows that morphisms in all three classes $(\mathrm{W}, Fib, Cof)$ in $sFunc(\mathcal{X}, \, sSet)_{proj}$ are those which restrict on $x \in Obj(\mathcal{X})$ to the respective class in $\big(\mathcal{X}(x,x)\big) Act(sSet)_{Borel}$.
+
+It follows that for $\mathcal{X} \,\in\, sSet\text{-}Grpd$ a [[simplicial groupoid]] with any set $\pi_0(\mathcal{X})$ of [[connected components]], the projective model structure of simplicial functors over it is the [product model structure](model+category#ProductModelStructure) of the [[Borel model structures]] of [[simplicial group actions]], one for each connected component:
+$$
+  sFunc\big(
+    \mathcal{X}
+    ,\,
+    sSet
+  \big)_{proj}
+  \underoverset
+    {\underset{\iota^\ast}{\longrightarrow}}
+    {\overset{\iota_!}{\longleftarrow}}
+    {\;\; \bot_{\simeq} \;\;}
+  \underset{i \in \pi_0(\mathcal{X})}{\prod}
+  sFunc\Big(
+    \mathbf{B}\big(\mathcal{X}(x_i,x_i)\big)
+    ,\,
+    sSet
+  \Big)_{proj}
+  \;=\;
+  \underset{i \in \pi_0(\mathcal{X})}{\prod}
+  \big(\mathcal{X}(x_i,x_i)\big) Act(sSet)_{Borel}
+  \,.
+$$
+\end{example}
+
+
 
 ## Related concepts
 
