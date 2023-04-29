@@ -283,15 +283,16 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 Early texts
 
-* [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
+* [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
 
 The terminology _hypercategory_ was introduced in
 
-* [[Samuel Eilenberg]], and [[Max Kelly]]. _Closed categories_. Proceedings of the Conference on Categorical Algebra. Springer, Berlin, Heidelberg, 1966.
+* {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 
 Exposition and review:
 
-* {#KellyStreet74} [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, in G. M. Kelly (ed.) Lecture Notes in Mathematics **420**, Springer 1974 ([doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101))
+* {#KellyStreet74} [[Max Kelly]], [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, in [[G. Max Kelly]] (ed.) Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
 
 * [[Ross Street]], _Encyclopedia article on 2-categories and bicategories_ ([pdf](http://www.maths.mq.edu.au/~street/Encyclopedia.pdf))
 
