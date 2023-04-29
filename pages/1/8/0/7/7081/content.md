@@ -138,3 +138,5 @@ in global context, which has a global element precisely when $isProp(A)\to B$ ha
 [[!redirects isProp]]
 [[!redirects (-1)-truncated type]]
 [[!redirects (-1)-truncated types]]
+
+[[!redirects merely]]
