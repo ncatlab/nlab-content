@@ -32,7 +32,6 @@ If $n\gt 0$, then any [[n-localic (∞,1)-topos]] has enough $(n-1)$-types, sinc
 
 A specific example of a higher topos in which sets do not cover is the [[slice (∞,1)-topos]] $\infty Gpd / \mathbf{B}^2 \mathbb{Z}$ of [[∞Grpd]] over the double [[delooping]] of the group of [[integers]], which is equivalently the topos of [[∞-actions]] of the [[∞-group]] ([[2-group]]) $\mathbf{B} \mathbb{Z}$.  From this second perspective, a 1-truncated object of this topos is a [[groupoid]] (1-groupoid) together with an [[automorphism]] of its [[identity]] [[functor]], i.e. an element of its [[center]], and a morphism of such is a functor that respects these central elements.  Such an object is 0-truncated if it is essentially discrete, in which case its center is also trivial; thus the 0-truncated objects are just ordinary sets.  However, since functors must respect the central elements, there can be no surjective map from a 0-truncated object to a 1-truncated one whose chosen central element is nontrivial.
 
-
 ## In homotopy type theory
 
 In [[homotopy type theory]], the (internal) axiom of **$n$-types cover** or **enough $n$-types** says that for any type $X$ there [[merely]] exists an $n$-type $Y$ and a surjection (i.e. a [[n-epimorphism|(-1)-connected map]]) $Y\to X$.  In symbols:
