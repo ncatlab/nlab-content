@@ -206,6 +206,8 @@ also enriched modal categories over themselves.
 
 ## Related concepts
 
+* [[enriched monoidal model category]]
+
 * [[derived hom-functor]]
 
 * [[enriched homotopical category]].
