@@ -12,6 +12,12 @@ On [[deformation theory]] in terms of [[L-infinity algebra|$L_\infty$-algebras]]
 * [[Martin Markl]], _Deformation theory of algebras and their diagrams_, 129 pp, CBMS __116__, AMS 2012 ([ISBN:978-0-8218-8979-4](http://www.ams.org/bookstore-getitem/item=CBMS-116), [toc pdf](https://www.gbv.de/dms/goettingen/721467989.pdf))
 
 
+On [[monoidal enriched categories]]:
+
+* {#BataninMarkl12} [[Michael Batanin]], [[Martin Markl]], Section 2 of *Centers and homotopy centers in enriched monoidal categories*, Advances in Mathematics **230** 4–6 (2012) 1811-1858 &lbrack;[doi:10.1016/j.aim.2012.04.011](https://doi.org/10.1016/j.aim.2012.04.011), [arXiv:1109.4084](https://arxiv.org/abs/1109.4084)&rbrack;
+
+
+
 * (...)
 
 ## Related $n$Lab entries
