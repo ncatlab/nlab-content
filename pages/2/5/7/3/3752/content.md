@@ -203,7 +203,7 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 
 Semicategories were introduced in
 
-* Barry Mitchell. _The dominion of Isbell_. Transactions of the American Mathematical Society 167 (1972): 319-331.
+* [[Barry Mitchell]], *The dominion of Isbell*, Transactions of the American Mathematical Society **167** (1972) 319-331 &lbrack;[doi:10.2307/1996142](https://doi.org/10.2307/1996142)&rbrack;
 
 Enriched semicategory theory is developed in 
 
