@@ -1,4 +1,108 @@
 
+
+## Idea
+
+The notion of *enriched monoidal category* is a compatible combination of the notions of *[[enriched categories]]* and *[[monoidal categories]]*. The main point is that the [[tensor product]]-[[functor]] on the [[underlying]] [[monoidal category]] is properly an [[enriched functor]] with respect to the [[underlying]] [[enriched category]].
+
+## Definition
+
+### The monoidal 2-category of enriched categories
+
+For $V$ a *[[symmetric monoidal category|symmetric monoidal]]* [[cosmos]],  the [[2-category]] [[VCat]] of $V$-[[enriched categories]] becomes a [[monoidal 2-category]] by declaring the [[tensor product]] $\mathbf{C} \otimes \mathbf{D}$ of a [[pair]] $\mathbf{C}$, $\mathbf{D}$ of $V$-[[enriched categories]] to have
+
+* as [[set]] of [[objects]] the [[cartesian product]] of the given sets of objects:
+  
+  $$
+    Obj(\mathbf{C} \otimes \mathbf{D}) 
+      \;\coloneqq\;
+    Obj(\mathbf{C}) \times Obj(\mathbf{D})
+  $$
+
+* as [[hom-objects]] the [[tensor product]] in $V$ between the given [[hom-objects]]:
+
+  $$
+    (\mathbf{C} \otimes \mathbf{D})\big((c,d), (c',d')\big)
+    \;\coloneqq\;
+    \mathbf{C}(c,c') \otimes \mathbf{D}(d,d')
+    \,.
+  $$
+
+* [[composition]] obtained by the given composition operations, after using the symmetric [[braiding]] in $V$ to align factors:
+
+  $$
+    \array{
+      (\mathbf{C} \otimes \mathbf{D})
+        \big((c',d'), (c'', d'')\big)
+      \otimes
+      (\mathbf{C} \otimes \mathbf{D})
+        \big((c,d), (c',d')\big)
+      &\overset
+         {\circ_{\mathbf{C} \otimes \mathbf{D}}}{
+        \longrightarrow
+        }
+       &
+      (\mathbf{C} \otimes \mathbf{D})
+        \big((c,d), (c'',d'')\big)
+      \\
+      \mathbf{C}(c',c'') 
+        \otimes 
+      \mathbf{D}(d',d'')
+        \otimes
+      \mathbf{C}(c,c') 
+        \otimes 
+      \mathbf{D}(d,d')
+      &\overset{\sim}{\to}&
+      \mathbf{C}(c',c'') 
+        \otimes 
+      \mathbf{C}(c,c') 
+        \otimes
+      \mathbf{D}(d',d'')
+        \otimes 
+      \mathbf{D}(d,d')
+      &\overset{
+        \circ_{\mathbf{C}} \otimes \circ_{\mathbf{D}}
+      }{\longrightarrow}&
+      \mathbf{C}(c,c'') \otimes \mathbf{D}(d,d'')
+    }
+  $$
+
+### Enriched monoidal categories
+
+An $V$-enriched monoidal category $\mathbf{C}$ is a [[pseudomonoid]] [[internalization|internal]] to the above monoidal 2-category $V Cat$.
+
+This means mainly that
+
+* $\mathbf{C}$ is a $V$-[[enriched category]]
+
+* whose [[underlying]] category $C$ is equipped with [[monoidal category]]-[[structure]], hence with a [[tensor product]]-[[functor]]
+
+  $$
+    \otimes \,\colon\, C \times C \longrightarrow C
+  $$
+
+* which is compatibly lifted for each [[pair]] of [[pairs]] of [[objects]] of $C$ to a [[morphisms]] on [[hom-objects]] in $V$:
+
+  $$  
+    \otimes_{\mathbf{C}}\big( (c,d),\, (c',c') \big)
+    \,\colon\,
+    \mathbf{C}(c,c') \otimes \mathbf{C}(d,d')
+    \longrightarrow
+    \mathbf{C}(c \otimes_C d ,\, c' \otimes_C d')
+  $$ 
+
+in a compatible way.
+
+
+## References
+
+* [[Michael Ching]], *Bar constructions for topological operads and the Goodwillie derivatives of the identity*, Geom. Topol. **9** (2005) 833-934 &lbrack;[arXiv:math/0501429](https://arxiv.org/abs/math/0501429), [doi:10.2140/gt.2005.9.833](http://dx.doi.org/10.2140/gt.2005.9.833)&rbrack;
+
+
+
+* [[Rune Haugseng]], [MO:a/315075](https://mathoverflow.net/a/315075/381)
+
+Regarded as [[pseudo-monoids]] in the  
+
 \begin{example}
 \label{BorelModelStructureOnSimplicialGroupActions}
 
