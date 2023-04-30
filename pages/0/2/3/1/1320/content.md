@@ -110,6 +110,21 @@ A [[monadic functor]]
 \end{proposition}
 (e.g. [MacLane 71, Exercise IV.2.2 (p. 138)](#MacLane71))
 
+\begin{proposition}
+Consider a pair of adjunctions:
+\begin{tikzcd}
+	A & B & C
+	\arrow[""{name=0, anchor=center, inner sep=0}, "U", shift left=2, from=1-1, to=1-2]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "{U'}", shift left=2, from=1-2, to=1-3]
+	\arrow[""{name=2, anchor=center, inner sep=0}, "{F'}", shift left=2, from=1-3, to=1-2]
+	\arrow[""{name=3, anchor=center, inner sep=0}, "F", shift left=2, from=1-2, to=1-1]
+	\arrow["\dashv"{anchor=center, rotate=90}, draw=none, from=2, to=1]
+	\arrow["\dashv"{anchor=center, rotate=90}, draw=none, from=3, to=0]
+\end{tikzcd}
+If $U' U$ is monadic, then $U$ is of [[descent type]] and the [[comparison functor]] has a [[adjoint functor|left adjoint]]. If $U'$ is furthermore [[conservative]] (and in particular if it is monadic), then $U$ is monadic.
+\end{proposition}
+
+This is Propositions 4 and 5 of [Bourn](#Bourn).
 
 ### Monadicity theorem
 
@@ -132,6 +147,8 @@ Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem"
 * [[Francis Borceux]], Def. 4.4.1 in: *[[Handbook of Categorical Algebra]]*,   Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
 * [[Emily Riehl]], §5.3 in: _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
+
+* {#Bourn} [[Dominique Bourn]]. _Low dimensional geometry of the notion of choice_. Category Theory 1991, CMS Conf. Proc. Vol. 13. 1992.
   
 
 [[!redirects monadic]]
