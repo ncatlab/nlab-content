@@ -1015,9 +1015,12 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 
 ## Related concepts
 
+* [[fiber]], [[essential fiber]]
+
 * [[tower of homotopy fibers]]
 
 * [triangulated category -- long fiber-cofiber sequences](triangulated+category#LongExactSequences)
+
 
 ## References
 
