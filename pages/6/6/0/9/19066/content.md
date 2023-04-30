@@ -1026,7 +1026,7 @@ $$
   \mathbf{C}_{sSet}
 $$
 
-is defined first on morphisms covering [[identity morphisms]] in $sSet$ by
+is defined first on morphisms covering [[identity morphisms]] over [[reduced simplicial sets]] by
 
 $$
   \boxtimes
@@ -1038,6 +1038,20 @@ $$
     \big(\mathcal{G}(pr_{X})\big)^\ast
     \times
     \big(\mathcal{G}(pr_{Y})\big)^\ast
+  }{\longrightarrow}
+  \mathbf{C}^{\mathcal{G}(X \times Y)}
+  \times
+  \mathbf{C}^{\mathcal{G}(X \times Y)}
+  \overset{
+    \Big(
+      W\big(\mathcal{G}(Y)(\ast,\ast)\big)
+      \cdot (-)
+    \Big)
+    \times
+    \Big(
+      W\big(\mathcal{G}(X)(\ast,\ast)\big)
+      \cdot (-)
+    \Big)
   }{\longrightarrow}
   \mathbf{C}^{\mathcal{G}(X \times Y)}
   \times
@@ -1103,6 +1117,7 @@ $$
 $$
 is a [[left Quillen functor]] on the integral model structure of Prop \ref{ModelStructureOnParameterizedObjects}.
 \end{lemma}
+The following proof notationally suppresses the tensorings $W\big(\mathcal{G}(X)(\ast,\ast)\big)\cdot(-)$. They just run along.
 \begin{proof}
 First to see that it is a [[left adjoint]]: By [this Prop.](external+tensor+product#CocontinuityAndAdjoints) it [[preserves colimits]] and by [this Prop.](locally+presentable+category#LocallyPresentableGrothendieckConstruction) our [[Grothendieck construction]]-category is [[locally presentable]], whence the existence of a [[right adjoint]] follows by the [[adjoint functor theorem]] ([this Prop.](adjoint+functor+theorem#AdjFuncTheoremForLocallyPresentableCats)).
 
@@ -1162,7 +1177,7 @@ This formula for the adjunct is the total left morphism in the following commuti
 
 The upshot is that the adjunct morphism on the left of the big diagram above is isomorphic to the composite on the right. That composite on the right, however, is the adjunct of $\phi$ pulled back to a product space and tensored with the pullback of a object of $\mathbf{C}^{\mathcal{X}'}$.
 
-Thus it remains to see that pullback along product projections preserves cofibrations... but actually this fails, one needs instead to pullback and then cofibrantly replace...
+Thus it remains to see that pullback along product projections preserves cofibrations... but actually this fails, one needs instead to pullback and then cofibrantly replace... am adjusting it...
 \end{proof}
 
 
