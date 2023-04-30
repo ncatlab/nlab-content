@@ -28,7 +28,7 @@ A **separator** of $\mathcal{A}$ is a subset $S \subseteq \mathcal{A}$ such that
 K = \bigwedge_{a,b \in \mathcal{A}} (a \to b \to a),
 \]
 \[
-S = \bigwedge_{a,b,c \in \mathcal{A}} (a \to b \to c) \to b \to a \to c)
+S = \bigwedge_{a,b,c \in \mathcal{A}} ((a \to b \to c) \to (a \to b) \to a \to c)
 \]
 
 \end{definition}
@@ -68,6 +68,6 @@ When $\mathcal{A}$ is an Heyting algebra to begin with, $(\mathcal{A}/S, \leq_S)
 ## References
 * {#Miquel20} Alexandre Miquel, _Implicative algebras: a new foundation for realizability and forcing_, Mathematical Structures in Computer Science 30 (5): 458–510. [(doi)](https://doi.org/10.1017/S0960129520000079).
 
-* {#Miquel20b} Alexandre Miquel. 2020. _Implicative Algebras II: Completeness w.r.t. Set-Based Triposes_. arXiv. https://doi.org/10.48550/arXiv.2011.09085.
+* {#Miquel20b} Alexandre Miquel. 2020. _Implicative Algebras II: Completeness w.r.t. Set-Based Triposes_.
  [(arxiv)](https://arxiv.org/abs/2011.09085)
 
