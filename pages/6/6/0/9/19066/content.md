@@ -113,6 +113,8 @@ We discuss a class of examples of integral model structures on categories of "$s
 
 #### Plain model structure
 
+##### Projective version
+
 
 \begin{definition}\label{SetupAndNotationForParameterizedObjects}
 **(Setup and notation)**
@@ -942,12 +944,16 @@ $$
 Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $f \circ q$ by this formula gives the bottom commuting square and hence extends to a $G$-equivariant map $G \cdot_H X \to Y$ by the [[universal property]] of the [[pushout]].
 \end{proof}
 
+##### Injective version
+
+> ...using instead opposite of injective model structure and $f_\ast$ instead of $f_!$...
+
 \linebreak
 
 #### Monoidal model structure
  {#MonoidalModelStructureOnParameterizedObjects}
 
-> still incomplete...
+> still incomplete... this will actually work with the injective structure...
 
 Now assume in addition that
 
