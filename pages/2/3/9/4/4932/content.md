@@ -5,6 +5,15 @@
 
 ## Selected writings
 
+See also the *Collected Works of John Milnor* &lbrack;[gBooks](http://books.google.com/books?id=WyZeeEn8VFwC)&rbrack;
+
+On [[universal principal bundles]] via the *[[Milnor construction]]*:
+
+* [[John Milnor]], *Construction of Universal Bundles I*, Ann. of Math. __63__ 2 (1956) 272-284 &lbrack;[jstor:1969609](http://www.jstor.org/stable/1969609)&rbrack;
+
+* [[John Milnor]], _Construction of Universal Bundles II_, Ann. of Math. __63__ 3 (1956) 430-436 &lbrack;[jstor:1970012](http://www.jstor.org/stable/1970012)&rbrack;
+
+
 On [[differential topology]]:
 
 * {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([[Milnor_DifferentialTopology.pdf:file]])
