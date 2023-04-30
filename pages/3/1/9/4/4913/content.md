@@ -53,7 +53,12 @@ On [[first-order set theory]] and [[categorical logic]]:
 
 On [[natural models of homotopy type theory]]:
 
-* {#Awodey2016} [[Steve Awodey]], *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, **28** 2 (2016) 241-286 $[$[arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268)$]$
+* {#Awodey2016} [[Steve Awodey]], *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, **28** 2 (2016) 241-286 &lbrack;[arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268)&rbrack;
+
+On [[Kripke-Joyal semantics]] and [[forcing]] in [[homotopy type theory]]:
+
+* {#AGH21} [[Steve Awodey]], [[Nicola Gambino]], [[Sina Hazratpour]], *Kripke-Joyal forcing for type theory and uniform fibrations* (2021) &lbrack;[arXiv:2110.14576](https://arxiv.org/abs/2110.14576)&rbrack;
+
 
 ## Related entries
 
