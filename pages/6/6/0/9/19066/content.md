@@ -1171,7 +1171,7 @@ This formula for the adjunct is the total left morphism in the following commuti
   $$
 
 
-* the bottom right square expresses the equality of two ways of moving the zig-zag morphism through the [[pasting diagram]] further below to the top right, one direct and the other by first moving its to the bottom left, using that the pasting of the left two squares and that of the bottom three squares are isomorphisms.
+* the bottom right square expresses the equality of two ways of moving the zig-zag morphism through the [[pasting diagram]] further below to the top right, one direct and the other by first moving it to the bottom left, using that the pasting of the left two squares and that of the bottom three squares are isomorphisms.
 
 <img src="/nlab/files/LemmaDiagram-230424b.jpg" width="800">
 
