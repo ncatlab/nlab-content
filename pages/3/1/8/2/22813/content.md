@@ -20,6 +20,10 @@ Translations:
 
 * English translation of [[Grothendieck]]'s *[[Fondements de la Géométrie Algébrique]]* ([[FGA]])
 
-  [webpage](https://thosgood.com/translations/#fga).
+  [webpage](https://thosgood.com/fga/).
+
+* Various English mathematical translations
+
+  [webpage](https://thosgood.com/translations/).
 
 category: people
