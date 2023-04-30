@@ -25,7 +25,12 @@ On the [[constructive model structure on simplicial sets]]:
 
 * {#GambinoSattlerSzumilo19} [[Nicola Gambino]], [[Christian Sattler]], [[Karol Szumiło]], _The constructive Kan-Quillen model structure: two new proofs_ ([arXiv:1907.05394](https://arxiv.org/abs/1907.05394))
 
-## Related $n$Lab entries 
+On [[Kripke-Joyal semantics]] and [[forcing]] in [[homotopy type theory]]:
+
+* {#AGH21} [[Steve Awodey]], [[Nicola Gambino]], [[Sina Hazratpour]], *Kripke-Joyal forcing for type theory and uniform fibrations* (2021) &lbrack;[arXiv:2110.14576](https://arxiv.org/abs/2110.14576)&rbrack;
+
+
+## Related entries 
 
 * [[homotopy limit]]
 
