@@ -91,8 +91,14 @@ See also
 
 [[!redirects weak topology]]
 [[!redirects weak topologies]]
+
 [[!redirects coarse topology]]
 [[!redirects coarse topologies]]
+
+[[!redirects coarsest topology]]
+[[!redirects coarsest topologies]]
+
+
 [[!redirects initial topology]]
 [[!redirects initial topologies]]
 
