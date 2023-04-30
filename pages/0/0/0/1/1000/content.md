@@ -15,20 +15,25 @@
 
 ## Definition
 
-A [[monad]] $(T,\mu,i)$ on the category [[Set]] of sets, is __finitary__ (also called __algebraic__, although some people consider any monad to be an algebraic notion) if the underlying [[endofunctor]] $T:\mathrm{Set}\to\mathrm{Set}$ commutes with [[filtered colimits]]. 
+A [[monad]] $(T,\mu,i)$, is __finitary__ if the underlying [[endofunctor]] $T: C \to C$ preserves [[filtered colimits]]. 
 
-In other words, an algebraic monad is a [[monoid]] in the category of algebraic endofunctors on $\mathrm{Set}$.
+In other words, a finitary monad is a [[monoid]] in the category of finitary endofunctors on some category.
 
 
-## Properties
+## Finitary monads and Lawvere theories
 
-A finitary monad $(T,\mu,i)$ is completely determined by its value on all finite [[ordinal]]s $n\in\mathbb{N}_0$ considered as standard [[finite set]]s.  $T(n)$ is then the set of $n$-ary operations.  The notion of algebraic monad is hence similar to the notion of a nonsymmetric [[operad]] in $\mathrm{Set}$, but it is not equivalent, because of the possibility of duplicating or discarding inputs.
+A finitary monad $(T,\mu,i)$ on [[Set]] is completely determined by its value on all finite [[ordinal]]s $n\in\mathbb{N}_0$ considered as standard [[finite set]]s.  $T(n)$ is then the set of $n$-ary operations.  The notion of algebraic monad is hence similar to the notion of a nonsymmetric [[operad]] in $\mathrm{Set}$, but it is not equivalent, because of the possibility of duplicating or discarding inputs.
 
 More precisely, each finitary monad $T$ defines a [[Lawvere theory]] $Th_T$, namely $Th_T = Free_{fin}^{op}$ where $Free_{fin}$ is the category of [[free construction|free]] algebras $T(n)$ on finite sets (as a full subcategory of $Alg_T$). In fact, the two notions are equivalent: the assignment 
 
 $$T \mapsto Th_T$$
 
-defines an equivalence between the category of finitary monads on $Set$ and the category of Lawvere theories. Moreover, the category of $T$-algebras is equivalent to the [[category of models]] of $Th_T$. However, a technical advantage of Lawvere theories is that they can be interpreted in categories other than [[Set]]: a model of a Lawvere theory $\mathcal{T}$ in a category with cartesian products $C$ is just a product-preserving functor $\mathcal{T} \to C$. 
+defines an equivalence between the category of finitary monads on $Set$ and the category of Lawvere theories. Moreover, the category of $T$-algebras is equivalent to the [[category of models]] of $Th_T$. However, a technical advantage of Lawvere theories is that they can be interpreted in categories other than [[Set]]: a model of a Lawvere theory $\mathcal{T}$ in a category with cartesian products $C$ is just a product-preserving functor $\mathcal{T} \to C$.
+
+
+## Properties
+
+- The category of finitary monads on a [[locally finitely presentable category|locally finitely presentable]] $\mathscr{A}$ category is also [[locally finitely presentable category|locally finitely presentable]], and is [[monadic]] over $[|\mathscr{A}|, \mathscr{A}]$ (see [Lack](#Lack)).
 
 
 ## Applications
@@ -44,9 +49,15 @@ There is an interesting commutativity condition singling out the subclass of com
 
 For a proof of the equivalence between finitary monads and Lawvere theories, see 
 
-* J. Adamek and J. Rosicky, _[[Locally presentable and accessible categories]]_ (chapter 3), LMS Lecture Notes 189, Cambridge U. Press, 1994. 
+* J. Adamek and J. Rosicky, _[[Locally presentable and accessible categories]]_ (chapter 3), LMS Lecture Notes 189, Cambridge U. Press, 1994.
 
-Durov's application of finitary monads to the "field with one element" may be found in...
+For properties of the category of finitary monads, see
+
+* [[Stephen Lack]]. _On the monadicity of finitary monads_. Journal of Pure and Applied Algebra 140.1 (1999): 65-73.
+
+Durov's application of finitary monads to the "field with one element" may be found in:
+
+* {#Durov07} [[Nikolai Durov]], _A new approach to Arakelov geometry_, [arxiv/0704.2030](http://arxiv.org/abs/0704.2030)
 
 
 ## Discussion
