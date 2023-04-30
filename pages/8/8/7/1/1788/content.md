@@ -1,4 +1,21 @@
 
+
+$$
+  Hom\big(
+   f_!(W \mathcal{G} \cdot \mathscr{V})
+   ,\,
+   \mathscr{W}
+  \big)
+  \;\simeq\;
+  Hom\big(
+    \overline{W}\mathcal{G} \cdot \mathscr{V}
+    ,\,
+    \mathscr{W}
+  \big)
+  \;\simeq\;
+  
+$$
+
 $$
   \array{
     \mathcal{G} \cdot s(i) 
