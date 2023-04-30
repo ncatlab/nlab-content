@@ -1103,12 +1103,7 @@ $$
 ### In combinatorial simplicial model categories
  {#PropertiesInCombSimpModCats}
 
-#### Monoidal model structure
- {#MonoidalModelStructure}
-
-We discuss (Prop. \ref{ExistenceOfMonoidalModelStructure} below) induced [[monoidal model category]]-[[structure]] on the Borel model structure, in the generality of [[coefficients]] any (cofibrantly generated)  simplicial model structure (as [above](#DefinitionInCombSimpModCat)), which in addition carries compatible [[monoidal model structure]].
-
-First some preliminaries: 
+#### Base change
 
 Given
 
@@ -1192,6 +1187,14 @@ the [[pushout-product axiom]] satisfied by the [[tensoring]] implies that the [[
     \mathcal{G}Act(\mathbf{C})_{Borel}
 \]
 whose [[right adjoint]] may be thought of as the right [[induced action]] or equivalently as right [[Kan extension]] along the [[sSet]]-[[enriched functor]] $\ast \to \mathbf{B}\mathcal{G}$.
+
+
+#### Monoidal model structure
+ {#MonoidalModelStructure}
+
+We discuss (Prop. \ref{ExistenceOfMonoidalModelStructure} below) induced [[monoidal model category]]-[[structure]] on the Borel model structure, in the generality of [[coefficients]] any (cofibrantly generated)  simplicial model structure (as [above](#DefinitionInCombSimpModCat)), which in addition carries compatible [[monoidal model structure]].
+
+
 
 \begin{proposition}
 \label{ExistenceOfMonoidalModelStructure}
