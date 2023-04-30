@@ -14,14 +14,24 @@
 =--
 
 
-
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-A complete Heyting algebra is a [[Heyting algebra]] which is also a [[complete lattice]]; that is, it is a [[poset]] with arbitrary [[limits]] and [[colimits]], which is also [[cartesian closed]].
+A *complete Heyting algebra* is a [[Heyting algebra]] which is also a [[complete lattice]]; that is, it is a [[poset]] with arbitrary [[limits]] and [[colimits]], that is also [[cartesian closed]].
 
-By the [[adjoint functor theorem]], one can demonstrate that every [[frame]] is a complete Heyting algebra, and vice versa, so far as the underlying [[poset]] goes.  However, morphisms of frames needn't preserve exponentials or infinitary meets, as would most naturally be required of morphisms of complete Heyting algebras.  Also, when considering *large* lattices which are only *small*-complete, then frames and complete Heyting algebras are different objects.
+## Properties
+
+### Relation to frames
+
+By the [[adjoint functor theorem]], one can demonstrate that every [[frame]] is a complete Heyting algebra, and vice versa, so far as the underlying [[poset]] goes.  
+
+However, [[morphisms]] of frames needn't preserve [[exponential objects]] or infinitary [[meets]], as would most naturally be required of morphisms of complete Heyting algebras.  Also, when considering *[[large category|large]]* lattices which are only *small*-[[complete category|complete]], then frames and complete Heyting algebras are different objects.
+
+## References
+
+See at *[[Heyting algebra]]*.
+
 
