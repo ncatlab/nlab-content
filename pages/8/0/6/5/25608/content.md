@@ -6,9 +6,9 @@
 
 ## Idea
 
-An implicative algebra is an [[implicative structure]] equipped with a [[filter]]-like subset called a *separator*.
+An *implicative algebra* is an [[implicative structure]] equipped with a [[filter]]-like [[subset]] called a *separator*.
 
-Recall an implicative structure is a generalized [[complete Heyting algebra]] in which the implication $\to$ is only required to be right continuous and not necessarily right adjoint to the meet.
+Recall an implicative structure is a generalized [[complete Heyting algebra]] in which the implication $\to$ is only required to be right continuous and not necessarily [[right adjoint]] to the [[meet]].
 
 The separator is defined in such a way as to induce a quotient which makes the implicative structure into a bona-fide Heyting algebra. It is in this sense that a separator is like a (ultra)filter, whose primary purpose is to be used to define quotients which usually restore some property.
 
