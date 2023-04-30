@@ -33,7 +33,15 @@ A *simplicial monoidal model category* is a [[classical model structure on simpl
 
    [[sSet]]-[[enriched monoidal category]].
 
+## Examples
+
+\begin{example}
+  It ought to be true that the [[Bousfield localization of model categories|Bousfield localization]] at the "realization equivalences" (see [this Prop.](model+structure+on+chain+complexes#MonoidalSimplicialEnhancementOfUnboundedChainModelStructure)) of the [[Reedy model structure]] on [[simplicial objects]] in [[chain complexes]] is simplicial monoidal under the objectwise [[tensor product of chain complexes]].
+\end{example}
+
 ## References
+
+The notion may be implicit in many discussions of [[monoidal model category]] such as used, notably, to build [[symmetric monoidal smash products of spectra]]. One reference making more explicit the need to specify compatibility structure is:
 
 * [[Jacob Lurie]], Def. 4.1.7.8 in *[[Higher Algebra]]* &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf)&rbrack;
 
@@ -41,6 +49,7 @@ with a precursor in
 
 * [[Jacob Lurie]], Def. 1.6.4 in: *Derived Algebraic Geometry II: Noncommutative Algebra* &lbrack;[arXiv:math/0702299](https://arxiv.org/abs/math/0702299)&rbrack;
 
+but the actual compatibility is maybe not made very explicit there either, for this see the references at *[[enriched monoidal category]]*.
 
 
 [[!redirects simplicial monoidal model categories]]
