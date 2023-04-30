@@ -20,12 +20,23 @@
 Given a ([[Hausdorff topological space|Hausdorff]]) [[compact topological group]] $G$, the _Milnor construction_ of the [[universal principal bundle]] for $G$ (also known as _Milnor's join construction_) constructs the [[join of topological spaces|join]] of infinitely many copies of $ G $, i.e., the colimit of [[join of topological spaces|joins]]
 
 $$
-  (E G)_{Milnor} := colim \; G \ast G \ast \ldots \ast G,
+  (E G)_{Milnor} 
+  \;\coloneqq\; 
+  \underset
+    {\underset{n \in \mathbb{N}}{\longrightarrow}}
+    {\lim} 
+  \;
+  \big( 
+   \underset
+     {n \; factors}
+     {\underbrace{G \ast G \ast \ldots \ast G}}
+  \big)
 $$
 
-and canonically equips it with a continuous and free right [[action]] of $ G $ that yields the structure of a [[G-CW-complex]]. Consequently, the natural projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the universal bundle $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact Hausdorff spaces]], or equivalently, of [[numerable bundle]] $G$-[[principal bundles]] over all [[Hausdorff topological spaces]].
+and canonically equips it with a continuous and [[free action|free]] right [[group action]] of $ G $ that yields the structure of a [[G-CW-complex]]. Consequently, the natural [[quotient space]] projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the [[universal principal bundle]] $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact Hausdorff spaces]], or equivalently, of [[numerable bundle]] $G$-[[principal bundles]] over all [[Hausdorff topological spaces]].
 
 There is a generalisation of Milnor's construction that works for [[topological groupoids]], and reduces to the above case when the groupoid is $\mathbf{B}G$, the delooping of the group $G$.
+
 
 ## Related entries
 
@@ -37,9 +48,11 @@ There is a generalisation of Milnor's construction that works for [[topological 
 
 ## References
 
-* [[John Milnor]], _Construction of Universal Bundles_, _I_, Ann. of Math. __63__:2 (1956) 272-284 [jstor](http://www.jstor.org/stable/1969609); _Construction of Universal Bundles_, _II_, Ann. of Math. __63__:3 (1956) 430-436, [jstor](http://www.jstor.org/stable/1970012); reprinted in Collected Works of John Milnor, [gBooks](http://books.google.com/books?id=WyZeeEn8VFwC).
+* [[John Milnor]], *Construction of Universal Bundles I*, Ann. of Math. __63__ 2 (1956) 272-284 &lbrack;[jstor:1969609](http://www.jstor.org/stable/1969609)&rbrack;
 
-* Wikipedia: [Classifying Space](http://en.wikipedia.org/wiki/Classifying_space).
+* [[John Milnor]], _Construction of Universal Bundles II_, Ann. of Math. __63__ 3 (1956) 430-436 &lbrack;[jstor:1970012](http://www.jstor.org/stable/1970012)&rbrack;
+
+  reprinted in: *Collected Works of John Milnor* &lbrack;[gBooks](http://books.google.com/books?id=WyZeeEn8VFwC)&rbrack;
 
 * [[John Milnor]], [[James Stasheff]], _Characteristic Classes_, Princeton University Press.
 
