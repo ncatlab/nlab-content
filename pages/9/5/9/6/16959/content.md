@@ -15,8 +15,9 @@
  
 ## Idea
  
-The join $X \star Y$ of topological spaces $X$ and $Y$ consists of $X$, $Y$, and [[convex set|convex combinations]] of a point of $X$ and a point of $Y$ (with some suitable topology).
+The *join* $X \star Y$ of [[topological spaces]] $X$ and $Y$ consists of $X$, $Y$, and [[convex set|convex combinations]] of a point of $X$ and a point of $Y$ (with some suitable topology).
  
+
 ## Definition
  
 +-- {: .num_defn #PushoutJoin}
@@ -48,12 +49,12 @@ The join is [[monoidal category|associative]]; intuitively, a join of three spac
  
 ## Milnor’s join construction
  
-There is another topology on the join of spaces, due to [[John Milnor|Milnor]], which appears in his [[Milnor construction|construction of universal bundles]]. ([Milnor 1956, section 2](#Milnor1956))
+There is another topology on the join of spaces, due to [[John Milnor]], which appears in the *[[Milnor construction]]* of [[universal principal bundles]] ([Milnor 1956, section 2](#Milnor1956)):
  
 +-- {: .num_defn #MilnorJoin }
 ###### Definition
  
-Milnor’s join $X \overline{\star} Y$ has the same underlying set as $X \star Y$ and the coarsest topology which makes $t \colon X \overline{\star} Y \to [0,1]$ (given on $X \times I \times Y$ by $(x,t,y)\mapsto t$, constantly $0$ on $X$, and constantly $1$ on $Y$) and the projections $\pi_1 \colon t^{-1}([0,1)) \to X$ and $\pi_2 \colon t^{-1}((0,1]) \to Y$ continuous.
+Milnor’s join $X \overline{\star} Y$ has the same underlying set as $X \star Y$ and the [[coarsest topology]] which makes $t \colon X \overline{\star} Y \to [0,1]$ (given on $X \times I \times Y$ by $(x,t,y)\mapsto t$, constantly $0$ on $X$, and constantly $1$ on $Y$) and the projections $\pi_1 \colon t^{-1}([0,1)) \to X$ and $\pi_2 \colon t^{-1}((0,1]) \to Y$ continuous.
  
 If $p\colon X \to S$ and $p\colon Y \to S$ are spaces over $S$, then their _fibrewise join_ or _Whitney sum_ $X \overline{\star}_S Y$ is the space $\{ x \in X \overline{\star} Y : t(x) \in (0,1) \implies p(\pi_1(x))=q(\pi_2(y)) \}$.
  
@@ -145,6 +146,8 @@ If $p \colon X \to Y$ is a fibration, then $p$ factors as a [[Hurewicz cofibrati
  
 * [[suspension]]
  
+* [[Milnor construction]]
+
 * [[Hopf construction]]
 
 * [[join type]]
@@ -159,15 +162,15 @@ If $p \colon X \to Y$ is a fibration, then $p$ factors as a [[Hurewicz cofibrati
 
 * {#Lemmens1970} P.W.H. Lemmens, _A note on the join of fibrations_, Indagationes Mathematicae 73: 53–56 (1970) [doi:10.1016/S1385-7258(70)80008-7](https://doi.org/10.1016/S1385-7258%2870%2980008-7)
  
-* {#Milnor1956} [[John Milnor]], _Construction of Universal Bundles_, _II_, Ann. of Math. __63__:3 (1956) 430-436, [doi:10.2307/1970012](https://doi.org/10.2307/1970012)
+* {#Milnor1956} [[John Milnor]], _Construction of Universal Bundles_, _II_, Ann. of Math. __63__ 3 (1956) 430-436 &lbrack;[doi:10.2307/1970012](https://doi.org/10.2307/1970012)&rbrack;
  
-Discussion of relation to homotopy limits etc.
+Discussion of relation to [[homotopy limits]] etc.
  
-* Jean-Paul Doeraene, _Homotopy pull backs, homotopy push outs and joins_,     Bull. Belg. Math. Soc. Simon Stevin,    Volume 5, Number 1 (1998), 15-37. [pdf on Project Euclid](https://projecteuclid.org/euclid.bbms/1103408963)
+* Jean-Paul Doeraene, _Homotopy pull backs, homotopy push outs and joins_, Bull. Belg. Math. Soc. Simon Stevin,    Volume 5, Number 1 (1998), 15-37. [pdf on Project Euclid](https://projecteuclid.org/euclid.bbms/1103408963)
  
 Comparison with other forms of join:
  
-* {#FG2004}  [[Rudolf Fritsch]] and [[Marek Golasiński]], _Topological, simplicial and categorical joins_, Archiv der Mathematik 82(5):468-480, January 2004. 
+* {#FG2004}  [[Rudolf Fritsch]] [[Marek Golasiński]], _Topological, simplicial and categorical joins_, Archiv der Mathematik **82** 5 (2004) 468-480 
  
 Discussion in [[homotopy type theory]] (applied to [[n-image]] factorization) is in 
  
