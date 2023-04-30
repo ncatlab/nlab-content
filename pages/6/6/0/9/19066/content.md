@@ -68,9 +68,9 @@ in its [[Grothendieck construction]] $\int_{X \in \mathcal{M}} F(X)$
 
   1. $f \colon X \to Y$ is a [[weak equivalence]] in $\mathcal{M}$
 
-  2. $f_!(Q A) \to f_!(A) \xrightarrow{\phi} B$ is a [[weak equivalence]] in $F(Y)$, where $Q$ is a [[cofibrant replacement]].
+  2. $f_!(Q A) \to f_!(A) \xrightarrow{\phi} B$ is a [[weak equivalence]] in $F(Y)$, where $Q(-)$ denotes [[cofibrant replacement]].
 
-     (Since $f_!\dashv f^*$ is a Quillen equivalence by relativeness, this is equivalent to the [[adjunct]] condition that $A \xrightarrow{\widetilde{\phi}} f^*(B) \to f^*(R B)$ is a weak equivalence in $F(X)$.)
+     (Since $f_!\dashv f^*$ is a Quillen equivalence by relativeness, this is equivalent to the [[adjunct]] condition that $A \xrightarrow{\widetilde{\phi}} f^*(B) \to f^*(R B)$ is a weak equivalence in $F(X)$ for [[fibrant replacement]] $R(-)$.)
 
 * an *integral cofibration* iff
 
@@ -272,7 +272,7 @@ $$
 \end{definition}
 
 \begin{remark}
-  The [[model structure on functors|projective model structure on simplicial functors]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is a [[product model category]] of [[Borel model structures]] on the [[simplicial group actions]] of the [[connected components]], by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
+  The [[model structure on functors|projective model structure on simplicial functors]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is a [product model category](model+category#ProductModelStructure) of [[Borel model structures]] on the [[simplicial group actions]] of the [[connected components]], by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
 $$
   \mathbf{C}^{\mathcal{G}_{\mathbf{v}}X}_{proj}
   \;\simeq\;
@@ -437,8 +437,7 @@ But since the pullback operations preserve all weak equivalences (as already rem
 this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does.
 
 
-Now the case of a single-object simplicial groupoids, the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[action objects]] in $\mathbf{C}$.
-On such an object $(X,\rho)$ the functor $f_!$ is given by the following [[pushout]] (this is proven as Lemma \ref{LeftInducedActionViaPushout} below):
+Now in the case of a single-object simplicial groupoids, the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[simplicial group actions]] in $\mathbf{C}$. On such an object $(X,\rho)$ the functor $f_!$ is given by the following [[pushout]] (this is proven as Lemma \ref{LeftInducedActionViaPushout} below):
 
 $$
   \array{
@@ -457,21 +456,19 @@ $$
 
 Here the left morphism is an [[acyclic cofibration]] since
 
-1. $\phi = $
+1. $\phi$ arises from
 
-   1. it starts out as an cofibration in $sSet$, by assumption in the left properness clause we are checking,
+   1. a cofibration in $sSet$, by assumption in the "left properness" clause we are checking,
 
-   1. its image under the [[Dwyer-Kan simplicial path groupoid]] functor $\mathcal{G}$ remains an acyclic cofibration because $\mathcal{G}$ is a [[left Quillen functor]] (by [this Prop.](model+structure+on+simplicial+groupoids#QuillenEquivalenceWithSimplicialSets))
+   1. whose image under the [[Dwyer-Kan simplicial path groupoid]] functor $\mathcal{G}$ remains an acyclic cofibration because $\mathcal{G}$ is a [[left Quillen functor]] (by [this Prop.](model+structure+on+simplicial+groupoids#QuillenEquivalenceWithSimplicialSets))
 
-   1. its further image under $\mathbf{v}$ remains an acyclic cofibration by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]]
+   1. whose further image under $\mathbf{v}$ remains an acyclic cofibration by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]]
 
 1. $X$ is cofibrant by assumption on $\mathbf{C}$,
 
 1. so that the [[pushout-product axiom]] in the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$ implies that also $f \otimes X$ is an acyclic cofibration
 
-1. which finally means that its hom-component $\phi$ is,
-
-
+1. which finally means that its hom-component $\phi$ is.
 
 
 Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.
