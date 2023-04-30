@@ -101,7 +101,11 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ### General
 
-Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
+The concept goes back to 
+
+* E. Bonan, (1966), _Sur les vari&#233;t&#233;s riemanniennes &#224; groupe d'holonomie G2 ou Spin(7)_, C. R. Acad. Sci. Paris 262: 127&#8211;129.  
+        
+ Construction of [[compact topological space|compact]] [[Spin(7)-manifolds]]:
 
 * Christine Taylor, _Compact Manifolds with Holonomy Spin(7)_ (1996) ([pdf](https://people.maths.ox.ac.uk/joyce/theses/TaylorMSc.pdf))
 
