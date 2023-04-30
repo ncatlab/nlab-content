@@ -880,6 +880,7 @@ But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of
   At least over a [[field]] $k$,
   the local model structure on $sCh_\bullet(k)$ from Prop. \ref{LocalizedReedyModelStructureOnSimplicialUnboundedChainComplexes} becomes a [[monoidal model category]] via the $\Delta$-object-wise [[tensor product of chain complexes]], and the [[Quillen equivalence]] (eq:QuillenEquivalenceBetweenProjectiveUnboundedChainAndSimpEnhancement) is a compatibly [[monoidal Quillen adjunction]] with respect to the corresponding monoidal model structure on $Ch_\bullet(k)$ from Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}, Prop. \ref{MonoidalProjectiveModelStructureOnUnboundedChainComplexes}.
 \end{proposition}
+This ought to be compatible with the simplicial structure such as to give a [[simplicial monoidal model category]].
 \begin{proof}
   First, the plain [[Reedy model structure]] in $sCh_\bullet(k)$ becomes a [[monoidal model category]] under the objectwise [[tensor product of chain complexes]], by [Barwaick (2010), Thm. 3.51](monoidal+model+category#Barwick10) (beware that the notation "$\mathbf{M}(A)$" there does refer to the Reedy model structure on *presheaves*, $Func(A^{op}, \mathbf{M})$ (cf. p. 265), which means that the condition that $A^{\leftarrow}$ consists of epimorphisms *is* satisfied for our case where, under this notational convention, $A = \Delta$).
 
