@@ -27,6 +27,11 @@ On [[optics (in computer science)]]:
 
 * [[Bryce Clarke]], Derek Elkins, [[Jeremy Gibbons]], [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, 2020. ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
+{#RiehlLoregian2020} On ([[discrete fibration|discrete]]) [[Grothendieck fibrations]] and [[profunctors]]:
+
+*  [[Emily Riehl]] and [[Fosco Loregian]], _Categorical notions of fibration_, Expositiones Mathematicae **38** 4 (2020) 496-514 &lbrack;[arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004)&rbrack;
+
+
 On [[ends]] and [[coends]]:
 
 * [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
