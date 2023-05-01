@@ -1,20 +1,18 @@
 
 $$
-  \array{  
-    (G \cdot H \cdot X)
-    \coprod
-    (G \cdot H \cdot X)
-    &\longrightarrow&
-    G \cdot X
-    \\
-    \Big\downarrow && \Big\downarrow
-    \\
-    G \cdot H \cdot X
-    &\longrightarrow&
-    G \cdot_H X
-  }
+  f_!\big( 
+    X \otimes f^\ast 1  \to f^\ast f_! X \otimes f^\ast 1
+  \big)
+  =
+  f_!(X) \otimes (1 \to f_! f^\ast 1)
 $$
 
+$$
+  \epsilon_{f_! X} \colon
+  (f_! f^\ast 1 \to id) \otimes (f_! X)
+  =
+  f_! (f^\ast(1 \otimes f^\ast f_! X) \to f_! X
+$$
 
 ## Examples
 
