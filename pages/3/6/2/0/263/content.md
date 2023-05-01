@@ -108,11 +108,21 @@ It also cannot, in general, be the underlying 1-category of a simplicially enric
 [[!include algebraic model structures - table]]
 
 ## References
+ {#References}
 
-A category with weak equivalences is defined in Section 2.2 of:
+The terminology and specific definition of "category with weak equivalences" appears in:
 
-* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], and [[Jeffrey H. Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, Mathematical Surveys and Monographs **113**, American Mathematical Society, 2004. ([doi:10.1090/surv/113](http://dx.doi.org/10.1090/surv/113), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
 
-* {#Bourke17} [[John Bourke]], _Equipping weak equivalences with algebraic structure_, Mathematische Zeitschrift **294**, 2020, pp. 995–1019. ([arXiv:1712.02523](https://arxiv.org/abs/1712.02523), [doi:10.1007/s00209-019-02305-w](https://doi.org/10.1007/s00209-019-02305-w)]
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], and [[Jeffrey H. Smith]], §2.3 of: _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, Mathematical Surveys and Monographs **113**, American Mathematical Society (2004) &lbrack;[doi:10.1090/surv/113](http://dx.doi.org/10.1090/surv/113), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf)&rbrack;
+
+though the basic idea goes back, at least, to:
+
+* {#DwyerKan1980Localizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** (1980) 267-284. &lbrack;[doi:10.1016/0022-4049(80)90049-3](https://doi.org/10.1016/0022-4049%2880%2990049-3)&rbrack;
+
+in the context of [[simplicial localization]] (cf. the [references](relative+category#References) at *[[relative category]]*).  
+
+See also:
+
+* {#Bourke17} [[John Bourke]], _Equipping weak equivalences with algebraic structure_, Mathematische Zeitschrift **294** (2020) 995–1019 &lbrack;[arXiv:1712.02523](https://arxiv.org/abs/1712.02523), [doi:10.1007/s00209-019-02305-w](https://doi.org/10.1007/s00209-019-02305-w)]
 
 [[!redirects categories with weak equivalences]]
