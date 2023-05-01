@@ -1,5 +1,14 @@
 
 $$
+  L^\ast \big( P(-,a) \cdot j \big)
+  \;\simeq\;
+  P\big(L(-),a\big) \cdot j
+  \;\simeq\;
+  P\big(-,R(a)\big) \cdot j
+$$
+
+
+$$
   f_!\big( 
     X \otimes f^\ast 1  \to f^\ast f_! X \otimes f^\ast 1
   \big)
