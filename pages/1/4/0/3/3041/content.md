@@ -11,13 +11,18 @@ Simona Paoli is a Senior Lecturer in Mathematics Institute, University of Aberde
 
 On [[higher category theory]] in terms of [[n-fold categories]] and comparison with the Tamsamani Simpson model:
 
-* [[T. M. Fiore]], and S. Paoli, _A Thomason model structure on the category of small n-fold categories_, Algebraic and Geometric Topology, 10 (2010), 1933 - 2008.
-
 * [[T. M.  Fiore]], S. Paoli, [[D. A.  Pronk]],  _Model structures on the category of small double categories_, Algebraic and Geometric Topology, 8 (2008) 1855-1959.
 
 * S. Paoli,  _Weakly globular $cat^n$-groups and Tamsamani’s model_, Advances in Mathematics, 222, (2009) 621-727.
 
 * [[D. Blanc]], S.Paoli, _Comonad cohomology of track categories_, Journal of Homotopy and Related Structures, published online 14 May 2019,  arXiv.1801.05065
+
+
+Specifically on a [[Thomason model structure]] on [[n-categories]]:
+
+* [[Thomas M. Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*, Algebr. Geom. Topol. **10** 4 (2010) 1933-2008 &lbrack;[arXiv:0808.4108](http://arxiv.org/abs/0808.4108), [doi:10.2140/agt.2010.10.1933](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-10/issue-4/A-Thomason-model-structure-on-the-category-of-small-nfold/10.2140/agt.2010.10.1933.full)&rbrack;
+
+
 
 Introducing [[weakly globular n-fold categories]]:
 
