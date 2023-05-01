@@ -239,7 +239,7 @@ The Quillen-functoriality on the [[domain]] is more asymmetric.
 
 \begin{proposition}
 \label{QuillenFunctorialityInDomain}
-**(Quillen functoriality in the domain category)
+**(Quillen functoriality in the domain category)**
 \linebreak
 For $p \colon C_1 \longrightarrow C_2$ a functor between small categories or an $\mathbf{S}$-[[enriched functor]] between $\mathbf{S}$-[[enriched categories]], let
 
