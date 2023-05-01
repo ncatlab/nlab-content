@@ -197,6 +197,8 @@ In [[homotopy type theory]], every [[type]] with a partial order in a [[univalen
 
 * [[partially ordered object]]
 
+* [[Thomason model structure]]
+
 ## References
 
 * Richard P. Stanley, Enumerative [[combinatorics]], vol I [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf)
@@ -219,6 +221,13 @@ Posets in [[univalent universes]] in [[homotopy type theory]] are discussed in
 * {#Tosun} Ayberk Tosun, Formal Topology in Univalent Foundations [pdf](https://odr.chalmers.se/handle/20.500.12380/301098)
 
 * {#ANST} Benedikt Ahrens, Paige Randall North, Michael Shulman, Dimitris Tsementzis, The Univalence Principle ([abs:2102.06275](https://arxiv.org/abs/2102.06275))
+
+On posets that are [[cofibrant objects]] in the Thomason model structure:
+
+* [[Roman Bruckner]], [[Christoph Pegel]], _Cofibrant objects in the Thomason Model Structure_, &lbrack;[arXiv:0808.4108](http://arxiv.org/abs/1603.05448)&rbrack;
+
+* [[Roman Bruckner]], *Abstract Homotopy Theory and the Thomason Model Structure*, PhD thesis, Bremen 2016 &lbrack;[gbv:46-00105527-15](http://nbn-resolving.de/urn:nbn:de:gbv:46-00105527-15), [pdf](https://media.suub.uni-bremen.de/bitstream/elib/1120/1/00105527-1.pdf)&rbrack;
+
 
 [[!redirects poset]]
 [[!redirects posets]]
