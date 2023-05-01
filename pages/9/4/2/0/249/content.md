@@ -19,7 +19,7 @@ A [[functor]] $F: C \to D$ is __pseudomonic__ if
 
 1. it is [[faithful functor|faithful]]; that is, for any [[pair]] of [[objects]] $x,y\in C$ the component [[function]] $F \colon C(x,y) \to D(F x,F y)$ between [[hom-sets]] is injective, and
 
-2. it is _full on isomorphisms_, meaning that for any [[pair]] of [[objects]] $x,y\in C$ the [[function]] $F \olon Iso_C(x,y) \to Iso_D(F x, F y)$ to the [[set]] of [[isomorphisms]] between them is [[surjective]] (hence [[bijective]]), where $Iso_C(x,y)$.
+2. it is _full on isomorphisms_, meaning that for any [[pair]] of [[objects]] $x,y\in C$ the [[function]] $F \colon Iso_C(x,y) \to Iso_D(F x, F y)$ to the [[set]] of [[isomorphisms]] between them is [[surjective]] (hence [[bijective]]), where $Iso_C(x,y)$.
 
 More generally, a [[1-morphism]] $f \colon C\to D$ in any [[2-category]] $K$ is called a **[[pseudomonic morphism]]** if the square analogous to that below is a [[2-pullback]], or equivalently if $K(X,C)\to K(X,D)$ is a pseudomonic functor for any $X$.  
 
