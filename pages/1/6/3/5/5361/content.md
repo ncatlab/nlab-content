@@ -9,18 +9,24 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-Every [[category]] $C$ with [[limit]]s and [[colimit]]s becomes a [[model category]] by setting
+Every [[bicomplete category|bicomplete]] [[category]] (i.e. having all small [[limits]] and [[colimits]]) becomes a [[model category]] by setting:
 
-* the weak equivalences are the [[isomorphisms]];
+* the [[weak equivalences]] are the [[isomorphisms]];
 
-* every morphism is a fibration;
+* every morphism is a [[fibration]];
 
-* every morphism is a cofibration.
+* every morphism is a [[cofibration]].
 
-This model structure regards $C$ as an [[(∞,1)-category]] with only trivial [[k-morphism]]s for $k \geq 2$.
+This model structure regards $C$ as an [[(∞,1)-category]] with only trivial [[k-morphisms]] for $k \geq 2$.
 
 ## Related concepts
 
 * [[2-trivial model structure]]
+
+[[!redirects trivial model structures]]
