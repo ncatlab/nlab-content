@@ -53,27 +53,33 @@ A [[functor]] that preserves all finitely filtered colimits is called a _[[finit
 ## Properties 
  {#Properties}
 
-### Commutation with $\kappa$-small limits
+### $\kappa$-Filtered colimits commute with $\kappa$-small limits
 
-The following is the crucial property of filtered colimits: that they commute with [[finite limits]].
+The following is the crucial property of filtered colimits: that they [[commutativity of limits with colimits|commute]] with [[finite limits]].
 
-+-- {: .num_remark}
-###### Remark
-
+\begin{remark}
 For $C$ and $D$ two [[diagram]] categories and
 
 $$
-  F : C \times D \to Set
+  F \,\colon\, C \times D \longrightarrow Set
 $$
 
-a diagram, there is a canonical morphism
+a [[diagram]], there is a canonical morphism
 
 $$
   \lambda
-   :
-  {\lim_\to}_C {\lim_\leftarrow}_D F
-   \to 
-  {\lim_\leftarrow}_D {\lim_\to}_C  F
+  \,\colon\,
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \;
+  \underset{\underset{D}{\longrightarrow}}{\lim} 
+  \,
+  F
+  \longrightarrow 
+  \underset{\underset{D}{\longleftarrow}}{\lim} 
+  \;
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \,
+  F
 $$
 
 from the [[colimit]] over $C$ of the [[limit]] over $D$ to the limit over $D$ of the colimit over $C$ of $F$:
@@ -81,75 +87,81 @@ from the [[colimit]] over $C$ of the [[limit]] over $D$ to the limit over $D$ of
 $\lambda$ is given by a [[cone]], whose components
 
 $$
-  \lambda_d : 
-    {\lim_\to}_C {\lim_\leftarrow}_D F
-     \to
-    {\lim_\to}_C  F(-,d)
+  \lambda_d 
+  \,\colon\, 
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \;
+  \underset{\underset{D}{\longleftarrow}}{\lim} 
+  \,
+  F
+    \longrightarrow
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \,
+  F(-,d)
 $$
 
 are in turn given by a [[cocone]] with components
 
 $$
-  (\lambda_d)_c : 
-    {\lim_\leftarrow}_D F(c,-)
-     \to
-    {\lim_\to}_C  F(-,d)
-   \,.
+  (\lambda_d)_c 
+  \,\colon\, 
+  \underset{\underset{D}{\longleftarrow}}{\lim} 
+  \,
+  F(c,-)
+    \longrightarrow
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \,
+  F(-,d)
+  \,.
 $$
 
 This finally take to have as components
 
 $$
-    {\lim_\leftarrow}_D F(c,d)
-     \to   
-       F(c,d)
-     \to
-    {\lim_\to}_C  F(c,d)
+  \underset{\underset{D}{\longleftarrow}}{\lim} 
+  \,
+  F(c,d)
+    \longrightarrow
+  F(c,d)
+    \longrightarrow
+  \underset{\underset{C}{\longrightarrow}}{\lim} 
+  \,
+  F(c,d)
   \,.
 $$
 
 One checks that this indeed implies that all the components are natural and gives the existence of  the original morphism.
 
 Notice that in general $\lambda$ is _not_ an [[isomorphism]].
+\end{remark}
 
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-We say the [[limit]] ${\lim_\leftarrow}_D F(-,-)$ **commutes** with the colimit ${\lim_\to}_C F(-,-)$ if the morphism $\lambda$ above is an [[isomorphism]]
+\begin{definition}
+We say the [[limit]] ${\lim_\leftarrow}_D F(-,-)$ **[[commutativity of limits with colimits|commutes]]** with the colimit ${\lim_\to}_C F(-,-)$ if the morphism $\lambda$ above is an [[isomorphism]]
 
 $$
   {\lim_\to}_C {\lim_\leftarrow}_D F
-   \stackrel{\simeq}{\to}
+   \stackrel{\simeq}{\longrightarrow}
   {\lim_\leftarrow}_D {\lim_\to}_C  F
   \,.
 $$
+\end{definition}
 
 
-=--
-
-
-
-+-- {: .num_prop #FilteredColimitsCommuterWithFiniteLimits}
-###### Propositon
-
-In [[Set]], filtered colimits commute with [[finite limits]].
+\begin{proposition}
+\label{FilteredColimitsCommuterWithFiniteLimits}
+In [[Set]], filtered colimits [[commutativity of limits with colimits|commute]] with [[finite limits]].
 
 In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] categories such that colimits over them commute with all finite limits in Sets.
 
 More generally, for $\kappa$ a [[regular cardinal]], then $\kappa$-filtered colimits commute with $\kappa$-small limits.
+\end{proposition}
 
-=--
+Proof of the first part is in [MacLane (1971), §IX.2 Thm. 1 (p. 211)](#MacLane71), [Borceux (1994), theorem I2.13.4](#Borceux). For more discussion see also [BJTS 14](#BJTS14),
+and see also *[[limits and colimits by example]]*. 
 
-A detailed components proof of the first part is in [Borceux, theorem I2.13.4](#Borceux) or ([BJTS 14](#BJTS14)).
-
-For more on this see also [[limits and colimits by example]]. 
-
-+-- {: .num_warning} 
-###### Warning 
-It is not true that filtered colimits and finite limits commute in *any* category $C$ which has them. A simple example is where $C$ is the [[poset]] of [[closed subspaces]] of the [[one-point compactification]] $\mathbb{N} \cup \{\infty\}$ of the [[discrete space]] of [[natural numbers]]. If $A = \{\infty\}$ and $B_i$ ranges over finite subsets of $\mathbb{N}$, then $A \times colim_i B_i = \{\infty\} \cap (\mathbb{N} \cup \{\infty\}) = \{\infty\}$, but $colim_i A \times B_i = colim_i \{\infty\} \cap B_i = colim_i \emptyset = \emptyset$. 
-=--  
+\begin{remark} 
+It is not true that filtered colimits and finite limits commute in *any* category $C$ which has them. A simple example is where $C$ is the [[poset]] of [[closed subspaces]] of the [[one-point compactification]] $\mathbb{N} \cup \{\infty\}$ of the [[discrete space]] of [[natural numbers]]. If $A = \{\infty\}$ and $B_i$ ranges over finite subsets of $\mathbb{N}$, then $A \times colim_i B_i = \{\infty\} \cap (\mathbb{N} \cup \{\infty\}) = \{\infty\}$, but $colim_i A \times B_i = colim_i \{\infty\} \cap B_i = colim_i \varnothing = \varnothing$. 
+\end{remark}
 
 
 According to 1.5 and 1.21 in [[LPAC]], a category has $\kappa$-[[directed colimits]] precisely if it has $\kappa$-filtered ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones. A proof of this result, following Adamek & Rosicky, may be found [[directed colimits imply filtered colimits|here]]. 
@@ -197,13 +209,14 @@ Filtered colimits are also important in the theory of [[locally presentable cate
 
 ## References
 
-Section 2.13 in part I of 
+* {#MacLane71} [[Saunders MacLane]], §IX.2 in: *[[Categories for the Working Mathematician]]*, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_
+* {#Borceux} [[Francis Borceux]], Section 2.13 in: _[[Handbook of Categorical Algebra]] vol 1_
+
 
 Also
 
-* {#BJTS14} Marie Bjerrum, [[Peter Johnstone]], [[Tom Leinster]], William F. Sawin, _Notes on commutation of limits and colimits_ ([arXiv:1409.7860](http://arxiv.org/abs/1409.7860))
+* {#BJTS14} [[Marie Bjerrum]], [[Peter Johnstone]], [[Tom Leinster]], [[William F. Sawin]], *Notes on commutation of limits and colimits*, Theory and Applications of Categories **30** (2015), 527-532 &lbrack;[arXiv:1409.7860](http://arxiv.org/abs/1409.7860), [tac:3015](http://www.tac.mta.ca/tac/volumes/30/15/30-15abs.html)&rbrack;
 
 
 [[!redirects filtered limit]]
