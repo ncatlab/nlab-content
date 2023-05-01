@@ -142,6 +142,8 @@ This is discussed in further detail at [[model structure on categories with weak
 
 ## Related concepts
 
+* [[category with weak equivalences]]
+
 * [[simplicial localization]]
 
 * [[F-category]]
@@ -151,10 +153,17 @@ This is discussed in further detail at [[model structure on categories with weak
 * [[marked simplicial set]]
 
 ## References
+ {#References}
+
+The terminology "relative categories" is due to
+ 
+* {#BarwickKan12} [[Clark Barwick]], [[Daniel Kan]], _Relative categories: Another model for the homotopy theory of homotopy theories_. Indagationes Mathematicae **23** (2012) 42-68 &lbrack;[arXiv:1011.1691](https://arxiv.org/abs/1011.1691), [doi:10.1016/j.indag.2011.10.002](https://doi.org/10.1016/j.indag.2011.10.002)&rbrack;
+
+while the basic idea goes back, at least, to:
 
 * {#DwyerKan1980Localizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** (1980) 267-284. &lbrack;[doi:10.1016/0022-4049(80)90049-3](https://doi.org/10.1016/0022-4049%2880%2990049-3)&rbrack;
-  
-* {#BarwickKan12} [[Clark Barwick]], [[Daniel Kan]], _Relative categories: Another model for the homotopy theory of homotopy theories_. Indagationes Mathematicae **23** (2012) 42-68 &lbrack;[arXiv:1011.1691](https://arxiv.org/abs/1011.1691), [doi:10.1016/j.indag.2011.10.002](https://doi.org/10.1016/j.indag.2011.10.002)&rbrack;
+
+in the context of [[simplicial localization]] (cf. the [references](category+with+weak+equivalences#References) at "[[category with weak equivalences]]").
 
 
 [[!redirects relative categories]]
