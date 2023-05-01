@@ -32,7 +32,7 @@ A [[functor]] $F : C \to D$ is **essentially surjective** if for all $y:D$ there
 
 * A functor between [[discrete categories]] (or, more generally, [[skeletal categories]]) is essentially surjective iff it is a [[surjective function]] between the classes of objects.
 
-* Any [[bijective-on-objects functor]] is essentially surjective.
+* Any [[bijective-on-objects functor]] or [[surjective-on-objects functor]] is essentially surjective.
 
 * A [[composition]] of any two essentially surjective functors is essentially surjective.
 
