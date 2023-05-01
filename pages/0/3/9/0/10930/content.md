@@ -12,11 +12,13 @@
 
 This page collects some links related to 
 
-* [[Michael Hopkins]], [[Jacob Lurie]]
+* [[Michael Hopkins]], [[Jacob Lurie]]:
 
-  _Ambidexterity in K(n)-Local Stable Homotopy Theory_
+  **Ambidexterity in $K(n)$-Local Stable Homotopy Theory**
 
-  ([pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf))
+  (2013)
+
+  [pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf)
 
   also: talk at _Notre Dame Graduate Summer School on Topology and Field Theories_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott)
 
