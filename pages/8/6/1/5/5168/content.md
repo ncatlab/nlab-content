@@ -92,12 +92,7 @@ See also:
 
 
 
-
-
-
-
-
-## Related $n$Lab entries
+## Related entries
 
 * [[Eckmann-Hilton argument]]
 
@@ -121,3 +116,5 @@ category: people
 [[!redirects Hilton]]
 [[!redirects Peter J. Hilton]]
 [[!redirects P. J. Hilton]]
+[[!redirects Peter John Hilton]]
+
