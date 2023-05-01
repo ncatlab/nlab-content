@@ -109,6 +109,10 @@ It also cannot, in general, be the underlying 1-category of a simplicially enric
 
 ## References
 
-* {#Bourke17} [[John Bourke]], *Equipping weak equivalences with algebraic structure*, [arXiv:1712.02523](https://arxiv.org/abs/1712.02523)
+A category with weak equivalences is defined in Section 2.2 of:
+
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], and [[Jeffrey H. Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, Mathematical Surveys and Monographs **113**, American Mathematical Society, 2004. ([doi:10.1090/surv/113](http://dx.doi.org/10.1090/surv/113), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+
+* {#Bourke17} [[John Bourke]], _Equipping weak equivalences with algebraic structure_, Mathematische Zeitschrift **294**, 2020, pp. 995–1019. ([arXiv:1712.02523](https://arxiv.org/abs/1712.02523), [doi:10.1007/s00209-019-02305-w](https://doi.org/10.1007/s00209-019-02305-w)]
 
 [[!redirects categories with weak equivalences]]
