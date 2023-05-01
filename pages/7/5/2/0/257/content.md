@@ -371,7 +371,9 @@ See at
 
 ## Examples
 
-Every category with limits and colimits carries the [[trivial model structure]] whose weak equivalences are the [[isomorphism]]s and all morphisms are cofibrations and fibrations.
+### Trivial model structures
+
+Every category with all limits and colimits carries its *[[trivial model structure]]* whose weak equivalences are the [[isomorphisms]] and all morphisms are cofibrations and fibrations.
 
 ### Classical model structures
 
