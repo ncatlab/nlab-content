@@ -22,7 +22,7 @@ The notion of a _constant morphism_ in a [[category]] generalises the notion of 
 
 +-- {: .num_defn #ConstMorph}
 ###### Definition
-A __constant morphism__ in a [[category]] $\mathcal{C}$ is a [[morphism]] $c\colon B \to C$ with the property that if $f,g\colon A \to B$ are morphisms in $\mathcal{C}$ then $c \circ f = c \circ g$.  In other words, for every object $A$, *at most* one morphism from $A$ to $C$ factors through $f$.
+A __constant morphism__ in a [[category]] $\mathcal{C}$ is a [[morphism]] $c\colon B \to C$ with the property that if $f,g\colon A \to B$ are morphisms in $\mathcal{C}$ then $c \circ f = c \circ g$.  In other words, for every object $A$, *at most* one morphism from $A$ to $C$ factors through $c$.
 =--
 
 Thus, $c$ is a constant morphism if the function $c_* \colon \mathcal{C}(A,B) \to \mathcal{C}(A,C)$ given by composition with $c$ is a [[constant function]] for every object $A$.
