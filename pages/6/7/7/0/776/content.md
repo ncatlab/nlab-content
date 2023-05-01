@@ -108,53 +108,72 @@ In any category:
 
 
 ### Relation to pushouts
+ {#RelationToPushout}
 
 Coequalizers are closely related to [[pushouts]]:
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{proposition}
+\label{CoequalizedAsAPushout}
 A diagram 
-$$X
-   \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
+$$
+  X
+  \underoverset
+    {f}
+    {g}
+    {\rightrightarrows}
   Y
    \overset{p}{\longrightarrow}
-  Z$$
+  Z
+$$
 is a coequalizer diagram, def. \ref{CoequalizerDiagram}, precisely if
 $$\array{
-     X \sqcup X &\overset{(f,g)}{\longrightarrow}& Y
+     X \sqcup X 
+     &\overset{(f,g)}{\longrightarrow}& Y
      \\
-     \downarrow && \downarrow^{\mathrlap{p}}
+     \big\downarrow && \big\downarrow{^\mathrlap{p}}
      \\
      X &\underset{}{\longrightarrow}& Z
-  }$$
+  }
+$$
 is a [[pushout]] diagram.
-
-=--
+\end{proposition}
 
 Conversely:
 
-+-- {: .num_prop}
-###### Proposition
-
-A diagram
-$$\array{
+\begin{proposition}
+\label{PushoutAsACoequalizer}
+$$
+\array{
     A &\overset{f_1}{\longrightarrow}& B
     \\
-    {}^{\mathllap{f_2}}\downarrow && \downarrow^{\mathrlap{p_1}}
+    {\mathllap{{}^{f_2}}}\Big\downarrow 
+    && 
+    \Big\downarrow{{}^\mathrlap{p_1}}
     \\
     C &\underset{p_2}{\longrightarrow}& D
   }$$
 is a [[pushout]] square, precisely if
-$$A
-   \stackrel{\overset{\iota_1 \circ f_1}{\longrightarrow}}{\underset{\iota_2 \circ f_2}{\longrightarrow}}
+$$
+  A
+   \underoverset
+     {
+       q_2 
+         \circ 
+       f_2
+     }
+     {
+       q_1 
+         \circ 
+       f_1
+    }
+     {\rightrightarrows}
   B \sqcup C
   \overset{(p_1,p_2)}{\longrightarrow}
-  D$$
+  D
+$$
 is a coequalizer diagram.
-
-=--
-
+\end{proposition}
+(Here $B \overset{q_1}{\to} B \sqcup C \overset{q_2}{\leftarrow} C$ denotes the two [[coprojections]] into the [[coproduct]].)
 
 ## Examples
 
