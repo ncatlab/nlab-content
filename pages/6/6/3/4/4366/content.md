@@ -1,7 +1,14 @@
-[Click here for homepage with most of these articles](http://www-personal.umd.umich.edu/~tmfiore/)
 
-## Papers
+* [homepage](http://www-personal.umd.umich.edu/~tmfiore/)
 
+
+## Selected writings
+
+On a [[Thomason model structure]] on [[n-categories]]:
+
+* [[Thomas M. Fiore]], [[Simona Paoli]], *A Thomason model structure on the category of small $n$-fold categories*, Algebr. Geom. Topol. **10** 4 (2010) 1933-2008 &lbrack;[arXiv:0808.4108](http://arxiv.org/abs/0808.4108), [doi:10.2140/agt.2010.10.1933](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-10/issue-4/A-Thomason-model-structure-on-the-category-of-small-nfold/10.2140/agt.2010.10.1933.full)&rbrack;
+
+See also:
 
 * Thomas M. Fiore, Wolfgang L&#252;ck, and Roman Sauer. Euler Characteristics of Categories and Homotopy Colimits. 43 pages. [arXiv:1007.3868](http://arxiv.org/abs/1007.3868)
 
@@ -10,8 +17,6 @@ To appear in the _Journal of Pure and Applied Algebra_. 31 pages.
 [arXiv:1006.0797](http://arxiv.org/abs/1006.0797) 
 
 * Thomas M. Fiore, Wolfgang L&#252;ck, and Roman Sauer. Finiteness obstructions and Euler characteristics of categories. 87 pages. [arxiv:0908.3417](http://arxiv.org/abs/0908.3417) 
-
-* Thomas M. Fiore and Simona Paoli. A Thomason Model Structure on the Category of Small n-fold Categories. 77 pages. [arXiv:0808.4108](http://arxiv.org/abs/0808.4108)
 
 * Thomas M. Fiore and Igor Kriz. What is the Jacobian of a Riemann Surface with Boundary?. _Proceedings of the 2007 Max-Planck Workshop on Hochschild and Cyclic (co-)homology and Applications to Geometry and Physics_, Aspects of Mathematics, Viehweg, Braunschweig. 27 pages. [arXiv:math/0610463](http://arxiv.org/abs/math.CT/0610463)
 
