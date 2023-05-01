@@ -81,6 +81,15 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 * [[hom-functor preserves limits]]
 
+* [[commutativity of limits and colimits]]
+
+
+## References
+
+e.g.
+
+* [[Saunders MacLane]], §IX.2 in: *[[Categories for the Working Mathematician]]*, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 [[!redirects limits preserve limits]]
 
