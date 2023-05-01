@@ -17,9 +17,9 @@ On [[algebraic K-theory]]:
 
 * R. W. Thomason, Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
 
-Introducing the [[Thomason model structure]]:
+Introducing the [[Thomason model structure]] on [[Cat]]:
 
-* R. W. Thomason, _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) ([numdam:CTGDC_1980__21_3_305_0](http://www.numdam.org/item/?id=CTGDC_1980__21_3_305_0))
+*  {#Thomason1980} [[Robert W. Thomason]], *Cat as a closed model category*, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21** 3 (1980) 305-324  &lbrack;[numdam:CTGDC_1980__21_3_305_0](http://www.numdam.org/item/?id=CTGDC_1980__21_3_305_0), MR0591388 (82b:18005)&rbrack;
 
 
 ## Related $n$Lab entries
