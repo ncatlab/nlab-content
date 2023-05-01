@@ -212,7 +212,7 @@ Also useful to notice is:
 
 \begin{proposition}
 \label{sGrpdCofibrationIsObjectwiseSSetCofibration}
-  A (acyclic) cofibration of simplicial groupoids is objectwise an (acyclic) injection, hence a [[classical model structure on simplicial sets|Kan-Quillen]] (acyclic) cofibation, of simplicial [[hom-sets]].
+  A (acyclic) cofibration of simplicial groupoids is [[hom-object]]-wise an (acyclic) injection, hence a [[classical model structure on simplicial sets|Kan-Quillen]] (acyclic) cofibration, of simplicial [[hom-sets]].
 \end{proposition}
 \begin{proof}
   By Def. \ref{FreeMorphismsOfSimplicialGroupoids} and Prop. \ref{TheModelStructure} these cofibrations of simplicial groupoids are, in particular, retracts of monomorphisms of simplcial set. Since [[sSet]] is a [[topos]], its [[epi-mono factorization system]] implies that monomorphisms are preserved under retracts. And of course also the Kan-Quillen weak equivalences are preserved under retract.
