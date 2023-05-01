@@ -618,7 +618,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 ### Apr 2023
 
-* 27 Apr - 1 Mar 2023 (upcoming)
+* 27 Apr - 1 Mar 2023
 
   **[NYUAD Hackaton on Quantum Computing](https://nyuad.nyu.edu/en/events/2023/april/nyuad-hackathon-event.html)** 2023
 
@@ -648,6 +648,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   **Quantum Information and Quantum Matter**
 
   > on [[quantum information]], [[quantum material|quantum matter]]
+
+  [webpage](https://nyuad.nyu.edu/en/events/2023/may/quantum-information-quantum-matter.html)
 
 \begin{imagefromfile}
     "file_name": "CQTS-QuantumConference-2023.png",
