@@ -11,6 +11,8 @@
 
   * [[injective-on-objects functor]]
 
+  * [[essentially injective functor]]
+
   * [[essentially surjective functor]]
 
     * [[surjective-on-objects functor]]
@@ -22,6 +24,10 @@
   * [[essentially surjective and full functor]]
 
   * [[equivalence of categories]]
+
+  * [[conservative functor]]
+
+  * [[pseudomonic functor]]
 
 * **[[2-functors]]**
 
