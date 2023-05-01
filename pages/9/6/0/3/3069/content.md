@@ -454,6 +454,9 @@ Discussion in the generality of [[enriched category theory]]:
 
 Discussion in the generality of [[(infinity,1)-categories|$\infty$-categories]]:
 
+* [[Michael Hopkins]], [[Jacob Lurie]], Prop. 4.3.3 in: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf)&rbrack;
+
+
 * [[Urs Schreiber]], around Def. 5.5 of: *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](https://arxiv.org/abs/1402.7041)&rbrack;
 
 * {#GaitsgoryLurie} [[Dennis Gaitsgory]], [[Jacob Lurie]], Section 2.4.1 of: _Weil's conjecture for function fields_ (2014-2017) &lbrack;["first volume of expanded account" pdf](https://www.math.ias.edu/~lurie/papers/tamagawa-abridged.pdf)&rbrack;
