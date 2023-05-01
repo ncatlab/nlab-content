@@ -106,9 +106,20 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 ### Parameterized objects
  {#ParameterizedObjects}
 
-We discuss a class of examples of integral model structures on categories of "$sSet$-parameterized objects".
+We discuss a class of examples of integral model structures on categories of "$sSet$-parameterized objects in a category $\mathbf{C}$", namely of the [[Grothendieck constructions]] on [[indexed category|indexed]] [[enriched functor categories]] from the $\mathbf{V}$-[[enriched category]]-incarnation of a given simplicial set into a given $\mathbf{V}$-[[enriched category]] $\mathbf{C}$.
 
 > under construction --- handle with care
+
+Since we of course assume $\mathbf{C}$ to be a [[model category]] and hence in particular [[complete category|complete]] and [[cocomplete category|cocomplete]], these [[indexed categories]] have [[base change]] (along maps $f$ of base objects) by [[adjoint triples]] $f_! \dashv f^\ast \dashv f_\ast$ given by precomposition and left/right [[Kan extension]], respectively.
+Depending on whether we equip the stage-wise [[enriched functor categories]] with the [[projective model structure on functors]] or the [[injective model structure on functors]], this yields two constructions of an integral model structure on the Grothendieck construction, which we discuss, respectively, as the 
+
+* [Projective version](#ParameterizedObjectsProjectiveVersion) using $f_! \dashv f^\ast$,
+
+* [Injective version](#ParameterizedObjectsInjectiveVersion) using $(f_\ast)^{op} \dashv (f^\ast)^{op}$.
+
+If $\mathbf{C}$ is in addition a [[monoidal enriched category|*monoidal* enriched category]] then the injective version of the integral model structure becomes itself a [[monoidal model category]] under the respective "[[external tensor product]]:
+
+* [Monoidal version](#MonoidalModelStructureOnParameterizedObjects)
 
 
 \begin{definition}\label{SetupAndNotationForParameterizedObjects}
@@ -245,42 +256,31 @@ $$
     \mathcal{X}
     &\overset{}{\longrightarrow}&
     \mathcal{Y}
-  \end{array}
-  \\
-  &
-  \text{hence that}
-  \;\;\;
-  \begin{array}{cccc}
-    \widetilde{\phi}
-    &\colon&
-    \mathcal{G}_\mathbf{v}(f)_!
-    \big(
-      \mathscr{V}_{\mathcal{G}_{\mathbf{v}}(X)}
-    \big)
-    &\overset{}{\longrightarrow}&
-    \mathscr{W}_{\mathcal{G}_\mathbf{v}(Y)}
+    \mathrlap{\,,}
   \end{array}
   \end{array}
 $$
+the point being that the component $\phi$ a map into the pullback functor, as opposed to one of its [[adjuncts]], which instead we will write $\widetilde{\phi}$.
 \end{definition}
 
 \begin{remark}
-  The [[sSet]]-[[enriched functor category]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is [[equivalence of categories|equivalent]] to a [[cartesian product]] of [[enriched functor categories]] on the [[simplicial group actions]] of the [[connected components]], by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
+  The [[sSet]]-[[enriched functor category]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is [[adjoint equivalence of categories|adjoint equivalent]] to a [[cartesian product]] of [[enriched functor categories]] on the [[simplicial group actions]] of the [[connected components]], each of which may be identified with a category of [[simplicial group actions]] on objects in $\mathbf{C}$, by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
 $$
-  \mathbf{C}^{\mathcal{G}_{\mathbf{v}}X}_{proj}
+  \mathbf{C}^{\mathcal{G}_{\mathbf{v}}X}
   \;\simeq\;
   \underset{i \in \pi_0(X)}{\prod}
   \big(
     \mathcal{G}_{\mathbf{v}}(X)(x_i,x_i)
-  \big)Act(\mathbf{C})_{Borel}
+  \big)Act(\mathbf{C})
   \,.
 $$
 \end{remark}
 
+The assumption in Def. \ref{SetupAndNotationForParameterizedObjects} that all objects in $\mathbf{V}$ and $\mathbf{C}$ are [[cofibrant object|cofibrant]] is quite strong (we need this in the analysis of the pushout (eq:PushoutExpressionForLeftInducedAction) below) but it is satisfied in a couple of interesting examples:
 
 \begin{example}
 \label{ExamplesOfModelStructureOnsSgrpdParametrizedObjects}
-  Situations in which the assumptions of Def. \ref{SetupAndNotationForParameterizedObjects} are verified:
+Situations in which the assumptions of Def. \ref{SetupAndNotationForParameterizedObjects} are verified and the homotopy theories which result by the discussion below include the following:
 
 1. The choice
 
@@ -324,10 +324,27 @@ $$
 
 #### Plain model structure
 
+We establish integral model structures on parameterized objects under the above assumptions (Def. \ref{SetupAndNotationForParameterizedObjects}).
+
+
 ##### Projective version
+ {#ParameterizedObjectsProjectiveVersion}
 
+\begin{definition}
+  For $X \in sSet$, we write 
+  $$
+    \mathbf{C}^{\mathcal{G}_{\mathbf{v}}(X)}_{proj}
+    \;\coloneqq\;
+    \mathbf{V}Func\big(
+      \mathcal{G}_{\mathbf{v}}
+      ,\,
+      \mathbf{V}
+    \big)_{proj}
+  $$
+  for the [[projective model structure on functors]] which exists (and is [[combinatorial model category|combinatorial]]) by [this Prop.](model+structure+on+functors#Combinatorial).
+\end{definition}
 
-
+On the projective structure the pre-composition [[base change]]-functors $f^\ast$ are clearly [[right Quillen functors]] (cf. [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain)) so that their [[left adjoint]] [[left Kan extensions]] $f_!$ are [[left Quillen functors]]:
 
 \begin{proposition}
   \label{ModelStructureOnParameterizedObjects}
@@ -390,10 +407,10 @@ First, since the [[Dwyer-Kan simplicial path groupoid]] functor is a [[left Quil
   \underoverset
     { \underset{\overline{\mathrm{W}}}{\longleftarrow} }
     {\overset{\mathcal{G}}{\longrightarrow}}
-    {\;\;\; \bot_{\mathrlap{Qu}} \;\;\;}
+    {\;\;\;\; \bot_{{}_{\mathrlap{Qu}}} \;\;\;\;}
   sSet\text{-}Grpd
 \]
-it follows that $\mathcal{G}(f) \colon \mathcal{G}(X) \to \mathcal{G}(Y)$ is an acyclic cofibration of simplicial groupoids, which means in particular (see [this remark](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration)) that it is [[hom-object]]-wise $\mathcal{G}_{x,y} \colon \mathcal{G}(X)_{x,y} \longrightarrow \mathcal{G}(Y)_{f(x), f(y)}$ again an acyclic cofibration in $sSet$. Finally, by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]], this implies that also all $\mathbf{V}$-[[hom-object]] components $\mathcal{G}_{\mathbf{v}}(X)_{x,y} \colon \mathcal{G}_{\mathbf{v}}(X)_{x,y} \longrightarrow \mathcal{G}_{\mathbf{v}}(Y)_{f(x), f(y)}$ are acyclic cofibrations in $\mathbf{V}$.
+it follows that $\mathcal{G}(f) \,\colon\, \mathcal{G}(X) \longrightarrow \mathcal{G}(Y)$ is an [[acyclic cofibration]] of DK-[[simplicial groupoids]], which means in particular (see [this remark](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration)) that it is [[hom-object]]-wise $\mathcal{G}_{x,y} \colon \mathcal{G}(X)_{x,y} \longrightarrow \mathcal{G}(Y)_{f(x), f(y)}$ again an acyclic cofibration in $sSet$. Finally, by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]], this implies that also all $\mathbf{V}$-[[hom-object]] components $\mathcal{G}_{\mathbf{v}}(X)_{x,y} \colon \mathcal{G}_{\mathbf{v}}(X)_{x,y} \longrightarrow \mathcal{G}_{\mathbf{v}}(Y)_{f(x), f(y)}$ are acyclic cofibrations in $\mathbf{V}$.
 
 Next we claim that that it is sufficent to check the statement over [[reduced simplicial sets]], hence the case where $\mathcal{G}_{\mathbf{v}}(f)$ is of the form
 $$
@@ -444,9 +461,10 @@ But since the pullback operations preserve all weak equivalences (as already rem
 this says that $f_!$ preserves weak equivalences at $x$ iff $(f_x)_!$ does.
 
 
-Now in the case of a single-object simplicial groupoids, the simplicial functors $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[simplicial group actions]] in $\mathbf{C}$. On such an object $(X,\rho)$ the functor $f_!$ is given by the following [[pushout]] (this is proven as Lemma \ref{LeftInducedActionViaPushout} below):
+Now in the case of a single-object simplicial groupoids, the $\mathbf{V}$-[[enriched functors]] $\mathbf{B}H \to \mathbf{C}$ are equivalently $H$-[[simplicial group actions]] in $\mathbf{C}$. On such an [[action object]] $\rho \,\colon\, H \cdot X \longrightarrow X$ the functor $f_!$ is given, on [[underlying]] [[objects]], by the following [[pushout]] (this is proven as Lemma \ref{LeftInducedActionViaPushout} below), where $(-)\cdot(-) \,\colon\, \mathbf{V} \times \mathcal{C} \longrightarrow \mathbf{C}$ denotes the [[tensoring]] operation in the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$:
 
-$$
+\[
+  \label{PushoutExpressionForLeftInducedAction}
   \array{
     H \cdot X &\overset{\rho}{\longrightarrow}& X
     \\
@@ -459,26 +477,31 @@ $$
     &\longrightarrow&
     G \cdot_{_H} X
   }
-$$
+  \;\;\;\;\;\;
+  \in
+  \;
+  \mathbf{C}
+  \,.
+\]
 
-Here the left morphism is an [[acyclic cofibration]] since
+Now observe that the left morphism here is an [[acyclic cofibration]], because:
 
-1. $\phi$ arises from
+1. $\phi$ arises (via $\mathbf{B}\phi \,\coloneqq\, \mathbf{v}_\ast\mathcal{G}(f) \,\colon\, \mathbf{B}H \longrightarrow \mathbf{B}G$) from
 
-   1. a cofibration in $sSet$, by assumption in the "left properness" clause we are checking,
+   1. an [[acyclic cofibration]] in [[classical model structure on simplicial sets|$sSet_{Qu}$]], by assumption in the "left properness" clause (Def. \ref{ProperPseudofunctor}) that we are checking,
 
    1. whose image under the [[Dwyer-Kan simplicial path groupoid]] functor $\mathcal{G}$ remains an acyclic cofibration because $\mathcal{G}$ is a [[left Quillen functor]] (by [this Prop.](model+structure+on+simplicial+groupoids#QuillenEquivalenceWithSimplicialSets))
 
-   1. whose further image under $\mathbf{v}$ remains an acyclic cofibration by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]]
+   1. which means in particular that $\mathcal{G}(f)$ is [[hom-object]]-wise again an [[acyclic cofibration]] in [[classical model structure on simplicial sets|$sSet_{Qu}$]] (by [this Prop.](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration))
 
-1. $X$ is cofibrant by assumption on $\mathbf{C}$,
+   1. whose further image under $\mathbf{v}$ remains an acyclic cofibration by the assumption that also $\mathbf{v}\,\colon\, sSet_{Qu} \longrightarrow \mathbf{V}$ is a [[left Quillen functor]],
 
-1. so that the [[pushout-product axiom]] in the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$ implies that also $f \otimes X$ is an acyclic cofibration
+1. $X$ is cofibrant by assumption on $\mathbf{C}$ (Def. \ref{SetupAndNotationForParameterizedObjects}),
 
-1. which finally means that its hom-component $\phi$ is.
+1. so that the [[pushout-product axiom]] in the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$ implies that also the [[tensoring]] $\phi \cdot X$ is an acyclic cofibration.
 
 
-Therefore also the pushout morphism on the right is an acyclic cofibration, hence a weak equivalence.
+Therefore also the pushout morphism on the right in the diagram (eq:PushoutExpressionForLeftInducedAction) is an acyclic cofibration, hence is a weak equivalence.
 
 Now since this construction is [[natural transformation|natural]], given a weak equivalence $\phi \,\colon\, (X,\rho) \to (X', \rho')$  we find that its image under $f_!$ sits in a [[commuting diagram]] of the form
 $$
@@ -505,42 +528,46 @@ $$
 This implies, by the [[2-out-of-3 property]], that also $f_!(\phi)$ is a weak equivalence.
 \end{proof}
 
-Next to discuss the lemma used in this proof.
+It remains to discuss the lemma used to justify (eq:PushoutExpressionForLeftInducedAction):
 
-We write $\cdot \,\colon\,\mathbf{V} \times \mathbf{C} \to \mathbf{C}$ for the $\mathbf{V}$-[[tensoring]] of the $\mathbf{V}$-[[enriched model category]] $mathbf{C}$.
+Recall that we write $(-)\cdot(-) \,\colon\,\mathbf{V} \times \mathbf{C} \longrightarrow \mathbf{C}$ for the $\mathbf{V}$-[[tensoring]] of the $\mathbf{V}$-[[enriched model category]] $\mathbf{C}$.
 
-For $H \in Grp(sSet)$ a [[simplicial group]] and $X \in Obj(C)$, we may consider [[group actions]] $\rho \colon H \cdot X \to X$. Write $H Act(\mathbf{C})$ for the [[category]] these form.
+For $(H, \mu, \mathrm{e}) \in Mon(\mathbf{V})$ a [[monoid object]] and $X \in Obj(\mathbf{C})$, write $H Act(\mathbf{C})$ for the [[category]] of $H$-[[action objects]] [[internalization|interal]] to $\mathbf{C}$.
 
-Then for $\phi \colon H \to G$ a morphism in $Grp(sSet)$ we have the "restriction" functor
+Then for $\phi \colon H \to G$ a morphism in $Mon(\mathbf{V})$ we have the "restriction" functor
 
 \[
   \label{RestrictionOfSimplicialGroupActions}
   \phi^\ast
     \,\colon\,
-  (\mathbf{v}_\ast G) Act(\mathbf{C})
+  G Act(\mathbf{C})
   \longrightarrow
-  (\mathbf{v}_\ast H) Act(\mathbf{C})
+  H Act(\mathbf{C})
   \,.
 \]
 
-At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We will need the following general [[pushout]]-construction of such left-induced actions:
+At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical elementary fact that such functors (eq:RestrictionOfSimplicialGroupActions) have [[left adjoints]] $\phi_!$ sending action on $X$ to the "left induced action $G \cdot_{_H} X$". We give the following general [[pushout]]-construction of such left-induced actions:
 
 \begin{lemma}
 \label{LeftInducedActionViaPushout}
-  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in (\mathbf{v}H) Act(\mathbf{C})$ to the unique $\big((\mathbf{v}H) \cdot_{_{\mathbf{v}H}} X,\, \phi_!(\rho)\big)$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$ (we now notationally suppress the [[change of enrichment]] $\mathbf{v}$):
+  The functor (eq:RestrictionOfSimplicialGroupActions) has a [[left adjoint]] which sends $(X,\rho) \in H Act(\mathbf{C})$ to the unique $\big(G \cdot_{H} X ,\, \phi_!(\rho)\big)$ that makes the following [[commuting diagram|diagram commute]] such that the bottom (and hence the top) square are [[pushouts]] in $\mathbf{C}$:
 
 \begin{tikzcd}
-    \ast \cdot H \cdot X
+    1_{\mathbf{V}} \cdot H \cdot X
     \ar[
       dr,
-      "{ \mathrm{e} \cdot \phi \cdot \mathrm{id} }"{description}
+      "{ 
+        \mathrm{e} \cdot \phi \cdot \mathrm{id} 
+      }"{description}
     ]
     \ar[
       rr,
-      "{ \mathrm{id} \,\cdot\, \rho }"{description}
+      "{ 
+         \mathrm{id} \,\cdot\, \rho 
+      }"{description}
     ]
     &&
-    \ast \cdot X
+    1_{\mathbf{V}} \cdot X
     \ar[
       dd,
       equals
@@ -575,7 +602,9 @@ At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical ele
     ]
     \ar[
       dr,
-      "{ \phi \cdot \mathrm{id} }"{description}
+      "{ 
+        \phi \cdot \mathrm{id} 
+      }"{description}
     ]
     \ar[
       rr,
@@ -600,22 +629,23 @@ At least for $\mathbf{C} = \mathbf{V} = $ [[sSet]] itself, it is a classical ele
     \ar[rr]
     &&
     G \cdot_{_H} X
+    \mathrlap{\,,}
 \end{tikzcd}
-
 \end{lemma}
+where, recall, we are denoting the [[neutral element]] and the monoid operation in $H$ by, respectively
+$$
+  \mathbb{1}_{\mathbf{V}} 
+    \,\colon\, 
+  \mathbb{1}_{\mathbf{V}} 
+    \longrightarrow 
+  H
+  \,,
+  \;\;\;\;
+  \mu \,\colon\, H \cdot H \longrightarrow X
+$$
+and "$\cdot$" denotes the [[tensoring]] of $\mathbf{C}$ by $\mathbf{V}$.
 \begin{proof}
 This is elementary, but we spell it out in pedantic detail.
-
-We will denote the [[neutral element]] and the group operation in $H$ by
-
-$$
-  \mathrm{e} \colon \ast \to H
-  ,\;\;\;\;
-  \mu \colon H \cdot H \to X
-  \,,
-$$
-
-respectively.
 
 Given
 
@@ -633,18 +663,20 @@ $$
   }
 $$
 
-where top one is $G$-equivariant, and the bottom one $H$-equivariant.
+where top one is $G$-[[homomorphism|homomorphic]], and the bottom one $H$-homomorphic.
 
-To have the top morphism means to have a commuting diagram as follows:
+Now, to have the top morphism means to have a commuting diagram as follows:
 
 \begin{tikzcd}[
     row sep=10pt
   ]
     &
-    \ast \cdot H \cdot X
+    1_{\mathbf{V}} \cdot H \cdot X
     \ar[
       ddr,
-      "{ \mathrm{e} \cdot \phi \cdot \mathrm{id} }"{description}
+      "{ 
+         \mathrm{e} \cdot \phi \cdot \mathrm{id} 
+      }"{description}
     ]
     \ar[
       rr,
@@ -655,7 +687,7 @@ To have the top morphism means to have a commuting diagram as follows:
       equals
     ]
     &&
-    \ast \cdot X
+    1_{\mathbf{V}} \cdot X
     \ar[
       dddd,
       equals
@@ -950,12 +982,13 @@ Conversely, given such $f \circ \iota$ which is $H$-equivariant, then defining $
 \end{proof}
 
 ##### Injective version
+ \label{ParameterizedObjectsInjectiveVersion}
 
 > ...using instead opposite of injective model structure and $f_\ast$ instead of $f_!$...
 
 \linebreak
 
-#### Monoidal model structure
+#### Monoidal version
  {#MonoidalModelStructureOnParameterizedObjects}
 
 > still incomplete... this will actually work with the injective structure...
@@ -1012,7 +1045,7 @@ are both [[strong monoidal functor|strong monoidal]] and [[strong closed functor
       ,\, 
       \otimes_{\mathcal{G}(X)}
       ,\,
-      \mathbb{1}_{\mathcal{G}(X)}
+      1_{\mathcal{G}(X)}
     \big)
     }
   $$
