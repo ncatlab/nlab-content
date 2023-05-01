@@ -3,8 +3,12 @@
 
 ## Selected writings
 
-On [[combinatorial model categories]]:
+On a [[Thomason model structure]] on (just) [[posets]]:
 
+* [[George Raptis]], *Homotopy theory of posets*, Homology Homotopy Appl. **12** 2 (2010) 211-230 &lbrack;[euclid:hha/1296223882](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/Homotopy-theory-of-posets/hha/1296223882.full)&rbrack;
+
+
+On [[combinatorial model categories]]:
 
 * [[George Raptis]], *Notes on combinatorial model categories* 2014/2020 ([pdf](https://graptismath.net/files/notes-comb-model-cat.pdf) [[RaptisCombinatorialModelCategories.pdf:file]])
 
