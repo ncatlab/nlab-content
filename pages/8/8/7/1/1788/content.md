@@ -1,4 +1,21 @@
 
+$$
+  f_!
+  f^\ast
+  (
+    X
+  )
+  \;\simeq\;
+  f_!
+  \big(
+    f^\ast(X)
+    \otimes \mathbb{1}
+  \big)
+  \;\simeq\;
+  X \otimes f_!(\mathbb{1})
+$$
+
+[[monoidal enriched category|*monoidal* enriched]]
 
 $$
   Hom\big(
