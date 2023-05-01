@@ -26,13 +26,13 @@ This is one flavor of the various [[natural model structure]]s on categories and
 +-- {: .num_defn}
 ###### Definition
 
-Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say a morphism in $Grpd$ -- a [[functor]] $f : C \to D$ -- is 
+Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say thata morphism in $Grpd$ --- a [[functor]] $f \colon C \longrightarrow D$ --- is 
 
-* a _weak equivalence_ if it is an [[equivalence of categories]];
+* a _[[weak equivalence]]_ if it is an [[equivalence of categories]];
 
-* a _fibrations_ if it is an [[isofibration]];
+* a _[[fibration]]_ if it is an [[isofibration]];
 
-* a _cofibration_ if it is an injection on [[object]]s.
+* a _[[cofibration]]_ if it is [[injective-on-objects functor|injective on objects]].
 
 =--
 
