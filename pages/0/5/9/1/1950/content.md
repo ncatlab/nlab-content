@@ -37,7 +37,9 @@ There are several methods to actually construct the Kan fibrant replacement. One
 
 - etc. 
 
-## $Ex$ functor 
+
+## The $Ex$-functor 
+ {#ExFunctor}
 
 
 For $\Delta^k$ the simplicial $k$-[[simplex]] let $sd \Delta^k$ be its **barycentric [[subdivision]]** : this is the simplicial set that is the [[nerve]] of the [[poset]] of non-degenerate sub-simplicies in $\Delta^k$.
