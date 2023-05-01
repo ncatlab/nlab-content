@@ -14,12 +14,12 @@
 
 ## Idea
 
-A [[functor]] $F\colon C \to D$ is **essentially injective** if it is injective on objects "up to isomorphism".
+A [[functor]] $F\colon C \to D$ is **essentially injective** if it is [[injective]] on objects "up to isomorphism", nameley on [[isomorphism classes]] of objects.
 
 
 ## Definition
 
-$F\colon C \to D$ is **essentially injective** or **essentially injective on objects** if, for any two objects $c$ and $c'$ of $C$, if there is an [[isomorphism]] $F(c) \cong F(c')$ in $D$, then $c \cong c'$ in $C$. (The converse holds trivially, since functors preserve isomorphisms.) Equivalently, a functor is essentially injective if and only if it is injective on isomorphism classes.
+$F\colon C \to D$ is **essentially injective** or **essentially injective on objects** if, for any two objects $c$ and $c'$ of $C$, if there is an [[isomorphism]] $F(c) \cong F(c')$ in $D$, then $c \cong c'$ in $C$. (The converse holds trivially, since functors preserve isomorphisms.) Equivalently, a functor is essentially injective if and only if it is [[injective]] on [[isomorphism classes]].
 
 ## Examples
 
