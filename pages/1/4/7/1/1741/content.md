@@ -100,4 +100,4 @@ the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the
 
 ## References
 
-* [[Emily Riehl]] and [[Fosco Loregian]], _Categorical notions of fibration_. [arXiv:1806.06129](https://arxiv.org/abs/1806.06129)
+* [[Emily Riehl]] and [[Fosco Loregian]], _Categorical notions of fibration_, Expositiones Mathematicae **38(4)**, 2020, pp. 496-514. ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004))
