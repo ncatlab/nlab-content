@@ -63,7 +63,11 @@ Each of the functors $-^a$, $-^{f^*(a)}$ and $f^*$ has a [[left adjoint]], so by
 
 \[
   \label{ProjectionMorphism}
-  \pi \colon f_! (f^*a \times c) \to a \times f_! c 
+  \pi 
+  \,\colon\, 
+  f_! (f^*a \times c) 
+  \longrightarrow 
+  a \times f_!(c) 
 \] 
 
 is an isomorphism for each $a$ in $\mathcal{Y}$ and $c$ in $\mathcal{X}$.  
