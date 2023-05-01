@@ -32,7 +32,7 @@ Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$
 
 such that 
 
-1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+1. {#Unitality} ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
 
    $$
      \array{
@@ -51,7 +51,7 @@ such that
    where $\ell$ is the left unitor isomorphism of $\mathcal{C}$.
 
 
-1. (action property) the following [[commuting diagram|diagram commutes]]
+1. {#ActionProperty} (action property) the following [[commuting diagram|diagram commutes]]
 
    $$
      \array{
