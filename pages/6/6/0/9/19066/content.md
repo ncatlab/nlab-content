@@ -106,14 +106,9 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 ### Parameterized objects
  {#ParameterizedObjects}
 
-We discuss a class of examples of integral model structures on categories of "$sGrpd$-parameterized objects".
+We discuss a class of examples of integral model structures on categories of "$sSet$-parameterized objects".
 
 > under construction --- handle with care
-
-
-#### Plain model structure
-
-##### Projective version
 
 
 \begin{definition}\label{SetupAndNotationForParameterizedObjects}
@@ -183,11 +178,7 @@ Now by
 
 * [[precomposition]]$\;\mathcal{G}_{\mathbf{v}}(f)^\ast \,\coloneqq\, (-) \circ \mathcal{G}_{\mathbf{v}}(f)$
 
-and
-
-* [[left Kan extension]] $\mathcal{G}_{\mathbf{v}}(f)_!$
-
-these categories arrange into an [[indexed category]], namely a [[pseudofunctor]] with values in [[left Quillen functors]] (by [this Prop.](model+structure+on+functors#QuillenFunctorialityInDomain))
+these categories arrange into an [[indexed category]], namely a [[contravariant functor|contravariant]] [[pseudofunctor]] 
 $$
   \array{
     \mathllap{
@@ -202,7 +193,9 @@ $$
     \\
     \Big\downarrow\mathrlap{{}^f}
     &&
-    \Big\downarrow\mathrlap{{}^{\mathcal{G}_\mathbf{v}(f)_!}}
+    \Big\uparrow\mathrlap{
+       {}^{\mathcal{G}_\mathbf{v}(f)^\ast}
+    }
     \\
     Y
     &\mapsto&
@@ -224,8 +217,7 @@ whose [[Grothendieck construction]] we abbreviate by
 We may think of this as the category of *objects of $\mathbf{C}$ parameterized over [[infinity-groupoids|$\infty$-groupoids]]* (where the choice of $\mathbf{v}$ matters, but we leave it notationally implicit, for convenience).
 
 
-We will denote the components of
-morphisms in $\mathbf{C}_{sSet}$ by their $(-)_! \dashv (-)^\ast$ [[adjuncts]] (i.e. as they appear, instead, in the equivalent [[Grothendieck construction]] on $sGrpd^{op}$ via the right adjoints $f^\ast$):
+We will denote the components of morphisms in $\mathbf{C}_{sSet}$ as follows:
 $$
   \begin{array}{ll}
   \text{i.e.}
@@ -270,11 +262,10 @@ $$
   \end{array}
   \end{array}
 $$
-(because in this form their [[external tensor product]] is more readily expressed, see [below](#ExternalTensorProduct)).
 \end{definition}
 
 \begin{remark}
-  The [[model structure on functors|projective model structure on simplicial functors]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is a [product model category](model+category#ProductModelStructure) of [[Borel model structures]] on the [[simplicial group actions]] of the [[connected components]], by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
+  The [[sSet]]-[[enriched functor category]] over any [[sSet]]-[[enriched groupoid]] $\mathcal{X}$ is [[equivalence of categories|equivalent]] to a [[cartesian product]] of [[enriched functor categories]] on the [[simplicial group actions]] of the [[connected components]], by the discusison [here](simplicial+groupoid#RelationToSimplicialGroups):
 $$
   \mathbf{C}^{\mathcal{G}_{\mathbf{v}}X}_{proj}
   \;\simeq\;
@@ -328,6 +319,14 @@ $$
    yields another [[model category]]-structure for [[flat infinity-vector bundles|flat $\infty$-vector bundles]] ([[infinity-local systems|$\infty$-local systems]] or, [[stable Dold-Kan correspondence|equivalently]], [[parameterized spectrum|parameterized]] [[Eilenberg-MacLane spectrum|$H k$]]-[[module spectra]]) over varying base spaces.
 
 \end{example}
+
+
+
+#### Plain model structure
+
+##### Projective version
+
+
 
 
 \begin{proposition}
@@ -391,14 +390,20 @@ First, since the [[Dwyer-Kan simplicial path groupoid]] functor is a [[left Quil
   \underoverset
     { \underset{\overline{\mathrm{W}}}{\longleftarrow} }
     {\overset{\mathcal{G}}{\longrightarrow}}
-    { \bot_{\mathrlap{Qu}} }
+    {\;\;\; \bot_{\mathrlap{Qu}} \;\;\;}
   sSet\text{-}Grpd
 \]
 it follows that $\mathcal{G}(f) \colon \mathcal{G}(X) \to \mathcal{G}(Y)$ is an acyclic cofibration of simplicial groupoids, which means in particular (see [this remark](model+structure+on+simplicial+groupoids#sGrpdCofibrationIsObjectwiseSSetCofibration)) that it is [[hom-object]]-wise $\mathcal{G}_{x,y} \colon \mathcal{G}(X)_{x,y} \longrightarrow \mathcal{G}(Y)_{f(x), f(y)}$ again an acyclic cofibration in $sSet$. Finally, by the assumption that also $\mathbf{v}$ is a [[left Quillen functor]], this implies that also all $\mathbf{V}$-[[hom-object]] components $\mathcal{G}_{\mathbf{v}}(X)_{x,y} \colon \mathcal{G}_{\mathbf{v}}(X)_{x,y} \longrightarrow \mathcal{G}_{\mathbf{v}}(Y)_{f(x), f(y)}$ are acyclic cofibrations in $\mathbf{V}$.
 
 Next we claim that that it is sufficent to check the statement over [[reduced simplicial sets]], hence the case where $\mathcal{G}_{\mathbf{v}}(f)$ is of the form
 $$
-  \mathcal{G}_{\mathbf{v}}(f) \colon \mathbf{B}\phi \colon \mathbf{B}H \to \mathbf{B}G
+  \mathcal{G}_{\mathbf{v}}(f) 
+  \;=\; 
+  \mathbf{B}\phi 
+  \;\colon\; 
+  \mathbf{B}H 
+    \longrightarrow 
+  \mathbf{B}G
 $$
 with a single comonent map
 $$
