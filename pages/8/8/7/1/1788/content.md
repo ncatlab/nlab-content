@@ -1,3 +1,21 @@
+
+$$
+  \array{  
+    (G \cdot H \cdot X)
+    \coprod
+    (G \cdot H \cdot X)
+    &\longrightarrow&
+    G \cdot X
+    \\
+    \Big\downarrow && \Big\downarrow
+    \\
+    G \cdot H \cdot X
+    &\longrightarrow&
+    G \cdot_H X
+  }
+$$
+
+
 ## Examples
 
 ### Parameterized objects
