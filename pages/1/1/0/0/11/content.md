@@ -17,6 +17,11 @@ __Tom Leinster__ is a mathematician at the University of Edinburgh.
 
   A [readable version](https://web.archive.org/web/20131212071554/http://ncatlab.org:80/publications/published/Leinster2011) (give the scripts a few seconds to load after opening the page) can be found in the Internet Archive.
 
+On [[commutativity of limits with colimits]]:
+
+* [[Marie Bjerrum]], [[Peter Johnstone]], [[Tom Leinster]], [[William F. Sawin]], *Notes on commutation of limits and colimits*, Theory and Applications of Categories **30** (2015), 527-532 &lbrack;[arXiv:1409.7860](http://arxiv.org/abs/1409.7860), [tac:3015](http://www.tac.mta.ca/tac/volumes/30/15/30-15abs.html)&rbrack;
+
+
 On [[Isbell duality]] and [[reflexive completion]]:
 
 * [[Tom Avery]], [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, **36** 12 (2021) 306-347 &lbrack;[tac:36-12](http://www.tac.mta.ca/tac/volumes/36/12/36-12abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf)&rbrack;
