@@ -43,7 +43,9 @@ Also, if $C$-colimits commute with $D$-limits in $E$, and if $E'$ is a [[reflect
 ### Filtered colimits commute with finite limits 
  {#FilteredColimitsCommuteWithFiniteLimits}
 
-In $Set$, [[filtered category|filtered]] colimits commute with finite limits.  In fact, $C$ is a [[filtered category]] *if and only if* $C$-colimits commute with finite limits in $Set$.  More generally, filtered colimits commute with [[L-finite category|L-finite]] limits.
+In [[Set]], [[filtered category|filtered]] [[colimits]] commute with [[finite limits]] (e.g. [MacLane (1971), §IX.2 Thm. 1 (p. 211)](#MacLane71)).
+
+In fact, $C$ is a [[filtered category]] *if and only if* $C$-colimits commute with finite limits in $Set$.  More generally, filtered colimits commute with [[L-finite category|L-finite]] limits.
 
 By the above remarks, it follows that filtered colimits commute with finite limits in any [[Grothendieck topos]].
 
@@ -102,15 +104,18 @@ In general, for any class of limits $\Phi$, one may consider the class of all co
 
 ## References
 
-* Hilton, Peter. "Commuting limits." Cahiers de Topologie et Géométrie Différentielle Catégoriques 10.1 (1968): 127-138.
+* [[Peter Hilton]], *Commuting limits*, Cahiers de Topologie et Géométrie Différentielle Catégoriques 10.1 (1968): 127-138.
 
-* Eckmann, Beno, and Peter John Hilton. "Commuting limits with colimits." Journal of Algebra 11.1 (1969): 116-144.
+* [[Beno Eckmann]], [[Peter John Hilton]], *Commuting limits with colimits*, Journal of Algebra **11** 1 (1969) 116-144.
 
-* Frei, Armin, and John L. MacDonald. "Limits in categories of relations and limit-colimit commutation." Journal of Pure and Applied Algebra 1.2 (1971): 179-197.
+* Armin Frei, and John L. MacDonald, *Limits in categories of relations and limit-colimit commutation*, Journal of Pure and Applied Algebra **1** 2 (1971) 179-197
 
-* Foltz, François. "Sur la commutation des limites." Diagrammes 5 (1981): F1-F33.
+* {#MacLane71} [[Saunders MacLane]], §IX.2 in: *[[Categories for the Working Mathematician]]*, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* Bjerrum, Marie, et al. "Notes on commutation of limits and colimits." arXiv preprint arXiv:1409.7860 (2014).
+* François Foltz, *Sur la commutation des limites*, Diagrammes **5** (1981) F1-F33
+
+* {#BJTS14} [[Marie Bjerrum]], [[Peter Johnstone]], [[Tom Leinster]], [[William F. Sawin]], *Notes on commutation of limits and colimits*, Theory and Applications of Categories **30** (2015), 527-532 &lbrack;[arXiv:1409.7860](http://arxiv.org/abs/1409.7860), [tac:3015](http://www.tac.mta.ca/tac/volumes/30/15/30-15abs.html)&rbrack;
+
 
 [[!redirects commutativity of limits and colimits]]
 [[!redirects commutativity of limits with colimits]]
