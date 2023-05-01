@@ -53,3 +53,7 @@ but the actual compatibility is maybe not made very explicit there either, for t
 
 
 [[!redirects simplicial monoidal model categories]]
+
+[[!redirects monoidal simplicial model category]]
+
+
