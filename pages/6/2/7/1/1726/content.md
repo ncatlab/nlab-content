@@ -139,6 +139,9 @@ A detailed discussion in the general context of [[internal categories in an (∞
 
 * {#Lurie09} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
 
+A [[Quillen adjunction]] relating [[n-complicial sets|$n$-complicial sets]] to [[n-fold complete Segal spaces|$n$-fold complete Segal spaces]]:
+
+* [[Viktoriya Ozornova]], [[Martina Rovelli]], *A Quillen adjunction between globular and complicial approaches to $(\infty,n)$-categories*, Advances in Mathematics **421** (2023) 108980 &lbrack;[doi:10.1016/j.aim.2023.108980](https://doi.org/10.1016/j.aim.2023.108980)&rbrack;
 
 
 
