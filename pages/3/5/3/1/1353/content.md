@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -102,11 +103,21 @@ Further developments are in
 
 * Dominic Verity, _Weak complicial sets Part II: Nerves of complicial Gray-categories_ ([arXiv](http://arxiv.org/abs/math/0604416))
 
-A model structure for [[(infinity,n)-categories]] is presented in
+A [[model category]] structure on [[stratified simplicial sets]] modelling [[(infinity,n)-categories|$(\infty,n)$-categories]] in the guise of [[n-complicial sets|$n$-complicial sets]]:
 
-* [[Viktoriya Ozornova]], Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
+* [[Viktoriya Ozornova]], [[Martina Rovelli]], *Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces*, Algebr. Geom. Topol. **20** (2020) 1543-1600 &lbrack;[arxiv:1809.10621](https://arxiv.org/abs/1809.10621), [doi:10.2140/agt.2020.20.1543](https://doi.org/10.2140/agt.2020.20.1543)&rbrack;
+
+A [[Quillen adjunction]] relating [[n-complicial sets|$n$-complicial sets]] to [[n-fold complete Segal spaces|$n$-fold complete Segal spaces]]:
+
+* [[Viktoriya Ozornova]], [[Martina Rovelli]], *A Quillen adjunction between globular and complicial approaches to $(\infty,n)$-categories*, Advances in Mathematics
+**421** (2023) 108980 &lbrack;[doi:10.1016/j.aim.2023.108980](https://doi.org/10.1016/j.aim.2023.108980)&rbrack;
+
 
 
 
 [[!redirects weak complicial sets]]
 [[!redirects weak compicial set]]
+
+[[!redirects n-complicial set]]
+[[!redirects n-complicial sets]]
+
