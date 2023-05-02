@@ -146,7 +146,7 @@ Often one is interested in separated presheaves with respect to one [[coverage]]
 
 This typically arises if a [[reflective subcategory]]
 $$C \stackrel{\stackrel{}{\leftarrow}}{\hookrightarrow} Sh(S)$$
-of a [[sheaf topos]] is given. This is the [[localization]] at a set $W$ of morphisms in $Sh(S)$, with $C$ the full subcategory of all [[local object]]s $c$: objects such that $Sh_(S)(w,c)$ is an isomorphism for all $w \in W$. A $W$-separated object is then called a _biseparated presheaf_ on $S$ and their collection $BiSep(S)$ factors the reflective inclusion as
+of a [[sheaf topos]] is given. This is the [[localization]] at a set $W$ of morphisms in $Sh(S)$, with $C$ the full subcategory of all [[local object]]s $c$: objects such that $Sh(S)(w,c)$ is an isomorphism for all $w \in W$. A $W$-separated object is then called a _biseparated presheaf_ on $S$ and their collection $BiSep(S)$ factors the reflective inclusion as
 $$
   C 
     \stackrel{\leftarrow}{\hookrightarrow}
