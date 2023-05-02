@@ -13,7 +13,7 @@ On [[braid groups]] and [[braid representations]]:
 
 and specifically on the aspect of [[representation stability]]
 
-* [[Jenny Wilson]], *A brief introduction to representation stability*, Oberwolfach Workshop (Jan 2018) &lbrack;[pdf](https://dept.math.lsa.umich.edu/~jchw/OberwolfachTalk-IntroductionToRepStability.pdf), [[Wilson-RepresentationStability.pdf:file]]&rbrack;
+* [[Jenny Wilson]], *A brief introduction to representation stability*, Oberwolfach Workshop (Jan 2018) &lbrack;[pdf](https://dept.math.lsa.umich.edu/~jchw/OberwolfachTalk-IntroductionToRepStability.pdf), [[Wilson-RepresentationStability.pdf:file]], [[Wilson-CQTS-Apr-2023.pdf:file]]&rbrack;
 
 * [[Rita Jimenez Rolland]], [[Jennifer C. H. Wilson]], *Stability properties of moduli spaces*, Notices of the AMS [**69** 4](https://www.ams.org/notices/202204/202204FullIssue.pdf) (April 2022) &lbrack;[arXiv:2201.04096](https://arxiv.org/abs/2201.04096), [pdf](https://www.ams.org/journals/notices/202204/rnoti-p522.pdf), [web](https://www.ams.org/journals/notices/202204/noti2452/noti2452.html)&rbrack;
 
