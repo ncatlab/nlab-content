@@ -77,4 +77,10 @@ More review:
 * [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf)) in:  [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press
 
 
+[[!redirects spectral algebraic space]]
+[[!redirects spectral algebraic spaces]]
+
+[[!redirects E-∞ algebraic space]]
+[[!redirects E-∞ algebraic spaces]]
+
 
