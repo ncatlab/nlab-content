@@ -19,7 +19,7 @@ This page collects links related to
 
   [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)
 
-on [[differential geometry]] with particular emphasis on [[natural bundles]].
+on [[differential geometry]] with particular emphasis on [[natural bundles]] and [[natural operations]].
 
 ## Chapter I. Manifolds and Lie groups
 
