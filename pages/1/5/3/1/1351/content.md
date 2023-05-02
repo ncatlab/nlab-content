@@ -41,7 +41,9 @@ Equivalently, a **complicial set** is a stratified simplicial set that is (right
 
 ## Generalizations
 
-Weakening the conditions on a [[stratified simplicial set]] to be a complicial set yields notions of [[simplicial weak omega-category]].
+* Weakening the conditions on a [[stratified simplicial set]] to be a complicial set yields notions of [[simplicial weak omega-category]].
+
+* [[n-complicial set]]
 
 ## References
 
