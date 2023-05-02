@@ -428,8 +428,12 @@ expanded on in
 
 Review:
 
-
 * {#Pavlović91} [[Duško Pavlović]], Section 1 of: *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
+
+* [[Simon John Ambler]], §5.5.1 in: *First Order Linear Logic in Symmetric Monoidal Closed Categories*, PhD thesis, Edinburgh (1991) &lbrack;[ECS-LFCS-92-194](https://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194/ECS-LFCS-92-194.pdf), [[Ambler-FOLL.pdf:file]]&rbrack;
+
+> (in view of [[linear type theory]])
+
 
 * [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
 
