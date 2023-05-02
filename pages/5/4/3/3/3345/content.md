@@ -165,4 +165,11 @@ The relevant results are stated explicitly as Corollary 3 and Theorem 3 of
 
 * Ulrik Buchholtz, Edward Morehouse, _Varieties of Cubical Sets_, [arXiv](https://arxiv.org/abs/1701.08189).
 
+### Cartesian cubical sets
+
+The case of the category of presheaves over the free finite product category with a bipointed object is treated in:
+
+* [[Steve Awodey]], _Cartesian cubical model categories_ ([arXiv:2305.00893](https://arxiv.org/abs/2305.00893))
+
+
 [[!redirects model structures on cubical sets]]
