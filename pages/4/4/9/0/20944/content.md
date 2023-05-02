@@ -24,11 +24,11 @@ An invertible ([[extended topological field theory|extended]]) [[topological fie
 
 As [[quantum anomalies]] of lower-dimensional non-invertible (and possibly non-topological) [[quantum field theories]]:
 
-* [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013) ([arXiv.1404.7224](https://arxiv.org/abs/1404.7224))
+* {#Freed13} [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013) ([arXiv.1404.7224](https://arxiv.org/abs/1404.7224))
 
 As formalizing [[short-range entanglement]] in [[topological phases of matter]]:
 
-* {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
+* {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* &lbrack;[arXiv:1406.7278](https://arxiv.org/abs/1406.7278)&rbrack;
 
 On classification (via [[reflection positivity]]):
 
