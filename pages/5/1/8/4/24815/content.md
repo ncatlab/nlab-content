@@ -112,5 +112,5 @@ Further development:
 [[!redirects quantum random access memory]]
 [[!redirects quantum random access memories]]
 
-
+[[!redirects quantum memory]]
 
