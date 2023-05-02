@@ -134,11 +134,15 @@ The original article on [[linear logic]] is
 
 * {#Girard87} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://girard.perso.math.cnrs.fr/linear.pdf))
 
-A review of linear logic is in
+reviewed in:
 
 * {#Girard11} [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
 
-Linear type theory as such is made explicit for instance in 
+Linear type theory as such is made explicit in:
+
+* [[Simon John Ambler]], *First Order Linear Logic in Symmetric Monoidal Closed Categories*, PhD thesis, Edinburgh (1991) &lbrack;[ECS-LFCS-92-194](https://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-194/ECS-LFCS-92-194.pdf), [[Ambler-FOLL.pdf:file]]&rbrack;
+
+  > (with [[categorical semantics]] in [[symmetric monoidal category|symmetric]] [[closed monoidal categories]])
 
 * Masahito Hasegawa. _Logical predicates for intuitionistic linear type theories_, Typed Lambda Calculi and Applications:
 4th International Conference, TLCA '99, ed. J.-Y. Girard, Lecture Notes in Computer Science 1581, Springer, Berlin, 1999 ([pdf](http://www.kurims.kyoto-u.ac.jp/~hassei/papers/tlca99.pdf))
