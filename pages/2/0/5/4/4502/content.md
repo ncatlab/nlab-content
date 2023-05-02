@@ -98,14 +98,16 @@ Since the $W$ construction discussed above is functorial, this generalizes to pr
 
 ## For $\infty$-Lie groups
 
-In the [[(∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s we can obtain [[∞-group]]s by [[Lie integration]] of [[L-∞-algebra|∞-Lie algebra]]s.
+In the [[(∞,1)-topos]] of [[smooth ∞-groupoids]] we can obtain [[∞-groups]] by [[Lie integration]] of [[L-∞-algebra|$L_\infty$-algebras]].
 
 Corresponding to this is a construction of Lie-integrated groupal universal principal $\infty$-bundles:
 
 for $\mathfrak{g}$ an $L_\infty$-algebra, there is an $L_\infty$-algebra $inn(\mathfrak{g})$, defined such that its [[Chevalley-Eilenberg algebra]] is the [[Weil algebra]] $W(\mathfrak{g})$ of $\mathfrak{g}$:
 
 $$
-  CE(inn(\mathfrak{g})) = W(\mathfrak{g})
+  CE\big(inn(\mathfrak{g})\big) 
+    = 
+  W\big(\mathfrak{g}\big)
   \,.
 $$
 
