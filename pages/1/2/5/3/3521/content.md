@@ -501,17 +501,24 @@ The link with simplicial groups and algebraic models of homotopy $n$-types is gi
 
 * [[Tim Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
 
-* [[Tim Porter]], _[[Menagerie|The crossed menagerie]]_
- 
+* [[Tim Porter]], _[[Menagerie|The crossed menagerie]]_ 
 
-An application in the theory of [[stacks]] is discussed in
+An application in the theory of [[stacks]]:
 
 * [[Anders Kock]], _The stack quotient of a groupoid_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, __44__ no. 2 (2003), p. 85--104 [numdam](http://www.numdam.org/item?id=CTGDC_2003__44_2_85_0)
+
+On the [[adjunction unit]] of [[total décalage]]:
+
+* [[Viktoriya Ozornova]], [[Martina Rovelli]], *The unit of the total décalage adjunction*, Journal of Homotopy and Related Structures **15** (2020) 333–349 &lbrack;[doi.org/10.1007/s40062-020-00257-1](https://doi.org/10.1007/s40062-020-00257-1)&rbrack;
+
+
 
 
 [[!redirects decalage]]
 [[!redirects décalage]]
+[[!redirects décalage]]
+
 
 [[!redirects total decalage]]
 [[!redirects total décalage]]
-
+[[!redirects total décalage]]
