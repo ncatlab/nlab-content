@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -285,7 +284,7 @@ If either of the two happens to be a [[natural equivalence]] (hence an equivalen
 +-- {: .num_prop #InWirthmuellerContextProjectionIsEquivalence}
 ###### Proposition
 
-Precisely when the pre-Wirthm&#252;ller context is a Wirthm&#252;ller context, def. \ref{WirthmullerContext}, both comparison maps of def. \ref{ComparisonMaps} are natural equivalences.
+Precisely when the pre-Wirthmüller context is a Wirthmüller context, def. \ref{WirthmullerContext}, both comparison maps of def. \ref{ComparisonMaps} are natural equivalences.
 
 =--
 
@@ -343,7 +342,13 @@ is often called the *[[projection formula]]*. In [[representation theory]] this 
 
 =--
 
-\begin{remark}\label{ProjectionComposedWithCounitInRemainingVariable}
+
+### Consequences
+ {#Consequences}
+
+Assuming a Wirthmüller context, the [[projection formula]] has the following implications.
+
+\begin{proposition}\label{ProjectionComposedWithCounitInRemainingVariable}
   In the special case that both of its variables are in the image of $f^\ast$, then
   composing the [[projection formula]]-map from Def. \ref{ComparisonMaps} with the [[adjunction counit]] in the first variable equals the adjunction unit of the full term, in that the following [[commuting diagram|diagram commutes]] (where we are leaving the structure isomorphism of the [[strong monoidal functor]] $f^\ast$ notationally implicit):
   $$
@@ -365,18 +370,116 @@ is often called the *[[projection formula]]*. In [[representation theory]] this 
       A \otimes B
     }
   $$
-  because: 
-
+\end{proposition}
+\begin{proof}
 The [[adjunct]] of the composite of the top and the right morphism is the composite of 
 
-* the [[adjunct]] of the top morphism, which by Def. \ref{ComparisonMaps} is $f^\ast A \otimes f^\ast B \overset{\eta_{f^\ast A} \otimes \eta_{f^\ast B}}{\longrightarrow} f^\ast f_! f^\ast A \otimes f^\ast f_! f^\ast B \overset{id \otimes f^\ast \epsilon_B}{\longrightarrow}$
+* the [[adjunct]] of the top morphism, which by Def. \ref{ComparisonMaps}, is  
+
+  $f^\ast A \otimes f^\ast B \overset{\eta_{f^\ast A} \otimes \eta_{f^\ast B}}{\longrightarrow} f^\ast f_! f^\ast A \otimes f^\ast f_! f^\ast B \overset{id \otimes f^\ast \epsilon_B}{\longrightarrow} f^\ast f_! f^\ast A \otimes f^\ast  B$
 
 * the image under $f^\ast$ of the right morphism, which is $f^\ast f_! f^ \ast A \otimes f^\ast  B \overset{f^\ast \epsilon_A \otimes id}{\longrightarrow} f^\ast A \otimes f^\ast B$.
 
 That composite is the identity by the [[triangle identity]] in each of the two variables. 
 
 In conclusion, the left vertical morphism is the adjunct of the identity, and hence the counit as claimed.
-\end{remark}
+\end{proof}
+
+\begin{proposition}
+\label{AdjunctionCounitByTensoringWithCounitOnTensorUnit}
+  The $(f_! \dashv f^\ast)$-[[adjunction counit]] on any object is, up to [[isomorphism]] given by the [[tensor product]] with the adjunction counit on the [[tensor unit]]:
+$$
+  \epsilon_{\mathscr{V}}
+  \,\colon\,
+  f_! f^\ast \mathscr{V}
+  \,\simeq\,
+  \mathscr{V} \otimes f_! f^\ast(\mathscr{V})
+  \overset{  
+    id_{\mathscr{V}}
+    \,\otimes\,
+    \epsilon_{\mathbb{1}}
+  }{\longrightarrow}
+  \mathscr{V} \,\otimes\, \mathbb{1}
+  \,\simeq\,
+  \mathscr{V}
+$$
+\end{proposition}
+\begin{proof}
+The identification is given by the following [[commuting diagram]]:
+
+\begin{tikzcd}
+    f_! f^\ast \mathcal{V}
+    \ar[
+      rr,
+      "{ \epsilon_{\mathcal{V}} }"
+    ]
+    \ar[
+      d,
+      "{ f_! f^\ast (r_{\mathcal{V}}) }",
+      "{\sim}"{sloped, swap}
+    ]
+    &&
+    \mathcal{V}
+    \ar[
+      d,
+      "{ r_{\mathcal{V}} }",
+      "{ \sim }"{sloped, swap}
+    ]
+    \\
+    f_! f^\ast 
+    \big(
+      \mathcal{V}_{\mathcal{Y}}
+      \otimes 
+      1
+    \big)
+    \ar[
+      rr,
+      "{ \epsilon_{\mathcal{V} \otimes 1} }"
+    ]
+    \ar[
+      d,
+      "{ \sim }"{sloped, swap}
+    ]
+    &&
+    \mathcal{V} \otimes 1
+    \ar[d, equals]
+    \\
+    f_!
+    \big(
+      f^\ast \mathcal{V}
+      \otimes
+      f^\ast 1
+    \big)
+    \ar[
+      d,
+      "{ \overline{\pi} }",
+      "{ \sim }"{sloped}
+    ]
+    \ar[rr]
+    &&
+    \mathcal{V} \otimes 1
+    \ar[d, equals]
+    \\
+    \mathcal{V} \otimes f_! f^\ast 1
+    \ar[
+      rr,
+      "{
+        \mathcal{V} 
+          \,\otimes\,
+        \epsilon_{1}
+      }"
+    ]
+    &&
+    \mathcal{V} \otimes 1
+\end{tikzcd}
+
+Here
+
+1. the top square is the [[naturality square]] of the [[adjunction counit]] on the right [[unitor]],
+
+1. the bottom square is that from Prop. \ref{ProjectionComposedWithCounitInRemainingVariable}.
+
+\end{proof}
 
 
 ### Comparison of push-forwards and Wirthm&#252;ller isomorphism
