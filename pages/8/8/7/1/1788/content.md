@@ -1,11 +1,22 @@
 
 $$
+  f_! f^\ast (X)
+  \;\simeq\;
+  f_!( f^\ast X \otimes f^\ast \mathbb{1} )
+  \;\simeq\;
+  X \times f_! f^\ast \mathbb{1}
+$$
+
+
+$$
   L^\ast \big( P(-,a) \cdot j \big)
   \;\simeq\;
   P\big(L(-),a\big) \cdot j
   \;\simeq\;
   P\big(-,R(a)\big) \cdot j
 $$
+
+
 
 
 $$
@@ -22,6 +33,7 @@ $$
   =
   f_! (f^\ast(1 \otimes f^\ast f_! X) \to f_! X
 $$
+
 
 ## Examples
 
