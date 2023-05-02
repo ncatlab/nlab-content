@@ -157,7 +157,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
 
 
 
-* **$(n=3)$** -- A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram
+* {#SchematicsIn3d} **$(n=3)$** -- A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram
 
   <img width = "550" src="http://www.math.uni-hamburg.de/home/schreiber/pics/koh.gif" alt="components of transformations" />
 
