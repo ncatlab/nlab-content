@@ -40,4 +40,7 @@ Here we have, as usual, denoted by $A^*$ the [[free monoid]] (of all strings of 
 
 * [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press, see also [here](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf) for a shorter version in the form of Course Notes.
 
+* Guido Boccali, Bojana Femić, Andrea Laretto, Fosco Loregian, Stefano Luneia, _The semibicategory of Moore automata_ ([arXiv:2305.00272](https://arxiv.org/abs/2305.00272))
+
+
 [[!redirects Moore machines]]
