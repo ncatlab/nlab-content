@@ -1043,6 +1043,20 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### May 2023
+
+\linebreak
+
+* 1 May 2023
+
+  [Hichem El Euch](https://scholar.google.com/citations?user=xnUL1qYAAAAJ) (American University of Sharjah, UAE):
+
+  **High-fidelity universal quantum computation with symmetric qubit clusters**
+
+  > Designing a physical device that maintains the error rate for each quantum processing operation low is one of the most arduous issues for the implementation of a scalable [[quantum computer]]. These errors may result from inaccurate quantum manipulation, such as a gate voltage sweeping in [[solid-state physics|solid-state]] [[qubits]] or a [[laser]] pulse duration. [[decoherence|Decoherence]] is usually a manifestation of the interaction with the environment, and it is an entity of the [[quantum system]] which generates errors. Small clusters of [[qubits]] with symmetries can be used to shield part of them from [[decoherence]]. We encode pairs of connected qubits and universal 2-qubit [[quantum gates|logical gates]] using 4-level cores with omega-rotation invariance. We show that symmetry renders logical operations particularly resistant to anisotropic qubit rotations that models some quantum errors. We suggest a scalable method for universal quantum processing in which cores act as quansistors, or quantum transistors. By adjusting their intrinsic variables, quansistors may be dynamically isolated from their environment, providing them the adaptability needed to function as controlled [[quantum memory]] units.
+
+\linebreak
+
 ***
 
 \linebreak
@@ -1084,7 +1098,7 @@ Weekly seminar, broadly on topics in [[geometry]], ([[algebraic topology|algebra
 
   video: [rec](https://nyu.zoom.us/rec/share/smsfBPZ5n5poB889nfwEzjcb20_SrsgCcFOJBcg492YsxbhCwTz1-8OXxJBGVvxx.CZRA2MziA5nleJWP)
 
-  > In this talk I will discuss the relation between [[higher geometric quantisation]] and the [global geometry underlying](double+field+theory#ReferencesInHigherDifferentialGeometry) [[duality in string theory|string dualities]]. Higher geometric quantisation is a promising framework that makes quantisation of [[classical field theories]] achievable. This can be obtained by quantising either an ordinary prequantum bundle on the ∞-stack of solutions of the equations of motion or a categorified prequantum bundle on a generalised phase space. I will discuss how the higher quantum geometry of string theory underlies the [[topological T-duality|global geometry of]] [[T-duality]]. In particular, I will illustrate how a globally well-defined moduli stack of [[tensor hierarchies]] can be constructed and why this is related to a higher gauge theory with the [[string 2-group]]. Finally, I will interpret the formalism of Extended Field Theory as an atlas description of the higher quantum geometry of string theory.
+  > In this talk I will discuss the relation between [[higher geometric quantisation]] and the [global geometry underlying](double+field+theory#ReferencesInHigherDifferentialGeometry) [[duality in string theory|string dualities]]. Higher geometric quantisation is a promising framework that makes quantisation of [[classical field theories]] achievable. This can be obtained by quantising either an ordinary prequantum bundle on the ∞-stack of solutions of the equations of motion or a categorified prequantum bundle on a generalised phase space. I will discuss how the higher quantum geometry of string theory underlies the [[topological T-duality|global geometry of]] [[T-duality]]. In particular, I will illustrate how a globally well-defined moduli stack of [[tensor hierarchies]] can be constructed and why this is related to a higher gauge theory with the [[string 2-group]]. Finally, I will interpret the formalism of [[extended field theory|Extended Field Theory]] as an atlas description of the higher quantum geometry of string theory.
 
 \linebreak
 
@@ -1521,6 +1535,7 @@ Stone-von Neumann**
 
 \linebreak
 
+
 * {#WilsonApr2023} 26 Apr 2023
 
   [[Jenny Wilson]] (University of Michigan, USA):
@@ -1529,7 +1544,23 @@ Stone-von Neumann**
 
   cf.: [arXiv:2201.04096](https://arxiv.org/abs/2201.04096)
 
+  slides: [[Wilson-CQTS-Apr-2023.pdf:file]]
+
   > This talk will give an introduction of the field of '[[representation stability]]'. I will discuss how we can use [[representation theory]] to illuminate the structure of certain families of [[groups]] or [[topological spaces]] with [[group action|actions]] of the [[symmetric groups]], focusing on [[braid groups]] and [[configuration spaces of points|configuration spaces]] as motivating examples.
+
+\linebreak
+
+### May 2023
+
+* 3 May 2023
+
+  [[Martina Rovelli]] (University of Massachusetts, Amherst, USA):
+
+  **$n$-Complicial sets as a model for $(\infty,n)$-categories**
+
+  cf.: [arXiv:1809.10621](https://arxiv.org/abs/1809.10621), [arXiv:2206.02689](https://arxiv.org/abs/2206.02689)
+
+  > The formalism of [[extended TQFTs]] relies the notion of an [[(infinity,n)-category|$(\infty,n)$-category]]: a categorical structure with [[n-morphism|morphisms in each dimension]], which can be composed in a weakly associative way, and which are weakly invertible in dimension higher than $n$. In this expository talk I will describe the notion of an [[n-complicial sets|$n$-complicial set]], explain the intuition for how this implements the idea of an [[(infinity,n)-category|$(\infty,n)$-category]], and discuss some of the advantages and disadvantages of this approach.
 
 \linebreak
 
