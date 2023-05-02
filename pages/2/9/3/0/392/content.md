@@ -45,7 +45,7 @@ Some adjectives are almost universally used as "red herring adjectives," i.e. pl
 
 * Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
 
-Sometimes a red herring is only a red herring in degenerate case, perhaps only one case:
+Sometimes a red herring is only a red herring in degenerate cases, perhaps only one case:
 
 * Fixing a [[natural number]] $n$, a [[homogeneous polynomial]] of degree $n$ is almost always a [[polynomial]] of degree $n$, but there is one exception: the [[zero]] polynomial has no degree (or is degree $-1$ or degree $-\infty$, depending on conventions), yet it is homogeneous of any degree.
 
