@@ -15,13 +15,13 @@
 
 ## Idea
 
-Complicial sets are precisely those [[stratified simplicial set]]s which arise as the [[oriental|omega nerve]] of a [[strict omega-category]].
+Complicial sets are precisely those [[stratified simplicial sets]] which arise as the [[oriental|omega nerve]] of a [[strict omega-category]].
 
 
 
 ## Definition
 
-A $k$-**admissible** $n$-simplex in a stratified simplicial set $X$ is a [[stratified simplicial set|map of stratified simplicial sets]] $\Delta^a_k[n] \to X$. Explicitly, this consists of a (thin) $n$-simplex $x \in X$ such that $x\cdot\alpha$ is thin for every $\alpha \colon [m] \to [n]$ whose image contains $k-1$, $k$, and $k+1$.
+A $k$-**admissible** [[n-simplex|$n$-simplex]] in a [[stratified simplicial set]] $X$ is a [[stratified simplicial set|map of stratified simplicial sets]] $\Delta^a_k[n] \to X$. Explicitly, this consists of a (thin) $n$-simplex $x \in X$ such that $x\cdot\alpha$ is thin for every $\alpha \colon [m] \to [n]$ whose image contains $k-1$, $k$, and $k+1$.
 
 A **complicial set** is a [[stratified simplicial set]] satisfying the following three axioms:
 
