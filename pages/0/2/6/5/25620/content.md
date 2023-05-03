@@ -147,7 +147,13 @@ $$
 
 ## References
 
-Original definition:
+The original definition, with an explicit formula is in Section 6 of
+
+* [[Albert Nijenhuis]], _Jacobi-type identities for bilinear differential concomitants of certain tensor fields. II_, [[Indagationes Mathematicae]] (Proceedings) 58: (1955), 398-403.  [doi][Nijenhuis]
+
+[Nijenhuis]: http://dx.doi.org/10.1016/s1385-7258(55)50055-2
+
+Further development:
 
 * [[Alfred Frölicher]], [[Albert Nijenhuis]], _Theory of vector-valued differential forms.  Part I.  Derivations in the graded ring of differential forms_, Indagationes Mathematicae (Proceedings) 59 (1956), 338–350 and 351–359.  [doi:10.1016/s1385-7258(56)50046-7][1] and [doi:10.1016/s1385-7258(56)50047-9][2].
 
