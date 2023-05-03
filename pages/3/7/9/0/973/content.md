@@ -395,10 +395,12 @@ On the other hand $M$-models in $S$-Mod are pairs of monoids one of which has on
 
 * [[internalization]]
 
+
 ## References
 
-Original articles:
+### General
 
+Original articles:
 
 * {#BastianiEhresmann72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome **13** no 2 (1972)  104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
@@ -434,6 +436,15 @@ The category of sketches itself was studied as a [[categorical semantics]] for [
 See also
 
 * [[Martin Brandenburg]], *Large limit sketches and topological space objects* ([arXiv:2106.11115](https://arxiv.org/abs/2106.11115))
+
+### In enriched category theory
+
+Discussion of sketches the generality of [[enriched category theory]]:
+
+* {#Kelly82} [[G. Max Kelly]], *Structures defined by finite limits in the enriched context, I*, Cahiers de topologie et géométrie différentielle **23** 1 (1982)  3-42 &lbrack;[numdam:CTGDC_1982__23_1_3_0](http://archive.numdam.org/item/CTGDC_1982__23_1_3_0)&rbrack;
+
+
+* [[Francis Borceux]], [[Carmen Quinteriro]], [[Jiří Rosický]], *A theory of enriched sketches*, Theory and Applications of Categories, **4** 3 (1998) 47-72 &lbrack;[tac:4-03](http://www.tac.mta.ca/tac/volumes/1998/n3/4-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1998/n3/n3.pdf)&rbrack;
 
 
 [[!redirects sketches]]
