@@ -42,6 +42,8 @@ See the article [[Frölicher–Nijenhuis bracket]] for more information.
 
 The formula for the NR bracket is made explicit in and thus derives its name from:
 
+* [[Albert Nijenhuis]], [[Roger W. Richardson]], Section 2 of: _Cohomology and deformations of algebraic structures_,  Bulletin of the American Mathematical Society 70:3 (1964), 406–412.  [doi](http://dx.doi.org/10.1090/s0002-9904-1964-11117-4).
+
 * [[Albert Nijenhuis]], [[Roger W. Richardson]], Section 5 of: *Deformations of Lie Algebra Structures*, Journal of Mathematics and Mechanics **17** 1 (1967) 89-105 &lbrack;[jstor:24902154](https://www.jstor.org/stable/24902154)&rbrack;
 
 but the existence of the bracket is already implicit in:
