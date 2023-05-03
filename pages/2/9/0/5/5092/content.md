@@ -4,11 +4,18 @@ Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One
 * [website](http://www.math.muni.cz/~rosicky/)
 
 
+
 ## Selected writings
 
 On [[locally presentable categories|locally presentable]] and [[accessible categories]]:
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
+
+On [[sketches]] (and [[accessible categories]]) the generality of [[enriched category theory]]:
+
+* [[Francis Borceux]], [[Carmen Quinteriro]], [[Jiří Rosický]], *A theory of enriched sketches*, Theory and Applications of Categories, **4** 3 (1998) 47-72 &lbrack;[tac:4-03](http://www.tac.mta.ca/tac/volumes/1998/n3/4-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1998/n3/n3.pdf)&rbrack;
+
+
 
 On (co-)[[reflective factorization systems]]:
 
@@ -39,7 +46,7 @@ Introducing [[cellular categories]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[locally presentable category]]
 
