@@ -83,6 +83,8 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
+* [[AccCat]], [[LocPresCat]]
+
 * [[elementary theory of the category of categories]]
 
 [[!include categories of categories - contents]]
@@ -96,9 +98,9 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 See also the references at _[[category]]_ and _[[category theory]]_.
 
-Discussion of (certain) [[pushouts]] in $Cat$ is in 
+Discussion of (certain) [[pushouts]] in $Cat$:
 
-* {#MacdonalScull} John Macdonald, Laura Scull, _Amalgamations of categories_ ([pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf))
+* {#MacdonalScull} John Macdonald, [[Laura Scull]], _Amalgamations of categories_ ([pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf))
 
 
 category: category
