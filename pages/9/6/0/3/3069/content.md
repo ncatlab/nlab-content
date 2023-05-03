@@ -636,6 +636,198 @@ Then the [[pullback]] $D' = \varnothing$ is the [[empty category]]. Therefore
 In particular, if the [[strict categories]] involved in the pullback diagram (eq:StrictPullbackOfOpfibration) are all [[groupoids]], then a functor such as $\phi$ being a [[Kan fibration]] is equivalent to its [[nerve]] being a [[Kan fibration]] (see at *[[right Kan fibration]]*, [this and](right%2Fleft+Kan+fibration#FibrationInGroupoidsAsRightKanFibrations) [this Prop](right%2Fleft+Kan+fibration#OverKanComplex)), in which case the pullback diagram (eq:StrictPullbackOfOpfibration) models the [[homotopy pullback]] (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
 \end{remark}
 
+### Enriched functor categories
+
+Consider
+
+* $(\mathbf{V}, \otimes, \mathbb{1})$ a [[cocomplete category|cocomplete]] [[symmetric monoidal category]], regarded as a [[cosmos for enrichment]],
+
+* $\mathbf{C}$ a [[cocomplete category|cocomplete]] $\mathbf{V}$-[[enriched category]] which is also [[tensoring|tensored]] over $\mathbf{V}$, denoted:
+
+  $$
+    (-)\cdot(-)
+    \;\colon\;
+    \mathbf{V} \times \mathbf{C}
+    \longrightarrow
+    \mathbf{C} 
+  $$
+
+and write
+
+* for any [[small category|small]] $\mathbf{V}$-[[enriched category]] $\mathcal{X} \,\in\, \mathbf{V}Cat^{small}$:
+
+  $$
+    \mathbf{V}Func(\mathcal{X},\,\mathbf{C})
+    \;\in\;
+    Cat
+  $$ 
+  
+  for the $\mathbf{V}$-[[enriched-functor category]] from $\mathcal{X}$ to $\mathbf{C}$,
+
+* for any $\mathbf{V}$-enriched functor $f \,\colon\, \mathcal{X} \longrightarrow \mathcal{Y}$:
+
+  $$
+    \mathbf{V}Func(\mathcal{X},\,\mathbf{C})
+    \underoverset
+      {\underset{f^\ast}{\longleftarrow}}
+      {\overset{f_!}{\longrightarrow}}
+      {\;\;\; \bot \;\;\;}
+    \mathbf{V}Func(\mathcal{Y},\,\mathbf{C})
+  $$
+
+  for the [[pair]] of [[adjoint functors]] given by [[precomposition]] and by [[left Kan extension]], the latter being expressible by the following [[coend]]-formula (see [there](Kan+extension#eq:LeftKanExtensionViaCoendFormula)):
+
+\[
+  \label{CoendFormulaForLeftKanExtension}
+  \mathscr{V}_{(-)}
+  \;\in\; \mathbf{V}Func(\mathcal{X},\,\mathbf{C})
+  \;\;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;\;
+  (f_! \mathscr{V})_y
+  \;\simeq\;
+  \int^{x \in \mathcal{X}}
+  \mathcal{X}\big(f(x),\,y\big)
+  \cdot
+  \mathscr{V}_{x}
+  \,.
+\]
+
+
+The following is a rather simplistic but maybe instructive example:
+
+\begin{example}
+\label{ForPushPullofEnrichedPresheavesThroughProjectionDiagram}
+In the case of a *[[cartesian closed category|cartesian closed]]* [[cosmos]] $(\mathbf{V}, \times, \ast)$
+consider for $\mathcal{X}, \mathcal{Y}, \mathcal{X}' \,\in\, \mathbf{V}Cat^{small}$
+a commuting diagram of $\mathbf{V}$-[[enriched functors]] of the following form:
+$$
+  \array{
+    \mathcal{X} \times \mathcal{X}'
+    &\overset{f \times id}{\longrightarrow}&
+    \mathcal{Y} \times \mathcal{X}'
+    \\
+    \mathllap{{}^{pr_{\mathcal{X}}}}
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow
+    \mathrlap{{}^{pr_{\mathcal{Y}}}}
+    \\
+    \mathcal{X}
+    &\underset{\;\;\; f \;\;\;}{\longrightarrow}&
+    \mathcal{Y}
+  }
+$$
+(which is a [[pullback]] square in the [[1-category]] of [[strict category|strict]] $\mathbf{V}$-[[enriched categories]]).
+ 
+Then the Beck-Chevalley condition on $\mathbf{C}$-valued $\mathbf{V}$-functors holds, in that the following [[commuting diagram|diagram commutes]]:
+$$
+  \array{
+    \mathbf{V}Func(
+      \mathcal{X} \times \mathcal{X}'
+      ,\,
+      \mathbf{C}
+    \big)
+    &\overset{(f \times id)_!}{\longrightarrow}&
+    \mathbf{V}Func(
+      \mathcal{Y} \times \mathcal{X}'
+      ,\, 
+      \mathbf{C}
+    )
+    \\
+    \mathllap{{}^{(pr_{\mathcal{X}})^\ast}}
+    \big\uparrow
+    &&
+    \big\uparrow
+    \mathrlap{{}^{(pr_{\mathcal{Y}})^\ast}}
+    \\
+    \mathbf{V}Func(\mathcal{X},\,\mathbf{C})
+    &\underset{\;\;\; f_! \;\;\;}{\longrightarrow}&
+    \mathbf{V}Func(\mathcal{Y},\,\mathbf{C})
+  }
+$$
+
+To see this, we may check object-wise as follows:
+$$
+  \begin{array}{l}
+  \big(
+    (f \times id)_! 
+    (pr_{\mathcal{X}})^\ast
+    \mathscr{V}
+  \big)_{(y,x')}
+  \\
+  \;=\;
+  \int^{(x,x'_0)}
+  \mathcal{Y}\big(f(x),y\big)
+  \times
+  \mathcal{X}'\big(x'_0,x'\big)
+  \cdot
+  \big(
+    (pr_{\mathcal{X}})^\ast\mathscr{V}_{x,x'_0}
+  \big)
+  \\
+  \;=\;
+  \int^{(x,x'_0)}
+  \mathcal{Y}\big(f(x),y\big)
+  \times
+  \mathcal{X}'\big(x'_0,x'\big)
+  \cdot
+  \mathscr{V}_{x}
+  \\
+  \;=\;
+  \int^{x'_0}
+  \int^{x}
+  \mathcal{Y}\big(f(x),y\big)
+  \times
+  \mathcal{X}'\big(x'_0,x'\big)
+  \cdot
+  \mathscr{V}_{x}
+  \\
+  \;\simeq\;
+  \int^{x'_0}
+  \mathcal{X}'\big(x'_0,x'\big)
+  \times
+  \int^{x}
+  \mathcal{Y}\big(f(x),y\big)
+  \cdot
+  \mathscr{V}_{x}
+  \\
+  \;\simeq\;
+  \int^{x}
+  \mathcal{Y}\big(f(x), y\big)
+  \cdot
+  \mathscr{V}_{x}
+  \\
+  \;\simeq\;
+  \big(
+    f_!
+    \mathscr{V}
+  \big)_y
+  \\
+  \;\simeq\; 
+  \big(
+  (pr_{\mathcal{Y}})^\ast
+  (
+    f_!
+    \mathscr{V}
+  )
+  \big)_{y,x'}
+  \,,
+  \end{array}
+$$
+where we used (apart from the definition of [[precomposition]]), in order of appearance: 
+
+1. the [[coend]]-expression (eq:CoendFormulaForLeftKanExtension) for the [[left Kan extension]], 
+
+1. the [[Fubini theorem]] for coends ([here](end#Fubini)),
+
+1. the fact that the [[closed monoidal category|closed tensor]] $(-) \times (-)$ [[preserves colimits]] and hence [[coends]] in each variable,
+
+1. the [[co-Yoneda lemma]] in the coend-form [here](co-Yoneda+lemma#coYonedaLemma) 
+
+and finally the expression (eq:CoendFormulaForLeftKanExtension) again.
+\end{example}
+
 ### Proper base change in &#233;tale cohomology
 
 For [[coefficients]] of [[torsion group]], [[étale cohomology]]
