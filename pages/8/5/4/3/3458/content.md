@@ -4,7 +4,7 @@ This entry is about the monograph:
  
   [[Francis Borceux]] and [[George Janelidze]]: 
 
-  **Galois theories** 
+  **Galois Theories** 
   
   Camb. Stud. Adv. Math. **72** 
 
@@ -130,10 +130,11 @@ Index.
   Fernand Nathan, 1977.
 
 * A. R. Magid,  _The separable Galois theory of commutative rings_,
-  Marcel Dekker, 1974.
+
+* Marcel Dekker, 1974.
 
 
-[[!redirects Galois theories]]
 
 category: reference
 category: Galois theory
+
