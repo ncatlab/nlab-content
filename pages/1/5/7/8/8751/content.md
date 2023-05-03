@@ -13,6 +13,8 @@
 
   * [[elementary theory of the 2-category of categories]] ([[ETCC]])
 
+  * [[AccCat]]
+
   * [[PrCat]]
 
   * [[MonCat]]
