@@ -1,85 +1,8 @@
 
 
-$$
-  \array{
-    \mathcal{X} \otimes \mathcal{X}'
-    &\overset{f \otimes id}{\longrightarrow}&
-    \mathcal{Y} \otimes \mathcal{X}'
-    \\
-    \mathllap{{}^{pr_{\mathcal{X}}}}
-    \big\downarrow
-    &{}^{{}_{pb}}&
-    \big\downarrow
-    \mathrlap{{}^{pr_{\mathcal{Y}}}}
-    \\
-    \mathcal{X}
-    &\underset{\;\;\; f \;\;\;}{\longrightarrow}&
-    \mathcal{Y}
-  }
-$$
+  $\mathbf{V}Func(\mathcal{X},\,\mathbf{C})$ for the $\mathbf{V}$-[[enriched functor category]] from $\mathcal{X}$ to $\mathbf{C}$,
 
-
-$$
-  \begin{array}{l}
-  \big(
-    (f \times id)_! 
-    (pr_{\mathcal{X}})^\ast
-    \mathscr{V}
-  \big)_{(y,x')}
-  \\
-  \;=\;
-  \int^{(x,x'_0)}
-  \mathcal{Y}\big(f(x),y\big)
-  \otimes
-  \mathcal{X}'\big(x'_0,x'\big)
-  \cdot
-  \big(
-    (pr_{\mathcal{X}})^\ast\mathscr{V}_{x,x'_0}
-  \big)
-  \\
-  \;=\;
-  \int^{(x,x'_0)}
-  \mathcal{Y}\big(f(x),y\big)
-  \otimes
-  \mathcal{X}'\big(x'_0,x'\big)
-  \cdot
-  \mathscr{V}_{x}
-  \\
-  \;\simeq\;
-  \int^{x'_0}
-  \mathcal{X}'\big(x'_0,x'\big)
-  \otimes
-  \int^{x}
-  \mathcal{Y}\big(f(x),y\big)
-  \cdot
-  \mathscr{V}_{x}
-  \\
-  \;\simeq\;
-  \int^{x}
-  \mathcal{Y}\big(f(x), y\big)
-  \cdot
-  \mathscr{V}_{x}
-  \\
-  \;\simeq\;
-  \big(
-    f_!
-    \mathscr{V}
-  \big)_y
-  \\
-  \;\simeq\; 
-  \big(
-  (pr_{\mathcal{Y}})^\ast
-  (
-    f_!
-    \mathscr{V}
-  )
-  \big)_{y,x'}
-  \end{array}
-$$
-
-$$
-  sFunc(\mathbf{B}\mathcal{G},\, \mathbf{C})
-$$
+* for any $\mathbf{V}$-enriched functor $f \,\colon\, \mathcal{X} \longrightarrow \mathcal{Y}$:
 
 
    \[
