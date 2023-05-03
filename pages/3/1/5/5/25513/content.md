@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 Given a [[smooth manifold]] $X$, the __Lie bracket__ of [[vector fields]] $u$ and $v$ can be defined in several ways.
@@ -20,8 +36,13 @@ The real [[vector space]] of [[vector fields]] on $X$ equipped with the Lie brac
 
 ## Related concepts
 
+* [[Schouten bracket]]
+
 * [[vector field]]
 
 * [[Lie derivative]]
 
 * [[Lie algebra]]
+
+
+
