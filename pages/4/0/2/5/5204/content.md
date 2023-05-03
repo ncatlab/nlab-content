@@ -13,7 +13,21 @@
 =--
 =--
 
-A **PIE-limit** is a [[strict 2-limit]] which can be constructed from strict [[cartesian product|products]], [[strict inserters]], and [[strict equifiers]].  (More precisely, the class of PIE-limits is the [[saturation of a class of weights|saturation]] of the class containing products, inserters, and equifiers.  Any PIE-limit is in particular a [[flexible limit]], and therefore also a (non-strict) [[2-limit]].
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[2-category]]-theory, by a **PIE-limit** one means a [[strict 2-limit]] which can be constructed from 
+
+1. (P) strict [[cartesian product|products]], 
+
+1. (I) [[strict inserters]], 
+
+1. (E) [[strict equifiers]].  
+
+More precisely, the class of PIE-limits is the [[saturation of a class of weights|saturation]] of the class containing products, inserters, and equifiers.  Any PIE-limit is in particular a [[flexible limit]], and therefore also a (non-strict) [[2-limit]].
 
 Furthermore, all [[strict pseudo-limits]] are PIE-limits, and therefore any [[strict 2-category]] which admits all PIE-limits also admits all non-strict 2-limits, although it may not have all strict 2-limits.  This is the case, for instance, for the 2-category of strict algebras and pseudo morphisms over a [[strict 2-monad]].
 
@@ -23,7 +37,7 @@ PIE-limits can also be characterized as the coalgebras for a [[pseudo morphism c
 
 * Blackwell, [[Max Kelly|Kelly]], and [[John Power|Power]], *Two-dimensional monad theory*, Journal of Pure and Applied Algebra 59 (1989) 1-41. doi:[10.1016/0022-4049(89)90160-6](https://doi.org/10.1016/0022-4049%2889%2990160-6)
 
-* [[John Power|Power]] and Robinson, *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc. (1991) 110, 33. doi:[10.1017/S0305004100070092](https://doi.org/10.1017/S0305004100070092)
+* [[John Power]], [[Edmund Robinson]], *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc.  **110** (1991) 33 &lbrack;[doi:10.1017/S0305004100070092](https://doi.org/10.1017/S0305004100070092)&rbrack;
 
 [[!redirects PIE-limit]]
 [[!redirects PIE limit]]
