@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -233,6 +237,140 @@ where the first step is the functoriality of images with respect to subset inclu
 Now to see that this inclusion is actually an equality...
 \end{proof}
 
+## Beck-Chevalley condition
+
+The two ways of consecutively forming [[images]] and [[preimages]] along maps that form a [[pullback diagram]] coincide according to Prop. \ref{BeckChevalleyForPreImages}  below -- a simple example of what is known as a "[[Beck-Chevalley condition]]".
+
+First to recall our notation: As above, for a [[set]] $S \,\in\, Set$, we write $\mathcal{P}(S)$ for its [[power set]] regarded as a [[poset]], meaning that
+
+1. $\mathcal{P}(S)$ is the set of [[subsets]] $A \subset S$,
+
+1. regarded as a [[category]] by declaring that there is a [[morphisms]] $A \to B$ precisely if $A \subset B$ as subsets of $S$.
+
+Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obtain the follows three [[functors]] between their [[power sets]]:
+
+1. $f_! \,\coloneqq\, f(-) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
+
+   forms [[images]] under $f$
+
+1. $f^\ast \,\coloneqq\, f^{-1} \,\colon\, \mathcal{P}(T) \longrightarrow \mathcal{P}(S)$
+
+   forms [[preimages]] under $f$,
+
+1. $f_ast \,\coloneqq\, T \setminus f\big(S \setminus (-)\big) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
+
+   forms the [[complement]] of [[images]] of [[complements]].
+
+As discussed above, these three functors constitute an [[adjoint triple]] 
+
+$$
+  f(-) \;\dashv\; f^{-1} \;\dashv\; f_\ast
+$$
+
+In particular, the familiar/evident fact that forming [[images]] and [[preimages]] [[preserved colimit|preserves]] [[unions]] may be understood as a special case of the fact that [[left adjoints preserve colimits]].
+
+\begin{proposition}\label{BeckChevalleyForPreImages}
+**([[Beck-Chevalley condition]] for pre-/images)**
+\linebreak
+Given a [[pullback diagram]] in [[Set]]
+
+   \[
+     \label{PullbackOfSets}
+     \array{
+       D' 
+         &\overset{\beta}{\longrightarrow}& 
+       D
+       \\
+       \mathllap{{}^{\psi}}\big\downarrow 
+       &{}^{{}_{(pb)}}& 
+       \big\downarrow\mathrlap{{}^{\phi}}
+       \\
+       C' 
+         &\underset{\alpha}{\longrightarrow}& 
+       C
+     }  
+   \]
+then consecutively forming (pre)images along these maps satisfies a *[[Beck-Chevalley condition]]* in that the following [[diagram]] of [[poset]]-[[homomorphisms]] ([[functors]]) [[commuting diagram|commutes]]:
+
+   \[
+     \label{RightBeckChevalleyDiagramForPreImages}
+     \array{
+       \mathcal{P}(D') 
+         &\overset{\beta_!}{\longrightarrow}& 
+       \mathcal{P}(D)
+       \\
+       \mathllap{{}^{\psi^{-1}}}\big\uparrow
+       && 
+       \big\uparrow\mathrlap{{}^{\phi^{-1}}}
+       \\
+       \mathcal{P}(C') 
+         &\underset{\alpha_!}{\longrightarrow}& 
+       \mathcal{P}(C)
+     }  
+   \]
+\end{proposition}
+\begin{proof}
+To see this it is sufficient to check commutativity on [[singleton]]-[[subsets]] (because every other subset is a [[union]] of singletons and, as just remarked, [[interactions of images and pre-images with unions and intersections|images and preimages preserve unions]])
+and given a [[singleton]] set $\{c'\} \subset C'$ on an element $c' \,\in\, C'$, we directly compute as follows: 
+   \[
+     \label{PreimagesInAPullbackDiagram}
+     \begin{array}{l}
+     \beta \circ \psi^{-1}\big(\{c'\}\big)
+     \\
+     \;\simeq\;
+     \beta\Big(
+       \big\{ 
+         (c',d) 
+         \,\big\vert\,
+         d \,\in\, D
+         \,,
+         \phi(d) = \alpha(c')
+       \big\}
+     \Big)
+     \\
+     \;=\;
+     \big\{ 
+       d \,\in\, D
+       \,\big\vert\,
+       \phi(d) = \alpha(c')
+     \big\}
+     \\
+     \;=\;
+     \phi^{-1}\big(
+      \{\alpha(c')\}
+     \big)
+     \\
+     \;=\;
+     \phi^{-1} \circ \alpha\big(\{c'\}\big)
+     \,.
+     \end{array}
+   \]
+Here it is the first two steps which make use of the assumption that (eq:PullbackOfSets) is a [[pullback square]], namely which means that $D'$ is compatibly [[bijection|bijective]] to the [[fiber product]] of $C'$ with $D$ over $C$:
+$$
+  \array{
+  D' 
+  &\simeq&
+  \big\{  
+    (c', d) \in C' \times D 
+    \,\big\vert\,
+    \phi(d) 
+      \,=\, 
+    \alpha(c') 
+  \big\}
+  \\
+  \mathllap{{}^{\beta}}
+  \big\downarrow 
+    && 
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  \big\downarrow\mathrlap{{}^{ (c',d) \mapsto d }}
+  \\
+  D 
+  &=& 
+  \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!
+  D
+  }
+$$
+\end{proof}
 
 
 ## Related statements
