@@ -72,11 +72,10 @@ Ordinary [[fibration fibered in groupoids|categories fibered in groupoids]] have
 
 Then
 
-+-- {: .num_prop }
-###### Proposition
-
-The functor $p : E \to B$ is a  [[fibration fibered in groupoids|fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a right Kan fibration of simplicial sets
-=--
+\begin{proposition}
+\label{FibrationInGroupoidsAsRightKanFibrations}
+A [[functor]] $p \colon E \to B$ is a  [[fibration fibered in groupoids|fibration in groupoids]] precisely if its [[nerve]] $N(p) \colon N(E) \to N(B)$ is a right Kan fibration of [[simplicial sets]].
+\end{proposition}
 
 To see this, first notice the following facts:
 
