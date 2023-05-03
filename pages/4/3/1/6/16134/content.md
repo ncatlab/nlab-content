@@ -49,6 +49,11 @@ on [[differential geometry]] with particular emphasis on [[natural bundles]] and
 
 ## Chapter V. Finite order theorems
 
+* [[Frölicher–Nijenhuis bracket]]
+
+* [[Schouten-Nijenhuis bracket]]
+
+
 ## Chapter VI. Methods for finding natural operators
 
 ## Chapter VII. Further operations
