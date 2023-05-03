@@ -118,4 +118,3 @@
 * [[enriched category theory]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/higher+category+theory+-+contents)</div>
