@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -49,7 +48,7 @@ for a uniquely defined $[K,L]\in\Omega^{k+l}(M,TM)$.
 
 ## Classification of graded derivations of differential forms
 
-Taken together, the [[Frölicher–Nijenhuis bracket]] and the [[Nijenhuis–Richardson bracket]] allows us to fully classify the graded derivations of the algebra of [[differential forms]] on $M$:
+Taken together, the [[Frölicher–Nijenhuis bracket]] and the [[Nijenhuis–Richardson bracket]] allows us to fully classify the [[graded derivations]] of the [[de Rham algebra]] of [[differential forms]] on $M$:
 
 A graded dervation $D$ of degree $k$ on $\Omega(M)$ has a unique presentation of the form
 $$D=L_K + \iota_L,$$
@@ -145,6 +144,14 @@ $$
 * [[Nijenhuis–Richardson bracket]]
 
 * [[Nijenhuis tensor]]
+
+## References
+
+Discussion as a [[natural operation]]:
+
+* {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], p. 175 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
+
+
 
 
 [[!redirects Frölicher–Nijenhuis+brackets]]
