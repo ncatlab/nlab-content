@@ -38,6 +38,11 @@ $$
 For [[multivector fields]] regarded as “[[antifields]]” in [[BV-BRST formalism]], the Schouten bracket is called the _[[antibracket]]_.
 
 
+## Applications
+
+Suppose $P\in\Gamma(\Lambda^2 TM)$.
+The the bracket $\{f,g\}=\langle df\wedge dg,P\rangle$ satisfies the [[Jacobi identity]] (and hence is a [[Poisson bracket]]) if and only if $[P,P]=0$.
+
 ## Related concepts
 
 * [[Lie bracket of vector fields]]
