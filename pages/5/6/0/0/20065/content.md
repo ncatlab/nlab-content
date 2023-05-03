@@ -1,4 +1,19 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
+
+
+
+
+
 # Accessible weak factorization systems
 
 * table of contents
@@ -25,9 +40,11 @@ Properties of the algebraic small object argument yield (2)$\Rightarrow$(3)$\Rig
 \end{proof}
 
 \begin{lemma}
-Suppose $E$ is an accessible functorial factorization on a locally presentable category $M$, realizing a weak factorization system.  Then there is an accessible algebraic weak factorization system realizing the same weak factorization system.
+\label{EnhancementToAlgebaicWeakFactorization}
+Suppose $E$ is an accessible functorial factorization on a [[locally presentable category]] $M$, realizing a [[weak factorization system]].  Then there is an accessible [[algebraic weak factorization system]] realizing the same weak factorization system.
 \end{lemma}
 \begin{proof}
+\label{ProofOfEnhancementToAlgebaicWeakFactorization}
 Let $Coalg(L)$ be the category of [[algebra over an endofunctor|coalgebras]] for the [[pointed endofunctor|copointed endofunctor]] of the [[arrow category]] $M^\to$ induced by $E$, i.e. morphisms equipped with a section of their $E$-factorization exhibiting them as a retract of the first factor.  Then $Coalg(L)$ is locally presentable (being complete and a [[PIE limit]] construction from $M$).  Thus, it has a small dense subcategory $X$.  We can then apply [[Garner's small object argument]] to generate an algebraically-free algebraic weak factorization system from $X$.  The algebraic right-maps in this awfs are the morphisms with coherent lifting functions against $X$, which by density is the same as having a coherent lifting function against all of $Coalg(L)$, which is the same as being an algebra for the pointed endofunctor of $M^\to$ corresponding to $E$.  Thus this is an awfs with the same right-maps, hence the same underlying weak factorization system.
 \end{proof}
 
