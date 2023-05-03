@@ -161,12 +161,7 @@ In particular, the underlying [[endofunctor]] of a strong monad is a [[strong fu
 
 A __right-strength__ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the left-strength.
 
-**Remark.** In some papers, the term "strength" is used for what is here called a "left-strength" and the term "costrength" is used for what is here called a "right-strength". However, this terminology is confusing, as it is not in line with the usual convention in category theory of prefixing a term by "co-" when it is the same concept in the [[opposite category]]: instead, a left-strength is a right-strength with respect to the reversal of the tensor product $A\otimes^{rev} B = B\otimes A$. In our terminology, a **left-costrength** is a coherent natural transformation $T(A \otimes B) \to A \otimes TB$ and a **right-costrength** is a coherent natural transformation $T(A \otimes B) \to TA \otimes B$.
-
-When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the [[braiding]] $b$ allows to obtain a left-strength from a right-strength and vice versa,
-\begin{tikzcd}
-T A \otimes B \ar{r}{b_{T A,B}}[swap]{\cong} & B\otimes T A \ar{r}{t_{B,A}} & T(B \otimes A) \ar{r}{Tb_{B,A}}[swap]{\cong} & T(A\otimes B) .
-\end{tikzcd}
+**Remark.** In some papers, the term "strength" is used for what is here called a "left-strength" and the term "costrength" is used for what is here called a "right-strength". However, this terminology is confusing, as it is not in line with the usual convention in category theory of prefixing a term by "co-" when it is the same concept in the [[opposite category]]: instead, a left-strength is a right-strength with respect to the [[reverse monoidal category|reversal of the tensor product]] $A\otimes^{rev} B = B\otimes A$. See [[tensorial costrength]] for more details.
 
 A __strength__ (on a monoidal category which is not necessarily symmetric) is a left-strength and a right-strength such that the two induced maps $(X\otimes T Y) \otimes Z \to T(X\otimes (Y\otimes Z))$ agree.  If the category is symmetric monoidal, then $T$ is a [[commutative monad]] if it is equipped with a left-strength (hence also a right-strength) such that the two induced maps $T X \otimes T Y \to T(X\otimes Y)$ agree.
 
@@ -495,6 +490,8 @@ In other words, a monad being left-strong is a [[property-like structure]] in a 
 ## Related concepts
 
 * [[tensorial strength]]
+
+* [[costrong monad]], [[cotensorial strength]]
 
 * [[monoidal monad]]
 
