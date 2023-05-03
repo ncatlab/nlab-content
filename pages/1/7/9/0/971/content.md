@@ -14,6 +14,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {:toc}
@@ -120,7 +121,7 @@ The [[2-category]] $Acc$ of accessible categories, accessible functors, and natu
 
 =--
 
-This can be found in [Makkai & Paré (1989)](#MakkaiParé1989).  Some special cases are proven in [Ad&#225;mek-Rosick&#253;](#AdamekRosicky).
+This can be found in [Makkai & Paré (1989)](#MakkaiParé1989).  Some special cases are proven in [Ad&#225;mek-Rosick&#253;](#AdámekRosický1994).
 
 
 
@@ -188,8 +189,28 @@ See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
 * Every accessible category $C$ is [[well-powered category|well-powered]], since it has a small [[dense subcategory]] $A$, for which the [[restricted Yoneda embedding]] $C\to [A^{op},Set]$ is fully faithful and preserves monomorphisms, hence embeds the subobject posets of $C$ as sub-posets of those of $[A^{op},Set]$.
 
-* Every accessible category with [[pushouts]] is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdamekRosicky).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-copowered then there exist arbitrarily large [[measurable cardinals]].
+* Every accessible category with [[pushouts]] is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdámekRosický1994).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-copowered then there exist arbitrarily large [[measurable cardinals]].
 
+### The 2-category of accessible categories
+
+Write [[AccCat]] for the [[2-category]] whose
+
+* [[objects]] are [[accessible categories]], 
+
+* [[1-morphisms]] are [[accessible functors]] 
+
+* [[2-morphisms]] are [[natural transformations]].
+
+\begin{proposition}
+\label{AccCatHasAllPIELimits}
+  The [[2-category]] [[AccCat]] has all (lax) [[2-limits]] and these are [[preserved limit|preserved]] by the inclusion $AccCat \to$ [[Cat]].
+\end{proposition}
+This appears as [Makkai & Paré (1989), Thm. 5.1.6, Cor. 5.1.8](#MakkaiParé1989), [Adámek & Rosický (1994) around Thm. 2.77](#AdámekRosický1994).
+
+\begin{proposition}
+Given a [[cosmos for enrichment]] $\mathcal{V}$ which is ([[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] and) [[locally presentable category|locally presentable]], then the [[2-category]] $\mathcal{V}$-[[AccCat]] of $\mathcal{V}$-[[enriched category|enriched]] [[accessible categories]] has all [[PIE 2-limits]] and [[split idempotent|splittings]] of [[idempotent]] [[equivalence in a 2-category|equivalences]], equivalently it has all [[flexible 2-limits]].
+\end{proposition}
+This is [Lack & Tendas (2023), Thm. 5.5](#LackTendas23).
 
 ## Examples
 
@@ -209,28 +230,25 @@ See at _[Functor category -- Accessibility](functor+category#LocalPresentability
 
 ## References 
 
+### General
+
 The term _accessible category_ is due to
 
 * {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
 
 Further monographs (with focus on [[locally presentable categories]]):
 
-* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994) 
+* {#AdámekRosický1994} [[Jiří Adámek]], [[Jiří Rosický]], *[[Locally presentable and accessible categories]]*, London Mathematical Society Lecture Note Series **189**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)&rbrack;
 
 See also
 
-* {#Par&#233;Rosick&#253;} [[Robert Paré]], [[Jiří Rosický]], _Colimits of accessible categories_ ([arXiv:1110.0767](http://arxiv.org/abs/1110.0767))
+* {#Par&#233;Rosick&#253;} [[Robert Paré]], [[Jiří Rosický]], *Colimits of accessible categories*, Math. Proc. Cambr. Phil. Soc. **155** (2013) 47-50 &lbrack;[doi:10.1017/S0305004113000030](https://doi.org/10.1017/S0305004113000030), [arXiv:1110.0767](http://arxiv.org/abs/1110.0767)&rbrack;
  
 
 * [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
 
 which further stratifies the accessible categories in terms of [[sound doctrines]].
 
-New characterizations of (enriched) accessible categories have been given in
-
-* [[Stephen Lack]], [[Giacomo Tendas]], _Virtual concepts in the theory of accessible categories_, Journal of Pure and Applied Algebra, 2022. [arXiv:2205.11056](https://arxiv.org/abs/2205.11056), [doi](https://doi.org/10.1016/j.jpaa.2022.107196)
-
-where the notions of virtual orthogonality and virtual reflectivity are introduced. 
 
 The concept is studied in a 2-categorical setting in
 
@@ -253,9 +271,26 @@ See also:
 
 * {#Rezk2021} [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf))
 
-Enriched version
+### In enriched category theory
+ {#ReferencesInEnrichedCategoryTheory}
 
-* [[Francis Borceux]], Carmen Quinteriro, _Enriched accessible categories_, Bull. Austral. Math. Soc. __54__ (1996) 489--501 [doi](https://doi.org/10.1017/S0004972700021900)
+Discussion of accessible [[enriched categories]] (see also [references on enriched locally presentable categories](locally+presentable+category#ReferencesInEnrichedCategoryTheory)):
+
+* [[Francis Borceux]], [[Carmen Quinteriro]], *Enriched accessible categories*, Bull. Austral. Math. Soc. __54__ (1996) 489-501 &lbrack;[doi:10.1017/S0004972700021900](https://doi.org/10.1017/S0004972700021900)&rbrack;
+
+* [[Francis Borceux]], [[Carmen Quinteriro]], [[Jiří Rosický]], *A theory of enriched sketches*, Theory and Applications of Categories, **4** 3 (1998) 47-72 &lbrack;[tac:4-03](http://www.tac.mta.ca/tac/volumes/1998/n3/4-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1998/n3/n3.pdf)&rbrack;
+
+* {#LackTendas23} [[Stephen Lack]], [[Giacomo Tendas]], *Virtual concepts in the theory of accessible categories*, Journal of Pure and Applied Algebra **227** 2 (2023) 107196 &lbrack;[arXiv:10.1016/j.jpaa.2022.107196](https://doi.org/10.1016/j.jpaa.2022.107196), [arXiv:2205.11056](https://arxiv.org/abs/2205.11056)&rbrack;
+
+  > New characterizations of (enriched) accessible categories and introducing the notions of virtual orthogonality and virtual reflectivity. 
+ 
+
+
 
 
 [[!redirects accessible categories]]
+
+[[!redirects enriched accessible category]]
+[[!redirects enriched accessible categories]]
+
+
