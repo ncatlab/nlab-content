@@ -1,18 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 Suppose $M$ is a [[smooth manifold]].
-Recall (from the article [[Nijenhuis–Richardson bracket]]) that any differential $(k+1)$-form $K\in\Omega^{k+1}(M,TM)$ valued in the [[tangent bundle]] of $M$ gives rise to a [[graded derivation]] $\iota_K$ of degree $k$ on the algebra of [[differential forms]] on $M$: on 1-forms we have $\iota_K \omega=\omega\circ K$ and on higher forms we extend using the Leibniz identity.
+Recall (e.g. from the article *[[Nijenhuis–Richardson bracket]]*) that any [[differential form|differential $(k+1)$-form]] $K\in\Omega^{k+1}(M,T M)$ valued in the [[tangent bundle]] of $M$ gives rise to a [[graded derivation|graded]] [[derivation]] $\iota_K$ of degree $k$ on the [[de Rham algebra]] of [[differential forms]] on $M$: on [[differential 1-form|1-forms]] we have $\iota_K \omega=\omega\circ K$ and on higher forms we extend using the [[Leibniz rule]].
 
 Concretely,
-$$\iota_K \omega(X_1,\ldots,X_{k+l})=1/((k+1)!(l-1)!)\sum_\sigma (-1)^\sigma \omega(K(Y_1,\ldots,Y_{k+1}),Y_{k+2},\ldots),$$
-where $Y_i=X_{\sigma(i)}$.
+$$
+  \iota_K \omega(X_1,\ldots,X_{k+l})
+  \;=\;
+  \frac
+    {1}
+    {(k+1)!(l-1)!} 
+  \sum_\sigma (-1)^\sigma
+  \omega\big(
+    K(Y_{\sigma(1)} ,\, \ldots ,\, Y_{\sigma(k+1)})
+    ,\,
+    Y_{\sigma(k+2)}
+    ,\,\ldots
+  \big)
+  \,,
+$$
+where the [[sum]] is over all [[permutations]] $\sigma \in$ [[symmetric group|$Sym(k+l)$]] and where $(-1)^\sigma$ denotes the [[signature of a permutation|sign of the permutation]].
 
 [[Cartan's magic formula]]
 $$L_X=[\iota_X,d]$$
-makes it natural to define the [[Lie derivative]] with respect to $K\in\Omega^k(M,TM)$:
+makes it natural to define the [[Lie derivative]] with respect to $K\in\Omega^k(M,\, T M)$:
 $$L_K=[\iota_K,d].$$
 
-The map $L$ defines an injective homomorphism of [[graded vector spaces]] from $\Omega(M,TM)$ to graded derivations of $\Omega(M)$.  Its image comprises precisely those derivations $D$ such that $[D,d]=0$ and is closed under the commutator operation.  Transferring the bracket to its source yields the __Frölicher–Nijenhuis bracket__:
+The map $L$ defines an [[injective]] [[homomorphism]] of [[graded vector spaces]] from $\Omega(M,TM)$ to graded derivations of $\Omega(M)$.  Its image comprises precisely those derivations $D$ such that $[D,d]=0$ and is closed under the commutator operation.  Transferring the bracket to its source yields the __Frölicher–Nijenhuis bracket__:
 $$L_{[K,L]} = [L_K,L_L]$$
 for a uniquely defined $[K,L]\in\Omega^{k+l}(M,TM)$.
 
@@ -42,20 +73,70 @@ valued in the [[tangent bundle]] $TM$ of $M$,
 their __Frölicher–Nijenhuis bracket__ is a [[differential form]]
 $$[P,Q]\in\Omega^{k+l}(M,TM)$$
 defined by the formula
-$$[P,Q](X_1,\ldots,X_{k+l})=1/(k!l!) \sum_\sigma (-1)^\sigma 
-\left(
-[P(Y_1,\ldots,Y_k),Q(Y_{k+1},\ldots,Y_{k+l})]
--l Q([P(Y_1,\ldots,Y_k),Y_{k+1}],Y_{k+2},\ldots)
-+(-1)^{k l}k P([Q(Y_1,\ldots,Y_k),Y_{k+1}],Y_{k+2},\ldots)
-+(-1)^{k-1}(k l/2) Q(P([Y_1,Y_2],Y_3,\ldots),Y_{k+2},\ldots)
-+(-1)^{(k-1)l}(k l/2) P(Q([Y_1,Y_2],Y_3,\ldots),Y_{k+2},\ldots) \right),$$
-where $Y_i=X_{\sigma(i)}$ and $(-1)^\sigma$ is the sign of the [[permutation]] $\sigma$.
+$$
+  \begin{array}{l}
+  [P,Q](X_1,\ldots,X_{k+l})
+  \;\coloneqq\;
+  \frac{1}{k! l!} 
+  \sum_\sigma (-1)^\sigma 
+  \Big(
+    &
+    \big[
+      P(Y_{\sigma(1)},\ldots, Y_{\sigma(k)}),
+      \, 
+      Q(Y_{\sigma(k+1)},\ldots,Y_{\sigma(k+l)})
+    \big]
+    \\
+    &
+    -l 
+    \,
+    Q\big(
+      [P(Y_{\sigma(1)},\ldots,Y_{\sigma(k)})
+      ,\,
+      Y_{\sigma(k+1)}]
+      ,\,Y_{\sigma(k+2)},
+      \ldots
+    \big)
+    \\
+    &
+    +(-1)^{k l} k 
+    \,
+    P\big(
+      [Q(Y_{\sigma(1)},\ldots,Y_{\sigma(k)})
+      ,\,
+      Y_{\sigma(k+1)}], Y_{\sigma(k+2)},\ldots\big)
+    \\
+    &
+    + \frac{1}{2} (-1)^{k-1}  k l  
+    \,
+    Q\big(
+      P([Y_{\sigma(1)},Y_{\sigma(2)}],Y_{\sigma(3)},
+      \ldots),Y_{\sigma(k+2)},\ldots
+    \big)
+    \\
+    &
+    + \frac{1}{2} (-1)^{(k-1)l} k l
+    \,
+    P\big(
+      Q([Y_{\sigma(1)},Y_{\sigma(2)}],Y_{\sigma(3)},\ldots),Y_{\sigma(k+2)}, \ldots
+    \big) 
+  \Big)
+  \,,
+  \end{array}
+$$
+and $(-1)^\sigma$ is the [[signature of a permutation|sign of the permutation]] $\sigma$.
 
 ## Applications
 
 The [[Nijenhuis tensor]] of an [[almost complex structure]] $J\in\Omega^1(M,TM)$ is $[J,J]$.
 The explicit formula yields
-$$[J,J](X,Y)=2([JX,JY]-[X,Y]-J[X,JY]-J[JX,Y]).$$
+$$
+  [J,J](X,Y)
+  \;=\;
+  2\big(
+    [J X, J Y] - [X,Y] - J[X, J Y] - J[J X,Y]
+  \big).
+$$
 
 ## Related concepts
 
@@ -64,3 +145,7 @@ $$[J,J](X,Y)=2([JX,JY]-[X,Y]-J[X,JY]-J[JX,Y]).$$
 * [[Nijenhuis–Richardson bracket]]
 
 * [[Nijenhuis tensor]]
+
+
+[[!redirects Frölicher–Nijenhuis+brackets]]
+
