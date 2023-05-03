@@ -74,9 +74,8 @@ An object that is both initial and [[terminal object|terminal]] is called a [[ze
 ### Left adjoints to constant functors
 
 
-+-- {: .num_prop }
-###### Proposition
-
+\begin{proposition}
+\label{AdjointsToConstantFunctors}
 Let $\mathcal{C}$ be a [[category]].
 
 1. The following are equivalent:
@@ -112,8 +111,7 @@ Let $\mathcal{C}$ be a [[category]].
       $$
 
     Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
-
-=--
+\end{proposition}
 
 
 +-- {: .proof}
