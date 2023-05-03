@@ -43,6 +43,8 @@ Also "contravariantly natural" bundles such as bundle of [[covectors]] are somet
 
 * [[tractor bundle]]
 
+* [[Schouten-Nijenhuis bracket]]
+
 ## References
 
 Originally introduced in
@@ -53,7 +55,11 @@ Originally introduced in
 
 A comprehensive reference is available in
 
-* {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of _[[Natural operations in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
+* {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
+
+The example of the [[Schouten-Nijenhuis bracket]]:
+
+* {#Michor87} [[Peter W. Michor]], *Remarks on the Schouten-Nijenhuis bracket*,  In: Bureš, J. and Souček, V. (eds.): *Proceedings of the Winter School "Geometry and Physics"* Circolo Matematico di Palermo, Palermo (1987) 207-215 &lbrack;[dml:701423](https://dml.cz/handle/10338.dmlcz/701423), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/701423/WSGP_07-1987-1_21.pdf), [[Michor-SchoutenNijenhuisBracket.pdf:file]]&rbrack;
 
 
 [[!redirects natural bundles]]
