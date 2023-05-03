@@ -61,6 +61,10 @@ The notion is due to:
 
 * [[Albert Nijenhuis]], _Jacobi-type identities for bilinear differential concomitants of certain tensor fields I_, Indagationes Mathematicae **17** (1955) 390–403 &lbrack;[doi:10.1016/S1385-7258(55)50054-0](https://doi.org/10.1016/S1385-7258(55)50054-0)&rbrack;
 
+A coordinate-free treatment is given in
+
+* W. M. Tulczyjew, _The Graded Lie Algebra of Multivector Fields and the Generalized Lie Derivative of Forms_. Bulletin de l'Académie Polonaise des Sciences. Série des Sciences Mathématiques, Astronomiques et Physiques 22:9 (1974), 937–942.  [PDF](https://dmitripavlov.org/scans/tulczyjew-the-graded-lie-algebra-of-multivector-fields-and-the-generalized-lie-derivative-of-forms.pdf).
+
 Characterization as a [[natural operation]] is due to:
 
 * {#Michor87} [[Peter W. Michor]], *Remarks on the Schouten-Nijenhuis bracket*,  In: Bureš, J. and Souček, V. (eds.): *Proceedings of the Winter School "Geometry and Physics"* Circolo Matematico di Palermo, Palermo (1987) 207-215 &lbrack;[dml:701423](https://dml.cz/handle/10338.dmlcz/701423), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/701423/WSGP_07-1987-1_21.pdf), [[Michor-SchoutenNijenhuisBracket.pdf:file]]&rbrack;
