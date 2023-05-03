@@ -1,4 +1,38 @@
 
+$$
+  \begin{array}{l}
+  \big((f \times id)_! \mathscr{V}\big)_{(y,x')}
+  \\
+  \;=\;
+  \int^{(x,x'_0)}
+  \mathcal{Y}\big(f(x),y\big)
+  \otimes
+  \mathcal{X}'\big(x'_0,x'\big)
+  \cdot
+  \mathscr{V}_{x,x'_0}
+  \\
+  \;\simeq\;
+  \int^{x'_0}
+  \mathcal{X}'\big(x'_0,x'\big)
+  \otimes
+  \int^{x}
+  \mathcal{Y}\big(f(x),y\big)
+  \cdot
+  \mathscr{V}_{x, x'_0}
+  \\
+  \;\simeq\;
+  \int^{x}
+  \mathcal{Y}\big(f(x), y\big)
+  \cdot
+  \mathscr{V}_{x,x'}
+  \end{array}
+$$
+
+$$
+  sFunc(\mathbf{B}\mathcal{G},\, \mathbf{C})
+$$
+
+
    \[
      \label{PreimagesInAPullbackDiagram}
      \begin{array}{l}
