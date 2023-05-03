@@ -53,7 +53,7 @@ I\otimes F(v) & \overset{\beta_{I,v}}{\to} & F(I\otimes v) \\
 $$
 where $\alpha$ is the [[associator]] and $\lambda$ is the [[unitor]].
 
-A **tensorial right-strength** is defined symmetrically, as a natural transformation
+A **tensorial right-strength** (not to be confused with a [[tensorial costrength]]) is defined symmetrically, as a natural transformation
 $$\gamma_{v, w}: F(w) \otimes v \to F(w \otimes v)$$
 
 When $V$ is [[symmetric monoidal category|symmetric]], tensorial left strengths are equivalently tensorial right strengths, and in this setting, one usually drops "left-" or "right-" and simply talks about **tensorial strengths**.
@@ -139,10 +139,12 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 
 * [[cartesian closed functor]]
 * [[strong monad]]
+* [[tensorial costrength]]
+* [[commutative monad]]
 
 ## References 
 
-The tentative 'more conceptual' definition of tensorial strength, as well as the 'description' above, arose in this discusssion:
+The tentative 'more conceptual' definition of tensorial strength, as well as the 'description' above, arose in this discussion:
 
 * [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
 
