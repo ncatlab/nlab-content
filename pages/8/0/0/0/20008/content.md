@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Categories of categories
++--{: .hide}
+[[!include categories of categories - contents]]
+=--
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
