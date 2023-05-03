@@ -83,8 +83,6 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
-* [[AccCat]], [[LocPresCat]]
-
 * [[elementary theory of the category of categories]]
 
 [[!include categories of categories - contents]]
