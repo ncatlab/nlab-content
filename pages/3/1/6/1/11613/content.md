@@ -43,7 +43,7 @@ See also [Rennela & Staton (2020)](#RennelaStaton17) for more general discussion
 
 ## References
 
-* {#Hudak98} [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=685738), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
+* {#Hudak98} [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](http://staff.um.edu.mt/afra1/seminar/ModularDSL.pdf), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
 
 Discussion for embedding in [[Haskell]]:
 
