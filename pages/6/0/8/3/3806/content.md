@@ -123,6 +123,15 @@ Possible relation to [[spacetime]] [[causality]] (cf. *[[causets]]*):
 
 > **Abstract**: We prove that a globally hyperbolic [[spacetime]] with its causality relation is a bicontinuous [[poset]] whose interval topology is the manifold topology. From this one can show that from only a countable dense set of events and the causality relation, it is possible to reconstruct a globally hyperbolic spacetime in a purely order theoretic manner. The ultimate reason for this is that globally hyperbolic spacetimes belong to a category that is equivalent to a special category of domains called interval domains. We obtain a mathematical setting in which one can study causality independently of geometry and differentiable structure, and which also suggests that spacetime emerges from something discrete.
 
+### Categorical notions of domain
+
+The informal idea is to replace partial orders with  categories, so that there is more space for intensionality. An early reference, which proposes  the notion of [[Scott-complete category]]:
+
+* [A categorical generalization of Scott domains](https://doi.org/10.1017/S0960129597002351), [[Jiri Adamek]]. Mathematical Structures in Computer Science , Volume 7 , Issue 5 , October 1997 , pp. 419 - 443.
+
+The following reference proposes using [[presheaf categories]] as a generalization of prime [[algebraic lattices]]. This also connects to work on [[species#variants|generalized species]]:
+
+* [Domain theory for concurrency](https://www.cl.cam.ac.uk/~gw104/DomThy.pdf), Mikkel Nygaard and [[Glynn Winskel]].
 
 
 
