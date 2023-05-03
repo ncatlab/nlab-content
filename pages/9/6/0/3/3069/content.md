@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
 =--
 =--
 
@@ -323,7 +327,7 @@ $$
 
 1. regarded as a [[category]] by declaring that there is a [[morphisms]] $A \to B$ precisely if $A \subset B$ as subsets of $S$.
 
-Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obtain the follows three [[functors]] between their [[power sets]]:
+Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obtain the followin three [[functors]] between their [[power sets]]:
 
 1. $f_! \,\coloneqq\, f(-) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
 
@@ -618,8 +622,10 @@ Then the [[pullback]] $D' = \varnothing$ is the [[empty category]]. Therefore
 
   (concretely, $\psi_! \colon \ast \simeq [\varnothing, \mathcal{C}] \to [C',\mathcal{C}]$ is [[left adjoint]] to the projection functor to the [[terminal category]] and [hence](initial+object#AdjointsToConstantFunctors) picks the [[initial object]] of $[C',\mathcal{C}]$),
 
-* while $\alpha^* \circ \phi_!$ is the [[identity functor]], as readily seen via (eq:PointwiseLeftKanExtensionInOpfiberedCase).
+* while $\alpha^* \circ \phi_!$ is the [[identity functor]]
 
+  (to see this observe first that $[C,\mathcal{C}]$ now may be identified with the [[arrow category]] of $\mathcal{C}$, and second that, under this identification, $\phi_! \colon X \mapsto id_X$ sends any [[object]] of $\mathcal{C}$ to its [[identity morphism]], as is verified by observing that this is clearly [[left adjoint]] to the [[domain]]-restriction $\phi^\ast$).
+   
 \end{remark}
 
 \begin{remark}
