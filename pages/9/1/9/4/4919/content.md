@@ -9,6 +9,11 @@ On [[coherence theorems]] in [[category theory]] and [[bicategory]] theory:
 
 * [[A. J. Power]],  _A general coherence result_, J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
 
+On [[PIE-limits]]:
+
+* [[John Power]], [[Edmund Robinson]], *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc.  **110** (1991) 33 &lbrack;[doi:10.1017/S0305004100070092](https://doi.org/10.1017/S0305004100070092)&rbrack;
+
+
 On [[coherence theorems]] for [[tricategories]]:
 
 * [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
