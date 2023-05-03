@@ -6,7 +6,7 @@
 
 * [IAS page](http://www.math.ias.edu/~phares/deligne/Deligne.html), 
 
-* publication list ([pdf](http://www.math.ias.edu/~phares/deligne/publications.pdf)) 
+* publication list ([pdf](https://www.ias.edu/sites/default/files/math/deligne/DelignePublications.pdf)) 
 
 * list of scanned articles: [numdam](http://www.numdam.org/numdam-bin/recherche?au=Deligne,+Pierre&format=short) 
 
