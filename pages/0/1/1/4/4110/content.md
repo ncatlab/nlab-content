@@ -13,6 +13,8 @@ In certain parts of the mathematics community this is also called **Baez\'s law*
 
 ## Examples
 
+Stigler himself named the sociologist Robert K. Merton as the discoverer of [[Stigler's law of eponymy]], so that it is itself an example of [[Stigler's law of eponymy]].
+
 ### In mathematics
 
 * [[currying|Currying]] was first identified by [[Moses Schonfinkel|Moses Schönfinkel]], rather than by [[Haskell Curry]].
