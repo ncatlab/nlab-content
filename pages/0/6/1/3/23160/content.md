@@ -46,7 +46,7 @@ In other words, [[Infinity-Grpd|$Grpd_\infty$]] is the [[terminal object in an (
 ## Properties
 
 \begin{proposition}
-  The geometric morphism (eq:TheGeometricMorphism) exists essentially uniqyely.
+  The geometric morphism (eq:TheGeometricMorphism) exists essentially uniquely.
 \end{proposition}
 (e.g. [Lurie 2009, HTT 6.3.4.1](#Lurie09))
 \begin{proof}
