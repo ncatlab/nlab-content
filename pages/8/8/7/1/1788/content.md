@@ -1,4 +1,133 @@
 
+\begin{example}
+  Given a [[set]] $S \,\in\, Set$, write $\mathcal{P}(S)$ for its [[power set]] regarded as a [[poset]], meaning that
+
+1. $\mathcal{P}(S)$ is the set of [[subsets]] $A \subset S$,
+
+1. regarded as a [[category]] by declaring that there is a [[morphisms]] $A \to B$ precisely if $A \subset B$ as subsets of $S$.
+
+Then for $f \,\colon\, S \longrightarrow T$ a [[function]] between sets, we obtain the follows three [[functors]] between their [[power sets]]:
+
+1. $f_! \,\coloneqq\, f(-) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
+
+   forms [[images]] under $f$
+
+1. $f^\ast \,\coloneqq\, f^{-1} \,\colon\, \mathcal{P}(T) \longrightarrow \mathcal{P}(S)$
+
+   forms [[preimages]] under $f$,
+
+1. $f_ast \,\coloneqq\, T \setminus f\big(S \setminus (-)\big) \,\colon\, \mathcal{P}(S) \longrightarrow \mathcal{P}(T)$
+
+   forms the [[complement]] of [[images]] of [[complements]].
+
+These three functors constitute an [[adjoint triple]] 
+
+$$
+  f(-) \;\dashv\; f^{-1} \;\dashv\; f_\ast
+$$
+
+as is readily verified and also discussed at some length in the entry *[[interactions of images and pre-images with unions and intersections]]*.
+
+In particular, the familiar/evident fact that forming [[images]] and [[preimages]] [[preserved colimit|preserves]] [[unions]] may be understood as a special case of the fact that [[left adjoints preserve colimits]].
+
+Now given a [[pullback diagram]] in [[Set]]
+
+   \[
+     \label{PullbackOfSets}
+     \array{
+       D' 
+         &\overset{\beta}{\longrightarrow}& 
+       D
+       \\
+       \mathllap{{}^{\psi}}\big\downarrow 
+       &{}^{{}_{(pb)}}& 
+       \big\downarrow\mathrlap{{}^{\phi}}
+       \\
+       C' 
+         &\underset{\alpha}{\longrightarrow}& 
+       C
+     }  
+   \]
+
+then these operations satisfy the left Beck-Chevalley condition in the sense that the following [[diagram]] of [[poset]]-[[homomorphisms]] ([[functors]]) [[commuting diagram|commutes]]:
+
+   \[
+     \label{RightBeckChevalleyDiagramForPreImages}
+     \array{
+       \mathcal{P}(D') 
+         &\overset{\beta_!}{\longrightarrow}& 
+       \mathcal{P}(D)
+       \\
+       \mathllap{{}^{\psi^{-1}}}\big\uparrow
+       && 
+       \big\uparrow\mathrlap{{}^{\phi^{-1}}}
+       \\
+       \mathcal{P}(C') 
+         &\underset{\alpha_!}{\longrightarrow}& 
+       \mathcal{P}(C)
+     }  
+   \]
+To see this it is sufficient to check commutativity on [[singleton]]-[[subsets]] (because every other subset is a [[union]] of singletons and, as just remarked, [[interactions of images and pre-images with unions and intersections|images and preimages preserve unions]])
+and given a [[singleton]] set $\{c'\} \subset C'$ on an element $c' \,\in\, C'$, we directly compute as follows: 
+   \[
+     \label{PreimagesInAPullbackDiagram}
+     \begin{array}{l}
+     \beta \circ \psi^{-1}\big(\{c'\}\big)
+     \\
+     \;\simeq\;
+     \beta\Big(
+       \big\{ 
+         (c',d) 
+         \,\big\vert\,
+         d \,\in\, D
+         \,,
+         \phi(d) = \alpha(c')
+       \big\}
+     \Big)
+     \\
+     \;=\;
+     \big\{ 
+       d \,\in\, D
+       \,\big\vert\,
+       \phi(d) = \alpha(c')
+     \big\}
+     \\
+     \;=\;
+     \phi^{-1}\big(
+      \{\alpha(c')\}
+     \big)
+     \\
+     \;=\;
+     \phi^{-1} \circ \alpha\big(\{c'\}\big)
+     \,.
+     \end{array}
+   \]
+Here it is the first two steps which make use of the assumption that (eq:PullbackOfSets) is a [[pullback square]], namely which means that $D'$ is compatibly [[bijection|bijective]] to the [[fiber product]] of $C'$ with $D$ over $C$:
+
+$$
+  \array{
+  D' 
+  &\simeq&
+  \big\{  
+    (c', d) \in C' \times D 
+    \,\big\vert\,
+    \alpha(c') \,=\, \phi(d) 
+  \big\}
+  \\
+  \mathllap{{}^{\beta}}
+  \big\downarrow 
+    && 
+  \big\downarrow\mathrlap{{}^{ (c',d) \mapsto d }}
+  \\
+  D &=& D
+  }
+$$
+\end{example}
+
+
+
+
+
 $$
   \begin{array}{l}
   \big((f \times id)_! \mathscr{V}\big)_{(y,x')}
