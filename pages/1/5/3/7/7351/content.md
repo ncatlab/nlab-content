@@ -25,7 +25,10 @@ On [[accessible categories]] and [[categorical semantics|categorical]] [[model t
 On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
- 
+
+On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
+
+* [[Robert Paré]], [[Jiří Rosický]], *Colimits of accessible categories*, Math. Proc. Cambr. Phil. Soc. **155** (2013) 47-50 &lbrack;[doi:10.1017/S0305004113000030](https://doi.org/10.1017/S0305004113000030), [arXiv:1110.0767](http://arxiv.org/abs/1110.0767)&rbrack; 
 
 ## Related entries
 
