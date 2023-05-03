@@ -39,6 +39,11 @@ On [[class-locally presentable categories]]:
 * [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra **216**, Issue 10 (2012) pp 2113–2125 ([doi:10.1016/j.jpaa.2012.01.015](https://doi.org/10.1016/j.jpaa.2012.01.015))
 
 
+On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
+
+* [[Robert Paré]], [[Jiří Rosický]], *Colimits of accessible categories*, Math. Proc. Cambr. Phil. Soc. **155** (2013) 47-50 &lbrack;[doi:10.1017/S0305004113000030](https://doi.org/10.1017/S0305004113000030), [arXiv:1110.0767](http://arxiv.org/abs/1110.0767)&rbrack; 
+
+
 Introducing [[cellular categories]]:
 
 * {#MakkaiRosický14} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, J. Pure Appl. Alg. **218** (2014) 1652-1664 &lbrack;[arXiv:1304.7572](https://arxiv.org/abs/1304.7572), [doi:10.1016/j.jpaa.2014.01.005](https://doi.org/10.1016/j.jpaa.2014.01.005)&rbrack;
