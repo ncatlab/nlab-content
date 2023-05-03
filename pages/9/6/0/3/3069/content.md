@@ -384,7 +384,7 @@ The proof relies on two observations:
     \phi_!(X)_c 
     \;\simeq\; 
     \underset
-      {\underset{\phi^{-1}(c)}{\longrightarrow}}
+      {\underset{\phi^{-1}\big(\{c\}\big)}{\longrightarrow}}
       {\lim} 
      \,
       X
