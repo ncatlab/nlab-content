@@ -30,12 +30,12 @@
 ##Idea
 
 The _Kan extension_ of a [[functor]]
-$F : C \to D$ with respect to a functor
+$F \colon C \to D$ with respect to a [[functor]]
 $$
  \array{
   C
   \\
-  \downarrow^p
+  \big\downarrow\mathrlap{{}^p}
   \\
   C'
  }
@@ -47,18 +47,18 @@ $$
   \array{
      C &\stackrel{F}{\to}& D
      \\
-     \downarrow^p & \nearrow
+     \mathllap{{}^p}\big\downarrow & \nearrow
      \\
      C'
   }
   \,,
 $$
 
-hence to extending the [[domain]] of $F$ through $p$ from $C$ to $C'$.
+hence to [[extension|extending]] the [[domain]] of $F$ through $p$ from $C$ to $C'$.
 
-More generally, this makes sense not only in [[Cat]] but in any [[2-category]].
+More generally, this notion makes sense not only in [[Cat]] but in any [[2-category]].
 
-Similarly, a [[Kan lift]] is the best approximation to lifting a morphism $F : C \to D$ through a morphism
+Similarly, a *[[Kan lift]]* is the best approximation to lifting a morphism $F \colon C \to D$ through a morphism
 
 $$
   \array{
@@ -321,7 +321,7 @@ A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and on
 ([[Categories Work]], theorem X.5.3)
 
 
-#### in terms of weighted (co)limits 
+#### In terms of weighted (co)limits 
  {#PointwiseByWeightedColimits}
 
 Suppose given $F : C \to D$ and $p : C \to C'$ such that for every $c' \in C'$, the [[weighted limit]]
@@ -344,15 +344,36 @@ One can prove that any Kan extension constructed in this way must be pointwise, 
 
 Unfolding the definitions of weighted (co)limits, these can be defined as representing objects 
 $$
-  D(d, (Ran_p F)(c')) \simeq Set^C(C'(c', p(-)), D(d, F(-)))
+  D\big(
+   d
+   ,\, 
+   (Ran_p F)(c')
+  \big) 
+  \;\simeq\; 
+  Set^C\Big(
+    C'\big(c', p(-)\big)
+    ,\, 
+    D\big(d, F(-)\big)
+  \Big)
 $$
 $$
-  D((Lan_p F)(c'), d) \simeq Set^{C^{op}}(C'(p(-), c'), D(F(-), d))
+  D\big(
+    (Lan_p F)(c')
+    ,\, 
+    d
+  \big)  
+  \;\simeq\; 
+  Set^{C^{op}}\Big(
+    C'\big(p(-), c'\big)
+    ,\, 
+   D\big(F(-), d\big)
+  \Big)
+  \,.
 $$
-Similarly, in the $V$-enriched setting, replace $Set$ with $V$.
+Similarly, for $V$-[[enriched categories]], replace [[Set]] here with the [[cosmos for enrichment]] $V$.
 
 
-#### in terms of (co)ends 
+#### In terms of (co)ends 
  {#PointwiseByCoEnds}
 
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
@@ -434,7 +455,7 @@ This is particularly suggestive in cases when we may think of the objects of $C$
 
 
 
-#### in terms of conical (co)limits
+#### In terms of conical (co)limits
  {#PointwiseByConicalLimits}
 
 In the case of functors between ordinary [[locally small categories]], hence in the special case of $V$-[[enriched category theory]] for $V = $ [[Set]], there is an expression of a weighted (co)limit and hence a pointwise Kan extension as an ordinary ("conical", meaning: in terms of [[cone]]s) (co)limit over a [[comma category]]:
@@ -591,12 +612,13 @@ G (Lan_p F) \simeq Lan_p(G F)
 
 The most prominent example of absolute Kan extensions is given by [[adjoint functor|adjoint functors]]; in fact they can be defined as certain absolute Kan extensions. See there for the precise statement.
 
-#### absolute vs pointwise
-
+\begin{remark}
+**(absolute vs pointwise)**
+\linebreak
 Absolute Kan extensions are always pointwise, as the latter can be defined as those preserved by representables; there are (lots of) examples of pointwise Kan extensions which are not absolute.
 
 Note that in a general 2-category, absolute Kan extensions make perfect sense, while for defining pointwise ones more structure is needed: [[comma object|comma objects]] and/or some structure which would let us work with (co)limits _inside_ that 2-category (such as a [[Yoneda structure|(co)Yoneda structure]] or a [[2-category equipped with proarrows|proarrow equipment]]).
-
+\end{remark}
 
 ### Of $(\infty,1)$-functors
 
