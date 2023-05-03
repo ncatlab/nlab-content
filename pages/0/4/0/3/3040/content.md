@@ -36,6 +36,10 @@ On [[adhesive categories]]:
 * {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
 
 
+On ([[enriched category|enriched]]) [[accessible categories]]:
+ 
+* [[Stephen Lack]], [[Giacomo Tendas]], *Virtual concepts in the theory of accessible categories*, Journal of Pure and Applied Algebra **227** 2 (2023) 107196 &lbrack;[arXiv:10.1016/j.jpaa.2022.107196](https://doi.org/10.1016/j.jpaa.2022.107196), [arXiv:2205.11056](https://arxiv.org/abs/2205.11056)&rbrack;
+
 
 
 See also:
