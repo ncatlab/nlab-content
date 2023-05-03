@@ -310,87 +310,186 @@ $$
 * [Mackey's restriction formula](double+coset#MackeyFormula) for group representations.
 
 
-### For categories of presheaves
+### For systems of general functor categories
  {#PullbacksOfOpfibrations}
 
-+-- {: .num_prop #BCForPresheavesOnPullbacksOfOpfibrations}
-###### Proposition
 
-If $\phi : D \to C$ is an [[opfibration]] of [[small categories]] and 
+\begin{proposition}
+\label{BCForPresheavesOnPullbacksOfOpfibrations}
+Given 
+
+1. $\phi \colon D \to C$ is an [[opfibration]] of [[small categories|small]] [[strict categories]] 
+
+1. a [[pullback]] [[diagram]] in the _[[1-category]]_ [[Cat]] of [[small category|small]] [[strict categories]] and [[functors]] of the form
+
+   \[
+     \label{StrictPullbackOfOpfibration}
+     \array{
+       D' 
+         &\overset{\beta}{\longrightarrow}& 
+       D
+       \\
+       \mathllap{{}^{\psi}}\big\downarrow 
+       &{}^{{}_{(pb)}}& 
+       \big\downarrow\mathrlap{{}^{\phi}}
+       \\
+       C' 
+         &\underset{\alpha}{\longrightarrow}& 
+       C
+     }  
+   \]
+
+   (hence presenting a [[2-pullback]]/[[homotopy pullback]], see Rem. \ref{PullbackOfOpfibrationModelsTwoPullback} below),
+
+1. $\mathcal{C}$ any [[category]] with all [[small colimits]]
+
+
+
+then the induced diagram of [[functor categories]]
 
 $$
   \array{
-    D' &\stackrel{\beta}{\to}& D
+    [D', \mathcal{C}] 
+      &\overset{\beta^*}{\longleftarrow}& 
+    [D, \mathcal{C}]
     \\
-    \downarrow^{\mathrlap{\psi}} && \downarrow^{\mathrlap{\phi}}
-    \\
-    C' &\stackrel{\alpha}{\to}& C
-  }
-$$
-
-is a [[pullback]] diagram (in the _1-category_ [[Cat]]), and for $\mathcal{C}$ a [[category]] with all [[small colimits]], then the induced diagram of [[presheaf categories]]
-
-$$
-  \array{
-    [D', \mathcal{C}] &\stackrel{\beta^*}{\longleftarrow}& [D, \mathcal{C}]
-    \\
-    \uparrow^{\mathrlap{\psi}^*} 
+    \Big\downarrow\mathrlap{{}^{\psi_!}} 
       && 
-    \uparrow^{\mathrlap{\phi}^*}
+    \Big\downarrow\mathrlap{{}^{\phi_!}}
     \\
-    [C', \mathcal{C}] &\stackrel{\alpha^*}{\longleftarrow}& [C,\mathcal{C}]
+    [C', \mathcal{C}] 
+      &\underset{\alpha^*}{\longleftarrow}& 
+    [C,\mathcal{C}]
   }
-  \,,
 $$
 
-satisfies the Beck-Chevalley condition: for $\psi_!$ and $\phi_!$ denoting the left [[Kan extension]] along $\psi$ and $\phi$, respectively, then we have a [[natural isomorphism]]
+(for $(-)^\ast$ denoting [[precomposition]] and $(-)_!$ denoting [[left Kan extension]]) 
+
+satisfies the Beck-Chevalley condition, in that there is a [[natural isomorphism]]
 
 $$
-  \psi_! \beta^* \simeq \alpha^* \phi_!
+  \psi_! \circ \beta^* 
+  \;\simeq\; \alpha^* \circ \phi_!
   \,.
 $$
+\end{proposition}
+For this statement in the more general context of [[quasicategories]] see [Joyal (2008), prop. 11.6](#Joyal08).
+\begin{proof}
+The proof relies on two observations:
 
-=--
+1. Since $\phi$ is [[opfibration|opfibered]], for every object $c \in C$ the embedding of the [[fiber]] $\phi^{-1}(c)$ into the [[comma category]] $\phi/c$ is a [[final functor]]. Therefore the [pointwise formula](Kan+extension#PointwiseByConicalLimits) for the [[left Kan extension]] $\phi_!$ is equivalently given by taking the [[colimit]] over the [[fiber]], instead of over the [[comma category]]:
 
-(This is maybe sometimes called the _projection formula_. But see at _[[projection formula]]_.)
+  \[
+    \label{PointwiseLeftKanExtensionInOpfiberedCase}
+    \phi_!(X)_c 
+    \;\simeq\; 
+    \underset
+      {\underset{\phi^{-1}(c)}{\longrightarrow}}
+      {\lim} 
+     \,
+      X
+    \,.
+  \]
 
-For this statement in the more general context of [[quasicategories]] see [Joyal 2008, prop. 11.6](#Joyal08).
+1. Since (eq:StrictPullbackOfOpfibration) is a (strict) pullback of (strict) categories (i.e. an ordinary pullback of [[sets]] of [[objects]] and of [[sets]] of [[morphisms]]), the operations of taking [[images]] and [[preimages]] $(-)^{-1}$ ([[fibers]]) of the [[object]]-[[functions]] of the given functors satisfy
 
+   \[
+     \label{PreimagesInAPullbackDiagram}
+     \begin{array}{l}
+     \beta \circ \psi^{-1}\big(\{c'\}\big)
+     \\
+     \;\simeq\;
+     \beta\Big(
+       \big\{ 
+         (c',d) 
+         \,\big\vert\,
+         d \,\in\, D
+         \,,
+         \phi(d) = \alpha(c')
+       \big\}
+     \Big)
+     \\
+     \;=\;
+     \big\{ 
+       d \,\in\, D
+       \,\big\vert\,
+       \phi(d) = \alpha(c')
+     \big\}
+     \\
+     \;=\;
+     \phi^{-1}\big(
+      \{\alpha(c')\}
+     \big)
+     \\
+     \;=\;
+     \phi^{-1} \circ \alpha\big(\{c'\}\big)
+     \,.
+     \end{array}
+   \]
 
-+-- {: .proof}
-###### Proof
+   for all [[objects]] $c' \,\in\, Obj(C')$.
 
-Since $\phi$ is [[opfibration|opfibered]], for every object $c \in C$ the embedding of the [[fiber]] $\phi^{-1}(c)$ into the [[comma category]] $\phi/c$ is a [[final functor]]. Therefore the pointwise formula for the left [[Kan extension]] $\phi_!$ is equivalently given by taking the colimit over the fiber, instead of the comma category
-
-$$
-  \phi_1(X)_c \simeq \lim_{\underset{\phi^{-1}(c)}{\to}} X
-  \,,
-$$
-
-and so wwe have a sequence of [[isomorphisms]]
+Now using first (eq:PointwiseLeftKanExtensionInOpfiberedCase) and then (eq:PreimagesInAPullbackDiagram) and then again (eq:PointwiseLeftKanExtensionInOpfiberedCase) yields the following sequence of [[isomorphisms]]
 
 $$
   \begin{aligned}
-    (\psi_! \beta^* X)(c')
-    & \simeq
-    \lim_{\underset{\psi^{-1}(c')}{\to}} (X\circ \beta)
+    \big(\psi_! \beta^* (X)\big)(c')
+    & 
+    \;\simeq\;
+    \underset
+      {\underset{
+        \beta \circ \psi^{-1}\big(\{c'\}\big)
+      }{\longrightarrow}}
+      {\lim} 
+     \,
+    X
     \\
-    & \simeq 
-    \lim_{\underset{\phi^{-1}(\alpha(c'))}{\to}} X
+    & 
+    \;\simeq\;
+    \underset
+      {\underset{
+        \phi^{-1} \circ \alpha\big(\{c'\}\big)
+      }{\longrightarrow}}
+      {\lim} 
+    \,
+    X
     \\
-    & \simeq
-    (\alpha^* \phi_! X)(c')
+    & 
+    \;\simeq\;
+    \big(\alpha^* \phi_! (X)\big)(c')
+    \,,
   \end{aligned}
 $$
 
-all of them [[natural isomorphism|natural]] in $c'$.
+all of them [[natural isomorphism|natural]] in $c' \,\in\, Obj(C')$.
+\end{proof}
 
-=--
+\begin{remark}
+As a [[counter-example]] showing that in Prop. \ref{BCForPresheavesOnPullbacksOfOpfibrations} the condition for $\phi \colon D \to C$ to be an [[opfibration]] is necessary for the statement to hold, consider 
 
+* $C \coloneqq \{0\to 1\}$ the [[interval category]], 
 
-For an example that prop. \ref{BCForPresheavesOnPullbacksOfOpfibrations} may fail without the condition that $D \to C$ is an opfibration:
+* $D \coloneqq \ast,\;\;C' \coloneqq \ast$ the [[terminal category]], 
 
-Consider $C=$ the [[interval category]] $(0\to 1)$, $D=C'=$ the [[terminal category]], $\phi=0$, $\alpha=1$, so that $D'=\emptyset$, but $\alpha^*\phi_!$ is the identity functor.
+* $\phi\coloneqq const_0,\;\;\alpha \coloneqq const_1$.
+
+Then the [[pullback]] $D' = \varnothing$ is the [[empty category]]. Therefore 
+
+* $[D',\mathcal{C}] = [\varnothing, \mathcal{C}]$ is the [[terminal category]], so that $\psi_!\circ \beta^\ast$ is a [[constant functor]]
+
+  (concretely, $\psi_! \colon \ast \simeq [\varnothing, \mathcal{C}] \to [C',\mathcal{C}]$ is [[left adjoint]] to the projection functor to the [[terminal category]] and [hence](initial+object#AdjointsToConstantFunctors) picks the [[initial object]] of $[C',\mathcal{C}]$),
+
+* while $\alpha^* \circ \phi_!$ is the [[identity functor]], as readily seen via (eq:PointwiseLeftKanExtensionInOpfiberedCase).
+
+\end{remark}
+
+\begin{remark}
+\label{PullbackOfOpfibrationModelsTwoPullback}
+  In Prop. \ref{BCForPresheavesOnPullbacksOfOpfibrations},
+  the [[pullback]] (eq:StrictPullbackOfOpfibration) of an [[opfibration]] of [[strict categories]] formed in the [[1-category]] of [[strict categories]] may be understood as modelling the [[2-pullback]] (cf. [there](2-pullback#StrictPullback)) of the corresponding [[cospan]] in the actual [[2-category]] [[Cat]].
+
+In particular, if the [[strict categories]] involved in the pullback diagram (eq:StrictPullbackOfOpfibration) are all [[groupoids]], then a functor such as $\phi$ being a [[Kan fibration]] is equivalent to its [[nerve]] being a [[Kan fibration]] (see at *[[right Kan fibration]]*, [this and](right%2Fleft+Kan+fibration#FibrationInGroupoidsAsRightKanFibrations) [this Prop](right%2Fleft+Kan+fibration#OverKanComplex)), in which case the pullback diagram (eq:StrictPullbackOfOpfibration) models the [[homotopy pullback]] (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
+\end{remark}
 
 ### Proper base change in &#233;tale cohomology
 
@@ -458,7 +557,7 @@ Discussion in the generality of [[enriched category theory]]:
 
 Discussion in the generality of [[(infinity,1)-categories|$\infty$-categories]]:
 
-* [[Michael Hopkins]], [[Jacob Lurie]], Prop. 4.3.3 in: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf)&rbrack;
+* {#HopkinsLurie13} [[Michael Hopkins]], [[Jacob Lurie]], Prop. 4.3.3 in: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf)&rbrack;
 
 
 * [[Urs Schreiber]], around Def. 5.5 of: *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](https://arxiv.org/abs/1402.7041)&rbrack;
