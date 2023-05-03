@@ -21,3 +21,5 @@ Introducing [[natural operations]] in [[differential geometry]]:
 * [[Albert Nijenhuis]], _Geometric aspects of formal differential operations on tensor fields_, Proceedings of the International Congress of Mathematicians 1958, 463–469.
 
 * [[Albert Nijenhuis]], _Natural bundles and their general properties_, in: _Differential Geometry (in honor of Kentaro Yano)_, Kinokuniya, Tokyo, 1972, pp. 317–334.
+
+category: people
