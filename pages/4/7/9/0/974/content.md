@@ -452,6 +452,8 @@ Given a class of morphisms $\Sigma$ in a locally presentable category, the answe
 
 ## References 
 
+### General
+
 The definition is due to
 
 * {#GabrielUlmer} [[Pierre Gabriel]], [[Friedrich Ulmer]], *Lokal präsentierbare Kategorien*, Springer LNM **221** (1971) &lbrack;[doi:10.1007/BFb0059396](https://doi.org/10.1007/BFb0059396), [MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)&rbrack;
@@ -478,12 +480,23 @@ See also:
 
   > (where locally presentable categories are called [[presentable categories]]*)
 
-On the example of Grothendieck abelian categories:
+On the example of [[Grothendieck abelian categories]]:
 
 * {#Beke00} [[Tibor Beke]], *Sheafifiable homotopy model categories*, Math. Proc. Cambridge Philosophical Society **129** 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](https://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack;
 
 * {#Krause15} [[Henning Krause]], _Deriving Auslander's formula_, Documenta Math. **20** (2015) 669-688 &lbrack;[arXiv:1409.7051](https://arxiv.org/abs/1409.7051)&rbrack;
 
+
+### In enriched category theory
+ {#ReferencesInEnrichedCategoryTheory}
+
+Discussion of local presentability in [[enriched category theory]] (see also [references on enriched accessible categories](accessible+category#ReferencesInEnrichedCategoryTheory)):
+
+* {#Kelly82} [[G. Max Kelly]], *Structures defined by finite limits in the enriched context, I*, Cahiers de topologie et géométrie différentielle **23** 1 (1982)  3-42 &lbrack;[numdam:CTGDC_1982__23_1_3_0](http://archive.numdam.org/item/CTGDC_1982__23_1_3_0)&rbrack;
+
+See also:
+
+* [MO:q/53470](https://mathoverflow.net/q/53470/381): *Enriched locally presentable categories*
 
 
 [[!redirects locally presentable]]
