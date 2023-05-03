@@ -113,27 +113,9 @@ This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
 
 
 
-+-- {: .num_prop #Limits}
-###### Proposition 
-**(closure under limits)**
-
-The [[2-category]] $Acc$ of accessible categories, accessible functors, and natural transformations has all small [[2-limits]].
-
-=--
-
-This can be found in [Makkai & Paré (1989)](#MakkaiParé1989).  Some special cases are proven in [Ad&#225;mek-Rosick&#253;](#AdámekRosický1994).
 
 
 
-+-- {: .num_prop}
-###### Proposition 
-**(directed unions)**
-
-The [[2-category]] $Acc$ has [[directed colimits]] of systems of [[fully faithful functors]].  If there is a proper class of [[strongly compact cardinals]], then it has directed colimits of systems of [[faithful functors]].
-
-=--
-
-See ([Par&#233;-Rosick&#253;](#Par&#233;Rosick&#253;)).
 
 ### Adjoint functor theorem
 
@@ -192,6 +174,7 @@ See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 * Every accessible category with [[pushouts]] is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdámekRosický1994).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-copowered then there exist arbitrarily large [[measurable cardinals]].
 
 ### The 2-category of accessible categories
+ {#TheTwoCategoryOfAccessibleCategories}
 
 Write [[AccCat]] for the [[2-category]] whose
 
@@ -208,9 +191,20 @@ Write [[AccCat]] for the [[2-category]] whose
 This appears as [Makkai & Paré (1989), Thm. 5.1.6, Cor. 5.1.8](#MakkaiParé1989), [Adámek & Rosický (1994) around Thm. 2.77](#AdámekRosický1994).
 
 \begin{proposition}
-Given a [[cosmos for enrichment]] $\mathcal{V}$ which is ([[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] and) [[locally presentable category|locally presentable]], then the [[2-category]] $\mathcal{V}$-[[AccCat]] of $\mathcal{V}$-[[enriched category|enriched]] [[accessible categories]] has all [[PIE 2-limits]] and [[split idempotent|splittings]] of [[idempotent]] [[equivalence in a 2-category|equivalences]] (equivalently it has all [[flexible 2-limits]]), as well as pullbacks along isofibrations.
+Given a [[cosmos for enrichment]] $\mathcal{V}$ which is ([[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] and) [[locally presentable category|locally presentable]], then the [[2-category]] $\mathcal{V}$-[[AccCat]] of $\mathcal{V}$-[[enriched category|enriched]] [[accessible categories]] has all [[PIE 2-limits]] and [[split idempotent|splittings]] of [[idempotent]] [[equivalence in a 2-category|equivalences]] (equivalently it has all [[flexible 2-limits]]), as well as [[2-pullbacks]] along [[isofibrations]].
+
+The analogous statements holds for $\mathcal{V}$-enriched and *[[conical limit|conically]]* accessible categories, in which case the [[forgetful functor]] $\mathcal{V}\text{-}ConAccCat \to \mathcal{V}\text{-}Cat$ [[preserved limit|preserves]] these [[2-limits]].
 \end{proposition}
-This is [Lack & Tendas (2023), Thm. 5.5](#LackTendas23).
+This is [Lack & Tendas (2023), Thm. 5.5, Thm. 5.9](#LackTendas23).
+
+\begin{proposition}
+**(directed unions)**
+\linebreak
+The [[2-category]] [[AccCat]] has [[directed colimits|directed]] [[2-colimits]] of systems of [[fully faithful functors]].  If there is a proper class of [[strongly compact cardinals]], then it has directed colimits of systems of [[faithful functors]].
+\end{proposition}
+
+[Paré & Rosický (2013)](#ParéRosický13)
+
 
 ## Examples
 
@@ -242,7 +236,7 @@ Further monographs (with focus on [[locally presentable categories]]):
 
 See also
 
-* {#Par&#233;Rosick&#253;} [[Robert Paré]], [[Jiří Rosický]], *Colimits of accessible categories*, Math. Proc. Cambr. Phil. Soc. **155** (2013) 47-50 &lbrack;[doi:10.1017/S0305004113000030](https://doi.org/10.1017/S0305004113000030), [arXiv:1110.0767](http://arxiv.org/abs/1110.0767)&rbrack;
+* {#ParéRosický13} [[Robert Paré]], [[Jiří Rosický]], *Colimits of accessible categories*, Math. Proc. Cambr. Phil. Soc. **155** (2013) 47-50 &lbrack;[doi:10.1017/S0305004113000030](https://doi.org/10.1017/S0305004113000030), [arXiv:1110.0767](http://arxiv.org/abs/1110.0767)&rbrack;
  
 
 * [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
