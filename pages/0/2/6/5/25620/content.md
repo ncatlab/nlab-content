@@ -147,6 +147,20 @@ $$
 
 ## References
 
+Original definition:
+
+* [[Alfred Frölicher]], [[Albert Nijenhuis]], _Theory of vector-valued differential forms.  Part I.  Derivations in the graded ring of differential forms_, Indagationes Mathematicae (Proceedings) 59 (1956), 338–350 and 351–359.  [doi:10.1016/s1385-7258(56)50046-7][1] and [doi:10.1016/s1385-7258(56)50047-9][2].
+
+[1]: https://doi.org/10.1016/s1385-7258(56)50046-7
+[2]: https://doi.org/10.1016/s1385-7258(56)50047-9
+
+Refinements for [[almost complex structures]]:
+
+* [[Alfred Frölicher]], [[Albert Nijenhuis]], _Theory of vector-valued differential forms.  Part II.  Almost-complex structures_, Indagationes Mathematicae (Proceedings) 61 (1958), 414–421 and 422-429.  [doi:10.1016/s1385-7258(58)50057-2][3] and [doi:10.1016/s1385-7258(58)50058-4][4].
+
+[3]: https://doi.org/10.1016/s1385-7258(58)50057-2
+[4]: https://doi.org/10.1016/s1385-7258(58)50058-4
+
 Discussion as a [[natural operation]]:
 
 * {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], p. 175 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
@@ -154,5 +168,6 @@ Discussion as a [[natural operation]]:
 
 
 
-[[!redirects Frölicher–Nijenhuis+brackets]]
-
+[[!redirects Frölicher–Nijenhuis brackets]]
+[[!redirects Frölicher-Nijenhuis brackets]]
+[[!redirects Frölicher-Nijenhuis bracket]]
