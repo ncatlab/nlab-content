@@ -212,9 +212,19 @@ Review includes
 
 [[!redirects enriched functor categories]]
 
+[[!redirects enriched-functor category]]
+[[!redirects enriched-functor categories]]
+
+[[!redirects enriched functor-category]]
+[[!redirects enriched functor-categories]]
+
+
 [[!redirects enriched presheaf category]]
 [[!redirects enriched presheaf categories]]
 
 [[!redirects category of enriched presheaves]]
 [[!redirects categories of enriched presheaves]]
+
+
+
 
