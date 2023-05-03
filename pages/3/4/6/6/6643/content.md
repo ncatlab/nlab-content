@@ -55,3 +55,7 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 
 [[!redirects flexible limit]]
 [[!redirects flexible limits]]
+
+[[!redirects flexible 2-limit]]
+[[!redirects flexible 2-limits]]
+
