@@ -13,6 +13,10 @@ The [[model structure on dg-coalgebras]] (in [[characteristic zero]]) as a [[mod
 
 * {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, Journal of Pure and Applied Algebra **162** 2 (2001) 209-250 &lbrack;[arXiv:9812034](http://arxiv.org/abs/math/9812034), <a href="https://doi.org/10.1016/S0022-4049(00)00121-3">doi:10.1016/S0022-4049(00)00121-3</a>&rbrack;
 
+On the [[enriched Yoneda lemma]]:
+
+* {#Hinich16} [[Vladimir Hinich]], *Enriched Yoneda lemma*, Theory and Applications of Categories **31** 29 (2016) 833-838 &lbrack;[tac:31-29](http://www.tac.mta.ca/tac/volumes/31/29/31-29abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/31/29/31-29.pdf)&rbrack;
+
 
 On ([[Lie algebra weight system|Lie algebra-]])[[weight systems]] on [[chord diagrams]]:
 
@@ -22,7 +26,6 @@ On [[(infinity,1)-colimits|$\infty$-colimits]] and [[Day convolution]] in the co
 
 * [[Vladimir Hinich]], *Colimits in enriched ∞-categories and Day convolution*, Theory and Applications of Categories **39** 12 (2023) 365-422 &lbrack;[tac:39-12](http://www.tac.mta.ca/tac/volumes/39/12/39-12abs.html), [arXiv:2101.09538](https://arxiv.org/abs/2101.09538)&rbrack;
 
-## Selected writings
 
 
 category: people
