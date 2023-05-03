@@ -111,6 +111,7 @@ We have a canonical [[pseudonatural transformation]] $F_2\to F_1$ that forgets $
 
 
 ### Strict 2-pullbacks
+ {#StrictPullback}
 
 If we are in a [[strict 2-category]] and all the coherence isomorphisms ($\mu$, $\kappa$, $\lambda$, etc.) are required to be identities, and $u$ in property (1) is required to be unique, then we obtain the notion of a **strict 2-pullback**.  This is an example of a [[strict 2-limit]].  Note that since we must have $x = f v = g w$, the two definitions above are still the same.  In fact, they are now even isomorphic (and determined up to isomorphism, rather than equivalence).
 
