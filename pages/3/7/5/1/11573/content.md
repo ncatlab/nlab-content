@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 # The de Rham differential
 * table of contents
 {: toc}
@@ -34,6 +45,10 @@ $$
 $$
 
 which interprets as the _de Rham differential_ $\mathbf{d}$. See at _[[differential cohomology diagram]]_ for details.
+
+## Properties
+
+* The de Rham differential acts as a [[graded derivation]] on the [[de Rham algebra]].
 
 
 [[!redirects exterior derivative]]
