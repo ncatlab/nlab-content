@@ -115,6 +115,8 @@ The category $Set^{op}$ has a small full subcategory which is dense if and only 
 
 * [[codense functor]]
 
+* [[absolutely dense functor]]
+
 * [[dense subcategory]]
 
 * [[codensity monad]]
