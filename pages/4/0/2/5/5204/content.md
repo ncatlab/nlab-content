@@ -47,3 +47,7 @@ PIE-limits can also be characterized as the coalgebras for a [[pseudo morphism c
 [[!redirects pie limit]]
 [[!redirects pie-limits]]
 [[!redirects pie limits]]
+
+[[!redirects PIE 2-limit]]
+[[!redirects PIE 2-limits]]
+
