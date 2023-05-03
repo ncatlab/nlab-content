@@ -468,17 +468,16 @@ This statement is sometimes called the [[co-Yoneda lemma]].
 
 Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since there it looks like the commutativity of two integrals, it is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)).
 
-+-- {: .num_prop #Fubini}
-###### Proposition
+\begin{proposition}\label{Fubini}
 **(Fubini theorem for ends)**
-
+\linebreak
 Let $\mathcal{V}$ be a [[symmetric monoidal category]]. Let $\mathcal{A}$ and $\mathcal{B}$ be small 
 $\mathcal{V}$-[[enriched categories]]. 
 
 Let
 
 $$
-  T : (\mathcal{A} \otimes \mathcal{B})^{op} \otimes 
+  T \colon (\mathcal{A} \otimes \mathcal{B})^{op} \otimes 
       (\mathcal{A} \otimes \mathcal{B})
       \to 
       \mathcal{V}
@@ -510,7 +509,7 @@ $$
 $$
 
 if either side exists.
-=--
+\end{proposition}
 
 
 ## Examples
