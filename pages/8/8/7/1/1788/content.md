@@ -1,4 +1,31 @@
 
+   \[
+     \label{PreimagesInAPullbackDiagram}
+     \begin{array}{l}
+     \beta \circ \psi^{-1}\big(\{c'\})\big
+     \\
+     \;\simeq\;
+     \beta\Big(
+       \big\{ 
+         (c',d) 
+         \,\big\vert\,
+         d \,\in\, D
+         \,,
+         \phi(d) = \alpha(c')
+       \big\}
+     \Big)
+     \\
+     \;=\;
+     \big\{ 
+       d \,\in\, D
+       \,\big\vert\,
+       \,,
+       \phi(d) = \alpha(c')
+     \big\}
+     \end{array}
+   \]
+
+
 $$
   f_! f^\ast (X)
   \;\simeq\;
