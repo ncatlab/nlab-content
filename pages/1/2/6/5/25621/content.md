@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -41,17 +40,11 @@ See the article [[Frölicher–Nijenhuis bracket]] for more information.
 
 ## References
 
-The notion is due to:
+The formula for the NR bracket is made explicit in and thus derives its name from:
 
-* [[Albert Nijenhuis]], [[Roger W. Richardson]], *Cohomology and deformations in graded Lie algebras*, Bull. Amer. Math. Soc. **72** (1966) 1-29 &lbrack;[doi:10.1090/S0002-9904-1966-11401-5](https://doi.org/10.1090/S0002-9904-1966-11401-5)&rbrack;
+* [[Albert Nijenhuis]], [[Roger W. Richardson]], Section 5 of: *Deformations of Lie Algebra Structures*, Journal of Mathematics and Mechanics **17** 1 (1967) 89-105 &lbrack;[jstor:24902154](https://www.jstor.org/stable/24902154)&rbrack;
 
-* [[Albert Nijenhuis]], [[Roger W. Richardson]], *Deformations of Lie Algebra Structures*, Journal of Mathematics and Mechanics **17** 1 (1967) 89-105 &lbrack;[jstor:24902154](https://www.jstor.org/stable/24902154)&rbrack;
-
-See also:
-
-* Wikipedia, *[Nijenhuis–Richardson bracket](https://en.wikipedia.org/wiki/Nijenhuis%E2%80%93Richardson_bracket)*
-
-The NR-bracket is related to but not the same as the [[Frölicher-Nijenhuis bracket]], which is due to:
+but the existence of the bracket is already implicit in:
 
 * [[Alfred Frölicher]], [[Albert Nijenhuis]], _Theory of vector-valued differential forms.  Part I.  Derivations in the graded ring of differential forms_, Indagationes Mathematicae (Proceedings) 59 (1956), 338–350 and 351–359.  [doi:10.1016/s1385-7258(56)50046-7][1] and [doi:10.1016/s1385-7258(56)50047-9][2].
 
@@ -64,4 +57,8 @@ and refined to [[almost complex structures]] in
 
 [3]: https://doi.org/10.1016/s1385-7258(58)50057-2
 [4]: https://doi.org/10.1016/s1385-7258(58)50058-4
+
+See also:
+
+* Wikipedia, *[Nijenhuis–Richardson bracket](https://en.wikipedia.org/wiki/Nijenhuis%E2%80%93Richardson_bracket)*
 
