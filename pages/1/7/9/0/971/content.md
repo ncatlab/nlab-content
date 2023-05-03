@@ -208,7 +208,7 @@ Write [[AccCat]] for the [[2-category]] whose
 This appears as [Makkai & Paré (1989), Thm. 5.1.6, Cor. 5.1.8](#MakkaiParé1989), [Adámek & Rosický (1994) around Thm. 2.77](#AdámekRosický1994).
 
 \begin{proposition}
-Given a [[cosmos for enrichment]] $\mathcal{V}$ which is ([[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] and) [[locally presentable category|locally presentable]], then the [[2-category]] $\mathcal{V}$-[[AccCat]] of $\mathcal{V}$-[[enriched category|enriched]] [[accessible categories]] has all [[PIE 2-limits]] and [[split idempotent|splittings]] of [[idempotent]] [[equivalence in a 2-category|equivalences]], equivalently it has all [[flexible 2-limits]].
+Given a [[cosmos for enrichment]] $\mathcal{V}$ which is ([[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] and) [[locally presentable category|locally presentable]], then the [[2-category]] $\mathcal{V}$-[[AccCat]] of $\mathcal{V}$-[[enriched category|enriched]] [[accessible categories]] has all [[PIE 2-limits]] and [[split idempotent|splittings]] of [[idempotent]] [[equivalence in a 2-category|equivalences]] (equivalently it has all [[flexible 2-limits]]), as well as pullbacks along isofibrations.
 \end{proposition}
 This is [Lack & Tendas (2023), Thm. 5.5](#LackTendas23).
 
