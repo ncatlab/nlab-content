@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Categories of categories
++--{: .hide}
+[[!include categories of categories - contents]]
+=--
 #### Enriched category theory
 +-- {: .hide}
 [[!include enriched category theory contents]]
