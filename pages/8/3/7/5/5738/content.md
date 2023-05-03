@@ -41,7 +41,7 @@ For [[multivector fields]] regarded as “[[antifields]]” in [[BV-BRST formali
 ## Applications
 
 Suppose $P\in\Gamma(\Lambda^2 TM)$.
-The the bracket $\{f,g\}=\langle df\wedge dg,P\rangle$ satisfies the [[Jacobi identity]] (and hence is a [[Poisson bracket]]) if and only if $[P,P]=0$.
+The the bracket $\{f,g\}=\langle d f\wedge d g,P\rangle$ satisfies the [[Jacobi identity]] (and hence is a [[Poisson bracket]]) if and only if $[P,P]=0$.
 
 ## Related concepts
 
