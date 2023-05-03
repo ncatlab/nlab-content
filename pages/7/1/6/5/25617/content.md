@@ -4,16 +4,6 @@ He got his PhD degree in 1952 from the University of Amsterdam, advised by [[Jan
 
 He introduced the notion of a [[natural bundles]] and [[natural operation]] in [[differential geometry]], which was subsequently developed by others.
 
-## Related concepts
-
-* [[Nijenhuis tensor]]
-
-* [[Schouten–Nijenhuis bracket]]
-
-* [[Frölicher–Nijenhuis bracket]]
-
-* [[Nijenhuis–Richardson bracket]]
-
 ## Selected writings
 
 On the [[Schouten-Nijenhuis bracket]]:
@@ -33,6 +23,23 @@ Introducing the [[Frölicher-Nijenhuis bracket]]:
 and its refinement for [[almost complex structures]]:
 
 * [[Alfred Frölicher]], [[Albert Nijenhuis]], _Theory of vector-valued differential forms.  Part II.  Almost-complex structures_, Indagationes Mathematicae (Proceedings) **61** (1958) 414–421 and 422-429 &lbrack;<a href="https://doi.org/10.1016/S1385-7258(58)50058-4">doi:10.1016/S1385-7258(58)50058-4</a>, <a href="https://doi.org/10.1016/S1385-7258(58)50057-2">doi:10.1016/S1385-7258(58)50057-2</a>&rbrack;
+
+Introducing the [[Nijenhuis–Richardson bracket]]:
+
+* [[Albert Nijenhuis]], [[R. W. Richardson]], *Cohomology and deformations in graded Lie algebras*, Bull. Amer. Math. Soc. **72** (1966) 1-29 &lbrack;[doi:10.1090/S0002-9904-1966-11401-5](https://doi.org/10.1090/S0002-9904-1966-11401-5)&rbrack;
+
+* [[Albert Nijenhuis]], [[R. W. Richardson]], *Deformations of Lie Algebra Structures*, Journal of Mathematics and Mechanics **17** 1 (1967) 89-105 &lbrack;[jstor:24902154](https://www.jstor.org/stable/24902154)&rbrack;
+
+
+## Related entries
+
+* [[Nijenhuis tensor]]
+
+* [[Schouten–Nijenhuis bracket]]
+
+* [[Frölicher–Nijenhuis bracket]]
+
+* [[Nijenhuis–Richardson bracket]]
 
 
 
