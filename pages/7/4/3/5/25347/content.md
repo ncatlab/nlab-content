@@ -26,9 +26,9 @@ On [[accessible functors]]:
 
 * [[Giacomo Tendas]], _On Continuity of Accessible Functors_ Applied Categorical Structures, **30**, 2022. ([arXiv:2110.14192](https://arxiv.org/abs/2110.14192), [doi:10.1007/s10485-022-09677-x](https://doi.org/10.1007/s10485-022-09677-x))
 
-On [[accessible categories]]:
-
-* [[Stephen Lack]] and [[Giacomo Tendas]], _Virtual concepts in the theory of accessible categories_, Journal of Pure and Applied Algebra, **227**, 2023. ([arXiv:2205.11056](https://arxiv.org/abs/2205.11056), [doi:10.1016/j.jpaa.2022.107196](https://doi.org/10.1016/j.jpaa.2022.107196))
+On ([[enriched category|enriched]]) [[accessible categories]]:
+ 
+* [[Stephen Lack]], [[Giacomo Tendas]], *Virtual concepts in the theory of accessible categories*, Journal of Pure and Applied Algebra **227** 2 (2023) 107196 &lbrack;[arXiv:10.1016/j.jpaa.2022.107196](https://doi.org/10.1016/j.jpaa.2022.107196), [arXiv:2205.11056](https://arxiv.org/abs/2205.11056)&rbrack;
 
 category: people
 
