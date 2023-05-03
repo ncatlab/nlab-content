@@ -14,6 +14,14 @@ For multivector fields regarded as “[[antifields]]” in [[BV-BRST formalism]]
 
 * [[Nijenhuis–Richardson bracket]]
 
+## References
+
+* [[Jan Schouten]], _Über Differentialkonkomitanten zweier kontravarianten Grössen_, Indagationes Mathematicae 2 (1940), 449–452.
+
+* [[Jan Schouten]], _On the differential operators of the first order in tensor calculus_, In: Convegno Int. Geom. Diff. Italia. (1953), 1–7.
+
+* [[Albert Nijenhuis]], _Jacobi-type identities for bilinear differential concomitants of certain tensor fields I_, Indagationes Mathematicae 17 (1955), 390–403. [doi:10.1016/S1385-7258(55)50054-0](https://doi.org/10.1016/S1385-7258(55)50054-0). 
+
 [[!redirects Schouten-Nijenhuis bracket]]
 [[!redirects Schouten–Nijenhuis bracket]]
 [[!redirects Schouten-Nijenhuis brackets]]
