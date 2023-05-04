@@ -41,7 +41,8 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 
 ## References
 
-* [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_, notes in [[Dennis Gaitsgory]]'s seminar, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
+* {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
+
 * [[Dennis Gaitsgory]], Nick Rozenblyum, _Crystals and D-modules_, [arxiv/1111.2087](http://arxiv.org/abs/1111.2087)
 * A. [[Beilinson]], V. Drinfel'd, _Chiral algebras_ contains a section on D-schemes.
 
