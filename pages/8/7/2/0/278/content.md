@@ -131,6 +131,8 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
 
+* [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008) &lbrack;[pdf](https://www.mat.univie.ac.at/~michor/dgbook.pdf)&rbrack;
+
 * {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
 
 
