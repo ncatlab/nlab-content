@@ -61,9 +61,10 @@ An original account of the definition of the crystalline topos is [section 7, pa
 
 * [[Alexander Grothendieck]], _Crystals and de Rham cohomology of schemes_ , chapter IX in _Dix Exposes sur la cohomologie des schema_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf))
 
-A review of some aspects is in
+A review of some aspects:
 
-* [[Jacob Lurie]], Notes on [[crystal|Crystals]] and algebraic D-modules ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+* {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
+
 
 and on page 7 of
 
