@@ -122,9 +122,9 @@ Discussion in [[derived algebraic geometry]] is in
 
 * {#GaitsgoryRozenblyum11} [[Dennis Gaitsgory]], [[Nick Rozenblyum]], _Crystals and D-modules_,  Pure and Applied Mathematics Quarterly Volume 10 (2014) Number 1 ([arXiv:1111.2087](http://arxiv.org/abs/1111.2087), [publisher](http://www.intlpress.com/site/pub/pages/journals/items/pamq/content/vols/0010/0001/a002/index.html))
 
-Lecture notes include
+Lecture notes:
 
-* {#LurieCrystal} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
+* {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
