@@ -110,6 +110,10 @@ For more details on Giry's monad and its variants see [[probability monad]].
 
 * [[central limit theorem]]
 
+* [[infra-Bayesianism]]
+
+* [[imprecise probability]]
+
 * [[free probability]]
 
 * [[quantum probability]]
