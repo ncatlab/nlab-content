@@ -1,18 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea 
 
-A Scott-complete category is a categorical generalization of the notion of Scott domain from [[domain theory]], and hence a model of the [[lambda calculus]]. 
+The notion of *Scott-complete categories* is a [[category theory|category theoretic]] generalization of the notion of *[[Scott domains]]* from [[domain theory]], and hence a model of the [[lambda calculus]]. 
 
 A Scott domain is a [[directed colimit|directed-complete]] [[partial order]] ([[dcpo]]) that is 
 
-* [[algebraic lattice|algebraic]], in that every element is a directed join of [[compact]] elements, and there is a [[bottom]] element;
+* [[algebraic lattice|algebraic]], in that every [[element]] is a [[directed colimit|directed]] [[join]] of [[compact]] elements, and there is a [[bottom]] [[element]];
 
-* consistently complete, i.e., every nonempty set with an upper bound has a [[least upper bound]].
+* consistently complete, i.e., every [[inhabited set|nonempty]] [[subset]] with an [[upper bound]] has a [[least upper bound]].
 
-The suitable notion of morphism between Scott domains is a directed-join-preserving monotone functions. This is the same as a [[continuous function]] with respect to the [[Scott topology]]. 
+The suitable notion of [[morphisms]] between Scott domains is that of [[directed colimit|directed]]-[[join]]-[[preserved colimit|preserving]] [[monotone functions]]. These are the same as [[continuous functions]] with respect to the [[Scott topology]]. 
 
 Scott domains forms a [[cartesian closed category]] that supports the solution of recursive domain equations. 
 
@@ -35,13 +46,14 @@ Scott-complete categories and [[directed colimit]] preserving functors form a ca
 
 This category, SCC, is [[cartesian closed]] and supports the solution of recursive domain equations. 
 
-## See also ##
+## See also
 
 * [[Scott topos]]
 
-## References ##
+## References 
 
-* [A categorical generalization of Scott domains](https://doi.org/10.1017/S0960129597002351), [[Jiri Adamek]]. Mathematical Structures in Computer Science , Volume 7 , Issue 5 , October 1997 , pp. 419 - 443. 
+* [[Jiří Adámek]], *A categorical generalization of Scott domains*, Mathematical Structures in Computer Science **7** 5  (1997) 419 - 443 &lbrack;[doi:10.1017/S0960129597002351](https://doi.org/10.1017/S0960129597002351)&rbrack;
 
+[[!redirects Scott-complete categories]]
 
 
