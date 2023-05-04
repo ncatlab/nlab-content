@@ -100,7 +100,7 @@ The definition in terms of monoids in [[D-module]]s is in section 2.3 in
 
 The observation that this is equivalent to the abstract definition given above appears in pages 5 and 6 of
 
-* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_, 2009 ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+* {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
  
 
 [[!redirects D-schemes]]
