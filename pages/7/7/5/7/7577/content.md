@@ -16,6 +16,12 @@ On [[transition systems]], [[bisimulations]] and [[open morphisms]]:
 
 * {#JoyalNielsenWisnkel94} [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]]: *Bisimulation from open maps*, BRICS report series RS-94-7 (1994) &lbrack;[doi:10.7146/brics.v1i7.21663](https://doi.org/10.7146/brics.v1i7.21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)&rbrack;, Information and Computation **127** 2 (1996) 164-185 &lbrack;[doi:10.1006/inco.1996.0057](https://doi.org/10.1006/inco.1996.0057)&rbrack;
 
+On [[category theory|category theoretic]] generalizations of [[domain theory]]:
+
+* [[Mikkel Nygaard]], [[Glynn Winskel]], *Domain theory for concurrency*, Theoretical Computer Science
+**316** 1–3 (2004) 153-190 &lbrack;[doi:10.1016/j.tcs.2004.01.029](https://doi.org/10.1016/j.tcs.2004.01.029), [pdf](https://www.cl.cam.ac.uk/~gw104/DomThy.pdf)&rbrack;
+
+
 ## Related entries
 
 * [[denotational semantics]]
