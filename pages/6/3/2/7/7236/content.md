@@ -40,18 +40,39 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 
 ## Properties
 
+Notice that generally [[monomorphisms]] are preserved by [[pullback]] (see [there](monomorphism#MonomorphismsArePreservedByPullback)) but in a general category they may not need to be preserved by [[pushout]]. In an adhesive category, however, they are:
+
 +-- {: .num_prop}
 ###### Proposition
 In an adhesive category, suppose given a [[pushout]] square
-$$ \array{ C & \xrightarrow{m} & A \\ ^f\downarrow && \downarrow^g \\ B & \xrightarrow{n} & D } $$
+$$ 
+  \array{ 
+    C 
+    & \overset{m}{\longrightarrow} 
+    & 
+    A 
+    \\ 
+    \mathllap{{}^f}\big\downarrow 
+    && 
+    \big\downarrow\mathrlap{{}^g} 
+    \\ 
+    B 
+    & 
+    \underset{n}{\longrightarrow} 
+    & 
+    D 
+  } 
+$$
 such that $m$ is a [[monomorphism]].  Then:
 
 1. $n$ is also a monomorphism.
+
 2. The square is also a [[pullback]] square.
+
 3. The square is also a [[distributivity pullback]] around $(g,m)$; hence in particular $n = \forall_g m$ is the [[universal quantification]].
 =--
 
-(Notice that generally [[monomorphisms]] (as discussed there) are preserved by [[pullback]].)  For a proof of the above proposition, see ([Lack, prop. 2.1](#Lack)) and ([Lack-Sobocinski, Lemmas 2.3 and 2.8](#LS1)).  The latter Lemma 2.8 states only that $n = \forall_g m$ (a weaker universal property since it refers only to other *monomorphisms* into $D$), but the proof applies more generally.
+For a proof of the above proposition, see ([Lack, prop. 2.1](#Lack)) and ([Lack-Sobocinski, Lemmas 2.3 and 2.8](#LS1)).  The latter Lemma 2.8 states only that $n = \forall_g m$ (a weaker universal property since it refers only to other *monomorphisms* into $D$), but the proof applies more generally.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -74,16 +95,27 @@ We give only a sketch; details are in [(LS, Lemma 4.5)](#LS).  If $(f,n)$ and $(
 ## Examples
  {#Examples}
 
-* Any [[topos]] is adhesive ([Lack-Sobocisnki](#LSToposes)).  For [[Grothendieck toposes]] this is easy, because $Set$ is adhesive and adhesivity is a condition on colimits and finite limits, hence preserved by functor categories and left-exact localizations.  For [[elementary toposes]] it is a theorem of [Lack and Sobocinski](#LSToposes).
+\begin{example}
+Any [[topos]] is adhesive ([Lack-Sobocisnki](#LSToposes)).  For [[Grothendieck toposes]] this is easy, because $Set$ is adhesive and adhesivity is a condition on colimits and finite limits, hence preserved by functor categories and left-exact localizations.  For [[elementary toposes]] it is a theorem of [Lack and Sobocinski](#LSToposes).
 
-* The fact that monomorphisms are stable under pushouts in toposes plays a central role for [[Cisinski model structures]] such as notably the standard [[model structure on simplicial sets]], where the monomorphisms are [[cofibrations]] and as such required to be closed under pushout (in particular).
+The fact that [[monomorphisms]] are preserved by [[pushouts]] in toposes plays a central role for [[Cisinski model structures]] such as notably the [[classical model structure on simplicial sets]], where the [[class]] of monomorphisms is identified with the class of [[cofibrations]] and as such required to be closed under pushout (in particular).
+\end{example}
 
-* The category [[Cat]] of categories and functors is _not_ adhesive. Neither are the categories of [[posets]], [[topological spaces]], and [[groupoids]] 
+\begin{example}
+Some [[counter-examples]]:
+
+* The [[1-category]] [[Cat]] of [[strict categories]] and [[functors]] is _not_ adhesive. 
+
+* Neither are the categories of [[posets]], [[topological spaces]], and [[groupoids]].
+
+\end{example}
 ([Lack and Sobocinski,  Counterexample 7](#LS)).
+
 
 ## Related concepts
 
 Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits".
+
 
 ## References
 
