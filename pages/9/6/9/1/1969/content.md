@@ -507,10 +507,15 @@ That core, like every [[∞-groupoid]] is equivalent to the disjoint union over 
 
 ## References 
 
-
 For some original references by [[William Dwyer]] and [[Dan Kan]] see  [[simplicial localization]]. For instance
 
 * {#DK84} [[William Dwyer]], [[Dan Kan]], _A classification theorem for diagrams of simplicial sets_, Topology 23 (1984), 139-155.
+
+On the derived [[function complexes]] in a [[projective model structure on simplicial presheaves]]:
+
+* [[William Dwyer]], [[Daniel Kan]], *Function complexes for diagrams of simplicial sets*, Indagationes Mathematicae (Proceedings) **86** 2 (1983) 139-147 &lbrack;<a href="https://doi.org/10.1016/1385-7258(83)90051-3">doi:10.1016/1385-7258(83)90051-3</a>, [pdf](https://core.ac.uk/download/pdf/82652265.pdf)&rbrack;
+
+
 
 Discussion in terms of [[quasi-categories]]:
 
