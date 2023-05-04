@@ -15,6 +15,10 @@ On [[automata]] via tools from [[category theory]]:
 
 * [[Jiří Adámek]], Věra Trnková, *Automata and algebras in categories* **37** Springer (1990) &lbrack;[ISBN:9780792300106](https://link.springer.com/book/9780792300106)&rbrack;
 
+On [[Scott-complete categories]]:
+
+* [[Jiří Adámek]], *A categorical generalization of Scott domains*, Mathematical Structures in Computer Science **7** 5  (1997) 419 - 443 &lbrack;[doi:10.1017/S0960129597002351](https://doi.org/10.1017/S0960129597002351)&rbrack;
+
 On [[category theory]] with emphasis on [[concrete categories]]:
 
 * [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], *[[Abstract and Concrete Categories -- The Joy of Cats]]*, John Wiley and Sons, New York (1990), reprinted in: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
