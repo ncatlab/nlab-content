@@ -15,7 +15,7 @@ _say something about Frobenius theorem_
 
 ## References
 
-Discussion in the context of [[geometruc quantization]]:
+Discussion in the context of [[geometric quantization]]:
 
 * N. M. J. Woodhouse, _Geometric quantization_
 
