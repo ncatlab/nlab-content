@@ -40,9 +40,9 @@ Domain theory can be said to have come into existence with the insight from [Sco
 
 * One problem is to construct a *meaning* or *[[semantics]]* for such [[syntax]] in terms of "actual" [[sets]] and [[functions]]. The [[categorical semantics]] of [[lambda calculus]] is by [[cartesian closed categories]], in which [[types]] are interpreted as [[objects]] $A$ and [[terms]] are interpreted as ([[generalized element|generalized]]) [[elements]] or "functions" $X \to A$. 
 
-* In so-called untyped lambda calculus (whose syntax is closely connected with the theory of computability and recursive functions), all terms may be regarded as being of the same type $D$ (which therefore need not be mentioned, hence "untyped"), so that intuitively speaking, elements of $D$ and functions on $D$ are treated on one and the same footing. 
+* In so-called untyped lambda calculus (whose [[syntax]] is closely connected with the theory of [[computability]] and [[recursive functions]]), all [[terms]] may be regarded as being of the same [[type]] $D$ (which therefore need not be mentioned, hence "untyped"), so that, intuitively speaking, elements of $D$ and functions on $D$ are treated on one and the same footing. 
 
-* The problem Scott solved is to faithfully model untyped lambda calculus; in categorical terms, the basic problem is to construct a cartesian closed category with just one object $D$ (or rather, two objects: $D$ and a terminal object $1$), so that $D$ is closed under formation of products and function spaces: $D \cong D \times D$ and $D \cong D \Rightarrow D$. Notice that in the category of sets, the only solution is to take $D \cong 1$, so that all terms are then equal ("algorithmic inconsistency"). This is not a faithful modeling of untyped lambda calculus, which has provably unequal terms. 
+* The problem Scott solved is to give faithful [[categorical semantics]] for untyped lambda calculus; where the basic problem is to construct a [[cartesian closed category]] with essentially just one [[object]] $D$ (really two objects: $D$ and a [[terminal object]] $1$), so that $D$ is closed under formation of [[products]] and [[internal homs]]: $D \cong D \times D$ and $D \cong D \Rightarrow D$. Notice that in the [[category of sets]], the only solution is to take $D \cong 1$, so that all terms are then equal ("algorithmic inconsistency"). This is not a faithful modeling of untyped lambda calculus, which has provably unequal terms. 
 
 In 1969, Dana Scott solved this problem topologically: the terms were interpreted as continuous functions on a suitable space $D$ isomorphic to its own function space. This $D$ is called a _domain_. Decades later, we now know many techniques for constructing such domains as suitable objects in cartesian closed categories, but Scott's basic insight, that computability could be interpreted as continuity, 
 continues to exert a decisive influence today. 
@@ -124,14 +124,16 @@ Possible relation to [[spacetime]] [[causality]] (cf. *[[causets]]*):
 > **Abstract**: We prove that a globally hyperbolic [[spacetime]] with its causality relation is a bicontinuous [[poset]] whose interval topology is the manifold topology. From this one can show that from only a countable dense set of events and the causality relation, it is possible to reconstruct a globally hyperbolic spacetime in a purely order theoretic manner. The ultimate reason for this is that globally hyperbolic spacetimes belong to a category that is equivalent to a special category of domains called interval domains. We obtain a mathematical setting in which one can study causality independently of geometry and differentiable structure, and which also suggests that spacetime emerges from something discrete.
 
 ### Categorical notions of domain
+ {#ReferencesCategoricalNotionsOfDomain}
 
-The informal idea is to replace partial orders with  categories, so that there is more space for intensionality. An early reference, which proposes  the notion of [[Scott-complete category]]:
+In [[category theory|category theoretic]] generalizations of  the notion, the informal idea is to replace [[partial orders]] with more general [[categories]], so that there is more space for intensionality. An early reference, which proposes  the notion of *[[Scott-complete categories]]*:
 
-* [A categorical generalization of Scott domains](https://doi.org/10.1017/S0960129597002351), [[Jiri Adamek]]. Mathematical Structures in Computer Science , Volume 7 , Issue 5 , October 1997 , pp. 419 - 443.
+* [[Jiří Adámek]], *A categorical generalization of Scott domains*, Mathematical Structures in Computer Science **7** 5  (1997) 419 - 443 &lbrack;[doi:10.1017/S0960129597002351](https://doi.org/10.1017/S0960129597002351)&rbrack;
 
 The following reference proposes using [[presheaf categories]] as a generalization of prime [[algebraic lattices]]. This also connects to work on [[species#variants|generalized species]]:
 
-* [Domain theory for concurrency](https://www.cl.cam.ac.uk/~gw104/DomThy.pdf), Mikkel Nygaard and [[Glynn Winskel]].
+* [[Mikkel Nygaard]], [[Glynn Winskel]], *Domain theory for concurrency*, Theoretical Computer Science
+**316** 1–3 (2004) 153-190 &lbrack;[doi:10.1016/j.tcs.2004.01.029](https://doi.org/10.1016/j.tcs.2004.01.029), [pdf](https://www.cl.cam.ac.uk/~gw104/DomThy.pdf)&rbrack;
 
 
 
