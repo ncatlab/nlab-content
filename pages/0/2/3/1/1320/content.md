@@ -84,20 +84,7 @@ A *category* $D$ is called *monadic* over a category $C$ if there is any functor
 
 ### Basic properties
 
-\begin{proposition}
-A monadic functor is *strictly monadic* if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]].
-\end{proposition}
-\begin{proof}
-Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the [[comparison functor]] $K$ is also [[amnestic functor|amnestic]], and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
-\end{proof}
-
-\begin{remark}
-Beware that the class of monadic functors is *not* closed under [[composition]]. 
-
-For a specific [[counter-example]]: the category of [[reflexive graph|reflexive quivers]] is monadic over $Set$ via the functor $RefGph \to Set$ sending a graph to its set of edges, and the category of categories is monadic over reflexive graphs via the forgetful functor $Cat \to RefGph$, but $Cat$ is not monadic over $Set$ (via any functor whatsoever, since such categories are [[regular categories]] but $Cat$ is not).
-
-This is an instance of a general phenomenon: Let $\mathcal{C}$ be a reflective subcategory of a presheaf category $\widehat{A}$ (e.g. every [[locally presentable category]] is of this form). Then the adjunction between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the adjunction between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
-\end{remark}
+Every monadic functor is[[faithful]] (by the definition of [[Eilenberg-Moore category]]) and [[conservative]] (by [Beck's monadicity theorem](https://ncatlab.org/nlab/show/monadicity+theorem#statement)).  Moreover:
 
 \begin{proposition}\label{MonadicFunctorsCreateLimits}
 **([[monadic functors]] [[created limit|create limits]])**
@@ -109,6 +96,15 @@ A [[monadic functor]]
 
 \end{proposition}
 (e.g. [MacLane 71, Exercise IV.2.2 (p. 138)](#MacLane71))
+
+
+\begin{remark}
+Beware that the class of monadic functors is *not* closed under [[composition]]. 
+
+For a specific [[counter-example]]: the category of [[reflexive graph|reflexive quivers]] is monadic over $Set$ via the functor $RefGph \to Set$ sending a graph to its set of edges, and the category of categories is monadic over reflexive graphs via the forgetful functor $Cat \to RefGph$, but $Cat$ is not monadic over $Set$ (via any functor whatsoever, since such categories are [[regular categories]] but $Cat$ is not).
+
+This is an instance of a general phenomenon: Let $\mathcal{C}$ be a reflective subcategory of a presheaf category $\widehat{A}$ (e.g. every [[locally presentable category]] is of this form). Then the adjunction between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the adjunction between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
+\end{remark}
 
 \begin{proposition}
 Consider a pair of adjunctions:
@@ -125,6 +121,13 @@ If $U' U$ is monadic, then $U$ is of [[descent type]] and the [[comparison funct
 \end{proposition}
 
 This is Propositions 4 and 5 of [Bourn](#Bourn).
+
+\begin{proposition}
+A monadic functor is *strictly monadic* if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]].
+\end{proposition}
+\begin{proof}
+Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the [[comparison functor]] $K$ is also [[amnestic functor|amnestic]], and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
+\end{proof}
 
 ### Monadicity theorem
 
