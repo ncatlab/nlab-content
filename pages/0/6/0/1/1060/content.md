@@ -121,7 +121,8 @@ $$
   (A \otimes B)^\ast \simeq A^\ast \otimes B^\ast
 $$
 
-is a [[compact closed category]].
+is a [[compact closed category]].  (This follows from a stronger result of Dold and Puppe; see the references.)
+=--
 
 More generally, even if the $\ast$-autonomous category is not compact closed, then by this linear "[[de Morgan duality]]" the tensor product induces a second binary operation
 
@@ -264,6 +265,14 @@ A wide-ranging summary of different model constructions:
 
 * [[Martin Hyland]] and [[Andrea Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
  {#HylandSchalk01}
+
+The fact that a $\ast$-autonomous category for which there is a natural isomorphism $(A \otimes B)^\ast \simeq A^\ast \otimes B^\ast$ is a [[compact closed category]] follows from the implication (a)$\implies$ (b) of Theorem 1.3 in this paper:
+
+* [[Dold]] and [[Puppe]], _Duality, trace and transfer_, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf).  
+
+According to Tobias Fritz (on the [Category Theory Community Server](https://categorytheory.zulipchat.com/#narrow/stream/229136-theory.3A-category-theory/topic/From.20*-autonomous.20to.20compact.20closed)):
+
+>  They apparently didn't know about $\ast$-autonomous categories (which were introduced a few years prior to that), and their statement has slightly weaker assumptions in that they start with a natural isomorphism $\mathscr{C}(A \otimes B, I) \cong \mathscr{C}(A, B^*)$ only, but they also require the induced morphisms $A^* \otimes B^* \to (A \otimes B)^*$ to be isomorphisms.
 
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
