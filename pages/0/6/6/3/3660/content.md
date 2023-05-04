@@ -123,12 +123,16 @@ This subcategory of $Corolla$ is usually *not* full, however.  In particular, fo
 
 * [[filtered category]], [[sifted category]]
 
-## References
 
-* [[Dennis Borisov]], _Comparing definitions of weak higher categories, I_ ([arXiv:0909.2534](http://arxiv.org/abs/0909.2534))
- {#Borisov}
-* [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](https://arxiv.org/abs/0708.2832))
- {#Barwick}
+## References
+ {#References}
+
+* [[William Dwyer]], [[Daniel Kan]], §4.1 in: *Function complexes for diagrams of simplicial sets*, Indagationes Mathematicae (Proceedings) **86** 2 (1983) 139-147 &lbrack;<a href="https://doi.org/10.1016/1385-7258(83)90051-3">doi:10.1016/1385-7258(83)90051-3</a>, [pdf](https://core.ac.uk/download/pdf/82652265.pdf)&rbrack;
+
+* {#Borisov} [[Dennis Borisov]], _Comparing definitions of weak higher categories, I_ ([arXiv:0909.2534](http://arxiv.org/abs/0909.2534))
+ 
+* {#Barwick} [[Clark Barwick]], Def. 1.1 in: _On Reedy Model Categories_ ([arXiv:0708.2832](https://arxiv.org/abs/0708.2832))
+ 
 
 
 [[!redirects direct category]]
