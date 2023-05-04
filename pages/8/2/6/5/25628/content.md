@@ -15,7 +15,7 @@
 
 ## Idea 
 
-The notion of *Scott-complete categories* is a [[category theory|category theoretic]] generalization of the notion of *[[Scott domains]]* from [[domain theory]], and hence a model of the [[lambda calculus]]. 
+The notion of *Scott-complete categories* is a [[category theory|category theoretic]] generalization of the notion of *[[Scott domains]]* from [[domain theory]], and hence it provides models of the [[lambda calculus]] and [[semantics of a programming language|programming languages]]. 
 
 A Scott domain is a [[directed colimit|directed-complete]] [[partial order]] ([[dcpo]]) that is 
 
