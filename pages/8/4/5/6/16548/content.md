@@ -99,7 +99,8 @@ Discussion in [[synthetic differential geometry]]:
 
 In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in:
 
-* {#Lurie} [[Jacob Lurie]], above prop. 0.9 in _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)), 2009
+* {#Lurie} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
+
 
 Discussion in [[differential cohesion]]:
 
