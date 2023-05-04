@@ -78,6 +78,8 @@ We give only a sketch; details are in [(LS, Lemma 4.5)](#LS).  If $(f,n)$ and $(
 
 * The fact that monomorphisms are stable under pushouts in toposes plays a central role for [[Cisinski model structures]] such as notably the standard [[model structure on simplicial sets]], where the monomorphisms are [[cofibrations]] and as such required to be closed under pushout (in particular).
 
+* The category [[Cat]] of categories and functors is _not_ adhesive. Neither are the categories of [[posets]], [[topological spaces]], and [[groupoids]] 
+([Lack and Sobocinski,  Counterexample 7](#LS)).
 
 ## Related concepts
 
