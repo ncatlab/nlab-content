@@ -49,9 +49,9 @@ Also "contravariantly natural" bundles such as bundle of [[covectors]] are somet
 
 Originally introduced in
 
-* [[Albert Nijenhuis]], _Geometric aspects of formal differential operations on tensor fields_, Proceedings of the International Congress of Mathematicians 1958, 463–469.
+* [[Albert Nijenhuis]], _Geometric aspects of formal differential operations on tensor fields_, Proceedings of the International Congress of Mathematicians 1958, 463–469.  [PDF](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1958/ICM1958.ocr.pdf).
 
-* [[Albert Nijenhuis]], _Natural bundles and their general properties_, in: _Differential Geometry (in honor of Kentaro Yano)_, Kinokuniya, Tokyo, 1972, pp. 317–334.
+* [[Albert Nijenhuis]], _Natural bundles and their general properties_, in: _Differential Geometry (in honor of Kentaro Yano)_, Kinokuniya, Tokyo, 1972, pp. 317–334.  [PDF](https://dmitripavlov.org/scans/nijenhuis-natural-bundles-and-their-general-properties.pdf).
 
 A comprehensive reference is available in
 
