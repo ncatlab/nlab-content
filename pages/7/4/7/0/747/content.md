@@ -1204,6 +1204,12 @@ See also
 
 * Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, (2001), 283–301, [doi](http://dx.doi.org/10.1023/a:1013302313123).
 
+On [[derived hom-spaces]] ([[function complexes]]) in the projective model structure on simplicial presheaves:
+
+* [[William Dwyer]], [[Daniel Kan]], *Function complexes for diagrams of simplicial sets*, Indagationes Mathematicae (Proceedings) **86** 2 (1983) 139-147 &lbrack;<a href="https://doi.org/10.1016/1385-7258(83)90051-3">doi:10.1016/1385-7258(83)90051-3</a>, [pdf](https://core.ac.uk/download/pdf/82652265.pdf)&rbrack;
+
+
+
 A brief review in the context of [[nonabelian Hodge theory]] is in section 4 of
 
 * {#Olsson} Martin Olsson, _Towards non-abelian $p$-adic Hodge theory in the good reduction case_ ([pdf](http://math.berkeley.edu/~molsson/PHT3-24-08.pdf))
