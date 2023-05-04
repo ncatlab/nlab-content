@@ -48,6 +48,11 @@ On the [[core of a ring]]:
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 (<a href="https://doi.org/10.1016/0022-4049(72)90023-0">doi:10.1016/0022-4049(72)90023-0</a>)
 
+On [[derived hom-spaces]] ([[function complexes]]) in [[projective model structures on simplicial presheaves]]:
+
+* [[William Dwyer]], [[Daniel Kan]], *Function complexes for diagrams of simplicial sets*, Indagationes Mathematicae (Proceedings) **86** 2 (1983) 139-147 &lbrack;<a href="https://doi.org/10.1016/1385-7258(83)90051-3">doi:10.1016/1385-7258(83)90051-3</a>, [pdf](https://core.ac.uk/download/pdf/82652265.pdf)&rbrack;
+
+
 
 On the $G$-[[Borel model structure]] and its [[Quillen equivalence]] with the [[slice model structure]] over the [[simplicial classifying space]] $\overline W G$:
 
