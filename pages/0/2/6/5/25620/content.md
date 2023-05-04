@@ -171,7 +171,13 @@ Discussion as a [[natural operation]]:
 
 * {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], p. 175 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
 
+An article in [[Encyclopedia of Mathematics]]:
 
+* [[Peter W. Michor]], _Frölicher-Nijenhuis bracket_, [HTML](https://encyclopediaofmath.org/wiki/Frölicher-Nijenhuis_bracket), [PDF](https://www.mat.univie.ac.at/~michor/fn-rev.pdf).
+
+A textbook account: Chapter 16 of
+
+* [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008).  [PDF](https://www.mat.univie.ac.at/~michor/dgbook.pdf).
 
 
 [[!redirects Frölicher–Nijenhuis brackets]]
