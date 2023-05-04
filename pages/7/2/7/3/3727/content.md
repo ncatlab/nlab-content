@@ -21,7 +21,13 @@ On [[simplicial localization]]:
 * {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
   
 * {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_, Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983), Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
+
+On [[derived hom-spaces]] ([[function complexes]]) in [[projective model structures on simplicial presheaves]]:
+
+* [[William Dwyer]], [[Daniel Kan]], *Function complexes for diagrams of simplicial sets*, Indagationes Mathematicae (Proceedings) **86** 2 (1983) 139-147 &lbrack;<a href="https://doi.org/10.1016/1385-7258(83)90051-3">doi:10.1016/1385-7258(83)90051-3</a>, [pdf](https://core.ac.uk/download/pdf/82652265.pdf)&rbrack;
+
   
+
 
 On (enhancement and generalization of) [[Elmendorf's theorem]] in [[equivariant homotopy theory]]:
 
