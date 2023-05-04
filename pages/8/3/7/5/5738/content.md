@@ -69,6 +69,11 @@ Characterization as a [[natural operation]] is due to:
 
 * {#Michor87} [[Peter W. Michor]], *Remarks on the Schouten-Nijenhuis bracket*,  In: Bureš, J. and Souček, V. (eds.): *Proceedings of the Winter School "Geometry and Physics"* Circolo Matematico di Palermo, Palermo (1987) 207-215 &lbrack;[dml:701423](https://dml.cz/handle/10338.dmlcz/701423), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/701423/WSGP_07-1987-1_21.pdf), [[Michor-SchoutenNijenhuisBracket.pdf:file]]&rbrack;
 
+Textbook account: Chapter 33.2 of
+
+* [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008).  [PDF](https://www.mat.univie.ac.at/~michor/dgbook.pdf).
+
+
 [[!redirects Schouten-Nijenhuis bracket]]
 [[!redirects Schouten–Nijenhuis bracket]]
 [[!redirects Schouten-Nijenhuis brackets]]
