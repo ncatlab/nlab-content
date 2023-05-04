@@ -133,7 +133,7 @@ But actually there it just has the notation "$X_{dR}$" and then the functor it c
 
 A review of the constructions is on the first two pages of
 
-* {#LurieCrystal} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
+* {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 The de Rham space construction on spaces ([[schemes]]) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
 
