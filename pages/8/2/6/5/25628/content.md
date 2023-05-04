@@ -15,7 +15,7 @@
 
 ## Idea 
 
-The notion of *Scott-complete categories* is a [[category theory|category theoretic]] generalization of the notion of *[[Scott domains]]* from [[domain theory]], and hence it provides models of the [[lambda calculus]] and [[semantics of a programming language|programming languages]]. 
+The notion of *Scott-complete categories* is a [[category theory|category theoretic]] generalization of the notion of *[[Scott domains]]* from [[domain theory]], and as such it provides [[categorical semantics]] for the *un-typed* [[lambda calculus]] and related [[semantics of a programming language|programming languages]]. 
 
 A Scott domain is a [[directed colimit|directed-complete]] [[partial order]] ([[dcpo]]) that is 
 
@@ -38,13 +38,13 @@ A category is **Scott-complete** if it is
 
 * [[accessible category|finitely accessible]];
 
-* every diagram with a [[cocone]] has a [[colimit]].
+* every [[diagram]] with a [[cocone]] has a [[colimit]].
 
 =--
 
-Scott-complete categories and [[directed colimit]] preserving functors form a category SCC. 
+Scott-complete categories and [[directed colimit]]-[[preserved colimit|preserving]] [[functors]] form a [[category]] $SCC$. 
 
-This category, SCC, is [[cartesian closed]] and supports the solution of recursive domain equations. 
+This category $SCC$ is [[cartesian closed]] and supports the solution of recursive domain equations. 
 
 ## See also
 
