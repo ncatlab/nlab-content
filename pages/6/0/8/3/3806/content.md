@@ -30,7 +30,7 @@
 
 1. topological algebra concerned with Lawson semilattices,
 
-1. [[computer science]], concerned with the problem of finding a viable [[denotational semantics]] for certain theories of [[computability]] (such as the untyped [[lambda calculus]]): this resist straightforward interpretations in terms of plain [[functions]] between sets but does have interpretation in terms of [[monotone functions]] between [[partially ordered sets]] (certain [[lattices]]) &lbrack;[Scott (1970)](#Scott70), [Scott & Strachey (1971)](#ScottStrachey71)&rbrack;. 
+1. [[computer science]], concerned with the problem of finding a viable [[denotational semantics]] for certain theories of [[computability]] (such as the untyped [[lambda calculus]]): this resists straightforward interpretations in terms of plain [[functions]] between sets but does have interpretation in terms of [[monotone functions]] between [[partially ordered sets]] (certain [[lattices]]) &lbrack;[Scott (1970)](#Scott70), [Scott & Strachey (1971)](#ScottStrachey71)&rbrack;. 
 
 The theory has since grown into an area which weaves together diverse strands in [[logic]], [[computability]], [[lattice]] theory, [[general topology]], and [[category theory]]. 
 
