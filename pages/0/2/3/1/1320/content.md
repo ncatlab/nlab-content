@@ -84,7 +84,7 @@ A *category* $D$ is called *monadic* over a category $C$ if there is any functor
 
 ### Basic properties
 
-Every monadic functor is[[faithful]] (by the definition of [[Eilenberg-Moore category]]) and [[conservative]] (by [Beck's monadicity theorem](https://ncatlab.org/nlab/show/monadicity+theorem#statement)).  Moreover:
+Every monadic functor is [[faithful]] (by the definition of [[Eilenberg-Moore category]]) and [[conservative]] (by [Beck's monadicity theorem](https://ncatlab.org/nlab/show/monadicity+theorem#statement)).  Moreover:
 
 \begin{proposition}\label{MonadicFunctorsCreateLimits}
 **([[monadic functors]] [[created limit|create limits]])**
