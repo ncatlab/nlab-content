@@ -72,7 +72,7 @@ A more recent account is
 
 Discussion of this in the modern context of [[higher geometry]]/[[D-geometry]] is in
 
-* {#LurieCrystals} [[Jacob Lurie]], _Notes on Crystals and algebraic D-modules_ ([[LurieCrystals.pdf:file]])
+* {#LurieCrystals} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 
 
