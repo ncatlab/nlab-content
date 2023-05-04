@@ -64,3 +64,9 @@ See also:
 
 * Wikipedia, *[Nijenhuis–Richardson bracket](https://en.wikipedia.org/wiki/Nijenhuis%E2%80%93Richardson_bracket)*
 
+A textbook account: Chapter 16 of
+
+* [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008).  [PDF](https://www.mat.univie.ac.at/~michor/dgbook.pdf).
+
+
+
