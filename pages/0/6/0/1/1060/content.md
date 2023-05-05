@@ -121,7 +121,7 @@ $$
   (A \otimes B)^\ast \simeq A^\ast \otimes B^\ast
 $$
 
-is a [[compact closed category]].  (This follows from a stronger result of Dold and Puppe; see the references.)
+is a [[compact closed category]].  This follows from a stronger result of Dold and Puppe [DP83]{#DP83}.
 =--
 
 More generally, even if the $\ast$-autonomous category is not compact closed, then by this linear "[[de Morgan duality]]" the tensor product induces a second binary operation
@@ -266,9 +266,9 @@ A wide-ranging summary of different model constructions:
 * [[Martin Hyland]] and [[Andrea Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
  {#HylandSchalk01}
 
-The fact that a $\ast$-autonomous category for which there is a natural isomorphism $(A \otimes B)^\ast \simeq A^\ast \otimes B^\ast$ is a [[compact closed category]] follows from the implication (a)$\implies$ (b) of Theorem 1.3 in this paper:
+The fact that a $\ast$-autonomous category for which there is a natural isomorphism $(A \otimes B)^\ast \simeq A^\ast \otimes B^\ast$ is a [[compact closed category]] has a purely string diagrammatic proof, but it also follows from the implication (a)$\implies$ (b) of Theorem 1.3 in this paper:
 
-* [[Dold]] and [[Puppe]], _Duality, trace and transfer_, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf).  
+* [[Albrecht Dold]] and [[Dieter Puppe]], _Duality, trace and transfer_, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf) {#DP83}
 
 According to Tobias Fritz (on the [Category Theory Community Server](https://categorytheory.zulipchat.com/#narrow/stream/229136-theory.3A-category-theory/topic/From.20*-autonomous.20to.20compact.20closed)):
 
