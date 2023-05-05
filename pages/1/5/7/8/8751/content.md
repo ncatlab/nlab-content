@@ -21,6 +21,8 @@
 
   * [[VCat]]
 
+  * [[CatAdj]]
+
   * [[Operad]]
 
 * [[2Cat]]
