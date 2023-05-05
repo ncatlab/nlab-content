@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -69,7 +70,7 @@ Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-
 A [[functor]] $U \colon D \to C$ is *monadic* (resp. *strictly monadic*) if it has a [[left adjoint]] $F \colon C\to D$ and the [[comparison functor]] $K^{\mathbf{T}} \colon D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an [[isomorphism]] of [[strict categories]]).  
 \end{definition}
 
-In other words, up to equivalence, monadic functors are precisely the [[forgetful functors]] defined on [[Eilenberg-Moore categories]] for monads, and strictly monadic functors are the same as these forgetful functors up to isomorphism. 
+In other words, up to [[equivalence of categories|equivalence]], monadic functors are precisely the [[forgetful functors]] defined on [[Eilenberg-Moore categories]] for [[monads]], and strictly monadic functors are the same as these forgetful functors up to [[isomorphism]] of [[strict categories]]. 
 
 * If the [[comparison functor]] is only [[fully faithful]], a functor is sometimes called *[[premonadic functor|premonadic]]* or said to be *of [[descent type]]*.
 
@@ -84,7 +85,13 @@ A *category* $D$ is called *monadic* over a category $C$ if there is any functor
 
 ### Basic properties
 
-Every monadic functor is [[faithful]] (by the definition of [[Eilenberg-Moore category]]) and [[conservative]] (by [Beck's monadicity theorem](https://ncatlab.org/nlab/show/monadicity+theorem#statement)).  Moreover:
+Every monadic functor is 
+
+1. [[faithful functor|faithful]] (by the definition of [[Eilenberg-Moore category]]) 
+
+1. [[conservative]] (by [Beck's monadicity theorem](monadicity+theorem#statement)).  
+
+Moreover:
 
 \begin{proposition}\label{MonadicFunctorsCreateLimits}
 **([[monadic functors]] [[created limit|create limits]])**
@@ -99,15 +106,15 @@ A [[monadic functor]]
 
 
 \begin{remark}
-Beware that the class of monadic functors is *not* closed under [[composition]]. 
+Beware that the [[class]] of monadic functors is *not* closed under [[composition]]. 
 
-For a specific [[counter-example]]: the category of [[reflexive graph|reflexive quivers]] is monadic over $Set$ via the functor $RefGph \to Set$ sending a graph to its set of edges, and the category of categories is monadic over reflexive graphs via the forgetful functor $Cat \to RefGph$, but $Cat$ is not monadic over $Set$ (via any functor whatsoever, since such categories are [[regular categories]] but $Cat$ is not).
+For a specific [[counter-example]]: the category of [[reflexive graphs]] is monadic over [[Set]] via the functor $RefGph \to Set$ sending a graph to its set of [[edges]], and the [[category of categories]] is monadic over [[reflexive graphs]] via the [[forgetful functor]] $Cat \to RefGph$, but $Cat$ is not monadic over $Set$ (via any functor whatsoever, since monadic categories over [[Set]] are [[regular categories]] which [[Cat]] is not).
 
-This is an instance of a general phenomenon: Let $\mathcal{C}$ be a reflective subcategory of a presheaf category $\widehat{A}$ (e.g. every [[locally presentable category]] is of this form). Then the adjunction between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the adjunction between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
+This is an instance of a general phenomenon: Let $\mathcal{C}$ be a [[reflective subcategory]] of a [[presheaf category]] $\widehat{A}$ (e.g. any [[locally presentable category]] is of this form). Then the [[adjoint functor|adjunction]] between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the [[adjoint functor|adjunction]] between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
 \end{remark}
 
 \begin{proposition}
-Consider a pair of adjunctions:
+Consider a pair of [[adjoint functors|adjunctions]]:
 \begin{tikzcd}
 	A & B & C
 	\arrow[""{name=0, anchor=center, inner sep=0}, "U", shift left=2, from=1-1, to=1-2]
@@ -117,7 +124,7 @@ Consider a pair of adjunctions:
 	\arrow["\dashv"{anchor=center, rotate=90}, draw=none, from=2, to=1]
 	\arrow["\dashv"{anchor=center, rotate=90}, draw=none, from=3, to=0]
 \end{tikzcd}
-If $U' U$ is monadic, then $U$ is of [[descent type]] and the [[comparison functor]] has a [[adjoint functor|left adjoint]]. If $U'$ is furthermore [[conservative]] (and in particular if it is monadic), then $U$ is monadic.
+If here $U' U$ is monadic, then $U$ is of [[descent type]] and the [[comparison functor]] has a [[adjoint functor|left adjoint]]. If $U'$ is furthermore [[conservative]] (and in particular if it is monadic), then $U$ is monadic.
 \end{proposition}
 
 This is Propositions 4 and 5 of [Bourn](#Bourn).
