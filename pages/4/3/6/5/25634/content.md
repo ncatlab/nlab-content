@@ -24,7 +24,7 @@ There are several versions of a ([[very large category|very large]]) [[2-categor
 
 One choice is to consider [[2-morphisms]] to be [[conjugate transformations of adjoints]] between [[Quillen adjunctions]] &lbrack;[Harpaz & Prasma (2015), Def. 2.5.3](#HarpazPrasma15)&rbrack;, such that forgetting the [[model category]]-[[structure]] is a [[forgetful functor|forgetful]] [[2-functor]] to [[CatAdj|$Cat_{Adj}$]]:
 $$
-  ModCat \longrightarrow CatAdj \longrightarrow Cat
+  ModCat \longrightarrow Cat_{Adj} \longrightarrow Cat
   \,.
 $$
 Therefore a [[pseudofunctor]] $\mathcal{B} \longrightarrow Cat$ which factors through $ModCat$ this way has as [[Grothendieck construction]] a [[bifibration]] of [[model categories]]. Under good conditions, the [[domain]] of this bifibration carries itself an induced [[model category structure]], see at *[[model structure on Grothendieck constructions]]*.
