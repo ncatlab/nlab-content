@@ -188,6 +188,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 * [[Ho(Cat)]]
 
+* [[2-category of model categories]]
+
 * [[double category of model categories]]
 
 * [[Quillen adjoint triple]]
