@@ -30,6 +30,12 @@ Exposition:
 * [[Christoph Schweigert]], *String-net methods for CFT correlators*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#SchweigertMar2023)&rbrack;
 
 
+Survey of [[algebra|algebraic]] [[structures]] in [[2d conformal field theory]] ([[vertex operator algebras]], [[conformal blocks]], [[modular tensor category|modular]] [[fusion categories]], [[modular functors]], [[FRS theorem]], [[string-net models]]):
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+
+
 
 ## Related $n$Lab-entries
 
