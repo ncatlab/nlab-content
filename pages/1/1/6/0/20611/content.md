@@ -1,11 +1,31 @@
-[[!redirects list of journals publishing category theory]]
-[[!redirects list of journals publishing homotopy theory]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
 
 The following journals have, at least at some time in the past, published homotopy theory, category theory, and related material.  More need to be added.  No guarantee is made that the mentioned editors are current; check the journal web sites for current editorial boards.
 
-The general plan for the ordering of journals below should be roughly in the decreasing order of the number of articles they publish in the area of homotopy theory and category theory, as witnessed by the [[MathSciNet]] statistics. Unfortunately this webpage is in continuous update and it is not easy to keep track of this information consistently.
 
 ## Journals currently publishing homotopy theory and/or category theory
+ {#List}
+
+The following list is meant to be roughly in decreasing order of the number of articles they publish in the area of homotopy theory and category theory, as witnessed by the [[MathSciNet]] statistics. Unfortunately this webpage is in continuous update and it is not easy to keep track of this information consistently.
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
@@ -49,3 +69,7 @@ The general plan for the ordering of journals below should be roughly in the dec
 
 * [[list of theses in category theory]]
 * [[list of lost manuscripts in category theory]]
+
+[[!redirects list of journals publishing category theory]]
+[[!redirects list of journals publishing homotopy theory]]
+
