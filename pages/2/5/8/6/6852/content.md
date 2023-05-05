@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 > This entry is about the concept in [[differential geometry]] and [[Lie theory]]. For the concept in functional analysis see at _[[distribution]]_.
 
 #Contents#
