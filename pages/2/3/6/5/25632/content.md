@@ -72,13 +72,13 @@ is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrac
     \big)
     \\
     \mathllap{{}^{
-      \mathcal{C}\big(\lambda_{(-)},\,-\big)
+      \mathcal{C}\big(\lambda_{(-)},\,id_{(-)}\big)
     }}
     \Big\downarrow
     &&
     \Big\downarrow
     \mathrlap{{}^{
-      \mathcal{C}\big(-,\,\rho_{(-)}\big)
+      \mathcal{C}\big(id_{(-)},\,\rho_{(-)}\big)
     }}
     \\
     \mathcal{C}\big(
