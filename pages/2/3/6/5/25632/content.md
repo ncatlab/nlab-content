@@ -30,7 +30,8 @@ Here is a basic but important notion:
   \linebreak
   Given a [[pair]] of pairs of adjoint functors between the same [[categories]]
 
-  $$
+  \[
+    \label{PairOfPairsOfAdjointFunctors}
     \array{
     \mathcal{C}
       \underoverset
@@ -46,15 +47,15 @@ Here is a basic but important notion:
         {\;\;\; \bot \;\;\;}
     \mathcal{D}
     }
-  $$
-
+  \]
 then a [[pair]] of [[natural transformations]] between the adjoints of the same chirality, of this form
-
-$$
+\[
+  \label{PairOfTransformations}
   \lambda \,\colon\, L_1 \to L_2
   \;\;\;\;\;\;
   \rho \,\colon\, R_2 \to R_1
-$$
+  \,,
+\]
 is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrack; or a *pseudo-transformation of* &lbrack;[Harpaz & Prasma (2015), Sec. 2.2](#HarpazPrasma15)&rbrack; the given adjunctions if they make the following [[diagram]] of [[natural transformations]] between [[hom-sets]] [[commuting diagram|commute]]:
 \[
   \label{ConjugacyConditionOnAdjoints}
@@ -96,20 +97,50 @@ is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrac
   }
 \]
 where the horizontal maps are the given hom-isomorphisms (see [there](adjoint+functor#eq:HomIsomorphismForAdjointFunctors)).
+
+Such pairs of conjugate transformation [[composition|compose]] in the evident way to yields a [[category]]
+\[
+  \label{CatAdjCD}
+  Cat_{Adj}(\mathcal{C},\mathcal{D})
+\]
+whose
+
+* [[objects]] are the [[left adjoint functors]] $\mathcal{C} \to \mathcal{D}$
+
+* [[morphisms]] are the conjugate transformations between these.
+
 \end{definition}
 
+\begin{proposition} 
+  \label{UniqueConjugateMate}
+  Given a pair of pairs of adjunctions as in (eq:PairOfPairsOfAdjointFunctors) and given (just) $\lambda$ as in (eq:PairOfTransformations) then there exists a unique $\rho$ as in (eq:PairOfTransformations) such that the conjugacy condition (eq:ConjugacyConditionOnAdjoints) holds.
+
+In other words, the evident [[forgetful functor]] from $Cat_Ajd(\mathcal{C},\,\mathcal{D})$ (eq:CatAdjCD) to the [[hom-category]] $\Cat(\mathcal{C},\,\mathcal{D})$ (i.e. the [[functor category]]) is a [[fully faithful functor]] exhibiting a [[full subcategory]]-inclusion:
+$$
+  \mathcal{C},\,\mathcal{D} \,\in\, Obj(Cat)
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  Cat_{Adj}(\mathcal{C},\,\mathcal{D})
+  \hookrightarrow
+  Cat(\mathcal{C},\,\mathcal{D})
+  \,.
+$$
+\end{proposition}
+&lbrack;[Mac Lane (1971), p. 98](#MacLane71)&rbrack;
+
+In fact:
 \begin{proposition}
 \label{ConjugacyMeansMated}
 **(conjugate pairs are mates)**
 \linebreak
   The conjugacy condition (eq:ConjugacyConditionOnAdjoints) means equivalently that $\lambda$ and $\rho$ are *[[mates]]* in the sense of [[2-category theory]].
 \end{proposition}
-This is [MacLane (1971) IV.7 Thm. 2 (6), p. 98](#MacLane71) (not using the "[[mate]]"-terminology, though, which is due to [Kelly & Street (2006)](mate#KellyStreet06)).
+This is [MacLane (1971) IV.7 Thm. 2 (6), p. 98](#MacLane71) (not using the "[[mate]]"-terminology, though, which is due to [Kelly & Street 2006](mate#KellyStreet06)).
 
-Conjugacy of transformations is compatible with [[horizontal composition|horizontal]] and [[vertical composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] and hence yields:
-
+Moreover, conjugacy of transformations is compatible with [[horizontal composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] ("[[whiskering]]"). Therefore, with Prop. \ref{UniqueConjugateMate} we have:
 \begin{definition}\label{CatAdj}
-The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] of [[Cat]]
+The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] [[CatAdj|$Cat_{Adj}$]] of [[Cat]]
 \[
   \label{CatAdjInsideCat}
   Cat_{Adj} \longrightarrow Cat
