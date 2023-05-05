@@ -34,5 +34,7 @@ The analog of this
 
 ## Related concepts
 
+* [[CatAdj|$Cat_{Adj}$]]
+
 [[!include locally presentable categories - table]]
 
