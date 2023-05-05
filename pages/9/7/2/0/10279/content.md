@@ -21,7 +21,7 @@
 
 ## Idea
 
-An __antilinear map__ $f : U \to V$ is like a [[linear map]], but instead of commuting with scalar multiplication it "anti-commutes" with scalar multiplication: multiplication by a scalar $c$ is mapped to multiplication with the scalar's conjugate $\overline{c}$, for some appropriate notion of "conjugate".
+An __antilinear map__ is like a [[linear map]], but instead of commuting with scalar multiplication it "anti-commutes" with scalar multiplication: multiplication by a scalar $c$ is mapped to multiplication by the scalar's conjugate $\overline{c}$, for some appropriate notion of "conjugate".
 
 An alternate term is __conjugate linear__.
 
