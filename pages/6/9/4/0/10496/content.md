@@ -268,9 +268,14 @@ Int. J. Mod. Phys. B7, 4227 (1993).
 
 ### Topologically ordered materials
 
-On [[semimetals]] with degenerate ground states:
+On [[topological semimetals]] with degenerate ground states:
 
 * Huaiming Guo, Yongfei Jia, *Interaction-driven phases in a Dirac Semimetal: Exact Diagonalization Results*, J. Phys.: Condens. Matter **26** 475601 (2014) &lbrack;[arXiv:1402.4274](https://arxiv.org/abs/1402.4274), [doi:10.1088/0953-8984/26/47/475601](https://doi.org/10.1088/0953-8984/26/47/475601)&rbrack;
+
+On [[topological semimetals]] which gap to topologically ordered phases:
+
+* Jinmin Yi, Xuzhe Ying, Lei Gioia, A. A. Burkov, *Topological order in interacting semimetals*, Phys. Rev. B **107** 115147 (2023) &lbrack;[arXi:2301.03628](https://arxiv.org/abs/2301.03628), [doi:10.1103/PhysRevB.107.115147](https://doi.org/10.1103/PhysRevB.107.115147)&rbrack;
+
 
 
 ### Other articles
