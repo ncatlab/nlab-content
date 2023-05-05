@@ -284,7 +284,8 @@ The definition "with a single set of morphisms" (i.e. as [[internal categories]]
 
 Textbook accounts:
 
-* [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
+* [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 Expositions include
 
