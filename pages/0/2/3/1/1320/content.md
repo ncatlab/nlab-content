@@ -140,6 +140,9 @@ Clearly, a strictly monadic functor is an amnestic isofibration; and if a monadi
 
 Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem" in older literature) give sufficient, and sometimes necessary, conditions for a given functor to be monadic. There are also dual, [[comonadic functor|comonadic versions]].
 
+### Monadic functors to Set
+
+Monadic functors to the category [[Set]] have additional properties.  For example, every monadic functor $U: D \to \mathrm{Set}$ is [[solid]].  Furthermore, a category is monadic over $\mathrm{Set}$ (i.e. it admits a monadic functor to $\mathrm{Set}$) if and only if is [[exact category|Barr exact]], cocomplete, and has a [[projective object|projective]] [[separator|generator]] ([Vitale](#Vitale)).
 
 ## Related concepts
 
@@ -159,6 +162,9 @@ Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem"
 * [[Emily Riehl]], §5.3 in: _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
 
 * {#Bourn} [[Dominique Bourn]]. _Low dimensional geometry of the notion of choice_. Category Theory 1991, CMS Conf. Proc. Vol. 13. 1992.
+
+* {#Vitale} [[Enrico Vitale]]. _On the characterization of monadic categories over set_. Cahiers de topologie et géométrie différentielle catégoriques, tome
+35, no 4 (1994), pp. 351-358.  &lbrack[pdf](http://www.numdam.org/article/CTGDC_1994__35_4_351_0.pdf)&rbrack;
   
 
 [[!redirects monadic]]
