@@ -130,6 +130,11 @@ Construction of modular tensor categories from [[vertex operator algebras]]:
 
 * {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Section 8.27.6 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) $[$[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205)$]$
 
+brief survey:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], pp. 5 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+
 and generalization to [[logarithmic CFT|logarithmic]] VOAs:
 
 * {#CreutzigLentnerRupert21} [[Thomas Creutzig]], [[Simon Lentner]], [[Matthew Rupert]], *Characterizing braided tensor categories associated to logarithmic vertex operator algebras* $[$[arXiv:2104.13262](https://arxiv.org/abs/2104.13262)$]$
