@@ -39,7 +39,7 @@ Let $\mathcal{M}$ be a [[model category]] and
   }
 \]
 
-a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_!$), and [[mate]]-pairs of [[natural isomorphisms]].
+a [[pseudofunctor]], where [[ModCat|$ModelCat$]] is the [[2-category]] of [[model categories]], [[Quillen adjunctions]] (pointing in the direction of their [[left adjoints]] $f_!$), and [[conjugate transformations of adjoints]] ([[mate]]-pairs of [[natural isomorphisms]]).
 
 We say that:
 
@@ -135,8 +135,7 @@ The construction was then generalized in
 
 and further in
 
-* [[Pierre Cagne]], [[Paul-André Melliès]], *On bifibrations of model categories*, Advances in Mathematics
-**370** (2020) 107205 &lbrack;[arXiv:1709.10484](https://arxiv.org/abs/1709.10484), [doi:10.1016/j.aim.2020.107205](https://doi.org/10.1016/j.aim.2020.107205)&rbrack;
+* [[Pierre Cagne]], [[Paul-André Melliès]], *On bifibrations of model categories*, Advances in Mathematics **370** (2020) 107205 &lbrack;[arXiv:1709.10484](https://arxiv.org/abs/1709.10484), [doi:10.1016/j.aim.2020.107205](https://doi.org/10.1016/j.aim.2020.107205)&rbrack;
 
 
 For the special case of pseudofunctors with values in [[groupoids]], a [[model category]] version of the Grothendieck construction was discussed in
@@ -161,5 +160,6 @@ For the special case of pseudofunctors with values in [[groupoids]], a [[model c
 [[!redirects model structure on a Grothendieck construction]]
 [[!redirects model structure on the Grothendieck construction]]
 [[!redirects model structure on Grothendieck constructions]]
+[[!redirects model structures on Grothendieck constructions]]
 
 
