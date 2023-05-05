@@ -456,6 +456,7 @@ Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Sp
 
 * Satoshi Nawata, Runkai Tao, Daisuke Yokoyama, *Fudan lectures on 2d conformal field theory* &lbrack;[arXiv2208.05180](https://arxiv.org/abs/2208.05180)&rbrack;
 
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
 
 
