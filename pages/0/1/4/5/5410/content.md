@@ -22,9 +22,9 @@
 
 ### Idea
 
-Recall that a functor $E \to B$ is called a [[fibration]] if its [[fibres]] $E_b$ vary (pseudo-)[[pseudofunctor|functorially]] in $b$.  Taking _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
+Recall that a [[functor]] $E \to B$ is called a *[[fibration]]* if its [[fibres]] $E_b$ vary ([[pseudofunctor|pseudo-]])[[functorially]] in $b$.  Taking here _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
 
-Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a pair of functors whose fibres $E(a,b)$ vary functorially in both $a$ and $b$ (contravariantly in one and covariantly in the other).
+Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a [[span]] of functors whose joint fibres $E(a,b)$ vary functorially in both $a$ and $b$ ([[contravariant functor|contravariantly]] in one and [[covariant functor|covariantly]] in the other).
 
 ### Definition
 
