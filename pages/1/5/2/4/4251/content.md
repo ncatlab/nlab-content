@@ -107,7 +107,7 @@ where
 
 * for $S \in sSet$ the presheaf $LConst_S$ sends all $U \mapsto S$, for all $U$;
 
-* the functor $\Pi$ acts by $Pi(X) = \int^{U \in C} X = \lim_\to X$.
+* the functor $\Pi$ acts by $\Pi(X) = \int^{U \in C} X = \lim_\to X$.
 
 The total left [[derived functor]] of $\Pi$ first takes an object $X$ to a [[simplicial presheaf]] that is degreewise a [[coproduct]] of [[representable functor|representables]] and then _contracts_ all these representables to the [[terminal object]], regarding the resulting constant simplicial presheaf as a simplicial set:
 
