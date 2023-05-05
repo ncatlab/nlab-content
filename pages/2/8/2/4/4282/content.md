@@ -93,6 +93,11 @@ In each case the star-operation may be thought of as [[complex conjugation]], gi
 \end{example}
 
 \begin{example}
+**(operators on a [[Hilbert space]])**
+The algebra of [[continuous operators]] on a [[Hilbert space]] is a star-algebra, with the [[Hermitian adjoint]] as the anti-involution.
+\end{example}
+
+\begin{example}
 **([[C-star algebras]])**
 A _[[C-star algebra]]_ is a star-algebra where the anti-involution is compatible with the [[norm]] of the underlying [[Banach algebra]].
 \end{example}
