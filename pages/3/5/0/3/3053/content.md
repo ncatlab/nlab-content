@@ -1,4 +1,7 @@
 
+> This page is about [[Grothendieck fibrations]] that are also [[opfibrations]]. For [[fibration of 2-categories|fibrations of 2-categories]] see there.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,7 +13,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -18,10 +20,16 @@
 
 ## Definition
 
-A **bifibration** of [[category|categories]] is a [[functor]]
+A **bifibration** of [[categories]] is a [[functor]]
 
 $$
-  E \to B
+  \array{
+    E
+    \\
+    \big\downarrow
+    \\
+    B
+  }
 $$
 
 that is both a [[Grothendieck fibration]] as well as an [[opfibration]].
@@ -89,18 +97,30 @@ The basic theory of [[2-fibrations]], fibrations of bicategories, is developed i
 
 
 ## References
+ {#References}
 
-* [[Dusko Pavlovic|Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ in:_Category theory Como 1990_, LNM **1488** Springer (1991) 306-325 
+Original notion and terminology of "bifibration":
 
-* {#Buckley} Mitchell Buckley, _Fibred 2-categories and bicategories_, ([arXiv:1212.6283](https://arxiv.org/abs/1212.6283)) 
+* [[Alexander Grothendieck]], *Catégories co-fibrées, catégories bi-fibrées.*, Section 10 in exposé VI of: _Revêtements Etales et Groupe Fondamental - Séminaire de Géometrie Algébrique du Bois Marie 1960/61_ ([[SGA 1]]), LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
 
-* {#Stanculesu12} [[Alexandru E. Stanculescu]], *Bifibrations and weak factorisation systems*, Applied Categorical Structures **20** 1 (2012) 19–30 &lbrack;<a href="https://link.springer.com/article/10.1007/s10485-009-9214-3">doi:10.1007/s10485-009-9214-3</a>&rbrack;
+Further early discussion (not using the terminology "bifibration", though):
+
+* {#Gray66} [[John W. Gray]], pp. 59 of: *Fibred and Cofibred Categories*,  in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 21-83 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+Discussion in the context of the [[Beck-Chevalley condition]]:
+
+* [[Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ in:_Category theory Como 1990_, LNM **1488** Springer (1991) 306-325 &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
+
+
+As [[categorical semantics]] for aspects of [[type theory]]:
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, ([arXiv.1310.0263](http://arxiv.org/abs/1310.0263v1)).
 
 * {#vonGlehn} [[Tamara von Glehn]], *Polynomials and models of type theory*, PhD thesis &lbrack;[1810/254394](https://www.repository.cam.ac.uk/handle/1810/254394)&rbrack;
 
 Relation to [[pseudofunctors]] with values in [[CatAdj|$Cat_{Adj}$]] and [[ModCat|$ModCat$]] (cf. [[model structures on Grothendieck constructions]]): 
+
+* {#Stanculesu12} [[Alexandru E. Stanculescu]], *Bifibrations and weak factorisation systems*, Applied Categorical Structures **20** 1 (2012) 19–30 &lbrack;<a href="https://link.springer.com/article/10.1007/s10485-009-9214-3">doi:10.1007/s10485-009-9214-3</a>&rbrack;
 
 * {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], Section 2.2. of: _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
 
