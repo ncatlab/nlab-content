@@ -13,7 +13,9 @@ On [[WZW models]] at [[rational number|fractional]] [[level (Chern-Simons theory
 
 * J. L. Petersen, J. Rasmussen, M. Yu, *Fusion, Crossing and Monodromy in Conformal Field Theory Based on $SL(2)$ Current Algebra with Fractional Level*, Nucl. Phys. B481 (1996) 577-624 ([arXiv:hep-th/9607129](https://arxiv.org/abs/hep-th/9607129), <a href="https://doi.org/10.1016/S0550-3213(96)00506-8">doi:10.1016/S0550-3213(96)00506-8</a>)
 
-* [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202** , AMS 1997 ([arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202))
+* [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202**, AMS (1997) $[$[arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202)$]$
+
+  > (an [[osp|$\mathfrak{osp}(1\vert2)$]]-factor appears)
 
 with a good review in:
 
