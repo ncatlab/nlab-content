@@ -43,7 +43,7 @@ On [[Isbell duality]] and [[reflexive completion]]:
   >
   > Advanced topics are omitted, leaving more space for careful explanations of the core concepts. I have used versions of this text to teach final-year undergraduate and master's-level courses at the Universities of Glasgow and Edinburgh.
 
-* _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
+* [[Tom Leinster]], *Higher operads, higher categories*, London Math. Soc. Lec. Note Series **298**, Cambridge University Press (2004) &lbrack;[math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896)&rbrack;
 
 * _[Entropy and Diversity: The Axiomatic Approach](https://www.cambridge.org/us/academic/subjects/mathematics/logic-categories-and-sets/entropy-and-diversity-axiomatic-approach?isbn=9781108832700)_, Cambridge UP, 2021
 
