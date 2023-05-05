@@ -244,31 +244,31 @@ These authors call any closed monoidal category with a [[dualizing object in a c
 
 Here it is explained how $*$-autonomous categories give Frobenius pseudomonads in the 2-category where morphisms are [[profunctors]]:
 
-*  Ross Street, Frobenius monads and pseudomonoids, J. Math. Physics 45 (2004) 3930-3948. ([pdf](http://www.math.mq.edu.au/~street/Frob.pdf))
+*  [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Physics **45** (2004) 3930-3948 &lbrack;[pdf](http://www.math.mq.edu.au/~street/Frob.pdf)&rbrack;
 
 Examples using toplogical vector spaces are given here:
 
-* Michael Barr, On $*$-autonomous categories of topological vector spaces, Cahiers de topologie et géométrie différentielle catégoriques, tome
-41, no 4 (2000), p. 243-254. ([pdf] (http://www.numdam.org/item/CTGDC_2000__41_4_243_0.pdf))
+* [[Michael Barr]], *On $*$-autonomous categories of topological vector spaces*, Cahiers de topologie et géométrie différentielle catégoriques **41** 4 (2000) 243-254 &lbrack;[numdan:CTGDC_2000__41_4_243_0] (http://www.numdam.org/item/CTGDC_2000__41_4_243_0.pdf)&rbrack;
 
-Relation to linearly distributive categories:
+Relation to [[linearly distributive categories]]:
 
-* [[Robin Cockett]] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
- {#CockettSeely99}
+* {#CockettSeely99} [[Robin Cockett]], [[Robert Seely]], _Linearly distributive functors_ (1999) &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00110-8">doi:10.1016/S0022-4049(98)00110-8</a>&rbrack;
+ 
 
 Combination with traces yields compact closure:
 
-* Tamás Hajgató and [[Masahito Hasegawa]], *Traced $\ast$-autonomous categories are compact closed*, [TAC](http://www.tac.mta.ca/tac/volumes/28/7/28-07abs.html), 2013
- {#HH13}
+* {#HH13} Tamás Hajgató and [[Masahito Hasegawa]], *Traced $\ast$-autonomous categories are compact closed*, [TAC](http://www.tac.mta.ca/tac/volumes/28/7/28-07abs.html), 2013
+ 
 
 A wide-ranging summary of different model constructions:
 
-* [[Martin Hyland]] and [[Andrea Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
- {#HylandSchalk01}
+* {#HylandSchalk01 [[Martin Hyland]] and [[Andrea Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+ 
 
-The fact that a $\ast$-autonomous category for which there is a natural isomorphism $(A \otimes B)^\ast \simeq A^\ast \otimes B^\ast$ is a [[compact closed category]] has a purely string diagrammatic proof, but it also follows from the implication (a)$\implies$ (b) of Theorem 1.3 in this paper:
+The fact that a $\ast$-autonomous category for which there is a [[natural isomorphism]] $(A \otimes B)^\ast \simeq A^\ast \otimes B^\ast$ is a [[compact closed category]] has a purely [[string diagram|string diagrammatic]] proof, but it also follows from the implication (a)$\implies$ (b) of Theorem 1.3 in this paper:
 
-* [[Albrecht Dold]] and [[Dieter Puppe]], _Duality, trace and transfer_, [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf) {#DP83}
+* {#DP83} [[Albrecht Dold]], [[Dieter Puppe]], *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/doldpup2.pdf)&rbrack;
+
 
 According to Tobias Fritz (on the [Category Theory Community Server](https://categorytheory.zulipchat.com/#narrow/stream/229136-theory.3A-category-theory/topic/From.20*-autonomous.20to.20compact.20closed)):
 
