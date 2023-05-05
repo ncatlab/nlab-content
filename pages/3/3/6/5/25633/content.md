@@ -18,7 +18,7 @@
 
 There are different versions of what one may mean by a [[2-category]] of [[categories]] with [[adjoint functors]] as [[1-morphisms]], namely depending on which notion of [[transformation of adjoints]] one considers.
 
-For example, the ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] of [[Cat]]
+For example, the ([[very large category|very large]]) [[2-category]] 
 \[
   \label{CatAdjInsideCat}
   Cat_{Adj} \longrightarrow Cat
