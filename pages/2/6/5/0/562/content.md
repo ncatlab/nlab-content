@@ -308,9 +308,13 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 ## Related concepts
 
-* **Grothendieck fibration**, [[two-sided fibration]]
+* [[opfibration]], [[bifibration]] 
+
+  [[two-sided fibration]]
 
 * [[monoidal fibration]]
+
+* [[fibration of 2-categories]]
 
 * [[n-fibration]]
 
@@ -338,8 +342,14 @@ Early development of the theory:
 
 * {#Bénabou1985} [[Jean Bénabou]], *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
 
+reviewed in:
 
-Review:
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
+
+
+Further review with emphasis on [[descent]] and Grothendieck fibrations as incarnations of [[stacks]]:
+
+*  [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ &lbrack;[math.AG/0412512](http://arxiv.org/abs/math/0412512), [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406)&rbrack;  in: Fantechi et al. (eds.), _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)&rbrack;  
 
 * [[Barbara Fantechi]], [[Lothar Göttsche]], [[Luc Illusie]], [[Steven L. Kleiman]], [[Nitin Nitsure]], [[Angelo Vistoli]], Chapter 3 of: _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) &lbrack;[MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001), [ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [lecture notes](http://indico.ictp.it/event/a0255/other-view?view=ictptimetable)&rbrack;
 
@@ -354,47 +364,30 @@ Textbook accounts:
 
   > (in the context of [[categorical semantics of dependent types]])
 
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] vol.1, Oxford UP 2002. (Part B)
+
+  > (beware that this uses the non-standard terms "prone" and "supine" for "cartesian" and "opcartesian" morphisms)
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 9 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
+See also:
 
-Hermida worked on the 2-category of fibrations and the application of fibrations to computer science. 
+* André Joyal, *[[joyalscatlab:Grothendieck fibrations]]*
+
+* Wikipedia, *[Fibered category](http://en.wikipedia.org/wiki/Fibred_category)*
+
+
+On the [[2-category]] of fibrations and application to [[computer science]]:
 
 * {#Hermida} [[Claudio Hermida]], *Some properties of $Fib$ as a fibred 2-category*, Journal of Pure and Applied Algebra **134** (1999) 83-109 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00129-1">doi:10.1016/S0022-4049(97)00129-1</a>&rbrack;
 
 * {#HermidaThesis} [[Claudio Hermida]], [PhD thesis, University of Edinburgh](https://era.ed.ac.uk/bitstream/handle/1842/14057/Hermida1993.Pdf)
 
-The elephant contains a lot of basic information and some good intuition[^caveat]:
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]] vol.1, Oxford UP 2002. (Part B)
-
-[^caveat]: But beware that Johnstone uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism!
-
-A standard reference that focusses on the interplay with [[categorical semantics of dependent type theory]]:
-
-
-* [[Bart Jacobs]], *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
-
-
-[[Jean Bénabou]]'s perspective on fibrations and some results related to Moens' thesis are documented in the highly recommendable lecture notes:
-
-* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean Bénabou_,  &lbrack;[arXiv:1801.02927](https://arxiv.org/abs/1801.02927)&rbrack;
-
-The following lecture notes stress the original perspective of [[algebraic geometry]]:
-
-* [[Angelo Vistoli]], _Notes on Grothendieck topologies, fibered categories and descent theory_ . ([pdf](http://homepage.sns.it/vistoli/descent.pdf))
-
-For the use of fibrations in homotopy see e.g.
+See also:
 
 * [[Ronnie Brown|R. Brown]], R. Sivera, _Algebraic colimit calculations in homotopy theory using fibred and cofibred categories_, TAC **22** (2009) pp.222-251. ([pdf](http://www.tac.mta.ca/tac/volumes/22/8/22-08.pdf))
 
-[[André Joyal]]'s take on fibrations can be found here:
 
-* _[[joyalscatlab:Grothendieck fibrations]]_ 
-
-The Wikipedia entry on fibered / fibred categories is okay, and contains a number of other references:
-
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Fibred_category) 
 
 
 [[!redirects Grothendieck fibrations]]
