@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the characterization of [[monadic functors]] over [[Set]]:
+
+* {#Vitale94} [[Enrico Vitale]], *On the characterization of monadic categories over $SET$*, Cahiers de topologie et géométrie différentielle catégoriques **35** 4 (1994) 351-358.  &lbrack;[numdam:CTGDC_1994__35_4_351_0](http://www.numdam.org/item/?id=CTGDC_1994__35_4_351_0), [pdf](http://www.numdam.org/article/CTGDC_1994__35_4_351_0.pdf)&rbrack;
+
+
 On the [[category]] of ([[Hausdorff space|Hausdorff]]) [[compactly generated topological spaces]] being a [[regular category]]:
 
 * {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
