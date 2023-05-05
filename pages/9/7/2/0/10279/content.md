@@ -19,19 +19,54 @@
 * table of contents
 {:toc}
 
+## Idea
+
+An __antilinear map__ $f : U \to V$ is like a [[linear map]], but instead of commuting with scalar multiplication it "anti-commutes" with scalar multiplication: multiplication by a scalar $c$ is mapped to multiplication with the scalar's conjugate $\overline{c}$, for some appropriate notion of "conjugate".
+
+An alternate term is __conjugate linear__.
+
+
 ## Definition
 
-Given $V$ a [[complex vector space]], a [[function]] $f \colon V \to V$ as _antilinear_ or _conjugate linear_ if 
+Begin with a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$.
 
-* it respects [[sums]] of [[vectors]]: for all $v_1, v_2$ in $V$ we have $f(v_1 + v_2) = f(v_1) + f(v_2)$
+Then for $K$-[[modules]] (or $K$-[[linear spaces]]) $V, W$, a __$K$-antilinear map__ is a function $T : V \to W$ such that for all $x, y \in V$ and $r \in K$,
 
-* it preserves multiplication by [[complex numbers]] up to [[complex conjugation]] $\overline{(-)}$: for all $c \in \mathbb{C}$ and $v \in c$ we have $f(c \cdot v) = \overline{c}\cdot f(v)$.
+$$ T(r x + y) = \overline{r} T(x) + T(y) \quad . $$
+
+This differs from a [[linear map]] in the appearance of $\overline{r}$ on the right-hand side, rather than $r$.
+
+
+## Examples
+
+### Simple general examples
+
+Every $K$-linear map is also a $K$-antilinear map, with the identity involution on $K$.
+
+Any involution $\overline{(-)} : K \to K$ is itself an antilinear map.
+
+
+### Complex vector spaces
+
+A motivating class of examples is when $K = \mathbb{C}$ is the [[complex numbers]], and $\overline{(-)}$ is [[complex conjugation]].
+
+In particular, the [[Hermitian adjoint]] is an antilinear map from a space of $\mathbb{C}$-linear operators to itself.
+
+
+### Further examples
+
+A $*$-[[star-algebra|algebra]] requires by definition its [[anti-involution]] to be antilinear.
+
+
 
 ## Related concepts
 
 * [[real structure]]
 
 * [[antiunitary operator]]
+
+* [[star-algebra]]
+
 
 ## References
 
