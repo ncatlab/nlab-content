@@ -1,4 +1,5 @@
 
+$\mathfrak{osp}(1{|}2)$
 
   $\mathbf{V}Func(\mathcal{X},\,\mathbf{C})$ for the $\mathbf{V}$-[[enriched functor category]] from $\mathcal{X}$ to $\mathbf{C}$,
 
