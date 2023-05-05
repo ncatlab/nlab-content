@@ -241,6 +241,8 @@ is a weak equivalence. But this is immediate, since the two factors are weak equ
 
 ## Related concepts
 
+* [[2-category of model categories]]
+
 * [[2Ho(CombModCat)]]
 
 ## References
