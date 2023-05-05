@@ -9,6 +9,7 @@ The general plan for the ordering of journals below should be roughly in the dec
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
+|[Extracta Mathematicae](https://publicaciones.unex.es/index.php/EM)|IMUEX|[[Philippe Gaucher]], [[Antonio M. Cegarra]], [[Tim Porter]]|open|general|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self|all|open|categories|
 |[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|categories|
