@@ -56,7 +56,8 @@ $$
   \rho \,\colon\, R_2 \to R_1
 $$
 is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrack; or a *pseudo-transformation of* &lbrack;[Harpaz & Prasma (2015), Sec. 2.2](#HarpazPrasma15)&rbrack; the given adjunctions if they make the following [[diagram]] of [[natural transformations]] between [[hom-sets]] [[commuting diagram|commute]]:
-$$
+\[
+  \label{ConjugacyConditionOnAdjoints}
   \array{
     \mathcal{C}\big(
       L_2(-)
@@ -93,10 +94,19 @@ $$
     \big)
     \mathrlap{\,,}
   }
-$$
+\]
 where the horizontal maps are the given hom-isomorphisms (see [there](adjoint+functor#eq:HomIsomorphismForAdjointFunctors)).
 \end{definition}
-This condition is compatible with [[horizontal composition|horizontal]] and [[vertical composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] and hence yields:
+
+\begin{proposition}
+\label{ConjugacyMeansMated}
+**(conjugate pairs are mates)**
+\linebreak
+  The conjugacy condition (eq:ConjugacyConditionOnAdjoints) means equivalently that $\lambda$ and $\rho$ are *[[mates]]* in the sense of [[2-category theory]].
+\end{proposition}
+This is [MacLane (1971) IV.7 Thm. 2 (6), p. 98](#MacLane71) (not using the "[[mate]]"-terminology, though, which is due to [Kelly & Street (2006)](mate#KellyStreet06)).
+
+Conjugacy of transformations is compatible with [[horizontal composition|horizontal]] and [[vertical composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] and hence yields:
 
 \begin{definition}\label{CatAdj}
 The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] of [[Cat]]
