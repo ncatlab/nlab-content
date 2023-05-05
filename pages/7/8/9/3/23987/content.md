@@ -1057,6 +1057,16 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+* Ilya Kuprov (University of Southampton):
+
+  **Optimal control of large spin systems**
+
+  cf.: [arXiv:2107.00933](https://arxiv.org/abs/2107.00933), [arXiv:2303.09458](https://arxiv.org/abs/2303.09458)
+
+  > In [[NMR|magnetic resonance]], optimal control theory is used to generate pulses and pulse sequences that achieve instrumentally difficult objectives (for example, uniform 13C excitation in a 1.2 GHz magnet) with high precision under stringent time and radiofrequency/microwave power constraints. At the moment, the most popular framework is GRAPE (gradient ascent pulse engineering, [10.1016/j.jmr.2004.11.004](https://doi.org/10.1016/j.jmr.2004.11.004)). This lecture reports our recent mathematical and software engineering work on the various extensions and refinements of the GRAPE framework, and on its implementation as a module of Spinach library. Recently implemented functionality includes: fidelity Hessians and regularised Newton-Raphson optimisation, generalised curvilinear waveform parametrisation, prefix and suffix pulse sequences, multi-target and subspace control, keyhole states and subspaces, cooperative pulses and phase cycles, and piecewise-linear control sequences. In keeping with the long tradition, the methods are also directly applicable to quantum technologies outside Magnetic Resonance.
+
+\linebreak
+
 ***
 
 \linebreak
