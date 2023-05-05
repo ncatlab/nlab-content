@@ -71,3 +71,6 @@ category: analysis
 
 [[!redirects algebra of bounded operators]]
 [[!redirects algebras of bounded operators]]
+
+[[!redirects continuous operator]]
+[[!redirects continuous operators]]
