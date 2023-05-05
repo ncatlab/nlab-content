@@ -48,6 +48,9 @@ This statment may be [[category theory]] [[folklore]]; a proof has been spelled 
 
 * [[bifibration]]
 
+* [[adjoint (infinity,1)-functor#category_of_adjunctions|
+∞-category of adjunctions]]
+
 ## References
 
 * {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], Section 2.2. of: _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
