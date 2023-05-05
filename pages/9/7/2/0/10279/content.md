@@ -15,35 +15,38 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An __antilinear map__ is like a [[linear map]], but instead of commuting with scalar multiplication it "anti-commutes" with scalar multiplication: multiplication by a scalar $c$ is mapped to multiplication by the scalar's conjugate $\overline{c}$, for some appropriate notion of "conjugate".
-
-An alternate term is __conjugate linear__.
+What is called an *antilinear map* or *conjugate linear map* between [[vector spaces]] or more general [[modules]] over a [[star-algebra]] is much like a [[linear map]], but instead of commuting with "[[scalar]] [[multiplication]]" (by elements of the [[ground field]] or [[ground ring]]) it "anti-commutes" with it in that multiplication by a scalar $c$ is mapped to multiplication by the scalar's [[star-conjugation|conjugate]] $\overline{c}$.
 
 
 ## Definition
 
-Begin with a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$.
+Given a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$.
 
-Then for $K$-[[modules]] (or $K$-[[linear spaces]]) $V, W$, a __$K$-antilinear map__ is a function $T : V \to W$ such that for all $x, y \in V$ and $r \in K$,
+Then for $K$-[[modules]] (or $K$-[[linear spaces]]) $V, W$, a __$K$-antilinear map__ is a function $T \colon V \to W$ such that for all $x, y \in V$ and $r \in K$,
 
-$$ T(r x + y) = \overline{r} T(x) + T(y) \quad . $$
+$$ 
+  T(r \cdot x + y) 
+  \;=\; 
+  \overline{r} \cdot T(x) + T(y) 
+  \,.
+$$
 
-This differs from a [[linear map]] in the appearance of $\overline{r}$ on the right-hand side, rather than $r$.
-
+This differs from the definition of a [[linear map]] in the appearance of $\overline{(-)}$ on the right-hand side.
 
 ## Examples
 
 ### Simple general examples
 
-Every $K$-linear map is also a $K$-antilinear map, with the identity involution on $K$.
+Every $K$-linear map is also a $K$-antilinear map, for $K$ regarded as equipped with the [[identity function|identity]] [[involution]].
 
-Any involution $\overline{(-)} : K \to K$ is itself an antilinear map.
+Any involution $\overline{(-)} \colon K \to K$ is itself an antilinear map.
 
 
 ### Complex vector spaces
@@ -55,7 +58,7 @@ In particular, the [[Hermitian adjoint]] is an antilinear map from a space of $\
 
 ### Further examples
 
-A $*$-[[star-algebra|algebra]] requires by definition its [[anti-involution]] to be antilinear.
+A [[star-algebra|$*$-algebra]] requires by definition its [[anti-involution]] to be antilinear.
 
 
 
