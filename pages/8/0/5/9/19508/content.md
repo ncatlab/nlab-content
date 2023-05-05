@@ -1,3 +1,4 @@
+[[!redirects Ho(CombModCat)]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,6 @@
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
