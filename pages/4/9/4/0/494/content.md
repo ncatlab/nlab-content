@@ -992,7 +992,7 @@ where the horizontal maps are the given hom-isomorphisms (eq:HomIsomorphismForAd
 This condition is compatible with [[horizontal composition|horizontal]] and [[vertical composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] and hence yields:
 
 \begin{definition}\label{CatAdj}
-The ([[very large category|very large]]) [[2-category]]
+The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] [[CatAdj|$Cat_{Adj}$]] of [[Cat]]
 \[
   \label{CatAdjInsideCat}
   Cat_{Adj} \longrightarrow Cat
