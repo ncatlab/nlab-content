@@ -69,6 +69,9 @@ See also:
 * [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* $[$[arXiv:2208.12824](https://arxiv.org/abs/2208.12824)$]$
 
 
+* Huahui Qiu et al., *Minimal non-abelian nodal braiding in ideal metamaterials*, Nature Communications **14** 1261 (2023) $[$[doi:10.1038/s41467-023-36952-9](https://doi.org/10.1038/s41467-023-36952-9)$]$
+
+
 Incidentally, references indicating that the required toroidal (or yet higher genus) geometry for anyonic topological order in position space is dubious (as opposed to the evident toroidal geometry of the momentum-space [[Brillouin torus]]): [Lan 19, p. 1](Laughlin+state#Lan19), ....
 
 **Knotted nodal lines in 3d semimetals**
