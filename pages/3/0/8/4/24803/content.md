@@ -42,9 +42,13 @@ On [[Floquet theory]] in [[nuclear magnetic resonance]]:
 
 * Konstantin L. Ivanov, Kaustubh R. Mote, Matthias Ernst, [[Asif Equbal]], Perunthiruthy K. Madhu, *Floquet theory in magnetic resonance: Formalism and applications*, Progress in Nuclear Magnetic Resonance Spectroscopy, **126**–**127** (2021) 17-58 &lbrack;[doi:10.1016/j.pnmrs.2021.05.002](https://doi.org/10.1016/j.pnmrs.2021.05.002)&rbrack;
 
-Further development:
+Further developments:
+
+* Navin Khaneja et al., *Optimal control of coupled spin dynamics: design of NMR pulse sequences by gradient ascent algorithms*, Journal of Magnetic Resonance **172 2 (2005) 296-305 &lbrack;[doi:10.1016/j.jmr.2004.11.004](https://doi.org/10.1016/j.jmr.2004.11.004)&rbrack;
+
 
 * [[Asif Equbal]] et al.,  *Role of electron spin dynamics and coupling network in designing dynamic nuclear polarization*, Progress in Nuclear Magnetic Resonance Spectroscopy **126**–**127** (2021) 1-16 &lbrack;[doi:10.1016/j.pnmrs.2021.05.003](https://doi.org/10.1016/j.pnmrs.2021.05.003)&rbrack;
+
 
 
 
