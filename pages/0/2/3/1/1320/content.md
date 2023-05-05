@@ -144,7 +144,7 @@ Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem"
 
 Monadic functors to the category [[Set]] have additional properties.  For example: 
 
-* Every monadic functor $U \,\colon\, D \to \mathrm{Set}$ is [[solid]].  
+* Every monadic functor $U \,\colon\, D \to \mathrm{Set}$ is a [[solid functor]].  
 
 * A category is monadic over $\mathrm{Set}$ (i.e. it admits a monadic functor to $\mathrm{Set}$) if and only if is [[exact category|Barr exact]], [[cocomplete category|cocomplete]], and has a [[projective object|projective]] [[separator|generator]].
 
