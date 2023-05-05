@@ -33,7 +33,10 @@ Where a [[vertex operator algebra]] encodes one chiral half of a [[2d CFT]], a _
 
 * {#Kong06} [[Liang Kong]], _Full field algebras, operads and tensor categories_, Adv. Math.213:271-340, 2007 &lbrack;[arXiv:0603065](http://arxiv.org/abs/math/0603065), [doi:10.1016/j.aim.2006.12.007](https://doi.org/10.1016/j.aim.2006.12.007)&rbrack;
 
-Survey and review includes
+Survey and review:
 
 * {#Kong11} [[Liang Kong]], *Conformal field theory and a new geometry*, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[arXiv:1107.3649](http://arxiv.org/abs/1107.3649), [ISBN:978-0-8218-5195-1](http://bookstore.ams.org/PSPUM-83)&rbrack;
  
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], pp 11 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+
