@@ -73,7 +73,9 @@ if there exists a [[natural isomorphism]] between the [[hom-functors]] of the fo
 
 \[
   \label{HomIsomorphismForAdjointFunctors}
-  Hom_{\mathcal{D}}(L(-),-) \;\simeq\; Hom_{\mathcal{C}}(-,R(-))
+  Hom_{\mathcal{D}}\big(L(-),\,-\big) 
+   \;\simeq\; 
+  Hom_{\mathcal{C}}\big(-,\,R(-)\big)
   \,.
 \]
 
@@ -908,6 +910,108 @@ This follows from the fact that the adjunction $L \dashv R$ [induces](#PrePostco
 The formulations in terms of liftings generalize to (unenriched) [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
 
 
+### Transformation of adjoints
+ {#TransformationOfAdjoints}
+
+
+There are several layers of generality at which one may consider a notion of [[homomorphism]] *between* adjoint functors. 
+
+Here is a basic but important notion:
+
+\begin{definition}\label{ConjugateTransformationOfAdjoints}
+  **([[conjugate transformations of adjoints]])**
+  \linebreak
+  Given a [[pair]] of pairs of adjoint functors between the same [[categories]]
+
+  $$
+    \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R_1}{\longleftarrow}}
+        {\overset{L_1}{\longrightarrow}}
+        {\;\;\; \bot \;\;\;}
+    \mathcal{D}
+    \\
+    \mathcal{C}
+      \underoverset
+        {\underset{R_2}{\longleftarrow}}
+        {\overset{L_2}{\longrightarrow}}
+        {\;\;\; \bot \;\;\;}
+    \mathcal{D}
+    }
+  $$
+
+then a [[pair]] of [[natural transformations]] between the adjoints of the same chirality, of this form
+
+$$
+  \lambda \,\colon\, L_1 \to L_2
+  \;\;\;\;\;\;
+  \rho \,\colon\, R_2 \to R_1
+$$
+is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrack; or a *pseudo-transformation of* &lbrack;[Harpaz & Prasma (2015), Sec. 2.2](#HarpazPrasma15)&rbrack; the given adjunctions if they make the following [[diagram]] of [[natural transformations]] between [[hom-sets]] [[commuting diagram|commute]]:
+$$
+  \array{
+    \mathcal{C}\big(
+      L_2(-)
+      ,\,
+      (-)
+    \big)
+    &\overset{\sim}{\longrightarrow}&
+    \mathcal{D}\big(
+      (-)
+      ,\,
+      R_2(-)
+    \big)
+    \\
+    \mathllap{{}^{
+      \mathcal{C}\big(\lambda_{(-)},\,-\big)
+    }}
+    \Big\downarrow
+    &&
+    \Big\downarrow
+    \mathrlap{{}^{
+      \mathcal{C}\big(-,\,\rho_{(-)}\big)
+    }}
+    \\
+    \mathcal{C}\big(
+      L_1(-)
+      ,\,
+      (-)
+    \big)
+    &\overset{\sim}{\longrightarrow}&
+    \mathcal{D}\big(
+      (-)
+      ,\,
+      R_1(-)
+    \big)
+    \mathrlap{\,,}
+  }
+$$
+where the horizontal maps are the given hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors).
+\end{definition}
+This condition is compatible with [[horizontal composition|horizontal]] and [[vertical composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] and hence yields:
+
+\begin{definition}\label{CatAdj}
+The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] [[CatAdj|$Cat_{Adj}$]] of [[Cat]]
+\[
+  \label{CatAdjInsideCat}
+  Cat_{Adj} \longrightarrow Cat
+\]
+whose 
+
+* [[objects]] are categories,
+
+* [[1-morphisms]] are [[left adjoint]] [[functors]]
+
+* [[2-morphisms]] are [[natural transformations]] which are conjugate in the sense of Def. \ref{ConjugateTransformationOfAdjoints}.
+
+\end{definition}
+
+\begin{proposition}
+  Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through $Cat_{Adj}$ (eq:CatAdjInsideCat) are equivalently the [[bifibrations]].
+\end{proposition}
+This may be [[category theory]] [[folklore]]; a proof has been spelled out in [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
+
 
 ## Properties
  {#Properties}
@@ -1555,6 +1659,10 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
   * [[enriched adjunction]]
 
+* [[transformation of adjoints]]
+
+  [[CatAdj|$Cat_{Adj}$]]
+
 * [[proadjoint]], [[Hopf adjunction]]
 
 * [[2-adjunction]]
@@ -1573,19 +1681,21 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 For the basics, see any text on [[category theory]] (and see the references at _[[adjunction]]_), for instance:
 
-* {#Borceux94} [[Francis Borceux]], Section 3 in Volume 1 and Section 4.2 in Volume 2 of _[[Handbook of Categorical Algebra]]_
+* {#MacLane71} [[Saunders MacLane]], Chapter IV of: _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
+* {#Borceux94} [[Francis Borceux]], Section 3 in Volume 1 and Section 4.2 in Volume 2 of _[[Handbook of Categorical Algebra]]_ (1994)
+
+* {#Johnstone} [[Peter Johnstone]], first pages of _[[Sketches of an Elephant]]_ (2022)
  
 * _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
 
 Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Grothendieck's]] [[Tohoku]] paper, the idea of adjoint functors in general goes back to 
 
-* [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society Vol. 87, No. 2 (Mar., 1958), pp. 294-329 ([jstor](http://www.jstor.org/stable/1993102))
+* [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society **87** 2 (1958) 294-329 &lbrack;[jstor](http://www.jstor.org/stable/1993102)&rbrack;
 
-and its fundamental relevance for [[category theory]] was realized due to 
+and its fundamental relevance for [[category theory]] was highlighted in
 
-* {#Freyd64} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, Harper's  Series  in  Modern  Mathematics, Harper  &  Row,   New  York, 1964 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)).
+* {#Freyd64} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, Harper's  Series  in  Modern  Mathematics, Harper  &  Row,   New  York (1964) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)&rbrack;
 
 * {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
@@ -1595,14 +1705,20 @@ The history of the idea that adjoint functors formalize aspects of [[dialectics]
 
   (more along these lines at _[[adjoint modality]]_)
 
-
-See also 
+See also:
 
 * Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
 
 * [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
 
--  
+More on the notion of [[transformation of adjoints]]:
+
+* {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], Section 2.2. of: _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
+
+  > (in the context of the [[model structure on a Grothendieck construction]])
+
+
+  
 
 [[!redirects adjoint functors]]
 
