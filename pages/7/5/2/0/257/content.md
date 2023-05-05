@@ -455,6 +455,8 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 ## Related concepts
 
+* [[2-category of model categories]]
+
 * [[simplicial homotopy theory]]
 
 * [[synthetic homotopy theory]]
