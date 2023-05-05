@@ -206,6 +206,8 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
 ## Related entries
 
+* [[transformation of adjoints]]
+
 * [[homotopy]]
 
 * [[transfor]]
