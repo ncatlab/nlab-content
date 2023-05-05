@@ -285,6 +285,9 @@ Lectures and reviews:
 
 * {#Looijenga10} [[Eduard Looijenga]], _From WZW models to Modular Functors_ ([arXiv:1009.2245](http://arxiv.org/abs/1009.2245))
 
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], p. 11 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+
 Proof that the values of a modular functor at [[genus of a surface|genus]]=0 (ie. the [[conformal blocks]] on the punctured [[Riemann sphere]]) determine the full modular functor:
 
 * {#AndersenUeno12} [[Jørgen Ellegaard Andersen]], [[Kenji Ueno]], *Modular functors are determined by their genus zero data*, Quantum Topology **3** 3/4 (2012) 255-291 $[$[doi:10.4171/QT/29](https://doi.org/10.4171/qt/29)$]$
