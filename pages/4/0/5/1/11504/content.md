@@ -52,9 +52,12 @@ In this perspective picture number is an extra grading on [[differential forms o
 
   (with an eye towards [[superstring field theory]])
 
-* [[C. A. Cremonini]], [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
+* [[Carlo A. Cremonini]], [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
 
   (with an eye towards [[super Chern-Simons theory]])
+
+* [[Carlo A. Cremonini]], *The Geometry of Picture Changing Operators* &lbrack;[arXiv:2305.02828](https://arxiv.org/abs/2305.02828)&rbrack;
+
 
 Review:
 
