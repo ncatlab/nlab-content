@@ -24,9 +24,9 @@ $$
   E \to B
 $$
 
-that is both a [[Grothendieck fibration]] as well as an opfibration.
+that is both a [[Grothendieck fibration]] as well as an [[opfibration]].
 
-Therefore every morphism $f : b_1 \to b_2$ in a bifibration has both a push-forward $f_* : E_{b_1} \to E_{b_2}$ as well as a pullback $f^* : E_{b_2} \to E_{b_1}$.
+Therefore every morphism $f \colon b_1 \to b_2$ in a bifibration has both a push-forward $f_* : E_{b_1} \to E_{b_2}$ as well as a pullback $f^* : E_{b_2} \to E_{b_1}$.
 
 
 ## Examples
@@ -83,7 +83,7 @@ The basic theory of [[2-fibrations]], fibrations of bicategories, is developed i
 * {#Stanculesu12} [[Alexandru E. Stanculescu]], *Bifibrations and weak factorisation systems*, Applied Categorical Structures **20** 1 (2012) 19–30 &lbrack;<a href="https://link.springer.com/article/10.1007/s10485-009-9214-3">doi:10.1007/s10485-009-9214-3</a>&rbrack;
  
 
-* [[Mitchell Buckley]], _Fibred 2-categories and bicategories_, ([arXiv:1212.6283](https://arxiv.org/abs/1212.6283)) {#Buckley}
+* Mitchell Buckley, _Fibred 2-categories and bicategories_, ([arXiv:1212.6283](https://arxiv.org/abs/1212.6283)) {#Buckley}
 
 * {#CagMell} [[Pierre Cagne]], [[Paul-André Melliès]], _On bifibrations of model categories_, ([arXiv:1709.10484](https://arxiv.org/abs/1709.10484))
 
