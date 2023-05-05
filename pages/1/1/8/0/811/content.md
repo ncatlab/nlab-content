@@ -12,6 +12,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -131,15 +132,14 @@ In fact they also appeared earlier, in some form, in [[Gray-adjointness-for-2-ca
 
 However, Hermida's definition was missing the stability of cartesian 2-cells under postcomposition, which is necessary for the "Grothendieck construction" turning a pseudofunctor into a fibration to have an inverse.  This was rectified, and the definition generalized to bicategories, in
 
-* {#Bakovic} [[Igor Baković]], "Fibrations of bicategories", [preprint](http://www.irb.hr/korisnici/ibakovic/groth2fib.pdf)
+* {#Bakovic} [[Igor Baković]], *Fibrations of bicategories* (2010) &lbrack;[pdf](http://www.irb.hr/korisnici/ibakovic/groth2fib.pdf), [[Bakovic-FibrationsOfBicategories.pdf:file]]&rbrack;
  
+* {#Buckley} [[Mitchell Buckley]], *Fibred 2-categories and bicategories*, Journal of Pure and Applied Algebra **218** 6 (2014) 1034-1074 &lbrack;[arXiv:1212.6283](https://arxiv.org/abs/1212.6283), [doi:10.1016/j.jpaa.2013.11.002](https://doi.org/10.1016/j.jpaa.2013.11.002)&rbrack;
 
-* Mitchell Buckley, "Fibred 2-categories and bicategories", [doi](https://doi.org/10.1016/j.jpaa.2013.11.002), [arxiv](https://arxiv.org/abs/1212.6283)
- {#Buckley}
 
 A definition for strict $n$-categories due to Hermida is unpublished, but it is used and presented in another joint work with [Marta Bunge](http://www.math.mcgill.ca/bunge), presented at CATS07 at Calais:
 
-* Marta Bunge, "Intrinsic $n$-stack completions over a topos," slides [here](https://www.researchgate.net/publication/230792798_Intrinsic_n-stack_completions_over_a_topos)
+* [[Marta Bunge]], "Intrinsic $n$-stack completions over a topos," slides [here](https://www.researchgate.net/publication/230792798_Intrinsic_n-stack_completions_over_a_topos)
 
  $n$-pseudofunctors may be viewed (and defined) as [[anafunctor]]s.  For $n$-groupoids such an approach to $n$-pseudofunctors has been studied in
 
@@ -173,5 +173,12 @@ Pseudo functors and non abelian weak equivalences, in "Categorical algebra and i
 [[!redirects fibred bicategories]]
 
 [[!redirects fibration of n-categories]]
+[[!redirects fibrations of n-categories]]
+
 [[!redirects fibration of 2-categories]]
+[[!redirects fibrations of 2-categories]]
+
 [[!redirects fibration of bicategories]]
+[[!redirects fibrations of bicategories]]
+
+
