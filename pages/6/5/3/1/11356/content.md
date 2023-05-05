@@ -5,7 +5,9 @@
 
 On [[fractional level WZW models]] (non-integrable admissible [[affine Lie algebra]] [[irreps]]) for [[sl(2)|$\mathfrak{sl}(2, \mathbb{C})$]]:
 
-* [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202** , AMS 1997 ([arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202))
+* [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202**, AMS (1997) &lbrack;[arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202))&rbrack;
+
+  > (appearance of [[osp|$\mathfrak{osp}(1\vert2)$]]-contributions)
 
 
 ## Related $n$Lab entries
