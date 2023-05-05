@@ -78,6 +78,10 @@ On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of points
 
 * [[Toshitake Kohno]], §1.4 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
+Brief review:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], pp. 8 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
 
 Discussion in terms of [[conformal nets]]:
 
