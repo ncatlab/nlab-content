@@ -142,7 +142,13 @@ Various versions of Beck's [[monadicity theorem]] (also: "tripleability theorem"
 
 ### Monadic functors to Set
 
-Monadic functors to the category [[Set]] have additional properties.  For example, every monadic functor $U: D \to \mathrm{Set}$ is [[solid]].  Furthermore, a category is monadic over $\mathrm{Set}$ (i.e. it admits a monadic functor to $\mathrm{Set}$) if and only if is [[exact category|Barr exact]], cocomplete, and has a [[projective object|projective]] [[separator|generator]] ([Vitale](#Vitale)).
+Monadic functors to the category [[Set]] have additional properties.  For example: 
+
+* Every monadic functor $U \,\colon\, D \to \mathrm{Set}$ is [[solid]].  
+
+* A category is monadic over $\mathrm{Set}$ (i.e. it admits a monadic functor to $\mathrm{Set}$) if and only if is [[exact category|Barr exact]], [[cocomplete category|cocomplete]], and has a [[projective object|projective]] [[separator|generator]].
+
+&lbrack;[Vitale (1994)](#Vitale94)&rbrack;
 
 ## Related concepts
 
@@ -163,8 +169,7 @@ Monadic functors to the category [[Set]] have additional properties.  For exampl
 
 * {#Bourn} [[Dominique Bourn]]. _Low dimensional geometry of the notion of choice_. Category Theory 1991, CMS Conf. Proc. Vol. 13. 1992.
 
-* {#Vitale} [[Enrico Vitale]]. _On the characterization of monadic categories over set_. Cahiers de topologie et géométrie différentielle catégoriques, tome
-35, no 4 (1994), pp. 351-358.  &lbrack[pdf](http://www.numdam.org/article/CTGDC_1994__35_4_351_0.pdf)&rbrack;
+* {#Vitale94} [[Enrico Vitale]], *On the characterization of monadic categories over $SET$*, Cahiers de topologie et géométrie différentielle catégoriques **35** 4 (1994) 351-358.  &lbrack;[numdam:CTGDC_1994__35_4_351_0](http://www.numdam.org/item/?id=CTGDC_1994__35_4_351_0), [pdf](http://www.numdam.org/article/CTGDC_1994__35_4_351_0.pdf)&rbrack;
   
 
 [[!redirects monadic]]
