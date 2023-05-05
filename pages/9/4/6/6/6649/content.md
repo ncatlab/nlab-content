@@ -65,11 +65,11 @@ $\Phi\colon D\to V$ lies in the saturation of $\mathcal{X}$ if and only if it li
 
 The following examples are all for $V=Set$, restricted to the conical case.
 
-* The class of small [[products]] is saturated, as is the class of finite products.  The latter is the saturation of the finite class containing only [[terminal objects]] and binary products.
+* The class of small [[products]] is not saturated; its saturation includes all $\Delta_D 1$ where $D$ has local initial objects. Similarly, the class of finite products is not saturated; the saturation of this coincides with the saturation of the finite class containing only [[terminal objects]] and binary products.
 
-* The class of [[L-finite limits]] is saturated; it is the saturation of the class of [[finite limits]].  It is also the saturation of the finite class containing only terminal objects and [[pullbacks]], and the saturation of the class containing only finite products and [[equalizers]].
+* The class of [[L-finite limits]] is saturated with respect to conical weights (but not in the sense of the definition above); it is the saturation of the class of [[finite limits]].  It is also the saturation of the finite class containing only terminal objects and [[pullbacks]], and the saturation of the class containing only finite products and [[equalizers]].
 
-* The class of [[connected limits]] is saturated.  It is the saturation of the class consisting of [[wide pullbacks]] and equalizers.  Similarly, the class of L-finite connected limits is the saturation of the finite class of pullbacks and equalizers.  See also [[pullback]] and [[wide pullback]] for their saturations.
+* The class of [[connected limits]] is saturated with respect to conical weights. It is the saturation of the class consisting of [[wide pullbacks]] and equalizers.  Similarly, the class of L-finite connected limits is the saturation of the finite class of pullbacks and equalizers.  See also [[pullback]] and [[wide pullback]] for their saturations.
 
 There are also interesting examples for other $V$.
 
