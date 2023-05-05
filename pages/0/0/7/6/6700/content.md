@@ -267,7 +267,8 @@ The modular functor for $G$-[[Chern-Simons theory]] restricted to [[genus of a s
 
 Original formulations:
 
-* [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *Proceedings of the IXth International Congress on Mathematical Physics*, Swansea, 1988, Hilger, Bristol (1989) 22-37.
+* [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *IXth International Congress on Mathematical Physics*, Swansea, 1988, Adam Hilger, Bristol and New York (1989), 22–37.
+[PDF](https://dmitripavlov.org/scans/segal-two-dimensional-conformal-field-theories-and-modular-functors.pdf).
 
 * [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
 
