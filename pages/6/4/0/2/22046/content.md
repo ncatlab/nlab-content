@@ -43,7 +43,7 @@ $$
   \,.
 $$
 
-More generally, the [[anti-involution]] on any [[star-algebra]] may be referred to as _conjugation_. For instance one speaks of _quaternionc conjugation_ for the analogous operation on [[quaternions]]:
+More generally, the [[anti-involution]] on any [[star-algebra]] may be referred to as _conjugation_. For instance one speaks of _quaternionic conjugation_ for the analogous operation on [[quaternions]]:
 
 $$
   \array{
