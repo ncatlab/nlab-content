@@ -29,7 +29,6 @@ The following list is meant to be roughly in decreasing order of the number of a
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
-|[Extracta Mathematicae](https://publicaciones.unex.es/index.php/EM)|IMUEX|[[Philippe Gaucher]], [[Antonio M. Cegarra]], [[Tim Porter]]|open|general|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self|all|open|categories|
 |[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|categories|
@@ -52,6 +51,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|general|
 |[New York Journal of Mathematics](http://nyjm.albany.edu/)|self|[[Michael Hopkins|Hopkins]]|open|general|
 |[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|general|
+|[Extracta Mathematicae](https://publicaciones.unex.es/index.php/EM)|IMUEX|[[Philippe Gaucher]], [[Antonio M. Cegarra]], [[Tim Porter]]|open|general|
 |[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|general|
 |[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|algebra|
 |[Journal of the Australian Mathematical Society](https://www.austms.org.au/Journal+of+the+Australian+Mathematical+Society)|Cambridge University Press|[[Nora Ganter|Ganter]]|subscription|general|
