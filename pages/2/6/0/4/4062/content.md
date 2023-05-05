@@ -301,12 +301,11 @@ That this is a bijection follows easily from the [[triangle identities]], which 
 \end{proof}
 
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{TerminologyOfMates}
+The 2-cells $\lambda$ and $\mu$ in prop. \ref{MateBijection} are called **mates** &lbrack;[Kelly & Street (2006) p. 87](#KellyStreet06); [Leinster (2004), pp. 150](#Leinster04)&rbrack;
+ (earlier: *[[conjugate transformation of adjoints|conjugates]]*, [MacLane (1971), p. 98](#MacLane71), see Exp. \ref{ConjugateTransformationOfAdjoints} below) with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
+\end{definition}
 
-The 2-cells $\lambda$ and $\mu$ in prop. \ref{MateBijection} are called **mates** (or sometimes **conjugates**) with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
-
-=--
 
 ## Properties
 
@@ -337,16 +336,18 @@ In the double category $Adj(K)$, every vertical arrow has both a [[companion]] (
 ## Examples
  {#Examples}
 
-+-- {: .num_example}
-###### Example
-
-Let $F \dashv U \colon D \to C$ be an [[adjunction]] in the [[2-category]] [[Cat]], i.e. a pair of [[adjoint functors]], and $A \colon * \to C$ and $X \colon * \to D$ be objects of $C$ and $D$ considered as [[functors]] out of the [[terminal category]] $*$.  Then taking mates with respect to $1 \dashv 1 \colon * \to *$ and $F \dashv U$ yields the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
+\begin{example}\label{ConjugateTransformationOfAdjoints}
+**([[conjugate transformation of adjoints]])**
+\linebreak
+Let $F \dashv U \colon D \to C$ be an [[adjunction]] in the [[2-category]] [[Cat]], i.e. a pair of [[adjoint functors]], and $A \colon * \to C$ and $X \colon * \to D$ be [[objects]] of $C$ and $D$ considered as [[functors]] out of the [[terminal category]] $*$.  Then taking mates with respect to $1 \dashv 1 \colon * \to *$ and $F \dashv U$ yields the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
 $$ 
-  D(F A,X) \;\cong\; C(A,U X) 
+  D(F A,\, X) \;\cong\; C(A,\, U X) 
 $$
-and the pasting operations as above yield the usual definition of the isomorphism of adjunction by means of [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]].  Moreover, the naturality of the mate correspondence yields [[natural isomorphism|naturality]] of the bijection.
+and the pasting operations as above yield the notion of [[conjugate transformation of adjoints]]. (This is the original notion, due to [MacLane (1971), p. 98](#MacLane71))
 
-=--
+Moreover, the naturality of the mate correspondence yields [[natural isomorphism|naturality]] of the bijection.
+\end{example}
+
 
 +-- {: .num_example}
 ###### Example
@@ -400,9 +401,19 @@ The relationship between two of the adjoints in a multivariable adjunction can b
 
 ## References
 
-* [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** doi:[10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101).
+The example of [[conjugate transformation of adjoints]] (but without the terminology of "mates")
 
-* [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
+* {#MacLane71} [[Saunders MacLane]], p. 98 of: _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+The explicit notion of mates may be officially due to
+
+* {#KellyStreet06} [[Max Kelly]], [[Ross Street]], §2.2 (esp. p. 87) of: *Review of the elements of 2-categories*, in: G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** (2006) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
+
+but is already reviewed in:
+
+* {#Leinster04} [[Tom Leinster]], Section 6.1, pp. 150 in: *Higher operads, higher categories*, London Math. Soc. Lec. Note Series **298**, Cambridge University Press (2004) &lbrack;[math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [doi:10.1017/CBO9780511525896](https://doi.org/10.1017/CBO9780511525896)&rbrack;
+
+Further review and discussion:
 
 * {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], _Multivariable adjunctions and mates_, J. K-Theory **13** (2014), 337–396, [doi:10.1017/is013012007jkt250](https://doi.org/10.1017/is013012007jkt250), [arXiv:1208.4520](http://arxiv.org/abs/1208.4520). 
 
