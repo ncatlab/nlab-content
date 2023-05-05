@@ -97,3 +97,13 @@ For an unrelated (or vaguely related) notion with a similar name see at _[[conju
 [[!redirects quaternionic conjugation]]
 [[!redirects quaternionic conjugations]]
 
+[[!redirects star-conjugation]]
+[[!redirects star-conjugations]]
+
+[[!redirects star conjugation]]
+[[!redirects star conjugations]]
+
+
+
+
+
