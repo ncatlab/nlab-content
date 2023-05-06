@@ -1,5 +1,5 @@
 
-> This page is about [[Grothendieck fibrations]] that are also [[opfibrations]]. For [[fibration of 2-categories|fibrations of 2-categories]] see there.
+> This page is about [[Grothendieck fibrations]] that are also [[opfibrations]]. Not to be confused with [[two-sided fibrations]] nor with [[fibration of 2-categories|fibrations of 2-categories]] (both of which some authors also refer to as "bifibrations").
 
 
 +-- {: .rightHandSide}
@@ -75,9 +75,6 @@ Ordinary [[Grothendieck fibrations]] correspond to [[pseudofunctors]] to [[Cat]]
 
 If the fibration is a bifibration, there is a particularly elegant algebraic way to encode its descent properties; this is [[monadic descent]]. The [[Benabou–Roubaud theorem]] characterizes descent properties for bifibrations.
 
-### Relation to distributive laws
-
-Fibrations and opfibrations on a category $C$ (or more generally an object of a suitable 2-category) are the algebras for a pair of pseudomonads.  If $C$ has pullbacks, there is a [[pseudo-distributive law]] between these pseudomonads, whose joint algebras are the bifibrations satisfying the [[Beck-Chevalley condition]]; see [(von Glehn)](#vonGlehn).
 
 
 
@@ -116,7 +113,6 @@ As [[categorical semantics]] for aspects of [[type theory]]:
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, ([arXiv.1310.0263](http://arxiv.org/abs/1310.0263v1)).
 
-* {#vonGlehn} [[Tamara von Glehn]], *Polynomials and models of type theory*, PhD thesis &lbrack;[1810/254394](https://www.repository.cam.ac.uk/handle/1810/254394)&rbrack;
 
 Relation to [[pseudofunctors]] with values in [[CatAdj|$Cat_{Adj}$]] and [[ModCat|$ModCat$]] (cf. [[model structures on Grothendieck constructions]]): 
 
