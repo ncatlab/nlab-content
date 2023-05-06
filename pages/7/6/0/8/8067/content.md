@@ -1,2 +1,10 @@
 
-This page is about the [[amalgamation property]] in [[model theory]], related to amalgams = [[pushouts]] in category theory.
+## Related concepts
+
+* [[amalgamation]]
+
+* [[amalgamated free product of groups]]
+
+* [[amalgamation property]]
+
+[[!redirects amalgamation theoies]]
