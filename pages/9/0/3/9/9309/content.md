@@ -635,8 +635,7 @@ Correction terms have been proposed in
 
 * {#TaylorVanRaamsdonk99} [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
 
-A completely different approach via [[TT deformation]] of the abelian DBI action is proposed in
-
+A completely different approach, which defines a theory that is analogous to non-abelian BI via [[TT deformation]] of Yang-Mills in two spacetime dimensions, is proposed in
 
 * T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
 
