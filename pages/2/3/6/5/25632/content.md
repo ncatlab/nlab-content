@@ -101,7 +101,7 @@ where the horizontal maps are the given hom-isomorphisms (see [there](adjoint+fu
 Such pairs of conjugate transformation [[composition|compose]] in the evident way to yields a [[category]]
 \[
   \label{CatAdjCD}
-  Cat_{Adj}(\mathcal{C},\mathcal{D})
+  Cat_{adj}(\mathcal{C},\mathcal{D})
 \]
 whose
 
@@ -115,17 +115,18 @@ whose
   \label{UniqueConjugateMate}
   Given a pair of pairs of adjunctions as in (eq:PairOfPairsOfAdjointFunctors) and given (just) $\lambda$ as in (eq:PairOfTransformations) then there exists a unique $\rho$ as in (eq:PairOfTransformations) such that the conjugacy condition (eq:ConjugacyConditionOnAdjoints) holds.
 
-In other words, the evident [[forgetful functor]] from $Cat_Ajd(\mathcal{C},\,\mathcal{D})$ (eq:CatAdjCD) to the [[hom-category]] $\Cat(\mathcal{C},\,\mathcal{D})$ (i.e. the [[functor category]]) is a [[fully faithful functor]] exhibiting a [[full subcategory]]-inclusion:
-$$
+In other words, the evident [[forgetful functor]] from $Cat_{adj}(\mathcal{C},\,\mathcal{D})$ (eq:CatAdjCD) to the [[hom-category]] $\Cat(\mathcal{C},\,\mathcal{D})$ (i.e. the [[functor category]]) is a [[fully faithful functor]] exhibiting a [[full subcategory]]-inclusion:
+\[
+  \label{FullInclusionOfConjugateTransformations}
   \mathcal{C},\,\mathcal{D} \,\in\, Obj(Cat)
   \;\;\;\;\;\;
   \vdash
   \;\;\;\;\;\;
-  Cat_{Adj}(\mathcal{C},\,\mathcal{D})
+  Cat_{adj}(\mathcal{C},\,\mathcal{D})
   \hookrightarrow
   Cat(\mathcal{C},\,\mathcal{D})
   \,.
-$$
+\]
 \end{proposition}
 &lbrack;[Mac Lane (1971), p. 98](#MacLane71)&rbrack;
 
@@ -138,12 +139,51 @@ In fact:
 \end{proposition}
 This is [MacLane (1971) IV.7 Thm. 2 (6), p. 98](#MacLane71) (not using the "[[mate]]"-terminology, though, which is due to [Kelly & Street 2006](mate#KellyStreet06)).
 
-Moreover, conjugacy of transformations is compatible with [[horizontal composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] ("[[whiskering]]"). Therefore, with Prop. \ref{UniqueConjugateMate} we have:
+Moreover: 
+\begin{proposition}
+\label{HorizontalCompositionOfConjugateTransformations}
+Conjugacy of transformations is compatible with [[horizontal composition]] $(-)\cdot(-)$ of [[natural transformations]] as [[2-morphisms]] in [[Cat]] ("[[whiskering]]"), so that (eq:FullInclusionOfConjugateTransformations) extends to a [[horizontal composition]]-[[functor]]:
+$$
+  \mathcal{C}
+  ,\,
+  \mathcal{D}
+  ,\,
+  \mathcal{E}
+  \;\in\;
+  Cat
+  \;\;\;\;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;\;\;\;
+  \array{
+  Cat_{adj}(\mathcal{D},\,\mathcal{E})
+  \times
+  Cat_{adj}(\mathcal{C},\,\mathcal{D})
+  &\overset{}{\longrightarrow}&
+  Cat_{adj}(\mathcal{C},\,\mathcal{E})
+  \\
+  \big(
+    (\lambda, \rho)
+    ,\,
+    (\lambda', \rho')
+  \big)  
+  &\mapsto&
+  \big(
+    \lambda' \cdot \lambda
+    ,\,
+    \rho \cdot \rho'
+  \big)
+  }
+  \,.
+$$
+\end{proposition}
+&lbrack;[MacLane (1971), §IV.8 Thm. 2 & Exc. 1 (p. 102)](#MacLane71)&rbrack;
+
+Therefore, from Prop. \ref{UniqueConjugateMate} and Prop. \ref{HorizontalCompositionOfConjugateTransformations} we have:
 \begin{definition}\label{CatAdj}
-The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] [[CatAdj|$Cat_{Adj}$]] of [[Cat]]
+The ([[very large category|very large]]) [[wide subcategory|wide]] and [[locally full sub-2-category]] [[CatAdj|$Cat_{adj}$]] of [[Cat]]
 \[
   \label{CatAdjInsideCat}
-  Cat_{Adj} \longrightarrow Cat
+  Cat_{adj} \longrightarrow Cat
 \]
 whose 
 
@@ -154,15 +194,19 @@ whose
 * [[2-morphisms]] are [[natural transformations]] which are conjugate in the sense of Def. \ref{ConjugateTransformationOfAdjoints}.
 
 \end{definition}
+&lbrack;[MacLane (1971), §IV.8 below (1), p. 102](#MacLane71)&rbrack;
 
 ## Properties
 
 ### Relation to bifibrations
 
 \begin{proposition}
-  Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through $Cat_{Adj}$ (eq:CatAdjInsideCat) are equivalently the [[bifibrations]].
+  Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through [[CatAdj|$Cat_{adj}$]] (eq:CatAdjInsideCat) are equivalently the [[bifibrations]].
 \end{proposition}
-This statment may be [[category theory]] [[folklore]]; a proof has been spelled out in [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
+\begin{proof}
+A Grothendieck construction on a pseudofunctor yielding a bifibration is fairly immediately equivalent to all base change functors having an adjoint on the respective side (e.g. [Jacobs (1998), Lem. 9.1.2](bifibration#Jacobs98)). By the fact that $Cat_{adj} \to Cat$ is a [[locally full sub-2-category]] (Prop. \ref{UniqueConjugateMate}) this already means that the given pseudofunctor factors through  $Cat_adj$, and essentially uniquely so.
+\end{proof}
+See also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
 
 ## Related concepts
 
@@ -174,7 +218,9 @@ This statment may be [[category theory]] [[folklore]]; a proof has been spelled 
 
 ## References
 
-* {#MacLane71} [[Saunders MacLane]], Section IV.7 of: _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+* {#MacLane71} [[Saunders MacLane]], Sections IV.7-8 of: _[[Categories Work|Categories for the working mathematician]]_, Graduate Texts in Mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+See also:
 
 * {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], Section 2.2. of: _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
 
