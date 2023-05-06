@@ -162,7 +162,7 @@ This follows by
   the **smooth path $\infty$-groupoid**, namely the [[(∞,1)-presheaf]]
 
   $$
-    \mathbf{Sing}
+    \mathbf{Sing}(A)
     \;\colon\;
     U 
     \;\mapsto\;
