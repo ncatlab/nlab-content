@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
@@ -48,7 +52,7 @@ $$
 
 from a fixed group $H \,\in\, Grpd$
 
-> (often taken to be a [[monomorphisms]], hence [[injections]], hence [[subgroup]]-inclusions $A \hookrightarrow G_i$ and reducing to the previous situation when $H = 1$ is the [[trivial group]]) 
+> (often taken to be [[monomorphisms]], hence [[injections]], hence [[subgroup]]-inclusions $A \hookrightarrow G_i$ and reducing to the previous situation when $H = 1$ is the [[trivial group]]) 
 
 then what is traditionally called their **amalgamated free product** (or similar), and denoted
 
@@ -176,7 +180,7 @@ Textbook accounts of free products of groups:
 
 * [[Anthony Knapp]], Section VII.3 of: *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
 
-Concise review with background and in the generality of amalgamated free products and making explicit their nature as [[pushouts]] in [[Grp]]:
+Expository review in the generality of amalgamated free products and making explicit their nature as [[pushouts]] in [[Grp]]:
 
 * Abhay Chandel, *Free groups and amalgamated product*, BSc thesis (2013) &lbrack;[pdf](http://home.iiserb.ac.in/~kashyap/Group/thesis_abhay.pdf), [[Chandel-AmalgamatedProducts.pdf:file]]&rbrack;
 
