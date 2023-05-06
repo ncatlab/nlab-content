@@ -69,11 +69,11 @@ This appears as ([Goerss & Jardine, Ch V, Prop. 6.2](#GoerssJardine)).
 
 Under the [[forgetful functor]] $U \colon sSet_0 \hookrightarrow sSet$ 
 
-* a fibration $f : X \to Y$ with respect to the reduced model structure (prop. \ref{TheModelStructure}) maps to a fibration in the [[classical model structure on simplicial sets]] (a [[Kan fibration]]) precisely if it has the [[right lifting property]] against $* \to S^1 \coloneqq \Delta[1]/ \partial \Delta[1]$;
+* a fibration $f \colon X \to Y$ with respect to the reduced model structure (prop. \ref{TheModelStructure}) maps to a fibration in the [[classical model structure on simplicial sets]] (a [[Kan fibration]]) precisely if it has the [[right lifting property]] against $* \to S^1 \coloneqq \Delta[1]/ \partial \Delta[1]$;
 
-In particular
+In particular:
 
-* every [[fibrant object]] maps to a fibrant object.
+* every [[fibrant object]] in $sSet_0$ is a fibrant object in $sSet$, hence a [[Kan complex]].
 
 =--
 
