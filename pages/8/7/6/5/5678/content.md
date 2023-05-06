@@ -130,7 +130,16 @@ See also
 
 * David Clark, [[Scott Morrison]], [[Kevin Walker]], _Fixing the functoriality of Khovanov homology_ ([arXiv:math/0701339](http://arxiv.org/abs/math/0701339) [pdf slides](http://canyon23.net/math/talks/Kh%20200704.pdf))
 
-Further development:
+Discussion via a [[cobordism category]] of "foams":
+
+* {#Khovanov04} [[Mikhail Khovanov]], *$sl(3)$ link homology*, Algebr. Geom. Topol. **4** (2004) 1045-1081 &lbrack;[arXiv:math/0304375](https://arxiv.org/abs/math/0304375), [doi:10.2140/agt.2004.4.1045](https://doi.org/10.2140/agt.2004.4.1045)&rbrack;
+
+* [[Marco Mackaay]], [[Pedro Vaz]], *The universal $sl_3$-link homology*, Algebr. Geom. Topol. **7** (2007) 1135-1169 &lbrack;[doi:10.2140/agt.2007.7.1135](https://doi.org/10.2140/agt.2007.7.1135)&rbrack;
+
+* [[Marco Mackaay]], [[Pedro Vaz]], *The foam and the matrix factorization $sl_3$ link homologies are equivalent*, Algebr. Geom. Topol. **8** (2008) 309-342 &lbrack;[arXiv:0710.0771](https://arxiv.org/abs/0710.0771), [doi:10.2140/agt.2008.8.309](https://doi.org/10.2140/agt.2008.8.309)&rbrack;
+
+* [[Marco Mackaay]], [[Pedro Vaz]], *The diagrammatic Soergel category and $sl(N)$-foams, for $N \gt 3$ &lbrack;[arXiv:0911.2485](https://arxiv.org/abs/0911.2485)&rbrack;
+
 
 * [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Foam evaluation and Kronheimer--Mrowka theories*, Advances in Mathematics **376**  (2021) 107433 &lbrack;[arXiv:1808.09662](https://arxiv.org/abs/1808.09662), [doi:10.1016/j.aim.2020.107433](https://doi.org/10.1016/j.aim.2020.107433)&rbrack;
 
@@ -138,7 +147,7 @@ Further development:
 
 Reviewed in:
 
-* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023), video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc)&rbrack;
+* [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023), video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc), 2:[YT](https://www.youtube.com/watch?v=SPBcAAmGT88)&rbrack;
 
 More on relation to [[topological quantum field theory]]:
 
