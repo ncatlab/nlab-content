@@ -27,9 +27,11 @@ whose
 
 * [[objects]] are categories,
 
-* [[1-morphisms]] are [[left adjoint]] [[functors]]
+* [[1-morphisms]] are [[left adjoint]] [[functors]],
 
 * [[2-morphisms]] are [[natural transformations]] which are [[conjugate transformations of adjoints]].
+
+&lbrack;[MacLane (1971), p. 103](#MacLane71)&rbrack;
 
 ## Properties
 
@@ -40,9 +42,9 @@ whose
   Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through $Cat_{Adj}$ (eq:CatAdjInsideCat) are equivalently the [[bifibrations]].
 \end{proposition}
 \begin{proof}
-Notice, by [this Prop.](transformation+of+adjoints#UniqueConjugateMate), that such a factorization exists (and then essentially uniquely) iff the component functors of the given [[pseudofunctor]] all have an [[adjoint functor|adjoint]] (on the appropriate side).
-Hence it now suffices to show that a Grothendieck fibration is a bifibration iff all its base change functors have an adjoint on the appropriate side. 
-This may be [[category theory]] [[folklore]]; one place where this proof is spelled out is [Jacobs (1998), Lem. 9.1.2](bifibration#Jacobs98), see also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).\end{proof}
+A Grothendieck construction on a pseudofunctor yielding a bifibration is fairly immediately equivalent to all base change functors having an adjoint on the respective side (e.g. [Jacobs (1998), Lem. 9.1.2](bifibration#Jacobs98)). By the fact that $Cat_{adj} \to Cat$ is a [[locally full sub-2-category]] ([this Prop.](transformation+of+adjoints#UniqueConjugateMate)) this already means that the given pseudofunctor factors through  $Cat_adj$, and essentially uniquely so.
+\end{proof}
+See also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
 
 ## Related concepts
 
@@ -56,6 +58,10 @@ This may be [[category theory]] [[folklore]]; one place where this proof is spel
 ∞-category of adjunctions]]
 
 ## References
+
+* {#MacLane71} [[Saunders MacLane]], p. 102 of: _[[Categories Work|Categories for the working mathematician]]_, Graduate Text in Mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+See also:
 
 * {#HarpazPrasma15} [[Yonatan Harpaz]], [[Matan Prasma]], Section 2.2. of: _The Grothendieck construction for model categories_, Advances in Mathematics **281** (2015) 1306-1363 &lbrack;[arXiv:1404.1852](https://arxiv.org/abs/1404.1852), [10.1016/j.aim.2015.03.031](https://doi.org/10.1016/j.aim.2015.03.031)&rbrack;
 
