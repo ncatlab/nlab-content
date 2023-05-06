@@ -86,7 +86,7 @@ such that this is [[universal property|universal]] among all objects with maps f
 
 *  In [[Top]], the coproduct of a family of spaces $(C_i)_{i\in I}$ is the space whose set of points is $\coprod_{i\in I} C_i$ and whose open subspaces are of the form $\coprod_{i\in I} U_i$ (the internal [[disjoint union]]) where each $U_i$ is an [[open subspace]] of $C_i$.  This is typical of [[topological concrete categories]].
 
-*  In [[Grp]], the coproduct is the [[free product]], whose underlying set is *not* a disjoint union.  This is typical of [[algebraic category|algebraic categories]].
+*  In [[Grp]], the coproduct is the "[[free product of groups]]", whose [[underlying set]] is *not* a [[disjoint union]].  This is typical of [[algebraic category|algebraic categories]].
 
 *  In [[Ab]], in [[Vect]], the coproduct is  the [[subobject]] of the [[product]] consisting of those tuples of elements for which only finitely many are not 0.
 
