@@ -35,7 +35,7 @@ The ([[very large category|very large]]) _[[double category]] of [[model categor
 
 1. as [[horizontal morphisms]]: [[right Quillen functors]] $\mathcal{C} \overset{R}{\longrightarrow}\mathcal{D}$;
 
-1. as [[2-morphisms]] [[natural transformations]] between the [[composition|composites]] of underlying [[functors]].
+1. as [[2-morphisms]] [[natural transformations]] between the [[composition|composites]] of [[underlying]] [[functors]].
 
    $$
      L_2\circ R_1
