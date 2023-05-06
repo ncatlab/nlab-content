@@ -16,7 +16,9 @@ On [[braid cobordism]] and [[triangulated categories]]:
 
 * {#KhovanovThomas07} [[Mikhail Khovanov]], [[Richard Thomas]], *Braid cobordisms, triangulated categories, and flag varieties*, Homology, Homotopy and Applications **9**(2007) 19-94 &lbrack;[arXiv:math/0609335](https://arxiv.org/abs/math/0609335), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/Braid-cobordisms-triangulated-categories-and-flag-varieties/hha/1201127331.full)&rbrack;
 
-Foam construction of [[link homology]]:
+Introducing and discussing a [[cobordism category]] of "foams" for studying [[link homology]]:
+
+* [[Mikhail Khovanov]], *$sl(3)$ link homology*, Algebr. Geom. Topol. **4** (2004) 1045-1081 &lbrack;[arXiv:math/0304375](https://arxiv.org/abs/math/0304375), [doi:10.2140/agt.2004.4.1045](https://doi.org/10.2140/agt.2004.4.1045)&rbrack;
 
 * [[Mikhail Khovanov]], [[Louis-Hadrien Robert]], *Foam evaluation and Kronheimer--Mrowka theories*, Advances in Mathematics **376**  (2021) 107433 &lbrack;[arXiv:1808.09662](https://arxiv.org/abs/1808.09662), [doi:10.1016/j.aim.2020.107433](https://doi.org/10.1016/j.aim.2020.107433)&rbrack;
 
