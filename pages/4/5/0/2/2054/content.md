@@ -25,9 +25,7 @@ In [[dependent type theory]], the free group on a type $A$ is the [[0-truncation
 
 In addition, one could construct the free group directly from the traditional axioms of a [[group]], as detailed below:
 
-#### Rules for free groups
-
-Formation rules for free groups:
+The [[inference rules]] for free group types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{FreeGroup}(A) \; \mathrm{type}}$$
 
@@ -47,11 +45,13 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \tau:\mathrm{isSet}(\mat
 
 ## Properties
 
-Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielsen-Schreier theorem]]_.
+* Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielsen-Schreier theorem]]_.
 
 ## Related concepts
 
 * [[free monoid]]
+
+* [[free product of groups]]
 
 * [[free abelian group]], [[free groupoid]]
 
@@ -60,6 +60,16 @@ Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielse
 * [[Fox derivative]]
 
 ## References
+
+Early discussion of ([[subgroups]] of) [[free groups]] (proof of the [[Nielsen-Schreier theorem]]) and generalization to the [[amalgamated free product of groups]]:
+
+* [[Otto Schreier]], *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161–183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
+
+Expository review:
+
+* Abhay Chandel, *Free groups and amalgamated product*, BSc thesis (2013) &lbrack;[pdf](http://home.iiserb.ac.in/~kashyap/Group/thesis_abhay.pdf), [[Chandel-AmalgamatedProducts.pdf:file]]&rbrack;
+
+
 
 Discussion of free groups in [[homotopy type theory]]:
 
