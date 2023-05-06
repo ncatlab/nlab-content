@@ -86,7 +86,7 @@ Such a diagram is called a [[span]].  If the colimit exists, we obtain a [[commu
 
 and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$.
 
-Other terms: $x$ is a __cofibred coproduct__ of $a$ and $b$, or (especially in [[algebraic categories]] when $f$ and $g$ are [[monomorphisms]]) a free product of $a$ and $b$ with $c$ __amalgamated__, or more simply an __amalgamation__ (or __amalgam__) of $a$ and $b$.
+Other terms: $x$ is a __cofibred coproduct__ of $a$ and $b$, or (especially in [[algebraic categories]] when $f$ and $g$ are [[monomorphisms]]) a free product of $a$ and $b$ with $c$ __[[amalgamated]]__, or more simply an __[[amalgamation]]__ (or __amalgam__) of $a$ and $b$.
 
 The concept of pushout is a special case of the notion of **[[cofiber coproduct|wide pushout]]** (compare [[wide pullback]]), where one takes the colimit of a diagram which consists of a set of arrows $\{f_i: c \to a_i\}_{i \in I}$. Thus an ordinary pushout is the case where $I$ has cardinality $2$. 
 
@@ -284,11 +284,5 @@ Textbook accounts:
 [[!redirects cofiber coproduct]]
 [[!redirects cofiber coproducts]]
 
-[[!redirects amalgamated free product]]
-[[!redirects amalgamated free products]]
-[[!redirects amalgamated coproduct]]
-[[!redirects amalgamated coproducts]]
-[[!redirects amalgamation]]
-[[!redirects amalgamations]]
-[[!redirects amalgam]]
-[[!redirects amalgams]]
+
+
