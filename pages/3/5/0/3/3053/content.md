@@ -57,9 +57,13 @@ Therefore every morphism $f \colon b_1 \to b_2$ in a bifibration has both a push
  {#RelationToPseudofunctors}
 
 \begin{proposition}
+ \label{BifibrationsAreTheGrothConstrOnCatAdjValuedPseudofunctors}
   Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through [[CatAdj|$Cat_{Adj}$]] are equivalently the [[bifibrations]].
 \end{proposition}
-This may be [[category theory]] [[folklore]]; a proof has been spelled out in [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
+\begin{proof}
+Notice, by [this Prop.](transformation+of+adjoints#UniqueConjugateMate), that such a factorization exists (and then essentially uniquely) iff the component functors of the given [[pseudofunctor]] all have an [[adjoint functor|adjoint]] (on the appropriate side).
+Hence it now suffices to show that a Grothendieck fibration is a bifibration iff all its base change functors have an adjoint on the appropriate side. 
+This may be [[category theory]] [[folklore]]; one place where this proof is spelled out is [Jacobs (1998), Lem. 9.1.2](#Jacobs98), see also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).\end{proof}
 
 \begin{remark}
 \label{BifibrationsOfModelCategories}
@@ -109,7 +113,10 @@ Discussion in the context of the [[Beck-Chevalley condition]]:
 * [[Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ in:_Category theory Como 1990_, LNM **1488** Springer (1991) 306-325 &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
 
 
-As [[categorical semantics]] for aspects of [[type theory]]:
+In the context of [[categorical semantics for dependent types]]:
+
+* {#Jacobs98} [[Bart Jacobs]], pp. 511 of: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, ([arXiv.1310.0263](http://arxiv.org/abs/1310.0263v1)).
 
