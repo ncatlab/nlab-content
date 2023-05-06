@@ -11,7 +11,7 @@ therefore it makes sense to generally agree that:
 
 * **in [[category theory]]** the term "*amalgamated coproduct*" or just "*amalgamation*" refers to [[pushouts]] (seen, if you will, as [[coproducts]] in a [[coslice category]]).
 
-Beware though, while the terminology "amalgamation" indeed neatly capture the nature of [[pushouts]], traditionally it is not widely used at all in this generality.
+Beware though, while the terminology "amalgamation" indeed neatly captures the nature of [[pushouts]] in general [[categories]], traditionally it is not widely used in this generality.
 
 Moreover, but only vaguely related:
 
