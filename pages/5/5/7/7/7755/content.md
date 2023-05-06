@@ -21,7 +21,7 @@ One of the simplest cases is when the free amalgam of structures $B\oplus_A C$ e
 
 ## Related entries
 
-* [[amalgamation theory]]
+* [[amalgamation]]
 
 * [[Galois type]]
 
@@ -45,6 +45,4 @@ _The amalgamation spectrum_, J. Symbolic Logic __74__:3 (2009) 914-928, [MR25484
 
 category: model theory
 
-[[!redirects amalgamation]]
-[[!redirects amalgamations]]
-[[!redirects amalgamation property]]
+[[!redirects amalgamation properties]]
