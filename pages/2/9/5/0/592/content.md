@@ -241,8 +241,19 @@ where $\chi_i$ is the classifying map of $i$) and therefore strong.
 
 
 ## Examples
+ {#Examples}
 
-...
+\begin{example}
+  A [[pushout]] of [[injections]] of [[Sets]] is called the [[union]] of the sets.
+\end{example}
+
+\begin{example}
+  A pushout of [[groups]] in [[Grps]] is called their *[[amalgamated free product]]*
+\end{example}
+
+\begin{example}
+  In [[topology]], [[space attachments]] are pushouts in [[Top]].
+\end{example}
 
 ## Related entries
 
