@@ -41,19 +41,21 @@ Further discussion:
 
 * [[Guo Chuan Thiang]], _Topological phases: isomorphism, homotopy and K-theory_, Int. J. Geom. Methods Mod. Phys. 12 1550098 (2015) ([arXiv:1412.4191](https://arxiv.org/abs/1412.4191))
 
-* Ralph M. Kaufmann, Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
+* [[Ralph M. Kaufmann]], Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
 
 * Ken Shiozaki, Masatoshi Sato, [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 $[$[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)$]$
 
 
 * [[Luuk Stehouwer]], [[Jan de Boer]], [[Jorrit Kruthoff]], [[Hessel Posthuma]], *Classification of crystalline topological insulators through K-theory*, Adv. Theor. Math. Phys, **25** 3 (2021) 723–775 $[$[arXiv:1811.02592](https://arxiv.org/abs/1811.02592), [doi:10.4310/ATMP.2021.v25.n3.a3](https://doi.org/10.4310/ATMP.2021.v25.n3.a3)$]$
 
-
 * Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
 
 * Eyal Cornfeld, Shachar Carmeli, *Tenfold topology of crystals: Unified classification of crystalline topological insulators and superconductors*, Phys. Rev. Research **3** (2021) 013052 $[$[doi:10.1103/PhysRevResearch.3.013052](https://doi.org/10.1103/PhysRevResearch.3.013052), [arXiv:2009.04486](https://arxiv.org/abs/2009.04486)$]$
 
-Further generalization to include interacting [[topological order]]:
+* {#BHMP23} [[Agnès Beaudry]], Michael Hermele, Juan Moreno, [[Markus Pflaum]], Marvin Qi, Daniel Spiegel, *Homotopical Foundations of Parametrized Quantum Spin Systems* $[$[arXiv:2303.07431](https://arxiv.org/abs/2303.07431)$]$
+
+
+Generalization to include interacting [[topological order]]:
 
 * {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
 
