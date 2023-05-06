@@ -392,7 +392,7 @@ This appears for instance as [Centazzo-Rosick&#253;-Vitale, remark 3](#CentazzoR
 \label{LocallyPresentableGrothendieckConstruction}
 **(locally presentable Grothendieck constructions)**
 \linebreak
-Given a [[pseudofunctor]] with values in [[adjoint functors|adjunctions]] as
+Given a [[pseudofunctor]] with values in [[CatAdj|$Cat_{Adj}$]] as
 $$
   \array{
     \mathllap{
