@@ -16,7 +16,10 @@
 ## Idea
 
 
-InfraBayesianism is an extension of Bayesian reasoning that allows for more flexible modeling and reasoning under uncertainty developped by Vanessa Kosoy and Alex Appel. By using a generalized notion of probability called infradistributions, infraBayesianism provides a way to reason with ambiguous or incomplete information, which is not possible within the classical Bayesian framework.
+InfraBayesianisn a theory of reinforcement learning in the nonrealizable setting based on imprecise probability by Vanessa Kosoy and Alex Appel. 
+It is part of Vanessa Kosoy's Learning-Theoretic Agenda in AI alignment.
+
+Non-realizable in this context refers to the situation where the 'true' distribution does not necessarily lie in the model class of the (reinforcement) agent.
 
 Infradistributions generalize the credal sets of imprecise probability which in turn generalize probability distributions. 
 
