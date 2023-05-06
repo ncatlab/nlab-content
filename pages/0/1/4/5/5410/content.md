@@ -22,7 +22,7 @@
 
 ### Idea
 
-Recall that a [[functor]] $E \to B$ is called a *[[fibration]]* if its [[fibres]] $E_b$ vary ([[pseudofunctor|pseudo-]])[[functorially]] in $b$.  Taking here _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
+Recall that a [[functor]] $E \to B$ is called a *[[fibration]]* if its [[fibres]] $E_b$ vary ([[pseudofunctor|pseudo-]])[[functor|functorially]] in $b$.  Taking here _fibre_ to mean _strict fibre_ results in the notion of [[Grothendieck fibration]], while taking it to mean [[essential fibre]] gives the notion of [[Street fibration]].
 
 Similarly, a *two-sided fibration* $A \leftarrow E \to B$ is a [[span]] of functors whose joint fibres $E(a,b)$ vary functorially in both $a$ and $b$ ([[contravariant functor|contravariantly]] in one and [[covariant functor|covariantly]] in the other).
 
@@ -358,14 +358,16 @@ One checks that this yields an equivalence of categories.
 
 =--
 
-+-- {: .un_lemma}
-###### Observation
-
+\begin{remark}
 The category $E_F$ is equivalently characterized as being the [[comma category]] of the diagram $B \to K_F \leftarrow A$.
-
-=--
+\end{remark}
 
 Note that profunctors can also be characterized by their collages, these being the two-sided [[codiscrete cofibrations]]; and the collage corresponding to a two-sided fibration is its [[cocomma object]].
+
+
+### Relation to distributive laws
+
+Fibrations and opfibrations on a category $C$ (or more generally an object of a suitable 2-category) are the algebras for a pair of pseudomonads.  If $C$ has pullbacks, there is a [[pseudo-distributive law]] between these pseudomonads, whose joint algebras are the bifibrations satisfying the [[Beck-Chevalley condition]]; see [von Glehn (2015)](#vonGlehn).
 
 
 ## Related concepts
@@ -386,17 +388,17 @@ Note that profunctors can also be characterized by their collages, these being t
 
 ## References
 
-The notion is originally discussed in
+Original discussion:
 
 * [[Ross Street]]. _Fibrations and Yoneda's lemma in a 2-category_. In Category Seminar (Proc. Sem., Sydney, 1972/1973), pages 104  133. Lecture Notes in Math., Vol. 420. Springer, Berlin, 1974.
 
 * [[Ross Street]], _Fibrations in bicategories_. Cahiers Topologie G&#233;om. Diff&#233;rentielle,
 21(2):111--160, 1980. (Corrections in 28(1):53--56, 1987)
 
-Some further discussion of discrete fibrations can be found in
+Further discussion of discrete fibrations 
 
-{: #BournPenon }
-* Dominique Bourn and Jacques Penon.  _2-cat&#233;gories r&#233;ductibles_.  Preprint, University of Amiens Department of Mathematics, 1978.  Reprinted as _TAC Reprints_ no. 19, 2010 ([link](http://www.tac.mta.ca/tac/reprints/articles/19/tr19abs.html)).
+
+* {#BournPenon} [[Dominique Bourn]], [[Jacques Penon]],  _2-cat&#233;gories r&#233;ductibles_.  Preprint, University of Amiens Department of Mathematics, 1978.  Reprinted as _TAC Reprints_ no. 19, 2010 ([link](http://www.tac.mta.ca/tac/reprints/articles/19/tr19abs.html)).
 
 Useful reviews are in
 
@@ -404,6 +406,11 @@ Useful reviews are in
 {#Riehl}
 
 * [[Fosco Loregian]] and [[Emily Riehl]], _Categorical notions of fibration_, [arxiv](https://arxiv.org/abs/1806.06129)
+
+In relation to [[categorical semantics of dependent types]]:
+
+* {#vonGlehn2015} [[Tamara von Glehn]], *Polynomials and models of type theory*, PhD thesis (2015) &lbrack;[doi10.17863/CAM.16245](https://doi.org/10.17863/CAM.16245)&rbrack;
+
 
 [[!redirects two-sided fibrations]]
 [[!redirects two-sided discrete fibration]]
