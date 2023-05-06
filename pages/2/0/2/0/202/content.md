@@ -124,6 +124,8 @@ An axiomatization of the category of groups is given in
 
 * Pierre Leroux, *Une Caracterisation de la Categorie des Groupes*, Canadian Mathematical Bulletin, Volume 15, Issue 3, September 1972, pp. 375 - 380 ([DOI:10.4153/CMB-1972-069-6](https://doi.org/10.4153/CMB-1972-069-6))
 
+[[!redirects Grps]]
+
 [[!redirects Group]]
 [[!redirects Groups]]
 
