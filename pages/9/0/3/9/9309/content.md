@@ -635,9 +635,9 @@ Correction terms have been proposed in
 
 * {#TaylorVanRaamsdonk99} [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
 
-A completely different approach, which defines a theory that is analogous to non-abelian BI via [[TT deformation]] of Yang-Mills in two spacetime dimensions, is proposed in
+A completely different approach, which defines a theory that is analogous to non-abelian BI via [[TT deformation|$T \bar T$ deformation]] of $D=2$ [[Yang-Mills theory]], is proposed in
 
-* T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
+* {#BrennanFerkoSethi20} [[T. Daniel Brennan]], [[Christian Ferko]], [[Savdeep Sethi]], *A Non-Abelian Analogue of DBI from $T \bar T$*, SciPost Phys. **8** 052 (2020) &lbrack;[arXiv:1912.12389](https://arxiv.org/abs/1912.12389), [doi:10.21468/SciPostPhys.8.4.052](https://doi.org/10.21468/SciPostPhys.8.4.052)&rbrack;
 
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
 
