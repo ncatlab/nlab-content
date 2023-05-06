@@ -87,7 +87,11 @@ Computer simulation ([[lattice gauge theory]]):
 
 * Hrant Gharibyan, [[Masanori Hanada]], Masazumi Honda, Junyu Liu, _Toward simulating Superstring/M-theory on a quantum computer_ ([arXiv:2011.06573](https://arxiv.org/abs/2011.06573))
 
+and comparison in the [[large N limit]] with computations in [[supergravity]]:
 
+* S. Pateloudis et al., *Precision test of gauge/gravity duality in $D0$-brane matrix model at low temperature*,  J. High Energ. Phys. **2023** 71 (2023)  &lbrack;[arXiv:2210.04881](https://arxiv.org/abs/2210.04881), <a href="https://doi.org/10.1007/JHEP03(2023)071">doi:10.1007/JHEP03(2023)071</a>&rbrack;
+
+ 
 See also
 
 * [[Jens Hoppe]]. Ki-Myeong Lee, _New BPS Configurations of BMN Matrix Theory_, JHEP 0806:041, 2008 ([arXiv:0712.3616](https://arxiv.org/abs/0712.3616))
