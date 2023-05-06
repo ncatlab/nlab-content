@@ -11,18 +11,64 @@
 
 > (The special case in [[Cat]] of the general notion of *[[adjunction]]*.)
 
+
 #Contents#
 * table of contents
 {:toc}
 
+
+## Idea
+ {#Idea}
+
+The concept of _adjoint functors_ &lbrack;[Kan (1958)](#Kan58)&rbrack; is a key concept in [[category theory]] --- if not _the_ key concept --- and it is in large part through the manifold identification of examples of adjoint functors appearing ubiquituously in the practice of [[mathematics]] that category theoretic tools are brought to use in general mathematics.
+
+Abstractly, the notion of adjoint functors embodies the concept of *[[representable functors]]* and has as special cases the fundamental [[universal constructions]] of [[category theory]] such as notably *[[Kan extensions]]* and hence *([[colimit|co-]])[[limits]]* and *([[coend|co-]])[[ends]]*, while being itself the archetypical special case of a natural notion of *[[adjunction]]* which in [[2-category theory]] embodies a general [principle of duality](geometry+of+physics+--+categories+and+toposes#CategoryTheoryIsTheoryOfDuality).
+
+Concretely, the concept of adjoint functors $L \dashv R \,\colon\, \mathcal{C} \leftrightarrows \mathcal{D}$ is immediately transparent and compelling in its incarnation as a [[natural isomorphism]] on [[hom-sets]] (see [below](#InTermsOfHomIsomorphism)) and more generally on [[hom-objects]] (see at *[[enriched adjoint functor]]*), where it just says that adjoint functors are those that may [[coherence condition|coherently]] be switched left$\leftrightarrow$right in a [[hom-set]]
+$$
+  L \dashv R 
+    \;\colon\; 
+  \mathcal{C} \leftrightarrows \mathcal{D}
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+    \text{means}
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+  \mathcal{C}\big(L(-),\,-\big)
+  \;\simeq\;
+  \mathcal{D}\big(-,\,R(-)\big)
+  \,.
+$$
+The striking analogy (in fact a kind of [[categorification]]) of this defining relation to the older notion of *[[adjoint operator|adjoint linear operators]]* between [[Hermitian vector spaces]]/[[Hilbert spaces]] $\mathscr{H}_i$ with [[inner products]] $\langle -,-\rangle_i$
+$$
+  L
+    = 
+  R^\dagger 
+    \;\colon\;
+  \mathscr{H}_1 \leftrightarrows \mathscr{H}_2
+  \;\;\;\;\;\;\;\;\;\;\;
+    \text{means}
+  \;\;\;\;\;\;\;\;\;\;\;
+  \big\langle
+    L(-),\, -
+  \big\rangle_1
+  \;=\;
+  \big\langle
+    -,\, R(-)
+  \big\rangle_2  
+$$ 
+is what gives the notion of adjoint functors its name.
+
+
+> "the universality of the concept of adjointness, which was first isolated and named in the conceptual sphere of category theory" &lbrack;[Lawvere (1969)](#Lawvere69)&rbrack; 
+  
+> "The multiple examples, here and elsewhere, of adjoint functors tend to show that adjoints occur almost everywhere in many branches of Mathematics. It is the thesis of [this book](#MacLane71) that a systematic use of all these adjunctions illuminates and clarifies these subjects." &lbrack;[MacLane (1971), p. 103](#MacLane71)&rbrack;
+
+
+> "In all those areas where category theory is actively used the categorical concept of adjoint functor has come to play a key role." &lbrack;first line from _[An interview with William Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#Interview07)_, paraphrasing the first paragraph of _[Taking categories seriously](William+Lawvere#TakingCategoriesSeriously)_&rbrack;
+
+
+
+
 ## Definition 
-
-The concept of _adjoint functors_ is a key concept in [[category theory]], if not _the_ key concept.[^LawvereOnAdjointFunctors] It embodies the concept of [[representable functors]] and has as special cases [[universal constructions]] such as [[Kan extensions]] and hence of [[limits]]/[[colimits]]. 
-
-[^LawvereOnAdjointFunctors]: "the universality of the concept
-of adjointness, which was first isolated and named in the conceptual sphere of category theory" ([Lawvere 69](#Lawvere69)) "In all those areas where category theory is actively used the categorical concept of adjoint functor has come to play a key role." (first line from _[An interview with William Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#Interview07)_, paraphrasing the first paragraph of _[Taking categories seriously](William+Lawvere#TakingCategoriesSeriously)_)
-
-More abstractly, the concept of adjoint functors is itself just the special case of the general concept of an _[[adjunction]]_ in a [[2-category]], here for the 2-category [[Cat]] of all categories. But often "[[adjunction]]" is understood by default in this special case.
 
 
 There are various different but equivalent characterizations of adjoint functors, some of which are discussed below.
@@ -1691,7 +1737,7 @@ For the basics, see any text on [[category theory]] (and see the references at _
 
 Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Grothendieck's]] [[Tohoku]] paper, the idea of adjoint functors in general goes back to 
 
-* [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society **87** 2 (1958) 294-329 &lbrack;[jstor](http://www.jstor.org/stable/1993102)&rbrack;
+* {#Kan58} [[Daniel Kan]], *Adjoint functors*, Transactions of the American Mathematical Society **87** 2 (1958) 294-329 &lbrack;[jstor:1993102](http://www.jstor.org/stable/1993102)&rbrack;
 
 and its fundamental relevance for [[category theory]] was highlighted in
 
