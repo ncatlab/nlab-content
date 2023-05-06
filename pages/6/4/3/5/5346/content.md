@@ -28,13 +28,13 @@ The _model structure on simplicial groups_ is a presentation of the
 +-- {: .num_prop #ModelStructureOnSimplicialGroups} 
 ###### Proposition
 
-There is a projective [[model category]] structure on the [[category]] $sGrp$ of [[simplicial groups]] where a morphism is
+There is a "projective" [[model category]] structure on the [[category]] $sGrp$ of [[simplicial groups]] where a morphism is
 
-* is a [[weak equivalence]] if the underlying morphism is a weak equivalence in the standard [[model structure on simplicial sets]];
+* a [[weak equivalence]] if the [[underlying]] morphism is a weak equivalence in the [[classical model structure on simplicial sets]];
 
-* is a [[fibration]] if the underlying morphism is a [[Kan fibration]] of simplicial sets;
+* a [[fibration]] if the underlying morphism is a [[Kan fibration]] of simplicial sets;
 
-* is a [[cofibration]] if it has the [[left lifting property]] with respect to all trivial fibrations.
+* hence a [[cofibration]] if it has the [[left lifting property]] with respect to all trivial fibrations.
 
 =--
 
@@ -46,7 +46,7 @@ There is a projective [[model category]] structure on the [[category]] $sGrp$ of
   Every object in the projective model structure (Prop. \ref{ModelStructureOnSimplicialGroups}) is [[fibrant object|fibrant]].
 \end{proposition}
 \begin{proof}
-  This statement amounts to saying that the underlying simplicial set of any simplicial group is a [[Kan complex]]. That this is the case is Moore's theorem ([here](simplicial+group#EverySimplicialGroupIsAKanComplex)).
+  This statement amounts to saying that the underlying simplicial set of any simplicial group is a [[Kan complex]], which is case by Moore's theorem ([here](simplicial+group#EverySimplicialGroupIsAKanComplex)).
 \end{proof}
 
 +-- {: .num_prop #QuillenEquivalenceWithReducedSimplicialSets} 
