@@ -87,7 +87,7 @@ The restricted statement that every subgroup of a free _[[abelian group]]_ is it
 
 [[Jakob Nielsen]] proved the statement for finitely-generated subgroups in 1921. The full theorem was proven in
 
-* [[Otto Schreier]], _Die Untergruppen der freien Gruppen_, Abh. Mat Sem. Univ. Hamburg __3__, 167--169, 1927.
+* [[Otto Schreier]], *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161–183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
 
 The topological proof is due to 
 
