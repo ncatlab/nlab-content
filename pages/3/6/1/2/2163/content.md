@@ -155,6 +155,15 @@ This statement may be thought of as a limiting case, of the [[cobordism hypothes
 The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact smooth manifolds is the cobordism semigroup for $D=Diff_c$.
 
 
+## Examples
+ {#Examples}
+
+Examples of cobordism categories besides those of manifolds with [[(B,f)-structure|$(B,f)$-structure]]:
+
+* "foams" used in [[link homology]] following [Khovanov 2004](Khovanov+homology#Khovanov04)
+
+See also [MO:q/59677](https://mathoverflow.net/q/59677/381).
+
 
 ## Related concepts
 
