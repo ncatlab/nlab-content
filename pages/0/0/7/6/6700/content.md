@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -267,10 +268,9 @@ The modular functor for $G$-[[Chern-Simons theory]] restricted to [[genus of a s
 
 Original formulations:
 
-* [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *IXth International Congress on Mathematical Physics*, Swansea, 1988, Adam Hilger, Bristol and New York (1989), 22–37.
-[PDF](https://dmitripavlov.org/scans/segal-two-dimensional-conformal-field-theories-and-modular-functors.pdf).
+* [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *IXth International Congress on Mathematical Physics*, Swansea 1988, Adam Hilger, Bristol and New York (1989) 22–37 &lbrack;[pdf](https://dmitripavlov.org/scans/segal-two-dimensional-conformal-field-theories-and-modular-functors.pdf), [[Segal-2dCFTandModularFunctors.pdf:file]]&rbrack;
 
-* [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
+* [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 &lbrack;[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]&rbrack;
 
 
 * {#Kriz03} [[Igor Kriz]], _On spin and modularity in conformal field theory_, Ann. Sci. ANS (4) 36 (2003), no. 1, 57112 ([numdam:ASENS_2003_4_36_1_57_0](http://www.numdam.org/item?id=ASENS_2003_4_36_1_57_0))
