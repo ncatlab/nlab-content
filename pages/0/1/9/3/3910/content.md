@@ -173,3 +173,7 @@ and specifically in [[cubical Agda]]
 
 [[!redirects integer number]]
 [[!redirects integer numbers]]
+
+[[!redirects additive group of integers]]
+[[!redirects additive groups of integers]]
+
