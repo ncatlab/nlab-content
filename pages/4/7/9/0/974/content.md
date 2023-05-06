@@ -156,7 +156,7 @@ $$
   PSh(K)
 $$
 
-of [[categories of presheaves]] on some category $K$.
+of [[categories of presheaves]] on some small category $K$.
 
 =--
 
