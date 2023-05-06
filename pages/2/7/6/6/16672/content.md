@@ -25,11 +25,12 @@ On [[de Sitter spacetime]] (or not) among the [[landscape of string theory vacua
 
   [[Savdeep Sethi]], _Hope or No Hope for a String Landscape?_, talk at [StringPheno2019](https://indico.cern.ch/event/782251/) ([pdf](https://indico.cern.ch/event/782251/contributions/3441886/attachments/1870138/3076971/3_Sethi.pdf), [[SethiLandscape2019.pdf:file]])
 
-On a non-abelian [[DBI action]] via [[TT deformation]]:
+On an analogue of the [[DBI action]] via [[TT deformation]] of 2d [[Yang-Mills theory]]:
 
-* T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
+* {#BrennanFerkoSethi20} [[T. Daniel Brennan]], [[Christian Ferko]], [[Savdeep Sethi]], *A Non-Abelian Analogue of DBI from $T \bar T$*, SciPost Phys. **8** 052 (2020) &lbrack;[arXiv:1912.12389](https://arxiv.org/abs/1912.12389), [doi:10.21468/SciPostPhys.8.4.052](https://doi.org/10.21468/SciPostPhys.8.4.052)&rbrack;
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[string phenomenology]]
 
