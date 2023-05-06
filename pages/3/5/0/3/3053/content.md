@@ -61,9 +61,11 @@ Therefore every morphism $f \colon b_1 \to b_2$ in a bifibration has both a push
   Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through [[CatAdj|$Cat_{Adj}$]] are equivalently the [[bifibrations]].
 \end{proposition}
 \begin{proof}
-Notice, by [this Prop.](transformation+of+adjoints#UniqueConjugateMate), that such a factorization exists (and then essentially uniquely) iff the component functors of the given [[pseudofunctor]] all have an [[adjoint functor|adjoint]] (on the appropriate side).
-Hence it now suffices to show that a Grothendieck fibration is a bifibration iff all its base change functors have an adjoint on the appropriate side. 
-This may be [[category theory]] [[folklore]]; one place where this proof is spelled out is [Jacobs (1998), Lem. 9.1.2](#Jacobs98), see also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).\end{proof}
+A Grothendieck construction on a pseudofunctor yielding a bifibration is fairly immediately equivalent to all base change functors having an adjoint on the respective side (e.g. [Jacobs (1998), Lem. 9.1.2](#Jacobs98)). By the fact that $Cat_{adj} \to Cat$ is a [[locally full sub-2-category]] ([this Prop.](transformation+of+adjoints#UniqueConjugateMate)) this already means that the given pseudofunctor factors through  $Cat_adj$, and essentially uniquely so.
+\end{proof}
+See also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
+
+
 
 \begin{remark}
 \label{BifibrationsOfModelCategories}
