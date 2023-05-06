@@ -81,13 +81,11 @@ On integrable functions in terms of infinitedimensional [[Sato-Segal-Wilson Gras
 
 On [[2d conformal field theory]] and [[modular functors]]:
 
-* {#Segal89} [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors_, in: IXth International Congress on Mathematical Physics (Swansee 1988), Hilger, Bristol 1989, pp. 22-37
+* [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *IXth International Congress on Mathematical Physics*, Swansea 1988, Adam Hilger, Bristol and New York (1989) 22–37 &lbrack;[pdf](https://dmitripavlov.org/scans/segal-two-dimensional-conformal-field-theories-and-modular-functors.pdf), [[Segal-2dCFTandModularFunctors.pdf:file]]&rbrack;
 
-On the [[FQFT|functorial]]-definition of [[2d conformal field theory]]:
+Further on the [[FQFT|functorial]]-definition of [[2d conformal field theory]]:
 
 * [[Graeme Segal]], *The definition of conformal field theory*, in: K. Bleuler, M. Werner (eds.), *Differential geometrical methods in theoretical physics* (Proceedings of Research Workshop, Como 1987), NATO Adv. Sci. Inst., Ser. C: Math. Phys. Sci. **250** Kluwer Acad. Publ., Dordrecht (1988) 165-171 $[$[doi:10.1007/978-94-015-7809-7](https://doi.org/10.1007/978-94-015-7809-7)$]$
-
-* [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors_ , in _Proceedings of the IXth International Congress on Mathematical Physics_ , Swansea, 1988, Hilger, Bristol (1989) 22-37.
 
 * [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
 
