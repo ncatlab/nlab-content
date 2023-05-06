@@ -82,7 +82,9 @@ This observation opens the door to a widened interpretation of "interpretation" 
 
 * [[exceptional structure]]
 
-* [[higher structure]]
+* [[amalgamation property]]
+
+* [[structure]], [[higher structure]]
 
 ## References
 
