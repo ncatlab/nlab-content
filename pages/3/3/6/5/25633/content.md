@@ -34,11 +34,15 @@ whose
 ## Properties
 
 ### Relation to bifibrations
+ {#RelationToBifibrations}
 
 \begin{proposition}
   Under the [[Grothendieck construction]], the [[Grothendieck fibrations]] which arise from [[pseudofunctors]] $\mathcal{B} \longrightarrow Cat$ that factor through $Cat_{Adj}$ (eq:CatAdjInsideCat) are equivalently the [[bifibrations]].
 \end{proposition}
-This statment may be [[category theory]] [[folklore]]; a proof has been spelled out in [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).
+\begin{proof}
+Notice, by [this Prop.](transformation+of+adjoints#UniqueConjugateMate), that such a factorization exists (and then essentially uniquely) iff the component functors of the given [[pseudofunctor]] all have an [[adjoint functor|adjoint]] (on the appropriate side).
+Hence it now suffices to show that a Grothendieck fibration is a bifibration iff all its base change functors have an adjoint on the appropriate side. 
+This may be [[category theory]] [[folklore]]; one place where this proof is spelled out is [Jacobs (1998), Lem. 9.1.2](bifibration#Jacobs98), see also [Harpaz & Prasma (2015), Prop. 2.2.1](#HarpazPrasma15).\end{proof}
 
 ## Related concepts
 
