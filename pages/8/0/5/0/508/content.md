@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+This page compiles pointers related to
+
 * [[Saunders MacLane]],
 
   **Categories for the Working Mathematician**
@@ -9,12 +25,19 @@
 
   [doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)
 
-is a classical textbook on [[category theory]]. See also:
+which is a classical textbook on [[category theory]]. 
 
-* [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
+> &lbrack;p. 103:&rbrack; "The multiple examples, here and elsewhere, of [[adjoint functors]] tend to show that adjoints occur almost everywhere in many branches of [[mathematics|Mathematics]]. It is the thesis of this book that a systematic use of all these [[adjunctions]] illuminates and clarifies these subjects." 
 
+See also:
 
-The original edition has the following chapters
+* [[Saunders MacLane]] (notes by [[Ellis Cooper|E. Cooper]]): *[[Lectures on category theory]]*, Bowdoin Summer School (1969)
+
+* Wikipedia, *[Categories for the Working Mathematician](http://en.wikipedia.org/wiki/Categories_for_the_Working_Mathematician)*
+
+and the list of category theory textbooks [here](category+theory#section_Textbooks).
+
+The original edition has the following chapters:
 
 *  I. Categories, functors, and natural transformations
 *  II. Constructions on categories
@@ -33,9 +56,7 @@ The 2nd edition was published in 1997 with two additional chapters:
 
 * XII. Structures in categories
 
-_Categories Work_ is the standard reference for category theory, and we may often cite it here. Almost all of its terminology is widely adopted, although its approach to [[foundations]] (one [[Grothendieck universe]]) is not as widely used (see [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1897) at nForum).
 
-* [wikipedia](http://en.wikipedia.org/wiki/Categories_for_the_Working_Mathematician)
 
 category: reference
 
