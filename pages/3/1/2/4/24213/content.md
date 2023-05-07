@@ -63,13 +63,13 @@ A first sketch of a definition was given in by [Voevodsky (2012)](#Voevodsky12),
 
 To cut the need for higher-dimensional coherences, several extensions of type theory were considered:
 
-* [[Vladimir Voevodsky]] proposed Homotopy Type Theory (HTT), an extensional type theory with non-fibrant types and two equalities;
+* [[Vladimir Voevodsky]] proposed *[[Homotopy Type System]]* (HTS), an [[extensional type theory]] with non-[[fibrant types]] and correspondingly two notions of equality;
 
-* [[Fedor Part]] and [[Zhaohui Luo]] proposed a "Logic-enriched Homotopy Type Theory", in particular, they formalized a construction of semi-simplicial types in this logic using the Plastic proof assistant;
+* [Part & Luo (2015)](#PartLuo15) proposed a "Logic-enriched Homotopy Type Theory", in particular, they formalized a construction of semi-simplicial types in this logic using the Plastic proof assistant;
 
-* [[Thorsten Altenkirch]], [[Paolo Capriotti]] and [[Nicolai Kraus]] proposed a two-level type theory generalizing HTT, leading to 2LTT by [[Dannil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]] and [[Christian Sattler]], providing another construction of semi-simplicial types in an extended type theory;
+* [Altenkirch, Capriotti & Kraus (2016)](#AltenkirchCapriottiKraus16) proposed a two-level type theory generalizing HTT, leading to 2LTT by [[Dannil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]] and [[Christian Sattler]], providing another construction of semi-simplicial types in an extended type theory;
 
-* According to [[Nicolai Kraus]] 2018, semi-simplicial types can also be constructed in Angiuli-Harper-Wilson's computational higher-dimensional type theory. 
+* According to [Kraus (2018)](#Kraus18), semi-simplicial types can also be constructed in Angiuli-Harper-Wilson's computational higher-dimensional type theory. 
 
 ## Other approaches
 
@@ -116,14 +116,14 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 
 * {#Herbelin14} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types*, Mathematical Structures in Computer Science, Vol 25 (special issue 05), 2015 &lbrack;[pdf](http://pauillac.inria.fr/~herbelin/articles/mscs-Her14-semisimplicial.pdf)&rbrack; &lbrack;Coq [code](http://pauillac.inria.fr/~herbelin/articles/semisimplicial.v)&rbrack;
 
-* [[Fedor Part]], [[Zhaohui Luo]]:  *Semi-simplicial Types in Logic-enriched Homotopy Type Theory* &lbrack;[arXiv:1506.04998](http://arxiv.org/abs/1506.04998) (Submitted on 16 Jun 2015) 
+* {#PartLuo15} [[Fedor Part]], [[Zhaohui Luo]]:  *Semi-simplicial Types in Logic-enriched Homotopy Type Theory* &lbrack;[arXiv:1506.04998](http://arxiv.org/abs/1506.04998)&rbrack; (Submitted on 16 Jun 2015) 
 
-* [[Thorsten Altenkirch]], [[Paolo Capriotti]], and [[Nicolai Kraus]]: *Extending Homotopy Type Theory with Strict Equality* &lbrack;[arXiv:1604.03799](https://arxiv.org/abs/1604.03799)&rbrack; (Submitted on Apr 2016)
+* {#AltenkirchCapriottiKraus16} [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Nicolai Kraus]]: *Extending Homotopy Type Theory with Strict Equality* &lbrack;[arXiv:1604.03799](https://arxiv.org/abs/1604.03799)&rbrack; (Submitted on Apr 2016)
 
 * [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; (Submitted on May 2017)
 
 * [[Nicolai Kraus]], [[Christian Sattler]]: *Space-valued diagrams, type-theoretically (extended abstract)* &lbrack;[arXiv:1704.04543](https://arxiv.org/abs/1704.04543)&rbrack; (Submitted on Apr 2017)
 
-* [[Nicolai Kraus]]: *On the Role of Semisimplicial Types*, 2018 &lbrack;[pdf](https://www.cs.nott.ac.uk/~psznk/docs/on_semisimplicial_types.pdf)&rbrack;
+* {#Kraus18} [[Nicolai Kraus]]: *On the Role of Semisimplicial Types*, 2018 &lbrack;[pdf](https://www.cs.nott.ac.uk/~psznk/docs/on_semisimplicial_types.pdf)&rbrack;
 
 
