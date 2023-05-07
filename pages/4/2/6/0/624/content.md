@@ -180,7 +180,7 @@ See at *[[dualizable module]]* for more.
 **([[Spanier-Whitehead duality]])**
 \linebreak
 Let $M$ be a finite-dimensional [[smooth manifold]], [[Whitney embedding theorem|choose]] an [[embedding of smooth manifolds|embedding]] $M\hookrightarrow \mathbb{R}^n$ for some $n$, and let $Th(N X)$ be the [[Thom spectrum]] of the [[normal bundle]] of this embedding.  Then the [[Thom collapse]] map defines an $\eta$ which exhibits $Th(N X)$ as a dual of $\Sigma_+^\infty M$ in the [[stable homotopy category]].  This is a version of *[[Spanier-Whitehead duality]].*
-\end{examples}
+\end{example}
 
 
 \begin{definition}
