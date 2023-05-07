@@ -1,0 +1,20 @@
+This page is intended to list references to [[category theory]] papers cited as "to appear", "in preparation", or "forthcoming" by the authors, but never appeared (at least with the cited title). The intention is to prevent lost time searching for papers that do not exist. Sometimes a corresponding paper was published, but under a different name, in which case we record the name it was eventually published under.
+
+This article is complementary to the [[list of lost manuscripts in category theory]], which records papers that appear to have been circulated, but not widely, or for which there is evidence they were complete but not circulated.
+
+Do not include recent references that are likely still to appear. If the author is no longer alive, or the reference is not recent (e.g. 20 years or further), it is reasonable to include in this list.
+
+|Title|Author|Cited in|Likely appeared as|URL/Comments|
+|-----|------|--------|----------------------|------------|
+|*Relative functorial semantics, II: Beck's Theorem*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
+|*Extracts from the Archives of Categorical Folklore, I: Pro-categories*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
+|*Essentially algebraic structures in the enriched context, II*|[[Max Kelly]]|*A Presentation of Topoi as Algebraic relative to Categories of Graphs*, [[Eduardo Dubuc]] and [[Max Kelly]] (1983)| -- | A sequel to *Structures defined by finite limits in the enriched context, I* by [[Max Kelly]] (1982)|
+|*Categories with structure-Biadjoints for algebraic functors*|[[Max Kelly]]|*A Presentation of Topoi as Algebraic relative to Categories of Graphs*, [[Eduardo Dubuc]] and [[Max Kelly]] (1983)| -- | |
+|*On finitary enriched monads and their presentations*|[[Max Kelly]] and [[John Power]]|*Two-dimensional monad theory*, Blackwell, [[Max Kelly]], and [[John Power]] (1989)|*Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads* [[Max Kelly]] and [[John Power]] (1993)| |
+
+## Related pages
+
+* [[list of lost manuscripts in category theory]]
+* [[list of theses in category theory]]
+
+[[!redirects to appear]]
