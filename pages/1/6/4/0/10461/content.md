@@ -39,6 +39,9 @@ Introducing the [[4d TQFT]] [[Walker-Wang model]]:
 
 * [[Kevin Walker]], [[Zhenghan Wang]], _(3+1)-TQFTs and Topological Insulators_, Frontiers of Physics volume 7, pages 150–159 (2012) ([arXiv:1104.2632](http://arxiv.org/abs/1104.2632), [doi:10.1007/s11467-011-0194-z](https://doi.org/10.1007/s11467-011-0194-z))
 
+On [[number theory|number theoretic]] aspects of [[modular tensor categories]]:
+
+* {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
 
 On [[braid group representations]] (specifically the [[Burau representation]] and its relation to the [[Alexander polynomial]]) and their application to [[topological quantum computation]]:
 
