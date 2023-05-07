@@ -24,6 +24,12 @@ On [[quotient inductive types]]:
 
 * {#ADK2017} [[Thorsten Altenkirch]], [[Nils A. Danielsson]], [[Nicolai Kraus]], _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_, FoSSaCS 2017, Lecture Notes in Computer Science **10203** Springer (2017) &lbrack;[arXiv:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack; 
 
+On a version of the [[Homotopy Type System]] with application to [[semi-simplicial types in homotopy type theory]]:
+
+* [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; 
+
+
+
 On [[free groups]] and [[infinity-groups|$\infty$-groups]] in [[homotopy type theory]]:
 
 * [[Nicolai Kraus]], [[Thorsten Altenkirch]], *Free Higher Groups in Homotopy Type Theory*, LICS '18: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, (2018) &lbrack;[arXiv;1805.02069](https://arxiv.org/abs/1805.02069), [doi:10.1145/3209108.3209183](https://doi.org/10.1145/3209108.3209183)&rbrack;
