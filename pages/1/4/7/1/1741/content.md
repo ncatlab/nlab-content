@@ -91,14 +91,29 @@ the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the
 
 **Example.** Given internal functors $a : A\to D$ and $b : B\to D$ in $E$, the obvious span $A\leftarrow a\downarrow b\rightarrow B$ is a discrete fibration from $A$ to $B$. 
 
+## Related concepts
+
+* [[fibration fibered in groupoids]]
+
+* [[Grothendieck fibration]], [[Grothendieck construction]]
+
+
+## References
+
+Review:
+
+* [[Angelo Vistoli]], §3.4 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+
+
+See also:
+
+* [[Emily Riehl]] and [[Fosco Loregian]], _Categorical notions of fibration_, Expositiones Mathematicae **38** 4 (2020) 496-514 &lbrack;[arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004)&rbrack;
+
+
+
 
 [[!redirects discrete fibration]]
 [[!redirects discrete fibrations]]
 [[!redirects discrete opfibration]]
 [[!redirects discrete opfibrations]]
-
-
-## References
-
-* [[Emily Riehl]] and [[Fosco Loregian]], _Categorical notions of fibration_, Expositiones Mathematicae **38** 4 (2020) 496-514 &lbrack;[arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004)&rbrack;
 
