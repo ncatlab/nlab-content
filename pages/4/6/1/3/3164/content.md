@@ -107,16 +107,20 @@ and with an eye towards [[anabelian geometry]]:
 
 * {#MK09} [[Minhyong Kim]], _Galois Theory and Diophantine geometry_, 2009 ([pdf](http://people.maths.ox.ac.uk/kimm/papers/cambridgews.pdf))
 
-Further resources include
+Further resources:
 
-* Wikipedia: [glossary of arithmetic and Diophantine geometry](http://en.wikipedia.org/wiki/Glossary_of_arithmetic_and_Diophantine_geometry), [Arakelov geometry](http://en.wikipedia.org/wiki/Arakelov_theory)
+* Wikipedia: *[Glossary of arithmetic and Diophantine geometry](http://en.wikipedia.org/wiki/Glossary_of_arithmetic_and_Diophantine_geometry),
 
-
+* Wikipedi, *[Arakelov geometry](http://en.wikipedia.org/wiki/Arakelov_theory)*
 * _Arakelov geometry preprint arxiv_, list of [links](http://people.math.jussieu.fr/~vmaillot/Arakelov)
 
-
-* conferences in arithmetic geometry, at Kiran Kedlaya's [wiki](http://scripts.mit.edu/~kedlaya/wiki/index.php?title=Conferences_in_Arithmetic_Geometry)
+* conferences in arithmetic geometry, at [[Kiran Kedlaya]]'s [wiki](http://scripts.mit.edu/~kedlaya/wiki/index.php?title=Conferences_in_Arithmetic_Geometry)
  
+Some relation to [[modular tensor categories]]:
+
+* {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
+
+
 
 [[!redirects arithmetic geometries]]
 
