@@ -143,43 +143,6 @@ so $\coev_{V}$ is well defined as desired. We now show that the rigidity diagram
 \end{proof}
 
 
-### Endofunctor categories
- {#EndofunctorCategories}
-
-Another key example is that of [[endofunctor categories]]. Given any [[category]] $\mathscr{C}$, the [[hom-set]] of [[functors]] $\text{Fun}(\mathscr{C},\mathscr{C})$ is canonically a [[monoidal category]], with [[tensor product]] given by [[composition]] of [[functors]] and [[horizontal composition]] of [[natural transformations]] (*[[whiskering]]*).
-
-Here, [[dual objects]] correspond to [[adjoint functors]] as is made precise as follows:
-
-\begin{proposition} Let $\mathscr{C}$ be a [[category]], and let $F\in \text{Fun}(\mathscr{C},\mathscr{C})$ be an [[endofunctor]]. Let $F^*$ be the [[right adjoint]] of $F$. $F^*$ is a right [[dual object]] for $F$, under the [[natural transformations]]
-
-$$\text{ev}_{F}:F\otimes F^*\to \text{id}_{\mathscr{C}}$$
-
-$$F(F^*(A))\xrightarrow{\text{id}_{F^*(A)}} A,\,\, A\in \mathscr{C}$$
-
-where we here make the implicit identification
-
-$$\text{Hom}_{\mathscr{C}}(F(F^*(A)),A)\cong\text{Hom}_{\mathscr{C}}(F^*(A),F^*(A))$$
-
-using adjointness, and
-
-$$\text{coev}_{F}:\text{id}_{\mathscr{C}}\to F\otimes F^*$$
-
-$$A\xrightarrow{\text{id}_{F(A)}} F^*(F(A)),\,\, A\in \mathscr{C}$$
-
-where we here make the implicit identification
-
-$$\text{Hom}_{\mathscr{C}}(A,F^*(F(A)))\cong\text{Hom}_{\mathscr{C}}(F(A),F(A))$$
-
-using again adjointness. 
-
-Conversely, for $F^*$ a right dual of an [[endofunctor]] $F$ then $F^*$ is a [[right adjoint]] for $F$.
-\end{proposition}
-\begin{proof} Verifying the details is straightforward.
-\end{proof}
-
-
-
-
 ## Properties
 
 ### Tannaka duality 
