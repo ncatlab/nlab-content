@@ -167,11 +167,25 @@ Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weak
 
 ## References 
 
-* [[Jean Bénabou]], _Introduction to bicategories_, Springer LNM 47 (1967), 1-77. 
-{#Ben} 
+The notion of pseudo-functors from a [[1-category]] to the [[2-category]] [[Cat]] originates with:
 
-* [[Stephen Lack]], _Codescent objects and coherence_, JPAA Vol. 175 (2002), 223-241. ([web](http://www.sciencedirect.com/science/journal/00224049/175/1))
-{#Lack} 
+* [[Alexander Grothendieck]], §A.1 in: *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire [[N. Bourbaki]] exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
+
+(where it is still called "[[fibered categories]]", a term that eventually came to refer to the [equivalent incarnation](Grothendieck+construction#EquivalenceBetweenFiberedCategoriesAndPsuedofunctors) of pseudofunctors as their [[Grothendieck constructions]]).
+
+Review:
+
+* [[Angelo Vistoli]], Def. 3.10 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+
+
+The general notion of pseudo-functors as [[2-functors]] between [[2-categories]]
+
+* {#Ben} [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
+
+See also:
+
+* {#Lack} [[Stephen Lack]], _Codescent objects and coherence_, JPAA Vol. 175 (2002), 223-241. ([web](http://www.sciencedirect.com/science/journal/00224049/175/1))
+ 
 
 * [[Stephen Lack]] and [[Simona Paoli]], 2-nerves for bicategories, $K$-Theory 38 (2008), 153-175.   ([arxiv](https://arxiv.org/abs/math/0607271)).
 {#LP}
