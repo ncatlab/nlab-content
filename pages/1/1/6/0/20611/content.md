@@ -29,29 +29,32 @@ The following list is meant to be roughly in decreasing order of the number of a
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
-|[Fundamenta Mathematicae](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae)|IMPAN|[[Stefan Jackowski]], [[William Dwyer]], [[Jean Lannes]]|subscription|general|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self|all|open|categories|
 |[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|categories|
 |[Advances in Mathematics](https://www.journals.elsevier.com/advances-in-mathematics/)|Elsevier|[[Andrew Blumberg|Blumberg]]; [[Henning Krause|Krause]]; [[Ross Street|Street]]|subscription|general|
-|[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|[[synthetic differential geometry]]
 |[Journal of Algebra](https://www.journals.elsevier.com/journal-of-algebra)|Elsevier|[[Volodymyr Mazorchuk|Mazorchuk]]|subscription|algebra|
 |[Journal of Homotopy and Related Structures](https://www.springer.com/mathematics/geometry/journal/40062)|[TCMS](http://tcms.org.ge/) via Springer|[[Ronnie Brown|Brown]]; [[Tim Porter|Porter]]; [[Ross Street|Street]]; [[Simon Willerton|Willerton]]|subscription|homotopy|
 |[Homology, Homotopy, and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/)|International Press|[[Ronnie Brown|Brown]]; [[George Janelidze|Janelidze]]; [[Emily Riehl|Riehl]]; [[Brooke Shipley|Shipley]]|subscription|homotopy|
 |[Algebraic & Geometric Topology](https://msp.org/agt/)|MSP|[[Julie Bergner|Bergner]]|subscription|homotopy, algebraic topology, geometric topology|
 |[Topology and its Applications](https://www.journals.elsevier.com/topology-and-its-applications)|Elsevier|[[Bill Dwyer|Dwyer]]|subscription|general topology, homotopy|
+|[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|[[synthetic differential geometry]]
 |[Journal of Topology](https://londmathsoc.onlinelibrary.wiley.com/journal/17538424)|LMS via Wiley|[[Andrew Blumberg|Blumberg]]|subscription|topology|
+|[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|general|
+|[Transactions of the American Mathematical Society](https://www.ams.org/tran/)|AMS|[[Craig Westerland|Westerland]]|subscription|general|
+|[International Mathematics Research Notices](https://academic.oup.com/imrn/)|OUP|[[Andrew Blumberg|Blumberg]], [[Lars Hesselholt|Hesselholt]], [[Dmitry Kaledin|Kaledin]]|subscription|general|
+|[Documenta Mathematica](https://www.elibm.org/series-details?q=se:2204)|DMV|[[Henning Krause|Krause]], [[Mike Hill|Hill]], [[Max Karoubi|Karoubi]]|open|general|
 |[Communications in Algebra](https://www.tandfonline.com/toc/lagb20/current)|Taylor and Francis|varies|subscription|algebra|
+|[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|general|
 |[Annals of K-theory](http://www.ktheoryfoundation.org/journal.html)|MSP|[[Paul Balmer|Balmer]]; [[Amnon Neeman|Neeman]]|subscription|K-theory|
 |[Mathematical Structures in Computer Science](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science)|Cambridge UP|[[Martin Hyland|Hyland]]; [[Steve Lack|Lack]]; [[Robert Seely|Seely]]|subscription|TCS|
 |[Theoretical Computer Science](https://www.journals.elsevier.com/theoretical-computer-science)|Elsevier|varies|subscription|TCS|
+|[Fundamenta Mathematicae](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae)|IMPAN|[[Stefan Jackowski]], [[William Dwyer]], [[Jean Lannes]]|subscription|general|
 |[Compositionality](http://www.compositionality-journal.org/)|self|all|open|categories|
 |[Higher Structures](https://higher-structures.math.cas.cz/)|Institute of Mathematics, Czech Academy of Sciences|all|open|homotopy|
 |[Categories and General Algebraic Structures with Applications](http://cgasa.sbu.ac.ir/)|Shahid Beheshti University|many|open|categories|
 |[Logical Methods in Computer Science](https://lmcs.episciences.org/)|self|[[Valeria de Paiva|de Paiva]]; Jagadeesan; Schröder|open|logic and TCS|
-|[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|general|
 |[New York Journal of Mathematics](http://nyjm.albany.edu/)|self|[[Michael Hopkins|Hopkins]]|open|general|
-|[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|general|
 |[Extracta Mathematicae](https://publicaciones.unex.es/index.php/EM)|IMUEX|[[Philippe Gaucher]], [[Antonio M. Cegarra]], [[Tim Porter]]|open|general|
 |[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|general|
 |[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|algebra|
