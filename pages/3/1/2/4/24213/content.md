@@ -61,9 +61,9 @@ A first sketch of a definition was given in by [Voevodsky (2012)](#Voevodsky12),
 
 [[Hugo Herbelin]] worked at the IAS on a formalization in [[Coq]] based on the presentation of $\Delta_i$ with face maps $d_i$. In [Herbelin (2014)](#Herbelin14) he describes the construction in [[Coq]] extended with the principle of [[uniqueness of identity proofs]] (UIP). UIP was used to cut down the need for higher-dimensional [[coherence]], so morally, it meant that types were actually [[h-sets]]. What the construction shows is how to define in all details such alternative presentation of semi-simplicial sets based on iterated dependencies.
 
-To cut the need for higher-dimensional coherences, several extensions of type theory were considered:
+To cut the need for higher-dimensional coherences, several extensions of homotopy type theory were considered:
 
-* [[Vladimir Voevodsky]] proposed *[[Homotopy Type System]]* (HTS), an [[extensional type theory]] with non-[[fibrant types]] and correspondingly two notions of equality;
+* [[Vladimir Voevodsky]] proposed *[[Homotopy Type System]]* (HTS), a homotopy type theory extended with non-[[fibrant types]] and with an extra equality which is extensional in the sense of [[extensional type theory]];
 
 * [Part & Luo (2015)](#PartLuo15) proposed a "Logic-enriched Homotopy Type Theory", in particular, they formalized a construction of semi-simplicial types in this logic using the Plastic proof assistant;
 
@@ -116,9 +116,9 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 
 * {#Herbelin14} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types*, Mathematical Structures in Computer Science, Vol 25 (special issue 05), 2015 &lbrack;[pdf](http://pauillac.inria.fr/~herbelin/articles/mscs-Her14-semisimplicial.pdf)&rbrack; &lbrack;Coq [code](http://pauillac.inria.fr/~herbelin/articles/semisimplicial.v)&rbrack;
 
-* {#PartLuo15} [[Fedor Part]], [[Zhaohui Luo]]:  *Semi-simplicial Types in Logic-enriched Homotopy Type Theory* &lbrack;[arXiv:1506.04998](http://arxiv.org/abs/1506.04998)&rbrack; (Submitted on 16 Jun 2015) 
+* {#PartLuo15} [[Fedor Part]], [[Zhaohui Luo]]:  *Semi-simplicial Types in Logic-enriched Homotopy Type Theory* &lbrack;[arXiv:1506.04998](http://arxiv.org/abs/1506.04998)&rbrack; (Submitted on 16 Jun 2015) &lbrack;Plastic [code](https://github.com/part-xx/hott-plastic/tree/master/lib/Univalence/SimplicialTypes)&rbrack;
 
-* {#AltenkirchCapriottiKraus16} [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Nicolai Kraus]]: *Extending Homotopy Type Theory with Strict Equality* &lbrack;[arXiv:1604.03799](https://arxiv.org/abs/1604.03799)&rbrack; (Submitted on Apr 2016)
+* {#AltenkirchCapriottiKraus16} [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Nicolai Kraus]]: *Extending Homotopy Type Theory with Strict Equality* &lbrack;[arXiv:1604.03799](https://arxiv.org/abs/1604.03799)&rbrack; (Submitted on Apr 2016) &lbrack;Agda [code](https://github.com/nicolaikraus/HoTT-Agda/blob/master/nicolai/SemiSimp/SStypes.agda) simulating semi-simplicial types in HoTT with strict equality&rbrack;
 
 * [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; (Submitted on May 2017)
 
