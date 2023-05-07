@@ -1,8 +1,8 @@
-This page is intended to list references to manuscripts in category theory (e.g. papers or books) that are cited but never appeared. The hope is that some manuscripts may be recovered (in which case they will be uploaded here for posterity).
+This page is intended to list references to manuscripts in category theory (e.g. papers or books) that are cited but never became widely available. The hope is that some manuscripts may be recovered (in which case they will be uploaded here for posterity).
 
 **If you have a copy of one of the manuscripts here that is not yet uploaded, please [upload it](https://ncatlab.org/nlab/show/HowTo#HowToUploadFiles).**
 
-Do not include recent references that are likely still to appear. If the author is no longer alive, or the reference is not recent (e.g. 20 years or further), it is reasonable to include in this list. Prefer also to avoid self-references, in which authors cite their own forthcoming work that never appears, since it is likely no manuscript ever existed in this case.
+Do not include recent references that are likely still to appear. If the author is no longer alive, or the reference is not recent (e.g. 20 years or further), it is reasonable to include in this list. Prefer also to avoid self-references, in which authors cite their own forthcoming work that never appears, since it is likely no manuscript ever existed in this case: see [[list of category theory papers that never appeared]].
 
 |Title|Author|Cited in|Contents|URL/Comments|
 |-----|------|--------|--------|---|
@@ -15,6 +15,5 @@ Do not include recent references that are likely still to appear. If the author 
 
 ## Related pages
 
+* [[list of category theory papers that never appeared]]
 * [[list of theses in category theory]]
-
-[[!redirects to appear]]
