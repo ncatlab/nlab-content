@@ -108,6 +108,8 @@ Note also that it is standard to be able to replace, using mapping cylinders, a 
 
 ## Related concepts
 
+* [[stratified space]]
+
 [[!include filtered objects -- contents]]
 
 
