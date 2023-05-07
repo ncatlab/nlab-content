@@ -77,5 +77,10 @@ See also:
 
 * Wikipedia en:[number theory](http://en.wikipedia.org/wiki/Number_theory), fr:l'[arithm&#233;tique modulaire](http://fr.wikipedia.org/wiki/Arithm%C3%A9tique_modulaire) 
 
+Some relation to [[modular tensor categories]]:
+
+* {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
+
+
 
 [[!redirects number theory]]
