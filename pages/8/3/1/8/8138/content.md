@@ -12,7 +12,7 @@
 
 
 
-## Examples
+**Examples**
 
 * between [[higher geometry]]/[[higher algebra]]
 
@@ -40,7 +40,7 @@
 
 
 
-## In QFT and String theory
+**In QFT and String theory**
 
 **[[duality in physics]]**, **[[duality in string theory]]**
 
@@ -63,4 +63,3 @@
   * [[KLT relations]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/duality+-+contents)</div>
