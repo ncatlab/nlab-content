@@ -29,6 +29,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
+|[Fundamenta Mathematicae](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae)|IMPAN|[[Stefan Jackowski]], [[William Dwyer]], [[Jean Lannes]]|subscription|general|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self|all|open|categories|
 |[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], [[Giuseppe Rosolini|Rosolini]]|subscription|algebra|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|categories|
