@@ -98,7 +98,7 @@ is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrac
 \]
 where the horizontal maps are the given hom-isomorphisms (see [there](adjoint+functor#eq:HomIsomorphismForAdjointFunctors)).
 
-Such pairs of conjugate transformation [[composition|compose]] in the evident way to yields a [[category]]
+Such pairs of conjugate transformation [[composition|compose]] via composition of their component [[natural transformations]] (cf. *[[functor category]]*) to yields a [[category]]
 \[
   \label{CatAdjCD}
   Cat_{adj}(\mathcal{C},\mathcal{D})
@@ -107,7 +107,9 @@ whose
 
 * [[objects]] are the [[left adjoint functors]] $\mathcal{C} \to \mathcal{D}$
 
-* [[morphisms]] are the conjugate transformations between these.
+* [[morphisms]] are the conjugate transformations between these
+
+* [[composition]] is the composition of component [[natural transformations]].
 
 \end{definition}
 
