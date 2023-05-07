@@ -924,6 +924,11 @@ The [[Grothendieck construction]] on this functor may be called the *[[tangent c
 
 ## References
 
+The Grothendieck construction originates in
+
+* [[Alexander Grothendieck]], §VI.8 of: _Revêtements Étales et Groupe Fondamental - Séminaire de Géometrie Algébrique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
+
+
 Textbook accounts:
 
 * [[Francis Borceux]], Section 8.3 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures* Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
