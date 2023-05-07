@@ -120,6 +120,10 @@ and with focus on relation to [[braid representations]]:
 
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
 
+On [[number theory|number theoretic]] aspects of modular tensor categories:
+
+* {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
+
 Construction of modular tensor categories from [[vertex operator algebras]]:
 
 * {#Huang05} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
