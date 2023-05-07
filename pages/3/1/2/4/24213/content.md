@@ -13,7 +13,7 @@ Classically, a _[[semi-simplicial object]]_ in some [[category]] is much like a 
 
 Can we define these internally to [[type theory]], that is as a [[functor]] from $\Delta_i$ to [[types]] in [[homotopy type theory]], in some way?
 
-The initial idea, proposed at IAS, was to represent semi-simplicial types not as a contravariant functor but, iterating the [[categorical semantics of dependent types|correspondence between fibrations and families]], as a family of families, what could be called an "indexed", or iterated-dependent, presentation of semi-simplicial types.
+The initial idea, proposed at IAS, was to represent semi-simplicial types not as a contravariant functor but, iterating the [[categorical semantics of dependent types|correspondence between fibrations and families]], as a family of families, what could be called an "indexed" presentation of semi-simplicial types based on "iterated dependencies".
 
 
 ## Semi-simplicial types as families of families of $n$-semi-simplices
@@ -33,29 +33,29 @@ A 2-semi-simplicial type:
 A 3-semi-simplicial type:
 
   $(X_0,X_1,X_2)$ as before; and  
-  $X_3:\,forall (\text{tetrahedral configurations from} X_0 \ldots X_2), Type$
+  $X_3:\,forall \,(\text{tetrahedral configurations from} \,X_0 \ldots X_2), Type$
 
 And so on.
 
 Each of these can be tupled up as a single type.
 
-* Can we define a function "$\text{Semi-simplicial}\,:\,nat \rightarrow Type$", such that for $n = 0,1,2,3$, $\text{Semi-simplicial}~n$ is (equivalent to) the objects explicitly defined here?
+* Can we define a function "$\text{Semi-simplicial}\,:\,nat \rightarrow Type$", such that for $n = 0,1,2,3$, $\text{Semi-simplicial}\,n$ is (equivalent to) the objects explicitly defined here?
 
 * Can we define a type of semi-simplicial types (i.e. infinity-semi-simplicial types) with $n$-simplices for all $n$?
 
 A first sketch of a definition was given in by [Voevodsky (2012)](#Voevodsky12), suggesting that defining such families requires to define restrictions, then to prove that restrictions of restrictions commute, but then also to prove higher-dimensional coherence conditions on restrictions.
 
-[[Hugo Herbelin]] worked on a formalization in [[Coq]] based on the presentation of $\Delta_i$ with face maps $d_i$. In [Heberlin (2013)](#Heberlin13) he describes the construction in [[Coq]] extended with the principle of [[uniqueness of identity proofs]] (UIP). UIP was used to cut down the need for higher-dimensional [[coherence]], so morally, it meant that types were actually [[h-sets]]. The outcome of the formalization was however to precisely describe how to define an alternative "indexed", or "dependently-typed", presentation of semi-simplicial sets.
+[[Hugo Herbelin]] worked at the IAS on a formalization in [[Coq]] based on the presentation of $\Delta_i$ with face maps $d_i$. In [Herbelin (2014)](#Herbelin14) he describes the construction in [[Coq]] extended with the principle of [[uniqueness of identity proofs]] (UIP). UIP was used to cut down the need for higher-dimensional [[coherence]], so morally, it meant that types were actually [[h-sets]]. What the construction shows is how to define in all details such alternative presentation of semi-simplicial sets based on iterated dependencies.
 
 To cut the need for higher-dimensional coherences, several extensions of type theory were considered:
 
-* Vladimir Voevodsky proposed Homotopy Type Theory (HTT), an extensional type theory with non-fibrant types and two equalities;
+* [[Vladimir Voevodsky]] proposed Homotopy Type Theory (HTT), an extensional type theory with non-fibrant types and two equalities;
 
-* Fedor Part and Zhaohui Luo proposed a "Logic-enriched Homotopy Type Theory", in particular, they formalized a construction of semi-simplicial types in this logic using the Plastic proof assistant;
+* [[Fedor Part]] and [[Zhaohui Luo]] proposed a "Logic-enriched Homotopy Type Theory", in particular, they formalized a construction of semi-simplicial types in this logic using the Plastic proof assistant;
 
-* Thorsten Altenkirch, Paolo Capriotti and Nicolai Kraus proposed a two-level type theory generalizing HTT, leading to 2LTT by Dannil Annenkov, Paolo Capriotti, Nicolai Kraus and Christian Sattler, providing another construction of semi-simplicial types in an extended type theory;
+* [[Thorsten Altenkirch]], [[Paolo Capriotti]] and [[Nicolai Kraus]] proposed a two-level type theory generalizing HTT, leading to 2LTT by [[Dannil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]] and [[Christian Sattler]], providing another construction of semi-simplicial types in an extended type theory;
 
-* According to Nicolai Kraus 2018, semi-simplicial types can also be constructed in Angiuli-Harper-Wilson's computational higher-dimensional type theory. 
+* According to [[Nicolai Kraus]] 2018, semi-simplicial types can also be constructed in Angiuli-Harper-Wilson's computational higher-dimensional type theory. 
 
 ## Other approaches
 
@@ -65,20 +65,20 @@ An alternative idea is something like "in the simplicial model, or more generall
 
 Why not imitate the classical definition, using internal functors from the internally-defined category $\Delta{}_i$? Giving a reasonable definition of $\Delta{}_i$ is not too hard: the objects [n] are very well-behaved. But defining functors out of it is problematic, because there are coherence issues. One would have to specify the functoriality laws using equations, i.e. inhabitants of equality types, which homotopically we treat as paths. But specified paths in homotopy theory have to be coherent to define a useful notion of functor; thus we need equations between our equations (associativity pentagons, etc), then higher equations between those, and so on forever. Thus we end up with the same problem we had before of specifying infinitely much data using a finite description in type theory.
 
-If one restricts the types involved to h-sets, then this problem go away; but then one has again only defined semi-simplicial h-sets, which are (presumably) strictly less general.
+If one restricts the types involved to [[h-sets]], then this problem go away; but then one has again only defined semi-simplicial [[h-sets]], which are (presumably) strictly less general.
 
-Another approach is to extend type theory with streams typed by streams of types as in a HoTTEST talk by Kolomatskaia.
+Another approach is to extend type theory with streams typed by streams of types as in a HoTTEST talk by Astra Kolomatskaia.
 
 ## Why semi-simplicial, not simplicial?
 
 With semi-simplicial sets, the “iterated dependency” approach gives us at least a candidate approach for tackling coherence issues. With simplicial sets, it’s hard to see how one might tackle or avoid them. (Comparing it to the semi-simplicial approach, one requires degeneracy maps and equations between them, which lets loose the spectre of coherence again.) Furthermore, reasoning about Kan simplicial sets seems to insist on classical logic. For example, the classical result stating the homotopy equivalence of fibers of a Kan fibration cannot be proved constructively ([pdf](https://ncatlab.org/ufias2012/files/countermodel.pdf)).
 
-In homotopy-theoretic terms, this is because $\Delta{}_i$ is a [[direct category]], while $\Delta$ is not. 
+In homotopy-theoretic terms, this is because $\Delta{}_i$ is a [[direct category]], while the [[simplex category]] $\Delta$ is not. 
 
 
 ## About the original page on the wiki of the Univalent Foundations year
 
-The original page about semi-simplicial types on the wiki of the Univalent Foundations year contained also material related to semi-simplicial set in general though not to semi-simplicial types properly speaking. It is kept here for historical reasons.
+The original page about semi-simplicial types on the wiki of the Univalent Foundations year contained also material related to semi-simplicial sets in general though not to semi-simplicial types properly speaking. It is kept here for historical reasons.
 
 **Update 4/12**: [A note on semisimplicial sets](https://ncatlab.org/ufias2012/files/semisimplicialsets.pdf) by Benno van den Berg.
 
@@ -98,18 +98,18 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 
 ## References
 
-* {#Voevodsky12} [[Vladimir Voevodsky]], sketch of a definition &lbrack;[semisimplicial.v](https://ncatlab.org/ufias2012/files/semisimplicial.v)&rbrack;
+* {#Voevodsky12} [[Vladimir Voevodsky]], sketch of a definition &lbrack;Coq [code](https://ncatlab.org/ufias2012/files/semisimplicial.v)&rbrack;
 
-* {#Heberlin13} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types* (3/20/2013) &lbrack;[pdf](https://ncatlab.org/ufias2012/files/semi-simplicial.pdf)&rbrack;
+* {#Herbelin14} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types*, Mathematical Structures in Computer Science, Vol 25 (special issue 05), 2015 &lbrack;[pdf](http://pauillac.inria.fr/~herbelin/articles/mscs-Her14-semisimplicial.pdf)&rbrack; &lbrack;Coq [code](http://pauillac.inria.fr/~herbelin/articles/semisimplicial.v)&rbrack;
 
-* [[Fedor Part]], [[Zhaohui Luo]]:  *[Semi-simplicial Types in Logic-enriched Homotopy Type Theory](http://arxiv.org/abs/1506.04998)* (Submitted on 16 Jun 2015) 
+* [[Fedor Part]], [[Zhaohui Luo]]:  *Semi-simplicial Types in Logic-enriched Homotopy Type Theory* &lbrack;[arXiv:1506.04998](http://arxiv.org/abs/1506.04998) (Submitted on 16 Jun 2015) 
 
-* [[Thorsten Altenkirch]], [[Paolo Capriotti]], and [[Nicolai Kraus]]: *[Extending Homotopy Type Theory with Strict Equality](https://arxiv.org/abs/1604.03799)* (Submitted on Apr 2016)
+* [[Thorsten Altenkirch]], [[Paolo Capriotti]], and [[Nicolai Kraus]]: *Extending Homotopy Type Theory with Strict Equality* &lbrack;[arXiv:1604.03799](https://arxiv.org/abs/1604.03799)&rbrack; (Submitted on Apr 2016)
 
-* [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *[Two-Level Type Theory and Applications](https://arxiv.org/abs/1705.03307)* (Submitted on May 2017)
+* [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; (Submitted on May 2017)
 
-* [[Nicolai Kraus]], [[Christian Sattler]]: *[Space-valued diagrams, type-theoretically (extended abstract)](https://arxiv.org/abs/1704.04543)* (Submitted on Apr 2017)
+* [[Nicolai Kraus]], [[Christian Sattler]]: *Space-valued diagrams, type-theoretically (extended abstract)* &lbrack;[arXiv:1704.04543](https://arxiv.org/abs/1704.04543)&rbrack; (Submitted on Apr 2017)
 
-* [[Nicolai Kraus]]: *[On the Role of Semisimplicial Types 2018](https://www.cs.nott.ac.uk/~psznk/docs/on_semisimplicial_types.pdf)*
+* [[Nicolai Kraus]]: *On the Role of Semisimplicial Types*, 2018 &lbrack;[pdf](https://www.cs.nott.ac.uk/~psznk/docs/on_semisimplicial_types.pdf)&rbrack;
 
 
