@@ -4,7 +4,7 @@
 
 * [[string diagram]], [[tensor network]]
 
-## With braiding
+**With braiding**
 
 * [[braided monoidal category]]
 
@@ -14,7 +14,7 @@
 
 * [[symmetric monoidal category]]
 
-## With duals for objects
+**With duals for objects**
 
 * [[category with duals]] (list of them)
 
@@ -30,7 +30,7 @@
 
 * [[compact closed category]]
 
-## With duals for morphisms
+**With duals for morphisms**
 
 * [[monoidal dagger-category]]
 
@@ -38,13 +38,13 @@
 
 * [[dagger compact category]]
 
-## With traces
+**With traces**
 
 * [[trace]]
 
 * [[traced monoidal category]]
 
-## Closed structure
+**Closed structure**
 
 * [[closed monoidal category]]
 
@@ -54,7 +54,7 @@
 
 * [[star-autonomous category]]
 
-## Special sorts of products
+**Special sorts of products**
 
 * [[cartesian monoidal category]]
 
@@ -64,7 +64,7 @@
 
 * [[multicategory]]
 
-## Semisimplicity
+**Semisimplicity**
 
 * [[semisimple category]]
 
@@ -72,7 +72,7 @@
 
 * [[modular tensor category]]
 
-## Morphisms
+**Morphisms**
 
 * [[monoidal functor]] 
 
@@ -82,7 +82,7 @@
 
 * [[symmetric monoidal functor]]
 
-## Internal monoids
+**Internal monoids**
 
 * [[monoid in a monoidal category]]
 
@@ -90,7 +90,7 @@
 
 * [[module over a monoid]]
 
-## Examples {#_examples}
+**{#_examples}Examples**
 
 * [[tensor product]]
 
@@ -98,13 +98,13 @@
 
 * [[Day convolution]]
 
-## Theorems
+**Theorems**
 
 * [[coherence theorem for monoidal categories]]
 
 * [[monoidal Dold-Kan correspondence]]
 
-## In higher category theory
+**In higher category theory**
 
 * [[monoidal 2-category]]
 
