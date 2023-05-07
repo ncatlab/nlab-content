@@ -37,7 +37,7 @@ $$P(\star_X)\to \sum_{x:X}P(x) \to X$$
 ## Relation to families of elements. 
  {#RelationToFamiliesOfElements}
 
-One may understand $A$-dependent types $a \colon A \;\vdash\; B(a)$ equivalently as [[function types|functions]] $B \to A$ with [[codomain]] $A$, i.e. as "type-[[bundles]]" (in the general, *not* locally trivial sense) or "type-[[fibrations]]" (in a rather accurate sense):
+One may understand $A$-dependent types $a \colon A \;\vdash\; B(a)$ equivalently as [[function types|functions]] $B \to A$ with [[codomain]] $A$, i.e. as "type-[[bundles]]" (in the general, *not* in locally trivial sense of [[fiber bundles]], though) or "type-[[fibrations]]" (in a rather accurate sense):
 
 The [[domain]] $B$ --- i.e. the "total space" of these bundles --- is identified with the [[dependent sum]] of the "[[fibers]]" $B(a)$, and conversely these fibers are indeed recovered from any such bundle as the [[fiber types]].
 
