@@ -103,7 +103,7 @@ give $\mathscr{C}$ the structure of a pivotal category. This map induces a canon
 \begin{proof} An exposition can be found in this article of [Yetter](#Yetter1992).
 \end{proof}
 
-This result is explained morally as follows:
+A braided rigid monoidal category with a twist is called [[balanced monoidal category| balanced]] (not to be confused with the other unrelated notion of [[balanced category| balanced]]). This result can be read as saying that a braided rigid monoidal category is balanced if and only if it is pivotal. Morally, we have the following explanation:
 
 >"The lemma is remarkable because the concept of a braided autonomous category does not include any assumption relating the braided structure to the autonomous structure. Moreover, the axioms for a twist depend only on the braided structure, whereas the axioms for a pivotal structure depend only on the autonomous structure. Yet, they are equivalent if $\mathscr{C}$ is braided autonomous" - Peter Selinger
 
