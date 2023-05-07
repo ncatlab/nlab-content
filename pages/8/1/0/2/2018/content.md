@@ -144,6 +144,10 @@ A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the 
 
 ## References
 
+Introduced by [[Emmy Noether]] in
+
+* [[Emmy Noether]], _Idealtheorie in Ringbereichen_, Mathematische Annalen 83:1 (1921), 24–66.  [doi:10.1007/bf01464225](https://doi.org/10.1007/bf01464225).
+
 * [wikipedia](http://en.wikipedia.org/wiki/Noetherian_ring), _[[noetherian object]]_
 
 
