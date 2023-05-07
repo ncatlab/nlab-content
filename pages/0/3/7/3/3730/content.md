@@ -95,13 +95,13 @@ is fully faithful and induces an equivalence of categories of perfect objects on
 
 Generalization to [[flat infinity-connections]] via the [[dg-nerve]] and [[iterated integrals]] is discussed in 
 
-* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_, [arXiv:0908.2843](http://arxiv.org/abs/0908.2843)
+* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_, Adv. Math. 252 (2014) 382--405 [arXiv:0908.2843](https://arxiv.org/abs/0908.2843) [doi](https://doi.org/10.1016/j.aim.2013.11.001)
 
 The relation to the [[geometric Langlands correspondence]] is discussed in
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
-Generalization to [[p-adic geometry]] is discussed in
+An analogue in [[p-adic geometry]] is discussed in
 
 * [[Jacob Lurie]], _A Riemann--Hilbert Correspondence in p-adic Geometry_, [Felix Klein Lectures 2022](https://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/fkl-2022-lurie/).
 
