@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -103,11 +102,49 @@ using adjointness. Conversely, if $F^*$ is a right dual for an endofunctor $F$ t
 \begin{proof} Verifying the details is straightforward.
 \end{proof}
 
+## Graphical language
+
+Rigid categories are best expressed using the language of [[string diagrams]]. That is, we can write the rigidity axioms as
+
+\begin{imagefromfile}
+"file_name": "string-naive.png",
+"width": 300,
+"unit": "px"
+\end{imagefromfile}
+
+Even better, we often fix graphical notation for $\text{ev}$ and $\text{coev}$ which makes these axioms even simpler to write out:
+
+\begin{imagefromfile}
+"file_name": "string-notation-rigidity.png",
+"width": 300,
+"unit": "px"
+\end{imagefromfile}
+
+We can now express rigidity as follows:
+
+\begin{imagefromfile}
+"file_name": "string-better.png",
+"width": 300,
+"unit": "px"
+\end{imagefromfile}
+
+Rigidity is thus graphically the statement that string diagrams can be "straightened out". This approach is taken, for example, in [Selinger](#Selinger2011).
+
+
 ## Remarks
 
 Note that this definition only asserts the existence of the dual objects. It does _not_ assert that specific duals have been chosen. However, the choice of duals is unique up to unique isomorphism, justifying reference to '[[the]]' dual of an object; in fact, this extends to a [[contravariant functor|contravariant]] [[anafunctor]] ${}^*\colon M \to M$.  (Using the [[axiom of choice]] to pick duals for every object at once, we can make this into a [[strict functor]].) This functor is defined explicitly by the formula
 
 $$f^*:A^*\xrightarrow{\text{coev}_B\otimes \text{id}_{A^*}} B^*\otimes B\otimes A^*\xrightarrow{\text{id}_{B^*}\otimes f\otimes \id_{A^*}} B^*\otimes A\otimes A^* \xrightarrow{\text{id}_{B^*}\otimes \text{ev}_A} B^*$$
+
+This formula is clearer when written graphically:
+
+\begin{imagefromfile}
+"file_name": "duals-graphical.png",
+"width": 150,
+"unit": "px"
+\end{imagefromfile}
+
 
 Additionally, this definition does not assert that the right dual of an object is isomorphic to its left dual: this need not be the case in general, though it is true in a [[braided monoidal category]], and thus automatically also in a [[symmetric monoidal category]] (this last fact can be considered an algebraic form of the "Whitney trick" for knots; see this [MO discussion](http://mathoverflow.net/questions/162677/why-is-a-braided-left-autonomous-category-also-right-autonomous/162693#162693)). Left duals and right duals are also isomorphic in a [[semisimple category]]. Note that a rigid monoidal category which is also symmetric is sometimes called [[compact closed category|compact closed]], or simply "compact".
 
@@ -138,6 +175,8 @@ See Theorems 1 and 2 in [Delpeuch](#Delpeuch).
 * N. Saavedra Rivano, "Cat&#233;gories Tannakiennes." _Bulletin de la Soci&#233;t&#233; Math&#233;matique de France_ 100 (1972): 417-430. [EuDML](https://eudml.org/doc/87193)
 
 * {#Delpeuch} [[Antonin Delpeuch]], _Autonomization of monoidal categories_, [arXiv](https://arxiv.org/abs/1411.3827), [doi](https://dx.doi.org/10.4204/EPTCS.323.3).
+
+* {#Selinger2011} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, New structures for physics, [arXiv](https://arxiv.org/abs/0908.3347)
 
 ## Related concepts
 
