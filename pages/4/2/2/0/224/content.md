@@ -92,6 +92,16 @@ Here $2Vect$ denotes some version of the category of 2-vector spaces with the pr
 
 More details on this perspective on graded vector spaces are in [[schreiber:Nonabelian cocycles and their quantum symmetries]].
 
+In general, adding algebraic structure onto $G$ will add categorical structure onto $\text{Vect}^G$. A table keeping track of these structures is below:
+
+
+|  Structure on $G$   | Structure on $\text{Vect}^G$ |
+|:--------------------|:-----------------------------|
+|         Set         |           Category           |
+|        Monoid       |      Monoidal category       |
+|     Finite group    |        Fusion category       |
+| Finite abelian group|     Braided fusion category  |
+
 ## Special case of $\mathbb{Z}$-graded vector spaces
  {#SpecialCaseOfZGradedVectorSpaces}
 
@@ -209,6 +219,7 @@ In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W
 This tensor product makes the category of graded vector spaces into a [[monoidal category]]. This becomes a [[symmetric monoidal category]] with [[braiding]] the evident braiding inherited from the underlying vector spaces.
 
 Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces may be equiped with a non-trivial braiding. For instance on the monoidal category of $\mathbb{Z}/2$-graded vector spaces there is one non-trivial symmetric braiding, up to equivalence. Imposing this yields [[super vector spaces]].
+
 
 ## Related concepts
 
