@@ -22,16 +22,20 @@
 * table of contents 
 {: toc}
 
+
 ## Idea
 
-For $a$ a [[dualizable object]] in a [[symmetric monoidal category]] $C$ (or more generally an [[object]] in a [[traced monoidal category]]), there is a natural notion of the _trace_ of an [[endomorphism]] $f:a \to a$, which reproduces the ordinary notion of trace of a [[linear map]] of [[finite number|finite]] [[dimension|dimensional]] [[vector spaces]] in [[linear algebra]] for the case that $C = Vect$.
+Given an [[endomorphism]] $f:A\to A$ in a [[traced monoidal category]] $\mathscr{C}$ there is a natural notation of a _trace_ $\tr(f):1\to 1$, where $1$ is the tensor unit. When $\mathscr{C}$ is a $\mathbb{C}$-linear category for which the tensor unit (e.g. a fusion categories), we can canonically identity $\tr(f)$ with a complex number. That is, the trace of $f$ is the unique scalar $\lambda$ such that
 
+$$\tr(f)=\lambda \cdot \text{id}_A.$$
+
+In the case that $f$ is a [[linear map | linear]] endomorphism of a [[finite number| finite]]] [[dimension | dimensional]] [[vector space]], we recover the usual notion of trace from [[linear algebra]].
 
 ## Definition
 
 
-The idea of the trace operation is easily seen in [[string diagram]] notation: essentially one takes the endomorphism 
-$a \stackrel{f}{\to} a$, "bends it around" using the duality and the symmetry and connects its output to its input.
+The idea of the trace operation is easily seen in [[string diagram]] notation: essentially one takes an endomorphism 
+$f: A\xrightarrow{}A$, and "closes the loop".
 
 $$
  \array{
