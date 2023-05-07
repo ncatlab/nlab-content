@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 #### Geometry
 +-- {: .hide}
 [[!include higher geometry - contents]]
@@ -15,84 +19,118 @@
 
 ## Idea
 
-The term *stratified space* usually refers to a [[topological space]] equipped with the structure of a [[stratification]], which decomposes the space into subspaces called *strata*. Often strata are "nice" in some sense (for instance, one may require strata to be manifolds, while the stratified space itself need not be a manifold), and the way that strata are linked together is controlled by additional conditions. More generally, stratified spaces may refer to any notion of [[space|spaces]] equipped with some type of stratification structure.
+The term *stratified space* usually refers to a [[topological space]] equipped with the structure of a [[stratification]], which decomposes the space into [[topological subspaces]] called *strata*. 
 
-Examples are ubiquitous: they include [[polyhedra]], [[cell complex|cell complexes]], [[algebraic varieties]], [[orbit spaces]] of many [[group]] [[actions]] on manifolds, [[mapping cylinders]] of maps between manifolds, and [[moduli stack of formal groups|moduli stacks of formal groups]] stratified by [[height of a formal group|height of formal groups]].
+Often strata are required to "nice" in some sense (for instance, one may require strata to be [[manifolds]], while the stratified space itself need not be a manifold), and the way that strata are linked together is typically controlled by additional conditions. More generally, the term "stratified space" may refer to any notion of [[spaces]] equipped with some type of stratification structure.
+
+Examples are ubiquitous, canonical stratifications are carried by [[polyhedra]], [[cell complexes]], [[algebraic varieties]], [[orbit spaces]] of many [[group actions]] on [[manifolds]], [[mapping cylinders]] of maps between manifolds, and [[moduli stacks of formal groups]] (stratified by [[height of a formal group|height of formal groups]]).
 
 ## Variants
 
 There are many different definitions of stratifications on spaces:
 
 * stratifications from [[filtered topological space|filtrations]],
+
 * [[poset-stratified space|poset-stratifications]],
-* [[Whitney stratifications]] (see e.g. [Wiki entry](https://en.wikipedia.org/wiki/Whitney_conditions)),
+
+* [[Whitney stratifications]] (cf. the [Wikipedia](https://en.wikipedia.org/wiki/Whitney_conditions)),
+
 * [[Thom-Mather stratifications]] (see e.g. [Wiki entry](https://en.wikipedia.org/wiki/Thom%E2%80%93Mather_stratified_space)),
+
 * [[stratifold|stratifolds]],
+
 * [[orbifold|orbifolds]],
+
 * homotopical stratifications (as developed by [Quinn](#Quinn)),
+
 * conically smooth stratifications (as developed by [Ayala-Francis-Tanaka](#AFT)),
-* ...etc.
+
+* etc. ...
 
 ## Basic features
 
 ### Stratification structures
+ {#StratificationStructures}
 
 Most of the above variants share the same basic structure, captured by the following definitions.
 
-\begin{terminology} Given a decomposition $f$ of a [[topological space]] $X$ into [[connected space|connected]] [[subspace#topological_subspaces|subspaces]] (denoted, in the following, by lower-case letters such as $s$), the *exit path preorder* $\mathsf{Exit}(f)$ of $f$ is the preorder of subspaces $s$ in $f$ with a generating arrow $s \to r$ whenever the closure of $r$ intersects $s$ non-trivially.
+\begin{terminology}\label{ExitPathPreorder}
+**(exit path preorder)** \linebreak
+Given a decomposition $f$ of a [[topological space]] $X$ into [[connected space|connected]] [[subspace#topological_subspaces|subspaces]] (denoted, in the following, by lower-case letters such as $s$), the *exit path preorder* $\mathsf{Exit}(f)$ of $f$ is the [[preorder]] of subspaces $s$ in $f$ with a generating arrow $s \to r$ whenever the [[topological closure]] of $r$ intersects $s$ non-trivially.
 \end{terminology}
 
-\begin{defn} A **stratification** $f$ on $X$ is a decomposition of $X$ such that $\mathsf{Exit}(f)$ is a poset.
+\begin{defn}\label{Stratification}
+A **stratification** $f$ on $X$ is a decomposition of $X$ such that $\mathsf{Exit}(f)$ (Trm. \ref{ExitPathPreorder}) is an actual [[poset]].
 \end{defn}
 
-The subspaces in a stratification are also called *strata*. The opposite poset $\mathsf{Exit}(f)^{\mathrm{op}}$ is also called the *entrance path poset* and denoted by $\mathsf{Entr}(f)$.
+The subspaces in a stratification are also called *strata*. The [[opposite category|opposite]] poset $\mathsf{Exit}(f)^{\mathrm{op}}$ is also called the *entrance path poset* and denoted by $\mathsf{Entr}(f)$.
 
-\begin{rmk} Given a stratification $f$ on $X$, there is a map $X \to \mathrm{Exit}(f)$ mapping points $x \in s$ to $s \in \mathrm{Exit}(f)$, which is sometimes called the **characteristic map** of $f$, and (abusing notation) denoted by $f : X \to \mathrm{Exit}(f)$.
+\begin{rmk}\label{CharacteristicMap}
+**(characteristic map)** \linebreak
+Given a stratification $f$ on $X$, there is a map $X \to \mathrm{Exit}(f)$ mapping points $x \in s$ to $s \in \mathrm{Exit}(f)$, which is sometimes called the **characteristic map** of $f$, and (abusing notation) denoted by $f \colon X \to \mathrm{Exit}(f)$.
 \end{rmk}
 
-The characteristic map need not be continuous in general (unless the stratification is locally finite, see the next remark); it is, however, continuous on the preimage of any finite [[full functor|full]] subposet of the exit path poset. It is often convenient to construct stratifications by constructing their characteristic map.
+The characteristic map (Rmk. \ref{CharacteristicMap}) need not be [[continuous map|continuous]] in general (unless the stratification is locally finite, see Rmk \ref{ContinuityOfCharacteristicMap} below); it is, however, continuous on the [[preimage]] of any finite [[full functor|full]] subposet of the exit path poset. It is often convenient to construct stratifications by constructing their characteristic map.
 
-\begin{example} *(Poset stratifications).* Let $X$ be a space, $P$ a poset, and $f : X \to P$ a continuous map (in other words, $f$ is a $P$-[[poset-stratified space|stratification of $X$]]). This determines a stratification $\mathrm{c}(f)$ of $X$ whose strata are the connected components of the preimages $f^{-1}(x)$, $x \in P$. The map $f$ factors uniquely through the characteristic map $\mathrm{c}(f) : X \to \mathsf{Exit}(\mathrm{c}(f))$ by a [[conservative functor|conservative]] poset map $\mathsf{Exit}(\mathrm{c}(f)) \to P$. (Such (characteristic,conservative)-factorizations are essentially unique.)
+\begin{example}\label{PosetStratification}
+**(Poset stratifications)** \linebreak
+Let $X$ be a [[topological space]], $P$ a [[poset]], and $f \colon X \to P$ a [[continuous map]] (in other words, $f$ is a $P$-[[poset-stratified space|stratification of $X$]]). This determines a stratification $\mathrm{c}(f)$ of $X$ (in the sense of Def. \ref{Stratification} above) whose strata are the [[connected components]] of the [[preimages]] $f^{-1}(x)$, $x \in P$. The map $f$ factors uniquely through the characteristic map $\mathrm{c}(f) \colon X \to \mathsf{Exit}(\mathrm{c}(f))$ by a [[conservative functor|conservative]] poset map $\mathsf{Exit}(\mathrm{c}(f)) \to P$. (Such (characteristic,conservative)-factorizations are essentially unique.)
 \end{example}
 
  The example shows that any poset-stratification determines a unique stratification. However, many poset-stratifications may determine the same stratification in this way.
 
-\begin{example} *(Filtered spaces).* Any filtered space $X_0 \subset X_1 \subset ... \subset X_n$ in which $X_i$ is a closed subspace of $X_{i+1}$ defines a continuous map $X \to [n] = (0 \to 1 \to ... \to n)$ mapping points in $X_{i+1} \setminus X_{i}$ to $i$, and thus a stratification by the previous example. As a concrete instance of this example, the filtration by skeleta of any [[cell complex]] defines the "stratification by cells" in this way.
+\begin{example}\label{FilteredSpaces}
+**(Filtered spaces)** Any [[filtered topological space]] $X_0 \subset X_1 \subset ... \subset X_n$ in which each $X_i$ is a [[closed subspace]] of $X_{i+1}$ defines a [[continuous map]] $X \to [n] = (0 \to 1 \to ... \to n)$ mapping points in $X_{i+1} \setminus X_{i}$ to $i$, and thus a stratification by Exp. \ref{PosetStratification}. As a concrete instance of this example, the filtration by skeleta of any [[cell complex]] defines the "stratification by cells" in this way.
 \end{example}
 
-\begin{example} *(Trivial stratification).* Every topological space $U$ is trivially stratified with strata being the connected components of $U$.
+\begin{example}\label{TrivialStratification}
+**(Trivial stratification)** \linebreak
+Every [[topological space]] $U$ is trivially stratified (in the sense of Def. \ref{Stratification}) with strata being the [[connected components]] of $U$.
 \end{example}
 
-\begin{rmk} *(Continuity of characteristic map).* Let $(X,f)$ be a stratified space. One says that the stratification $f$ is "locally finite" if each stratum $s$ of $f$ has an open neighborhood in $X$ which only contains finitely many strata. (If $(X,f)$ satisfies the frontier condition, see next remark, then, equivalently, $(X,f)$ is locally finite iff each point $x \in X$ has an open neighborhood intersecting only finitely many strata.) If $f$ is locally finite, then the characteristic map $f : X \to \mathsf{Exit}(f)$ is a [[continuous map]].
+\begin{rmk}\label{ContinuityOfCharacteristicMap}
+**(Continuity of characteristic map)** \linebreak
+Let $(X,f)$ be a stratified space according to Def. \ref{Stratification}. One says that the stratification $f$ is "locally finite" if each stratum $s$ of $f$ has an [[open neighborhood]] in $X$ which only contains finitely many strata. (If $(X,f)$ satisfies the frontier condition (Rmk. \ref{FrontierCondition} below) then, equivalently, $(X,f)$ is locally finite iff each point $x \in X$ has an [[open neighborhood]] intersecting only finitely many strata.) If $f$ is locally finite, then the characteristic map $f \colon X \to \mathsf{Exit}(f)$ (Def. \ref{CharacteristicMap}) is a [[continuous map]].
 \end{rmk}
 
-\begin{rmk} *(Openness of characteristic map).* Let $(X,f)$ be a stratified space. One says the stratification $f$ satisfies the "frontier condition" (or, as an adjective, that it is "frontier-constructible") if, for any two strata $s, r$, the closure $\overline r$ intersects $s$ non-trivially, then $s \subset \overline r$. The stratification $f$ is frontier-constructible iff the characteristic map $f : X \to \mathsf{Exit}(f)$ is an [[open map]].
+\begin{rmk}\label{FrontierCondition}
+**(Openness of characteristic map)** \linebreak
+Let $(X,f)$ be a stratified space (Def. \ref{Stratification}). One says the stratification $f$ satisfies the "frontier condition" (or, as an adjective, that it is "frontier-constructible") if, for any two strata $s, r$, the [[topological closure]] $\overline r$ [[intersection|intersects]] $s$ non-trivially, then $s \subset \overline r$. The stratification $f$ is frontier-constructible iff the characteristic map $f \colon X \to \mathsf{Exit}(f)$ (Def. \ref{CharacteristicMap}) is an [[open map]].
 \end{rmk}
 
- It is generally very reasonable to assume stratifications to be locally finite and frontier-constructible.
+It is generally very reasonable to assume stratifications to be locally finite and frontier-constructible.
+
 
 ### The category of stratifications
 
-\begin{defn} A **stratified map** $F : (X,f) \to (Y,g)$ of stratified spaces is a continuous map $F : X \to Y$ which factors through the characteristic maps $f$ and $g$ by a necessarily unique map, denoted by $\mathsf{Exit}(F) : \mathsf{Exit}(f) \to \mathsf{Exit}(g)$.
+\begin{defn}\label{StratifiedMap}
+A **stratified map** $F \colon (X,f) \to (Y,g)$ of stratified spaces (Def. \ref{Stratification}) is a [[continuous map]] $F \colon X \to Y$ which factors through the characteristic maps $f$ and $g$ (Def. \ref{CharacteristicMap}) by a (then necessarily unique) map, denoted by $\mathsf{Exit}(F) \colon \mathsf{Exit}(f) \to \mathsf{Exit}(g)$.
 \end{defn}
 
- Stratified spaces and their maps form the category $\mathbf{Strat}$ of stratification. The construction of exit path posets yields a functor $\mathsf{Exit} : \mathbf{Strat} \to \mathbf{Pos}$ (dually, using $(-)^{\mathrm{op}} : \mathbf{Pos} \to \mathbf{Pos}$ one obtains the entrance path poset functor $\mathsf{Entr} : \mathbf{Strat} \to \mathbf{Pos}$). The functor has a right inverse, as follows.
+Stratified spaces and their maps (Def. \ref{StratifiedMap}) form a [[category]] $\mathbf{Strat}$ of stratification. The construction of exit path posets (Trm. \ref{ExitPathPreorder}) yields a [[functor]] $\mathsf{Exit} : \mathbf{Strat} \to \mathbf{Pos}$ ([[formal duality|dually]], using $(-)^{\mathrm{op}} : \mathbf{Pos} \to \mathbf{Pos}$ one obtains the entrance path poset functor $\mathsf{Entr} \colon \mathbf{Strat} \to \mathbf{Pos}$). The functor has a right inverse, as follows.
 
-\begin{defn} Every poset $P$ has a **classifying stratification** $\parallel P \parallel$ (also called the *stratified realization* of $P$), whose underlying space is the classifying space $|P|$ of $P$ (i.e. the [[geometric realization|realization]] of the [[nerve]] of $P$), and whose characteristic map is the map $|P| \to P$ that maps $|P^{\leq x}| \setminus |P^{\lt x}|$ to $x$ (here, the full subposets $P^{\leq x} = \{y \leq x\}$ and $P^{\lt x} = \{y \lt x\}$ of $P$ are the "lower" resp. "strict lower closures" of an element $x$ in $P$). Moreover, given a poset map $F : P \to Q$, the realization of its nerve yields a stratified map $\parallel F\parallel : \parallel P\parallel \to \parallel Q \parallel$. We obtain a functor $\parallel -\parallel : \mathbf{Pos} \to \mathbf{Strat}$.
+\begin{defn}\label{ClassifyingStratification}
+Every poset $P$ has a **classifying stratification** $\parallel P \parallel$ (also called the *stratified realization* of $P$), whose [[underlying]] [[topological space]] is the [[classifying space]] $\left|   P \right|$ of $P$ (i.e. the [[topological realization]] of the [[simplicial nerve]] of $P$), and whose characteristic map (Def. \ref{CharacteristicMap}) is the map $\left| P \right| \to P$ that maps $\left| P^{\leq x} \right| \setminus \left| P^{\lt x} \right|$ to $x$ (here, the full subposets $P^{\leq x} = \{y \leq x\}$ and $P^{\lt x} = \{y \lt x\}$ of $P$ are the "lower" resp. "strict lower closures" of an element $x$ in $P$). Moreover, given a poset map $F \colon P \to Q$, the realization of its nerve yields a stratified map ${\parallel F \parallel} \colon {\parallel P \parallel} \to {\parallel Q \parallel}$. We obtain a [[functor]] ${\parallel - \parallel} \colon \mathbf{Pos} \to \mathbf{Strat}$.
 \end{defn}
 
-Every classifying stratification is frontier-constructible.
+Every classifying stratification is frontier-constructible (Rmk. \ref{FrontierCondition}).
 
 It makes sense to further terminologically distinguish maps of stratifications as follows.
 
-\begin{terminology} *(Types of stratified maps).* Let $F : (X,f) \to (Y,g)$ be a stratified map. The stratified map $F$ is called:
+\begin{terminology} 
+**(Types of stratified maps)** \linebreak
+A stratified map $F \colon (X,f) \to (Y,g)$  (Def. \ref{StratifiedMap})is called:
 
-* a **substratification** if $F : X \to Y$ is a subspace and $\mathsf{Exit}(F)$ is [[conservative functor|conservative]]; if, moreover, $X = g^{-1} \circ \mathsf{Exit}(F) \circ f (X)$ then one says the substratification is **constructible**
-* a **coarsening** if $F : X \to Y$ is a homeomorphism (to emphasize the opposite process, one also calls $F$ a **refinement**);
-* a **stratified homeomorphism** (or **stratified iso**) if $F : X \to Y$ is a homeomorphism of spaces and $\mathsf{Exit}(F)$ is an isomorphism of posets.
-* {#stratified_bundle} a **stratified bundle** if points $x \in s$ for $s$ a stratum of $(Y,g)$ admit open neighbourhoods $U_x \subset s$ such that, up to stratified iso, $F$ restricts on $F^{-1}(U_x)$ to a projection $U_x \times f_x \to U_x$ for some 'fiber' stratification $(F^{-1}(x),f_x)$ (see below for the definition of stratified products).
+* a **substratification** if $F \colon X \to Y$ is a [[topological subspace]] and $\mathsf{Exit}(F)$ is [[conservative functor|conservative]]; if, moreover, $X = g^{-1} \circ \mathsf{Exit}(F) \circ f (X)$ then one says the substratification is **constructible**;
+
+* a **coarsening** if $F \colon X \to Y$ is a [[homeomorphism]] (to emphasize the opposite process, one also calls $F$ a **refinement**);
+
+* a **stratified homeomorphism** (or **stratified iso**) if $F \colon X \to Y$ is a [[homeomorphism]] of [[topological spaces]] and $\mathsf{Exit}(F)$ is an [[isomorphism]] of [[posets]].
+
+* {#stratified_bundle} a **stratified bundle** if points $x \in s$ for $s$ a stratum of $(Y,g)$ admit [[open neighbourhoods]] $U_x \subset s$ such that, up to stratified iso, $F$ restricts on $F^{-1}(U_x)$ to a projection $U_x \times f_x \to U_x$ for some 'fiber' stratification $(F^{-1}(x),f_x)$ (see below for the definition of stratified products).
 
 \end{terminology}
+
 
 ## Fundamental categories
 
@@ -189,13 +227,14 @@ See also
 
 Discussion of the [[fundamental category]] of a (Whitney&#8209;)stratified space is in 
 
-* [[Jonathan Woolf]], _Transversal homotopy theory_ ([arXiv:0910.3322](http://arxiv.org/abs/0910.3322))
+* [[Jonathan Woolf]], _Transversal homotopy theory_ &lbrack;[arXiv:0910.3322](http://arxiv.org/abs/0910.3322)&rbrack;
 
-* M. Banagl, _Topological invariants of stratified spaces_, Springer Monographs in Math. 2000.
+* [[Markus Banagl]], *Topological invariants of stratified spaces*, Springer Monographs in Mathematics, Springer (2000) &lbrack;[doi:10.1007/3-540-38587-8](https://doi.org/10.1007/3-540-38587-8)&rbrack;
+
 
 A [[homotopy hypothesis]] for stratified spaces is discussed in
 
-* David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+* [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
 
 * [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
 
@@ -209,7 +248,7 @@ An earlier paper on exit paths is
 
 Poset-stratified spaces and the conicality condition, as well as the construction of the fundamental $\infty$-poset of a conical stratification as a quasicategory, first appeared in:
 
-* {#LurieHA} Jacob Lurie, [[Higher Algebra]], 2012, in particular Appendix A ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
+* {#LurieHA} [[Jacob Lurie]], *[[Higher Algebra]]*, 2012, in particular Appendix A ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
 
 
 [[!redirects stratified space]]
