@@ -1,6 +1,6 @@
-*Comptes rendus hebdomadaires des séances de l'Académie des sciences* (CRAS) is a journal that published, among other topics, articles in category theory (usually under *Algèbre des catégories*, *Théorie des catégories*, or *Logique et catégories*) around 1960s and 1970s.
+*Comptes rendus hebdomadaires des séances de l'Académie des sciences* (CRAS) is a journal that published, among other topics, articles in [[category theory]] (usually under *Algèbre des catégories*, *Théorie des catégories*, or *Logique et catégories*) around 1960s and 1970s.
 
-Currently, it is published under the name [Comptes Rendus. Mathématique](https://comptes-rendus.academie-sciences.fr/mathematique/journals/CRMATH/) by the French Academy of Sciences.
+Currently, it is published under the name *[Comptes Rendus. Mathématique](https://comptes-rendus.academie-sciences.fr/mathematique/journals/CRMATH/)* by the French Academy of Sciences.
 
 The articles are up to 4 pages in length, which means that proofs are usually omitted. While CRAS articles have been archived, their text has not been indexed by search engines, which means it can be difficult to find copies of papers published in the journal. Therefore, here we list various articles pertaining to category theory that were published by CRAS.
 
@@ -192,3 +192,6 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 - _La Théorie de Galois dans les Catégories monoïdales_, Thomas S. Ligon (1979), ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k98138170/f17))
 
 [[!redirects CRAS]]
+
+category: reference
+
