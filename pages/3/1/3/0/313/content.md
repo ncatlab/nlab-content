@@ -34,7 +34,7 @@ On the other hand, a more direct representation of what we draw on the page, whe
 ### Diagrams shaped like categories
  {#CategoryShapedDiagrams}
 
-We discuss here diagrams of the "shape of a small catgeory", as well as the concept of [[cones]]/[[cocones]] over these and [[limit|limiting]]/[[colimit|colimiting]] (co-)cones. There is a quick abstract functorial definition
+We discuss here diagrams of the "shape of a small category", as well as the concept of [[cones]]/[[cocones]] over these and [[limit|limiting]]/[[colimit|colimiting]] (co-)cones. There is a quick abstract functorial definition
 
 * _[functorial definition](#CategoryShapedDiagramFunctorially)_
 
