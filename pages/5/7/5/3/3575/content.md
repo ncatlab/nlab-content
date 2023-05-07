@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -72,7 +83,16 @@ For instance [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
 
 * [[Grothendieck fibration]], [[Grothendieck construction]]
 
+* [[discrete fibration]]
+
 * [[left fibration]], [[right fibration]], [[Cartesian fibration]], [[Kan fibration]]
+
+## References
+
+Review:
+
+* [[Angelo Vistoli]], §3.3 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+
 
 
 [[!redirects category fibered in groupoids]]
