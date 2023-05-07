@@ -508,9 +508,9 @@ $$
 
 ## References
 
-For instance section 2.7 of 
+Textbook accounts:
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* [[Charles Weibel]], Section 2.7 of: *[[An Introduction to Homological Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
 
 [[!redirects tensor products of chain compexes]]
 [[!redirects tensor product of cochain complexes]]
