@@ -9,9 +9,13 @@ While for [[smooth manifolds]] there is a [[Poincaré duality]] relating [[singu
 
 ## References
 
-* M. Banagl, _Topological invariants of stratified spaces_, Springer Monographs in Math. 2000. 
+* [[Markus Banagl]], *Topological invariants of stratified spaces*, Springer Monographs in Mathematics, Springer (2000) &lbrack;[doi:10.1007/3-540-38587-8](https://doi.org/10.1007/3-540-38587-8)&rbrack;
 
-* R. MacPherson, _Intersection homology and perverse sheaves_,  1990 notes [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
+  > (on [[stratified spaces]])
+
+* [[Markus Banagl]], *Rational generalized intersection homology theories*, Homology, Homotopy and Applications, **12** 1 (2010) 157-185  &lbrack;[pdf](http://www.mathi.uni-heidelberg.de/~banagl/pdfdocs/spectrumqih.pdf), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-1/Rational-generalized-intersection-homology-theories/hha/1296223826.full)&rbrack;
+
+* [[Robert MacPherson]], _Intersection homology and perverse sheaves_,  1990 notes [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
 
 * R. MacPherson, _Global questions in the topology of singular spaces_, Proc. ICM Warsaw 1983, [pdf](http://www.mathunion.org/ICM/ICM1983.1/Main/icm1983.1.0213.0236.ocr.pdf)
 
