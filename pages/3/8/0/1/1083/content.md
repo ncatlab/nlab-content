@@ -162,9 +162,10 @@ the [[internal hom]] is the standard [[nLab:internal hom of chain complexes]].
 
 ## References
 
-A basic introduction is in chapter 1 of 
+Textbook account:
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* [[Charles Weibel]], Chapter 1 in: _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
+
 
 Discussion in the context of [[model structures on chain complexes]]:
 
