@@ -68,11 +68,15 @@ We then simply verify that these isomorphisms are the components of an (invertib
 
 * [[Yoneda lemma for tricategories]]
 
-##References
+## References
 
-A treatment of the bicategorical Yoneda embedding and lemma is in Chap. 8 of
+Review:
 
-* {#JohnsonYau} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, ([arXiv:2002.06055](https://arxiv.org/abs/2002.06055))
+* [[Angelo Vistoli]], §3.6.2 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+
+See also:
+
+* {#JohnsonYau} [[Niles Johnson]], [[Donald Yau]], Chap. 8: _2-Dimensional Categories_, ([arXiv:2002.06055](https://arxiv.org/abs/2002.06055))
 
 An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bicategories is in
 
