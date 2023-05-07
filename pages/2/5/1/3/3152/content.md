@@ -16,7 +16,7 @@
 
 ## Idea
 
-Being a [[Grothendieck fibration]] is a [[property-like structure]] on a [[functor]], like the existence of [[limits]] in a [[category]]: it is defined by the existence of certain objects (in this case, [[cartesian morphisms]]) which, when they exist, are unique up to unique [[isomorphism]].  Any property-like structure can be "algebraicized" by requiring a specific *choice* of the objects that are required to exist; a *cleavage* is this "algebraicization" of being a fibration.
+Being a [[Grothendieck fibration]] is a [[property-like structure]] on a [[functor]], like the existence of [[limits]] in a [[category]]: it is defined by the existence of certain [[objects]] (in this case, [[cartesian morphisms]]) which, when they exist, are unique up to unique [[isomorphism]].  Any [[property]]-like [[structure]] can be "algebraicized" by requiring a specific *choice* of the objects that are required to exist; a *cleavage* is this "algebraicization" for the property of being a [[Grothendieck fibration]].
 
 ## Definition
 
@@ -35,6 +35,17 @@ The direct image functors corresponding to varying morphisms in $B$ together for
 ## Non-strict cleavages
 
 There is a corresponding notion of cleavage for a [[Street fibration]], namely a choice of, for each $e\in E$ and $u\colon b\to p(e)$ in $B$, a cartesian arrow $f:e'\to e$ in $E$ and an isomorphism $v\colon p(e') \xrightarrow{\cong} b$ such that $u\circ v = p(f)$.  Such a cleavage induces, for every $u\colon b'\to b$, a functor between the [[essential fibers]] of $b$ and $b'$, and thereby a pseudofunctor and another equivalence of 2-categories (though not a strict 2-equivalence).
+
+## References
+
+The original reference:
+
+* [[Alexander Grothendieck]], §VI.7 of: _Revêtements Étales et Groupe Fondamental - Séminaire de Géometrie Algébrique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
+
+Review:
+
+* [[Angelo Vistoli]], Def. 3.9 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+
 
 
 [[!redirects pseudo-splitting]]
