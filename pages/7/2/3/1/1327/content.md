@@ -107,7 +107,9 @@ It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street bega
 
 There is a [[vertical categorification|categorification]] of associahedra discussed in
 
-* {#Forcey12} [[Stefan Forcey]], _Quotients of the multiplihedron as categorified associahedra_, Homology Homotopy Appl. Volume 10, Number 2 (2008), 227-256. ([Euclid](http://projecteuclid.org/euclid.hha/1251811075))
+* S. Saneblidze, R. Umble, Diagonals on the permutahedra, multiplihedra and associahedra, Homology Homotopy Appl. 6(1) (2004) 363--411.
+* {#Forcey12} [[Stefan Forcey]], _Quotients of the multiplihedron as categorified associahedra_, Homology Homotopy Appl. __10__:2 (2008) 227--256 ([Euclid](http://projecteuclid.org/euclid.hha/1251811075))
+
 
 ### Tamari lattice
 
