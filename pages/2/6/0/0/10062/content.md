@@ -111,7 +111,7 @@ The definition originates with:
 
 Extension to [[A-infinity categories|$A_\infty$-categories]], proof that the dg-nerve maps [[pretriangulated dg-categories]] to [[stable (∞,1)-categories]].
 
-* {#Faonte13} [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127).
+* {#Faonte13} [[Giovanni Faonte]], *Simplicial nerve of an $\mathcal{A}_\infty$-category*, Theory and Applications of Categories **32** 2 (2017) 31-52 &lbrack;[arXiv:1312.2127](http://arxiv.org/abs/1312.2127), [tac:32-02](http://www.tac.mta.ca/tac/volumes/32/2/32-02abs.html)&rbrack;
 
 Further discussion:
 
