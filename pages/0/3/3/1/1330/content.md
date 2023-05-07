@@ -70,9 +70,11 @@ This is [[Higher Topos Theory|HTT, def. 5.2.7.2]].
 
 ## References
 
-This is the topic of section 5.2.7  and 5.5.4 of
+This is the topic of  of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], §5.2.7 & §5.5.4 of: *[[Higher Topos Theory]]* (2009)
+
+* [[Jacob Lurie]], pp. 485 of: *[[Higher Algebra]]* (2017)
 
 With an eye towards [[modal homotopy type theory]]:
 
@@ -94,3 +96,7 @@ With an eye towards [[modal homotopy type theory]]:
 [[!redirects localization of (∞,1)-categories]]
 [[!redirects localisation of (infinity,1)-categories]]
 [[!redirects localization of (∞,1)-categories]]
+
+[[!redirects localization of a quasi-category]]
+[[!redirects localization of quasi-categories]]
+
