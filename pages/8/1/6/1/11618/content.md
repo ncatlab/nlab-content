@@ -162,3 +162,11 @@ It follows that $R(KP)$ is a fibrant type which is inhabited in the model in $sS
 * [[two-level type theory]]
 
 * [[semi-simplicial types in homotopy type theory]]
+
+## References
+
+
+* [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; 
+
+
+
