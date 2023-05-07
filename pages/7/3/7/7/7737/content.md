@@ -90,6 +90,7 @@ It makes sense to further terminologically distinguish maps of stratifications a
 * a **substratification** if $F : X \to Y$ is a subspace and $\mathsf{Exit}(F)$ is [[conservative functor|conservative]]; if, moreover, $X = g^{-1} \circ \mathsf{Exit}(F) \circ f (X)$ then one says the substratification is **constructible**
 * a **coarsening** if $F : X \to Y$ is a homeomorphism (to emphasize the opposite process, one also calls $F$ a **refinement**);
 * a **stratified homeomorphism** (or **stratified iso**) if $F : X \to Y$ is a homeomorphism of spaces and $\mathsf{Exit}(F)$ is an isomorphism of posets.
+* {#stratified_bundle} a **stratified bundle** if points $x \in s$ for $s$ a stratum of $(Y,g)$ admit open neighbourhoods $U_x \subset s$ such that, up to stratified iso, $F$ restricts on $F^{-1}(U_x)$ to a projection $U_x \times f_x \to U_x$ for some 'fiber' stratification $(F^{-1}(x),f_x)$ (see below for the definition of stratified products).
 
 \end{terminology}
 
@@ -122,6 +123,13 @@ Every conical stratification is frontier-constructible.
 
 \begin{defn} Given a conical stratification $(X,f)$, then [Lurie](#LurieHA) constructs **exit path $\infty$-category** $\mathcal{E}\mathrm{xit}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{xit}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
 \end{defn}
+
+\begin{rmk} One dually defines the **entrance path $\infty$-category** $\mathcal{E}\mathrm{ntr}(f)$ with $k$-simplices $\parallel [k]^{\mathrm{op}} \parallel \to (X,f)$.
+\end{rmk}
+
+{#exit_entrance_conv}
+\begin{terminology} An **exit path** in a stratified space $(X,f)$ is a stratified map $f : \parallel [1] \parallel \to (X,f)$; we say $f$ *starts* $f(0)$ and *ends* at $f(1)$ (dually, we say $f$ is an **entrance path** which starts at $f(1)$ and ends at $f(0)$).
+\end{terminology}
 
 The construction translates from "stratified spaces" to 
 "$\infty$-posets" in the above table: the conservative functor $\mathcal{E}\mathrm{xit}(f) \to \mathsf{Exit}(f)$ takes objects $\parallel [0]\parallel \to X$ to the stratum $s \in \mathsf{Exit}(f)$ that their image lies in.
