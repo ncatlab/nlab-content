@@ -924,18 +924,20 @@ The [[Grothendieck construction]] on this functor may be called the *[[tangent c
 
 ## References
 
-The Grothendieck construction originates in
+The Grothendieck construction originates in:
 
 * [[Alexander Grothendieck]], §VI.8 of: _Revêtements Étales et Groupe Fondamental - Séminaire de Géometrie Algébrique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
 
+Review:
 
-Textbook accounts:
+* [[Angelo Vistoli]], §3.1.3 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
+
+
+Further textbook accounts:
 
 * [[Francis Borceux]], Section 8.3 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures* Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
 * {#Johnstone} [[Peter Johnstone]], sections A1.1.7, B1.3.1 of:  _[[Sketches of an Elephant]]_ (2002)
-
-* [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_, pp. 1--104 of [[FGA explained]]; [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512).
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 10 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
