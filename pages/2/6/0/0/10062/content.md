@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,15 +25,13 @@ To the extent that one may think of $\mathcal{C}$ as analogous to a [[category o
 
 ## References
 
-Definition 2.2 in 
+The definition originates with:
 
-* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
+* {#BlockSmith14} [[Jonathan Block]], [[Aaron M. Smith]], Def. 2.3 (2.4 in the preprint) of: *The higher Riemann--Hilbert correspondence*, Advances in Mathematics **252** (2014) 382-405 &lbrack;[arXiv:0908.2843](https://arxiv.org/abs/0908.2843), [doi:10.1016/j.aim.2013.11.001](https://doi.org/10.1016/j.aim.2013.11.001)&rbrack;
+ 
+* [[Jacob Lurie]], Construction 1.3.1.6 in: *[[Higher Algebra]]*
 
-Construction 1.3.1.6 in 
-
-* [[Jacob Lurie]], _[[Higher Algebra]]_
-
-In the following paper, the definition of the dg-nerve is extended to [[A-infinity categories]], and it is proved that the dg-nerve maps [[pretriangulated dg-categories]] to [[stable (∞,1)-categories]].
+Extension to [[A-infinity categories|$A_\infty$-categories]], proof that the dg-nerve maps [[pretriangulated dg-categories]] to [[stable (∞,1)-categories]].
 
 * {#Faonte13} [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127).
 
