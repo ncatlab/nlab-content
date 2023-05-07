@@ -120,9 +120,6 @@ and with focus on relation to [[braid representations]]:
 
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
 
-On [[number theory|number theoretic]] aspects of modular tensor categories:
-
-* {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
 
 Construction of modular tensor categories from [[vertex operator algebras]]:
 
@@ -132,7 +129,7 @@ Construction of modular tensor categories from [[vertex operator algebras]]:
 
 * {#HuangLepowskiZhang14} [[Yi-Zhi Huang]], [[James Lepowsky]], Lin Zhang, *Logarithmic tensor category theory for generalized modules for a conformal vertex algebra, I: Introduction and strongly graded algebras and their generalized modules*,  In: Bai, Fuchs, Huang, Kong, Runkel, Schweigert (eds.), *Conformal Field Theories and Tensor Categories* Mathematical Lectures from Peking University. Springer (2014) $[$[arXiv:1012.4193](https://arxiv.org/abs/1012.4193), [doi:10.1007/978-3-642-39383-9_5](https://doi.org/10.1007/978-3-642-39383-9_5)$]$
 
-* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Section 8.27.6 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) $[$[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205)$]$
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Section 8.27.6 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205)&rbrack;
 
 brief survey:
 
@@ -148,9 +145,14 @@ A list of examples (with an emphasis on [[representation categories]] of rationa
 
 * {#GannonHoehn} [[Terry Gannon]], [[Gerald Höhn]], Hiroshi Yamauchi, _[The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas/)_
 
-Partial classification:
+Classification results
 
-* [[Eric Rowell]], [[Richard Stong]], [[Zhenghan Wang]], *On classification of modular tensor categories*, Comm. Math. Phys. 292 (2009) no. 2, 343--389 ([arXiv:0712.1377](https://arxiv.org/abs/0712.1377))
+* [[Eric Rowell]], [[Richard Stong]], [[Zhenghan Wang]], *On classification of modular tensor categories*, Comm. Math. Phys. **292** 2 (2009) 343--389 &lbrack;[arXiv:0712.1377](https://arxiv.org/abs/0712.1377), [doi:10.1007/s00220-009-0908-z](https://doi.org/10.1007/s00220-009-0908-z)&rbrack;
+
+On [[number theory|number theoretic]] aspects of modular tensor categories:
+
+* {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
+
 
 
 ### Relation to 3dCS/2dWZW quantum field theory
