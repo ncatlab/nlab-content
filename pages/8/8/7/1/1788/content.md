@@ -1,4 +1,6 @@
 
+$\parallel x \parallel$
+
 &Eacute;
 
 $\mathfrak{osp}(1{|}2)$
