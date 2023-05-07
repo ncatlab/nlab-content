@@ -689,14 +689,13 @@ The second statement is [[Higher Topos Theory|HTT, prop. 2.4.1.5]].
 
 ## References 
 
-The traditional reference is SGA I.6 (written by [[P. Gabriel]] and A. Grothendieck)
+Original reference:
 
-* chapter 6 in A. Grothendieck, M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ ([[SGA1]]), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203); published  version Documents Math&#233;matiques __3__, Soci&#233;t&#233; Math&#233;matique de France, Paris 2003)
+* [[Alexander Grothendieck]], §VI.6 of: _Revêtements Étales et Groupe Fondamental - Séminaire de Géometrie Algébrique du Bois Marie 1960/61_ ([[SGA 1]]) , LNM **224** Springer (1971) &lbrack;updated version with comments by M. Raynaud: [arxiv.0206203](http://arxiv.org/abs/math/0206203)&rbrack;
 
+Review:
 
-There are excellent lectures of Vistoli:
-
-* [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_, p. 1--104 in [[FGA explained]], [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512). 
+* [[Angelo Vistoli]], Def. 3.1 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
 
 
 For the 1-categorical case see for instance section B1.3 of
