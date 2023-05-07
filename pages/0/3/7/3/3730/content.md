@@ -95,7 +95,7 @@ is fully faithful and induces an equivalence of categories of perfect objects on
 
 Generalization to [[flat infinity-connections]] via the [[dg-nerve]] and [[iterated integrals]] is discussed in 
 
-* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_, Adv. Math. 252 (2014) 382--405 [arXiv:0908.2843](https://arxiv.org/abs/0908.2843) [doi](https://doi.org/10.1016/j.aim.2013.11.001)
+* [[Jonathan Block]], [[Aaron Smith]], _A Riemann--Hilbert correspondence for infinity local systems_, Adv. Math. 252 (2014) 382--405 [arXiv:0908.2843](https://arxiv.org/abs/0908.2843) [doi](https://doi.org/10.1016/j.aim.2013.11.001)
 
 The relation to the [[geometric Langlands correspondence]] is discussed in
 
