@@ -160,46 +160,54 @@ is the one obtained by $f$ by composing the duality unit, the counit and the [[b
 =--
 
 ### Examples
+ {#Examples}
 
-+-- {: .num_example}
-###### Example
-
+\begin{definition}
+**([[finite-dimensional vector spaces]])**
+\linebreak
 Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the [[triangle identities]], so $V^*$ is a dual of $V$ in $Vect_k$.
+\end{definition}
 
-=--
 
 \begin{example}
-More generally, in the [[symmetric monoidal category]] of [[modules]]
-over a [[commutative ring]], dualizable objects are precisely
-finitely generated [[projective modules]].
-See the article [[dualizable module]] for more details.
+**([[dualizable modules]])**
+\linebreak
+More generally, in the [[symmetric monoidal category]] of [[modules]] over a [[commutative ring]], dualizable objects are precisely [[finitely generated module|finitely generated]] [[projective modules]].
+See at *[[dualizable module]]* for more.
 \end{example}
 
-+-- {: .num_example}
-###### Example
+\begin{example}
+**([[Spanier-Whitehead duality]])**
+\linebreak
+Let $M$ be a finite-dimensional [[smooth manifold]], [[Whitney embedding theorem|choose]] an [[embedding of smooth manifolds|embedding]] $M\hookrightarrow \mathbb{R}^n$ for some $n$, and let $Th(N X)$ be the [[Thom spectrum]] of the [[normal bundle]] of this embedding.  Then the [[Thom collapse]] map defines an $\eta$ which exhibits $Th(N X)$ as a dual of $\Sigma_+^\infty M$ in the [[stable homotopy category]].  This is a version of *[[Spanier-Whitehead duality]].*
+\end{examples}
 
-Let $M$ be a finite-dimensional [[manifold]], choose an embedding $M\hookrightarrow \mathbb{R}^n$ for some $n$, and let $Th(N X)$ be the [[Thom spectrum]] of the [[normal bundle]] of this embedding.  Then the [[Thom collapse]] map defines an $\eta$ which exhibits $Th(N X)$ as a dual of $\Sigma_+^\infty M$ in the [[stable homotopy category]].  This is a version of [[Spanier-Whitehead duality]].
 
-=--
+\begin{definition}
+\label{AdjointEndofunctors}
+**([[adjoint functor|adjoint]] [[endofunctors]])**
+\linebreak
+Given any [[category]] $\mathscr{C}$, the [[endofunctor|endo]]-[[functor category]] $End(\mathcal{C}) \,\coloneqq\, \text{Fun}(\mathscr{C},\mathscr{C})$  canonically becomes a [[monoidal category]], with [[tensor product]] given by [[composition]] of [[functors]] and [[horizontal composition]] of [[natural transformations]] (*[[whiskering]]*).
 
-+-- {: .num_example }
-###### Example
+Under this identification, an object in $End(\mathcal{C})$ is dualizable iff it is an [[adjoint functor]], with [[evaluation]] and [[co-evaluation]] given by the [[counit of the adjunction]] and the [[unit of the adjunction]], respectively.
+\end{definition}
 
-A [[C*-algebra]] is a [[Poincaré duality algebra]]
+
+\begin{example}
+**([[Poincaré duality algebras]])**
+\linebreak
+A [[C*-algebra]] is a *[[Poincaré duality algebra]]*
 if it is a dualizable object in the  [[symmetric monoidal category]] [[KK-theory|KK]] with dual its [[opposite algebra]]. 
 
-See at _[KK-theory -- Poincare duality](http://ncatlab.org/nlab/show/KK-theory#PoincareDualityAndThomIsomorphism)_.
+See at _[KK-theory -- Poincare duality](KK-theory#PoincareDualityAndThomIsomorphism)_.
+\end{example}
 
-=--
-
-+-- {: .num_example}
-###### Example
-
+\begin{example}
 For $E$ an [[E-∞ ring]], then in the [[(∞,1)-category of (∞,1)-modules]] $E Mod$ the dualizable objects coincide with the [[compact objects]] and the [[perfect objects]].
 
-=--
-
 See at _[(∞,1)-category of (∞,1)-modules -- Compact generation](%28?%2C1%29-category+of+%28?%2C1%29-modules#CompactGeneration)_ for more.
+\end{example}
+
 
 ### Properties
 
@@ -322,7 +330,7 @@ On [[self-dual objects]] and the corresponding [[inner products]] and [[dagger-c
 
 Monoidal categories with freely adjoint duals:
 
-*  Kevin Coulembier, [[Ross Street]], Michel van den Bergh, _Freely adjoining monoidal duals_, arXiv:2004.09697 (2020).  ([abstract](https://arxiv.org/abs/2004.09697))
+*  Kevin Coulembier, [[Ross Street]], Michel van den Bergh, _Freely adjoining monoidal duals_  &lbrack;[arXiv:2004.09697](https://arxiv.org/abs/2004.09697)&rbrack;
 
 The notion of duals in a [[symmetric monoidal (infinity,n)-category|symmetric monoidal $(\infty,n)$-category]]:
 
