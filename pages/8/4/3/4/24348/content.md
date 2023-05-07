@@ -35,7 +35,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Cobordism Categories|Sean Carmody|1995| | | 
 |The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
-|Internal categories and quantum groups|Marcelo Aguiar|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
+|Internal categories and quantum groups|[[Marcelo Aguiar]]|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
 |Higher-Dimensional Category Theory: Opetopic Foundations|[[Eugenia Cheng]]|2002|[pdf](https://eugeniacheng.com/wp-content/uploads/2017/02/cheng-thesis.pdf)| |
 |Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| on [[polycategories]] via Kleisli bicategories and [[mixed distributive laws]] |
 | An algebraic theory of tricategories | [[Nick Gurski]] | 2007 | [[Gurski-AlgebraicTricategories.pdf:file]] | |
@@ -44,30 +44,31 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | on [[codescent objects]] and 2-dimensional generalisations of [[internal categories]] |
 |Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
 |Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
-|Algebraic Model Structures|Emily Riehl|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
+|Algebraic Model Structures|[[Emily Riehl]]|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
 |Grothendieck categories of enriched functors|Hassan Al Hwaeer| 2014 |[core](https://core.ac.uk/outputs/161880844)| |
 |Generalization of Algebraic Operations via Enrichment|[[Christina Vasilakopoulou]]|2014|[arXiv](https://arxiv.org/abs/1411.3038)| |
-|Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|Mitchell Buckley|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
+|Three studies in higher category theory: fibrations, skew monoidal structures and excision of extremals|[[Mitchell Buckley]]|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068202)| |
 |Synthetic Lie theory|Matthew Burke|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1068205)| |
 |Sketches in higher category theory|[[Remy Tuyeras|Remy Vincent Tuyeras]]|2015|[Macquarie repository](http://hdl.handle.net/1959.14/1061373)| | 
-|A higher categorical approach to Giraud's non-abelian cohomology|Alexander Campbell|2016|[Macquarie repository](http://hdl.handle.net/1959.14/1261186)| |
+|A higher categorical approach to Giraud's non-abelian cohomology|[[Alexander Campbell]]|2016|[Macquarie repository](http://hdl.handle.net/1959.14/1261186)| |
 |The Algebra of Open and Interconnected Systems|Brendan Fong|2016|[arXiv](https://arxiv.org/abs/1609.05382)| |
 |Oplax actions and enriched icons with applications to coalgebroids and quantum categories|Ramón Abud Alcalá|2017|[Macquarie repository](http://hdl.handle.net/1959.14/1267344)| |
 |Tangent bundles, monoidal theories, and Weil algebras|Poon Leung|2017|[Macquarie repository](http://hdl.handle.net/1959.14/1260669)| |
-|The Way of the Dagger|Martti Karvonen|2018|[arXiv](https://arxiv.org/abs/1904.10805)| |
+|The Way of the Dagger|[[Martti Karvonen]]|2018|[arXiv](https://arxiv.org/abs/1904.10805)| |
 |Morphisms of 2-dimensional structures with applications|Branko Nikolić|2018|[Macquarie repository](http://hdl.handle.net/1959.14/1266304)| |
 |Compact symmetric multicategories and the problem of loops|Sophie Raynor|2018|[Aberdeen repository](https://abdn.alma.exlibrisgroup.com/discovery/delivery/44ABE_INST:44ABE_VU1/12153018780005941)| |
 |Homotopy theory of Grothendieck ∞-groupoids and ∞-categories|Edoardo Lanari|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269609)| | 
 |Restriction presheaves and restriction colimits|Daniel Lin|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269712)| |
 |Structures in two dimensional category theory and applications to polynomial functors|Charles Walker|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1270211)| |
-|The Scott adjunction|Ivan Di Liberti|2020|[arXiv](https://arxiv.org/abs/2009.07320)| |
-|The Gray tensor product for 2-quasi-categories|Yuki Maehara|2020|[Macquarie repository](http://hdl.handle.net/1959.14/1284564)| |
-|Monadic and Higher-Order Structure|Nathanael Arkor|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| |
+|The Scott adjunction|[[Ivan Di Liberti]]|2020|[arXiv](https://arxiv.org/abs/2009.07320)| |
+|The Gray tensor product for 2-quasi-categories|[[Yuki Maehara]]|2020|[Macquarie repository](http://hdl.handle.net/1959.14/1284564)| |
+|Monadic and Higher-Order Structure|[[Nathanael Arkor]]|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| |
 |Pseudomonads, Relative Monads and Strongly Finitary Notions of Multicategory|Gabriele Lobbia|2022|[Leeds repository](https://etheses.whiterose.ac.uk/30578/)| |
-|Topics in the theory of enriched accessible categories|Giacomo Tendas|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
+|Topics in the theory of enriched accessible categories|[[Giacomo Tendas]]|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
 
 
 ## Related pages
 
 * [[list of journals publishing category theory]]
 * [[list of lost manuscripts in category theory]]
+* [[list of category theory papers that never appeared]]
