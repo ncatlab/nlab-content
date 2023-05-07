@@ -244,8 +244,9 @@ If we modify Def. \ref{CategoryWithFamilies} by requiring only that the functors
 
 The category $C$ models the category of contexts and substitutions, and the morphism $Tm \to Ty$ models the bundle of (context-dependent) terms over (context-dependent) types. The representability models the extension of a context with a new typed variable.
 
-The condition of being a representable morphism can be reformulated in terms of representable profunctors as follows.
-A natural model consists of
+The condition that $Tm \to Ty$ is a representable morphism in presheaves can be reformulated in terms of adjoints as follows: $Tm \to Ty$ is representable just if the associated functor ${\int Tm} \to {\int Ty}$ has a right adjoint.  Thus a natural model can be equivalently described as a category $C$ equipped with a natural transformation of presheaves $Tm \to Ty$ for which ${\int Tm} \to {\int Ty}$ has a right adjoint. 
+
+This specification can be related to that of a \ref{CategoryWithFamilies}, by reformulating the representability of the morphism $Tm \to Ty$ in terms of representable profunctors as follows.  A natural model is equivalently described as:
 
 1. a category $C$,
 2. a presheaf $Ty : \hat C$ of types in context.
