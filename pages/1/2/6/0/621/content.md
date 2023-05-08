@@ -29,7 +29,7 @@ Given an [[endomorphism]] $f:A\to A$ in a [[traced monoidal category]] $\mathscr
 
 $$\tr(f)=\lambda \cdot \text{id}_A.$$
 
-In the case that $f$ is a [[linear map | linear]] endomorphism of a [[finite number| finite]]] [[dimension | dimensional]] [[vector space]], we recover the usual notion of trace from [[linear algebra]].
+In the case that $f$ is a [[linear map | linear]] endomorphism of a [[finite number| finite]] [[dimension | dimensional]] [[vector space]], we recover the usual notion of trace from [[linear algebra]].
 
 ## Definition
 
