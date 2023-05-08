@@ -59,7 +59,7 @@ Note that the definition of fibration refers to [[equality]] of morphisms withou
 
 * Just as general [[Grothendieck fibration|fibrations]], discrete fibrations are stable under [[pullbacks]] in [[Cat]].
 
-(...)
+* Discrete (op)fibrations are the right class of the [[comprehensive factorisation system]]. 
 
 ## Generalization for spans internal to a category
 
@@ -103,7 +103,6 @@ the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the
 Review:
 
 * [[Angelo Vistoli]], §3.4 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
-
 
 See also:
 
