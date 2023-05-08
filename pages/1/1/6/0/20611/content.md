@@ -38,7 +38,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Homology, Homotopy, and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/)|International Press|[[Ronnie Brown|Brown]]; [[George Janelidze|Janelidze]]; [[Emily Riehl|Riehl]]; [[Brooke Shipley|Shipley]]|subscription|homotopy|
 |[Algebraic & Geometric Topology](https://msp.org/agt/)|MSP|[[Julie Bergner|Bergner]]|subscription|homotopy, algebraic topology, geometric topology|
 |[Topology and its Applications](https://www.journals.elsevier.com/topology-and-its-applications)|Elsevier|[[Bill Dwyer|Dwyer]]|subscription|general topology, homotopy|
-|[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|[[synthetic differential geometry]]
+|[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|categories, [[synthetic differential geometry]]
 |[Journal of Topology](https://londmathsoc.onlinelibrary.wiley.com/journal/17538424)|LMS via Wiley|[[Andrew Blumberg|Blumberg]]|subscription|topology|
 |[Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|general|
 |[Transactions of the American Mathematical Society](https://www.ams.org/tran/)|AMS|[[Craig Westerland|Westerland]]|subscription|general|
