@@ -30,7 +30,7 @@ given by forming the [[Cartesian product]] with $W$, with the [[coproduct]] indu
 
 Notice then if $W$ is furthermore equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]], allowing aggregation of a program's $W$ outputs, corresponding to a sort of side channel. Equipped with this [[monad]]-structure, the operation $W \times (-)$ is known as the *[[writer monad]]*, see there for more.
 
-On the other hand, the canonical comonad structure on $W \times (-)$ is [[left adjoint]] to the [[reader monad]], so that it is known as the *reader comonad* (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or *coreader comonad* (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)).
+On the other hand, the canonical comonad structure on $W \times (-)$ is [[left adjoint]] to the [[reader monad]], so that it is known as the **reader comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or **coreader comonad** (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)).
 
 ## Properties
 
