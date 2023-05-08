@@ -641,6 +641,145 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 
 * [[cofibrantly generated model category|cofibrantly generated]] 
 
+  {#GeneratingCofibrationsOfUnboundedProjectiveStructure} with generating (acyclic) cofibrations being, for $n \in \mathbb{Z}$:
+
+\begin{tikzcd}[sep=10pt]
+      S^{n-1}
+      \ar[d, "{ i_n }"]
+      \ar[r, phantom, ":\equiv"]
+      &
+      \big[\;
+      \cdots
+      \ar[r]
+      &
+      0 
+      \ar[r]
+      \ar[d]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      R
+      \ar[r]
+      \ar[d, "{\mathrm{id}}"]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      \cdots
+      \;\big]
+      \\
+      D^n
+      \ar[r, phantom, ":\equiv"]
+      &
+      \big[\;
+      \cdots
+      \ar[r]
+      &
+      0 
+      \ar[r]
+      &
+      0
+      \ar[r]
+      &
+      \underset{
+        \mathclap{
+          \raisebox{-3pt}{
+            \scalebox{.7}{
+              $\mathrm{deg} = n$
+            }
+          }
+        }
+      }{
+      R
+      }
+      \ar[r, "{ \mathrm{id} }"]
+      &
+      R
+      \ar[r]
+      &
+      0
+      \ar[r]
+      &
+      \cdots
+      \;\big]
+\end{tikzcd}
+
+\begin{tikzcd}[sep=10pt]
+      0
+      \ar[d, "{ j_n }"]
+      \ar[r, phantom, ":\equiv"]
+      &
+      \big[\;
+      \cdots
+      \ar[r]
+      &
+      0 
+      \ar[r]
+      \ar[d]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      0
+      \ar[r]
+      \ar[d]
+      &
+      \cdots
+      \;\big]
+      \\
+      D^n
+      \ar[r, phantom, ":\equiv"]
+      &
+      \big[\;
+      \cdots
+      \ar[r]
+      &
+      0 
+      \ar[r]
+      &
+      0
+      \ar[r]
+      &
+      \underset{
+        \mathclap{
+          \raisebox{-3pt}{
+            \scalebox{.7}{
+              $\mathrm{deg} = n$
+            }
+          }
+        }
+      }{
+      R
+      }
+      \ar[r, "{\mathrm{id}}"]
+      &
+      R
+      \ar[r]
+      &
+      0
+      \ar[r]
+      &
+      \cdots
+      \;\big]
+\end{tikzcd}
+
+
 * [[combinatorial model category|combinatorial]]
 
 [[model category]] with
@@ -654,7 +793,7 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 \end{proposition}
 (For partial characterization of the [[cofibrant objects]] see further [below](#BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant).)
 \begin{proof}
-Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98), see also [Fauk (2006), Thm. 3.2](#Fausk06). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99)
+Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98), see also [Fauk (2006), Thm. 3.2](#Fausk06). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99) and that of the generating cofibrations are made explicit in [Hovey (1999), Def. 2.3.3](#Hovey99)
 
 {#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]], so that the model structure is [[combinatorial model category|combinatorial]]. (This minor but important point must be clear to the above authors, but seems not to be made explicit in any of the references.) This follows because:
 
