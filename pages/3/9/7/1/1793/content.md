@@ -793,7 +793,7 @@ For $R$ a [[commutative ring]] the [[category of unbounded chain complexes]] $Ch
 \end{proposition}
 (For partial characterization of the [[cofibrant objects]] see further [below](#BoundedBelowComplexesOfProjectivesAreProjectivelyCofibrant).)
 \begin{proof}
-Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98), see also [Fauk (2006), Thm. 3.2](#Fausk06). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99) and that of the generating cofibrations are made explicit in [Hovey (1999), Def. 2.3.3](#Hovey99)
+Properness and cofibrant generation are discussed in [Hovey, Palmieri & Strickland (1997), remark after theorem 9.3.1](#HoveyPalmieriStrickland97) and [Schwede & Shipley (1998), p. 7](#SchwedeShipley98), see also [Fauk (2006), Thm. 3.2](#Fausk06). The characterization of the cofibrations is in [Hovey (1999), Lem. 2.3.6](#Hovey99) and that of the generating cofibrations are made explicit in [Hovey (1999), Def. 2.3.3](#Hovey99). Cf. also [Muro & Roitzheim (2019), pp. 3](#MuroRoitzheim19).
 
 {#LocalPresentability} It remains to see that the [[underlying]] [[category of chain complexes]] is [[locally presentable category|locally presentable]], so that the model structure is [[combinatorial model category|combinatorial]]. (This minor but important point must be clear to the above authors, but seems not to be made explicit in any of the references.) This follows because:
 
@@ -1643,6 +1643,11 @@ Another approach is due to James Gillespie, using [[cotorsion pairs]].  An overv
 Some generalizations and simplifications of the original approach are discussed in
 
 * {#Gillespie} James Gillespie, _Kaplansky classes and derived categories_, 2007, [pdf](http://phobos.ramapo.edu/~jgillesp/updated%20qcsheaf.pdf)
+
+Generalization to [[bicomplexes]]:
+
+* {#MuroRoitzheim19} [[Fernando Muro]], [[Constanze Roitzheim]], *Homotopy Theory of Bicomplexes*, Journal of Pure and Applied Algebra **223** 5 (2019) 1913-1939 &lbrack;[arXiv:1802.07610](https://arxiv.org/abs/1802.07610), [doi:10.1016/j.jpaa.2018.08.007](https://doi.org/10.1016/j.jpaa.2018.08.007)&rbrack;
+
 
 
 Finally a third approach to the unbounded case is discussed (in a context of [[mixed motives]]) in:
