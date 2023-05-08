@@ -1,10 +1,33 @@
 
 
+$$
+  \begin{array}{l}
+  \mathbf{V}\big(
+    Z ,\, [S \cdot X,\, Y]
+  \big)
+  \\
+  \;\simeq\;
+  \mathbf{V}\big(
+    S \cdot X \otimes Z ,\, Y
+  \big)  
+  \\
+  \;\simeq\;
+  \mathbf{V}\big(
+    X \otimes Z ,\, Y^S
+  \big)  
+  \\
+  \;\simeq\;
+  \mathbf{V}\big(
+    Z ,\,[X ,\, Y^S]
+  \big)  
+  \end{array}
+$$
+
 $\parallel x \parallel$
 
 &Eacute;
 
-$\mathfrak{osp}(1{|}2)$
+$\mathfrak{osp}({1|2})$
 
   $\mathbf{V}Func(\mathcal{X},\,\mathbf{C})$ for the $\mathbf{V}$-[[enriched functor category]] from $\mathcal{X}$ to $\mathbf{C}$,
 
