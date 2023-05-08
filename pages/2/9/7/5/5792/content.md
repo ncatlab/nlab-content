@@ -1,7 +1,7 @@
 
 * [webpage](https://www.zeinalian.com/)
 
-## Some publications
+## Selected publications
 
 On higher [[Hochschild homology]] and [[factorization algebras]]:
 
@@ -31,7 +31,7 @@ Relating the [[Dwyer-Kan loop groupoid]]-construction to the [[homotopy coherent
 
 Weak homotopy equivalences among path connected pointed topological spaces can be detected by singular chain functor $C_*$, provided $C_*(X)$ is taken with the structure of a dg-coalgebra,  
 
-* [[Manuel Rivera]], Felix Wierstra, Mahmoud Zeinalian, _The functor of singular chains detects weak homotopy equivalences_, Proc. Amer. Math. Soc. 147 (2019) 4987--4998 [MR4011530](https://mathscinet.ams.org/mathscinet-getitem?mr=4011530) [doi](https://doi.org/10.1090/proc/14555) [arXiv/1807.06410](https://arxiv.org/abs/1807.06410)
+* [[Manuel Rivera]], [[Felix Wierstra]], Mahmoud Zeinalian, _The functor of singular chains detects weak homotopy equivalences_, Proc. Amer. Math. Soc. 147 (2019) 4987--4998 [MR4011530](https://mathscinet.ams.org/mathscinet-getitem?mr=4011530) [doi](https://doi.org/10.1090/proc/14555) [arXiv/1807.06410](https://arxiv.org/abs/1807.06410)
 
 
 [[!redirects M. Zeinalian]]
