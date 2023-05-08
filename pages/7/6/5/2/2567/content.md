@@ -32,9 +32,9 @@ Let $C, D, E$ be [[model category|model categories]]. A
 
 1. for any 
 
-   * [[cofibration]] $i \,\colon\, c \to c'$ in $C$ 
+   * [[cofibration]] $\;i \,\colon\, c \to c'$ in $C$ 
 
-   * [[cofibration]] $j : d \to d'$ in $D$, 
+   * [[cofibration]] $\;j \,\colon\, d \to d'$ in $D$, 
 
    the induced ([[pushout product]]) morphism 
    
