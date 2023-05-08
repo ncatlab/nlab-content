@@ -64,6 +64,32 @@ An operator $\rho$ is the density operator associated to some ensemble if and on
 
 Diagonal density matrices with at least two non-zero terms on the diagonal represent *[[mixed state]]s*.  Density matrices that possess non-zero off-diagonal terms represent *[[superposition state]]s*.  Such states are referred to as *coherent* and the off-diagonal entries are called the *coherences*.  Any physical process that has the effect of suppressing the coherences is known as *[[decoherence]]*.
 
+## Quantum doubles
+
+Given a pure state on the tensor product of Hilbert spaces 
+$V\otimes W$, the partial trace $\tr_W$ specifies a mixed state on $V$. Moreover, every mixed state comes from the partial trace of a pure state. Hence, this gives an alternate characterization of what a density matrix is: The image of the "pure state" outer products $|\psi\rangle\langle\psi|$ under partial trace.
+
+Even better, given a density matrix $\rho\in V$ one can explicitly construct a pure state which traces to it. Expand $\rho$ as 
+
+$$\rho=\sum_{\alpha}\rho_\alpha |\psi_\alpha \rangle \langle \psi_\alpha |.$$
+
+The states $| \psi_{\alpha}\rangle$ serve as a basis for $V$, and the states $\langle\psi_\alpha |$ serve as a basis for $V^*$. Hence, we can consider the state
+
+$$\tilde{\rho}=\sum_{\alpha}\sqrt{\rho_\alpha}|\psi_\alpha \rangle\otimes \langle \psi_\alpha |\in V\otimes V^*.$$
+
+Tracing $V^*$ out of $\tilde{\rho}$ allows us to recover $\rho$. This can be seen in the following computation:
+
+$$
+\begin{aligned}
+\tr_{V^*}(\tilde{\rho} \tilde{\rho}^{\dagger})&=\left(\sum_{\alpha}\sqrt{\rho_\alpha}|\psi_\alpha \rangle\otimes \langle \psi_\alpha |\right)
+\otimes \left(\sum_{\alpha}\sqrt{\rho_\alpha}|\psi_\alpha \rangle\otimes \langle \psi_\alpha |\right)^{\dagger}\\
+&=\left(\sum_{\alpha}\sqrt{\rho_\alpha}|\psi_\alpha \rangle\otimes \langle \psi_\alpha |\right)
+\otimes \left(\sum_{\alpha}\sqrt{\rho_\alpha}\langle\psi_\alpha |\otimes |\psi_\alpha \rangle\right)\\
+&=\sum_{\alpha,\beta}\sqrt{\rho_{\alpha}}\sqrt{\rho_{\beta}}|\psi_\alpha \rangle \langle \psi_\beta | \otimes \langle \psi_\alpha | \psi_\beta \rangle\\
+&=\sum_{\alpha}\rho_\alpha |\psi_\alpha \rangle \langle \psi_\alpha |=\rho.
+\end{aligned}
+$$
+
 ## Limitations
 
 Note that a density operator, as the representation of the state of a quantum system, is less restrictive than a state vector which specifies the wavefunction.  On the other hand, two different state vectors can give rise to the same density operator. However, in that case, the two vectors are the same up to a phase, so arguably the density operator still describes the [[physical state]] unambiguously.
