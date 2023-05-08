@@ -52,7 +52,7 @@ All these versions hold for chain homology and tensor products of general chain 
 
 Let $R = k$ be a [[field]].
 
-+-- {: .num_theorem #InordinaryHomology}
++-- {: .num_theorem #InordinaryHomologyOverAField}
 ###### Theorem
 
 For $R = k$ a [[field]], given two [[chain complexes]] of $k$-[[vector spaces]] $C_\bullet,C'_\bullet \in Ch_\bullet(k Vect)$, for each $n \in \mathbb{N}$ there is an [[isomorphism]]
@@ -324,7 +324,7 @@ $$
 
 =--
 
-(e.g. [Hatcher, theorem 3.15](#Hatcher), and in more generality: [Spanier, section 5.5, theorem 11](#Spanier))
+e.g. [Hatcher (2001), theorem 3.15](#Hatcher), and in more generality: [Spanier (1966), section 5.5, theorem 11](#Spanier77), [Weibel (1994), Thm. 3.6.1](#Weibel94)
 
 ### In Generalised cohomology theories 
 
@@ -380,28 +380,27 @@ The original articles are
 
 * H. K&#252;nneth, _&#220;ber die Torsionszahlen von Produktmannigfaltigkeiten_ Math. Ann. , 91 (1924) pp. 125&#8211;134
 
-Textbook accounts include
 
-* {#Spanier} [[Edwin Spanier]], _Algebraic topology_
 
-Lecture notes include
+Textbook accounts:
+
+* {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, McGraw Hill (1966), Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1)&rbrack;
+
+
+* {#Hatcher} [[Allen Hatcher]], Section [3.B](http://www.math.cornell.edu/~hatcher/AT/ATch3.4.pdf) of: *[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)* (2001)
+ 
+* {#Weibel94} [[Charles Weibel]], Section 3.6 in: *[[An introduction to homological algebra]]*,  Cambridge Studies in Adv. Math. **38**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
+ 
+Lecture notes:
 
 * Rob Thompson, _Products and the K&#252;nneth theorem_ ([pdf](http://math.hunter.cuny.edu/~rthompso/topology_notes/chapter%20nine.pdf))
 
-Section [3.B](http://www.math.cornell.edu/~hatcher/AT/ATch3.4.pdf) of 
+* {#Williams} [[Brandon Williams]], Section 4.2 in _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
 
-* {#Hatcher} [[Allen Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
- 
-Section 3.6
 
-* [[Charles Weibel]], _Introduction to Homological Algebra_.
+* [[James Milne]], section 22 of: _[[Lectures on Étale Cohomology]]_
 
-Section 4.2 in 
 
-* [[Brandon Williams]], _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
- {#Williams}
-
-* [[James Milne]], section 22 of _[[Lectures on Étale Cohomology]]_
 
 ### In generalized (co)homology
 
