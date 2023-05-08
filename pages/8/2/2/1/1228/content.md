@@ -46,7 +46,14 @@ For $c,d \in Obj(\mathcal{V})$ two objects, we write $\mathcal{C}(c,d) \in V$ fo
 Recall that the ([[enriched Yoneda lemma|enriched]]) [[Yoneda lemma]] says that for $F \colon \mathcal{C}^{op} \to V$ a $V$-[[enriched functor]] out of the [[opposite category]] of $\mathcal{C}$, hence a $V$-valued [[presheaf]] on $\mathcal{C}$ and $c \in \mathcal{C}$ an [[object]] of $\mathcal{C}$, there is a [[natural isomorphism]] in $V$
 
 $$
-  [\mathcal{C}^{op},V](\mathcal{C}(-,c), F) \simeq F(c)
+  [\mathcal{C}^{op},V]
+  \big(
+    \mathcal{C}(-,c)
+    ,\, 
+    F
+  \big) 
+   \;\simeq\; 
+  F(c)
   \,,
 $$
 
@@ -55,7 +62,13 @@ where on the left we have the [[hom-object]] in the [[enriched functor category]
 Using the expression of these hom-objects on the left as _[[ends]]_, this reads
 
 $$
-  \int_{c' \in \mathcal{C}} V(\mathcal{C}(c',c), F(c')) \simeq F(c)
+  \int_{c' \in \mathcal{C}} 
+  V\big(
+    \mathcal{C}(c',c)
+    ,\, F(c')
+  \big) 
+    \;\simeq\; 
+  F(c)
   \,.
 $$
 
