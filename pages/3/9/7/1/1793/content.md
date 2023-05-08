@@ -1023,7 +1023,67 @@ This ought to be compatible with the simplicial structure such as to give a [[si
 \begin{proof}
   First, the plain [[Reedy model structure]] in $sCh_\bullet(k)$ becomes a [[monoidal model category]] under the objectwise [[tensor product of chain complexes]], by [Barwick (2010), Thm. 3.51](monoidal+model+category#Barwick10) (beware that the notation "$\mathbf{M}(A)$" there does refer to the Reedy model structure on *presheaves*, $Func(A^{op}, \mathbf{M})$ (cf. p. 265), which means that the condition that $A^{\leftarrow}$ consists of epimorphisms *is* satisfied for our case where, under this notational convention, $A = \Delta$).
 
-Next, to see that this monoidal model structure passes to the [[Bousfield localization of model categories|left Bousfield localization]] of $sCh_\bullet(k)$ at the realization equivalences, it is sufficient to check (e.g. [White (2014), Thm. 4.6](Bousfield+localization+of+model+categories#White14)) that the [[tensoring]] of a realization equivalence with any chain complex is still a realization-[[local equivalence]], which here is evidently the case.
+
+
+{#SimplicialMonoidalModelStructure} Next, to see that this monoidal model structure passes to the [[Bousfield localization of model categories|left Bousfield localization]] of $sCh_\bullet(k)$ at the realization equivalences:
+
+Observing that every object in $sCh(k)$ is a simplicial homotopy colimit of simplicially constant objects (by an argument as in [this Prop.](homotopy+limit#SimplicialSetIsHomotopyColimitOverItself)) and recalling that the local objects in $sCh(k)$ are the homotopically constant simplicial objects, it is sufficient to check --- by [Barwick (2010), Prop. 4.47](Bousfield+localization+of+model+categories#Barwick10) --- that for $V \,\in\, Ch(k)$ and $\mathscr{W} \,\in\, sCh(k)$ homotopically constant, also their [[internal hom]] $[const(V),\,\mathscr{W}] \,\in\, sCh(k)$ is homotopically constant. 
+
+Now, on general grounds, the internal hom in $sCh(k)$ is given by an [[end]] over the internal hom in $Ch(k)$ (to be denoted by the same angular bracket notation), as follows:
+$$
+  [\mathscr{V},\,\mathscr{W}]
+  \;\colon\;
+  [s]
+  \;\mapsto\;
+  \int_{[s'] \in \Delta}
+  \big[ 
+    (\Delta[s] \cdot \mathscr{V})_{s'}
+    ,\,
+    \mathscr{W}_{s'}
+  \big]
+  \,,
+$$
+where $(-)\cdot(-)$ denotes the canonical [[tensoring]] of $sCh(k)$ over [[sSet]].
+
+So in the case at hand, where $\mathscr{V} \,=\, const(V)$, we find this to be:
+$$
+  \begin{array}{l}
+    [const(V),\, \mathscr{W}] 
+    \,\colon\, 
+    [s] \;\mapsto\; 
+    \\
+    \int_{s'}
+    \big[
+      \Delta(s',s) 
+      \cdot V
+      ,\,
+      \mathscr{W}_{s'}
+    \big]
+    \\
+    \;\simeq\;
+    \Big[
+      V
+      ,\,
+    \int_{s'}
+      (\mathscr{W}_{s'})^{\Delta(s',s)}
+    \Big]
+    \\
+    \;\simeq\;   
+    \Big[
+      V
+      ,\,
+      \mathscr{W}_s
+    \Big]
+    \,,
+  \end{array}
+$$
+where we passed from [[tensoring]] $S\cdot (-)$ to its [[right adjoint]] [[powering]] $(-)^S$, used that an [internal hom preserves limits](hom-functor+preserves+limits#InternalHomFunctor) and then the [[enriched Yoneda lemma]] in its [[end]]-form (discussed at *[[co-Yoneda lemma]]*).
+
+But since the objects $V,\,\mathscr{W}_{k'} \,\in\,Ch(k)$ are cofibrant and fibrant (as all objects of $Ch(k)$, by the above discussion), the functor $[V,-] \,\colon\, Ch(k) \to Ch(k) $ is a [[right Quillen functor]] and as such preserves weak equivalences between the fibrant objects $\mathscr{W}_{\bullet}$ (by [Ken Brown's lemma](Introduction+to+Homotopy}Theory#KenBrownLemma)). This means that if the simplicial chain complex $\mathscr{W}_\bullet$ is homotopically constant then so is the simplicial chain complex $ [const(V),\mathscr{W}] \,\colon\, [s] \,\mapsto\, [V,\, \mathscr{W}_s]$, which was to be shown.
+
+
+
+
 
 It remains to observe that the Quillen equivalence to $Ch_\bullet(k)$ is monoidal Quillen, for an argument see [MO:q/445397](https://mathoverflow.net/q/445397/381), [MO:a/445522](https://mathoverflow.net/a/445522/381).
 \end{proof}
