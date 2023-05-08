@@ -36,7 +36,11 @@ Write furthermore $N(\Delta/-) : \Delta \to Set^{\Delta^{op}}$ for the [[fat sim
 The **Bousfield--Kan map of cosimplicial simplicial maps** is a canonical morphism
 
 $$
-  \varphi : N(\Delta/(-)) \to \Delta
+  \varphi 
+  \,\colon\, 
+  N\big(\Delta/(-)\big) 
+   \longrightarrow 
+  \Delta
 $$
 
 of cosimplicial simplicial sets.
@@ -44,31 +48,44 @@ of cosimplicial simplicial sets.
 This can also be regarded as a morphism
 
 $$
-  \varphi : N((-)/\Delta^{op})^{op} \to \Delta
+  \varphi 
+    \,\colon\, 
+  N\big(
+    (-)/\Delta^{op}
+  \big)^{op} 
+    \longrightarrow 
+  \Delta
   \,.
 $$
 
 
-This morphism induces the following morphisms between (co)[[simplicial object]]s in $C$.
+This morphism induces the following morphisms between (co)[[simplicial objects]] in $C$.
 
 
 ### Bousfield--Kan for simplicial objects
 
-For $X : \Delta^\op \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
+For $X \,\colon\, \Delta^\op \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
 
 $$
-  |X| := X \otimes_{\Delta^{op}} \Delta := 
-  \int^{[n] \in \Delta} X_n \otimes \Delta^n
+  {|X|} 
+    \;\coloneqq\; 
+  X \otimes_{\Delta^{op}} \Delta 
+    \;\coloneqq\; 
+  \int^{[n] \in \Delta} 
+    X_n \otimes \Delta^n
   \,,
 $$
 
-where in the integrand we have the [[copower]] or tensor of $C$ by [[SimpSet|SSet]].
+where in the integrand we have the *[[copower]]* (or *[[tensoring]]*) of $C$ by [[sSet]].
 
 Here the **Bousfield--Kan** map is the morphism
 
 $$
-  X \otimes_{\Delta^{op}} N((-)/\Delta^{op})^{op}
-  \stackrel{Id_X \otimes_{\Delta^{op}} \phi }{\to}
+  X \otimes_{\Delta^{op}} 
+   N\big((-)/\Delta^{op}\big)^{op}
+  \stackrel
+    {Id_X \otimes_{\Delta^{op}} \phi }
+    {\longrightarrow}
   X \otimes_{\Delta^{op}} \Delta
   \,.
 $$
@@ -77,11 +94,14 @@ $$
 ### Bousfield--Kan for cosimplicial objects
 
 
-
-For $X : \Delta \to C$ any cosimplicial object, its **totalization** is the $\Delta$-[[weighted limit]]
+For $X \,\colon\, \Delta \to C$ any cosimplicial object, its **totalization** is the $\Delta$-[[weighted limit]]
 
 $$
-  Tot X := lim^\Delta X \simeq \int_{[n \in \Delta]} X_n^{\Delta^n}
+  Tot X 
+    \;\coloneqq\; 
+  lim^\Delta X 
+    \;\simeq\; 
+  \int_{[n \in \Delta]} X_n^{\Delta^n}
   \,,
 $$
 
@@ -91,8 +111,15 @@ where in the integrand we have the [[power]] or cotensor $X_n^{\Delta^n} = \pitc
 Here the **Bousfield--Kan** morphism is the morphism
 
 $$
-  Tot X \simeq hom(\Delta,X) \stackrel{hom(\phi,Id_X)}{\to}  
-  hom(N(\Delta/(-)), X)
+  Tot X \simeq hom(\Delta,X) 
+    \stackrel
+      {hom(\phi,Id_X)} 
+      {\longrightarrow}  
+  hom\Big(
+    N\big(\Delta/(-)\ig)
+    ,\, 
+    X
+    \Big)
   \,.
 $$
 
@@ -103,9 +130,9 @@ $$
 +-- {: .un_theorem}
 ###### Theorem
 
-If the [[simplicial object]] $X$ is [[Reedy category|Reedy cofibrant]] then its Bousfield--Kan map is a natural weak equivalence.
+If the [[simplicial object]] $X$ is [[Reedy category|Reedy]]-[[cofibrant objects|cofibrant]] then its Bousfield--Kan map is a natural [[weak equivalence]].
 
-If the co[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its Bousfield--Kan map is a natural weak equivalence.
+If the co-[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its Bousfield--Kan map is a natural weak equivalence.
 
 
 =--
@@ -113,7 +140,7 @@ If the co[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its 
 +-- {: .proof}
 ###### Proof
 
-This can be proven for instance using [[homotopy colimit]]s in the [[Reedy model structure]]. Details are at <a href="http://ncatlab.org/nlab/show/Reedy+model+structure#SimplexCategory">Reedy model structure -- over the simplex category </a>.
+This can be proven for instance using [[homotopy colimits]] in the [[Reedy model structure]]. Details are at *[Reedy model structure -- over the simplex category](Reedy+model+structure#SimplexCategory)*.
 
 =--
 
