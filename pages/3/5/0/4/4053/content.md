@@ -15,19 +15,25 @@
 
 ## Definition
 
-A __twist__, or __balance__, in a [[braided monoidal category]] $B$ is a [[natural transformation]] from the [[identity functor]] on $B$ to itself satisfying a certain condition that links it to the [[braiding]].  A __balanced monoidal category__ is a braided monoidal category equipped with such a balance.
+A __twist__, or __balance__, in a [[braided monoidal category]] $\mathscr{C}$ is a [[natural transformation | natural isomorphism]] $\theta$ from the [[identity functor]] on $\mathscr{C}$ to itself satisfying the following compatibility condition with the braiding:
 
-The condition linking the balancing to the braiding, where $\theta$ is the balance and $\beta$ is the braiding, is that $\theta_{x \otimes y}$ should be the [[composite]] of $\beta_{x,y}$, $\theta_y \otimes \theta_x$, and $\beta_{y,x}$.
+$$\theta_{A\otimes B}=\beta_{B,A}\circ \beta_{A,B}\circ (\theta_A\otimes \theta_B),\,\, \forall A,B\in\mathscr{C}$$
 
-A balanced monoidal category is a special case of a [[balanced pseudomonoid]] in a [[balanced monoidal bicategory]].
+where $\beta$ is the braiding on $\mathscr{C}$. A __balanced monoidal category__ is a braided monoidal category equipped with such a balance. Equivalently, a balanced monoidal category can be described as a braided [[pivotal category]].
+
+Balanced monoidal categories should not be confused with the other unrelated notation of a [[balanced category]].
 
 ## Properties
 
-Every [[symmetric monoidal category]] is balanced in a canonical way; in fact, the [[identity natural transformation]] (on the identity functor of $B$) is a balance on $B$ if and only if $B$ is symmetric.  Thus balanced monoidal categories fall between braided monoidal categories and symmetric monoidal categories.  (They should not be confused with [[balanced categories]], which are unrelated.)
+Every [[symmetric monoidal category]] is balanced in a canonical way. In fact, the [[identity natural transformation]] on the identity functor of $\mathscr{C}$ is a balance on $\mathscr{C}$. In this way, the twist can be seen as a way of "controlling" the non-symmetric behavior of the braiding.
 
+In the language of [[string diagrams]], the balancing is represented by a 360-degree twist:
 
-In the [[string diagram]] calculus for [[ribbon categories]], the twist is represented by a 360-degree twist in a ribbon.
-
+\begin{imagefromfile}
+"file_name": "graphical-twist.png",
+"width": 300,
+"unit": "px"
+\end{imagefromfile}
 
 ## References
 
