@@ -22,7 +22,11 @@
 
 ## Idea
 
-What is called an *antilinear map* or *conjugate linear map* between [[vector spaces]] or more general [[modules]] over a [[star-algebra]] is much like a [[linear map]], but instead of commuting with "[[scalar]] [[multiplication]]" (by elements of the [[ground field]] or [[ground ring]]) it "anti-commutes" with it in that multiplication by a scalar $c$ is mapped to multiplication by the scalar's [[star-conjugation|conjugate]] $\overline{c}$.
+An *antilinear map* or *conjugate linear map* is much like a [[linear map]], but instead of commuting with "[[scalar]] [[multiplication]]" it "anti-commutes" with it, in that multiplication by a scalar $c$ is mapped to multiplication by the scalar's [[star-conjugation|conjugate]] $\overline{c}$.
+
+In order to make sense of this notion, the [[ground ring]] of the [[modules]] (or [[ground field]] of the [[vector spaces]]) that serve as the map's [[source|domain]] and [[codomain]] must have the additional structure of an [[involution]], to serve as the [[star-conjugation|conjugation]] map $c \mapsto \overline{c}$.
+
+An antilinear map has a central role in the concept of [[star-algebra]]. Conversely, an antilinear map can be seen as built on a star-algebra, in that the [[involution]] makes the [[ground ring]] into a [[star-algebra]] over itself.
 
 
 ## Definition
