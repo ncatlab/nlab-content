@@ -135,6 +135,7 @@ set $  Cones\left( Y, X_{\bullet} \right)$.
 =--
 
 ### Internal hom-functor
+ {#InternalHomFunctor}
 
 
 +-- {: .num_prop #InternalHomPreservesLimits}
@@ -164,7 +165,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-For $X \in \mathcal{C}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits by _[[adjoints preserve (co-)limits]]_.
+For $X \in \mathcal{C}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits as _[[adjoints preserve (co-)limits]]_.
 
 For the other case, let $Y \;\colon\; \mathcal{L} \to \mathcal{C}$ be a [[diagram]] in $\mathcal{C}$, and let $C \in \mathcal{C}$ be any object. Then there are isomorphisms
 
