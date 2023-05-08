@@ -1021,7 +1021,7 @@ But since $Ch_\bullet(k Mod)$ is an [[abelian category]] (cf. [here](category+of
 \end{proposition}
 This ought to be compatible with the simplicial structure such as to give a [[simplicial monoidal model category]].
 \begin{proof}
-  First, the plain [[Reedy model structure]] in $sCh_\bullet(k)$ becomes a [[monoidal model category]] under the objectwise [[tensor product of chain complexes]], by [Barwaick (2010), Thm. 3.51](monoidal+model+category#Barwick10) (beware that the notation "$\mathbf{M}(A)$" there does refer to the Reedy model structure on *presheaves*, $Func(A^{op}, \mathbf{M})$ (cf. p. 265), which means that the condition that $A^{\leftarrow}$ consists of epimorphisms *is* satisfied for our case where, under this notational convention, $A = \Delta$).
+  First, the plain [[Reedy model structure]] in $sCh_\bullet(k)$ becomes a [[monoidal model category]] under the objectwise [[tensor product of chain complexes]], by [Barwick (2010), Thm. 3.51](monoidal+model+category#Barwick10) (beware that the notation "$\mathbf{M}(A)$" there does refer to the Reedy model structure on *presheaves*, $Func(A^{op}, \mathbf{M})$ (cf. p. 265), which means that the condition that $A^{\leftarrow}$ consists of epimorphisms *is* satisfied for our case where, under this notational convention, $A = \Delta$).
 
 Next, to see that this monoidal model structure passes to the [[Bousfield localization of model categories|left Bousfield localization]] of $sCh_\bullet(k)$ at the realization equivalences, it is sufficient to check (e.g. [White (2014), Thm. 4.6](Bousfield+localization+of+model+categories#White14)) that the [[tensoring]] of a realization equivalence with any chain complex is still a realization-[[local equivalence]], which here is evidently the case.
 
