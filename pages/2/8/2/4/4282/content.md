@@ -15,7 +15,7 @@
 
 ## Idea
 
-A __$*$-algebra__ is an [[algebra]] $A$ ([[associative algebra|associative]] or [[nonassociative algebra|non-associative]]) equipped with an [[anti-involution]], meaning a map $(-)^\ast:A \to A$ such that 
+A __$*$-algebra__ is an [[associative algebra|algebra]] $A$ ([[associative algebra|associative]] or [[nonassociative algebra|non-associative]]) equipped with an [[anti-involution]], meaning a map $(-)^\ast:A \to A$ such that 
 
 * for all elements $a \in A$ and $b \in A$, $(a b)^\ast = b^\ast a^\ast$
 
