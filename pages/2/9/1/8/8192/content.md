@@ -1,7 +1,7 @@
 
 ## In linear algebra
 
-The term _adjoint_ originates in [[linear algebra]], where it may refers, in increasing generality to:
+The term _adjoint_ originates in [[linear algebra]], where it may refer, in increasing generality, to:
 
 * [[adjoint matrix]]
 
@@ -9,9 +9,12 @@ The term _adjoint_ originates in [[linear algebra]], where it may refers, in inc
 
 * [[adjoint operator]]
 
+
 ## In category theory
 
-In [[category theory]], the term "adjoint" foremost refers to "[[adjoint functors]]", a terminology which is probably inspired by the similarlity between the characteristic [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of such functors and the defining [[equality]] $\big\langle A v ,\, w\big\rangle \,=\, \big\langle v ,\, A^\dagger \big\rangle$ for [[Hermitian adjoint]] [[linear operators]].
+In [[category theory]], the term "adjoint" foremost refers to "[[adjoint functors]]", a terminology which is probably inspired by the similarity between the characteristic [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of such functors and the defining [[equality]] $\big\langle A v ,\, w \big\rangle
+ \,=\, \big\langle v ,\, A^\dagger w \big\rangle$
+for [[Hermitian adjoint]] [[linear operators]].
 
 Proceeding from here, there are various variants of adjointness in [[category theory]]:
 
