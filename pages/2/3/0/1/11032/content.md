@@ -17,27 +17,113 @@
 
 ## Idea
 
-The concept of _traced monoidal category_ axiomatizes the structure on a [[monoidal category]] for it to have a sensible notion of [[trace]] the way it exists canonically in [[compact closed categories]].
+The concept of _traced monoidal category_ axiomatizes the structure on a [[monoidal category]] for it to have a sensible notion of ([[partial trace|partial]]) [[trace]] the way it exists canonically in [[compact closed categories]]. Traced monoidal categories sometimes only have _right_ or _left_ traces, and are referred to as _right traced_ or _left traced_ respectively. A category with compatible right and left traces is called a planar traced category. If the right and left traces agree, then we call a planar traced category _spherical_.
+
+Graphically, the trace of an endomorphism $f:A\to A$ is represented by the closed loop
+
+\begin{imagefromfile}
+"file_name": "trace.png",
+"width": 150,
+"unit": "px"
+\end{imagefromfile}
+
+The ambiguity in whether to close the loop to the right or to the left is codified in the difference between left and right traced categories. Every [[pivotal category]] can be canonically made into a planar traced category by using its implicit distinguished morphisms to close loops. Pivotal categories which induce spherical traced structures are known as [[spherical categories]]. In this way, traced monoidal categories generalize the trace operation to categories which do not necessarily have duals.
 
 In [[denotational semantics]] of programming languages, the trace is used to model [[recursion]], though if the language is not [[substructural]], then this can be simplified to a [[fixed point operator]].
 
 ## Definition
 
-The original definition due to ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is stated in the general setting of [[balanced monoidal categories]].  Here we give just the slightly simpler formulation for the case of symmetric monoidal categories ([Hasegawa 1997](#Hasegawa97)).
+The original definition due to ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is stated in the setting of [[balanced monoidal categories]]. Here we present a very general formulation, as given in [Selinger's survey](#Selinger2011).
 
-A [[symmetric monoidal category]] $(C,\otimes,1,b)$ (where $b$ is the symmetry) is said to be **traced** if it is equipped with a natural family of functions
+A [[monoidal category]] $\mathscr{C}$ is said to be _right traced_ if it is equipped with family of operations
 
-$$Tr_{A,B}^X : C(A \otimes X, B\otimes X) \to C(A,B)$$
+$$\tr^X_R:\text{Hom}(A\otimes X,B\otimes X)\to \text{hom}(A,B)$$
 
-satisfying three axioms:
+for all $A,B,X\in \mathscr{X}$, satisfying the following four axioms:
 
-* **Vanishing:** $Tr_{A,B}^1(f) = f$ (for all $f : A \to B$) and $Tr_{A,B}^{X\otimes Y}(f) = Tr_{A,B}^X(Tr_{A\otimes X,B\otimes X}^Y(f))$ (for all $f : A \otimes X \otimes Y \to B \otimes X \otimes Y$)
+ * **Tightening** (naturality in $A,B$) For all $A,B,C,D,X\in\mathscr{C}$, $g:A\to B$, $f:B\otimes X\to C\otimes X$, $h:C\to D$
 
-* **Superposing:** $Tr_{C\otimes A,C\otimes B}^X(id_C \otimes f) = id_C \otimes Tr_{A,B}^X(f)$ (for all $f : A \otimes X \to B \otimes X$)
+$$\tr_R^X((g\otimes \text{id}_X)\circ f\circ (h\otimes \text{id}_X))=g\circ \tr_R^X(f)\circ h$$
 
-* **Yanking:** $Tr_{X,X}^X(b_{X,X}) = id_X$
+ * **Sliding** (naturality in $X$) for all $A,B,X,Y\in $, $f:A\otimes X\to B\otimes Y$, $g:Y\to X$
 
-In [[string diagrams]], the trace $Tr(f) : A \to B$ of a morphism $f : A \otimes X \to B \otimes X$ is visualized by wrapping the outgoing wire representing $X$ to the incoming wire representing $X$, thus "tying a loop" in the diagram of $f$.  The three axioms above (as well as the naturality conditions) then all have natural graphical interpretations (see [Joyal-Street-Verity 96](#JoyalStreetVerity96) or [Hasegawa 1997](#Hasegawa97)).
+$$\tr_R^{X}((\text{id}_B\otimes g)\circ f)=\tr_R^{Y}f\circ (\text{id}_A\otimes g)$$
+
+ * **Vanishing** For all $A,B,X,Y\in \mathscr{C}$,
+
+$$\tr^1_R(f)=f,\,\, \forall \, f:A\to B$$
+
+and
+
+$$\tr^{X\otimes Y}_R(f)=\tr_R^X(\tr_R^Y(f))$$
+
+for all $f:A\otimes X\otimes Y\to B\otimes X\otimes Y$.
+
+ * **Strength** For all $A,B,C,D,X\in \mathscr{C}$, $f:C\otimes X\to D\otimes X$, $g:A\to B$
+
+$$\tr_R^X(g\otimes f)=g\otimes \tr_R^X(f)$$
+
+Graphically, we fix the notation for right trace
+
+\begin{imagefromfile}
+"file_name": "right-trace-graphical.png",
+"width": 300,
+"unit": "px"
+\end{imagefromfile}
+
+The above axioms are described with the following pictures:
+
+\begin{imagefromfile}
+"file_name": "selinger-diagram-tracing.png",
+"width": 550,
+"unit": "px"
+\end{imagefromfile}
+
+In the presence of a [[braided monoidal category | braiding]] (such as in a [[symmetric monoidal category]]), we additionally require a _yanking_ axioms:
+
+* **Yanking:** $Tr^X(\beta_{X,X}) = id_X$ for all $X\in\mathscr{C}$
+
+where $\beta:X\otimes X\to X\otimes X$ is the briading.
+
+A left traced category is defined similarly, with a family of morphisms
+
+$$\tr_L^X:\text{Hom}(X\otimes A,X\otimes B)\to \text{Hom}(A,B)$$
+
+satisfying symmetric axioms. We write the left trace graphically as
+
+\begin{imagefromfile}
+"file_name": "left-trace-graphical.png",
+"width": 300,
+"unit": "px"
+\end{imagefromfile}
+
+A planar traced category is a monoidal category $\mathscr{C}$ which is simultaneously left and right traced, such that the following axioms are satisfied:
+
+* **Interchange** For all $A,B,X,Y\in \mathscr{C}$, $f:Y\otimes A\otimes X\to Y\otimes B\otimes X$
+
+$$\tr_R^X(\tr_L^Y(f))=\tr_L^Y(\tr_R^X(f)).$$
+
+* **Left pivoting** For all $A,B\in\mathscr{C}$, $f:1\to A\otimes B$
+
+$$\tr_R^B(\text{id}_B\otimes f)=\tr_L^A(f\otimes \text{id}_A).$$
+
+* **Right pivoting** For all $A,B\in\mathscr{C}$, $f:A\otimes B\to 1$
+
+$$\tr_R^B(\text{id}_B\otimes f)=\tr_L^A(f\otimes \text{id}_A).$$
+
+Graphically, these axioms can be stated as below:
+
+\begin{imagefromfile}
+"file_name": "pivoting-axioms.png",
+"width": 500,
+"unit": "px"
+\end{imagefromfile}
+
+It is from these axioms that [[pivotal categories]] get their name.
+
+A spherical trace category is a planar traced category in which the left and right partial traces agree. That is, for any endomorphism $f:A\to A$ in $\mathscr{C}$ we have that
+
+$$\tr_R^A(f)=\tr_L^A(f).$$
 
 ## Examples
 
@@ -113,6 +199,10 @@ In this context the free compact closure $Int(\mathcal{C})$ from [above](#Relati
 The concept was introduced in
 
 * {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/jsv.pdf))
+
+A good exposition is found in
+
+* {#Selinger2011} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, New structures for physics ([pdf](https://www.mscs.dal.ca/~selinger/papers/graphical-2up.pdf))
 
 A characterization of trace structures on cartesian monoidal categories is given in
 
