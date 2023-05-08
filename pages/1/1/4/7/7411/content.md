@@ -83,7 +83,7 @@ $$
 
 where
 
-* [[Cat]] dentes the 2-category of [[categories]], [[functors]] and [[natural transformations]],
+* [[Cat]] denotes the 2-category of [[categories]], [[functors]] and [[natural transformations]],
 
 * $B V$ denotes the [[delooping]] one-object 2-category of the monoidal category $V$,
 
