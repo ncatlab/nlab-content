@@ -48,13 +48,18 @@ Any algebraic model category has a fibrant replacement monad $R$ and a cofibrant
 
 ## References
 
-The notion was introduced in 
+The notion was introduced in:
 
 * [[Emily Riehl]], _Algebraic model structures_, New York J. Math. 17 (2011) 173-231 ([journa](http://nyjm.albany.edu/j/2011/17-10.html), [arXiv](http://arxiv.org/abs/0910.2733))
 
 The algebraic analog of [[monoidal model categories]] is discussed in 
 
 * [[Emily Riehl]], _Monoidal algebraic model structures_ ([arXiv:1109.2883](http://arxiv.org/abs/1109.2883))
+
+Review:
+
+* [[Emily Riehl]], §12.9 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 
 [[!redirects algebraic model categories]]
 
