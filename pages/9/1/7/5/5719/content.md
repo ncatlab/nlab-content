@@ -19,8 +19,9 @@ This entry is about the book
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]],
 
-  **Homotopy Limit Functors on Model Categories
-and Homotopical Categories**
+  **Homotopy Limit Functors on** 
+
+  **Model Categories and Homotopical Categories**
 
   Mathematical Surveys and Monographs **113**
 
