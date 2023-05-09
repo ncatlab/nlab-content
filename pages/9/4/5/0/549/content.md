@@ -252,3 +252,10 @@ See also the appendix of [[Higher Topos Theory|HTT]].
 For more conceptual background see
 
 * [[Richard Garner]], _Understanding the small object argument_, Applied Categorical Structures, 17 (3):247&#8211;285, 2009 ([pdf](http://arxiv.org/pdf/0712.0724v2.pdf))
+
+Review in:
+
+* [[Emily Riehl]], Chapter 12 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
+
+
