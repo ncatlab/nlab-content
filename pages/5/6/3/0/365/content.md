@@ -642,9 +642,14 @@ $$
 Introductory texts:
 
 * [[Introduction to Homotopy Theory]]
+
 * {#Riehl2008} [[Emily Riehl]], [_Factorization Systems_](https://math.jhu.edu/~eriehl/factorization.pdf), 2008
-* The following dissertation section is entirely written after learning from Riehl's note above, but has complementary examples and may dive deeper into some proofs:
-  * {#Nuyts2020} [[Andreas Nuyts]], _Contributions to Multimode and Presheaf Type Theory, section 2.4: Factorization Systems_, [PhD thesis](https://lirias.kuleuven.be/retrieve/581985), KU Leuven, Belgium, 2020
+
+* [[Emily Riehl]], Chapter 11 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
+The following dissertation section is entirely written after learning of [Riehl (2008)](#Riehl2008) above, but has complementary examples and may dive deeper into some proofs:
+
+* {#Nuyts2020} [[Andreas Nuyts]], _Contributions to Multimode and Presheaf Type Theory, section 2.4: Factorization Systems_, [PhD thesis](https://lirias.kuleuven.be/retrieve/581985), KU Leuven, Belgium, 2020
 
 
 [[!redirects weak factorization systems]]
