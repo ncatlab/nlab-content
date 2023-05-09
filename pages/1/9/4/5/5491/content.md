@@ -318,7 +318,7 @@ hence of possibly "non-linear" $\infty$-representations. (See at _[[∞-action]]
 * {#BaezBaratinFreidelWise} [[John Baez]], Aristide Baratin, Laurent Freidel, Derek Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv:0812.4969](http://arxiv.org/abs/0812.4969))
 
 
-References for 2- and 3-representatons of [[path n-groupoid]]s are at [[higher parallel transport]].
+References for 2- and 3-representations of [[path n-groupoid]]s are at [[higher parallel transport]].
 
 $\infty$-Representations of [[groupoids]] and [[Lie algebroid]]s on $(\infty,1)$-categories of chain complexes are discussed under the term  _representations up to homotopy_ in
 
