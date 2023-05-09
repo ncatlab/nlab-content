@@ -25,7 +25,7 @@ A **semifunctor** $F$ from a [[semicategory]] $C$ to a semicategory $D$ is a map
 
 * $F$ preserves [[composition]]: $F(g\circ f) = F(g)\circ F(f)$ whenever the left-hand side is well-defined.
 
-If $C$ is a [[category]], then $F$ need not preserve its identity morphisms, but this axiom does require that it send them to [[idempotents]] in $D$.
+If $C$ is a [[category]], then $F$ need *not* preserve its [[identity morphisms]], but th composition axiom does require that it send them to [[idempotents]] in $D$.
 
 ## Relation to Profunctors
 
@@ -40,15 +40,26 @@ More generally, recall from [[semicategory]] that the forgetful functor $U \colo
 Semifunctors between categories arise in the study of non-extensional type theories such as [[lambda calculus]] with $\beta$ equivalence, but not $\eta$ equivalence for the function type (see [Hayashi 85](#H85)).
 Whereas with both $\beta, \eta$, a function type $A \to B$ can be described as a right adjoint functor to $A \times -$, the non-extensional function type can be described by weakening the requirement to the right adjoint being merely a semifunctor.
 
+## Related concepts
+
+* [[semicategory]]
+
+* [[semi-simplicial set]]
+
+* [[Karoubi envelope]]
+
 ## References
 
 An early reference for semifunctors (there called "weak functors") is:
 
-- B. Elkins and J. A. Zilber. _Categories of actions and Morita equivalence_. The Rocky Mountain Journal of Mathematics 6.2 (1976): 199-225.
+- B. Elkins and J. A. Zilber. _Categories of actions and Morita equivalence_, The Rocky Mountain Journal of Mathematics **6** 2 (1976): 199-225.
 
-The terminology "semifunctors" was introduced in:
+The terminology *semifunctors* originates in 
 
-- {#H85} Susumu Hayashi. _Adjunction of semifunctors: categorical structures in nonextensional lambda calculus_. Theoretical Computer Science 1985
+* {#Hayashi1985} [[Susumu Hayashi]], Def. 1.1 in: *Adjunction of semifunctors: categorical structures in nonextensional lambda calculus*, Theoretical Computer Science **41** (1985) 95-104 &lbrack;<a href="https://doi.org/10.1016/0304-3975(85)90062-3">doi:10.1016/0304-3975(85)90062-3</a>&rbrack;
+
+whose author proceeds to discuss their [[adjoint pairs]] in the context of [[categorical semantics]] for a version of the [[lambda calculus]].
+
 
 [[!redirects semifunctor]]
 [[!redirects semifunctors]]
