@@ -22,13 +22,15 @@ supervised by Shokichi Iyanaga.
 ## Selected writings
  {#SelectedWritings}
 
-* [[Nobuo Yoneda]], *On ext and exact sequences*, PhD thesis, Journal of the Faculty of Science, Imperial University of Tokyo, 1960 ([pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773))
+* [[Nobuo Yoneda]], *On ext and exact sequences* (PhD thesis), Journal of the Faculty of Science, Section I. **8** University of Tokyo (1960) 507–576 &lbrack;[pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773)&rbrack;
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Yoneda lemma]]
+
+* [[end]]
 
 category: people
 
