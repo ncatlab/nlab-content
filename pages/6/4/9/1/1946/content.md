@@ -955,6 +955,9 @@ Textbook accounts:
 
 * {#Lurie} [[Jacob Lurie]], Section A.2.9 in _[[Higher Topos Theory]]_  (2009)
 
+
+* [[Emily Riehl]], Chapter 14 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 An overview stressing the role of [[weighted colimit|weighted colimits]] is in
 
 * [[Emily Riehl]], [[Dominic Verity]], *The theory and practice of Reedy categories*, Theory and Applications of Categories **29** 9 (2014) 256-301 &lbrack;[tac:29-09](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html),[arXiv:1304.6871](https://arxiv.org/abs/1304.6871)&rbrack;
