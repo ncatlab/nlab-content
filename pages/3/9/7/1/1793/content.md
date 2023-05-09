@@ -1081,11 +1081,7 @@ where we passed from [[tensoring]] $S\cdot (-)$ to its [[right adjoint]] [[power
 
 But since the objects $V,\,\mathscr{W}_{k'} \,\in\,Ch(k)$ are cofibrant and fibrant (as all objects of $Ch(k)$, by the above discussion), the functor $[V,-] \,\colon\, Ch(k) \to Ch(k) $ is a [[right Quillen functor]] and as such preserves weak equivalences between the fibrant objects $\mathscr{W}_{\bullet}$ (by [Ken Brown's lemma](Introduction+to+Homotopy}Theory#KenBrownLemma)). This means that if the simplicial chain complex $\mathscr{W}_\bullet$ is homotopically constant then so is the simplicial chain complex $ [const(V),\mathscr{W}] \,\colon\, [s] \,\mapsto\, [V,\, \mathscr{W}_s]$, which was to be shown.
 
-
-
-
-
-It remains to observe that the Quillen equivalence to $Ch_\bullet(k)$ is monoidal Quillen, for an argument see [MO:q/445397](https://mathoverflow.net/q/445397/381), [MO:a/445522](https://mathoverflow.net/a/445522/381).
+It remains to observe that the Quillen equivalence to $Ch_\bullet(k)$ is a [[monoidal Quillen adjunction]], but this is immediate since $const$ is by aconstruction a [[strong monoidal functor]] and the [[tensor unit]] is [[cofibrant object|cofibrant]] (as all objects). 
 \end{proof}
 
 
