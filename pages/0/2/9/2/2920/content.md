@@ -29,7 +29,7 @@ Here the process of enlarging the class of weak equivalences can be seen as the 
 
 The historically original example is the [[Bousfield localization of spectra]] &lbrack;[Bousfield  (1975)](#Bousfield75)&rbrack;, but the notion is much more general, as explained above. 
 
-The existence of Bousfield localizations for [[cellular model categories]] was established in [Hirschhorn (2002), Ch. 4](#Hirschhorn02) and for [[combinatorial model categories]] in [Barwick (2010), Prop. 2.2](#Barwick10) (Thm. 2.11 in the preprint, based on [Smith's theorem](combinatorial+model+category#SmithTheorem)) with discussion for the special case of [[simplicial model categories]] also in [Lurie (2009), around A.3.7.3](#Lurie).
+The existence of Bousfield localizations for [[cellular model categories]] was established in [Hirschhorn (2002), Ch. 4](#Hirschhorn02) and for [[combinatorial model categories]] in [Barwick (2010), Thm. 4.7](#Barwick10) (based on [Smith's theorem](combinatorial+model+category#SmithTheorem)) with discussion for the special case of [[simplicial model categories]] also in [Lurie (2009), around A.3.7.3](#Lurie).
 
 ## Left and right localization at a class of morphisms
 
