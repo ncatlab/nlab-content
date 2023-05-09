@@ -415,6 +415,13 @@ Textbook accounts:
 
 * {#Hirschhorn03} [[Philip Hirschhorn]], Sec. 11 in: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
+Further review:
+
+* {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kirsten Schemmerhorn]], Section 3.1 of: _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago in August 2004, published as: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics **436** AMS (2007) &lbrack;[arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436)&rbrack;
+ 
+
+
+
 For the general case a useful reference is for instance the first section of 
 
 * [[Tibor Beke]], _Sheafifiable homotopy model categories_,  Math. Proc. Cambridge Philos. Soc.  __129__  (2000),  no. 3, 447--475.([math.CT/0102087](http://arxiv.org/abs/math/0102087)), _Sheafifiable homotopy model categories. II_, J. Pure Appl. Algebra  __164__  (2001),  no. 3, 307--324.
