@@ -250,7 +250,8 @@ $$
 
 * {#Borceux94} [[Francis Borceux]], def. 6.2.4 of: _[[Handbook of Categorical Algebra]] Vol 2_, Cambridge University Press (1994)
 
-* [[Emily Riehl]], chapter 3, _Basics of enriched category theory_ in: _[[Categorical Homotopy Theory]]_, Cambridge University Press (2014) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457)&rbrack;
+* [[Emily Riehl]], §3.5 in *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 
 For more references see at _[[enriched category]]_.
 
