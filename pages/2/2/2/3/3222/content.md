@@ -36,7 +36,9 @@ On [[algebraic topology]] and [[differential geometry]]:
 * _Algebraic Topology via Differential Geometry_ (with Christian Leruste). Cambridge Univ. Press (1987), based on _M&#233;thodes de g&#233;om&#233;trie diff&#233;rentielle en topologie alg&#233;brique_ (1982, Paris 7)
 
 
-## Related $n$Lab entries
+## Related entries
+
+* [[Karoubian category]] ([[pseudo-abelian category]])
 
 * [[Karoubian envelope]]
 
