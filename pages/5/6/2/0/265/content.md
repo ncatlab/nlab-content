@@ -341,6 +341,11 @@ Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of
 The double-categorical functoriality is in
 
 * {#Shulman} [[Mike Shulman]], _Comparing composites of left and right derived functors_, [NYJM](http://nyjm.albany.edu/j/2011/17-5.html)
+
+Review:
+
+* [[Emily Riehl]], Chapter 2 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
  
 A more modern definition with better theoretical properties and with emphasis on the role of correspondences in $\infty$-categorical setup is given in
 
