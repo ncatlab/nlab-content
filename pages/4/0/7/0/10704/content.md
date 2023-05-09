@@ -255,6 +255,8 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
+* [[Emily Riehl]], §14.4 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 
 See also
 
