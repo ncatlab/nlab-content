@@ -719,9 +719,9 @@ A stable homotopical version of these general correspondences was developed in:
 
 * {#Helmstutler} Randall Helmstutler, _Model category extensions of the Pirashvili-Słomińska theorems_ $[$[arXiv:0806.1540](https://arxiv.org/abs/0806.1540))$]$
 
-Among the correspondences "of Dold-Kan type" included in this theory are an equivalence between FI-modules and linear combinatorial species:
+Among the correspondences "of Dold-Kan type" included in this theory are an equivalence between [[FI-modules]] and linear [[combinatorial species]]:
 
-* Thomas Church, Jordan S. Ellenberg, Benson Farb, _FI-modules and stability for representations of symmetric groups_, arxiv:1204.4533 ([link](https://arxiv.org/abs/1204.4533))
+* [[Thomas Church]], [[Jordan S. Ellenberg]], [[Benson Farb]], *FI-modules and stability for representations of symmetric groups*, Duke Math. J. **164** 9 (2015) 1833-1910 &lbrack;[arXiv:1204.4533](https://arxiv.org/abs/1204.4533), [doi:10.1215/00127094-3120274](https://doi.org/10.1215/00127094-3120274)&rbrack;
 
 A Dold-Kan theorem for $\Gamma$-groups:
 
