@@ -46,7 +46,7 @@ If $C$ is a [[site]], then a __[[locally trivial|locally]] [[trivial fibre bundl
 One can also drop $F$ and define a slightly more general notion of __[[locally trivial]] bundle__ over $B$ as a bundle over $B$ with a cover $(j_\alpha: U_\alpha \to B)_\alpha$ such that, for each index $\alpha$, there is a fibre $F_\alpha$ and an isomorphism in $C/{U_\alpha}$ between the pullback $E_\alpha$ and the trivial bundle $U_\alpha \times F_\alpha$.  Every [[locally trivial]] fibre bundle is obviously a locally trivial bundle; the converse holds if $B$ is [[connected object|connected]].
 
 +-- {: #TransitionMorphisms}
-Now suppose that $E$ is a fibre bundle over $B$ with standard fibre $F$, locally trivialised using the cover $(U_\alpha)_\alpha$ and isomorphisms $(t_\alpha : E_\alpha \simeq U_\alpha\times F)_\alpha$.  Given an index $\alpha$ and an index $\beta$, let $U_{\alpha,\beta}$ be the [[fibred product]] (pullback) of $U_\alpha$ and $U_\beta$. Note that we can pull back the commutative triangle formed by $t_\alpha$ along $j_\alpha^*j_\beta$ to get a new isomorphism $t_{\alpha,\beta} : E_{\alpha,\beta} \simeq U_{\alpha,\beta} \times F$:
+Now suppose that $E$ is a fibre bundle over $B$ with [[typical fibre]] $F$, [[local trivialization|locally trivialised]] over an ([[open cover|open]]) [[cover]] $(U_\alpha)_\alpha$ via [[isomorphisms]] $(t_\alpha \colon E_\alpha \simeq U_\alpha\times F)_\alpha$.  Given an index $\alpha$ and an index $\beta$, let $U_{\alpha,\beta}$ be the [[fibred product]] (pullback) of $U_\alpha$ and $U_\beta$. Note that we can pull back the commutative triangle formed by $t_\alpha$ along $j_\alpha^*j_\beta$ to get a new isomorphism $t_{\alpha,\beta} \colon E_{\alpha,\beta} \simeq U_{\alpha,\beta} \times F$:
 
 \begin{centre}
 \begin{tikzcd}
@@ -106,12 +106,12 @@ We can do the same on the other side, leading to the following situation:
 \end{tikzcd}
 \end{centre}
 
-Then we have an [[automorphism]] $g_{\alpha,\beta}$ of $U_{\alpha,\beta} \times F$ in $C/{U_{\alpha,\beta}}$ given by $g_{\alpha,\beta} = t_{\beta,\alpha} \circ t_{\alpha,\beta}^{-1}$. The $g_{\alpha,\beta}$ are the __transition morphisms__ of the locally trivial fibre bundle $E$.
+Then we have an [[automorphism]] $g_{\alpha,\beta}$ of $U_{\alpha,\beta} \times F$ in $C/{U_{\alpha,\beta}}$ given by $g_{\alpha,\beta} = t_{\beta,\alpha} \circ t_{\alpha,\beta}^{-1}$. The $g_{\alpha,\beta}$ are the __[[transition morphisms]]__ of the locally trivial fibre bundle $E$.
 
-If $E$ in fact admits a *global* [[trivial fiber bundle|trivialisation]] $t : E \simeq B \times F$, then one can see that the two isomorphisms $t_{\alpha,\beta}$ and $t_{\beta,\alpha}$ are equal to the pullback of (the commutative triangle formed by) $t$ along $j_{\alpha,\beta} : U_{\alpha,\beta} \to B$, so that the transition morphisms $g_{\alpha,\beta}$ are all [[identity morphism|identities]].
+If $E$ in fact admits a *global* [[trivial fiber bundle|trivialisation]] $t \colon E \simeq B \times F$, then one can see that the two isomorphisms $t_{\alpha,\beta}$ and $t_{\beta,\alpha}$ are equal to the pullback of (the commutative triangle formed by) $t$ along $j_{\alpha,\beta} : U_{\alpha,\beta} \to B$, so that the [[transition morphisms]] $g_{\alpha,\beta}$ are all [[identity morphism|identities]].
 =--
 
-Often one considers special kinds of bundles, by requiring structure on the standard fibre $F$ and/or conditions on the transition morphisms $g_{\alpha,\beta}$.  For example:
+Often one considers special kinds of bundles, by requiring structure on the standard fibre $F$ and/or conditions on the [[transition morphisms]] $g_{\alpha,\beta}$.  For example:
 
 ## Special cases 
 
@@ -248,9 +248,9 @@ Discussion of fiber bundles [[internalization|internal]] to [[finitely complete 
 [[!redirects locally trivial fiber bundle]]
 [[!redirects locally trivial fibre bundle]]
 [[!redirects locally trivial bundle]]
-[[!redirects transition morphism]]
-[[!redirects transition map]]
-[[!redirects transition function]]
+
+
+
 [[!redirects G-bundle]]
 [[!redirects bundle with structure group]]
 [[!redirects fiber bundles]]
@@ -262,9 +262,7 @@ Discussion of fiber bundles [[internalization|internal]] to [[finitely complete 
 [[!redirects locally trivial fiber bundles]]
 [[!redirects locally trivial fibre bundles]]
 [[!redirects locally trivial bundles]]
-[[!redirects transition morphisms]]
-[[!redirects transition maps]]
-[[!redirects transition functions]]
+
 [[!redirects G-bundles]]
 [[!redirects bundles with structure group]]
 [[!redirects bundles with structure groups]]
@@ -273,3 +271,15 @@ Discussion of fiber bundles [[internalization|internal]] to [[finitely complete 
 [[!redirects locally trivial bundles]]
 [[!redirects locally trivial fiber bundle]]
 [[!redirects locally trivial fiber bundles]]
+
+[[!redirects transition function]]
+[[!redirects transition functions]]
+
+[[!redirects transition map]]
+[[!redirects transition maps]]
+
+[[!redirects transition morphism]]
+[[!redirects transition morphisms]]
+
+
+
