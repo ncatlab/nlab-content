@@ -7,7 +7,8 @@ John Frederick Jardine or Rick Jardine is a
 
 On [[simplicial homotopy theory]]:
 
-* (with [[Paul Goerss|P.G. Goerss]]) _[[Simplicial homotopy theory]]_, 1999
+* [[Paul Goerss]], [[John Frederick Jardine]], *[[Simplicial homotopy theory]]*, Progress in Mathematics, Birkhäuser (1999), Modern Birkhäuser Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)&rbrack;
+
 
 On the [[simplicial approximation theorem]]:
 
