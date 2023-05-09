@@ -824,6 +824,9 @@ For many purposes it is convenient to conceive categories and especially [[∞-c
 A variant of the nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
 
 
+###Direct categories versus finite simplicial sets###
+If a [[direct category]] has finitely many objects then its nerve  is a finite [[simplicial set]]. Conversely, if a finite simplicial set is the nerve of a category then the category is a direct category with finitely many objects.
+
 ## Properties
 
 
