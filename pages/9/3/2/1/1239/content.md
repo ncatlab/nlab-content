@@ -193,3 +193,5 @@ The relation to [[number theory]] and the [[Langlands program]] is discussed in
 
 [[!redirects linear representation theory]]
 
+[[!redirects representation theories]]
+
