@@ -149,8 +149,6 @@ Model categories which are both left and right proper include
 \end{proposition}
 This appears as [Hirschorn (2002), Thm. 15.3.4 (2)](#Hirschorn02), there attributed to [[Daniel Kan]].
 
-spring
-
 
 ### Proper Quillen equivalent model structures {#ProperEquivModels}
 
