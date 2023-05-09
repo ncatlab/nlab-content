@@ -65,7 +65,8 @@ Also
 * [[Francis Borceux]], I. Stubbe, _Short introduction to enriched categories_ ([pdf](http://www-lmpa.univ-littoral.fr/~stubbe/PDF/EnrichedCatsKLUWER.pdf))
 
 
-* [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
+* [[Emily Riehl]], Chapter 3 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 
 For more references see at _[[enriched category]]_.
 
