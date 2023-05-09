@@ -16,11 +16,10 @@
 
 ## Idea
 
-A _Karoubian category_ or  _pseudo-abelian category_ (also: pseudoabelian). is a [[pre-additive category]] $C$ such that every [[idempotent]] morphism $p: A \to A$ in $C$ has a [[kernel]], and hence (one can easily show) also a [[cokernel]].
+A _pseudo-abelian category_ &lbrack;[Karoubi (1978), Def. 6.7](#Karoubi78)&rbrack; or *Karoubian category* is a [[pre-additive category]] $C$ such that every [[idempotent]] morphism $p \colon A \to A$ in $C$ has a [[kernel]], and hence (one can easily show) also a [[cokernel]].
 
 This is stronger than [[pre-additive category|pre-additivity]] but weaker than [[abelian category|abelianness]], which requires that _every_ morphism has a [[kernel]] and [[cokernel]].
 
-These categories are named after the French mathematician [[Max Karoubi]].
 
 
 ## Definition
@@ -57,7 +56,10 @@ The requirement that, say, a [[dg-category]] or a [[triangulated category]] be K
 
 The Karoubian envelope is also used in the construction of the [[category of pure motives]], and in [[K-theory]].
 
+
 ## Related concepts
+
+* [[Karoubi envelope]]
 
 * [[semi-abelian category]]
 
@@ -68,7 +70,19 @@ The Karoubian envelope is also used in the construction of the [[category of pur
 
 ## References
 
-* [[Alexandre Grothendieck]], [[Jean-Louis Verdier]].  Exercice 7.5 in _Topos_, Expos&#233; IV of [[SGA 4]], volume 1.
+* [[Alexandre Grothendieck]], [[Jean-Louis Verdier]].  Exercise 7.5 in _Topos_, Expos&#233; IV of [[SGA 4]], volume 1.
+
+* {#Karoubi78} [[Max Karoubi]], Def. 6.7 of: *K-Theory -- An introduction*, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
+
+  > (in the context of [[topological K-theory]], see also at *[[Karoubi envelope]]*)
+
+
+The terminology "Karoubian category" is used for instance in:
+
+* [[Bruno Kahn]], Appendix A.1 of: *Zeta and L-Functions of Varieties and Motives*, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108691536](https://doi.org/10.1017/9781108691536)&rbrack;
+
+* [[Stacks Project]], *Karoubian categories *&lbrack;[tag:09SF](https://stacks.math.columbia.edu/tag/09SF)&rbrack;
+
 
 [[!redirects pseudo-abelian category]]
 [[!redirects pseudoabelian category]]
