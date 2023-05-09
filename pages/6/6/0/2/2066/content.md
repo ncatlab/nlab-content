@@ -250,7 +250,9 @@ A classical account is for instance in
 
 For more classical references see the references at _[[Cauchy complete category]]_.
 
+The term "Karoubi envelope" appears to have been introduced in:
 
+* {#H85} Susumu Hayashi. _Adjunction of semifunctors: categorical structures in nonextensional lambda calculus_. Theoretical Computer Science 1985
 
 Karoubi envelopes for [[(infinity,1)-category|(∞,1)-categories]] are discussed in section 4.4.5 of
 
