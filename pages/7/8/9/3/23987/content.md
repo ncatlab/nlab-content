@@ -1562,7 +1562,7 @@ Stone-von Neumann**
 
 ### May 2023
 
-* 3 May 2023
+* {#RovelliMay2023} 3 May 2023
 
   [[Martina Rovelli]] (University of Massachusetts, Amherst, USA):
 
@@ -1571,6 +1571,19 @@ Stone-von Neumann**
   cf.: [arXiv:1809.10621](https://arxiv.org/abs/1809.10621), [arXiv:2206.02689](https://arxiv.org/abs/2206.02689)
 
   > The formalism of [[extended TQFTs]] relies the notion of an [[(infinity,n)-category|$(\infty,n)$-category]]: a categorical structure with [[n-morphism|morphisms in each dimension]], which can be composed in a weakly associative way, and which are weakly invertible in dimension higher than $n$. In this expository talk I will describe the notion of an [[n-complicial sets|$n$-complicial set]], explain the intuition for how this implements the idea of an [[(infinity,n)-category|$(\infty,n)$-category]], and discuss some of the advantages and disadvantages of this approach.
+
+\linebreak
+
+* {#RidoutMay2023} 10 May 2023
+
+  [[David Ridout]]  (University of Melbourne, Australia):
+
+  **A (gentle) introduction to logarithmic conformal field theory**
+
+  > [[conformal field theory|Conformal field theory]] is an integral part of modern [[mathematical physics]] with applications to [[statistical physics]], [[string theory]] and pure [[mathematics]].  Textbooks teach us that such theories are built from [[chiral algebras]] (also called [[vertex operator algebras]]) with nice ([[semisimple category|semisimple]]) [[representation theories]].  But, what happens when the algebra has non-semisimple representations?  This is the defining feature of [[logarithmic conformal field theory]]...
+
+
+
 
 \linebreak
 
