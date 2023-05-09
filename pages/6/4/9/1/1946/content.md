@@ -225,7 +225,16 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
 ## Properties 
   {#Properties}
 
+### Properness
+
+\begin{proposition}\label{ReedyStructureInheritsProperness}
+  For $\mathcal{R}$ a [[Reedy category]] and $\mathcal{C}$ a [[model category]] which is left or right [[proper model category|proper]], then also the Reedy model structure on $Func(\mathcal{R}, \mathcal{C})$ (Prop. \ref{model}) is left or right [[proper model category|proper]], respectively.
+\end{proposition}
+This appears as [Hirschorn (2002), Thm. 15.3.4 (2)](#Hirschorn02), there attributed to [[Daniel Kan]].
+
+
 ### Combinatorial structure
+ {#CombinatorialStructure}
 
 \begin{proposition}
 \label{ReedyStructureCofibrantlyGenerated}
