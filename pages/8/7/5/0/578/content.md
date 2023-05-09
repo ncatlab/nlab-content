@@ -83,8 +83,7 @@ This argument, as it depends crucially on the universality of the pullback and h
 ## References
  {#References}
 
-Enriched lifting and enriched factorization are discussed around from page 133 on (section "April 3") in 
+* [[Emily Riehl]], Chapter 13 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
-* [[Emily Riehl]], _Categorical homotopy theory_ ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
 
 [[!redirects enriched factorization systems]]
