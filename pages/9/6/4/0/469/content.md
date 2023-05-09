@@ -143,19 +143,90 @@ $$
 
 =--
 
-## Examples ##
 
- * The tautological example is the category [[Set]] of sets with its [[Cartesian product]]: the collection of functions between any two sets is itself a set -- the [[function set]].  More generally, any [[topos]] is cartesian closed monoidal.
 
- * The category [[Ab]] of [[abelian groups]] with its [[tensor product of abelian groups]] is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
+## Examples
+ {#Examples}
 
- * The category of [[modules]] over a given [[commutative ring]] with its usual tensor product is closed monoidal. This is one of the first hom-tensor adjunctions that appeared in algebra.
+\begin{example}\label{ExampleSets}
+The tautological example is the category [[Set]] of sets with its [[Cartesian product]] (a [[cartesian closed monoidal category]]): the collection of functions between any two sets is itself a set -- the [[function set]].  
+\end{example}
 
- * Generalizing the examples above, given a closed monoidal category $C$ with [[equalizers]] and [[coequalizers]] and a [[commutative monad]] $T$, the category of [[algebra over a monad|$T$-algebras]] inherits a closed monoidal structure. See [[tensor product of algebras over a commutative monad]].
+\begin{example}\label{ExamplePresheaves}
+In generalization of Exp. \ref{ExampleSets} and as a special case of Exp. \ref{FunctorCategory}, every [[category of presheaves]], i.e. every [[functor category]] of the form $Func(\mathcal{C}^{op}, Set)$, is a [[cartesian closed monoidal category]], details are spelled out at *[[closed monoidal structure on presheaves]]*.
+\end{example}
 
-* A [[discrete category|discrete]] monoidal category (i.e., a [[monoid]]) is left closed iff it is right closed iff every object has an inverse (i.e., it is a [[group]]).
+\begin{example}
+In further generalization of Exp \ref{ExamplePresheaves}, any [[topos]] is a [[cartesian closed monoidal category]].
+\end{example}
 
-* The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed monoidal (in fact, [[compact closed]]) category with one object, with both the tensor and internal hom defined (on morphisms) using the multiplication operation $f \otimes g = [f,g] = f g$.  Conversely, any closed monoidal category with one object must be isomorphic to one constructed from a commutative monoid. (See [Eilenberg and Kelly (1965)](#EilenbergKelly65), IV.3, p.553.)
+\begin{example}\label{AbelianGroups}
+The category [[Ab]] of [[abelian groups]] with its [[tensor product of abelian groups]] is (non-cartesian!) closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
+\end{example}
+
+\begin{example}\label{ExampleModules}
+In generalization of Exp. \ref{AbelianGroups} (which is the case $R =$ [[integers|$\mathbb{Z}$]]), for $R$ a [[commutative ring]], the category $R$[[Mod]] of $R$-[[modules]] with its usual [[tensor product of modules]] is (non-cartesian!) closed monoidal. This is one of the first hom-tensor adjunctions that appeared in [[algebra]].
+\end{example}
+
+\begin{example}
+In specialization of Exp. \ref{ExampleModules} to the case that $R = \mathbb{K}$ is a [[field]], the category $\mathbb{K}$-[[Vect]] of $\mathbb{K}$-[[vector spaces]] and $\mathbb{K}$-[[linear maps]] between them is (non-cartesian!) closed monoidal with respect to the usual [[tensor product of vector spaces]]. Here the [[internal hom]] assigns vector spaces of [[linear maps]] (with the vector operations given argument-wise):
+
+  $$
+    V,\,W \,\in\, \mathbb{K}Vect
+    \;\;\;\;\;\;\;\; \vdash \;\;\;\;\;\;\;\;
+    [V,W]
+    \;\coloneqq\;
+    \left(
+      \mathbb{K}Vec(V,W)
+      ,\,
+      \begin{array}{l}
+       k \cdot f \,\colon\, v \mapsto k \cdot f(v)
+       \\
+       f + g \,\colon\, v \mapsto f(v) + g(v)
+      \end{array}
+    \right)
+  $$
+\end{example}
+
+\begin{example}
+A [[homotopical algebra|higher homotopical]] variant of Exp. \ref{ExampleModules}: For $R$ a [[commutative ring]] the [[category of chain complexes]] over $R$ is closed monoidal, via the [[tensor product of chain complexes]] and the [[internal hom of chain complexes]], see there for more.
+\end{example}
+
+\begin{example}
+Given a closed monoidal category $C$ with [[equalizers]] and [[coequalizers]] and a [[commutative monad]] $T$, the category of [[algebra over a monad|$T$-algebras]] inherits a closed monoidal structure. See at *[[tensor product of algebras over a commutative monad]]*.
+\end{example}
+
+\begin{example}\label{FunctorCategory}
+Let $C$ be a [[complete category|complete]] closed monoidal category and $I$ any [[small category]].  Then the [[functor category]] $[I,C]$ is closed monoidal with the pointwise tensor product, $(F\otimes G)(x) = F(x) \otimes G(x)$.
+\end{example}
+\begin{proof}
+Since $C$ is complete, the category $[I,C]$ is [[comonadic functor|comonadic]] over $C^{ob I}$; the comonad is defined by right [[Kan extension]] along the inclusion $ob I \hookrightarrow I$.  Now for any $F\in [I,C]$, consider the following square:
+$$
+  \array{
+    [I,C] 
+    & \overset{F\otimes - }{\longrightarrow} & 
+    [I,C] 
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    C^{ob I}
+    & \underset{F_0 \otimes -}{\longrightarrow} & 
+    C^{ob I}
+  }
+$$
+This [[commuting diagramcommutes]] because the tensor product in $[I,C]$ is pointwise (here $F_0$ means the family of objects $F(x)$ in $C^{ob I}$).
+Since $C$ is closed, $F_0 \otimes -$ has a [[right adjoint]].
+Since the vertical functors are [[comonadic functor|comonadic]], the (dual of the) [[adjoint lifting theorem]] implies that $F\otimes -$ has a right adjoint as well.
+\end{proof}
+
+
+\begin{example}
+A [[discrete category|discrete]] monoidal category (i.e., a [[monoid]]) is left closed iff it is right closed iff every object has an inverse, i.e. iff the monoid (aka [[semigroup]]) is in fact a [[group]].
+\end{example}
+
+\begin{example}
+The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed monoidal (in fact, [[compact closed]]) category with one object, with both the tensor and internal hom defined (on morphisms) using the multiplication operation $f \otimes g = [f,g] = f g$.  Conversely, any closed monoidal category with one object must be isomorphic to one constructed from a commutative monoid. (See [Eilenberg and Kelly (1965)](#EilenbergKelly65), IV.3, p.553.)
+\end{example}
 
 * Certain [[nice category of spaces|nice categories]] of [[topological spaces]] are cartesian closed: for any two nice enough topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
 
@@ -175,23 +246,7 @@ $$
 
 * The category of [[locally convex topological vector spaces]] with the [[inductive tensor product]] and internal hom the space of continuous linear maps with the topology of pointwise convergence is symmetric closed monoidal.
 
-### Functor categories
 
-+-- {: .num_theorem}
-###### Theorem
-Let $C$ be a [[complete category|complete]] closed monoidal category and $I$ any [[small category]].  Then the [[functor category]] $[I,C]$ is closed monoidal with the pointwise tensor product, $(F\otimes G)(x) = F(x) \otimes G(x)$.
-=--
-+-- {: .proof}
-###### Proof
-Since $C$ is complete, the category $[I,C]$ is [[comonadic functor|comonadic]] over $C^{ob I}$; the comonad is defined by right [[Kan extension]] along the inclusion $ob I \hookrightarrow I$.  Now for any $F\in [I,C]$, consider the following square:
-$$\array{[I,C] & \overset{F\otimes - }{\to} & [I,C] \\
-  \downarrow && \downarrow\\
-  C^{ob I}& \underset{F_0 \otimes -}{\to} & C^{ob I}}
-$$
-This commutes because the tensor product in $[I,C]$ is pointwise (here $F_0$ means the family of objects $F(x)$ in $C^{ob I}$).
-Since $C$ is closed, $F_0 \otimes -$ has a right adjoint.
-Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting theorem]] implies that $F\otimes -$ has a right adjoint as well.
-=--
 
 ## Related concepts
 
