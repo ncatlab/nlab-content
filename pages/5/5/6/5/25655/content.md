@@ -264,7 +264,7 @@ Certain labeled trusses are the 'combinatorial' analogues of [[manifold diagrams
 \begin{rmk} More generally, one can similarly define labeled $(k+m)$-trusses $U \times T$ as _products_ between unlabeled $k$-trusses $U$ and labeled $m$-trusses $T$.
 \end{rmk}
 
-Recall the definition of [[manifold diagrams]]: these are framed conical (compactly triangulable) stratifications. Putting the above construction together, we obtain a combinatorial version of framed conicality for the following definition.
+Recall the definition of [[manifold diagrams]]: these are framed conical (compactly triangulable) stratifications. Putting the preceding notions together, we obtain a combinatorial version of framed conicality as follows.
 
 \begin{defn} A _combinatorial manifold $n$-diagram_ $T$ is a stratifed open $n$-truss such that for all $x \in T$ we have
 $$
@@ -279,7 +279,7 @@ where $C_x$ is a combinatorial cone type.
 \begin{proof} Given a manifold $n$-diagram $(\mathbb{R}^n,f)$ its corresponding combinatorial manifold $n$-diagram in normal form can be constructed by first refining $f$ by the unique coarsest $n$-mesh $M$, and then labeling the $n$-truss $\mathsf{Entr}(M)$ with the labeling $\mathsf{Entr}(M \to f)$.
 \end{proof}
 
-(See [Dorn-Douglas 2022, Ch. 2](#DornDouglas22) for details.)
+(See [Dorn-Douglas 2022, Sec. 2](#DornDouglas22) for details.)
 
 
 {#duality}
@@ -320,11 +320,11 @@ $$
 
 * {#Dorn18} [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdfs](https://cxdorn.github.io/fct-book/))
+* {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700), [latest](https://cxdorn.github.io/fct-book/))
 
 * {#HRV22} [[Lukas Heidemann]], [[David Reutter]], [[Jamie Vicary]], *Zigzag normalisation for associative $n$-categories*, Proceedings of the Thirty-Seventh Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2022) &lbrack;[arXiv:2205.08952](https://arxiv.org/abs/2205.08952), [doi:10.1145/3531130.3533352](https://dl.acm.org/doi/10.1145/3531130.3533352)&rbrack;
 
-* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([pdfs](https://cxdorn.github.io/manifold-diagram-paper/))
+* {#DornDouglas22} [[Christoph Dorn]] and [[Christopher Douglas]], _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758), [latest](https://cxdorn.github.io/manifold-diagram-paper/))
 
 
 
