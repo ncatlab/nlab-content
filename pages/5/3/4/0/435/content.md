@@ -111,6 +111,7 @@ See [[(∞,2)-category]].
 
 * [[topologically enriched category]]
 
+
 ## References
 
 Discussion the context of ([[simplicial model category|simplicial]]) [[model category]] theory :
@@ -120,6 +121,8 @@ Discussion the context of ([[simplicial model category|simplicial]]) [[model cat
 * {#Hirschhorn02} [[Philip Hirschhorn]], Section 9.1.1 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 * [[Jacob Lurie]], Section A.3 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+* [[Emily Riehl]], §3.6 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
 
 The original references on homotopy theory in terms of $sSet$-categories are
