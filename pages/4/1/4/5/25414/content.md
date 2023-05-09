@@ -35,7 +35,7 @@ Models of [[higher categories]] are often defined as certain collections of morp
 </figure>
 </center>
 
-Geometric dualization unveils that embeddings of manifold diagrams are precisely 'cellular' maps of their dual framed cell complexes ('cellular' is usually meant to imply that maps map closed cells to closed cells), which may be further distinguished into 'face' as 'degeneracy' maps. The next figure illustrates the geometric duals of the maps in the previous figures.
+Geometric dualization unveils that embeddings of manifold diagrams are precisely 'cellular' maps of their dual framed cell complexes ('cellular' is usually meant to imply that maps map closed cells to closed cells), which may be further distinguished into 'face' as 'degeneracy' maps. The next figure illustrates the geometric duals of the maps in the previous figure.
 
 <center>
 <figure>
@@ -179,7 +179,7 @@ with further details spelled out in:
 
 The type of 'directed combinatorial topology' that governs the stratified topology of manifold diagrams was described in:
 
-* {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([pdfs](https://cxdorn.github.io/fct-book/))
+* {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700), [latest](https://cxdorn.github.io/fct-book/))
 
 
 
