@@ -51,7 +51,7 @@ Named after [[Stephen Kleene]].
 
 See also:
 
-* Wikipedia, *[Kleene fixed point theorem](https://en.m.wikipedia.org/wiki/Kleene_fixed-point_theorem)*
+* Wikipedia, *[Kleene fixed point theorem](https://en.wikipedia.org/wiki/Kleene_fixed-point_theorem)*
 
 [[!redirects Kleene fixed point theorem]]
 
