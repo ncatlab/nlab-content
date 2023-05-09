@@ -1753,4 +1753,6 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects injective model structure on unbounded chain complexes]]
 [[!redirects injective model structures on unbounded chain complexes]]
 
+[[!redirects model category of chain complexes]]
+[[!redirects model categories of chain complexes]]
 
