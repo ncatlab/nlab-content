@@ -142,6 +142,15 @@ Model categories which are both left and right proper include
 
 * The projective [[model structure on differential graded-commutative algebras]] (unbounded). See [this MO discussion](http://mathoverflow.net/q/204414/381).
 
+### Reedy model structures
+
+\begin{proposition}\label{ReedyStructureInheritsProperness}
+  For $\mathcal{R}$ a [[Reedy category]] and $\mathcal{C}$ a [[model category]] which is left or right [[proper model category|proper]], then also the [[Reedy model structure]] on $Func(\mathcal{R}, \mathcal{C})$ is left or right [[proper model category|proper]], respectively.
+\end{proposition}
+This appears as [Hirschorn (2002), Thm. 15.3.4 (2)](#Hirschorn02), there attributed to [[Daniel Kan]].
+
+spring
+
 
 ### Proper Quillen equivalent model structures {#ProperEquivModels}
 
@@ -255,11 +264,11 @@ So consider a [[pushout]] diagram
 
 $$
   \array{
-    K &\to& Y
+    K &\longrightarrow& Y
     \\
-    \downarrow^{\mathrlap{\in cof}} && \downarrow
+    \big\downarrow^{\mathrlap{\in cof}} && \big\downarrow
     \\
-    L &\to& X
+    L &\longrightarrow& X
   }
 $$
 
@@ -504,6 +513,10 @@ However, if a [[Cisinski model category]] is right proper, then the $(\infty,1)$
 The concept originates in 
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], def. 1.1.6 in _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+
+Textbook account:
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], Chapter 13 of: _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
 The usefulness of right properness for constructions of [[homotopy category|homotopy categories]] is discussed in
 
