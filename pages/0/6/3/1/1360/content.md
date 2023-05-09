@@ -633,7 +633,7 @@ A [[combinatorial simplicial model category]] is precisely a _presentation_ for 
 
 The definition appears in 
 
-* {#Quillen67} [[Dan Quillen]], chapter II, section 2 of: _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967 ([doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438))
+* {#Quillen67} [[Daniel Quillen]], chapter II, section 2 of: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438)&rbrack;
 
 Textbook references include
 
@@ -641,9 +641,12 @@ Textbook references include
 
 * [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
 
+* [[Emily Riehl]], §3.8 and §11.4 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
+
 Further review:
 
-* {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model categories and simplicial methods_ ([arXiv:math/0609537](http://arxiv.org/abs/math/0609537))
+* {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago in August 2004, published as: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics **436** AMS (2007) &lbrack;[arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436)&rbrack;
  
 On Quillen-equivalent simplicial enhancements of model categories:
 
