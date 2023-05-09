@@ -20,6 +20,8 @@ A _Karoubian category_ or  _pseudo-abelian category_ (also: pseudoabelian). is a
 
 This is stronger than [[pre-additive category|pre-additivity]] but weaker than [[abelian category|abelianness]], which requires that _every_ morphism has a [[kernel]] and [[cokernel]].
 
+These categories are named after the French mathematician [[Max Karoubi]].
+
 
 ## Definition
 
