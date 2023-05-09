@@ -148,6 +148,11 @@ Now let $ C $ be a $ U $-moderate category (and not small). Then the category of
 
 * A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]]. Don't get your hopes up too high, though; even if it works, it isn't quite the category theory you're used to.
 
+## Related concepts
+
+* [[Tarski-Grothendieck set theory]]
+
+
 ## References
  {#References}
 
