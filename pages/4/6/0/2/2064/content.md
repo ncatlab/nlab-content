@@ -45,9 +45,71 @@ If $C$ is a [[site]], then a __[[locally trivial|locally]] [[trivial fibre bundl
 
 One can also drop $F$ and define a slightly more general notion of __[[locally trivial]] bundle__ over $B$ as a bundle over $B$ with a cover $(j_\alpha: U_\alpha \to B)_\alpha$ such that, for each index $\alpha$, there is a fibre $F_\alpha$ and an isomorphism in $C/{U_\alpha}$ between the pullback $E_\alpha$ and the trivial bundle $U_\alpha \times F_\alpha$.  Every [[locally trivial]] fibre bundle is obviously a locally trivial bundle; the converse holds if $B$ is [[connected object|connected]].
 
-Now suppose that $E$ is a fibre bundle over $B$ with standard fibre $F$, locally trivialised using the cover $(U_\alpha)_\alpha$.  Given an index $\alpha$ and an index $\beta$, let $U_{\alpha,\beta}$ be the [[fibred product]] (pullback) of $U_\alpha$ and $U_\beta$.  Then we have an [[automorphism]] $g_{\alpha,\beta}$ of $U_{\alpha,\beta} \times F$ in $C/{U_{\alpha,\beta}}$ as follows:
-(diagram to come)
-The $g_{\alpha,\beta}$ are the __transition morphisms__ of the locally trivial fibre bundle $E$.
++-- {: #TransitionMorphisms}
+Now suppose that $E$ is a fibre bundle over $B$ with standard fibre $F$, locally trivialised using the cover $(U_\alpha)_\alpha$ and isomorphisms $(t_\alpha : E_\alpha \simeq U_\alpha\times F)_\alpha$.  Given an index $\alpha$ and an index $\beta$, let $U_{\alpha,\beta}$ be the [[fibred product]] (pullback) of $U_\alpha$ and $U_\beta$. Note that we can pull back the commutative triangle formed by $t_\alpha$ along $j_\alpha^*j_\beta$ to get a new isomorphism $t_{\alpha,\beta} : E_{\alpha,\beta} \simeq U_{\alpha,\beta} \times F$:
+
+\begin{centre}
+\begin{tikzcd}
+	{U_\alpha\times F} &&& {U_{\alpha,\beta}\times F} \\
+	& \textcolor{rgb,255:red,100;green,100;blue,100}{U_\alpha} & \textcolor{rgb,255:red,100;green,100;blue,100}{U_{\alpha,\beta}} \\
+	{E_\alpha} &&& {E_{\alpha,\beta}}
+	\arrow["{j_\alpha^*j_\beta}", color={rgb,255:red,100;green,100;blue,100}, from=2-3, to=2-2]
+	\arrow[from=3-1, to=2-2]
+	\arrow[from=1-1, to=2-2]
+	\arrow["\simeq", "{t_\alpha}"', no head, from=3-1, to=1-1]
+	\arrow[from=1-4, to=2-3]
+	\arrow[from=3-4, to=2-3]
+	\arrow[from=1-4, to=1-1]
+	\arrow["{t_{\alpha,\beta}}", "\simeq"', no head, from=3-4, to=1-4]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-90}, draw=none, from=1-4, to=2-2]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=180}, draw=none, from=3-4, to=2-2]
+	\arrow[from=3-4, to=3-1]
+\end{tikzcd}
+\end{centre}
+
+We can do the same on the other side, leading to the following situation:
+
+\begin{centre}
+\begin{tikzcd}
+	&&& {U_{\alpha,\beta}\times F} \\
+	&&& {E_{\alpha,\beta}} \\
+	&&& \textcolor{rgb,255:red,100;green,100;blue,100}{U_{\alpha,\beta}} \\
+	{U_\alpha\times F} & {E_\alpha} & \textcolor{rgb,255:red,100;green,100;blue,100}{U_\alpha} && \textcolor{rgb,255:red,100;green,100;blue,100}{U_\beta} & {E_\beta} & {U_\beta\times F} \\
+	&&& \textcolor{rgb,255:red,100;green,100;blue,100}{B} \\
+	&&& E \\
+	&&& {B \times F}
+	\arrow["{j_{\alpha}}", color={rgb,255:red,100;green,100;blue,100}, from=4-3, to=5-4]
+	\arrow["{j_{\beta}}"', color={rgb,255:red,100;green,100;blue,100}, from=4-5, to=5-4]
+	\arrow["{j_\alpha^*j_\beta}", color={rgb,255:red,100;green,100;blue,100}, from=3-4, to=4-3]
+	\arrow["{j_\beta^*j_\alpha}"', color={rgb,255:red,100;green,100;blue,100}, from=3-4, to=4-5]
+	\arrow[from=2-4, to=3-4]
+	\arrow[from=4-6, to=4-5]
+	\arrow[from=6-4, to=5-4]
+	\arrow[from=4-2, to=4-3]
+	\arrow[from=4-2, to=6-4]
+	\arrow[from=4-6, to=6-4]
+	\arrow[from=2-4, to=4-2]
+	\arrow[from=2-4, to=4-6]
+	\arrow[from=4-1, to=7-4]
+	\arrow[from=4-7, to=7-4]
+	\arrow[from=1-4, to=4-1]
+	\arrow[from=1-4, to=4-7]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-90}, draw=none, from=2-4, to=4-3]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=2-4, to=4-5]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=4-2, to=5-4]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-90}, draw=none, from=4-6, to=5-4]
+	\arrow["{t_\alpha}", "\simeq"', no head, from=4-1, to=4-2]
+	\arrow["{t_\beta}", "\simeq"', no head, from=4-6, to=4-7]
+	\arrow["{t_{\beta,\alpha}}"'{pos=0.4}, bend right=30, "\simeq", no head, from=2-4, to=1-4]
+	\arrow["{t_{\alpha,\beta}}"{pos=0.4}, bend left=30, "\simeq"', no head, from=2-4, to=1-4]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-45}, color={rgb,255:red,100;green,100;blue,100}, draw=none, from=3-4, to=5-4]
+\end{tikzcd}
+\end{centre}
+
+Then we have an [[automorphism]] $g_{\alpha,\beta}$ of $U_{\alpha,\beta} \times F$ in $C/{U_{\alpha,\beta}}$ given by $g_{\alpha,\beta} = t_{\beta,\alpha} \circ t_{\alpha,\beta}^{-1}$. The $g_{\alpha,\beta}$ are the __transition morphisms__ of the locally trivial fibre bundle $E$.
+
+If $E$ in fact admits a *global* [[trivial fiber bundle|trivialisation]] $t : E \simeq B \times F$, then one can see that the two isomorphisms $t_{\alpha,\beta}$ and $t_{\beta,\alpha}$ are equal to the pullback of (the commutative triangle formed by) $t$ along $j_{\alpha,\beta} : U_{\alpha,\beta} \to B$, so that the transition morphisms $g_{\alpha,\beta}$ are all [[identity morphism|identities]].
+=--
 
 Often one considers special kinds of bundles, by requiring structure on the standard fibre $F$ and/or conditions on the transition morphisms $g_{\alpha,\beta}$.  For example:
 
