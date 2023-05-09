@@ -73,6 +73,9 @@ Of course, $\Omega$ and $\Lambda$ are not generalized direct categories themselv
 
 * If $R$ is any generalized Reedy category, then $R_+$ is a generalized direct category.
 
+### Direct categories versus finite simplicial sets
+If a direct category has finitely many objects then its [[nerve]]  is a finite [[simplicial set]]. Conversely, if a finite simplicial set is the nerve of a category then the category is a direct category with finitely many objects.
+
 ## Properties
 
 ### Model structures
