@@ -102,7 +102,7 @@ One often adds axioms for [[large cardinals]] to $ZFC$.  Even (8) can be seen as
 
 Note that adding an [[inaccessible cardinal]] (commonly considered the smallest sort of large cardinal) to $ZFC$ is already stronger than $MK$: given an inaccessible cardinal $\kappa$, one can interpret the sets and classes in $MK$ as the sets in $V_\kappa$ and $V_{\kappa+1}$, respectively.  Of course, one can add a large cardinal to $MK$ to get something even stronger.
 
-It is often convenient to assume that one always has more large cardinals when necessary.  You cannot say this in an absolute sense, but you can adopt the axiom that every set belongs to some [[Grothendieck universe]].  Adding this axiom to $ZFC$ makes __Tarski--Grothendieck set theory__ ($TG$).  This is not the last word, however; you can make it stronger by adding classes in the style of $MK$, or even adding a cardinal which is inaccessible from $TG$.  In fact, we have barely begun the large cardinals known to modern set theory!
+It is often convenient to assume that one always has more large cardinals when necessary.  You cannot say this in an absolute sense, but you can adopt the axiom that every set belongs to some [[Grothendieck universe]].  Adding this axiom to $ZFC$ makes __[[Tarski-Grothendieck set theory]]__ ($TG$).  This is not the last word, however; you can make it stronger by adding classes in the style of $MK$, or even adding a cardinal which is inaccessible from $TG$.  In fact, we have barely begun the large cardinals known to modern set theory!
 
 
 ### Miscellaneous variations
@@ -170,9 +170,3 @@ A classification of axioms of variants of $ZFC$, with an eye towards correspondi
 
 [[!redirects CPZ]]
 
-[[!redirects Tarski-Grothendieck set theory]]
-[[!redirects Tarski–Grothendieck set theory]]
-[[!redirects Tarski--Grothendieck set theory]]
-[[!redirects Tarski-Grothendieck]]
-[[!redirects Tarski–Grothendieck]]
-[[!redirects Tarski--Grothendieck]]
