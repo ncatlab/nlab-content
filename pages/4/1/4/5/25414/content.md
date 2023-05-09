@@ -19,9 +19,9 @@
 
 The notion of 'manifold-diagrammatic higher categories' (in some [places](#geocats) also referred to as a 'geometric' or 'geometrical' higher categories) broadly refers to [[higher categories]] whose [[composition]] [[operation]] is modelled on the [[stratified space|stratified-geometric]] notion of [[manifold diagram|manifold diagrams]]. 
 
-## Motivation and sketch of approach
+## Sketch of approach
 
-Models of [[higher categories]] are often defined as certain collections of morphisms that are parametrized by (that is, [[presheaf|presheafs]] on) some category of 'combinatorial shapes': examples include presheafs of [[simplicial set|simplicial]] or [[opetope|opetopic]] shapes. [[manifold diagram|Manifold diagrams]], while defined in geometric terms, admit a combinatorialization in terms of [[n-truss|trusses]] (or, more precisely, [[trusses#comb_mdiag|combinatorial manifold diagrams]]) and can therefore be used as combinatorial shapes for defining higher categories as just described. Importantly, combinatorial manifold diagrams come with a rich class of combinatorial mappings which (in contrast to most other classes of shapes) include internal representations of both 'embeddings' (='face and degeneracy' maps, up to geometric dualization) as well as 'quotients' (='subdivisions', up to geometric dualization). We give geometric insight into these classes below, but ultimately only care about their combinatorial definitions.
+Models of [[higher categories]] are often defined as certain collections of morphisms that are parametrized by (that is, [[presheaf|presheafs]] on) some category of 'combinatorial shapes': examples include presheafs of [[globular set|globular]], [[simplicial set|simplicial]] or [[opetope|opetopic]] shapes. [[manifold diagram|Manifold diagrams]], while defined in geometric terms, admit a combinatorialization in terms of [[n-truss|trusses]] (or, more precisely, [[trusses#comb_mdiag|combinatorial manifold diagrams]]) and can therefore be used as combinatorial shapes for defining higher categories as just described. Importantly, combinatorial manifold diagrams come with a rich class of combinatorial mappings which (in contrast to most other classes of shapes) include internal representations of both 'embeddings' (='face and degeneracy' maps, up to geometric dualization) as well as 'quotients' (='subdivisions', up to geometric dualization). We give geometric insight into these classes below, but ultimately only care about their combinatorial definitions.
 
 
 ### Embeddings of manifold diagrams
@@ -65,7 +65,7 @@ where $T' \xrightarrow{\mathsf{norm}} T$ is a normalizing map and $T' \hookright
 <center>
 <figure>
   <img src="https://ncatlab.org/nlab/files/mdiag_quotients.svg" alt="" style="width:90%; max-width: 600px; height:auto;">
-<figcaption>Figure 3: Quotients of manifold diagrams are the '<a href="ttps://ncatlab.org/nlab/show/n-truss#duality">categorically dual notion</a>' to embeddings.</figcaption>
+<figcaption>Figure 3: Quotients of manifold diagrams are the '<a href="https://ncatlab.org/nlab/show/n-truss#duality">categorically dual notion</a>' to embeddings.</figcaption>
 </figure>
 </center>
 
@@ -88,7 +88,7 @@ whose underlying map of trusses is a [[n-truss|singular]] quotient map.
 
 \begin{rmk} To summarize: while the notion embeddings of manifold diagrams recovers (after geometric dualization) face and degeneracy maps often found in the combinatorics of shapes, in contrast, the notion of quotients dual to that of embeddings captures (after geometric dualization) something new: namely, subdivisions of cells. This is quite powerful e.g. for describing compositions as we will exploit below.(Moreover, it turns out that classifying subdivisions is generally a difficult (undecidable) problem, see e.g. [Dorn-Douglas 2021](#DornDouglas21), so it is convenient that it can be solved in the setting of manifold diagrams!) \end{rmk}
 
-### Towards higher categories parametrized by manifold diagrams
+### Sketch Definition
 
 Together (and, henceforth, working purely combinatorially), embeddings and quotients organize into the *double category $\mathbb{M}\mathsf{Diag}_n$ of combinatorial manifold $n$-diagrams*, with horizonal morphisms being embeddings, vertical morphisms being quotients, squares being commuting diagrams of the following form:
 
@@ -177,9 +177,9 @@ with further details spelled out in:
 
 * {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
 
-The type of 'directed combinatorial topology' that governs the stratified topology of manifold diagrams was described in.
+The type of 'directed combinatorial topology' that governs the stratified topology of manifold diagrams was described in:
 
-* {#DornDouglas21} Christoph Dorn and Christopher Douglas, _Framed combinatorial topology_, 2021 ([pdfs](https://cxdorn.github.io/fct-book/))
+* {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([pdfs](https://cxdorn.github.io/fct-book/))
 
 
 
