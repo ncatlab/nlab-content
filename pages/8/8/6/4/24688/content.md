@@ -68,6 +68,7 @@ We provide details for the preceding definition.
 
 When considering $\mathbb{R}^n$ we tacitly always think of it as 'standard framed $\mathbb{R}^n$' and, thus, we stop mentioning the standard framing as an explicit structure all-together. Indeed, more important than defining the standard $n$-framing is to define the maps that preserve it.
 
+{#framed_map_euclidean_case}
 \begin{defn} A _framed map_ $F : \mathbb{R}^n \to \mathbb{R}^n$ is a map for which there exist (necessarily unique) maps $F_j : \mathbb{R}^j \to \mathbb{R}^j$ ($0 \leq j \leq n$) with $F_n = F$ such that $\pi_i \circ F_i = F_{i-1} \circ \pi_i$ with $F_i$ preserving orientations of fibers of $\pi_i$ (i.e. mapping fibers strictly monotously).
 \end{defn}
 
