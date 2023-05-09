@@ -6,7 +6,7 @@ The initials 'SGA I' (or in more modern times 'SGA1') refer to the [[SGA]] semin
 
 These notes contain discussion/introduction of:
 
-* [[Grothendieck fibrantions]], [[Grothendieck construction]]
+* [[Grothendieck fibration]]s, [[Grothendieck construction]]
 
 * [[Grothendieck's Galois theory]]
 
