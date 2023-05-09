@@ -1,5 +1,5 @@
 
-> This article is about ends (and coends) in [[category theory]].  For ends in [[topology]], see at [[end compactification]].
+> This article is about ends (and coends) in [[category theory]].  For ends in [[topology]], see at *[[end compactification]]*.
 
 
 +-- {: .rightHandSide}
@@ -29,7 +29,7 @@
 
 An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{op} \times C \to D$ (sometimes called a _[[bifunctor]]_).
 
-If we think of such a functor in the sense of [[profunctor]]s as encoding a left and right [[action]] on the object
+If we think of such a functor in the sense of [[profunctors]] as encoding a left and right [[action]] on the object
 
 $$
   \prod_{c \in C} F(c,c)
@@ -619,20 +619,22 @@ $$
 $$
 =--
 
-More examples can be found in [Fosco](#Fosco).
+For more examples see e.g. [Loregian (2021)](#Loregian21).
 
 ## Related concepts
 
 * [[lax biend]]
+
 * [[(∞,1)-end]]
 
 [[!include homotopy-homology-cohomology]]
 
 ## References
 
-Coends and [[ends]] were introduced by [[Nobuo Yoneda]] (of the [[Yoneda lemma]]) in the paper
+The notion of (co)ends as introduced in
 
-* [[Nobuo Yoneda]], _On Ext and exact sequences_, Journal of the Faculty of Science. University of Tokyo. Section I.  Volume 8 (1960), 507–576.
+* [[Nobuo Yoneda]], §4 of: *On ext and exact sequences* (PhD thesis), Journal of the Faculty of Science, Section I. **8** University of Tokyo (1960) 507–576 &lbrack;[pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773)&rbrack;
+
 
 An early account with an eye towards application in [[geometric realization of simplicial topological spaces]]:
 
@@ -641,8 +643,8 @@ An early account with an eye towards application in [[geometric realization of s
 
 Textbook accounts:
 
-* {#Kelly} [[Max Kelly]], _Basic concepts in enriched category theory_ 
-  ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
    
   * ends of $V$-valued bifunctors are discussed in section 2.1
 
@@ -655,7 +657,7 @@ Textbook accounts:
 
 * [[Francis Borceux]], Def. 6.6.8 in: *[[Handbook of Categorical Algebra]]*, Vol. 2:  *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
-* {#Fosco} [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
+* {#Loregian21} [[Fosco Loregian]], *Coend calculus*, Cambridge University Press (2021) &lbrack;[arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657](https://doi.org/10.1017/9781108778657), ISBN:9781108778657)&rbrack;
 
 See also:
 
