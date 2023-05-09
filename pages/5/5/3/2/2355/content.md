@@ -686,6 +686,9 @@ The definition as an isofibration of [[quasicategories]] over $\Delta[1]$ is due
 
 The original suggestion of [Joyal 2008](#Joyal08) was then much expanded on (and generalized to [[∞-cosmoi]]), in the spirit of [[formal (infinity,1)-category theory|formal $\infty$-category theory]]: 
 
+* [[Emily Riehl]], §18.6 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
+
 * {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
