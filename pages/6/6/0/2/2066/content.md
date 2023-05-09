@@ -243,16 +243,23 @@ Both examples are related by the [[Serre-Swan theorem]]. In fact both these fact
 ## References 
  {#References}
 
-A classical account is for instance in
-
-* [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0))
-  {#BorceuxDejean}
-
-For more classical references see the references at _[[Cauchy complete category]]_.
-
 The term "Karoubi envelope" appears to have been introduced in:
 
-* {#H85} Susumu Hayashi. _Adjunction of semifunctors: categorical structures in nonextensional lambda calculus_. Theoretical Computer Science 1985
+* {#Hayashi1985} [[Susumu Hayashi]], Def. 1.2 in: *Adjunction of semifunctors: categorical structures in nonextensional lambda calculus*, Theoretical Computer Science **41** (1985) 95-104 &lbrack;<a href="https://doi.org/10.1016/0304-3975(85)90062-3">doi:10.1016/0304-3975(85)90062-3</a>&rbrack;
+
+and apparently in reference to the [[universal construction]] of [[pseudo-abelian categories]] (now also: "[[Karoubian categories]]") in:
+
+* {#Karoubi78} [[Max Karoubi]], Theorem 6.10 of: *K-Theory -- An introduction*, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
+
+  > (in the context of [[topological K-theory]]).
+
+A classical account is for instance in
+
+* {#BorceuxDejean} [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0))
+  
+
+For more classical references see at  _[[Cauchy complete category]]_.
+
 
 Karoubi envelopes for [[(infinity,1)-category|(∞,1)-categories]] are discussed in section 4.4.5 of
 
@@ -304,6 +311,7 @@ A generalization of the Karoubi envelope for [[n-categories]] is in
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Condensations in higher categories_, ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
 
+[[!redirects Karoubi envelopes]]
 
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
@@ -322,3 +330,5 @@ A generalization of the Karoubi envelope for [[n-categories]] is in
 [[!redirects Karoubianization]]
 [[!redirects Karoubianization functor]]
 [[!redirects Karoubinization functor]]
+
+
