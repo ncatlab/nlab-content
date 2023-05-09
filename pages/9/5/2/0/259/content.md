@@ -198,11 +198,14 @@ Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the
 
 An overview of the material there is contained in
 
-* [[Denis-Charles Cisinski]], _Cat&#233;gories sup&#233;rieures et th&#233;orie des topos_, S&#233;minaire Bourbaki, 21.3.2015, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/1097.pdf).
+* [[Denis-Charles Cisinski]], _Cat&#233;gories sup&#233;rieures et th&#233;orie des topos_, S&#233;minaire Bourbaki, 21.3.2015 &lbrack;[pdf](http://www.math.univ-toulouse.fr/~dcisinsk/1097.pdf)&rbrack;
 
-Comprehensive textbook account:
+Textbook accounts:
+
+* [[Emily Riehl]], Part IV in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
 * [[Denis-Charles Cisinski]], _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf)&rbrack;
+
 
 
 The relation between [[quasi-category|quasi-categories]] and [[simplicially enriched categories]] was discussed in detail in 
@@ -212,9 +215,7 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
 
 
-Survey includes (see also the references at [[(infinity,1)-category]]):
-
-*[[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+Further survey:
 
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf), [[RezkQuasicategories.pdf:file]])
 
