@@ -56,8 +56,7 @@ But of course the [[automorphism infinity-group]] of both $E_n$ and $P_n$ acts o
 
 * [[Dmitry Tamarkin]], _Another proof of M. Kontsevich formality theorem_, [math.QA/9803025](http://arxiv.org/abs/math/9803025); _Formality of chain operad of little discs_, Lett. Math. Phys. __66__ (1-2):65&#8211;72, 2003.
 
-* [[Bernhard Keller]], _Notes for an
-Introduction to Kontsevich's quantization theorem_, [pdf](www.math.jussieu.fr/~keller/publ/emalca.pdf)
+* [[Bernhard Keller]], _Notes for an Introduction to Kontsevich's quantization theorem_, [pdf](https://webusers.imj-prg.fr/~bernhard.keller/publ/emalca.pdf)
 
 * Dan Petersen, _Minimal models, GT-action and formality of the little disk operad_, [arxiv/1303.1448](http://arxiv.org/abs/1303.1448)
 * Damien Calaque, Carlo A. Rossi, _Lectures on Duflo isomorphisms in Lie algebra and complex geometry_, European Math. Soc. 2011 [MPI pdf](http://people.mpim-bonn.mpg.de/crossi/LectETHbook.pdf)
