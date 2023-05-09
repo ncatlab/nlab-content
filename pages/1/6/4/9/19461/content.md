@@ -28,6 +28,8 @@ A term is strongly normalizing if every sequence of rewrites eventually terminat
 
 In the [[untyped lambda calculus]] the term $(\lambda x . x x x) (\lambda x . x x x)$ is neither strongly nor weakly normalizing.
 
+One method for obtaining normal forms, in the context of [[dependent type theory]], is [[normalisation by evaluation]].
+
 ## Related concepts
 
 * [[canonical form]]
