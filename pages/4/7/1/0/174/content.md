@@ -270,7 +270,7 @@ More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 The "[[brane scan]]" table showing the consistent dimension pairs for the [[Green-Schwarz action functional]] was depicted in
 
-* [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+* [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 ([scan] (https://iopscience.iop.org/article/10.1088/0264-9381/5/1/023/pdf))
 {#Duff}
 
 going back to
