@@ -8,6 +8,11 @@ Martina Rovelli is an Assistant Professor at University of Massachusetts Amherst
 
 ## Selected Publications
 
+On [[weighted limit|weighted]] [[(infinity,1)-limits|$(\infty,1)$-limits]]:
+
+* [[Martina Rovelli]], _Weighted limits in an (∞,1)-category_ (2019) &lbrack;[arxiv:1902.00805](https://arxiv.org/abs/1902.00805)&rbrabck;
+
+
 On the [[adjunction unit]] of [[total décalage]]:
 
 * [[Viktoriya Ozornova]], [[Martina Rovelli]], *The unit of the total décalage adjunction*, Journal of Homotopy and Related Structures **15** (2020) 333–349 &lbrack;[doi.org/10.1007/s40062-020-00257-1](https://doi.org/10.1007/s40062-020-00257-1)&rbrack;
