@@ -305,13 +305,14 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 * [[enriched type]]
 
+
 ## References
 
-The idea that it is worthwhile to replace hom-sets by "hom-objects" (in some sense) is perhaps first present in §24 of
+The idea that it is worthwhile to replace [[hom-sets]] by "[[hom-objects]]" (in some sense) is perhaps first present in 
 
-* [[Saunders MacLane]]. *Categorical algebra* Bulletin of the American Mathematical Society 71.1 (1965): 40-106.
+* [[Saunders MacLane]], §24 of: *Categorical algebra* Bulletin of the American Mathematical Society 71.1 (1965): 40-106.
 
-The earliest accounts of enriched categories were given independently by Bénabou and Maranda:
+The earliest accounts of enriched categories were given independently in:
 
 * [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
 
@@ -331,11 +332,9 @@ Enrichment in a [[multicategory]] was first suggested in:
 
 Textbook accounts:
 
-* {#Kelly82}[[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
+* {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
-  republished as:
 
-  Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 * [[Francis Borceux]], Chapter 6 of: _[[Handbook of Categorical Algebra]] Vol 2: Categories and Structures_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
