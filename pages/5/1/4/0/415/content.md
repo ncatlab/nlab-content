@@ -190,6 +190,8 @@ Textbook accounts:
 ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)
 
 
+* [[Emily Riehl]], §3.7 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 
 
 [[!redirects copowers]]
