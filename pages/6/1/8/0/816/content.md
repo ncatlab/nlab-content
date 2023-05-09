@@ -288,6 +288,9 @@ is discussed there in definition 14.7.8 on p. 269.
 
 * for $V$ set to [[SimpSet]] the above definition of homotopy limit appears in example 18.3.6 (2).
 
+* [[Emily Riehl]], §6.6 and Chapter 7 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
+
 Discussion of weighted [[(infinity,1)-limit|$(\infty,1)$-limits]]:
 
 * [[Martina Rovelli]], _Weighted limits in an (∞,1)-category_ (2019) &lbrack;[arxiv:1902.00805](https://arxiv.org/abs/1902.00805)&rbrack;
