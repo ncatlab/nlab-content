@@ -996,9 +996,14 @@ The  [[category of simplicial objects]] $sCh(R Mod)_\bullet$ in the projective m
 \]
 \end{proposition}
 \begin{proof}
-The existence as a simplicial model categor and its Quillen equivalence is due to [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using methods like those discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
+The existence as a simplicial model category and Quillen equivalence of the underlying categories is due to [Rezk, Schwede & Shipley (2001), cor. 4.6](#RezkSchwedeShipley01), using methods like those discussed at *[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)*.
 
-Moreover, general facts imply that the left Bousfield localization of a Reedy model category into a combinatorial model category is itself combinatorial (see [here](Reedy+model+structure#ReedyStructureCofibrantlyGenerated) and [here](Bousfield+localization+of+model+categories#Existence)).
+Moreover, general facts imply that 
+
+1. a Reedy model structure with coefficients in a combinatorial model category is itself combinatorial (see [here](Reedy+model+structure#CombinatorialStructure))
+
+1. the [[left Bousfield localization]] of a combinatorial model category is itself combinatorial (see [here](Bousfield+localization+of+model+categories#Existence)).
+
 \end{proof}
 
 Below, this model structure is recovered as example \ref{CategoricalProjectiveClasses} of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults).
