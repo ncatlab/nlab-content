@@ -966,7 +966,8 @@ has a famous treatment of Kan extensions with a statement: "The notion of Kan ex
 
 Lecture notes with an eye towards applications in [[homotopy theory]] include
 
-* {#Riehl} [[Emily Riehl]], _Categorical homotopy theory_ ([pdf](https://math.jhu.edu/~eriehl/cathtpy.pdf)).
+* {#Riehl} [[Emily Riehl]], Chapter 1 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+
 
 For Kan extensions in the context of [[enriched category theory]] see
 
