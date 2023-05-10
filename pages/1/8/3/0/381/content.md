@@ -126,16 +126,19 @@ Based on this fact, there are attempts to weaken the condition on a [[simplicial
 
 Strict $\omega$-categories have probably been independently invented by several people.  
 
-According to [Street 09, p. 10](#Street09) the concept was first brought up by [[John Roberts]] 1977-1978, in an attempt to define [[non-abelian cohomology]] (of [[local nets of observables]] in [[algebraic quantum field theory]]).
+According to [Street 09, p. 10](#Street09) the concept was first brought up in
+
+* {#Roberts79} [[John E. Roberts]], *Mathematical Aspects of Local Cohomology*, in: *Algèbres d’opérateurs et leurs applications en physique mathématique*, Colloques Internationaux du Centre National de la Recherche Scientifique (C.N.R.S) **274**, Paris (1979) 321–332 &lbrack;ISBN:2-222-02441-2, [pdf](https://dmitripavlov.org/scans/roberts-mathematical-aspects-of-local-cohomology.pdf), [[Roberts-LocalCohomology.pdf:file]]&rbrack;
+
+in an attempt to define [[non-abelian cohomology]] (of [[local nets of observables]] in [[algebraic quantum field theory]]).
 
 Possibly the earliest published definition is due to
 
-* [[Ronnie Brown]] and P.J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cah. Top. G&#233;om. Diff. 22 (1981) no. 4, 371-386 [web](http://www.numdam.org/item?id=CTGDC_1981__22_4_371_0).
+* [[Ronnie Brown]] and P. J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cah. Top. G&#233;om. Diff. 22 (1981) no. 4, 371-386 [web](http://www.numdam.org/item?id=CTGDC_1981__22_4_371_0).
 
 which also contains the definitions of [[n-fold category]] and of what was later called [[globular set]]. There these strict, globular higher categories are called "$\infty$-categories" while "$\omega$-groupoid" is used  to mean a cubical set with connections and compositions, each a groupoid, as in 
 
-* R. Brown and P.J. Higgins,  _On the algebra of cubes_,  J. Pure
-Appl.  Algebra 21 (1981) 233-260.
+* R. Brown and P.J. Higgins,  _On the algebra of cubes_,  J. Pure Appl.  Algebra 21 (1981) 233-260.
 
 Applications to homotopy theory were given in
 
@@ -159,7 +162,7 @@ in which strict $\omega$-categories are called "$\omega$-categories."  This pape
 
 A review of some of the theory in the context of some of the history is given in 
 
-* {#Street09} [[Ross Street]], _An Australian conspectus of higher categories_, chapter in _Towards Higher Categories_ Volume 152 of the series The IMA Volumes in Mathematics and its Applications pp 237-264 ([pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf))
+* {#Street09} [[Ross Street]], _An Australian conspectus of higher categories_, in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152**, Springer (2010) 237-264 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf), [[Street-Conspectus.pdf:file]], [doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5)&rbrack;
 
 and also in
 
