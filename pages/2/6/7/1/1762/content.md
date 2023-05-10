@@ -71,6 +71,12 @@ On [[comprehensive factorization systems]] and [[torsors]]:
 
 * [[Ross Street]], [[Dominic Verity]], *The comprehensive factorization and torsors*, [[TAC]] **23** (2010)  42-75 &lbrack;[tac:23-03](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)&rbrack;
 
+On the history of Australian [[higher category theory]] (such as the role of [Roberts (1979)](John+Elias+Roberts#Roberts79)):
+
+* [[Ross Street]], *An Australian conspectus of higher category theory*, talk at Institute for Mathematics and its Applications Summer Program: *$n$-Categories: Foundations and Applications* at the University of Minnesota (Minneapolis, 7–18 June 2004), in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152**, Springer (2010) 237-264 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf), [[Street-Conspectus.pdf:file]], [doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5)&rbrack;
+
+
+
 On [[monoidal categories]]:
 
 * [[Ross Street]], *Monoidal categories in, and linking, geometry and algebra*, Bull. Belg. Math. Soc. Simon Stevin **19** 5 (2012) 769-820 &lbrack;[arXiv:1201.2991](https://arxiv.org/abs/1201.2991), [doi:10.36045/bbms/1354031551](https://projecteuclid.org/journals/bulletin-of-the-belgian-mathematical-society-simon-stevin/volume-19/issue-5/Monoidal-categories-in-and-linking-geometry-and-algebra/10.36045/bbms/1354031551.full)&rbrack;
