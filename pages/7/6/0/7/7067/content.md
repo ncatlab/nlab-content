@@ -65,3 +65,8 @@ Review:
 
 [[!redirects algebraic model structure]]
 [[!redirects algebraic model structures]]
+
+Other literature:
+
+* Patrick M. Schultz, [Algebraic Weak Factorization Systems in Double Categories](https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/18429/Schultz_oregon_0171A_11048.pdf) (2014)
+* Gabriel Bainbridge, [Some Constructions of Algebraic Model Categories](https://etd.ohiolink.edu/apexprod/rws_etd/send_file/send?accession=osu1620719585729611&disposition=inline) (2021)
