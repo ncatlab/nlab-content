@@ -1697,6 +1697,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
   * [[dual adjunction]]
 
+  * [[adjunction of two variables]]
+
   * [[ambidextrous adjunction]]
 
   * [[adjoint monad]]
