@@ -233,7 +233,8 @@ There is another [[Hurewicz model structure on chain complexes]] whose homotopy 
 
 * [[Charles Weibel]], section 1.1 _[[An Introduction to Homological Algebra]]_.
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], section 11 of _[[Categories and Sheaves]]_,
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 11 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
 
 * [[Urs Schreiber]], [chapter II](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#ChapterOnChainComplexes) of  _[[schreiber:HAI|Introduction to Homological Algebra]]_
 
