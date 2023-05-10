@@ -70,6 +70,8 @@ and, in addition, often
 
   > (focus on [[Reshetikhin-Turaev construction]] of [[modular functors]] from [[modular tensor categories]])
 
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 4 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
 * [[Damien Calaque]], [[Pavel Etingof]], _Lectures on tensor categories_, IRMA Lectures in Mathematics and Theoretical Physics 12, 1-38 (2008) ([arXiv:math/0401246](https://arxiv.org/abs/math/0401246))
 
 * [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], _Topics in Lie theory and Tensor categories -- 9 Tensor categories_, Lecture notes (spring 2009) ([pdf](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/MIT18_769S09_lec09.pdf) [web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/)) 
