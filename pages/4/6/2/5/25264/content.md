@@ -19,7 +19,7 @@ and specifically on the aspect of [[representation stability]]
 
 * [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
 
-* [[Jenny Wilson]], *Stability patterns for braid groups and configuration spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#WilsonApr2023) [[CQTS]] (Apr 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WilsonApr2023)&rbrack;
+* [[Jenny Wilson]], *Stability patterns for braid groups and configuration spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#WilsonApr2023) [[CQTS]] (Apr 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WilsonApr2023), slides:[pdf](https://ncatlab.org/nlab/files/Wilson-CQTS-Apr-2023.pdf), video:[YT](https://www.youtube.com/watch?v=uO2CFY7h5lo)&rbrack;
 
 
 category: people
