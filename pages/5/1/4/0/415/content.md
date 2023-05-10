@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -35,15 +36,13 @@ The [[formal duality|dual]] notion is that of *[[powering]]*.
 
 ## Definition 
 
-+-- {: .un_defn}
-###### Definition
-
+\begin{definition}\label{CopowerDefinition}
 Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]] serving as the [[cosmos for enrichment]]. 
 
  In a $V$-[[enriched category]] $\mathbf{C}$, the **copower** of an object $c \in \mathbf{C}$ by an object $v \in V$ is an object $v \cdot c \in \mathbf{C}$ with a [[natural isomorphism]]
 
 $$
-  \mathbf{V}\big(
+  \mathbf{C}\big(
     v \cdot c,\, c'
   \big) 
   \;\;\cong\;\; 
@@ -56,20 +55,17 @@ $$
 
 where 
 
-* $C(-,-)$ denotes the $V$-valued [[hom-object]] of $C$ 
+* $\mathbf{C}(-,-)$ denotes the $V$-valued [[hom-object]] of $C$,
 
 * $\mathbf{V}(-,-)$ denotes correspondingly the [[internal hom]] of $V$ (i.e. the [[hom-object]] with respect to its canonical self-enrichment).
 
-=--
+\end{definition}
 
-+-- {: .un_remark}
-###### Remark
-**(terminology)**
-\linebreak
+\begin{remark}
+**(terminology)** \linebreak
 Copowers are frequently called _tensors_ and a $V$-category having all copowers is called _tensored_, while the word "copower" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a copower) is a colimit, while a cotensor (= [[power]]) is a limit.
+\end{remark}
 
-
-=--
 
 ## Properties
 
