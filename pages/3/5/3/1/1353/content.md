@@ -110,7 +110,11 @@ A [[model category]] structure on [[stratified simplicial sets]] modelling [[(in
 A [[Quillen adjunction]] relating [[n-complicial sets|$n$-complicial sets]] to [[n-fold complete Segal spaces|$n$-fold complete Segal spaces]]:
 
 * [[Viktoriya Ozornova]], [[Martina Rovelli]], *A Quillen adjunction between globular and complicial approaches to $(\infty,n)$-categories*, Advances in Mathematics
-**421** (2023) 108980 &lbrack;[doi:10.1016/j.aim.2023.108980](https://doi.org/10.1016/j.aim.2023.108980)&rbrack;
+**421** (2023) 108980 &lbrack;[doi:10.1016/j.aim.2023.108980](https://doi.org/10.1016/j.aim.2023.108980), [arXiv:2206.02689](https://arxiv.org/abs/2206.02689)&rbrack;
+
+Review:
+
+* {#Rovelli2023} [[Martina Rovelli]], *$n$-Complicial sets as a model for $(\infty,n)$-categories*, [talk at](Center+for+Quantum+and+Topological+Systems#RovelliMay2023) *[[CQTS]]* (2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#RovelliMay2023), video: [YT](https://www.youtube.com/watch?v=T9Bg1AdaKv8)&rbrack;
 
 
 
