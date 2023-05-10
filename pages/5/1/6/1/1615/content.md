@@ -275,8 +275,16 @@ see for instance ([B&#228;r-Ginoux 11](#BarGinoux11))
 
 
 ## References
+ {#References}
 
-For more details see the references at [[AQFT]].
+For historical references see at *[[AQFT]]*.
+
+In particular:
+
+Early suggestion of a notion of [[non-abelian cohomology]] of local nets of observables with [[coefficients]] in [[infinity-categories|$\infty$-categories]] (cf. history recalled in [Street (2010), p. 9-10](strict+omega-category#Street09)):
+
+* {#Roberts79} [[John E. Roberts]], *Mathematical Aspects of Local Cohomology*, in: *Algèbres d’opérateurs et leurs applications en physique mathématique*, Colloques Internationaux du Centre National de la Recherche Scientifique (C.N.R.S) **274**, Paris (1979) 321–332 &lbrack;ISBN:2-222-02441-2, [pdf](https://dmitripavlov.org/scans/roberts-mathematical-aspects-of-local-cohomology.pdf), [[Roberts-LocalCohomology.pdf:file]]&rbrack;
+
 
 ### General
 
