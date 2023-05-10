@@ -36,7 +36,7 @@ that is given by forming the [[determinant]] ([[sign representation]]):
     &\longrightarrow&
     k
     \\
-    (g, c ) &\mapsto& det\big( \phi(g) \big)
+    (g, c ) &\mapsto& det\big( \phi(g) \big) \cdot c
   }
   \right)
   \,.
