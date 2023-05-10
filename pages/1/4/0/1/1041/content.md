@@ -281,15 +281,17 @@ Other classic references, now available online, include:
 
 Textbook accounts:
 
-* A.J. Berrick and M.E. Keating, Categories and Modules, with K-theory in View, Cambridge studies in advanced mathematics Vol 67, Cambridge University Press 2000.
-
-* [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
-
 * N. Popescu, _[[Abelian categories with applications to rings and modules]]_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
 
-* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 1 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
+* [[Saunders MacLane]], Chapter VIII of: _[[Categories for the Working Mathematician]]_ (1978)
 
-Reviews:
+* A. J. Berrick and M. E. Keating, *Categories and Modules, with K-theory in View*, Cambridge Studies in Advanced Mathematics **67**, Cambridge University Press (2000
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 8 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Chapter 1 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
+
+Further review:
 
 * Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf](http://www-bcf.usc.edu/~lauda/teaching/rankeya.pdf))
 
