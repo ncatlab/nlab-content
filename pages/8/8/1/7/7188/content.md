@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _measurable functions_ are those functions between [[measure spaces]] amenable to treatment in [[measure theory]], hence they are the evident _[[homomorphisms]]_ between [[measure spaces]].
+The _measurable functions_ are those functions between [[measurable spaces]] amenable to treatment in [[measure theory]], hence they are the evident _[[homomorphisms]]_ between [[measurable spaces]].
 
 
 ## Definitions
