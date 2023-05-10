@@ -60,13 +60,18 @@ Review:
 
 * [[Emily Riehl]], §12.9 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
+See also:
+
+* Patrick M. Schultz, *Algebraic Weak Factorization Systems in Double Categories*, PhD thesis, University of Orego (2014) &lbrack;[hdl:1794/18429](http://hdl.handle.net/1794/18429), [pdf](https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/18429/Schultz_oregon_0171A_11048.pdf?sequence=1&isAllowed=y)&rbrack;
+
+* Gabriel Bainbridge, *Some Constructions of Algebraic Model Categories*, PhD thesis, Ohio State University (2021) &lbrack;[pdf](https://etd.ohiolink.edu/apexprod/rws_etd/send_file/send?accession=osu1620719585729611&disposition=inline), [[Bainbridge-AlgebraicModelCategories.pdf:file]]&rbrack;
+
+
 
 [[!redirects algebraic model categories]]
 
 [[!redirects algebraic model structure]]
 [[!redirects algebraic model structures]]
 
-Other literature:
 
-* Patrick M. Schultz, [Algebraic Weak Factorization Systems in Double Categories](https://scholarsbank.uoregon.edu/xmlui/bitstream/handle/1794/18429/Schultz_oregon_0171A_11048.pdf) (2014)
-* Gabriel Bainbridge, [Some Constructions of Algebraic Model Categories](https://etd.ohiolink.edu/apexprod/rws_etd/send_file/send?accession=osu1620719585729611&disposition=inline) (2021)
+
