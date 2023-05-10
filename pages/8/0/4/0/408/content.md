@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### 2-Category theory
 +--{: .hide}
 [[!include 2-category theory - contents]]
@@ -15,44 +19,48 @@
 
 ## Idea
 
-An _adjunction of two variables_ is a straightforward generalization of both:
+The notion of _adjunction of two variables_ is a natural  generalization of both that of:
 
-* the [[internal hom]] in a [[biclosed monoidal category]] 
+1. [[internal homs]] in a [[biclosed monoidal category]] 
 
-and
+2. $V$-[[enriched categories]] having [[powers]] and [[copowers]].
 
-* a $V$-[[enriched category]] having [[powers]] and [[copowers]]
-
-by extracting the central pattern.
 
 ## Definition
 
-Let $C$, $D$ and $E$ be [[category|categories]]. An **adjunction of two variables** or **two-variable adjunction**
+Let $C$, $D$ and $E$ be [[categories]]. An **adjunction of two variables** or **two-variable adjunction**
 
 $$
- (\otimes, hom_l, hom_r) : C \times D \to E
+ (\otimes, hom_l, hom_r) 
+ \,\colon\, 
+  C \times D \longrightarrow E
 $$
 
-consists of [[bifunctors]]
+consists of [[bifunctors]] of this form
 
 $$
 \begin{aligned}
-  \otimes & : C \times D \to E
+  \otimes & \colon C \times D \longrightarrow E
   \\
-  hom_l &: C^{op} \times E \to D
+  hom_l & \colon C^{op} \times E \longrightarrow D
   \\
-  hom_r &: D^{op} \times E \to C
+  hom_r & \colon D^{op} \times E \longrightarrow C
 \end{aligned}
 $$
 
-together with natural [[isomorphism]]s
+together with [[natural isomorphism]] of this form:
 
 $$
-  E(c \otimes d, e)
-  \simeq
-  D(d, hom_l(c,e))
-  \simeq
-  C(c, hom_r(d,e))
+  c \in C,\, d \in D,\, e \in E
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  E\big(c \otimes d,\, e\big)
+  \;\simeq\;
+  D\big(d,\, hom_l(c,e)\big)
+  \;\simeq\;
+  C\big(c,\, hom_r(d,e)\big)
+  \,.
 $$
 
 ## Cyclicity
@@ -73,23 +81,34 @@ There is a straightforward generalization to an adjunction of $n$ variables, whi
 
 This 2-multicategory can also be promoted to a 2-[[polycategory]]; see [Shulman](#Shulman).
 
-## Adjunctions with a parameter
-
-In [[CWM]] Theorem IV.7.3, [[Mac Lane]] introduced the notion of **adjunction with a parameter**, which is equivalent to the notion of two-variable adjunction.
 
 ## Related concepts
+
+* [[adjoint functor]]
 
 * [[Quillen bifunctor]]
 
 ## References
 
-* [[John Gray]], *Closed categories, lax limits and homotopy limits*. J. Pure Appl. Algebra 19 (1980), 127--158.  Possibly the oldest abstract definition of the concept, under the name "THC-situation".
+Under the name "*adjunction with a parameter*" the concept appears in:
 
-* [[Mark Hovey]]. *Model Categories*, volume 63 of Mathematical Surveys and Monographs. American Mathematical Society, 1999.  See Chapter 4.
+* {#MacLane71} [[Saunders MacLane]], §IV.7, Thm. 3 (p. 100) of: _[[Categories Work|Categories for the working mathematician]]_, Graduate Texts in Mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* [[Rene Guitart]], *Trijunctions and triadic Galois connections*. Cah. Topol. Géom. Différ. Catég. 54 (2013), no. 1, 13--27.
+Under the name "*THC-situation*" the concept is discussed in:
 
-* {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
+* [[John Gray]], Def. 1.1 in: *Closed categories, lax limits and homotopy limits*. J. Pure Appl. Algebra **19** (1980) 127 - 158 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90098-5">doi:10.1016/0022-4049(80)90098-5</a>&rbrack;
+
+The terminology *adjunction of two variables* is used in:
+
+* {#Hovey99} [[Mark Hovey]], Def. 4.1.12 in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+
+
+Generalization to $n$-variable adjunctions:
+
+* {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates" &lbrack;[arXiv:1208.4520](http://arxiv.org/abs/1208.4520)&rbrack;
+
+
+* [[Rene Guitart]], *Trijunctions and triadic Galois connections*. Cah. Topol. Géom. Différ. Catég. 54 (2013), no. 1, 13-27
 
 * {#Shulman} [[Mike Shulman]], *The 2-Chu-Dialectica construction and the polycategory of multivariable adjunctions*, [arxiv:1806.06082](https://arxiv.org/abs/1806.06082), [blog post](https://golem.ph.utexas.edu/category/2017/11/the_polycategory_of_multivaria.html)
 
