@@ -84,7 +84,7 @@ This is based on the discussion of [[straightening and unstraightening]] entirel
 
 which (along the lines of the discussion of the universal left fibration from [Cisinski 2019](universal+left+fibration#Cisinski19)) allows to understand the [[universal coCartesian fibration]] as [[categorical semantics]] for the [[univalence axiom|univalent]] [[type universe]] in [[directed homotopy type theory]] (see [video 3 at 1:16:58](https://youtu.be/P0Cfb4eUJo4?t=4618) and [slide 3.33](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk3.pdf#page=33)).
 
-But the actual type-theoretic syntax ([[inference rules]]) for this intended semantics remains to be given:
+{#CisinskiOnSyntax} But the actual type-theoretic syntax ([[inference rules]]) for this intended semantics remains to be given:
 
 > &lbrack;[[Denis-Charles Cisinski|Cisinski]] in [video 3 at 1:27:43](https://youtu.be/P0Cfb4eUJo4?t=5263)&rbrack;: I won't provide the full [[syntax]] yet and actually I would be very happy to discuss that, because we don't know yet and I have questions myself, actually.
 
