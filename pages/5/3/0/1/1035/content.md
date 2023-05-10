@@ -380,6 +380,11 @@ Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says
 
 ## References
 
+Textbook accounts:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 8 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
+
 Discussion of [[model category]] structures on additive categories is around def. 4.3 of 
 
 * {#Beligiannis} Apostolos Beligiannis, _Homotopy theory of modules and Gorenstein rings_, Math. Scand. 89 (2001) ([pdf](http://users.uoi.gr/abeligia/mathscand.pdf))
