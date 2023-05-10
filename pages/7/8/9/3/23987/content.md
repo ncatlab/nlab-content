@@ -1057,11 +1057,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-* Ilya Kuprov (University of Southampton):
+* {#KuprovMay2023} 8 May 2023
+
+  [Ilya Kuprov](https://www.southampton.ac.uk/people/5x97wv/doctor-ilya-kuprov) (University of Southampton):
 
   **Optimal control of large spin systems**
 
   cf.: [arXiv:2107.00933](https://arxiv.org/abs/2107.00933), [arXiv:2303.09458](https://arxiv.org/abs/2303.09458)
+
+  video: [YT](https://www.youtube.com/watch?v=FxhaT9s829Q)
 
   > In [[NMR|magnetic resonance]], optimal control theory is used to generate pulses and pulse sequences that achieve instrumentally difficult objectives (for example, uniform 13C excitation in a 1.2 GHz magnet) with high precision under stringent time and radiofrequency/microwave power constraints. At the moment, the most popular framework is GRAPE (gradient ascent pulse engineering, [10.1016/j.jmr.2004.11.004](https://doi.org/10.1016/j.jmr.2004.11.004)). This lecture reports our recent mathematical and software engineering work on the various extensions and refinements of the GRAPE framework, and on its implementation as a module of Spinach library. Recently implemented functionality includes: fidelity Hessians and regularised Newton-Raphson optimisation, generalised curvilinear waveform parametrisation, prefix and suffix pulse sequences, multi-target and subspace control, keyhole states and subspaces, cooperative pulses and phase cycles, and piecewise-linear control sequences. In keeping with the long tradition, the methods are also directly applicable to quantum technologies outside Magnetic Resonance.
 
@@ -1556,6 +1560,8 @@ Stone-von Neumann**
 
   slides: [[Wilson-CQTS-Apr-2023.pdf:file]]
 
+  video: [YT](https://www.youtube.com/watch?v=uO2CFY7h5lo)
+
   > This talk will give an introduction of the field of '[[representation stability]]'. I will discuss how we can use [[representation theory]] to illuminate the structure of certain families of [[groups]] or [[topological spaces]] with [[group action|actions]] of the [[symmetric groups]], focusing on [[braid groups]] and [[configuration spaces of points|configuration spaces]] as motivating examples.
 
 \linebreak
@@ -1569,6 +1575,8 @@ Stone-von Neumann**
   **$n$-Complicial sets as a model for $(\infty,n)$-categories**
 
   cf.: [arXiv:1809.10621](https://arxiv.org/abs/1809.10621), [arXiv:2206.02689](https://arxiv.org/abs/2206.02689)
+
+  video: [YT](https://www.youtube.com/watch?v=T9Bg1AdaKv8)
 
   > The formalism of [[extended TQFTs]] relies the notion of an [[(infinity,n)-category|$(\infty,n)$-category]]: a categorical structure with [[n-morphism|morphisms in each dimension]], which can be composed in a weakly associative way, and which are weakly invertible in dimension higher than $n$. In this expository talk I will describe the notion of an [[n-complicial sets|$n$-complicial set]], explain the intuition for how this implements the idea of an [[(infinity,n)-category|$(\infty,n)$-category]], and discuss some of the advantages and disadvantages of this approach.
 
