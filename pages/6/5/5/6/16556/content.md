@@ -13,8 +13,11 @@ On (co-)[[fibered categories]]:
 
 On [[category theory]] formulated "[[formal category theory|formally]]" in the [[2-category]] [[Cat]] of all [[categories]]:
 
-* [[John Gray]], _[[Adjointness for 2-Categories|Formal category theory: adjointness for 2-categories]]_, Lecture Notes in Mathematics, Vol. 391. 
-Springer 1974 ([doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280))
+* [[John Gray]], _[[Adjointness for 2-Categories|Formal category theory: adjointness for 2-categories]]_, Lecture Notes in Mathematics **391**  Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack;
+
+Early discussion of *[[adjunctions of two variables]]* under the name "[[THC-situation]]":
+
+* [[John Gray]], *Closed categories, lax limits and homotopy limits*. J. Pure Appl. Algebra **19** (1980) 127 - 158 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90098-5">doi:10.1016/0022-4049(80)90098-5</a>&rbrack;
 
 
 ## Related entries
