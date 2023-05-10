@@ -569,7 +569,10 @@ Discussion of the relation to [[stable model categories]] originates in
 * {#Hovey99} [[Mark Hovey]], section 7 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 
-Other surveys include
+Other surveys:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 10 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
 
 * {#Hubery} [[Andrew Hubery]], _Notes on the octahedral axiom_, ([pdf](http://math-www.uni-paderborn.de/user/hubery/static/Octahedral.pdf))
 
