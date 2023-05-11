@@ -39,7 +39,7 @@ The [[formal duality|dual]] notion is that of *[[powering]]*.
 \begin{definition}\label{CopowerDefinition}
 Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]] serving as the [[cosmos for enrichment]]. 
 
- In a $V$-[[enriched category]] $\mathbf{C}$, the **copower** of an object $c \in \mathbf{C}$ by an object $v \in V$ is an object $v \cdot c \in \mathbf{C}$ with a [[natural isomorphism]]
+ In a $V$-[[enriched category]] $\mathbf{C}$, the **copower** of an object $c \in \mathbf{C}$ by an object $v \in V$ is an object $v \cdot c \in \mathbf{C}$ with a ([[enriched natural transformation|$V$-enriched]]-)[[natural isomorphism]]
 
 $$
   \mathbf{C}\big(
