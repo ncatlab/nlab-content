@@ -331,5 +331,5 @@ $$
 
 
 
-[[!redirects truss]]
+[[!redirects n-trusses]]
 [[!redirects trusses]]
