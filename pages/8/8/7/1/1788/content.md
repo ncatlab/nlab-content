@@ -1,3 +1,15 @@
+
+$$
+  \begin{array}{c}
+    x
+    \\
+    ---
+    \\
+    xx
+  \end{array}
+$$
+
+
 $$
   \begin{array}{ll}
     \cdots
