@@ -27,7 +27,7 @@ A [[functor]] $F \colon C\to D$ is **conservative** if it is "isomorphism-[[refl
 +-- {: .num_remark}
 ###### Remark
 
-Sometimes conservative functors are assumed to be [[faithful functor|faithful]] as well.  If $C$ has, and $F$ preserves, [[equalizer]]s, then conservativity implies faithfulness.
+Sometimes (e.g. in the [[Elephant]]) conservative functors are assumed to be [[faithful functor|faithful]] as well.  If $C$ has, and $F$ preserves, [[equalizer]]s, then conservativity implies faithfulness.
 
 =--
 
