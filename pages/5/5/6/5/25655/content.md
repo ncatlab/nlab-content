@@ -80,6 +80,7 @@ $$
 $$
 \end{defn}
 
+{#n-truss_bundle_map}
 \begin{defn} An _$n$-truss bundle map_ $F : T \to T'$ is a tower of 1-truss bundle maps $F_i : q_i \to q'_i$ where $F_{i-1}$ is the base map of $F_i$ and $F_n \equiv F : T_n \to T'_n$. The adjectives 'regular' resp. 'singular' resp. 'dimension-preserving' apply to $F$ if they apply to all $F_i$. If $T$ and $T'$ have the same base $P$, then $F$ is called _base-preserving_ if $F_0 = \mathrm{id}_P$.
 \end{defn}
 
@@ -174,6 +175,7 @@ Thus there is a 'spectrum' of base/label structures on which we can reasonably c
 
 Another important part of truss theory is normalization.
 
+{#normalizing_map}
 \begin{defn} Given $C$-labeled $n$-truss bundles $T$ and $T'$ over $P$, a _normalizing map_ $F : T \to T'$ is a labeled $n$-truss bundle map which is:
 
 1. regular;
@@ -249,6 +251,7 @@ Certain labeled trusses are the 'combinatorial' analogues of [[manifold diagrams
 \begin{defn} Given an open $n$-truss $T$ and an element $x \in T_n$, define the _neighborhood_ $T^{\leq x}$ of $x$ to be the unique open truss that comes with a dimension-preserving map $F : T^{\leq x} \hookrightarrow T$ such that $F : T^{\leq x}_n \hookrightarrow T_n$ is an inclusion of the downward closure of $x$ into the poset $(T_n,\leq)$.
 \end{defn}
 
+{#atomic_trusses_terminology}
 \begin{terminology} Given an open $n$-truss $T$ with $x \in T_n$ such that $T^{\leq x} = T$, we say $T$ is an _atomic_ open $n$-truss with _cone point_ $x$ (in [Dorn-Douglas 2021, Ch. 2](#DornDouglas21), atomic $T$ are called 'truss braces').
 \end{terminology}
 
