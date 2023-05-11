@@ -36,13 +36,39 @@ See [[conservative morphism]] for a generalization to an arbitrary [[2-category]
 ## Examples
 
 
++-- {: .num_example #FullyFaithfulFunctorIsConservative}
+###### Example
+
+Every [[fully faithful functor]], and more generally any [[pseudomonic functor]], is a conservative functor. Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
+
+=--
+
+An example of a functor that is conservative but not full is the inclusion of the [[groupoid core]] of a [[category]] that is not a groupoid into that category.  An example of a functor that is conservative but not faithful is the unique functor from any groupoid with two distinct isomorphisms $f, g : x \to y$ to the [[terminal]] groupoid.
+
++-- {: .num_example #MonadicFunctorIsConservative}
+###### Example
+
+Every [[monadic functor]] is a conservative functor (see also at *[[monadicity theorem]]*): 
+
+For a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
+
+=--
+
+
++-- {: .num_prop #Condition_for_Conservativity}
+###### Proposition
+
+A functor $F: C \to D$ is conservative if and only if $F(f)$ being an identity morphism implies that $f$ is an isomorphism.
+
+=--
+
 +-- {: .num_prop #PullbackAlongEpimorphisms}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] with [[pullbacks]]. Given any [[morphism]] $f \colon X \longrightarrow Y$ in $\mathcal{C}$ write
+Let $C$ be a [[category]] with [[pullbacks]]. Given any [[morphism]] $f \colon X \longrightarrow Y$ in $C$ write
 
 $$
-  f^\ast \colon \mathcal{C}_{/Y} \longrightarrow \mathcal{C}_{/X}
+  f^\ast \colon C_{/Y} \longrightarrow C_{/X}
 $$
 
 for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base change]]). If [[strong epimorphisms]] in $\mathcal{C}$ are preserved by pullback, then the following are equivalent:
@@ -53,33 +79,13 @@ for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base c
 
 =--
 
-(e.g. [Johnstone, lemma A.1.3.2](#Jonstone))
+(e.g. [Johnstone, lemma A.1.3.2](#Johnstone))
 
-
-+-- {: .num_example #FullyFaithfulFunctorIsConservative}
-###### Example
-
-Every [[fully faithful functor]], and more generally any [[pseudomonic functor]], is a conservative functor.
-
-Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
-
-An example of a functor that is conservative but not fully faithful is the inclusion of the [[groupoid core]] of a [[category]] into the category.
-
-=--
 
 +-- {: .num_example #ConservativeFunctorsBetweenPretoposesAreInjectiveOnSubobjectLattices}
 ###### Example
 
 When $C$ and $D$ are [[pretopos|pretoposes]], a pretopos morphism $F \colon C \to D$ is conservative if and only if for every object $c \in C$, the induced map between [[poset of subobjects | subobject lattices]] $F^{(c)} : \operatorname{Sub}(c) \to \operatorname{Sub}(F(c))$ is injective.
-
-=--
-
-+-- {: .num_example #MonadicFunctorIsConservative}
-###### Example
-
-Every [[monadic functor]] is a conservative functor (see also at *[[monadicity theorem]]*): 
-
-For a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
 
 =--
 
@@ -112,7 +118,7 @@ Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and s
 
 * Geun Bin Im, [[Gregory Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](http://mathnet.kaist.ac.kr/mathnet/thesis_file/JKMS-23-1-19-33.pdf); _On classes of morphisms closed under limits_, J. Korean Math. Soc. __23__ (1986), no. 1, 1&#8211;18, _Adjoint-triangle theorems for conservative functors_, Bull. Austral. Math. Soc. __36__ (1987),  no. 1, 133&#8211;136, [MR88k:18005](http://www.ams.org/mathscinet-getitem?mr=897429), [doi](http://dx.doi.org/10.1017/S000497270002637X) 
 
-* {#Jonstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 
 For an example of a conservative, but not faithful, functor $f: A\to Set$ having a left adjoint see Example 2.4 in:
