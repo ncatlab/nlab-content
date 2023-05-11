@@ -218,9 +218,10 @@ $$
 
 * [[limits of presheaves are computed objectwise]]
 
+
 [[!redirects hom-functors preserve limits]]
 
-
 [[!redirects internal hom-functor preserves limits]]
+[[!redirects internal hom-functors preserve limits]]
 
 
