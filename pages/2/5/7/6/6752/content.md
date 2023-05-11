@@ -59,7 +59,7 @@ Various versions and refinements of this conjecture have since been considered, 
 
 * the [[Galois group]] is essentially the [[fundamental group]] of an [[algebraic curve]];
 
-* hence a [[representation]] of it is a [[principal bundle|principal]]/[[vector bundle]] with [[flat connection]] on this curves;
+* hence a [[representation]] of it is a [[principal bundle|principal]]/[[vector bundle]] with [[flat connection]] on this curve;
 
 * while that curious double quotient $GL_n(F) \backslash GL_n(\mathbb{A}_F)/GL_n(\mathcal{O}_F)$ is, in view of the [[Weil uniformization theorem]], analogous to the canonical [[Cech cohomology|Cech]]-realization of the [[moduli stack of bundles]] (see there for details) on that curve.
 
