@@ -34,6 +34,10 @@ The observation originates with:
 * {#ChurchFarb13} [[Thomas Church]], [[Benson Farb]], *Representation theory and homological stability*, Advances in Mathematics
 **245** (2013) 250-314 &lbrack;[doi:10.1016/j.aim.2013.06.016](https://doi.org/10.1016/j.aim.2013.06.016)&rbrack;
 
+Lecture notes:
+
+* [[Steven V Sam]], *Representation stability*, lecture notes (2017) &lbrack;[pdf](https://mathweb.ucsd.edu/~ssam/old/17F-847/notes.pdf)&rbrack;
+
 Introduction and review:
 
 * [[Benson Farb]], *Representation Stability* &lbrack;[arXiv:1404.4065](https://arxiv.org/abs/1404.4065)&rbrack;
