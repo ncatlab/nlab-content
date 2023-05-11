@@ -117,9 +117,10 @@ Every classifying stratification is frontier-constructible (Rmk. \ref{FrontierCo
 
 It makes sense to further terminologically distinguish maps of stratifications as follows.
 
+{#stratified_map_types}
 \begin{terminology} 
 **(Types of stratified maps)** \linebreak
-A stratified map $F \colon (X,f) \to (Y,g)$  (Def. \ref{StratifiedMap})is called:
+A stratified map $F \colon (X,f) \to (Y,g)$  (Def. \ref{StratifiedMap}) is called:
 
 * a **substratification** if $F \colon X \to Y$ is a [[topological subspace]] and $\mathsf{Exit}(F)$ is [[conservative functor|conservative]]; if, moreover, $X = g^{-1} \circ \mathsf{Exit}(F) \circ f (X)$ then one says the substratification is **constructible**;
 
@@ -127,9 +128,12 @@ A stratified map $F \colon (X,f) \to (Y,g)$  (Def. \ref{StratifiedMap})is called
 
 * a **stratified homeomorphism** (or **stratified iso**) if $F \colon X \to Y$ is a [[homeomorphism]] of [[topological spaces]] and $\mathsf{Exit}(F)$ is an [[isomorphism]] of [[posets]].
 
-* {#stratified_bundle} a **stratified bundle** if points $x \in s$ for $s$ a stratum of $(Y,g)$ admit [[open neighbourhoods]] $U_x \subset s$ such that, up to stratified iso, $F$ restricts on $F^{-1}(U_x)$ to a projection $U_x \times f_x \to U_x$ for some 'fiber' stratification $(F^{-1}(x),f_x)$ (see below for the definition of stratified products).
+* {#stratified_bundle} a **stratified bundle** if points $x \in s$ for $s$ a stratum of $(Y,g)$ admit [[open neighbourhoods]] $U_x \subset s$ such that, up to stratified iso, $F$ restricts on $F^{-1}(U_x)$ to a projection $U_x \times f_x \to U_x$ (see Def. \ref{defn_strat_product}) for some 'fiber' stratification $(F^{-1}(x),f_x)$.
 
 \end{terminology}
+
+\begin{rmk} (Constructible bundles). The preceding definition of stratified bundles is rather weak, and in practice one often finds bundles that satisfy stronger conditions, such as constructibility: a *constructible* stratified bundle is a bundle that, up to bundle isomorphism, can be classified by functorial information associated to the fundamental category (see Def. \ref{defn_exit_path_cat}) of its stratified base space (cf. [Sec. 6.3, Ayala-Francis-Rozenblyum 2015](#AyalaFrancisRozenblyum15).
+\end{rmk}
 
 
 ## Fundamental categories
@@ -148,7 +152,7 @@ In order to make the above precise, one must work with sufficiently convenient s
 
 ### For conical stratificiations {#conical_strat}
 
-\begin{defn} Given stratifications $(X,f)$ and $(Y,g)$ their **product** is the stratification of $X \times Y$ with characteristic map $f \times g$.
+\begin{defn} \label{defn_strat_product} Given stratifications $(X,f)$ and $(Y,g)$ their **product** is the stratification of $X \times Y$ with characteristic map $f \times g$.
 \end{defn}
 
 \begin{defn} Given a stratification $(X,f)$, the **stratified (open) cone** $(\mathrm{cone}(X), \mathrm{cone}(f))$ stratifies the topological open cone $\mathrm{cone}(X) = X \times [0,1) / X \times \{0\}$ by the product $(X,f) \times (0,1)$ away from the cone point $\{0\}$ (here, the open interval $(0,1)$ is trivially stratified), and by setting the cone point $\{0\}$ to be its own stratum.
@@ -159,7 +163,7 @@ In order to make the above precise, one must work with sufficiently convenient s
 
 Every conical stratification is frontier-constructible.
 
-\begin{defn} Given a conical stratification $(X,f)$, then [Lurie](#LurieHA) constructs **exit path $\infty$-category** $\mathcal{E}\mathrm{xit}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{xit}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
+\begin{defn} \label{defn_exit_path_cat} Given a conical stratification $(X,f)$, then [Lurie](#LurieHA) constructs **exit path $\infty$-category** $\mathcal{E}\mathrm{xit}(f)$ as a quasicategory: the $k$-simplices of the quasicategory $\mathcal{E}\mathrm{xit}(f)$ are precisely stratified maps $\parallel [k]\parallel \to (X,f)$, where $[k] = (0 \to 1 \to ... \to k)$.
 \end{defn}
 
 \begin{rmk} One dually defines the **entrance path $\infty$-category** $\mathcal{E}\mathrm{ntr}(f)$ with $k$-simplices $\parallel [k]^{\mathrm{op}} \parallel \to (X,f)$.
@@ -234,7 +238,7 @@ Discussion of the [[fundamental category]] of a (Whitney&#8209;)stratified space
 
 A [[homotopy hypothesis]] for stratified spaces is discussed in
 
-* [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+* {#AyalaFrancisRozenblyum15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
 
 * [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
 
