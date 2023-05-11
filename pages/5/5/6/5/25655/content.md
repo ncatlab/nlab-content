@@ -16,7 +16,7 @@
 
 ## Idea
 
-Trusses are the [[fundamental categories]] (or, rather, fundamental posets) of [[meshes]]. They are central to the combinatorial classification of [[manifold diagrams]] and play an important role in [[framed combinatorial topology]].
+$n$-Trusses are the [[fundamental categories]] (or, rather, fundamental posets) of [[n-mesh|$n$-meshes]]. They are central to the combinatorial classification of [[manifold diagrams]] and play an important role in [[framed combinatorial topology]].
 
 ## Definition
 
@@ -56,7 +56,7 @@ To define bundles of 1-trusses, we first define what are the valid fiber transit
 \begin{rmk} For any map of posets $F : P \to Q$, the fiber $F^{-1}(x \to y)$ over an arrow $x \to y$ of $Q$ defines a Boolean profunctor $F^{-1}(x)$ &#8696; $F^{-1}(y)$ by mapping $(a,b)$ to $\top$ iff $a \to b$ is an arrow in $P$.
 \end{rmk}
 
-\begin{defn}[1-truss bordisms] \label{defn:1-truss-bordisms} Given 1-trusses $T$ and $S$, a _1-truss bordism_ $R : T$ &#8696; $S$ is a Boolean profunctor $T$ &#8696; $S$ satisfying the following:
+\begin{defn} \label{defn:1-truss-bordisms} Given 1-trusses $T$ and $S$, a _1-truss bordism_ $R : T$ &#8696; $S$ is a Boolean profunctor $T$ &#8696; $S$ satisfying the following:
     
 1. $R$ restricts to a function $R_{(0)} : T_{(0)}$ &#8696; $S_{(0)}$ and a cofunction $R_{(1)} : T_{(1)}$ &#8696; $S_{(1)}$.
 2. Whenever $R(t,s) = \top = R(t',s')$, then either $t \prec t'$ or $s' \prec s$ but not both.
@@ -72,7 +72,7 @@ Importantly, 1-truss bordisms are morphisms of a category $\mathfrak{T}^1$ that 
 We further say $F$ is regular resp. singular resp. dimension-preserving if it is fiberwise so.
 \end{defn}
 
-### n-Truss bundles and $n$-trusses
+### n-Truss bundles and n-trusses
 
 \begin{defn} An _$n$-truss bundle_ $T$ over a poset $P$ is a tower of 1-truss bundles
 $$
