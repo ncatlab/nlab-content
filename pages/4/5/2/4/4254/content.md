@@ -64,7 +64,7 @@ The original articles are
 
 Surveys are in
 
-* [[Yong-Geun Oh]], _Symplectic topology and Floer homology_, [pdf](http://www.math.wisc.edu/~oh/all.pdf)
+* [[Yong-Geun Oh]], _Symplectic topology and Floer homology_, [pdf](https://web.archive.org/web/20130603153154/https://math.wisc.edu/~oh/all.pdf)
  {#Oh}
 
 * Darko Milinkovi&#263;, _Floer homology in classical mechanics and quantum field theory_, [ps](http://www.mphys5.phy.bg.ac.rs/proceedings3/Milinkovic.ps)
