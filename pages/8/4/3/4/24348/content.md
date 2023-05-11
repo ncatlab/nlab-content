@@ -10,6 +10,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| |
 |Categories of Set Valued Functors|[[Marta Bunge]]|1966| | on [[categories of presheaves]] |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
+|A triple miscellany: some aspects of the theory of algebras over a triple|[[Ernest Manes]]|1967|[proquest](https://www.proquest.com/openview/85791ad4b7917802ca6692378e453d60/)| |
 |Limit monads in categories|[[Anders Kock]]|1967|[proquest](https://www.proquest.com/openview/61883e900f1fd8585fe4dfc4c3f271dc)| on [[lax idempotent 2-monads]] |
 |Homotopy Classification of Filtered Complexes|[[Ross Street]]|1968|[Scan](http://science.mq.edu.au/~street/Thesis.pdf)| |
 |Absoluteness properties in category theory|[[Robert Paré]]|1969|[pdf](https://www.mathstat.dal.ca/~pare/PhDThesis.pdf)| on [[absolute colimits]] |
