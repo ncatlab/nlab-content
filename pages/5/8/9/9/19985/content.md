@@ -18,7 +18,7 @@
 
 The notion of *associative $n$-categories* (ANCs, [Dorn 2018](#Dorn18), [Reutter & Vicary 2019](#ReutterVicary19)) is a [[semi-strict infinity-category|semi-strict]] [[algebraic definition of higher categories|algebraic model]] for [[higher category theory]] based on the [[geometric shape for higher structures|geometric shape]] of [[globular sets]] with strictly [[associativity|associative]] [[composition]]: All higher [[coherence law|coherence laws]] in associative $n$-categories are strict, except for weak versions of higher [[exchange laws]].
 
-Due to the tight control over [[coherence]]-issues, the theory of (free) associative $n$-categories lends itself to [[formal proof]], for implementation of corresponding [[proof assistants]] see* [[homotopy.io]]* (and its precursor *[[Globular]]*).
+Due to the tight control over [[coherence]]-issues, the theory of (free) associative $n$-categories lends itself to [[formal proof]], for implementation of corresponding [[proof assistants]] see *[[homotopy.io]]* (and its precursor *[[Globular]]*).
 
 Composition operations in associative $n$-categories naturally have stratified-geometric semantics in [[manifold diagram|manifold diagrams]], which makes them an instance of [[geometric n-category|geometrical $n$-categories]]. In particular, the weak coherence laws of an associative $n$-category can be thought of in terms of a notion of homotopy between composites. This is similar to the case of a [[Gray-category]], which is strictly associative and unital, but which has a weak exchange law. In this sense, ANCs can be seen as a generalization of Gray categories.
 
@@ -47,17 +47,17 @@ A separate notion of 'free' associative n-categories has been developed. These a
 
 ## Related concepts
 
-* [[globular set]]
-
-* [[homotopy.io]], [[Globular]]
+* [[manifold-diagrammatic n-category]]
 
 * [[semistrict n-category]]
 
-* [[geometric n-category]]
+* [[homotopy.io]], [[Globular]]
 
 * [[manifold diagram]]
 
 * [[surface diagram]]
+
+* [[globular set]]
 
 * [[Gray-category]]
 
