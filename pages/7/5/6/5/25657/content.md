@@ -38,9 +38,10 @@ The definition also makes sense in analytic models of [[(infinity,1)-categories]
 ## See also
 
 * [[univalence axiom]]
+* [[directed homotopy type theory]]
 
 ## References
 
-* Hoang Kim Nguyen, *Directed univalence in simplicial sets*, ([video](https://www.youtube.com/watch?v=GgcJqzGvq80), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Nguyen-2023-03-09-HoTTEST.pdf))
+* [[Hoang Kim Nguyen]], *Directed univalence in simplicial sets*, ([video](https://www.youtube.com/watch?v=GgcJqzGvq80), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Nguyen-2023-03-09-HoTTEST.pdf))
 
 [[!redirects directed univalence]]
