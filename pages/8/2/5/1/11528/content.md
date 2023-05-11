@@ -1306,11 +1306,11 @@ $$
   \;\;\;\text{in}\;\; \mathbf{C}
   \,.
 $$
-But now using that
+But now using
 
-1. the underlying map of the previous [[acyclic fibration]] is still an acyclic fibration in $\mathbf{C}$, by definition of the projective/Borel model strcuture,
+1. that the underlying map of the previous [[acyclic fibration]] is still an acyclic fibration in $\mathbf{C}$, by definition of the projective/Borel model strcuture,
 
-1. the underlying maps of the previous [[cofibrations]] are still cofibrations in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat)
+1. that the underlying maps of the previous [[cofibrations]] are still cofibrations in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat)
 
 1. the [[pullback-power axiom]] satisfied in the [[monoidal model category]] $\mathbf{C}$
 
