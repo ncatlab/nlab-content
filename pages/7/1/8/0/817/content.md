@@ -50,7 +50,7 @@ $$
 $$
 over the [[enriched hom-functor]]
 $$
-  mathbf{D}\big(
+  \mathbf{D}\big(
     F(-)
     ,\,
     G(-)
@@ -59,7 +59,7 @@ $$
   \mathbf{C}^{op} 
     \otimes 
   \mathbf{C} 
-    \longright 
+    \longrightarrow
   V
   \,,
 $$
@@ -172,9 +172,9 @@ $$
   \array{
     F(c) &\stackrel{\eta_c}{\longrightarrow} & G(c)
     \\
-    \Big\downarrow^{F(f)}
+    \Big\downarrow\mathrlap{{}^{F(f)}}
     &&
-    \Big\downarrow\mathrlap{^{G(f)}}
+    \Big\downarrow\mathrlap{{}^{G(f)}}
     \\
     F(d) 
     &
@@ -189,6 +189,740 @@ $$
 ### Pointwise order
 
 For categories enriched in [[truth values]], the enriched functor category is given by the [[pointwise order]].
+
+
+## Properties
+
+### Enhanced enrichment
+
+It happens that a $V$-enriched functor category $Func(\mathbf{X},\mathbf{C})$ --- which by the above discussion is a priori a $\mathbf{V}$-enriched category --- carries an enhanced enrichment over the functor category $Func(\mathbf{X},\mathbf{V})$.
+
+A common kind of example are categories of [[simplicial objects]] in an ordinary $Set$-enriched category -- hence functor categories $Func(\Delta^{op}, C)$ on the [[opposite category|opposite]] [[simplex category]] -- which one wants to regard not just enriched in $Set$, but as enriched in $Func(\Delta^{op}, Set) \,\equiv\,$ [[sSet]], namely in [[simplicial sets]]. 
+
+We may bootstrap the discussion of this situation by first considering the case where $\mathbf{C} = \mathbf{V}$ itself, where it means that $Func(\mathbf{X},\mathbf{V})$ is closed monoidal under the $\mathbf{X}$-objectwise tensor product taken in $\mathbf{V}$.
+In the base case where $\mathbf{V} = $ [[Set]] this reduces to the statement of the [[closed monoidal structure on presheaves]].
+
+\begin{proposition}
+\label{EnhancedEnichmentFormulas}
+Let
+
+* $(V, \otimes)$ be a [[bicomplete category|bicomplete]] [[closed monoidal category]], canonically regarded as a $V$-[[enriched category|enriched]] $\mathbf{V}$ 
+
+  via its [[internal hom]] $[-,-]$;
+
+* $\mathbf{C}$ a [[bicomplete category|bicomplete]] $V$-[[enriched category]] which is 
+
+  also $V$-[[tensoring|tensored]], via $\mathbf{V} \times \mathbf{C} \overset{(\text{-})\cdot(\text{-})}{\longrightarrow} \mathbf{C}$,
+
+  and $V$-[[cotensoring|cotensored]] via $\mathbf{V}^{op} \times \mathbf{C} \overset{(\text{-})^{(\text{-})}}{\longrightarrow} \mathbf{C}$;
+
+* $\mathbf{X}$ a [[small category|small]] $V$-enriched category.
+
+Then the enriched functor category...
+
+1. ...$\mathbf{V}^{\mathbf{X}} \,\coloneqq\, Func(\mathbf{X},\,\mathbf{V})$ is [[closed monoidal category|closed monoidal]]
+
+   equipped with the objectwise [[tensor product]]
+
+   $$
+     \mathcal{S}_{\mathbf{X}}
+     ,\,
+     \mathcal{T}_{\mathbf{X}}
+     \,\in\,
+     \mathbf{V}^{\mathbf{X}}
+     \;\;\;\;\;\;\;\;\;\;
+     \vdash
+     \;\;\;\;\;\;\;\;\;\;
+     \mathcal{S}_{\mathbf{X}}
+     \otimes
+     \mathcal{T}_{\mathbf{X}}
+     \;\colon\;
+     x \;\mapsto\;
+     (\mathcal{S}_{\mathbf{X}} \otimes \mathcal{T}_{\mathbf{X}})_x
+     \;\;
+       \coloneqq
+     \;\;
+     \mathcal{S}_x \otimes \mathcal{T}_x
+   $$
+
+   and corresponding [[internal hom]] given by:
+
+   $$
+     \mathcal{S}_{\mathbf{X}}
+     ,\,
+     \mathcal{T}_{\mathbf{X}}
+     \,\in\,
+     \mathbf{V}^{\mathbf{X}}
+     \;\;\;\;\;\;\;\;\;\;
+     \vdash
+     \;\;\;\;\;\;\;\;\;\;
+     \big[
+       \mathcal{S}_{\mathbf{X}}
+       ,\,
+       \mathcal{T}_{\mathbf{X}}
+     \big]    
+     \;\colon\;
+     x \;\mapsto\;
+     \big[
+       \mathcal{S}_{\mathbf{X}}
+       ,\,
+       \mathcal{T}_{\mathbf{X}}
+     \big]_x
+     \;\;
+       \coloneqq
+     \;\;    
+     \int_{x' \in \mathbf{X}}
+     \mathbf{V}\big(
+       \mathbf{X}(x,x') 
+         \otimes
+       \mathcal{S}_{x'}
+       ,\,
+       \mathcal{T}_{x'}
+     \big)
+     \,.
+   $$
+
+1. ... $\mathbf{C}^{\mathbf{X}}$ becomes [[enriched category|enriched]], [[tensoring|tensored]] and  [[cotensoring|cotensored]] over $\mathbf{V}^{\mathbf{X}}$, via the following [[end]]-formulas, respectively:
+
+   $$
+     \begin{array}{rccl}
+       \mathscr{V}_{\mathbf{X}}
+       ,\,
+       \mathscr{W}_{\mathbf{X}}
+       \;\in\;
+       \mathbf{C}^{\mathbf{X}}
+       &\;\;\;\vdash\;\;\;&
+       \mathbf{C}^{\mathbf{X}}
+       \big(
+         \mathscr{V}_{\mathbf{X}}
+         ,\,
+         \mathscr{W}_{\mathbf{X}}
+       \big)
+       &
+       \coloneqq\;
+       \Big(
+         x 
+           \,\mapsto\,
+         \int_{x' \in \mathbf{X}}
+         \mathbf{C}\big(
+           \mathbf{X}(x,x')
+           \cdot
+           \mathscr{V}_{x'}
+           ,\,
+           \mathscr{W}_{x'}
+         \big)
+       \Big) 
+       \;\;\;
+       \in
+       \;
+       \mathbf{V}^{\mathbf{X}}
+       \\
+       \mathcal{S}_{\mathbf{X}}
+       \,\in\, \mathbf{V}^{\mathbf{X}}
+       ;\;
+       \mathscr{V}_{\mathbf{X}}
+       \in\,
+       \mathbf{C}^{\mathbf{X}}
+       &\vdash&
+       \mathcal{S}_{\mathbf{X}}
+       \cdot
+       \mathscr{V}_{\mathbf{X}}
+       &
+       \coloneqq\;
+       \big(
+         x
+         \,\mapsto\,
+         \mathcal{S}_{x'} \cdot \mathscr{V}_{x'}
+       \big)
+       \;\;\;
+       \in
+       \;
+       \mathbf{C}^{\mathbf{X}}
+       \\
+       \mathcal{S}_{\mathbf{X}}
+       \,\in\, \mathbf{V}^{\mathbf{X}}
+       ;\;
+       \mathscr{V}_{\mathbf{X}}
+       \in\,
+       \mathbf{C}^{\mathbf{X}}
+       &\vdash&
+       \big(\mathscr{V}_{\mathbf{X}}\big)^{
+         \mathcal{S}_{\mathbf{X}}      
+       }
+       &
+       \coloneqq\;
+       \Big(
+         x
+         \,\mapsto\,
+         \int_{x' \in \mathbf{X}}
+         \big(\mathscr{W}_{x'}\big)^{
+           \mathbf{X}(x,x')
+           \otimes
+           \mathcal{S}_{x'}
+         }
+       \Big)
+       \;\;\;
+       \in
+       \;
+       \mathbf{C}^{\mathbf{X}}
+       \mathrlap{\,.}
+     \end{array}  
+   $$ 
+
+\end{proposition}
+\begin{proof}
+Observe the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{array}{ll}
+  Func(\mathbf{X},\,\mathbf{V})
+  \big(
+    \mathcal{R}_{\mathbf{X}}
+    \;,\;
+    [\mathcal{S}_{\mathbf{X}},\, \mathcal{T}_{\mathbf{X}}]
+  \big)  
+  \\
+  \;\simeq\;
+  \int_{x \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \mathcal{R}_{x}
+    \;,\;
+    \int_{y \in \mathbf{X}}
+    \mathbf{V}
+    \big(
+      \mathbf{X}(x,y)
+      \otimes
+      \mathcal{S}_{y}
+      \;,\; 
+      \mathcal{T}_{y}
+    \big)
+  \Big)  
+  &
+  \text{by the definitions}
+  \\
+  \;\simeq\;
+  \int_{x \in \mathbf{X}}
+  \int_{y \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \mathcal{R}_{x}
+    \;,\;
+    \mathbf{V}
+    \big(
+      \mathbf{X}(x,y)
+      \otimes
+      \mathcal{S}_{y}
+      \;,\;
+      \mathcal{T}_{y}
+    \big)
+  \Big)  
+  &
+  \text{ since internal homs preserve limits }
+  \\
+  \;\simeq\;
+  \int_{x \in \mathbf{X}}
+  \int_{y \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \mathbf{X}(x,y)
+    \otimes
+    \mathcal{R}_{x}
+    \otimes
+    \mathcal{S}_{y}
+    \;,\;
+    \mathcal{T}_{y}
+  \Big) 
+  & 
+  \text{by closed monoidal structure of}\;\mathbf{V}
+  \\
+  \;\simeq\;
+  \int_{y \in \mathbf{X}}
+  \int_{x \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \mathbf{X}(x,y)
+    \otimes
+    \mathcal{R}_{x}
+    \otimes
+    \mathcal{S}_{y}
+    \;,\;
+    \mathcal{T}_{y}
+  \Big)  
+  &
+  \text{ by Fubini theorem for ends }
+  \\
+  \;\simeq\;
+  \int_{y \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \big(
+    \int^{x \in \mathbf{X}}
+    \mathbf{X}(x,y)
+    \otimes
+    \mathcal{R}_{x}
+    \big)
+    \otimes
+    \mathcal{S}_{y}
+    \;,\;
+    \mathcal{T}_{y}
+  \Big)  
+  &
+  \text{ since internal homs preserve limits }
+  \\
+  \;\simeq\;
+  \int_{y \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \mathcal{R}_{y}
+    \otimes
+    \mathcal{S}_{y}
+    \;,\;
+    \mathcal{T}_{y}
+  \Big)  
+  &
+  \text{ by co-Yoneda lemma }
+  \\
+  \;\simeq\;
+  \int_{y \in \mathbf{X}}
+  \mathbf{V}
+  \Big(
+    \big(
+    \mathcal{R}_{\mathbf{X}}
+    \otimes
+    \mathcal{S}_{\mathbf{X}}
+    \big)_{y}
+    \;,\;
+    \mathcal{T}_{y}
+  \Big)  
+  &
+  \text{ by definition }
+  \\
+  \;\simeq\;
+  Func(\mathbf{X},\mathbf{V})
+  \big(
+    \mathcal{R}_{\mathbf{X}}
+    \otimes
+    \mathcal{S}_{\mathbf{X}}
+    \;,\;
+    \mathcal{T}_{\mathbf{X}}
+  \big)
+  &
+  \text{ by definition, }
+  \end{array}
+$$
+where we used, apart from the above definitions:
+
+1. that [[internal hom-functors preserve limits]]
+
+1. the [Fubini theorem for ends](end#Fubini)
+
+1. the [[co-Yoneda lemma]].
+
+This establishes that $[-,-]$ is an internal hom in $Func(\mathbf{X},\mathbf{V})$ for the objectwise tensor product, as claimed.
+
+The natural isomorphisms needed to exhibit the (co)tensoring of $\mathbf{C}^{\mathbf{X}}$ both follow essentially the same sequence of steps, just up to the relevant substitutions. For definiteness we spell it out again, but now proceeding in the reverse order of steps:
+
+Given 
+
+* $\mathcal{S}_{\mathbf{X}} \in Func(\mathbf{X},\mathbf{V})$,
+
+* $\mathscr{V}_{\mathbf{X}},\, \mathscr{W}_{\mathbf{X}}  \in Func(\mathbf{X},\mathbf{V})$,
+
+* $x \in \mathbf{X}$,
+
+consider the following sequence of [[enriched natural transformation|$V$-enriched natural]] isomorphisms in these variables: 
+
+Starting with
+$$
+  \begin{array}{ll}
+    \mathbf{C}^{\mathbf{X}}
+    \big(
+      \mathcal{S}_{\mathbf{X}}
+      \cdot
+      \mathscr{V}_{\mathbf{X}}
+      \;,\;
+      \mathscr{W}_{\mathbf{X}}
+    \big)_x
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \mathbf{C}\Big(
+      \mathbf{X}(x,z)
+      \cdot
+      \big(
+        \mathcal{S}_{\mathbf{X}} 
+        \cdot
+        \mathscr{V}_{\mathbf{X}}
+      \big)_{z}
+      ,\,
+      \mathscr{W}_{z}
+    \Big)
+    &
+    \text{ by definition }
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \mathbf{C}\big(
+      \mathbf{X}(x,z)
+      \cdot
+      \mathcal{S}_{z} 
+      \cdot
+      \mathscr{V}_{z}
+      \;,\;
+      \mathscr{W}_{z}
+    \big)
+    &
+    \text{ by definition }
+    \\
+    \;\simeq\;
+    \cdots
+  \end{array}
+$$
+we invoke the [[co-Yoneda lemma]], either to introduce a fresh variable on $\mathbf{X}(x,-) \cdot \mathcal{S}_{(-)}$ 
+$$
+  \begin{array}{ll}
+    \cdots
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \mathbf{C}\Big(
+      \int^{y \in \mathbf{X}}
+      \mathbf{X}(y,z)
+      \cdot
+      \big(
+        \mathbf{X}(x,y)
+        \cdot
+        \mathcal{S}_{y} 
+      \big)
+      \cdot
+      \mathscr{V}_{z}
+      \;,\;
+      \mathscr{W}_{z}
+    \Big)
+    &
+    \text{ co-Yoneda lemma }
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \int_{y \in \mathbf{X}}
+    \mathbf{C}\Big(
+      \mathbf{X}(y,z)
+      \cdot
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{S}_{y} 
+      \cdot
+      \mathscr{V}_{z}
+      \;,\;
+      \mathscr{W}_{z}
+    \Big)
+    &
+    \text{ enriched homs preserve enriched limits }
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \int_{y \in \mathbf{X}}
+    \mathbf{V}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{S}_{y} 
+      \;,\;
+      \mathbf{C}\big(
+        \mathbf{X}(y,z)
+        \cdot
+        \mathscr{V}_{z}
+        \;,\;
+        \mathscr{W}_{z}
+      \big)
+    \Big)
+    &
+    \text{ tensoring iso of }\; \mathbf{C}
+    \\
+    \;\simeq\;
+    \int_{y \in \mathbf{X}}
+    \int_{z \in \mathbf{X}}
+    \mathbf{V}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{S}_{y} 
+      \;,\;
+      \mathbf{C}\big(
+        \mathbf{X}(y,z)
+        \cdot
+        \mathscr{V}_{z}
+        \;,\;
+        \mathscr{W}_{z}
+      \big)
+    \Big)
+    &
+    \text{ Fubini theorem for ends }
+    \\
+    \;\simeq\;
+    \int_{y \in \mathbf{X}}
+    \mathbf{V}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{S}_{y} 
+      \;,\;
+      \int_{z \in \mathbf{X}}
+      \mathbf{C}\big(
+        \mathbf{X}(y,z)
+        \cdot
+        \mathscr{V}_{z}
+        \;,\;
+        \mathscr{W}_{z}
+      \big)
+    \Big)
+    &
+    \text{ enriched homs preserve enriched limits }
+    \\
+    \;\simeq\;
+    \int_{y \in \mathbf{X}}
+    \mathbf{V}\Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{S}_{y} 
+      \;,\;
+      \mathbf{C}^{\mathbf{X}}
+      \big(
+        \mathscr{V}_{\mathbf{X}}
+        ,\,
+        \mathscr{W}_{\mathbf{X}}
+      \big)_y
+    \Big)
+    &
+    \text{ definition }
+    \\
+    \;\simeq\;
+    \mathbf{V}^{\mathbf{X}}\Big(
+      \mathcal{S}_{\mathbf{X}} 
+      \;,\;
+      \mathbf{C}^{\mathbf{X}}
+      \big(
+        \mathscr{V}_{\mathbf{X}}
+        ,\,
+        \mathscr{W}_{\mathbf{X}}
+      \big)
+    \Big)_x
+    &
+    \text{ definition }
+  \end{array}
+$$
+or to get a fresh variable on $\mathbf{X}(x,-) \cdot \mathscr{V}_{(-)}$:
+$$
+  \begin{array}{ll}
+    \cdots
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \mathbf{C}
+    \Big(
+      \mathcal{S}_z
+      \cdot
+      \int^{y \in \mathbf{X}}
+      \mathbf{X}(y,z)
+      \cdot
+      \big(
+        \mathbf{X}(x,y)
+        \cdot
+        \mathcal{V}_{y}
+      \big)
+      \;,\;
+      \mathscr{W}_{z}
+    \Big)
+    &
+    \text{ co-Yoneda lemma }
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \int_{y \in \mathbf{X}}
+    \mathbf{C}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathbf{X}(y,z)
+      \cdot
+      \mathcal{S}_z
+      \cdot
+      \mathcal{V}_{y}
+      \;,\;
+      \mathscr{W}_{z}
+    \Big)
+    &
+    \text{ enriched homs preserve enriched limits }
+    \\
+    \;\simeq\;
+    \int_{z \in \mathbf{X}}
+    \int_{y \in \mathbf{X}}
+    \mathbf{C}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{V}_{y}
+      \;,\;
+      \big(\mathscr{W}_{z}\big)^{
+        \mathbf{X}(y,z)
+        \cdot
+        \mathcal{S}_z
+      }
+    \Big)
+    &
+    \text{ cotensoring iso of }\; \mathbf{C}
+    \\
+    \;\simeq\;
+    \int_{y \in \mathbf{X}}
+    \int_{z \in \mathbf{X}}
+    \mathbf{C}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{V}_{y}
+      \;,\;
+      \big(\mathscr{W}_{z}\big)^{
+        \mathbf{X}(y,z)
+        \cdot
+        \mathcal{S}_z
+      }
+    \Big)
+    &
+    \text{ Fubini theorem for ends }
+    \\
+    \;\simeq\;
+    \int_{y \in \mathbf{X}}
+    \mathbf{C}
+    \Big(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{V}_{y}
+      \;,\;
+      \int_{z \in \mathbf{X}}
+      \big(\mathscr{W}_{z}\big)^{
+        \mathbf{X}(y,z)
+        \cdot
+        \mathcal{S}_z
+      }
+    \Big)
+    &
+    \text{ enriched homs preserve enriched limits }
+    \\
+    \;\simeq\;
+    \int_{y \in \mathbf{X}}
+    \mathbf{C}
+    \bigg(
+      \mathbf{X}(x,y)
+      \cdot
+      \mathcal{V}_{y}
+      \;,\;
+      \Big(
+        \big(
+          \mathscr{W}_{\mathbf{X}}
+        \big)^{
+          \mathcal{S}_{\mathbf{X}}
+        }
+      \Big)_y
+    \bigg)
+    &
+    \text{ definition }
+    \\
+    \;\simeq\;
+    \mathbf{C}^{\mathbf{X}}
+    \Big(
+      \mathcal{V}_{\mathbf{X}}
+      \;,\;
+      \big(\mathscr{W}_{\mathbf{X}}\big)^{
+        \mathcal{S}_{\mathbf{X}}
+      }
+    \Big)_x
+    &
+    \text{ definition }
+  \end{array}
+$$
+
+By naturality in $x \in \mathbf{X}$, these constitute the required $\mathbf{V}^{\mathbf{X}}$-[[enriched natural transformation|-enriched]] [[natural isomorphisms]] for exhibiting the claimed (co)tensoring:
+$$
+  \mathbf{C}^{\mathbf{X}}
+  \big(
+    \mathcal{S}_{\mathbf{X}}
+    \cdot
+    \mathscr{V}_{\mathbf{X}}
+    \;,\;
+    \mathscr{W}_{\mathbf{X}}
+  \big)
+  \;\simeq\;
+  \mathbf{V}^{\mathbf{X}}
+  \Big(
+    \mathcal{S}_{\mathbf{X}}
+    \;,\;
+    \mathbf{C}^{\mathbf{X}}\big(
+      \mathscr{V}_{\mathbf{X}}
+      \;,\;
+      \mathscr{W}_{\mathbf{X}}
+    \big)
+  \Big)
+  \;\simeq\;
+  \mathbf{C}^{\mathbf{X}}
+  \Big(
+    \mathscr{V}_{\mathbf{X}}
+    \;,\;
+    \big(\mathscr{W}_{\mathbf{X}}\big)^{
+      \mathcal{S}_{\mathbf{X}}
+    }
+  \Big)
+  \,.
+$$
+From this, finally, follows an $\mathbf{V}^{\mathbf{X}}$-enriched composition operation
+$$
+  \mathbf{C}^{\mathbf{X}}\big(
+    \mathscr{R}_{\mathbf{X}}
+    ,\,
+    \mathscr{V}_{\mathbf{X}}
+  \big)
+  \otimes
+  \mathbf{C}^{\mathbf{X}}\big(
+    \mathscr{V}_{\mathbf{X}}
+    ,\,
+    \mathscr{W}_{\mathbf{X}}
+  \big)
+  \longrightarrow
+  \mathbf{C}^{\mathbf{X}}\big(
+    \mathscr{R}_{\mathbf{X}}
+    ,\,
+    \mathscr{W}_{\mathbf{X}}
+  \big)
+$$
+to be defined as the [[adjunct]] (via the just established adjunctions) of the consecutive [[evaluation maps]] (being themselves the respective [[counit of an adjunction|adjunction counits]]):
+$$
+  \mathscr{R}_{\mathbf{X}}
+  \cdot
+  \mathbf{C}^{\mathbf{X}}\big(
+    \mathscr{R}_{\mathbf{X}}
+    ,\,
+    \mathscr{V}_{\mathbf{X}}
+  \big)
+  \cdot
+  \mathbf{C}^{\mathbf{X}}\big(
+    \mathscr{V}_{\mathbf{X}}
+    ,\,
+    \mathscr{W}_{\mathbf{X}}
+  \big)
+  \overset{ev}{\longrightarrow}
+  \mathscr{V}_{\mathbf{X}}
+  \cdot
+  \mathbf{C}^{\mathbf{X}}\big(
+    \mathscr{V}_{\mathbf{X}}
+    ,\,
+    \mathscr{W}_{\mathbf{X}}
+  \big)
+  \overset{ev}{\longrightarrow}
+  \mathscr{W}_{\mathbf{X}}
+  \,.
+$$
+\end{proof}
+
+
 
 ## Related concepts
 
@@ -209,6 +943,8 @@ Review includes
 * {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf))
 
 * [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+
 
 [[!redirects enriched functor categories]]
 
