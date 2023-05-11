@@ -37,6 +37,8 @@ A proposal for the case $n = 1$ with the directed analog of the [[univalence axi
 
 ## Related concepts
 
+* [[directed univalence axiom]]
+
 * [[directed type theory]], [[2-type theory]]
 
 * [[opetopic type theory]]
@@ -94,6 +96,11 @@ which (along the lines of the discussion of the universal left fibration from [C
 
 
 > &lbrack;[[Denis-Charles Cisinski|Cisinski]] in [video 3 at 1:49:28](https://youtu.be/P0Cfb4eUJo4?t=6568)&rbrack;: I agree with what you say but I still have the hope to be able to produce an actual syntax &lbrack;...&rbrack; that's really the goal.
+
+More on the [[directed univalence axiom]] in this context:
+
+* [[Hoang Kim Nguyen]], *Directed univalence in simplicial sets*, talk in *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (March 2023) &lbrack;[video](https://www.youtube.com/watch?v=GgcJqzGvq80), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Nguyen-2023-03-09-HoTTEST.pdf)&rbrack;
+
 
 
 
