@@ -191,9 +191,14 @@ $$
 For categories enriched in [[truth values]], the enriched functor category is given by the [[pointwise order]].
 
 
+
+
 ## Properties
+ {#Properties}
+
 
 ### Enhanced enrichment
+ {#EnhancedEnrichment}
 
 It happens that a $V$-enriched functor category $Func(\mathbf{X},\mathbf{C})$ --- which by the above discussion is a priori a $\mathbf{V}$-enriched category --- carries an enhanced enrichment over the functor category $Func(\mathbf{X},\mathbf{V})$.
 
@@ -220,9 +225,9 @@ Let
 
 Then the enriched functor category...
 
-1. ...$\mathbf{V}^{\mathbf{X}} \,\coloneqq\, Func(\mathbf{X},\,\mathbf{V})$ is [[closed monoidal category|closed monoidal]]
+1. ...$\mathbf{V}^{\mathbf{X}} \,\coloneqq\, Func(\mathbf{X},\,\mathbf{V})$ carries [[closed monoidal category]]  structure
 
-   equipped with the objectwise [[tensor product]]
+   given by the $\mathbf{X}$-objectwise [[tensor product]]
 
    $$
      \mathcal{S}_{\mathbf{X}}
@@ -245,7 +250,7 @@ Then the enriched functor category...
      \mathcal{S}_x \otimes \mathcal{T}_x
    $$
 
-   and corresponding [[internal hom]] given by:
+   and with corresponding [[internal hom]] given by:
 
    $$
      \mathcal{S}_{\mathbf{X}}
