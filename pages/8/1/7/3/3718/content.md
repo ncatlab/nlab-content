@@ -58,4 +58,6 @@ Christian B. Mendl and Michael M. Wolf, _Unital Quantum Channels - Convex Struct
 
 L. J. Landau and R. F. Streater, _On Birkhoff 's theorem for doubly stochastic completely positive maps of matrix algebras_, Lin. Alg. Appl., 193:107&#8211;127, 1993. 
 
+J. M. S. T. da Silva, On the Extremality of the Tensor Product of Quantum Channels ([pdf](https://arxiv.org/abs/2305.05795)).
+
 [[!redirects extremal quantum channels]]
