@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A [[functor]] $F \colon C\to D$ is **conservative** if it is "isomorphism-[[reflected limit|reflecting]]", i.e. if $g:a\to b$ is a [[morphism]] in $C$ such that $F(g)$ is an [[isomorphism]] in $D$, then $g$ is an isomorphism in $C$.
+A [[functor]] $F \colon C\to D$ is **conservative** if it is "isomorphism-[[reflected limit|reflecting]]", i.e. if $g \colon a\to b$ is a [[morphism]] in $C$ such that $F(g)$ is an [[isomorphism]] in $D$, then $g$ is an isomorphism in $C$.
 
 =--
 
@@ -36,21 +36,27 @@ See [[conservative morphism]] for a generalization to an arbitrary [[2-category]
 ## Examples
 
 
-+-- {: .num_example #FullyFaithfulFunctorIsConservative}
-###### Example
+\begin{example}\label{FullyFaithfulFunctorIsConservative}
+Every [[fully faithful functor]], and more generally any [[pseudomonic functor]], is a conservative functor. 
 
-Every [[fully faithful functor]], and more generally any [[pseudomonic functor]], is a conservative functor. Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
+Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
+\end{example}
 
-=--
+\begin{example}
+But further would-be converses of Exp. \ref{FullyFaithfulFunctorIsConservative} fail: not every conservative functor is full or faithful:
 
-An example of a functor that is conservative but not full is the inclusion of the [[groupoid core]] of a [[category]] that is not a groupoid into that category.  An example of a functor that is conservative but not faithful is the unique functor from any groupoid with two distinct isomorphisms $f, g : x \to y$ to the [[terminal]] groupoid.
+An example of a functor that is conservative but not full is the inclusion of the [[groupoid core]] $Core(\mathcal{C}) \longrightarrow \mathcal{C}$ of a [[category]] $\mathcal{C}$ that is itself not a groupoid, into that category.  
+\end{example}
+
+An example of a functor that is conservative but not faithful is the unique functor from any groupoid with two distinct isomorphisms $f, g : x \to y$ to the [[terminal]] groupoid.
+\end{example}
 
 +-- {: .num_example #MonadicFunctorIsConservative}
 ###### Example
 
 Every [[monadic functor]] is a conservative functor (see also at *[[monadicity theorem]]*): 
 
-For a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, the inverse $f^{-1} : B \to A$ is easily seen to also be a $T$-algebra homomorphism.
+For a [[algebra over a monad|$T$-algebra]] [[homomorphism]] given by an [[invertible morphism]] $f \colon A \to B$, the [[inverse]] $f^{-1} \colon B \to A$ is easily seen to also be a $T$-algebra homomorphism.
 
 =--
 
@@ -58,7 +64,7 @@ For a $T$-algebra homomorphism given by an invertible morphism $f : A \to B$, th
 +-- {: .num_prop #Condition_for_Conservativity}
 ###### Proposition
 
-A functor $F: C \to D$ is conservative if and only if $F(f)$ being an identity morphism implies that $f$ is an isomorphism.
+A functor $F \colon C \to D$ is conservative if and only if $F(f)$ being an [[identity morphism]] implies that $f$ is an [[isomorphism]].
 
 =--
 
@@ -71,7 +77,7 @@ $$
   f^\ast \colon C_{/Y} \longrightarrow C_{/X}
 $$
 
-for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base change]]). If [[strong epimorphisms]] in $\mathcal{C}$ are preserved by pullback, then the following are equivalent:
+for the [[functor]] of [[pullback]] along $f$ between [[slice categories]] ("[[base change]]"). If [[strong epimorphisms]] in $\mathcal{C}$ are preserved by pullback, then the following are equivalent:
 
 1. $f$ is a [[strong epimorphism]];
 
