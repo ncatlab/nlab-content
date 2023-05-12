@@ -1431,7 +1431,7 @@ For instance
 
 * For $\mathcal{C} = $ [[Set]] then $Core(Set)$ is the groupoid of [[sets]] and [[bijections]] between them.
 
-  For $\mathcal{C}  $ [[FinSet]] then the [[skeleton]] of this groupoid (prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}) is the disjoint union of deloopings (example \ref{DeloopingGroupoidDisjointUnion}) of all the [[symmetric groups]]:
+  For $\mathcal{C}  $ [[FinSet]] then the [[skeleton]] of this groupoid (prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}) is the [[disjoint union]] of [[delooping groupoids]] (example \ref{DeloopingGroupoidDisjointUnion}) of all the [[symmetric groups]]:
 
   $$
     Core(FinSet) \simeq \underset{n \in \mathbb{N}}{\sqcup} \Sigma(n)
@@ -1439,7 +1439,7 @@ For instance
 
 * For $\mathcal{C} = $ [[Vect]] then $Core(Vect)$ is the groupoid of [[vector spaces]] and [[linear map|linear]] [[bijections]] between them.
 
-  For $\mathcal{C} = $ [[FinDimVect]] then the [[skeleton]] of this groupoid is the disjoint union of delooping of all the [[general linear groups]]
+  For $\mathcal{C} = $ [[FinDimVect]] then the [[skeleton]] of this groupoid is the disjoint union of [[delooping groupoids]] of all the [[general linear groups]]
 
   $$
     Core(FinDimVect) \simeq \underset{n \in \mathbb{N}}{\sqcup} GL(n)
@@ -2019,7 +2019,7 @@ $$
 
 Hence the [[fundamental groupoid]] is a _[[homotopy invariant]]_ of topological spaces.
 Of course by prop. \ref{DeloopingGroupoidEquivalence} the fundamental groupoid is
-equivalent, as a groupoid, to the disjoint union of the [[deloopings]] of
+equivalent, as a groupoid, to the disjoint union of the [[delooping groupoids]] of
 all the [[fundamental groups]] of the given topological spaces, one for each [[connected component]],
 and hence this is equivalently the statement that the set of connected components
 and the fundamental groups of a topological space are homotopy invariants.
@@ -2132,7 +2132,7 @@ _Groups are equivalently pointed connected groupoids_.
 **([[disjoint union]] of [[delooping groupoids]])
 
 Let $\{G_i\}_{i \in I}$ be a [[set]] of [[groups]]. Then there is a groupoid
-$\underset{i \in I}{\sqcup} B G_i$ which is the disjoint union groupoid (example \ref{GroupoidsCoproduct}) of the [[delooping]] groupoids $B G_i$ (example \ref{GroupoidFromDelooping}).
+$\underset{i \in I}{\sqcup} B G_i$ which is the disjoint union groupoid (example \ref{GroupoidsCoproduct}) of the [[delooping]] groupoids $B G_i$ (example \ref{GroupoidFromDelooping}): a *[[skeletal groupoid]]*.
 
 Its set of objects is the index set $I$, and
 
@@ -2188,7 +2188,7 @@ and called the set of _[[connected components]]_ of $\mathcal{G}$.
 
 +-- {: .num_defn #InGrupoidAutomorphismGroup}
 ###### Definition
-**([[automorphism groups]])
+**([[automorphism groups]])**
 
 Given a [[groupoid]] $\mathcal{G}$ and an object $x$, then under composition the set $Hom_{\mathcal{G}}(x,x)$ forms a [[group]]. This is called the _[[automorphism group]]_ $Aut_{\mathcal{G}}(x)$ or _vertex group_ or _isotropy group_ of $x$ in $\mathcal{G}$.
 
@@ -2207,7 +2207,7 @@ regarded now again as a morphism in $\mathcal{G}$.
 
 +-- {: .num_prop #GroupoidWeakHomotopyEquivalence}
 ###### Definition
-**([[weak homotopy equivalence]] of [[groupoids]])
+**([[weak homotopy equivalence]] of [[groupoids]])**
 
 Let $\mathcal{G}_1$ and $\mathcal{G}_2$ be groupoids. Then a morphism (functor)
 
@@ -2343,7 +2343,7 @@ since there is only a single object. But this means $F_{i,i}$ and $G_{j,j}$ are 
 
 +-- {: .num_prop #EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}
 ###### Proposition
-**(every [[groupoid]] is [[equivalence of groupoids|equivalent]] to a [[disjoint union]] of [[group]] [[deloopings]])
+**(every [[groupoid]] is [[equivalence of groupoids|equivalent]] to a [[skeletal groupoid]])**
 
 Assuming the relevant [[axiom of choice]], then:
 
@@ -2354,7 +2354,7 @@ $$
 $$
 
 between $\mathcal{G}$ and a [[disjoint union]] of [[delooping groupoids]] (example \ref{DeloopingGroupoidDisjointUnion}).
-This is called a _[[skeleton]]_ of $\mathcal{G}$.
+This is called a _[[skeleton]]_ of $\mathcal{G}$, see also at *[[skeletal groupoid]]*.
 
 Concretely, this exists for $I = \pi_0(\mathcal{G})$ the set of [[connected components]] of $\mathcal{G}$ (def. \ref{GroupoidConnectedComponents}) and for $G_i \coloneqq Aut_{\mathcal{G}}(x)$ the [[automorphism group]] (def. \ref{InGrupoidAutomorphismGroup}) of any object $x$ in the given connected component.
 
@@ -2366,7 +2366,7 @@ Concretely, this exists for $I = \pi_0(\mathcal{G})$ the set of [[connected comp
 
 Using the [[axiom of choice]] we may find a set $\{x_i\}_{i \in \pi_0(\mathcal{G})}$ of objects of $\mathcal{G}$, with $x_i$ being in the [[connected component]] $i \in \pi_0(\mathcal{G})$.
 
-This choice induces a functor
+This choice induces a [[functor]]
 
 $$
   inc
