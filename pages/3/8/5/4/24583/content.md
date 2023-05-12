@@ -4,6 +4,10 @@ On [[categorical models of dependent types]] via [[locally Cartesian closed cate
 
 * [[Daniel Gratzer]], [[Jonathan Sterling]], *Syntactic categories for dependent type theory: sketching and adequacy* &lbrack;[arXiv:2012.10783](https://arxiv.org/abs/2012.10783)&rbrack;
 
+On [[modal type theory]]:
+
+* [[Daniel Gratzer]], [[G. Alex Kavvos]], [[Andreas Nuyts]], [[Lars Birkedal]]: _Multimodal Dependent Type Theory_, Logical Methods in Computer Science **17** 3 (2021) lmcs:7713 &lbrack;[arXiv:2011.15021](https://arxiv.org/abs/2011.15021), <a href="https://doi.org/10.46298/lmcs-17(3:11)2021">doi:10.46298/lmcs-17(3:11)2021</a>&rbrack;
+
 
 On [[XTT]]:
 
