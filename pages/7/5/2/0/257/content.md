@@ -371,9 +371,18 @@ See at
 
 ## Examples
 
-### Trivial model structures
+### Trivial model structure
 
-Every category with all limits and colimits carries its *[[trivial model structure]]* whose weak equivalences are the [[isomorphisms]] and all morphisms are cofibrations and fibrations.
+\begin{example}\label{TrivialModelStructure}
+**(trivial model structure)**
+\linebreak
+Every [[bicomplete category]] carries its *[[trivial model structure]]* whose weak equivalences are the [[isomorphisms]] and all morphisms are both cofibrations and fibrations.
+\end{example}
+
+\begin{remark}
+Trivial as this example \ref{TrivialModelStructure} may be, to the extent that model categories are presentations of certain [[(infinity,1)-categories|$\infty$-categories]] it shows that/how ordinary ([[bicomplete category|bicomplete]]) [[1-categories]] are subsumed as a special case.
+\end{remark}
+
 
 ### Classical model structures
 
