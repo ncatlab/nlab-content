@@ -1,4 +1,6 @@
 
+> This entry is about the left division operation in [[modal type theory]]. For the left division operation in abstract algebra, see [[left quasigroup]]. 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -20,7 +22,7 @@ In [[modal type theory]], *left division* refers to an operation on [[contexts]]
 
 The [[introduction rules]] for a [[modal operator]] $\mu L$ is syntactically given by 
 
-| [[split context]] | [[context lock]] | [[left division]] |
+| [[split context]] | [[context lock]] | left division |
 |---|---|---|
 | $\frac{\Gamma \vdash a \colon A}{\Gamma \vert \Delta \vdash a^L \colon \mu L(A)}$ | $\frac{\Gamma, \mathrm{lock}_\mu \vdash a \colon A}{\Gamma \vdash a^L \colon \mu L(A)}$ | $\frac{\Gamma/\mu \vdash a \colon A}{\Gamma \vdash a^L \colon \mu L(A)}$ |
 
@@ -30,8 +32,8 @@ The [[introduction rules]] for a [[modal operator]] $\mu L$ is syntactically giv
 
 * [[modal type theory]]
 
-
 * [[split context]]
+
 * [[context lock]]
 
 \section{References}
