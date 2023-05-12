@@ -22,7 +22,7 @@ Split contexts are frequently used in [[modal type theories]] such as [[spatial 
 
 * [[context]]
 * [[context lock]]
-* [[left division]]
+* [[left division in modal type theory]]
 
 [[!redirects split context]]
 [[!redirects split contexts]]
