@@ -24,31 +24,36 @@ $$
 
 defines an action of $R$ on $M$. This construction extends to a  [[functor]] 
 $$
-  \rho_f \colon SMod \longrightarrow RMod
+  f^\ast \colon SMod \longrightarrow RMod
 $$
 between [[categories of modules]], sending $\cdot_S$ to $\cdot_R$. This is called *restriction of scalars* (along $f$).
 
 This functor has a [[left adjoint functor]] 
 
 $$
-  \epsilon_f
-  \;\coloneqq\;
-  (-)
-  \otimes_R S
+  f_! \; \coloneqq\;
+  S \otimes_R (-)
   \;\colon\; 
   RMod
    \longrightarrow 
   SMod
 $$
  
-called *[[extension of scalars]]*, since for an $R$-module $M$ and an $R$-module $S$ we have that $M\otimes_R S$ is a well defined [[tensor product of modules|tensor product]] of $R$ modules which becomes an $S$ module by the operation of $S$ on itself in the second factor of the tensor. We have an [[adjoint functors|adjunction]] $(\epsilon_f \dashv \rho_f)$.
+called *[[extension of scalars]]*, since for an $R$-module $M$ and an $R$-module $S$ we have that $M\otimes_R S$ is a well defined [[tensor product of modules|tensor product]] of $R$ modules which becomes an $S$ module by the operation of $S$ on itself in the second factor of the tensor. We have an [[adjoint functors|adjunction]] $f_! \dashv f^*)$.
 
 Not only is restriction of scalars a right adjoint, it is also a [[monadic functor]].  This can be shown using the [[monadicity theorem]] or by direct computation.
 
-Furthermore, not only is scalars a right adjoint, it is also 
-a left adjoint.  That is, it has a right adjoint of its own, called [[coextension of scalars]].
+Furthermore, not only is restriction scalars a right adjoint, it is also a left adjoint.  That is, it has a right adjoint of its own, called [[coextension of scalars]]:
 
-=--
+$$
+  f_* \; \coloneqq\;
+  RMod(S, -)
+  \;\colon\; 
+  RMod
+   \longrightarrow 
+  SMod
+$$
+
 
 ## Related concepts
 
