@@ -29,6 +29,11 @@ On [[Galois theory]]:
 * F. Borceux, [[George Janelidze]], _[[Galois Theories]]_, Cambridge Studies in Advanced Mathematics __72__ (2001)
 
 
+On [[accessible categories]] via [[doctrines of limits]]:
+
+* {#AdámekBorceuxLackRosicky2002} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, Journal of Pure and Applied Algebra **175** 1–3 (2002)  7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
+
+
 On [[nonabelian homological algebra]], such as its [[diagram chasing lemmas]], in [[Mal'cev categories]], [[protomodular categories]], [[semi-abelian categories]] and [[homological categories]]:
 
 * [[Francis Borceux]], [[Dominique Bourn]], *[[Mal'cev, protomodular, homological and semi-abelian categories]]*, Mathematics and Its Applications __566__,  Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
