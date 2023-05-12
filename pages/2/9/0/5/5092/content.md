@@ -16,6 +16,10 @@ On [[sketches]] (and [[accessible categories]]) the generality of [[enriched cat
 * [[Francis Borceux]], [[Carmen Quinteriro]], [[Jiří Rosický]], *A theory of enriched sketches*, Theory and Applications of Categories, **4** 3 (1998) 47-72 &lbrack;[tac:4-03](http://www.tac.mta.ca/tac/volumes/1998/n3/4-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1998/n3/n3.pdf)&rbrack;
 
 
+On [[accessible categories]] via [[doctrines of limits]]:
+
+* {#AdámekBorceuxLackRosicky2002} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, Journal of Pure and Applied Algebra **175** 1–3 (2002)  7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
+
 
 On (co-)[[reflective factorization systems]]:
 
