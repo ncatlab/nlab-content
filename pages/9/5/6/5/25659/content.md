@@ -15,6 +15,14 @@
 
 In [[modal type theory]], *left division* is an operation on [[contexts]] used to define the [[syntax|syntactical]] [[rules]] for [[modalities]], and is an alternative to [[split contexts]] or [[context locks]] for that purpose. Left division is a [[left adjoint]] to post-composition of modalities. 
 
+\section{Comparison with split context and context locks}
+
+The [[introduction rules]] for a [[modal operator]] $\mu L$ is syntactically given by 
+
+| [[split context]] | [[context lock]] | [[left division]] |
+|---|---|---|
+| $\frac{\Gamma \vdash a:A}{\Gamma \vert \Delta \vdash a^L:\mu L(A)}$ | $\frac{\Gamma, \mathrm{lock}_\mu \vdash a:A}{\Gamma \vdash a^L:\mu L(A)}$ | $\frac{\Gamma/\mu \vdash a:A}{\Gamma \vdash a^L:\mu L(A)}$ |
+
 \section{Related concepts}
 
 * [[modality]]
