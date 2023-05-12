@@ -1771,6 +1771,9 @@ Categories, 7 (2005) pp 1--195. ([web] (http://www.tac.mta.ca/tac/reprints/artic
 
 * {#Zivaljevic} Rade T. &#381;ivaljevi&#263;, _Groupoids in combinatorics---applications of a theory of local symmetries_, Algebraic and geometric combinatorics, 305--324, Contemp. Math., 423, Amer. Math. Soc., Providence, RI, 2006.
 
+Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are the [[groupoids]] ([[skeletal categories]], respectively), hence whose "trivial objects" are the [[skeletal groupoids]]:
+
+* [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
 
 
 [[!redirects groupoid]]
