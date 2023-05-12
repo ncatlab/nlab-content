@@ -23,9 +23,9 @@
 ## Definition
  {#Definition}
 
-A [[strict category]] is called __skeletal__ if [[objects]] that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]], hence if all its [[isomorphisms]] are [[automorphisms]]. 
+A [[strict category]] $\mathcal{C}$ is called __skeletal__ if any two [[objects]] that are [[isomorphism|isomorphic]] are actually already [[equality|equal]] (in the fixed [[set]] of [[objects]] $Obj(\mathcal{C})$), hence if all its [[isomorphisms]] are [[automorphisms]]. 
 
-(If in addition all isomorphisms are in fact [[identity morphisms]], then one speaks of a *[[gaunt category]]*.)
+(If in addition all isomorphisms are in fact [[identity morphisms]], then one speaks of a *[[gaunt category]]*. In the other extreme, if all morphisms of a skeletal category are isomorphisms, then one has a [[skeletal groupoid]]).
 
 A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as [[equivalence of categories|equivalent]] to $C$. A __weak skeleton__ of $C$ is any skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
@@ -243,6 +243,10 @@ In terms of [[(n,r)-category]]-theory one may essentially identify [[preordered 
 
 For more details (and more precise statements, see at *[[relation between preorders and (0,1)-categories]]*.
 
+## Related concepts
+
+* [[skeletal groupoid]]
+
 ## References
 
 See also:
@@ -257,3 +261,4 @@ See also:
 [[!redirects skeletal]]
 [[!redirects skeletal category]]
 [[!redirects skeletal categories]]
+
