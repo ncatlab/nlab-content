@@ -99,4 +99,16 @@ For analogues in nonadditive contexts see
 
 * [[Dominique Bourn]], [[Marino Gran]], _Torsion theories in homological categories_, J. of Algebra __305__ (2006) 18&#8211;47 [MR2007k:18018](http://www.ams.org/mathscinet-getitem?mr=2262518) [doi](http://dx.doi.org/10.1016/j.jalgebra.2006.07.011)
 
+Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are the [[groupoids]] ([[skeletal categories]], respectively), hence whose "trivial objects" are the [[skeletal groupoids]]:
+
+* [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
+
+
 [[!redirects torsion theories]]
+
+[[!redirects pretorsion theory]]
+[[!redirects pretorsion theories]]
+
+[[!redirects pre-torsion theory]]
+[[!redirects pre-torsion theories]]
+
