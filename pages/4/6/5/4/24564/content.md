@@ -21,11 +21,11 @@
 
 ## Idea
 
-In [[solid state physics]], the term "Majorana zero mode" (often abbreviated "MZM" or just "Majorana") has come to refer to (hypothetical and so far eluve) [[ground states]] of certain effectively 1-dimensional [[quantum materials]] (quantum/nano-wires) which are acted on by a "Majorana operator" (namely the [[Hermitian operator|Hermitian]] combination $c + c^\dagger$ of [[fermion]] [[canonical anti-commutation relations|annihilation/creation operators]], only vaguely related to [[special relativity|relativistic]] [[Majorana spinors]]) and which have been argued to potentially behave like [[Majorana anyons]], in some sense (beware that these modes, being stuck to wires, would not be mobile and hence would not admit [[adiabatic theorem|adiabatic]] [[braiding]] operations in the usual sense, see [here](https://quantumcomputing.stackexchange.com/q/25638/19363)).
+In [[solid state physics]], the term "Majorana zero mode" (often abbreviated "MZM" or just "Majorana") has come to refer to (hypothetical and so far elusive) [[ground states]] of certain effectively 1-dimensional [[quantum materials]] (quantum/nano-wires) which are acted on by a "Majorana operator" (namely the [[Hermitian operator|Hermitian]] combination $c + c^\dagger$ of [[fermion]] [[canonical anti-commutation relations|annihilation/creation operators]], only vaguely related to [[special relativity|relativistic]] [[Majorana spinors]]) and which have been argued to potentially behave like [[Majorana anyons]], in some sense (beware that these modes, being stuck to wires, would not be mobile and hence would not admit [[adiabatic theorem|adiabatic]] [[braiding]] operations in the usual sense, see [here](https://quantumcomputing.stackexchange.com/q/25638/19363)).
 
 These Majorana zero modes were theoretically introduced in a [[spin chain]] [[model (in theoretical physics)|model]] by [Kitaev 2001](#Kitaev01) ("Kitaev spin chain"), originally as a theoretical toy example for [[mass gap|gapped]] and degenerate [[ground states]] vaguely as expected for [[topological order]], but then argued to be realizable on interfaces of [[superconductors]] with certain [[topological insulators]] by [Fu & Kane 2008](#FuKane08); and their [[experiment|experimental]] realization in [[superconductor|super-]]/[[semiconductor|semi-conducting]] nano-wires has been proposed in [Lutchyn, Say & Das Sarma 2010](#LutchynSayDasSarma10), [Oreg, Refael, von Oppen 2010](#OregRefaelvonOppen10).
 
-Following these proposals and especially after [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing) (with [QuTech](https://qutech.nl/) at TU Delft) declared ([Nov 2016](https://blogs.microsoft.com/ai/microsoft-doubles-quantum-computing-bet/)) the concrete aim of realizing [[topological quantum computation]] based on topological qbits given by such "Majorana zero modes" (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)), the topic attracted [enormous attention](https://scholar.google.com/scholar?cites=12195292414684872731&as_sdt=2005&sciodt=0,5&hl=en) in [[solid state physics]].
+{#Following} Following these proposals and especially after [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing) (with [QuTech](https://qutech.nl/) at TU Delft) declared ([Nov 2016](https://blogs.microsoft.com/ai/microsoft-doubles-quantum-computing-bet/)) the concrete aim of realizing [[topological quantum computation]] based on topological qbits given by such "Majorana zero modes" (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)), the topic attracted [enormous attention](https://scholar.google.com/scholar?cites=12195292414684872731&as_sdt=2005&sciodt=0,5&hl=en) in [[solid state physics]].
 
 But prominent claims of experimental detection of (these kinds of) Majorana zero modes had to be retracted: 
 
@@ -39,7 +39,7 @@ But prominent claims of experimental detection of (these kinds of) Majorana zero
 
 * and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241). 
 
-While some (probably most) researchers now dismiss the whole approach (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22) and [Das Sarma 22, p. 9](#DasSarma22).
+While some (probably most) researchers now dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22) and [Das Sarma 22, p. 9](#DasSarma22).
 
 ## References
 
@@ -70,7 +70,7 @@ General review and experimental status:
   > [41:25](https://youtu.be/7btnPqmSh_0?t=2485): No, we have not discovered Majorana particles in nanowires. Yes, we should be able to do it.
 
 
-* {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana* &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365)&rbrack;
+* {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana*, Nature Physics **19** (2023) 165-170 &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365), [doi:10.1038/s41567-022-01900-9](https://doi.org/10.1038/s41567-022-01900-9)&rbrack;
 
 
 
