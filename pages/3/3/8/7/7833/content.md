@@ -48,3 +48,8 @@ Not only is restriction of scalars a right adjoint, it is also a [[monadic funct
 Furthermore, not only is scalars a right adjoint, it is also 
 a left adjoint.  That is, it has a right adjoint of its own, called [[coextension of scalars]].
 
+=--
+
+## Related concepts
+
+* [[extension of scalars]] $\dashv$ **restriction of scalars** $\dashv$ [[coextension of scalars]]
