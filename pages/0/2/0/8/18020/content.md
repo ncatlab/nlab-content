@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 # Sound doctrines
 
 * table of contents
@@ -5,7 +17,7 @@
 
 ## Idea
 
-A class $\Phi$ of [[diagram]] shapes for [[limits]], or more generally a class of [[weighted limits|weights]] for limits, is *sound* if it behaves nicely when paired with the class $\Phi^+$ of all [[colimit]] shapes (or weights) that [[commutativity of limits and colimits|commute]] with $\Phi$-limits in [[Set]] (or more generally in the [[enriched category|base of enrichment]]).
+A [[class]] $\Phi$ of [[diagram]] shapes for [[limits]] --- or more generally a class of [[weighted limits|weights]] for limits --- is called *sound* as a *[[doctrine]] of limits* &lbrack;[Adámek, Borceux, Lack & Rosicky (2002)](#AdámekBorceuxLAckRosicky2002)&rbrack; if it behaves nicely when paired with the class $\Phi^+$ of all [[colimit]] shapes (or weights) that [[commutativity of limits and colimits|commute]] with $\Phi$-limits in [[Set]] (or more generally in the [[enriched category|base of enrichment]]).
 
 ## Definition
 
@@ -13,7 +25,7 @@ A class $\Phi$ of [[diagram]] shapes for [[limits]], or more generally a class o
 
 ## References
 
-* [[Jiri Adamek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, [web](https://www.sciencedirect.com/science/article/pii/S0022404902001263)
+* {#AdámekBorceuxLackRosicky2002} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, Journal of Pure and Applied Algebra **175** 1–3 (2002)  7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
 
 * [n-Cafe discussion about the above paper](https://golem.ph.utexas.edu/category/2014/05/classifying_by_generalizing_th.html)
 
@@ -23,4 +35,12 @@ A class $\Phi$ of [[diagram]] shapes for [[limits]], or more generally a class o
 
 * [[G. M. Kelly]], V. Schmitt, *Notes on enriched categories with colimits of some class*, [arXiv](https://arxiv.org/abs/math/0509102)
 
+[[!redirects sound doctrines of limits]]
+
+[[!redirects doctrine of limits]]
+[[!redirects doctrines of limits]]
+
+[[!redirects sound doctrine]]
 [[!redirects sound doctrines]]
+
+
