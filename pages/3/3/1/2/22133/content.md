@@ -30,7 +30,7 @@ On the need for [[topological quantum computation]] in [[quantum computation]]:
 
 On the prospect of detecting [[Majorana zero modes]]:
 
-* {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana* &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365)&rbrack;
+* {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana*, Nature Physics **19** (2023) 165-170 &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365), [doi:10.1038/s41567-022-01900-9](https://doi.org/10.1038/s41567-022-01900-9)&rbrack;
 
 
 
