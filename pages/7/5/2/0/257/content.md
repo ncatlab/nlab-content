@@ -341,6 +341,8 @@ is an [[isomorphism]], namely a [[bijection]] of sets. The [[equivalence relatio
 **(product model structure)**
 \linebreak
 For $\mathcal{C}$, $\mathcal{D}$ a [[pair]] of [[model categories]], the [[product category]] of their [[underlying]] [[categories]] carries the *product model structure* $\mathcal{C} \times \mathcal{D}$ whose [[weak equivalences]]/[[fibrations]]/[[cofibrations]] are the [[pairs]] of the corresponding such morphisms in $\mathcal{C}$ and $\mathcal{D}$.
+
+More generally, for an [[indexed set]] $\big(\mathcal{C}_s\big)_{s \in S}$ of model categories, there is the analogous product model structure on their $S$-indexed [[product category]] $\underset{s \in S}{\prod} \mathcal{C}$, whose [[objects]] and morphisms are [[dependent coproduct|dependent]] $S$-[[tuples]] of objects and morphisms in the $\mathcal{C}_i$. 
 \end{proposition}
 (e.g. [Hovey (1999), Exp. 1.1.6](#Hovey99))
 
