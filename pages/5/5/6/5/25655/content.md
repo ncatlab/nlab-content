@@ -16,16 +16,16 @@
 
 ## Idea
 
-$n$-Trusses are the [[fundamental categories]] (or, rather, fundamental posets) of [[n-mesh|$n$-meshes]]. They are central to the combinatorial classification of [[manifold diagrams]] and play an important role in [[framed combinatorial topology]].
+$n$-Trusses are the [[fundamental categories]] (in fact, fundamental posets) of [[n-mesh|$n$-meshes]]. They are central to the combinatorial classification of [[manifold diagrams]] and play an important role in [[framed combinatorial topology]].
 
 ## Definition
 
-Trusses in $n$-dimensions, or $n$-trusses for short, are defined inductively in dimension $n$.
+Trusses in $n$-dimensions, or $n$-trusses for short, are defined inductively in the dimension $n$.
 
 ### 1-Trusses
 
 \begin{defn} 
-A _1-truss_ $T \equiv (T,\leq, \preceq, \mathrm{dim})$ is a set $T$ with two [[partial orders]] (the 'entrance' order $\leq$ and the 'frame' order $\succeq$) as well as a 'dimension' map $\dim : (T,\leq) \to [1]^{\mathrm{op}}$ such that
+A _1-truss_ $T \equiv (T,\leq, \preceq, \mathrm{dim})$ is a set $T$ with two [[partial orders]] (the 'entrance' order $\leq$ and the 'frame' order $\preceq$) as well as a 'dimension' map $\dim : (T,\leq) \to [1]^{\mathrm{op}}$ such that
 
 1. $(T,\preceq) \cong [n] = (0 \to 1 \to ... \to n)$
 2. either $i \lt i+1$ or $i + 1 \lt i$ for all $i \prec n$
@@ -35,7 +35,7 @@ A _1-truss_ $T \equiv (T,\leq, \preceq, \mathrm{dim})$ is a set $T$ with two [[p
 
 \begin{defn} A _1-truss map_ $F : T \to S$ is a function of sets that preserves both entrance and frame order. Further,
 
-* $F$ is called  _regular_ if $\dim \circ F \Rightarrow \dim$,
+* $F$ is called _regular_ if $\dim \circ F \Rightarrow \dim$,
 * $F$ is called _singular_ if $\dim \circ F \Leftarrow \dim$,
 * $F$ is called _dimension-preserving_ if $\dim \circ F = \dim$,
 
@@ -56,7 +56,7 @@ To define bundles of 1-trusses, we first define what are the valid fiber transit
 \begin{rmk} For any map of posets $F : P \to Q$, the fiber $F^{-1}(x \to y)$ over an arrow $x \to y$ of $Q$ defines a Boolean profunctor $F^{-1}(x)$ &#8696; $F^{-1}(y)$ by mapping $(a,b)$ to $\top$ iff $a \to b$ is an arrow in $P$.
 \end{rmk}
 
-\begin{defn} \label{defn:1-truss-bordisms} Given 1-trusses $T$ and $S$, a _1-truss bordism_ $R : T$ &#8696; $S$ is a Boolean profunctor $T$ &#8696; $S$ satisfying the following:
+\begin{defn} Given 1-trusses $T$ and $S$, a _1-truss bordism_ $R : T$ &#8696; $S$ is a Boolean profunctor $T$ &#8696; $S$ satisfying the following:
     
 1. $R$ restricts to a function $R_{(0)} : T_{(0)}$ &#8696; $S_{(0)}$ and a cofunction $R_{(1)} : T_{(1)}$ &#8696; $S_{(1)}$.
 2. Whenever $R(t,s) = \top = R(t',s')$, then either $t \prec t'$ or $s' \prec s$ but not both.
