@@ -218,11 +218,45 @@ Also useful to notice is:
   By Def. \ref{FreeMorphismsOfSimplicialGroupoids} and Prop. \ref{TheModelStructure} these cofibrations of simplicial groupoids are, in particular, retracts of monomorphisms of simplcial set. Since [[sSet]] is a [[topos]], its [[epi-mono factorization system]] implies that monomorphisms are preserved under retracts. And of course also the Kan-Quillen weak equivalences are preserved under retract.
 \end{proof}
 
+### Relation to simplicial categories
+ {#RelationToSimplicialCategories}
+
+\begin{proposition}
+The canonical inclusion functor
+$$
+  \iota 
+    \,\colon\, 
+  sSet\text{-}Grpd
+   \xhookrightarrow{\phantom{--}}
+  sSet\text{-}Cat
+$$   
+of the category of [[sSet]]-[[enriched groupoids]] into that of [[sSet-enriched categories]] 
+
+1. has a [[left adjoint]], given degreewise by the [[free groupoid]]-construction ([[localization of a category|localization]] at the class of all morphisms)
+
+1. evidently preserves fibrations and weak equivalences between the above model structure on simplicial groupoids and the Bergner-[[model structure on sSet-categories]] (see [there](model+structure+on+sSet-categories#ModelForInfinityCategories))
+
+hence we have a [[Quillen adjunction]]:
+$$
+  sSet\text{-}Grpd_{DK}
+  \underoverset
+     {\underset{\iota}{\hookrightarrow}}
+     {\overset{F}{\longleftarrow}}
+     {\;\;\; \bot_{\mathrm{Qu}} \;\;\;}
+  sSet\text{-}Cat_{Berg}
+  \,.
+$$
+\end{proposition}
+(see also [Minichiello, Rivera & Zeinalian (2023), Prop. 2.8](#MinichielloRiveraZeinalian23))
+
+
 ## Related concepts
 
 * [[Dwyer-Kan loop groupoid]]
 
 * [[model structure on simplicial groups]]
+
+* [[model structure on simplicial categories]]
 
 * [[model structure on simplicial sets]]
 
@@ -246,6 +280,8 @@ A proof of the model structure closer to that establishing the [[model structure
 See also:
 
 * A. R. Garzon, J. G. Miranda and R. Osorio, *A simplicial description of the homotopy category of simplicial groupoids*, Theory and Applications of Categories **7**  14  (2000)263-283 &lbrack;[tac:7-14](http://www.tac.mta.ca/tac/volumes/7/n14/7-14abs.html)&rbrack;
+
+* {#MinichielloRiveraZeinalian23} [[Emilio Minichiello]], [[Manuel Rivera]], [[Mahmoud Zeinalian]], *Categorical models for path spaces*, Advances in Mathematics **415** (2023) 108898 &lbrack;[arXiv:2201.03046](https://arxiv.org/abs/2201.03046), [doi:10.1016/j.aim.2023.108898](https://doi.org/10.1016/j.aim.2023.108898)&rbrack;
 
 
 [[!redirects model category of simplicial groupoids]]
