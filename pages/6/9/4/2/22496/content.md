@@ -31,6 +31,8 @@ This may be understood as the "[[delooping]]" of $G$ in the ambient [[(infinity,
 
 ## Related concepts
 
+* a [[skeletal groupoid]] is a [[disjoint union]] of delooping groupoids
+
 * [[pair groupoid]]
 
 * [[looping and delooping]]
