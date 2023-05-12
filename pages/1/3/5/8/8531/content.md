@@ -16,9 +16,35 @@
 
 ## Idea
 
-A [[right adjoint]] to _[[restriction of scalars]]_. The dual notion to _[[extension of scalars]]_ .
+Coextension of scalars is the [[right adjoint]] to _[[restriction of scalars]]_.  It is the dual notion to _[[extension of scalars]]_.
 
-## Properties
+## Definition
+
+Let $f \colon R \to S$ be a [[homomorphism]] of [[algebra|algebraic]] objects such as [[rings]].  If $\cdot_S$ is the left [[action]] of $S$ on some [[module]] $M$, then 
+$$
+  r\cdot_R m \coloneqq f( r )\cdot_S m
+$$ 
+defines a left action of $R$ on $M$. This construction extends to a  [[functor]] called *restriction of scalars* along $f$ and denoted
+$$
+  f^\ast \colon SMod \longrightarrow RMod
+$$
+This functor has both a left and right adjoint.  Its right adjoint is called *coextension of scalars* and denoted
+$$
+  f_* \colon
+  RMod
+   \longrightarrow 
+  SMod
+$$
+Concretely, for any left $R$-module $M$, $f_*(M)$ is the homset $RMod(S,M)$ made into a left $S$-module by
+$$
+    (s g)(s') = g(s s')
+$$ 
+for $g \in RMod(S,M)$ and $s,s' \in S$.  Here $S$ is made into a left $R$-module by
+$$
+   r \cdot s \coloneqq f(r) s 
+$$
+
+## Example
 
 Here is one special case.
 
@@ -70,6 +96,14 @@ $$
 $$
 
 =--
+
+## Relation to extension of scalars
+
+In some cases coextension of scalars is naturally isomorphic to [[extension of scalars]], which is the *left* adjoint to restriction of scalars.  For example if $H$ is a [[subgroup]] of finite index of a group $G$, for any field $k$ there is an inclusion of [[group algebras]]
+$$   
+ i \colon k[H] \to k[G]
+$$
+and coextension of scalars along $i$ is naturally isomorphic to extension of scalars along $i$.
 
 ## Related concepts
 
