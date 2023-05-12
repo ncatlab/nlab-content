@@ -37,7 +37,7 @@ $$
 $$
 Concretely, for any left $R$-module $M$, $f_*(M)$ is the homset $RMod(S,M)$ made into a left $S$-module by
 $$
-    (s g)(s') = g(s s')
+    (s g)(s') \coloneqq g(s s')
 $$ 
 for $g \in RMod(S,M)$ and $s,s' \in S$.  Here $S$ is made into a left $R$-module by
 $$
