@@ -101,8 +101,10 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 ([Harpaz & Prasma (2015), Proposition 3.1.2](#HarpazPrasma15))
 
 ## Examples
+ {#Examples}
 
 ### Basic examples
+ {#BasicExamples}
 
 \begin{example}\label{ModelStructureOnIndexedSetsOfObjects}
 **(model structure on indexed sets of objects)**
@@ -157,22 +159,24 @@ Therefore with Prop. \ref{ExistenceStatement} the integral model structure on th
 \]
 exists, where on the right we are indicating how the [[objects]] in this Grothendieck construction may be thought of as [[bundles]] of $\mathcal{C}$-objects over sets (under the unique [[coproduct]]-[[preserved colimit|preserving]] embedding $Set \hookrightarrow \mathcal{C}$) and the [[morphisms]] as morphisms of such bundles covering possibly non-trivial maps of base sets.
 
-Unwinding the above definitions in this case, says that such a morphisms $\phi_f$ in this Grothendieck construction is
+Unwinding the definition \ref{IntegralModelStructure} of the integral model structure in this case, gives that such a morphism $\phi_f$ in this Grothendieck construction is:
 
-* a fibration iff all the components $X_s \longrightarrow Y_{f(s)}$ are fibrations in $\mathcal{C}$ for all $s \in S$
+* a fibration iff all the components $X_s \longrightarrow Y_{f(s)}$ are fibrations in $\mathcal{C}$ for all $s \in S$,
 
-* a cofibration iff all the co-components $\underset{s \in f^{-1}(\{t\})}{\coprod}  X_s \longrightarrow Y_t$ are cofibrations in $\mathcal{C}$, for all $t \in T$.
+* a cofibration iff all the co-components $\underset{s \in f^{-1}(\{t\})}{\coprod}  X_s \longrightarrow Y_t$ are cofibrations in $\mathcal{C}$, for all $t \in T$,
 
-* a weak equivalence iff $f$ is a [[bijection]] of index sets and all the (co)components maps --- which in this case are all of the form $X_s \longrightarrow X_{f(s)}$ --- are weak equivalences in $\mathcal{C}$.
+* a weak equivalence iff $f$ is a [[bijection]] of index sets and all the (co)components maps --- which in this case are all of the form $X_s \longrightarrow X_{f(s)}$ --- are weak equivalences in $\mathcal{C}$
+
+  (here the composition with (co)fibrant replacements can be omitted, since, as above, $f_!, f^\ast$ preserve such resolution weak equivalences).
 
 
 \end{example}
 
 \begin{example}
 **(model structure on skeletal simplicial groupoids)**
-As a special case of Exp. \ref{ModelStructureOnIndexedSetsOfObjects}, consider $\mathcal{C} \colonequiv sGrpd$ the [[model structure on simplicial groups]].
+As a special case of Exp. \ref{ModelStructureOnIndexedSetsOfObjects}, consider $\mathcal{C} \coloneqq sGrpd$ the [[model structure on simplicial groups]].
 
-Notice that forming simplicial [[delooping groupoids]] is a [[fully faithful functor]] from [[sGrp]] to the [[1-category]] of [[sSet]]-[[enriched groupoids]] (Dwyer-Kan's"[[simplicial groupoids]]")
+Notice that forming simplicial [[delooping groupoids]] is a [[fully faithful functor]] from [[sGrp]] to the *[[1-category]]* of [[sSet]]-[[enriched groupoids]] (Dwyer-Kan's"[[simplicial groupoids]]")
 $$
   \array{
     sGrp &\longrightarrow& sSet\text{-}Grpd
@@ -180,13 +184,14 @@ $$
     \mathcal{G} &\mapsto& \mathbf{B}\mathcal{G}
   }
 $$
-This extends to identify the [[Grothendieck construction]] (eq:GrothConstForObjectsParameterizedOverSets) in the present case with the [[full subcategory]] of [[disjoint unions]] of simplicial [[delooping groupoids]], hence with that of simplicial [[skeletal groupoids]]:
-$$
+which extends to identify the [[Grothendieck construction]] (eq:GrothConstForObjectsParameterizedOverSets) in the present case with the [[full subcategory]] of [[disjoint unions]] of simplicial [[delooping groupoids]], hence with that of simplicial [[skeletal groupoids]]:
+\[
+  \label{InclusionOfSkeletalSimplicialGroupoids}
   \array{
     \int_S \underset{s \in S}{\prod} sGrp
     &\;\simeq\;&
     sSet\text{-}Grpd_{skl}
-    &\longrightarrow& 
+    &\xhookrightarrow{\phantom{--}}& 
     sSet\text{-}Grpd
     \\
     \big(\mathcal{G}_s\big)_{s \in S} 
@@ -194,8 +199,19 @@ $$
     \underset{s \in S}{\coprod} 
       \mathbf{B}\mathcal{G}_s
   }
+\]
+
+Since (assuming the [[axiom of choice]] in the [[underlying]] [[Sets]]) every [[sSet]]-[[enriched groupoid]] is [[Dwyer-Kan equivalence|DK-equivalent]] to a skeletal simplicial groupoid, the [[full subcategory]] inclusion (eq:InclusionOfSkeletalSimplicialGroupoids) is also a [[Dwyer-Kan equivalence]] of [[sSet-enriched categories]]. 
+
+Moreover, if we consider on $sSet\text{-}Grpd$ the usual [[model structure on simplicial groupoids]], then the inclusion functor
 $$
-(...)
+  sSet\text{-}Grpd_{skl}
+  \hookrightarrow
+  sSet\text{-}Grpd  
+$$
+preserves [[weak equivalences]] and [[fibrations]]. However, since there is no [[left adjoint]] to this functor (due to the choices involved in passing to a [[skeleton]] such an adjoint exists only as a [[pseudofunctor]], hence on the level of [[2-category theory]]) this is *not* a [[right Quillen functor]], and in particular *not* a [[Quillen equivalence]].
+
+
 \end{example}
 
 
