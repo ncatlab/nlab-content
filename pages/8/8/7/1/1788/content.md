@@ -1,5 +1,28 @@
 
 $$
+  \array{
+    Set 
+    &\longrightarrow&
+    ModCat
+    \\
+    S 
+      &\mapsto& 
+    \underset{s \in S}{\prod} \mathcal{C}
+    \\
+    \Big\downarrow{{}^\mathrlap{f}}
+    &&
+    \mathllap{{}^{f^\ast}}
+    \Big\downarrow
+    \Big\downarrow\mathrlap{{}^{f_!}}
+    \\
+    T 
+      &\mapsto& 
+    \underset{s \in S}{\prod} \mathcal{C}
+  }
+$$  
+
+
+$$
   \begin{array}{c}
     x
     \\
