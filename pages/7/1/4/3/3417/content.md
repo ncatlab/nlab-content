@@ -90,7 +90,7 @@ The category [[SSet Cat]] of [[small category|small]] [[simplicially enriched ca
 
 =--
 
-([Bergner 04](#Bergner04))
+&lbrack;[Bergner (2004)](#Bergner04), [Lurie (2009), thm. A.3.2.4](#Lurie)&rbrack;
 
 +-- {: .num_remark}
 ###### Remark
@@ -103,18 +103,56 @@ In particular, the fibrant objects in this structure are the [[Kan complex]]-enr
 
 ## Properties
 
+### Further model category properties
+
 +-- {: .num_prop #RightProperness}
 ###### Proposition
 
 The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[proper model category]].
 
-
 =--
 
 A reference for right properness is ([Bergner 04, prop. 3.5](#Bergner04)). A reference for left properness is ([Lurie, A.3.2.4](#Lurie)) and ([Lurie, A.3.2.25](#Lurie)).
 
+### Relation to simplicial groupoids
+ {#RelationToSimplicialGroupoids}
+
+
+\begin{proposition}
+The canonical inclusion functor
+$$
+  \iota 
+    \,\colon\, 
+  sSet\text{-}Grpd
+   \xhookrightarrow{\phantom{--}}
+  sSet\text{-}Cat
+$$   
+of the category of [[sSet]]-[[enriched groupoids]] (aka *Dwyer-Kan [[simplicial groupoids]]*) into that of [[sSet-enriched categories]] 
+
+1. has a [[left adjoint]], given degreewise by the [[free groupoid]]-construction ([[localization of a category|localization]] at the class of all morphisms)
+
+1. evidently preserves fibrations and weak equivalences between the above Bergner-model structure (Prop. \ref{BergnerModelStructure})
+and the Dwyer-Kan [[model structure on simplicial groupoids]]
+ 
+hence we have a [[Quillen adjunction]]:
+$$
+  sSet\text{-}Grpd_{DK}
+  \underoverset
+     {\underset{\iota}{\hookrightarrow}}
+     {\overset{F}{\longleftarrow}}
+     {\;\;\; \bot_{\mathrm{Qu}} \;\;\;}
+  sSet\text{-}Cat_{Berg}
+  \,.
+$$
+\end{proposition}
+
+(see also [Minichiello, Rivera & Zeinalian (2023), Prop. 2.8](model+structure+on+simplicial+groupoids#MinichielloRiveraZeinalian23))
+
+
 
 ## Related concepts
+
+* [[model structure on simplicial groupoids]]
 
 * [[model structure for quasi-categories]]
 
@@ -132,13 +170,13 @@ A model category structure on the category of $sSet$-categories with a fixed set
 
 * [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_, J. Pure and Applied Algebra 17 (3) (1980) ([pdf](https://www3.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
 
-Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
+Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in:
 
-* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_,  Trans. Amer. Math. Soc. 359 (2007), 2043-2058  ([arXiv:0406507](http://arxiv.org/abs/math/0406507), [doi:10.1090/S0002-9947-06-03987-0](https://doi.org/10.1090/S0002-9947-06-03987-0))
+* {#Bergner04} [[Julie Bergner]], *A model category structure on the category of simplicial categories*,  Trans. Amer. Math. Soc. **359** (2007) 2043-2058 &lbrack;[arXiv:0406507](http://arxiv.org/abs/math/0406507), [doi:10.1090/S0002-9947-06-03987-0](https://doi.org/10.1090/S0002-9947-06-03987-0)&rbrack;
 
 Also:
 
-* {#Lurie} [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_ (2009)
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
