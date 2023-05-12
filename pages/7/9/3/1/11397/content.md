@@ -16,5 +16,10 @@ On the [[Beck-Chevalley condition]] in [[Goursat categories]]:
 
 * [[Marino Gran]], [[Diana Rodelo]], *Beck-Chevalley condition and Goursat categories*, Journal of Pure and Applied Algebra **221** 10 (2017) 2445-2457 &lbrack;[arXiv:1512.04066](https://arxiv.org/abs/1512.04066), [doi:10.1016/j.jpaa.2016.12.031](https://doi.org/10.1016/j.jpaa.2016.12.031)&rbrack;
 
+Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are the [[groupoids]] ([[skeletal categories]], respectively), hence whose "trivial objects" are the [[skeletal groupoids]]:
+
+* [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
+
+
 
 category:people
