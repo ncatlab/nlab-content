@@ -156,3 +156,9 @@ This shows $T Q$ is isomorphic to the product bundle $Q \times V$.
 
 [[!redirects quasigroup]]
 [[!redirects quasigroups]]
+
+[[!redirects left quasigroup]]
+[[!redirects left quasigroups]]
+
+[[!redirects right quasigroup]]
+[[!redirects right quasigroups]]
