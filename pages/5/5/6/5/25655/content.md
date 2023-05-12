@@ -301,6 +301,7 @@ $$
 where $C_x$ is a combinatorial cone type.
 \end{defn}
 
+{#manifold_diagram_classification}
 \begin{thm} Manifold diagrams, up to framed stratified homeomorphism, bijectively correspond to normalized combinatorial manifold $n$-diagrams.
 \end{thm}
 
@@ -334,6 +335,11 @@ $$
 (or, in the labeled case: $\dagger : \mathfrak{T}^n(C) \to (\mathfrak{T}^n(C^{\mathrm{op}}))^{\mathrm{op}}$.)
 
 
+## Remarks
+
+* Open trusses have also been called 'singular cubes' (e.g. in [Dorn 2018](#Dorn18)) and '[[zig-zags]]' (e.g. in [Reutter-Vicary 2019](#RV19) and [Heidemann-Reutter-Vicary 2022](#HRV22)).
+* There is an unrelated notion of [[truss]] used in context of [[ring theory]] and [quantum algebra](https://en.wikipedia.org/wiki/Quantum_algebra).
+
 
 ## Related concepts
 
@@ -346,6 +352,8 @@ $$
 
 
 * {#Dorn18} [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
+
+* {#RV19} [[David Reutter]], [[Jamie Vicary]], _High-level methods for homotopy construction in associative $n$-categories_, LICS '19: Proceedings of the 34th Annual ACM/IEEE Symposium on Logic in Computer ScienceJune **62** (2019) 1–13 &lbrack;[arXiv:1902.03831](https://arxiv.org/abs/1902.03831), [doi:10.1109/LICS52264.2021.9470575](https://doi.org/10.1109/LICS52264.2021.9470575)&rbrack;
 
 * {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700), [latest](https://cxdorn.github.io/fct-book/))
 
