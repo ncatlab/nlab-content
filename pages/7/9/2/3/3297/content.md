@@ -24,7 +24,7 @@ The solution lies in thinking of presheaves on an ordinary category $C$, and mor
 
 Here is the slick definition: let $S$ be a category with pullbacks. Then the bicategory $Prof(S)$ of internal categories, profunctors and transformations in $S$ is defined to be $Mod(Span(S))$, the category of [[monad]]s and [[module over a monad|bimodules]] in $Span(S)$, the [[bicategory]] of [[span]]s in $S$.
 
-So an **internal profunctor** $C &#8696; D$ between internal categories $C$ and $D$ is a bimodule from $C$ to $D$.  An **internal presheaf** on $C$ is a right $C$-module, or equivalently a bimodule $1 &#8696; C$, where $1$ is the discrete category on the terminal object of $S$ (as long as $S$ has one, of course).
+So an **internal profunctor** $C &#8696; D$ between internal categories $C$ and $D$ is a bimodule from $C$ to $D$.  An **internal presheaf** on $C$ is a right $C$-module, or equivalently a bimodule $C &#8696; 1$, where $1$ is the discrete category on the terminal object of $S$ (as long as $S$ has one, of course).
 
 An internal presheaf in $S$ is the same thing as an [[internal diagram]] in $S$.
 
