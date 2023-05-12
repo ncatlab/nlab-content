@@ -13711,7 +13711,9 @@ For $X$ a [[topological space]] and $k$ a [[topological field]], there is the [[
 
 * [[morphisms]] are the topological $k$-vector bundle homomorphisms
 
-according to def. \ref{TopologicalVectorBundle}. This category is usually denoted $Vect_k(X)$ of just [[Vect(X)]] in case $k$ is the field of real numbers.
+according to def. \ref{TopologicalVectorBundle}. 
+
+{#NotationForCategoryOfVectorBundles} This category is usually denoted $Vect_k(X)$ or just [[Vect(X)|$Vect(X)$]] when the [[ground field]] is understood (often: the [[real numbers]], next often the [[complex numbers]]).
 
 The set of [[isomorphism classes]] in this category (topological vector bundles
 modulo invertible [[homomorphism]] between them) we denote by $Vect(X)_{/\sim}$.
