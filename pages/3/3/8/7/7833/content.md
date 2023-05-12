@@ -43,8 +43,8 @@ $$
  
 called *[[extension of scalars]]*, since for an $R$-module $M$ and an $R$-module $S$ we have that $M\otimes_R S$ is a well defined [[tensor product of modules|tensor product]] of $R$ modules which becomes an $S$ module by the operation of $S$ on itself in the second factor of the tensor. We have an [[adjoint functors|adjunction]] $(\epsilon_f \dashv \rho_f)$.
 
-## Related concepts
+Not only is restriction of scalars a right adjoint, it is also a [[monadic functor]].  This can be shown using the [[monadicity theorem]] or by direct computation.
 
-* [[extension of scalars]] $\dashv$ **restriction of scalars** $\dashv$ [[coextension of scalars]]
-
+Furthermore, not only is scalars a right adjoint, it is also 
+a left adjoint.  That is, it has a right adjoint of its own, called [[coextension of scalars]].
 
