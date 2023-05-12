@@ -120,14 +120,6 @@ Even in the absence of a homotopy-theoretic definition of $r$-directed space in 
 
 See [[(n,r)-category]] for more on that.
 
-+--{.query}
-
-[[Urs Schreiber]]: I haven't looked at Marco Grandis' book yet: does it say anything about the homotopy hypothesis in the context of the definition of directed space used there?
-
-[[Tim Porter]]: No.
-
-=--
-
 
 ## Variants
 
@@ -281,84 +273,6 @@ Some 'local combinatorial' aspects of framed spaces are discussed in:
 A global (higher-categorical) perspective on directed spaces is taken in:
 
 * {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
-
-
-
-
-## Discussion
-
-* See also the discussion at the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=84).
-
-The above defined directed _topological_ spaces. My impression is that [[Eric Forgy|Eric]] was interested in more general concepts. But the above definition has a straightforward generalization away from topological spaces.  The general strategy is really: start with a category with [[interval object]] and consider then the category whose objects are pairs $(X, d X)$ for $X$ an object and $d X$ a subobject of $[I,X]$, and whose morphisms are morphisms $X \to Y$ that take $d X$ to $d Y$.
-
-For instance, let's define **directed sets**: make the ordinary category [[Set]] a category with interval object by , say, taking the interval object to be the set $I := [n]$ of $n$ elements. A map from $I$ into any other set can be regarded as an $n$-step path in that set. Then pairs consisting of a set and a subset of all such maps model "directed sets".
-
-_[[Eric Forgy|Eric]] says_: Yes, exactly :) That sounds like a good plan. By the way, what you say about $I := [n]$ reminds me a lot of simplicial sets.
-
-_[[Eric Forgy|Eric]] says_: We have _directed spaces_ and we may soon have _directed sets_. This makes me wonder if we should have a **directed category** [[internal category|internal to]] another category? This way
-
-* a directed space is a directed category in [[Top]]
-* a directed set is a directed category in [[Set]]
-* etc
-
-Would that make sense?
-
-[[Urs Schreiber|Urs]]: Let's see, before getting into this idea of realizing a directed space as a space internal to something else or the like,
-I don't see what you want to mean by a "directed category". See, the point is that a category already _is_ supposed to be a combinatorial model for a directed space. Just as a groupoid is a combinatorial model for an undirected space. This is the very motivation for defining directed spaces: to fill in the question marks in
-
-* groupoid | space  || category | ?? .
-
-This is why a directed space is defined such that its "thing of all paths in it" is not, in general, a [[fundamental groupoid]] but a [[fundamental category]].
-
-Methinks that for the application which you have in mind you want to be studying [[partial order|posets]] and these are special cases of categories and in particular naturally interpreted as combinatorial models for directed space, in exactly the way in which you are thinking of them as directed spaces! So 
-it seems to me you don't actually need to be looking for what you seem to be looking for, since it is already quite easily there. But of course maybe I misunderstand what you are after.
-
-_[[Eric Forgy|Eric]]_: I doubt that what I am looking for is new. If you could help put a name on it, that would be great. I'm not exactly sure what I mean by directed category either other than a "category with a direction" :|
-
-[[Urs Schreiber|Urs]]: but a category _is_ directed! Recall that underlying every category is a [[directed graph]] (it is a directed graph equipped with a composition operation). So I am still puzzled by what you are looking for, because a "directed category" would have underlying it a "directed directed graph". What's that supposed to be? And why do you want it?
-
-_[[Eric Forgy|Eric]]_: Sorry for being so dense. We can delete this once I get a clue. But for now, I'm still confused. Maybe what I wanted to say is more along the line (but probably still not correct)
-
-"A directed space has a fundamental category"
-
-"A directed set has a fundamental category"
-
-"A directed object has a fundamental category"
-
-Ack! *light bulb!* (those hurt sometimes)
-
-I think that is probably precisely why you defined [[directed object]].
-
-Could we say (and be correct!) that 
-
-"a directed space is a directed object in Top"?
-
-"a directed set is a directed object in Set"?
-
-If so, I think I am making some progress.
-
-[[Urs Schreiber|Urs]]: Yes, a directed space should be a directed object in the category of possibly directed topological spaces! (In [[Top]] itself there are no directed spaces. Every ordinary topological space is undirected). I think I listed that as a should-be example. To make it a proper example one will have to say a few more probabaly straightforward things about directed homotopies etc. But the idea is certainly this, yes, a directed space is a directed object in the category of possibly directed spaces.
-
-And as for categories: the generic category is a directed object in the category of categories. Unless it happens to be a groupoid. In which case it is an undirected object there.
-
-(All this with respect to the "canonical" choice of [[interval object]]. The notion of directedness depends on which interval object you choose to test with. For instance the point itself satisfies the axioms of an interval object. But using it of course everything will look undirected.)
-
-_[[Eric Forgy|Eric]]_: Ugh. I didn't want a directed space to be a directed object in the category of directed spaces. That is boring :) A set is an object in the Set too, but it doesn't tell you anything. Hmm. It looks like what I wanted isn't going to work as is, i.e. a directed space is not a directed object in Top because there are no directed objects in Top apparently.
-
-[[Urs Schreiber|Urs]]: I think you do want that. Just don't let the terminology let mix you up. An ordinary space is already called a space. While from your perspective an ordinary space ought to be called an _undirected space_.  Then "space" could be assigned to mean "not-necessarily but possibly directed space" and then a directed space could be called a directed object in spaces.
-
-But convention is different. So a directed space is a directed object in the category of "not necessarily but possibly drected spaces".
-
-_Toby_: Even here, I don\'t think that you\'re really using the terminology ideally.  The proper term for what you\'re calling a "not-necessarily but possibly directed space" is just *directed space*!  Much like a non-associative algebra might happen to be associative, so a directed space might happen to be undirected.  (In terms of Grandis\'s definition, any space $X$ defines a directed space where $d$ consists of only the constant paths.)
-
-[[Urs Schreiber|Urs]]: Right, Toby, I think that is my point. I was just trying to convince Eric that there is nothing wrong or cheating or boring about the fact that "a directed space is a directed object in the category of directed spaces".
-
-But maybe the the true issue is whether we want to speak of "directed objects" over at [[directed object]] or rather restrict to speaking about _undirected objects_. Then every object would be a directed object, possibly with trivial direction information, while those objects which are propertly directed would be the _not undirected objects_. 
-
-I consider you as an authority on such issues of logical rigour. You should say how we should fix the terminology and we'll implement that.
-
-_Toby_: I\'ll discuss this at [[directed object]].
-
 
 [[!redirects directed space]]
 [[!redirects directed spaces]]
