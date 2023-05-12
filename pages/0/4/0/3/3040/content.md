@@ -12,6 +12,12 @@ On [[extensive categories]] and [[distributive categories]]:
 
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
 
+
+On [[accessible categories]] via [[doctrines of limits]]:
+
+* {#AdámekBorceuxLackRosicky2002} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, Journal of Pure and Applied Algebra **175** 1–3 (2002)  7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
+
+
 On [[toposes]] as [[adhesive categories]]:
 
 * {#LackSobocínski06} [[Stephen Lack]], [[Pawel Sobocínski]], Lemma 18 in:  *Toposes are adhesive*, in: *Graph Transformations* ICGT 2006,  Lecture Notes in Computer Science **4178**, Springer (2006) 184-198 &lbrack;[doi:10.1007/11841883_14](https://doi.org/10.1007/11841883_14), [pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)&rbrack;
