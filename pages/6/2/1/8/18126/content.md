@@ -13640,7 +13640,7 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
      \phi_i \;\colon\; U_i \times k^{n_i} \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
    $$
 
-   from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
+   from the [[product topological space]] of $U_i$ with the [[topological field]] $k$ to the restriction of $E$ over $U_i$, such that
 
    1. $\phi_i$ is a function over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^n) \subset \pi^{-1}(\{x\})$
 
@@ -13705,13 +13705,13 @@ $$
 ###### Remark
 **([[Vect(X)|category of topological vector bundles]])**
 
-For $X$ a [[topological space]], there is the [[category]] whose
+For $X$ a [[topological space]] and $k$ a [[topological field]], there is the [[category]] whose
 
-* [[objects]] are the topological vector bundles over $X$,
+* [[objects]] are the topological $k$-vector bundles over $X$,
 
-* [[morphisms]] are the topological vector bundle homomorphisms
+* [[morphisms]] are the topological $k$-vector bundle homomorphisms
 
-according to def. \ref{TopologicalVectorBundle}. This category is usually denoted [[Vect(X)]].
+according to def. \ref{TopologicalVectorBundle}. This category is usually denoted $Vect_k(X)$ of just [[Vect(X)]] in case $k$ is the field of real numbers.
 
 The set of [[isomorphism classes]] in this category (topological vector bundles
 modulo invertible [[homomorphism]] between them) we denote by $Vect(X)_{/\sim}$.
