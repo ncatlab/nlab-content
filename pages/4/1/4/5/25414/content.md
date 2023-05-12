@@ -90,6 +90,7 @@ whose underlying map of trusses is a [[n-truss#n-truss_bundle_map|singular]] quo
 
 ### Sketch Definition
 
+
 Together (and, henceforth, working purely combinatorially), embeddings and quotients organize into the *[[double category]] $\mathbb{M}\mathsf{Diag}_n$ of combinatorial manifold $n$-diagrams*, with horizonal morphisms being embeddings, vertical morphisms being quotients, squares being commuting diagrams of the following form:
 
 \begin{center}
@@ -110,7 +111,7 @@ Together (and, henceforth, working purely combinatorially), embeddings and quoti
 
 When defining higher categories parametrized by manifold $n$-diagrams, we would want higher categories to be compatible both with embeddings ('morphism attachment') and quotients ('morphism composition') in the following sense. 
 
-***Sketch definition***. A *manifold diagrammatic $n$-category* $\mathcal{C}$ should be a presheaf on $\mathsf{MDiag}_n$ subject to the following two conditions.
+{#SketchDefinition} ***Sketch definition***. A *manifold diagrammatic $n$-category* $\mathcal{C}$ should be a presheaf on $\mathsf{MDiag}_n$ subject to the following two conditions.
 
 1. The collection of morphisms parametrized by a given diagram should be determined by subdiagrams that [[cover]] it. Formally, this can be enforced by an appropriate [[sheaf]] condition.
 2. The composition of a given diagram should be compatible with the composition of its subdiagrams. Formally, this can be enforced by requiring that $\mathcal{C}$ extends to a double-(co)presheaf $\mathbb{M}\mathsf{Diag}^{\mathrm{op},\mathrm{co}}_n \to \mathbb{S}\mathbf{et}$ (covariant in the vertical part, where $\mathbb{S}\mathbf{et}$ is the double category of [[double category#examples|squares]] $\mathrm{Sq}(\mathbf{Set})$ in [[Set]])).
