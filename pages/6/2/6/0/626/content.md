@@ -466,8 +466,11 @@ The generalization of string diagrams to one dimension higher is discussed in
 
 The generalization to arbitrary dimension in terms of [[opetope|opetopic]] "zoom complexes" is due to 
 
-* {#KockJoyalBataninMascari07} [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_ ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033)) 
+* {#KockJoyalBataninMascari07} [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_ ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033))
 
+The generalization to arbitrary dimension in terms of [[manifold diagrams]] (generalizing, in particular, [[opetope|opetopic shapes]]) is due to
+
+* {#DornDouglas22} [[Christoph Dorn]] and [[Christopher Douglas]], _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758), [latest](https://cxdorn.github.io/manifold-diagram-paper/))
 
 Discussion of string diagram calculus for ([[virtual double category|virtual]]) [[double categories]] and ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
 
