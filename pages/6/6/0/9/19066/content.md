@@ -100,8 +100,93 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 \end{proposition}
 ([Harpaz & Prasma (2015), Proposition 3.1.2](#HarpazPrasma15))
 
+## Examples
+
+### Basic examples
+
+\begin{example}\label{ModelStructureOnIndexedSetsOfObjects}
+**(model structure on indexed sets of objects)**
+\linebreak
+  For $\mathcal{C}$ any [[model category]], consider the [[pseudofunctor]] on [[Set]] which assigns categories of [[indexed sets]] of objects of $\mathcal{C}$, equipped with the [product model structure](model+category#ProductModelStructure):
+$$
+  \array{
+    Set 
+    &\longrightarrow&
+    ModCat
+    \\
+    S 
+      &\mapsto& 
+    \underset{s \in S}{\prod} \mathcal{C}
+    \\
+    \Big\downarrow{{}^\mathrlap{f}}
+    &&
+    \mathllap{{}^{f^\ast}}\Big\uparrow
+    \Big\downarrow\mathrlap{{}^{f_!}}
+    \\
+    T 
+      &\mapsto& 
+    \underset{s \in S}{\prod} \mathcal{C}
+  }
+$$  
+Here $f_!$ forms [[coproducts]] of objects in the same [[fibers]] of $f$.
+
+If we regard [[Set]] as equipped with its [[trivial model structure]] (whose [[weak equivalences]] are the [[isomorphisms]] and all morphisms are both [[fibrations]] as well as [[cofibrations]]) then this is evidently a relative and proper functor in the sense of Def. \ref{RelativePseudoFunctor},  Def. \ref{ProperPseudofunctor} (since with weak equivalences $f$ in $Set$ being isomorphisms, the associated functors $f_!, f^\ast$ are certainly [[Quillen equivalences]] but in fact are plain [[equivalences of categories]] compatible with the model structure and hence also preserve all weak equivalences).
 
 
+Therefore with Prop. \ref{ExistenceStatement} the integral model structure on the [[Grothendieck construction]]
+\[
+  \label{GrothConstForObjectsParameterizedOverSets}
+  \int_{S \in Set} 
+    \underset{s \in S}{\prod} \mathcal{C}
+  \;\;\;\;
+  =
+  \;\;\;\;
+  \left\{
+  \begin{array}{ccc}
+    \underset{s \in S}{\coprod} X_s
+    &\overset{\phi_f}{\longrightarrow}&
+    \underset{t \in T}{\coprod} X_t
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    S &\underset{f}{\longrightarrow}& T
+  \end{array}
+  \right\}
+\]
+exists, where on the right we are indicating how the [[objects]] in this Grothendieck construction may be thought of as [[bundles]] of $\mathcal{C}$-objects over sets (under the unique [[coproduct]]-[[preserved colimit|preserving]] embedding $Set \hookrightarrow \mathcal{C}$) and the [[morphisms]] as morphisms of such bundles covering possibly non-trivial maps of base sets.
+\end{example}
+
+\begin{example}
+**(model structure on skeletal simplicial groupoids)**
+As a special case of Exp. \ref{ModelStructureOnIndexedSetsOfObjects}, consider $\mathcal{C} :\equiv sGrpd$ the [[model structure on simplicial groups]].
+
+Notice that forming simplicial [[delopping groupoids]] is a [[fully faithful functor]] from [[sGrp]] to the [[1-category]] of [[sSet]]-[[enriched groupoids]] (Dwyer-Kan's"[[simplicial groupoids]]")
+$$
+  \array{
+    sGrp &\longrightarrow& sSet\text{-}Grpd
+    \\
+    \mathcal{G} &\mapsto& \mathbf{B}\mathcal{G}
+  }
+$$
+This extends to identify the [[Grothendieck construction]] (eq:GrothConstForObjectsParameterizedOverSets) in the present case with the [[full subcategory]] of [[disjoint unions]] of simplicial [[delooping groupoids]], hence with that of simplicial [[skeletal groupoids]]:
+$$
+  \array{
+    \int_S \underset{s \in S}{\prod} sGrp
+    &\;\simeq\;&
+    sSet\text{-}Grpd_{skl}
+    &\longrightarrow& 
+    sSet\text{-}Grpd
+    \\
+    \big(\mathcal{G}_s\big)_{s \in S} 
+      &\mapsto& 
+    \underset{s \in S}{\coprod} 
+      \mathbf{B}\mathcal{G}_s
+  }
+$$
+(...)
+\end{example}
 
 
 \linebreak
