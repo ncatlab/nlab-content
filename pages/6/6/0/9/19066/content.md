@@ -144,8 +144,8 @@ Therefore with Prop. \ref{ExistenceStatement} the integral model structure on th
   \left\{
   \begin{array}{ccc}
     \underset{s \in S}{\coprod} X_s
-    &\overset{\phi_f}{\longrightarrow}&
-    \underset{t \in T}{\coprod} X_t
+    &\overset{\phi}{\longrightarrow}&
+    \underset{t \in T}{\coprod} Y_t
     \\
     \big\downarrow
     &&
@@ -156,13 +156,23 @@ Therefore with Prop. \ref{ExistenceStatement} the integral model structure on th
   \right\}
 \]
 exists, where on the right we are indicating how the [[objects]] in this Grothendieck construction may be thought of as [[bundles]] of $\mathcal{C}$-objects over sets (under the unique [[coproduct]]-[[preserved colimit|preserving]] embedding $Set \hookrightarrow \mathcal{C}$) and the [[morphisms]] as morphisms of such bundles covering possibly non-trivial maps of base sets.
+
+Unwinding the above definitions in this case, says that such a morphisms $\phi_f$ in this Grothendieck construction is
+
+* a fibration iff all the components $X_s \longrightarrow Y_{f(s)}$ are fibrations in $\mathcal{C}$ for all $s \in S$
+
+* a cofibration iff all the co-components $\underset{s \in f^{-1}(\{t\})}{\coprod}  X_s \longrightarrow Y_t$ are cofibrations in $\mathcal{C}$, for all $t \in T$.
+
+* a weak equivalence iff $f$ is a [[bijection]] of index sets and all the (co)components maps --- which in this case are all of the form $X_s \longrightarrow X_{f(s)}$ --- are weak equivalences in $\mathcal{C}$.
+
+
 \end{example}
 
 \begin{example}
 **(model structure on skeletal simplicial groupoids)**
-As a special case of Exp. \ref{ModelStructureOnIndexedSetsOfObjects}, consider $\mathcal{C} :\equiv sGrpd$ the [[model structure on simplicial groups]].
+As a special case of Exp. \ref{ModelStructureOnIndexedSetsOfObjects}, consider $\mathcal{C} \colonequiv sGrpd$ the [[model structure on simplicial groups]].
 
-Notice that forming simplicial [[delopping groupoids]] is a [[fully faithful functor]] from [[sGrp]] to the [[1-category]] of [[sSet]]-[[enriched groupoids]] (Dwyer-Kan's"[[simplicial groupoids]]")
+Notice that forming simplicial [[delooping groupoids]] is a [[fully faithful functor]] from [[sGrp]] to the [[1-category]] of [[sSet]]-[[enriched groupoids]] (Dwyer-Kan's"[[simplicial groupoids]]")
 $$
   \array{
     sGrp &\longrightarrow& sSet\text{-}Grpd
