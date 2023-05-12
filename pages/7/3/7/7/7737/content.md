@@ -132,6 +132,7 @@ A stratified map $F \colon (X,f) \to (Y,g)$  (Def. \ref{StratifiedMap}) is calle
 
 \end{terminology}
 
+{#constructible_strat_bun}
 \begin{rmk} (Constructible bundles). The preceding definition of stratified bundles is rather weak, and in practice one often finds bundles that satisfy stronger conditions, such as constructibility: a *constructible* stratified bundle is a bundle that, up to bundle isomorphism, can be classified by functorial information associated to the fundamental category (see Def. \ref{defn_exit_path_cat}) of its stratified base space (cf. [Sec. 6.3, Ayala-Francis-Rozenblyum 2015](#AyalaFrancisRozenblyum15)).
 \end{rmk}
 
