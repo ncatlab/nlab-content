@@ -13,7 +13,7 @@ A class $\Phi$ of [[diagram]] shapes for [[limits]], or more generally a class o
 
 ## References
 
-* [[Jiri Adamek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, [web](http://maths.mq.edu.au/~slack/papers/acc.html)
+* [[Jiri Adamek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, [web](https://www.sciencedirect.com/science/article/pii/S0022404902001263)
 
 * [n-Cafe discussion about the above paper](https://golem.ph.utexas.edu/category/2014/05/classifying_by_generalizing_th.html)
 
