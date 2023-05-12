@@ -51,7 +51,7 @@ Manifold diagrams are meant to provide a definitional framework for higher algeb
 
 ### Outline
 
-Several definitional variants exist in dimensions $\leq 4$ (see also at [[surface diagram|surface diagrams]]). In general dimensions, manifold diagrams can be defined as conical, compactly triangulable stratifications of [[directed topological space|directed euclidean space]].
+Several definitional variants exist in dimensions $\leq 4$ (see also at [[surface diagram|surface diagrams]]). In general dimensions, manifold diagrams (introduced in [Dorn-Douglas 2022](#DornDouglas22)) can be defined as conical, compactly triangulable stratifications of [[directed topological space|directed euclidean space]].
 
 \begin{defn} A **manifold $n$-diagram** is a conical, compactly triangulable stratification of standard $n$-dimensional directed space.
 \end{defn}
@@ -88,19 +88,38 @@ We can now put these concepts together to obtain the following form definition o
 The natural 'isomorphism' relation of manifold diagrams is framed stratified homeomorphism.
 
 
-### Consequences
+## Properties
 
-The definition has several important consequences.
+The definition has several important consequences, which we list in this section. These consequences have been formally worked out in [Dorn and Douglas 22](#DornDouglas22). (Note the primary definition in the latter text differs from that given here, but a comparison is given.)
 
-* While the compact triangulability condition requires the existence of _some_ combinatorial representation, there is in fact a _canonical_ combinatorial representation for isomorphism classes of manifold diagrams. This leads to a theory of combinatorial objects called "trusses".
+### Combinatorialization theorem
 
-* Strata in manifold diagrams are, indeed, manifolds. Moreover, they have canonical smooth structures. This follows since framed PL manifolds have unique framed smooth structure.
+While the compact triangulability condition requires the existence of _some_ combinatorial representation, there is in fact a _canonical_ combinatorial representation for isomorphism classes of manifold diagrams. This leads to a theory of combinatorial objects called [[n-truss|trusses]]. The full 'combinatorialization theorem' is spelled out [[n-truss#manifold_diagram_classification|here]].
 
-* Links of tubular neighborhoods in manifold diagrams are in fact well-defined. That is, there is, up to isomorphism, a unique choice of link. This stands in contrast to classical topological conical stratifications, where non-homeomorphic choices of links exist.
+### Framed smooth structure of strata
 
-* Manifold diagrams have canonical geometric duals (in the sense of Poincaré duality). This relates manifold diagrams to diagrams of cells, and this may be considered as classical [[pasting diagram|pasting diagrams]] (but with cell shapes that generalize the usual shapes, such as 'globular', 'simplicial', or 'opetopic' shapes).
+Strata in manifold diagrams are, indeed, manifolds. Moreover, they have canonical smooth structures. This follows since manifold strata carry canonical PL structure, and are canonically framed, and since framed PL manifolds have unique compatible framed smooth structure.
 
-These consequences have been worked out in [Dorn and Douglas 22](#DornDouglas22). (Note the primary definition in the latter text differs from that given here, but a comparison is given.)
+### Well-definedness of links
+
+Links of tubular neighborhoods in manifold diagrams are in fact well-defined. That is, there is, up to isomorphism, a unique choice of link. This stands in contrast to classical topological conical stratifications, where non-homeomorphic choices of links exist.
+
+### Dual cellular theory of manifold diagrams
+
+Manifold diagrams have canonical geometric duals (in the sense of Poincaré duality). This relates manifold diagrams to 'diagrams of directed cells' in the sense of classical [[pasting diagram|pasting diagrams]] (but with  cell shapes that generalize many common classes of shapes such as 'globular', 'simplicial', or 'opetopic' shapes). Details are spelled out in [Dorn and Douglas 22, Sec. 2.4](#DornDouglas22).
+
+## Related concepts
+
+* [[n-truss]]
+
+* [[n-mesh]]
+
+* [[manifold-diagrammatic n-category]]
+
+* [[homotopy.io]]
+
+* [[directed topological space]]
+
 
 ## References
 
@@ -108,7 +127,7 @@ These consequences have been worked out in [Dorn and Douglas 22](#DornDouglas22)
 
 * {#Carter} [[Scott Carter]], _An excursion in diagrammatic algebra_, 2012, World Scientific ([doi:10.1142/8315](https://doi.org/10.1142/8315))
 
-* {#DornDouglas22} [[Christoph Dorn]] and [[Christopher Douglas]], _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758))
+* {#DornDouglas22} [[Christoph Dorn]] and [[Christopher Douglas]], _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758), [latest](https://cxdorn.github.io/manifold-diagram-paper/))
 
 * {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
 
