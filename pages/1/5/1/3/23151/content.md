@@ -187,7 +187,7 @@ Notice that the first inclusion here does *not* [[preserved colimit|preserve]] [
 Fairly immediate from the explicit definition [above](#ViaIndexedSetsOfObjects) is:
 
 \begin{proposition}\label{CategoriesOfCoproductsOfConnectedObjects}
-  A [[category]] $\mathcal{B}$ is [[equivalence of categories|equivalent]] to a [[free coproduct completion]] $PSh_{\sqcup}(\mathcal{C})$ for a [[small category]] $\mathcal{C}$ if 
+  A [[category]] $\mathcal{B}$ with small-indexed [[coproducts]] is [[equivalence of categories|equivalent]] to a [[free coproduct completion]] $PSh_{\sqcup}(\mathcal{C})$ for a [[small category]] $\mathcal{C}$ if 
 
 1. $\mathcal{C} \xhookrightarrow{\;} \mathcal{B}$ is a [[full subcategory]] of [[connected objects]], 
 
@@ -199,7 +199,59 @@ Fairly immediate from the explicit definition [above](#ViaIndexedSetsOfObjects) 
 
 \end{proposition}
 ([Carboni & Vitale 1998, Lem. 42](#CarboniVitale98))
+\begin{proof}
+  Since, by assumption, the objects of $\mathcal{B}$ are already presented by [[indexed sets]] $\big(X_s\big)_{s \in S}$ of objects in $\mathcal{C}$, it is sufficient to see that under this presentation the morphisms 
+$$
+  \phi
+  \,\colon\,
+  \big(\underset{s \in S}{\coprod} X_s\big)
+  \longrightarrow
+  \big(\underset{t \in T}{\coprod} Y_t\big)
+$$
+in $\mathcal{B}$ correspond bijectively to indexed sets of morphisms in $\mathcal{C}$ according to the explicit description of the free coproduct completion [above](#ViaIndexedSetsOfObjects). Indeed, using 
 
+1. the [[hom-functors preserve limits|general fact]] that [[hom-functors]] take [[coproducts]] in the first argument to [[products]]  
+
+1. the defining property that the resulting hom-functors out of connected objects take coproducts in the second argument to coproducts, 
+
+we obtain the following sequence of [[natural bijections]]
+$$
+\begin{array}{ll}
+  Hom_{\mathcal{C}}\big(
+    \coprod_s X_s
+    ,\,
+    \coprod_t Y_t
+  \big)
+  \\
+  \;\simeq\;
+  \prod_s
+  Hom_{\mathcal{C}}\big(
+     X_s
+    ,\,
+    \coprod_t Y_t
+  \big)
+  \\
+  \;\simeq\;
+  \underset{s \in S}{\prod}
+  \underset{t_s \in T}{\coprod}
+  Hom_{\mathcal{C}}\big(
+    X_s
+    ,\,
+    Y_{t_s}
+  \big)
+  \\
+  \;\simeq\;
+  \underset{f \colon S \to T}{\coprod}
+  \underset{s \in S}{\prod}
+  Hom_{\mathcal{C}}\big(
+    X_s
+    ,\,
+    Y_{f(s)}
+  \big)
+  \,.
+\end{array}
+$$
+\end{proof}
 
 \begin{proposition}
 \label{FCCOfAccessibleCatIsAccesible}
