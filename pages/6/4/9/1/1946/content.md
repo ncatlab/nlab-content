@@ -242,7 +242,7 @@ This appears as [Hirschorn (2002), Thm. 15.3.4 (2)](#Hirschorn02), there attribu
 \linebreak
   If $\mathcal{C}$ is a [[cofibrantly generated model category]] (and $\mathcal{R}$ is a [[Reedy category]]) then also the Reedy model structure (Def. \ref{ReedyModelStructure}) on the [[functor category]] $\mathcal{C}^{\mathcal{R}}$ is cofibrantly generated.
 \end{proposition}
-This is due to [Hirschhorn (2002), Theorem 15.6.27](#Hirschorn02), assuming here that the [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]]. In the generality of [[generalized Reedy categories]] cf. [Berger & Moerdijk (2011), Thm. 7.5](generalized+Reedy+category#BergerMoerdijk11)
+This is due to [Hirschhorn (2002), Theorem 15.6.27](#Hirschhorn02), assuming here that the [[domains]] of generating (acyclic) cofibrations are relatively [[small objects]]. In the generality of [[generalized Reedy categories]] cf. [Berger & Moerdijk (2011), Thm. 7.5](generalized+Reedy+category#BergerMoerdijk11)
 
 The [[formal duality|dual]] statement concerning *fibrant* generation is in [BHKKRS15, Thm. 5.9](#BHKKRS15).
 
