@@ -539,24 +539,23 @@ of _[[(2,1)-categories]]_ , where $K^{\triangleright}$ is $K$ with one [[termina
 
 
 
-+-- {: .un_lemma }
-###### Claim
-
+\begin{proposition}
 We have
 
 $$
-  c/p \simeq Hom_{K(p)}(c,v)
+  c_{/p} 
+    \,\simeq\, 
+  Hom_{K(p)}(c,v)
   \,.
 $$
 
-And hence the left adjoint to the Grothendieck construction may be realized as the assignment that sends $p : E \to C$ to the pseudofunctor 
+And hence the [[left adjoint]] to the Grothendieck construction may be realized as the assignment that sends $p \colon E \to C$ to the pseudofunctor 
 
 $$
   L(p) := Hom_{K(p)}(-, v) : C^{op} \to Cat
   \,.
 $$
-
-=--
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
