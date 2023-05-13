@@ -135,7 +135,9 @@ Here $f_!$ forms [[coproducts]] of objects in the same [[fibers]] of $f$.
 If we regard [[Set]] as equipped with its [[trivial model structure]] (whose [[weak equivalences]] are the [[isomorphisms]] and all morphisms are both [[fibrations]] as well as [[cofibrations]]) then this is evidently a relative and proper functor in the sense of Def. \ref{RelativePseudoFunctor},  Def. \ref{ProperPseudofunctor} (since with weak equivalences $f$ in $Set$ being isomorphisms, the associated functors $f_!, f^\ast$ are certainly [[Quillen equivalences]] but in fact are plain [[equivalences of categories]] compatible with the model structure and hence also preserve all weak equivalences).
 
 
-Therefore with Prop. \ref{ExistenceStatement} the integral model structure on the [[Grothendieck construction]]
+Therefore with Prop. \ref{ExistenceStatement} the integral model structure on the [[Grothendieck construction]] exists. 
+If $\mathcal{C}$ is an [[extensive category]], then 
+the [[objects]] in this Grothendieck construction may be thought of as [[bundles]] of $\mathcal{C}$-objects over sets (under the unique [[coproduct]]-[[preserved colimit|preserving]] embedding $Set \hookrightarrow \mathcal{C}$) and the [[morphisms]] as morphisms of such bundles covering possibly non-trivial maps of base sets:
 \[
   \label{GrothConstForObjectsParameterizedOverSets}
   \int_{S \in Set} 
@@ -157,7 +159,6 @@ Therefore with Prop. \ref{ExistenceStatement} the integral model structure on th
   \end{array}
   \right\}
 \]
-exists, where on the right we are indicating how the [[objects]] in this Grothendieck construction may be thought of as [[bundles]] of $\mathcal{C}$-objects over sets (under the unique [[coproduct]]-[[preserved colimit|preserving]] embedding $Set \hookrightarrow \mathcal{C}$) and the [[morphisms]] as morphisms of such bundles covering possibly non-trivial maps of base sets.
 
 Unwinding the definition \ref{IntegralModelStructure} of the integral model structure in this case, gives that such a morphism $\phi_f$ in this Grothendieck construction is:
 
