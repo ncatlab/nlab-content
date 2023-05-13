@@ -228,13 +228,17 @@ Framed spaces and framed maps are, in a sense, "very rigid" variants of directed
 instead of a single path subset $dX \subset \Map(\mathbf{I},X)$, as required in the definition of $d$-spaces.
 \end{rmk}
 
-
-
-
-
 ## Remarks
 
 * If we can equip directed spaces with an internal hom, then a directed space with at least one directed path should be a strictly directed object in the category of directed spaces, with respect to the standard directed interval as the [[interval object]], while an ordinary topological space regarded as a directed space should be an [[undirected object]].
+
+## Related concepts
+
+* [[directed object]]
+
+* [[directed homotopy theory]]
+
+* [[directed homotopy type theory]]
 
 ## References
 
