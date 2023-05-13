@@ -57,10 +57,15 @@ factor the [[codiagonal map]] $\nabla \,\colon\, A\sqcup A \longrightarrow A$
 as a [[cofibration]] $A\sqcup A \longrightarrow C A$ followed by a [[weak equivalence]] $CA \longrightarrow A$,
 then compute the (ordinary) [[pushout]] of
 $$
-  CA \longleftarrow A\sqcup A \overset{(f,g)}{\longrightarrow} B
+  CA 
+    \longleftarrow 
+  A\sqcup A 
+   \overset{(f,g)}{\longrightarrow} 
+  B
   \,.
 $$
 This is the homotopy coequalizer of $f$ and $g$.
+
 
 ## Examples
 
@@ -68,22 +73,33 @@ In [[simplicial sets]] with [[simplicial weak equivalences]],
 the homotopy coequalizer of $f,g\colon A\to B$
 can be computed as the pushout
 $$
-  \Delta^1 \times A
+  (\Delta^1 \times A)
     \overset{A\sqcup A}{\amalg} 
   B
   \,.
 $$
-The same formula works for [[topological spaces]] with [[weak homotopy equivalences]], using the [[closed interval]] $\Delta=[0,1]$.
+The analogous formula works for [[topological spaces]] with [[weak homotopy equivalences]], then using the [[closed interval]] $\Delta=[0,1]$ and also known as the *[[double mapping cylinder]]*-construction, see for instance [Dwyer, Farjoun & Ravenel (1999), p. 1856](#DwyerFarjounRavenel99) (cf. *[[mapping cylinder]]*).
 
 For [[chain complexes]] with [[quasi-isomorphisms]],
 the homotopy coequalizer can be computed
 (expanding the analogous formula with $C A =\mathrm{N} \mathbf{Z} [\Delta^1]\otimes A$)
 as
-$$B\oplus A[1],$$
+$$
+  B \oplus A[1]
+  \,,
+$$
 where
-$$d(b\oplus a)=d b+f(a)-g(a)\oplus d a.$$
+
+$$
+  d(b\oplus a)
+   \;=\;
+  d b+f(a)-g(a) \oplus d a
+  \,.
+$$
 
 ## Related notions
+
+* [[mapping cylinder]]
 
 * [[coproduct]]
 
@@ -97,4 +113,15 @@ $$d(b\oplus a)=d b+f(a)-g(a)\oplus d a.$$
 
 * [[homotopy equalizer]]
 
+
+## References
+
+* {#DwyerFarjounRavenel99} [[William G. Dwyer]], [[Emmanuel Dror Farjoun]], [[Douglas C. Ravenel]], pp. 1856 in: *Bousfield Localizations of Classifying Spaces of Nilpotent Groups*, Proceedings of the American Mathematical Society **127** 6 (1999) &lbrack;[jstor:119499](https://www.jstor.org/stable/119499)&rbrack;
+
+
+
 [[!redirects homotopy coequalizers]]
+
+
+[[!redirects double mapping cylinder]]
+[[!redirects double mapping cylinders]]
