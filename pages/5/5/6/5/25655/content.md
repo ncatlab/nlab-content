@@ -280,6 +280,7 @@ Certain labeled trusses are the 'combinatorial' analogues of [[manifold diagrams
 \begin{terminology} (Atomic truss). Given an open $n$-truss $T$ with $x \in T_n$ such that $T^{\leq x} = T$, we say $T$ is an _atomic_ open $n$-truss with _cone point_ $x$ (in [Dorn-Douglas 2021, Ch. 2](#DornDouglas21), atomic trusses are called 'truss braces').
 \end{terminology}
 
+{#stratified_neighborhood}
 \begin{defn} (Stratified open neighborhood). Given a stratified open $n$-truss $T$ and an element $x \in T_n$, define the _stratified neighborhood_ $T^{\leq x}$ to be the unique stratified trusses that stratified embeds in $T$ with underlying truss map being the (non-stratified) neighborhood inclusion of $x$.
 \end{defn}
 
