@@ -53,3 +53,6 @@ category: people
 
 
 [[!redirects Douglas Ravenel]]
+
+[[!redirects Douglas C. Ravenel]]
+
