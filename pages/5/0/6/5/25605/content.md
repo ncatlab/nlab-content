@@ -56,4 +56,13 @@ but the actual compatibility is maybe not made very explicit there either, for t
 
 [[!redirects monoidal simplicial model category]]
 
+[[!redirects monoidal simplicial model structure]]
+[[!redirects monoidal simplicial model structures]]
+
+[[!redirects simplicial monoidal model structure]]
+[[!redirects simplicial monoidal model structures]]
+
+
+
+
 
