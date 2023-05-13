@@ -61,7 +61,7 @@ Combinatorially, we define the following.
 \end{tikzcd}
 \end{center}
 
-where $T' \xrightarrow{\mathsf{norm}} T$ is a [[n-truss#normalizing_map|normalizing map]] and $T' \hookrightarrow S$ is map of labeled trusses whose underlying map is a [[n-truss#n-truss_bundle_map|regular]] inclusion. 
+where $T' \xrightarrow{\mathsf{norm}} T$ is a [[n-truss#normalizing_map|normalizing map]] and $T' \hookrightarrow S$ is map of labeled trusses whose underlying map is [[n-truss#n-truss_bundle_map|regular]] and injective. 
 \end{defn}
 
 Such spans can be composed by [[pullback]].
@@ -102,7 +102,7 @@ $$
     T \twoheadrightarrow S
 $$
 
-whose underlying map of trusses is a [[n-truss#n-truss_bundle_map|singular]] quotient map.
+whose underlying map of trusses is [[n-truss#n-truss_bundle_map|singular]] and surjective.
 \end{defn}
 
 \begin{rmk} To summarize: while the notion embeddings of manifold diagrams recovers (after geometric dualization) face and degeneracy maps often found in the combinatorics of shapes, in contrast, the notion of quotients dual to that of embeddings captures (after geometric dualization) something new: namely, subdivisions of cells. This is quite powerful e.g. for describing compositions as we will exploit below.(Moreover, it turns out that classifying subdivisions is generally a difficult (undecidable) problem, see e.g. [Dorn-Douglas 2021](#DornDouglas21), so it is convenient that it can be easily solved in the setting of manifold diagrams!) \end{rmk}
@@ -149,7 +149,7 @@ When defining higher categories parametrized by manifold $n$-diagrams, we would 
 
 To make the preceding sketch precise, one would need to formalize the sheaf condition. We now mention one way of how this could be achieved. 
 
-\begin{terminology} The category $\mathrm{MDiag}_n$ (and similarly, $\mathrm{MDiag}$ from Rmk. \ref{mdiag_infty}) contain [[wide subcategory|wide]] subcategories $\mathrm{MDiag}^L_n$ resp. $\mathrm{MDiag}^R_n$ consisting of spans
+\begin{terminology} The category $\mathrm{MDiag}_n$ (and similarly, $\mathrm{MDiag}$ from Rmk. \ref{mdiag_infty}) contains [[wide subcategory|wide]] subcategories $\mathrm{MDiag}^L_n$ resp. $\mathrm{MDiag}^R_n$ consisting of spans
 \begin{center}
 \begin{tikzcd}
 	T & S & S & {\mathrm{resp.}} & T & T & {S.}
