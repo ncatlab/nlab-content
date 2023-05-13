@@ -125,7 +125,7 @@ To show this for instance for $R$, we may argue as in a
 which shows that every weak equivalence between fibrant objects may be
 factored, up to [[homotopy]], as a [[span]] of acyclic fibrations.
 
-These weak equivalences are preserved by $R$ and hence by [[category with weak equivalences|2-out-of-3]] the claim follows. 
+These weak equivalences are preserved by the right Quillen property of $R$ and hence the claim follows by [[category with weak equivalences|2-out-of-3]]. 
 
 For $L$ we apply the [[formal dual|formally dual]] argument.
 
