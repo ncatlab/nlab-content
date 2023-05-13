@@ -1192,7 +1192,7 @@ whose [[right adjoint]] may be thought of as the right [[induced action]] or equ
 #### Monoidal model structure
  {#MonoidalModelStructure}
 
-We discuss (Prop. \ref{ExistenceOfMonoidalModelStructure} below) induced [[monoidal model category]]-[[structure]] on the Borel model structure, in the generality of [[coefficients]] any (cofibrantly generated)  simplicial model structure (as [above](#DefinitionInCombSimpModCat)), which in addition carries compatible [[monoidal model structure]].
+We discuss (Prop. \ref{ExistenceOfMonoidalModelStructure} below) induced [[monoidal model category]]-[[structure]] on the Borel model structure, in the generality of [[coefficients]] any (cofibrantly generated)  simplicial model structure (as [above](#DefinitionInCombSimpModCat)), which in addition carries compatible [[monoidal simplicial model structure]].
 
 
 
