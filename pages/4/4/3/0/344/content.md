@@ -28,14 +28,16 @@ A [[category]] is _extensive_ if it has [[coproducts]] that interact well with a
 \begin{definition}
 A __finitely extensive category__ (or __finitary extensive category__) is a [[category]] $E$ with [[finite coproduct|finite]] [[coproduct|coproducts]] such that one, and hence all, of the following equivalent conditions holds:
 
-1. For any [[pair]] of [[objects]] $a,b$ the coproduct functor on [[slice categories]] is an [[equivalence of categories]]:
+1. For any [[pair]] of [[objects]] $a, b$ the coproduct functor on [[slice categories]] is an [[equivalence of categories]]:
    
    \[
      \label{CoproductFunctorOnSliceCategoriesIsEquivalenceOfCategories}
      \array{
-       E/a \times E/b 
+       E_{/a} 
+         \,\times\, 
+       E_{/b} 
        &\xrightarrow{\;\;\;\simeq\;\;\;}& 
-       E/(a+b)
+       E_{/(a \sqcup b)}
        \\
        \left(
        \array{
@@ -46,7 +48,7 @@ A __finitely extensive category__ (or __finitary extensive category__) is a [[ca
          a
        }
        \right)
-       ,\,
+       ,\;
        \left(
        \array{
          Y
@@ -99,14 +101,27 @@ A __finitely extensive category__ (or __finitary extensive category__) is a [[ca
 \end{definition}
 
 \begin{definition}
-An __infinitary extensive category__ is a category $E$ with all (small) [[coproduct]]s such that the following analogous equivalent conditions hold:
+An __infinitary extensive category__ is a category $E$ with all (small) [[coproducts]] such that the following analogous equivalent conditions hold:
 
- 1. Pullbacks of coproduct injections along arbitrary morphisms exist and small coproducts are [[disjoint coproduct|disjoint]] and stable under pullback.
- 2. For any small family $(a_i)$ of objects, the coproduct functor $\prod_i (E/a_i) \to E/_{(\coprod_i a_i)}$ is an equivalence of categories.
- 3. Pullbacks of finite-coproduct injections (and thus all coproduct injections) along arbitrary morphisms exist, and for any family of commutative squares
+1. [[pullback|Pullbacks]] of [[coprojection|coproduct injections]] along arbitrary morphisms exist 
+
+   and small coproducts are [[disjoint coproduct|disjoint]] and [[pullback-stable colimit|stable under pullback]].
+ 
+2. For any small-[[indexed set]] $(a_i)$ of objects, the coproduct functor of [[slice categories]], generalizing (eq:CoproductFunctorOnSliceCategoriesIsEquivalenceOfCategories), is an [[equivalence of categories]]:
+
+   $$
+     \underset{i \in I}{\prod}
+     (E_{/a_i}) 
+       \overset{\sim}{\longrightarrow} 
+     E_{/(\coprod_i a_i)}
+     \,.
+   $$ 
+ 
+3. Pullbacks of finite-coproduct injections (and thus all coproduct injections) along arbitrary morphisms exist, and for any family of commutative squares
  $$\array{ x_i & \to & z \\\downarrow &&\downarrow^f \\ a_i & \to & \coprod_i a_i } $$
  in which the bottom family of morphisms is the coproduct injections and the right-hand morphism is always the same, the top family are the injections of a coproduct diagram (hence $z = \coprod_i x_i$) if and only if all the squares are pullbacks.
- 4. All small coproducts are [[van Kampen colimits]].
+ 
+4. All small coproducts are [[van Kampen colimits]].
 
 \end{definition}
 
