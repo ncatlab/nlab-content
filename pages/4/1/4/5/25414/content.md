@@ -19,12 +19,14 @@
 
 The notion of manifold-diagrammatic higher categories (in some [places](#geocats) also referred to as a 'geometric' or 'geometrical' higher categories) broadly refers to [[higher categories]] whose [[composition]] [[operation]] is modelled on the [[stratified space|stratified-geometric]] notion of [[manifold diagram|manifold diagrams]]. 
 
-## Sketch of approach
+## Overview
 
 Models of [[higher categories]] are usually defined as certain collections of [[k-morphisms]] that are parametrized by (that is, [[presheaf|presheafs]] on) some category of 'combinatorial shapes': examples include presheafs of [[globular set|globular]], [[simplicial set|simplicial]] or [[opetope|opetopic]] shapes. [[manifold diagram|Manifold diagrams]], while defined in geometric terms, admit a combinatorialization in terms of [[n-truss|trusses]] (or, more precisely, [[trusses#comb_mdiag|combinatorial manifold diagrams]]) and can therefore be used as combinatorial shapes for defining higher categories as presheafs on them. Importantly, combinatorial manifold diagrams come with a rich class of combinatorial mappings which (in contrast to most other classes of shapes) include internal representations of both 'embeddings' (='face and degeneracy' maps, up to geometric dualization) as well as 'quotients' (='subdivisions', up to geometric dualization). We give geometric insight into these classes below, but ultimately only care about their combinatorial definitions.
 
 
 ### Embeddings of manifold diagrams
+
+#### Geometric idea
 
 *Embeddings* of manifold $n$-diagrams are [[manifold diagram#framed_map_euclidean_case|framed]] [[stratified space|stratified maps]] whose underlying maps are [[subspace|embeddings]] of spaces (this is different from the notion of [[stratified space#stratified_map_types|substratifications]]). The next figure illustrates mappings in this class (in dimension $n = 2$).
 
@@ -44,7 +46,12 @@ Geometric dualization unveils that embeddings of manifold diagrams are precisely
 </figure>
 </center>
 
-Combinatorially, embeddings of combinatorial manifold diagrams $T,S$ are described by [[spans]] of the form
+#### Combinatorial definition
+
+Combinatorially, we define the following.
+
+\begin{defn} \label{def_embeddings}
+*Embeddings of combinatorial manifold diagrams* $T,S$ are described by [[spans]] of the form
 
 \begin{center}
 \begin{tikzcd}
@@ -54,11 +61,16 @@ Combinatorially, embeddings of combinatorial manifold diagrams $T,S$ are describ
 \end{tikzcd}
 \end{center}
 
-where $T' \xrightarrow{\mathsf{norm}} T$ is a [[n-truss#normalizing_map|normalizing map]] and $T' \hookrightarrow S$ is map of labeled trusses whose underlying map is a [[n-truss#n-truss_bundle_map|regular]] inclusion. Such spans can be composed by [[pullback]].
+where $T' \xrightarrow{\mathsf{norm}} T$ is a [[n-truss#normalizing_map|normalizing map]] and $T' \hookrightarrow S$ is map of labeled trusses whose underlying map is a [[n-truss#n-truss_bundle_map|regular]] inclusion. 
+\end{defn}
+
+Such spans can be composed by [[pullback]].
 
 
 
 ### Quotients of manifold diagrams
+
+#### Geometric idea
 
 *Quotients* of manifold diagrams are [[manifold diagram#framed_map_euclidean_case|framed]] stratified maps whose underlying maps are [[quotient space|quotient maps]]. The next figure illustrates mappings in this class (in dimension $n = 2$).
 
@@ -78,20 +90,29 @@ Geometric dualization unveils that quotients of manifold diagrams correspond to 
 </figure>
 </center>
 
-Combinatorially, quotients of combinatorial manifold diagrams $T, S$ are maps of labeled trusses
+
+#### Combinatorial definition
+
+Combinatorially, we define the following.
+
+\begin{defn} \label{def_quotients}
+*Quotients of combinatorial manifold diagrams* $T, S$ are maps of labeled trusses
 
 $$
     T \twoheadrightarrow S
 $$
 
 whose underlying map of trusses is a [[n-truss#n-truss_bundle_map|singular]] quotient map.
+\end{defn}
 
 \begin{rmk} To summarize: while the notion embeddings of manifold diagrams recovers (after geometric dualization) face and degeneracy maps often found in the combinatorics of shapes, in contrast, the notion of quotients dual to that of embeddings captures (after geometric dualization) something new: namely, subdivisions of cells. This is quite powerful e.g. for describing compositions as we will exploit below.(Moreover, it turns out that classifying subdivisions is generally a difficult (undecidable) problem, see e.g. [Dorn-Douglas 2021](#DornDouglas21), so it is convenient that it can be easily solved in the setting of manifold diagrams!) \end{rmk}
 
 ### Sketch Definition
 
+We first organize embeddings and quotients (in the sense of Def. \ref{def_embeddings} resp. Def. \ref{def_quotients}) into categories as follows.
 
-Together (and, henceforth, working purely combinatorially), embeddings and quotients organize into the *[[double category]] $\mathbb{M}\mathsf{Diag}_n$ of combinatorial manifold $n$-diagrams*, with horizonal morphisms being embeddings, vertical morphisms being quotients, squares being commuting diagrams of the following form:
+\begin{terminology}
+Together, embeddings and quotients organize into the *[[double category]] $\mathbb{M}\mathsf{Diag}_n$ of combinatorial manifold $n$-diagrams*, with horizonal morphisms being embeddings, vertical morphisms being quotients, squares being commuting diagrams of the following form:
 
 \begin{center}
     \begin{tikzcd}
@@ -108,6 +129,7 @@ Together (and, henceforth, working purely combinatorially), embeddings and quoti
 \end{center}
 
 (note that the dashed arrow is unique if it exists.) The *category of manifold $n$-diagrams* $\mathsf{MDiag}_n$ will refer to just the horizontal part of this double category.
+\end{terminology}
 
 When defining higher categories parametrized by manifold $n$-diagrams, we would want higher categories to be compatible both with embeddings ('morphism attachment') and quotients ('morphism composition') in the following sense. 
 
@@ -122,6 +144,39 @@ When defining higher categories parametrized by manifold $n$-diagrams, we would 
 {#mdiag_infty}
 \begin{rmk} \label{mdiag_infty} (The $n = \infty$ case). So far we worked with $n$-diagrams for fixed finite $n \in \mathbb{N}$ which work well as parametrizing objects for $n$-categories. However, we can also address the case $n = \infty$ as follows. Given a manifold $n$-diagram $f$, note that $f \times \mathbb{R}$ is a manifold $(n+1)$-diagram. This defines a chain of inclusions of (ordinary resp. double) categories, the colimit of which is a category of manifold diagrams $\mathsf{MDiag}$ (resp. the double category $\mathbb{M}\mathsf{Diag}$) which may then be used to parametrized $(\infty,\infty)$-categories via the sketch definition above.
 \end{rmk}
+
+### A formal definition
+
+To make the preceding sketch precise, we need to formalize the sheaf condition. We mention one way of how this can be achieved. 
+
+\begin{terminology} The category $\mathrm{MDiag}_n$ (and similarly, $\mathrm{MDiag}$ from Rmk. \ref{mdiag_infty}) contain [[wide subcategory|wide]] subcategories $\mathrm{MDiag}^L_n$ resp. $\mathrm{MDiag}^R_n$ consisting of spans
+\begin{center}
+\begin{tikzcd}
+	T & S & S & {\mathrm{resp.}} & T & T & {S.}
+	\arrow[equal, from=1-6, to=1-5]
+	\arrow[from=1-6, to=1-7]
+	\arrow[equal, from=1-2, to=1-3]
+	\arrow["{\mathsf{norm}}"', from=1-2, to=1-1]
+\end{tikzcd}
+\end{center}
+\end{terminology} 
+
+We define a [[coverage]] for $\mathrm{MDiag}^R_n$. (Note that $\mathrm{MDiag}^R_n$ does not have all pullbacks since, e.g., subdiagrams can intersect in non-diagrams.)
+
+\begin{defn} The *neighborhood coverage* $J$ for $\mathrm{MDiag}^R_n$ is the coverage that assigns to $T \in \mathrm{MDiag}$ the single families $\{f_x : T^{\leq x} \to T \}_{x \in T}$ comprised of the [[n-truss#stratified_neighborhood|stratified neighborhoods]] of $T$.
+\end{defn}
+
+We may now formalize our earlier sketch definition as follows.
+
+\begin{defn} 
+A *manifold-diagrammatic $n$-category* $C$ is a presheaf on $\mathrm{MDiag}_n$ such that
+
+1. $C$ is a [[sheaf]] on $\mathrm{MDiag}^R_n$ and locally constant on $\mathrm{MDiag}^L_n$.
+2. $C$ extends to a double-(co)presheaf $\mathbb{M}\mathsf{Diag}^{\mathrm{op},\mathrm{co}}_n \to \mathbb{S}\mathbf{et}$.
+
+\end{defn}
+
+However, the usefulness of this definition has not been established, and several variants are under consideration (cf. next section).
 
 ### Variants
 
