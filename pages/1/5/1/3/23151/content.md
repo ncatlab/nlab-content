@@ -17,11 +17,21 @@
 
 Given a [[category]] $\mathcal{C}$, its *free coproduct completion* (or *free sum completion*) is [[generalized the|the]] category $PSh_{\sqcup}(\mathcal{C})$ (often denoted $Fam(\mathcal{C})$, for *[[families]]* in $\mathcal{C}$) obtained by [[free construction|freely]] adjoining [[coproducts]] of all [[objects]] of $\mathcal{C}$. 
 
-(The following description is pretty immediate, but see also [Hu & Tholen 1995, p. 281, 286](#HuTholen95).)
+## Definitions
+ {#Definitions}
 
-An explicit description of $PSh_{\sqcup}(\mathcal{C})$ is: 
+Here are a few concrete realizations of free coproduct completions. 
 
-* Its [[objects]] are [[pairs]] consisting of 
+
+### Via indexed sets of objects
+ {#ViaIndexedSetsOfObjects}
+
+The following explicit description of the coproduct completion is pretty immediate and seems to be part of [[category theory]] [[folklore]] (for instance the way it is referred to in [Carboni, Lack & Walters (1993), Proof of Prop. 2.4](#CarboniLackWalters93)). Early references include [Bénabou (1985), §3](#Bénabou1985), see also [Hu & Tholen (1995), p. 281, 286](#HuTholen95).
+
+
+An explicit description of the free coproduct completion $PSh_{\sqcup}(\mathcal{C})$ of a category $\mathcal{C}$ is: 
+
+* Its [[objects]] are [[dependent pair|dependent]] [[pairs]] consisting of 
 
   1. an index [[set]] $I \in $ [[Set]] 
 
@@ -33,10 +43,122 @@ An explicit description of $PSh_{\sqcup}(\mathcal{C})$ is:
 
   * an $I$-[[indexed set]] of [[morphisms]] $\phi_i \,\colon\, X_i \xrightarrow{\;} Y_{f(j)}$ in $\mathcal{C}$.
 
-
 * The [[composition]]-law and [[identity morphisms]] are the evident ones.
 
-Slightly more abstractly, this is [[equivalence of categories|equivalently]] the [[full subcategory]] 
+
+### As a Grothendieck construction
+ {#AsAGrothendieckConstruction}
+
+The following is also pretty immediate and essentially discussed in [Bénabou (1985), §3](#Bénabou1985) (though without mentioning of the term "[[Grothendieck construction]]").
+
+The free coproduct completion of a category $\mathcal{C}$ is equivalently the [[Grothendieck construction]] 
+
+$$
+  PSh_{\sqcup}(\mathcal{C})
+  \;\;
+    \simeq
+  \;\;
+  \underset
+    { S \,\in\, Set }
+    { \int }
+  \;
+  \underset{s \in S}{\prod}
+  \mathcal{C}
+$$
+
+on the [[contravariant functor|contravariant]] [[pseudofunctor]] on [[Set]] which sends a set $S$ to the $S$-indexed [[product category]] of $\mathcal{C}$ with itself (equivalently: to the [[functor category]] into $\mathcal{C}$ out of the [[discrete category]] on $\mathcal{C}$):
+
+$$
+  \array{
+    Set^{op} &\longrightarrow& Cat
+    \\
+    S 
+      &\mapsto& Func(S,\mathcal{C}) 
+      & \simeq \;\underset{s \in S}{\prod} \mathcal{C}
+    \\
+    \Big\downarrow\mathrlap{{}^{f}}
+    &&
+    \Big\uparrow\mathrlap{{}^{f^\ast}}
+    \\
+    T 
+      &\mapsto& Func(T,\mathcal{C}) 
+      & 
+    \simeq \;\underset{t \in T}{\prod} \mathcal{C}
+    \mathrlap{\,,}
+  }
+$$
+where the [[base change]]-[[functors]] $f^\ast$ are given (on [[functor categories]] by [[precomposition]] with $f$, hence) by:
+\[
+  \label{PullbackFunctorBetweenProductCategories}
+  f \,\colon\, S \longrightarrow T
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    \underset{t \in T}{\prod} \mathcal{C}
+    &\xrightarrow{\;\; f \;\;}&
+    \underset{s \in S}{\prod} \mathcal{C}
+    \\
+    \big(
+      X_t
+    \big)_{t \in T}
+    &\mapsto&
+    \big(
+      X_{f(s)}
+    \big)_{s \in S}
+    \,.
+  }
+\]
+
+Namely, by definition of the [[Grothendieck construction]]
+
+1. its [[objects]] are [[dependent pair|dependent]] [[pairs]] of the form 
+
+   $$
+     X_S
+     \;\equiv\;
+     \big(
+       S \in Set
+       ,\, 
+       (X_s \in \mathcal{C})_{s \in S}   
+     \big)
+   $$
+
+1. its [[morphisms]] 
+
+   $$
+     \phi_f \;\colon\; X_S \longrightarrow Y_T
+   $$
+
+   are [[dependent pair|dependent]] [[pairs]] consisting of a [[map]]
+
+   $$
+     f \,\colon\, S \longrightarrow T
+   $$
+
+   and a morphism in $\underset{s \in S}{\prod} \mathcal{C}$ of the form
+
+   $$
+     \phi \,\colon\, X_S \longrightarrow f^\ast Y_T
+     \,.
+   $$
+
+   where, by definition (eq:PullbackFunctorBetweenProductCategories) of $f^\ast$ and the nature of [[product categories]], the latter is an $S$-[[indexed set]] $(\phi_s)_{s \in S}$ of [[morphisms]] in $\mathcal{C}$ of the form
+
+   $$
+     \phi_s \,\colon\, X_s \longrightarrow Y_{f(s)} 
+     \,.
+   $$
+
+But this is manifestly the same as the explicit description of $PSh_{\sqcup}(\mathcal{C})$ [above](#ViaIndexedSetsOfObjects).
+
+
+
+
+### Via coproducts of presheaves
+ {#ViaCoproductOfPresheaves}
+
+The free coproduct completion of $\mathcal{C}$ is [[equivalence of categories|equivalently]] the [[full subcategory]] 
 
 $$
   PSh_{\sqcup}(\mathcal{C})
@@ -62,7 +184,7 @@ Notice that the first inclusion here does *not* [[preserved colimit|preserve]] [
 
 ## Properties
 
-Fairly immediate from the explicit definition above is:
+Fairly immediate from the explicit definition [above](#ViaIndexedSetsOfObjects) is:
 
 \begin{proposition}\label{CategoriesOfCoproductsOfConnectedObjects}
   A [[category]] $\mathcal{B}$ is [[equivalence of categories|equivalent]] to a [[free coproduct completion]] $PSh_{\sqcup}(\mathcal{C})$ for a [[small category]] $\mathcal{C}$ if 
@@ -79,6 +201,7 @@ Fairly immediate from the explicit definition above is:
 ([Carboni & Vitale 1998, Lem. 42](#CarboniVitale98))
 
 \begin{prop}
+\label{FreeCoproductCompletionIsExtensive}
   Any free coproduct completion is an [[extensive category]].
 \end{prop}
 (e.g. [Carboni, Lack & Walters 1993](#CarboniLackWalters93))
@@ -87,10 +210,34 @@ Fairly immediate from the explicit definition above is:
 ## Examples
  {#Examples}
 
-The following examples follow as special cases of Prop. \ref{CategoriesOfCoproductsOfConnectedObjects}.
+### Coproduct completion of connected objects
+
+The following examples follow as special cases of Prop. \ref{CategoriesOfCoproductsOfConnectedObjects}:
 
 \begin{example}
 The category [[Set]] is the [[free coproduct completion]] of the [[terminal category]].
+\end{example}
+
+\begin{example}\label{SkeletalGroupoids}
+**([[skeletal groupoids]] form the free coproduct completion of [[groups]])**
+\linebreak
+  The [[1-category]] of [[skeletal groupoids]] among that of all [[strict groupoids]] is the free coproduct completion of the category of 1-object [[delooping groupoids]] which (*as [[1-categories]]*) is equivalently the category of [[groups]]:
+$$  
+  PSh_{\sqcup}\big(
+    Grp
+  \big)
+  \;\;
+    \simeq
+  \;\;
+  PSh_{\sqcup}\big(
+    Grpd_{(Obj = \ast)}
+  \big)
+  \;\;
+    \simeq
+  \;\;
+  Grpd_{skl}
+  \,.
+$$
 \end{example}
 
 \begin{example}\label{GActionsAndGOrbits}
@@ -106,6 +253,84 @@ Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive act
 \end{example}
 
 
+### Coproduct compeletion of extensive categories
+
+\begin{example}\label{CoproductCompletionOfExtensiveCategories}
+**(coproduct completion of extensive categories)**
+\linebreak
+  While Prop. \ref{FreeCoproductCompletionIsExtensive} says that every free coproduct completion is extensive, if a category $\mathcal{C}$ is already extensive to start with then its free coproduct completion may equivalently be described as the category of $\mathcal{C}$-[[bundles]] over [[sets]], the latter regarded as objects of $\mathcal{C}$ via the unique [[coproduct]]-[[preserved colimit|preserving]] [[functor]] $\iota_{Set} \,\colon\, Set \longrightarrow \mathcal{C}$, hence as the [[comma category]] $\mathcal{C}_{Set} \,\coloneqq\, \big(id_{\mathcal{C}}, \iota_{Set}\big)$:
+\[
+  \label{AsACategoryOfBundles}
+  \mathcal{X}\;\text{extensive}
+  \;\;\;\;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;\;\;\;
+  PSh_{\sqcup}(\mathcal{C})
+  \;\;
+    \simeq
+  \;\;
+  \mathcal{C}_{Set}
+  \;\;
+    =
+  \;\;
+  \left\{
+  \array{
+    \underset{s \in S}{\coprod} X_s
+    &\overset{\phi}{\longrightarrow}&
+    \underset{t \in T}{\coprod} Y_t
+    \\
+    \Big\downarrow
+    &&
+    \Big\downarrow
+    \\
+    S &\underset{f}{\longrightarrow}& T
+    \,,
+  }
+  \right\}
+\]
+where on the right we are indicating a generic [[morphism]] of such [[bundles]].
+
+Namely, since every [[set]] is the [[coproduct]] of [[singleton sets]] indexed by its [[elements]], and due to the defining property of an [[extensive category]] that the coproduct functors are [[equivalence of categories|equivalences]] between ([[product category|products]] of) [[slice categories]]
+$$
+  \mathcal{C}_{/ \iota(S)}
+  \;\;
+  \simeq
+  \;\;
+  \underset{s \in S}{\prod} 
+    \mathcal{C}_{/\iota(s)}
+$$
+it follows that:
+
+1. every object $X_S$ of $\mathcal{C}_{\iota(S)}$ is of the form shown in (eq:AsACategoryOfBundles) hence determined by a family $(X_s)_{s \in S}$,
+
+1. morphisms as shown in (eq:AsACategoryOfBundles) are equivalently (by the [[universal property]] of the [[pullback]]) morphisms of the form
+
+   $$
+   \array{
+     \underset{s \in S}{\coprod}
+     X_s
+     &\overset{\phi}{\longrightarrow}&
+     \underset{s \in S}{\coprod} Y_{f(s)}
+     \\
+     \Big\downarrow
+     &&
+     \Big\downarrow
+     \\
+     S &\underset{\;\;\; id_S \;\;\;}{\longrightarrow}& S
+     \,,
+   }
+   $$
+
+   (where we used [[universal colimit|pullback stability of coproducts]] in an extensive category, see [there](extensive+category#DisjointAndPullbackStableCoproducts), to deduce that $f^\ast Y_S \,\simeq\, \underset{s \in S}{\coprod} f^\ast(Y_S)_s \,\simeq\, \underset{s \in S}{\coprod} Y_{f(s)}$)
+
+   which by extensitivity are equivalently $S$-indexed families $\phi_s\,\colon\, X_s \longrightarrow Y_{f(s)}$.
+
+This is again manifestly the explicit description of the free coproduct completion from [above](#ViaIndexedSetsOfObjects).
+
+Conversely this gives a sense that if a category $\mathcal{C}$ is *not* extensive, so that the notion of [[bundles]] with total spaces and fibers in $\mathcal{C}$ does not make sense,  its free coproduct completion may be understood as the closest stand-in for that category of $\mathcal{C}$-bundles over sets.
+\end{example}
+
+
 
 ## Related concepts
 
@@ -114,6 +339,10 @@ Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive act
 * [[free cartesian category]]
 
 ## References
+
+Early discussion of the concept: 
+
+* {#Bénabou1985} [[Jean Bénabou]], §3 in: *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
 
 
 On [[limits]] in free coproduct completions:
@@ -126,7 +355,7 @@ In the context of [[regular and exact completions]]:
 
 In the general context of [[extensive categories]]:
 
-* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 &lbrack;<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>&rbrack;
 
 
 [[!redirects free coproduct completions]]
