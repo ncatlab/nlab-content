@@ -142,12 +142,12 @@ When defining higher categories parametrized by manifold $n$-diagrams, we would 
 \end{rmk}
 
 {#mdiag_infty}
-\begin{rmk} \label{mdiag_infty} (The $n = \infty$ case). So far we worked with $n$-diagrams for fixed finite $n \in \mathbb{N}$ which work well as parametrizing objects for $n$-categories. However, we can also address the case $n = \infty$ as follows. Given a manifold $n$-diagram $f$, note that $f \times \mathbb{R}$ is a manifold $(n+1)$-diagram. This defines a chain of inclusions of (ordinary resp. double) categories, the colimit of which is a category of manifold diagrams $\mathsf{MDiag}$ (resp. the double category $\mathbb{M}\mathsf{Diag}$) which may then be used to parametrized $(\infty,\infty)$-categories via the sketch definition above.
+\begin{rmk} \label{mdiag_infty} (The $n = \infty$ case). So far we worked with $n$-diagrams for fixed finite $n \in \mathbb{N}$ which work well as parametrizing objects for $n$-categories. However, we can also address the case $n = \infty$ as follows. Given a combinatorial manifold $n$-diagram $T$, note its [[n-truss#cylinder|cylinder]] $\mathbb{I} \times T$ is a combinatorial manifold $(n+1)$-diagram. This defines a chain of inclusions of (ordinary resp. double) categories, the colimit of which is a category of manifold diagrams $\mathsf{MDiag}$ (resp. the double category $\mathbb{M}\mathsf{Diag}$) which may then be used to parametrized $(\infty,\infty)$-categories via the sketch definition above.
 \end{rmk}
 
 ### A formal definition
 
-To make the preceding sketch precise, we need to formalize the sheaf condition. We mention one way of how this can be achieved. 
+To make the preceding sketch precise, one would need to formalize the sheaf condition. We now mention one way of how this could be achieved. 
 
 \begin{terminology} The category $\mathrm{MDiag}_n$ (and similarly, $\mathrm{MDiag}$ from Rmk. \ref{mdiag_infty}) contain [[wide subcategory|wide]] subcategories $\mathrm{MDiag}^L_n$ resp. $\mathrm{MDiag}^R_n$ consisting of spans
 \begin{center}
@@ -163,20 +163,20 @@ To make the preceding sketch precise, we need to formalize the sheaf condition. 
 
 We define a [[coverage]] for $\mathrm{MDiag}^R_n$. (Note that $\mathrm{MDiag}^R_n$ does not have all pullbacks since, e.g., subdiagrams can intersect in non-diagrams.)
 
-\begin{defn} The *neighborhood coverage* $J$ for $\mathrm{MDiag}^R_n$ is the coverage that assigns to $T \in \mathrm{MDiag}$ the single families $\{f_x : T^{\leq x} \to T \}_{x \in T}$ comprised of the [[n-truss#stratified_neighborhood|stratified neighborhoods]] of $T$.
+\begin{defn} The *neighborhood coverage* $J$ for $\mathrm{MDiag}^R_n$ is the coverage that assigns to $T \in \mathrm{MDiag}$ the single family $\{f_x : T^{\leq x} \to T \}_{x \in T}$ comprised of the [[n-truss#stratified_neighborhood|stratified neighborhoods]] of $T$.
 \end{defn}
 
 We may now formalize our earlier sketch definition as follows.
 
 \begin{defn} 
-A *manifold-diagrammatic $n$-category* $C$ is a presheaf on $\mathrm{MDiag}_n$ such that
+A *manifold-diagrammatic $n$-category* $C$ is a presheaf on $\mathrm{MDiag}_n$ such that:
 
-1. $C$ is a [[sheaf]] on $\mathrm{MDiag}^R_n$ and locally constant on $\mathrm{MDiag}^L_n$.
+1. $C$ is a [[sheaf]] on $\mathrm{MDiag}^R_n$ and [[locally constant sheaf|locally constant]] on (i.e. constant on the connected components of) $\mathrm{MDiag}^L_n$,
 2. $C$ extends to a double-(co)presheaf $\mathbb{M}\mathsf{Diag}^{\mathrm{op},\mathrm{co}}_n \to \mathbb{S}\mathbf{et}$.
 
 \end{defn}
 
-However, the usefulness of this definition has not been established, and several variants are under consideration (cf. next section).
+(Note, however, that the practicality of this definition has not yet been established, and several variants are under consideration, cf. next section.)
 
 ### Variants
 
