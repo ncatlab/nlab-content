@@ -64,7 +64,13 @@ $$
   \,.
 $$
 
-As indicated on the right this skeletalization of $\mathcal{X}$ extracts its [[homotopy groups]]: The set of objects of the skeleton is the set $\pi_0(\mathcal{X})$ of [[connected components]], and the [[automorphism group]] at a given object is the [[fundamental group]] $\pi_1(\mathcal{X},x)$ at that basepoint. 
+As indicated on the right, this skeletalization of $\mathcal{X}$ extracts its [[homotopy groups]]: The set of objects of the skeleton is the set $\pi_0(\mathcal{X})$ of [[connected components]], and the [[automorphism group]] at a given object is the [[fundamental group]] $\pi_1(\mathcal{X},x)$ at that basepoint. 
+
+## Properties
+
+### Relation to groups
+
+The [[1-category]] of skeletal groupoids is (see [there](free+coproduct+completion#SkeletalGroupoids)) [[equivalence of categories|equivalently]] the [[free coproduct completion]] of the category [[Grp]] of [[groups]].
 
 ## Related entries
 
@@ -76,7 +82,7 @@ As indicated on the right this skeletalization of $\mathcal{X}$ extracts its [[h
 
 ## References
 
-Characterization of skeletal groupoids as the "trivial objects" with respect to a [[torsion theory]] on [[Cat]]:
+Characterization of skeletal groupoids as the "trivial objects" with respect to a [[pretorsion theory]] on [[Cat]]:
 
 * [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
 
