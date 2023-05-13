@@ -272,7 +272,7 @@ The cofibrations $i \colon X \to Y$ in $sSetCat\big(\mathbf{B}G_\bullet, sSet\bi
 
 \end{prop}
 
-This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou 2006, Prop. 5.3](#Guillou06), [Goerss & Jardine 09, V Lem. 2.4](#GoerssJardine09)).
+This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou 2006, Prop. 5.3](#Guillou06), [Goerss & Jardine 09, V Lem. 2.4 & Cor. 2.10](#GoerssJardine09)).
 
 
 
