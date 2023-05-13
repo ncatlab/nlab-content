@@ -128,20 +128,24 @@ the following are equivalent:
 
 2. The [[counit of an adjunction|counit]] $\varepsilon : L R \to 1_B$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
 
-3. The [[monad]] $(R L, R\varepsilon L,\eta)$ associated with the adjunction is [[idempotent monad|idempotent]], the right adjoint $R$ is [[conservative functor|conservative]], and the left adjoint $L$ is [[essentially surjective functor|essentially surjective on objects]].
+3.  There exists some natural isomorphism $L R \to 1_B$.
 
-4. If $S$ is the set of morphisms $s$ in $A$ such that $L(s)$ is an [[isomorphism]] in $B$, then $L \colon A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
+4. The [[monad]] $(R L, R\varepsilon L,\eta)$ associated with the adjunction is [[idempotent monad|idempotent]], the right adjoint $R$ is [[conservative functor|conservative]], and the left adjoint $L$ is [[essentially surjective functor|essentially surjective on objects]].
 
-5. The [[left adjoint]] $L$ is [[dense functor|dense]].
+5. If $S$ is the set of morphisms $s$ in $A$ such that $L(s)$ is an [[isomorphism]] in $B$, then $L \colon A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
+
+6. The [[left adjoint]] $L$ is [[dense functor|dense]].
 
 =--
 
-The equivalence of statements 1 to 4 are originally due to ([Gabriel-Zisman 67, prop. 1.3, page 7](#GabrielZisman67)). The equivalence of 1 and 5 is due to ([Ulmer, Theorem 1.13](#Ulmer68)).
+The equivalence of statements (1), (2), (4) and (5) are originally due to ([Gabriel-Zisman 67, Prop. 1.3, page 7](#GabrielZisman67)). The equivalence of (1) and (6) is due to ([Ulmer, Theorem 1.13](#Ulmer68)).  The equivalence of (1) and (3) is ([Johnstone, Lemma A1.1.1](#Johnstone)).
 
 +-- {: .proof}
 ###### Proof
 
-The equivalence of (1) and (2) is [this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints). The equivalence of (1) and (3) is [this Prop.](idempotent+monad#EquivalentConditions). For (4) see _[[reflective localization]]_. The equivalence of (1) and (5) can be seen by observing that $lan_L L \cong L lan_L id \cong L R$, which is pointwise, since $lan_L id$ is absolute, and is isomorphic to the identity if and only if $R$ is fully faithful.
+The equivalence of (1) and (2) is [this proposition](adjoint+functor#FullyFaithfulAndInvertibleAdjoints). The equivalence of (1) and (4) is [this Prop.](idempotent+monad#EquivalentConditions). For (5) see _[[reflective localization]]_. The equivalence of (1) and (6) can be seen by observing that $lan_L L \cong L lan_L id \cong L R$, which is pointwise, since $lan_L id$ is absolute, and is isomorphic to the identity if and only if $R$ is fully faithful.
+
+To prove that (3) implies (2), the argument is to transfer the monad structure on $R L$ across the isomorphism to a monad structure on $1_B$, and observe for any monad structure on $1_B$ the unit is inverse to the multiplication, making this monad idempotent; thus the original monad structure on $R L$ must have been idempotent.  The same argument shows that for a monad in any 2-category the counit $\varepsilon : L R \to 1_B$ is an isomorphism iff $L R$ is isomorphic to $1_B$.
 
 =--
 
