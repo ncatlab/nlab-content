@@ -228,7 +228,7 @@ See at _[Functor category -- Accessibility](functor+category#LocalPresentability
 
 The term _accessible category_ is due to
 
-* {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
+* {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics **104**, American Mathematical Society, (1989) &lbrack;[ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104)&rbrack;
 
 Further monographs (with focus on [[locally presentable categories]]):
 
