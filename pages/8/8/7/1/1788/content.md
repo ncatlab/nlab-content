@@ -1,135 +1,88 @@
 
-
-$\mapsfrom$
+$$
+  \array{
+    G \times V
+    &\longrightarrow&
+    G \times V
+    &\longrightarrow&
+    G \times V
+    \\
+    (g,v) 
+      &\mapsto& 
+    (g, g\cdot v)
+    \\
+    && 
+    (g, v) &\mapsto& (g, g^{-1} v)
+ }
+$$
 
 $$
   \array{
-    Set 
-    &\longrightarrow&
-    ModCat
+    H \times \big((G \times V)/H\big)_n  
+      &\longrightarrow& 
+    G \times V
     \\
-    S 
-      &\mapsto& 
-    \underset{s \in S}{\prod} \mathcal{C}
+    \Big\downarrow && \Big\downarrow
     \\
-    \Big\downarrow{{}^\mathrlap{f}}
-    &&
-    \mathllap{{}^{f^\ast}}
-    \Big\downarrow
-    \Big\downarrow\mathrlap{{}^{f_!}}
-    \\
-    T 
-      &\mapsto& 
-    \underset{s \in S}{\prod} \mathcal{C}
+    \big(
+      (G \times V)/H
+    \big)_n  &\longrightarrow& (G\times V)/H
   }
-$$  
+$$
+
+$$
+  \array{
+    G \times V_n 
+      &\longrightarrow&  
+    G \times V
+    \\
+    \Big\downarrow
+      &&
+    \Big\downarrow
+    \\
+    (G/H) \times V_n 
+      &\longrightarrow&
+    (G/H) \times V
+  }
+$$
+
+\linebreak
+
+$$
+  \array{
+    (G \times V)/H 
+      &\longrightarrow& 
+    (G/H) \times V
+      &\longrightarrow&
+    (G \times V)/H 
+    \\
+    [g,v] 
+      &\mapsto& 
+    \big( [g] , g^{-1} \cdot v \big)
+    \\
+    && 
+    \big(
+      [g], v
+    \big)
+    &\mapsto&
+    [g, g\cdot v]
+  }
+$$
+
+\linebreak
 
 
 $$
-  \begin{array}{c}
-    x
+  \array{
+    H \times V_n &\longrightarrow& G \times V_n
     \\
-    ---
+    \Big\downarrow && \Big\downarrow
     \\
-    xx
-  \end{array}
+    H \times V_{n+1} &\longrightarrow& G \times V_{n+1}
+  }
 $$
 
 
-$$
-  \begin{array}{ll}
-    \cdots
-    \\
-    \;\simeq\;
-    \int_{z \in \mathbf{X}}
-    \mathbf{C}
-    \Big(
-      \mathcal{S}_z
-      \cdot
-      \int^{y \in \mathbf{X}}
-      \mathbf{X}(y,z)
-      \cdot
-      \big(
-        \mathbf{X}(x,y)
-        \cdot
-        \mathcal{V}_{y}
-      \big)
-      \;,\;
-      \mathscr{W}_{z}
-    \Big)
-    &
-    \text{ co-Yoneda lemma }
-    \\
-    \;\simeq\;
-    \int_{z \in \mathbf{X}}
-    \int_{y \in \mathbf{X}}
-    \mathbf{C}
-    \Big(
-      \mathbf{X}(x,y)
-      \cdot
-      \mathbf{X}(y,z)
-      \cdot
-      \mathcal{S}_z
-      \cdot
-      \mathcal{V}_{y}
-      \;,\;
-      \mathscr{W}_{z}
-    \Big)
-    &
-    \text{ enriched homs preserve enriched limits }
-    \\
-    \;\simeq\;
-    \int_{z \in \mathbf{X}}
-    \int_{y \in \mathbf{X}}
-    \mathbf{C}
-    \Big(
-      \mathbf{X}(x,y)
-      \cdot
-      \mathcal{V}_{y}
-      \;,\;
-      \big(\mathscr{W}_{z}\big)^{
-        \mathbf{X}(y,z)
-        \cdot
-        \mathcal{S}_z
-      }
-    \Big)
-    &
-    \text{ cotensoring iso of }\; \mathbf{C}
-    \\
-    \;\simeq\;
-    \int_{y \in \mathbf{X}}
-    \int_{z \in \mathbf{X}}
-    \mathbf{C}
-    \Big(
-      \mathbf{X}(x,y)
-      \cdot
-      \mathcal{V}_{y}
-      \;,\;
-      \big(\mathscr{W}_{z}\big)^{
-        \mathbf{X}(y,z)
-        \cdot
-        \mathcal{S}_z
-      }
-    \Big)
-    &
-    \text{ enriched homs preserve enriched limits }
-    \\
-    \;\simeq\;
-    \int_{y \in \mathbf{X}}
-    \mathbf{C}
-    \Big(
-      \mathbf{X}(x,y)
-      \cdot
-      \mathcal{V}_{y}
-      \;,\;
-      \int_{z \in \mathbf{X}}
-      \big(\mathscr{W}_{z}\big)^{
-        \mathbf{X}(y,z)
-        \cdot
-        \mathcal{S}_z
-      }
-    \Big)
-    &
-    \text{ definition }
-  \end{array}
-$$
+
+
+
