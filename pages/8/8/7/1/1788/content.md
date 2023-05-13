@@ -1,6 +1,6 @@
 
-[[!include topology - contents]]
 
+$\mapsfrom$
 
 $$
   \array{
