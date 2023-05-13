@@ -200,11 +200,19 @@ Fairly immediate from the explicit definition [above](#ViaIndexedSetsOfObjects) 
 \end{proposition}
 ([Carboni & Vitale 1998, Lem. 42](#CarboniVitale98))
 
+
+\begin{proposition}
+\label{FCCOfAccessibleCatIsAccesible}
+  The free coproduct completion of an [[accessible category]] is itself accessible.
+\end{proposition}
+([Makkai & Paré (1989), Cor. 5.3.6](#MakkaiParé1989))
+
 \begin{prop}
 \label{FreeCoproductCompletionIsExtensive}
   Any free coproduct completion is an [[extensive category]].
 \end{prop}
 (e.g. [Carboni, Lack & Walters 1993](#CarboniLackWalters93))
+
 
 
 ## Examples
@@ -344,6 +352,10 @@ Early discussion of the concept:
 
 * {#Bénabou1985} [[Jean Bénabou]], §3 in: *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
 
+On [[accessible category|accessibility]] of free coproduct completions:
+
+* {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  §5.2.2 (pp. 116) in: _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics **104**, American Mathematical Society (1989) &lbrack;[ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104)&rbrack;
+
 
 On [[limits]] in free coproduct completions:
 
@@ -357,6 +369,11 @@ In the general context of [[extensive categories]]:
 
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 &lbrack;<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>&rbrack;
 
+As [[categorical semantics]] for [[dependent linear type theories]] (in the context of [[quantum programming languages]] with "[[dynamic lifting]]", such as proto-[[Quipper]]), the free coproduct completion of [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is considered in
+
+* [[Francisco Rios]], [[Peter Selinger]], §3.2 in: *A Categorical Model for a Quantum Circuit Description Language*, EPTCS **266** (2018) 164-178 &lbrack;[arXiv:1706.02630](https://arxiv.org/abs/1706.02630), [doi:10.4204/EPTCS.266.11](https://doi.org/10.4204/EPTCS.266.11)&rbrack;
+
+and its [followups](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics).
 
 [[!redirects free coproduct completions]]
 
