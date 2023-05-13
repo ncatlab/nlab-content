@@ -287,6 +287,7 @@ Certain labeled trusses are the 'combinatorial' analogues of [[manifold diagrams
 \begin{terminology} (Cone types). A stratified open $n$-truss $T$ is said to be a _combinatorial cone type_ if the underlying truss of $T$ is atomic with cone point $x$, and $\{x\} = \mathsf{lbl}^{-1}\circ \mathsf{lbl}(x)$ (in words: '$x$ is its own stratum').
 \end{terminology}
 
+{#cylinder}
 \begin{defn} (Cylinders). Given a labeled $m$-truss $T$ defined the _$k$-cylinder_ $\mathbb{I}^k \times T$ of $T$ to be the labeled $(m+k)$ obtained from $T$ be adding $k$ trivial truss bundles $\ast \to \ast$ to its underlying truss.
 \end{defn}
 
