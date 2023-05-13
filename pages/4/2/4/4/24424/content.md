@@ -21,7 +21,7 @@ A next goal is:
 
 ## Papers
 
-* [[J-B Vienney|Jean-Baptiste Vienney]], [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], _Graded Differential Categories and Graded Differential Linear Logic_, 2023, Preprint, [arXiv](https://arxiv.org/abs/2303.10586) 
+*  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_, 2023, Preprint, [arXiv](https://arxiv.org/abs/2303.10586) 
 ## Presentations 
 
 
