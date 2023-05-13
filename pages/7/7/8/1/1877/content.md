@@ -37,15 +37,15 @@ complexes]] associated to $R$, as follows:
 1. $K = K_R:$
 
    * the set of vertices is the set $X$;
+   
    * a $p$-simplex of $K$ is a set $\{x_0, \cdots, x_p\}\subseteq X$ such that there is some $y \in Y$ with $x_i R y$ for $i = 0, 1, \cdots, p$.
 
 2. $L = L_R :$
 
-   * the set of vertices is the set, $Y$;
-   *  $p$-simplex of $K$ is a set $\{y_0, \cdots, y_p\}\subseteq Y$ such that there is some $x \in X$ with $x R y_j$ for $j  = 0, 1, \cdots, p$.
+   * the set of vertices is the set $Y$;
+   * a $p$-simplex of $K$ is a set $\{y_0, \cdots, y_p\}\subseteq Y$ such that there is some $x \in X$ with $x R y_j$ for $j  = 0, 1, \cdots, p$.
 
-Clearly the two constructions are in some sense dual to each
-other.
+Clearly the two constructions are in some sense dual to each other.
 
 +-- {: .un_remark}
 ###### Note
@@ -58,23 +58,12 @@ We next need some classical subdivision ideas.
 
 ### Barycentric  subdivisions
 
-Combinatorially, if $K$ is a simplicial complex with vertex set $V_K$,
-then one associates to $K$ the partially ordered set of its
-simplices. Explicitly we write $S_K$ for the set of simplices of $K$
-and $(S_K, \subseteq)$ for the partially ordered set with $\subseteq$
-being the obvious inclusion. The **barycentric subdivision**, $K'$, of $K$
-has $S_K$ as its set of vertices and a finite set of vertices of $K'$
-(i.e. simplices of $K$) is a simplex of $K'$ if it can be totally
-ordered by inclusion. (Thus $K'$ is the simplicial complex given by
-taking the nerve of the poset, $(S_K, \subseteq)$.)
+Combinatorially, if $K$ is a simplicial complex with vertex set $V_K$, then one associates to $K$ the partially ordered set of its simplices. Explicitly we write $S_K$ for the set of simplices of $K$ and $(S_K, \subseteq)$ for the partially ordered set with $\subseteq$ being the obvious inclusion. The **barycentric subdivision**, $K'$, of $K$ has $S_K$ as its set of vertices and a finite set of vertices of $K'$ (i.e. simplices of $K$) is a simplex of $K'$ if it is totally ordered by inclusion. (Thus $K'$ is the simplicial complex given by taking the nerve of the poset, $(S_K, \subseteq)$.)
 
 +-- {: .un_remark}
 ###### Note
 
-It is important to note that there is in general _no_ natural simplicial
-map from $K'$ to $K$. If however $V_K$ is ordered in such a way that
-the vertices of any simplex in $K$ are totally ordered (for instance
-by picking a total order on $V_K$), then one can easily specify a map
+It is important to note that there is in general _no_ natural simplicial map from $K'$ to $K$. If however $V_K$ is ordered in such a way that the vertices of any simplex in $K$ are totally ordered (for instance by picking a total order on $V_K$), then one can easily specify a map
 $$ \varphi : K' \rightarrow K$$
 by:
 
@@ -93,7 +82,7 @@ _contiguous_:
 
 ## Contiguity
 
- Let $\varphi,~ \psi : K \rightarrow L$ be
+ Let $\varphi, \psi : K \rightarrow L$ be
 two simplicial maps between [[simplicial complex|simplicial complexes]]. They are **contiguous** if for any simplex $\sigma$ of $K$, $\varphi (\sigma) \cup \psi
 (\sigma)$ forms a simplex in $L$.
 
@@ -222,7 +211,7 @@ Passing to the geometric realization, we get that $|\bar\psi| |\psi'|$ is homoto
 
 ## References
 
-*  C. H. Dowker, _Homology Groups of Relations_, Annals of Maths, 56, (1952), 84&#8211;95.
+*  C. H. Dowker, _Homology Groups of Relations_, Annals of Math. 56 (1952), 84&#8211;95.
 
 
 [[!redirects Dowker's theorem]]
