@@ -236,18 +236,6 @@ instead of a single path subset $dX \subset \Map(\mathbf{I},X)$, as required in 
 
 * If we can equip directed spaces with an internal hom, then a directed space with at least one directed path should be a strictly directed object in the category of directed spaces, with respect to the standard directed interval as the [[interval object]], while an ordinary topological space regarded as a directed space should be an [[undirected object]].
 
-+--{.query}
-But for that to work we need the structure of a directed topological space on $C(I_d,(X,d X))$. This requires that $X$ has _directed homotopies_! Does Grandis discuss higher directed paths, too? &#8212;Urs
-
-_Toby_: I don\'t think that you need internal homs and all that.  But see my edits to [[directed object]].
-
-[[Urs Schreiber|Urs]]: I think we need directed homotopies to check if a "constructed" directed space is actually a directed object in the original definition: that original definition asks us to check if the internal hom $[I,X]$ is weakly equivalent to $X$. Well, I made up this definition because I think it is the right abstraction, but there is room of course to debate this. But if we accept it then we should try to define the internal hom of Grandis' directed spaces. There is an obvious solution which one should check the details of: namely a directed topological space should be one which singles out not only subsets of $hom(I,X)$ but subsets of $hom(I^{\times n}, X)$ for all $n$, closed under the obvious reparameterization and gluing. This would induce an obvious notion of directed homotopies and should induce in an obvious way an internal hom for directed topological spaces. I'd think. But I don't feel like investing much time into finalizing this idea right now...
-
-[[Tim Porter]]: As I have now looked at Marco's book, there are results on exponentiable d-spaces.(p.59).  I can give details if anyone is still interested.
-
-=--
-
-
 ## References
 
 The above definition of $d$-spaces is from
