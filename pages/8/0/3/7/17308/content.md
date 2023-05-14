@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[model category]] structure $(\mathcal{C}(W,Fib,Cof))$ on some [[category]] $\mathcal{C}$ is a means to guarantee the [[locally small category|local smallness]] and to improve the tractability of the [[homotopy category]] of the underlying [[category with weak equivalences]] $(\mathcal{C},W)$. In particular, if a [[category with weak equivalences]] admits a [[model category]] structure, then its [[homotopy category]] (in the sense of [[localization]] $\mathcal{C}[W^{-1}]$ at the class of [[weak equivalences]]) is [[equivalence of categories|equivalent]] to the category whose objects are those objects of $\mathcal{C}$ which are both fibrant cofibrant, and whose morphisms are the actual [[homotopy classes]] of morphisms between these objects ([[left homotopy]] or [[right homotopy]] [[equivalence classes]] in the sense of [[homotopy in a model category]]) .
+A [[model category]] structure $(\mathcal{C}(W,Fib,Cof))$ on some [[category]] $\mathcal{C}$ is a means to guarantee the [[locally small category|local smallness]] and to improve the tractability of the [[homotopy category]] of the underlying [[category with weak equivalences]] $(\mathcal{C},W)$. In particular, if a [[category with weak equivalences]] admits a [[model category]] structure, then its [[homotopy category]] (in the sense of [[localization]] $\mathcal{C}[W^{-1}]$ at the class of [[weak equivalences]]) is [[equivalence of categories|equivalent]] to the category of [[bifibrant objects]] whose morphisms are the actual [[homotopy classes]] of morphisms between them ([[left homotopy]] or [[right homotopy]] [[equivalence classes]] in the sense of [[homotopy in a model category]]) .
 
 ## Definition
 
@@ -28,7 +28,7 @@ A [[model category]] structure $(\mathcal{C}(W,Fib,Cof))$ on some [[category]] $
 
 Let $\mathcal{C}$ be a [[model category]]. Write $Ho(\mathcal{C})$ for the [[category]] whose
 
-* [[objects]] are those objects of $\mathcal{C}$ which are both fibrant and cofibrant;
+* [[objects]] are the [[bifibrant objects]] of $\mathcal{C}$;
 
 * [[morphisms]] are the [[homotopy classes]] of morphisms of $\mathcal{C}$, hence the [[equivalence classes]] of morphism under [[left homotopy]].
 
@@ -44,7 +44,7 @@ We spell out that def. \ref{HomotopyCategoryOfAModelCategory} indeed satisfies t
 ###### Lemma
 **([[Whitehead theorem]] in model categories)**
 
-Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between two objects which are both fibrant and cofibrant is a [[homotopy equivalence]].
+Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between [[bifibrant objects]] is a [[homotopy equivalence]].
 
 =--
 
@@ -53,7 +53,7 @@ Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between two ob
 +-- {: .proof}
 ###### Proof
 
-By the factorization axioms in $\mathcal{C}$, every weak equivalence $f\colon X \longrightarrow Y$ factors through an object $Z$ as an acyclic cofibration followed by an acyclic fibration. In particular it follows that with $X$ and $Y$ both fibrant and cofibrant, so is $Z$, and hence it is sufficient to prove that acyclic (co-)fibrations between such objects are homotopy equivalences.
+By the factorization axioms in $\mathcal{C}$, every weak equivalence $f\colon X \longrightarrow Y$ factors through an object $Z$ as an acyclic cofibration followed by an acyclic fibration. In particular it follows that with $X$ and $Y$ both [[bifibrant object|bifibrant]], so is $Z$, and hence it is sufficient to prove that acyclic (co-)fibrations between such objects are homotopy equivalences.
 
 So let $f \colon X \longrightarrow Y$ be an acyclic fibration between fibrant-cofibrant objects, the case of acyclic cofibrations is [[formal dual|formally dual]]. Then in fact it has a genuine [[right inverse]] given by a lift $f^{-1}$ in the diagram
 
