@@ -84,57 +84,67 @@ For the definition of $(\infty,1)$-functors in other models for $(\infty,1)$-cat
 ### Model category presentation 
  {#ModelCategoryPresentation}
 
-The projective and injective [[global model structure on functors]] as well as the [[Reedy model structure]] if $C$ is a [[Reedy category]] [[presentable (infinity,1)-category|presents]] $(\infty,1)$-categories of $(\infty,1)$-functors, at least when there exists a [[combinatorial simplicial model category]] model for the codomain.
+The projective and injective [[global model structure on functors]] (as well as the [[Reedy model structure]] if $C$ is a [[Reedy category]]) [[presentable (infinity,1)-category|presents]] $(\infty,1)$-categories of $(\infty,1)$-functors, at least when there exists [[combinatorial simplicial model category|combinatorial simplicial]]-[[structure]] model on the [[codomain]] [[model category]].
 
 Let 
 
-* $C$ be a small [[sSet]]-[[enriched category]];	
+* $C$ be a [[small category|small]] [[sSet]]-[[enriched category]];	
 
-* $A$ a [[combinatorial simplicial model category]] and $A^\circ$ 
-  its full [[sSet]]-subcategory of fibrant cofibrant objects;
+* $A$ a [[combinatorial simplicial model category]] and 
 
-* $[C,A]$ the [[sSet]]-[[enriched functor category]] equipped with either
-  the injective or projective [[global model structure on functors]] -- here: the injective or injective [[model structure on sSet-enriched presheaves]] -- and
-  $[C,A]^\circ$ its full [[sSet]]-[[subcategory]] 
-  on fibrant-cofibrant objects.
+  $A^\circ$ its [[full subcategory|full]] [[sSet-enriched category|sSet-]][[subcategory]] of [[bifibrant objects]];
 
-Write $N : sSet Cat \to sSet$ for the [[homotopy coherent nerve]]. 
-Since this is a [[right adjoint]] it preserves [[product]]s and 
-hence we have a canonical morphism
+* $[C,A]$ the [[sSet]]-[[enriched functor category]] equipped with either the injective or projective [[global model structure on functors]], and
+  
+  $[C,A]^\circ$ its full [[sSet]]-[[subcategory]]  on [[bifibrant objects]].
+
+* $N \colon sSet\text{-}Cat \to sSet$ the [[homotopy coherent nerve]]. 
+
+
+[[right adjoints preserve limits|Since]]$\;N$ is a [[right adjoint]] it [[preserved limit|preserves]] [[products]] so that we obtain a morphism
 
 $$
-  N(C) \times N([C,A]) \simeq
-  N(C \times [C,A])
-  \stackrel{N(ev)}{\to}
+  N(C) \times N\big([C,A]\big) 
+   \xrightarrow{\; \sim \;}
+  N\big(C \times [C,A]\big)
+   \xrightarrow{\; N(ev) \;}
   N(A)
 $$
 
-induced from the hom-[[adjunct]] of $Id : [C,A] \to [C,A]$.
+induced from the [[internal hom]]-[[adjunct]] of $Id \colon [C,A] \to [C,A]$.
 
-The fibrant-cofibrant objects of $[C,A]$ are [[enriched functor]]s that 
-in particular take values in fibrant cofibrant objects of $A$. Therefore
-this restricts to a morphism
+Noticing that the [[bifibrant objects]] of $[C,A]$ are [[enriched functors]] that, in particular, take values in [[bifibrant objects]] of $A$, this restricts to a morphism of the form
 
 $$
-  N(C) \times N([C,A]^\circ) 
-  \stackrel{N_{hc}(ev)}{\to}
-  N(A^\circ)
+  N(C) \times N\big([C,A]^\circ\big) 
+  \xrightarrow{\;\; N(ev) \;\;}
+  N\big(A^\circ\big)
+  \,,
+$$
+
+which, by the [[internal hom]]-[[adjunction]], corresponds to a morphism
+
+$$
+  N\big([C,A]^\circ\big) 
+  \xrightarrow{\phantom{--}}
+  sSet\big(
+    N(C)
+    ,\,  
+    N(A^\circ)
+  \big)
   \,.
 $$
 
-By the [[internal hom]] [[adjunction]] this corresponds to a morphism
+Here $A^\circ$ is [[Kan complex]]-[[enriched category|enriched]], by the [[axioms]] of an [[classical model structure on simplicial sets|$sSet_{Quillen}$-]][[enriched model category]], and so $N(A^\circ)$ is a [[quasi-category]]. Therefore we may write this as
 
 $$
-  N([C,A]^\circ) 
-  \stackrel{}{\to}
-  sSet(N_{hc}(C),  N(A^\circ))
-  \,.
-$$
-
-Here $A^\circ$ is [[Kan complex]] enriched by the axioms of an $sSet_{Quillen}$- [[enriched model category]], and so $N(A^\circ)$ is a [[quasi-category]], so that we may write this as
-
-$$
-  \cdots = Func(N(C), N(A^\circ))
+  \cdots 
+  \;=\; 
+  Func\big(
+    N(C)
+    ,\, 
+    N(A^\circ)
+  \big)
   \,.
 $$
 
@@ -144,13 +154,16 @@ $$
 This canonical morphism
 
 $$
-  N([C,A]^\circ) 
-  \stackrel{}{\to}
-  Func(N(C),  N(A^\circ))
+  N\big([C,A]^\circ\big) 
+    \xrightarrow{\phantom{--}}
+  Func\big(
+    N(C)
+    ,\,  
+    N(A^\circ)
+  \big)
 $$
 
-is an $(\infty,1)$-equivalence in that it is a weak equivalence in the
-[[model structure for quasi-categories]].
+is an [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]] in that it is a [[weak equivalence]] in the [[model structure for quasi-categories]].
 
 =--
 
@@ -159,23 +172,22 @@ This is ([Lurie, prop. 4.2.4.4](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
+The strategy is to show that the objects on both sides are both [[exponential objects]] in the [[homotopy category]] of [[Joyal model structure|$sSet_{Joyal}$]], which, by the [uniqueness of adjoints](adjoint+functor#UniquenessOfAdjoints), implies that they are [[isomorphism|isomorphic]] in the homotopy category, which finally is equivalent to the statement to be proven.
 
-The strategy is to show that the objects on both sides are [[exponential object]]s in the [[homotopy category]] of $sSet_{Joyal}$, hence isomorphic there.
+That $Func\big(N(C), N(A^\circ)\big) \simeq \big(N(A^\circ)\big)^{N(C)}$
+is an [[exponential object]] in the [[homotopy category]] is pretty immediate.
 
-That $Func(N(C), N(A^\circ)) \simeq (N(A^\circ))^{N(C)}$
-is an exponential object in the homotopy category is pretty immediate.
-
-That the left hand is an isomorphic exponential follows from ([Lurie, corollary  A.3.4.12](#Lurie)), which asserts that for $C$ and $D$ $sSet$-[[enriched categories]] with $C$ cofibrant and $A$ as above, we have that composition with the evaluation map induces a bijection
+That the left hand is an isomorphic exponential follows from [Lurie 09, corollary  A.3.4.12](#Lurie), which asserts that for $C$ and $D$ [[sSet-enriched categories]] with $C$ [[cofibrant object|cofibrant]] and $A$ as above, we have that [[composition]] with the [[evaluation map]] induces a [[bijection]]
 
 $$
-  Hom_{Ho(sSet Cat)}(D, [C,A]^\circ)
-  \stackrel{\simeq}{\to}
-  Hom_{Ho(sSet Cat)}(C \times D, A^\circ)
+  Hom_{Ho(sSet Cat)}\big(D, [C,A]^\circ\big)
+  \xrightarrow{\simeq}
+  Hom_{Ho(sSet Cat)}\big(C \times D, A^\circ\big)
   \,.
 $$
 
 Since $Ho(sSet Cat_{Bergner}) \simeq Ho(sSet_{Joyal})$ this 
-identifies also $N([C,A]^\circ)$ with the exponential object in question.
+identifies also $N\big([C,A]^\circ\big)$ with the exponential object in question.
 
 =--
 
