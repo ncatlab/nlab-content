@@ -86,9 +86,27 @@ which is a [[section]] of the [[composition]] functor $d_1 \;\colon\; \mathcal{C
 
 ## Examples
 
-* Not all [[weak factorization systems]] are functorial, although most are.  This includes those produced by the [[small object argument]], with due care, and also all [[algebraic weak factorization systems]].
+\begin{example}\label{InCombinatorialModelCategories}
+  In a [[combinatorial model category]] there exists functorial factorizations into 
 
-* All [[orthogonal factorization systems]] are automatically functorial.
+1. [[acyclic cofibrations]] followed by [[fibrations]],
+
+1. [[cofibrations]] followed by [[acyclic fibrations]],
+
+hence in particular there exists functoral [[fibrant replacement]] and functorial [[cofibrant replacement]].
+\end{example}
+This is due to unpublished results by [[Jeff Smith]], see [Dugger (2001), Prop. 2.3 and §7](#Dugger01) and [Barwick (2010), Prop. 2.5](#Barwick10).
+
+
+\begin{example}
+All [[orthogonal factorization systems]] are automatically functorial.
+\end{example}
+
+
+\begin{example}
+Not all [[weak factorization systems]] are functorial, although most are.  This includes those produced by the [[small object argument]], with due care, and also all [[algebraic weak factorization systems]].
+\end{example}
+
 
 ## Properties
  {#Properties}
@@ -121,6 +139,14 @@ An [[algebraic weak factorization system]] is a functorial factorization togethe
 ## References
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+Existence of functorial factorization in [[combinatorial model categories]] (following unpublished results by [[Jeff Smith]]):
+
+* {#Dugger01} [[Daniel Dugger]], Prop. 2.3 and §7 in: *Combinatorial model categories have presentations*, Advances in Mathematics **164** 1  (2001) 177-201 &lbrack;[arXiv:math/0007068](https://arxiv.org/abs/math/0007068), [doi:10.1006/aima.2001.2015](https://doi.org/10.1006/aima.2001.2015)&rbrack;
+
+* {#Barwick10} [[Clark Barwick]], Prop. 2.5 in: *On left and right model categories and left and right Bousfield localizations*, Homology, Homotopy and Applications **12** 2 (2010) 245–320 &lbrack;[doi:10.4310/hha.2010.v12.n2.a9](https://doi.org/10.4310/hha.2010.v12.n2.a9), [euclid:1296223884](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-12/issue-2/On-left-and-right-model-categories-and-left-and-right/hha/1296223884.full), subsuming: [arXiv:0708.2067](https://arxiv.org/abs/0708.2067), [arXiv:0708.2832](https://arxiv.org/abs/0708.2832), [arXiv:0708.3435](http://arxiv.org/abs/0708.3435)&rbrack; 
+
+Further discussion for [[enriched functors]]:
 
 * {#Shulman06} [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_ ([arXiv:math/0610194](https://arxiv.org/abs/math/0610194))
 
