@@ -1262,8 +1262,10 @@ Survey and review:
 
 * [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press 2008 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520))
 
-
 * {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
+
+* [[Martin Speirs]], *Model Categories with a view towards rational homotopy theory*, MSc thesis, Copenhagen (2015) &lbrack;[pdf](https://speirs.sites.ku.dk/files/2017/10/Master.pdf), [[Speirs-ModelCategories.pdf:file]]&rbrack;
+
 
 * {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
 
