@@ -138,7 +138,7 @@ the following are equivalent:
 
 =--
 
-The equivalence of statements (1), (2), (4) and (5) are originally due to ([Gabriel-Zisman 67, Prop. 1.3, page 7](#GabrielZisman67)). The equivalence of (1) and (6) is due to ([Ulmer, Theorem 1.13](#Ulmer68)).  The equivalence of (1) and (3) is ([Johnstone, Lemma A1.1.1](#Johnstone)).
+The equivalence of statements (1), (2), (4) and (5) are originally due to ([Gabriel-Zisman 67, Prop. 1.3, page 7](#GabrielZisman67)). The equivalence of (1) and (6) is due to ([Ulmer, Theorem 1.13](#Ulmer68)).  The equivalence of (2) and (3) is ([Johnstone, Lemma A1.1.1](#Johnstone)).
 
 +-- {: .proof}
 ###### Proof
