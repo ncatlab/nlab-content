@@ -4278,7 +4278,7 @@ Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between 
      }
    $$
 
-   is given, up to isomorphism, on any object $ X\in \mathcal{C} \overset{\gamma_{\mathcal{C}}}{\longrightarrow} Ho(\mathcal{C})$ by appying $F$ to a fibrant replacement $P X$ of $X$ and then forming a cofibrant replacement $Q(F(P X))$ of the result:
+   is given, up to isomorphism, on any object $ X\in \mathcal{C} \overset{\gamma_{\mathcal{C}}}{\longrightarrow} Ho(\mathcal{C})$ by applying $F$ to a [[fibrant replacement]] $P X$ of $X$ and then forming a cofibrant replacement $Q(F(P X))$ of the result:
 
 
   $$
