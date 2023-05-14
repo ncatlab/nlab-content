@@ -308,7 +308,6 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects differential pseudo-forms]]
 [[!redirects differential pseudo form]]
 [[!redirects differential pseudo forms]]
-[[!redirects pseudoform]]
 [[!redirects pseudoforms]]
 [[!redirects pseudo-form]]
 [[!redirects pseudo-forms]]
