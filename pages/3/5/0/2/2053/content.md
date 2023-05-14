@@ -194,4 +194,8 @@ Expository review in the generality of amalgamated free products and making expl
 [[!redirects amalgamated free product of groups]]
 [[!redirects amalgamated free products of groups]]
 
+[[!redirects amalgamation of groups]]
+[[!redirects amalgamations of groups]]
+
+
 
