@@ -80,7 +80,7 @@ This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), review
 \begin{remark}\label{RelationToModelStructureOnSimplicialGroups}
 **(relation to model structure on simplicial groups)**
 \linebreak
-  An $X \in sGrpd_{DK}$ for which $X_0 = \ast$ is the [[terminal groupoid]] is, when regarded as a [[pointed object]], equivalently the ([[delooping]] of the) [[simplicial group]] which is its unique [[hom-object]]. Restricted to such "simplicial [[delooping groupoids]]" of simplicial groups and under this identitificaiton, the fibrations and weak equivalences in Prop. \ref{FreeMorphismsOfSimplicialGroupoids} are those of the [[model structure on simplicial groups]].
+  An $X \in sGrpd_{DK}$ for which $X_0 = \ast$ is the [[terminal groupoid]] is, when regarded as a [[pointed object]], equivalently the ([[delooping]] of the) [[simplicial group]] which is its unique [[hom-object]]. Restricted to such "simplicial [[delooping groupoids]]" of simplicial groups and under this identitification, the fibrations and weak equivalences in Prop. \ref{FreeMorphismsOfSimplicialGroupoids} are those of the [[model structure on simplicial groups]].
 \end{remark}
 
 
@@ -164,7 +164,7 @@ Forming simplicial [[delooping groupoids]] constitutes a [[fully faithful functo
 
 $$
   \array{
-    sGrp &\hookrightarrow& sSet\text{Grpd}
+    sGrp &\hookrightarrow& sSet\text{-}Grpd
     \\
     \mathcal{G} &\mapsto& \mathbf{B}\mathcal{G}
     \mathrlap{\,.}
