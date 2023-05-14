@@ -156,6 +156,26 @@ This is essentially [Dwyer & Kan (1984), Prop. 2.9, 2.10](#DwyerKan84), made mor
 This is [Bergner (2008), Prop. 2.5](#Bergner08).
 
 
+### Relation to simplicial groups
+ {#RelationToSimplicialGroups}
+
+\begin{remark}
+Forming simplicial [[delooping groupoids]] constitutes a [[fully faithful functor]] of [[1-categories]] from [[simplicial groups]] to [[sSet]]-[[enriched groupoids]] (DK-[[simplicial groupoids]]):
+
+$$
+  \array{
+    sGrp &\hookrightarrow& sSet\text{Grpd}
+    \\
+    \mathcal{G} &\mapsto& \mathbf{B}\mathcal{G}
+    \mathrlap{\,.}
+  }
+$$
+
+With respect to the above model structure (Prop. \ref{TheModelStructure}) this functor clearly preserves the [[weak equivalences]] and [[fibrations]] of the [[model structure on simplicial groups]]. However, it does not have a [[left adjoint]] and thus fails to be a [[right Quillen functor]].
+\end{remark}
+
+
+
 ### Relation to simplicial sets
 
 \begin{proposition}
