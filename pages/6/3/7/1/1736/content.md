@@ -37,7 +37,7 @@ be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
 
 Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category of a model category|homotopy categories]].
 
-By the discussion there, $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
+By the discussion there, $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on [[cofibrant objects]] and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
 
 $$
   \mathbb{L} : Ho C \to Ho D
@@ -54,7 +54,7 @@ A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the foll
 
 * The total right [[derived functor]] $\mathbb{R} \colon Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
-* {#AdjunctOfWeakEquivalence} For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
+* {#AdjunctOfWeakEquivalence} For every [[cofibrant object]] $c \in C$ and every [[fibrant object]] $d \in D$, a [[morphism]] $c \to R(d)$ is a [[weak equivalence]] in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
 * The following two conditions hold:
 
@@ -67,7 +67,7 @@ A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the foll
 +-- {: .num_remark}
 ###### Remark
 
-Not every equivalence between homotopy categories of model categories lifts to a Quillen equivalence. An interesting counterexample is given for instance in ([Dugger-Shipley 09](#DuggerShipley09)).
+Not every equivalence between homotopy categories of model categories lifts to a Quillen equivalence. An interesting [[counterexample]] is given for instance by [Dugger & Shipley (2009)](#DuggerShipley09).
 
 =--
 
