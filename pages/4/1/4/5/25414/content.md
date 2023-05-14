@@ -163,7 +163,7 @@ To make the preceding sketch precise, one would need to formalize the sheaf cond
 
 We define a [[coverage]] for $\mathrm{MDiag}^R_n$. (Note that $\mathrm{MDiag}^R_n$ does not have all pullbacks since, e.g., subdiagrams can intersect in non-diagrams.)
 
-\begin{defn} The *neighborhood coverage* $J$ for $\mathrm{MDiag}^R_n$ is the coverage that assigns to $T \in \mathrm{MDiag}$ the single family $\{f_x : T^{\leq x} \to T \}_{x \in T}$ comprised of the [[n-truss#stratified_neighborhood|stratified neighborhoods]] of $T$.
+\begin{defn} The *neighborhood coverage* $J_n$ for $\mathrm{MDiag}^R_n$ is the coverage that assigns to $T \in \mathrm{MDiag}$ the single family $\{f_x : T^{\leq x} \to T \}_{x \in T}$ comprised of the [[n-truss#stratified_neighborhood|stratified neighborhoods]] of $T$.
 \end{defn}
 
 We may now formalize our earlier sketch definition as follows.
@@ -171,7 +171,7 @@ We may now formalize our earlier sketch definition as follows.
 \begin{defn} 
 A *manifold-diagrammatic $n$-category* $C$ is a presheaf on $\mathrm{MDiag}_n$ such that:
 
-1. $C$ is a [[sheaf]] on $\mathrm{MDiag}^R_n$ and [[locally constant sheaf|locally constant]] on (i.e. constant on the connected components of) $\mathrm{MDiag}^L_n$,
+1. $C$ is a [[sheaf]] on $(\mathrm{MDiag}^R_n,J_n)$ and [[locally constant sheaf|locally constant]] on (i.e. constant on the connected components of) $\mathrm{MDiag}^L_n$,
 2. $C$ extends to a double-(co)presheaf $\mathbb{M}\mathsf{Diag}^{\mathrm{op},\mathrm{co}}_n \to \mathbb{S}\mathbf{et}$.
 
 \end{defn}
@@ -224,15 +224,19 @@ Several other approaches to and variations of the idea of manifold-diagrammatic 
 
 ## References
 
-An introduction to and overview of some relevant ideas in the area can be found in:
+A condensed write-up of the mathematics needed for stating the above formal definition of manifold-diagrammatic higher categories was compiled in
 
-* {#NCC} [An Invitation to Geometric Higher Categories](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html), $n$-Category Café post
+* {#Zero23} [From zero to manifold-diagrammatric categories](https://cxdorn.github.io/assets/pdfs/zero-to-mdhc.pdf), pdf.
 
-with further details spelled out in:
+A general introduction to some of the relevant ideas in the area can be found in
 
-* {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
+* {#NCC} [An Invitation to Geometric Higher Categories](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html), $n$-Category Café post,
 
-The type of 'directed combinatorial topology' that governs the stratified topology of manifold diagrams was described in:
+with further details spelled out in
+
+* {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf)).
+
+The type of 'directed combinatorial topology' that governs the stratified topology of manifold diagrams was described in
 
 * {#DornDouglas21} [[Christoph Dorn]] and [[Christopher Douglas]], _Framed combinatorial topology_, 2021 ([arXiv](https://arxiv.org/abs/2112.14700), [latest](https://cxdorn.github.io/fct-book/))
 
