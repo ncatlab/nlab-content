@@ -103,13 +103,14 @@ Let
 
 [[right adjoints preserve limits|Since]]$\;N$ is a [[right adjoint]] it [[preserved limit|preserves]] [[products]] so that we obtain a morphism
 
-$$
+\[
+  \label{}
   N(C) \times N\big([C,A]\big) 
    \xrightarrow{\; \sim \;}
   N\big(C \times [C,A]\big)
    \xrightarrow{\; N(ev) \;}
   N(A)
-$$
+\]
 
 induced from the [[internal hom]]-[[adjunct]] of $Id \colon [C,A] \to [C,A]$.
 
@@ -148,14 +149,14 @@ $$
   \,.
 $$
 
-+-- {: .num_prop #PresentationByModelStructuresOnFunctors}
-###### Proposition
 
+\begin{proposition}
+\label{PresentationByModelStructuresOnFunctors}
 This canonical morphism
 
 $$
   N\big([C,A]^\circ\big) 
-    \xrightarrow{\phantom{--}}
+    \xrightarrow{\phantom{-}\sim\phantom{-}}
   Func\big(
     N(C)
     ,\,  
@@ -164,14 +165,10 @@ $$
 $$
 
 is an [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]] in that it is a [[weak equivalence]] in the [[model structure for quasi-categories]].
-
-=--
-
+\end{proposition}
 This is ([Lurie, prop. 4.2.4.4](#Lurie)).
 
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 The strategy is to show that the objects on both sides are both [[exponential objects]] in the [[homotopy category]] of [[Joyal model structure|$sSet_{Joyal}$]], which, by the [uniqueness of adjoints](adjoint+functor#UniquenessOfAdjoints), implies that they are [[isomorphism|isomorphic]] in the homotopy category, which finally is equivalent to the statement to be proven.
 
 That $Func\big(N(C), N(A^\circ)\big) \simeq \big(N(A^\circ)\big)^{N(C)}$
@@ -188,8 +185,9 @@ $$
 
 Since $Ho(sSet Cat_{Bergner}) \simeq Ho(sSet_{Joyal})$ this 
 identifies also $N\big([C,A]^\circ\big)$ with the exponential object in question.
+\end{proof}
 
-=--
+\linebreak
 
 ### Limits and colimits {#Limits}
 
