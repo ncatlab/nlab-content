@@ -30,11 +30,11 @@ The _model structure on simplicial groups_ is a presentation of the
 
 There is a "projective" [[model category]] structure on the [[category]] $sGrp$ of [[simplicial groups]] where a morphism is
 
-* a [[weak equivalence]] if the [[underlying]] morphism is a weak equivalence in the [[classical model structure on simplicial sets]];
+* a [[weak equivalence]] if the [[underlying]] morphism is a weak equivalence in the [[classical model structure on simplicial sets]], hence a [[simplicial weak homotopy equivalence]];
 
-* a [[fibration]] if the underlying morphism is a [[Kan fibration]] of simplicial sets;
+* a [[fibration]] if the underlying morphism is a fibration in the [[classical model structure on simplicial sets]], hence a  [[Kan fibration]];
 
-* hence a [[cofibration]] if it has the [[left lifting property]] with respect to all trivial fibrations.
+* a [[cofibration]] if it has the [[left lifting property]] with respect to all [[acyclic fibrations]].
 
 =--
 
@@ -79,11 +79,12 @@ with the [[model structure on reduced simplicial sets]].
 
 ## References
 
-The model structure on simplicial groups is due to
+The model structure on simplicial groups is due to:
 
-* {#Quillen67} [[Daniel Quillen]], p. II 3.7 of: _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+* {#Quillen67} [[Daniel Quillen]], II §3.7 of: *[[Homotopical Algebra]]*, Lecture Notes in Mathematics **43**, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
 
-Further discussion is in
+
+Further detailed discussion:
 
 * {#GoerssJardine99} [[Paul Goerss]], [[J. F. Jardine]], chapter V of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
