@@ -70,7 +70,7 @@ The [[simplicial set]] underlying any simplicial group
 (by forgetting the group structure) is a [[Kan complex]].
 \end{theorem}
 
-This is due to [Moore 1954, Theorem 3 on p. 18-04](#Moore54), review in [May 67, Theorem 17.1](#MaySimplicialObjects),$\;$ [Curtis 1971, Sec. 3, Lem. 3.1](#Curtis71), $\;$ [Weibel 1994, Lem. 8.2.8](#Weibel94), $\;$ [Joyal & Tierney 2005, p. 14](#JoyalTierney05).
+This is due to [Moore 1954, Theorem 3 on p. 18-04](#Moore54), review in [Quillen 67, II 3.8](#Quillen67), [May 67, Theorem 17.1](#MaySimplicialObjects),$\;$ [Curtis 1971, Sec. 3, Lem. 3.1](#Curtis71), $\;$ [Weibel 1994, Lem. 8.2.8](#Weibel94), $\;$ [Joyal & Tierney 2005, p. 14](#JoyalTierney05).
 
 In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provides explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
 
@@ -615,6 +615,7 @@ with face and degeneracy maps
 
 =--
 
+
 #### References {#SimplicialBundleReferences}
 
 Here are some pointers on where precisely in the literature the above statements can be found.
@@ -681,6 +682,7 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 ## References 
 
+* {#Quillen67} [[Daniel Quillen]], II §3.8 of: *[[Homotopical Algebra]]*, Lecture Notes in Mathematics **43**, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
 
 * {#MaySimplicialObjects} [[Peter May]], Chapter IV, Section 17 of: _Simplicial Objects in Algebraic Topology_ University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
