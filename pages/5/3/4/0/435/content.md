@@ -113,10 +113,12 @@ See [[(∞,2)-category]].
 
 
 ## References
+ {#References}
 
-Discussion the context of ([[simplicial model category|simplicial]]) [[model category]] theory :
+Discussion the context of ([[simplicial model category|simplicial]]) [[model category]] theory:
 
-* {#Quillen67} [[Dan Quillen]], chapter II, section 1 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+* {#Quillen67} [[Daniel Quillen]], II §1 of: *[[Homotopical Algebra]]*, Lecture Notes in Mathematics **43**, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
+
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Section 9.1.1 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
