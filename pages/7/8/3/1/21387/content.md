@@ -25,6 +25,8 @@ This page is about the book
 
   [doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)
 
+  TeX-typeset manuscript: [PDF](https://aareyanmanzoor.github.io/assets/books/homotopical-algebra.pdf).
+
 introducing the theory of [[model categories]] as a tool in [[homotopy theory]].
 
 
