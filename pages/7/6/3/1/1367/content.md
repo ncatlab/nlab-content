@@ -94,11 +94,13 @@ Let
 
   $A^\circ$ its [[full subcategory|full]] [[sSet-enriched category|sSet-]][[subcategory]] of [[bifibrant objects]];
 
-* $[C,A]$ the [[sSet]]-[[enriched functor category]] equipped with either the injective or projective [[global model structure on functors]], and
+* $[C,A]$ the [[sSet]]-[[enriched functor category]] equipped with the projective[^1] [[global model structure on functors]], and
   
   $[C,A]^\circ$ its full [[sSet]]-[[subcategory]]  on [[bifibrant objects]].
 
 * $N \colon sSet\text{-}Cat \to sSet$ the [[homotopy coherent nerve]]. 
+
+[^1]: [Lurie's Remark 4.2.4.5](#Lurie) claims that Prop. \ref{PresentationByModelStructuresOnFunctors} also works also for the injective structure, but this is not so clear, see also [MO:q/440965](https://mathoverflow.net/q/440965/381).
 
 
 [[right adjoints preserve limits|Since]]$\;N$ is a [[right adjoint]] it [[preserved limit|preserves]] [[products]] so that we obtain a morphism
@@ -154,7 +156,8 @@ $$
 \label{PresentationByModelStructuresOnFunctors}
 This canonical morphism
 
-$$
+\[
+  \label{TheNerveComparisonEquivalence}
   N\big([C,A]^\circ\big) 
     \xrightarrow{\phantom{-}\sim\phantom{-}}
   Func\big(
@@ -162,11 +165,11 @@ $$
     ,\,  
     N(A^\circ)
   \big)
-$$
+\]
 
 is an [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]] in that it is a [[weak equivalence]] in the [[model structure for quasi-categories]].
 \end{proposition}
-This is ([Lurie, prop. 4.2.4.4](#Lurie)).
+This is [Lurie (2009), Prop. 4.2.4.4](#Lurie).
 
 \begin{proof}
 The strategy is to show that the objects on both sides are both [[exponential objects]] in the [[homotopy category]] of [[Joyal model structure|$sSet_{Joyal}$]], which, by the [uniqueness of adjoints](adjoint+functor#UniquenessOfAdjoints), implies that they are [[isomorphism|isomorphic]] in the homotopy category, which finally is equivalent to the statement to be proven.
@@ -186,6 +189,114 @@ $$
 Since $Ho(sSet Cat_{Bergner}) \simeq Ho(sSet_{Joyal})$ this 
 identifies also $N\big([C,A]^\circ\big)$ with the exponential object in question.
 \end{proof}
+
+
+> The following proof is fresh, still needs double-checking.
+
+\begin{corollary}
+\label{CompatibilityOfModelPresentationWithPrecomposition}
+  In the above situation, consider an [[sSet]]-[[enriched functor]] $f \,\colon\, C' \longrightarrow C$ between any [[small category|small]] [[sSet-enriched categories]]. Then under the identification of Prop. \ref{PresentationByModelStructuresOnFunctors} the two $\infty$-functors given by
+
+1. [[homotopy coherent nerve]] of the [[derived functor]] $\mathbb{R}f^\ast$ of precomposition with $f$
+
+1. the precomposition with the [[homotopy coherent nerve]] of $f$
+
+are related by a [[natural equivalence]] of $\infty$-functors:
+
+\begin{tikzcd}[sep=30pt]
+  N\big(
+    [C,A]^\circ
+  \big)
+  \ar[dd, "{ N\big( \mathbb{R}f^\ast \big) }"{description}]
+  \ar[rr, "{ \sim }"]
+  &&
+  \mathrm{Func}\big(
+    N(C)
+    ,\,
+    N(A^\circ)
+  \big)
+  \ar[dd, "{ N(f)^\ast }"{description}]
+  \\ 
+  \\
+  N\big(
+    [C',A]^\circ
+  \big)
+  \ar[uurr, Rightarrow, shorten=50pt, "{ \sim }"{sloped}]
+  \ar[rr, "{ \sim }"]
+  &&
+  \mathrm{Func}\big(
+    N(C')
+    ,\,
+    N(A^\circ)
+  \big)
+\end{tikzcd}
+
+\end{corollary}
+\begin{proof}
+Consider the following diagram:
+
+
+\begin{tikzcd}[sep=30pt]
+  N\big(
+    [C,A]^\circ
+  \big)
+  \ar[dr, hook]
+  \ar[drrr]
+  \ar[ddd, "{ N(\mathbb{R}f^\ast) }"{description} ]
+  &
+  \\
+  &
+  N\big(
+    [C,A]
+  \big)
+  \ar[rr]
+  \ar[dd, "{ N(f^\ast) }"{description} ]
+  &&
+  \mathrm{Func}\big(
+    N(C)
+    ,\,
+    N(A^\circ)
+  \big)
+  \ar[dd, "{ N(f)^\ast }"{description} ]
+  \\
+  \\
+  N\big(
+    [C',A]^\circ
+  \big)
+  \ar[d, hook]
+  &
+  N\big(
+    [C',A]
+  \big)
+  \ar[rr]
+  \ar[dl, "{ N(Q) }"{description}]
+  \ar[d, "{\mathrm{id}}"{description}, "{\ }"{name=t, swap}]
+  &&
+  \mathrm{Func}\big(
+    N(C')
+    ,\,
+    N(A^\circ)
+  \big)
+  \\
+  N\big(
+    [C',A]
+  \big)
+  \ar[r, "{ \mathrm{id} }"{description}]
+  \ar[to=t, Rightarrow, shorten=20pt]
+  &
+  N\big(
+    [C',A]
+  \big) 
+  \ar[urr]
+\end{tikzcd}
+
+Here $Q$ denotes any [[functorial factorization|functorial]] [[cofibrant replacement]] (which exists, by [this Example](functorial+factorization#InCombinatorialModelCategories), since $[C',A]$ is a [[combinatorial model category]] by the above discussion) and the double arrow denotes  (the image under the hc-nerve of) the [[natural transformation]] with components the resolution equivalences $Q(\text{-}) \xrightarrow{\;\sim\;} (\text{-})$. 
+
+The left square commutes by the construction of right derived functors of [[right Quillen functors]] (eg. [this Prop.](Introduction+to+Homotopy+Theory#ComputationOfLeftRightDerivedFunctorsViaResolutions)) and the square on the right is the [[naturality square]] of the comparison map discussed [above](#ModelCategoryPresentation).
+ 
+The total diagram is of the claimed from. It just remains to see that the 2-morphism filling it is really an equivalence, but this follows by Prop. \ref{EquivalencesDetectedOnObjects}.
+\end{proof}
+
 
 \linebreak
 
@@ -210,14 +321,15 @@ This is ([Lurie, corollary 5.1.2.3](#Lurie)).
 
 ### Equivalences
 
-+-- {: .num_prop }
-###### Proposition
 
+\begin{proposition}
+\label{EquivalencesDetectedOnObjects}
+**(equivalences of $\infty$-functors detected on objects)**
+\linebreak
 A morphism $\alpha$ in $Func(D,C)$ (that is, a [[natural transformation]]) is an [[equivalence in an (infinity,1)-category|equivalence]] if and only if each component $\alpha_d$ is an equivalence in $C$.  
+\end{proposition}
 
-=--
-
-This is due to ([Joyal, Chapter 5, Theorem C](#Joyal)).
+This is due to [Joyal (2008), Chapter 5, Theorem C ([p. 125](https://ncatlab.org/nlab/files/JoyalTheoryOfQuasiCategories.pdf#page=125))](#Joyal08).
 
 
 ## Examples
@@ -253,10 +365,9 @@ The intrinsic definition is in section 1.2.7 of
 
 The discussion of [[model category]] models is in A.3.4.
 
-The theorem about equivalences is in
+The theorem about equivalences (Prop. \ref{EquivalencesDetectedOnObjects}) is due to:
 
-* {#Joyal} [[André Joyal]], _The theory of quasicategories and its applications_ lectures at _[Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/)_, ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
- 
+* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
 
 [[!redirects (∞,1)-category of (∞,1)-functors]]
