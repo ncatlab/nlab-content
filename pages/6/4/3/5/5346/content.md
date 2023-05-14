@@ -43,7 +43,8 @@ There is a "projective" [[model category]] structure on the [[category]] $sGrp$ 
 
 ## Properties
 
-### General
+### Further model category properties
+ {#FurtherModelCategoryProperties}
 
 \begin{proposition}\label{EveryObjectIsFibrant}
   Every object in the projective model structure (Prop. \ref{ModelStructureOnSimplicialGroups}) is [[fibrant object|fibrant]].
@@ -57,7 +58,11 @@ There is a "projective" [[model category]] structure on the [[category]] $sGrp$ 
 A homomorphims of simplicial groups is called *almost free* if it is degreewise the inclusion into the [[amalgamation of groups|amalgamation]] with a [[free group]]
 
 $$
-  f_n \,\colon\, \mathcal{G}_n \hookrightarrow \mathcal{G}_n \star F(S_n)
+  f_n 
+    \,\colon\, 
+  \mathcal{G}_n 
+    \xhookrightarrow{\phantom{---}}
+  \mathcal{G}_n \star F(S_n)
 $$
 in a compatible way.
 \end{definition}
