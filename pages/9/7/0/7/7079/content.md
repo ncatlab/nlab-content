@@ -92,6 +92,10 @@ Other examples include:
 
 ## Related concepts
 
+* [[cofibrant object]], [[bifibrant object]]
+
+* [[fibration]], [[cofibration]]
+
 * [[fibrant replacement]]
 
 * [[fibrant type]]
