@@ -38,7 +38,7 @@ Let $G$ be a [[discrete group]]. Let $R$ be a [[commutative ring]].
 
 The **group $R$-algebra** $R[G]$ is the [[associative algebra]] over $R$ 
 
-1. whose underlying $R$-[[module]] is the the [[free module]] over $R$ on the underlying set of $G$;
+1. whose [[underlying]] $R$-[[module]] is the the [[free module]] over $R$ on the [[underlying set]] of $G$;
 
 1. whose multiplication is given on [[basis]] elements by the group operation.
 
@@ -47,7 +47,7 @@ The **group $R$-algebra** $R[G]$ is the [[associative algebra]] over $R$
 +-- {: .num_remark }
 ###### Remark
 
-By the discussion at [[free module]] an element $r$ in $R[G]$ is a [[formal linear combination]] of [[basis]] elements in $G$ with [[coefficients]] in $R$, hence a formal sum
+By the discussion at [[free module]], an element $r$ in $R[G]$ is a [[formal linear combination]] of [[basis]] elements in $G$ with [[coefficients]] in $R$, hence a formal sum
 
 $$
   r = \sum_{g \in G} r_g \cdot g
