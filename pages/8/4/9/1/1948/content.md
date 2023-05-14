@@ -305,6 +305,37 @@ respectively.
 
 For more on this see [[homotopy Kan extension]]. For the case that $D' = *$ this reduces to [[homotopy limit]] and [[homotopy colimit]].
 
+
+### Relation to $\infty$-functor categories
+ {#RelationToInfinityFunctorCategories}
+
+\begin{proposition}
+  For 
+
+  * $\mathbf{C}$ a [[combinatorial simplicial model category]]
+
+  * $\mathbf{D}$ a [[small category|small]] [[sSet-enriched category]]
+
+then both the projective and the injective model structure on the [[sSet]]-[[enriched functor category]] $sFunc(\mathbf{D}, \mathbf{C})$ (which exist by the above discussion) [[presentable (infinity,1)-category|present]] the corresponding [[(infinity,1)-category of (infinity,1)-functors|$\infty$-category of $\infty$-functors]]. Concretely: 
+
+The [[homotopy coherent nerve]] of the [[full subcategory|full]] [[sSet-enriched category|sSet-enriched]] [[subcategory]] of the functor model category on its [[bifibrant objects]], $\big(\mathbf{sFunc}(\mathbf{D}, \mathbf{C})\big)^\circ$, is [[equivalence of quasi-categories|equivalent]] to the [[(infinity,1)-functor (infinity,1)-category|$\infty$-functor]] [[quasi-category]] between the [[homotopy coherent nerves]]
+$$
+  N \big( \mathbf{sFunc}(\mathbf{D}, \mathbf{C})^\circ \big)
+  \;\;
+  \underset{qCat}{\simeq}
+  \;\;
+  Func_\infty
+  \Big(
+    N(\mathbf{D})
+    ,\,
+    N\big( \mathbf{C}^\circ \big)
+  \Big)
+  \,.
+$$
+\end{proposition}
+This is due to [Lurie (2009), Prop. 4.2.4.4](#Lurie). See also the discussion *[here](infinity1-category+of+infinity1-functors#ModelCategoryPresentation)* at *[[(infinity,1)-category of (infinity,1)-functors|$\infty$-category of $\infty$-functors]]*.
+
+
 ## Examples
 
 Examples of cofibrant objects in the projective model structure are discussed at *[[projectively cofibrant diagram]]*.
