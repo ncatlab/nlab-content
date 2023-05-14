@@ -38,8 +38,6 @@ See also at _[[locally presentable categories - introduction]]_.
 +-- {: .num_defn}
 ###### Definition
 
-
-
 An [[(∞,1)-category]] $\mathcal{C}$ is called **locally presentable** 
 if 
 
@@ -72,7 +70,7 @@ That $\mathcal{C}$ is locally presentable is equivalent to each of the following
 
 1. There exists a [[combinatorial simplicial model category]] $A$ and and [[equivalence of (infinity,1)-categories]] $\mathcal{C} \simeq L_W A$ with the [[simplicial localization]] of $A$.
  
-   More explicitly: with $\mathcal{C}$ incarnated as a [[quasi-category]] there is an [[equivalence of quasi-categories]] $ \mathcal{C} \simeq N(A^\circ)$ of $\mathcal{C}$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on [[fibrant object|fibrant]] and [[cofibrant objects]].
+   More explicitly: with $\mathcal{C}$ incarnated as a [[quasi-category]] there is an [[equivalence of quasi-categories]] $ \mathcal{C} \simeq N(A^\circ)$ of $\mathcal{C}$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on the [[bifibrant objects]].
 
 1. $\mathcal{C}$ is [[accessible (infinity,1)-category|accessible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the [[full sub-(∞,1)-category]] $\mathcal{C}^\kappa \hookrightarrow \mathcal{C}$ on the $\kappa$ [[compact object in an (∞,1)-category|compact objects]] admits $\kappa$-small [[(∞,1)-colimits]].
 
@@ -270,7 +268,7 @@ $$
  {#PresentedByCombinatorialSimplicialModelCategories}
 
 By prop. \ref{EquivalentCharacterizations}
-locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ (or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
+locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on [[bifibrant objects]] of $C$ (or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
 
 (See also at *[[Ho(CombModCat)]]*).
 
@@ -410,3 +408,5 @@ Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞
 [[!redirects presentable (infinity,1)-category]]
 
 [[!redirects locally presentable infinity-category]]
+
+[[!redirects locally presentable infinity1-category]]
