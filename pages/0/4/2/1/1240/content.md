@@ -526,3 +526,15 @@ The general case of $\infty$-groups in $\infty$-toposes is further discussed in
 [[!redirects induced action]]
 [[!redirects induced actions]]
 
+[[!redirects left induced representation]]
+[[!redirects left induced representations]]
+
+[[!redirects right induced representation]]
+[[!redirects right induced representations]]
+
+[[!redirects left induced action]]
+[[!redirects left induced actions]]
+
+[[!redirects right induced action]]
+[[!redirects right induced actions]]
+
