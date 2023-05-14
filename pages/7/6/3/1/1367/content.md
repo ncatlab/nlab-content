@@ -81,7 +81,8 @@ For the definition of $(\infty,1)$-functors in other models for $(\infty,1)$-cat
 
 ## Properties
 
-### Models 
+### Model category presentation 
+ {#ModelCategoryPresentation}
 
 The projective and injective [[global model structure on functors]] as well as the [[Reedy model structure]] if $C$ is a [[Reedy category]] [[presentable (infinity,1)-category|presents]] $(\infty,1)$-categories of $(\infty,1)$-functors, at least when there exists a [[combinatorial simplicial model category]] model for the codomain.
 
@@ -182,9 +183,7 @@ identifies also $N([C,A]^\circ)$ with the exponential object in question.
 
 For $C$ an ordinary [[category]] that admits small [[limit]]s and [[colimit]]s, and for $K$ a [[small category]], the [[functor category]] $Func(D,C)$ has all small limits and colimits, and these are computed objectwise. See [[limits and colimits by example]]. The analogous statement is true for $(\infty,1)$-categories of $(\infty,1)$-functors
 
-+-- {: .num_prop}
-###### Propositon
-
+\begin{proposition}
 Let $K$ and $C$ be [[quasi-categories]], such that $C$ has all [[limit in a quasi-category|colimits]] indexed by $K$. 
 
 Let $D$ be a small quasi-category. Then 
@@ -193,10 +192,11 @@ Let $D$ be a small quasi-category. Then
 
 * A morphism $K^\triangleright \to Func(D,C)$ is a colimiting cocone precisely if for each object $d \in D$ the induced morphism $K^\triangleright \to C$ is a colimiting cocone.
 
-=--
+\end{proposition}
 
 
 This is ([Lurie, corollary 5.1.2.3](#Lurie)).
+
 
 ### Equivalences
 
@@ -254,6 +254,12 @@ The theorem about equivalences is in
 [[!redirects (∞,1)-categories of (∞,1)-functors]]
 
 [[!redirects (infinity,1)-functor category]]
+[[!redirects (infinity,1)-functor categories]]
+
+[[!redirects (infinity,1)-functor (infinity,1)-category]]
+[[!redirects (infinity,1)-functor (infinity,1)-categories]]
+
+
 [[!redirects functor (infinity,1)-category]]
 [[!redirects (∞,1)-functor categories]]
 [[!redirects functor (∞,1)-categories]]
@@ -265,3 +271,6 @@ The theorem about equivalences is in
 
 [[!redirects (∞,1)-functor (∞,1)-category]]
 [[!redirects (∞,1)-functor (∞,1)-categories]]
+
+[[!redirects infinity1-category of infinity1-functors]]
+
