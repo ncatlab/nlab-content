@@ -40,7 +40,7 @@ Let $X$ be an $n$-dimensional [[topological manifold]], and let $\omega$ be a [[
 
 *  The coordinates on $U$ define a [[diffeomorphism]] between $U$ and an open subset of $\mathbf{R}^n$ that we\'ll also call $U$; so use the latter formula to interpret
    \[ \label{absvalposs} \int_U \omega = \int_U \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,\]
-   where the right-hand side is now interpreted in the usual way as as integral with respect to [[Lebesgue measure]].
+   where the right-hand side is now interpreted in the usual way as an integral with respect to [[Lebesgue measure]].
 
 *  Using the partition of unity, write
    $$ \omega = \sum_U w_U \omega_U ,$$
@@ -50,8 +50,9 @@ Let $X$ be an $n$-dimensional [[topological manifold]], and let $\omega$ be a [[
    or more generally,
    $$ \int_E \omega = \sum_U \int_U \chi_E(x^1,\ldots,x^n) w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n $$
    for $E$ a measurable subset of $X$ and $\chi_E$ the [[characteristic function]] of $E$.
+   This makes $\omega$ into a [[measure]] $\omega : E \mapsto \int_E \omega$ on $X$.
 
-_A priori_, this definition depends not only on the particular coordinate patches chosen but also on the partition of unity chosen to go with them.  Furthermore, the defintion could be done just as easily (perhaps even more easily) for something other than an $n$-pseudoform.  But the (perhaps surprising) fact that justifies it all is this:
+_A priori_, this definition depends not only on the particular coordinate patches chosen but also on the partition of unity chosen to go with them.  Furthermore, the definition could be done just as easily (perhaps even more easily) for something other than an $n$-pseudoform.  But the (perhaps surprising) fact that justifies it all is this:
 
 +-- {: .num_theorem #IntegrationTheorem}
 ###### Theorem
