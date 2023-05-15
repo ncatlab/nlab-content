@@ -199,6 +199,8 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 
 ## Related concepts
 
+* [[center of a category]], [[center of an additive category]]
+
 * [[Drinfeld double]]
 
 
