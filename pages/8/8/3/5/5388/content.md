@@ -72,10 +72,9 @@ While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topolo
 
 * [[Lorentzian manifold]]
 
-
 * [[rapidity]]
 
-* [[Galilelan group]]
+* [[Galilean group]]
 
 * [[Minkowski spacetime]]
 
