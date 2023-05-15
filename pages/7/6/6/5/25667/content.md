@@ -39,7 +39,7 @@ See also discussion under ["Twisted and vector-valued forms"](https://ncatlab.or
 
 ### Correspondence to untwisted forms given orientation
 
-For a pseudoform $\omega$ on an [[oriented manifold]] with orientation $o$, multiplying $\omega$ by the [[pseudoscalar field]] $1_o \in \Psi$ whose value at orientation $o$ is everywhere $1$ gives an untwisted form $\omega_o = 1_o \wedge \omega$. On oriented manifolds, one often conflates a pseudoform $\omega$ with the corresponding untwisted form $\omega_o$.
+For a pseudoform $\omega$ on an [[oriented manifold]] with orientation $o$, multiplying $\omega$ by the [[pseudoscalar field]] $1_o$ whose value at orientation $o$ is everywhere $1$ gives an untwisted form $\omega_o = 1_o \wedge \omega$. On oriented manifolds, one often conflates a pseudoform $\omega$ with the corresponding untwisted form $\omega_o$.
 
 
 ### Integration
