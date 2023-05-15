@@ -71,7 +71,7 @@ differential forms]].
 
 ## Examples
 
-The [[volume form|volume]] (or area, or length) on an $n$-manifold is an $n$-pseudoform.  On an [[oriented manifold]] one often speaks of a [[volume form]] as an untwisted $n$-form
+The [[volume form|volume]] (or area, or length) on an $n$-manifold is an $n$-pseudoform.  On an [[oriented manifold]] one often speaks of a [[volume form]] as an untwisted $n$-form.
 
 The absolute value of an untwisted $n$-form is an $n$-pseudoform,
 as is the absolute value of an $n$-pseudoform.
