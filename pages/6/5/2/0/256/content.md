@@ -66,7 +66,9 @@ leads to the conclusion that $k \pi_1 = k \pi_1 \sigma$, or $\pi_1 = \pi_2: c \t
 
 * **endomorphism**, [[automorphism]]
 
-* **endomorphism monoid**, [[endomorphism ring]], [[endomorphism monoid object]]
+* [[endomorphism monoid]], [[endomorphism ring]], [[endomorphism monoid object]]
+
+* [[center of a category]], [[center of an additive category]]
 
 * [[endomorphism operad]]
 
@@ -75,6 +77,8 @@ leads to the conclusion that $k \pi_1 = k \pi_1 \sigma$, or $\pi_1 = \pi_2: c \t
 * [[endofunctor]]
 
 * [[EI-category]]
+
+
 
 
 [[!redirects endomorphism]]
