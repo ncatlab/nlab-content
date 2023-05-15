@@ -652,8 +652,8 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   [webpage](https://nyuad.nyu.edu/en/events/2023/may/quantum-information-quantum-matter.html)
 
 \begin{imagefromfile}
-    "file_name": "CQTS-QuantumConference-2023.png",
-    "width": 350,
+    "file_name": "CQTS-QuantumConference-2023b.png",
+    "width": 700,
     "unit": "px",
     "margin": {
         "top": -20,
