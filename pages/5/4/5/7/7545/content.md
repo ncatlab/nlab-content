@@ -5,7 +5,7 @@
 
 ## Idea
 
-It\'s well known that one can integrate a [[differential form]] on an [[orientation|oriented]] [[submanifold]].  Less well known (but also true), one can integrate a [[differential pseudoform]] on an pseudoriented (transversely oriented) submanifold.  But in classical differential geometry, one also sees forms that can be integrated on *unoriented* submanifolds.
+It\'s well known that one can integrate a [[differential form]] on an [[orientation|oriented]] [[submanifold]].  Less well known (but also true), one can integrate a [[differential pseudoform]] on an [[pseudoriented]] (transversely oriented) submanifold.  But in classical differential geometry, one also sees forms that can be integrated on *unoriented* submanifolds.
 
 I call these _absolute_ forms.  The term 'absolute' suggests a lack of additional required structure, in this case some sort of orientation on the domain of integration.  It also suggests [[absolute value]], since many of the examples from classical differential geometry involve absolute values.  Indeed, we can define the absolute value of a form or a pseudoform to be an absolute form, although not every absolute form arises in this way.
 
