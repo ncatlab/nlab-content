@@ -17,9 +17,13 @@
 ## Idea
  {#Idea}
 
-Where the [center of a general cateory](center#OfCategories) is just a [[commutative monoid]] (the [[endomorphism monoid]] of its [[identity functor]] formed in the [[functor category]]), for [[additive categories]] this commutative monoid carries the further [[structure]] of a [[commutative ring]]: the [[endomorphism ring]] of its [[identity functor]].
+Where the [[center of a category]] is in general just a [[commutative monoid]] (the [[endomorphism monoid]] of its [[identity functor]] formed in the [[functor category]]), for [[additive categories]] this commutative monoid carries the further [[structure]] of a [[commutative ring]]: the [[endomorphism ring]] of its identity functor.
 
-In general, the construction of centers is not [[functor|functorial]] (except with respect to [[equivalence of categories]]); but it is functorial in some important special circumstances, such as certain reconstruction theorems. 
+## Properties
+
+* In general, the construction of centers is not [[functor|functorial]] (except with respect to [[equivalence of categories]]); but it is functorial in some important special circumstances, such as certain reconstruction theorems. 
+
+> (namely?)
 
 ## Examples
 
@@ -44,13 +48,13 @@ which shows that $\alpha_M$ is multiplication by $r$. \end{proof}
 
 ## Related concepts
 
-* [[center]]
+* [[center]], [[center of a category]]
 
 * [[Drinfeld center]]
 
 ## References
 
-Early occurence of the definition of the center of an additive category: 
+Early occurrence of the definition of the center of an additive category: 
 
 * [[Pierre Gabriel]], section 5.d of: *[[Des catégories abéliennes]]*, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __90__ (1962) 323-448 &lbrack;[numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0)&rbrack;
 
