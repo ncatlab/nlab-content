@@ -17,30 +17,57 @@ As a model for an [[(∞,1)-category]] a [[simplicially enriched category]] may 
 
 ## The Quillen equivalence between the Joyal model structure and the Dwyer–Kan–Bergner model structure
 
-Our notation follows ([Bergner](#Bergner)).
+Our notation partly follows [Bergner (2018)](#Bergner18).
 
-There is a [[Quillen equivalence]] (due to Joyal (unpublished) and Lurie)
-$$SC \stackrel{\overset{\mathfrak{C}}{\leftarrow}}{\underset{\tilde N}{\to}} sSet.$$
+There is a [[Quillen equivalence]] (due to Joyal (unpublished) and [Lurie (2009), Thm. 2.2.5.1 & p. 91](#Lurie09)):
 
-Here $SC$ is the model category of [[simplicial categories]]
-equipped with the [[Dwyer–Kan–Bergner model structure]]
-and $sSet$ denotes the [[Joyal model structure]] on [[simplicial sets]].
+$$
+ sSet\text{-}Cat
+ \underoverset
+   {\underset{\tilde N}{\longrightarrow}}
+   {\overset{\mathfrak{C}}{\longleftarrow}}
+   {\;\;\; \bot \;\;\;} 
+ sSet.
+$$
 
-The functor $\tilde N$ is the [[homotopy coherent nerve]] functor.
-The functor $\mathfrak{C}$ is its [[left adjoint functor]].
+where:
+
+* $SC$ denotes the category of [[sSet-enriched categories]]
+equipped with the [[Dwyer–Kan–Bergner model structure]],
+
+* $sSet$ denotes the [[Joyal model structure]] on [[simplicial sets]],
+
+* $\tilde N$ denotes the [[homotopy coherent nerve]] functor,
+
+* $\mathfrak{C}$ denotes its [[left adjoint functor]].
 
 In particular, for $C$ a fibrant [[SSet]]-[[enriched category]], the canonical morphism
-$$\mathfrak{C}(\tilde N(C)) \to C$$
-given by the [[counit]] of the above adjunction
-is derived, hence a [[Dwyer–Kan weak equivalence]] of [[simplicial categories]].
+
+$$
+  \mathfrak{C}\big(\tilde N(C)\big) 
+  \longrightarrow 
+  C
+$$
+
+given by the [[adjunction counit|counit]] of the above adjunction is derived, hence a [[Dwyer–Kan weak equivalence]] of [[simplicial categories]].
 
 For $S$ any [[simplicial set]], the canonical morphism
-$$S \to \tilde N(R(\mathfrak{C}(S)))$$
-is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets,
-where $R$ denotes the [[fibrant replacement]] functor in the [[Dwyer–Kan–Bergner model structure]].
 
-For more details, see, for example, [§7.8](#Bergner)
-or [Dugger–Spivak](#DuggerSpivak.Rigidification), or [Dugger-Spivak](#DuggerSpivak.Mapping).
+$$
+  S 
+  \longrightarrow
+  \tilde N\Big(
+    R\big(
+      \mathfrak{C}(S)
+    \big)
+  \Big)
+$$
+
+is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets,
+where $R$ denotes a [[fibrant replacement]] functor in the [[Dwyer–Kan–Bergner model structure]].
+
+For more details, see, for example, [Bergner (2018), §7.8](#Bergner)
+or [Dugger & Spivak 2009a](#DuggerSpivak.Rigidification), or [Dugger & Spivak 2009b](#DuggerSpivak.Mapping).
 
 
 ## Relations
@@ -100,11 +127,11 @@ The [[Quillen equivalence]] between the [[model structure for quasi-categories]]
 
 A detailed discussion of the map from quasi-categories to $SSet$-categories is in 
 
-* [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
-{#DuggerSpivak.Rigidification}
+* {#DuggerSpivak.Rigidification} [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
 
-* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
-{#DuggerSpivak.Mapping}
+
+* {#DuggerSpivak.Mapping} [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
+
 
 More along these lines is in 
 
@@ -112,16 +139,16 @@ More along these lines is in
 
 An expository account is in Section 7.8
 
-* [[Julie Bergner]], _The homotopy theory of (∞,1)-categories_, London Mathematical Society Student Texts 90, 2018.
-{#Bergner}
+* {#Bergner18} [[Julie Bergner]], _The homotopy theory of (∞,1)-categories_, London Mathematical Society Student Texts 90, 2018.
+
 
 See also
 
-* [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
- {#Hinich}
+* {#Hinich} [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
+ 
 
 An introduction and overview of the relation between quasi-categories and simplicial categories is in section 1.1.5 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+* {#Lurie09} [[Jacob Lurie]], _[[Higher Topos Theory]]_ (2009)
 
 The details are in section 2.2
