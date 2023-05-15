@@ -120,3 +120,6 @@ ordinary notion of orientation described above.
 
 [[!redirects orientation structure]]
 [[!redirects orientation structures]]
+
+[[!redirects oriented manifold]]
+[[!redirects orientable manifold]]
