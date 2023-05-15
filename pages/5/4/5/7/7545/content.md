@@ -118,3 +118,8 @@ Apparently absolute $p$-forms (at least if continuous) are the same as even $p$-
 [[!redirects absolute forms]]
 [[!redirects differential absolute form]]
 [[!redirects differential absolute forms]]
+
+[[!redirects absolute value of a form]]
+[[!redirects absolute value of a differential form]]
+[[!redirects absolute value of a pseudoform]]
+[[!redirects absolute value of a pseudo-form]]
