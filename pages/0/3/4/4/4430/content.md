@@ -1,13 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The __center of an [[additive category]]__ $A$ is the [[endomorphism ring]] of the [[identity functor]] $Id_A$ (cf. with [[center]]). 
+Where the [center of a general cateory](center#OfCategories) is just a [[commutative monoid]] (the [[endomorphism monoid]] of its [[identity functor]] formed in the [[functor category]]), for [[additive categories]] this commutative monoid carries the further [[structure]] of a [[commutative ring]]: the [[endomorphism ring]] of its [[identity functor]].
 
-In general, the center is not functorial, but it is functorial in some important special circumstances, like some reconstruction theorems in the commutative setup.  (It is also functorial on [[equivalence of categories|equivalences]].)
+In general, the construction of centers is not [[functor|functorial]] (except with respect to [[equivalence of categories]]); but it is functorial in some important special circumstances, such as certain reconstruction theorems. 
 
 ## Examples
 
@@ -38,8 +50,9 @@ which shows that $\alpha_M$ is multiplication by $r$. \end{proof}
 
 ## References
 
-An early occurence of the definition of the center of an additive category is in section 5.d of 
+Early occurence of the definition of the center of an additive category: 
 
-* [[Pierre Gabriel]], [[Des catégories abéliennes]], Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __90__ (1962), 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
+* [[Pierre Gabriel]], section 5.d of: *[[Des catégories abéliennes]]*, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __90__ (1962) 323-448 &lbrack;[numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0)&rbrack;
+
 
 [[!redirects center of an abelian category]]
