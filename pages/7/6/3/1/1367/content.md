@@ -159,7 +159,7 @@ This canonical morphism
 \[
   \label{TheNerveComparisonEquivalence}
   N\big([C,A]^\circ\big) 
-    \xrightarrow{\phantom{-}\sim\phantom{-}}
+    \xrightarrow{\phantom{---}}
   Func\big(
     N(C)
     ,\,  
@@ -233,17 +233,30 @@ are related by a [[natural equivalence]] of $\infty$-functors:
 
 \end{corollary}
 \begin{proof}
-Consider the following diagram:
+\label{ProofOfCompatibilityOfModelPresentationWithPrecomposition}
+Consider the following diagram of [[simplicial sets]] (the outer ones being [[quasi-categories]]):
 
 
-\begin{tikzcd}[sep=30pt]
+\begin{tikzcd}[
+  row sep=30pt,
+  column sep=20pt
+]
   N\big(
     [C,A]^\circ
   \big)
   \ar[dr, hook]
-  \ar[drrr]
-  \ar[ddd, "{ N(\mathbb{R}f^\ast) }"{description} ]
-  &
+  \ar[rrrr]
+  \ar[ddddd, "{ N(\mathbb{R}f^\ast) }"{description} ]
+  &[-10pt]
+  &&
+  &[-35pt]
+  \mathrm{Func}\big(
+    N(C)
+    ,\,
+    N(A^\circ)
+  \big)
+  \ar[dl, hook]
+  \ar[ddddd, "{ N(f)^\ast }"{description}]
   \\
   &
   N\big(
@@ -255,44 +268,56 @@ Consider the following diagram:
   \mathrm{Func}\big(
     N(C)
     ,\,
-    N(A^\circ)
+    N(A)
   \big)
-  \ar[dd, "{ N(f)^\ast }"{description} ]
+  \ar[dd, "{ N(f)^\ast }"{description}]
   \\
   \\
-  N\big(
-    [C',A]^\circ
-  \big)
-  \ar[d, hook]
   &
   N\big(
     [C',A]
   \big)
   \ar[rr]
-  \ar[dl, "{ N(Q) }"{description}]
-  \ar[d, "{\mathrm{id}}"{description}, "{\ }"{name=t, swap}]
+  \ar[d, "{ N(Q) }"{description}]
+  \ar[dr, "{\mathrm{id}}"{description}, "{\ }"{name=t, swap}]
   &&
+  \mathrm{Func}\big(
+    N(C')
+    ,\,
+    N(A)
+  \big)
+  \\
+  {}
+  &
+  N\big(
+    [C',A]
+  \big)
+  \ar[r, "{ \mathrm{id} }"{description} ]
+  \ar[to=t, Rightarrow]
+  &
+  N\big(
+    [C',A]
+  \big) 
+  \ar[ur]
+  && 
+  \\[-10pt]
+  N\big(
+    [C',A]^\circ
+  \big)
+  \ar[ur, hook]
+  \ar[rrrr]
+  &&&&
   \mathrm{Func}\big(
     N(C')
     ,\,
     N(A^\circ)
   \big)
-  \\
-  N\big(
-    [C',A]
-  \big)
-  \ar[r, "{ \mathrm{id} }"{description}]
-  \ar[to=t, Rightarrow, shorten=20pt]
-  &
-  N\big(
-    [C',A]
-  \big) 
-  \ar[urr]
+  \ar[uul, hook]
 \end{tikzcd}
 
-Here $Q$ denotes any [[functorial factorization|functorial]] [[cofibrant replacement]] (which exists, by [this Example](functorial+factorization#InCombinatorialModelCategories), since $[C',A]$ is a [[combinatorial model category]] by the above discussion) and the double arrow denotes  (the image under the hc-nerve of) the [[natural transformation]] with components the resolution equivalences $Q(\text{-}) \xrightarrow{\;\sim\;} (\text{-})$. 
+Here $Q$ denotes any [[functorial factorization|functorial]] [[cofibrant replacement]] (which exists, by [this Example](functorial+factorization#InCombinatorialModelCategories), since $[C',A]$ is a [[combinatorial model category]] by the above discussion) and the double arrow denotes  (the image under the hc-nerve of) the [[natural transformation]] with components the corresponding resolution equivalences $Q(\text{-}) \xrightarrow{\;\sim\;} (\text{-})$ (which are components of a [[natural transformation]], by the nature of [[functorial factorization]]). 
 
-The left square commutes by the construction of right derived functors of [[right Quillen functors]] (eg. [this Prop.](Introduction+to+Homotopy+Theory#ComputationOfLeftRightDerivedFunctorsViaResolutions)) and the square on the right is the [[naturality square]] of the comparison map discussed [above](#ModelCategoryPresentation).
+The left square commutes by the construction of right derived functors of [[right Quillen functors]] (eg. [this Prop.](Introduction+to+Homotopy+Theory#ComputationOfLeftRightDerivedFunctorsViaResolutions)) and the middle square is the [[naturality square]] of the comparison map discussed [above](#ModelCategoryPresentation). The remaining outer squares just exhibit the restriction to [[bifibrant objects]], as discussed above.
  
 The total diagram is of the claimed from. It just remains to see that the 2-morphism filling it is really an equivalence, but this follows by Prop. \ref{EquivalencesDetectedOnObjects}.
 \end{proof}
