@@ -77,8 +77,8 @@ See also
 [[!redirects pseudo-scalar representations]]
 
 [[!redirects pseudoscalar field]]
-[[!redirects pseudoscalar field]]
+[[!redirects pseudoscalar fields]]
 [[!redirects pseudo-scalar field]]
-[[!redirects pseudo-scalar field]]
+[[!redirects pseudo-scalar fields]]
 
 
