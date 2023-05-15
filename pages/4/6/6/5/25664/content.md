@@ -22,15 +22,20 @@ For a [[submanifold]] $U$ of a [[manifold]] $X$, a __pseudoorientation__ of $U$ 
 An equivalent, more explicitly geometrical definition justifies the synonym _transverse orientation_:
 
 \begin{definition}
-For a [[submanifold]] $U$ of a [[manifold]] $X$, a __pseudoorientation__ of $U$ is an [[orientation]] of the [[vector bundle]] $T_X U / T_U U$, a bundle on $U$ whose [[fiber]] at each $x \in U$ is the [[quotient vector space|quotient]] of the [[tangent space]] on $X$ at $x$ by the tangent space on $U$ at $x$.
+For a [[submanifold]] $U$ of a [[manifold]] $X$, a __pseudoorientation__ of $U$ is an [[orientation]] of the [[vector bundle]] $T_U(X) / T_U(U)$, a bundle on $U$ whose [[fiber]] at each $x \in U$ is the [[quotient vector space|quotient]] $T_x(X) / T_x(U)$ of the [[tangent space]] to $X$ at $x$ by the tangent space to $U$ at $x$.
 \end{definition}
 
 
 ## Properties
 
-A pseudoorientation is precisely the added structure one needs in order to [[integration of differential forms|integrate]] over $U$ a $k$-[[pseudoform]] on $X$. This is much like how if one has instead an (untwisted) $k$-[[differential form|form]] on $X$ and wants to integrate it over $U$, one needs an orientation of $U$. For details, see [[integration of differential forms]].
+### Relation to orientations
 
 When one has an [[orientation]] of the containing manifold $X$, that gives a correspondence between orientations and pseudoorientations for any submanifold $U$. As a result, many treatments conflate orientations with pseudoorientations.
+
+
+### Integration
+
+A pseudoorientation is precisely the added structure one needs in order to [[integration of differential forms|integrate]] over $U$ a $k$-[[pseudoform]] on $X$. This is much like how if one has instead an (untwisted) $k$-[[differential form|form]] on $X$ and wants to integrate it over $U$, one needs an orientation of $U$. For details, see [[integration of differential forms]].
 
 
 ## Examples
@@ -41,6 +46,10 @@ When $k = n$, a local [[orientation]] of $X$ is the same thing as a local orient
 
 This canonical pseudoorientation is what makes the integration of $n$-[[pseudoforms]] the most fundamental kind of integration on a [[manifold]], as discussed at [[integration of differential forms]].
 
+
+## Related concepts
+
+* An [[absolute differential form]] can be integrated on an entirely unoriented [[submanifold]], with neither an [[orientation]] nor a pseudoorientation.
 
 
 ## References
