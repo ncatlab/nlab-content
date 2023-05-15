@@ -54,7 +54,7 @@ The second condition is equivalent to:
 
 The definition is due to
 
-* [[Yves Diers]]. _Catégories localisables_. Diss. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambrésis (1977)
+* [[Yves Diers]]. _Catégories localisables_. Diss. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambrésis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
 
 
 [[!redirects locally multipresentable]]
