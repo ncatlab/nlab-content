@@ -30,7 +30,7 @@ Generally, a _tensor_ is an [[element]] of a [[tensor product]].
 
 Traditionally this is considered in [[differential geometry]] for the following case:
 
-for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their spaces of [[sections]] and $C(X)$ the [[associative algebra]] of [[functions]] on $X$, a **[[rank]]-$(p,q)$ tensor** or **tensor field** on $X$ is an element of the [[tensor product of modules]] over $C(X)$
+for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their [[spaces of sections]] and $C(X)$ the [[associative algebra]] of [[functions]] on $X$, a **[[rank]]-$(p,q)$ tensor** or **tensor field** on $X$ is an element of the [[tensor product of modules]] over $C(X)$
 
 $$
   t \in \Gamma(T X)^{\otimes_{C(X)}^p} \otimes_{C(X)} \Gamma(T^* X)^{\otimes^q_{C(X)}}
