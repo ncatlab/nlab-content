@@ -4,15 +4,25 @@
 
 ## Idea
 
-For a $k$-[[submanifold]] $U$ of an $n$-[[manifold]] $X$, an _orientation_ of $U$ is an [[orientation]] of $U$ itself as a $k$-manifold. A _pseudoorientation_, by contrast, can be thought of as an orientation of the remaining $n-k$ dimensions of how $X$ sits around $U$.
+A _pseudoorientation_ of a [[submanifold]] $U \subset X$ is an orientation of how the ambient [[manifold]] $X$ lies around the submanifold.
+
+This contrasts with an [[orientation]] of the submanifold itself: neither a pseudoorientation nor an orientation for a submanifold necessarily provides the other, unless one has an orientation for the ambient manifold.
 
 An orientation of $U$ may be visualized with a set of arrows lying within $U$. A pseudoorientation is properly visualized instead with a set of arrows passing through $U$, or circulating around it.
+
+A pseudoorientation is sometimes also called a __transverse orientation__, and the term is also spelled __pseudo-orientation__ or __pseudorientation__.
 
 
 ## Definition
 
 \begin{definition}
-Given a $k$-[[submanifold]] $U$ of an $n$-[[manifold]] $X$, a __pseudoorientation__ of $U$ is a map that, for each point $a$ on $U$, takes a local [[orientation]] of $X$ at $a$ to a local orientation of $U$ at $a$, continuously in $a$ and taking opposite orientations to opposite orientations.
+For a [[submanifold]] $U$ of a [[manifold]] $X$, a __pseudoorientation__ of $U$ is a map that, for each point $a$ on $U$, takes a local [[orientation]] of $X$ at $a$ to a local orientation of $U$ at $a$, continuously in $a$ and taking opposite orientations to opposite orientations.
+\end{definition}
+
+An equivalent, more explicitly geometrical definition justifies the synonym _transverse orientation_:
+
+\begin{definition}
+For a [[submanifold]] $U$ of a [[manifold]] $X$, a __pseudoorientation__ of $U$ is an [[orientation]] of the [[vector bundle]] $T_X U / T_U U$, a bundle on $U$ whose [[fiber]] at each $x \in U$ is the [[quotient vector space|quotient]] of the [[tangent space]] on $X$ at $x$ by the tangent space on $U$ at $x$.
 \end{definition}
 
 
