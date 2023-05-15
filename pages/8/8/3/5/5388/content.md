@@ -30,14 +30,15 @@ One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $
 ## Properties
 
 ### Connected components
+ {#ConnectedComponents}
 
-As a [[smooth manifold]], the Lorentz group $O(d-1,1)$ has four [[connected components]]. The connected component of the identity is the the proper orthochronous group $SO^+(d-1,1)$. The other three components are
+As a [[smooth manifold]], the Lorentz group $O(3,1)$ has four [[connected components]]. The connected component of the identity is the the proper orthochronous group $SO^+(3,1)$. The other three components are
 
-1. $SO^+(d-1,1)\cdot P$
+1. $SO^+(3,1)\cdot P$
 
-1. $SO^+(d-1,1)\cdot T$
+1. $SO^+(3,1)\cdot T$
 
-1. $SO^+(d-1,1)\cdot P T$,
+1. $SO^+(3,1)\cdot P T$,
 
 where, as [[matrices]]
 
