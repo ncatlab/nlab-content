@@ -25,7 +25,7 @@ are _generated_ from these, in some sense.
 
 We need the following general terminology:
 
-\begin{definition}
+\begin{definition}\label{CellsAndInjectives}
 **(cells and injectives)**
 \linebreak
 Let $C$ be a [[category]] with all [[colimits]] and let $S \subset Mor(C)$ a [[class]] of [[morphisms]]. We write:
