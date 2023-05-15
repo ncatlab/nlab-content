@@ -126,6 +126,8 @@ Much else to be discussed...
 
   * [[universal vector bundle]]
 
+  * [[rank]] of a vector bundle
+
   * [[dual vector bundle]]
 
   * [[module bundle]]
