@@ -46,6 +46,8 @@ $$
 $$
 which shows that $\alpha_M$ is multiplication by $r$. \end{proof}
 
+Two rings whose categories of modules are equivalent as additive categories are said to be [[Morita equivalence|Morita equivalent]].  As a consequence of the above result, Morita equivalent *commutative* rings are isomorphic.
+
 ## Related concepts
 
 * [[center]], [[center of a category]]
