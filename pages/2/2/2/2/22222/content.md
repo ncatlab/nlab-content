@@ -168,7 +168,7 @@ See there for more details.
 
 The notion of multi-adjoints is credited by [Osmond 20a](#Osmond2020a), [20b](#Osmond2020a) to:
 
-* [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977).
+* [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
 
 * [[Yves Diers]], _Cat&eacute;gories localement multipr&eacute;sentables_, Archiv der Mathematik 34.1 (1980), pp. 344–356.
 
