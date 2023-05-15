@@ -16,7 +16,9 @@
 
 ## Definition 
 
+\begin{definition}\label{BalancedCategory}
 A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] morphism is an [[isomorphism]].  
+\end{definition}
 
 
 ## Remarks 
@@ -28,9 +30,18 @@ A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] 
 
 ## Examples and non-examples 
 
-* Any [[topos]] (in fact, any [[pretopos]]) is balanced.  Of course, this includes [[Set]]. A [[quasitopos]], however, need not be.
+\begin{example}\label{SetIsBalanced}
+  The category [[Set]] is balanced (Def. \ref{BalancedCategory}).
+\end{example}
+More generally:
+\begin{example}
+Any [[topos]] and in fact any [[pretopos]] is balanced.  
+\end{example}
+\begin{remark}
+ A [[quasitopos]], however, need *not* be balanced.
+\end{remark}
 
-* Some algebraic categories, such as [[Grp|the category of groups]] (see [here](https://ncatlab.org/nlab/show/regular+monomorphism#Examples) and [here](https://ncatlab.org/nlab/show/Grp#eq)), are balanced.
+* Some algebraic categories, such as [[Grp|the category of groups]] (see [here](regular+monomorphism#Examples) and [here](https://ncatlab.org/nlab/show/Grp#eq)), are balanced.
 
 * Any [[abelian category]] is balanced. An [[additive category]] need not be; for example in the category of [[torsion subgroup]]-free abelian groups, each nonzero homomorphism $\mathbb{Z} \to \mathbb{Z}$ is both monic and epic. 
 
