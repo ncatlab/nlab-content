@@ -1,3 +1,5 @@
+# Contents
+* this block creates the table of contents, leave as is
 {: toc}
 
 ## Idea
@@ -39,7 +41,12 @@ See also discussion under ["Twisted and vector-valued forms"](https://ncatlab.or
 
 ### Correspondence to untwisted forms given orientation
 
-For a pseudoform $\omega$ on an [[oriented manifold]] with orientation $o$, multiplying $\omega$ by the [[pseudoscalar field]] $1_o$ whose value at orientation $o$ is everywhere $1$ gives an untwisted form $\omega_o = 1_o \wedge \omega$. On oriented manifolds, one often conflates a pseudoform $\omega$ with the corresponding untwisted form $\omega_o$.
+For a pseudoform $\omega$ on an [[oriented manifold]] with orientation $o$, multiplying $\omega$ by the [[pseudoscalar field]] $1_o$ whose value at orientation $o$ is everywhere $1$ gives an untwisted form $\omega_o = 1_o \wedge \omega$. Similarly an untwisted form $\alpha$ corresponds to a pseudoform $1_o \wedge \alpha$.
+
+As a result, on an [[orientable]] manifold, any pseudoform $\omega$ corresponds to two untwisted forms, one for each orientation, which differ only in sign. Conversely, on an orientable manifold any untwisted form corresponds to two pseudoforms differing only in sign.
+Even when the manifold is [[nonorientable]], this correspondence holds locally because each point has an orientable neighborhood.
+
+When working on a manifold with a chosen orientation, many authors conflate a pseudoform $\omega$ with the corresponding untwisted form $\omega_o$ and vice versa.
 
 
 ### Integration
