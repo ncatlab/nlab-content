@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] $\mathbb{R}$ or [[complex numbers]] $\mathbb{C}$, sometimes the [[quaternions]] $\mathbb{H}$. Hence it is a [[field (physics)|field]] encoded by a [[field bundle]] which is a [[trivial line bundle]].
+In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] $\mathbb{R}$ or [[complex numbers]] $\mathbb{C}$, sometimes the [[quaternions]] $\mathbb{H}$. Hence it is a [[field (physics)|field]] whose [[field bundle]] (of which the [[field (physics)|field]] is a [[section]]) is a [[trivial line bundle]].
 
 One fundamental (complex, charged) scalar field is seen in [[experiment]], the _[[Higgs field]]_, which is one component of the [[standard model of particle physics]]. A widely hypothesized scalar field is the [[inflaton]] field in [[model (physics)|models]] of [[cosmic inflation]], which however remains speculative and might in any case be an effective compound of more fundamental fields.
 
