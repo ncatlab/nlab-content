@@ -258,6 +258,6 @@ Discussion in the abstract context of [[cohesion]] and [[differential cohomology
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-
 [[!redirects integral of differential forms]]
 [[!redirects integrals of differential forms]]
+[[!redirects integration of forms]]
