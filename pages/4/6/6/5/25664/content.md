@@ -1,5 +1,3 @@
-# Pseudoorientation
-
 ## Idea
 
 For a $k$-[[submanifold]] $U$ of an $n$-[[manifold]] $X$, an _orientation_ of $U$ is an [[orientation]] of $U$ itself as a $k$-manifold. A _pseudoorientation_, by contrast, can be thought of as an orientation of the remaining $n-k$ dimensions of how $X$ sits around $U$.
