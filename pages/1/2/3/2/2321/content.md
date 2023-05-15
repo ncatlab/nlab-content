@@ -24,6 +24,7 @@ The basic concept is for [[vector spaces]], and the remainder are defined in ter
 +-- {: .num_defn #basis}
 ###### Definition
 
+**_(orientation of a vector space)_**
 Given an [[ordered field]] $K$ and a [[vector space]] $V$ over $K$ of dimension $n$ (a [[natural number]]), an __orientation__ of $V$ is a choice of one of the two [[equivalence classes]] of [[ordered basis|ordered bases]] of $V$, where two bases are considered equivalent if the [[transformation matrix]] from one to the other has [[positive number|positive]] [[determinant]].
 =--
 
@@ -36,6 +37,7 @@ A fancier way to say the same is
 +-- {: .num_defn #bigwedge}
 ###### Definition
 
+**_(orientation of a vector space)_**
 For $V$ a vector space of dimension $n$, an __orientation__ of $V$ is an equivalence class of nonzero elements of the [[line]] $\bigwedge^n V$, the $n$th [[alternating power]] of $V$, where two such elements are considered equivalent when either (hence each) is a positive multiple of the other.
 =--
 
@@ -46,7 +48,8 @@ Assuming that $K$ is the field of [[real numbers]] or something like it, we can 
 +-- {: .num_defn #bundle}
 ###### Definition
 
-For $X$ a [[manifold]] and $V \to X$ a [[vector bundle]] of [[rank]] $n$, an __orientation__ on $V$ is an [[equivalence class]] of [[trivialization|trivializations]] of the [[line bundle]] $\bigwedge^k V$ that is obtained by associating to each [[fiber]] of $V$ its $k$th [[alternating power]].
+**_(orientation of a vector bundle)_**
+For $X$ a [[manifold]] and $V \to X$ a [[vector bundle]] of [[rank]] $k$, an __orientation__ on $V$ is an [[equivalence class]] of [[trivialization|trivializations]] of the [[line bundle]] $\bigwedge^k V$ that is obtained by associating to each [[fiber]] of $V$ its $k$th [[alternating power]].
 =--
 
 Equivalently for a [[smooth manifold]] this is an equivalence class of an everywhere non-vanishing element of $\bigwedge^k_{C^\infty(X)} \Gamma(V)$, which may be considered the [[sign]] of the element.
@@ -54,12 +57,13 @@ Equivalently for a [[smooth manifold]] this is an equivalence class of an everyw
 +-- {: .num_defn #manifold}
 ###### Definition
 
+**_(orientation of a manifold)_**
 For $X$ a [[manifold]] of dimension $n$, an __orientation__ of $X$ is an orientation of the [[tangent bundle]] $T X$ (or [[cotangent bundle]] $T^* X$).
 =--
 
 This is equivalently a choice of everywhere non-vanishing [[differential form]] on $X$ of degree $n$; the orientation may be considered the [[sign]] of the $n$-form (and the $n$-form\'s [[absolute value]] is a [[pseudoform|pseudo]]-$n$-form).
 
-A vector space always has an orientation, but a manifold or bundle may not.  If an orientation exists, $V$ (or $X$) is called __orientable__.  If $X$ is [[connected space]] and $V$ (or $X$) is orientable, then there are exactly $2$ orientations; more generally, the entire bundle is orientable iff the restriction to each [[connected component]] is orientable, and then the number of orientations is $2^k$, where $k$ is the number of orientable components.  (Or we can always say that the number of orientations is $2^k 0^m$, where now $m$ is also the number of nonorientable components.
+A vector space always has an orientation, but a manifold or bundle may not.  If an orientation exists, $V$ (or $X$) is called __orientable__.  If $X$ is a [[connected space]] and $V$ (or $X$) is orientable, then there are exactly $2$ orientations; more generally, the entire bundle is orientable iff the restriction to each [[connected component]] is orientable, and then the number of orientations is $2^k$, where $k$ is the number of orientable components.  (Or we can always say that the number of orientations is $2^k 0^m$, where now $m$ is also the number of nonorientable components.)
 
 
 ## Properties
@@ -117,9 +121,15 @@ ordinary notion of orientation described above.
 
 [[!redirects orientable]]
 [[!redirects orientability]]
+[[!redirects nonorientable]]
+[[!redirects nonorientability]]
+[[!redirects non-orientable]]
+[[!redirects non-orientability]]
 
 [[!redirects orientation structure]]
 [[!redirects orientation structures]]
 
 [[!redirects oriented manifold]]
 [[!redirects orientable manifold]]
+[[!redirects nonorientable manifold]]
+[[!redirects non-orientable manifold]]
