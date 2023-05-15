@@ -71,15 +71,19 @@ differential forms]].
 
 ## Examples
 
+### Top-dimensional examples
+
 The [[volume form|volume]] (or area, or length) on an $n$-manifold is an $n$-pseudoform.  On an [[oriented manifold]] one often speaks of a [[volume form]] as an untwisted $n$-form.
 
-The absolute value of an untwisted $n$-form is an $n$-pseudoform,
-as is the absolute value of an $n$-pseudoform.
+The [[absolute value of a form|absolute value]] of an untwisted $n$-form (on an $n$-manifold) is an $n$-pseudoform,
+as is the [[absolute value of a pseudoform|absolute value]] of an $n$-pseudoform.
+
+Alternatively, both of these examples can be thought of as [[absolute differential forms]]. On an $n$-manifold, an absolute $n$-form is equivalent to an $n$-pseudoform.
 
 
 ### Electromagnetism
 
-In electromagnetism, the current form $j$, measuring flux of charge,
+In [[electromagnetism]], the current form $j$, measuring flux of [[electric charge|charge]],
 is a 2-pseudoform.  This can be seen by considering how one integrates
 it: you need a 2-surface together with a notion of which way _through_
 the surface is forward and which is backward, or in other words
@@ -94,11 +98,12 @@ through the surface.
 Traditionally in electromagnetism these look very similar because one
 freely converts an orientation to a pseudoorientation and vice versa.
 The tell when one does so is that it relies on an arbitrary choice of
-orientation of 3-dimensional space, namely the right-hand rule.
+orientation of the ambient 3-dimensional space, namely the [[right-hand rule]].
+Comparing the right-hand rule to a left-hand rule, one gets the same physical meaning by integrating $j$ over the same surface with the same [[pseudoorientation]] (hence opposite [[orientations]]), confirming that the pseudoorientation is primary and $j$ is properly a pseudoform.
+With $B$, one needs the same orientation on the surface (hence opposite pseudoorientations), confirming that the orientation is primary and $B$ is an untwisted form.
 
 
 ## References
-
 
 Many useful explanations by [[Toby Bartels]] and [[John Baez]] in
 [this long Usenet
