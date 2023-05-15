@@ -106,7 +106,6 @@ Let
 [[right adjoints preserve limits|Since]]$\;N$ is a [[right adjoint]] it [[preserved limit|preserves]] [[products]] so that we obtain a morphism
 
 \[
-  \label{}
   N(C) \times N\big([C,A]\big) 
    \xrightarrow{\; \sim \;}
   N\big(C \times [C,A]\big)
