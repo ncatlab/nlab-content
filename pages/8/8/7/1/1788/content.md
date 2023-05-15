@@ -1,4 +1,6 @@
 
+[[CQTS-QuantumConference-2023b.png:file]]
+
 \begin{corollary}
 In the above situation, let $f \,\colon\, C' \longrightarrow C$ be an [[sSet]]-[[enriched functor]] [[sSet-enriched categories]]. Then the two versions of [[base change]] along $f$
 
@@ -85,14 +87,28 @@ $$
   }
 $$
 
-\begin{tikzcd}[sep=30pt]
+
+
+\begin{tikzcd}[
+  row sep=30pt,
+  column sep=20pt
+]
   N\big(
     [C,A]^\circ
   \big)
   \ar[dr, hook]
-  \ar[drrr]
-  \ar[ddd, "{ N(\mathbb{R}f^\ast) }"{description} ]
-  &
+  \ar[rrrr]
+  \ar[ddddd, "{ N(\mathbb{R}f^\ast) }"{description} ]
+  &[-10pt]
+  &&
+  &[-35pt]
+  \mathrm{Func}\big(
+    N(C)
+    ,\,
+    N(A^\circ)
+  \big)
+  \ar[dl, hook]
+  \ar[ddddd]
   \\
   &
   N\big(
@@ -104,69 +120,52 @@ $$
   \mathrm{Func}\big(
     N(C)
     ,\,
-    N(A^\circ)
+    N(A)
   \big)
-  \ar[dd]
+  \ar[dd, "{ N(f)^\ast }"{description}]
   \\
   \\
-  N\big(
-    [C',A]^\circ
-  \big)
-  \ar[d, hook]
   &
   N\big(
     [C',A]
   \big)
   \ar[rr]
-  \ar[dl, "{ N(Q) }"{description}]
-  \ar[d, "{\mathrm{id}}"{description}, "{\ }"{name=t, swap}]
+  \ar[d, "{ N(Q) }"{description}]
+  \ar[dr, "{\mathrm{id}}"{description}, "{\ }"{name=t, swap}]
   &&
   \mathrm{Func}\big(
     N(C')
     ,\,
-    N(A^\circ)
+    N(A)
   \big)
   \\
+  {}
+  &
   N\big(
     [C',A]
   \big)
-  \ar[r, hook]
-  \ar[to=t, Rightarrow, shorten=20pt]
+  \ar[r, "{ \mathrm{id} }"{description} ]
+  \ar[to=t, Rightarrow]
   &
   N\big(
     [C',A]
   \big) 
-  \ar[urr]
-\end{tikzcd}
-
-\begin{tikzcd}[sep=30pt]
-  N\big(
-    [C,A]^\circ
-  \big)
-  \ar[d, "{ N\big( \mathbb{R}f^\ast \big) }"]
-  &&
-  \mathrm{Func}\big(
-    N(C)
-    ,\,
-    N(A^\circ)
-  \big)
-  \ar[dd, "{ N(f)^\ast }"]
-  \\ 
+  \ar[ur]
+  && 
+  \\[-10pt]
   N\big(
     [C',A]^\circ
-  \big)  
-  \ar[d, hook]
-  \\
-  N\big(
-    [C',A]
   \big)
-  \ar[uurr, Rightarrow, shorten=50pt, "{ \sim }"{sloped}]
-  &&
+  \ar[ur, hook]
+  \ar[rrrr]
+  &&&&
   \mathrm{Func}\big(
     N(C')
     ,\,
     N(A^\circ)
   \big)
+  \ar[uul, hook]
 \end{tikzcd}
+
 
 
