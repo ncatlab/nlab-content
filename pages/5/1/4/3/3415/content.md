@@ -222,9 +222,13 @@ See also
 
 * [[Denis-Charles Cisinski]], _Alg&#232;bre homotopique et cat&#233;gories sup&#233;rieures_, course notes, 2009, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/coursinftycat.pdf).
 
-A model structure for [[(infinity,2)-sheaves]] with values in quasicategories is discussed in
+On a model structure for [[(infinity,2)-sheaves]] with values in quasicategories:
 
 * {#Meadows15} [[Nicholas Meadows]], _The Local Joyal Model Structure_ ([arXiv:1507.08723](http://arxiv.org/abs/1507.08723))
+
+On [[transferred model structure|transfer]] of the Joyal model structure to [[reduced simplicial sets]], modelling quasi-categories with a single object:
+
+* [Burke (2021)](model+structure+on+reduced+simplicial+sets#Burke21)
 
 [[!redirects Joyal model structure]]
 [[!redirects Joyal model structure on simplicial sets]]
