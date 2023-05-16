@@ -18,7 +18,7 @@
 ## Idea
  {#Idea}
 
-Where the [[center of a category]] is in general just a [[commutative monoid]] (the [[endomorphism monoid]] of its [[identity functor]] formed in the [[functor category]]), for [[additive categories]] this commutative monoid carries the further [[structure]] of a [[commutative ring]]: the [[endomorphism ring]] of its identity functor.
+Where the [[center of a category]] is in general just a [[commutative monoid]] (the [[endomorphism monoid]] of its [[identity functor]] formed in the [[functor category]]), for [[additive categories]] this commutative monoid carries the further [[structure]] of a [[commutative ring]]: the [[endomorphism ring]] of its identity functor.  (In fact this is also true for [[Ab-enriched categories]], which are more general.)
 
 ## Properties
 
@@ -62,13 +62,22 @@ For any [[field]] $k$ suppose $A$ is a commutative $k$-algebra.  Let $A Proj$ be
 Let $X$ be a compact Hausdorff space.  By [[Serre-Swan theorem|Swan's theorem]], [[Vect(X)|$Vect(X)$]] is [[equivalence of categories|equivalent]], as a $\mathbb{C}$-linear additive category, to $C(X) Proj$.  Thus the center of $Vect(X)$ is isomorphic to $C(X)$.
 \end{proof}
 
-\begin{corollary}
+\begin{corollary}\label{CompactHausdorffSpacefromVect}
 Suppose $X$ and $Y$ are [[compact Hausdorff spaces]] such that [[Vect(X)|$Vect(X)$]] and [[Vect(X)|$Vect(Y)$]] are equivalent as $\mathbb{C}$-linear categories. Then $X$ and $Y$ are [[homeomorphism|homeomorphic]].
 \end{corollary}
 
 \begin{proof}
 By Prop. \ref{CenterOfVectXisCX}, if $Vect(X)$ and $Vect(Y)$ are equivalent as $\mathbb{C}$-linear categories then $C(X)$ and $C(Y)$ are isomorphic as complex algebras.  The [[Gelfand-Naimark theorem]] implies that when $X$ is compact Hausdorff, it is homeomorphic to the set of algebra [[homomorphisms]] $C(X) \to \mathbb{C}$, given the [[topology of pointwise convergence]].   Thus the isomorphism of algebras $C(X) \cong C(Y)$ implies that $X$ and $Y$ are homeomorphic.  (Note that we did not need to show $C(X) \cong C(Y)$ as $C^\ast$-algebras here, but this follows.)
 \end{proof}
+
+\begin{remark}
+Note that it is much easier to recover $C(X)$ and thus $X$ starting from $\Vect(X)$ as a [[symmetric monoidal category|symmetric monoidal]] $\mathbb{C}$-linear category, since then the endomorphism algebra of the unit object, the trivial line bundle over $X$, is $C(X)$.   
+\end{remark}
+
+\begin{remark} 
+An analogue of Prop. \ref{CompactHausdorffSpacefromVect} also holds for real vector bundles: the center of the $\mathbb{R}$-linear additive category of real vector bundles over $X$ is the algebra of continuous real-valued functions on $X$, and from this we can recover $X$, either by using the real version of the Gelfand-Naimark theorem, or by complexifying this algebra and using the usual complex version of the Gelfand-Naimark theorem.   
+\end{remark}
+
 
 ## Related concepts
 
