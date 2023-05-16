@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -42,7 +43,16 @@ $$
   Grp
 $$ 
 
-is really their *[[coproduct]]* in [[Grp]].
+is really their *[[coproduct]]* in [[Grp]]:
+
+$$
+  \star_i G_i \;\simeq\; \amalg_i G_i
+  \;\;\;
+  \in
+  \;
+  Grp 
+  \,.
+$$
 
 More generally, if each of the given groups is equipped with a [[homomorphism]] 
 
@@ -76,7 +86,26 @@ $$
   Grp
 $$ 
 
-is the corresponding [[pushout]] (or generally the [[colimit]]) in the [[category]] [[Grpd]]
+is the corresponding [[pushout]] 
+
+$$
+  G_1 \star_A G_2
+  \;\;
+  \simeq
+  \;\;
+  G_1 \overset{H}{\amalg} G_2
+  \;\;
+  \in
+  \;
+  Grp
+$$
+
+
+(or generally the [[colimit]]) in the [[category]] [[Grpd]], hence the unique group, up to [[isomorphism]], which
+
+1. receives [[homomorphisms]] $q_i$ from the $G_i$ such that their [[precompositions]] with the respective $\iota_i$ all agree,
+
+2. is [[universal property|universal with this property]] in that for any other group $Q$ receiving such homomorphisms $f_i$ these factor through the respective $q_i$ via a single and unique comparison homomorphism, shown as a dashed arrow in the following diagram:
 
 \begin{tikzcd}[sep=25pt]
   & 
@@ -100,11 +129,6 @@ is the corresponding [[pushout]] (or generally the [[colimit]]) in the [[categor
   \ar[urr, bend right=20, "{ f_2 }"{description}]
 \end{tikzcd}
 
-hence the unique group, up to [[isomorphism]], which
-
-1. receives [[homomorphisms]] $q_i$ from the $G_i$ such that their [[precompositions]] with the respective $\iota_i$ all agree,
-
-2. is [[universal property|universal with this property]] in that for any other group $Q$ receiving such homomorphisms $f_i$ these factor through the respective $q_i$ via a single and unique comparison homomorphism (shown as a dashed arrow in the above diagram).
 
 ## Examples
 
@@ -113,6 +137,38 @@ hence the unique group, up to [[isomorphism]], which
 $$
   F(S) \;\simeq\; \star_S \mathbb{Z}
   \,.
+$$
+An abstract way to understand this elementary fact is to notice that $F$ is the [[free construction]] [[left adjoint]] to the [[forgetful functor]] which sends a [[group]] $G$ to its [[underlying]] [[set]] $U(G)$:
+$$
+  F \,\colon\,Set \rightleftarrows Grp \,\colon\, U
+  \,.
+$$
+But since 
+
+1. [[left adjoints preserve colimits]] and hence in particular [[preserved colimit|preserve]] [[coproducts]], 
+
+1. every set is the [[coproduct]] of copies of the [[singleton set]] $\ast \,\in\,$ [[Set]] indexed by its [[elements]] $s \in S$, 
+
+1. the [[free group]] on the [[singleton set]] is the additive group of [[integers]]
+
+we have
+$$
+  \begin{array}{l}
+    F(S)
+    \\
+    \;\simeq\;
+    F\Big(\underset{s \in S}{\sqcup} \ast\Big)
+    \\
+    \;\simeq\;
+    \underset{s \in S}{\coprod} F(\ast)
+    \\
+    \;\simeq\;
+    \underset{s \in S}{\coprod} \mathbb{Z}    
+    \\
+    \;\simeq\;
+    \underset{s \in S}{\star} \mathbb{Z}
+    \,.
+  \end{array}
 $$
 \end{example}
 
