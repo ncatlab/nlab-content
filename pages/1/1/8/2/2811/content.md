@@ -35,11 +35,11 @@ Discussion of [[equivariant ordinary cohomology]] ([[Bredon cohomology]]) over t
 
 The [[Adams spectral sequence]] for [[Real cobordism cohomology]]:
 
-* {#Kriz01} Po Hu, [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 &lbrack;<a href="https://doi.org/10.1016/S0040-9383(99)00065-8">doi:10.1016/S0040-9383(99)00065-8</a>, [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf)&rbrack;
+* {#Kriz01} [[Po Hu]], [[Igor Kriz]], *Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence*, Topology **40** (2001) 317-399 &lbrack;<a href="https://doi.org/10.1016/S0040-9383(99)00065-8">doi:10.1016/S0040-9383(99)00065-8</a>, [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf)&rbrack;
 
 More on [[Real  cobordism cohomology]]:
 
-* Po Hu, [[Igor Kriz]], *Some Remarks on Real and Algebraic Cobordism*, K-Theory **22** (2001) 335–366 &lbrack;[pdf](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/43150/10977_2004_Article_321295.pdf?sequence=1), [doi:10.1023/A:1011196901303](http://dx.doi.org/10.1023/A:1011196901303)&rbrack;
+* [[Po Hu]], [[Igor Kriz]], *Some Remarks on Real and Algebraic Cobordism*, K-Theory **22** (2001) 335–366 &lbrack;[pdf](https://deepblue.lib.umich.edu/bitstream/handle/2027.42/43150/10977_2004_Article_321295.pdf?sequence=1), [doi:10.1023/A:1011196901303](http://dx.doi.org/10.1023/A:1011196901303)&rbrack;
 
 For the use of [[category theory]] in [[integration]], see
 
