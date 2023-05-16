@@ -245,7 +245,7 @@ Textbook account for the Kan model structure on reduced simplicial sets:
 The analog (in fact [[transferred model structure|transfer]]) of the [[Joyal model structure]] for reduced simplicial sets, modelling [[quasi-categories]] with a single object:
 
 
-* {#Burke21} Nigel Burke, §2 of: *Homotopy Theory of Monoids and Group Completion*, PhD thesis, Cambridge (2021) &lbrack;[cam:1810/325358](https://www.repository.cam.ac.uk/handle/1810/325358), [pdf](https://www.repository.cam.ac.uk/bitstreams/1f6603cb-e442-491c-8478-f86c4e03f05d/download)&rbrack;
+* {#Burke21} Nigel Burke, §2 of: *Homotopy Theory of Monoids and Group Completion*, PhD thesis, Cambridge (2021) &lbrack;[doi](https://doi.org/10.17863/CAM.72815), [cam:1810/325358](https://www.repository.cam.ac.uk/handle/1810/325358), [pdf](https://www.repository.cam.ac.uk/bitstreams/1f6603cb-e442-491c-8478-f86c4e03f05d/download)&rbrack;
 
 
 
