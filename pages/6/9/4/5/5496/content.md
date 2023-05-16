@@ -1,15 +1,6 @@
-[[!redirects Jocelyn Ireson-Paine]]
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://cseweb.ucsd.edu/~goguen/images/jgoguen.jpg" alt="Photo of Joseph Goguen" /></div>
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
-+--{: .hide}
-[[!include contents]]
-=--
-=--
-=--
+<div style="float:right;margin:10px 10px 10px 10px;"><img src="http://cseweb.ucsd.edu/~goguen/images/jgoguen.jpg" alt="Photo of Joseph Goguen" /></div>
+
 
 [[computer science|Computer scientist]] and applied [[category theory|category theorist]], 28th June 1941 &ndash; 3rd July 2006. His theoretical work includes the algebraic theory of abstract data types, initial model semantics, [[institution|institutions]], order sorted algebra, parameterized programming, database integration, hidden algebra, [[sheaf semantics of concurrent interacting objects|sheaf semantics of interacting objects]], and algebraic semiotics. Very important to computer science was his r&ocirc;le in founding algebraic specification, including abstract data types, modules and module composition, and the OBJ language family. Goguen wrote [[A Categorical Manifesto|_A Categorical Manifesto_]], which tried to encourage the use of category theory in computer science.
 
@@ -25,8 +16,9 @@
 
 Introducing [[indexed categories]] as a tool of [[categorical semantics]] in [[computer science]], with fundamental results such as the existence and construction of [(co)limits in Grothendieck constructions](Grothendieck+construction#CoLimitsInAGrothendieckConstruction):
 
-* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
+* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]], [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. Indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
 
 
 category: people
+
 [[!redirects Joseph A. Goguen]]
