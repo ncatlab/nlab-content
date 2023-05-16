@@ -254,6 +254,12 @@ For the special case of pseudofunctors with values in [[groupoids]], a [[model c
 
 * [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247)).
 
+Dicussion of further examples:
+
+Integral model structure for graupal Segal-space actions:
+
+* [[Yonatan Harpaz]], [[Matan Prasma]], *An integral model structure and truncation theory for coherent group actions*,  Isr. J. Math. **221** (2017) 511–561 &lbrack;[arXiv:1506.04117](https://arxiv.org/abs/1506.04117), [doi:10.1007/s11856-017-1551-6](https://doi.org/10.1007/s11856-017-1551-6)&rbrack;
+
 
 [[!redirects Grothendieck construction of model categories]]
 [[!redirects model category-theoretic Grothendieck construction]]
