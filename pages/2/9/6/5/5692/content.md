@@ -52,11 +52,11 @@ There is a [[model category]] structure on $sSet_0$ (def. \ref{ReducedSimplicial
 
 * and cofibrations
 
-are those in the [[classical model structure on simplicial sets]] (i.e. the [[weak homotopy equivalences]] and the [[monomorphisms]], respectively.)
+are those whose [[underlying]] maps are such in the [[classical model structure on simplicial sets]] (i.e. the [[simplicial weak homotopy equivalences]] and the [[monomorphisms]], respectively).
 
 =--
 
-This appears as ([Goerss & Jardine, Ch V, Prop. 6.2](#GoerssJardine)).
+This appears as [Goerss & Jardine, Ch V, Prop. 6.2](#GoerssJardine).
 
 
 ## Properties
@@ -80,7 +80,7 @@ In particular:
 +-- {: .proof}
 ###### Proof
 
-The first statment appears as ([Goerss & Jardine, Ch. V, Lemma 6.6.](#GoerssJardine)). The second is an immediate consequence. It appears as ([Goerss & Jardine, Ch. V, Corollary 6.8](#GoerssJardine)).
+The first statment is proven in [Goerss & Jardine, Ch. V, Lemma 6.6.](#GoerssJardine). The second is an immediate consequence, stated there as as [Goerss & Jardine, Ch. V, Corollary 6.8](#GoerssJardine).
 
 =--
 
@@ -211,7 +211,8 @@ $$
 The [[simplicial loop space]] functor $G$ and the [[simplicial classifying space]]-construction $\overline{W}(-)$ constitute a [[Quillen equivalence]]
 
 $$
-  (G \dashv \overline{W}) \colon 
+  (G \dashv \overline{W}) 
+  \,\colon\, 
     sGr 
       \underoverset
         {\underset{\overline{W}}{\longrightarrow}}
@@ -237,8 +238,14 @@ This appears as ([Goerss-Jardine, ch. V prop. 6.3](#GoerssJardine)).
 
 ## References
 
-Textbook account:
-
+Textbook account for the Kan model structure on reduced simplicial sets:
 
 * {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Chapter V in: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+
+The analog (in fact [[transferred model structure|transfer]]) of the [[Joyal model structure]] for reduced simplicial sets, modelling [[quasi-categories]] with a single object:
+
+
+* {#Burke21} Nigel Burke, §2 of: *Homotopy Theory of Monoids and Group Completion*, PhD thesis, Cambridge (2021) &lbrack;[cam:1810/325358](https://www.repository.cam.ac.uk/handle/1810/325358), [pdf](https://www.repository.cam.ac.uk/bitstreams/1f6603cb-e442-491c-8478-f86c4e03f05d/download)&rbrack;
+
+
 
