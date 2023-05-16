@@ -40,9 +40,7 @@ A [[topological space]] $X$ is $T_0$ precisely when the [[unit of an adjunction|
 ###### Proposition
 **(Kolmogorov quotient)**
 
-Let $(X,\tau)$ be a [[topological space]]. Consider the [[relation]] on the underlying set
-by which $x_1 \sim x_1$ precisely if neighther $x_i$ has an [[open neighbourhood]] not containing the other.
-This is an [[equivalence relation]]. The [[quotient topological space]] $X \to X/\sim$ by this
+Let $(X,\tau)$ be a [[topological space]]. Consider the [[relation]] on the underlying set by which $x_1 \sim x_1$ precisely if neither $x_i$ has an [[open neighbourhood]] not containing the other. This is an [[equivalence relation]]. The [[quotient topological space]] $X \to X/\sim$ by this
 equivalence relation is a $T_0$-space. 
 
 This construction is the reflector exhibiting Kolmogorov spaces as a [[reflective subcategory]] of the [[category]] [[Top]] of all topological spaces.
