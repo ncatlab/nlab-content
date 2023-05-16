@@ -75,7 +75,7 @@ Other references:
 
 * [[Lukáš Vokřínek]], _Homotopy weighted colimits_, [arXiv:1201.2970](https://arxiv.org/abs/1201.2970).
 
-* [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_, Journal of Pure and Applied Algebra 214:7 (2010), 1193–1199.  [doi](https://doi.org/10.1016/j.jpaa.2009.10.006).
+* [[Nicola Gambino]], *Weighted limits in simplicial homotopy theory*, Journal of Pure and Applied Algebra **214** 7 (2010) 1193–1199 &lbrack;[doi:10.1016/j.jpaa.2009.10.006](https://doi.org/10.1016/j.jpaa.2009.10.006)&rbrack;
 
 * [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_, [arXiv:math/0610194](https://arxiv.org/abs/math/0610194).
 
