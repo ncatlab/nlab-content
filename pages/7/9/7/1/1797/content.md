@@ -25,11 +25,11 @@
 
 ## Idea
 
-An adjoint equivalence is a more "coherent" or "structured" notion of [[equivalence]], in which the [[2-morphism|2-]][[isomorphism]]s relating composites to identities are required to satisfy [[coherence law]]s (the [[zigzag identities]] for an [[adjunction]]).
+In [[category theory]], the notion of *adjoint equivalence* is a more "coherent" or "structured" notion of [[equivalence of categories]], in which the [[2-morphism|2-]][[isomorphisms]] relating composites to identities are required to satisfy [[coherence laws]] (namely the [[zigzag identities]] for an [[adjunction]]).
 
 ## Definition
 
-An **adjoint equivalence** between [[categories]] is an [[adjunction]] $f\dashv g$ in which the [[unit of an adjunction|unit]] $\eta$ and [[unit of an adjunction|counit]] $\varepsilon$ are [[natural isomorphisms]].  It follows that it is an [[equivalence of categories]].
+An **adjoint equivalence** between [[categories]] is an pair of [[adjoint functors]] $f\dashv g$ in which the [[unit of an adjunction|unit]] $\eta$ and [[unit of an adjunction|counit]] $\varepsilon$ are [[natural isomorphisms]].  It follows in particular that each of $f,g$ constitute an [[equivalence of categories]].
 
 There is an identical definition internal to any [[2-category]], which reproduces the above notion when applied in [[Cat]].
 
