@@ -20,7 +20,7 @@ A normed division algebra is a [[not-necessarily associative algebra]] over the 
 
 1. [[unital]] (there is an element $1$ such that $1a = a = a1$ for all $a$),
 
-1. a [[division algebra]] $\big( \text{i.e.}\, (a \cdot b = 0) \Rightarrow (a = 0 \,\text{or}\, b = 0) \big)$, and  
+1. a [[division algebra]] $\big( \text{i.e.}\, (a \cdot b = 0) \Rightarrow (a = 0 \,\text{ or }\, b = 0) \big)$, and  
 
 1. a [[normed algebra]] such that $\|a b\| = \|a\| \|b\|$ for all $a,b$.
 
@@ -36,7 +36,7 @@ It turns out (by [[Hurwitz' theorem]]) that over the [[real numbers]] there are 
 
 In this sense real normed division algebras may be thought of as a natural generalization of the [[real numbers]] and the [[complex numbers]]. 
 
-Moreover, if one regards the [[real numbers]] as a [[star-algebra]] with trivial [[anti-involution]], then each step in the above sequence is given by applying the [[Cayley-Dickson construction]]. (While the process of applying the [[Cayley-Dickson construction]] continues, next with the[[sedenions]], these and the following are no longer [[division algebras]].)
+Moreover, if one regards the [[real numbers]] as a [[star-algebra]] with trivial [[anti-involution]], then each step in the above sequence is given by applying the [[Cayley-Dickson construction]]. (While the process of applying the [[Cayley-Dickson construction]] continues, next with the [[sedenions]], these and the following are no longer [[division algebras]].)
 
 This classification of real normed division algebras is closely related to various other systems of [[universal exceptionalism|exceptional]] structures in [[mathematics]] and [[physics]]: 
 
