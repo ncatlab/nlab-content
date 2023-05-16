@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###coContext###
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
@@ -90,10 +90,10 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 ([Bondal-vdBerg 03](#BondalvdBerg03), [BFN 08, proof of prop. 3.24](#BFN08))
 
-### Cocontinuity and adjoints
+### In indexed monoidal categories
  {#CocontinuityAndAdjoints}
 
-Suppose that the monoidal fibration satisfies the [[motivic yoga]] ([[Wirthmüller context]]-form) in that:
+Suppose an [[indexed monoidal category]] which satisfies the [[motivic yoga]] ([[Wirthmüller context]]-form) in that:
 
 1. the corresponding [[pseudofunctor]] takes values in [[adjoint functors]]
 
@@ -401,6 +401,282 @@ $$
 $$
 \end{proof}
 
+The following proposition still assumes the "motivic yoga" [above](#CocontinuityAndAdjoints), but in fact we need to assume the [[Beck-Chevalley condition]] only for the very special squares of this form:
+$$
+  \array{
+    \mathcal{X} \times \mathcal{Y}
+    &\overset{ f \times id }{\longrightarrow}&
+    \mathcal{X}' \times \mathcal{Y}
+    \\
+    \mathllap{{}^{ pr_{\mathcal{X}} }}
+    \Big\downarrow 
+      && 
+    \Big\downarrow
+    \\
+    \mathcal{X} 
+      &\underset{\;\;\; f \;\;\;}{\longrightarrow}&
+    \mathcal{X}'
+  }
+$$ 
+
+\begin{proposition}
+\label{PullAndPushAlongProductsOfMaps}
+Given 
+$$
+\array{
+  f \,\colon\, \mathcal{X} &\longrightarrow& \mathcal{X}'
+\\
+g \,\colon\, \mathcal{Y} &\longrightarrow& \mathcal{Y}'
+}
+$$
+
+we have
+
+1. for $\mathscr{V} \,\in\, \mathbf{C}_{\mathcal{X}'}$ and $\mathscr{W} \,\in\, \mathbf{C}_{\mathcal{Y}'}$ [[natural isomorphism]] of this form:
+   \[
+     \label{PullbackOfExternalTensorAlongProductOfMaps}
+     (f \times g)^\ast (\mathscr{V} \boxtimes \mathscr{W})
+     \;\simeq\;
+     \big(f^\ast \mathscr{V}\big)
+     \boxtimes
+     \big(g^\ast \mathscr{W}\big)
+   \]
+
+1. for $\mathscr{V} \,\in\, \mathbf{C}_{\mathcal{X}}$ and $\mathscr{W} \,\in\, \mathbf{C}_{\mathcal{Y}}$ [[natural isomorphism]] of this form:
+
+   \[
+     \label{PushforwardOfExternalTensorAlongProductOfMaps}
+     (f \times g)_! (\mathscr{V} \boxtimes \mathscr{W})
+     \;\simeq\;
+     \big(f_! \mathscr{V}\big)
+     \boxtimes
+     \big(g_! \mathscr{W}\big)
+     \mathrlap{\,.}
+   \]
+
+\end{proposition}
+(The first statement is essentially immediate from the fact that pullback $(-)^*$ is assumed to be strong closed, but the second statement is a not quite so immediate; it is mentioned without proof in [Shulman (2012), p. 624](#Shulman12).)
+\begin{proof}
+For the first statement (eq:PullbackOfExternalTensorAlongProductOfMaps) we have the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{array}{ll}
+      (f \times g)^\ast
+      \big(
+        \mathscr{V} 
+        \,\boxtimes\,
+        \mathscr{W}
+      \big)
+      \\
+      \;\simeq\;
+      (f \times g)^\ast
+      \Big(
+        \big(
+          \mathrm{pr}_{\mathbf{Y}}^\ast 
+          \mathscr{V}
+        \big)
+        \,\otimes_{\mathbf{Y} \times \mathbf{Y}'}\,
+        \big(
+          \mathrm{pr}_{\mathbf{Y}'}^\ast 
+          \mathscr{W}
+        \big)        
+      \Big)
+      &
+      \text{by definition}
+      \\
+      \;\simeq\;
+      \big(
+        (f \times g)^\ast
+        \mathrm{pr}_{\mathbf{Y}}^\ast
+        \mathscr{V}
+      \big)
+      \otimes_{\mathbf{X} \times \mathbf{X}'}
+      \big(
+        (f \times g)^\ast
+        \mathrm{pr}_{\mathbf{Y}'}^\ast
+        \mathscr{W}
+      \big)
+      &
+      \text{since pullback is strong closed}
+      \\
+      \;\simeq\;
+      \big(
+        \mathrm{pr}_{\mathbf{X}}^\ast
+        f^\ast
+        \mathscr{V}
+      \big)
+      \otimes_{\mathbf{X} \times \mathbf{X}'}
+      \big(
+        \mathrm{pr}_{\mathbf{X}'}^\ast
+        g^\ast
+        \mathscr{W}
+      \big)
+      &
+      \text{by pseudo-functoriality}
+      \\
+      \;\simeq\;
+      \big(f^\ast \mathscr{V}\big)
+      \boxtimes
+      \big(g^\ast \mathscr{W}\big)
+      &
+      \text{by definition.}
+    \end{array}
+$$
+
+For the second statement (eq:PushforwardOfExternalTensorAlongProductOfMaps), first notice the special case where one of the maps is an [[identity morphism]] and the corresponding external tensor factor is the [[tensor unit]]; and notice here that external tensoring with the tensor unit is just pullback to a product (since pullback along the other leg preserves tensor units, being strong monoidal):
+$$
+  \mathscr{V} \boxtimes \mathbb{1}
+  \;\simeq\;
+  (pr_{\mathcal{X}})^\ast \mathscr{V}
+  \,.
+$$
+This way we first find
+$$
+  \begin{array}{ll}
+    (f \times id)_!
+    \big(
+      \mathscr{V} \boxtimes \mathbb{1}
+    \big)
+    \\
+    \;\simeq\;
+    (f \times id)_!
+    \big(
+      pr_{\mathcal{X}}^\ast \mathscr{V}
+    \big)    
+    &
+    \text{ by the above comment }
+    \\
+    \;\simeq\;
+    pr_{\mathcal{X}'}^\ast\big(f_! \mathscr{V}\big)
+    &
+    \text{ using the BC-condition }
+    \\
+    \;\simeq\;
+    (f_! \mathscr{V}) \boxtimes \mathbb{1}
+    &
+    \text{ by the above comment }
+    \,.
+  \end{array}
+$$
+from which the general case is obtained as follows:
+$$
+  \begin{array}{ll}
+    (f \times g)_!
+    \big(
+      \mathscr{V}
+      \boxtimes
+      \mathscr{W}
+    \big)
+    \\
+    \;\simeq\;
+    (f \times g)_!
+    \big(
+      (\mathscr{V} \boxtimes \mathbb{1})
+      \otimes
+      (\mathbb{1} \boxtimes \mathscr{W})
+    \big)
+    &
+    \text{by the above comment}
+    \\
+    \;\simeq\;
+    (f \times g)_!
+    \Big(
+      \big(
+      (id \times g)^\ast
+      (\mathscr{V} \boxtimes \mathbb{1})
+      \big)
+      \otimes
+      (\mathbb{1} \boxtimes \mathscr{W})
+    \Big)
+    &
+    \text{by first claim and strong monoidalness}
+    \\
+    \;\simeq\;
+    (f \times id)_!
+    (id \times g)_! 
+    \Big(
+      \big(
+      (id \times g)^\ast
+      (\mathscr{V} \boxtimes \mathbb{1})
+      \big)
+      \otimes
+      \big(\mathbb{1} \boxtimes \mathscr{W}\big)
+    \Big)
+    &
+    \text{by pseudo-functoriality}
+    \\
+    \;\simeq\;
+    (f \times id)_!
+    \Big(
+      \big(\mathscr{V} \boxtimes \mathbb{1}\big)
+      \otimes
+      \big(
+        (id \times g)_! 
+        \big(\mathbb{1} \boxtimes \mathscr{W}\big)
+      \big)
+    \Big)
+    &
+    \text{by projection formula}
+    \\
+    \;\simeq\;
+    (f \times id)_!
+    \Big(
+      \big(\mathscr{V} \boxtimes \mathbb{1}\big)
+      \otimes
+      \big(
+        \mathbb{1} \boxtimes (g_!\mathscr{W})
+      \big)
+    \Big)
+    &
+    \text{by the special case above}
+    \\
+    \;\simeq\;
+    (f \times id)_!
+    \Big(
+      \big(\mathscr{V} \boxtimes \mathbb{1}\big)
+      \otimes
+      (f \times id)^\ast
+      \big(
+        \mathbb{1} \boxtimes (g_!\mathscr{W})
+      \big)
+    \Big)
+    &
+    \text{by first claim and strong monoidalness}
+    \\
+    \;\simeq\;
+    \Big(
+      (f \times id)_!
+      \big(\mathscr{V} \boxtimes \mathbb{1}\big)
+    \Big)
+      \otimes
+      \big(
+        \mathbb{1} \boxtimes (g_!\mathscr{W})
+      \big)
+    &
+    \text{by projection formula}
+    \\
+    \;\simeq\;
+    \big(
+      (f_!\mathscr{V}) \boxtimes \mathbb{1}
+    \big)
+    \otimes
+    \big(
+      \mathbb{1} \boxtimes (g_!\mathscr{W})
+    \big)
+    &
+    \text{by the special case above}
+    \\
+    \;\simeq\;
+    (f_! \mathscr{V})
+    \boxtimes
+    (g_! \mathscr{W})
+    &
+    \text{by the above comment}.
+  \end{array}
+$$
+\end{proof}
+
+\linebreak
+
 
 ## Examples
 
@@ -416,17 +692,20 @@ $$
 
 ## References
 
-Textbook accounts:
+Textbook accounts concerning the [[external tensor product of vector bundles]]:
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
-
-For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_.
 
 Discussion in the context of categories of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) algebraic geometry: 
 
 * {#BondalvdBerg03} [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. **3** 1 (2003) 1-36 &lbrack;[arXiv:math/0204218](https://arxiv.org/abs/math/0204218)&rbrack;
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+
+For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_, such as
+
+* {#Shulman12} [[Mike Shulman]], *Enriched indexed categories*, Theory Appl. Categ. **28** (2013) 616-695 &lbrack;[arXiv:1212.3914](http://arxiv.org/abs/1212.3914), [tac:28-21](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html)&rbrack;
+
 
 [[!redirects external tensor products]]
 
