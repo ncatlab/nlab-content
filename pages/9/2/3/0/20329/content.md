@@ -80,6 +80,15 @@ A [[Spin^c-group]] is a central product of a [[spin group]] with the [[circle gr
 Moreover, in [[Riemannian geometry]] and [[spin geometry]] one considers the central products [[Sp(n).Sp(1)]] and [[Spin(n).Spin(m)]].
 
 
+## Related concepts
+
+* [[direct product of groups]]
+
+* [[semidirect product group]]
+
+* [[free product of groups]]
+
+* [[central extension of groups]]
 
 ## References
 
