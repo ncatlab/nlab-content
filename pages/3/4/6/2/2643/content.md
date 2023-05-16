@@ -47,16 +47,15 @@ _Ugh. Lousy start on something that would be nice to understand properly. Maybe 
 
 Among the original treatises on the theory of rigged Hilbert spaces is
 
-* [[John Roberts]], _Rigged Hilbert spaces in quantum mechanics_ , Communications in Mathematical Physics, 3 (1966)
+* [[John Roberts]], _Rigged Hilbert spaces in quantum mechanics_, Communications in Mathematical Physics, *3*  (1966)  98–119. doi:[10.1007/BF01645448](https://doi.org/10.1007/BF01645448)
 
 A unification of various inequivalent approaches is claimed to be achieved in 
 
-* M. Gadella1 and F. G&#243;mez, _A Unified Mathematical Formalism for the Dirac
-Formulation of Quantum Mechanics_  Foundations of Physics, Vol. 32, No. 6, (2002)
+* M. Gadella, F. Gómez, _A Unified Mathematical Formalism for the Dirac Formulation of Quantum Mechanics_, Foundations of Physics *32* (2002) 815–869, doi:[10.1023/A:1016069311589](https://doi.org/10.1023/A:1016069311589)
 
 See also
 
-* S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics _ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
+* S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics_ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
 
 Rigged Hilbert spaces are also known as [[Gelfand triple]]s, written about in his series on generalized functions
 
