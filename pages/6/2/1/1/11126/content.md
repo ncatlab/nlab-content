@@ -109,10 +109,13 @@ Suppose an [[indexed monoidal category]] which satisfies the [[motivic yoga]] ([
        \\
        \Big\downarrow\mathrlap{{}^{f}}
        &&
-       \mathllap{^{f^\ast}}\Big\uparrow
-       \Big\downarrow\mathrlap{{}^{f_!}}
+       \mathllap{^{f_!}}\Big\downarrow
+       \dashv
+       \Big\uparrow\mathrlap{{}^{f^\ast}}
        \\
-       \mathcal{Y} &\mapsto& \mathbf{C}_{\mathcal{Y}}
+       \mathcal{Y} 
+       &\mapsto& 
+       \mathbf{C}_{\mathcal{Y}}
      }
    $$
 
@@ -554,7 +557,7 @@ $$
     (f_! \mathscr{V}) \boxtimes \mathbb{1}
     &
     \text{ by the above comment }
-    \,.
+    \,,
   \end{array}
 $$
 from which the general case is obtained as follows:
@@ -615,7 +618,7 @@ $$
       \big)
     \Big)
     &
-    \text{by projection formula}
+    \text{by the projection formula}
     \\
     \;\simeq\;
     (f \times id)_!
@@ -652,7 +655,7 @@ $$
         \mathbb{1} \boxtimes (g_!\mathscr{W})
       \big)
     &
-    \text{by projection formula}
+    \text{by the projection formula}
     \\
     \;\simeq\;
     \big(
@@ -671,6 +674,112 @@ $$
     (g_! \mathscr{W})
     &
     \text{by the above comment}.
+  \end{array}
+$$
+\end{proof}
+
+\begin{corollary}
+\label{PullPushAdjunctsOfExternalTensorProducts}
+  The $\big((f \times g)_! \dashv (f \times g)^\ast\big)$-[[adjunct]] $\widetilde{f \boxtimes g}$ of an external tensor product of morphisms into the separate pullbacks
+$$
+  \mathscr{V} 
+    \boxtimes
+  \mathscr{W}
+  \overset{ \phi \boxtimes \gamma  }{\longrightarrow}
+  (f^\ast \mathscr{V}') \boxtimes (g^\ast \mathscr{W}')
+  \;\simeq\;
+  (f \times g)^\ast
+  (\mathscr{V}' \boxtimes \mathscr{W}')
+$$
+is the external tensor product of the separate [[adjuncts]] 
+$$
+  \widetilde{ f \boxtimes g }
+  \,\colon\,
+  (f \times g)_!( \mathscr{V} \boxtimes \mathscr{W} ) 
+  \,\simeq\,
+  (f_! \mathscr{V}) \boxtimes (g_! \mathscr{W})
+  \overset{
+    \widetilde \phi \,\boxtimes\, \widetilde \gamma 
+  }{\longrightarrow}
+  \mathscr{V}' \boxtimes \mathscr{W}'
+  \,,
+$$
+where the natural isomorphisms shown are those form Prop. \ref{PullAndPushAlongProductsOfMaps}.
+\end{corollary}
+\begin{proof}
+After restriction along the (non-full) [[subcategory]]-inclusion
+$$
+  \array{
+    \mathbf{C}_{\mathcal{X}} 
+    \times
+    \mathbf{C}_{\mathcal{Y}}
+    &\longrightarrow&
+    \mathbf{C}_{\mathcal{X} \times \mathcal{Y}}
+    \\
+    \big(\mathscr{V},\, \mathscr{W}\big)
+    &\mapsto&
+    \mathscr{V} \boxtimes \mathscr{W}
+    \\
+    \mathllap{{}^{ (\phi, \gamma) }}
+    \Big\downarrow
+    &&
+    \Big\downarrow
+    \mathrlap{{}^{ \phi \boxtimes \gamma }}
+    \\
+    \big(\mathscr{V}',\, \mathscr{W}'\big)
+    &\mapsto&
+    \mathscr{V}' \boxtimes \mathscr{W}'
+  }
+$$
+we can clearly make the restriction of the functors $(f \times g)_!$ and $(f \times g)^\ast$ into adjoints by declaring the [[counit of an adjunction|adjunction counit]] $\epsilon$ to be the external tensor product of the $(f_! \dashv f^\ast)$- with the $(f_! \dashv g^\ast)$-[[adjunction counits]]. But by uniqueness of adjoints ([here](adjoint+functor#UniquenessOfAdjoints)) this must be isomorphic to the actual adjunction counit restricted to external tensor products:
+$$
+  \epsilon^{ 
+    \big((f \times g)_! \dashv (f \times g)^\ast\big)
+  }_{\mathcal{X} \boxtimes \mathcal{Y}}
+  \;\;
+  \simeq
+  \;\;
+  \epsilon^{ (f_! \dashv f^\ast) }_{\mathcal{X}}
+  \,\boxtimes\,
+  \epsilon^{ (g_! \dashv g^\ast) }_{\mathcal{Y}}
+  \,.
+$$
+Now using the expression on the right together with Prop. \ref{PullAndPushAlongProductsOfMaps}
+in the formula ([here](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)) that expresses [[adjuncts]] as functor-images composed with the (co)unit gives that the adjunct is formed external tensor-factor wise, as claimed:
+$$
+  \begin{array}{ll}
+    \widetilde{ \phi \boxtimes \gamma }
+    \\
+    \;\simeq\;
+    \epsilon^{
+      (f \times g)_! \dashv (f \times g)^\ast
+    }_{ \mathscr{V}' \boxtimes \mathscr{W}' }
+    \circ
+    (f \times g)_!\big(\phi \boxtimes \gamma\big)
+    &
+    \text{ by the formula for adjuncts }
+    \\
+    \;\simeq\;
+    \big(
+      \epsilon^{ f_! \dashv f^\ast }_{\mathscr{V}'} 
+        \circ 
+      (f_! \phi)
+    \big)
+    \,\boxtimes\,
+    \big(
+      \epsilon^{ g_! \dashv g^\ast }_{\mathscr{W}'} 
+        \circ 
+      (g_! \gamma)
+    \big)
+    &
+    \text{ by the previous discussion }
+    \\
+    \;\simeq\;
+    \widetilde \phi
+    \,\boxtimes\,
+    \widetilde \gamma
+    &
+    \text{ by the formula for adjuncts. }
   \end{array}
 $$
 \end{proof}
