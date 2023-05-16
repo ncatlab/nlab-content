@@ -31,7 +31,7 @@ $$
 
 between [[pointed simplicial sets]] and [[simplicial groups]], whose [[right adjoint]] is the [[simplicial classifying space]] construction.
 
-This adjunction is a [[Quillen adjunction]] for the [[Kan–Quillen model structure]] on [[pointed simplicial sets]] and its [[transferred model structure]] on [[simplicial groups]].
+This adjunction is a [[Quillen adjunction]] for the [[Kan–Quillen model structure]] on [[pointed simplicial sets]] and its [[transferred model structure]] on [[simplicial groups]] (more on which at *[[model structure on simplicial groups]]*).
 
 When restricted to [[reduced simplicial sets]], this [[Quillen adjunction]] becomes a [[Quillen equivalence]] which exhibits the [[homotopy theory]] of [[simplicial groups]] as [[equivalence of (infinity,1)-categories|equivalent]] to the [[classical homotopy theory]] of [[pointed homotopy type|pointed]] [[connected homotopy type]] [[homotopy type]] (cf. at *[[looping and delooping]]*).
 
