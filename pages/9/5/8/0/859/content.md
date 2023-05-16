@@ -151,6 +151,13 @@ $$
 
 ## Related concepts
 
+* [[direct product of groups]]
+
+* [[free product of groups]]
+
+* [[central product of groups]]
+
+
 * [[semidirect product Lie algebra]]
 
 * [[equivariant group]]
