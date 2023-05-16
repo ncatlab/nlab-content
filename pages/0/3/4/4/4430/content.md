@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,24 +51,23 @@ which shows that $\alpha_M$ is multiplication by $r$. \end{proof}
 Two rings whose [[categories of modules]] are equivalent as additive categories are said to be [[Morita equivalence|Morita equivalent]].  As a consequence of Prop. \ref{CenterOfRModIsR}, Morita equivalent *commutative* rings are already [[isomorphism|isomorphic]].
 \end{remark}
 
-As a further illustration of these ideas we show how the topology on a [[compact Hausdorff space]] is determined by the category of [[vector bundles]] over this space.  For any compact Hausdorff space $X$ let $Vect(X)$ be the category of (finite-dimensional complex) vector bundles over $X$.  This category is additive and [[linear category|$\mathbb{C}$-linear]], i.e. [[enriched category|enriched]] over the category of complex [[vector spaces]].  Thus, the center of $Vect(X)$ is a commutative algebra over $\mathbb{C}$.  Moreover:
+As a further illustration of these ideas we show how the [[topological space|topology]] on a [[compact Hausdorff space]] is determined by the category of [[vector bundles]] over this space.  For any [[compact Hausdorff space]] $X$ let [[Vect(X)|$Vect(X)$]] denote the category of ([[finite-dimensional vector space|finite-]][[rank of a vector bundle|rank]] [[complex vector bundle|complex]]) [[vector bundles]] over $X$.  This category is [[additive category|additive]] and [[linear category|$\mathbb{C}$-linear]], i.e. [[enriched category|enriched]] over the category of [[complex vector spaces]].  Thus, the center of $Vect(X)$ is a [[commutative algebra]] over $\mathbb{C}$. Moreover:
 
 \begin{proposition}\label{CenterOfVectXisCX}
-If $X$ is a compact Hausdorff space then the center of $Vect(X)$ is $C(X)$, the algebra of continuous complex-valued functions on $X$.  
+If $X$ is a [[compact Hausdorff space]] then the center of [[Vect(X)|$Vect(X)$]] is $C(X)$, the [[function algebra]] of [[complex numbers|complex]]-valued [[continuous functions]] on $X$.  
 \end{proposition}
 \begin{proof}
-For any field $k$ suppose $A$ is a commutative $k$-algebra.  Let $A Proj$ be the category of finitely generated projective $A$-modules. This is a $k$-linear additive category, and a straightforward extension of the proof of Prop. \ref{CenterOfRModIsR} shows that the center of $A Proj$ is 
-isomorphic to $A$, not merely as a commutative ring, but as a commutative $k$-algebra.  
+For any [[field]] $k$ suppose $A$ is a commutative $k$-algebra.  Let $A Proj$ be the category of [[finitely generated module|finitely generated]] [[projective modules|projective $A$-modules]]. This is a $k$-linear additive category, and a straightforward extension of the proof of Prop. \ref{CenterOfRModIsR} shows that the center of $A Proj$ is isomorphic to $A$, not merely as a commutative ring, but as a commutative $k$-algebra.  
 
-Let $X$ be a compact Hausdorff space.  By [[Serre-Swan theorem|Swan's theorem]], $Vect(X)$ is equivalent, as a $\mathbb{C}$-linear additive category, to $C(X) Proj$.  Thus the center of $Vect(X)$ is isomorphic to $C(X)$.
+Let $X$ be a compact Hausdorff space.  By [[Serre-Swan theorem|Swan's theorem]], [[Vect(X)|$Vect(X)$]] is [[equivalence of categories|equivalent]], as a $\mathbb{C}$-linear additive category, to $C(X) Proj$.  Thus the center of $Vect(X)$ is isomorphic to $C(X)$.
 \end{proof}
 
 \begin{corollary}
-Suppose $X$ and $Y$ are compact Hausdorff spaces such that $Vect(X)$ and $Vect(Y)$ are equivalent as $\mathbb{C}$-linear categories. Then $X$ and $Y$ are homeomorphic.
+Suppose $X$ and $Y$ are [[compact Hausdorff spaces]] such that [[Vect(X)|$Vect(X)$]] and [[Vect(X)|$Vect(Y)$]] are equivalent as $\mathbb{C}$-linear categories. Then $X$ and $Y$ are [[homeomorphism|homeomorphic]].
 \end{corollary}
 
 \begin{proof}
-By Prop. \ref{CenterOfVectXisCX}, if $Vect(X)$ and $Vect(Y)$ are equivalent as $\mathbb{C}$-linear categories then $C(X)$ and $C(Y)$ are isomorphic as complex algebras.  The [[Gelfand-Naimark theorem]] implies that when $X$ is compact Hausdorff, it is homeomorphic to the set of homomorphisms $C(X) \to \mathbb{C}$, given the topology of pointwise convergence.   Thus the isomorphism of complex algebras $C(X) \cong C(Y)$ implies that $X$ and $Y$ are homeomorphic.  (Note that we did not need to show $C(X) \cong C(Y)$ as $C^\ast$-algebras here, but this follows.)
+By Prop. \ref{CenterOfVectXisCX}, if $Vect(X)$ and $Vect(Y)$ are equivalent as $\mathbb{C}$-linear categories then $C(X)$ and $C(Y)$ are isomorphic as complex algebras.  The [[Gelfand-Naimark theorem]] implies that when $X$ is compact Hausdorff, it is homeomorphic to the set of [[homomorphisms]] $C(X) \to \mathbb{C}$, given the[[ topology of pointwise convergence]].   Thus the isomorphism of complex algebras $C(X) \cong C(Y)$ implies that $X$ and $Y$ are homeomorphic.  (Note that we did not need to show $C(X) \cong C(Y)$ as $C^\ast$-algebras here, but this follows.)
 \end{proof}
 
 ## Related concepts
