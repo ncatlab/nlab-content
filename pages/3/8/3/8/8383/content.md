@@ -73,7 +73,7 @@ Categories, dirige par J. Benabou, November 1976
 
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
 
-* {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
+* {#Shulman12} [[Mike Shulman]], *Enriched indexed categories*, Theory Appl. Categ. **28** (2013) 616-695 &lbrack;[arXiv:1212.3914](http://arxiv.org/abs/1212.3914), [tac:28-21](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html)&rbrack;
  
 Discussion of [[traces]] and of [[dual objects]] in indexed monoidal categories is in
 
