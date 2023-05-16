@@ -17,7 +17,7 @@
 
 The concept of _zeta function_ originates in [[number theory]], but to get an idea of what they "really are" it is helpful to proceed anachronistically:
 
-$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like like [[analytic continuations]] of [[traces]] of powers 
+$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like [[analytic continuations]] of [[traces]] of powers 
 
 $$
   s \mapsto Tr \left(\frac{1}{H}\right)^s
