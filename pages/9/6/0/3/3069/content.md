@@ -786,7 +786,7 @@ $$
   \;\simeq\;
   \int^{x'_0}
   \mathcal{X}'\big(x'_0,x'\big)
-  \times
+  \cdot
   \int^{x}
   \mathcal{Y}\big(f(x),y\big)
   \cdot
