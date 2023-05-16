@@ -17,6 +17,8 @@
 
 The [[Cartesian product]] in the [[category]] of [[groups]] is often called the _direct product_ of groups. For [[abelian groups]] and a [[finite number]] of factors, this is also the [[direct sum]] of groups.
 
+(Compare the [[formal duality|dual]] notion of "[[free products]]" of groups, which are really their [[category theory|category theoretic]] *[[coproducts]]*.)
+
 
 ## Properties
 
@@ -67,6 +69,8 @@ Also the converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsO
 * [[semidirect product group]]
 
 * [[central product of groups]]
+
+* [[free product of groups]]
 
 ## References
 
