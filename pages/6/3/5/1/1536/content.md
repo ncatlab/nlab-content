@@ -208,8 +208,9 @@ Given a [[pseudofunctor]]
     \\
     \Big\downarrow\mathrlap{{}^{f}}
     &&
-    \mathllap{^{f^\ast}}\Big\uparrow
-    \Big\downarrow\mathrlap{{}^{f_!}}
+    \mathllap{^{f_!}}\Big\downarrow
+    \dashv
+    \Big\uparrow\mathrlap{{}^{f^\ast}}
     \\
     \mathcal{Y} &\mapsto& \mathbf{C}_{\mathcal{Y}}
   }
@@ -954,7 +955,7 @@ The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
 
 On limits and colimits in Grothendieck constructions:
 
-* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]] [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
+* {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]], [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. Indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
 
 
 The analog for simplicial sets instead of groupoids is discussed in
