@@ -19,7 +19,7 @@
 
 A _(left) Quillen [[bifunctor]]_ is a [[functor]] of two variables between [[model category|model categories]] that respects combined [[cofibrations]] in its two arguments in a suitable sense.
 
-The notion of Quillen bifunctor enters the definition of [[monoidal model category]] and of [[enriched model category]].
+The notion of Quillen bifunctor enters the definition of *[[monoidal model category]]* and of *[[enriched model category]]*.
 
 ## Definition
 
@@ -27,8 +27,8 @@ The notion of Quillen bifunctor enters the definition of [[monoidal model catego
 \label{QuillenBifunctor}
 **(Quillen bifunctor)**
 \linebreak
-Let $C, D, E$ be [[model category|model categories]]. A
-[[functor]] $F \,\colon\, C \times D \to E$ is a **Quillen bifunctor**  if it satisfies the following two conditions:
+Let $C, D, E$ be [[model categories]]. A
+[[functor]] $F \,\colon\, C \times D \to E$ (out of the [[product category]] of $C$ with $D$) is a **Quillen bifunctor**  if it satisfies the following two conditions:
 
 1. for any 
 
@@ -36,7 +36,7 @@ Let $C, D, E$ be [[model category|model categories]]. A
 
    * [[cofibration]] $\;j \,\colon\, d \to d'$ in $D$, 
 
-   the induced ([[pushout product]]) morphism 
+   the induced [[pushout product]]-morphism 
    
    $$
      F(c', d) 
@@ -70,7 +70,7 @@ $$
   \,.
 $$
 
-In particular, if $i = (\emptyset \hookrightarrow c)$ we have $F(\emptyset, d) = F(\emptyset, d') = \emptyset$ (since the [[initial object]] is the [[colimit]] over the [[empty diagram]] and $F$ is assumed to preserve colimits) and the above pushout diagram reduces to
+In particular, if $i = (\varnothing \hookrightarrow c)$ (for $\varnothing$ denoting the [[initial object]]) we have $F(\varnothing, d) = F(\varnothing, d') = \varnothing$ (since the [[initial object]] is the [[colimit]] over the [[empty diagram]] and $F$ is assumed to preserve colimits) and the above pushout diagram reduces to
 
 $$
   \array{
@@ -100,7 +100,7 @@ Therefore:
 +-- {: .un_prop}
 ###### Proposition
 
-Let $\otimes : C \times D \to E$ be an [[adjunction of two variables]] between model categories and assume that $C$ and $D$ are [[cofibrantly generated model categories]]. Then $\otimes$ is a Quillen bifunctor precisely if it satisfies its axioms on generating (acyclic) cofibrations, i.e. if for $f : c_1 \to c_2$ and $g : d_1 \to d_2$ we have for the morphism
+Let $\otimes \colon C \times D \to E$ be an [[adjunction of two variables]] between [[model categories]] and assume that $C$ and $D$ are [[cofibrantly generated model categories]]. Then $\otimes$ is a Quillen bifunctor precisely if it satisfies its axioms on generating (acyclic) cofibrations, i.e. if for $f \colon c_1 \to c_2$ and $g \colon d_1 \to d_2$ we have for the morphism
 
 $$
  (c_1 \otimes d_2) \coprod_{c_1 \otimes d_1} (c_2 \otimes d_1)
@@ -195,37 +195,46 @@ $$
   \,.
 $$
 
-That this is indeed a projectively cofibrant resulution of the constant on the [[terminal object]] is for instance proposition 14.8.9 of
+That this is indeed a projectively cofibrant resulution of the constant on the [[terminal object]] is for instance  shown in [Hirschhorn (2002), Prop 14.8.9](model+category#Hirschhorn02).
 
-* Hirschhorn, _Model categories and their localization_ .
+For the case that $C = \Delta^{op}$ (the [[opposite category|opposite]] of the [[simplex category]]) this is the classical choice in the discussion of the *[[Bousfield-Kan map]]*.
 
-For the case that $C = \Delta^{op}$ this is the classical choice by Bousfield and Kan, see [[Bousfield-Kan map]].
-
-Assume that $A$ takes values in cofibrant objects of $A$, then it is already cofibrant in the injective model structure $[C,A]_{inj}$ on functors and we can take $Q_{inj}(F) = F$. Then the above says that
+Assume that $A$ takes values in [[cofibrant objects]] of $A$, then it is already cofibrant in the [[injective model structure on functors]] $[C,A]_{inj}$  and we can take $Q_{inj}(F) = F$. Then the above says that
 
 $$
-  hocolim F = \int N(-/C)^\op \cdot F
+  hocolim F 
+  \,=\, 
+  \int N(-/C)^\op \cdot F
   \,.
 $$
 
-For $C = \Delta$ this is the classical prescription by Bousfield-Kan for homotopy colimits, see also the discussion at [[weighted limit]].
+For $C = $ [[simplex category|$\Delta$]] this is the classical prescription by Bousfield-Kan for [[homotopy colimits]], see also the discussion at *[[weighted limit]]*.
 
 Using the above proposition, it follows in particular explicitly that the homotopy colimit preserves degreewise cofibrations of functors over which it is taken.
 
-A nice discussion of this is in ([Gambino](#Gambino)).
+A nice discussion of this is in [Gambino (2010)](#Gambino10).
 
 ## Related concepts
 
 * [[two-variable adjunction]]
 
+* [[Quillen functor]]
+
+* [[monoidal model category]], [[enriched model category]]
+
+* [[pushout-product axiom]], [[pullback-power axiom]]
+
+* [[Joyal-Tierney calculus]]
+
+
+
 ## References
 
-Appendix A.2 of 
+* {#Hovey99} [[Mark Hovey]], Def. 4.2.1 in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
-* 
-{#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], Appendix A.2 of: _[[Higher Topos Theory]]_ (2009)
 
-* {#Gambino} [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
+* {#Gambino10} [[Nicola Gambino]], Def. 2.3 in: *Weighted limits in simplicial homotopy theory*, Journal of Pure and Applied Algebra **214** 7 (2010) 1193–1199 &lbrack;[doi:10.1016/j.jpaa.2009.10.006](https://doi.org/10.1016/j.jpaa.2009.10.006)&rbrack;
 
 
 [[!redirects Quillen bifunctors]]
