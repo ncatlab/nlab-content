@@ -67,7 +67,7 @@ Suppose $X$ and $Y$ are [[compact Hausdorff spaces]] such that [[Vect(X)|$Vect(X
 \end{corollary}
 
 \begin{proof}
-By Prop. \ref{CenterOfVectXisCX}, if $Vect(X)$ and $Vect(Y)$ are equivalent as $\mathbb{C}$-linear categories then $C(X)$ and $C(Y)$ are isomorphic as complex algebras.  The [[Gelfand-Naimark theorem]] implies that when $X$ is compact Hausdorff, it is homeomorphic to the set of [[homomorphisms]] $C(X) \to \mathbb{C}$, given the[[ topology of pointwise convergence]].   Thus the isomorphism of complex algebras $C(X) \cong C(Y)$ implies that $X$ and $Y$ are homeomorphic.  (Note that we did not need to show $C(X) \cong C(Y)$ as $C^\ast$-algebras here, but this follows.)
+By Prop. \ref{CenterOfVectXisCX}, if $Vect(X)$ and $Vect(Y)$ are equivalent as $\mathbb{C}$-linear categories then $C(X)$ and $C(Y)$ are isomorphic as complex algebras.  The [[Gelfand-Naimark theorem]] implies that when $X$ is compact Hausdorff, it is homeomorphic to the set of algebra [[homomorphisms]] $C(X) \to \mathbb{C}$, given the [[topology of pointwise convergence]].   Thus the isomorphism of algebras $C(X) \cong C(Y)$ implies that $X$ and $Y$ are homeomorphic.  (Note that we did not need to show $C(X) \cong C(Y)$ as $C^\ast$-algebras here, but this follows.)
 \end{proof}
 
 ## Related concepts
