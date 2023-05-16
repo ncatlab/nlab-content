@@ -58,6 +58,10 @@ See also
 
 * S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics _ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
 
+Rigged Hilbert spaces are also known as [[Gelfand triple]]s, written about in his series on generalized functions
+
+* Gel'fand, I. M., and Shilov, Georgiĭ Evgenʹevich. Generalized Functions. United States, American Mathematical Society, (2016)
+
 ## See also
 
 Discussion on MathOverflow
