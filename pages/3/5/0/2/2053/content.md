@@ -54,13 +54,18 @@ $$
   \,.
 $$
 
+(Compare the [[formal duality|dual notion]] of "[[direct product of groups]]", which are really [[category theory|category theoretic]] *[[products]]* of groups.)
+
+Informally, the "free product" is the group whose elements are [[free construction|freely generated]] form those of the $G_i$, subject only to the relations given by the group operations in each of these groups. 
+
+
 More generally, if each of the given groups is equipped with a [[homomorphism]] 
 
 $$
   \iota_i \,\colon\, H \longrightarrow G_i
 $$
 
-from a fixed group $H \,\in\, Grpd$
+from a fixed group $H \,\in\, Grp$
 
 > (often taken to be [[monomorphisms]], hence [[injections]], hence [[subgroup]]-inclusions $A \hookrightarrow G_i$ and reducing to the previous situation when $H = 1$ is the [[trivial group]]) 
 
@@ -101,7 +106,7 @@ $$
 $$
 
 
-(or generally the [[colimit]]) in the [[category]] [[Grpd]], hence the unique group, up to [[isomorphism]], which
+(or generally the [[colimit]]) in the [[category]] [[Grp]], hence the unique group, up to [[isomorphism]], which
 
 1. receives [[homomorphisms]] $q_i$ from the $G_i$ such that their [[precompositions]] with the respective $\iota_i$ all agree,
 
@@ -217,6 +222,15 @@ The value of the more general construction above is that one often has much smal
 
 * [[amalgamation]]
 
+* [[direct product of groups]]
+
+* [[semidirect product group]]
+
+* [[central product of groups]]
+
+
+
+
 ## References
 
 The notion of amalgamated free products of groups seems to be due to
@@ -239,6 +253,10 @@ Textbook accounts of free products of groups:
 Expository review in the generality of amalgamated free products and making explicit their nature as [[pushouts]] in [[Grp]]:
 
 * Abhay Chandel, *Free groups and amalgamated product*, BSc thesis (2013) &lbrack;[pdf](http://home.iiserb.ac.in/~kashyap/Group/thesis_abhay.pdf), [[Chandel-AmalgamatedProducts.pdf:file]]&rbrack;
+
+Discussion of [[subgroups]] of amalgamated from products:
+
+* A. Karrass, D. Solitar, *The Subgroups of a Free Product of Two Groups with an Amalgamated Subgroup*, Transactions of the American Mathematical Society **150** 1 (1970) 227-255 &lbrack;[doi:10.2307/1995492](https://doi.org/10.2307/1995492)&rbrack;
 
 
 [[!redirects free product]]
