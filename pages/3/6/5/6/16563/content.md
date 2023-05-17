@@ -7,7 +7,7 @@ A nominal set is a formalization of the idea of a set whose elements can have "v
 A nominal set is an object of the [[Schanuel topos]].
 One concrete description of this topos is that it is the [[category of G-sets]] for the group of permutations of the natural numbers topologized as a subspace of the [[Baire space of sequences]]. The continuity can be described as the finite support property below.
 
-A nominal set is a set $X$ with an action of the group of permutations of natural numbers such that each element has finite support: for each $x \in X$ there is some subset $supp(x) \subseteq N$ such that if $\pi$ fixes $supp(x)$ then $\pi \cdot x = x$.
+A nominal set is a set $X$ with an action of the group of permutations of natural numbers such that each element has finite support: for each $x \in X$ there is some finite subset $supp(x) \subseteq N$ such that if $\pi$ fixes $supp(x)$ then $\pi \cdot x = x$.
 
 ## References
 
