@@ -47,6 +47,11 @@ On [[quotient types]] and [[higher inductive types]]:
 
 * [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Nicolai Kraus]], [[Fredrik Forsberg]], *Quotient inductive-inductive types*, Foundations of Software Science and Computation Structures (FoSSaCS 2018), Lecture Notes in Computer Science **10803** (2018) &lbrack;[doi:10.1007/978-3-319-89366-2_16](https://doi.org/10.1007/978-3-319-89366-2_16), [arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
+On the prehistory of [[homotopy type theory]] and the [[univalence axiom]] in the hands of [[Martin Hofmann]]:
+
+* {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
+
+
 
 ## Related entries
 
