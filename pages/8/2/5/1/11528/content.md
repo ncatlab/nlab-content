@@ -1238,9 +1238,10 @@ make the Borel model structure (eq:BorelModelStructureForCombinatoriaSimplicialM
 $$
   \big(\mathcal{G}Act(\mathbf{C}), \otimes \big)
 $$
-a [[monoidal model category]].
+a [[monoidal model category]], at least in that the [[pushout-product axiom]] holds.
+A sufficient condition that also the [[unit axiom]] hold is that all objects of $\mathbf{C}$ are cofibrant.
 \end{proposition}
-The following proof of the [[pushout-product axiom]] is the evident generalization of that given in [Berger & Moerdijk (2006), Lem. 2.5.2](#BergerMoerdijk2006) for $\mathbf{C} = sSet$.
+The following argument for the pushout-product axiom follows [Berger & Moerdijk (2006), Lem. 2.5.2](#BergerMoerdijk2006).
 \begin{proof}
 It is sufficient to check the [[pushout-product axiom]] on (acyclic) [[generating cofibrations]] (by [this remark](pushout-product#PushoutProductAxiomInCofibrantlyGeneratedModelCategories)). To that end, given 
 
@@ -1334,7 +1335,10 @@ $$
 $$
 is a [[weak equivalence]].
 
-For this it is sufficient that $(-) \otimes X$ is a [[left Quillen functor]], hence that its [[right adjoint]] is a [[right Quillen functor]]. But on underlying morphisms the right adjoint is given by the [[internal hom]] $[X,-]$. Since the [[underlying]] object of $X$ is still cofibrant in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat) the statement follows by the definition of the projective model structure and the fact that $[X,-]$ satisfies the [[pullback-power axiom]] in the [[monoidal model category]] $\mathbf{C}$.
+Since weak equivalence are just the underlying weak equivalences, for this it is sufficient (with the assumption that all objects in $\mathbf{C}$ are cofibrant), that 
+$(-) \otimes X$ is a [[left Quillen functor]] on $\mathbf{C}$, since as such it preserves all weak equivalences between cofibrant objects, by [Ken Brown's lemma](Introduction+to+Homotopy+Theory#KenBrownLemma).
+
+But the [[underlying]] object of $X$ is still cofibrant in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat), therefore $(-) \otimes X$ is left Quillen by the [[pushout-product axiom]] satisfied by the [[monoidal model category]] $\mathbf{C}$.
 \end{proof}
 
 
@@ -1377,6 +1381,7 @@ Discussion of [[monoidal model category]]-enhancement on the Borel model structu
 Discussion of a the [[integral model structure]] for actions of all simplicial groups:
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], section 6.2 of _The Grothendieck construction for model categories_ ([arXiv:1404.1852](http://arxiv.org/abs/1404.1852))
+
 
 
 ### In topological spaces
