@@ -112,7 +112,7 @@ If the term "manifold" appears without further qualification, what is usually me
 
 A **topological $n$-manifold** is a manifold with respect to the pseudogroup of homeomorphisms between open sets of $\mathbb{R}^n$. Any continuous function between topological manifolds is a morphisms, and any homeomorphism is an isomorphism. A **[[piecewise-linear manifold|piecewise-linear (PL) $n$-manifold]]** is where the pseudogroup consists of piecewise-linear homeomorphisms between such open sets; morphisms are called **piecewise-linear (PL) maps**.
 
-One can go on to define, in a straighforward way, real [[analytic manifolds]], complex analytic manifolds, elliptic manifolds, hyperbolic manifolds, and so on, using the general notion of pseudogroup.
+One can go on to define, in a straightforward way, real [[analytic manifolds]], complex analytic manifolds, elliptic manifolds, hyperbolic manifolds, and so on, using the general notion of pseudogroup.
 
 Any space $X$ can always be turned into a manifold modelled on itself, using any pseudogroup $G$. Simply take the inclusions of open sets as charts.
 
