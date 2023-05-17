@@ -1,4 +1,8 @@
 
+$$
+  \int ... \textstyle{\int}
+$$
+
 
 $$
   \coamalg
