@@ -267,8 +267,68 @@ Now the idea is that the full colimit in $\int \mathbf{C}_{(-)}$ is obtained by
 
 and then $\big(\underset{\longrightarrow}{\lim} q_! \mathscr{V}\big)_{\underset{\longrightarrow}{\lim}\mathcal{X}}$ is the desired colimit in $\int \mathbf{C}$
 
+\begin{example}\label{CartesianProductInGrothendieckConstruction}
+**([[Cartesian product]] in Grothendick construction is [[external tensor product|external product]] on fiber categories )**
+\linebreak
 
+  Given a [[contravariant functor|contravariant]] [[pseudofunctor]] 
+  $$
+    \array{
+       X
+       \\
+       \Big\downarrow\mathrlap{{}^{f}}
+       \\
+       Y
+    }
+    \;\;\;\;\;\mapsto\;\;\;
+    \array{
+       \mathcal{C}_X
+       \\
+       \Big\uparrow\mathrlap{{}^{f^\ast}}
+       \\
+       \mathcal{C}_Y
+    }
+  $$
+  where the base category and all fiber categories $\mathcal{C}_{(-)}$ have [[Cartesian products]] and all [[base change]] maps $f^\ast$ [[preserved limit|preserve]] these products, then the Grothendieck construction $\int_X \mathcal{C}_X$ has cartesian products given on objects
+$$
+  \mathscr{V}_X \,\equiv\,
+  \big(
+    \mathscr{V} \,\in\, \mathcal{C}_X
+  \big)
+$$
+by the formula
+\[
+  \label{CartesianProductInGrothendieckConstruction}
+  \mathscr{V}_X
+  \times
+  \mathscr{W}_Y
+  \;\;
+  \simeq
+  \;\;
+  \Big(
+    \big(pr_X^\ast \mathscr{V}\big)
+    \,\times\,
+    \big(pr_Y^\ast \mathscr{W}\big)
+  \Big)_{X \times Y}
+  \,,
+\]
+where we are denoting by
+$$
+  \array{
+    && X \times Y
+    \\
+    & 
+    \mathllap{{}^{pr_X}}\swarrow 
+    && 
+    \searrow\mathrlap{{}^{pr_Y}}
+    \\
+    X && && Y
+  }
+$$
+the product [[projection]] maps in the base category.
 
+A product of the form (eq:CartesianProductInGrothendieckConstruction) is known as an *[[external tensor product]]*, here the "external Cartesian product" on the fiber categories.
+\end{example}
 
 
 
