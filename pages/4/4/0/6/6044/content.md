@@ -22,7 +22,7 @@ $$
 
 given by
 
-$$ (a,b,c) \times (d,e,f) = (b e - c f, c d - a f, a e - b d) .$$
+$$ (a,b,c) \times (d,e,f) = (b f - c e, c d - a f, a e - b d) .$$
 
 This operation is invariant under [[orthogonal group|orthogonal transformations]] and there is nothing special here about the [[real numbers]], so given any $3$-dimensional [[orientation|oriented]] [[inner product space]] $V$ over any [[field]], we have a bilinear cross product
 
