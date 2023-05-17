@@ -75,4 +75,28 @@ $$
 
 * [[fundamental product theorem in topological K-theory]]
 
+## References
+ {#References}
+
+The notion of external tensor product of vector bundles is briefly mentioned in:
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
+
+Discussion in the context of [[topological K-theory]]:
+
+* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 40 of: *Vector bundles and K-theory* (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
+
+Discussion in the context of the [[K-theory classification of topological phases of matter]]:
+
+* [[Bruno Mera]], *The product of two independent Su-Schrieffer-Heeger chains yields a two-dimensional Chern insulator*, Phys. Rev. B **102** 155150 (2020) &lbrack;[arXiv:2009.02268](https://arxiv.org/abs/2009.02268), [doi:10.1103/PhysRevB.102.155150](https://doi.org/10.1103/PhysRevB.102.155150)&rbrack;
+
+
+Discussion in the variant of categories of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) [[algebraic geometry]]: 
+
+* {#BondalvdBerg03} [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. **3** 1 (2003) 1-36 &lbrack;[arXiv:math/0204218](https://arxiv.org/abs/math/0204218)&rbrack;
+
+* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. **23** 4 (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157)&rbrack;
+
+
+
 [[!redirects external tensor products of vector bundles]]
