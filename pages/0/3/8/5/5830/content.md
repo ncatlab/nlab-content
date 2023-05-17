@@ -336,33 +336,50 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 ## References
  {#References}
 
-A survey page maintained by [[Steve Awodey]] is _[Homotopy Type Theory and the Univalent Foundations of Mathematics](http://www.andrew.cmu.edu/user/awodey/htt.html)_
+
+The standard textbook on homotopy type thoery:
+
+* {#UFP13} [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+
+For further resources see also:
+
+* [[Steve Awodey]], *Homotopy Type Theory and the Univalent Foundations of Mathematics* &lbrack;[www.andrew.cmu.edu/user/awodey/htt.html](http://www.andrew.cmu.edu/user/awodey/htt.html)&rbrack;
+
+### Early development
+ {#EarlyDevelopment}
+
+Precursor discussion that led to the formulation of homotopy type theory in [UFP13](#UFP13):
+
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), *Twenty-five years of constructive type theory*, Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. **36** (1998) 83-111   &lbrack;[ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]]&rbrack;
+
+* {#Awodey09} [[Steve Awodey]], *Homotopy and Type Theory*, grant proposal project description (2009) &lbrack;[pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf)&rbrack;
+
+* {#Voevodsky10} [[Vladimir Voevodsky]], *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
+
+* [[Thorsten Altenkirch]], [[Thierry Coquand]], _Towards higher dimensional type theory_, Nottingham (2011) &lbrack;[pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf)&rbrack;
+
+* {#Awodey12} [[Steve Awodey]], *Type theory and homotopy*, in: *Epistemology versus Ontology* Springer (2012) 183-201 &lbrack;[arXiv:1010.1810](http://arxiv.org/abs/1010.1810), [doi:10.1007/978-94-007-4435-6_9](https://doi.org/10.1007/978-94-007-4435-6_9)&rbrack;
+
+For more on the early history see also:
+
+* {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
+
 
 ### Introductions
  {#Introductions}
 
-The standard textbook is
-
-* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
-
-An introduction for philosophers is
+A survey of homotopy type theory aimed at [[formal logic|logicians]] and [[philosophy of mathematics|philosophers of mathematics]]:
 
 * {#Shulman16} [[Michael Shulman]], _Homotopy Type Theory: A synthetic approach to higher equalities_ ([arXiv:1601.05035](http://arxiv.org/abs/1601.05035))
 
-and one with an emphasis on [[synthetic geometry]] is 
+and one with an emphasis on [[synthetic geometry]]:
 
 * {#Shulman17} [[Michael Shulman]], _Homotopy type theory: the logic of space_, in [[Gabriel Catren]], [[Mathieu Anel]] (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
-Early sketches and introductions to the idea of homotopy type theory include
-
-* {#Awodey09} [[Steve Awodey]], _Homotopy and Type Theory_, grant proposal project description ([pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf))
-
-* {#Awodey12} [[Steve Awodey]], *Type theory and homotopy*, in: *Epistemology versus Ontology* Springer (2012) 183-201 &lbrack;[arXiv:1010.1810](http://arxiv.org/abs/1010.1810), [doi:10.1007/978-94-007-4435-6_9](https://doi.org/10.1007/978-94-007-4435-6_9)&rbrack;
-
+More technical introductions:
 
 * [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html), [V](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_v.html), [VI](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html)
 
-* [[Thorsten Altenkirch]], [[Thierry Coquand]], _Towards higher dimensional type theory_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
 
 * {#ShulmanCourse} [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://home.sandiego.edu/~shulman/hottminicourse2012/))
 
