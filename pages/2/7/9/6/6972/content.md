@@ -1,6 +1,9 @@
 
 * [webpage](http://www2.tcs.ifi.lmu.de/~mhofmann/)
 
+* {#Altenkirch21} [[Thorsten Altenkirch]], *Martin Hofmann’s contributions to type theory: Groupoids and univalence*, Mathematical Structures in Computer Science **31** 9 (2021) 953-957 &lbrack;[doi:10.1017/S0960129520000316](https://doi.org/10.1017/S0960129520000316)&rbrack;
+
+
 ## Selected writings
 
 On [[identity types]] in [[extensional type theory|extensional]]/[[intensional type theory|intensional]] [[dependent type theory]] ([[Martin-Löf dependent type theory]]):
