@@ -100,10 +100,11 @@ Since $F$ is relative, this map takes weak equivalences in $\mathcal{M}$ to [[eq
 \end{proposition}
 ([Harpaz & Prasma (2015), Proposition 3.1.2](#HarpazPrasma15))
 
+
 ## Examples
  {#Examples}
 
-### Basic examples
+### Free coproduct completions
  {#BasicExamples}
 
 \begin{example}\label{ModelStructureOnIndexedSetsOfObjects}
@@ -122,15 +123,16 @@ $$
     \\
     \Big\downarrow{{}^\mathrlap{f}}
     &&
-    \mathllap{{}^{f^\ast}}\Big\uparrow
-    \Big\downarrow\mathrlap{{}^{f_!}}
+    \mathllap{{}^{f_!}}\Big\downarrow
+    {}^{\dashv}
+    \Big\uparrow\mathrlap{{}^{f^*}}
     \\
     T 
       &\mapsto& 
     \underset{s \in S}{\prod} \mathcal{C}
   }
 $$  
-Here $f_!$ forms [[coproducts]] of objects in the same [[fibers]] of $f$.
+Here $f_!$ forms [[coproducts]] of objects in the same [[fibers]] of $f$. The corresponding [[Grothendieck construction]] is the [[free coproduct completion]] of the [[underlying]] [[category]] $\mathcal{C}$ (see [there](free+coproduct+completion#AsAGrothendieckConstruction)).
 
 If we regard [[Set]] as equipped with its [[trivial model structure]] (whose [[weak equivalences]] are the [[isomorphisms]] and all morphisms are both [[fibrations]] as well as [[cofibrations]]) then this is evidently a relative and proper functor in the sense of Def. \ref{RelativePseudoFunctor},  Def. \ref{ProperPseudofunctor} (since with weak equivalences $f$ in $Set$ being isomorphisms, the associated functors $f_!, f^\ast$ are certainly [[Quillen equivalences]] but in fact are plain [[equivalences of categories]] compatible with the model structure and hence also preserve all weak equivalences).
 
@@ -170,8 +172,53 @@ Unwinding the definition \ref{IntegralModelStructure} of the integral model stru
 
   (here the composition with (co)fibrant replacements can be omitted, since, as above, $f_!, f^\ast$ preserve such resolution weak equivalences).
 
-
 \end{example}
+
+\begin{remark}
+\label{CoFibrantObjectsInFreeCoproductCompletion}
+The [[cofibrant objects]] in the integral model structure on a [[free coproduct completion]] (Exp. \ref{ModelStructureOnIndexedSetsOfObjects}) are exactly the [[tuples]] of [[cofibrant objects]] in the coefficient model structure $\mathcal{C}$; analogously for the [[fibrant objects]].
+
+To see this, observe that the [[initial object]] in the [[Grothendieck construction]] of Exp. \ref{ModelStructureOnIndexedSetsOfObjects} is
+
+$$
+  0_{\varnothing}
+  \;\coloneqq\;
+  \Big(
+    \varnothing \,\in\, Set
+    ,\;
+    0 \,\in\, \underset{\varnothing}{\prod} \mathcal{C}
+  \Big)
+  \,,
+$$
+where
+
+* $\varnothing$ (the [[empty set]]) denotes the [[initial object]] in $Set$
+
+* $0$ denotes the [[initial object]] in the [[empty diagram|empty]]-[[product category]], [which is](terminal+object#TerminalObjectIsEmptyLimit) the [[terminal category]], so that $0$ is in fact a [[zero object]], indeed it is the only object in that category
+
+  $$
+    \underset{\varnothing}{\prod} \mathcal{C}
+    \;\simeq\;
+    \{0\}
+     \,.
+  $$
+
+Now given any object $\mathscr{V}_S \,\in\, \int_{S \in Set}\;\underset{s \in S}{\prod} \, \mathcal{C}$ observe that there is a unique morphism
+
+$$
+  0_{\varnothing} \longrightarrow \mathscr{V}_S
+  \,.
+$$
+Namely, unwinding the definitions, such a morphism is a [[dependent pair]] consisting of
+
+1. a morphism $f \,\colon\,\varnothing \longrightarrow S$ in [[Set]],
+
+1. a morphism $\widetilde{\phi} \,\colon\, f_! 0 \longrightarrow  \mathscr{V}$ in $\underset{s \in S}{\prod} \, \mathcal{C}$
+
+But both of these exist uniquely, by the fact that their respective [[domains]] are [[initial objects]], using here that $f_!$, [[left adjoints preserve colimit|being a left adjoint]], [[preserved colimit|preserves]] [[colimits]] and hence [[initial objects]]
+
+This shows that also $0_{\varnothing}$ is the initial object in $\int_S \,\prod_{s \in S}\, \nathcal{C}$. (Of course this also follows by the general formula for [colimits in a Grothendieck construction](Grothendieck+construction#CoLimitsInAGrothendieckConstruction) specialized to the [[empty diagram|empty]] [[colimit]].) And it shows (since all morphisms in the [[trivial model structure]] on $Set$ are cofibrations while the cofibrations in a [[product model category]] are the [[tuples]] of cofibrations) that $\mathcal{V}_S$ is cofibant precisely if $\mathcal{V}_s \,\in\, \mathcal{C}$ is so for all $s \in S$.
+\end{remark}
 
 \begin{example}
 **(model structure on skeletal simplicial groupoids)**
@@ -211,7 +258,6 @@ $$
   sSet\text{-}Grpd  
 $$
 preserves [[weak equivalences]] and [[fibrations]]. However, since there is no [[left adjoint]] to this functor (due to the choices involved in passing to a [[skeleton]] such an adjoint exists only as a [[pseudofunctor]], hence on the level of [[2-category theory]]) this is *not* a [[right Quillen functor]], and in particular *not* a [[Quillen equivalence]].
-
 
 \end{example}
 
