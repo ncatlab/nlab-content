@@ -788,14 +788,108 @@ $$
 
 
 ## Examples
+ {#Examples}
 
-* [[external tensor product of vector bundles]]
+\begin{example}
+**([[external tensor product of vector bundles]])**
+\linebreak
+
+Given a [[pair]] of [[topological spaces]] $X,\,Y \,\in\, Top$ and a respective [[pair]] of [[topological vector bundles]] $\mathscr{V}_X \,\in\, $ [[Vect(X)|$Vect(X)$]] and $\mathscr{V}_X \,\in\, $ [[Vect(X)|$Vect(X)$]], their [[external tensor product of vector bundles|external tensor product]] is formed via [[pullback of bundles]] $(-)^\ast$ and ordinary [[tensor product of vector bundles]] $(-) \otimes (-)$ by the formula
+$$
+  \mathscr{V}_X 
+    \,\boxtimes\, 
+  \mathscr{W}_Y
+  \;\;
+  \equiv
+  \;\; 
+  \Big(
+  \big(
+    (pr_X)^\ast \mathscr{V}     
+  \big)
+  \otimes
+  \big(
+    (pr_Y)^\ast \mathscr{W}     
+  \big)
+  \Big)_{X \times Y}
+  \;\;\;
+  \in
+  \;
+  Vect(X \times Y)
+  \,,
+$$  
+where we are denoting by
+$$
+  \array{
+    && X \times Y
+    \\
+    & 
+    \mathllap{{}^{pr_X}}\swarrow 
+    && 
+    \searrow\mathrlap{{}^{pr_Y}}
+    \\
+    X && && Y
+  }
+$$
+the product [[projection]] maps in [[Top]].
+
+This is a [[vector bundle]] over the [[product topological space]] $X \times Y$ whose [[fiber]] over a point $(x,y) \,\in\, X \times Y$ is the [[tensor product of vector spaces]] $\mathscr{V}_x \otimes \mathscr{W}_y$.
+\end{example}
+
+\begin{example}\label{CartesianProductInGrothendieckConstruction}
+**([[Cartesian product]] in a [[Grothendieck construction]] is external cartesian product)**
+\linebreak
+  Given a [[contravariant functor|contravariant]] [[pseudofunctor]] 
+  $$
+    \array{
+       X
+       \\
+       \Big\downarrow\mathrlap{{}^{f}}
+       \\
+       Y
+    }
+    \;\;\;\;\;\mapsto\;\;\;
+    \array{
+       \mathcal{C}_X
+       \\
+       \Big\uparrow\mathrlap{{}^{f^\ast}}
+       \\
+       \mathcal{C}_Y
+    }
+  $$
+  where the base category and all fiber categories $\mathcal{C}_{(-)}$ have [[Cartesian products]] and all [[base change]] morphisms $f^\ast$ [[preserved limit|preserve]] these products, then the [[Grothendieck construction]] $\int_X \mathcal{C}_X$ has cartesian products 
+(as a special case of a general result on limits in Grothendieck constructions, discussed [there](Grothendieck+construction#CoLimitsInAGrothendieckConstruction))
+which is given on objects
+$$
+  \mathscr{V}_X \,\equiv\,
+  \big(
+    \mathscr{V} \,\in\, \mathcal{C}_X
+  \big)
+$$
+by the formula
+\[
+  \label{CartesianProductInGrothendieckConstruction}
+  \mathscr{V}_X
+  \times
+  \mathscr{W}_Y
+  \;\;
+  \simeq
+  \;\;
+  \Big(
+    \big(pr_X^\ast \mathscr{V}\big)
+    \,\times\,
+    \big(pr_Y^\ast \mathscr{W}\big)
+  \Big)_{X \times Y}
+  \,.
+\]
+This is the general form of what might be called the "external cartesian product".
+\end{example}
+
 
 ## Related concepts
 
-* [direct product group representations](direct+product+group#Representations)
+* [[external tensor product of vector bundles]], [[VectBund]]
 
-* [[VectBund]]
+* [direct product group representations](direct+product+group#Representations)
 
 * [[doubly closed monoidal category]]
 
@@ -809,7 +903,7 @@ Discussion in the context of categories of [[quasicoherent sheaves]]  in ([[deri
 
 * {#BondalvdBerg03} [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. **3** 1 (2003) 1-36 &lbrack;[arXiv:math/0204218](https://arxiv.org/abs/math/0204218)&rbrack;
 
-* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. **23** 4 (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157)&rbrack;
 
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_, such as
 
