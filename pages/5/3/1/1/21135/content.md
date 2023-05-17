@@ -73,7 +73,7 @@ Relation to the [[GSO projection]]:
 
 With application of the [[external tensor product of vector bundles]] to describe coupled systems:
 
-* [[Bruno Mera]], *The product of two independent Su-Schrieffer-Heeger chains yields a two-dimensional Chern insulator*, Phys. Rev. B **102** 155150 (2020) $[$[arXiv:2009.02268](https://arxiv.org/abs/2009.02268), [doi:10.1103/PhysRevB.102.155150](https://doi.org/10.1103/PhysRevB.102.155150)$]$
+* {#Mera20} [[Bruno Mera]], *The product of two independent Su-Schrieffer-Heeger chains yields a two-dimensional Chern insulator*, Phys. Rev. B **102** 155150 (2020) $[$[arXiv:2009.02268](https://arxiv.org/abs/2009.02268), [doi:10.1103/PhysRevB.102.155150](https://doi.org/10.1103/PhysRevB.102.155150)$]$
 
 For [[quasicrystals]] via [[KK-theory]] of the [[noncommutative topology of quasiperiodicity]]:
 
