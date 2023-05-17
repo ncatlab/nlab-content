@@ -51,8 +51,6 @@ Moreover, this section is a trivializing section ([this example](topological+vec
 =--
 
 
-
-
 ## Related concepts
 
 * [[direct sum of vector bundles]]
@@ -60,5 +58,13 @@ Moreover, this section is a trivializing section ([this example](topological+vec
 * [[tensor product of vector bundles]], [[external tensor product of vector bundles]]
 
 * [[tensor category]]
+
+
+## Related concepts
+
+* [[Max Karoubi]], §4.8 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226** Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
+
+
+
 
 [[!redirects dual vector bundes]]
