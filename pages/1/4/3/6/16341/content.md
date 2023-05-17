@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -141,9 +142,27 @@ For special properties of categories of monoids, see [[category of monoids]].
 
 ## Examples
 
-* A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product) is a [[ring]].
- A monoid object in the category of vector spaces over a field $k$ (with the usual tensor product of vector spaces) is an [[algebra]] over $k$.
-* A monoid in a [[category of modules]] is an [[associative unital algebra]].
+\begin{example}
+\label{AssociativeAlgebras}
+A monoid in a [[monoidal category|monoidal]] [[category of modules]] [[Mod|$R Mod$]] (over any [[ground ring]] $R$ and equipped with the [[tensor product of modules]]) is an [[associative unital algebra]] over $R$.
+\end{example}
+
+\begin{example}\label{Rings}
+As the special case of Exp. \ref{AssociativeAlgebras} for $R = \mathbb{Z}$ the [[integers]]:
+
+A monoid object in the [[monoidal category]] [[Ab]] of [[abelian groups]] with the [[tensor product of abelian groups]],  is a *[[ring]]*.
+\end{example}
+
+
+
+\begin{example}
+As the special case of Exp. \ref{AssociativeAlgebras} for $R = k$ a [[field]]:
+
+ A monoid object in the category [[Vect]] of [[vector spaces]] (over any [[ground field]] $k$) with the [[tensor product of vector spaces]] is an *[[associative unital algebra]]* over $k$.
+\end{example}
+
+
+
 * A monoid object in [[Top]] (with cartesian product as the tensor product) is a [[topological monoid]].
 * A monoid object in [[Ho(Top)]] is an [[H-monoid]].
 * A monoid object in the category of monoids (with cartesian product as the tensor product) is a [[commutative monoid]].  This is a version of the [[Eckmann-Hilton argument]].
