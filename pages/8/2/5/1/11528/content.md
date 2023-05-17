@@ -1246,7 +1246,7 @@ It is sufficient to check the [[pushout-product axiom]] on (acyclic) [[generatin
 
 * [[generating cofibrations]]$\;A \to B$ and $X \to Y$ in $I_{\mathcal{G}Act(\mathbf{C})}$, we need to check that their [[pushout product]] is still a cofibration, which means that for any 
 
-* [[acyclic fibration]] $Z \to W$ in $WFib_{\mathcal{G}Act(\mathbf{C})} = undrl^{-1} WFib_{\mathbf{C}}$
+* [[acyclic fibration]]$\;Z \to W$ in $WFib_{\mathcal{G}Act(\mathbf{C})} = undrl^{-1} WFib_{\mathbf{C}}$
 
 we need to find a [[lift]] in any [[commuting square]] of the form
 
@@ -1293,7 +1293,7 @@ $$
   \array{
     A 
       &\longrightarrow& 
-    [X,Z]
+    [Y,Z]
     \\
     \Big\downarrow && \Big\downarrow
     \\
@@ -1320,7 +1320,7 @@ A directly analogous argument applies in the cases where $A \to B$ or $X \to Y$ 
 
 Finally, to verify the [[unit axiom]]: 
 
-If $\mathbb{1} \,\in\, \mathbf{C}$ denotes the given [[tensor unit]], then the [[tensor unit]] in $\mathcal{G}Act(\mathbf{C})$ is the [[constant functor]] $\mathbf{B}\mathcal{G} \to \ast \overset{\mathbb{1}}{\longrightarrow}$, hence the [[trivial action]] on $\mathbb{1}$. Writing $p_{const \mathbb{1}} \colon Q const(\mathbb{1}) \to const \mathbb{1}$ for a [[cofibrant resolution]], we need to see that given an [[object]] $X \in \mathcal{G}Act(\mathbf{C})$ the composite
+If $\mathbb{1} \,\in\, \mathbf{C}$ denotes the given [[tensor unit]], then the [[tensor unit]] in $\mathcal{G}Act(\mathbf{C})$ is the [[constant functor]] $\mathbf{B}\mathcal{G} \to \ast \overset{\mathbb{1}}{\longrightarrow} \mathbf{C}$, corresponding to the [[trivial action]] on $\mathbb{1}$. Writing $p_{const \mathbb{1}} \colon Q const(\mathbb{1}) \to const \mathbb{1}$ for a [[cofibrant resolution]], we need to see that given an [[object]] $X \in \mathcal{G}Act(\mathbf{C})$ the composite
 $$
   (Q const \mathbb{1})
     \otimes
@@ -1331,8 +1331,9 @@ $$
   (const \mathbb{1}) \otimes X
   \underoverset{\sim}{l}{\longrightarrow}
   X
-  \,.
 $$
+is a [[weak equivalence]].
+
 For this it is sufficient that $(-) \otimes X$ is a [[left Quillen functor]], hence that its [[right adjoint]] is a [[right Quillen functor]]. But on underlying morphisms the right adjoint is given by the [[internal hom]] $[X,-]$. Since the [[underlying]] object of $X$ is still cofibrant in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat) the statement follows by the definition of the projective model structure and the fact that $[X,-]$ satisfies the [[pullback-power axiom]] in the [[monoidal model category]] $\mathbf{C}$.
 \end{proof}
 
