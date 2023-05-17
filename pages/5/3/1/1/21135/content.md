@@ -54,10 +54,10 @@ Further discussion:
 
 * {#BHMP23} [[Agnès Beaudry]], Michael Hermele, Juan Moreno, [[Markus Pflaum]], Marvin Qi, Daniel Spiegel, *Homotopical Foundations of Parametrized Quantum Spin Systems* $[$[arXiv:2303.07431](https://arxiv.org/abs/2303.07431)$]$
 
-
 Generalization to include interacting [[topological order]]:
 
 * {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
+
 
 Via [[cobordism cohomology]]:
 
@@ -71,6 +71,9 @@ Relation to the [[GSO projection]]:
 
 * Justin Kaidi, Julio Parra-Martinez, [[Yuji Tachikawa]], _Topological Superconductors on Superstring Worldsheets_ ([arXiv:1911.11780](https://arxiv.org/abs/1911.11780))
 
+With application of the [[external tensor product of vector bundles]] to describe coupled systems:
+
+* [[Bruno Mera]], *The product of two independent Su-Schrieffer-Heeger chains yields a two-dimensional Chern insulator*, Phys. Rev. B **102** 155150 (2020) $[$[arXiv:2009.02268](https://arxiv.org/abs/2009.02268), [doi:10.1103/PhysRevB.102.155150](https://doi.org/10.1103/PhysRevB.102.155150)$]$
 
 For [[quasicrystals]] via [[KK-theory]] of the [[noncommutative topology of quasiperiodicity]]:
 
