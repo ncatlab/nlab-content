@@ -360,6 +360,8 @@ For details see at [[Euler class]], [this Prop.](Euler+class#EulerClassOfWhitney
 
 ## Related concepts
 
+* [[external direct sum of vector bundles]]
+
 * [[inner product on vector bundles]]
 
 * [[tensor product of vector bundles]], [[external tensor product of vector bundles]], [[dual vector bundle]], 
@@ -374,14 +376,14 @@ For details see at [[Euler class]], [this Prop.](Euler+class#EulerClassOfWhitney
 
 ## References
 
-Discussion with an eye towards [[topological K-theory]] is in
+Discussion in a context of [[topological K-theory]]:
 
-* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
 
+* [[Max Karoubi]], §4.8 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226** Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
 
 * {#Hatcher} [[Allen Hatcher]], section 1.1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
-and with an eye towards [[algebraic K-theory]] in
+and with an eye towards [[algebraic K-theory]];
 
 * {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ (emphasis on [[algebraic K-theory]]), 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
 
