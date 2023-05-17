@@ -71,7 +71,7 @@ $$r = r_1 p_1 + r_2 p_r\colon c_1 \times c_2 \to e$$
 
 satisfies $r q_1 = r_1$ and $r q_2 = r_2$, and is the unique map satisfying these equations. The full argument is spelled out at [[additive category]]. 
 
-By a dual argument, if the coproduct $c_1 \sqcup c_2$ exists, then it may also be realized as the product of $c_1$ and $c_2$. Either way, the product of coproduct is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
+By a dual argument, if the coproduct $c_1 \sqcup c_2$ exists, then it may also be realized as the product of $c_1$ and $c_2$. Either way, the product or coproduct is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
 $$
   c_1 \oplus c_2.
 $$
