@@ -1333,7 +1333,7 @@ $$
   X
   \,.
 $$
-For this it is sufficient that $(-) \otimes X$ is a [[left Quillen functor]], hence that its [[right adjoint]] is a [[right Quillen functor]]. But on underlying morphisms the right adjoint is given by the [[internal hom]] $[X,-]$. Since the [[underlying]] object of $X$ is still cofibrant in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat) the tatement follows by the definition of the projective model structure and the fact that $[X,-]$ satisfies the [[pullback-power axiom]] in the [[monoidal model category]] $\mathbf{C}$.
+For this it is sufficient that $(-) \otimes X$ is a [[left Quillen functor]], hence that its [[right adjoint]] is a [[right Quillen functor]]. But on underlying morphisms the right adjoint is given by the [[internal hom]] $[X,-]$. Since the [[underlying]] object of $X$ is still cofibrant in $\mathbf{C}$, by (eq:RightQuillenInductionForBorelInCombSimpModCat) the statement follows by the definition of the projective model structure and the fact that $[X,-]$ satisfies the [[pullback-power axiom]] in the [[monoidal model category]] $\mathbf{C}$.
 \end{proof}
 
 
