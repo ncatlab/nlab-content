@@ -5,7 +5,7 @@
 
 ## Idea
 
-An **analytic manifold** is a [[manifold]] with [[analytic function|analytic]] transition functions over some [[field]].
+An **analytic manifold** is a [[manifold]] with [[analytic function|analytic]] transition functions over some [[field]].  The most widely studied are real-analytic and complex analytic manifolds.
 
 Analytic manifolds are studied in [[analytic geometry]].
 
