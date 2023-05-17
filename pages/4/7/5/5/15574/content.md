@@ -99,7 +99,7 @@ Now it was Lawvere's observation that a third functor $N\to N$ which with a clin
 
 1. it expresses the _opposition_ between $L$ and $R$ by an entailed adjunction $L\circ T\dashv R\circ T$,
  
-3. it expresses the _identity_ $L$ between $R$ by the entailed equivalence $T\circ L\simeq T\circ R$ .
+3. it expresses the _identity_ between $L$ and $R$ by the entailed equivalence $T\circ L\simeq T\circ R$ .
 
 In other words, *$T$ unites, opposes and identifies $L$ and $R$ at the same time*!
 
