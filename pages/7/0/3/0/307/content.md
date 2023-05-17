@@ -32,7 +32,11 @@ for every object $x$ of $C$, there exists a unique [[morphism]] $!:x\to 1$.  The
 
 ## Properties
 
-* A terminal object may also be viewed as a [[limit]] over the [[empty diagram]].  Conversely, a limit over a diagram is a terminal cone over that diagram.
+\begin{remark}\label{TerminalObjectIsEmptyLimit}
+A terminal object may also be viewed as a [[limit]] over the [[empty diagram]].  
+\end{remark}
+
+* Conversely, a [[limit]] over any diagram is a terminal cone over that diagram.
 
 * For any object $x$ in a category with terminal object $1$, the categorical [[product]] $x\times 1$ and the [[exponential object]] $x^1$ both exist and are canonically isomorphic to $x$.
 
