@@ -61,26 +61,17 @@ In an $Ab$-enriched category $C$, any [[initial object]] is also a [[terminal ob
 
 ### Biproducts
 
-For $c_1, c_2 \in C$ two objects in an $Ab$-enriched category $C$,  [[generalized the|the]] [[product]] $c_1 \times c_2$ coincides  with [[generalized the|the]] [[coproduct]] $c_1 \sqcup c_2$ when either exists.  More precisely, when both exist, the canonical morphism
+For $c_1, c_2 \in C$ two objects in an $Ab$-enriched category $C$,  [[generalized the|the]] [[product]] $c_1 \times c_2$ coincides  with [[generalized the|the]] [[coproduct]] $c_1 \sqcup c_2$ when either exists. For example, if $c_1 \times c_2$ exists, with projection maps $p_i\colon c_1 \times c_2 \to c_i$, then according to the universal property of products, there are unique maps 
 $$
-  r : c_1 \sqcup c_2 \to c_1 \times c_2
+  q_i\colon c_i \to c_1 \times c_2
 $$
-defined by
-$$
-  \left(
-    c_i \to c_1 \sqcup c_2 \stackrel{r}{\to} c_1 \times c_2 \to c_j
-  \right)
-  =
-  \left\{
-    \array{
-      Id_c_i & if i = j
-      \\
-      0 & if i \neq j
-    }
-  \right.
-  \,,
-$$
-which exists whenever $c_1\sqcup c_2$ and $c_1\times c_2$ do, is an [[isomorphism]].  This object is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
+such that $p_i q_i = 1_{c_i}$ and $p_j q_i = 0$ for $j \neq i$, and these maps $q_i$ are the coproduct coprojections, i.e., they realize $c_1 \times c_2$ as the coproduct of $c_1$ and $c_2$. Indeed, for any maps $r_1\colon c_1 \to e$ and $r_2\colon c_2 \to e$, it is easily checked that 
+
+$$r = r_1 p_1 + r_2 p_r\colon c_1 \times c_2 \to e$$ 
+
+satisfies $r q_1 = r_1$ and $r q_2 = r_2$, and is the unique map satisfying these equations. The full argument is spelled out at [[additive category]]. 
+
+By a dual argument, if the coproduct $c_1 \sqcup c_2$ exists, then it may also be realized as the product of $c_1$ and $c_2$. Either way, the product of coproduct is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
 $$
   c_1 \oplus c_2.
 $$
