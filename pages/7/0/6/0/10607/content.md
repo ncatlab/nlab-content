@@ -420,7 +420,7 @@ See at _[[fracture theorem]]_ for more.
 On [[super smooth infinity-groupoids]] there is an adjoint modality
 deriving from the [adjoint triple relating plain algebra and superalgebra](super+algebra#AdjointsToInclusionOfPlainAlgebra).
 The [[right adjoint]] deserves to be called the [[bosonic modality]] ("[[body]]"), hence its [[left adjoint]] the [[fermionic modality]].
-This expresses the presence of [[supergeometry]]/[[fermions]], hence ultimately the [[Pauli exclusion principle]]. Following [PN&#167;290](Science+of+Logic#290) this unity of opposties might hence be called "asunderness".
+This expresses the presence of [[supergeometry]]/[[fermions]], hence ultimately the [[Pauli exclusion principle]]. Following [PN&#167;290](Science+of+Logic#290) this unity of opposites might hence be called "asunderness".
 
 ### Totally distributive categories
 
