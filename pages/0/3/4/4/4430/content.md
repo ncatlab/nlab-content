@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -20,16 +19,40 @@
 
 Where the [[center of a category]] is in general just a [[commutative monoid]] (the [[endomorphism monoid]] of its [[identity functor]] formed in the [[functor category]]), for [[additive categories]] this commutative monoid carries the further [[structure]] of a [[commutative ring]]: the [[endomorphism ring]] of its identity functor.  (In fact this is also true for [[Ab-enriched categories]], which are more general.)
 
-## Properties
 
-* In general, the construction of centers is not [[functor|functorial]] (except with respect to [[equivalence of categories]]); but it is functorial in some important special circumstances, such as certain reconstruction theorems. 
 
-> (namely?)
+## Definition
+
+\begin{definition}
+For $\mathcal{C}$ an [[Ab-enriched category]] (eg. an [[additive category]]) its *center* is
+
+$$
+  Z(\mathcal{C})
+  \;\coloneqq\;
+  [\mathcal{C}, \mathcal{C}]
+  \big(id_{\mathcal{C}}, id_{\mathcal{C}}\big)
+  \;\;
+  \in
+  \;
+  CRing
+  \,,
+$$
+
+where
+
+* $[\mathcal{C}, \mathcal{C}]$ denotes the [[enriched functor category]] of [[enriched functor|enriched]] [[endofunctors]] on $\mathcal{C}$,
+
+* $id_{\mathcal{C}}$ denotes the [[identity functor]] on $\mathcal{C}$.
+
+By [[Ab]]-enrichment, this means that $Z(\mathcal{C})$ carries the [[structure]] of a [[commutative monoid|commutative]] [[monoid object]] [[internalization|internal]] to [[Ab]], [hence](monoid+object#Rings): the [[structure]] of a [[commutative ring]].
+\end{definition}
+
+
 
 ## Examples
 
 \begin{proposition}\label{CenterOfRModIsR}
-Let [[Mod|$R Mod$]] denote the [[category]] of [[modules]] over a [[commutative ring]] $R$.  Then the center of $R Mod$ is $R$.  
+Let [[Mod|$R Mod$]] denote the [[category]] of [[modules]] over a [[commutative ring]] $R$.  Its center is $Z(R Mod) \,\simeq\, R$.  
 \end{proposition}
 \begin{proof}
 First note that for any $r \in R$, [[multiplication]] by $r$ acts as an [[endomorphism]] of each $R$-module (because $R$ is commutative), and this endomorphism is [[natural transformation|natural]]. This gives a [[ring homomorphism]] from $R$ to the center of $R Mod$ which is [[injective]] because distinct elements of $r$ act differently as multiplication on the $R$-module given by $R$ itself. To see that it is also [[surjective]] and [hence](balanced+category#SetIsBalanced) [[bijective]], suppose $\alpha$ is a [[natural transformation]] of the [[identity functor]] on $R \Mod$.  Then $\alpha_R \colon R \to R$ must be [[multiplication]] by some $r \in R$, since every endomorphism of the $R$-module $R$ is given by multiplication by some $r \in R$.  More generally, for any module $M$ and any $m \in M$ there is a module [[homomorphism]] $f \colon R \to M$ with $f(1) = m$, which by [[natural transformation|naturality]] implies
@@ -77,6 +100,13 @@ Note that it is much easier to recover $C(X)$ and thus $X$ starting from $\Vect(
 \begin{remark} 
 An analogue of Prop. \ref{CompactHausdorffSpacefromVect} also holds for real vector bundles: the center of the $\mathbb{R}$-linear additive category of real vector bundles over $X$ is the algebra of continuous real-valued functions on $X$, and from this we can recover $X$, either by using the real version of the Gelfand-Naimark theorem, or by complexifying this algebra and using the usual complex version of the Gelfand-Naimark theorem.   
 \end{remark}
+
+
+## Properties
+
+* In general, the construction of centers is not [[functor|functorial]] (except with respect to [[equivalence of categories]]); but it is functorial in some important special circumstances, such as certain reconstruction theorems. 
+
+> (namely?)
 
 
 ## Related concepts
