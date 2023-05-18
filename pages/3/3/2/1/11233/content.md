@@ -7,39 +7,47 @@
 
 The *Henstock integral* (also attributed to *Kurzweil*, *Denjoy*, *Luzin*, and *Perron*, and sometimes called, neutrally but perhaps ambiguously, the *gauge integral*) is a way to define the [[integral]] of a (partial) function $f:\mathbb{R}\to \mathbb{R}$ which applies to more functions than either the [[Riemann integral]] or the [[Lebesgue integral]] and is in some ways better behaved as well.
 
-For instance, the (even) function
-$$
-t\mapsto \frac{\sin(1/t^3)}{t},\quad t \in \mathbb{R}\setminus\{0\}
-$$
-is not Lebesgue integrable on any interval containing 0, but it has ([[David Roberts|DR]]: according to WolframAlpha) Henstock integral
-$$
-\int_{0}^x \frac{\sin (1/t^3)}{t} = \frac{1}{3}\left( \pi - 2 Si(1/x^3)\right)
-$$
-where $Si(x)$ is the [[sine integral]] $\int_0^x \frac{\sin(t)}{t}dt $ (note that $Si$ extends to an [[entire function]] on $\mathbb{C}$).
-
-
 However, the Lebesgue integral is more commonly used by working mathematicians because it fits more naturally into the general theory of [[measure]], while the Riemann/Darboux integral is more commonly used in introductory calculus courses because its definition is simpler.
 
 
 ## Definition
 
-Let $[a,b]$ be a closed [[interval]] in $\mathbb{R}$ and let $f:[a,b]\to \mathbb{R}$.  A *tagged partition* $P$ of $[a,b]$ is a finite sequence of points $a = u_0 \lt u_1 \lt \dots \lt u_{n+1} = b$ together with points $t_i \in [u_i, u_{i+1}]$ for all $i$.  The *Riemann sum* of $f$ over such a tagged partition is 
+Let $[a,b]$ be a closed [[interval]] in $\mathbb{R}$ and let $f:[a,b]\to \mathbb{R}$.  A *tagged partition* $P$ of $[a,b]$ is a finite sequence of points $a = u_0 \leq u_1 \leq \dots \leq u_n = b$ together with points $t_i \in [u_i, u_{i+1}]$ for all $i$.  The *Riemann sum* of $f$ over such a tagged partition is 
 
-$$ \sum_P f = \sum_{i=0}^{n} f(t_i) \cdot (u_{i+1} - u_{i}). $$
+$$ \sum_P f = \sum_{i=0}^{n-1} f(t_i) \cdot (u_{i+1} - u_{i}). $$
 
-Define a *gauge* on $[a,b]$ to be any function $\delta: [a,b] \to (0,\infty)$.  We say that a tagged partition is *$\delta$-fine* if $[u_i, u_{i+1}] \subset (t_i - \delta(t_i), t_i + \delta(t_i))$.
+Define a *gauge* on $[a,b]$ to be any function $\delta: [a,b] \to (0,\infty]$.  We say that a tagged partition is *$\delta$-fine* if $[u_i, u_{i+1}] \subset [t_i - \delta(t_i), t_i + \delta(t_i)]$.
 
-Finally, we say that $I$ is the **integral** of $f$ on $[a,b]$, written $I = \int_{a}^b f(x) d x$, if for any $\epsilon\gt 0$ there exists a gauge $\delta$ such that
+Finally, we say that $I$ is the **integral** of $f$ on $[a,b]$, written $I = \int_a^b f = \int_{a}^b f(x) d x$, if for any $\epsilon\gt 0$ there exists a gauge $\delta$ such that
 
-$$ {| \sum_P f - I |} \lt \epsilon $$
+$$ {\left| {\sum_P f - I} \right|} \lt \epsilon $$
 
-for any $\delta$-fine partition $P$.  If such an $I$ exists, we say that $f$ is (Henstock) **integrable** on $[a,b]$.
+for any $\delta$-fine partition $P$.  If such an $I$ exists, it must be unique, and we say that $f$ is (Henstock) **integrable** on $[a,b]$.
+
+
+### Comparison to the Riemann definition
 
 If we require a gauge to be a [[constant function]], then we recover the definition of the [[Riemann integral]].
 
-The Henstock integral may be seen as a non-uniform generalization of the Riemann integral.  Whereas specifying a constant $\delta$ is tantamount to picking an [[entourage]] on $[a,b]$, specifying a gauge $\delta$ is tantamount to assigning a [[neighbourhood]] to each point in $[a,b]$.  (Indeed, with either definition of integral, it would be equivalent to replace $\delta$ in the definition with an entourage or an assignment of neighbourhoods.)  Similarly, the definition of [[uniformly continuous function]] becomes that of [[continuous function]] if you change $\delta$ from a constant to a gauge.
+Thus the Henstock integral may be seen as a non-uniform generalization of the Riemann integral.  Whereas specifying a constant $\delta$ is tantamount to picking an [[entourage]] on $[a,b]$, specifying a gauge $\delta$ is tantamount to assigning a [[neighbourhood]] to each point in $[a,b]$.  (Indeed, with either definition of integral, it would be equivalent to replace $\delta$ in the definition with an entourage or an assignment of neighbourhoods.)  Similarly, the definition of [[uniformly continuous function]] becomes that of [[continuous function]] if you change $\delta$ from a constant to a gauge.
 
-In [[constructive mathematics]], we must allow a gauge to take [[lower real number|lower semicontinuous]] values.  (This is not necessary with the Riemann integral.)  Otherwise, there may not be enough gauges, since these are rarely continuous.  (The definition could also be made constructive by explicitly referring to an assignment of neighbourhoods to points or by replacing $\delta$ with an [[entire relation]].  Again compare the change from the definition of uniformly continuous to pointwise-continuous function.)
+
+### Constructive version
+
+In [[constructive analysis]], we must allow a gauge to take [[lower real number|lower real]] values.  (This is not necessary with the Riemann integral.)  Otherwise, there may not be enough gauges, since these are rarely continuous.  (The definition could also be made constructive by explicitly referring to an assignment of neighbourhoods to points or by replacing $\delta$ with an [[entire relation]].)
+
+
+## Examples
+
+The (even) function
+$$
+x\mapsto \frac{\sin(1/x^3)}{x},\quad x \in \mathbb{R}\setminus\{0\}
+$$
+is not Riemann or Lebesgue integrable on any interval containing 0, but it has the [[semidefinite integral|semidefinite]] Henstock integral
+$$
+\int_{0} \frac{\sin (1/x^3)}{x}\,dx = \frac{1}{3}\left( \pi/2 - Si(1/x^3)\right)
+$$
+where $Si(t)$ is the [[sine integral]] $\int_0 \frac{\sin(t)}{t}dt $ (which extends to an [[entire function]] on $\mathbb{C}$).
 
 
 ## Properties
@@ -55,7 +63,7 @@ If $f$ is differentiable on $[a,b]$, then $f'$ is Henstock integrable on $[a,b]$
 
 +-- {: .un_theorem}
 ###### Theorem
-If $f$ is Henstock integrable on $[a,b]$, then $F(x) = \int_a^x f(t) d t$ is differentiable [[almost everywhere]] on $[a,b]$ and $F' = f$.
+If $f$ is Henstock integrable on $[a,b]$, then $F(x) = \int_a f(x) d x$ is differentiable [[almost everywhere]] on $[a,b]$ and $F' = f|_{\dom F'}$.
 =--
 
 
