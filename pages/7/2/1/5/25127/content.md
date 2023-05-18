@@ -18,7 +18,9 @@ and in the modern form of [[inference rules]] in:
 
 * {#NordströmPeterssonSmith90} Bengt Nordström, Kent Petersson, Jan M. Smith, §8.1 of: *Programming in Martin-Löf's Type Theory*, Oxford University Press (1990) $[$[webpage](https://www.cse.chalmers.se/research/group/logic/book/), [pdf](https://www.cse.chalmers.se/research/group/logic/book/book.pdf), [[NordstromPeterssonSmith-TypeTheory.pdf:file]]$]$
 
-The special case of inductive [[W-types]] is formulated in:
+The special case of inductive types now known as *[[W-types|$\mathcal{W}$-types]]* is first formulated in:
+
+* [[Per Martin-Löf]], pp. 171 of: *Constructive Mathematics and Computer Programming*, in: *Proceedings of the Sixth International Congress of Logic, Methodology and Philosophy of Science (1979)*, Studies in Logic and the Foundations of Mathematics **104** (1982) 153-175 $[$<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>, [ISBN:978-0-444-85423-0](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/104/suppl/C)$]$
 
 * [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) $[$[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]$]$
 
@@ -34,7 +36,7 @@ Early proposals for a general formal definition of inductive types:
 
 #### Modern definition
 
-The modern notion of [[inductive types]] and [[inductive families]] in [[intensional type theory]] independently due to
+The modern notion of [[inductive types]] and [[inductive families]] in [[intensional type theory]] is independently due to
 
 * [[Peter Dybjer]], *Inductive sets and families in Martin-Löf's type theory and their set-theoretic semantics*, Logical frameworks (1991) 280-306 $[$[doi:10.1017/CBO9780511569807.012](https://doi.org/10.1017/CBO9780511569807.012), [pdf](http://www.cse.chalmers.se/~peterd/papers/Setsem_Inductive.pdf)$]$
 
