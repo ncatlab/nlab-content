@@ -1,20 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## The idea ##
 
-The concept of separable algebra is a strengthening of the concept of [[semisimple algebra]], and a generalization of the concept of a [[separable field extension]].
+The concept of *separable algebras* is a strengthening of the concept of *[[semisimple algebras]]*, and a generalization of the concept of *[[separable field extensions]]*.
 
 ## Definition ##
 
 There are a several equivalent characterizations of separable algebras.  For all of these we fix a [[field]] $k$.  In what follows, all $k$-algebras will be assumed [[associative algebra|associative]] and [[unital algebra|unital]]. 
 
-First, a $k$-algebra $A$ is defined to be **separable** if for every [[field extension]] $K$ of $k$, the algebra $A \otimes_k K$ is semisimple.
+First, a $k$-algebra $A$ is defined to be **separable** if for every [[field extension]] $K$ of $k$, the [[tensor product]] algebra $A \otimes_k K$ is [[semisimple algebra|semisimple]].
 
-Second, a $k$-algebra $A$ is separable if and only if it is [[flat module|flat]] when considered as a right module of $A^e = A \otimes_k A^{op}$ in the obvious (but perhaps not quite standard) way.  
+Second, a $k$-algebra $A$ is separable if and only if it is [[flat module|flat]] when considered as a right [[module]] of $A^e = A \otimes_k A^{op}$ in the obvious (but perhaps not quite standard) way.  
 
-Third, a $k$-algebra $A$ is separable if and only if it is [[projective module|projective]] when considered as a left module of $A^e$ in the usual way.
+Third, a $k$-algebra $A$ is separable if and only if it is [[projective module|projective]] when considered as a left [[module]] of $A^e$ in the usual way.
 
 Fourth, a $k$-algebra $A$ is separable if and only if the $A^e$-module morphism 
 $$ \array{
@@ -105,14 +117,30 @@ Commutative separable algebras are important in algebraic geometry.   The concep
 
 Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  There are further generalizations, leading to [[separable functor|separable functors]]...
 
-## Literature and links
+## Related entries
 
-* $n$Lab: [[separable functor]], [[separable field extension]], [[separable coring]]
-* wikipedia [separable algebra](http://en.wikipedia.org/wiki/Separable_algebra)
+* [[separable functor]]
 
-* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([link](http://www.math.cornell.edu/~maguiar/strongly.pdf)) 
-* F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
+* [[separable field extension]]
+
+* [[separable coring]]
+
+
+## References
+
 * K. Hirata, K. Sugano, _On semisimple and separable extensions of noncommutative rings_, J. Math. Soc. Japan 18 (1966), 360-373.
+
+* F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin (1971)
+
+
+* [[Marcelo Aguiar]], *A note on strongly separable algebras*, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65** (2000) 51-60  &lbrack;[pdf](http://www.math.cornell.edu/~maguiar/strongly.pdf)&rbrack;
+
+
+
+See also:
+
+* Wikipedia, *[Separable algebra](http://en.wikipedia.org/wiki/Separable_algebra)*
+
 
 An explicit proof of the Grothendieck Galois theory statement that the category of commutative separable algebras over a field $K$ is anti-equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $K$:
 
