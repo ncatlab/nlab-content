@@ -22,7 +22,7 @@
 ## Idea
  {#Idea}
 
-In [[type theory]], by a *$\mathcal{W}$-type* &lbrack;[Martin-Löf (1984)](#Martin-Löf84), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49)&rbrack; one means a [[type]] which is defined [[induction|inductively]] in a *[[well-founded relation|$\mathcal{W}$ell-founded]]* way based on a type $C$ of "*c*onstructors" and a type of $A$ of "*a*rities". As such, $\mathcal{W}$-types are special kinds of [[inductive types]] (see [below](#WTypesInTypeTheory)).
+In [[type theory]], by a *$\mathcal{W}$-type* &lbrack;[Martin-Löf (1982), pp. 171](#Martin-Löf82), [(1984)](#Martin-Löf84), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49)&rbrack; one means a [[type]] which is defined [[induction|inductively]] in a *[[well-founded relation|$\mathcal{W}$ell-founded]]* way based on a type $C$ of "*c*onstructors" and a type of $A$ of "*a*rities". As such, $\mathcal{W}$-types are special kinds of [[inductive types]] (see [below](#WTypesInTypeTheory)).
 
 The same terminology "$\mathcal{W}$-type" is used &lbrack;[Moerdijk & Palmgren (2000)](MoerdijkPalmgren00)&rbrack; for [[objects]] in (suitable [[pretopos|pre]]-)[[toposes]] which provide [[categorical semantics]] for the type-theoretic notion (see [further below](#WTypesInCategories)).
 
@@ -375,6 +375,9 @@ In [[homotopy type theory]], if $C$ has [[h-level]] $n\geq -1$, then any $\mathc
 ### General
 
 The original definition in [[type theory]] is due to
+
+* {#Martin-Löf82} [[Per Martin-Löf]], pp. 171 of: *Constructive Mathematics and Computer Programming*, in: *Proceedings of the Sixth International Congress of Logic, Methodology and Philosophy of Science (1979)*, Studies in Logic and the Foundations of Mathematics **104** (1982) 153-175 $[$<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>, [ISBN:978-0-444-85423-0](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/104/suppl/C)$]$
+
 
 * {#Martin-Löf84} [[Per Martin-Löf]] (notes by [[Giovanni Sambin]]), [pp. 43](https://ncatlab.org/nlab/files/MartinLofIntuitionisticTypeTheory.pdf#page=49) of: _Intuitionistic type theory_, Lecture notes Padua 1984, Bibliopolis, Napoli (1984) &lbrack;[pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]]&rbrack;
  
