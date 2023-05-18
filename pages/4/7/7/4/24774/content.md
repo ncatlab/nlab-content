@@ -337,6 +337,18 @@ An overview on the use of Euclidean Dynamical Triangulations and Causal Dynamica
 
 * Jan Ambjorn, *Lattice Quantum Gravity: EDT and CDT*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
 
+\linebreak
+
+On graphical techniques for [[spin network]] states in [[loop quantum gravity]]:
+
+* Emanuele Alesci, Ilkka Mäkinen, Jinsong Yang, *Graphical calculus of spin networks*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2304.00268](https://arxiv.org/abs/2304.00268)&rbrack;
+
+\linebreak
+
+Reviews the structure of maximal $D = 11$ and $D = 10$ [[supergravity]] theories:
+
+* [[Henning Samtleben]], *11D Supergravity and Hidden Symmetries*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2303.12682](https://arxiv.org/abs/2303.12682)&rbrack;
+
 
 \linebreak
 
