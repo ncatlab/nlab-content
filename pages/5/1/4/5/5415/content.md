@@ -37,6 +37,9 @@ There are also more specialized kinds of 2-adjunction, such as
   
   [[biadjunction]], [[pseudoadjunction]], [[lax 2-adjunction]]
 
+  [[strict adjoint 2-functor]]
+
+
   [[lax-idempotent 2-adjunction]]
 
 * [[adjoint (infinity,1)-functor]]
