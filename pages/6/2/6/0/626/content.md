@@ -274,8 +274,15 @@ Discussion in [[representation theory]]:
 
 Introductions to and surveys of string diagram calculus:
 
-* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
+* [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
 
+  > (in the generality of [[bicategories]])
+
+* [[Ross Street]], _Low dimensional topology and higher-order categories_ ([ps](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps))
+
+  >   (on surface diagrams)
+
+* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
 
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
@@ -285,16 +292,10 @@ Introductions to and surveys of string diagram calculus:
  
 * [[Simon Willerton]], _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
-* [[Ross Street]], _Low dimensional topology and higher-order categories_ ([ps](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps))
+* [[Robin Piedeleu]], [[Fabio Zanasi]], _An Introduction to String Diagrams for Computer Scientists_ &lbrack;[arXiv:2305.08768](https://arxiv.org/abs/2305.08768)&rbrack;
 
-* [[Robin Piedeleu]], [[Fabio Zanasi]], _An Introduction to String Diagrams for Computer Scientists_ ([arXiv:2305.08768](https://arxiv.org/abs/2305.08768))
+  > (in [[computer science]])
 
-
-  (about surface diagrams)
-
-* [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
-
-  (in the generality of [[bicategories]])
 
 From the point of view of [[finite quantum mechanics in terms of dagger-compact categories]]:
 
