@@ -24,7 +24,7 @@ Where the [[center of a category]] is in general just a [[commutative monoid]] (
 ## Definition
 
 \begin{definition}
-For $\mathcal{C}$ an [[Ab-enriched category]] (eg. an [[additive category]]) its *center* is
+For $\mathcal{C}$ an [[Ab-enriched category]] (e.g. an [[additive category]]) its *center* is
 
 $$
   Z(\mathcal{C})
@@ -80,18 +80,18 @@ $$
 which shows that $\alpha_M$ is multiplication by $r$. \end{proof}
 
 \begin{remark}
-Two rings whose [[categories of modules]] are equivalent as additive categories are said to be [[Morita equivalence|Morita equivalent]].  As a consequence of Prop. \ref{CenterOfRModIsR}, Morita equivalent *commutative* rings are already [[isomorphism|isomorphic]].
+Two rings whose [[categories of modules]] are equivalent as Ab-enriched categories are said to be [[Morita equivalence|Morita equivalent]].  As a consequence of Prop. \ref{CenterOfRModIsR}, Morita equivalent *commutative* rings are already [[isomorphism|isomorphic]].
 \end{remark}
 
-As a further illustration of these ideas we show how the [[topological space|topology]] on a [[compact Hausdorff space]] is determined by the category of [[vector bundles]] over this space.  For any [[compact Hausdorff space]] $X$ let [[Vect(X)|$Vect(X)$]] denote the category of ([[finite-dimensional vector space|finite-]][[rank of a vector bundle|rank]] [[complex vector bundle|complex]]) [[vector bundles]] over $X$.  This category is [[additive category|additive]] and [[linear category|$\mathbb{C}$-linear]], i.e. [[enriched category|enriched]] over the category of [[complex vector spaces]].  Thus, the center of $Vect(X)$ is a [[commutative algebra]] over $\mathbb{C}$. Moreover:
+As a further illustration of these ideas we show how the [[topological space|topology]] on a [[compact Hausdorff space]] is determined by the category of [[vector bundles]] over this space.  For any [[compact Hausdorff space]] $X$ let [[Vect(X)|$Vect(X)$]] denote the category of ([[finite-dimensional vector space|finite-]][[rank of a vector bundle|rank]] [[complex vector bundle|complex]]) [[vector bundles]] over $X$.  This category is [[linear category|$\mathbb{C}$-linear]], i.e. [[enriched category|enriched]] over the category of [[complex vector spaces]].  Thus, the center of $Vect(X)$ is a [[commutative algebra]] over $\mathbb{C}$. Moreover:
 
 \begin{proposition}\label{CenterOfVectXisCX}
 If $X$ is a [[compact Hausdorff space]] then the center of [[Vect(X)|$Vect(X)$]] is $C(X)$, the [[function algebra]] of [[complex numbers|complex]]-valued [[continuous functions]] on $X$.  
 \end{proposition}
 \begin{proof}
-For any [[field]] $k$ suppose $A$ is a commutative $k$-algebra.  Let $A Proj$ be the category of [[finitely generated module|finitely generated]] [[projective modules|projective $A$-modules]]. This is a $k$-linear additive category, and a straightforward extension of the proof of Prop. \ref{CenterOfRModIsR} shows that the center of $A Proj$ is isomorphic to $A$, not merely as a commutative ring, but as a commutative $k$-algebra.  
+For any [[field]] $k$ suppose $A$ is a commutative $k$-algebra.  Let $A Proj$ be the category of [[finitely generated module|finitely generated]] [[projective modules|projective $A$-modules]]. This is a $k$-linear category, and a straightforward extension of the proof of Prop. \ref{CenterOfRModIsR} shows that the center of $A Proj$ is isomorphic to $A$, not merely as a commutative ring, but as a commutative $k$-algebra.  
 
-Let $X$ be a compact Hausdorff space.  By [[Serre-Swan theorem|Swan's theorem]], [[Vect(X)|$Vect(X)$]] is [[equivalence of categories|equivalent]], as a $\mathbb{C}$-linear additive category, to $C(X) Proj$.  Thus the center of $Vect(X)$ is isomorphic to $C(X)$.
+Let $X$ be a compact Hausdorff space.  By [[Serre-Swan theorem|Swan's theorem]], [[Vect(X)|$Vect(X)$]] is [[equivalence of categories|equivalent]], as a $\mathbb{C}$-linear category, to $C(X) Proj$.  Thus the center of $Vect(X)$ is isomorphic to $C(X)$.
 \end{proof}
 
 \begin{corollary}\label{CompactHausdorffSpacefromVect}
@@ -107,7 +107,7 @@ Note that it is much easier to recover $C(X)$ and thus $X$ starting from $\Vect(
 \end{remark}
 
 \begin{remark} 
-An analogue of Prop. \ref{CompactHausdorffSpacefromVect} also holds for real vector bundles: the center of the $\mathbb{R}$-linear additive category of real vector bundles over $X$ is the algebra of continuous real-valued functions on $X$, and from this we can recover $X$, either by using the real version of the Gelfand-Naimark theorem, or by complexifying this algebra and using the usual complex version of the Gelfand-Naimark theorem.   
+An analogue of Prop. \ref{CompactHausdorffSpacefromVect} also holds for real vector bundles: the center of the $\mathbb{R}$-linear category of real vector bundles over $X$ is the algebra of continuous real-valued functions on $X$, and from this we can recover $X$, either by using the real version of the Gelfand-Naimark theorem, or by complexifying this algebra and using the usual complex version of the Gelfand-Naimark theorem.   
 \end{remark}
 
 
