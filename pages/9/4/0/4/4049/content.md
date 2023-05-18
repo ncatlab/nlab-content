@@ -238,11 +238,26 @@ $$
 \end{proposition}
 
 
+## Examples
+
+\begin{example}
+  With [[Set]] denoting the category of [[sets]] and [[functions]] equipped with its [[cartesian monoidal category|cartesian monoidal]]-[[structure]] (via [[Cartesian product]] of sets), [[Set]]-enriched natural transformations are just plain [[natural transformations]] between [[functors]] between [[locally small categories]].
+\end{example}
+
+\begin{example}
+\label{StrictTwoNaturalTransformations}
+ With *[[Cat]]* denoting the [[1-category]] of [[small category|small]] [[strict categories]] equipped with its [[cartesian monoidal category|cartesian monoidal]] [[structure]] (via forming [[product categories]]), $Cat$-enriched natural transformations are also known as *[[strict 2-natural transformations]]*.
+\end{example}
+
+
 ## Related concepts
+
+* [[enriched functor]]
 
 * [[enriched functor category]]
 
-* [[enriched adjunction]]
+* [[enriched adjoint functor]]
+
 
 ## References
 
