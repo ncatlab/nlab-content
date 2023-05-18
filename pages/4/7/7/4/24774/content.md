@@ -92,6 +92,12 @@ On [[scattering amplitudes]] in [[supergravity]] via "[[double copy]]" [[KLT rel
 
 * [[Zvi Bern]], [[John Joseph Carrasco]], [[Marco Chiodaroli]], [[Henrik Johansson]], [[Radu Roiban]], *Supergravity amplitudes, the double copy and ultraviolet behavior*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2304.07392](https://arxiv.org/abs/2304.07392)&rbrack;
 
+\linebreak
+
+Review of [[U-duality]] and [[exceptional generalized geometry]]  in [[KK-compactification]] of [[D=11 supergravity]]:
+
+* [[Henning Samtleben]], *11D Supergravity and Hidden Symmetries*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2303.12682](https://arxiv.org/abs/2303.12682)&rbrack;
+
 
 \linebreak
 
@@ -339,15 +345,13 @@ An overview on the use of Euclidean Dynamical Triangulations and Causal Dynamica
 
 \linebreak
 
-On graphical techniques for [[spin network]] states in [[loop quantum gravity]]:
+On [[string diagram]] techniques for [[spin network]] states in [[loop quantum gravity]]:
 
 * Emanuele Alesci, Ilkka Mäkinen, Jinsong Yang, *Graphical calculus of spin networks*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2304.00268](https://arxiv.org/abs/2304.00268)&rbrack;
 
 \linebreak
 
-Reviews the structure of maximal $D = 11$ and $D = 10$ [[supergravity]] theories:
 
-* [[Henning Samtleben]], *11D Supergravity and Hidden Symmetries*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2303.12682](https://arxiv.org/abs/2303.12682)&rbrack;
 
 
 \linebreak
