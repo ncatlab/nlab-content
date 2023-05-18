@@ -61,21 +61,23 @@ In an $Ab$-enriched category $C$, any [[initial object]] is also a [[terminal ob
 
 ### Biproducts
 
-For $c_1, c_2 \in C$ two objects in an $Ab$-enriched category $C$,  [[generalized the|the]] [[product]] $c_1 \times c_2$ coincides  with [[generalized the|the]] [[coproduct]] $c_1 \sqcup c_2$ when either exists. For example, if $c_1 \times c_2$ exists, with projection maps $p_i\colon c_1 \times c_2 \to c_i$, then according to the universal property of products, there are unique maps 
+For $c_1, c_2 \in C$ two objects in an $Ab$-enriched category $C$,  [[generalized the|the]] [[product]] $c_1 \times c_2$ coincides  with [[generalized the|the]] [[coproduct]] $c_1 \sqcup c_2$ when either exists. 
+
+For example, if $c_1 \times c_2$ exists, with [[projection]] maps $p_i\colon c_1 \times c_2 \to c_i$, then according to the [[universal property]] of products, there are unique maps 
 $$
   q_i\colon c_i \to c_1 \times c_2
 $$
-such that $p_i q_i = 1_{c_i}$ and $p_j q_i = 0$ for $j \neq i$, and these maps $q_i$ are the coproduct coprojections, i.e., they realize $c_1 \times c_2$ as the coproduct of $c_1$ and $c_2$. Indeed, for any maps $r_1\colon c_1 \to e$ and $r_2\colon c_2 \to e$, it is easily checked that 
+such that $p_i q_i = 1_{c_i}$ and $p_j q_i = 0$ for $j \neq i$, and these maps $q_i$ are the coproduct [[coprojections]], i.e., they realize $c_1 \times c_2$ as the coproduct of $c_1$ and $c_2$. Indeed, for any maps $r_1\colon c_1 \to e$ and $r_2\colon c_2 \to e$, it is easily checked that 
 
 $$r = r_1 p_1 + r_2 p_r\colon c_1 \times c_2 \to e$$ 
 
-satisfies $r q_1 = r_1$ and $r q_2 = r_2$, and is the unique map satisfying these equations. The full argument is spelled out at [[additive category]]. 
+satisfies $r q_1 = r_1$ and $r q_2 = r_2$, and is the unique map satisfying these equations. The full argument is spelled out at *[[additive category]]*. 
 
-By a dual argument, if the coproduct $c_1 \sqcup c_2$ exists, then it may also be realized as the product of $c_1$ and $c_2$. Either way, the product or coproduct is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
+By a [[formal duality|dual]] argument, if the coproduct $c_1 \sqcup c_2$ exists, then it may also be realized as the product of $c_1$ and $c_2$. Either way, the product or coproduct is called a *[[biproduct]]* or (sometimes) a *[[direct sum]]* and is generally denoted
 $$
   c_1 \oplus c_2.
 $$
-It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped with morphisms $q_i:c_i\to c_1\oplus c_2$ and $p_i:c_1\oplus c_2 \to c_i$ such that $p_i q_j = \delta_{i j}$ and $q_1 p_1 + q_2 p_2 = 1_{c_1\oplus c_2}$.  Expressed in this form, it is clear that any $Ab$-enriched functor preserves biproducts.
+It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped with morphisms $q_i \colon c_i\to c_1\oplus c_2$ and $p_i \colon c_1\oplus c_2 \to c_i$ such that $p_i q_j = \delta_{i j}$ and $q_1 p_1 + q_2 p_2 = 1_{c_1\oplus c_2}$.  Expressed in this form, it is clear that any $Ab$-[[enriched functor]] [[preserved limit|preserves]] biproducts.
 
 
 ## As a generalisation of rings
