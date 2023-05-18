@@ -19,11 +19,14 @@
 
 ## Definition
 
-Given [[category|categories]] $C$ and $D$, the **functor category** -- written $D^C$ or $[C,D]$ -- is the category whose
+Given [[category|categories]] $C$ and $D$, the **functor category**  -- written $D^C$ or $[C,D]$ -- is the category whose
 
-* [[object]]s are [[functor|functors]] $F: C \to D$  
+* [[class]] of [[objects]] is the collection of all [[functors]] $F \colon C \to D$  
 
-* [[morphism]]s are [[natural transformation|natural transformations]] between these functors.
+* [[morphisms]] are [[natural transformations]] between these functors.
+
+
+
 
 ### In homotopy type theory
 
@@ -43,9 +46,9 @@ We define a **natural isomorphism** to be an [[isomorphism]] in $B^A$.
 
 ## Usage
  
-Functor categories serve as the [[hom-category|hom-categories]] in the [[strict 2-category]] [[Cat]].
+Functor categories serve as the [[hom-categories]] in the [[strict 2-category]] [[Cat]].
 
-In the context of [[enriched category theory]] the functor category is generalized to the [[enriched functor category]].
+In the context of [[enriched category theory]] the functor category is generalized to the *[[enriched functor category]]*.
 
 In the absence of the [[axiom of choice]] (including many [[internal category|internal]] situations), the appropriate notion to use is often instead the [[anafunctor category]].
 
@@ -162,6 +165,10 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 
 
 ## Related concepts
+
+* [[enriched functor category]]
+
+* [[Prof]]
 
 * [[2-functor 2-category]]
 
