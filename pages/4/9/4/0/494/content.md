@@ -1714,6 +1714,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 * [[proadjoint]], [[Hopf adjunction]]
 
 * [[2-adjunction]]
+
+  [[adjoint 2-functor]], [[strict adjoint 2-functor]]
   
   [[biadjunction]], [[lax 2-adjunction]], [[pseudoadjunction]]
 
