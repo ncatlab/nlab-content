@@ -17,7 +17,9 @@ We way that $F$ is a separable functor if $\mathcal{F}$ splits (i.e. $\mathcal{F
 
 ## Properties
 
-__Rafael's theorem.__ Let $F\dashv G$ be a pair of adjoint functors. Then $F$ is separable iff the unit $\eta:1\to GF$ has a section (= a natural transformation $\nu$ which is its right inverse, $\nu\circ\eta = 1$). $G$ is separable iff the counit $\epsilon:FG\to 1$ has a retraction (= a natural transformation $\zeta$ which is its left inverse, $\eta\circ\zeta =1$). 
+__Rafael's theorem.__ Let $F\dashv G$ be a pair of adjoint functors. Then $F$ is separable iff the unit $\eta:1\to G F$ has a section (= a natural transformation $\nu$ which is its right inverse, $\nu\circ\eta = 1$). $G$ is separable iff the counit $\epsilon:F G \to 1$ has a retraction (i.e., a natural transformation $\zeta$ that is its left inverse, $\eta\circ\zeta =1$). 
+
+The latter condition is reminiscent of one of the many equivalent definitions of a [[separable algebra]] $A$ over a field, namely one for which multiplication, viewed as an $(A,A)$-bimodule map $A \otimes A^{\mathrm{op}} \to A$, has a  right inverse. 
 
 ## Generalization for $S$-categories
 
