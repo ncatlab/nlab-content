@@ -104,6 +104,10 @@ Review:
 
   > on generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]] 
 
+Review of [[U-duality]] and [[exceptional generalized geometry]]  in [[KK-compactification]] of [[D=11 supergravity]]:
+
+* [[Henning Samtleben]], *11D Supergravity and Hidden Symmetries*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2303.12682](https://arxiv.org/abs/2303.12682)&rbrack;
+
 
 Relation to [[Borcherds superalgebras]] is surveyed and discussed in 
 
