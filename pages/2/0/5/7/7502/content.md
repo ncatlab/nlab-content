@@ -161,31 +161,6 @@ are again injections. The following graphics illustrates this for [[interval]]-s
 
 <img src="/nlab/files/PushoutProductOfInjections-230425.jpg" width="300">
 
-Generally, given a [[pair]] of [[maps]] of [[sets]] consider their [[epi-mono factorization]] through their [[images]]
-
-$$
-  \array{
-    f 
-      \,\colon\, 
-    X 
-      &\overset{\phantom{---}}{\twoheadrightarrow}& 
-    im(f) 
-      &\overset{\phantom{---}}{\hookrightarrow}& 
-    X'
-    \\
-    g 
-      \,\colon\, 
-    Y 
-      &\overset{\phantom{---}}{\twoheadrightarrow}& 
-    im(g)
-      &\overset{\phantom{---}}{\hookrightarrow}& 
-    Y'
-  }
-$$
-
-
-
-
 
 \end{example}
 
