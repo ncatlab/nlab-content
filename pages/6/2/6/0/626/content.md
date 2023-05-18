@@ -287,6 +287,9 @@ Introductions to and surveys of string diagram calculus:
 
 * [[Ross Street]], _Low dimensional topology and higher-order categories_ ([ps](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps))
 
+* [[Robin Piedeleu]], [[Fabio Zanasi]], _An Introduction to String Diagrams for Computer Scientists_ ([arXiv:2305.08768](https://arxiv.org/abs/2305.08768))
+
+
   (about surface diagrams)
 
 * [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
