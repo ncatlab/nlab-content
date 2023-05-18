@@ -66,7 +66,7 @@ $$
 When $A$ is finite-dimensional, there is a bilinear pairing $g: A \times A \to k$ defined by
 $$ g(a,b) = tr(L_a L_b) $$
 An algebra $A$ is strongly separable if and only if $g$
-is **nondegenerate**, i.e., if there is an isomorphism $A \to A^*$ given by
+is **nondegenerate**, i.e., if there is a vector space isomorphism $A \to A^*$ given by
 $$ a \mapsto g(a, -)  $$
 In this case, there is just one way to make $A$ into a special Frobenius algebra, namely by defining the counit to be 
 $$ \epsilon(a) = tr(L_a) $$
@@ -101,11 +101,9 @@ The ring extension $S$ over $R$ is said to be a separable extension if all short
 
 ## In algebraic geometry ##
 
-Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business. Lieven Le Bruyn has written "in categorical terms, studying the monoidal cat of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This stuff would be nice to make precise...  
+Commutative separable algebras are important in algebraic geometry.   The concept of [[etale morphism|étale cover]] in  is a way of implementing the idea of [[covering space]] in the context of [[algebraic geometry]], but any étale cover of the spectrum of a field corresponds to a commutative separable algebra over that field.  Lieven Le Bruyn has written "in categorical terms, studying the monoidal category of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This idea is partially captured by the so-called *fundamental theorem of Grothendieck Galois theory*: the  category of commutative separable algebras over a field $k$ is contravariantly equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $k$.   As a group, the *profinite fundamental group* of $k$ is the Galois group $Gal(k_s|k)$ where $k_s$ is a *separable closure* of $k$, that is, a maximal [[separable field extension]] of $k$.
 
-Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras???
-
-There are further generalizations, leading to [[separable functor|separable functors]]...
+Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  There are further generalizations, leading to [[separable functor|separable functors]]...
 
 ## Literature and links
 
@@ -116,7 +114,7 @@ There are further generalizations, leading to [[separable functor|separable func
 * F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
 * K. Hirata, K. Sugano, _On semisimple and separable extensions of noncommutative rings_, J. Math. Soc. Japan 18 (1966), 360-373.
 
-An explicit proof of the Grothendieck Galois theory statement that the category of separable algebras over a field $K$ is anti-equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $K$:
+An explicit proof of the Grothendieck Galois theory statement that the category of commutative separable algebras over a field $K$ is anti-equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $K$:
 
 * Federico G. Lastaria, _On separable algebras in Grothendieck Galois theory_, Le Mathematiche 51:3, 1996, [link](http://www.dmi.unict.it/ojs/index.php/lematematiche/article/view/464/0)
 
