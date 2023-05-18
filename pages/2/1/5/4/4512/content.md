@@ -1,23 +1,23 @@
 ## Motivation
 
-The original motivation was the functorial [[Maschke's theorem]] over rings and its various cousins: namely the classical Maschke's theorem about finite group rings over fields, generalizes to the statements that when the order of the group is invertible in the ground ring then the splitting of an exact sequence of $kG$-module can be obtained functorially from its splitting as an exact sequence of 
+The original motivation was the functorial [[Maschke's theorem]] over rings and its various cousins: namely the classical Maschke's theorem about finite group rings over fields, generalizes to the statements that when the order of the group is invertible in the ground ring then the splitting of an exact sequence of $k G$-module can be obtained functorially from its splitting as an exact sequence of 
 $k$-modules.
-Functors similar to the forgetful functor ${}_{kG} Mod\to {}_{k}Mod$ in the sense of 
+Functors similar to the forgetful functor ${}_{k G} Mod\to {}_{k}Mod$ in the sense of 
 having such a functorial Maschke's property are abstracted into the notion of a separable functor.
 
 Similar phenomena appear in the study of ring extensions $f: R\to S$: such a ring extension is separable iff restriction of scalars $\operatorname{Res}_R^S: {}_{S}Mod \to {}_{R}Mod$ is a separable functor. 
 
 ## Definition
 
-Let $F:C\to D$ be a functor. There is a corresponding (bi)natural transformation with components
+Let $F:C\to D$ be a functor. There is a corresponding natural transformation with components
 $$
-\mathcal{F}_{x,y} = C(x,y)\to D(Fx,Fy),\,\,\,\,(x\stackrel{f}\to y)\mapsto (Fx\stackrel{Ff}\to Fy).
+\mathcal{F}_{x,y} = C(x,y)\to D(F x,F y),\,\,\,\,(x\stackrel{f}\to y)\mapsto (F x\stackrel{F f}\to F y).
 $$
-We way that $F$ is a separable functor if $\mathcal{F}$ splits (i.e. $\mathcal{F}_{x,y}$ has a section natural in $x$ and $y$).
+We say that $F$ is a *separable* functor if $\mathcal{F}$ splits (i.e. $\mathcal{F}_{x,y}$ has a section natural in $x$ and $y$).
 
 ## Properties
 
-__Rafael's theorem.__ Let $F\dashv G$ be a pair of adjoint functors. Then $F$ is separable iff the unit $\eta:1\to G F$ has a section (= a natural transformation $\nu$ which is its right inverse, $\nu\circ\eta = 1$). $G$ is separable iff the counit $\epsilon:F G \to 1$ has a retraction (i.e., a natural transformation $\zeta$ that is its left inverse, $\eta\circ\zeta =1$). 
+__Rafael's theorem.__ Let $F\dashv G$ be a pair of adjoint functors. Then $F$ is separable iff the unit $\eta:1\to G F$ has a section (= a natural transformation $\nu$ which is its right inverse, $\nu\circ\eta = 1$). $G$ is separable iff the counit $\epsilon:F G \to 1$ has a retraction (i.e. a natural transformation $\zeta$ that is its left inverse, $\eta\circ\zeta =1$). 
 
 The latter condition is reminiscent of one of the many equivalent definitions of a [[separable algebra]] $A$ over a field, namely one for which multiplication, viewed as an $(A,A)$-bimodule map $A \otimes A^{\mathrm{op}} \to A$, has a  right inverse. 
 
