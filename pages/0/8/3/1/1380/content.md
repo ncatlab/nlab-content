@@ -26,7 +26,12 @@ Let [[Cat]] be the _[[1-category]]_ of [[categories]], regarded as a [[Bénabou 
 
 Notice that [[strict 2-categories]] may be identified with [[Cat]]-[[enriched categories]]. Under this identification, strict 2-functors are [[Cat]]-[[enriched functors]].
 
+
 ## Related concepts
+
+* [[strict 2-natural transformation]]
+
+* [[strict adjoint 2-functor]]
 
 * [[2-functor]], [[double functor]]
 
