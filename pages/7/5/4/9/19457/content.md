@@ -141,11 +141,16 @@ The [[2-functor]] $\mathcal{V}$-$Cat \rightarrow {Cat}$ that sends an enriched c
 ## Examples
 
 \begin{example}
-  A pair of [[sSet]]-enriched adjoint functors is an ordinary pair of [[adjoint functors]].
+  A pair of [[Set]]-enriched adjoint functors is an ordinary pair of [[adjoint functors]].
 \end{example}
 
 \begin{example}
-An pair of [[truth values]]-enriched functors is equivalently known as a *[[Galois connection]]*.
+ A pair of [[truth values]]-enriched adjoint functors is equivalently known as a *[[Galois connection]]*.
+\end{example}
+
+\begin{example}
+\label{StrictAdjointTwoFunctors}
+  With *[[Cat]]* denoting the [[1-category]] of [[small category|small]] [[strict categories]] equipped with its [[cartesian monoidal category|cartesian monoidal]] [[structure]] (via forming [[product categories]]), a pair of [[Cat]]-enriched adjoint functors is also known as a pair *[[strict adjoint 2-functors]]*.
 \end{example}
 
 \begin{example}
