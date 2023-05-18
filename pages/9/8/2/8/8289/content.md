@@ -1,4 +1,6 @@
 
+> This article is about [[functors]] on [[product categories]]. For morphisms between [[bicategories]] see *[[2-functor]]* and *[[pseudofunctor]]*.  
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,22 +16,27 @@
 {: toc}
 
 
-## Disambiguation
-
-This article is about functors of two variables.  Possibly the term 'bifunctor' has been used for a [[functor]] between [[bicategories]] (citation?), but such usage (if it exists) seems to be rare; the usual term for that is _'[[pseudo functor]]'_.[^fine] 
 
 ## Definition
 
-A **bifunctor** (short for __binary functor__, that is $2$-ary) or **functor of two variables** is simply a _[[functor]]_ whose [[domain]] is the [[product]] of two [[categories]].
+By a *bifunctor* (short for _binary functor_, that is $2$-ary) or **functor of two variables** is simply a _[[functor]]_ whose [[domain]] is a [[product category]]:
 
 For $C_1$, $C_2$ and $D$ [[categories]], a functor
 
 $$
-  F : C_1 \times C_2 \to D
+  F \;\colon\; C_1 \times C_2 \longrightarrow D
 $$
 
 is also called a _bifunctor_ from $C_1$ and $C_2$ to $D$.
 
+
+\begin{remark}\label{Terminology}
+**(terminology)**
+\linebreak
+While the term *[[bicategories]]* is used for ([[weak 2-category|weak]]) *[[2-categories]]*, the terminology "bifunctor" is not used in this context, instead one speaks of *[[pseudo-functors]]* or *[[2-functors]]* between [[bicategories]]/[[2-categories]].
+
+In fact, even for the sense of a functor of 2 variable, the term "bifunctor" may not be used as frequently anymore as it used to, except maybe in parts of [[computer science]] and in [[model category]]-theory (cf. *[[Quillen bifunctor]]*).
+\end{remark}
 
 ## Examples
 
@@ -69,7 +76,6 @@ A bifunctor of the form $D^{op} \times C \to Set$ is called a [[profunctor]].
 
 * [[multifunctor]]
 
-[^fine]: Outside of certain computer science contexts, it is not clear that the term 'bifunctor' is used frequently nowadays, even for the sense of a functor of two variables. It is used more frequently in older texts. 
 
 [[!redirects bifunctor]]
 [[!redirects bifunctors]]
