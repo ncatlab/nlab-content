@@ -32,8 +32,9 @@ Let $\mathcal{M}$ be a [[model category]] and
     \\
     \Big\downarrow\mathrlap{{}^{f}}
     &&
-    \mathllap{^{f^\ast}}\Big\uparrow
-    \Big\downarrow\mathrlap{{}^{f_!}}
+    \mathllap{^{f_!}}\Big\downarrow
+    {}^{\dashv}
+    \Big\uparrow\mathrlap{{}^{f^\ast}}
     \\
     Y &\mapsto& F(Y)
   }
