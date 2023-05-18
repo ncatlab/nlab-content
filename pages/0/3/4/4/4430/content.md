@@ -52,10 +52,19 @@ By [[Ab]]-enrichment, this means that $Z(\mathcal{C})$ carries the [[structure]]
 ## Examples
 
 \begin{proposition}\label{CenterOfRModIsR}
-Let [[Mod|$R Mod$]] denote the [[category]] of [[modules]] over a [[commutative ring]] $R$.  Its center is $Z(R Mod) \,\simeq\, R$.  
+Let [[Mod|$R Mod$]] denote the [[category]] of left [[modules]] of a [[ring]] $R$, and let $Z(R)$ be the [[center]] of $R$.   Then $Z(R Mod) \cong Z(R)$.
 \end{proposition}
 \begin{proof}
-First note that for any $r \in R$, [[multiplication]] by $r$ acts as an [[endomorphism]] of each $R$-module (because $R$ is commutative), and this endomorphism is [[natural transformation|natural]]. This gives a [[ring homomorphism]] from $R$ to the center of $R Mod$ which is [[injective]] because distinct elements of $r$ act differently as multiplication on the $R$-module given by $R$ itself. To see that it is also [[surjective]] and [hence](balanced+category#SetIsBalanced) [[bijective]], suppose $\alpha$ is a [[natural transformation]] of the [[identity functor]] on $R \Mod$.  Then $\alpha_R \colon R \to R$ must be [[multiplication]] by some $r \in R$, since every endomorphism of the $R$-module $R$ is given by multiplication by some $r \in R$.  More generally, for any module $M$ and any $m \in M$ there is a module [[homomorphism]] $f \colon R \to M$ with $f(1) = m$, which by [[natural transformation|naturality]] implies
+First note that for any $r \in Z(R)$, [[multiplication]] by $r$ acts as an [[endomorphism]] of each $R$-module, and this endomorphism is [[natural transformation|natural]]. This gives a [[ring homomorphism]] from $Z(R)$ to $Z(R Mod)$ which is [[injective]] because distinct elements of $r$ act differently as multiplication on the $R$-module given by $R$ itself. To see that it is also [[surjective]] and [hence](balanced+category#SetIsBalanced) [[bijective]], suppose $\alpha$ is a [[natural transformation]] of the [[identity functor]] on $R \Mod$.  Then $\alpha_R \colon R \to R$ must be right [[multiplication]] by some $r \in R$, since every endomorphism of $R \in R Mod$ is given by right multiplication by some $r \in R$.  Because $\alpha_R$ is natural and right multiplication by any $s \in R$ gives an endomorphism of $R \in R Mod$, we have
+$$  (x s) r 
+\, = \, 
+\alpha_R(x s) 
+\, = \, 
+\alpha_R(x)s 
+\, = \,
+(x r) s 
+$$
+for all $x, s \in R$, so $r \in Z(R)$.  More generally, for any module $M$ and any $m \in M$ there is a module [[homomorphism]] $f \colon R \to M$ with $f(1) = m$, which by [[natural transformation|naturality]] implies
 $$
   \alpha_M (m) 
    \,=\, 
