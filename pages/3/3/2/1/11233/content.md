@@ -18,11 +18,13 @@ $$ \sum_P f = \sum_{i=0}^{n-1} f(t_i) \cdot (u_{i+1} - u_{i}). $$
 
 Define a *gauge* on $[a,b]$ to be any function $\delta: [a,b] \to (0,\infty]$.  We say that a tagged partition is *$\delta$-fine* if $[u_i, u_{i+1}] \subset [t_i - \delta(t_i), t_i + \delta(t_i)]$.
 
-Finally, we say that $I$ is the **integral** of $f$ on $[a,b]$, written $I = \int_a^b f = \int_{a}^b f(x) d x$, if for any $\epsilon\gt 0$ there exists a gauge $\delta$ such that
+Finally, we say that $I$ is the **integral** of $f$ on $[a,b]$, written $I = \int_a^b f = \int_{a}^b f(x) \,d x$, if for any $\epsilon\gt 0$ there exists a gauge $\delta$ such that
 
 $$ {\left| {\sum_P f - I} \right|} \lt \epsilon $$
 
 for any $\delta$-fine partition $P$.  If such an $I$ exists, it must be unique, and we say that $f$ is (Henstock) **integrable** on $[a,b]$.
+
+We can also write $\int_a f(x) \,d x$ for the [[semidefinite integral|semidefinite]] Henstock integral $\int_a^x f(t) \,d t$, and write $\int_a f$ for the function $x \mapsto \int_a f(x) \,d x$.
 
 
 ### Comparison to the Riemann definition
@@ -39,15 +41,19 @@ In [[constructive analysis]], we must allow a gauge to take [[lower real number|
 
 ## Examples
 
+The [[characteristic function]] $\chi_{\mathbb{Q}}$ of the [[rational numbers]] (as a subset of the real numbers) is a famous example of a function that's Lebesgue integrable but not even locally Riemann integrable.  It is Henstock integrable (with integral $0$) on any $[a,b]$ as follows:  Enumerate the rationals in $[a,b]$ as $(q_i)_{i=0}^\infty$.  Given $\epsilon \gt 0$, let $\delta(x)$ be $b-a$ if $x$ is irrational but $2^{-i-2}\epsilon(b-a)$ if $x$ is the rational $q_i$.  Then $\sum_{x\in[a,b]} \chi_{\mathbb{Q}}(x) \,2\delta(x) = \epsilon$.  Since a $\delta$-fine Riemann sum consists of just some of these terms, with $2\delta(x)$ replaced by a length that might be smaller, the value of the $\delta$-fine Riemann sum is thus always at most $\epsilon$.
+
 The (even) function
 $$
 x\mapsto \frac{\sin(1/x^3)}{x},\quad x \in \mathbb{R}\setminus\{0\}
 $$
-is not Riemann or Lebesgue integrable on any interval containing 0, but it has the [[semidefinite integral|semidefinite]] Henstock integral
+is not Riemann or Lebesgue integrable on any interval containing 0, but it has the Henstock integral
 $$
-\int_{0} \frac{\sin (1/x^3)}{x}\,dx = \frac{1}{3}\left( \pi/2 - Si(1/x^3)\right)
+\int_{0} \frac{\sin (1/x^3)}{x}\,d x = \frac{1}{3}\left( \pi/2 - Si(1/x^3)\right)
 $$
-where $Si(t)$ is the [[sine integral]] $\int_0 \frac{\sin(t)}{t}dt $ (which extends to an [[entire function]] on $\mathbb{C}$).
+where $Si(t)$ is the [[sine integral]] $\int_0 \frac{\sin(t)}{t}d t $ (which extends to an [[entire function]] on $\mathbb{C}$).  This integral can also be found as an [[improper integral|improper]] Riemann integral.
+
+For an example that is neither Lebesgue integrable nor improperly Riemann integrable (not even locally Riemann integrable), we can let $f(x)$ be $\sin(1/x^3)/x$ for irrational $x$ and $1$ for rational $x$.  This one can still be done as an improper Lebesgue integral.  (Are there any functions that are Henstock integrable but not locally Lebesgue integrable?)
 
 
 ## Properties
