@@ -69,7 +69,7 @@ $$
 $$
 such that $p_i q_i = 1_{c_i}$ and $p_j q_i = 0$ for $j \neq i$, and these maps $q_i$ are the coproduct [[coprojections]], i.e., they realize $c_1 \times c_2$ as the coproduct of $c_1$ and $c_2$. Indeed, for any maps $r_1\colon c_1 \to e$ and $r_2\colon c_2 \to e$, it is easily checked that 
 
-$$r = r_1 p_1 + r_2 p_r\colon c_1 \times c_2 \to e$$ 
+$$r = r_1 p_1 + r_2 p_2\colon c_1 \times c_2 \to e$$ 
 
 satisfies $r q_1 = r_1$ and $r q_2 = r_2$, and is the unique map satisfying these equations. The full argument is spelled out at *[[additive category]]*. 
 
