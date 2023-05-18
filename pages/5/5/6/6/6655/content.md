@@ -775,7 +775,7 @@ The original articles:
 
 As a [[programming language]]:
 
-* [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
+* [[Per Martin-Löf]], *Constructive Mathematics and Computer Programming*, in: *Proceedings of the Sixth International Congress of Logic, Methodology and Philosophy of Science (1979)*, Studies in Logic and the Foundations of Mathematics **104** (1982) 153-175 &lbrack;<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>, [ISBN:978-0-444-85423-0](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/104/suppl/C)&rbrack;
 
 * Bengt Nordström, Kent Petersson, Jan M. Smith, *Programming in Martin-Löf's Type Theory*, Oxford University Press 1990 ([webpage](http://www.cse.chalmers.se/research/group/logic/book/), [pdf](http://www.cse.chalmers.se/research/group/logic/book/book.pdf))
 
