@@ -90,7 +90,7 @@ This gives a bijection between pivotal categories and rigid categories with dual
 
 It is a general principle that rigidity behaves much better in [[braided monoidal categories]]. For instance, every braided rigid category will automatically have two-sided duals ([Joyal and Street](#Joyal1993), Proposition 7.2). However, there is no a-priori reason for a pivotal structure to exist. What is true is that pivotal structures can be quantified explicitly in terms of _twists_:
 
-\begin{proposition}[Deligne] Let $\mathscr{C}$ be a braided monoidal category. Given any natural isomorphism $\theta:\id_{\mathscr{C}}\to\id_{\mathscr{C}}$ such that $\theta_{A\otimes B}=\beta_{B,A}\circ \beta_{A,B}\circ (\theta_A\otimes \theta_B)$ for all $A,B\in \mathscr{C}$, the distinguished morphisms
+\begin{proposition}[Deligne] Let $\mathscr{C}$ be a braided rigid monoidal category. Given any natural isomorphism $\theta:\id_{\mathscr{C}}\to\id_{\mathscr{C}}$ such that $\theta_{A\otimes B}=\beta_{B,A}\circ \beta_{A,B}\circ (\theta_A\otimes \theta_B)$ for all $A,B\in \mathscr{C}$, the distinguished morphisms
 
 \begin{imagefromfile}
 "file_name": "co-dual.png",
@@ -127,7 +127,7 @@ The proof of this result is a simple untangling:
 
 In every fusion category, we automatically have that every object is isomorphic to its double dual. This is because fusion categories are semisimple, so $A\otimes A^{*}$ admitting a non-zero morphism into $1$ is the same as there being a $1$ in the simple object decomposition of $A\otimes A^{*}$, which in turn is the same as $1$ admitting a non-zero morphism into $A\otimes A^{*}$.
 
-It is a deep conjecture of Etingof, Nikshych, and Ostrik that every fusion category is pivotal. This conjecture was proposed in their seminal work, [On fusion categories](#Etingof2005). What one gets a-priori, however, is a natural isomorphism between every object and its _quadruple_ dual, called the Radford isomorphism. This weaker isomorphism is already every powerful, and serves as an important tool in the theory of fusion categories.
+It is a deep conjecture of Etingof, Nikshych, and Ostrik that every fusion category is pivotal. This conjecture was proposed in their seminal work, [On fusion categories](#Etingof2005). What one gets a-priori, however, is a natural isomorphism between every object and its _quadruple_ dual, called the Radford isomorphism. This weaker isomorphism is already very powerful, and serves as an important tool in the theory of fusion categories.
 
 ## Related concepts
 
