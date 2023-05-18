@@ -340,7 +340,7 @@ $$
     \big)
   }
   &
-  \text{products preserve colimits}
+  \text{tensoring preserves colimits}
   \\
   \;\simeq\;
   \bigg(
@@ -380,12 +380,9 @@ $$
       (pr_{\mathcal{Y}})^\ast \mathscr{W}
     \big)
   \Big)_{ 
-    \underset{\longrightarrow}{lim} 
-    (
-    \mathcal{X}
+    \mathcal{X}_i
     \times
     \mathcal{Y}
-    )
   } 
   \bigg)
   &
@@ -908,6 +905,7 @@ Discussion in the context of categories of [[quasicoherent sheaves]]  in ([[deri
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_, such as
 
 * {#Shulman12} [[Mike Shulman]], *Enriched indexed categories*, Theory Appl. Categ. **28** (2013) 616-695 &lbrack;[arXiv:1212.3914](http://arxiv.org/abs/1212.3914), [tac:28-21](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html)&rbrack;
+
 
 
 [[!redirects external tensor products]]
