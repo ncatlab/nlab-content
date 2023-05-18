@@ -363,6 +363,11 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 
 * Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
+Review of [[U-duality]] and [[exceptional generalized geometry]]  in [[KK-compactification]] of [[D=11 supergravity]]:
+
+* [[Henning Samtleben]], *11D Supergravity and Hidden Symmetries*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2303.12682](https://arxiv.org/abs/2303.12682)&rbrack;
+
+
 [[!redirects 11d supergravity]]
 
 [[!redirects D=11 supergravity]]
