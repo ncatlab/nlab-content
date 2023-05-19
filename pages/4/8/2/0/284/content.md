@@ -391,8 +391,9 @@ An introduction to [[higher category theory]] through $(\infty,1)$-categories:
 
 Elementary exposition with an eye towards [[homotopy type theory]]:
 
-* {#Riehl22} [[Emily Riehl]], *$\infty$-Category theory for undergraduates*, talk at *[[CQTS]]* (Dec. 2022) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543)&rbrack;
+* {#Riehl22} [[Emily Riehl]], *$\infty$-Category theory for undergraduates*, [talk](Center+for+Quantum+and+Topological+Systems#RiehlDec2022) at *[[CQTS]]* (Dec. 2022) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#RiehlDec2022), video: [YT](https://www.youtube.com/watch?v=7g2rkiFsbXo)&rbrack;
 
+* {#Riehl23} [[Emily Riehl]], *[Could $\infty$-category theory be taught to undergraduates?](https://www.ams.org/journals/notices/202305/noti2692/noti2692.html?adat=May%202023&trk=2692&galt=feature&cat=feature&pdfissue=202305&pdffile=rnoti-p727.pdf)*, Notices of the AMS (May 2023) &lbrack;[published pdf](https://www.ams.org/journals/notices/202305/rnoti-p727.pdf), [arxiv:2302.07855](https://arxiv.org/abs/2302.07855)&rbrack;
 
 A foundational set of lecture notes:
 
