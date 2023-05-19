@@ -159,6 +159,8 @@ In [[logic]], functions types express [[implication]]. More precisely, for $\phi
 
 * [[implication]], [[linear implication]]
 
+* [[extension type]]
+
 ## References
 
 A textbook account in the context of [[programming languages]] is in section III of
