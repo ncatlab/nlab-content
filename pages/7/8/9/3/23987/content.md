@@ -1370,7 +1370,7 @@ Stone-von Neumann**
 
   video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543), [YT](https://www.youtube.com/watch?v=7g2rkiFsbXo)
 
-  cf.: [arXiv:2302.07855](https://arxiv.org/abs/2302.07855)
+  cf.: [arXiv:2302.07855](https://arxiv.org/abs/2302.07855), [AMS Notices](infinity1-category#Riehl23)
 
   > At its current state of the art, [[(infinity,1)-category theory|$\infty$-category theory]] is challenging to explain even to specialists in closely related mathematical areas. Nevertheless, historical experience suggests that in, say, a century's time, we will routinely teach this material to undergraduates. This talk describes one dream about how this might come about --- under the assumption that 22nd century undergraduates have absorbed the background intuitions of [[homotopy type theory]]/[[univalent foundations]].
 
