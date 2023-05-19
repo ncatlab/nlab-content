@@ -835,9 +835,10 @@ and finally the expression (eq:CoendFormulaForLeftKanExtension) again.
 For [[coefficients]] of [[torsion group]], [[étale cohomology]]
 satisfies Beck-Chevalley along [[proper morphisms]]. This is the statement of the  _[[proper base change theorem]]_. See there for more details.
 
-### Grothendieck six operations
+### Grothendieck's yoga of six operations
 
-A kind of Beck-Chevalley condition appears in the axioms of Grothendieck's [[six operations]]. See there for more.
+A Beck-Chevalley condition is part of the [[axioms]] of  [[Grothendieck's yoga of six operations]], e.g. [Cisinski & Déglise (2009), §A.5](#CisinskiDéglise09), [Gallauer (2021), p. 16](#Gallauer21), [Scholze (2022), p. 11](#Scholze22).
+
 
 ## Related pages
 
@@ -883,9 +884,12 @@ Discussion for [[subobject lattices]]:
 
 Review in the context of [[Grothendieck's yoga of six operations]]:
 
-* [[Martin Gallauer]], pp. 16 of: *An introduction to six-functor formalism*, lecture at *[The Six-Functor Formalism and Motivic Homotopy Theory](https://sites.google.com/view/summer-school-motivic/home)*, Università degli Studi di Milano (Sept. 2021) &lbrack;[arXiv:2112.10456](https://arxiv.org/abs/2112.10456), [pdf](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/docs/m6ff.pdf)&rbrack;
+* {#CisinskiDéglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], section A.5 of: *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
+ 
 
-* [[Peter Scholze]], p. 11 of: *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
+* {#Gallauer21} [[Martin Gallauer]], pp. 16 of: *An introduction to six-functor formalism*, lecture at *[The Six-Functor Formalism and Motivic Homotopy Theory](https://sites.google.com/view/summer-school-motivic/home)*, Università degli Studi di Milano (Sept. 2021) &lbrack;[arXiv:2112.10456](https://arxiv.org/abs/2112.10456), [pdf](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/docs/m6ff.pdf)&rbrack;
+
+* {#Scholze22} [[Peter Scholze]], p. 11 of: *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
 
 
 
