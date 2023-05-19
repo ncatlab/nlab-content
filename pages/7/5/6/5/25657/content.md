@@ -29,7 +29,7 @@
 
 ## Idea
 
-In [[dependent type theory]] with a notion of [[hom]]-[[type]] (i.e. modelling [[(infinity,1)-category|$\infty$-categories]] as envisioned in [[directed homotopy type theory]]) and a notion of [[type universe]], the *directed univalence axiom* for a type universe $U$ states that given two $U$-small types $A \colon U$ and $B \colon U$ there is an [[equivalence of types]] between the hom-type $\mathrm{hom}_U(A, B)$ and the [[function type]] $A \to B$:
+In [[dependent type theory]] with a notion of [[hom type]] (i.e. modelling [[(infinity,1)-category|$\infty$-categories]] as envisioned in [[directed homotopy type theory]]) and a notion of [[type universe]], the *directed univalence axiom* for a type universe $U$ states that given two $U$-small types $A \colon U$ and $B \colon U$ there is an [[equivalence of types]] between the hom-type $\mathrm{hom}_U(A, B)$ and the [[function type]] $A \to B$:
 
 $$
   \mathrm{dua}_U(A, B)
