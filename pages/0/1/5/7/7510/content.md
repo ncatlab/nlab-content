@@ -119,6 +119,7 @@ which is precisely the statement that $\mathcal{F}_{A, B}(f)$ is a [[dependent a
 * [[dependent sum type]]
 * [[function type]]
 * [[dependent sequence type]]
+* [[dependent extension type]]
 
 ## References
 
