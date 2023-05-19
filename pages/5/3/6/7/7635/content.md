@@ -7,7 +7,7 @@
 
 On [[hyperdoctrines]], and [[natural deduction]] in [[categorical logic]], and the [[Beck-Chevalley condition]]:
 
-* [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
+* [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math. Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[doi:10.1002/malq.19830291005]( https://doi.org/10.1002/malq.19830291005), [pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
 
 
 On the [[relation between type theory and category theory]]...
