@@ -41,7 +41,7 @@ The structure of a Poincar&#233; duality algebra in [[dimension]] $n$
 on a graded-commutative [[graded vector space|graded]] [[associative algebra]] $A$ is a [[linear function]] $\epsilon \colon A_n \to k$ to the ground field such that all the induced [[bilinear forms]]
 
 $$
-  A_k \otimes A_{n-k} \stackrel{\otimes}{\to} A^n \stackrel{\epsilon}{\to} k
+  A_k \otimes A_{n-k} \stackrel{\otimes}{\to} A_n \stackrel{\epsilon}{\to} k
 $$
 
 are non-degenerate.
