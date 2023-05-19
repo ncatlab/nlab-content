@@ -50,14 +50,9 @@ $$\frac{\Xi \vdash I \: \mathrm{cube} \quad \Xi, t:I \vdash \phi \; \mathrm{tope
 
 This type layer is a [[dependent type theory]] with some notion of [[identity type]], [[dependent product type]], [[dependent sum type]], and [[higher inductive types]], as well as [[judgmental equality]] to reflect the equality tope of the tope layer, and cube contexts and tope contexts in addition to the usual type contexts. The [[beta conversion]] and [[eta conversion]] rules for the types may either be typal or judgmental. In addition, there is no equality reflection rule, which makes the dependent type theory an [[intensional type theory]]. 
 
-#### Extension types
-
-Formation rules for non-dependent extension types
-$$\frac{\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \quad \Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi \vert \Phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A}{\Xi \vert \Phi \vert \Gamma \vdash \langle \{t:I \vert \psi\} \to A \vert_a^\phi \rangle \; \mathrm{type}}$$
-
 ### With two layers
 
-It is also possible to combine the cube layer and the tope layer together into one layer of shapes, just as in traditional mathematics it is possible to combine the set layer and the logic layer into one layer of types:
+It is also possible to combine the cube layer and the tope layer together into one layer of shapes, just as in traditional mathematics it is possible to combine the set layer and the logic layer into one layer of types. However, the resulting theory is just a [[two-level type theory]] where the non-fibrant types are called "shapes". 
 
 #### Shape layer
 
