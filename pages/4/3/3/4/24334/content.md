@@ -47,3 +47,5 @@ A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory
 A [[proof assistant]] implementing simplicial type theory: 
 
 * [rzk](https://github.com/fizruk/rzk)
+
+[[!redirects simplicial homotopy type theory]]
