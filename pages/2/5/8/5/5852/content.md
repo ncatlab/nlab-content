@@ -18,7 +18,7 @@
 
 \begin{theorem}\label{MaschkeTheorem}
 **(Maschke's theorem)**
-Given a [[finite group]] $G$ and a [[field]] $k$, the [[group algebra]] $k[G]$ is [[semisimple algebra|semisimple]] iff the [[characteristic]] of $k$ does not divide [[order of a group|order of the group]] (that is, if $|G|$ is an [[invertible element]] in $k$, which is always in characteristic zero).
+Given a [[finite group]] $G$ and a [[field]] $k$, the [[group algebra]] $k[G]$ is [[semisimple algebra|semisimple]] iff the [[characteristic]] of $k$ does not divide [[order of a group|order of the group]].
 \end{theorem}
 
 If the base $k$ is just a [[commutative unital ring]], then there is the following statement:
