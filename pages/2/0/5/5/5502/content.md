@@ -146,6 +146,11 @@ General abstract discussion is in:
 
 * [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
 
+Lecture notes:
+
+* [[Martin Gallauer]], *An introduction to six-functor formalism*, lecture at *[The Six-Functor Formalism and Motivic Homotopy Theory](https://sites.google.com/view/summer-school-motivic/home)*, Università degli Studi di Milano (Sept. 2021) &lbrack;[arXiv:2112.10456](https://arxiv.org/abs/2112.10456), [pdf](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/docs/m6ff.pdf)&rbrack;
+
+
 An approach to six functor formalism as a bifibered multicategory (multiderivator, when appropriate) over correspondences is in 
 
 * Fritz H&#246;rmann, _Fibered derivators, (co)homological descent, and Grothendieck's six functors_ [pdf](http://home.mathematik.uni-freiburg.de/hoermann/overview6fu.pdf); _Fibered Multiderivators and (co)homological descent_, [arxiv./1505.00974](http://arxiv.org/abs/1505.00974);  _Six Functor Formalisms and Fibered Multiderivators_ [arXiv:1603.02146](https://arxiv.org/abs/1603.02146); _Derivator Six Functor Formalisms --- Definition and Construction I_ [arXiv:1701.02152](https://arxiv.org/abs/1701.02152)
@@ -204,11 +209,16 @@ Six operations formalism for [[rigid analytic geometry]] is in
 
 The abstract approach behind Mann's work is the subject of the following course by Peter Scholze:
 
-* {#Scholze22} Peter Scholze, _Six Functor Formalisms_ [pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf)
+* {#Scholze22} [[Peter Scholze]], *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
  
 
+
 [[!redirects six operations]]
+
 [[!redirects Grothendieck's six operations]]
+[[!redirects Grothendieck's yoga of six operations]]
+
+
 [[!redirects Grothendieck\'s six operations]]
 [[!redirects Grothendieck's six operations]]
 [[!redirects Grothendieck six operations]]
@@ -219,3 +229,6 @@ The abstract approach behind Mann's work is the subject of the following course 
 [[!redirects six operations yoga]]
 
 [[!redirects motivic yoga]]
+
+
+
