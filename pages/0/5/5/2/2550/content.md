@@ -480,15 +480,17 @@ The universal property of $SH(S)$ is proved in
 
 For the formalism of [[six operations]] see
 
-* {#Ayoub} [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique_, Ast&#233;risque 314-315 (2008) ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF))
+* {#Ayoub} [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris &lbrack;[pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf), [K:0761](https://faculty.math.illinois.edu/K-theory/0761)&rbrack;
 
+* [[Joseph Ayoub]], *Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (I)*, Astérisque **314** (2007) &lbrack;[numdam:AST_2007__314__R1_0](http://www.numdam.org/issues/AST_2007__314__R1_0)&rbrack;
+
+* [[Joseph Ayoub]], *Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (II)*, Astérisque **315** (2007) &lbrack;[numdam:AST_2007__315__1_0](http://www.numdam.org/issues/AST_2007__315__1_0)&rbrack;
 
 * [[Vladimir Voevodsky]], [[Pierre Deligne]], _Voevodsky's lectures on cross functors_ ([pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2015_transfer_from_ps_delnotes01.pdf))
 
 The slice filtration was defined in
 
-* [[Vladimir Voevodsky]], _Open problems in the stable motivic homotopy theory_ K-theory, 0392 ([web](https://faculty.math.illinois.edu/K-theory/0392/) [pdf](https://faculty.math.illinois.edu/K-theory/0392/nowmovo.pdf
-))
+* [[Vladimir Voevodsky]], _Open problems in the stable motivic homotopy theory_ K-theory, 0392 ([web](https://faculty.math.illinois.edu/K-theory/0392/) [pdf](https://faculty.math.illinois.edu/K-theory/0392/nowmovo.pdf))
 
 Important representability results are in
 
@@ -514,7 +516,12 @@ Discussion about [[thick ideals]] is in
 
 This was vastly generalized and studied more thoroughly in
 
-* {#Hoyois15} [[Marc Hoyois]], _The six operations in equivariant motivic homotopy theory_, [arXiv:1509.02145](http://arxiv.org/abs/1509.02145).
+* {#Hoyois15} [[Marc Hoyois]], *The six operations in equivariant motivic homotopy theory*, Adv. Math. **305** (2017) 197-279 &lbrack;[arXiv:1509.02145](https://arxiv.org/abs/1509.02145), [doi:10.1016/j.aim.2016.09.031](https://doi.org/10.1016/j.aim.2016.09.031)&rbrack;
+
+  > (cf. [[Grothendieck's six operations]])
+
+
+
 
 Motivic homotopy theory of [[derived noncommutative geometry|noncommutative spaces]] (associative dg-algebras) is studied in
 
