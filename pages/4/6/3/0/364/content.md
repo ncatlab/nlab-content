@@ -83,6 +83,9 @@ Exposition of [[(∞,1)-category theory]] with an eye towards [[homotopy type th
 
 * {#Riehl22} [[Emily Riehl]], *$\infty$-Category theory for undergraduates*, talk at *[[CQTS]]* (Dec. 2022) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uhPi_E6RhKKkV5NO5ZCxX-jRBZnRwgPCbkNWi4flBWujKQb6zeecTWi9zhYcSaYRL_M_nPW-tJ7DPuoi.yb4KL0WhGoxp02ii?continueMode=true&_x_zm_rtaid=JLv1PfDKQf6S_2mHA5ukTg.1670481932564.2228c1085c8887067af0b733ac87a817&_x_zm_rhtaid=543)&rbrack;
 
+On teaching [[(∞,1)-category theory]] to undergraduate students:
+
+* [[Emily Riehl]], *Could $\infty$-category theory be taught to undergraduates?* ([arxiv:2302.07855](https://arxiv.org/abs/2302.07855))
 
 category: people
 
