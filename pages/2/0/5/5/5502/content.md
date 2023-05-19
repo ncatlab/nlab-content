@@ -109,7 +109,7 @@ Let $C$ be an $\infty$-category admitting finite limits and let $E$ be a class o
     }
   $$
 
-where $g\inE$. The symmetric monoidal structure comes from the one on $C$. 
+where $g\in E$. The symmetric monoidal structure comes from the one on $C$. 
 \end{definition}
 
 \begin{definition}
