@@ -330,15 +330,27 @@ has [[inverse image]] $f^\ast$ a [[cartesian closed functor]] and hence (see the
 =--
 
 
+## Related concepts
+
+* [[Bck-Chevalley condition]]
+
+* [[Wirthmüller context]]
+
 
 ## References 
  {#References}
 
-The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced by Lawvere in
+The term 'Frobenius reciprocity', in the context of [[hyperdoctrines]], was introduced in
 
-* F.W. Lawvere, _Equality in hyperdoctrines and comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+* [[Bill Lawvere]], _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970) 1-14 &lbrack;[pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf)&rbrack;
 
 Lawvere defines Frobenius reciprocity by either of the two equivalent conditions (see "Definition-Theorem" on p.6), and notes that "one of these kinds of identities is formally similar to, and reduces in particular to, the Frobenius reciprocity formula for permutation representations of groups" (p.1).
+
+Related discussion is in:
+
+* {#Seely83} [[Robert A. G. Seely]], p. 511 of: *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math. Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[doi:10.1002/malq.19830291005]( https://doi.org/10.1002/malq.19830291005), [pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
+
+* {#Pavlović96} [[Duško Pavlović]], p. 164 in: *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
 
 A textbook source is around lemma 1.5.8 in 
 
@@ -346,8 +358,9 @@ A textbook source is around lemma 1.5.8 in
 
 General discussion in the context of projection formulas in [[monoidal categories]] (not necessarily cartesian) is in 
 
-* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
- {#May05}
+* {#May05} [[Halvard Fausk]], [[Po Hu]], [[Peter May]],  *Isomorphisms between left and right adjoints*, Theory and Applications of Categories, **11** 4 (2003) 107-131 &lbrack;[tac:11-04](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf)&rbrack;
+
+ 
 
 Manifestations of the Frobenius reciprocity formula, [in the sense of category theory](#InCartegoryTheory), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
 
