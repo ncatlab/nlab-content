@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[Grothendieck's six operations]] in [[equivariant motivic homotopy theory]]:
+
+* [[Marc Hoyois]], *The six operations in equivariant motivic homotopy theory*, Adv. Math. **305** (2017) 197-279 &lbrack;[arXiv:1509.02145](https://arxiv.org/abs/1509.02145), [doi:10.1016/j.aim.2016.09.031](https://doi.org/10.1016/j.aim.2016.09.031)&rbrack;
+
 On [[Joyal loci|Joyal $\infty$-loci]]:
 
 * {#Hoyois19} [[Marc Hoyois]], *Topoi of parametrized objects*, Theory and Applications of Categories, **34** 9 (2019) 243-248 &lbrack;[arXiv:1611.02267](https://arxiv.org/abs/1611.02267), [tac:34-09](http://www.tac.mta.ca/tac/volumes/34/9/34-09abs.html)&rbrack;
