@@ -254,6 +254,10 @@ Expository review in the generality of amalgamated free products and making expl
 
 * Abhay Chandel, *Free groups and amalgamated product*, BSc thesis (2013) &lbrack;[pdf](http://home.iiserb.ac.in/~kashyap/Group/thesis_abhay.pdf), [[Chandel-AmalgamatedProducts.pdf:file]]&rbrack;
 
+See also 
+
+* [[eom]], *[Amalgam of groups](https://encyclopediaofmath.org/wiki/Amalgam_of_groups)*
+
 Discussion of [[subgroups]] of amalgamated from products:
 
 * A. Karrass, D. Solitar, *The Subgroups of a Free Product of Two Groups with an Amalgamated Subgroup*, Transactions of the American Mathematical Society **150** 1 (1970) 227-255 &lbrack;[doi:10.2307/1995492](https://doi.org/10.2307/1995492)&rbrack;
