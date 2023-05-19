@@ -57,85 +57,97 @@ $$\frac{\{t:I \vert \phi\} \; \mathrm{shape} \quad \{t:I \vert \psi\} \; \mathrm
 
 ### With two layers
 
-It is also possible to combine the cube layer and the tope layer together into one layer of shapes, just as in traditional mathematics it is possible to combine the set layer and the logic layer into one layer of types:
+It is also possible to combine the cube layer and the tope layer together into one layer of exotypes, just as in traditional mathematics it is possible to combine the set layer and the logic layer into one layer of types:
 
-#### Shape layer
+#### Exotype layer
 
-The shape layer is a [[dependent type theory]] which consists of [[identity types]], [[dependent sum types]], [[dependent product types]], [[empty type]], [[unit type]], [[propositional truncations]], [[booleans type]], [[quotient sets]], and [[axiom K]] or [[uniqueness of identity proofs]]. This is enough to define cofibrations used for extension types as well as the coherent theory of the interval used for [[simplicial type theory]]. 
+The exotype layer is a [[dependent type theory]] which consists of [[identity types]], [[dependent sum types]], [[dependent product types]], [[empty type]], [[unit type]], a [[type of all propositions]] which we shall call $\mathrm{Tope}$, and [[axiom K]] or [[uniqueness of identity proofs]]. 
+
+With a [[type of all propositions]], one can define  [[propositional truncations]], the [[booleans type]] (as the type of all decidable propositions), and [[quotient sets]]. 
+
+#### Shapes
+
+Shapes can be defined from exotype predicates or subtypes: given an exotype $I$ and a family of topes $t:I \vdash \phi:\mathrm{Tope}$, one has the shape 
+
+$$\sum_{t:I} \mathrm{El}_\mathrm{Tope}(\phi(t))$$ 
+
+which is the type theoretic equivalent of the set $\{t:I \vdash \phi\}$ in set-builder notation. 
+
+This is enough to define cofibrations used for extension types as well as the coherent theory of the interval used for [[simplicial type theory]]. 
 
 #### Type layer
 
-This type layer is a [[dependent type theory]] with some notion of [[identity type]], [[dependent product type]], [[dependent sum type]], and [[higher inductive types]], as well as [[judgmental equality]] to reflect the identity type of the shape layer, and shape contexts in addition to the usual type contexts. The [[beta conversion]] and [[eta conversion]] rules for the types may either be typal or judgmental. 
+This type layer is a [[dependent type theory]] with some notion of [[identity type]], [[dependent product type]], [[dependent sum type]], and [[higher inductive types]], as well as [[judgmental equality]] to reflect the identity type of the exotype layer, and shape contexts in addition to the usual type contexts. The [[beta conversion]] and [[eta conversion]] rules for the types may either be typal or judgmental. 
 
 We also state the rules in such a way that the following substitution rule is admissible:
 
 $$\frac{\Xi \vdash s:I \quad \Xi, x:I \vert \Gamma \vdash a:A}{\Xi \vert \Gamma(s) \vdash a(s):A(s)}$$
 
-We also have a rule which states that the identity type in the shape layer behaves like judgmental equality in the type layer
+We also have a rule which states that the identity type in the exotype layer behaves like judgmental equality in the type layer
 
-$$\frac{\Xi \vdash I \; \mathrm{shape} \quad \Xi \vdash s:I \quad \Xi \vdash t:I \quad \Xi \vdash p:s =_I t \quad \Xi, x:I \vert \Gamma \vdash a:A}{\Xi \vert \Gamma(s) \vdash a(s) \equiv a(t)}$$
+$$\frac{\Xi \vdash I \; \mathrm{exotype} \quad \Xi \vdash s:I \quad \Xi \vdash t:I \quad \Xi \vdash p:s =_I t \quad \Xi, x:I \vert \Gamma \vdash a:A}{\Xi \vert \Gamma(s) \vdash a(s) \equiv a(t)}$$
 
-Finally, we have rules which states that the type theory in the type layer respects the type theory in the shape layer. This means that we have additional elimination, computation, and uniqueness rules for all the positive types in the shape layer:
+Finally, we have rules which states that the type theory in the type layer respects the type theory in the exotype layer. This means that we have additional elimination, computation, and uniqueness rules for all the positive types in the exotype layer:
 
-Elimination rules for the empty shape
-$$\frac{\Xi \vdash \mathbb{0} \; \mathrm{shape} \quad \Xi, x:\mathbb{0} \vert \Gamma \vdash C(x) \; \mathrm{type}}{\Xi, x:\mathbb{0} \vert \Gamma \vdash \mathrm{ind}_\mathbb{0}^C(x):C(x)}$$
+Elimination rules for the empty exotype
+$$\frac{\Xi \vdash \mathbb{0} \; \mathrm{exotype} \quad \Xi, x:\mathbb{0} \vert \Gamma \vdash C(x) \; \mathrm{type}}{\Xi, x:\mathbb{0} \vert \Gamma \vdash \mathrm{ind}_\mathbb{0}^C(x):C(x)}$$
 
-Uniqueness rules for the empty shape
-$$\frac{\Xi \vdash \mathbb{0} \; \mathrm{shape} \quad \Xi, x:\mathbb{0} \vert \Gamma \vdash C(x) \; \mathrm{type} \quad \quad \Xi, x:\mathbb{0} \vert \Gamma \vdash c(x):C(x)}{\Xi, x:\mathbb{0} \vert \Gamma \vdash c(x) \equiv \mathrm{ind}_\mathbb{0}^C(x):C(x)}$$
+Uniqueness rules for the empty exotype
+$$\frac{\Xi \vdash \mathbb{0} \; \mathrm{exotype} \quad \Xi, x:\mathbb{0} \vert \Gamma \vdash C(x) \; \mathrm{type} \quad \quad \Xi, x:\mathbb{0} \vert \Gamma \vdash c(x):C(x)}{\Xi, x:\mathbb{0} \vert \Gamma \vdash c(x) \equiv \mathrm{ind}_\mathbb{0}^C(x):C(x)}$$
 
 #### Cofibrations and extension types
 
-A cofibration is a shape inclusion, which means shapes $A$ and $B$ and an embedding of shapes $i:A \hookrightarrow B$. 
+A cofibration is a shape inclusion, which means the families of elements $t:I \vdash \phi:\mathrm{Tope}$ and $t:I \vdash \psi:\mathrm{Tope}$ representing shapes, and a family of elements $t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope}$ representing that one shape is a subtype of the other. 
 
 Formation rules for dependent extension types
 $$\frac{
 \begin{array}{l}
-\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
-\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, y:B \vert \Gamma \vdash C(y) \; \mathrm{type} \quad \Xi, x:A \vert \Gamma \vdash c(x):C(x)
+t:I \vdash \phi:\mathrm{Tope} \quad t:I \vdash \psi:\mathrm{Tope} \quad t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope} \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I, \phi:\mathrm{Tope} \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I, \phi:\mathrm{Tope} \vert \Gamma \vdash a:A
 \end{array}
-}{\Xi \vert \Gamma \vdash \langle \prod_{y:B} C(y) \vert_c^A \rangle \; \mathrm{type}}$$
+}{\Xi \vert \Gamma \vdash \langle \prod_{t:I, \psi:\mathrm{Tope}} A \vert_a^\phi \rangle \; \mathrm{type}}$$
 
 Introduction rules for dependent extension types
 $$\frac{
 \begin{array}{l}
-\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
-\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, y:B \vert \Gamma \vdash C(y) \; \mathrm{type} \quad \Xi, x:A \vert \Gamma \vdash c(x):C(x) \\
-\Xi, y:B \vert \Gamma \vdash d(y):C(y) \quad \Xi, x:A \vert \Gamma \vdash d(i(x)) \equiv c(x):C(x) \\
+t:I \vdash \phi:\mathrm{Tope} \quad t:I \vdash \psi:\mathrm{Tope} \quad t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope} \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I, \phi:\mathrm{Tope} \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I, \phi:\mathrm{Tope} \vert \Gamma \vdash a:A \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I, \psi:\mathrm{Tope} \vert \Gamma \vdash b:A \quad \Xi, t:I, \psi:\mathrm{Tope} \vert \Gamma \vdash b \equiv a:A
 \end{array}
-}{\Xi \vert \Gamma \vdash \lambda y^B.d(y):\langle \prod_{y:B} C(y) \vert_c^A \rangle}$$
+}{\Xi \vert \Gamma \vdash \lambda t^{I,\psi:\mathrm{Tope}}.b:\langle \prod_{t:I,\psi:\mathrm{Tope}} A \vert_a^\phi \rangle}$$
 
 Elimination rules for dependent extension types
 $$\frac{
 \begin{array}{l}
-\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
-\Xi \vert \Gamma \vdash f:\langle \prod_{y:B} C(y) \vert_c^A \rangle \quad \Xi \vdash b:B
+t:I \vdash \phi:\mathrm{Tope} \quad t:I \vdash \psi:\mathrm{Tope} \quad t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope} \\
+\Xi \vert \Gamma \vdash f:\langle \prod_{t:I,\psi:\mathrm{Tope}} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vdash \psi[s/t]
 \end{array}
-}{\Xi \vert \Gamma \vdash f(b):C(b)}$$
+}{\Xi \vert \Gamma \vdash f(s):A}$$
 
 $$\frac{
 \begin{array}{l}
-\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
-\Xi \vert \Gamma \vdash f:\langle \prod_{y:B} C(y) \vert_c^A \rangle \quad \Xi \vdash a:A
+t:I \vdash \phi:\mathrm{Tope} \quad t:I \vdash \psi:\mathrm{Tope} \quad t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope} \\
+\Xi \vert \Gamma \vdash f:\langle \prod_{t:I,\psi:\mathrm{Tope}} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vdash \psi[s/t]
 \end{array}
-}{\Xi \vert \Gamma \vdash f(i(a)) \equiv c(a):C(a)}$$
+}{\Xi \vert \Gamma \vdash f(s) \equiv a:A}$$
 
 Computation rules for dependent extension types
 $$\frac{
 \begin{array}{l}
-\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
-\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, y:B \vert \Gamma \vdash C(y) \; \mathrm{type} \quad \Xi, x:A \vert \Gamma \vdash c(x):C(x) \\
-\Xi, y:B \vert \Gamma \vdash d(y):C(y) \quad \Xi, x:A \vert \Gamma \vdash d(i(x)) \equiv c(x):C(x) \quad \Xi \vert b:B\\
+t:I \vdash \phi:\mathrm{Tope} \quad t:I \vdash \psi:\mathrm{Tope} \quad t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope} \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I, \phi:\mathrm{Tope} \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I, \phi:\Omega \vert \Gamma \vdash a:A \\
+\Xi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I, \psi:\mathrm{Tope} \vert \Gamma \vdash b:A \quad \Xi, t:I, \psi:\mathrm{Tope} \vert \Gamma \vdash b \equiv a:A \\
 \end{array}
-}{\Xi \vert \Gamma \vdash (\lambda y^B.d(y))(b) \equiv d(b):C(b)}$$
+}{\Xi \vert \Gamma \vdash (\lambda t^{I, \psi:\mathrm{Tope}}.b)(s) \equiv b[s/t]:A}$$
 
 Uniqueness rules for dependent extension types
 
 $$\frac{
 \begin{array}{l}
-\Xi \vdash A \; \mathrm{shape} \quad \Xi \vdash B \; \mathrm{shape} \quad \Xi \vdash i:A \hookrightarrow B \\
-\Xi \vert \Gamma \vdash f:\langle \prod_{y:B} C(y) \vert_c^A \rangle
+t:I \vdash \phi:\mathrm{Tope} \quad t:I \vdash \psi:\mathrm{Tope} \quad t:I, \phi:\mathrm{Tope} \vdash \psi:\mathrm{Tope} \\
+\Xi \vert \Gamma \vdash f:\langle \prod_{t:I,\psi:\mathrm{Tope}} A \vert_a^\phi \rangle 
 \end{array}
-}{\Xi \vert \Gamma \vdash f \equiv \lambda y^B.f(y):\langle \prod_{y:B} C(y) \vert_c^A \rangle}$$
+}{\Xi \vert \Gamma \vdash f \equiv \lambda t^{I,\psi:\mathrm{Tope}}.f(t):\langle \prod_{t:I,\psi:\mathrm{Tope}} A \vert_a^\phi \rangle}$$
 
 ## See also
 
