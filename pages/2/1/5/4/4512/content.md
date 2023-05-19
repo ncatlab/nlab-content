@@ -1,39 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Motivation
 
-The original motivation was the functorial [[Maschke's theorem]] over rings and its various cousins: namely the classical Maschke's theorem about finite group rings over fields, generalizes to the statements that when the order of the group is invertible in the ground ring then the splitting of an exact sequence of $k G$-module can be obtained functorially from its splitting as an exact sequence of 
-$k$-modules.
-Functors similar to the forgetful functor ${}_{k G} Mod\to {}_{k}Mod$ in the sense of 
-having such a functorial Maschke's property are abstracted into the notion of a separable functor.
+The original motivation for the notion of *separable functors* &lbrack;[Năstăsescu, van den 
+Bergh & van Oystaeyen (1989)](#NăstăsescuVanDenBerghVanOystaeyen89)&rbrack;
+was the functorial form of [[Maschke's theorem]] over [[rings]] and its various cousins: namely the classical Maschke's theorem about finite [[group rings]] over [[fields]], generalizes to the statements that when the [[order of a group|order of the group]] is [[invertible element|invertible]] in the [[ground ring]] then the [[split exact sequence|splitting]] of an [[exact sequence]] of [[group representation|$k G$-modules]] can be obtained [[functor|functorially]] from its splitting as an exact sequence of [[underlying]] 
+[[module|$k$-modules]].
 
-Similar phenomena appear in the study of ring extensions $f: R\to S$: such a ring extension is separable iff restriction of scalars $\operatorname{Res}_R^S: {}_{S}Mod \to {}_{R}Mod$ is a separable functor. 
+This "Maschke property" of the  [[forgetful functor]] ${}_{k G} Mod\to {}_{k}Mod$ is what is generalized by the notion of separable functors.
+
+A further example appears in the study of [[ring extensions]] $f \colon R\to S$: Such is separable iff the corresponding [[restriction of scalars]]-functor $\operatorname{Res}_R^S \colon {}_{S}Mod \to {}_{R}Mod$ is a separable functor. 
 
 ## Definition
 
-Let $F:C\to D$ be a functor. There is a corresponding natural transformation with components
+Let $F \colon C\to D$ be a [[functor]] with [[hom-set]] components
 $$
-\mathcal{F}_{x,y} = C(x,y)\to D(F x,F y),\,\,\,\,(x\stackrel{f}\to y)\mapsto (F x\stackrel{F f}\to F y).
+\array{
+F_{x,y} 
+\colon
+&
+C(x,y)&\longrightarrow& D(F x,F y)
+\\
+&
+(x\stackrel{f}\to y)&\mapsto& (F x\stackrel{F f}\to F y)
+\mathrlap{\,.}
+}
 $$
-We say that $F$ is a *separable* functor if $\mathcal{F}$ splits (i.e. $\mathcal{F}_{x,y}$ has a section natural in $x$ and $y$).
+Then $F$ is called *separable* &lbrack;[Năstăsescu, van den 
+Bergh & van Oystaeyen (1989), p. 398](#NăstăsescuVanDenBerghVanOystaeyen89)&rbrack; if each $F_{x,y}$ has a [[section]] which is "natural" in $x$ and $y$, in a suitable sense.
 
 ## Properties
 
-__Rafael's theorem.__ Let $F\dashv G$ be a pair of adjoint functors. Then $F$ is separable iff the unit $\eta:1\to G F$ has a section (= a natural transformation $\nu$ which is its right inverse, $\eta\circ\nu = 1$). $G$ is separable iff the counit $\epsilon:F G \to 1$ has a retraction (i.e. a natural transformation $\zeta$ that is its left inverse, $\zeta\circ\epsilon =1$). 
+\begin{theorem}
+**(Rafael's theorem)** 
+Let $F\dashv G$ be a pair of [[adjoint functors]]. Then 
 
-The latter condition is reminiscent of one of the many equivalent definitions of a [[separable algebra]] $A$ over a field, namely one for which multiplication, viewed as an $(A,A)$-bimodule map $A \otimes A^{\mathrm{op}} \to A$, has a  right inverse. 
+* $F$ is separable iff the [[adjunction unit]] $\eta \con id \to G F$ has a [[section]] (= a [[natural transformation]] $\nu$ which is its right inverse, $\eta\circ\nu = 1$),
 
-## Generalization for $S$-categories
+* $G$ is separable iff the [[adjunction counit]] $\epsilon \colon F G \to id$ has a [[retraction]] (i.e. a natural transformation $\zeta$ that is its left inverse, $\zeta\circ\epsilon =1$). 
 
-See [T. Brzezi&#324;ski 2008](#Brzezinski).
+\end{theorem}
+
+The latter condition is reminiscent of one of the many equivalent definitions of a [[separable algebra]] $A$ over a field, namely one for which multiplication, viewed as an $(A,A)$-[[bimodule]] map $A \otimes A^{\mathrm{op}} \to A$, has a  right inverse. 
+
 
 ## Literature
 
 Separable functors were defined in 
 
-* C. N&#259;st&#259;sescu, M. van den Bergh, [[F. van Oystaeyen]], _Separable functors applied to graded rings_, J. Algebra __123__ (1989), 397-413, <a href="http://dx.doi.org/10.1016/0021-8693(89)90053-7">[doi]</a>.
+* {#NăstăsescuVanDen BerghVanOystaeyen89} [[Constantin Năstăsescu]], [[Michel van den Bergh]], [[F. van Oystaeyen]], _Separable functors applied to graded rings_, J. Algebra __123__ (1989) 397-413 &lbrack;<a href="http://dx.doi.org/10.1016/0021-8693(89)90053-7">doi:10.1016/0021-8693(89)90053-7</a>&rbrack;
 
 Now there is a monograph available:
 
-* S. Caenepeel, G. Militaru, S. Zhu, _Frobenius and separable functors for generalized module categories and nonlinear equations_, Lec. Notes in Math. __1787__, Springer 2002. xiv+354 pp. 
+* S. Caenepeel, G. Militaru, S. Zhu, _Frobenius and separable functors for generalized module categories and nonlinear equations_, Lec. Notes in Math. __1787__, Springer (2002) xiv+354 pp. 
 
 Other references
 
