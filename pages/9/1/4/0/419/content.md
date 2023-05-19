@@ -27,12 +27,16 @@ A _monoidal model category_ is a [[model category]] which is also a [[closed mon
 ## Definition 
 
 
-+-- {: .num_defn #MonoidalModelCategory}
-###### Definition
+\begin{definition}\label{MonoidalModelCategory}
+A (symmetric) **monoidal model category** is 
 
-A (symmetric) **monoidal model category** is a [[model category]] $\mathcal{C}$
-equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
-such that the following two compatibility conditions are satisfied
+* a [[model category]] $\mathcal{C}$
+
+equipped with the further [[structure]] of 
+
+* a  *[[closed monoidal category|closed]]* [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ 
+
+such that the following two compatibility conditions are satisfied:
 
 1. {#PushoutProductAxiom} ([[pushout-product axiom]]) For every [[pair]] of [[cofibrations]] $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the [[pushout|cofibered]] [[coproduct]] over ways of forming the [[tensor product]] of these objects
 
@@ -47,7 +51,7 @@ such that the following two compatibility conditions are satisfied
      \,,
    $$
 
-   is itself a cofibration, which, furthermore, is acyclic (i.e. a [[weak equivalence]]) if $f$ or $f'$ is.
+   is itself a [[cofibration]], which, furthermore, is [[acyclic cofibration|acyclic]] (i.e. also a [[weak equivalence]]) if $f$ or $f'$ is so.
 
    (Equivalently this says that the [[tensor product]] $\otimes \colon C \times C \to C$ is a left [[Quillen bifunctor]].)
 
@@ -60,7 +64,7 @@ such that the following two compatibility conditions are satisfied
   is a [[weak equivalence]].
 
 
-=--
+\end{definition}
 
 \begin{remark}\label{InternalHomQuillenAdjunction}
 **(internal hom Quillen adjunction)**
@@ -84,6 +88,15 @@ $$
 
 \end{remark}
 
+\begin{remark}
+ Notice that the pushout-product axiom is stronger than its implied statement in Exp. \ref{InternalHomQuillenAdjunction}, while the latter might superficically seem to be all that would reasonably be required of a model-category theoretic version of a [[monoidal category]]. 
+
+It is at this point that the established term "monoidal model category" is somewhat misleading, in that Def. \ref{MonoidalModelCategory} above is really a model-category theoretic version of the stronger concept of *[[closed monoidal categories|closed monoidal]] categories (symmetric closed monoidal really, but the symmetry is not the subtle part). 
+
+Namely, the full strength of the pushout-product axiom is needed to imply that not only the [[tensor product]] $\otimes$ but also its [[internal hom]] $[-,-] \,\colon\, C^{op} \times C \to C$ is homotopically well-behaves, to wit that $[-,-]$ satisfies the *[[pullback-power axiom]]*, which in turn implies that $[X,-]$ and $[-,A]$ are [[right Quillen functors]] for all [[cofibrant objects]] $X$ and [[fibrant objects]] $A$.
+
+In short, the [[pushout-product axiom]] is the model-category theoretic incarnation not just of a [[tensor product]], but of its extension to an [[two-variable adjunction]].
+\end{remark}
 
 \begin{remark}\label{CaseOfCofibrantTensorUnit}
 **(cofibrant tensor unit implies unit axiom)**\linebreak
