@@ -101,7 +101,12 @@ The pushout-product axiom makes sense more generally in the context of a [[two-v
 
 ## References
 
-See the references at 
+The pullback-power axiom in its role in [[enriched model categories]], specifically in [[simplicial model categories]] originates in:
+
+* {#Quillen67} [[Daniel Quillen]], axiom "SM7" in §2.2 of: *[[Homotopical Algebra]]*, Lecture Notes in Mathematics **43**, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438)&rbrack;
+
+
+For more see the references at:
 
 * *[[monoidal model category]]*
 
