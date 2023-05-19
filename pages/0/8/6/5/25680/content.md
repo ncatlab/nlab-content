@@ -40,7 +40,7 @@ In [[simplicial homotopy type theory]], the hom type is defined as the [[extensi
 
 $$\mathrm{hom}_A(x, y) \coloneqq \langle \Delta^1 \to A \vert_{[x,y]}^{\partial \Delta^1} \rangle$$
 
-where $\Delta^1$ is the shape $\{t:\mathbb{2} \vert \top\}$ and $\partial \Delta^1$ is the boundary of $\Delta^1$, the shape $\{t:\mathbb{2} \vert t = 0 \vee t = 1\}$. 
+where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \Delta^1$ is the [[boundary]] of $\Delta^1$. 
 
 ## Related concepts
 
