@@ -46,7 +46,14 @@ For more examples see also at MO _[Where do all the projection formulas come fro
 
 * [[dependent linear type theory]]
 
+* [[Frobenius reciprocity]], [[Beck-Chevalley condition]]
+
 ## References
+
+Discussion in a context of [[formal logic]]:
+
+* [[Bill Lawvere]], p. 6 in: _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970) 1-14 &lbrack;[pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf)&rbrack;
+
 
 Discussion in [[real cohomology]] for [[integration of differential forms]]:
 
