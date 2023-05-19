@@ -206,6 +206,8 @@ also enriched modal categories over themselves.
 
 ## Related concepts
 
+* [[monoidal model category]]
+
 * [[enriched monoidal model category]]
 
 * [[derived hom-functor]]
@@ -217,6 +219,12 @@ also enriched modal categories over themselves.
 * [[pullback power]]
 
 ## References
+
+The general definition of enriched model categories has its origin in 
+
+* {#Quillen67} [[Daniel Quillen]], chapter II, section 2 of: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438)&rbrack;
+
+where it is formulated in the special case of [[simplicial model categories]] (but the generalization is immediate).
 
 Textbook account:
 
