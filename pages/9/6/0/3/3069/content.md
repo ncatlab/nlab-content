@@ -164,6 +164,8 @@ More motivation along these lines also be found at *[[dependent linear type theo
 
 From the point of view of [[formal logic]] and [[dependent type theory]], the three items $f_! \dashv f^\ast \vdash f_\ast$ in a [[base change]] [[adjoint triple]] constitute the [[categorical semantics]] of [[quantification]] and [[context extension]] ([[existential quantification]]/[[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[universal quantification]]/[[dependent product type]]), and so the Beck-Chevalley condition says that these are compatible with each other: concretely that [[substitution]] of [[free variables]] commutes with [[quantification]] --- a condition which [[syntax|syntactically]] is "self-evident", at least it is evidently desirable.
 
+Original articles with this logical perspective on the BC condition: [Lawvere (1970), p. 8](#Lawvere70); [Seely (1983), p. 511](#Seely83); [Pavlović (1991), §1](#Pavlović91); [Pavlović (1996), p. 164](#Pavlović96).
+
 For more on this logical aspect see [below](#InTypeTheory).
 
 
@@ -860,7 +862,7 @@ Original articles:
 
 expanded on in 
 
-* [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
+* {#Seely83} [[Robert A. G. Seely]], *Hyperdoctrines, Natural Deduction and the Beck Condition*, Zeitschr. f. math. Logik und Grundlagen d. Math. **29** (1983) 505-542 &lbrack;[doi:10.1002/malq.19830291005]( https://doi.org/10.1002/malq.19830291005), [pdf](https://www.math.mcgill.ca/seely/ZML/ZML.PDF)&rbrack;
 
 Review:
 
@@ -871,7 +873,7 @@ Review:
 > (in view of [[linear type theory]])
 
 
-* [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
+* {#Pavlović96} [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
 
 * [[Paul Balmer]], around §7.5 of: *Stacks of group representations*, J. European Math. Soc. **17** 1 (2015) 189-228 &lbrack;[arXiv:1302.6290](https://arxiv.org/abs/1302.6290), [doi:10.4171/jems/501](https://doi.org/10.4171/jems/501)&rbrack;
 
@@ -879,13 +881,19 @@ Discussion for [[subobject lattices]]:
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around p. 205) of: _[[Sheaves in Geometry and Logic]]_,   Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
+Review in the context of [[Grothendieck's yoga of six operations]]:
+
+* [[Martin Gallauer]], pp. 16 of: *An introduction to six-functor formalism*, lecture at *[The Six-Functor Formalism and Motivic Homotopy Theory](https://sites.google.com/view/summer-school-motivic/home)*, Università degli Studi di Milano (Sept. 2021) &lbrack;[arXiv:2112.10456](https://arxiv.org/abs/2112.10456), [pdf](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/docs/m6ff.pdf)&rbrack;
+
+* [[Peter Scholze]], p. 11 of: *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
+
+
+
 Discussion for [[derived functors]] with focus on the example of [[base change]] of [[retractive spaces]] and [[homotopy categories]] of [[parameterized spectra]]:
 
 * [[Michael Shulman]], *Comparing composites of left and right derived functors*, New York Journal of Mathematics **17** (2011) 75-125 &lbrack;[arXiv:0706.2868](https://arxiv.org/abs/0706.2868), [eudml:229181](https://eudml.org/doc/229181)&rbrack;
 
 * [[Mike Shulman]], *Framed bicategories and monoidal fibrations*, Theory and Applications of Categories, **20** 18 (2008) 650–738 &lbrack;[tac:2018](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html), [arXiv:0706.1286](https://arxiv.org/abs/0706.1286)&rbrack;
-
-
 
 Discussion in the generality of [[enriched category theory]]:
 
