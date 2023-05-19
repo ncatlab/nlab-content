@@ -88,14 +88,16 @@ $$
 
 \end{remark}
 
-\begin{remark}
- Notice that the pushout-product axiom is stronger than its implied statement in Exp. \ref{InternalHomQuillenAdjunction}, while the latter might superficically seem to be all that would reasonably be required of a model-category theoretic version of a [[monoidal category]]. 
+\begin{remark}\label{MeaningOfPushoutProductAxiom}
+**(meaning of the pushout product axiom)**
+\linebreak
+ The [[pushout-product axiom]] ([above](#PushoutProductAxiom)) is stronger than its implied statement in Exp. \ref{InternalHomQuillenAdjunction}, while the latter might superficially seem to be all that would reasonably be required of a model-category theoretic version of a [[monoidal category]]. 
 
-It is at this point that the established term "monoidal model category" is somewhat misleading, in that Def. \ref{MonoidalModelCategory} above is really a model-category theoretic version of the stronger concept of *[[closed monoidal categories|closed monoidal]] categories (symmetric closed monoidal really, but the symmetry is not the subtle part). 
+It is at this point that the established tradition to just say "monoidal model category" for the above definition is somewhat misleading, in that Def. \ref{MonoidalModelCategory} is really a model-category theoretic version of the stronger concept of *[[closed monoidal categories|closed monoidal]]* categories (*symmetric* closed monoidal really, but the symmetry is not the subtle part). The arguably more accurate terminology "closed monoidal model category" for Def. \ref{MonoidalModelCategory} is probably being avoided because [Quillen (1967)](#Quillen67) originally introduced model categories in general under the name "closed model categories" with the adjective "closed" *not* meant to refer to its use in *[[closed categories]]*...
 
-Namely, the full strength of the pushout-product axiom is needed to imply that not only the [[tensor product]] $\otimes$ but also its [[internal hom]] $[-,-] \,\colon\, C^{op} \times C \to C$ is homotopically well-behaves, to wit that $[-,-]$ satisfies the *[[pullback-power axiom]]*, which in turn implies that $[X,-]$ and $[-,A]$ are [[right Quillen functors]] for all [[cofibrant objects]] $X$ and [[fibrant objects]] $A$.
+Namely, the full strength of the pushout-product axiom is needed to imply that not only the [[tensor product]] $\otimes$ but also its [[internal hom]] $[-,-] \,\colon\, C^{op} \times C \to C$ is homotopically well-behaved, to wit that $[-,-]$ satisfies the *[[pullback-power axiom]]*, which in turn implies that $[X,-]$ and $[-,A]$ are [[right Quillen functors]] for all [[cofibrant objects]] $X$ and [[fibrant objects]] $A$.
 
-In short, the [[pushout-product axiom]] is the model-category theoretic incarnation not just of a [[tensor product]], but of its extension to an [[two-variable adjunction]].
+In short, the [[pushout-product axiom]] is the model-category theoretic way to ensure that not just the [[tensor product]], but also the [[internal hom]] as well as their joint relatin in a [[two-variable adjunction]] are homotopically meaningful.
 \end{remark}
 
 \begin{remark}\label{CaseOfCofibrantTensorUnit}
@@ -495,28 +497,38 @@ See [[model structure on monoids in a monoidal model category]].
 
 ## References 
 
-The first mention of monoidal model categories (without the unit axiom) under this name is in
+Textbook accounts:
+
+* {#Hovey99} [[Mark Hovey]], Chapter 4, Def. 4.2.6, in: *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+
+* [[Jacob Lurie]], Def. A.3.1.2 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+
+{#OriginalReferences} Historically, the first mention of monoidal model categories (without the unit axiom) under this name is in
 
 * [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], *[[Model Categories and More General Abstract Homotopy Theory]]* &lbrack;[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/dhk.pdf)&rbrack;
 
   > (Mentioned in passing in Remark 55.10, with no definition given, but the preceding section discusses the pushout product axiom.)
 
+The term "pushout smash poduct" is used for the case of [[smash products]] in [[pointed category|pointed categories]] (such as of [[pointed simplicial sets]] or [[symmetric spectra]]):
+
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. **13** (1998) 149-208 &lbrack;[arXiv:math/9801077](https://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack; 
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_, [arXiv:math/9801082v1](https://arxiv.org/abs/math/9801082v1) (January 19, 1998).
+The general notion of monoidal model categories and their pushout-product axiom appears in:
 
-* {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002v1](https://arxiv.org/abs/math/9803002v1), February 28, 1998).
+* [[Stefan Schwede]], [[Brooke Shipley]], Def. 2.1 _Algebras and modules in monoidal model categories_, Proc. London Math. Soc. **80** 2  (2000)  491-511  &lbrack;[arXiv:math/9801082](https://arxiv.org/abs/math/9801082), [doi:10.1112/S002461150001220X](https://doi.org/10.1112/S002461150001220X)&rbrack;
 
-Although the earliest mentions of terminology appear to be the sources indicated above, the notion itself is older.
-In particular, in his book Hovey credits the definition of a [[Quillen bifunctor]] to Dwyer–Hirschhorn–Kan–Smith, and this definition is itself based on the axiom SM7 in Quillen's [[Homotopical Algebra]].
+* {#Hovey98} [[Mark Hovey]], Def. 1.1 in: _Monoidal model categories_ &lbrack;[arXiv:math/9803002v1](https://arxiv.org/abs/math/9803002)&rbrack; 
+
+Although the earliest mentions of terminology appear to be these sources indicated above, the notion itself is older.
+In particular, [Hovey (1999), p. 107](#Hovey99) credits the definition of a [[Quillen bifunctor]] to [[Homotopy Limit Functors on Model Categories and Homotopical Categories|Dwyer, Hirschhorn, Kan & Smith (2004)]] (which had for years earlier been "in preparation"), and the definition is of course just a small variant of the definition [[enriched model categories]], which in its specialization to [[simplicial model categories]] is due to
+
+* {#Quillen67} [[Daniel Quillen]], chapter II, section 2 of: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438)&rbrack;
+
+(The corresponding [[pullback-power axiom]] is axiom "SM7" in [Quillen (1967)](#Quillen67).)
 
 The [[unit axiom]] together with the fact that the [[homotopy category]] is monoidal in this case is due to Hovey.
 
-Textbook accounts:
-
-* {#Hovey99} [[Mark Hovey]], Def. 4.2.6 in: _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
-
-* [[Jacob Lurie]], Def. A.3.1.2 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 Conditions for the existence of induced monoidal model structure on [[Reedy model categories]]:
 
