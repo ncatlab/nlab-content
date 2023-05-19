@@ -19,12 +19,13 @@ and proofs.
 complete account of the theory.
 
 
-The two pedagogical books written with Kashiwara:
+On [[microlocalization]] of [[abelian sheaves]] and [[Grothendieck's yoga of six operations]]:
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Springer
-(this book describes, among other topics, the author's theory of microlocalization of sheaves)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Grundlehren **292**, Springer (1990) &lbrack;[doi:10.1007/978-3-662-02661-8](https://doi.org/10.1007/978-3-662-02661-8)&rbrack;
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+On [[category theory]] and [[sheaf and topos theory]]:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 * links to [coursenotes](http://people.math.jussieu.fr/~schapira/lectnotes)
 
