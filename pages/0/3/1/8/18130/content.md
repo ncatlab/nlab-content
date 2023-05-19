@@ -26,9 +26,13 @@ A [[topological space]] $(X,\tau)$ is called a _Kolmogorov space_ if it satisfie
 
 ### Alternative Characterizations
 
+Regard [[Sierpinski space]] $\Sigma$ as a [[locale]] object in the category of topological spaces (meaning: the representable functor $Top(-, \Sigma): Top^{op} \to Set$ lifts through the monadic forgetful functor $Loc \to Set$ from the category of locales), hence as a [[dualizing object]] that induces a contravariant adjunction between locales and topological spaces. Thus for a space $X$, the locale $Top(X, \Sigma)$ is the locale of [[open sets]]; for a locale $L$, there is an accompanying topological space of points $Loc(L, \Sigma)$. The unit of the adjunction is called the double dual embedding.  
+
 \begin{proposition}
-A [[topological space]] $X$ is $T_0$ precisely when the [[unit of an adjunction|unit]] of the [[continuation monad]] for the [[Sierpinski space]] $\eta \colon X \to \Sigma^{(\Sigma^X)}$ is a [[monomorphism]].
-\end{proposition}
+A [[topological space]] $X$ is $T_0$ precisely when the double dual embedding $X \to Loc(Top(X, \Sigma), \Sigma)$ is a [[monomorphism]].
+\end{proposition} 
+
+The proof is trivial: the monomorphism condition translates to saying that for any points $x, y \in X$, if the truth values of $x \in U$ and $y \in U$ agree for every open set $U$, then $x = y$. 
 
 
 [[!include main separation axioms -- as lifting properties]]
