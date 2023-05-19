@@ -409,6 +409,11 @@ in particular in [[quantum machine learning]]:
 
 * Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. 5 044007 (2020) ([doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d))
 
+* Olivier Ezratty, *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518)&rbrack;
+
+  > "no one has yet successfully implemented a use case matching the original definition of the NISQ regime."
+
+
 
 ### Quantum programming via monads
  {#ReferencesInTermsOfMonads}
