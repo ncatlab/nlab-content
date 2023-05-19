@@ -144,32 +144,61 @@ General abstract discussion is in:
 
 * [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
-* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
+* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], *Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism*, Compositio Math. **152** (2016) 1740-1776 &lbrack;[arXiv:1501.01999](http://arxiv.org/abs/1501.01999), [doi:10.1112/S0010437X16007375](https://doi.org/10.1112/S0010437X16007375)&rbrack;
+
 
 Lecture notes:
 
 * [[Martin Gallauer]], *An introduction to six-functor formalism*, lecture at *[The Six-Functor Formalism and Motivic Homotopy Theory](https://sites.google.com/view/summer-school-motivic/home)*, Università degli Studi di Milano (Sept. 2021) &lbrack;[arXiv:2112.10456](https://arxiv.org/abs/2112.10456), [pdf](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/docs/m6ff.pdf)&rbrack;
 
+* {#Scholze22} [[Peter Scholze]], *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
+
 
 An approach to six functor formalism as a bifibered multicategory (multiderivator, when appropriate) over correspondences is in 
 
-* Fritz H&#246;rmann, _Fibered derivators, (co)homological descent, and Grothendieck's six functors_ [pdf](http://home.mathematik.uni-freiburg.de/hoermann/overview6fu.pdf); _Fibered Multiderivators and (co)homological descent_, [arxiv./1505.00974](http://arxiv.org/abs/1505.00974);  _Six Functor Formalisms and Fibered Multiderivators_ [arXiv:1603.02146](https://arxiv.org/abs/1603.02146); _Derivator Six Functor Formalisms --- Definition and Construction I_ [arXiv:1701.02152](https://arxiv.org/abs/1701.02152)
+* Fritz H&#246;rmann, _Fibered derivators, (co)homological descent, and Grothendieck's six functors_ [pdf](http://home.mathematik.uni-freiburg.de/hoermann/overview6fu.pdf); 
+
+  _Fibered Multiderivators and (co)homological descent_, [arxiv./1505.00974](http://arxiv.org/abs/1505.00974);  
+
+  _Six Functor Formalisms and Fibered Multiderivators_ [arXiv:1603.02146](https://arxiv.org/abs/1603.02146); 
+
+  _Derivator Six Functor Formalisms --- Definition and Construction I_ [arXiv:1701.02152](https://arxiv.org/abs/1701.02152)
 
 The traditional applications ([[quasicoherent sheaves of modules]]) are discussed in
 
-* [[Joseph Lipman]], _Notes on derived functors and Grothendieck duality_, in _Foundations of Grothendieck Duality for Diagrams of Schemes_,
-Lecture Notes in Math., no. 1960, Springer-Verlag, New York, 2009, 1&#8211;259. ([pdf](http://www.math.purdue.edu/~lipman/Duality.pdf))
-
+* [[Joseph Lipman]], _Notes on derived functors and Grothendieck duality_, in _Foundations of Grothendieck Duality for Diagrams of Schemes_, Lecture Notes in Math. **1960** Springer (2009) 1-259 &lbrack;[pdf](http://www.math.purdue.edu/~lipman/Duality.pdf)&rbrack;
 
 * Yves Laszlo, Martin Olsson, _The six operations for sheaves on Artin stacks I: Finite Coefficients_ ([arXiv:math/0512097](http://arxiv.org/abs/math/0512097))
 
-An [[enhanced triangulated category|enhanced]] version of the six operations formalism for [[etale cohomology]] of [[Artin stacks]] (and [[higher Artin stacks]]), using the language of [[stable (infinity,1)-categories]] is developed in
+An [[enhanced triangulated category|enhanced]] version of the six operations formalism for [[etale cohomology]] of ([[infinity-stack|higher]]) [[Artin stacks]], using the language of [[stable (infinity,1)-categories]]:
 
 * Yifeng Liu, Weizhe Zheng, _Enhanced six operations and base change theorem for Artin stacks_, [arXiv](http://arxiv.org/abs/1211.5948).
 
-The six functor formalism for [[motivic homotopy theory]] was developed in
+The six functor formalism for [[motivic homotopy theory]]:
 
-* [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris ([pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf))
+* [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris &lbrack;[pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf), [K:0761](https://faculty.math.illinois.edu/K-theory/0761)&rbrack;
+
+* [[Joseph Ayoub]], *Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (I)*, Astérisque **314** (2007) &lbrack;[numdam:AST_2007__314__R1_0](http://www.numdam.org/issues/AST_2007__314__R1_0)&rbrack;
+
+* [[Joseph Ayoub]], *Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (II)*, Astérisque **315** (2007) &lbrack;[numdam:AST_2007__315__1_0](http://www.numdam.org/issues/AST_2007__315__1_0)&rbrack;
+
+* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], section A.5 of: *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
+
+and in the context of [[rigid analytic geometry]]:
+
+* [[Joseph Ayoub]], [[Martin Gallauer]], [[Alberto Vezzani]], *The six-functor formalism for rigid analytic motives*, Forum of Mathematics, Sigma **10** (2022) E61 &lbrack;[doi:10.1017/fms.2022.55](https://doi.org/10.1017/fms.2022.55), [arXiv:2010.15004](https://arxiv.org/abs/2010.15004)&rbrack;
+
+
+Enhancement to [[equivariant motivic homotopy theory]]:
+
+* [[Marc Hoyois]], *The six operations in equivariant motivic homotopy theory*, Adv. Math. **305** (2017) 197-279 &lbrack;[arXiv:1509.02145](https://arxiv.org/abs/1509.02145), [doi:10.1016/j.aim.2016.09.031](https://doi.org/10.1016/j.aim.2016.09.031)&rbrack;
+
+Discussion of six-functor formalism for [[abelian sheaves]] on [[manifolds]]/[[topological spaces]]:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Chapters II and III of: _Sheaves on manifolds_, Grundlehren **292**, Springer (1990) &lbrack;[doi:10.1007/978-3-662-02661-8](https://doi.org/10.1007/978-3-662-02661-8)&rbrack;
+
+* [[Marco Volpe]], *The six operations in topology* &lbrack;[arXiv:2110.10212](https://arxiv.org/abs/2110.10212)&rbrack;
+
 
 See also:
 
@@ -186,9 +215,7 @@ reviewed for instance in
 
 * [[David Ben-Zvi]], [[David Nadler]], section 3 of _The Character Theory of a Complex Group_ ([arXiv:0904.1247](http://arxiv.org/abs/0904.1247))
 
-A quick list of the axioms with a  Grothendieck's six operations with an eye towards the definition of [[motives]] is in section A.5 of 
 
-* {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
  
 
 The six operations for [[derived categories]] of [[quasi-coherent sheaves]], [[ind-coherent sheaves]], and [[D-modules]] on [[derived stacks]] are developed in
@@ -207,9 +234,8 @@ Six operations formalism for [[rigid analytic geometry]] is in
 
 * {#Mann22} Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
 
-The abstract approach behind Mann's work is the subject of the following course by Peter Scholze:
+The abstract approach behind Mann's work is the subject of [Scholze (2022)](#Scholze22).
 
-* {#Scholze22} [[Peter Scholze]], *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
  
 
 
@@ -217,6 +243,7 @@ The abstract approach behind Mann's work is the subject of the following course 
 
 [[!redirects Grothendieck's six operations]]
 [[!redirects Grothendieck's yoga of six operations]]
+[[!redirects Grothendieck yoga of six operations]]
 
 
 [[!redirects Grothendieck\'s six operations]]
