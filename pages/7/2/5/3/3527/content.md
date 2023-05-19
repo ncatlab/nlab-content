@@ -4,7 +4,16 @@
 
 ## Selected writings
 
-* Masaki Kashiwara, [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+On [[microlocalization]] of [[abelian sheaves]] and [[Grothendieck's yoga of six operations]]:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Grundlehren **292**, Springer (1990) &lbrack;[doi:10.1007/978-3-662-02661-8](https://doi.org/10.1007/978-3-662-02661-8)&rbrack;
+
+On [[category theory]] and [[sheaf and topos theory]]:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+
+See also:
+
 
 * P. Shapira, _Masaki Kashiwara and algebraic analysis_, Adv. Studies in Pure Analysis, [arxiv/0810.4875](http://arxiv.org/abs/0810.4875)
 
