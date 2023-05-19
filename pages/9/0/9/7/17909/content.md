@@ -16,3 +16,5 @@
 ## References
 
 * Wikipedia, _[Artin-Wedderburn theorem](https://en.wikipedia.org/wiki/Artin%E2%80%93Wedderburn_theorem)_
+
+[[!redirects Wedderburn's theorem]]
