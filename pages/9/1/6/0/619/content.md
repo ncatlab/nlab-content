@@ -405,6 +405,10 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 
 * {#Ulmer68} [[Friedrich Ulmer]], _Properties of Dense and Relative Adjoint Functors_, Journal of Algebra 1968
 
+
+* [[Saunders MacLane]], §IV.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
 
 * {#AdamekRosicky} [[Jiri Adamek|Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
