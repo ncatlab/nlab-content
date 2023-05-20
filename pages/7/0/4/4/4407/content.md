@@ -108,17 +108,19 @@ Many proofs rely explicitly on the [[double negation]] rule by first supposing t
 
 In [[constructive mathematics]], [[integral closure]] and [[algebraic closure]] of a [[field]] are not the same, because not every nonconstant polynomial function has a well-defined degree. This is still the case even if we take "nonconstant polynomial function", we mean "[[tight apartness relation|apart from]] every constant polynomial function". In general, every nonconstant polynomial function has a well-defined degree if and only if the field is a [[discrete field]]. 
 
-Thus, the fundamental theorem of algebra is usually expressed in terms of integral closure:
+Thus, the fundamental theorem of algebra is usually expressed in terms of integral closure, which classically is the same as algebraic closure for any field:
 
 * The [[field]] of [[complex number]]s $\mathbb{C}$ is [[integrally closed field|integrally closed]]. In other words, every [[monic polynomial|monic]] [[polynomial function]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
 
-A fully choice-free constructive proof by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) exists for the [[modulated Cantor real number|modulated Cantor complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]).
+There is a second problem, namely with Lemma \ref{sqrt}. It is usually impossible to prove that the monic quadratic function $x \mapsto x^2 + c$ has a [[root]] for all complex numbers $c \in \mathbb{C}$. The problem here is once again that any constructive notion of complex numbers is only a [[Heyting field]], rather than a [[discrete field]]. The function $x \mapsto x^2 + c$ has a root for $c = 0$ and for invertible $c$, but it is not provable that every complex number $c \in \mathbb{C}$ is either invertible or equal to zero. In fact, this fails in certain [[topoi]], such as [[sheaves]] over $\mathbb{C}$, because that the complex numbers have a continuous square root over $\mathbb{C}$ can only be proven in the presence of [[weak countable choice]].  
 
-The algebraic proof of other fields of real numbers is problematic in many ways. 
+However, the following weaker theorem is still true in constructive mathematics for the [[modulated Cantor real number|modulated Cantor complex numbers]]:
 
-First, one might wish to use the [[inverse function theorem]] to prove that the square root of every non-negative number exists; however, the inverse function theorem only proves that the square root of every positive number exists, since the inverse function theorem leads to continuous inverses, which for the square function is the [[continuous square root]], which is only defined on the positive real numbers. The [[metric square root]], which is defined on the non-negative real numbers, is not continuous at $0$. 
+\begin{theorem}
+Every [[unramifiable polynomial|unramifiable]] [[monic polynomial|monic]] [[polynomial function]] with coefficients in $\mathbb{C}$ has a [[simple root]] in $\mathbb{C}$.
+\end{theorem}
 
-The second problem is Lemma \ref{sqrt}. This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero, because there is no [[continuous map|continuous]] square-root function unless one assumes [[weak countable choice]]. 
+A fully choice-free constructive proof of this theorem by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) exists for the [[modulated Cantor real number|modulated Cantor complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]). It is unknown if this weaker FTA is true of the [[Dedekind real number|Dedekind complex numbers]] as well. 
 
 [[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
