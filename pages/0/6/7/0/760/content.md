@@ -72,6 +72,13 @@ In general, we can say that in an $(n,1)$-[[(n,1)-category|category]], a "split 
 
 * [[propositions as projections]]
 
+## References
+
+Added pointer to:
+
+* [[Saunders MacLane]], §I.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 [[!redirects split monomorphism]]
 
 [[!redirects split monomorphisms]]
