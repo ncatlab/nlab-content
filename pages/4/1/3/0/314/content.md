@@ -566,13 +566,18 @@ Limits and [[colimits]] were defined in [[Daniel M. Kan]] in Chapter II of the p
 
 This paper refers to limits as _inverse limits_.
 
-The observation that limits can be constructed from products and equalisers is due to:
+The observation that limits can be constructed from [[products]] and [[equalisers]] is due to:
 
 * [[J.-M. Maranda]], *Some remarks on limits in categories*. Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
 
 That, more generally, it suffices to consider only equalisers of [[reflexive pairs]] is due to:
 
 * S. A. Huq and R. Cornu. _A remark on the existence of limits in categories_. Mathematische Nachrichten 55.1‐6 (1973): 223-224. &lbrack;[doi:10.1002/mana.19730550111](https://doi.org/10.1002/mana.19730550111)&rbrack;
+
+Textbook accounts:
+
+* [[Saunders MacLane]], §III.4 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 [[!redirects limits]]
 [[!redirects limit functor]]
