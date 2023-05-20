@@ -75,6 +75,8 @@ Every [[finite field]] has a [[cyclic group|cyclic]] [[multiplicative group]].
 
 * [[Chern root]]
 
+* [[simple root]]
+
 * [[real nth root function]]
 
 [[!redirects root]]
