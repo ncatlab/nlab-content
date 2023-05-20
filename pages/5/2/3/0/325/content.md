@@ -273,6 +273,11 @@ See at _[FinSet -- Properties -- Opposite category](FinSet#OppositeCategory)_. S
 
 ## References
 
+
+* [[Saunders MacLane]], §II.2 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
+
 For the definition in enriched category theory see page 12 of 
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
