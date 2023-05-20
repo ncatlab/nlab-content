@@ -33,7 +33,7 @@ Consider:
 
 1. $\eta \colon id_{\mathcal{C}} \Rightarrow R \circ L$ and $\epsilon \colon L \circ R \Rightarrow id_{\mathcal{D}}$ two [[natural transformations]] or, generally [[2-morphisms]].
 
-This data is called an _[[adjoint pair|pair]] of [[adjoint functors]]_ (generally: an _[[adjunction]]_) if the _triangle identities_ are satisfied, which may be expressed in any of the following equivalent ways:
+This data is called a _[[adjoint pair|pair]] of [[adjoint functors]]_ (generally: an _[[adjunction]]_) if the _triangle identities_ are satisfied, which may be expressed in any of the following equivalent ways:
 
 1. _[As equations](#AsEquations)_
 
