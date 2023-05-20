@@ -18,6 +18,10 @@ There have been 6 meetings since PSSL 100:
 
 * [PSSL106](http://www.math.muni.cz/~bourkej/PSSL106.html) (2022, Brno)
 
+## Related pages
+
+- [[Category Theory conference]]
+
 category: reference
 
 [[!redirects PSSL]]
