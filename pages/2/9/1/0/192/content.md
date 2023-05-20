@@ -130,6 +130,9 @@ In [[higher category theory]] the role of _$Set$_ is played for instance by
 
 ## References
 
+* [[Saunders MacLane]], §IV.10 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * {#vanOosten} [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
  
 On [[Set in homotopy type theory]]:
