@@ -174,14 +174,13 @@ Since finitary monads $T$ preserve reflexive coequalizers, it follows that the m
 
 ## References
 
-* [[Fred Linton]], _Coequalizers in categories of algebras_, Seminar on Triples and Categorical Homology Theory, Lecture Notes in Mathematics Vol. 80 (1969), 75-90. 
-{#Linton}
+* {#Linton} [[Fred Linton]], *Coequalizers in categories of algebras*, in: *Seminar on Triples and Categorical Homology Theory*, Lecture Notes in Mathematics **80** (1969) 75-90 &lbrack;[doi:10.1007/BFb0083082](https://doi.org/10.1007/BFb0083082)&rbrack;
 
-* [[Michael Barr]] and [[Charles Wells]], _Toposes, Theories, and Triples_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf)) 
-{#BarrWells}
 
-* [[Peter Johnstone]], Topos Theory, London Mathematical Society Monographs no. 10, Academic Press, 1977. 
-{#Johnstone} 
+* [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278** Springer (1983), republished in: Reprints in Theory and Applications of Categories **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]]&rbrack;
+
+* {#Johnstone} [[Peter Johnstone]], *Topos Theory*, London Mathematical Society Monographs **10**, Academic Press (1977) 
+ 
 
 [[!redirects reflexive coequalizer]]
 [[!redirects reflexive coequalizers]]
