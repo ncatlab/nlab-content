@@ -13,19 +13,23 @@
 =--
 =--
 
-This page compiles pointers related to
+This page compiles pointers related to:
 
 * [[Saunders MacLane]],
 
   **Categories for the Working Mathematician**
 
-  Graduate texts in mathematics
+  Graduate Texts in Mathematics **5**
 
-  Springer 1971
+  Springer (1971, second ed. 1997)
 
   [doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)
 
-which is a classical textbook on [[category theory]]. 
+which is a classical textbook on [[category theory]].
+
+The iconic title probably refers to the declared ambition of demonstrating the prevalence of examples of [[adjoint functors]] occurring throughout [[mathematics]]:
+
+> &lbrack;p. 2:&rbrack; "[[adjoint functor|Adjoints]], as we shall see, occur throughout [[mathematics]]."
 
 > &lbrack;p. 103:&rbrack; "The multiple examples, here and elsewhere, of [[adjoint functors]] tend to show that adjoints occur almost everywhere in many branches of [[mathematics|Mathematics]]. It is the thesis of this book that a systematic use of all these [[adjunctions]] illuminates and clarifies these subjects." 
 
@@ -37,25 +41,59 @@ See also:
 
 and the list of category theory textbooks [here](category+theory#section_Textbooks).
 
+{#Contents} **Contents** 
+
 The original edition has the following chapters:
 
-*  I. Categories, functors, and natural transformations
-*  II. Constructions on categories
-*  III. Universals and limits
-*  IV. Adjoints
-*  V. Limits
-*  VI. Monads and algebras
-*  VII. Monoids
-*  VIII. Abelian categories
-*  IX. Special limits
-*  X. Kan extensions
+*  **I. Categories, functors, and natural transformations**
+
+   on the basic notions of [[categories]], [[functors]] and [[natural transformations]]
+
+*  **II. Constructions on categories**
+
+   on forming [[opposite categories]], [[product categories]], [[functor categories]], [[comma categories]], [[free categories]] and the ([[very large category|very large]]) [[category of categories]].
+
+*  **III. Universals and limits**
+
+   on [[universal constructions]] and [[limits]]
+
+*  **IV. Adjoints**
+
+   on [[adjoint functors]]
+
+*  **V. Limits**
+
+   on [[limits]] and [[colimits]]
+
+*  **VI. Monads and algebras**
+
+   on [[monads]] and [[algebras over a monad]]
+
+*  **VII. Monoids**
+
+   on [[monoid objects]]
+
+*  **VIII. Abelian categories**
+
+   on [[abelian categories]]
+
+*  **IX. Special limits**
+
+   on [[filtered limits]], [[final functors]], [[ends]], [[coends]]
+
+*  **X. Kan extensions**
+
+   on [[Kan extensions]]
 
 The 2nd edition was published in 1997 with two additional chapters:
 
-* XI. Symmetry and braidings in monoidal categories
+* **XI. Symmetry and braidings in monoidal categories**
 
-* XII. Structures in categories
+  on [[braided monoidal categories|braided]] and [[symmetric monoidal categories]]
 
+* **XII. Structures in categories**
+
+  on [[internal categories]], [[simplicial nerves]], [[2-categories]]/[[bicategories]], [[crossed modules]] and [[2-groups]]
 
 
 category: reference
