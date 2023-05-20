@@ -124,11 +124,13 @@ The following [[Giraud theorem|Giraud like]] theorem stems from [[Marta Bunge|Ma
 +-- {: .num_theorem #bunge_theorem}
 ###### Theorem 
 
-A category $E$ is equivalent to a presheaf topos if and only if it is cocomplete, [[atomic category|atomic]], and [[regular category|regular]]. 
+A category $E$ is equivalent to a presheaf topos if and only if it is [[cocomplete]], [[well-powered]], [[co-well-powered]], [[atomic category|atomic]], and [[regular category|regular]]. 
 
-=-- 
+=--
 
-A proof as well as a second characterization using [[exact completion|exact completions]] can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)). The first paper has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
+This characterisation is proven for [[enriched categories|enriched]] presheaf categories in Theorem 4.16 of [Bunge 1969](#Bunge69) (Corollary 4.19 for the unenriched statement).
+
+A second characterization using [[exact completion|exact completions]] can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)). The first paper has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
 
 
 
@@ -315,6 +317,8 @@ Standard references are
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
 
 The characterizations of categories of presheaves are discussed in
+
+* {#Bunge69} _Relative functor categories and categories of algebras_, J. of Algebra __11__,1 (1969) 64--101, [MR236238](https://mathscinet.ams.org/mathscinet-getitem?mr=236238) <a href="https://doi.org/10.1016/0021-8693(69)90102-1">doi</a>
 
 * {#CarboniVitale98}[[Aurelio Carboni|A. Carboni]], [[Enrico Vitale|E. M. Vitale]], _Regular and exact completions_ , JPAA **125** (1998) pp.79-116.
 
