@@ -23,7 +23,7 @@ More generally, let $R$ be a [[commutative ring]]. The [[polynomial ring]] $R[x]
 Given a [[Heyting field]] $K$ and a [[polynomial]] $f \in K[x]$ with [[coefficients]] in $K$, a **simple root** is a [[root]] $a \in K$ of $f$ such that $f'(a)$, the evaluation of the [[derivative]] of $f$ at $a$, is [[invertible]].
 \end{definition}
 
-In classical mathematics (implying acceptance of the law of excluded middle), a simple root $a$ is a root that is not a multiple root: it is not the case that $(x-a)^2$ divides $f(x)$, or "not $f'(a) = 0$". But for the purposes of constructive mathematics, it is preferable to state the condition as "$f'(a)$ is [[apartness|apart]] from $0$", or that $f'(a)$ is invertible. Hence the definitions above. 
+In [[classical mathematics]] (implying acceptance of the [[law of excluded middle]]), a simple root $a$ is a root that is not a multiple root: it is not the case that $(x-a)^2$ divides $f(x)$, or "not $f'(a) = 0$". But for the purposes of [[constructive mathematics]], it is preferable to state the condition as "$f'(a)$ is [[apartness|apart]] from $0$", or that $f'(a)$ is invertible. Hence the definitions above. 
 
 ## Related concepts
 
@@ -34,4 +34,6 @@ In classical mathematics (implying acceptance of the law of excluded middle), a 
 
 ## References
 
-* {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
+* {#Ruitenberg91} [[Wim Ruitenberg]], *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenberg-Roots.pdf:file]]&rbrack;
+
+[[!redirects simple roots]]
