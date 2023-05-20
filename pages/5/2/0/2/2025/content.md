@@ -377,6 +377,9 @@ Such colimits of compact Hausdorff spaces are also equivalently [[quotient topol
 
 ## References
 
+* [[Saunders MacLane]], §VI.9 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * {#MarraReggio} Vincenzo Marra, Luca Reggio, _A characterisation of the category of compact Hausdorff spaces_, ([arXiv:1808.09738](https://arxiv.org/abs/1808.09738))
 
 * {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
