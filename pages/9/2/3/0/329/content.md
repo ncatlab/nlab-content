@@ -122,7 +122,7 @@ In summary, a sesquicategory consists of "stuff" and structure as described in t
 
 ## History 
 
-As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement](#Godement), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken a few years later by [Ehresmann](#Ehresmann), who in fact defined [[double categories]], and 2-categories as a special case. In any event, the primitive compositional operations in Godement's account were what we call vertical compositions and whiskerings, with horizontal composition of natural transformations being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, horizontal composition is often called the *Godement product*. 
+As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement](#Godement), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken a few years later (1965) by [Ehresmann](#Ehresmann). In any event, the primitive compositional operations in Godement's account were what we call vertical compositions and whiskerings, with horizontal composition of natural transformations being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, horizontal composition is often called the *Godement product*. 
 
 A few years after that, B&#233;nabou introduced the notion of [[bicategory]]. 
 
@@ -135,7 +135,7 @@ Original articles:
 * {#Godement} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris, 1958. 
  
 
-* {#Ehresmann} [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963), 1198-1201. ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246))
+* {*Ehresmann} [[Charles Ehresmann]], Catégories et structures, Dunod, Paris 1965.
 
 
 Exposition and review:
