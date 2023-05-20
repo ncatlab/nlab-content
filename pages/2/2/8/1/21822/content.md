@@ -17,7 +17,7 @@
 
 An [[automorphism]] of the [[field]] of [[complex numbers]].
 
-Beyond the two evident ones, the [[identity]] and [[complex conjugation]], there is an infinitute of "wild" automorphisms, which, however, are not [[continuous functions|continuous]] and not [[constructive mathematics|constructive]] (their existence requires [[Zorn's lemma]]).
+Beyond the two evident ones, the [[identity]] and [[complex conjugation]], there is an infinitude of "wild" automorphisms, which, however, are not [[continuous functions|continuous]] and not [[constructive mathematics|constructive]] (their existence requires [[Zorn's lemma]]).
 
 ## References
 
