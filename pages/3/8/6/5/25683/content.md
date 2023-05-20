@@ -25,8 +25,57 @@ In [[type theory with shapes]], there are three different layers - there are the
 Shapes are formed in the usual set-builder notation in [[set theory]]: given a cube $I$ and a predicate tope $t:I \vdash \phi$, one could construct the shape $\{t:I \vert \phi\}$. A cofibration in two-level type theory is an inclusion of shapes, which means shapes $\{t:I \vert \phi\}$ and $\{t:I \vert \psi\}$ with a predicate $t:I \vert \phi \vdash \psi$. 
 
 Formation rules for dependent extension types
+$$\frac{
+\begin{array}{l}
+\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A
+\end{array}
+}{\Xi \vert \Phi \vert \Gamma \vdash \langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \; \mathrm{type}}$$
 
-... See [Riehl Shulman 17](#RiehlShulman17) for now
+Introduction rules for dependent extension types
+$$\frac{
+\begin{array}{l}
+\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A \\
+\Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b:A \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b \equiv a \\
+\end{array}
+}{\Xi \vert \Phi \vert \Gamma \vdash \lambda t^{I\vert \phi}.b:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle}$$
+
+Elimination rules for dependent extension types
+
+$$\frac{
+\begin{array}{l}
+\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\Xi \vert \Phi \vert \Gamma \vdash f:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \psi(s)
+\end{array}
+}{\Xi \vert \Phi \vert \Gamma \vdash f(s):A}$$
+
+$$\frac{
+\begin{array}{l}
+\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\Xi \vert \Phi \vert \Gamma \vdash f:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \phi(s)
+\end{array}
+}{\Xi \vert \Phi \vert \Gamma \vdash f(s) \equiv a(s)}$$
+
+Computation rules for dependent extension types
+
+$$\frac{
+\begin{array}{l}
+\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\Xi \vert \Phi \vdash \Gamma \; \mathrm{ctx} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash A \; \mathrm{type} \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash a:A \\
+\Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b:A \quad \Xi, t:I \vert \Phi, \phi \vert \Gamma \vdash b \equiv a \\
+\Xi \vdash s:I \quad \Xi \vert \Phi \vdash \phi(s)
+\end{array}
+}{\Xi \vert \Phi \vert \Gamma \vdash (\lambda t^{I\vert \phi}.b)(s) \equiv b(s)}$$
+
+Uniqueness rules for dependent extension types
+
+$$\frac{
+\begin{array}{l}
+\{t:I \vdash \phi\} \; \mathrm{shape} \quad \{t:I \vdash \psi\} \; \mathrm{shape} \quad t:I \vert \phi \vdash \psi \\
+\Xi \vert \Phi \vert \Gamma \vdash f:\langle \prod_{t:I \vert \psi} A \vert_a^\phi \rangle \quad \Xi \vdash s:I \quad \Xi \vert \Phi \vdash \phi(s)
+\end{array}
+}{\Xi \vert \Phi \vert \Gamma \vdash f \equiv \lambda t^{I \vert \psi}.f(t)}$$
 
 ### In two-level type theory
 
