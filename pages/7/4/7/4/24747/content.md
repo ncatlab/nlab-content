@@ -1,10 +1,23 @@
-The Peripatetic Seminar on Sheaves and Logic (mostly called PSSL) is an informal gathering of category theorists, type theorists and logicians that started in May 1976, when [[Dana Scott]] was a Professor in Oxford, UK.
 
-The seminar has been very influential, but since it is has been always very informal, there are few sources of information on its contents over the years. The seminar used to meet three times a year, corresponding to the traditional terms in the academic calendar in the UK, but in recent years it has met less intensively. Over the COVID global pandemic it hasn't met at all.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
-For the celebration of the [100th PSSL](http://www.julia-goedecke.de/PSSL100/pssl100.html) seminar in May 2016, Dr Julia Goedecke produced a [History of the PSSL](http://www.julia-goedecke.de/PSSL100/psslhistory.pdf), with data from Professor [[Peter Johnstone]]. For safety reasons, this data is also kept in [GitHub](https://github.com/vcvpaiva/DialecticaCategories/blob/master/PSSL/psslhistory.pdf).
+The *Peripatetic Seminar on Sheaves and Logic* (mostly called PSSL) is an informal gathering of [[category theory|category theorists]], [[type theory|type theorists]] and [[formal logic|logicians]] that started in May 1976, when [[Dana Scott]] was a Professor in Oxford, UK.
 
-There have been 6 meetings since PSSL 100:
+The seminar has been very influential, but since it is has been always very informal, there are few sources of information on its contents over the years. The seminar used to meet three times a year, corresponding to the traditional terms in the academic calendar in the UK, but in recent years it has met less intensively. During 2020-21 it hasn't met at all.
+
+A list of all speakers and titles of the first 100 PSSL meetings: 
+
+* Julia Goedecke, *The Peripatetic Seminar on Sheaves and Logic*, contribution to [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html) (May 2016) &lbrack;[pdf](http://www.julia-goedecke.de/PSSL100/psslhistory.pdf), [github](https://github.com/vcvpaiva/DialecticaCategories/blob/master/PSSL/psslhistory.pdf)&rbrack;
+
+Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL101](https://web.archive.org/web/20180831143433/http://www1.maths.leeds.ac.uk/~pmtng/PSSL/pssl101.html) (2017, Leeds)
 
@@ -17,6 +30,7 @@ There have been 6 meetings since PSSL 100:
 * [PSSL105](https://sites.google.com/view/pssl-105) (2019, Palermo) [abstracts](https://zulip-uploads.s3.amazonaws.com/21317/ytxt3ahyV2ac8n3VMrMp5mDN/pssl_105_programme_with_abstracts.pdf?AWSAccessKeyId=AKIAIEVMBCAT2WD3M5KQ&Signature=vABJ59yZxPmsLgGoCJ12cB5yDAw%3D&Expires=1666136731)
 
 * [PSSL106](http://www.math.muni.cz/~bourkej/PSSL106.html) (2022, Brno)
+
 
 ## Related pages
 
