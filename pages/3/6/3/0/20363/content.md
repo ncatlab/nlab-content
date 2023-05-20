@@ -34,7 +34,7 @@ Condensed sets contain information about limits of images of any set, $A$, along
 
 \begin{definition}
 
-A _condensed set_ is a [[sheaf]] of [[sets]] on the [[pro-étale site]] of a point — in other words, on the [[category]] of [[profinite spaces]] with finite jointly [[surjective]] families of maps as [[covers]] — which is the [[colimit]] of a [[small diagram]] of [[representables]] (a [[small sheaf]]).
+A _condensed set_ is a [[sheaf]] of [[sets]] on the [[pro-étale site]] of a point — in other words, on the [[category]] of [[profinite spaces]] with finite jointly [[surjective]] families of maps as [[covers]] — that is the [[colimit]] of a [[small diagram]] of [[representables]] (a [[small sheaf]]).
 
 That is, a condensed set is a [[functor]]
 $$
