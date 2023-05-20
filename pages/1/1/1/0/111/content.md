@@ -57,7 +57,7 @@ The two definitions may be distinguished by whether they use a single collection
 ### With one collection of morphisms
  {#OneCollectionOfMorphisms}
 
-([Grothendieck 61, Section 4](#Grothendieck61))
+&lbrack;[Grothendieck 61, Section 4](#Grothendieck61)&rbrack;
 
 A __category__ $C$ consists of 
 
@@ -86,6 +86,8 @@ A __category__ $C$ consists of
 People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.  One usually writes $f\colon x \to y$ if $f \in C_1$ to state that $s(f) = x$ and $t(f) = y$.  Finally, people often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f\colon x \to y$.
 
 If the [[identity]]-assigning map and its axiom is omitted, then one speaks of a _[[semicategory]]_.
+
+
 
 
 ### With a family of collections of morphisms
@@ -284,7 +286,10 @@ The definition "with a single set of morphisms" (i.e. as [[internal categories]]
 
 Textbook accounts:
 
-* [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+* {#MacLane97} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
+
 
 
 Expositions include
