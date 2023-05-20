@@ -144,10 +144,9 @@ In the context of [[monoidal model category]] theory, prop. \ref{PushoutProductO
 ## Examples
  {#Examples}
 
-\begin{example}\label{InjectionsOfSets}
-**(Cartesian pushout-products of sets)**
-\linebreak
-  Pushout-products of monomorphisms ([[injections]]) in [[Set]], with respect to the [[Cartesian product]]
+### In Sets
+
+It is instructive to consider the elementary case of pushout-products in [[Sets]] with respect to the [[Cartesian product]]
 
 $$
   \times 
@@ -155,14 +154,86 @@ $$
   Set \times Set 
     \longrightarrow 
   Set
+  \,.
 $$
 
-are again injections. The following graphics illustrates this for [[interval]]-subsets of the [[plane]]:
+
+\begin{example}\label{InjectionsOfSets}
+**(Cartesian pushout-products of sets)**
+\linebreak
+  Pushout-products of [[injections]] of [[Sets]] are again injections. 
+
+The following graphics illustrates this for [[interval]]-subsets of the [[plane]]:
 
 <img src="/nlab/files/PushoutProductOfInjections-230425.jpg" width="300">
 
+\end{example}
+
+\begin{example}
+\label{PushoutProductOfSplitEpimorphisms}
+  Assuming the [[axiom of choice]], the pushout-product in [[Set]] of two [[surjections]] 
+$$
+  \array{
+    f \,\colon &  X 
+      &\overset{\phantom{--}}{\twoheadrightarrow}& 
+    X'
+    \\
+    g \,\colon &  Y 
+      &\overset{\phantom{--}}{\twoheadrightarrow}& 
+   Y'
+  }
+$$
+is always an [[isomorphism]], in that the following [[commuting square]] is already a [[pushout]]
+$$
+  \array{
+    X \times Y
+      &\overset{id \times g}{\longrightarrow}&
+    X \times Y'
+    \\
+    \mathllap{{}^{f \times id}}
+    \Big\downarrow 
+      && 
+    \Big\downarrow
+    \mathrlap{{}^{ f \times id}}
+    \\
+    X' \times Y
+      &\underset{id \times g}{\longrightarrow}&
+    X' \times Y'
+  }
+$$
+
+Because, consider any other [[cocone]] under the given [[span]], such as shown in the outer part of the following diagram:
+\begin{tikzcd}[sep=30pt]
+  X \times Y
+  \ar[dd, "{ f \times \mathrm{id} }"{description}]
+  \ar[rr, "{ \mathrm{id} \times g }"{description}]
+  &&
+  X \times Y'
+  \ar[dd, "{ f \times \mathrm{id} }"{description}]
+  \ar[dddr, bend left=20, "{ r }"{description}]
+  \\
+  \\
+  X' \times Y
+  \ar[rr, "{ \mathrm{id} \times g }"{description}]
+  \ar[drrr, bend right=20, "{ s }"{description}]
+  &&
+  X' \times Y'
+  \ar[dr, dashed, "{ 
+    { s \circ (\mathrm{id} \times \overline{g}) }
+    \atop
+    \mathllap{=} { r \circ (\overline{f} \times \mathrm{id}) }
+  }"{description}]
+  \\
+  && & 
+  Z
+\end{tikzcd}
+then the dashed lift exists uniquely as follows:
 
 \end{example}
+Of course, the same argument shows that any pushout-product of [[split epimorphisms]] is an isomorphism.
+
+
+### In Topological Spaces
 
 +-- {: .num_example #PushoutProductOfSpheresInclusionsIntoDisks}
 ###### Example
@@ -173,7 +244,7 @@ $$
   i_n \;\colon\; S^{n-1}\hookrightarrow D^n
 $$
 
-be the canonical [[sphere]] inclusions in [[Top]] (the generating cofibrations of the [[classical model structure on topological spaces]]). Their pushout product (with respect to [[Cartesian product]] of topological spaces) is given by addition of indices:
+be the canonical [[sphere]] inclusions in [[Top]] (the generating cofibrations of the [[classical model structure on topological spaces]]). Their pushout product (with respect to [[Cartesian product|cartesian]] [[topological product space|product of topological spaces]]) is given by addition of indices:
 
 $$
   i_{n_1} \Box i_{n_2} \simeq i_{n_1 + n_2}
