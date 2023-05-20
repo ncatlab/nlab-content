@@ -15,6 +15,8 @@
 
 Given a [[polynomial function]] with [[complex number|complex]] [[coefficients]] $f:\mathbb{C} \to \mathbb{C}$, a **simple root** $a:\mathbb{C}$ is a [[root]] of $f$ such that the [[derivative]] of $f$ evaluated at $a$ is [[invertible]] in $\mathbb{C}$. 
 
+In classical mathematics (implying acceptance of the law of excluded middle), a simple root $a$ is a root that is not a multiple root: it is not the case that $(x-a)^2$ divides $f(x)$, or "not $f'(a) = 0$". But for the purposes of constructive mathematics, it is preferable to state the condition as "$f(a)$ is [[apartness|apart]] from $0$", or that $f(a)$ is invertible. Hence the definition above. 
+
 ## Related concepts
 
 * [[root]]
