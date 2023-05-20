@@ -356,6 +356,9 @@ Adjunctions in 2-categories were introduced in:
 
 Review:
 
+* [[Saunders MacLane]], §XII.4 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * {#Lack10} [[Steve Lack]], §2.1 in: *A 2-categories companion*,  in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152** Springer (2010) &lbrack;[arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4)&rbrack;
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 6 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
