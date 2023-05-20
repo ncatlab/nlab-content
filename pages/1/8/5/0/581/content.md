@@ -56,8 +56,19 @@ The notion of split epimorphism arises often as a condition on [[fibrations]] in
 
 
 ## Examples
+ {#Examples}
 
-* In [[Vect]], every epimorphism is split. For $\phi\colon V \to W$ a surjective linear map, we can find an isomorphism $V \simeq ker(\phi) \oplus V'$. Then $\phi|_{V'}$ is an isomorphism, and its inverse $W \to V' \hookrightarrow ker(\phi) \oplus V'$ is a section of $\phi$.
+\begin{example}
+  In [[Sets]] the [[axiom of choice]] is the statement that every epimorphism ([[surjective map]]) is split.
+\end{example}
+
+\begin{example}
+Assuming the [[axiom of choice]] and thus the [[basis theorem]], every epimorphism in [[Vect]] is split:
+
+For $\phi\colon V \to W$ a surjective [[linear map]], we can find an isomorphism $V \simeq ker(\phi) \oplus V'$. Then $\phi|_{V'}$ is an isomorphism, and its inverse $W \to V' \hookrightarrow ker(\phi) \oplus V'$ is a section of $\phi$.
+
+For more on this see at *[[split exact sequence]]* the section *[Of free modules and vector spaces](split+exact+sequence#OfVectorSpaces)*
+\end{example}
 
 ## Related concepts
 
@@ -65,9 +76,15 @@ The notion of split epimorphism arises often as a condition on [[fibrations]] in
 
 * [[split monomorphism]]
 
+* [[idempotent]]
 
-[[!redirects split epimorphism]]
+## References
+
+* [[Saunders MacLane]], §I.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 [[!redirects split epimorphisms]]
+
 [[!redirects split epi]]
 [[!redirects split epis]]
 [[!redirects split epic]]
