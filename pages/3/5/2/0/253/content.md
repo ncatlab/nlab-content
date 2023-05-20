@@ -189,6 +189,9 @@ See also the references at *[[2-category]]*.
 
 * {#Power89} [[A. John Power]],  _A general coherence result._ J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
 
+* [[Saunders MacLane]], §XII.6 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
  
 Formalization in [[homotopy type theory]] (see also at [[internal category in homotopy type theory]]):
