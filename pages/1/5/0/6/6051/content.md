@@ -29,13 +29,13 @@ On the other hand, the [[Nambu-Goto action]] lends itself better to generalizati
 
 Let 
 
-* $p \in \mathbb{N}$ (for [[p-brane]] dynamics);
+* $p \in \mathbb{N}$ (for [[p-brane]] dynamics),
 
-* $(X,\mu)$ a [[pseudo-Riemannian manifold]] ([[target spacetime]]);
+* $(X,\mu)$ a [[pseudo-Riemannian manifold]] ([[target spacetime]]),
 
-* $\Sigma$ a [[compact topological space|compact]] [[smooth manifold]] of dimension $(p+1)$ ([[worldvolume]]).
+* $\Sigma$ a [[compact topological space|compact]] [[smooth manifold]] ([[manifold with boundary|with boundary]]) of dimension $(p+1)$ ([[worldvolume]]),
 
-* $[\Sigma,X]$ the [[diffeological space]] of [[smooth functions]] $\Sigma \to X$.
+* $[\Sigma,X]$ the [[diffeological space]] of [[smooth functions]] $\Sigma \to X$,
 
 * $Met(\Sigma)$ the [[moduli space]] of ([[pseudo-Riemannian metrics|pseudo]])[[Riemannian metrics]] $g$ on $\Sigma$.
 
