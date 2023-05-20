@@ -1069,6 +1069,10 @@ Another early appearance in print is:
 
 Review and exposition:
 
+
+* [[Saunders MacLane]], §XII.2 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * [[Kerodon]], *The Nerve of a Category* ([002L](https://kerodon.net/tag/002L))
 
 * [[Kerodon]], *The Nerve of a Groupoid* ([0035](https://kerodon.net/tag/0035))
