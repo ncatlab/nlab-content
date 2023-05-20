@@ -86,6 +86,10 @@ which is given by the weighted colimit construction $W \mapsto W \cdot F$.
 
 To be filled in. The [[tensor product of functors]] is a general example.
 
+## Cocompleteness
+
+An enriched category admits [[coends]] if it admits [[conical colimits]] and [[copowers]]. It admits all weighted colimits if it admits [[coends]] and [[copowers]]. Thus a category with all conical colimits and copowers is cocomplete.
+
 ## Related entries
 
 * [[homotopy weighted colimit]]
