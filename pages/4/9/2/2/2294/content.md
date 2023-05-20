@@ -1,3 +1,4 @@
+[[!redirects single-sorted definition of a category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,7 +11,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -67,8 +68,7 @@ There exist similar single-sorted definitions of $n$-[[n-categories|categories]]
 
 ## References
 
-* _[[Categories Work]]_, I.1 and XII.5.
-
+* [[Saunders MacLane]], §I.1 and §XII.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 [[!redirects single-sorted definition of category]]
 [[!redirects single-sorted definition of a category]]
