@@ -138,13 +138,18 @@ Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, coro
 
 * [[lax colimit]]
 
-## Reference
+## References
 
 [[limit|Limits]] and colimits were defined in [[Daniel M. Kan]] in Chapter II of the paper that also defined [[adjoint functors]] and [[Kan extensions]]:
 
 * [[Daniel M. Kan]], _Adjoint functors_, Transactions of the American Mathematical Society 87:2 (1958), 294–294 ([doi:10.1090/s0002-9947-1958-0131451-0](https://doi.org/10.1090/s0002-9947-1958-0131451-0)).
 
 This paper refers to colimits as _direct limits_.
+
+Textbook account:
+
+* [[Saunders MacLane]], §III.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 [[!redirects colimits]]
 [[!redirects colimit functor]]
