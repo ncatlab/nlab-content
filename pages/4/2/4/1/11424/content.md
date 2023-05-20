@@ -43,6 +43,10 @@ These polynomials form a [[basis]] for the [[Lambda-ring]] of [[symmetric functi
 
 * The [[Chern classes]] are, under the [[splitting principle]], elementary symmetric polynomials of the [[first Chern classes]].
 
+## Related concepts
+
+* [[simple root]]
+
 ## References
 
 * Wikipedia, _[Elementary symmetric polynomial](https://en.wikipedia.org/wiki/Elementary_symmetric_polynomial)_
