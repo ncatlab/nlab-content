@@ -33,7 +33,9 @@ Another implementation of this idea was proposed by [Weaver & Licata 2020](#Weav
 
 * [[(infinity,1)-category theory|$(\infty,1)$-category theory]]
 
-* [[simplicial type theory]]
+* [[directed homotopy type theory]]
+
+* [[simplicial type theory]], [[cubical type theory]]
 
 ## References
 
