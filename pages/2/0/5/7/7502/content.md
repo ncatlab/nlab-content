@@ -157,13 +157,157 @@ $$
   \,.
 $$
 
+For a [[pair]] of [[maps]]/[[functions]] of sets
+
+$$
+  \array{
+    f \; \colon & X &\longrightarrow& X'
+    \\
+    g \; \colon & Y &\longrightarrow& Y'
+  }
+$$
+
+the relevant [[pushout]] diagram is
+
+\begin{tikzcd}
+  X \times Y 
+  \ar[d, "{ f \times \mathrm{id} }"{description}]
+  \ar[r, "{ \mathrm{id} \times g }"{description}]
+  \ar[dr, phantom, "{\scalebox{.55}{(po)}}"]
+  &
+  X \times Y'
+  \ar[d, " q_r "{description}]
+  \ar[ddr, bend left=15, "{ f \times \mathrm{id} }"{description}]
+  &[-10pt]
+  \\
+  X' \times Y
+  \ar[r, "{ q_l }"{description}]
+  \ar[drr, bend right=15, "{ \mathrm{id} \times g }"{description}]
+  &
+  f \,\widehat{\times}\, g
+  \ar[dr, dashed]
+  \\[-10pt]
+  &
+  & X' \times Y'
+\end{tikzcd}
+
+where the dashed arrow denotes the pushout-product map.
+
+\begin{example}
+\label{PushoutProductOfMapsOfSets}
+The pushout-product of sets may be described as the [[quotient set]]
+$$ 
+  f \,\widehat{\times}\, g
+  \;\;
+  \simeq
+  \;\;
+  \big\{
+  (x,y'),
+  \,
+  (x',y)
+  \big\}_{
+    \bigg/ 
+    \Big(
+      \big(x,\,g(y)\big) \,\sim\, \big(f(x),\,y\big)  
+    \Big)
+  }
+$$
+(where each variable ranges over the set denoted by the corresponding capital symbol). 
+
+Moreover, if we denote the [[equivalence class]] of $(x,y')$ by $[x,y']$, etc. then the [[coprojections]] into the pushout product are given by
+
+$$
+  \array{ 
+    X' \times Y
+    &\xrightarrow{\;\; q_l\;\;}&
+    f \,\widehat{\times}\, g
+    \\
+    (x',\,y) &\mapsto& [x',\, y]
+  }
+  \;\;\;\;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;\;\;\;
+  \array{ 
+    X \times Y'
+    &\xrightarrow{\;\; q_r\;\;}&
+    f \,\widehat{\times}\, g
+    \\
+    (x,\,y') &\mapsto& [x,\, y']
+  }
+$$
+and the pushout-product map itself (the dashed arrow) is given as follows:
+\[
+  \label{ThePushoutProductMapForSets}
+  \array{
+    f \widehat{\times} g
+    &\xrightarrow{\phantom{---}}&
+    X' \times Y'
+    \\
+    [x',\, y] &\mapsto& \big(x',\, g(y)\big)
+    \\
+    [x,\, y'] &\mapsto& \big(f(x),\, y' \big)
+    \mathrlap{\,.}
+  }
+\]
+More informatively, the [[fibers]] of the pushout-product map over any $(x',y') \,\in\, X' \times Y'$ look as follows:
+\[
+  \label{FibersOfPushoutProductOfMapsOfSets}
+  \big(
+    f \widehat{\times} g
+  \big)_{(x',y')}
+  \;\;
+  = 
+  \;\;
+  \left\{
+  \array{
+    \ast &\vert& (x',y') \;\in\; im(f) \times im(g)
+    \\
+    f^{-1}\big(\{x'\}\big)  &\vert& y' \;\in\; Y' \setminus im(g)
+    \\
+    g^{-1}\big(\{y'\}\big)  &\vert& x' \;\in\; X' \setminus im(f)
+  }
+  \right.
+\]
+where 
+
+* "$\ast$" denotes the [[singleton set]] 
+
+* "$(-)^{-1}$" denotes forming [[preimages]]
+
+* "$\setminus$" denotes [[complements]].
+
+\end{example}
+\begin{proof}
+We discuss in more detail how to obtain the fibers (eq:FibersOfPushoutProductOfMapsOfSets)
+
+To see the first case: By the assumption that $x' \,\in\, im(f)$ we find $x_1 \in f^{-1}\big(\{x'\}\big)$ and hence by (eq:ThePushoutProductMapForSets) we find $[x_1,y'] \,\in\, \big(f \widehat{\times} g\big)_{(x',y')}$. 
+But since also $y' \,\in\, im(g)$ there is also $y \in g^{-1}\big(\{y'\}\big)$ and hence
+$$
+  \big[x_1,\, y'\big] 
+    \,=\, 
+  \big[x_1,\, g(y)\big] 
+    \,=\, 
+  \big[f(x_1),\, y\big] 
+    \,=\, 
+  \big[x',\, y\big] 
+  \,.
+$$
+This shows that all elements of the form $[x,y']$ in the fiber are in fact equal, and also equal to $[x', y]$, which, by the symmetric argument, are in turn equal for all choices of $y$. Therefore there is one single element in the fiber of the pushout-product map, in this case.
+
+To see the second case: Since $y'$ is not in the image of $g$, by (eq:ThePushoutProductMapForSets) the elements in the fiber can only be of the form $[x,y']$ with $x \in f^{-1}\big(\{x'\}\big)$. None of these is contained in the relation -- again by the assumption that $y'$ is not in the image of $g$ -- and hence they are all distinct.
+
+The third case works the same way, under swapping $X \leftrightarrow Y$.
+\end{proof}
+
+
+
 
 \begin{example}\label{InjectionsOfSets}
-**(Cartesian pushout-products of sets)**
+**(Pushout-product of injections of sets)**
 \linebreak
-  Pushout-products of [[injections]] of [[Sets]] are again injections. 
+In the special case that both maps are [[injections]], the fibers appearing in (eq:FibersOfPushoutProductOfMapsOfSets) are all [[(-1)-truncated]] (either [[empty sets]] or [[singleton sets]]).
 
-The following graphics illustrates this for [[interval]]-subsets of the [[plane]]:
+This shows that the pushout-product map of two [[injections]] of [[Sets]] is itself an [[injection]]. The following graphics illustrates this for [[interval]]-subsets of the [[plane]]:
 
 <img src="/nlab/files/PushoutProductOfInjections-230425.jpg" width="300">
 
@@ -397,6 +541,7 @@ $$
     s
       \circ
     (id \otimes \overline{g})
+    \,.
   \end{array}
 $$
 This does make the bottom triangle commute
