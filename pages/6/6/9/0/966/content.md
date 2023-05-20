@@ -395,7 +395,7 @@ Careful discussions can be found in
 
 * {#Bouceux} [[Francis Borceux]], *Handbook of Categorical Algebra I*, Cambridge UP, 1994. (sections 3.3, 6.6)
 
-* [[Saunders Mac Lane]], *Categories for the Working Mathematician*, Springer Heidelberg, 1998&#178;. (sections V.6, V.8)
+* [[Saunders MacLane]], §V.6, V.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 A brief introductory discussion is around [theorem 5.4](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf#page=54) of
 
