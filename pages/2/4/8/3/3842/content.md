@@ -124,7 +124,7 @@ The following [[Giraud theorem|Giraud like]] theorem stems from [[Marta Bunge|Ma
 +-- {: .num_theorem #bunge_theorem}
 ###### Theorem 
 
-A category $E$ is equivalent to a presheaf topos if and only if it is [[cocomplete]], [[well-powered]], [[co-well-powered]], [[atomic category|atomic]], and [[regular category|regular]]. 
+A category $E$ is equivalent to a presheaf topos if and only if it is [[cocomplete]], [[well-powered category|well-powered]], [[well-powered category|co-well-powered]], [[atomic category|atomic]], and [[regular category|regular]]. 
 
 =--
 
@@ -302,27 +302,27 @@ For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-presheaves]].
 
 A classical (advanced) reference is expos&#233; 1 of
 
-* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - [[SGA 4]]_ , LNM **269** Springer  Heidelberg 1972.
+* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), *Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - [[SGA 4]]*, LNM 269 Springer  Heidelberg 1972.
 
 An elementary introduction to presheaf toposes emphasizing finite underlying categories $C$ is 
 
-* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, *Generic Figures and their Glueings*, Polimetrica Milano 2004.
 
 Standard references are
 
-* {#Borceux3} [[Francis Borceux]], _Handbook of Categorical Algebra 3 : Categories of Sheaves_ , Cambridge UP 1994.
+* {#Borceux3} [[Francis Borceux]], *Handbook of Categorical Algebra 3 : Categories of Sheaves*, Cambridge UP 1994.
 
 * {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_ , Springer Heidelberg 2006.
 
-* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
+* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer Heidelberg 1994.
 
 The characterizations of categories of presheaves are discussed in
 
-* {#Bunge69} _Relative functor categories and categories of algebras_, J. of Algebra __11__,1 (1969) 64--101, [MR236238](https://mathscinet.ams.org/mathscinet-getitem?mr=236238) <a href="https://doi.org/10.1016/0021-8693(69)90102-1">doi</a>
+* {#Bunge69} [[Marta Bunge]], *Relative functor categories and categories of algebras*, J. of Algebra 11, Issue 1 (1969), 64--101. [web](https://www.sciencedirect.com/science/article/pii/0021869369901021), [MR236238](https://mathscinet.ams.org/mathscinet-getitem?mr=236238) <a href="https://doi.org/10.1016/0021-8693(69)90102-1">doi</a>
 
-* {#CarboniVitale98}[[Aurelio Carboni|A. Carboni]], [[Enrico Vitale|E. M. Vitale]], _Regular and exact completions_ , JPAA **125** (1998) pp.79-116.
+* {#CarboniVitale98} [[Aurelio Carboni|A. Carboni]], [[Enrico Vitale|E. M. Vitale]], *Regular and exact completions*, JPAA 125 (1998), 79-116.
 
-* {#CentazzoVitale04}C. Centazzo, [[Enrico Vitale|E. M. Vitale]], _Sheaf theory_ , pp.311-358 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf)) 
+* {#CentazzoVitale04} C. Centazzo, [[Enrico Vitale|E. M. Vitale]], *Sheaf theory*, pp. 311-358 in Pedicchio, Tholen (eds.), *Categorical Foundations*, Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf)) 
 
 The result about Artin gluings of presheaf toposes is due to Carboni and Johnstone, 
 
