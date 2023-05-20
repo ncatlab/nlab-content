@@ -469,6 +469,10 @@ which provides an alternative expression of the functoriality condition as simpl
 
 Textbook accounts:
 
+
+* [[Saunders MacLane]], §I.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * [[Francis Borceux]], Section 1.2 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
 
