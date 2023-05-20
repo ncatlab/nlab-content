@@ -38,4 +38,9 @@ Very explicitely, it means that:
 
 * [[commutative monoidal category]]
 
+## References
+
+* [[Saunders MacLane]], §XI.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 [[!redirects strict monoidal categories]]
