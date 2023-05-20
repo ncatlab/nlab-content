@@ -100,7 +100,7 @@ The construction in the last axiom is the _horizontal composite_ $\theta \circ \
 
 ## 2-categories as sesquicategories 
 
-The fine-grained description in the [previous subsection](/nlab/show/strict+2-category#detailedDefn) can be concisely repackaged by saying that a 2-category is a [[sesquicategory]] that satisfies the interchange axiom, i.e., the last axiom (12) which gives the horizontal composite construction. This description is essentially patterned after the "five rules of functorial calculus" introduced by [Godement](#Godement) for the special case [[Cat]]. 
+The fine-grained description in the [previous subsection](/nlab/show/strict+2-category#detailedDefn) can be concisely repackaged by saying that a 2-category is a [[sesquicategory]] that satisfies the interchange axiom, i.e., the last axiom (12) which gives the horizontal composite construction. This description is essentially patterned after the "five rules of functorial calculus" introduced by [Godement (1958)](#Godement58) for the special case [[Cat]]. 
 
 So to say it again, but a little differently: a sesquicategory consists of a category $K$ (giving the $0$-cells and $1$-cells) together with a functor 
 
@@ -122,21 +122,24 @@ In summary, a sesquicategory consists of "stuff" and structure as described in t
 
 ## History 
 
-As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement](#Godement), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken a few years later (1965) by [Ehresmann](#Ehresmann). In any event, the primitive compositional operations in Godement's account were what we call vertical compositions and whiskerings, with horizontal composition of natural transformations being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, horizontal composition is often called the *Godement product*. 
+As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement (1958)](#Godement58), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken a few years later by [Ehresmann (1965)](#Ehresmann65). In any event, the primitive compositional operations in Godement's account were what we call vertical compositions and whiskerings, with horizontal composition of natural transformations being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, horizontal composition is often called the *Godement product*. 
 
 A few years after that, B&#233;nabou introduced the notion of [[bicategory]]. 
 
 Literature references for the abstract notion of [[sesquicategory]], a structure in which vertical compositions and whiskerings are primitive, do not seem to be abundant, but they are mentioned for example in [Street](#Street) together with the observation that 2-categories are special types of sesquicategories (page 535). 
 
+
 ## References 
 
 Original articles:
 
-* {#Godement} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris, 1958. 
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement)&rbrack;
  
+* {#Ehresmann65} [[Charles Ehresmann]], *Catégories et structures*, Dunod, Paris (1965)
 
-* {*Ehresmann} [[Charles Ehresmann]], Catégories et structures, Dunod, Paris 1965.
+parts of which is available in:
 
+* [[Charles Ehresmann]], *Catégories et structures : extraits*, Séminaire Ehresmann. Topologie et géométrie différentielle **6** (1964) 1-31 &lbrack;[eudml:112200](https://eudml.org/doc/112200)&rbrack;
 
 Exposition and review:
 
