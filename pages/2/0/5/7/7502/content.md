@@ -169,68 +169,7 @@ The following graphics illustrates this for [[interval]]-subsets of the [[plane]
 
 \end{example}
 
-\begin{example}
-\label{PushoutProductOfSplitEpimorphisms}
-  Assuming the [[axiom of choice]], the pushout-product in [[Set]] of two [[surjections]] 
-$$
-  \array{
-    f \,\colon &  X 
-      &\overset{\phantom{--}}{\twoheadrightarrow}& 
-    X'
-    \\
-    g \,\colon &  Y 
-      &\overset{\phantom{--}}{\twoheadrightarrow}& 
-   Y'
-  }
-$$
-is always an [[isomorphism]], in that the following [[commuting square]] is already a [[pushout]]
-$$
-  \array{
-    X \times Y
-      &\overset{id \times g}{\longrightarrow}&
-    X \times Y'
-    \\
-    \mathllap{{}^{f \times id}}
-    \Big\downarrow 
-      && 
-    \Big\downarrow
-    \mathrlap{{}^{ f \times id}}
-    \\
-    X' \times Y
-      &\underset{id \times g}{\longrightarrow}&
-    X' \times Y'
-  }
-$$
 
-Because, consider any other [[cocone]] under the given [[span]], such as shown in the outer part of the following diagram:
-\begin{tikzcd}[sep=30pt]
-  X \times Y
-  \ar[dd, "{ f \times \mathrm{id} }"{description}]
-  \ar[rr, "{ \mathrm{id} \times g }"{description}]
-  &&
-  X \times Y'
-  \ar[dd, "{ f \times \mathrm{id} }"{description}]
-  \ar[dddr, bend left=20, "{ r }"{description}]
-  \\
-  \\
-  X' \times Y
-  \ar[rr, "{ \mathrm{id} \times g }"{description}]
-  \ar[drrr, bend right=20, "{ s }"{description}]
-  &&
-  X' \times Y'
-  \ar[dr, dashed, "{ 
-    { s \circ (\mathrm{id} \times \overline{g}) }
-    \atop
-    \mathllap{=} { r \circ (\overline{f} \times \mathrm{id}) }
-  }"{description}]
-  \\
-  && & 
-  Z
-\end{tikzcd}
-then the dashed lift exists uniquely as follows:
-
-\end{example}
-Of course, the same argument shows that any pushout-product of [[split epimorphisms]] is an isomorphism.
 
 
 ### In Topological Spaces
@@ -298,7 +237,15 @@ Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[
 Accordingly $S^{n_1} \times D^{n_2} $ is the spaces of $(n_1+n_2)$-tuples, such that one of the first $n_1$ coordinates is equal to 0 or 1, and hence
 
 $$
-  S^{n_1} \times D^{n_2} \cup D^{n_1} \times S^{n_2} \simeq S^{n_1 + n_2}
+  S^{n_1} 
+    \times 
+  D^{n_2} 
+    \;\cup\; 
+  D^{n_1} 
+   \times 
+  S^{n_2} 
+   \;\;\simeq\;\; 
+  S^{n_1 + n_2}
   \,.
 $$
 
@@ -314,6 +261,233 @@ For the second, use that $S^{n_1} \times D^{n_2} \times I$ is contractible to $S
 The relations in example \ref{PushoutProductOfSpheresInclusionsIntoDisks} are the key in proving that the [[classical model structure on topological spaces]] (on [[compactly generated topological spaces]]) is an [[enriched model category]] over itself. See there at _[topological enrichment](classical+model+structure+on+topological+spaces#TopologicalEnrichment)_ for more.
 
 =--
+
+
+
+
+
+### General
+
+\begin{example}
+\label{PushoutProductOfSplitEpimorphisms}
+With respect to any [[bifunctor]]
+$$
+  \otimes 
+  \;\colon\;
+  \mathcal{C} \times \mathcal{C}
+  \longrightarrow
+  \mathcal{C}
+$$
+the pushout-product of two [[split epimorphisms]]
+$$
+  \array{
+    f \,\colon &  X 
+      &\overset{split}{\twoheadrightarrow}& 
+    X'
+    \\
+    g \,\colon &  Y 
+      &\overset{split}{\twoheadrightarrow}& 
+   Y'
+  }
+$$
+is an [[isomorphism]], in that the following [[commuting square]] is already a [[pushout]]
+$$
+  \array{
+    X \otimes Y
+      &\overset{id \times g}{\longrightarrow}&
+    X \otimes Y'
+    \\
+    \mathllap{{}^{f \otimes id}}
+    \Big\downarrow 
+      && 
+    \Big\downarrow
+    \mathrlap{{}^{ f \otimes id}}
+    \\
+    X' \otimes Y
+      &\underset{id \otimes g}{\longrightarrow}&
+    X' \otimes Y'
+    \mathrlap{\,.}
+  }
+$$
+\end{example}
+\begin{proof}
+Given any [[cocone]] under the given [[span]], such as shown in the outer part of the following diagram
+\begin{tikzcd}[sep=30pt]
+  X \otimes Y
+  \ar[dd, "{ f \otimes \mathrm{id} }"{description}]
+  \ar[rr, "{ \mathrm{id} \times g }"{description}]
+  &&
+  X \otimes Y'
+  \ar[dd, "{ f \otimes \mathrm{id} }"{description}]
+  \ar[dddr, bend left=20, "{ r }"{description}]
+  \\
+  \\
+  X' \otimes Y
+  \ar[rr, "{ \mathrm{id} \otimes g }"{description}]
+  \ar[drrr, bend right=20, "{ s }"{description}]
+  &&
+  X' \otimes Y'
+  \ar[dr, dashed, "{ \phi }"{description}]
+  \\
+  && & 
+  Z
+\end{tikzcd}
+we need to see that there is a unique dashed morphism $\phi$ making the diagram commute, as shown.
+
+Now, by assumption, we have [[sections]] 
+$$
+  \array{
+    \overline{f} \,\colon &  
+    X' 
+      &\overset{\phantom{--}}{\hookrightarrow}& 
+    X
+    &
+    \text{with} 
+    &
+    f \circ \overline{f} \,=\, id
+    \\
+    \overline{g} \,\colon &  
+    Y' 
+      &\overset{\phantom{--}}{\hookrightarrow}& 
+    Y
+    &
+    \text{with} 
+    &
+    g \circ \overline{g} \,=\, id
+  }
+$$
+from which we obtain a candidate dashed morphism by setting:
+$$
+  \begin{array}{l}
+    \mathllap{
+      \phi \; \coloneqq \;
+    }
+    r
+      \circ
+    (\overline{f} \otimes id)
+    \\
+    \;=\;
+    r
+      \circ
+    (\overline{f} \otimes id)
+      \circ
+    (id \otimes g)
+      \circ
+    (id \otimes \overline{g})
+    \\
+    \;=\;
+    r
+      \circ
+    (id \otimes g)
+      \circ
+    (\overline{f} \otimes id)
+      \circ
+    (id \otimes \overline{g})
+    \\
+    \;=\;
+    s
+      \circ
+    (f \otimes id)
+      \circ
+    (\overline{f} \otimes id)
+      \circ
+    (id \otimes \overline{g})
+    \\
+    \;=\;
+    s
+      \circ
+    (id \otimes \overline{g})
+  \end{array}
+$$
+This does make the bottom triangle commute
+$$
+  \begin{array}{l}
+    \phi 
+      \circ
+    (id \otimes g)
+    \\
+    \;=\;
+    r
+      \circ
+    (\overline{f} \otimes id)
+      \circ
+    (id \otimes g)
+    \\
+    \;=\;
+    r
+      \circ
+    (id \otimes g)
+      \circ
+    (\overline{f} \otimes id)
+    \\
+    \;=\;
+    s
+      \circ
+    (f \otimes id)
+      \circ
+    (\overline{f} \otimes id)
+    \\
+    \;=\;
+    s
+  \end{array}
+$$
+and analogously for the right triangle
+$$
+  \begin{array}{l}
+    \phi 
+      \circ
+    (f \otimes id)
+    \\
+    \;=\;
+    s
+      \circ
+    (id \otimes \overline{g})
+      \circ
+    (f \otimes id)
+    \\
+    \;=\;
+    s
+      \circ
+    (f \otimes id)
+      \circ
+    (id \otimes \overline{g})
+    \\
+    \;=\;
+    r
+      \circ
+    (id \otimes g)
+      \circ
+    (id \otimes \overline{g})
+    \\
+    \;=\;
+    r
+    \,;
+  \end{array}
+$$
+and given any $\phi$ making the diagram commute, we find that it equals the previous one:
+$$
+  \begin{array}{l}
+    \phi
+    \\
+    \;=\;
+    \phi
+      \circ
+    (f \otimes id)
+      \circ
+    (\overline{f} \otimes id)
+    \\
+    \;=\;
+    r
+      \circ
+    (\overline{f} \otimes id)
+    \,.
+  \end{array}
+$$
+\end{proof}
+
+
+
+
 
 
 
