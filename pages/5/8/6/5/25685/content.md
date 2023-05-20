@@ -19,6 +19,7 @@ Given a [[polynomial function]] with [[complex number|complex]] [[coefficients]]
 
 * [[root]]
 * [[unramifiable polynomial]]
+* [[fundamental theorem of algebra]]
 
 ## References
 
