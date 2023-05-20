@@ -28,6 +28,7 @@ In classical mathematics (implying acceptance of the law of excluded middle), a 
 ## Related concepts
 
 * [[root]]
+* [[elementary symmetric polynomial]]
 * [[unramifiable polynomial]]
 * [[fundamental theorem of algebra]]
 
