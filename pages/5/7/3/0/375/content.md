@@ -221,9 +221,14 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 
 ## References
 
-Textbook account:
+Textbook accounts:
+
+* [[Saunders MacLane]], §IV.6 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 * [[Francis Borceux]], Def. 6.1.5 in: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+
 
 Discussion with focus on [[mapping spaces]] ([[compact-open topology]]) in [[topological spaces]] and [[compactly generated topological spaces]]:
 
