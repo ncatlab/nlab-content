@@ -84,6 +84,12 @@ There are various notions and techniques to deal with this problem and reduce or
 
 ## References
 
+See most references on *[[category theory]]*, such as
+
+* [[Saunders MacLane]], §I.7 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+See also
+
 * [[Mike Shulman]], _Set theory for category theory) ([arXiv:0810.1279](http://www.arxiv.org/abs/0810.1279))
 
 * [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ ([arXiv:1801.08528](https://arxiv.org/abs/1801.08528))
