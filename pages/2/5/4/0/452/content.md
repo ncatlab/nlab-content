@@ -311,6 +311,9 @@ showed that the theorem of Whitehead on free crossed modules from CH II Sec 16 i
 
 See also 
 
+* [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 * [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  Homology, Homotopy and Applications, 1 (1999) 1-78.
 
 * {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
