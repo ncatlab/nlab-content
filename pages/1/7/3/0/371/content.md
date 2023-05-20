@@ -150,6 +150,12 @@ Thus, such a category becomes [[enriched category|enriched]] over the [[category
 * [[zero object in a derivator]]
 
 
+## References
+
+* [[Saunders MacLane]], §I.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
+
 [[!redirects zero object]]
 [[!redirects zero objects]]
 [[!redirects 0 object]]
