@@ -27,12 +27,14 @@ The function $f$ is **unramifiable** if there exists a $j$ such that $d_j(\sigma
 ## Related concepts
 
 * [[simple root]]
+
 * [[elementary symmetric polynomial]]
+
 * [[fundamental theorem of algebra]]
 
 ## References
 
-* {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
+* {#Ruitenberg91} [[Wim Ruitenberg]], *Constructing Roots of Polynomials over the Complex Numbers*, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, **84** Centre for Mathematics and Computer Science, Amsterdam (1991) 107–128 &lbrack;[pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf), [[Ruitenberg-Roots.pdf:file]]&rbrack;
 
 [[!redirects unramifiable polynomial]]
 [[!redirects unramifiable polynomials]]
