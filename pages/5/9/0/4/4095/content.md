@@ -77,6 +77,11 @@ in $hom_C(G(a)(b),G(a')(b'))$. Functoriality is again easy to check, so we have 
 
 ## References ##
 
+Textbook accounts:
+
+* [[Saunders MacLane]], §II.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 Discussion in [[homotopy type theory]]:
 
 * {#UFP13} [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
