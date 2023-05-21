@@ -216,7 +216,7 @@ That this is a bijection follows easily from the [[triangle identities]], which 
       gray,
       Rightarrow,
       shorten=10pt,
-      "{ \mu }"
+      "{ \eta }"
     ]
     \ar[d, equals, gray]
     \\
