@@ -31,7 +31,7 @@ Those [[analytic spaces]] which are subspaces of polydiscs are called _[[affinoi
 ### In complex analytic geometry
  {#InComplexAnalyticGeometry}
 
-Specifically in [[complex analytic geometry]] a polydsic is a sub-[[complex manifold]] of a [[product]] of [[complex planes]]
+Specifically in [[complex analytic geometry]] a polydisc is a sub-[[complex manifold]] of a [[product]] of [[complex planes]]
 
 $$
   D \hookrightarrow \mathbb{C}^n
@@ -44,7 +44,7 @@ $$
   D = D_{\delta_1, \cdots, \delta_n}
   \coloneqq
   \left\{
-    (z_1, \cdots, z_n) \in \mathbb{C}^n | {\vert z_i\vert \lt \delta_i}
+    (z_1, \cdots, z_n) \in \mathbb{C}^n \;\big|\; {\vert z_i\vert \lt \delta_i}
   \right\}
 $$
 
