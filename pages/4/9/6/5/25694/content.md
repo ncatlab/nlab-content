@@ -19,4 +19,6 @@
 
   * [[discrete Segal type]]
 
+  * [[covariant type family]]
+
 * [[opetopic type theory]]
