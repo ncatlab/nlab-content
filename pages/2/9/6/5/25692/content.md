@@ -13,17 +13,31 @@
 
 ## Definition
 
-In [[simplicial type theory]], given a [[Segal type]] $A$ and elements $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is an **isomorphism** if there exist morphisms $g:\mathrm{hom}_A(y, x)$ and $h:\mathrm{hom}_A(y, x)$ such that $g \circ f = \mathrm{id}_x$ and $f \circ h = \mathrm{id}_y$
+In [[simplicial type theory]], given a [[Segal type]] $A$ and [[terms]] $x \colon A$ and $y \colon A$, a "morphism" ([[term]] of [[hom type]]) $f \colon \mathrm{hom}_A(x, y)$ is an **isomorphism** if there exist morphisms $g:\mathrm{hom}_A(y, x)$ and $h:\mathrm{hom}_A(y, x)$ such that $g \circ f = \mathrm{id}_x$ and $f \circ h = \mathrm{id}_y$
 $$\mathrm{isIso}(f) \coloneqq \left(\sum_{g:\mathrm{hom}_A(y, x)} g \circ f = \mathrm{id}_x\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} f \circ h = \mathrm{id}_y\right)$$
 
 The type of all isomorphisms between $x$ and $y$ in $A$ is defined as 
-$$x \cong_A y \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \mathrm{isIso}(f)$$
+$$
+  \big(x \cong_A y\big) 
+   \;\;\coloneqq\;\; 
+  \sum_{
+    \mathclap{
+      f \colon \mathrm{hom}_A(x, y)  
+    }
+  } 
+  \mathrm{isIso}(f)
+$$
 
 ## Related concepts
 
+* [[hom type]]
+
 * [[Segal type]]
+
 * [[Rezk type]]
+
 * [[isomorphism]]
+
 * [[equivalence in an (∞,1)-category]]
 
 ## References
