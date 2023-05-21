@@ -12,6 +12,13 @@ Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[M
 
 * {#AtiyahBottShapiro64} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology Volume 3, Supplement 1, July 1964, Pages 3-38 (<a href="https://doi.org/10.1016/0040-9383(64)90003-5">doi:10.1016/0040-9383(64)90003-5</a>, [pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
 
+On [[topological K-theory]]:
+
+* [[Raoul Bott]], *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
+
+  Russian transl. by B. Yu. Sternin, Matematika **11** 2 (1967) 32–56 &lbrack;[mathnet:mat424](https://www.mathnet.ru/eng/mat424)&rbrack;
+
+
 
 On the [[Chern-Weil homomorphism]]:
 
