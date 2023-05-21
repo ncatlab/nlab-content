@@ -20,19 +20,20 @@
 * table of contents
 {:toc}
 
+
 ## Idea
+ {#Idea}
 
-The _pushout-product axiom_ is a compatibility condition between 
+The *pushout-product axiom* for a [[two-variable adjunction]] between [[model categories]] is a condition on [[pushout-products]] of certain [[cofibrations]] which ensures (together with its equivalent dual *[[pullback-power axiom]]*) that the two-variable adjunction is [[homotopical category|homotopically]] meaningful in a way (see the remark [here](monoidal+model+category#MeaningOfPushoutProductAxiom)) analogous to how the axioms of a [[Quillen adjunction]] ensure that an ordinary [[adjoint functor|adjunction]] between model categories is. Therefore one refers to such two-variable adjunctions also as *[[Quillen bifunctors]]*.
+ 
+In particular, in the definition of **[[enriched model categories]]** the pushout-product axiom ensures that the [[enriched category|enriched]] [[tensoring]]/[[cotensoring]] is homotopically meaningful.
 
-1. a [[closed monoidal category|closed]]$\,$[[monoidal category|symmetric monoidal]] structure 
+Specialized to the case of [[simplicial model categories]] this is the origin of the notion of the pushout-product axiom, in its dual guise as the [[pullback-power axiom]] as "axiom SM7" in [Quillen (1967)](#Quillen67).
 
-2. a [[model category]] structure
+Specialized, alternatively, to the case of self-enrichment the pushout-product axioms for **[[monoidal model categories]]** ensures that the [[tensor product]] in [[two-variable adjunction]] with its [[internal hom]]-functor is homotopically well-behaved.
 
-on a category.
+This situation of [[monoidal model categories]] has come to be the case where the pushout-product axiom is most prominently discussed in the literature, and where it has received its name, see the references [there](monoidal+model+category#OriginalReferences).
 
-[[closed monoidal category|Closed]]$\;$[[monoidal category|symmetric monoidal categories]] and having a model category structure, that satisfies the pushout-product axiom, together with a unit condition, are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
-
-This is relevant in [[enriched homotopy theory]], which pairs [[enriched category theory]] with [[homotopy theory]].
 
 ## Definition
 
