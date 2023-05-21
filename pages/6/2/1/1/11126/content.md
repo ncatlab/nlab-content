@@ -823,7 +823,7 @@ $$
 By the general formula for colimits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) the underlying colimit in the base category is the evident one
 \begin{tikzcd}
   X \times Y 
-  \ar[r, "{ id\,\times\, g }"{description}]
+  \ar[r, "{ \mathrm{id}\,\times\, g }"{description}]
   \ar[d, "{ f \,\times\, \mathrm{id} }"{description}]
   &
   X \times Y'
