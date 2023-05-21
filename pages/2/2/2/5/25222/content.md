@@ -16,18 +16,18 @@
 
 ## Idea
 
-In [[dependent type theory]], the [[0-truncation]] [[modality]] of a type $A$ can be defined by [[localization of a type]] $A$ at the [[circle type]] $S^1$. This means that a type $A$ is 0-truncated, i.e. a set, if it is $S^1$-local, which means that, in addition to [[axiom K]] and [[uniqueness of identity proofs]], there is another way to make the [[dependent type theory]] into a [[set-level type theory]]: by stipulating that every type is $S^1$-local, or that the canonical [[function]] $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$, which takes elements of $A$ to [[constant functions]] in $S^1 \to A$, is an [[equivalence of types]]. This is (tentatively) called the **axiom of circle type localization** or the axiom of $S^1$-localization. 
+In [[dependent type theory]], the [[0-truncation]] [[modality]] of a type $A$ can be defined by [[localization of a type]] $A$ at the [[circle type]] $S^1$. This means that a type $A$ is 0-truncated, i.e. a set, if it is $S^1$-local, which means that, in addition to [[axiom K]] and [[uniqueness of identity proofs]], there is another way to make the types of a universe into sets: by stipulating that every type is $S^1$-local, or that the canonical [[function]] $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$, which takes elements of $A$ to [[constant functions]] in $S^1 \to A$, is an [[equivalence of types]]. This is (tentatively) called the **axiom of circle type localization** or the axiom of $S^1$-localization. 
 
-Assuming that one has the function $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$ defined in the [[dependent type theory]], the syntactic rules for the axiom of $S^1$-localization is given by:
+Assuming that one has the function $\mathrm{const}_{A, S^1}:A \to (S^1 \to A)$ defined in the [[dependent type theory]], the syntactic rules for the axiom of $S^1$-localization in a universe $\mathcal{U}$ is given by:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \mathrm{circlocal}_{A}:\mathrm{isEquiv}(\mathrm{const}_{A, S^1})}$$
+$$\frac{\Gamma \vdash A:\mathcal{U} \quad \Gamma \vdash f:S^1 \to A}{\Gamma \vdash \mathrm{circlocal}_{A}:\mathrm{isEquiv}(\mathrm{const}_{A, S^1})}$$
 
 ## Consequences
  
 Since the [[boolean domain]] $\mathbb{2}$ is $S^1$-local, the axiom of $S^1$-localization implies that $S^1$ is [[compact connected]]:
 
 \begin{theorem}
-Assuming a [[type of all propositions]] $\Omega$ with type reflector $T$ and the axiom of $S^1$-localization, if the function $\mathrm{const}_{2, S^1}$ is an equivalence of types, then for all functions $P:S^1 \to \Omega$, if for all $x:S^1$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then either for all $x:S^1$, $T(P(x))$ is contractible, or for all $x:S^1$, $\neg T(P(x))$ is contractible. 
+Assuming [[propositional truncation]], where $\Omega$ is the type of all $\mathcal{U}$-small propositions with type reflector $T$, and the axiom of $S^1$-localization, if the function $\mathrm{const}_{2, S^1}$ is an equivalence of types, then for all functions $P:S^1 \to \Omega$, if for all $x:S^1$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then either for all $x:S^1$, $T(P(x))$ is contractible, or for all $x:S^1$, $\neg T(P(x))$ is contractible. 
 \end{theorem}
 
 \begin{proof}
