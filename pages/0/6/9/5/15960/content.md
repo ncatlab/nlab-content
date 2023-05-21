@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Directed Type Theory
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include directed homotopy type theory - contents]]
 =--
 #### Higher category theory
 +-- {: .hide}
