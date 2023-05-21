@@ -154,6 +154,7 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * in terms of [[linear type theory]] the tensor product is the [[categorical semantics]] of the [[multiplicative conjunction]].
 
+
 ## Related concepts
 
 * [[tensor calculus]]
@@ -164,11 +165,14 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[internal hom]]
 
-* [[composite system]]
-
 * [[cotensor product]]
 
+* [[pushout product]]
+
 * [[multiplicative conjunction]], [[quantum entanglement]]
+
+* [[composite system]]
+
 
 [[!include homotopy-homology-cohomology]]
 
