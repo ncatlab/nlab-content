@@ -30,7 +30,11 @@ The notion of Quillen bifunctor enters the definition of *[[monoidal model categ
 Let $C, D, E$ be [[model categories]]. A
 [[functor]] $F \,\colon\, C \times D \to E$ (out of the [[product category]] of $C$ with $D$) is a **Quillen bifunctor**  if it satisfies the following two conditions:
 
-1. for any 
+1. it [[preserved colimit|preserves]] [[colimits]] separately in each variable,
+
+1. (**[[pushout-product axiom]]**):
+
+   for any 
 
    * [[cofibration]] $\;i \,\colon\, c \to c'$ in $C$ 
 
@@ -48,9 +52,8 @@ Let $C, D, E$ be [[model categories]]. A
      F(c', d')
    $$
 
-   is a [[cofibration]] in $E$, which is a [[weak equivalence]] if either $i$ or $j$ is a weak equivalence
+   is a [[cofibration]] in $E$, which is a [[weak equivalence]] if either $i$ or $j$ is a weak equivalence.
 
-1. it [[preserved colimit|preserves]] [[colimits]] separately in each variable.
 
 \end{definition}
 
