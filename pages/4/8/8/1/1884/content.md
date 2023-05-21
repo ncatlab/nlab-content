@@ -2731,9 +2731,13 @@ and shown to give a [[Whitehead-generalized cohomology]] theory in
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. (<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
 
-Early review:
+Early lecture notes:
 
-*  {#Atiyah67}  [[Michael Atiyah]], _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
+*  {#Atiyah67}  [[Michael Atiyah]], *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
+
+* [[Raoul Bott]], *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
+
+  Russian transl. by B. Yu. Sternin, Matematika **11** 2 (1967) 32–56 &lbrack;[mathnet:mat424](https://www.mathnet.ru/eng/mat424)&rbrack;
 
 Representable K-theory over non-compact spaces was considered in
 
@@ -2833,6 +2837,7 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 ### Topological phases of matter
 
 For more see at _[[K-theory classification of topological phases of matter]]_.
+
 
 
 [[!redirects complex K-theory]]
