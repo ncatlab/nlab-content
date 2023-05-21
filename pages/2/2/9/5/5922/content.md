@@ -33,8 +33,14 @@ $$
 Assuming the deductive system is [[soundness theorem|sound]], every sequent which is the conclusion of a valid sequent deduction, starting from the axioms, will also be true in every model. And if the deductive system is also [[completeness theorem|complete]], then every sequent of the language which is true in every model will in fact be provable from the axioms. 
 
 ## Examples
+ {#Examples}
+
+[[!include foundational axiom - contents]]
+
 
 (...)
+
+* [[pushout-product axiom]]
 
 (...)
 
@@ -46,12 +52,6 @@ Assuming the deductive system is [[soundness theorem|sound]], every sequent whic
 
 
 [[!include mathematical statements --- contents]]
-
-
-
-
-
-
 
 
 
