@@ -245,7 +245,11 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 * [[higher structures]]
 
-* [[opetopic type theory]]
+* [[directed homotopy type theory]]
+
+  * [[simplicial homotopy type theory]]
+
+  * [[opetopic type theory]]
 
 [[!include table of category theories]]
 
