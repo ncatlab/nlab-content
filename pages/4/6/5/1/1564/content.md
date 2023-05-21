@@ -17,6 +17,7 @@ Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]
 *  $R$ is commutative (meaning that $x y = y x$ for all $x, y$):
    $$ y x = x + y - x - y + y x = (x + y)^2 - x^2 - y^2 + y x = x^2 + x y + y x + y^2 - x^2 - y^2 + y x = x y + 2 y x = x y .$$
 
+Thus, multiplication in a Boolean ring makes it into a [[semilattice]], while addition makes it into a [[vector space]] over the field with two elements, $\mathbb{F}_2$. 
 
 Define $x \vee y$ to mean $x + x y + y$.  Then:
 
@@ -46,15 +47,18 @@ In fact, we have:
 Boolean rings and Boolean algebras are equivalent.
 =--
 
-This extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$.
+The category of Boolean algebras is discussed further in [[BoolAlg]], but some of the results about this category are  proved there by working with the equivalent category of Boolean rings.  
+
+The above equivalence extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$.
 
 Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
 
 ## Examples
 
-The most common example is the [[power set]] $P(S)$ of any set $S$. It is a Boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. 
+The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$.  This is a Boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. 
 
+The free Boolean ring on a set $X$ can be identified with $\mathcal{P}_f \mathcal{P}_f X$, where $\mathcal{P}_f \colon Set \to Set$ assigns to any set the set of all its finite subsets.  In fact $\mathcal{P}_f \colon Set \to Set$ can be made into a monad in two different ways: the monad for [[semilattices]] (which we use to describe multiplication in a Boolean ring) and the monad for [[vector spaces]] over $\mathbb{F}_2$  (which we use to describe addition in a Boolean ring). These two monads are related by a distributive law which expresses the distributivity of multiplication over addition.   This makes $\mathcal{P}_f \mathcal{P}_f$ into the monad for Boolean rings.
 
 ## Terminology
 
