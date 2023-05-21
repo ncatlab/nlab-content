@@ -34,17 +34,14 @@ The definition also makes sense in analytic models of [[(infinity,1)-categories]
 
 ### In simplicial homotopy type theory
 
-In [[simplicial homotopy type theory]], a [[Tarski universe]] is a [[type]] $U$ with a type family $A \colon U \vdash T(A) \; \mathrm{type}$ such that given an element $A \colon U$, every type $T(A)$ is a [[discrete Segal type]]. Such a Tarski universe behave similarly to [[Tarski universes]] in traditional [[homotopy type theory]], as the discrete Segal types model [[infinity-groupoids]]. The Tarski universe is **directed univalent** if 
-
-* $U$ is a [[Rezk type]]
-* given two elements $A \colon U$ and $B \colon U$ there is an [[equivalence of types]] between the hom-type $\mathrm{hom}_U(A, B)$ and the [[function type]] $T(A) \to T(B)$:
+In [[simplicial homotopy type theory]], let $A$ be a [[Segal type]] and let $x:A \vdash B(x)$ be a [[covariant type family]]. The covariant type family $x:A \vdash B(x)$ satisfies the **directed univalence axiom** if given two elements $x \colon A$ and $y \colon A$ there is an [[equivalence of types]] between the [[hom type]] $\mathrm{hom}_A(x, y)$ and the [[function type]] $B(x) \to B(y)$:
 
 $$
-  \mathrm{dua}_U(A, B)
+  \mathrm{dua}_A(x, y)
   \;\colon\;
-  \mathrm{hom}_U(A, B) 
+  \mathrm{hom}_A(x, y) 
     \,\simeq\, 
-  (T(A) \to T(B))
+  (B(x) \to B(y))
   \,.
 $$
 
@@ -57,5 +54,9 @@ $$
 ## References
 
 * [[Hoang Kim Nguyen]], *Directed univalence in simplicial sets*, talk in *[Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)* (March 2023) &lbrack;[video](https://www.youtube.com/watch?v=GgcJqzGvq80), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Nguyen-2023-03-09-HoTTEST.pdf)&rbrack;
+
+* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
+
+* César Bardomiano Martínez, *Limits and colimits of synthetic $\infty$-categories* $[$[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)$]$
 
 [[!redirects directed univalence]]
