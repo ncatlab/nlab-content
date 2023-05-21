@@ -14,7 +14,7 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |2016|Halifax|[archive](https://web.archive.org/web/20160602211513/http://mysite.science.uottawa.ca/phofstra/CT2016/CT2016.htm)| |
 |2015|Aveiro|[website](https://sweet.ua.pt/dirk/ct2015/)| |
 |2014|Cambridge|[website](http://julia-goedecke.de/CT2014/)| |
-|2013|Syndey|[website](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/)| |
+|2013|Sydney|[website](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/)| |
 |2012|*Data missing*|*Data missing*| |
 |2011|Vancouver|[website](http://www.mat.uc.pt/~ct2011/)| |
 |2010|Genoa|[archive](https://web.archive.org/web/20120115044855/http://ct2010.disi.unige.it/)| |
@@ -35,10 +35,10 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |1995|Halifax|[website](https://www.mta.ca/~cat-dist/ct95.html)|[pdf](https://www.mta.ca/~cat-dist/ct95abs.pdf)|
 |1994|*Data missing*|*Data missing*| |
 |1993|*Data missing*|*Data missing*| |
-|1992|*Data missing*|*Data missing*| |
+|1992|Isle of Thorns|*Data missing*| |
 |1991|Montreal|*Data missing*| |
-
-
+|1990|Como|*Data missing*| |
+|1989|Bangor|*Data missing*| |
 
 ## Related pages
 
