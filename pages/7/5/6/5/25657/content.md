@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Directed Type Theory
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include directed homotopy type theory - contents]]
 =--
 #### Equality and Equivalence
 +--{: .hide}
@@ -18,12 +18,10 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
-#### Homotopy theory
-+-- {: .hide}
-[[!include homotopy - contents]]
 =--
 =--
-=--
+
+
 
 \tableofcontents
 
