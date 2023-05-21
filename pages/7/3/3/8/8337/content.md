@@ -1,5 +1,5 @@
 
-**[[foundational axiom]]**
+**[[foundational axiom|foundational]] [[axioms]]**
 
 * basic constructions:
   * [[axiom of cartesian products]]
