@@ -80,16 +80,21 @@ $$
 ## References
  {#References}
 
-The notion of external tensor product of vector bundles is briefly mentioned in:
+The notion of external tensor product of vector bundles originates in discussion of [[topological K-theory]]:
+
+*  {#Atiyah67}  [[Michael Atiyah]], §2.6 in: *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
+
+* [[Raoul Bott]], p. 19 of: *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
+
+
+* {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://doi.org/10.1007/978-3-540-79890-3)&rbrack;
+
+* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 40 of: *Vector bundles and K-theory* (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
+
+It is also briefly mentioned in a context of [[differential geometry]] in: 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
 
-Discussion in the context of [[topological K-theory]]:
-
-* {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
-
-
-* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 40 of: *Vector bundles and K-theory* (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
 
 Discussion in the context of the [[K-theory classification of topological phases of matter]]:
 
