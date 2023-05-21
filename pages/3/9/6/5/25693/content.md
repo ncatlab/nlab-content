@@ -19,8 +19,24 @@ $$x:A, y:A \vdash \mathrm{RezkCond}(x, y):\mathrm{isEquiv}(\mathrm{idToIso}(x, y
 
 where 
 
-$$\mathrm{idToIso}(x, y):(x =_A y) \to x \cong_A y$$
-$$\mathrm{idToIso}(x, y)(\mathrm{refl}_A(x)) \coloneqq \mathrm{id}_A(x)$$
+$$
+  \mathrm{idToIso}(x, y)
+  \;\colon\;
+  (x =_A y) 
+  \;
+  \to 
+  \;
+  (x \cong_A y)
+$$
+
+$$
+  \mathrm{idToIso}(x, y)
+  \big(
+    \mathrm{refl}_A(x)
+  \big) 
+    \;\coloneqq\;
+  \mathrm{id}_A(x)
+$$
 
 ## Related concepts
 
