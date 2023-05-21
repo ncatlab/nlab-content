@@ -232,6 +232,7 @@ A similar way to use Isbell's result applies to show that a really vast number o
 * [[family of objects in a concrete category]]
 * [[concrete (2,1)-category]]
 * [[concrete (n,1)-category]]
+* [[concrete (infinity,1)-category]]
 
 ## References
 
