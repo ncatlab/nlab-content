@@ -33,6 +33,7 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 * [[function type]]
 * [[directed univalence]]
 * [[Segal type]], [[Rezk type]]
+* [[covariant type family]]
 
 ## References
 
