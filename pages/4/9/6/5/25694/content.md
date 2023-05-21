@@ -7,3 +7,4 @@
   * [[Segal type]]
   * [[isomorphism in a Segal type]]
   * [[Rezk type]]
+  * [[discrete Segal type]]
