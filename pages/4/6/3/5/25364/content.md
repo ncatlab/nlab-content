@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Type theory
-+--{: .hide}
-[[!include type theory - contents]]
+#### Directed Type Theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
 =--
 #### 2-category theory
 +--{: .hide}
@@ -13,6 +13,8 @@
 =--
 =--
 =--
+
+
 
 
 Any kind of [[type theory]] with [[categorical semantics]] in [[2-categories]] or [[(n,r)-category|(n,2)-categories]], such as [[(infinity,2)-categories|$(\infty,2)$-categories]]. See:
