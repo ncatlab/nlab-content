@@ -30,7 +30,7 @@ In particular, in the definition of **[[enriched model categories]]** the pushou
 
 Specialized to the case of [[simplicial model categories]] this is the origin of the notion of the pushout-product axiom, in its dual guise as the [[pullback-power axiom]] as "axiom SM7" in [Quillen (1967)](#Quillen67).
 
-Specialized, alternatively, to the case of self-enrichment the pushout-product axioms for **[[monoidal model categories]]** ensures that the [[tensor product]] in [[two-variable adjunction]] with its [[internal hom]]-functor is homotopically well-behaved.
+Specialized, alternatively, to the case of self-enrichment the pushout-product axiom for **[[monoidal model categories]]** ensures that the [[tensor product]] in [[two-variable adjunction]] with its [[internal hom]]-functor is homotopically well-behaved.
 
 This situation of [[monoidal model categories]] has come to be the case where the pushout-product axiom is most prominently discussed in the literature, and where it has received its name, see the references [there](monoidal+model+category#OriginalReferences).
 
