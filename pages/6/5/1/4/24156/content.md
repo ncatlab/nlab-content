@@ -1,6 +1,11 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
@@ -8,13 +13,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition ##
 
-A **univalent groupoid** or **saturated groupoid** is a [[univalent dagger category]] $A$ where for all objects $a:A$ and $b:A$ and morphisms $f:\mathrm{Hom}_A(a, b)$, $f \circ f^\dagger = \mathrm{id}_B$ and $f^\dagger \circ f = \mathrm{id}_A$. Equivalently, it is a univalent dagger category where every morphism is a [[unitary morphism]]. 
+In [[homotopy type theory]], a **univalent groupoid** or **saturated groupoid** is a [[univalent dagger category]] $A$ where for all objects $a \colon A$ and $b \colon A$ and morphisms $f \colon \mathrm{Hom}_A(a, b)$, $f \circ f^\dagger = \mathrm{id}_B$ and $f^\dagger \circ f = \mathrm{id}_A$. Equivalently, it is a univalent dagger category where every morphism is a [[unitary morphism]]. 
 
 Equivalently, a univalent or saturated groupoid is a [[precategory]] $A$ where for all objects $a:A$ and $b:A$ there is an equivalence between the [[identity type]] $a =_A b$ and the type $\mathrm{Hom}_A(a, b)$:
 
@@ -56,3 +62,4 @@ The second definition implies that the only morphisms in $A$ are [[isomorphisms]
 [[!redirects univalent groupoids]]
 [[!redirects saturated groupoid]]
 [[!redirects saturated groupoids]]
+
