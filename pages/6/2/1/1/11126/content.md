@@ -1106,11 +1106,17 @@ This is the general form of what might be called the "external cartesian product
 
 * [[doubly closed monoidal category]]
 
+
 ## References
 
-Textbook accounts concerning the [[external tensor product of vector bundles]]:
+The notion of the [[external tensor product of vector bundles]] originates in discussion of [[topological K-theory]]:
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], p. 84 of: *[[Connections, Curvature, and Cohomology]]* Volume 1: _De Rham Cohomology of Manifolds and Vector Bundles_, Academic Press (1973) &lbrack;[ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)&rbrack;
+*  {#Atiyah67}  [[Michael Atiyah]], §2.6 in: *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
+
+* {#Bott69} [[Raoul Bott]], p. 19 of: *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
+
+* {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://doi.org/10.1007/978-3-540-79890-3)&rbrack;
+
 
 Discussion in the context of categories of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) algebraic geometry: 
 
