@@ -42,6 +42,7 @@ $$
 
 * [[Segal type]]
 * [[isomorphism in a Segal type]]
+* [[discrete Segal type]]
 * [[univalent category]]
 
 ## References
