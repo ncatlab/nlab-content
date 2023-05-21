@@ -27,7 +27,7 @@
 
 ## Idea
 
-> Der unendlich kleinste Theil des Raumes ist immer ein Raum, etwas, das Continuit&#228;t hat, nicht aber ein blosser Punct, oder die Grenze zwischen bestimmten Stellen im Raume; ([Fichte 1795, Grundriss, &#167;4.IV](Grundriss+des+Eigenth&#252;mlichen+der+Wissenschaftslehre#4IVUnendlichKleinsterTeilDesRaumes))
+> Der unendlich kleinste Theil des Raumes ist immer ein Raum, etwas, das Continuit&#228;t hat, nicht aber ein blosser Punct, oder die Grenze zwischen bestimmten Stellen im Raume; ([Fichte 1795, Grundriss, &#167;4.IV](Grundriss+des+Eigenthümlichen+der+Wissenschaftslehre#4IVUnendlichKleinsterTeilDesRaumes))
 
 
 In _synthetic differential geometry_ one formulates [[differential geometry]] [[axiom|axiomatically]] in [[toposes]] -- called [[smooth toposes]] --  of [[generalized smooth spaces]] by assuming the explicit existence of [[infinitesimal neighbourhoods]] of points.
