@@ -42,6 +42,21 @@ $$
 
 The definition also makes sense in analytic models of [[(infinity,1)-categories]] such as those constructed from [[simplicial sets]]. 
 
+## Definition
+
+### In simplicial homotopy type theory
+
+In [[simplicial homotopy type theory]], a [[Tarski universe]] of [[discrete Segal types]] is a [[Segal type]] $U$ with a type family $A \colon U \vdash T(A) \; \mathrm{type}$ such that given an element $A \colon U$, every type $T(A)$ is a [[discrete Segal type]]. Such a Tarski universe behave similarly to [[Tarski universes]] in traditional [[homotopy type theory]], as the types model [[infinity-groupoids]], and thus the Tarski universe models a [[concrete (infinity,1)-category]]. The Tarski universe of discrete Segal types is **directed univalent** if given two elements $A \colon U$ and $B \colon U$ there is an [[equivalence of types]] between the hom-type $\mathrm{hom}_U(A, B)$ and the [[function type]] $T(A) \to T(B)$:
+
+$$
+  \mathrm{dua}_U(A, B)
+  \;\colon\;
+  \mathrm{hom}_U(A, B) 
+    \,\simeq\, 
+  (T(A) \to T(B))
+  \,.
+$$
+
 ## See also
 
 * [[univalence axiom]]
