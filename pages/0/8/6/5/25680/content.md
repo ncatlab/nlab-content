@@ -7,14 +7,6 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Equality and Equivalence
-+--{: .hide}
-[[!include equality and equivalence - contents]]
-=--
-#### Universes
-+-- {: .hide}
-[[!include universe - contents]]
-=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -49,6 +41,7 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 * [[identity type]]
 * [[function type]]
 * [[directed univalence]]
+* [[Segal type]], [[Rezk type]]
 
 ## References
 
