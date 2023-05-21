@@ -1,5 +1,16 @@
 
 $$
+  \mathrm{idToIso}(x, y)
+  \;\colon\;
+  (x =_A y) 
+  \;
+  \to 
+  \;
+  x \cong_A y
+$$
+
+
+$$
   \textstyle{\coprod}
   \displaystyle{\widehat{\otimes}}
   \scriptstyle{a b c}
