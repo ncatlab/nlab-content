@@ -413,15 +413,125 @@ The relations in example \ref{PushoutProductOfSpheresInclusionsIntoDisks} are th
 ### General
 
 \begin{example}
-\label{PushoutProductOfSplitEpimorphisms}
-With respect to any [[bifunctor]]
-$$
+\label{PushoutProductWithAnInitialMorphism}
+**(pushout-product with initial morphism is tensor product)**
+\linebreak
+With respect to a [[bifunctor]]
+$
   \otimes 
   \;\colon\;
   \mathcal{C} \times \mathcal{C}
   \longrightarrow
   \mathcal{C}
+$ which [[preserved colimit|preserves]] [[initial objects]] $\varnothing$ in, say, the first variable, the pushout-product with an [[initial object|initial morphisms]] $\varnothing \to X$ is given by $X \otimes (-) $:
+
 $$
+  \big(
+    \varnothing \to X
+  \big)  
+  \widehat{\otimes} 
+  g
+  \;\simeq\;
+  id_X 
+   \otimes 
+  g
+  \,.
+$$
+
+(Of course, in applications $(-)\otimes(-)$ is typically a [[closed monoidal category|closed]] [[tensor product]] which hence even [[preserved colimit|preserves all colimits]] in each variable separately.)
+
+This is because the defining pushout diagram now looks like this:
+
+\begin{tikzcd}
+  \varnothing 
+  \ar[r, "{ \mathrm{id} }"{description}]
+  \ar[d]
+  \ar[
+    dr,
+    phantom,
+    "{ \scalebox{.6}{$(po)$} }"
+  ]
+  &
+  \varnothing
+  \ar[d]
+  \ar[ddr, bend left=15]
+  \\
+  X \otimes Y
+  \ar[
+    drr, 
+    bend right=15, 
+    "{ \mathrm{id} \otimes g }"{description}
+  ]
+  \ar[r, "{ \mathrm{id} }"{description}]
+  &
+  X \otimes Y
+  \ar[dr, dashed]
+  \\
+  &&
+  X \otimes Y'
+\end{tikzcd}
+
+where the top row is the unique map on the initial object by assumption whence its pushout to the bottom horizontal morphism is also an identity, as shown.
+\end{example}
+
+
+\begin{example}
+\label{PushoutProductWithAnIdentity}
+**(pushout product with identity is identity morphism)**
+\linebreak
+With respect to any [[bifunctor]] $\otimes \,\colon\, \mathcal{C} \times \mathcal{C} \to \mathcal{C}$, the pushout-product with with an [[identity morphism]] is an identity morphim:
+$$
+  f \widehat{\otimes} id
+  \;\simeq\;
+  id
+  \;\;\;\;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;\;\;\;
+  id \,\widehat{\otimes}\, g
+  \;\simeq\;
+  id
+  \,.
+$$
+This is because the defining pushout-diagram, say in the first case, now  looks like this:
+\begin{tikzcd}
+  X \otimes Y
+  \ar[r, "{ \mathrm{id} }"{description}]
+  \ar[d, "{ f \otimes \mathrm{id} }"{description}]
+  \ar[dr, phantom, "{\scalebox{.6}{(po)}}"]
+  &
+  X \otimes Y
+  \ar[d, "{ f \otimes \mathrm{id} }"{description}]
+  \ar[
+    ddr, 
+    bend left=15, 
+    "{ f \otimes \mathrm{id} }"{description}
+  ]
+  \\
+  X' \otimes Y
+  \ar[r, "{ \mathrm{id} }"{description}]
+  \ar[drr, bend right=15, "{ \mathrm{id} }"{description}]
+  &
+  X' \otimes Y
+  \ar[dr, dashed, "{ \mathrm{id} }"{description}]
+  \\  
+  & & X' \otimes Y
+\end{tikzcd}
+because the top morphism is an identity morphism by assumption, so that also its pushout is given by an identity, as shown.
+
+The analogous argument applies in the other variable.
+\end{example}
+
+
+\begin{example}
+\label{PushoutProductOfSplitEpimorphisms}
+With respect to any [[bifunctor]]
+$
+  \otimes 
+  \;\colon\;
+  \mathcal{C} \times \mathcal{C}
+  \longrightarrow
+  \mathcal{C}
+$
 the pushout-product of two [[split epimorphisms]]
 $$
   \array{
