@@ -24,6 +24,7 @@ is a [[contractible type]], where $\Delta^2$ is the $2$-simplex probe shape and 
 ## Related concepts
 
 * [[hom type]]
+* [[discrete Segal type]]
 * [[Rezk type]]
 * [[isomorphism in a Segal type]]
 
