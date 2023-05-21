@@ -41,5 +41,6 @@ to the [[large]] [[(n,1)-category]] nGrpd of [[n-groupoids]]. We say a (n,1)-cat
 * [[concrete object]]
 * [[concrete category]]
 * [[concrete (2,1)-category]]
+* [[concrete (infinity,1)-category]]
 
 [[!redirects concrete (n,1)-categories]]
