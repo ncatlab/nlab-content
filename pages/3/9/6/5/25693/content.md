@@ -15,7 +15,7 @@
 
 In [[simplicial type theory]], a [[Segal type]] $A$ is a **Rezk type** if for all elements $x:A$ and $y:A$ there is an equivalence between the [[identity type]] $x =_A y$ and the [[type of isomorphisms in a Segal type]] $x \cong_A y$:
 
-$$x:A, y:A \vdash \mathrm{RezkCond}(x, y):\mathrm{isEquiv}(\mathrm{idToIso}(x, y))$$
+$$x:A, y:A \vdash \mathrm{RezkComplete}(x, y):\mathrm{isEquiv}(\mathrm{idToIso}(x, y))$$
 
 where 
 
