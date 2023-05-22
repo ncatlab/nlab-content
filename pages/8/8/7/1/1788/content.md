@@ -1,4 +1,152 @@
 
+\begin{proposition}
+  For $\mathcal{C}$ a category with all [[Cartesian products]], its [[free cocompletion]] $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
+\end{proposition}
+\begin{proof}
+  This is readily seen by component inspection, but it may be instructive to see it from more abstract reasoning.
+
+Namely, with the free cocompletion understood as the [[Grothendieck construction]] on the system of [[product categories]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$, its cartesian produducts are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "external cartesian product" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease notation):
+$$
+  X_S,\, Y_T \,\in\, \textstyle{\int}_{S \in Set} \mathcal{C}
+  \;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;
+  X_S \times Y_T 
+  \;\simeq\;
+  \Big(
+  \big(
+    (pr_S)^\ast X
+  \big) 
+    \times_{S \times T} 
+  \big(
+    (pr_T)^\ast Y
+  \big)   
+  \Big)_{S \times T}
+  \,.
+$$
+Of course this comes down to the expected component formula
+$$
+  s \in S
+  ,\,
+  t \in T
+  \;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;
+  \Big(
+  \big(
+    (pr_S)^\ast X
+  \big) 
+    \times_{S \times T} 
+  \big(
+    (pr_T)^\ast Y
+  \big)   
+  \Big)_{s,t}
+  \;\;
+  =
+  \;\;
+  X_s \times Y_t 
+  \;\;\;\;
+  \in
+  \;\;
+  \mathcal{C}
+  \,.
+$$
+
+Now
+
+$$
+  \begin{array}{ll}
+  X_S 
+  \,\times\,
+  \big(
+    Y_T
+    \amalg
+    Y'_{T'}
+  \big)
+  \\
+  \;\simeq\;
+  X_S 
+  \,\times\,
+  \big(
+    (q_T)_! X
+    \sqcup 
+    (q_{T'})_! Y
+  \big)_{T \sqcup T'}
+  \\
+  \;\simeq\;
+  \big(
+    (pr_S)^\ast X
+  \big)
+    \times
+  \Big(
+  (pr_{T \sqcup T'})^\ast
+  \big(
+    (q_T)_! X
+    \sqcup 
+    (q_{T'})_! Y
+  \big)
+  \Big)_{T \sqcup T'}
+  \\
+  \;\simeq\;
+  \bigg(
+  \big(
+    (pr_S)^\ast X
+  \big)
+    \times
+  \Big(
+  \big(
+    (pr_{T \sqcup T'})^\ast
+    (q_T)_! X
+  \big)
+    \sqcup 
+  \big(
+    (pr_{T \sqcup T'})^\ast
+    (q_{T'})_! Y
+  \big)
+  \Big)
+  \bigg)_{S \times T \sqcup S \times T'}
+  \\
+  \;\simeq\;
+  \bigg(
+  \big(
+    (pr_S)^\ast X
+  \big)
+    \times
+  (pr_{T \sqcup T'})^\ast
+  \Big(
+  \big(
+    (q_T)_! X
+  \big)
+    \sqcup 
+  \big(
+    (q_{T'})_! Y
+  \big)
+  \Big)
+  \bigg)_{S \times T \sqcup S \times T'}
+  \end{array}
+$$
+
+$$
+  \array{   
+    S \times T
+    &\overset{\; id_S \times q_T \;}{\longrightarrow}&
+    S \times (T \sqcup T')
+    \\
+    \mathllap{{}^{pr_T}}
+    \Big\downarrow
+    &&
+    \Big\downarrow
+    \mathrlap{{}^{pr_{T \sqcup T'}}}
+    \\
+    T 
+      &\underset{\;\; q_T \;\;}{\longrightarrow}&
+    T \sqcup T'
+  }
+$$
+
+\end{proof}
+
+
 $$
   \mathrm{idToIso}(x, y)
   \;\colon\;
