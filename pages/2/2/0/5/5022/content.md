@@ -27,7 +27,7 @@ The terminology often used refers to $W$ as the set of possible worlds.  Its ele
 
 (N.B.  Here we are still restricting to multimodal logics in which the modal operators are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
 
-The generalisation is not difficult. In $\mathcal{L}_\omega(1)$, the single unary modality $\Diamond$ is modeled by one _binary_ relation.  In $\mathcal{L}_\omega(n)$, there are $n$-unary modalities so the frames have $n$-binary relations.  Explicitly we have 
+The generalisation is not difficult. In $\mathcal{L}_\omega(1)$, the single unary modality $\Diamond$ is modeled by one _binary_ relation.  In $\mathcal{L}_\omega(n)$, there are $n$ unary modalities so the frames have $n$ binary relations.  Explicitly we have 
 
 +-- {: .un_defn}
 ###### Definition
