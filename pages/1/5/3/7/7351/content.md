@@ -98,6 +98,65 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 
 * [[Marco Grandis]] and [[Robert Paré]], _Limits in double categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 40, No. 3, 1999, pp. 162-220. &lbrack;[cahiers](http://archive.numdam.org/item/CTGDC_1999__40_3_162_0/)&rbrack;
 
+
+* [[Robert Paré]], _Contravariant Functors on Finite Sets and Stirling Numbers_, Theory and Applications of Categories, Vol. 6, No. 5, 1999, pp. 65-76. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/6/n5/6-05abs.html)&rbrack;
+
+* [[Robert Dawson]] and [[Robert Paré]], _What is a free double category like?_, Journal of Pure and Applied Algebra, Vol. 168, No. 1, 2002, pp. 19-34. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(01)00049-4">doi:10.1016/S0022-4049(01)00049-4</a>&rbrack;
+
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Adjoining adjoints_, Advances in Mathematics, Vol. 178, No. 1, 2003, pp. 99-140. &lbrack;<a href="https://doi.org/10.1016/S0001-8708(02)00068-3">doi:10.1016/S0001-8708(02)00068-3</a>&rbrack;
+
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Undecidability of the Free Adjoint Construction_, Applied Categorical Structures, Vol. 11, 2003, pp. 403–419. &lbrack;[doi:10.1023/A:1025712521140](https://doi.org/10.1023/A:1025712521140)&rbrack;
+
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Free extensions of double categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 45, No. 1, 2004, pp. 35-80. &lbrack;[cahiers](http://www.numdam.org/item/CTGDC_2004__45_1_35_0/)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Adjoint for double categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 45, No. 3, 2004, pp. 193-240. &lbrack;[cahiers](http://archive.numdam.org/item/CTGDC_2004__45_3_193_0/)&rbrack;
+
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Universal properties of Span_, Theory and Applications of Categories, Vol. 13, No. 4, 2004, pp. 61-85. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/13/4/13-04abs.html)&rbrack;
+
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Paths in double categories_, Theory and Applications of Categories, Vol. 16, No. 18, 2006, pp. 460-521. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/16/18/16-18abs.html)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Lax Kan extensions for double categories (on weak double categories, part IV)_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 48, No. 3, 2007, pp. 163-199. &lbrack;[cahiers](http://archive.numdam.org/item/CTGDC_2007__48_3_163_0/)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Kan extensions in double categories (On weak double categories, Part III)_, Theory and Applications of Categories, Vol. 20, No. 8, 2008, pp. 152-185. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/20/8/20-08abs.html)&rbrack;
+
+* [Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _The span construction_, Theory and Applications of Categories, Vol. 24, No. 13, 2010, pp. 302-377. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html)&rbrack;
+
+* [[Robert Paré]], _Mealy Morphisms of Enriched Categories_, Applied Categorical Structures, Vol. 20, 2012, pp. 251–273. &lbrack;[doi:10.1007/s10485-010-9238-8](https://doi.org/10.1007/s10485-010-9238-8)&rbrack;
+
+* [[Toby Kenny]] and [[Robert Paré]], _Categories as monoids in Span, Rel and Sup_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 52, No. 3, 2011, pp. 209-240. &lbrack;[cahiers](http://www.numdam.org/item/CTGDC_2011__52_3_209_0/)&rbrack;
+
+* [[Robert Paré]], _Yoneda theory for double categories_, Theory and Applications of Categories, Vol. 25, No. 17, 2011, pp. 436-489. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _From cubical to globular higher categories_, Diagrammes, Vol. S67-68, 2012, pp. 117-148. &lbrack;[journal](http://www.numdam.org/item/DIA_2012__S67-68__117_0/)&rbrack;
+
+* [[Robert Paré]] and [[J. Rosický]], _Colimits of accessible categories_, Mathematical Proceedings of the Cambridge Philosophical Society, Vol. 155, No. 1, 2013, pp. 47-50. &lbrack;[doi:10.1017/S0305004113000030](https://doi.org/10.1017/S0305004113000030)&rbrack;
+
+* [[Robert Paré]], _Composition of modules for lax functors_, Theory and Applications of Categories, Vol. 27, No. 16, 2013, pp. 393-444. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/27/16/27-16abs.html)&rbrack;
+
+* [[Robert Paré]], _Morphisms of Colimits: from Paths to Profunctors_, Applied Categorical Structures, Vol. 23, 2015, pp. 1–28. &lbrack;[doi:10.1007/s10485-013-9357-0](https://doi.org/10.1007/s10485-013-9357-0)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Intercategories_, Theory and Applications of Categories, Vol. 30, No. 38, 2015, pp. 1215-1255. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/30/38/30-38abs.html)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Intercategories: A framework for three-dimensional category theory_, Journal of Pure and Applied Algebra, Vol. 221, No. 5, 2017, pp. 999-1054. &lbrack;[doi:10.1016/j.jpaa.2016.08.002](https://doi.org/10.1016/j.jpaa.2016.08.002)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _An introduction to multiple categories (On weak and lax multiple categories, I)_, Cahiers de topologie et géométrie différentielle catégoriques, Vol. 57, No. 2, 2016, pp. 103-159. &lbrack;[cahiers](http://cahierstgdc.com/index.php/volumes/volume-lvii-2016/)&rbrack;
+
+* [[Robert Paré]], _Wobbly double functors_, Tbilisi Mathematical Journal, Vol. 8, No. 1, 2015, pp. 63-84. &lbrack;[doi:10.1515/tmj-2015-0005](https://doi.org/10.1515/tmj-2015-0005)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Limits in multiple categories (On weak and lax multiple categories, II)_, Cahiers de topologie et géométrie différentielle catégoriques, Vol. 57, No. 3, 2016, pp. 163-202. &lbrack;[cahiers](http://cahierstgdc.com/index.php/volumes/volume-lvii-2016/)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Adjoints for multiple categories (On weak and lax multiple categories, III)_, Cahiers de topologie et géométrie différentielle catégoriques, Vol. 58, No. 1, 2017, pp. 3-48. &lbrack;[cahiers](http://cahierstgdc.com/index.php/volume-lviii-2017/)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Span and cospan representations of weak double categories_, Categories and General Algebraic Structures with Applications, Vol. 6, 2017, pp. 85-105. &lbrack;[journal](https://cgasa.sbu.ac.ir/article_39606.html)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _A multiple category of multiple lax categories_, Cahiers de topologie et géométrie différentielle catégoriques, Vol. 58, No. 3-4, 2017, pp. 195-212. &lbrack;[cahiers](http://cahierstgdc.com/index.php/volume-lviii-2017/)&rbrack;
+
+* [[Marco Grandis]] and [[Robert Paré]], _Persistent double limits_, Cahiers de topologie et géométrie différentielle catégoriques, Vol. 60, No. 3, 2019, pp. 255-297. &lbrack;[cahiers](http://cahierstgdc.com/index.php/volume-lx/)&rbrack;
+
+* [[Robert Paré]], _Morphisms of Rings_, Joachim Lambek: The Interplay of Mathematics, Logic, and Linguistics, Outstanding Contributions to Logic, Vol. 20, 2021, pp. 271–298. &lbrack;[doi:10.1007/978-3-030-66545-6_8](https://doi.org/10.1007/978-3-030-66545-6_8)&rbrack;
+
+* [[Robert Paré]], _Three Easy Pieces: Imaginary seminar talks in honour of Bob Rosebrugh_, Theory and Applications of Categories, Vol. 36, No. 6, 2021, pp. 171-200. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/36/6/36-06abs.html)&rbrack;
+
 category: people
 
 [[!redirects Robert Pare]]
