@@ -268,7 +268,7 @@ $$
 
 \begin{proposition}
 \label{CoproductCompletionOfCategoryWithProducts}
-  For $\mathcal{C}$ a category with all [[Cartesian products]], its [[free cocompletion]] $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
+  For $\mathcal{C}$ a category with all [[Cartesian products]], its [[free cocompletion]] under coproducts $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
 \end{proposition}
 \begin{proof}
   This is readily seen by component inspection. but it may be instructive to see it from more abstract reasoning.
@@ -435,7 +435,7 @@ $$
 $$
 \end{proof}
 
-
+Abstractly, this follows because the 2-monad for [[free product completion]] [[distributive law|distributes]] over the 2-monad for free coproduct cocompletion. The composite 2-monad exhibits the free [[distributive category]] construction.
 
 ## Examples
  {#Examples}
