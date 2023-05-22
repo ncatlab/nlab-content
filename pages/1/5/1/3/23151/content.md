@@ -266,6 +266,176 @@ $$
 (e.g. [Carboni, Lack & Walters 1993](#CarboniLackWalters93))
 
 
+\begin{proposition}
+\label{CoproductCompletionOfCategoryWithProducts}
+  For $\mathcal{C}$ a category with all [[Cartesian products]], its [[free cocompletion]] $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
+\end{proposition}
+\begin{proof}
+  This is readily seen by component inspection. but it may be instructive to see it from more abstract reasoning.
+
+Namely, with the free cocompletion understood as a [[Grothendieck construction]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$ discussed [above](#AsAGrothendieckConstruction), its cartesian produducts are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "external cartesian product" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease notation):
+$$
+  X_S,\, Y_T \,\in\, \textstyle{\int}_{S \in Set} \mathcal{C}
+  \;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;
+  X_S \times Y_T 
+  \;\simeq\;
+  \Big(
+  \big(
+    (pr_S)^\ast X
+  \big) 
+    \times_{S \times T} 
+  \big(
+    (pr_T)^\ast Y
+  \big)   
+  \Big)_{S \times T}
+  \,.
+$$
+Of course this comes down to the expected component formula
+$$
+  \begin{array}{ll}
+  \big(
+    X_S \times Y_T
+  \big)_{s,t}
+  \\
+  \;\simeq\;
+  \Big(
+  \big(
+    (pr_S)^\ast X
+  \big) 
+    \times_{S \times T} 
+  \big(
+    (pr_T)^\ast Y
+  \big)   
+  \Big)_{s,t}
+  & 
+  \text{by the above}
+  \\
+  \;\simeq\;
+  \{(s,t)\}^\ast
+  \Big(
+  \big(
+    (pr_S)^\ast X
+  \big) 
+    \times_{S \times T} 
+  \big(
+    (pr_T)^\ast Y
+  \big)   
+  \Big)
+  &
+  \text{by definition}
+  \\
+  \;\simeq\;
+  \Big(
+  \big(
+    \{(s,t)\}^\ast
+    (pr_S)^\ast X
+  \big) 
+    \times_{\{(s,t)\}} 
+  \big(
+    \{(s,t)\}^\ast
+    (pr_T)^\ast Y
+  \big)   
+  \Big)
+  &
+  \text{pullback is right adjoint}
+  \\
+  \;\simeq\;
+  \big(
+    \{s\}^\ast
+    X
+  \big) 
+    \times_{\{(s,t)\}} 
+  \big(
+    \{t\}^\ast
+    Y
+  \big)   
+  &
+  \text{by commuting diagram below}
+  \\
+  \;\simeq\;
+  X_s \times Y_t
+  &
+  \text{by definition}
+  \end{array}
+$$
+$$
+  \array{
+    \{s\} &\simeq& \{(s,t)\} &\simeq& \{t\}
+    \\
+    \Big\downarrow && \Big\downarrow && \Big\downarrow
+    \\
+    S &\underset{pr_S}{\longleftarrow}& S \times T &\underset{pr_T}{\longrightarrow}& T
+  }
+$$
+Similarly, the component formula for the free coproduct is
+$$
+  \big( 
+    Y_T \amalg Y'_{T'}
+  \big)_{\tau}
+  \;\simeq\;
+  \left\{
+  \begin{array}{lll}
+    Y_\tau &\vert& \tau \in T
+    \\
+    Y'_{\tau} &\vert& \tau \in T'
+  \end{array}
+  \right.
+  \,.
+$$
+Using all this, distributivity is verified as follows:
+$$
+  \begin{array}{ll}
+    \Big(
+    X_S 
+      \times 
+    \big(
+      Y_T \sqcup Y_{T'}
+    \big)
+    \Big)_{s, \tau}
+    \\
+    \;\simeq\;
+    X_s 
+      \times 
+    \big(
+      Y_T \sqcup Y_{T'}
+    \big)_\tau
+    \\
+    \;\simeq\;
+    \left\{
+    \begin{array}{lll}
+      X_s  \times Y_\tau &\vert& \tau \in T
+      \\
+      X_s \times Y'_{\tau} &\vert& \tau \in T'
+    \end{array}
+    \right.
+    \\
+    \;\simeq\;
+    \left\{
+    \begin{array}{lll}
+      (X_S \times Y_T)_{s, \tau} &\vert& \tau \in T
+      \\
+      (X_S \times Y'_{T'})_{s, \tau} &\vert& \tau \in T'
+    \end{array}
+    \right.
+    \\
+    \;\simeq\;
+    \Big(
+    \big(
+      X_S \times Y_T
+    \big)
+    \sqcup
+    \big(
+      X_S \times Y'_{T'}
+    \big)
+    \Big)_{s,\tau}
+    \,.
+  \end{array}
+$$
+\end{proof}
+
+
 
 ## Examples
  {#Examples}
