@@ -327,7 +327,7 @@ $$
 $$
 the product [[projection]] maps in the base category.
 
-A product of the form (eq:CartesianProductInGrothendieckConstruction) is known as an *[[external tensor product]]*, here the "external Cartesian product" on the fiber categories.
+A product of the form (eq:CartesianProductInGrothendieckConstruction) is known as an *[[external tensor product]]*, here the "external Cartesian product" on the fiber categories; see also [this Proposition](free+coproduct+completion#FreeDistributiveCategoryMonad) at *[[free coproduct completion]]*.
 \end{example}
 
 
