@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Boolean rings
 * table of contents
 {: toc}
@@ -18,7 +29,7 @@ Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]
 
 ## Properties
 
-*  A Boolean ring is an [[algebra]] over the [[field]] $\mathbb{F}_2$ with two elements, since 
+*  A Boolean ring is an [[algebra]] over the [[field]] [[prime field|$\mathbb{F}_2$]] with two elements, since 
    $$ 2 x = 4 x - 2 x = 4 x^2 - 2 x = (2 x)^2 - 2 x = 2 x - 2 x = 0 .$$
 
 *  $R$ is commutative (meaning that $x y = y x$ for all $x, y$):
