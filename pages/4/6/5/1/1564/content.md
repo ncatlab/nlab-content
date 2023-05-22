@@ -7,6 +7,8 @@
 
 A [[Boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of Boolean algebra is rather lengthy, but Boolean algebras are equivalent to **Boolean rings**, which are simply rings obeying the identity $x^2 = x$.
 
+In a boolean ring, the multiplication can be interpreted as the conjunction, the multiplicative unit as the truth value "true", the additive unit as the truth value "false" and the additive inverse as providing the negation. Compared to [[boolean algebras]], which are also [[semiring| semirings]] but not rings (except the trivial boolean algebra), the addition expresses the exclusive disjunction and not the inclusive disjunction. As the exclusive disjunction of $x$ and the negation of $x$ is the truth value "false", it makes the additive commutative monoid an abelian group and finally provides a ring. 
+
 ## Definitions
 
 A [[ring with unit]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
