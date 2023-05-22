@@ -644,7 +644,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 ### May 2023
  {#ConferencesMay2023}
 
-* {#QuantumConference2023} 22 - 26 May 2023 (upcoming)
+* {#QuantumConference2023} 22 - 26 May 2023 (ongoing)
 
   **Quantum Information and Quantum Matter**
 
@@ -663,6 +663,17 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
         "left": 10
     }
 \end{imagefromfile}
+
+\linebreak
+
+* {#AmicoMay2023} [[Luigi Amico]], (Technology Innovation Institute, Abu Dhabi)
+
+  **Coherence of confined matter in lattice gauge theories at the mesoscopic scales**
+
+  > [[atomtronics|Atomtronics]] is the emerging quantum technology of matter-wave circuits which coherently guide propagating ultra-cold atoms. The field benefits from the remarkable progress in micro optics, allowing to control the coherent matter with enhanced flexibility on the micron spatial scale. This way, both fundamental studies in quantum science and technological applica:ons can be carried out. I will sketch recent progress in matter-wave circuitry and atomtronics-based quantum technology. In particular,  I will focus on a specific  scheme simulating lattice gauge theories and analyze confined matter at the mesoscopic spatial scale.
+
+
+* (...)
 
 
 
