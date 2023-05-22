@@ -26,3 +26,5 @@ On [[Cartesian bicategories]]:
 
 
 category:people
+
+[[!redirects A. Carboni]]
