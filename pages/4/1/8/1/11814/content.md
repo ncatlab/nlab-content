@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $p \geq 2$ a [[prime number]] , then [[quotient]] $\mathbb{Z}/p\mathbb{Z}$ of the [[ring]] of [[integers]] by $p$ is a [[finite field]] denoted $\mathbb{F}_p$, a _prime field_.
+For $p \geq 2$ a [[prime number]], the [[quotient]] $\mathbb{Z}/p\mathbb{Z}$ of the [[ring]] of [[integers]] by $p$ is a [[finite field]] denoted $\mathbb{F}_p$, a _prime field_.
 
 Prime fields have [[positive characteristic]]. 
 
