@@ -162,7 +162,7 @@ Notice that this is _almost_ the complete analog in [[stable homotopy theory]] o
 
 (This is currently being investigated by Elmendorf, Nikolaus and maybe others.)
 
-However, a subcategory of $SymmMonCat$ whose objects are Permutative categories and maps are strict symmetric monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$, see [Sharma](#Sharma). This model category structure is combinatorial, left-proper and a $Cat$-model category structure. It is referred to as the natural model category structure on $Perm$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a [[permutative category]].
+However, a subcategory of $SymmMonCat$ whose objects are [[permutative categories]] and maps are symmetric strict monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$, see [Sharma](#Sharma). This model category structure is combinatorial, left-proper and a $Cat$-model category structure. It is referred to as the natural model category structure on $Perm$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a [[permutative category]].
 
 ### Relation to $\Gamma$-categories
 
