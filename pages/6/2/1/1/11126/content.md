@@ -1094,7 +1094,7 @@ by the formula
   \Big)_{X \times Y}
   \,.
 \]
-This is the general form of what might be called the "external cartesian product".
+This is the general form of what might be called the "external cartesian product"; see also [this Proposition](free+coproduct+completion#FreeDistributiveCategoryMonad) at *[[free coproduct completion]]*.
 \end{example}
 
 
