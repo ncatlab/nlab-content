@@ -74,7 +74,7 @@ Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in tw
 
 ## Examples
 
-The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$.  This is a Boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. 
+The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$. This is a Boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. In [[constructive mathematics]], one would use the set of [[decidable subsets]] $2^S$ instead of the set of all subsets $\mathcal{P}S$ to get the corresponding Boolean ring.
 
 The free Boolean ring on a set $X$ can be identified with $\mathcal{P}_f \mathcal{P}_f X$, where $\mathcal{P}_f \colon Set \to Set$ assigns to any set the set of all its finite subsets.  In fact $\mathcal{P}_f \colon Set \to Set$ can be made into a monad in two different ways: the monad for [[semilattices]] (which we use to describe multiplication in a Boolean ring) and the monad for [[vector spaces]] over $\mathbb{F}_2$  (which we use to describe addition in a Boolean ring). These two monads are related by a distributive law which expresses the distributivity of multiplication over addition.   This makes $\mathcal{P}_f \mathcal{P}_f$ into the monad for Boolean rings.
 
