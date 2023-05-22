@@ -102,6 +102,11 @@ $$x + y = (x + y)(x + y) = (x + y)x + (x + y)y = (x x + y x) + (x y + y y) = x +
 which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$. 
 =--
 
+## Related concepts
+
+* [[Boolean algebra]]
+* [[Boolean rig]]
+
 [[!redirects Boolean ring]]
 [[!redirects boolean ring]]
 [[!redirects Boolean rings]]
