@@ -150,8 +150,13 @@ The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]]
 
 * G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_ ([arxiv/1302.3778](http://arxiv.org/abs/1302.3778))
 
-* A. Mironov, A. Morozov, *Superintegrability as the hidden origin of Nekrasov calculus* &lbrack;[arXiv:2207.08242](https://arxiv.org/abs/2207.08242)&rbrack;
+* [[Andrei Mironov]], A. Morozov, *Superintegrability as the hidden origin of Nekrasov calculus* &lbrack;[arXiv:2207.08242](https://arxiv.org/abs/2207.08242)&rbrack;
 
+Proof of the AGT conjecture in special cases:
+
+* [[Andrei Mironov]], [[Andrey Morozov]], [[Sh. Shakirov]], *A direct proof of AGT conjecture at $\beta = 1$*, JHEP 1102:067 (2011) &lbrack;[arXiv:1012.3137](https://arxiv.org/abs/1012.3137), <a href="https://doi.org/10.1007/JHEP02(2011)067">doi:10.1007/JHEP02(2011)067</a>&rbrack; 
+
+* Qing-Jie Yuan, Shao-Ping Hu, Zi-Hao Huang, Kilar Zhang, *A proof of An AGT conjecture at $\beta = 1$* &lbrack;[arXiv:2305.11839](https://arxiv.org/abs/2305.11839)&rbrack;
 
 
  
