@@ -12,5 +12,12 @@ The __representable functor theorem__ states that a [[Set]]-valued [[functor]] o
 
 As representable functors are ubiquitous, this theorem is essentially equivalent to the [[adjoint functor theorem]] and to theorems guaranteeing the existence of [[limits]].
 
+Specifically, a continuous functor $C\to Set$
+is a right adjoint functor if and only if it is representable, in which case the left adjoint functor $Set\to C$ sends the [[singleton]] set to the representing object
+
+## Related concepts
+
+* [[adjoint functor theorem]]
+
 
 [[!redirects representable functor theorem]]
