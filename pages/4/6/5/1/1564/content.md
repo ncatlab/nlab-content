@@ -3,6 +3,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+A [[Boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of Boolean algebra is rather lengthy, but Boolean algebras are equivalent to **Boolean rings**, which are simply rings obeying the identity $x^2 = x$.
+
 ## Definitions
 
 A [[ring with unit]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
@@ -25,7 +29,7 @@ Define $x \vee y$ to mean $x + x y + y$.  Then:
    $$ x \vee x = x + x^2 + x = 3 x = x .$$
 *  The absorption law ($x \vee x y = x$) also holds:
    $$ x \vee x y = x + x^2 y + x y = x + 2 x y = x .$$
-   We could now prove the other absoprtion law to conclude that $R$ is a [[lattice]] using multiplication as [[meet]] and $\vee$ as [[join]].
+   We could now prove the other absorption law to conclude that $R$ is a [[lattice]] using multiplication as [[meet]] and $\vee$ as [[join]].
 *  But in fact, we can skip that step since it follows the distributive law ($x (y \vee z) = x y \vee x z$):
    $$ x (y \vee z) = x (y + y z + z) = x y + x y z + x z = x y + x^2 y z + x z = x y + (x y) (x z) + x z = x y \vee x z .$$
    Thus $R$ is a [[distributive lattice]].
