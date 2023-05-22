@@ -5,7 +5,7 @@
 
 ## Models in Modal Logics
 
-To give the standard (geometric) semantics of [[modal logics]], one needs models and these will be discussed here and in the companion [[algebraic models for  modal logics]].
+To give the standard (geometric) semantics of [[modal logics]], one needs models and these will be discussed here and in the companion [[algebraic models for modal logics]].
 
 (This outlines the basics of the semantics often called **Kripke semantics** of these logics. We concentrate on modal languages with unary modalities and therefore on relational structures with binary relations in them only.  This is largely for the sake of keeping the exposition fairly straightforward and simple.  This means the frames used will be 'Kripke frames'.  There may be a need later (or elsewhere in the Lab) to discuss more general frames.) 
 
