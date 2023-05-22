@@ -666,12 +666,21 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 \linebreak
 
-* {#AmicoMay2023} [[Luigi Amico]], (Technology Innovation Institute, Abu Dhabi)
+* {#AmicoMay2023} [[Luigi Amico]], (Technology Innovation Institute, Abu Dhabi):
 
   **Coherence of confined matter in lattice gauge theories at the mesoscopic scales**
 
   > [[atomtronics|Atomtronics]] is the emerging quantum technology of matter-wave circuits which coherently guide propagating ultra-cold atoms. The field benefits from the remarkable progress in micro optics, allowing to control the coherent matter with enhanced flexibility on the micron spatial scale. This way, both fundamental studies in quantum science and technological applications can be carried out. I will sketch recent progress in matter-wave circuitry and [[atomtronics]]-based quantum technology. In particular,  I will focus on a specific  scheme simulating [[lattice gauge theories]] and analyze [[confinement|confined]] matter at the mesoscopic spatial scale.
 
+\linebreak
+
+* {#ByrnesMay2023} [[Tim Byrnes]] (NYU Shanghai):
+
+  **Measurement based imaginary time evolution**
+
+  cf. [arXiv:2210.06923](https://arxiv.org/abs/2210.06923)
+
+\linebreak
 
 * (...)
 
