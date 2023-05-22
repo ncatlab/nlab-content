@@ -7,7 +7,7 @@
 
 A [[Boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of Boolean algebra is rather lengthy, but Boolean algebras are equivalent to **Boolean rings**, which are simply rings obeying the identity $x^2 = x$.
 
-In a boolean ring, the multiplication can be interpreted as the conjunction, the multiplicative unit as the truth value "true", the additive unit as the truth value "false" and the additive inverse as providing the negation. Compared to [[boolean algebras]], which are also [[semiring| semirings]] but not rings (except the trivial boolean algebra), the addition expresses the exclusive disjunction and not the inclusive disjunction. As the exclusive disjunction of $x$ and the negation of $x$ is the truth value "false", it makes the additive commutative monoid an abelian group and finally provides a ring. 
+In a boolean ring, the multiplication can be interpreted as the conjunction, the multiplicative unit $1$ as the truth value "true", the additive unit $0$ as the truth value "false". The unary operation $x \mapsto 1 + x$ provides the negation. Compared to [[boolean algebras]], which are also [[semiring| semirings]] but not rings (except the trivial boolean algebra), the addition expresses the exclusive disjunction and not the inclusive disjunction.  
 
 ## Definitions
 
@@ -85,8 +85,20 @@ where $\lambda$ is a lax monoidal constraint.
 
 ## Analogues
 
-Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesize commutativity; it follows.  That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative.
+Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesize commutativity; it follows.  That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
 
++-- {: .proof} 
+###### Proof 
+Write the magma operation as $(x, y) \mapsto x y$. Then for any element $x$, idempotence and bilinearity imply 
+
+$$x + x = (x + x)(x + x) = (x + x)x + (x + x)x = (x x + x x) + (x x + x x) = (x + x) + (x + x)$$ 
+
+which by cancellation gives $x + x = 0$, or $x = -x$. Similarly, for any elements $x, y$, 
+
+$$x + y = (x + y)(x + y) = (x + y)x + (x + y)y = (x x + y x) + (x y + y y) = x + y x + x y + y$$ 
+
+which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$. 
+=--
 
 [[!redirects Boolean ring]]
 [[!redirects boolean ring]]
