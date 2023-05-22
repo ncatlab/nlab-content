@@ -44,5 +44,6 @@ On [[lenses (in computer science)]]:
 
 [[!redirects Bob Rosebrugh]]
 [[!redirects Rosebrugh]]
+[[!redirects R. Rosebrugh]]
 
 [[!redirects R. D. Rosebrugh]]
