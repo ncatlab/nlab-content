@@ -268,12 +268,12 @@ $$
 
 \begin{proposition}
 \label{CoproductCompletionOfCategoryWithProducts}
-  For $\mathcal{C}$ a category with all [[Cartesian products]], its [[free cocompletion]] under coproducts $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
+  For $\mathcal{C}$ a category with all [[Cartesian products]], its free coproduct completion $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
 \end{proposition}
 \begin{proof}
-  This is readily seen by component inspection. but it may be instructive to see it from more abstract reasoning.
+  This is readily seen by component inspection, but it may be instructive to see it from more abstract reasoning:
 
-Namely, with the free cocompletion understood as a [[Grothendieck construction]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$ discussed [above](#AsAGrothendieckConstruction), its cartesian produducts are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "external cartesian product" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease notation):
+Namely, with the free cocompletion understood as a [[Grothendieck construction]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$ discussed [above](#AsAGrothendieckConstruction), its cartesian produducts are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "[[external tensor product|external]] [[cartesian product]]" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease notation):
 $$
   X_S,\, Y_T \,\in\, \textstyle{\int}_{S \in Set} \mathcal{C}
   \;\;\;\;\;\;\;\;\;
@@ -435,7 +435,9 @@ $$
 $$
 \end{proof}
 
-Abstractly, this follows because the 2-monad for [[free product completion]] [[distributive law|distributes]] over the 2-monad for free coproduct cocompletion. The composite 2-monad exhibits the free [[distributive category]] construction.
+\begin{remark}\label{FreeDistributiveCategoryMonad}
+More abstractly, Prop. \ref{CoproductCompletionOfCategoryWithProducts} follows because the [[2-monad]] for [[free product completion]] [[distributive law|distributes]] over the 2-monad for free coproduct cocompletion. The composite 2-monad exhibits the [[free construction|free]] [[distributive category]]-construction.
+\end{remark}
 
 ## Examples
  {#Examples}
