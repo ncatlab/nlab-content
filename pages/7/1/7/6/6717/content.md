@@ -40,6 +40,8 @@ In the [[ADE-classification]] of [[finite subgroups of SU(2)]], the group of ord
 
 ## Related concepts
 
+* [[prime field]]
+
 * [[Bockstein homomorphism]]
 
 * [[Stiefel-Whitney class]]
