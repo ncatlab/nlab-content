@@ -325,7 +325,7 @@ A strict monoidal category (Def. \ref{StrictMonoidalCategory}) is equivalently a
 \end{definition}
 
 Very explicitely, it means that:
-\begin{definition} A strict monoidal category (Def. \ref{StrictMonoidalCategory}) is a category $\mathcal{C}$ equipped with an object $1 \in \mathcal{C}$ and a bifunctor $\otimes:\mathcal{C} \times \mathcal{C} \rightarrow \mathcal{C}$ such that for every objects $A,B,C$ and morphisms $f,g,h$, we have:
+\begin{definition} A strict monoidal category (Def. \ref{StrictMonoidalCategory}) is a category $\mathcal{C}$ equipped with an object $1 \in \mathcal{C}$ and a [[bifunctor]] $\otimes:\mathcal{C} \times \mathcal{C} \rightarrow \mathcal{C}$ such that for every objects $A,B,C$ and morphisms $f,g,h$, we have:
 
 * $(A \otimes B) \otimes C = A \otimes (B \otimes C)$
 * $1 \otimes A = A$
