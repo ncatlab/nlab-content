@@ -30,7 +30,9 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 ## Algebras
 
-On the [[category of sets]], the functor $[-,S]:\mathbf{Set}^{op}\to \mathbf{Set}$ is [[monadic]], whenever $|S|\geq 2$. Thus the [[Eilenberg-Moore algebras]] of the continuation monad are just sets. 
+On the [[category of sets]], the functor $[-,S] \colon\mathbf{Set}^{op}\to \mathbf{Set}$ is [[monadic]] (with left adjoint $[-, S]^{op} \colon \mathbf{Set} \to \mathbf{Set}^{op}$) whenever $|S|\geq 2$. Thus the [[Eilenberg-Moore algebras]] of the continuation monad are equivalent to [[complete atomic Boolean algebras]], as the category of these is equivalent to the opposite of the category of sets. 
+
+(This incidentally illustrates the fact that a category can be monadic over $\mathbf{Set}$ in multiple ways. In other words, one should not refer to a *category* $C$ as monadic over $Set$, unless everyone agrees to which "forgetful functor" $U\colon C \to \mathbf{Set}$ is being considered -- better is to refer to a *functor* as monadic.) 
 
 ## Examples
 
