@@ -1,14 +1,17 @@
 
-Bob Rosebrugh is a [[category theory|category theorist]], based in New Brunswick, Canada.
+Bob Rosebrugh is a [[category theory|category theorist]], based in New Brunswick, Canada. He is the founding editor of [Theory and Applications of Categories](http://www.tac.mta.ca/tac/) and served as its managing editor for 25 years. 
 
 [webpage](http://www.mta.ca/~rrosebru/)
+
+A short biography and list of publications of Bob Rosebrugh appeared in the foreword to [The Rosebrugh Festschrift](http://www.tac.mta.ca/tac/index.html#vol36): 
+
+* [[Marino Gran]], [[Michael Johnson]], [[Walter Tholen]], [[R. J. Wood]], _Foreword_, Theory and Applications of Categories, Vol. 36, 2021, pp 1-8. ([pdf](http://www.tac.mta.ca/tac/volumes/36/fwd/36-fwd.pdf))
 
 ## Selected writings:
 
 On [[indexed categories]]:
 
 * [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
-
 
 Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] extends to the [[left adjoint|left]] to an [[adjoint quintuple]] of [[adjoint functors]]:
 
@@ -17,7 +20,6 @@ Characterizing the [[category of sets]] as that whose [[Yoneda embedding]] exten
 On [[adjoint quadruples]] with a [[fully faithful functor|fully faithful]] [[right adjoint]]:
 
 * [[Bob Rosebrugh]], [[Richard J. Wood]], *Distributive Adjoint Strings*, Theory and Applications of Categories, **1** 6 (1995) 119-145 &lbrack;[tac:1-06](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)&rbrack;
-
 
 On [[distributive laws]] and [[factorization systems]]:
 
