@@ -30,6 +30,10 @@ There are exactly two boolean rings of cardinal $2$. In such a boolean ring, we 
 - One of the two boolean rigs of cardinal $2$ is $\mathbb{Z}/2\mathbb{Z}$ ($0$ can be interpreted as "False", $1$ as "True", $+$ as the [[exclusive disjunction]] and $.$ as the [[conjunction]]).
 - One of the two boolean rigs of cardinal $2$ is $\mathbb{B}=\{0,1\}$ where $1+1=1$ ($0$ can be interpreted as "False", $1$ as "True", $+$ as the [[disjunction]] and $.$ as the [[conjunction]]).
 
+## Related concepts
+
+* [[Boolean algebra]]
+* [[Boolean ring]]
 
 ## References
 
