@@ -18,9 +18,8 @@ Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]
 
 ## Properties
 
-*  The characteristic of $R$ divides $2$ (meaning that $x + x = 0$ for all $x$):
+*  A Boolean ring is an [[algebra]] over the [[field]] $\mathbb{F}_2$ with two elements, since 
    $$ 2 x = 4 x - 2 x = 4 x^2 - 2 x = (2 x)^2 - 2 x = 2 x - 2 x = 0 .$$
-R is of characteristic $2$ except if it is the trivial ring, in which case it is of characteristic $1$. 
 
 *  $R$ is commutative (meaning that $x y = y x$ for all $x, y$):
    $$ y x = x + y - x - y + y x = (x + y)^2 - x^2 - y^2 + y x = x^2 + x y + y x + y^2 - x^2 - y^2 + y x = x y + 2 y x = x y .$$
