@@ -16,26 +16,26 @@
 
 ## Idea
 
-A [[Boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of Boolean algebra is rather lengthy, but Boolean algebras are equivalent to **Boolean rings**, which are simply rings obeying the identity $x^2 = x$.
+A [[boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of boolean algebra is rather lengthy, but boolean algebras are equivalent to **boolean rings**, which are simply rings obeying the identity $x^2 = x$.
 
 In a boolean ring, the multiplication can be interpreted as the conjunction, the multiplicative unit $1$ as the truth value "true", the additive unit $0$ as the truth value "false". The unary operation $x \mapsto 1 + x$ provides the negation. Compared to [[boolean algebras]], which are also [[semiring| semirings]] but not rings (except the trivial boolean algebra), the addition expresses the exclusive disjunction and not the inclusive disjunction. The fact that the exclusive disjunction of $x$ and $x$ is the truth value "false" makes the commutative additive monoid an abelian group where $-x = x$.
 
 ## Definitions
 
-A [[ring with unit]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
+A [[ring with unit]] $R$ is __boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
 
 Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Bool Ring$.
 
 
 ## Properties
 
-*  A Boolean ring is an [[algebra]] over the [[field]] [[prime field|$\mathbb{F}_2$]] with two elements, since 
+*  A boolean ring is an [[algebra]] over the [[field]] [[prime field|$\mathbb{F}_2$]] with two elements, since 
    $$ 2 x = 4 x - 2 x = 4 x^2 - 2 x = (2 x)^2 - 2 x = 2 x - 2 x = 0 .$$
 
 *  $R$ is commutative (meaning that $x y = y x$ for all $x, y$):
    $$ y x = x + y - x - y + y x = (x + y)^2 - x^2 - y^2 + y x = x^2 + x y + y x + y^2 - x^2 - y^2 + y x = x y + 2 y x = x y .$$
 
-Thus, multiplication in a Boolean ring makes it into a [[semilattice]], while addition makes it into a [[vector space]] over the field with two elements, $\mathbb{F}_2$. 
+Thus, multiplication in a boolean ring makes it into a [[semilattice]], while addition makes it into a [[vector space]] over the field with two elements, $\mathbb{F}_2$. 
 
 Define $x \vee y$ to mean $x + x y + y$.  Then:
 
@@ -58,7 +58,7 @@ Next define $\neg{x}$ to be $x + 1$.  Then:
    Therefore, $\neg{x}$ is a [[complement]] of $x$, and $R$ is a [[Boolean algebra]].
 
 
-Conversely, starting with a Boolean algebra $R$ (with the meet written multiplicatively), let $x + y$ be $x (\neg{y}) \vee (\neg{x}) y$ (which is called [[exclusive disjunction]] in $\{\top,\bot\}$ and [[symmetric difference]] in $2^X$).  Then $R$ is a Boolean ring.
+Conversely, starting with a boolean algebra $R$ (with the meet written multiplicatively), let $x + y$ be $x (\neg{y}) \vee (\neg{x}) y$ (which is called [[exclusive disjunction]] in $\{\top,\bot\}$ and [[symmetric difference]] in $2^X$).  Then $R$ is a boolean ring.
 
 In fact, we have:
 +-- {: .standout}
@@ -67,20 +67,26 @@ Boolean rings and Boolean algebras are equivalent.
 
 The category of Boolean algebras is discussed further in [[BoolAlg]], but some of the results about this category are  proved there by working with the equivalent category of Boolean rings.  
 
-The above equivalence extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$.
+The above equivalence extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of boolean algebra structures on $R$.
 
-Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
+Here is a very convenient result: although a boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
 
 ## Examples
 
-The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$. This is a Boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. In [[constructive mathematics]], one would use the set of [[decidable subsets]] $2^S$ instead of the set of all subsets $\mathcal{P}S$ to get the corresponding Boolean ring.
+The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$. This is a boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. In [[constructive mathematics]], one would use the set of [[decidable subsets]] $2^S$ instead of the set of all subsets $\mathcal{P}S$ to get the corresponding boolean ring.
 
-The free Boolean ring on a set $X$ can be identified with $\mathcal{P}_f \mathcal{P}_f X$, where $\mathcal{P}_f \colon Set \to Set$ assigns to any set the set of all its finite subsets.  In fact $\mathcal{P}_f \colon Set \to Set$ can be made into a monad in two different ways: the monad for [[semilattices]] (which we use to describe multiplication in a Boolean ring) and the monad for [[vector spaces]] over $\mathbb{F}_2$  (which we use to describe addition in a Boolean ring). These two monads are related by a distributive law which expresses the distributivity of multiplication over addition.   This makes $\mathcal{P}_f \mathcal{P}_f$ into the monad for Boolean rings.
+In classical mathematics the free boolean ring on a set $X$ can be identified with $\mathcal{P}_f \mathcal{P}_f X$, where $\mathcal{P}_f X$ is  the set of all finite subsets of $X$.  In fact $\mathcal{P}_f$ can be extended to a functor in two different ways, which agree on objects but differ on morphisms, and each of these gives a monad:
+
+* the monad for [[semilattices]], $M \colon Set \to Set$ (which we use to describe multiplication in a boolean ring) 
+
+* the monad for [[vector spaces]] over the [[field]] with 2 elements, $S \colon Set \to Set$ (which we use to describe addition in a boolean ring). 
+
+These two monads are related by a distributive law which expresses the distributivity of multiplication over addition.   Their composite $S \circ M$ is then the monad for Boolean rings.
 
 ## Terminology
 
-Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idempotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
+Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'boolean ring' (meaning an idempotent semigroup in $Ab$) and 'boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -97,7 +103,7 @@ where $\lambda$ is a lax monoidal constraint.
 
 ## Analogues
 
-Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesize commutativity; it follows.  That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
+Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring may be defined as a semilattice in $Ab$.  However, with boolean rings, we do not need to hypothesize commutativity; it follows.  That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
 
 +-- {: .proof} 
 ###### Proof 
@@ -115,6 +121,7 @@ which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$.
 ## Related concepts
 
 * [[Boolean algebra]]
+* [[BoolAlg]] - the category of boolean algebras
 * [[Boolean rig]]
 
 [[!redirects Boolean ring]]
