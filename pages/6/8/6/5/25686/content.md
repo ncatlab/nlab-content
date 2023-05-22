@@ -23,12 +23,12 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |2007|Carvoeiro|[website](https://www.mat.uc.pt/~categ/ct2007/)| |
 |2006|Nova Scotia|[website](https://www.mscs.dal.ca/~selinger/ct2006/)| |
 |2005|*Data missing*|*Data missing*| |
-|2004|Vancouver|*Data missing*| |
+|2004|Vancouver|[archive](https://web.archive.org/web/20050209223404/http://www.pims.math.ca/science/2004/CT04/)| [pdf](https://web.archive.org/web/20070710174825/http://www.pims.math.ca/science/2004/CT04/ct04_abstracts.pdf)|
 |2003|*Data missing*|*Data missing*| |
 |2002|*Data missing*|*Data missing*| |
 |2001|*Data missing*|*Data missing*| |
 |2000|Como|[archive](https://web.archive.org/web/20060114193307/https://www.disi.unige.it/conferences/ct2000/)| |
-|1999|Coimbra|[website](http://www.mat.uc.pt/~ct99/)| |
+|1999|Coimbra|[website](http://www.mat.uc.pt/~ct99/)|[invited abstracts](https://www.mat.uc.pt/~ct99/invited.html), [contributed abstracts](https://www.mat.uc.pt/~ct99/talks.html)|
 |1998|*Data missing*|*Data missing*| |
 |1997|Vancouver|*Data missing*| |
 |1996|*Data missing*|*Data missing*| |
