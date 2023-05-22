@@ -67,6 +67,8 @@ Generally this entry is based on
 
 (any mistakes or errors of interpretation are due to ....!)
 
+* {#GasquetHerzigSaidSchwarzentruber13} Olivier Gasquet, Andreas Herzig, Bilal Said, François Schwarzentruber (2013). *Kripke's Worlds: An Introduction to Modal Logics via Tableaux.* Springer. ISBN 978-3764385033. ([doi:10.1007/978-3-7643-8504-0](https://doi.org/10.1007/978-3-7643-8504-0))
+
 
 [[!redirects Kripke frame]]
 [[!redirects Kripke frames]]
