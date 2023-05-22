@@ -690,11 +690,17 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   > For a generic two-dimensional [[topological insulator]] with band inversion and [[spin-orbit coupling]], we propose the generation of topological zero-energy [[bound states]] via the application of an in-plane Zeeman field breaking rotational invariance. The Zeeman field induces a surface gap and generates the topological states via a second-order mechanism generically at the surface positions where the normal component of the Zeeman field vanishes. Via the application of an additional half-integer [[Aharonov-Bohm effect|Aharonov-Bohm]] [[flux]] through a hole of the system, we show that the topological states are protected by supersymmetry. For smooth surfaces, we derive an effective surface Hamiltonian in the form of a periodic Witten model and propose how the surface bound states of the supersymmetric spectrum can be calculated via a trapping mechanism in effective surface potentials. We study the whole phase diagram of the model together with its stability and discuss the high tunability of the topological states.
 
+\linebreak
+
+* {#BouhonMay2023} [[Adrien Bouhon]] (Cambridge University):
+
+  **Non-abelian and Euler multi-gap topologies in crystalline materials**
+
+  on [braiding of band nodes in momentum space](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace)
 
 \linebreak
 
 * (...)
-
 
 
 \linebreak
