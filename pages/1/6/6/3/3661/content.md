@@ -52,9 +52,9 @@ A [[functor]] $p\colon E\to B$ is a **strict Conduch&#233; functor** if for any 
 (Here, 'commuting morphism' means a morphism $d \to d'$ in $E$ such that the pair of triangles in 
 
 $$\array{
- & & d & \stackrel{\gamma}{\to} & b \\
- & ^\mathllap{\beta} \nearrow & \downarrow & \nearrow^\mathrlap{\gamma'} & \\
-a & \underset{\beta'}{\to} & d' & & 
+ & & d & \stackrel{\tilde{\gamma}}{\to} & b \\
+ & ^\mathllap{\tilde{\beta}} \nearrow & \downarrow & \nearrow^\mathrlap{\tilde{\gamma}'} & \\
+a & \underset{\tilde{\beta}'}{\to} & d' & & 
 }$$
 
 [[commuting diagram|commute]].) 
