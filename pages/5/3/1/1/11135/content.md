@@ -30,9 +30,24 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 ## Algebras
 
-On the [[category of sets]], the functor $[-,S] \colon\mathbf{Set}^{op}\to \mathbf{Set}$ is [[monadic]] (with left adjoint $[-, S]^{op} \colon \mathbf{Set} \to \mathbf{Set}^{op}$) whenever $|S|\geq 2$. Thus the [[Eilenberg-Moore algebras]] of the continuation monad are equivalent to [[complete atomic Boolean algebras]], as the category of these is equivalent to the opposite of the category of sets. 
+\begin{proposition} 
+On the [[category of sets]], the functor $[-,S] \colon\mathbf{Set}^{op}\to \mathbf{Set}$ is [[monadic]] (with left adjoint $[-, S]^{op} \colon \mathbf{Set} \to \mathbf{Set}^{op}$) whenever ${|S|}\geq 2$. 
+\end{proposition} 
+
+Thus the [[Eilenberg-Moore algebras]] of the continuation monad are equivalent to [[complete atomic Boolean algebras]], as the category of these is equivalent to the opposite of the category of sets. 
 
 (This incidentally illustrates the fact that a category can be monadic over $\mathbf{Set}$ in multiple ways. In other words, one should not refer to a *category* $C$ as monadic over $Set$, unless everyone agrees to which "forgetful functor" $U\colon C \to \mathbf{Set}$ is being considered -- better is to refer to a *functor* as monadic.) 
+
++-- {: .proof} 
+###### Proof 
+This boils down to the assertion that such an $S$ is an injective [[cogenerator]] in the category of sets. It is injective because it is a [[retract]] of an [[injective object]] $2^S$ (using the fact that the subobject classifier $2$ is injective), and it cogenerates because there is an injection $2 \to S$ and $2$ cogenerates. 
+
+In more detail: an object $S$ is (internally) *injective* if $[-, S]: Set^{op} \to Set$ takes (coreflexive) [[equalizers]] in $Set$ to [[coequalizers]] in $Set$. The subobject classifier $2$ is injective (by, for example, the proof of Par&eacute;&rsquo;s theorem for constructing finite colimits in an elementary topos). Since $S \times -: Set \to Set$ preserves [[connected limits]] such as equalizers, we have that $[S \times -, 2] \cong [-, 2^S]$ takes equalizers to coequalizers, i.e., $2^S$ is injective for any $S$. Then $S$, being a retract of $2^S$, has the property that $[-, S]$ takes equalizers in $Set$ to coequalizers, i.e., preserves coequalizers $Set^{op} \to Set$. 
+
+Also $[-, S]$ reflects isomorphisms. This is because isomorphisms in $Set$ are precisely epi-monos, and $S$ being an internal cogenerator means exactly that $[-, S]$ is faithful, and faithful functors reflect monos and epis. 
+
+Since $[-, S]$ preserves coequalizers and reflects isomorphisms, we conclude that it is monadic by Beck's crude [[monadicity theorem]]. 
+=-- 
 
 ## Examples
 
