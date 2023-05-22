@@ -13,7 +13,7 @@ In a boolean ring, the multiplication can be interpreted as the conjunction, the
 
 A [[ring with unit]] $R$ is __Boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
 
-Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Boo Rng$.
+Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Bool Ring$.
 
 
 ## Properties
@@ -110,3 +110,5 @@ which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$.
 [[!redirects BooRng]]
 [[!redirects Boo Ring]]
 [[!redirects BooRing]]
+[[!redirects Bool Ring]] 
+[[!redirects BoolRing]]
