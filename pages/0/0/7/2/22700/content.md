@@ -34,13 +34,17 @@ For any element $a$ in a commutative invertible semigroup $G$, the element $a-a$
 
 ## Properties
 
-* Every commutative invertible semigroup is a [[commutative quasigroup]]..
+* Every commutative invertible semigroup is a [[commutative quasigroup]].
 
 ## Examples
 
 * Every [[abelian group]] is a commutative invertible semigroup. 
 
 * The empty magma is a commutative invertible semigroup that is not an abelian group. 
+
+* Every [[ring]] is a [[monoid object]] in commutative invertible semigroups. 
+
+* Similarly, every ([[non-associative algebra|non-associative]]) [[unital algebra|unital]] [[integers|$\mathbb{Z}$]]-[[algebra]] is an [[H-space]] object in commutative invertible semigroups. 
 
 ## Related concepts
 
