@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-A [[mathematical structure]] used to define the [[real numbers]] in [[Alfred Tarski]]'s axioms for the [[real numbers]]. 
+A [[mathematical structure]] used to define the [[real numbers]] in [[Alfred Tarski]]&rsquo;s axioms for the [[real numbers]]. 
 
 ## Definition ##
 
