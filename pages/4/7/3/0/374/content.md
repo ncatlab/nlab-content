@@ -140,6 +140,7 @@ On the other hand, when doing [[topos theory]] or working in [[constructive math
 
 Some applications to [[analysis]] require more general [[convergence spaces]] or other generalisations.
 
+In [[dependent type theory]], one could also have a [[topological space]] be a general [[type]] instead of an [[h-set]]. For most kinds of topological spaces in dependent type theory, the [[T0-space|$T_0$]]-[[separation axiom]] forces the type to be an h-set. 
 
 ## Examples
 
