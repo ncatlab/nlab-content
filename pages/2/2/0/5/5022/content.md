@@ -5,8 +5,8 @@
 
 ## Idea
 
-This entry is about the notion of *frame* in [[modal logic]], also called _Kripke frames_, after the philosopher and logician [[Saul Kripke]].
-
+This entry is about the notion of *frame* in [[modal logic]], also called _Kripke frames_, after the philosopher and logician [[Saul Kripke]]. It is a device used by Kripke to provide a [[semantics]] for modal logic, in particular, via the concept of a [[geometric model for modal logics|geometric model]]. It is an example of a [[concept with an attitude]], being merely a [[set]] equipped with a [[binary relation]] in the standard case (or some variant in the multimodal case, see [below](#multimodal)).
+ 
 Beware that this is an entirely  different concept than that of the same name used in [[geometric logic]], where the concept of *[[frames]]* (see there) refers to an abstraction of the algebraic structure of [[lattices of open subsets]] of a [[topological space]].
 
 
@@ -33,7 +33,7 @@ In usual terminology
 * $R$ is called the _accessibility relation_, so $ R w v$ is read as "$v$ is accessible from $w$".
 
 
-## Frames in Multimodal Logics
+{#multimodal} ## Frames in Multimodal Logics
 
 (N.B.  Here we are still restricting to multimodal logics in which the [[modal operators]] are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
 
@@ -64,8 +64,6 @@ To give the standard (geometric) semantics of modal logics one needs the models 
 Generally this entry is based on
 
 * {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press  (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
-
-(any mistakes or errors of interpretation are due to ....!)
 
 * {#GasquetHerzigSaidSchwarzentruber13} Olivier Gasquet, Andreas Herzig, Bilal Said, François Schwarzentruber (2013). *Kripke's Worlds: An Introduction to Modal Logics via Tableaux.* Springer. ISBN 978-3764385033. ([doi:10.1007/978-3-7643-8504-0](https://doi.org/10.1007/978-3-7643-8504-0))
 
