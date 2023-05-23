@@ -348,7 +348,7 @@ Warning: $T_i$ for $i \geq 3$ has been used in different ways in the past, and p
 *  $T_1$ = accessible,
 *  $T_0$ = [[Kolmogorov space|Kolmogorov]],
 *  $R_1$ = reciprocal,
-*  $R_0$ = symmetric.
+*  $R_0$ = [[symmetric topological space|symmetric]].
 
 On the other hand, if you want to use *more* symbols, then you can:
 
