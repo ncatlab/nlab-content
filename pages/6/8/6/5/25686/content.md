@@ -33,12 +33,14 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |1997|Vancouver|*Data missing*| |
 |1996|*Data missing*|*Data missing*| |
 |1995|Halifax|[website](https://www.mta.ca/~cat-dist/ct95.html)|[pdf](https://www.mta.ca/~cat-dist/ct95abs.pdf)|
-|1994|*Data missing*|*Data missing*| |
+|1994|Tours|*Data missing*| |
 |1993|*Data missing*|*Data missing*| |
 |1992|Isle of Thorns|*Data missing*| |
 |1991|Montreal|*Data missing*| |
 |1990|Como|*Data missing*| |
 |1989|Bangor|*Data missing*| |
+|1988|*Data missing*|*Data missing*| |
+|1987|Louvain-la-Neuve|*Data missing*| |
 
 ## Related pages
 
