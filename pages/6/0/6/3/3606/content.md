@@ -37,7 +37,7 @@ Motivation and introduction basic concepts of [[category theory]] for an audienc
 
 * [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
 
-* [[Bob Coecke]], [[Eric Oliver Paquette]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
+* {#CoeckePractising} [[Bob Coecke]], [[Eric Oliver Paquette]], *Categories for the practising physicist*, in: *New Structures for Physics*, Lecture Notes in Physics **813**, Springer (2010) &lbrack;[arXiv:0905.3010](http://arxiv.org/abs/0905.3010), [doi:10.1007/978-3-642-12821-9_3](https://doi.org/10.1007/978-3-642-12821-9_3)&rbrack;
 
 The article focuses towards the end on [[monoidal categories]], their description in terms of [[string diagrams]] and on [[quantum mechanics in terms of dagger-compact categories]].
 
