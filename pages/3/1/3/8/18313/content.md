@@ -86,10 +86,14 @@ The notion of external tensor product of vector bundles originates in discussion
 
 * [[Raoul Bott]], p. 19 of: *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
 
+* {#Switzer75} [[Robert Switzer]], Rem. 13.51 in *Algebraic Topology -- Homotopy and Homology*, Grundlehren **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
+
 
 * {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://doi.org/10.1007/978-3-540-79890-3)&rbrack;
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], p. 40 of: *Vector bundles and K-theory* (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
+
+
 
 It is also briefly mentioned in a context of [[differential geometry]] in: 
 
