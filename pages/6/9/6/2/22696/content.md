@@ -28,6 +28,10 @@ A [[semigroup]] that is also an [[invertible magma]].
 
 ## Definition
 
+### With only multiplication
+
+An __invertible semigroup__ is a [[semigroup]] $(G,(-)\cdot(-):G\times G\to G)$ such that for every element $a \in A$, left multiplication and right multiplication by $a$ are both [[bijections]]. 
+
 ### With multiplication and inverses
 
 An __invertible semigroup__ is a [[semigroup]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation called the __inverse__ $(-)^{-1}:G \to G$ such that 
