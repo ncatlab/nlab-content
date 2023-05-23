@@ -33,7 +33,8 @@ In usual terminology
 * $R$ is called the _accessibility relation_, so $ R w v$ is read as "$v$ is accessible from $w$".
 
 
-{#multimodal} ## Frames in Multimodal Logics
+## Frames in Multimodal Logics
+{#multimodal}
 
 (N.B.  Here we are still restricting to multimodal logics in which the [[modal operators]] are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
 
