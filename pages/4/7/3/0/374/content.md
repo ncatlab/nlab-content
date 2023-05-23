@@ -231,6 +231,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[locale]], [[topos]]
 
+* [[ionad]]
+
 * [[proximity space]], [[uniform space]], [[syntopogenous space]]
 
 * [[quotient topology]], [[quotient topological space]]
