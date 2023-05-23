@@ -436,7 +436,9 @@ $$
 \end{proof}
 
 \begin{remark}\label{FreeDistributiveCategoryMonad}
-More abstractly, Prop. \ref{CoproductCompletionOfCategoryWithProducts} follows because the [[2-monad]] for [[free product completion]] [[distributive law|distributes]] over the 2-monad for free coproduct cocompletion. The composite 2-monad exhibits the [[free construction|free]] [[distributive category]]-construction.
+It seems plausible, that, 
+more abstractly, Prop. \ref{CoproductCompletionOfCategoryWithProducts} follows 
+because the [[2-monad]] for [[free product completion]] would [[distributive law|distribute]] over the 2-monad for free coproduct cocompletion; the composite 2-monad would exhibit the [[free construction|free]] [[distributive category]]-construction. We don't currently have a proof or reference for these statements, though.
 \end{remark}
 
 ## Examples
