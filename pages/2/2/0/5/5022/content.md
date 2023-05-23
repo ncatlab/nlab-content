@@ -5,7 +5,9 @@
 
 ## Idea
 
-This entry is about the notion of *frame* in [[modal logic]], also called _Kripke frames_, after the philosopher and logician [[Saul Kripke]]. It is a device used by Kripke to provide a [[semantics]] for modal logic, in particular, via the concept of a [[geometric model for modal logics|geometric model]]. It is an example of a [[concept with an attitude]], being merely a [[set]] equipped with a [[binary relation]] in the standard case (or some variant in the multimodal case, see [below](#multimodal)).
+This entry is about the notion of *frame* in [[modal logic]], also called _Kripke frames_, after the philosopher and logician [[Saul Kripke]]. It is a device used by Kripke to provide a [[semantics]] for modal logic, in particular, via the concept of a [[geometric model for modal logics|geometric model]]. 
+
+The concept of a frame is an example of a [[concept with an attitude]], being merely a [[set]] equipped with a [[binary relation]] in the standard case (or some variant in the multimodal case, see [below](#multimodal)). The set is understood as a collection of worlds, while the relation specifies which worlds are "accessible" to any given world, and so allow expression of the notion of possibility as truth at some accessible world and of necessity as truth at all accessible worlds.
  
 Beware that this is an entirely  different concept than that of the same name used in [[geometric logic]], where the concept of *[[frames]]* (see there) refers to an abstraction of the algebraic structure of [[lattices of open subsets]] of a [[topological space]].
 
