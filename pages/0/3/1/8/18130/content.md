@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topology - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 =--
 =--
 
@@ -102,6 +106,10 @@ This construction is the reflector exhibiting Kolmogorov spaces as a [[reflectiv
 * [[Hausdorff topological space]]
 
 * [[nice topological space]]
+
+| [[preorder]] | [[partial order]] | [[equivalence relation]] | [[equality]] |
+| - | - | - | - |
+| [[topological space]] | [[ Kolmogorov topological space]] | [[symmetric topological space]] | [[accessible topological space]] |
 
 ## References
 
