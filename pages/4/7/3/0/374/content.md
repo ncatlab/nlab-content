@@ -142,6 +142,24 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 In [[dependent type theory]], one could also have a [[topological space]] be a general [[type]] instead of an [[h-set]]. For most kinds of topological spaces in dependent type theory, the [[T0-space|$T_0$]]-[[separation axiom]] forces the type to be an h-set. 
 
+### In dependent type theory
+
+In [[dependent type theory]], given a type $X$, the type of [[subtypes]] of $X$ is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
+
+\begin{definition}
+A **[[topological space]]** is a type $X$ with a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow (X \to \Omega)$, called the open sets of $X$, which are closed under finite intersections and arbitrary unions. 
+\end{definition}
+
+Given a topological space $(X, O(X))$, we define the membership [[relation]] between elements $x:X$ and open sets $U:O(X)$:
+
+$$x:X, U:O(X) \vdash x \in U \; \mathrm{type}$$ 
+
+by 
+
+$$x \in U \coloneqq \mathrm{El}_\Omega((i_O(U))(x))$$
+
+By definition of the type of all propositions and its type reflector, $x \in U$ is always a [[h-proposition]] for all $x:X$ and $U:O(X)$. 
+
 ## Examples
 
 ### Special cases
