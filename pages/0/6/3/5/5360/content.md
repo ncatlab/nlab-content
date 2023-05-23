@@ -13,7 +13,7 @@
 =--
 =--
 
-> For a [[topological space]] satisfying the $R_0$ regularity condition (which states that the [[specialisation preorder]] is [[symmetric relation|symmetric]], hence an [[equivalence relation]]), see [[separation axioms]].
+> For a [[topological space]] satisfying the $R_0$ regularity condition (which states that the [[specialisation preorder]] is [[symmetric relation|symmetric]], hence an [[equivalence relation]]), see [[symmetric topological space]].
 
 ***
 
