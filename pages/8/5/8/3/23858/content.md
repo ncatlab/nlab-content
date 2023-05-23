@@ -22,7 +22,7 @@ A [[mathematical structure]] used to define the [[real numbers]] in [[Alfred Tar
 
 ## Definition ##
 
-A [[Tarski group]] is a [[pointed set|pointed]] [[commutative invertible semigroup]] $(G, +, -, 1)$ with a [[dense linear order]] $\lt$ such that $1 \lt 1 + 1$, $a \lt b + c + a$ implies $a \lt b + a$ or $a \lt c + a$, and $a \lt b$ implies $c + a \lt c + b$. 
+A [[Tarski group]] is a [[pointed commutative invertible semigroup]] $(G, +, -, 1)$ with a [[dense linear order]] $\lt$ such that $1 \lt 1 + 1$, $a \lt b + c + a$ implies $a \lt b + a$ or $a \lt c + a$, and $a \lt b$ implies $c + a \lt c + b$. 
 
 As a result, every Tarski group is an [[abelian group]] with [[identity element]] $0 \coloneqq 1 - 1$, and a [[trivial group|nontrivial]] [[ordered group]].
 
