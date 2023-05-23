@@ -266,7 +266,11 @@ See at _[[Bohr topos]]_ for more.
 * [[Bohr topos]]
 
 
+
 ## Literature
+ {#References}
+
+### Original articles
 
 The original proposal on quantum logic:
 
@@ -285,53 +289,31 @@ further discussed in:
 * Samuel S. Holland Jr., _Orthomodularity in infinite dimensions; a theorem of M. Sol&#232;r_, Bull. Amer. Math. Soc. (N.S.) __32__ (1995) 205-234 &lbrack;[arXiv:math.RA/9504224](http://arxiv.org/abs/math/9504224)&rbrack;
 
 
-General introductions and surveys:
+Discussion of [[categorical logic]] in [[symmetric monoidal categories]] (not just of [[vector spaces]] but of [[vector bundles]]) and hence of [[linear logic]] as quantum logic:
 
-* [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
+* {#Crown75} G. D. Crown, *On some orthomodular posets of vector bundles*, Journ. of Natural Sci. and Math. **15** 1-2 (1975) 11-25
 
-  > (including discussion of [[quantum probability theory]])
+much later followed up in:
 
-* [[Roland Omnès]], §5 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
-
-* Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) *[[Handbook of Quantum Logic and Quantum Structures]]* Elsevier (2009) &lbrack;[ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698)&rbrack;
-
-* Pavel Pták , Sylvia Pulmannová , *Orthomodular structures as quantum logics*, Fundamental Theories of Physics **44** Kluwer, Springer (1991) &lbrack;[ISBN:978-0-7923-1207-9](https://link.springer.com/book/9780792312079)&rbrack;
-
-See also:
-
-* Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
-
-* Stanford encyclopaedia of philosophy, _[Quantum logic and probability theory](http://plato.stanford.edu/entries/qt-quantlog)_
-
-A bibliography of hundreds of works up to 1992:
-
-* [[Mladen Pavičić]], *Bibliography on quantum logics and related structures*,  Int J Theor Phys **31** (1992) 373–455 &lbrack;[doi:10.1007/BF00739999](https://doi.org/10.1007/BF00739999), [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf)&rbrack;
+* [[John Harding]], Taewon Yang, *The Logic of Bundles*, International Journal of Theoretical Physics **54** 12 (2015) &lbrack;[doi:10.1007/s10773-015-2760-6](http://dx.doi.org/10.1007/s10773-015-2760-6)&rbrack;
  
-Critique in contrast to [[quantum information via dagger-compact categories]]:
+The introduction of [[linear logic]] with the suggestion of a possible relation to [[quantum physics]]:
 
-* {#AbramskyCoecke2007} [[Samson Abramsky]], [[Bob Coecke]], *Physics from Computer Science: a Position Statement*, [International Journal of Unconventional Computing **3** 3 (2007)](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/349/YORKIJUC.pdf), [ijuc-3-3-p-179-197](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/ijuc-3-3-p-179-197/)&rbrack;
-
-
-Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hence of [[linear logic]] as quantum logic is in 
-
-* {#Crown75} G. D. Crown, _On some orthomodular posets of vector bundles_. Journ. of Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
- 
-
-* {#Girard} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
+* {#Girard87} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>&rbrack;
   
+but remaining undecided:
 
-[Girard (1987)](#Girard) introduces [[linear logic]] and suggests a possible relation to [[quantum physics]], but remains undecided; on p. 7 it says: 
+> {#WildHopes} [Girard (1987), p. 7](#Girard87): "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!"
 
-> {#WildHopes} "One of the wild hopes that this suggests is the possibility of a direct connection with quantum mechanics... but let's not dream too much!"
+The relation of [[linear logic]] to [[quantales]], which have otherwise been proposed as providing a quantum logic:
 
+* {#Yetter90} [[David Yetter]], *Quantales and (noncommutative) linear logic*, Journal of Symbolic Logic **55** (1990) 41-64 &lbrack;[doi:10.2307/2274953](https://doi.org/10.2307/2274953)&rbrack;
 
-* {#Yetter90} [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990) 41-64 
-
-[Yetter (1990)](#Yetter90) observes the the relation of linear logic to [[quantales]], which have otherwise been proposed as providing a quantum logic.)
+Maybe the first to really say that linear logic is a good kind of quantum logic:
 
 * {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
  
-[Pratt (1992)](#Pratt92) is maybe the first to really say that linear logic is a good kind of quantum logic.
+First practical development of this perspective (see *[[quantum information theory in terms of dagger-compact categories]]):
 
 * {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)&rbrack;
 
@@ -339,7 +321,55 @@ Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hen
 
 * {#Duncan06} [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf)) 
 
-(This highlights more [[linear type theory]] and its use in quantum theory.)
+That therefore in particular categories of [[phase spaces]] and [[categories of cobordisms]] (the [[domains]] of [[FQFT|functorial quantum field theory]]) interpret quantum logic qua [[linear logic]] has been highlighted in 
+
+* {#Baez04} [[John Baez]], *Quantum Quandaries: a Category-Theoretic Perspective*, in D. Rickles et al. (ed.) *The structural foundations of quantum gravity*, Clarendon Press (2006) 240-265 &lbrack;[arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040), [ISBN:9780199269693](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)&rbrack;
+
+* {#Slavnov05} [[Sergey Slavnov]], *From proof-nets to bordisms: the geometric meaning of multiplicative connectives*, Mathematical Structures in Computer Science **15** 06 (2005) 1151-1178 &lbrack;[doi:10.1017/S0960129505004974](https://doi.org/10.1017/S0960129505004974)&rbrack;
+
+* [[Sergey Slavnov]], *Geometrical semantics for linear logic (multiplicative fragment)*, Theoretical Computer Science **357** 1-3 (2006) 215-229 &lbrack;[doi:10.1016/j.tcs.2006.03.020](https://doi.org/10.1016/j.tcs.2006.03.020)&rbrack;
+
+For more exposition along these lines see [Baez & Stay (2009)](#BaezStay09).
+
+
+### Review and Exposition
+
+Early general introductions and survey:
+
+* [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
+
+  > (including discussion of [[quantum probability theory]])
+
+* [[Roland Omnès]], §5 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
+* Pavel Pták , Sylvia Pulmannová , *Orthomodular structures as quantum logics*, Fundamental Theories of Physics **44** Kluwer, Springer (1991) &lbrack;[ISBN:978-0-7923-1207-9](https://link.springer.com/book/9780792312079)&rbrack;
+
+* Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) *[[Handbook of Quantum Logic and Quantum Structures]]* Elsevier (2009) &lbrack;[ISBN:9780080931661](https://www.sciencedirect.com/book/9780444528698)&rbrack;
+
+A bibliography of hundreds of works up to 1992:
+
+* [[Mladen Pavičić]], *Bibliography on quantum logics and related structures*,  Int J Theor Phys **31** (1992) 373–455 &lbrack;[doi:10.1007/BF00739999](https://doi.org/10.1007/BF00739999), [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf)&rbrack;
+
+
+See also:
+
+* Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
+
+* Stanford encyclopaedia of philosophy, _[Quantum logic and probability theory](http://plato.stanford.edu/entries/qt-quantlog)_
+
+
+Critique of Birkhoff-von Neumann logic in contrast to [[quantum information via dagger-compact categories]]:
+
+* {#AbramskyCoecke2007} [[Samson Abramsky]], [[Bob Coecke]], *Physics from Computer Science: a Position Statement*, [International Journal of Unconventional Computing **3** 3 (2007)](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/349/YORKIJUC.pdf), [ijuc-3-3-p-179-197](https://www.oldcitypublishing.com/journals/ijuc-home/ijuc-issue-contents/ijuc-volume-3-number-3-2007/ijuc-3-3-p-179-197/)&rbrack;
+
+Further exposition of non-cartesian [[monoidal categories]] as [[categorical semantics]] for quantum logic qua [[linear logic]]:
+
+* {#Baez04} [[John Baez]], *Quantum Quandaries: a Category-Theoretic Perspective*, in D. Rickles et al. (ed.) *The structural foundations of quantum gravity*, Clarendon Press (2006) 240-265 &lbrack;[arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040), [ISBN:9780199269693](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)&rbrack;
+
+* {#BaezStay09} [[John Baez]], [[Mike Stay]], *Physics, topology, logic and computation: a rosetta stone*, ([arxiv/0903.0340](http://arxiv.org/abs/0903.0340)); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer (2011) 95-174 &lbrack;[doi:10.1007/978-3-642-12821-9](https://link.springer.com/book/10.1007/978-3-642-12821-9)&rbrack;
+
+
+### Further development
 
 * {#Heunen08} [[Chris Heunen]], _Quantifiers for quantum logic_ ([arXiv:0811.1457](http://arxiv.org/abs/0811.1457))
  
@@ -358,19 +388,12 @@ and [[Samuel Lomonaco]] (eds.), _Mathematics of Quantum Computing and Technology
 * {#Girard11} [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society 2011
  
 
-
 * {#LagoFaffian12} [[Ugo Dal Lago]], Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ &lbrack;[arXiv:1210.0613](http://arxiv.org/abs/1210.0613)&rbrack;
  
 
 * {#CoeckeHeunenKissinger13} [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], _Compositional Quantum Logic_ ([arXiv:1302.4900](http://arxiv.org/abs/1302.4900))
  
 
-That therefore in particular [[categories of cobordisms]] (the domains of [[FQFT|functorial quantum field theory]]) interpret quantum logic qua [[linear logic]] has been highlighted in 
-
-* {#Slavnov05} [[Sergey Slavnov]], _From proof-nets to bordisms: the geometric meaning of multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
- 
-
-* {#BaezStay09} [[John Baez]], [[Mike Stay]], *Physics, topology, logic and computation: a rosetta stone*, ([arxiv/0903.0340](http://arxiv.org/abs/0903.0340)); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174 ([doi:10.1007/978-3-642-12821-9](https://link.springer.com/book/10.1007/978-3-642-12821-9))
  
 
 Discussion of [[Fock space]]-type free [[quantum field theory]] in [[linear logic]] is in 
