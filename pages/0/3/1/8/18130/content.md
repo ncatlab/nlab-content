@@ -20,6 +20,52 @@ A [[topological space]] $(X,\tau)$ is called a _Kolmogorov space_ if it satisfie
 
 [[!include main separation axioms -- table]]
 
+### In dependent type theory
+
+In [[dependent type theory]], given a type $X$, the type of [[subtypes]] of $X$ is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
+
+A [[topological space]] is a type $X$ with a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow (X \to \Omega)$, called the open sets of $X$, which are closed under finite intersections and arbitrary unions. 
+
+Given a topological space $(X, O(X))$, we define the [[relation]] 
+
+$$x:X, U:O(X) \vdash x \in U \; \mathrm{type}$$ 
+
+by 
+
+$$x \in U \coloneqq \mathrm{El}_\Omega((i_O(U))(x))$$
+
+By definition of the type of all propositions and its type reflector, $x \in U$ is always a [[h-proposition]] for all $x:X$ and $U:O(X)$. 
+
+The [[specialization order]] is given by the type 
+
+$$\prod_{U:O(X)} (x \in U) \to (y \in U)$$
+
+and for all elements $x:X$, there is an element
+
+$$\mathrm{refl}_{SpecOrd}(x):\prod_{U:O(X)} (x \in U) \to (x \in U)$$
+
+defined by the [[identity function]] on $x \in U$
+
+$$\mathrm{refl}_{SpecOrd}(x, U) \coloneqq \mathrm{id}_{x \in U}$$
+
+Since $x \in U$ and $y \in U$ are both [[h-propositions]], and h-propositions are closed under [[function types]] and [[dependent product types]], the specialization order is also valued in [[h-propositions]]. 
+
+There is a canonical family of functions for every topological space
+
+$$x:X, y:X \vdash \mathrm{idToSpecOrd}(x, y):(x =_X y) \to \left(\prod_{U:O(X)} (x \in U) \to (y \in U)\right) \times \left(\prod_{U:O(X)} (y \in U) \to (x \in U)\right)$$
+
+[[inductively defined]] on reflexivity of the [[identity type]] by
+
+$$\mathrm{idToSpecOrd}(x, x)(\mathrm{id}_X(x)) \coloneqq \mathrm{refl}_{SpecOrd}(x)$$
+
+\begin{definition}
+A **Kolmogorov topological space** or **$T_0$-space** is a topological space which satisfies the $T_0$-[[separation axiom]]: $\mathrm{idToSpecOrd}(x, y)$ is an [[equivalence of types]] for all $x:X$ and $y:X$.
+
+$$T_0:\prod_{x:X} \prod_{y:X} \mathrm{isEquiv}(\mathrm{idToSpecOrd}(x, y))$$
+\end{definition}
+
+Since the specialization order is valued in propositions, the $T_0$-[[separation axiom]] ensures that the topological space is an [[h-set]]. 
+
 ## Properties
  {#Properties}
 
