@@ -12,6 +12,20 @@ The precise definition depends on what sort of space $X$ is, up to	the full gene
 
 ## Definitions
 
++-- {: .num_defn #metric}
+###### Definition
+
+A __Cauchy filter__ on the [[real numbers]] is a [[proper filter]] $F$ with, for each strictly [[positive number]] $\delta \in \mathbb{R}$, a set $A \in F$ with, for each $x,y \in A$, $\vert y - x\vert \leq \delta$.
+=--
+
+Sometimes, one uses Cauchy filters on the rational numbers to construct the real numbers in the first place. 
+
++-- {: .num_defn #metric}
+###### Definition
+
+A __Cauchy filter__ on the [[rational numbers]] is a [[proper filter]] $F$ with, for each strictly [[positive number]] $\delta \in \mathbb{Q}$, a set $A \in F$ with, for each $x,y \in A$, $\vert y - x\vert \leq \delta$.
+=--
+
 In a [[metric space]], the [[diameter]] of a [[subset]] $A$ is the [[supremum]] of the [[distance]]s $d(x,y)$ for $x,y \in A$ (which is a [[lower real number]] in general).  However, we need not think precisely about these diameters; it is enough to characterise those sets with diameter at most $\delta$.
 
 +-- {: .num_defn #metric}
