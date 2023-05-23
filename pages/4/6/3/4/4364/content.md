@@ -9,6 +9,7 @@ A sublocale is a [[subspace]] of a [[locale]].
 
 It is important to understand that, even for a [[topological locale]] $X$ (which can be identified with a [[sober space|sober]] [[topological space]]), most sublocales of $X$ are *not* topological.  Specifically, we have an [[inclusion function]] $Sub Top(X) \hookrightarrow Sub Loc(X)$ which, while [[injection|injective]], is usually far from [[surjection|surjective]].
 
+Sublocales can also be defined for [[formal topologies]]. 
 
 ## Definitions
 
@@ -148,6 +149,8 @@ This map is a surjection if $X$ is a [[sober space]] (Proposition VI.2.2.1 in [P
 
 * [[Jorge Picado]], [[Aleš Pultr]], _Frames and Locales_.
   {#PP}
+
+* [[Steven Vickers]], Sublocales in formal topology. *The Journal of Symbolic Logic*, Volume 72, Issue 2, June 2007, pp. 463 - 482 ([doi:10.2178/jsl/1185803619](https://doi.org/10.2178/jsl/1185803619))
 
 
 [[!redirects sublocale]]
