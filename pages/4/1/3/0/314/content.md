@@ -379,6 +379,7 @@ Here are some important examples of limits, classified by the shape of the [[dia
 * A limit of a pair (or more) of [[parallel morphisms]] is an [[equalizer]].
 * A limit over a [[finite category]] is a [[finite limit]].
 * Another important "shape" of limits are those that give rise to [[end]]s.
+* A limit of a diagram $F : D \to C$ for which $D$  admits an [[initial object]] $I$, is simply $F(I)$.
 
 ### Limits in analysis
 
