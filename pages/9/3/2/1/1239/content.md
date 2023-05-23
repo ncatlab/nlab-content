@@ -167,9 +167,11 @@ for [[finite groups]]:
 
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
 
+* Caroline Gruson, Vera Serganova, *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
+
 and more generally for [[compact Lie groups]]:
 
-* [[Tammo tom Dieck]], [[Theodor Bröcker]], *Representations of compact Lie groups*, Springer 1985 ([doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0))
+* [[Tammo tom Dieck]], [[Theodor Bröcker]], *Representations of compact Lie groups*, Springer (1985) &lbrack;[doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0)&rbrack;
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
