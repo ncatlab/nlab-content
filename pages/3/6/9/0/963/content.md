@@ -181,10 +181,10 @@ The initial paper to use the term `quantale' was
 
 * [[eom]]: [quantale](http://www.encyclopediaofmath.org/index.php/Quantale)
 
-Discussion of how quantales serve as a model for [[linear logic]] and [[quantum logic]] is in 
+Discussion of quantales as a model for [[linear logic]] and [[quantum logic]]:
 
-* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41-64.
- {#Yetter90}
+* {#Yetter90} [[David Yetter]], *Quantales and (noncommutative) linear logic*, Journal of Symbolic Logic **55** (1990) 41-64 &lbrack;[doi:10.2307/2274953](https://doi.org/10.2307/2274953)&rbrack;
+
 
 A monograph on quantales:
 
