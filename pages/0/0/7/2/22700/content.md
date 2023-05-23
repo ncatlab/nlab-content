@@ -52,4 +52,6 @@ For any element $a$ in a commutative invertible semigroup $G$, the element $a-a$
 
 * [[abelian group]] (unital version)
 
+* [[pointed commutative invertible semigroup]]
+
 * [[Tarski group]]
