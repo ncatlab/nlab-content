@@ -44,20 +44,23 @@ A **monad** in a [[bicategory]] $K$ is given by
 * [[2-cells]] $\;\eta \colon 1_a \to t$ (the _[[unit of a monad|unit]]_ of $t$) and $\mu \colon t \circ t \to t$ (the _multiplication_)
 
 such that the diagrams
-$$
-\array{
-  t & \stackrel{\eta t}{\to} & t t & \stackrel{t \eta}{\leftarrow}
-  & t \\
-  & \searrow & \downarrow \mathrlap{\mu} & \swarrow & \\
-  & & t & &
-}
-\qquad \qquad
-\array{
-  t t t & \stackrel{\mu t}{\to} & t t \\
-  \mathllap{t \mu} \downarrow & & \downarrow \mathrlap{\mu} \\
-  t t & \stackrel{\mu}{\to} & t
-}
-$$
+[\begin{tikzcd}
+	t & tt & t \\
+	& t
+	\arrow["{\eta t}", from=1-1, to=1-2]
+	\arrow["t\eta"', from=1-3, to=1-2]
+	\arrow[Rightarrow, no head, from=1-1, to=2-2]
+	\arrow[Rightarrow, no head, from=1-3, to=2-2]
+	\arrow["\mu"{description}, from=1-2, to=2-2]
+\end{tikzcd}](https://q.uiver.app/#q=WzAsNCxbMCwwLCJ0Il0sWzEsMCwidHQiXSxbMiwwLCJ0Il0sWzEsMSwidCJdLFswLDEsIlxcZXRhIHQiXSxbMiwxLCJ0XFxldGEiLDJdLFswLDMsIiIsMix7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMywiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSwzLCJcXG11IiwxXV0=)
+[\begin{tikzcd}
+	ttt & tt \\
+	tt & t
+	\arrow["\mu", from=1-2, to=2-2]
+	\arrow["\mu"', from=2-1, to=2-2]
+	\arrow["{\mu t}"', from=1-1, to=2-1]
+	\arrow["t\mu", from=1-1, to=1-2]
+\end{tikzcd}](https://q.uiver.app/#q=WzAsNCxbMCwwLCJ0dHQiXSxbMSwwLCJ0dCJdLFswLDEsInR0Il0sWzEsMSwidCJdLFsxLDMsIlxcbXUiXSxbMiwzLCJcXG11IiwyXSxbMCwyLCJcXG11IHQiLDJdLFswLDEsInRcXG11Il1d)
 commute (where certain [[coherence]] [[isomorphism]]s have been omitted).
 
 The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a [[monoid object]] in the endomorphism category $K(a,a)$.  Alternatively, monads can be taken as more fundamental, and a [[monoid in a monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
