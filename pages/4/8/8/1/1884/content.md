@@ -2758,7 +2758,7 @@ Textbook accounts:
 
   > (in view of [[U-bordism theory]] and the [[e-invariant]])
 
-* {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975.
+* {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of: _Algebraic Topology - Homotopy and Homology_, Grundlehren **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
 
 * {#Karoubi} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
