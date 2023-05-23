@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[topological space]] $(X,\tau)$ is called a _Kolmogorov space_ if it satisfies the $T_0$-[[separation axiom]], hence if for $x_1 \neq x_2 \in X$ any two distinct points, then at least one of them has an [[open neighbourhood]] $U_{x_i} \in \tau$ which does not contain the other point.
+A [[topological space]] $(X,\tau)$ is called a _Kolmogorov space_ if it satisfies the $T_0$-[[separation axiom]], hence if for $x_1 \neq x_2 \in X$ any two distinct points, then at least one of them has an [[open neighbourhood]] $U_{x_i} \in \tau$ which does not contain the other point. This is equivalent to its [[contrapositive]]: for all points $x_1, x_2 \in X$, if every [[open neighbourhood]] $U_{x_i} \in \tau$ which contains one of the points also contains the other point, then the two points are equal $x_1 = x_2$. 
 
 [[!include main separation axioms -- table]]
 
