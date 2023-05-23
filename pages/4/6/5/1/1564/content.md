@@ -61,13 +61,20 @@ Next define $\neg{x}$ to be $x + 1$.  Then:
 Conversely, starting with a boolean algebra $R$ (with the meet written multiplicatively), let $x + y$ be $x (\neg{y}) \vee (\neg{x}) y$ (which is called [[exclusive disjunction]] in $\{\top,\bot\}$ and [[symmetric difference]] in $2^X$).  Then $R$ is a boolean ring.
 
 In fact, we have:
-+-- {: .standout}
-Boolean rings and Boolean algebras are equivalent.
-=--
+\begin{proposition} 
+The categories of Boolean rings and Boolean algebras are equivalent.
+\end{proposition} 
+
++-- {: .proof} 
+###### Proof 
+Since the Boolean algebra operations $\wedge, \vee, \neg, 0, 1$ are definable from the Boolean ring operations $+, -, \cdot, 0, 1$, and conversely, it follows that a function $f: {|A|} \to {|B|}$ between the underlying sets of Boolean rings is a Boolean ring homomorphism (i.e., preserves the Boolean ring operations) if and only if it is a Boolean algebra homomorphism (between the Boolean algebra structures defined on the same sets). In other words, the subsets 
+
+$$BoolRing(A, B) \hookrightarrow Set({|A|}, {|B|}), \qquad BoolAlg(A, B) \hookrightarrow Set({|A|}, {|B|})$$
+
+coincide. Therefore the categories of Boolean rings and of Boolean algebras are equivalent as [[concrete categories]]. 
+=-- 
 
 The category of Boolean algebras is discussed further in [[BoolAlg]], but some of the results about this category are  proved there by working with the equivalent category of Boolean rings.  
-
-The above equivalence extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of boolean algebra structures on $R$.
 
 Here is a very convenient result: although a boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
