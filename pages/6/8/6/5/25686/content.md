@@ -43,5 +43,6 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 ## Related pages
 
 - [[Peripatetic Seminar on Sheaves and Logic]]
+- [Séminaire Itinérant des Catégories](http://www-lmpa.univ-littoral.fr/SIC/)
 
 category: reference
