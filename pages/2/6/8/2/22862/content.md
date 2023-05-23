@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -46,7 +47,11 @@ For $G$ a [[discrete group]] (often taken to be a [[finite group]]) and for $A$ 
   &&
   \underset{
     \mathclap{
+      \array{
+      \phantom{-}
+      \\
       [g] \in G^{ad}/G
+      }
     }
   }{\oplus}
   \;
