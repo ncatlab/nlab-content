@@ -7,7 +7,7 @@
 
 To give the standard (geometric) semantics of [[modal logics]], one needs models and these will be discussed here and in the companion [[algebraic models for modal logics]].
 
-(This outlines the basics of the semantics often called **Kripke semantics** of these logics. We concentrate on modal languages with unary modalities and therefore on relational structures with binary relations in them only.  This is largely for the sake of keeping the exposition fairly straightforward and simple.  This means the frames used will be 'Kripke frames'.  There may be a need later (or elsewhere in the Lab) to discuss more general frames.) 
+This outlines the basics of the semantics often called **Kripke semantics** of these logics. We concentrate on modal languages with unary modalities and therefore on relational structures with binary relations in them only.  This is largely for the sake of keeping the exposition fairly straightforward and simple.  This means the frames used will be 'Kripke frames'. 
 
 
 ### Models in Monomodal Logics
@@ -18,7 +18,7 @@ Again we look at the basic model language.
 ###### Definition
 
 A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)$, where $\mathfrak{F}$ is a [[frame (modal logic)
-  |frame]] (for $\mathcal{L}_\omega(1)$) and $V: Prop \to \mathcal{P}(W)$, is a function, called a _valuation_, assigning to each atomic proposition $p$ a subset of the set, $W$, of worlds.
+  |frame]] (for $\mathcal{L}_\omega(1)$), that is, a non-empty set, $W$, equipped with a binary relation, $R$, and $V: Prop \to \mathcal{P}(W)$, is a function, called a _valuation_, assigning to each atomic proposition $p$ a subset of the set, $W$, of worlds.
 =--
 
 
@@ -27,11 +27,6 @@ A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 1. Informally we think of $V(p)$ as the set of 'worlds' in our model where $p$ is true.
 
 1. The binary relation of the frame allows for the modelling of the truth of a modal proposition, $\Diamond \phi$ or $\Box \phi$, at some world in terms of the truth of $\phi$ at related worlds.
-
-1. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
-
-1. Frames give a **combinatorial**, **relational** or **geometric** basis for the semantics of these logics.  There is also an **algebraic** semantics that will be examined in another entry. (To be done)
-
 
 ## Satisfaction
 
@@ -54,7 +49,7 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 
 ### Notes
 
-1. The terminology used in talking about 'satisfaction' tends to interpret $\mathfrak{M},v \models \phi$ as saying the formula $\phi$ is **true** in $\mathfrak{M}$ at state $v$.  We will adopt this usage, but we will avoid entering into the niceties of discussing 'what is truth?',... at least in this entry!
+1. The terminology used in talking about 'satisfaction' tends to interpret $\mathfrak{M},v \models \phi$ as saying the formula $\phi$ is **true** in $\mathfrak{M}$ at state $v$. 
  
 
 2. $\mathfrak{M},w \models \square \phi$ if and only if $\forall v\in W$ $ R w n$ implies $\mathfrak{M},v \models  \phi$. (The proof is fairly routine manipulation of negations.)
