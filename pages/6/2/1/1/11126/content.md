@@ -1117,12 +1117,15 @@ The notion of the [[external tensor product of vector bundles]] originates in di
 
 * {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://doi.org/10.1007/978-3-540-79890-3)&rbrack;
 
+Discussion in the context of [[perverse sheaves]]:
 
-Discussion in the context of categories of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) algebraic geometry: 
+* [[Volodymyr Lyubashenko]], *External tensor product of categories of perverse sheaves*, Ukr. Math. J. **53** 3 (2001) 311-322 &lbrack;[arXiv:math/9911207](https://arxiv.org/abs/math/9911207)&rbrack;
+
+Discussion in the context of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) [[algebraic geometry]]: 
 
 * {#BondalvdBerg03} [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. **3** 1 (2003) 1-36 &lbrack;[arXiv:math/0204218](https://arxiv.org/abs/math/0204218)&rbrack;
 
-* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. **23** 4 (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157)&rbrack;
+* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. **23** 4 (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157), [ISSN:1088-6834](https://www.ams.org/journals/jams/2010-23-04/S0894-0347-10-00669-7)&rbrack;
 
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_, such as
 
