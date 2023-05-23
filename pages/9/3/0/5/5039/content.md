@@ -26,9 +26,11 @@ A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 
 1. Informally we think of $V(p)$ as the set of 'worlds' in our model where $p$ is true.
 
-2. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
+1. The binary relation of the frame allows for the modelling of the truth of a modal proposition, $\Diamond \phi$ or $\Box \phi$, at some world in terms of the truth of $\phi$ at related worlds.
 
-3. Frames give a **combinatorial**, **relational** or **geometric** basis for the semantics of these logics.  There is also an **algebraic** semantics that will be examined in another entry. (To be done)
+1. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
+
+1. Frames give a **combinatorial**, **relational** or **geometric** basis for the semantics of these logics.  There is also an **algebraic** semantics that will be examined in another entry. (To be done)
 
 
 ## Satisfaction
@@ -130,8 +132,6 @@ Satisfaction on a class of models  is related to [[validity]] of modal formulae.
 Generally this entry is based on
 
 * P. [[Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001, 
-
-(any mistakes or errors of interpretation are due to ....!)
 
 [[!redirects geometric model for modal logic]]
 [[!redirects geometric model for modal logics]]
