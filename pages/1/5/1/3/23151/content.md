@@ -599,6 +599,9 @@ As [[categorical semantics]] for [[dependent linear type theories]] (in the cont
 
 * [[Francisco Rios]], [[Peter Selinger]], §3.2 in: *A Categorical Model for a Quantum Circuit Description Language*, EPTCS **266** (2018) 164-178 &lbrack;[arXiv:1706.02630](https://arxiv.org/abs/1706.02630), [doi:10.4204/EPTCS.266.11](https://doi.org/10.4204/EPTCS.266.11)&rbrack;
 
+* [[Peng Fu]], [[Kohei Kishida]], [[Neil Ross]], [[Peter Selinger]],  Def. 2.10 in: _A Tutorial Introduction to Quantum Circuit Programming in Dependently Typed Proto-Quipper_, in I. Lanese, M. Rawski  (eds.) _Reversible Computation_ RC 2020. Lecture Notes in Computer Science, vol 12227 &lbrack;[arXiv:2005.08396](https://arxiv.org/abs/2005.08396), [doi:10.1007/978-3-030-52482-1_9](https://doi.org/10.1007/978-3-030-52482-1_9)&rbrack;
+
+
 and its [followups](Quipper#ReferencesDependentLinearTypesAndCategoricalSemantics).
 
 [[!redirects free coproduct completions]]
