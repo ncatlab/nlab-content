@@ -1109,6 +1109,7 @@ This is the general form of what might be called the "external cartesian product
 
 ## References
 
+
 The notion of the [[external tensor product of vector bundles]] originates in discussion of [[topological K-theory]]:
 
 *  {#Atiyah67}  [[Michael Atiyah]], §2.6 in: *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
@@ -1116,6 +1117,13 @@ The notion of the [[external tensor product of vector bundles]] originates in di
 * {#Bott69} [[Raoul Bott]], p. 19 of: *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
 
 * {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://doi.org/10.1007/978-3-540-79890-3)&rbrack;
+
+The notion of [[external tensor product of representations]]:
+
+* [[William Fulton]], [[Joe Harris]], Exc. 2.36 in: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+
+* Caroline Gruson, Vera Serganova, p. 3 of: *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
+
 
 Discussion in the context of [[perverse sheaves]]:
 
@@ -1137,4 +1145,6 @@ For general abstract literature dealing with the external tensor products see th
 
 [[!redirects external product]]
 [[!redirects external products]]
+
+[[!redirects external tensor product of representations]]
 
