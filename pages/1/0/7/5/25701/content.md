@@ -13,7 +13,7 @@
 
 ## Definition
 
-In [[simplicial homotopy type theory]], given a type $A$ and a [[type family]] 
+In [[simplicial homotopy type theory]], given a [[type]] $A$ and a [[type family]] 
 $$x:A \vdash B(x) \; \mathrm{type}$$ 
 let us define the type family 
 $$x:A, y:A, f:\mathrm{hom}_A(x, y), u:B(x), v:B(y) \vdash \mathrm{hom}_{B(f)}(u, v) \; \mathrm{type}$$
