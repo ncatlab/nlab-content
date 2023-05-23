@@ -333,7 +333,7 @@ Discussion of [[categorical logic]] in [[symmetric monoidal categories]] and hen
  
 [Pratt (1992)](#Pratt92) is maybe the first to really say that linear logic is a good kind of quantum logic.
 
-* {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
+* {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)&rbrack;
 
 * {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
 
@@ -359,7 +359,7 @@ and [[Samuel Lomonaco]] (eds.), _Mathematics of Quantum Computing and Technology
  
 
 
-* {#LagoFaffian12} Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+* {#LagoFaffian12} [[Ugo Dal Lago]], Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ &lbrack;[arXiv:1210.0613](http://arxiv.org/abs/1210.0613)&rbrack;
  
 
 * {#CoeckeHeunenKissinger13} [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], _Compositional Quantum Logic_ ([arXiv:1302.4900](http://arxiv.org/abs/1302.4900))
