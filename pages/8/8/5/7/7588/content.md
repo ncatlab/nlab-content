@@ -143,15 +143,10 @@ The pointwise reasoning is explained in the next references (though it was surel
 
 * [[Steven Vickers]], *Generalized point-free spaces, pointwise* &lbrack;[arXiv:2206.01113](https://arxiv.org/abs/2206.01113)&rbrack;
 
-
-
 [[!redirects pointless topology]]
 
 [[!redirects pointwise topology]]
 [[!redirects point-wise topology]]
 
-
 [[!redirects pointfree topology]]
 [[!redirects point-free topology]]
-
-[[!redirects pointless topology]]
