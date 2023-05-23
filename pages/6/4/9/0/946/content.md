@@ -66,6 +66,18 @@ A [[preorder]] $P$ is a [[partial order|poset]] if and only if its specialisatio
 +-- {: .num_prop}
 ###### Proposition
 
+A [[preorder]] $P$ is a [[equivalence relation]] if and only if its specialisation topology is $R_0$.
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The specialisation topology of [[equality]] is $T_1$.
+=--
+
++-- {: .num_prop}
+###### Proposition
+
 A [[function]] between preorders is order-preserving if and only if it is a [[continuous map]] with respect to the specialisation topology.  
 =--
 
