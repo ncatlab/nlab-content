@@ -271,7 +271,6 @@ A filter $F$ on $X$ is Cauchy iff the obvious map $E_F\rightarrow F_X$ is well-d
 
 * {#naive_tame_topology} M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf#3.1.6), arXiv:[1807.06986](https://arxiv.org/abs/1807.06986), Sections 3.1.2, 3.1.6.
 
-
 category: topology
 
 [[!redirects uniform space]]
