@@ -119,7 +119,7 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 
 * [[Marco Grandis]] and [[Robert Paré]], _Kan extensions in double categories (On weak double categories, Part III)_, Theory and Applications of Categories, Vol. 20, No. 8, 2008, pp. 152-185. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/20/8/20-08abs.html)&rbrack;
 
-* [Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _The span construction_, Theory and Applications of Categories, Vol. 24, No. 13, 2010, pp. 302-377. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html)&rbrack;
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _The span construction_, Theory and Applications of Categories, Vol. 24, No. 13, 2010, pp. 302-377. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html)&rbrack;
 
 * [[Robert Paré]], _Mealy Morphisms of Enriched Categories_, Applied Categorical Structures, Vol. 20, 2012, pp. 251–273. &lbrack;[doi:10.1007/s10485-010-9238-8](https://doi.org/10.1007/s10485-010-9238-8)&rbrack;
 
