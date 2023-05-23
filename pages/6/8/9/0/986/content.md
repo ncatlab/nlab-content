@@ -114,6 +114,8 @@ This [[adjunction]] restricts to an [[adjoint equivalence]] between the categori
 
 * [[separation axioms in terms of lifting properties]]
 
+* [[specialization topology]]
+
 [[!redirects specialization orders]]
 
 [[!redirects specialisation order]]
