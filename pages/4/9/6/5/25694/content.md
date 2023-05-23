@@ -21,4 +21,6 @@
 
   * [[covariant type family]]
 
+  * [[contravariant type family]]
+
 * [[opetopic type theory]]
