@@ -28,7 +28,7 @@ The notion of *differential categories* ([Blute, Cocket & Seely 2006](#BluteCock
 The main intuition for differential categories, is that in a differential category morphisms $A \rightarrow B$ must be interpreted as linear morphisms from $A$ to $B$ while morphisms $!A \rightarrow B$ must be interpreted as smooth morphisms from $A$ to $B$. One can then differentiate these smooth morphisms from $A$ to $B$. If we have $f:!A \rightarrow B$, then we can obtain $D(f):!A \otimes A \rightarrow B$ which is smooth in the first variable and linear in the second variable. If we are in a [[monoidal closed category]], we can alternatively view $D(f)$ as a morphisms of type $!A \rightarrow (A \multimap B)$ which associate smoothly to every point of $A$ the linear approximation of $f$ around this point.
 
 \begin{definition}
-A coalgebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[comonad]] $(!,m,u)$ and two [[natural transformations]] $\epsilon:I \rightarrow !A$ and $\Delta:!A \otimes !A \rightarrow !A$ such that for every $A \in \mathcal{C}$, $(!A, \Delta, \epsilon)$ is a [[cocommutative comonoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
+A coalgebra modality in a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$ is given by a [[comonad]] $(!,m,u)$ and two [[natural transformations]] $\epsilon:!A \rightarrow I$ and $\Delta:!A \rightarrow !A \otimes !A$ such that for every $A \in \mathcal{C}$, $(!A, \Delta, \epsilon)$ is a [[cocommutative comonoid]] in $(\mathcal{C},\otimes,I)$ and this diagram commutes:
 \begin{tikzcd}
 !A \arrow[d, "m"'] \arrow[rr, "\Delta"] &  & !A \otimes !A \arrow[d, "m \otimes m"] \\
 !!A \arrow[rr, "\Delta"']             &  & !!A \otimes !!A              
