@@ -8,6 +8,8 @@
 
 ## Selected writings
 
+* [[Vitaly Bergelson]], [[Terence Tao]], *Multiple recurrence in quasirandom groups*. ([arXiv:1211.6372](https://arxiv.org/abs/1211.6372))
+
 On [[measure theory]] via (secretly) [[Boolean toposes]]:
 
 * [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
