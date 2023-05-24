@@ -19,7 +19,7 @@ constitute an [[adjoint triple]]. In [[type theory]] this is lifted from operati
 
 [[dependent sum]] $\dashv$ [[context extension]] $\dashv$ [[dependent product]].
 
-In [[topos theory]] and [[geometry]] this adjoint triple is often know as _[[base change]]_.
+In [[topos theory]] and [[geometry]] this adjoint triple is often known as _[[base change]]_.
 
 ## Related articles
 
