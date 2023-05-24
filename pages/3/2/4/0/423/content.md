@@ -1584,6 +1584,8 @@ Historical origins:
 
 * [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123, (1895) ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
+* [[Felix Hausdorff]] *Grundzüge der Mengenlehre*, Leipzig: Veit (1914). ISBN 978-0-8284-0061-9 Reprinted by Chelsea Publishing Company in 1944, 1949 and 1965
+
 Textbook accounts:
 
 * {#Kelley55} [[John Kelley]], *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
