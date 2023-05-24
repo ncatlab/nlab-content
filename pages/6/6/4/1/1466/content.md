@@ -128,6 +128,13 @@ Uniform spaces can also be identified with [[syntopogenous spaces]] that are bot
 
 Every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is [[uniformly regular space|uniformly regular]], then this is an [[apartness relation]], i.e. it is also a [[comparison]].    This inequality is tight exactly when the uniform space is Hausdorff.
 
+## The category of uniform spaces
+
+Uniform spaces and uniform maps form a [[topological category]].
+
+In particular, [[limits]] and [[colimits]] of uniform spaces are computed similarly to the case of [[topological spaces]]: take the limit/colimit of underlying sets and equip it with the final/initial uniform structure.
+
+See Chapter 21 in [[Joy of Cats]] for more information.
 
 ## Examples
 
