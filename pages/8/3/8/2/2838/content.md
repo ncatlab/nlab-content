@@ -149,6 +149,11 @@ Ionads have been introduced and studied in
 
 Some basic aspects of the theory are developed there, and applications to [[topology]], [[logic]] and [[geometry]] are discussed. 
 
+Further aspects of the theory of ionads, with a focus on their logical importance were studied in
+
+*  [[Ivan Di Liberti]], _Towards Higher Topology_,  J. Pure Appl. Algebra 226 (2022)
+
+*  [[Ivan Di Liberti]], _Formal Model Theory & Higher Topology_,  ArXiv 2020.
 
 [[!redirects ionads]]
 
