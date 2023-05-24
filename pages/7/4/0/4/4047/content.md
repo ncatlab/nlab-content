@@ -26,7 +26,7 @@ $$b_X:\mathbb{1}\to X\otimes X^{\vee}, d_X: X^{\vee}\otimes X\to \mathbb{1}$$
 $$b_X:\mathbb{1}\to {^{\vee}}X\otimes X, d_X: X\otimes {^{\vee}}X\to \mathbb{1}$$
 obeying the zig-zag identities.
 
-A **twist** on rigid braided monoidal category is a set of isomorphisms $\theta_X \colon X \to X$ for which
+A **twist** on rigid braided monoidal category is a natural isomorphism from the identity functor to itself, with components $\theta_X \colon X \to X$ for which
 $$\theta_{X\otimes Y}=\beta_{Y,X}\beta_{X,Y}\theta_{X}\otimes \theta_{Y},$$
 $$\theta_{\mathbb{1}}=\mathrm{id},$$
 $$\theta_{X^{\vee}}=\theta_{X}^{\vee}.$$
