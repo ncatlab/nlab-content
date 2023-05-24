@@ -15,23 +15,23 @@
 
 ## Idea
 
-A **ribbon category**  (also called a **tortile category** or **balanced rigid braided tensor category**) is a monoidal category $(\mathcal{C}, \otimes, \mathbb{1}, \alpha, l, r)$ equipped with braiding $\beta=\{\beta_{X,Y}\}$, twist $\theta=\{\theta_X\}$ and duality $(\vee, b, d)$ that satisfy some compatibility conditions. The name _ribbon category_ was introduced by Reshetikhin and Turaev in [their work](https://link.springer.com/article/10.1007/BF02096491) in 1990, the name _tortile category_ was used by Joyal and Street in [their work](https://www.sciencedirect.com/science/article/pii/S0001870883710558).
+A **ribbon category** &lbrack;[Reshetikhin & Turaev (1990)](#ReshetikhinTuraev90)&rbrack; (also called a **tortile category** &lbrack;[Joyal & Street (1993)](#JoyalStreet93)&rbrack; or **balanced rigid braided tensor category**) is a [[monoidal category]] $(\mathcal{C}, \otimes, \mathbb{1}, \alpha, l, r)$ equipped with [[braiding]] $\beta=\{\beta_{X,Y}\}$, twist $\theta=\{\theta_X\}$ and duality $(\vee, b, d)$ that satisfy some compatibility conditions. 
 
 ## Definition
 
-A [[braided monoidal category]] is a monoidal category $\mathcal{C}$ equipped with a braiding $\beta$, which is a natural isomorphisms $\beta_{X,Y}\colon X \otimes Y \to Y \otimes X$ obeying the hexagon identities.
+A [[braided monoidal category]] is a [[monoidal category]] $\mathcal{C}$ equipped with a [[braiding]] $\beta$, which is a [[natural isomorphism]] $\beta_{X,Y}\colon X \otimes Y \to Y \otimes X$ obeying the [[hexagon identities]].
 
-A braided monoidal category is [[rigid monoidal category|rigid]] if, for every object $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right dual and left dual]]) and associated morphisms
+A braided monoidal category is *[[rigid monoidal category|rigid]]* if, for every [[object]] $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right and left dual]]) and associated morphisms
 $$b_X:\mathbb{1}\to X\otimes X^{\vee}, d_X: X^{\vee}\otimes X\to \mathbb{1}$$
 $$b_X:\mathbb{1}\to {^{\vee}}X\otimes X, d_X: X\otimes {^{\vee}}X\to \mathbb{1}$$
 obeying the zig-zag identities.
 
-A **twist** on rigid braided monoidal category is a natural isomorphism from the identity functor to itself, with components $\theta_X \colon X \to X$ for which
+A **twist** on rigid braided monoidal category is a [[natural isomorphism]] from the [[identity functor]] to itself, with components $\theta_X \colon X \to X$ for which
 $$\theta_{X\otimes Y}=\beta_{Y,X}\beta_{X,Y}\theta_{X}\otimes \theta_{Y},$$
 $$\theta_{\mathbb{1}}=\mathrm{id},$$
 $$\theta_{X^{\vee}}=\theta_{X}^{\vee}.$$
 
-A ribbon category is a rigid braided monoidal category equipped with a twist.
+A ribbon category is a rigid braided monoidal category equipped with such a twist.
 
 ## Related concepts
 
@@ -40,9 +40,12 @@ A ribbon category is a rigid braided monoidal category equipped with a twist.
 
 ## Reference
 
-* N. Y. Reshetikhin and V. G. Turaev, Ribbon graphs and their invariants derived from quantum groups, Commun.Math. Phys. (1990) 127: 1. https://doi.org/10.1007/BF02096491
+* {#ReshetikhinTuraev90} [[Nicolai Reshetikhin]], [[Vladimir Turaev]], *Ribbon graphs and their invariants derived from quantum groups*, Commun. Math. Phys. **127** 1 (1990) &lbrack;[doi:10.1007/BF02096491](https://doi.org/10.1007/BF02096491)&rbrack;
 
-* A. Joyal and R. Street, Braided tensor categories, Advances in Mathematics, 102: 20–78, doi:10.1006/aima.1993.1055
+* {#JoyalStreet93} [[André Joyal]], [[Ross Street]], *Braided tensor categories*, Advances in Mathematics **102** (1993) 20–78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
+
+* [[Mei Chee Shum]], *Tortile tensor categories*, Journal of Pure and Applied Algebra **93** 1 (1994) 57-110 &lbrack;<a href="https://doi.org/10.1016/0022-4049(92)00039-T">10.1016/0022-4049(92)00039-T</a>&rbrack;
+
 
 [[!redirects ribbon category]]
 [[!redirects ribbon categories]]
