@@ -122,7 +122,7 @@ There are many equivalent ways to define a topological space.  A non-exhaustive 
 * A set $X$ with a co-frame of [[closed sets]] (the complements of the open sets), satisfying dual axioms: closure under finite unions and arbitrary intersections. This is sometimes called a co-topology on $X$. 
 
 * A pair $(X, int)$, where $int\colon P(X) \to P(X)$ is a [[lex functor|left exact]] [[comonad]] on the [[power set]] of $X$ (the "[[interior]] operator"). In more nuts-and-bolts terms, this means for all subsets $A, B$ of $X$ we have 
-$$A \subseteq B \Rightarrow int(A) \subseteq int(B), \;\;\; int(A) \subseteq A, \;\;\; int(A) \subseteq int(int(A)), \;\;\; int(A \cup B) = int(A) \cup int(B), \;\;\; int(\emptyset) = \emptyset.$$
+$$A \subseteq B \Rightarrow int(A) \subseteq int(B), \;\;\; int(A) \subseteq A, \;\;\; int(A) \subseteq int(int(A)), \;\;\; int(A \cap B) = int(A) \cap int(B), \;\;\; int(\emptyset) = \emptyset.$$
 The open sets are exactly the fixed points of $int$. The first three of these conditions say $int$ is a [[closure operator|coclosure operator]]. 
 
 * A pair $(X, cl)$ where $cl$ is a [[rex functor|right exact]] [[Moore closure]] operator satisfying axioms dual to those of $int$.  The closed sets are the fixed points of $cl$. Such an operator is sometimes called a *Kuratowski closure operator* (compare Kuratowski's closure-complement problem at [[closed subspace]]). 
@@ -137,7 +137,7 @@ The next two definitions of topological space are at a higher level of abstracti
 
 The following are not definitions, but they provide alternative ways to present a topological space. 
 
-* A [[topological base|(topological) base]] on a set $X$ is a collection $\mathcal{B}$ of subsets of $X$ whose union is all of $C$, and such that whenever $B, C \in \mathcal{B}$ and $x \in B \cap B \cap C$, there exists $D \in \mathcal{B}$ such that $D \subseteq B \cap C$ and $x \in D$. 
+* A [[topological base|(topological) base]] on a set $X$ is a collection $\mathcal{B}$ of subsets of $X$ whose union is all of $X$, and such that whenever $B, C \in \mathcal{B}$ and $x \in B \cap C$, there exists $D \in \mathcal{B}$ such that $D \subseteq B \cap C$ and $x \in D$. 
 
 If $\mathcal{B}$ is a base on $X$, then it is easily shown that the collection of all unions of subcollections of $\mathcal{B}$ is a topology on $X$. 
 
