@@ -94,11 +94,15 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
   * [[univalent foundations of mathematics]]
 
+
 ## Literature
 
 ### Historical
 
-* {#Peirce1885} Charles Sanders Peirce (1885), "On the Algebra of Logic: A Contribution to the Philosophy of Notation", American Journal of Mathematics 7
+* {#Peirce1885} [[Charles Sanders Peirce]], *On the Algebra of Logic: A Contribution to the Philosophy of Notation*, American Journal of Mathematics **7** (1885)
+
+* [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914) &lbrack;:ISBN:978-0-8284-0061-9&rbrack; Reprinted by Chelsea Publishing Company (1944, 1949, 1965) &lbrack;[ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)&rbrack;
+
 
 * {#Brady2000} Geraldine Brady (2000), From Peirce to Skolem: A Neglected Chapter in the History of Logic, North-Holland/Elsevier Science BV, Amsterdam, Netherlands.
 
