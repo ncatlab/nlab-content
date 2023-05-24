@@ -12,7 +12,7 @@ The precise definition depends on what sort of space $X$ is, up to	the full gene
 
 ## Definitions
 
-+-- {: .num_defn #metric}
++-- {: .num_defn #reals}
 ###### Definition
 
 A __Cauchy filter__ on the [[real numbers]] is a [[proper filter]] $F$ with, for each strictly [[positive number]] $\delta \in \mathbb{R}$, a set $A \in F$ with, for each $x,y \in A$, $\vert y - x\vert \leq \delta$.
@@ -20,7 +20,7 @@ A __Cauchy filter__ on the [[real numbers]] is a [[proper filter]] $F$ with, for
 
 Sometimes, one uses Cauchy filters on the rational numbers to construct the real numbers in the first place. 
 
-+-- {: .num_defn #metric}
++-- {: .num_defn #rationals}
 ###### Definition
 
 A __Cauchy filter__ on the [[rational numbers]] is a [[proper filter]] $F$ with, for each strictly [[positive number]] $\delta \in \mathbb{Q}$, a set $A \in F$ with, for each $x,y \in A$, $\vert y - x\vert \leq \delta$.
@@ -45,6 +45,14 @@ A __Cauchy filter__ on a gauge space is a [[proper filter]] $F$ with, for each g
 =--
 
 (It is actually sufficient to consider a base of gauging distances, as well as enough sufficiently small $\delta$.)
+
+In a [[Booij premetric space]], we use the [[premetric]] to estimate diameter. 
+
++-- {: .num_defn #metric}
+###### Definition
+
+A __Cauchy filter__ on a [[Booij premetric space]] is a [[proper filter]] $F$ with, for each strictly [[positive number]] $\delta$, a set $A \in F$ with, for each $x,y \in A$, $x \sim_\epsilon y$.
+=--
 
 In a [[topological group]], we use a [[neighbourhood]] of the [[identity element]] to estimate diameter.
 
