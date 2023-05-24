@@ -33,9 +33,15 @@
 
 ## Idea ##
 
-The Cauchy completion of the rational numbers, in the sense that all [[Cauchy nets]] in the rational numbers [[converge]]. 
+The Cauchy completion of the rational numbers, in the sense that all [[Cauchy nets]] or [[Cauchy filters]] in the rational numbers [[converge]]. 
 
 ## Definition ##
+
+### Using filters
+
+...
+
+### Using nets
 
 Let $\mathbb{Q}$ be the [[rational numbers]] and let 
 
