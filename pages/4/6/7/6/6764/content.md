@@ -163,6 +163,9 @@ Note that [[countable choice]] is essential here and elsewhere in measure theory
 
 We are now learning ways to understand measure theory and probability away from the traditional reliance on sets required with $\sigma$-algebras; see [[measurable space]] for a summary of other ways to define this concept.  We still need to know what happens to all of the *other* $\sigma$-algebras of measurable sets in a measurable space.  One solution may be to use [[quotient space|quotient]] measurable spaces in place of sub-$\sigma$-algebras; for example, see explicit quotient in the example of macroscopic entropy above.
 
+## Related concepts
+
+* [[sigma-topological space|$\sigma$-topological space]]
 
 [[!redirects sigma-algebra]]
 [[!redirects sigma-algebras]]
