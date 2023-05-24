@@ -20,7 +20,7 @@ The notion of _topological space_ aims to axiomatize the idea of a _[[space]]_ a
 
 Many notions of [[spaces]] used in [[mathematics]] have [[underlying topological spaces]], such as: [[manifolds]], [[schemes]], [[probability spaces]], etc.
 
-The concept of a topology, gradually refined over the latter half of the 19th century and the first two decades of the 20th, was developed to capture what it means abstractly for a mapping between sets of points to be "[[continuous function|continuous]]". Intuitively, the intuition behind *bending*, *twisting* or *crumpling* a continuous body applies to continuous mappings, because they preserve neighborhood relations (in a suitable sense), but *tearing*, for instance, does not. 
+The concept of a topology, gradually refined over the latter half of the 19th century and the first two decades of the 20th, was developed to capture what it means abstractly for a mapping between sets of points to be "[[continuous function|continuous]]". Intuitively, the idea of *bending*, *twisting* or *crumpling* a continuous body applies to continuous mappings, because they preserve neighborhood relations (in a suitable sense), but *tearing*, for instance, does not. 
 
 For example, the surface of a [[torus]] or doughnut is topologically equivalent to the surface of a mug: the surface of the mug can be deformed _continuously_ into the surface of a torus. Abstractly speaking: the continuous [[cohesion]] among the collections of points of the two surfaces is the same. Similarly, a [[circle]] and a [[square]] are considered equivalent from the standpoint of their topologies. 
 
