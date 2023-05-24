@@ -1588,6 +1588,10 @@ Historical origins:
 
 * [[Kazimierz Kuratowski]], *Sur l'opération Ā de l'Analysis Situs*, Fundamenta Mathematicae **3** (1922) 182–199 &lbrack;[doi:10.4064/fm-3-1-182-199](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/fundamenta-mathematicae/all/3/0/92454/sur-l-operation-a-de-l-analysis-situs)&rbrack;
 
+Not a first source, but historically important in the dissemination of foundational material: 
+
+* [[Bourbaki]], N., *Eléments de mathématique II. Première partie. Les structures fondamentales de l’analyse. Livre III. Topologie générale. Chapitre I. Structures topologiques.* Actualités scientifiques et industrielles, vol. 858. Hermann, Paris (1940).
+
 Textbook accounts:
 
 * {#Kelley55} [[John Kelley]], *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
