@@ -244,6 +244,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[first countable topological space]], [[second countable topological space]], [[separable topological space]], [[Hausdorff topological space]], [[topological manifold]]
 
+* [[sigma-topological space|$\sigma$-topological space]]
+
 * [[topological property]]
 
 * [[locale]], [[topos]]
