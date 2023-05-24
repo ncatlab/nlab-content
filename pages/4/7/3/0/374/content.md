@@ -145,7 +145,7 @@ In [[dependent type theory]], one could also have a [[topological space]] be a g
 
 ### In dependent type theory
 
-In [[dependent type theory]], given a type $X$, the type of [[subtypes]] of $X$ is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
+In [[dependent type theory]], given a type $X$, the type of all [[subtypes]] of $X$, the [[powerset]] of $X$, is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
 
 \begin{definition}
 A **[[topological space]]** is a type $X$ with a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow (X \to \Omega)$, called the open sets of $X$, which are closed under finite intersections and arbitrary unions. 
