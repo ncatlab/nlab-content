@@ -1,4 +1,3 @@
-[[!redirects countably compact space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -88,4 +87,7 @@ Finally, any point $x \notin A$ belongs to some $W_n$, and then $W_n \cap \neg \
 
 * [[strongly compact topological space]]
 
+[[!redirects countably compact]]
+
+[[!redirects countably compact space]]
 [[!redirects countably compact spaces]]
