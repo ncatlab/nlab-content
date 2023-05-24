@@ -67,25 +67,26 @@ You can also interpret these axioms to say that, if you think of $F$ as a functi
 
 A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $S$.  One also sees filters of open subsets, filters of compact subsets, etc, especially in topology.
 
-### In homotopy type theory
+### In dependent type theory
 
-Let $S$ be a [[set]], let $\Omega$ be the type of $U$-small propositions in a [[Tarski universe]] $(U, T_U)$, and let $\Sigma$ be a locally $V$-small $\mathbb{N}$-overt dominance, a sub-[[sigma-frame|$\sigma$-frame]] of the type of $V$-small propositions in a Tarski universe $(V, T_V)$. Then a filter on $S$ is a [[predicate]] $F:(S \to \Omega) \to \Sigma$ with dependent functions
+In [[dependent type theory]], let $(\Omega, \mathrm{El}_\Omega)$ be the [[type of all propositions]] with its type reflector type family. Given a type $T$, the type of all subsets of $T$ is given by the function type $T \to \Omega$. We define the [[relation]] $x:T, U:T \to \Omega \vdash x \in F$ by
+$$x \in F \coloneqq \mathrm{El}_{\Omega}(F(x))$$
 
-$$p:\prod_{a:S \to \Omega} \prod_{b:S \to \Omega} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
+Let $(P, \leq)$ be a [[poset]]. Then a filter on $P$ is a [[subtype]] $F:P \to \Omega$ with dependent functions
 
-$$q:\left[\sum_{a:S \to \Omega} T_{V}(F(a))\right]$$
+$$p:\prod_{x:P} \prod_{y:P} (x \leq y) \times (x \in F) \to (y \in F)$$
 
-$$r:\left[\sum_{a:S \to \Omega} \sum_{b:S \to \Omega} T_{V}(F(a)) \times T_{V}(F(b)) \to \left[\sum_{c:S \to \mathrm{Prop}_{U}} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
+$$q:\left[\sum_{x:P} (x \in F)\right]$$
+
+$$r:\left[\sum_{x:P} \sum_{y:P} (x \in F) \times (y \in F) \to \left[\sum_{z:P} (z \in F) \times (z \leq x) \times (z \leq y)\right]\right]$$
 
 The filter properties could also be turned into structure:
 
-A filter structure on $S$ is a [[predicate]] $F:(S \to \Omega) \to \Sigma$ with dependent functions
+$$p:\prod_{x:P} \prod_{y:P} (x \leq y) \times (x \in F) \to (y \in F)$$
 
-$$p:\prod_{a:S \to \Omega} \prod_{b:S \to \Omega} (a = a \wedge b) \times T_{V}(F(a)) \to T_{V}(F(b))$$
+$$q:\sum_{x:P} (x \in F)$$
 
-$$q:\sum_{a:S \to \Omega} T_{V}(F(a))$$
-
-$$r:\sum_{a:S \to \Omega} \sum_{b:S \to \Omega} T_{V}(F(a)) \times T_{V}(F(b)) \to \sum_{c:S \to \Omega} T_{V}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
+$$r:\sum_{x:P} \sum_{y:P} (x \in F) \times (y \in F) \to \sum_{z:P} (z \in F) \times (z \leq x) \times (z \leq y)$$
 
 ## Kinds of filters
 
