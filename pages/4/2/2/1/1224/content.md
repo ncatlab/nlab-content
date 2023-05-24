@@ -69,7 +69,7 @@ The following conditions are equivalent.
      \lim_\to G \circ F \to \lim_{\to} G
    $$
 
-   is a [[isomorphism]].
+   is an [[isomorphism]].
    
 
 
