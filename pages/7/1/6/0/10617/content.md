@@ -90,7 +90,9 @@ $$
 Write 
 
 $$
-  B U := {\lim_{\to}}_{n \in \mathbb{N}} B U(n)
+  B U 
+  \;\coloneqq\;
+  {\lim_{\to}}_{n \in \mathbb{N}} B U(n)
 $$
 
 for the [[homotopy colimit]] (the "homotopy [[direct limit]]") over this diagram (see at _[[homotopy colimit]]_ the section _[Sequential homotopy colimits](homotopy+limit#SequentialHocolims)_).
