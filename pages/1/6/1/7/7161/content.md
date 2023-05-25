@@ -35,7 +35,7 @@ Let $C$ be a [[category with finite limits]], and let $\Grpd$ be the category of
 +-- {: .un_defn}
 ###### Definition
 
-A **groupoid object in** $C$ is a functor $F\colon C\to \Grpd$ such that
+A **groupoid object in** $C$ is a functor $F\colon C^{op}\to \Grpd$ such that
 
 1. there is an object $g_0\in C_0$ such that there is a [[natural isomorphism]] $F(c)_0\simeq C(c,g_0)$
 
