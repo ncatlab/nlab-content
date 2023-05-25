@@ -24,6 +24,15 @@ There is a canonical way to turn any [[category]] in [[homotopy type theory]] in
 
 Intuitively, the Rezk completion is a "strictification via Yoneda" type result, in the style of [[Yoneda lemma for bicategories|strictification for bicategories via Yoneda]]. One starts with a category that may not have nice strictness properties, embeds it into the category of presheaves, which does have the nice strictness properties, and then restricts to representables, which gives something equivalent to the original category, but retains the nice strictness properties.
 
+Another intuition is that the Rezk completion is a [[vertical
+categorification]] of the construction of a [[quotient]] of a type by
+an [[equivalence relation]] by taking [[equivalence classes]]. That
+is, we can think of a type $X$ equipped with an equivalence relation
+as a [[boolean]]-enriched groupoid, and a boolean-valued presheaf is
+equivalently a predicate on $X$ that respects the equivalence
+relation. Then the representable presheaves are those predicates that
+are furthermore inhabited, i.e., precisely equivalence classes.
+
 ## Construction ##
 
 We work in a [[dependent type theory]] where [[UIP]] or [[axiom K]] cannot be proven. These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls a [[category]] a "[[precategory]]" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
