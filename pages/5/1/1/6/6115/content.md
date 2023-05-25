@@ -130,7 +130,9 @@ A comprehensive textbook account of [[model structures for parameterized spectra
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_, Mathematical Surveys and Monographs **132**, AMS (2006) &lbrack;[arXiv:math/0411656](https://arxiv.org/abs/math/0411656)&rbrack;
 
-* [[Cary Malkiewich]], *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+* {#Malkiewich19} [[Cary Malkiewich]], *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+
+* {#Malkiewich23} [[Cary Malkiewich]], *A convenient category of parametrized spectra* &lbrack;[arXiv:2305.15327](https://arxiv.org/abs/2305.15327)&rbrack;
 
 
 Alternative formulation in [[(∞,1)-category theory]]:
