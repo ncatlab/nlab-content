@@ -34,7 +34,13 @@ Localic groupoids are important, among other reasons, because every [[Grothendie
 ## References
 
 * The [[Elephant]], chapter C5.
-* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_ Mem. Amer. Math. Soc. no 309 (1984)
 
+The Joyal–Tierney theorem appeared in
+
+* [[Andre Joyal]], [[M. Tierney]], _An extension of the Galois theory of Grothendieck_ Mem. Amer. Math. Soc. no 309 (1984)
+
+An expository account of the Joyal–Tierney theorem:
+
+* Graham Manuell, Joshua L. Wrigley, _The representing localic groupoid for a geometric theory_, [arXiv:2305.15209v1](https://arxiv.org/abs/2305.15209v1).
 
 [[!redirects localic groupoids]]
