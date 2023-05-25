@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -455,7 +456,7 @@ we have
    \]
 
 \end{proposition}
-(The first statement is essentially immediate from the fact that pullback $(-)^*$ is assumed to be strong closed, but the second statement is a not quite so immediate; it is mentioned without proof in [Shulman (2012), p. 624](#Shulman12).)
+(The first statement is essentially immediate from the fact that pullback $(-)^*$ is assumed to be strong closed, but the second statement is not quite so immediate; it is discussed for the case of [[smash product]] of [[retractive spaces]] and [[parameterized spectra]] in [May & Sigurdsson (2006), Rem. 2.5.8, Prop. 13.7.2](#MaySigurdsson06), see also [Malkiewich (2019), Lem. 3.4.1](#Malkiewich19), [Malkiewich (2023), Lem. 2.5.1](#Malkiewich23), and is  mentioned in generality but without proof in [Shulman (2012), p. 624](#Shulman12).)
 \begin{proof}
 For the first statement (eq:PullbackOfExternalTensorAlongProductOfMaps) we have the following sequence of [[natural isomorphisms]]:
 $$
@@ -1118,22 +1119,31 @@ The notion of the [[external tensor product of vector bundles]] originates in di
 
 * {#Karoubi} [[Max Karoubi]], §4.9 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://doi.org/10.1007/978-3-540-79890-3)&rbrack;
 
-The notion of [[external tensor product of representations]]:
+The notion of [[external tensor product of representations]] seems to be [[folklore]], it is mentioned in most textbooks but without any attribution:
 
 * [[William Fulton]], [[Joe Harris]], Exc. 2.36 in: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
 
 * Caroline Gruson, Vera Serganova, p. 3 of: *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
 
-
-Discussion in the context of [[perverse sheaves]]:
+The external tensor product of [[perverse sheaves]]:
 
 * [[Volodymyr Lyubashenko]], *External tensor product of categories of perverse sheaves*, Ukr. Math. J. **53** 3 (2001) 311-322 &lbrack;[arXiv:math/9911207](https://arxiv.org/abs/math/9911207)&rbrack;
 
-Discussion in the context of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) [[algebraic geometry]]: 
+The external tensor product of of [[quasicoherent sheaves]]  in ([[derived algebraic geometry|derived]]) [[algebraic geometry]]: 
 
 * {#BondalvdBerg03} [[Alexei Bondal]], [[Michel Van den Bergh]], _Generators and representability of functors in commutative and noncommutative geometry_, Mosc. Math. J. **3** 1 (2003) 1-36 &lbrack;[arXiv:math/0204218](https://arxiv.org/abs/math/0204218)&rbrack;
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. **23** 4 (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157), [ISSN:1088-6834](https://www.ams.org/journals/jams/2010-23-04/S0894-0347-10-00669-7)&rbrack;
+
+
+{#ReferencesExternalSmashProduct} The external [[smash product]] of [[retractive spaces]] and of [[parameterized spectra]]:
+
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], §7.3 of: _[[Parametrized Homotopy Theory]]_, Mathematical Surveys and Monographs **132**, AMS (2006) &lbrack;[arXiv:math/0411656](https://arxiv.org/abs/math/0411656)&rbrack;
+
+* {#Malkiewich19} [[Cary Malkiewich]], §3.1 of: *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+
+* {#Malkiewich23} [[Cary Malkiewich]], §2.3 and §4.4 of: *A convenient category of parametrized spectra* &lbrack;[arXiv:2305.15327](https://arxiv.org/abs/2305.15327)&rbrack;
+
 
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_, such as
 
