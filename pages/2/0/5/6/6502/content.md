@@ -296,7 +296,7 @@ the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]].
 ### $G$-Structures
  {#ExampleGStructures}
 
-More generally, [[G-structures]] equipped with compatible principal connections are given by Cartan connections. (We will speak of "$H$-structure" here, since the reudced structure will correspond to the group denoted $H$ above, while what is denoted $G$ above will be the semidirect product of $H$ with the [[translation group]]).
+More generally, [[G-structures]] equipped with compatible principal connections are given by Cartan connections. (We will speak of "$H$-structure" here, since the reduced structure will correspond to the group denoted $H$ above, while what is denoted $G$ above will be the semidirect product of $H$ with the [[translation group]]).
 
 Let $H \to GL(\mathbb{R}^n)$ be a [[Lie group]] [[homomorphism]], so that [[reduction of the structure group]] of the [[frame bundle]] of a manifold of [[dimension]] $n$ along this map is an [[G-structure|H-structure]] on the manifold. Then write
 
