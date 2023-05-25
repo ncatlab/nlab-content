@@ -128,7 +128,7 @@ The open sets are exactly the fixed points of $int$. The first three of these co
 
 * A pair $(X, cl)$ where $cl$ is a [[rex functor|right exact]] [[Moore closure]] operator satisfying axioms dual to those of $int$.  The closed sets are the fixed points of $cl$. Such an operator is sometimes called a *Kuratowski closure operator* (compare Kuratowski's closure-complement problem at [[closed subspace]]). 
 
-* A set $X$ together with, for each $x \in X$, a [[filter]] $N_x$ on $X$, i.e., a collection of nonempty subsets of $X$ closed under finite intersections and also upward-closed ($U \in N_x$ and $U \subseteq V$ together imply $V \subseteq N_x$). If $U \in N_x$, we call $U$ a *neighborhood* of $x$. The remaining conditions on these neighborhood systems are that $x \in U$ for every $U \in N_x$, and that for every $U \in N_x$, there exists $V \in N_x$ such that $V \subseteq U$ and $V$ is a neighborhood of each point it contains. In this formulation, a subset $U \subseteq X$ is *open* if it is a neighborhood of every point it contains. 
+* A set $X$ together with, for each $x \in X$, a [[filter]] $N_x$ on $X$, i.e., a collection of inhabited subsets of $X$ closed under finite intersections and also upward-closed ($U \in N_x$ and $U \subseteq V$ together imply $V \subseteq N_x$). If $U \in N_x$, we call $U$ a *neighborhood* of $x$. The remaining conditions on these neighborhood systems are that $x \in U$ for every $U \in N_x$, and that for every $U \in N_x$, there exists $V \in N_x$ such that $V \subseteq U$ and $V$ is a neighborhood of each point it contains. In this formulation, a subset $U \subseteq X$ is *open* if it is a neighborhood of every point it contains. 
 
 The next two definitions of topological space are at a higher level of abstraction, but the underlying idea that connects them with the neighborhood system formulation is that we say a filter $F$ on $X$ *converges* to a point $x \in X$ if $N_x \subseteq F$. The point then is to characterize properties of convergence abstractly. 
 
@@ -164,24 +164,30 @@ In [[dependent type theory]], one could also have a [[topological space]] be a g
 
 In [[dependent type theory]], given a type $X$, the type of all [[subtypes]] of $X$, the [[powerset]] of $X$, is defined as the [[function type]] 
 $$\mathcal{P}(X) \coloneqq X \to \Omega$$ 
-where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
+where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. In the [[inference rules]] for the [[type of all propositions]], one has an operation $(-)_\Omega$ which takes a proposition $P$ and turns it into an element of the [[type of all propositions]] $P_\Omega:\Omega$. 
+
+
+The **local membership relation** $x \in_A B$ between elements $x:A$ and material subtypes $B:\mathcal{P}(A)$ is defined as 
+$$x \in_A B \coloneqq \mathrm{El}_\Omega(B(x))$$
 
 Arbitrary unions and intersections of subtypes could be defined in [[dependent type theory]]: 
 
-* Given a type $A$ and a type $I$, there is an function $\bigcap:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the **$I$-indexed [[intersection]]**, such that for all families of material subtypes $B:I \to \mathcal{P}(A)$, $\bigcap_{i:I} B(i)$ is defined as
-$$\left(\bigcap_{i:I} B(i)\right)(x) \coloneqq \left(\prod_{i:I} x \in_A B(i)\right)_\Omega$$
-for all $x:A$. 
+* Given a type $A$ and a type $I$, there is an function $\bigcap:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the $I$-indexed [[intersection]], such that for all families of subtypes $B:I \to \mathcal{P}(A)$, $\bigcap_{i:I} B(i)$ is defined as
+$$\left(\bigcap_{i:I} B(i)\right)(x) \coloneqq (\forall i:I.x \in_A B(i))_\Omega$$
+for all $x:A$, where 
+$$\forall x:A.B(x) \coloneqq \left[\prod_{x:A} B(x)\right]$$ 
+is the [[universal quantification]] of a [[type family]] and $[T]$ is the propositional truncation of $T$. 
 
-* Given a type $A$ and a type $I$, there is an function $\bigcup:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the $I$-indexed [[union]], such that for all families of material subtypes $B:I \to \mathcal{P}(A)$, $\bigcup_{i:I} B(i)$ is defined as
+* Given a type $A$ and a type $I$, there is an function $\bigcup:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the $I$-indexed [[union]], such that for all families of subtypes $B:I \to \mathcal{P}(A)$, $\bigcup_{i:I} B(i)$ is defined as
 $$\left(\bigcup_{i:I} B(i)\right)(x) \coloneqq (\exists i:I.x \in_A B(i))_\Omega$$
 for all $x:A$, where 
 $$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$ 
 is the [[existential quantification]] of a [[type family]] and $[T]$ is the propositional truncation of $T$. 
 
-In [[dependent type theory]], however, one cannot quantify over arbitrary types, since one could only quantify over elements of a type. Instead, one has to use a [[Tarski universe]] $(U, \mathrm{El}_U)$, where the elements of $U$ represent $U$-small types, and then quantify over $U$. In the case of topological spaces, instead of the [[open sets]] being closed under arbitrary unions, the open sets are only closed under all $U$-small unions $\bigcup_{i:\mathrm{El}_U(I)} B(i)$ for $I:U$. 
+In [[dependent type theory]], however, one cannot quantify over arbitrary types, since one could only quantify over elements of a type. Instead, one has to use a [[Tarski universe]] $(U, \mathrm{El}_U)$, where the elements of $U$ represent $U$-[[small types]], and then quantify over $U$. In the case of topological spaces, instead of the [[open sets]] being closed under arbitrary unions, the open sets are only closed under all $U$-small unions $\bigcup_{i:\mathrm{El}_U(I)} B(i)$ for $I:U$. 
 
 \begin{definition}
-Given a [[Tarski universe]] $(U, \mathrm{El}_U)$, a **[[topological space]]** is a type $X$ with a **$U$-small topology**, a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow \mathcal{P}(X)$, called the open sets of $X$, which are closed under [[finite type|finite]] [[intersections]] and $U$-small unions. 
+Given a [[Tarski universe]] $(U, \mathrm{El}_U)$, a **[[topological space]]** is a type $X$ with a **$U$-small topology**, a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow \mathcal{P}(X)$, called the open sets of $X$, which are closed under [[finite type|finite]] [[intersections]] and $U$-[[small type|small]] unions. 
 \end{definition}
 
 Given a topological space $(X, O(X))$, we define the membership [[relation]] between elements $x:X$ and open sets $V:O(X)$:
@@ -190,7 +196,7 @@ $$x:X, V:O(X) \vdash x \in U \; \mathrm{type}$$
 
 by 
 
-$$x \in U \coloneqq \mathrm{El}_\Omega((i_O(V))(x))$$
+$$x \in V \coloneqq \mathrm{El}_\Omega((i_O(V))(x))$$
 
 By definition of the type of all propositions and its type reflector, $x \in V$ is always a [[h-proposition]] for all $x:X$ and $V:O(X)$. 
 
