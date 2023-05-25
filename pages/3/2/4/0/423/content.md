@@ -1580,7 +1580,9 @@ In [[string theory]]:
 ## References
  {#References}
 
-Historical origins:
+### Historical origins
+ {#ReferencesHistoricalOrigins}
+
 
 * [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123, (1895). ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
@@ -1593,6 +1595,8 @@ Not a first source, but historically important in the dissemination of foundatio
 * {#Bourbak71} [[Nicolas Bourbaki]]], *Eléments de mathématique II. Première partie. Les structures fondamentales de l’analyse. Livre III. Topologie générale. Chapitre I. Structures topologiques.* Actualités scientifiques et industrielles, vol. 858. Hermann, Paris (1940)
 
   *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+
+### Further
 
 Further textbook accounts:
 
