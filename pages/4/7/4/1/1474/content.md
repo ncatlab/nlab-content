@@ -475,13 +475,15 @@ If the locale product $X\times X$ does not coincide with the spatial product, th
 
 ## References
 
-Due to 
+The notion is due to 
 
-* [[Felix Hausdorff]], 1914
+* [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914) &lbrack;ISBN:978-0-8284-0061-9&rbrack; Reprinted by Chelsea Publishing Company (1944, 1949, 1965) &lbrack;[ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)&rbrack;
 
 See also
 
 * Wikipedia, _[Hausdorff space](https://en.wikipedia.org/wiki/Hausdorff_space)_
+
+and the references at *[[topology]]*.
 
 A detailed discussion of Hausdorff reflection is in 
 
