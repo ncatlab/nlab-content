@@ -20,7 +20,7 @@
 
 In [1970](#Barr), [[Michael Barr]] gave an abstract definition of [[topological space]] based on a notion of [[convergence]] of [[ultrafilters]] (building on work by [[Ernest Manes]] on [[compact Hausdorff spaces]]).  Succinctly, Barr defined topological spaces as 'relational $\beta$-modules'.  It was subsequently realized that this was a special case of the notion of [[generalized multicategory]].  Here we unpack this definition and examine its properties.
 
-The correctness of this definition (in the sense of matching [[Bourbaki]]\'s definition) is equivalent to the [[ultrafilter principle]] ($UP$).  However, the definition can be treated on its own, even in a context without $UP$.  So we also consider the properties of relational $\beta$-modules when these might not match [[topological space|Bourbaki spaces]]. 
+The correctness of this definition (in the sense of matching [[Bourbaki]]\'s definition) is equivalent to the [[ultrafilter principle]] ($UP$).  However, the definition can be treated on its own, even in a context without $UP$.  So we also consider the properties of relational $\beta$-modules when these might not match Bourbaki's [[open set]] definition of [[topological spaces]]. 
 
 
 ## Definitions
