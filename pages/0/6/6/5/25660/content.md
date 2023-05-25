@@ -82,6 +82,11 @@ The [[1-category]] of skeletal groupoids is (see [there](free+coproduct+completi
 
 ## References
 
+Discussion of [[colimits]] over certain [[diagrams]] of the shape of skeletal groupoids and regarded as generalized [[coproducts]]:
+
+* [[Hongde Hu]], [[Walter Tholen]], *Quasi-coproducts and accessible categories with wide pullbacks*, Appl Categor Struct **4** (1996) 387–402 &lbrack;[doi:10.1007/BF00122686](https://doi.org/10.1007/BF00122686)&rbrack;
+
+    
 Characterization of skeletal groupoids as the "trivial objects" with respect to a [[pretorsion theory]] on [[Cat]]:
 
 * [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
