@@ -161,21 +161,37 @@ In [[dependent type theory]], one could also have a [[topological space]] be a g
 
 ### In dependent type theory
 
-In [[dependent type theory]], given a type $X$, the type of all [[subtypes]] of $X$, the [[powerset]] of $X$, is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
+In [[dependent type theory]], given a type $X$, the type of all [[subtypes]] of $X$, the [[powerset]] of $X$, is defined as the [[function type]] 
+$$\mathcal{P}(X) \coloneqq X \to \Omega$$ 
+where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
+
+Arbitrary unions and intersections of subtypes could be defined in [[dependent type theory]]: 
+
+* Given a type $A$ and a type $I$, there is an function $\bigcap:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the **$I$-indexed [[intersection]]**, such that for all families of material subtypes $B:I \to \mathcal{P}(A)$, $\bigcap_{i:I} B(i)$ is defined as
+$$\left(\bigcap_{i:I} B(i)\right)(x) \coloneqq \left(\prod_{i:I} x \in_A B(i)\right)_\Omega$$
+for all $x:A$. 
+
+* Given a type $A$ and a type $I$, there is an function $\bigcup:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the $I$-indexed [[union]], such that for all families of material subtypes $B:I \to \mathcal{P}(A)$, $\bigcup_{i:I} B(i)$ is defined as
+$$\left(\bigcup_{i:I} B(i)\right)(x) \coloneqq (\exists i:I.x \in_A B(i))_\Omega$$
+for all $x:A$, where 
+$$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$ 
+is the [[existential quantification]] of a [[type family]] and $[T]$ is the propositional truncation of $T$. 
+
+In [[dependent type theory]], however, one cannot quantify over arbitrary types, since one could only quantify over elements of a type. Instead, one has to use a [[Tarski universe]] $(U, \mathrm{El}_U)$, where the elements of $U$ represent $U$-small types, and then quantify over $U$. In the case of topological spaces, instead of the [[open sets]] being closed under arbitrary unions, the open sets are only closed under all $U$-small unions $\bigcup_{i:\mathrm{El}_U(I)} B(i)$ for $I:U$. 
 
 \begin{definition}
-A **[[topological space]]** is a type $X$ with a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow (X \to \Omega)$, called the open sets of $X$, which are closed under finite intersections and arbitrary unions. 
+Given a [[Tarski universe]] $(U, \mathrm{El}_U)$, a **[[topological space]]** is a type $X$ with a **$U$-small topology**, a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow \mathcal{P}(X)$, called the open sets of $X$, which are closed under [[finite type|finite]] [[intersections]] and $U$-small unions. 
 \end{definition}
 
-Given a topological space $(X, O(X))$, we define the membership [[relation]] between elements $x:X$ and open sets $U:O(X)$:
+Given a topological space $(X, O(X))$, we define the membership [[relation]] between elements $x:X$ and open sets $V:O(X)$:
 
-$$x:X, U:O(X) \vdash x \in U \; \mathrm{type}$$ 
+$$x:X, V:O(X) \vdash x \in U \; \mathrm{type}$$ 
 
 by 
 
-$$x \in U \coloneqq \mathrm{El}_\Omega((i_O(U))(x))$$
+$$x \in U \coloneqq \mathrm{El}_\Omega((i_O(V))(x))$$
 
-By definition of the type of all propositions and its type reflector, $x \in U$ is always a [[h-proposition]] for all $x:X$ and $U:O(X)$. 
+By definition of the type of all propositions and its type reflector, $x \in V$ is always a [[h-proposition]] for all $x:X$ and $V:O(X)$. 
 
 ## Examples
 
@@ -278,4 +294,10 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 [[!redirects topological spaces]]
 [[!redirects topological structure]]
 [[!redirects topological structures]]
+
+[[!redirects small topology]]
+[[!redirects small topologies]]
+
+[[!redirects small topological structure]]
+[[!redirects small topological structures]]
 [[!include topology -- references]] 
