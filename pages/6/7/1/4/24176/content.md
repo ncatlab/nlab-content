@@ -52,7 +52,7 @@ This has the unfortunate side affect of raising the [[universe]] level. If $A$ i
 Now this can all be avoided by constructing a [[higher inductive type]] $\hat{A}$ with constructors:
 
 * A function $i : A_0 \to \hat{A}_0$.
-* For each $a,b:A$ and $e: a \iso b$, an equality $j e : i a = i b$
+* For each $a,b:A$ and $e: a \cong b$, an equality $j e : i a = i b$
 * For each $a : A$, an equality $j(1_a)=refl_{i a}$.
 * For each $a,b,c:A$, $f : a \cong b$, and $g : b \cong c$, an equality $j(g \circ f)=j(f) \cdot j(g).$
 * 1-truncation: for all $x,y:\hat{A}_0$ and $p,q: x = y$ and $r,s : p = q$, an equality $r=s$.
