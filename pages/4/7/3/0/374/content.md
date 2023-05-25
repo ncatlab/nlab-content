@@ -274,11 +274,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[sheaf on a topological space]]
 
-## References
-
-See at _[[topology]]_.
-
 [[!redirects topological space]]
 [[!redirects topological spaces]]
 [[!redirects topological structure]]
 [[!redirects topological structures]]
+[[!include topology -- references]] 
