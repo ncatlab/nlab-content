@@ -86,7 +86,7 @@ See also:
 * A. Joyal, _Disks, duality and $\Theta$-categories_, preprint (1997)  (contains an original definition of a weak $n$-category: for a short account see Leinster's [book](http://arxiv.org/abs/math.CT/0305049), 10.2). 
 
 * A. Joyal, _Remarques sur la th&#233;orie des jeux &#224; deux personnes_, Gazette des
-Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's rough translation [ps](http://www.ma.man.ac.uk/~rhouston/Joyal-games.ps)
+Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's rough translation [can be found here](https://bosker.wordpress.com/2009/11/16/the-category-of-conway-games/)
 * Andr&#233; Joyal, _Free lattices, communication and money games_, in: Logic and
 scientific methods. Volume one of the proceedings of the tenth international
 congress of logic, methodology and philosophy of science, Florence, Italy, Synth.
