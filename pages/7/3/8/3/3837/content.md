@@ -11,7 +11,7 @@ Since in many cases the choice of foundations is irrelevant, it makes sense to a
 
 Similarly, a __small family__ is a [[family]] indexed by a small set; the [[axiom of replacement]] (if it applies in the foundation in question) then says that the [[image]] of the family is also small.
 
-We also have related notions of small [[ordinals]], [[small categories]], etc.
+We also have related notions of small [[ordinals]], [[small categories]], etc. In type theory, we also have a notion of small [[type]]. 
 
 ## See also
 
@@ -21,6 +21,9 @@ We also have related notions of small [[ordinals]], [[small categories]], etc.
 
 [[!redirects small set]]
 [[!redirects small sets]]
+
+[[!redirects small type]]
+[[!redirects small types]]
 
 [[!redirects small family]]
 [[!redirects small families]]
