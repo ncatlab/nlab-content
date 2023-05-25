@@ -1584,21 +1584,22 @@ Historical origins:
 
 * [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123, (1895). ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
-* [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914) &lbrack;:ISBN:978-0-8284-0061-9&rbrack; Reprinted by Chelsea Publishing Company (1944, 1949, 1965) &lbrack;[ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)&rbrack;
+* [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914) &lbrack;ISBN:978-0-8284-0061-9&rbrack; Reprinted by Chelsea Publishing Company (1944, 1949, 1965) &lbrack;[ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)&rbrack;
 
 * [[Kazimierz Kuratowski]], *Sur l'opération Ā de l'Analysis Situs*, Fundamenta Mathematicae **3** (1922) 182–199 &lbrack;[doi:10.4064/fm-3-1-182-199](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/fundamenta-mathematicae/all/3/0/92454/sur-l-operation-a-de-l-analysis-situs)&rbrack;
 
 Not a first source, but historically important in the dissemination of foundational material: 
 
-* [[Bourbaki]], N., *Eléments de mathématique II. Première partie. Les structures fondamentales de l’analyse. Livre III. Topologie générale. Chapitre I. Structures topologiques.* Actualités scientifiques et industrielles, vol. 858. Hermann, Paris (1940).
+* {#Bourbak71} [[Nicolas Bourbaki]]], *Eléments de mathématique II. Première partie. Les structures fondamentales de l’analyse. Livre III. Topologie générale. Chapitre I. Structures topologiques.* Actualités scientifiques et industrielles, vol. 858. Hermann, Paris (1940)
 
-Textbook accounts:
+  *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
+
+Further textbook accounts:
 
 * {#Kelley55} [[John Kelley]], *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], *Topological Structures*, Chapter 1 in: *General topology*, Elements of Mathematics III, Springer (1971, 1990, 1995) &lbrack;[doi:10.1007/978-3-642-61701-0](https://doi.org/10.1007/978-3-642-61701-0)&rbrack;
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
 
