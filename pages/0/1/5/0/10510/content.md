@@ -660,8 +660,9 @@ On [[model structures for parameterized spectra]]:
 
 * [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
 
+* {#Malkiewich19} [[Cary Malkiewich]], *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
 
-* [[Cary Malkiewich]], *Parametrized spectra, a low-tech approach* &lbrack;[arXiv:1906.04773](https://arxiv.org/abs/1906.04773), user guide: [pdf](https://people.math.binghamton.edu/malkiewich/users_guide_parametrized.pdf), [[Malkiewich-ParametrizedSpectraUserGuide.pdf:file]]&rbrack;
+* {#Malkiewich23} [[Cary Malkiewich]], *A convenient category of parametrized spectra* &lbrack;[arXiv:2305.15327](https://arxiv.org/abs/2305.15327)&rbrack;
 
 
 Discussion in [[(∞,1)-category theory]]:
