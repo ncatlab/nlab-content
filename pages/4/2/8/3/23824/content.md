@@ -30,6 +30,8 @@ Let $(\Omega, \mathrm{El}_\Omega)$ denote the [[type of all propositions]] and i
 The **power set** of a type $A$ is defined as the function type from $A$ to the type of all propositions $\Omega$, $\mathcal{P}(A) \coloneqq A \to \Omega$. 
 \end{definition}
 
+The power set of a type $A$ is always a set because its [[codomain]], the type of all propositions $\Omega$, is a set due to the [[univalence axiom]] or [[propositional extensionality]]. 
+
 \begin{definition}
 A **material subtype** on $A$ is an element of the power set $B:\mathcal{P}(A)$. 
 \end{definition}
@@ -113,10 +115,6 @@ Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hoo
 $$R \cup S \coloneqq R \sqcup^{R \cap S}_{\pi_1 ; \pi_1' \circ \pi_2} S$$
 where $\pi_1$ and $\pi_2$ are the first and second projection functions for the first dependent sum type and $\pi_1'$ is the first projection function for the second dependent sum type for the intersection as defined above ($\sum_{r:R} \sum_{s:S} i_R(r) =_T i_S(s)$)
 \end{definition}
-
-## Subtypes of subtypes
-
-A structural subtype of material subtypes of a type $X$ is a subtype $O_X$ with embedding $i:O_X \hookrightarrow \mathcal{P}(X)$. 
 
 ## See also ##
 
