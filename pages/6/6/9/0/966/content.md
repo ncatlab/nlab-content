@@ -195,8 +195,7 @@ but it is not itself representable (hence has no [[left adjoint]]).
 
 =--
 
-[[André Joyal]] has been attributing this example to [[Saunders MacLane]],
-it appears in print for instance right at the beginning of ([Ad&#225;mekKoubekTrnkov&#225;01](#AdamekKoubekTrnkova)).
+[[André Joyal]] has been attributing this example to [[Saunders MacLane]]; it appears in print for instance right at the beginning of ([Ad&#225;mekKoubekTrnkov&#225;01](#AdamekKoubekTrnkova)).
 
 ### In cocomplete categories
 
