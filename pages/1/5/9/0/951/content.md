@@ -55,7 +55,6 @@ In constructive mathematics, for any flavor of _[[finite set|finite]]_, $\mathca
 
 =--
 
-
 ### Universal properties
 
 $FinSet$ is the free category with finite coproducts on one object: that is, for any category $C$ with finite coproducts and any object $c \in C$ there is a functor $F : FinSet \to C$ preserving finite coproducts with $F(1) = c$, and $F$ is unique up to natural isomorphism.   
@@ -70,6 +69,25 @@ The last fact is closely connected to this: $FinSet$, made symmetric monoidal us
 
 All these universal properties have useful duals.  $FinSet^{op}$ is the free category with finite products on one object and also the free category with finite limits on one object; the symmetric monoidal category $(FinSet, +)^{op}$ is equivalent to the PROP for cococommutative comonoids.
 
+### Equivalence with the category of finite $T_1$-topological spaces
+
+Given a [[continuous map]] $f: X \to Y$ between topological spaces, it is order-preserving relative to the [[specialisation order]]. Thus, we have a [[faithful functor]] $Spec$ from the category of $\mathrm{Top}$ of topological spaces to the category $\mathrm{PreOrd}$ of preordered sets.
+
+In the other direction, to each [[preordered set]] $(X, \leq)$ we may associate a topological space whose elements are those of $X$, and whose open sets are precisely the upward-closed sets with respect to the preordered set. This topology is called the [[specialization topology]]. This defines a functor 
+
+$$i \colon  PreOrd \to Top$$ 
+
+which is a full embedding; the [[essential image]] of this functor is the category of [[Alexandroff spaces]] (spaces in which an arbitrary intersection of open sets is open). Hence the category of preorders is equivalent to the category of Alexandroff spaces. 
+
+There is an an adjunction $i \dashv Spec$ between the categories [[PreOrd]] and [[Top]] making $PreOrd$ a [[coreflective subcategory]] of $Top$. In particular, the counit evaluated at a space $X$, 
+
+$$i(Spec(X)) \to X,$$ 
+
+is the identity function at the level of sets, and is continuous because any open $U$ of $X$ is upward-closed with respect to $\leq$, according to the second equivalent condition of the definition of the specialization order. 
+
+This [[adjunction]] restricts to an [[adjoint equivalence]] between the categories $\mathrm{FinPreOrd}$ and $\mathrm{FinTop}$ of finite preordered sets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
+
+Since the [[specialization order]] of [[T_1-topological space|$T_1$-topological spaces]] is [[equality]] in $T_1$-spaces, and every subset is upward-closed with respect to the [[equality]] relation used to define the [[specialization topology]] of a [[set]], the above adjunction further restricts to an [[adjoint equivalence]] between the categories $\mathrm{FinSet}$ of [[finite sets]] and $\mathrm{Fin}T_1\mathrm{Sp}$ of finite $T_1$-topological spaces. 
 
 ### In Grpd
 
