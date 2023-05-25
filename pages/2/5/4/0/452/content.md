@@ -14,6 +14,7 @@
 =--
 
 
+
 #Content#
 * table of contents
 {:toc}
@@ -83,9 +84,9 @@ A **crossed module of groups** is
      G_2
    $$ 
 
-   (out if the [[Cartesian product]] of underlying [[sets]]/[[objects]])
+   (out of the [[Cartesian product]] of [[underlying]] [[sets]]/[[objects]])
 
-   that satisfies the $G_1$-[[action]] property and is such that for every $g_1 \in G_1$ it is a group [[automorphism]] of $G_2$;
+   that satisfies the $G_1$-[action property](action#eq:ActionProperty) and is such that for every $g_1 \in G_1$ it is a group [[automorphism]] of $G_2$;
 
 such that the following [[commuting diagram|diagrams commute]]:
 
@@ -127,13 +128,13 @@ $$
     & 
     G_2
     \\
-    \big\downarrow^{
-      \mathrlap{Id \times \delta}
-    } 
+    \big\downarrow\mathrlap{{}^{
+      {Id \times \delta}
+    }}
     && 
-    \big\downarrow^{
-      \mathrlap{\delta}
-    }
+    \big\downarrow\mathrlap{{}^{
+      {\delta}
+    }}
     \\
     G_1 \times G_1 
     &
