@@ -1578,7 +1578,9 @@ In [[string theory]]:
 
 
 ## References
- {#References}
+ {#References} 
+
+See also [[topology -- references]]. 
 
 ### Historical origins
  {#ReferencesHistoricalOrigins}
@@ -1669,5 +1671,5 @@ See also:
 
 * [[Topospaces]], a Wiki with basic material on topology.
 
-
+[[!include topology -- references]]
 
