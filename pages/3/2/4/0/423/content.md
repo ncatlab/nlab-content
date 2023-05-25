@@ -1583,14 +1583,19 @@ In [[string theory]]:
 ### Historical origins
  {#ReferencesHistoricalOrigins}
 
+The general idea goes back to:
 
 * [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123, (1895). ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
+The notion of [[topological space]] involving [[neighbourhoods]] was first developed, for the special case now known as *[[Hausdorff spaces]]*, in:
+
 * [[Felix Hausdorff]], *[[Grundzüge der Mengenlehre]]*, Leipzig: Veit (1914) &lbrack;ISBN:978-0-8284-0061-9&rbrack; Reprinted by Chelsea Publishing Company (1944, 1949, 1965) &lbrack;[ark:/13960/t2891gn8g](https://archive.org/details/grundzgedermen00hausuoft/page/n5/mode/2up)&rbrack;
+
+The more general definition -- dropping Hausdorff's $T_2$-[[separation axiom]] and formulated in terms of [[closure operators]] that preserve finite [[unions]] -- is due to:
 
 * [[Kazimierz Kuratowski]], *Sur l'opération Ā de l'Analysis Situs*, Fundamenta Mathematicae **3** (1922) 182–199 &lbrack;[doi:10.4064/fm-3-1-182-199](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/fundamenta-mathematicae/all/3/0/92454/sur-l-operation-a-de-l-analysis-situs)&rbrack;
 
-Not a first source, but historically important in the dissemination of foundational material: 
+The modern formulation via [[open set]] was widely popularized by:
 
 * {#Bourbak71} [[Nicolas Bourbaki]]], *Eléments de mathématique II. Première partie. Les structures fondamentales de l’analyse. Livre III. Topologie générale. Chapitre I. Structures topologiques.* Actualités scientifiques et industrielles, vol. 858. Hermann, Paris (1940)
 
