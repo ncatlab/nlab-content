@@ -95,7 +95,9 @@ Discussion of [[cartesian closed 2-categories]] of [[internal groupoids]] (mostl
 
 * [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
 
+A characterisation of internal groupoids as [[involutive-2-links]] appears in:
 
+* [[Nelson Martins-Ferreira]], _Internal groupoids as involutive-2-links_, 2023. ([arXiv:2305.13537](https://arxiv.org/abs/2305.13537))
 
 [[!redirects groupoid objects]]
 
