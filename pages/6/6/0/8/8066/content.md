@@ -25,7 +25,7 @@ Deformations between strategy profiles have been considered as a practical metho
 * William Press, Freeman Dyson, _Iterated prisoner's dilemma contains strategies that dominate any evolutionary opponent_, [PNAS open access](http://www.pnas.org/content/early/2012/05/16/1206569109.full.pdf+html), March 2012.
 * [[J.R.B. Cockett]], G.S.H. Cruttwell and K. Saff, _Combinatorial game categories_, [pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/CGC.pdf)
 * [[André Joyal]], _Remarques sur la th&#233;orie des jeux &#224; deux personnes_, Gazette des
-Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's rough translation [ps](http://www.ma.man.ac.uk/~rhouston/Joyal-games.ps)
+Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's rough translation [can be found here](https://bosker.wordpress.com/2009/11/16/the-category-of-conway-games/)
 * Andr&#233; Joyal, _Free lattices, communication and money games_, in: Logic and
 scientific methods. Volume one of the proceedings of the tenth international
 congress of logic, methodology and philosophy of science, Florence, Italy, Synth.
