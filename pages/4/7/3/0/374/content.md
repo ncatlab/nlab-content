@@ -132,7 +132,7 @@ The open sets are exactly the fixed points of $int$. The first three of these co
 
 The next two definitions of topological space are at a higher level of abstraction, but the underlying idea that connects them with the neighborhood system formulation is that we say a filter $F$ on $X$ *converges* to a point $x \in X$ if $N_x \subseteq F$. The point then is to characterize properties of convergence abstractly. 
 
-* A [[relational beta-module]]; that is, a [[lax algebra]] of the [[monad]] $\beta$ of [[ultrafilters]] on the [[(1,2)-category]] [[Rel]] of sets and [[binary relations]].  More explicitly, this means a set $X$ together with a relation called "[[convergence]]" between ultrafilters and points satisfying certain axioms.  This exhibits it as a special sort of [[generalized multicategory]], and also as a special sort of [[pseudotopological space]].
+* A [[relational beta-module]]; that is, a [[lax algebra]] of the [[monad]] $\beta$ of [[ultrafilters]] on the [[(1,2)-category]] [[Rel]] of sets and [[binary relations]].  More explicitly, this means a set $X$ together with a relation called "[[convergence]]" between ultrafilters and points satisfying certain axioms.  This exhibits it as a special sort of [[generalized multicategory]], and also as a special sort of [[pseudotopological space]]. However, the equivalence of this definition to the traditional definition of a topological space requires the [[ultrafilter principle]] to be true. 
 
 * A set with a [[convergence relation]] between [[nets]] or [[filters]] (not just ultrafilters) and points, or even between transfinite [[sequences]] and points, satisfying appropriate axioms. 
 
