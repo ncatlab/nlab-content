@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Topological spaces
 * table of contents
 {: toc}
@@ -290,6 +291,10 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[sheaf on a topological space]]
 
+[[!include topology -- references]] 
+
+
+
 [[!redirects topological space]]
 [[!redirects topological spaces]]
 [[!redirects topological structure]]
@@ -300,4 +305,3 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 [[!redirects small topological structure]]
 [[!redirects small topological structures]]
-[[!include topology -- references]] 
