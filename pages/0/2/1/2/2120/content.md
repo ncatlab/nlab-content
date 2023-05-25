@@ -198,7 +198,6 @@ A function $f$ between [[convergence spaces]] is __continuous__ if for any [[fil
 
 A __continuous map__ between [[locales]] is simply a [[frame]] [[homomorphism]] in the opposite direction.  Equivalently (via the [[adjoint functor theorem]]), it may be defined as a homomorphism of [[inflattices]] whose [[left adjoint]] preserves finitary [[meets]] (and hence is a frame homomorphism).
 
-
 ## Properties
 
 Since continuity is defined in terms of *preservation of property* (namely preserving "openness" under preimages), it is natural to ask what other properties they preserve.  
