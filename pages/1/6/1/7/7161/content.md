@@ -20,13 +20,13 @@
 
 ## Idea
 
-A *groupoid object* in an ambient [[category]] $\mathcal{C}$ is equivalently
+A *groupoid object* [[internalization|internal to]] an ambient [[category]] $\mathcal{C}$ is equivalently
 
 * a [[groupoid]] [[internalization|internal]] to $\mathcal{C}$;
 
-* an [[internal category]] in $\mathcal{C}$ equipped with an [[inverse]]-assigning morphism.
+* an [[internal category]] [[internalization|in]] $\mathcal{C}$ equipped with an [[inverse morphism]]-assigning map.
 
-This notion is the [[horizontal categorification]] of that of a [[group object]].  
+This notion is the [[horizontal categorification]] of that of a *[[group object]]*.  
 
 ## Definitions
 
