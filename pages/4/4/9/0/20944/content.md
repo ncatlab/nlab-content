@@ -18,13 +18,15 @@
 
 ## Idea
 
-An invertible ([[extended topological field theory|extended]]) [[topological field theory]] is essentially one whose target category is a rigid symmetric monoidal groupoid, a [[Picard groupoid]] ([DGP 19, p.20](#DGP19)).
+An invertible ([[extended topological field theory|extended]]) [[topological field theory]] is one which is an [[invertible object]] under the [[tensor product]] on TQFTs &lbrack;[Freed & Moore (2006), Def. 5.7](#FreedMoore06)&rbrack;, which essentially means that it is one whose target category is a rigid symmetric monoidal groupoid, a [[Picard groupoid]] ([DGP 19, p.20](#DGP19)).
 
 ## References
 
 As [[quantum anomalies]] of lower-dimensional non-invertible (and possibly non-topological) [[quantum field theories]]:
 
-* {#Freed13} [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013) ([arXiv.1404.7224](https://arxiv.org/abs/1404.7224))
+* {#FreedMoore06} [[Daniel S. Freed]], [[Gregory W. Moore]], Def. 5.7 in: *Setting the quantum integrand of M-theory*, Commun. Math. Phys. **263** (2006) 89-132 &lbrack;[arXiv:hep-th/0409135](https://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
+
+* {#Freed13} [[Daniel Freed]], _Anomalies and Invertible Field Theories_, talk at [StringMath2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013) &lbrack;[arXiv.1404.7224](https://arxiv.org/abs/1404.7224)&rbrack;
 
 As formalizing [[short-range entanglement]] in [[topological phases of matter]]:
 
