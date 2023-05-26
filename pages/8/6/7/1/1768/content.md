@@ -55,8 +55,21 @@ where $\mathcal{C}$ is the collection of [[Cauchy filters]] that defines the str
 
 All of the above are in fact special cases of this.
 
-
 ## Generalizations
+
+### Multivalued sequences
+
+A [[multivalued function|multivalued]] [[sequence]] on a set $A$ is a function $f:\mathbb{N} \to \mathcal{P}(T)$ such that for every natural number $n \in \mathbb{N}$, $f(n)$ is an [[inhabited]] [[subset]] of $A$. 
+
+A multivalued sequence $x:\mathbb{N} \to \mathcal{P}(\mathbb{R})$ of [[real numbers]] is __Cauchy__ if, for every positive number $\epsilon$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist real numbers $a, b$ such that $x(i)(a)$ and $x(j)(b)$ holds and $\vert a - b \vert \lt \epsilon$. 
+
+In a [[metric space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $d(a, b) \lt \epsilon$. 
+
+In a [[gauge space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$ and every gauge $d:S \times S \to \mathbb{R}_{\geq 0}$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $d(a, b) \lt \epsilon$. 
+
+In a [[uniform space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every [[entourage]] $U$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \approx_U b$. 
+
+### Nets and filters
 
 A [[net]] is a generalization of a sequence; the definitions above serve to define a __Cauchy net__ without any change, other than allowing $(x_i)_i$ to be a net.  This is precisely the structure of a [[Cauchy space]]; instead of defining Cauchy nets in terms of Cauchy filters as above, we may equally well define a Cauchy filter to be a [[proper filter]] whose [[canonical net]] is Cauchy.
 
@@ -74,6 +87,9 @@ When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categori
 
 [[!redirects Cauchy net]]
 [[!redirects Cauchy nets]]
+
+[[!redirects multivalued Cauchy sequence]]
+[[!redirects multivalued Cauchy sequences]]
 
 [[!redirects sequentially complete space]]
 [[!redirects sequentially complete spaces]]
