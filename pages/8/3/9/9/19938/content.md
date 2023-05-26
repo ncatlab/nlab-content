@@ -1,5 +1,4 @@
 [[!redirects dialgebras]]
-[[!redirects dialgebras]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,7 +20,9 @@
 
 ## Idea
 
-_Dialgebras_ subsume the notion of [[algebras for an endofunctor]] and [[coalgebras for an endofunctor]]. Universal dialgebras were originally introduced by Lambek as "subequalizers".
+_Dialgebras_ subsume the notion of [[algebras for an endofunctor]] and [[coalgebras for an endofunctor]]. Universal dialgebras were originally introduced by Lambek as "subequalizers". 
+
+Disambiguation: For different notions of certain algebraic structures involving two algebraic operations introduced by [[Jean-Louis Loday]] and his school see [[associative dialgebra]] and [[dendriform dialgebra]].
 
 
 ## Definition
