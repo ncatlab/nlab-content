@@ -13,11 +13,25 @@
 * table of contents
 {:toc}
 
+## Idea 
+
+An Azumaya algebra over a [[commutative unital ring]] $R$ is an algebra over $R$ that has an inverse up to [[Morita equivalence]].  That is, $A$ is an Azumaya algebra if there is an $R$-algebra $B$ such that $B \otimes_R A$ is Morita equivalent to $R$, which is the unit for the tensor product of $R$-algebras.   Thus, Morita equivalence classes of Azumaya algebras over $R$ form a group, which is called the [[Brauer group]] of $R$.
+
 ## Definition
 
 ### Traditional
 
-Given a [[commutative unital ring]] $R$, an __Azumaya $R$-algebra__ is a (noncommutative in general) $R$-[[associative algebra|algebra]] $A$ which is finitely generated faithful [[projective object|projective]] as an $R$-[[module]] and the canonical morphism $A\otimes_R A^{op}\to End_R(A)$ is an [[isomorphism]]. This definition extends the notion of a [[central simple algebra]] over a [[field]]; partly by this reason, Azumaya algebras are sometimes called __central separable $R$-algebras__.
+In what follows, $R$ is a [[commutative unital ring]] and algebras over $R$ are assumed associative and unital but not necessarily commmutative.  An '''Azumaya algebra''' over $R$ is an algebra $A$ over $R$ obeying any of the following equivalent conditions:
+
+* There exists an $R$-algebra $B$ such that the [[tensor product]] of $R$-algebras $B \otimes_R A$ is [[Morita equivalence|Morita equivalent]] to $R$.
+
+* The $R$-algebra $A^{\mathrm{op}} \otimes_R A$ is [[Morita equivalence|Morita equivalent]] to $R$, where $A^{\mathrm{op}}$ is the opposite algebra of $A$.
+
+* The [[center]] of $A$ is $R$, and $A$ is a [[separable algebra]].
+
+* As a left $R$-[[module]], $A$ finitely generated, faithful and [[projective object|projective]], and the canonical morphism $A\otimes_R A^{op}\to End_R(A)$ is an [[isomorphism]]. 
+
+When $R$ is a field, an Azumaya algebra is the same as a [[central simple algebra]] over $R$.  
 
 More generally, [[Grothendieck]] defines an __Azumaya algebra__ over a [[scheme]] $X$ as a [[sheaf]] $\mathcal{A}$ of $\mathcal{O}_X$-algebras such that for each point $x\in X$, the corresponding [[stalk]] $\mathcal{A}_x$ is an Azumaya $\mathcal{O}_{X,x}$-algebra. 
 
