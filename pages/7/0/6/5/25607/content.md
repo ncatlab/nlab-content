@@ -38,8 +38,8 @@ Hence an alternative definition of implicative structure is:
 An implicative structure is a complete lattice $\mathcal{A}$ equipped with a left-continuous, monotone operation $\otimes : \mathcal{A} \times \mathcal{A} \to \mathcal{A}$.
 \end{definition}
 
-In this form, it is easy to see this a broad generalization of a [[poset|posetal]] [[Benabou cosmoi]], more commonly known as [[quantale|quantales]].
-In fact implicative structures are quantales except for the fact that $\otimes$ doesn't satisfy the axioms of a monoidal operation on $\mathcal{A}$.
+In this form, it is easy to see this as broadly generalizing [[poset|posetal]] [[Benabou cosmoi]], more commonly known as [[quantale|quantales]].
+In fact implicative structures are quantales, but for the fact that $\otimes$ doesn't satisfy the axioms of a monoidal operation on $\mathcal{A}$.
 
 This is interesting since cosmoi are 'good enrichment bases' for *categories*, while implicative structures are 'good enrichment bases' for *sets*.
 
