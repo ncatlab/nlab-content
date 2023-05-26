@@ -15,13 +15,13 @@
 
 ## Idea 
 
-An Azumaya algebra over a [[commutative unital ring]] $R$ is an algebra over $R$ that has an inverse up to [[Morita equivalence]].  That is, $A$ is an Azumaya algebra if there is an $R$-algebra $B$ such that $B \otimes_R A$ is Morita equivalent to $R$, which is the unit for the tensor product of $R$-algebras.   Thus, Morita equivalence classes of Azumaya algebras over $R$ form a group, which is called the [[Brauer group]] of $R$.
+An *Azumaya algebra* over a [[commutative unital ring]] $R$ is an [[associative algebra|algebra]] over $R$ that has an inverse up to [[Morita equivalence]].  That is, $A$ is an Azumaya algebra if there is an $R$-algebra $B$ such that $B \otimes_R A$ is Morita equivalent to $R$, which is the unit for the tensor product of $R$-algebras.   Thus, Morita equivalence classes of Azumaya algebras over $R$ form a group, which is called the [[Brauer group]] of $R$.
 
 ## Definition
 
 ### Traditional
 
-In what follows, $R$ is a [[commutative unital ring]] and algebras over $R$ are assumed associative and unital but not necessarily commmutative.  An '''Azumaya algebra''' over $R$ is an algebra $A$ over $R$ obeying any of the following equivalent conditions:
+In what follows, $R$ is a [[commutative unital ring]] and algebras over $R$ are assumed associative and unital but not necessarily commmutative.  An __Azumaya algebra__ over $R$ is an algebra $A$ over $R$ obeying any of the following equivalent conditions:
 
 * There exists an $R$-algebra $B$ such that the [[tensor product]] of $R$-algebras $B \otimes_R A$ is [[Morita equivalence|Morita equivalent]] to $R$.
 
@@ -33,12 +33,21 @@ In what follows, $R$ is a [[commutative unital ring]] and algebras over $R$ are 
 
 When $R$ is a field, an Azumaya algebra is the same as a [[central simple algebra]] over $R$.  
 
+For any commutative ring $R$ there is a [[monoidal bicategory]] with
+
+* algebras over $R$ as objects,
+* bimodules as morphisms,
+* bimodule homomorphisms as 2-morphisms. 
+
+Given any monoidal bicategory we can take its [[core]]: that is, the sub-monoidal bicategory where we only keep objects invertible up to equivalence, morphisms invertible up to 2-isomorphism, and invertible 2-morphisms.  This core is a [[3-group]], sometimes called the [[Picard 3-group]], and it has [[Azumaya algebras]] over $R$ as its objects.
+
+### Over a scheme
+
 More generally, [[Grothendieck]] defines an __Azumaya algebra__ over a [[scheme]] $X$ as a [[sheaf]] $\mathcal{A}$ of $\mathcal{O}_X$-algebras such that for each point $x\in X$, the corresponding [[stalk]] $\mathcal{A}_x$ is an Azumaya $\mathcal{O}_{X,x}$-algebra. 
 
 The [[Brauer group]] $Br(X)$ classifies Azumaya algebras over $X$ up to a suitably defined equivalence relation: $\mathcal{A}\sim\mathcal{B}$ if $\mathcal{A}\otimes_{\mathcal{O}_X} \mathbf{End}(\mathcal{E}) \cong \mathcal{B}\otimes_{\mathcal{O}_X}\mathbf{End}(\mathcal{F})$ for some locally free sheaves of $\mathcal{O}_X$-modules $\mathcal{E}$ and $\mathcal{F}$ of finite rank.  The group operation of $Br(X)$ is induced by the tensor product. The Brauer group can be reexpressed in terms of second [[nonabelian cohomology]]; indeed a sheaf of Azumaya algebras over $X$ determines an $\mathcal{O}_X^*$-[[gerbe]] (or $U(1)$-gerbe in the [[manifold]] context).  
 
-Brauer groups and Azumaya algebras are closely related to [[Morita theory]] and they make sense in the context of algebras and bimodules in the context of [[braided monoidal category|braided monoidal categories]]. [[Karoubi K-theory]] involves an element in a Brauer group and in the original Karoubi--Donovan paper is related to a twisting with a "local system" which involves Azumaya algebras.
-
+[[Karoubi K-theory]] involves an element in a Brauer group and in the original Karoubi--Donovan paper is related to a twisting with a "local system" which involves Azumaya algebras.
 
 ### In terms of (derived) &#233;tale cohomology
  {#InTermsOfEtaleCohomology}
@@ -199,10 +208,23 @@ $$
 
 **Conjecture** The spectral sequence gives an Azumaya $KO$-algebra $Q$ which is a nontrivial element in $Br(KO)$ but becomes trivial in $Br(KU)$.
 
+### Azumaya categories
+
+Borceux and Vitale have noted that the [[monoidal bicategory]] of  $R$-algebras, bimodules and bimodule morphisms can be generalized in the context of [[enriched category]] theory, leading to a concept of "Azumaya category".  An Azumaya algebra over the commutative ring $R$ is then a one-object Azumaya category enriched over $R Mod$.
+
+More precisely, they consider an arbitrary [[Benabou cosmos]] $V$, meaning a [[complete]] and [[cocomplete]] [[symmetric monoidal]] [[closed category|closed]] category.   This gives a monoidal bicategory $V Mod$ with 
+
+* $V$-enriched categories as objects,
+* $V$-enriched [[profunctors]] as morphisms, and
+* $V$-natural transformations between $V$-enriched profunctors as 2-morphisms.
+
+The [[core]] of this monoidal bicategory is a 3-group, and they call the objects of the core **Azumaya categories**.
+
+* [[Francis Borceux]] and [[Enrico Vitale]], Azumaya categories, *Applied Categorical Structures* **10** (2002), 449-467. ([pdf](https://link.springer.com/content/pdf/10.1023/A:1020570213428.pdf))
 
 ## Related concepts
 
-* [[group of units]], [[Picard group]], [[Brauer group]]
+* [[group of units]], [[Picard group]], [[Brauer group]], [[Picard 3-group]]
 
 ## References 
 
@@ -211,7 +233,7 @@ $$
 
 * [[John Duskin]], _The Azumaya complex of a commutative ring_, in Categorical Algebra and its Appl., Lec. Notes in Math. 1348 (1988) [doi:10.1007/BFb0081352](http://dx.doi.org/10.1007/BFb0081352)
 
-* [[Alexander Grothendieck]], _Le groupe de Brauer I, II, III_, in Dix exposes sur la cohomologie des schemas (I: Alg&#232;bres d'Azumaya et interpr&#233;tations diverses) North-Holland Pub. Co., Amsterdam (1969)
+* {#GrothendieckBrauer} [[Alexander Grothendieck]], _Le groupe de Brauer I, II, III_, in Dix exposes sur la cohomologie des schemas (I: Alg&#232;bres d'Azumaya et interpr&#233;tations diverses) North-Holland Pub. Co., Amsterdam (1969)
 
 * [[Max Karoubi]], [[Peter Donovan]], _Graded Brauer groups and $K$-theory with local coefficients_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1970__38_/PMIHES_1970__38__5_0/PMIHES_1970__38__5_0.pdf))
 
@@ -237,9 +259,11 @@ and Tomiyama-Takesaki's theorem on $n$-[[homogeneous C*-algebra]]s is in chapter
 
 See also
 
-* [wikipedia page](http://en.wikipedia.org/wiki/Azumaya_algebra)
+* Wikipedia, [Azumaya algebra](http://en.wikipedia.org/wiki/Azumaya_algebra)
 
-* Category Cafe 2006: [Picard and Brauer 2-groups](http://golem.ph.utexas.edu/string/archives/000786.html)
+* Urs Schreiber, [Picard and Brauer 2-groups](http://golem.ph.utexas.edu/string/archives/000786.html), String Theory Coffee Table, 2006.
+
+* John Baez, [The Brauer 3-group](https://golem.ph.utexas.edu/category/2020/05/the_brauer_3group.html), $n$-Category Caf&eacute;, 2020.
 
 
 [[!redirects Azumaya algebras]]
