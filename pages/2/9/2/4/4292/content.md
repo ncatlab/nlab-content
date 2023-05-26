@@ -19,8 +19,7 @@ $$
   \sum_{n = 0}^\infty a_n X^n
 $$
 
-where $a_n$ is in $R$ for each $n\ge 0$. Given that there are
-no additional convergence conditions, a power series is also termed emphatically as a __formal power series__. If $R$ is commutative, then the collection of formal power series in a variable $X$ with coefficients in $R$ forms a commutative ring denoted by $R [ [ X ] ]$. 
+where $a_n$ is in $R$ for each $n\ge 0$. Given that there are no additional convergence conditions, a power series is also termed emphatically as a __formal power series__. If $R$ is commutative, then the collection of formal power series in a variable $X$ with coefficients in $R$ forms a commutative ring denoted by $R [ [ X ] ]$. 
 
 More generally, a power series in $k$ commuting variables $X_1,\ldots, X_k$ with coefficients in a ring $R$ has the form $\sum_{n_1=0,n_2=0,\ldots, n_k = 0}^\infty a_{n_1\ldots n_k} X_1^{n_1} X_2^{n_2}\cdots X_k^{n_k}$. If $R$ is commutative, then the collection of formal power series in $k$ commuting variables $X_1,\ldots, X_k$ form a formal power series ring denoted by $R [ [ X_1,\ldots, X_k
 ] ]$. 
@@ -35,6 +34,16 @@ $$
 \sum_{r} a_r X_r \cdot \sum b_s X_s = \sum_w \sum_{u,v; w = u v} a_u b_v X_w
 $$
 Of course, this implies that in a specialization, $b$-s commute with variables $X_{i_k}$; what is usually generalized to take some endomorphisms into an account (like at noncommutative polynomial level of partial sums where we get skew-polynomial rings, i.e. iterated Ore extensions).
+
+### As adic completions
+
+Let $R$ be a [[commutative ring]], and let $R[X]$ be the [[polynomial ring]] on one indeterminant $X$. Then $(X)$ is a [[maximal ideal]] in $R[X]$, and results in an [[adic topology]] on $R[X]$. The ring of formal power series in $R$ is the [[adic completion]] of the [[limit]] of the quotient of $R[X]$ by powers of $(X)$:
+
+$$R[[X]] \coloneqq \underset{\leftarrow}\lim R/(X)^n$$
+
+The ring of formal power series for multiple indeterminants $X_i$ is constructed iteratively: because $R[[X_1, X_2, \ldots X_n]]$ is a commutative ring, one could construct the [[polynomial ring]] $R[[X_1, X_2, \ldots X_n]][X_{n+1}]$ on the indeterminant $X_{n+1}$. As above, $(X_{n+1})$ is a [[maximal ideal]] in $R[[X_1, X_2, \ldots X_n]][X_{n+1}]$ with a corresponding [[adic topology]], and one can then take the [[adic completion]]
+$$R[[X_1, X_2, \ldots X_n]][[X_{n+1}]] \coloneqq \underset{\leftarrow}\lim R[[X_1, X_2, \ldots X_n]]/(X_{n+1})^m$$
+The resulting commutative ring is usually just written as $R[[X_1, X_2, \ldots X_n, X_{n+1}]]$. 
 
 ## Examples
 
@@ -143,6 +152,16 @@ $$b_k = -a_1^{-1}(a_k b_1^k + \; terms\; a_n b_{k_1} \ldots b_{k_n})$$
 given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \lt k$ given by inductive hypothesis. Similarly we can solve for $a_k$ in terms of given coefficients $b_1, \ldots, b_k$ and earlier $a$-values $a_n$, $n \lt k$. Thus every power series $a$ has a right inverse if $a_1^{-1}$ exists, and $b$ has a left inverse if $b_1^{-1}$ exists, and this completes the proof. 
 =-- 
 
+### Formal differentiation
+
+We define the formal differentiation operator as a function $\frac{\partial}{\partial X}:R[[X]] \to R[[X]]$ as 
+
+$$
+  \frac{\partial}{\partial X}\left(\sum_{n = 0}^\infty a_n X^n\right) \coloneqq \sum_{n = 0}^\infty a_{n + 1} (n + 1) X^n
+$$
+
+It could be shown that $\frac{\partial}{\partial X}$ is an $R$-[[linear function]] on $R[[X]]$ which satisfies the [[Leibniz rule]], meaning that it is a [[derivation]] and $R[[X]]$ is a [[differential algebra]]. 
+
 ## Ring of power series as rings with infinitesimals
 
 | [[ring]] with [[infinitesimals]] | [[function]] | 
@@ -176,7 +195,7 @@ $$f_{K[[\epsilon]]}(h(x) + \eta) = \sum_{i = 0}^{\infty} \frac{1}{i!} h\left(\fr
 
 ## References
 
-* Wikipedia, _[Formal power series](en.wikipedia.org/wiki/Formal_power_series)_
+* Wikipedia, _[Formal power series](https://en.wikipedia.org/wiki/Formal_power_series)_
 
 A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in section 4 of
 
