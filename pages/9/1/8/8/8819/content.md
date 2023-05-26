@@ -24,6 +24,8 @@ A method of [[integration]].
 
 * [[Jordan content]]
 
+* [[Darboux integration]]
+
 ## References
 
 * Wikipedia, _[Riemann integral](http://en.wikipedia.org/wiki/Riemann_integral)_
