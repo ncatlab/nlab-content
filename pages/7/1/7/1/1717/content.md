@@ -101,10 +101,14 @@ $$
   [\mathbf{B}G] = (G_2 \stackrel{\delta}{\to} G_1) 
 $$
 
-with action 
+with [[action]] 
 
 $$
-  \alpha : G_1 \to Aut(G_2)
+  \alpha 
+  \,\colon\,
+  G_1 
+    \longrightarrow 
+  Aut(G_2)
 $$
 
 encodes a strict one-object 2-groupoid $\mathbf{B}G$, and hence a strict 2-group $G$. 
@@ -155,7 +159,11 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
   * the source operation is projection on the first factor
 
     $$
-      s := p_1 : G_1 \times G_2 \to G_1
+      s 
+        \coloneqq
+      p_1 
+      \,\colon\,
+      G_1 \times G_2 \to G_1
     $$
 
   * the target operation on morphisms starting at the identity morphism is the boundary map $\delta : G_2 \to G_1$ of the crossed module combined with the product in $G_1$
@@ -425,10 +433,14 @@ Any congruence relation corresponds to a [[normal subgroup]], given by those ele
 
 ## References
 
-See also the references at [[2-group]].
+For more see the references at *[[2-group]]* and at *[[crossed module]]*.
 
-The equivalence between strict 2-groups and crossed modules is discussed in
+The equivalence between strict 2-groups and [[crossed modules]]:
 
-* [[Ronnie Brown]] and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296--302.) 
+* [[Ronnie Brown]] and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a topological group_, Proc. Kon. Ned. Akad. v. Wet **79** (1976) 296-302. 
+
+Textbook account:
+
+* [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 [[!redirects strict 2-groups]]
