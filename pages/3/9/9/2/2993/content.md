@@ -92,6 +92,7 @@ Polynomial rings on one generator also have the structure of a [[differential al
 For every univariate polynomial ring $R[z]$, one could define a function called a __[[derivative]]__ or __[[derivation]]__
 $$\frac{\partial}{\partial z}: R[z] \to R[z]$$
 such that 
+
 * for all polynomials $p \in R[z]$ and $q \in R[z]$ and constant polynomials $a \in R[z]$ and $b \in R[z]$, 
 $$\frac{\partial}{\partial z}(a \cdot p + b \cdot q) = a \cdot \frac{\partial}{\partial z}(p) + b \cdot \frac{\partial}{\partial t}(q)$$
 * for all polynomials $p \in R[z]$ and $q \in R[z]$, 
