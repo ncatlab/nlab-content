@@ -2,9 +2,9 @@
 
 ## Idea 
 
-Day's reflection theorem gives conditions under which a [[reflective subcategory]] of a [[symmetric monoidal closed category]] is closed under [[internal homs]]. 
+Day's reflection theorem &lbrack;[Day (1972)](#Day72)&rbrack; gives conditions under which a [[reflective subcategory]] of a [[symmetric monoidal closed category]] is closed under [[internal homs]]. 
 
-One memorable consequence of the theorem is that the subcategory is closed under internal homs if the reflector is strong symmetric monoidal. 
+One memorable consequence of the theorem is that the subcategory is closed under [[internal homs]] if the [[reflector]] is symmetric [[strong monoidal functor|strong monoidal]]. 
 
 ## Statement and Proof
 
@@ -112,4 +112,4 @@ If $D$ is cartesian closed, and the reflector $L \colon D \to C$ preserves produ
 
 ## Reference 
 
-[[Brian Day]], A reflection theorem for closed categories, Journal of Pure and Applied Algebra Volume 2, Issue 1 (April 1972), Pages 1-11. [link](https://www.sciencedirect.com/science/article/pii/0022404972900217) (doi: 10.1016/0022-4049(72)90021-7)
+* {#Day72} [[Brian Day]], *A reflection theorem for closed categories*, Journal of Pure and Applied Algebra **2** 1 (1972) 1-11. &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90021-7">doi:10.1016/0022-4049(72)90021-7</a>&rbrack;
