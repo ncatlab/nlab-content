@@ -46,7 +46,7 @@ References for this statement are listed at _[Massey product -- Relation to A-in
 
 ## References
 
-* [[T. V. Kadeishvili]], _On the theory of homology of fiber spaces_, (Russian) International Topology Conference (Moscow State Univ., Moscow, 1979). Uspekhi Mat. Nauk 35 (1980), no. 3(213), 183&#8211;188. Translated in Russ. Math. Surv. 35 (1980), no. 3, 231&#8211;238.
+* [[Tornike Kadeishvili|T. V. Kadeishvili]], _On the theory of homology of fiber spaces_, (Russian) International Topology Conference (Moscow State Univ., Moscow, 1979). Uspekhi Mat. Nauk 35 (1980), no. 3 (213), 183--188. Translated in Russ. Math. Surv. 35 (1980), no. 3 (238) 231--211
  {#Kadeishvili}
 
 * [[S. A. Merkulov]], _Strong homotopy algebras of a K&#228;hler manifold_, Internat. Math. Res. Notices 1999, no. 3, 153&#8211;164.
