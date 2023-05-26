@@ -8,7 +8,7 @@
 There are several notions of noncommutative differential calculus. See related pages [[regular differential operator in noncommutative geometry]], 
 [[bicovariant differential calculus]], [[differential bimodule]], [[differential monad]], [[cyclic homology]]...
 
-This entry is about the version introduced by [[Boris Tsygan]], [[Dmitri Tamarkin]] and [[Ryszard Nest]], and studied also by Dolgushev, Kowalzig and others. 
+This entry is about the version of "Cartan calculus" for associative algebras introduced by [[Boris Tsygan]], [[Dmitri Tamarkin]] and [[Ryszard Nest]], and studied also by Dolgushev, Kowalzig and others. 
 
 
 ## Definition
@@ -70,14 +70,19 @@ See also the case of [[Batalin-Vilkovisky algebra]].
 
 ## References
 
-* Dmitri Tamarkin, Boris Tsygan, _Noncommutative differential calculus, homotopy BV algebras and formality conjectures_, Metods of Functional Analysis and topology, 1, 2001 [arXiv:math.KT/0002116v1](https://arxiv.org/abs/math/0002116v1)
+* [[Dmitri Tamarkin]], [[Boris Tsygan]], _Noncommutative differential calculus, homotopy BV algebras and formality conjectures_, Metods of Functional Analysis and topology, 1, 2001 arXiv:[math.KT/0002116](https://arxiv.org/abs/math/0002116)
 
-* R. Nest, B. Tsygan, _On the cohomology ring of an algebra_, Advances in geometry, Progr. Math. __172__, Birkhauser 1999, pp. 337&#8211;370 [arxiv:math.QA/9803132](http://arxiv.org/abs/math/9803132)
+* D. Tamarkin, B. Tsygan, _The ring of differential operators on forms in noncommutative calculus_, Graphs
+and patterns in mathematics and theoretical physics, Proc. Sympos. Pure Math. 73, Amer. Math. Soc. 2005, pp. 105--131  [doi](https://doi.org/10.1090/pspum/073/2131013) [MR2131013](https://mathscinet.ams.org/mathscinet-getitem?mr=2131013)
 
-* V. Dolgushev, D. Tamarkin, B. Tsygan, _Noncommutative calculus and the Gauss-Manin connection_, in: Higher structures in geometry and physics, 139&#8211;158, Progr. Math., 287, Birkh&#228;user/Springer, New York, 2011 , [arXiv:0902.2202](http://arxiv.org/abs/0902.2202)
+* R. Nest, B. Tsygan, _On the cohomology ring of an algebra_, Advances in geometry, Progr. Math. __172__, Birkhauser 1999, pp. 337--370 [arxiv:math.QA/9803132](http://arxiv.org/abs/math/9803132)
+
+* V. Dolgushev, D. Tamarkin, B. Tsygan, _Noncommutative calculus and the Gauss-Manin connection_, in: Higher structures in geometry and physics, 139--158, Progr. Math., 287, Birkh&#228;user/Springer, New York, 2011 , [arXiv:0902.2202](http://arxiv.org/abs/0902.2202)
 
 * K. Behrend, B. Fantechi, _Gerstenhaber and Batalin-Vilkovisky structures on Lagrangian intersections_,
 [pdf](https://www.math.ubc.ca/~behrend/GeBaViLa.pdf)
+
+* Pedro Tamaroff, _The Tamarkin-Tsygan calculus of an algebra a la Stasheff_, Homology, Homotopy and Applications __23__:2 (2021) 257--282 [arXiv:1907.08888](https://arxiv.org/abs/1907.08888) [doi](https://doi.org/10.4310/HHA.2021.v23.n2.a14)
 
 Many examples of such noncommutative differential calculi are constructed using [[Hopf algebroid]]s 
 (Schauenburg's version) in works
