@@ -67,7 +67,11 @@ See also the discussion of higher [[Brauer groups]] in stable homotopy theory (w
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
 
+See also:
 
+* Urs Schreiber, [Picard and Brauer 2-groups](http://golem.ph.utexas.edu/string/archives/000786.html), String Theory Coffee Table, 2006.
+
+* John Baez, [The Brauer 3-group](https://golem.ph.utexas.edu/category/2020/05/the_brauer_3group.html), $n$-Category Caf&eacute;, 2020.
 
 [[!redirects Picard 3-groups]]
 
