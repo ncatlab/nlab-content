@@ -248,7 +248,7 @@ Various notions of continuous function are used in [[constructive mathematics]].
 
 * _pointwise-continuous_ if it [[pointwise continuous function|pointwise continuous]] in the usual [[epsilon-delta]] (or equivalently [[open-subset]]) sense;
 * _uniformly continuous_ if it [[uniformly continuous map|uniformly continuous]] in the usual epsilon-delta (or equivalently [[entourage]]-theoretic) sense;
-* _Bishop-continuous_ if it is pointwise continuous and furthermore, the restriction to any closed and bounded interval is uniformly continuous;
+* _Bishop-continuous_ or _locally uniformly continuous_ if it is pointwise continuous and furthermore, the restriction to any closed and bounded interval is uniformly continuous;
 * _Bridges-continuous_ if ... (this one\'s kind of complicated).
 
 In [[classical mathematics]], these are all equivalent when the domain is itself a closed and bounded interval, and all of them except for uniform continuity are equivalent in general.  The same equivalences hold in [[intuitionistic mathematics]], thanks to the [[fan theorem]].  But no two of these are equivalent in [[Russian constructivism]].
@@ -297,8 +297,6 @@ Waaldijk's negative result can be circumvented by dropping the insistence on poi
 Discussion in [[constructive mathematics]]:
 
 * {#Waaldijk2003} [[Frank Waaldijk]], _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
-
-
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
