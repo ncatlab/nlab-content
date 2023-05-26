@@ -82,7 +82,7 @@ A **formal topology** or **formal space** is a [[type]] $S$ together with
 
 *  an [[element]] $\top:S$,
 *  a [[binary operation]] $\cap:S \times S \to S$,
-*  a [[binary relation]] $a \lhd A$ between elements of $S$, $a:S$, and [[subsets]] of $S$, $A:S \to \Omega$, and
+*  a [[binary relation]] $a \lhd A$ between elements of $S$, $a:S$, and [[subtypes]] of $S$, $A:S \to \Omega$, and
 *  a [[unary relation]] $\Diamond a$ on $S$,
 
 such that
