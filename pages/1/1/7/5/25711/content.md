@@ -1,6 +1,6 @@
 Dendriform algebra is a generic term both for dendriform dialgebras and dendriform trialgebras.
 
-__Dendriform dialgebra__s are algebras over a Koszul quadratic operad which is Koszul dual to the [[associative dialgebra]] operad. They have two binary operations $\prec$, $\nsucc$ (sometimes denoted $\dashv$ and $\vdash$) satisfying 3 quadratic relations. The sum of the two binary operations is an associative operation. 
+__Dendriform dialgebra__s are algebras over a Koszul quadratic operad which is Koszul dual to the [[associative dialgebra]] operad. They have two binary operations $\prec$, $\succ$ (commonly also denoted $\dashv$ and $\vdash$) satisfying 3 quadratic relations. The sum of the two binary operations is an associative operation. 
 
 Dendriform dialgebras were introduced by Loday in his study of K-theory,
 
