@@ -162,6 +162,22 @@ $$
 
 It could be shown that $\frac{\partial}{\partial X}$ is an $R$-[[linear function]] on $R[[X]]$ which satisfies the [[Leibniz rule]], meaning that it is a [[derivation]] and $R[[X]]$ is a [[differential algebra]]. 
 
+If the commutative ring $R$ is a [[commutative algebra]] over $\mathbb{Q}$ (thus permitting division by nonzero [[integers]]), then the set $R[ [X]]$ may be identified with the [[terminal coalgebra of an endofunctor|terminal coalgebra]] $R^\mathbb{N}$ of the [[endofunctor]] $R \times - \colon Set \to Set$ via the map  
+
+$$R[ [X]] \to R^\mathbb{N}\; : \; \sum_{n \geq 0} \frac{a_n X^n}{n!} \mapsto (a_0, a_1, a_2, \ldots)$$ 
+
+whereby the coalgebra structure on $R^\mathbb{N}$, 
+
+$$R^\mathbb{N} \to R \times R^\mathbb{N}\; \colon \; (a_n)_{n \geq 0} \mapsto \langle a_0, (a_{n+1})_{n \geq 0} \rangle,$$ 
+
+corresponds to 
+
+$$R[ [X]] \to R \times R[ [X]]\; \colon\; f(X) \mapsto \langle f(0), \frac{\partial}{\partial X} f(X) \rangle.$$ 
+
+One may then apply [[coinduction|coinductive]] techniques to prove various facts relating to differentiation. 
+
+
+
 ## Ring of power series as rings with infinitesimals
 
 | [[ring]] with [[infinitesimals]] | [[function]] | 
