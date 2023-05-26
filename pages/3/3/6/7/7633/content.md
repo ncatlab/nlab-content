@@ -10,3 +10,5 @@ This problem is ''inverse'' to the problem of computing the Galois group of some
 * Helmut V&#246;lklein, Groups as Galois Groups, an Introduction, Cambridge University Press, 1996.
 
 * ''inverse Galois problem'' in wikipedia, [web](http://en.wikipedia.org/wiki/Inverse_Galois_problem)
+
+### General Solution  
