@@ -45,6 +45,8 @@ In terms of [[linear type theory]] one might speak of _invertible [[types]]_.
 
 * [[dualizable object]]
 
+* [[invertible field theory]]
+
 [[!redirects invertible object]]
 [[!redirects invertible objects]]
 
