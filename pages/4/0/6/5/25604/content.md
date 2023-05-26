@@ -95,7 +95,7 @@ For $V$ a *[[braided monoidal category|symmetric monoidal]]* [[cosmos]],  the [[
 
 ### Enriched monoidal categories
 
-An $V$-enriched monoidal category $\mathbf{C}$ is a [[pseudomonoid]] [[internalization|internal]] to the above monoidal 2-category $V Cat$.
+A $V$-enriched monoidal category $\mathbf{C}$ is a [[pseudomonoid]] [[internalization|internal]] to the above monoidal 2-category $V Cat$.
 
 This means mainly that
 
