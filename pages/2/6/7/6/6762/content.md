@@ -1,21 +1,115 @@
-Day's reflection theorem gives conditions under which a reflective subcategory of a symmetric monoidal closed category is closed under internal homs (or, more strongly, is an "exponential ideal"). The formulation and efficient proof we give are modeled on some notes by Ross Street. 
+\tableofcontents
 
-+-- {: .un_thm}
-######Theorem (Day)
-Let $R: C \to D$ be a fully faithful functor with left adjoint $L \colon D \to C$, and suppose given a symmetric monoidal closed structure on $D$ with tensor $\otimes$ and internal hom $[-, -]$. Then for any object $c$ of $C$ and $d$ of $D$, if any one of the following natural transformations is invertible, then all are: 
+## Idea 
 
-1. $u[d, R c] \colon [d, R c] \to R L[d, R c]$; 
+Day's reflection theorem gives conditions under which a [[reflective subcategory]] of a [[symmetric monoidal closed category]] is closed under [[internal homs]]. 
 
-1. $[u, 1] \colon [R L d, R c] \to [d, R c]$; 
+One memorable consequence of the theorem is that the subcategory is closed under internal homs if the reflector is strong symmetric monoidal. 
 
-1. $L(u \otimes 1) \colon L(d \otimes d') \to L(R L d \otimes d')$; 
+## Statement and Proof
 
-1. $L(u \otimes u) \colon L(d \otimes d') \to L(R L d \otimes R L d')$. 
+\begin{theorem} (Day)
+Let $R: C \to D$ be a [[fully faithful functor]] with [[left adjoint]] $L \colon D \to C$, and suppose given a symmetric monoidal closed structure on $D$ with tensor $\otimes$ and internal hom $[-, -]$. Then for objects $c$ of $C$ and $d, d'$ of $D$, the following are equivalent: 
 
-In particular, if $D$ is cartesian closed and $L$ preserves products, then $R \colon C \to D$ realizes $C$ as an [[exponential ideal]] of $D$. 
-=-- 
+1. $u[d, R c] \colon [d, R c] \to R L[d, R c]$ is an isomorphism; 
 
-+-- {: .proof}
-######Proof 
-I will put this in later. 
-=--
+1. $[u, 1] \colon [R L d, R c] \to [d, R c]$ is an isomorphism; 
+
+1. $L(u \otimes 1) \colon L(d \otimes d') \to L(R L d \otimes d')$ is an isomorphism; 
+
+1. $L(u \otimes u) \colon L(d \otimes d') \to L(R L d \otimes R L d')$ is an isomorphism. 
+
+\end{theorem}
+
+Some remarks before the proof: 
+
+* (a) Since $R$ is fully faithful, the monad $R L$ is [[idempotent monad|idempotent]]. Consequently, $R: C \to D$ is monadic, and algebra structures on an object $d$ are unique when they exist. This makes algebra structure on $d$ a property, that $d \cong R c$ for some $c$ in $C$, unique up to isomorphism. Call this property "being in $C$". Thus condition $\text{1.}$ says that $[d, d']$ is in $C$ for a particular $d' \cong R c$ in $C$. (If $D$ is [[cartesian closed category|cartesian closed]] and $[d, d'] \in C$ whenever $d' \in D$, we say $C$ is an [[exponential ideal]] in $D$.) Notice that all $D$-maps between objects in $C$ are algebra maps, by full faithfulness of $R$. 
+
+* (b) If $d$ is in $C$, then for any $d'$ the unit $u\colon d' \to R L d'$ induces an isomorphism $D(R L d', d) \cong D(d', d)$, since every $f \in D(R L d', d)$ is an algebra map $R L d' \to d$. 
+
+\begin{proof} 
+We prove $\text{3.} \Rightarrow \text{4.} \Rightarrow \text{1.}\; \Rightarrow\; \text{3.}$, and then $\text{2.} \Leftrightarrow \text{3.}$. Some parts are merely sketched; refer to Day for full details. 
+
+$\text{3.}\; \Rightarrow\; \text{4.}$ is obvious from the symmetric structure and 
+
+\begin{center}
+\begin{tikzcd}
+L(d \otimes d') \ar[rr, "L(u \otimes u)"] \ar[dr, swap, "L(u \otimes 1)"] 
+& & L(R L d \otimes R L d') \\ 
+& L(R L d \otimes d') \ar[ur, swap, "L(1 \otimes u)"] &
+\end{tikzcd} 
+\end{center} 
+
+$\text{4.} \Rightarrow \text{1.}$ is proven by giving an algebra structure $R L[d, R c] \to [d, R c]$, obtained by [[currying]] the following composite:  
+
+\begin{tikzcd} 
+R L[d, R c] \otimes d 
+\ar[r, "1 \otimes u"] 
+& R L[d, R c] \otimes R L d 
+\ar[r, "u"] 
+& R L(R L[d, R c] \otimes R L d) 
+\ar[r, "R (L(u \otimes u)^{-1})"] 
+& R L([d, R c] \otimes d) 
+\ar[r, "R L eval"] 
+& R L R c 
+\ar[r, "\cong"] 
+& R c
+\end{tikzcd} 
+
+ 
+(by idempotence of $R L$, to prove this map is an algebra structure, it suffices to show it is left inverse to the unit). 
+
+$\text{1.} \Rightarrow \text{3.}$ is proven by considering the diagram 
+
+\begin{tikzcd} 
+C(L(R L d \otimes d'), c) 
+\ar[r, "{C(L(u \otimes 1), 1)}"] 
+\ar[d, "\cong"] 
+& C(L(d \otimes d'), c) 
+\ar[d, "\cong"] 
+\\ 
+D(R L d \otimes d', R c) \ar[r, "{D(u \otimes 1, 1)}"] \ar[d, "\cong"] & D(d \otimes d', R c) \ar[d, "\cong"] \\ 
+D(R L d, [d', R c]) \ar[r, "{D(u, 1)}"] \ar[d, swap, "{D(1, u)}"] & D(d, [d', R c]) \ar[d, "{D(1, u)}"] \\ 
+D(R L d, R L[d', R c]) \ar[r, "{D(u, 1)}"] & D(d, R L[d', R c]) 
+\end{tikzcd}
+
+which commutes by functoriality and naturality, and where the maps labeled $D(1, u)$ are isomorphisms by assuming $\text{1.}$, and the bottom map labeled $D(u, 1)$ is an isomorphism by invoking remark (b). It follows that the top horizontal map is also an isomorphism. Since this holds for all objects $c$ of $C$, the map $L(u \otimes 1)$ is an isomorphism by the Yoneda lemma, so that $\text{4.}$ holds. 
+
+Finally, $\text{2.} \Leftrightarrow \text{3.}$ is proven by considering the diagram 
+
+\begin{tikzcd} 
+C(L(R L d \otimes d'), c) 
+\ar[r, "{C(L(u \otimes 1), 1)}"] 
+\ar[d, "\cong"] 
+& C(L(d \otimes d'), c) 
+\ar[d, "\cong"] 
+\\ 
+D(R L d \otimes d', R c) \ar[r, "{D(u \otimes 1, 1)}"] \ar[d, "\cong"] & D(d \otimes d', R c) \ar[d, "\cong"] \\ 
+D(d', [R L d, R c]) \ar[r, "{D(1, [u, 1])}"] & D(d', [d, R c]) 
+\end{tikzcd}
+
+and again applying a Yoneda lemma argument. \end{proof} 
+
+## Consequences 
+
+\begin{corollary} 
+If $L$ is a strong [[symmetric monoidal functor]], then for any $c$ in $C$ and $d$ in $D$, the internal hom $[d, c]$ is in $C$. 
+\end{corollary} 
+
+\begin{proof} 
+Full faithfulness of $R$ is equivalent to the [[counit]] $\varepsilon \colon L R \to 1_C$ being an isomorphism. By a [[triangle identity]], this forces $L u$ to be an isomorphism for any unit $u: d \to R L d$. This in turn forces the arrow $L(u \otimes u)$ in the diagram 
+
+\begin{tikzcd} 
+L d \otimes L d' \ar[r, "L u \otimes L u"] \ar[d] & L R L d \otimes L R L d' \ar[d] \\ 
+L(d \otimes d') \ar[r, "L(u \otimes u)"] & L(R L d \otimes R L d') 
+\end{tikzcd} 
+to be an isomorphism, where the vertical arrows are invertible symmetry constraints and the maps $L u$ are isomorphisms. Now apply the equivalence between $\text{4.}$ and $\text{1.}$ from the reflection theorem. 
+\end{proof} 
+
+\begin{corollary} 
+If $D$ is cartesian closed, and the reflector $L \colon D \to C$ preserves products, then $C$ is cartesian closed. 
+\end{corollary} 
+
+## Reference 
+
+[[Brian Day]], A reflection theorem for closed categories, Journal of Pure and Applied Algebra Volume 2, Issue 1 (April 1972), Pages 1-11. [link](https://www.sciencedirect.com/science/article/pii/0022404972900217) (doi: 10.1016/0022-4049(72)90021-7)
