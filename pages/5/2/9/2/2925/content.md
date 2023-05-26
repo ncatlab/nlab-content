@@ -175,6 +175,10 @@ and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7)
 
 * {#Booij18} Auke Booij, *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
+On the intermediate value theorem in [[cohesive homotopy type theory]], see:
+
+* [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
 [[!redirects intermediate value theorem]]
 [[!redirects intermediate value theorems]]
 [[!redirects Intermediate Value Theorem]]
