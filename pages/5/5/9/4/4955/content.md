@@ -126,9 +126,9 @@ this is an oversimplification.  Upon choosing an independent variable, it is pos
 [^invertibility]:  Well, either may be chosen as long as their differentials are nowhere zero, which is exactly what must be true for (1) to make sense.  More precisely, given that $x$ works as an independent variable, the Chain Rule tells us that $u$ works just as well so long as $\mathrm{d}u$ (as defined using $x$) is nowhere zero.  This may be related to the easy but wrong proof of the Chain Rule that founders on a division by zero in exactly the same place (where $\mathrm{d}u$ would be), although I don't see a direct connection. 
 
 
-### Formal algebra 
+### Formal algebra {#FormalAlgebra}
 
-The chain rule can also be discussed as a piece of formal algebra of [[power series]] (over a general [[commutative ring]] $A$). We present a conceptual proof based on considerations of SDG. 
+The chain rule can also be discussed as a piece of formal algebra of [[power series]] (over a general [[commutative ring]] $A$). We present a conceptual proof based on considerations of [[synthetic differential geometry|SDG]]. 
 
 The statement is that if $q, p \in A[ [x] ]$ are power series, with $0$ the $0^{th}$ (constant) [[coefficient]] of $p$, then $(q \circ p)'(x) = q'(p(x))p'(x)$ under standard definitions. 
 
