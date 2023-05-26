@@ -377,11 +377,13 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 supervised by [[Alexander Grothendieck]].
 
+Early textbook account and relation to [[crossed modules]]:
+
 * [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-Exposition and discussion of 2-groups as special [[monoidal categories]] ([[Picard 2-groups]]) is in:
+Exposition and discussion of 2-groups as special [[monoidal categories]] ([[Picard 2-groups]]):
 
-*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories 12 (2004), 423-491. ([arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)).
+*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories **12** (2004) 423-491. &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)&rbrack;
 
 Computational enumeration of geometrically [[discrete group|discrete]] 2-groups using the computer program [XMod](http://pages.bangor.ac.uk/~mas023/chda/xmod/xmod244.html) is reported on in
 
