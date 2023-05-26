@@ -1,4 +1,8 @@
 
+> This is about derivations on [[algebras]]. For derivations in [[logic]], see [[deduction]].
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,14 +13,7 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
-
-## Disambiguation
-
-For derivations in [[logic]], see [[deduction]].
-
+\tableofcontents
 
 ## Definitions
 
