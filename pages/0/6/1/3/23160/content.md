@@ -23,7 +23,7 @@
 
 ## Idea
 
-For $\mathbf{H}$ an [[(infinity,1)-topos|$\infty$-topos]] over the [[base (infinity,1)-topos|base $\infty$]]-[[Infinity-Grpd|$Grpd_\infty$]], it has an essentially unique [[(infinity,1)-geometric morphism|geometric morphism]] to [[Infinity-Grpd|$Grpd_\infty$]]
+For $\mathbf{H}$ an [[(infinity,1)-topos|$\infty$-topos]] over the [[base (infinity,1)-topos|base]] [[Infinity-Grpd|$Grpd_\infty$]], it has an essentially unique [[(infinity,1)-geometric morphism|geometric morphism]] to [[Infinity-Grpd|$Grpd_\infty$]]
 
 \[
   \label{TheGeometricMorphism}
@@ -32,7 +32,7 @@ For $\mathbf{H}$ an [[(infinity,1)-topos|$\infty$-topos]] over the [[base (infin
     {\underset{\Gamma}{\longrightarrow}}
     {\overset{LConst}{\longleftarrow}}
     {\;\;\;\;\bot\;\;\;\;}
-  Grp_\infty
+  Grpd_\infty
 \]
 
 where:
