@@ -23,9 +23,10 @@ Let $R: C \to D$ be a [[fully faithful functor]] with [[left adjoint]] $L \colon
 
 Some remarks before the proof: 
 
-* (a) Since $R$ is fully faithful, the monad $R L$ is [[idempotent monad|idempotent]]. Consequently, $R: C \to D$ is monadic, and algebra structures on an object $d$ are unique when they exist. This makes algebra structure on $d$ a property, that $d \cong R c$ for some $c$ in $C$, unique up to isomorphism. Call this property "being in $C$". Thus condition $\text{1.}$ says that $[d, d']$ is in $C$ for a particular $d' \cong R c$ in $C$. (If $D$ is [[cartesian closed category|cartesian closed]] and $[d, d'] \in C$ whenever $d' \in D$, we say $C$ is an [[exponential ideal]] in $D$.) Notice that all $D$-maps between objects in $C$ are algebra maps, by full faithfulness of $R$. 
+* (a) Since $R$ is fully faithful, the [[monad]] $R L$ is [[idempotent monad|idempotent]]. Consequently, $R: C \to D$ is [[monadic functor|monadic]], and algebra structures on an object $d$ are unique when they exist. This makes algebra structure on $d$ a [[stuff, structure, property
+|property]], that $d \cong R c$ for some $c$ in $C$, unique up to isomorphism. Call this property "being in $C$". Thus condition $\text{1.}$ says that $[d, d']$ is in $C$ for a particular $d' \cong R c$ in $C$. (If $D$ is [[cartesian closed category|cartesian closed]] and $[d, d'] \in C$ whenever $d' \in D$, we say $C$ is an [[exponential ideal]] in $D$.) Notice that all $D$-maps between objects in $C$ are algebra maps, by full faithfulness of $R$. 
 
-* (b) If $d$ is in $C$, then for any $d'$ the unit $u\colon d' \to R L d'$ induces an isomorphism $D(R L d', d) \cong D(d', d)$, since every $f \in D(R L d', d)$ is an algebra map $R L d' \to d$. 
+* (b) If $d$ is in $C$, then for any $d'$ the unit $u\colon d' \to R L d'$ induces an isomorphism $D(R L d', d) \cong D(d', d)$, since every $f \in D(R L d', d)$ is an algebra map $R L d' \to d$ and $R L d'$ is the [[free object|free algebra]] on $d'$. 
 
 \begin{proof} 
 We prove $\text{3.} \Rightarrow \text{4.} \Rightarrow \text{1.}\; \Rightarrow\; \text{3.}$, and then $\text{2.} \Leftrightarrow \text{3.}$. Some parts are merely sketched; refer to Day for full details. 
