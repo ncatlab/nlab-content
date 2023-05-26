@@ -117,7 +117,7 @@ specifically in the [[Coq]] [[proof assistant]]:
 * [[Adam Chlipala]], §10.1 in: _Certified programming with dependent types_, MIT Press 2013 &lbrack;[ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/)&rbrack;
 
 
-[[!redirects definitional equality]]
+[[!redirects Definitional equality]]
 [[!redirects definitional equalities]]
 [[!redirects intensional equality]]
 [[!redirects intensional equalities]]
