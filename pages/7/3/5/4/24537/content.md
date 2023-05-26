@@ -1,3 +1,5 @@
+This entry is about an algebraic structure of _brace_ stemming from the study of set-theoretic Yang-Baxter equation. See entry [[brace algebra]] for another algebraic structure, with $n$-ary operations, "braces".
+
 ### Definition
 
 A __left brace__ is left [[truss]] which is an Abelian group under its multiplicative operation. 
