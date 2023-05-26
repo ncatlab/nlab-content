@@ -43,6 +43,8 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 * PIE-limits together with splitting of idempotent equivalences
 * strict pseudo-limits together with splitting of idempotents
 * strict pseudo-limits together with splitting of idempotent equivalences
+* [[products]], [[powers]], splitting of idempotents, [[pullbacks]] of [[normal isofibrations]]
+* [[products]], [[powers]], splitting of idempotents, [[pullbacks]] of [[amnestic isofibrations]]
 
 ## Related pages
 
@@ -51,6 +53,8 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 ## References
 
 * G. J. Bird, [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** Issue 1 (1989) pp 1-27. doi:[10.1016/0022-4049(89)90065-0](http://dx.doi.org/10.1016/0022-4049(89%2990065-0)
+
+* [[John Bourke]]. _Accessible aspects of 2-category theory_. Journal of Pure and Applied Algebra 225.3 (2021): 106519.
 
 
 [[!redirects flexible limit]]
