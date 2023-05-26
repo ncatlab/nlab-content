@@ -523,7 +523,7 @@ to be the simplicial groupoid whose $n$-morphisms are the homomorphism of [[sSet
 \]
 \end{proposition}
 \begin{proof}
-This is a standard argument. The point of Def. \ref{SimplicialMappingGroupoid} is that, in view of Rem. \ref{CoRepresentingNMorphismsOfSimplicialGroupoids} is that we have [[natural bijections]] of [[hom-sets]]
+This is a standard argument. The point of Def. \ref{SimplicialMappingGroupoid}, in view of Rem. \ref{CoRepresentingNMorphismsOfSimplicialGroupoids}, is that we have [[natural bijections]] of [[hom-sets]]
 $$
   Hom\big(
     \mathcal{I}^{(n)}
