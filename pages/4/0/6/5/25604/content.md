@@ -21,7 +21,7 @@
 
 The notion of *enriched monoidal categories* is a compatible combination of the notions of *[[enriched categories]]* and *[[monoidal categories]]*. The main point is that the [[tensor product]]-[[functor]] on the [[underlying]] [[monoidal category]] is properly an [[enriched functor]] with respect to the [[underlying]] [[enriched category]].
 
-A special case are [[tensor categories]], which are ([[Vect]],[[tensor product of vector spaces|$\otimes$]])-enriched monoidal categories.
+Special cases include [[tensor categories]], which are ([[Vect]],[[tensor product of vector spaces|$\otimes$]])-enriched monoidal categories.
 
 ## Definition
 
