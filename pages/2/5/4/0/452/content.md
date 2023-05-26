@@ -298,8 +298,16 @@ see also
 
 Note that the geometric core of the proof uses [[knot theory]] and transversality arguments which come from the "previous paper" of Whitehead:
 
+* _On adding relations to  homotopy groups_, Annals of Math., 42 (1941) 400-428. 
 
-*  _On adding relations to  homotopy groups_, Annals of Math., 42 (1941) 400-428. 
+Textbook account of crossed modules and their relation to [[strict 2-groups]]:
+
+* [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+further expoisition:
+
+*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], pp. 45 of: *HDA V: 2-Groups*, Theory and Applications of Categories **12** (2004) 423-491. &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)&rbrack;
+
  
 The following paper 
 
@@ -311,8 +319,6 @@ showed that the theorem of Whitehead on free crossed modules from CH II Sec 16 i
 * [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (2011). 
 
 See also 
-
-* [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 
 * [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  Homology, Homotopy and Applications, 1 (1999) 1-78.
