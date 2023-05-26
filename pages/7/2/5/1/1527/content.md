@@ -20,7 +20,7 @@ applied, the respective outputs are still related. Since any bisimulation must b
 
 Coinduction is [[duality|dual]] to [[induction]].  It generalises to [[corecursion]].
 
-## Examples
+## Examples {#Examples}
 
 +-- {: .num_example} 
 ###### Example 
