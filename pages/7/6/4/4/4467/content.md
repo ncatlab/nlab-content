@@ -72,23 +72,17 @@ The last example is not predicative, and this is in part *why* one studies forma
 
 ## In dependent type theory
 
-In [[dependent type theory]], if one doesn't have a [[type of all propositions]], then one usually cannot define a relation between a type $S$ and the type of all subtypes of $S$, which is necessary for defining the coverage $\lhd$. Instead, one has to use a [[Tarski universe]] to define the type of all locally $U$-small subtypes of $S$, and use that to define a locally $U$-small formal topology on $S$. 
+In [[dependent type theory]], let $(\Omega, \mathrm{El}_\Omega)$ be the [[type of all propositions]], and let the relation $a \in_S A$ for $a:S$ and $A:S \to \Omega$ as
 
-Let $(U, T)$ be a [[Tarski universe]], and let $\mathrm{Prop}_U$ be the type of all propositions in $U$
+$$a \in_S A \coloneqq \mathrm{El}_\Omega(A(a))$$
 
-$$\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(T(A))$$
+The singleton subtype function is a function $\{-\}:S \to (S \to \Omega)$, such that for all elements $a:S$, $p(a):a \in_S \{a\}$, and for all functions $R:S \to (S \to \Omega)$ such that for all elements $a:S$, $p_R(a):a \in_S R(a)$, the type of functions $(b \in_S \{a\}) \to (b \in_S R(a))$ is contractible for all $a:A$ and $b:A$. 
 
-which comes with an [[embedding]] $\mathrm{asType}_U:\mathrm{Prop}_U \hookrightarrow U$. In addition, we define the relation $a \in_S^U A$ for $a:S$ and $A:S \to \mathrm{Prop}_U$ as
-
-$$a \in_S^U A \coloneqq \mathrm{isContr}(T(\mathrm{asType}(A(a)))$$
-
-The singleton subtype function is a function $\{-\}:S \to (S \to \mathrm{Prop}_U)$, such that for all elements $a:S$, $p(a):a \in_S^U \{a\}$, and for all functions $R:S \to (S \to \mathrm{Prop}_U)$ such that for all elements $a:S$, $p_R(a):a \in_S^U R(a)$, the type of functions $(b \in_S^U \{a\}) \to (b \in_S^U R(a))$ is contractible for all $a:A$ and $b:A$. 
-
-Given a [[Tarski universe]] $(U, T)$, a **locally $U$-small formal topology** or **locally $U$-small formal space** is a [[type]] $S$ together with
+A **formal topology** or **formal space** is a [[type]] $S$ together with
 
 *  an [[element]] $\top:S$,
 *  a [[binary operation]] $\cap:S \times S \to S$,
-*  a [[binary relation]] $a \lhd A$ between elements of $S$, $a:S$, and locally $U$-small [[subsets]] of $S$, $A:S \to \mathrm{Prop}_U$, and
+*  a [[binary relation]] $a \lhd A$ between elements of $S$, $a:S$, and [[subsets]] of $S$, $A:S \to \Omega$, and
 *  a [[unary relation]] $\Diamond a$ on $S$,
 
 such that
@@ -97,21 +91,21 @@ such that
 $$\mathrm{idToFormalTop}(a, b):(a =_S b) \to ((a \lhd \{b\}) \times (b \lhd \{a\}))$$
 is an [[equivalence of types]]. 
 $$\prod_{a:S} \prod_{b:S} \mathrm{isEquiv}(\mathrm{idToFormalTop}(a, b))$$
-2. For all elements $a:S$ and subsets $A:S \to \mathrm{Prop}_U$, if $a \in_S^U A$, then $a \lhd A$
-$$\prod_{a:S} \prod_{A:S \to \mathrm{Prop}_U} (a \in_S^U A) \to (a \lhd A)$$
-3.  For all elements $a:S$ and subsets $A:S \to \mathrm{Prop}_U$ and $B:S \to \mathrm{Prop}_U$, if $a \lhd A$ and for all elements $x:S$, $x \lhd B$ and $x \in_S^U A$, then $a \lhd B$
-$$\prod_{a:S} \prod_{A:S \to \mathrm{Prop}_U} \prod_{B:S \to \mathrm{Prop}_U} \left((a \lhd A) \times \prod_{x:S} (x \in_S^U A) \times (x \lhd B)\right) \to (a \lhd B)$$
-4.  For all elements $a:S$ and $b:S$ and subsets $A:S \to \mathrm{Prop}_A$, if $a \lhd A$ or $b \lhd A$, then $a \cap b \lhd A$.
-$$\prod_{a:S} \prod_{b:S} \prod_{A:S \to \mathrm{Prop}_U} ((a \lhd A) \times (b \lhd A)) \to (a \cap b \lhd A)$$
-5.  For all elements $a:S$ and subsets $A:S \to \mathrm{Prop}_U$ and $B:S \to \mathrm{Prop}_U$, if $a \lhd A$ and $a \lhd B$, then
-$$a \lhd \sum_{z:S} \prod_{x:S} \prod_{y:S} (x \in_S^U A) \times (y \in_S^U B) \times (z =_S x \cap u)$$
-$$\prod_{a:S} \prod_{A:S \to \mathrm{Prop}_U} \prod_{B:S \to \mathrm{Prop}_U} (a \lhd A) \times (a \lhd B) \to \left(a \lhd \sum_{z:S} \prod_{x:S} \prod_{y:S} (x \in_S^U A) \times (y \in_S^U B) \times (z =_S x \cap y)\right)$$
+2. For all elements $a:S$ and subsets $A:S \to \Omega$, if $a \in_S A$, then $a \lhd A$
+$$\prod_{a:S} \prod_{A:S \to \Omega} (a \in_S A) \to (a \lhd A)$$
+3.  For all elements $a:S$ and subsets $A:S \to \Omega$ and $B:S \to \Omega$, if $a \lhd A$ and for all elements $x:S$, $x \lhd B$ and $x \in_S A$, then $a \lhd B$
+$$\prod_{a:S} \prod_{A:S \to \Omega} \prod_{B:S \to \Omega} \left((a \lhd A) \times \prod_{x:S} (x \in_S A) \times (x \lhd B)\right) \to (a \lhd B)$$
+4.  For all elements $a:S$ and $b:S$ and subsets $A:S \to \Omega$, if $a \lhd A$ or $b \lhd A$, then $a \cap b \lhd A$.
+$$\prod_{a:S} \prod_{b:S} \prod_{A:S \to \Omega} ((a \lhd A) \times (b \lhd A)) \to (a \cap b \lhd A)$$
+5.  For all elements $a:S$ and subsets $A:S \to \Omega$ and $B:S \to \Omega$, if $a \lhd A$ and $a \lhd B$, then
+$$a \lhd \sum_{z:S} \prod_{x:S} \prod_{y:S} (x \in_S A) \times (y \in_S B) \times (z =_S x \cap u)$$
+$$\prod_{a:S} \prod_{A:S \to \Omega} \prod_{B:S \to \Omega} (a \lhd A) \times (a \lhd B) \to \left(a \lhd \sum_{z:S} \prod_{x:S} \prod_{y:S} (x \in_S A) \times (y \in_S B) \times (z =_S x \cap y)\right)$$
 6.  For all elements $a:S$, $a \lhd \{\top\}$,
 $$\prod_{a:S} a \lhd \{\top\}$$
-7.  For all elements $a:S$ and subsets $A:S \to \mathrm{Prop}_U$, if $\Diamond a$ and $a \lhd A$, there exists an element $x:S$ such that $x \in_S A$ and $\Diamond x$. 
-$$\prod_{a:S} \prod_{A:S \to \mathrm{Prop}_U} (\Diamond a) \times (a \lhd A) \to \sum_{x:S} (x \in_S A) \times (\Diamond x)$$
-8.  For all elements $a:S$ and subsets $A:S \to \mathrm{Prop}_U$, if $\Diamond a$ implies $a \lhd A$, then $a \lhd A$. 
-$$\prod_{a:S} \prod_{A:S \to \mathrm{Prop}_U} (\Diamond a \to a \lhd A) \to (a \lhd A)$$
+7.  For all elements $a:S$ and subsets $A:S \to \Omega$, if $\Diamond a$ and $a \lhd A$, there exists an element $x:S$ such that $x \in_S A$ and $\Diamond x$. 
+$$\prod_{a:S} \prod_{A:S \to \Omega} (\Diamond a) \times (a \lhd A) \to \sum_{x:S} (x \in_S A) \times (\Diamond x)$$
+8.  For all elements $a:S$ and subsets $A:S \to \Omega$, if $\Diamond a$ implies $a \lhd A$, then $a \lhd A$. 
+$$\prod_{a:S} \prod_{A:S \to \Omega} (\Diamond a \to a \lhd A) \to (a \lhd A)$$
 
 ## References
 
