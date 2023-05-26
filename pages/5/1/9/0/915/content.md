@@ -13,6 +13,12 @@ In older literature (into the 20th century, especially in analysis), functions w
 
 ## Definitions
 
+### With power sets
+
+Given sets $A$ and $B$, a **multi-valued function** $f$ from $A$ to $B$ is a function $f$ from $A$ to the [[power set]] $\mathcal{P}(B)$ such that for each element $x$ in $A$ the subset $f(x)$ of $B$ is [[inhabited set|inhabited]]. By [[uncurrying]] the function one gets an [[entire relation]]. 
+
+### Without power sets
+
 Given [[set]]s $A$ and $B$, a __multi-valued function__ $f$ from a $A$ to $B$ is a [[span]]
 $$ \array {
   &              & D \\
@@ -26,7 +32,6 @@ We will call $A$ and $B$ the _[[source]]_ and _[[target]]_ of $f$ as usual; then
 Often one can assume that the induced function $D \to A \times B$ is an [[injection]]; in that case, a multi-valued function is the same as an [[entire relation]].  On the other hand, if you\'re considering all of the multi-valued functions for a given $D$, then this restriction is not really appropriate.
 
 We consider two multi-valued functions (with the same given source and target) to be __equal__ if there is a [[bijection]] between their domains that makes the obvious diagrams commute.
-
 
 ## Examples
 
