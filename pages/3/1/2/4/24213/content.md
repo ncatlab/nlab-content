@@ -25,37 +25,45 @@ One interesting open problem (considered by [[Vladimir Voevodsky]] and others): 
 
 Classically, a _[[semi-simplicial object]]_ in some [[category]] is much like a [[simplicial object]], but without any [[degeneracy maps]]; i.e. it is a [[contravariant functor]] from the category $\Delta_i$, of finite nonempty ordinals and just [[injections]] between them as [[morphisms]].
 
-Can we define these internally to [[type theory]], that is as a [[functor]] from $\Delta_i$ to [[types]] in [[homotopy type theory]], in some way?
+Can we define these internally to [[type theory]], that is as a [[functor]] from $\Delta_i$ to a [[type universe]] $U$ in [[homotopy type theory]], in some way?
 
 The initial idea, proposed at IAS, was to represent semi-simplicial types not as a contravariant functor but, iterating the [[categorical semantics of dependent types|correspondence between fibrations and families]], as a family of families, what could be called an "indexed" presentation of semi-simplicial types based on "iterated dependencies".
 
-
 ## Semi-simplicial types as families of families of $n$-semi-simplices
+
+### Small semi-simplicial types
 
 To illustrate the idea of semi-simplicial types as families of families of $n$-semi-simplices, let us consider the finite-dimensional parts of such semi-simplicial type:
 
-A 0-semi-simplicial type is just a type $X_0\,:\,Type$.
+Let $U$ be a [[type universe]]. Then, 
 
-A 1-semi-simplicial type: $X_0\,:\,Type$, and $X_1\,:\,X_0 \rightarrow X_0 \rightarrow Type$.
+* A $U$-small 0-semi-simplicial type is just a $U$-small type $X_0:U$.
 
-A 2-semi-simplicial type:
+* A $U$-small 1-semi-simplicial type is $U$-small 0-semi-simplicial type $X_0$ with a family of $U$-small types 
+$$x_0:X_0, x_1:X_0 \vdash X_1(x_0, x_1):U$$
 
-  $X_0\,:\,Type$;  
-  $X_1\,:\, X_0 \rightarrow X_0 \rightarrow Type$;  
-  $X_2\,:\,forall\:(x y z\,:\,X_0)\:(f\,:\,X_1 x y)\:(g\,:\,X_1 y z)\:(h\,:\,X_1 x z), Type$
+* A $U$-small 2-semi-simplicial type is a $U$-small 1-semi-simplicial type $(X_0, X_1)$ with a family of $U$-small types
+$$x:X_0, x_1:X_0, x_2:X_0, x_{0, 1}:X_1(x_0, x_1), x_{1, 2}:X_1(x_1, x_2), x_{0, 2}:X_1(x_0, x_2) \vdash X_2(x_0, x_1, x_2, x_{0, 1}, x_{1, 2}, x_{0, 2}):U$$
+representing triangular configurations from $X_0$ and $X_1$. 
 
-A 3-semi-simplicial type:
-
-  $(X_0,X_1,X_2)$ as before; and  
-  $X_3:\,forall \,(\text{tetrahedral configurations from} \,X_0 \ldots X_2), Type$
+* A $U$-small 3-semi-simplicial type is a $U$-small 2-semi-simplicial type $(X_0, X_1, X_2)$ with a family of $U$-small types 
+$$\begin{array}{l}
+x:X_0, x_1:X_0, x_2:X_0, x_3:X_0, \\
+x_{0, 1}:X_1(x_0, x_1), x_{1, 2}:X_1(x_1, x_2), x_{2, 3}:X_1(x_2, x_3), \\ 
+x_{0, 2}:X_1(x_0, x_2), x_{1, 3}:X_1(x_1, x_3), x_{0, 3}:X_1(x_0, x_3), \\ 
+x_{0, 1, 2}:X_2(x_0, x_1, x_2, x_{0, 1}, x_{1, 2}, x_{0, 2}), x_{0, 1, 3}:X_2(x_0, x_1, x_3, x_{0, 1}, x_{1, 3}, x_{0, 3}), \\
+x_{0, 2, 3}:X_2(x_0, x_2, x_3, x_{0, 2}, x_{2, 3}, x_{0, 3}), x_{1, 2, 3}:X_2(x_1, x_2, x_3, x_{1, 2}, x_{2, 3}, x_{1, 3}), \\
+\vdash X_2(x_0, x_1, x_2, x_3, x_{0, 1}, x_{1, 2}, x_{2, 3}, x_{0, 2}, x_{1, 3}, x_{0, 3}, x_{0, 1, 2}, x_{0, 1, 3}, x_{0, 2, 3}, x_{1, 2, 3}):U
+\end{array}$$
+representing tetrahedral configurations from $X_0$, $X_1$ and $X_2$. 
 
 And so on.
 
-Each of these can be tupled up as a single type.
+Each of these can be packed up in single type through [[product types]] and [[dependent function types]]. Thus, given a type universe $U$,
 
-* Can we define a function "$\text{Semi-simplicial}\,:\,nat \rightarrow Type$", such that for $n = 0,1,2,3$, $\text{Semi-simplicial}\,n$ is (equivalent to) the objects explicitly defined here?
+* Can we define a function "$\text{Semi-simplicial}:\mathbb{N} \to U$", such that for $n = 0,1,2,3$, the $U$-small type $\text{Semi-simplicial}(n)$ is (equivalent to) the objects explicitly defined here?
 
-* Can we define a type of semi-simplicial types (i.e. infinity-semi-simplicial types) with $n$-simplices for all $n$?
+* Can we define a type of $U$-small semi-simplicial types (i.e. infinity-semi-simplicial types) with $n$-simplices for all $n$?
 
 A first sketch of a definition was given in by [Voevodsky (2012)](#Voevodsky12), suggesting that defining such families requires to define restrictions, then to prove that restrictions of restrictions commute, but then also to prove higher-dimensional coherence conditions on restrictions.
 
