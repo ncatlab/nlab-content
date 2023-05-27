@@ -45,6 +45,36 @@ The ring of formal power series for multiple indeterminants $X_i$ is constructed
 $$R[[X_1, X_2, \ldots X_n]][[X_{n+1}]] \coloneqq \underset{\leftarrow}\lim R[[X_1, X_2, \ldots X_n]]/(X_{n+1})^m$$
 The resulting commutative ring is usually just written as $R[[X_1, X_2, \ldots X_n, X_{n+1}]]$. 
 
+## Examples
+
+### Polynomials
+
+For a natural number $k$, a power series $\sum_{n=0}^\infty a_n X^n$ such that $a_n = 0$ for all $n \gt k$ is a [[polynomial]] of degree at most $k$.
+
+### Taylor series
+
+* [[Taylor series]]
+
+### MacLaurin series
+
+For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[MacLaurin series]] (its [[Taylor series]] at $0$) is the power series
+
+$$
+  \sum_{n = 0}^\infty  
+   \frac{1}{n!} f^{(n)}(0) x^n
+  \,.
+$$
+
+If this power series [[convergence|converges]] to $f$, then we say that $f$ is _[[analytic function|analytic]]_.
+
+### Laurent series
+
+* [[Laurent series]]
+
+### Puiseux series
+  
+* [[Puiseux series]]
+
 ## Properties
 
 * An element $a = a_0 + a_1 x + a_2 x^2 + \ldots$ in $R[ [x] ]$ is (multiplicatively) invertible iff $a_0$ is invertible. 
@@ -158,48 +188,7 @@ $$(1 + x)^r \coloneqq \exp(r \log(1 + x)) = \sum_{k \geq 0} \frac{r^\underline{k
 
 where, remarkably, $r$ is an arbitrary element of $R$ (!). 
 
-In power series rings with multiple indeterminants $R[[X_1, X_2, \ldots X_n]]$ where $R$ be a [[commutative ring]], there is a formal [[partial differentiation]] operator for every single indeterminant:
 
-$$\frac{\partial}{\partial X_i}:R[[X_1, X_2, \ldots X_n]] \to R[[X_1, X_2, \ldots X_n]]$$
-
-because for each $X_i$, the power series ring $R[[X_1, X_2, \ldots X_n]]$ is the same as the power series ring $R[[X_1, X_2, \ldots X_{i - 1}, X_{i + 1} \ldots X_n]][[X_i]]$ due to the commutative property for multiplication in any power series ring. The coefficients $a_k$ in the formula 
-$$
-  \frac{\partial}{\partial X_i}\left(\sum_{k = 0}^\infty a_k X_i^k\right) \coloneqq \sum_{k = 0}^\infty a_{k + 1} (k + 1) X_i^k
-$$
-are elements of the power series ring $R[[X_1, X_2, \ldots X_{i - 1}, X_{i + 1} \ldots X_n]]$. 
-
-Partial derivatives commute with each other: given indeterminants $X_i$ and $X_j$ for $1 \leq i, j \leq n$, 
-$$\frac{\partial}{\partial X_i} \circ \frac{\partial}{\partial X_j} = \frac{\partial}{\partial X_j} \circ \frac{\partial}{\partial X_i}$$
-
-## Examples
-
-### Polynomials
-
-For a natural number $k$, a power series $\sum_{n=0}^\infty a_n X^n$ such that $a_n = 0$ for all $n \gt k$ is a [[polynomial]] of degree at most $k$.
-
-### Taylor series
-
-* [[Taylor series]]
-
-### MacLaurin series
-
-For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[MacLaurin series]] (its [[Taylor series]] at $0$) is the power series
-
-$$
-  \sum_{n = 0}^\infty  
-   \frac{1}{n!} f^{(n)}(0) x^n
-  \,.
-$$
-
-If this power series [[convergence|converges]] to $f$, then we say that $f$ is _[[analytic function|analytic]]_.
-
-### Laurent series
-
-* [[Laurent series]]
-
-### Puiseux series
-  
-* [[Puiseux series]]
 
 ## Ring of power series as rings with infinitesimals
 
