@@ -194,7 +194,7 @@ The [[internal logic]] of ([[closed monoidal category|closed]]) symmetric monoid
 ### Permutations
 
 For every $n \ge 2$ and $\sigma \in \mathfrak{S}_{n}$, there is a [[natural transformation]] 
-$$\sigma: A_{1} \otimes ... \otimes A_{n} \rightarrow A_{\sigma^{-1}(1)} \otimes ... \otimes A_{\sigma^{-1}(n)}$$
+$$\sigma_{A_{1},...,A_{n}}: A_{1} \otimes ... \otimes A_{n} \rightarrow A_{\sigma^{-1}(1)} \otimes ... \otimes A_{\sigma^{-1}(n)}$$
 that is defined by the decomposition of a [[permutation]] in a product of adjacent [[transpositions]] and generalizes the [[braiding]] 
 $$
 B:A_{1} \otimes A_{2} \rightarrow A_{2} \otimes A_{1}
