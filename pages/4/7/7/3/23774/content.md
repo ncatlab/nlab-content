@@ -57,57 +57,7 @@ In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in th
 
 ### Partial inverse functions ###
 
-Given a real quadratic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^2 + b x + c$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$ such that $\vert a \vert \gt 0$, as shown above
-
-$$
-  f(x) = a \left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4 a c}{4a}
-$$
-
-The [[exponential function]] $\exp:\mathbb{R} \to (0, \infty) \hookrightarrow \mathbb{R}$ and [[natural logarithm]] $\ln:(0, \infty) \to \mathbb{R}$ are well defined and are [[inverse functions]] of each other. The square function could be defined on the open interval $(0, \infty)$ as $x^2 = \exp(2 \ln(x))$ and on the open interval $(-\infty, 0)$ as $x^2 = \exp(2 \ln(-x))$. Substituting these definitions into the above formula for the quadratic function results in the following: 
-
-$$
-  f(x) = 
-\begin{cases}
-a \exp\left(2 \ln \left(x + \frac{b}{2a}\right)\right) - \frac{b^2 - 4 a c}{4a} & x \gt -\frac{b}{2a} \\
-a \exp\left(2 \ln \left(-\left(x + \frac{b}{2a}\right)\right)\right) - \frac{b^2 - 4 a c}{4a} & x \lt -\frac{b}{2a}
-\end{cases}
-$$
-
-Suppose that $x \gt -\frac{b}{2a}$. Then the partial inverse function of the right branch of $x^2$, denoted as $g$, is given by the functional equation 
-
-$$x = a \exp\left(2 \ln\left(g(x) + \frac{b}{2a}\right)\right) - \frac{b^2 - 4 a c}{4a}$$
-
-$$x + \frac{b^2 - 4 a c}{4a} = a \exp\left(2 \ln\left(g(x) + \frac{b}{2a}\right)\right)$$
-
-$$\frac{x}{a} + \frac{b^2 - 4 a c}{4a^2} = \frac{4 a x + b^2 - 4 a c}{4a^2} = \exp\left(2 \ln\left(g(x) + \frac{b}{2a}\right)\right)$$
-
-$$\ln\left(\frac{4 a x + b^2 - 4 a c}{4a^2}\right) = \ln(4 a x + b^2 - 4 a c) - 2 \ln(2a) = 2 \ln\left(g(x) + \frac{b}{2a}\right)$$
-
-$$\frac{1}{2} \ln(4 a x + b^2 - 4 a c) - \ln(2a) = \ln\left(g(x) + \frac{b}{2a}\right)$$
-
-$$\exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c) - \ln(2a)\right) = \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right) \exp(-\ln(2a)) = \frac{1}{2a} \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right) = g(x) + \frac{b}{2a}$$
-
-$$g(x) = \frac{-b + \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right)}{2a}$$
-
-Now, suppose that $x \lt -\frac{b}{2a}$. Then the partial inverse function of the left branch of $x^2$, denoted as $h$, is given by the functional equation 
-
-$$x = a \exp\left(2 \ln\left(-\left(h(x) + \frac{b}{2a}\right)\right)\right) - \frac{b^2 - 4 a c}{4a}$$
-
-$$x + \frac{b^2 - 4 a c}{4a} = a \exp\left(2 \ln\left(-\left(h(x) + \frac{b}{2a}\right)\right)\right)$$
-
-$$\frac{x}{a} + \frac{b^2 - 4 a c}{4a^2} = \frac{4 a x + b^2 - 4 a c}{4a^2} = \exp\left(2 \ln\left(-\left(h(x) + \frac{b}{2a}\right)\right)\right)$$
-
-$$\ln\left(\frac{4 a x + b^2 - 4 a c}{4a^2}\right) = \ln(4 a x + b^2 - 4 a c) - 2 \ln(2a) = 2 \ln\left(-\left(h(x) + \frac{b}{2a}\right)\right)$$
-
-$$\frac{1}{2} \ln(4 a x + b^2 - 4 a c) - \ln(2a) = \ln\left(-\left(h(x) + \frac{b}{2a}\right)\right)$$
-
-$$\exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c) - \ln(2a)\right) = \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right) \exp(-\ln(2a)) = \frac{1}{2a} \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right) = -\left(h(x) + \frac{b}{2a}\right)$$
-
-$$-\exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right) = h(x) + \frac{b}{2a}$$
-
-$$h(x) = \frac{-b - \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right)}{2a}$$
-
-If $a \gt 0$, then $g$ and $h$ have domain 
+Given a real quadratic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^2 + b x + c$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$ such that $\vert a \vert \gt 0$, since $f$ is [[continuously differentiable]] if $\vert a \vert \gt 0$, due to the [[inverse function theorem]], there are two branches of the partial inverse function of $f$, $g$ and $h$, such that if $a \gt 0$, then $g$ and $h$ have domain 
 
 $$\left(c - \frac{b^2}{4a}, \infty\right)$$
 
@@ -115,43 +65,59 @@ and if $a \lt 0$, $g$ and $h$ have domain
 
 $$\left(-\infty,c - \frac{b^2}{4a}\right)$$ 
 
-### Positive discriminant and the quadratic formula
+In both cases, $g$ and $h$ are defined as solutions to the first-order nonlinear [[ordinary differential equation]]
 
-Provided that zero is in the domain of $g$ and $h$, the **real quadratic formula** is then the evaluation of $g$ and $h$, the two inverse functions of $f$, at zero:
+$$(2 a F + b) \frac{d F}{d x} = 1$$
 
-$$g(0) = \frac{-b + \exp\left(\frac{1}{2} \ln(b^2 - 4 a c)\right)}{2a}$$
+with the initial conditions for the principal branch $g$ are
 
-$$h(0) = \frac{-b - \exp\left(\frac{1}{2} \ln(b^2 - 4 a c)\right)}{2a}$$
+$$g\left((a + b + c) + \left(c - \frac{b^2}{4a}\right)\right) = 1 - \frac{b}{2a}$$
 
-\begin{theorem}
-Zero is in the domain of $g$ and $h$ if and only if the original real quadratic function $f$ has a positive discriminant. 
-\end{theorem}
+and the initial conditions for the reflected branch $h$ are
 
-\begin{proof}
-Suppose that zero is in the domain of $g$ and $h$. This means that when $a \gt 0$, $c - \frac{b^2}{4a} \lt 0$, and $b^2 - 4 a c \gt 0$; when $a \gt 0$, $c - \frac{b^2}{4a} \gt 0$, and $b^2 - 4 a c \gt 0$. In both cases, the discriminant $\Delta = b^2 - 4 a c \gt 0$. These algebraic and order theoretic operations are reversible, because $a$ is apart from zero and thus multiplicatively invertible in the real numbers, so the proof runs backwards beginning with a positive discriminant $\Delta = b^2 - 4 a c \gt 0$ and ending with zero being in the domain of $g$ and $h$. Thus, zero is in the domain of $g$ and $h$ if and only if $f$ has a positive discriminant. 
-\end{proof}
+$$h\left((a - b + c) + \left(c - \frac{b^2}{4a}\right)\right) = -1 - \frac{b}{2a}$$
 
-Thus, the real quadratic formula is only valid for real quadratic functions with positive discriminant. 
+As a result, $g$ and $h$ are automatically pointwise [[continuously differentiable]], and for every $x$ in the domain of $g$ and $h$,
 
-### Zero discriminant ###
+$$g(x) \gt -\frac{b}{2a}$$ 
 
-While the real quadratic formula is only valid for real quadratic functions with positive discriminant, when zero is on the [[boundary]] of the [[open interval]] of the domains of $g$ and $h$ and the discriminant is equal to zero, one could take the limit of the real quadratic formula as the parameter goes to zero and in both cases get 
+$$h(x) \lt -\frac{b}{2a}$$ 
 
-for $a \gt 0$
+Since this differential equation is separable, one could use separation of variables to see that $g$ and $h$ satisfy the [[functional equations]] $a g(x)^2 + b g(x) + c = x$ and $a h(x)^2 + b h(x) + c = x$. 
 
-$$\lim_{x \to 0^+} g(x) = \lim_{x \to 0^+} \frac{-b + \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right)}{2a} = - \frac{b}{2a} + \frac{1}{2a} \lim_{x \to 0^+} \exp\left(\frac{1}{2} \ln(4 a x)\right) = -\frac{b}{2a}$$
+If the discriminant $\Delta = b^2 - 4 a c$ is greater than zero $\Delta \gt 0$, then the quadratic function $f$ has two zeroes apart from each other. The larger of the two zero of $f(x)$ is at $g(0)$ and the smaller zero of $f(x)$ is at $h(0)$. If the discriminant is less than or equal to zero $\Delta \leq 0$, then zero isn't in the domain of either $g$ and $h$. 
 
-$$\lim_{x \to 0^+} h(x) = \lim_{x \to 0^+} \frac{-b - \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right)}{2a} = - \frac{b}{2a} - \frac{1}{2a} \lim_{x \to 0^+} \exp\left(\frac{1}{2} \ln(4 a x)\right) = -\frac{b}{2a}$$
+### Square roots ###
 
-for $a \lt 0$
+If $a = 1$, $b = 0$, and $c = 0$, then the real quadratic function above is the square function $f(x) \coloneqq x^2$. The principal branch of the continuous partial inverse function of the square function is called the [[continuous principal square root]] $\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$, and is the solution to the differential equation 
 
-$$\lim_{x \to 0^-} g(x) = \lim_{x \to 0^-} \frac{-b + \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right)}{2a} = - \frac{b}{2a} + \frac{1}{2a} \lim_{x \to 0^-} \exp\left(\frac{1}{2} \ln(4 a x)\right) = -\frac{b}{2a}$$
+$$(2 \mathrm{sqrt}_\mathrm{cont}) \frac{d \mathrm{sqrt}_\mathrm{cont}}{d x} = 1$$
 
-$$\lim_{x \to 0^-} h(x) = \lim_{x \to 0^-} \frac{-b - \exp\left(\frac{1}{2} \ln(4 a x + b^2 - 4 a c)\right)}{2a} = - \frac{b}{2a} - \frac{1}{2a} \lim_{x \to 0^-} \exp\left(\frac{1}{2} \ln(4 a x)\right) = -\frac{b}{2a}$$
+with initial condition $\mathrm{sqrt}_\mathrm{cont}(1) = 1$. The reflected branch of the continuous partial inverse function of the square function is simply the negation of the principal square root $-\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$. 
 
-Thus, when the discriminant is zero, there is only one zero, which occurs at the [[extremum]] of the real quadratic function. This could also be shown algebraically: 
+### Quadratic formula ###
 
-Suppose that $f$ has zero discriminant. This means that $b^2 - 4ac = 0$, and after [[completing the square]], the resulting function is equal to 
+For any quadratic function $f$, the principal branch of its inverse has a canonical definition in terms of the continuous principal square root:
+
+$$g(x) = \frac{-b + \mathrm{sqrt}_\mathrm{cont}(4ax + b^2 - 4ac)}{2a}$$
+
+and the reflected branch has a canonical definition in terms of the continuous principal square root as well:
+
+$$h(x) = \frac{-b - \mathrm{sqrt}_\mathrm{cont}(4ax + b^2 - 4ac)}{2a}$$
+
+The **continuous quadratic formula** is the evaluation of the two branches at zero, if zero is in the domain of $g$ and $h$:
+
+$$g(0) = \frac{-b + \mathrm{sqrt}_\mathrm{cont}(b^2 - 4ac)}{2a}$$
+
+$$h(0) = \frac{-b - \mathrm{sqrt}_\mathrm{cont}(b^2 - 4ac)}{2a}$$
+
+The continuous quadratic formula is only valid for real quadratic functions with positive discriminant, unlike the [[quadratic formula]] in the [[discrete field]] of [[quadratic irrational numbers]], which is valid for [[quadratic functions]] with [[rational number|rational]] [[coefficients]] and a non-negative discriminant. But there's an analytic reason for why the quadratic formula should be restricted to real quadratic functions with positive discriminant: for any real quadratic function $f$ with a non-positive discriminant $\Delta \leq 0$, there is no interval on the real numbers such that the conditions required for the [[intermediate value theorem]] are fulfilled: if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. 
+
+### Negative and zero discriminant ###
+
+As stated above, when a real quadratic function $f$ has a non-positive discriminant, $\Delta \leq 0$, if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. When $f$ has a negative discriminant, $\Delta \lt 0$, then $f$ is provably always [[tight apartness relation|apart]] from zero: if $a \gt 0$, then $f(x) \gt 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \lt 0$ for all real numbers $x$. As a result, $f$ has no zeroes in the real numbers if the determinant of $f$ is negative. 
+
+Now, suppose that $f$ has zero discriminant. This means that $b^2 - 4ac = 0$, and after [[completing the square]], the resulting function is equal to 
 
 $$f(x) = a \left(x + \frac{b}{2a}\right)^2$$
 
@@ -167,13 +133,9 @@ $$x = -\frac{b}{2a}$$
 
 There is only one zero, which occurs at the [[extremum]] of the real quadratic function. 
 
-### Negative discriminant ###
-
-When a real quadratic function $f$ has a negative discriminant, $\Delta \lt 0$, then $f$ is provably always [[tight apartness relation|apart]] from zero: if $a \gt 0$, then $f(x) \gt 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \lt 0$ for all real numbers $x$. As a result, $f$ has no zeroes in the real numbers if the discriminant of $f$ is negative. 
-
 ### In constructive mathematics ###
 
-In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. Furthermore, one cannot prove that a real quadratic function with positive discriminant has exactly two zeroes. 
+In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. Furthermore, one cannot prove that a real quadratic function with positive determinant has exactly two zeroes. 
 
 ## Newton's method ##
 
