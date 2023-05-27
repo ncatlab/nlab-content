@@ -84,6 +84,44 @@ $$
 
 =--
 
+\begin{definition} Similarly a **right module** over $A$ in $(\mathcal{V}, \otimes, I)$ is
+
+* an [[object]] $N \in \mathcal{V}$ 
+
+* equipped with a morphism
+
+  $$
+    \rho : N \otimes A \to N
+  $$
+
+  in $\mathcal{V}$
+
+such that this satisfies the axioms of a (right) [[action]], in that the following are [[commuting diagrams]] in $\mathcal{V}$:
+
+$$
+  \array{
+     N \otimes A \otimes A &\stackrel{\rho \otimes id_A}{\to}& N \otimes A
+     \\
+     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\rho}}
+     \\
+     N \otimes A &\stackrel{\rho}{\to}& N
+  }
+$$
+
+and
+
+$$
+  \array{   
+     N \otimes I &&\stackrel{id_N \otimes e}{\to}&& N \otimes A
+     \\
+     & \searrow && \swarrow_{\mathrlap{\rho}}
+     \\
+     && N
+  }
+  \,.
+$$
+\end{definition}
+
 ## Examples
 
 ### Modules over monoids in abelian groups
@@ -321,4 +359,4 @@ For the classical case of the [[symmetric monoidal category]] [[Ab]], a standard
 
 [[!redirects modules over a monoid]]
 [[!redirects modules over monoids]]
-[[!redirects modules over a monoid]]
+[[!redirects modules over a monoid]] 
