@@ -461,6 +461,8 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 =--
 
+The category of algebras $T Alg$ has a [[zero object]] if and only if $T$ has a single nullary operation (Proposition 3.3 of [Wraith](#Wraith)).
+
 ## An open problem
 
 A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says that a finitely generated group can be embedded in a finitely presented group precisely if it has a presentation whose defining relations are a recursively enumerable set of words. Clearly, this question can be asked for every similar algebraic theory and it has been in fact conjectured by the group theorist W. Boone that the same result holds more generally for every single-sorted algebraic theory.  While in fact the conjecture is not true for all single-sorted algebraic theories (see [[Boone conjecture]] for further details), as was known by Soviet mathematicians, the general question "In which algebraic categories does (an analogue of) Higman's embedding theorem hold?" is still interesting. In fact, it has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone conjecture]] should be settled by the category theory community.
@@ -503,9 +505,9 @@ The concept was then streamlined in
 
 Also still worthwhile reading are the following early papers:
 
-* [[Gavin Wraith]], _Algebraic Theories_ , Aarhus Lecture Notes Series no.22 (1969). ([pdf, 3,7MB](http://homepages.inf.ed.ac.uk/s0894694/scans/wraith-algebraic-theories.pdf))
+* {#Wraith} [[Gavin Wraith]], _Algebraic Theories_ , Aarhus Lecture Notes Series no.22 (1969). ([pdf, 3,7MB](https://www.cs.ox.ac.uk/people/ohad.kammar/scans/wraith-algebraic-theories.pdf))
 
-* [[Gavin Wraith]], _Algebras over Theories_ , Colloquium Mathematicum **XXIII** no.2 (1971) pp.181-190. ([pdf](https://eudml.org/doc/archive%5Cdsc_569f%5Cdsc_40fc%5C/bwmeta1.element.desklight-374f9cbc-939c-4bdb-8b0c-c21872987c9a/full-text/cm23_2_01.pdf))
+* [[Gavin Wraith]], _Algebras over Theories_ , Colloquium Mathematicum **XXIII** no.2 (1971) pp.181-190. ([link](https://eudml.org/doc/264519))
 
 An early textbook treatment was in
 
