@@ -22,11 +22,13 @@ A _bimodule_ is a [[module]] in two compatible ways over two [[rings]].
 
 ## Definition
 
-### With a left action and a right action
+### Over a ring
+
+#### With a left action and a right action
 
 Given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelian group]] $B$ with a [[bilinear function|bilinear]] [[left action|left $R$-action]] $\alpha_R:R \times B \to B$ and a bilinear [[right action|right $S$-action]] $\alpha_S:B \times S \to B$ such that for all $r \in R$, $b \in B$, and $s \in S$, $\alpha_R(r, \alpha_S(b, s)) = \alpha_S(\alpha_R(r, b), s)$. 
 
-### With a biaction
+#### With a biaction
 
 Equivalently, given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelian group]] $B$ with a [[multilinear function|trilinear]] [[biaction|$R$-$S$-biaction]], a function $(-)(-)(-):R \times B \times S \to B$ such that 
 
@@ -41,6 +43,25 @@ Equivalently, given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelia
 * for all $r \in R$, $b \in B$, $s_1 \in S$, $s_2 \in S$, $r b (s_1 + s_2) = r b s_1 + r b s_2$
 
 representing simultaneous left multiplication by scalars $r \in R$ and right multiplication by scalars $s \in S$. 
+
+### Over a monoid in a monoidal category
+
+We can define in more generality what is a $(A,B)$-bimodule in a monoidal category $(\mathcal{C},\otimes,I)$ where $(A,\nabla^{A},\eta^{A})$ and $(B,\nabla^{B},\eta^{B})$ are two monoids. It is given by:
+
+* An object $X \in \mathcal{C}$
+* A left-action $l:A \otimes X \rightarrow X$
+* A right-action $r:X \otimes B \rightarrow X$
+
+such that:
+
+* $(X,l)$ is a [[module over a monoid| left module]]
+* $(X,r)$ is a [[module over a monoid| right module]]
+
+and moreover this diagram commutes:
+\begin{tikzcd}
+A \otimes X \otimes B \arrow[d, "l \otimes B"'] \arrow[rr, "A \otimes r"] &  & A \otimes X \arrow[d, "l"] \\
+X \otimes B \arrow[rr, "r"']                                              &  & X                         
+\end{tikzcd}
 
 ## Properties
 
