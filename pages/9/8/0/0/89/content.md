@@ -55,7 +55,7 @@ An important weakening of the Morita equivalence is [[Morita context]] (in older
 
 Two rings are **Morita equivalent** if the equivalent statements in the Morita theorem above are true. A **Morita equivalence** is an [[equivalence in a 2-category]] in the [[bicategory]] $\mathrm{Rng}$ of [[rings]], [[bimodules]] as [[1-morphisms]] and bimodule homomorphisms ("[[intertwiners]]" as [[2-morphisms]]).
 
-A theorem in ring theory says that the [[center]] of a ring is isomorphic to the center of its category of modules and that Morita equivalent rings have isomorphic centers. Especially, two _commutative_ rings are Morita equivalent precisely when they are isomorphic!
+A [theorem in ring theory](center+of+an+additive+category#examples) says that the [[center]] of a ring is isomorphic to the center of its category of modules and that Morita equivalent rings have isomorphic centers. In particular, two _commutative_ rings are Morita equivalent precisely when they are isomorphic!
 
 This shows that the property of _having center $Z$ up to isomorphism_ is stable within Morita equivalence classes. Properties of this kind are sufficiently important to deserve a special name:
 
@@ -150,7 +150,7 @@ Other references include
 
 See also
 
-* wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
+* Wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
 
 [[!redirects Morita equivalences]]
 [[!redirects Morita equivalent]]
