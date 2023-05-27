@@ -126,6 +126,15 @@ A $R$-$S$-linear map $f:A \to B$ is [[invertible]] or an **$R$-$S$-bimodule isom
 Given [[rings]] $R$ and $S$, the tensor product of $R$-$S$-bimodules $A$ and $B$ is the [[quotient]] of the [[tensor product of abelian groups]] $A\otimes B$ underlying them by the $R$-$S$-[[biaction]]; that is,
 $$ A\otimes_{R,S} B = A\otimes B / (a,r b s) \sim (r a s,b)$$
 
+Given three monoids $M,N,P$ in a monoidal category $(\mathcal{C},\otimes,I)$, a $M$-$N$-bimodules $A$ and a $N$-$P$-bimodule $B$, if we denote $\lambda^{A}:M \otimes A \rightarrow A$ the left action on $A$ and $\rho^{B}:B \otimes P \rightarrow P$, the right action on $P$, then $A \otimes B$ becomes a $M$-$P$-bimodule with left action
+\begin{tikzcd}
+M \otimes A \otimes B \arrow[rr, "\lambda^{A \otimes B} := \lambda^{A} \otimes B"] &  & A \otimes B
+\end{tikzcd}
+and right action
+\begin{tikzcd}
+A \otimes B \otimes P \arrow[rr, "\rho^{A \otimes B} := A \otimes \rho^{B}"] &  & A \otimes B
+\end{tikzcd}
+
 ### Two-sided ideals of a ring
 
 Every ring $R$ is a $R$-$R$-bimodule, with the [[biaction]] $(-)(-)(-):R \times R \times R \to R$ defined by the ternary product $a b c \coloneqq a \cdot b \cdot c$ for elements $a \in R$, $b \in R$, $c \in R$. 
