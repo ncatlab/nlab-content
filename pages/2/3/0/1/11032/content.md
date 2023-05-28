@@ -47,7 +47,7 @@ $$\tr_R^X((g\otimes \text{id}_X)\circ f\circ (h\otimes \text{id}_X))=g\circ \tr_
 
  * **Sliding** (naturality in $X$) for all $A,B,X,Y\in $, $f:A\otimes X\to B\otimes Y$, $g:Y\to X$
 
-$$\tr_R^{X}((\text{id}_B\otimes g)\circ f)=\tr_R^{Y}f\circ (\text{id}_A\otimes g)$$
+$$\tr_R^{X}((\text{id}_B\otimes g)\circ f)=\tr_R^{Y}(f\circ (\text{id}_A\otimes g))$$
 
  * **Vanishing** For all $A,B,X,Y\in \mathscr{C}$,
 
