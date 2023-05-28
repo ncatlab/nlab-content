@@ -57,7 +57,7 @@ Therefore one also says that _$\mathbb{R}$ is an [[absolute extensor]]_ in [[top
 ###### Proof
 
 
-We produce a [[sequence]] of approximations to the desired extension by [[induction]]. Then we will observe that the sequence is a [[Cauchy sequence]] and conclude by observing that this implies that it [[limit of a sequence|limit]] is an extension of $f$ as desired.
+We produce a [[sequence]] of approximations to the desired extension by [[induction]]. Then we will observe that the sequence is a [[Cauchy sequence]] and conclude by observing that this implies that its [[limit of a sequence|limit]] is an extension of $f$ as desired.
 
 
 For the induction step, let 
