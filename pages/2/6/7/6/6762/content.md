@@ -111,6 +111,10 @@ to be an isomorphism, where the vertical arrows are invertible symmetry constrai
 If $D$ is cartesian closed, and the reflector $L \colon D \to C$ preserves products, then $C$ is cartesian closed. 
 \end{corollary} 
 
+\begin{proof} 
+We have already seen under the hypotheses that if $c, c'$ are in $C$, then the exponential $c^{c'}$ as calculated in $D$ is in $C$. Furthermore, $C$ inherits products from $D$, because $R \colon C \to D$ is monadic and monadic functors reflect limits. The adjunction $C(c'' \times c', c) \cong C(c'', c^{c'})$ holds because it holds when interpreted in $D$ and $C$ is fully embedded in $D$. 
+\end{proof} 
+
 ## Reference 
 
-* {#Day72} [[Brian Day]], *A reflection theorem for closed categories*, Journal of Pure and Applied Algebra **2** 1 (1972) 1-11. &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90021-7">doi:10.1016/0022-4049(72)90021-7</a>&rbrack;
+* {#Day72} [[Brian Day]], *A reflection theorem for closed categories*, Journal of Pure and Applied Algebra **2** 1 (1972), 1-11. &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90021-7">doi:10.1016/0022-4049(72)90021-7</a>&rbrack;
