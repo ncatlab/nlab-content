@@ -69,7 +69,7 @@ $S^1$-[[equivariant homotopy theory]] ([Spalinski 95](#Spalinski95), [Blumberg 0
 
 The original definition:
 
-* {#Connes83} [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **296** (1983), S&#233;rie I, 953-958 ([pdf](https://alainconnes.org/wp-content/uploads/n83.pdf), [[Connes_CohomologieCyclique.pdf:file]]).
+* {#Connes83} [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **296** (1983), S&#233;rie I, 953-958 [MR777584](https://mathscinet.ams.org/mathscinet-getitem?mr=777584) [Zbl0534.18009](https://zbmath.org/?q=an:0534.18009) ([pdf](https://alainconnes.org/wp-content/uploads/n83.pdf), [[Connes_CohomologieCyclique.pdf:file]]).
 
 * [[Pierre Cartier]], Section 1.6 of: *Homologie cyclique : rapport sur des travaux récents de Connes, Karoubi, Loday, Quillen...*, Séminaire Bourbaki: volume 1983/84, exposés 615-632, Astérisque, no. 121-122 (1985), Exposé no. 621 ([numdam:SB_1983-1984__26__123_0](http://www.numdam.org/item/?id=SB_1983-1984__26__123_0))
 
@@ -79,7 +79,7 @@ Textbook account (in the generality of [[cyclic spaces]]):
 
   Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
-* {#Loday11} [[Jean-Louis Loday]], Section 3 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
+* {#Loday11} [[Jean-Louis Loday]], Section 3 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24))
 
 Exposition:
 
