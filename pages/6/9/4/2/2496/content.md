@@ -34,6 +34,7 @@ Higher-order logic in general could be thought of as a [[first order theory]] wi
   * **higher order logic**
 
     * [[HOL]], [[Isabelle]]
+    * Girard's System Fω (also called λω) and Coquand-Huet's [[calculus of constructions]] are the higher-order subsystems of [[pure type system#lambda_cube|Barendregt's lambda-cube]]
 
 * [[higher-order set theory]]
 
