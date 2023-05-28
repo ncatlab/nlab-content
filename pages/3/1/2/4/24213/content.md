@@ -67,7 +67,7 @@ Each of these can be packed up in single type through [[product types]] and [[de
 
 A first sketch of a definition was given in by [Voevodsky (2012)](#Voevodsky12), suggesting that defining such families requires to define restrictions, then to prove that restrictions of restrictions commute, but then also to prove higher-dimensional coherence conditions on restrictions.
 
-[[Hugo Herbelin]] worked at the IAS on a formalization in [[Coq]] based on the presentation of $\Delta_i$ with face maps $d_i$. In [Herbelin (2014)](#Herbelin14) he describes the construction in [[Coq]] extended with the principle of [[uniqueness of identity proofs]] (UIP). UIP was used to cut down the need for higher-dimensional [[coherence]], so morally, it meant that types were actually [[h-sets]]. What the construction shows is how to define in all details such alternative presentation of semi-simplicial sets based on iterated dependencies.
+[[Hugo Herbelin]] worked at the IAS on a formalization in [[Coq]] based on the presentation of $\Delta_i$ with face maps $d_i$. In [Herbelin (2014)](#Herbelin14) he describes the construction in [[Coq]] extended with the principle of [[uniqueness of identity proofs]] (UIP). UIP was used to cut down the need for higher-dimensional [[coherence]], so morally, it meant that types were actually [[h-sets]]. What the construction shows is how to define in all details such alternative presentation of semi-simplicial sets based on iterated dependencies, what can also be seen as an effective and generic construction of [[Reedy model structure|matching object]] representatives in a semi-simplicial set.
 
 To cut the need for higher-dimensional coherences, several extensions of homotopy type theory were considered:
 
