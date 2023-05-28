@@ -45,7 +45,7 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
 
 =--
 
-([Aleksandrov 24](#Aleksandrov24), see [Kelly 75, p. 150](#Kelly75))
+([Aleksandrov 24](#Aleksandrov24), see [Kelley 75, p. 150](#Kelley75))
 
 +-- {: .num_remark}
 ###### Remark
