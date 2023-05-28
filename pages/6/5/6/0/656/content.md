@@ -137,14 +137,23 @@ M \otimes A \otimes N \otimes B \arrow[rr, "M \otimes \rho^{A} \otimes B", shift
 \begin{tikzcd}
 A \otimes N \otimes B \otimes P \arrow[rr, "\rho^{A} \otimes B \otimes P", shift left] \arrow[rr, "A \otimes \lambda^{B} \otimes P"', shift right] &  & A \otimes B \otimes P \arrow[rr, "{\pi_{A,B} \otimes P}"] &  & A \otimes_{N} B \otimes P
 \end{tikzcd}
-then $A \otimes B$ becomes a $M$-$P$-bimodule with left action defined by:
-$$
-...
-$$
-and right action defined by:
-$$
-...
-$$
+then $A \otimes B$ becomes a $M$-$P$-bimodule with left action defined by the following diagram:
+\begin{tikzcd}
+M \otimes A \otimes N \otimes B \arrow[rr, "M \otimes \rho^{A} \otimes B", shift left] \arrow[rr, "M \otimes A \otimes \lambda^{B}"', shift right] \arrow[d, "\lambda^{A} \otimes N \otimes B"'] &  & M \otimes A \otimes B \arrow[rr, "{M \otimes \pi_{A,B}}"] \arrow[d, "\lambda^{A} \otimes B"'] &  & M \otimes A \otimes_{N} B \arrow[d, "\lambda^{A \otimes_{N}B}", dashed] \\
+A \otimes N \otimes B \arrow[rr, "\rho^{A} \otimes B", shift left] \arrow[rr, "A \otimes \lambda^{B}"', shift right]                                                                             &  & A \otimes B \arrow[rr, "{\pi_{A,B}}"']                                                        &  & A \otimes_{N} B                                                        
+\end{tikzcd}
+and right action defined by the following diagram:
+
+\begin{tikzcd}
+A \otimes N \otimes B \otimes P \arrow[rr, "\rho^{A} \otimes B \otimes P", shift left] \arrow[rr, "A \otimes \lambda^{B} \otimes P"', shift right] \arrow[d, "A \otimes N \otimes \rho^{B}"'] &  & A \otimes B \otimes P \arrow[rr, "{\pi_{A,B} \otimes P}"] \arrow[d, "A \otimes \rho^{B}"'] &  & A \otimes_{N} B \otimes P \arrow[d, "\rho^{A \otimes_{N}B}", dashed] \\
+A \otimes N \otimes B \arrow[rr, "\rho^{A} \otimes B", shift left] \arrow[rr, "A \otimes \lambda^{B}"', shift right]                                                                          &  & A \otimes B \arrow[rr, "{\pi_{A,B}}"']                                                     &  & A \otimes_{N} B                                                     
+\end{tikzcd}
+We must verify that the following diagram commutes:
+
+\begin{tikzcd}
+M \otimes A \otimes_{N} B \otimes P \arrow[d, "\lambda^{A \otimes_{N}B} \otimes P"'] \arrow[rr, "M \otimes \rho^{A \otimes_{N}B}"] &  & M \otimes A \otimes_{N} B \arrow[d, "\lambda^{A \otimes_{N} B}"] \\
+A \otimes_{N} B \otimes P \arrow[rr, "\rho^{A \otimes_{N}B}"']                                                                     &  & A \otimes_{N} B                                                 
+\end{tikzcd}
 
 ### Two-sided ideals of a ring
 
