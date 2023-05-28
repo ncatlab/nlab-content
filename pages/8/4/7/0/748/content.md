@@ -111,7 +111,7 @@ $$
 ###### Proof
 
 The functor $e$ takes $F \in PSh(C/c)$ to the presheaf
-$F' : d \mapsto \sqcup_{f \in C(d,c)} F(f)$ which is equipped with the natural transformation $\eta : F' \to Y(c)$ with component map $\eta_d \sqcup_{f \in C(d,c)} F(f) \to C(d,c)$.
+$F' : d \mapsto \sqcup_{f \in C(d,c)} F(f)$ which is equipped with the natural transformation $\eta : F' \to Y(c)$ with component map $\eta_d: \sqcup_{f \in C(d,c)} F(f) \to C(d,c)$.
 
 A weak inverse of $e$ is given by the functor 
 $$
@@ -143,7 +143,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Suppose the presheaf $F \in PSh(C/c)$ does not actually depend on the morphsims to $C$, i.e. suppose that it factors through the forgetful functor from the [[over category]] to $C$:
+Suppose the presheaf $F \in PSh(C/c)$ does not actually depend on the morphisms to $C$, i.e. suppose that it factors through the forgetful functor from the [[over category]] to $C$:
 $$
   F : (C/c)^{op} \to C^{op} \to Set
   \,.
