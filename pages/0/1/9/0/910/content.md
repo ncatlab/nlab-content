@@ -72,7 +72,9 @@ Examples of compactly generated spaces include
 
 Every [[compact Hausdorff space]] is compactly generated.
 
-=--
+=-- 
+
+Note: it is not generally true that [[compact spaces]] (dropping Hausdorffness) are compactly generated. An example is the [[one-point compactification]] of the rationals $\mathbb{Q}$ with its standard topology. See for example this [MathStackExchange post](https://math.stackexchange.com/a/964546/43208).  
 
 +-- {: .num_example }
 ###### Example
