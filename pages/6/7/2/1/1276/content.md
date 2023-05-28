@@ -269,7 +269,7 @@ from _right_ $R$ modules to [[abelian groups]] is an [[exact functor]].
 ### Equivalent characterizations
  {#EquivalentCharacterizations}
 
-By def. \ref{FlatModule}, or its immediate consequence, remark \ref{ImmediateReformulationOfFlatness}. $N \in R Mod$ is flat if for every injection $i \colon A \hookrightarrow$ also $i \otimes_R N \colon A \otimes_R N \to B \otimes_R N$ is an injection. The following proposition says that this may already be checked on just a very small subclass of injections.
+By def. \ref{FlatModule}, or its immediate consequence, remark \ref{ImmediateReformulationOfFlatness}. $N \in R Mod$ is flat if for every injection $i \colon A \hookrightarrow B$ also $i \otimes_R N \colon A \otimes_R N \to B \otimes_R N$ is an injection. The following proposition says that this may already be checked on just a very small subclass of injections.
 
 +-- {: .num_theorem #CharacterizationOnIdealInclusions}
 ###### Theorem
