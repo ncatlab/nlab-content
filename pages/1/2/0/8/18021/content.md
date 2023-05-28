@@ -43,7 +43,7 @@ The generalization of the Kan loop group construction to non-reduced simplicial 
 
 \begin{proposition}\label{QuillenEquivalenceBetweenSimplicialGroupsAndReducedSimplicialSets}
 **([[Quillen equivalence between simplicial groups and reduced simplicial sets]])** \linebreak
-  The [[simplicial classifying space]]-construction $\overline{W}(-)$ (Def. \ref{BarWGInComponents}) is the [[right adjoint]] in a [[Quillen equivalence]] between the projective [[model structure on simplicial groups]] and the injective [[model structure on reduced simplicial sets]]. 
+  The [[simplicial classifying space]]-construction $\overline{W}(-)$ is the [[right adjoint]] in a [[Quillen equivalence]] between the projective [[model structure on simplicial groups]] and the injective [[model structure on reduced simplicial sets]]. 
 
 $$
   Groups(sSet)_{proj}
@@ -83,7 +83,7 @@ Early review:
 
 A modern monograph account:
 
-* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.5 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
 
 More details and relation to [[décalage]]:
