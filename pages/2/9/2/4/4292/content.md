@@ -154,21 +154,35 @@ given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \l
 
 ### Formal differentiation
 
-We define the formal differentiation operator as a function $\frac{\partial}{\partial X}:R[[X]] \to R[[X]]$ as 
+One way to define the formal differentiation operator, as a function $\frac{\partial}{\partial X}:R[[X]] \to R[[X]]$, is via the usual formula 
 
 $$
-  \frac{\partial}{\partial X}\left(\sum_{n = 0}^\infty a_n X^n\right) \coloneqq \sum_{n = 0}^\infty a_{n + 1} (n + 1) X^n
+  \frac{\partial}{\partial X}\left(\sum_{n = 0}^\infty a_n X^n\right) \coloneqq \sum_{n = 0}^\infty a_{n + 1} (n + 1) X^n. 
 $$
 
 Then $\frac{\partial}{\partial X}$ is an $R$-[[linear function]] on $R[[X]]$ which satisfies the [[Leibniz rule]], meaning that it is a [[derivation]] and $R[[X]]$ is a [[differential algebra]]. 
 
-A conceptual story behind this may be told by exploiting the universal property of the adic completion, described above. Let $D = R[\varepsilon]/(\varepsilon^2)$ be the [[representing object]] for [[derivations]] (the "[[ring of dual numbers]]"). Let $\delta: R[ [X] ] \to R[ [X] ] \otimes_R D \cong R[ [X] ][\varepsilon]/(\varepsilon^2)$  be the unique topological $R$-algebra map (under the $(X)$-[[adic topologies]]) that sends $X$ to $X + \varepsilon$.  (If it helps, think $\delta(q) = q(X + \varepsilon)$.)  For $p \in R[ [X] ]$, define $p'$ via the equation $\delta(p) = p(X) + p'(X)y$. We leave as an exercise the proof that 
+Here is a conceptual story underlying the formalism. Let $D = R[\varepsilon]/(\varepsilon^2)$ be the [[representing object]] for [[derivations]] (the "[[ring of dual numbers]]"). Let $\delta: R[ [X] ] \to R[ [X] ] \otimes_R D \cong R[ [X] ][\varepsilon]/(\varepsilon^2)$  be the unique topological $R$-algebra map (under the $(X)$-[[adic topologies]] described above) that sends $X$ to $X + \varepsilon$.  (If it helps, think $\delta(q) = q(X + \varepsilon)$.)  
+
+\begin{definition} 
+For $p \in R[ [X] ]$, the *derivative* $p'$ is the unique element of $R[ [X] ]$ satisfying 
+
+$$\delta(p) = p(X) + p'(X)\varepsilon.$$ 
+\end{definition} 
+
+We leave as an exercise the proof that the two definitions of derivative match: 
 
 $$p'(X) = \frac{\partial}{\partial X} p(X).$$ 
 
 (Hint: the restriction of $p \mapsto p'$ to $R[X]$ is by construction a derivation such that $X' = 1$, and $(X^k)' = k X^{k-1}$ by [[induction]]. This induces derivations on quotient algebras $R[X]/(X^n)$, satisfying the same formula. Then pass to the inverse limit.) 
 
-See [[chain rule#FormalAlgebra|here]] for a conceptual proof of the chain rule for power series, using the universal property of adic completion. 
+\begin{proposition} 
+**(Chain rule)** For $p \in R[ [X] ]$ and $q \in x R[ [X ] ]$, 
+
+$$(p \circ q)' = (p' \circ q) \cdot q'.$$ 
+\end{proposition} 
+
+See [[chain rule#FormalAlgebra|here]] for a conceptual proof, using the universal property of adic completion. 
 
 Relatedly but in a slightly different direction, we can consider differentiation in coalgebraic terms. Suppose the commutative ring $R$ is a [[commutative algebra]] over $\mathbb{Q}$ (thus permitting division by nonzero [[integers]]). Then the set $R[ [X]]$ may be identified with the [[terminal coalgebra of an endofunctor|terminal coalgebra]] $R^\mathbb{N}$ of the [[endofunctor]] $R \times - \colon Set \to Set$ via the map  
 
@@ -186,7 +200,7 @@ One may then apply [[coinduction|coinductive]] techniques to prove various facts
 
 $$(1 + x)^r \coloneqq \exp(r \log(1 + x)) = \sum_{k \geq 0} \frac{r^\underline{k} x^k}{k!}$$ 
 
-where, remarkably, $r$ is an arbitrary element of $R$ (!). 
+where, remarkably, $r$ is an arbitrary element of $R$. 
 
 
 
