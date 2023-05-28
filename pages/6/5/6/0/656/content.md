@@ -126,14 +126,25 @@ A $R$-$S$-linear map $f:A \to B$ is [[invertible]] or an **$R$-$S$-bimodule isom
 Given [[rings]] $R$ and $S$, the tensor product of $R$-$S$-bimodules $A$ and $B$ is the [[quotient]] of the [[tensor product of abelian groups]] $A\otimes B$ underlying them by the $R$-$S$-[[biaction]]; that is,
 $$ A\otimes_{R,S} B = A\otimes B / (a,r b s) \sim (r a s,b)$$
 
-Given three monoids $M,N,P$ in a monoidal category $(\mathcal{C},\otimes,I)$, a $M$-$N$-bimodules $A$ and a $N$-$P$-bimodule $B$, if we denote $\lambda^{A}:M \otimes A \rightarrow A$ the left action on $A$ and $\rho^{B}:B \otimes P \rightarrow P$, the right action on $P$, then $A \otimes B$ becomes a $M$-$P$-bimodule with left action
+Given three monoids $M,N,P$ in a monoidal category $(\mathcal{C},\otimes,I)$, a $M$-$N$-bimodules $A$ and a $N$-$P$-bimodule $B$, we denote the monoid actions as $\lambda^{A}:M \otimes A \rightarrow A$, $\rho^{A}:A \otimes N \rightarrow N$, $\lambda^{B}:N \otimes B \rightarrow N$ and $\rho^{B}:B \otimes P \rightarrow P$. The tensor product, $A \otimes_{N} B$ is defined as this coequalizer:
 \begin{tikzcd}
-M \otimes A \otimes B \arrow[rr, "\lambda^{A \otimes B} := \lambda^{A} \otimes B"] &  & A \otimes B
+A \otimes N \otimes B \arrow[rr, "\rho^{A} \otimes B", shift left] \arrow[rr, "A \otimes \lambda^{B}"', shift right] &  & A \otimes B \arrow[r, "\pi_{A,B}"] & A \otimes_{N} B
 \end{tikzcd}
-and right action
+We suppose moreover that this coequalizer is preserved by tensoring on the left by $M$ and tensoring on the right by $P$, meaning that these diagrams are coequalizer diagrams:
 \begin{tikzcd}
-A \otimes B \otimes P \arrow[rr, "\rho^{A \otimes B} := A \otimes \rho^{B}"] &  & A \otimes B
+M \otimes A \otimes N \otimes B \arrow[rr, "M \otimes \rho^{A} \otimes B", shift left] \arrow[rr, "M \otimes A \otimes \lambda^{B}"', shift right] &  & M \otimes A \otimes B \arrow[rr, "{M \otimes \pi_{A,B}}"] &  & M \otimes A \otimes_{N} B
 \end{tikzcd}
+\begin{tikzcd}
+A \otimes N \otimes B \otimes P \arrow[rr, "\rho^{A} \otimes B \otimes P", shift left] \arrow[rr, "A \otimes \lambda^{B} \otimes P"', shift right] &  & A \otimes B \otimes P \arrow[rr, "{\pi_{A,B} \otimes P}"] &  & A \otimes_{N} B \otimes P
+\end{tikzcd}
+then $A \otimes B$ becomes a $M$-$P$-bimodule with left action defined by:
+$$
+...
+$$
+and right action defined by:
+$$
+...
+$$
 
 ### Two-sided ideals of a ring
 
