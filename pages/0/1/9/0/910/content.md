@@ -70,14 +70,14 @@ Examples of compactly generated spaces include
 +-- {: .num_example }
 ###### Example
 
-Every [[compact space]] is compactly generated.
+Every [[compact Hausdorff space]] is compactly generated.
 
 =--
 
 +-- {: .num_example }
 ###### Example
 
-Every [[locally compact space]] is compactly generated.
+Every [[locally compact Hausdorff space]] is compactly generated.
 
 =--
 
