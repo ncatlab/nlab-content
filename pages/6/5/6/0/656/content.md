@@ -123,13 +123,14 @@ A $R$-$S$-linear map $f:A \to B$ is [[invertible]] or an **$R$-$S$-bimodule isom
 
 ### Tensor product of bimodules
 
-Given [[rings]] $R$ and $S$, the tensor product of $R$-$S$-bimodules $A$ and $B$ is the [[quotient]] of the [[tensor product of abelian groups]] $A\otimes B$ underlying them by the $R$-$S$-[[biaction]]; that is,
-$$ A\otimes_{R,S} B = A\otimes B / (a,r b s) \sim (r a s,b)$$
+Given [[rings]] $R, S, T$ and an $R$-$S$ bimodule $A$ and an $S$-$T$ bimodule $B$, the tensor product of $A$ and $B$ is formed as a [[quotient]] $A \otimes_N B$ of the [[tensor product of abelian groups]] $A\otimes B$. This is a special case of a more general construction:  
 
 Given three monoids $M,N,P$ in a monoidal category $(\mathcal{C},\otimes,I)$, a $M$-$N$-bimodules $A$ and a $N$-$P$-bimodule $B$, we denote the monoid actions as $\lambda^{A}:M \otimes A \rightarrow A$, $\rho^{A}:A \otimes N \rightarrow N$, $\lambda^{B}:N \otimes B \rightarrow N$ and $\rho^{B}:B \otimes P \rightarrow P$. The tensor product, $A \otimes_{N} B$ is defined as this coequalizer:
+
 \begin{tikzcd}
 A \otimes N \otimes B \arrow[rr, "\rho^{A} \otimes B", shift left] \arrow[rr, "A \otimes \lambda^{B}"', shift right] &  & A \otimes B \arrow[r, "\pi_{A,B}"] & A \otimes_{N} B
 \end{tikzcd}
+
 We suppose moreover that this coequalizer is preserved by tensoring on the left by $M$ and tensoring on the right by $P$, meaning that these diagrams are coequalizer diagrams:
 \begin{tikzcd}
 M \otimes A \otimes N \otimes B \arrow[rr, "M \otimes \rho^{A} \otimes B", shift left] \arrow[rr, "M \otimes A \otimes \lambda^{B}"', shift right] &  & M \otimes A \otimes B \arrow[rr, "{M \otimes \pi_{A,B}}"] &  & M \otimes A \otimes_{N} B
@@ -147,7 +148,15 @@ and right action defined by the following diagram:
 \begin{tikzcd}
 A \otimes N \otimes B \otimes P \arrow[rr, "\rho^{A} \otimes B \otimes P", shift left] \arrow[rr, "A \otimes \lambda^{B} \otimes P"', shift right] \arrow[d, "A \otimes N \otimes \rho^{B}"'] &  & A \otimes B \otimes P \arrow[rr, "{\pi_{A,B} \otimes P}"] \arrow[d, "A \otimes \rho^{B}"'] &  & A \otimes_{N} B \otimes P \arrow[d, "\rho^{A \otimes_{N}B}", dashed] \\
 A \otimes N \otimes B \arrow[rr, "\rho^{A} \otimes B", shift left] \arrow[rr, "A \otimes \lambda^{B}"', shift right]                                                                          &  & A \otimes B \arrow[rr, "{\pi_{A,B}}"']                                                     &  & A \otimes_{N} B                                                     
-\end{tikzcd}
+\end{tikzcd} 
+
+Assuming all requisite [[reflexive coequalizer|(reflective) coequalizers]] exist, universal property arguments guarantee associativity isomorphisms of type 
+
+$$(A \otimes_N B) \otimes_P C \to A \otimes_N (B \otimes_P C).$$ 
+
+In fact, this tensor product defines composition in a [[bicategory]] where objects or 0-cells are monoids in a monoidal category, where 1-cells $A$ from $R$ to $S$ are $R$-$S$ bimodules, and where 2-cells from $A$ to $B$ are morphisms of $R$-$S$ bimodules. 
+
+This in turn can be seen as a special case of a bicategory of [[profunctors]] [[enriched category|enriched]] in a [[monoidal category]] with suitably nice cocompleteness properties -- see [[monoidally cocomplete category]] and [[Benabou cosmos]]. 
 
 ### Two-sided ideals of a ring
 
