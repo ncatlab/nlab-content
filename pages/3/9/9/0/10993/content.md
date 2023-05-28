@@ -337,8 +337,14 @@ The concept was introduced, in the context of [[monads in computer science]], in
 
 Abstract discussion via [[virtual equipments]]:
 
-* [[Nathanael Arkor]], [[Dylan McDermott]], *The formal theory of relative monads* &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, 2023. &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
 
+* [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+Other references: 
+
+* [[Gabriele Lobbia]], _Distributive Laws for Relative Monads_, Applied Categorical Structures, Vol. 31, No. 19, 2023. 
+&lbrack;[doi:10.1007/s10485-023-09716-1](https://doi.org/10.1007/s10485-023-09716-1), [arXiv:2007.12982](https://arxiv.org/abs/2007.12982)&rbrack;
 
 [[!redirects relative monads]]
 
