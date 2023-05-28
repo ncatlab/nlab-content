@@ -83,7 +83,7 @@ To cut the need for higher-dimensional coherences, several extensions of homotop
 
 The "indexed" approach as families of families with iterated dependencies is only one possible approach! Other approaches to the problem are also possible, and may be better.
 
-An alternative idea is something like "in the simplicial model, or more generally in other homotopy-theoretic model, they should be equivalent to coherent (possibly: Reedy-fibrant) semi-simplicial objects".
+An alternative idea is something like "in the simplicial model, or more generally in other homotopy-theoretic model, they should be equivalent to coherent (possibly: [[Reedy model structure|Reedy-fibrant]]) semi-simplicial objects".
 
 Why not imitate the classical definition, using internal functors from the internally-defined category $\Delta{}_i$? Giving a reasonable definition of $\Delta{}_i$ is not too hard: the objects [n] are very well-behaved. But defining functors out of it is problematic, because there are coherence issues. One would have to specify the functoriality laws using equations, i.e. inhabitants of equality types, which homotopically we treat as paths. But specified paths in homotopy theory have to be coherent to define a useful notion of functor; thus we need equations between our equations (associativity pentagons, etc), then higher equations between those, and so on forever. Thus we end up with the same problem we had before of specifying infinitely much data using a finite description in type theory.
 
