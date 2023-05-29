@@ -14,6 +14,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents 
 {:toc}
@@ -33,7 +35,7 @@ The **model structure for quasi-categories** or **Joyal model structure** $sSet_
 
 * [[cofibrations]] are the [[monomorphisms]]
 
-* [[weak equivalences]] are those maps that are taken by the [[left adjoint]] of the [[homotopy coherent nerve]] to a weak equivalence in the [[model structure on simplicial categories]].
+* [[weak equivalences]] are those maps that are taken by the [[rigidification of quasi-categories|rigidification]] functor $\mathfrak{C}$ (the [[left adjoint]] to the [[homotopy coherent nerve]]) to a [[Dwyer-Kan equivalence]] (a [[weak equivalence]] in the [[Dwyer-Kan-Bergner model structure on sSet-enriched categories]]).
 
 =--
 
@@ -79,7 +81,7 @@ For $p \colon \mathcal{C} \to \mathcal{D}$ a morphism of [[simplicial sets]] suc
 
 =--
 
-This is due to [[Joyal]]. ([Lurie, cor. 2.4.6.5](#Lurie)).
+This is due to [[Joyal]]. &lbrack;[Lurie (2009), cor. 2.4.6.5](#Lurie09)&rbrack;
 
 So every [[fibration]] in $sSet_{Joyal}$ is an [[inner fibration]], but the converse is in general false. A notable exception are the fibrations to the point:
 
@@ -90,7 +92,7 @@ The [[fibrant objects]] in $sSet_{Joyal}$ are precisely those that are [[inner f
 
 =--
 
-([Lurie, theorem 2.4.6.1](#Lurie))
+&lbrack;[Lurie (2009), theorem 2.4.6.1](#Lurie09)&rbrack;
 
 
 ### Relation to the model structure for $\infty$-groupoids {#RelToInfGrpds}
@@ -194,7 +196,7 @@ The original construction of the Joyal model structure is in
 
 * [[Andre Joyal]], _Theory of quasi-categories I_ 
 
-Unfortunately, this is still not publicly available, but see the lecture notes:
+Unfortunately, this never became publicly available, but see the lecture notes:
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
@@ -204,12 +206,13 @@ or the construction of the model structure in Cisinski's book
 
 which closely follows Joyal's original construction.
 
-A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriched categories]] is given in detail following theorem 2.2.5.1 in
+A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriched categories]]:
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], following Thm. 2.2.5.1 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
+
  
 
-The relation to the model structure for [[complete Segal space]]s is in
+On the relation to the model structure for [[complete Segal spaces]]:
 
 * [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_ ([arXiv](http://arxiv.org/abs/math/0607820))
 
