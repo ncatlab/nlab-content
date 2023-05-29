@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
 =--
 =--
 
@@ -13,13 +17,17 @@
 
 ## Idea
 
-As a model for an [[(∞,1)-category]] a [[simplicially enriched category]] may be thought of as a [[semi-strict infinity-category|semi-strictification]] of a [[quasi-category]]: composition along 0-cells is strictly associative and unital.
+As a model for an [[(∞,1)-categories]], [[sSet-enriched categories]] ("[[simplicial categories]]") may be thought of as a [[semi-strict infinity-category|semi-strictification]] of a [[quasi-category]], where [[composition]] along [[objects]] is strictly [[associativity|associative]] and [[unitality|unital]].
 
-## The Quillen equivalence between the Joyal model structure and the Dwyer–Kan–Bergner model structure
+The equivalence between [[quasi-categories]] and [[sSet-enriched categories]] as models for [[(∞,1)-categories]] is exhibited by the operation of sending an $sSet$-category $\mathbf{C}$ to the [[simplicial set]] $N(\mathcal{C})$ called its *[[homotopy-coherent nerve]]* (in generalization of the [[simplicial nerve]] of an ordinary [[category]]). Together with its [[left adjoint]] operation $\mathfrak{C}$ ("[[rigidification of quasi-categories]]") this constitutes a [[Quillen equivalence]] between the two models.
+
+
+## The Quillen equivalence
 
 Our notation partly follows [Bergner (2018)](#Bergner18).
 
-There is a [[Quillen equivalence]] (due to Joyal (unpublished) and [Lurie (2009), Thm. 2.2.5.1 & p. 91](#Lurie09)):
+\begin{proposition}
+There is a [[Quillen equivalence]]:
 
 $$
  sSet\text{-}Cat
@@ -39,7 +47,7 @@ equipped with the [[Dwyer–Kan–Bergner model structure]],
 
 * $\tilde N$ denotes the [[homotopy coherent nerve]] functor,
 
-* $\mathfrak{C}$ denotes its [[left adjoint functor]].
+* $\mathfrak{C}$ denotes [[rigidification of quasi-categories]].
 
 In particular, for $C$ a fibrant [[SSet]]-[[enriched category]], the canonical morphism
 
@@ -49,7 +57,7 @@ $$
   C
 $$
 
-given by the [[adjunction counit|counit]] of the above adjunction is derived, hence a [[Dwyer–Kan weak equivalence]] of [[simplicial categories]].
+given by the [[adjunction counit|counit]] of the above adjunction is [[derived functor|derived]], hence a [[Dwyer–Kan weak equivalence]] of [[simplicial categories]].
 
 For $S$ any [[simplicial set]], the canonical morphism
 
@@ -65,9 +73,10 @@ $$
 
 is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets,
 where $R$ denotes a [[fibrant replacement]] functor in the [[Dwyer–Kan–Bergner model structure]].
+\end{proposition}
+This was announced and credired to [[André Joyal|Joyal]] in [Bergner (2007), Thm. 7.8](#Bergner07); detailed proof was produced in [Lurie (2009), Thm. 2.2.5.1 & p. 91](#Lurie09).
 
-For more details, see, for example, [Bergner (2018), §7.8](#Bergner)
-or [Dugger & Spivak 2009a](#DuggerSpivak.Rigidification), or [Dugger & Spivak 2009b](#DuggerSpivak.Mapping).
+For more details on the [[rigidification of quasi-categories]] see also [Dugger & Spivak (2009a)](#DuggerSpivak.Rigidification), [(2009b)](#DuggerSpivak.Mapping).
 
 
 ## Relations
@@ -117,20 +126,24 @@ from the [[homotopy coherent nerve]]
 
 There is an [[operad|operadic]] analog of the relation between quasi-categories and simplicial categories, involving, correspondingly, [[dendroidal sets]] and [[simplicial operads]].
 
+
 ## References
 
-The idea of a [[homotopy coherent nerve]] has been around for some time.  It was first  made explicit by [[Cordier]] in 1980, and the link with quasi-categories was then used in his joint work  with [[Tim Porter|Porter]]. That work owed a lot to earlier ideas of  [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] about seven years earlier who had used a more topologically based approach.  Precise references are given and the history discussed more fully at the entry, [[homotopy coherent nerve]]. 
+The notion of the [[homotopy coherent nerve]] (see there for more) goes back to [Cordier (1982)](homotopy+coherent+nerve#Cordier82); [Cordier & Porter(1986)](homotopy+coherent+nerve#CordierPorter86).
 
 The [[Quillen equivalence]] between the [[model structure for quasi-categories]] and the [[model structure on sSet-categories]] is described in
 
-* [[Julie Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239))
+* {#Lurie09} [[Jacob Lurie]], §1.1.5 and §2.2 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
 
-A detailed discussion of the map from quasi-categories to $SSet$-categories is in 
+after an unpublished proof by [[André Joyal]] was announced in:
 
-* {#DuggerSpivak.Rigidification} [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
+* {#Bergner07} [[Julie Bergner]], Theorem 7.8 in: *A survey of $(\infty,1)$-categories*, in: [[John Baez]], [[Peter May]] (eds.),  _[[Towards Higher Categories]]_ The IMA Volumes in Mathematics and its Applications **152**, Springer (2007) &lbrack;[arXiv:math/0610239](http://arxiv.org/abs/math/0610239), [doi:10.1007/978-1-4419-1524-5_2](https://doi.org/10.1007/978-1-4419-1524-5_2)&rbrack; 
 
+Further discussion of [[rigidification of quasi-categories]] $\mathfrak{C}$:
 
-* {#DuggerSpivak.Mapping} [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
+* {#DuggerSpivak.Rigidification} [[Dan Dugger]], [[David Spivak]], *Rigidification of quasi-categories*, Algebr. Geom. Topol. **11** (2011) 225-261 &lbrack;[arXiv:0910.0814](http://arxiv.org/abs/0910.0814), [doi:10.2140/agt.2011.11.225](http://dx.doi.org/10.2140/agt.2011.11.225)&rbrack;
+
+* {#DuggerSpivak.Mapping} [[Dan Dugger]], [[David Spivak]], *Mapping spaces in quasi-categories*, Algebr. Geom. Topol. **11** (2011) 263-325 &lbrack;[arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263)&rbrack;
 
 
 More along these lines is in 
@@ -147,8 +160,3 @@ See also
 * {#Hinich} [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
  
 
-An introduction and overview of the relation between quasi-categories and simplicial categories is in section 1.1.5 of 
-
-* {#Lurie09} [[Jacob Lurie]], _[[Higher Topos Theory]]_ (2009)
-
-The details are in section 2.2
