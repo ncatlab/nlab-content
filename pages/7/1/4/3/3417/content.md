@@ -230,6 +230,10 @@ Recall the slight but crucial difference between the two notions of "[[simplicia
 
 
 [[!redirects model structure on SSet-categories]]
+
+[[!redirects model structure on sSet-enriched categories]]
+[[!redirects model structure on SSet-enriched categories]]
+
 [[!redirects model structure on simplicial categories]]
 [[!redirects model structure on simplicially enriched categories]]
 [[!redirects Bergner model structure]]
