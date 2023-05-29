@@ -9,7 +9,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -424,6 +423,10 @@ Thus, the decomposable faces of $S(\Delta^n)(0,n)$ are the ones omitting the top
   $$
 
 ## Related concepts
+
+* [[rigidification of quasi-categories]]
+
+* [[relation between quasi-categories and sSet-enriched categories]]
 
 ### Comonadic resolution
 (To be edited)
