@@ -20,7 +20,7 @@
 
 ## Definition
 
-An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$, or
+An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambiadjunction_ or _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$, or
 more precisely: equipped with a specified equivalence.  Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of *[[biadjunction]]*). Functor $G$ which has a left and right adjoint which are equivalent is said to be [[Frobenius functor]]. 
 
 In the special case that $G$ is a [[fully faithful functor]] with an ambidextrous adjoint one also speaks of an *[[essential localization]]* (cf. *[[bireflective subcategory]]*).
@@ -138,3 +138,8 @@ Connection to [[Hopf adjunction]]s
 [[!redirects ambidextrous spaces]]
 
 [[!redirects biadjoint pair]]
+
+[[!redirects ambiadjunction]]
+[[!redirects ambiadjunctions]]
+[[!redirects ambijunction]]
+[[!redirects ambijunctions]]
