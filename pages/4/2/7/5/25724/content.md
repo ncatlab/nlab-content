@@ -21,18 +21,37 @@
 ## Idea
 
 Both [[quasi-categories]] as well as [[sSet-enriched categories]] serve as models for [[(infinity,1)-categories|$(\infty,1)$-categories]] (exhibited by the [[Joyal model structure for quasi-categories]] and the [[Dwyer–Kan–Bergner model structure on sSet-enriched categories]], respectively) and in fact as [[Quillen equivalence|Quillen equivalent]] models (see the *[[relation between quasi-categories and simplicial categories]]*) whose [[right Quillen functor]] is the [[homotopy coherent nerve]]-operation. Its [[left adjoint]]
-
 $$
   \mathfrak{C} 
      \;\colon\; 
   sSet \longrightarrow sSet\text{-}Cat
 $$
-
 &lbrack;[Lurie (2009), pp. 20](#Lurie09)&rbrack; thus encodes any [[quasi-category]] equivalently in an [[sSet]]-[[enriched category]]. Since in the latter model, but not in the former, [[horizontal composition]] is a strictly [[associativity|associative]] and [[unitality|unital]] operation, one may think of $\mathfrak{C}(-)$ as (partially) "rigidifying" the data in a quasi-category, in the sense of [[semi-strict infinity-category|semi-strictification of $\infty$-categories]], whence it is also known as the operation of *rigidification of quasi-categories* &lbrack;[Dugger & Spivak (2011a)](#DuggerSpivak11a)&rbrack;.
 
-## Definition
+## The Joyal rigidification functor
 
-(...)
+The __Joyal rigidification functor__ is defined as the [[left adjoint]] of the Cordier–Vogt [[homotopy coherent nerve functor]].
+
+
+## The Dugger–Spivak rigidification functor
+
+The __Dugger–Spivak rigidification functor__
+provides a more explicit model for the same [[(∞,1)-functor]], by virtue of writing down an explicit formula that does not use colimits.
+The resulting functor is connected to the Joyal functor by a zigzag of natural weak equivalences.
+
+Specifically, given a [[simplicial set]] $S$ (not necessarily fibrant in the [[Joyal model structure]]),
+we construct the Dugger–Spivak rigidification $\mathfrak{C}^{\mathrm{nec}}S$ as the following [[simplicial category]].
+Objects are vertices of $S$.
+
+The [[simplicial set]] of morphisms $x\to y$ is the nerve of the category of __necklaces__ in $S$ (introduced by [[Hans-Joachim Baues]]).
+A necklace is a simplicial map
+$$\Delta^{n_1}\vee \cdots \vee \Delta^{n_k}\to S,$$
+where $\vee$ glues the final vertex of the preceding simplex to the initial vertex of the following simplex.
+Morphisms are commutative triangles of simplicial maps that preserve the initial and final vertex of the entire necklace.
+
+Composition is defined by concatenating necklaces.
+The resulting functor from simplicial sets admits
+a zigzag of weak equivalences to the Joyal rigidification functor.
 
 
 ## Properties
