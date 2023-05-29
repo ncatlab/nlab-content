@@ -51,6 +51,7 @@ Here, "bi-X" is used to denote a structure that is equipped with X-structure and
 Examples:
 
 - [[bilimit]]
+- [[biproduct]]
 
 An alternative, unambiguous prefix that can be used for this meaning is "ambi-".
 
