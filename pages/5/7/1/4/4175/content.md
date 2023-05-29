@@ -66,6 +66,8 @@ If $T$ is a (Brugui&#232;res-Lack-Virelizier) Hopf monad on a [[closed monoidal 
 
 * [[Hopf monoidal category]]
 
+* [[Frobenius monad]]
+
 
 ## References
 
