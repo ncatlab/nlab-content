@@ -358,7 +358,7 @@ its weak equivalences are those morphisms whose dual was a weak equivalence in $
 \begin{proposition}
 **([[transferred model structure]] along [[adjoint equivalence]])**
 \linebreak
-  Given an [[right adjoint|right]] [[adjoint equivalence]] $R \colon \mathcal{D} \overset{\sim}{\longrightarrow} \mathcal{C}$ between [[categories]] and a [[model category]]-[[structure]] on $C$, then $D$ carries the [[transferred model structure]] whose [[weak equivalences]]/[[fibrations]]/[[cofibrations]] are the [[preimages]] under $R$ of the corresponding morphisms in $\mathcal{C}$. With respect to this transferred structre, the original [[adjunction]] $L \dashv R$ is a [[Quillen equivalence]].
+  Given an [[right adjoint|right]] [[adjoint equivalence]] $R \colon \mathcal{D} \overset{\sim}{\longrightarrow} \mathcal{C}$ between [[categories]] and a [[model category]]-[[structure]] on $C$, then $D$ carries the [[transferred model structure]] whose [[weak equivalences]]/[[fibrations]]/[[cofibrations]] are the [[preimages]] under $R$ of the corresponding morphisms in $\mathcal{C}$. With respect to this transferred structure, the original [[adjunction]] $L \dashv R$ is a [[Quillen equivalence]].
 \end{proposition}
 (cf. [this Example](transferred+model+structure#RightTransferAlongAdjointEquivalence) at *[[transferred model structure]]*)
 
