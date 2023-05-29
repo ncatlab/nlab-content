@@ -157,7 +157,7 @@ denote the operation of [[rigidification of quasi-categories]].
 $$
   L \circ \mathfrak{C}(S)
   \longrightarrow
-  \mathcal{G}(X)
+  \mathcal{G}(S)
 $$
 which is a [[Dwyer-Kan equivalence]]
 (from the localization (eq:LocalizationOfsSetCategoriesToSSetGroupoids) of the rigidification (eq:RigidificationOfQuasiCategories) to the Dwyer-Kan fundamental groupoid (as [above](#Definition)).
