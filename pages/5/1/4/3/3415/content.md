@@ -33,7 +33,7 @@ There is a [[model category]] structure on the category [[SSet]] --  the **[[And
 
 The **model structure for quasi-categories** or **Joyal model structure** $sSet_{Joyal}$ on [[sSet]] has
 
-* [[cofibrations]] are the [[monomorphisms]]
+* [[cofibrations]] are the [[monomorphisms]],
 
 * [[weak equivalences]] are those maps that are taken by the [[rigidification of quasi-categories|rigidification]] functor $\mathfrak{C}$ (the [[left adjoint]] to the [[homotopy coherent nerve]]) to a [[Dwyer-Kan equivalence]] (a [[weak equivalence]] in the [[Dwyer-Kan-Bergner model structure on sSet-enriched categories]]).
 
