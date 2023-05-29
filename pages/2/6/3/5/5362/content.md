@@ -19,9 +19,9 @@
 
 Let $A$ be a [[small category]], and let $Psh(A)=Set^{A^{op}}$ be the [[category of presheaves]] on $A$. Since $Psh(A)$ is a [[Grothendieck topos]], it has a unique [[subobject classifier]], $L$.  
 
-Let $\mathbf{0}$ and $\mathbf{1}$ denote the [[initial object]] and [[terminal object]], respectively, of $Psh(A)$.  The presheaf $1$ has exactly two [[subobject]]s $\mathbf{0}\hookrightarrow \mathbf{1}$ and $\mathbf{1}\hookrightarrow \mathbf{1}$.  These determine the unique two elements $\lambda^0,\lambda^1\in L(\mathbf{1})=Hom(\mathbf{1},L)$.      
+Let $\mathbf{0}$ and $\mathbf{1}$ denote the [[initial object]] and [[terminal object]], respectively, of $Psh(A)$.  The presheaf $1$ has two distinguished [[subobject]]s $\mathbf{0}\hookrightarrow \mathbf{1}$ and $\mathbf{1}\hookrightarrow \mathbf{1}$, which correspond to global points $\lambda^0,\lambda^1\in L(\mathbf{1})=Hom(\mathbf{1},L)$ of the subobject classifier.
 
-We call the triple $\mathfrak{L}=(L,\lambda^0,\lambda^1)$ the **Lawvere interval** for the [[topos]] $Psh(A)$.  This object determines a unique [[cylinder functor]] given by taking the [[cartesian product]] with an object.  We will call this endofunctor the **Lawvere cylinder** .
+We call the triple $\mathfrak{L}=(L,\lambda^0,\lambda^1)$ the **Lawvere interval** for the [[topos]] $Psh(A)$.  This object determines a [[cylinder functor]] given by taking the [[cartesian product]] with $L$.  We will call this endofunctor the **Lawvere cylinder** .
 
 ## Properties
 
