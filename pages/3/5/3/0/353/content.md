@@ -10,37 +10,32 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-For $n \in \mathbb{N}$, an _$n$-category_ is like
+In broad generality, under *$n$-categories* one understands [[higher categories]] with non-trivial [[higher morphisms]] up to dimension $n \in \mathbb{N} \sqcup \{\infty\}$. For $n = 1$ these are the ordinary [[categories]] (or *[[1-categories]]*, for emphasis) of [[category theory]], for $n = 2$ they are the [[2-categories]] (traditionally: "[[bicategories]]") and/or [[double categories]] of [[2-category theory]], for $n = 3$ one also speaks of [[tricategories]], etc. The case $n = \infty$ would broadly refer to the most general notion of [[infinity-categories|$\infty$-categories]] where there is no constraint on the dimensionality of [[higher morphisms]]. 
 
-* an $n$-truncated [[directed space]] in which $(k \leq n)$-dimensional paths have a direction, while all higher dimensional paths are reversible and parallel higher dimensional paths are homotopic;
+Especially as $n$ increases, there is a plethora of different concrete definitions of $n$-categories, some differing in generality others different-looking but secretly equivalent. 
+A (woefully incomplete) list is given [below](#ListOfDefinitions), with pointers to dedicated entries. Part of the subject of [[higher category theory]] is to understand, organize, systematize and, last not least, apply these definitions. (It is the "$n$" in "$n$-category" that gives the *[[HomePage|nLab]]* its name.)
 
-* a $n$-fold higher analog of what a [[category]] is to a [[set]]
+Often it is important to consider the more fine-grained notion of *[[(n,r)-categories|$(k,n)$-categories]]*, where now $n$ refers only to the maximal dimension of non-[[invertible morphisms]] (non-[[equivalences]]) while the [[invertible morphisms|invertible]] [[higher morphisms]] are allowed to range in dimension up to $k \in \mathbb{N} \sqcup \{\infty\}$.
 
-$n$-Categories are the main subject of [[higher category theory]], and give the $n$-[[About|Lab]] its name. In their modern formulation in [[homotopy theory]] they are known as _[[(∞,n)-categories]]_ (see there for more details).
+Particularly important here is the limiting case ($k = \infty$) of [[(infinity,n)-categories|$(\infty,n)$-categories]]:
+Since [[(infinity,0)-categories|$(\infty,0)$-categories]] aka *[[infinity-groupoids|$\infty$-groupoids]]* are the bare [[homotopy types]] of "spaces" as considered in [[homotopy theory]], [[(infinity,n)-categories|$(\infty,n)$-categories]] are the natural notion of $n$-categories [[internalization|internal]] to [[homotopy theory]] (also: internal to [[homotopy type theory]], up some technical issues) where the notoriously intricate [[coherence laws]] of [[higher category theory]] typically have a particularly natural (if maybe non-explicit) formulation. Therefore many authors these days use "$\infty$-category" as a pseudonym for *[[(infinity,1)-category|$(\infty,1)$-category]]* and some use "$n$-category" as a tacit pseudonym for [[(infinity,n)-categories|$(\infty,n)$-categories]].
+
+In this [[homotopy theory|homotopy theoretic]]-perspective on $n$-categories they are naturally understood as (models for)
+*[[directed spaces]]* (with an $n$-fold notion of "direction") and in principle the topics of *[[directed homotopy theory]]* (and *[[directed homotopy type theory]]*) ought to be thought of as essentially synonymous to [[(infinity,n)-categories|$(\infty,n)$-category]] theory, though a genuine perspective of [[directed homotopy theory|directed homotopy]]/[[directed homotopy type theory]] is still in its infancy.
+
+Conversely, for concrete computations it is at times convenient to have *less* flexible and more rigid definitions or at least presentations/models of $n$-categories. In as far as these are still suitably equivalent to the general notion one speaks of *[[semi-strict n-categories]]* and much of [[higher category theory]] revolves around identifying and comparing such *rigidifications*. On the other hand, perfectly *[[strict n-categories|strict $n$-categories]]* are typically too rigid to play more than a niche role in [[higher category theory]].
 
 
-Semi-formally, $n$-categories can be described as follows.
-An $n$-category is an [[∞-category]] such that all $(n+1)$-morphisms are [[equivalence]]s, and all parallel pairs of $j$-morphisms are equivalent for $j \gt n$. (One says that the $\infty$-category is _trivial_ in degree greater than $n$.) This is the same thing as an $(n,n)$-category in the sense of $(n,r)$-[[(n,r)-category|categories]].
+Finally, it is sometimes useful to subsume degenerate cases in the general pattern of $n$-categories, such as [[0-categories]] ([[sets]]), [[(0,1)-categories]] ([[posets]]) and even *[[(-1)-categories]]* ([[truth values]]) and *[[(-2)-categories]]* (the [[terminal category]]).
 
-Up to equivalence, you may assume that all equivalent pairs of $j$-morphisms for $j \gt n$ are in fact equal, and many authorities include this as a requirement. On the other hand, you can also write down a definition of $n$-category from scratch (without passing through $\infty$-categories), and then this question never comes up. The point is that you don\'t talk about $j$-morphisms for $j \gt n$; you stop at $n$-morphisms.
-
-On the $n$Lab, the term "$n$-category" usually means a *weak* $n$-category, in which the compositions of cells obeys the usual associativity, unit, and exchange laws only up to coherent [[equivalence]].  This sort of $n$-category is somewhat tricky to define; there are a number of proposals, not yet shown to be equivalent.  By contrast, [[strict n-categories]] are easy to define, but are not sufficient for most examples when $n\ge 3$ (see [[semistrict n-category]]).
-
-## Examples
-
-* A $0$-category is a [[set]].
-
-* A $1$-category is an ordinary [[category]].
-
-* A $2$-[[2-category|category]] is (depending on how strict was your initial notion of $\infty$-category) either a [[strict 2-category]] or a [[bicategory]].
-
-One also speaks of $(-1)$-[[(-1)-category|categories]] and $(-2)$-[[(-2)-category|categories]], but these concepts are not as well behaved.
 
 ## Categories of $n$-categories 
 
@@ -140,6 +135,9 @@ Many of these definitions are actually "truncations" of definitions of (weak) [[
 
 * [[(n,r)-category]]
 
+## References
+
+See the list of references at *[[higher category theory]]*.
 
 
 
