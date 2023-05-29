@@ -28,19 +28,34 @@ $$
 $$
 &lbrack;[Lurie (2009), pp. 20](#Lurie09)&rbrack; thus encodes any [[quasi-category]] equivalently in an [[sSet]]-[[enriched category]]. Since in the latter model, but not in the former, [[horizontal composition]] is a strictly [[associativity|associative]] and [[unitality|unital]] operation, one may think of $\mathfrak{C}(-)$ as (partially) "rigidifying" the data in a quasi-category, in the sense of [[semi-strict infinity-category|semi-strictification of $\infty$-categories]], whence it is also known as the operation of *rigidification of quasi-categories* &lbrack;[Dugger & Spivak (2011a)](#DuggerSpivak11a)&rbrack;.
 
-## The Joyal rigidification functor
+## Definition
 
-The __Joyal rigidification functor__ is defined as the [[left adjoint]] of the Cordier–Vogt [[homotopy coherent nerve functor]].
+### The Joyal rigidification functor
+
+The __Joyal rigidification functor__ $\mathscr{C}$ is defined as the [[left adjoint]] of the Cordier–Vogt [[homotopy coherent nerve functor]] $N$:
+
+\[
+  \label{RigidificationAsLeftAdjointToHomotopyCoherentNerve}
+  sSet
+  \underoverset
+    {\underset{N}{\longleftarrow}}
+    {\overset{\mathfrak{C}}{\longrightarrow}}
+    {\;\;\; \bot \;\;\;}
+  sSet\text{-}Cat
+\]
+
+This notion is briefly mentioned and attributed to [[André Joyal]] by [Bergner (2007), above Theorem 7.8](#Bergner07); the first detailed account is due to [Lurie (2009), §1.1.5 and §2.2](#Lurie09).
 
 
-## The Dugger–Spivak rigidification functor
+### The Dugger–Spivak rigidification functor
 
-The __Dugger–Spivak rigidification functor__
+The __Dugger–Spivak rigidification functor__ &lbrack;[Dugger & Spivak (2011a)](#DuggerSpivak11a)&rbrack;
 provides a more explicit model for the same [[(∞,1)-functor]], by virtue of writing down an explicit formula that does not use colimits.
 The resulting functor is connected to the Joyal functor by a zigzag of natural weak equivalences.
 
 Specifically, given a [[simplicial set]] $S$ (not necessarily fibrant in the [[Joyal model structure]]),
-we construct the Dugger–Spivak rigidification $\mathfrak{C}^{\mathrm{nec}}S$ as the following [[simplicial category]].
+we construct the Dugger–Spivak rigidification $\mathfrak{C}^{\mathrm{nec}}S$ as the following [[simplicial category]]:
+
 Objects are vertices of $S$.
 
 The [[simplicial set]] of morphisms $x\to y$ is the nerve of the category of __necklaces__ in $S$ (introduced by [[Hans-Joachim Baues]]).
@@ -57,6 +72,8 @@ a zigzag of weak equivalences to the Joyal rigidification functor.
 ## Properties
  {#Properties}
 
+### Respect for products
+
 The rigidification operation does not strictly preserve [[Cartesian products]] (cf. *[[products of simplicial sets]]*) but it does so up to equivalence:
 
 \begin{proposition}\label{PreservationOfProducts}
@@ -69,6 +86,54 @@ $$
 which is a [[Dwyer-Kan equivalence]].
 \end{proposition}
 &lbrack;[Lurie (2009), Cor. 2.2.5.6](#Lurie09); [Dugger & Spivak (2011a), Prop. 6.2](#DuggerSpivak11a)&rbrack;
+
+
+### Relation to Dwyer-Kan groupoids
+
+Let 
+\[
+  \label{LocalizationOfsSetCategoriesToSSetGroupoids}
+  L 
+    \,\colon\,
+  sSet\text{-}Cat
+  \longrightarrow
+  sSet\text{-}Grp
+\]
+denote the functor from [[sSet-enriched categories]] to [[sSet]]-[[enriched groupoids]] (Dwyer-Kan [[simplicial groupoids]]) which is degreewise given by the [[localization]] operation [[left adjoint]] to the [[full subcategory]] inclusion [[Grpd]] $\hookrightarrow$ [[Cat]].
+
+Let
+\[
+  \label{DwyerKanFundamentalGroupoid}
+  \mathcal{G}
+  \,\colon\,
+  sSet 
+    \longrightarrow
+  sSet\text{-}Grpd
+    \hookrightarrow
+  sSet\text{-}Cat
+\]
+denote the [[Dwyer-Kan fundamental simplicial groupoid]]-construction with values in [[sSet]]-[[enriched groupoids]] (Dwyer-Kan [[simplicial groupoids]]), here to be regarded among [[sSet-enriched categories]].
+
+\begin{proposition}\label{ComparisonWithDKGroupoids}
+  For $S \,\in\, sSet$ there is a [[natural transformation]] 
+$$
+  L \circ \mathfrak{C}(S)
+  \longrightarrow
+  \mathcal{G}(X)
+$$
+which is a [[Dwyer-Kan equivalence]]
+(from the localization (eq:LocalizationOfsSetCategoriesToSSetGroupoids) of the rigidification (eq:RigidificationAsLeftAdjointToHomotopyCoherentNerve) to the Dwyer-Kan fundamental groupoid (eq:DwyerKanFundamentalGroupoid)).
+\end{proposition}
+&lbrack;[Minichiello, Rivera & Zeinalian (2023), Thm. 1.1 (Cor. 4.2)](#MinichielloRiveraZeinalian23)&rbrack;
+
+
+## Related concepts
+
+* [[homotopy coherent nerve]]
+
+* [[relation between quasi-categories and simplicial categories]]
+
+* [[Dwyer-Kan fundamental simplicial groupoid]]
 
 
 ## References
