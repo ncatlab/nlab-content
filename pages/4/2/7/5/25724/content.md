@@ -119,7 +119,7 @@ denote the [[Dwyer-Kan fundamental simplicial groupoid]]-construction with value
 $$
   L \circ \mathfrak{C}(S)
   \longrightarrow
-  \mathcal{G}(X)
+  \mathcal{G}(S)
 $$
 which is a [[Dwyer-Kan equivalence]]
 (from the localization (eq:LocalizationOfsSetCategoriesToSSetGroupoids) of the rigidification (eq:RigidificationAsLeftAdjointToHomotopyCoherentNerve) to the Dwyer-Kan fundamental groupoid (eq:DwyerKanFundamentalGroupoid)).
