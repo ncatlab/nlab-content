@@ -70,34 +70,61 @@ A [[Quillen equivalence]] $D \leftrightarrows C$ between [[model categories]] in
 
 This is made explicit in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwyer & Kan 80, Prop. 4.4 with 5.4](#DwyerKan80FunctionComplexes).
 
-The analogous statement under further passage to [[model structure on quasi-categories|Joyal equivalences]] of [[quasi-categories]] is [Lurie 09, Cor. A.3.1.12](#Lurie), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
+The analogous statement under further passage to [[model structure on quasi-categories|Joyal equivalences]] of [[quasi-categories]] is [Lurie (2009), Cor. A.3.1.12](#Lurie09), under the additional assumptions that the model categories are [[simplicial model category|simplicial]], that every object of $C$ is [[cofibrant object|cofibrant]] and that the right adjoint is an sSet [[enriched functor]].
 
 
  
 +-- {: .num_prop #BergnerModelStructure}
 ###### Proposition
 
-The category [[SSet Cat]] of [[small category|small]] [[simplicially enriched categories]] carries the structure of a [[model category]] with
+The category [[SSet Cat]] of [[small category|small]] [[sSet-enriched categories]] carries the structure of a [[model category]] with
 
-* weak equivalences the Dwyer-Kan equivalences;
+* [[weak equivalences]] the [[Dwyer-Kan equivalences]] (Def. \ref{DwyerKanEquivalences});
 
-* fibrations those [[sSet]]-[[enriched functor]]s $F : C \to D$ such that
+* [[fibrations]] those [[sSet]]-[[enriched functors]] $F \colon C \to D$ such that
 
-  1. for all $x, y \in C$ the morphism $F_{x,y} : C(x,y) \to D(F(x), F(y))$ is a fibration in the standard [[model structure on simplicial sets]];
+  1. for all $x, y \in C$ the morphism $F_{x,y} \colon C(x,y) \to D\big(F(x), F(y)\big)$ is a fibration in the [[classical model structure on simplicial sets]];
 
-
-  1. the induced functor $\pi_0(F) : Ho(C) \to Ho(D)$ on [[homotopy categories]] is an [[isofibration]].
+  1. the induced functor $\pi_0(F) \colon Ho(C) \to Ho(D)$ on [[homotopy categories]] is an [[isofibration]].
 
 =--
 
-&lbrack;[Bergner (2004)](#Bergner04), [Lurie (2009), thm. A.3.2.4](#Lurie)&rbrack;
+&lbrack;[Bergner (2004)](#Bergner04), [Lurie (2009), thm. A.3.2.4](#Lurie09)&rbrack;
 
 +-- {: .num_remark}
 ###### Remark
 
-In particular, the fibrant objects in this structure are the [[Kan complex]]-enriched categories, i.e. the strictly [[∞-groupoid]]-enriched ones (see [[(n,r)-category]]).
+In particular, the [[fibrant objects]] in this model structure are the [[Kan complex]]-[[enriched categories]], i.e. the strictly [[∞-groupoid]]-enriched ones (see *[[(n,r)-category]]*).
 
 =--
+
+\begin{proposition}
+\label{DKBCofibrationsAreInParticularHomSpaceWiseMonos}
+The [[cofibrations]] in the Dwyer-Kan-Bergner model structure (Prop. \ref{BergnerModelStructure}) are in particular [[hom-object]]-wise cofibrations in the [[classical model structure on simplicial sets]], hence [[hom-object]] wise [[monomorphism]] of [[simplicial sets]]:
+$$
+  \left.
+  \begin{array}{l}
+    \mathbf{D}, \, \mathbf{C} \,\in\, sSet\text{-}Cat,
+    \\
+    F \colon \mathbf{D} 
+     \underset{\in Cof_{DKB}}{\longrightarrow} \mathbf{C},
+    \\
+    X,Y \,\in\, \mathbf{D}
+  \end{array}
+  \;\;\;
+  \right\}
+  \;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;
+  F_{X,Y} 
+    \colon 
+  \mathbf{D}(X,Y) 
+    \underset{\in Cof_{KQ}}{\hookrightarrow}  
+  \mathbf{C}\big(F(X), F(Y)\big)
+  \,.
+$$
+\end{proposition}
+&lbrack;[Lurie (2009), Rem. A.3.2.5](#Lurie09)&rbrack;
 
 
 
@@ -112,7 +139,10 @@ The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[proper m
 
 =--
 
-A reference for right properness is ([Bergner 04, prop. 3.5](#Bergner04)). A reference for left properness is ([Lurie, A.3.2.4](#Lurie)) and ([Lurie, A.3.2.25](#Lurie)).
+A reference for right properness is ([Bergner 04, prop. 3.5](#Bergner04)). A reference for left properness is ([Lurie, A.3.2.4](#Lurie09)) and ([Lurie, A.3.2.25](#Lurie09)).
+
+
+
 
 ### Relation to simplicial groupoids
  {#RelationToSimplicialGroupoids}
@@ -176,7 +206,7 @@ Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there oug
 
 Also:
 
-* {#Lurie} [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_ (2009)
+* {#Lurie09} [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
