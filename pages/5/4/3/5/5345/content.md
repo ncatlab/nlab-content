@@ -74,7 +74,6 @@ There is a [[model category]] structure on $sGrpd_{DK}$ whose
 * [[cofibrations]] are the [[retracts]] (in the [[arrow category]]) of the free maps from Def. \ref{FreeMorphismsOfSimplicialGroupoids}.
 
 \end{proposition}
-
 This is due to [Dwyer & Kan (1984), §1.1, §1.2, Thm. 2.5](#DwyerKan84), reviewed in [Goerss & Jardine (2009), p. 316 and after cor V.7.3](#GoerssJardine09).
 
 \begin{remark}\label{RelationToModelStructureOnSimplicialGroups}
@@ -257,7 +256,8 @@ of the category of [[sSet]]-[[enriched groupoids]] into that of [[sSet-enriched 
 1. evidently preserves fibrations and weak equivalences between the above model structure on simplicial groupoids and the Bergner-[[model structure on sSet-categories]] (see [there](model+structure+on+sSet-categories#ModelForInfinityCategories))
 
 hence we have a [[Quillen adjunction]]:
-$$
+\[
+  \label{SimplicialGroupoidificationAdjunction}
   sSet\text{-}Grpd_{DK}
   \underoverset
      {\underset{\iota}{\hookrightarrow}}
@@ -265,9 +265,72 @@ $$
      {\;\;\; \bot_{\mathrm{Qu}} \;\;\;}
   sSet\text{-}Cat_{Berg}
   \,.
-$$
+\]
 \end{proposition}
 (see also [Minichiello, Rivera & Zeinalian (2023), Prop. 2.8](#MinichielloRiveraZeinalian23))
+
+Consider the [[pair]] of [[adjoint functors]] given by [[homotopy coherent nerve]] $N$ and [[rigidification of quasi-categories]] $\mathfrak{C}$:
+\[
+  \label{HoCoherentNerveAndRigidificationAdjunction}
+  sSet\text{-}Cat_{Berg}
+  \underoverset
+     {\underset{N}{\longrightarrow}}
+     {\overset{\mathfrak{C}}{\longleftarrow}}
+     {\;\;\; \bot \;\;\;}    
+  sSet
+\]
+This is a [[Quillen adjunction]] with respect to the [[Joyal model structure]] for [[quasi-categories]] on the right, but next we are after a slightly different role of this adjunction:
+\begin{proposition}
+ \label{ComparisonFromLocalizationOfRigidificationAndToDKGroupoid}
+ For $S \in sSet$ there is a [[natural transformation]]
+ $$
+    F \circ \mathfrak{C}(S)
+    \longrightarrow
+    \mathcal{G}(S)
+ $$
+ which is a [[Dwyer-Kan equivalence]] (from the localization (eq:SimplicialGroupoidificationAdjunction) of the rigidification (eq:HoCoherentNerveAndRigidificationAdjunction) to the [[Dwyer-Kan fundamental simplicial groupoid]]).
+\end{proposition}
+&lbrack;[Minichiello, Rivera & Zeinalian (2023), Thm. 1.1 (Cor. 4.2)](#MinichielloRiveraZeinalian23)&rbrack;
+
+As a corollary:
+\begin{proposition}
+\label{LocalizationOfRegidificationAsLeftQuillenFunctor}
+The composite of the adjunctions (eq:SimplicialGroupoidificationAdjunction) and (eq:HoCoherentNerveAndRigidificationAdjunction) 
+$$
+  sSet\text{-}Grpd_{DK}
+  \underoverset
+     {\underset{\iota}{\hookrightarrow}}
+     {\overset{F}{\longleftarrow}}
+     {\;\;\; \bot \;\;\;}
+  sSet\text{-}Cat
+  \underoverset
+     {\underset{N}{\longrightarrow}}
+     {\overset{\mathfrak{C}}{\longleftarrow}}
+     {\;\;\; \bot \;\;\;}    
+  sSet_{KQ}
+$$
+is a [[Quillen adjunction]] between the Dwyer-Kan model structure from Prop. \ref{TheModelStructure} and the [[Kan-Quillen model structure]] on simplicial sets.
+\end{proposition}
+\begin{proof}
+ It is sufficient to see that $F \circ \mathfrak{C}$ is a [[left Quillen functor]]. This is immediate for the [[Joyal model structure]] on $sSet$, where $\mathfrak{C} \dashv N$ is a [[Quillen adjunction]] ([this Prop.](relation+between+quasi-categories+and+simplicial+categories#TheQuillenEquivalence)) so that $F \circ \mathfrak{C}$, being the composite of the left Quillen functor $\mathfrak{C}$ with the left Quillen functor $F$ (eq:SimplicialGroupoidificationAdjunction) is itself left Quillen. But the [[cofibrations]] of the [[Joyal model structure]] coincide with those of the [[Kan-Quillen model structure]] on [[sSet]] (both being  [[monomorphisms]]), so that $F \circ \mathfrak{C}$ also preserves the Kan-Quillen cofibrations.
+To conclude it is therefore sufficient to see that $F \circ \mathfrak{C}$ sends all [[simplicial weak homotopy equivalences]] to [[Dwyer-Kan equivalences]]. But by Prop. \ref{ComparisonFromLocalizationOfRigidificationAndToDKGroupoid} every map $f \colon S \longrightarrow S'$ of [[simplicial sets]] gives rise to a [[commuting diagram]] in [[sSet Cat]] of the form
+$$
+  \array{
+    F \circ \mathfrak{C}(S)
+    &\overset{F \circ \mathfrak{C}(f)}{\longrightarrow}&
+    F \circ \mathfrak{C}(S')
+    \\
+    \Big\downarrow
+    &&
+    \Big\downarrow
+    \\
+    \mathcal{G}(S)
+    &\underset{\;\; \mathcal{G}(f) \;\;}{\longrightarrow}&
+    \mathcal{G}(S')
+  }
+$$
+where the vertical morphisms are [[Dwyer-Kan equivalences]]. Now observe that the [[Dwyer-Kan fundamental simplicial groupoid]]-functor $\mathcal{G}$ preserves all weak equivalences by [[Ken Brown's lemma]]: because it is a [[left Quillen functor]]  on a model category all whose objects are cofibrant. Therefore also $F \circ \mathfrak{C}$ preserves all weak equivalences, by [[2-out-of-3]].
+\end{proof}
 
 
 ## Related concepts
