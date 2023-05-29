@@ -36,5 +36,8 @@ category: people
 
 
 [[!redirects Jon Sterling]]
+[[!redirects Jon Sterling]]
 
 [[!redirects Jonathan Sterling]]
+
+
