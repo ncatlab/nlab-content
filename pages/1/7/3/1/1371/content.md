@@ -159,4 +159,6 @@ See also
 
 * {#Hinich} [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
  
+[[!redirects relation between quasi-categories and sSet-enriched categories]]
+
 
