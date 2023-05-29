@@ -68,10 +68,6 @@ Here is a list of (some of) the proposed definitions of (weak) $n$-category, wit
 
 Many of these definitions are actually "truncations" of definitions of (weak) [[∞-categories]] (aka [[∞-categories]]).  Some others are truncations of a definition of [[(∞,n)-categories]].  A nice overview of (many) of these can be found in Tom Leinster's paper "A survey of definitions of $n$-category."
 
-+--{: .query}
-Someone should add some more references!
-=--
-
 * Classical explicit definitions of "fully weak" $n$-category exist for $n\le 4$.  Weak 0-categories are [[sets]], weak 1-categories are simply [[categories]] (due to [[Sammy Eilenberg|Eilenberg]] and [[Saunders Mac Lane|Mac Lane]]), weak 2-categories are [[bicategories]] (due to [[Jean Benabou|Benabou]]), weak 3-categories are [[tricategories]] (due to [[Gordon]]--[[John Power|Power]]--[[Ross Street|Street]]), and weak 4-categories are [[tetracategories]] (due to [[Todd Trimble]]).  Going on in this way is generally admitted to be infeasible beyond $n=4$.
 
 * [[Ross Street|Street's]] definition: an $n$-category is a [[simplicial set]] satisfying certain horn-filling conditions.  See [[weak complicial set]] and [[simplicial model for weak ∞-categories]].  This is a truncation of a definition of $\omega$-category.  It can be specialized to yield a notion of $(\infty,n)$-category.  The resulting notion of $(\infty,1)$-category is a [[quasicategory]], and the resulting notion of $\infty$-groupoid is a [[Kan complex]].
@@ -115,10 +111,6 @@ Someone should add some more references!
 * Eugenia Cheng has [shown](http://arxiv.org/abs/math/0304285) that the opetopic definition is correct for $n=2$ (that is, it agrees with bicategories).
 
 * Eugenia Cheng has more recently also [shown](http://arxiv.org/abs/0809.2070) that from any sequence of operads used for iterated enrichment in a Trimble-style definition, one can construct a Batanin--Leinster-style globular operad whose algebras are the $n$-categories obtained in the Trimblean inductive manner.  Not all globular operads can be obtained in this way, however, since those that arise have strict interchange.
-
-+--{: .query}
-Please add any other comparisons you are aware of!
-=--
 
 ## Related concepts
 
