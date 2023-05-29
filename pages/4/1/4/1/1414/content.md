@@ -572,6 +572,8 @@ Relating the [[Dwyer-Kan loop groupoid]]-construction to the homotopy coherent n
 
 
 [[!redirects homotopy coherent nerves]]
+[[!redirects homotopy coherent nerve functor]]
+[[!redirects homotopy coherent nerve functors]]
 [[!redirects homotopy-coherent nerve]]
 [[!redirects homotopy-coherent nerves]]
 [[!redirects coherent nerve]]
