@@ -29,18 +29,30 @@ Since composition in a category is generally non-commutative, we distinguish 'le
 
 A pair $(C,W)$ of a [[category]] $C$ and a class of [[morphism]]s $W$ is said to admit a **calculus of right fractions** if the following properties hold.
 
-* $W$ is a [[wide subcategory]] of $C$ (that is, $W$ contains all identities and is closed under composition).
-* (right Ore condition) Given an arrow $v:x\to z$ in $W$ and any arrow $f: y\to z$, there is an arrow $v':w \to y$ in $W$ and an arrow $f':w \to x$ in $C$ such that
+* $W$ is a [[wide subcategory]] of $C$ (that is, $W$ contains all [[identity morphisms]] and is closed under [[composition]]).
+
+* (right Ore condition) Given a [[morphism]] $v \colon x\to z$ in $W$ and any morphism $f \colon y\to z$, there is a morphism $v' \colon w \to y$ in $W$ and a morphism $f' \colon w \to x$ in $C$ such that the following [[commuting diagram|diagram commutes]]:
+
 $$
 \begin{matrix}
-  w& \stackrel{f'}{\to} & x \\
-  v' \downarrow&&\, \downarrow v\\
-  y &\underset{f}{\to} & z
+  w & \overset{f'}{\longrightarrow} & x 
+  \\
+  \mathllap{{}^{v'}} 
+  \Big\downarrow
+  && 
+  \Big\downarrow\mathrlap{{}^{v}}
+  \\
+  y &\underset{f}{\longrightarrow} & z
 \end{matrix}
 $$
-commutes.
-* (right cancellability) Given an arrow $v:y\to z$ in $W$ and a pair of [[parallel morphisms]] $f,g: x\to y$ such that $v\circ f = v \circ g$, there is an arrow $v':w\to x$ in $W$ such that $f\circ v' = g \circ v'$:
-$$ w \xrightarrow{v'} x \underoverset{g}{f}{\rightrightarrows} y \xrightarrow{v} z$$
+
+
+* (right cancellability) Given a morphism $v \colon y\to z$ in $W$ and a [[pair]] of [[parallel morphisms]] $f,g \colon  x\to y$ such that $v\circ f = v \circ g$, there is a morphism $v' \colon w\to x$ in $W$ such that $f\circ v' = g \circ v'$:
+$$ 
+  w \xrightarrow{v'} x 
+    \underoverset{g}{f}{\rightrightarrows} y 
+  \xrightarrow{v} z\,.
+$$
 
 One may also say that $W$ is a **right Ore system** in $C$ (although this is potentially confusing since the Ore condition is only part of the definition), or that $(C,W)$ **admits a category of right fractions**.  If $(C^{op}, W^{op})$ admits a calculus of right fractions, we say that $(C,W)$ admits a **calculus of left fractions**.  Unfortunately there is no uniformity regarding the choice of 'left' versus 'right;' some authors use 'left' where we use 'right' and vice versa.
 
