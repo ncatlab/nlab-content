@@ -196,7 +196,7 @@ induces
          \gamma_x
        }{\longrightarrow}
        &
-         \mathcal{X}(x_{[y]},y)
+         \mathcal{X}(y,x_{[y]})
          \times
          \mathcal{X}(x,y)
          \times
@@ -218,7 +218,7 @@ induces
    with components $\gamma_x$ (which satisfies its "enriched [[naturality square]]-condition" [here](enriched+natural+transformation#eq:ExtranaturalitySquare) essentially by construction of $p$).
 
 Similarly there is an enriched transformation $id_{\mathcal{X}} \longrightarrow  p \circ \iota$, and these make the [[adjunction unit|unit]] and [[adjunction counit|counit]] of an "enriched [[adjoint equivalence]]".
-But if we choose $\gamma_{x_{[x]}} \coloneqq id_{x_{[x]}}$ --- as we may --- then there is already an [[equality]] $p \circ \iota = id_{\mathcal{X}}$.
+But if we choose $\gamma_{x_{[x]}} \coloneqq id_{x_{[x]}}$ --- as we may --- then there is already an [[equality]] $p \circ \iota = id$.
 \end{proof}
 
 Some consequences:
