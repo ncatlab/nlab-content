@@ -8,7 +8,9 @@
 =--
 =--
 
-A _$(-1)$-category_ is a [[truth value]]. Compare the concept of [[0-category]] (a [[set]]) and [[(−2)-category]] (which is trivial). The point of $(-1)$-categories (a kind of [[negative thinking]]) is that they complete some patterns in the [[periodic table]] of $n$-categories. (They also shed light on the theory of [[homotopy group]]s and [[n-stuff]].)
+## Idea
+
+As a degenerate case of the general notion of *[[n-category]]*, _$(-1)$-categories_ may be understood as [[truth value]]. Compare the concept of [[0-category]] (a [[set]]) and [[(−2)-category]] (which is trivial). The point of $(-1)$-categories (a kind of [[negative thinking]]) is that they complete some patterns in the [[periodic table]] of $n$-categories. (They also shed light on the theory of [[homotopy group]]s and [[n-stuff]].)
 
 For example, there should be a $0$-category of $(-1)$-categories; this is the set of truth values, classically
 $$
