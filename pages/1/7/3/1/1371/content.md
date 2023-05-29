@@ -27,6 +27,7 @@ The equivalence between [[quasi-categories]] and [[sSet-enriched categories]] as
 Our notation partly follows [Bergner (2018)](#Bergner18).
 
 \begin{proposition}
+\label{TheQuillenEquivalence}
 There is a [[Quillen equivalence]]:
 
 $$
