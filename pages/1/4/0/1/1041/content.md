@@ -272,9 +272,10 @@ Further foundations of the theory were then laid in
 
 * [[Alexander Grothendieck]], _[[Tohoku|Sur quelques points d'algèbre homologique]], T&#244;hoku Math. J. vol 9, n.2, 3, 1957.
 
-Other classic references, now available online, include:
+Other classic references:
 
-* [[Pierre Gabriel]], _[[Des Catégories Abéliennes]]_
+* [[Pierre Gabriel]], *[[Des Catégories Abéliennes]]*, Bulletin de la Société Mathématique de France **90** (1962) 323-448 &lbrack;[numdam:BSMF_1962__90__323_0](http://www.numdam.org/item?id=BSMF_1962__90__323_0)&rbrack;
+
 
 * {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
   
