@@ -15,23 +15,24 @@
 
 
 
-# Dwyer-Kan loop groupoid
+# Contents #
 * table of contents
 {:toc}
 
 ## Idea
 
-The *Dwyer-Kan loop groupoid* &lbrack;[Dwyer & Kan (1984), §3.1](#DwyerKan84)&rbrack; of a [[simplicial set]] $K$ is the [[simplicial groupoid]] whose [[objects]] are the [[vertices]] of $K$ and whose [[hom object|hom]]-[[simplicial set]] between a [[pair]] of such picks up the composable sequences of higher dimensional simplices, where the zeroth [[vertex]] is thought of as the [[domain]] [[object]] and the first [[vertex]] as the [[codomain]].
+The *Dwyer-Kan fundamental simplicial groupoid* (often "loop groupoid") &lbrack;[Dwyer & Kan (1984), §3.1](#DwyerKan84)&rbrack; of a [[simplicial set]] $K$ is the [[simplicial groupoid]] whose [[objects]] are the [[vertices]] of $K$ and whose [[hom object|hom]]-[[simplicial set]] between a [[pair]] of such picks up the composable sequences of higher dimensional simplices, where the zeroth [[vertex]] is thought of as the [[domain]] [[object]] and the first [[vertex]] as the [[codomain]].
 
 So the "loop"-terminology is a misnomer: It really refers to a [[simplicial homotopy theory|simplicial]] version of a [[path groupoid]]-construction which may be thought of as modelling a [[fundamental infinity-groupoid|fundamental $\infty$-groupoid]] as a [[simplicial groupoid]].
 
 But applied to the special case of a [[reduced simplicial set]] this construction reduces to the *[[Kan loop group]]* construction, which is properly a model for a [[loop space]]-construction.
 
-The Dwyer-Kan loop groupoid construction is a [[left Quillen functor|left]] [[Quillen equivalence]] ([[right adjoint]] to a groupoidal [[simplicial classifying space]]-construction) from the [[classical model structure on simplicial sets]] to the [[model structure on simplicial groupoids]] &lbrack;[Dwyer & Kan (1984), Thm. 3.3](#DwyerKan84)&rbrack;,
+The Dwyer-Kan groupoid construction is a [[left Quillen functor|left]] [[Quillen equivalence]] ([[right adjoint]] to a groupoidal [[simplicial classifying space]]-construction) from the [[classical model structure on simplicial sets]] to the [[model structure on simplicial groupoids]] &lbrack;[Dwyer & Kan (1984), Thm. 3.3](#DwyerKan84)&rbrack;,
 and as such exhibits the [[homotopy theory]] of [[simplicial groupoids]] as an [[equivalence of (infinity,1)-categories|equivalent]] incarnation of [[classical homotopy theory]].
 
 
 ## Definitions
+ {#Definition}
 
 There are different choices of how to define a DK-type loop groupoid functor, depending, for instance, on which [[pair]] of [[vertices]] in the [[n-simplex|$n$-simplex]] of a simpilcial set are to be regarded as the [[source]]- and [[target]]-[[object]] of the corresponding [[morphism]] in the loop groupoid. In the original definition [Dwyer & Kan (1984), §3.1](#DwyerKan84) took the direction of the morphism to point from the $1$st to the 0th vertex, $1 \to 0$. But the modern convention in analogous constructions for [[Segal spaces]] etc. is to instead take $0 \to 1$.
 
@@ -118,11 +119,53 @@ Here is the definition given in [Goerss & Jardine (1999) p. 322, (2009) p. 302](
 
 <img src="/nlab/files/DefinitionByGoerssJardine.jpg" width="620">
 
+
 ## Properties
+
+### General 
  
 \begin{remark}
-The loop groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer & Kan (1984) §3.2](#DwyerKan84)&rbrack; also called the *[[simplicial classifying space]] functor*.  
+The fundamental simplicial groupoid functor has a [[right adjoint]], $\overline{W}$ &lbrack;[Dwyer & Kan (1984) §3.2](#DwyerKan84)&rbrack; also called the *[[simplicial classifying space]] functor*.  
 \end{remark}
+
+### Relation to rigidification of quasi-categories
+
+Let 
+\[
+  \label{LocalizationOfsSetCategoriesToSSetGroupoids}
+  L 
+    \,\colon\,
+  sSet\text{-}Cat
+  \longrightarrow
+  sSet\text{-}Grp
+\]
+denote the functor from [[sSet-enriched categories]] to [[sSet]]-[[enriched groupoids]] (Dwyer-Kan [[simplicial groupoids]]) which is degreewise given by the [[localization]] operation [[left adjoint]] to the [[full subcategory]] inclusion [[Grpd]] $\hookrightarrow$ [[Cat]].
+
+Let
+\[
+  \label{RigidificationOfQuasiCategories}
+  \mathfrak{C}
+  \,\colon\,
+  sSet 
+    \longrightarrow
+  sSet\text{-}Cat
+\]
+denote the operation of [[rigidification of quasi-categories]].
+
+\begin{proposition}\label{ComparisonWithRigidification}
+  For $S \,\in\, sSet$ there is a [[natural transformation]] 
+$$
+  L \circ \mathfrak{C}(S)
+  \longrightarrow
+  \mathcal{G}(X)
+$$
+which is a [[Dwyer-Kan equivalence]]
+(from the localization (eq:LocalizationOfsSetCategoriesToSSetGroupoids) of the rigidification (eq:RigidificationOfQuasiCategories) to the Dwyer-Kan fundamental groupoid (as [above](#Definition)).
+\end{proposition}
+&lbrack;[Minichiello, Rivera & Zeinalian (2023), Thm. 1.1 (Cor. 4.2)](#MinichielloRiveraZeinalian23)&rbrack;
+
+
+
 
 ## References
 
@@ -144,11 +187,14 @@ See also:
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.7 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)&rbrack; 
 
-Relating the Dwyer-Kan loop groupoid-construction to the [[homotopy coherent nerve]]-construction:
+Relating the Dwyer-Kan loop groupoid-construction to the [[rigidification of quasi-categories]]:
 
 * {#MinichielloRiveraZeinalian23} [[Emilio Minichiello]], [[Manuel Rivera]], [[Mahmoud Zeinalian]], Def. 3.1 in: *Categorical models for path spaces*, Advances in Mathematics **415** (2023) 108898 &lbrack;[arXiv:2201.03046](https://arxiv.org/abs/2201.03046), [doi:10.1016/j.aim.2023.108898](https://doi.org/10.1016/j.aim.2023.108898)&rbrack;
 
 
+[[!redirects Dwyer-Kan fundamental simplicial groupoids]]
+
+[[!redirects Dwyer-Kan loop groupoid]]
 [[!redirects Dwyer-Kan loop groupoid]]
 [[!redirects Dwyer–Kan loop groupoid]]
 [[!redirects Dwyer--Kan loop groupoid]]
@@ -171,6 +217,5 @@ Relating the Dwyer-Kan loop groupoid-construction to the [[homotopy coherent ner
 [[!redirects Dwyer-Kan simplicial path groupoids]]
 [[!redirects Dwyer--Kan simplicial path groupoid]]
 [[!redirects Dwyer--Kan simplicial path groupoids]]
-
 
 
