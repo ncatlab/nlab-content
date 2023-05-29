@@ -505,6 +505,7 @@ That core, like every [[∞-groupoid]] is equivalent to the disjoint union over 
 
 [[!include homotopy-homology-cohomology]]
 
+
 ## References 
 
 For some original references by [[William Dwyer]] and [[Dan Kan]] see  [[simplicial localization]]. For instance
@@ -568,6 +569,9 @@ and section 3.6.2 of
 [[!redirects (∞,1)-categorial hom-space]]
 [[!redirects (infinity,1)-categorial hom space]]
 [[!redirects (∞,1)-categorial hom space]]
+[[!redirects quasi-categorical hom-space]]
+[[!redirects quasi-categorical hom-spaces]]
+
 
 [[!redirects derived hom space]]
 [[!redirects derived hom-space]]
