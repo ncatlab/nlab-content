@@ -37,6 +37,8 @@ all horizontal composition is strict. See [[relation between quasi-categories an
 
 * [[rectification]]
 
+* [[rigidification of quasi-categories]]
+
 * [[associative n-category]]
 
 * _[[Globular]]_ proof assistant
