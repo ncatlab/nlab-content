@@ -55,6 +55,15 @@ Examples:
 
 An alternative, unambiguous prefix that can be used for this meaning is "ambi-".
 
+### Compatible X and co-X
+
+Here, "bi-X" is used to denote a structure that is equipped with X-structure and co-X structure (not coincident) that verify some compatibility. 
+
+Examples:
+
+- [[bimonoid]]
+- [[Hopf monad|bimonad]]
+
 ### Left-X and also right-X
 
 In some settings without symmetry, "bi-X" is occasionally used to denote having X-structure on the left and also X-structure on the right (not coincident).
@@ -62,10 +71,14 @@ In some settings without symmetry, "bi-X" is occasionally used to denote having 
 Examples:
 
 - **biclosed**
+- [[bimodule]]
+- [[bicomodule]]
 
 In such settings, it is unambiguous to simply elide the prefix "bi-". E.g. one can simply write "[[closed category|closed]]" to mean left- and right-closed.
 
 Note that this is not the same as "X and co-X" (except in the [[delooping]]): a "biclosed category" with this terminology would be one that is [[closed category|closed]] and [[coclosed category|coclosed]].
+
+Some compatibility may be required between the left and right X-structures.
 
 ## Related pages
 
