@@ -97,7 +97,11 @@ This implies the claim. (Exactness of the sequence says that every element in $\
 
 The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
-=--
+=-- 
+
+\begin{proof} 
+This follows from the proposition, together with the fact that the sequence of maps $V_n(\mathbb{R}^k) \to V_n(\mathbb{R}^{k+1})$ are closed $T_1$-inclusions. See the Proposition [[compact object#CompactSpace|here]] together with the accompanying commentary.  
+\end{proof} 
 
 ### CW-complex structure
 
