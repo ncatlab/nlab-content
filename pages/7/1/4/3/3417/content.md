@@ -206,6 +206,7 @@ Recall the slight but crucial difference between the two notions of "[[simplicia
 [[!redirects Bergner model structure on simplicially enriched categories]]
 [[!redirects Dwyer–Kan–Bergner model structure]]
 [[!redirects Dwyer–Kan–Bergner model structure on simplicially enriched categories]]
+[[!redirects Dwyer–Kan–Bergner model structure on sSet-enriched categories]]
 [[!redirects Dwyer--Kan--Bergner model structure]]
 [[!redirects Dwyer--Kan--Bergner model structure on simplicially enriched categories]]
 
