@@ -5,7 +5,7 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
-#### Infinity-limits
+#### Limits and colimits
 +-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
@@ -86,7 +86,7 @@ Such a diagram is called a [[span]].  If the colimit exists, we obtain a [[commu
 
 and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$.
 
-Other terms: $x$ is a __cofibred coproduct__ of $a$ and $b$, or (especially in [[algebraic categories]] when $f$ and $g$ are [[monomorphisms]]) a free product of $a$ and $b$ with $c$ __[[amalgamation|amalgamated]]__, or more simply an __[[amalgamation]]__ (or __amalgam__) of $a$ and $b$.
+Other terms: $x$ is a __cofibred coproduct__ of $a$ and $b$, or (especially in [[algebraic categories]] when $f$ and $g$ are [[monomorphisms]]) a free product of $a$ and $b$ with $c$ __[[amalgamation|amalgamated]] sum__ ([Gabriel & Zisman (1967), p. 1](#GabrielZisman67)) or more simply an __[[amalgamation]]__ (or __amalgam__) of $a$ and $b$.
 
 The concept of pushout is a special case of the notion of **[[cofiber coproduct|wide pushout]]** (compare [[wide pullback]]), where one takes the colimit of a diagram which consists of a set of arrows $\{f_i: c \to a_i\}_{i \in I}$. Thus an ordinary pushout is the case where $I$ has cardinality $2$. 
 
@@ -273,6 +273,14 @@ where $\chi_i$ is the classifying map of $i$) and therefore strong.
 
 
 ## References
+
+Early use of the terminology "pushout":
+
+* {#Mitchell65} [[Barry Mitchell]], Section I.7 of: *Theory of categories*, Pure and Applied Mathematics **17**, Academic Press (1965) &lbrack;[ISBN:978-0-12-499250-4](https://www.elsevier.com/books/theory-of-categories/mitchell/978-0-12-499250-4)&rbrack;
+
+Early use of the terminology "amalgamated sums":
+
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], p 1 of: *[[Calculus of fractions and homotopy theory]]*, Ergebnisse der Mathematik und ihrer Grenzgebiete **35**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
 Textbook accounts:
 
