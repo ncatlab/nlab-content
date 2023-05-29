@@ -105,7 +105,7 @@ which maps an object $c$ to $(c, 1_c)$. This functor is [[fully faithful functor
 
 $$p: (c, 1_c) \to (c, e), \, j: (c, e) \to (c, 1_c),$$ 
 
-both given by $e: c \to c$. It is clear that $p \circ j$ is the identity $e: (c, e) \to (c, e)$, and that $j \circ p$ is the idempotent $E(e): E(c) \to E(c)$. Thus the pair $(p, j)$ formally splits the idempotent $e: c \to c$. The same argument shows that every idempotent $\phi: (c, e) \to (c, e)$ in $\bar{C}$ splits. Actually this formal construction does more: it gives a _choice_ of splitting for every idempotent. 
+both given by $e: c \to c$. It is clear that $p \circ j$ is the identity $e: (c, e) \to (c, e)$, and that $j \circ p$ is the idempotent $E(e): E(c) \to E(c)$. Thus the pair $(p, j)$ formally splits the idempotent $e: c \to c$. The same argument shows that every idempotent $\phi: (c, e) \to (c, e)$ in $\bar{C}$ splits through $(c,\phi)$. Actually this formal construction does more: it gives a _choice_ of splitting for every idempotent. 
 
 
 Let $D$ be any category in which every idempotent $h: d \to d$ has a chosen splitting $(p_h: d \to d_h, j_h: d_h \to d)$ (using identities to split identities), and let $F: C \to D$ be a functor. Define an extension 
