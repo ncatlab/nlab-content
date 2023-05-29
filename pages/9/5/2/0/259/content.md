@@ -147,9 +147,16 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 ## Related concepts
  {#RelatedConcepts}
 
-One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial sets]].
+* [[relation between quasi-categories and sSet-enriched categories]]
 
-Or one may change the shape category to pass from [[simplicial sets]] to [[cellular sets]]. A quasi-category-like definition of [[(∞,n)-categories]] on these -- _[[n-quasicategories]]_ -- is discussed at _[[model structure on cellular sets]]_.
+  [[homotopy coherent nerve]]
+
+  [[rigidification of quasi-categories]]
+
+
+* One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of *[[weak complicial sets]]*.
+
+* Or one may change the shape category to pass from [[simplicial sets]] to [[cellular sets]]. A quasi-category-like definition of [[(∞,n)-categories]] on these -- _[[n-quasicategories]]_ -- is discussed at *[[model structure on cellular sets]]*.
 
 
 ## References
