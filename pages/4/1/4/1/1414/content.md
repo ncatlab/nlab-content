@@ -152,7 +152,7 @@ $$
 
 is the [[nerve]] defined by the [[cosimplicial object|cosimplicial]] [[sSet-enriched category]] $S \colon \Delta \to sSet Cat$ defined above.
 
-For $C \in sSet Cat$ any [[sSet-enriched category]], the homotopy coherent nerve  $N(C)$ is the [[simplicial set]] uniquely characterized as giing a [[natural isomorphism]] of the form
+For $C \in sSet Cat$ any [[sSet-enriched category]], the homotopy coherent nerve  $N(C)$ is the [[simplicial set]] uniquely characterized as giving a [[natural isomorphism]] of the form
 
 $$ 
   Hom_{SSet}\big(\Delta[n], N(C)\big) 
@@ -173,8 +173,10 @@ $$
   S(X) 
   \coloneqq 
   \int^{[n] \in \Delta} X_n \cdot S[n]
-  \,.
+  \,,
 $$
+
+also known as the operation of *[[rigidification of quasi-categories]]*.
 
 This functor does extend the functor $S : \Delta \to sSet Cat$  in that there is a canonical isomorphism
 
@@ -435,7 +437,6 @@ resulting string having depth $n$.
 
 ### $W$-Construction of topological operads {#WConstruction}
 
-
 By hom-wise precomposition with the singular complex functor
 
 $$
@@ -485,6 +486,7 @@ for details.
 
 * [[dg-nerve]]
 
+
 ## History
 
 The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. Homotopy coherent algebraic structures were studied in the 1970s by [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] in joint work,  and then Vogt individually looked at homotopy coherent diagrams.  The  homotopy coherent nerve was first explicitly defined by [[Jean-Marc Cordier|Cordier]] (reference below). 
@@ -504,7 +506,7 @@ In more modern terminology as [[Kan complex]]es can be considered as [[∞-group
 
 The homotopy coherent nerve operation was introduced, explicitly, in
 
-* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1 (1982) 93-112 &lbrack;[numdam:CTGDC_1982__23_1](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1982__23_1)&rbrack;
+* {#Cordier82} [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1 (1982) 93-112 &lbrack;[numdam:CTGDC_1982__23_1](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1982__23_1)&rbrack;
 
 making a link with earlier work in
 
@@ -520,8 +522,7 @@ Poof of an [[equivalence of categories|equivalence]] between the category obtain
 
 and explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a [[quasicategory]], as well as the harder result on when [[outer horns]] in this quasicategory can be filled:
 
-* [[Jean-Marc Cordier]], [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc. __100__ (1986) 65-90
-
+* {#CordierPorter86} [[Jean-Marc Cordier]], [[Tim Porter]], *Vogt's theorem on categories of homotopy coherent diagrams*, Math. Proc. Cambridge Philos. Soc. __100__ (1986) 65-90 &lbrack;[doi:10.1017/S0305004100065877](https://doi.org/10.1017/S0305004100065877), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/Cordier-Porter.pdf)&rbrack;
 
  
 Two other papers are relevant to this:
@@ -538,7 +539,7 @@ An elementary discussion of the concept of homotopy coherence forms Chapter V of
 For the role played by Cordier's simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
 
-[[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
+* [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
 * [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
 
