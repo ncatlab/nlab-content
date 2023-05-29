@@ -286,11 +286,21 @@ If $f\colon X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, the
 
 ## Related concepts
 
+* [[pushout]]
+
 [[!include notions of pullback -- contents]]
 
 ## References
 
-Textbook account:
+Early use of the terminology "pullback":
+
+* {#Mitchell65} [[Barry Mitchell]], Section I.7 of: *Theory of categories*, Pure and Applied Mathematics **17**, Academic Press (1965) &lbrack;[ISBN:978-0-12-499250-4](https://www.elsevier.com/books/theory-of-categories/mitchell/978-0-12-499250-4)&rbrack;
+
+
+Textbook accounts:
+
+* {#MacLane} [[Saunders MacLane]], p. 71 in: *[[Categories for the Working Mathematician]]*, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 * [[Francis Borceux]], Section 2.5 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
