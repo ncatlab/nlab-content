@@ -50,6 +50,10 @@ This is especially confusing if one extends the use of "discrete category over $
 
 Because of potential confusion, in cases when topology or cohesion is present it is perhaps better to use *0-truncated* for categorically-discrete categories and groupoids, reserving *discrete* for those which are topologically-discrete.
 
+## Adjoints
+
+The discrete category construction extends to a [[fully faithful functor]] $Set \to Cat$. It has a [[left adjoint]] given by taking connected components and a [[right adjoint]] given by the underlying set of objects functor (which itself has a right adjoint given by the [[indiscrete category]] construction).
+
 
 ## Related concepts
 
