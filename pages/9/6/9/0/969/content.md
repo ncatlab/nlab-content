@@ -66,7 +66,7 @@ Note:
 
 +-- {: .num_remark} 
 ###### Remark 
-Contrary to what is sometimes asserted, the localization $C[W^{-1}]$ may generally be constructed when $C$ is large, even only in ZF where "large" means definable by class formulas. See Remark \ref{ZF} below. However, the localization might not be locally small, even if $C$ is. The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this issue (see also at _[[homotopy category of a model category]]_). 
+Contrary to what is sometimes asserted, the localization $C[W^{-1}]$ may generally be constructed when $C$ is large, even only in ZF where "large" means definable by class formulas. See Remark \ref{ZF} below. However, the localization might not be [[locally small category|locally small]], even if $C$ is. The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this issue (see also at _[[homotopy category of a model category]]_). 
 =--  
 
 
