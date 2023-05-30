@@ -220,7 +220,7 @@ More precisely, they consider an arbitrary [[Benabou cosmos]] $V$, meaning a [[c
 
 The [[core]] of this monoidal bicategory is a 3-group, and they call the objects of the core **Azumaya categories**.
 
-* [[Francis Borceux]] and [[Enrico Vitale]], Azumaya categories, *Applied Categorical Structures* **10** (2002), 449-467. ([pdf](https://link.springer.com/content/pdf/10.1023/A:1020570213428.pdf))
+* [[Francis Borceux]] and [[Enrico Vitale]], Azumaya categories, *Applied Categorical Structures* **10** (2002), 449-467. ([pdf](https://perso.uclouvain.be/enrico.vitale/Azumaya.pdf))
 
 ## Related concepts
 
