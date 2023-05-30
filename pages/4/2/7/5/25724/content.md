@@ -77,13 +77,20 @@ a zigzag of weak equivalences to the Joyal rigidification functor.
 The rigidification operation does not strictly preserve [[Cartesian products]] (cf. *[[products of simplicial sets]]*) but it does so up to equivalence:
 
 \begin{proposition}\label{PreservationOfProducts}
-  For $S\, S' \,\in\, sSet$ there is a [[natural transformation]]
+For $S,\, S' \,\in\, sSet$, the [[natural transformation]]
 $$
   \mathfrak{C}(S \times S')
-  \longrightarrow
+  \overset{
+    \big(
+      \mathfrak{C}(pr_S)
+      ,\,
+      \mathfrak{C}(pr_{S'})
+    \big)
+  }{\longrightarrow}
   \mathfrak{C}(S) \times \mathfrak{C}(S')
 $$
-which is a [[Dwyer-Kan equivalence]].
+(induced from the [[projections]] $S \overset{pr_S}{\leftarrow} S \times S' \overset{pr_{S'}}{\rightarrow} S'$)
+is a [[Dwyer-Kan equivalence]].
 \end{proposition}
 &lbrack;[Lurie (2009), Cor. 2.2.5.6](#Lurie09); [Dugger & Spivak (2011a), Prop. 6.2](#DuggerSpivak11a)&rbrack;
 
