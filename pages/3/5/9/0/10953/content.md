@@ -5,7 +5,7 @@
 
 ## Idea
 
-A __Morita context__ or, in some authors (e.g. Bass) the __pre-equivalence data__ is a generalization of [[Morita equivalence]] between [[categories of modules]]. In the case of right [[modules]], for two [[associative algebras|associative k-algebras]] (or, in the case of $k = \mathbb{Z}$, [[rings]]) $A$ and $B$, it consists of [[bimodules]] ${}_A P_B$, ${}_B Q_A$, and bimodule [[homomorphisms]]
+A __Morita context__ or, in some authors (e.g. Bass), the __pre-equivalence data__, is a generalization of [[Morita equivalence]] between [[categories of modules]]. In the case of right [[modules]], for two [[associative algebras|associative k-algebras]] (or, in the case of $k = \mathbb{Z}$, [[ring]]s) $A$ and $B$, it consists of [[bimodule]]s ${}_A P_B$, ${}_B Q_A$, and bimodule [[homomorphisms]]
 $f: P\otimes Q\to A$, $g: Q\otimes P\to B$ satisfying mixed [[associativity]] conditions.
 
 
@@ -42,9 +42,9 @@ $Q\cong Hom_B(P,B)$
 ## Literature
 
 * [[Hyman Bass]], _Algebraic K-theory_, chapter 2
-* [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Appl. Categ. Structures __19__ (2011), no. 5, 821&#8211;858 [MR2836546](http://www.ams.org/mathscinet-getitem?mr=2836546)
-[doi](http://dx.doi.org/10.1007/s10485-009-9217-0)
-* Bruno J. M&#252;ller, _The quotient category of a Morita context_, J. Algebra __28__ (1974), 389&#8211;407 [MR0447336](http://www.ams.org/mathscinet-getitem?mr=0447336) <a href="http://dx.doi.org/10.1016/0021-8693(74)90048-9">doi</a> 
+* [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Appl. Categ. Structures __19__ (2011), no. 5, 821&#8211;858 [MR2836546](https://www.ams.org/mathscinet-getitem?mr=2836546)
+[doi](https://doi.org/10.1007/s10485-009-9217-0)
+* Bruno J. M&#252;ller, _The quotient category of a Morita context_, J. Algebra __28__ (1974), 389&#8211;407 [MR0447336](http://www.ams.org/mathscinet-getitem?mr=0447336) <a href="https://doi.org/10.1016/0021-8693(74)90048-9">doi</a> 
 * A. I. Kashu, _On equivalence of some subcategories of modules in Morita contexts_, Discrete Math. 2003, no. 3, 46&#8211;53, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=adm&paperid=383&what=fullt&option_lang=rus)
 * Y. Doi, _Generalized smash products and Morita contexts for arbitrary Hopf algebras_, in: J. Bergen, S. Montgomery (Eds.), Advances in Hopf algebras, in: Lecture Notes in Pure and Appl. Math. __158__, Dekker 1994 [doi](https://doi.org/10.1016/j.jalgebra.2004.02.002)
 
@@ -52,12 +52,10 @@ $Q\cong Hom_B(P,B)$
 
 There are generalizations in more general bicategories:
 
-* [[L. El Kaoutit]], _Wide Morita Contexts in Bicategories_,  Arab. J. Sci. Eng. __33__, (2008), 153&#8211;173
+* [[Laiachi El Kaoutit]], _Wide Morita contexts in bicategories_,  Arab. J. Sci. Eng. __33__ (2008) 153--173
 
 * Bertalan Pecsi, _On Morita context in bicategories_, [pdf](http://www.renyi.hu/~aladar/MrtCtx.pdf)
 
 category: algebra
 
-
-[[!redirects Morita context]]
 [[!redirects Morita contexts]]
