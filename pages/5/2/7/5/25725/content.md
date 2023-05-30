@@ -35,7 +35,7 @@ In some cases, the prefix "pseudo-" may be used instead, such as [[pseudoadjunct
 
 ### X and also co-X
 
-Here, "bi-X" is used to denote a structure that is equipped with both X-structure and co-X-structure (for some definition X) that *do not necessarily coincide*.
+Here, "bi-X" is used to denote a structure that is equipped with both X-[[structure]] and [[formal duality|dual]] co-X-structure (for some definition X) that *do not necessarily coincide*.
 
 Examples:
 
