@@ -84,12 +84,11 @@ $$ \epsilon(a) = tr(L_a) $$
 
 Here are some examples of strongly separable algebras:
 
-* the algebra of $n \times n$ matrices with entries in a field $k$ is always separable, but strongly separable if and only if $n$ is not divisible by the characteristic of $k$.  
+* the algebra of $n \times n$ matrices with entries in a field $k$ is always separable, but it is strongly separable if and only if $n$ is not divisible by the characteristic of $k$.  
 
-* the group algebra $k[G]$ of a finite group is strongly separable if and only if the order of $G$ is not divisible by the characteristic of $k$.
+* the group algebra $k[G]$ of a finite group is strongly separable if and only if the order of $G$ is not divisible by the characteristic of $k$.  (It is also semisimple precisely in this case, so it is separable precisely in this case.)
 
-For more details, see Aguiar's book below.
-
+For more details, see Aguiar's note below.
 
 ### Over commutative rings 
 
@@ -138,16 +137,13 @@ Separable algebras play a major role in the [[Galois theory]] of extensions of a
 
 * {#EndoWatanabe67} Shizuo Endo, Yutaka Watanabe, *On separable algebras over a commutative ring*, _Osaka J. Math._ **4**(2) (1967) 233-242 &lbrack;[euclid](https://projecteuclid.org/download/pdf_1/euclid.ojm/1200691953)&rbrack;
 
-
 * F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin (1971)
-
 
 * [[Marcelo Aguiar]], *A note on strongly separable algebras*, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65** (2000) 51-60  &lbrack;[pdf](http://www.math.cornell.edu/~maguiar/strongly.pdf)&rbrack;
 
 See also:
 
 * Wikipedia, *[Separable algebra](http://en.wikipedia.org/wiki/Separable_algebra)*
-
 
 An explicit proof of the Grothendieck Galois theory statement that the category of commutative separable algebras over a field $K$ is anti-equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $K$:
 
