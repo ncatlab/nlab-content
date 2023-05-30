@@ -40,7 +40,10 @@ Here, "bi-X" is used to denote a structure that is equipped with both X-[[struct
 Examples:
 
 - [[bicartesian category]]
+
 - [[bireflective subcategory]]
+
+- [[bifibrant objects]]
 
 An unambiguous alternative is to simply be explicit about both structures being assumed.
 
