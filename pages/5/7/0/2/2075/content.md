@@ -34,11 +34,11 @@ When [[(∞,1)-categories]] are presented by [[quasi-categories]], an equivalenc
 
 An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if  the following equivalent conditions hold
 
-* On the underlying [[simplicial set]]s it is a weak categorical equivalence in Joyal's [[model structure for quasi-categories]].
+* On the underlying [[simplicial sets]] it is a [[weak equivalence]] in Joyal's [[model structure for quasi-categories]] (a "[[weak categorical equivalence]]").
 
-* For every [[simplicial set]] $K$ the induced morphism $f_* : SSet(K,C) \to SSet(K,D)$ is a [[model structure for quasi-categories|weak categorical equivalence]].
+* For every [[simplicial set]] $K$ the induced morphism on [[mapping complexes]] $f_* \colon SSet(K,C) \to SSet(K,D)$ is a [[weak categorical equivalence]].
 
-* For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|equivalence of Kan complexes]] (a [[homotopy equivalence]]).
+* For every [[simplicial set]] $K$ the induced morphism $f_* \colon Core(SSet(K,C)) \to Core(SSet(K,D))$ of [[cores]] (the maximal [[Kan complexes]]) is a [[weak equivalence]] in the [[Kan-Quillen model structure]], hence a [[simplicial weak homotopy equivalence]].
 
 * The induced morphism $f_* : Core(SSet(\Delta^1, C)) \to Core(SSet(\Delta^1, D))$ is an equivalence of Kan complexes.
 
