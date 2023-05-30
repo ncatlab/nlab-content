@@ -29,8 +29,11 @@ Introducing and developing the notion of [[topological order]]:
 
 Early review:
 
-* {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 $[$[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)$]$
+* {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 &lbrack;[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)&rbrack;
 
+On [[quantum spin liquids]] as exhibiting [[topological order]]:
+
+* [[Xiao-Gang Wen]], [[Frank Wilczek]], [[Anthony Zee]], *Chiral spin states and superconductivity*, Phys. Rev. B **39** (1989) 11413 &lbrack;[doi:10.1103/PhysRevB.39.11413](https://doi.org/10.1103/PhysRevB.39.11413)&rbrack;
 
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
