@@ -156,6 +156,75 @@ On [[monoidal categories]]:
 * [[G. J. Bird]], [[G. M. Kelly]], [[A. J. Power]], and [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra, Vol. 61, No. 1, 1989, pp. 1-27. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>&rbrack;
 
 
+* [[Brian Day]] and [[Ross Street]], _Localisations of locally presentable categories II_, Journal of Pure and Applied Algebra, Vol. 63, No. 3, 1990, pp. 225-229. &lbrack;<a href="https://doi.org/10.1016/0022-4049(90)90068-S">doi:10.1016/0022-4049(90)90068-S</a>&rbrack;
+
+* [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus, I_, Advances in Mathematics, Vol. 88, No. 1, 1991, pp. 55-112. &lbrack;<a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>&rbrack;
+
+* [[André Joyal]] and [[Ross Street]], _Tortile Yang-Baxter operators in tensor categories_, Journal of Pure and Applied Algebra, Vol. 71, No. 1, year, pp. 43-51. &lbrack;<a href="https://doi.org/10.1016/0022-4049(91)90039-5">doi:10.1016/0022-4049(91)90039-5</a>&rbrack;
+
+* [[Ross Street]], _Quantum Groups: an entree to modern algebra_, unpublished, 1990. &lbrack;[pdf](http://maths.mq.edu.au/~street/Quantum.pdf)&rbrack;
+
+* [[André Joyal]] and [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, Lecture Notes in Mathematics, Vol. 1488, 1991, pp. 413–492. &lbrack;[doi:10.1007/BFb0084235](https://doi.org/10.1007/BFb0084235)&rbrack;
+
+* [[Ross Street]], _Parity complexes_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 32, No. 4, 1991, pp. 315-343. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1991__32_4_315_0/)&rbrack;
+
+* [[André Joyal]] and [[Ross Street]], _Pullbacks equivalent to pseudopullbacks_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 34, No. 2, 1993, pp. 153-156. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1993__34_2_153_0/)&rbrack;
+
+* [[George Janelidze]], [[Dietmar Schumacher]] and [[Ross Street]], _Galois theory in variable categories_, Applied Categorical Structures, Vol. 1, 1993, pp. 103–110. &lbrack;[doi:10.1007/BF00872989](https://doi.org/10.1007/BF00872989)&rbrack;
+
+* [[André Joyal]] and [[Ross Street]], _Braided Tensor Categories_, Advances in Mathematics, Vol. 102, No. 1, 1993, pp. 20-78. &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
+
+* [[Ross Street]], _Categorical Structures_, Handbook of Algebra, Vol. 1, 1996, pp. 531-577. &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>&rbrack;
+
+* [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]], _Modulated bicategories_, Journal of Pure and Applied Algebra, Vol. 94, No. 3, 1994, pp. 229-282. &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>&rbrack;
+
+* [[R. Gordon]], [[A. J. Power]], and [[Ross Street]], _Coherence for Tricategories_, Memoirs of the American Mathematical Society, Vol. 117, No. 558, 1995. &lbrack;[doi:10.1090/memo/0558](https://doi.org/10.1090/memo/0558)&rbrack;
+
+* [[Ross Street]], _Higher categories, strings, cubes and simplex equations_, Applied Categorical Structures, Vol. 3, 1995, pp. 29–77. &lbrack;[doi:10.1007/BF00872948](https://doi.org/10.1007/BF00872948)&rbrack;
+
+* [André Joyal]] and [[Ross Street]], _The Category of Representations of the General Linear Groups over a Finite Field_, Journal of Algebra, Vol. 176, No. 3, 1995, pp. 908-946. &lbrack;[doi:10.1006/jabr.1995.1278](https://doi.org/10.1006/jabr.1995.1278)&rbrack;
+
+* [[Ross Street]], _Ideals, radicals, and structure of additive categories_, Applied Categorical Structures, Vol. 3, 1995, pp. 139–149. &lbrack;[doi:10.1007/BF00877633](https://doi.org/10.1007/BF00877633)&rbrack;
+
+* [[André Joyal]], [[Ross Street]] and [[Dominic Verity]], _Traced monoidal categories_, Mathematical Proceedings of the Cambridge Philosophical Society, Vol. 119, No. 3, 1996, pp. 447-468. &lbrack;[doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
+
+* [[Ross Street]], _Parity complexes: corrigenda_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 35, No. 4, 1994, pp. 359-361. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1994__35_4_359_0/)&rbrack;
+
+* [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus II _, unpublished. &lbrack;[pdf](http://science.mq.edu.au/~street/GTCII.pdf)&rbrack;
+
+* [[Brian Day]] and [[Ross Street]], _Kan extensions along promonoidal functors_, Theory and Applications of Categories, Vol. 1, No. 4, 1995, pp. 72-78. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1995/n4/1-04abs.html)&rbrack;
+
+* [[Peter Freyd]] and [[Ross Street]], _On the Size of Categories_, Theory and Applications of Categories, Vol. 1, No. 9, 1995, pp. 174-181. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1995/n9/1-09abs.html)&rbrack;
+
+* [[Ross Street]], _Low-dimensional topology and higher-order categories_, [Proceedings of CT95](http://www.mta.ca/~cat-dist/ct95.html), 1995. &lbrack;[pdf](http://science.mq.edu.au/~street/LowDTop.pdf)&rbrack;
+
+* [[Ross Street]], _Fusion Operators and Cocycloids in Monoidal Categories_, Applied Categorical Structures, Vol. 6, 1998, pp. 177–191. &lbrack;[doi:10.1023/A:1008655911796](https://doi.org/10.1023/A:1008655911796)&rbrack;
+
+* [[Ross Street]], _Descent theory_, unpublished, 1995. &lbrack;[pdf](http://science.mq.edu.au/~street/Descent.pdf)&rbrack;
+
+* [[Brian Day]] and [[Ross Street]], _Monoidal Bicategories and Hopf Algebroids_, Advances in Mathematics, Vol. 129, No. 1, 1997, pp. 99-157. &lbrack;[doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649)&rbrack;
+
+* [[Renato Betti]], [[Dietmar Schumacher]] and [[Ross Street]], _Factorizations in bicategories_, unpublished, 1999. &lbrack;[pdf](http://science.mq.edu.au/~street/61.pdf)&rbrack;
+
+* [[Ross Street]], _The quantum double and related constructions_, Journal of Pure and Applied Algebra, Vol. 132, No. 2, 1998, pp. 195-206. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00111-4">doi:10.1016/S0022-4049(97)00111-4</a>&rbrack;
+
+* [[Ross Street]], _The role of Michael Batanin’s monoidal globular categories_, Contemporary Mathematics, Vol. 230, 1998, pp. 99-116. &lbrack;[doi:10.1090/conm/230](https://doi.org/10.1090/conm/230)&rbrack;
+
+* [[Ross Street]], _Parenthetic remarks_, unpublished, 1997. &lbrack;[pdf](http://science.mq.edu.au/~street/Parenth.pdf)&rbrack;
+
+* [[Michael Batanin]] and [[Ross Street]], _The universal property of the multitude of trees_, Journal of Pure and Applied Algebra, Vol. 154, No. 1-3, 2000, pp. 3-13. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(99)00184-X">doi:10.1016/S0022-4049(99)00184-X</a>&rbrack;
+
+* [[George Janelidze]] and [[Ross Street]], _Galois Theory in Symmetric Monoidal Categories_, Journal of Algebra, Vol. 220, No. 1, 1999, pp. 174-187. &lbrack;[doi:10.1006/jabr.1999.7905](https://doi.org/10.1006/jabr.1999.7905)&rbrack;
+
+* [[Ross Street]], _Braids among the groups_, Seminarberichte aus dem Fachbereich Mathematik, Band 63, Teil 5, 1998, pp. 699-703. &lbrack;[doi:10.18445/20180823-142243-0](https://doi.org/10.18445/20180823-142243-0)&rbrack;
+
+* [[Ross Street]], _The petit topos of globular sets_, Journal of Pure and Applied Algebra, Vol. 154, No. 1-3, 2000, pp. 299-315. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(99)00183-8">doi:10.1016/S0022-4049(99)00183-8</a>&rbrack;
+
+* [[Max Kelly]], [[Anna Labella]], [[Vincent Schmitt]], and [[Ross Street]], _Categories enriched on two sides_, Journal of Pure and Applied Algebra, Vol. 168, No. 1, 2002, pp. 53-98. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(01)00048-2">doi:10.1016/S0022-4049(01)00048-2</a>&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _The formal theory of monads II_, Journal of Pure and Applied Algebra, Vol. 175, No. 1--3, 2002, pp. 243-265. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
+
+
 category: people
 
 [[!redirects R. Street]]
