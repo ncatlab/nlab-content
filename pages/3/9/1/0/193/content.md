@@ -64,7 +64,7 @@ An _adjunction_ in a [[2-category]] is
 
 such that the following equivalent conditions hold:
 
-* **[[triangle identity]]** the follwing [[commuting diagram|diagrams commute]] in the [[hom-categories]] (where "$\cdot$" denotes [[whiskering]]):
+* **[[triangle identity]]** the following [[commuting diagram|diagrams commute]] in the [[hom-categories]] (where "$\cdot$" denotes [[whiskering]]):
 
 \begin{centre}
   \begin{tikzcd} 
