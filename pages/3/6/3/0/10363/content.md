@@ -40,6 +40,9 @@ and the resulting [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
 * [[Yi-Hong Chen]], [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
 
 
+On [[quantum spin liquids]] as exhibiting [[topological order]]:
+
+* [[Xiao-Gang Wen]], [[Frank Wilczek]], [[Anthony Zee]], *Chiral spin states and superconductivity*, Phys. Rev. B **39** (1989) 11413 &lbrack;[doi:10.1103/PhysRevB.39.11413](https://doi.org/10.1103/PhysRevB.39.11413)&rbrack;
 
 Review of [[anyons]]:
 
