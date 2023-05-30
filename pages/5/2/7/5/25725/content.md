@@ -47,16 +47,6 @@ Examples:
 
 An unambiguous alternative is to simply be explicit about both structures being assumed.
 
-### Coincident X and co-X
-
-Here, "bi-X" is used to denote a structure that is equipped with X-structure and co-X-structure that coincides. This is a special case of the meaning above.
-
-Examples:
-
-- [[bilimit]]
-- [[biproduct]]
-
-An alternative, unambiguous prefix that can be used for this meaning is "ambi-".
 
 ### Compatible X and co-X
 
@@ -66,6 +56,19 @@ Examples:
 
 - [[bimonoid]]
 - [[Hopf monad|bimonad]]
+
+In many cases, these concepts have different, unambiguous names (such as [[Hopf monad]]) that may be used instead.
+
+### Coincident X and co-X
+
+Here, "bi-X" is used to denote a structure that is equipped with X-structure and co-X-structure that coincides. This is a particularly common special case of the meaning above.
+
+Examples:
+
+- [[bilimit]]
+- [[biproduct]]
+
+An alternative, unambiguous prefix that can be used for this meaning is "ambi-".
 
 ### Left-X and also right-X
 
