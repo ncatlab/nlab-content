@@ -257,16 +257,19 @@ See at _[[constructive model structure on simplicial sets]]_.
 
 ## Joyal's Model Structure
 
-There is a second model structure on $sSet$ -- the **[[model structure for quasi-categories]]** $sSet_{Joyal}$ -- which is different (not [[Quillen equivalence|Quillen equivalent]]) to the classical one, due to [[Andre Joyal]], with the following distinguished classes of morphisms:
+There is a second model structure on $sSet$ -- the **[[model structure for quasi-categories]]** $sSet_{Joyal}$ -- which is different (not [[Quillen equivalence|Quillen equivalent]]) to the classical one, due to [[André Joyal]], with the following distinguished classes of morphisms:
 
-* The cofibrations $C$ are monomorphisms, equivalently, levelwise injections.
+* The [[cofibrations]] of $sSet_{Joy}$ are the [[monomorphisms]], hence the degreewise [[injections]],
 
-* The weak equivalences $W$ are **[[equivalence of quasi-categories|weak categorical equivalences]]**, which are morphisms $u : A \rightarrow B$ of simplicial sets such that the induced map $u^* : X^B \rightarrow X^A$ of internal-homs for all [[quasi-category|quasi-categories]] $X$ induces an isomorphism when applying the functor $\tau_0$ that takes a simplicial set to the set of isomorphism classes of objects of its fundamental category.
+* The [[weak equivalences]] in $sSet_{Joy}$ are **[[weak categorical equivalences]]**, 
 
-* The fibrations $F$ are called variously **isofibrations** or **[[inner Kan fibration|quasi-fibration]]**. As always, these are determined by the classes $C$ and $W$.
-Quasi-fibrations between weak Kan complexes have a simple description; they are precisely the [[inner Kan fibrations]], the maps that have the right lifting property with respect to the inner [[horn]] inclusions and also the inclusion $j_0 : * \rightarrow J$ where $*$ is the terminal simplicial set and $J$ is the nerve of the groupoid on two objects with one non-trivial isomorphism. 
+  namely those [[maps]] $u \colon A \rightarrow B$ of simplicial sets such that the induced map $u^* \colon X^B \rightarrow X^A$ of [[internal homs]] ([[mapping complexes]]) for all [[quasi-category|quasi-categories]] $X$ induces an [[isomorphism]] when applying the functor $\tau_0$ that takes a simplicial set to the set of isomorphism classes of objects of its fundamental category.
 
-All objects are cofibrant. The fibrant objects are precisely the [[quasi-categories]].
+* The fibrations $F$ are called variously **isofibrations** or **[[inner Kan fibration|quasi-fibrations]]**. As always, these are determined by the class of [[acyclic cofibrations]] already defined.
+
+  Quasi-fibrations between weak Kan complexes have a simple description; they are precisely the [[inner Kan fibrations]], the maps that have the right lifting property with respect to the inner [[horn]] inclusions and also the inclusion $j_0 : * \rightarrow J$ where $*$ is the terminal simplicial set and $J$ is the nerve of the groupoid on two objects with one non-trivial isomorphism. 
+
+All objects are [[cofibrant object|cofibrant]]. The [[fibrant objects]] are precisely the [[quasi-categories]].
 
 This model structure is cofibrantly generated. The generating cofibrations are the set $I$ described above. There is no known explicit description for the generating trivial cofibrations.
 
@@ -274,9 +277,18 @@ Importantly, this model structure is Quillen equivalent to several alternative m
 
 ### Comparison
 
-Every weak categorical equivalence is a weak homotopy equivalence. Since both model structures have the same cofibrations, it follows that the classical model structure is a [[Bousfield localization]] of Joyal's model structure.
+Every weak categorical equivalence is a [[simplicial weak homotopy equivalence]] (but not conversely). Since both model structures have the same class of cofibrations (namely the [[monomorphisms]]), it follows that the [[classical model structure on simplicial sets]] is a [[Bousfield localization]] of [[Joyal's model structure]] (namely at the [[outer horn]]-inclusions):
 
-The Quillen model structure is the left [[Bousfield localization of model categories|Bousfield localization]] of $sSet_{Joyal}$ at the outer [[horn]] inclusions.
+$$
+  sSet_{KQ}
+  \underoverset
+    {\underset{id}{\longrightarrow}}
+    {\overset{id}{\longleftarrow}}
+    {\;\; \bot \;\;}
+  sSet_{Joy}
+  \,.
+$$
+
 
 ## Fibrant replacement 
 
