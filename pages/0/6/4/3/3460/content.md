@@ -62,7 +62,7 @@ A [[perfect field]] is one for which every extension is [[separable field extens
 A result of Eilenberg and Nakayama states that any [[separable algebra]] over a field $k$ can be given the structure of a [[Frobenius algebra|symmetric Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
 
 * Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
-([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
+([web](https://projecteuclid.org/journals/nagoya-mathematical-journal/volume-9/issue-none/On-the-dimension-of-modules-and-algebras-II-Frobenius-algebras/nmj/1118799677.pdf))
 * Endo, Shizuo and Watanabe, Yutaka, On separable algebras over a commutative ring, _Osaka J. Math._ **4**(2) (1967), 233-242. ([web](https://projecteuclid.org/download/pdf_1/euclid.ojm/1200691953)). See in particular Thm. 4.2.
 
 A separable algebra is said to be **strongly separable** if there exists a separability idempotent $p$ that is **symmetric**, meaning
@@ -85,7 +85,7 @@ $$ \epsilon(a) = tr(L_a) $$
 
 Here are some examples of strongly separable algebras:
 
-* the algebra of $n \times n$ matrices with entries in the field $k$ is strongly separable if and only if $n$ is not divisible by the characteristic of $k$.  
+* the algebra of $n \times n$ matrices with entries in a field $k$ is always separable, but strongly separable if and only if $n$ is not divisible by the characteristic of $k$.  
 
 * the group algebra $k[G]$ of a finite group is strongly separable if and only if the order of $G$ is not divisible by the characteristic of $k$.
 
