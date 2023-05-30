@@ -75,7 +75,7 @@ $$
 is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets,
 where $R$ denotes a [[fibrant replacement]] functor in the [[Dwyer–Kan–Bergner model structure]].
 \end{proposition}
-This was announced and credired to [[André Joyal|Joyal]] in [Bergner (2007), Thm. 7.8](#Bergner07); detailed proof was produced in [Lurie (2009), Thm. 2.2.5.1 & p. 91](#Lurie09).
+This was claimed and credited to [[André Joyal|Joyal]] in [Bergner (2007), Thm. 7.8](#Bergner07); detailed proof was produced in [Lurie (2009), Thm. 2.2.5.1 & p. 91](#Lurie09).
 
 For more details on the [[rigidification of quasi-categories]] see also [Dugger & Spivak (2009a)](#DuggerSpivak.Rigidification), [(2009b)](#DuggerSpivak.Mapping).
 
