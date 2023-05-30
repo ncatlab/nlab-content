@@ -182,7 +182,7 @@ On [[monoidal categories]]:
 
 * [[Ross Street]], _Higher categories, strings, cubes and simplex equations_, Applied Categorical Structures, Vol. 3, 1995, pp. 29–77. &lbrack;[doi:10.1007/BF00872948](https://doi.org/10.1007/BF00872948)&rbrack;
 
-* [André Joyal]] and [[Ross Street]], _The Category of Representations of the General Linear Groups over a Finite Field_, Journal of Algebra, Vol. 176, No. 3, 1995, pp. 908-946. &lbrack;[doi:10.1006/jabr.1995.1278](https://doi.org/10.1006/jabr.1995.1278)&rbrack;
+* [[André Joyal]] and [[Ross Street]], _The Category of Representations of the General Linear Groups over a Finite Field_, Journal of Algebra, Vol. 176, No. 3, 1995, pp. 908-946. &lbrack;[doi:10.1006/jabr.1995.1278](https://doi.org/10.1006/jabr.1995.1278)&rbrack;
 
 * [[Ross Street]], _Ideals, radicals, and structure of additive categories_, Applied Categorical Structures, Vol. 3, 1995, pp. 139–149. &lbrack;[doi:10.1007/BF00877633](https://doi.org/10.1007/BF00877633)&rbrack;
 
@@ -205,6 +205,8 @@ On [[monoidal categories]]:
 * [[Brian Day]] and [[Ross Street]], _Monoidal Bicategories and Hopf Algebroids_, Advances in Mathematics, Vol. 129, No. 1, 1997, pp. 99-157. &lbrack;[doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649)&rbrack;
 
 * [[Renato Betti]], [[Dietmar Schumacher]] and [[Ross Street]], _Factorizations in bicategories_, unpublished, 1999. &lbrack;[pdf](http://science.mq.edu.au/~street/61.pdf)&rbrack;
+
+* [[P. J. Freyd]], [[P. W. O’Hearn]], [[A. J. Power]], [[M. Takeyama]], [[Ross Street]], and [[R. D. Tennent]], _Bireflectivity_, Theoretical Computer Science, Vol. 228, No. 1-2, 1999, pp. 49-76. &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
 
 * [[Ross Street]], _The quantum double and related constructions_, Journal of Pure and Applied Algebra, Vol. 132, No. 2, 1998, pp. 195-206. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00111-4">doi:10.1016/S0022-4049(97)00111-4</a>&rbrack;
 
