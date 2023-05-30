@@ -173,9 +173,9 @@ If the [[electromagnetic field|Coulomb]] interaction between the electrons -- wh
 
 * [[non-abelian anyon|non-Abelian quantum Hall state]] (see [Wikipedia](http://en.wikipedia.org/wiki/Anyon#Non-abelian_anyons))
 
-* [[chiral spin state|chiral spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Topological_order#Chiral_spin_states))
+* [[chiral spin state|chiral]] [[spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Topological_order#Chiral_spin_states))
 
-* [[Z2 topological order|Z2 spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Quantum_spin_liquid#Realizations_of_.28stable.29_RVB_states))
+* [[Z2 topological order|$\mathbb{Z}/2$]] [[spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Quantum_spin_liquid#Realizations_of_.28stable.29_RVB_states))
 
 
 
