@@ -102,10 +102,10 @@ The inclusion of [[(∞,1)-category|(∞,1)-categories]] [[∞Grpd]] $\stackrel{
 $$
   (grpdfy \dashv i \dashv Core)
   \;\;
-   :
+  \colon
   \;\;
   (\infty,1)Cat
-  \stackrel{\overset{grpdfy}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\overset{Core}{\to}}}  
+  \stackrel{\overset{grpdfy}{\longrightarrow}}{\stackrel{\overset{i}{\leftarrow}}{\underset{Core}{\longrightarrow}}}  
   \infty Grpd
   \,,
 $$
@@ -120,13 +120,18 @@ where
 
 The adjunction $(grpdfy \dashv i)$ is modeled by the [[Bousfield localization of model categories|left Bousfield localization]]
 
-$$
-  (Id \dashv Id) \; :\;  sSet_{Joyal} \stackrel{\leftarrow}{\to}
+\[
+  \label{BousfieldLocalizationToKanQuillenStructure}
   sSet_{Quillen}
+  \underoverset
+    {\underset{Id}{\longrightarrow}}
+    {\overset{Id}{\longleftarrow}}
+    {\;\; \bot \;\;}
+  sSet_{Joyal} 
   \,.
-$$
+\]
 
-Notice that the left [[derived functor]] $\mathbb{L} Id : (sSet_{Joyal})^\circ \to (sSet_{Quillen})^\circ$ takes a fibrant object on the left -- a [[quasi-category]] -- then does nothing to it but regarding it now as an object in $sSet_{Quillen}$ and then producing its fibrant replacement there, which is [[Kan fibrant replacement]]. This is indeed the operation of _groupoidification_ .
+Notice that the left [[derived functor]] $\mathbb{L} Id \colon (sSet_{Joyal})^\circ \to (sSet_{Quillen})^\circ$ takes a fibrant object on the left -- a [[quasi-category]] -- then does nothing to it but regarding it now as an object in $sSet_{Quillen}$ and then producing its fibrant replacement there, which is [[Kan fibrant replacement]]. This is indeed the operation of _groupoidification_ .
 
 The other adjunction is given by the following
 
@@ -136,8 +141,12 @@ The other adjunction is given by the following
 There is a [[Quillen adjunction]]
 
 $$
-  (k_! \dashv k^!) \;\; : sSet_{Quillen}
-  \stackrel{\overset{k^!}{\leftarrow}}{\overset{k_!}{\to}}
+  (k_! \dashv k^!) 
+  \;\; \colon 
+  sSet_{Quillen}
+  \stackrel
+    {\overset{k^!}{\longleftarrow}}
+    {\underset{k_!}{\longrightarrow}}
    sSet_{Joyal}
 $$
 
@@ -158,7 +167,7 @@ This means that for $X \in SSet$ we have
 
 =--
 
-This is ([JoTi, prop 1.19](#JoyalTierney))
+This is ([Joyal & Tierney (2007), prop 1.19](#JoyalTierney07))
 
 The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(i \dashv Core)$:
 
@@ -171,7 +180,7 @@ The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(
 
 =--
 
-This is ([JoTi, prop 1.20](#JoyalTierney))
+This is ([Joyal & Tierney (2007), prop 1.20](#JoyalTierney07))
 
 ## History
 
@@ -214,7 +223,7 @@ A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriche
 
 On the relation to the model structure for [[complete Segal spaces]]:
 
-* [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_ ([arXiv](http://arxiv.org/abs/math/0607820))
+* {#JoyalTierney07} [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) &lbrack;[arXiv:math/0607820](http://arxiv.org/abs/math/0607820), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
 Discussion with an eye towards [[Cisinski model structures]] and the [[model structure on cellular sets]] is in 
 
@@ -239,3 +248,8 @@ On [[transferred model structure|transfer]] of the Joyal model structure to [[re
 [[!redirects model structure on quasi-categories]]
 [[!redirects model structure for quasicategories]]
 [[!redirects Joyal model structure for quasi-categories]]
+
+[[!redirects weak categorical equivalence]]
+[[!redirects weak categorical equivalences]]
+
+
