@@ -59,7 +59,7 @@ On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic mon
 
 On [[coherence theorems]] for [[tricategories]]:
 
-* [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. __117__ (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
+* [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. __117__ 558 (1995) &lbrack;[ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558)&rbrack;
 
 
 On [[bireflective subcategories]] with [[ambidextrous adjoints]]:
@@ -178,7 +178,7 @@ On [[monoidal categories]]:
 
 * [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]], _Modulated bicategories_, Journal of Pure and Applied Algebra, Vol. 94, No. 3, 1994, pp. 229-282. &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>&rbrack;
 
-* [[R. Gordon]], [[A. J. Power]], and [[Ross Street]], _Coherence for Tricategories_, Memoirs of the American Mathematical Society, Vol. 117, No. 558, 1995. &lbrack;[doi:10.1090/memo/0558](https://doi.org/10.1090/memo/0558)&rbrack;
+* [[Robert Gordon]], [[A. J. Power]], and [[Ross Street]], _Coherence for Tricategories_, Memoirs of the American Mathematical Society, Vol. 117, No. 558, 1995. &lbrack;[doi:10.1090/memo/0558](https://doi.org/10.1090/memo/0558)&rbrack;
 
 * [[Ross Street]], _Higher categories, strings, cubes and simplex equations_, Applied Categorical Structures, Vol. 3, 1995, pp. 29–77. &lbrack;[doi:10.1007/BF00872948](https://doi.org/10.1007/BF00872948)&rbrack;
 
