@@ -362,8 +362,7 @@ provide some help in understanding  the basic idea.
 
 For [[Rainer Vogt|Vogt]]'s theorem, the original reference is 
 
-* {#Vogt} [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52. 
-
+* {#Vogt73} [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., **134** (1973) 11-52 &lbrack;[doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090), [eudml:171965](https://eudml.org/doc/171965)&rbrack;
 
 A generalisation of his theorem using simplicially enriched categories and the [[homotopy coherent nerve]] of such a thing, is to be found in
 
