@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[quantum spin liquids]] (then called "[[resonating-valence-bond states]]"):
+
+* [[Nicholas Read]], B. Chakraborty, *Statistics of the excitations of the resonating-valence-bond state*, Phys. Rev. B **40** (1989) 7133 &lbrack;[doi:10.1103/PhysRevB.40.7133](https://doi.org/10.1103/PhysRevB.40.7133)&rbrack;
+
 On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] in the [[fractional quantum Hall effect]]:
 
 * [[Gregory Moore]], [[Nicholas Read]], _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
