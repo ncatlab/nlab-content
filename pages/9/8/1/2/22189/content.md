@@ -18,7 +18,7 @@ The _[swampland cobordism conjecture](swampland#SwamplandCobordismConjecture)_ i
 
 Relation to [[topological K-theory]]:
 
-* [[Ralph Blumenhagen]], Niccolò Cribiori, Christian Kneissl, Andriana Makridou, *Dimensional Reduction of Cobordism and K-theory* $[$[arXiv:2208.01656](https://arxiv.org/abs/2208.01656)$]$
+* [[Ralph Blumenhagen]], Niccolò Cribiori, Christian Kneissl, Andriana Makridou, *Dimensional Reduction of Cobordism and K-theory*, Journal of High Energy Physics 2023, 181, &lbrack;[doi:10.1007/JHEP03(2023)181](https://doi.org/10.1007/JHEP03%282023%29181)&rbrack;, &lbrack;[arXiv:2208.01656](https://arxiv.org/abs/2208.01656)&rbrack;
 
 * [[Ralph Blumenhagen]], Christian Kneissl, Chuying Wang, *Dynamical Cobordism Conjecture: Solutions for End-of-the-World Branes* $[$[arXiv:2303.03423](https://arxiv.org/abs/2303.03423)$]$
 
