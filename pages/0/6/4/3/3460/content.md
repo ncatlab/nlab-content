@@ -107,6 +107,8 @@ splits, and this in turn is equivalent to the existence of a separability idempo
 
 If a separable algebra $A$ is also projective as a module over $k$, it must be finitely generated as a $k$-module.  For more details see DeMeyer-Ingraham.
 
+If the center of a separable algebra $A$ over a commutative ring $k$ is $k$, $A$ is called an [[Azumaya algebra]].
+
 ### Separable extensions of noncommutative rings
 
 The ring extension $S$ over $R$ is said to be a separable extension if all short exact sequences of $S$-$S$-bimodules that are split as $S$-$R$-bimodules also split as $S$-$S$-bimodules. This is equivalent to the statement that the relative Hochschild cohomology $HH^n(S,R;M) = 0$ for all $n\gt 0$ and all coefficient bimodules $M$.
