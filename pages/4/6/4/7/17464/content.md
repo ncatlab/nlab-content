@@ -28,3 +28,4 @@ category: people
 category: computer science
 
 [[!redirects Peter O’Hearn]]
+[[!redirects P. W. O’Hearn]]
