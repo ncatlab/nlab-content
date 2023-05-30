@@ -92,7 +92,7 @@ The [[fundamental group]] of the free groupoid of a graph with a single vertex i
 
 * [[Philip Higgins]], §4 of: *Categories and groupoids*, Van Nostrand Reinhold (1971); Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2l.pdf)&rbrack;
 
-* {#MacLane} [[Saunders MacLane]], p. 51 Exp. 3 in: *[[Categories for the Working Mathematician]]*, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+* {#MacLane} [[Saunders MacLane]], p. 51 Ex. 3 in: *[[Categories for the Working Mathematician]]*, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * [[André Joyal]], [[Myles Tierney]], pp. 75 of: *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
