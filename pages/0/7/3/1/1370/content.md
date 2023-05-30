@@ -34,6 +34,11 @@ On the [[Dwyer-Kan loop groupoid]]-construction ([[path groupoid|path]]-[[simpli
 
 * [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
+On [[quasi-categories]]:
+
+* [[André Joyal]], *Quasi-categories and Kan complexes*, J. Pure Appl. Algebra **175** (2002) 207-222 (special volume celebrating the 70th birthday of Prof. Max Kelly) &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00135-4">doi:10.1016/S0022-4049(02)00135-4</a>&rbrack;
+
+
 On the [[Quillen equivalence]] between the [[model categories]] for [[quasi-categories]] and [[complete Segal spaces]]:
 
 * {#JoyalTierney07} [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) &lbrack;[arXiv:math/0607820](http://arxiv.org/abs/math/0607820), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
@@ -62,7 +67,6 @@ PDF of slides from a talk given by André Joyal at the MIT Topology Seminar on M
 
 See also:
 
-* A. Joyal, _Quasi-categories and Kan complexes_, (in Special volume celebrating the 70th birthday of Prof. Max Kelly) J. Pure Appl. Algebra  __175__ (2002),  no. 1-3, 207--222 ([doi](http://dx.doi.org/10.1016/S0022-4049%2802%2900135-4)).
 
 * A. Joyal, M. Tierney, _Quasi-categories vs Segal spaces_, Categories in algebra, geometry and mathematical physics,  277--326, Contemp. Math. __431__, Amer. Math. Soc., Providence, RI, 2007. [math.AT/0607820](http://arxiv.org/abs/math.AT/0607820).
 
