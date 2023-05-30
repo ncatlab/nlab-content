@@ -43,9 +43,10 @@ On the [[Dwyer-Kan loop groupoid]]-construction ([[path groupoid|path]]-[[simpli
 
 * [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
-On [[quasicategories]] and [[complete Segal spaces]]:
 
-* [[André Joyal]] and [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+On the [[Quillen equivalence]] between the [[model categories]] for [[quasi-categories]] and [[complete Segal spaces]]:
+
+* {#JoyalTierney07} [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) &lbrack;[arXiv:math/0607820](http://arxiv.org/abs/math/0607820), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
  
 
 On [[simplicial homotopy theory]], the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]]:
