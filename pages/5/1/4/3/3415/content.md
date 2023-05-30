@@ -28,8 +28,7 @@ There is a [[model category]] structure on the category [[SSet]] --  the **[[And
 
 ## Definition
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{TheModelStructure}
 
 The **model structure for quasi-categories** or **Joyal model structure** $sSet_{Joyal}$ on [[sSet]] has
 
@@ -37,7 +36,7 @@ The **model structure for quasi-categories** or **Joyal model structure** $sSet_
 
 * [[weak equivalences]] are those maps that are taken by the [[rigidification of quasi-categories|rigidification]] functor $\mathfrak{C}$ (the [[left adjoint]] to the [[homotopy coherent nerve]]) to a [[Dwyer-Kan equivalence]] (a [[weak equivalence]] in the [[Dwyer-Kan-Bergner model structure on sSet-enriched categories]]).
 
-=--
+\end{definition}
 
 
 ## Properties
@@ -60,11 +59,16 @@ The model structure for quasi-categories is
 
 =--
 
+\begin{lemma}
+\label{CartesianProductPreservesWeakCategoricalEquivalences}
+  The image under the [[Cartesian product]]-functor of two [[weak categorical equivalences]] (Def. \ref{TheModelStructure}) is again a weak categorical equivalence.
+\end{lemma}
+&lbrack;[Lurie (2009), Cor. 2.2.5.4](#Lurie09)&rbrack;
+
 +-- {: .num_remark}
 ###### Remark
 
-
-It is also a [[monoidal model category]] with respect to cartesian product and thus is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]). It is however _not_ $sSet_{Quillen}$-enriched and thus not a "[[simplicial model category]]" with respect to this enrichment.
+The model structure for quasi-categories is a [[monoidal model category]] with respect to [[cartesian product]] and thus is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]). It is however _not_ $sSet_{Quillen}$-enriched and thus not a "[[simplicial model category]]" with respect to this enrichment.
 
 =--
 
