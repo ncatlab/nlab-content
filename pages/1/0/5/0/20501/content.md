@@ -22,8 +22,13 @@ Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(
 On [[Hopf-Wess-Zumino terms]]:
 
 
-* {#WilczekZee84} [[Frank Wilczek]] and [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. 51, 2250, 1983 ([doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250))
+* {#WilczekZee84} [[Frank Wilczek]], [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. 51, 2250, 1983 ([doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250))
 
+
+
+On [[quantum spin liquids]] as exhibiting [[topological order]]:
+
+* [[Xiao-Gang Wen]], [[Frank Wilczek]], [[Anthony Zee]], *Chiral spin states and superconductivity*, Phys. Rev. B **39** (1989) 11413 &lbrack;[doi:10.1103/PhysRevB.39.11413](https://doi.org/10.1103/PhysRevB.39.11413)&rbrack;
 
 
 category: people
