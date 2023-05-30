@@ -236,14 +236,16 @@ In non-additive contexts, the above definition is not right.  For instance, with
 ### Compact objects in $Top$
  {#CompactObjectsInTop}
 
-Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
+Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a [}topological space]] $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
 
-A counterexample is given for instance on page 49 of [[Mark Hovey|Hovey]]'s [Model Categories](#Hovey), which itself was corrected by Don Stanley (see the [errata](http://hopf.math.purdue.edu/Hovey/model-err.pdf) of that book). See also the blog discussion 
+A [[counterexample]] is given for instance in [Hovey (1999), page 49](#Hovey99), which itself was corrected by Don Stanley (see the [errata](http://hopf.math.purdue.edu/Hovey/model-err.pdf) of that book). See also the blog discussion 
 [here](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790).
 
 Namely, the two-element set with the [[indiscrete topology]] is a compact space $X$ for which 
  \[
- Hom(X, -): Top \rightarrow Top
+ Hom(X, -)  
+  M\colon 
+  Top \rightarrow Top
 \]
 doesn't preserve filtered colimits, in fact not even [[sequential colimit|colimits of sequences]] (functors out of the [[poset|ordered set]] of [[natural numbers]]). 
 
@@ -273,21 +275,21 @@ _[[Todd Trimble|Todd]]_ (posted from n-category cafe): I don't know if the story
 But with a bit of care on the assumptions, similar results do hold:
 
 \begin{proposition} {#CompactSpace} 
-If $Y$ is compact, then 
+If $Y \in Top$ is a [[compact topological space]], then 
 $hom(Y,-)$ preserves colimits of functors mapping out of [[limit ordinals]], provided that the arrows of the cocone diagram, 
  \[
  X_\alpha \rightarrow X_\beta,
 \]
-are [[closed map|closed]] inclusions of $T_1$[[separation axiom|-spaces]], and $X_\beta$ is the colimit of earlier $X_\alpha$ if $\beta$ is itself a limit ordinal. 
+are [[closed map|closed]] inclusions of [[separation axiom|$T_1$-spaces]], and $X_\beta$ is the colimit of earlier $X_\alpha$ if $\beta$ is itself a limit ordinal. 
 \end{proposition} 
 
-This applies for example to the sequence of inclusions of n-skeleta in a [[CW-complex]]. By considering the cases $Y=S^k$ and $Y = S^k \times I$, this implies that the functor $\pi_k$ also preserves colimits of such sequences. Applications also occur in the theory of [[classifying space|classifying bundles]]. For example, the total space $EO(n)$ of the classifying bundle of $O(n)$ can be constructed as the colimit $\underset{k \to \infty}{colim} \; V_n(\mathbb{R}^{n+k})$ of [[Stiefel manifolds]] of orthonormal $n$-frames in $\mathbb{R}^{n+k}$. To show $EO(n)$ is weakly contractible, it suffices, by this result, to show that for each $j$, the [[homotopy group]] $\pi_j(V_n(\mathbb{R}^{n+k}))$ vanishes for sufficiently large $k$. 
+This applies for example to the sequence of inclusions of $n$-skeleta in a [[CW-complex]]. By considering the cases $Y=S^k$ and $Y = S^k \times I$, this implies that the functor $\pi_k$ also preserves colimits of such sequences. Applications also occur in the theory of [[classifying space|classifying bundles]]. For example, the total space $EO(n)$ of the [[orthogonal group|$O(n)$]]-[[universal principal bundle]] can be constructed as the colimit $\underset{k \to \infty}{colim} \; V_n(\mathbb{R}^{n+k})$ of [[Stiefel manifolds]] of orthonormal $n$-frames in $\mathbb{R}^{n+k}$. To show $EO(n)$ is weakly contractible, it suffices, by this result, to show that for each $j$, the [[homotopy group]] $\pi_j(V_n(\mathbb{R}^{n+k}))$ vanishes for sufficiently large $k$. 
 
 \begin{proof} 
 Let $X$ denote the colimit of the diagram mapping out of the limit ordinal $\kappa$. We must show that every map $f \colon Y \to X$ factors through one of the universal cocone components $i_\alpha \colon X_\alpha \to X$, where $\alpha \lt \kappa$. Suppose not. Starting from any $\alpha \lt \kappa$, pick a point $x_0 \in f(Y)$ not in the image $i_\alpha(X_\alpha)$. There is a minimal $\alpha_1 \lt \kappa$ such that $x_0 \in i_{\alpha_1}(X_{\alpha_1})$. Proceeding inductively, choose $x_n \in f(Y)$ such that $x_n \notin i_{\alpha_n}(X_{\alpha_n})$, and let $\alpha_{n+1}$ be the minimal ordinal such that $x_n \in i_{\alpha_{n+1}}(X_{\alpha_{n+1}})$. Then let $\beta$ be the limit of the $\alpha_n$, and let $S$ be the set $\{x_n: n \in \mathbb{N}\}$, so that $S \subseteq i_\beta(X_\beta)$. Any subset $K$ of $S$ is closed, because closure of $K \subseteq i_\beta(X_\beta)$ is equivalent to closure of of each $K \cap i_{\alpha_n}(X_{\alpha_n})$ (since that is how the colimit topology on $X_\beta$ is defined), and all these intersections are finite and therefore closed by the $T_1$ condition. It follows that $f^{-1}(S)$ is an infinite discrete subspace of $Y$, but this contradicts compactness. 
 \end{proof} 
 
-This proof is essentially that given on page 50 of Hovey's book. Hovey wants this result in view of a [[small object argument]] on the way to proving that $Top$ is a [[model category]]. See [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes) at _[[classical model structure on topological spaces]]_.
+This proof is essentially that given in [Hovey (1999), page 50](#Hovey99), where this result is needed towards the [[small object argument]] on the way to establishing the [[classical model structure on topological spaces]], see [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes).
 
 ## Related concepts
 
@@ -326,7 +328,7 @@ Compact objects are discussed under the term "finitely presentable" or "finitely
 
 For the pages quoted in the context of the discussion of compact objects in [[Top]] see
 
-* {#Hovey} [[Mark Hovey]], _[[Model categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999).  [ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s) [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063) [pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), (errata: [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf))
+* {#Hovey99} [[Mark Hovey]], _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999).  [ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s) [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063) [pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), (errata: [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf))
 .
 
 For the general definition with an eye towards the definition of [[compact object in an (infinity,1)-category]]  see section A.1.1 section 5.3.4 of 
