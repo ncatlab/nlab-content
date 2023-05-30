@@ -11,7 +11,13 @@ Introducing the notion of [[locally presentable categories]]:
 
 * [[Pierre Gabriel]], [[Friedrich Ulmer]], *Lokal präsentierbare Kategorien*, Springer LNM **221** (1971) &lbrack;[doi:10.1007/BFb0059396](https://doi.org/10.1007/BFb0059396), [MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)&rbrack;
 
+Other writings:
 
+* [[Friedrich Ulmer]], *On categories of cocontinuous functors. Applications*, Deuxième colloque sur l’algèbre des catégories. Amiens-1975. Résumés des conférences (1975) ([pdf](http://www.numdam.org/item/CTGDC_1975__16_3_217_0.pdf))
+
+* [[Friedrich Ulmer]]. *Locally presentable categories II* (1975)
+
+* [[Friedrich Ulmer]]. *Bialgebras in locally presentable categories*, University of Wuppertal preprint (1977).
 
 
 category:people
