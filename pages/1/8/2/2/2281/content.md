@@ -30,6 +30,10 @@ Introducing [[Eilenberg-MacLane spaces]]:
 
 * {#EilenbergMacLane54III} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, III: Operations and Obstructions_, Annals of Mathematics Second Series, Vol. 60, No. 3 (Nov., 1954), pp. 513-557 ([jstor:1969849](https://www.jstor.org/stable/1969849))
 
+On [[separable algebras]] and [[Frobenius algebras]]:
+
+* {#EilenbergNakayama55} [[Samuel Eilenberg]], [[Tadasi Nakayama]], *On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings*, _Nagoya Math. J._ **9** (1955) 1-16  &lbrack;[euclid](https://projecteuclid.org/journals/nagoya-mathematical-journal/volume-9/issue-none/On-the-dimension-of-modules-and-algebras-II-Frobenius-algebras/nmj/1118799677.pdf)&rbrack;
+
 
 On [[homological algebra]]:
 
