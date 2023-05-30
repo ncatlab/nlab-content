@@ -161,18 +161,13 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 ## References
 
-Quasi-categories were originally  defined in
+The notion of quasi-categories were originally defined, under the name *[[weak Kan complexes]]* in:
 
-* [[Michael Boardman]], [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological
-spaces_, Lecture Notes in Mathematics, Vol. 347. Springer-Verlag, 1973.
+* [[Michael Boardman]], [[Rainer Vogt]], *Homotopy invariant algebraic structures on topological spaces*, Lecture Notes in Mathematics **347** Springer (1973) &lbrack;[doi:10.1007/BFb0068547](https://doi.org/10.1007/BFb0068547)&rbrack;
 
-They occured as _[[weak Kan complexes]]_ in 
+* {#Vogt73} [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., **134** (1973) 11-52 &lbrack;[doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090), [eudml:171965](https://eudml.org/doc/171965)&rbrack;
 
-* [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., 134, (1973), 11&#8211;52.
-
-Vogt's main theorem involved a category of [[homotopy coherent diagram|homotopy coherent diagrams]] defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
-
-[[Jean-Marc Cordier]] in
+The main theorem of [Vogt (1973)](#Vogt73) involved a category of [[homotopy coherent diagrams]] defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
 
 * [[J.-M. Cordier]], _Sur la notion de diagramme homotopiquement coh&#233;rent_, Cahiers de Top. G&#233;om. Diff., 23, (1982), 93 &#8211;112,
 
@@ -184,14 +179,14 @@ it was shown that this homotopy coherent nerve was a quasi-category if the simpl
 
 A systematic study of SSet-enriched categories in this context is in
 
-* J-M Cordier, [[Tim Porter]] _Homotopy coherent category theory_ Trans. Amer. Math. Soc. 349 (1997), no. 1, 1-54. ([pdf](http://www.ams.org/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+* [[J.-M. Cordier]], [[Tim Porter]] _Homotopy coherent category theory_ Trans. Amer. Math. Soc. 349 (1997), no. 1, 1-54. ([pdf](http://www.ams.org/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
 
  
 The importance of quasi-categories as a basis for [[category theory]] has been particularly emphasized in  work by [[André Joyal]]
 
-* [[André Joyal]], _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
+* [[André Joyal]], *Quasi-categories and Kan complexes*, J. Pure Appl. Algebra **175** (2002) 207-222 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00135-4">doi:10.1016/S0022-4049(02)00135-4</a>&rbrack;
 
-For several years Joyal has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writeup of lecture notes does:
+For several years Joyal has been preparing a textbook on the subject which never became publically available, but an extensive writeup of lecture notes is:
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
