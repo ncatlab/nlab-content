@@ -27,39 +27,55 @@ This is the original concept equivalence of rings due to [[Kiiti Morita]] (see [
 
 Nowadays, the term is applied in different but closely related senses in a wide range of mathematical fields, and one speaks of _Morita equivalent_ [[categories]], [[algebraic theories]], [[geometric theories]] and so on.
 
-Typically, such Morita situations involve three ingredients: a 'syntactic' ground level to which the respective concept of _Morita equivalence_ applies, a 'hypersyntactic' level that obtains from an 'idempotent' completion, and a second process of completion to a 'semantic' level where the equivalence relation for the syntactic ground level is defined by plain equivalence of category e.g. Morita equivalence for _small categories_ is defined as equivalence of their presheaf categories with [[Cauchy completion]] as intermediate hypersyntactic level.
+Typically, such Morita situations involve three ingredients: a 'syntactic' ground level to which the respective concept of _Morita equivalence_ applies, a 'hypersyntactic' level obtained via [[Cauchy completion]], and a second process of completion to a 'semantic' level where the equivalence relation for the syntactic ground level is defined by plain equivalence of categories.  For example Morita equivalence for _small categories_ is defined as equivalence of their presheaf categories, with Cauchy completion as intermediate hypersyntactic level.
 
 So the broad intuition is that Morita equivalence is a _coarse grained semantic equivalence that obtains between syntactic gadgets_ - basically two [[theories]] that have up to equivalence the same category of [[models]]. The role of the intermediate hypersyntactic level in this analogy is that of an 'ideal syntax' (syntax classifier) that already reflects the relations at the semantic level. The categorical equivalence (via bimodules)  from the semantic level then shows up at the intermediate level as a ('Cauchy convergent'$\sim$ 'fgp-module') bidirectional _translation_ from one syntax into another.
+
+An important weakening of Morita equivalence is [[Morita context]] (in older literature sometimes called pre-equivalence).
 
 ## Classical Morita theorem
  {#ClassicalMoritaTheorem}
 
-Given [[rings]] $R$ and $S$, the following properties are equivalent
+Given (associative unital) [[associative unital algebra|algebras]] $R$ and $S$ over a [[commutative ring]] $k$, the following properties are equivalent:
 
 1. The categories of left $S$-[[modules]] and left $R$-modules are [[equivalence of categories|equivalent]];
 
-1. The categories of right $S$-modules and right $R$-modules
+2. The categories of right $S$-modules and right $R$-modules
 are equivalent;
 
-1. There are [[bimodules]] ${}_R M_S$ and ${}_S N_R$ such that $\otimes_R M$ and $\otimes_S N$ form an [[adjoint equivalence]] between the category of right $S$- and the category of right $R$-modules;
+3. There are [[bimodules]] ${}_R M_S$ and ${}_S N_R$ such that the functors $- \otimes_R M$ and $- \otimes_S N$ form an [[adjoint equivalence]] between the category of right $S$-modules and the category of right $R$-modules;
 
+4. The algebra $R$ is isomorphic to the endomorphism algebra of a finitely generated projective [[generator]] in the category of left (or right) $S$-modules;
 
-1. The ring $R$ is isomorphic to the endomorphism ring of a finitely generated projective [[generator]] in the category of left (or right) $S$-modules;
-1. The ring $S$ is isomorphic to the endomorphism ring of a finitely generated projective [[generator]] in the category of left (or right) $R$-modules.
+5. The algebra $S$ is isomorphic to the endomorphism algebra of a finitely generated projective [[generator]] in the category of left (or right) $R$-modules.
 
-An important weakening of the Morita equivalence is [[Morita context]] (in older literature sometimes called pre-equivalence).
+As usual, these results give results for rings when specialized to the case $k = \mathbb{Z}$, with an algebra over $\mathbb{Z}$ being a ring.
 
 ## Definitions
 
 ### In algebra
 
-Two rings are **Morita equivalent** if the equivalent statements in the Morita theorem above are true. A **Morita equivalence** is an [[equivalence in a 2-category]] in the [[bicategory]] $\mathrm{Rng}$ of [[rings]], [[bimodules]] as [[1-morphisms]] and bimodule homomorphisms ("[[intertwiners]]" as [[2-morphisms]]).
+Two algebras over a commutative ring $k$ are **Morita equivalent** if the equivalent statements in the Morita theorem above are true. A **Morita equivalence** is an [[equivalence in a 2-category|equivalence]] in the [[bicategory]] $\mathrm{Alg}_k$ with
 
-A [theorem in ring theory](center+of+an+additive+category#examples) says that the [[center]] of a ring is isomorphic to the center of its category of modules and that Morita equivalent rings have isomorphic centers. In particular, two _commutative_ rings are Morita equivalent precisely when they are isomorphic!
+* [[associative unital algebras]] over $k$ as objects,
+
+* [[bimodules]] as [[1-morphisms]], and
+
+* bimodule homomorphisms ("[[intertwiners]]" as [[2-morphisms]]).
+
+A [theorem in ring theory](center+of+an+additive+category#examples) says that the [[center]] of an algebra is isomorphic to the center of its category of modules and that Morita equivalent algebras have isomorphic centers. In particular, two _commutative_ algebras are Morita equivalent precisely when they are isomorphic!
 
 This shows that the property of _having center $Z$ up to isomorphism_ is stable within Morita equivalence classes. Properties of this kind are sufficiently important to deserve a special name:
 
-A property $P$ of rings is called a **Morita invariant** iff whenever $P$ holds for a ring $R$, and $R$ and $S$ are Morita equivalent then $P$ also holds for $S$. Another classical example is the property of being [[simple ring|simple]]. (cf. Cohn 2003)
+A property $P$ of rings is called a **Morita invariant** iff whenever $P$ holds for a ring $R$, and $R$ and $S$ are Morita equivalent then $P$ also holds for $S$. Other Morita invariant properties are the property of being [[simple ring|simple]], [[semisimple ring|semisimple]], left or right [[Noetherian ring|Noetherian]], and left or right [[Artinian ring|Artinian]] (cf. Anderson and Fuller (1992)).
+
+The appearance of finitely generated projective modules in the [classical Morita theorem](#ClassicalMoritaTheorem) may seem unexpected, but it emerges from the following
+
+\begin{lemma}
+Suppose $R,S$ are algebras over a commutative ring $k$ and $M$ is an $R,S$-bimodule. Then $M$ is a left adjoint in the bicategory $Alg_k$ of $k$-algebras, bimodules and bimodule morphisms if and only if $M$ is finitely generated projective as an $S$-module.
+\end{lemma} 
+
+There is a slick proof of this using [[enriched category theory]], working with categories enriched over $V = k Mod$.  It makes use of these facts: a $k$-algebra $R$ is a one-object $V$-enriched category, a bimodule of $k$-algebras is a $V$-enriched profunctor, and the [[Cauchy completion]] of $R$, viewed as a one-object $V$-enriched category, is the category of finitely generated projective $R$-modules.
 
 ### In homotopy theory 
 
@@ -112,7 +128,9 @@ A beautiful classical exposition is in
 
 The concept should be covered in any decent textbook on algebra and ring theory, e.g.:
 
-* P. M. Cohn, _Further algebra and applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
+* F. W. Anderson and K. R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics Vol. 13, Springer, New York, 1992.
+
+* P. M. Cohn, _Further Algebra and Applications_, Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
 
 * [[Ross Street]], _Quantum Groups - A Path to Current Algebra_ , Cambridge UP 2007. ([ps-draft](http://www-texdev.ics.mq.edu.au/Quantum/Quantum.ps))
 
