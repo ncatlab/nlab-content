@@ -97,7 +97,7 @@ We can define 'commutative' or 'symmetric' Frobenius algebras in any [[symmetric
 $$\epsilon \mu \circ S_{A,A} = \epsilon \mu \, $$
 where $S_{A,A} : A \otimes A \to A \otimes A$ is the symmetry, and $\epsilon\mu$ is the nondegenerate pairing induced as above from the multiplication and the counit.  Any commutative Frobenius algebra is symmetric, but not conversely: for example the algebra of $n \times n$ matrices with entries in a field, with its usual trace as $\epsilon$, is symmetric but not commutative when $n \gt 1$.  
 
-A theorem of Eilenberg and Nakayama says that in the category of vector spaces over a field $k$, an algebra $A$ can be equipped with the structure of a symmetric Frobenius algebra if (but not only if) it is **separable**, meaning that for any field $K$ extending $k$, $A \otimes_k K$ is a [[semisimple algebra|semisimple]] algebra over $K$.   
+A theorem of [Eilenberg & Nakayama (1955)](#Eilenberg1955) says that in the category [[Vect]] of [[vector spaces]] over a [[field]] $k$, an algebra $A$ can be equipped with the structure of a symmetric Frobenius algebra if (but not only if) it is **[[separable algebra|separable]]**, meaning that for any field $K$ [[field extension|extending]] $k$, $A \otimes_k K$ is a [[semisimple algebra|semisimple]] algebra over $K$.   
 
 ### Special Frobenius algebras ###
 
@@ -250,8 +250,8 @@ Frobenius algebras were introduced by [[Brauer]] and Nesbitt and were named afte
 
 See for instance
 
-* [[Samuel Eilenberg]] and Tadasi Nakayama (1955), _On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings_, _Nagoya Math. J._ **9**, 1--16. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
-{#Eilenberg1955}
+* {#Eilenberg1955} [[Samuel Eilenberg]], [[Tadasi Nakayama]], _On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings_, _Nagoya Math. J._ **9** (1955) 1-16 &lbrack;[web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677)&rbrack;
+
 
 * [[Marcelo Aguiar]] (2000), _A note on strongly separable algebras_, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([pdf](http://www.math.cornell.edu/~maguiar/strongly.pdf))
 {#Aguiar2000}
