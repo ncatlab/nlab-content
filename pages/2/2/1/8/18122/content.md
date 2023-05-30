@@ -69,6 +69,20 @@ Since $X$ is $T_1$ (points are closed), the set $W_m \cap \neg \{x_1, \ldots, x_
 Finally, any point $x \notin A$ belongs to some $W_n$, and then $W_n \cap \neg \{x_1, \ldots x_n\}$ is an open neighborhood of $x$ that doesn't intersect $A$. Thus $A$ is a closed discrete subspace, and is finite by limit point compactness. Therefore the maximal chain consisting of the sets $W_n$ is finite, as was to be shown. 
 =-- 
 
+\begin{proposition} 
+If $X$ is countably compact and $f \colon X \to Y$ is a map in [[Top]], then the direct image $f(X)$ is a countably compact subset of $Y$. 
+\end{proposition} 
+
+\begin{proof} 
+The proof is just like the proof of the corresponding statement where the word "countably" is dropped. Suppose $\{U_n: n \in \mathbb{N}\}$ is a countable cover of $f(X)$, so that $f(X) \subseteq \bigcup_{n \in \mathbb{N}} U_n$. This is equivalent to 
+
+$$X \subseteq f^{-1}\left(\bigcup_{n \in \mathbb{N}} U_n\right) = \bigcup_{n \in \mathbb{N}} f^{-1}(U_n).$$ 
+Thus $\{f^{-1}(U_n): n \in \mathbb{N}\}$ is a countable open cover of $X$, so by countable compactness there is a finite subcover $f^{-1}(U_{n_1}), \ldots, f^{-1}(U_{n_k})$ of $X$: 
+
+$$X \subseteq \bigcup_{i=1}^k f^{-1}(U_{n_i}) = f^{-1}\left(\bigcup_{i=1}^k U_{n_i}\right).$$ 
+This is equivalent to $f(X) \subseteq \bigcup_{i=1}^k U_{n_i}$, as required. 
+\end{proof}
+
 
 * In the case of metric spaces, [[countably compact metric spaces are equivalently compact metric spaces]]. 
 
