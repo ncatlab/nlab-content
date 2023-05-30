@@ -409,7 +409,7 @@ This is ([Rezk, theorem 8.3](#Rezk)).
  {#QuasiCategoriesAsCompleteSegal}
 
 The formula $\mathcal{C} \mapsto k \mapsto Core(\mathcal{C}^{\Delta[k]})$ also defines a relative functor from quasi-categories to complete segal spaces,
-which has a one-sided inverse $X \mapsto X_{\bullet,0}$. This is the $\Gamma$ appearing in proposition 4.10 of the Joyal-Tierney reference.
+which has a one-sided inverse $X \mapsto X_{\bullet,0}$. This is the $\Gamma$ appearing in [Joyal & Tierney (2007), proposition 4.10](#JoyalTierney07).
 
 However, to get a right Quillen functor, we need to use a different model of Core.
 
@@ -481,7 +481,8 @@ Complete Segal spaces were originally defined in
 
 The relation to [[quasi-categories]] is discussed in 
 
-* [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+* {#JoyalTierney07} [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) &lbrack;[arXiv:math/0607820](http://arxiv.org/abs/math/0607820), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
+
 
 Further discussion of the relation to [[simplicial localization]] is in 
 
