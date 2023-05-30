@@ -18,9 +18,11 @@ Boardman introduced the [[stable homotopy theory|stable homotopy category]] in 1
 
 He coauthored with [[Vogt]] the famous book 
 
-* **Homotopy invariant algebraic structures on topological spaces**, Springer Lecture Notes in Math 347 (1973).
 
-This book introduced the notion of [[weak Kan complex]] that was later popularized by [[André Joyal]] under the name [[quasi-category]] as a natural basis for the  [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]].
+* [[Michael Boardman]], [[Rainer Vogt]], *Homotopy invariant algebraic structures on topological spaces*, Lecture Notes in Mathematics **347** Springer (1973) &lbrack;[doi:10.1007/BFb0068547](https://doi.org/10.1007/BFb0068547)&rbrack;
+
+
+This book introduced the notion of *[[weak Kan complex]]* that was later popularized by [[André Joyal]] under the name *[[quasi-categories]]* as a natural basis for the  [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]].
 
 
 See also: _Homotopy invariant algebraic structures_: _a conference in honor of J. Michael Boardman_ edited by Jean-Pierre Meyer, [[Jack Morava]], and [[W. Stephen Wilson]]. AMS, 1999, CONM/239.
