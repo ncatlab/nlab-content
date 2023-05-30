@@ -51,19 +51,18 @@ $$ a p = p a $$
 for all $a \in A$.  Such an element $p$ is called a **separability idempotent**, since it satisfies $p^2 = p$. 
 While grungy, finding a separability idempotent is a practical way to prove that an algebra is separable.
 
-## Classification ##
+## Properties
 
-There is a classification theorem for separable algebras: separable algebras are the same as finite products of matrix algebras over finite-dimensional [[division algebras]] whose centers are finite-dimensional [[separable field extension|separable field extensions]] of the field $k$.  
+### Classification 
+
+There is a classification theorem for separable algebras: separable algebras are the same as finite products of [[matrix algebras]] over finite-dimensional [[division algebras]] whose [[centers]] are [[finite-dimensional vector space|finite-dimensional]] [[separable field extension|separable field extensions]] of the [[field]] $k$.  
 
 A [[perfect field]] is one for which every extension is [[separable field extension|separable]].  Examples include fields of characteristic zero, or finite fields, or algebraically closed fields, or extensions of perfect fields.  If $k$ is a perfect field, separable algebras are the same as finite products of matrix algebras over finite-dimensional division algebras over field $k$.  In other words, if $k$ is a perfect field, there is no difference between a separable algebra over $k$ and a finite-dimensional [[semisimple algebra]] over $k$.
 
-## Relation to Frobenius algebras ##
+### Relation to Frobenius algebras 
+ {#RelationToFrobeniusAlgebras}
 
-A result of Eilenberg and Nakayama states that any [[separable algebra]] over a field $k$ can be given the structure of a [[Frobenius algebra|symmetric Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
-
-* Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
-([web](https://projecteuclid.org/journals/nagoya-mathematical-journal/volume-9/issue-none/On-the-dimension-of-modules-and-algebras-II-Frobenius-algebras/nmj/1118799677.pdf))
-* Endo, Shizuo and Watanabe, Yutaka, On separable algebras over a commutative ring, _Osaka J. Math._ **4**(2) (1967), 233-242. ([web](https://projecteuclid.org/download/pdf_1/euclid.ojm/1200691953)). See in particular Thm. 4.2.
+A result of [Eilenberg & Nakayama (1955)](#EilenbergNakayama55) states that any [[separable algebra]] over a field $k$ can be given the structure of a [[Frobenius algebra|symmetric Frobenius algebra]].  Since the [[underlying]] [[vector space]] of a Frobenius algebra is [[isomorphism|isomorphic]] to its [[dual vector space|dual]], any Frobenius algebra is necessarily [[finite dimensional vector space|finite dimensional]], and so the same is true for separable algebras.  For more details, see [Eilenberg & Nakayama (1955)](#EilenbergNakayama55), [Endo & Watanabe (1967), in particular Thm. 4.2.](#EndoWatanabe67).
 
 A separable algebra is said to be **strongly separable** if there exists a separability idempotent $p$ that is **symmetric**, meaning
 $$ p = \sum_{i=1}^n a_i \otimes b_i = \sum_{i=1}^n b_i \otimes a_i $$
@@ -92,28 +91,29 @@ Here are some examples of strongly separable algebras:
 For more details, see Aguiar's book below.
 
 
+### Over commutative rings 
 
-## Over commutative rings ##
-
-More generally, if $k$ is any unital [[commutative ring]], we can define a separable $k$-algebra to be an algebra $A$ such that $A$ is projective as a module over $A^e = A \otimes_k A^{op}$. 
+More generally, if $k$ is any [[unital ring|unital]] [[commutative ring]], we can define a separable $k$-algebra to be an algebra $A$ such that $A$ is projective as a module over $A^e = A \otimes_k A^{op}$. 
 
 As in the case of algebras over a field, an algebra $A$ over a commutative ring $k$ is separable if and only if the $A^e$-module epimorphism 
-$$ \array{
-m : & A^e &\to & A  \\
+$$ 
+  \array{
+    m \colon & A^e &\to & A  
+    \\
      & a \otimes b & \mapsto & a b 
-}
+  }
 $$
 splits, and this in turn is equivalent to the existence of a separability idempotent.
 
 If a separable algebra $A$ is also projective as a module over $k$, it must be finitely generated as a $k$-module.  For more details see DeMeyer-Ingraham.
 
-## Separable extensions of noncommutative rings
+### Separable extensions of noncommutative rings
 
 The ring extension $S$ over $R$ is said to be a separable extension if all short exact sequences of $S$-$S$-bimodules that are split as $S$-$R$-bimodules also split as $S$-$S$-bimodules. This is equivalent to the statement that the relative Hochschild cohomology $HH^n(S,R;M) = 0$ for all $n\gt 0$ and all coefficient bimodules $M$.
 
-## In algebraic geometry ##
+### In algebraic geometry
 
-Commutative separable algebras are important in algebraic geometry.   The concept of [[etale morphism|étale cover]] in  is a way of implementing the idea of [[covering space]] in the context of [[algebraic geometry]], but any étale cover of the spectrum of a field corresponds to a commutative separable algebra over that field.  Lieven Le Bruyn has written "in categorical terms, studying the monoidal category of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This idea is partially captured by the so-called *fundamental theorem of Grothendieck Galois theory*: the  category of commutative separable algebras over a field $k$ is contravariantly equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $k$.   As a group, the *profinite fundamental group* of $k$ is the Galois group $Gal(k_s|k)$ where $k_s$ is a *separable closure* of $k$, that is, a maximal [[separable field extension]] of $k$.
+Commutative separable algebras play an important role in [[algebraic geometry]], where the concept of *[[etale morphism|étale cover]]* is a way of implementing the idea of [[covering space]], but any étale cover of the [[spectrum of a ring|spectrum]] of a field corresponds to a commutative separable algebra over that field.  Lieven Le Bruyn has written "in categorical terms, studying the monoidal category of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This idea is partially captured by the so-called *fundamental theorem of Grothendieck Galois theory*: the  category of commutative separable algebras over a field $k$ is contravariantly equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $k$.   As a group, the *profinite fundamental group* of $k$ is the Galois group $Gal(k_s|k)$ where $k_s$ is a *separable closure* of $k$, that is, a maximal [[separable field extension]] of $k$.
 
 Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  There are further generalizations, leading to [[separable functor|separable functors]]...
 
@@ -126,16 +126,21 @@ Separable algebras play a major role in the [[Galois theory]] of extensions of a
 * [[separable coring]]
 
 
+
 ## References
+ {#References}
+
+* {#EilenbergNakayama55} [[Samuel Eilenberg]], [[Tadasi Nakayama]], *On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings*, _Nagoya Math. J._ **9** (1955) 1-16  &lbrack;[euclid](https://projecteuclid.org/journals/nagoya-mathematical-journal/volume-9/issue-none/On-the-dimension-of-modules-and-algebras-II-Frobenius-algebras/nmj/1118799677.pdf)&rbrack;
 
 * K. Hirata, K. Sugano, _On semisimple and separable extensions of noncommutative rings_, J. Math. Soc. Japan 18 (1966), 360-373.
+
+* {#EndoWatanabe67} Shizuo Endo, Yutaka Watanabe, *On separable algebras over a commutative ring*, _Osaka J. Math._ **4**(2) (1967) 233-242 &lbrack;[euclid](https://projecteuclid.org/download/pdf_1/euclid.ojm/1200691953)&rbrack;
+
 
 * F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin (1971)
 
 
 * [[Marcelo Aguiar]], *A note on strongly separable algebras*, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65** (2000) 51-60  &lbrack;[pdf](http://www.math.cornell.edu/~maguiar/strongly.pdf)&rbrack;
-
-
 
 See also:
 
