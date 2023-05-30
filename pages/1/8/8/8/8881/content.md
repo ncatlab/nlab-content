@@ -13,7 +13,7 @@ Introducing the notion of [[locally presentable categories]]:
 
 Other writings:
 
-* [[Friedrich Ulmer]], *On categories of cocontinuous functors. Applications*, Deuxième colloque sur l’algèbre des catégories. Amiens-1975. Résumés des conférences (1975) &lbrack;[numdam:CTGDC_1975__16_3_217_0](http://www.numdam.org/item/?id=CTGDC_1975__16_3_217_0), [pdf](http://www.numdam.org/item/CTGDC_1975__16_3_217_0.pdf)&rbrack;
+* [[Friedrich Ulmer]], *On categories of cocontinuous functors. Applications*, Deuxième colloque sur l’algèbre des catégories. Amiens-1975. Résumés des conférences (1975) &lbrack;[numdam:CTGDC_1975__16_3_217_0](http://www.numdam.org/item/?id=CTGDC_1975__16_3_217_0), [pdf](http://www.numdam.org/item/CTGDC_1975__16_3_217_0.pdf#page=110)&rbrack;
 
 * [[Friedrich Ulmer]]. *Locally presentable categories II* (1975)
 
