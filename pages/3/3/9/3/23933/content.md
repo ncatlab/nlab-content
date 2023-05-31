@@ -17,8 +17,7 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *Comments on Arithmetic Teichmüller Spaces* ([arXiv:2111.06771](https://arxiv.org/abs/2111.06771))
 
-* [[Kirti Joshi]], *Mochizuki's Corollary 3.12 and my quest for its proof* ((<a href='https://www.math.arizona.edu/~kirti/joshi-teich-quest.pdf'>Mochizuki's Corollary 3.12 and my quest for its proof</a>))
-
+* [[Kirti Joshi]], *Mochizuki's Corollary 3.12 and my quest for its proof* &lbrack;<a href='https://www.math.arizona.edu/~kirti/joshi-teich-quest.pdf'>pdf</a>&rbrack;
 
 * [[Kirti Joshi]], *(Older-Version) Construction of Arithmetic Teichmuller spaces II: Towards Diophantine Estimates* ([arXiv:2111.04890](https://arxiv.org/abs/2111.04890))
 
@@ -29,6 +28,10 @@ On [[anabelian geometry]]:
 * [[Kirti Joshi]], *Mochizuki's anabelian variation of ring structures and formal groups* ([arxiv:1906.06840](https://arxiv.org/abs/1906.06840))
 
 * [[Kirti Joshi]], *On Mochizuki's idea of Anabelomorphy and its applications* ([arxiv:2003.01890](https://arxiv.org/abs/2003.01890))
+
+## Related entries
+
+* [[inter-universal Teichmüller theory]]
 
 category: people
 
