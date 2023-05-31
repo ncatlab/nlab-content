@@ -490,13 +490,13 @@ $$
     sSet\text{-}Grpd
   $$
 
-to be the simplicial groupoid whose $n$-morphisms are the homomorphism of [[sSet-enriched categories]] to $\mathcal{Y}$ from the cartesian product (Def. \ref{CartesianProductOfsSetCategories}) of $\mathcal{X}$ with $\mathcal{I}^{n}$ (Def. \ref{SimplicialIntervalCategory}):
+to be the simplicial groupoid whose $n$-morphisms are the homomorphism ([[sSet]]-[[enriched functors]]) of [[sSet-enriched categories]] to $\mathcal{Y}$ from the cartesian product (Def. \ref{CartesianProductOfsSetCategories}) of $\mathcal{X}$ with $\mathcal{I}^{n}$ (Def. \ref{SimplicialIntervalCategory}):
 
 * $Obj\big(Maps(\mathcal{X},\,\mathcal{Y})\Big) \,\coloneqq\, Hom_{sSet\text{-}Grpd}(\mathcal{X},\,\mathcal{Y})$,
 
 * $Mor\big(Maps(\mathcal{X},\,\mathcal{Y})\Big)_n \,\coloneqq\, Hom_{sSet\text{-}Grpd}\big(\mathcal{X} \times \mathcal{I}^{(n+1)},\,\mathcal{Y}\big)$
 
-* with [[face and degeneracy maps]] induced from $\Delta[\bullet] \,=\, Hom\big( \mathcal{I}^{(\bullet + 1)} \big)$,
+* with [[face and degeneracy maps]] induced from those of the [[simplicial set]] $\Delta[\bullet] \,=\, \mathcal{I}^{(\bullet + 1)}(0,1)$,
 
 * with [[composition]] induced from composition in $\mathcal{Y}$.
 
@@ -558,7 +558,7 @@ $$
     \mathcal{Y}
   \big)
 $$
-this establishes an [[underlying]] bijection of component [[sets]] in (eq:MappingObjectHomIsomorphism) via the [[cartesian closed monoidal category]]-structure of [[Set]] itself. It remains to see that this is compatible with the structure morphisms, which is degree-wise the same argument which shows that a [[functor category]] is an [[internal hom]] in [[Cat]].
+this establishes an [[underlying]] bijection of component [[sets]] in (eq:MappingObjectHomIsomorphism) via the [[cartesian closed monoidal category]]-structure of [[Set]] itself. It remains to see that this is compatible with the structure morphisms, which is degree-wise the same argument showing that a [[functor category]] is an [[internal hom]] in the [[1-category]] [[Cat]] of [[categories]] with [[functors]] between them.
 \end{proof}
 
 
