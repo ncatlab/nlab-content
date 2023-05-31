@@ -45,7 +45,7 @@ For $\mathbf{C}$ and $\mathbf{D}$ $V$-[[enriched categories]], there is a $V$-[[
 $$
   [\mathbf{C},\mathbf{D}](F,G) 
   \;\coloneqq\; 
-  \int_{c \in \mathbf{C}} 
+  \textstyle{\int}_{c \in \mathbf{C}} 
   \mathbf{D}\big(F(c),\, G(c)\big)
 $$
 over the [[enriched hom-functor]]
@@ -113,13 +113,16 @@ equalizes the two maps appearing in the [[equalizer]]-definition of the [[end]].
 +-- {: .un_prop}
 ###### Proposition
 
-For $V = $[[Set]], so that $V$-enriched categories are just ordinary [[locally small category|locally small categories]], the $V$-enriched functor category coincides with the ordinary [[functor category]]. (See the examples below.)
+For $V = $[[Set]], so that $V$-enriched categories are just ordinary [[locally small category|locally small categories]], the $V$-enriched functor category coincides with the ordinary [[functor category]].
 
 =--
+
+(For more see the example [below](#OrdinaryFunctorCategories).)
 
 ## Examples
 
 ### Ordinary functor categories
+ {#OrdinaryFunctorCategories}
 
 To understand the role of the [[end]] here, it is useful to spell this out for the case where $V =$ [[Set]], where we are dealing with ordinary [[locally small category|locally small]] categories.
 
@@ -140,7 +143,7 @@ $$
 as an [[equalizer]]: it is the [[universal property|universal]] [[subobject]] 
 
 $$
-  \int_{c \in C} \mathbf{D}\big(F(c),\, G(c)\big)
+  \textstyle{\int}_{c \in C} \mathbf{D}\big(F(c),\, G(c)\big)
   \hookrightarrow
   \prod_{c \in Obj(C)} \mathbf{D}\big(F(c),\, G(c)\big)
 $$
@@ -276,7 +279,7 @@ Then the enriched functor category...
      \;\;
        \coloneqq
      \;\;    
-     \int_{x' \in \mathbf{X}}
+     \textstyle{\int}_{x' \in \mathbf{X}}
      \mathbf{V}\big(
        \mathbf{X}(x,x') 
          \otimes
@@ -308,7 +311,7 @@ Then the enriched functor category...
        \Big(
          x 
            \,\mapsto\,
-         \int_{x' \in \mathbf{X}}
+         \textstyle{\int}_{x' \in \mathbf{X}}
          \mathbf{C}\big(
            \mathbf{X}(x,x')
            \cdot
@@ -359,7 +362,7 @@ Then the enriched functor category...
        \Big(
          x
          \,\mapsto\,
-         \int_{x' \in \mathbf{X}}
+         \textstyle{\int}_{x' \in \mathbf{X}}
          \big(\mathscr{W}_{x'}\big)^{
            \mathbf{X}(x,x')
            \otimes
@@ -387,7 +390,7 @@ $$
   \big)  
   \\
   \;\simeq\;
-  \int_{x \in \mathbf{X}}
+  \textstyle{\int}_{x \in \mathbf{X}}
   \mathbf{V}
   \Big(
     \mathcal{R}_{x}
@@ -947,8 +950,7 @@ Review includes
 
 * {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf))
 
-* [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
-
+* [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 
 [[!redirects enriched functor categories]]
