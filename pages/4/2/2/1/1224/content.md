@@ -9,14 +9,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A [[functor]] $F : C \to D$ is **final**, if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]].  
+A [[functor]] $F \colon C \to D$ is **final**, if restricting [[diagrams]] along $F$ does not change their [[colimit]].  
 
-Dually, a functor is **initial** if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
+Dually, a functor is **initial** if pulling back diagrams along it does not change the [[limits]] of these diagrams.
 
 Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.  The terminology comes instead from the fact that an object $d\in D$ is initial (resp. terminal) just when the corresponding functor $d:1\to D$ is initial (resp. final).
 
@@ -24,7 +24,7 @@ Beware that this property is pretty much unrelated to that of a functor being an
 \begin{remark}\label{WarningOnTerminology}
 **(warning on terminology)**
 \linebreak
-In older references (and also some others like [[Higher Topos Theory|HTT]]), final functors are sometimes called *cofinal*, the terminology having been imported from order theory (e.g. [[cofinality]]).  However, this is confusing in category theory because usually the prefix "co-" denotes dualization.  In at least one place ([Borceux](#fb)) this non-dualization was treated as a dualization and the word "final" used for the *dual* concept, but in general it seems that the consensus is to use "final" for what used to be called "cofinal", and "initial" for the dual concept (since "co-final" would be ambiguous).  For example, Johnstone in [[Sketches of an Elephant]] before Proposition B2.5.12 says:
+In older references (and also some others like [[Higher Topos Theory|HTT]]), final functors are sometimes called *cofinal*, the terminology having been imported from [[order theory]] (cf. *[[cofinality]]*).  However, this is confusing in [[category theory]] because usually the prefix "co-" denotes [[formal dual|dualization]].  In at least one place ([Borceux](#fb)) this non-dualization was treated as a dualization and the word "final" used for the *dual* concept, but in general it seems that the consensus is to use "final" for what used to be called "cofinal", and "initial" for the dual concept (since "co-final" would be ambiguous).  For example, Johnstone in [[Sketches of an Elephant]] before Proposition B2.5.12 says:
 : Traditionally, final functors were called 'cofinal functors'; but this use of 'co' is potentially misleading as it has nothing to do with dualization — it is derived from the Latin 'cum' rather than 'contra' — and so it is now generally omitted.
 
 See also the warning at *[[final (infinity,1)-functor|final $(\infty,1)$-functor]]* ([here](final+infinity1-functor#CofinalTerminologyWarning)).
@@ -277,11 +277,16 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 
 ## Related concepts
 
-* **final functor**, [[cofinal diagram]]
+* [[cofinal diagram]]
 
 * [[homotopy final functor]]
 
 * [[final (∞,1)-functor]]
+
+
+
+[[!include properties of functors -- contents]]
+
 
 
 ## References
