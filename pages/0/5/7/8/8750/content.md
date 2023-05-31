@@ -13,19 +13,20 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] there is a $2$-[[2-category|category]] $\mathcal{V} Cat$ whose
+For $\mathcal{V}$ a [[closed monoidal category|closed]] and [[complete category|complete]] [[cosmos for enrichment]] there is a [[2-category|$2$-category]] $\mathcal{V} Cat$ whose
 
 * [[objects]] are $V$-[[enriched categories]];
 
 * [[morphisms]] are $V$-[[enriched functors]]; and
 
-* $2$-[[2-morphism|morphisms]] are $V$-[[enriched natural transformations]].
+* [[2-morphism|$2$-morphisms]] are $V$-[[enriched natural transformations]].
 
 Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by dropping the $2$-morphisms (and using enriched [[strict categories]]).
 
@@ -48,9 +49,22 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 * For $\mathcal{V} = ($[[Cat]]$, \times)$, $\mathcal{V}Cat \simeq$ [[2Cat|Str2Cat]], the $2$-category of [[strict 2-categories]].
 
 
-## Structure of the category of $\mathcal{V}$-enriched categories for various contexts
+## Extra structure
 
-* If $\mathcal{V}$ is a category $\mathcal{V}_0$ equipped with a monoidal structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and a designated lax natural transformation $[\mathcal{I},-]^{op}\stackrel{{}^-_0L}{\Rightarrow}[[\mathcal{I},-],\mathcal{V}_0]\colon\mathcal{V}$Cat$\to$Cat, where the former is a $2$-functor flipping $2$-morphisms, and the latter is a $2$-functor flipping $1$-morphisms (c.f. [[contravariant functor]]). For the sake of simplicity, we note that $[\mathcal{I},-]$ is simply the forgetful $2$-functor from $\mathcal{V}$Cat to Cat, and hence abbreviate it as $(-)_0$. Then the above lax natural transformation is given by the following data:
+### Monoidal structure
+ {#MonoidalStructure}
+
+If $\mathcal{V}$ is [[symmetric monoidal category|symemtric monoidal]] then $V Cat$ becomes itself a ([[very large category|very large]]) [[monoidal category]] with [[tensor product]] given by forming [[enriched product categories]].
+
+If $\mathcal{C}$ is in addition [[closed monoidal category|closed]] and [[complete category|complete]], then $\mathcal{V}Cat$ becomes itself a [[closed monoidal category]] with [[internal hom]] given by forming [[enriched functor categories]].
+
+&lbrack;[Kelly (1982), §2.3](#Kelly82)&rbrack;
+
+
+### Involutions
+ {#Involutions}
+
+* If $\mathcal{V}$ is a category $\mathcal{V}_0$ equipped with a [[monoidal category|monoidal]] structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and a designated lax natural transformation $[\mathcal{I},-]^{op}\stackrel{{}^-_0L}{\Rightarrow}[[\mathcal{I},-],\mathcal{V}_0]\colon\mathcal{V}$Cat$\to$Cat, where the former is a $2$-functor flipping $2$-morphisms, and the latter is a $2$-functor flipping $1$-morphisms (c.f. [[contravariant functor]]). For the sake of simplicity, we note that $[\mathcal{I},-]$ is simply the forgetful $2$-functor from $\mathcal{V}$Cat to Cat, and hence abbreviate it as $(-)_0$. Then the above lax natural transformation is given by the following data:
 
 1. For every object (i.e. $\mathcal{V}$-enriched category) $\mathcal{A}$ of $\mathcal{V}$Cat, we have to give a functor $\mathcal{A}_0^{op}\stackrel{{}^{\mathcal{A}}_0L}{\rightarrow}[\mathcal{A}_0,\mathcal{V}_0]$. By the cartesian closed structure of the $1$-category Cat, we define these to be the hom-functors $\mathcal{A}_0^{op}\times\mathcal{A}\stackrel{\mathcal{A}(-,-)}{\rightarrow}\mathcal{V}_0$ which are defined in terms of the monoidal structure $\mathcal{V}$ and the $\mathcal{V}$-enrichment data of $\mathcal{A}$ by setting $\mathcal{A}(B,C)\stackrel{\mathcal{A}(f,g)}{\rightarrow}\mathcal{A}(A,D)$ to be the composites $\mathcal{A}(B,C)\stackrel{l^{-1}r^{-1}}{\to}I\otimes\mathcal{A}(B,C)\otimes I\stackrel{f\otimes id\otimes g}{\to}\mathcal{A}(C,D)\otimes\mathcal{A}(B,C)\otimes\mathcal{A}(A,B)\stackrel{(\circ^{\mathcal{A}})^2}{\to}\mathcal{A}(A,D)$ in $\mathcal{V}_0$.
 
@@ -80,6 +94,11 @@ But a $\mathcal{V}$-enriched natural transformation $\alpha$ is by definition a 
 ## Related concepts
 
 [[!include categories of categories - contents]]
+
+## References
+
+* {#Kelly82} [[Max Kelly]], Chapter 1 in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
 
 
 category: category
