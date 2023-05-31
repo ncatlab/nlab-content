@@ -125,6 +125,8 @@ in a compatible way.
 
 ## Related concepts
 
+* [[cartesian closed enriched category]], [[locally cartesian closed enriched category]]
+
 * [[enriched category]], [[monoidal category]]
 
 * [[enriched monoidal model category]], [[simplicial monoidal model category]]
