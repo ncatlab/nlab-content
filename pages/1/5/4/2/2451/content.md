@@ -90,14 +90,19 @@ The [[fundamental group]] of the free groupoid of a graph with a single vertex i
 
 ## References
 
+On the construction of free groupoids on a graph:
+
 * [[Philip Higgins]], §4 of: *Categories and groupoids*, Van Nostrand Reinhold (1971); Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2l.pdf)&rbrack;
 
 * {#MacLane} [[Saunders MacLane]], p. 51 Ex. 3 in: *[[Categories for the Working Mathematician]]*, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
+On the construction of free groupoids on a category ([[localization]] at all morphisms):
 
-Discussion in the generality of [[sSet-enriched categories]] and [[sSet]]-[[enriched groupoids]] ("[[simplicial groupoids]]"):
+* [[Pierre Gabriel]], [[Michel Zisman]], §1.5.4 of: *[[Calculus of fractions and homotopy theory]]*, Ergebnisse der Mathematik und ihrer Grenzgebiete **35**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
-* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], §5.5 of: *Simplicial localizations of categories*, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>, [pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf)&rbrack;
+and in the generality of [[sSet-enriched categories]] and [[sSet]]-[[enriched groupoids]] ("[[simplicial groupoids]]"):
+
+* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], §5.5 of: *Simplicial localizations of categories*, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>&rbrack;
 
 * [[André Joyal]], [[Myles Tierney]], pp. 75 of: *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
