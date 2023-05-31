@@ -330,16 +330,17 @@ This is made explicit in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwye
 * [[localizing subcategory]]
 
 ## References 
+ {#References}
 
 The original articles:
 
 * {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>, [pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf)&rbrack;
   
-* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17&#8211;35. ([pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf))
+* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17-35 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90113-9">doi:10.1016/0022-4049(80)90113-9</a>, [pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf)&rbrack;
   
-* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
+* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427-440 &lbrack;<a href="https://doi.org/10.1016/0040-9383(80)90025-7">doi:10.1016/0040-9383(80)90025-7</a>, [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf)&rbrack;
   
-* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], _Equivalences between homotopy theories of diagrams_, Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983), Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. (1987) 
+* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], *Equivalences between homotopy theories of diagrams*, in: *Algebraic topology and algebraic K-theory*, Ann. of Math. Stud. **113**, Princeton University Press (1988) &lbrack;[doi:10.1515/9781400882113-009](https://doi.org/10.1515/9781400882113-009)&rbrack;
   
 and in modernized form:
 
