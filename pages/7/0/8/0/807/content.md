@@ -382,7 +382,7 @@ This is due to ... (?)
 
 ### Relation between Euler characteristic and $\infty$-groupoid cardinality
 
-For topological space / $\infty$-groupoids, there is both the notion of [homological Euler characteristic](OfATopologicalSpace) as well as the notion of [homotopy cardinality](HomotopyCardinality). 
+For topological space / $\infty$-groupoids, there is both the notion of [homological Euler characteristic](#OfATopologicalSpace) as well as the notion of [homotopy cardinality](#HomotopyCardinality). 
 
 The latter looks a bit like the "exponential" of the former, so while similar to some extent they are very different notions, taken on face value. Still, the [Euler characteristic of a category](LECharOfCategory) or rather that [of a higher category](LECharOfEnrichedCat) does interpolate between the two notions:
 
