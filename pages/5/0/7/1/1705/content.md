@@ -334,9 +334,9 @@ This is made explicit in [Mazel-Gee 15, p. 17](#MazelGee15) to follow from [Dwye
 
 The original articles:
 
-* {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>, [pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf)&rbrack;
+* {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>&rbrack;
   
-* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17-35 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90113-9">doi:10.1016/0022-4049(80)90113-9</a>, [pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf)&rbrack;
+* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17-35 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90113-9">doi:10.1016/0022-4049(80)90113-9</a>&rbrack;
   
 * {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427-440 &lbrack;<a href="https://doi.org/10.1016/0040-9383(80)90025-7">doi:10.1016/0040-9383(80)90025-7</a>, [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf)&rbrack;
   
