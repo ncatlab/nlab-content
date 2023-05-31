@@ -16,15 +16,11 @@
 
 * [[enriched functor]], [[profunctor]]
 
-* [[enriched natural transformation]]
-
 * [[enriched functor category]]
 
+* [[enriched natural transformation]]
+
 * [[enriched adjoint functor]]
-
-* [[monoidal enriched category]]
-
-* [[enriched model category]]
 
 ## Universal constructions
 
@@ -32,12 +28,17 @@
 
 * [[end]], [[coend]]
 
-
 ## Extra stuff, structure, property
 
 * [[copowering]] ([[tensoring]])
 
   [[powering]] ([[cotensoring]])
+
+* [[monoidal enriched category]]
+
+  * [[cartesian closed enriched category]]
+
+  * [[locally cartesian closed enriched category]]
 
 ### Homotopical enrichment
 
@@ -46,7 +47,6 @@
 * [[enriched model category]]
 
 * [[model structure on homotopical presheaves]]
-
 
 
 [[!redirects enriched category theory - contents]]
