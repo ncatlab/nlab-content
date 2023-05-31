@@ -341,6 +341,8 @@ With this the claim follows as in prop. \ref{RetractsOfLimits}.
 
 * [[absolute retract]]
 
+* [[dominant functor]]
+
 ## References
 
 * [[Karol Borsuk]], _Theory of retracts_
