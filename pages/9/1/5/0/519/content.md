@@ -39,23 +39,38 @@ Sometimes people call $\tilde f$ the "adjoint" of $f$, and vice versa, but this 
 **(adjuncts in terms of adjunction (co-)unit)**
 
 
-Let $i_X : X \to R L X$ be the [[unit of an adjunction|unit of the adjunction]] and $\eta_X : L R X \to X$ the counit.
+Let $\eta_X \colon X \to R L X$ be the [[unit of an adjunction|unit of the adjunction]] and $\epsilon_X \colon L R X \to X$ the [[counit of an adjunction|counit]].
 
 Then 
 
-* the adjunct of $f : X \to R Y$ in $D$ is the composite
+* the adjunct of $f \colon X \to R Y$ in $D$ is the composite
 
   $$
-    \tilde f : L X \stackrel{L f}{\to} L R Y \stackrel{\eta_Y}{\to} Y
+    \tilde f 
+      \colon 
+    L X 
+     \overset{L f}{\longrightarrow} 
+    L R Y 
+     \overset{\epsilon_Y}{\longrightarrow} 
+    Y
   $$
 
-* the adjunct of $g : L X \to Y$ in $C$ is the composite
+* the adjunct of $g \colon L X \to Y$ in $C$ is the composite
 
   $$  
-    \tilde g : X \stackrel{i_X}{\to} R L X \stackrel{R g}{\to} R Y
+    \tilde g 
+      \colon 
+    X 
+      \stackrel{\eta_X}{\longrightarrow} 
+    R L X 
+      \overset{R g}{\longrightarrow} 
+    R Y
+    \,.
   $$
 
 =--
+
+For proof see [this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit) at *[[adjoint functor]]*.
 
 ## Examples
 
