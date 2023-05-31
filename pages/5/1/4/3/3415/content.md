@@ -65,10 +65,10 @@ The model structure for quasi-categories is
 \end{lemma}
 &lbrack;[Lurie (2009), Cor. 2.2.5.4](#Lurie09)&rbrack;
 
-+-- {: .num_remark}
++-- {: .num_remark #CartesianMonoidalModelStructure}
 ###### Remark
 
-The model structure for quasi-categories is a [[monoidal model category]] with respect to [[cartesian product]] and thus is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]). It is however _not_ $sSet_{Quillen}$-enriched and thus not a "[[simplicial model category]]" with respect to this enrichment.
+The model structure for quasi-categories is a [[monoidal model category]] with respect to [[cartesian product]] (hence a [[cartesian closed model category]]) and thus is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]). It is however _not_ $sSet_{Quillen}$-enriched and thus not a "[[simplicial model category]]" with respect to this enrichment.
 
 =--
 
