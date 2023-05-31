@@ -149,7 +149,7 @@ Further discussion of [[rigidification of quasi-categories]] $\mathfrak{C}$:
 
 More along these lines is in 
 
-* [[Emily Riehl]], _On the structure of simplicial categories associated to quasi-categories_ ([pdf](http://www.math.harvard.edu/~eriehl/necklace.pdf))
+* [[Emily Riehl]], _On the structure of simplicial categories associated to quasi-categories_ (ArXiv [pdf](https://arxiv.org/pdf/0912.4809.pdf))
 
 An expository account is in Section 7.8
 
