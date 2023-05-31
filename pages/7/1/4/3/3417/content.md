@@ -56,7 +56,7 @@ An [[sSet]]-[[enriched functor]] $F : C \to D$ between [[sSet-categories]] is ca
 
 \end{definition}
 
-This notion is due to [Dwyer & Kan 80 FuncComp, Sec. 2.4](#DwyerKan80FunctionComplexes) and known as *[[Dwyer-Kan equivalences]]*.
+This notion is due to [Dwyer & Kan (1980 FuncComp), §2.4](#DwyerKan80FunctionComplexes) and now known as *[[Dwyer-Kan equivalences]]*.
 
 
 
@@ -208,9 +208,13 @@ For more see at *[[relation between sSet-enriched categories and quasi-categorie
 ## References
 
 
-A model category structure on the category of $sSet$-categories with a fixed set of objects was first given in 
+A model category structure on the category of $sSet$-categories with a fixed collection of objects was first given in:
 
-* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_, J. Pure and Applied Algebra 17 (3) (1980) ([pdf](https://www3.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
+* {#DwyerKan1980Localizations} [[William Dwyer]], [[Daniel Kan]],  §7.1 in: *Simplicial localizations of categories*, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>&rbrack;
+
+The notion of what is now called *[[Dwyer-Kan equivalences]]* appears in
+
+* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], §2.4 in: _Function complexes in homotopical algebra_, Topology 19 (1980), 427-440 &lbrack;<a href="https://doi.org/10.1016/0040-9383(80)90025-7">doi:10.1016/0040-9383(80)90025-7</a>, [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf)&rbrack;
 
 Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in:
 
@@ -229,8 +233,6 @@ Survey and review:
 * [[Emily Riehl]], Section 16 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
 See also
-
-* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
 
 * {#Joyal2008} [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
 
