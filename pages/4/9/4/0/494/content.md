@@ -1194,6 +1194,8 @@ Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTerms
 
   * $R$ is an [[equivalence of categories|equivalence]].
 
+(More properties can be found on [this MathOverflow question](https://mathoverflow.net/questions/100808/properties-of-functors-and-their-adjoints).)
+
 =--
 
 |   |    |    |
