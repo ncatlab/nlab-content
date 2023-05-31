@@ -37,7 +37,7 @@ $$
   \mathcal{V}
 $$
 
-from the enriched [[product category]] of $\mathcal{C}$ with its enriched [[opposite category]] to $\mathcal{V}$, canonically regarded as [[enriched category|enriched]] over itself, which sends [[pairs]] of [[objects]] to the corresponding [[hom-object]] in $\mathcal{C}$
+from the [[enriched product category]] of $\mathcal{C}$ with its enriched [[opposite category]] to $\mathcal{V}$, canonically regarded as [[enriched category|enriched]] over itself, which sends [[pairs]] of [[objects]] to the corresponding [[hom-object]] in $\mathcal{C}$
 
 $$
   c_1,c_2 \mapsto \mathcal{C}(c_1,c_2)
