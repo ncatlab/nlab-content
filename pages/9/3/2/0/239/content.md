@@ -24,7 +24,7 @@ The term **tensor product** has many different but closely related meanings.
 
 * Given two objects in a [[monoidal category]] $(C,\otimes)$ with a right and left [[action]], respectively, of some [[monoid]] $A$, their _tensor product over $A$_ is the quotient of their tensor product in $C$ by this action.  If $A$ is commutative, then this is a special case of the tensor product in a multicategory.
 
-* This generalizes to modules over [[monad|monads]] in a bicategory, which includes the notion of _tensor product of functors_.  
+* This generalizes to modules over [[monad|monads]] in a bicategory, which includes the notion of _[[tensor product of functors]]_.  
 
 * Finally, tensor products in a multicategory and tensor products over monads in a bicategory are both special cases of tensor products in a [[virtual double category]].
 
@@ -115,7 +115,7 @@ This tensor product can be generalized to the case when $R$ is not commutative, 
 
 The tensor product of left and right modules over a noncommutative monoid in a monoidal category is a special case of the tensor product of modules for a [[monad]] in a [[bicategory]].  If $R: x\to x$ is a monad in a bicategory $B$, a right $R$-module is a 1-cell $A: y\to x$ with an action by $R$, a left $R$-module is a 1-cell $B: x\to z$ with an action by $R$, and their tensor product, if it exists, is a 1-cell $y\to z$ given by a similar coequalizer.  Regarding a monoidal category as a 1-object bicategory, this recovers the above definition.
 
-For example, consider the bicategory $V-Mat$ of $V$-valued [[matrix|matrices]] for some monoidal category $V$.  A monad in $V-Mat$ is a $V$-[[enriched category]] $A$, an $(A,I)$-bimodule is a functor $A\to V$, an $(I,A)$-bimodule is a functor $A^{op}\to V$, and their tensor product in $V-Mat$ is a classical construction called the **tensor product of functors**.  It can also be defined as a [[end|coend]].
+For example, consider the bicategory $V-Mat$ of $V$-valued [[matrix|matrices]] for some monoidal category $V$.  A monad in $V-Mat$ is a $V$-[[enriched category]] $A$, an $(A,I)$-bimodule is a functor $A\to V$, an $(I,A)$-bimodule is a functor $A^{op}\to V$, and their tensor product in $V-Mat$ is a classical construction called the **[[tensor product of functors]]**.  It can also be defined as a [[coend]].
 
 ### In a virtual double category
 
@@ -147,6 +147,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 * [[tensor product of Banach spaces]]
 
 * [[tensor product of functors]]
+
+* [[enriched product category|tensor product of enriched categories]]
 
 * [[Deligne tensor product of abelian categories]]
 
