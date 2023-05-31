@@ -47,6 +47,8 @@ $$
 
 * The bijections exhibiting full faithfulness of $F$ form a natural isomorphism, by functoriality of $F$ and of pre- and postcomposition.
 
+* Let $I L \dashv R$ be an [[adjunction]]. If $I$ is [[fully faithful]], then $L \dashv I R$. In this case, the two adjunctions induce the same [[monad]]. This is Proposition 1.1 of [DFP75](#DFP75). (For a converse, see [[dominant functor]].)
+
 ## Generalizations
 
 * For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully faithful functor is described at [[fully faithful (∞,1)-functor]].  This is part of a bigger pattern at work here which is indicated at [[stuff, structure, property]] and [[k-surjective functor]].
@@ -64,7 +66,7 @@ $$
 
 * [[Francis Borceux]], Section 1.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-
+* {#DFP75} [[Aristide Deleanu]], [[Armin Frei]], [[Peter Hilton]], _Idempotent triples and completion_, Mathematische Zeitschrift **143** (1975) 91-104 &lbrack;[doi:10.1007/BF01173053](https://doi.org/10.1007/BF01173053)&rbrack;
 
 
 [[!redirects full and faithful functor]]
