@@ -216,9 +216,10 @@ Moreover, this operation is itself functorial from $MonCat$ to $2Cat$.  In parti
 
 This and further properties of such "[[change of enriching category|change of base]]" are explored in [Crutwell 14](#Crutwell14)
 
-##Tensor product of enriched categories
+## Tensor product of enriched categories
+ {#TensorProductOfEnrichedCategories}
 
-If $V$ is a [[symmetric monoidal category]], then there is a tensor product of **V-enriched categories** which makes the category **V-Cat** of V-enriched categories a symmetric monoidal category. In fact V-Cat is even a [[symmetric monoidal 2-category]]. See [Kelly 82](#Kelly82).
+If $V$ is a [[symmetric monoidal category]], then there is a tensor product of **V-enriched categories** (see *[[enriched product category]]*) which makes the category **[[VCat|$V Cat$]]** of V-enriched categories itself a symmetric monoidal category. In fact V-Cat is even a [[symmetric monoidal 2-category]]. See [Kelly (1982), p. 12](#Kelly82).
 
 ##Internalization versus Enrichment
 
