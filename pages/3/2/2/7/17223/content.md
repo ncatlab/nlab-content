@@ -99,9 +99,10 @@ The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^
 
 =-- 
 
-\begin{proof} 
++-- {: .proof} 
+###### Proof 
 This follows from the proposition, together with the fact that the sequence of maps $V_n(\mathbb{R}^k) \to V_n(\mathbb{R}^{k+1})$ are closed $T_1$-inclusions. See the Proposition [[compact object#CompactObjectsInTop|here]] together with the accompanying commentary.  
-\end{proof} 
+=-- 
 
 ### CW-complex structure
 
