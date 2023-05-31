@@ -29,9 +29,20 @@ However, the converse is false in general.  Counterexamples can be found in [[lo
 
 * Some kinds of [[type-theoretic model categories]] are required to be simplicially locally cartesian closed.
 
+## Related entries
+
+* [[locally cartesian closed category]]
+
+* [[cartesian closed enriched category]]
+
+* [[monoidal enriched category]]
+
+* [[locally cartesian closed model category]]
+
 ## References
 
 * {#MO} [Enriched cartesian closed categories on MO](https://mathoverflow.net/q/322085)
+
 * {#MO2} [Simplicial cartesian closed categories on MO](https://mathoverflow.net/q/322917)
 
 
