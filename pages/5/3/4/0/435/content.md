@@ -127,13 +127,14 @@ Discussion the context of ([[simplicial model category|simplicial]]) [[model cat
 * [[Emily Riehl]], §3.6 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
 
-The original references on homotopy theory in terms of $sSet$-categories are
+The original references in the context of [[simplicial localization]]:
 
-* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_, J. Pure and Appl. Algebra 17 (1980), 267-284.
+* {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>&rbrack;
 
-* [[William Dwyer]], [[Dan Kan]], _Equivalences between homotopy theories of diagrams_ , in Algebraic topology and algebraic K-theory, Annals of Math. Studies 113, Princeton University Press, Princeton, 1987, 180-205.
-
+* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], *Equivalences between homotopy theories of diagrams*, in: *Algebraic topology and algebraic K-theory*, Ann. of Math. Stud. **113**, Princeton University Pr
 Simplicially enriched categories as models for $(\infty,1)$-categories are also discussed in
+
+See also:
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], Section 2 of: _Topos theory_ ([arXiv:0207028](http://arxiv.org/abs/math/0207028))
 {#ToenVezzosi}
