@@ -20,7 +20,7 @@ For $(\mathcal{V}, \otimes)$ a [[symmetric monoidal category]] regarded as a [[c
 This operation makes [[VCat|$\mathcal{V}Cat$]] itself into a ([[very large category|very large]]) [[symmetric monoidal category]] &lbrack;[Kelly (1982), §1.4](#Kelly82)&rbrack;.
 
 
-If $\mathcal{V}$ is forthermore [[closed monoidal category|closed]] and [[complete category|complete]] so that [[enriched functor category|$\mathcal{V}$-enriched functor categories]] exist, then these constitute the [[internal hom]] [[right adjoint]] to the operation of forming the enriched product category with a given enriched category &lbrack;[Kelly (1982), §2.3](#Kelly82)&rbrack;.
+If $\mathcal{V}$ is furthermore [[closed monoidal category|closed]] and [[complete category|complete]] so that [[enriched functor category|$\mathcal{V}$-enriched functor categories]] exist, then these constitute the [[internal hom]] [[right adjoint]] to the operation of forming the enriched product category with a given enriched category &lbrack;[Kelly (1982), §2.3](#Kelly82)&rbrack;.
 
 ## Examples
 
