@@ -67,7 +67,7 @@ that satisfies
 
 * the standard [[Quillen model structure on topological spaces]] on [[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]] is cartesian closed
 
-* the standard [[model structure on simplicial sets]] is cartesian closed. 
+* the [[classical model structure on simplicial sets]] is cartesian closed. 
 
 ## Related concepts
 
@@ -90,6 +90,9 @@ that satisfies
 
 
 [[!redirects cartesian model categories]]
+
+[[!redirects cartesian monoidal model category]]
+[[!redirects cartesian monoidal model categories]]
 
 [[!redirects cartesian closed model category]]
 [[!redirects cartesian closed model categories]]
