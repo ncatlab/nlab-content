@@ -1,3 +1,31 @@
+$\leftrightarrows$
+
+
+In particular
+
+* the [[adjunction counit]] is 
+
+  $$
+    \epsilon^{
+      \widehat{L} \dashv \widehat{R}
+    }_{
+      \mathscr{V}_{\mathbf{x}}
+    }
+    \;\colon\;
+    \widehat{L}
+    \widehat{R}
+    \big(\mathscr{V}_{\mathbf{x}}\big)
+    =
+    \Big(
+      \big(\epsilon^{L \dashv R}_{\mathbf{x}}\big)^\ast
+      \mathscr{V}
+    \Big)_{ L R(\mathbf{x}) }
+    \overset{
+      (id)_{\epsilon^{L \dashv R}_{\mathbf{x}}}
+    }{\longrightarrow}
+    \mathscr{V}_{\mathbf{x}}
+  $$
+
 $$
 \array{
   \Bigg\{
