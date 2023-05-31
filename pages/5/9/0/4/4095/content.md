@@ -69,6 +69,8 @@ in $hom_C(G(a)(b),G(a')(b'))$. Functoriality is again easy to check, so we have 
 
 ## Related concepts
 
+* [[enriched product category]]
+
 * [[bifunctor]]
 
 * [[extranatural transformation]]
