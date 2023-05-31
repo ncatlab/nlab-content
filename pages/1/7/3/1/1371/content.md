@@ -164,3 +164,5 @@ See also
 [[!redirects relation between quasi-categories and sSet-enriched categories]]
 
 
+[[!redirects relation between sSet-enriched categories and quasi-categories]]
+
