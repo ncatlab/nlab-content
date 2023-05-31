@@ -163,5 +163,8 @@ aimed at discussing [[quasi-categorical hom-spaces]]:
 
 See also:
 
+* [[Emily Riehl]], *On the structure of simplicial categories associated to quasi-categories*, Math. Proc. Camb. Phil. Soc. **150** (2011) 489-504 &lbrack;[arXiv:0912.4809](https://arxiv.org/abs/0912.4809), [doi:10.1017/S0305004111000053](https://doi.org/10.1017/S0305004111000053)&rbrack;
+
+
 * {#MinichielloRiveraZeinalian23} [[Emilio Minichiello]], [[Manuel Rivera]], [[Mahmoud Zeinalian]], §3.2 in: *Categorical models for path spaces*, Advances in Mathematics **415** (2023) 108898 &lbrack;[arXiv:2201.03046](https://arxiv.org/abs/2201.03046), [doi:10.1016/j.aim.2023.108898](https://doi.org/10.1016/j.aim.2023.108898)&rbrack;
 
