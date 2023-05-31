@@ -75,7 +75,9 @@ that satisfies
 
 * [[cartesian closed functor]], [[locally cartesian closed functor]]
 
-* **cartesian closed model category**, [[locally cartesian closed model category]]
+* [[locally cartesian closed model category]]
+
+* [[cartesian closed enriched category]]
 
 * [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
