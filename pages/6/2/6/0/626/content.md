@@ -440,6 +440,9 @@ For [[closed monoidal categories]] in
 * Ralf Hinze, *Kan Extensions for Program Optimisation, Or:
 Art and Dan Explain an Old Trick*, [pdf](http://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf)
 
+* [[Dan Ghica]], [[Fabio Zanasi]], _Hierarchical string diagrams and applications_ ([arXiv:2305.18945](https://arxiv.org/abs/2305.18945))
+
+
 For [[biclosed monoidal categories]] in
 
 * [[Bob Coecke]], Edward Grefenstette, and [[Mehrnoosh Sadrzadeh]], *Lambek vs. Lambek: Functorial vector space semantics and string diagrams for Lambek calculus*, 2013 [link](https://www.sciencedirect.com/science/article/pii/S0168007213000626)
