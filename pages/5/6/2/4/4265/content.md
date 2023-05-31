@@ -16,11 +16,14 @@
 
 * [[enriched functor]], [[profunctor]]
 
-* [[enriched functor category]]
-
 * [[enriched natural transformation]]
 
 * [[enriched adjoint functor]]
+
+* [[enriched product category]]
+
+* [[enriched functor category]]
+
 
 ## Universal constructions
 
