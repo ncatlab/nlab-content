@@ -28,7 +28,7 @@ $F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exis
 
 ## Properties
 
-* Let $L \dashv R I$ be an [[adjunction]]. If $R$ is dominant and [[full]], then $I L \dashv R$. In this case, the two adjunctions induce the same [[monad]]. This is Proposition 1.5 of [DFP75](#DFP75).
+* Let $L \dashv R I$ be an [[adjunction]]. If $I$ is dominant and [[full]], then $I L \dashv R$. In this case, the two adjunctions induce the same [[monad]]. This is Proposition 1.5 of [DFP75](#DFP75). (For a converse, see [[fully faithful functor]].)
 
 * Let $L \dashv R$. If $L$ is dominant, then $R$ is [[faithful]]. $R$ is [[full]] if it is full on the image of $L$. This is Proposition 1.7 of [DFP75](#DFP75).
 
