@@ -1,479 +1,262 @@
 
-\begin{proposition}
-  For $\mathcal{C}$ a category with all [[Cartesian products]], its [[free cocompletion]] $PSh_{\sqcup}(\mathcal{C})$ also has [[products]] and they [[distributive category|distribute]] over the [[coproducts]].
-\end{proposition}
-\begin{proof}
-  This is readily seen by component inspection. but it may be instructive to see it from more abstract reasoning.
 
-Namely, with the free cocompletion understood as the [[Grothendieck construction]] on the system of [[product categories]], $PSh_{\sqcup}(\mathcal{C}) \,\simeq\, \int_{S \in Set} \mathcal{C}^S$, its cartesian produducts are computed by the general formula for limits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) as the "external cartesian product" ([here](Grothendieck+construction#CartesianProductInGrothendieckConstruction), we now show binary products only, just for ease notation):
-$$
-  X_S,\, Y_T \,\in\, \textstyle{\int}_{S \in Set} \mathcal{C}
-  \;\;\;\;\;\;\;\;\;
-  \vdash
-  \;\;\;\;\;\;\;\;\;
-  X_S \times Y_T 
-  \;\simeq\;
-  \Big(
-  \big(
-    (pr_S)^\ast X
-  \big) 
-    \times_{S \times T} 
-  \big(
-    (pr_T)^\ast Y
-  \big)   
-  \Big)_{S \times T}
-  \,.
-$$
-Of course this comes down to the expected component formula
-$$
-  \begin{array}{ll}
-  \big(
-    X_S \times Y_T
-  \big)_{s,t}
-  \\
-  \;\simeq\;
-  \Big(
-  \big(
-    (pr_S)^\ast X
-  \big) 
-    \times_{S \times T} 
-  \big(
-    (pr_T)^\ast Y
-  \big)   
-  \Big)_{s,t}
-  & 
-  \text{by the above}
-  \\
-  \;\simeq\;
-  \{(s,t)\}^\ast
-  \Big(
-  \big(
-    (pr_S)^\ast X
-  \big) 
-    \times_{S \times T} 
-  \big(
-    (pr_T)^\ast Y
-  \big)   
-  \Big)
-  &
-  \text{by definition}
-  \\
-  \;\simeq\;
-  \Big(
-  \big(
-    \{(s,t)\}^\ast
-    (pr_S)^\ast X
-  \big) 
-    \times_{\{(s,t)\}} 
-  \big(
-    \{(s,t)\}^\ast
-    (pr_T)^\ast Y
-  \big)   
-  \Big)
-  &
-  \text{pullback is right adjoint}
-  \\
-  \;\simeq\;
-  \big(
-    \{s\}^\ast
-    X
-  \big) 
-    \times_{\{(s,t)\}} 
-  \big(
-    \{t\}^\ast
-    Y
-  \big)   
-  &
-  \text{by commuting diagram below}
-  \\
-  \;\simeq\;
-  X_s \times Y_t
-  &
-  \text{by definition}
-  \end{array}
-$$
+\begin{proposition}
+Give a [[contravariant functor|contravariant]] [[pseudofunctor]]
 $$
   \array{
-    \{s\} &\simeq& \{(s,t)\} &\simeq& \{t\}
+    \mathbf{D}^{op}
+    &\overset{C_{(-)}}{\longrightarrow}&
+    Cat
     \\
-    \Big\downarrow && \Big\downarrow && \Big\downarrow
+    \mathbf{x} 
+      &\mapsto& 
+    C_{\mathbf{x}}
     \\
-    S &\underset{pr_S}{\longleftarrow}& S \times T &\underset{pr_T}{\longrightarrow}& T
+    \Big\downarrow\mathrlap{{}^{\mathbf{f}}}
+    &&
+    \Big\uparrow\mathrlap{{}^{\mathbf{f}^\ast}}
+    \\
+    \mathbf{y}
+      &\mapsto&
+    C_{\mathbf{y}}
   }
 $$
-Similarly, the component formula for the free coproduct is
+and a pair of [[adjoint functors]] of the form
 $$
-  \big( 
-    Y_T \amalg Y'_{T'}
-  \big)_{\tau}
-  \;\simeq\;
-  \left\{
-  \begin{array}{lll}
-    Y_\tau &\vert& \tau \in T
-    \\
-    Y'_{\tau} &\vert& \tau \in T'
-  \end{array}
-  \right.
-  \,.
+  \mathcal{D}
+  \underoverset
+    {\underset{R}{\longleftarrow}}
+    {\overset{L}{\longrightarrow}}
+    {\;\; \bot \;\;}
+  \mathbf{D}
 $$
-Using all this, distributivity is verified as follows:
+then there is an induced [[adjoint functor|adjunction]] between the [[Grothendieck constructions]] on $C_{(-)}$ and on $C_{L(-)}$
 $$
-  \begin{array}{ll}
-    \Big(
-    X_S 
-      \times 
-    \big(
-      Y_T \sqcup Y_{T'}
-    \big)
-    \Big)_{s, \tau}
-    \\
-    \;\simeq\;
-    X_s 
-      \times 
-    \big(
-      Y_T \sqcup Y_{T'}
-    \big)_\tau
-    \\
-    \;\simeq\;
-    \left\{
-    \begin{array}{lll}
-      X_s  \times Y_\tau &\vert& \tau \in T
+  \Bigg\{
+    \mathscr{V}_{x}
+      \xrightarrow{ \phi_{f} }
+    \mathscr{V}_{x'}
+    \;\displaystyle{\Bigg\vert}\;
+    \array{
+      \mathscr{V} 
+        &\xrightarrow{ \phi }& 
+      L(f)^\ast \mathscr{V}' 
+      & \in C_{L(x)}
       \\
-      X_s \times Y'_{\tau} &\vert& \tau \in T'
-    \end{array}
-    \right.
-    \\
-    \;\simeq\;
-    \left\{
-    \begin{array}{lll}
-      (X_S \times Y_T)_{s, \tau} &\vert& \tau \in T
-      \\
-      (X_S \times Y'_{T'})_{s, \tau} &\vert& \tau \in T'
-    \end{array}
-    \right.
-    \\
-    \;\simeq\;
-    \Big(
-    \big(
-      X_S \times Y_T
-    \big)
-    \sqcup
-    \big(
-      X_S \times Y'_{T'}
-    \big)
-    \Big)_{s,\tau}
-    \,.
-  \end{array}
-$$
-\end{proof}
-
-
-Now
-
-$$
-  \begin{array}{ll}
-  X_S 
-  \,\times\,
-  \big(
-    Y_T
-    \amalg
-    Y'_{T'}
-  \big)
-  \\
-  \;\simeq\;
-  X_S 
-  \,\times\,
-  \big(
-    (q_T)_! X
-    \sqcup 
-    (q_{T'})_! Y
-  \big)_{T \sqcup T'}
-  \\
-  \;\simeq\;
-  \big(
-    (pr_S)^\ast X
-  \big)
-    \times
+      x 
+        &\xrightarrow{ f }& 
+      y 
+      & \in \mathcal{D}
+    }
+  \Bigg\}
+  \;
+    \equiv
+  \;
   \Big(
-  (pr_{T \sqcup T'})^\ast
-  \big(
-    (q_T)_! X
-    \sqcup 
-    (q_{T'})_! Y
-  \big)
-  \Big)_{T \sqcup T'}
-  \\
-  \;\simeq\;
-  \bigg(
-  \big(
-    (pr_S)^\ast X
-  \big)
-    \times
-  \Big(
-  \big(
-    (id_S \times q_T)_! 
-    (pr_{T })^\ast
-    X
-  \big)
-    \sqcup 
-  \big(
-    (id_S \times q_{T'})_! 
-    (pr_{T'})^\ast
-    Y
-  \big)
+    \underset
+      {x \in \mathcal{D}}
+      {\textstyle{\int}} 
+    C_{L(x)}
   \Big)
-  \bigg)_{S \times (T \sqcup T')}
-  \end{array}
+  \;
+  \underoverset
+    {\underset{\tilde R}{\longleftarrow}}
+    {\overset{\tilde L}{\longrightarrow}}
+    {\;\; \bot \;\;}
+  \;
+  \Big(
+    \underset
+      {\mathbf{x} \in \mathbf{D}}
+      {\textstyle{\int}} 
+    C_{\mathbf{x}}
+  \Big)
+  \;
+    \equiv
+  \;
+  \Bigg\{
+    \mathscr{V}_{\mathbf{x}}
+      \xrightarrow{ \phi_{\mathbf{f}} }
+    \mathscr{V}_{\mathbf{x}'}
+    \;\displaystyle{\Bigg\vert}\;
+    \array{
+      \mathscr{V} 
+        &\xrightarrow{ \phi }& 
+      \mathbf{f}^\ast \mathscr{V}' 
+      & \in C_{\mathbf{x}}
+      \\
+      x 
+        &\xrightarrow{ \mathbf{f} }& 
+      y 
+      & \in \mathbf{D}
+    }
+  \Bigg\}
+  \mathrlap{\,,}
 $$
-
+where $\tilde L$ acts as $L$ on [[underlying]] morphisms and as the [[identity functor|identity]] on components:
 $$
-  \array{   
-    S \times T
-    &\overset{\; id_S \times q_T \;}{\longrightarrow}&
-    S \times (T \sqcup T')
+  \array{
+  \mathscr{V}_{x}
+  \\
+  \Big\downarrow\mathrlap{{}^{\phi_{f}}}
+  \\
+  \mathscr{V}'_{x'}
+  }
+  \;\;\;\;\;\;\;
+  \overset{\tilde L}{\mapsto}
+  \;\;\;\;\;
+  \array{
+  \mathscr{V}_{L(x)}
+  \\
+  \Big\downarrow\mathrlap{{}^{\phi_{L(f)}}}
+  \\
+  \mathscr{V}'_{L(x')}
+  \mathrlap{\,,}
+  }
+$$
+while $\tilde R$ acts as $R$ on [[underlying]] morphisms and on components by [[base change]] along the [[adjunction unit]] $\epsilon_{\mathbf{x}} \colon L \circ R(\mathbf{x}) \to \mathbf{x}$:
+$$
+  \array{
+  \mathscr{V}_{\mathbf{x}}
+  \\
+  \Big\downarrow\mathrlap{{}^{\phi_{\mathbf{f}}}}
+  \\
+  \mathscr{V}'_{\mathbf{x}'}
+  }
+  \;\;\;\;\;\;\;
+  \overset{\tilde R}{\mapsto}
+  \;\;\;\;\;
+  \array{
+    \big(\epsilon_{\mathbf{x}}^\ast 
+      \mathscr{V}\big)_{R(\mathbf{x})}
     \\
-    \mathllap{{}^{pr_T}}
+    \Big\downarrow
+    \mathrlap{{}^{ (\epsilon_\mathbf{x}^\ast \phi)_{ R(\mathbf{f}) } }}
+    \\
+    \big(\epsilon_{\mathbf{x}}^\ast \mathscr{V}\big)_{ R(\mathbf{x}')}
+  }
+$$
+\end{proposition}
+\begin{proof}
+First notice that $\tilde R$ is indeed well-defined in that we have an [[equality]] on the right of
+$$
+  \epsilon_{\mathbf{x}}^\ast \phi
+  \;\colon\;
+  \epsilon_{\mathbf{x}}^\ast \mathscr{V}
+  \longrightarrow
+  \epsilon_{\mathbf{x}}^\ast \mathbf{f}^\ast \mathscr{V}'
+  =
+  \big(L R(\mathbf{f})\big)^\ast
+  \epsilon_{\mathbf{x}'}^\ast \mathscr{V}'
+$$
+induced from the [[commuting square|commutativity]] of the [[naturality square]] of the [[adjunction counit]]:
+$$
+  \array{
+    L R(\mathbf{x}) 
+    &\overset{ L R(\mathbf{f}) }{\longrightarrow}&
+    L R(\mathbf{x}')
+    \\
+    \mathllap{{}^{ \epsilon_{\mathbf{x}} }}
     \Big\downarrow
     &&
     \Big\downarrow
-    \mathrlap{{}^{pr_{T \sqcup T'}}}
+    \mathrlap{{}^{ \epsilon_{\mathbf{x}'} }}
     \\
-    T 
-      &\underset{\;\; q_T \;\;}{\longrightarrow}&
-    T \sqcup T'
+    \mathbf{x} 
+      &\underset{\; \mathbf{f} \;}{\longrightarrow}& 
+    \mathbf{x}'
+    \mathrlap{\,.}
   }
 $$
 
-\end{proof}
-
-
+Now
+if we write $f \colon x \to R(\mathbf{x}')$ for the $(L \dashv R)$-[[adjunct]] of a given $\mathbf{f} \colon L(x) \to \mathbf{x}'$ then we have natural bijections
 $$
-  \mathrm{idToIso}(x, y)
-  \;\colon\;
-  (x =_A y) 
-  \;
-  \to 
-  \;
-  x \cong_A y
-$$
-
-
-$$
-  \textstyle{\coprod}
-  \displaystyle{\widehat{\otimes}}
-  \scriptstyle{a b c}
-  \scriptscriptstyle{a a a}
-$$
-
-For the following proposition we use the left-handed convention for component maps in morphisms in the Grothendieck construction:
-$$
-  \phi_f \,\colon\, \mathscr{V}_X \to \mathscr{V}'_{X'}
-  \;\;\;\;\;\;
-  \text{shall stand for}
-  \;\;\;\;\;\;
-  \begin{array}{rcl}  
-    X &\xrightarrow{f}& X'
-    \\
-    f_!\mathscr{V} &\xrightarrow{\phi}& \mathscr{V}'
-  \end{array}
-$$
-\begin{proposition}
-  In the situation above, the $\boxtimes$-[[pushout-product]] (with respect to the external tensor product) is given by 
-$$
-  \big(
-    \phi_f 
-  \big)
-    \,\widehat{\boxtimes}\, 
-  \big(
-    \gamma_g
-  \big)
-  \;\;\;
-  \simeq
-  \;\;\;
-  \Big(
+\begin{array}{ll}
+  \Big\{
+    \tilde L\big( \mathscr{V}_x \big)
+    \xrightarrow{ \phi_{\mathbf{f}} }
+    \mathscr{V}'_{\mathbf{x}'}
+  \Big\}
+  \\
+  \;\simeq\;
+  \Big\{
+    \mathscr{V}_{L(x)}
+    \xrightarrow{ \phi_{\mathbf{f}} }
+    \mathscr{V}'_{\mathbf{x}'}
+  \Big\}
+  &
+  \text{by def.}
+  \\
+  \;\simeq\;
+  \Big\{
+    \mathscr{V}_{x}
+    \xrightarrow{ \phi_{f} }
     \big(
-      (pr_{X'})^\ast \phi
+      \epsilon^\ast_{\mathbf{x}'}
+      \mathscr{V}'
+    \big)_{R(\mathbf{x}')}
+  \Big\}  
+  &
+  \text{see below}
+  \\
+  \;\simeq\;
+  \Big\{
+    \mathscr{V}_{x}
+    \xrightarrow{ \phi_{f} }
+    \tilde R \big(
+      \mathscr{V}'_{\mathbf{x}'}
     \big)
-    \,\widehat{\otimes}\,
+  \Big\}     
+  &
+  \text{by def.,}
+\end{array}
+$$
+where the one step that is not a definition is on [[underlying]] morphisms the $(L \dashv R)$-[hom-isomorphism](adjoint+functor#eq:HomIsomorphismForAdjointFunctors) 
+$$
+\begin{array}{ll}
+  \Big\{
+    L(x) \xrightarrow{ \mathbf{f} } \mathbf{x}'
+  \Big\}
+  \;\simeq\;
+  \Big\{
+    x \xrightarrow{ f } R(\mathbf{x}')
+  \Big\}
+\end{array}
+$$
+and on components the following natural bijection
+$$
+\begin{array}{ll}
+  \Big\{
+    \mathscr{V}
+    \xrightarrow{ \phi }
+    \mathbf{f}^\ast \mathscr{V}'
+  \Big\}
+  \\
+  \;\simeq\;
+  \Big\{
+    \mathscr{V}
+    \xrightarrow{ \phi }
+    \big( \epsilon_{\mathbf{x}'} \,\circ\, L(f) \big)^\ast 
+    \mathscr{V}'
+  \Big\}
+  &
+  \text{ formula for adjuncts }
+  \\
+  \;\simeq\;
+  \Big\{
+    \mathscr{V}
+    \xrightarrow{ \phi }
+    L(f)^\ast 
     \big(
-      (pr_{Y'})^\ast \gamma
+    \epsilon_{\mathbf{x}'}^\ast
+    \mathscr{V}'
     \big)
-  \Big)_{ f \,\widehat{\times}\, g }
+  \Big\}
+  &
+  \text{ pseudo-functoriality }
+\end{array}
 $$
-\end{proposition}
-\begin{proof}
-By the general formula for colimits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) the underlying colimit in the base category is the evident one
-\begin{tikzcd}
-  X \times Y 
-  \ar[r, "{ id\,\times\, g }"{description}]
-  \ar[d, "{ f \,\times\, \mathrm{id} }"{description}]
-  &
-  X \times Y'
-  \ar[d, "{ q_r }"{description}]
-  \ar[ddr, bend left=15, "{ f \,\times\, \mathrm{id} }"{description}]
-  &[-40pt]
-  \\
-  X' \times Y
-  \ar[r, "{ q_l }"{description}]
-  \ar[drr, bend right=15, "{ \mathrm{id} \,\times\, g}"{description}]
-  &
-  f\,\widehat{\times}\,g
-  \ar[dr, dashed]
-  \\[-20pt]
-  && X' \times Y'
-\end{tikzcd}
-and the component map over the dashed morphism is the colimiting cocone of the diagram obtained from pushing the separate component maps along the [[coprojections]] $q_\cdot$ to form a span in $\mathbf{C}_{f \widehat{\times} g}$. This yields:
-$$
-  \begin{array}{ll}
-  (f \widehat{\times} g)_!
-  \Bigg(
-    \bigg(
-      (q_l)_! 
-      \Big(
-        \big(
-          (pr_{X'})^\ast \phi
-        \big)
-        \otimes
-        \big(
-          (pr_{Y})^\ast
-          \mathrm{id}_{\mathscr{W}}
-        \big)
-      \Big)
-    \bigg)
-    \wedge
-    \bigg(
-      (q_r)_! 
-      \Big(
-        \big(
-          (pr_X)^\ast
-          \mathrm{id}_{\mathscr{V}}
-        \big)
-        \otimes
-        \big(
-          (pr_{Y'})^\ast \gamma
-        \big)
-      \Big)
-    \bigg)
-  \Bigg)
-  \\
-  \;\simeq\;
-  \Bigg(
-    \bigg(
-      (f \widehat{\times} g)_!
-      (q_l)_! 
-      \Big(
-        \big(
-          (pr_{X'})^\ast \phi
-        \big)
-        \otimes
-        \big(
-          (pr_{Y})^\ast
-          \mathrm{id}_{\mathscr{W}}
-        \big)
-      \Big)
-    \bigg)
-    \wedge
-    \bigg(
-      (f \widehat{\times} g)_!
-      (q_r)_! 
-      \Big(
-        \big(
-          (pr_X)^\ast
-          \mathrm{id}_{\mathscr{V}}
-        \big)
-        \otimes
-        \big(
-          (pr_{Y'})^\ast \gamma
-        \big)
-      \Big)
-    \bigg)
-  \Bigg)
-  &
-  \begin{array}{l}
-  \text{since the left adjoint}\; (-)_! 
-  \\
-  \text{preserves pushouts}
-  \end{array}
-  \\
-  \;\simeq\;
-  \Bigg(
-    \bigg(
-      (id \otimes g)_!
-      \Big(
-        \big(
-          (pr_{X'})^\ast \phi
-        \big)
-        \otimes
-        \big(
-          (pr_{Y})^\ast
-          \mathrm{id}_{\mathscr{W}}
-        \big)
-      \Big)
-    \bigg)
-    \wedge
-    \bigg(
-      (f \otimes id)_!
-      \Big(
-        \big(
-          (pr_X)^\ast
-          \mathrm{id}_{\mathscr{V}}
-        \big)
-        \otimes
-        \big(
-          (pr_{Y'})^\ast \gamma
-        \big)
-      \Big)
-    \bigg)
-  \Bigg)
-  &
-  \begin{array}{l}
-  \text{by commutativity of} 
-  \\
-  \text{the above diagram}
-  \end{array}
-  \\
-  \;\simeq\;
-  \Bigg(
-    \bigg(
-      \Big(
-        \big(
-          (pr_{X'})^\ast \phi
-        \big)
-        \otimes
-        \big(
-          (pr_{Y})^\ast
-          \mathrm{id}_{f_!\mathscr{W}}
-        \big)
-      \Big)
-    \bigg)
-    \wedge
-    \bigg(
-      \Big(
-        \big(
-          (pr_X)^\ast
-          \mathrm{id}_{f_!\mathscr{V}}
-        \big)
-        \otimes
-        \big(
-          (pr_{Y'})^\ast \gamma
-        \big)
-      \Big)
-    \bigg)
-  \Bigg)
-   &
-  \text{by the above result}
-  \\
-  \;\simeq\;
-  \big(
-    (pr_{X'})^\ast \phi
-  \big)
-  \,\displaystyle{\widehat{\otimes}}\,
-  \big(
-    (pr_{Y'})^\ast \gamma
-  \big)
-  &
-  \text{by definition}
-  \end{array}
-$$
-\end{proof}
+where the first step uses the general formula $\mathbf{f} \,=\, \epsilon_{\mathbf{x}'} \circ L(f)$ ([here](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)) that expresses [[adjuncts]] in terms of the [[counit of an adjunction|counit]] and the second step is the [[contravariant functor|contravariant]] [[pseudo-functor|pseudo-functoriality]] of $C_{(-)}$.
 
+This establishes a [hom-isomorphism](adjoint+functor#eq:HomIsomorphismForAdjointFunctors) exhibiting adjoint functors $\tilde L \dashv \tilde R$.
+\end{proof}
