@@ -41,12 +41,22 @@ The converse is true in some cases, such as the following:
 
 * When $V$ is cartesian monoidal and $C=V$: a cartesian closed category is automatically enriched-cartesian-closed over itself.  In other words, the defining isomorphisms $V_0(X\times Y,Z) \cong V_0(X, Z^Y)$ induce, by the [[Yoneda lemma]], isomorphisms of [[exponential objects]] $Z^{X\times Y} \cong (Z^Y)^X$.
 
-However, the converse is false in general.  Counterexamples can be found in [[cartesian closed enriched category#MO|this mathoverflow discussion]].
+However, the converse is false in general.  [[counterexample|Counterexamples]] can be found in [this mathoverflow discussion](#MO).
 
+## Related concepts
+
+* [[cartesian closed category]]
+
+* [[locally cartesian closed enriched category]]
+
+* [[monoidal enriched category]]
+
+* [[cartesian closed model category]]
 
 ## References
 
 * {#MO} [Enriched cartesian closed categories on MO](https://mathoverflow.net/q/322085)
+
 * {#MO2} [Simplicial cartesian closed categories on MO](https://mathoverflow.net/q/322917)
 
 
