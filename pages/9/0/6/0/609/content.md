@@ -397,6 +397,52 @@ $$
 \end{example}
 
 
+### Cartesian closure
+ {#CartesianClosedStructure}
+
+
+\begin{proposition}
+  The category of [[sSet]]-[[enriched groupoids]] is [[cartesian closed category|cartesian closed]].
+\end{proposition}
+\begin{proof}
+The ambient category of [[sSet-enriched categories]] is cartesian closed (as any [[category of enriched categories|category of $\mathcal{V}$-categories]] for [[cartesian closed category|cartesian closed]] [[complete category|complete]] [[cosmos]] $\mathcal{V}$), given by forming [[enriched product categories]] and [[enriched functor categories]].
+Therefore we just need to check that for $\mathbf{D},\,\mathbf{C} \,\in\, sSet\text{-}Grpd$ also the $sSet$-[[enriched product category]] $\mathbf{C} \times \mathbf{D}$ and the $sSet$-[[enriched functor category]] $[\mathbf{D},\,\mathbf{C}]$ are in fact [[enriched groupoids]]. 
+
+For the product this is immediate, the [[inverse morphism|inversion]]-operation is given factorwise.
+
+To see the statement for the [[internal hom]], write $\mathbf{I}_S$ for the [[sSet-enriched category]] with set objects $\{0,1\}$ and [[hom objects]] given by:
+
+* $\mathbf{I}_{S}(0,0) \,\coloneqq\, \ast$
+
+* $\mathbf{I}_{S}(1,1) \,\coloneqq\, \ast$
+
+* $\mathbf{I}_{S}(1,0) \,\coloneqq\, \varnothing$
+
+* $\mathbf{I}_{S}(0,1) \,\coloneqq\, S$
+
+(whence there is no non-trivial [[composition]] to be defined).
+
+Now for $n \in \mathbb{N}$ the $sSet$-[[enriched functors]]
+
+$$
+  \mathbf{I}_{\Delta[n]} 
+    \longrightarrow 
+  [\mathbf{D},\,\mathbf{C}]
+$$
+
+are in [[bijection]] with the $(n+1)$-morphisms in $[\mathbf{D},\,\mathbf{C}]$, and we need to exhibit an inversion operation on these.
+
+But by the [[cartesian closed monoidal category|cartesian closure]] of [[VCat|sSet Cat]] these are also in natural bijection to enriched functors of the form
+$$
+  \mathbf{D}
+  \times
+  \mathbf{I}_{\Delta[n]}
+  \longrightarrow
+  \mathbf{C}
+$$
+which are manifestly a simplicial diagram of [[natural transformations]] between the restrictions $\mathbf{D} \times \{0\} \to \mathbf{C}$ and $\mathbf{D} \times \{1\} \to \mathbf{C}$. The corresponding system of inverse natural transformations corresponds to the inverse $n+1$-morphism that we are after.
+\end{proof}
+
 
 
 ## Related concepts
@@ -415,7 +461,11 @@ $$
 
 ## References
 
-Original discussion in the context of a [[model structure on simplicial groupoids]]:
+Original discussion in the context of [[simplicial localization]]
+
+* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], §5.5 of: *Simplicial localizations of categories*, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>, [pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf)&rbrack;
+
+and in the context of a [[model structure on simplicial groupoids]]:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]],  _Homotopy theory and simplicial groupoids_, Indagationes Mathematicae (Proceedings) **87** 4 (1984) 379-385 &lbrack;<a href="https://doi.org/10.1016/1385-7258(84)90038-6">doi:10.1016/1385-7258(84)90038-6</a>&rbrack;
  
