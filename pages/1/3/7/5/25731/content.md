@@ -20,7 +20,7 @@ A [[functor]] $F\colon C \to D$ is **dominant** if it is "surjective on objects 
 
 ## Definition
 
-$F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ for which $y$ is a [[retract]] of $Fx$, i.e. there is a pair of morphisms $y \to Fx \to y$ composing to the identity.
+$F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ for which $y$ is a [[retract]] of $F x$, i.e. there is a pair of morphisms $y \to Fx \to y$ composing to the identity.
 
 ## Examples
 
@@ -40,6 +40,6 @@ $F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exis
 
 ## References
 
-* {#DFP75} [[Aristide Deleanu]], [[Armin Frei]], and [[Peter Hilton]]. _Idempotent triples and completion_. Mathematische Zeitschrift 143 (1975): 91-104.
+* {#DFP75} [[Aristide Deleanu]], [[Armin Frei]], [[Peter Hilton]], _Idempotent triples and completion_, Mathematische Zeitschrift **143** (1975) 91-104 &lbrack;[doi:10.1007/BF01173053](https://doi.org/10.1007/BF01173053)&rbrack;
 
 [[!redirects dominant functors]]
