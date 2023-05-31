@@ -27,6 +27,7 @@ His PhD students include [[David L. Rector]], [[Aldridge K. Bousfield]], [[Stewa
 
 > In his long career, Dan published more than 70 papers with 15 coauthors. His lifelong mathematical pursuit was abstract [[homotopy theory]], and many of his ideas were so natural and flexible that they quickly became incorporated into the very fabric of [[algebraic topology]]. He supervised 15 Ph.D students (all of them at MIT), and he influenced many more through his unique seminar in algebraic topology, which today is known as the _Kan Seminar_.
 
+
 ## Selected writings
 
 On [[simplicial groups]] and introducing the [[simplicial loop group]]-functor:
@@ -57,6 +58,18 @@ On [[derived hom-spaces]] ([[function complexes]]) in [[projective model structu
 On the $G$-[[Borel model structure]] and its [[Quillen equivalence]] with the [[slice model structure]] over the [[simplicial classifying space]] $\overline W G$:
 
 * {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
+
+
+On [[simplicial localization]]:
+
+
+* {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>, [pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf)&rbrack;
+  
+* {#DwyerKanCalculating} [[William Dwyer]], [[Daniel Kan]], _Calculating simplicial localizations_, J. Pure Appl. Algebra 18 (1980), 17-35 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90113-9">doi:10.1016/0022-4049(80)90113-9</a>, [pdf](http://www.nd.edu/~wgd/Dvi/CalculatingSimplicialLocalizations.pdf)&rbrack;
+  
+* {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_, Topology 19 (1980), 427-440 &lbrack;<a href="https://doi.org/10.1016/0040-9383(80)90025-7">doi:10.1016/0040-9383(80)90025-7</a>, [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf)&rbrack;
+  
+* {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], *Equivalences between homotopy theories of diagrams*, in: *Algebraic topology and algebraic K-theory*, Ann. of Math. Stud. **113**, Princeton University Press (1988) &lbrack;[doi:10.1515/9781400882113-009](https://doi.org/10.1515/9781400882113-009)&rbrack;
 
 
 On (enhancement and generalization of) [[Elmendorf's theorem]] in [[equivariant homotopy theory]]:
