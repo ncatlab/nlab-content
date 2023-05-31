@@ -37,8 +37,7 @@ Both are special cases of a [[model structure on enriched categories]].
 ## Model for $(\infty,1)$-categories
  {#ModelForInfinityCategories}
 
-Here we describe the model category structure on [[SSet Cat]] that 
-makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
+Here we describe the model category structure on [[SSet Cat]] that  makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
 
 \begin{definition}\label{DwyerKanEquivalences}
 **(Dwyer-Kan equivalences)**
@@ -141,7 +140,13 @@ The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[proper m
 
 A reference for right properness is ([Bergner 04, prop. 3.5](#Bergner04)). A reference for left properness is ([Lurie, A.3.2.4](#Lurie09)) and ([Lurie, A.3.2.25](#Lurie09)).
 
+\begin{remark}\label{FailureOfCartesianClosedModelStructure}
+**(failure of cartesian closed model structure)**
+\linebreak
+  While the [[underlying]] category [[VCat|$sSet Cat$]] of [[sSet-enriched categories]] is [[cartesian closed category|cartesian closed]] (on general grounds, see [here](category+of+V-enriched+categories#MonoidalStructure), also cf. [Joyal (2008), §51.2](#Joyal2008)), the construction of [[enriched product category|$sSet$-enriched product categories]] and [[enriched functor categories|$sSet$-enriched functor categories]] does *not* make the Bergner model structure of prop. \ref{BergnerModelStructure} into a [[monoidal model category]] hence *not* into a [[cartesian closed model category]].
 
+This is in contrast to the [[model structure on quasi-categories]] (see [there](model+structure+for+quasi-categories#CartesianMonoidalModelStructure)) to which the Bergner structure is [[Quillen equivalence|Quillen equivalent]] (see [below](#RelationToQuasiCategories)).
+\end{remark}
 
 
 ### Relation to simplicial groupoids
@@ -178,6 +183,13 @@ $$
 
 (see also [Minichiello, Rivera & Zeinalian (2023), Prop. 2.8](model+structure+on+simplicial+groupoids#MinichielloRiveraZeinalian23))
 
+
+### Relation to quasi-categories
+ {#RelationToQuasiCategories}
+
+The operations of forming [[homotopy coherent nerves]], $N$, and of [[rigidification of quasi-categories]], $\mathfrak{C}$, constitute a [[Quillen equivalence]] between the Bergner model structure on $sSet Cat$ (Prop. \ref{BergnerModelStructure}) and the [[model structure for quasi-categories]]. 
+
+For more see at *[[relation between sSet-enriched categories and quasi-categories]]*.
 
 
 ## Related concepts
@@ -219,6 +231,10 @@ Survey and review:
 See also
 
 * {#DwyerKan80FunctionComplexes} [[William Dwyer]], [[Daniel Kan]], _Function complexes in homotopical algebra_ , Topology 19 (1980), 427&#8211;440 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dwyer-kan-3.pdf))
+
+* {#Joyal2008} [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
+
+
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
 
