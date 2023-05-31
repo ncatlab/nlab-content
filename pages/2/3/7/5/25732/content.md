@@ -30,7 +30,18 @@ If $\mathcal{V}$ is furthermore [[closed monoidal category|closed]] and [[comple
 
 ## References
 
-* {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+Textbook accounts:
+
+* {#Kelly82} [[Max Kelly]], §2.3 of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
+See also
+
+* [[Enrico Ghiorzi]], §3.6 *Internal enriched categories*, Applied Categorical Structures **30** (2022) 947–968  &lbrack;[arXiv:2006.07997](https://arxiv.org/abs/2006.07997), [doi:10.1007/s10485-022-09678-w](https://doi.org/10.1007/s10485-022-09678-w)&rbrack;
+
+* [[Haskell]]: [Data-Category-Enriched.html](https://hackage.haskell.org/package/data-category-0.10/docs/Data-Category-Enriched.html)
 
 [[!redirects enriched product categories]]
+
+[[!redirects tensor product of enriched categories]]
+[[!redirects tensor products of enriched categories]]
 
