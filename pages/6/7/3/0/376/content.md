@@ -380,9 +380,11 @@ More generally, every [[quasitopos]] is locally cartesian closed.
 
 ## Related concepts
 
-* [[cartesian closed category]], **locally cartesian closed category**
+* [[cartesian closed category]]
 
 * [[cartesian closed functor]], [[locally cartesian closed functor]]
+
+* [[locally cartesian closed enriched category]]
 
 * [[cartesian closed model category]], [[locally cartesian closed model category]]
 
