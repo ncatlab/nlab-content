@@ -18,6 +18,8 @@
     * [[surjective-on-objects functor]]
 
     * [[bijective-on-objects functor]]
+    
+    * [[dominant functor]]
 
   * [[split essentially surjective functor]]
 
