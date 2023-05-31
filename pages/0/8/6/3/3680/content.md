@@ -571,6 +571,11 @@ This can be used to establish a [[Bousfield-Kan formula]] for [[homotopy colimit
 
 * [[initial (∞,1)-functor]]
 
+
+[[!include properties of functors -- contents]]
+
+
+
 ## References
 
  
