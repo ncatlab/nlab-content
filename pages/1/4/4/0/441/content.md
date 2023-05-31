@@ -204,6 +204,9 @@ See the references at *[[simplicial homotopy theory]]*.
 [[!redirects inner horn]]
 [[!redirects inner horns]]
 
+[[!redirects horn inclusion]]
+[[!redirects horn inclusions]]
+
 [[!redirects simplicial horn]]
 [[!redirects simplicial horns]]
 
