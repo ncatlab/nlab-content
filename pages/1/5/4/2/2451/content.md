@@ -94,12 +94,16 @@ The [[fundamental group]] of the free groupoid of a graph with a single vertex i
 
 * {#MacLane} [[Saunders MacLane]], p. 51 Ex. 3 in: *[[Categories for the Working Mathematician]]*, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
+
+Discussion in the generality of [[sSet-enriched categories]] and [[sSet]]-[[enriched groupoids]] ("[[simplicial groupoids]]"):
+
+* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], §5.5 of: *Simplicial localizations of categories*, J. Pure Appl. Algebra **17** 3 (1980), 267-284 &lbrack;<a href="https://doi.org/10.1016/0022-4049(80)90049-3">doi:10.1016/0022-4049(80)90049-3</a>, [pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf)&rbrack;
+
 * [[André Joyal]], [[Myles Tierney]], pp. 75 of: *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
 
-
-Further discussion in relation to the [[Milnor construction]]:
-
 * [Goerss & Jardine (2009), V.7](Dwyer-Kan+loop+groupoid#GoerssJardine09)
+
+  > (highlighting relation to the [[Milnor construction]])
 
 
 
