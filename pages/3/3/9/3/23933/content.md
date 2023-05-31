@@ -25,7 +25,11 @@ On [[p-adic Teichmüller theory]]:
 * [[Kirti Joshi]], *(Older-Version) Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups* ([arXiv:2010.05748](https://arxiv.org/abs/2010.05748))
 
 
+## Related Writings
 
+* [[Kirti Joshi]], *Mochizuki's anabelian variation of ring structures and formal groups* ([arxiv:1906.06840](https://arxiv.org/abs/1906.06840))
+
+* [[Kirti Joshi]], *On Mochizuki's idea of Anabelomorphy and its applications* ([arxiv:2003.01890](https://arxiv.org/abs/2003.01890))
 
 category: people
 
