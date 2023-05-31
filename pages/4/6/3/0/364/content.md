@@ -5,6 +5,11 @@ My webpage can be found [here](http://www.math.jhu.edu/~eriehl/).
 
 ## Selected writings
 
+On [[rigidification of quasi-categories]]:
+
+* [[Emily Riehl]], *On the structure of simplicial categories associated to quasi-categories*, Math. Proc. Camb. Phil. Soc. **150** (2011) 489-504 &lbrack;[arXiv:0912.4809](https://arxiv.org/abs/0912.4809), [doi:10.1017/S0305004111000053](https://doi.org/10.1017/S0305004111000053)&rbrack;
+
+
 On [[level of a topos|topos levels]] in [[simplicial sets]] and [[cubical sets]]:
 
 * {#KRRZ11} C. Kennett, [[Emily Riehl]], [[Michael Roy]], M. Zaks, *Levels in the toposes of simplicial sets and cubical sets*, JPAA **215**  5 (2011)  949-961 &lbrack;[arXiv:1003.5944](http://arxiv.org/abs/1003.5944), [doi:j.jpaa.2010.07.002](https://doi.org/10.1016/j.jpaa.2010.07.002)&rbrack;
