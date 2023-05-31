@@ -161,6 +161,9 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 ## References
 
+* [[Pierre Gabriel]], [[Michel Zisman]], §1.5.4 of: *[[Calculus of fractions and homotopy theory]]*, Ergebnisse der Mathematik und ihrer Grenzgebiete **35**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
+
+
 Discussion in the generality of [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 
 * {#Lurie09} [[Jacob Lurie]], Around Prop. 1.1.14 in: _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
