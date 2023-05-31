@@ -47,7 +47,7 @@ The **Grothendieck construction** describes this in the context of [[Cat]]: a mo
 The reconstruction of $p$ from the pseudofunctor $S_p$ is the **Grothendieck construction** 
 
 $$
-  \int \;\; : \;\; Func(C^{op}, Cat) \to Cat/C
+  \textstyle{\int} \;\; : \;\; Func(C^{op}, Cat) \to Cat/C
 $$
 
 which is a [[2-functor]] from the [[2-category]] of pseudofunctors $C^{op} \to Cat$ to the [[overcategory]] of [[Cat]] over $C$.
@@ -55,7 +55,11 @@ which is a [[2-functor]] from the [[2-category]] of pseudofunctors $C^{op} \to C
 The essential image of this functor consists of [[Grothendieck fibration]]s and this establishes an [[equivalence of 2-categories]]
 
 $$
-  \int : Func(C^{op}, Cat) \stackrel{\simeq}{\to} Fib(C) 
+  \textstyle{\int} 
+  \,\colon\, 
+  Func(C^{op}, Cat) 
+    \overset{\simeq}{\longrightarrow} 
+  Fib(C) 
 $$
 
 between 2-functors $C^{op} \to Cat$ and [[Grothendieck fibration]]s over $C$.
@@ -63,7 +67,11 @@ between 2-functors $C^{op} \to Cat$ and [[Grothendieck fibration]]s over $C$.
 When restricted to pseudofunctors with values in [[Grpd]] $\subset$ [[Cat]] this identifies the [[fibration fibered in groupoids|Grothendieck fibrations in groupoids]]
 
 $$
-  \int \;\;:\;\; Func(C^{op}, Grpd) \stackrel{\simeq}{\to} FibGrpd(C) 
+  \textstyle{\int} 
+  \;\colon\; 
+  Func(C^{op}, Grpd) 
+    \overset{\simeq}{\longrightarrow} 
+  FibGrpd(C) 
   \,.
 $$
 
@@ -127,7 +135,11 @@ This means that:
 This construction extends to a [[2-functor]] between [[bicategories]]
 
 $$
-  \int \;\; : \;\; [C, Cat] \longrightarrow Cat/C
+  \textstyle{\int} 
+  \;\colon\; 
+  [C, Cat] 
+    \longrightarrow 
+  Cat/C
 $$
 
 from [[pseudofunctors]] on $C$ to the [[overcategory]] of [[Cat]] over $C$.
@@ -145,9 +157,16 @@ $$
   \,.
 $$
 
-describes a 2-functor
+constitutes a [[2-functor]]
 
-$$ \int \quad\colon\quad [C^{op},Cat] \to Cat/C. $$
+$$ 
+  \textstyle{\int} 
+  \;\colon\; 
+  [C^{op},Cat] 
+    \longrightarrow 
+  Cat/C
+  \,.
+$$
 
 In this case,
 
@@ -233,7 +252,7 @@ $$
   \;\colon\;
   I
   \longrightarrow
-  \int \mathbf{C}_{(-)}
+  \textstyle{\int} \mathbf{C}_{(-)}
 $$ 
 
 its [[underlying]] diagram in $Base$
@@ -492,13 +511,23 @@ Cartesian lifts are not required to be unique, but are automatically unique up t
 The Grothendieck construction factors through [[Grothendieck fibrations]] over $C$
 
 $$
-  \int \colon [C^{op}, Cat] \to Fib(C) \hookrightarrow Cat/C
+  \textstyle{\int} 
+  \;\colon\; 
+  [C^{op}, Cat] 
+    \longrightarrow 
+  Fib(C) 
+   \hookrightarrow 
+  Cat/C
 $$
 
 and establishes an [[equivalence of bicategories]]
 
 $$
-  \int \colon [C^{op}, Cat] \stackrel{\simeq}{\to} Fib(C)
+  \textstyle{\int} 
+  \;\colon\; 
+  [C^{op}, Cat] 
+    \overset{\simeq}{\longrightarrow} 
+  Fib(C)
   \,.
 $$
 
@@ -507,7 +536,13 @@ In fact, it is more than that: it is an equivalence of [[strict 2-categories]], 
 When restricted to pseudofunctors that factor through [[Grpd]] $\hookrightarrow Cat$ it factors through [[fibrations in groupoids]]
 
 $$
-  \int : [C^{op}, Grpd] \to Fib_{Grpd}(C)\hookrightarrow Cat/C
+  \textstyle{\int} 
+  \;\colon\; 
+  [C^{op}, Grpd] 
+    \longrightarrow 
+  Fib_{Grpd}(C)
+    \hookrightarrow 
+  Cat/C
 $$
 
 and establishes a similar equivalence
@@ -522,11 +557,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This can be verified by straightforward albeit somewhat tedious checking. Details are spelled out in section B1.3 of
-
-* [[Peter Johnstone]], _Sketches of an Elephant_ 
-
-The statement itself is theorem B1.3.6 there, all definitions and lemmas are on the pages before that.
+This can be verified by straightforward albeit somewhat tedious checking. Details are spelled out in [Johnstone (2002), B1.3](#Johnstone). (The statement itself is theorem B1.3.6 there, all definitions and lemmas are on the pages before that.)
 
 =--
 
@@ -542,12 +573,17 @@ generalizes to a model category presentation of the
 
 
 
-### Adjoints to the Grothendieck construction {#adjunction}
+### Adjoints to the Grothendieck construction 
+  {#adjunction}
 
 The Grothendieck construction functor
 
 $$
-  \int : [C^{op}, Cat] \to Cat/C
+  \textstyle{\int} 
+  \;\colon\; 
+  [C^{op}, Cat] 
+    \longrightarrow 
+  Cat/C
 $$
 
 has a [[left adjoint|left]] and a [[right adjoint|right]] [[adjoint functor]].
@@ -701,22 +737,37 @@ Now furthermore...
 =--
 
 
-This formulation of the Grothendieck construction as an adjunction
+This formulation of the Grothendieck construction as part of an [[adjoint functors|adjunction]]
 
 $$
-  (L \dashv \int) : Fib(C) \stackrel{\leftarrow}{\to} [C^{op}, Cat]
+  (L \dashv \textstyle{\int}) 
+  \;\colon\; 
+  Fib(C) 
+  \rightleftarrows 
+  [C^{op}, Cat]
 $$
 
-with the left adjoint given by hom-objects in a pushout object as above
-is the starting point for the [[vertical categorification]] described at [[(∞,1)-Grothendieck construction]]. 
+with the [[left adjoint]] given by hom-objects in a pushout object as above is the starting point for its [[vertical categorification]] described at *[[(∞,1)-Grothendieck construction]]*. 
 
 #### The right adjoint
 
 We also have an adjunction
-$$(R \vdash \int) : Fib(C) \stackrel{\leftarrow}{\to} [C^{op}, Cat]$$
-where the right adjoint $R$ sends a [[Grothendieck fibration]] $F$ over $C$
-to the presheaf
-$$c\mapsto Hom(\int y(c), F),$$
+$$
+  (R \vdash \textstyle{\int}) 
+  \;\colon\; 
+  Fib(C) 
+  \rightleftarrows 
+  [C^{op}, Cat]
+  \,,
+$$
+where the [[right adjoint]] $R$ sends a [[Grothendieck fibration]] $F$ over $C$
+to the [[presheaf]]
+$$
+  c
+   \;\mapsto\; 
+  Hom(\textstyle{\int} y(c), F)
+  \,,
+$$
 where $\int y(c)$ is the Grothendieck construction applied to the
 representable presheaf of sets (hence [[discrete categories]]) on $c$
 and $Hom$ denotes the category of morphisms between two Grothendieck fibrations.
@@ -759,8 +810,10 @@ exhibiting the [[homotopy colimit]] in [[Top]] over $\vert N(F (-)) \vert$ as th
 This is due to ([Thomason 79](#Thomason79)). 
 
 
-### Further properties
 
+
+
+### Further properties
 
 
 \begin{proposition}
@@ -912,6 +965,28 @@ $$
     \big(\epsilon_{\mathbf{x}'}^\ast \mathscr{V}\big)_{ R(\mathbf{x}')}
   }
 $$
+and the [[adjunction counit]] is the [[identity morphism]] on components covering the [[underlying]] [[adjunction counit]]:
+\[
+  \label{AdjunctionCounitCoveringUnderlyingAdjunctionCounit}
+  \epsilon^{
+    \widehat{L} \dashv \widehat{R}
+  }_{
+    \mathscr{V}_{\mathbf{x}}
+  }
+  \;\colon\;
+  \widehat{L}
+  \widehat{R}
+  \big(\mathscr{V}_{\mathbf{x}}\big)
+  =
+  \Big(
+    \big(\epsilon^{L \dashv R}_{\mathbf{x}}\big)^\ast
+    \mathscr{V}
+  \Big)_{ L R(\mathbf{x}) }
+  \overset{
+    (id)_{\epsilon^{L \dashv R}_{\mathbf{x}}}
+  }{\longrightarrow}
+  \mathscr{V}_{\mathbf{x}}
+\]
 \end{proposition}
 \begin{proof}
 First notice that $\widehat R$ is indeed well-defined in that we have a [[natural isomorphism]] on the right of
@@ -1033,7 +1108,7 @@ $$
 $$
 where the first step uses the general formula $\mathbf{f} \,=\, \epsilon_{\mathbf{x}'} \circ L(f)$ ([here](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)) that expresses [[adjuncts]] in terms of the [[counit of an adjunction|counit]] and the second step is the [[contravariant functor|contravariant]] [[pseudo-functor|pseudo-functoriality]] of $C_{(-)}$.
 
-This establishes a [hom-isomorphism](adjoint+functor#eq:HomIsomorphismForAdjointFunctors) exhibiting adjoint functors $\widehat L \dashv \widehat R$.
+This establishes a [hom-isomorphism](adjoint+functor#eq:HomIsomorphismForAdjointFunctors) exhibiting adjoint functors $\widehat L \dashv \widehat R$. Moreover, the image of an [[identity morphism]] on $\widehat{R}(-)$ under this hom-isomorphism is the claimed counit (eq:AdjunctionCounitCoveringUnderlyingAdjunctionCounit).
 \end{proof}
 
 
