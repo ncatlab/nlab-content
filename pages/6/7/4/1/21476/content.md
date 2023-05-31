@@ -31,6 +31,8 @@
 
   * [[pseudomonic functor]]
 
+  * [[final functor]]
+
 * **[[2-functors]]**
 
   * [[full and faithful 2-functor]]
@@ -46,3 +48,5 @@
   * [[essentially surjective (∞,1)-functor]]
 
   * [[equivalence of (∞,1)-categories]]
+
+  * [[homotopy final functor]], [[final (∞,1)-functor]]
