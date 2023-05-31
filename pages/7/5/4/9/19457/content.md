@@ -177,7 +177,7 @@ Review:
 * {#Kelly} [[Max Kelly]], section 1.11 of: _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics **64** (1982),  Republished in: Reprints in Theory and Applications of Categories, **10** (2005) 1-136 &lbrack;[tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 
-* {#Borceux94} [[Francis Borceux]], Def. 6.2.4 of _[[Handbook of Categorical Algebra]] Vol 2_, Cambridge University Press (1994)
+* {#Borceux94} [[Francis Borceux]], Def. 6.7.1 of: _[[Handbook of Categorical Algebra]] Vol 2_, Cambridge University Press (1994)
 
 [[!redirects enriched adjoint functors]]
 
