@@ -180,7 +180,7 @@ Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $
 ###### Remark
 **(relevance for [[adjoint functor theorem]])**
 
-Theorem \ref{LimitOverIdentityFunctorIsInitialObjecty} is actually a key of entry into the [[adjoint functor theorem|general adjoint functor theorem]]. Showing that a functor $G: C \to D$ has a [[left adjoint]] is tantamount to showing that each functor $D(d, G-)$ is [[representable functor|representable]], i.e., that the [[comma category]] $d \downarrow G$ has an initial object $(c, \theta: d \to G c)$ (see at _[[adjoint functor]]_, [this prop.](#PointwiseExpressionOfLeftAdjoints)).  This is the limit of the identity functor, but typically this is the limit over a large diagram whose existence is not guaranteed. The point of a solution set condition is to replace this with a small diagram which is cofinal in the large diagram. 
+Theorem \ref{LimitOverIdentityFunctorIsInitialObject} is actually a key of entry into the [[adjoint functor theorem|general adjoint functor theorem]]. Showing that a functor $G: C \to D$ has a [[left adjoint]] is tantamount to showing that each functor $D(d, G-)$ is [[representable functor|representable]], i.e., that the [[comma category]] $d \downarrow G$ has an initial object $(c, \theta: d \to G c)$ (see at _[[adjoint functor]]_, [this prop.](#PointwiseExpressionOfLeftAdjoints)).  This is the limit of the identity functor, but typically this is the limit over a large diagram whose existence is not guaranteed. The point of a solution set condition is to replace this with a small diagram which is cofinal in the large diagram. 
 
 =--
 
