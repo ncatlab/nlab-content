@@ -794,8 +794,9 @@ $$
     {\;\; \bot \;\;}
   \mathbf{D}
 $$
-then there is an induced [[adjoint functor|adjunction]] between the [[Grothendieck constructions]] on $C_{(-)}$ and on $C_{L(-)}$
+then there is an induced [[adjoint functor|adjunction]] between the [[Grothendieck constructions]] on $C_{(-)}$ and on $C_{L(-)}$ covering the given adjunction
 $$
+\array{
   \Bigg\{
     \mathscr{V}_{x}
       \xrightarrow{ \phi_{f} }
@@ -813,30 +814,29 @@ $$
       & \in \mathcal{D}
     }
   \Bigg\}
-  \;
-    \equiv
-  \;
+  \,\equiv
+  &
   \Big(
     \underset
       {x \in \mathcal{D}}
       {\textstyle{\int}} 
     C_{L(x)}
   \Big)
-  \;
+  &
   \underoverset
-    {\underset{\tilde R}{\longleftarrow}}
-    {\overset{\tilde L}{\longrightarrow}}
+    {\underset{\widehat R}{\longleftarrow}}
+    {\overset{\widehat L}{\longrightarrow}}
     {\;\; \bot \;\;}
-  \;
+  &
   \Big(
     \underset
       {\mathbf{x} \in \mathbf{D}}
       {\textstyle{\int}} 
     C_{\mathbf{x}}
   \Big)
-  \;
-    \equiv
-  \;
+  &
+  \equiv
+  \,
   \Bigg\{
     \mathscr{V}_{\mathbf{x}}
       \xrightarrow{ \phi_{\mathbf{f}} }
@@ -854,9 +854,22 @@ $$
       & \in \mathbf{D}
     }
   \Bigg\}
-  \mathrlap{\,,}
+  \\
+  &
+  \Big\downarrow && \Big\downarrow
+  \\
+  &
+  \mathcal{D}
+  &
+  \underoverset
+    {\underset{R}{\longleftarrow}}
+    {\overset{L}{\longrightarrow}}
+    {\;\; \bot \;\;}
+  &
+  \mathbf{D}  
+ }
 $$
-where $\tilde L$ acts as $L$ on [[underlying]] morphisms and as the [[identity functor|identity]] on components:
+where $\widehat L$ acts as $L$ on [[underlying]] morphisms and as the [[identity functor|identity]] on components:
 $$
   \array{
   \mathscr{V}_{x}
@@ -866,7 +879,7 @@ $$
   \mathscr{V}'_{x'}
   }
   \;\;\;\;\;\;\;
-  \overset{\tilde L}{\mapsto}
+  \overset{\widehat L}{\mapsto}
   \;\;\;\;\;
   \array{
   \mathscr{V}_{L(x)}
@@ -877,7 +890,7 @@ $$
   \mathrlap{\,,}
   }
 $$
-while $\tilde R$ acts as $R$ on [[underlying]] morphisms and on components by [[base change]] along the [[adjunction unit]] $\epsilon_{\mathbf{x}} \colon L \circ R(\mathbf{x}) \to \mathbf{x}$:
+while $\widehat R$ acts as $R$ on [[underlying]] morphisms and on components by [[base change]] along the [[adjunction unit]] $\epsilon_{\mathbf{x}} \colon L \circ R(\mathbf{x}) \to \mathbf{x}$:
 $$
   \array{
   \mathscr{V}_{\mathbf{x}}
@@ -887,7 +900,7 @@ $$
   \mathscr{V}'_{\mathbf{x}'}
   }
   \;\;\;\;\;\;\;
-  \overset{\tilde R}{\mapsto}
+  \overset{\widehat R}{\mapsto}
   \;\;\;\;\;
   \array{
     \big(\epsilon_{\mathbf{x}}^\ast 
@@ -901,7 +914,7 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-First notice that $\tilde R$ is indeed well-defined in that we have a [[natural isomorphism]] on the right of
+First notice that $\widehat R$ is indeed well-defined in that we have a [[natural isomorphism]] on the right of
 $$
   \epsilon_{\mathbf{x}}^\ast \mathscr{V}
   \xrightarrow{ \epsilon_{\mathbf{x}}^\ast \phi }
@@ -935,7 +948,7 @@ if we write $f \colon x \to R(\mathbf{x}')$ for the $(L \dashv R)$-[[adjunct]] o
 $$
 \begin{array}{ll}
   \Big\{
-    \tilde L\big( \mathscr{V}_x \big)
+    \widehat L\big( \mathscr{V}_x \big)
     \xrightarrow{ \phi_{\mathbf{f}} }
     \mathscr{V}'_{\mathbf{x}'}
   \Big\}
@@ -965,7 +978,7 @@ $$
   \Big\{
     \mathscr{V}_{x}
     \xrightarrow{ \phi_{f} }
-    \tilde R \big(
+    \widehat R \big(
       \mathscr{V}'_{\mathbf{x}'}
     \big)
   \Big\}     
@@ -1020,7 +1033,7 @@ $$
 $$
 where the first step uses the general formula $\mathbf{f} \,=\, \epsilon_{\mathbf{x}'} \circ L(f)$ ([here](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)) that expresses [[adjuncts]] in terms of the [[counit of an adjunction|counit]] and the second step is the [[contravariant functor|contravariant]] [[pseudo-functor|pseudo-functoriality]] of $C_{(-)}$.
 
-This establishes a [hom-isomorphism](adjoint+functor#eq:HomIsomorphismForAdjointFunctors) exhibiting adjoint functors $\tilde L \dashv \tilde R$.
+This establishes a [hom-isomorphism](adjoint+functor#eq:HomIsomorphismForAdjointFunctors) exhibiting adjoint functors $\widehat L \dashv \widehat R$.
 \end{proof}
 
 
@@ -1105,7 +1118,7 @@ $$
   \;\;\;
     \simeq
   \;\;\;
-  \int_{B \in \mathcal{S}}
+  \textstyle{\int}_{B \in \mathcal{S}}
   \mathcal{S}_{/B}
   \mathrlap{\,.}
 $$
