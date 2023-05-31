@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -199,6 +200,12 @@ For categories enriched in [[truth values]], the enriched functor category is gi
 ## Properties
  {#Properties}
 
+### As internal hom in $V$-Cat
+ {#AsInternalHomInVCat}
+
+If the [[cosmos for enrichment|enriching cosmos]] $(V, \otimes)$ is ([[closed monoidal category|closed]], [[complete category|complete]] and) [[symmetric monoidal category|symmetric monoidal]] then forming the $V$-enriched functor category out of any $V$-enriched category $\mathcal{C}$ is [[right adjoint]] to forming the [[enriched product category]] with $\mathcal{C}$, hence serves as the [[internal hom]] in [[VCat|$V Cat$]].
+
+&lbrack;[Kelly (1982), §2.3](#Kelly82)&rbrack;
 
 ### Enhanced enrichment
  {#EnhancedEnrichment}
@@ -950,7 +957,7 @@ Review includes
 
 * {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf))
 
-* [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+* {#Kelly82} [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 
 [[!redirects enriched functor categories]]
