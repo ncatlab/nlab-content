@@ -115,7 +115,7 @@ For instance, a one-object [[sSet]]-groupoid (Exp. \ref{SimplicialGroupoid}) is 
 \end{example}
 
 \begin{example}\label{RelationToInternalGroupoids}
-  An [[internal groupoid]] in $\mathcal{V}$ is equivalently a $\mathcal{V}$-enriched groupoid if its $\mathcal{V}$-object of objects is in the image of the [[coproduct]]-[[preserved colimit|preserving]] [[functor]] $Set \to \mathcal{V}$ (using here the assumption that $\mathcal{V}$ is a [[Bénabou cosmos]]).
+  An [[internal groupoid]] in $\mathcal{V}$ is equivalently a $\mathcal{V}$-enriched groupoid if its $\mathcal{V}$-object of objects is in the image of the [[coproduct]]-[[preserved colimit|preserving]] [[functor]] $Set \to \mathcal{V}$ (using here the assumption that $\mathcal{V}$ is a [[Bénabou cosmos]], hence [[cocomplete category|cocomplete]], hence with all [[coproducts]]).
 \end{example}
 
 ## Related concepts
