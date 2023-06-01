@@ -50,6 +50,11 @@ There are always two ways to think of topos theory: as being
 
 ### Original texts
 
+Discussion in [[algebraic topology]]:
+
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+
 Discussion in [[algebraic geometry]]:
 
 * {#SGA4} [[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]] (eds.), _Théorie des Topos et Cohomologie Etale des Schémas - SGA 4_ , LNM **269** Springer Heidelberg 1972.
