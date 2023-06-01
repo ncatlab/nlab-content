@@ -274,11 +274,11 @@ where
 
 * "$(-)^{-1}$" denotes forming [[preimages]]
 
-* "$\setminus$" denotes [[complements]].
+* "$\setminus$" denotes forming [[complements]].
 
 \end{example}
 \begin{proof}
-We discuss in more detail how to obtain the fibers (eq:FibersOfPushoutProductOfMapsOfSets)
+We discuss in more detail how to obtain the fibers (eq:FibersOfPushoutProductOfMapsOfSets).
 
 To see the first case: By the assumption that $x' \,\in\, im(f)$ we find $x_1 \in f^{-1}\big(\{x'\}\big)$ and hence by (eq:ThePushoutProductMapForSets) we find $[x_1,y'] \,\in\, \big(f \widehat{\times} g\big)_{(x',y')}$. 
 But since also $y' \,\in\, im(g)$ there is also $y \in g^{-1}\big(\{y'\}\big)$ and hence
@@ -479,7 +479,7 @@ where the top row is the unique map on the initial object by assumption whence i
 \label{PushoutProductWithAnIdentity}
 **(pushout product with identity is identity morphism)**
 \linebreak
-With respect to any [[bifunctor]] $\otimes \,\colon\, \mathcal{C} \times \mathcal{C} \to \mathcal{C}$, the pushout-product with with an [[identity morphism]] is an identity morphim:
+With respect to any [[bifunctor]] $\otimes \,\colon\, \mathcal{C} \times \mathcal{C} \to \mathcal{C}$, the pushout-product with with an [[identity morphism]] is an identity morphism:
 $$
   f \widehat{\otimes} id
   \;\simeq\;
