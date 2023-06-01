@@ -331,6 +331,10 @@ That therefore in particular categories of [[phase spaces]] and [[categories of 
 
 For more exposition along these lines see [Baez & Stay (2009)](#BaezStay09).
 
+Interpreting the [[linear logic]]-sector of [[bunched logic]] as a quantum logic:
+
+* [[Li Zhou]], [[Gilles Barthe]], [[Justin Hsu]], [[Mingsheng Ying]], [[Nengkun Yu]], *A Quantum Interpretation of Bunched Logic for Quantum Separation Logic*, LICS '21: Proceedings of the 36th Annual ACM/IEEE Symposium on Logic in Computer Science  75 (2021) 1–14 &lbrack;[arXiv:2102.00329](https://arxiv.org/abs/2102.00329), [doi:10.1109/LICS52264.2021.9470673](https://doi.org/10.1109/LICS52264.2021.9470673)&rbrack;
+
 
 ### Review and Exposition
 
