@@ -701,7 +701,7 @@ This proof that simplicial groups are Kan complexes is originally due to theorem
 
 which appears in more detail as Theorem 3 on p. 18-04 of
 
-* {#Moore54} [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam:SHC_1954-1955__7_2_A8_0](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
+* {#Moore54} [[John Moore]], *Homotopie des complexes monoideaux, I*, Seminaire Henri Cartan (1954-55) &lbrack;[numdam:SHC_1954-1955__7_2_A8_0](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)&rbrack; 
  
 and is often attributed to
 
