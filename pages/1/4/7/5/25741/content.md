@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+
+
 A *base of enrichment* is a [[monoidal category]] $V$ over which one intends to do $V$-[[enriched category]] theory. It can also mean a bicategory (or something similar) in which enrichment takes place. See [[enriched category]] for more. 
 
 Frequently, but not always, $V$ will be a [[Benabou cosmos]], so that one has enough infrastructure available to carry out enriched versions of categorical constructions that one would like, for example [[functor categories]], [[tensor products of enriched categories]], various sorts of [[weighted limits]] and [[weighted colimits]], and so on. 
