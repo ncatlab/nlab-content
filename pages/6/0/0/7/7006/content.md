@@ -37,6 +37,22 @@ A proposal for the case $n = \infty$ (potentially describing [[(∞,∞)-categor
 
 A proposal for the case $n = 1$ with the directed analog of the [[univalence axiom]] included --- hence for a type theory whose types may be interpreted as [[(∞,1)-categories]]/[[(∞,2)-sheaves]] and which itself would be the [[internal language]] of the [[(∞,2)-category|$(\infty,2)$-categories]]/[[(∞,2)-topos|$(\infty,2)$-toposes]] that these form --- is announced in [Cisinski et al. (2023)](#CisinskiEtAl23).
 
+## Appeal and usability
+
+One obvious reason for studying directed homotopy type theory (especially when $n = \infty$ in the above) is generality:  $(\infty,\infty)$-categories are the most general higher categorical structures. Besides this reason, access to higher directed structure has, in particular, also has the following (conceptual) type-theoretic advantages.
+
+* _Universe types can retain their higher directed structure._ [[type universe|Universe types]] are (small) 'internal' reflections of the category of all types of our type theory, but without sufficient higher structure in the theory, this reflection process must forget structure present in the external category (for instance, the category of sets can only contain a 'set of sets' as an object which does not remember functions; similarly, the universe type in [[homotopy type theory]] must forget about maps between types that are not equivalences).
+
+* _Dependent function types become 'just' function types._ In the presence of higher directed structure, equipped with a universe type $\mathcal{U}$ and unit type $\mathbf{1}$, dependent function types $\Pi_{x : A} F(x)$, for $F$ a type family $F : A \to \mathcal{U}$, can be understood in terms of 'just' function types, namely, as $\mathsf{Fun}_{\mathsf{Fun}(A,\mathcal{U})}(\mathrm{const}_{\mathbf{1}}, F)$ (where $\mathrm{const}_{\mathbf{1}} : A \to \mathcal{U}$ is the constant functor with image $\mathbf{1}$).
+
+* _Inductive types become substantially more expressive._ Inductive types with dependent constructors can also be expressed in terms of non-dependent constructors: for instance, for $F$ a type family $F : A \to \mathcal{U}$, the dependent pair type $\Sigma_{x : A} F(x)$ can be introduced with a single constructor $\mathrm{in} : F \to \mathrm{const}_{\Sigma_{x : A} F(x)}$ (which is a map in the function type $\mathsf{Fun}(A, \mathcal{U})$ and should thus be thought of as a natural transformation between functors). Moreover, there is a there is the topic of [[higher inductive types]]; a useful example of a 'true' directed higher inductive type is the [[poset]] type $(\mathbb{N},\leq)$ with constructors
+$$ 0 : \mathbf{1} \to \mathbb{N} $$
+$$ \mathsf{succ} : \mathbb{N} \to \mathbb{N} $$
+$$ \mathsf{less} : \id_{\mathbb{N}} \to \mathsf{succ} $$
+
+
+On the other hand, it has been argued that directed higher type theories may not provide advances in the practical usability of proof assistants.
+
 ## Related concepts
 
 * [[directed univalence axiom]]
