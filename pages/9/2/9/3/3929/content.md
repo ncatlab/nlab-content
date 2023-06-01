@@ -29,6 +29,11 @@ On [[limits]] and [[colimits]] and [[exponential objects]] in the [[category]] [
 
 * {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
 
+On [[continuous functors]] (and introducing the notion of [[orthogonal factorization systems]]):
+
+* [[Peter Freyd]], [[Max Kelly]], *Categories of continuous functors*, J. Pure. Appl. Algebra **2** (1972) 169-191 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90001-1">doi:10.1016/0022-4049(72)90001-1</a>&rbrack;
+
+
 
 On [[enriched category theory]]:
 
