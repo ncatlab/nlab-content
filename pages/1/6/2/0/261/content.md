@@ -343,7 +343,7 @@ The original definition:
 
 Further early discussions (aimed at [[simplicial homotopy theory]]):
 
-* [[Pierre Gabriel]], [[Michel Zisman]], *[[Calculus of fractions and homotopy theory]]*
+* [[Pierre Gabriel]], [[Michel Zisman]], Chapter II of *[[Calculus of fractions and homotopy theory]]*, Ergebnisse der Mathematik und ihrer Grenzgebiete **35**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
 * [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
