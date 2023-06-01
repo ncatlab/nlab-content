@@ -31,6 +31,8 @@
 
   * [[pseudomonic functor]]
 
+  * ([[cocontinuous functor|co]])[[continuous functor]]
+
   * [[final functor]]
 
 * **[[2-functors]]**
