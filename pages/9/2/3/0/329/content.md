@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Strict $2$-categories
 * table of contents
 {: toc}
@@ -99,8 +100,9 @@ satisfying the following properties:
 The construction in the last axiom is the _horizontal composite_ $\theta \circ \eta\colon h \circ f \to i \circ g$.  It is possible (and probably more common) to take the horizontal composite as basic and the whiskerings as derived operations.  This results in fewer, but more complicated, axioms.
 
 ## 2-categories as sesquicategories 
+ {#AsSesquicategories}
 
-The fine-grained description in the [previous subsection](/nlab/show/strict+2-category#detailedDefn) can be concisely repackaged by saying that a 2-category is a [[sesquicategory]] that satisfies the interchange axiom, i.e., the last axiom (12) which gives the horizontal composite construction. This description is essentially patterned after the "five rules of functorial calculus" introduced by [Godement (1958)](#Godement58) for the special case [[Cat]]. 
+The fine-grained description in the [previous subsection](#detailedDefn) can be concisely repackaged by saying that a 2-category is a [[sesquicategory]] that satisfies the interchange axiom, i.e., the last axiom (12) which gives the [[horizontal composition]]-construction. This description is essentially patterned after the "five rules of functorial calculus" introduced by [Godement (1958)](#Godement58) for the special case [[Cat]]. 
 
 So to say it again, but a little differently: a sesquicategory consists of a category $K$ (giving the $0$-cells and $1$-cells) together with a functor 
 
@@ -130,10 +132,11 @@ Literature references for the abstract notion of [[sesquicategory]], a structure
 
 
 ## References 
+ {#References}
 
-Original articles:
+The "five rules of functorial calculus" ([above](#AsSesquicategories)) were formulated (as: *cinq règles de calcul fonctoriel*) in:
 
-* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement)&rbrack;
+* {#Godement58} [[Roger Godement]], Appendice (pp. 269) of:  *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
  
 (Wikipedia [asserts](https://en.wikipedia.org/wiki/Strict_2-category) that the definition of strict 2-categories is also due to [[Charles Ehresmann]]'s *Catégories et structures* (Dunod, Paris, 1965), but so far we have been unable to identify it there.)
 
