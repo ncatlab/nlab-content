@@ -60,9 +60,9 @@ See also
 
 Review of the grand perspective with emphasis on [[noncommutative geometry]] ([[fuzzy spheres]]):
 
-* {#Steinacker10} [[Harold Steinacker]], _Emergent Geometry and Gravity from Matrix Models: an Introduction_, Class. Quant. Grav.27: 133001, 2010 ([arXiv:1003.4134](https://arxiv.org/abs/1003.4134))
+* {#Steinacker10} [[Harold Steinacker]], *Emergent Geometry and Gravity from Matrix Models: an Introduction*, Class. Quant. Grav. **27** (2010) 133001  &lbrack;[arXiv:1003.4134](https://arxiv.org/abs/1003.4134)&rbrack;
 
-* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 &lbrack;[arXiv:1109.5521](https://arxiv.org/abs/1109.5521)&rbrack;
 
 * {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
@@ -83,11 +83,13 @@ Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geomet
 
 Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKKT matrix model]]:
 
-* [[Harold Steinacker]], _Higher-spin gravity and torsion on quantized space-time in matrix models_ ([arXiv:2002.02742](https://arxiv.org/abs/2002.02742))
+* [[Harold Steinacker]], *Higher-spin gravity and torsion on quantized space-time in matrix models*, Journal of High Energy Physics **2020** 111 (2020) &lbrack;[arXiv:2002.02742](https://arxiv.org/abs/2002.02742), <a href="https://doi.org/10.1007/JHEP04(2020)111">doi:10.1007/JHEP04(2020)111</a>&rbrack;
 
-* [[Harold Steinacker]], *Gravity as a Quantum Effect on Quantum Space-Time* ([arXiv:2110.03936](https://arxiv.org/abs/2110.03936))
+* [[Harold Steinacker]], *Gravity as a Quantum Effect on Quantum Space-Time*, Phys.Lett. B **827** (2022) 136946 &lbrack;[arXiv:2110.03936](https://arxiv.org/abs/2110.03936), [doi:10.1016/j.physletb.2022.136946](https://doi.org/10.1016/j.physletb.2022.136946)&rbrack;
 
-* [[Yuhma Asano]], [[Harold Steinacker]], *Spherically symmetric solutions of higher-spin gravity in the IKKT matrix model* ([arXiv:2112.08204](https://arxiv.org/abs/2112.08204))
+* [[Yuhma Asano]], [[Harold Steinacker]], *Spherically symmetric solutions of higher-spin gravity in the IKKT matrix model*, Nuclear Physics B **980** (2022) 115843 &lbrack;[arXiv:2112.08204](https://arxiv.org/abs/2112.08204), [doi:10.1016/j.nuclphysb.2022.115843](https://doi.org/10.1016/j.nuclphysb.2022.115843)&rbrack;
+
+* [[Harold Steinacker]], Tung Tran, *Spinorial higher-spin gauge theory from IKKT in Euclidean and Minkowski signatures* &lbrack;[arXiv:2305.19351](https://arxiv.org/abs/2305.19351)&rbrack; 
 
 
 Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
