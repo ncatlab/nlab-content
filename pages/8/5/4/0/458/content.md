@@ -506,6 +506,10 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 ## References 
 
+An early paper, containing much of the basic theory, and in which the term "locale" is introduced: 
+
+* [[John R. Isbell]], *Atomless Parts of Spaces*, Mathematica Scandinavica, 31 (1972), 5–32. [https://doi.org/10.7146/math.scand.a-11409](https://doi.org/10.7146/math.scand.a-11409) 
+
 An introduction to and survey of the use of locales instead of topological spaces ("[[point-free topology]]") is in
 
 * {#Johnstone83} [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41--53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html), [Euclid](http://projecteuclid.org/euclid.bams/1183550014))
