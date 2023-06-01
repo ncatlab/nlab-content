@@ -75,7 +75,7 @@ Thursday, June 7
 
 14:00 - 15:00	Pino Rosolini: Embedding the effective topos into cubical assemblies
 
-15:00 - 16:00	Fabio Pasquali: Assemblies as an elementary quotient completion
+15:00 - 16:00	[[Fabio Pasquali]]: Assemblies as an elementary quotient completion
 
 16:30 - 17:30	Hugo Herbelin: Investigations into cubical type theory
 
