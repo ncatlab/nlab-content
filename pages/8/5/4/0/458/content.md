@@ -508,20 +508,20 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 An early paper, containing much of the basic theory, and in which the term "locale" is introduced: 
 
-* [[John R. Isbell]], *Atomless Parts of Spaces*, Mathematica Scandinavica, 31 (1972), 5–32. [https://doi.org/10.7146/math.scand.a-11409](https://doi.org/10.7146/math.scand.a-11409) 
+* [[John R. Isbell]], *Atomless Parts of Spaces*, Mathematica Scandinavica **31** (1972) 5–32 &lbrack;[doi:10.7146/math.scand.a-11409](https://doi.org/10.7146/math.scand.a-11409)&rbrack;
 
-An introduction to and survey of the use of locales instead of topological spaces ("[[point-free topology]]") is in
+An introduction to and survey of the use of locales instead of topological spaces ("[[point-free topology]]"):
 
-* {#Johnstone83} [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41--53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html), [Euclid](http://projecteuclid.org/euclid.bams/1183550014))
+* {#Johnstone83} [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) **8** 1 (1983), 41-53 &lbrack;[Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html), [Euclid](http://projecteuclid.org/euclid.bams/1183550014)&rbrack;
 
 This is, in its own words, to be read as the trailer for the book
 
-*  [[Peter Johnstone]], _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+*  [[Peter Johnstone]], _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press (1982, 1986) xxi+370 pp. &lbrack;[MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074)&rbrack;
 
-that develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological space]]s. See [[Stone Spaces]] for details.
+that develops, among other things, much of [[general topology]] entirely with the notion of locales used in place of that of [[topological spaces]]. See also *[[Stone Spaces]]* for more.
 
 
-Other textbook accounts include
+Other textbook accounts:
 
 * [[Francis Borceux]], volume 3, chapter 1 of _[[Handbook of Categorical Algebra]]_, 
 
