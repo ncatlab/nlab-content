@@ -6,13 +6,13 @@ Finished PhD in 2014 at [Cambridge](https://www.maths.cam.ac.uk/) with [[Martin 
 
 On [[categorical algebra]], [[enriched categories]], and [[Grothendieck fibrations]]:
 
-* [[Martin Hyland]], [[Ignacio López Franco]] and [[Christina Vasilakopoulou]], _Hopf Measuring Comonoids and Enrichment_. Proceedings of the London Mathematical Society, 2017, Vol. 115, Issue 5, pp. 1118-1148. ([LMS](https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/plms.12064)) ([arxiv](https://arxiv.org/abs/1509.07632))
+* [[Martin Hyland]], [[Ignacio López Franco]] and [[Christina Vasilakopoulou]], _Hopf measuring C-comonoids and enrichment_. Proceedings of the London Mathematical Society __115__:5 (2017) 1118-1148. (LMS [doi](https://doi.org/10.1112/plms.12064)) ([arXiv:1509.07632](https://arxiv.org/abs/1509.07632))
 
-* [[Christina Vasilakopoulou]], _On Enriched Fibrations_. Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. LIX, Issue 4, 2018. ([pdf](http://cahierstgdc.com/wp-content/uploads/2018/10/Vasilakopoulou-LIX-4.pdf))
+* [[Christina Vasilakopoulou]], _On enriched fibrations_. Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. LIX, Issue 4, 2018. ([pdf](http://cahierstgdc.com/wp-content/uploads/2018/10/Vasilakopoulou-LIX-4.pdf))
 
-* [[Christina Vasilakopoulou]], _Enriched Duality in Double Categories: V-categories and V-cocategories_. Journal of Pure and Applied Algebra, Volume 223, Issue 7, 2019, pp. 2889-2947, 2019. ([JPAA](https://www.sciencedirect.com/science/article/pii/S0022404918302433)) ([arxiv](https://arxiv.org/abs/1704.00329))
+* [[Christina Vasilakopoulou]], _Enriched Duality in Double Categories: V-categories and V-cocategories_. Journal of Pure and Applied Algebra __223__:7 (2019) 2889-2947 ([JPAA](https://www.sciencedirect.com/science/article/pii/S0022404918302433)) ([arXiv:1704.00329](https://arxiv.org/abs/1704.00329))
 
-* [[Mitchell Buckley]], [[Timmy Fieremans]], [[Christina Vasilakopoulou]], [[Joost Vercruysse]], _A Larson-Sweedler Theorem for Hopf V-Categories_. 2019. ([arxiv](https://arxiv.org/abs/1908.02049))
+* [[Mitchell Buckley]], [[Timmy Fieremans]], [[Christina Vasilakopoulou]], [[Joost Vercruysse]], _A Larson-Sweedler Theorem for Hopf V-Categories_ ([arXiv:1908.02049](https://arxiv.org/abs/1908.02049))
 
 
 On the [[monoidal Grothendieck construction]]:
@@ -29,6 +29,6 @@ On [[dynamical systems]] and their [[categorical systems theory]]:
 
 On [[categorical systems theory]]:
 
-* [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1–57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
+* [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1--57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
 
 category: people
