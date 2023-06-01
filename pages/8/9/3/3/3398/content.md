@@ -71,7 +71,7 @@ Finishing the motivating example, a __[[flat functor]]__ may be defined as one t
 
 ## Related concepts
 
-* **preserved limit**
+* ([[cocontinuous functor|co]])[[continuous functor]]
 
 * [[reflected limit]]
 
