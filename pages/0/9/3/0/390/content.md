@@ -300,6 +300,8 @@ Similarly, we can have a [[factorization system in an (∞,1)-category]], and so
   * [[stable factorization system]]
 
 * [[factorization system in a 2-category]]
+  
+  * [[enhanced factorization system]]
 
 * [[factorization system in an (∞,1)-category]]
 
