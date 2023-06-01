@@ -49,7 +49,7 @@ $$
   \;\colon\;
   \mathcal{C}(X,Y)
   \otimes
-  \mathcal{C}(y,Z)
+  \mathcal{C}(Y,Z)
   \longrightarrow
   \mathcal{C}(Y,Z)
 $$
