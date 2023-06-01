@@ -108,7 +108,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 **[[CoqQ]]:**
 
-* {#YingEtAl22} Li Zhou, [[Gilles Barthe]], Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* $[$[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)$]$
+* {#YingEtAl22} [[Li Zhou]], [[Gilles Barthe]], Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* $[$[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)$]$
 
 
 \linebreak
