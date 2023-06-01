@@ -135,11 +135,8 @@ Original articles:
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement)&rbrack;
  
-* {#Ehresmann65} [[Charles Ehresmann]], *Catégories et structures*, Dunod, Paris (1965)
+(Wikipedia [asserts](https://en.wikipedia.org/wiki/Strict_2-category) that the definition of strict 2-categories is also due to [[Charles Ehresmann]]'s *Catégories et structures* (Dunod, Paris, 1965), but so far we have been unable to identify it there.)
 
-parts of which is available in:
-
-* [[Charles Ehresmann]], *Catégories et structures : extraits*, Séminaire Ehresmann. Topologie et géométrie différentielle **6** (1964) 1-31 &lbrack;[eudml:112200](https://eudml.org/doc/112200)&rbrack;
 
 Exposition and review:
 
@@ -154,6 +151,9 @@ Exposition and review:
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 2.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
+See also 
+
+* Wikipedia, *[Strict 2-category](https://en.wikipedia.org/wiki/Strict_2-category)*
 
 The special case of [[strict (2,1)-categories]]:
 
