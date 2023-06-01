@@ -81,6 +81,9 @@ Classical accounts:
  
 * [[A. Grothendieck]], _[[Tohoku|Sur quelques points d'algèbre homologique]]_ (1957)  ([part1](http://projecteuclid.org/euclid.tmj/1178244774), [part2](http://projecteuclid.org/euclid.tmj/1178244774))
 
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+
 * [[Saunders MacLane]], *Homology*, Grundlehren der Mathematischen Wissenschaften **114**, Springer (1963, 1974), reprinted as: Classics in Mathematics, Springer (1995)  &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maclane_homology.pdf), [doi:10.1007/978-3-642-62029-4](https://doi.org/10.1007/978-3-642-62029-4)&rbrack;
 
 * {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
