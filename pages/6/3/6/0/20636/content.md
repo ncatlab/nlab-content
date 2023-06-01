@@ -1,4 +1,5 @@
-Finished PhD in 2014 at [Cambridge](https://www.maths.cam.ac.uk/) with [[Martin Hyland]]. She works on [[enriched categories]], [[categorical algebra]], and [[applied category theory]].
+Finished PhD in 2014 at [Cambridge](https://www.maths.cam.ac.uk/) with [[Martin Hyland]]. She works on [[enriched categories]], [[categorical algebra]], and [[applied category theory]]. 
+Christina is currently an Assistant Professor at the School of Applied Mathematical and Physical Sciences, National Technical University of Athens, Greece.
 
 Personal Website [1](https://thalis.math.upatras.gr/~cvasilak) [2](http://www.math.ntua.gr/~cvasilak) 
 
@@ -28,8 +29,6 @@ On [[database theory]]:
 * [[Vasilis Spiropoulos]] and [[Christina Vasilakopoulou]], _Digree: A Middleware for a Graph Databases Polystore_. 2016 IEEE International Conference on Big Data (Big Data)
 
 On [[dynamical systems]] and their [[categorical systems theory]]:
-
-On [[categorical systems theory]]:
 
 * [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1--57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
 
