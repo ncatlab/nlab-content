@@ -1,7 +1,6 @@
 [[!redirects T. M. Schlank]]
 
-Tomer Schlank is Simons Postdoctoral Fellow working in 
-Arithmetic Geometry, Arithmetic Topology in the Mathematics Department at MIT.
+Tomer Schlank is a Professor at The Hebrew University of Jerusalem working in Homotopy Theory and Arithmetic Geometry. Previously, he was a Simons Postdoc in the Mathematics Department at MIT.
 
 
 
