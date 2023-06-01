@@ -326,6 +326,11 @@ $$
 
 ## References 
 
+Original texts:
+
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+ 
+
 The traditional definition of sheaf cohomology in terms of the right [[derived functor]] of the [[global sections]] functor:
 
 * [[Ugo Bruzzo]], _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
