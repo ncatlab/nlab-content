@@ -4,11 +4,15 @@ Roger Godement (1 October, 1921 - July 21, 2016) was a French mathematician, spe
 
 * [Website](http://godement.eu/site/) (in French)
 
-## Principal works
+## Selected writings
+ {#SelectedWritings}
 
-* _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
+On [[algebraic topology]], [[homological algebra]] and [[sheaf theory]] for [[abelian sheaf cohomology]]:
 
-## Related $n$Lab entries
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+
+## Related entries
 
 * [[flabby sheaf]], [[soft sheaf]]
 
@@ -16,4 +20,7 @@ Roger Godement (1 October, 1921 - July 21, 2016) was a French mathematician, spe
 
 * [[functional equation]]
 
+* [[strict 2-category]]
+
 category: people
+
