@@ -140,7 +140,8 @@ The construction of quotient stacks $X\sslash G$ as [[prestacks]] of $G$-[[princ
 
 Discussion of sufficient conditions for this construction to really yield a [[stack]] (instead of just a [[prestack]]):
 
-* [[Elena Caviglia]], *Generalized principal bundles and quotient stacks* &lbrack;[arXiv:2302.07852](https://arxiv.org/abs/2302.07852)&rbrack;
+* [[Elena Caviglia]], *Generalized principal bundles and quotient stacks*, Theory and Applications of Categories **39** 20 (2023) 567-597  &lbrack;[arXiv:2302.07852](https://arxiv.org/abs/2302.07852), [tac:39-20](http://www.tac.mta.ca/tac/volumes/39/20/39-20abs.html)&rbrack;
+
 
 ### As fibrations over $\mathbf{B}G$
  {#ReferencesAsFibrationsOverBG}
