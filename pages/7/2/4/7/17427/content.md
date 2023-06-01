@@ -167,7 +167,7 @@ The original articles:
 
   {#Pym08Errata} Errata and Remarks for *The Semantics and Proof Theory of the Logic of Bunched Implications* (2008) &lbrack;[pdf](https://www.cantab.net/users/david.pym/BI-monograph-errata.pdf), [[Pym-BI-Errata.pdf:file]]&rbrack;
 
-  > &lbrack;[p. 5](www0.cs.ucl.ac.uk/staff/D.Pym/BI-monograph-errata.pdf#page=5)&rbrack; "Items 3, 4, and 5 in the errata for Chapter 12 and 4, 5 in Chapter 13, whilst necessary to fix a technical problem, leave us in a conceptually and computationally undesirable situation: we have no clean characterization of a useful notion of well-formedness, leading to obvious computational difficulties in, say, theorem proving. We conclude that such a highly multiplicative system is far too complex, at least in its current formulation, to be of much value. All of the applications of multiplicative quantifiers known to-date require much simpler systems. It is the author's recommendation that readers should not devote very much of their resources to studying the system of predicate BI discussed in these chapters"
+  > &lbrack;[p. 5](https://ncatlab.org/nlab/files/Pym-BI-Errata.pdf#page=5)&rbrack; "Items 3, 4, and 5 in the errata for Chapter 12 and 4, 5 in Chapter 13, whilst necessary to fix a technical problem, leave us in a conceptually and computationally undesirable situation: we have no clean characterization of a useful notion of well-formedness, leading to obvious computational difficulties in, say, theorem proving. We conclude that such a highly multiplicative system is far too complex, at least in its current formulation, to be of much value. All of the applications of multiplicative quantifiers known to-date require much simpler systems. It is the author's recommendation that readers should not devote very much of their resources to studying the system of predicate BI discussed in these chapters"
 
 
 * {#O'Hearn03} [[Peter O'Hearn]], *On bunched typing*, Journal of Functional Programming **13** 4 (2003) 747-796 &lbrack;[doi:10.1017/S0956796802004495](https://doi.org/10.1017/S0956796802004495)&rbrack;
@@ -178,6 +178,14 @@ Review and further development:
  
 
 * Brotherston and Calcagno, *Classical BI: Its Semantics and Proof Theory*, [arxiv](http://arxiv.org/abs/1005.2340)
+
+
+Discussion of bunched logic with the [[linear logic]]-part regarded as a [[quantum logic]]:
+
+* [[Li Zhou]], [[Gilles Barthe]], [[Justin Hsu]], [[Mingsheng Ying]], [[Nengkun Yu]], *A Quantum Interpretation of Bunched Logic for Quantum Separation Logic*, LICS '21: Proceedings of the 36th Annual ACM/IEEE Symposium on Logic in Computer Science  75 (2021) 1–14 &lbrack;[arXiv:2102.00329](https://arxiv.org/abs/2102.00329), [doi:10.1109/LICS52264.2021.9470673](https://doi.org/10.1109/LICS52264.2021.9470673)&rbrack;
+
+
+
 
 A bunched [[dependent type theory]], to some extent:
 
