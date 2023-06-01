@@ -41,5 +41,5 @@ CoqQ uses an analytic formalization of ([[finite dimensional vector space|finite
 
 ## References
 
-* {#YingEtAl22} Li Zhou, [[Gilles Barthe]], Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)&rbrack;
+* {#YingEtAl22} [[Li Zhou]], [[Gilles Barthe]], Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)&rbrack;
 
