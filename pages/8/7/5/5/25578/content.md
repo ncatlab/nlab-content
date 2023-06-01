@@ -91,7 +91,7 @@ $$
   \mathcal{C}(X,Y)
   \overset{}{\longrightarrow}
   \ast
-  \overset{id_Y}{\longrightarrow}
+  \overset{id_X}{\longrightarrow}
   \mathcal{C}(X,X)
   \,.
 $$
