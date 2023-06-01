@@ -161,19 +161,32 @@ This is [Bergner (2008), Prop. 2.5](#Bergner08).
 \begin{remark}
 Forming simplicial [[delooping groupoids]] constitutes a [[fully faithful functor]] of [[1-categories]] from [[simplicial groups]] to [[sSet]]-[[enriched groupoids]] (DK-[[simplicial groupoids]]):
 
-$$
+\[
+  \label{SimplicialDeloopingGroupoid}
   \array{
     sGrp &\hookrightarrow& sSet\text{-}Grpd
     \\
     \mathcal{G} &\mapsto& \mathbf{B}\mathcal{G}
     \mathrlap{\,.}
   }
-$$
+\]
 
 With respect to the above model structure (Prop. \ref{TheModelStructure}) this functor clearly preserves the [[weak equivalences]] and [[fibrations]] of the [[model structure on simplicial groups]]. However, it does not have a [[left adjoint]] and thus fails to be a [[right Quillen functor]].
 \end{remark}
 
 
+### Relation to skeletal simplicial groupoids
+
+The following proposition assumes the [[axiom of choice]] in the underlying category of [[Sets]].
+
+\begin{proposition}
+\label{BifibrantResolutionBySkeleta}
+  Every $\mathbf{X} \,\in\, sSet\text{-}Grpd$ has a [[bifibrant object|bifibrant]] [[resolution]] by a [[skeletal groupoid]].
+\end{proposition}
+Here we mean a skeletal [[sSet]]-[[enriched groupoid]], hence a [[disjoint union]] of simplicial [[delooping groupoids]] (eq:SimplicialDeloopingGroupoid).
+\begin{proof}
+  By the existence of the model structure (Prop. \ref{TheModelStructure}) all objects admit a [[cofibrant resolution]]. Moreover every $sSet$-groupoid has a [[deformation retraction]] onto a skeleton (by [this Prop.](simplicial+groupoid#SimplicialGroupoidsAdjointEquivalentToSkeleta), assuming the [[axiom of choice]]), and since cofibrancy is [preserved](model+category#ClosureOfMorphisms) by [[retraction]] it follows that every $\mathbf{X}$ has a [[cofibrant resolution]] by a skeleton. To conclude we just need to see that skeletal simplicial groupoids are fibrant, which is the case by [Moore's theorem](simplicial+group#EverySimplicialGroupIsAKanComplex).
+\end{proof}
 
 ### Relation to simplicial sets
 
