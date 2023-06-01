@@ -425,7 +425,7 @@ $$
   \,.
 $$
 
-Then for $X$ any [[space]] regarded as an [[∞-stack]] on $C$, a "quasicorent $\infty$-stack of modules" on $X$ is a morphism 
+Then for $X$ any [[space]] regarded as an [[∞-stack]] on $C$, a "quasicoherent $\infty$-stack of modules" on $X$ is a morphism 
 
 $$
   X \to Mod
