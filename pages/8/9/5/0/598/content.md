@@ -66,8 +66,8 @@ The [[category]] of simplicial groups is the category of functors from $\Delta^{
 
 
 \begin{theorem}\label{EverySimplicialGroupIsAKanComplex}
-The [[simplicial set]] underlying any simplicial group
-(by forgetting the group structure) is a [[Kan complex]].
+The [[simplicial set]] [[underlying]] any simplicial group
+(by [[forgetful functor|forgetting]] the group [[structure]]) is a [[Kan complex]].
 \end{theorem}
 
 This is due to [Moore 1954, Theorem 3 on p. 18-04](#Moore54), review in [Quillen 67, II 3.8](#Quillen67), [May 67, Theorem 17.1](#MaySimplicialObjects),$\;$ [Curtis 1971, Sec. 3, Lem. 3.1](#Curtis71), $\;$ [Weibel 1994, Lem. 8.2.8](#Weibel94), $\;$ [Joyal & Tierney 2005, p. 14](#JoyalTierney05).
