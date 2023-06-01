@@ -316,6 +316,14 @@ Factorisation systems appear to have been first studied by [[Mac Lane]] in the f
 
 * [[Saunders Mac Lane]]. _Duality for groups_. Bulletin of the American Mathematical Society 56.6 (1950): 485-516.
 
+The definition of orthogonal factorisation system essentially appears as a "factorization" in:
+
+* [[Peter Freyd]], [[Max Kelly]], _Categories of continuous functors_ J. Pure. Appl. Algebra 2 (1972) 169-191. ([doi](https://doi.org/10.1016/0022-4049(72)90001-1))
+
+and appears as "factorization system" in:
+
+* Aldridge Bousfield. _Constructions of factorization systems in categories_. Journal of Pure and Applied Algebra 9.2-3 (1977): 207-220. ([doi](https://doi.org/10.1016/0022-4049(77)90067-6))
+
 See also:
 
 * [[André Joyal]], _[[joyalscatlab:Factorization systems]]_
