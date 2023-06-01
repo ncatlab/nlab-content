@@ -149,7 +149,9 @@ Then:
 
 Consider any [[object]]
 $$
-  \mathcal{W}_{\mathcal{Y}} \,\in\, \int \mathbf{C}
+  \mathcal{W}_{\mathcal{Y}} 
+    \,\in\, 
+  \textstyle{\int} \mathbf{C}
 $$
 and any [[diagram]]
 $$
