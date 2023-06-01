@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc} 
@@ -124,6 +125,23 @@ For instance, a one-object [[sSet]]-groupoid (Exp. \ref{SimplicialGroupoid}) is 
 * [[internal groupoid]], [[internal group]]
 
 * [[groupoid object in an (∞,1)-category]]
+
+## References
+
+The notion of enriched groupoids is [[folklore]], originating in the special case of enrichment over [[sSet]], where it is traditionally discussed, going back to [Dwyer & Kan (1980)](simplicial+groupoid#DwyerKan80), [(1984)](simplicial+groupoid#DwyerKan84), in the guise of [[simplicial objects]] in [[Grpd]] with discrete simplicial set of objects and then referred to (inaccurately) as *[[simplicial groupoids]]* (see there for more).
+
+Later
+
+* [[John F. Jardine]], §9.3 in: *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
+
+switches to the terminology of *enriched groupoids* over simplicial sets (but still does not give the definition of enriched groupoids).
+
+References that make the general definition of enriched groupoids explicit:
+
+* [[Jacopo Emmenegger]], [[Fabio Pasquali]], [[Giuseppe Rosolini]], §3 in: *Elementary fibrations of enriched groupoids*, Mathematical Structures in Computer Science **31** 9 (2021) 958-978 &lbrack;[doi:10.1017/S096012952100030X](https://doi.org/10.1017/S096012952100030X)&rbrack;
+
+  > (discussed as [[categorical semantics]] for [[homotopy type theory]])
+
 
 [[!redirects enriched groupoids]]
 
