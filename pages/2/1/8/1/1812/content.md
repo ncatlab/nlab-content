@@ -91,4 +91,11 @@ Apparently there is no written account by [[Jean Bénabou]] of his definition of
 
 [[!redirects cosmos for enrichment]]
 
+[[!redirects base of enrichment]]
+[[!redirects bases of enrichment]]
+
+
+[[!redirects base for enrichment]]
+[[!redirects bases for enrichment]]
+
 
