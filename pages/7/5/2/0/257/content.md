@@ -160,9 +160,15 @@ There are several notions of [[category with weak equivalences]] with similar bu
 ### Closure of morphism classes under retracts
  {#ClosureOfMorphisms}
 
-As a consequence of the definition, the classes $Cof, Fib$,  and $W$ are all closed under [[retracts]] in the [[arrow category]] $Arr C$ and under composition and contain the [[isomorphisms]] of $C$. 
+As a consequence of the definition, the classes $Cof, Fib$,  and $W$ each
 
-For $Cof$ and $Fib$ and $W \cap Cof$ and $W \cap Fib$ this and further closure properties are discussed in detail at _[[weak factorization system]]_ in the section _[Closure properties](https://ncatlab.org/nlab/show/weak+factorization+system#ClosureProperties)_.
+* are closed under [[retracts]] in the [[arrow category]] $Arr C$,
+
+* are closed under [[composition]],
+
+* contain all the [[isomorphisms]] of $C$. 
+
+For $Cof$ and $Fib$ and $W \cap Cof$ and $W \cap Fib$ this and further closure properties are discussed in detail at _[[weak factorization system]]_ in the section _[Closure properties](weak+factorization+system#ClosureProperties)_.
 
 In the presence of [[functorial factorizations]], it follows immediately that also $W$ is closed under retracts: for any retract diagram may then be funtorially factored with the middle morphism factored through $W \cap Cof$ followed by $W \cap Fib$, and so the statement follows from the above closure of these classes under retracts.
 
