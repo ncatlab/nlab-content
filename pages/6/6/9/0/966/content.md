@@ -118,11 +118,11 @@ If in addition each $d \downarrow R$ has a weakly initial family (solution set c
 
 =--
 
-In fact, it suffices for $C$ to be [[Cauchy complete]] and for $R$ to be $\alpha$-[[flat functor|flat]] for every $\alpha$ (i.e. for its [[Yoneda extension]] to be continuous). See [Borceux](#Bouceux). 
+In fact, it suffices for $C$ to be [[Cauchy complete]] and for $R$ to be $\alpha$-[[flat functor|flat]] for every $\alpha$ (i.e. for its [[Yoneda extension]] to be [[continuous functor|continuous]]). See [Borceux](#Bouceux). 
 
 +-- {: .proof} 
 ###### Proof of SAFT 
-As before, the proof proceeds by constructing initial objects of comma categories. We assume that $C$ is locally small, small-complete, well-powered, has a cogenerating set $\{c_\alpha: \alpha \in A\}$, and that $R: C \to D$ is a small-continuous functor into a locally small category $D$. 
+As before, the proof proceeds by constructing initial objects of comma categories. We assume that $C$ is locally small, small-complete, well-powered, has a cogenerating set $\{c_\alpha: \alpha \in A\}$, and that $R: C \to D$ is a small-[[continuous functor]] into a [[locally small category]] $D$. 
 
 As before, for each object $d$ of $D$, the comma category $d \downarrow R$ is locally small and small-complete. Moreover, it is easy to check that it is well-powered, and that the set of all objects of the form $d \to R c_\alpha$ is a cogenerating set for $d \downarrow R$. 
 
@@ -156,17 +156,17 @@ Let $F \colon C \to D$ be a functor between [[locally presentable categories]]. 
 
 =--
 
-The second statement, characterizing when $F$ has a left adjoint, is  ([AdamekRosicky, theorem 1.66](#AdamekRosicky)). In the "if" direction, this is an application of the general adjoint functor theorem: any accessible functor satisfies the solution set condition. The "only if", particularly that having a left adjoint forces accessibility, takes a little work. But in any case there are easy examples that show that continuity alone is insufficient, i.e., examples of continuous functors between locally presentable categories that do not have left adjoints. See below in the section [In locally presentable categories](#InLocallyPresentableCategories). 
+The second statement, characterizing when $F$ has a left adjoint, is  ([AdamekRosicky, theorem 1.66](#AdamekRosicky)). In the "if" direction, this is an application of the general adjoint functor theorem: any accessible functor satisfies the solution set condition. The "only if", particularly that having a left adjoint forces accessibility, takes a little work. But in any case there are easy examples that show that continuity alone is insufficient, i.e., examples of [[continuous functors]] between [[locally presentable categories]] that do not have [[left adjoints]]. See below in the section [In locally presentable categories](#InLocallyPresentableCategories). 
 
 The first statement, characterizing when $F$ has a right adjoint, can be proven using the special adjoint functor theorem: by a non-trivial theorem ([AdamekRosicky, theorem 1.58](#AdamekRosicky)), any locally presentable category is co-wellpowered. 
 
-Thus, the first statement can be strengthened by removing the assumption that $D$ is locally presentable: it is enough that $D$ be locally small. For example, if $C$ is locally presentable, then every continuous functor 
+Thus, the first statement can be strengthened by removing the assumption that $D$ is locally presentable: it is enough that $D$ be locally small. For example, if $C$ is locally presentable, then every [[continuous functor]] 
 
 $$C^{op} \to Set$$ 
 
 has a left adjoint (is representable), because its opposite $C \to Set^{op}$ is cocontinuous and therefore has a right adjoint, even though $Set^{op}$ is not locally presentable. 
 
-A right adjoint to any cocontinuous functor $F \colon C \to D$ between locally presentable categories can also be constructed directly. If $C$ is locally $\lambda$-presentable and $P_\lambda$ is the subcategory of $\lambda$-small objects, then $C$ is equivalent to the full subcategory of $[P_\lambda^{op},Set]$ of presheaves that preserve $\lambda$-small limits ([AdamekRosicky, theorem 1.46](#AdamekRosicky)). The presheaves in the image of the functor $D \to [P_\lambda^{op},Set]$ defined by $d \mapsto \hom(F-,d)$ preserve $\lambda$-small limits because $F$ is cocontinuous. So this functor factors through the subcategory $C$. The functor $D \to C$ so-constructed is a right adjoint to $F$.
+A [[right adjoint]] to any [[cocontinuous functor]] $F \colon C \to D$ between [[locally presentable categories]] can also be constructed directly. If $C$ is locally $\lambda$-presentable and $P_\lambda$ is the subcategory of $\lambda$-small objects, then $C$ is equivalent to the full subcategory of $[P_\lambda^{op},Set]$ of presheaves that preserve $\lambda$-small limits ([AdamekRosicky, theorem 1.46](#AdamekRosicky)). The presheaves in the image of the functor $D \to [P_\lambda^{op},Set]$ defined by $d \mapsto \hom(F-,d)$ preserve $\lambda$-small limits because $F$ is cocontinuous. So this functor factors through the subcategory $C$. The functor $D \to C$ so-constructed is a right adjoint to $F$.
 
 
 ## Examples {#Examples}
@@ -370,7 +370,7 @@ $$
 
 ## Related concepts
 
-* **adjoint functor theorem**
+* ([[cocontinuous functor|co]])[[continuous functor]]
 
 * [[indexed adjoint functor theorem]]
 
@@ -392,7 +392,7 @@ where the [[solution set condition]] is called "pre-adjointness".
 
 Careful discussions can be found in
 
-* {#Bouceux} [[Francis Borceux]], *Handbook of Categorical Algebra I*, Cambridge UP, 1994. (sections 3.3, 6.6)
+* {#Bouceux} [[Francis Borceux]], *[[Handbook of Categorical Algebra]] I*, Cambridge UP, 1994. (sections 3.3, 6.6)
 
 * [[Saunders MacLane]], §V.6, V.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
