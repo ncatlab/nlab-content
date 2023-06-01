@@ -17,6 +17,11 @@ On [[category theory]]:
 
 * [[Peter Freyd]], [[Andre Scedrov]], *[[Categories, Allegories]]*, Mathematical Library Vol 39, North-Holland (1990) ([ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2))
 
+On [[continuous functors]] (and introducing the notion of [[orthogonal factorization systems]]):
+
+* [[Peter Freyd]], [[Max Kelly]], *Categories of continuous functors*, J. Pure. Appl. Algebra **2** (1972) 169-191 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90001-1">doi:10.1016/0022-4049(72)90001-1</a>&rbrack;
+
+
 On [[bireflective subcategories]] with [[ambidextrous adjoints]]:
 
 * {#FOPTST99} [[Peter Freyd]], [[Peter O’Hearn]],  [[A. John Power]], [[M. Takeyama]], [[Ross Street]], [[Robert D. Tennent]], *Bireflectivity*, Theoretical Computer Science **228** 1–2 (1999) 49-76 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
