@@ -42,7 +42,7 @@ See also [[enriched category theory]].
 
 ## Definition
 
-Ordinarily enriched categories have been considered as _enriched over_ a [[monoidal category]]. This is discussed in the section
+Ordinarily enriched categories have been considered as _enriched over_ or _enriched in_ a [[monoidal category]]. This is discussed in the section
 
 * [Enrichment in a monoidal category](#InMonoidCat)
 
@@ -54,7 +54,7 @@ Enriched categories and [[enriched functors]] between them form themselves a cat
 
 ### Enrichment in a monoidal category {#InMonoidCat}
 
-Let $V$ be a [[monoidal category]] (possibly, but not necessarily, a [[Bénabou cosmos]]) with
+Let $V$ be a [[monoidal category]] with
 
 * tensor product $\otimes : V \times V \to V$;
 
@@ -120,6 +120,10 @@ $$
 $$
 
 this says that composition is _unital_. 
+
+A monoidal category over which one intends to do enriched category theory may be referred to as a _base of enrichment_; this applies also to [enrichment in a bicategory](#InBicat). 
+
+In practice, one often takes a (monoidal) base of enrichment to be a [[Bénabou cosmos]], in order to have available all the infrastructure needed to carry out common categorical constructions such as enriched [[functor categories]], [[tensor products of enriched categories]], enriched [[ends]] and [[coends]], enriched [[limits]] and [[colimits]], and so on. 
 
 #### Enrichment through lax monoidal functors #### 
 
@@ -198,11 +202,13 @@ Other kinds of enrichment:
 
 ## Change of enriching category {#BaseChange}
 
+Also called "change of base", this typically refers to a [[monoidal functor]] between bases of enrichment $V \to W$, inducing a [[2-functor]] $V$-$Cat \to W$-Cat, enabling constructions in $V$-$Cat$ to be transferred to constructions in $W$-Cat, as follows. 
+
 ### Passage between ordinary categories and enriched categories
 
 Every $K$-enriched category $C$ has an [[underlying ordinary category]], usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
 
-If $K(I, -): K \to Set$ has a left adjoint $- \cdot I: Set \to K$ (taking a set $S$ to the tensor or [[power|copower]] $S \cdot I$, viz. the coproduct of an $S$-indexed set of copies of $I$), then any ordinary category $C$ can be regarded as enriched in $K$ by forming the composite  
+If $K(I, -): K \to Set$ has a left adjoint $- \cdot I: Set \to K$ (taking a set $S$ to the tensor, aka the [[power|copower]] $S \cdot I$, viz. the coproduct of an $S$-indexed set of copies of $I$), then any ordinary category $C$ can be regarded as enriched in $K$ by forming the composite  
 
 $$Ob(C) \times Ob(C) \stackrel{\hom}{\to} Set \stackrel{-\cdot I}{\to} K$$
 
