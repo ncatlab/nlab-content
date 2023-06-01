@@ -4,10 +4,15 @@
 
 ## Selected writings
 
-
 On [[homotopy limits]], [[completion of a space|completions]] and [[localization of a space|localizations]] (such as [[p-completion]] and [[rationalization]]):
 
 * {#BousfieldKan71} [[Aldridge Bousfield]], [[Daniel Kan]], *Localization and completion in homotopy theory*, Bull. Amer. Math. Soc. **77** 6 (1971) 1006-1010 &lbrack;[doi:10.1090/S0002-9904-1971-12837-9](https://doi.org/10.1090/S0002-9904-1971-12837-9), [pdf](https://www.ams.org/journals/bull/1971-77-06/S0002-9904-1971-12837-9/S0002-9904-1971-12837-9.pdf)&rbrack;
+
+On [[orthogonal factorization systems]]:
+
+* [[Aldridge Bousfield]], *Constructions of factorization systems in categories*, Journal of Pure and Applied Algebra **9** 2-3 (1977) 207-220 &lbrack;<a href="https://doi.org/10.1016/0022-4049(77)90067-6">doi:10.1016/0022-4049(77)90067-6</a>&rbrack;
+
+
 
 Introducing what came to be known as *[[Bousfield localization]]* ([[Bousfield localization of spectra|of spectra]] via that of [[Bousfield localization of model categories|model categories]]):
 
