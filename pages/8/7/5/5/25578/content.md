@@ -21,7 +21,7 @@ The notion of *enriched groupoids* is the generalization to [[enriched category 
 
 ## Definition
 
-Let $(\mathcal{V}, \times, \ast)$ be a *[[cartesian monoidal category]]* (serving as an [[cosmos for enrichment]]), so that, in particular, 
+Let $(\mathcal{V}, \times, \ast)$ be a *[[cartesian monoidal category]]* (serving as an [[base of enrichment]]), so that, in particular, 
 
 * the [[tensor unit]] is a [[terminal object]] $\ast$,
 
