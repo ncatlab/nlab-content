@@ -22,9 +22,9 @@ On [[large cocompleteness]]:
 
 * {#Isbell68} [[John Isbell]]. _Small subcategories and completeness_. Mathematical systems theory **2** 1 (1968) 27-50 &lbrack;[doi:10.1007/BF01691344](https://doi.org/10.1007/BF01691344)&rbrack; 
 
-On the theory of [[locales]]: 
+On the theory of *[[locales]]* (and introducing that term):
 
-* [[John Isbell]], *Atomless Parts of Spaces*, Mathematica Scandinavica, 31 (1972), 5–32. &lbrack;[https://doi.org/10.7146/math.scand.a-11409](https://doi.org/10.7146/math.scand.a-11409)&rbrack;  
+* [[John R. Isbell]], *Atomless Parts of Spaces*, Mathematica Scandinavica **31** (1972) 5–32 &lbrack;[doi:10.7146/math.scand.a-11409](https://doi.org/10.7146/math.scand.a-11409)&rbrack;
 
 ## Related entries
 
