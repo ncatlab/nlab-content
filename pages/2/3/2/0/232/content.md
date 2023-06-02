@@ -323,7 +323,9 @@ The earliest accounts of enriched categories were given independently in:
 
 * [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
 
-* [[J.-M. Maranda]], *Formal categories*, Vol. 17 of Canadian Journal of Mathematics 1965, pp. 758--801 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf))
+* [[Jean-Marie Maranda]], *Formal categories*, Canadian Journal of Mathematics **17** (1965) 758-801 &lbrack;[doi:10.4153/CJM-1965-076-0](https://doi.org/10.4153/CJM-1965-076-0), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf)&rbrack;
+
+(both of which also introduce the notion of *[[strict 2-categories]]* as the example of [[Cat]]-enriched categories)
 
 though Kelly also gave an account for enrichment in arbitrary categories (then deducing necessary structure on a tensor product):
 
