@@ -4,9 +4,11 @@ Ross Street is a major member of the Australian school of [[higher category theo
 
 His most important works include works in [[sheaf]]-, [[fibred category]]-, and [[descent]]-theory, including the introduction of [[orientals]], a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
 
+
 ## Selected writings
 
 * [list of publications](http://science.mq.edu.au/~street/Publications.html)
+
 
 
 
@@ -33,6 +35,10 @@ On [[enriched category theory]] and [[cosmoi]]:
 Introducing the notion of *[[orientals]]*:
 
 * {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  &lbrack;[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019&rbrack;
+
+On basic notions of [[2-category theory]]:
+
+* {#Street96}  [[Ross Street]], *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam (1996) &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>, [pdf](http://maths.mq.edu.au/~street/45.pdf), [[Street-CategoricalStructures.pdf:file]], [ISBN:978-0-444-82212-3](https://shop.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3)&rbrack;
 
 On [[Frobenius monads]]:
 
@@ -183,7 +189,7 @@ On [[monoidal categories]]:
 
 * [[André Joyal]] and [[Ross Street]], _Braided Tensor Categories_, Advances in Mathematics, Vol. 102, No. 1, 1993, pp. 20-78. &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
 
-* [[Ross Street]], _Categorical Structures_, Handbook of Algebra, Vol. 1, 1996, pp. 531-577. &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>&rbrack;
+* [[Ross Street]], _Categorical Structures_, Handbook of Algebra, Vol. 1, 1996, pp. 531-577. &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>, [[Street-CategoricalStructures.pdf:file]]&rbrack;
 
 * [[Aurelio Carboni]], [[Scott Johnson]], [[Ross Street]], [[Dominic Verity]], _Modulated bicategories_, Journal of Pure and Applied Algebra, Vol. 94, No. 3, 1994, pp. 229-282. &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90009-4">doi:10.1016/0022-4049(94)90009-4</a>&rbrack;
 
