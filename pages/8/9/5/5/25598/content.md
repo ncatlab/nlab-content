@@ -27,7 +27,7 @@ On [[fibered categories]]:
 * [[John W. Gray]], *Fibred and Cofibred Categories*, pp 21-83
 
 
-On [[monoidal categories]] and introducing [[closed categories]]:
+On [[monoidal categories]] and introducing [[closed categories]] as well as ([[strict 2-category|strict]]) [[2-categories]] (under the name "hypercategories"):
 
 * {#EilenbergKelly66} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 
 
