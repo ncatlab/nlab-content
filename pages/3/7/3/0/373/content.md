@@ -283,25 +283,28 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 ## References
  {#References}
 
-The notion of [[strict 2-categories]] seems to be due to:
+The notion of [[strict 2-categories]] is due to:
 
 * {#Bénabou65} [[Jean Bénabou]], Example (5) of: *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
 
-  > (conceived as [[Cat]]-[[enriched categories]]) 
+  > (conceived as [[Cat]]-[[enriched categories]] and called *2-categories*) 
 
-and 
+* {#Maranda65} [[Jean-Marie Maranda]], Def. 1 in: *Formal categories*, Canadian Journal of Mathematics **17** (1965) 758-801 &lbrack;[doi:10.4153/CJM-1965-076-0](https://doi.org/10.4153/CJM-1965-076-0), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf)&rbrack;
+
+  > (conceived as [[Cat]]-[[enriched categories]] and called *categories of the second type*) 
+
 
 * {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, p. 425  in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
-  > (in components, under the name *hypercategory*)
+  > (expressed entirely in components, under the name *hypercategories*)
 
-both apparently following the definition of [[double categories]] due to
+all apparently following or inspired by the earlier definition of *[[double categories]]* due to
 
 * [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963) 1198-1201 &lbrack;[[Ehresmann-CategoriesDoubles.pdf:file]], [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246)&rbrack;
 
 Early discussion of the general notion of bicategories:
 
-* [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
+* {#Bénabou1967} [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
 Exposition and review:
 
