@@ -208,6 +208,8 @@ Assume next that $X_3 \to X^{\partial \Delta^2}$ is a [[1-monomorphism]], as are
 
 * [[higher Segal space]]
 
+* [[Segal type]]
+
 ## References
 
 See generally the references at _[[complete Segal space]]_.
