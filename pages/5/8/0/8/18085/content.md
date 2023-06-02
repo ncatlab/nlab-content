@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Relative pseudomonads
 
 * table of contents
@@ -5,7 +21,7 @@
 
 ## Idea
 
-A relative pseudomonad generalizes a [[pseudomonad]] relative to a 2-functor.  This enables the construction of Kleisli bicategories of pseudomonads on $Prof$ (e.g. for defining [[generalized multicategories]]) by means of [[pseudo-distributive laws]] as if the [[presheaf category]] construction were a monad with [[Prof]] as its Kleisli bicategory, even though it is not for size reasons.
+The notion of *relative pseudomonads* generalizes that of [[pseudomonads]] relative to a [[2-functor]].  This enables the construction of [[Kleisli bicategories]] of pseudomonads on [[Prof]] (e.g. for defining [[generalized multicategories]]) by means of [[pseudo-distributive laws]] as if the [[presheaf category]] construction were a [[monad]] with [[Prof]] as its [[Kleisli bicategory]], even though it is not for size reasons.
 
 An example is the [[free cocompletion]] construction on a small category.
 
@@ -15,6 +31,6 @@ An example is the [[free cocompletion]] construction on a small category.
 
 An early observation that the bicategory of profunctors should be a Kleisli category for a relative monad is Appendice I.1(b) of:
 
-* [[René Guitart]]. _Monades involutives complémentées_, Cahiers de topologie et géométrie différentielle catégoriques 16.1 (1975): 17-101. ([numdam](http://www.numdam.org/item/CTGDC_1975__16_1_17_0/))
+* [[René Guitart]]. _Monades involutives complémentées_, Cahiers de topologie et géométrie différentielle catégoriques **16** 1 (1975) 17-101 &lbrack;[numdam:CTGDC_1975__16_1_17_0](http://www.numdam.org/item/CTGDC_1975__16_1_17_0)&rbrack;
 
 [[!redirects relative pseudomonad]]
