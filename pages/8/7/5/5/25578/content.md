@@ -96,10 +96,16 @@ $$
   \,.
 $$
 
+
 ## Examples
 
 \begin{example}
-  A [[Set]]-enriched groupoid is an ordinary [[groupoid]].
+  For [[Set]] regarded with its [[cartesian monoidal category|cartesian monoidal]] [[structure]], [[Set]]-enriched groupoids are ordinary [[groupoids]].
+\end{example}
+
+\begin{example}
+\label{StrictTwoGroupoids}
+For [[Grpd]] regarded as a [[1-category]] and equipped with its [[cartesian monoidal category|cartesian monoidal]] [[structure]] given by forming [[product categories|product groupoids]], [[Grpd]]-enriched groupoids are [[strict 2-groupoids]].
 \end{example}
 
 \begin{example}\label{SimplicialGroupoid}
@@ -109,7 +115,7 @@ Moreover, [[fundamental infinity-groupoid|fundamental $\infty$-groupoids]] incar
 \end{example}
 
 \begin{example}
-  A $\mathcal{V}$-enriched groupoid with a single object is equivalently the [[delooping groupoid]] of a [[group object]] [[internalization|internal]] to $\mathcal{V}$.
+  Generally, a $\mathcal{V}$-enriched groupoid with a single object is equivalently the [[delooping groupoid]] of a [[group object]] [[internalization|internal]] to $\mathcal{V}$.
 
 For instance, a one-object [[sSet]]-groupoid (Exp. \ref{SimplicialGroupoid}) is the [[delooping groupoid]] of a [[simplicial group]].
 \end{example}
