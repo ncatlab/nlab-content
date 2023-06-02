@@ -20,7 +20,7 @@ In [[higher category theory]], the _exchange law_, or _interchange law_, states 
 
 ## Examples
 
-The first exchange law (often called _the_ exchange law) asserts that for composition of 2-morphisms we have an equivalence
+The first exchange law (often called _the_ exchange law) asserts that for composition of [[2-morphisms]] we have an equivalence
 
 $$
   \array{
@@ -66,12 +66,21 @@ One way to capture all exchange laws combinatorially is encoded by the cosimplic
 
 * [[Eckmann-Hilton argument]]
 
-[[!redirects interchange law]]
+* [[strict 2-category]]
+
 [[!redirects exchange laws]]
+
+[[!redirects interchange law]]
 [[!redirects interchange laws]]
+
+[[!redirects interchange axiom]]
+[[!redirects interchange axioms]]
+
+
 [[!redirects exchanger]]
 [[!redirects exchangeor]]
 [[!redirects exchangor]]
 [[!redirects interchanger]]
 [[!redirects interchangeor]]
 [[!redirects interchangor]]
+
