@@ -19,11 +19,11 @@
 
 ## Idea
 
-A *Bénabou cosmos* is a [[monoidal category]] $\mathcal{V}$ with good properties that make it well-suited for $\mathcal{V}$-[[enriched category theory]]. (There are variants of this idea, see at *[[cosmos]]* for more).
+In [[enriched category theory]], a *Bénabou cosmos* is a [[monoidal category]] $\mathcal{V}$ with good properties that make it a [[base of enrichment]] well-suited for $\mathcal{V}$-[[enriched category theory]]. (There are variants of this idea, see at *[[cosmos]]* for more).
 
 The archetypical Bénabou cosmos is the category [[Set]] of all sets, equipped with its [[Cartesian product]]-monoidal structure; and $Set$-[[enriched category theory]] is the ordinary theory of [[locally small categories]], whose [[hom-sets]] are [[sets]].
 
-The point of the notion of Bénabou cosmoi is to allow more general [[hom-objects]] than just [[sets]], while imposing enough conditions on the category $\mathcal{V}$ which these form in order that most standard definitions and proofs of plain [[category theory]] (e.g. properties of [[categories of presheaves]]) generalize to $\mathcal{V}$-enriched category theory (e.g. concerning [[enriched presheaves]]).
+The point of the notion of Bénabou cosmoi is to allow more general [[hom-objects]] than just [[sets]], while imposing enough conditions on the category $\mathcal{V}$ which these form in order that most standard definitions and proofs of plain [[category theory]] (e.g. properties of [[enriched functor categories]] and specifically of [[categories of presheaves]]) generalize to $\mathcal{V}$-enriched category theory (e.g. concerning [[enriched presheaves]]).
 
 
 ## Definition
@@ -63,7 +63,7 @@ There is a generalization of Def. \ref{BenabouCosmosAccordingToStreet} to the co
 
 ## Related concepts
 
-* [[cosmos]]
+* [[cosmos]], [[base of enrichment]]
 
 * [[infinity-cosmos|$\infty$-cosmos]]
 
@@ -74,7 +74,7 @@ Apparently there is no explicit written account by [[Jean Bénabou]] on the noti
 
 > to J. Benabou the word means "bicomplete symmetric monoidal category", such categories $\mathcal{V}$ being rich enough so that the theory of categories enriched in  $\mathcal{V}$ develops to a large extent just as the theory of ordinary categories.
 
-* {#Street74} [[Ross Street]],  _Elementary cosmoi I.  *Category Seminar*. Springer, Berlin, Heidelberg, 1974. ([doi:10.1007%2FBFb0063103](https://link.springer.com/chapter/10.1007%2FBFb0063103))
+* {#Street74} [[Ross Street]],  *Elementary cosmoi I.* in *Category Seminar*, Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063103](https://doi.org/10.1007/BFb0063103)&rbrack;
 
 See also:
 
