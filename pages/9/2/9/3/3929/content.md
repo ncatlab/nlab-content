@@ -33,6 +33,10 @@ On [[continuous functors]] (and introducing the notion of [[orthogonal factoriza
 
 * [[Peter Freyd]], [[Max Kelly]], *Categories of continuous functors*, J. Pure. Appl. Algebra **2** (1972) 169-191 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90001-1">doi:10.1016/0022-4049(72)90001-1</a>&rbrack;
 
+Introducing the notion of [[weighted limits]] in [[enriched category theory]]:
+
+* [[Francis Borceux]], [[Gregory Maxwell Kelly]], *A notion of limit for enriched categories*, Bulletin of the Australian Mathematical Society **12** 1 (1975) 49-72 &lbrack;[doi:10.1017/S0004972700023637](https://doi.org/10.1017/S0004972700023637)&rbrack;
+
 
 
 On [[enriched category theory]]:
