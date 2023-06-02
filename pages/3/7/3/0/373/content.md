@@ -279,20 +279,37 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 * [[(n,r)-category]]
 
-## References
 
-Early texts
+## References
+ {#References}
+
+The notion of [[strict 2-categories]] seems to be due to:
+
+* {#Bénabou65} [[Jean Bénabou]], Example (5) of: *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
+
+  > (conceived as [[Cat]]-[[enriched categories]]) 
+
+and 
+
+* {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, p. 425  in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+  > (in components, under the name *hypercategory*)
+
+both apparently following the definition of [[double categories]] due to
+
+* [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963) 1198-1201 &lbrack;[[Ehresmann-CategoriesDoubles.pdf:file]], [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246)&rbrack;
+
+Early discussion of the general notion of bicategories:
 
 * [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
-
-The terminology _hypercategory_ was introduced in
-
-* {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
-
 
 Exposition and review:
 
 * {#KellyStreet74} [[Max Kelly]], [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, in [[G. Max Kelly]] (ed.) Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
+
+
+* {#Street96}  [[Ross Street]], *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam (1996) &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>, [pdf](http://maths.mq.edu.au/~street/45.pdf), [[Street-CategoricalStructures.pdf:file]], [ISBN:978-0-444-82212-3](https://shop.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3)&rbrack;
+
 
 * [[Ross Street]], _Encyclopedia article on 2-categories and bicategories_ ([pdf](http://www.maths.mq.edu.au/~street/Encyclopedia.pdf))
 
