@@ -21,6 +21,15 @@ On the [[2-category theory]] of [[monads]] and their [[Eilenberg-Moore categorie
 * [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
+On [[enriched category theory]] and [[cosmoi]]:
+
+* {#Street74} [[Ross Street]],  *Elementary cosmoi I.* in *Category Seminar*, Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063103](https://doi.org/10.1007/BFb0063103)&rbrack;
+
+* {#Street80} [[Ross Street]], *Cosmoi of internal categories*, Transactions of the American Mathematical Society **258** 2 (1980) 271-318 &lbrack;[doi:10.2307/1998059](https://doi.org/10.2307/1998059)&rbrack;
+
+* {#Street81} [[Ross Street]], *Cauchy characterization of enriched categories*, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233, Reprints in Theory and Applications of Categories, **4** (2004) 1-16 &lbrack;[tac:tr4](http://www.tac.mta.ca/tac/reprints/articles/4/tr4abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/4/tr4.pdf)&rbrack;
+
+
 Introducing the notion of *[[orientals]]*:
 
 * {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  &lbrack;[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019&rbrack;
