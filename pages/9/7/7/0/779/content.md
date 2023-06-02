@@ -30,6 +30,10 @@ Early proposal to grasp the notion of *[[mathematical structure]]* via [[categor
 
 * {#Ehresmann65} [[Charles Ehresmann]], _Cat&#233;gories et Structures_, Séminaire Ehresmann. Topologie et géométrie différentielle **6** (1964) 1-31 &lbrack;[numdam:SE_1964__6__A8_0](http://www.numdam.org/item?id=SE_1964__6__A8_0), [dml:112200](https://eudml.org/doc/112200)&rbrack;
 
+Introduction of the notion of *[[double category]]*:
+
+* [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963) 1198-1201 &lbrack;[[Ehresmann-CategoriesDoubles.pdf:file]], [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246)&rbrack;
+
 
 Introducing the notion of [[topological groupoids]] and [[Lie groupoids]]:
 
