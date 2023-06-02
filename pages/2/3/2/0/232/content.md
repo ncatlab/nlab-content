@@ -321,7 +321,7 @@ The idea that it is worthwhile to replace [[hom-sets]] by "[[hom-objects]]" (in 
 
 The earliest accounts of enriched categories were given independently in:
 
-* [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
+* [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
 
 * [[J.-M. Maranda]], *Formal categories*, Vol. 17 of Canadian Journal of Mathematics 1965, pp. 758--801 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf))
 
