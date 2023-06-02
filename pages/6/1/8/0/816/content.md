@@ -252,17 +252,16 @@ as one would expect for a "homotopy cone".
 
 ### General
 
-The notion of weighted limits was introduced in:
+The notion of weighted limits was introduced (under the name "*mean cotensor product*") in:
 
-* [[Francis Borceux]], p. 10 of: *Une notion de $V$-limite*. Colloque sur l'algèbre des catégories. Amiens 1973. Résumés des conférences &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1973__14_2_153_0/)&rbrack
+* [[Francis Borceux]], p. 10 of: *Une notion de $V$-limite*, in *Colloque sur l'algèbre des catégories. Amiens 1973. Résumés des conférences*, Cahiers de topologie et géométrie différentielle **14** 2 (1973) 153-223 &lbrack;[numdam:CTGDC_1973__14_2_153_0](http://www.numdam.org/item/CTGDC_1973__14_2_153_0)&rbrack;
 
-* [[Francis Borceux]] and [[Gregory Maxwell Kelly]]. *A notion of limit for enriched categories*. Bulletin of the Australian Mathematical Society 12.1 (1975): 49-72.
+* [[Francis Borceux]], [[Gregory Maxwell Kelly]], *A notion of limit for enriched categories*, Bulletin of the Australian Mathematical Society **12** 1 (1975) 49-72 &lbrack;[doi:10.1017/S0004972700023637](https://doi.org/10.1017/S0004972700023637)&rbrack;
 
-as "mean cotensor product", and independently by
+and, independently, (under the name "*Hom (formel)*") by:
 
 * C. Auderset, _Adjonction et monade au niveau des 2-categories_, Cahiers de Top. et Géom. Diff. XV-1 (1974), 3-20. ([numdam](http://www.numdam.org/item/CTGDC_1974__15_1_3_0/))
 
-as "Hom (formel)".
 
 Textbook accounts:
 
