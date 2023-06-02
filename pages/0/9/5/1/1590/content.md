@@ -1,13 +1,18 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
