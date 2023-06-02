@@ -26,6 +26,9 @@ On [[L-infinity algebra]]-[[structure]] in [[perturbative quantum field theory]]
 
 * {#Arvanitakis19} [[Alex Arvanitakis]], _The $L_\infty$-algebra of the S-matrix_ ([arXiv:1903.05643](https://arxiv.org/abs/1903.05643))
 
+On [[Lagrangian correspondence]]s
+
+* Alex S. Arvanitakis, _Topological defects as lagrangian correspondences_, Phys. Rev. D 107, 066016, 2023 [arXiv:2301.04143](https://arxiv.org/abs/2301.04143) [doi](https://doi.org/10.1103/PhysRevD.107.06601)
 
 ## Related $n$Lab entries
 
