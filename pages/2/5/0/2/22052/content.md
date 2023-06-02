@@ -2,12 +2,19 @@
 
 ### Selected writings
 
+On the [[nerve]] of [[n-categories]]:
+
+* [[Michael Johnson]] and [[R. F. C. Walters]], _On the nerve of an n-category_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 28, No. 4, 1987, pp. 257-282. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1987__28_4_257_0/)&rbrack;
+
+On the [[combinatorics]] of n-categorical [[pasting]]: 
+
+* [[Michael Johnson]], _Pasting Diagrams in n-Categories with Applications to Coherence Theorems and Categories of Paths_, PhD thesis, University of Sydney, 1987. &lbrack;[pdf](http://web.science.mq.edu.au/~mike/papers/0.pdf)&rbrack;
+
+* [[Michael Johnson]], _The combinatorics of n-categorical pasting_, Journal of Pure and Applied Algebra, Vol. 62, No. 3, 1989, pp. 211-225. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90136-9">doi:10.1016/0022-4049(89)90136-9</a>&rbrack;
+
 On well-behaved [[lenses (in computer science)]] as the [[coalgebra over a comonad|coalgebras]] over the [[costate comonad]]:
 
 * {#GibbonsJohnson12} [[Jeremy Gibbons]], [[Michael Johnson]], *Relating Algebraic and Coalgebraic Descriptions of Lenses*, Electronic Communications of the EASST **49** (2012) &lbrack;[doi:10.14279/tuj.eceasst.49.726](http://dx.doi.org/10.14279/tuj.eceasst.49.726), [pdf](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/colens.pdf)&rbrack;
-
-
-On [[lenses (in computer science)]]:
 
 On [[lenses (in computer science)]]:
 
