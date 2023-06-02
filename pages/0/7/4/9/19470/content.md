@@ -43,7 +43,7 @@ The restrictions of the free adjunction, $Adj$, to the sub-2-categories spanned 
 
 ##References
 
-* C. Auderset, _Adjonction et monade au niveau des 2-categories_, Cahiers de Top. et Géom. Diff. XV-1 (1974), 3-20.
+* C. Auderset, _Adjonction et monade au niveau des 2-categories_, Cahiers de Top. et Géom. Diff. XV-1 (1974), 3-20. ([numdam](http://www.numdam.org/item/CTGDC_1974__15_1_3_0/))
 
 * [[John Baez]], _This Week's Finds in Mathematical Physics (Week 174)_, ([TWF174](http://www.math.ucr.edu/home/baez/week174.html))
 
