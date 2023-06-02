@@ -11,9 +11,9 @@ The observation that colimits can be constructed from coproducts and coequaliser
 
 * [[J.-M. Maranda]], *Some remarks on limits in categories*. Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
 
-Introducing the notion of *[[enriched categories]]*:
+Introducing the notion of *[[enriched categories]]* (and that of *[[strict 2-categories]]*, as an example, and that of [[adjunctions]] in general strict 2-categories):
 
-* [[J.-M. Maranda]], *Formal categories*, Vol. 17 of Canadian Journal of Mathematics 1965, pp. 758--801 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf))
+* {#Maranda65} [[Jean-Marie Maranda]], Def. 1 in: *Formal categories*, Canadian Journal of Mathematics **17** (1965) 758-801 &lbrack;[doi:10.4153/CJM-1965-076-0](https://doi.org/10.4153/CJM-1965-076-0), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf)&rbrack;
 
 Work on "monads of superior degree":
 
