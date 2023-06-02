@@ -66,8 +66,7 @@ In generalization of how
 
 it ought to be the case that 
 
-* the free quasi-coproduct completion of $\mathcal{C}$ is the 
-[[Grothendieck construction]] $\int_{\mathcal{X} \in Grpd} \mathcal{C}^{\mathcal{X}}$ over the [[pseudofunctor]] 
+* the free quasi-coproduct completion of $\mathcal{C}$ is the [[Grothendieck construction]] $\int_{\mathcal{X} \in Grpd} \mathcal{C}^{\mathcal{X}}$ over the [[pseudofunctor]] 
 
   $$
     Grpd^{op} 
@@ -85,17 +84,16 @@ Here are some first observations
 
 Throughout, let $\mathscr{C}$ be a category with [[colimits]], so that the [[Grothendieck construction]] 
 
-$$
+\[
+  \label{Loc}
   Loc_{\mathcal{C}}
   \;\;
   \coloneqq
   \;\;
-  \underset{\mathcal{X} \in Grpd}{\int}
+  \underset{\mathcal{X} \in Grpd}{\textstyle{\int}}
   \mathcal{C}^{\mathcal{X}}
-$$
-
+\]
 is actually a [[bifibration]], induced from the [[CatAdj|$Cat_{adj}$]]-valued [[pseudofunctor]]
-
 $$
   \array{
     Grpd_{skl} &\longrightarrow& Cat_{adj}
@@ -111,15 +109,51 @@ $$
     \mathcal{X}' &\mapsto& \mathcal{C}^{\mathcal{X}'}
   }
 $$
+whose [[left adjoint]]-components $f_!$ are given by [[left Kan extension]].
+
+We shall write
+$$
+  \array{
+    Set \times \mathcal{C} 
+     &\overset{(-)\cdot(-)}{\longrightarrow}&
+    \mathcal{C}
+    \\
+    (S, \mathscr{V}) &\mapsto& \underset{s \in S}{\coprod} \mathscr{V}
+  }
+$$
+for the canonically induced [[tensoring]] of $\mathcal{C}$ over [[Set]].
+
+Finally, we assume now that $\mathcal{C}$ carries the [[structure]] of a [[symmetric monoidal category]]. This implies that $Loc_{\mathcal{C}}$ (eq:Loc) inherits the corresponding [[external tensor product]], which we denote
+
+$$
+  Loc_{\mathcal{C}}
+  \times 
+  Loc_{\mathcal{C}}
+  \xrightarrow{ \boxtimes }
+  Loc_{\mathcal{C}}
+  \,.
+$$ 
+
+A good example to keep in mind is $\mathcal{C} \,\equiv\,$ [[Vect]] equipped with the usual [[tensor product of vector spaces]]. In this case the objects of $Loc_{\mathcal{C}}$ may be understood as [[flat vector bundles]] over [[homotopy 1-types]], also known as "[[local systems]]", whence our notation.
+
+For $G$ a [[group]], we write
+
+* $\mathbf{B}G \,\equiv\, (G \rightrightarrows pt)$ 
+
+  for its [[delooping groupoid]] 
+
+* $\mathbf{E}G \,\equiv\, (G \times G \rightrightarrows G)$ 
+ 
+  for the [[action groupoid]] of $G$ [[action|acting]] on itself by right multiplication. 
 
 
 \begin{lemma}
-For $G \in Grp$, any $G$-[[group representation|representation]] $\mathscr{V}_{\mathbf{B}G} \,\colon\, \mathbf{B}G \longrightarrow \mathcal{C}$ is the colimit in $Loc_{\mathcal{C}}^{skl}$ over the diagram
+For $G \in Grp$, any $G$-[[group representation|representation]] $\mathscr{V}_{\mathbf{B}G} \,\colon\, \mathbf{B}G \overset{\rho}{\longrightarrow} \mathcal{C}$ is the colimit in $Loc_{\mathcal{C}}$ (eq:Loc) over the diagram
 $$
   \array{
     \mathbf{B}G
     &\overset{\;}{\longrightarrow}&
-    Loc^{skl}_{\mathbb{K}}
+    Loc_{\mathcal{C}}
     \\
     pt 
       &\mapsto& 
@@ -130,9 +164,9 @@ $$
     \Big\downarrow\mathrlap{{}^g}
       && 
     \Big\downarrow\mathrlap{{}^{  
-      \mathbb{1}_{g}   
+      \mathbb{1}_{\mu(g,-)}   
       \,\boxtimes\,
-      g_{pt}
+      {\rho(g)}_{pt}
     }}
     \\
     pt
@@ -151,7 +185,7 @@ $$
     \boxtimes
     \mathscr{V}_{pt}
     &&\overset{
-      \mathbb{1}_g \,\boxtimes\, g_{pt}
+      \mathbb{1}_{\mu(g,-)} \,\boxtimes\, \rho(g)_{pt}
     }{\longrightarrow}&&
     \mathbb{1}_{\mathbf{E}G}
     \boxtimes
@@ -160,19 +194,19 @@ $$
     & 
     \mathllap{{}_{\mathscr{q}_q}}\searrow 
       && 
-    \swarrow\mathrlap{{}_{q}}
+    \swarrow\mathrlap{{\mathfrak{q}}_{q}}
     \\
     && 
     \mathscr{V}_{\mathbf{B}G}
   }
 $$
 
-The colimiting cocone of the underlying diagram in [[Grpd]] is 
+By the general formula for colimits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)), the colimit in question has as [[underlying]] object in [[Grpd]] the colimiting cocone of the underlying diagram in [[Grpd]]:
 $$
   \array{
     \mathbf{E}G 
     && 
-      \overset{g}{\longrightarrow}
+      \overset{\mu(g,-)}{\longrightarrow}
     &&
     \mathbf{E}G
     \\
@@ -184,7 +218,9 @@ $$
     && \mathbf{B}G
   }
 $$
-We have
+and the $\mathcal{C}$-component over that is the colimit in $\mathcal{C}$ of the diagram of images of morphism under pushforward $q_!$ along the underlying [[coprojection]] $q$.
+
+Now observe that
 $$
   \array{
   q_! 
@@ -205,9 +241,9 @@ $$
   }}
   &&
   \Big\downarrow\mathrlap{{}^{
-    (g)_{\mathbf{B}G}
+    \mu(g,-)_{\mathbf{B}G}
     \,\boxtimes\,
-    g_{pt}
+    {\rho(g)}_{pt}
   }}
   \\
   q_! 
