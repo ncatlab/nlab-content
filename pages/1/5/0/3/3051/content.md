@@ -7,11 +7,14 @@ Jean B&#233;nabou (1932-2022) was a French mathematician working in [[category t
  {#SelectedWritings}
 
 
-Introducing the notion of [[enriched categories]]:
+Introducing the notion of [[enriched categories]] (and of [[strict 2-categories]], as an example):
 
 * [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
 
-On [[bicategories]]
+* {#Bénabou68} [[Jean Bénabou]], *Structures algébriques dans les catégories*, Cahiers de topologie et géométrie différentielle, **10** 1 (1968) 1-126 &lbrack;[doi:CTGDC_1968__10_1_1_0](http://www.numdam.org/item/?id=CTGDC_1968__10_1_1_0)&rbrack;
+
+
+On [[bicategories]]:
 
 * Jean B&#233;nabou, _Introduction to Bicategories_, Lecture Notes in Mathematics 47, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
 
