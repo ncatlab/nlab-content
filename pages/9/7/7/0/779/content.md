@@ -18,6 +18,8 @@ The journal he founded and edited, [[Cahiers de Topologie et Géométrie Différ
 
 ## Selected writings
 
+Collected works:
+
 * C. Ehresmann, [&#338;uvres compl&#232;tes et comment&#233;es](http://ehres.pagesperso-orange.fr/C.E.WORKS_fichiers/C.E_Works.htm). 
 
   I-1,2. Topologie  alg&#233;brique et g&#233;om&#233;trie diff&#233;rentielle, With commentary by [[Willem van Est]],
