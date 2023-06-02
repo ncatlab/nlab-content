@@ -350,11 +350,11 @@ Here $\eta_X$ is a component of what we call the [[unit of an adjunction|unit of
 
 ## References
 
-Adjunctions in 2-categories were introduced in:
+Adjunctions in 2-categories were introduced (together with the notion of [[strict 2-categories]] itself) in:
 
-* [[Jean-Marie Maranda]], *Formal categories*, Canadian Journal of Mathematics **17** (1965) 758-801 &lbrack;[doi:10.4153/CJM-1965-076-0](https://doi.org/10.4153/CJM-1965-076-0), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf)&rbrack;
+* [[Jean-Marie Maranda]], pp. 762 in: *Formal categories*, Canadian Journal of Mathematics **17** (1965) 758-801 &lbrack;[doi:10.4153/CJM-1965-076-0](https://doi.org/10.4153/CJM-1965-076-0), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf)&rbrack;
 
-Though see also the following, which uses modern terminology:
+Though see also the following, which uses more modern terminology:
 
 * [[Max Kelly]], §2 in: *Adjunction for enriched categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059145](https://doi.org/10.1007/BFb0059145)&rbrack;
 
