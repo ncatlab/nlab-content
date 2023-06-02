@@ -13,4 +13,8 @@ An example is the [[free cocompletion]] construction on a small category.
 
 * [[Marcelo Fiore]], [[Nicola Gambino]], [[Martin Hyland]], Glynn Winskel, *Relative pseudomonads, Kleisli bicategories, and substitution monoidal structures*, [arxiv](https://arxiv.org/abs/1612.03678)
 
+An early observation that the bicategory of profunctors should be a Kleisli category for a relative monad is Appendice I.1(b) of:
+
+* [[René Guitart]]. _Monades involutives complémentées_, Cahiers de topologie et géométrie différentielle catégoriques 16.1 (1975): 17-101. ([numdam](http://www.numdam.org/item/CTGDC_1975__16_1_17_0/))
+
 [[!redirects relative pseudomonad]]
