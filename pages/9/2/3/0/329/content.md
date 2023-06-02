@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Strict $2$-categories
 * table of contents
 {: toc}
@@ -185,15 +186,21 @@ also discussed (according to [reviewers](https://www.jstor.org/stable/2314770) w
 
 * [[Charles Ehresmann]], *Catégories et structures* Dunod, Paris, (1965)
 
-The actual definition of strict 2-categories seems to be due to:
+However, Ehresmann did not isolate the notion of strict 2-categories as such.
+
+But apparently inspired by [Ehresmann (1963)](#Ehresmann63) the actual definition of strict 2-categories is due to:
 
 * {#Bénabou65} [[Jean Bénabou]], Example (5) of: *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
 
   > (conceived as [[Cat]]-[[enriched categories]] and under the name "2-categories")
 
+* {#Maranda65} [[Jean-Marie Maranda]], Def. 1 in: *Formal categories*, Canadian Journal of Mathematics **17** (1965) 758-801 &lbrack;[doi:10.4153/CJM-1965-076-0](https://doi.org/10.4153/CJM-1965-076-0), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7C463460EB8CAC64C2CA340F870CF80/S0008414X00039729a.pdf/formal-categories.pdf)&rbrack;
+
+  > (conceived as [[Cat]]-[[enriched categories]] and under the name "categories of the second type")
+
 * {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], p. 425 of: *Closed Categories*,  in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
-  > (in components and under the name *hypercategories*)
+  > (expressed entirely in components and under the name *hypercategories*)
 
 and the notion is invoked for various purposes (such as in speaking of [[Cat]] as a 2-category) in:
 
