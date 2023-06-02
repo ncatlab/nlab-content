@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 # Strict $2$-categories
 * table of contents
 {: toc}
@@ -153,6 +151,15 @@ In summary, a sesquicategory consists of "stuff" and structure as described in t
 
 * This is to be contrasted with a _weak 2-category_ called a [[bicategory]]. In a strict 2-category composition of 1-morphisms is strictly associative and composition with [[identity morphism]]s strictly satisfies the required identity law. In a weak 2-category these laws may hold only up to coherent 2-morphisms.
 
+## In dependent type theory
+
+In [[dependent type theory]], there are multiple notions of a "strict 2-category", because there are multiple notions of a [[category]]:
+
+* A strict 2-category could be a [[precategory]] enriched over the [[cartesian monoidal category]] [[Cat]] of [[strict categories]]
+* A strict 2-category could be a [[strict category]] enriched over the cartesian monoidal category Cat of strict categories
+* A strict 2-category could be a [[univalent category]] enriched over the cartesian monoidal category Cat of strict categories
+
+The first definition is a naive translation of "strict 2-category" from set theory to dependent type theory, but in the absence of [[axiom K]] or a similar axiom, these strict 2-categories behave differently from the strict 2-categories as defined in [[set theory]]. The second definition adds a [[0-truncation]] condition to the type of objects to ensure that the strict 2-categories actually behave like the strict 2-categories in set theory. The third definition satisfies the [[principle of equivalence]]: equality of objects is the same as isomorphism of strict categories, and ensures that strict 2-categories are [[h-groupoids]]. 
 
 ## History 
 
