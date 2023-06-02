@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _pure spinor_ is a [[spinors]] with vanishing [spinor-to-vector pairing](spin+representation#SuperPoincareBrackets)
+A _pure spinor_ is a [[spinor]] with vanishing [spinor-to-vector pairing](spin+representation#SuperPoincareBrackets)
 
 $$
   \overline{\psi} \Gamma^a \psi \;=\; 0
