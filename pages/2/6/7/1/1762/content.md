@@ -242,6 +242,74 @@ On [[monoidal categories]]:
 * [[Stephen Lack]] and [[Ross Street]], _The formal theory of monads II_, Journal of Pure and Applied Algebra, Vol. 175, No. 1--3, 2002, pp. 243-265. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
 
+
+
+* [[Brian Day]] and [[Ross Street]], _Lax monoids, pseudo-operads, and convolution_, Diagrammatic Morphisms and Applications, Contemporary Mathematics, Vol. 318, 2003, pp. 75-96. &lbrack;[doi:10.1090/conm/318](https://doi.org/10.1090/conm/318)&rbrack;
+
+* [[Julien Bichon]] and [[Ross Street]], _Militaru's D-Equation in Monoidal Categories_, Applied Categorical Structures, Vol. 11, 2003, pp. 337–357. &lbrack;[doi:10.1023/A:1024458931031](https://doi.org/10.1023/A:1024458931031)&rbrack;
+
+* [[Ross Street]], _Functorial Calculus in Monoidal Bicategories_, Applied Categorical Structures, Vol. 11, 2003, pp. 219–227. &lbrack;[doi:10.1023/A:1024247613677](https://doi.org/10.1023/A:1024247613677)&rbrack;
+
+* [[Brian Day]], [[Paddy McCrudden]] and [[Ross Street]], _Dualizations and Antipodes_, Applied Categorical Structures, Vol. 11, 2003, pp. 229–260. &lbrack;[doi:10.1023/A:1024236601870](https://doi.org/10.1023/A:1024236601870)&rbrack;
+
+* [[Ross Street]], _Weak omega-categories_, Diagrammatic Morphisms and Applications, Contemporary Mathematics, Vol. 318, 2003, pp. 207-213. &lbrack;[doi:10.1090/conm/318](https://doi.org/10.1090/conm/318)&rbrack;
+
+* [[Brian Day]] and [[Ross Street]], _Abstract substitution in enriched categories_, Journal of Pure and Applied Algebra, Vol. 179, No. 1-2, 2003, pp. 49-63. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00291-8">doi:10.1016/S0022-4049(02)00291-8</a>&rbrack;
+
+* [[A Davydov]] and [[Ross Street]], _Roots of Unity as A Lie Algebra_, Georgian Mathematical Journal, Vol. 9, No. 4, 2002, pp. 683-690. &lbrack;[doi:10.1515/GMJ.2002.683](https://doi.org/10.1515/GMJ.2002.683)&rbrack;
+
+* [[Brian Day]] and [[Ross Street]], _Quantum categories, star autonomy, and quantum groupoids_, Galois Theory, Hopf Algebras, and Semiabelian Categories, Fields Institute Communications, Vol. 43, 2004, pp. 187-226. &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [arXiv:math/0301209](https://arxiv.org/abs/math/0301209)&rbrack;
+
+* [[Ross Street]], _Categorical and Combinatorial Aspects of Descent Theory_, Applied Categorical Structures, Vol. 12, 2004, pp. 537–576. &lbrack;[doi:10.1023/B:APCS.0000049317.24861.36](https://doi.org/10.1023/B:APCS.0000049317.24861.36)&rbrack;
+
+* [[Ross Street]], _The monoidal centre as a limit_, Theory and Applications of Categories, Vol. 13, No. 13, 2004, pp. 184-190. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/13/13/13-13abs.html)&rbrack;
+
+* [[Ross Street]], _Frobenius monads and pseudomonoids_, Journal of Mathematical Physics, Vol. 45, No. 10, 2004, pp. 3930–3948. &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
+
+* [[Ross Street]], _Cauchy characterization of enriched categories_, Reprints in Theory and Applications of Categories, No. 4, 2004, pp. 1-16. &lbrack;[TAC](http://www.tac.mta.ca/tac/reprints/articles/4/tr4abs.html)&rbrack;
+
+* [[Ross Street]], _An Australian Conspectus of Higher Categories_, Towards Higher Categories, The IMA Volumes in Mathematics and its Applications, Vol. 152, 2010, pp. 237–264. &lbrack;[doi:10.1007/978-1-4419-1524-5_6](https://doi.org/10.1007/978-1-4419-1524-5_6)&rbrack;
+
+* [[Brian Day]], [[Elango Panchadcharam]] and [[Ross Street]], _Lax braidings and the lax centre_, Hopf Algebras and Generalizations, Contemporary Mathematics, Vol. 441, 2007, pp. 1-18. &lbrack;[doi:10.1090/conm/441](https://doi.org/10.1090/conm/441)&rbrack;
+
+* [[Ross Street]], _Enriched categories and cohomology with author commentary_, Reprints in Theory and Applications of Categories, No. 14, 2005, pp. 1-18. &lbrack;[TAC](http://www.tac.mta.ca/tac/reprints/articles/14/tr14abs.html)&rbrack;
+
+* [[Brian Day]] and [[Ross Street]], _Centres of monoidal categories of functors_, Categories in Algebra, Geometry and Mathematical Physics, Contemporary Mathematics, Vol. 431, 2007, pp. 187-202. &lbrack;[doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
+
+* [[Ross Street]], _Quantum Groups: A Path to Current Algebra_, Australian Mathematical Society Lecture Series, Vol. 19, Cambridge University Press, 2007. &lbrack;[doi:10.1017/CBO9780511618505](https://doi.org/10.1017/CBO9780511618505)&rbrack;
+
+* [[Eduardo Dubuc]] and [[Ross Street]], _A construction of 2-filtered bicolimits of categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 47, No. 2, 2006, pp. 83-106. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_2006__47_2_83_0/)&rbrack;
+
+* [[Elango Panchadcharam]] and [[Ross Street]], _Mackey functors on compact closed categories_, Journal of Homotopy and Related Structures, Vol. 2, No. 2, 2007, pp.  261-293. &lbrack;[eudml](https://eudml.org/doc/223302)&rbrack;
+
+* [[Elango Panchadcharam]] and [[Ross Street]], _Pullback and finite coproduct preserving functors between categories of permutation representations_, Theory and Applications of Categories, Vol. 16, No. 28, 2006, pp. 771-784. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/16/28/16-28abs.html)&rbrack;
+
+* [[Elango Panchadcharam]] and [[Ross Street]], _Pullback and finite coproduct preserving functors between categories of permutation representations: Corrigendum and Addendum_, Theory and Applications of Categories, Vol. 18, No. 5, 2007, pp. 151-156. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/18/5/18-05abs.html)&rbrack;
+
+* [[Craig Pastro]] and [[Ross Street]], _Weak Hopf monoids in braided monoidal categories_, Algebra Number Theory, Vol. 3, No. 2, 2009, pp. 149-207. &lbrack;[doi:10.2140/ant.2009.3.149](https://doi.org/10.2140/ant.2009.3.149)&rbrack;
+
+* [[Craig Pastro]] and [[Ross Street]], _Closed categories, star-autonomy, and monoidal comonads_, Journal of Algebra, Vol. 321, No. 11, 2009, pp. 3494-3520. &lbrack;[doi:10.1016/j.jalgebra.2008.05.004](https://doi.org/10.1016/j.jalgebra.2008.05.004)&rbrack;
+
+* [[Craig Pastro]] and [[Ross Street]], _Doubles for monoidal categories_, Theory and Applications of Categories, Vol. 21, No. 4, 2008, pp. 61-75. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/21/4/21-04abs.html)&rbrack;
+
+* [[Ignacio López Franco]], [[Ross Street]] and [[Richard J. Wood]], _Duals Invert_, Applied Categorical Structures, Vol. 19, 2011, pp. 321–361. &lbrack;[doi:10.1007/s10485-009-9210-7](https://doi.org/10.1007/s10485-009-9210-7)&rbrack;
+
+* [[Ronald Brown]] and [[Ross Street]], _Covering morphisms of crossed complexes and of cubical omega-groupoids are closed under tensor product_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 52, No. 3, 2011. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_2011__52_3_188_0/)&rbrack;
+
+* [[Ross Street]], _Weak distributive laws_, Theory and Applications of Categories, Vol. 22, No. 12, 2009, pp. 313-320. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/22/12/22-12abs.html)&rbrack;
+
+* [[Micah McCurdy]] and [[Ross Street]], _What separable Fröbenius monoïdal functors preserve?_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 51, No. 1, 2010. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_2010__51_1_29_0/)&rbrack;
+
+* [[Dimitri Chikhladze]], [[Stephen Lack]], and [[Ross Street]], _Hopf monoidal comonads_, Theory and Applications of Categories, Vol. 24, No. 19, 2010, pp. 554-563. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/24/19/24-19abs.html)&rbrack;
+
+* [[Ross Street]] and [[Dominic Verity]], _The comprehensive factorization and torsors_, Theory and Applications of Categories, Vol. 23, No. 3, 2010, pp. 42-75. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)&rbrack;
+
+* [[Gabriella Böhm]], [[Stephen Lack]] and [[Ross Street]], _Weak bimonads and weak Hopf monads_, Journal of Algebra, Vol. 328, No. 1, 2011, pp. 1-30. &lbrack;[doi:10.1016/j.jalgebra.2010.07.032](https://doi.org/10.1016/j.jalgebra.2010.07.032)&rbrack;
+
+* [[Thomas Booker]] and [[Ross Street]], _Torsors, herds and flocks_, Journal of Algebra, Vol. 330, No. 1, 2011, pp. 346-374. &lbrack;[doi:10.1016/j.jalgebra.2010.12.009](https://doi.org/10.1016/j.jalgebra.2010.12.009)&rbrack;
+
+* [[Gabriella Böhm]], [[Stephen Lack]] and [[Ross Street]], _On the 2-Categories of Weak Distributive Laws_, Communications in Algebra, Vol. 39, No. 12, 2011, pp. 4567-4583. &lbrack;[doi:10.1080/00927872.2011.616436](https://doi.org/10.1080/00927872.2011.616436)&rbrack;
+
 category: people
 
 [[!redirects R. Street]]
