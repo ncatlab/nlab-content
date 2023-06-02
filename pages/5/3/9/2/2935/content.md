@@ -147,7 +147,7 @@ and later independently by P. Schaller, T. Strobl, motivated from an attempt to 
 
 * Thomas Strobl, _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
 
-* M. Bojowald, A. Kotov, T. Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  54  (2005),  no. 4, 400--426, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.11.002)
+* [[Martin Bojowald]], [[Alexei Kotov]], Thomas Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  __54__:4  (2005) 400--426, [doi](https://doi.org/10.1016/j.geomphys.2004.11.002)
 
 * Ctirad Klim&#269;&#237;k, T. Strobl, _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
 
