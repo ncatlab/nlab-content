@@ -97,12 +97,17 @@ unlike differential operators.
 This fully explains the somewhat unintuitive explicit
 formulas for the [[six operations]] on D-modules.
 
+## Linear Koszul duality
 
-##Categorical Koszul duality
+Linear Koszul duality is an equivalence between the symmetric algebra of a dg vector bundle and the symmetric algebra of the shifted dual dg vector bundle.
+
+* [[Ivan Mirković]], Simon Riche, _Linear Koszul duality_, Compos. Math. __146__:1 (2010) 233-258
+
+## Categorical Koszul duality
 
 A form of Koszul duality with dg algebras replaced by dg categories has been developed by Holstein and Lazarev. In this, the Koszul dual of a dg category $\mathcal{D}$, given by a bar construction, $B\mathcal{D}$ is a pointed curved coalgebra; see
 
- * [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
+ * [[Julian Holstein]], A. Lazarev, _Categorical Koszul duality_ [arXiv:2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 
 ## Global Koszul duality
 
@@ -155,25 +160,17 @@ See also:
 
 
 * Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_, [pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf) [math/0310337](http://arxiv.org/abs/math.CT/0310337)
-* Leonid Positselski, _Two kinds of derived categories, Koszul duality, and comodule-contramodule correspondence_, [arxiv/0905.2621](http://arxiv.org/abs/0905.2621)
+* Leonid Positselski, _Two kinds of derived categories, Koszul duality, and comodule-contramodule correspondence_, [arXiv/0905.2621](http://arxiv.org/abs/0905.2621)
 
 * [[Dev Sinha]], _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
 
-
-* Aaron M Royer, _Generalized string topology and derived Koszul duality_, [arxiv/1306.6708](http://arxiv.org/abs/1306.6708)
-
-
-* [[Mikhail Kapranov]], _On DG-modules over the de Rham complex and the vanishing cycles functor_, Algebraic Geometry, 
-Lecture Notes in Mathematics __1479__, 1991, pp 57-86 
+* Aaron M Royer, _Generalized string topology and derived Koszul duality_, [arXiv/1306.6708](https://arxiv.org/abs/1306.6708)
 
 
-* [[Theo Johnson-Freyd]], _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
+* [[Mikhail Kapranov]], _On DG-modules over the de Rham complex and the vanishing cycles functor_, Algebraic Geometry, Springer Lecture Notes in Mathematics __1479__ (1991) 57-86 
+
+* [[Theo Johnson-Freyd]], _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arXiv/1608.08598](https://arxiv.org/abs/1608.08598)
 
 * [[Jonathan Beardsley]], [[Maximilien Péroux]], _Koszul Duality in Higher Topoi_ ([arXiv:1909.11724](https://arxiv.org/abs/1909.11724))
-
-
-A form of Koszul duality for dg-categories has been given by Holstein and Lazarev.
-
-* [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 
 [[!redirects Koszul dual]]
