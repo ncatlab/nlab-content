@@ -258,6 +258,12 @@ The notion of weighted limits was introduced in:
 
 * [[Francis Borceux]] and [[Gregory Maxwell Kelly]]. *A notion of limit for enriched categories*. Bulletin of the Australian Mathematical Society 12.1 (1975): 49-72.
 
+as "mean cotensor product", and independently by
+
+* C. Auderset, _Adjonction et monade au niveau des 2-categories_, Cahiers de Top. et Géom. Diff. XV-1 (1974), 3-20. ([numdam](http://www.numdam.org/item/CTGDC_1974__15_1_3_0/))
+
+as "Hom (formel)".
+
 Textbook accounts:
 
 * {#Kelly} [[Max Kelly]], [section 3.1, p. 37](http://www.emis.de/journals/TAC/reprints/articles/10/tr10.pdf#page=37) in:  _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories, **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
