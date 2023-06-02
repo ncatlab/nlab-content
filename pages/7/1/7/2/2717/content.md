@@ -22,6 +22,10 @@ On [[smooth superalgebras]]:
 
 * [[David Carchedi]], [[Dmitry Roytenberg]], *On Theories of Superalgebras of Differentiable Functions* &lbrack;[arXiv:1211.6134](http://arxiv.org/abs/1211.6134)&rbrack;
 
+On equivalence of dg manifolds
+
+* [[Dmitry Roytenberg]], _Equivalences of differential graded manifolds_, talk at Global Poisson Webinar [yt](https://www.youtube.com/watch?v=N-kLG1JuiTA)
+
 
 ## Related entries
 
