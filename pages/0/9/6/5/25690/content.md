@@ -27,6 +27,7 @@ is a [[contractible type]], where $\Delta^2$ is the $2$-simplex probe shape and 
 * [[discrete Segal type]]
 * [[Rezk type]]
 * [[isomorphism in a Segal type]]
+* [[Segal space]]
 
 ## References
 
