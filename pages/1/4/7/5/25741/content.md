@@ -17,7 +17,7 @@
 
 In [[enriched category theory]], a *base of enrichment* is some kind of [[category theory|category theoretic]] [[structure]] $V$ -- most often a [[monoidal category]], but potentially something more general like a [[bicategory]], [[virtual double category]], or [[skew-monoidal category]] -- over which one intends to consider $V$-[[enriched categories]].
 
-Frequently, but not always, $V$ will be a [[Bénabou cosmos]], which provides sufficient infrastructure to carry out enriched versions of most of the standard category theoretic constructions, for example of [[enriched functor categories]], [[tensor products of enriched categories]], [[enriched presheaves|enriched]] [[presheaf categories]], [[Eilenberg-Moore categories]], and so on. 
+Frequently, but not always, $V$ will be a [[Bénabou cosmos]], which provides sufficient infrastructure to carry out enriched versions of most of the standard category theoretic constructions, for example of [[enriched functor categories]], [[tensor products of enriched categories]], [[enriched presheaves|enriched]] [[presheaf categories]], [[Eilenberg-Moore categories]], specific [[weighted limits]] and [[weighted colimits]], and so on. 
 
 In this context, "change of base" or "change of base of enrichment", refers to a [[2-functor]] $V\text{-}Cat \longrightarrow W\text{-}Cat$ between ([[very large category|very large]]) [[categories of enriched categories]] that is induced by a [[lax monoidal functor]] $V \to W$ between bases of enrichment. See also the section *[Base change](enriched+category#BaseChange)* at *[[enriched category]]*.
 
