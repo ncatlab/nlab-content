@@ -197,6 +197,6 @@ A review of the way Lagrangian correspondences encode symplectomorphisms induced
 
  
 [[!redirects Lagrangian correspondences]]
-
+[[!redirects lagrangian correspondence]]
 [[!redirects canonical relation]]
 [[!redirects canonical relations]]
