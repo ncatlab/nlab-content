@@ -14,6 +14,7 @@
 =--
 
 
+
 # Strict $2$-categories
 * table of contents
 {: toc}
@@ -177,13 +178,25 @@ also discussed (according to [reviewers](https://www.jstor.org/stable/2314770) w
 
 * [[Charles Ehresmann]], *Catégories et structures* Dunod, Paris, (1965)
 
-The modern definition of 2-categories appears in:
+The actual definition of strict 2-categories seems to be due to:
 
-* {#Street96}  [[Ross Street]], p. 535 in: *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam (1996) &lbrack;[pdf](http://maths.mq.edu.au/~street/45.pdf)&rbrack;
+* {#Bénabou65} [[Jean Bénabou]], Example (5) of: *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
+
+  > (conceived as [[Cat]]-[[enriched categories]] and under the name "2-categories")
+
+* {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], p. 425 of: *Closed Categories*,  in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+  > (in components and under the name *hypercategories*)
+
+and the notion is invoked for various purposes (such as in speaking of [[Cat]] as a 2-category) in:
+
+* {#Bénabou68} [[Jean Bénabou]], *Structures algébriques dans les catégories*, Cahiers de topologie et géométrie différentielle, **10** 1 (1968) 1-126 &lbrack;[doi:CTGDC_1968__10_1_1_0](http://www.numdam.org/item/?id=CTGDC_1968__10_1_1_0)&rbrack;
+
+Exposition and review:
+
+* {#Street96}  [[Ross Street]], p. 535 in: *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam (1996) &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>, [pdf](http://maths.mq.edu.au/~street/45.pdf), [[Street-CategoricalStructures.pdf:file]] [ISBN:978-0-444-82212-3](https://shop.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3)&rbrack;
 
 * [[Saunders MacLane]], §XII.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
-
-Further exposition and review:
 
 * {#Lack10} [[Steve Lack]], _A 2-categories companion_,  In: Baez J., May J. (eds.) *[[Towards Higher Categories]]*. The IMA Volumes in Mathematics and its Applications, vol 152. Springer 2010 ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4))
 
