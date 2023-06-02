@@ -5,6 +5,13 @@ _Francis Borceux_ is a [[category theory|category theorist]] at Louvain (Belgium
 
 ## Selected writings
 
+Introducing the notion of [[weighted limits]] in [[enriched category theory]]:
+
+* [[Francis Borceux]], *Une notion de $V$-limite*, in *Colloque sur l'algèbre des catégories. Amiens 1973. Résumés des conférences*, Cahiers de topologie et géométrie différentielle **14** 2 (1973) 153-223 &lbrack;[numdam:CTGDC_1973__14_2_153_0](http://www.numdam.org/item/CTGDC_1973__14_2_153_0)&rbrack;
+
+* [[Francis Borceux]], [[Gregory Maxwell Kelly]], *A notion of limit for enriched categories*, Bulletin of the Australian Mathematical Society **12** 1 (1975) 49-72 &lbrack;[doi:10.1017/S0004972700023637](https://doi.org/10.1017/S0004972700023637)&rbrack;
+
+
 On [[algebra]] [[internalization|internal]] to a [[localic topos]]:
 
 * Francis Borceux, Gilberte Van den Bossche, _Algebra in a localic topos with applications to ring theory_, Lecture Notes in Mathematics __1038__, Springer 1983, ix+240 pp. [MR85h:18005](http://www.ams.org/mathscinet-getitem?mr=724431)
