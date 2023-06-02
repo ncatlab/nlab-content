@@ -192,7 +192,7 @@ Original articles:
 
 * [[Maren Justesen]], *Bikategorien af Profunktorer*, Aarhus 1968 ([pdf](https://ncatlab.org/nlab/files/Justesen_Profunktoren.pdf))
 
-* [[Marta Bunge]], Chpater 3 of: _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
+* [[Marta Bunge]], Chapter 3 of: _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
 
   > based on suggestions by [[Bill Lawvere]]
 
