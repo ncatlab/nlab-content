@@ -60,9 +60,9 @@ $$
   \;\;
   \underset
     { S \,\in\, Set }
-    { \int }
+    { \textstyle{\int} }
   \;
-  \underset{s \in S}{\prod}
+  \underset{s \in S}{\textstyle{\prod}}
   \mathcal{C}
 $$
 
