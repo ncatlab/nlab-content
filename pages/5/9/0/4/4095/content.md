@@ -91,3 +91,12 @@ Discussion in [[homotopy type theory]]:
 [[!redirects product categories]]
 
 [[!redirects product of categories]]
+[[!redirects products of categories]]
+
+[[!redirects product groupoid]]
+[[!redirects product groupoids]]
+
+[[!redirects product of groupoids]]
+[[!redirects products of groupoids]]
+
+
