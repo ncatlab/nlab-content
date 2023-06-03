@@ -27,7 +27,9 @@
 
 ## Idea 
 
-An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian closed category]].  It generalises the notion of [[function set]], which is an exponential object in [[Set]].
+An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian closed category]].  It generalises the notion of [[function set]], which is an exponential object in [[Set]]. 
+
+More generally, in a category with [[finite products]], an exponential object $X^Y$ is a [[representing object]] for the functor $\hom(- \times Y, X)$. 
 
 
 ## Definition 
