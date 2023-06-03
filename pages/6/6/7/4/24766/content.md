@@ -15,6 +15,6 @@ The **Australian Category Theory Seminar**, previously called the **Sydney Categ
 
 ## References
 
-* {#Kelly} [[Max Kelly|G. Maxwell Kelly]], _The beginnings of category theory in Australia_, In "Categories in Algebra, Geometry and Mathematical Physics", Contemporary Mathematics, Vol. 431, 2007, pp. 1-6. ([doi:10.1090/conm/431](https://doi.org/10.1090/conm/431))
+* {#Kelly} [[G. Maxwell Kelly]], _The beginnings of category theory in Australia_, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) 1-6 &lbrack;[doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
 category: reference
