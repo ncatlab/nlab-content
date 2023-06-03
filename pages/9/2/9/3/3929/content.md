@@ -62,14 +62,20 @@ On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
  
+On [[monoid objects in monoidal categories]]:
+
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+
 
 On [[Cartesian bicategories]]:
 
 * [[Aurelio Carboni]], [[Max Kelly]], [[Bob Walters]], [[Richard Wood]], _Cartesian Bicategories II_, Theory and Applications of Categories, Vol. 19, 2008, No. 6, pp 93-124. ([arXiv:0708.1921](https://arxiv.org/abs/0708.1921), [tac:19-06](http://www.tac.mta.ca/tac/volumes/19/6/19-06abs.html))
 
-On [[monoid objects in monoidal categories]]:
 
-* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+On the [[Australian Category Theory Seminar]]:
+
+* {#Kelly} [[G. Maxwell Kelly]], _The beginnings of category theory in Australia_, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) 1-6 &lbrack;[doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
+
 
 
 ## Further publications
@@ -173,5 +179,10 @@ category: people
 [[!redirects G. M. Kelly]]
 [[!redirects Gregory Max Kelly]]
 [[!redirects Gregory Maxwell Kelly]]
+[[!redirects G. Maxwell Kelly]]
+
 [[!redirects G.M. Kelly]]
 [[!redirects G. Max Kelly]]
+
+
+
