@@ -187,8 +187,8 @@ Thus there is a 'spectrum' of base/label structures on which we can reasonably c
 
 Another important part of truss theory is normalization.
 
-{#normalizing_map}
-\begin{defn} Given $C$-labeled $n$-truss bundles $T$ and $T'$ over $P$, a _normalizing map_ $F : T \to T'$ is a labeled $n$-truss bundle map which is:
+{#reduction}
+\begin{defn} Given $C$-labeled $n$-truss bundles $T$ and $T'$ over $P$, a _reduction_ $F : T \to T'$ is a labeled $n$-truss bundle map which is:
 
 1. regular;
 2. endpoint-dimension-preserving, meaning it is dimension-preserving on the _endpoints_ of all 1-truss fibers;
@@ -199,13 +199,13 @@ Another important part of truss theory is normalization.
 
 (There's a dual version of the definition that replaces 'regular' by 'singular'; cf. the section on 'duality' [below](#duality).)
 
-\begin{terminology} We sometimes write normalizing maps as $F : T \underset{\mathsf{norm}}{\longrightarrow} T'$, and say $T'$ is a _reduct_ of $T$.
+\begin{terminology} We sometimes write reductions as $F : T \underset{\mathsf{red}}{\longrightarrow} T'$, and say $T'$ is a _reduct_ of $T$.
 \end{terminology}
 
 \begin{terminology} A labeled truss whose only reduct is itself is called _normalized_ (or, said to be _in normal form_).
 \end{terminology}
 
-\begin{thm}(Normalization ends in normal forms). The category $\mathsf{Norm}(T)$ of reducts of $T$ and normalizing maps between them has a unique terminal object $[[T]]$ (called the normal form of $T$).
+\begin{thm}(Reduction ends in normal forms). The category $\mathsf{Norm}(T)$ of reducts of $T$ and reduction between them has a unique terminal object $[[T]]$ (called the normal form of $T$).
 \end{thm}
 
 Various proofs have been given, the first in [Dorn 2018, 5.2.2](#Dorn18) (in the case of open trusses, see Def. \ref{defn_open_trusses}, in which case condition 2. is implied by condition 1. above; the proof generalizes to the case of general trusses, however.), and another (shorter) proof in [Heidemann-Reutter-Vicary 2022](#HRV22) (also for open trusses).
