@@ -117,6 +117,8 @@ such that this is [[universal property|universal]] among all objects with maps f
 
 ## Related concepts
 
+* [[quasi-coproduct]]
+
 * [[sum type]]
 
 * [[free coproduct completion]]
