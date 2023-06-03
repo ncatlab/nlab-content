@@ -160,7 +160,7 @@ See at _[[2-congruence]]_ the section _[Regularity](http://ncatlab.org/nlab/show
 
 The above definitions and observations are originally due to
 
-* [[Michael Shulman]], _[[michaelshulman:regular 2-category]]_
+* [[Michael Shulman]], _[[michaelshulman:regular 2-category]]_ (see [[StreetCBS]])
 
 
 [[!redirects regular 2-categories]]
