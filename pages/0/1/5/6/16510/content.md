@@ -78,6 +78,9 @@ $$
   \,.
 $$
 
+## Coalgebras
+
+A [[coalgebra]] of the coreader comonad $W \times -$ is equivalent to simply a morphism $A \to W$ for $A$ the carrier of the co-algebra. Furthermore, the category of coalgebras is the isomorphic to the [[slice category]] over $W$. This shows that if all cartesian products with $W$ exist, then the forgetful functor $C / W \to W$ has a left adjoint taking $A$ to $W \times A$ and this adjunction is [[comonadic]].
 
 
 ## Related concepts
