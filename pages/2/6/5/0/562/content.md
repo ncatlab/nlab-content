@@ -92,7 +92,8 @@ See [[straightening functor]] for more details.
 
 ## Examples 
 
-* Let $\VBun$ be the category having objects pairs $(M,V)\in\Man\times\Man$ of [[manifold|manifolds]] where $q:V\longrightarrow M$ is a [[vector bundle|vector bundle]] over $M$. A morphism $(M_{1},V_{1})\longrightarrow (M_{2},V_{2})$ is a [[commutative square|commutative square]]: 
+\begin{example}
+Let [[VectBund|$\VBun$]] denote the category whose [[objects]] are [[pairs]] $(M,V)\in\Man\times\Man$ of [[manifolds]] where $q:V\longrightarrow M$ is a [[vector bundle|vector bundle]] over $M$. A morphism $(M_{1},V_{1})\longrightarrow (M_{2},V_{2})$ is a [[commutative square]]: 
 \begin{center}
 \begin{tikzcd}
 V_{1} \arrow[r, "g"] \arrow[d, "q_{1}"'] & V_{2} \arrow[d, "q_{2}"] \\
@@ -140,16 +141,27 @@ M \arrow[rr, bend right, shift right] \arrow[r, "g"]        & M_{1} \arrow[r]   
 \end{center}
 It immediately follows from the above unfolding of the definition that $\VBun(e'',e')\cong\VBun(e'',p)$ naturally in $e''$, where $p$ is the pullback bundle of $V_{2}\longrightarrow M_{2}$ along $M_{1}\longrightarrow M_{2}$, and thus by the [[Yoneda lemma#YonedaCorollaries|Yoneda lemma]] $e'\cong p$, and thus $V_{1}\cong\mathcal{P}(e')^{*}V_{2}$. Note that the isomorphisms $e'\cong p$ preserve the commutativity of the diagrams we have drawn above by the universal property of the pullback, and by the definition of a cartesian morphism. Now that we have identified the cartesian morphisms, the statement that $\mathcal{P}:\VBun\longrightarrow\Man$ is a Grothendieck fibration is equivalent to the statement that vector bundles can be pulled back along smooth maps. This is of course true, and thus $\mathcal{P}:\VBun\longrightarrow\Man$ is a Grothendieck fibration.
 The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psuedofunctors]] $f^{*}:\VBun_{M_{2}}\longrightarrow \VBun_{M_{1}}$ that pullback vector bundles over a manifold $M_{2}$ to vector bundles over a manifold $M_{1}$ along a smooth map $f:M_{1}\longrightarrow M_{2}$.
+\end{example}
 
-* Let $Ring$ be the category of [[ring|rings]], and $Mod$ the category of pairs $(R,M)$ where $R$ is a ring and $M$ is a (left) $R$-module.  Then the evident forgetful functor $Mod\to Ring$ is a fibration and an opfibration.  The functors $f^*$ are given by restriction of scalars, $f_!$ is extension of scalars, and the right adjoint $f_*$ is coextension of scalars.
+\begin{example}
+Let [[Ring]] be the category of [[ring|rings]], and [[Mod]] the category of pairs $(R,M)$ where $R$ is a ring and $M$ is a (left) $R$-module.  Then the evident forgetful functor $Mod\to Ring$ is a fibration and an opfibration.  The functors $f^*$ are given by restriction of scalars, $f_!$ is extension of scalars, and the right adjoint $f_*$ is coextension of scalars.
+\end{example}
 
-* Let $C$ be any category with pullbacks and $\mathbf{2}$ the [[free-living]] arrow, so that $C^{\mathbf{2}}$ is the category of arrows and commutative squares in $C$.  Then the "codomain" functor $C^{\mathbf{2}} \to C$ is a fibration and opfibration.  The cartesian arrows are precisely the pullback squares, and the functors $f_!$ are just given by composition.  The right adjoints $f_*$ exist iff $C$ is [[locally cartesian closed category|locally cartesian closed]].  The term "cartesian" is motivated by this example, which is usually called the **[[codomain fibration]]** over $C$.
+\begin{example}
+Let $C$ be any category with [[pullbacks]] and $\mathbf{2}$ the [[free-living]] arrow, so that $C^{\mathbf{2}}$ is the category of arrows and commutative squares in $C$.  Then the "codomain" functor $C^{\mathbf{2}} \to C$ is a fibration and opfibration.  The cartesian arrows are precisely the pullback squares, and the functors $f_!$ are just given by composition.  The right adjoints $f_*$ exist iff $C$ is [[locally cartesian closed category|locally cartesian closed]].  The term "cartesian" is motivated by this example, which is usually called the **[[codomain fibration]]** over $C$.
+\end{example}
 
-* Let $C$ be a category with binary cartesian products. Then for each object $\Gamma$, we can construct an indexed comonad $C \to Comonad$, the [[environment comonad]] $\Gamma \times -$ on $C$, and taking [[Kleisli categories]] we get a functor $C^{op} \to Cat$. The corresponding fibration is called the [[simple fibration]] over $C$ and can be seen as a full subfibration of the codomain fibration, with objects being the projections $\Gamma \times A \to \Gamma$.
+\begin{example}
+\label{SimpleFibration}
+Let $C$ be a category with binary [[cartesian products]]. Then for each object $\Gamma$, we can construct an indexed comonad $C \to Comonad$, the [[environment comonad]] $\Gamma \times -$ on $C$, and taking [[Kleisli categories]] we get a functor $C^{op} \to Cat$. The corresponding fibration is called the [[simple fibration]] over $C$ and can be seen as a full subfibration of the [[codomain fibration]], with objects being the [[projections]] $\Gamma \times A \to \Gamma$.
+\end{example}
 
-* Let $C$ be any category and let $Fam(C)$ be the category of set-indexed families of objects of $C$.  The forgetful functor $Fam(C)\to Set$ taking a family to its indexing set is a fibration; the functors $f^*$ are given by reindexing.  They have left adjoints iff $C$ has small coproducts, and right adjoints iff $C$ has small products.
+\begin{example}\label{FreeCoproductCompletion}
+**([[families]], [[free coproduct completion]])**
+\linebreak
+Let $C$ be any category and let $Fam(C)$ be the category of set-indexed [[families]] of objects of $C$ (the [[free coproduct completion]] of $C$, which is a [[Grothendieck construction]] by the discussion [there](free+coproduct+completion#AsAGrothendieckConstruction)).  The forgetful functor $Fam(C)\to Set$ taking a family to its indexing set is a fibration; the functors $f^*$ are given by reindexing.  They have left adjoints iff $C$ has small coproducts, and right adjoints iff $C$ has small products.
+\end{example}
 
-* For any category $C$ with binary products 
 
 ## Properties
 
