@@ -44,7 +44,7 @@ This theorem was more or less simultaneously proved in ([Watts](#Watts)) and ([E
 +-- {: .num_remark}
 ###### Remark
 
-Given a [[cocontinuous functor]] $F \colon Mod_R \to Mod_S$, the reconstructed $R$-$S$-bimodule is given as follows:
+A functor is right exact and preserves small coproducts if and only if it preserves all small colimits; such a functor is called [[cocontinuous functor|cocontinuous]].  Given a cocontinuous functor $F \colon Mod_R \to Mod_S$, the reconstructed $R$-$S$-bimodule is given as follows:
 
 * the underlying right $S$-module is $F(R)$, where $R$ is regarded as a right module over itself in the canonical way;
 
