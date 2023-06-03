@@ -18,21 +18,25 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$, given any [[object]]/[[type]] $W$ there is a [[comonad]]
+Given an object $W$ in a [[category]] $\mathcal{C}$, if all binary [[cartesian products]] with $W$ exist, then taking the cartesian product with $W$ assembles into a [[comonad]]
 
 $$
   W \times (-) \colon \mathcal{C} \to \mathcal{C}
 $$
 
-given by forming the [[Cartesian product]] with $W$, with the [[coproduct]] induced by the [[diagonal map]] on $W$ and the [[counit of a comonad|counit]] induced by the [[terminal object|terminal map]] $W \to \ast$.
+with the [[comultiplication]] induced by the [[diagonal map]] on $W$ and the [[counit of a comonad|counit]] induced by the [[terminal object|terminal map]] $W \to \ast$.
 
 Notice then if $W$ is furthermore equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]], allowing aggregation of a program's $W$ outputs, corresponding to a sort of side channel. Equipped with this [[monad]]-structure, the operation $W \times (-)$ is known as the *[[writer monad]]*, see there for more.
 
-On the other hand, the canonical comonad structure on $W \times (-)$ is [[left adjoint]] to the [[reader monad]], so that it is known as the **reader comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or **coreader comonad** (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)).
+On the other hand, if $W$ is further [[exponentiable]] then $W \times (-)$ is [[left adjoint]] to the [[reader monad]] $W \to -$, so that it is known as the **reader comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or **coreader comonad** (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)) and the **environment comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Env](https://hackage.haskell.org/package/comonad-5.0.8/docs/Control-Comonad-Env.html)*).
 
 ## Properties
+
+### As an Indexed Comonad
+
+If all binary cartesian products in $C$ exist, then the coreader comonad extends to a $C$-indexed comonad on $C$, i.e. a functor $C \to Comonad$. If $C$ has a [[terminal object]] $1$, then the environment comonad $1 \times -$ is isomorphic to the identity comonad.
 
 ### Relation to reader monad and state monad
 
@@ -115,6 +119,7 @@ See also:
 [[!redirects co-reader comonads]]
 
 [[!redirects product comonad]]
+[[!redirects environment comonad]]
 
 
 [[!redirects writer comonad]]
