@@ -31,6 +31,7 @@ An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian 
 
 More generally, in a category with [[finite products]], an exponential object $X^Y$ is a [[representing object]] for the functor $\hom(- \times Y, X)$. 
 
+It is also possible to define exponentiable objects in categories without finite products, using the [[Yoneda embedding]].
 
 ## Definition 
 
@@ -44,14 +45,18 @@ Equivalently, this data can be repackaged as a natural isomorphism $\hom_C(-, X^
 
 The map $u$ is known by various names, such as the _exponential transpose_ or *[[currying]]* of $e$.  It is sometimes denoted $\lambda(e)$ in a hat tip to the [[lambda-calculus]], since in the [[internal logic]] of a cartesian closed category this is the operation corresponding to $\lambda$-abstraction.  It is also sometimes denoted $e^\flat$ (as in music notation), being an instance of the more general notion of [[adjunct]] or [[mate]].
 
-As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]]. 
+As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]].
+
+### Without finite products
+
+In a category without finite products, an exponentiable object is given by an object $X^Y$ and a universal natural transformation $C(-, X^Y) \times C(-, X) \to C(-, Y)$. See, for instance, [this](https://github.com/punkdit/categories/blob/master/www.mta.ca/cat-dist/archive/2008/08-1#L751-L782) [[categories mailing list]] post by [[Richard Garner]].
 
 
 ## Related notions 
 
 As before, let $C$ be a category and $X,Y\in C$.
 
-* If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$.  As above, the existence of $X^Y$ requires that all binary products with $Y$ exist.
+* If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$.
 
 * If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__ (or *powerful*, cf. Street-Verity [pdf](http://www.emis.de/journals/TAC/volumes/23/3/23-03.pdf)).  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable (which requires that all binary products exist too).
 
