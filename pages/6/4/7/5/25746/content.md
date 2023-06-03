@@ -404,7 +404,8 @@ $$
 
 Notice that for any $\mathcal{X} \,\in\, Grpd$ the external tensor product with $\mathbb{1}_{\mathcal{X}} \,\coloneqq\, (p_{\mathcal{X}})^\ast \mathbb{1}_{pt}$ (i.e. with the [[tensor unit]] over $\mathcal{X}$, which is the [[constant functor]] $\mathcal{X} \to \ast \xrightarrow{\mathbb{1}} \mathcal{C}$) is equivalently the [[base change]] operation along the [[projection]] out of the [[product groupoid]] $pr_{\mathcal{Y}} \,\colon\, \mathcal{X} \times \mathcal{Y} \longrightarrow \mathcal{Y}$
 
-$$
+\[
+  \label{GrpdTensoringAsExternalTensorProduct}
   \mathbb{1}_{\mathcal{X}}
   \,\boxtimes\,
   \mathscr{V}_{\mathcal{Y}}
@@ -415,7 +416,7 @@ $$
     (pr_{\mathcal{Y}})^\ast \mathscr{V}
   \big)_{\mathcal{X} \times \mathcal{Y}}
   \,.
-$$
+\]
 Since here the expression on the right hand side does not actually invoke the [[monoidal category|monoidal structure]] of $\mathcal{C}$ it is expedient to allow ourselves to use the notation on the left even when $\mathcal{C}$ is not equipped with monoidal structure.
 
 This is the canonical [[tensoring]] of $Loc_{\mathcal{C}}$ over [[Grpd]]:
@@ -553,28 +554,28 @@ $$
     \\
     pt 
       &\mapsto& 
-    \mathbb{1}_{\mathbf{E}G} 
-      \boxtimes 
+    \mathbf{E}G 
+      \cdot 
     \mathscr{V}_{pt}
     \\
     \Big\downarrow\mathrlap{{}^g}
       && 
     \Big\downarrow\mathrlap{{}^{  
-      \mathbb{1}_{\mu(\text{-},g^{-1})}   
-      \,\boxtimes\,
+      \mu(\text{-},g^{-1})   
+      \,\cdot\,
       {\rho(g)}_{pt}
     }}
     \\
     pt
     &\mapsto&
-    \mathbb{1}_{\mathbf{E}G} 
-      \boxtimes 
+    \mathbf{E}G
+      \cdot 
     \mathscr{V}_{pt}
   }
 $$
 \end{lemma}
 \begin{proof}
-We need to exhibit a colimiting cocone of this form:
+We need to exhibit a colimiting cocone of the following form, where we find it helpful to now use the $\boxtimes$-notation (eq:GrpdTensoringAsExternalTensorProduct) for the $Grpd$-tensoring:
 $$
   \array{
     \mathbb{1}_{\mathbf{E}G}
