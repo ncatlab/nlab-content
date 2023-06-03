@@ -42,9 +42,26 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |1988|*Data missing*|*Data missing*| |
 |1987|Louvain-la-Neuve|*Data missing*| |
 
+The following is a quote from [Rota 1993](#Rota) on the proceedings of the Category Theory conference in held 1991:
+> It is good to know that category theory is alive and well after all these years. We were turned off to category theory by the excesses of the sixties, when a small but loud crowd pretended to reduce all of mathematics to the language of categories. Now at least they have toned down their claims, and category theory has taken its modest place in the mathematical spectrum side by side with lattice theory, more pretentious perhaps than the latter, but with a good pedigree. We wish there were two versions of each of the papers presented at this conference: one for the specialist, as one finds it in this book, and one for the would-be specialist, who needs some direction and encouragement before he or she swallows this morass of definitions.
+
 ## Related pages
 
 - [[Peripatetic Seminar on Sheaves and Logic]]
 - [Séminaire Itinérant des Catégories](http://www-lmpa.univ-littoral.fr/SIC/)
+
+## References 
+
+* [[R. Brown]], _International category theory meeting. Bangor, Wales, July 2-7 1989. Cambridge, England, March 23-25, 1990_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 32, No. 1, 1991, page 3. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1991__32_1_3_0/)&rbrack;
+
+* {#Rota} [[Gian-Carlo Rota]], _Book review of "Category Theory 1991"_, Advances in Mathematics, Vol. 102, No. 1, 1993, page 126. &lbrack;[doi:10.1006/aima.1993.1061](https://doi.org/10.1006/aima.1993.1061)&rbrack;
+
+* [[Aurelio Carboni]], [[Giuseppe Rosolini]] and [[Robert Walters]] (guest editors), _CT2000_, Theory and Applications of Categories, Vol. 9, 2001. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol9)&rbrack;
+
+* [[George Janelidze]], [[John MacDonald]], [[Ross Street]] and [[Walter Tholen]] (guest editors), _CT2004_, Theory and Applications of Categories, Vol. 15, 2005-2006. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol15)&rbrack;
+
+* _CT2006_, Theory and Applications of Categories, Vol. 19, 2007. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol19)&rbrack;
+
+* [[Marino Gran]], [[George Janelidze]], [[Stephen Lack]], [[John MacDonald]] and [[Walter Tholen]] (guest editors), _CT2011_, Theory and Applications of Categories, Vol. 27, 2012. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol27)&rbrack;
 
 category: reference
