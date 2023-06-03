@@ -23,14 +23,16 @@
 Given an object $W$ in a [[category]] $\mathcal{C}$, if all binary [[cartesian products]] with $W$ exist, then taking the cartesian product with $W$ assembles into a [[comonad]]
 
 $$
-  W \times (-) \colon \mathcal{C} \to \mathcal{C}
+  W \times (-) 
+  \;\colon\; 
+  \mathcal{C} \longrightarrow \mathcal{C}
 $$
 
-with the [[comultiplication]] induced by the [[diagonal map]] on $W$ and the [[counit of a comonad|counit]] induced by the [[terminal object|terminal map]] $W \to \ast$.
+whose [[comultiplication]] is induced by the [[diagonal map]] on $W$ and whose [[counit of a comonad|counit]] is induced by the [[terminal object|terminal map]] $W \to \ast$.
 
-Notice then if $W$ is furthermore equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]], allowing aggregation of a program's $W$ outputs, corresponding to a sort of side channel. Equipped with this [[monad]]-structure, the operation $W \times (-)$ is known as the *[[writer monad]]*, see there for more.
+When $W$ is furthermore equipped with the [[structure]] of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]]. (Regarded as a [[monad in computer science]] this models the aggregation of a program's $W$-typed outputs, corresponding to a sort of side channel.) Equipped with this [[monad]]-structure, the operation $W \times (-)$ is known as the *[[writer monad]]*, see there for more.
 
-On the other hand, if $W$ is further [[exponentiable]] then $W \times (-)$ is [[left adjoint]] to the [[reader monad]] $W \to -$, so that it is known as the **reader comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or **coreader comonad** (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)) and the **environment comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Env](https://hackage.haskell.org/package/comonad-5.0.8/docs/Control-Comonad-Env.html)*).
+On the other hand, if $W$ is further [[exponentiable object|exponentiable]] then $W \times (-)$ is [[left adjoint]] to the [[reader monad]] $W \to -$, so that it is known as the **reader comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*) or **coreader comonad** (e.g. [Ahman & Uustalu (2019)](#AhmanUustalu19)). It is also known as the *product comonad* (e.g. [Uustalu & Vene 2008, p. 270](#UustaluVene08)) and the **environment comonad** (eg. in the [[Haskell]] documentation for *[Control.Comonad.Env](https://hackage.haskell.org/package/comonad-5.0.8/docs/Control-Comonad-Env.html)*).
 
 ## Properties
 
