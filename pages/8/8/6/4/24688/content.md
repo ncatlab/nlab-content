@@ -131,7 +131,9 @@ Manifold diagrams have canonical geometric duals (in the sense of Poincaré dual
 
 * {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
 
-A fast introduction to manifold diagrams can be found in:
+Fast introductions to manifold diagrams can be found at:
+
+* From zero to manifold diagrams, TallCat Seminar Talk, ([video](https://www.youtube.com/watch?v=67RAzY-13r4))
 
 * [An Invitation to Geometric Higher Categories](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html), $n$-Category Café post
 
