@@ -2446,6 +2446,111 @@ $$
 
 =--
 
+\begin{remark}
+\label{EveryGroupoidIsomorphicToQuasiSkeletalGroupoid}
+**(every groupoid is isomorphic to a quasi-skeletal groupoid)**
+\linebreak
+  Sometimes it is useful to reformulate the content of Prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} as a statement not about [[equivalence of groupoids]] but of [[isomorphisms]] between a groupoid and a [[resolution]] of a [[skeletal groupoid]].
+
+Namely, notice that in particular the [[codiscrete groupoid]] $CoDisc(S)$ on any [[set]] $S \in Set$ is equivalent to the [[terminal groupoid]], and in the following sense this kind of equivalence already captures the general equivalence of groupoids to their [[skeletal groupoid|skeleta]].
+
+Namely if we say that a groupoid $\mathcal{G}$ is *quasi-skeletal* if it is the [[coproduct]] of [[product groupoids]] of [[delooping groupoids]] with a [[codiscrete groupoid]]
+$$
+  \mathcal{G}
+  \;\simeq\;
+  \underset{i \in I}{\coprod}
+  \Big(
+    \mathbf{B}G_i
+    \,\times\,
+    CoDisc(S_i)
+  \Big)
+$$
+then the same construction as in the proof of Prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} shows that every groupoid is *[[isomorphism|isomorphic]]* (in the [[1-category]] of [[functors]] between [[strict category|strict]] groupoids) to a quasi-skeletal groupoid.
+
+To see this in detail, it is clearly sufficient to show for every *connected* groupoid $\mathcal{G}_i$ that there is the following isomorphism, where we are using the notation and choices $f_{x_i,x}$ from the proof of Prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}:
+$$
+  \array{
+    \mathllap{
+      \mathcal{G}_i
+      \;\text{connected}
+      \;\;\;\;\;\;\;\;\;\;\;\;\;
+       \vdash
+      \;\;\;\;\;\;\;\;\;\;\;\;\;
+    }
+    \mathcal{G}
+    &
+      \underoverset
+        {\in Iso}
+        {\;\; \phi \;\;}
+        {\longrightarrow}
+    &
+    \mathbf{B}\big(\mathcal{G}(x_i,x_i)\big)
+    \times
+    CoDisc\big(Obj(\mathcal{G})\big)
+    \\
+    x &\mapsto& (pt,\, x)
+    \\
+    \Big\downarrow\mathrlap{{}^{f}}
+    &&
+    \Big\downarrow\mathrlap{{}^{
+      \big(
+        f_{x_i,x'}^{-1} \circ f \circ f_{x_i,x} 
+        \;\;,\;
+        (x\to x')
+      \big)
+    }}
+    \\
+    x' &\mapsto& (pt,\, x')
+  }
+$$
+whose strict inverse is given by
+$$
+  \array{
+    \mathllap{
+      \mathcal{G}_i
+      \;\text{connected}
+      \;\;\;\;\;\;\;\;\;\;\;\;\;
+       \vdash
+      \;\;\;\;\;\;\;\;\;\;\;\;\;
+    }
+    \mathbf{B}\big(\mathcal{G}(x_i,x_i)\big)
+    \times
+    CoDisc\big(Obj(\mathcal{G})\big)
+    &
+      \underoverset
+        {\in Iso}
+        {\;\; \phi^{-1} \;\;}
+        {\longrightarrow}
+    &
+    \mathcal{G}
+    \\
+    (pt,\, x)
+      &\mapsto& 
+    x 
+    \\
+    \Big\downarrow\mathrlap{{}^{
+      \big(
+        g
+        ,\,
+        (x\to x')
+      \big)
+    }}
+    &&
+    \Big\downarrow\mathrlap{{}^{
+      f_{x_i,x'}
+      \circ
+      g
+      \circ
+      f_{x_i,x}^{-1}
+    }}
+    \\
+    (pt,\, x')
+      &\mapsto& 
+    x' 
+  }
+$$
+\end{remark}
+
 
 +-- {: .num_prop #EquivalenceOfGroupoidsFromWeakHomotopyEquivalence}
 ###### Proposition
