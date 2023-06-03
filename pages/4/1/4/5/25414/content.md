@@ -56,12 +56,12 @@ Combinatorially, we define the following.
 \begin{center}
 \begin{tikzcd}
         T & {T'} & S
-        \arrow["{\mathsf{norm}}"', from=1-2, to=1-1]
+        \arrow["{\mathsf{red}}"', from=1-2, to=1-1]
         \arrow[hook, from=1-2, to=1-3]
 \end{tikzcd}
 \end{center}
 
-where $T' \xrightarrow{\mathsf{norm}} T$ is a [[n-truss#normalizing_map|normalizing map]] and $T' \hookrightarrow S$ is map of labeled trusses whose underlying map is [[n-truss#n-truss_bundle_map|regular]] and injective. 
+where $T' \xrightarrow{\mathsf{red}} T$ is a [[n-truss#reduction|reduction]] and $T' \hookrightarrow S$ is map of labeled trusses whose underlying map is [[n-truss#n-truss_bundle_map|regular]] and injective. 
 \end{defn}
 
 Such spans can be composed by [[pullback]].
@@ -189,7 +189,7 @@ with various sheaf conditions in place. In both cases, faces, degeneracies and c
 
 Another related, potentially useful observation is that the spans occurring in the definition of the category of manifold diagrams may be expressed concisely in terms of bundles (slightly generalizing the notion of labeled [[trusses|truss bordism]]).
 
-Several other approaches to and variations of the idea of manifold-diagrammatic higher categories are currently under consideration. The categories of combinatorial shapes considered here (whether combinatorial manifold diagrams, or (atomic) trusses, or similar) often have peculiarities that one doesn't encounter in other settings (e.g. failure to be a [[Reedy category]] due to the novel concept of normalizing maps). The precise nature of these shape categories remains to be fully understood.
+Several other approaches to and variations of the idea of manifold-diagrammatic higher categories are currently under consideration. The categories of combinatorial shapes considered here (whether combinatorial manifold diagrams, or (atomic) trusses, or similar) often have peculiarities that one doesn't encounter in other settings (e.g. failure to be a [[Reedy category]] due to the novel concept of reduction). The precise nature of these shape categories remains to be fully understood.
 
 ## Examples
 
@@ -226,7 +226,11 @@ Several other approaches to and variations of the idea of manifold-diagrammatic 
 
 A condensed write-up of the mathematics needed for stating the above formal definition of manifold-diagrammatic higher categories was compiled in
 
-* {#Zero23} [From zero to manifold-diagrammatric categories](https://cxdorn.github.io/assets/pdfs/zero-to-mdhc.pdf), pdf.
+* {#Zero23} [[Christoph Dorn]], _From zero to manifold-diagrammatric categories_, ([pdf](https://cxdorn.github.io/assets/pdfs/zero-to-mdhc.pdf))
+
+and explained in
+
+* From zero to manifold diagrams, TallCat Seminar Talk, ([video](https://www.youtube.com/watch?v=67RAzY-13r4))
 
 A general introduction to some of the relevant ideas in the area can be found in
 
