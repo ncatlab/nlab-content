@@ -283,7 +283,7 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 ## References
  {#References}
 
-The notion of [[strict 2-categories]] is due to:
+Despite its being frequently attributed to Ehresmann, the notion of [[strict 2-categories]] is due to:
 
 * {#Bénabou65} [[Jean Bénabou]], Example (5) of: *Catégories relatives*, C. R. Acad. Sci. Paris **260** (1965) 3824-3827 &lbrack;[gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item)&rbrack;
 
