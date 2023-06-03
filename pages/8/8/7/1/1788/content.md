@@ -19,6 +19,8 @@ it makes sense, in [[homotopy theory|homotopy theoretic]] generalization of copr
 
 ## Definition
 
+### Quasi-coproducts
+
 \begin{definition}\label{QuasiCoproduct}
   A *quasi-coproduct* in a [[category]] $\mathcal{C}$ is a [[colimit]] over a [[diagram]] 
 $$
@@ -46,53 +48,94 @@ is a [[free action]].
 &lbrack;[Hu & Tholen (1996), §1.3](#HuTholen96)&rbrack;
 
 
-## Properties
+### Homotopy quasi-coproducts
 
-### Free quasi-coproduct-completion
+The following Def. \ref{CategoryWithHomotopicalQuasiCoproducts} is a slight variant of the notions in [Hu & Tholen (1996)](#HuTholen96), meant to adapat the notion properly to the context of [[homotopy theory]]. 
 
-In generalization of how 
-
-* the [[free coproduct completion]] of a category $\mathcal{C}$ is the [[Grothendieck construction]] $\int_{X \in Set} \mathcal{C}^X$ over the [[pseudofunctor]] 
-
-  $$
-    Set^{op} 
-     \hookrightarrow 
-    Cat^{op} 
-    \overset{
-     Func(-,\mathcal{C})
-    }{\longrightarrow}
-    Cat
-  $$
-
-it ought to be the case that 
-
-* the free quasi-coproduct completion of $\mathcal{C}$ is the [[Grothendieck construction]] $\int_{\mathcal{X} \in Grpd} \mathcal{C}^{\mathcal{X}}$ over the [[pseudofunctor]] 
-
-  $$
-    Grpd^{op} 
-     \hookrightarrow 
-    Cat^{op} 
-    \overset{
-     Func(-,\mathcal{C})
-    }{\longrightarrow}
-    Cat
-  $$
-
-Or something close.
+(One may consider other variants, for instance with respect to [[homotopical categories]], and in particular one could consider more general variants, such as with [[groupoids]] generalized to [[sSet]]-[[enriched groupoids]] aka "[[simplicial groupoids]]" regarded as models for [[infinity-groupoids|$\infty$-groupoids]]. Maybe later.)
 
 \begin{definition}
 \label{DeloopingGroupoids}
+**(conventions for delooping groupoids)**
+\linebreak
 For $(G, \mu, \mathrm{e})$ a [[group]], we write
 
 * $\mathbf{B}G \,\equiv\, (G \rightrightarrows pt)$ 
 
-  for its [[delooping groupoid]]
+  for its [[delooping groupoid]] with [[composition]] given  by reverse multiplication in $G$:
+
+  $$
+    \array{
+      &&
+      pt
+      \\
+      & 
+      \mathllap{{}^{g_{12}}}\nearrow
+      &&
+      \searrow\mathrlap{{}^{g_{23}}}
+      \\
+      pt
+      && 
+      \underset{\mu(g_{23},\,g_{12})}{\longrightarrow}
+      &&
+      pt
+    }
+  $$
+
+  so that (ordinary, left) $G$-[[group representations]]
+
+  $$
+    \rho 
+       \,\colon\, 
+    G 
+      \longrightarrow 
+    Hom_{\mathcal{C}}(\mathscr{V}, \mathscr{V})
+  $$
+
+  are identified with [[functors]] of the form
+
+  \[
+    \label{GroupRepresentationsAsFunctors}
+    \array{
+      \mathllap{
+        \rho 
+          \,\colon\, 
+      }
+      \mathbf{B}G &\longrightarrow& \mathcal{C}
+      \\
+      pt &\mapsto& \mathscr{V}
+      \\
+      \Big\downarrow\mathrlap{{}^{g}}
+        && 
+      \Big\downarrow\mathrlap{{}^{ \rho(g) }}
+      \\
+      pt &\mapsto& \mathscr{V}   
+    }
+  \]
 
 * $\mathbf{E}G \,\equiv\, (G \times G \rightrightarrows G)$ 
  
-  for the [[action groupoid]] of $G$ [[action|acting]] on itself by left multiplication. 
+  for the [[action groupoid]] of $G$ [[action|acting]] on itself by left multiplication, so that we have the evident [[forgetful functor]] 
 
-The remaining right multiplication of $G$ on $\mathbf{E}G$ defines a [[group action]]
+
+  $$
+    \array{
+      \mathbf{E}G &\longrightarrow& \mathbf{B}G
+      \\
+      g &\mapsto& pt
+      \\   
+      \Big\downarrow\mathrlap{{}^{ g_{12} }}
+        && 
+      \Big\downarrow\mathrlap{{}^{ g_{12} }}
+      \\ 
+      \mu(g_{12},g) 
+        &\mapsto& 
+      pt
+    }
+  $$
+
+
+and the remaining *right inverse multiplication* action of $G$ on $\mathbf{E}G$ defines a [[group action]]
 $$
   \array{
     \mathbf{B}G 
@@ -103,7 +146,7 @@ $$
     \\
     \Big\downarrow\mathrlap{{}^{ g }}
       && 
-    \Big\downarrow\mathrlap{{}^{ \mu(-,g) }}
+    \Big\downarrow\mathrlap{{}^{ \mu(\text{-},g^{-1}) }}
     \\
     pt &\mapsto& \mathbf{E}G
   }
@@ -159,6 +202,7 @@ A category with *homotopical quasi-coproducts* is
 
 
 \begin{definition}
+\label{FreeHomotopyQuasiCoproductCompletion}
 **(free homotopical quasi-coproduct completion)**
 \linebreak
   For $\mathcal{C}$ a category, its *free homotopical quasi-coproduct completion* is 
@@ -181,7 +225,42 @@ such that
 
 \end{definition}
 
-Here are some first observations.
+
+## Properties
+
+### Free quasi-coproduct-completion
+
+In generalization of how 
+
+* the [[free coproduct completion]] of a category $\mathcal{C}$ is the [[Grothendieck construction]] $\int_{X \in Set} \mathcal{C}^X$ over the [[pseudofunctor]] 
+
+  $$
+    Set^{op} 
+     \hookrightarrow 
+    Cat^{op} 
+    \overset{
+     Func(-,\mathcal{C})
+    }{\longrightarrow}
+    Cat
+  $$
+
+it ought to be the case that 
+
+* the free quasi-coproduct completion of $\mathcal{C}$ is the [[Grothendieck construction]] $\int_{\mathcal{X} \in Grpd} \mathcal{C}^{\mathcal{X}}$ over the [[pseudofunctor]] 
+
+  $$
+    Grpd^{op} 
+     \hookrightarrow 
+    Cat^{op} 
+    \overset{
+     Func(-,\mathcal{C})
+    }{\longrightarrow}
+    Cat
+  $$
+
+This we make precise now.
+
+
 
 The following Def. \ref{CategoryOfLocalSystems} of "categories of local systems" may be understood as the 1-step [[homotopy theory|homotopy-theoretic]] generalization of the category $\int_{X \in Set} \mathcal{C}^X$ of [[indexed sets]] of objects in $\mathcal{C}$
 
@@ -212,10 +291,25 @@ for the [[Grothendieck construction]] on the [[pseudofunctor]] which sends [[gro
     \mathcal{X}' &\mapsto& \mathcal{C}^{\mathcal{X}'}
   }
 \]
+
+There is a canonical [[full subcategory]]-empbedding
+\[
+  \label{ConstantLocalSystem}
+  \array{
+    \mathcal{C} 
+      &\longrightarrow& 
+    Loc_{\mathcal{C}}
+    \\
+    \mathscr{V} 
+      &\mapsto& 
+    \mathscr{V}_{pt}
+  }
+\]
+by regarding objects of $\mathcal{C}$ as (necessarily [[constant functors|constant]]) [[functors]] on the [[terminal groupoid]] $pt$.
 \end{definition}
 
 \begin{example}
-For $\mathbb{K}$ a [[field]] and $\mathcal{C} \,\equiv\, $ [[Mod|$Mod_{\mathbb{K}}$]] $\equiv$ [[Vect|$Vect_{\mathbb{K}}$]] its category of [[vector spaces]], a functor $\mathcal{X} \longrightarrow Mod_{\mathbb{C}}$ -- for $\mathcal{X}$ thought of as the [[fundamental groupoid]] of some [[topological space]] $X$ --, is (equivalently a [[flat vector bundle]] on $X$ but) also known as a *[[local system]]* $X$. Therefore in this case the category (eq:CategoryOfLocalSystems)
+For $\mathbb{K}$ a [[field]] and $\mathcal{C} \,\equiv\, $ [[Mod|$Mod_{\mathbb{K}}$]] $\equiv$ [[Vect|$Vect_{\mathbb{K}}$]] its category of [[vector spaces]], a functor $\mathcal{X} \longrightarrow Mod_{\mathbb{C}}$ --- for $\mathcal{X}$ thought of as the [[fundamental groupoid]] of some [[topological space]] $X$ ---, is (equivalently a [[flat vector bundle]] on $X$ but) also known as a *[[local system]]* $X$. Therefore in this case the category (eq:CategoryOfLocalSystems)
 $$
   Loc_{\mathbb{K}}
   \;\coloneqq\;
@@ -225,6 +319,7 @@ may be thought of as the category of "local systems over varying base spaces", w
 \end{example}
 
 \begin{remark}
+\label{BifibrantCategoryOfLocalSystems}
 If $\mathscr{C}$ has all [[small diagram|small]] [[colimits]],  then the [[Grothendieck construction]] of Def. \ref{CategoryOfLocalSystems}
 $$
   \array{
@@ -270,13 +365,16 @@ $$
 \end{remark}
 
 \begin{remark}
+\label{TensoringOfLocalSystemsOverGroupoids}
+**(tensoring of local systems over groupoids)**
+\linebreak
 If $\mathcal{C}$ carries the [[structure]] of a [[symmetric monoidal category]] such that the pullback functors $f^\ast$ (eq:PseudofunctorOfFunctorCategories) are [[strong monoidal functors]], then $Loc_{\mathcal{C}}$ (eq:Loc) inherits the corresponding [[external tensor product]], which we denote
 
 $$
   Loc_{\mathcal{C}}
   \times 
   Loc_{\mathcal{C}}
-  \xrightarrow{ \boxtimes }
+  \xrightarrow{\;\; \boxtimes \;\;}
   Loc_{\mathcal{C}}
   \,.
 $$ 
@@ -323,6 +421,7 @@ This is the canonical [[tensoring]] of $Loc_{\mathcal{C}}$ over [[Grpd]]:
 \end{remark}
 
 \begin{lemma}
+\label{AllLocalSystemsAreGrpdTensoringsOfCoproductsOfSkeletalLocalSystems}
   Given an object $\mathscr{V}_{\mathcal{X}} \,\in\, Loc_{\mathbb{C}}$ (eq:Loc) it is [[isomorphism|isomorphic]] to a [[coproduct]] of [[tensorings]] with [[codiscrete groupoids]] of objects over [[delooping groupoids]]
 $$
   \mathscr{V}_{\mathcal{X}}
@@ -418,7 +517,11 @@ $$
 
 
 \begin{lemma}
-For $G \in Grp$, any $G$-[[group representation|representation]] $\mathscr{V}_{\mathbf{B}G} \,\colon\, \mathbf{B}G \overset{\rho}{\longrightarrow} \mathcal{C}$ is the colimit in $Loc_{\mathcal{C}}$ (eq:Loc) over the diagram
+\label{GroupRepresentationsAreQuasiCoproductsOfConstantLocalSystems}
+**(group representations are quasi-coproducts of constant local systems)**
+\linebreak
+If $\mathcal{C}$ has all [[colimits]]
+them for $G \in Grp$, any $G$-[[group representation|representation]] $\mathscr{V}_{\mathbf{B}G} \,\colon\, \mathbf{B}G \overset{\rho}{\longrightarrow} \mathcal{C}$ (eq:GroupRepresentationsAsFunctors), regarded as an object of $Loc_{\mathcal{C}}$ (eq:Loc), is the [[colimit]] over the [[diagram]]
 $$
   \array{
     \mathbf{B}G
@@ -434,7 +537,7 @@ $$
     \Big\downarrow\mathrlap{{}^g}
       && 
     \Big\downarrow\mathrlap{{}^{  
-      \mathbb{1}_{\mu(g,-)}   
+      \mathbb{1}_{\mu(\text{-},g^{-1})}   
       \,\boxtimes\,
       {\rho(g)}_{pt}
     }}
@@ -448,14 +551,14 @@ $$
 $$
 \end{lemma}
 \begin{proof}
-Consider the cocone
+We need to exhibit a colimiting cocone of this form:
 $$
   \array{
     \mathbb{1}_{\mathbf{E}G}
     \boxtimes
     \mathscr{V}_{pt}
     &&\overset{
-      \mathbb{1}_{\mu(g,-)} \,\boxtimes\, \rho(g)_{pt}
+      \mathbb{1}_{\mu(\text{-},g^{-1})} \,\boxtimes\, \rho(g)_{pt}
     }{\longrightarrow}&&
     \mathbb{1}_{\mathbf{E}G}
     \boxtimes
@@ -470,13 +573,13 @@ $$
     \mathscr{V}_{\mathbf{B}G}
   }
 $$
-
-By the general formula for colimits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)), the colimit in question has as [[underlying]] object in [[Grpd]] the colimiting cocone of the underlying diagram in [[Grpd]]:
+Due to the assumption that $\mathcal{C}$ has colimits, this exists and (Rem. \ref{BifibrantCategoryOfLocalSystems})
+by the general formula for colimits in Grothendieck constructions ([here](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) the [[underlying]] object in [[Grpd]] the is colimiting cocone of the underlying diagram in [[Grpd]]:
 $$
   \array{
     \mathbf{E}G 
     && 
-      \overset{\mu(-,g)}{\longrightarrow}
+      \overset{\mu(\text{-},g^{-1})}{\longrightarrow}
     &&
     \mathbf{E}G
     \\
@@ -504,14 +607,19 @@ $$
   &
   (G\cdot\mathbb{1})_{\mathbf{B}G} \boxtimes \mathscr{V}_{pt}
   \\  
-  \Big\downarrow\mathrlap{{}^{
+  \mathllap{{}^{
     q_!\big(
-      \mathbb{1}_{\mu(-,g)} \,\boxtimes\, \rho(g)_{pt}
+      \mathbb{1}_{\mu(\text{-},g^{-1})} \,\boxtimes\, \rho(g)_{pt}
     \big)
   }}
+  \Big\downarrow
   &&
   \Big\downarrow\mathrlap{{}^{
-    \mu(-,g)_{\mathbf{B}G}
+    \big(
+      \mu(\text{-},g^{-1})
+      \cdot 
+      \mathbb{1}
+    \big)_{\mathbf{B}G}
     \,\boxtimes\,
     {\rho(g)}_{pt}
   }}
@@ -528,10 +636,29 @@ $$
   (G\cdot\mathbb{1})_{\mathbf{B}G} \boxtimes \mathscr{V}_{pt}
   }
 $$
-
+and the colimit over this system of morphisms is clearly $\mathscr{V}$ with its $G$-action, with [[coprojection]]
+$$
+  \array{
+    G \cdot \mathscr{V}
+    &\xrightarrow{\;\; \mathscr{q} \;\;}&
+    \mathscr{V}
+    \\
+    (g,v) &\mapsto& \rho(g)(v)
+  }
+$$
 
 \end{proof}
 
+It follows that:
+\begin{theorem}
+  If $\mathcal{C}$ has all [[colimits]] then $Loc_{\mathcal{C}}$ (Def. \ref{CategoryOfLocalSystems}) is its free homotopy quasi-coproduct completion (Def. \ref{FreeHomotopyQuasiCoproductCompletion}).
+\end{theorem}
+\begin{proof}
+  First $Loc_{\mathcal{C}}$ is canonically tensored over $Grpd$ (by Rem. \ref{TensoringOfLocalSystemsOverGroupoids})
+and has all colimits (by Rem. \ref{BifibrantCategoryOfLocalSystems}) and as such is in particular a category with homotopical quasi-coproducts (Def. \ref{CategoryWithHomotopicalQuasiCoproducts}).
+
+Moreover, by Lemma \ref{AllLocalSystemsAreGrpdTensoringsOfCoproductsOfSkeletalLocalSystems} and Lemma \ref{GroupRepresentationsAreQuasiCoproductsOfConstantLocalSystems} every object of $Loc_{\mathcal{C}}$ is a coproduct of $Grpd$-tensorings of quasi-coproducts of constant local systems (eq:ConstantLocalSystem). Therefore, a functor out of $Loc_{\mathcal{C}}$ which preserves the $Grpd$-tensoring and the quasi-coproducts is fixed by its restriction to constant local systems
+\end{proof}
 
 
 
