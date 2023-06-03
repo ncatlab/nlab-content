@@ -193,4 +193,10 @@ Textbook accounts:
 [[!redirects copowers]]
 
 [[!redirects tensoring]]
+[[!redirects tensorings]]
+
 [[!redirects copowering]]
+[[!redirects copowerings]]
+
+
+
