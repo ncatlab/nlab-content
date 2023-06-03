@@ -19,7 +19,7 @@ it makes sense, in [[homotopy theory|homotopy theoretic]] generalization of copr
 
 ## Definition
 
-\begin{definition}
+\begin{definition}\label{QuasiCoproduct}
   A *quasi-coproduct* in a [[category]] $\mathcal{C}$ is a [[colimit]] over a [[diagram]] 
 $$
   \mathscr{V}_{(-)}
@@ -80,10 +80,114 @@ it ought to be the case that
 
 Or something close.
 
-Here are some first observations
+\begin{definition}
+\label{DeloopingGroupoids}
+For $(G, \mu, \mathrm{e})$ a [[group]], we write
 
-Throughout, let $\mathscr{C}$ be a category with [[colimits]], so that the [[Grothendieck construction]] 
+* $\mathbf{B}G \,\equiv\, (G \rightrightarrows pt)$ 
 
+  for its [[delooping groupoid]]
+
+* $\mathbf{E}G \,\equiv\, (G \times G \rightrightarrows G)$ 
+ 
+  for the [[action groupoid]] of $G$ [[action|acting]] on itself by left multiplication. 
+
+The remaining right multiplication of $G$ on $\mathbf{E}G$ defines a [[group action]]
+$$
+  \array{
+    \mathbf{B}G 
+    &\longrightarrow&
+    Grpd
+    \\
+    pt &\mapsto& \mathbf{E}G
+    \\
+    \Big\downarrow\mathrlap{{}^{ g }}
+      && 
+    \Big\downarrow\mathrlap{{}^{ \mu(-,g) }}
+    \\
+    pt &\mapsto& \mathbf{E}G
+  }
+$$
+whose [[quotient object]] is
+$$
+  \mathbf{B}G
+  \;\simeq\;
+  \big(\mathbf{E}G\big)/G
+  \,.
+$$
+(See also at *[[universal principal bundle]]* and at [[simplicial classifying space]].)
+\end{definition}
+
+\begin{definition}
+\label{CategoryWithHomotopicalQuasiCoproducts}
+A category with *homotopical quasi-coproducts* is
+
+* equipped with a [[tensoring]] over the [[1-category]] [[Grpd]]
+
+  \[
+    \label{GrpdTensoring}
+    Grpd \times \mathcal{C} 
+      \xrightarrow{(-)\cdot(-)} 
+    \mathcal{C}
+  \]
+
+* has all quasi-coproducts (Def. \ref{QuasiCoproduct}) of the form
+
+  \[
+    \label{HomotopicalQuasiCoproducts}
+    \array{
+      \mathcal{G} &\longrightarrow& \mathcal{C}
+      \\
+      \mathllap{{}^{=}}\Big\uparrow
+        &&
+      \Big\uparrow\mathrlap{
+        (-)\cdot(-) 
+      }
+      \\
+      \underset{i}{\coprod}
+      \mathbf{B}G_i
+      &\underset{
+        \big(
+          \mathbf{E}G_i  ,\, \mathscr{V}_{(-)}
+        \big)_{i\in I}
+      }{\longrightarrow}&
+      Grpd \times \mathcal{C}
+    }
+  \]
+
+\end{definition}
+
+
+\begin{definition}
+**(free homotopical quasi-coproduct completion)**
+\linebreak
+  For $\mathcal{C}$ a category, its *free homotopical quasi-coproduct completion* is 
+
+* a category $QC(\mathcal{C})$ with homotopical quasi-products (Def. \ref{CategoryWithHomotopicalQuasiCoproducts}) 
+
+equipped with 
+
+* a [[full subcategory]] inclusion $\mathcal{C} \hookrightarrow QC(\mathcal{C})$,
+
+such that 
+
+* [[functors]] $QC(\mathcal{C}) \longrightarrow \mathcal{D}$ to another category $\mathcal{D}$ with homotopical quasi-coproducts which [[preserved colimit|preserve]] 
+
+  1. the $Grpd$-tensoring (eq:GrpdTensoring) 
+
+  1. the quasi-coproducts (eq:HomotopicalQuasiCoproducts) 
+
+  are fixed by the restriction of the [[underlying]] functor along $\mathcal{C} \hookrightarrow QC(\mathcal{C})$.
+
+\end{definition}
+
+Here are some first observations.
+
+The following Def. \ref{CategoryOfLocalSystems} of "categories of local systems" may be understood as the 1-step [[homotopy theory|homotopy-theoretic]] generalization of the category $\int_{X \in Set} \mathcal{C}^X$ of [[indexed sets]] of objects in $\mathcal{C}$
+
+\begin{definition}
+\label{CategoryOfLocalSystems}
+ For $\mathcal{C}$ a [[category]], we write
 \[
   \label{Loc}
   Loc_{\mathcal{C}}
@@ -93,8 +197,47 @@ Throughout, let $\mathscr{C}$ be a category with [[colimits]], so that the [[Gro
   \underset{\mathcal{X} \in Grpd}{\textstyle{\int}}
   \mathcal{C}^{\mathcal{X}}
 \]
-is actually a [[bifibration]], induced from the [[CatAdj|$Cat_{adj}$]]-valued [[pseudofunctor]]
+for the [[Grothendieck construction]] on the [[pseudofunctor]] which sends [[groupoids]] $\mathcal{X} \in $ [[Grpd]] to the [[functor category]] $\mathcal{C}^{\mathcal{X}} \,\coloneqq\,Func(\mathcal{X}, \mathcal{C})$ and [[functors]] $f \,\colon\,\mathcal{X} \to \mathcal{X}'$ to the [[precomposition]] operation $f^\ast \,\coloneqq\, (-) \circ f$: 
+\[
+  \label{PseudofunctorOfFunctorCategories}
+  \array{
+    Grpd &\longrightarrow& Cat
+    \\
+    \mathcal{X} &\mapsto& \mathcal{C}^{\mathcal{X}}
+    \\
+    \Big\downarrow\mathrlap{{}^{f}}
+    &&
+    \Big\uparrow\mathrlap{{}^{f^\ast}}
+    \\
+    \mathcal{X}' &\mapsto& \mathcal{C}^{\mathcal{X}'}
+  }
+\]
+\end{definition}
+
+\begin{example}
+For $\mathbb{K}$ a [[field]] and $\mathcal{C} \,\equiv\, $ [[Mod|$Mod_{\mathbb{K}}$]] $\equiv$ [[Vect|$Vect_{\mathbb{K}}$]] its category of [[vector spaces]], a functor $\mathcal{X} \longrightarrow Mod_{\mathbb{C}}$ -- for $\mathcal{X}$ thought of as the [[fundamental groupoid]] of some [[topological space]] $X$ --, is (equivalently a [[flat vector bundle]] on $X$ but) also known as a *[[local system]]* $X$. Therefore in this case the category (eq:CategoryOfLocalSystems)
 $$
+  Loc_{\mathbb{K}}
+  \;\coloneqq\;
+  Loc_{Mod_{\mathbb{K}}}
+$$
+may be thought of as the category of "local systems over varying base spaces", whence the notation in Def. \ref{CategoryOfLocalSystems}.
+\end{example}
+
+\begin{remark}
+If $\mathscr{C}$ has all [[small diagram|small]] [[colimits]],  then the [[Grothendieck construction]] of Def. \ref{CategoryOfLocalSystems}
+$$
+  \array{
+    Loc_{\mathcal{C}}
+    \\
+    \Big\downarrow
+    \\
+    Grpd
+  }
+$$
+is actually a [[bifibration]], induced from the [[CatAdj|$Cat_{adj}$]]-valued [[pseudofunctor]]
+\[
+  \label{CatAdjValuedPseudofunctorOfFunctorCategories}
   \array{
     Grpd_{skl} &\longrightarrow& Cat_{adj}
     \\
@@ -108,22 +251,26 @@ $$
     \\
     \mathcal{X}' &\mapsto& \mathcal{C}^{\mathcal{X}'}
   }
-$$
+\]
 whose [[left adjoint]]-components $f_!$ are given by [[left Kan extension]].
 
-We shall write
+In this case, all [[colimits]] over [[diagrams]] $\mathscr{V}_{\mathcal{X}} \,\colon\, \mathcal{I} \longrightarrow Loc_{\mathcal{C}}$ in the [[Grothendieck construction]] $Loc_{\mathcal{C}}$ (eq:Loc) exist and (by the discussion [there](Grothendieck+construction#CoLimitsInAGrothendieckConstruction)) are given on [[underlying]] groupoids as the corresponding underlying colimit $\underset{\longrightarrow}{lim} \mathcal{X}$ in [[Grpd]] and on components in $\mathcal{C}$ the colimit in $\mathcal{C}^{ \underset{\longrightarrow}{lim} \mathcal{X}}$ of the diagram of pushforwards $q_!$ (eq:CatAdjValuedPseudofunctorOfFunctorCategories) of morphisms along the underlying [[coprojections]] $\mathcal{X}_i \xrightarrow{q_i} \underset{\longrightarrow}{lim} \mathcal{X}$:
 $$
-  \array{
-    Set \times \mathcal{C} 
-     &\overset{(-)\cdot(-)}{\longrightarrow}&
-    \mathcal{C}
-    \\
-    (S, \mathscr{V}) &\mapsto& \underset{s \in S}{\coprod} \mathscr{V}
-  }
+  \underset{\longrightarrow}{\lim}
+  \mathscr{V}_{\mathcal{X}}
+  \;\;
+  \simeq
+  \;\;
+  \big(
+    \underset{\longrightarrow}{lim}
+    q_!\mathscr{V}
+  \big)_{ \underset{\longrightarrow}{lim} \mathcal{X} }
+  \,.
 $$
-for the canonically induced [[tensoring]] of $\mathcal{C}$ over [[Set]].
+\end{remark}
 
-Finally, we assume now that $\mathcal{C}$ carries the [[structure]] of a [[symmetric monoidal category]]. This implies that $Loc_{\mathcal{C}}$ (eq:Loc) inherits the corresponding [[external tensor product]], which we denote
+\begin{remark}
+If $\mathcal{C}$ carries the [[structure]] of a [[symmetric monoidal category]] such that the pullback functors $f^\ast$ (eq:PseudofunctorOfFunctorCategories) are [[strong monoidal functors]], then $Loc_{\mathcal{C}}$ (eq:Loc) inherits the corresponding [[external tensor product]], which we denote
 
 $$
   Loc_{\mathcal{C}}
@@ -134,17 +281,140 @@ $$
   \,.
 $$ 
 
-A good example to keep in mind is $\mathcal{C} \,\equiv\,$ [[Vect]] equipped with the usual [[tensor product of vector spaces]]. In this case the objects of $Loc_{\mathcal{C}}$ may be understood as [[flat vector bundles]] over [[homotopy 1-types]], also known as "[[local systems]]", whence our notation.
+Notice that for any $\mathcal{X} \,\in\, Grpd$ the external tensor product with $\mathbb{1}_{\mathcal{X}} \,\coloneqq\, (p_{\mathcal{X}})^\ast \mathbb{1}_{pt}$ (i.e. with the [[tensor unit]] over $\mathcal{X}$, which is the [[constant functor]] $\mathcal{X} \to \ast \xrightarrow{\mathbb{1}} \mathcal{C}$) is equivalently the [[base change]] operation along the [[projection]] out of the [[product groupoid]] $pr_{\mathcal{Y}} \,\colon\, \mathcal{X} \times \mathcal{Y} \longrightarrow \mathcal{Y}$
 
-For $G$ a [[group]], we write
+$$
+  \mathbb{1}_{\mathcal{X}}
+  \,\boxtimes\,
+  \mathscr{V}_{\mathcal{Y}}
+  \;\;\;
+    \simeq
+  \;\;\;
+  \big(
+    (pr_{\mathcal{Y}})^\ast \mathscr{V}
+  \big)_{\mathcal{X} \times \mathcal{Y}}
+  \,.
+$$
+Since here the expression on the right hand side does not actually invoke the [[monoidal category|monoidal structure]] of $\mathcal{C}$ it is expedient to allow ourselves to use the notation on the left even when $\mathcal{C}$ is not equipped with monoidal structure.
 
-* $\mathbf{B}G \,\equiv\, (G \rightrightarrows pt)$ 
+This is the canonical [[tensoring]] of $Loc_{\mathcal{C}}$ over [[Grpd]]:
+\[
+  \label{CanonicalTensoringOfLocOverGrpd}
+  \array{
+    Grpd \times Loc_{\mathcal{C}}
+    &\overset{(-)\cdot(-)}{\longrightarrow}&
+    Loc_{\mathcal{C}}
+    \\
+    \big(
+      \mathcal{X}
+      ,\,
+      \mathscr{V}_{\mathcal{Y}}
+    \big)
+    &\mapsto&
+    \big(
+      (pr_{\mathcal{Y}})^\ast
+      \mathscr{V}
+    \big)_{
+      \mathcal{X} \times \mathcal{Y}
+    }
+  }
+\]
 
-  for its [[delooping groupoid]] 
+\end{remark}
 
-* $\mathbf{E}G \,\equiv\, (G \times G \rightrightarrows G)$ 
- 
-  for the [[action groupoid]] of $G$ [[action|acting]] on itself by right multiplication. 
+\begin{lemma}
+  Given an object $\mathscr{V}_{\mathcal{X}} \,\in\, Loc_{\mathbb{C}}$ (eq:Loc) it is [[isomorphism|isomorphic]] to a [[coproduct]] of [[tensorings]] with [[codiscrete groupoids]] of objects over [[delooping groupoids]]
+$$
+  \mathscr{V}_{\mathcal{X}}
+  \;\;
+  \simeq
+  \;\;
+  \underset{i \in \pi_0(\mathcal{C})}{\coprod}
+    \Big(
+      CoDisc\big(
+        Obj(\mathcal{X}_i)
+      \big)
+      \cdot
+      \big(
+       \iota_{\mathbf{B}G_i}^\ast
+       \mathscr{V}
+    \big)_{\mathbf{B}G_i}
+  \Big)
+  \,.
+$$
+and hence to the [[domain]] of a morphism obtained as a [[coproduct]] of [[tensorings]] (eq:CanonicalTensoringOfLocOverGrpd) of local system over a [[skeletal groupoids]] with the terminal maps out of [[codiscrete groupoids]]:
+$$
+  \mathscr{V}_{\mathcal{X}}
+  \,\in\,
+  Loc_{\mathcal{C}}
+  \;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;
+  \mathscr{V}_{\mathcal{X}}
+  \simeq
+  \bigg(
+    \underset{i \in \mathcal{X}_i}{\amalg}
+    \Big(
+      CoDisc\big(\mathrm{Obj}(\mathcal{X}_i)\big)
+      \cdot
+      \big(
+        \iota_{\mathbf{B}G_i}^\ast
+        \mathscr{V}
+      \big)_{ \mathbf{B}G_i }
+    \Big)
+  \Bigg)
+  \overset{
+    \underset{i \in I}{\amalg}
+    \Big(
+      p_i \cdot 
+      \big(
+        \iota_{\mathbf{B}G_i}^\ast
+        \mathscr{V}
+      \big)_{ \mathbf{B}G_i }
+    \Big)
+  }{\longrightarrow}
+  \Big(
+    \underset{i \in \mathcal{X}_i}{\amalg}
+    \big(
+      \iota_{\mathbf{B}G_i}^\ast
+      \mathscr{V}
+    \big)_{ \mathbf{B}G_i }
+  \Big)  
+$$
+\end{lemma}
+\begin{proof}
+  On [[underlying]] groupoids the isomorphism is induced by a choice of [[adjoint equivalence|adjoint]] [[deformation retraction]] onto a [[skeletal groupoid]] (spelled out [here](Introduction+to+Topology+--+2#EveryGroupoidIsomorphicToQuasiSkeletalGroupoid)).
+
+It remains to observe that every local system on $CoDisc\big(Obj(\mathcal{X}_i)\big) \times \mathbf{B}G_i$ is isomorphic to one pulled back from $\mathbf{B}G_i$, i.e. to one which constant along $CoDisc\big(Obj(\mathcal{X}_i)\big)$. For this choose any $x_i \in Obj(\mathcal{X}_i)$ and consider the evident [[natural isomorphism]]
+
+$$
+  \array{
+    CoDisc\big(Obj(\mathcal{X}_i)\big)
+    &\overset{}{\longrightarrow}&
+    \mathcal{C}
+    \\
+    x
+    &\mapsto&
+    \mathscr{V}_x
+    &\overset{\mathscr{V}_{(x,x_i)}}{\longrightarrow}&
+    \mathscr{V}_{x_i}
+    \\
+    \Big\downarrow
+    &&
+    \Big\downarrow\mathrlap{{}^{ \mathscr{V}_{(x,x')} }}
+    &&
+    \Big\downarrow\mathrlap{{}^{id}}
+    \\
+    x'
+    &\mapsto&
+    \mathscr{V}_{x'}
+    &\underset{\mathscr{V}_{(x',x_i)}}{\longrightarrow}&
+    \mathscr{V}_{x_i}
+    \mathrlap{\,.}
+  }
+$$
+\end{proof}
+
 
 
 \begin{lemma}
@@ -206,7 +476,7 @@ $$
   \array{
     \mathbf{E}G 
     && 
-      \overset{\mu(g,-)}{\longrightarrow}
+      \overset{\mu(-,g)}{\longrightarrow}
     &&
     \mathbf{E}G
     \\
@@ -236,12 +506,12 @@ $$
   \\  
   \Big\downarrow\mathrlap{{}^{
     q_!\big(
-      \mathbb{1}_g \,\boxtimes\, g_{pt}
+      \mathbb{1}_{\mu(-,g)} \,\boxtimes\, \rho(g)_{pt}
     \big)
   }}
   &&
   \Big\downarrow\mathrlap{{}^{
-    \mu(g,-)_{\mathbf{B}G}
+    \mu(-,g)_{\mathbf{B}G}
     \,\boxtimes\,
     {\rho(g)}_{pt}
   }}
@@ -261,6 +531,8 @@ $$
 
 
 \end{proof}
+
+
 
 
 ## References
