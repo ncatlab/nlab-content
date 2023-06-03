@@ -145,7 +145,11 @@ The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psue
 
 * Let $C$ be any category with pullbacks and $\mathbf{2}$ the [[free-living]] arrow, so that $C^{\mathbf{2}}$ is the category of arrows and commutative squares in $C$.  Then the "codomain" functor $C^{\mathbf{2}} \to C$ is a fibration and opfibration.  The cartesian arrows are precisely the pullback squares, and the functors $f_!$ are just given by composition.  The right adjoints $f_*$ exist iff $C$ is [[locally cartesian closed category|locally cartesian closed]].  The term "cartesian" is motivated by this example, which is usually called the **[[codomain fibration]]** over $C$.
 
+* Let $C$ be a category with binary cartesian products. Then for each object $\Gamma$, we can construct an indexed comonad $C \to Comonad$, the [[environment comonad]] $\Gamma \times -$ on $C$, and taking [[Kleisli categories]] we get a functor $C^{op} \to Cat$. The corresponding fibration is called the [[simple fibration]] over $C$ and can be seen as a full subfibration of the codomain fibration, with objects being the projections $\Gamma \times A \to \Gamma$.
+
 * Let $C$ be any category and let $Fam(C)$ be the category of set-indexed families of objects of $C$.  The forgetful functor $Fam(C)\to Set$ taking a family to its indexing set is a fibration; the functors $f^*$ are given by reindexing.  They have left adjoints iff $C$ has small coproducts, and right adjoints iff $C$ has small products.
+
+* For any category $C$ with binary products 
 
 ## Properties
 
