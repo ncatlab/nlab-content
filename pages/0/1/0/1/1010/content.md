@@ -173,15 +173,19 @@ Most texts on [[category theory]] and related topics mention the topic of Grothe
 
 * [[Horst Schubert]], §3.2 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
 
-An introductory review spelling out more details:
-
-* {#Murfet06} [[Daniel Murfet]], _Foundations for category theory_ (2006) &lbrack;[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf), [[Murfet-GrothendieckUniverses.pdf:file]]&rbrack;
-
-Further discussion:
+Discussions spelling out more details:
 
 * [[Mike Shulman]], _Set theory for category theory_ &lbrack;[arXiv:0810.1279](http://arxiv.org/abs/0810.1279)&rbrack;
 
+* {#Murfet06} [[Daniel Murfet]], _Foundations for category theory_ (2006) &lbrack;[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf), [[Murfet-GrothendieckUniverses.pdf:file]]&rbrack;
+
 * [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
+
+
+* [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ &lbrack;[arXiv:1801.08528](https://arxiv.org/abs/1801.08528)&rbrack;
+
+
+
 
 
 The proof that a Grothendieck universe is equivalently a set of $ \kappa $-small sets for $ \kappa $ an [[inaccessible cardinal]] is in 
