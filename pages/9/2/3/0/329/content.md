@@ -162,6 +162,18 @@ In [[dependent type theory]], there are multiple notions of a "strict 2-category
 
 The first definition is a naive translation of "strict 2-category" from set theory to dependent type theory, but in the absence of [[axiom K]] or a similar axiom, these strict 2-categories behave differently from the strict 2-categories as defined in [[set theory]]. The second definition adds a [[0-truncation]] condition to the type of objects to ensure that the strict 2-categories actually behave like the strict 2-categories in set theory. The third definition satisfies the [[principle of equivalence]]: equality of objects is the same as isomorphism of strict categories, and ensures that strict 2-categories are [[h-groupoids]]. 
 
+## Related concepts
+
+* [[strict 2-groupoid]]
+
+* [[strict 2-functor]]
+
+* [[strict 2-natural transformation]]
+
+* [[strict adjoint 2-functor]]
+
+* [[strict 2-group]]
+
 ## History 
 
 As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement (1958)](#Godement58), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken a few years later by [Ehresmann (1965)](#Ehresmann65). In any event, the primitive compositional operations in [Godement (1958)](#Godement58) were what we call *[[vertical composition]]* and *[[whiskering]]*, with [[horizontal composition]] of [[natural transformations]] being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, [[horizontal composition]] is often called the *Godement product*. 
