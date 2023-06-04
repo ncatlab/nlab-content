@@ -88,7 +88,7 @@ Categories were named after the examples of [[concrete category|concrete categor
 
 >Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers: "Category" from Aristotle and Kant, "Functor" from Carnap (Logische Syntax der Sprache), and "natural transformation" from then current informal parlance.
 
->([[Saunders Mac Lane]], [[Categories Work|Categories for the Working Mathematician]], 29&#8211;30).
+>([[Saunders Mac Lane]], *[[Categories for the Working Mathematician]]*, 29&#8211;30).
 
 However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]], and the way Aristotle and Kant use the [[category (philosophy)|term]] in philosophy is not particularly related to what Eilenberg & Mac Lane did with it.
 
@@ -292,6 +292,7 @@ See [[category theory vs order theory]] for more discussion.
 \section{References}
  {#References}
 
+For more see the references at *[[category]]*.
 
 \subsection{History}
  {#History}
@@ -351,8 +352,10 @@ This and much more history is recalled in
 
 * [[Bodo Pareigis]], _Categories and functors_, 1970 ([pdf](https://epub.ub.uni-muenchen.de/7244/1/7244.pdf))
 
+* {#MacLane97} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 1971
+
+
 
 * {#Gray74} [[John Gray]], *[[Adjointness for 2-Categories|Formal category theory: adjointness for $2$-categories]]*, Lecture Notes in Mathematics, **391**, Springer 1974 ([doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280))
 
