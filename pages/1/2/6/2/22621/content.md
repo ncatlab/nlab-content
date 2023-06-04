@@ -8,6 +8,10 @@ On [[type theory]] and [[verified programming]]:
 * [[Harley Eades]], *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf), [[EadesTypeTheoryAndApplications.pdf:file]])
 
 
+## Related entries
+
+* [[computational trilogy]]
+
 category: people
 
 [[!redirects Harley Eades III]]
