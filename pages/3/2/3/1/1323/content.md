@@ -156,19 +156,23 @@ In particular, then, the free distributive category, which is the free distribut
 
 * [[totally distributive category]]
 
-## Link
-
-* {#catlistdiscussion}[Freyd, Lack, Lawvere et al: CATLIST discussion on extensive categories 1996](https://www.mta.ca/~cat-dist/catlist/1999/extensive)
 
 
 ## References 
 
-* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 &lbrack;<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>&rbrack;
 
-* {#Cockett93} [[Robin Cockett]], _Introduction to distributive categories_, Mathematical Structures in Computer Science vol 3 pp. 277-307 (<a href="https://doi.org/10.1017/S0960129500000232">doi: 10.1017/S0960129500000232</a>). 
+* {#Cockett93} [[Robin Cockett]], *Introduction to distributive categories*, Mathematical Structures in Computer Science **3** (2009) 277-307 &lbrack;<a href="https://doi.org/10.1017/S0960129500000232">doi:10.101/S0960129500000232</a>&rbrack;
 
-* {#Lack} [[Stephen Lack]], _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
+* {#Lack} [[Stephen Lack]], *Non-canonical isomorphisms*, Journal of Pure and Applied Algebra **216** 3 (2012) 593-597  &lbrack;[arXiv:0912.2126](http://arxiv.org/abs/0912.2126), [doi:10.1016/j.jpaa.2011.07.012](https://doi.org/10.1016/j.jpaa.2011.07.012)&rbrack;
 
+See also
+
+* {#catlistdiscussion}[Freyd, Lack, Lawvere et al: CATLIST discussion on extensive categories 1996](https://www.mta.ca/~cat-dist/catlist/1999/extensive)
+
+* Wikipedia, *[Distributive category](https://en.wikipedia.org/wiki/Distributive_category)*
+
+For more see at *[[distributive monoidal category]]*.
 
 
 [[!redirects distributive categories]] 
