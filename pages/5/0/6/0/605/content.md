@@ -20,7 +20,7 @@
 
 ## Idea
 
-An (oriented) _cobordism_ $\Sigma$ from an (oriented) [[smooth manifold]] $X_{in}$ to an (oriented) smooth manifold $X_{out}$ is a smooth [[manifold with boundary]] $\Sigma$ such that its [[boundary]] is the [[disjoint union]] 
+An (oriented) _cobordism_ $\Sigma$ from an (oriented) [[smooth manifold]] $X_{in}$ to an (oriented) smooth manifold $X_{out}$ is a smooth [[manifold with boundary]] such that its [[boundary]] is the [[disjoint union]] 
 
 $$
   \partial \Sigma \simeq X_{in} \coprod X_{out}
