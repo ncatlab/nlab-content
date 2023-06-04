@@ -29,13 +29,18 @@ Notice that [[strict 2-categories]] may be identified with [[Cat]]-[[enriched ca
 
 ## Related concepts
 
+* [[strict 2-category]]
+
+* [[strict 2-groupoid]]
+
+* [[strict 2-group]]
+
 * [[strict 2-natural transformation]]
 
 * [[strict adjoint 2-functor]]
 
 * [[2-functor]], [[double functor]]
 
-* [[strict 2-groupoid]]
 
 * [[n-functor]]
 
