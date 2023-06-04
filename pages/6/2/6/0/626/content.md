@@ -327,7 +327,7 @@ Some philosophical discussion is given in
 
 The development and use of string diagram calculus pre-dates its graphical appearance in print, due to the difficulty of printing non-text elements at the time.
 
-> Many calculations in earlier works were quite clearly worked out with string diagrams, then painstakingly copied into equations. Sometimes, clearly graphical structures were described in some detail without actually being drawn: e.g. the construction of free compact closed categories in Kelly and Laplazas 1980 "Coherence for compact closed categories".
+> Many calculations in earlier works were quite clearly worked out with string diagrams, then painstakingly copied into equations. Sometimes, clearly graphical structures were described in some detail without actually being drawn: e.g. the construction of free compact closed categories in Kelly and Laplaza's 1980 "Coherence for compact closed categories".
 
 > ([Pawel Sobocinski, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.1))
 
@@ -360,7 +360,7 @@ See also
 
 From the point of view of [[monoidal category|monoidal]] [[category theory]], an early description of string diagram calculus (without actually depicting any string diagrams, see the above comments) is in:
 
-* {#KellyLaplaza80} [[Max Kelly]], M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980 (<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf))
+* {#KellyLaplaza80} [[Max Kelly]], [[M. L. Laplaza]], *Coherence for compact closed categories*, Journal of Pure and Applied Algebra, **19** 193-213 (1980) &lbrack;<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf)&rbrack;
 
   (proving the [[coherence theorem for monoidal categories|coherence for compact closed categories]])
 
