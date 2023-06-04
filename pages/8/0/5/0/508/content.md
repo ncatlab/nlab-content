@@ -91,6 +91,8 @@ The 2nd edition was published in 1997 with two additional chapters:
 
   on [[braided monoidal categories|braided]] and [[symmetric monoidal categories]]
 
+  also [[monoidal functors]], [[strict monoidal categories]] and the [[braid group]]
+
 * **XII. Structures in categories**
 
   on [[internal categories]], [[simplicial nerves]], [[2-categories]]/[[bicategories]], [[crossed modules]] and [[2-groups]]
