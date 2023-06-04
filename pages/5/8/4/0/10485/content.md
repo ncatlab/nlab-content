@@ -334,7 +334,12 @@ Classification for free fermion SPT phases in [[twisted equivariant K-theory]]:
 
 For more on this see at *[[K-theory classification of topological phases of matter]]*
 
-Proposal that the general classification [[equivariant cohomology|equivariant]] [[Whitehead-generalized cohomology theory]]:
+Proposal that the general classification involves [[2-group]]-symmetries:
+
+* [[Anton Kapustin]], [[Ryan Thorngren]], *Higher symmetry and gapped phases of gauge theories*, in *Algebra, Geometry, and Physics in the 21st Century*, Progress in Mathematics, **324** (2017) 177-202  &lbrack;[arXiv:1309.4721](https://arxiv.org/abs/1309.4721), [doi:10.1007/978-3-319-59939-7_5](https://doi.org/10.1007/978-3-319-59939-7_5)&rbrack;
+
+
+Proposal that the general classification involves [[equivariant cohomology|equivariant]] [[Whitehead-generalized cohomology theory]]:
 
 * {#Xiong18} [[Charles Zhaoxi Xiong]], *Minimalist approach to the classification of symmetry protected topological phases*, J. Phys. A: Math. Theor. **51** 445001 (2018) $[$[doi:1701.00004](https://arxiv.org/abs/1701.00004), [doi:10.1088/1751-8121/aae0b1](https://doi.org/10.1088/1751-8121/aae0b1)$]$
 
