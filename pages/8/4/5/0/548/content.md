@@ -16,7 +16,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc} 
@@ -415,6 +414,11 @@ of [[finite subgroups of SU(2)]] (to [[Platonic 2-groups]]):
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
 
+{#ReferencesInCondensedMatterPhysics} Arguments that 2-groups play a role in [[symmetry protected topological phases of matter]]:
+
+* [[Anton Kapustin]], [[Ryan Thorngren]], *Higher symmetry and gapped phases of gauge theories*, in *Algebra, Geometry, and Physics in the 21st Century*, Progress in Mathematics, **324** (2017) 177-202 &lbrack;[arXiv:1309.4721](https://arxiv.org/abs/1309.4721), [doi:10.1007/978-3-319-59939-7_5](https://doi.org/10.1007/978-3-319-59939-7_5)&rbrack;
+
+* {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) &lbrack;[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)&rbrack;
 
 
 [[!redirects 2-groups]]
