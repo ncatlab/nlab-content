@@ -36,7 +36,7 @@ One common view seems to be to found category theory on a theory of sets and cla
 
 If one does not accept the [[axiom of choice]], then there are additional complications in general category theory. In particular, one must distinguish between a universal *property* (for example, having all [[product]]s) and having a universal *structure* realising that property (in the example, a functor taking each pair $(x,y)$ of objects to a specific product cone $x \leftarrow x \times y \rightarrow y$). This difficulty was overcome by Michael Makkai using [[anafunctor]]s, but these have not been widely adopted, even by constructivists.
 
-For a summary of the mathematical foundations of category theory, see [[Mike Shulman]], _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
+For a discussion of set theoretic foundations of category theory see the references [below](#ReferencesSetTheoreticFoundationsOfCategoryTheory).
 
 
 ### The concept of _identity_
@@ -81,6 +81,8 @@ Relevant topics: [[ETCC]], [[FOLDS]], [[homotopy type theory]]
 
 ## References
 
+### General
+
 * [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps), [Euclid](http://projecteuclid.org/euclid.bsl/1052669290))
 
 The following contains a careful discussion of [[Gödel's incompleteness theorem]] in the context of categorical foundations using the free topos:
@@ -88,3 +90,21 @@ The following contains a careful discussion of [[Gödel's incompleteness theorem
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
 Some old discussions about category theory and foundations are archived [here](http://nforum.ncatlab.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
+
+### Set theoretic foundations of category theory
+ {#ReferencesSetTheoreticFoundationsOfCategoryTheory}
+
+Via [[Grothendieck universes]]:
+
+* [[Horst Schubert]], §3 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
+
+* [[Mike Shulman]], _Set theory for category theory_ &lbrack;[arXiv:0810.1279](http://arxiv.org/abs/0810.1279)&rbrack;
+
+* {#Murfet06} [[Daniel Murfet]], _Foundations for category theory_ (2006) &lbrack;[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf), [[Murfet-GrothendieckUniverses.pdf:file]]&rbrack;
+
+* [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
+
+* [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ &lbrack;[arXiv:1801.08528](https://arxiv.org/abs/1801.08528)&rbrack;
+
+
+
