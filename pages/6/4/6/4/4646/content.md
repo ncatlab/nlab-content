@@ -274,19 +274,20 @@ Apparently one of the oldest occurrences of the idea that a  [[principal bundle]
 
 A more detailed and more general discussion has then been given in 
 
-* John Milnor, Annals of Mathematics, 63, 272-284.(1956). 
+* [[John Milnor]], *Construction of Universal Bundles, I*,  Annals of Mathematics **63** (1956) 272-284 &lbrack;[doi:10.2307/1969609](https://doi.org/10.2307/1969609)&rbrack;
+
 
 A detailed discussion of the differentiable case appears is
 
-* Costake Teleman  _Généralisation du groupe fondamental_, Annales Scientifiques de l?école Normale Supérieure 3, 77, 195-234. (1960) ([numdam:ASENS_1960_3_77_3_195_0](http://www.numdam.org/item?id=ASENS_1960_3_77_3_195_0))
+* Costake Teleman  _Généralisation du groupe fondamental_, Annales Scientifiques de l'école Normale Supérieure **3** 77  (1960) 195-234 &lbrack;[numdam:ASENS_1960_3_77_3_195_0](http://www.numdam.org/item?id=ASENS_1960_3_77_3_195_0)&rbrack;
 
 * Costake Teleman, Annali di Matematica, Pura ed Applicata, LXII, 379-412. (1963). 
 
-In the special case of [[flat connections]] the statement is classical, a canonical early account being:
+In the special case of [[flat connections]] (see also *[[local systems]]*) the statement is classical, a canonical early account being:
 
 * [[Pierre Deligne]], §I.1 of: *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
-This history is recollected in the introduction of
+This history is recollected in the introduction of:
 
 * [[John Barrett]], _Holonomy and path structures in general relativity and Yang-Mills theory_, Int. J. of Theor. Phys., Iiol. 30, No. 9, 1991 ([doi:10.1007/BF00671007](https://doi.org/10.1007/BF00671007))
 
@@ -325,13 +326,11 @@ Discussion in terms of local functorial data that lends itself to generalization
 
 * [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_, J. Homotopy Relat. Struct. 4, 187-244 (2009) ([arXiv:0705.0452](https://arxiv.org/abs/0705.0452))
 
-
 A quick proof that bundles with connections are encoded in their parallel transport along paths was noted in 
 
-* [[Florin Dumitrescu]], _Connections and Parallel Transport_, Journal of Homotopy and Related Structures, vol. 5(1), 2010, pp.171–175 ([arXiv:0903.0121](http://arxiv.org/abs/0903.0121)).
+* [[Florin Dumitrescu]], _Connections and Parallel Transport_, Journal of Homotopy and Related Structures **5** 1 (2010) 171–175 &lbrack;[arXiv:0903.0121](http://arxiv.org/abs/0903.0121)&rbrack;
 
-
-For more see the references at [[connection on a bundle]].
+For more see the references at *[[connection on a bundle]]*.
 
 A discussion of parallel transport in the [[tangent bundle]] in terms of [[synthetic differential geometry]] (motivated by a discussion of [[gravity]]) is in 
 
