@@ -451,15 +451,15 @@ Just as the [[coreader comonad]] canonically becomes a monad when $B$ is a [[mon
 ### Relation to random variables in probability theory
  {#RelationToRandomVariables}
 
-It makes sense to think of $[B,-]$ as producing spaces of [[random variables]] ([Verdier 14](#Verdier14)) depending on [[possible worlds]] $b \in B$ ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). 
+It makes sense to think of $[B,-]$ as producing spaces of [[random variables]] ([Verdier 14](#Verdier14)) depending on [[possible worlds]] $b \in B$ &lbrack;[Toronto & McCarthy 10b, slide 24](#TorontoMcCarthy10b)&rbrack;. 
 
 (While, from the perspective of [[modal type theory]], its siblings $W^\ast \prod_W$ and $W^\ast \sum_W$ may be called _[[necessity]]_ and _[[possibility]]_, respectively).
 
 >  The intuition behind the Reader monad, for a mathematician, is perhaps stochastic variables. A stochastic variable is a function from a probability space to some other space. So we see a stochastic variable as a monadic value. &lbrack;[Verdier 14](#Verdier14)&rbrack;
 
-> you could interpret this by regarding random variables as reader monad computations. &lbrack;[Toronto-McCarthy 10b, slide 35](#TorontoMcCarthy10b)&rbrack;
+> you could interpret this by regarding random variables as reader monad computations. &lbrack;[Toronto & McCarthy 10b, slide 35](#TorontoMcCarthy10b)&rbrack;
 
-[Toronto-McCarthy 10a, 2.2](#TorontoMcCarthy10a), [Toronto 14, 6.2](#Toronto14) call the function monad the _random variable idiom_.
+[Toronto & McCarthy 10a, 2.2](#TorontoMcCarthy10a), [Toronto 14, 6.2](#Toronto14) call the function monad the _random variable idiom_.
 
 This is also brought out by the relation of *linear* reader algebras to [[quantum measurement]], see [below](#QuantumReaderMonad). For more see also at *[[nondeterministic computation]]* the section *[Via indefiniteness effects](nondeterministic+computation#FormalizationViaIndefinitenessEffects)*.
 
