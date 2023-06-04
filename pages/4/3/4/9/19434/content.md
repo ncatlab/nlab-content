@@ -417,9 +417,10 @@ Exact squares in Yoneda structures are studied in
 
 * L. Van den Bril, _Exactitude dans les Yoneda-structures_ , Cah. Top. Géo. Diff. Cat. **XXIII** no.2 (1982) pp.215-224.
 
-The following explores Yoneda structures arising from 2-categories with a discrete-opfibration classifier:
+The following explores Yoneda structures arising from 2-categories with a discrete-opfibration classifier (such as [[2-toposes]]):
 
-* {#Weber07} [[Mark Weber]], _Yoneda structures from 2-toposes_ , Appl. Cat. Struc. **15** (2007) pp.259-323. ([preprint](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
+* {#Weber07} [[Mark Weber]], *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
+
 
 The following two investigate the connections with KZ doctrines:
 
