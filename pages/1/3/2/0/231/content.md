@@ -909,7 +909,7 @@ Textbook account with an eye towards [[finite quantum mechanics in terms of dagg
 
 Concerning the scalars:
 
-* {#KellyLaplaza80}[[Max Kelly]], M.L. Laplaza, _Coherence for compact closed categories_,  Journal of Pure and Applied Algebra 19: 193&#8211;213 (1980), doi:[10.1016/0022-4049(80)90101-2](https://doi.org/10.1016/0022-4049%2880%2990101-2).
+* {#KellyLaplaza80}[[Max Kelly]], [[M. L. Laplaza]], _Coherence for compact closed categories_,  Journal of Pure and Applied Algebra 19: 193&#8211;213 (1980), doi:[10.1016/0022-4049(80)90101-2](https://doi.org/10.1016/0022-4049%2880%2990101-2).
 
 * {#AbramskyCoecke04}[[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
 
