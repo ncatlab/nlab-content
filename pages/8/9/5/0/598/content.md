@@ -690,7 +690,7 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 * {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Chapter V of: _[[Simplicial homotopy theory]]_   Progress in Mathematics, Birkh&#228;user (1999), Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
   
-* {#Weibel94} [[Charles Weibel]], Chapter 8 of: _An introduction to homological algebra_ Cambridge (1994)
+* {#Weibel94} [[Charles Weibel]], Chapter 8 of: _An introduction to homological algebra_, Cambridge (1994)
  
 
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. 
