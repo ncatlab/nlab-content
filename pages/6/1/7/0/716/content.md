@@ -86,7 +86,9 @@ The characterization of the free compact closed category over a closed symmetric
 
 Discussion of [[coherence]] in compact closed categories is due to
 
-* [[Max Kelly]], M.L. Laplaza, _Coherence for compact closed categories_,  Journal of Pure and Applied Algebra 19: 193&#8211;213 (1980), doi:[10.1016/0022-4049(80)90101-2](https://doi.org/10.1016/0022-4049%2880%2990101-2).
+
+* {#KellyLaplaza80} [[Max Kelly]], [[M. L. Laplaza]], *Coherence for compact closed categories*, Journal of Pure and Applied Algebra, **19** 193-213 (1980) &lbrack;<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf)&rbrack;
+
 
 The relation to [[quantum operations]] and [[completely positive maps]] is discussed in
 
