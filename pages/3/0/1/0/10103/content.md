@@ -326,7 +326,10 @@ The same is true for the monad on enriched graphs whose algebras are categories 
 
 ## References
 
-* {#Weber13} [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [[TAC]] 28(26), 2013, ([tac:28-26](http://www.tac.mta.ca/tac/volumes/28/26/28-26abs.html))
- 
+* [[Hans-Joachim Baues]], [[Mamuka Jibladze]], [[Andy Tonks]], first page of: *Cohomology of monoids in monoidal categories*, in: *Operads: Proceedings of Renaissance Conferences*, Contemporary Mathematics **202**, AMS (1997) 137-166 &lbrack;[doi:10.1090/conm/202](https://doi.org/10.1090/conm/202), preprint:[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/1484/1/preprint_1995_121.pdf)&rbrack;
+
+* [[Anna Labella]], *Categories with sums and right distributive tensor product*, Journal of Pure and Applied Algebra **178** 3 (2003) 273-296 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00169-X">doi:10.1016/S0022-4049(02)00169-X</a>&rbrack;
+
+* {#Weber13} [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [[TAC]] **28** 26 (2013) &lbrack;[tac:28-26](http://www.tac.mta.ca/tac/volumes/28/26/28-26abs.html)&rbrack; 
 
 [[!redirects distributive monoidal categories]]
