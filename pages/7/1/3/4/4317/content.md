@@ -132,11 +132,11 @@ A textbook treatment is given in
 
 The [[coherence law|coherence]] for the [[distributivity law]] in bimonoidal categories has been given in
 
-* M. Laplaza, _Coherence for distributivity_, Lecture Notes in Mathematics 281, Springer Verlag, Berlin, 1972, pp. 29-72.
- {#Laplaza72}
+* {#Laplaza72} [[M. L. Laplaza]], _Coherence for distributivity_, Lecture Notes in Mathematics **281** Springer (1972) 29-72 &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/laplaza.pdf)&rbrack;
+ 
 
-* G. Kelly, _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics 420, Springer Verlag, Berlin, 1974, pp. 281-375.
- {#Kelly74}
+* {#Kelly74} [[G. M. Kelly]], _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics 420, Springer Verlag, Berlin, 1974, pp. 281-375.
+ 
 
 where these categories are called _ring categories_. Discussion with an eye towards the [[K-theory of a bipermutative category]] is in
 
