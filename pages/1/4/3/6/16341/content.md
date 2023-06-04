@@ -194,6 +194,9 @@ Original reference (including the case of a [[commutative monoid]] in a [[symmet
 
 * [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
 
+* [[Hans-Joachim Baues]], [[Mamuka Jibladze]], [[Andy Tonks]], *Cohomology of monoids in monoidal categories*, in: *Operads: Proceedings of Renaissance Conferences*, Contemporary Mathematics **202**, AMS (1997) 137-166 &lbrack;[doi:10.1090/conm/202](https://doi.org/10.1090/conm/202), preprint:[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/1484/1/preprint_1995_121.pdf)&rbrack;
+
+
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], p. 7 in: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
 
