@@ -34,6 +34,13 @@ Sometime we refer to a category as __cocartesian monoidal__ just to indicate tha
 
 * [[cocartesian monoidal preordered object]]
 
+## References
+
+The terminology appears for instance in:
+
+* [[Harley Eades III]], Gianluigi Bellin, Def. 16 of: *A Cointuitionistic Adjoint Logic* &lbrack;[arXiv:1708.05896](https://arxiv.org/abs/1708.05896)&rbrack;
+
+
 
 [[!redirects cocartesian monoidal category]]
 [[!redirects cocartesian monoidal categories]]
