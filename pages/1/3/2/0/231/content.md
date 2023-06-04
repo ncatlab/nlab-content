@@ -348,7 +348,7 @@ There is a [[strict 2-category]] MonCat with:
 
 One version of [[coherence theorem for monoidal categories|Mac Lane's Coherence Theorem]] states that in MonCat, every monoidal category is equivalent to a strict one.  
 
-Every monoidal category is also [[equivalence in a 2-category|equivalent]] In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of Section VII.1 in the second edition of *Categories for the Working Mathematician*.
+Every monoidal category is also [[equivalence in a 2-category|equivalent]] In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of [MacLane (1971), Section VII.1](#MacLane71).
 
 
 ## Properties 
@@ -833,9 +833,12 @@ higher versions
 
 * [[no-cloning theorem]]
 
+
 ## References
 
 Textbook accounts:
+
+* {#MacLane71} [[Saunders MacLane]], Section VII.1 of: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * {#Borceux94} [[Francis Borceux]], Section 6.1 of: *Handbook of Categorical Algebra* Vol. 2: *Categories and Structures* $[$[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)$]$, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
@@ -872,12 +875,11 @@ Other textbook accounts include
 
 A fairly comprehensive set of lecture notes on the [[higher algebra]] of monoidal categories is in
 
-* [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
+* [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
 
 A brief discussion in the context of [[enriched category theory]] is in
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_,
-London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
+* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, &lbrack;[tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 A survey of some applications is in
 
