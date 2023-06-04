@@ -15,8 +15,14 @@ Baues  also systematically developed aspects of secondary homological algebra (s
 He is also well known for his development of the "cohomology of small categories" with Wirsching, sometimes called [[Baues-Wirsching cohomology]], although versions of this theory existed prior to his contribution.
 
 
-
 [MPIM Obituary ](https://www.mpim-bonn.mpg.de/node/10303)
+
+## Selected writings
+
+On [[cohomology]] of [[monoids in monoidal categories]] (specifically in [[distributive monoidal categories]]):
+
+* [[Hans-Joachim Baues]], [[Mamuka Jibladze]], [[Andy Tonks]], *Cohomology of monoids in monoidal categories*, in: *Operads: Proceedings of Renaissance Conferences*, Contemporary Mathematics **202**, AMS (1997) 137-166 &lbrack;[doi:10.1090/conm/202](https://doi.org/10.1090/conm/202), preprint:[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/1484/1/preprint_1995_121.pdf)&rbrack;
+
 
 
 category: people
