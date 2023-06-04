@@ -12,7 +12,7 @@
 
 ## Selected writings
 
-Introducing the notion that came to be known as *[[Isbell duality]]*:
+Introducing the notion that came to be known as *[[Isbell duality]]* (and discussing [[foundations]] for [[category theory]] via a kind of [[Gorthendieck universes]]):
 
 * {#Isbell66} [[John Isbell]], *Structure of categories*, Bulletin of the American Mathematical Society **72** (1966), 619-655. &lbrack;[euclid:1183528163](http://projecteuclid.org/euclid.bams/1183528163), [ams:1966-72-04/S0002-9904-1966-11541-0](https://www.ams.org/journals/bull/1966-72-04/S0002-9904-1966-11541-0/)&rbrack;
 
