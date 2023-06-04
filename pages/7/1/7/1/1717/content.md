@@ -431,6 +431,12 @@ Perhaps the _simplest example_ of such a structure is a
 Any congruence relation corresponds to a [[normal subgroup]], given by those elements $a$ that are congruent to the identity element of $G$, so that $e\sim a$. Likewise given a normal subgroup $N$ of $G$ you get a congruence, with $a \sim b$ iff $b^{-1} a$ (or equivalently, $a b^{-1}$) belongs to $N$.
 
 
+## Related concepts
+
+* [[2-group]]
+
+* [[strict 2-category]], [[strict 2-groupoid]]
+
 ## References
 
 For more see the references at *[[2-group]]* and at *[[crossed module]]*.
