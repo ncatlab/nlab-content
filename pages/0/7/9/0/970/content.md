@@ -32,7 +32,7 @@ The precise meaning of the above definition depends on the [[foundations]] chose
 
 * In ZF with a specified [[Grothendieck universe]] $U$, where a *small category* is one whose objects and morphisms belong to $U$ (or have cardinalities belonging to $U$), a *large category* means a category whose objects and morphisms are still sets, but not (necessarily) belonging to $U$.  In this foundational system, one rarely considers categories whose objects and morphisms are proper classes.
 
-* More generally, for any universe $U$, we may refer to categories whose objects and morphisms are elements of $U$ as **$U$-small**, and other categories as **$U$-large**.  In a context of multiple universes, it is perhaps more common to speak of "$V$-small categories" for some universe $V$ containing $U$, than "$U$-large categories."  If there are two fixed universes $U$ and $V$ with $U \in V$, then categories that are not even in $V$ may be called **very large**.
+* More generally, for any universe $U$, we may refer to categories whose objects and morphisms are elements of $U$ as **$U$-small**, and other categories as **$U$-large**.  In a context of multiple universes, it is perhaps more common to speak of "$V$-small categories" for some universe $V$ containing $U$, than "$U$-large categories."  If there are two fixed universes $U$ and $V$ with $U \in V$, then categories that are not even in $V$ may be called **very large** &lbrack;[Shulman (2008), p. 18](#Shulman08)&rbrack;.
 
 In all cases, it is somewhat ambiguous whether "large category" means "properly large," i.e., large and not small, or whether small categories should be considered as a subclass of large categories.  Usage may vary depending on need.
 
@@ -88,11 +88,18 @@ See most references on *[[category theory]]*, such as
 
 * [[Saunders MacLane]], §I.7 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-See also
+* [[Horst Schubert]], §3.6 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
 
-* [[Mike Shulman]], _Set theory for category theory) ([arXiv:0810.1279](http://www.arxiv.org/abs/0810.1279))
+See also:
 
-* [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ ([arXiv:1801.08528](https://arxiv.org/abs/1801.08528))
+* {#Shulman08} [[Mike Shulman]], *Set theory for category theory* &lbrack;[arXiv:0810.1279](http://www.arxiv.org/abs/0810.1279)&rbrack;
+
+* {#Murfet06} [[Daniel Murfet]], _Foundations for category theory_ (2006) &lbrack;[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf), [[Murfet-GrothendieckUniverses.pdf:file]]&rbrack;
+
+* [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
+
+* [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ &lbrack;[arXiv:1801.08528](https://arxiv.org/abs/1801.08528)&rbrack;
+
 
 [[!redirects large category]]
 [[!redirects large categories]]
