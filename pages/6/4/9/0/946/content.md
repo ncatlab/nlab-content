@@ -170,13 +170,13 @@ to supercompact elements (which are preserved by $f_!$).
 
 =--
 
-This appears as ([Caramello, theorem 4.2](#Caramello)).
+This appears as ([Caramello, theorem 4.2](#Caramello)). Dually, reversing the direction of arrows of Alexandroff locales, 
 
 +-- {: .num_prop}
 ###### Proposition
 
 
-The [[category]] of Alexandroff locales is [[equivalence of categories|equivalent]] to that of [[completely distributive lattice|completely distributive]] [[algebraic lattices]]. 
+The [[category]] of Alexandroff frames is [[equivalence of categories|equivalent]] to that of [[completely distributive lattice|completely distributive]] [[algebraic lattices]]. 
 
 =--
 
