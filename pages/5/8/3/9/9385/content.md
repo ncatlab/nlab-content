@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -73,13 +74,22 @@ In parts of the literature this case is understood by default when speaking of "
 
 ### General
 
-(...)
+On higher version of [[Galois theory]] via [[automorphisms]] of [[locally constant infinity-stacks|locally constant $\infy$-stacks]]:
+
+* [[Bertrand Toën]], *Vers une interprétation galoisienne de la théorie de l'homotopie*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **43** 4 (2002) 257-312 &lbrack;[numdam:CTGDC_2002__43_4_257_0](http://www.numdam.org/item/?id=CTGDC_2002__43_4_257_0)&rbrack;
+
+* {#PoleselloWaschkies05} [[Pietro Polesello]], [[Ingo Waschkies]], *Higher monodromy*, Homology, Homotopy and Applications **7** 1 (2005) 109-150 &lbrack;[arXiv:0407507](http://arxiv.org/abs/math/0407507), [eudml:51918](https://eudml.org/doc/51918)&rbrack;
+
+In view of [[cohesive homotopy theory]]:
+
+* [[schreiber:differential cohomology in a cohesive topos|dcct §3.8.5]]
+
 
 ### Flat $(\infty,1)$-vector bundles ($\infty$-local systems)
   {#ReferencesFlatInfinityVectorBundles}
 
-On [[infinity-local systems|$\infty$-local systems]] in the sense of [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]]:
 
+On [[infinity-local systems|$\infty$-local systems]] in the sense of [[(infinity,1)-vector bundles|$(\infty,1)$-vector bundles]] with [[flat infinity-connections|flat $\infty$-connections]]:
 
 Component-definitions are due to:
 
