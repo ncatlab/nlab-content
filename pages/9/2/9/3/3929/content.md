@@ -20,6 +20,7 @@ Introducing the notions of [[adjunctions]] in general [[2-categories]] and of [[
 * [[Max Kelly]], *Adjunction for enriched categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059145](https://doi.org/10.1007/BFb0059145)&rbrack;
 
 
+
 On [[enriched functor categories]]:
 
 * [[Brian Day]], [[Max Kelly]], *Enriched functor categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106** (1969) 178-191 &lbrack;[doi:10.1007/BFb0059146](https://doi.org/10.1007/BFb0059146), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0059146.pdf)&rbrack;
@@ -37,6 +38,9 @@ Introducing the notion of [[weighted limits]] in [[enriched category theory]]:
 
 * [[Francis Borceux]], [[Gregory Maxwell Kelly]], *A notion of limit for enriched categories*, Bulletin of the Australian Mathematical Society **12** 1 (1975) 49-72 &lbrack;[doi:10.1017/S0004972700023637](https://doi.org/10.1017/S0004972700023637)&rbrack;
 
+The [[coherence theorem]] for [[compact closed categories]] (cf. *[[coherence theorem for monoidal categories]]*):
+
+* {#KellyLaplaza80} [[Max Kelly]], [[M. L. Laplaza]], *Coherence for compact closed categories*, Journal of Pure and Applied Algebra, **19** 193-213 (1980) &lbrack;<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf)&rbrack;
 
 
 On [[enriched category theory]]:
