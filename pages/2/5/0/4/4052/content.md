@@ -62,7 +62,7 @@ Write $Cat(\mathcal{X})$ for the 2-category of _[[internal categories]]_ in $\ma
 +-- {: .num_theorem #2SheavesAsInternalCategories}
 ###### Theorem
 
-For $\mathcal{X}$ a 2-topos, there is an [[equivalence of 2-categories]]
+For $\mathcal{X}$ a 2-topos of [[2-sheaves]] on a [[2-site]], there is an [[equivalence of 2-categories]]
 
 $$
   \mathcal{X} \simeq Cat(\mathcal{X})
@@ -90,10 +90,10 @@ with the internal categories in the underlying [[sheaf topos]].
 +-- {: .proof}
 ###### Proof
 
-By the [[2-Giraud theorem]], $\mathcal{X}$ is an [[exact 2-category]]. With this, the first statement is [this theorem](http://ncatlab.org/nlab/show/2-congruence#nCongExidempotent) at _[[2-congruence]]_.
+By the [[2-Giraud theorem]], $\mathcal{X}$ is an [[exact 2-category]]. With this, the first statement is [this theorem](2-congruence#nCongExidempotent) at _[[2-congruence]]_.
 
 By the discussion at [[n-localic 2-topos]], a 2-sheaf 2-topos has _[[core in a 2-category|enough groupoids]]_ precisely if it has a [[(2,1)-site]] of definition, and has _[[core in a 2-category|enough discretes]]_ precisely if it has a 1-site of definition.
-With this the second and third statement is [this theorem](http://ncatlab.org/nlab/show/2-congruence#nCongOnGroupoidsAndDiscretes) at _[[2-congruence]]_.
+With this the second and third statement is [this theorem](2-congruence#nCongOnGroupoidsAndDiscretes) at _[[2-congruence]]_.
 
 =--
 
@@ -150,7 +150,7 @@ Discussion of the 2-categorical [[Giraud theorem]] for [[2-sheaf]] 2-toposes is 
 
 Discussion of the [[elementary topos]]-analog of 2-toposes is in
 
-* [[Mark Weber]], _Yoneda structures from 2-toposes_ ([pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
+* [[Mark Weber]], *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
 A notion of "flat 2-functor" (cf [[Diaconescu's theorem]]) perhaps relevant to the "points" of 2-toposes is in
 
