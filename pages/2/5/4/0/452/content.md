@@ -282,29 +282,30 @@ This last example was one of the first investigated by Whitehead and his proof a
 
 The second axiom for a crossed module first appeared as footnote 35 on p. 422 of Whitehead's paper:
 
-* {#Whitehead41} [[J.H.C. Whitehead]], On adding relations to homotopy groups. Ann. of Math. (2) 42 (1941) 409–428. 
+* {#Whitehead41} [[J.H.C. Whitehead]], *On adding relations to homotopy groups*, Ann. of Math. **42** 2 (1941) 409–428 &lbrack;[doi:10.2307/1968907](https://doi.org/10.2307/1968907)&rbrack;;
 
-Section 16 of the following paper 
 
-*  {#Whitehead49} [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55 (1949), 453--496.
+A key result on "Free crossed modules". 
 
-proved a key result on "Free crossed modules". An exposition of this proof is in
+* {#Whitehead49} [[J. H. C. Whitehead]],  Section 16 of: *Combinatorial Homotopy II*, Bull. Amer. Math. Soc., {\bf 55} (1949) 453-496 &lbrack;[euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full)&rbrack;
+
+An exposition of this proof is in
 
 * [[R. Brown]], _On the second relative homotopy group of an adjunction space: an exposition of a theorem of J.H.C. Whitehead_,   J. London Math. Soc._ (2) 22 (1980) 146-152 ([doi:10.1112/jlms/s2-22.1.146](https://doi.org/10.1112/jlms/s2-22.1.146))
 
 see also
 
-* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953. 
+* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press (1953) &lbrack;[doi:10.1017/CBO9780511666278](https://doi.org/10.1017/CBO9780511666278)&rbrack;
 
 Note that the geometric core of the proof uses [[knot theory]] and transversality arguments which come from the "previous paper" of Whitehead:
 
-* _On adding relations to  homotopy groups_, Annals of Math., 42 (1941) 400-428. 
+* [[J. H. C. Whitehead]], *On adding relations to  homotopy groups*, Annals of Math., **42** (1941) 400-428 &lbrack;[doi:10.2307/1968907](https://doi.org/10.2307/1968907)&rbrack;
 
 Textbook account of crossed modules and their relation to [[strict 2-groups]]:
 
 * [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-further expoisition:
+further exposition:
 
 *  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], pp. 45 of: *HDA V: 2-Groups*, Theory and Applications of Categories **12** (2004) 423-491. &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)&rbrack;
 
