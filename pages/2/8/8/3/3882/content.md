@@ -11,7 +11,13 @@
 
 * [[homotopy BV-algebra]]
 
-##Publications (selected)
+## Selected writings
+
+On [[cohomology]] of [[monoids in monoidal categories]] (specifically in [[distributive monoidal categories]]):
+
+* [[Hans-Joachim Baues]], [[Mamuka Jibladze]], [[Andy Tonks]], *Cohomology of monoids in monoidal categories*, in: *Operads: Proceedings of Renaissance Conferences*, Contemporary Mathematics **202**, AMS (1997) 137-166 &lbrack;[doi:10.1090/conm/202](https://doi.org/10.1090/conm/202), preprint:[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/1484/1/preprint_1995_121.pdf)&rbrack;
+
+See also:
 
 * Andrew P. Tonks, _On the Eilenberg-Zilber Theorem for crossed complexes_, J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220,
 
