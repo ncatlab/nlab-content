@@ -122,6 +122,10 @@ Discussion the context of ([[simplicial model category|simplicial]]) [[model cat
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Section 9.1.1 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
+* {#ToenVezzosi} [[Bertrand Toën]], [[Gabriele Vezzosi]], Section 2 of: *Topos theory*, Advances in Mathematics **193** 2 (2005) 257-372 &lbrack;[arXiv:0207028](http://arxiv.org/abs/math/0207028), [doi:10.1016/j.aim.2004.05.004](https://doi.org/10.1016/j.aim.2004.05.004)&rbrack;
+
+
+
 * [[Jacob Lurie]], Section A.3 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 * [[Emily Riehl]], §3.6 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
@@ -134,10 +138,6 @@ The original references in the context of [[simplicial localization]]:
 * {#DwyerKanEquivalences} [[William Dwyer]], [[Daniel Kan]], *Equivalences between homotopy theories of diagrams*, in: *Algebraic topology and algebraic K-theory*, Ann. of Math. Stud. **113**, Princeton University Pr
 Simplicially enriched categories as models for $(\infty,1)$-categories are also discussed in
 
-See also:
-
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], Section 2 of: _Topos theory_ ([arXiv:0207028](http://arxiv.org/abs/math/0207028))
-{#ToenVezzosi}
 
 Homotopy coherent category theory on $sSet$-categories is discussed in 
 
