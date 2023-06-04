@@ -635,9 +635,9 @@ The definition originates in
 
 * {#Quillen67} [[Daniel Quillen]], chapter II, section 2 of: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://link.springer.com/book/10.1007/BFb0097438)&rbrack;
 
-Textbook references include
+Textbook accounts:
 
-* {#Hirschhorn} [[Philip Hirschhorn]], Section 9.1.5 in _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+* {#Hirschhorn} [[Philip Hirschhorn]], Chapter 9 in: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 * [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
 
