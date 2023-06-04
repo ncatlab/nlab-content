@@ -69,6 +69,8 @@ and inverses are given by swapping the two entries, $(h_0,h_1)^{-1} = (h_1,h_0)$
 
 * [[strict 2-category]], [[strict 2-functor]]
 
+* [[strict 2-group]]
+
 * [[n-groupoid]], [[infinity-groupoid]]
 
 ## References
