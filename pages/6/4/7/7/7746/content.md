@@ -151,7 +151,7 @@ The definition appears in section 3 of
 
 A detailed account is in 
 
-* [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://de.arxiv.org/abs/1206.5522))
+* [[David Ayala]], [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://de.arxiv.org/abs/1206.5522))
  {#Francisb}
 
 A survey that also covers [[factorization algebras]] is
