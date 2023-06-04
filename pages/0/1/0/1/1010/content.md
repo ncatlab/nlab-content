@@ -169,7 +169,11 @@ Comprehensive historical review with further references:
 
 * [[Ralf Krömer]], §6.4.4 in: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32**, Springer (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
 
-Most texts on [[category theory]] and related topics mention the topic of Grothendieck universes without providing details. One textbook which states at least the precise definition is:
+Most texts on [[category theory]] and related topics mention the topic of Grothendieck universes without providing details. Exceptions are:
+
+* {#Isbell66} [[John Isbell]], *Structure of categories*, Bulletin of the American Mathematical Society **72** (1966), 619-655. &lbrack;[euclid:1183528163](http://projecteuclid.org/euclid.bams/1183528163), [ams:1966-72-04/S0002-9904-1966-11541-0](https://www.ams.org/journals/bull/1966-72-04/S0002-9904-1966-11541-0/)&rbrack;
+
+* [[Johann Sonner]], *On the formal definition of categories*, Math. Zeitschr. **80** (1962) 163-176 &lbrack;[eudml:170093](https://eudml.org/doc/170093), [[Sonner-FormalDefCategories.pdf:file]]&rbrack;
 
 * [[Horst Schubert]], §3.2 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
 
@@ -180,7 +184,6 @@ Discussions spelling out more details:
 * {#Murfet06} [[Daniel Murfet]], _Foundations for category theory_ (2006) &lbrack;[pdf](http://therisingsea.org/notes/FoundationsForCategoryTheory.pdf), [[Murfet-GrothendieckUniverses.pdf:file]]&rbrack;
 
 * [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
-
 
 * [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ &lbrack;[arXiv:1801.08528](https://arxiv.org/abs/1801.08528)&rbrack;
 
