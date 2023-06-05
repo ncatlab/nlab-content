@@ -41,7 +41,7 @@ This is why currently the nLab software will not allow you to sign with that exa
 So if you do insist on using something like "Anonymous" as your signature, you may regard it as a minimalistic [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) that you have to be able to find and choose a variant of that character string.
 But in the interest of the nLab project, it would be helpful if you solved a slighly more ambitious CAPTCHA and chose a pseudonym which is not just a small variant of "Anonymous". Thanks! 
 
-(In fact, the same comments now apply also to the string "Guest".)
+(In fact, the same comments now apply also to the string "Guest", which is the default name on the nForum.)
 
 
 category: people
