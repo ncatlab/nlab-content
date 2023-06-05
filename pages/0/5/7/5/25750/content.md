@@ -18,7 +18,7 @@ Just as the classical notion of *[[pointed objects]]* refers to *morphisms* whos
 
 A [[morphism]] between a [[pair]] of monoidally-pointed objects is then typically taken to be a morphism of the [[underlying]] objects which respects these "points" under [[precomposition]]. This means that the [[category]] of monoidally-pointed objects is the [[coslice category]] $\mathcal{C}^{I/}$. 
 
-(Therefore, yet more generally, one might regard any [[coslice category]] as a category of generalized-pointed objects.)
+Therefore, yet more generally, one might regard any [[coslice category]] as a category of generalized-pointed objects. But the coslice under a monoidal unit has further good properties, such as itself canonically inheriting the structure of a monoidal category.
 
 ## Examples 
 
@@ -41,7 +41,7 @@ and a pointing of an object $v$ of $V$ is equivalent to a pointing of its underl
 
 The term appears, for instance, in:
 
-* [[Paul-André Melliès]], Nicolas Tabareau & Christine Tasson, p. 4 of: *An Explicit Formula for the Free Exponential Modality of Linear Logic*, in: *Automata, Languages and Programming. ICALP 2009*, Lecture Notes in Computer Science, **5556**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-02930-1_21](https://doi.org/10.1007/978-3-642-02930-1_21)&rbrack;
+* {#Melliès09} [[Paul-André Melliès]], Nicolas Tabareau & Christine Tasson, p. 4 of: *An Explicit Formula for the Free Exponential Modality of Linear Logic*, in: *Automata, Languages and Programming. ICALP 2009*, Lecture Notes in Computer Science, **5556**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-02930-1_21](https://doi.org/10.1007/978-3-642-02930-1_21)&rbrack;
 
      
 [[!redirects pointed objects in a monoidal category]]
