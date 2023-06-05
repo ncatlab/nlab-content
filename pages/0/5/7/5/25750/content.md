@@ -32,7 +32,7 @@ A [[pointed abelian group]] is a an [[abelian group]] $A$ equipped with a morphi
 
 
 \begin{example}
-Under change of [[base of enrichment]], pointed objects in the current sense may be compared to pointed objects in the classical sense. For example, if $V$ is a monoidal category, there is a change of base functor 
+Under change of [[base of enrichment]], pointed objects in the current sense may be compared to pointed objects in the classical sense. For example, if $V$ is a monoidal category, there is a [[lax monoidal functor|lax monoidal]] change of base functor 
 $$U = V(I, -): V \to Set$$ 
 and a pointing of an object $v$ of $V$ is equivalent to a pointing of its underlying object in the classical sense, $1 \to U(v)$. 
 \end{example}
