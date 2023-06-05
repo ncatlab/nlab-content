@@ -35,7 +35,11 @@ A [[pointed abelian group]] is a an [[abelian group]] $A$ equipped with a morphi
 Under change of [[base of enrichment]], pointed objects in the current sense may be compared to pointed objects in the classical sense. For example, if $V$ is a monoidal category, there is a [[lax monoidal functor|lax monoidal]] change of base functor 
 $$U = V(I, -): V \to Set$$ 
 and a pointing of an object $v$ of $V$ is equivalent to a pointing of its underlying object in the classical sense, $1 \to U(v)$. 
-\end{example}
+\end{example} 
+
+\begin{example} 
+If $C$ is a monoidal category, then $C^{op}$ acquires a monoidal category structure as well, and the coslice $I \downarrow C^{op}$ of monoidally pointed objects is equivalent to the slice $C \downarrow I$. This can be important in practice. See for example the discussion at [[affine space]] which relates the definition of affine space to the slice $Vect_k/k$, and see even more particularly the discussion of the [[affine space#ClosedMonoidal|closed monoidal]] structure of affine spaces. 
+\end{example} 
 
 ## References
 
