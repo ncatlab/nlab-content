@@ -1,3 +1,4 @@
+> This entry is about the classical notion of pointed object (pointed sets, pointed spaces, etc.). Compare the variant notion of [[pointed object in a monoidal category]]. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
