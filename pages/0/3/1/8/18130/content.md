@@ -38,21 +38,17 @@ by
 
 $$x \in U \coloneqq \mathrm{El}_\Omega((i_O(U))(x))$$
 
-By definition of the type of all propositions and its type reflector, $x \in U$ is always a [[h-proposition]] for all $x:X$ and $U:O(X)$. 
+By definition of the type of all propositions and its type reflector, $x \in U$ is always a [[h-proposition]] for all $x:X$ and $U:O(X)$, and the type family is a [[binary relation]]. 
 
 The [[specialization order]] is given by the type 
 
-$$\prod_{U:O(X)} (x \in U) \to (y \in U)$$
+$$x \leq y \coloneqq \prod_{U:O(X)} (x \in U) \to (y \in U)$$
 
-and for all elements $x:X$, there is an element
+and because $x \in U$ is a [[binary relation]], the above type is a [[preorder]], with elements
 
 $$\mathrm{refl}_{SpecOrd}(x):\prod_{U:O(X)} (x \in U) \to (x \in U)$$
 
-defined by the [[identity function]] on $x \in U$
-
-$$\mathrm{refl}_{SpecOrd}(x, U) \coloneqq \mathrm{id}_{x \in U}$$
-
-Since $x \in U$ and $y \in U$ are both [[h-propositions]], and h-propositions are closed under [[function types]] and [[dependent product types]], the specialization order is also valued in [[h-propositions]]. 
+for all elements $x:X$. (See [[preorder]] for a proof that $\prod_{z:B} R(x, z) \to R(y, z)$ is a preorder for any binary relation $x:A, z:B \vdash R(x, z)$.) 
 
 There is a canonical family of functions for every topological space
 
