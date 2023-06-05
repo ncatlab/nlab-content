@@ -30,7 +30,7 @@ An [[endofunctor]] $S \colon \mathcal{A}\to \mathcal{A}$ is called **pointed** i
 \end{definition}
 
 \begin{remark}\label{MeaningOfPointedness}
-Def. \ref{PointedEndofunctor} is *not* quite the notion of a [[pointed object]] in the endo-[[functor category]], since the [[identity functor]] is not in general a [[terminal object]] there. On the other hand, the identity functor is the [[tensor unit]] for the canonical [[monoidal category]]-[[structure]] on the endo-[[functor category]] (given by [[horizontal composition]]) and in this sense a pointed endofunctor may be regarded as being equipped with a "monoidal point" of sorts. Indeed, the "point" underlying a [[monad]], in this sense (see Exp. \ref{Monads} below) is not called a point but the *[[unit of a monad|unit]]*.
+Def. \ref{PointedEndofunctor} is *not* the usual classical notion of a [[pointed object]] in the endo-[[functor category]], since the [[identity functor]] is not in general a [[terminal object]] there. It is however pointed in the sense of a [[pointed object in a monoidal category]], involving a morphism out of the monoidal unit, since the identity functor is the [[tensor unit]] for the canonical [[monoidal category]]-[[structure]] on the [[endofunctor category]] (given by [[horizontal composition]]). In this sense, a pointed endofunctor may be regarded as being equipped with a "monoidal point". A [[monad]] has a canonical such point (see Exp. \ref{Monads} below), usually called the *[[unit of a monad|unit]]*.
 \end{remark}
 
 \begin{remark}
