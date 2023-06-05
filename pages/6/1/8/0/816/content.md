@@ -151,7 +151,7 @@ $$
   [K, V](W(-), C(c, F(-)))
 $$
 Hence $W$ is simply a uniform way to specify the sides of a cone.
-A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that 'conical completeness' (a **conical limit** is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in [Kelly's book](#Kelly) (aptly named *The inadequacy of conical limits*).
+A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that conical completeness (a [[conical limit]] is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in [Kelly's book](#Kelly) (aptly named *The inadequacy of conical limits*).
 
 ## Examples  ##
 
