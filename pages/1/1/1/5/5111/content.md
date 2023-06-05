@@ -23,7 +23,7 @@ The _Eilenberg-Watts theorem_ identifies colimit-preserving [[functors]] between
 ### For ordinary rings and modules
 
 +-- {: .num_theorem}
-###### Eilenberg-Watts' Theorem
+<b>Eilenberg-Watts Theorem</b>
 
 Given unital [[rings]] $R$ and $S$ and an $R$-$S$-[[bimodule]] $N$, the [[tensor product of modules|tensor product]] [[functor]]
 
@@ -87,9 +87,35 @@ $$
   {}_R Mod_{S} \stackrel{\simeq}{\to} Func_{coc}(Mod_R, Mod_S)
 $$
 
-from the category of bimodules to that of colimit-preserving functors between their [[categories of modules]] is an [[equivalence of categories]].
+from the category of bimodules to that of colimit-preserving additive functors between their [[categories of modules]] is an [[equivalence of categories]].
 
 =--
+
+### For enriched categories
+
+Rings can be seen as one-object $V$-enriched categories where $V = Ab$ is the category of abelian groups made symmetric monoidal with the usual tensor product of abelian groups.   Similarly, bimodules between rings are the same as $V$-enriched [[profunctors]] between one-object $V$-enriched categories.  The category of right modules of a ring $R$ is the category of $V$-enriched presheaves on the corresponding one-object $V$-enriched category. Thus, we can ask if the Eilenberg-Watts theorem generalizes to $V$-enriched categories.  And indeed it does!  
+
+Suppose that $V$ is a [[Benabou cosmos]], i.e. a complete and cocomplete symmetric monoidal closed category.  Then there is a symmetric monoidal bicategory $V Mod$ where:
+
+* objects are small $V$-enriched categories,
+* morphisms are $V$-enriched profunctors,
+* 2-morphisms are $V$-enriched natural transformations between profunctors.
+
+There is also a symmetric monoidal bicategory $V Cocont$ where:
+
+* objects are the $V$-enriched presheaf categories $[C^{op},V]$ where $C$ ranges over all small $V$-enriched categories,
+* morphisms are cocontinuous $V$-functors, i.e. $V$-functors preserving all $V$-enriched colimits,
+* 2-morphisms are $V$-enriched natural transformations between cocontinuous $V$-functors.
+
+Then the following is surely true, though a reference would be helpful:
+
++-- {: .num_theorem}
+###### Generalized Eilenberg-Watts' Theorem
+
+Given a Benabou cosmos $V$, the symmetric monoidal bicategories $V Prof$ and $V Cocont$ are equivalent.
+
+=--
+
 
 ### For other internal monoids and internal modules
 
