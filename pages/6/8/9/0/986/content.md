@@ -34,7 +34,29 @@ Given a topological space $X$ with topology $\mathcal{O}(X)$, the specialization
 (Note: some authors use the opposite ordering convention.) 
 =-- 
 
-### In dependent type theory
+## Properties
+
+The specialization order on a topological space is always a [[preorder]], because the specialization order is defined as $\forall_{U \colon \mathcal{O}(X)} (x \in U) \Rightarrow (y \in U)$. Given any two [[sets]] $A$ and $B$ and any [[binary relation]] $R(x, y)$ between $A$ and $B$,  the relation $\forall_{w \colon B} R(x, w) \implies R(y, w)$ is a [[preorder]] on $A$. 
+
+$X$ is $T_0$ if and only if its specialisation order is a [[partial order]].  $X$ is $T_1$ iff its specialisation order is [[equality]].  $X$ is $R_0$ (like $T_1$ but without $T_0$) iff its specialisation order is an [[equivalence relation]].  (See [[separation axioms]].)
+
+Given a [[continuous map]] $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] $Spec$ from the category of $\Top$ of topological spaces to the category $\ProSet$ of preordered sets.
+
+In the other direction, to each proset $X$ we may associate a topological space whose elements are those of $X$, and whose open sets are precisely the upward-closed sets with respect to the preorder. This topology is called the [[specialization topology]]. This defines a functor 
+
+$$i \colon ProSet \to Top$$ 
+
+which is a full embedding; the [[essential image]] of this functor is the category of [[Alexandroff spaces]] (spaces in which an arbitrary intersection of open sets is open). Hence the category of prosets is equivalent to the category of Alexandroff spaces. 
+
+In fact, we have an adjunction $i \dashv Spec$, making $ProSet$ a [[coreflective subcategory]] of $Top$. In particular, the counit evaluated at a space $X$, 
+
+$$i(Spec(X)) \to X,$$ 
+
+is the identity function at the level of sets, and is continuous because any open $U$ of $X$ is upward-closed with respect to $\leq$, according to the second equivalent condition of the definition of the specialization order. 
+
+This [[adjunction]] restricts to an [[adjoint equivalence]] between the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
+
+## In dependent type theory
 
 In [[dependent type theory]], given a type $X$, the type of [[subtypes]] of $X$ is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
 
@@ -55,58 +77,6 @@ The **specialization order** is given by the type
 $$x \leq y \coloneqq \prod_{U:O(X)} (x \in U) \to (y \in U)$$
 
 In plain English, $x \leq y$ whenever for all open sets $U$ in $O(X)$, if $x$ is in $U$, then $y$ is in $U$. 
-
-## Properties
-
-\begin{theorem}
-The specialization order is always a [[preorder]]. 
-\end{theorem}
-
-\begin{proof}
-We work in [[dependent type theory]]. Let $(X, O(X))$ be a [[topological space]]. The specialization order is given by the type 
-
-$$\prod_{U:O(X)} (x \in U) \to (y \in U)$$
-
-Since $x \in U$ and $y \in U$ are both [[h-propositions]], and h-propositions are closed under [[function types]] and [[dependent product types]], the specialization order is also valued in [[h-propositions]]. In addition, for all elements $x:X$, there is an element
-
-$$\mathrm{refl}_{SpecOrd}(x):\prod_{U:O(X)} (x \in U) \to (x \in U)$$
-
-defined by the [[identity function]] on $x \in U$
-
-$$\mathrm{refl}_{SpecOrd}(x)(U) \coloneqq \mathrm{id}_{x \in U}$$
-
-and for all elements $x:X$, $y:X$, and $z:X$, there is a function 
-
-$$\mathrm{trans}_{SpecOrd}(x, y, z):\left(\prod_{U:O(X)} (x \in U) \to (y \in U)\right) \times \left(\prod_{U:O(X)} (y \in U) \to (z \in U)\right) \to \left(\prod_{U:O(X)} (x \in U) \to (z \in U)\right)$$
-
-defined by [[composition]] of the functions $f(U):(x \in U) \to (y \in U)$ and $g(U):(y \in U) \to (z \in U)$ dependent upon open set $U:O(X)$:
-
-$$\mathrm{trans}_{SpecOrd}(x, y, z)(f, g)(U) \coloneqq g(U) \circ f(U)$$
-
-Since the type 
-
-$$\prod_{U:O(X)} (x \in U) \to (y \in U)$$
-
-is a [[relation]] valued in [[h-propositions]] which satisfies [[reflexivity]] and [[transitivity]], it is a [[preorder]]. 
-\end{proof}
-
-$X$ is $T_0$ if and only if its specialisation order is a [[partial order]].  $X$ is $T_1$ iff its specialisation order is [[equality]].  $X$ is $R_0$ (like $T_1$ but without $T_0$) iff its specialisation order is an [[equivalence relation]].  (See [[separation axioms]].)
-
-Given a [[continuous map]] $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] $Spec$ from the category of $\Top$ of topological spaces to the category $\ProSet$ of preordered sets.
-
-In the other direction, to each proset $X$ we may associate a topological space whose elements are those of $X$, and whose open sets are precisely the upward-closed sets with respect to the preorder. This topology is called the [[specialization topology]]. This defines a functor 
-
-$$i \colon ProSet \to Top$$ 
-
-which is a full embedding; the [[essential image]] of this functor is the category of [[Alexandroff spaces]] (spaces in which an arbitrary intersection of open sets is open). Hence the category of prosets is equivalent to the category of Alexandroff spaces. 
-
-In fact, we have an adjunction $i \dashv Spec$, making $ProSet$ a [[coreflective subcategory]] of $Top$. In particular, the counit evaluated at a space $X$, 
-
-$$i(Spec(X)) \to X,$$ 
-
-is the identity function at the level of sets, and is continuous because any open $U$ of $X$ is upward-closed with respect to $\leq$, according to the second equivalent condition of the definition of the specialization order. 
-
-This [[adjunction]] restricts to an [[adjoint equivalence]] between the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
 
 ## Related entries
 
