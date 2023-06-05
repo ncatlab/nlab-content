@@ -69,6 +69,12 @@ Rather, a pointed endofunctor is equipped with a map from the [[unit object]] fo
 ## Related concepts
 
 * [[pointed object]]
+* [[well-pointed endofunctor]]
+
+## References
+
+* [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
+ {#Kelly}
 
 [[!redirects pointed endofunctors]]
 [[!redirects pointed endomorphism]]
