@@ -1,4 +1,4 @@
-> This entry is about the classical notion of pointed object (pointed sets, pointed spaces, etc.). Compare the variant notion of [[pointed object in a monoidal category]]. 
+> This entry is about the classical notion of *pointed objects* ([[pointed sets]], [[pointed topological spaces]], etc.). Compare the variant notion of *[[pointed object in a monoidal category]]*. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,7 +23,9 @@
 
 In a [[category]] $C$ with a [[terminal object]] $\ast \,\in\, C$, a **pointed object** $(X,x)$ is an [[object]] $X$ equipped with a [[global element]], hence with a [[morphism]] of the form $x \,\colon\, \ast \to X$, often called the _[[basepoint]]_.
 
-Pointed objects are distinguished from *[[inhabited objects]] * in that the chosen point is _[[structure]]_ rather than a [[property]].  In particular, a [[homomorphism]] of pointed objects is a [[morphism]] in the original category which preserves the basepoints.  In other words, the category of pointed objects in $C$ is the [[under category|co-slice category]] $\ast/C$ under the [[terminal object]].
+Pointed objects are distinguished from *[[inhabited objects]] * in that the chosen point is _[[structure]]_ rather than a [[property]].  In particular, a [[homomorphism]] of pointed objects is a [[morphism]] in the original category which preserves the basepoints.  In other words, the category of pointed objects in $C$ is the [[co-slice category]] $\ast/C$ under the [[terminal object]].
+
+{#MoreGenerally} (More generally, one might regard any [[coslice category]] under any object $X \,\in\, C$ as the category of "$X$-pointed objects". This is common in the case where $C$ is a [[monoidal category]] and $X = I$ is its [[terminal object]], in which case one speaks of *[[pointed objects in a monoidal category]]*.)
 
 There is an obvious [[forgetful functor]] which forgets the basepoint
 
