@@ -20,7 +20,7 @@ Every [[adjunction|right adjoint functor]] $F\dashv G:\mathcal{B}\to\mathcal{A}$
 
 The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
 
-
+The same idea applies to [[2-categories]] or [[bicategories]] more general than $Cat$: codensity monads can be defined whenever suitable right Kan extensions exist. 
 
 ## Definition
 
@@ -52,34 +52,58 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 
 ## Examples
 
-* Every monad that is induced by an adjunction $L \dashv R$ is the codensity monad of $R$. In particular, every [[enriched monad]] is a codensity monad (via its [[Kleisli category]]).
+\begin{example} 
+Every monad that is induced by an adjunction $L \dashv R$ is the codensity monad of $R$. In particular, every [[enriched monad]] is a codensity monad (via its [[Kleisli category]]).
+\end{example}
 
-* The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
+\begin{example}
+The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
+\end{example}
 
-* The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad. Its algebras are [[compact Hausdorff spaces]]. 
+\begin{example}
+The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad. Its algebras are [[compact Hausdorff spaces]]. 
+\end{example}
 
-* The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite ([Avery 17, Proposition 2.7.10](#Avery17)).
+\begin{example}
+The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite ([Avery 17, Proposition 2.7.10](#Avery17)).
+\end{example}
 
-* The codensity monad of the inclusion $FinSet \to Top$
+\begin{example}
+The codensity monad of the inclusion $FinSet \to Top$
 computes the [[Stone spectrum]] of the [[Boolean algebra]] of [[clopen subsets]]
 of a [[topological space]].
 Its algebras are precisely the [[Stone spaces]].
-([Sipoș, Theorem 2](#Sipos)).
+([Sipoș, Theorem 2](#Sipos)). 
+\end{example}
 
-* The codensity monad of the inclusion $N \to Top$, where
+\begin{example}
+The codensity monad of the inclusion $N \to Top$, where
 $N$ denotes the [[full subcategory]] of [[Top]] consisting
 of arbitrary [[small products]] of the [[Sierpinski space|Sierpiński space]],
 is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]].
 Its algebras are precisely the [[sober spaces]].
-([Sipoș, Theorem 6](#Sipos))
+([Sipoș, Theorem 6](#Sipos)) 
+\end{example}
 
-* The codensity monad of the inclusion of [[countable sets]] in all sets, $Ctbl \hookrightarrow Set$, assigns to each set $X$ the set of ultrafilters on $X$ closed under countable intersections. This still holds for the inclusion of the full subcategory of $Ctbl$ on the single set $\mathbb{N}$.
+\begin{example}
+The codensity monad of the inclusion of [[countable sets]] in all sets, $Ctbl \hookrightarrow Set$, assigns to each set $X$ the set of ultrafilters on $X$ closed under countable intersections. This still holds for the inclusion of the full subcategory of $Ctbl$ on the single set $\mathbb{N}$.
+\end{example}
 
-* More generally, the codensity monad of the inclusion of sets of cardinality less than that of fixed $Y$, $Set_{\lt Y} \hookrightarrow Set$, assigns to each set $X$ the set of $Y$-complete ultrafilters on $X$. 
+\begin{example}
+More generally, the codensity monad of the inclusion of sets of cardinality less than that of fixed $Y$, $Set_{\lt Y} \hookrightarrow Set$, assigns to each set $X$ the set of $Y$-complete ultrafilters on $X$. 
+\end{example}
 
-* For the codensity monad induced by the inclusion of [[homotopy types with finite homotopy groups]] into all [[homotopy types]] see [there](homotopy+type+with+finite+homotopy+groups#CodensityMonadOfInclusionIntoAllHomotopyTypes).
+\begin{example}
+For the codensity monad induced by the inclusion of [[homotopy types with finite homotopy groups]] into all [[homotopy types]] see [there](homotopy+type+with+finite+homotopy+groups#CodensityMonadOfInclusionIntoAllHomotopyTypes).
+\end{example}
 
-* The codensity monad induced by the [[Yoneda embedding]] is isomorphic to the monad induced by the [[Isbell adjunction]].
+\begin{example} 
+The codensity monad induced by the [[Yoneda embedding]] is isomorphic to the monad induced by the [[Isbell adjunction]].
+\end{example} 
+
+\begin{example} 
+In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: B \to C$ is the relation $T/R: B \to C$ defined by the formula $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. This construction frequently recurs; see for instance [[specialization order]] for a [[topological space|topology]]. 
+\end{example} 
 
 ## Properties
 
