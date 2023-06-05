@@ -25,7 +25,7 @@ In a [[category]] $C$ with a [[terminal object]] $\ast \,\in\, C$, a **pointed o
 
 Pointed objects are distinguished from *[[inhabited objects]] * in that the chosen point is _[[structure]]_ rather than a [[property]].  In particular, a [[homomorphism]] of pointed objects is a [[morphism]] in the original category which preserves the basepoints.  In other words, the category of pointed objects in $C$ is the [[co-slice category]] $\ast/C$ under the [[terminal object]].
 
-{#MoreGenerally} (More generally, one might regard any [[coslice category]] under any object $X \,\in\, C$ as the category of "$X$-pointed objects". This is common in the case where $C$ is a [[monoidal category]] and $X = I$ is its [[terminal object]], in which case one speaks of *[[pointed objects in a monoidal category]]*.)
+{#MoreGenerally} (More generally, one might regard any [[coslice category]] under any object $X \,\in\, C$ as the category of "$X$-pointed objects". This is common in the case where $C$ is a [[monoidal category]] and $X = I$ is its [[tensor unit]], in which case one speaks of *[[pointed objects in a monoidal category]]*. See also [[generalized element]].)
 
 There is an obvious [[forgetful functor]] which forgets the basepoint
 
