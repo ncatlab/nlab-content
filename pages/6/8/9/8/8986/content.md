@@ -15,20 +15,33 @@
 {:toc}
 
 
+## Idea
+
+An [[endofunctor]] on a [[category]] $\mathcal{A}$ is _pointed_ if it is equipped with a [[natural transformation]] from the [[identity functor]].
+
+
 
 ## Definition
+ {#Definition}
 
-An [[endofunctor]] on a [[category]] $\mathcal{A}$ is _pointed_ if it is equipped with a morphism from the [[identity]] functor.
+
+\begin{definition}\label{PointedEndofunctor}
+An [[endofunctor]] $S \colon \mathcal{A}\to \mathcal{A}$ is called **pointed** if it is equipped with a [[natural transformation]] $\sigma \colon Id_\mathcal{A} \to S$ from the [[identity functor]] on $\mathcal{A}$.  
+\end{definition}
+
+\begin{remark}\label{MeaningOfPointedness}
+Def. \ref{PointedEndofunctor} is *not* quite the notion of a [[pointed object]] in the endo-[[functor category]], since the [[identity functor]] is not in general a [[terminal object]] there. On the other hand, the identity functor is the [[tensor unit]] for the canonical [[monoidal category]]-[[structure]] on the endo-[[functor category]] (given by [[horizontal composition]]) and in this sense a pointed endofunctor may be regarded as being equipped with a "monoidal point" of sorts. Indeed, the "point" underlying a [[monad]], in this sense (see Exp. \ref{Monads} below) is not called a point but the *[[unit of a monad|unit]]*.
+\end{remark}
+
+\begin{remark}
+The notion of a pointed endofunctors, Def \ref{PointedEndofunctor}, naturally extends to any [[2-category]], where we can define a **pointed endomorphism** to be an endo-[[1-morphism]] $s \colon a \to a$ equipped with a [[2-morphism]] $\sigma \colon id_a \Rightarrow s$ from the [[identity morphism]].
+\end{remark}
 
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
+A pointed endofunctor $(S, \sigma)$ (Def. \ref{PointedEndofunctor}) is called **[[well-pointed endofunctor|well-pointed]]** if $S\sigma = \sigma S$ as natural transformations $S \longrightarrow S \circ S$.
+\end{definition}
 
-An [[endofunctor]] $S:\mathcal{A}\to \mathcal{A}$ is called **pointed** if it is equipped with a [[natural transformation]] $\sigma:Id_\mathcal{A} \to S$.  It is called **[[well-pointed endofunctor|well-pointed]]** if $S\sigma = \sigma S$ (as natural transformations $S\to S^2$).
-
-=--
-
-The definition of a pointed endofunctor naturally extends to any [[2-category]], where we can define a **pointed endomorphism** as an endomorphism $s : a \to a$ equipped with a 2-cell $\sigma : 1_a \Rightarrow s$ from the identity.
 
 ## Properties
 
@@ -38,7 +51,9 @@ The pointed [[algebras over an endofunctor]] on a pointed endofunctor induce a t
 
 ## Examples
 
-A [[monad]] can be regarded as a pointed endofunctor where $\sigma$ is its unit.  
+\begin{example}\label{Monads}
+A [[monad]] can be regarded as a pointed endofunctor where $\sigma$ is its [[unit of a monad|unit]].  
+\end{example}
 
 
 +-- {: .num_prop}
@@ -69,12 +84,13 @@ Rather, a pointed endofunctor is equipped with a map from the [[unit object]] fo
 ## Related concepts
 
 * [[pointed object]]
+
 * [[well-pointed endofunctor]]
 
 ## References
 
-* [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
- {#Kelly}
+* {#Kelly} [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
+ 
 
 [[!redirects pointed endofunctors]]
 [[!redirects pointed endomorphism]]
