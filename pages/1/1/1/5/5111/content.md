@@ -33,9 +33,7 @@ $$
   Mod_R \to Mod_S 
 $$
 
-between the [[categories of modules]] is [[right exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  
-
-Conversely, if $F \colon Mod_R \to Mod_S$ is right exact and preserves small coproducts, then it is naturally isomorphic to tensoring with a bimodule.
+between the [[categories of modules]] is [[additive functor|additive]] and [[cocontinuous functor|cocontinuous]].  Conversely, if $F \colon Mod_R \to Mod_S$ is additive and cocontinuous, then it is naturally isomorphic to tensoring with a bimodule.
 
 =--
 
@@ -44,7 +42,7 @@ This theorem was more or less simultaneously proved in ([Watts](#Watts)) and ([E
 +-- {: .num_remark}
 ###### Remark
 
-A functor is right exact and preserves small coproducts if and only if it preserves all small colimits; such a functor is called [[cocontinuous functor|cocontinuous]].  Given a cocontinuous functor $F \colon Mod_R \to Mod_S$, the reconstructed $R$-$S$-bimodule is given as follows:
+Given an additive cocontinuous functor $F \colon Mod_R \to Mod_S$, the reconstructed $R$-$S$-bimodule is given as follows:
 
 * the underlying right $S$-module is $F(R)$, where $R$ is regarded as a right module over itself in the canonical way;
 
@@ -68,11 +66,15 @@ The theorem holds for nonunital rings as well, but then $B$ reconstructs as $F(R
 +-- {: .num_remark}
 ###### Remark
 
-In the statement of the theorem we can replace "additive, right exact and preserves direct sum" by "additive and [[left adjoint]]".
+There are various equivalent ways to state the hypotheses of the theorem:
+
+* $F$ is additive and [[cocontinuous functor|cocontinuous]] (i.e. preserves [[small category|small]]  [[colimits]]).
+* $F$ is additive, [[right exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  
+* $F$ is additive and [[left adjoint]].
 
 =--
 
-In this form the theorem is stated for instance in ([Hovey, theorem 0.1](#Hovey)).
+The theorem is stated in the last form, for instance, in ([Hovey, Theorem 0.1](#Hovey)).
 
 In fact both bimodules and [[intertwiners]] as well as [[functors]] and [[natural transformations]] form a [[category]]. In more detail the theorem is:
 
