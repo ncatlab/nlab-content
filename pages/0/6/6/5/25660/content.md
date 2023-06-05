@@ -82,6 +82,11 @@ The [[1-category]] of skeletal groupoids is (see [there](free+coproduct+completi
 
 ## References
 
+See also the general references at *[[skeletal category]]*, such as
+
+* {#MacLane71} [[Saunders MacLane]], p. 91 of: _[[Categories for the Working mMathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 Discussion of [[colimits]] over certain [[diagrams]] of the shape of skeletal groupoids and regarded as generalized [[coproducts]] (*[[quasi-coproducts]]*):
 
 * [[Hongde Hu]], [[Walter Tholen]], *Quasi-coproducts and accessible categories with wide pullbacks*, Appl Categor Struct **4** (1996) 387–402 &lbrack;[doi:10.1007/BF00122686](https://doi.org/10.1007/BF00122686)&rbrack;
