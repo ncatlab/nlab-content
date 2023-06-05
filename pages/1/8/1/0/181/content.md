@@ -80,7 +80,7 @@ More generally:
 ### Other
 
 * [[dyadic interval coalgebra]]
-* [[decimal interva*l coalgebra]]
+* [[decimal interval coalgebra]]
 * [[rational interval coalgebra]]
 
 ## Differential graded coalgebras
