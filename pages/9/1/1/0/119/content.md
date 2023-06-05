@@ -91,6 +91,8 @@ On the other hand, in non-set-theoretic [[foundations]] where not every category
 
 ### Construction of preorders from any binary relation
 
+(See also [[codensity monad]], [[quantification#Guarded|guarded quantification]].) 
+
 \begin{theorem}
 Given [[sets]] $A$ and $B$ and a [[binary relation]] $R(x, y)$ between $A$ and $B$, then the relation 
 $$T(x, y) \coloneqq \forall w:B.R(x, w) \implies R(y, w)$$
