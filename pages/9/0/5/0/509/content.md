@@ -94,11 +94,11 @@ For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice 
 ## Examples
 
 \begin{example}\label{PointedSets}
- The poitned objects in [[Sets]] are [[pointed sets]].
+ The pointed objects in [[Sets]] are [[pointed sets]].
 \end{example}
 
 \begin{example}
-  All [[internalization|internal notions]] of [[algebra|algebraic]] [[structures]] with [[units]], such as
+  Within the [[doctrine]] of [[cartesian monoidal categories]], all [[internalization|internal notions]] of [[algebra|algebraic]] [[structures]] with [[units]], such as
 
   * [[natural numbers objects]] 
 
@@ -511,7 +511,7 @@ For [[base change]] functoriality of these structures see at _[Wirthm&#252;ller 
 ### Monadicity
  {#Monadicity}
 
-Pointed objects are the [[algebras over a monad]] of the [[monad]] $X \mapsto X \coprod \ast$ (the "[[maybe monad]]"). (Already the unit axiom of the monad makes its algebras be pointed objects, the action axiom does not add any further condition in this case.)
+Pointed objects are the [[algebras over a monad]] of the [[monad]] $X \mapsto X \sqcup \ast$ (the "[[maybe monad]]"). (Already the unit axiom of the monad makes its algebras be pointed objects, the action axiom does not add any further condition in this case.)
 
 Notice that if sufficient [[colimits]] exist in the first place, then this functor is trivially an [[accessible functor]], hence an [[accessible monad]]. This makes categories of pointed objects inherit good properties from the ambient category, see at _[accessible monad -- Categories of algebras](accessible+monad#CategoryOfAlgebras)_.
 
