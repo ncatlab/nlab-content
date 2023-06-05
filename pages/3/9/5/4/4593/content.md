@@ -57,7 +57,7 @@ When $f$ is the unique function from a set $X$ to the terminal set, $\mathcal{P}
 
 * $\forall x \in X, Q(x).$
 
-### Guarded quantification: quantifying over subtypes
+### Guarded quantification: quantifying over subtypes {#Guarded} 
 
 Recall that, given a type $T$ and a predicate $Q$ on $T$, the __[[subtype]]__ of $T$ defined by $Q$ is a type $S$ whose elements $x$ are thought of as elements of $T$ such that $Q(x)$ holds.  Many type theories do not include subtypes.  However, we can mimic quantification over subtypes by using so-called 'guarded' quantifiers.
 
