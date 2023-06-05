@@ -2,7 +2,13 @@
 * table of contents
 {: toc}
 
-The **Anonymous Coward** is the original default username for editing [[nLab:HomePage|this wiki]], assigned by the software.  So if somebody edited the wiki without signing in, then their edits would be attributed to the _Anonymous Coward_.  We now write simply _Anonymous_.  A few jokers have changed 'AnonymousCoward' to something different but equally anonymous ... which is OK too.
+The **Anonymous Coward** is the original default username for editing [[nLab:HomePage|this wiki]], assigned by the software.  So if somebody edited the wiki without signing in, then their edits would be attributed to the _Anonymous Coward_.  We now write simply _Anonymous_. A few jokers have changed 'AnonymousCoward' to something different but equally anonymous ... which is OK too. 
+
+Recently, things have changed, and one has to change _Anonymous_ to something else in order to edit the wiki. If one leaves the name as _Anonymous_, one gets a message which states:
+
++-- {: .query}
+Please enter your name. (Due to a flood of low quality edits, we restrict anonymous edits.)
+=--
 
 However, people who *really* want to be anonymous should know that every editor\'s IP address is (usually) listed in the entry's history (found by clicking _history_ at the bottom of any page).
 
