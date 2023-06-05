@@ -16,7 +16,7 @@ In choosing a name with which to sign their edits on the $n$Lab, users are free 
 
 Indeed, in the practice of editing the $n$Lab, the point of signing edits with a string of characters (a "name") is not to identify a legal person behind that name (though that is, of course, for many users a desired side effect) but rather:  To allow relating edits that come from the same source, in order to facilitate communicating about edits (such as on the [nForum](https://nforum.ncatlab.org)).
 
-Therefore we kindly ask all users to *choose a unique pseudonym* for signing their edits and stick to using it consistently, as far as reasonable. That pseudonym might be the name which you read in your passport (we wouldn't know, either way) or it might be any other string of characters which you fancy (we are relying on users' decency to choose reasonable handles), where the main point in the actual practice of communicating about $n$Lab edits is just that: it be unique. 
+Therefore we kindly ask all users to *choose a unique pseudonym* for signing their edits and stick to using it consistently, as far as reasonable. That pseudonym might be the name which you read in your passport (we wouldn't know, either way) or it might be any other string of characters which you fancy (we are relying on users' decency in choosing reasonable handles), where the main point in the actual practice of communicating about $n$Lab edits is just that: it be unique. 
 
 In other words, we don't care who you are elsewhere, but we like to know you as the $n$Lab contributor that you are, hence, if you will, as the scholarly persona which is embodied by the collection of your nLab edits.
 
