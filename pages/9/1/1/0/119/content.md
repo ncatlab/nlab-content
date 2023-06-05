@@ -89,6 +89,44 @@ If we distinguish between isomorphism and [[equality]] of elements in a preorder
 
 On the other hand, in non-set-theoretic [[foundations]] where not every category need have an underlying set (i.e. need not be a [[strict category]] in any canonical way) --- such as [[homotopy type theory]] or [[preset]] theories --- a preordered set defined as "a set with a relation $\leq$ ..." is automatically a strict category, with a notion of equality of objects coming from the given set.  By contrast, in this case a thin category (as opposed to a more general category) does have a canonical structure of strict category in which equality of objects *means* isomorphism, but not every strict thin category is canonical in this sense.  In this case, partially ordered sets correspond to thin categories (with canonical strict-category structures), while preordered sets correspond to thin categories with arbitrary strict-category structures.
 
+### Construction of preorders from any binary relation
+
+\begin{theorem}
+Given [[sets]] $A$ and $B$ and a [[binary relation]] $R(x, y)$ between $A$ and $B$, then the relation 
+$$T(x, y) \coloneqq \forall w:B.R(x, w) \implies R(y, w)$$
+is a [[preorder]] on $A$. 
+\end{theorem}
+
+\begin{proof}
+We work in [[dependent type theory]], where implication is denoted by the [[function type]] $P \to Q$ and universal quantification is denoted by the [[dependent product type]] $\prod_{x:A} P(x)$. Thus, the type family $T(x, y)$ is represented as
+
+$$T(x, y) \coloneqq \prod_{w:B} R(x, w) \to R(y, w)$$
+
+A [[binary relation]] in dependent type theory is a type family $x:A, y:B \vdash R(x, y)$ such that each $R(x, y)$ is an [[h-proposition]]. Since $R(x, w)$ and $R(y, w)$ are both [[h-propositions]], and h-propositions are closed under [[function types]] and [[dependent product types]], $T(x, y)$ is also valued in [[h-propositions]], and is a binary relation. 
+
+In addition, for all elements $x:A$, there is an element
+
+$$\mathrm{refl}_{T}(x):\prod_{w:B} R(x, w) \to R(x, w)$$
+
+defined by the [[identity function]] on $R(x, w)$
+
+$$\mathrm{refl}_{T}(x)(w) \coloneqq \mathrm{id}_{R(x, w)}$$
+
+and for all elements $x:A$, $y:A$, and $z:A$, there is a function 
+
+$$\mathrm{trans}_{T}(x, y, z):\left(\prod_{w:B} R(x, w) \to R(y, w)\right) \times \left(\prod_{w:B} R(y, w) \to R(z, w)\right) \to \left(\prod_{w:B} R(x, w) \to R(z, w)\right)$$
+
+defined by [[composition]] of the functions $f(w):R(x, w) \to R(y, w)$ and $g(w):R(y, w) \to R(z, w)$ dependent upon element $w:B$:
+
+$$\mathrm{trans}_{T}(x, y, z)(f, g)(w) \coloneqq g(w) \circ f(w)$$
+
+Since the type 
+
+$$\prod_{w:B} R(x, w) \to R(y, w)$$
+
+is a [[binary relation]] valued in [[h-propositions]] which satisfies [[reflexivity]] and [[transitivity]], it is a [[preorder]]. 
+\end{proof}
+
 ### Preorder reflection
 
 The 2-category of preorders (more precisely, that of [[thin categories]]) is [[reflective subcategory|reflective]] in [[Cat]].  The reflector preserves the objects and declares $x \leq y$ if there exists an arrow from $x$ to $y$.
@@ -130,6 +168,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 * [[thin category]]
 
 * [[specialization topology]]
+
+* [[specialization order]]
 
 * [[PreOrd]] 
 
