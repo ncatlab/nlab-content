@@ -27,9 +27,12 @@ A [[pointed endofunctor]] on a category $C$ is an [[endofunctor]] $F$ together w
 \end{example}
 
 \begin{example}
-A [[pointed abelian group]] is a an [[abelian group]] $A$ equipped with a morphism $\mathbb{Z} \to A$, where $\mathbb{Z}$ is the unit for the [[tensor product of abelian groups]]. 
+A [[pointed abelian group]] is an [[abelian group]] $A$ equipped with a morphism $\mathbb{Z} \to A$, where $\mathbb{Z}$ is the unit for the [[tensor product of abelian groups]]. 
 \end{example}
 
+\begin{example}
+A [[pointed module]] is a [[module]] $M$ equipped with a morphism $R \to M$ from the [[ground ring]] $R$, where $R$ is also the unit for the [[tensor product of modules]]. Similarly, a [[pointed vector space]] is a [[vector space]] $V$ equipped with a morphism $F \to V$ from the ground [[field]] $F$, where $F$ is also the unit for the [[tensor product of vector spaces]]. 
+\end{example}
 
 \begin{example}
 Under change of [[base of enrichment]], pointed objects in the current sense may be compared to pointed objects in the classical sense. For example, if $V$ is a monoidal category, there is a [[lax monoidal functor|lax monoidal]] change of base functor 
