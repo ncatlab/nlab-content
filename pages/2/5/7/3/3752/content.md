@@ -108,7 +108,7 @@ $$
   Id(\mathcal{C}_1) \hookrightarrow \mathcal{C}_1
 $$
 
-for the [[subset]] on those morphisms which are [[endomorphisms]] on some object $x \in \mathcal{C}_0$ and such that they are neutral elements in their endomorphisms [[semimonoids]] $End_{\mathcal{C}}(x)$.
+for the [[subset]] on those morphisms which are [[endomorphisms]] on some object $x \in \mathcal{C}_0$ and such that they are neutral elements with respect to composition in  $\mathcal{C}$.
 =--
 
 +-- {: .num_prop #CategoriesAreSemicategoriesWithUnits}
