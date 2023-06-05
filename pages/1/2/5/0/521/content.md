@@ -87,8 +87,9 @@ If $C$ has a [[terminal object]] $\ast \,\in\, C$, then the coslice $C^{\ast/}$ 
 
 If $C$ is a [[monoidal category]] with [[tensor unit]] $I \,\in\, C$, then the coslice $C^{I/}$ is also known as the category of *[[pointed objects in a monoidal category]]*. For instance:
 
-
 * the category of [[pointed abelian groups]] is the coslice of [[Ab]] under the additive group of [[integers]],
+
+* the category of [[pointed modules]] is the coslice of [[Mod]] under the additive group of the [[ground ring]]
 
 * the category of [[pointed endofunctors]] is a coslice of and [[endofunctor|endo]]-[[functor category]] under the [[identity functor]].
 
