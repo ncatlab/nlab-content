@@ -21,7 +21,7 @@ A **monoidal dagger category** is a [[dagger category]] $C$ with a [[dagger func
 
 * for all objects $D \in Ob(C)$, $E \in Ob(C)$, $F\in Ob(C)$, a [[natural unitary isomorphism]] called the **associator** of $D$, $E$, and $F$,
 
-$$alpha_{D, E, F}:(D\otimes E)\otimes F \cong^\dagger D\otimes(E\otimes F)$$
+$$\alpha_{D, E, F}:(D\otimes E)\otimes F \cong^\dagger D\otimes(E\otimes F)$$
 
 * for objects $A \in Ob(C)$, a natural unitary isomorphism called the **left unitor** of $A$, 
 
