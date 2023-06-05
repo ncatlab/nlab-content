@@ -40,6 +40,7 @@ Given a natural number $n$, we can similarly write down quantifiers to say that 
 With these examples, one can see quite readily that quantification is about saying how often a statement is true, that is *quantifying* it.
 
 ### Lawvere quantifiers: Quantification as adjunction
+ {#LawvereQuantifier}
 
 Given two contexts $\Gamma$ and $\Delta$ and an interpretation $f\colon \Gamma \to \Delta$, we obtain an operation $f^*\colon Prop_\Delta \to Prop_\Gamma$ from the propositions in $\Delta$ to the propositions in $\Gamma$.  If this operation has a [[right adjoint]], then this right adjoint is the __[[universal quantifier]]__ along $f$; if it has a [[left adjoint]], then this is the __[[existential quantifier]]__ along $f$.  The ordinary quantifiers in first-order logic are simply special cases of this where $f$ is given by weakening.
 
@@ -59,16 +60,20 @@ When $f$ is the unique function from a set $X$ to the terminal set, $\mathcal{P}
 
 ### Guarded quantification: quantifying over subtypes {#Guarded} 
 
-Recall that, given a type $T$ and a predicate $Q$ on $T$, the __[[subtype]]__ of $T$ defined by $Q$ is a type $S$ whose elements $x$ are thought of as elements of $T$ such that $Q(x)$ holds.  Many type theories do not include subtypes.  However, we can mimic quantification over subtypes by using so-called 'guarded' quantifiers.
+Recall that, given a [[type]] $T$ and a [[predicate]] $Q$ on $T$, the __[[subtype]]__ of $T$ defined by $Q$ is, or would be, a type $S$ whose elements ([[terms]]) $x$ are thought of as elements ([[terms]]) of $T$ such that $Q(x)$ holds. But many [[type theories]] do not include sub-[[type formation]] among their rules.  However, we can mimic quantification over subtypes by using so-called 'guarded' quantifiers.
 
-Specifically, given a type $T$, a predicate $Q$ on $T$, and a predicate $P$ on $T$, the __guarded quantifications__ of $P$ relative to $Q$ are these propositions:
+Specifically, given a type $T$, a predicate $Q$ on $T$, and a predicate $P$ on $T$, the __guarded quantifications__ of $P$ relative to $Q$ are these [[propositions]]:
 
-*  $\forall x\colon T, Q(x) \Rightarrow P(x)$,
-*  $\exists x\colon T, Q(x) \wedge P(x)$.
+*  $\underset{x\colon T}{\forall}
+   \big( Q(x) \Rightarrow P(x) \big)$,
 
-We have already had an example of these on this page, in the discussion of the Lawvere quantifiers along a function.
 
-When the notation for $Q$ makes the type $T$ obvious, and especially when the variable appears only at beginning in this notation, it is quite common to suppress mention of $T$ and write $\forall Q(x), P(x)$ and $\exists Q(x), P(x)$.  This is particularly common in untyped theories where $T$ would be suppressed anyway; for example, this is almost always how one writes guarded quantifiers in [[material set theory]].
+*  $\underset{x\colon T}{\exists}
+   \big( Q(x) \wedge P(x) \big)$.
+
+We have already had an example of these on this page, in the discussion of the Lawvere quantifiers along a function ([above](#LawvereQuantifier)).
+
+When the notation for $Q$ makes the type $T$ obvious, and especially when the variable appears only at beginning in this notation, it is quite common to suppress mention of $T$ and write "$\forall Q(x), P(x)$" and "$\exists Q(x), P(x)$".  This is particularly common in untyped theories where the domain type "$T$" would be notationally suppressed anyway; for example, this is almost always how one writes guarded quantifiers in [[material set theory]].
 
 
 ### Bounded quantification: Size issues and predicativity
