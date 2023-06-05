@@ -69,11 +69,35 @@ The [[duality|dual]] notion is an [[over category]].
 
 ## Examples
 
-* $Set_*$, the category of [[pointed set]]s, is the undercategory $pt\downarrow Set$, where $pt \simeq \{\bullet\}$ is [[generalized the|the]] singleton set.
+\begin{example}
+If $0$ is an [[initial object]] in $\mathbf{C}$, then $0\downarrow\mathbf{C}$ is isomorphic to $\mathbf{C}$.
+\end{example}
 
-* If $0$ is an [[initial object]] in $\mathbf{C}$, then $0\downarrow\mathbf{C}$ is isomorphic to $\mathbf{C}$.
+\begin{example}\label{PointedObjects}
+**([[pointed objects]])** \linebreak
 
-* The category of commutative algebras over a field $F$ is the category $F \downarrow$[[CRing]] of commutative rings under $F$.
+If $C$ has a [[terminal object]] $\ast \,\in\, C$, then the coslice $C^{\ast/}$ is known as the category of *[[pointed objects]]* in $C$. For instance:
+
+* the category of [[pointed sets]], is the coslice of [[Set]] under the [[singleton]] set,
+
+* the category of [[pointed topological spaces]] is the coslice of [[Top]] under the [[point space]],
+
+* the category of [[pointed simplicial set]] is the coslice of [[sSet]] under the [[0-simplex]].
+
+
+If $C$ is a [[monoidal category]] with [[tensor unit]] $I \,\in\, C$, then the coslice $C^{I/}$ is also known as the category of *[[pointed objects in a monoidal category]]*. For instance:
+
+
+* the category of [[pointed abelian groups]] is the coslice of [[Ab]] under the additive group of [[integers]],
+
+* the category of [[pointed endofunctors]] is a coslice of and [[endofunctor|endo]]-[[functor category]] under the [[identity functor]].
+
+Generally, for any $c \in C$ one may think of the $c$-coslice category as the category of "$c$-pointed objects".
+\end{example}
+
+\begin{example}
+The category of [[commutative algebras]] over a [[field]] $F$ is the coslice under $F$ of the category [[CRing]] of [[commutative rings]].
+\end{example}
 
 
 
