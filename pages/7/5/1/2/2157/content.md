@@ -171,7 +171,7 @@ Conversely, given $\pi:A'\to k$, the fiber $\pi^{-1}(1)$ naturally acquires a "v
 Note that this definition embeds the category $Aff$ of (inhabited) affine spaces fully-faithfully in the [[slice category]] $Vect/k$.  The objects of $Vect/k$ not in $Aff$ are those of the form $0:V\to k$, which form a category equivalent to $Vect$ itself.  Moreover, there are no morphisms from objects of $Aff$ to objects not in $Aff$; while by the above construction, a morphism from $0:V\to k$ to an affine space $\pi:A'\to k$ is just a map from $V$ to the vector space of displacements of $A$.  Hence, $Vect/k$ is equivalent to the (dual) [[cograph of a functor|cograph]] of $D:Aff\to Vect$.
 
 
-### Closed monoidal structure 
+### Closed monoidal structure {#ClosedMonoidal} 
 
 If we allow affine spaces to be empty, then they are the models of an [[algebraic theory]] $Th_{Aff}$.  Moreover, like $Th_{Vect}$, the theory $Th_{Aff}$ is a [[commutative theory]]. It follows that if $A, B$ are affine spaces, then the set $\hom(A, B)$ is closed under all affine space operations pointwise defined on the set of all functions from $A$ to $B$. This gives $Aff$ a [[closed category]] structure; on general grounds, it is in fact a [[symmetric monoidal closed category]]. The unit of this structure is the terminal or one-pointed affine space $1$, via the natural isomorphism $\hom(1, B) \cong B$. Thus $Aff$ is a closed [[semicartesian monoidal category]]. 
 
