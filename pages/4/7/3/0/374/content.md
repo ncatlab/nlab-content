@@ -161,6 +161,7 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 In [[dependent type theory]], one could also have a [[topological space]] be a general [[type]] instead of an [[h-set]]. For most kinds of topological spaces in dependent type theory, the [[T0-space|$T_0$]]-[[separation axiom]] forces the type to be an h-set. 
 
 ### In dependent type theory
+ {#DependentTypeTheory}
 
 In [[dependent type theory]], given a type $X$, the type of all [[subtypes]] of $X$, the [[powerset]] of $X$, is defined as the [[function type]] 
 $$\mathcal{P}(X) \coloneqq X \to \Omega$$ 
