@@ -33,12 +33,29 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-A **setoid** is a [[set]] equipped with a [[pseudo-equivalence relation]]. In the same way that [[magmoids]] are the raw structure used to build [[semicategories]] and [[pseudo-prosets]] are the raw structure used to build [[categories]], setoids are the raw structure used to build [[dagger categories]] and [[groupoids]] (i.e. a groupoid without associativity, unital laws, and inverse laws). Setoids are also sometimes used in "impoverished" [[foundations of mathematics]] that lack a primitive notion of [[quotient set]]; see for instance *[[Bishop set]]*.
+In [[constructive mathematics]], such as in [[intuitionistic type theory]], the notion of *setoids* &lbrack;[Hofmann (1995)](#Hofmann95)&rbrack; is a formalization of the idea of *[[Bishop sets]]* (following [Bishop (1967)](#Bishop67)) and serves as a way of "constructively" speaking about [[quotient sets]] without, in a sense, actually constructing these: A setoid is essentially a [[set]] equipped with an [[equivalence relation]] or a similar [[structure]] (such as a *[[pseudo-equivalence relation]]*), and thought of as a stand-in for the would-be [[quotient set]] ([[quotient type]]) by that relation.
 
-## Note on terminology
+{#UsageInTheLiterature} Accounts which take setoids to be...
 
-Sometimes, the term "setoid" is used in the mathematics literature for a set equipped with an [[equivalence relation]], rather than a set equipped with a pseudo-equivalence relation. However, in the nLab we shall by default take setoids as those sets equipped with a pseudo-equivalence relation, which is required for the category $Setoid$ to be the [[ex/lex completion]] of $Set$. 
+* ...actual [[equivalence relations]], i.e. $Setoids \coloneqq (X \colon Set) \times (R \colon X \times X \to {\color{purple}Prop}) \times ReflSymTrans(R)$: 
+
+  [Hofmann (1995), §5.1.1](#Hofmann95); [Barthe, Capretta & Pons (2003), §2.1](#BartheCaprettaPons03); [Stacks Project](https://stacks.math.columbia.edu/tag/04S9); [hackage.haskell](https://hackage.haskell.org/package/setoid-0.1.0.0/docs/Data-Setoid.html);  [Wikipedia](https://en.wikipedia.org/wiki/Setoid);
+
+* ...[[pseudo-equivalence relations]], i.e. $Setoids \coloneqq (X \colon Set) \times (R \colon X \times X \to {\color{purple}Set}) \times ReflSymTrans(R)$: 
+
+  [Wilander (2012), §4](#Wilander12); [Palmgren & Wilander (2014), §2, §6](#PalmgrenWilander14); [Emmenegger & Palmgren (2020), §6](#EmmeneggerPalmgren20);  [Cipriano (2020), Def. 1.1.1](#Cipriano20),
+
+* ... either:
+
+  [van den Berg & Moerdijk (2018)](#vdBergMoerdijk18)
+
+Here the definition of setoids in terms of [[equivalence relations]] may be closer to the original intention of [Bishop (1967)](#Bishop67) (though this remains a little vague), while the definition in terms of [[pseudo-equivalence relation]] may feel more natural in [[type theory]] (under [[propositions-as-types]]) and has the pleasant property that it makes the [[category]] of setoids be the [[exact completion]] of [[Set]].
+
+In the same way that [[magmoids]] are the raw structure used to build [[semicategories]] and [[pseudo-prosets]] are the raw structure used to build [[categories]], setoids are the raw structure used to build [[dagger categories]] and [[groupoids]] (i.e. a groupoid without associativity, unital laws, and inverse laws). Setoids are also sometimes used in "impoverished" [[foundations of mathematics]] that lack a primitive notion of [[quotient set]]; see for instance *[[Bishop set]]*.
+
+
 
 ## Definition
 
@@ -200,7 +217,7 @@ If you are willing to accept the [[presentation axiom]], then you can define a n
 
 A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
-## See also 
+## Related concepts
 
 * [[Bishop set]], [[quotient type]]
 
@@ -234,9 +251,9 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 The notion of "[[Bishop sets]]" goes to back the definition of sets in [[constructive mathematics]]/[[constructive analysis]] according to:
 
-* {#Bishop} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, Mcgraw-Hill (1967)
+* {#Bishop67} [[Errett Bishop]], *[[Foundations of Constructive Analysis]]*, Mcgraw-Hill (1967)
 
-* [[Errett Bishop]], [[Douglas Bridges]], p. 15 of:  *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+* {#BishopBridges85} [[Errett Bishop]], [[Douglas Bridges]], p. 15 of:  *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
 The connection to [[dependent type theory]] and the term *setoid* is due to 
 
@@ -244,8 +261,27 @@ The connection to [[dependent type theory]] and the term *setoid* is due to
 
 Survey of further developments:
 
-* Gilles Barthe, Venanzio Capretta, Olivier Pons, *Setoids in type theory*, Journal of Functional Programming **13** 2 (2003) 261-293 &lbrack;[doi:10.1017/S0956796802004501](https://doi.org/10.1017/S0956796802004501)&rbrack;
+* {#BartheCaprettaPons03} [[Gilles Barthe]], Venanzio Capretta, [[Olivier Pons]], *Setoids in type theory*, Journal of Functional Programming **13** 2 (2003) 261-293 &lbrack;[doi:10.1017/S0956796802004501](https://doi.org/10.1017/S0956796802004501)&rbrack;
 
+See also:
+
+* {#Wilander12} [[Olov Wilander]], *Constructing a small category of setoids*, Mathematical Structures in Computer Science **22** 1 (2012) 103-121 &lbrack;[doi:10.1017/S0960129511000478](https://doi.org/10.1017/S0960129511000478), [pdf](http://www.diva-portal.org/smash/get/diva2:399799/FULLTEXT01.pdf)&rbrack;
+
+* {#PalmgrenWilander14} [[Erik Palmgren]], [[Olov Wilander]], *Constructing categories and setoids of setoids in type theory*, Logical Methods in Computer Science, **10** 3 (2014) lmcs:964 &lbrack;[arXiv:1408.1364](https://arxiv.org/abs/1408.1364), <a href="https://doi.org/10.2168/LMCS-10(3:25)2014">doi:10.2168/LMCS-10(3:25)2014</a>&rbrack;
+
+* {#vdBergMoerdijk18} [[Benno van den Berg]], [[Ieke Moerdijk]], *Exact completion of path categories and algebraic set theory: Part I: Exact completion of path categories*, Journal of Pure and Applied Algebra **222** 10 (2018) 3137-3181 &lbrack;[doi:10.1016/j.jpaa.2017.11.017](https://doi.org/10.1016/j.jpaa.2017.11.017)&rbrack;
+
+
+* {#EmmeneggerPalmgren20} [[Jacopo Emmenegger]], [[Erik Palmgren]], *Exact completion and constructive theories of sets*, J. Symb. Log. **85** 2  (2020) &lbrack;[arXiv:1710.10685](https://arxiv.org/abs/1710.10685), [doi:10.1017/jsl.2020.2](https://doi.org/10.1017/jsl.2020.2)&rbrack;
+
+
+* {#Cipriano20} Cioffo Cipriano Junior, Def. 1.1.1 in: *Homotopy setoids and generalized quotient completion* &lbrack;[pdf](https://air.unimi.it/retrieve/d7ab68cc-fc12-4fe9-8a21-617deb888f36/phd_unimi_R12371.pdf), [[Cipriano-HomotopySetoids.pdf:file]]&rbrack;
+
+* hackage.haskell, *[Data-Setoid.html](https://hackage.haskell.org/package/setoid-0.1.0.0/docs/Data-Setoid.html)*
+
+* [[Stacks Project]], *Categories fibred in setoids* &lbrack;[tag:04S9](https://stacks.math.columbia.edu/tag/04S9)&rbrack;
+
+* Wikipedia, *[Setoid](https://en.wikipedia.org/wiki/Setoid)*
 
 
 [[!redirects setoids]]
