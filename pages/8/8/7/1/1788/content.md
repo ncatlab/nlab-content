@@ -1,6 +1,4 @@
 
-[[topological space#DependentTypeTheory]]
-
 #Contents#
 * table of contents
 {:toc}
