@@ -59,6 +59,30 @@ $$\int \; \frac{d x}{y}$$
 
 where $y$ is related to $x$ via an algebraic relation such as $y^2 = x^3 + a x + b$. For suitable such relations these give the various so-called _elliptic integrals_; for more on what this has to do with ellipses, see Wikipedia, e.g., [here](http://en.wikipedia.org/wiki/Elliptic_integral#Incomplete_elliptic_integral_of_the_first_kind). Elliptic functions are then suitable inverses of elliptic integrals, following Jacobi, Abel, and others throughout the nineteenth century (e.g., Weierstrass; see also [[Weierstrass elliptic function]]). 
 
+### Area parametrization 
+
+The way that hyperbolic functions $(\cosh t, \sinh t)$ parametrize the hyperbola $x^2 - y^2 = 1$ is not through an arc length parametrization (the usual way that circular functions $(\cos t, \sin t)$ parametrize the circle $x^2 + y^2 = 1$), but rather through an area parametrization. In fact, both circular and hyperbolic functions may be parametrized in unison through area, as follows. 
+
+Consider, for a parameter $t \in [0, \infty)$, the area $A$ of the planar region which is bounded on three sides by 
+
+* The line segment from $(0, 0)$ to $(1, 0)$, 
+
+* The line segment from $(0, 0)$ to $(\cosh t, \sinh t)$, 
+
+* The arc along the hyperbola $x^2 - y^2 = 1$ that is between the points $(1, 0)$ and $(\cosh t, \sinh t)$. 
+
+Then $t = 2A$ for positive $t$. (Negative $t$ can also be accommodated under this scheme if we consider oriented area.) 
+
+Likewise, consider for a parameter $t \in [0, \pi)$ the area $A$ of the planar region which is bounded on three sides by 
+
+* The line segment from $(0, 0)$ to $(1, 0)$, 
+
+* The line segment from $(0, 0)$ to $(\cos t, \sin t)$, 
+
+* The arc along the circle $x^2 + y^2 = 1$ that is between the points $(1, 0)$ and $(\cos t, \sin t)$. 
+
+Then $t = 2A$. (Other values of $t$ can be accommodated by considering [[orientation]], as well as areas swept out multiple times if need be.) 
+
 ## Related entries
 
 * [[trigonometry]]
