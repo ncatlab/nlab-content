@@ -36,7 +36,7 @@ The cotangent is the [[logarithmic derivative]] of the [[sine function]]:
 
 $$\cot x = (\log (\sin x))'.$$ 
 
-Applying this observation to the Euler-Weierstrass product formula for the sine: 
+Applying this observation to the Euler-Weierstrass [[product formula for the sine function]]: 
 
 $$\sin (\pi x) = \pi x \prod_{n=1}^\infty \left(1 - \frac{x^2}{n^2}\right)$$ 
 
