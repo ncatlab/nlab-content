@@ -291,6 +291,10 @@ Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \
 
   * [[semiadditive dagger category]]
 
+### $\dagger$-2-posets
+
+A [[dagger 2-poset|$\dagger$-2-poset]] is a $\dagger$-category that is also a [[2-poset]]. Examples of $\dagger$-2-posets include [[allegories]] and [[bicategories of relations]]. 
+
 ### Model structure on &#8224;-categories {#ModelStructure}
 
 > the following is based on a remark by [[Andre Joyal]], [posted](https://github.com/punkdit/categories/blob/master/gmane/science/mathematics/categories/5477) to the CategoryTheory mailing list on Jan 5, 2010, with a [follow-up](https://github.com/punkdit/categories/blob/master/gmane/science/mathematics/categories/5487) on Jan 6.
@@ -343,10 +347,6 @@ is the category of [[presheaf|presheaves]] on the category whose objects are the
 #### $\dagger$-Graphs
 
 * [[dagger-graph]]
-
-### $\dagger$-2-posets
-
-A [[dagger 2-poset|$\dagger$-2-poset]] is a $\dagger$-category that is also a [[2-poset]]. Examples of $\dagger$-2-posets include [[allegories]] and [[bicategories of relations]]. 
 
 ###  $(\infty,1)$-&#8224;-categories {##oo1Version}
 
@@ -423,6 +423,10 @@ Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modu
 
 * Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
 ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
+
+Three definitions of an $(\infty, 1)$-$\dagger$-category have been proposed by [[Simon Henry]] in: 
+
+* *$(n,1)$-dagger categories*, MathOverflow, ([web](https://mathoverflow.net/questions/427302/n-1-dagger-categories/427322#427322))
 
 [[!include oidification - table]]
 
