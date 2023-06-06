@@ -72,8 +72,7 @@ $$
     {\sigma_X^* \times \tau_X^*}
     {\longrightarrow} 
   & 
-  [pt \sqcup pt,Y]}
-  \,.
+  [pt \sqcup pt,Y].}
 $$
 
 Here the [[map]] 
@@ -102,9 +101,9 @@ $$
        {\sigma_X^* \times \sigma_Y^*}
        {\longrightarrow}
      &
-     [pt \sqcup pt, Y]
+     [pt \sqcup pt, Y],
   }
-  \,,
+  
 $$
 
 where the morphism 
@@ -118,7 +117,7 @@ $
   \simeq pt \sqcup pt
   \stackrel{\sigma_Y \sqcup \tau_Y}{\to}
   Y
-$
+$. 
 
 ## See also
 
