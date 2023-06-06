@@ -133,6 +133,7 @@ For instance, a one-object [[sSet]]-groupoid (Exp. \ref{SimplicialGroupoid}) is 
 * [[groupoid object in an (∞,1)-category]]
 
 ## References
+ {#References}
 
 The notion of enriched groupoids is [[folklore]], originating in the special case of enrichment over [[sSet]], where it is traditionally discussed, going back to [Dwyer & Kan (1980)](simplicial+groupoid#DwyerKan80), [(1984)](simplicial+groupoid#DwyerKan84), in the guise of [[simplicial objects]] in [[Grpd]] with discrete simplicial set of objects and then referred to (inaccurately) as *[[simplicial groupoids]]* (see there for more).
 
