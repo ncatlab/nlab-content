@@ -1,10 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Remark
 
-This is a small subcollection of my (Tom Mainiero's) personal notes on some functorial aspects of the [[Gelfand-Naimark-Segal construction]] (GNS construction) that have been sitting around for a while.
+This is a small subcollection of my ([[Tom Mainiero]]'s) personal notes on some functorial aspects of the [[Gelfand-Naimark-Segal construction]] (GNS construction) that have been sitting around for a while.
 Please feel free to contribute!
 The ideas here underlie some of the constructs of [Homtools](#Mainiero2019): specifically, one can think of a ``multipartite'' state as a presheaf valued in the category of states (defined below) over a collection of subsystems.
 The GNS representation can then be thought of as a functor that takes us into a "representation-theoretic" category where we can, e.g. compute an associated (co)homology using [[Čech methods]].
@@ -16,7 +31,7 @@ Although $R$ will not appear explicitly in any of the discussion in this section
 \begin{definition}
 Let ${}_{Q}\mathbf{Mod}^{\bullet}$ denote the category with:
 
-* objects given by *pointed left $Q$-modules*: pairs $(M,m)$ of a left $Q$-module $M$ and an element $m \in M$;
+* objects given by *[[pointed module|pointed left $Q$-modules]]*: pairs $(M,m)$ of a left $Q$-module $M$ with an element $m \in M$;
 
 * morphisms given by point preserving intertwiners.
 
@@ -24,7 +39,7 @@ ${}_{Q}\mathbf{Mod}^{\odot}$ is the [[full subcategory]] of ${}_{Q}\mathbf{Mod}^
 \end{definition}
 
 \begin{remark}
-For those that find the notion of a pointed module somewhat awkward, note that: ${}_{Q}\mathbf{Mod}^{\bullet}$ is equivalent to the overcategory ${}_{Q}{Q}/{}_{Q}\mathbf{Mod}$, where ${}_{Q}\mathbf{Mod}$ is the category of left $Q$-modules.
+For those that find the notion of a [[pointed module]] somewhat awkward, note that: ${}_{Q}\mathbf{Mod}^{\bullet}$ is equivalent to the [[coslice category]] ${}_{Q}{Q}/{}_{Q}\mathbf{Mod}$, where ${}_{Q}\mathbf{Mod}$ is the [[category of modules|category of left $Q$-modules]].
 \end{remark}
 
 
@@ -157,12 +172,16 @@ Note that this is at odds with some definitions in the physics literature, where
 Using the definition of "state" here, the zero map $0: E \to \mathbb{C}$ is a perfectly valid state.
 
 
+
 # The GNS construction as a functor on a fixed C$^\ast$-algebra
 
 With an appropriate notion of a "category of states", one can explore functorial properties of the GNS construction as in Arthur Parzygnat's work (see [Parzygnat2016](#Parzygnat2016) and [Parzygnat2018](#Parzygnat2018)).
 
 The construction here is from a slightly different perspective, using a mildly richer category of states based on the natural poset structure on the collection of (normal) states on a fixed $W^\ast$ or $C^\ast$-algebra.
 The posetal relation is intimately related to the notion of a Radon-Nikodym derivative.
+
+
+
 
 ## The category of (normal) states over a fixed (W$^\ast$) C$^\ast$-algebra.
 
@@ -317,13 +336,10 @@ Thus, repeating the observations of [Section](#baby), there is an associated poi
 The functor $\mathsf{L^2} \colon \mathbf{State}(E) \rightarrow \mathbf{Rep}^{\bullet}(E)$ acts on objects by taking a positive linear functional $\omega$ to its corresponding GNS representation, and acts on a morphism $\nu \to \omega$ corresponding the relation $\omega \leq \nu$ by assigning the quotient map $\overline{q}(\omega, \nu) \colon \mathsf{L^{2}} \nu \to \mathsf{L^{2}} \omega$
 \end{definition}
 
-# The GNS construction *without* fixing an algebra
 
-*...To be continued*.
+## References
 
-# References
-
-* {#Mainiero2019} [[Tom Mainiero]], _Homological Tools for the Quantum Mechanic_, ([arXiv:1901.02011](https://arxiv.org/abs/1901.02011))
+* {#Mainiero2019} [[Tom Mainiero]], *Homological Tools for the Quantum Mechanic* (2019) &lbrack;[arXiv:1901.02011](https://arxiv.org/abs/1901.02011), [10.10.11.6/handle/1/1339](http://10.10.11.6/handle/1/1339)&rbrack;
 
 * {#Parzygnat2016} [[Arthur Parzygnat]], _From observables and states to Hilbert space and back: a 2-categorical adjunction_, ([arXiv:1609.08975](https://arxiv.org/abs/1609.08975))
 
