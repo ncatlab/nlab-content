@@ -23,7 +23,7 @@ A *computad* is a formal device (due to [[Ross Street]], 1976) for describing "g
 
 Originally the $n$-categories under consideration were [[strict n-category|strict]], but more recently the concept of $n$-computad has been expanded to take into account weak $n$-categories and other higher-categorical structures.  The notion is tied to [[algebraic definition of higher category|algebraic]] senses of higher categories, but computads can also be used as the input for [[geometric definition of higher category|geometric]] senses as well, and may aid in a comparison between the two approaches.
 
-Computads are also called [[polygraphs]], following [[Burroni]]; this term is especially used in parts of the literature related to [[rewriting]] theory.
+Computads are also called *[[polygraphs]]*, following [[Burroni]]; this term is especially used in parts of the literature related to [[rewriting]] theory.
 
 ## Definition ##
 
