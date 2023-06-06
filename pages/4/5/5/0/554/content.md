@@ -1,4 +1,19 @@
-#Definition#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A **bi-pointed object** in a category $V$ with terminal object $pt$ is a [[co-span]] from $pt$ to itself, i.e. a diagram
 
@@ -15,7 +30,7 @@ $$
 
 Similarly, a [[pointed object]] in a category with initial object $\emptyset$ and terminal object $pt$ is a co-span from $\emptyset$ to $pt$, and if $V$ has in addition binary [[coproduct]]s then a bi-pointed object in $V$ is the same as a [[co-span]] from $\emptyset$ to $pt \sqcup pt$.
 
-#Examples#
+## Examples
 
 * The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[axiom of choice|choice sets]] are bi-pointed objects. 
 
@@ -25,7 +40,7 @@ Similarly, a [[pointed object]] in a category with initial object $\emptyset$ an
 
 * A [[two-valued object]] is an [[initial object|initial]] bi-pointed object.
 
-#Closed structure#
+## Closed structure
 
 From the [[bicategory]] structure on [[co-span]]s in $V$ bi-pointed objects in $V$ naturally inherit the structure of a monoidal category
 
