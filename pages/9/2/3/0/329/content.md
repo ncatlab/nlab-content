@@ -196,7 +196,7 @@ The definition of "[[double categories]]" (of which, at least in hindsight, stri
 
 also discussed (according to [reviewers](https://www.jstor.org/stable/2314770) who have seen the text) in:
 
-* [[Charles Ehresmann]], *Catégories et structures* Dunod, Paris, (1965)
+* [[Charles Ehresmann]], *Catégories et structures*, Dunod, Paris, (1965)
 
 However, Ehresmann did not isolate the notion of strict 2-categories as such.
 
