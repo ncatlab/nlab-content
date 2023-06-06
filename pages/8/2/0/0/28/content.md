@@ -1763,9 +1763,7 @@ See also:
 
 * [[Philip Higgins]], _Presentations of Groupoids, with Applications to Groups_, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
 
-* [[Philip Higgins]], _Categories and Groupoids_, van
-Nostrand, New   York, 1971,Reprints in Theory and Applications of
-Categories, 7 (2005) pp 1--195. ([web] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html))
+* [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
 
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge, 2006. ([web] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
