@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 # Contents
 * table of contents
 {: toc}
@@ -48,6 +46,25 @@ A __poset__ is a set equipped with a partial order.
 A poset is precisely a [[proset]] satisfying the extra condition that 
 $x \leq y \leq x$ implies that $x = y$. 
 
+#### In dependent type theory
+
+In [[dependent type theory]], the identity type $x = y$ representing equality is not necessarily valued in [[h-propositions]]. As a result, a naive translation of the set theoretic definition of a partial order from a preorder above doesn't work. Instead, one has to postulate an [[equivalence of types]] between the identity type $x = y$ and the condition $x \leq y \leq x$: 
+
+A **partial order** is a preorder $X$ with an [[equivalence of types]] $\mathrm{antisym}(x, y):(x =_X y) \simeq (x \lt y) \times (y \lt x)$ for all $x:X$ and $y:X$. 
+
+Equivalently, one could [[inductively define]] a function 
+
+$$x:X, y:X \vdash \mathrm{idToOrd}(x, y):(x =_X y) \to (x \lt y) \times (y \lt x)$$
+
+on reflexivity of the [[identity type]] by reflexivity of the preorder
+
+$$\mathrm{idToSymCon}(x, x)(\mathrm{id}_X(x)) \coloneqq \mathrm{refl}_{\leq}(x)$$
+
+Then, a partial order is a preorder such that the defined function $\mathrm{idToOrd}(x, y)$ is an [[equivalence of types]] for all $x:X$ and $y:X$.
+
+$$\mathrm{antisym}:\prod_{x:X} \prod_{y:X} \mathrm{isEquiv}(\mathrm{idToOrd}(x, y))$$
+
+In either case, since the preorder is valued in propositions, the antisymmetry axiom ensures that the partial order is an [[h-set]]. 
 
 ### As a category with extra properties 
  {#AsACategoryWithExtraProperties}
