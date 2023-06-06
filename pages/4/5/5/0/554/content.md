@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -38,7 +36,7 @@ Similarly, a [[pointed object]] in a category with initial object $\emptyset$ an
 
 * Any [[interval object]] is a bi-pointed object with a [[2-morphism]] connecting the two global elements. 
 
-* A [[two-valued object]] is an [[initial object|initial]] bi-pointed object.
+* The [[boolean domain]] is the [[initial object|initial]] bi-pointed object in [[Set]].
 
 ## Closed structure
 
