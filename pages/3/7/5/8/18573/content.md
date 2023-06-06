@@ -19,7 +19,7 @@
 
 Following [[Øystein Ore]], all binary algebraic structures were soon called *groupoids* (now we say either *binary algebraic structure* or, following [[Bourbaki]]: *[[magma]]*), hence *Brandt groupoids* are in general algebra often viewed as a class of partial groupoids. 
 
-Contemporary notion of a _connected_ [[groupoid]] is informationally equivalent to a Brandt groupoid. Hence Brandt groupoids in the new categorical format, and usually without the connectedness assumption, took over the name in mainstream mathematics, regarding the importance of the notion. Wikipedia simply now redirects Brandt groupoid to [groupoid](https://en.wikipedia.org/wiki/Groupoid).
+Contemporary notion of a _[[connected groupoid|connected]]_ [[groupoid]] is informationally equivalent to a Brandt groupoid. Hence Brandt groupoids in the new categorical format, and usually without the connectedness assumption, took over the name in mainstream mathematics, regarding the importance of the notion. Wikipedia simply now redirects Brandt groupoid to [groupoid](https://en.wikipedia.org/wiki/Groupoid).
 
 +--{: .num_remark #DifferingTerminology}
 ###### Remark
