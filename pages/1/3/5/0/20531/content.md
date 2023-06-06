@@ -75,7 +75,7 @@ for the [[vector field]] on $P$ which is the [[derivative]] of the $G$-[[action]
 
 for all $v \in \mathfrak{g}$.
 
-In this form the definition of basic forms makes sense more generally whenever a [[Cartan calculus]] is given, not necessarily exhibited by smooth vector fields on actual manifolds. This more general concept of basic differential forms appears notably in the construction of the Weil mdoel for [[equivariant de Rham cohomology]].
+In this form the definition of basic forms makes sense more generally whenever a [[Cartan calculus]] is given, not necessarily exhibited by smooth vector fields on actual manifolds. This more general concept of basic differential forms appears notably in the construction of the Weil model for [[equivariant de Rham cohomology]].
 
 ## Related concepts
 
