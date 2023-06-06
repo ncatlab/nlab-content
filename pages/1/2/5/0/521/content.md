@@ -89,7 +89,9 @@ If $C$ is a [[monoidal category]] with [[tensor unit]] $I \,\in\, C$, then the c
 
 * the category of [[pointed abelian groups]] is the coslice of [[Ab]] under the additive group of [[integers]],
 
-* the category of [[pointed modules]] is the coslice of [[Mod]] under the additive group of the [[ground ring]]
+* the category of [[pointed modules]] is the coslice of [[Mod]] under the additive module of the [[ground ring]]
+
+* the category of [[bi-pointed object|bi-pointed sets]] is the coslice of $Set_*$, the [[category of pointed sets]], under the [[boolean domain]]. 
 
 * the category of [[pointed endofunctors]] is a coslice of and [[endofunctor|endo]]-[[functor category]] under the [[identity functor]].
 
