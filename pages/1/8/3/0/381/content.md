@@ -187,6 +187,11 @@ The relationship between strict $\omega$-categories and cubical $\omega$-categor
 where they prove that strict globular $\omega$-categories are equivalent to $\omega$-fold categories (aka "cubical $\omega$-categories") equipped with [[connections]]. This paper also develops the monoidal closed structures. 
 
 * R. Steiner, _Omega-categories and chain complexes_, Homology, Homotopy and Applications __6__(1), 2004, pp.175&#8211;200, [pdf](http://www.intlpress.com/HHA/v6/n1/a12/v6n1a12.pdf)
+
+A direct proof that the category of strict $\omega$-categories is [[monadic]] over the category of [[polygraphs]] is given in:
+
+* [[François Métayer]], _Strict $\omega$-categories are monadic over polygraphs_, Theory and Applications of Categories, Vol. 31, No. 27, 2016, pp. 799-806. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/31/27/31-27abs.html)&rbrack;
+
 [[!redirects strict ∞-category]]
 [[!redirects strict ∞-categories]]
 [[!redirects strict omega-categories]]
