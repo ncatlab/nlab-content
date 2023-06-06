@@ -91,3 +91,9 @@ $
 ## See also
 
 * [[two-valued object]]
+
+[[!redirects bi-pointed object]]
+[[!redirects bi-pointed objects]]
+
+[[!redirects bi-pointed set]]
+[[!redirects bi-pointed sets]]
