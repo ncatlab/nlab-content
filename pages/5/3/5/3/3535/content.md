@@ -1,10 +1,12 @@
 Philip J. Higgins (born 1926, died March 25, 2015) was a British  mathematician, who  worked in areas of algebra and algebraic topology.  He is well known for his book 
 
-* P. J. Higgins, _Categories and groupoids_, [Repr. Theory Appl. Categ., 1 &#8211; 178](http://www.emis.de/journals/TAC/reprints/articles/7/tr7abs.html) (electronic), ISSN 
-1201-561X, reprint of the 1971 original _Notes on categories and groupoids_, (Van Nostrand 
-Reinhold, London; MR0327946) with a new preface by the author. 
+## Selected writings
 
-and for his long standing collaboration with [[Ronnie Brown]] on [[nonabelian algebraic topology]], see [here](http://groupoids.org.uk/nonab-a-t.html).
+On [[categories]] and [[groupoids]]:
+
+* [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
+
+For his long standing collaboration with [[Ronnie Brown]] on [[nonabelian algebraic topology]], see [here](http://groupoids.org.uk/nonab-a-t.html).
 
 His earlier paper
 
