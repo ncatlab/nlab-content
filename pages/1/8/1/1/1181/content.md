@@ -309,6 +309,14 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
 
+Natural numbers as a [[classifying space|classifying object]] for *dinatural numbers*:
+
+* [[Robert Paré]] and [[Leopoldo Román]], _Dinatural numbers_, Journal of Pure and Applied Algebra, Vol. 128, No. 1, 1998, pp. 33-92. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00036-4">doi:10.1016/S0022-4049(97)00036-4</a>&rbrack; 
+
+In [[monoidal categories]]: 
+
+* [[Robert Paré]] and [[Leopoldo Román]], _Monoidal categories with natural numbers object_, Studia Logica, Vol. 48, 1989, pp. 361-376. &lbrack;[doi:10.1007/BF00370829](https://doi.org/10.1007/BF00370829)&rbrack;
+
 In [[elementary (infinity,1)-toposes|elementary $(\infty,1)$-toposes]]:
 
 * [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, Theory and Applications of Categories **37** 13 (2021) 337-377.  ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734), [tac:37-13](http://www.tac.mta.ca/tac/volumes/37/13/37-13abs.html))
