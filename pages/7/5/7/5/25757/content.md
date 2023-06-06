@@ -14,10 +14,12 @@ and this is what we shall prove, below.
 
 ## Proof 
 
-Various proofs are known, some relating the product formula to the theory of the Gamma function, some using complex analysis, among others. Below we prove the corresponding identity for the cotangent (stated above), using an ingenious argument due to Herglotz. 
+Various proofs are known, some relating the product formula to the theory of the Gamma function, some using complex analysis, among others. Below we prove the corresponding identity for the [[cotangent]] (stated above), using an ingenious argument due to Herglotz. 
 
-\begin{lemma} {#OrderOfZero} $\underset{x \to 0}{\lim} \pi \cot \pi x - \frac1{x} = 0$. 
-\end{lemma} 
++-- {: .num_theorem #OrderOfZero} 
+###### Lemma 
+$\underset{x \to 0}{\lim} \pi \cot \pi x - \frac1{x} = 0$. 
+=-- 
 
 \begin{proof} In the right-hand side of the equation 
 
