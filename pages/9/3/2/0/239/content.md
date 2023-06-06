@@ -134,6 +134,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
   * [[inductive tensor product]]
 
+* [[smash product]] of [[pointed sets]]
+
 * [[tensor product of representations]]
 
 * [[tensor product of vector bundles]]
