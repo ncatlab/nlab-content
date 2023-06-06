@@ -9,11 +9,12 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Definition
 
-A **bi-pointed object** in a category $V$ with terminal object $pt$ is a [[co-span]] from $pt$ to itself, i.e. a diagram
+In evident variation of the notion of *[[pointed objects]]*, a **bi-pointed object** in a [[category]] $V$ with [[terminal object]] $pt$ is a [[co-span]] from $pt$ to itself, i.e. a [[diagram]] of this form:
 
 $$
   \array{
@@ -26,7 +27,9 @@ $$
   \,.
 $$
 
-Similarly, a [[pointed object]] in a category with initial object $\emptyset$ and terminal object $pt$ is a co-span from $\emptyset$ to $pt$, and if $V$ has in addition binary [[coproduct]]s then a bi-pointed object in $V$ is the same as a [[co-span]] from $\emptyset$ to $pt \sqcup pt$.
+Similarly, a [[pointed object]] in a category with [[initial object]] $\varnothing$ and terminal object $pt$ may be regarded as a co-span from $\varnothing$ to $pt$. 
+
+If $V$ has in addition binary [[coproducts]] then a bi-pointed object in $V$ is the same as a [[co-span]] from $\varnothing$ to to the [[coproduct]] $pt \sqcup pt$.
 
 ## Examples
 
@@ -56,16 +59,24 @@ of bipointed objects $X$ and $Y$ defined as the pullback
 $$
 \array{ 
   {}_{pt}[X,Y]_{pt} 
-   & \rightarrow & pt \sqcup pt\\
-  \downarrow && \downarrow^{\sigma_Y \sqcup \tau_Y}
+   & \longrightarrow & 
+  pt \sqcup pt
   \\
-  [X,Y] & 
-  \stackrel{\sigma_X^* \times \tau_X^*}
-  {\rightarrow} & [pt \sqcup pt,Y]}
+  \Big\downarrow 
+    && 
+  \Big\downarrow\mathrlap{{}^{\sigma_Y \sqcup \tau_Y}}
+  \\
+  [X,Y] 
+  & 
+  \underset
+    {\sigma_X^* \times \tau_X^*}
+    {\longrightarrow} 
+  & 
+  [pt \sqcup pt,Y]}
   \,.
 $$
 
-Here the map 
+Here the [[map]] 
 $pt \sqcup pt \stackrel{\sigma_Y \sqcup \tau_Y}{\to} 
 [pt \sqcup pt,Y]$ 
 is [[adjunct]] to 
@@ -76,13 +87,21 @@ This $V$-object ${}_{pt}[X,Y]_{pt}$ is itself naturally bi-pointed with the bi-p
 
 $$
   \array{
-     pt \sqcup pt &\stackrel{Id}{\to}& pt \sqcup pt
+     pt \sqcup pt 
+     &
+       \overset{Id}{\longrightarrow}& 
+     pt \sqcup pt
      \\
-     \downarrow^{\sigma_X \sqcup \sigma_X} 
-     && \downarrow^{\sigma_Y \sqcup \tau_Y}
+     \Big\downarrow\mathrlap{{}^{\sigma_X \sqcup \sigma_X}}
+     && 
+     \Big\downarrow\mathrlap{{}^{\sigma_Y \sqcup \tau_Y}}
      \\
      [X,Y]
-     &\stackrel{\sigma_X^* \times \sigma_Y^*}{\to}&
+     &
+     \underset
+       {\sigma_X^* \times \sigma_Y^*}
+       {\longrightarrow}
+     &
      [pt \sqcup pt, Y]
   }
   \,,
@@ -102,6 +121,8 @@ $
 $
 
 ## See also
+
+* [[pointed object]]
 
 * [[two-valued object]]
 
