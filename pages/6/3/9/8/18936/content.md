@@ -46,4 +46,5 @@ See also
 
 * Wikipedia, _[Factorial](https://en.wikipedia.org/wiki/Factorial)_
 
-[[!redirects factorials]]
+[[!redirects factorials]] 
+[[!redirects factorial function]] 
