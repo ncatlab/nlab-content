@@ -295,7 +295,7 @@ Original discussion includes
 
 * {#Grothendieck64} [[Alexander Grothendieck]], _Le groupe de Brauer: II. Th&#233;ories cohomologiques_. S&#233;minaire Bourbaki, 9 (1964-1966), Exp. No. 297, 21 p. ([Numdam](http://www.numdam.org/item?id=SB_1964-1966__9__287_0))
 
-* {#Grothendieck68} [[Alexandre Grothendieck]], _Le groupe de Brauer_, Dix expos&#233;s sur la cohomologie des sch&#233;mas_, Masson and North-Holland, Paris and Amsterdam, (1968), pp. 46&#8211;66.
+* {#Grothendieck68} [[Alexandre Grothendieck]], _Le groupe de Brauer_, _Dix expos&#233;s sur la cohomologie des sch&#233;mas_, Masson and North-Holland, Paris and Amsterdam, (1968), pp. 46&#8211;66.
 
 
 An introduction is in
