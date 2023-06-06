@@ -1,4 +1,5 @@
-> This article is about the notion prevalent in [[category theory]] and [[homotopy theory]], also known as a [[Brandt groupoid]] ([Brandt 27](#Brandt27)). For the notion involving a globally defined binary operation, see [[magma]].
+
+> This page is about the notion of *groupoids* prevalent in [[category theory]] and [[homotopy theory]], also known as *[[Brandt groupoids]]* ([Brandt (1927)](#Brandt27)). For the notion involving a globally defined binary operation, see *[[magma]]*.
 
 
 +-- {: .rightHandSide}
@@ -1732,12 +1733,23 @@ The disadvantage of the simplicial approach is the difficulty of describing mult
 
 [[!include oidification - table]]
 
+
+
 \section{References}
 
-An early occurence of the concept is (see also _[[Brandt groupoid]]_):
+Apparently the earliest occurence of the concept of groupoids (see also _[[Brandt groupoid]]_):
 
-* {#Brandt27} H. Brandt, _&#220;ber eine Verallgemeinerung des Gruppenbegriffes_, Mathematische Annalen, (1927) 96 (1): 360&#8211;366, [doi:10.1007/BF01209171](https://doi.org/10.1007%2FBF01209171)
+* {#Brandt27} [[Heinrich Brandt]], *Über eine Verallgemeinerung des Gruppenbegriffes*, Mathematische Annalen **96** 1 (1927) 360-366 &lbrack;[doi:10.1007/BF01209171](https://doi.org/10.1007%2FBF01209171)&rbrack;
 
+
+Further early discussion:
+
+* [[George W. Mackey]], §11 of: *Ergodic theory and virtual groups*, Mathematische Annalen **166** (1966) 187–207 &lbrack;[doi:10.1007/BF01361167](https://doi.org/10.1007/BF01361167)&rbrack;
+
+* [[Philip Higgins]], *Presentations of Groupoids, with Applications to Groups*, Proc. Camb. Phil. Soc., **60** (1964) 7-20 &lbrack;[doi;10.1017/S0305004100037397](https://doi.org/10.1017/S0305004100037397)&rbrack;
+
+* [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
+     
 
 A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]) is in
 
@@ -1745,7 +1757,7 @@ A motivation and introduction of the concept of groupoid and a tour of examples 
 
 Further exposition:
 
-* [[Ronnie Brown]], _From groups to groupoids: A brief survey_, at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf), Bulletin of the London Mathematical Society 19(2):113-134, [doi](https://doi.org/10.1112/blms/19.2.113)
+* [[Ronnie Brown]], *From groups to groupoids: A brief survey*, at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, Bulletin of the London Mathematical Society **19** 2 (1987) 113-134 &lbrack;[doi:10.1112/blms/19.2.113](https://doi.org/10.1112/blms/19.2.113), [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf)&rbrack;
 
 * [[Introduction to Topology -- 2]], *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*
 
@@ -1760,10 +1772,6 @@ With an eye towards [[homotopy theory]]:
 
 
 See also:
-
-* [[Philip Higgins]], _Presentations of Groupoids, with Applications to Groups_, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
-
-* [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
 
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge, 2006. ([web] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
