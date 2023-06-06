@@ -19,6 +19,10 @@ On [[set theory]] in [[constructive mathematics]] via [[Bishop sets]] and constr
 
 * [[Erik Palmgren]], *Bishop-style constructive mathematics in type theory -- a tutorial* (2013) &lbrack;[pdf](https://staff.math.su.se/palmgren/Palmgren_Nis.pdf), [[Palmgren-BishopConstructiveMathematics.pdf:file]]&rbrack;
 
+On [[setoids]]:
+
+* {#PalmgrenWilander14} [[Erik Palmgren]], [[Olov Wilander]], *Constructing categories and setoids of setoids in type theory*, Logical Methods in Computer Science, **10** 3 (2014) lmcs:964 &lbrack;[arXiv:1408.1364](https://arxiv.org/abs/1408.1364), <a href="https://doi.org/10.2168/LMCS-10(3:25)2014">doi:10.2168/LMCS-10(3:25)2014</a>&rbrack;
+
 
 On [[FOLDS]]:
 
