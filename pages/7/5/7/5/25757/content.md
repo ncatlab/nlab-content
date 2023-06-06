@@ -47,7 +47,7 @@ Taking the limit as $N \to \infty$, the result follows.
 \begin{proof} The oddness and periodicity assertions are obvious, as is continuity at points $x \notin \mathbb{Z}$. Continuity at points $x \in \mathbb{Z}$ follows from Lemma \ref{OrderOfZero} and periodicity. 
 \end{proof} 
 
-Now we prove the cotangent identity: 
+Now we prove the cotangent identity, following the notations of the previous two lemmas: 
 
 \begin{proof} By continuity and periodicity, $h(x)$ attains a maximum value $M$, say at $x_0$. Since $h\left(\frac{x}{2}\right) + h\left(\frac{x+1}{2}\right) = 2h(x)$ by Lemma 2, $h\left(\frac{x_0}{2}\right) = M$ follows (else, $h\left(\frac{x_0}{2}\right) \lt M$ implies $h\left(\frac{x_0+1}{2}\right) \gt M$). By iterating, $h\left(\frac{x_0}{2^m}\right) = M$ for all $m$. By continuity, 
 
