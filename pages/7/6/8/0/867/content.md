@@ -245,7 +245,6 @@ On posets that are [[cofibrant objects]] in the Thomason model structure:
 
 * [[Roman Bruckner]], *Abstract Homotopy Theory and the Thomason Model Structure*, PhD thesis, Bremen 2016 &lbrack;[gbv:46-00105527-15](http://nbn-resolving.de/urn:nbn:de:gbv:46-00105527-15), [pdf](https://media.suub.uni-bremen.de/bitstream/elib/1120/1/00105527-1.pdf)&rbrack;
 
-
 [[!redirects poset]]
 [[!redirects posets]]
 [[!redirects partial orders]]
