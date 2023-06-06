@@ -193,7 +193,7 @@ Given a [[Tarski universe]] $(U, \mathrm{El}_U)$, a **[[topological space]]** is
 
 Given a topological space $(X, O(X))$, we define the membership [[relation]] between elements $x:X$ and open sets $V:O(X)$:
 
-$$x:X, V:O(X) \vdash x \in U \; \mathrm{type}$$ 
+$$x:X, V:O(X) \vdash x \in V \; \mathrm{type}$$ 
 
 by 
 
