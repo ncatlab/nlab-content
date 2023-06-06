@@ -73,4 +73,5 @@ A textbook account is in section I.2 of
 [[!redirects inductive definition]]
 [[!redirects inductive definitions]]
 
+[[!redirects inductively define]]
 [[!redirects inductively defined]]
