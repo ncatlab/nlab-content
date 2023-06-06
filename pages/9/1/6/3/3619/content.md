@@ -183,7 +183,8 @@ The following work included the consideration of identical particles into the st
 
 Use of [[homological algebra]] for quantifying entanglement:
 
-* Tom Mainiero, _Homological Tools for the Quantum Mechanic_ ([arXiv:1901.02011](https://arxiv.org/abs/1901.02011))
+* {#Mainiero2019} [[Tom Mainiero]], *Homological Tools for the Quantum Mechanic* (2019) &lbrack;[arXiv:1901.02011](https://arxiv.org/abs/1901.02011), [10.10.11.6/handle/1/1339](http://10.10.11.6/handle/1/1339)&rbrack;
+
 
 category: physics
 
