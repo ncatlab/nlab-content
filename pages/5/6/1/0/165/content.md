@@ -62,7 +62,7 @@ Grothendieck writes in his 1984 [[Esquisse d'un Programme]] (English translation
 
 Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{x\})$ is simply  the [[fundamental group]] $\pi_1(X,x)$. 
 
- Basically, $\Pi_1(X,A)$  allows for the _computation of homotopy 1-types_; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These accounts show  the use of the algebra of  groupoids in 1-dimensional   [[homotopy theory]], for example for [[covering space]]s,  and, in the later edition,  for [[orbit space]]s. Another text in English which covers this notion is  by Philip Higgins, see below.   
+ Basically, $\Pi_1(X,A)$  allows for the _computation of homotopy 1-types_; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These accounts show  the use of the algebra of  groupoids in 1-dimensional  [[homotopy theory]], for example for [[covering space]]s,  and, in the later edition,  for [[orbit spaces]]. spring
 
 
 
@@ -96,6 +96,10 @@ See [[simplicial fundamental groupoid]].
 
 ## References
 
+Monograph:
+
+* [[Philip J. Higgins]], §6 of: *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
+
 Review and Exposition:
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[arXiv:1106.5650](https://arxiv.org/abs/1106.5650), [pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
@@ -120,9 +124,6 @@ groupoid, _Cah. Top. G\'eom. Diff. Cat_. 36 (1995) 345-369.
 
 * {#Brown06} [[Ronnie Brown]], _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
-Relations with [[group theory]]:
-
-* P.J. Higgins, _Notes on Categories and Groupoids_, Mathematical  Studies, Volume 32. Van Nostrand Reinhold Co. London (1971); _Reprints in Theory and Applications of   Categories_, No. 7 (2005) pp 1--195.
 
 Discussion from the point of view of [[Galois theory]] is in
 
@@ -136,9 +137,9 @@ Discussion of the fundamental groupoid (for good [[topological spaces]] and for 
 
 * {#Pirashvili14b} [[Ilia Pirashvili]], _The &#201;tale Fundamental Groupoid as a Terminal Costack_ ([arXiv:1412.5473](https://arxiv.org/abs/1412.5473))
 
- A recent paper in the area of dynamical systems which uses  fundamental groupoids on many base points   is:
+Discussion in the context of [[dynamical systems]]:
 
-* Paul, E. and Ramis, J.-P. Dynamics on Wild Character Varieties, _SIGMA_ 11 (2015), 068, 21 pages. arXiv:1508.03122. 
+* Emmanuel Paul, Jean-Pierre Ramis, *Dynamics on Wild Character Varieties*, _SIGMA_ **11** (2015) 068 &lbrack;[arXiv:1508.03122](https://arxiv.org/abs/1508.03122), [doi:10.3842/SIGMA.2015.068](https://doi.org/10.3842/SIGMA.2015.068)&rbrack;
 
 [[!redirects fundamental groupoid]]
 [[!redirects fundamental groupoids]]
