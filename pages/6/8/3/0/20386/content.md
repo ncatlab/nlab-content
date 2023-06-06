@@ -44,13 +44,17 @@ one obtains the following summation formula for the cotangent:
 
 $$\pi\, \cot (\pi x) = \frac1{x} + \sum_{n=1}^\infty \left(\frac1{x + n} + \frac1{x - n}\right)$$ 
 
-This expansion was used by Eisenstein as a starting point for developing the theory of trigonometric functions; Eisenstein's account of elliptic functions, developed further by Weierstrass, Kronecker, and others, runs parallel to his trigonometric theory, as explained later by Weil. For some more details, see these [notes](#vsv) by Varadarajan. 
+This expansion was used by Eisenstein as a starting point for developing the theory of trigonometric functions; Eisenstein's account of elliptic functions (cf. the eponymous [[Eisenstein series]]), developed further by Weierstrass, Kronecker, and others, runs parallel to his trigonometric theory, as explained later by Weil. For some more details, see these [notes](#vsv) by Varadarajan. 
 
 ## Related concepts
 
 * [[tangent function]]
 
 * [[trigonometric identity]]
+
+* [[Eisenstein series]] 
+
+* [[product formula for the sine function]]
 
 ## References
 
