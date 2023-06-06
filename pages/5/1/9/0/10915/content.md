@@ -103,7 +103,7 @@ $$\pi= 2\times\frac{2}{\sqrt{2}}\times
 \frac{2}{\sqrt{2+\sqrt{2+\sqrt{2}}}}\times\frac{2}{\sqrt{2+\sqrt{2+\sqrt{2+\sqrt{2}}}}}\times\cdots$$ 
 This was perhaps the first [[infinite product]] in the history of mathematics. 
 
-  * Euler's product formula: 
+  * Euler's [[product formula for the sine function|product formula]]: 
 $$\sin(x) = x \prod_{n \geq 1} (1 - \frac{x^2}{\pi^2 n^2})$$ 
 One point is that putting $x = \frac{\pi}{2}$, one can derive another famous formula, namely 
 
