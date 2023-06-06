@@ -1,6 +1,24 @@
-### History
 
-H. Brandt axiomatically introduced in 1927 a class of partial binary algebraic structures and called them groupoids (German Gruppoid). Following Oystein Ore, all binary algebraic structures were soon called groupoids (now we say either binary algebraic structure or, following Bourbaki, a [[magma]]), hence Brandt groupoid is in general algebra often viewed as a class of partial groupoids. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## History
+
+[Brandt (1927)](#Brandt27) introduced (long before the notion of *[[category]]* was formulated) a class of partial binary algebraic structures and called them *[[groupoids]]* (German: *Gruppoide*). 
+
+Following [[Øystein Ore]], all binary algebraic structures were soon called *groupoids* (now we say either *binary algebraic structure* or, following [[Bourbaki]]: *[[magma]]*), hence *Brandt groupoids* are in general algebra often viewed as a class of partial groupoids. 
+
 Contemporary notion of a _connected_ [[groupoid]] is informationally equivalent to a Brandt groupoid. Hence Brandt groupoids in the new categorical format, and usually without the connectedness assumption, took over the name in mainstream mathematics, regarding the importance of the notion. Wikipedia simply now redirects Brandt groupoid to [groupoid](https://en.wikipedia.org/wiki/Groupoid).
 
 +--{: .num_remark #DifferingTerminology}
@@ -10,7 +28,7 @@ In older literature, the specific class of groupoids, a [[codiscrete groupoid]] 
 
 =--
 
-### Definition
+## Definition
 
 A __Brandt groupoid__ $(M,\cdot)$ is a set with a partially defined binary operation $\cdot$ such that
 
@@ -20,17 +38,23 @@ A __Brandt groupoid__ $(M,\cdot)$ is a set with a partially defined binary opera
 1. (connectedness) if $e$ and $f$ are idempotents, then there is $m$ such 
 that $e\cdot m\cdot f$ is defined
 
-### Properties
+## Properties
 
 The first three properties imply that the idempotents $e$ in $M$ are precisely the left units of all elements $a$ such that $e\cdot a$ is defined; they are also precisely the right units of all elements $b$ such that $b\cdot e$ is defined.
 
 If $(M,\cdot)$ is a Brandt groupoid then the set $M\coprod \{0\}$ can be made into an [[inverse semigroup]] by extending $\cdot$ so that the multiplication of any element with $0$ is $0$ and the product of any two elements in $M$ whose product was undefined is also $0$. Semigroups of that kind are called Brandt semigroups. 
 
-### Literature
+## Literature
 
-* {#Brandt27} H. Brandt, _&#220;ber eine Verallgemeinerung des Gruppenbegriffes_, Mathematische Annalen, (1927) 96 (1): 360&#8211;366, [doi:10.1007/BF01209171](https://doi.org/10.1007%2FBF01209171)
-* G. B. Preston, _Congruences on Brandt semigroups_, Mathematische Annalen __139__:2 (1959) 91&#8211;94 [doi](http://dx.doi.org/10.1007/BF01354867)
+* {#Brandt27} [[Heinrich Brandt]], _Über eine Verallgemeinerung des Gruppenbegriffes_, Mathematische Annalen **96** 1 (1927) 360-366 &lbrack;[doi:10.1007/BF01209171](https://doi.org/10.1007%2FBF01209171)&rbrack;
+
+* G. B. Preston, _Congruences on Brandt semigroups_, Mathematische Annalen __139__:2 (1959) 91-94 &lbrack;[doi:10.1007/BF01354867](http://dx.doi.org/10.1007/BF01354867)&rbrack;
+
+
 * A. H. Clifford, _Matrix representations of completely simple semigroups_
 Amer. J. Math. 64, 327--342 (1942). 
 
+[[!redirects Brandt groupoids]]
+
 [[!redirects Brandt semigroup]]
+
