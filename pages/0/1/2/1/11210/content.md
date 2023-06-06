@@ -33,3 +33,8 @@ This is reprinted with other essays in
 * [[Mackey functor]]
  
 category: people
+
+
+[[!redirects George W. Mackey]]
+
+
