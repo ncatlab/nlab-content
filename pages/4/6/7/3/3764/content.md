@@ -198,7 +198,7 @@ $$
 A [[C*-algebra]] $\mathcal{A}$ is a $C^\ast$-category with a single [[object]] $\bullet$, where we make the identification $A = \mathcal{A}(\bullet,\bullet)$. In this case the theorem reduces to the classical GNS construction.
 
 ## Functorial Aspects
-See [[Functorial Aspects of the GNS Representation]]
+See *[[Functorial Aspects of the GNS Representation]]*.
 
 ## Related concepts
 
