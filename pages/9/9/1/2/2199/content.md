@@ -18,7 +18,7 @@ A __boolean variable__ $x$ is a variable that takes its value in a boolean domai
 
 An [[element]] of $\mathbb{B}$ is a __[[binary digit]]__, or __bit__.
 
-The boolean domain is the initial set with two elements. It is also the initial set with an element and an [[involution]]. 
+The boolean domain is the initial set with two elements. It is also the initial set with an element and an [[involution]]. It is also the [[tensor unit]] for the [[smash product]] in the [[monoidal category]] of [[pointed sets]]. 
 
 \begin{remark}
 **(relation to boolean algebra)**
