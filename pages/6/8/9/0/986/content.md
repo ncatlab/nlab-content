@@ -56,28 +56,6 @@ is the identity function at the level of sets, and is continuous because any ope
 
 This [[adjunction]] restricts to an [[adjoint equivalence]] between the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
 
-## In dependent type theory
-
-In [[dependent type theory]], given a type $X$, the type of [[subtypes]] of $X$ is the [[function type]] $X \to \Omega$, where $\Omega$ is the [[type of all propositions]] with the type reflector type family $P:\Omega \vdash \mathrm{El}_\Omega(P) \; \mathrm{type}$. 
-
-Given a [[type universe]] $\mathrm{Type}$, a [[topological space]] is a type $X$ with a type of subtypes $O(X)$ with canonical [[embedding]] $i_O:O(X) \hookrightarrow (X \to \Omega)$, called the open sets of $X$, which are closed under finite intersections and $\mathrm{Type}$-[[small type|small]] unions. 
-
-Given a topological space $(X, O(X))$, we define the [[relation]] 
-
-$$x:X, U:O(X) \vdash x \in U \; \mathrm{type}$$ 
-
-by 
-
-$$x \in U \coloneqq \mathrm{El}_\Omega((i_O(U))(x))$$
-
-By definition of the type of all propositions and its type reflector, $x \in U$ is always a [[h-proposition]] for all $x:X$ and $U:O(X)$. 
-
-The **specialization order** is given by the type 
-
-$$x \leq y \coloneqq \prod_{U:O(X)} (x \in U) \to (y \in U)$$
-
-In plain English, $x \leq y$ whenever for all open sets $U$ in $O(X)$, if $x$ is in $U$, then $y$ is in $U$. 
-
 ## Related entries
 
 * [[finite topological space]]
