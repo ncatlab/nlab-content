@@ -67,6 +67,8 @@ An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] 
 * An example of a pretopos that is not a [[topos]] is the [[category]]
 of [[compact Hausdorff spaces]] ([MarraReggio](#MarraReggio)).
 
+* An example of a Boolean pretopos that is not [[cartesian closed category|cartesian closed]] is the category of finite or countably infinite sets (cf. [[Elephant]] p.54).
+
 * In [[dependent type theory]], a [[univalent universe]] where every type in the universe satisfies [[axiom K]] and is closed under the [[empty type]], [[unit type]], [[sum types]], [[dependent sum types]], [[product types]], [[propositional truncations]], and [[quotient sets]] is a pretopos. 
   * the universe becomes an [[arithmetic pretopos]] if it is closed under a parameterized [[natural numbers type]]
   * the universe becomes a Heyting pretopos if the universe is closed under [[dependent product types]] for families of [[mere propositions]], or equivalently, if it is closed under types of [[embeddings]]
