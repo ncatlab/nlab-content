@@ -23,7 +23,7 @@
 ## Quotes
  {#Quotes}
 
-On education:
+{#OnEducation} On education:
 
 From *[Free Thought and Official Propaganda](https://www.gutenberg.org/files/44932/44932-h/44932-h.htm)* (1922):
 
