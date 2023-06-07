@@ -81,7 +81,7 @@ In [[microlocal analysis]] the _[[wave front set]]_ of a [[distribution]] record
 
 ## Related concepts
 
-* [[slope of a line]]
+* [[slope of a line]], [[tangent]]
 
 * [[norm]], [[length]], [[absolute value]]
 
