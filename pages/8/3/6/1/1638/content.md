@@ -171,7 +171,7 @@ The following more recent papers are referred to above:
 
 * [[Richard Garner]], [Homomorphisms of higher categories](http://arxiv.org/abs/0810.4450).
 
-* [[Simon Henry]], [Non-unital polygraphs form a presheaf categories](https://arxiv.org/abs/1711.00744), 2017
+* [[Simon Henry]], [Non-unital polygraphs form a presheaf category](https://arxiv.org/abs/1711.00744), 2017
  {#Henry17}
 
 One should beware that there are some erroneous claims in some of Batanin's papers; in particular the claim that computads relative to a globular operad are *always* a presheaf category.  This was explicitly shown to be false in
