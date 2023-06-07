@@ -1,5 +1,5 @@
 
-> This entry is about [[tangent vectors]] on [[differentiable manifolds]] and the [[bundle]] they form. For the [[tangent function]] see there.
+> This entry is about [[tangent vectors]] on [[differentiable manifolds]] and the [[bundle]] they form. For *[[tangents]]* and the *[[tangent function]]* see there.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -993,6 +993,8 @@ There are useful categories of [[generalized smooth space]]s which are neither c
 See [[Frölicher space]] and [[diffeological space]] for the definitions in their context.
 
 ## Related concepts
+
+* [[tangent]]
 
 * [[synthetic tangent bundle]], [[kinematic tangent bundle]], [[operational tangent bundle]]
 
