@@ -43,6 +43,8 @@ $$(-1)^{k-1} B_{2k} = \frac{2k \cdot E_{2k-1}}{2^{2k}(2^{2k} - 1)}.$$
 
 ## Related concepts
 
+* [[tangent]]
+
 * [[cotangent function]]
 
 * [[arctan]]
