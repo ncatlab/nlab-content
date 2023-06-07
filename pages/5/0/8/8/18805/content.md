@@ -41,7 +41,7 @@
         "right": 15, 
         "left": 0
     },
-    "caption": "From [Mathnet](#Mathnet)"
+    "caption": "From [math.net](#Mathnet)"
 \end{imagefromfile}
 
 **In [[trigonometry]]** one considers such tangents in the [[Euclidean plane]] for the case that the [[curve]] is a unit [[circle]]. Here the tangent to a point on the circle may also be understood as the unique straight line through that point which makes a [[right angle]] with the "radial" line through that point and the center of the circle.
@@ -96,7 +96,7 @@ See also:
 
 * Wikipedia, *[Tangent](https://en.wikipedia.org/wiki/Tangent)*
 
-* {#Mathnet} Mathnet, *[tangent](https://www.math.net/tangent)*
+* {#Mathnet} math.net, *[tangent](https://www.math.net/tangent)*
 
 category: disambiguation
 
