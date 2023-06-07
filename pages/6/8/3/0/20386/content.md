@@ -32,7 +32,7 @@ $$
 
 ### Relations with tangent function 
 
-* The cotangent and tangent are reciprocal to each other: $\cot x = \frac1{\tan x}$.  
+* The cotangent and [[tangent function|tangent]] are reciprocal to each other: $\cot x = \frac1{\tan x}$.  
 
 * The cotangent and tangent are complementary to each other: $\cot x = \tan (\frac{\pi}{2} - x)$. 
 
@@ -44,7 +44,7 @@ The [[hyperbolic functions|hyperbolic]] analog $\coth x = \frac{e^x + e^{-x}}{e^
 
 $$\cot x = i\coth i x.$$
 
-Meanwhile $\coth x$ is related to the [[Bernoulli numbers]] $B_n$, defined by the exponential generating function 
+Meanwhile $\coth x$ is related to the [[Bernoulli numbers]] $B_n$, defined by the [[exponential generating function]] 
 
 $$\frac{x}{e^x - 1} = \sum_{n \geq 0} \frac{B_n x^n}{n!},$$ 
 
@@ -81,13 +81,13 @@ This expansion was used by Eisenstein as a starting point for developing the the
 \begin{proposition} 
 The power series identity 
 
-$$\pi x \cot \pi x = 1 - 2\sum_{k \geq 0} \zeta(2k) x^{2k}$$ 
+$$\pi x \cot \pi x = 1 - 2\sum_{k \geq 1} \zeta(2k) x^{2k}$$ 
 holds over an open domain where the series converges, ${|x|} \lt 1$. 
 \end{proposition} 
 
 \begin{proof} 
 From the Eisenstein expansion, we have  
-$$\pi\, \cot (\pi x) = \frac1{x} + \sum_{n=1}^\infty \left(\frac1{x + n} + \frac1{x - n}\right) = 1 + \sum_{n \geq 0} \frac{2x^2}{x^2 - n^2} = 1 - 2\sum_{n \geq 1} \frac{x^2/n^2}{1 - x^2/n^2}.$$
+$$\pi x\, \cot (\pi x) = x\, \left(\frac1{x} + \sum_{n=1}^\infty \left(\frac1{x + n} + \frac1{x - n}\right)\right) = 1 + \sum_{n \geq 0} \frac{2x^2}{x^2 - n^2} = 1 - 2\sum_{n \geq 1} \frac{x^2/n^2}{1 - x^2/n^2}.$$
 By a geometric series expansion, the last expression is 
 
 $$1 - 2\sum_{n \geq 1} \sum_{k \geq 1} \left(\frac{x^2}{n^2}\right)^k = 1 - 2\sum_{k \geq 1} x^{2k} \sum_{n \geq 1} \frac1{n^{2k}}$$ 
