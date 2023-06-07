@@ -89,7 +89,7 @@ Let $V$ be a B&#233;nabou [[cosmos]] and $J\colon K &#x21F8; A$ a $V$-[[profunct
 
 ### Particular absolute colimits
 
-Of course, every colimit weighted by a weight for absolute colimits is itself a particular absolute colimit.  But it may also happen that a particuclar colimit may be absolute without all colimits of that shape being absolute.  For example (in ordinary category theory, with $V=Set$):
+Of course, every colimit weighted by a weight for absolute colimits is itself a particular absolute colimit.  But it may also happen that a particular colimit may be absolute without all colimits of that shape being absolute.  For example (in ordinary category theory, with $V=Set$):
 
 * [[split coequalizers]] are absolute, and figure in Beck's [[monadicity theorem]].
 * More generally (of course), [[absolute coequalizers]] are absolute.
