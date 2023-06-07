@@ -16,15 +16,49 @@
 
 ## Idea
 
-In [[trigonometry]], the _tangent function_ is one of the basic [[trigonometric functions]]. 
+In [[trigonometry]], the _tangent function_ "$tan$" is one of the basic [[trigonometric functions]]. 
+
+\begin{imagefromfile}
+    "file_name": "Mathnet-TangentFunction.jpg",
+    "float": "left",
+    "width": 220,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 10,
+        "right": 15, 
+        "left": 0
+    },
+    "caption": "From [Mathnet](#Mathnet)"
+\end{imagefromfile}
+
+The tangent function may be understood as computing the [[length]] of the segment (shown in blue) of a [[tangent]]  (whence the name) to a unit [[circle]]  inside the [[Euclidean plane]] between its point of tangency and its intersection with any radial line, as a [[function]] of the [[angle]] ${\color{red}\theta}$ between that radial line and the one [[orthogonal]] to the [[tangent]].
+
+Since, by definition of the [[sine function]] "$sin$" and the [[cosine function]] "$cos$", that radial line has [[distance]] $sin(\theta)$ from the perpendicular line where it crosses the unit circle at $cos(\theta)$ along that perpendicular line, the length of that tangential line segment [[equality|equals]] the [[ratio]] $sin(\theta)/cos(\theta)$, and this is how the tangent function is often defined.
+
+\linebreak
 
 ## Definition
 
-The tangent function is the [[ratio]] of the [[sine]] and the [[cosine]]:
+The tangent function is the [[ratio]] of the [[sine]] and the [[cosine]], where this is defined:
 
 
 $$
-  \tan(x) = \frac{\sin(x)}{\cos(x)}
+  \theta 
+    \,\in\, 
+  \mathbb{R} 
+    \setminus 
+  \big\{
+    (k+1/2)\pi
+    \,\big\vert\,
+    k \in \mathbb{Z}
+  \big\}
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+  \tan(\theta) 
+  \,\coloneqq\, 
+  \frac{\sin(\theta)}{\cos(\theta)}
 $$
 
 ## Properties 
@@ -43,7 +77,7 @@ $$(-1)^{k-1} B_{2k} = \frac{2k \cdot E_{2k-1}}{2^{2k}(2^{2k} - 1)}.$$
 
 ## Related concepts
 
-* [[tangent]]
+* [[tangent]], [[tangent vector]]
 
 * [[cotangent function]]
 
@@ -51,11 +85,11 @@ $$(-1)^{k-1} B_{2k} = \frac{2k \cdot E_{2k-1}}{2^{2k}(2^{2k} - 1)}.$$
 
 * [[trigonometric identity]]
 
-* [[tangent vector]]
-
 ## References
 
 * Wikipedia, _[Trigonometric functions -- tan](https://en.wikipedia.org/wiki/Trigonometric_functions#tan)_
+
+* {#Mathnet} Mathnet, *[tangent](https://www.math.net/tangent)*
 
 
 [[!redirects tangent functions]]
