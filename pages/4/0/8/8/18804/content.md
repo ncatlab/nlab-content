@@ -73,7 +73,11 @@ arises in [[special relativity theory]] in connection with [[rapidity]].
 * The [[MacLaurin series]] for the tangent function arises in enumerative combinatorics, especially when bundled with the [[secant function]]. Here the sum 
 $$\sec x + \tan x = \sum_{n \geq 0} \frac{E_n x^n}{n!}$$ 
 is the exponential generating function of a sequence of natural numbers $E_k$ that count "zigzag permutations" on the set $\{1, \ldots, k\}$, i.e., permutations $a_1 a_2 \ldots a_k$ where $a_1 \gt a_2 \lt a_3 \gt \ldots$. The *tangent numbers*, which are the coefficients $E_n$ when $n$ is odd, are related to [[Bernoulli numbers]] through the formula 
-$$(-1)^{k-1} B_{2k} = \frac{2k \cdot E_{2k-1}}{2^{2k}(2^{2k} - 1)}.$$  
+$$(-1)^{k-1} B_{2k} = \frac{2k \cdot E_{2k-1}}{2^{2k}(2^{2k} - 1)}.$$ 
+They are related to values of the [[zeta function]] by the formula 
+$$2(2^{2k}-1)\zeta(2k) = \frac{E_{2k-1}\pi^{2k}}{(2k-1)!}.$$ 
+Both of these facts may be verified by putting together corresponding facts for the [[cotangent function]] (see there) with the double angle formula 
+$$\tan x = \cot x - 2\cot(2x).$$
 
 ## Related concepts
 
