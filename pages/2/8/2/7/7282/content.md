@@ -92,3 +92,6 @@ See also
 [[!redirects orthonormal]]
 [[!redirects orthonormal vector]]
 [[!redirects orthonormal vectors]]
+
+[[!redirects right angle]]
+
