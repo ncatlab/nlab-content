@@ -47,7 +47,10 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * an [[∞-Lie algebroid]] is a certain object in the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(ThCartSp)$.
 
+
 ## Related concepts
+
+* [[trigonometry]]
 
 * [[differential geometry of curves and surfaces]]
 
@@ -68,6 +71,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 * [[Lie theory]]
 
 * [[fiber bundles in physics]]
+
+* [[tangent]], [[tangent vector]], [[tangent bundle]]
 
 * some modern subfields of differential geometry include:
 
@@ -111,7 +116,9 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * {#Gauss1827} [[Carl Friedrich Gauss]], _General Investigations of Curved Surfaces_ (1827) ([Gutenberg](http://www.gutenberg.org/ebooks/36856))
 
-* Manfredo P. Do Carmo, *Differential Geometry of Curves and Surfaces*, Prentice-Hall (1976) $[$[pdf](http://www2.ing.unipi.it/griff/files/dC.pdf)$]$
+* Manfredo P. Do Carmo, *Differential Geometry of Curves and Surfaces*, Prentice-Hall (1976) &lbrack;[pdf](http://www2.ing.unipi.it/griff/files/dC.pdf)&rbrack;
+
+* Victor A. Toponogov, *Differential Geometry of Curves and Surfaces --- A Concise Guide*, Springer (2006) &lbrack;[doi:10.1007/b137116](https://doi.org/10.1007/b137116)&rbrack;
 
 * Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) $[$[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)$]$
 
