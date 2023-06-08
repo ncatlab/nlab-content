@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[vector space]] is _finite-dimensional_ if it admits a [[finite set|finite]] [[basis]]: if there exists a natural number $n$ such that the vector space admits a [[linear isomorphism]] to the [[direct sum]] of $n$ copies of the underlying vector space of the [[ground field]]. 
+A [[vector space]] is _finite-dimensional_ if it admits a [[finite set|finite]] [[basis]]: if there exists a [[natural number]] $n$ such that the vector space admits a [[linear isomorphism]] to the [[direct sum]] of $n$ copies of the [[underlying]] vector space of the [[ground field]]. 
 
 The category [[FinDimVect]] of finite-dimensional vector spaces is of course the [[full subcategory]] of [[Vect]] whose objects are finite-dimensional. 
 
@@ -27,7 +27,7 @@ The category [[FinDimVect]] of finite-dimensional vector spaces is of course the
 +-- {: .num_prop}
 ###### Proposition
 
-A vector space $V$ is finite-dimensional precisely if the [[hom-functor]] $\hom(V, -): Vect \to Set$ preserves [[filtered colimits]]. 
+A vector space $V$ is finite-dimensional precisely if the [[hom-functor]] $\hom(V, -): Vect \to Set$ [[preserved colimit|preserves]] [[filtered colimits]]. 
 
 =--
 
