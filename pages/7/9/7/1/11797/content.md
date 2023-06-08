@@ -69,6 +69,20 @@ Remarks on generalization to the more general context of [[anabelian geometry]] 
 
 * [[Minhyong Kim]], _Galois Theory and Diophantine geometry, 2009 ([pdf](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf))
 
+Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
+
+* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*,
+Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+
+* [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+
+Introduction and survey:
+
+* [[Gereon Quick]], *Geometric Hodge filtered complex cobordism*, [talk at](Center+for+Quantum+and+Topological+Systems#QuickMar2023) *[[CQTS]]* (March 2023) &lbrack;video:[YT](https://www.youtube.com/watch?v=pMu0gT5kIBo)&rbrack;
+
+
+
+
 [[!redirects Abel-Jacobi maps]]
 
 [[!redirects Abel-Jacobi theorem]]
