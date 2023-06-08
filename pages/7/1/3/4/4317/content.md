@@ -90,8 +90,7 @@ Also:
 
 * the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
 
-
-
+* more generally, the category of [[pointed sets]] with respect to forming [[smash product]] and [[wedge sum]].
 
 ## Baez's conjecture
 
