@@ -381,6 +381,7 @@ $$
 
 
 
+
 ## Related concepts
 
 * [[Hodge theory]], 
@@ -393,9 +394,12 @@ $$
 
 * [[Hodge cohomology]]
 
+* [[Hodge-filtered differential cohomology]]
+
 * [[intermediate Jacobian]]
 
 * [[Lefschetz decomposition]]
+
 
 ## References
 
