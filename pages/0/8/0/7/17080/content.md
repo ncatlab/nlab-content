@@ -22,6 +22,8 @@
 
 ## Examples
 
+* [[tetrahedron]]
+
 * [[Platonic solid]]
 
 
