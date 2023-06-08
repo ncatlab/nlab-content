@@ -22,14 +22,18 @@ A _distributive monoidal_ category is a [[monoidal category]] whose [[tensor pro
 
 ## Definition
 
-A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose tensor product preserves coproducts in each variable.  Thus, we have canonical isomorphisms
+A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose [[tensor product]] [[preserved colimit|preserves]] [[coproducts]] in each variable: i.e. the canonical morphisms
 $$ X \otimes \coprod_i Y_i \cong \coprod_i (X\otimes Y_i)$$
 $$ \coprod_i X_i \otimes Y \cong \coprod_i (X_i\otimes Y)$$
+are [[isomorphisms]].
+
 Depending on the arity of the coproducts in question, we may speak of a **finitary** or **infinitary** distributive monoidal category. 
 
-A distributive [[cartesian monoidal category]] is a [[distributive category]], while any distributive monoidal category is a particular case of a [[rig category]].  See [[distributivity for monoidal structures]].
+The special case of distributive [[cartesian monoidal categories]] is known simply as  *[[distributive categories]]*. Conversely, distributive monoidal categories are a special case of [[rig categories]]. 
 
-A more abstract way to say this, due to Weber and Batanin, is that if $M$ is the free monoidal category monad and $M V \xrightarrow{\otimes} V$ is the structure map of a monoidal category $V$, then $V$ is distributive if it admits left Kan extensions along functors $f:A\to B$ between [[discrete categories]] (of some size), and moreover if
+See also at *[[distributivity for monoidal structures]]*.
+
+A more abstract way to say this, due to Weber and Batanin, is that if $M$ is the free monoidal category [[monad]] and $M V \xrightarrow{\otimes} V$ is the structure map of a monoidal category $V$, then $V$ is distributive if it admits [[left Kan extensions]] along functors $f:A\to B$ between [[discrete categories]] (of some size), and moreover if
 $$\array{
   A && \xrightarrow{f} && B\\
   & \searrow & \xRightarrow{\phi} & \swarrow\\
@@ -59,13 +63,14 @@ Beyond [[distributive categories]], examples of distributive monoidal categories
 
 * $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] over some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]],
 
-* the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
 
-* more generally, the category of [[pointed sets]] with respect to forming [[smash product]] and [[wedge sum]]
-
-In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
+In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the case of vector bundles).
 
 Also:
+
+* the category of [[pointed sets]] with respect to forming [[smash product]] and [[wedge sum]],
+
+* more generally, the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
 
 * $k$[[VectBund]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] over any ([[convenient category of topological spaces|convenient]]) [[topological spaces]], equipped with the [[external tensor product of vector bundles]] (more on this [below](#ExamplesBundlesWithExternalTensorProduct)).
 
