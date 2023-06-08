@@ -61,6 +61,8 @@ Beyond [[distributive categories]], examples of distributive monoidal categories
 
 * the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
 
+* more generally, the category of [[pointed sets]] with respect to forming [[smash product]] and [[wedge sum]]
+
 In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
 
 Also:
