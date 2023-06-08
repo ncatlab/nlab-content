@@ -93,9 +93,11 @@ The joint generalization of [Pontryagin 38a](#Pontryagin38a), [55](#Pontryagin55
 
 * {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277 ([doi:10.1090/S0002-9947-1963-0156357-4](https://doi.org/10.1090/S0002-9947-1963-0156357-4))
 
-and the general statement that has come to be known as _[[Pontryagin-Thom isomorphism]]_ (identifying the stable [[cobordism classes]] of normally [[tangential structure|(B,f)-structure]] submanifolds with [[homotopy classes]] of maps to the [[Thom spectrum]] [[Mf]]) is [Lashof 63, Theorem C](#Lashof63).
+and the general statement that has come to be known as the _[[Pontryagin-Thom isomorphism]]_ (identifying the stable [[cobordism classes]] of normally [[tangential structure|(B,f)-structured]] [[submanifolds]] with [[homotopy classes]] of [[maps]] to the [[Thom spectrum]] [[Mf]]) is really due to [Lashof 63, Theorem C](#Lashof63).
 
 Textbook accounts:
+
+* [[Theodor Bröcker]], [[Tammo tom Dieck]], Satz 3.1 & 4.9 in: *Kobordismentheorie*, Lecture Notes in Mathematics **178**, Springer (1970) &lbrack;[ISBN:9783540053415](https://link.springer.com/book/9783540053415)&rbrack;
 
 * {#Kochman96} [[Stanley Kochman]], section 1.5 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
