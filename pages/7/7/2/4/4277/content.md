@@ -202,6 +202,10 @@ Original articles:
 
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
+* [[Daniel Quillen]], *Elementary proofs of some results of cobordism theory using Steenrod operations*, Advances in Mathematics **7** 1 (1971) 29-56 &lbrack;<a href="https://doi.org/10.1016/0001-8708(71)90041-7">doi:10.1016/0001-8708(71)90041-7</a>&rbrack;
+
+  > (using [[Steenrod operations]])
+
 
 Textbook accounts:
 
