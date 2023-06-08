@@ -81,7 +81,7 @@ Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[
 \begin{example}\label{ExampleCrystallography}
 **([[crystallography]])**
 \linebreak
-The study of [[crystallographic groups]] in [[crystallography]] is much in the spirit of Klein geometry/the [[Erlanger program]] (see for instance [Weyl 1938](Erlanger+program#Weyl38); [Grünbaum & Shephard 2010](Erlanger+program#GruenbaumShephard10); [Engel 1986](crystal#Engel86)).
+The study of [[crystallographic groups]] in [[crystallography]] is much in the spirit of Klein geometry/the [[Erlangen program]] (see for instance [Weyl 1938](Erlangen+program#Weyl38); [Grünbaum & Shephard 2010](Erlangen+program#GruenbaumShephard10); [Engel 1986](crystal#Engel86)).
 
 Concretely, the [[quotient space]]/[[quotient orbifold]] of the space of [[wave vectors]]/[[momenta]] in a [[crystal]] lattice by the (dual) [[crystallographic group]] is the [[Brillouin torus]](-[[orbifold]]), in terms of which much of [[condensed matter theory]] is formulated (see for instance the [[electron energy bands]], the [[valence bundle]], and the [[K-theory classification of topological phases]]).
 \end{example}
