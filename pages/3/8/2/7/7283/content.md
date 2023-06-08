@@ -1,6 +1,6 @@
 
 
-* [homepage](http://homepages.ulb.ac.be/~rduncan/)
+* [homepage](http://personal.strath.ac.uk/ross.duncan/)
 
 * [publications](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/d/Duncan:Ross.html)
 
