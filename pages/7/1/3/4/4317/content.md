@@ -88,17 +88,19 @@ In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct
 
 Also:
 
-* the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
+* the category of [[pointed sets]] with respect to forming [[smash product]] and [[wedge sum]],
 
-* more generally, the category of [[pointed sets]] with respect to forming [[smash product]] and [[wedge sum]].
+* more generally, the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
+
+
 
 ## Baez's conjecture
 
-+-- {: .un_theorem}
-###### Conjecture (John Baez)
-
+\begin{conjecture}
+(John Baez)
+\linebreak
 Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the [[initial object|initial]] symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here; see [[2-limit]].  In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, up to an [[equivalence]] which is itself unique up to an [[isomorphism]] which is actually unique (up to [[equality]]).
-=--
+\end{conjecture}
 
 This conjecture was established in ([Elgueta 2021](#Elg21)). See also the proof using sheet diagrams in ([Comfort-Delpeuch-Hedges, Sec. 8](#CDH)), and the detailed proof of a restricted version in ([Johnson-Yau, Part I Sec. 2.7](#JY)).
 Yau has also proved a braided analogue of this conjecture ([Johnson-Yau, Part II Thm. 7.3.4](#JY)).
