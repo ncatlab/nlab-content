@@ -174,6 +174,8 @@ A [[formal geometry]] version:
 
 * Shilin Yu, _Dolbeault dga of a formal neighborhood_, [arxiv/1206.5155](http://arxiv.org/abs/1206.5155); _The Dolbeault dga of the formal neighborhood of a diagonal_, [arxiv/1211.1567](http://arxiv.org/abs/1211.1567)
 
+[[!redirects Dolbeault complexes]]
+
 [[!redirects Dolbeault cohomology]]
 
 [[!redirects holomorphic smooth function]]
