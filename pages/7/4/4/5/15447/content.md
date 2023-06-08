@@ -13,9 +13,11 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-A [[vector space]] is _finite-dimensional_ if it admits a [[finite set|finite]] [[basis]]. The category [[FinDimVect]] of finite-dimensional vector spaces is of course the [[full subcategory]] of [[Vect]] whose objects are finite-dimensional. 
+A [[vector space]] is _finite-dimensional_ if it admits a [[finite set|finite]] [[basis]]: if there exists a natural number $n$ such that the vector space admits a [[linear isomorphism]] to the [[direct sum]] of $n$ copies of the underlying vector space of the [[ground field]]. 
+
+The category [[FinDimVect]] of finite-dimensional vector spaces is of course the [[full subcategory]] of [[Vect]] whose objects are finite-dimensional. 
 
 ## Properties
 
