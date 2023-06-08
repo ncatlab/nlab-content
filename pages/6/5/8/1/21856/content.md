@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+On [[cobordism theory]]:
+
+* [[Theodor Bröcker]], [[Tammo tom Dieck]], *Kobordismentheorie*, Lecture Notes in Mathematics **178**, Springer (1970) &lbrack;[ISBN:9783540053415](https://link.springer.com/book/9783540053415)&rbrack;
+
 On [[equivariant bordism homology theory]]:
 
 * [[Theodor Bröcker]], [[Edward Hook]], _Stable equivariant bordism_, Math Z 129, 269–277 (1972) ([doi:10.1007/BF01187353](https://doi.org/10.1007/BF01187353))
