@@ -1,4 +1,4 @@
-
+2
 Michael Jerome Hopkins is a mathematician at Harvard University.
 He got his PhD from Northwestern University in 1984, advised by [[Mark Mahowald]].
 
@@ -109,6 +109,11 @@ Solving the [[Arf-Kervaire invariant problem]] with methods of [[equivariant sta
 * {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_, Current Developments in Mathematics, 2010: 1-44 (2011) ([[HHRKervaire.pdf:file]], [doi:10.4310/CDM.2010.v2010.n1.a1](https://dx.doi.org/10.4310/CDM.2010.v2010.n1.a1))
 
 * {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_ (2016) &lbrack;[pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf)&rbrack;
+
+Introducing [[Hodge-filtered differential cohomology]] and its specialization to Hodge-filtered [[complex cobordism theory]]: 
+
+* {#HopkinsQuick14} [[Michael J. Hopkins]], [[Gereon Quick]], §5 in: *Hodge filtered complex bordism*, Journal of Topology **8** 1 (2014) 147-183 &lbrack;[arXiv:1212.2173](https://arxiv.org/abs/1212.2173), [doi:10.1112/jtopol/jtu021](https://doi.org/10.1112/jtopol/jtu021)&rbrack;
+
    
 On classification of [[invertible TQFTs]] via [[reflection positivity]]:
 
