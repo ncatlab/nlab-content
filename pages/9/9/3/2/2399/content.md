@@ -18,6 +18,17 @@
 * table of contents
 {:toc}
 
+## Idea
+
+_Gromov-Witten theory_ studies [[symplectic manifolds]] via maps of [[Riemann surfaces]] into it. In contrast to the [[fundamental group]], where one studies maps from the circle into the space, there is no composition law for Riemann surfaces. Instead, one considers [[pseudoholomorphic curves]] in a fixed homology class and with fixed boundary conditions such that only a finite number of such maps exists. These numbers are symplectic invariants. Their computation is difficult and uses enumerative and analytic techniques from [[Floer homology]].
+
+Gromov-Witten invariants are used to deform the cup product of cohomology classes (using only maps from the Riemann sphere into the manifold), leading to [[quantum cohomology]].
+
+Gromov-Witten theory originates in physics from the [[A-model]]. A powerful tool to compute Gromov-Witten invariants is [[mirror symmetry]].
+
+The precise mathematical definition uses the notion of the moduli space of [[stable maps]].
+
+
 ## Definition
 
 ...
