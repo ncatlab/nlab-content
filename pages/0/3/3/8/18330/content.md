@@ -34,7 +34,7 @@ A **category structure** on a collection of objects $Ob$ is a family of sets $Mo
 
 such that 
 
-* for each object $x:Ob$ and $y:Ob$ and morphism $f:Mor(x, y)$, $f \circ_{x, y, z} \mathrm{id}_x = f$ and $\mathrm{id}_y \circ_{x, y, z} f = f$. 
+* for each object $x:Ob$ and $y:Ob$ and morphism $f:Mor(x, y)$, $f \circ_{x, x, y} \mathrm{id}_x = f$ and $\mathrm{id}_y \circ_{x, y, y} f = f$. 
 * for each object $x:Ob$, $y:Ob$, $z:Ob$, $w:Ob$ and morphism $f:Mor(x, y)$, $g:Mor(y, z)$, $h:Mor(z, w)$, 
 $$h \circ_{x, z, w} (g \circ_{x, y, z} f) = (h \circ_{y, z, w} g) \circ_{x, y, w} f$$ 
 
