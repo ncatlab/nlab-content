@@ -6,7 +6,7 @@
 
 ## Idea
 
-A *tetrahedron* is the convext [[regular polyhedron]] with four faces, as such one of the [[platonic solids]].
+A *tetrahedron* is the convex [[regular polyhedron]] with four faces, as such one of the [[platonic solids]].
 
 Also known as the 3-dimensional *[[simplex]]*.
 
