@@ -405,6 +405,8 @@ See [[differential cobordism cohomology theory]]
 
 * [[twisted differential cohomology]]
 
+* [[Hodge-filtered differential cohomology]]
+
 [[!include gauge field - table]]
 
 
@@ -483,3 +485,5 @@ A book-length overview is given in
 
 [[!redirects differential cohomology theory]]
 [[!redirects differential cohomology theories]]
+
+[[!redirects differential generalized cohomology]]
