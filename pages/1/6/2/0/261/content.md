@@ -70,8 +70,9 @@ such that these functions satisfy the _[[simplicial identities]]_.
 {#SimplicialSetIdea} $\,$
 
 <center>
-<img src="https://ncatlab.org/nlab/files/SimplicialSetsIdea.jpg" width="700">
+<img src="/nlab/files/SimplicialSetSchematics.jpg" width="800">
 </center>
+
 
 ## Remarks
 
