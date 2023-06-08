@@ -18,18 +18,26 @@ On the [[e-invariant]] and the [[J-homomorphism]]:
 
 * [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
 
-Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
+Introducing [[Hodge-filtered differential cohomology]] and its specialization to Hodge-filtered [[complex cobordism theory]]: 
 
-* [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+* {#HopkinsQuick14} [[Michael J. Hopkins]], [[Gereon Quick]], §5 in: *Hodge filtered complex bordism*, Journal of Topology **8** 1 (2014) 147-183 &lbrack;[arXiv:1212.2173](https://arxiv.org/abs/1212.2173), [doi:10.1112/jtopol/jtu021](https://doi.org/10.1112/jtopol/jtu021)&rbrack;
 
 Introduction and survey:
 
 * [[Gereon Quick]], *Geometric Hodge filtered complex cobordism*, [talk at](Center+for+Quantum+and+Topological+Systems#QuickMar2023) *[[CQTS]]* (March 2023) &lbrack;video:[YT](https://www.youtube.com/watch?v=pMu0gT5kIBo)&rbrack;
 
+Refinement of the [[Abel-Jacobi map]] to [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[MU]]-[[cobordism cohomology theory]]:
+
+* [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+
+On [[Umkehr maps]] in [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[complex cobordism cohomology]]:
+
+* [[Knut Bjarte Haus]], [[Gereon Quick]], *Geometric pushforward in Hodge filtered complex cobordism and secondary invariants* &lbrack;[arXiv:2303.15899](https://arxiv.org/abs/2303.15899)&rbrack;
 
 
 
-## Related nLab entries
+
+## Related entries
 
 * [[profinite homotopy theory]]
 
