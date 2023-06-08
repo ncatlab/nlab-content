@@ -49,6 +49,8 @@ has [[cardinality]] at least $2^{|Mor(D)|} \gt {|Mor(D)|}$, which is a contradic
 
 This basic fact has profound implications for instance for the [[adjoint functor theorem]] and the existence of [[Kan extensions]]. See there for more.
 
+(More generally, we only need to assume the existence of [[powers]], not arbitrary products.)
+
 
 ## In Grothendieck toposes
 
