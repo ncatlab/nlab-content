@@ -21,7 +21,7 @@ while they still come out as expected in
 
   "$\underline{ThisShouldRenderWithALooongUnderline}$"
 
-Specifically, the rending with Chrome, Edge and Opera looks (except for horizontal positioning) like that of the `\bar` command:
+Specifically, the rendering with Chrome, Edge and Opera looks (except for horizontal positioning) like that of the `\bar` command:
 
 * "`$\bar{ThisShouldRenderWithATinyOverline}$`" 
 
