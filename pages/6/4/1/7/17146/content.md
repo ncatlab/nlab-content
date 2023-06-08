@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,6 +39,9 @@ Original articles:
 Textbook accounts:
 
 * [[Robert Stong]], _Notes on cobordism theory_ , Princeton Univ. Press  (1968) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stongcob.pdf))
+
+* [[Theodor Bröcker]], [[Tammo tom Dieck]], *Kobordismentheorie*, Lecture Notes in Mathematics **178**, Springer (1970) &lbrack;[ISBN:9783540053415](https://link.springer.com/book/9783540053415)&rbrack;
+
 
 * [[Sergei Novikov]], Section 4.3 in: _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
 
