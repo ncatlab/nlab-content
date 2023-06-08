@@ -2096,6 +2096,8 @@ As described in some detail at [[electromagnetic field]] in abelian higher [[gau
 
 ## Related concepts
 
+* [[Hodge-filtered differential cohomology]]
+
 * [[intermediate Jacobian]] ([[self-dual higher gauge theory]])
 
 * [[Abel-Jacobi map]]
