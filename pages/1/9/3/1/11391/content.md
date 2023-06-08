@@ -16,6 +16,10 @@ On [[equivariant bordism homology theory]]:
 
 * {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel) 26 (1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
 
+On [[cobordism theory]]:
+
+* [[Theodor Bröcker]], [[Tammo tom Dieck]], *Kobordismentheorie*, Lecture Notes in Mathematics **178**, Springer (1970) &lbrack;[ISBN:9783540053415](https://link.springer.com/book/9783540053415)&rbrack;
+
 On [[classifying spaces]] via [[geometric realization of simplicial topological spaces]]:
 
 * {#tomDieck74} [[Tammo tom Dieck]], *On the homotopy type of classifying spaces*, Manuscripta Math 11, 41–49 (1974) ([doi:10.1007/BF01189090](https://doi.org/10.1007/BF01189090))
