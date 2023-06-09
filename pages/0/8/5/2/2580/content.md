@@ -356,7 +356,7 @@ See also _[[operator-valued distribution]]_ and _[[Wightman axioms]]_.
 A brief survey of applications of distribution theory to perturbative quantum field theory may be found [here](http://www1.jinr.ru/Archive/Pepan/v-31-7a/I_ktp_04_t.pdf). 
   
 
-Within mathematics, distributions are quite commonplace; for example, de Rham appropriated them for his theory of [[currents]]. Distribution theory has also long been used in the theory of partial differential equations. Here is a sample theorem: 
+Within mathematics, distributions are quite commonplace; for example, [[Georges de Rham]] appropriated them for his theory of [[current (distribution theory)|currents]]. Distribution theory has also long been used in the theory of partial differential equations. Here is a sample theorem: 
 
 * **Theorem (Ehrenpreis, Malgrange):** Let $D$ be a linear differential operator on $\mathbb{R}^n$ with constant coefficients. Given a compactly supported smooth function $f$ on $\mathbb{R}^n$, there exists a smooth solution $u$ to the equation $D u = f$. 
 
@@ -374,9 +374,9 @@ which closely mirrors the original treatment in Robinson's book Non-standard Ana
 
 ### Currents
 
-In $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on a manifold, the distributions/generalized densities (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See V. Guillemin, S. Sternberg: _Geometric asymptotics_ ([free online](http://www.ams.org/online_bks/surv14)). While generalized functions pull back, distributions/generalized densities push forward (under some conditions, though). 
+In $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on a [[smooth manifold]], the distributions/generalized densities (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See V. Guillemin, S. Sternberg: _Geometric asymptotics_ ([free online](http://www.ams.org/online_bks/surv14)). While generalized functions pull back, distributions/generalized densities push forward (under some conditions, though). 
 
-More generally one can study generalized differential $k$-forms in local coordinates they look like $\sum f_\alpha dx^{\alpha_1}\wedge \cdot \wedge dx^{\alpha_k}$. Usually they are called **currents**. They are useful e.g. in the study of higher dimensional residua in higher dimensional complex geometry (cf. *Principles of algebraic geometry* by Griffiths and Harris) and in geometric measure theory (cf. the monograph by Federer).  
+More generally one can study generalized differential $k$-forms in local coordinates they look like $\sum f_\alpha dx^{\alpha_1}\wedge \cdot \wedge dx^{\alpha_k}$. Usually they are called **[[current (distribution theory)|currents]]**. They are useful e.g. in the study of higher dimensional residua in higher dimensional complex geometry (cf. *Principles of algebraic geometry* by Griffiths and Harris) and in geometric measure theory (cf. the monograph by Federer).  
 
 ### Hyperfunctions and Coulombeau distributions
 
@@ -411,6 +411,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 * [[product of distributions]]
 
 * [[convolution product of distributions]]
+
+* [[current (distribution theory)]]
 
 * [[Hörmander topology]]
 
