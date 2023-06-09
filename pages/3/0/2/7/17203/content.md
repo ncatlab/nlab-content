@@ -168,7 +168,10 @@ $$
 The [[p-localization]] of $MU$ decomposes into the 
 [[Brown-Peterson spectra]].
 
+
 ## Related concepts
+
+* [[differential cobordism cohomology]]
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
@@ -233,13 +236,11 @@ On the [[Chern-Dold character]] on complex cobordism:
 * [[Victor Buchstaber]], A. P. Veselov, _Chern-Dold character in complex cobordisms and abelian varieties_ ([arXiv:2007.05782](https://arxiv.org/abs/2007.05782))
 
 
-### Hodge-filtered MU
+### Differential and Hodge-filtered cobordism cohomology
 
-The general concept of Hodge-filtered [[differential cohomology]] and introducing the special case of Hodge-filtered [[complex cobordism cohomology]]:
+On [[differential cobordism cohomology]] (enhancement of cobordism cohomology to [[differential cohomology]]):
 
-* {#HopkinsQuick14} [[Michael J. Hopkins]], [[Gereon Quick]], *Hodge filtered complex bordism*, Journal of Topology **8** 1 (2014) 147-183 &lbrack;[arXiv:1212.2173](https://arxiv.org/abs/1212.2173), [doi:10.1112/jtopol/jtu021](https://doi.org/10.1112/jtopol/jtu021)&rbrack;
-
-### Hodge filtered ordinary cohomology
+* [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schroeder, Moritz Wiethaup, *Landweber exact formal group laws and smooth cohomology theories*, Algebr. Geom. Topol. **9** (2009) 1751-1790 &lbrack;[arXiv:0711.1134](https://arxiv.org/abs/0711.1134), [doi:10.2140/agt.2009.9.1751](https://doi.org/10.2140/agt.2009.9.1751)&rbrack;
 
 The notion of [[Hodge-filtered differential cohomology|Hodge filtered differential]] complex cobordism theory: 
 
@@ -255,8 +256,7 @@ A geometric cocycle model:
 
 Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
 
-* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*,
-Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*, Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
 
 On [[Umkehr maps]] in this context:
 
