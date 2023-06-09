@@ -46,11 +46,11 @@ Let $X$ be an $n$-dimensional [[topological manifold]], and let $\omega$ be a [[
    $$ \omega = \sum_U w_U \omega_U ,$$
    where $w_U$ is a weight function defined on $U$ and $\omega_U$ is the [[restriction]] of $\omega$ to $U$.
    Then we have
-   $$ \int_X \omega = \sum_U \int_U w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,$$
+   $$ \textstyle{\int}_X \omega = \sum_U \textstyle{\int}_U w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,$$
    or more generally,
-   $$ \int_E \omega = \sum_U \int_U \chi_E(x^1,\ldots,x^n) w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n $$
+   $$ \textstyle{\int}_E \omega = \sum_U \int_U \chi_E(x^1,\ldots,x^n) w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n $$
    for $E$ a measurable subset of $X$ and $\chi_E$ the [[characteristic function]] of $E$.
-   This makes $\omega$ into a [[measure]] $\omega : E \mapsto \int_E \omega$ on $X$.
+   This makes $\omega$ into a [[measure]] $\omega \colon E \mapsto \int_E \omega$ on $X$.
 
 _A priori_, this definition depends not only on the particular coordinate patches chosen but also on the partition of unity chosen to go with them.  Furthermore, the definition could be done just as easily (perhaps even more easily) for something other than an $n$-pseudoform.  But the (perhaps surprising) fact that justifies it all is this:
 
@@ -250,9 +250,12 @@ $$
 
 ## References
 
-An exposition with an eye towards applications in [[physics]] is in section 3 of 
+* [[Raoul Bott]], [[Loring Tu]], §3 in: *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics **82** Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+Exposition with an eye towards applications in [[physics]] 
+
+* [[Theodore Frankel]], §3 in: *[[The Geometry of Physics - An Introduction]]*
+
 
 Discussion in the abstract context of [[cohesion]] and [[differential cohomology]] is in 
 
