@@ -31,6 +31,10 @@ The original articles:
 
 Review:
 
+
+* {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, chapter 6 of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
+
+
 * {#Gilkey95} [[Peter Gilkey]], Section 5.2 of: _Invariance Theory: The Heat Equation and the Atiyah-Singer Index Theorem_, 1995 ([pdf](https://pages.uoregon.edu/gilkey/dirPDF/InvarianceTheory1Ed.pdf))
 
 * Rafe Mazzeo, _The Atiyah-Singer Index theorem: what it is and why you should care_, ([slides](https://docplayer.net/52573131-The-atiyah-singer-index-theorem-what-it-is-and-why-you-should-care-rafe-mazzeo-october-10-2002.html))
