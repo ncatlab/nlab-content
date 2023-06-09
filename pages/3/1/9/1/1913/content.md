@@ -251,6 +251,9 @@ Textbook accounts:
 
 * [[Raoul Bott]], [[Loring Tu]], *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
 
+* [[Georges de Rham]], Chapter II of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
+
+
 * [[Manfredo P. Carmo]], *Differential Forms and Applications*, Springer (1994) &lbrack;[doi:10.1007/978-3-642-57951-6](https://doi.org/10.1007/978-3-642-57951-6)&rbrack;
 
 * {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
