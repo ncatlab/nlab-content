@@ -25,18 +25,18 @@ More in detail, regarding a [[smooth function]] $f \in C^\infty(X)$ as a [[distr
 $$
   u_f 
   \;\colon\;
-  b \mapsto \underset{X}{\int} f(x) b(x) \, dvol_X(x)
+  b \mapsto \underset{X}{\textstyle{\int}} f(x) b(x) \, dvol_X(x)
 $$
 
 on [[bump functions]] $b \in C^\infty_{cp}(X)$. Therefore a [[limit of a sequence|limit]] over a sequence $\{f_n\}_{n \in \mathbb{N}}$ of smooth functions, which may not really exists as a smooth function but just as a distribition, is nevertheless usefully thought of as the integral against the "generalized function" which would be "$\underset{\underset{n}{\longrightarrow}}{\lim} f_n$" if that limit existed in $C^\infty(X)$:
 
 $$
-  \underset{X}{\int}
+  \underset{X}{\textstyle{\int}}
     \left(\underset{\underset{n}{\longrightarrow}}{\lim} f_n\right)(x)
     b(x) \, dvol_X(x)
   \;\coloneqq\;
   \underset{\underset{n}{\longrightarrow}}{\lim}
-  \underset{X}{\int}
+  \underset{X}{\textstyle{\int}}
     f_n(x) b(x), dvol_X(x)
   \,.
 $$
@@ -48,13 +48,13 @@ In particular [[distributions]] that arise from [[integral]] expressions appeari
 $$
   \hat f(x) 
     \;=\; 
-  \underset{\mathbb{R}^n}{\int} f(k) e^{i k \cdot x} \, d^n k
+  \underset{\mathbb{R}^n}{\textstyle{\int}} f(k) e^{i k \cdot x} \, d^n k
 $$
 
 which however in general is not an actual _function_ of $x$, in that this [[integral]] need not [[convergence of a sequence|converge]] for fixed $x \in \mathbb{R}^n$, but is a generalized function in that for appropriate test functions $b$ the further integral 
 
 $$
-  \underset{\mathbb{R}^n}{\int} \underset{\mathbb{R}^n}{\int} f(k) e^{i k \cdot x}  b(x) \, d^n x \, d^n k
+  \underset{\mathbb{R}^n}{\textstyle{\int}} \underset{\mathbb{R}^n}{\textstyle{\int}} f(k) e^{i k \cdot x}  b(x) \, d^n x \, d^n k
  \;\in\;
  \mathbb{C}
 $$
@@ -64,7 +64,7 @@ does make sense.
 For example it is in this sense that the [[delta-distribution]], regarded as a generalized function, is given by the common [[integral]] expression
 
 $$
-  \delta(x) \;=\; \underset{k \in \mathbb{R}^n}{\int} e^{2 \pi i k x} d^n k
+  \delta(x) \;=\; \underset{k \in \mathbb{R}^n}{\textstyle{\int}} e^{2 \pi i k x} d^n k
 $$
 
 (see at _[[delta distribution]]_ [this example](Dirac+distribution#FourierTransformOfDeltaDistribution)).
@@ -76,5 +76,7 @@ Thinking of distributions as generalized functions this way motivates and stream
 * [[distribution]]
 
 * [[hyperfunction]]
+
+* [[current (distribution theory)]]
 
 [[!redirects generalized functions]]
