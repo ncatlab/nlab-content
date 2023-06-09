@@ -27,13 +27,19 @@ If $f \colon X \to Y$ is a [[proper map]], then there is a [[commuting diagram]]
 
 $$
   \array{
-    K_0(X) &\stackrel{ch(-)\cup Td(X)}{\to}& H_\bullet(X, \mathbb{Q})
+    K_0(X) 
+    &\overset{ch(-)\cup Td(X)}{\longrightarrow}& 
+    H_\bullet(X; \mathbb{Q})
     \\
-    \downarrow^{\mathrlap{\int_{f}}} && \downarrow^{\mathrlap{\int_f}}
+    \Big\downarrow\mathrlap{{}^{\int_f}}
+    && 
+    \Big\downarrow\mathrlap{{}^{\int_f}}
     \\
-    K_0(Y) &\stackrel{ch(-)\cup Td(Y)}{\to}& H_\bullet(Y,\mathbb{Q})
+    K_0(Y) 
+    &\underset{ch(-)\cup Td(Y)}{\longrightarrow}&
+    H_\bullet(Y;\mathbb{Q})
+    \mathrlap{\,,}
   }
-  \,,
 $$
 
 where...
