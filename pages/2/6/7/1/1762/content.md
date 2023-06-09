@@ -310,6 +310,74 @@ On [[monoidal categories]]:
 
 * [[Gabriella Böhm]], [[Stephen Lack]] and [[Ross Street]], _On the 2-Categories of Weak Distributive Laws_, Communications in Algebra, Vol. 39, No. 12, 2011, pp. 4567-4583. &lbrack;[doi:10.1080/00927872.2011.616436](https://doi.org/10.1080/00927872.2011.616436)&rbrack;
 
+
+
+* [[Gabriella Böhm]], [[Stephen Lack]] and [[Ross Street]], _Idempotent splittings, colimit completion, and weak aspects of the theory of monads_, Journal of Pure and Applied Algebra, Vol. 216, No. 2, 2012, pp. 385-403. &lbrack;[doi:10.1016/j.jpaa.2011.07.003](https://doi.org/10.1016/j.jpaa.2011.07.003)&rbrack;
+
+* [[Ross Street]], _Parenthetic Remarks_, In "Associahedra, Tamari Lattices and Related Structures", Progress in Mathematics, Vol. 299, 2012, pp. 251–268. &lbrack;[doi:10.1007/978-3-0348-0405-9_12](https://doi.org/10.1007/978-3-0348-0405-9_12)&rbrack;
+
+* [[Thomas Booker]] and [[Ross Street]], _Tannaka duality and convolution for duoidal categories_, Theory and Applications of Categories, Vol. 28, No. 6, 2013, pp. 166-205. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/28/6/28-06abs.html)&rbrack;
+
+* [[Ross Street]], _The core of adjoint functors_, Theory and Applications of Categories, Vol. 27, No. 4, 2012, pp. 47-64. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/27/4/27-04abs.html)&rbrack;
+
+* [[Ross Street]], _Monoidal categories in, and linking, geometry and algebra_, Bulletin of the Belgian Mathematical Society Simon Stevin, Vol. 19, No. 5, 2012, pp. 769-820. &lbrack;[doi:10.36045/bbms/1354031551](https://doi.org/10.36045/bbms/1354031551)&rbrack;
+
+* [[Ross Street]], _Categories in categories, and size matters_, Higher Structures, Vol. 1, No. 1, 2017, pp. 225-270. &lbrack;[pdf](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/Street)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _Skew monoidales, skew warpings and quantum categories_, Theory and Applications of Categories, Vol. 26, No. 15, 2012, pp. 385-402. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/26/15/26-15abs.html)&rbrack;
+
+* [[Ross Street]], _Skew-closed categories_, Journal of Pure and Applied Algebra, Vol. 217, No. 6, 2013, pp. 973-988. &lbrack;[doi:10.1016/j.jpaa.2012.09.020](https://doi.org/10.1016/j.jpaa.2012.09.020)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _A Skew-Duoidal Eckmann-Hilton Argument and Quantum Categories_, Applied Categorical Structures, Vol. 22, 2014, pp. 789–803. &lbrack;[doi:10.1007/s10485-013-9356-1](https://doi.org/10.1007/s10485-013-9356-1)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _Triangulations, orientals, and skew monoidal categories_, Advances in Mathematics, Vol. 258, 2014, pp. 351-396. &lbrack;[doi:10.1016/j.aim.2014.03.003](https://doi.org/10.1016/j.aim.2014.03.003)&rbrack;
+
+* [[Mitchell Buckley]], [[Richard Garner]], [[Stephen Lack]] and [[Ross Street]], _The Catalan simplicial set_, Mathematical Proceedings of the Cambridge Philosophical Society, Vol. 158, No. 2, 2015, pp. 211-222. &lbrack;[doi:10.1017/S0305004114000498](https://doi.org/10.1017/S0305004114000498)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _Combinatorial categorical equivalences of Dold–Kan type_, Journal of Pure and Applied Algebra, Vol. 219, No. 10, 2015, pp. 4343-4367. &lbrack;[doi:10.1016/j.jpaa.2015.02.020](https://doi.org/10.1016/j.jpaa.2015.02.020)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _On monads and warpings_, Cahiers de topologie et géométrie différentielle, Vol. 55, No. 4, 2014, pp. 244-266. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2017/05/LackStreet_55-4.pdf)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _Skew-monoidal reflection and lifting theorems_, Theory and Applications of Categories, Vol. 30, No. 28, 2015, pp. 985-1000. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/30/28/30-28abs.html)&rbrack;
+
+* [[Ross Street]], _Kan extensions and cartesian monoidal categories_, Seminarberichte Nr. 87, 2015, pp. 89-96. &lbrack;[doi:10.18445/20180829-120304-0](https://doi.org/10.18445/20180829-120304-0)&rbrack;
+
+* [[Ross Street]], _Pointwise extensions and sketches in bicategories_, 2014. &lbrack;[arXiv:1409.6427](https://arxiv.org/abs/1409.6427)&rbrack;
+
+* [[Ross Street]], _Weighted Tensor Products of Joyal Species, Graphs, and Charades_, SIGMA, Vol. 12, No. 005, 2016. &lbrack;[doi:10.3842/SIGMA.2016.005](https://doi.org/10.3842/SIGMA.2016.005)&rbrack;
+
+* [[Hans-E. Porst]] and [[Ross Street]], _Generalizations of the Sweedler Dual_, Applied Categorical Structures, Vol. 24, 2016, pp. 619–647. &lbrack;[doi:10.1007/s10485-016-9450-2](https://doi.org/10.1007/s10485-016-9450-2)&rbrack;
+
+* [[Richard Garner]] and [[Ross Street]], _Coalgebras governing both weighted Hurwitz products and their pointwise transforms_, Bulletin of the Belgian Mathematical Society Simon Stevin, Vol. 23, No. 5, 2016, pp. 643-666. &lbrack;[doi:10.36045/bbms/1483671619](https://doi.org/10.36045/bbms/1483671619)&rbrack;
+
+* [[Ross Street]], _Wreaths, mixed wreaths and twisted coactions_, Tbilisi Mathematical Journal, Vol. 10, No. 3, 2017, pp. 1-22. &lbrack;[doi:10.1515/tmj-2017-0100](https://doi.org/10.1515/tmj-2017-0100)&rbrack;
+
+* [[George Janelidze]] and [[Ross Street]], _Real sets_, Tbilisi Mathematical Journal, Vol. 10, No. 3, 2017, pp. 23-49. &lbrack;[doi:10.1515/tmj-2017-0101](https://doi.org/10.1515/tmj-2017-0101)&rbrack;
+
+* [[Branko Nikolić]] and [[Ross Street]], _Comonadic base change for enriched categories_, Journal of Pure and Applied Algebra, Vol. 227, No. 8, 2023. &lbrack;[doi:10.1016/j.jpaa.2023.107357](https://doi.org/10.1016/j.jpaa.2023.107357)&rbrack;
+
+* [[George Janelidze]] and [[Ross Street]], _Infinitary Addition, Real Numbers, and Taut Monads_, Applied Categorical Structures, Vol. 26, 2018, pp. 1047–1064. &lbrack;[doi:10.1007/s10485-018-9524-4](https://doi.org/10.1007/s10485-018-9524-4)&rbrack;
+
+* [[Branko Nikolić]] and [[Ross Street]], _Hopf rings for grading and differentials_, 2018. &lbrack;[arXiv:1806.09318](https://arxiv.org/abs/1806.09318)&rbrack;
+
+* [[Ross Street]], _Vector product and composition algebras in braided monoidal additive categories_, Commentationes Mathematicae Universitatis Carolinae, Vol. 60, No. 4, 2019, pp. 581-604. &lbrack;[EuDML](http://eudml.org/doc/295076)&rbrack;
+
+* [[Ross Street]], _Polynomials as spans_, Cahiers de topologie et géométrie différentielle, Vol. 61, No. 2, 2020, pp. 113-153. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf)&rbrack;
+
+* [[Ross Street]], _Span composition using fake pullbacks_, Theory and Applications of Categories, Vol. 36, No. 4, 2021, pp. 102-117. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/36/4/36-04abs.html)&rbrack;
+
+* [[Stephen Lack]] and [[Ross Street]], _Corrigendum to “Combinatorial categorical equivalences of Dold–Kan type”_, Journal of Pure and Applied Algebra, Vol. 224, No. 3, 2020, pp. 1364-1366. &lbrack;[doi:10.1016/j.jpaa.2019.07.002](https://doi.org/10.1016/j.jpaa.2019.07.002)&rbrack;
+
+* [[Kevin Coulembier]], [[Ross Street]] and [[Michel van den Bergh]], _Freely adjoining monoidal duals_, Mathematical Structures in Computer Science, Vol. 31, No. 7, 2021, pp. 748-768. &lbrack;[doi:10.1017/S0960129520000274](https://doi.org/10.1017/S0960129520000274)&rbrack;
+
+* [[Branko Nikolić]] and [[Ross Street]], _Monoidal centres and groupoid-graded categories_, 2022. &lbrack;[arXiv:2010.10656](https://arxiv.org/abs/2010.10656)&rbrack;
+
+* [[Branko Nikolić]], [[Ross Street]] and [[Giacomo Tendas]], _Cauchy completeness for DG-categories_, Theory and Applications of Categories, Vol. 37, No. 28, 2021, pp. 940-963. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/37/28/37-28abs.html)&rbrack;
+
+* [[Ross Street]], _Variation on a comprehensive theme_, Theory and Applications of Categories, Vol. 37, No. 29, 2021, pp. 964-978. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/37/29/37-29abs.html)&rbrack;
+
+* [[Ross Street]], _The core groupoid can suffice_, 2022. &lbrack;[arXiv:2208.11332](https://arxiv.org/abs/2208.11332)&rbrack;
+
 category: people
 
 [[!redirects R. Street]]
