@@ -37,7 +37,7 @@ In fact, the Whitehead tower may be constructed by taking each stage $X^{(n+1)} 
 
 The construction of Whitehead towers is traditionally done for [[topological spaces]] regarded up to [[weak homotopy equivalence]], hence as objects of the [[(∞,1)-category]] [[Top]]. The discussion directly generalizes to any [[(∞,1)-topos]].
 
-The **Whitehead tower** of a [[homotopy type]] $X$ is a sequence of [[homotopy types]]
+The **Whitehead tower** of a [[pointed object|pointed]] [[homotopy type]] $X$ is a sequence of [[homotopy types]]
 
 $$* \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} \simeq X$$
 
