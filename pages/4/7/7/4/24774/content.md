@@ -195,7 +195,11 @@ On boundary charges and non-perturbative [[quantum gravity]]:
 
 \linebreak
 
-On Covariant Growth Dynamics and causal set theory:
+In terms of [[causal sets]]:
+
+* Nomaan X, *Quantum Field Theory On Causal Sets*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2306.04800](https://arxiv.org/abs/2306.04800)&rbrack;
+
+On Covariant Growth Dynamics and causal sets theory:
 
 * Stav Zalel, *Covariant Growth Dynamics*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.10582](https://arxiv.org/abs/2302.10582)&rbrack;
 
