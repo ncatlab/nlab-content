@@ -323,6 +323,8 @@ Model structures on the category of double categories are discussed in:
 
 * [[Geoffrey Cruttwell]], Michael Lambert, [[Dorette Pronk]], Martin Szyld, _Double Fibrations_ ([arXiv:2205.15240](https://arxiv.org/abs/2205.15240)).
 
+An explicit description of what it means to be a one-object double category (i.e. filling in the gap in "a delooping of a ___ is a double category") is given in [this Math.StackExchange answer](https://math.stackexchange.com/a/3790232).
+
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
