@@ -24,9 +24,9 @@
 
 What is called *Hodge-filtered cohomogy* &lbrack;[Hopkins & Quick (2014)](#HopkinsQuick14)&rbrack; is the variant of [[differential generalized cohomology]] obtained by passing from real [[differential geometry]] to [[complex geometry]]: 
 
-Where [[differential cohomology]] by default  pairs a given   [[Whitehead-generalized cohomology theory]] $E$ of [[underlying]] [[topological spaces]] with the degree-filtered $E_\bullet \otimes \mathbb{R}$-valued [[de Rham complexes]] of [[differential forms]] on real [[smooth manifolds]], the Hodge-filtered variant pairs instead with the [[Hodge filtration|Hodge filtered]] $E_\bullet \otimes \mathbb{C}$-valued [[Dolbeault complexes]], namely really (see [there](Hodge+structure#HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure)) with the degree-filtration on the [[holomorphic de Rham complex]].
+Where [[differential cohomology]] by default  pairs a given   [[Whitehead-generalized cohomology theory]] $E$ of [[underlying]] [[topological spaces]] with the degree-filtered $E_\bullet \otimes \mathbb{R}$-valued [[de Rham complexes]] of [[differential forms]] on real [[smooth manifolds]], the Hodge-filtered variant pairs instead with the [[Hodge filtration|Hodge filtered]] $E_\bullet \otimes \mathbb{C}$-valued [[Dolbeault complexes]], namely really (see [there](Hodge+structure#HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure)) with the degree-filtered [[holomorphic de Rham complexes]].
 
-Concretely, for $p \in \mathbb{N}$, the *Hodge-filtered $E$-cohomology* $E^\bullet_{\mathcal{D}}(p)(\mathcal{X})$ of a [[complex manifold]] $\mathcal{X}$, or more generally of an [[infinity-stack|$\infty$-stack]] over the [[site]] $Mfd_{\mathbb{C}}$ of all [[complex manifolds]] (with [[open covers]]), is the [[cohomology]] in the [[(infinity,1)-category|$\infty$-category]] of [[(infinity,1)-sheaves of spectra|$(\infty,1)$-sheaves of spectra]] $Sp\big(Sh_\infty(Mfd_{\mathbb{C}})\big)$ which is represented by the [[homotopy fiber product]]-spectrum
+Concretely, for $p \in \mathbb{Z}$, the *Hodge-filtered $E$-cohomology* $E^\bullet_{\mathcal{D}}(p)(\mathcal{X})$ of a [[complex manifold]] $\mathcal{X}$, or more generally of an [[infinity-stack|$\infty$-stack]] over the [[site]] $Mfd_{\mathbb{C}}$ of all [[complex manifolds]] (with [[open covers]]), is the [[cohomology]] in the [[(infinity,1)-category|$\infty$-category]] of [[(infinity,1)-sheaves of spectra|$(\infty,1)$-sheaves of spectra]] $Sp\big(Sh_\infty(Mfd_{\mathbb{C}})\big)$ which is represented by the [[homotopy fiber product]]-spectrum
 
 \[
   \label{DefiningHomotopyPullback}
@@ -65,7 +65,7 @@ The general concept of Hodge-filtered [[differential cohomology]] and introducin
 
 ### Hodge filtered ordinary cohomology
 
-The case of Hodge-filtered [[integral cohomology|integral]]$\;$[[ordinary cohomology]] is the original definition of *[[Deligne cohomology]]*, see there for references.
+The case of Hodge-filtered [[integral cohomology|integral]]$\;$[[ordinary cohomology]] is the original definition of *[[Deligne cohomology]]*, see [there](Deligne+cohomology#References) for references.
 
 ### Hodge-filtered complex cobordism
 
@@ -83,8 +83,7 @@ A geometric cocycle model:
 
 Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
 
-* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*,
-Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*, Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
 
 
 On [[Umkehr maps]] in this context:
