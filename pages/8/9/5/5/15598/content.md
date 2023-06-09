@@ -16,7 +16,7 @@
 
 ## Definition ##
 
-If $C$ and $D$ are [[enriched categories]] over a [[cosmos]] $V$, that is, a complete and cocomplete symmetric [[closed monoidal category]], then a [[profunctor]] $F$, from $C$ to $D$, that is, a $V$-functor $D^{op} \otimes C\to V$, induces two adjoint $V$-functors: $F_{\ast}: (V^C)^{op} \to V^{D^{op}}$ and $F^{\ast}: V^{D^{op}} \to (V^C)^{op}$.
+If $C$ and $D$ are [[enriched categories]] over a [[cosmos]] $V$, that is, a complete and cocomplete symmetric [[closed monoidal category]], then a [[profunctor]] $F$, from $C$ to $D$, that is, a $V$-functor $D^{op} \otimes C\to V$, induces two adjoint $V$-functors: $F_{\ast}: (V^C)^{op} \to V^{D^{op}}$ and $F^{\ast}: V^{D^{op}} \to (V^C)^{op}$. Abstractly, one $V$-functor is given by currying to get a $V$-functor $C \to V^{D^{op}}$ and then using the [[universal property]] of the [[free completion]]; and the other $V$-functor is given by currying to get a $V$-functor $D^{op} \to V^C$, taking [[opposite category|opposites]] to get a $V$-functor $D \to (V^C)^{op}$, and then using the universal property of the [[free cocompletion]]. We then have an adjunction:
 
 $$
 (V^C)^{op}(F^{\ast} p, q) \cong V^{D^{op}}(p, F_{\ast} q).
