@@ -15,7 +15,11 @@
 
 ### Structures
 
-* [[Dolbeault complex]]
+* [[Dolbeault complex]], [[holomorphic de Rham complex]]
+
+* [[Hodge structure]], [[Hodge filtration]]
+
+* [[Hodge-filtered differential cohomology]]
 
 ### Examples
 
