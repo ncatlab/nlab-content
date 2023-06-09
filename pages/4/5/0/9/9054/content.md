@@ -10,14 +10,19 @@ On [[Hodge theory]]:
 
 * {#Voisin02} [[Claire Voisin]] (translated bei [[Leila Schneps]]), _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
-* [[Claire Voisin]], _Hodge theory and the topology of complex K&#228;hler and complex projective manifolds_ (survey, [pdf](http://www.math.columbia.edu/~thaddeus/seattle/voisin.pdf))
+* {#Voisin08} [[Claire Voisin]], *Hodge theory and the topology of compact Kähler and complex projective manifolds*, Lecture notes (2008) &lbrack;[pdf](http://www.math.columbia.edu/~thaddeus/seattle/voisin.pdf), [[Voisin-HodgeTheory.pdf:file]]&rbrack;
 
 
 
 ## Related $n$Lab entries
 
 * [[Hodge theory]]
+
+  * [[Hodge structure]]
+
   * [[Hodge conjecture]], [[integral Hodge conjecture]]
+
+* [[local system]]
 
 category: people
 
