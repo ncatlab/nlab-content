@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -126,8 +127,12 @@ A book-length overview:
 [[!redirects presheaf of spectra]]
 [[!redirects presheaves of spectra]]
 
+[[!redirects (infinity,1)-sheaf of spectra]]
+[[!redirects (infinity,1)-sheaves of spectra]]
 [[!redirects (∞,1)-sheaf of spectra]]
 [[!redirects (∞,1)-sheaves of spectra]]
 
 [[!redirects ∞-stack of spectra]]
 [[!redirects ∞-stacks of spectra]]
+
+
