@@ -64,4 +64,8 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 * [[Marino Gran]], [[George Janelidze]], [[Stephen Lack]], [[John MacDonald]] and [[Walter Tholen]] (guest editors), _CT2011_, Theory and Applications of Categories, Vol. 27, 2012. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol27)&rbrack;
 
+A list of category theory conferences appears in the unpublished note: 
+
+* [[CThistory.pdf:file]]
+
 category: reference
