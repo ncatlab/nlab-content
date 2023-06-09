@@ -66,6 +66,6 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 A list of category theory conferences appears in the unpublished note: 
 
-* [[CThistory.pdf:file]]
+* [[Peter Johnstone]], *Category Theory Summer Conferences* (2023) &lbrack;[pdf](https://ncatlab.org/nlab/files/CThistory.pdf)&rbrack;
 
 category: reference
