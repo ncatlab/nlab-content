@@ -190,6 +190,8 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[comonoid]], [[cocommutative comonoid]]
 
+* [[duoid]]
+
 * [[group]], [[group object]]
 
 * [[ring]], [[ring object]]
