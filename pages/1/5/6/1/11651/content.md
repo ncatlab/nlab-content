@@ -86,6 +86,8 @@ Relation of [[divisors]] to [[complex cobordism cohomology]]:
 * [MO discussion](https://mathoverflow.net/a/272131/381)
 
 
+[[!redirects principal divisor]]
+[[!redirects principal divisors]]
 
 
 
