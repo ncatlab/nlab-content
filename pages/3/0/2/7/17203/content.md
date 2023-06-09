@@ -191,12 +191,13 @@ The [[p-localization]] of $MU$ decomposes into the
 
 * [[Larry Smith]], _On Realizing Complex Bordism Modules: Applications to the Stable Homotopy of Spheres_, American Journal of Mathematics Vol. 92, No. 4 (Oct., 1970), pp. 793-856 ([doi:10.2307/2373397](https://doi.org/10.2307/2373397))
 
-
 * {#Landweber70} [[Peter Landweber]], _On the complex bordism and cobordism of infinite complexes_, Bull. Amer. Math. Soc. Volume 76, Number 3 (1970) ([Euclid](http://projecteuclid.org/euclid.bams/1183531832)) 
 
-* {#Adams74} [[Frank Adams]], _Stable homotopy theory and generalized homology_, Chicago lectures in mathematics, 1974
+* {#Quillen71} [[Daniel Quillen]], *Elementary Proofs of Some Results of Cobordism Theory Using Steenrod Operations*, Advances in Mathematics **7** (1971) 29–56 &lbrack;<a href="http://dx.doi.org/10.1016/0001-8708(71)90041-7">doi:10.1016/0001-8708(71)90041-7</a>&rbrack;
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
+* [[John Frank Adams]], *[[Stable homotopy and generalized homology]]*, Chicago Lectures in Mathematics, The University of Chicago Press (1974) &lbrack;[ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html), [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf)&rbrack;
+
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ (1986)
 
 * [[Stanley Kochman]], Section 4.4 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, Fields Institute Monographs, American Mathematical Society, 1996 ([cds:2264210](https://cdsweb.cern.ch/record/2264210))
 
