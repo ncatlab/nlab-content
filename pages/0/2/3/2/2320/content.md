@@ -18,6 +18,11 @@ On [[differential cohomology]] and the [[e-invariant]]:
 
 * [[Ulrich Bunke]], Section 2 of: _Differential cohomology in geometry and analysis_, talk 2008 ([pdf](https://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf), [[BunkeEInvariantErlangen2008.pdf:file]])
 
+On [[differential cobordism cohomology]], i.e. enhancement of [[MU]] ([[complex cobordism cohomology]]) to [[differential cohomology]]:
+
+* [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schroeder, Moritz Wiethaup, *Landweber exact formal group laws and smooth cohomology theories*, Algebr. Geom. Topol. **9** (2009) 1751-1790 &lbrack;[arXiv:0711.1134](https://arxiv.org/abs/0711.1134), [doi:10.2140/agt.2009.9.1751](https://doi.org/10.2140/agt.2009.9.1751)&rbrack;
+
+
 On the [[differential cohomology hexagon]]:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
@@ -45,7 +50,7 @@ On (topological) [[inertia stack]]s
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Inertia and delocalized twisted cohomology_, Homotopy, Homology and Applications 10(1) 129--180 (2008) [math.KT/0609576](https://arxiv.org/abs/math/0609576)  	
 [doi](https://doi.org/10.4310/HHA.2008.v10.n1.a6)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[differential cohomology]]
 
