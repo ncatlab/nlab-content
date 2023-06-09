@@ -232,6 +232,9 @@ Textbook accounts:
 
 * N. Koblitz, _Introduction to Elliptic Curves and Modular Forms_, Graduate Texts in Math. **97** Springer (1984, 1993) 
 
+* {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, Appendix I of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
+
+
 * {#DiamondShurman05} [[Fred Diamond]], [[Jerry Shurman]], *A First Course in Modular Forms*, GTM **228**, Springer (2005) $[$[doi:10.1007/978-0-387-27226-9](https://doi.org/10.1007/978-0-387-27226-9), ISBN-13: ‎978-0387232294$]$ 
 
 
