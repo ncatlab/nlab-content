@@ -2139,12 +2139,11 @@ Surveys and introductions in the context of [[differential geometry]] include
 
 Review with more emphasis on [[complex analytic geometry]] and the theory of ([Beilinson 85](#Beilinson85)) with more details spelled out is in
 
-* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_, in: [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_  Perspectives in Mathematics, Volume 4, Academic Press, Inc. 1988 (ISBN:978-0-12-581120-0)
+* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_, in: [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_  Perspectives in Mathematic **4**, Academic Press, Inc. (1988) &lbrack;ISBN:978-0-12-581120-0, [[EsnaultViehweg-DeligneBeilinsonCohomology.pdf:file]]&rbrack;
 
 * {#Esnault89} [[Hélène Esnault]], _On the Loday-symbol in the Deligne-Beilinson cohomology_, K-theory 3, 1-28, 1989 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/16-loday-symbol.pdf))
 
 See also
-
 
 
 * {#PetersSteenbrink08} [[Chris Peters]], [[Jozef Steenbrink]], section 7.2 of _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
@@ -2162,7 +2161,9 @@ Discussion of Deligne cohomology in terms of [[simplicial presheaves]] and [[hig
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_, Journal of Geometry and Physics, Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
 
-* [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, [arXiv:1212.2173](http://arxiv.org/abs/1212.2173).
+* [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_, [arXiv:1212.2173](http://arxiv.org/abs/1212.2173)
+
+  > (cf. [[Hodge-filtered differential cohomology]])
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _A higher stacky perspective on Chern-Simons theory_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
 
