@@ -135,7 +135,14 @@ But there is also an approach via rigorous analytic [[lattice gauge theory]]:
 * {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2021 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
 
 
-
 (...)
+
+### In solid state physics
+
+Discussion in [[solid state physics]]:
+
+* Alessandra N. Braga, Wagner P. Pires, Jeferson Danilo L. Silva, Danilo T. Alves, Van Sérgio Alves, *Renormalization of the band gap in 2D materials near an interface between two dielectrics* &lbrack;[arXiv:2306.04759](https://arxiv.org/abs/2306.04759)&rbrack;
+
+
 
 [[!redirects mass gap problem]]
