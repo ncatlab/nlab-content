@@ -34,6 +34,9 @@ For the moment see at _[[Hodge theory]]_
 
 ## References
 
+* [[Georges de Rham]], Chapter V of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
+
+
 * {#Voisin02} [[Claire Voisin]], section 5 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
 * Springer Online Dictionary, _Harmonic form_ ([web](http://eom.springer.de/h/h046460.htm))
