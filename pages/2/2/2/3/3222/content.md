@@ -22,6 +22,12 @@ On [[cyclic homology]], [[topological K-theory]] and [[differential K-theory]]:
 
 * [[Max Karoubi]], *Homologie cyclique et K-théorie*, Astérisque, no. 149 (1987) ([numdam:AST_1987__149__1_0](http://www.numdam.org/item/AST_1987__149__1_0))
 
+On a form of [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[topological K-theory]]:
+
+* [[Max Karoubi]], *Théorie générale des classes caractéristiques secondaires*, K-Theory **4** 1 (1990) 55-87 &lbrack;[doi:10.1007/BF00534193](http://dx.doi.org/10.1007/BF00534193), [pdf](https://webusers.imj-prg.fr/~max.karoubi/Publications/43.pdf)&rbrack;
+
+* [[Max Karoubi]], *Classes Caractéristiques de Fibrés Feuilletés, Holomorphes ou Algébriques*, in: *Proceedings of Conference on Algebraic Geometry and Ring Theory* in honor of Michael Artin, Part II (Antwerp 1992), K-Theory **8** 2 (1994) 153-211 &lbrack;[doi:10.1007/BF00961455](http://dx.doi.org/10.1007/BF00961455)&rbrack;
+
 
 On [[equivariant K-theory]]:
 
