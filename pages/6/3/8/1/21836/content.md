@@ -115,6 +115,8 @@ Early development:
 
 * {#Zagier86} [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf), [edoc:744944](http://edoc.mpg.de/744944))
 
+* {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, chapter 2 of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
+
 * {#ChudnovskyChudnovsky88} D.V. Chudnovsky, G.V. Chudnovsky, _Elliptic modular functions and elliptic genera_, Topology, Volume 27, Issue 2, 1988, Pages 163&#8211;170 (<a href="https://doi.org/10.1016/0040-9383(88)90035-3">doi:10.1016/0040-9383(88)90035-3</a>)
 
 * {#Hovey91} [[Mark Hovey]], _Spin Bordism and Elliptic Homology_, Math Z 219, 163–170 (1995) ([doi:10.1007/BF02572356](https://doi.org/10.1007/BF02572356))
