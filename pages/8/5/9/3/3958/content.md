@@ -349,7 +349,7 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 ## References
 
-The original works include
+The original works include:
 
 * {#VeblenWhitehead1931} Oswald Veblen and [[J.H.C. Whitehead]], _A set of axioms for differential geometry_, Proc. Natl. Acad. Sci. USA 17, 551-561 (1931)
 
@@ -364,6 +364,8 @@ Early account with an eye towards [[cobordism theory]] and the [[Pontrjagin-Thom
 
 
 Textbook accounts:
+
+* [[Geroges de Rham]], Chapter I of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
