@@ -58,6 +58,13 @@ A _[[quiver]]_ is just a [[directed graph]] ([[pseudograph]], to be explicit).
 But one says _quiver_ instead of _directed graph_ when one is interested in studying _[[quiver representations]]_: [[functors]] from the [[free category]] on that graph to the [[category]] of [[finite-dimensional vector spaces]].
 
 
+### Causal set
+ {#CausalSet}
+
+A *[[causal set]]* is just a [[partially ordered set]].
+
+But one says *causal set* in order to indicate that one means to think of the [[elements]] of the [[poset]] as [[spacetime]] [[events]] and of the oder-[[relation]] as given by [[causality]].
+ 
 ### Persistence modules
  {#PersistenceModule}
 
