@@ -357,11 +357,16 @@ An review of the history is at the beginning of ([Hirzebruch-Kreck 09](#Hirzebru
 
 The theory of multiplicative sequences and characteristic series of genera is due to
 
-* {#Hirzebruch65} [[Friedrich Hirzebruch]], _Neue topologische Methoden in der algebraischen Geometrie_, Ergebnisse der Mathematik und ihrer Grenzgebiete, 9, Springer-Verlag, Berlin-G&#246;ttingen-Heidelberg, 1965.
+* {#Hirzebruch56} [[Friedrich Hirzebruch]], *Neue topologische Methoden in der algebraischen Geometrie*, Ergebnisse der Mathematik und ihrer Grenzgebiete **9**, Springer (1956) &lbrack;[doi:10.1007/978-3-662-41083-7](https://doi.org/10.1007/978-3-662-41083-7)&rbrack;
 
-* {#Hirzebruch66} [[Friedrich Hirzebruch]], _Topological methods in algebraic geometry_, Springer-Verlag, New York, 1966. MR0202713 (34 #2573) Zbl 0843.14009
+* {#Hirzebruch66} [[Friedrich Hirzebruch]], *Topological methods in algebraic geometry*, Grundlehren **131**, Springer (1966) &lbrack;[doi:10.1007/978-3-642-62018-8](https://doi.org/10.1007/978-3-642-62018-8), MR0202713 (34 #2573) Zbl 0843.14009&rbrack;
 
-Reviews include
+Early review:
+
+* {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, chapter 2 of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
+
+
+Further review:
 
 * [[Serge Ochanine]], _What is... an elliptic genus_?, Notices of the AMS, volume 56, number 6 (2009) ([pdf](http://www.ams.org/notices/200906/rtx090600720p.pdf))
 
