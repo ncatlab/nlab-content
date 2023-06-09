@@ -30,19 +30,19 @@ $$
 
 This space naturally carries the structure of a [[complex manifold]] (in fact two such structures, named after Griffiths and after Weil) and this complex analytic space, which is in fact a _[[complex torus]]_, is properly what is called the $(k+1)$st _intermediate Jacobian variety_ of $\Sigma$. This terminology derives from the term _[[Jacobian variety]]_ which is the (historically earlier) special case for $k = 0$ and $dim_{\mathbb{C}}(\Sigma) = 1$.
 
-Notice that conceptually we may
+Notice that, conceptually, we may (cf. at *[[Deligne cohomology]]* the [exact sequences](Deligne+cohomology#ExactSequenceForCurvatureAndCharacteristicClass) and generally at *[[differential cohomology hexagon]]*):
 
-* think of $H^{2k+1}(\Sigma,\mathbb{R})$ as the space of those [[circle n-bundle with connection|n-form connections]] on $\Sigma$ which are both [[flat infinity-connection|flat]] and have trivial underlying [[line n-bundle]];
+* think of $H^{2k+1}(\Sigma,\mathbb{R})$ as the space of those [[circle n-bundle with connection|$n$-form connections]] on $\Sigma$ which are both [[flat infinity-connection|flat]] and have trivial [[underlying]] [[line n-bundle|line $n$-bundle]];
 
-* think of $H^{2k + 1}(\Sigma,\mathbb{Z})$ as the group of "large" (not connected to the identity) [[higher gauge field|higher]] [[gauge transformations]] acting on these gauge fields;
+* think of $H^{2k + 1}(\Sigma,\mathbb{Z})$ as the group of "large" (i.e.: not connected to the identity) [[higher gauge field|higher]] [[gauge transformations]] acting on these gauge fields;
 
-* and hence understand $J^{k+1}(\Sigma)$ as the [[moduli space]] of flat $n$-form connections on trivial underlying line $n$-bundles.
+* hence understand $J^{k+1}(\Sigma)$ as the [[moduli space]] of flat $n$-form connections on trivial underlying line $n$-bundles.
 
-This turns out to be a natural and  useful perspective on intermediate Jacobians: _Deligne's theorem_ (discussed as theorem \ref{DeligneTheorem} below) characterizes the intermediate Jacobians as subgroups of the relevant [[Deligne cohomology]] group of $\Sigma$, where [[Deligne cohomology]] is a model for [[ordinary differential cohomology]] that classifies these [[circle n-bundle with connection|line n-bundles with connection]]. Moreover, as discussed in prop. \ref{ReformulationOfDeligneTheorem} below, Deligne's theorem in the formulation of ([Esnault-Viehweg 88](#EsnaultViehweg88)) may be rephrased such as to manifestly give a formal incarnation of the the statement that $J^{k+1}(\Sigma)$ is just that subgroup of the Deligne complex given by [[circle n-bundle with connection|line n-connections]] with trivial [[curvature]] and trivial underlying [[line n-bundle]].
+This turns out to be a natural and  useful perspective on intermediate Jacobians: _Deligne's theorem_ (discussed as theorem \ref{DeligneTheorem} below) characterizes the intermediate Jacobians as subgroups of the relevant [[Deligne cohomology]] group of $\Sigma$, where [[Deligne cohomology]] is a model for [[ordinary differential cohomology]] that classifies these [[circle n-bundle with connection|line n-bundles with connection]]. Moreover, as discussed in Rem. \ref{AsFiberOf0TruncationOnFractureSquare} below, Deligne's theorem in the formulation of [Esnault & Viehweg (1988)](#EsnaultViehweg88) may be rephrased such as to manifestly give a formal incarnation of the the statement that $J^{k+1}(\Sigma)$ is just that subgroup of the Deligne complex given by [[circle n-bundle with connection|line $n$-connections]] with trivial [[curvature]] and trivial [[underlying]] [[line n-bundle|line $n$-bundle]].
 
-This formulation in turn has an evident generalization from [[ordinary differential cohomology]] to general (namely [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod type]]) [[differential cohomology]]. This we discuss further [below](#GeneralDescripion).
+This formulation, in turn, has an evident generalization from [[ordinary differential cohomology]] to general (namely [[Whitehead-generalized cohomology|Whitehead-generalized]]) [[differential cohomology]], which we discuss further [below](#GeneralDescripion).
 
-This perspective on intermediate Jacobians from [[higher gauge theory]] also faithfully reflects their role in fundamental [[physics]] (in [[quantum field theory]] and [[string theory]]) ([Witten 96](#Witten96), [Hopkins-Singer 02]{#HopkinsSinger02}). Here [[higher dimensional Chern-Simons theory]] has as [[field (physics)|fields]] types of [[higher gauge field]] specified by some type of [[differential cohomology]], and the connected components of its [[phase space]] is precisely the corresponding intermediate Jacobian. Moreover the [[transgression]] of the higher Chern-Simons [[action functional]] produces a [[line bundle]] on the intermediate Jacobian, which is the [[prequantum line bundle]] of the theory. By [[geometric quantization]] one has to choose a [[Kähler polarization]] for this line bundle and the Weil complex structure on $J^{k+1}(\Sigma)$ is precisely that.
+This perspective on intermediate Jacobians from [[higher gauge theory]] also faithfully reflects their role in fundamental [[physics]] (in [[quantum field theory]] and [[string theory]]) &lbrack;[Witten (1996)](#Witten96), [Hopkins & Singer (2002)](#HopkinsSinger02)&rbrack;. Here [[higher dimensional Chern-Simons theory]] has as [[field (physics)|fields]] certain [[higher gauge fields]] specified by some type of [[differential cohomology]], and the [[connected components]] of its [[phase space]] (of solutions to the [[equations of motion]]) is precisely the corresponding intermediate Jacobian. Moreover the [[transgression]] of the higher Chern-Simons [[action functional]] produces a [[line bundle]] on the intermediate Jacobian, which is the [[prequantum line bundle]] of the theory. By [[geometric quantization]] one has to choose a [[Kähler polarization]] for this line bundle and the Weil complex structure on $J^{k+1}(\Sigma)$ is precisely that.
 In terms of [[complex geometry]] this state of affairs directly translates into the statement that the Weil intermediate Jacobians are [[polarized varieties]]. In fact they are [[principally polarized variety|principally polarized]], which on the physics side corresponds to the [[metaplectic correction]] of the [[Kähler polarization]] used for [[geometric quantization]]. The [[holomorphic section]] of the resulting [[Theta characteristic]] on the intermediate Jacobian is physically the [[partition function]] of [[self-dual higher gauge theory]] on $\Sigma$ (see there for more) which mathematically is the corresponding [[theta function]].
 
 By way of these deep relations intermediate Jacobians play an important role in ([[higher geometry|higher]]) [[geometry]].
@@ -73,7 +73,7 @@ of the [[ordinary cohomology|ordinary]] [[cohomology groups]] of $X$ with [[coef
 
 Here $H^{2k+1}(\Sigma,\mathbb{R})$ is naturally a [[vector space]] over the [[real numbers]] and this is what induces the [[smooth manifold]]-structure on the quotient. 
 
-For eventually equipping this with the structure of a [[complex manifold]] one realizes this as the quotient of the [[complex vector space]] of cohomology with complex coefficients as follows:
+For the purpose of eventually equipping this with the [[structure]] of a [[complex manifold]] one may realizes it as the quotient of the [[complex vector space]] of [[complex cohomology|complex]] [[ordinary cohomology]], as follows:
 
 +-- {: .num_remark}
 ###### Remark
@@ -81,14 +81,16 @@ For eventually equipping this with the structure of a [[complex manifold]] one r
 A real [[differential form]] 
 
 $$
-  \alpha \in \Omega^{2k+1}_{\mathbb{R}}(\Sigma)
+  \alpha 
+  \;\in\; 
+  \Omega^{2k+1}_{\mathbb{R}}(\Sigma)
 $$
 
 is, by the [[Hodge theorem]], a sum of complex differential forms in homogeneous [[Dolbeault complex|Dolbeault bidegree]] of the form
 
 $$
   \alpha 
-    = 
+  \;=\; 
    \alpha^{2k+1,0}+ \alpha^{2k,1} 
      + 
      \cdots 
@@ -106,7 +108,9 @@ $$
 where
 
 $$
-  \overline{(-)} \colon \Omega^{p,q}(\Sigma)\longrightarrow \Omega^{q,p}(\Sigma)
+  \overline{(-)} 
+  \;\colon\; 
+  \Omega^{p,q}(\Sigma)\longrightarrow \Omega^{q,p}(\Sigma)
 $$
 
 is the [[antilinear function]] on complex differential forms given by [[complex conjugation]].
@@ -118,11 +122,11 @@ It follows with the [[de Rham theorem]] that:
 +-- {: .num_prop #AsQuotientByHodgeFiltering}
 ###### Proposition
 
-There is a canonical [[isomorphism]] of real vector spaces
+There is a canonical [[isomorphism]] of [[real vector spaces]]
 
 $$
   H^{2k+1}(\Sigma, \mathbb{R}) 
-   \simeq 
+   \;\simeq\; 
   H^{2k+1}(\Sigma,\mathbb{C})/(F^{k+1} H^{2k+1}(\Sigma,\mathbb{C}))
  \,,
 $$
@@ -130,14 +134,16 @@ $$
 where 
 
 $$
-  F^{k+1} H^{2k+1}(\Sigma,\mathbb{C}) \coloneqq \underset{p \geq k+1}{\oplus} H^{p,2k+1-p}(\Sigma)
+  F^{k+1} H^{2k+1}(\Sigma,\mathbb{C}) 
+  \;\coloneqq\; 
+  \underset{p \geq k+1}{\oplus} H^{p,2k+1-p}(\Sigma)
 $$
 
 is the $(k+1)$st stage in the [[Hodge filtration]] of $H^{2k+1}(\Sigma,\mathbb{C})$. 
 
 =--
 
-Hence an equivalent way to write the intermediate Jacobian (still as a real manifold) as the quotient of the real manifold underlying a complex vector space is the following:
+Hence an equivalent way of writing the intermediate Jacobian (still as a real manifold) is as the [[quotient space]] of the real manifold underlying a complex vector space, as follows:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -146,10 +152,14 @@ The intermediate Jacobian of def. \ref{PlainIJacobian} is equivalently
 
 $$
   J^{k+1}(\Sigma)
-   \simeq 
+  \;\simeq\;
    H^{2k+1}(\Sigma,\mathbb{C})
    /
-  (F^{k+1} H^{2k+1}(\Sigma, \mathbb{C}) \oplus H^{2k+1}(\Sigma,\mathbb{Z}))
+  \big(
+    F^{k+1} H^{2k+1}(\Sigma, \mathbb{C}) 
+    \,\oplus\, 
+    H^{2k+1}(\Sigma,\mathbb{Z})
+  \big)
   \,.
 $$
 
@@ -160,11 +170,11 @@ Yet one more reformulation is useful when properly working in [[complex analytic
 +-- {: .num_defn #ModuliOfHolomorphickConnections}
 ###### Definition
 
-Write $(\mathbf{B}^k \mathbb{G}_a)_{conn}$ for the chain complex of sheaves on the complex analytic site which assigns the truncated [[de Rham complex]] of [[holomorphic differential forms]]
+Write $\big(\mathbf{B}^k \mathbb{G}_a\big)_{conn}$ for the [[abelian sheaf]] of [[chain complexes]] on [[site]] of [[complex manifolds]] which assigns the truncated [[de Rham complexes]] of [[holomorphic differential forms]]:
 
 $$
-  (\mathbf{B}^k \mathbb{G}_a)_{conn}
-  \coloneqq
+  \big(\mathbf{B}^k \mathbb{G}_a\big)_{conn}
+  \;\coloneqq\;
   \left(
     \mathcal{O}
      \stackrel{\partial }{\to}
@@ -180,7 +190,7 @@ regarded as sitting in degrees $k$ to 0.
 
 =--
 
-e.g. ([Esnault-Viehweg 88, top of p. 14](#EsnaultViehweg88))
+(e.g. [Esnault & Viehweg (1988), top of p. 14](#EsnaultViehweg88))
 
 +-- {: .num_prop #ReplacingHodgeFiltrationQuotientByHolomorphicConnections}
 ###### Proposition
@@ -191,51 +201,61 @@ is equivalently the [[abelian sheaf cohomology|abelian sheaf]]
 in $\mathbf{B}^{2k}\mathbb{G}_a$ of def. \ref{ModuliOfHolomorphickConnections}:
 
 $$
-  H^{2k+1}(\Sigma,\mathbb{C})/F^{k+1} H^{2k+1}(\Sigma, \mathbb{C})
-  \simeq
-  [\Sigma, \mathbf{B}^k(\mathbf{B}^k \mathbb{G}_a)_conn) ]
+  H^{2k+1}\big(
+    \Sigma
+    ,\,
+    \mathbb{C}
+  \big)
+  /
+  F^{k+1} 
+  H^{2k+1}(\Sigma, \mathbb{C})
+  \;\simeq\;
+  \Big[
+    \Sigma
+    ,\, 
+    \mathbf{B}^k\big(\mathbf{B}^k \mathbb{G}_a\big)_conn 
+  \Big]
   \,.
 $$
 
 =--
 
-e.g. ([Esnault-Viehweg 88, 2.5 b)](#EsnaultViehweg88)).
+(e.g. [Esnault & Viehweg (1988), 2.5 b)](#EsnaultViehweg88)).
 
 
-There are two canonical ways to equip $H^{2k+1}(\Sigma,\mathbb{C})$, and hence the above quotient, with the structure of a [[complex manifold]]. Sometimes these agree, but in general they do not, and hence they go by different names,the 
+There are two canonical ways of equipping $H^{2k+1}(\Sigma,\mathbb{C})$, and hence the above quotient, with the structure of a [[complex manifold]]. Sometimes these agree, but in general they do not, and hence they go by different names:
 
-* [Griffith intermediate Jacobian](#GriffithIntermediateJacobian)
+1. *[Griffith intermediate Jacobian](#GriffithIntermediateJacobian)*,
 
-and the
-
-
-* [Weil intermediate Jacobian](#WeilIntermediateJacobian)
+1. *[Weil intermediate Jacobian](#WeilIntermediateJacobian)*.
 
 
 #### Characterization as Hodge-trivial Deligne cohomology
  {#CharacterizationAsHodgeTrivialDeligneCohomology}
 
-A theorem due to [[Pierre Deligne]] says that this $J^k(\Sigma)$ is characterised as being the [[fiber]] of a canonical map from ([[complex analytic geometry|complex analytic]]) [[Deligne cohomology]] to the $k$th [[Hodge filtration]] of [[integral cohomology]]. 
+A theorem due to [[Pierre Deligne]] says that the intermediate Jacobian $J^k(\Sigma)$ is characterised as being the [[fiber]] of a canonical map from ([[complex analytic geometry|complex analytic]]) [[Deligne cohomology]] to the $k$th [[Hodge filtration]] of [[integral cohomology]]. 
 
 
 +-- {: .num_defn #HodgeCohomologyClasses}
 ###### Definition
 
-The group $Hdg^{k+1}(\Sigma)$ of _[[Hodge cocycle|Hodge cohomology classes]]_ is the subgroup of $\mathbb{Z}(k+1)$-cohomology classes whose image in complex cohomology is in the $(k+1)$st stage of the [[Hodge filtration]], hence the group sitting in a [[pullback]] diagram
+The group $Hdg^{k+1}(\Sigma)$ of _[[Hodge cocycle|Hodge cohomology classes]]_ is the subgroup of $\mathbb{Z}(k+1)$-cohomology classes whose image in complex cohomology is in the $(k+1)$st stage of the [[Hodge filtration]], hence the group sitting in the following [[pullback]] diagram
 
 $$
   \array{
      Hdg^{k+1}(\Sigma) 
        &\longrightarrow& 
-     F^{k+1} H^{2k+2}(\Sigma,\mathbb{C})
+     F^{k+1} H^{2k+2}(\Sigma;\,\mathbb{C})
      \\
-     \downarrow && \downarrow
+     \Big\downarrow 
+     &{}^{{}_{(pb)}}& 
+     \Big\downarrow
      \\
-     H^{2k+2}(\Sigma,\mathbb{Z}(k+1))
+     H^{2k+2}\big(\Sigma;\,\mathbb{Z}(k+1)\big)
        &\longrightarrow&
-     H^{2k+2}(\Sigma,\mathbb{C})
+     H^{2k+2}(\Sigma;\,\mathbb{C})
+     \mathrlap{\,.}
   }
-  \,.
 $$
 
 =--
@@ -245,19 +265,19 @@ The following says this in a [[complex analytic geometry|complex analytic]]-way 
 +-- {: .num_prop #HodgeCyclesAsPullbackOfHolomorphic}
 ###### Proposition
 
-Equivalently the Hodge cohomology classes of def. \ref{HodgeCohomologyClasses} are given by the [[pullback]]
+Equivalently, the Hodge cohomology classes of def. \ref{HodgeCohomologyClasses} are given by the [[pullback]]
 
 $$
   \array{
      Hdg^{k+1}(\Sigma) 
        &\longrightarrow& 
-     H^{2k+2}(\Sigma, \Omega^{\bullet \geq k+1})
+     H^{2k+2}\big(\Sigma;\, \Omega^{\bullet \geq k+1}\big)
      \\
-     \downarrow && \downarrow
+     \Big\downarrow && \Big\downarrow
      \\
-     H^{2k+2}(\Sigma,\mathbb{Z}(k+1))
+     H^{2k+2}\big(\Sigma;\,\mathbb{Z}(k+1)\big)
        &\longrightarrow&
-     H^{2k+2}(\Sigma,\mathbb{C})
+     H^{2k+2}(\Sigma;\,\mathbb{C})
   }
   \,,
 $$
@@ -266,22 +286,30 @@ where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]
 
 =--
 
-([Esnault-Viehweg 88, section 7.8](#EsnaultViehweg88))
+([Esnault & Viehweg (1988), section 7.8](#EsnaultViehweg88))
 
 +-- {: .num_theorem #DeligneTheorem}
 ###### Theorem
 **(Deligne)**
 
-As an [[abelian group]] the intermediate Jacobian $J^k(\Sigma)$, def. \ref{PlainIJacobian}, is characterized by fitting into the [[short exact sequence]]
+As an [[abelian group]] the intermediate Jacobian $J^k(\Sigma)$, def. \ref{PlainIJacobian}, is the [[fiber]] of the canonical map from [[Deligne cohomology]] to Hodge cohomology classes, has as fitting into a [[short exact sequence]] of the following form:
 
 $$
-  0 \to J^{k+1}(\Sigma)\to H^{2k+2}(\Sigma, \mathbb{Z}(k+1)_{D}) \to Hdg^{k+1}(\Sigma) \to 0
+  0 
+    \to 
+  J^{k+1}(\Sigma)
+    \longrightarrow
+  H^{2k+2}\big(\Sigma;\, \mathbb{Z}(k+1)_{D}\big) 
+    \longrightarrow 
+  Hdg^{k+1}(\Sigma) 
+    \to 
+  0
   \,.
 $$
 
 =--
 
-(e.g. [Esnault-Viehweg 88, (7.9)](#EsnaultViehweg88), [Peters-Steenbrink 08, lemma 7.20](#PetersSteenbrink08)) .
+(e.g. [Esnault & Viehweg (1988), (7.9)](#EsnaultViehweg88); [Peters & Steenbrink (2008), lemma 7.20](#PetersSteenbrink08))
 
 +-- {: .proof}
 ###### Proof
@@ -314,7 +342,7 @@ $$
   \,.
 $$
 
-This is just of the form as discussed in some detail at _[[circle n-bundle with connection]]_ and also at _[[differential cohomology diagram]]_ in the section on _[Deligne coefficients](differential+cohomology%20diagram#DeligneCoefficients)_. In particular the [[homotopy limit]] over this diagram, hence the [[homotopy fiber]] of the two maps is a version of the [[Deligne complex]]
+This is just of the form as discussed in some detail at _[[circle n-bundle with connection]]_ and also at _[[differential cohomology diagram]]_ in the section on _[Deligne coefficients](differential+cohomology%20diagram#DeligneCoefficients)_. In particular the [[homotopy limit]] over this diagram -- hence the [[homotopy fiber]] of the two maps -- is a version of the [[Deligne complex]]:
 
 $$
   \array{
@@ -340,7 +368,7 @@ $$
 Since [[homotopy pullbacks]] are preserved by foming [[mapping spaces]] into them, this statement holds true after evaluating on $\Sigma$ (which produces the [[Cech cohomology|Cech-]][[Deligne complexes]]). Forming the [[n-truncated object of an (infinity,1)-category|0-truncation]] $\tau_0$ of the result gives the differential cohomology group $H^{2k+2}(\Sigma, \mathbb{Z}(k+1)_{D})$ 
 appearing in theorem \ref{DeligneTheorem}.
 
-Alternatively, first passing the 0-truncation of the diagram and then producing the pullback yields the Hodge cocycle group of prop. \ref{HodgeCyclesAsPullbackOfHolomorphic}.
+Alternatively, first passing to the 0-truncation of the diagram and then producing the pullback yields the Hodge cocycle group of prop. \ref{HodgeCyclesAsPullbackOfHolomorphic}.
 
 Accordingly, the statement of theorem \ref{DeligneTheorem} may equivalently be rephrased in the following more suggestive way:
 
@@ -364,7 +392,7 @@ $$
 =--
 
 This formulation of the intermediate Jacobian has a
-straightforward generalization from [[ordinary differential cohomology]] to [[differential cohomology|differential]] [[generalized (Eilenberg-Steenrod) cohomology]]. This we turn to [below](#GeneralDescripion).
+straightforward generalization from [[ordinary differential cohomology]] to [[differential cohomology|differential]] [[Whitehead-generalized cohomology]]. This we turn to [below](#GeneralDescripion).
 
 
 #### The Griffith complex structure
@@ -378,7 +406,7 @@ $$
   H^{2k+1}(\Sigma , \mathbb{R})\otimes_{\mathbb{R}} (\mathbb{C})
 $$
 
-induces a [[complex manifold]] structure on $H^{2k+1}(\Sigma , \mathbb{C})$ and hence the structure of a [[complex torus]] on $k$th intermediate Jacobian as defined above. This is the structure originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_.  Reviews include ([Walls 12](#Walls12), [Esnault-Viehweg 88, section 7.8](#EsnaultViehweg88)).
+induces a [[complex manifold]] structure on $H^{2k+1}(\Sigma , \mathbb{C})$ and hence the structure of a [[complex torus]] on $k$th intermediate Jacobian as defined above. This is the structure originally defined in ([Griffiths 68a](#Griffiths68a), [Griffiths 68b](#Griffiths68b)) and hence called the _Griffith intermediate Jacobian_.  Reviews include ([Walls (2012)](#Walls12), [Esnault & Viehweg (1988), section 7.8](#EsnaultViehweg88)).
 
 
 #### The Weil complex structure
@@ -386,7 +414,7 @@ induces a [[complex manifold]] structure on $H^{2k+1}(\Sigma , \mathbb{C})$ and 
 
 There is another natural [[complex structure]] on $H^{2k-1}(X, \mathbb{R})/H^{2k-1}(X, \mathbb{Z})$, equipped with that it is called the _Weil intermediate Jacobian_.
 
-Let as before $n \coloneqq dim_{\mathbb{C}}(\Sigma) $.
+Let as before $n \,\coloneqq\, dim_{\mathbb{C}}(\Sigma)$.
 Choose a [[Hermitian manifold]] structure on $\Sigma$. Then [[Serre duality]] on forms of total odd degree
 
 $$
@@ -747,11 +775,10 @@ For the [[RR-field]] component in degree 4 of [[type IIA superstring theory]]: (
 
 The definition of the Griffith intermediate Jacobian is due to
 
-* {#Griffiths68a} [[Phillip Griffiths]], _Periods of integrals on algebraic manifolds. I_ Construction and properties of the modular varieties", American Journal of Mathematics 90 (2): 568&#8211;626, (1968) doi:10.2307/2373545, ISSN 0002-9327, JSTOR 2373545, MR 0229641
+* {#Griffiths68a} [[Phillip Griffiths]], _Periods of integrals on algebraic manifolds. I_ Construction and properties of the modular varieties", American Journal of Mathematics 90 (2): 568&#8211;626, (1968) &lbrack;doi:10.2307/2373545, ISSN 0002-9327, JSTOR 2373545, MR 0229641&rbrack;
 
-* {#Griffiths68b} [[Phillip Griffiths]]  _Periods of integrals on algebraic manifolds. II_ Local study of the period mapping", American Journal of Mathematics 90 (3): 805&#8211;865 (1968), doi:10.2307/2373485, ISSN 0002-9327, JSTOR 2373485, MR 0233825 
+* {#Griffiths68b} [[Phillip Griffiths]], _Periods of integrals on algebraic manifolds. II_ Local study of the period mapping", American Journal of Mathematics 90 (3): 805&#8211;865 (1968) &lbrack;doi:10.2307/2373485, ISSN 0002-9327, JSTOR 2373485, summary:[[GriffithsPeriodsSummary.pdf:file]], MR 0233825 &rbrack;
 
-  (summary [[GriffithsPeriodsSummary.pdf:file]])
 
 A review including also the Weil complex structure is in 
 
@@ -767,8 +794,7 @@ The mid-dimensional case was discussed in unpublished work by Lazzeri, see
 
 The relation of the intermediate Jacobian to [[Deligne cohomology]] (Deligne's theorem) due to [[Pierre Deligne]] is discussed in
 
-* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], section 7 of _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
-
+* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], Section 7 of: _Deligne-Beilinson cohomology_, in: [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_  Perspectives in Mathematic **4**, Academic Press, Inc. (1988) &lbrack;ISBN:978-0-12-581120-0, [[EsnaultViehweg-DeligneBeilinsonCohomology.pdf:file]]&rbrack;
 
 Reviews and surveys include
 
@@ -820,11 +846,11 @@ Applications in [[string theory]]:
 
 The relation of Theta characteristics on [[intermediate Jacobians]] to [[self-dual higher gauge theory]] was first recognized in 
 
-* {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J.Geom.Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+* {#Witten96} [[Edward Witten]], *Five-Brane Effective Action In M-Theory*, J. Geom. Phys. **22** (1997) 103-133 &lbrack;[arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234)&rbrack;
 
 and the argument there was made rigorous in 
 
-* {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+* {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_ (2005)
 
 ### For generalized cohomology
 
