@@ -28,6 +28,10 @@ Introduction and survey:
 
 Refinement of the [[Abel-Jacobi map]] to [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[MU]]-[[cobordism cohomology theory]]:
 
+* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*, Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+
+and a geometric cocycle model by actual [[cobordism]]-classes:
+
 * [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
 
 On [[Umkehr maps]] in [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[complex cobordism cohomology]]:
