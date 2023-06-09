@@ -170,12 +170,23 @@ The [[holomorphic de Rham complex]] is naturally [[filtered object|filtered]] by
 $$
   F^p \Omega^\bullet_X
   \coloneqq
-  (0 \to \cdots \to \Omega^p_X \stackrel{\partial}{\longrightarrow}
-   \Omega^{p+1} \stackrel{\partial}{\longrightarrow} \cdots)
+  \big(
+    0 
+     \to 
+    \cdots 
+      \to  
+    0
+      \to 
+    \Omega^p_X 
+      \stackrel{\partial}{\longrightarrow}
+    \Omega^{p+1} 
+      \stackrel{\partial}{\longrightarrow} 
+   \cdots
+   \big)
   \,.
 $$
 
-Notice that here $\Omega^p$ is still regarded as sitting in degree $-p$, one just replaces by 0 in the holomorphic de Rham complex the groups of differential forms of degree less than $p$.
+Notice that here $\Omega^p$ is still regarded as sitting in degree $-p$, one just replaces by 0 the groups of differential forms of degree less than $p$.
 
 =--
 
@@ -219,7 +230,7 @@ $$
 
 =--
 
-(e.g. [Voisin 02, remark 8.29](#Voisin02), [Voisin, 1.1.2](#Voisin) [Peters-Steenbrink 08, prop 2.22](#PetersSteenbrink08)).
+(e.g. [Voisin 02, remark 8.29](#Voisin02); [Voisin 08, 1.1.2](#Voisin08); [Peters-Steenbrink 08, prop 2.22](#PetersSteenbrink08)).
 
 +-- {: .num_remark #FrolicherEquivalenceInComponents}
 ###### Remark
@@ -278,7 +289,7 @@ $$
   \,.
 $$
 
-This map exhibits the equivalence in theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} (e.g. [Voisin, section 1.1.2](#Voisin)).
+This map exhibits the equivalence in theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} (e.g. [Voisin 08, section 1.1.2](#Voisin08)).
 
 Dually, 
 
@@ -401,31 +412,34 @@ $$
 * [[Lefschetz decomposition]]
 
 
+
 ## References
 
-Textbook accounts:
+The basic Hodge filtration:
 
-* {#Kulikov98} [[Valentine S. Kulikov]], *Mixed Hodge Structures and Singularities*, Cambridge University Press (1998) $[$[doi:10.1017/CBO9780511758928](https://doi.org/10.1017/CBO9780511758928)$]$
+* {#Voisin08} [[Claire Voisin]], *Hodge theory and the topology of compact Kähler and complex projective manifolds*, Lecture notes (2008) &lbrack;[pdf](http://www.math.columbia.edu/~thaddeus/seattle/voisin.pdf), [[Voisin-HodgeTheory.pdf:file]]&rbrack;
 
+* [[Stacks Project]], *The Hodge Filtration* &lbrack;[tag:0FM7](https://stacks.math.columbia.edu/tag/0FM7)&rbrack;
+
+
+Textbook accounts on Hodge structures:
+
+* {#Kulikov98} [[Valentine S. Kulikov]], *Mixed Hodge Structures and Singularities*, Cambridge University Press (1998) &lbrack;[doi:10.1017/CBO9780511758928](https://doi.org/10.1017/CBO9780511758928)&rbrack;
 
 * {#Voisin02} [[Claire Voisin]], section 7 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
-* {#Voisin} [[Claire Voisin]], _Hodge theory and the topology of compact K&#228;hler and complex projective manifolds_ ([pdf](http://www.math.columbia.edu/~thaddeus/seattle/voisin.pdf))
-
-
-* {#PetersSteenbrink08} [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
+* {#PetersSteenbrink08} [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) &lbrack;[pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck), [doi:10.1007/978-3-540-77017-6](https://doi.org/10.1007/978-3-540-77017-6)&rbrack;
 
 The notion of mixed Hodge structures was introduced in 
 
-* {#Deligne71} [[Pierre Deligne]], _Th&#233;orie de Hodge II_, Publ. Math. I.H.E.S, 40, 5&#8211;58 (1971)
+* {#Deligne71} [[Pierre Deligne]], _Théorie de Hodge II_, Publ. Math. I.H.E.S **40** (1971) 5-58 &lbrack;[numdam:PMIHES_1971__40__5_0](http://www.numdam.org/item/PMIHES_1971__40__5_0), [doi:10.1007/BF02684692](https://doi.org/10.1007/BF02684692)&rbrack;
  
+* {#Deligne74} [[Pierre Deligne]], _Théorie de Hodge III_, Publ. Math., I. H. E. S **44** (1974) 5-77 &lbrack;[numdam:PMIHES_1974__44__5_0](http://www.numdam.org/item/PMIHES_1974__44__5_0), [doi:10.1007/BF02685881](https://doi.org/10.1007/BF02685881)&rbrack;
 
-* {#Deligne74} [[Pierre Deligne]], _Th&#233;orie de Hodge III_, Publ. Math., I. H. E. S, 44, 5-77 (1974)
 
+Review:
 
-A review is in section 8.4 of 
-
-* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+* [[Alain Connes]], [[Matilde Marcolli]], Section 8.4 of: *[[Noncommutative Geometry, Quantum Fields and Motives]]*
 
 
  
@@ -437,8 +451,7 @@ See also
 
 * Wikipedia, _[Hodge structure](http://en.wikipedia.org/wiki/Hodge_structure), 
 
-* [[Donu Arapura]], _Mixed Hodge Structures Associated to
-Geometric Variations_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/tifr.pdf))
+* [[Donu Arapura]], _Mixed Hodge Structures Associated to Geometric Variations_ &lbrack;[pdf](http://www.math.purdue.edu/~dvb/preprints/tifr.pdf)&rbrack;
 
 
 *  [[eom]], 
