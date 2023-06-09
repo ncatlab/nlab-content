@@ -1137,6 +1137,9 @@ The external tensor product of of [[quasicoherent sheaves]]  in ([[derived algeb
 
 * {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. **23** 4 (2010) 909-966 &lbrack;[arXiv:0805.0157](http://arxiv.org/abs/0805.0157), [ISSN:1088-6834](https://www.ams.org/journals/jams/2010-23-04/S0894-0347-10-00669-7)&rbrack;
 
+The external product on [[cobordism rings]]:
+
+* {#Quillen71} [[Daniel Quillen]], §1.6 in: *Elementary Proofs of Some Results of Cobordism Theory Using Steenrod Operations*, Advances in Mathematics **7** (1971) 29–56 &lbrack;<a href="http://dx.doi.org/10.1016/0001-8708(71)90041-7">doi:10.1016/0001-8708(71)90041-7</a>&rbrack;
 
 {#ReferencesExternalSmashProduct} The external [[smash product]] of [[retractive spaces]] and of [[parameterized spectra]]:
 
