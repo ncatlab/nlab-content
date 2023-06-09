@@ -92,6 +92,8 @@ If $X$ happens to be a [[Kähler manifold]] then the [[Frölicher spectral seque
 
 * [[Hodge cohomology]]
 
+* [[Hodge-filtered differential cohomology]]
+
 ## References
 
 * {#Voisin02} [[Claire Voisin]], section 8.2 of _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
@@ -99,5 +101,9 @@ If $X$ happens to be a [[Kähler manifold]] then the [[Frölicher spectral seque
 
 * {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, J. Soviet Math. 30 (1985), 2036-2070 (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88)) ([doi](http://dx.doi.org/10.1007/BF02105861))
 
-* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], section 2.5 of _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
+* {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], section 2.5 of: *Deligne-Beilinson cohomology*, in: [[Michael Rapoport]], [[Norbert Schappacher]], [[Peter Schneider]] (eds.), _[[Beilinson's Conjectures on Special Values of L-Functions]]_, Perspectives in Mathematics **4**, Academic Press, Inc. (1988) &lbrack;ISBN:978-0-12-581120-0, [[EsnaultViehweg-DeligneBeilinsonCohomology.pdf:file]]&rbrack;
 
+
+
+
+[[!redirects holomorphic de Rham complexes]]
