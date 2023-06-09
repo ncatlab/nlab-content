@@ -24,7 +24,7 @@
 
 What is called *Hodge-filtered cohomogy* &lbrack;[Hopkins & Quick (2014)](#HopkinsQuick14)&rbrack; is the variant of [[differential generalized cohomology]] obtained by passing from real [[differential geometry]] to [[complex geometry]]: 
 
-Where [[differential cohomology]] by default  pairs a given   [[Whitehead-generalized cohomology theory]] $E$ of [[underlying]] [[topological spaces]] with the degree-filtered $E_\bullet \otimes \mathbb{R}$-valued [[de Rham complexes]] of [[differential forms]] on real [[smooth manifolds]], the Hodge-filtered variant pairs instead with the [[Hodge filtration|Hodge filtered]] $E_\bullet \otimes \mathbb{C}$-valued [[Dolbeault complexes]], namely really (see [there](Hodge+structure#HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure)) with the degree-filtered [[holomorphic de Rham complexes]].
+Where [[differential cohomology]] by default  pairs a given   [[Whitehead-generalized cohomology theory]] $E$ of [[underlying]] [[topological spaces]] with the degree-filtered $E_\bullet \otimes \mathbb{R}$-valued [[de Rham complexes]] of [[differential forms]] on real [[smooth manifolds]], the Hodge-filtered variant pairs instead with the [[Hodge filtration|Hodge filtered]] $E_\bullet \otimes \mathbb{C}$-valued [[Dolbeault complexes]] &lbrack;[Haus & Quick (2022), p. 3](HausQuick22)&rbrack;, hence equivalently (see [there](Hodge+structure#HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure)) with the degree-filtered [[holomorphic de Rham complexes]] &lbrack;[Hopkins & Quick (2014), Def. 4.2](#HopkinsQuick14)&rbrack;.
 
 Concretely, for $p \in \mathbb{Z}$, the *Hodge-filtered $E$-cohomology* $E^\bullet_{\mathcal{D}}(p)(\mathcal{X})$ of a [[complex manifold]] $\mathcal{X}$, or more generally of an [[infinity-stack|$\infty$-stack]] over the [[site]] $Mfd_{\mathbb{C}}$ of all [[complex manifolds]] (with [[open covers]]), is the [[cohomology]] in the [[(infinity,1)-category|$\infty$-category]] of [[(infinity,1)-sheaves of spectra|$(\infty,1)$-sheaves of spectra]] $Sp\big(Sh_\infty(Mfd_{\mathbb{C}})\big)$ which is represented by the [[homotopy fiber product]]-spectrum
 
@@ -43,7 +43,7 @@ Concretely, for $p \in \mathbb{Z}$, the *Hodge-filtered $E$-cohomology* $E^\bull
 \]
 where
 
-* $E$ denotes the [[spectrum]] [[Brown representability theorem|representing]] the given [[Whitehead-generalized cohomology theory]] $E$ and regarded as a [[locally constant infinity-stack|locally constant $\infty$-stack]];
+* $E$ denotes the [[spectrum]] [[Brown representability theorem|representing]] the given [[Whitehead-generalized cohomology theory]], regarded as a [[locally constant infinity-stack|locally constant]] [[(infinity,1)-sheaf of spectra|$(\infty,1)$-sheaf of spectra]];
 
 * $\Omega^\bullet(\text{-};A_\bullet)$ denotes the [[abelian sheaf]] of [[chain complexes]] given by the [[holomorphic de Rham complex]] with [[coefficients]] in a [[graded abelian group]] $A_\bullet$ and understood as an [[(infinity,1)-sheaf of spectra|$(\infty,1)$-sheaf of]] [[Eilenberg-MacLane spectra]] via the [[stable Dold-Kan correspondence]];
 
@@ -54,6 +54,7 @@ where
 This is [Hopkins & Quick (2014), Def. 4.2](#HopkinsQuick14), being the direct holomorphic analog of the respective definition of [[differential cohomology]] (cf. the *[[differential cohomology hexagon]]*) in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins & Singer (2005)]] (except for that conventional rescaling by $(2\pi \mathrm{i})^{\bullet/2}$.)
 
 In the special case where $E \,\coloneqq\, H\mathbb{Z}$ is [[integral cohomology|integral]] [[ordinary cohomology]] the above homotopy pullback (eq:DefiningHomotopyPullback) reproduces the [[Deligne complex]] in its original form (see the details spelled out [there](Deligne+cohomology#TheDifferentialHexagonForDeligne); but the key observation may be recognized already in the classical review of [Esnault & Viehweg (1988), Def. 2.6](Deligne+cohomology#EsnaultViehweg88)), whence the subscript "$\mathcal{D}$" in the above definition may be read as being for "generalized Deligne cohomology".
+
  
 ## References
 
@@ -63,9 +64,21 @@ The general concept of Hodge-filtered [[differential cohomology]] and introducin
 
 * {#HopkinsQuick14} [[Michael J. Hopkins]], [[Gereon Quick]], *Hodge filtered complex bordism*, Journal of Topology **8** 1 (2014) 147-183 &lbrack;[arXiv:1212.2173](https://arxiv.org/abs/1212.2173), [doi:10.1112/jtopol/jtu021](https://doi.org/10.1112/jtopol/jtu021)&rbrack;
 
-### Hodge filtered ordinary cohomology
+
+### Hodge-filtered ordinary cohomology
 
 The case of Hodge-filtered [[integral cohomology|integral]]$\;$[[ordinary cohomology]] is the original definition of *[[Deligne cohomology]]*, see [there](Deligne+cohomology#References) for references.
+
+
+### Hodge-filtered topological K-theory
+
+A Hodge-filtered form of complex [[topological K-theory]] appears (cf. [Quick (2016), p. 2](#Quick16)) in:
+
+* [[Max Karoubi]], *Théorie générale des classes caractéristiques secondaires*, K-Theory **4** 1 (1990) 55-87 &lbrack;[doi:10.1007/BF00534193](http://dx.doi.org/10.1007/BF00534193), [pdf](https://webusers.imj-prg.fr/~max.karoubi/Publications/43.pdf)&rbrack;
+
+* [[Max Karoubi]], *Classes Caractéristiques de Fibrés Feuilletés, Holomorphes ou Algébriques*, in: *Proceedings of Conference on Algebraic Geometry and Ring Theory* in honor of Michael Artin, Part II (Antwerp 1992), K-Theory **8** 2 (1994) 153-211 &lbrack;[doi:10.1007/BF00961455](http://dx.doi.org/10.1007/BF00961455)&rbrack;
+
+
 
 ### Hodge-filtered complex cobordism
 
@@ -77,13 +90,14 @@ Introduction and survey:
 
 * [[Gereon Quick]], *Geometric Hodge filtered complex cobordism*, [talk at](Center+for+Quantum+and+Topological+Systems#QuickMar2023) *[[CQTS]]* (March 2023) &lbrack;video:[YT](https://www.youtube.com/watch?v=pMu0gT5kIBo)&rbrack;
 
-A geometric cocycle model:
-
-* [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
-
 Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
 
-* [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*, Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+* {#Quick16} [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*, Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+
+
+A geometric cocycle model by actual [[cobordism]]-classes:
+
+* {#HausQuick22} [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
 
 
 On [[Umkehr maps]] in this context:
