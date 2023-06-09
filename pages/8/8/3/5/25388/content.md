@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
+A geometric cocycle model for [[Hodge-filtered differential cohomology|Hodge-filtered differential]] [[MU]]-[[cobordism cohomology theory]]:
 
 * [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
 
