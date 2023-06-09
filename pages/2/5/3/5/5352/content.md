@@ -56,6 +56,8 @@ $$
 
 * [[pullback of a distribution]]
 
+[[!redirects Jacobians]]
+
 [[!redirects Jacobian matrix]]
 [[!redirects Jacobian determinant]]
 
