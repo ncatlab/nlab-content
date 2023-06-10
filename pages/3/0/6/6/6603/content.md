@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[differential geometry]] with focus of [[geometric optics]] and [[current (distribution theory)|currents]]:
+
+* [[Victor Guillemin]], [[Shlomo Sternberg]], *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
+
+
 On [[supersymmetry]] and the [[equivariant de Rham complex]]:
 
 * {#GuilleminSternberg99} [[Victor Guillemin]], [[Shlomo Sternberg]], _Supersymmetry and equivariant de Rham theory_, Springer, (1999) ([doi:10.1007/978-3-662-03992-2](https://link.springer.com/book/10.1007/978-3-662-03992-2))
