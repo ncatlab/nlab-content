@@ -36,15 +36,19 @@ Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding
 > $[$[old personal page](https://phy.princeton.edu/people/alexander-polyakov)$]$: "My main interests this year $[$1993?$]$ were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances."
 
 
-Early suggestion, due to the [[Liouville theory|Liouville field]] see in the [[quantization]] of the [[bosonic string]] via the [[Polyakov action]], 
+Early suggestion, due to the [[Liouville theory|Liouville field]] seen in the [[quantization]] of the [[bosonic string]] via the [[Polyakov action]], 
 
 * {#Polyakov81} [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 $[$<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)$]$
 
-that such [[flux tubes]] regarded as [[confinement|confinig]] [[strings]] are to be thought of a probing higher dimensional spacetime, exhibiting a [[holographic principle]] in which actual spacetime appears as a [[intersecting brane model|brane]]:
+that such [[flux tubes]] regarded as [[confinement|confining]] [[strings]] are to be thought of a probing higher dimensional spacetime, exhibiting a [[holographic principle]] in which actual spacetime appears as a [[intersecting brane model|brane]]:
 
 * {#Polyakov98} [[Alexander Polyakov]], *String Theory and Quark Confinement*, talk at [Strings'97](https://inspirehep.net/conferences/970718), Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 $[$[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>$]$
 
+  > "In other words the open string flies in the $(x,\phi)$-space keeping its feet (its ends) on the ground $(\phi=0)$."
+
 * {#Polyakov99} [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 $[$[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)$]$
+
+  > "We add new arguments that the Yang-Mills theories must be described by the non-critical strings in the five dimensional curved space. The physical meaning of the fifth dimension is that of the [[renormalization]] scale represented by the [[Liouville field]]."
 
 eventually culminating in the formulation of the dictionary for the [[AdS-CFT correspondence]]:
 
