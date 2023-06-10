@@ -298,7 +298,10 @@ which were first picked up in
 
 and brought into context with the [[Hadamard distributions]] needed for the [[construction]] of [[Wick algebras]] in 
 
-* {#Radzikowski96} [[Marek Radzikowski]], _Micro-local approach to the Hadamard condition in quantum field theory on curved space-time_, Commun. Math. Phys. 179 (1996), 529&#8211;553 ([Euclid](http://projecteuclid.org/euclid.cmp/1104287114))
+* {#Radzikowski96} [[Marek Radzikowski]], *Micro-local approach to the Hadamard condition in quantum field theory on curved space-time*, Commun. Math. Phys. **179** (1996) 529-553 &lbrack;[doi:10.1007/BF02100096](https://doi.org/10.1007/BF02100096), [euclid:cmp/1104287114](http://projecteuclid.org/euclid.cmp/1104287114)&rbrack;
+
+* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], *Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds*, Commun. Math. Phys. **208** (2000) 623-661 &lbrack;[math-ph/9903028](https://arxiv.org/abs/math-ph/9903028), [doi:10.1007/s002200050004](https://doi.org/10.1007/s002200050004)&rbrack;
+
 
 A textbook account amplifying this usage (on [[Minkowski spacetime]]) in the mathematically rigorous construction of [[perturbative quantum field theory]] via [[causal perturbation theory]] is in 
 
