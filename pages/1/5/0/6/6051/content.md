@@ -146,10 +146,15 @@ which is the Polyakov action with "[[cosmological constant]]" $(p-1)$.
 
 ## References
 
-The Polyakov action was introduced in:
+The Polyakov action (and its relation to [[Liouville theory]]) was introduced in:
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
+Further discussion:
+
+* [[Jean-Loup Gervais]], [[André Neveu]], *The dual string spectrum in Polyakov's quantization (I)*, Nuclear Physics B **199** 1 (1982) 59-76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90566-1">doi:10.1016/0550-3213(82)90566-1</a>&rbrack;
+
+* [[Jean-Loup Gervais]], [[André Neveu]], *Dual string spectrum in Polyakov's quantization (II). Mode separation*, Nuclear Physics B **209** 1 (1982) 125-145 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90105-5">doi:10.1016/0550-3213(82)90105-5</a>&rbrack;
 
 Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]] is in 
 
@@ -158,6 +163,7 @@ Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac
 See also 
 
 * Wikipedia, _[Polyakov action](https://en.wikipedia.org/wiki/Polyakov_action)_
+
 
 [[!redirects Polyakov action functional]]
 
