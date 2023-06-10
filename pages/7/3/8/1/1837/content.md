@@ -211,11 +211,13 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 ### General
 
-General textbook accounts:
+Textbook accounts:
 
-* Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley 2008 ([ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364))
+* [[Yuri Makeenko]], *Methods of contemporary gauge theory*, Cambridge Monographs on Math. Physics, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511535147]( https://doi.org/10.1017/CBO9780511535147), [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)&rbrack;
 
 * [[Mikio Nakahara]], Section 10.5 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+* Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley 2008 ([ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364))
 
 
 Basics on [[fiber bundles in physics]] are recalled in
