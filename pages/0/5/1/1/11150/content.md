@@ -12,6 +12,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,11 +27,16 @@ In the context of [[quantum field theory]], _Liouville theory_ is the name of a 
 
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to ([Coussaert-Henneaux-vanDriel 95](#CoussaertHenneauxvanDriel95)). See also at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
+
+
 ## Related concepts
+
+* [[dilaton]]
 
 * [[AGT correspondence]]
 
 * [[Jackiw-Teitelboim gravity]]
+
 
 ## References
 
@@ -38,14 +44,19 @@ On the non-critical [[bosonic string]] via Liouville theory (cf. *[[Polyakov act
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
+* [[Jean-Loup Gervais]], [[André Neveu]], *The dual string spectrum in Polyakov's quantization (I)*, Nuclear Physics B **199** 1 (1982) 59-76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90566-1">doi:10.1016/0550-3213(82)90566-1</a>&rbrack;
 
-Survey:
+* [[Jean-Loup Gervais]], [[André Neveu]], *Dual string spectrum in Polyakov's quantization (II). Mode separation*, Nuclear Physics B **209** 1 (1982) 125-145 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90105-5">doi:10.1016/0550-3213(82)90105-5</a>&rbrack;
 
+* [[Thomas L. Curtright]], [[Charles B. Thorn]], *Conformally Invariant Quantization of the Liouville Theory*, Phys. Rev. Lett. **48** (1982) 1309; Erratum Phys. Rev. Lett. **48**,  (1982) 1768 &lbrack;[doi:10.1103/PhysRevLett.48.1309](https://doi.org/10.1103/PhysRevLett.48.1309)&rbrack;
+
+Review and survey:
 
 * {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], appendix A.1 of _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
-See also:
+* [[Harold Erbin]], *Notes on 2d quantum gravity and Liouville theory* (2015) &lbrack;[pdf](http://www.lpthe.jussieu.fr/~erbin/files/liouville_theory.pdf), [[Erbin-LiouvilleTheory.pdf:file]]&rbrack;
 
+See also:
 
 * Wikipedia, _[Liouville field theory](http://en.wikipedia.org/wiki/Liouville_field_theory)
 
@@ -90,5 +101,13 @@ Relation to the $SL(2,\mathbb{R})$-[[gauged WZW-model]] and [[analytically conti
 * Jian-Feng Wu, Yang Zhou, _From Liouville to Chern-Simons, Alternative Realization of Wilson Loop Operators in AGT Duality_ ([arXiv:0911.1922](http://arxiv.org/abs/0911.1922))
 
 category: physics
+
 [[!redirects Liouville field theory]]
+
+[[!redirects Liouville field]]
+[[!redirects Liouville fields]]
+
 [[!redirects Liouville gravity]]
+
+
+
