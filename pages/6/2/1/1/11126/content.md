@@ -1141,6 +1141,17 @@ The external product on [[cobordism rings]]:
 
 * {#Quillen71} [[Daniel Quillen]], §1.6 in: *Elementary Proofs of Some Results of Cobordism Theory Using Steenrod Operations*, Advances in Mathematics **7** (1971) 29–56 &lbrack;<a href="http://dx.doi.org/10.1016/0001-8708(71)90041-7">doi:10.1016/0001-8708(71)90041-7</a>&rbrack;
 
+and on [[differential cobordism cohomology|differential cobordism rings]]:
+
+* [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schroeder, Moritz Wiethaup, §3.3.10 in: *Landweber exact formal group laws and smooth cohomology theories*, Algebr. Geom. Topol. **9** (2009) 1751-1790 &lbrack;[arXiv:0711.1134](https://arxiv.org/abs/0711.1134), [doi:10.2140/agt.2009.9.1751](https://doi.org/10.2140/agt.2009.9.1751)&rbrack;
+
+and in the [[Hodge-filtered differential cohomology|Hodge-filtered version]]:
+
+* [[Knut Bjarte Haus]], §4.1.8, §4.10 in: *Geometric Hodge filtered complex cobordism*, PhD thesis (2022) &lbrack;[ntnuopen:3017489](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3017489)&rbrack;
+
+* [[Knut B. Haus]], [[Gereon Quick]], §2.11 in: *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+
+
 {#ReferencesExternalSmashProduct} The external [[smash product]] of [[retractive spaces]] and of [[parameterized spectra]]:
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], §7.3 of: _[[Parametrized Homotopy Theory]]_, Mathematical Surveys and Monographs **132**, AMS (2006) &lbrack;[arXiv:math/0411656](https://arxiv.org/abs/math/0411656)&rbrack;
