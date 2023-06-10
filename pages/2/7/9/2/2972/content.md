@@ -67,6 +67,8 @@ The [[gradient flow]] of the [[action functional]] for [[dilaton gravity]] is es
 
 ## Related concepts
 
+* [[Liouville theory]]
+
 * [[JT-gravity]]
 
 [[!include fields and quanta - table]]
