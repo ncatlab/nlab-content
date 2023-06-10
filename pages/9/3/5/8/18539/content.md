@@ -69,7 +69,7 @@ The observation that the pertruabtive interacting field quantum observables form
 
 then rediscovered in
 
-* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
+* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], *Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds*, Commun. Math. Phys. **208** (2000) 623-661 &lbrack;[math-ph/9903028](https://arxiv.org/abs/math-ph/9903028), [doi:10.1007/s002200050004](https://doi.org/10.1007/s002200050004)&rbrack;
 
 and made more explicit in
 
