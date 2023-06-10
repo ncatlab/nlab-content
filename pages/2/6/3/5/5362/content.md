@@ -59,3 +59,4 @@ By applying a theorem of [[Denis-Charles Cisinski]]. (...)
 Suppose $A=\Delta$ is the [[simplex category]], and  let $S$ consist only of the inclusion $\{1\}:\Delta^0\to\Delta^1$. Applying Cisinski's anodyne completion of $S$ by Lawvere's cylinder $\mathbf{\Lambda}_\mathfrak{L}(S,M)$, we get exactly the [[model structure for right fibrations|contravariant model structure]] on the category of simplicial sets.   
 
 [[!redirects Lawvere intervals]]
+[[!redirects Lawvere cylinder]]
