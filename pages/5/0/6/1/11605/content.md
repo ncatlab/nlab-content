@@ -779,10 +779,11 @@ The definition of the Griffith intermediate Jacobian is due to
 
 * {#Griffiths68b} [[Phillip Griffiths]], _Periods of integrals on algebraic manifolds. II_ Local study of the period mapping", American Journal of Mathematics 90 (3): 805&#8211;865 (1968) &lbrack;doi:10.2307/2373485, ISSN 0002-9327, JSTOR 2373485, summary:[[GriffithsPeriodsSummary.pdf:file]], MR 0233825 &rbrack;
 
-
-A review including also the Weil complex structure is in 
+Review:
 
 * {#Griffiths12} [[Phillip Griffiths]], section 1 of _Some results on algebraic cycles on algebraic manifolds_, Proceedings of the International Conference on Algebraic Geometry, Tata Institute (Bombay), 2012 ([web](http://publications.ias.edu/node/181), [pdf](http://publications.ias.edu/sites/default/files/someresultsonalg.pdf))
+
+* [Haus (2022), Ch 1](#Haus22).
 
 For $k = 0$ but with generalization to non-abelian [[moduli space of flat connections]] the Grifiths-like follows also with the [[Donaldson-Uhlenbeck-Yau theorem]] as discussed in 
 
@@ -869,9 +870,17 @@ A mathematical discussion inspired by this is in
 
 * {#MPS11} [[Stefan Müller-Stach]], Chris Peters, Vasudevan Srinivas, _Abelian varieties and theta functions associated to compact Riemannian manifolds; constructions inspired by superstring theory_ ([arXiv:1105.4108](http://arxiv.org/abs/1105.4108), [pdf slides](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf))
 
-A discussion of intermediate Jacobians for any rationally periodic [[generalized (Eilenberg-Steenrod) cohomology]] theory is in 
+Discussion of intermediate Jacobians in generalized [[Hodge-filtered differential cohomology]],:
 
 * {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
+
+specifically in Hodge-filtered [[differential cobordism cohomology]]:
+
+* {#Quick16} [[Gereon Quick]], *An Abel-Jacobi invariant for cobordant cycles*, Documenta Mathematica **21** (2016) 1645–1668 &lbrack;[arXiv:1503.08449](https://arxiv.org/abs/1503.08449)&rbrack;
+
+* {#Haus22} [[Knut Bjarte Haus]], *Geometric Hodge filtered complex cobordism*, PhD thesis (2022) &lbrack;[ntnuopen:3017489](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3017489)&rbrack;
+
+
  
 [[!redirects intermediate Jacobians]]
 
