@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning string]] (via the supersymmetric [[Polyakov action]]):
+
+* [[Stanley Deser]], [[Bruno Zumino]], *A complete action for the spinning string*, Physics Letters B **65** 4 (1976) 369-373 ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
+
+
+
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
 * [[Stanley Deser]], [[Roman Jackiw]], [[Gerard 't Hooft]], _Three-dimensional Einstein gravity: Dynamics of flat space_, Ann. Phys. 152 (1984) 220 (<a href="https://doi.org/10.1016/0003-4916(84)90085-X">doi:10.1016/0003-4916(84)90085-X</a>)
