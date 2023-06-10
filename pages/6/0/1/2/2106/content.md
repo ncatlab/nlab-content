@@ -52,7 +52,7 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 
 ## References
 
-Introductions include
+Introductions:
 
 * Rolf Berndt, _An introduction to symplectic geometry_ ([pdf](http://www.ams.org/bookstore/pspdf/gsm-26-prev.pdf))
 
@@ -68,7 +68,7 @@ For more on this see [[Hamiltonian mechanics]].
 
 Symplectic geometry is also involved in [[geometric optics]], [[geometric quantization]] and the study of oscillatory integrals and [[microlocal analysis]]. Books concentrating on these topics include
 
-* [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric asymptotics_, Amer. Math. Soc. 1977 [free online](http://www.ams.org/online_bks/surv14)
+* [[Victor Guillemin]], [[Shlomo Sternberg]], *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
 
 * Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
