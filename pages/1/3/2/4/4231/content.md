@@ -493,7 +493,7 @@ Similarly, the second axiom of def. \ref{ElementaryHomotopicalDatum} holds becau
 
 +-- {: .num_example #LawvereCylinder}
 ###### Example
-**(Lawvere cylinder)**
+**([[Lawvere cylinder]])**
 
 Let $I := \Omega$ be the [[subobject classifier]] in the [[presheaf topos]] $PSh(A)$. This is the presheaf which to an object $U$ of $A$ assigns the set of [[subobjects]] of the [[representable functor]] given by $U$ (the [[sieves]] on $U$)
 
@@ -1499,7 +1499,7 @@ If $\Lambda$ is a small set generating the anodyne extensions, $AnExt = LLP(RLP(
 
 1. $W$ is an accessible $A$-localizer, def. \ref{ALocalizer};
 
-1. There is a set $S \subset Mor(PSh(A))$ of monomorphisms, such that $W$ is the class of weak equivalences of the model structure induced by theorem \ref{ModelStructureFromHomotopicalStructure} from the homotopical structure, def. \ref{HomotopicalStructure}, given by the Lawvere cylinder, def. \ref{LawvereCylinder}, and $AnExt := S$.
+1. There is a set $S \subset Mor(PSh(A))$ of monomorphisms, such that $W$ is the class of weak equivalences of the model structure induced by theorem \ref{ModelStructureFromHomotopicalStructure} from the homotopical structure, def. \ref{HomotopicalStructure}, given by the [[Lawvere cylinder]], def. \ref{LawvereCylinder}, and $AnExt := S$.
 
 1. There is some homotopical structure, def. \ref{HomotopicalStructure}, on $PSh(A)$, such that $W$ is the class of weak equivalences of the model structure corresponding to it by theorem \ref{ModelStructureFromHomotopicalStructure}.
 
@@ -1554,7 +1554,7 @@ See ([Ara, p. 9](#Ara)).
 
 * The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
-* For any small category $A$, the homotopical datum (Definition \ref{DefinitionHomotopicalDatum}) given by the $(J, \emptyset)$, where $J$ is the Lawvere cylinder (Definition \ref{LawvereCylinder}), generates a Cisinki model structure on the category of presheaves on $A$. By  ([Cisinski 06, rem. 1.3.15](#Cisinski06)), a set of generating anodyne extensions is $A\times \Omega \cup_A B \to B \times \Omega$ where $A \to B$ are generators for the class of monomorphisms. This is sometimes known as the [[minimal Cisinski model structure]]. See also Theorem \ref{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories}.
+* For any small category $A$, the homotopical datum (Definition \ref{DefinitionHomotopicalDatum}) given by the $(J, \emptyset)$, where $J$ is the [[Lawvere cylinder ]](Definition \ref{LawvereCylinder}), generates a Cisinki model structure on the category of presheaves on $A$. By  ([Cisinski 06, rem. 1.3.15](#Cisinski06)), a set of generating anodyne extensions is $A\times \Omega \cup_A B \to B \times \Omega$ where $A \to B$ are generators for the class of monomorphisms. This is sometimes known as the [[minimal Cisinski model structure]]. See also Theorem \ref{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories}.
 
 
 ## Properties
