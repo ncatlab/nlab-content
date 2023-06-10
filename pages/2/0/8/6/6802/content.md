@@ -53,5 +53,8 @@ The [[Green-Schwarz sigma-model]] description of D3-branes via cocycles on [[ext
 * {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
 
-
 [[!redirects D3-branes]]
+
+[[!redirects D3 brane]]
+[[!redirects D3 branes]]
+
