@@ -10,9 +10,13 @@ Early discussion of [[flux tubes]]/[[Wilson lines]] as effective [[strings]] in 
   > "So the [[world sheet]] of [[string]] should be interpreted as the color magnetic dipole sheet. The string itself should be interpreted as the electric [[flux tube]] in the [[monopole]] plasma."
 
 
-On [[gauge theory]]:
+On [[gauge theory]] ([[Yang-Mills theory]]):
 
 * [[Yuri Makeenko]], *Methods of contemporary gauge theory*, Cambridge Monographs on Math. Physics, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511535147]( https://doi.org/10.1017/CBO9780511535147), [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)&rbrack;
 
 
 category: people
+
+
+[[!redirects Yuri M. Makeenko]]
+
