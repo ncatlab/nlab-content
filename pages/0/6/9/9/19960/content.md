@@ -1385,6 +1385,11 @@ Application to [[thermal field theory|thermal]] [[QCD]]:
 * Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, _Effective holographic models for QCD: Thermodynamics and viscosity coefficients_ ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
 
 
+[[!redirects gauge-string duality]]
+[[!redirects gauge-string dualities]]
+
+[[!redirects gauge/string duality]]
+[[!redirects gauge/string dualities]]
 
 
 [[!redirects AdS-QCD correspondences]]
