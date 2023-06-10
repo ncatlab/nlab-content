@@ -146,9 +146,16 @@ which is the Polyakov action with "[[cosmological constant]]" $(p-1)$.
 
 ## References
 
-The Polyakov action (and its relation to [[Liouville theory]]) was introduced in:
+The Polyakov action  is named after
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
+
+where it is discussed for the [[bosonic string]] and related to [[Liouville theory]], but in fact (cf. [Polyakov (2008), p. 3](Alexander+Polyakov#Polyakov08)) it originates already in its [[supersymmetry|supersymmetric]] enhancement for the [[spinning string]] due to
+
+* [[Stanley Deser]], [[Bruno Zumino]], *A complete action for the spinning string*, Physics Letters B **65** 4 (1976) 369-373 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90245-8">doi:10.1016/0370-2693(76)90245-8</a>[pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)&rbrack;
+
+* [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B **65** Issue 5, 20 (1976) 471-474 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90445-7">doi:10.1016/0370-2693(76)90445-7</a>&rbrack;
+ 
 
 Further discussion:
 
