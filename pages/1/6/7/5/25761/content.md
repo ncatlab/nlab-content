@@ -67,7 +67,7 @@ The general concept of Hodge-filtered [[differential cohomology]] and introducin
 
 ### Hodge-filtered ordinary cohomology
 
-The case of Hodge-filtered [[integral cohomology|integral]]$\;$[[ordinary cohomology]] is the original definition of *[[Deligne cohomology]]*, see [there](Deligne+cohomology#References) for references.
+The case of Hodge-filtered [[integral cohomology|integral]]$\;$[[ordinary cohomology]] is &lbrack;cf. [Haus (2022), §3.2](#Haus22)&rbrack; the original definition of *[[Deligne cohomology]]*, see [there](Deligne+cohomology#References) for references.
 
 
 ### Hodge-filtered topological K-theory
@@ -97,7 +97,7 @@ Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[d
 
 A geometric cocycle model by actual [[cobordism]]-classes:
 
-* [[Knut Bjarte Haus]], *Geometric Hodge filtered complex cobordism*, PhD thesis (2022) &lbrack;[ntnuopen:3017489](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3017489)&rbrack;
+* {#Haus22} [[Knut Bjarte Haus]], *Geometric Hodge filtered complex cobordism*, PhD thesis (2022) &lbrack;[ntnuopen:3017489](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3017489)&rbrack;
 
 * {#HausQuick22} [[Knut Bjarte Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
 
