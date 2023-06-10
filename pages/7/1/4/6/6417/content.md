@@ -1,5 +1,10 @@
 
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Kenneth_G._Wilson)
+
+* [[Michael Peskin]] et al., *Ken Wilson Memorial Volume -- Renormalization, Lattice Gauge Theory, the Operator Product Expansion and Quantum Fields*, World Scientific (2015) &lbrack;[doi:10.1142/9279](https://doi.org/10.1142/9279)&rbrack;
+
+  * [[Alexander Polyakov]], *Kenneth Wilson in Moscow* &lbrack;[arXiv:1502.03502](https://arxiv.org/abs/1502.03502)&rbrack;
 
 ## Selected writings
 
@@ -12,6 +17,14 @@ On [[renormalization]] and the [[renormalization group]]:
 On [[confinement]] of [[quarks]] and early suggestion of [Gauge/String duality](AdS-QCD+correspondence#PolyakovGaugeStringDualityReferences) ("[[Wilson loops]]"):
 
 * [[Kenneth G. Wilson]], *Confinement of quarks*, Phys. Rev. D **10** (1974) 2445 $[$[doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)$]$
+
+On research with [[Kenneth Wilson]]:
+
+* [[Alexander Polyakov]], *Kenneth Wilson in Moscow*, in: *Ken Wilson Memorial Volume -- Renormalization, Lattice Gauge Theory, the Operator Product Expansion and Quantum Fields*, World Scientific (2015) &lbrack;[doi:10.1142/9279](https://doi.org/10.1142/9279), [arXiv:1502.03502](https://arxiv.org/abs/1502.03502)&rbrack;
+
+
+
+  
 
 
 
