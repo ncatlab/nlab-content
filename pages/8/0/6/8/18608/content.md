@@ -143,6 +143,11 @@ Discussion in [[solid state physics]]:
 
 * Alessandra N. Braga, Wagner P. Pires, Jeferson Danilo L. Silva, Danilo T. Alves, Van Sérgio Alves, *Renormalization of the band gap in 2D materials near an interface between two dielectrics* &lbrack;[arXiv:2306.04759](https://arxiv.org/abs/2306.04759)&rbrack;
 
-
+[[!redirects mass gaps]]
 
 [[!redirects mass gap problem]]
+[[!redirects mass gap problems]]
+
+
+
+
