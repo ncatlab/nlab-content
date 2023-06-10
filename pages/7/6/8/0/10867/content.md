@@ -33,3 +33,15 @@
 
 * [[quantum gravity]]
 
+
+## References
+
+See the references at *[[particle physics]]*.
+
+See also: 
+
+* Wikipedia, *[Particle physics](https://en.wikipedia.org/wiki/Particle_physics)*
+
+
+
+
