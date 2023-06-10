@@ -73,11 +73,11 @@ The original articles that formulated the NSR model:
 * {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory_, Nucl. Phys., B271 (1986) 93 (<a href="https://doi.org/10.1016/S0550-3213(86)80006-2">doi:10.1016/S0550-3213(86)80006-2</a>)
 
 
-Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string:
+Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string (via the supersymmetric [[Polyakov action]]):
 
-* [[Stanley Deser]], [[Bruno Zumino]], _A complete action for the spinning string_ Physics Letters B 65 (4): 369-373 (1976) ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
+* [[Stanley Deser]], [[Bruno Zumino]], *A complete action for the spinning string*, Physics Letters B **65** 4 (1976) 369-373 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90245-8">doi:10.1016/0370-2693(76)90245-8</a>[pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)&rbrack;
 
-* L. Brink, P. Di Vecchia and [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B Volume 65, Issue 5, 20 (1976) Pages 471-474 
+* [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B **65** Issue 5, 20 (1976) 471-474 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90445-7">doi:10.1016/0370-2693(76)90445-7</a>&rbrack;
 
 Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is subtle (in contrast to the classical [[Green-Schwarz superstring]]), discussion is in
 
