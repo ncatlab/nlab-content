@@ -308,6 +308,19 @@ A textbook account amplifying this usage (on [[Minkowski spacetime]]) in the mat
 
 For more see the references at _[[locally covariant perturbative quantum field theory]]_.
 
+### In differential cohomology
+
+Wave-front sets of [[currents (distribution theory)|currents]] play a role in the construction of "geometric cycles" for [[differential cobordism cohomology]] by actual [[cobordism]]-classes equipped with [[differential geometry|differential geometric]] data:
+
+* [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schroeder, Moritz Wiethaup, §4.2.6 in: *Landweber exact formal group laws and smooth cohomology theories*, Algebr. Geom. Topol. **9** (2009) 1751-1790 &lbrack;[arXiv:0711.1134](https://arxiv.org/abs/0711.1134), [doi:10.2140/agt.2009.9.1751](https://doi.org/10.2140/agt.2009.9.1751)&rbrack;
+
+and in the [[Hodge-filtered differential cohomology|Hodge-filtered]] version:
+
+* {#Haus22} [[Knut Bjarte Haus]], §2.6 in: *Geometric Hodge filtered complex cobordism*, PhD thesis (2022) &lbrack;[ntnuopen:3017489](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3017489)&rbrack;
+
+* {#HausQuick22} [[Knut Bjarte Haus]], [[Gereon Quick]], §2.10 of: *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
+
+
 [[!redirects wavefront sets]]
 
 [[!redirects wave front set]]
