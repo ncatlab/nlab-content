@@ -1,9 +1,13 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Markovich_Polyakov)
 
-* [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton 
+* [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton (archived [screenshot](https://ncatlab.org/nlab/files/APolyakovOldHomepage.jpg))
 
   > My main interests this year &lbrack;1993?&rbrack; were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances.
+
+* Valery Pokrovsky, *Hidden Sasha Polyakov’s life in Statistical and Condensed Matter Physics*, in: *Polyakov’s String: Twenty Five Years After*, Proceedings of an International Workshop at Chernogolovka (2005) 2-15 &lbrack;[arXiv:hep-th/0510214](https://arxiv.org/abs/hep-th/0510214)&rbrack;
+
+
 
 ## Selected writings
 
