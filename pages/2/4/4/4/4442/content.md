@@ -363,8 +363,9 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 \linebreak
 
 
-## References
 
+
+## References
 
 
 [[!include Polyakov gauge-string duality -- references]]
@@ -494,7 +495,7 @@ See also
 
 Review of [[Yangian]] symmetry:
 
-* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J. Phys. A44: 263001, 2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_, J. Phys. A44: 263001, 2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
 
 ### Lattice gauge theory computations
 
@@ -542,7 +543,6 @@ Review includes
 
 
 [[!include AdS2-CFT1 -- references]]
-
 
 
 ### On $AdS_3 / CFT_2$
