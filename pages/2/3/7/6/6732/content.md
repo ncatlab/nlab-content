@@ -123,7 +123,7 @@ Further discussion:
 
 * Laurence G. Yaffe, _Large $N$ limits as classical mechanics_, Rev. Mod. Phys. __54__, 407--435 (1982) ([pdf](http://rmp.aps.org/pdf/RMP/v54/i2/p407_1))
 
-* A. A. Migdal, _Loop equations and $1/N$ expansion_, Physics Reports, 102 (4), 199--290 (1983) (<a href="https://doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a>)
+* [[Alexander A. Migdal]], _Loop equations and $1/N$ expansion_, Physics Reports **102** (4) 199-290 (1983) &lbrack;<a href="https://doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a>&rbrack;
 
 
 * M. Bershadsky, Z. Kakushadze, [[Cumrun Vafa]], _String expansion as large $N$ expansion of gauge theories_, Nucl.Phys. B523 (1998) 59--72 ([hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>)
