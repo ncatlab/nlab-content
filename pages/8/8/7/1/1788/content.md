@@ -1,4 +1,7 @@
 
+The biggest thread to a good theory are often its theorists. Especially if there is a group of them.
+
+****
 
 The following over/underlines recently come out tiny when viewed in  
 
