@@ -51,6 +51,8 @@ Introduction and survey:
 
 A geometric cocycle model:
 
+* [[Knut Bjarte Haus]], *Geometric Hodge filtered complex cobordism*, PhD thesis (2022) &lbrack;[ntnuopen:3017489](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3017489)&rbrack;
+
 * [[Knut B. Haus]], [[Gereon Quick]], *Geometric Hodge filtered complex cobordism* &lbrack;[arXiv:2210.13259](https://arxiv.org/abs/2210.13259)&rbrack;
 
 Refinement of the [[Abel-Jacobi map]] to [[Hodge filtration|Hodge filtered]] [[differential cobordism cohomology theory|differential]] [[MU]]-[[cobordism cohomology theory]]:
