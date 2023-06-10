@@ -1,9 +1,8 @@
 
-
 ### Polyakov gauge/string duality
  {#PolyakovGaugeStringDualityReferences}
 
-Key ideas underlying what is now known as the *[[AdS-CFT correspondence|holographic]] [[duality in string theory|duality in]] [[string theory]]* and specifically *[[AdS-QCD correspondence|holographic QCD]]* (see notably also at *[[holographic light front QCD]]*) were preconceived by [[Alexander Polyakov]] in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] ([[Wilson lines]]) between [[quarks]] as dynamical [[strings]]:
+Key ideas underlying what is now known as the *[[AdS-CFT correspondence|holographic]] [[duality in string theory|duality in]] [[string theory]]* and specifically *[[AdS-QCD correspondence|holographic QCD]]* (see notably also at *[[holographic light front QCD]]*) were preconceived by [[Alexander Polyakov]] (cf. historical remarks in [Polyakov (2008)](#Polyakov08)) under the name *[[gauge/string duality]]*, in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] ([[Wilson lines]]) between [[quarks]] as dynamical [[strings]]:
 
 Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding the [[color charge|color]]-[[flux tubes]] as [[string]]-like dynamical degrees of freedoms:
 
@@ -62,8 +61,23 @@ and the suggestion of finding the [[AdS-QCD correspondence|string-QCD correspond
 
 > "in the strong coupling limit of a [[lattice gauge theory]] the elementary excitations are represented by [[closed strings]] formed by the color-electric fluxes. In the presence of quarks these strings open up and end on the quarks, thus guaranteeing quark confinement. Moreover, in the $SU(N)$ gauge theory the strings interaction is weak at large $N$. This fact makes it reasonable to expect that also in the physically interesting continuous limit (not accessible by the strong coupling approximation) the best description of the theory should involve the [[flux tubes|flux lines]] (strings) and not fields, thus returning us from Maxwell to Faraday. In other words it is natural to expect an exact duality between gauge fields and strings. The challenge is to build a precise theory on the string side of this duality."
 
-Historical review:
+Historical reminiscences:
 
-* [[Alexander Polyakov]], *Confinement and Liberation*, in [[Gerardus ’t Hooft]] (ed.) *50 Years of Yang-Mills Theory* (2005) 311-329 $[$[arXiv:hep-th/0407209](https://arxiv.org/abs/hep-th/0407209), [doi:10.1142/9789812567147_0013](https://doi.org/10.1142/9789812567147_0013), [doi:10.1142/5601](https://doi.org/10.1142/5601)$]$
+* {#Polyakov05} [[Alexander Polyakov]], *Confinement and Liberation*, in [[Gerardus ’t Hooft]] (ed.) *50 Years of Yang-Mills Theory* (2005) 311-329 $[$[arXiv:hep-th/0407209](https://arxiv.org/abs/hep-th/0407209), [doi:10.1142/9789812567147_0013](https://doi.org/10.1142/9789812567147_0013), [doi:10.1142/5601](https://doi.org/10.1142/5601)$]$
 
 > "Already in 1974, in his [famous large $N$ paper](large+N+limit#tHooft74), 't Hooft already tried to find the string-gauge connections. His idea was that the lines of Feynman’s diagrams become dense in a certain sense and could be described as a 2d surface. This is, however, very different from the picture of strings as [[flux tube|flux lines]]. Interestingly, even now people often don’t distinguish between these approaches. In fact, for the usual amplitudes Feynman’s diagrams don’t become dense and the flux lines picture is an appropriate one. However there are cases in which t’Hooft’s mechanism is really working."
+
+* {#Polyakov07} [[Alexander M. Polyakov]],  §1 in: *Beyond Space-Time*, in *The Quantum Structure of Space and Time*, Proceedings of the 23rd Solvay Conference on Physics, World Scientific (2007) &lbrack;[arXiv:hep-th/0602011](https://arxiv.org/abs/hep-th/0602011), [pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/23rd_Solvay_Physics.pdf)&rbrack;
+
+
+* {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings*, in: *The Birth of String Theory*, Cambridge University Press (2012) &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183), [doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+
+  > "By the end of ’77 it was clear to me that I needed a new strategy $[$for understanding [[confinement]]$]$ and I became convinced that the way to go was the [[gauge/string duality]]. $[$...$]$"
+
+  > "I kept thinking about [[gauge/string duality|gauge/strings dualities]]. Soon after the Liouville mode was discovered it became clear to many people including myself that its natural interpretation is that random surfaces in 4d are described by the strings flying in 5d with the Liouville field playing the role of the fifth dimension. The precise meaning of this statement is that the wave function of the general string state depends on the four center of mass coordinates and also on the fifth, the Liouville one. In the case of minimal models this extra dimension is related to the matrix eigenvalues and the resulting space is flat."
+
+  > "Since this 5d space must contain the flat 4d subspace in which the gauge theory resides, the natural ansatz for the metric is just the Friedman universe with a certain warp factor. This factor must be determined from the conditions of conformal symmetry on the world sheet. Its dependence on the Liouville mode must be related to the renormalization group flow. As a result we arrive at a fascinating picture -- our 4d world is a projection of a more fundamental 5d string theory. &lbrack;...&rbrack;"
+
+  > "At this point I was certain that I have found the right language for the [[gauge/string duality]]. I attended various conferences, telling people that it is possible to describe gauge theories by solving Einstein-like equations (coming from the conformal symmetry on the world sheet) in five dimensions. The impact of my talks was close to zero. That was not unusual and didn’t bother me much. What really caused me to delay the publication ([Polyakov 1998](#Polyakov98)) for a couple of years was my inability to derive the asymptotic freedom from my equations. At this point I should have noticed the paper of [Klebanov 1997](https://arxiv.org/abs/hep-th/9702076) in which he related [[D3 branes]] described by the supersymmetric Yang Mills theory to the same object described by supergravity. Unfortunately I wrongly thought that the paper is related to matrix theory and I was skeptical about this subject. As a result I have missed this paper which would provide me with a nice special case of my program. This special case was presented little later in full generality by Juan Maldacena ([Maldacena 1997](AdS-CFT+correspondence#Maldacena97a)) and his work opened the flood gates."
+
+
