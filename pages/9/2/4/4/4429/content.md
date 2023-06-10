@@ -41,7 +41,7 @@ where $i$ runs over a set of generators of the invariant polynomials. This is th
 
 This subsection is to give an outline of construction of Weil homomorphism as in  [Kobayashi-Nomizu 63](#KobayashiNomizu63)
 
- Let $G$ be a [[Lie group]] and $\mathfrak{g}$ be its [[Lie algebra]]. Given an element $g\in G$, the adjoint map   $Ad(g):G\rightarrow G$  is defined as $Ad(g)(h)=ghg^{-1}$. For $g\in G$, let $ad(g):\mathfrak{g}\rightarrow \mathfrak{g}$ be the differenial of $Ad(g):G\rightarrow G$ at $e\in G$. 
+ Let $G$ be a [[Lie group]] and $\mathfrak{g}$ be its [[Lie algebra]]. Given an element $g\in G$, the adjoint map   $Ad(g):G\rightarrow G$  is defined as $Ad(g)(h)=ghg^{-1}$. For $g\in G$, let $ad(g):\mathfrak{g}\rightarrow \mathfrak{g}$ be the differential of $Ad(g):G\rightarrow G$ at $e\in G$. 
 
  Let $I^k(G)$ denote the set of symmetric, multilinear maps 
 $$
