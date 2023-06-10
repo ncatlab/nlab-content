@@ -6,11 +6,16 @@
 
 ## Selected writings
 
+Proving the [[Goddard-Thorn no-ghost theorem]]:
+
 * {#GoddardThorn72} [[Peter Goddard]], [[Charles Thorn]], _Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model_, Phys. Lett., B 40, No. 2 (1972), 235-238 ([spire:74899](http://inspirehep.net/record/74899/))
 
-  (proving the [[Goddard-Thorn no-ghost theorem]])
+On [[conformal field theory|conformal]] [[quantization]] of [[Liouville theory]]:
 
-## Related $n$Lab entries
+* [[Thomas L. Curtright]], [[Charles B. Thorn]], *Conformally Invariant Quantization of the Liouville Theory*, Phys. Rev. Lett. **48** (1982) 1309; Erratum Phys. Rev. Lett. **48**,  (1982) 1768 &lbrack;[doi:10.1103/PhysRevLett.48.1309](https://doi.org/10.1103/PhysRevLett.48.1309)&rbrack;
+
+
+## Related entries
 
 * [[Goddard-Thorn no-ghost theorem]]
 
