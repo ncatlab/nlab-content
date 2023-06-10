@@ -9,7 +9,7 @@ On [[renormalization]] and the [[renormalization group]]:
 
 * {#Wilson71b} [[Kenneth Wilson]], _Renormalization group and critical phenomena. 2. Phase space cell analysis of critical behavior_, Phys. Rev. B4 , 3184 (1971). [doi:10.1103/PhysRevB.4.3184](https://doi.org/10.1103/PhysRevB.4.3184)
 
-On [[confinement]] of [[quarks]] and early suggestion of [Gauge/String duality](AdS-QCD+correspondence#PolyakovGaugeStringDualityReferences)
+On [[confinement]] of [[quarks]] and early suggestion of [Gauge/String duality](AdS-QCD+correspondence#PolyakovGaugeStringDualityReferences) ("[[Wilson loops]]"):
 
 * [[Kenneth G. Wilson]], *Confinement of quarks*, Phys. Rev. D **10** (1974) 2445 $[$[doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)$]$
 
