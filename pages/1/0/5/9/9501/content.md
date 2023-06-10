@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[foliation]]-theory the _Bott connection_ is a certain characteristic canonucal on the [[conormal bundle]] of the [[foliation]].
+In [[foliation]]-theory the _Bott connection_ is a certain characteristic [[connection on a bundle|connection]] on the [[conormal bundle]] of the [[foliation]].
 
 ## Definition
 
