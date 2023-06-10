@@ -28,6 +28,12 @@ Introducing the [[WZW term]] of [[chiral perturbation theory]]/[[quantum hadrody
 
 * [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous Ward identities_, Phys. Lett. B 37 (1971) 95-97 ([spire:67330](https://inspirehep.net/literature/67330), <a href="https://doi.org/10.1016/0370-2693(71)90582-X">doi:10.1016/0370-2693(71)90582-X</a>)
 
+Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning string]] (via the supersymmetric [[Polyakov action]]):
+
+* [[Stanley Deser]], [[Bruno Zumino]], *A complete action for the spinning string*, Physics Letters B **65** 4 (1976) 369-373 ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
+
+
+
 
 
 
