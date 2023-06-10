@@ -103,6 +103,12 @@ Open/closed string duality plays a subtle role when interpreting the [['t Hooft 
 
 ## References
 
+
+[[!include Polyakov gauge-string duality -- references]]
+
+
+### Open/closed string duality
+
 Review:
 
 * [[Leonardo Rastelli]], _Lectures on open/closed string duality_, PiTP 2004 ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf), [[RastelliStringDuality.pdf:file]])
