@@ -3,15 +3,14 @@
 
 * [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton (archived [screenshot](https://ncatlab.org/nlab/files/APolyakovOldHomepage.jpg))
 
-  > My main interests this year &lbrack;1993?&rbrack; were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances.
+  > "My main interests this year &lbrack;1993?&rbrack; were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances."
 
 * Valery Pokrovsky, *Hidden Sasha Polyakov’s life in Statistical and Condensed Matter Physics*, in: *Polyakov’s String: Twenty Five Years After*, Proceedings of an International Workshop at Chernogolovka (2005) 2-15 &lbrack;[arXiv:hep-th/0510214](https://arxiv.org/abs/hep-th/0510214)&rbrack;
 
 
-
 ## Selected writings
 
-Introducing the [[Polyakov action]] (and via [[Liouville theory]] in the non-critical case) for the [[bosonic string]]:
+Discussing what came to be called the *[[Polyakov action]]* for the [[bosonic string]] and the resulting [[Liouville theory]], in the non-critical case:
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
@@ -27,7 +26,7 @@ Proposing the identification of [[flux tubes]] in [[confinement|confined]] [[QCD
 
 * [[Alexander Polyakov]], *Gauge Fields and Strings*, Routledge, Taylor and Francis (1987, 2021) &lbrack;[doi:10.1201/9780203755082](https://doi.org/10.1201/9780203755082), [oapen:20.500.12657/50871](https://library.oapen.org/handle/20.500.12657/50871)&rbrack;
 
-* [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
+* {#Polyakov98} [[Alexander Polyakov]], *String Theory and Quark Confinement*, Nucl. Phys. Proc. Suppl. **68** (1998) 1-8 &lbrack;[arXiv:hep-th/9711002](https://arxiv.org/abs/hep-th/9711002), <a href="https://doi.org/10.1016/S0920-5632(98)00135-2">doi:10.1016/S0920-5632(98)00135-2</a>&rbrack;
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
 
@@ -49,14 +48,28 @@ and specifically between [[single trace operators]] and [[superstring]]-excitati
 
 * [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *A semi-classical limit of the gauge/string correspondence*, Nucl. Phys. B **636** (2002) 99-114 &lbrack;[arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051), <a href="https://doi.org/10.1016/S0550-3213(02)00373-5">doi:10.1016/S0550-3213(02)00373-5</a>&rbrack;
 
-Historical review:
 
+
+Historical reminiscences:
 
 * [[Alexander Polyakov]], *Confinement and Liberation*, in [[Gerardus ’t Hooft]] (ed.) *50 Years of Yang-Mills Theory* (2005) 311-329 &lbrack;[arXiv:hep-th/0407209](https://arxiv.org/abs/hep-th/0407209), [doi:10.1142/9789812567147_0013](https://doi.org/10.1142/9789812567147_0013), [doi:10.1142/5601](https://doi.org/10.1142/5601)&rbrack;
 
+* {#Polyakov07} [[Alexander M. Polyakov]], *Beyond Space-Time*, in *The Quantum Structure of Space and Time*, Proceedings of the 23rd Solvay Conference on Physics, World Scientific (2007) &lbrack;[arXiv:hep-th/0602011](https://arxiv.org/abs/hep-th/0602011), [pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/23rd_Solvay_Physics.pdf)&rbrack;
+
+* {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings*, in: *The Birth of String Theory*, Cambridge University Press (2012) &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183), [doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+
+  > "By the end of ’77 it was clear to me that I needed a new strategy &lbrack;for understanding confinement&rbrack; and I became convinced that the way to go was the [[gauge/string duality]]. &lbrack;...&rbrack;"
+
+  > "I kept thinking about [[gauge/string duality|gauge/strings dualities]]. Soon after the Liouville mode was discovered it became clear to many people including myself that its natural interpretation is that random surfaces in 4d are described by the strings flying in 5d with the Liouville field playing the role of the fifth dimension. The precise meaning of this statement is that the wave function of the general string state depends on the four center of mass coordinates and also on the fifth, the Liouville one. In the case of minimal models this extra dimension is related to the matrix eigenvalues and the resulting space is flat."
+
+  > "Since this 5d space must contain the flat 4d subspace in which the gauge theory resides, the natural ansatz for the metric is just the Friedman universe with a certain warp factor. This factor must be determined from the conditions of conformal symmetry on the world sheet. Its dependence on the Liouville mode must be related to the renormalization group flow. As a result we arrive at a fascinating picture -- our 4d world is a projection of a more fundamental 5d string theory. &lbrack;...&rbrack;"
+
+  > "At this point I was certain that I have found the right language for the [[gauge/string duality]]. I attended various conferences, telling people that it is possible to describe gauge theories by solving Einstein-like equations (coming from the conformal symmetry on the world sheet) in five dimensions. The impact of my talks was close to zero. That was not unusual and didn’t bother me much. What really caused me to delay the publication ([Polyakov 1998](#Polyakov98)) for a couple of years was my inability to derive the asymptotic freedom from my equations. At this point I should have noticed the paper of [Klebanov 1997](https://arxiv.org/abs/hep-th/9702076) in which he related [[D3 branes]] described by the supersymmetric Yang Mills theory to the same object described by supergravity. Unfortunately I wrongly thought that the paper is related to matrix theory and I was skeptical about this subject. As a result I have missed this paper which would provide me with a nice special case of my program. This special case was presented little later in full generality by Juan Maldacena ([Maldacena 1997](AdS-CFT+correspondence#Maldacena97a)) and his work opened the flood gates."
 
 
-## Related $n$Lab entries
+
+
+## Related entries
 
 * [[QCD]], [[confinement]]
 
@@ -73,3 +86,6 @@ Historical review:
 * [[Polyakov gauge-string duality -- references]]
 
 category: people
+
+[[!redirects Alexander M. Polyakov]]
+
