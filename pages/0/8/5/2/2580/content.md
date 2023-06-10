@@ -438,7 +438,7 @@ The original articles include
 
 * {#Treves67} [[François Trèves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
     
-Modern accounts include
+Modern accounts:
 
 * {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
@@ -449,8 +449,12 @@ Modern accounts include
 * M. Kunzinger, R. Steinbauer, _Foundations of a nonlinear distributional geometry_, Acta Appl. Math. __71__, 179-206 (2002)
 
 
+In [[differential geometry]] ([[current (distribution theory)|currents]]):
 
-Lecture notes include
+* [[Victor Guillemin]], [[Shlomo Sternberg]], Chapter VI of: *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
+
+
+Lecture notes:
 
 * Hasse Carlsson, _Lecture notes on distributions_ ([pdf](http://www.math.chalmers.se/~hasse/distributioner_eng.pdf))
 
