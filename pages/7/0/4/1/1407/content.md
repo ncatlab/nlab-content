@@ -562,6 +562,13 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
   published as: *From the S-matrix to string theory*, Section 11 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory*, Campridge University Press (2011) 156-178 &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
 
 
+* {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings* &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183)&rbrack;
+
+  published as *Quarks, strings and beyond*, section 44 in: [[Paolo Di Vecchia]] et al. (ed.), *The Birth of String Theory*, Cambridge University Press (2012) 544-551 &lbrack;[doi:10.1017/CBO9780511977725.048](https://doi.org/10.1017/CBO9780511977725.048)&rbrack;
+
+  > (on [[gauge/string duality]])
+
+
 * {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2016/main/Schwarz.pdf), [[SchwarzString2016.pdf:file]])
 
 * [[Lars Brink]], _Hadronic Strings -- A Revisit in the Shade of Moonshine_ ([arxiv:1911.06026](https://arxiv.org/abs/1911.06026))
