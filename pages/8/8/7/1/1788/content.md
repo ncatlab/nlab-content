@@ -17,17 +17,35 @@
 
 A & B
 
-## String theory as strongly coupled QFT
+## Polyakov gauge-string duality
 
-The biggest threat to a good idea are often its proponents, or those who vocally appear to be. 
+> The biggest threat to a good idea are often its proponents, or those who vocally appear to be. 
 
-String theory originated in the 1960s as a conceptual strategy for understanding experimental observations about [[non-perturbative quantum field theory|strongly-interacting]] [[fundamental particles]], notably the [[confinement]] of "[[quarks]]" inside [[hadrons]] and the "[[Regge trajectories]]" seen in [[hadron]] [[scattering]]. These are experimental phenomena exhibited by fairly ordinary [[matter]] (all [[atomic nuclei]] are [[bound states]] of [[hadrons]]), and yet (despite frequent advertisement of the success of the [[standard model of particle physics]]) understanding them properly remains an open problem to this day, to the extent that one speaks of a "[Millennium Problem](mass+gap#ReferencesMassGapProblem)".
 
-However, a saga of 5 decades of intellectual twists and sociological turns later, string theorists as a swarm community largely forgot about the glaring question why quarks are never seen in isolation and somehow ended up, in the 2000s, instead convincing themselves and the public that string theory's  prime contribution to physics is to suggest the imminent detection of "[[squarks]]" at the [[LHC]]-experiment commencing in 2010. The failure of this alleged prediction to materialize is increasingly leading to the sensation of a failure of "string theory". 
+[[string theory|String theory]] originated in the 1960s as a conceptual strategy for understanding experimental observations about [[non-perturbative quantum field theory|strongly-interacting]] [[fundamental particles]], notably the [[confinement]] of "[[quarks]]" inside [[hadrons]] and the "[[Regge trajectories]]" seen in [[hadron]] [[scattering]]. These are experimental phenomena exhibited by fairly ordinary [[matter]] (all [[atomic nuclei]] are [[bound states]] of [[hadrons]]), and yet (despite frequent advertisement of the success of the [[standard model of particle physics]]) understanding them properly remains an open problem to this day, to the extent that one speaks of a "[Millennium Problem](mass+gap#ReferencesMassGapProblem)".
 
-In reality, this should be a chance to go back to the roots and re-assess string theory as a candidate for the elusive theory of strongly-interacting matter systems, both in [[high energy physics]] --- concerning [[quantum hadrodynamics]] in [[QCD]] --- as well as in [[solid-state physics]] --- notably concerning [[topological order|topologically ordered]] [[quantum materials]] ---, both reflected in a "[[mass gap]]" and both related to [[quantum gravity]] via [[holography]] in the original sense of [[Alexander Polyakov]]'s *[[gauge/string duality]]*.
+However, a saga of 5 decades of intellectual twists and sociological turns later, mainstream string theorists as a swarm community largely forgot about the glaring question why quarks are never seen in isolation and somehow ended up, in the 2000s, instead convincing themselves and the public that string theory's  prime contribution to physics is to suggest the imminent detection of "[[squarks]]" at the [[LHC]]-experiment commencing in 2010. The failure of this alleged prediction to materialize is increasingly leading to the sensation of a failure of "string theory". 
 
-This is the role of string theory that [[Alexander Polyakov]]  [originally envisioned](AdS-CFT+correspondence#PolyakovGaugeStringDualityReferences) (following observations notably by [[Leonard Susskind]] and [[Kenneth Wilson]]). The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Polyakov07)):
+In reality, this should be a chance to go back to the roots and re-assess [[string theory]] as a candidate for the elusive theory of strongly-interacting matter systems, both in [[high energy physics]] --- concerning [[quantum hadrodynamics]] in [[QCD]] --- as well as in [[solid-state physics]] --- notably concerning [[topological order|topologically ordered]] [[quantum materials]] ---, both reflected in a "[[mass gap]]" and both related to [[quantum gravity]] via [[holography]] in the original sense of [[Alexander Polyakov]]'s *[[gauge/string duality]]*.
+
+This is the role of string theory that [[Alexander Polyakov]]  [originally envisioned](AdS-CFT+correspondence#PolyakovGaugeStringDualityReferences) (following observations notably by [[Leonard Susskind]] and [[Kenneth Wilson]]) under the name *gauge-string duality*, long before the community came back full circle to this idea with what is now known as *[[AdS/CFT duality]]* and *[[holographic QCD]]* (see further comments [below](#NoticeTheDecisiveInsight)). 
+
+The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Polyakov07)):
+
+\begin{imagefromfile}
+    "file_name": "HadronicStringInPionScattering.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -0,
+        "bottom": 10,
+        "right": 0, 
+        "left": 15
+    },
+    "caption": "From [Veneziano 2012](string+theory#Veneziano12), Fig 2.9"
+\end{imagefromfile}
+
 
 1. **flux tubes confine as dynamical strings**
 
@@ -44,6 +62,7 @@ This is the role of string theory that [[Alexander Polyakov]]  [originally envis
    1. the [[scattering]] of these [[flux tubes]]/[[strings]] which explains the observed [[Veneziano amplitudes]],
 
    which are the main qualitative features to be explained.
+
 
 1. **quantum flux tubes probe effective higher dimensions**
 
@@ -68,13 +87,16 @@ This is the role of string theory that [[Alexander Polyakov]]  [originally envis
 
 1. **large/small $N$ confined gauge theory is holographic string theory/M-theory**
 
-   Thus the description of strongly coupled matter via flux tubes/string now reveals a [[holography|holographic]] property where strongly-coupled quantum fields on [[intersecting brane models|intersecting branes]] are equivalently described by a [[quantum gravity]] of [[strings]] propagating in a higher dimensional [[bulk]].
-   
-   While this dual bulk string theory is itself strongly-coupled unless the "number of coincident branes" is humongous (the "[[large-N limit]]") and thus unrealistic after all, now there are more concrete hints as to its strongly-coupled (non-perturbative) completion, going under the working title *[[M-theory]]*.
+   Thus the description of strongly coupled matter via [[flux tubes]]/[[strings]] now reveals a [[holography|holographic]] situation where strongly-coupled quantum fields on [[intersecting brane models|intersecting branes]] are equivalently described by a theory of [[quantum gravity]] mediated by [[strings]] propagating in a higher dimensional [[bulk]] [[spacetime]].
+
+   In relation to gauge string duality this is due to [Gubser, Klebanov & Polyakov (1998)](#GubserKlebanovPolyakov98), which is now understood as part of *[[AdS/CFT duality]]*, but it is actually meant to be more general, cf. [Polyakov & Rychkov (2000)](#PolyakovRychkov00).
+  
+
+While this dual bulk string theory is itself strongly-coupled unless the "number of coincident branes" is humongous (the "[[large-N limit]]") and thus unrealistic after all, the difference is that with making explicit the [[brane]] as physical objects produces more concrete hints as to its strongly-coupled (non-perturbative) completion, going under the working title *[[M-theory]]*, cf. at *[AdS-CFT -- Small $N$ corrections](AdS-CFT+correspondence#SmallNCorrections)*.
 
 In summary, the plausible approach of understanding strongly-coupled quantum gauge theories by regarding their [[flux tubes]] as dynamical [[strings]] seems to recast the [Millennium Problem](mass+gap#ReferencesMassGapProblem) of understanding strongly-coupled matter into the problem of formulating [[M-theory]]: Given [[M-theory]], it ought to be possible to find [[intersecting brane models]] of single (or a small number of [[coincident branes|coincident]]) [[M-branes]] (such as the *[Witten-Sakai-Sugimoto model](AdS-QCD+correspondence#WittenSakaiSugimotoModel)* [[M5-brane]] system) on whose [[worldvolume]] the desired strongly-coupled field theory is realized (such as [[QCD]]).
 
-
+{#NoticeTheDecisiveInsight} Notice the decisive early insight of [[Alexander Polyakov]] here: While the idea that [[strings]] somehow describe [[hadron|hadronic]] [[bound states]] was the very origin of [[string theory]] in the early 1970s ("dual resonance models"), the mainstream *abandoned* this perspective in the later 1970s when the critical dimension and the full spectrum of the string became fully understood (cf. *[[Goddard-Thorn no-ghost theorem]]*) and declared that *instead* string should be understood as a [[GUT|grand unified]] [[theory of everything]] including [[quantum gravity]] (see e.g. the historical review of [Veneziano (2012), esp. pp. 30-31](string+theory#Veneziano12) which still clings to this perspective). From here it was only through the long detour of first discovering, inside this grander theory: [[D-branes]] (and [[M5-branes]]) in the 1990s, then their [[near-horizon geometry|near-horizon]] [[AdS-CFT duality]] just before the 2000s and then another decade of exploring [[intersecting D-brane models]] that the community in the 2010s came back full circle to Polyakov's holographic perspective on [[QCD]], now dubbed *[[holographic QCD]]*, in which strings are flux tubes that propagate not (alone) in the observable 4 spacetime dimensions but in a primarily unobservable (meanwhile known as *[[Randall-Sundrum model|Randall-Sundrum]]*-like) higher-dimensional [[bulk]] spacetime -- a holographic description of reality that [Polyakov (1999)](#Polyakov99) referred to as the *wall of the cave*, in allusion to [[Plato]] (cf. also [#Polyakov (2008), p. 6](#Polyakov08)). The whereabouts in this remarkable situation are still often misunderstood today: If string theory is a theory of nature, then, it seems, we see the wall but not the cave: we live on a $\sim$ [[Minkowski spacetime|Minkowskian]] [[intersecting D-brane model|brane intersection]] at the ([[asymptotic boundary|asympotic]]) [[boundary]] of a primarily unobserved $\sim$ [[anti de Sitter spacetime|adS]] [[bulk]] which may better be thought of not as physical space but as a configuration space of quantum flux. 
 
 
 
@@ -84,6 +106,8 @@ In summary, the plausible approach of understanding strongly-coupled quantum gau
 
 
 ****
+
+[[Polyakov gauge-string duality]]
 
 The following over/underlines recently come out tiny when viewed in  
 
