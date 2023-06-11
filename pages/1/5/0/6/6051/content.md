@@ -162,11 +162,16 @@ where it is generalized to the [[superstring]], but in fact (cf. [Polyakov (2008
 * [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B **65** Issue 5, 20 (1976) 471-474 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90445-7">doi:10.1016/0370-2693(76)90445-7</a>&rbrack;
  
 
-Further discussion:
+Further discussion of the Polyakov action:
 
 * [[Jean-Loup Gervais]], [[André Neveu]], *The dual string spectrum in Polyakov's quantization (I)*, Nuclear Physics B **199** 1 (1982) 59-76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90566-1">doi:10.1016/0550-3213(82)90566-1</a>&rbrack;
 
 * [[Jean-Loup Gervais]], [[André Neveu]], *Dual string spectrum in Polyakov's quantization (II). Mode separation*, Nuclear Physics B **209** 1 (1982) 125-145 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90105-5">doi:10.1016/0550-3213(82)90105-5</a>&rbrack;
+
+and of the related [[Liouville theory]]:
+
+* [[Colin Guillarmou]], [[Rémi Rhodes]], [[Vincent Vargas]], *Polyakov's formulation of 2d bosonic string theory*, Publ. Math. IHES **130** (2019) 111–185 &lbrack;[arXiv:1607.08467](https://arxiv.org/abs/1607.08467), [doi:10.1007/s10240-019-00109-6](https://doi.org/10.1007/s10240-019-00109-6)&rbrack;
+
 
 Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]] is in 
 
