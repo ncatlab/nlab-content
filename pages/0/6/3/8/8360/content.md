@@ -3,7 +3,9 @@
 
 * [old personal page](https://phy.princeton.edu/people/alexander-polyakov) at Princeton (archived [screenshot](https://ncatlab.org/nlab/files/APolyakovOldHomepage.jpg))
 
-  > "My main interests this year &lbrack;1993?&rbrack; were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]",which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances."
+  > "My main interests this year &lbrack;1993?&rbrack; were directed towards [[string theory]] of [[quark]] [[confinement]]. The problem is to find the string Lagrangian for the Faraday's "[[flux tube|lines of force]]", which would reproduce perturbative corrections from the [[Yang-Mills theory]] to the Coulomb law at small distances and would give permanent [[confinement]] of quarks at large distances."
+
+  > (cf. *[[Polyakov gauge-string duality]]*)
 
 * Valery Pokrovsky, *Hidden Sasha Polyakov’s life in Statistical and Condensed Matter Physics*, in: *Polyakov’s String: Twenty Five Years After*, Proceedings of an International Workshop at Chernogolovka (2005) 2-15 &lbrack;[arXiv:hep-th/0510214](https://arxiv.org/abs/hep-th/0510214)&rbrack;
 
@@ -23,7 +25,7 @@ Introducing [[conformal field theory]]:
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
-Proposing the identification of [[flux tubes]] in [[confinement|confined]] [[QCD]] with the [[strings]] of [[string theory]], hence of the [[holographic principle]] in what came to be known as the [[AdS-QCD correspondence]]:
+Proposing the identification of [[flux tubes]] in [[confinement|confined]] [[QCD]] with the [[strings]] of [[string theory]], hence of the [[holographic principle]] in what came to be known as the [[AdS-QCD correspondence]] (see *[[Polyakov gauge-string duality]]*):
 
 * [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>&rbrack;
 
@@ -79,6 +81,8 @@ Historical reminiscences:
 
 
 ## Related entries
+
+* [[Polyakov gauge/string duality]]
 
 * [[QCD]], [[confinement]]
 
