@@ -4,9 +4,11 @@
 
 ## Selected writings
 
-On the rigorous construction of [[Liouville theory]]
+On the rigorous construction of [[Liouville theory]] (from the [[Polyakov action]]):
 
 * [[François David]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], _Liouville Quantum Gravity on the Riemann sphere_, Communications in Mathematical Physics volume 342, pages869–907 (2016) ([arxiv:1410.7318](https://arxiv.org/abs/1410.7318))
+
+* [[Colin Guillarmou]], [[Rémi Rhodes]], [[Vincent Vargas]], *Polyakov's formulation of 2d bosonic string theory*, Publ. Math. IHES **130** (2019) 111–185 &lbrack;[arXiv:1607.08467](https://arxiv.org/abs/1607.08467), [doi:10.1007/s10240-019-00109-6](https://doi.org/10.1007/s10240-019-00109-6)&rbrack;
 
 * [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], _Integrability of Liouville theory: proof of the DOZZ Formula_, Annals of Mathematics, Pages 81-166 from Volume 191 (2020), Issue 1, ([arxiv:1707.08785](https://arxiv.org/abs/1707.08785), [doi:10.4007/annals.2020.191.1.2](https://doi.org/10.4007/annals.2020.191.1.2))
 
