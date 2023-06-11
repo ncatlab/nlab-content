@@ -102,6 +102,49 @@ In [[type theory]] one uses the partiality [monad](monad+%28in+computer+science%
 It is clear that this idea can be generalized to other classes of propositions.
 =--
 
+## Relative partial maps
+
+Given objects $p : X \to S$ and $q : Y \to S$ of $\mathcal{C}/S$, a partial map from $p$ to $q$ can be described as a commutative diagram in $\mathcal{C}$.
+
+\begin{tikzcd}
+  A \arrow[r] \arrow[d, hook] & Y \arrow[d, "q"]
+  \\ X \arrow[r, "p"] & S
+\end{tikzcd}
+
+A partial map classifier $Opt_S(q)$ for $q$ in $\mathcal{C}/S$ can be described as a representing object for the presheaf on $\mathcal{C}$ sending $X$ to the set of diagrams of this form (modulo choice of representatives for subobjects), together with its structure map $Opt_S(q) \to S$, which represents the natural transformation sending this diagram to $p \in \mathcal{C}(X, S)$.
+
++-- {: .num_prop}
+###### Proposition
+
+If $\mathcal{C}$ is a topos and $p : X \to S$ is an object of $\mathcal{C}/S$, there is a pullback in $\mathcal{C}$
+
+\begin{tikzcd}
+  \mathrm{Opt}_S(q) \arrow[r] \arrow[d] & X_\bot \arrow[d, "p"]
+  \\ S \times \Omega \arrow[r] & S_\bot
+\end{tikzcd}
+
+where $Opt_S(q) \to X_\bot$ corresponds to forgetting the base of a relative partial map, and $Opt_S(q) \to S$ is the structure map, and $Opt_S(q) \to \Omega$ corresponds to giving the domain of definition.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A$ be an object of $\mathcal{C}$. It suffices to show this square is a pullback after applying $\mathcal{C}(A, -)$ and the isomorphism to the presheaves these objects represent.
+
+An object of the pullback can be described as an arrow $A \to S$, a subobject $B \hookrightarrow A$, and a partial map $A \hookleftarrow B' \to X$ with the property that the induced partial maps $A \hookleftarrow B \to S$ and $A \hookleftarrow B' \to S$ are the same partial map (up to choice of representative for the subobject).
+
+This is bijective with the set of commutative diagrams of the form
+
+\begin{tikzcd}
+B \arrow[r] \arrow[d, hook] & X \arrow[d, "q"]
+\\ A \arrow[r] & S
+\end{tikzcd}
+
+and the projection to $\mathcal{C}(A, S)$ takes the bottom horizontal arrow.
+
+=--
+
 ## Properties
 
 * In a topos, the partial map classifier $B_\bot$ of $B$ is [[injective object|injective]]. The canonical embedding $B\rightarrowtail B_\bot$ shows accordingly that a topos _has enough injectives_!
