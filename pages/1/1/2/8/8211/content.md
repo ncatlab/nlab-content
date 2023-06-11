@@ -64,6 +64,8 @@ This is exhibited by phenomena such as
 
 * the [[AdS/QCD correspondence]]
 
+* the [[gauge-string correspondence]]
+
 ## Applications
 
 ### In large $N$ limit and holography
