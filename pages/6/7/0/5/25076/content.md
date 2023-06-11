@@ -2,7 +2,7 @@
 ### Polyakov gauge/string duality
  {#PolyakovGaugeStringDualityReferences}
 
-Key ideas underlying what is now known as the *[[AdS-CFT correspondence|holographic]] [[duality in string theory|duality in]] [[string theory]]* and specifically *[[AdS-QCD correspondence|holographic QCD]]* (see notably also at *[[holographic light front QCD]]*) were preconceived by [[Alexander Polyakov]] (cf. historical remarks in [Polyakov (2008)](#Polyakov08)) under the name *[[gauge/string duality]]*, in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] ([[Wilson lines]]) between [[quarks]] as dynamical [[strings]]:
+Key ideas underlying what is now known as *[[AdS-CFT correspondence|holographic]] [[duality in string theory|duality in]] [[string theory]]* and specifically as *[[AdS-QCD correspondence|holographic QCD]]* (see notably also at *[[holographic light front QCD]]*) were preconceived by [[Alexander Polyakov]] (cf. historical remarks in [Polyakov (2008)](#Polyakov08)) under the name *[[gauge/string duality]]* (cf. historical review in [Polyakov (2008)](#Polyakov08)), in efforts to understand [[confinement|confined]] [[QCD]] (the [[mass gap problem]]) by regarding [[color charge|color]]-[[flux tubes]] ([[Wilson lines]]) between [[quarks]] as dynamical [[strings]]:
 
 Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding the [[color charge|color]]-[[flux tubes]] as [[string]]-like dynamical degrees of freedoms:
 
@@ -54,6 +54,8 @@ eventually culminating in the formulation of the dictionary for the [[AdS-CFT co
 * {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) $[$[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>$]$
 
 > "Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark confinement by explaining the dynamics of color-electric fluxes."
+
+* {#PolyakovRychkov00} [[Alexander Polyakov]], [[Vyacheslav Rychkov]] *Gauge fields-strings duality and the loop equation*, Nucl. Phys. B **581** (2000) 116-134 $[$[arXiv:hep-th/0002106](https://arxiv.org/abs/hep-th/0002106), <a href="https://doi.org/10.1016/S0550-3213(00)00183-8">doi:10.1016/S0550-3213(00)00183-8</a>$]$
 
 and the suggestion of finding the [[AdS-QCD correspondence|string-QCD correspondence]]:
 
