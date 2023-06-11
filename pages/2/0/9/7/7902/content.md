@@ -87,6 +87,8 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 * [[flux tube]]
 
+* [[Polyakov gauge-string duality]]
+
 * [['t Hooft operator]]
 
 * [[Wilson surface]]
