@@ -1,4 +1,28 @@
 
+\begin{tikzcd}
+  C \ar[r] \ar[d, hook] & \ast \ar[d, hook]
+  \\
+  A \ar[d]\ar[r] & L
+  \\
+  B
+\end{tikzcd}
+
+\begin{tikzcd}
+  A 
+  \ar[r, equals]
+  \ar[d, equals]
+  & 
+  A \ar[r] \ar[d, hook]
+  & 
+  \ast \ar[d]
+  \\
+  A \ar[r, hook] 
+  &
+  B \ar[r]  
+  & 
+  L
+\end{tikzcd}
+
 
 ## String theory as strongly coupled QFT
 
