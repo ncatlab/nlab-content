@@ -23,7 +23,7 @@
 
 Let $A$ be a [[small category]], and let $Psh(A)=Set^{A^{op}}$ be the [[category of presheaves]] on $A$. Since $Psh(A)$ is a [[Grothendieck topos]], it has a unique [[subobject classifier]], $L$.  
 
-Let $\mathbf{0}$ and $\mathbf{1}$ denote the [[initial object]] and [[terminal object]], respectively, of $Psh(A)$.  The terminlal presheaf $\mathbf{1}$ has two distinguished [[subobjects]] $\mathbf{0}\hookrightarrow \mathbf{1}$ and $\mathbf{1}\hookrightarrow \mathbf{1}$, which correspond to global points $\lambda^0,\lambda^1\in L(\mathbf{1})=Hom(\mathbf{1},L)$ of the subobject classifier.
+Let $\mathbf{0}$ and $\mathbf{1}$ denote the [[initial object]] and [[terminal object]], respectively, of $Psh(A)$.  The terminal presheaf $\mathbf{1}$ has two distinguished [[subobjects]] $\mathbf{0}\hookrightarrow \mathbf{1}$ and $\mathbf{1}\hookrightarrow \mathbf{1}$, which correspond to global points $\lambda^0,\lambda^1\in L(\mathbf{1})=Hom(\mathbf{1},L)$ of the subobject classifier.
 
 \begin{definition}\label{LawvereInterval}
 The triple $\mathfrak{L}=(L,\lambda^0,\lambda^1)$ is called the **Lawvere interval** for the [[topos]] $Psh(A)$. This object determines a [[cylinder functor]] given by taking the [[cartesian product]] with $L$, called the **Lawvere cylinder**.
