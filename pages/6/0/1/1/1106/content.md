@@ -11,13 +11,19 @@
 
 This entry collects hyperlinks related to the textbook
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], 
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]]:
 
-  _Sheaves in Geometry and Logic -- A first introduction to topos theory_
+  \linebreak 
 
-  Springer Verlag, 1992
+  **Sheaves in Geometry and Logic** 
 
-  ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
+  *A first introduction to topos theory*
+
+  \linebreak
+
+  Springer (1992)
+
+   [doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)
 
 on [[sheaf and topos theory]] and its application in [[categorical logic]].
 
