@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[AdS/CFT duality]] in the perspective of [[gauge/string duality]]:
+
+* [[Alexander Polyakov]], [[Vyacheslav Rychkov]] *Gauge fields-strings duality and the loop equation*, Nucl. Phys. B **581** (2000) 116-134 $[$[arXiv:hep-th/0002106](https://arxiv.org/abs/hep-th/0002106), <a href="https://doi.org/10.1016/S0550-3213(00)00183-8">doi:10.1016/S0550-3213(00)00183-8</a>$]$
+
+
 On the [[conformal bootstrap]]:
 
 * [[David Poland]], [[Slava Rychkov]], [[Alessandro Vichi]], _The Conformal Bootstrap: Numerical Techniques and Applications_, Rev. Mod. Phys. 91, 15002 (2019) ([arXiv:1805.04405](https://arxiv.org/abs/1805.04405))
@@ -20,4 +25,6 @@ Application of [[conformal bootstrap]] to [[experiment|experimental]] [[superflu
 
 
 category: people
+
+[[!redirects Vyacheslav Rychkov]]
 
