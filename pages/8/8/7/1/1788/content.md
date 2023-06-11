@@ -23,6 +23,31 @@
   L
 \end{tikzcd}
 
+\begin{tikzcd}
+  C
+  \ar[d, hook]
+  \ar[r]
+  &
+  C 
+    \ar[d, hook]
+    \ar[r] 
+  & 
+  \ast 
+    \ar[d, hook]
+  \\
+  A 
+  \ar[r, equals]
+  \ar[d, equals]
+  & 
+  A \ar[r] \ar[d, hook]
+  &
+  \ast
+  \ar[d]
+  \\
+  A \ar[r, hook]
+  &
+  B \ar[r] & L
+\end{tikzcd}
 
 ## String theory as strongly coupled QFT
 
