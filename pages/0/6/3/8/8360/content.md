@@ -41,6 +41,8 @@ eventually leading to the rules of the [[AdS-CFT correspondence]]:
 
 > Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark confinement by explaining the dynamics of color-electric fluxes.
 
+* [[Alexander Polyakov]], [[Vyacheslav Rychkov]] *Gauge fields-strings duality and the loop equation*, Nucl. Phys. B **581** (2000) 116-134 $[$[arXiv:hep-th/0002106](https://arxiv.org/abs/hep-th/0002106), <a href="https://doi.org/10.1016/S0550-3213(00)00183-8">doi:10.1016/S0550-3213(00)00183-8</a>$]$
+
 
 and specifically between [[single trace operators]] and [[superstring]]-excitations:
 
