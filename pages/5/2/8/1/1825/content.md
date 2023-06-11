@@ -358,7 +358,7 @@ $$
 
 * [[round sphere]]
 
-* [[fuzzy sphere]]
+* [[fuzzy sphere]], [[Podleś sphere]]
 
 * [[hemisphere]], [[equator]]
 
