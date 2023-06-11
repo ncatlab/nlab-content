@@ -133,6 +133,14 @@ under [[AdS/CFT duality]] ([Beisert-Frolov-Staudacher-Tseytlin 03](#BeisertFrolo
 
 (...)
 
+
+\linebreak
+
+
+[[!include Polyakov gauge-string duality -- section]]
+
+
+
 ## Checks
  {#Checks}
 
