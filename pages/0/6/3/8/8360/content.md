@@ -61,7 +61,9 @@ Historical reminiscences:
 
 * {#Polyakov07} [[Alexander M. Polyakov]], *Beyond Space-Time*, in *The Quantum Structure of Space and Time*, Proceedings of the 23rd Solvay Conference on Physics, World Scientific (2007) &lbrack;[arXiv:hep-th/0602011](https://arxiv.org/abs/hep-th/0602011), [pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/23rd_Solvay_Physics.pdf)&rbrack;
 
-* {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings*, in: *The Birth of String Theory*, Cambridge University Press (2012) &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183), [doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+* {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings* &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183)&rbrack;
+
+  published as *Quarks, strings and beyond*, section 44 in: [[Paolo Di Vecchia]] et al. (ed.), *The Birth of String Theory*, Cambridge University Press (2012) 544-551 &lbrack;[doi:10.1017/CBO9780511977725.048](https://doi.org/10.1017/CBO9780511977725.048)&rbrack;
 
   > "By the end of ’77 it was clear to me that I needed a new strategy &lbrack;for understanding confinement&rbrack; and I became convinced that the way to go was the [[gauge/string duality]]. &lbrack;...&rbrack;"
 
