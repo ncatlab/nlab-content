@@ -17,6 +17,14 @@ On the [[theta angle]] in [[QCD]]:
 
 * {#CrewtherDiVecchiaVenezianoWitten79} [[Rodney Crewther]], [[Paolo Di Vecchia]], [[Gabriele Veneziano]], [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([CERN](http://cds.cern.ch/record/133382)). See also 
 
+On the early history of [[string theory]]:
+
+* Andrea Cappelli, Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+
+* [[Paolo Di Vecchia]], *The birth of string theory* &lbrack;[arXiv:0704.0101](https://arxiv.org/abs/0704.0101)&rbrack;
+  
+  published as: *From the S-matrix to string theory*, Section 11 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory*, Campridge University Press (2011) 156-178 &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+
 
 
 category: people
