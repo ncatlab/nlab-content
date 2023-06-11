@@ -31,7 +31,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -541,13 +540,26 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
 
-* {#Schwarz07} [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917)), published as _Gravity, unification, and the superstring_, in Filippo Colomo, [[Paolo Di Vecchia]] (eds.) _The birth of string theory_, Cambridge University Press, (2011) ([doi:10.1017/CBO9780511977725.005](https://doi.org/10.1017/CBO9780511977725.005))
+* {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996), in: Proceedings of *COSMION 96: 2nd International Conference on Cosmo Particle Physics* Dedicated to the 75th Anniversary of Andrei D. Sakharov, Moscow (1996) &lbrack;[arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067), [spire:969846](https://inspirehep.net/conferences/969846)&rbrack;
 
-  (on the early history of [[string theory]] up to the "first superstring revolution", the construction of the [[Green-Schwarz anomaly cancellation|Green-Schwarz-anomaly]]-free $SO(32)$ [[type I string theory]] and [[heterotic string]])
+  > (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
 
-* {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996), in: Proceedings of _COSMION 96: 2nd International Conference on Cosmo Particle Physics_ Dedicated to the 75th Anniversary of Andrei D. Sakharov. Moscow 1996 ([arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067), [spire:969846](https://inspirehep.net/conferences/969846))
 
-  (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
+* Andrea Cappelli, Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+
+
+* {#Schwarz07} [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ &lbrack;[arXiv:0708.1917](http://arxiv.org/abs/0708.1917)&rbrack;, 
+
+  published as *Gravity, unification, and the superstring*, Section 3 in: [[Paolo Di Vecchia]] et al. (eds.) *The birth of string theory*, Cambridge University Press (2012) 37- &lbrack;[doi:10.1017/CBO9780511977725.005](https://doi.org/10.1017/CBO9780511977725.005)&rbrack;
+
+  > (on the early history of [[string theory]] up to the "first superstring revolution", the construction of the [[Green-Schwarz anomaly cancellation|Green-Schwarz-anomaly]]-free $SO(32)$ [[type I string theory]] and [[heterotic string]])
+
+* {#Veneziano12} [[Gabriele Veneziano]], *Rise and fall of the hadronic string*, Section 2 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory* (2012) &lbrack;[doi:10.1017/CBO9780511977725.004](https://doi.org/10.1017/CBO9780511977725.004), lecture video:[15073](https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/15073)&rbrack;
+
+
+* [[Paolo Di Vecchia]], *The birth of string theory* &lbrack;[arXiv:0704.0101](https://arxiv.org/abs/0704.0101)&rbrack;
+  
+  published as: *From the S-matrix to string theory*, Section 11 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory*, Campridge University Press (2011) 156-178 &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
 
 
 * {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2016/main/Schwarz.pdf), [[SchwarzString2016.pdf:file]])
