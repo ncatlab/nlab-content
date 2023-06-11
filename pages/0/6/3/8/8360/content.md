@@ -14,6 +14,11 @@ Discussing what came to be called the *[[Polyakov action]]* for the [[bosonic st
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
+and for the [[superstring]]:
+
+* [[Alexander Polyakov]], *Quantum geometry of fermionic strings*, Physics Letters B **103** 3 (1981) 211-213 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90744-9">doi:10.1016/0370-2693(81)90744-9</a>&rbrack;
+
+
 Introducing [[conformal field theory]]:
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
