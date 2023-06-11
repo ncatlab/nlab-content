@@ -34,6 +34,14 @@ Generally, in [[gauge theory]] by a *flux tube* one means a cylindrical/string-s
 
   (which become the [[strings]] of [[string theory]] under [[AdS-CFT correspondence]]/[[AdS-QCD correspondence]])
 
+
+
+[[!include Polyakov gauge-string duality -- section]]
+
+
+
+
+
 ## Related concepts
 
 * [[flux]], [[flux quantization]], [[flux compactification]]
