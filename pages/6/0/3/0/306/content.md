@@ -441,6 +441,8 @@ Whereas for 1-toposes the _subobject classifier_ is the key structural ingredien
 
 ## Related concepts
 
+* [[Lawvere interval]]
+
 * [[boolean domain]]
 
 * [[quasitopos]] where a weaker notion of subobject classifier only classifies [[strong monomorphism]]s. 
