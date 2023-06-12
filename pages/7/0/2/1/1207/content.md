@@ -71,4 +71,4 @@ $$
 $$
 and $(A\otimes\epsilon)\circ\rho = \epsilon$,
 where we denote $\rho(c) = \sum c^A\otimes c^C$ and $\Delta(c) = \sum c_{(1)}\otimes c_{(2)}$.
-If $A$ is a bialgebra then $A$-comeasurings of coalgebras (with additional data) appear in the definition of (cocycle) cross coproduct coalgebras. 
+If $A$ is a bialgebra then $A$-comeasurings of coalgebras (with additional data) appear in the definition of (cocycle) cross coproduct coalgebras.
