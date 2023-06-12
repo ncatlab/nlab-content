@@ -10,8 +10,13 @@ On the relation between the practice of [[mathematics]] and [[physics]] (for his
 
   > we claim that the role of rigorous [[proof]] in mathematics is functionally [[analogy|analogous]] to the role of [[experiment]] in the natural sciences ([Jaffe-Quinn 93, p. 2](JaffeQuinn93))
 
+On the [[mass gap]]-problem in [[Yang-Mills theory]]:
 
-## Related $n$Lab entries
+* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ (2000) &lbrack;[[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
+
+
+
+## Related entries
 
 * [[constructive quantum field theory]]
 
