@@ -1,8 +1,10 @@
 ## Idea
 
-While unital ring $R$ is simply an algebra over $\mathbf{Z}$ and $A$-algebras for $A$ (commutative) subring of the center of $R$ (more generally, if the unit map $\eta: A\to Center(R)$ is given) center are hence generalizing the rings over possibly noncommutative rings express general objects in coslice category $Ring/A$ for arbitrary $A$.
+A unital ring $R$ is simply an algebra over $\mathbf{Z}$.
+More generally $A$-algebras for $A$ commutative are given by maps $\eta: A\to Z(R)$ to the center. $A$-rings are a generalization when $A$ is not necessarily commutative or
+the image of $\eta$ is not in the center of $R$. Hence these are general objects in the coslice category $Rings/A$ for arbitrary $A$.
 
-In some sense a dual notion is the notion of an $A$-coring.
+In some sense a dual notion is of an $A$-coring.
 
 ## Details
 
@@ -21,9 +23,15 @@ the structure of $A$ as a ring, together with the two natural homomorphisms
 of rings
 $s = \eta(-\otimes 1_A):A\to R$ and $t=\eta(1_A\otimes -):A^{op}\to R$ which have commuting images ($s(a)t(a')=t(a')s(a)$, for all $a,a'\in A$). In theory of [[associative bialgebroid]]s these are the dual versions of the source and target maps from the study of [[groupoid]]s.
 
-There is (not always associative) product in the study of $A\otimes A^{op}$-rings, so called [[Takeuchi product]].
+There is (not always associative) product of $A$-rings, and especially useful in the study of $A\otimes A^{op}$-rings, given by certain [[coend]], so called [[Takeuchi product]].
 
 
 ## Literature
 
-...
+* [[Mitsuhiro Takeuchi]], _Groups of algebras over $A \times \bar{A}$, J. Math. Soc. Japan __29__, 459--492, 1977, [MR0506407](https://www.ams.org/mathscinet-getitem?mr=0506407), [euclid](http://projecteuclid.org/euclid.jmsj/1240432948)
+
+An introduction to $A$-rings and $A\otimes A^{op}$-rings is at the beginning of survey
+
+* [[Gabriella Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
+* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_{R}$-bialgebras and duality_, J. Algebra 251: 279-294, 2002, [math.QA/0012164](http://arxiv.org/abs/math/0012164)
+* P. Schauenburg, _Bialgebras over noncommutative rings and a structure theorem for Hopf bimodules_, Appl. Categ. Structures __6__ (1998), 193&#8211;222, [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/bnrsthb.ps) [doi](http://dx.doi.org/10.1023/A:1008608028634)
