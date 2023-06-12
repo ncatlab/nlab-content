@@ -16,22 +16,28 @@
 ## Idea ##
 
 In [[algebra]], the *Wedderburn--Artin theorem* gives a clean characterization of those [[rings]] that are [[matrix algebras]] over [[division rings]].
-
    
-Concretely, the theorem says that any semisimple ring is a [[finite limit|finite]] [[direct sum]] of [[matrix algebras]] over [[division rings]]. (Here a [[ring]] is called *[[semisimple ring|semisimple]]* if each of its left- or equivalently right- [[modules]] is a finite [[direct sum]] of [[simple modules]].)
+Concretely, the theorem says that any semisimple ring is a [[finite limit|finite]] [[direct sum]] of [[matrix algebras]] over [[division rings]]. (Here a [[ring]] is called *[[semisimple ring|semisimple]]* if each of its left or equivalently right [[modules]] is a finite [[direct sum]] of [[simple modules]].) 
 
 ## Statement ##
 
 \begin{proposition}\label{TheTheorem}
 **(Wedderburn--Artin Theorem)** \linebreak
-Every [[semisimple ring]] is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division rings]].
+Every [[semisimple ring]] is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division rings]].   A semisimple ring is [[simple ring|simple]] if and only if it is a matrix algebra over a division ring.
 \end{proposition}
 
-There is also a version for [[associative algebras]] over [[fields]]:
+Beware: a simple ring may not be semisimple!  A ring is simple iff it has no two-sided ideals, and in the absence of further hypotheses this does not imply that all of its left (or equivalently right) modules are direct sums of simple modules.  For example, the [[Weyl algebra]] is simple but not semisimple, and not isomorphic to a matrix algebra over a division ring.  However, a simple ring that is left or right [[Artinian ring|artinian]] is semisimple, so we have:
+
+\begin{corollary}\label{Corollary}
+\linebreak
+Every [[simple ring]] that is left or right artinian is [[isomorphism|isomorphic]] to a matrix algebra over a division algebra.
+\end{corollary}
+
+There is also a version of the Wedderburn--Artin theorem for [[associative algebras]] over [[fields]]:
 
 \begin{proposition}
 **(Wedderburn--Artin Theorem for Algebras over Fields)**\linebreak 
-Every [[semisimple algebra]] over a [[field]] $k$ is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division algebras]] over $k$.
+Every [[semisimple algebra]] over a [[field]] $k$ is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division algebras]] over $k$.  A semisimple algebra over $k$ is simple if and only if it is a matrix algebra over a division algebra over $k$.
 \end{proposition}
 
 ## Proofs ##
@@ -45,7 +51,7 @@ A common modern approach proceeds as follows.
 Suppose $R$ is semisimple. Then the right $R$-module ${}_R R$ is isomorphic to a finite direct sum of [[simple module|simple $R$-modules]] (which are the same as [[minimal ideal|minimal]] right [[ideals]] of $R$).  Write this direct sum as
 
 $$ 
-  {}_R R 
+   R_R 
     \;\cong\; 
   \bigoplus_i I_i^{\oplus m_i}
   \,,
@@ -54,12 +60,12 @@ $$
 where the $I_i$ are mutually nonisomorphic [[simple module|simple]] right $R$-modules, the $i$th one appearing with multiplicity $m_i$. Then we have for the [[endomorphisms]]
 
 $$ 
-  End({}_R R) 
+   End(R_R) 
   \;\cong\; 
   \bigoplus_i End\big(I_i^{\oplus m_i}\big) 
 $$
 
-and so we can identify $End\big(I_i^{\oplus m_i}\big)$ with a ring of [[matrices]]
+and we can identify $End\big(I_i^{\oplus m_i}\big)$ with a ring of [[matrices]]
 
 $$ 
   End\big(I_i^{\oplus m_i}\big) 
@@ -68,14 +74,19 @@ $$
   \,,
 $$
 
-where the [[endomorphism ring]] $End(I_i)$ of the right $R$-module $I_i$ is a division ring by [[Schur's lemma]] because $I_i$ is simple.
+where the [[endomorphism ring]] $End(I_i)$ of the right $R$-module $I_i$ is a division ring by [[Schur's lemma]] because $I_i$ is simple.   Since $R \cong End(R_R)$ we conclude
 
+$$ 
+  R \;\cong\; 
+  \bigoplus_i M_{m_i}\big(End(I_i)\big) 
+  \,.
+$$
+
+(We use right modules because $R \cong End(R_R)$; if we used left modules we would have $R \cong End({}_R R)^{op}$, but the proof would still go through.)
 
 ### Nicholson's proof
 
-Here is a different style of proof, due to [Nicholson (1993)](#Nicholson93):
-
-A key step in this approach is "Brauer's Lemma". 
+A different style of proof can be found in [Nicholson (1993)](#Nicholson93).  A key step in this approach is "Brauer's Lemma". 
 
 \begin{lemma}\label{BrauerLemma}
 **(Brauer's Lemma)** \linebreak 
