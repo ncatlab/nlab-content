@@ -33,7 +33,7 @@ Review:
 
 * {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
  
-* Henriette Elvang, Yu-tin Huang, _Scattering Amplitudes_ ([arXiv:1308.1697](http://arxiv.org/abs/1308.1697))
+* [[Henriette Elvang]], [[Yu-tin Huang]], *Scattering Amplitudes*, Cambridge University Press (2015) &lbrack;[arXiv:1308.1697](http://arxiv.org/abs/1308.1697), [doi:10.1017/CBO9781107706620]( https://doi.org/10.1017/CBO9781107706620)&rbrack;
 
 * Livia Ferro, Tomasz Lukowski, _Amplituhedra, and Beyond_, Topical Review invited by Journal of Physics A: Mathematical and Theoretical ([arXiv:2007.04342 ](https://arxiv.org/abs/2007.04342))
 
