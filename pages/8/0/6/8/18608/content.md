@@ -49,20 +49,19 @@ This issue is well and widely known in the [[particle physics]]-community, see f
 
 A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
-* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills and Mass Gap](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_
+* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_
 
-* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_, 2000 ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
+* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ (2000) &lbrack;[[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
 
 Early report on the progress (essentially none):
 
-* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
-
+* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_ (2004) &lbrack;[[Douglas-StatusOfYMMillenniumProb.pdf:file]]&rbrack;
 
 Further comments:
 
 * [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series 33(2), 201-212 ([arXiv:0911.1013](https://arxiv.org/abs/0911.1013), [pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf))
 
-Notes reviewing more technical details of the problem are in 
+Notes reviewing more technical details of the problem:
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
 
