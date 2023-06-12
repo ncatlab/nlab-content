@@ -651,7 +651,7 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 * [[Mannque Rho]], [[Ismail Zahed]] (eds.) Chapter 4 of: _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-* Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons* ([arXiv:2106.13136](https://arxiv.org/abs/2106.13136))
+* Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons*, published as: *Holographic hadron masses in the language of quantum mechanics*,  European Journal of Physics **42** 6 (2021) 065801 &lbrack;[arXiv:2106.13136](https://arxiv.org/abs/2106.13136), [doi:10.1088/1361-6404/ac1abb](https://iopscience.iop.org/article/10.1088/1361-6404/ac1abb)&rbrack;
 
 With emphasis on application to the [QCD phase diagram](QCD#PhaseDiagram) and to the description of [[neutron stars]]:
 
