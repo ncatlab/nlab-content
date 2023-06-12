@@ -103,11 +103,15 @@ On [[knot theory]] and [[Chern-Simons theory]]:
 
 On [[skyrmions]] from [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]] ([[hadron Kaluza-Klein theory]]):
 
-* {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+* {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett. B, 222(3) 438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
 and in a variant on [[hyperbolic space]]:
 
 * [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_,  	Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
+
+On the [Clay Millennium Problems](https://www.claymath.org/millennium-problems/)
+
+* {#Atiyah2000} [[Michael Atiyah]], *The millennium problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[YT](https://youtu.be/trxjCOmg8GY), discussion of [Yang-Mills&MassGap](mass+gap#ReferencesMassGapProblem) starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
 
 
 On [[M-theory on G2-manifolds]]:
