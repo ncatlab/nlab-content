@@ -51,9 +51,9 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 * [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_
 
-* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ (2000) &lbrack;[[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
+* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ (2000) &lbrack;[pdf](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), [pdf](https://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf), [[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
 
-* {#Atiyah2000} [[Michael Atiyah]], *The millennium problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[YT](https://youtu.be/trxjCOmg8GY), discussion of Yang-Mills&MassGap starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
+* {#Atiyah2000} [[Michael Atiyah]], *The millennium problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[web](https://www.claymath.org/lectures/the-millennium-prize-problems-ii/), [YT](https://youtu.be/trxjCOmg8GY), discussion of Yang-Mills&MassGap starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
 
 > [40:20](https://youtu.be/trxjCOmg8GY?t=2420) What is the future of this problem &lbrack;Yang-Mills & mass-gap&rbrack; in physics, what could happen?
 
@@ -63,9 +63,9 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 > [40:47](https://youtu.be/trxjCOmg8GY?t=2447) Or you might think that you want something different.
 
-> [40:50](https://youtu.be/trxjCOmg8GY?t=2450) You might find to get a better understanding of the formal structure of quantum field theory of this Yang-Mills type. 
+> [40:50](https://youtu.be/trxjCOmg8GY?t=2450) You might find to get a better understanding of the formal structure of [[quantum field theory]] of this Yang-Mills type. 
 
-> [40:58](https://youtu.be/trxjCOmg8GY?t=2458) These Yang-Mills theories have very elaborate mathematical formal structure, which incorporates very mysterious dualities of various kinds and also a thing called *supersymmetry*, and many of the applications in mathematics incorporate all these.
+> [40:58](https://youtu.be/trxjCOmg8GY?t=2458) These Yang-Mills theories have very elaborate mathematical formal structure, which incorporate very mysterious [[duality in physics|dualities]] of various kinds and also a thing called *[[supersymmetry]]*, and many of the applications in mathematics incorporate all these.
 
 > [41:51](https://youtu.be/trxjCOmg8GY?t=2475) So here there is a very elaborate structure, and it is just possible that if we get a better understanding of that structure then that might have given us a better way of trying to lay the foundations.
 
@@ -75,7 +75,7 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 > [41:47](https://youtu.be/trxjCOmg8GY?t=2507) You could of course sit back and wait, await development in string theory.
 
-> [41:54](https://youtu.be/trxjCOmg8GY?t=2514) String theory and the latest things that follow string theory, called M-theory and every other new theory, develop [at] an enormous rate.
+> [41:54](https://youtu.be/trxjCOmg8GY?t=2514) String theory and the latest things that follow string theory, called *[[M-theory]]* and every other new theory, develop [at] an enormous rate.
 
 > [42:00](https://youtu.be/trxjCOmg8GY?t=2520) The theoretical physics community here is tremendously active, there are very beautiful things happening every week, new results come out, many of them will have mathematical overtones.
 
@@ -127,12 +127,11 @@ Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear phys
 
 * [[Yakov Shnir]], Section 9.1. of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
+* [Barnaföldi & Gogokhia (2019), p. 2](#BarnafoldiGogokhia19)
 
-* [Roberts &Schmidt (2020), p. 2](#RobertsSchmidt20)
+* [Roberts & Schmidt (2020), p. 2](#RobertsSchmidt20)
 
 * [Roberts (2021), footn. 2](#Roberts21)
-
-* [Barnaföldi & Gogokhia (2019)](#BarnafoldiGogokhia19)
 
 * [Roberts (2022), p. 2](#Roberts22)
 
