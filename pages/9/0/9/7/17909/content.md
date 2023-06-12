@@ -11,24 +11,38 @@
 
 ## Idea ##
 
-The Artin-Wedderburn theorem gives a clean characterization of rings that are matrix algebras over division rings.   
-A [[ring]] is [[semisimple ring| semisimple]] if each of its left (or equivalently, right) modules is a finite direct sum of [[simple modules]].   The Artin-Wedderburn theorem says that any semisimple ring is a finite direct sum of matrix algebras over [[division rings]].
+The Wedderburn--Artin theorem gives a clean characterization of rings that are matrix algebras over division rings.   
+A [[ring]] is [[semisimple ring| semisimple]] if each of its left (or equivalently, right) modules is a finite direct sum of [[simple modules]].   The Wedderburn--Artin theorem says that any semisimple ring is a finite direct sum of matrix algebras over [[division rings]].
 
 ## Statement ##
 
-**Artin--Wedderburn Theorem**.   Every semisimple ring is isomorphic to a finite direct sum of matrix algebras over division rings.
+**Wedderburn--Artin Theorem**.   Every semisimple ring is isomorphic to a finite direct sum of matrix algebras over division rings
 
 There is also a version for [[associative algebras]] over [[fields]]:
 
-**Artin--Wedderburn Theorem for Algebras over Fields**.   Every semisimple algebra over a field $k$ is isomorphic to a finite direct sum of matrix algebras over division algebras over $k$.
+**Wedderburn--Artin Theorem for Algebras over Fields**.   Every semisimple algebra over a field $k$ is isomorphic to a finite direct sum of matrix algebras over division algebras over $k$.
 
 ## Proof ##
 
-There are many proofs of the Artin--Wedderburn theorem.  This is a quick one:
+There are many proofs of the Wedderburn--Artin theorem.  A common modern approach proceeds as follows.  Suppose $R$ is semisimple.  Then the right $R$-module ${}_R R$ is isomorphic to a finite direct sum of simple $R$-modules (which are the same as minimal right ideals of $R$).  Write this direct sum as
 
-* William K. Nicholson, [A short proof of the Wedderburn-Artin theorem](https://www.thebookshelf.auckland.ac.nz/docs/NZJMaths/nzjmaths022/nzjmaths022-01-010.pdf), *New Zealand J. Math* **22** (1993), 83--86.
+$$ {}_R R \cong \bigoplus_i I_i^{\oplus m_i} $$
 
-A key step here is called "Brauer's Lemma". This explains how division rings enter the story:
+where the $I_i$ are mutually nonisomorphic simple right $R$-modules, the $i$th one appearing with multiplicity $m_i$. Then we have
+
+$$ End({}_R R) \cong \bigoplus_i End(I_i^{\oplus m_i}) $$
+
+and we can identify $End(I_i^{\oplus m_i})$ with a ring of matrices
+
+$$ End(I_i^{\oplus m_i}) \cong M_{m_i}(End(I_i)) $$
+
+where the endomorphism ring $End(I_i)$ of the right $R$-module $I_i$ is a division ring by [[Schur's lemma]] because $I_i$ is simple.
+
+Here is a different style of proof:
+
+* William K. Nicholson, [A short proof of the Wedderburn--Artin theorem](https://www.thebookshelf.auckland.ac.nz/docs/NZJMaths/nzjmaths022/nzjmaths022-01-010.pdf), *New Zealand J. Math* **22** (1993), 83--86.
+
+A key step in this approach is "Brauer's Lemma". 
 
 **Brauer's Lemma.**   Suppose $R$ is a ring and $K \subseteq R$ is a minimal left ideal with $K^2 \ne 0$.  Then $K = R e$  for some $e \in K$ with $e^2 = e$, and $e R e$ is a division ring.
 
@@ -75,6 +89,7 @@ Thus $b$ is the left inverse of $x$.  So $x$ is the right inverse of $b$.  &mark
 
 ## References
 
-* Wikipedia, _[Artin-Wedderburn theorem](https://en.wikipedia.org/wiki/Artin%E2%80%93Wedderburn_theorem)_
+* Wikipedia, _[Wedderburn--Artin theorem](https://en.wikipedia.org/wiki/Wedderburn%E2%80%93Artin_theorem)_
 
 [[!redirects Wedderburn's theorem]]
+[[!redirects Artin-Wedderburn theorem]]
