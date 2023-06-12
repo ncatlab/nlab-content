@@ -15,13 +15,13 @@
 
 ## Idea
 
-The [[model structure on enriched categories]] gives in particular a model structure on dg-categories, called the _Dwyer-Kan model structure_, which is analogous to the usual [[model structure on sSet-categories]] which models [[(infinity,1)-categories]].
+The general notion [[model structure on enriched categories]] gives in particular a model structure on [[dg-categories]], called the _Dwyer-Kan model structure_, and analogous to the usual [[model structure on sSet-categories]] which models [[(infinity,1)-categories]].
 
 There are interesting [[left Bousfield localizations]] of this model structure, called the _quasi-equiconic_ and _Morita_ model structures.  Here the [[fibrant objects]] are the [[pretriangulated dg-categories]], resp. [[idempotent complete category|idempotent complete]] [[pretriangulated dg-categories]].  In characteristic zero, the Morita model structure is known to present the [[(infinity,1)-category]] of linear [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)).
 
 ## Statement
 
-### With Dwyer-Kan weak equivalences
+### With Dwyer-Kan equivalences
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -68,6 +68,11 @@ This model structure is a presentation of the [[(∞,1)-category]] of [[stable (
 
 The [[pretriangulated dg-category|pretriangulated envelope]] of [[Bondal]]-[[Kapranov]] is a [[fibrant replacement]] functor for the Morita model structure.  The [[DG quotient]] of [[Drinfeld]] is a model for the [[homotopy cofibre]] with respect to the Morita model structure.
 
+### Quasi-equiconic model structure
+
+Here the [[fibrant objects]] are the [[pretriangulated dg-categories]]. (...)
+
+
 ## Related concepts
 
 * [[model structure on dg-operads]]
@@ -90,6 +95,12 @@ The model structure on dg-categories is due to
 It is reproduced as theorem 4.1 in 
 
 * [[Bernhard Keller]], _On differential graded categories_ ([pdf](http://atlas.mat.ub.es/grgta/articles/Keller.pdf))
+
+
+A summary of the various model structures on dg-categories:
+
+* {#CisinskiTabuada11} [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], Section 2 of: _Non-connective K-theory via universal invariants_, Compositio Math. **147** (2011) 1281-1320 &lbrack;[arXiv:0903.3717](http://arxiv.org/abs/0903.3717), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/Non-connective-K-theory.pdf)&rbrack;
+
 
 Discussion of [[internal homs]] of dg-categories in terms of refined [[Fourier-Mukai transforms]] is in
 
@@ -128,5 +139,12 @@ See also
 
 
 
+[[!redirects Dwyer-Kan model structure on dg-categories]]
+[[!redirects canonical model structure on dg-categories]]
+[[!redirects quasi-equiconic model structure on dg-categories]]
+[[!redirects Morita model structure on dg-categories]]
+
+[[!redirects (infinity,1)-category of dg-categories]]
+[[!redirects infinity-category of dg-categories]]
 
 
