@@ -300,7 +300,7 @@ is absent.
 
 * Minghui Ding, [[Craig D. Roberts]], Sebastian M. Schmidt, *Emergence of Hadron Mass and Structure* $[$[arXiv:2211.07763](https://arxiv.org/abs/2211.07763)$]$
 
-* {#Roberts22} [[Craig D. Roberts]], *Origin of the Proton Mass* $[$[arXiv:2211.09905](https://arxiv.org/abs/2211.09905)$]$
+* {#Roberts22} [[Craig D. Roberts]], *Origin of the Proton Mass*, at: *8th International Symposium on Symmetries in Subatomic Physics (SSP 2022)* $[$[arXiv:2211.09905](https://arxiv.org/abs/2211.09905), [doi:10.1051/epjconf/202328201006](https://doi.org/10.1051/epjconf/202328201006)$]$
 
 
   > (see the articles for a wealth of relevant commentary)
