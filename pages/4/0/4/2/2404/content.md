@@ -42,6 +42,13 @@ On [[homological algebra]] and [[homotopical algebra]] (via [[triangulated categ
 
 * [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,   transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
 
+Introduced [[quantum linear group]]s as universal coacting bialgebras (and their quotient Hopf algebras) in
+
+* [[Yu. I. Manin]], _Quantum groups and non-commutative geometry_, CRM, Montreal 1988.
+
+Some of these structures have repercussion on the study of [[quadratic operad]]s, as in
+
+* [[Yuri Ivanovich Manin]], [[Bruno Vallette]], _Monoidal structures on the categories of quadratic data_, Documenta Mathematica __25__, 1727--1786
 
 On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
 
@@ -54,14 +61,10 @@ On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry
 _Mathematics as Metaphor_: Selected Essays of Yuri I. Manin (ed. 2007) ([libquotes](https://libquotes.com/yuri-manin/quote/lbj0h0e))
 
 
-
-
-
-
-
 category: people
 
 [[!redirects Yuri I. Manin]]
+[[!redirects Yuri Ivanovich Manin]]
 
 [[!redirects Yu. Manin]]
 [[!redirects Yu. I. Manin]]
