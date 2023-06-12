@@ -233,11 +233,15 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 
 * [[tensor product of functors]]
 
+
 ## References
 
+Lecture notes:
 
-Detailed discussion specifically for tensor products of modules is in
+* [[Keith Conrad]], *Tensor products* &lbrack;part I:[pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf), [[Conrad-TensorProductsI:file]]; part II: [pdf](https://kconrad.math.uconn.edu/blurbs/linmultialg/tensorprod2.pdf), [[Conrad-TensorProductsII:file]]&rbrack;
 
-* Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
+See also: 
+
+* Wikipedia, *[Tensor product of modules](https://en.wikipedia.org/wiki/Tensor_product_of_modules)*
 
 [[!redirects tensor products of modules]]
