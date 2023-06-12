@@ -2,7 +2,7 @@
 
 A unital ring $R$ is simply an algebra over $\mathbf{Z}$.
 More generally $A$-algebras for $A$ commutative are given by maps $\eta: A\to Z(R)$ to the center. $A$-rings are a generalization when $A$ is not necessarily commutative or
-the image of $\eta$ is not in the center of $R$. Hence these are general objects in the coslice category $Rings/A$ for arbitrary $A$.
+the image of $\eta$ is not in the center of $R$. Hence these are general objects in the [[coslice category]] $A/Rings$ (also denoted $A \downarrow Ring$) for arbitrary $A$.
 
 In some sense a dual notion is of an $A$-coring.
 
