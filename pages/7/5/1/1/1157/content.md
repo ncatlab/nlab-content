@@ -194,14 +194,13 @@ See also:
 * {#FelixHalperinThomas92} [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
 
 
-
-
-
 Review:
 
 * [[Dev Sinha]], Section 1 in: _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
+* [[Mathieu Anel]], [[André Joyal]], _On the bar-cobar duality for algebras and operads_, slides 2012, [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Boston-Operades.pdf)
+* [[Mathieu Anel]], [[André Joyal]], _Sweedler theory for (co)algebras and the bar-cobar constructions_, [arXiv:1309.6952](https://arxiv.org/abs/1309.6952)
 
-
+* [[Kathryn Hess]], _The cobar construction: a modern perspective_, lectures 2007, [pdf](https://sma.epfl.ch/~hessbell/Minicourse_Louvain_Notes.pdf)
 
 Identifying the cobar construction on [[singular homology|singular chains]] on a [[topological space]] with the dg-algebra of chains on its [[loop space]]:
 
@@ -217,7 +216,7 @@ Generalization of the bar-cobar constructions to [[dg-Hopf algebras]]:
 
 * [[Murray Gerstenhaber]], [[Alexander Voronov]], Section 3.2 of: _Homotopy G-algebras and moduli space operad_, Internat. Math. Research Notices (1995) 141-153 ([arXiv:hep-th/9409063](https://arxiv.org/abs/hep-th/9409063))
 
-* Justin Young, _Brace Bar-Cobar Duality_ ([arXiv:1309.2820](https://arxiv.org/abs/1309.2820))
+* Justin Young, _Brace bar-cobar duality_ ([arXiv:1309.2820](https://arxiv.org/abs/1309.2820))
 
 
 [[!redirects cobar construction]]
