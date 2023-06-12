@@ -34,11 +34,11 @@ If there is no danger for confusion, one often says simply 'associative algebra'
 
 More generally: 
 
-* a (merely) **associative algebra** need not have a [[unit]] $i \colon R \to V$; that is, it is a [[semigroup]] instead of a [[monoid]];
+* a (merely) **associative algebra** need not have a [[unit]] $i \colon R \to A$; that is, it is a [[semigroup]] instead of a [[monoid]];
 
-* an [[ring over a ring|$R$-ring]] is a monoid in the category [[Bimd|$R BiMod$]] of $R$-[[bimodules]] equipped with, crucially, the [[tensor product of bimodules]].
+* an [[ring over a ring|$R$-ring]] is a [[monoid object]] [[internalization|in]] the category [[Bimod|$R BiMod$]] of $R$-[[bimodules]] equipped with, crucially, the [[tensor product of bimodules]].
 
-Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[commutative monoid in a symmetric monoidal category]] in $Vect$.
+Less generally, a **[[commutative algebra]]** (where [[associativity]] and [[unitality]] are usually assumed) is a [[commutative monoid in a symmetric monoidal category|commutative monoid objecy]] [[internalization|in]] [[Mod|$R Mod$]].
 
 For a given ring the algebras form a category, [[Alg]], and the commutative algebras a subcategory, [[CommAlg]].
 
