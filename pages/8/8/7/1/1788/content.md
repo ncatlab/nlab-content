@@ -1,4 +1,6 @@
 
+
+
 > [40:20](https://youtu.be/trxjCOmg8GY?t=2420) What is the future of this problem &lbrack;Yang-Mills & mass-gap&rbrack; in physics, what could happen?
 
 > [40:24](https://youtu.be/trxjCOmg8GY?t=2424) This is now my personal guess or, if you like, hints &lbrack;or&rbrack; suggestions.
