@@ -34,7 +34,7 @@ This can be unpacked into the following condition:
 +-- {: .num_prop}
 ###### Proposition
 
-A partial map classifier for $B$ is uniquely determined by a map $B \to B_\bot$ with the property that, for every partial map $A\rightharpoonup B$, there is a unique $A \to B_\bot$ making a pullback square
+A partial map classifier for $B$ is uniquely determined by a map $B \to B_\bot$ with the property that, for every partial map $A\rightharpoonup B$ depicted below, there is a unique $A \to B_\bot$ making a pullback square
 
 \begin{tikzcd}
 D \arrow[d, hook] \arrow[r] \arrow[dr, phantom, very near start, "\lrcorner"] & B \arrow[d]
@@ -46,7 +46,7 @@ D \arrow[d, hook] \arrow[r] \arrow[dr, phantom, very near start, "\lrcorner"] & 
 +-- {: .proof}
 ###### Proof
 
-For any monomorphism $B \to B'_\bot$, there is a natural transformation $\mathcal{C}(-,B_\bot) \to Par_{\mathcal{C}}(-,B)$ given by forming pullbacks along $B \to B_\bot$. It is a natural bijection iff it satisfies the condition of the proposition.
+For any monomorphism $B \to B_\bot$, there is a natural transformation $\mathcal{C}(-,B_\bot) \to Par_{\mathcal{C}}(-,B)$ given by forming pullbacks along $B \to B_\bot$. It is a natural bijection iff it satisfies the condition of the proposition.
 
 If $B \to B_\bot$ satisfies the condition of the proposition, then it is a monomorphism, by considering the (total) partial map $\id_B$.
 
