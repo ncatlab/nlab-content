@@ -16,23 +16,27 @@
 ## Definition
 
 ### Over ordinary rings
+ {#OverOrdinaryRings}
 
-For $R$ a [[commutative ring]], an **associative unital $R$-algebra** 
-is equivalently 
+For $R$ a [[commutative ring]], an **associative unital $R$-algebra** is equivalently:
 
-* a [[monoid in a monoidal category|monoid]] [[internalization|internal to]] $R$[[Mod]] equipped with the [[tensor product of modules]] $\otimes$;
+* a [[monoid in a monoidal category|monoid]] [[internalization|internal to]] the [[category]] [[Mod|$R Mod$]] of $R$-[[modules]] equipped with the [[tensor product of modules]] $\otimes$;
 
-* a [[pointed object|pointed]] one-object category [[enriched category|enriched over]] $(R Mod, \otimes)$;
+* a [[pointed object|pointed]] single-[[object]] [[enriched category|category enriched over]] $(R Mod, \otimes)$;
 
-* a pointed $R$-[[algebroid]] with one object;
+* a pointed $R$-[[algebroid]] with a single object;
 
-* an  $R$-[[module]] $V$ equipped with [[linear maps]] $p : V \otimes V \to V$ and $i : R \to V$ satisfying the associative and unit laws;
+* an  $R$-[[module]] $A$ equipped with $R$-[[linear maps]] $p \colon A \otimes A \longrightarrow A$ and $i \colon R \to A$ satisfying [[associativity]] and [[unitality]];
 
 * a [[ring]] $A$ [[under category|under]] $R$ such that the corresponding map $R \to A$ lands in the [[center]] of $A$.
 
 If there is no danger for confusion, one often says simply 'associative algebra', or even only '[[algebra]]'.
 
-More generally, a (merely) **associative algebra** need not have $i: R \to V$; that is, it is a [[semigroup]] instead of a monoid.
+More generally: 
+
+* a (merely) **associative algebra** need not have a [[unit]] $i \colon R \to V$; that is, it is a [[semigroup]] instead of a [[monoid]];
+
+* an [[ring over a ring|$R$-ring]] is a monoid in the category [[Bimd|$R BiMod$]] of $R$-[[bimodules]] equipped with, crucially, the [[tensor product of bimodules]].
 
 Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[commutative monoid in a symmetric monoidal category]] in $Vect$.
 
@@ -490,6 +494,14 @@ Finally one checks that these two constructions are inverses to each other, up t
 * [[differential graded algebra]], [[A-infinity algebra]]
 
 ## References
+
+See most references on *[[algebra]]*.
+
+See also:
+
+* Wikipedia, *[Associative algebra](https://en.wikipedia.org/wiki/Associative_algebra)*
+
+Discussion in the generality of [[brave new algebra]]:
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
