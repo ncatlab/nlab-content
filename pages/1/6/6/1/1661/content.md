@@ -19,6 +19,7 @@ That is, $T \setminus S$ consists of those elements of $T$ that are not elements
 
 Note that the relative complement of $S$ in the ambient set $X$ is simply the [[complement]] $\setminus S$ of $S$; sometimes this is called the _absolute_ complement.  Conversely, $T \setminus S$ is the [[intersection]] of $T$ and $\setminus S$.
 
+In [[constructive mathematics]], the above definitions still holds for any two [[decidable subsets]] of a given ambient set $X$. 
 
 ### In material set theory
 
