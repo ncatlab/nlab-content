@@ -1,4 +1,4 @@
-This article is about the twisted tensor product of associative algebras yielding a new algebra containing the original algebras as subalgebras. For another notion of [[twisted tensor product]] of a dg-algebra with a dg-coalgebra yielding a chain complex see there. While twisting tensor products of dg-algebra with a dg-coalgebra involves a twisting cochain, the twist for algebras here is rather of different nature (sort of distributive law). 
+This article is about the twisted tensor product of associative algebras yielding a new algebra containing the original algebras as subalgebras. For another notion of [[twisted tensor product]] of a dg-algebra with a dg-coalgebra yielding a chain complex see there. While twisting tensor products of dg-algebra with a dg-coalgebra involves a [[twisting cochain]], the twist for algebras here is rather of different nature, boiling down to some variant of [[distributive law]]s. 
 
 ## Definition 
 
@@ -22,7 +22,7 @@ $$
 \circ(A\otimes\tau\otimes B)\circ(\tau\otimes\tau)\circ(B\otimes\tau\otimes A)
 $$
 
-The following distributive law pentagons are needed
+The following [[distributive law]] pentagons are needed
 and are equivalent to the above condition (we skip adorning the relative tensor products):
 $$
 (A\otimes\mu_B)\circ (\tau\otimes B)\circ(B\otimes \tau)=  \tau\circ(\mu_B\otimes A): B\otimes B\otimes A\to A\otimes B
@@ -54,7 +54,7 @@ More elaborate versions for matched products and bicrossproducts in Hopf algebra
 
 In some abstract setups (factorization algebras, factorization monads etc.) more general construction was known beforehands, using distributive laws and further generalizations appear later. 
 
-For dg-algebras including a relative version, $R$-dg-rings, 
+For dg-algebras including a relative version, $R$-dg-[[ring over a ring|rings]], 
 
 * [[Dmitri Orlov]], _Twisted tensor products of DG algebras_, Russ. Math. Surv. 76 (2021) 1146; _Smooth DG algebras and twisted tensor product_, [arXiv:2305.19799](https://arxiv.org/abs/2305.19799)
 
