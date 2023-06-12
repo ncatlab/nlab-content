@@ -56,7 +56,7 @@ On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry
 
 ## Quotes
 
-> _only poetry and mathematics are capable of speaking meaningfully about such things_
+> _What binds us to space-time is our rest mass, which prevents us from flying at the speed of light, when time stops and space loses meaning. In a world of light there are neither points nor moments of time; beings woven from light would live "nowhere" and "nowhen"; only poetry and mathematics are capable of speaking meaningfully about such things_
 
 _Mathematics as Metaphor_: Selected Essays of Yuri I. Manin (ed. 2007) ([libquotes](https://libquotes.com/yuri-manin/quote/lbj0h0e))
 
