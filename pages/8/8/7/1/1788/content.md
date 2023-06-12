@@ -1,4 +1,47 @@
 
+> [40:20](https://youtu.be/trxjCOmg8GY?t=2420) What is the future of this problem &lbrack;Yang-Mills & mass-gap&rbrack; in physics, what could happen?
+
+> [40:24](https://youtu.be/trxjCOmg8GY?t=2424) This is now my personal guess or, if you like, hints &lbrack;or&rbrack; suggestions.
+
+> [40:30](https://youtu.be/trxjCOmg8GY?t=2430) You can try a direct analytical assault. If you are a young man and brave and you have a long way into thre future, you can just get out your hammer and chisel and crack away.
+
+> [40:47](https://youtu.be/trxjCOmg8GY?t=2447) Or you might think that you want something different.
+
+> [40:50](https://youtu.be/trxjCOmg8GY?t=2450) You might find to get a better understanding of the formal structure of quantum field theory of this Yang-Mills type. 
+
+> [40:58](https://youtu.be/trxjCOmg8GY?t=2458) These Yang-Mills theories have very elaborate mathematical formal structure, which incorporates very mysterious dualities of various kinds and also a thing called *supersymmetry*, and many of the applications in mathematics incorporate all these.
+
+> [41:51](https://youtu.be/trxjCOmg8GY?t=2475) So here there is a very elaborate structure, and it is just possible that if we get a better understanding of that structure then that might have given us a better way of trying to lay the foundations.
+
+> [41:25](https://youtu.be/trxjCOmg8GY?t=2485) For example, a problem that can be described in two different ways, by duality, two dual pictures might look quite different, one of them might be practical and the other one might be intractable.
+
+> [41:35](https://youtu.be/trxjCOmg8GY?t=2495) They are certainly not at all unreasonable to think this might be a way starting to understand better these formal operators[?], the formal operators here is very sophisticated.
+
+> [41:47](https://youtu.be/trxjCOmg8GY?t=2507) You could of course sit back and wait, await development in string theory.
+
+> [41:54](https://youtu.be/trxjCOmg8GY?t=2514) String theory and the latest things that follow string theory, called M-theory and every other new theory, develop [at] an enormous rate.
+
+> [42:00](https://youtu.be/trxjCOmg8GY?t=2520) The theoretical physics community here is tremendously active, there are very beautiful things happening every week, new results come out, many of them will have mathematical overtones.
+
+> [42:10](https://youtu.be/trxjCOmg8GY?t=2530) And it could be that if we wait a few years there'll be such a totally new  picture emerging from string theory that we'll get a better idea how to go about attacking the problem, so that's not an unreasonable expectation.
+
+> [42:21](https://youtu.be/trxjCOmg8GY?t=2541) You see, trying to lay the foundations for physics is like an architect trying to lay the foundations that's rapidly going up.
+
+> [42:30](https://youtu.be/trxjCOmg8GY?t=2550) I mean, which do you do first, it's not quite clear: You want to see the design or you want to lay the foundations. Maybe you want the design first.
+
+> [42:39](https://youtu.be/trxjCOmg8GY?t=2559) The, of course, you might also sit back and say: Well, quantum electrodynamics was very hard, because we didn't incorporate extra things like proton and neutrons, we only worried about electrons. Maybe even that isn't enough perhaps we should have incorporated gravity, then we'll have all the forces under control and perhaps at that stage the fundamental theory will be even easier.
+
+> [43:00](https://youtu.be/trxjCOmg8GY?t=2580) People in string theory aim here and this is the ultimate, and perhaps the ultimate theory will be easier than the transitional theories. But who knows.
+
+> [43:09](https://youtu.be/trxjCOmg8GY?t=2589) The big challenge [for] mathematics and the physicists of the 21st century is to really make progress along this program by whatever method they can. Good luck to you.
+ 
+
+
+
+
+
+
+
 \begin{tikzcd}
   B 
     \ar[d, hook]
