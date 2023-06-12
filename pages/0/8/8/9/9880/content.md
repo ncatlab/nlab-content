@@ -19,7 +19,7 @@
 
 An effect in [[non-perturbative quantum field theory]] that cannot be seen in [[perturbative quantum field theory]] is called a _non-perturbative effect_.
 
-More in detail, [[theory (physics)|theories]] with [[instantons]] [[field (physics)|field]] configurations (such as in [[Yang-Mills theory]], hence in [[QCD]] and [[QED]]) or [[branes]] (such as in [[string theory]]), etc., are expected to have [[observables]] which as [[functions]] of the [[coupling constant]] $g$ are [[transseries]] of the form
+More in detail, [[theory (physics)|theories]] with [[instanton]] [[field (physics)|field]] configurations (such as in [[Yang-Mills theory]], hence in [[QCD]] and [[QED]]) or [[branes]] (such as in [[string theory]]), etc., are expected to have [[observables]] which as [[functions]] of the [[coupling constant]] $g$ are [[transseries]] of the form
 
 \[
   \label{TypicalTransseries}
@@ -39,8 +39,17 @@ where the first sum is the [[Feynman perturbation series]] itself and where the 
 
 Related is _[[resurgence theory]]_. See also at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
 
-## Examples
+{#Ubiquituous} Notice that, while non-perturbative effects are generally the least understood, they are not exotic but ubiquitous: Essentially the entire parameter space of a generic "[[theory (physics)|physical theory]]" is non-perturbative. In fact, the non-perturbative region of parameter space is the [[complement]] of an [[infinitesimally thickened point]] (labeled "perturbative" in the following graphics): 
 
+<center>
+<img src="https://ncatlab.org/nlab/files/NonPerturbativeParameterSpace-230613.jpg" width="360">
+</center>
+
+
+
+
+
+## Examples
 
 ### Schwinger effect
 
