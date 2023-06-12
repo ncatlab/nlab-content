@@ -264,6 +264,14 @@ the many experimental cross section measurements.
 
 \linebreak
 
+* Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons*, published as: *Holographic hadron masses in the language of quantum mechanics*,  European Journal of Physics **42** 6 (2021) 065801 $[$[arXiv:2106.13136](https://arxiv.org/abs/2106.13136), [doi:10.1088/1361-6404/ac1abb](https://iopscience.iop.org/article/10.1088/1361-6404/ac1abb)$]$
+
+> We have known for over fifty years that protons are made up of quarks and gluons. We have pinned down the masses and couplings of quarks to a startling degree of accuracy. Yet we still don’t know why the proton’s mass is almost exactly a factor of 100 greater than the sum of the masses of its constituent quarks. This mystery persists because quarks and gluons are strongly coupled at low energies: they interact so forcefully and often that our usual calculational tools – based almost entirely on perturbation theory – fail.
+
+> Holographic duality, or “[[holographic QCD]]” (hQCD) when applied to hadrons, emerged in the early 2000s as a new way to tackle strongly coupled systems.
+
+\linebreak
+
 * Roman Pasechnik, Michal Šumbera, *Different faces of confinement*, Universe 7 (2021) 9, 330 ([arXiv:2109.07600](https://arxiv.org/abs/2109.07600), [doi:10.3390/universe7090330](https://doi.org/10.3390/universe7090330))
 
 > in the infrared (IR) limit, QCD enters entirely different, strongly-coupled domain, rendering the Perturbation Theory inapplicable and creating substantial problems for making reliable predictions at intermediate and low momentum transfers, i.e. at large distances. While it is conventionally believed that QCD should remain the correct theory of strong interactions also at large distances, in the so-called confined regime, deriving reliable predictions remains a big theoretical challenge. 
