@@ -37,7 +37,7 @@ This can be unpacked into the following condition:
 A partial map classifier for $B$ is uniquely determined by a map $B \to B_\bot$ with the property that, for every partial map $A\rightharpoonup B$ depicted below, there is a unique $A \to B_\bot$ making a pullback square
 
 \begin{tikzcd}
-D \arrow[d, hook] \arrow[r] \arrow[dr, phantom, very near start, "\lrcorner"] & B \arrow[d]
+D \arrow[d, hook] \arrow[r]  & B \arrow[d]
 \\ A \arrow[r, dotted] & B_\bot
 \end{tikzcd}
 
