@@ -281,7 +281,7 @@ Dually, the category of [[copresheaves]]  $[\mathcal{C}, \mathrm{Set}]^{op}$ is 
 
 $$g \colon \mathcal{C} \to \mathcal{D}$$ 
 
-to a [[complete category]] $\mathcal{D}$ extends along the [[co-Yoneda lemma|co-Yoneda embedding]] $z \colon \mathcal{C} \to [\mathcal{C}, \mathrm{Set}]^{op}$ to a [[continuous functor]].
+to a [[complete category]] $\mathcal{D}$ extends along the [[co-Yoneda lemma|co-Yoneda embedding]] $z \colon \mathcal{C} \to [\mathcal{C}, \mathrm{Set}]^{op}$ to a [[continuous functor]]
 
 $$G \colon [\mathcal{C}, \mathrm{Set}]^{op} \to \mathcal{D}$$
 
