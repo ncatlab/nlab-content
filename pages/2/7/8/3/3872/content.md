@@ -111,7 +111,7 @@ and in a variant on [[hyperbolic space]]:
 
 On the [Clay Millennium Problems](https://www.claymath.org/millennium-problems/)
 
-* {#Atiyah2000} [[Michael Atiyah]], *The millennium problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[YT](https://youtu.be/trxjCOmg8GY), discussion of [Yang-Mills&MassGap](mass+gap#ReferencesMassGapProblem) starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
+* {#Atiyah2000} [[Michael Atiyah]], *The millennium problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[web](https://www.claymath.org/lectures/the-millennium-prize-problems-ii/), [YT](https://youtu.be/trxjCOmg8GY), discussion of [Yang-Mills&MassGap](mass+gap#ReferencesMassGapProblem) starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
 
 
 On [[M-theory on G2-manifolds]]:
