@@ -1,8 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A unital ring $R$ is simply an algebra over $\mathbf{Z}$.
-More generally $A$-algebras for $A$ commutative are given by maps $\eta: A\to Z(R)$ to the center. $A$-rings are a generalization when $A$ is not necessarily commutative or
-the image of $\eta$ is not in the center of $R$. Hence these are general objects in the [[coslice category]] $A/Rings$ (also denoted $A \downarrow Ring$) for arbitrary $A$.
+Recall that *$A$-algebras*, in the usual sense of [[associative algebras]] over a [[commutative ring]] $A$, are [[rings]] $R$ equipped with ring [[homomorphisms]] $\eta \colon A\to Z(R)$ from $A$ to their [[center]] (and a plain [[unital ring]] $R$ is an [[associative algebra]] over the [[integers]] $\mathbb{Z}$).
+
+By the term *$A$-rings* one refers to the generalization of this notion to the case where $A$ is not necessarily commutative or the [[image]] of $\eta$ is not necessarily in the center of $R$. Hence $A$-rings are general objects in the [[coslice category]] $A/Rings$ (also denoted $A \downarrow Ring$) for arbitrary $A$.
 
 In some sense a dual notion is of an $A$-coring.
 
