@@ -137,7 +137,7 @@ See also
 
 * Piergiorgio Panero, Boris Shoikhet, _A closed model structure on the category of weakly unital dg categories, II_ ([https://arxiv.org/abs/2007.12716](https://arxiv.org/abs/2007.12716))
 
-
+[[!redirects model structures on dg-categories]]
 
 [[!redirects Dwyer-Kan model structure on dg-categories]]
 [[!redirects canonical model structure on dg-categories]]
