@@ -11,7 +11,7 @@ and via the matrix elements of representations (using the analogue of the Peter-
 
 * A. Joseph, Quantum groups and their primitive ideals, Springer 1995.
 
-Some special cases can be introduced via construction of universal coacting bialgebras, for example the [[quantum linear group]]s in the approach of 
+Some special cases can be introduced via construction of [[universal coacting bialgebra]]s, for example the [[quantum linear group]]s in the approach of 
 
 * [[Yu. I. Manin]], Quantum groups and non-commutative geometry, CRM, Montreal 1988.
 
