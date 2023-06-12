@@ -123,6 +123,9 @@ Coalg(C, \mu(A_0, A_1) \times \mu(A_1, A_2)) & \cong & Coalg(C, \mu(A_0, A_1)) \
 
 * M. E. Sweedler, _Hopf algebras_, Mathematics Lecture Note Series, W. A. Benjamin, 1969
 * [[Mathieu Anel]], [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, [arXiv:1309.6952](https://arxiv.org/abs/1309.6952)
+
+A dual notion to measuring coalgebra is [[Tambara's universal coacting bialgebra]] from
+
 * [[Daisuke Tambara]], _The coendomorphism bialgebra of an algebra_, J. Fac. Sci. Univ. Tokyo Sect. IA Math, __37__, 425-456, 1990 [pdf](https://repository.dl.itc.u-tokyo.ac.jp/record/39399/files/jfs370210.pdf)
 * [[Martin Hyland]], [[Ignacio López Franco]], [[Christina Vasilakopoulou]], _Hopf measuring comonoids and enrichment_, Proc. London Math. Soc. __115__:5 (2017) 1118-1148, [doi](https://doi.org/10.1112/plms.12064)
 * [[Christina Vasilakopoulou]], _Enrichment of categories of algebras and modules_, [arXiv:1205.6450](https://arxiv.org/abs/1205.6450)
