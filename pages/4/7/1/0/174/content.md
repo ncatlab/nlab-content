@@ -230,13 +230,13 @@ For more history see
 
 ### General
   
-* [[Pietro Fre]], _The Branes: Three Viewpoints_,  In: _Gravity, a Geometrical Course_ Springer 2013 ([spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7))
+* [[Pietro Fré ]], *The Branes: Three Viewpoints*, Chater 7  in: *Gravity, a Geometrical Course*, Springer (2013) &lbrack;[spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7)&rbrack;
 
-* [[Greg Moore]], _What is... a brane?_, Notices of the AMS vol 52, no. 2 ([pdf](http://www.ams.org/notices/200502/what-is.pdf))
+* [[Greg Moore]], _What is... a brane?_, Notices of the AMS **52** 2 (2005) &lbrack;[pdf](http://www.ams.org/notices/200502/what-is.pdf)&rbrack;
 
-* Joan Simon, _Brane Effective Actions, Kappa-Symmetry and Applications_ ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+* [[Joan Simón]], *Brane Effective Actions, Kappa-Symmetry and Applications* &lbrack;[arXiv:1110.2422](http://arxiv.org/abs/1110.2422)&rbrack;
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6 of: _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
 
 
 ### Boundary conditions / D-branes
