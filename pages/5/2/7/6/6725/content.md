@@ -181,7 +181,7 @@ This finally implies that the restriction of $C_3$ to the orbifold fixed points 
 
 The original articles are
 
-* {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
+* {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B **460** (1996) 506 &lbrack;[arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209), <a href="https://doi.org/10.1016/0550-3213(95)00621-4">doi:10.1016/0550-3213(95)00621-4</a>&rbrack;
 
 * [[Edward Witten]], _Strong Coupling Expansion Of Calabi-Yau Compactification_, Nucl. Phys.B 471:135-158, 1996 ([arXiv:hep-th/9602070](https://arxiv.org/abs/hep-th/9602070))
 
