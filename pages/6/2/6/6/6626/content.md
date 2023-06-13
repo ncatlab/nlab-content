@@ -199,10 +199,15 @@ Full separation follows from the [[axiom of replacement]] and the principle of [
 * {#Jacobs99} [[Bart Jacobs]].  _Categorical Logic and Type Theory_.  Elsevier, 1999.
  
 
-* [[Finn Lawler]], section "Tabulation and comprehension" in _[[finnlawler:thesis outline|Fibrations of predicates and bicategories of relations]]_ (2014)
+* [[Finn Lawler]], section "Tabulation and comprehension" in: _[[finnlawler:thesis outline|Fibrations of predicates and bicategories of relations]]_ (2014)
 
-* {#Carboni97} Carboni, Janelidze, Kelly, Par&#233;. _On localization and stabilization for factorization systems_.  Applied Categorical Structures, 1997.
+* {#Carboni97} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures **5** (1997) 1-58 &lbrack;[doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444)&rbrack;
  
+
+
+Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]:
+
+* [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_ &lbrack;[arXiv:2010.09663](https://arxiv.org/abs/2010.09663), talk: [YT](https://www.youtube.com/watch?v=qVhRruh_1jI)&rbrack;
 
 
 
