@@ -192,9 +192,9 @@ If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[m
 
 ## References
 
-Section 6.2.2 of
+* [[Jacob Lurie]], Section 6.2.2 of_[[Higher Topos Theory]]_ 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+* Raffael Stenzel, _Notions of (∞,1)-sites and related formal structures_ ([arXiv:2306.06619](https://arxiv.org/abs/2306.06619))
 
 [[!redirects (∞,1)-site]]
 
