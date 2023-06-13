@@ -1,4 +1,9 @@
 
+<center>
+<div style="margin:-20px 10px 10px 10px;"><img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN-230613.jpg" width="750">
+</div>
+</center>
+
 
 
 > [40:20](https://youtu.be/trxjCOmg8GY?t=2420) What is the future of this problem &lbrack;Yang-Mills & mass-gap&rbrack; in physics, what could happen?
