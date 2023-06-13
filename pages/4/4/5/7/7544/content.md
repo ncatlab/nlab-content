@@ -207,7 +207,7 @@ Results holding for elementary (∞,1)-toposes:
 
 Comprehension schemes are used to characterize categorical properties of elementary ∞-toposes in
 
-* [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_, ([arXiv:2010.09663](https://arxiv.org/abs/2010.09663))
+* [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_ &lbrack;[arXiv:2010.09663](https://arxiv.org/abs/2010.09663), talk: [YT](https://www.youtube.com/watch?v=qVhRruh_1jI)&rbrack;
 
 On [[homotopy type with finite homotopy groups|π-finite homotopy types]] as a partial analogue of the elementary 1-topos [[FinSet]]:
 
