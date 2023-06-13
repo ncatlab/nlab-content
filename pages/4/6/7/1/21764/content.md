@@ -2,7 +2,7 @@
 
 ## Selected writings
 
-On comprehensive schemes for [[elementary (infinity,1)-toposes|elementary $(\infty,1)$-toposes]]:
+On [[comprehension schemes]] and [[elementary (infinity,1)-toposes|elementary $(\infty,1)$-toposes]]:
 
 * [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_ &lbrack;[arXiv:2010.09663](https://arxiv.org/abs/2010.09663), talk: [YT](https://www.youtube.com/watch?v=qVhRruh_1jI)&rbrack;
 
