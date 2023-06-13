@@ -1,4 +1,93 @@
 
+## Idea
+
+The [[equations of motion]] of [[classical field theory|classical]] [[electromagnetism]] ([[Maxwell's equations]]) on any [[spacetime manifold]] $(X,g)$ read, in modern [[differential form]]-formulation:
+
+$$
+  \begin{array}{rcl}
+    \mathrm{d}\,  F &=& 0
+    \\
+    \mathrm{d} \, \star F &=& j
+  \end{array}
+$$
+
+where 
+
+* the [[differential 2-form]] $F \,\in\, \Omega^2(X)$ is the [[Faraday tensor]],
+
+* the [[differential 3-form]] $j \,\in\, \Omega^3(X)$ is the electromagnetic [[current]] density
+
+and last not least
+
+* the operation "$\star \,\colon\, \Omega^p(X) \longrightarrow \Omega^{4-p}(X)$" is the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] of the given [[Lorentzian manifold]] $(X,g)$.
+
+In order to bring out that [[gravity]] (the [[pseudo-Riemannian metric]]) enters *only* through the [[Hodge star operator]], we may evidently re-write the above pair of equations equivalently as follows:
+
+
+$$
+  \begin{array}{rcl}
+    \mathrm{d}\,  F &=& 0
+    \\
+    \mathrm{d} \, G &=& j
+  \end{array}
+  \;\;\;\;
+  \text{and}
+  \;\;\;\;
+  G \,=\, \star F
+  \,.
+$$
+
+In fact, this is closer to the original historical formulations of electromagnetism, whose authors would speak of 4 fields
+
+* the [[electric field]] $\vec E$ and [[magnetic field]] $\vec B$ which constitute the [[Faraday tensor]]) given (on a local [[coordinate chart]]) by
+
+  $$
+    F 
+      \,=\, 
+    E_i \mathrm{d}x^i \wedge \mathrm{d} t 
+      \,+\, 
+    \epsilon_{i j k} B^i \mathrm{d} x^j \mathrm{d} x^k
+  $$
+
+* as well as fields $\vec H$ and $\vec D$ with
+
+  $$
+    G 
+      \,=\, 
+    H_i \mathrm{d}x^i \wedge \mathrm{d} t 
+      \,-\, 
+    \epsilon_{i j k} D^i \mathrm{d} x^j \mathrm{d} x^k
+  $$
+
+and then impose *constitutive equations* relating $(\vec E, \vec B)$ to $(\vec H, \vec D)$.
+
+These constitutive equations are just of the general form $G = \star F$, but if one allows "$\star$" here to be *any* [[linear map|linear]] [[endomorphism]] of $\Omega^2(X)$, then this formulation of [[Maxwell's equations]] accounts not just for interaction with the field of [[gravity]] (which the historically original authors did not care/know about anyway) but also for *dielectric media*.
+
+(...)
+
+Delphenich called this the "pre-metric formulation" of electromagnetism and had high hopes that it would help towards better understanding of [[Einstein-Maxwell theory]]. 
+
+Completely independently, exactly this idea is actually used in the [[K-theory classification of D-brane charge]]: Here one first adjoins to all the [[RR-field forms]] their would-be Hodge-duals, then imposes equations of motions and *afterwards* tries to re-impose the actual Hodge-duality constraint.
+
+(....)
+
+
+## References
+
+* Friedrich Kottler, *Maxwell'sche Gleichungen und Metrik*, Sitz. Akad. Wien IIa **131** (1922) 119-146
+
+* [[David van Dantzig]], *The fundamental equations of electromagnetism, independent of metrical geometry*, Mathematical Proceedings of the Cambridge Philosophical Society **30** 4  (1934) 421-427 &lbrack;[doi:10.1017/S0305004100012664](https://doi.org/10.1017/S0305004100012664)&rbrack;
+
+* [[David H. Delphenich]], *On linear electromagnetic constitutive laws that define almost-complex structures*, Annalen Phys. **16** (2007) 207-217 &lbrack;[doi:gr-qc/0610031](https://arxiv.org/abs/gr-qc/0610031), [doi:10.1002/andp.200610227](https://doi.org/10.1002/andp.200610227)&rbrack;
+
+* [[David H. Delphenich]], *Spinors and Pre-Metric Electromagnetism*, Advances in Applied Clifford Algebras **18** (2008) 567–578 &lbrack;[doi:10.1007/s00006-008-0115-6](https://doi.org/10.1007/s00006-008-0115-6)&rbrack;
+
+
+* [[David H. Delphenich]], *Pre-metric electromagnetism as a path to unification*, in: *Unified Field Mechanics*, World Scientific (2015) 215-220 &lbrack;[arXiv:1512.05183](https://arxiv.org/abs/1512.05183), [doi:10.1142/9789814719063_0023](https://doi.org/10.1142/9789814719063_0023)&rbrack;
+
+
+***
+
 <center>
 <div style="margin:-20px 10px 10px 10px;"><img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN-230613.jpg" width="750">
 </div>
