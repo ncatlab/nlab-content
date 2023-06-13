@@ -157,6 +157,8 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 
 * [[Robert Paré]], _Three Easy Pieces: Imaginary seminar talks in honour of Bob Rosebrugh_, Theory and Applications of Categories, Vol. 36, No. 6, 2021, pp. 171-200. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/36/6/36-06abs.html)&rbrack;
 
+* [[Robert Paré]], _Retrocells_, 2023. &lbrack;[arXiv:2306.06436](https://arxiv.org/abs/2306.06436)&rbrack;
+
 category: people
 
 [[!redirects Robert Pare]]
