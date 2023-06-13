@@ -205,7 +205,7 @@ Results holding for elementary (∞,1)-toposes:
 
 * [[Nima Rasekh]], _Truncations and Blakers-Massey in an Elementary Higher Topos_, ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
 
-Comprehension schemes are used to characterize categorical properties of elementary ∞-toposes in
+Using [[comprehension schemes]] to characterize categorical properties of elementary ∞-toposes:
 
 * [[Raffael Stenzel]], _(∞,1)-Categorical Comprehension Schemes_ &lbrack;[arXiv:2010.09663](https://arxiv.org/abs/2010.09663), talk: [YT](https://www.youtube.com/watch?v=qVhRruh_1jI)&rbrack;
 
