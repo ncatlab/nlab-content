@@ -20,7 +20,7 @@
 
 In [[perturbative string theory]], the _string length scale_ $\ell_s$ is a [[unit]] of [[length]] which sets the [[scale]] for the extension of [[strings]] described by [[sigma-model]] [[worldsheet]] [[field theories]]. Specifically, the [[Nambu-Goto action]] for the string is nothing but the relativistic [[volume]]-[[functional]], and the string length determines in which [[units]] the volume is measured.
 
-The [[square]] of the string length is known as the _Regge slope_ and traditionally denoted by $\alpha^\prime$:
+The [[square]] of the string length is known as the _Regge slope_ (as in: [[slope]] of [[Regge trajectories]]) and traditionally denoted by $\alpha^\prime$:
 
 $$
   \alpha^\prime \;=\; \ell_s^2
