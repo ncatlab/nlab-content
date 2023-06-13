@@ -9,6 +9,10 @@ On [[AQFT on curved spacetime|QFT on curved spacetimes]] via [[operator product 
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001))
 
+On [[electromagnetism]]:
+
+* [[Robert Wald]], *Advanced Classical Electromagnetism*, Princeton University Press (2022) &lbrack;[ISBN:9780691220390](https://press.princeton.edu/books/hardcover/9780691220390/advanced-classical-electromagnetism)&rbrack;
+
 
 ## Related entries
 
