@@ -57,11 +57,11 @@ Specifically on the [[swampland conjectures]]/[[landscape of string theory vacua
 
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
 
-* {#Banks19} [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ ([arxiv:1910.12817](https://arxiv.org/abs/1910.12817))
+* {#Banks19} [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ &lbrack;[arxiv:1910.12817](https://arxiv.org/abs/1910.12817)&rbrack;
 
-  from pages 14-22:
+  from pages [14](https://arxiv.org/pdf/1910.12817.pdf#PAGE=14)-22:
 
-  > these considerations lead to conclusions at odds with the seemingly similar arguments of $[$ the [[swampland conjectures]] $]$. $[\cdots]$  Perturbative moduli space completely distorts the true nature of the class of consistent models.
+  > these considerations lead to conclusions at odds with the seemingly similar arguments of &lbrack;the [[swampland conjectures]]&rbrack;. $[\cdots]$  Perturbative moduli space completely distorts the true nature of the class of consistent models.
 
   > It’s important to realize that the entire procedure just outlined for finding (meta) stable AdS minima of a non-perturbative effective potential is purely hypothetical and has no basis in well founded string theory calculations. $[\cdots].$ 
 
@@ -75,10 +75,11 @@ Specifically on the [[swampland conjectures]]/[[landscape of string theory vacua
 
   > The conclusion  that  effective  field  theorists  should  draw  from  this is that unlike super-symmetric string models in flat or AdS space-time, many of which have at least perturbative definitions as mathematical models obeying the axioms of quantum mechanics, all literature on the String Landscape is speculation based on the unfounded notion that all string models with a given amount of SUSY are part of one single model and that it makes sense to define an effective action that encompasses all string models. Every single non-perturbative construction of string models contradicts this claim $[\cdots]$
 
-Musings on [[holography]] and  and [[quantum information]] (such as through [[holographic entanglement entropy]]):
+Musings on [[holography]], [[quantum gravity]] and [[quantum information]] (such as through [[holographic entanglement entropy]]):
 
-* [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
+* [[Tom Banks]], *Holographic Space-time and Quantum Information*, Front. Phys. **8** (2020) &lbrack;[arXiv:2001.08205](https://arxiv.org/abs/2001.08205), [doi:10.3389/fphy.2020.00111](https://doi.org/10.3389/fphy.2020.00111)&rbrack;
 
+* [[Tom Banks]], *Hilbert Bundles and Holographic Space-time Models* &lbrack;[arXiv:2306.07038](https://arxiv.org/abs/2306.07038)&rbrack;
 
 
 
