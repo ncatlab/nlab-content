@@ -76,10 +76,11 @@ But it is expected ([AGMOO99](#AharonyGubserMaldacenaOoguriOz99), [p. 60](https:
 {#AdSCFTForSmallN} $\,$
 
 <center>
-<img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN.jpg" width="620">
+<div style="margin:-40px 10px 10px 10px;"><img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN-230613.jpg" width="750">
+</div>
 </center>
 
-> (graphics from *[[schreiber:Anyonic topological order in TED K-theory|SS22]]*)
+> (graphics adapted from *[[schreiber:Anyonic topological order in TED K-theory|SS22]]*)
 
 Notice that for real-world applications such as to the [[confinement]]/[[mass gap]]-problem of [[quantum chromodynamics]], the value of $N$ typically is indeed small (the number of [[color charge|colors]] in [[quantum chromodynamics]] is $N_c = 3$) so that the [[string theory]]/[[M-theory]]-corrections to the [[AdS/QCD correspondence]] are going to be crucial for the full discussion of these applications:
 
@@ -846,7 +847,6 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 [[!redirects AdS5-CFT4 duality]]
 [[!redirects AdS5/CFT4]]
 [[!redirects AdS5/CFT4 duality]]
-
 
 
 [[!redirects AdS4-CFT3]]
