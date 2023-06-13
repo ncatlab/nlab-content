@@ -27,7 +27,9 @@
 In [[gauge theory]] of higher abelian [[Yang-Mills theory]] type, where field configurations on some manifold $X$ are [[circle n-bundles with connection]] $\nabla$, the **magnetic flux** of the field configuration through a $(n+1)$-[[dimension]]al closed manifold $\Sigma \hookrightarrow X$ is 
 
 $$
-  \Phi_\sigma(\nabla) = \int_\Sigma F_\nabla
+  \Phi_\sigma(\nabla) 
+  \;=\; 
+  \textstyle{\int}_\Sigma F_\nabla
   \,,
 $$
 
@@ -76,6 +78,10 @@ If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrighta
 
 
 ## References
+
+History:
+
+* [[Raymond Brock]], *[[Faraday]]'s Lines of Force -- Modern Physics Begins*, chapter 11 in: *Quarks, Spacetime, and the Big Bang*, lecture notes &lbrack;chapter: [pdf](https://web.pa.msu.edu/people/brock/file_sharing/QSandBB/QS&BB_manuscript/man_faraday_up.pdf), full text:[pdf](https://web.pa.msu.edu/people/brock/file_sharing/QSandBB/QS&BB_manuscript/QS&BB.pdf)&rbrack;
 
 Online exposition 
 
