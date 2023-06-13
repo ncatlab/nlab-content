@@ -1,7 +1,7 @@
 
 * [institute page](https://www.su.se/english/profiles/axlj4439-1.450268)
 
-## Selected writings
+## Selected writings and talks
 
 On [[ordinary cohomology in homotopy type theory]], specifically on [[integral cohomology]]:
 
@@ -14,10 +14,11 @@ On [[homotopy groups of spheres in homotopy type theory]], specifically on the [
 
 * {#Ljungstroem22} [[Axel Ljungström]], *The Brunerie Number Is -2* (June 2022) &lbrack;[blog entry](https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/)&rbrack;
 
+* [[Axel Ljungström]], *Calculating a Brunerie Number*, [[Homotopy Type Theory Electronic Seminar Talks]], 20 October 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Ljungstrom-2022-10-20-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=MIMeQ88YMKI))
+
 Implementation of [[ordinary cohomology|ordinary]]$\;$[[cohomology rings]] in [[cubical agda]]:
 
 * [[Thomas Lamiaux]], [[Axel Ljungström]], [[Anders Mörtberg]], _Computing Cohomology Rings in Cubical Agda_, CPP 2023: Proceedings of the 12th ACM SIGPLAN International Conference on Certified Programs and Proofs (2023) &lbrack;[arxiv:2212.04182] (https://arxiv.org/abs/2212.04182), [doi:10.1145/3573105.3575677](https://doi.org/10.1145/3573105.3575677)&rbrack;
-
 
 category: people
 
