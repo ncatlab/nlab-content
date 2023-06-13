@@ -2,7 +2,7 @@
 
 * [webpage](https://www.cs.bham.ac.uk/~txd880/)
 
-## Selected writings
+## Selected writings and talks
 
 On [[domain theory]] in [[constructive mathematics|constructive]] [[set theory]]:
 
@@ -16,5 +16,8 @@ On [[ordinals]] in [[type theory]] and [[marked extensional well-founded orders]
 
 * {#deJongEtAl23} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Set-Theoretic and Type-Theoretic Ordinals Coincide* &lbrack;[arXiv:2301.10696](https://arxiv.org/abs/2301.10696)&rbrack;
 
+On [[epimorphisms]] in [[homotopy type theory]]:
+
+* [[Tom de Jong]], *Acyclic types and epimorphisms in HoTT*, [[Homotopy Type Theory Electronic Seminar Talks]], 17 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Jong-2022-11-17-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=vohAYPAAWxs))
 
 category: people
