@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Fields and quanta
++-- {: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -39,7 +48,6 @@ This phenomenon is explained by [[hadron supersymmetry]].
 ## Related concepts
 
 * [[string tension]]
-
 
 
 ## References
