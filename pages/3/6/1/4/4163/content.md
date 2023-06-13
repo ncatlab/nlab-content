@@ -19,7 +19,15 @@
 
 What is called _perturbative quantum field theory_ (pQFT) is [[quantum field theory]] where the [[interaction]] (between [[field (physics)|fields]]/[[particles]]) is treated as a tiny [[perturbation]] of the "[[free field theory]]" where no [[interaction]] is assumed to take place ("[[perturbation theory]]"). This is meant to be an approximation to the actual _[[non-perturbative quantum field theory]]_. However, the latter remains elusive except for toy examples of low spacetime dimension, vanishing [[interaction]] and/or [[topological field theory|topological invariance]] and most of the "quantum field theory" in the literature is tacitly understood to be perturbative.
 
-Hence pQFT studies the _[[infinitesimal neighbourhood]]_ (also called the _[[formal neighbourhood]]_) of [[free quantum field theories]] in the space of all quantum field theories. Mathematically this means that the resulting [[quantum observables]] are [[formal power series]] in the [[coupling constant]]  $g$ which measures the strength of the [[interaction]] (as well as in _[[Planck's constant]]_, which measures the general strength of [[quantum physics|quantum]]). This distinguishes perturbative quantum field theory from [[non-perturbative quantum field theory]], where the algebras of [[quantum observables]] are supposed to be not formal power series algebras, but [[C*-algebras]].
+{#pQFTAsInfinitesimalThickenedPoint} Hence pQFT studies the _[[infinitesimal neighbourhood]]_ (also called the _[[formal neighbourhood]]_) of [[free quantum field theories|free]] [[classical field theories]] in the parameter space of all quantum field theories, the rest of the space being the realm of [[non-perturbative QFT]]:
+
+Mathematically this means that the resulting [[quantum observables]] in pQFT (typically: [[scattering amplitudes]] or "[[S-matrices]]" encoded by [[Feynman diagrams]]) are [[formal power series]] in the [[coupling constant]]  $g$ which measures the strength of the [[interaction]] (as well as in _[[Planck's constant]]_, which measures the general strength of [[quantum physics|quantum]]). This distinguishes perturbative quantum field theory from [[non-perturbative quantum field theory]], where the algebras of [[quantum observables]] are supposed to be not formal power series algebras, but [[C*-algebras]].
+
+<center>
+<img src="https://ncatlab.org/nlab/files/NonPerturbativeParameterSpace-230613.jpg" width="360">
+</center>
+
+While just describing a tiny (infinitesimal) part of QFT, perturbative QFT is way better understood than full [[non-perturbative QFT]] (which remains ill-understood to the extent that it has been named a *[Millennium Problem](mass+gap#ReferencesMassGapProblem)*), and has the reputation of still being dramatically successful in practice -- though this applies to some field theories (such as [[QED]]) much more than to others (such as [[QCD]]), see [below](#ReferencesForInverseOfCouplingArgument).
 
 The key object of perturbative QFT is the perturbative _[[scattering matrix]]_ which expresses, as a [[formal power series]] in the ratio of the [[coupling constant]] over [[Planck's constant]], the [[probability amplitude]] of [[scattering]] processes, namely of processes where [[free field theory|free fields]] in a certain [[quantum state|state]] come in from the far past, interact and hence scatter off each other, and then go off in some other [[quantum state]] into the far future. The [[scattering cross sections]] thus defined are the quantities which may be directly measured in scattering [[experiments]], such as the [[LHC]] accelerator.
 
@@ -196,7 +204,7 @@ recalled for instance in
 
 * Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
 
-The argument that the perturbation series should be trustworthy for number of terms smaller than the inverse of the [[coupling constant]] is recalled in [Flory, Helling & Sluka 2012, p. 8 & eq. (34) & Sec. 2.5](#FloryHellingSluka12).
+{#ReferencesForInverseOfCouplingArgument} The argument that the perturbation series should be trustworthy for number of terms smaller than the inverse of the [[coupling constant]] is recalled in [Flory, Helling & Sluka 2012, p. 8 & eq. (34) & Sec. 2.5](#FloryHellingSluka12).
 
 Exposition also in:
 
