@@ -78,29 +78,41 @@ See at _[[moduli space of monopoles]]_ the section _[Scattering amplitudes of mo
 
 ### General
 
+Introduction and review:
+
 * [[Henriette Elvang]], [[Yu-tin Huang]], *Scattering Amplitudes*, Cambridge University Press (2015) &lbrack;[arXiv:1308.1697](http://arxiv.org/abs/1308.1697), [doi:10.1017/CBO9781107706620]( https://doi.org/10.1017/CBO9781107706620)&rbrack;
 
   > "The purpose of this review is to bridge the gap between a standard course in quantum field theory and recent fascinating developments in the studies of on-shell scattering amplitudes."
 
-* Tomasz R. Taylor, _A Course in Amplitudes_ ([arXiv:1703.05670](https://arxiv.org/abs/1703.05670))
+* Tomasz R. Taylor, _A Course in Amplitudes_ &lbrack;[arXiv:1703.05670](https://arxiv.org/abs/1703.05670)&rbrack;
 
-* {#SummersBuchholz} Stephen J. Summers, [[Detlev Buchholz]], _Scattering in Relativistic Quantum Field Theory: Fundamental Concepts and Tools_ ([arXiv:math-ph/0509047] (https://arxiv.org/abs/math-ph/0509047))
+* {#SummersBuchholz} Stephen J. Summers, [[Detlev Buchholz]], _Scattering in Relativistic Quantum Field Theory: Fundamental Concepts and Tools_ &lbrack;[arXiv:math-ph/0509047] (https://arxiv.org/abs/math-ph/0509047)&rbrack;
 
-* Clifford Cheung, _TASI Lectures on Scattering Amplitudes_ ([arXiv:1708.03872](https://arxiv.org/abs/1708.03872))
+* Clifford Cheung, _TASI Lectures on Scattering Amplitudes_ &lbrack;[arXiv:1708.03872](https://arxiv.org/abs/1708.03872)&rbrack;
 
 * Simon Badger, Johannes Henn, [[Jan Plefka]], Simone Zoia, *Scattering Amplitudes in Quantum Field Theory* &lbrack;[arXiv:2306.05976](https://arxiv.org/abs/2306.05976)&rbrack;
 
   > "These lecture notes bridge a gap between introductory quantum field theory (QFT) courses and state-of-the-art research in scattering amplitudes"
 
-A historical overview of the development of on-shell methods/analytic methods is in 
+For related reference on the *[[S-matrix]]* see there, such as
 
-* {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+* [[Sebastian Mizera]], *Physics of the Analytic S-Matrix* &lbrack;[arXiv:2306.05395](https://arxiv.org/abs/2306.05395)&rbrack;
+
+A historical overview of the development of on-shell methods/analytic methods:
+
+* {#Dixon13} [[Lance Dixon]], *Calculating Amplitudes*, (December 2013) &lbrack;[web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/)&rbrack;
 
 Annual conference series:
 
-* _[Amplitudes 2019](https://indico.cern.ch/event/750565/timetable/#20190701.detailed)_
+* *[Amplitudes 2019](https://indico.cern.ch/event/750565/timetable/#20190701.detailed)*
 
- 
+* *[Aplitudes 2020](https://indico.cern.ch/event/908370/)*
+
+* *[Amplitudes 2021](https://indico.nbi.ku.dk/event/1321/)*
+
+* *[Amplitudes 2022](https://indico.cern.ch/event/1101193/)*
+
+* *[Amplitudes 2023](https://indico.cern.ch/event/1228963/)*
 
 
 ### Analytic methods
