@@ -406,7 +406,8 @@ A public talk announcing the conjecture that the [[non-perturbative field theory
 
 The term "M-theory" originates in 
 
-* {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
+* {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], *Heterotic and Type I string dynamics from eleven dimensions*, Nucl. Phys. B **460** (1996) 506 &lbrack;[arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209), <a href="https://doi.org/10.1016/0550-3213(95)00621-4">doi:10.1016/0550-3213(95)00621-4</a>&rbrack;
+
 
 as a "non-committed" shorthand for "membrane theory"
 
