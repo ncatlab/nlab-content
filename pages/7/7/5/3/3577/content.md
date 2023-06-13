@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -123,12 +123,9 @@ Under this equivalence our bijection above maps to the statement that there is a
 
 ### Of coverages
 
-+-- {: .un_lemma}
-###### Observation
-
+\begin{lemma}
 The set of Grothendieck topologies on an $(\infty,1)$-category $C$ is in natural bijection with the set of Grothendieck topologies on its [[homotopy category of an (infinity,1)-category|homotopy category]].
-
-=--
+\end{lemma}
 
 This is [[Higher Topos Theory|HTT, remark 6.2.2.3]].
 
@@ -192,9 +189,12 @@ If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[m
 
 ## References
 
-* [[Jacob Lurie]], Section 6.2.2 of_[[Higher Topos Theory]]_ 
+* [[Jacob Lurie]], Section 6.2.2 of: _[[Higher Topos Theory]]_ (2009)
 
-* Raffael Stenzel, _Notions of (∞,1)-sites and related formal structures_ ([arXiv:2306.06619](https://arxiv.org/abs/2306.06619))
+* [[Raffael Stenzel]], *Notions of $(\infty,1)$-sites and related formal structures* &lbrack;[arXiv:2306.06619](https://arxiv.org/abs/2306.06619)&rbrack;
+
+* [[Raffael Stenzel]], *Higher sites and their higher categorical logic*, talk at *[[Homotopy Type Theory Electronic Seminar Talks|HoTT Electronic Seminar]]* (18 November 2021) &lbrack;video:[YT](https://www.youtube.com/watch?v=hUJlK8XgZxQ), slides:[pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Stenzel-2021-11-18-HoTTEST.pdf)&rbrack;
+
 
 [[!redirects (∞,1)-site]]
 
