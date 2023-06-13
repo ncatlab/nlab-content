@@ -154,6 +154,28 @@ The **Homotopy Type Theory Electronic Seminar Talks**, abbreviated as HoTTEST, i
 
 * [[Max Zeuner]], *A univalent formalization of affine schemes*, 20 October 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Zeuner-2022-10-20-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=nLP7GjL1Buc))
 
+* [[Axel Ljungström]], *Calculating a Brunerie Number*, 20 October 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Ljungstrom-2022-10-20-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=MIMeQ88YMKI))
+
+* [[Evan Cavallo]], *Cubes with one connection and relative elegance*, 3 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Cavallo-2022-11-03-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=CrcExHaMDfk))
+
+* [[Colin Zwanziger]], *Hofmann-Streicher Universes via Coalgebra*, 3 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Zwanziger-2022-11-03-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=UG0xwTNUplo))
+
+* [[Tom de Jong]], *Acyclic types and epimorphisms in HoTT*, 17 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Jong-2022-11-17-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=vohAYPAAWxs))
+
+* [[Jarl G. Taxerås Flaten]], *Central H-spaces and banded types*, 17 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Flaten-2022-10-17-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=-7PG2bzseJI)). 
+
+* [[Jacob Neumann]], *(Co)ends and (Co)structure*, 1 December 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Neumann-2022-12-01-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=X4v5HnnF2-o))
+
+* [[Astra Kolomatskaia]], *Semi-Simplicial Types*, 15 December 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Kolomaskaia-2022-12-15-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=fQv2FpeFxew))
+
+* [[Philipp Joram]], *Final Coalgebras of Analytic Functors in Homotopy Type Theory*, 15 December 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Joram-2022-12-15-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=nsgztQ5UbLw))
+
+### Spring 2023
+
+* [[Johan Commelin]], *Liquid Tensor Experiment*, 26 January 2023 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Commelin-2023-01-26-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=gkeGLRrAkbY))
+
+* [[Andrew Swan]], *Double negation stable h-propositions in cubical sets*, 9 February 2023 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Swan-2023-02-09-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=lNNrmuUQzkw))
+
 ## See also
 
 * [[homotopy type theory events]]
