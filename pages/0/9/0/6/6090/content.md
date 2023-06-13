@@ -7596,6 +7596,8 @@ From ([Weinberg 09, p. 11](#Weinberg09)):
 
 * [[crossing symmetry]]
 
+* [[conformal bootstrap]]
+
 * [[AdS-CFT]]
 
 * [string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)
@@ -7635,12 +7637,15 @@ Textbook accounts of this axiomatic approach to defining the S-matrix (i.e. not 
 
 * [[Franco Strocchi]], §6 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
+Exposition and review (with modern relation to [[conformal bootstrap]]):
 
-Discussion of S-matrix analyticity as a constraint on global causality violation of locally Lorentz invariant theories is in
+* [[Sebastian Mizera]], *Physics of the Analytic S-Matrix* &lbrack;[arXiv:2306.05395](https://arxiv.org/abs/2306.05395)&rbrack;
+
+Discussion of S-matrix analyticity as a constraint on global causality violation of locally Lorentz invariant theories:
 
 * {#AAHDNR06} Allan Adams, [[Nima Arkani-Hamed]], Sergei Dubovsky, Alberto Nicolis, Riccardo Rattazzi, _Causality, Analyticity and an IR Obstruction to UV Completion_, JHEP 0610:014, 2006 ([arXiv:hep-th/0602178](https://arxiv.org/abs/hep-th/0602178))
 
-General discussion of scattering theory is in
+General discussion of scattering theory:
 
 * {#Newton82} Roger G. Newton, _Scattering Theory of Waves and Particles_, Springer 1982 ([TOC pdf](https://cds.cern.ch/record/1562608/files/0486425355_TOC.pdf))
 
