@@ -292,7 +292,7 @@ Beware that the landscape literature is presently dominated by non-rigorous hand
 
   from pages 14-22:
 
-  > these considerations lead to conclusions at odds with the seemingly similar arguments of $[$ the [[swampland conjectures]] $]$. $[\cdots]$  Perturbative moduli space completely distorts the true nature of the class of consistent models.
+  > these considerations lead to conclusions at odds with the seemingly similar arguments of &lbrack;the [[swampland conjectures]]&rbrack;. $[\cdots]$  Perturbative moduli space completely distorts the true nature of the class of consistent models.
 
   > It’s important to realize that the entire procedure just outlined for finding (meta) stable AdS minima of a non-perturbative effective potential is purely hypothetical and has no basis in well founded string theory calculations. $[\cdots].$ 
 
