@@ -16,11 +16,17 @@
 
 ## Idea
 
-The construction of [[quantum field theory]] is often considered only in the [[infinitesimal neighbourhood]] of the [[classical field theory|classical]] [[free field theory]]; this is called _[[perturbative quantum field theory]]_. Since this very coarse (but remarkably succesful) perturbative concept of quantum field theory has come to often be considered by default, one speaks of _non-perturbative quantum field theory_ in order to amplify that the full theory is meant to be considered, not just the perturbative approximation.
+The construction of [[quantum field theory]] is often considered only in the [[infinitesimal neighbourhood]] of the [[classical field theory|classical]] [[free field theory]]; this is called _[[perturbative quantum field theory]]_. Since this very coarse (but remarkably successful) perturbative concept of quantum field theory has come to often be considered by default, one speaks of _non-perturbative quantum field theory_ in order to amplify that the full theory is meant to be considered, not just the perturbative approximation.
+
+More concretely, if we think of generic ([[Lagrangian field theory|Lagrangian]]) [[quantum field theories]] as parameterized by [[Planck's constant]] and a given [[coupling constant]], then perturbative QFT concerns just the [[infinitesimal neighbourhood]] of the origin in this parameter space, while all the rest of the space is the region of non-perturbative QFT:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/NonPerturbativeParameterSpace-230613.jpg" width="360">
+</center>
 
 An important [[non-perturbative effect]] in experimentally observed [[quantum physics]] that is invisible to [[perturbative QFT]] is the [[confinement]] and the [[mass gap]] of [[quantum chromodynamics]] ([[Yang-Mills theory]] with [[simple Lie group|simple]] [[gauge group]]).
 
-Presently non-perturbative quantum field theories have been constructed only in simple toy examples, such as for [[free field theories]] (no interaction) or in low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]]) or for [[topological quantum field theories]]. 
+Presently, non-perturbative quantum field theories have been constructed only in simple toy examples, such as for [[free field theories]] (no interaction) or in low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]]) or for [[topological quantum field theories]]. 
 
 Indeed the example of non-perturbative [[quantization of Yang-Mills theory]] (see there) in 4 dimensions, or even just enough of it to find the expected [[mass gap]] of the theory, is listed as one of the open "Millennium Problems" by the Clay Mathematics Institute.
 
