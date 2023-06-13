@@ -18,9 +18,9 @@
 
 Recall that *$A$-algebras*, in the usual sense of [[associative algebras]] over a [[commutative ring]] $A$, are [[rings]] $R$ equipped with ring [[homomorphisms]] $\eta \colon A\to Z(R)$ from $A$ to their [[center]] (and a plain [[unital ring]] $R$ is an [[associative algebra]] over the [[integers]] $\mathbb{Z}$).
 
-By the term *$A$-rings* (e.g. [Böhm (2009), §2](#Böhm09)) one refers to the generalization of this notion to the case where $A$ is not necessarily commutative or the [[image]] of $\eta$ is not necessarily in the center of $R$. Hence $A$-rings are general objects in the [[coslice category]] $A/Rings$ (also denoted $A \downarrow Ring$) for arbitrary $A$.
+By the term *$A$-rings* (e.g. [Böhm (2009), §2.1](#Böhm09)) one refers to the generalization of this notion to the case where $A$ is not necessarily commutative or the [[image]] of $\eta$ is not necessarily in the center of $R$. Hence $A$-rings are general objects in the [[coslice category]] $A/Rings$ (also denoted $A \downarrow Ring$) for arbitrary $A$.
 
-In some sense a dual notion is of an $A$-coring.
+The dual notion is, in some sense, that of *$A$-corings* (e.g. [Böhm (2009), §2.2](#Böhm09)).
 
 ## Details
 
@@ -53,7 +53,7 @@ Original articles:
 
 Introduction and review:
 
-* {#Böhm09} [[Gabriella Böhm]], Section 2 of: *Hopf algebroids*, chapter of: *Handbook of algebra* **6** (2009) 173-235 &lbrack;[arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806), <a ref="https://doi.org/10.1016/S1570-7954(08)00205-2">doi:10.1016/S1570-7954(08)00205-2</a>&rbrack;
+* {#Böhm09} [[Gabriella Böhm]], Section 2.1 of: *Hopf algebroids*, chapter of: *Handbook of algebra* **6** (2009) 173-235 &lbrack;[arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806), <a ref="https://doi.org/10.1016/S1570-7954(08)00205-2">doi:10.1016/S1570-7954(08)00205-2</a>&rbrack;
 
 See also
 
