@@ -1,5 +1,5 @@
 
-* [webpage](http://www.maths.ed.ac.uk/people/show?person=123)
+* [institute page](https://higgs.ph.ed.ac.uk/people/simon-joan/)
 
 ## Selected writings
 
