@@ -132,28 +132,28 @@ and the projection to $\mathcal{C}(A, S)$ takes the bottom horizontal arrow.
 
 ## Properties
 
-* In a topos, the partial map classifier $B_\bot$ of $B$ is [[injective object|injective]]. The canonical embedding $B\rightarrowtail B_\bot$ shows accordingly that a topos _has enough injectives_!
+* In a [[topos]], the partial map classifier $B_\bot$ of $B$ is [[injective object|injective]]. The canonical embedding $B\rightarrowtail B_\bot$ shows accordingly that a topos _has enough injectives_!
 
 * In a topos, the [[subobject classifier]] $true:1\rightarrow\Omega$ coincides with the monomorphism $\eta_1:1\rightarrowtail 1_\bot$.
 
 * In a topos, the assignment of $B_\bot$ to $B$ is functorial.
 
+
 ## References 
  {#References}
 
-* [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra - vol. 3_ , Cambridge UP 1994.  (sec.5.5)
+* [[Francis Borceux]], sec.5.5 in: *[[Handbook of Categorical Algebra]]* vol. 3, Cambridge UP (1994) 
 
-Section 1.2 of
 
-* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Dover reprint 2014)
+* [[Peter Johnstone]], Section 1.2 of: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Dover reprint 2014)
 
-A2.4 of the [[Elephant]]
+* [[Peter Johnstone]], Section A2.4 in: *[[Sketches of an Elephant]]*
 
 For related topics in [[homotopy type theory]]:
 
-* Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type ([abs:1610.09254](https://arxiv.org/abs/1610.09254))
+* [[Thorsten Altenkirch]], [[Nils Anders Danielsson]], [[Nicolai Kraus]], *Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type* &lbrack;[abs:1610.09254](https://arxiv.org/abs/1610.09254)&rbrack;
 
-* [[Martín Escardó]], Cory Knapp, Partial Elements and Recursion via Dominances in Univalent Type Theory ([pdf](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
+* [[Martín Escardó]], Cory Knapp, *Partial Elements and Recursion via Dominances in Univalent Type Theory* &lbrack;[doi:10.4230/LIPIcs.CSL.2017.21](https://doi.org/10.4230/LIPIcs.CSL.2017.21)&rbrack;
 
 Discussion for [[topological spaces]]:
 
