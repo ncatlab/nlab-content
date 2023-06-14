@@ -5,6 +5,12 @@
 
 ## References
 
+Name after [[Edmund T. Whittaker]].
+
+See also:
+
+* Wikipedia, *[Whittake function](https://en.wikipedia.org/wiki/Whittaker_function)*
+
 Relation of Whittaker functions to [[equivariance|equivariant]] [[Gromov-Witten theory]] on [[flag varieties]] is discussed in
 
 * [[Alexander Givental]], _Stationary Phase Integrals, Quantum Toda Lattices, Flag Manifolds and the Mirror Conjecture_, Topics in Singularity Theory, Amer. Math. Soc. Transl. Ser., 2 vol. 180, Amer.Math.Soc.,Providence, Rhode Island, 1997, pp. 103&#8211;115; ([arXiv:alg-geom/9612001](http://arxiv.org/abs/alg-geom/9612001))
