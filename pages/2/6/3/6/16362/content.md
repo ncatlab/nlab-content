@@ -10,18 +10,26 @@
 =--
 
 
-This page collects material related to the ten volme textbook series
+This page collects material related to the ten volume textbook series
 
-* [[Lev Landau]], [[Evgeny Lifshitz]], 
+* [[Lev Landau]], [[Evgeny Lifshitz]]:
 
-  _Course of Theoretical Physics_
+  \linebreak
 
-on theoretical [[physics]].
+  **Course of Theoretical Physics**
 
-The popular name of the books is simly _Landau-Lifschitz_.
+  \linebreak
+
+  $\sim$1950s
+
+  [Wikipedia entry](https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics)
+
+on [[theoretical physics]]
+
+(often referred to simply as "Landau-Lifschitz").
 
 
-The series was envisioned but not finished in writing by Landau himself. It is used extensively by several generation of physicists, well known for clarity of the arguments. It reflects mainly the role of the main author, [[Lev Landau]]; his pupil Lifschitz helped with all volumes, while some other coauthors contributed to some volumes or revisions; volume 4 is written by Beresteckii, Lifschitz and Pitaevskii, without Landau. 
+The series was envisioned but not finished in writing by [[Lev Landau|Landau]] himself. It is used extensively by several generation of physicists, well known for clarity of the arguments. It reflects mainly the role of the main author, [[Lev Landau]]; his pupil Lifschitz helped with all volumes, while some other coauthors contributed to some volumes or revisions; volume 4 is written by Beresteckii, Lifschitz and Pitaevskii, without Landau. 
 
 Landau wrote most of volume 1, significant parts of volumes 2,3,5,6,9, and minor part in other volumes. Volume 6 on hydrodynamics reflects his own approach, where he derived most of hydrodynamics from scratch and on the way discovered some of the things classics overlooked. Notice that Lifschitz had a brother, also a theoretical physicist, who actually gave more significant contributions to condensed matter physics. 
 
@@ -64,6 +72,19 @@ Landau wrote most of volume 1, significant parts of volumes 2,3,5,6,9, and minor
   * [[strain tensor]]
 
 ## VIII Electrodynamics of continua
+ {#VIII}
+
+[[Lev Landau]], [[Evgeny Lifshitz]], *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
+
+* [[electrodynamics]] in [[dielectric media]]
+
+* [[magnetohydrodynamics]]
+
+* [[superconductivity]]
+
+* [[electromagnetic waves]]
+
+* ...
 
 ## IX Statistical physics, Part II
 
