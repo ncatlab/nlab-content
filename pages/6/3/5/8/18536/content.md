@@ -19,11 +19,14 @@ On [[effective field theory]]-foundations of [[nuclear physics]] (introducing, a
 
 * [[Julian Schwinger]], _A Theory of the Fundamental Interactions_, Annals Phys. 2 (1957) 407-434 ([spire:12286](http://inspirehep.net/record/12286/))
 
+On [[classical field theory|classical]] [[electrodynamics]]:
+
+* [[Julian Schwinger]] et al., *Classical Electrodynamics*, based on Schwinger's 1976 lecture, Routledge (1999) &lbrack;[ISBN:9780738200569](https://www.routledge.com/Classical-Electrodynamics/Schwinger-Jr-Milton-Tsai/p/book/9780738200569), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/schwinger_EM.pdf)&rbrack;
 
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[perturbative quantum field theory]]
 
