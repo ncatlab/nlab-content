@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,7 +25,7 @@ Inspection of the [[equations of motion]] for [[classical field theory|classical
 
 where it is *only the second but not the first* part that involves the "[[background field|background]]" structure, namely the [[dielectric tensor]] characterizing the ambient [[dielectric medium]] and/or the [[pseudo-Riemannian metric]] characterizing the [[field (physics)|field]] of [[gravity]].
 
-This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922)](#Kottler22), and [Dantzig (1934)](#Dantzig34) (and apparently also [[Élie Cartan]] in *Sur les variétés à connexion affine...* (1925), but I haven't found the relevant passage yet) and more recently by [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account [Delphenich (202x)](#DelphenichBook)) who coined the term *pre-metric electromagnetism* for this formulation (the broad idea being that the second step above should be regarded as, indeed, secondary and subject to conceptual re-evaluation)
+This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b), and [Dantzig (1934)](#Dantzig34) (and apparently also [[Élie Cartan]] in *Sur les variétés à connexion affine...* (1925), but I haven't found the relevant passage yet) and more recently by [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account [Delphenich (202x)](#DelphenichBook)) who coined the term *pre-metric electromagnetism* for this formulation (the broad idea being that the second step above should be regarded as, indeed, secondary and subject to conceptual re-evaluation)
 and has attached high hopes with it [Delphenich (2015)](#Delphenich15).
 
 We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
@@ -216,9 +217,12 @@ As for the [[RR-field]] and its conjectured [[K-theory classification of D-brane
 
 There is no [[Whitehead-generalized cohomology theory]] with this property, due to the non-linear [[Quadratic Functions in Geometry, Topology, and M-Theory|quadratic function]] $G_4 \mapsto \tfrac{1}{2} G_4 \wedge G_4$ appearing in (eq:PreMetricEOMsForCField), but there is a [[non-abelian cohomology]] theory with the correct [[schreiber:The Character Map in Non-Abelian Cohomology|nonabelian character map]]: namely [[Cohomotopy|4-Cohomotopy theory]]. This observation (due to [Sati (2013,2018), §2.5](https://ncatlab.org/schreiber/show/Hypothesis+H#ReferencesInRational)) suggests (this is "[[schreiber:Hypothesis H]]") that the [[charge quantization]] of the [[supergravity C-field]] in [[M-theory]] may be in some form of [[Cohomotopy]] theory.
 
+
 ## References
 
-* {#Kottler22} Friedrich Kottler, *Maxwell'sche Gleichungen und Metrik*, Sitz. Akad. Wien IIa **131** (1922) 119-146
+* {#Kottler22a} [[Friedrich Kottler]], *Newtonsches Gesetz und Metrik*, Sitzungsber. Akad. Wiss. Wien, Math.-Naturw. Klasse, Abt. IIa, **131** (1922) 1-14 &lbrack;Engl. transl. by [[David H. Delphenich|Delphenich]]: [pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/kottler_-_newtons_law_and_metrics.pdf), [[Kottler-NewtonsLawAndMetric.pdf:file]]&rbrack;
+
+* {#Kottler22b} [[Friedrich Kottler]], *Maxwell'sche Gleichungen und Metrik*, Sitz. Akad. Wien IIa **131** (1922) 119-146 &lbrack;Engl. transl. by [[David H. Delphenich|Delphenich]]: [pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/kottler_-_maxwells_equation.pdf), [[Kottler-MaxwellEquationsAndMetric.pdf:file]]&rbrack;
 
 * {#Dantzig34} [[David van Dantzig]], *The fundamental equations of electromagnetism, independent of metrical geometry*, Mathematical Proceedings of the Cambridge Philosophical Society **30** 4  (1934) 421-427 &lbrack;[doi:10.1017/S0305004100012664](https://doi.org/10.1017/S0305004100012664)&rbrack;
 
