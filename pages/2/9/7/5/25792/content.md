@@ -30,7 +30,7 @@ and has attached high hopes with it [Delphenich (2015)](#Delphenich15).
 We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
 
-## More details
+## Premetric electromagentism
  {#Details}
 
 ### Electromagnetism in gravitational backgrounds
@@ -125,6 +125,10 @@ $$
 $$
 
 much like the [[Hodge star operator]] (whence here we use similar notation for both, which is non-standard).
+
+## Premetric higher electromagnetism
+
+While not usually discussed under this terminology in the literature, we may recognize [[higher gauge field|higher]] versions of "premetric" electromagnetism occuring in the ([[string theory]]-)literature:
 
 
 ### RR-fields in gravitational backgrounds
@@ -233,7 +237,7 @@ Early review:
 
 * [[Edmund T. Whittaker]]: pp. 192-196 of: *A History of the Theories of Aether and Electricity* -- Vol. 2: *The Modern Theories 1900-1926* (1953), reprinted by Humanities Press (1973) &lbrack;<a href="https://isidore.co/CalibreLibrary/Whittaker,%20Edmund%20Taylor/A%20History%20of%20the%20Theories%20of%20Aether%20and%20Electricity_%20The%20Modern%20Theories%201900-1926%20(4500)/A%20History%20of%20the%20Theories%20of%20Aether%20and%20El%20-%20Whittaker,%20Edmund%20Taylor.pdf">pdf</a>, <a href="https://en.wikipedia.org/wiki/A_History_of_the_Theories_of_Aether_and_Electricity">Wikipedia entry</a>&rbrack;
 
-  > "&lbrack;...&rbrack; This chapter has been concerned, for the most part, with General Relativity, which is essentially a geometrisation of physics. It may be closed with some accountof a movement in the opposite direction, seeking to abolish the priviledgedposition of geometry in physics, and indeed inquiring how far it may be possible to construct a physics independent of geometry. Since the notion of metric is a complicated one, which requires measurements with clocks and scales, generally with *rigid* bodies, which themselves are systems of great compelxity, it seems undesirable to take metric as fundamental, particularly for phenomena which are simpler and actually independent of it."
+  > "&lbrack;...&rbrack; This chapter has been concerned, for the most part, with General Relativity, which is essentially a geometrisation of physics. It may be closed with some accountof a movement in the opposite direction, seeking to abolish the priviledged position of geometry in physics, and indeed inquiring how far it may be possible to construct a physics independent of geometry. Since the notion of metric is a complicated one, which requires measurements with clocks and scales, generally with *rigid* bodies, which themselves are systems of great compelxity, it seems undesirable to take metric as fundamental, particularly for phenomena which are simpler and actually independent of it."
 
   > "The movement was initiated by Friedrich Kottler of Vienna, who in 1922 published two papers &lbrack;[Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b)&rbrack;"
 
