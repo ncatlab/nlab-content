@@ -65,9 +65,16 @@ Exposition of the formulation of [[Maxwell's equations]] via [[differential form
 * Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
 
 
-More advanced discussion:
+Textbook accounts of [[classical field theory|classical]] electrodynamics:
 
-* [[Mikio Nakahara]], Section 10.5 of: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack
+* [[Julian Schwinger]] et al., *Classical Electrodynamics*, based on Schwinger's 1976 lecture, Routledge (1999) &lbrack;[ISBN:9780738200569](https://www.routledge.com/Classical-Electrodynamics/Schwinger-Jr-Milton-Tsai/p/book/9780738200569), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/schwinger_EM.pdf)&rbrack;
+
+* [[John D. Jackson]], *Classical Electrodynamics*, Wiley (1962, 1975, 1998) &lbrack;[ISBN:978-0-471-30932-1](https://www.wiley.com/en-us/Classical+Electrodynamics%2C+3rd+Edition-p-9780471309321), <a href="https://en.wikipedia.org/wiki/Classical_Electrodynamics_(book)">Wikipedia entry</a>&rbrack;
+
+
+* [[Walter Greiner]], *Classical Electrodynamics*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-0587-6](https://doi.org/10.1007/978-1-4612-0587-6)&rbrack;
+
+* [[Mikio Nakahara]], Section 10.5 of: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
 * [[Robert Wald]], *Advanced Classical Electromagnetism*, Princeton University Press (2022) &lbrack;[ISBN:9780691220390](https://press.princeton.edu/books/hardcover/9780691220390/advanced-classical-electromagnetism)&rbrack;
 
