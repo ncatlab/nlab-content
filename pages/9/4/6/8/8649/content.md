@@ -163,3 +163,6 @@ and in [[equivariant Cohomotopy]]:
 
 [[!redirects flux quantization]]
 [[!redirects flux quantizations]]
+
+[[!redirects flux quantization law]]
+[[!redirects flux quantization laws]]
