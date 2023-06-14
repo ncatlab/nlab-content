@@ -92,7 +92,7 @@ $$
 This is due to [Marsli-Hall 13](#MarsliHall13).
 
 \begin{prop}\label{StrengtheningForNonNegativeMatrices}
-  If the matrix has non-negavive values and an eigenvalue has multiplicity greater than 1, then it is contained within this disc of half the radius inside one of the Gershgorin discs (eq:GershoginDiscFormula). 
+  If the matrix has non-negative values and an eigenvalue has multiplicity greater than 1, then it is contained within this disc of half the radius inside one of the Gershgorin discs (eq:GershoginDiscFormula). 
 \end{prop}
 
 ([Barany-Solymosi 16, Theorem 1](#BaranySolymosi16))
