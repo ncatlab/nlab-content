@@ -3,13 +3,14 @@
 
 The [[equations of motion]] of [[classical field theory|classical]] [[electromagnetism]] ([[Maxwell's equations]]) on any [[spacetime manifold]] $(X,g)$ read, in modern [[differential form]]-formulation:
 
-$$
+\[
+  \label{MaxwellEquationsInTraditionalDifferentialForm}
   \begin{array}{rcl}
-    \mathrm{d}\,  F &=& 0
+    \mathrm{d}\,  F &=& 0 \mathrlap{\,,}
     \\
-    \mathrm{d} \, \star F &=& j
+    \mathrm{d} \, \star_g F &=& j
   \end{array}
-$$
+\]
 
 where 
 
@@ -17,31 +18,36 @@ where
 
 * the [[differential 3-form]] $j \,\in\, \Omega^3(X)$ is the electromagnetic [[current]] density
 
+* $\mathrm{d} \,\colon\,\Omega^p(X) \longrightarrow \Omega^{p+1}(X)$ denotes the [[de Rham differential]],
+
+
 and last not least
 
-* the operation "$\star \,\colon\, \Omega^p(X) \longrightarrow \Omega^{4-p}(X)$" is the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] of the given [[Lorentzian manifold]] $(X,g)$.
+* $\star_g \,\colon\, \Omega^p(X) \longrightarrow \Omega^{4-p}(X)$ denotes the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] of the given [[Lorentzian manifold]] $(X,g)$.
 
-Often this is considered for $X \simeq \mathbb{R}^{3,1}$ being [[Minkowski spacetime]], hence for $g = \eta$ the [[Minkowski metric]], in which case this describes pure "Maxwell theory", but the exact same formulation holds $(X,g)$ any [[Lorentzian manifold]], in which case this is the sector of the [[equations of motion]] of [[Einstein-Maxwell theory]] which involve the [[electromagnetic field]].
+Often this is considered for $X \simeq \mathbb{R}^{3,1}$ being [[Minkowski spacetime]], hence for $g = \eta$ the [[Minkowski metric]], in which case this describes pure "Maxwell theory", but the exact same formulas apply in the generality that $(X,g)$ is any [[Lorentzian manifold]], in which case they form the sector of the [[equations of motion]] of [[Einstein-Maxwell theory]] which involve the [[electromagnetic field]] and its coupling to [[background field|background]] [[gravity]]. (The remaining sector are the [[Einstein equations]] for the metric field $g$ sourced by the [[stress-energy tensor]] of the Maxwell field).
 
-In order to bring out more manifestly that [[gravity]] (the [[pseudo-Riemannian metric]]) enters *only* through the [[Hodge star operator]], we may evidently re-write the above pair of equations equivalently as follows:
+In order to bring out more manifestly that [[gravity]] (the [[pseudo-Riemannian metric]]) enters *only* through the [[Hodge star operator]], we may evidently re-write the above pair of equations (eq:MaxwellEquationsInTraditionalDifferentialForm) equivalently as follows:
 
-
-$$
+\[
+  \label{MaxwellEquationsInPreMetricDifferentialForm}
   \begin{array}{rcl}
-    \mathrm{d}\,  F &=& 0
+    \mathrm{d}\,  F &=& 0 \mathrlap{\,,}
     \\
     \mathrm{d} \, G &=& j
   \end{array}
   \;\;\;\;
   \text{and}
   \;\;\;\;
-  G \,=\, \star F
+  G \,=\, \star_g F
   \,.
-$$
+\]
 
-In fact, this is closer to the original historical formulations of electromagnetism, whose authors would speak of 4 fields
+In fact, this formulation (eq:MaxwellEquationsInPreMetricDifferentialForm) is closer to the (original) formulation of Maxwell's equations used in the case that spacetime $X$ is thought of as possibly filled with a *[[dielectric medium]]* where, *a priori*, one considers four field: 
 
-* the [[electric field]] $\vec E$ and [[magnetic field]] $\vec B$ which constitute the [[Faraday tensor]]) given (on a local [[coordinate chart]]) by
+1. the [[electric field]] $\vec E$ and [[magnetic field|magnetic]] [[flux density]] $\vec B$ 
+
+   which constitute the [[Faraday tensor]]) given (on a local [[coordinate chart]] $(t,x^1, x^2, x^3)$) by
 
   $$
     F 
@@ -51,21 +57,39 @@ In fact, this is closer to the original historical formulations of electromagnet
     \epsilon_{i j k} B^i \mathrm{d} x^j \mathrm{d} x^k
   $$
 
-* as well as fields $\vec H$ and $\vec D$ with
+as well as 
 
-  $$
-    G 
-      \,=\, 
-    H_i \mathrm{d}x^i \wedge \mathrm{d} t 
-      \,-\, 
-    \epsilon_{i j k} D^i \mathrm{d} x^j \mathrm{d} x^k
-  $$
+1. the actual [[magnetic field]] $\vec H$ and the *dielectric displacement cuurent* $\vec D$ with
 
-and then impose *constitutive equations* relating $(\vec E, \vec B)$ to $(\vec H, \vec D)$.
+   $$
+     G 
+       \,=\, 
+     H_i \mathrm{d}x^i \wedge \mathrm{d} t 
+       \,-\, 
+     \epsilon_{i j k} D^i \mathrm{d} x^j \mathrm{d} x^k
+   $$
 
-These constitutive equations are just of the general form $G = \star F$, but if one allows "$\star$" here to be *any* [[linear map|linear]] [[endomorphism]] of $\Omega^2(X)$, then this formulation of [[Maxwell's equations]] accounts not just for interaction with the field of [[gravity]] (which the historically original authors did not care/know about anyway) but also for *dielectric media*.
+and then imposes *constitutive equations* 
+relating $(\vec E, \vec B)$ to $(\vec H, \vec D)$ and thereby expressing the [[dielectric]]-property of any electromagneric *medium* that one imagines filling the spacetime $X$.
 
-(...)
+In general, constitutive equations can be nonlinear (and even multi-valued, reflecting hysteresis effects), but for sufficiently small [[field strength]] they are of the form
+
+$$
+  G \,=\, \star_\epsilon F
+$$
+
+for a [[linear map]]
+
+$$
+  \star_\epsilon
+  \,\colon\,
+  \Omega^2(X)
+  \longrightarrow
+  \Omega^2(X)
+$$
+
+much like the [[Hodge star operator]] (whence here we use similar notation for both, which is non-standard).
+
 
 Delphenich called this the "pre-metric formulation" of electromagnetism and had high hopes that it would help towards better understanding of [[Einstein-Maxwell theory]]. 
 
