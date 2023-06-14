@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (sometimes the term is limited to the [[frequency]] range of _visible light_ and a bit below that ([[infrared]]) and above that ([[ultraviolet]])): light is appearing as _[[electromagnetic radiation]]_. 
+The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (sometimes the term is limited to the [[frequency]] range of _visible light_ and a bit below that ([[infrared]]) and above that ([[ultraviolet]])): light is appearing as _[[electromagnetic radiation]]_). 
 
 ## Properties
 
@@ -27,7 +27,7 @@ In physics, the term "light" is usually applied to cover the frequency range tha
 
 Some physicists however use the term "light" to cover any form of electromagnetic radiation. From Feynman's _QED: The Strange Theory of Light and Matter_, we have (p. 10) 
 
-* Another possibility, especially if the lecturer is a physicist, is that he uses ordinary words in a funny way. Physicists often use ordinary words such as "work" or "action" or"energy" or even, as you shall see, "light" for some technical purpose. Thus, when I talk about "work" in physics, I don't mean the same thing as when I talk about "work" on the street. During this lecture I might use one of those words without noticing that it is being used in this unusual way.I'll try my best to catch myself-that's my job-but it is an error that is easy to make.
+* Another possibility, especially if the lecturer is a physicist, is that he uses ordinary words in a funny way. Physicists often use ordinary words such as "work" or "action" or"energy" or even, as you shall see, "light" for some technical purpose. Thus, when I talk about "work" in physics, I don't mean the same thing as when I talk about "work" on the street. During this lecture I might use one of those words without noticing that it is being used in this unusual way.I'll try my best to catch myself -- that's my job -- but it is an error that is easy to make.
 
 and (p. 13) 
 
