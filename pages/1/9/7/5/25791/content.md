@@ -39,10 +39,18 @@ See also
 
 * Wikipedia, *[Dielectric](https://en.wikipedia.org/wiki/Dielectric)*
 
-The "constitutive equations" are referred to as the "material affinor" in:
+The "constitutive equations" are referred to as the "material-affinor" in:
 
 * {#Dantzig34} [[David van Dantzig]], p. 426 of: *The fundamental equations of electromagnetism, independent of metrical geometry*, Mathematical Proceedings of the Cambridge Philosophical Society **30** 4  (1934) 421-427 &lbrack;[doi:10.1017/S0305004100012664](https://doi.org/10.1017/S0305004100012664)&rbrack;
 
+The actual terminology "constitutive relation" appears in
+
+* {#Kottler22b} [[Friedrich Kottler]], *Maxwell'sche Gleichungen und Metrik*, Sitz. Akad. Wien IIa **131** (1922) 119-146 &lbrack;Engl. transl. by [[David H. Delphenich|Delphenich]]: [pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/kottler_-_maxwells_equation.pdf), [[Kottler-MaxwellEquationsAndMetric.pdf:file]]&rbrack;
+
+
+and *constitutive map* in:
+
+* [[E. Jan Post]], *The constitutive map and some of its ramifications*, Annals of Physics **71** 2 (1972) 497-518 &lbrack;<a href="https://doi.org/10.1016/0003-4916(72)90129-7">doi:10.1016/0003-4916(72)90129-7</a>&rbrack;
 
 [[!redirects dielectric media]]
 
