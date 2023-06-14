@@ -72,6 +72,8 @@ Exposition of the formulation of [[Maxwell's equations]] via [[differential form
 
 Textbook accounts of [[classical field theory|classical]] electrodynamics:
 
+* [[Lev Landau]], [[Evgeny Lifshitz]], *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
+
 * [[Julian Schwinger]] et al., *Classical Electrodynamics*, based on Schwinger's 1976 lecture, Routledge (1999) &lbrack;[ISBN:9780738200569](https://www.routledge.com/Classical-Electrodynamics/Schwinger-Jr-Milton-Tsai/p/book/9780738200569), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/schwinger_EM.pdf)&rbrack;
 
 * [[John D. Jackson]], *Classical Electrodynamics*, Wiley (1962, 1975, 1998) &lbrack;[ISBN:978-0-471-30932-1](https://www.wiley.com/en-us/Classical+Electrodynamics%2C+3rd+Edition-p-9780471309321), <a href="https://en.wikipedia.org/wiki/Classical_Electrodynamics_(book)">Wikipedia entry</a>&rbrack;
