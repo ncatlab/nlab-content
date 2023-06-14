@@ -1,13 +1,9 @@
 
-The following "operators" come out much too large in some systems:
+#Contents#
+* table of contents
+{:toc}
 
-$$
-  \int f
-  \;\;\;\;
-  \int X
-$$
-
-***
+## Isse 1
 
 The following over/underlines recently come out tiny when viewed in  
 
@@ -38,4 +34,23 @@ Specifically, the rendering with Chrome, Edge and Opera looks (except for horizo
   renders as: 
 
   "$\bar{ThisShouldRenderWithATinyOverline}$"
+
+
+## Issue 2
+
+Conversely, on Firefox, but not on Chrome or Edge, the `displaystyle` integral sign 
+
+$$
+  \int_X f 
+$$
+
+comes too large, same for the `displaystyle` products and coproducts
+
+$$
+  \prod_s X_s
+  \;\;\;\;
+  \coprod_s X_s
+$$
+
+
 
