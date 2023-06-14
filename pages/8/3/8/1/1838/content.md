@@ -21,6 +21,10 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 ## Related concepts
 
+* [[Maxwell's equations]]
+
+* [[dielectric medium]]
+
 * [[electromagnetic radiation]]
 
   * [[light]]
