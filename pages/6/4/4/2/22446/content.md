@@ -105,7 +105,7 @@ This is due to [Marsli-Hall 13](#MarsliHall13).
 
 The original article:
 
-* {#Gershgorin31} [[Semyon Aranovich Gershgorin]], *Über die Abgrenzung der Eigenwerte einer Matrix*, Bulletin de l'Académie des Sciences de l'URSS. Classe des sciences mathématiques et na, 1931, Issue 6, Pages 749–754 ([mathnet:eng/izv5235](http://mi.mathnet.ru/eng/izv5235))
+* {#Gershgorin31} [[Semyon Aronovich Gerschgorin]], *Über die Abgrenzung der Eigenwerte einer Matrix*, Bulletin de l'Académie des Sciences de l'URSS. Classe des sciences mathématiques et na, 1931, Issue 6, Pages 749–754 ([mathnet:eng/izv5235](http://mi.mathnet.ru/eng/izv5235))
 
 Textbook account:
 
