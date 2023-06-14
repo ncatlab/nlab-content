@@ -98,6 +98,9 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 
 * [[John D. Jackson]], *Classical Electrodynamics*, Wiley (1962, 1975, 1998) &lbrack;[ISBN:978-0-471-30932-1](https://www.wiley.com/en-us/Classical+Electrodynamics%2C+3rd+Edition-p-9780471309321), <a href="https://en.wikipedia.org/wiki/Classical_Electrodynamics_(book)">Wikipedia entry</a>&rbrack;
 
+* [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[arXiv:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
+
+  > (from the [[pre-metric electromagnetism|pre-metric]] perspective)
 
 * [[Walter Greiner]], *Classical Electrodynamics*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-0587-6](https://doi.org/10.1007/978-1-4612-0587-6)&rbrack;
 
