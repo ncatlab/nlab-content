@@ -215,7 +215,9 @@ The [[worldvolume]] theory of the [[M5-brane]], the
 ### RR-Fields in 10d (on the "9-brane")
  {#RRFieldsin10d}
 
-The [[RR-field]] in [[type II string theory]] are self-dual. Since the RR-fields are [[cocycles]] in ([[differential K-theory|differential]]) [[K-theory]], the proper discussion of this now involves generalizing from the above story  [[ordinary cohomology]] and hence generalizing the concept of [[principally polarized variety|principally polarized]] [[intermediate Jacobians]] from ordinary cohomology to K-theory.
+The [[RR-field]] in [[type II string theory]] (by the idea of [[K-theory classification of D-brane charge]]) are meant to be self-dual as [[cocycles]] in ([[differential K-theory|differential]]) [[topological K-theory]] (cf. at *[[pre-metric electromagnetism]]* the *[section on RR-fields](pre-metric+electromagnetism#RRFieldInGravitationalBackground)*).
+
+The proper discussion of these fields hence involves generalizing the above story from [[ordinary cohomology]] and [[principally polarized variety|principally polarized]] [[intermediate Jacobians]] to an analog in [[Whitehead-generalized cohomology]] such as [[topological K-theory]] and an appropriate generalized form of intermediate Jacobians (cf. *[[Hodge-filtered differential cohomology]]*).
 
 (Of course one may, as a warmup, "approximate" K-theory classes on a 10-manifold by integral cohomology lifts of the degree-5 component of their [[Chern character]] and hence discuss that as abelian self-dual higher gauge theory in dimension 10. This is discussed in ([Witten 99, section 4](#Witten99))).
 
