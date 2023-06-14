@@ -28,14 +28,21 @@
 
 See most references on [[electromagnetism]], e.g.
 
-* [[Sophocles J. Orfanidis]], Section 1 of: *Electromagnetic Waves and Antennas* (1999-2016) &lbrack;[web](http://eceweb1.rutgers.edu/~orfanidi/ewa), [pdf](http://eceweb1.rutgers.edu/~orfanidi/ewa/ewa-1up.pdf)&rbrack;
+* [[Lev Landau]], [[Evgeny Lifshitz]], Chapter II of: *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
 
+
+* [[Sophocles J. Orfanidis]], Section 1 of: *Electromagnetic Waves and Antennas* (1999-2016) &lbrack;[web](http://eceweb1.rutgers.edu/~orfanidi/ewa), [pdf](http://eceweb1.rutgers.edu/~orfanidi/ewa/ewa-1up.pdf)&rbrack;
 
 * [[Walter Greiner]], Part II of: *Classical Electrodynamics*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-0587-6](https://doi.org/10.1007/978-1-4612-0587-6)&rbrack;
 
 See also 
 
 * Wikipedia, *[Dielectric](https://en.wikipedia.org/wiki/Dielectric)*
+
+The "constitutive equations" are referred to as the "material affinor" in:
+
+* {#Dantzig34} [[David van Dantzig]], p. 426 of: *The fundamental equations of electromagnetism, independent of metrical geometry*, Mathematical Proceedings of the Cambridge Philosophical Society **30** 4  (1934) 421-427 &lbrack;[doi:10.1017/S0305004100012664](https://doi.org/10.1017/S0305004100012664)&rbrack;
+
 
 [[!redirects dielectric media]]
 
