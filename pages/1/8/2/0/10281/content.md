@@ -14,32 +14,34 @@
 =--
 
 
-
 This entry collects links related to the textbook
 
-* [[Joseph Polchinski]],
+* [[Joseph Polchinski]]:
 
-  _String theory_
+  \linebreak
+
+  **String Theory**
+
+  \linebreak
 
   Cambridge Monographs on Mathematical Physics 
 
-  first published 1998
+  Cambridge University Press (1998)
 
-on [[string theory]].
+  * vol 1: **An Introduction to the Bosonic String**
 
-* Volume 1: An introduction to the bosonic string
+    [doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079)
 
-  ([pdf](http://stringworld.ru/files/Polchinski_J._String_theory._Vol._1._An_introduction_to_the_bosonic_string.pdf))
+    [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski1.pdf)
 
-on [[bosonic string theory]]
+  * vol 2: **Superstring Theory and Beyond**
 
-* Volume 2: Superstring theory and beyond
+    [doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)
 
-  ([pdf](http://stringworld.ru/files/Polchinski_J._String_theory._Vol._2._Superstring_theory_and_beyond.pdf))
+    [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski2.pdf)
 
-on [[superstring theory]] and [[M-theory]].
+on [[string theory]], first [[bosonic string theory]], then [[superstring theory]] and with an outlook on [[M-theory]].
 
-See also at _[[string theory FAQ]]_
 
 \linebreak
 
@@ -166,4 +168,5 @@ See also at _[[string theory FAQ]]_
 category: reference
 
 
+[[!redirects String theory]]
  
