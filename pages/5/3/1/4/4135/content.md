@@ -261,6 +261,8 @@ $$
 
 * [[Laplace-Beltrami operator]]
 
+* [[constitutive equations]], [[pre-metric electromagnetism]]
+
 * [[self-dual higher gauge field]]
 
 ## References
