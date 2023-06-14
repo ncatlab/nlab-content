@@ -40,7 +40,11 @@ When it was realized that fundamental physics is governed by [[quantum field the
 
 ## References
 
-Textbook references include
+Textbook accounts:
+
+* [[Clifford Truesdell]], [[Richard A. Toupin]], *The Classical Field Theories*, in: *Principles of Classical Mechanics and Field Theory*, Encyclopedia of Physics, volume III/1, Springer (1960) 226-858 &lbrack;[doi:10.1007/978-3-642-45943-6_2](https://doi.org/10.1007/978-3-642-45943-6_2)&rbrack;
+    
+
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
