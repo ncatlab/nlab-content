@@ -126,10 +126,11 @@ $$
 
 much like the [[Hodge star operator]] (whence here we use similar notation for both, which is non-standard).
 
+
 ### RR-fields in gravitational backgrounds
  {#RRFieldInGravitationalBackground}
 
-The [[theory (physics)|theory]] of [[type II supergravity|type II]] [[D=10 supergravity]] famously contains [[higher gauge fields]] called the *[[Ramond-Ramond fields]]* or *[[RR-fields]]* for short, which is in some sense a higher-degree generalization of the [[electromagnetic field]]:
+The [[theory (physics)|theory]] of [[type II supergravity|type II]] [[D=10 supergravity]] famously contains [[higher gauge fields]] called the *[[Ramond-Ramond fields]]* or *[[RR-fields]]* for short, which may be understood as a certain higher-degree generalization of the [[electromagnetic field]]:
 
 Where the [[electromagnetism|electromagnetic]] [[field strength]] is a single [[differential 2-form]] $F_2 \,\in\, \Omega^2(X)$ (the [[Faraday tensor]]), the [[RR-fields]] have their [[field strengths]] encoded in a [[tuple]] of [[differential forms]] in every second degree up to *half* the [[spacetime]] [[dimension of a manifold|dimension]]:
 
@@ -183,8 +184,37 @@ A widely-considered [[conjecture]] ([[K-theory classification of D-brane charge|
 
 Clearly, this just the idea of "pre-metric electromagnetism" but now enacted in a variant situation.
 
+### $C$-Field in gravitational background
 
+Somewhat similarly, the [[equations of motion]] of the [[supergravity C-field]] in [[D=11 supergravity]] are of the form
 
+$$
+  \begin{array}{rcl}
+    \mathrm{d} G_4 &=& 0
+    \\
+    \mathrm{d} \star_g G_4 &=& \tfrac{1}{2} G_4 \wedge G_4
+  \end{array}
+$$
+
+where now $G_4 \,\in\, \Omega^4(X)$ is a [[differential 4-form]]. If we regard these equations in "pre-metric" form as in the above discussion of the [[RR-fields]], by introducing an a priori independent 7-form $G_7 \,\in\, \Omega^7(X)$, then they read
+
+\[
+  \label{PreMetricEOMsForCField}
+  \begin{array}{rcl}
+    \mathrm{d} G_4 &=& 0
+    \\
+    \mathrm{d} G_7 &=& \tfrac{1}{2} G_4 \wedge G_4
+  \end{array}
+  \;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;
+  G_7 \,=\, \star_g G_4
+  \,.
+\]
+
+As for the [[RR-field]] and its conjectured [[K-theory classification of D-brane charge|charge quantization in K-theory]], in this "pre-metric" formulation it makes sense to ask which [[generalized cohomology theory]] yields the differential equations on the left, as those characterizing the image under its generalized [[Chern-Dold character|Chern-Dold-like charatcer]].
+
+There is no [[Whitehead-generalized cohomology theory]] with this property, due to the non-linear [[Quadratic Functions in Geometry, Topology, and M-Theory|quadratic function]] $G_4 \mapsto \tfrac{1}{2} G_4 \wedge G_4$ appearing in (eq:PreMetricEOMsForCField), but there is a [[non-abelian cohomology]] theory with the correct [[schreiber:The Character Map in Non-Abelian Cohomology|nonabelian character map]]: namely [[Cohomotopy|4-Cohomotopy theory]]. This observation (due to [Sati (2013,2018), §2.5](https://ncatlab.org/schreiber/show/Hypothesis+H#ReferencesInRational)) suggests (this is "[[schreiber:Hypothesis H]]") that the [[charge quantization]] of the [[supergravity C-field]] in [[M-theory]] may be in some form of [[Cohomotopy]] theory.
 
 ## References
 
