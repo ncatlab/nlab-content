@@ -26,23 +26,23 @@ In the context of [[electromagnetism]], _Maxwell's equations_ are the [[equation
 $E$ is here the (vector of) strength of electric field and $B$ 
 the strength of magnetic field; $Q$ is the charge and $j_{el}$ the density of the electrical current; $\epsilon_0$, $c$, $\mu_0$ are constants (electrical permeability, speed of the light, and magnetic permeability; all of/in vacuum: $\mu_0 \epsilon_0  = 1/c^2$).  
 
-### Integral formulation in vacuum, in SI units
+### Integral formulation in vacuum
 
 __Gauss' law for electric fields__
 $$
-\int_{\partial V} E\cdot d A =  \frac{Q}{\epsilon_0}
+\textstyle{\int}_{\partial V} E\cdot d A =  \frac{Q}{\epsilon_0}
 $$
-where $\partial V$ is a closed surface which is a boundary of a 3d domain $V$ (physicists say "volume") and $Q = \int_V \rho d V$ the charge in the domain $V$; $\cdot$ denotes the scalar (dot) product. Surface element $d A$ is $\vec{n} d |A|$, i.e. it is the scalar surface measure times the unit vector of normal outwards. 
+where $\partial V$ is a closed surface which is a boundary of a 3d domain $V$ (physicists say "volume") and $Q = \textstyle{\int}_V \rho d V$ the charge in the domain $V$; $\cdot$ denotes the scalar (dot) product. Surface element $d A$ is $\vec{n} d |A|$, i.e. it is the scalar surface measure times the unit vector of normal outwards. 
 
 __No magnetic monopoles__ (Gauss' law for magnetic fields)
 $$
-\int_\Sigma B\cdot d A =  0
+\textstyle{\int}_\Sigma B\cdot d A =  0
 $$
 where $\Sigma$ is any closed surface.
 
 __Faraday's law of induction__
 $$
-\oint_{\partial \Sigma} E\cdot d s = - \frac{d}{d t} \int_\Sigma B\cdot d A
+\textstyle{\oint}_{\partial \Sigma} E\cdot d s = - \frac{d}{d t} \textstyle{\int}_\Sigma B\cdot d A
 $$
 
 The line element $d s$ is the differential (or 1-d measure on the boundary) of the length times the unit vector in counter-circle direction (or parametrize the curve with $s$ being a vector in 3d space, express magnetic field in the same parameter and calculate the
@@ -51,7 +51,7 @@ integral as a function of parameter: $\cdot$ is a scalar ("dot") product).
 __Amp&#232;re-Maxwell law__ (or generalized Amp&#232;re's law; Maxwell added the second term involving derivative of the flux of electric field
 to the Amp&#232;re's law which described the magnetic field due electric current).
 $$
-\oint_{\partial \Sigma} B\cdot d s = \mu_0 I + \mu_0 \epsilon_0 \frac{d}{d t} \int_\Sigma E\cdot d A
+\textstyle{\oint}_{\partial \Sigma} B\cdot d s = \mu_0 I + \mu_0 \epsilon_0 \frac{d}{d t} \textstyle{\int}_\Sigma E\cdot d A
 $$
 where $\Sigma$ is a surface and $\partial \Sigma$ its boundary; $I$ is the total current through $\Sigma$ (integral of the component of $j_{el}$ normal to the surface). 
 
@@ -69,7 +69,8 @@ Here we put units with $c = 1$. By $\rho$ we denote the density of the charge.
 * **generalized Amp&#232;re's law** $- \frac{d}{d t} D + rot H = j_{el}$
 
 
-## Equations in terms of Faraday tensor $F$
+## In terms of Faraday tensor $F$
+ {#InTermsOfFaradayTensor}
 
 This is adapted from _[electromagnetic field -- Maxwell's equations](http://ncatlab.org/nlab/show/electromagnetic+field#MaxwellEquations)_.
 
@@ -77,14 +78,14 @@ In modern language, the insight of ([Maxwell, 1865](#Maxwell)) is that locally, 
 
 $$
   \begin{aligned}
-    F & := E \wedge d t + B
+    F & \coloneqq E \wedge d t + B
       \\
-      &:= 
+      & \coloneqq 
         E_1 d x^1 \wedge d t + 
         E_2 d x^2 \wedge d t + 
         E_3 d x^3 \wedge d t  
      \\
-      & +
+& \phantom{\coloneqq} +
         B_1 d x^2 \wedge d x^3 +
         B_2 d x^3 \wedge d x^1 +
         B_3 d x^1 \wedge d x^2
@@ -95,8 +96,8 @@ in $\Omega^2(U)$ and the [[electric charge]] density and current density combine
 
 $$
 \begin{aligned}
-    j_{el} &:= j\wedge dt - \rho d x^1 \wedge d x^2 \wedge d x^3 \\
-& :=    j_1 d x^2 \wedge d x^3 \wedge d t +
+    j_{el} & \coloneqq j\wedge dt - \rho d x^1 \wedge d x^2 \wedge d x^3 \\
+& \coloneqq    j_1 d x^2 \wedge d x^3 \wedge d t +
         j_2 d x^3 \wedge d x^1 \wedge d t +
         j_3 d x^1 \wedge d x^2 \wedge d t
         -
@@ -125,7 +126,7 @@ $$
    -D_2 \; d x^3 \wedge d x^1
    -D_3 \; d x^1 \wedge d x^2
      \\
-     & +
+& \phantom{=} +
      H_1 \; d x^1 \wedge d t
      +
      H_2 \; d x^2 \wedge d t
@@ -134,7 +135,7 @@ $$
   \end{aligned}
 $$
 
-then in terms of these components the field equations -- called **Maxwell's equations** -- read as follows.
+then in terms of these components the Maxwell equations  read as follows:
 
 $d F = 0$ gives the magnetic Gauss law and Faraday's law
 
