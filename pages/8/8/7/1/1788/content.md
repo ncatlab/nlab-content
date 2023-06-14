@@ -21,7 +21,9 @@ and last not least
 
 * the operation "$\star \,\colon\, \Omega^p(X) \longrightarrow \Omega^{4-p}(X)$" is the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] of the given [[Lorentzian manifold]] $(X,g)$.
 
-In order to bring out that [[gravity]] (the [[pseudo-Riemannian metric]]) enters *only* through the [[Hodge star operator]], we may evidently re-write the above pair of equations equivalently as follows:
+Often this is considered for $X \simeq \mathbb{R}^{3,1}$ being [[Minkowski spacetime]], hence for $g = \eta$ the [[Minkowski metric]], in which case this describes pure "Maxwell theory", but the exact same formulation holds $(X,g)$ any [[Lorentzian manifold]], in which case this is the sector of the [[equations of motion]] of [[Einstein-Maxwell theory]] which involve the [[electromagnetic field]].
+
+In order to bring out more manifestly that [[gravity]] (the [[pseudo-Riemannian metric]]) enters *only* through the [[Hodge star operator]], we may evidently re-write the above pair of equations equivalently as follows:
 
 
 $$
