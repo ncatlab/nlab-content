@@ -5,14 +5,14 @@ Inspection of the [[equations of motion]] for [[classical field theory|classical
 
 1. a systems of purely "topological", "cohomological" or "exterior" [[partial differential equations]]
 
-1. a linear "constitutive equation" imposing a "duality" relation on the fields,
+1. a linear "[[constitutive equation]]" imposing a "duality" relation on the fields,
 
-where it is *only the second but not the first* part that involves the "[[background field|background]]" structure, namely the dielectric tensor characterizing the ambient medium and/or the [[pseudo-Riemannian metric]] characterizing the field of [[gravity]].
+where it is *only the second but not the first* part that involves the "[[background field|background]]" structure, namely the [[dielectric tensor]] characterizing the ambient [[dielectric medium]] and/or the [[pseudo-Riemannian metric]] characterizing the [[field (physics)|field]] of [[gravity]].
 
 This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922)](#Kottler22), and [Dantzig (1934)](#Dantzig34) (and apparently also [[Élie Cartan]] in *Sur les variétés à connexion affine...* (1925), but I haven't found the relevant passage yet) and more recently by [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account [Delphenich (202x)](#DelphenichBook)) who coined the term *pre-metric electromagnetism* for this formulation (the broad idea being that the second step above should be regarded as, indeed, secondary and subject to conceptual re-evaluation)
 and has attached high hopes with it [Delphenich (2015)](#Delphenich15).
 
-We point out below that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
+We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
 
 ## More details
@@ -64,11 +64,11 @@ In order to bring out more manifestly that [[gravity]] (the [[pseudo-Riemannian 
 
 ### Electromagnetism in dielectric media
 
-In fact, this formulation (eq:MaxwellEquationsInPreMetricDifferentialForm) is closer to the (original) formulation of Maxwell's equations used in the case that spacetime $X$ is thought of as possibly filled with a *[[dielectric medium]]* where, *a priori*, one considers four field: 
+In fact, this formulation (eq:MaxwellEquationsInPreMetricDifferentialForm) is closer to the (original) formulation of Maxwell's equations used in the case that spacetime $X$ is thought of as possibly filled with a *[[dielectric medium]]* where, *a priori*, one considers 2 groups of fields: 
 
 1. the [[electric field]] $\vec E$ and [[magnetic field|magnetic]] [[flux density]] $\vec B$ 
 
-   which constitute the [[Faraday tensor]]) given (on a local [[coordinate chart]] $(t,x^1, x^2, x^3)$) by
+   which constitute the [[Faraday tensor]]) given (on a local [[coordinate chart]] $(t,x^1, x^2, x^3)$) by (see [here](#InTermsOfFaradayTensor)):
 
   $$
     F 
@@ -112,6 +112,7 @@ $$
 much like the [[Hodge star operator]] (whence here we use similar notation for both, which is non-standard).
 
 ### RR-fields in gravitational background
+ {#RRFieldInGravitationalBackground}
 
 The [[theory (physics)|theory]] of [[type II supergravity|type II]] [[D=10 supergravity]] famously contains [[higher gauge fields]] called the *[[Ramond-Ramond fields]]* or *[[RR-fields]]* for short, which is in some sense a higher-degree generalization of the [[electromagnetic field]]:
 
@@ -130,7 +131,44 @@ $$
 
 where $\sigma = 0$ for [[type IIA supergravity]] and $\sigma = 1$ for [[type IIB supergravity]].
 
-Moreover, 
+Moreover, the [[equations of motion]] of these [[RR-fields]] are of the general form of [[Maxwell's equations]], in fact when the [[Kalb-Ramond field]] and the [[spinor fields]] vanish, then the equations of motion are as before, up to form degree
+
+$$
+  \begin{array}{rcl}
+    \mathrm{d} F_{2p + \sigma} &=& 0
+    \\
+    \mathrm{d} \star_g F_{2p + \sigma} &=& 0
+  \end{array}
+$$
+
+and in more generality the right-hand sides are non-vanishing combinations of the [[Kalb-Ramond field]] (already for the first equation!) and the [[spinor fields]].
+
+But one may famously understand [[type II supergravity]] as the low-energy limit of [[type II string theory]], in which case there are subtle [[flux quantization laws]] of the total [[flux]] of these [[RR-fields]] (in variation of the [[Dirac charge quantization]]-law imposed on the Maxwell field when regarding [[electromagnetism]] as the background field for [[quantum]] [[electrons]]). 
+
+A widely-considered [[conjecture]] ([[K-theory classification of D-brane charge|here]]) says that this [[flux quantization]] is realized by 
+
+1. regarding the would-be [[Hodge duality|Hodge duals]] $\star_g F_{2p + \sigma}$ of the RR-fields as independent fields $F_{10-2p-\sigma}$, so that the "pre-metric RR-field" now has about twice as many components:
+
+   $$
+     \Big\{
+       F_{2p + \sigma}
+       \,\in\,
+       \Omega^{2p+\sigma}(X)
+       \;{\Big\vert}\;
+       0 \leq 2p+\kappa \leq 5
+     \Big\}
+     \,,
+   $$
+
+   and then regarding/constraining such a [[tuple]] as the image under the [[Chern character]] of a class in ([[differential K-theory|differentia]]) complex [[topological K-theory]] in addition to imposing the pre-metric [[equations of motion]].
+
+1. afterwards imposing the Hodge-duality constraint, now thought of as a "self-duality" on K-theory and remaining subject to discussion in the literature: see at *[[self-dual higher gauge field]]* the section *[Examples -- RR-Fields](self-dual+higher+gauge +theory#RRFieldsin10d).
+
+(This is stated for vanishing [[Kalb-Ramond field]], for ease of exposition here. More generally the KR-field does not vanish and the above discussion applies for [[twisted K-theory]].)
+
+Clearly, this just the idea of "pre-metric electromagnetism" but now enacted in a variant situation.
+
+
 
 
 ## References
