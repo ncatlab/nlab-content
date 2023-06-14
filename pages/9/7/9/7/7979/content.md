@@ -158,9 +158,9 @@ Maxwell's equations originate in:
 
 Discussion in terms of [[differential forms]] and the [[Hodge star operator]]:
 
-* [[Theodore Frankel]], _Maxwell's equations_, The American Mathematical Monthly, Vol 81, No 4 (1974) ([pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D))
+* [[Theodore Frankel]], *Maxwell's equations*, The American Mathematical Monthly **81** 4 (1974) &lbrack;[pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D)&rbrack;
 
-* [[Theodore Frankel]], section 3.5 in _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
 * Gregory L. Naber, _Topology, geometry and gauge fields_, Appl. Math. Sciences vol. __141__, Springer (2000)
 
