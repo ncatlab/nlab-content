@@ -46,6 +46,9 @@
 
 Review
 
+* [[Lev Landau]], [[Evgeny Lifshitz]], Section VI of: *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
+
+
 * {#Chapman00} S. J. Chapman, _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
 
 * {#Timm20} Carsten Timm, _Theory of Superconductivity_, 2020 ([pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en))
