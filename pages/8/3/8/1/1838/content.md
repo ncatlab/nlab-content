@@ -19,11 +19,12 @@ __Electromagnetism__ or __electrodynamics__ is the [[gauge theory]] whose [[fiel
 
 The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
+
 ## Related concepts
 
 * [[Maxwell's equations]]
 
-* [[dielectric medium]]
+* [[dielectric medium]], [[pre-metric electromagnetism]]
 
 * [[electromagnetic radiation]]
 
