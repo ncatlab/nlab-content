@@ -10,10 +10,9 @@ I like the insights given by the philosophy of [[Ludwig Wittgenstein]] and think
 
 I currently work on this stuff:
 
-- Graded differential linear logic and graded differential categories (with [[Jean-Simon Lemay]]) which index the [[exponential modality]] of differential linear logic or differential categories by any [[rig]].
+- Graded differential linear logic and graded differential categories which index the [[exponential modality]] of differential linear logic or differential categories by any [[rig]] including graded kinds of [[Seely isomorphism]] (with [[Jean-Simon Lemay]]).
 - Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
 - A [[string diagrams|string-diagrammatic]] calculus for [[symmetric powers]] based on an algebraic characterization of symmetric powers in symmetric monoidal $\mathbb{Q}^{+}$-linear categories.
-- Graded kinds of [[Seely isomorphism]] (with [[Jean-Simon Lemay]]).
 - Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]] (with [[Rick Blute]], Florian Schwarz, Geoff Vooys)
 
 A next goal is:
