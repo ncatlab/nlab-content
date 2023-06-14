@@ -80,8 +80,8 @@ is an [[isomorphism]] of $V$ with its [[dual vector space|dual space]] $V^*$. In
 
 From this definition it is easy to see that every Frobenius algebra in [[Vect]] is necessarily finite-dimensional.
 
-### Further definition
- {#FurtherDefinition}
+### Further definitions
+ {#FurtherDefinitions}
 
 There are about a dozen equivalent definitions of a Frobenius algebra. [Ross Street (2004)](#Street2004) lists most of them.
 
@@ -263,11 +263,8 @@ Their role in [[2d TQFT]] is discussed for instance in
 
 * {#Abrams1996} [[Lowell Abrams]] , _Two-dimensional topological quantum field theories and Frobenius algebra_, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
 
-
-
 * John Baez, This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html) and [week299](http://math.ucr.edu/home/baez/week299.html).
 {#BaezTWF}
-
 
 * [[Joachim Kock]] (2004), _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge.
 {#Kock2004}
@@ -283,11 +280,11 @@ Their role in [[2d TQFT]] is discussed for instance in
 
 For applications in proof theory of classical and [[linear logic]] or linguistics:
 
-* [[Martin Hyland]],  _Abstract Interpretation of Proofs: Classical Propositional Calculus_ , pp.6-21 in Marcinkowski, Tarlecki (eds.),  _Computer Science Logic (CSL 2004)_ , LNCS **3210** Springer Heidelberg 2004. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2004/aap04.pdf))
+* [[Martin Hyland]],  _Abstract Interpretation of Proofs: Classical Propositional Calculus_, pp. 6-21 in Marcinkowski, Tarlecki (eds.),  _Computer Science Logic (CSL 2004)_, LNCS **3210** Springer Heidelberg 2004. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2004/aap04.pdf))
 
 * [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
 
-* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about meaning in natural language with compact closed categories and Frobenius algebras_ , arXiv:1401.5980 (2014). ([arXiv:1401.5980](https://arxiv.org/abs/1401.5980))
+* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about meaning in natural language with compact closed categories and Frobenius algebras_ (2014). ([arXiv:1401.5980](https://arxiv.org/abs/1401.5980))
 
 Frobenius algebras in linearly distributive categories are discussed in
 
@@ -296,20 +293,22 @@ Frobenius algebras in linearly distributive categories are discussed in
 
 See also
 
-* [[Bertfried Fauser]], _Some Graphical Aspects of Frobenius Structures_ ,  preprint (2012).  [arXiv:1202.6380](http://arxiv.org/pdf/1202.6380v1) 
+* Aurelio Carboni (1991), Matrices, relations, and group representations, _Journal of Algebra_ **136** 2, 497--529.  ([pdf](https://www.sciencedirect.com/science/article/pii/002186939190057F))
+
+* [[Bertfried Fauser]], _Some Graphical Aspects of Frobenius Structures_,  preprint (2012).  [arXiv:1202.6380](http://arxiv.org/pdf/1202.6380v1) 
 
 * {#Lack2004} [[Stephen Lack]] (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
+
+* [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_, pp. 141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_, LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
+
+* {#PastroStreet2008} Craig Pastro and [[Ross Street]], _Weak Hopf monoids in braided monoidal categories_, 2008, [arXiv:0801.4067](https://arxiv.org/abs/0801.4067)
 
 * {#Rosebrugh2005} R. Rosebrugh, N. Sabadini and R.F.C. Walters (2005), Generic commutative separable algebras and cospans of graphs, _Theory and Applications of Categories_ **15** (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
 
 * {#Street2004} [[Ross Street]] (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 
+* R. F. C. Walters, R. J. Wood, _Frobenius objects in Cartesian cicategories_, TAC **20** no. 3 (2008) 25--47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
 
-* R. F. C. Walters, R. J. Wood, _Frobenius objects in Cartesian cicategories_ , TAC **20** no. 3 (2008) 25--47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
-
-* [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_ , pp.141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_ , LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
-
-* {#PastroStreet2008} Craig Pastro and [[Ross Street]], *Weak Hopf monoids in braided monoidal categories*, 2008, [arXiv:0801.4067](https://arxiv.org/abs/0801.4067)
 
 category: algebra
 
