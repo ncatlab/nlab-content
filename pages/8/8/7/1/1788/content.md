@@ -44,7 +44,7 @@ $$
   \int_X f 
 $$
 
-comes too large, same for the `displaystyle` products and coproducts
+comes out too large, same for the `displaystyle` products and coproducts
 
 $$
   \prod_s X_s
