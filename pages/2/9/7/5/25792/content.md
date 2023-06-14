@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -220,11 +219,30 @@ There is no [[Whitehead-generalized cohomology theory]] with this property, due 
 
 ## References
 
+The idea (if not the terminology) of pre-metric electromagnetism is attributed to:
+
 * {#Kottler22a} [[Friedrich Kottler]], *Newtonsches Gesetz und Metrik*, Sitzungsber. Akad. Wiss. Wien, Math.-Naturw. Klasse, Abt. IIa, **131** (1922) 1-14 &lbrack;Engl. transl. by [[David H. Delphenich|Delphenich]]: [pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/kottler_-_newtons_law_and_metrics.pdf), [[Kottler-NewtonsLawAndMetric.pdf:file]]&rbrack;
 
 * {#Kottler22b} [[Friedrich Kottler]], *Maxwell'sche Gleichungen und Metrik*, Sitz. Akad. Wien IIa **131** (1922) 119-146 &lbrack;Engl. transl. by [[David H. Delphenich|Delphenich]]: [pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/kottler_-_maxwells_equation.pdf), [[Kottler-MaxwellEquationsAndMetric.pdf:file]]&rbrack;
 
+also:
+
 * {#Dantzig34} [[David van Dantzig]], *The fundamental equations of electromagnetism, independent of metrical geometry*, Mathematical Proceedings of the Cambridge Philosophical Society **30** 4  (1934) 421-427 &lbrack;[doi:10.1017/S0305004100012664](https://doi.org/10.1017/S0305004100012664)&rbrack;
+
+Early review:
+
+* [[Edmund T. Whittaker]]: pp. 192-196 of: *A History of the Theories of Aether and Electricity* -- Vol. 2: *The Modern Theories 1900-1926* (1953), reprinted by Humanities Press (1973) &lbrack;<a href="https://isidore.co/CalibreLibrary/Whittaker,%20Edmund%20Taylor/A%20History%20of%20the%20Theories%20of%20Aether%20and%20Electricity_%20The%20Modern%20Theories%201900-1926%20(4500)/A%20History%20of%20the%20Theories%20of%20Aether%20and%20El%20-%20Whittaker,%20Edmund%20Taylor.pdf">pdf</a>, <a href="https://en.wikipedia.org/wiki/A_History_of_the_Theories_of_Aether_and_Electricity">Wikipedia entry</a>&rbrack;
+
+  > "&lbrack;...&rbrack; This chapter has been concerned, for the most part, with General Relativity, which is essentially a geometrisation of physics. It may be closed with some accountof a movement in the opposite direction, seeking to abolish the priviledgedposition of geometry in physics, and indeed inquiring how far it may be possible to construct a physics independent of geometry. Since the notion of metric is a complicated one, which requires measurements with clocks and scales, generally with *rigid* bodies, which themselves are systems of great compelxity, it seems undesirable to take metric as fundamental, particularly for phenomena which are simpler and actually independent of it."
+
+  > "The movement was initiated by Friedrich Kottler of Vienna, who in 1922 published two papers &lbrack;[Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b)&rbrack;"
+
+Further amplification of the *[[constitutive equation|constitutive]] map* that relates the pre-metrically independent fields:
+
+* [[E. Jan Post]], *The constitutive map and some of its ramifications*, Annals of Physics **71** 2 (1972) 497-518 &lbrack;<a href="https://doi.org/10.1016/0003-4916(72)90129-7">doi:10.1016/0003-4916(72)90129-7</a>&rbrack;
+
+
+The terminology "pre-metric electromagnetism" seems to be due to [[David H. Delphenich]], who gives much further discussion:
 
 * {#Delphenich05a} [[David H. Delphenich]], *On the Axioms of Topological Electromagnetism*, Annalen Phys. **14** (2005) 347-377 &lbrack;[arXiv:hep-th/0311256](https://arxiv.org/abs/hep-th/0311256), [doi:10.1002/andp.20055170601](https://doi.org/10.1002/andp.20055170601)&rbrack;
 
@@ -236,6 +254,35 @@ There is no [[Whitehead-generalized cohomology theory]] with this property, due 
 
 * {#Delphenich15} [[David H. Delphenich]], *Pre-metric electromagnetism as a path to unification*, in: *Unified Field Mechanics*, World Scientific (2015) 215-220 &lbrack;[arXiv:1512.05183](https://arxiv.org/abs/1512.05183), [doi:10.1142/9789814719063_0023](https://doi.org/10.1142/9789814719063_0023)&rbrack;
 
+Monographs:
+
 * {#DelphenichBook} [[David H. Delphenich]], *Pre-Metric Electromagnetism* &lbrack;part I:[pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/intro-chap_vi.pdf), part II:[pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/chapter_vii-xii.pdf), full:[[Delphenich-PreMetricElectromagnetism.pdf:file]]&rbrack;
+
+* [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[arXiv:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
+
+
+Further discussion:
+
+* {#HehlItinObukhov16} [[Friedrich W. Hehl]], [[Yakov Itin]], [[Yuri N. Obukhov]], *On Kottler's path: origin and evolution of the premetric program in gravity and in electrodynamics*, International Journal of Modern Physics D **25** 11 (2016) 1640016  &lbrack;[arXiv:1607.06159](https://arxiv.org/abs/1607.06159), [doi:10.1142/S0218271816400162](https://doi.org/10.1142/S0218271816400162)&rbrack;
+
+* [[Yakov Itin]], *Premetric representation of mechanics, electromagnetism and gravity*, International Journal of Geometric Methods in Modern Physics **15** supp01 (2018) &lbrack;[doi:10.1142/S0219887818400029](https://doi.org/10.1142/S0219887818400029)&rbrack;
+
+* [[Yuri N. Obukhov]], *Premetric approach in gravity and electrodynamics*, in: *The Fifteenth Marcel Grossmann Meeting* (2022) 654-659 &lbrack;[doi:10.1142/9789811258251_0087](https://doi.org/10.1142/9789811258251_0087), [arXiv:1904.00180](https://arxiv.org/abs/1904.00180)&rbrack;
+
+
+
+[[!redirects premetric electromagnetic]]
+
+[[!redirects pre-geometric electromagnetic]]
+[[!redirects pregeometric electromagnetic]]
+
+
+[[!redirects pre-metric electrodynamics]]
+[[!redirects premetric electrodynamics]]
+
+[[!redirects pre-geometric electrodynamics]]
+[[!redirects pregeometric electrodynamics]]
+
+
 
 
