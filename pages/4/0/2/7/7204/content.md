@@ -61,7 +61,7 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 See the general references at _[[supergravity]]_.
 
-* [[Joseph Polchinski]], chapter 12.1 of _String Theory Vol 2: Superstring and beyond_
+* [[Joseph Polchinski]], chapter 12.1 of *[[String Theory]]* Vol 2: Superstring and beyond_, Cambridge Monographs on Mathematical Physics (1998)
 
 Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d supergravity]]:
 
