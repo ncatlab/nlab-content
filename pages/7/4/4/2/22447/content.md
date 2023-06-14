@@ -1,7 +1,7 @@
 Semjon Aronowitsch Gerschgorin (Russian: Семён Аронович Гершгорин)
 was a Russian mathematician.
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Semyon_Aranovich_Gershgorin)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Semyon_Aronovich_Gershgorin)
 
 
 ## Selected writings 
@@ -14,17 +14,17 @@ Introducing the [[Gershgorin circle theorem]] in [[matrix analysis]]:
 
 category: people
 
-[[!redirects Semyon Aranovich Gershgorin]]
+[[!redirects Semyon Aronovich Gershgorin]]
 [[!redirects Semyon A. Gershgorin]]
 [[!redirects S. A. Gershgorin]]
 [[!redirects S. Gershgorin]]
 
-[[!redirects Semyon Aranovich Gerschgorin]]
+[[!redirects Semyon Aronovich Gerschgorin]]
 [[!redirects Semyon A. Gerschgorin]]
 [[!redirects S. A. Gerschgorin]]
 [[!redirects S. Gerschgorin]]
 
-[[!redirects Semyon Aranovich Geršgorin]]
+[[!redirects Semyon Aronovich Geršgorin]]
 [[!redirects Semyon A. Geršgorin]]
 [[!redirects S. A. Geršgorin]]
 [[!redirects S. Geršgorin]]
