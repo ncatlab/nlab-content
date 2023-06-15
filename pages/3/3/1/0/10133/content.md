@@ -4,6 +4,13 @@
 
 ## Selected writings
 
+Introducing [[quantum cohomology]]:
+
+* [[Yongbin Ruan]], [[Gang Tian]], _A mathematical theory of quantum cohomology_, Mathematical Research Letters **1** 2 (1994) 269-278 &lbrack;[doi:10.4310/MRL.1994.v1.n2.a15](https://doi.org/10.4310/MRL.1994.v1.n2.a15), [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/mrl/1994/0001/0002/MRL-1994-0001-0002-a015.pdf)&rbrack;
+
+* [[Yongbin Ruan]], [[Gang Tian]], _A mathematical theory of quantum cohomology_, J. Diff. Geometry __42__ 2 (1995) 259-367 &lbrack;[doi:10.4310/jdg/1214457234](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-42/issue-2/A-mathematical-theory-of-quantum-cohomology/10.4310/jdg/1214457234.full)&rbrack;
+
+
 Introducing [[Chen-Ruan cohomology]] for [[orbifolds]]:
 
 * {#ChenRuan00} [[Weimin Chen]], [[Yongbin Ruan]], _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 ([arXiv:math/0004129](https://arxiv.org/abs/math/0004129))
