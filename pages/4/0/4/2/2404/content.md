@@ -54,6 +54,15 @@ On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry
 
 * [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
 
+On [[quantum cohomology]] and [[Gromov-Witten invariants]]
+
+* [[Maxim Kontsevich]], [[Yuri Manin]], _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Commun. Math. Physics __164__ (1994) 525-562 [doi](https://doi.org/10.1007/BF02101490) arXiv:[hep-th/9402147](https://arxiv.org/pdf/hep-th/9402147)
+
+* [[Yuri Manin]], _Frobenius manifolds, quantum cohomology, and moduli spaces_, Amer. Math. Soc. Colloqium Publications __47__, 1999
+
+* [[Maxim Kontsevich]], [[Yuri Manin]], [[Ralph Kaufmann]], _Quantum cohomology of a product_,  Invent. Math. __124__ (1996) 313-339 [doi](https://doi.org/10.1007/s002220050055) arXiv:[q-alg/9502009](https://arxiv.org/abs/q-alg/9502009)
+
+
 ## Quotes
 
 > _What binds us to space-time is our rest mass, which prevents us from flying at the speed of light, when time stops and space loses meaning. In a world of light there are neither points nor moments of time; beings woven from light would live "nowhere" and "nowhen"; only poetry and mathematics are capable of speaking meaningfully about such things_
