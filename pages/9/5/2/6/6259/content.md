@@ -375,6 +375,13 @@ For the case of nonabelian self-dual 1-form gauge fields see the references at _
 ### For RR-fields / differential K-theory
 
 [[!include self-duality for pregeometric RR-fields -- references]]
+
+
+### For the 11d supergravity C-field
+
+
+[[!include self-duality for pregeometric C-field -- references]]
+
  
 
 
