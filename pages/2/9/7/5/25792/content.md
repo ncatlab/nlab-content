@@ -30,7 +30,7 @@ where it is *only the second but not the first* part that involves the "[[backgr
 
 This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b), [Cartan (1924) §80](#Cartan24), [Dantzig (1934)](#Dantzig34)  and more recently [Hehl & Obukhov (2003)](#HehlObukhov03), [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](#DelphenichBook)), the broad idea being that the second step above should be regarded as, indeed, secondary and possibly subject to conceptual re-evaluation (e.g. [Delphenich (2015)](#Delphenich15)).
 
-We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated under this name, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" and then often called the "democratic" instead of "premetric" formulation --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
+We point out [below](#RRFieldInGravitationalBackground) (see also [Freed (2002)](#Freed02)) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated under this name, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" and then often called the "democratic" instead of "premetric" formulation --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
 
 ## Premetric electromagentism
@@ -207,7 +207,7 @@ A widely-considered [[conjecture]] ([[K-theory classification of D-brane charge|
 
 (Again, this is stated so far for vanishing [[Kalb-Ramond field]], for ease of exposition here. More generally the KR-field does not vanish and the above discussion applies for [[twisted K-theory]].)
 
-Clearly, this just the idea of "pre-metric electromagnetism" but now enacted in a variant situation.
+Clearly, this just the idea of "pre-metric electromagnetism" but now enacted in a variant situation. The [[string theory]]-literature refers to this mostly as the "democratic" formulation of the [[RR-fields]], see [Dall'Agata, Lechner & Tonin (1998)](#Dall'AgataLechnerTonin98) or [Mkrtchyan & Valach (2023)](#MkrtchyanValach23).
 
 ### $C$-Field in gravitational background
 
@@ -288,6 +288,11 @@ Monographs:
 
 * {#HehlObukhov03} [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[arXiv:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
 
+The general principle of the pre-metric formulation, understood as a form of [[self-dual higher gauge theory]], also appears in:
+
+* {#Freed02} [[Daniel Freed]], Exp. 3.8 of *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+
+leading over to generalization of the idea such as to [[RR-fields]].
 
 Further discussion:
 
@@ -297,16 +302,28 @@ Further discussion:
 
 * [[Yuri N. Obukhov]], *Premetric approach in gravity and electrodynamics*, in: *The Fifteenth Marcel Grossmann Meeting* (2022) 654-659 &lbrack;[doi:10.1142/9789811258251_0087](https://doi.org/10.1142/9789811258251_0087), [arXiv:1904.00180](https://arxiv.org/abs/1904.00180)&rbrack;
 
+
+
 ### Premetric RR-fields
+ {#PremetricRRFieldReferences}
 
 References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]]") formulation (eq:RRFieldsEquationsInPreMetricDifferentialForm) of the RR-fields in [[type II supergravity]] manifest:
 
-* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
-
-* [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 &lbrack;[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)&rbrack;
+[[!include self-duality for pregeometric RR-fields -- references]]
 
 
-* [[Karapet Mkrtchyan]], [[Fridrich Valach]], (6), (7) in: *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 &lbrack;[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)&rbrack;
+
+
+
+### Premetric C-field
+ {#PremetricCFieldReferences}
+
+[[!include self-duality for pregeometric C-field -- references]]
+
+
+
+
+
 
 
 
@@ -353,6 +370,18 @@ References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]
 
 
 
+
+[[!redirects pre-metric C-field]]
+[[!redirects pre-metric C-fields]]
+
+[[!redirects premetric C-field]]
+[[!redirects premetric C-fields]]
+
+[[!redirects pre-geometric C-field]]
+[[!redirects pre-geometric C-fields]]
+
+[[!redirects pregeometric C-field]]
+[[!redirects pregeometric C-fields]]
 
 
 
