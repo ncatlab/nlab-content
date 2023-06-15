@@ -91,8 +91,7 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 The classification in [[Berger's theorem]] is due to
 
-* {#Berger} [[Marcel Berger]], _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des
-vari&#233;t&#233;s riemanniennes_, Bull. Soc. Math. France 83 (1955)
+* {#Berger} [[Marcel Berger]], _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des vari&#233;t&#233;s riemanniennes_, Bull. Soc. Math. France 83 (1955)
  
 
 For more see
@@ -101,23 +100,23 @@ For more see
 
 * {#Joyce} [[Dominic Joyce]], _Compact manifolds with special holonomy_ , Oxford Mathematical Monographs (2000)
   
-* Luis J. Boya, _Special Holonomy Manifolds in Physics_ Monograf&#237;as de la Real Academia de Ciencias de Zaragoza. 29: 37&#8211;47, (2006). ([pdf](http://www.unizar.es/acz/05Publicaciones/Monografias/MonografiasPublicadas/Monografia29/037.pdf))
+* Luis J. Boya, _Special holonomy manifolds in physics_ Monograf&#237;as de la Real Academia de Ciencias de Zaragoza. 29: 37&#8211;47, (2006). ([pdf](http://www.unizar.es/acz/05Publicaciones/Monografias/MonografiasPublicadas/Monografia29/037.pdf))
 
 Discussion of the relation to [[Killing spinors]] includes
 
-* [[Andrei Moroianu]], [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
+* [[Andrei Moroianu]], [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](https://arxiv.org/abs/math/9903062))
 
 Discussion in terms of [[Riemannian geometry]] modeled on [[normed division algebras]] is in
 
-* {#Leung02} [[Naichung Conan Leung]], _Riemannian Geometry Over Different Normed Division Algebras_, J. Differential Geom. Volume 61, Number 2 (2002), 289-333. ([publisher page](http://projecteuclid.org/euclid.jdg/1090351387))
+* {#Leung02} [[Naichung Conan Leung]], _Riemannian geometry over different normed division algebras_, J. Diff. Geom. __61__:2 (2002) 289--333([euclid](https://projecteuclid.org/euclid.jdg/1090351387))
 
 See also
 
-* {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+* {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, __1__ (1965) 145--190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
 
 On [[special holonomy orbifolds]]:
 
-* [[Jeff Cheeger]], Gang Tian, _Anti-Self-Duality of Curvature and Degeneration of Metrics with Special Holonomy_, Communications in Mathematical Physics volume 255, pages 391–417 (2005) ([doi:10.1007/s00220-004-1279-0](https://doi.org/10.1007/s00220-004-1279-0))
+* [[Jeff Cheeger]], [[Gang Tian]], _Anti-self-duality of curvature and degeneration of metrics with special holonomy_, Commun. Math. Phys. __255__, 391--417 (2005) ([doi:10.1007/s00220-004-1279-0](https://doi.org/10.1007/s00220-004-1279-0))
 
 
 ### In supergravity and string theory
@@ -129,7 +128,7 @@ Discussion of special holonomy manifolds in [[supergravity]] and [[superstring t
 
 [[!redirects manifold with special holonomy]]
 [[!redirects manifolds with special holonomy]]
-
+[[!redirects special holonomy manifold]]
 
 [[!redirects special holonomy orbifold]]
 [[!redirects special holonomy orbifolds]]
