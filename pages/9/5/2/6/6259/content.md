@@ -371,41 +371,13 @@ Discussion of the [[conformal blocks]] and [[geometric quantization]] of self-du
 For the case of nonabelian self-dual 1-form gauge fields see the references at _[[Yang-Mills instanton]]_.
 
 
+
 ### For RR-fields / differential K-theory
 
-
-The self-dual higher gauge field of the [[RR-field]] in terms of a [[quadratic form]] on [[differential K-theory]] is discussed originally around
-
-* {#MooreWitten99} [[Gregory Moore]], [[Edward Witten]], _Self-Duality, Ramond-Ramond Fields, and K-Theory_, JHEP 0005:032,2000 ([arXiv:hep-th/9912279](http://arxiv.org/abs/hep-th/9912279))
-
-and 
-
-* {#Freed00} [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_.
-
-
-for [[type I superstring theory]], and for [[type II superstring theory]] in 
-
-* {#Wittem} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
-
-* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
-
-* {#MW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
-
-* {#MPS11} [[Stefan Müller-Stach]], Chris Peters, Vasudevan Srinivas, _Abelian varieties and theta functions associated to compact Riemannian manifolds; constructions inspired by superstring theory_, Journal de math&#233;matiques pures et appliqu&#233;es 98.5 (2012): 542-573 ([arXiv:1105.4108](http://arxiv.org/abs/1105.4108), [pdf slides](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf))
-
-
-with more refined discussion in [[twisted differential K-theory|twisted differential]] [[KR-theory]] in
-
-* {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
-
-See at _[[orientifold]]_ for more on this. The relation to [[11d Chern-Simons theory]] is made manifest in
-
-* {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
-
-Review is in ([Szabo 12, section 3.6 and 4.6](#Szabo12)).
-
-
+[[!include self-duality for pregeometric RR-fields -- references]]
  
+
+
 
 [[!redirects self-dual higher gauge theories]]
 
