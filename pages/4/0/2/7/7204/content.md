@@ -70,15 +70,11 @@ Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d
 * {#DFGT08} [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro Grassi]], Trigiante, _Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds_ [arXiv:0803.1703](https://arxiv.org/abs/0803.1703)
 
 
-Duality-symmetric formulation:
 
-* {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
-Discussion of [[Lagrangian densities]] for [[type II supergravity]] making the nature of the [[pregeometric RR-fields]] and their [[self-dual higher gauge theory|self-duality]] manifest:
+### Explicit self-dual formulations
 
-* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
-
-* [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 &lbrack;[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)&rbrack;
+[[!include self-duality for pregeometric RR-fields -- references]]
 
 
 
