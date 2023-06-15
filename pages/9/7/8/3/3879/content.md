@@ -119,6 +119,8 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
   _Models in Mechanics_, Akad&eacute;miai Kiad&oacute;, 1986 ([djvu](http://szofi.elte.hu/~szaboa/MatolcsiKonyvek/djvu/konyv/mechanics_ocr.djvu))
 
+* [[Walter Thirring]], *A Course in Mathematical Physics* -- 1 *Classical Dynamical Systems* and 2 *Classical Field Theory*, Springer (1988, 1992) &lbrack;[doi:10.1007/978-1-4684-0517-0](https://doi.org/10.1007/978-1-4684-0517-0)&rbrack;
+
 * {#Hassani99} [[Sadri Hassani]], *Mathematical Physics -- A Modern Introduction to Its Foundations* Springer 1999, 2002, 20013 ([ISBN:9783319011943](https://www.springer.com/de/book/9783319011943), [pdf](http://202.38.64.11/~jmy/documents/ebooks/Hassani%20Mathematical%20Physics%20A%20Modem%20Introduction%20to%20Its%20Foundations%20-%20S.%20Hassani%20%5B0-387-98579-4%5D.pdf))
 
 * {#Fadeev00} [[Ludwig Faddeev]], _Modern Mathematical Physics: what it should be?_, in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
