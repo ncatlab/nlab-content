@@ -130,7 +130,7 @@ More discussion with regards to [[geometric invariant theory]] and [[Bridgeland 
 
 See also
 
-* Paolo de Bartolomeis, Gang Tian, _Stability of complex vector bundles_, Journal of Differential Geometry, Vol. 43, No. 2 (1996) ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-231.pdf))
+* Paolo de Bartolomeis, [[Gang Tian]], _Stability of complex vector bundles_, J. Diff. Geometry __43__:2 (1996) ([pdf](https://www.intlpress.com/JDG/archive/1996/43-2-231.pdf))
 
 * Wei-Ping Li, Zhenbo Qin, _Stable vector bundles on algebraic surfaces_ ([pdf](http://arxiv.org/pdf/math/9411233.pdf))
 
