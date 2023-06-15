@@ -28,7 +28,7 @@ A potential [[quantum anomaly]] in [[M-theory]]/[[type IIA string theory]].
 
 The anomaly was found in
 
-*  Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090))
+* [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134 (2003) &lbrack;[arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)&rbrack;
 
 while mostly assuming vanishing NS-fields (the [[B-field]]). The non-vanishing B-field in this context was considered in 
 
