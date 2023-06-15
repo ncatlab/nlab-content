@@ -52,6 +52,11 @@ and *constitutive map* in:
 
 * [[E. Jan Post]], *The constitutive map and some of its ramifications*, Annals of Physics **71** 2 (1972) 497-518 &lbrack;<a href="https://doi.org/10.1016/0003-4916(72)90129-7">doi:10.1016/0003-4916(72)90129-7</a>&rbrack;
 
+Exposition of the formulation of these matters in [[differential form]]-language:
+
+* Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
+
+
 [[!redirects dielectric media]]
 
 [[!redirects dielectric]]
