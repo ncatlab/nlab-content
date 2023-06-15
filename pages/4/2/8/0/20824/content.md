@@ -53,7 +53,7 @@ But in [Hull 98](#Hull98) an embedding of massive IIA into [[M-theory]] was clai
 
 An early hint is in
 
-* [[Joseph Polchinski]], p. 8,9 of: _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett.7 5:4724-4727, 1995
+* [[Joseph Polchinski]], p. 8,9 of: _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. **7** 5 (1995) 4724-4727 &lbrack;[arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017)&rbrack;
 
 Serious development in
 
