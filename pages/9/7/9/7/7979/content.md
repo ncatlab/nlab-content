@@ -100,9 +100,13 @@ In order to complete this [[pregeometric electromagnetism|pregeometric]] form to
 
 In [[vacuum]] and in the absence of [[background field|background]] [[gravity]], this [[constitutive relation]]: 
 
-* equates the displacement field $\vec D$ with the electric field $\vec E$ times a constant $\epsilon_0$ called the "permitivity of the vacuum", 
+* equates the displacement field $\vec D$ with the electric field $\vec E$ times a constant $\epsilon_0$ 
 
-* equates the magnetic flux $\vec B$ with the magnetic field $\vec H$ times a constant $\mu_0$ called the *permeability* of the vacuum. 
+  called the "*permitivity of the vacuum*", 
+
+* equates the magnetic flux $\vec B$ with the magnetic field $\vec H$ times a constant $\mu_0$ 
+
+  called the "*permeability of the vacuum*". 
 
 But for [[electromagnetic fields]] inside [[dielectric media]] other [[constitutive relations]] appear. For small field strengths these are typically [[linear functions]] $C$
 
@@ -121,7 +125,7 @@ Similarly (interestingly), in the presence of [[background field|background]] [[
 ## In terms of Faraday tensor $F$
  {#InTermsOfFaradayTensor}
 
-This is adapted from _[electromagnetic field -- Maxwell's equations](http://ncatlab.org/nlab/show/electromagnetic+field#MaxwellEquations)_.
+This is adapted from _[electromagnetic field -- Maxwell's equations](electromagnetic+field#MaxwellEquations)_, for more see the references [below](#ReferencesForMaxwellEquationsViaDifferentialForms).
 
 In modern language, the insight of ([Maxwell, 1865](#Maxwell)) is that locally, when physical [[spacetime]] is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional [[Minkowski space]] $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]]
 
