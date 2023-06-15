@@ -105,19 +105,8 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 
 * [[Robert Wald]], *Advanced Classical Electromagnetism*, Princeton University Press (2022) &lbrack;[ISBN:9780691220390](https://press.princeton.edu/books/hardcover/9780691220390/advanced-classical-electromagnetism)&rbrack;
 
-[[electromagnetism in terms of differential forms -- references]]
 
-{#ReferencesDifferentialForms} Discussion of [[Maxwell's equations]] in terms of [[differential forms]] and the [[Hodge star operator]]:
-
-* [[Theodore Frankel]], *Maxwell's equations*, The American Mathematical Monthly **81** 4 (1974) &lbrack;[pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D)&rbrack;
-
-* [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
-
-* [[Gregory L. Naber]], §2.2 in: *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** &lbrack;[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)&rbrack;
-
-* [[Masao Kitano]], *Reformulation of Electromagnetism with Differential Forms*, Chapter 2 in: *Trends in Electromagnetism -- From fundamentals to applications*, InTech (2012) 21-44 &lbrack;[ISBN:978-953-51-0267-0](https://www.intechopen.com/books/1647), [[Kitano-ElectromagnetismWithForms.pdf:file]]&rbrack;
-
-* {#FBM20} Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
+[[!include electromagnetism in terms of differential forms -- references]]
 
 
 ### Quantum electromagnetism
