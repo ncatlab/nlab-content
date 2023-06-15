@@ -18,4 +18,10 @@ On [[enumerative geometry]] and [[string theory]]/[[Gromov-Witten theory]]:
 
 * {#Katz06} [[Sheldon Katz]], *Enumerative Geometry and String Theory*, Student Mathematical Library **32** AMS (2006) ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
 
+
+On [[quantum sheaf cohomology]]:
+
+* [[Ron Donagi]], [[Josh Guffin]], [[Sheldon Katz]], [[Eric Sharpe]], *A Mathematical Theory of Quantum Sheaf Cohomology*, Asian J. Math. **18** (2014) 387-418 &lbrack;[arXiv:1110.3751](https://arxiv.org/abs/1110.3751), [doi:10.4310/AJM.2014.v18.n3.a1](https://doi.org/10.4310/AJM.2014.v18.n3.a1)&rbrack;
+
+
 category: people
