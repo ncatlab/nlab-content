@@ -44,3 +44,6 @@ Important examples include
 
 [[!redirects endomorphism monoid object]]
 [[!redirects endomorphism monoid objects]]
+
+[[!redirects endomorphism rig]]
+[[!redirects endomorphism rigs]]
