@@ -10,7 +10,10 @@ On the expression of [[classical field theory|classical]] [[electromagnetism]], 
 
 * [[Theodore Frankel]], *Maxwell's equations*, The American Mathematical Monthly **81** 4 (1974) $[$[pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D)$]$
 
-* [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) $[$[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)$]$
+* {#Thirring78} [[Walter Thirring]], vol 2 §1.3 in: *A Course in Mathematical Physics* -- 1 *Classical Dynamical Systems* and 2 *Classical Field Theory*, Springer (1978, 1992) $[$[doi:10.1007/978-1-4684-0517-0](https://doi.org/10.1007/978-1-4684-0517-0)$]$
+
+
+* {#Frankel97} [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) $[$[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)$]$
 
 * [[Gregory L. Naber]], §2.2 in: *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** (2011) $[$[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)$]$
 
