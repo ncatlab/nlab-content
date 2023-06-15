@@ -3,14 +3,14 @@ Discussion of [[Lagrangian densities]] for [[type II supergravity]] making the "
 
 * {#Dall'AgataLechnerTonin98} [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) $[$[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)$]$
 
-* {#CremmerJuliaLuPope98} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 2 of *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl.Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
+* {#CremmerJuliaLuPope98} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 3 of: *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl. Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
 
 
 * {#BerhshoeffKalloshOrtinRoestVanProyen01} [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 $[$[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)$]$
 
 * {#BandosNurmagambetovSorokin04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], *Various Faces of Type IIA Supergravity*, Nucl. Phys. B **676** (2004) 189-228 $[$[arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153), [doi:10.1016/j.nuclphysb.2003.10.036](https://doi.org/10.1016/j.nuclphysb.2003.10.036)$]$
 
-* {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 $[$[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)$]$
+* {#MkrtchyanValach23} [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys. Rev. D **107** 6 (2023) 066027 $[$[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)$]$
 
 
 Enhancement of the [[self-dual higher gauge field|self-duality]] constraint on [[pregeometric RR-field|pregeometric]] [[RR-fields]] from ([[twisted de Rham cohomology|twisted]]) [[de Rham cohomology]] to ([[twisted K-theory|twisted]]) [[topological K-theory]] (under the hypothesized [[K-theory classification of D-brane charge]])
