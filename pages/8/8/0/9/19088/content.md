@@ -23,13 +23,19 @@
 
 This page collects material related to the book
 
-* [[Luis Ibáñez]], [[Angel Uranga]], 
+* [[Luis Ibáñez]], [[Angel Uranga]]:
 
-  _String Theory and Particle Physics: An Introduction to String Phenomenology_, 
+  \linebreak
 
-  Cambridge University Press 2012
+  **String Theory and Particle Physics** 
 
-  ([doi:10.1017/CBO9781139018951](https://doi.org/10.1017/CBO9781139018951))
+  *An Introduction to String Phenomenology*
+
+  \linebreak
+
+  Cambridge University Press (2012)
+
+  [doi:10.1017/CBO9781139018951](https://doi.org/10.1017/CBO9781139018951)
 
 on [[string theory phenomenology]] for [[particle physics]], such as via [[intersecting D-brane models]] in [[type II string theory]].
 
