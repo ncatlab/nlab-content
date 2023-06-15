@@ -13,6 +13,8 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -56,17 +58,64 @@ $$
 where $\Sigma$ is a surface and $\partial \Sigma$ its boundary; $I$ is the total current through $\Sigma$ (integral of the component of $j_{el}$ normal to the surface). 
 
 
+
 ### Differential equations
+ {#DifferentialEquations}
 
 Here we put units with $c = 1$. By $\rho$ we denote the density of the charge.
 
-* **no magnetic charges** (magnetic Gauss law): $div B = 0$
+In [[pre-metric electromagnetism|pregeometric form]], Maxwell's equations are [[differential equations]] for *four* fields ([[vector fields]]) called
 
-* **Faraday's law**: $\frac{d}{d t} B + rot E = 0$
+* *electric field* $\vec E$
 
-* **Gauss' law**: $div D = \rho$ 
+* *magnetic flux density* $\vec B$
 
-* **generalized Amp&#232;re's law** $- \frac{d}{d t} D + rot H = j_{el}$
+* *magnetic field* $\vec H$
+
+* *displacement field* $\vec D$ (or similar)
+
+and state:
+
+* **(magnetic Gauss law)** 
+
+  $div B = 0$
+
+  ("there is no source for magnetic [[flux]], hence no [[magnetic monopoles]]")
+
+* **Faraday's law**: 
+
+  $\frac{d}{d t} B + rot E = 0$
+
+* **(electric Gauss law)**: 
+
+  $div D = \rho$ 
+
+  ("the source of electric [[flux]] is electric current")
+
+* **generalized Amp&#232;re's law** 
+ 
+  $- \frac{d}{d t} D + rot H = j_{el}$
+
+In order to complete this [[pregeometric electromagnetism|pregeometric]] form to the actual [[equations of motion]] of the [[electromagnetic field]], these four fields are to be subjected to a constraint called the *[[constitutive equation]]* which expresses $(\vec D, \vec H)$ as a [[function]] of $(\vec E, \vec B)$. 
+
+In [[vacuum]] and in the absence of [[background field|background]] [[gravity]], this [[constitutive relation]]: 
+
+* equates the displacement field $\vec D$ with the electric field $\vec E$ times a constant $\epsilon_0$ called the "permitivity of the vacuum", 
+
+* equates the magnetic flux $\vec B$ with the magnetic field $\vec H$ times a constant $\mu_0$ called the *permeability* of the vacuum. 
+
+But for [[electromagnetic fields]] inside [[dielectric media]] other [[constitutive relations]] appear. For small field strengths these are typically [[linear functions]] $C$
+
+$$
+  (\vec D, \vec H) 
+    \;\overset{!}{=}\; 
+  C\big((\vec D, \vec H)\big)
+  \,,
+$$
+but in general the [[relation]] can be a non-linear or even a "[[multi-valued function]]" (namely when there are hysteresis effects in the [[dielectric medium]]).
+
+Similarly (interestingly), in the presence of [[background field|background]] [[gravity]] (such as for [[electromagnetic fields]] in and around a star) there is a linear such relation depending on the [[pseudo-Riemannian metric]]. This is most transparently expressed in terms of the [[Hodge star operator]] acting on the electromagnetic fields re-packaged as a [[Faraday tensor]] [[differential 2-form]] (see [below](#InTermsOfFaradayTensor)).
+
 
 
 ## In terms of Faraday tensor $F$
@@ -151,26 +200,22 @@ $d \star F = 0$ gives Gauss's law and Amp&#232;re-Maxwell law
 
 ## References
 
+For more see the references at *[[electromagnetism]]*.
+
+### General
+
 Maxwell's equations originate in:
 
 * {#Maxwell} [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
- 
-
-Discussion in terms of [[differential forms]] and the [[Hodge star operator]]:
-
-* [[Theodore Frankel]], *Maxwell's equations*, The American Mathematical Monthly **81** 4 (1974) &lbrack;[pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D)&rbrack;
-
-* [[Theodore Frankel]], §3.5 & §7.2b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
-
-* Gregory L. Naber, _Topology, geometry and gauge fields_, Appl. Math. Sciences vol. __141__, Springer (2000)
-
-* {#FBM20} Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
-
-
 
 Some history and reflection is in 
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
+
+
+
+[[!include electromagnetism in terms of differential forms -- references]]
+
 
 
 [[!redirects Maxwell equation]]
