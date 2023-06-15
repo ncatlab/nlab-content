@@ -97,6 +97,10 @@ Generalization to [[flat infinity-connections]] via the [[dg-nerve]] and [[itera
 
 * [[Jonathan Block]], [[Aaron Smith]], _A Riemann--Hilbert correspondence for infinity local systems_, Adv. Math. 252 (2014) 382--405 [arXiv:0908.2843](https://arxiv.org/abs/0908.2843) [doi](https://doi.org/10.1016/j.aim.2013.11.001)
 
+Another approach to higher Riemann-Hilbert
+
+* J. Chuang, J. Holstein, A. Lazarev, _Maurer-Cartan moduli and theorems of Riemann–Hilbert type_, Appl Categor Struct __29__ (2021) 685-728, [doi](https://doi.org/10.1007/s10485-021-09631-3)
+
 The relation to the [[geometric Langlands correspondence]] is discussed in
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
@@ -105,7 +109,7 @@ An analogue in [[p-adic geometry]] is discussed in
 
 * [[Jacob Lurie]], _A Riemann--Hilbert Correspondence in p-adic Geometry_, [Felix Klein Lectures 2022](https://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/fkl-2022-lurie/).
 
-* {#Bhatt21}[[Bhargav Bhatt]], _Algebraic Geometry in Mixed Characteristic_, preprint (2021) arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
+* {#Bhatt21}[[Bhargav Bhatt]], _Algebraic geometry in mixed characteristic_,  arXiv:[2112.12010](https://arxiv.org/abs/2112.12010)
 
 * {#Mann22} [[Lucas Mann]], *A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry* &lbrack;[arXiv:2206.02022](https://arxiv.org/abs/2206.02022)&rbrack;
 
