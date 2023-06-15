@@ -70,6 +70,14 @@ A \times A & \underset{\delta_A \times 1_A}{\to} & A \times A \times A
 },$$ 
 which is a kind of [Frobenius law](http://ncatlab.org/nlab/show/Frobenius+reciprocity#frobenius_laws_and_frobenius_reciprocity_11). By taking right adjoints, a similar equation holds for $\forall (f)$ in place of $\exists (f)$, where $P(f) \dashv \forall (f)$. 
 
+### As an Internal Heyting Algebra
+
+Similar to the [[natural models]] formulation of a [[category with families]], a first-order hyperdoctrince can be defined concisely using the [[internal language]] of presheaf categories. That is, a first-order hyperdoctrine is equivalently defined as a category $C_T$ with finite products and $P$ an internal Heyting algebra in the category of presheaves on $C_T$ that additionally has
+
+1. For every $A \in C_T$ internal $YA$-meets and joins where $YA$ is the [[representable]] presheaf of $A$.
+2. For every $A \in C_T$, $P$ internally has an $YA$-equality predicate, i.e., a least reflexive binary relation on $YA$ valued in $P$. In more detail, this is an internal function $=_A \in P^{YA \times YA}$ such that for every $f \in P^{YA\times YA}$ we have $\forall x,y. x =_A y \leq f(x,y)$ if and only if $\forall x\in A. \top \leq f(x,x)$. 
+
+Here the Beck-Chevalley conditions on the quantifiers and equality arises from the fact that the operations are internal and therefore natural in $C$. Unraveling the internal language, this definition is the same as the formulation given by Lawvere that requires only equality predicates and adjoints to substitution along projections.
 
 ### Interpretation
 
