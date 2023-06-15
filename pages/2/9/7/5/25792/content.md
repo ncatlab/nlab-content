@@ -30,7 +30,7 @@ where it is *only the second but not the first* part that involves the "[[backgr
 
 This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b), [Cartan (1924) §80](#Cartan24), [Dantzig (1934)](#Dantzig34)  and more recently [Hehl & Obukhov (2003)](#HehlObukhov03), [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](#DelphenichBook)), the broad idea being that the second step above should be regarded as, indeed, secondary and possibly subject to conceptual re-evaluation (e.g. [Delphenich (2015)](#Delphenich15)).
 
-We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated under this name, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
+We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated under this name, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" and then often called the "democratic" instead of "premetric" formulation --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
 
 ## Premetric electromagentism
@@ -156,17 +156,19 @@ $$
 
 where $\sigma = 0$ for [[type IIA supergravity]] and $\sigma = 1$ for [[type IIB supergravity]].
 
-Moreover, the [[equations of motion]] of these [[RR-fields]] are of the general form of [[Maxwell's equations]], in fact when the [[Kalb-Ramond field]] and the [[spinor fields]] vanish, then the equations of motion are as before, up to form degree
+Moreover, the [[equations of motion]] of these [[RR-fields]] are of the general form of [[Maxwell's equations]] (eq:MaxwellEquationsInTraditionalDifferentialForm), in fact when the [[Kalb-Ramond field]] and the [[spinor fields]] vanish, then the equations of motion are as before, up to form degree
 
-$$
+\[
+ \label{RRFieldEquationsInTraditionalDifferentialForm}
   \begin{array}{rcl}
     \mathrm{d} F_{2p + \sigma} &=& 0
     \\
     \mathrm{d} \star_g F_{2p + \sigma} &=& 0
+    \mathrlap{\,.}
   \end{array}
-$$
+\]
 
-and in more generality the right-hand sides are non-vanishing combinations of the [[Kalb-Ramond field]] (already for the first equation!) and the [[spinor fields]].
+(In more generality the right-hand sides are non-vanishing combinations with the [[Kalb-Ramond field]] -- already for the first equation! -- and the [[spinor fields]].)
 
 But one may famously understand [[type II supergravity]] as the low-energy limit of [[type II string theory]], in which case there are subtle [[flux quantization laws]] of the total [[flux]] of these [[RR-fields]] (in variation of the [[Dirac charge quantization]]-law imposed on the Maxwell field when regarding [[electromagnetism]] as the background field for [[quantum]] [[electrons]]). 
 
@@ -187,9 +189,23 @@ A widely-considered [[conjecture]] ([[K-theory classification of D-brane charge|
 
    and then regarding/constraining such a [[tuple]] as the image under the [[Chern character]] of a class in ([[differential K-theory|differentia]]) complex [[topological K-theory]] in addition to imposing the pre-metric [[equations of motion]].
 
-1. afterwards imposing the Hodge-duality constraint, now thought of as a "self-duality" on K-theory and remaining subject to discussion in the literature: see at *[[self-dual higher gauge field]]* the section *[Examples -- RR-Fields](self-dual+higher+gauge +theory#RRFieldsin10d).
+1. afterwards imposing the Hodge-duality constraint, now thought of as a "self-duality" on K-theory and remaining subject to discussion in the literature: see at *[[self-dual higher gauge field]]* the section *[Examples -- RR-Fields](self-dual+higher+gauge+theory#RRFieldsin10d).
 
-(This is stated for vanishing [[Kalb-Ramond field]], for ease of exposition here. More generally the KR-field does not vanish and the above discussion applies for [[twisted K-theory]].)
+\[
+  \label{RRFieldsEquationsInPreMetricDifferentialForm}
+  \array{
+    \mathrm{d} \, F_{2\bullet + \sigma}
+    \;=\;
+    0
+    \\
+    F_{D-2\bullet-\sigma}
+    \;=\;
+    \star_g
+    F_{2\bullet+\sigma}
+  }
+\]
+
+(Again, this is stated so far for vanishing [[Kalb-Ramond field]], for ease of exposition here. More generally the KR-field does not vanish and the above discussion applies for [[twisted K-theory]].)
 
 Clearly, this just the idea of "pre-metric electromagnetism" but now enacted in a variant situation.
 
@@ -228,6 +244,8 @@ There is no [[Whitehead-generalized cohomology theory]] with this property, due 
 
 ## References
  {#References}
+
+### Premetric electromagnetic fields
 
 The idea (if not the terminology) of pre-metric electromagnetism is attributed to:
 
@@ -279,6 +297,18 @@ Further discussion:
 
 * [[Yuri N. Obukhov]], *Premetric approach in gravity and electrodynamics*, in: *The Fifteenth Marcel Grossmann Meeting* (2022) 654-659 &lbrack;[doi:10.1142/9789811258251_0087](https://doi.org/10.1142/9789811258251_0087), [arXiv:1904.00180](https://arxiv.org/abs/1904.00180)&rbrack;
 
+### Premetric RR-fields
+
+References which make the "democratic" ("[[pregeometric RR-fields|pre-geometric]]") formulation (eq:RRFieldsEquationsInPreMetricDifferentialForm) of the RR-fields in [[type II supergravity]] manifest:
+
+* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
+
+* [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 &lbrack;[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)&rbrack;
+
+
+* [[Karapet Mkrtchyan]], [[Fridrich Valach]], (6), (7) in: *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 &lbrack;[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)&rbrack;
+
+
 
 
 [[!redirects premetric electromagnetism]]
@@ -308,6 +338,18 @@ Further discussion:
 [[!redirects pregeometric electrodynamics]]
 
 
+
+[[!redirects pre-metric RR-field]]
+[[!redirects pre-metric RR-fields]]
+
+[[!redirects premetric RR-field]]
+[[!redirects premetric RR-fields]]
+
+[[!redirects pre-geometric RR-field]]
+[[!redirects pre-geometric RR-fields]]
+
+[[!redirects pregeometric RR-field]]
+[[!redirects pregeometric RR-fields]]
 
 
 
