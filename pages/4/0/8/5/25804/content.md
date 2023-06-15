@@ -7,7 +7,7 @@ On [[mathematical physics]]: [[topology]] ([[differential geometry|differential]
 
 * [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Foundations*,  Texts in Applied Mathematics **25** (2011) &lbrack;[doi:10.1007/978-1-4419-7254-5](https://doi.org/10.1007/978-1-4419-7254-5)&rbrack;
 
-* [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** &lbrack;[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)&rbrack;
+* [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** (2011) &lbrack;[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)&rbrack;
 
 
 category: people
