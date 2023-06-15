@@ -17,7 +17,7 @@
 
 In [[algebra]], the *Wedderburn--Artin theorem* gives a clean characterization of those [[rings]] that are [[matrix algebras]] over [[division rings]].
    
-Concretely, the theorem says that any semisimple ring is a [[finite limit|finite]] [[direct sum]] of [[matrix algebras]] over [[division rings]]. (Here a [[ring]] is called *[[semisimple ring|semisimple]]* if each of its left or equivalently right [[modules]] is a finite [[direct sum]] of [[simple modules]].) 
+Concretely, the theorem says that any [[semisimple ring]] is a [[finite limit|finite]] [[direct sum]] of [[matrix algebras]] over [[division rings]]. (Here a [[ring]] is called *[[semisimple ring|semisimple]]* if each of its left or equivalently right [[modules]] is a finite [[direct sum]] of [[simple modules]].) 
 
 ## Statement ##
 
