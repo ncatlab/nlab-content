@@ -76,29 +76,40 @@ Discussion of the [[NSR-string|NSR]] [[string perturbation theory]] in RR-field 
 ### Self-duality and quadratic form
  {#ReferencesSelfDuality}
 
+[[self-duality for pregeometric RR-fields -- references]]
+
 The [[self-dual higher gauge field]] nature (see there for more) in terms of a [[quadratic form]] on [[differential K-theory]] is discussed originally around
 
 * {#MooreWitten99} [[Gregory Moore]], [[Edward Witten]], _Self-Duality, Ramond-Ramond Fields, and K-Theory_, JHEP 0005:032,2000 ([arXiv:hep-th/9912279](http://arxiv.org/abs/hep-th/9912279))
 
 and ([Freed 00](#Freed00)) for [[type I superstring theory]], and for [[type II superstring theory]] in 
 
-* {#Wittem} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+* {#Witten00} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031 (2000) &lbrack;[arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086), [doi:10.1088/1126-6708/2000/05/032](https://doi.org/10.1088/1126-6708/2000/05/032)&rbrack;
 
-* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
+* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 &lbrack;[arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027)&rbrack;
 
-* {#FMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+* {#FMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]], *$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory*, Adv. Theor. Math. Phys. **6** (2003) 1031-1134 &lbrack;[arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)&rbrack;, summarised in _A Derivation of K-Theory from M-Theory_ &lbrack;[arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091)&rbrack;
 
 with more refined discussion in [[twisted differential K-theory|twisted differential]] [[KR-theory]] in
 
-* {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) &lbrack;[arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf)&rbrack;
 
 See at _[[orientifold]]_ for more on this. The relation to [[11d Chern-Simons theory]] is made manifest in
 
-* {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+* {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ &lbrack;[arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020)&rbrack;
 
 Review is in 
 
-* {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
+* {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of: _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ &lbrack;[arXiv:1209.2530](http://arxiv.org/abs/1209.2530)&rbrack;
+
+Discussion of [[Lagrangian densities]] for [[type II supergravity]] making the nature of the [[pregeometric RR-fields]] and their [[self-dual higher gauge theory|self-duality]] manifest:
+
+* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
+
+* [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 &lbrack;[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)&rbrack;
+
+* [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 &lbrack;[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)&rbrack;
+
 
 ### Irrational RR-charge
  {#IrrationalRRCharge}
