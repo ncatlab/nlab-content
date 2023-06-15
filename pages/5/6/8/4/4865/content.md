@@ -130,7 +130,9 @@ There is in fact a hidden 1-parameter deformation of the Lagrangian of 11d sugra
 Mathematically this was maybe first noticed in ([D'Auria-Fre 82 ](#DAuriaFre)) around equation (4.25). This shows that there is a topological term which may be expressed as 
 
 $$
-  \propto \int_{X_11} G_4 \wedge G_7
+  \propto 
+  \;
+  \textstyle{\int}_{X_11} G_4 \wedge G_7
 $$
 
 where $G_4$ is the [[curvature]] 3-form of the [[supergravity C-field]] and $G_7$ that of the [[electric-magnetic duality|magnetically dual]] [[C6-field]]. However, ([D'Auria-Fre 82 ](#DAuriaFre)) consider only topologically trivial (trivial [[instanton sector]]) configurations of the  [[supergravity C-field]], and since on them this term is a total derivative, the authors "drop" it. 
@@ -245,6 +247,14 @@ Much computational detail is displayed in
 In terms of [[pure spinors]]:
 
 * [[Max Guillen]], _Pure spinors and $D=11$ supergravity_ ([arXiv:2006.06014](https://arxiv.org/abs/2006.06014))
+
+
+
+
+### Duality-symmetric formulation
+
+[[!include self-duality for pregeometric C-field -- references]]
+
 
 
 ### Classical solutions and BPS states
