@@ -30,7 +30,7 @@ where it is *only the second but not the first* part that involves the "[[backgr
 
 This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b), [Cartan (1924) §80](#Cartan24), [Dantzig (1934)](#Dantzig34)  and more recently [Hehl & Obukhov (2003)](#HehlObukhov03), [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](#DelphenichBook)), the broad idea being that the second step above should be regarded as, indeed, secondary and possibly subject to conceptual re-evaluation (e.g. [Delphenich (2015)](#Delphenich15)).
 
-We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
+We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated under this name, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
 
 ## Premetric electromagentism
@@ -62,7 +62,7 @@ and last not least
 
 * $\star_g \,\colon\, \Omega^p(X) \longrightarrow \Omega^{4-p}(X)$ denotes the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] of the given [[Lorentzian manifold]] $(X,g)$.
 
-Often this is considered for $X \simeq \mathbb{R}^{3,1}$ being [[Minkowski spacetime]], hence for $g = \eta$ the [[Minkowski metric]], in which case this describes pure "Maxwell theory", but the exact same formulas apply in the generality that $(X,g)$ is any [[Lorentzian manifold]], in which case they form the sector of the [[equations of motion]] of [[Einstein-Maxwell theory]] which involve the [[electromagnetic field]] and its coupling to [[background field|background]] [[gravity]]. (The remaining sector are the [[Einstein equations]] for the metric field $g$ sourced by the [[stress-energy tensor]] of the Maxwell field).
+Often this is considered for $X \simeq \mathbb{R}^{3,1}$ being [[Minkowski spacetime]], hence for $g = \eta$ the [[Minkowski metric]], in which case this describes pure "Maxwell theory", but the exact same formulas apply in the generality that $(X,g)$ is any [[Lorentzian manifold]], in which case they form the sector of the [[equations of motion]] of [[Einstein-Maxwell theory]] which involve the [[electromagnetic field]] and its coupling to [[background field|background]] [[gravity]]. (The remaining sector are the [[Einstein equations]] for the metric field $g$ sourced by the [[stress-energy tensor]] of the Maxwell field.)
 
 In order to bring out more manifestly that [[gravity]] (the [[pseudo-Riemannian metric]]) enters *only* through the [[Hodge star operator]], we may evidently re-write the above pair of equations (eq:MaxwellEquationsInTraditionalDifferentialForm) equivalently as follows:
 
@@ -82,11 +82,11 @@ In order to bring out more manifestly that [[gravity]] (the [[pseudo-Riemannian 
 
 ### Electromagnetism in dielectric media
 
-In fact, this formulation (eq:MaxwellEquationsInPreMetricDifferentialForm) is closer to the (original) formulation of Maxwell's equations used in the case that spacetime $X$ is thought of as possibly filled with a *[[dielectric medium]]* where, *a priori*, one considers 2 groups of fields: 
+In fact, this formulation (eq:MaxwellEquationsInPreMetricDifferentialForm) is closer to the (original) formulation of Maxwell's equations used in the case that spacetime $X$ is thought of as possibly filled with a *[[dielectric medium]]* where, *a priori*, one considers two groups of fields: 
 
 1. the [[electric field]] $\vec E$ and [[magnetic field|magnetic]] [[flux density]] $\vec B$ 
 
-   which constitute the [[Faraday tensor]]) given (on a local [[coordinate chart]] $(t,x^1, x^2, x^3)$) by (see [here](#InTermsOfFaradayTensor)):
+   which jointly constitute the [[Faraday tensor]], given (on a local [[coordinate chart]] $(t,x^1, x^2, x^3)$) by (see [there](Maxwell's+equations#InTermsOfFaradayTensor)):
 
   $$
     F 
@@ -98,7 +98,7 @@ In fact, this formulation (eq:MaxwellEquationsInPreMetricDifferentialForm) is cl
 
 as well as 
 
-1. the actual [[magnetic field]] $\vec H$ and the *dielectric displacement cuurent* $\vec D$ with
+1. the actual [[magnetic field]] $\vec H$ and the *dielectric displacement* (or similar) $\vec D$, with
 
    $$
      G 
@@ -106,12 +106,13 @@ as well as
      H_i \mathrm{d}x^i \wedge \mathrm{d} t 
        \,-\, 
      \epsilon_{i j k} D^i \mathrm{d} x^j \mathrm{d} x^k
+     \,,
    $$
 
-and then imposes *constitutive equations* 
+and then imposes *[[constitutive equations]]* 
 relating $(\vec E, \vec B)$ to $(\vec H, \vec D)$ and thereby expressing the [[dielectric]]-property of any electromagneric *medium* that one imagines filling the spacetime $X$.
 
-In general, constitutive equations can be nonlinear (and even multi-valued, reflecting hysteresis effects), but for sufficiently small [[field strength]] they are of the form
+In general, [[constitutive equations]] can be nonlinear (and even [[multi-valued function|multi-valued]], reflecting hysteresis effects), but for sufficiently small [[field strengths]] they are of the form
 
 $$
   G \,=\, \star_\epsilon F
@@ -128,6 +129,7 @@ $$
 $$
 
 much like the [[Hodge star operator]] (whence here we use similar notation for both, which is non-standard).
+
 
 ## Premetric higher electromagnetism
 
