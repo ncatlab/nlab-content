@@ -25,3 +25,6 @@ On [[type II supergravity]]:
 * [[AdS/CFT]]
 
 [[!redirects Aleksei Nurmagambetov]]
+
+[[!redirects Alexei J. Nurmagambetov]]
+
