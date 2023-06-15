@@ -85,6 +85,9 @@ On [[sphere fiber bundles]] as [[Kaluza-Klein compactifications]] in [[supergrav
 
 * [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
 
+On [[D=8 supergravity]]:
+
+* Bing-Xin Lao, [[Ruben Minasian]], *Consistency of eight-dimensional supergravities: Anomalies, Lattices and Counterterms* &lbrack;[arXiv:2306.07766](https://arxiv.org/abs/2306.07766)&rbrack;
 
 
 
