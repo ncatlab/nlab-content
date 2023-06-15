@@ -112,7 +112,7 @@ $$
   inv \colon \mathcal{C}_1 \to \mathcal{C}_1
 $$
 
-then [[pullback of functions]] along this map makes is an [[involution]] of the convolution algebra of $\mathcal{C}$ and hence makes it into a [[star-algebra]]. 
+then [[pullback of functions]] along this map is an [[involution]] of the convolution algebra of $\mathcal{C}$ and hence makes it into a [[star-algebra]]. 
 
 More generally for $\mathcal{C}$ equipped with the structure of a [[dagger-category]], pullback along the dagger-functor
 
