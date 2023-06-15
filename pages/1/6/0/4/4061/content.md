@@ -139,7 +139,10 @@ On [[quantum field theory]] and [[string theory]]:
 
 * P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-* Gregory L. Naber, *Topology, geometry, and gauge fields: interactions*
+* [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Foundations*,  Texts in Applied Mathematics **25** (2011) &lbrack;[doi:10.1007/978-1-4419-7254-5](https://doi.org/10.1007/978-1-4419-7254-5)&rbrack;
+
+* [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Interactions*, Applied Mathematical Sciences **141** &lbrack;[doi:10.1007/978-1-4419-7895-0](https://doi.org/10.1007/978-1-4419-7895-0)&rbrack;
+
 
 * [[Mikio Nakahara]], *[[Geometry, Topology and Physics]]*
 
