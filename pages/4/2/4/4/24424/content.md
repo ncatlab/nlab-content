@@ -8,14 +8,20 @@ I like the insights given by the philosophy of [[Ludwig Wittgenstein]] and think
 
 ## Projects
 
-I currently work on this stuff:
+I wrote a paper on this:
 
 - Graded differential linear logic and graded differential categories which index the [[exponential modality]] of differential linear logic or differential categories by any [[rig]] including graded kinds of [[Seely isomorphism]] (with [[Jean-Simon Lemay]]).
-- Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
-- A [[string diagrams|string-diagrammatic]] calculus for [[symmetric powers]] based on an algebraic characterization of symmetric powers in symmetric monoidal $\mathbb{Q}^{+}$-linear categories.
-- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]] (with [[Rick Blute]], Florian Schwarz, Geoff Vooys)
 
-A next goal is:
+I’m writing a paper on:
+
+- A [[string diagrams|string-diagrammatic]] calculus for [[symmetric powers]] based on an algebraic characterization of symmetric powers in symmetric monoidal $\mathbb{Q}^{+}$-linear categories.
+
+I want to write papers on:
+
+- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]] (with [[Rick Blute]], Florian Schwarz, Geoff Vooys).
+- Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
+
+Another idea which seems to be unsuccessful (too beautiful to be real) was:
 
 - Make [[Schur functors]], which are usually used in [[representation theory of  the symmetric group]], into [[string diagrams]] and/or [[linear logic]] by using an [[graded modality|exponential modality]] graded by [[Young diagrams]].
 
@@ -30,3 +36,4 @@ A next goal is:
 category: people
 
 [[!redirects Jean-Baptiste Vienney]]
+
