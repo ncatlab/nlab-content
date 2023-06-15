@@ -40,6 +40,13 @@ There is also a version of the Wedderburn--Artin theorem for [[associative algeb
 Every [[semisimple algebra]] over a [[field]] $k$ is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division algebras]] over $k$.  A semisimple algebra over $k$ is simple if and only if it is a matrix algebra over a division algebra over $k$.
 \end{proposition}
 
+There is also a version for [[endomorphism rigs]] in a [[semiadditive category]]:
+
+\begin{proposition}
+**(Wedderburn--Artin Theorem for Endomorphism rigs)**\linebreak 
+If $R$ is a [[semisimple object]] in a [[semiadditive category]] $\mathsf{A}$, then the [[endomorphism rig]] $End(R)$ is a [[finite product]] of matrix rigs over [[division rigs]]. 
+\end{proposition}
+
 ## Proofs ##
 
 There are many [[proofs]] of the Wedderburn--Artin theorem (Prop. \ref{TheTheorem}).  
@@ -148,7 +155,6 @@ $$   y = y (x b) = (y x) b = b .$$
 
 Thus $b$ is the left inverse of $x$.  So $x$ is the right inverse of $b$.  &marker;
 
-
 ## Related concepts
 
 * [[central simple algebra]]
@@ -159,9 +165,13 @@ Thus $b$ is the left inverse of $x$.  So $x$ is the right inverse of $b$.  &mark
 
 * Tsiu-Kwen Lee, *A short proof of the Wedderburn-Artin theorem*,  Communications in Algebra **45** 7 (2017) &lbrack;[doi:10.1080/00927872.2016.1233242](https://doi.org/10.1080/00927872.2016.1233242)&rbrack;
 
+* [[John Baez]], *The Wedderburn–Artin Theorem*, n-Category Café, June 14, 2013 ([web](https://golem.ph.utexas.edu/category/2023/06/the_wedderburnartin_theorem.html))
+
 See also:
 
 * Wikipedia, _[Wedderburn--Artin theorem](https://en.wikipedia.org/wiki/Wedderburn%E2%80%93Artin_theorem)_
 
 [[!redirects Wedderburn's theorem]]
 [[!redirects Artin-Wedderburn theorem]]
+[[!redirects Wedderburn–Artin theorem]]
+[[!redirects Wedderburn–Artin Theorem]]
