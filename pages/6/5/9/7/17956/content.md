@@ -35,8 +35,13 @@ On the [[Green-Schwarz sigma-model]] for the [[M5-brane]]:
 
 * {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]] and [[Mario Tonin]], _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41 ([arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037))
 
+Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "democratic"/"[[pregeometric RR-field|pregeometric]]" [[RR-fields]] subject to [[self-dual higher gauge theory|self-duality]]:
 
-## Related $n$Lab entries
+* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
+
+
+
+## Related entries
 
 * [[heterotic supergravity]]
 
