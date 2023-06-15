@@ -854,6 +854,8 @@ It turns out that the [[shifted C-field flux quantization condition]] is natural
 ## References
  {#References}
 
+### General
+
 The C-field in [[D=11 supergravity]] originates as the $A_{\mu\nu\rho}$-field in 
 
 * {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. 76B (1978) 409 (<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>)
@@ -877,7 +879,7 @@ The [[shifted C-field flux quantization condition]] was originally proposed in
 
 Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] include the following:
 
-* {#DiaconescuFreedMoore03} E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https:
+* {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https:
 //doi.org/10.1017/CBO9780511721489))
 
 
@@ -924,6 +926,12 @@ and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] 
 * [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
 
 * [[Mauricio Romo]], _Aspects of ABJM orbifolds with discrete torsion_, J. High Energ. Phys. (2011) 2011 ([arXiv:1011.4733](https://arxiv.org/abs/1011.4733))
+
+
+
+### Duality-symmetric formulation
+
+[[!include self-duality for pregeometric C-field -- references]]
 
 
 [[!redirects C3-field]]
