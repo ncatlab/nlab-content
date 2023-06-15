@@ -188,7 +188,7 @@ then in terms of these components the Maxwell equations  read as follows:
 
 $d F = 0$ gives the magnetic Gauss law and Faraday's law
 
-$d \star F = 0$ gives Gauss's law and Amp&#232;re-Maxwell law
+$d \star F = j_{el}$ gives Gauss's law and Amp&#232;re-Maxwell law
 
 ## Related concepts
 
