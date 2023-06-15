@@ -10,7 +10,7 @@ I like the insights given by the philosophy of [[Ludwig Wittgenstein]] and think
 
 I wrote a paper on this:
 
-- Graded differential linear logic and graded differential categories which index the [[exponential modality]] of differential linear logic or differential categories by any [[rig]] including graded kinds of [[Seely isomorphism]] (with [[Jean-Simon Lemay]]).
+- Graded differential linear logic and graded differential categories which index the [[exponential modality]] of differential linear logic or differential categories by a [[rig]]. The project includes graded kinds of [[Seely isomorphism]]. (with [[Jean-Simon Lemay]])
 
 I’m writing a paper on:
 
@@ -18,7 +18,7 @@ I’m writing a paper on:
 
 I want to write papers on:
 
-- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]] (with [[Rick Blute]], Florian Schwarz, Geoff Vooys).
+- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]] (with [[Rick Blute]], Florian Schwarz and Geoff Vooys).
 - Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
 
 Another idea which seems to be unsuccessful (too beautiful to be real) was:
