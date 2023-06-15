@@ -276,17 +276,42 @@ Further discussion:
 
 
 
-[[!redirects premetric electromagnetic]]
+[[!redirects premetric electromagnetism]]
 
-[[!redirects pre-geometric electromagnetic]]
-[[!redirects pregeometric electromagnetic]]
+[[!redirects pre-geometric electromagnetism]]
+[[!redirects pregeometric electromagnetism]]
 
+[[!redirects pre-metric electrodynamism]]
+[[!redirects premetric electrodynamism]]
+
+[[!redirects pre-geometric electrodynamism]]
+[[!redirects pregeometric electrodynamism]]
+
+
+
+
+[[!redirects premetric electromagnetics]]
+[[!redirects premetric electromagnetics]]
+
+[[!redirects pre-geometric electromagnetics]]
+[[!redirects pregeometric electromagnetics]]
 
 [[!redirects pre-metric electrodynamics]]
 [[!redirects premetric electrodynamics]]
 
 [[!redirects pre-geometric electrodynamics]]
 [[!redirects pregeometric electrodynamics]]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
