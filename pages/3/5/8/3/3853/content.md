@@ -6,6 +6,10 @@ __Duiliu-Emanuel Diaconescu__ is a mathematical physicist ([[superstring theory]
 
 * SLAC spires [list of papers](http://www.slac.stanford.edu/spires/find/hep/www?rawcmd=ea+Diaconescu,+Duiliu+Emanuel)
 
-* related $n$lab entries D-[[brane]], [[wall crossing]], [[BPS state]], [[Donaldson-Thomas invariant]]
+## Related entries
+
+* [[Diaconescu-Moore-Witten anomaly]]
+
+* [[wall crossing]], [[BPS state]], [[Donaldson-Thomas invariant]]
 
 category: people
