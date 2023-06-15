@@ -243,6 +243,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 ## References
 
+### General
+
 The concept of differential forms (and their [[exterior algebra]]), at least on [[affine spaces]]/[[Euclidean spaces]] originates in
 
 * [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
@@ -259,9 +261,9 @@ Textbook accounts:
 * {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
 
 
-A basic introduction with an eye towards applications in [[physics]] is in section 2.1 of
+A basic introduction with an eye towards applications in [[physics]]:
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], section 2.1 of: *[[The Geometry of Physics - An Introduction]]* (1997)
 
 An introductory wiki-format textbook is
 
@@ -282,6 +284,12 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 *  [applications of pseudoforms](https://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
 *  [the general notion of form](https://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
 *  [absolute values of forms](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them (near the end of the post, a precursor to [[absolute differential forms]]).
+
+
+
+[[!include electromagnetism in terms of differential forms -- references]]
+
+
 
 
 [[!redirects differential form]]
