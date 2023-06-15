@@ -59,7 +59,7 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 ### General
 
-See the general references at _[[supergravity]]_.
+See also the general references at _[[supergravity]]_.
 
 * [[Joseph Polchinski]], chapter 12.1 of *[[String Theory]]* Vol 2: Superstring and beyond_, Cambridge Monographs on Mathematical Physics (1998)
 
@@ -73,6 +73,13 @@ Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d
 Duality-symmetric formulation:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
+
+Discussion of [[Lagrangian densities]] for [[type II supergravity]] making the nature of the [[pregeometric RR-fields]] and their [[self-dual higher gauge theory|self-duality]] manifest:
+
+* [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
+
+* [[Karapet Mkrtchyan]], [[Fridrich Valach]], *Democratic actions for type II supergravities*, Phys.Rev.D **107** 6 (2023) 066027 &lbrack;[arXiv:2207.00626](https://arxiv.org/abs/2207.00626), [doi:10.1103/PhysRevD.107.066027](https://doi.org/10.1103/PhysRevD.107.066027)&rbrack;
+
 
 
 ### Solutions and BPS states
