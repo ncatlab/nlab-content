@@ -52,7 +52,7 @@ and (p. 13)
 
 ## References
 
-* [[Sophocles J. Orfanidis]], *Electromagnetic Waves and Antennas* (1999-2016) &lbrack;[web](http://eceweb1.rutgers.edu/~orfanidi/ewa), [pdf](http://eceweb1.rutgers.edu/~orfanidi/ewa/ewa-1up.pdf)&rbrack;
+* {#Orfanidis99} [[Sophocles J. Orfanidis]], *Electromagnetic Waves and Antennas* (1999-2016) &lbrack;[web](http://eceweb1.rutgers.edu/~orfanidi/ewa), [pdf](http://eceweb1.rutgers.edu/~orfanidi/ewa/ewa-1up.pdf)&rbrack;
 
 See also:
 
