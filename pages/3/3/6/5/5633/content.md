@@ -40,6 +40,12 @@ On [[elliptic genera]] of [[Landau-Ginzburg models]]:
 * [[Matthew Ando]], [[Eric Sharpe]], _Elliptic genera of Landau-Ginzburg models over nontrivial spaces_, Adv. Theor. Math. Phys. 16 (2012) 1087-1144 ([arXiv:0905.1285](https://arxiv.org/abs/0905.1285))
 
 
+On [[quantum sheaf cohomology]]:
+
+* [[Ron Donagi]], [[Josh Guffin]], [[Sheldon Katz]], [[Eric Sharpe]], *A Mathematical Theory of Quantum Sheaf Cohomology*, Asian J. Math. **18** (2014) 387-418 &lbrack;[arXiv:1110.3751](https://arxiv.org/abs/1110.3751), [doi:10.4310/AJM.2014.v18.n3.a1](https://doi.org/10.4310/AJM.2014.v18.n3.a1)&rbrack;
+
+
+
 On [[duality in string theory]] in view of [[category theory]] and [[higher geometry]]:
 
 * {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
