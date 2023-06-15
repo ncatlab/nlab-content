@@ -20,12 +20,15 @@ Inspection of the [[equations of motion]] for [[classical field theory|classical
 
 1. a system of purely "topological", "cohomological" or "exterior" [[partial differential equations]]
 
-1. a linear "[[constitutive equation]]" imposing a "duality" relation on the fields,
+   on *twice* the number of physical fields,
+
+1. a linear "[[constitutive equation]]" imposing a "duality" relation on the fields 
+
+   reducing them to the physical degrees of freedom,
 
 where it is *only the second but not the first* part that involves the "[[background field|background]]" structure, namely the [[dielectric tensor]] characterizing the ambient [[dielectric medium]] and/or the [[pseudo-Riemannian metric]] characterizing the [[field (physics)|field]] of [[gravity]].
 
-This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b), and [Dantzig (1934)](#Dantzig34) (and apparently also [[Élie Cartan]] in *Sur les variétés à connexion affine...* (1925), but I haven't found the relevant passage yet) and more recently by [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account [Delphenich (202x)](#DelphenichBook)) who coined the term *pre-metric electromagnetism* for this formulation (the broad idea being that the second step above should be regarded as, indeed, secondary and subject to conceptual re-evaluation)
-and has attached high hopes with it [Delphenich (2015)](#Delphenich15).
+This fact itself is fairly evident (certainly in modern formulations of Maxwell's equations, see [below](#Details)), but some authors have highlighted it as possibly being of deeper relevance, starting with [Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b), [Cartan (1924) §80](#Cartan24), [Dantzig (1934)](#Dantzig34)  and more recently [Hehl & Obukhov (2003)](#HehlObukhov03), [Delphenich (2005a)](#Delphenich05a), [(2005b)](#Delphenich05a) (see the comprehensive account by [Delphenich (202x)](#DelphenichBook)), the broad idea being that the second step above should be regarded as, indeed, secondary and possibly subject to conceptual re-evaluation (e.g. [Delphenich (2015)](#Delphenich15)).
 
 We point out [below](#RRFieldInGravitationalBackground) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
@@ -200,14 +203,14 @@ $$
   \end{array}
 $$
 
-where now $G_4 \,\in\, \Omega^4(X)$ is a [[differential 4-form]]. If we regard these equations in "pre-metric" form as in the above discussion of the [[RR-fields]], by introducing an a priori independent 7-form $G_7 \,\in\, \Omega^7(X)$, then they read
+where now $G_4 \,\in\, \Omega^4(X)$ is a [[differential 4-form]]. If we regard these equations in "pre-metric" form as in the above discussion of the [[RR-fields]], by introducing an *a priori* independent 7-form $G_7 \,\in\, \Omega^7(X)$, then they read
 
 \[
   \label{PreMetricEOMsForCField}
   \begin{array}{rcl}
     \mathrm{d} G_4 &=& 0
     \\
-    \mathrm{d} G_7 &=& \tfrac{1}{2} G_4 \wedge G_4
+    \mathrm{d} G_7 &=& -\tfrac{1}{2} G_4 \wedge G_4
   \end{array}
   \;\;\;\;\;\;
   \text{and}
@@ -230,7 +233,7 @@ The idea (if not the terminology) of pre-metric electromagnetism is attributed t
 
 * {#Kottler22b} [[Friedrich Kottler]], *Maxwell'sche Gleichungen und Metrik*, Sitz. Akad. Wien IIa **131** (1922) 119-146 &lbrack;Engl. transl. by [[David H. Delphenich|Delphenich]]: [pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/kottler_-_maxwells_equation.pdf), [[Kottler-MaxwellEquationsAndMetric.pdf:file]]&rbrack;
 
-also:
+* {#Cartan24} [[Élie Cartan]], §80 in: *Sur les variétés à connexion affine, et la théorie de la relativité généralisée (première partie) (Suite)*, Annales scientifiques de l’É.N.S. 3e série, tome **41** (1924) 1-25 &lbrack;[numdam:ASENS_1924_3_41__1_0](http://www.numdam.org/item?id=ASENS_1924_3_41__1_0)&rbrack;
 
 * {#Dantzig34} [[David van Dantzig]], *The fundamental equations of electromagnetism, independent of metrical geometry*, Mathematical Proceedings of the Cambridge Philosophical Society **30** 4  (1934) 421-427 &lbrack;[doi:10.1017/S0305004100012664](https://doi.org/10.1017/S0305004100012664)&rbrack;
 
@@ -238,7 +241,7 @@ Early review:
 
 * [[Edmund T. Whittaker]]: pp. 192-196 of: *A History of the Theories of Aether and Electricity* -- Vol. 2: *The Modern Theories 1900-1926* (1953), reprinted by Humanities Press (1973) &lbrack;<a href="https://isidore.co/CalibreLibrary/Whittaker,%20Edmund%20Taylor/A%20History%20of%20the%20Theories%20of%20Aether%20and%20Electricity_%20The%20Modern%20Theories%201900-1926%20(4500)/A%20History%20of%20the%20Theories%20of%20Aether%20and%20El%20-%20Whittaker,%20Edmund%20Taylor.pdf">pdf</a>, <a href="https://en.wikipedia.org/wiki/A_History_of_the_Theories_of_Aether_and_Electricity">Wikipedia entry</a>&rbrack;
 
-  > "&lbrack;...&rbrack; This chapter has been concerned, for the most part, with General Relativity, which is essentially a geometrisation of physics. It may be closed with some accountof a movement in the opposite direction, seeking to abolish the priviledged position of geometry in physics, and indeed inquiring how far it may be possible to construct a physics independent of geometry. Since the notion of metric is a complicated one, which requires measurements with clocks and scales, generally with *rigid* bodies, which themselves are systems of great compelxity, it seems undesirable to take metric as fundamental, particularly for phenomena which are simpler and actually independent of it."
+  > "&lbrack;...&rbrack; This chapter has been concerned, for the most part, with General Relativity, which is essentially a geometrisation of physics. It may be closed with some account of a movement in the opposite direction, seeking to abolish the priviledged position of geometry in physics, and indeed inquiring how far it may be possible to construct a physics independent of geometry. Since the notion of metric is a complicated one, which requires measurements with clocks and scales, generally with *rigid* bodies, which themselves are systems of great complexity, it seems undesirable to take metric as fundamental, particularly for phenomena which are simpler and actually independent of it."
 
   > "The movement was initiated by Friedrich Kottler of Vienna, who in 1922 published two papers &lbrack;[Kottler (1922a)](#Kottler22a), [(1922b)](#Kottler22b)&rbrack;"
 
@@ -263,7 +266,7 @@ Monographs:
 
 * {#DelphenichBook} [[David H. Delphenich]], *Pre-Metric Electromagnetism* &lbrack;part I:[pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/intro-chap_vi.pdf), part II:[pdf](http://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/chapter_vii-xii.pdf), full:[[Delphenich-PreMetricElectromagnetism.pdf:file]]&rbrack;
 
-* [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[arXiv:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
+* {#HehlObukhov03} [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Foundations of Classical Electrodynamics -- Charge, Flux, and Metric*, Progress in Mathematical Physics **33**, Springer (2003) &lbrack;[arXiv:10.1007/978-1-4612-0051-2](https://doi.org/10.1007/978-1-4612-0051-2)&rbrack;
 
 
 Further discussion:
