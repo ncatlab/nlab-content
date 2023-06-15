@@ -26,6 +26,8 @@
 
 ## References
 
+### General
+
 See most references on [[electromagnetism]], e.g.
 
 * [[Lev Landau]], [[Evgeny Lifshitz]], Chapter II of: *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
@@ -52,9 +54,10 @@ and *constitutive map* in:
 
 * [[E. Jan Post]], *The constitutive map and some of its ramifications*, Annals of Physics **71** 2 (1972) 497-518 &lbrack;<a href="https://doi.org/10.1016/0003-4916(72)90129-7">doi:10.1016/0003-4916(72)90129-7</a>&rbrack;
 
-Exposition of the formulation of these matters in [[differential form]]-language:
 
-* Sébastien Fumeron, Bertrand Berche, Fernando Moraes, *Improving student understanding of electrodynamics: the case for differential forms*, American Journal of Physics **88**  (2020) 1083 &lbrack;[arXiv:2009.10356](https://arxiv.org/abs/2009.10356), [doi:10.1119/10.0001754](https://doi.org/10.1119/10.0001754)&rbrack;
+
+[[!include electromagnetism in terms of differential forms -- references]]
+
 
 
 [[!redirects dielectric media]]
