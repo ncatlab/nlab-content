@@ -20,7 +20,7 @@ if and only if
 $$g(n) = \sum_{d\mid n} f(d)\mu(n/d)$$
 where the sums run over the divisors of $n$, and where $\mu$ is the _M&#246;bius function_:
 $$
-\mu(n) = \begin{cases}(-1)^r & n\,\text{is the product of}\,r\,\text{distinct primes}\\0 & \text{otherwise}\end{cases}
+\mu(n) = \begin{cases}(-1)^r & n\,\text{&nbsp;is the product of&nbsp;}\,r\,\text{&nbsp;distinct primes}\\0 & \text{otherwise}\end{cases}
 $$
 [[Gian-Carlo Rota]] [(1964)](#Rota64) described a vast generalization of the M&#246;bius inversion formula, which was at the same time a generalization of the classical [[inclusion-exclusion]] principle in [[combinatorics]]. Rota's formulation of M&#246;bius inversion applies to functions defined over [[partially ordered sets]], while further category-theoretic generalizations have also been proposed.
 
