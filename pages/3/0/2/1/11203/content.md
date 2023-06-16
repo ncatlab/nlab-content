@@ -44,14 +44,19 @@
 
 ### General
 
-Review
+Comprehensive survey:
+
+* {#nthu} www.phys.nthu.edu.tw: *Superconductivity*, lecture slides &lbrack;I:[pdf](http://www.phys.nthu.edu.tw/~spin/course/105S/Chapter%2010%20-1.pdf), II:[pdf](http://www.phys.nthu.edu.tw/~spin/course/106S/Ch10-2.pdf), III:[pdf](http://www.phys.nthu.edu.tw/~spin/course/106S/Ch10-3.pdf), full:[[www.phys.nthu.edu.tw--Superconductivity.pdf:file]]&rbrack;
+
+Theoretical introduction and review:
 
 * [[Lev Landau]], [[Evgeny Lifshitz]], Section VI of: *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
 
 
 * {#Chapman00} S. J. Chapman, _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
 
-* {#Timm20} Carsten Timm, _Theory of Superconductivity_, 2020 ([pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en))
+* {#Timm20} Carsten Timm, *Theory of Superconductivity*, lecture notes (2020-2023) &lbrack;[pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en), [[Timm-Superconductivity.pdf:file]]&rbrack;
+
 
 See also:
 
@@ -62,7 +67,6 @@ See also:
 Textbook account in the context of [[quantum materials]] and [[topological insulators]]:
 
 * [[Tudor D. Stanescu]], Section II.5 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
-
 
 Introducing [[Landau-Ginzburg models]] in [[superconductivity]]:
 
@@ -81,10 +85,17 @@ Original articles:
 
 * {#Abrikosov57} [[Alexei Abrikosov]], _The magnetic properties of superconducting alloys_, Journal of Physics and Chemistry of Solids Volume 2, Issue 3, 1957, Pages 199-208 (<a href="https://doi.org/10.1016/0022-3697(57)90083-5">doi:10.1016/0022-3697(57)90083-5</a>)
 
+Further discussion:
+
+* A. M. Campbell, *Maxwell's Equations in Superconductors*,  IEEE Transactions on Applied Superconductivity **17** 2 (2007) &lbrack;[doi:10.1109/TASC.2007.900042](https://doi.org/10.1109/TASC.2007.900042)&rbrack;
+
+* {#BeekmanZaanen11} [[Aron J. Beekman]], [[Jan Zaanen]], *Electrodynamics of Abrikosov vortices: the field theoretical formulation*, Front. Phys. **6** (2011) 357–369 &lbrack;[doi:10.1007/s11467-011-0205-0](https://doi.org/10.1007/s11467-011-0205-0)&rbrack;
 
 Lecture notes:
 
 * {#Yu2012} Xiongjie Yu, *Vortices in Type-II Superconductors*, essay for *[Emergent States of Matter](https://guava.physics.uiuc.edu/~nigel/courses/569/Essays_Fall2012/)*, Urbana-Champaign (2012) &lbrack;[pdf](https://guava.physics.uiuc.edu/~nigel/courses/569/Essays_Fall2012/Files/yu.pdf), [[Yu-VorticesInSuperconductors.pdf:file]]&rbrack;
+
+* [Timm (2020), pp. 48](#Timm20)
 
 
 See also 
