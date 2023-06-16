@@ -16,6 +16,12 @@ On [[spinning particles]] and their [[worldline]] [[supersymmetry]]:
 
 * [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], *A Lagrangian formulation of the classical and quantum dynamics of spinning particles*, Nucl. Phys. B **118** (1977) 76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(77)90364-9">doi:10.1016/0550-3213(77)90364-9</a>&rbrack;
 
+
+Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
+
+* [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys.Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
+
+
 On the history of [[string theory]] as a theory of [[hadrons]] in [[QCD]]:
 
 
