@@ -1,4 +1,8 @@
 
+bold nabla test
+
+$\mathbf{\nabla}$
+
 #Contents#
 * table of contents
 {:toc}
