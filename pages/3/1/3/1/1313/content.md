@@ -31,7 +31,7 @@ An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian 
 
 More generally, in a category with [[finite products]], an exponential object $X^Y$ is a [[representing object]] for the functor $\hom(- \times Y, X)$. 
 
-It is also possible to define exponentiable objects in categories without finite products, using the [[Yoneda embedding]].
+Even more generally, an exponential object $X^Y$ is a representing object for the functor $Yo(X)^(Yo(Y))$ where $Yo$ is the [[Yoneda embedding]] and the exponentiation denotes the exponential in the category of presheaves, which can be explicitly constructed [[closed monoidal structure on presheaves|as described here]].
 
 ## Definition 
 
