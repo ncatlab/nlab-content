@@ -82,7 +82,7 @@ Historical reminiscences:
 
 ## Related entries
 
-* [[Polyakov gauge/string duality]]
+* [[Polyakov gauge-string duality]]
 
 * [[QCD]], [[confinement]]
 
