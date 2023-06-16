@@ -277,7 +277,7 @@ $$
    \;\colon\;
   \mathcal{A}
    \stackrel{Q}{\to}
-  K_\bullet(\mathcal{P}_{\mathcal{A}})
+  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
    \stackrel{\mathcal{K}_\bullet(F)}{\to}
   \mathcal{K}_\bullet(\mathcal{A}')
     \stackrel{H_n(-)}{\to}
