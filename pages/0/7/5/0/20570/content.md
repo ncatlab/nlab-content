@@ -59,6 +59,10 @@ Via [[twistors]]:
 
 * Wolfgang Wieland, _Twistor representation of Jackiw-Teitelboim gravity_ ([arXiv:2003.13887](https://arxiv.org/abs/2003.13887))
 
+On [[supergravity]]-versions of JT-gravity:
+
+* Gustavo J. Turiaci, [[Edward Witten]], *$\mathcal{N} = 2$ JT Supergravity and Matrix Models* &lbrack;[arXiv:2305.19438](https://arxiv.org/abs/2305.19438)&rbrack;
+
 
 
 
