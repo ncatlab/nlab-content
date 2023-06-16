@@ -374,7 +374,7 @@ Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press (2012)
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
 
 Survey:
 
