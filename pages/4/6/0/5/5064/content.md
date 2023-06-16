@@ -183,9 +183,9 @@ Thus, a $\beta$-$\gamma$ system can be interpreted as a chiral (or Kac-Moody) qu
 
 ### General
 
-* [[Nikita Nekrasov]], _Lectures on curved beta-gamma systems, pure spinors, and anomalies_, ([hep-th/0511008](http://arxiv.org/abs/hep-th/0511008))
+* [[Nikita Nekrasov]], _Lectures on curved beta-gamma systems, pure spinors, and anomalies_, ([hep-th/0511008](https://arxiv.org/abs/hep-th/0511008))
 
-* [[Anton Zeitlin]], _Beta-gamma systems and the deformations of the BRST operator_, ([arxiv/0904.2234](http://arxiv.org/abs/0904.2234))
+* [[Anton Zeitlin]], _Beta-gamma systems and the deformations of the BRST operator_, J.Phys. A42:355401 (2009) ([doi](https://doi.org/10.1088/1751-8113/42/35/355401) [arXiv/0904.2234](https://arxiv.org/abs/0904.2234))
 
 Discussion in the context of [[BV-quantization]] and [[factorization algebras]] is in chapter 6 of
 
