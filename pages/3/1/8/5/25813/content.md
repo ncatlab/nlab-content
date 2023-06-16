@@ -7,7 +7,9 @@ Discussion of [[Lagrangian densities]] for [[D=11 supergravity]] making the "dem
 
 * {#CremmerJuliaLuPope} [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], Section 2 of *Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities*, Nucl.Phys. B **535**(1998) 242-292 $[$[arXiv:hep-th/9806106](https://arxiv.org/abs/hep-th/9806106), <a href="https://doi.org/10.1016/S0550-3213(98)00552-5">doi:10.1016/S0550-3213(98)00552-5</a>$]$
 
+* {#BandosNurmagambetovSorokin04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], Section 2 of: *Various Faces of Type IIA Supergravity*, Nucl. Phys. B **676** (2004) 189-228 $[$[arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153), [doi:10.1016/j.nuclphysb.2003.10.036](https://doi.org/10.1016/j.nuclphysb.2003.10.036)$]$
+
+
 * [[Alexei J. Nurmagambetov]], *The Sigma-Model Representation for the Duality-Symmetric $D=11$ Supergravity*, eConf C0306234 (2003) 894-901 $[$[arXiv:hep-th/0312157](https://arxiv.org/abs/hep-th/0312157), [inspire:635585](https://inspirehep.net/literature/635585)$]$
 
-* {#BandosNurmagambetovSorokin04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], Section 2 of: *Various Faces of Type IIA Supergravity*, Nucl. Phys. B **676** (2004) 189-228 $[$[arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153), [doi:10.1016/j.nuclphysb.2003.10.036](https://doi.org/10.1016/j.nuclphysb.2003.10.036)$]$
 
