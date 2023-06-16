@@ -20,7 +20,7 @@
 
 If $A = (a_{i j})$ is a [[matrix]], then its _transpose_ $A^T$ is the matrix $A^T \coloneqq (a_{j i})$.
 
-A square matrix which is its onw transpose, $A =A^T$, is called a [[symmetric matrix]].
+A square matrix which is its own transpose, $A =A^T$, is called a [[symmetric matrix]].
 
 ## Related concepts
 
