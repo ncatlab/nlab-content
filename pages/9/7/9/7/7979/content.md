@@ -194,15 +194,68 @@ $d F = 0$ gives the magnetic Gauss law and Faraday's law
 
 $d \star F = j_{el}$ gives Gauss's law and Amp&#232;re-Maxwell law
 
-## As one equation
+## In terms of the Faraday bivector $F$
 
-In the [[geometric algebra]] formalism of electromagnetism, one could express Maxwell's equations as only one equation (assuming [[natural units]]):
+In the [[geometric algebra]] formalism of electromagnetism, one works in the 4-dimensional [[Clifford algebra]] $\mathrm{Cl}^{1, 3}(\mathbb{R})$ representing [[spacetime]], where the orthonormal basis vectors $\{\gamma_i\}$ have signature $(+, -, -, -)$ with $\gamma_0$ representing the time dimension and the other three basis vectors representing the spacial dimensions. The pseudoscalar of $\mathrm{Cl}^{1, 3}(\mathbb{R})$ is represented by the product of all the basis vectors 
+$$I = \prod_{i} \gamma_i = \gamma_0 \gamma_1 \gamma_2 \gamma_3$$ 
+The basis [[bivectors]] of $\mathrm{Cl}^{1, 3}(\mathbb{R})$ come in two sets, the *timelike bivectors* $\sigma_1 = \gamma_1 \gamma_0$, $\sigma_2 = \gamma_2 \gamma_0$, $\sigma_3 = \gamma_3 \gamma_0$, and the *spacelike bivectors* $I \sigma_1 = -\gamma_2 \gamma_3$, $I \sigma_2 = \gamma_1 \gamma_3$, $I \sigma_3 = \gamma_1 \gamma_2$. The bivector subalgebra of $\mathrm{Cl}^{1, 3}(\mathbb{R})$ is equivalent to the three-dimensional [[Clifford algebra]] $\mathrm{Cl}^{3, 0}(\mathbb{R})$ corresponding to the relative space in the rest frame defined by $\gamma_0$, where the basis timelike bivectors correspond to the basis relative vectors and the basis spacelike bivectors correspond to the basis relative bivectors of the rest frame. 
+
+Let $x$ be a vector in $\mathrm{Cl}^{1, 3}(\mathbb{R})$. Then we define the coordinates of $x$ relative to the basis $\{\gamma_i\}$ to be $x^i = \gamma_i \cdot x$. $x^0$ is also denoted as $t$ since it represents the time coordinate. The spacetime vector derivative is defined as the operator
+
+$$\nabla = \gamma_0 \frac{\partial}{\partial t} + \gamma_1 \frac{\partial}{\partial x^1} + \gamma_2 \frac{\partial}{\partial x^2} + \gamma_3 \frac{\partial}{\partial x^3}$$
+
+The relative vector derivative is defined as the operator
+
+$$\mathbf{\nabla} = \sigma_1 \frac{\partial}{\partial x^1} + \sigma_2 \frac{\partial}{\partial x^2} + \sigma_3 \frac{\partial}{\partial x^3}$$
+
+Assuming the use of [[natural units]] where $c = \epsilon_0 = 1$ and ignoring the polarization and magnatization fields for the time being, Maxwell's equations are written as:
+
+* electric Gauss's law:
+$$\mathbf{\nabla} \cdot E = \rho$$
+
+* Faraday's law: 
+$$\mathbf{\nabla} \wedge E = -\frac{\partial}{\partial t}\left(I B\right)$$
+
+* magnetic Gauss's law:
+$$\mathbf{\nabla} \cdot B = 0$$
+
+* generalized Amp&#232;re's law:
+$$\mathbf{\nabla} \wedge B = I\left(\mathbf{J} + \frac{\partial}{\partial t}\left(E\right)\right)$$
+
+where $E$ and $B$ are the relative electric and magnetic relative fields, $\rho$ is the density of the charge, and $\mathbf{J}$ is the relative current of the charge. 
+
+Let us define the *Faraday bivector* as $F = E + I B$. By multiplying the last two equations by the pseudoscalar, one gets 
+$$\mathbf{\nabla} \cdot (I B) = 0$$
+$$\mathbf{\nabla} \wedge (I B) = -\mathbf{J} - \frac{\partial}{\partial t}\left(E\right)$$
+
+and by adding the four equations together, one gets the equation 
+$$\mathbf{\nabla} \cdot (E + I B) + \mathbf{\nabla} \wedge (E + I B) = \rho -\mathbf{J} -\frac{\partial}{\partial t}\left(E + I B\right)$$
+
+which then becomes 
+
+$$\mathbf{\nabla} \cdot F + \mathbf{\nabla} \wedge F + \frac{\partial}{\partial t}\left(F\right) = \rho - \mathbf{J}$$
+
+Given a timelike bivector $v$ and a general bivector $M$ in $\mathrm{Cl}^{1, 3}(\mathbb{R})$, $v M = v \cdot M + v \wedge M$. Thus, the above equation could be simplified even further to 
+
+$$\mathbf{\nabla} F + \frac{\partial}{\partial t}\left(F\right) = \rho - \mathbf{J}$$
+
+or 
+
+$$\left(\mathbf{\nabla} + \frac{\partial}{\partial t}\right)\left(F\right) = \rho - \mathbf{J}$$
+
+Now, we define the spacetime current by $J = \gamma_0 (\rho - \mathbf{J})$; this is a vector in spacetime. The spacetime vector derivative is related to the relative vector derivative by the following equation:
+
+$$\nabla = \gamma_0 (\mathbf{\nabla} + \frac{\partial}{\partial t})$$
+
+Thus, by left multiplying each side by $\gamma_0$, one gets 
+
+$$\gamma_0 \left(\mathbf{\nabla} + \frac{\partial}{\partial t}\right)\left(F\right) = \gamma_0 (\rho - \mathbf{J})$$
+
+or
 
 $$\nabla F = J$$
 
-where $\nabla$ is the spacetime vector derivative, $F$ is the Faraday [[bivector]], and $J$ is the spacetime current.
-
-(Todo: explain in this section how this one equation is derived from the traditional 4 equations in the geometric algebra formalism. For the time being I'll direct the reader to [Doran Lasenby 03](#DoranLasenby03) or [Arthur 11](#Arthur11) for the derivation of the equation). 
+where $\nabla$ is the spacetime vector derivative, $F$ is the Faraday bivector, and $J$ is the spacetime current. 
 
 ## Related concepts
 
