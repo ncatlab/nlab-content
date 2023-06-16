@@ -55,7 +55,7 @@ Theoretical introduction and review:
 
 * {#Chapman00} S. J. Chapman, _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
 
-* {#Timm20} Carsten Timm, *Theory of Superconductivity*, lecture notes (2020-2023) &lbrack;[pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en), [[Timm-Superconductivity.pdf:file]]&rbrack;
+* {#Timm20} [[Carsten Timm]], *Theory of Superconductivity*, lecture notes (2020-2023) &lbrack;[pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en), [[Timm-Superconductivity.pdf:file]]&rbrack;
 
 
 See also:
