@@ -635,6 +635,9 @@ These computations shown so far all use just the field theory in the bulk, not y
 * {#KimYi11} Youngman Kim, Deokhyun Yi, _Holography at Work for Nuclear and Hadron Physics_, Advances in High Energy Physics, Volume 2011, Article ID 259025, 62 pages ([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
 
 
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], Chapter VIII of: _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
+
+
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
 
 * Jorge Casalderrey-Solana, Hong Liu, [[David Mateos]], Krishna Rajagopal, Urs Achim Wiedemann, _Gauge/string duality, hot QCD and heavy ion collisions_,  Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
