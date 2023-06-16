@@ -262,17 +262,19 @@ Review and introduction:
 
 * [[Gerd Rudolph]], [[Matthias Schmidt]], Section 7.7 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
-
 * Ben Gripaios, _Lectures: From quantum mechanics to the Standard Model_ ([arXiv:2005.06355](https://arxiv.org/abs/2005.06355))
 
-
-Review specifically with an eye towards [[grand unified theory]] is in
+Review with an eye towards [[grand unified theory]]:
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull. Am. Math. Soc. 47:483-552, 2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
-and specificlly with an eye towards [[intersecting D-brane models]] in
+and with an eye towards [[intersecting D-brane models]]L
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
+
+and with emphasis of the [[effective field theories]] involved ([[chiral perturbation theory]], [Fermi's theory](effective+quantum+field+theory#FermiTheoryOfWeakInteractions)):
+
+* [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach* &lbrack;[arXiv:2306.08097](https://arxiv.org/abs/2306.08097)&rbrack;
 
 On [[subgroups]] of Clifford algebras reminiscent of [[gauge groups]] of relevance in the [[standard model of particle physics]] and [[grand unified theories]] thereof:
 
