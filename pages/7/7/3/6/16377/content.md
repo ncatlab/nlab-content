@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -34,19 +33,20 @@ In fact, according to the [[brane scan]], a [[super p-brane|super 2-brane]] [[si
 
 * &#180;[[membrane instanton]]
 
+
 ## References
 
 ### Pre-history
 
 Early speculations trying to unify the [[electron]] and the [[muon]] as two excitations of a single relativistic membrane:
 
-* {#Dirac62} [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy. Soc. A268, (1962) 57-67 ([jstor:2414316](https://www.jstor.org/stable/2414316))
+* {#Dirac62} [[Paul Dirac]], *An Extensible Model of the Electron*, Proc. Roy. Soc. A **268** (1962) 57-67 &lbrack;[jstor:2414316](https://www.jstor.org/stable/2414316)&rbrack;
 
-  (also proposing the [[Dirac-Born-Infeld action]])
+  > (also proposing the [[Dirac-Born-Infeld action]])
 
-* [[Paul Dirac]], _The motion of an Extended Particle in the Gravitational Field_, in Relativistic Theories of Gravitation, Proceedings of a Conference held in Warsaw and Jablonna, July 1962, ed. L. Infeld, P. W. N. Publishers, 1964, Warsaw, 163-171; discussion 171-175 ([spire:1623740](http://inspirehep.net/record/1623740))
+* [[Paul Dirac]], _The motion of an Extended Particle in the Gravitational Field_, in: [[Leopold Infeld|L. Infeld]] (ed.), *Relativistic Theories of Gravitation*, Proceedings of a Conference held in Warsaw and Jablonna, July 1962, P. W. N. Publishers, 1964, Warsaw, 163-171; discussion 171-175 &lbrack;[spire:1623740](http://inspirehep.net/record/1623740), article:[[Dirac-MotionOfAnExtendedParticle.pdf:file]], full proceedings:[pdf](https://cds.cern.ch/record/2282975/files/warsaw-1962.pdf)&rbrack;
 
-* [[Paul Dirac]], _Particles of Finite Size in the Gravitational Field_, Proc. Roy. Soc. A270, (1962) 354-356 ([doi:10.1098/rspa.1962.0228](https://doi.org/10.1098/rspa.1962.0228))
+* [[Paul Dirac]], _Particles of Finite Size in the Gravitational Field_, Proc. Roy. Soc. A **270** (1962) 354-356 &lbrack;[doi:10.1098/rspa.1962.0228](https://doi.org/10.1098/rspa.1962.0228)&rbrack;
 
 
 
