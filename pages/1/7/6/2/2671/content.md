@@ -116,6 +116,10 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 ### General
 
+Historical texts:
+
+* {#Infeld1962} [[Leopold Infeld]] (ed.), *Relativistic Theories of Gravitation*, Proceedings of a conference held in Warsaw and Jablonna 1962, Pergamon Press (1964) &lbrack;[pdf](https://cds.cern.ch/record/2282975/files/warsaw-1962.pdf)&rbrack;
+
 Textbooks include
 
 * [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
