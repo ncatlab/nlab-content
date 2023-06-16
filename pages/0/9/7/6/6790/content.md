@@ -22,6 +22,10 @@ On [[duality in physics]] and specifically [[duality in string theory]]:
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, Section IV.B of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
+On ([[effective field theory]]) [[quantum field theory]] and the [[standard model of particle physics]]:
+
+* [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach* &lbrack;[arXiv:2306.08097](https://arxiv.org/abs/2306.08097)&rbrack;
+
 
 
 
