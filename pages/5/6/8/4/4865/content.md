@@ -230,7 +230,8 @@ and around (4.2) of [Tsimpis 04](#Tsimpis04)
  
 More recent textbook accounts include
 
-* [[Antoine Van Proeyen]], [[Daniel Freedman]], section 10 of: _Supergravity_, Cambridge University Press, 2012 ([pdf](http://www.nucleares.unam.mx/~alberto/apuntes/freedman.pdf), [doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833))
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], Section 10 of: *Supergravity*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
+
 
 Discussion of the equivalence of the 11d SuGra [[equations of motion]] with the [[supergravity torsion constraints]] is in 
 
