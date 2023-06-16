@@ -31,7 +31,7 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL106](http://www.math.muni.cz/~bourkej/PSSL106.html) (2022, Brno)
 
-* PSSL107 (2023, Athens)
+* [PSSL107](https://sites.google.com/view/pssl-107-athens?pli=1/) (2023, Athens) [schedule and abstracts](https://sites.google.com/view/pssl-107-athens/schedule) 
 
 * [PSSL108](https://sites.google.com/view/beppemetere/pssl-108) (2023, Terrasini)
 
