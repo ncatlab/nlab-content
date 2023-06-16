@@ -182,10 +182,19 @@ Discussion in terms of [[skein relations]]:
 * Anup Poudel, [[Sachin J. Valera]], *Skein-Theoretic Methods for Unitary Fusion Categories* &lbrack;[arXiv:2008.07129](https://arxiv.org/abs/2008.07129)&rbrack;
 
 
-
-For some discussion see
+See also:
 
 * Math Overflow, _[Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting)_ .
+
+
+On a notion of fusion [[2-categories]]:
+
+* [[Christopher L. Douglas]], [[David J. Reutter]], *Fusion 2-categories and a state-sum invariant for 4-manifolds* &lbrack;[arXiv:1812.11933](https://arxiv.org/abs/1812.11933)&rbrack;
+
+* Thibault D. Décoppet, Matthew Yu, *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
+
+
+
 
 
 
@@ -203,4 +212,6 @@ For some discussion see
 
 [[!redirects fusion]]
 
+[[!redirects fusion 2-category]]
+[[!redirects fusion 2-categories]]
 
