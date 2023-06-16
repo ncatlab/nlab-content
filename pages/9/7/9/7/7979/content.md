@@ -295,4 +295,6 @@ For the [[geometric algebra]] formalism of Maxwell's equation(s) in [[classical 
 [[!redirects Maxwell equations]]
 [[!redirects Maxwell's equations]]
 
+[[!redirects permittivity of the vacuum]]
+
 
