@@ -169,6 +169,7 @@ $$
 ## Related concepts
 
 * [[comoving time]]
+* [[natural units]]
 
 ## References
 
