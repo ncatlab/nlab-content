@@ -13,13 +13,43 @@
 
 ## Idea
 
-In [[physics]], natural units are [[physical units]] of measurements in which only universal physical constants like $c$, $G$, $\hbar$, $\epsilon_0$, etc are used as defining constants, by setting some of them equal to 1. 
+In [[physics]], by *natural units* one means [[physical units]] of [[measurements]] formed from combinations of fundamental physical constants, such as
 
-Examples of natural units used in physics include Planck units, Stoney units, Hartree units, particle physics natural units, QCD units, and Schrödinger units. 
+* $c$ -- the [[speed of light]] 
+
+* $G$ -- [[gravitational constant]], 
+
+* $\hbar$ -- [[Planck's constant]], 
+
+* $\epsilon_0$ -- [[permittivity of the vacuum]], 
+
+etc. 
+
+## Examples
+
+Examples of natural units used in physics include 
+
+* Planck units ([[Planck mass]], [[Planck length]], ...) 
+
+* Stoney units, 
+
+* Hartree units, 
+
+* particle physics natural units, 
+
+* QCD units, 
+
+* Schrödinger units. 
 
 ## Related concepts
 
 * [[physical unit]]
+
+
+[[!include fundamental scales -- contents]]
+
+
+
 
 ## References
 
