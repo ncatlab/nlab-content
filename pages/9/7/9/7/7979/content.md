@@ -194,6 +194,16 @@ $d F = 0$ gives the magnetic Gauss law and Faraday's law
 
 $d \star F = j_{el}$ gives Gauss's law and Amp&#232;re-Maxwell law
 
+## As one equation
+
+In the [[geometric algebra]] formalism of electromagnetism, one could express Maxwell's equations as only one equation (assuming [[natural units]]):
+
+$$\nabla F = J$$
+
+where $\nabla$ is the spacetime vector derivative, $F$ is the Faraday [[bivector]], and $J$ is the spacetime current.
+
+(Todo: explain in this section how this one equation is derived from the traditional 4 equations in the geometric algebra formalism. For the time being I'll direct the reader to [Doran Lasenby 03](#DoranLasenby03) or [Arthur 11](#Arthur11) for the derivation of the equation). 
+
 ## Related concepts
 
 * [[Hodge-Maxwell theorem]]
@@ -216,11 +226,15 @@ Some history and reflection is in
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
+### Maxwell's equations via the geometric algebra formalism
 
+For the [[geometric algebra]] formalism of Maxwell's equation(s) in [[classical electrodynamics]], see: 
+
+* {#DoranLasenby03} [[Chris Doran]], [[Anthony Lasenby]], _Geometric algebra for physicists_, Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
+
+* {#Arthur11} [[John W. Arthur]], *Understanding Geometric Algebra for Electromagnetic Theory*, John Wiley & Sons Inc. (2011). (ISBN:978-0470941638, [doi:10.1002/9781118078549](https://doi.org/10.1002/9781118078549))
 
 [[!include electromagnetism in terms of differential forms -- references]]
-
-
 
 [[!redirects Maxwell equation]]
 [[!redirects Maxwell's equation]]
