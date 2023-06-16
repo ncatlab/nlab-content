@@ -51,7 +51,7 @@ In [[constructive mathematics]], such as in [[intuitionistic type theory]], the 
 
   [van den Berg & Moerdijk (2018)](#vdBergMoerdijk18)
 
-Here the definition of setoids in terms of [[equivalence relations]] may be closer to the original intention of [Bishop (1967)](#Bishop67) (though this remains a little vague), while the definition in terms of [[pseudo-equivalence relation]] may feel more natural in [[type theory]] (under [[propositions-as-types]]) and has the pleasant property that it makes the [[category]] of setoids be the [[exact completion]] of [[Set]].
+Here the definition of setoids in terms of [[equivalence relations]] may be closer to the original intention of [Bishop (1967)](#Bishop67) (though this remains a little vague). The definition in terms of [[pseudo-equivalence relations]] may feel more natural in [[type theory]] under the [[propositions-as-types]] interpretation and has the pleasant property that it makes the [[category]] of setoids be the [[ex/lex completion]] of [[Set]], and the definition in terms of [[equivalence relations]] may feel more natural in [[type theory]] under the [[propositions as some types]] interpretation and has the pleasant property that it makes the [[category]] of setoids be the [[ex/reg completion]] of [[Set]]. 
 
 In the same way that [[magmoids]] are the raw structure used to build [[semicategories]] and [[pseudo-prosets]] are the raw structure used to build [[categories]], setoids are the raw structure used to build [[dagger categories]] and [[groupoids]] (i.e. a groupoid without associativity, unital laws, and inverse laws). Setoids are also sometimes used in "impoverished" [[foundations of mathematics]] that lack a primitive notion of [[quotient set]]; see for instance *[[Bishop set]]*.
 
