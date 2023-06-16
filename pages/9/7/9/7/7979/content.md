@@ -108,15 +108,16 @@ In [[vacuum]] and in the absence of [[background field|background]] [[gravity]],
 
   called the "*permeability of the vacuum*". 
 
-But for [[electromagnetic fields]] inside [[dielectric media]] other [[constitutive relations]] appear. For small field strengths these are typically [[linear functions]] $C$
+But for [[electromagnetic fields]] inside [[dielectric media]] other [[constitutive relations]] appear. For small field strengths these are typically [[linear functions]] $C$ (e.g. [de Lange & Raab 2006 (19)](#deLangeRaab06))
 
 $$
   (\vec D, \vec H) 
     \;\overset{!}{=}\; 
-  C\big((\vec D, \vec H)\big)
+  C\big((\vec E, \vec B)\big)
   \,,
 $$
-but in general the [[relation]] can be a non-linear or even a "[[multi-valued function]]" (namely when there are hysteresis effects in the [[dielectric medium]]).
+
+but in general the constitutive [[relation]] can be a non-linear or even be a "[[multi-valued function]]" (namely when there are hysteresis effects in the [[dielectric medium]]).
 
 Similarly (interestingly), in the presence of [[background field|background]] [[gravity]] (such as for [[electromagnetic fields]] in and around a star) there is a linear such relation depending on the [[pseudo-Riemannian metric]]. This is most transparently expressed in terms of the [[Hodge star operator]] acting on the electromagnetic fields re-packaged as a [[Faraday tensor]] [[differential 2-form]] (see [below](#InTermsOfFaradayTensor)).
 
@@ -279,15 +280,27 @@ Some history and reflection is in
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
-### Maxwell's equations via the geometric algebra formalism
+For Maxwell's equations in the generality of [[dielectric media]], see the references there, such as 
 
-For the [[geometric algebra]] formalism of Maxwell's equation(s) in [[classical electrodynamics]], see: 
+* G. Russakoff, *A Derivation of the Macroscopic Maxwell Equations*, American Journal of Physics **38** (1970) 1188–1195 &lbrack;[doi:10.1119/1.1976000](https://doi.org/10.1119/1.1976000)&rbrack;
+
+* {#deLangeRaab06} O. L. de Lange, R. E. Raab *Surprises in the multipole description of macroscopic electrodynamics*, American Journal of Physics **74** (2006) 301–312 &lbrack;[doi:10.1119/1.2151213](https://doi.org/10.1119/1.2151213)&rbrack;
+
+
+
+[[!include electromagnetism in terms of differential forms -- references]]
+
+
+
+
+### Via "geometric algebra: (Clifford algebra)
+
+Formulation of Maxwell's equations via "[[geometric algebra]]":
 
 * {#DoranLasenby03} [[Chris Doran]], [[Anthony Lasenby]], _Geometric algebra for physicists_, Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
 
 * {#Arthur11} [[John W. Arthur]], *Understanding Geometric Algebra for Electromagnetic Theory*, John Wiley & Sons Inc. (2011). (ISBN:978-0470941638, [doi:10.1002/9781118078549](https://doi.org/10.1002/9781118078549))
 
-[[!include electromagnetism in terms of differential forms -- references]]
 
 [[!redirects Maxwell equation]]
 [[!redirects Maxwell's equation]]
