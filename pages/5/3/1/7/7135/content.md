@@ -32,6 +32,12 @@ On the [[3-brane in 6d]]:
 
 * [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
 
+On [[black holes]] in [[D=5 supergravity]]:
+
+* {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], [[Robert C. Myers]], [[Paul Townsend]], *Black Holes of $D=5$ Supergravity*, Class.Quant.Grav. **16** (1999) 1-21 &lbrack;[arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204), [doi:10.1088/0264-9381/16/1/001](https://doi.org/10.1088/0264-9381/16/1/001)&rbrack;
+
+
+
 On [[D-brane polarization]] into [[supertubes]]:
 
 * [[David Mateos]], [[Paul Townsend]], _Supertubes_, Phys. Rev. Lett. 87 (2001) 011602 ([arXiv:hep-th/0103030](https://arxiv.org/abs/hep-th/0103030))
