@@ -187,11 +187,11 @@ $$
 
 Construction of 5d [[gauged supergravity]] via [[D'Auria-Fré formulation of supergravity]] is in 
 
-* {#ACFG01} Laura Andrianopoli, Francesco Cordaro, [[Pietro Fré]], Leonardo Gualtieri, _Non-Semisimple Gaugings of D=5 N=8 Supergravity and FDA.s_, Class.Quant.Grav. 18 (2001) 395-414 ([arXiv:hep-th/0009048](http://arxiv.org/abs/hep-th/0009048))
+* {#ACFG01} [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], Leonardo Gualtieri, _Non-Semisimple Gaugings of D=5 N=8 Supergravity and FDA.s_, Class. Quant. Grav. 18 (2001) 395-414 &lbrack;[arXiv:hep-th/0009048](http://arxiv.org/abs/hep-th/0009048)&rbrack;
 
 surveyed in
 
-* Laura Andrianopoli, Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of D=5 N=8 Supergravity_, Fortsch.Phys.49:511-518,2001 ([arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203))
+* [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of D=5 N=8 Supergravity_, Fortsch.Phys.49:511-518,2001 ([arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203))
 
 ### General
 
@@ -203,9 +203,10 @@ General discussion includes
 
 * [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
 
-* {#GGHPR02} [[Jerome Gauntlett]], [[Jan Gutowski]], [[Christopher Hull]], Stathis Pakis, [[Harvey Reall]], _All supersymmetric solutions of minimal supergravity in five dimensions_, Class.Quant.Grav. 20 (2003) 4587-4634 ([arXiv:hep-th/0209114](http://arxiv.org/abs/hep-th/0209114))
+* {#GGHPR02} [[Jerome Gauntlett]], [[Jan Gutowski]], [[Christopher Hull]], Stathis Pakis, [[Harvey Reall]], _All supersymmetric solutions of minimal supergravity in five dimensions_, Class. Quant. Grav. 20 (2003) 4587-4634 &lbrack;[arXiv:hep-th/0209114](http://arxiv.org/abs/hep-th/0209114), [doi:10.1088/0264-9381/20/21/005](https://doi.org/10.1088/0264-9381/20/21/005)&rbrack;
 
-* Sorin Cucu, _From M-theory to D=5 supergravity and duality-symmetric theories_ ([arXiv:hep-th/0310105](http://arxiv.org/abs/hep-th/0310105))
+
+* Sorin Cucu, _From M-theory to $D=5$ supergravity and duality-symmetric theories_ ([arXiv:hep-th/0310105](http://arxiv.org/abs/hep-th/0310105))
 
 * [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
 
@@ -276,7 +277,7 @@ Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the ver
 
 Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and embedding as [[black holes in string theory]] includes
 
-* {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], R.C. Myers, [[Paul Townsend]], _Black Holes of D=5 Supergravity_, Class.Quant.Grav.16:1-21,1999 ([arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204))
+* {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], [[Robert C. Myers]], [[Paul Townsend]], *Black Holes of $D=5$ Supergravity*, Class.Quant.Grav. **16** (1999) 1-21 &lbrack;[arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204), [doi:10.1088/0264-9381/16/1/001](https://doi.org/10.1088/0264-9381/16/1/001)&rbrack;
 
 * {#ElvangEmparanMateosReall04} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _A supersymmetric black ring_, Phys. Rev. Lett. 93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
 
