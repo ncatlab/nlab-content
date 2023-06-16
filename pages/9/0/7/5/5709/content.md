@@ -1284,6 +1284,7 @@ Based on this, one argues to obtains an effective approximation to a given more 
 
 
 ### Fermi theory of weak interactions
+ {#FermiTheoryOfWeakInteractions}
 
 * [[Fermi theory of beta decay]]
 
