@@ -1,5 +1,5 @@
 
-**fundamental [[scales]]** (fundamental [[physical units]])
+**fundamental [[scales]]** (fundamental/[[natural unit|natural]] [[physical units]])
 
 * [[speed of light]] $\,$ $c$
 
@@ -32,4 +32,3 @@
   * [[string length scale]] $\,$ $\ell_s = \sqrt{\alpha'}$
 
   * [[string coupling constant]] $\,$ $g_s = e^\lambda$ 
-
