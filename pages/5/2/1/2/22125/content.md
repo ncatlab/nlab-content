@@ -7,10 +7,14 @@
 
 ## Selected writings
 
+On [[Abrikosov vortices]] in [[superconductors]]:
+
+* {#BeekmanZaanen11} [[Aron J. Beekman]], [[Jan Zaanen]], *Electrodynamics of Abrikosov vortices: the field theoretical formulation*, Front. Phys. **6** (2011) 357–369 &lbrack;[doi:10.1007/s11467-011-0205-0](https://doi.org/10.1007/s11467-011-0205-0)&rbrack;
+
+
 On [[topological crystalline insulators]]:
 
-* Robert-Jan Slager, Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
-
+* [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) &lbrack;[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)&rbrack;
 
 On [[AdS-CFT in condensed matter physics]]:
 
