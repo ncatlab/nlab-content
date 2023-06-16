@@ -15,6 +15,12 @@ Introducing [[4d supergravity]]:
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
 
+
+Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
+
+* {#CremmerFerrara80} [[Eugene Cremmer]], [[Sergio Ferrara]], *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys.Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
+
+
 On [[D=6 supergravity]]:
 
 * [[Sergio Ferrara]], [[Fabio Riccioni]], [[Augusto Sagnotti]], _Tensor and Vector Multiplets in Six-Dimensional Supergravity_, Nucl. Phys. B519 (1998) 115-140 ([arXiv:hep-th/9711059](https://arxiv.org/abs/hep-th/9711059))
@@ -23,7 +29,7 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 * [[Laura Andrianopoli]], [[Sergio Ferrara]], _On short and long $SU(2,2/4)$ multiplets in the AdS/CFT correspondence_, Lett. Math.Phys. 48 (1999) 145-161 ([arXiv:hep-th/9812067](https://arxiv.org/abs/hep-th/9812067))
 
-## related $n$Lab entries
+## Related entries
 
 * [[supergravity]]
 
