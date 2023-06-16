@@ -196,15 +196,15 @@ That there is a maximal dimension $d = 11$ in which supergravity may exist was f
 
 * {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
 
-The theory was then actually constructed in
+The theory was then actually constructed (as a [[Lagrangian field theory]]) in
 
-* {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. 76B (1978) 409 (<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>)
+* {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. B **76** (1978) 409 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>&rbrack;
 
-Formulation in terms of [[supergeometry]] ("superspace formulation") is in 
+Formulation in terms of [[supergeometry]] ("[[superspace]]") is in 
 
-* {#Cremmerferrara80} [[Eugene Cremmer]], S. Ferrara, _Formulation of Eleven-Dimensional Supergravity in Superspace_, Phys.Lett. B91 (1980) 61
+* {#CremmerFerrara80} [[Eugene Cremmer]], [[Sergio Ferrara]], *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys.Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
 
-* [[Lars Brink]], [[Paul Howe]], _Eleven-Dimensional Supergravity on the Mass-Shell in Superspace_, Phys.Lett. B91 (1980) 384
+* [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys.Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
 
 The history as of 1990s with an eye towards the development to [[M-theory]] is survey in 
 
