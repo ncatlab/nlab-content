@@ -219,12 +219,12 @@ $$\mathbf{\nabla} \wedge E = -\frac{\partial}{\partial t}\left(I B\right)$$
 * magnetic Gauss's law:
 $$\mathbf{\nabla} \cdot B = 0$$
 
-* generalized Amp&#232;re's law:
+* Ampère-Maxwell law:
 $$\mathbf{\nabla} \wedge B = I\left(\mathbf{J} + \frac{\partial}{\partial t}\left(E\right)\right)$$
 
 where $E$ and $B$ are the relative electric and magnetic relative fields, $\rho$ is the density of the charge, and $\mathbf{J}$ is the relative current of the charge. 
 
-Let us define the *Faraday bivector* as $F = E + I B$. By multiplying the last two equations by the pseudoscalar, one gets 
+The *Faraday bivector* is the bivector $F = E + I B$. By multiplying the last two equations by the pseudoscalar, one gets 
 $$\mathbf{\nabla} \cdot (I B) = 0$$
 $$\mathbf{\nabla} \wedge (I B) = -\mathbf{J} - \frac{\partial}{\partial t}\left(E\right)$$
 
@@ -243,7 +243,7 @@ or
 
 $$\left(\mathbf{\nabla} + \frac{\partial}{\partial t}\right)\left(F\right) = \rho - \mathbf{J}$$
 
-Now, we define the spacetime current by $J = \gamma_0 (\rho - \mathbf{J})$; this is a vector in spacetime. The spacetime vector derivative is related to the relative vector derivative by the following equation:
+Now, the spacetime current is given by $J = \gamma_0 (\rho - \mathbf{J})$, which is a vector in spacetime. The spacetime vector derivative is related to the relative vector derivative by the following equation:
 
 $$\nabla = \gamma_0 (\mathbf{\nabla} + \frac{\partial}{\partial t})$$
 
