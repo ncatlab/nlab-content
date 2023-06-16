@@ -3,7 +3,13 @@
 
 * <a href="https://en.wikipedia.org/wiki/Robert_Myers_(physicist)">Wikipedia entry</a>
 
+
 ## Selected writings
+
+On [[black holes]] in [[D=5 supergravity]]:
+
+* {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], [[Robert C. Myers]], [[Paul Townsend]], *Black Holes of $D=5$ Supergravity*, Class.Quant.Grav. **16** (1999) 1-21 &lbrack;[arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204), [doi:10.1088/0264-9381/16/1/001](https://doi.org/10.1088/0264-9381/16/1/001)&rbrack;
+
 
 On the [[non-abelian DBI action]] and introducing the [[Myers effect]]:
 
@@ -31,10 +37,14 @@ On [[D-brane polarization]] into [[supertubes]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Myers effect]]
 
 * [[ALE space]]
 
 category: people
+
+[[!redirects Robert C. Myers]]
+
+
