@@ -50,11 +50,16 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
     "caption": "adapted from [Hyperphysics](#Hyperphysics)"
 \end{imagefromfile}
 
+{#FaradayIronFilings} The classical example is *[[magnetic field]]*-flux, originally observed by [[Michael Faraday]] by bringing iron filings into the [[magnetic field]] of rod magnets:
 
+<center>
+<div style="margin:-40px 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/FaradayDiary-FluxLines-Par11911.jpg" width="580">
+</div>
+</center>
 
-## Properties
+> from *Faraday's diary of experimental investigation*, vol VI, entry from 11th Dec. 1851; reproduced in [Martin (2009)](#Martin09) (p. 311 [here](http://faradaysdiary.com/ws3/faraday.pdf#page=311))
 
-If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrightarrow X$ such whose [[boundary]] is $\partial \hat \Sigma = \Sigma$  then this is the (higher) [[magnetic charge]] enclosed by $\Sigma$.
 
 ## Examples
 
@@ -80,6 +85,10 @@ If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrighta
 ## References
 
 History:
+
+* {#Martin09} Thomas Martin (ed.), *Faraday's diaray of experimental investigation* 1820-1862, HR Direct (2009)  &lbrack;[webpage](http://faradaysdiary.com/), preview:[pdf](http://faradaysdiary.com/ws3/faraday.pdf)&rbrack;
+
+* The Royal Institution, *Michael Faradays' iron filings* &lbrack;[web](https://www.rigb.org/explore-science/explore/collection/michael-faradays-iron-filings)&rbrack;
 
 * [[Raymond Brock]], *[[Faraday]]'s Lines of Force -- Modern Physics Begins*, chapter 11 in: *Quarks, Spacetime, and the Big Bang*, lecture notes &lbrack;chapter: [pdf](https://web.pa.msu.edu/people/brock/file_sharing/QSandBB/QS&BB_manuscript/man_faraday_up.pdf), full text:[pdf](https://web.pa.msu.edu/people/brock/file_sharing/QSandBB/QS&BB_manuscript/QS&BB.pdf)&rbrack;
 
