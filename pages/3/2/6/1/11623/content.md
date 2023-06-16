@@ -6,9 +6,14 @@ One of the co-discoverers of [[supergravity]] ([[4d supergravity]]).
 
 ## Selected writings
 
-Introducin [[4d supergravity]]:
+Introducing [[4d supergravity]]:
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
+
+On [[supergravity]]:
+
+* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
+
 
 On [[multi-trace operators]] in the [[AdS/CFT correspondence]]:
 
