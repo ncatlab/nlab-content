@@ -1,5 +1,4 @@
 
-
 ### Magnetic flux quantization in type II superconductors
  {#MagneticFluxQuantizationInTypeIISuperconductors}
 
@@ -24,7 +23,8 @@ Due to the [[Meissner-Ochsenfeld effect]], a [[superconductor]] placed in a suff
 \end{imagefromfile}
 
 
-In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic flux]] enter the superconductor, carried by little _[[flux tubes]]_ inside _[[vortices]]_ of electric currents: _[[vortex strings]]_ (about a [[micron]] in diameter, e.g. [Chapman 00, p. 559](superconductivity#Chapman00)). Each vortex core carries one unit of magnetic flux -- also called a _fluxon_ --  while at some small finite distance away from all vortices, the bulk magnetic flux in the superconductor still vanishes (mathematically: it [[vanishes at infinity]]):
+{#InThisMixedRegime} In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic flux]] enter the superconductor, carried by little _[[flux tubes]]_ inside _[[vortices]]_ of electric currents: _[[vortex strings]]_ (about a [[micron]] in diameter, e.g. [Chapman 00, p. 559](superconductivity#Chapman00)). Each vortex core carries one unit of magnetic flux -- also called a _fluxon_ --  while at some small finite distance away from all vortices, the bulk magnetic flux in the superconductor still vanishes (mathematically: it [[vanishes at infinity]], cf. eg. [Chapman 2009 (2.31)](superconductivity#Chapman00), [Timm 2020 (6.101)](superconductivity#Timm20))
+:
 
 \[\label{VortexStructure}\]
 
