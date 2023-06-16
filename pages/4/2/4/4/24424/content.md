@@ -1,4 +1,4 @@
-I'm a French [[math]]/[[computer science]] student based in Ottawa. I'm doing a PhD, my supervisors are [[Rick Blute]] and [[Phil Scott]].
+I'm a French [[math]]/[[computer science]] student based in Ottawa. I'm doing a PhD (I'm in first year), my supervisors are [[Rick Blute]] and [[Phil Scott]].
 
  I'm interested by the [[logic|logical]] approach to [[differentiation]] through [[differential linear logic]] and [[differential categories]]. I like trying to combine ideas from this field with the notion of [[graded modality]] to talk about ubiquitous functors in mathematics such as [[symmetric powers|symmetric]], [[exterior powers|exterior]], [[divided powers]] or [[homology |homology functors]]. 
 
