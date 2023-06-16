@@ -11,9 +11,10 @@ On the [[GSO projection]] for the [[spinning string]]/[[superstring]]:
 
 * {#GSO77} F. Gliozzi, [[Joël Scherk]], D. I. Olive, _Supersymmetry, Supergravity Theories and the Dual Spinor Model_, Nucl. Phys. B 122 (1977), 253 ([spire](http://inspirehep.net/record/111434))
 
-On [[D=11 supergravity]]:
+Introducing [[D=11 supergravity]]:
 
-* {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. 76B (1978) 409 (<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>)
+* {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. B **76** (1978) 409 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>&rbrack;
+
 
 On the [[Scherk-Schwarz mechanism]]:
 
