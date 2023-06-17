@@ -443,7 +443,7 @@ Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|e
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134))
 
 
-Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
+Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see at *[[K-theory classification of D-brane charge]]*):
 
 * {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
 
