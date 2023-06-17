@@ -10,6 +10,10 @@ On [[factorization homology]] for [[surfaces]] equipped with [[flat connections]
 
 * [[Corina Keller]], [[Lukas Müller]], *Finite symmetries of quantum character stacks*, Theory and Applications of Categories **39** 3 (2023) 51-97  &lbrack;[arXiv:2107.12348](https://arxiv.org/abs/2107.12348), [tac:39-03](http://www.tac.mta.ca/tac/volumes/39/3/39-03abs.html)&rbrack;
 
+On [[factorization homology]] for [[surfaces]] with [[defects]], dynamical quantum groups, and Chern--Simons theory with sources: 
+
+* [[Corina Keller]], *Generalized character varieties and quantization via factorization homology*, PhD Thesis, Université de Montpellier &lbrack;[pdf] (https://imag.umontpellier.fr/~calaque/students-Corina_Keller_PhD_Thesis.pdf)&rbrack;
+
 
 Review: 
 
