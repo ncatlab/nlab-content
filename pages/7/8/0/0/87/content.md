@@ -36,7 +36,7 @@ We present three motivations and applications of anafunctors:
 
 ### Foundational motivation {#FoundationalMotivation}
 
-There is a sense in which the construction of inverse equivalences is not a "real" use of the axiom of choice, because the choice of $d$ is determined up to unique isomorphism.  Note that in ordinary set theory, the axiom of choice is not necessary to make choices that are uniquely defined; this is sometimes called the "axiom of non-choice" or the "function comprehension principle."  Since in category theory, an object can only be expected to be determined up to unique isomorphism, it is natural to regard the above statement as really being a "functor comprehension principle" or an "axiom of non-choice for categories."  The fact that the full axiom of choice is required to make such choices is then an artifact of the usual [[foundation]]al choice to define categories as having a [[set]] of objects.
+There is a sense in which the construction of inverse equivalences is not a "real" use of the axiom of choice, because the choice of $d$ is determined up to unique isomorphism.  Note that in ordinary set theory, the axiom of choice is not necessary to make choices that are uniquely defined; this is sometimes called the "axiom of non-choice" or the "function comprehension principle."  Since in category theory, an object can only be expected to be determined up to unique isomorphism, it is natural to regard the above statement as really being a "[[functor comprehension principle]]" or an "axiom of non-choice for categories."  The fact that the full axiom of choice is required to make such choices is then an artifact of the usual [[foundation]]al choice to define categories as having a [[set]] of objects.
 
 In fact, however, we can recover the functor comprehension principle while maintaining the definition of categories in set theory if we modify the notion of *functor*.  This results in the notion of _anafunctor_, which is essentially "a functor which determines its values on objects only up to isomorphism."  In particular, an anafunctor is an [[equivalence of categories]] (in the sense of having an inverse *anafunctor*) precisely if it is essentially surjective and full and faithful.  From this point of view, an anafunctor is not necessarily a fundamental notion, but rather an artifact that makes it possible to approximate the "natural" theory of categories, which doesn't need choice but has a functor comprehension principle, while still working in a set-theoretic foundation lacking choice.
    
@@ -256,7 +256,7 @@ In particular, the bicategory of categories and anafunctors is locally essential
 
 ##Anafunctors in homotopy type theory
 
-Anafunctors are unnecessary when using "saturated/univalent" categories in [[homotopy type theory]] (see Def. 9.1.3 of [[the HoTT book]], and Chap. 9 notes), because of their [functor comprehension principle](https://ncatlab.org/michaelshulman/show/functor+comprehension+principle). An anafunctor is a span whose first leg is a surjective and fully faithful functor, but for saturated categories any such functor is an equivalence (in the strong sense of having an inverse), so any anafunctor is equivalent to a functor.
+Anafunctors are unnecessary when using "saturated/univalent" categories in [[homotopy type theory]] (see Def. 9.1.3 of [[the HoTT book]], and Chap. 9 notes), because of their [[functor comprehension principle]]. An anafunctor is a span whose first leg is a surjective and fully faithful functor, but for saturated categories any such functor is an equivalence (in the strong sense of having an inverse), so any anafunctor is equivalent to a functor.
 
 
 ## Related concepts
@@ -295,18 +295,6 @@ see [[anafunction]]
 ### Additive version
 
 The notion of abelian [[butterfly]] introduced by Behrang Noohi [Weak maps of 2-groups](http://arxiv.org/abs/math.CT/0506313) is the additive version of the notion of (saturated) anafunctor: the equivalence between, on the one hand, internal groupoids and internal functors and, on the other hand, arrows and commutative squares in an abelian category extends to an equivalence between saturated anafunctors and butterflies.
-
-+-- {: .query}
-
-_Urs says:_ Why do you restrict this to the abelian case? From 
-[page  16](http://arxiv.org/PS_cache/math/pdf/0506/0506313v3.pdf#page=16)  of Noohi's article I got the impression that he is precisely describing the ana-2-functors between one-object 2-groupoids in terms of the corresponding (possibly nonabelian) crossed modules. 
-
-_Mathieu says:_ I don't see that (or something like that) on that page, but saturated anafunctors should correspond to butterflies also in the semi-abelian case (using the notion of internal crossed module in a semi-abelian category introduced by Janelidze), but I have not checked it.  The special case of groups is probably easy to check: saturated anafunctors between two internal groupoids in the category of groups should correspond to butterflies between the corresponding crossed modules.
-
-_Urs says:_ I haven't checked the details. But he is looking at derived homs of crossed complexes. By general nonsense these derived hom should be given by homs out of cofibrant replacements. This is another way of talking about the anafunctor picture. Somebody should check the details.
-
-[[Tim Porter|Tim]]: Noohi has pointed out to me a slip in his HHA article in which he gives an 'algebraic' description of weak map (and thus of anafunctor) between the crossed modules corresponding to the 2-groups.  He has posted a corrected version on the archive (&lt;http://arxiv.org/abs/math/0506313v3>, but make sure you get version 3).
-=--
 
 ## References
 
