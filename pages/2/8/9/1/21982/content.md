@@ -64,7 +64,7 @@ Discussion of charge quantization in [[twisted K-theory]] for the case of non-va
 
 * [Witten 98, Sec. 5.3](#Witten98) (for [[torsion subgroup|torsion]] twists)
 
-* [[Peter Bouwknegt]], [[Varghese Mathai]], _D-branes, B-fields and twisted K-theory_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023))
+* [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 $[$[arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023), [doi:10.1088/1126-6708/2000/03/007](https://doi.org/10.1088/1126-6708/2000/03/007)$]$
 
 An elaborate proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
 
