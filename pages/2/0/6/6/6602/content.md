@@ -48,3 +48,5 @@ The resolution by the [[chiral Dolbeault complex]] is due to
 
 * Yuly Billig, Vyacheslav Futorny, _Representations of Lie algebra of vector fields on a torus and chiral de Rham complex_, [arxiv/1108.6092](http://arxiv.org/abs/1108.6092) 
 
+* A. Linshaw, [[Varghese Mathai]], _Twisted chiral de Rham complex, generalized geometry, and T-duality_, Commun. Math. Phys. __339__ (2015) 663--697 [doi](https://doi.org/10.1007/s00220-015-2403-z)
+
