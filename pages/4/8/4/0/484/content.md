@@ -76,9 +76,7 @@ A set equipped with an equivalence relation can be regarded as a [[groupoid]] [[
 
 It may well be useful to consider several possible equivalence relations on a given set.  When considering a single equivalence relation once and for all, however, it is common to take the [[quotient set]] $S/_{\equiv}$ and use that instead.  As a groupoid, any set with an equivalence relation is [[equivalence of categories|equivalent]] to a [[set]] in this way (although in the absence of the [[axiom of choice]], it is only a "weak" or [[anafunctor|ana-equivalence]]).
 
-A set equipped with an equivalence relation is sometimes called a __[[setoid]]__; however the term [[setoid]] is primarily used for a [[pseudo-equivalence relation]] instead, and the usage on the nLab follows the latter. 
-
-This terminology is particularly common in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence to a set cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as '[[preset]]', '[[type]]', or '[[completely presented set]]') where they say 'set'.  (See [[Bishop set]] and page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
+A set equipped with an equivalence relation is sometimes called a __[[setoid]]__, see there for more. 
 
 ## Variants and generalizations
 
