@@ -39,7 +39,7 @@ Accordingly, [[logic|logical]] operations on propositions have immediate analogs
 ### Propositions as some types
  {#PropositionsAsSomeTypes}
 
-A related paradigm may be called **propositions as some types**, in which propositions are identified with particular types, but not all types are regarded as propositions.  Generally, the propositions are the "types with at most one [[term]]".  This is the paradigm usually used in the [[internal logic]] of [[categories]] such as [[toposes]], as well as in [[homotopy type theory]].  In this case, the type-theoretic operations on types either restrict to the propositions to give logical operations (for [[conjunction]], [[implication]], and the [[universal quantifier]]), or have to be "reflected" therein (for [[disjunction]] and the [[existential quantifier]]).  The reflector operation is called a [[bracket type]].
+A related paradigm may be called **[[propositions as some types]]**, in which propositions are identified with particular types, but not all types are regarded as propositions.  Generally, the propositions are the "types with at most one [[term]]".  This is the paradigm usually used in the [[internal logic]] of [[categories]] such as [[toposes]], as well as in [[homotopy type theory]].  In this case, the type-theoretic operations on types either restrict to the propositions to give logical operations (for [[conjunction]], [[implication]], and the [[universal quantifier]]), or have to be "reflected" therein (for [[disjunction]] and the [[existential quantifier]]).  The reflector operation is called a [[bracket type]].
 
 
 ### In homotopy type theory
@@ -85,6 +85,8 @@ We would not say homotopy type theory has propositions as types in the same way 
 * [[theorem]], [[axiom]]
 
 * [[propositions as projections]]
+
+* [[propositions as some types]]
 
 * [[propositional logic as a dependent type theory]]
 
