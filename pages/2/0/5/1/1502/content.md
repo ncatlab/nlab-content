@@ -200,7 +200,11 @@ For [[2-Hilbert space|2-Hilbert spaces]], there is an antilinear $*$-operation o
 
 ## References
 
-For example:
+Various alternative definitions of semisimple category appear in the literature, and a number are compared here:
+
+* James Bailie, Semisimple categories ([pdf](https://jameshbailie.github.io/Papers/papers/Semisimple.pdf).
+
+For example, he compares a definition of "abelian semisimple category"(an abelian category where every object is a direct sum of a possibly infinite number of simple objects) with  "Müger semisimple" categories as discussed here:
 
 * {#Müger03} [[Michael Müger]], p. 6 in: *From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories*, J. Pure Appl. Alg. **180** (2003) 81-157 &lbrack;[arXiv:math/0111204](https://arxiv.org/abs/math/0111204), <a href="https://doi.org/10.1016/S0022-4049(02)00247-5">doi:10.1016/S0022-4049(02)00247-5</a>&rbrack;
 
