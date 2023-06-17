@@ -52,17 +52,25 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 ## References 
 
-* [[R. Brown]], _International category theory meeting. Bangor, Wales, July 2-7 1989. Cambridge, England, March 23-25, 1990_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 32, No. 1, 1991, page 3. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1991__32_1_3_0/)&rbrack;
+
+* {#CT81} [[Klaus Heiner Kamps]], [[Dieter Pumplün]], [[Walter Tholen]] (Eds), _Category Theory: Applications to Algebra, Logic and Topology. Proceedings of the International Conference Held at Gummersbach, July 6-10, 1981_, Lecture Notes in Mathematics **962** (1982) Springer–Verlag, doi:[10.1007/BFb0066878](https://doi.org/10.1007/BFb0066878)
+
+* {#CT89} [[R. Brown]], _International category theory meeting. Bangor, Wales, July 2-7 1989. Cambridge, England, March 23-25, 1990_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 32, No. 1, 1991, page 3. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1991__32_1_3_0/)&rbrack;
+
+* {#CT90} [[Aurelio Carboni]], [[Maria Cristina Pedicchio]], [[Guiseppe Rosolini]] (Eds), _Category Theory: Proceedings of the International Conference held in Como, Italy, July 22-28, 1990_, Lecture Notes in Mathematics **1488** (1991) Springer–Verlag, doi:[10.1007/BFb0084207](https://doi.org/10.1007/BFb0084207)
+
+* {#CT91} [[R.A.G. Seely]] (Ed), _Category Theory 1991: Proceedings of the 1991 Summer Category Theory Meeting, Montreal, Canada_,  Conference Proceedings, Canadian Mathematical Society **13** (1992) American Mathematical Society/Canadian Mathematical Society [AMS bookstore](https://bookstore.ams.org/cmsams-13).
+
 
 * {#Rota} [[Gian-Carlo Rota]], _Book review of "Category Theory 1991"_, Advances in Mathematics, Vol. 102, No. 1, 1993, page 126. &lbrack;[doi:10.1006/aima.1993.1061](https://doi.org/10.1006/aima.1993.1061)&rbrack;
 
-* [[Aurelio Carboni]], [[Giuseppe Rosolini]] and [[Robert Walters]] (guest editors), _CT2000_, Theory and Applications of Categories, Vol. 9, 2001. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol9)&rbrack;
+* {#CT00} [[Aurelio Carboni]], [[Giuseppe Rosolini]] and [[Robert Walters]] (guest editors), _CT2000_, Theory and Applications of Categories, Vol. 9, 2001. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol9)&rbrack;
 
-* [[George Janelidze]], [[John MacDonald]], [[Ross Street]] and [[Walter Tholen]] (guest editors), _CT2004_, Theory and Applications of Categories, Vol. 15, 2005-2006. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol15)&rbrack;
+* {#CT04} [[George Janelidze]], [[John MacDonald]], [[Ross Street]] and [[Walter Tholen]] (guest editors), _CT2004_, Theory and Applications of Categories, Vol. 15, 2005-2006. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol15)&rbrack;
 
-* _CT2006_, Theory and Applications of Categories, Vol. 19, 2007. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol19)&rbrack;
+* {#CT06} _CT2006_, Theory and Applications of Categories, Vol. 19, 2007. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol19)&rbrack;
 
-* [[Marino Gran]], [[George Janelidze]], [[Stephen Lack]], [[John MacDonald]] and [[Walter Tholen]] (guest editors), _CT2011_, Theory and Applications of Categories, Vol. 27, 2012. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol27)&rbrack;
+* {#CT11} [[Marino Gran]], [[George Janelidze]], [[Stephen Lack]], [[John MacDonald]] and [[Walter Tholen]] (guest editors), _CT2011_, Theory and Applications of Categories, Vol. 27, 2012. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol27)&rbrack;
 
 A list of category theory conferences appears in the unpublished note: 
 
