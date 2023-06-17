@@ -88,33 +88,11 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 ## Related concepts
 
-* [[Bishop set]], [[quotient type]]
-
-* [[directed graph]]
-
-* [[pseudo-proset]]
-
-* [[equivalence relation]]
-
-* [[ex/lex completion]]
-
-* [[extensional function]]
-
-* [[dagger functor]]
-
-* [[presetoid]]
-
-* [[univalent setoid]]
-
-* [[setoid object]]
+* [[Bishop set]]
 
 * [[completely presented set]]
 
-[[!include oidification - table]]
-
-[[!include types and logic - table]]
-
-
+* [[equivalence relation]], [[pseudo-equivalence relation]]
 
 ## References
 
