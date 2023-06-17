@@ -335,12 +335,13 @@ General accounts include
 
 * {#Hatcher} [[Alan Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
+* {#Junnia07} Heikki Junnila, pp. 73 in: *A second course in general topology* (2007) &lbrack;[[Junnila-ParacompactSpaces.pdf:file]]&rbrack;
 
 *  English Wikipedia: [paracompact space](http://en.wikipedia.org/wiki/Paracompact_space)
 
 * Springer eom: [paracompact space](http://eom.springer.de/p/p071300.htm), [paracompactness criteria](http://eom.springer.de/p/p071310.htm)
 
-* Some properties of paracompact spaces are listed and proven in [http://www.helsinki.fi/~hjkjunni/top9.pdf](http://www.helsinki.fi/~hjkjunni/top9.pdf)
+
 
 
 A basic discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čech cohomology]] is around page 32 of
