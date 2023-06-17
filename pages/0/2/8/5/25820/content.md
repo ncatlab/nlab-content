@@ -161,8 +161,31 @@ In [[homotopy type theory]], and more generally in any [[intensional type theory
 
 ## Related concepts
 
+* [[Bishop set]], [[setoid]]
+
 * [[equivalence relation]]
-* [[setoid]]
+
+* [[quotient type]]
+
+* [[directed graph]]
+
+* [[pseudo-proset]]
+
+* [[ex/lex completion]]
+
+* [[extensional function]]
+
+* [[dagger functor]]
+
+* [[presetoid]]
+
+* [[univalent setoid]]
+
+* [[setoid object]]
+
+[[!include oidification - table]]
+
+[[!include types and logic - table]]
 
 ## References
 
