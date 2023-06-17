@@ -130,10 +130,6 @@ This is [[Higher Topos Theory|HTT, theorem 5.1.5.6]].
 
 =--
 
-This equivalence cannot be natural as written, since $Func^L(PSh(C), D)$ is covariant in $C$, whereas $Func(C,D)$ is contravariant in $C$. [[Higher Topos Theory|HTT, theorem 5.1.5.2]].
-
-Presumably, PSh is the [[adjoint (infinity,1)-functor#category_of_adjunctions | local right adjoint ]] to the free cocompletion functor.
-
 
 In terms of the model given by the model structure on simplicial presheaves, this is statement made in
 
