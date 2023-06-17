@@ -13,13 +13,19 @@
 
 This entry is about the article
 
-* [[Michael Hopkins]], [[Isadore Singer]], 
+* [[Michael Hopkins]], [[Isadore Singer]]:
+
+  \linebreak
 
   **Quadratic Functions in Geometry, Topology,and M-Theory**  
 
-  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  
+  \linebreak
+
+  J. Differential Geom. **70** 3 (2005)  329-452.  
   
   [arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)
+
+  [doi:10.4310/jdg/1143642908](https://doi.org/10.4310/jdg/1143642908)
 
   [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908)
 
