@@ -13,13 +13,29 @@
 
 ## Definition
 
-A **semisimple ring** is a ring which is both an [[Artinian ring]] and a [[semiprimitive ring]]. 
+A **semisimple ring** $R$ is one obeying any of the following equivalent conditions: 
+
+* $R$ is an [[Artinian ring]] with vanishing [[Jacobson radical]].
+
+* $R$ is a finite [[product]] of [[simple ring|simple]] Artinian rings.
+
+* As a left [[module]] over itself, $R$ is a [[semisimple object]] in the category of left $R$-modules. 
+
+* As a right module over itself, $R$ is a semisimple object in the category of right $R$-modules.
+
+* The category of [[finitely generated module|finitely generated]] left $R$-modules is a [[semisimple category]].
+
+* The category of finitely generated right $R$-modules is a semisimple category.
 
 For [[commutative rings]], a semisimple ring is a ring which is both an Artinian ring and a [[reduced ring]]. 
 
 ## Examples
 
-Every semisimple [[integral domain]] is a [[field]]. Similarly, every semisimple [[local ring]] is a [[field]]. 
+By the [[Wedderburn-Artin theorem]], every semisimple ring is a finite product of matrix algebras over [[division rings]].
+
+As a special case, every semisimple [[commutative ring]] is a finite product of [[fields]].  In particular, every semisimple [[integral domain]] is a [[field]].  Similarly, every semisimple [[local ring]] is a [[field]].
+
+Beware: not every [[simple ring]] is a semisimple ring.  A simple ring is semisimple if and only if it is Artinian.  For example the [[Weyl algebra]] over any field is a simple ring that is not Artinian and not semisimple: intuitively speaking, it is "too infinite" to be Artinian, which is a kind of finiteness condition.  The ring of linear transformations of an infinite-dimensional vector space over field is also simple but not Artinian and thus not semisimple.
 
 ## See also
 
@@ -31,7 +47,9 @@ Every semisimple [[integral domain]] is a [[field]]. Similarly, every semisimple
 
 ## References
 
-* Wikipedia, [Semisimple ring](https://en.wikipedia.org/wiki/Semisimple_ring)
+* Wikipedia, [Semisimple ring](https://en.wikipedia.org/wiki/Semisimple_ring).
+
+* Frank W. Anderson and Kent R. Fuller, _Rings and Categories of Modules, Springer Graduate Texts in Mathematics, Vol. 13, 2012.  Chapter 4, Section 13: Semisimple rings.
 
 [[!redirects semisimple ring]]
 [[!redirects semisimple rings]]
