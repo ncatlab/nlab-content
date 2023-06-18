@@ -85,6 +85,7 @@ For $C$ a small $(\infty,1)$-category, the $(\infty,1)$-category $PSh(C)$ admits
 
 See around [[Higher Topos Theory|HTT, cor. 5.1.2.4]].
 
+
 ### As the free completion under colimits {#FreeColimCompletion}
 
 An ordinary [[category of presheaves]] on a small category $C$ is the [[free cocompletion]] of $C$, the free completion under forming colimits.
@@ -95,26 +96,21 @@ The analogous result holds for $(\infty,1)$-category of $(\infty,1)$-presheaves.
 +-- {: .un_lemma}
 ###### Lemma
 
-Let $C$ be a small [[quasi-category]] and $j : S \to PSh(C)$ the [[(∞,1)-Yoneda embedding]]. 
+Let $C$ be a small [[quasi-category]] and $j \colon S \to PSh(C)$ the [[(∞,1)-Yoneda embedding]]. 
 
-The identity [[(∞,1)-functor]] $Id : PSh(C) \to PSh(C)$ is the left [[(∞,1)-Kan extension]] of $j$ along itself. 
+The identity [[(∞,1)-functor]] $Id \,\colon\, PSh(C) \to PSh(C)$ is the left [[(∞,1)-Kan extension]] of $j$ along itself. 
 
 =--
-
-+-- {: .proof}
-###### Proof
 
 This is [[Higher Topos Theory|HTT, lemma 5.1.5.3]].
 
-=--
 
-
-For $D$ a [[quasi-category]] with all small [[limit in a quasi-category|colimits]], write  $Func^L(PSh(C),D) \subset Func(PSh(C),D)$ for the full [[sub-quasi-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve small [[limit in a quasi-category|colimits]].
+For $D$ a [[quasi-category]] with all small [[limit in a quasi-category|colimits]], write  $Func^L(PSh(C),D) \subset Func(PSh(C),D)$ for the full [[sub-quasi-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that [[preserved colimit|preserve]] small [[limit in a quasi-category|colimits]].
 
 +-- {: .un_lemma}
 ###### Lemma
 
-Composition with the Yoneda embedding $j : C \to PSh(C)$ induces an [[equivalence of quasi-categories]]
+Pre-composition with the Yoneda embedding $j \colon C \to PSh(C)$ induces an [[equivalence of quasi-categories]]
 
 $$
   Func^L(PSh(C),D) \to Func(C,D)
@@ -123,19 +119,9 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This is [[Higher Topos Theory|HTT, theorem 5.1.5.6]].
 
-=--
-
-
-In terms of the model given by the model structure on simplicial presheaves, this is statement made in
-
-* [[Dan Dugger]], _[[Universal homotopy theories]]_ ,
-
-which gives that article its name.
+In terms of the model given by the [[model structure on simplicial presheaves]], this is statement made in [Dugger (2001)](#Dugger2001), which gives that article its name.
 
 +-- {: .un_def}
 ###### Definition
@@ -144,15 +130,15 @@ Let $A$ and $B$ be [[model categories]], $D$ a plain [[category]] and
 
 $$
   \array{
-    D &\stackrel{r}{\to}& A
+    D &\overset{r}{\longrightarrow}& A
     \\
-    & \searrow_\gamma 
+    &  \mathllap{{}_{\gamma}}\searrow 
     \\
     && B
   }
 $$
 
-two plain [[functor]]s. Say that a **model-category theoretic factorization** of $\gamma$ through $A$ is 
+two plain [[functors]]. Say that a **model-category theoretic factorization** of $\gamma$ through $A$ is 
 
 1. a [[Quillen adjunction]] $(L \dashv R) : A \stackrel{\overset{L}{\to}}{\underset{R}{\leftarrow}} B$
 
@@ -162,18 +148,20 @@ two plain [[functor]]s. Say that a **model-category theoretic factorization** of
      \array{
        D &&\stackrel{r}{\to}&& A
        \\
-       & \searrow_\gamma &{}^\eta\swArrow& \swarrow_L
+       & \mathllap{{}_\gamma}\searrow 
+         &{}^\eta\swArrow
+       & \swarrow_{\mathrlap{L}}
        \\
        && B
      }
      \,.
    $$
 
-Let the [[category]] of such factorizations have morphisms $((L \dashv R), \eta ) \to ((L' \dashv R'), \eta' )$ given by [[natural transformation]]s $L \to L'$ such that for all all objects $d \in D$ the diagrams
+Let the [[category]] of such factorizations have morphisms $\big((L \dashv R), \eta \big) \to \big((L' \dashv R'\big), \eta' )$ given by [[natural transformation]]s $L \to L'$ such that for all all objects $d \in D$ the diagrams
 
 $$
   \array{
-     L\circ r(d) &&\to&& L'\circ r(d)
+     L\circ r(d) &&\longrightarrow&& L'\circ r(d)
      \\
      & {}_{\eta_{d}}\searrow && \swarrow_{\eta'_{d}}
      \\
@@ -198,14 +186,12 @@ every functor $C \to B$ to any [[model category]] $B$ has a factorization throug
 
 =--
 
+This is [Dugger (2001), theorem 1.1](#Dugger2001), 
+where the proof appears on page 30.
+
+
 +-- {: .proof}
 ###### Proof
-
-This is theorem 1.1 in
-
-* [[Dan Dugger]], _[[Universal homotopy theories]]_ .
-
-The proof is on page 30.
 
 To produce the factorization $[C^{op},sSet] \to B$ given the functor $\gamma$, first
 notice that the ordinary [[Yoneda extension]] $[C^{op},Set] \to B$ would be given by the left [[Kan extension]] given by the [[coend]] formula
@@ -215,48 +201,49 @@ $$
   \,,
 $$
 
-where the dot in the integrand is the [[copower|tensoring]] of cocomplete category $B$ over [[Set]]. To refine this to a [[Quillen adjunction|left Quillen functor]] $L : [C^{op},sSet] \to B$, _choose_ a [[cosimplicial resolution]]
+where the dot in the integrand is the [[copower|tensoring]] of cocomplete category $B$ over [[Set]]. To refine this to a [[Quillen adjunction|left Quillen functor]] $L : [C^{op},sSet] \to B$, _choose_ a [[cosimplicial object|cosimplicial]] [[resolution]]
 
 $$
-  \Gamma : C \to [\Delta,B]
+  \Gamma \;\colon\; C \to [\Delta,B]
 $$
 
 of $\gamma$. Then set
 
 $$
-  L : F \mapsto 
+  L \;\colon\; 
+  F \mapsto 
   \int^{c \in C} 
   \int^{[n] \in \Delta}
   \Gamma^n(c) \cdot F_n(c)
   \,.
 $$
 
-The [[right adjoint]] $R : B \to [C^{op},sSet]$ of this functor is given by
+The [[right adjoint]] $R \colon B \to [C^{op},sSet]$ of this functor is given by
 
 $$
-  R(X) : c \mapsto Hom_B(\Gamma^\bullet(c), X)
+  R(X) \colon c \mapsto Hom_B(\Gamma^\bullet(c), X)
   \,.
 $$
 
-For $(L \dashv R) : [C^{op}, sSet]_{proj} \stackrel{\to}{\leftarrow} B$ to be a [[Quillen adjunction]], it is  sufficient to check that $R$ preserves fibrations and acyclic fibrations. By definition of the projective model structure this means that for every (acyclic) fibration $b_1 \to b_2$ in $B$ we have for every object $c \in C$ that that
+For $(L \dashv R) \colon [C^{op}, sSet]_{proj} \stackrel{\to}{\leftarrow} B$ to be a [[Quillen adjunction]], it is  sufficient to check that $R$ preserves [[fibrations]] and [[acyclic fibrations]]. By definition of the projective model structure this means that for every (acyclic) fibration $b_1 \to b_2$ in $B$ we have for every object $c \in C$ that that
 
 $$
-  Hom_C(\Gamma^\bullet(c), b_1 \to b_2)
+  Hom_C\big(\Gamma^\bullet(c), b_1 \to b_2\big)
 $$
 
-is an (acyclic) fibration of simplicial sets. But this is one of the standard properties of [[cosimplicial resolution]]s.
+is an (acyclic) fibration of simplicial sets. But this is one of the standard properties of [[cosimplicial object|cosimplicial [[resolutions]].
 
-Finally, to find the natural weak equivalence $\eta : L \circ j \simeq \gamma$, write $j : C \to [C^{op},sSet]$ for the [[Yoneda embedding]] and notice that by [[Yoneda reduction]] it follows that for $x \in C$ we have
+Finally, to find the natural weak equivalence $\eta \colon L \circ j \simeq \gamma$, write $j : C \to [C^{op},sSet]$ for the [[Yoneda embedding]] and notice that by [[Yoneda reduction]] it follows that for $x \in C$ we have
 
 $$
   L(j(x))
-  =
+  \;=\;
   \int^{c \in C} \int^{[n] \in \Delta}
   \Gamma^n(c) \cdot C(c,x)
-  =
+  \;=\;
   \Gamma^0(x)
 $$
-(where equality signs denote [[isomorphism]]s).
+(where equality signs denote [[isomorphisms]]).
 
 By the very definition of cosimplicial resolutions, there is a natural weak equivalence $\Gamma(x) \stackrel{\simeq}{\to}$. We can take this to be the component of $\eta$.
 
@@ -267,7 +254,7 @@ By the very definition of cosimplicial resolutions, there is a natural weak equi
 +-- {: .un_cor}
 ###### Corollary
 
-The [[(∞,1)-Yoneda embedding]] $j : C \to PSh(C)$ generates $PSh(C)$ under small colimits:
+The [[(∞,1)-Yoneda embedding]] $j \colon C \to PSh(C)$ generates $PSh(C)$ under small colimits:
 
 a full [[sub-quasi-category|(∞,1)-subcategory]] of $PSh(C)$ that contains all representables and is closed under forming $(\infty,1)$-colimits is already equivalent to $PSh(C)$.
 
@@ -279,6 +266,99 @@ a full [[sub-quasi-category|(∞,1)-subcategory]] of $PSh(C)$ that contains all 
 This is [[Higher Topos Theory|HTT, corollary 5.1.5.8]].
 
 =--
+
+
+### Functorality
+ {#Functoriality}
+
+The two descriptions of $PSh(S)$ as the functor category $Func(S^{op}, \infty Grpd)$ and as the free cocompletion $S \to PSh(S)$ ([above](#FreeColimCompletion)) both extend to contravariant and covariant [[(infinity,1)-functors|functors]] on [[(infinity,1)Cat|$(\infty, 1)Cat$]].
+
+These two constructions are related.
+
+$Func(-, \infty Grpd) \colon (\infty, 1)Cat^{op} \to (\infty, 1)\widehat{Cat}$ takes values in the subcategory of [[presentable (∞,1)-categories]] and functors [[preserved colimit|preserving]] [[small limit|small]] [[(infinity,1)-limit|limits]] and [[(infinity,1)-colimit|colimits]], and thus having [[left adjoint|left]] and [[right adjoint|right]] [[adjoint (infinity,1)-functor|adjoints]].
+
+Let $Pr^L(\infty,1)Cat$ be the (∞,1)category of [[presentable (∞,1)-categories]] and functors that are left adjoints,
+and similarly for $Pr^R(\infty,1)Cat$.
+
+
++-- {: .un_theorem}
+###### Theorem
+
+The [[adjoint (infinity,1)-functor#category_of_adjunctions|local left adjoint]]
+to $Func(-, \infty Grpd) \colon (\infty, 1)Cat^{op} \to Pr^R(\infty,1)Cat$
+is naturally equivalent to the free cocompletion functor $P \colon (\infty, 1)Cat \to Pr^L(\infty,1)Cat$
+by a natural equivalence whose components at a small (∞,1)-category $S$ are homotopic to the [[identity functor]] on $PSh(S)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the (∞,1)-category of possibly large (∞,1)-categories that have small colimits, and functors preserving small colimits. By [[Higher Topos Theory|HTT, 5.3.6.10]], the inclusion into the full (∞,1)-category of (∞,1)-categories has a left adjoint $P$, which is characterized by the natural equivalence
+$$
+  Func^L\big(P(S), -\big) \simeq Func(S, -)
+$$
+given by pre-composition with the [[(infinity,1)-Yoneda embedding|Yoneda embedding]].
+
+Let $Func(-, \infty Grpd)^{ladj}$ denote the [local left adjoint](adjoint+infinity1-functor#LadjAndRadj) to $Func(-, \infty Grpd)$.
+Then for $C \in Pr^L(\infty,1)Cat$
+and $S \in (\infty,1)Cat$, there are natural equivalences
+$$
+  \begin{aligned}
+  Func^L\big(Func(S^{op}, \infty Grpd)^{ladj}, C\big)
+  &\simeq Func^R\big(C^{radj}, Func(S^{op}, \infty Grpd)\big)^{op}
+  \\ &\simeq Func\big(S^{op}, Func^R(C^{radj}, \infty Grpd)\big)^{op}
+  \\&\simeq Func\big(S, Func^L(\infty Grpd, C)\big)
+  \\&\simeq Func(S, C)
+  \end{aligned}
+$$
+The second equivalence holds because, for presentable $C$, the property of being in $Func^R$ is characterized by being accessible and preserving small limits, which can be determined pointwise.
+
+The first and third equivalences are general properties of [local left adjoints](adjoint+infinity1-functor#LadjAndRadj) and opposite functor categories.
+
+The last equivalence is because $Func^L(\infty Grpd, C) \simeq Func(1, C)$. 
+
+Since both constructions corepresent the same functor $Func(S, -)$, the yoneda lemma ensures there is a natural equivalence $ P(S) \simeq Func(S^{op}, \infty Grpd)^{ladj} $.
+
+Now consider the chain of equivalences
+
+$$
+  Func(S, C)
+  \leftarrow Func^L\big(Func(S^{op}, \infty Grpd)^{ladj}, C\big)
+  \to Func^L\big(P(S), C\big)
+  \to Func(S, C)
+  \mathrlap{\,,}
+$$
+
+where the first map is inverse to composition with the Yoneda embedding, the second map is the equivalence constructed previously, and the third map is composition with the Yoneda embedding.
+
+Be careful to note that the first equivalence has not yet been shown to be natural in $S$.
+
+The overall composite is essentially uniquely determined by an automorphism of $\alpha_S$ of $S$. It remains to be shown that  $\alpha_S$ is an identity.
+
+When $S = \Delta^n$, $S$ has no nontrivial automorphisms, so 
+$\alpha_{\Delta^n}$ is the identity.
+
+For a functor $\phi : \Delta^n \to S$. The naturality of the above equivalence gives a commutative square
+
+\begin{tikzcd}
+  P(\Delta^n) \arrow[r] \arrow[d] &
+  \mathrm{Func}(\Delta^{op}, \infty \mathrm{Grpd})^{ladj} \arrow[d]
+  \\ P(S) \arrow[r] &
+  \mathrm{Func}(S^{op}, \infty \mathrm{Grpd})^{ladj}
+\end{tikzcd}
+
+
+[[Higher Topos Theory|HTT, 5.2.6.3]] asserts $P(\phi)$ is left adjoint to $\Func(\phi, \infty Grpd)$, so the left and right arrows are homotopic. 
+
+We've already seen the top arrow is homotopic to the identity, and so we infer $\alpha_S \phi \simeq \phi$. Since the $\Delta^n$ generate $(\infty,1)Cat$, $\alpha_S$ is thus homotopic to the identity.
+
+=--
+
+Note that a natural automorphism of either functor extending $PSh$ would induce a natural automorphism of the identity functor on $(\infty,1)Cat$. By [[Higher Topos Theory|HTT, 5.2.9.1]], the space of such automorphisms is contractible.
+
+
+
 
 
 ### Relation to slicing
@@ -312,92 +392,6 @@ $$
 
 This appears as [[Higher Topos Theory|HTT, 5.1.6.12]].
 
-## Functorality
-
-The two descriptions of $PSh(S)$ as the functor category $Func(S^{op}, \infty Grpd)$ and as the free cocompletion $S \to PSh(S)$ extend to contravariant and covariant functors on $(\infty, 1)Cat$, respectively.
-
-These two constructions are related.
-
-$Func(-, \infty Grpd) : (\infty, 1)Cat^{op} \to (\infty, 1)\widehat{Cat}$ takes values in the subcategory of [[presentable (∞,1)-categories]] and functors preserving small limits and colimits, and thus having left and right adjoints.
-
-Let $Pr^L(\infty,1)Cat$ be the (∞,1)category of [[presentable (∞,1)-categories]] and functors that are left adjoints,
-and similarly for $Pr^R(\infty,1)Cat$.
-
-
-+-- {: .un_theorem}
-###### Theorem
-
-The [[adjoint (infinity,1)-functor#category_of_adjunctions|local left adjoint]]
-to $Func(-, \infty Grpd) : (\infty, 1)Cat^{op} \to Pr^R(\infty,1)Cat$
-is naturally equivalent to the the free cocompletion functor $P : (\infty, 1)Cat \to Pr^L(\infty,1)Cat$
-by a natural equivalence whose components at a small (∞,1)-category $S$ are homotopic to the identity functor on $PSh(S)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Consider the (∞,1)-category of possibly large (∞,1)-categories that have small colimits, and functors preserving small colimits. By [[Higher Topos Theory|HTT, 5.3.6.10]], the inclusion into the full (∞,1)-category of (∞,1)-categories has a left adjoint $P$, which is characterized by the natural equivalence
-$$
-  Func^L(P(S), -) \simeq Func(S, -)
-$$
-given by composition with the yoneda embedding.
-
-Let $Func(-, \infty Grpd)^{ladj}$ denote the local left adjoint to $Func(-, \infty Grpd)$.
-Then for $C \in Pr^L(\infty,1)Cat$
-and $S \in (\infty,1)Cat$, there are natural equivalences
-$$
-  \begin{aligned}
-  Func^L(Func(S^{op}, \infty Grpd)^{ladj}, C)
-  &\simeq Func^R(C^{radj}, Func(S^{op}, \infty Grpd))^{op}
-  \\ &\simeq Func(S^{op}, Func^R(C^{radj}, \infty Grpd))^{op}
-  \\&\simeq Func(S, Func^L(\infty Grpd, C))
-  \\&\simeq Func(S, C)
-  \end{aligned}
-$$
-The second equivalence is because, for presentable $C$, the property of being in $Func^R$ is characterized by being accessible and preserving small limits, which can be determined pointwise.
-
-The first and third equivalence is general properties of [[adjoint (infinity,1)-functor#category_of_adjunctions|local left adjoints]] and opposite functor categories.
-
-The last equivalence is because $Func^L(\infty Grpd, C) \simeq Func(1, C)$. 
-
-Since both constructions corepresent the same functor $Func(S, -)$, the yoneda lemma ensures there is a natural equivalence $ P(S) \simeq Func(S^{op}, \infty Grpd)^{ladj} $.
-
-Now consider the chain of equivalences
-
-$$
-  Func(S, C)
-  \leftarrow Func^L(Func(S^{op}, \infty Grpd)^{ladj}, C)
-  \to Func^L(P(S), C)
-  \to Func(S, C)
-$$
-
-where the first map is inverse to composition with the yoneda embedding, the second map is the equivalence constructed previously, and the third map is composition with the yoneda embedding.
-
-Be careful to note that the first equivalence has not yet been shown to be natural in $S$.
-
-The overall composite is essentially uniquely determined by an automorphism of $\alpha_S$ of $S$. It remains to be shown that  $\alpha_S$ is an identity.
-
-When $S = \Delta^n$, $S$ has no nontrivial automorphisms, so 
-$\alpha_{\Delta^n}$ is the identity.
-
-For a functor $\phi : \Delta^n \to S$. The naturality of the above equivalence gives a commutative square
-
-\begin{tikzcd}
-  P(\Delta^n) \arrow[r] \arrow[d] &
-  Func(\Delta^{op}, \infty Grpd)^{ladj} \arrow[d]
-  \\ P(S) \arrow[r] &
-  Func(S^{op}, \infty Grpd)^{ladj}
-\end{tikzcd}
-
-
-[[Higher Topos Theory|HTT, 5.2.6.3]] asserts $P(\phi)$ is left adjoint to $\Func(\phi, \infty Grpd)$, so the left and right arrows are homotopic. 
-
-We've already seen the top arrow is homotopic to the identity, and so we infer $\alpha_S \phi \simeq \phi$. Since the $\Delta^n$ generate $(\infty,1)Cat$, $\alpha_S$ is thus homotopic to the identity.
-
-=--
-
-Note that a natural automorphism of either functor extending $PSh$ would induce a natural automorphism of the identity functor on $(\infty,1)Cat$. By [[Higher Topos Theory|HTT, 5.2.9.1]], the space of such automorphisms is contractible.
 
 
 
@@ -419,9 +413,12 @@ If that [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the embedding of th
 
 ## References ##
 
-This is the topic of section 5.1 of 
+* {#Dugger01} [[Dan Dugger]], *[[Universal homotopy theories]]*, Advances in Mathematics **164** (2001) 144-176 &lbrack;[arXiv:math/0007070](https://arxiv.org/abs/math/0007070), [doi:10.1006/aima.2001.2014](https://doi.org/10.1006/aima.2001.2014)&rbrack;
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], section 5.1 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html)&rbrack;
+
+
+
 
 [[!redirects (infinity,1)-categories of (infinity,1)-presheaves]]
 
