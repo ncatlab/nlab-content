@@ -320,16 +320,17 @@ These two constructions are related.
 
 $Func(-, \infty Grpd) : (\infty, 1)Cat^{op} \to (\infty, 1)\widehat{Cat}$ takes values in the subcategory of [[presentable (∞,1)-categories]] and functors preserving small limits and colimits, and thus having left and right adjoints.
 
+Let $Pr^L(\infty,1)Cat$ be the (∞,1)category of [[presentable (∞,1)-categories]] and functors that are left adjoints,
+and similarly for $Pr^R(\infty,1)Cat$.
+
+
 +-- {: .un_theorem}
 ###### Theorem
 
 The [[adjoint (infinity,1)-functor#category_of_adjunctions|local left adjoint]]
 to $Func(-, \infty Grpd) : (\infty, 1)Cat^{op} \to Pr^R(\infty,1)Cat$
-is the free cocompletion functor $P : (\infty, 1)Cat \to Pr^L(\infty,1)Cat$
-
-where $Pr^\bullet(\infty,1)Cat$, for $\bullet = R$ ($\bullet=L$) is the (∞,1)category of [[presentable (∞,1)-categories]] and functors that are right (left) adjoints.
-
-Furthermore, the natural transformation $S \to P(S)$ embedding a small (∞,1)-category into its free cocompletion has components homotopic to the yoneda embedding $S \to Func(S^{op}, \infty Grpd)$.
+is naturally equivalent to the the free cocompletion functor $P : (\infty, 1)Cat \to Pr^L(\infty,1)Cat$
+by a natural equivalence whose components at a small (∞,1)-category $S$ are homotopic to the identity functor on $PSh(S)$.
 
 =--
 
@@ -340,7 +341,7 @@ Consider the (∞,1)-category of possibly large (∞,1)-categories that have sma
 $$
   Func^L(P(S), -) \simeq Func(S, -)
 $$
-and the embedding $S \to P(S)$ is the unit of this adjunction.
+given by composition with the yoneda embedding.
 
 Let $Func(-, \infty Grpd)^{ladj}$ denote the local left adjoint to $Func(-, \infty Grpd)$.
 Then for $C \in Pr^L(\infty,1)Cat$
@@ -362,7 +363,7 @@ The last equivalence is because $Func^L(\infty Grpd, C) \simeq Func(1, C)$.
 
 Since both constructions corepresent the same functor $Func(S, -)$, the yoneda lemma ensures there is a natural equivalence $ P(S) \simeq Func(S^{op}, \infty Grpd)^{ladj} $.
 
-Consider the chain of equivalences, natural in $C$
+Now consider the chain of equivalences
 
 $$
   Func(S, C)
@@ -371,14 +372,32 @@ $$
   \to Func(S, C)
 $$
 
-where the first map is induced by the yoneda embedding,
-the second map is the equivalence of the previous paragraph, and the third map is induced by free cocompletion.
+where the first map is inverse to composition with the yoneda embedding, the second map is the equivalence constructed previously, and the third map is composition with the yoneda embedding.
 
-So for each $S$, by the yoneda lemma, the overall composite is determined by an autoequivalence $S \mapsto S$.
+Be careful to note that the first equivalence has not yet been shown to be natural in $S$.
 
-....
+The overall composite is essentially uniquely determined by an automorphism of $\alpha_S$ of $S$. It remains to be shown that  $\alpha_S$ is an identity.
+
+When $S = \Delta^n$, $S$ has no nontrivial automorphisms, so 
+$\alpha_{\Delta^n}$ is the identity.
+
+For a functor $\phi : \Delta^n \to S$. The naturality of the above equivalence gives a commutative square
+
+\begin{tikzcd}
+  P(\Delta^n) \arrow[r] \arrow[d] &
+  Func(\Delta^{op}, \infty Grpd)^{ladj} \arrow[d]
+  \\ P(S) \arrow[r] &
+  Func(S^{op}, \infty Grpd)^{ladj}
+\end{tikzcd}
+
+
+[[Higher Topos Theory|HTT, 5.2.6.3]] asserts $P(\phi)$ is left adjoint to $\Func(\phi, \infty Grpd)$, so the left and right arrows are homotopic. 
+
+We've already seen the top arrow is homotopic to the identity, and so we infer $\alpha_S \phi \simeq \phi$. Since the $\Delta^n$ generate $(\infty,1)Cat$, $\alpha_S$ is thus homotopic to the identity.
 
 =--
+
+Note that a natural automorphism of either functor extending $PSh$ would induce a natural automorphism of the identity functor on $(\infty,1)Cat$. By [[Higher Topos Theory|HTT, 5.2.9.1]], the space of such automorphisms is contractible.
 
 
 
