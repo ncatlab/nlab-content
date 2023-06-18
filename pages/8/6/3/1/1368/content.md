@@ -312,6 +312,74 @@ $$
 
 This appears as [[Higher Topos Theory|HTT, 5.1.6.12]].
 
+## Functorality
+
+The two descriptions of $PSh(S)$ as the functor category $Func(S^{op}, \infty Grpd)$ and as the free cocompletion $S \to PSh(S)$ extend to contravariant and covariant functors on $(\infty, 1)Cat$, respectively.
+
+These two constructions are related.
+
+$Func(-, \infty Grpd) : (\infty, 1)Cat^{op} \to (\infty, 1)\widehat{Cat}$ takes values in the subcategory of [[presentable (∞,1)-categories]] and functors preserving small limits and colimits, and thus having left and right adjoints.
+
++-- {: .un_theorem}
+###### Theorem
+
+The [[adjoint (infinity,1)-functor#category_of_adjunctions|local left adjoint]]
+to $Func(-, \infty Grpd) : (\infty, 1)Cat^{op} \to Pr^R(\infty,1)Cat$
+is the free cocompletion functor $P : (\infty, 1)Cat \to Pr^L(\infty,1)Cat$
+
+where $Pr^\bullet(\infty,1)Cat$, for $\bullet = R$ ($\bullet=L$) is the (∞,1)category of [[presentable (∞,1)-categories]] and functors that are right (left) adjoints.
+
+Furthermore, the natural transformation $S \to P(S)$ embedding a small (∞,1)-category into its free cocompletion has components homotopic to the yoneda embedding $S \to Func(S^{op}, \infty Grpd)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the (∞,1)-category of possibly large (∞,1)-categories that have small colimits, and functors preserving small colimits. By [[Higher Topos Theory|HTT, 5.3.6.10]], the inclusion into the full (∞,1)-category of (∞,1)-categories has a left adjoint $P$, which is characterized by the natural equivalence
+$$
+  Func^L(P(S), -) \simeq Func(S, -)
+$$
+and the embedding $S \to P(S)$ is the unit of this adjunction.
+
+Let $Func(-, \infty Grpd)^{ladj}$ denote the local left adjoint to $Func(-, \infty Grpd)$.
+Then for $C \in Pr^L(\infty,1)Cat$
+and $S \in (\infty,1)Cat$, there are natural equivalences
+$$
+  \begin{aligned}
+  Func^L(Func(S^{op}, \infty Grpd)^{ladj}, C)
+  &\simeq Func^R(C^{radj}, Func(S^{op}, \infty Grpd))^{op}
+  \\ &\simeq Func(S^{op}, Func^R(C^{radj}, \infty Grpd))^{op}
+  \\&\simeq Func(S, Func^L(\infty Grpd, C))
+  \\&\simeq Func(S, C)
+  \end{aligned}
+$$
+The second equivalence is because, for presentable $C$, the property of being in $Func^R$ is characterized by being accessible and preserving small limits, which can be determined pointwise.
+
+The first and third equivalence is general properties of [[adjoint (infinity,1)-functor#category_of_adjunctions|local left adjoints]] and opposite functor categories.
+
+The last equivalence is because $Func^L(\infty Grpd, C) \simeq Func(1, C)$. 
+
+Since both constructions corepresent the same functor $Func(S, -)$, the yoneda lemma ensures there is a natural equivalence $ P(S) \simeq Func(S^{op}, \infty Grpd)^{ladj} $.
+
+Consider the chain of equivalences, natural in $C$
+
+$$
+  Func(S, C)
+  \leftarrow Func^L(Func(S^{op}, \infty Grpd)^{ladj}, C)
+  \to Func^L(P(S), C)
+  \to Func(S, C)
+$$
+
+where the first map is induced by the yoneda embedding,
+the second map is the equivalence of the previous paragraph, and the third map is induced by free cocompletion.
+
+So for each $S$, by the yoneda lemma, the overall composite is determined by an autoequivalence $S \mapsto S$.
+
+....
+
+=--
+
 
 
 ## $(\infty,1)$-subcategories of $(\infty)$-presheaf categories
@@ -323,6 +391,7 @@ A [[reflective (∞,1)-subcategory]] of an $(\infty,1)$-category of $(\infty,1)$
 ### $(\infty,1)$-Sheaf $(\infty,1)$-categories
 
 If that [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the embedding of the [[reflective (∞,1)-subcategory]] furthermore preserves finite [[limit]]s, then the subcategory is an [[(∞,1)-category of (∞,1)-sheaves]]: an [[(∞,1)-topos]]
+
 
 ## Related concepts
 
