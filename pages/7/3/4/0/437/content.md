@@ -61,7 +61,7 @@ In Def. \ref{PathSpaceObject} one interprets
 
 \begin{remark}\label{InModelCategories}
 **(in model categories)**
-  In any [[model category]], the [[factorization system|factoization axioms]] applied to the [[diagonal maps]] immediately imply that every object has a path space object, and in fact a "very good" one. (See [below](#InModelCategories).)
+  In any [[model category]], the [[factorization system|factorization axioms]] applied to the [[diagonal maps]] immediately imply that every object has a path space object, and in fact a "very good" one. (See [below](#InModelCategories).)
 
 The very good path space objects in [[locally cartesian closed model categories]] serve as [[categorical semantics]] for the [[identity types]] in [[dependent type theory]] ([[homotopy type theory]]).
 \end{remark}
