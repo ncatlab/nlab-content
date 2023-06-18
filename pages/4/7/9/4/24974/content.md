@@ -40,6 +40,11 @@ Generalization to [[super Lie algebras]]:
 
 * [[Allan Merino]], Hadi Salmasian, *Classification and double commutant property for dual pairs in an orthosymplectic Lie supergroup* &lbrack;[arXiv:2208.09746](https://arxiv.org/abs/2208.09746)&rbrack;
 
+Analogues of Howe dual pairs in [[vertex operator algebra]] theory
+
+* B. Lian, [[Andrew Linshaw]], _Howe pairs in the theory of vertex algebras_, J. Algebra __317__ (2007) 111-152 arXiv:[math.RT/0605174](https://arxiv.org/abs/math/0605174) [doi](https://doi.org/10.1016/j.jalgebra.2007.07.002)
+
+
 
 [[!redirects reductive dual pairs]]
 
