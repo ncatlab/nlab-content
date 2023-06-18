@@ -208,6 +208,6 @@ For example, he compares a definition of "abelian semisimple category"(an abelia
 
 * {#Müger03} [[Michael Müger]], p. 6 in: *From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories*, J. Pure Appl. Alg. **180** (2003) 81-157 &lbrack;[arXiv:math/0111204](https://arxiv.org/abs/math/0111204), <a href="https://doi.org/10.1016/S0022-4049(02)00247-5">doi:10.1016/S0022-4049(02)00247-5</a>&rbrack;
 
-There is a [related discussion on the nForum](http://nforum.mathforge.org/discussion/1120/semisimple-category/?Focus=42783#Comment_42783) and a [discussion on MathOverflow](https://mathoverflow.net/questions/442953/what-is-the-correct-definition-of-semisimple-linear-category).
+There is a [related discussion on the nForum](http://nforum.ncatlab.org/discussion/1120/semisimple-category/?Focus=42783#Comment_42783) and a [discussion on MathOverflow](https://mathoverflow.net/questions/442953/what-is-the-correct-definition-of-semisimple-linear-category).
 
 [[!redirects semisimple categories]]
