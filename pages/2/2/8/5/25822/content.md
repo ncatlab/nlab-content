@@ -25,23 +25,50 @@ Something like this was informally argued in [Hanany & Witten (1997)](#HanayWitt
 tried to offer explanation and illustration of what is meant to be happening here, as follows:
 
 
+[Nakatsu et al (1998)](#NakatsuEtAl98):
+
+<center>
+<div style="margin:-40px 10px 10px 0;">
+<img src="/nlab/files/NakatsuEtAl-HananyWittenEffect.jpg" width="680"></img>
+</div>
+</center>
+
+
 [Marolf (2001)](#Marolf01):
 
 <center>
+<div style="margin:-40px 10px 10px 0;">
 <img src="/nlab/files/Marolf-HananyWittenEffect.jpg" width="440"></img>
+</div>
 </center>
 
 [Eto et al (2005)](#EtoEtAl05):
 
 <center>
+<div style="margin:-40px 10px 10px 0;">
 <img src="/nlab/files/EtoEtAl-HananyWittenEffect.jpg" width="720"></img>
+</div>
 </center>
 
 [Pelc (2008)](#Pelc08):
 
 <center>
+<div style="margin:-40px 10px 10px 0;">
 <img src="/nlab/files/Pelc-HananyWittenEffect.jpg" width="480"></img>
+</div>
 </center>
+
+[Gang et al (2011)](#GangEtAl11):
+
+<center>
+<div style="margin:-40px 10px 10px 0;">
+<img src="/nlab/files/GangEtAl-HananyWittenEffect.jpg" width="600"></img>
+</div>
+</center>
+
+
+
+\linebreak
 
 [Marolf (2001)](#Marolf01) suggested that the Hanany-Witten effect may be understood entirely as a consequence of the famous ([[pregeometric RR-field|pregeometric]]) [[Bianchi identity]] for the [[RR-field]]-[[fluxes]] $F_{8-2p-\sigma}$ sourced by the [[D-branes]], which is [[twisted de Rham cohomology|twisted]] by the [[B-field]]-[[flux]] $H_3$ sourced by [[NS5-branes]]:
 
@@ -323,14 +350,20 @@ The original article:
 
 Further discussion:
 
+* {#NakatsuEtAl98} Toshio Nakatsu, Kazutoshi Ohta, Takashi Yokono, Yuhsuke Yoshida, *A Proof of Brane Creation via M theory*,  	Mod. Phys. Lett. A **13** (1998) 293-302 &lbrack;[arXiv:hep-th/9711117](https://arxiv.org/abs/hep-th/9711117), [doi:10.1142/S0217732398000358](https://doi.org/10.1142/S0217732398000358)&rbrack;
+
+
 * {#KubotaZhou00} Takahiro Kubota, Jian-Ge Zhou, *RR charges of D2-branes in group manifold and Hanany-Witten effect*, JHEP 0012 (2000) 030 &lbrack;[arXiv:hep-th/0010170](https://arxiv.org/abs/hep-th/0010170), [doi:10.1088/1126-6708/2000/12/030](https://doi.org/10.1088/1126-6708/2000/12/030)&rbrack;
 
 
 * {#Marolf01} [[Donald Marolf]], §2 of: *T-duality and the case of the disappearing brane*, JHEP 0106:036 (2001) &lbrack;[arXiv:hep-th/0103098](https://arxiv.org/abs/hep-th/0103098), [doi:10.1088/1126-6708/2001/06/036](https://doi.org/10.1088/1126-6708/2001/06/036)&rbrack;
 
-* {#EtoEtAl05} Minoru Eto, Youichi Isozumi, Muneto Nitta, Keisuke Ohashi, Kazutoshi Ohta, Norisuke Sakai, *D-brane Construction for Non-Abelian Walls*, Phys.Rev. D **71** (2005) 125006 &lbrack;[arXiv:hep-th/0412024](https://arxiv.org/abs/hep-th/0412024), [doi:10.1103/PhysRevD.71.125006](https://doi.org/10.1103/PhysRevD.71.125006)&rbrack;
+* {#EtoEtAl05} Minoru Eto, Youichi Isozumi, Muneto Nitta, Keisuke Ohashi, Kazutoshi Ohta, Norisuke Sakai, §3.3 in: *D-brane Construction for Non-Abelian Walls*, Phys.Rev. D **71** (2005) 125006 &lbrack;[arXiv:hep-th/0412024](https://arxiv.org/abs/hep-th/0412024), [doi:10.1103/PhysRevD.71.125006](https://doi.org/10.1103/PhysRevD.71.125006)&rbrack;
 
 * {#Pelc08} [[Oskar Pelc]], , *On the Quantization Constraints for a D3 Brane in the Geometry of NS5 Branes*,  	JHEP 0008 (2000) 030 &lbrack;[arXiv:hep-th/0007100](https://arxiv.org/abs/hep-th/0007100), [doi:10.1088/1126-6708/2000/08/030](https://doi.org/10.1088/1126-6708/2000/08/030)&rbrack;
+
+* {#GangEtAl11} Dongmin Gang, Eunkyung Koh, Kimyeong Lee, Jaemo Park, *ABCD of 3d $\mathcal{N}=8$ and 4 Superconformal Field Theories* &lbrack;[arXiv:1108.3647](https://arxiv.org/abs/1108.3647)&rbrack;
+
 
 See also:
 
