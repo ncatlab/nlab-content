@@ -127,7 +127,7 @@ We indicate stepts in the proof of prop. \ref{EquivalentCharacterizations}.
 +-- {: .num_lemma}
 ###### Lemma
 
-Let $f \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] which exhibits $\mathcal{D}$ as an [[idempotent completion]] $\mathcal{C}$. Let $\kappa$ be a [[regular cardinal]]. Then the induced functor on [[(∞,1)-categories of ind-objects]]
+Let $f \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] which exhibits $\mathcal{D}$ as an [[idempotent completion]] of $\mathcal{C}$. Let $\kappa$ be a [[regular cardinal]]. Then the induced functor on [[(∞,1)-categories of ind-objects]]
 
 $$
   Ind_\kappa(f) \colon Ind_\kappa(\mathcal{C}) \to Ind_\kappa(\mathcal{D})
@@ -157,7 +157,7 @@ This is [Lurie, lemma 5.5.1.4](#Lurie).
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ a locally presentable $(\infty,1)$-category and $p : K \to C$ a [[diagram]] in $C$, also the [[over quasi-category|over (∞,1)-category]] $C_{/pp}$ as well as the under-$(\infty,1)$-category $C_{p/}$ are locally presentable.
+For $C$ a locally presentable $(\infty,1)$-category and $p : K \to C$ a [[diagram]] in $C$, also the [[over quasi-category|over (∞,1)-category]] $C_{/p}$ as well as the under-$(\infty,1)$-category $C_{p/}$ are locally presentable.
 
 =--
 
