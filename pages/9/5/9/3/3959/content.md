@@ -42,6 +42,9 @@ Given a predicate $P$ on the real numbers $\mathbb{R}$, let $I$ denote the set o
 A function $f:I \to \mathbb{R}$ is **smooth at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times S \to \mathbb{R}$ with $\frac{d^0 f}{d x^0}\left(a\right) = a$ for all $a \in S$, such that for all Archimedean ordered Artinian local $\mathbb{R}$-algebras $A$ with ring homomorphism $h_A:\mathbb{R} \to A$ and [[nilradical]] $D$, natural numbers $n \in \mathbb{N}$, and purely infinitesimal elements $\epsilon \in D$ such that $\epsilon^{n + 1} = 0$
 $$f_A(h_A(j(a)) + \epsilon) = \sum_{i = 0}^{n} \frac{1}{i!} h_A\left(\frac{d^i f}{d x^i}\left(a\right)\right) \epsilon^i$$ 
 
+Equivalently, let $\mathbb{R}[[\epsilon]]$ denote the ring of univariate [[formal power series]] on $\mathbb{R}$. $\mathbb{R}[[\epsilon]]$ is a [[Artinian local ring|Artinian local]] $\mathbb{R}$-algebra with homomorphism $h:\mathbb{R} \to \mathbb{R}[[\epsilon]]$. A function $f:I \to \mathbb{R}$ is **smooth at a subset** $S \subseteq I$ with injection $j:S \hookrightarrow \mathbb{R}$ if it has a function $\frac{d^{-} f}{d x^{-}}:\mathbb{N} \times S \to \mathbb{R}$ with $\frac{d^0 f}{d x^0}\left(a\right) = a$ for all $a \in S$, such that for all natural numbers $n \in \mathbb{N}$
+$$f_A(h(j(a)) + \epsilon) = \sum_{i = 0}^{\infty} \frac{1}{i!} h\left(\frac{d^i f}{d x^i}\left(a\right)\right) \epsilon^i$$ 
+
 A function $f:I \to \mathbb{R}$ is **smooth at an element** $a \in I$ if it is smooth at the [[singleton subset]] $\{a\}$, and a function $f:I \to \mathbb{R}$ is **smooth** if it is smooth at the [[improper subset]] of $I$. 
 
 ### Between Cartesian spaces
