@@ -9,7 +9,7 @@ __Gregg Jay Zuckerman__ is a mathematician at Yale University.
 On the [[variational bicomplex]]:
 
 * {#Zuckerman87} [[Gregg Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.) *Mathematical Aspects of String Theory*, World Scientific (1987) 259-284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/0383](https://doi.org/10.1142/0383)&rbrack;
-
+* [[Bong Lian|Bong H. Lian]], Gregg J. Zuckerman, _New perspectives on the BRST-algebraic structure of string theory_, Commun.Math. Phys. 154, 613-646 (1993) [doi](https://doi.org/10.1007/BF02102111)
 
 On [[representation theory]] and [[derived functors]]:
 
