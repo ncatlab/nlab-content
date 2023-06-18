@@ -88,7 +88,7 @@ This is [Lurie, Thm. 5.5.1.1 & Prop. A.3.7.6](#Lurie), following [Simpson 99](#S
 +-- {: .num_remark}
 ###### Remark
 
-That [[localization of an (infinity,1)-category|localizations]] $\mathcal{C} \stackrel{\leftarrow}{\hookrightarrow} PSh_{(\infty,1)}(K)$ correspond to combinatorial simplicial model categories is essentially **[[Dugger's theorem]]** ([Dugger](#Dugger)): every [[combinatorial model category]] arises, up to Quillen equivalence, as the left [[Bousfield localization of model categories|left Bousfield localization]] of the global projective [[model structure on simplicial presheaves]].
+That [[localization of an (infinity,1)-category|localizations]] $\mathcal{C} \stackrel{\leftarrow}{\hookrightarrow} PSh_{(\infty,1)}(K)$ correspond to combinatorial simplicial model categories is essentially **[[Dugger's theorem]]** ([Dugger](#Dugger)): every [[combinatorial model category]] arises, up to Quillen equivalence, as the [[Bousfield localization of model categories|left Bousfield localization]] of the global projective [[model structure on simplicial presheaves]].
 
 =--
 
