@@ -16,15 +16,18 @@
 
 ## Disambiguation
 
-Similarly to how a [[setoid]] can refer to a set with either an [[equivalence relation]] or a [[pseudo-equivalence relation]], a *setoid [[object]]* in a [[finitely complete category]] can refer to either
+By *setoid objects* one will means [[objects]] equipped with *[[setoid]]*-[[structure]] [[internalization|internal]] to suitable ambient [[categories]]. Setoid objects [[internalization|internal]] to [[Set]] are ordinary [[setoids]].
 
-* an [[object]] with an [[internal equivalence relation]] (i.e. a [[congruence]])
+Similarly to how the plain term *[[setoids]]* may refer to [[sets]] ([[objects]] of the category [[Set]]) equipped with either an [[equivalence relation]] or to sets equipped with a  [[pseudo-equivalence relation]], so the term *setoid object* in a [[finitely complete category]] may refer to either
 
-* an [[object]] with an [[internal pseudo-equivalence relation]]. 
+* an [[object]] quipped with an [[internal equivalence relation]] (i.e. a [[congruence]])
+
+* an [[object]] equipped with an [[internal pseudo-equivalence relation]]. 
 
 ## Related concepts
 
 * [[setoid]]
+
 * [[internalization]]
 
 category:disambiguation
