@@ -4,13 +4,21 @@ This entry is about the article
 
 * [[Daniel Dugger]]:
 
+  \linebreak
+
   **[[DuggerUniv.pdf:file]]**
 
-  Advances in Mathematics __164__, 
+  \linebreak
 
-  144-176 (2001) 
+  Advances in Mathematics __164__
+
+  (2001) 144-176 
+
+  [doi:10.1006/aima.2001.2014](https://doi.org/10.1006/aima.2001.2014)
 
   [arXiv:math/0007070](http://arxiv.org/abs/math/0007070)
+
+on the projective local [[model structure on simplicial presheaves]].
 
 \linebreak
 
