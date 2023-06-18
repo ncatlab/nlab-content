@@ -1,12 +1,15 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-In [[string theory]], what has come to be known as the *Hanany-Witten-effect* or *-process* or *-move* is the rough idea that 
+In [[string theory]], what has come to be known as the *Hanany-Witten-effect* (or *-process*, *-tansition*, or *-move*) is an expected phenomenon exhibited by branes in [[type II string theory]] which is roughly described as follows:
 
 "*Moving an [[NS5-brane]] across a [[D-brane|$D (2p+\sigma)$-brane]] creates a [[D-brane|$D (2p-2 + \sigma)$-brane]] [[intersecting branes|stretching between]] the two*".
 
-(Here $\sigma = 0$ in [[type IIA string theory]] and $\sigma=1$ in [[type IIB string theory]].)
+> (Here $\sigma = 0$ in [[type IIA string theory]] and $\sigma=1$ in [[type IIB string theory]].)
 
 Something like this was informally argued in [Hanany & Witten (1997)](#HanayWitten97). Later authors have
 tried offer illustration of what is meant to be happening here, as follows:
@@ -48,13 +51,19 @@ and offered an argument in prose &lbrack;[Marolf (2001) pp. 3](#Marolf01)&rbrack
 
 \linebreak
 
+\linebreak
+
+\linebreak
+
+\linebreak
+
 
 \[
   \label{IllustrationFluxDensitityofD6OnD8}
 \]
 <center>
-<div style="margin:-60px 10px 10px 0;">
-<img src="/nlab/files/FluxesOfD6BetweenNS5AndD8-230618.jpg" width="650"></img>
+<div style="margin:-200px 10px 10px 0;">
+<img src="/nlab/files/FluxesOfD6BetweenNS5AndD8-230618b.jpg" width="650"></img>
 </div>
 </center>
 
@@ -240,11 +249,69 @@ In order to model the Hanany-Witten effect proper as considered by previous auth
 
   which just means to disregard D6-brane whose presence is not due to the Hanany-Witten effect.
 
+With these boundary conditions set, the differential equation (eq:BianchiIdentityForD6BraneFlux) may be solved for $F_2$, and hence for the density of D6-brane charge/number which is "created" by the Hanany-Witten effect: At given $x^9$ the number/charge of D6-branes seen is the integral of $F^2$ around the 2-sphere in 
+
+$$
+  \mathbb{R}^{9,1}
+  \setminus
+  \mathbb{R}^{6,1}
+  \;\simeq\;
+  \mathbb{R}^{6,1} 
+    \times
+  \mathbb{R}_+
+    \times 
+  S^2 
+$$
+
+over $(\vec 0, x^9) \,\in\, \mathbb{R}^{6,1}$.  Now there are two cases:
+
+1. **$d \lt 0$ -- indicated in the top part of figure (eq:IllustrationFluxDensitityofD6OnD8)**
+
+   In this case the NS5-brane is to the "right" of the D8-brane and hence in the Romans vacuum where $F_0 = 0$. Here the differential equation (eq:BianchiIdentityForD6BraneFlux) becomes
+
+   $$
+     \begin{array}{c}
+      \mathrm{d} F_2 &=& F_0 \wedge H_3
+      \\
+      &=& 0
+     \end{array}
+   $$
+
+   This means that $F_2$ does not change in the Romans vacuum, and hence if it vanishes to the left, as the boundary condition assumes, then it vanishes throughout.
+
+   Since the integral of $F_2$ counts the number/charge of D6-brane, the conclsusion is that *no D6-branes are created* in this situation.
+
+1. **$d \gt 0$ -- indicated in the bottom part of figure (eq:IllustrationFluxDensitityofD6OnD8)**
+
+   In this case the NS5-brane is to the "left" of the D8-brane and hence in the region where $F_0 = N$ equals the number of D8-branes. Here the differential equation (eq:BianchiIdentityForD6BraneFlux) becomes
+
+   $$
+     \begin{array}{c}
+      \mathrm{d} F_2 &=& F_0 \wedge H_3
+      \\
+      &=& N \, H_3
+     \end{array}
+   $$
+
+   This means now that as approach the NS5/D8-branes from the "left", $F_2$ is continuously increasing by a rate measured by the density $H_3$ of NS5-brane flux. While this is everywhere non-vanishing, it is concentrated around the NS5-brane worldvolume locus (falling off by a power law from there). Therefore once we have "crossed the NS5-brane" and thus picked up most of its flux, $\int_{S^2} F_2$ will have increased from its asympotically vanishing value to $N \int_{S^2} \int_{-\infty}^d H_3 \,\sim\, N \int_{S^3} H_3 \,\sim\, N k$, the product of the number of NS5-branes and D8-branes. This is hence the number of D6-branes "created" by the Hanany-Witten effect.
+
+
+
+
+## Related concepts
+
+[[!include brane bound states -- table]]
+
+
+
 
 ## References
 
+The original article:
+
 * {#HanayWitten97} [[Amihay Hanany]], [[Edward Witten]], *Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics*, Nucl. Phys.B **492** (1997) 152-190 &lbrack;[arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230), <a href="https://doi.org/10.1016/S0550-3213(97)80030-2">doi:10.1016/S0550-3213(97)80030-2</a>&rbrack;
 
+Further discussion:
 
 * {#KubotaZhou00} Takahiro Kubota, Jian-Ge Zhou, *RR charges of D2-branes in group manifold and Hanany-Witten effect*, JHEP 0012 (2000) 030 &lbrack;[arXiv:hep-th/0010170](https://arxiv.org/abs/hep-th/0010170), [doi:10.1088/1126-6708/2000/12/030](https://doi.org/10.1088/1126-6708/2000/12/030)&rbrack;
 
@@ -255,5 +322,8 @@ In order to model the Hanany-Witten effect proper as considered by previous auth
 
 * {#Pelc08} [[Oskar Pelc]], , *On the Quantization Constraints for a D3 Brane in the Geometry of NS5 Branes*,  	JHEP 0008 (2000) 030 &lbrack;[arXiv:hep-th/0007100](https://arxiv.org/abs/hep-th/0007100), [doi:10.1088/1126-6708/2000/08/030](https://doi.org/10.1088/1126-6708/2000/08/030)&rbrack;
 
+See also:
+
+* Wikipedia, *[Hanany-Witten transition](https://en.wikipedia.org/wiki/Hanany%E2%80%93Witten_transition)*
 
 
