@@ -86,7 +86,7 @@ where we regard $T$ as a [[Kan complex]]-[[enriched category]] and have on the r
 This says in particular that every weak $(\infty,1)$-functor $f : T \to \infty \mathrm{Grp}$ is equivalent to a _rectified_ on $F : T \to KanCplx$. And $f \in PSh_{(\infty,1)}(C^{op})$ belongs to $Alg_{(\infty,1)}(C)$ if $F$ preserves finite products _weakly_  in that for $\{c_i \in C\}$ a finite collection of objects, the canonical natural morphism
 
 $$
-  F(c_1 \times \cdots, \c_n)
+  F(c_1 \times \cdots\times \c_n)
   \to
   F(c_1) \times \cdots \times F(c_n)
 $$ 
