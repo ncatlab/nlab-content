@@ -35,7 +35,7 @@ As [[black branes]] ([[D2-D6-NS5 brane bound state]]):
 
 * [[Konstadinos Sfetsos]], [[Kostas Skenderis]], Section 2.2 of: _Microscopic derivation of the Bekenstein-Hawking entropy formula for non-extremal black holes_, Nucl. Phys. B517 (1998) 179-204 ([arXiv:hep-th/9711138](https://arxiv.org/abs/hep-th/9711138))
 
-* Oskar Pelc, Ruud Siebelink, _The D2-D6 System and a Fibered AdS Geometry_, Nucl. Phys. B558:127-158, 1999 ([arXiv:hep-th/9902045](https://arxiv.org/abs/hep-th/9902045))
+* [[Oskar Pelc]], Ruud Siebelink, *The D2-D6 System and a Fibered AdS Geometry*, Nucl. Phys. B **558** (1999) 127-158 &lbrack;[arXiv:hep-th/9902045](https://arxiv.org/abs/hep-th/9902045), <a href="https://doi.org/10.1016/S0550-3213(99)00332-6">doi:10.1016/S0550-3213(99)00332-6</a>&rbrack;
 
 * Federico Faedo, [[Yolanda Lozano]], [[Nicolo Petri]], _Searching for surface defect CFTs within $AdS_3$_, JHEP 11 (2020) 052 ([arXiv:2007.16167](https://arxiv.org/abs/2007.16167))
 
