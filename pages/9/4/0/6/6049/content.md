@@ -332,7 +332,7 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 [[!include table of branes]]
 
 
-\linebreaK
+\linebreak
 
 
 ## References
