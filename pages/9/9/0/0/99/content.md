@@ -485,7 +485,7 @@ This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is t
 The Weil algebra of a Lie algebra is naturally identified with the
 de Rham algebra of differential forms on the "universal $G$-principal bundle with connection" in its stacky incarnation ([Freed-Hopkins 13](#FreedHopkins13)):
 
-Write $\mathbf{B}G_{conn}\simeq \mathbf{\Omega}(-,\mathfrak{G})///G$ for the universal [[moduli stack]] of $G$-[[principal connections]] (as discussed there), a [[smooth groupoid]]. The quotient projection may be regarded as th universal $G$-connection:
+Write $\mathbf{B}G_{conn}\simeq \mathbf{\Omega}(-,\mathfrak{g})//G$ for the universal [[moduli stack]] of $G$-[[principal connections]] (as discussed there), a [[smooth groupoid]]. The quotient projection may be regarded as the universal $G$-connection:
 
 $$
   \array{
