@@ -323,6 +323,8 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## Related concepts
 
+* [[Hanany-Witten effect]]
+
 * [[small instanton]]
 
 * [[brane]], [[string]]
