@@ -631,11 +631,15 @@ If the [[de Rham complex]] $(\Omega^\bullet(X),d_{dr})$ is [[formal dg-algebra|f
 
 ([Cavalcanti 03, theorem 1.6](#Cavalcanti03)).
 
+
 ## Related concepts
 
 * [[twisted Chern character]], [[twisted equivariant Chern character]]
 
 * [[inner local system]]
+
+* [[Hanany-Witten effect]]
+
 
 ## References
 
