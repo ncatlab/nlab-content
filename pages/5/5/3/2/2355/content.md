@@ -473,14 +473,9 @@ This is a restatement of [[Higher Topos Theory|HTT, corr. 5.2.2.5]].
 =--
 
 
-+-- {: .num_lemma}
-###### Lemma
-
-There are anti-equivalences $ladj : RAdj^{op} \to LAdj$
-and $radj : LAdj^{op} \to RAdj$ that are the identity on objects
-and the action on homspaces $LAdj(C, D) \simeq RAdj(D,C)$ is the equivalence sending a functor to its adjoint.
-
-=--
+\begin{lemma}\label{LadjAndRadj}
+There are anti-equivalences $ladj \,\colon\, RAdj^{op} \to LAdj$ and $radj \,\colon\, LAdj^{op} \to RAdj$ that are the identity on objects and the action on homspaces $LAdj(C, D) \simeq RAdj(D,C)$ is the equivalence sending a functor to its adjoint.
+\end{lemma}
 
 +-- {: .proof}
 ###### Proof
