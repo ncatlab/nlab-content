@@ -11,6 +11,10 @@ On [[small instantons]] as [[NS5-branes]]/[[M5-branes]] in [[E8]]-[[heterotic st
 
 * [[Amihay Hanany]], Noppadol Mekareeya, _The Small $E_8$ Instanton and the Kraft Procesi Transition_, JHEP07 (2018) 098 ([arXiv:1801.01129](https://arxiv.org/abs/1801.01129))
 
+On [[geometric engineering of quantum field theories]] involving [[NS5-branes]] and introducing the [[Hanany-Witten effect]] and other effects of [[NS5-brane]]/[[D-brane]] [[brane intersection|intersections]]:
+
+* {#HanayWitten97} [[Amihay Hanany]], [[Edward Witten]], *Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics*, Nucl. Phys.B **492** (1997) 152-190 &lbrack;[arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230), <a href="https://doi.org/10.1016/S0550-3213(97)80030-2">doi:10.1016/S0550-3213(97)80030-2</a>&rbrack;
+
 On [[D-branes]] [[brane intersection|intersecting]] [[NS5-branes]]:
 
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
@@ -66,7 +70,7 @@ On [[D=3 N=4 super Yang-Mills theory]]:
 * [[Stefano Cremonesi]], [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopole operators and Hilbert series of Coulomb branches of 3d $\mathcal{N} = 4$ gauge theories_, JHEP 01 (2014) 005 ([arXiv:1309.2657](https://arxiv.org/abs/1309.2657))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[super Yang-Mills theory]]
 
