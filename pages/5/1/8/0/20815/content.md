@@ -45,6 +45,8 @@
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
+* [[Hanany-Witten effect]]
+
 [[S-duality]]$\,$[[bound states]]:
 
   * [[(p,q)-string]] 
@@ -65,9 +67,6 @@
   * [[M-string]], [[E-string]]
 
 * [[membrane triple junction]]
-
-
-
 
 
 
