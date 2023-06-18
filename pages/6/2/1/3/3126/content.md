@@ -165,7 +165,7 @@ A diagram in the tangent $(\infty,1)$-category $T_{\mathcal{C}}$ is an [[(∞,1)
 
 =--
 
-([Lurie, HigherAlgebra, prop. 8.3.1.12](#LurieHigherAlgebra))
+([Lurie, HigherAlgebra, prop. 7.3.1.12](#LurieHigherAlgebra))
 
 
 
@@ -956,7 +956,7 @@ Generalization to parameterized objects in any [[stable (∞,1)-category]] is di
 
 A more general notion of a _tangent structure on an $(\infty, 1)$-category_ was attempted to reformulate the [[Goodwillie calculus]] in:
 
-* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).  As of August 2022, this paper is withdrawn due to an error.
+* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).  As of August 2022, this paper is withdrawn due to an error; a corrected version appeared on 25 Feb 2023.
 
 Two further examples of tangent structures on an $(\infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
 
