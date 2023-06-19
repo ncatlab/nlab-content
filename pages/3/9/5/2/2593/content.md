@@ -304,12 +304,11 @@ Accounts of the standard theory of Lie algebra cohomology include
 
 * [[Charles Weibel]], chapter 7 of _An introduction to homological algebra_, Cambridge Studies in Adv. Math. __38__, CUP 1994
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
+* [[José de Azcárraga]], [[José M. Izquierdo]], Section 6 of: *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
 
-* [[José de Azcárraga]], Jos&#233;  M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046))
+* [[José de Azcárraga]], [[José M. Izquierdo]], J. C. Perez Bueno, *An introduction to some novel applications of Lie algebra cohomology and physics*, RACSAM **95** 2 (2001) 225-248 &lbrack;[arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046), [eudml:40921](https://eudml.org/doc/40921)&rbrack;
 
-* {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and
-Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
+* {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
 
 See also
 
