@@ -16,9 +16,9 @@ On [[Killing spinors]] [[D=6 supergravity]] related to [[D=6 N=(1,0) SCFT]]:
 * Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
 
 
-On [[M2-M5 brane bound states]]:
+On [[M2-M5-brane bound states]]:
 
-* {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
+* {#ILPT95} [[José M. Izquierdo]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], *Dyonic Membranes*, Nucl. Phys. B **460** (1996) 560-578 &lbrack;[arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177), <a href="https://doi.org/10.1016/0550-3213(95)00606-0">doi:10.1016/0550-3213(95)00606-0</a>&rbrack;
 
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
 
