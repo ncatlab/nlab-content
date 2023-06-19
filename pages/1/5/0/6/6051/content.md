@@ -183,7 +183,7 @@ Review:
 
 * [[Igor Dolgachev]], pp, 43, 51 in: *Introduction to string theory for mathematicians*, lecture at *[1999 Summer on Algebraic Geometry and Physics](https://people.sissa.it/~bruzzo/sagp99/sagp.html)* (1999) &lbrack;[pdf](https://dept.math.lsa.umich.edu/~idolga/stringy.pdf), [[Dolgachev-IntroductionStringTheory.pdf:file]]&rbrack;
 
-Discussion in [[BV-BRST formalism]]:
+Discussion of the Polyakov action and [[Nambu-Goto action]] on [[worldsheets]] with [[manifold with boundary|boundary]] (i.e. in the generality of [[open strings]]) and cast in [[BV-BRST formalism]]:
 
 * {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
 
