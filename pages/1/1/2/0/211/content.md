@@ -31,7 +31,7 @@ In short, please choose a unique identifiable pseudonym with which to sign your 
 ## In the past
 
 
-From its inception up to some ago years the nLab software would offer the string "AnonymousCoward" as the default for filling in the "Submit as..."-field. Eventually we found this was too condescending   (though in hindsight there may have been some value to it) and then changed the default to "Anonymous".
+From its inception up to some years ago, the nLab software would offer the string "AnonymousCoward" as the default for filling in the "Submit as..."-field. Eventually we found this was too condescending   (though in hindsight there may have been some value to it) and then changed the default to "Anonymous".
 
 This worked fine until yet a few years later there occurred a sudden flood of edits of apparently (but who knows) multiple users who all signed with the exact same string "Anonymous" and most of whose edits were of decidedly low quality and kept needing intervention from regulars. But the real problem was these users would not react to commentary which their edits received on the [nForum](https://nforum.ncatlab.org). 
 Therefore, the only way we saw left to handle this problem was to try and block the string "Anonymous". Remarkably  enough, that was sufficient to stop the rogue editor(s).
