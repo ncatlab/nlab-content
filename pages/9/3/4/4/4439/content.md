@@ -39,7 +39,8 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
   This volume tries to give an impression of the rather recent massive progress that has happened in the mathematical understanding of fundamental ingredients of perturbative string theory, revolving around the proof of the [[cobordism hypothesis]] and related topics of [[higher category theory and physics]]. This is not an introductory textbook, even though some contributions do contain introductory material. Rather, this is meant to be read by people who already understand the basic idea of string theory and would like to see what the mathematical picture behind it all is going to be.
 
-* Igor V. Dolgachev, [Introduction to string theory](http://www.math.lsa.umich.edu/~idolga/lecturenotes.html)
+* [[Igor Dolgachev]], *Introduction to string theory for mathematicians*, lecture at *[1999 Summer on Algebraic Geometry and Physics](https://people.sissa.it/~bruzzo/sagp99/sagp.html)* (1999) &lbrack;[pdf](https://dept.math.lsa.umich.edu/~idolga/stringy.pdf), [[Dolgachev-IntroductionStringTheory.pdf:file]]&rbrack;
+
 
 * [[Paul Aspinwall]], [[Tom Bridgeland]], Alastair Craw, [[Michael Douglas]], Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
 
