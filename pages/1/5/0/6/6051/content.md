@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -162,20 +161,33 @@ where it is generalized to the [[superstring]], but in fact (cf. [Polyakov (2008
 * [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B **65** Issue 5, 20 (1976) 471-474 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90445-7">doi:10.1016/0370-2693(76)90445-7</a>&rbrack;
  
 
-Further discussion of the Polyakov action:
+Further early discussion of the Polyakov action:
 
 * [[Jean-Loup Gervais]], [[André Neveu]], *The dual string spectrum in Polyakov's quantization (I)*, Nuclear Physics B **199** 1 (1982) 59-76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90566-1">doi:10.1016/0550-3213(82)90566-1</a>&rbrack;
 
 * [[Jean-Loup Gervais]], [[André Neveu]], *Dual string spectrum in Polyakov's quantization (II). Mode separation*, Nuclear Physics B **209** 1 (1982) 125-145 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90105-5">doi:10.1016/0550-3213(82)90105-5</a>&rbrack;
 
-and of the related [[Liouville theory]]:
+* {#Nag96} Subhashis Nag, *Mathematics in and out of String Theory*, Topology and Teichmüller Spaces (1996) 187-220 &lbrack;[arXiv:alg-geom/9512010](https://arxiv.org/abs/alg-geom/9512010), [doi:10.1142/9789814503921_0011](https://doi.org/10.1142/9789814503921_0011)&rbrack;
+
+
+and further discussion of the related [[Liouville theory]]:
 
 * [[Colin Guillarmou]], [[Rémi Rhodes]], [[Vincent Vargas]], *Polyakov's formulation of 2d bosonic string theory*, Publ. Math. IHES **130** (2019) 111–185 &lbrack;[arXiv:1607.08467](https://arxiv.org/abs/1607.08467), [doi:10.1007/s10240-019-00109-6](https://doi.org/10.1007/s10240-019-00109-6)&rbrack;
 
 
-Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]] is in 
+Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]]
 
 * {#Nieto01} J. A. Nieto, _Remarks on Weyl invariant p-branes and Dp-branes_ ([arXiv:hep-th/0110227](http://arxiv.org/abs/hep-th/0110227))
+
+Review:
+
+* [[Igor Dolgachev]], pp, 43, 51 in: *Introduction to string theory for mathematicians*, lecture at *[1999 Summer on Algebraic Geometry and Physics](https://people.sissa.it/~bruzzo/sagp99/sagp.html)* (1999) &lbrack;[pdf](https://dept.math.lsa.umich.edu/~idolga/stringy.pdf), [[Dolgachev-IntroductionStringTheory.pdf:file]]&rbrack;
+
+Discussion in [[BV-BRST formalism]]:
+
+* {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
+
+
 
 See also 
 
