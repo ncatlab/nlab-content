@@ -51,8 +51,7 @@ The [[cocycles]] of the exceptional [[∞-Lie algebra cohomology]] of $\mathfrak
 
 The [[type IIA supergravity]] Lie 2-algebra and its [[D-brane]]-[[Green-Schwarz action functional]]-type cocycles are discussed in section 6 of
 
-* C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
- {#CAIB99}
+* {#CAIB99} C. Chrysso‌malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
 
 The [[type IIB supergravity]] Lie 2-algebra and its [[D-brane]]-[[Green-Schwarz action functional]]-type cocycles are discussed in section 2 of 
 
