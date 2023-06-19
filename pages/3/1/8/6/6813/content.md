@@ -127,7 +127,17 @@ Further developments include
 
 * Jay Armas, Joan Camps, Troels Harmark, Niels A. Obers, _The Young Modulus of Black Strings and the Fine Structure of Blackfolds_ ([arXiv:1110.4835](http://arxiv.org/abs/1110.4835)) 
 
+### Blackfold approach
+
+* [[Roberto Emparan]], [[Troels Harmark]], [[Vasilis Niarchos]], [[Niels A. Obers]], *Essentials of Blackfold Dynamics*, JHEP 1003 063 (2010) &lbrack;[arXiv:0910.1601](https://arxiv.org/abs/0910.1601), <a href="https://doi.org/10.1007/JHEP03(2010)063">doi:10.1007/JHEP03(2010)063</a>&rbrack;
+
+* [[Roberto Emparan]], [[Troels Harmark]], [[Vasilis Niarchos]], [[Niels A. Obers]], *Blackfolds in Supergravity and String Theory*, JHEP 1108 (2011) 154 &lbrack;[arXiv:1106.4428](https://arxiv.org/abs/1106.4428)<a href="https://doi.org/10.1007/JHEP08(2011)154">doi:10.1007/JHEP08(2011)154</a>&rbrack;
+
 
 [[!redirects black branes]]
 [[!redirects black p-brane]]
 [[!redirects black p-branes]]
+
+[[!redirects blackfold]]
+[[!redirects blackfolds]]
+
