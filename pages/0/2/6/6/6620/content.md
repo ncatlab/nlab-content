@@ -2,4 +2,11 @@ J&#252;rgen Jost is an applied mathematician at Max Planck for Mathematics in Na
 
 * [publications](http://www.mis.mpg.de/de/jjost/publikationen)
 
+## Selected writings
+
+On the [[Polyakov action]] and [[bosonic strings]]:
+
+* [[Jürgen Jost]], *Bosonic Strings: A Mathematical Treatment*, AMS/IP Stud. Adv. Math. **21** (2001) &lbrack;[ISBBN:978-0-8218-4336-9](https://bookstore.ams.org/view?ProductCode=AMSIP/21.S.B), [spire:1388134](https://inspirehep.net/literature/1388134)&rbrack;
+
+
 [[!redirects Juergen Jost]]
