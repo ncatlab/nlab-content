@@ -99,6 +99,9 @@ See also
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+## More mathematical
+
+* [[Jürgen Jost]], *Bosonic Strings: A Mathematical Treatment*, AMS/IP Stud. Adv. Math. **21** (2001) &lbrack;[ISBBN:978-0-8218-4336-9](https://bookstore.ams.org/view?ProductCode=AMSIP/21.S.B), [spire:1388134](https://inspirehep.net/literature/1388134)&rbrack;
 
 
 ## Physics lecture notes
