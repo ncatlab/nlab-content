@@ -35,7 +35,7 @@ There are several distinct meaning of what is a Riemann surface, and it can be c
 
 Classically, a **Riemann surface** is a [[connected space|connected]] complex-$1$-dimensional [[complex manifold]], in the strictest sense of 'manifold'.  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to the [[complex plane]] $\mathbb{C}$ via charts (i.e., [[homeomorphisms]]) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is [[holomorphic function|holomorphic]].
 
-It is not necessary to make any assumption about whether there exists a countable base for the topology (second countable) the topology or whether it has a countable dense subset (separable). This is because Tibor Rado (1923) proved that all Riemann surfaces must necessarily have a countable base. Thus for elegance this condition is customarily *not* assumed by specialists in Riemann surfaces.
+It is not necessary to make any assumption about whether there exists a countable base for the topology (second countable) or whether it has a countable dense subset (separable). This is because Tibor Rado (1923) proved that all Riemann surfaces, without such prior assumptions, must necessarily have a countable base. Thus for elegance this condition is customarily *not* assumed by specialists in Riemann surfaces.
 
 There are generalizations, e.g., over [[local field]]s in [[rigid analytic geometry]]. 
 
