@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -55,7 +56,12 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * {#ILPT95} [[José M. Izquierdo]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], *Dyonic Membranes*, Nucl. Phys. B **460** (1996) 560-578 &lbrack;[arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177), <a href="https://doi.org/10.1016/0550-3213(95)00606-0">doi:10.1016/0550-3213(95)00606-0</a>&rbrack;
 
+* [[Arkady Tseytlin]], §3.2 in: *Harmonic superpositions of M-branes*, Nucl. Phys. B **475** (19960 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>&rbrack;
+
+
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
+
+
 
 * [[Troels Harmark]], Section 3.1 of _Open Branes in Space-Time Non-Commutative Little String Theory_, Nucl.Phys. B593 (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
 
@@ -68,18 +74,23 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 * [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, _Exact Half-BPS Flux Solutions in M-theory I, Local Solutions_, JHEP 0808:028, 2008 ([arXiv:0806.0605](https://arxiv.org/abs/0806.0605))
 
 
+* [[Vasilis Niarchos]], [[Konstadinos Siampos]], *M2-M5 blackfold funnels*, Journal of High Energy Physics **2012** 175 (2012) &lbrack;[arXiv:1205.1535](https://arxiv.org/abs/1205.1535), <a href="https://doi.org/10.1007/JHEP06(2012)175">doi:10.1007/JHEP06(2012)175</a>&rbrack;
+
+* [[Vasilis Niarchos]], [[Konstadinos Siampos]], *Entropy of the self-dual string soliton*, Journal of High Energy Physics **2012** 134 (2012) &lbrack;[arXiv:1206.2935](https://arxiv.org/abs/1206.2935), <a href="https://doi.org/10.1007/JHEP07(2012)134">doi:10.1007/JHEP07(2012)134</a>&rbrack;
+
+* [[Vasilis Niarchos]], [[Konstadinos Siampos]], *The black M2-M5 ring intersection spins* &lbrack;[arXiv:1302.0854](https://arxiv.org/abs/1302.0854)&rbrack;
+
+* [[Vasilis Niarchos]], *Localizing the black M2-M5 intersection* (2012) &lbrack;[pdf](https://hep.physics.uoc.gr/Slides/Fall_2012/VasilisNiarchos.pdf), [[Niarchos-BlackM2M5Branes.pdf:file]]&rbrack;
+
 
 * Leon Berdichevsky, Bat-el Dahan, _Local gravitational solutions dual to M2-branes intersecting and/or ending on M5-branes_, JHEP 08 (2013) 061 ([arXiv:1304.4389](https://arxiv.org/abs/1304.4389))
-
 
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _BPS objects in $D=7$ supergravity and their M-theory origin_, JHEP 12 (2017) 041 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
 
 
 * {#Petri18} [[Nicolò Petri]], slide 14 of: _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
-
-
-* Jay Armas, Vasilis Niarchos, Niels A. Obers, Section 2 of _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
+* Jay Armas, [[Vasilis Niarchos]], [[Niels A. Obers]], Section 2 of: _Thermal transitions of metastable M-branes_, J. High Energ. Phys. (2019) 2019: 128 &lbrack;[arXiv:1904.13283](https://arxiv.org/abs/1904.13283)&rbrack;
 
 
 ### As polarized M2 branes
