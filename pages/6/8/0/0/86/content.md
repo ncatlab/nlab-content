@@ -991,3 +991,5 @@ based on
 
 [[!redirects BFV-formalism]]
 
+[[!redirects BV-BFV formalism]]
+
