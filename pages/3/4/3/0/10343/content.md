@@ -43,7 +43,10 @@ Notably the [[supergravity Lie 3-algebra]] is the extended Minkowski spacetime o
 
 Discussion in the language of the  [[D'Auria-Fre formulation of supergravity]] ("FDA"s) and the [[brane scan]] is in 
 
-* C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl.Phys.B567:293-330, 2000  ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+* C. Chrysso‌malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
+
+
+
 
 * Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
