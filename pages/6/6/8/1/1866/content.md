@@ -53,6 +53,8 @@ The RR field derives its name from the way it shows up when the [[supergravity]]
 
 * [[D-brane charge]]
 
+* [[Hanany-Witten effect]]
+
 * [[K-theory classification of D-brane charge]]
 
   * [[differential K-theory]]
