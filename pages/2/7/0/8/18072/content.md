@@ -74,11 +74,15 @@ See the reference [below](#ReferencesSymplecticGeometryAndGeometricQuantization)
 
 ### General
 
-The [[Polyakov action]] for the bosonic string (and relation to [[Liouville theory]] in the non-critical case):
+The [[Polyakov action]] (but see there for more) for the bosonic string (and relation to [[Liouville theory]] in the non-critical case):
 
 * [[Alexander Polyakov]], *Quantum geometry of bosonic strings*, Phys. Lett. B **103** (1981) 207-210 &lbrack;<a href="https://doi.org/10.1016/0370-2693(81)90743-7">doi:10.1016/0370-2693(81)90743-7</a>, [pdf](http://qft.itp.ac.ru/polyakov-2.pdf)&rbrack;
 
+* [[Jürgen Jost]], *Bosonic Strings: A Mathematical Treatment*, AMS/IP Stud. Adv. Math. **21** (2001) &lbrack;[ISBBN:978-0-8218-4336-9](https://bookstore.ams.org/view?ProductCode=AMSIP/21.S.B)[spire:1388134](https://inspirehep.net/literature/1388134)&rbrack;
+
 See the references at _[[string theory]]_ for more.
+
+
 
 ### Symplectic geometry and geometric quantization
  {#ReferencesSymplecticGeometryAndGeometricQuantization}
