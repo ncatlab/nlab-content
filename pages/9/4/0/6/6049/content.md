@@ -50,7 +50,9 @@ By the [[brane scan]], on the [[worldvolume]] of an NS5-brane propagates a [[sup
 
 The [[black brane|black]] [[D-branes]] may end on [[black brane|black]] NS5-branes ([Callan-Harvey-Strominger 91, sections IV.C and V.B](#CallanHarveyStrominger91), [Tseytlin 96](#Tseytlin96), [Argurio-Englert-Houart 97](#ArgurioEnglertHouart97), [Brodie-Hanany 97](#BrodieHanany97), [EGKRS 00](#EGKRS00)). 
 
-This ought to be this way if [[S-duality]] and [[T-duality]] work as expected, since:
+{#OneWayToSeeThis} One way to see this is to analyze the [[twisted de Rham cohomology|twisted]] [[Bianchi identity]] $\mathrm{d} F_{8-p} \,=\, H_3 \wedge F_{8-(p+2)}$ for the [[RR-field]] [[flux densities]] sourced by [[D-brane|D$p$-branes]], in the presence of the [[B-field]]-[[flux density]] $H_3$ which is sourced by the NS5-brane -- see at *[[Hanany-Witten effect]]* for this analysis.
+
+Another way to see this is to assume that [[S-duality]] and [[T-duality]] work as expected, since then the B/NS5 intersections appear as "[[duality in string theory|duals]]" of the intersections of the [[fundamental string]] with D-branes which exist by definition of D-branes:
 
 $$
   \array{
@@ -77,7 +79,7 @@ $$
   }
 $$
 
-This leads to what is called [[geometric engineering of quantum field theory]] on the [[worldvolume]] of these branes (following [Hanany-Witten 97](#HananyWitten97), review includes [Fazzi 17](#Fazzi17)).
+This leads to what is called [[geometric engineering of quantum field theory]] on the [[worldvolume]] of these branes (following [Hanany-Witten 1997](#HananyWitten97), review includes [Fazzi 17](#Fazzi17)).
 
 
 #### Open D$p$-brane theories on the NS5
@@ -365,7 +367,7 @@ The [[brane intersection|intersection]] laws with [[black brane|black]] [[D-bran
 
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
 
-* {#EGKRS00} Shmuel Elitzur, Amit Giveon, [[David Kutasov]], Eliezer Rabinovici, Gor Sarkissian, _D-Branes in the Background of NS Fivebranes_, JHEP 0008 (2000) 046 ([arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052))
+* {#EGKRS00} Shmuel Elitzur, Amit Giveon, [[David Kutasov]], Eliezer Rabinovici, Gor Sarkissian, _D-Branes in the Background of NS Fivebranes_, JHEP 0008 (2000) 046 &lbrack;[arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052), [doi:10.1088/1126-6708/2000/08/046](https://doi.org/10.1088/1126-6708/2000/08/046)&rbrack;
 
 
 
