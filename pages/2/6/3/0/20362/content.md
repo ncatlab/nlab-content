@@ -56,16 +56,22 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * {#ILPT95} [[José M. Izquierdo]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], *Dyonic Membranes*, Nucl. Phys. B **460** (1996) 560-578 &lbrack;[arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177), <a href="https://doi.org/10.1016/0550-3213(95)00606-0">doi:10.1016/0550-3213(95)00606-0</a>&rbrack;
 
-* [[Arkady Tseytlin]], §3.2 in: *Harmonic superpositions of M-branes*, Nucl. Phys. B **475** (19960 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>&rbrack;
+* [[Arkady Tseytlin]], §3.2 in: *Harmonic superpositions of M-branes*, Nucl. Phys. B **475** (1996) 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>&rbrack;
 
 
-* [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
+* [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys. Lett. B **384** (1996) 86-92 &lbrack;[arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146)&rbrack;
 
 
 
-* [[Troels Harmark]], Section 3.1 of _Open Branes in Space-Time Non-Commutative Little String Theory_, Nucl.Phys. B593 (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
+* [[Troels Harmark]], Section 3.1 of _Open Branes in Space-Time Non-Commutative Little String Theory_, Nucl. Phys. B **593** (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
 
 * [[Troels Harmark]],  N.A. Obers, Section 5.1 of _Phase Structure of Non-Commutative Field Theories and Spinning Brane Bound States_, JHEP 0003 (2000) 024 ([arXiv:hep-th/9911169](https://arxiv.org/abs/hep-th/9911169))
+
+* Kazuo Hosomichi, *On Branes Ending on Branes in Supergravity*, JHEP 0006 (2000) 004 &lbrack;[arXiv:hep-th/0002069](https://arxiv.org/abs/hep-th/0002069), [doi:10.1088/1126-6708/2000/06/004](https://doi.org/10.1088/1126-6708/2000/06/004)&rbrack;
+
+* [[Arvind Rajaraman]], *Supergravity Solutions for Localised Brane Intersections*, JHEP 0109:018 (2001) &lbrack;[arXiv:hep-th/0007241](https://arxiv.org/abs/hep-th/0007241), [doi:10.1088/1126-6708/2001/09/018](https://doi.org/10.1088/1126-6708/2001/09/018)&rbrack;
+
+
 
 * [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
 
