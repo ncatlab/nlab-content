@@ -4,9 +4,11 @@
 
 ## Selected writings
 
+
 A precursor discussion to [[polarized D-branes]]:
 
 * [[Roberto Emparan]], _Born-Infeld Strings Tunneling to D-branes_, Phys. Lett. B423 (1998) 71-78 ([arXiv:hep-th/9711106](https://arxiv.org/abs/hep-th/9711106))
+
 
 Finding the first [[black ring]] solution, in [[D=5 gravity]]:
 
@@ -35,6 +37,12 @@ On [[BTZ black holes]]
 and in view of the [[cosmic censorship hypothesis]]:
 
 * [[Roberto Emparan]], Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_, JHEP 06 (2020) 038 ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
+
+On the *[[blackfold]]*-approach to describing [[black branes]]:
+
+* [[Roberto Emparan]], [[Troels Harmark]], [[Vasilis Niarchos]], [[Niels A. Obers]], *Essentials of Blackfold Dynamics*, JHEP 1003 063 (2010) &lbrack;[arXiv:0910.1601](https://arxiv.org/abs/0910.1601), <a href="https://doi.org/10.1007/JHEP03(2010)063">doi:10.1007/JHEP03(2010)063</a>&rbrack;
+
+* [[Roberto Emparan]], [[Troels Harmark]], [[Vasilis Niarchos]], [[Niels A. Obers]], *Blackfolds in Supergravity and String Theory*, JHEP 1108 (2011) 154 &lbrack;[arXiv:1106.4428](https://arxiv.org/abs/1106.4428)<a href="https://doi.org/10.1007/JHEP08(2011)154">doi:10.1007/JHEP08(2011)154</a>&rbrack;
 
 
 
