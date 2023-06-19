@@ -96,9 +96,12 @@ Suppposed analogy with D-brane descent in K-theory (see [there](D-brane#OlsenSza
 
 * Laurent Houart, Yolanda Lozano, _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](https://arxiv.org/abs/hep-th/0001170))
 
-Further references include
+On M-[[brane intersections]] such as [[M2-M5 brane bound states]]:
 
-* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035))
+* [[Arkady Tseytlin]], *Harmonic superpositions of M-branes*, Nucl. Phys. B **475** (19960 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>&rbrack;
+
+Further references:
+
 
 * Chan Park, _2d SCFT from M-branes and its spectral network_ ([pdf](http://theory.caltech.edu/~chan/documents/2013_String_Math_proceedings.pdf))
 
