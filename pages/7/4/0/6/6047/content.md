@@ -51,7 +51,7 @@ $$
   \,.
 $$
 
-Notice that the rank-2 [[tensor]] $\phi^\ast g\in \Gamma(T* \Sigma \oplus T* \Sigma)$ is in general not degenerate (unless $\phi$ is an [[embedding]]), hence is in general not, strictly speaking a [[pseudo-Riemannian metric]] on $\Sigma$, but nevertheless it induces a [[volume form]] by the standard formula, only that this allowed to vanish pointwise (and even globally, for instance if $\phi$ is constant on a single point). In the literature $dvol(\phi^\ast g)$ is usually written as $\sqrt{-g}d^{p+1}\sigma$.
+Notice that the rank-2 [[tensor]] $\phi^\ast g\in \Gamma(T* \Sigma \oplus T* \Sigma)$ is in general not non-degenerate (unless $\phi$ is an [[embedding]]), hence is in general not, strictly speaking a [[pseudo-Riemannian metric]] on $\Sigma$, but nevertheless it induces a [[volume form]] by the standard formula, only that this allowed to vanish pointwise (and even globally, for instance if $\phi$ is constant on a single point). In the literature $dvol(\phi^\ast g)$ is usually written as $\sqrt{-g}d^{p+1}\sigma$.
 
 
 ## Properties
