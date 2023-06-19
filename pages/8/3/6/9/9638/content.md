@@ -288,6 +288,8 @@ Further introduction and survey:
 
 * [[John Preskill]], *The Physics of Quantum Information*, talk at *The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
 
+* Oswaldo Zapata, *A Short Introduction to Quantum Computing for Physicists* &lbrack;[arXiv:2306.09388](https://arxiv.org/abs/2306.09388)&rbrack;
+
 
 
 See also:
