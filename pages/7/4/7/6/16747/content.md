@@ -10,10 +10,9 @@ Dedicated $n$lab entries exist so far for the following cases:
 
 Definitons analogous to [[Nambu brackets]] are discussed in 
 
-* [[José de Azcárraga]], J. M. Izquierdo, J. C. Perez Bueno, _On the generalizations of Poisson structures_, J.Phys. A30 (1997) L607-L616 ([arXiv:hep-th/9703019](http://arxiv.org/abs/hep-th/9703019))
+* [[José de Azcárraga]], [[José M. Izquierdo]], J. C. Perez Bueno, *On the generalizations of Poisson structures*, J. Phys. A **30** (1997) L607-L616 &lbrack;[arXiv:hep-th/9703019](http://arxiv.org/abs/hep-th/9703019), [doi:10.1088/0305-4470/30/18/001](https://doi.org/10.1088/0305-4470/30/18/001)&rbrack;
 
-* Ra&#250;l Ib&#225;&#241;ez, Juan C. Marrero, and David Martn de Diego, 
- _Dynamics of generalized Poisson and Nambu&#8211;Poisson brackets_, Journal of Mathematical Physics 38, 2332 (1997); doi: 10.1063/1.531960
+* Ra&#250;l Ib&#225;&#241;ez, Juan C. Marrero, and David Martn de Diego, _Dynamics of generalized Poisson and Nambu&#8211;Poisson brackets_, Journal of Mathematical Physics 38, 2332 (1997); doi: 10.1063/1.531960
 
  [pdf](http://digital.csic.es/bitstream/10261/102443/1/RIba&#241;ez.pdf)
 
