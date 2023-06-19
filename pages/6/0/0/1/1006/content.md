@@ -59,8 +59,9 @@ Similar (but different) discussion is in
     
 * [[Phil Hanlon]], [[Michelle Wachs]], _On Lie $k$-Algebras_, Advances in Mathematics Volume 113, Issue 2, July 1995, Pages 206&#8211;236 ([doi:10.1006/aima.1995.1038](https://doi.org/10.1006/aima.1995.1038))
 
-* [[José de Azcárraga]], J. C. Perez Bueno, _Higher-order simple Lie algebras_, ([arXiv:hep-th/9605213](http://arxiv.org/abs/hep-th/9605213))
-* J A de Azcárraga, J M Izquierdo, _$n$-ary algebras: a review with applications_, J. Phys. A: Math. Theor. 43 (2010) 293001 [doi](https://doi.org/10.1088/1751-8113/43/29/293001)
+* [[José de Azcárraga]], J. C. Perez Bueno, _Higher-order simple Lie algebras_, Commun. Math. Phys. **184** (1997) 669-681 &lbrack;[arXiv:hep-th/9605213](http://arxiv.org/abs/hep-th/9605213), [doi:10.1007/s002200050079](https://doi.org/10.1007/s002200050079)&rbrack;
+
+* [[José de Azcárraga]], [[José M. Izquierdo]], *$n$-Ary algebras: a review with applications*, J. Phys. A: Math. Theor. **43** (2010) 293001 &lbrack;[doi:10.1088/1751-8113/43/29/293001](https://doi.org/10.1088/1751-8113/43/29/293001)&rbrack;
 
 ### Re-inventions
 
