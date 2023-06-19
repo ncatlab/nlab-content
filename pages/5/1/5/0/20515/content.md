@@ -13,5 +13,10 @@ On the [[phase space]] of [[gravity]] ([[general relativity]]) in a local formul
 
 * {#CattaneoSchiavina17b} [[Alberto Cattaneo]], [[Michele Schiavina]], _BV-BFV approach to General Relativity: Palatini-Cartan-Holst action_ ([arXiv:1707.06328](https://arxiv.org/abs/1707.06328))
 
+Discussion of the [[Nambu-Goto action]] and [[Polyakov action]] on [[worldsheets]] with [[manifold with boundary|boundary]] (i.e. in the generality of [[open strings]]) and cast in [[BV-BRST formalism]]:
+
+* {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
+
+
 
 category: people
