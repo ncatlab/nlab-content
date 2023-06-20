@@ -21,7 +21,7 @@ In [[string theory]], what has come to be known as the *Hanany-Witten-effect* (o
 
 > (Here $\sigma = 0$ in [[type IIA string theory]] and $\sigma=1$ in [[type IIB string theory]].)
 
-Something like this was informally argued in [Hanany & Witten (1997)](#HanayWitten97). Later authors have
+Something like this was informally argued in [Hanany & Witten (1997)](#HananyWitten97). Later authors have
 tried to offer explanation and illustration of what is meant to be happening here, as follows:
 
 
@@ -339,16 +339,7 @@ over $(\vec 0, x^9) \,\in\, \mathbb{R}^{6,1}$.  Now there are two cases:
 
 (cf. *[[D3-D5 brane bound state]]*)
 
-The [[Bianchi identity]] for the [[RR-field]] [[flux density]] $F_5$ sourced by [[D3-branes]] is
-
-$$
-  \mathrm{d} \, F_{5}
-  \;=\;
-  H_3 \wedge F_3
-  \,,
-$$
-
-where $H_3$ is the [[B-field]] [[flux density]] sourced by [[NS5-branes]] and $F_3$ is the [[RR-field]] [[flux density]] sourced by [[D5-branes]].
+We discuss the "creation" of [[D3-brane]] [[flux]] "in between" a [[background field|background]] of [[D5-brane]]- and [[NS5-brane]] flux as seen from (just) the [[pregeometric RR-field|pregeometric flux]]-equations.
 
 If we assume that there are no [[D7-branes]] present in that the [[RR-field]] [[flux density]] which they source vanishes, $F_1 = 0$, then the [[Bianchi identity]] for the [[D5-brane]]-flux is just
 
@@ -369,7 +360,7 @@ $$
   \,.
 $$
 
-Hence assume that there are $N$ pairs of flat parallel [[D5-branes]] and [[NS5-branes]] at a [[positive number|positive]] distance $2 d \in \mathbb{R}_+$ from each other (as measured in our canonical [[coordinate chart]])
+Hence assume that there is a pair of flat parallel [[D5-branes]] and [[NS5-branes]] at a [[positive number|positive]] distance $2 d \in \mathbb{R}_+$ from each other 
 
 $$
   \array{
@@ -379,7 +370,9 @@ $$
     \\
     (t,\vec x) &\mapsto& (t,\vec x, -d , \vec 0)
   }
-  \;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;
   \array{
     \mathbb{R}^{5,1}_{D5}
     &\xhookrightarrow{\phantom{--}}&
@@ -389,8 +382,7 @@ $$
   }
 $$
 
-in that the [[background field|background]] flux densities seen by the [[D3-branes]] are 
-
+in that the respective [[flux densities]] are 
 $$
   H_3 
     \;\coloneqq\;
@@ -415,7 +407,6 @@ $$
 
 and
 
-
 $$
   F_3 
     \;\coloneqq\;
@@ -438,6 +429,54 @@ $$
   \big)
 $$
 
+In the following we regard both of these as further [[pullback of differential forms|pulled back]]/restricted to the joint [[complement]] $\mathbb{R}^{9,1} \setminus \big( \mathbb{R}^{5,1}_{NS5} \cup \mathbb{R}^{5,1}_{D5} \cup \mathbb{R}^{3,1}_{D3}\big)$.
+Notice that as such they differ, one being the translate of the other by $2d$ along one of the axes.
+
+Now the [[Bianchi identity]] for the [[RR-field]] [[flux density]] $F_5$ sourced by any [[D3-branes]] is
+
+\[
+  \label{BianchiIdentityForD3InBetweenNS5AndD5}
+  \mathrm{d} \, F_{5}
+  \;=\;
+  H_3 \wedge F_3
+  \,,
+\]
+
+Assuming the boundaty condition that $F_5$ [[vanishing at infinity|vanishes at infinity]],  the differential equation will imply the presence of non-vanishing $F_5$-flux and hence of $D3$-branes "in between" the D5/NS5 iff the [[wedge product]] $H_3 \wedge F_3$ has the form of a "multipole" roughly supported in between these branes.
+
+The following graphics, which shows a 2-dimensional shadow of the situation, qualitatively indicates that and why this is the case: 
+
+<center>
+<div style="margin:-40px 10px 10px 0;">
+<img src="/nlab/files/FivebraneDipole-230620.jpg" width="670"></img>
+</div>
+</center>
+
+
+
+Here 
+
+* the strength of the circular lines indicates the [[absolute value]] of the [[flux densities]] $H_3$, $F_3$ (vanishing at infinity and spiked at the locus of the sourcing 5-brane), 
+
+* the little arrows indicate the [[orientation]] of the two flux densities, projected to the plane that is being shown
+
+* the little parallelograms indicate the [[orientation]] of the [[wedge product]] $H_3 \wedge F_3$ in the projection to the plane being shown.
+
+(Hence what the graphics is really showing, approximately, is the wedge product of a pair of translates of $dvol_{S}^1$ pulled back to around either puncture of the 2-punctured plane.)
+
+The point is to observe that --- besides the abolute value of the wedge product $F_3 \wedge H_3$ evidently being concentrated near the branes, hence particularly between them when they are close --- the sign of the orientation of the wedge product changes as the transverse coordinate passes through the axis between the branes.
+
+Hence as we solve the differential equation $\mathrm{d} F_5 \,=\, H_3 \wedge F_3$ incrementally by running, say, from the top to the bottom in the above graphics, we see that $F_5$ fist incrementally picks up positive contributions as we approach the area between the branes, and then dimishies again as we leave that area. In total, the absolute value of the solution $F_5$ will be supported roughly in between the two 5-branes. 
+
+Since $F_5$ is the flux sourced by [[D3-branes]], this means that D3-branes are seen to be "created" in between the 5-branes.
+
+However, from this analysis of the fluxes alone, it does not follow that the D3-branes would disappear as the NS5- and D5-brane "swap positions", as Hanany-Witten would suggest. In fact there is no intrinsic such directedness in the problem in the first place with respect to which one could even speak about the branes "swapping positions".
+
+Hence to see the full Hanany-Witten effect in this case, if it exists, one may have to look beyond the bare fluxes and include also the field of gravity. A suggestion for how this might work is given, for the analogous situation of [[M2-M5 brane bound state|M2-M5 brane]] [[brane intersection|intersections]], in [Hosomichi (2000), §5](#Hosomichi00).
+
+
+\linebreak  
+
 
 
 ## Related concepts
@@ -451,7 +490,7 @@ $$
 
 The original article:
 
-* {#HanayWitten97} [[Amihay Hanany]], [[Edward Witten]], *Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics*, Nucl. Phys.B **492** (1997) 152-190 &lbrack;[arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230), <a href="https://doi.org/10.1016/S0550-3213(97)80030-2">doi:10.1016/S0550-3213(97)80030-2</a>&rbrack;
+* {#HananyWitten97} [[Amihay Hanany]], [[Edward Witten]], *Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics*, Nucl. Phys.B **492** (1997) 152-190 &lbrack;[arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230), <a href="https://doi.org/10.1016/S0550-3213(97)80030-2">doi:10.1016/S0550-3213(97)80030-2</a>&rbrack;
 
 Further discussion:
 
@@ -469,10 +508,14 @@ Further discussion:
 
 * {#GangEtAl11} Dongmin Gang, Eunkyung Koh, Kimyeong Lee, Jaemo Park, *ABCD of 3d $\mathcal{N}=8$ and 4 Superconformal Field Theories* &lbrack;[arXiv:1108.3647](https://arxiv.org/abs/1108.3647)&rbrack;
 
-
 See also:
 
 * Wikipedia, *[Hanany-Witten transition](https://en.wikipedia.org/wiki/Hanany%E2%80%93Witten_transition)*
+
+Discussion for [[M2-M5 brane bound state|M2-M5 brane]] [[brane intersection|intersection]]:
+
+* {#Hosomichi00} [[Kazuo Hosomichi]], *On Branes Ending on Branes in Supergravity*, JHEP 0006 (2000) 004 &lbrack;[arXiv:hep-th/0002069](https://arxiv.org/abs/hep-th/0002069), [doi:10.1088/1126-6708/2000/06/004](https://doi.org/10.1088/1126-6708/2000/06/004)&rbrack;
+
 
 [[!redirects Hanany-Witten effects]]
 
