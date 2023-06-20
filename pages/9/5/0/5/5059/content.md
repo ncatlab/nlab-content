@@ -966,8 +966,7 @@ discussed in
 an with its [[infinity-Lie theory|Lie theoretic]] meaning
 made fully explicit (in "FDA" language) in
 
-* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; Izquierdo, chapter 8 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
-
+* {#AzcarragaIzquierdo95} [[José de Azcárraga]], [[José Izquierdo]], chapter 8 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics (1995)
 
 The original "brane scan" classification of GS action functionals by WZW terms:
 
@@ -1037,14 +1036,14 @@ The interpretation of the cocycles for the [[D-branes]] and for the [[M5-brane]]
 * {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
 
-* {#AzcarragaIzquierdo01} [[José de Azcárraga]], J. M. Izquierdo, _Superalgebra cohomology, the geometry of extended superspaces and superbranes_ ([arXiv:hep-th/0105125](http://arxiv.org/abs/hep-th/0105125))
+* {#AzcarragaIzquierdo01} [[José de Azcárraga]], [[José Izquierdo|J. M. Izquierdo]], _Superalgebra cohomology, the geometry of extended superspaces and superbranes_ ([arXiv:hep-th/0105125](https://arxiv.org/abs/hep-th/0105125))
 
 
 See also _[[division algebras and supersymmetry]]_.
 
 A corresponding refinement of the brane scan to a "brane bouquet" of [[super L-∞ algebra]] [[infinity-Lie algebra cohomology|extensions]] (hence in [[infinity-Lie theory]] via [[schreiber:∞-Wess-Zumino-Witten theory]]) is discussed in
 
-* {#FiorenzaSatiSchreiber13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+* {#FiorenzaSatiSchreiber13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics __12__:02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 * {#FiorenzaSatiSchreiber15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The WZW term of the M5-brane and differential cohomotopy]]_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](http://arxiv.org/abs/1506.07557))
 
@@ -1096,7 +1095,7 @@ General:
 
 The super 3-cocycle for the Green-Schwarz  [[superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ (i.e. on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$) is originally due to 
 
-* {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl. Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](https://arxiv.org/abs/hep-th/9805028))
+* {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl. Phys. __B533__:109-126, 1998 ([arXiv:hep-th/9805028](https://arxiv.org/abs/hep-th/9805028))
 
 However, a supersymmetric trivialization of this cocycle seems to have been obtained in 
 
@@ -1194,7 +1193,7 @@ That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimen
 
 The role of the 4-form here is also amplified around (2.29) in
 
-* [[Igor Bandos]], Carlos Meliveo, _Supermembrane interaction with dynamical D=4 N=1 supergravity. Superfield Lagrangian description and spacetime equations of motion_ ([arXiv:arXiv:1205.5885](http://arxiv.org/abs/arXiv:1205.5885))
+* [[Igor Bandos]], Carlos Meliveo, _Supermembrane interaction with dynamical D=4 N=1 supergravity. Superfield Lagrangian description and spacetime equations of motion_ ([arXiv:1205.5885](https://arxiv.org/abs/arXiv:1205.5885))
 
 and in section 2.2 of
 
@@ -1249,16 +1248,15 @@ and more generally:
 
 That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals have [[conserved current]] [[BPS charge]] algebras which are [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) of the supersymmetry algebras was observed in
 
-* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José Izquierdo|J.M. Izquierdo]], [[Paul Townsend]], _Topological extensions of thesupersymmetry algebra for extended objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
 
 reviewed in
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.8. of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+* [[José de Azcárraga]], [[José Iquierdo|José M. Izquierdo]], section 8.8. of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_ , Cambridge monographs of mathematical physics, (1995)
 
 and generalized to super-[[Lie n-algebras]] of BPS charges in
 
-* {#SatiSchreiber15} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_ ([arXiv:1507.08692](http://arxiv.org/abs/1507.08692))
-
+* {#SatiSchreiber15} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_ ([arXiv:1507.08692](https://arxiv.org/abs/1507.08692))
 
 
 This is for branes in the old [[brane scan]] ([[strings]], [[membranes]], [[NS5-branes]]), excluding [[D-branes]] and [[M5-brane]].
