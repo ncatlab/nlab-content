@@ -14,7 +14,6 @@ On the [[M2-brane]] via the [[superembedding approach]]:
 
 * {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
 
-
 On deriving the [[equations of motion]] for the [[M5-brane]] via [[superspace]]-methods:
 
 * {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
@@ -22,6 +21,11 @@ On deriving the [[equations of motion]] for the [[M5-brane]] via [[superspace]]-
 and specifically via the [[superembedding approach]]:
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
+
+
+On [[boundary conditions]] for interacting [[M2-branes]] in regarding through the [[ABJM model]]:
+
+* {#BPST09} [[David Berman]], [[Malcolm J. Perry]], [[Ergin Sezgin]], [[Daniel C. Thompson]], *Boundary Conditions for Interacting Membranes*, JHEP 1004:025, 2010 &lbrack;[arXiv:0912.3504](https://arxiv.org/abs/0912.3504), <a href="https://doi.org/10.1007/JHEP04(2010)025">doi:10.1007/JHEP04(2010)025</a>&rbrack;
 
 
 Introducing a class of [[Lagrangian densities]] for [[D=6 N=(1,0) SCFTs]] with [[non-abelian group|non-abelian]] [[gauge group]] has been proposed in 
@@ -40,7 +44,6 @@ On [[Freund-Rubin compactifications]] in [[11d supergravity]]:
 On [[E11]]-[[exceptional field theory]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
-
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
