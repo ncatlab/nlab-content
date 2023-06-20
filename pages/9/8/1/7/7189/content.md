@@ -57,6 +57,12 @@ Every monad that is induced by an adjunction $L \dashv R$ is the codensity monad
 \end{example}
 
 \begin{example}
+Let $d$ be an object in a [[closed category]] $C$. Then the codensity monad of the [[constant functor]] $d : 1 \to C$ is the **double dualization monad** associated to $d$, given by $d^{d^{(-)}}$.
+
+More conceptually, the codensity monad construction may be seen as a generalisation of the double dualisation construction analogous to the generalisation from [[algebras for a monad]] to [[modules over a monad]] (the latter is the perspective that is most natural 2-categorically).
+\end{example}
+
+\begin{example}
 The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
 \end{example}
 
@@ -136,6 +142,10 @@ In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ al
 One of the first references is
 
 * [[Anders Kock]], _Continuous Yoneda Representations of a Small Category_, Preprint Aarhus University (1966). ([pdf](http://home.math.au.dk/kock/CYRSC.pdf))
+
+For the special case of double dualisation, see:
+
+* [[Anders Kock]]. _On double dualization monads_, Mathematica Scandinavica 27.2 (1970): 151-165. ([JSTOR](https://www.jstor.org/stable/24489892))
 
 A very nice overview is provided by
 
