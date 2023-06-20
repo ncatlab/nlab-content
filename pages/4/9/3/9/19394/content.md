@@ -103,7 +103,7 @@ E-strings as [[M5-branes]] [[wrapped brane|wrapped]] on a [[half K3]]:
 E-strings as M2-branes stretched between M5 and MO9:
 
 
-* {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
+* {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D **90** 126012 (2014) &lbrack;[arXiv:1406.0850](https://arxiv.org/abs/1406.0850), [doi:10.1103/PhysRevD.90.126012](https://doi.org/10.1103/PhysRevD.90.126012)&rbrack;
 
 
 
