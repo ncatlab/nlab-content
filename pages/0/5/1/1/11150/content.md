@@ -103,6 +103,11 @@ Relation to the $SL(2,\mathbb{R})$-[[gauged WZW-model]] and [[analytically conti
 
 * Jian-Feng Wu, Yang Zhou, _From Liouville to Chern-Simons, Alternative Realization of Wilson Loop Operators in AGT Duality_ ([arXiv:0911.1922](http://arxiv.org/abs/0911.1922))
 
+Further discussion:
+
+* Pavel Haman, Alfredo Iorio, *Classical gravitational anomalies of Liouville theory* &lbrack;[arXiv:2306.09825](https://arxiv.org/abs/2306.09825)&rbrack;
+
+
 category: physics
 
 [[!redirects Liouville field theory]]
