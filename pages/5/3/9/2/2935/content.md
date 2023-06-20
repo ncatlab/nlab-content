@@ -42,7 +42,7 @@ The [[target space]] of a Poisson $\sigma$-model is any [[Poisson manifold]] $(X
 A field configuration on a 2-dimensional $\Sigma$ is a [[connection on an infinity-bundle|connection]]
 
 $$
-  (\phi,\eta) : \mathfrak{T}\Sigma \to \mathfrak{P}  
+  (\phi,\eta) : \mathfrak{T}^*\Sigma \to \mathfrak{P}  
  \,.
 $$
 
@@ -50,8 +50,8 @@ In components this is
 
 1. a [[smooth function]] $\phi : \Sigma \to X$;
 
-1. a 1-form $\eta \in \Omega^1(\Sigma, \phi^* T X)$
-   with values in the pullback of the [[tangent bundle]] of $X$ along $\phi$.
+1. a 1-form $\eta \in \Omega^1(\Sigma, \phi^* T^* X)$
+   with values in the pullback of the [[cotangent bundle]] of $X$ along $\phi$.
 
 The [[action functional]] on the [[configuration space]] of all such connections for [[compact space|compact]] $\Sigma$ is defined to be
 
