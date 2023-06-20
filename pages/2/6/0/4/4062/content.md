@@ -407,7 +407,7 @@ The example of [[conjugate transformation of adjoints]] (but without the termino
 
 The explicit notion of mates may be officially due to
 
-* {#KellyStreet06} [[Max Kelly]], [[Ross Street]], §2.2 (esp. p. 87) of: *Review of the elements of 2-categories*, in: G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** (2006) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
+* {#KellyStreet06} [[Max Kelly]], [[Ross Street]], §2.2 (esp. p. 87) of: *Review of the elements of 2-categories*, in: G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** (1974) &lbrack;[doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101)&rbrack;
 
 but is already reviewed in:
 
