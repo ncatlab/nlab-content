@@ -177,7 +177,7 @@ For $\mathcal{C}$ a [[small category|small]] $\mathcal{V}$-[[enriched category]]
 
 ## References
 
-- *Adjunction for enriched categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059145](https://doi.org/10.1007/BFb0059145)&rbrack;
+* [[G. Max Kelly]], *Adjunction for enriched categories*, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059145](https://doi.org/10.1007/BFb0059145)&rbrack;
 
 [[!redirects powered and copowered categories]]
 
