@@ -99,9 +99,9 @@ Discussion in [[cosmology]]:
 
 Generalization to [[U-duality]] in [[exceptional generalized geometry]]:
 
-* Emanuel Malek, Daniel C. Thompson, _Energy Physics - Theory Poisson-Lie U-duality in Exceptional Field Theory_ ([arxiv:1911.07833](https://arxiv.org/abs/1911.07833))
+* [[Emanuel Malek]], [[Daniel C. Thompson]], _Energy Physics - Theory Poisson-Lie U-duality in Exceptional Field Theory_, JHEP 0420 (2020) 058 &lbrack;[arxiv:1911.07833](https://arxiv.org/abs/1911.07833)&rbrack;
 
-* Chris D. A. Blair, Daniel C. Thompson, Sofia Zhidkova, _Exploring Exceptional Drinfeld Geometries_ ([arxiv:2006.12452](https://arxiv.org/abs/2006.12452))
+* [[Chris D. A. Blair]], [[Daniel C. Thompson]], Sofia Zhidkova, _Exploring Exceptional Drinfeld Geometries_, JHEP 09 (2020) 151 &lbrack;[arxiv:2006.12452](https://arxiv.org/abs/2006.12452)&rbrack;
 
 
 In the context of the  [[BMN matrix model]]:
