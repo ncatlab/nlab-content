@@ -122,14 +122,14 @@ Relation to [[Borcherds superalgebras]] is surveyed and discussed in
 
 * Yuho Sakatani, Shozo Uehara, _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. 117, 191601 (2016) ([arXiv:1607.04265](https://arxiv.org/abs/1607.04265))
 
-* [[Alex Arvanitakis]], Chris D. A. Blair, _Type II strings are Exceptional_ ([arXiv:1712.07115](https://arxiv.org/abs/1712.07115))
+* [[Alex Arvanitakis]], [[Chris D. A. Blair]], _Type II strings are Exceptional_ ([arXiv:1712.07115](https://arxiv.org/abs/1712.07115))
 
 * [[Alex Arvanitakis]], Chris Blair, _The Exceptional Sigma Model_ ([arXiv:1802.00442](https://arxiv.org/abs/1802.00442))
 
 
-The generalized-U-duality+diffeomorphism invariance in 11d is discussed in
+Generalized [[U-duality]]+[[diffeomorphism]] invariance in 11d:
 
-* [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], Daniel C. Thompson, _The gauge structure of generalised diffeomorphisms_ ([arXiv:1208.5884](http://arxiv.org/abs/1208.5884))
+* [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. 2013, 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
 
 For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is discussed in 
 
