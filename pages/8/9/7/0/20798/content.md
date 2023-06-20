@@ -21,6 +21,10 @@ The special case of [[Dp-D(p+2)-brane bound state]] for [[D6-brane|D6]]-[[D8-bra
 
 ## Properties
 
+### Flux density and Hanany Witten effect
+
+See [this section](Hanany-Witten+effect#D6StretchingBetweenNS5AndD8) at *[[Hanany-Witten effect]]*.
+
 ### Fuzzy funnel geometry
  {#FuzzyFunnelGeometry}
 
