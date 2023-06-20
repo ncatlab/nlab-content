@@ -1,4 +1,7 @@
 
+* [personal page](https://www.emanuelmalek.com/)
+
+* [InSpire page](https://inspirehep.net/authors/1253271)
 
 ## Selected writings
 
