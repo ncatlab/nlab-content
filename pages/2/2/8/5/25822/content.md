@@ -108,8 +108,10 @@ and offered an argument in prose &lbrack;[Marolf (2001) pp. 3](#Marolf01)&rbrack
 
 ## Examples
 
-### D6 stretching between NS5 and D8
+### D6 stretching between D8 and NS5
  {#D6StretchingBetweenNS5AndD8}
+
+(cf. *[[D6-D8 brane bound state]]*)
 
 We explain the "Hanany-Witten effect" in detail for the case of "flat" [[NS5-brane|NS5]]--[[D6-brane|D6]]--[[D8-brane|D8]]-configurations, as a consequence of the [[pregeometric RR-field|pregeometric]] [[Bianchi identities]] (eq:GeneralBianchiIdentity) satisfied by the [[flux densities]] sourced by these branes.
 
@@ -332,6 +334,109 @@ over $(\vec 0, x^9) \,\in\, \mathbb{R}^{6,1}$.  Now there are two cases:
 
    This means now that as approach the NS5/D8-branes from the "left", $F_2$ is continuously increasing by a rate measured by the density $H_3$ of NS5-brane flux. While this is everywhere non-vanishing, it is concentrated around the NS5-brane worldvolume locus (falling off by a power law from there). Therefore once we have "crossed the NS5-brane" and thus picked up most of its flux, $\int_{S^2} F_2$ will have increased from its asympotically vanishing value to $N \int_{S^2} \int_{-\infty}^d H_3 \,\sim\, N \int_{S^3} H_3 \,\sim\, N k$, the product of the number of NS5-branes and D8-branes. This is hence the number of D6-branes "created" by the Hanany-Witten effect.
 
+### D3 stretching between D5 and NS5
+ {#D2StretchingBetweenNS5AndD5}
+
+(cf. *[[D3-D5 brane bound state]]*)
+
+The [[Bianchi identity]] for the [[RR-field]] [[flux density]] $F_5$ sourced by [[D3-branes]] is
+
+$$
+  \mathrm{d} \, F_{5}
+  \;=\;
+  H_3 \wedge F_3
+  \,,
+$$
+
+where $H_3$ is the [[B-field]] [[flux density]] sourced by [[NS5-branes]] and $F_3$ is the [[RR-field]] [[flux density]] sourced by [[D5-branes]].
+
+If we assume that there are no [[D7-branes]] present in that the [[RR-field]] [[flux density]] which they source vanishes, $F_1 = 0$, then the [[Bianchi identity]] for the [[D5-brane]]-flux is just
+
+$$
+  \begin{array}{rcl}
+  \mathrm{d} \, F_3
+  &=&
+  H_3 \wedge F_1
+  \\
+  &=& 0
+  \end{array}
+$$
+
+just as for the [[B-field]] [[flux density]]
+
+$$
+  \mathrm{d}\, H_3 \;=\; 0
+  \,.
+$$
+
+Hence assume that there are $N$ pairs of flat parallel [[D5-branes]] and [[NS5-branes]] at a [[positive number|positive]] distance $2 d \in \mathbb{R}_+$ from each other (as measured in our canonical [[coordinate chart]])
+
+$$
+  \array{
+    \mathbb{R}^{5,1}_{NS5}
+    &\xhookrightarrow{\phantom{--}}&
+    \mathbb{R}^{10,1}
+    \\
+    (t,\vec x) &\mapsto& (t,\vec x, -d , \vec 0)
+  }
+  \;\;\;\;\;\;
+  \array{
+    \mathbb{R}^{5,1}_{D5}
+    &\xhookrightarrow{\phantom{--}}&
+    \mathbb{R}^{10,1}
+    \\
+    (t,\vec x) &\mapsto& (t,\vec x, +d , \vec 0)
+  }
+$$
+
+in that the [[background field|background]] flux densities seen by the [[D3-branes]] are 
+
+$$
+  H_3 
+    \;\coloneqq\;
+  vol_{S^3}
+  \;\in\;
+  \Omega^3_{dR}(S^3)
+  \xrightarrow{ pr_{S^3}^\ast }
+  \Omega^3_{dR}\big(
+    \mathbb{R}^{5,1}_{NS5}
+    \times 
+    \mathbb{R}_+
+    \times
+    S^3
+  \big)
+  \;\simeq\;
+  \Omega^3_{dR}\big(
+    \mathbb{R}^{9,1}
+    \setminus
+    \mathbb{R}^{5,1}_{D5}
+  \big)
+$$
+
+and
+
+
+$$
+  F_3 
+    \;\coloneqq\;
+  vol_{S^3}
+  \;\in\;
+  \Omega^3_{dR}(S^3)
+  \xrightarrow{ pr_{S^3}^\ast }
+  \Omega^3_{dR}\big(
+    \mathbb{R}^{5,1}_{D5}
+    \times 
+    \mathbb{R}_+
+    \times
+    S^3
+  \big)
+  \;\simeq\;
+  \Omega^3_{dR}\big(
+    \mathbb{R}^{9,1}
+    \setminus
+    \mathbb{R}^{5,1}_{D5}
+  \big)
+$$
 
 
 
