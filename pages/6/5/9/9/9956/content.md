@@ -5,11 +5,20 @@ David Berman is professor in theoretical [[physics]] at Queen Mary University of
 
 ## Selected writings
 
-A complete review of [[exceptional field theory]]:
+On [[boundary conditions]] for interacting [[M2-branes]] in regarding through the [[ABJM model]]:
 
-* [[David Berman]], Chris D. A. Blair, _The Geometry, Branes and Applications of Exceptional Field Theory_, ([arXiv:2006.09777](http://arxiv.org/abs/2006.09777))
+* {#BPST09} [[David Berman]], [[Malcolm J. Perry]], [[Ergin Sezgin]], [[Daniel C. Thompson]], *Boundary Conditions for Interacting Membranes*, JHEP 1004:025, 2010 &lbrack;[arXiv:0912.3504](https://arxiv.org/abs/0912.3504), <a href="https://doi.org/10.1007/JHEP04(2010)025">doi:10.1007/JHEP04(2010)025</a>&rbrack;
 
-About the formulation of [[strings]] and [[black branes]] of [[supergravity]] (crucially including the [[exotic branes]]) respectively as [[pp-waves]] and [[monopoles]] in [[double field theory]]/[[exceptional field theory]]:
+On [[U-duality]] and [[diffeomorphisms]] in [[exceptional generalized geometry]]:
+
+* [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. 2013, 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
+
+
+A review of [[exceptional field theory]]:
+
+* [[David Berman]], [[Chris D. A. Blair]], _The Geometry, Branes and Applications of Exceptional Field Theory_,  International Journal of Modern Physics A **35** 30 (2020) 2030014  &lbrack;[arXiv:2006.09777](http://arxiv.org/abs/2006.09777), [doi:10.1142/S0217751X20300148](https://doi.org/10.1142/S0217751X20300148)&rbrack;
+
+On the formulation of [[strings]] and [[black branes]] of [[supergravity]] (crucially including the [[exotic branes]]) respectively as [[pp-waves]] and [[monopoles]] in [[double field theory]]/[[exceptional field theory]]:
 
 * [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ ([arXiv:1409.6314](https://arxiv.org/abs/1409.6314))
 
