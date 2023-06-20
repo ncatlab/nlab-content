@@ -87,12 +87,13 @@ Canonical references on Hall algebras include the following.
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. (chap. 10: Ringel-Hall algebras) [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 
-* David Hernandez, Bernard Leclerc, _Quantum Grothendieck rings and derived Hall algebras_, [arxiv/1109.0862](http://arxiv.org/abs/1109.0862)
+* [[David Hernandez]], [[Bernard Leclerc]], _Quantum Grothendieck rings and derived Hall algebras_, [arxiv/1109.0862](http://arxiv.org/abs/1109.0862)
 
 * Parker E. Lowrey, _The moduli stack and motivic Hall algebra for the bounded derived category_, [arxiv/1110.5117](http://arxiv.org/abs/1110.5117)
 
 * [[Tobias Dyckerhoff]], _Higher categorical aspects of Hall Algebras_, In: Herbera D., Pitsch W., Zarzuela S. (eds) Building Bridges Between Algebra and Topology. Advanced Courses in Mathematics - CRM Barcelona. Birkhäuser 2015 [arXiv:1505.06940](https://arxiv.org/abs/1505.06940) [doi](https://doi.org/10.1007/978-3-319-70157-8_1)
 
+* [[Mauro Porta]], Francesco Salla, _Two-dimensional categorified Hall algebras_, J. Eur. Math. Soc. __25__:3 (2023) 1113-1205 [doi](https://doi.org/10.4171/jems/1303)
 
 Motivic Hall algebras:
 
