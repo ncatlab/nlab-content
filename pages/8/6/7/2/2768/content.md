@@ -82,6 +82,10 @@ In other words, the trace of the category of finite sets is isomorphic to the tr
 Furthermore, the functorial operations $\hom(x, x) \times \hom(y, y) \to \hom(x \times x, y \times y)$ and $\hom(x, x) \times \hom(y, y) \to \hom(x + y, x + y)$ induce operations $\cdot: Tr(FinSet) \times Tr(FinSet) \to Tr(FinSet)$ and $+: Tr(FinSet) \times Tr(FinSet) \to Tr(FinSet)$. Since $\times$ distributes over $+$ in $FinSet$, we obtain a [[rig]] structure on $Tr(FinSet)$, namely the [[Burnside rig]] of $\mathbb{Z}$. 
 =-- 
 
+## References
+
+* [[Harald Lindner]]. _Center and trace_, Archiv der Mathematik 35 (1980): 476-496. ([doi:10.1007/BF01235372](https://doi.org/10.1007/BF01235372))
+
 
 [[!redirects trace of a category]]
 [[!redirects traces of categories]]
