@@ -301,6 +301,8 @@ This notion of duality generalizes to that of [[linear adjoints]] in a [[linear 
 
 Original articles:
 
+* [[Harald Lindner]], _Adjunctions in monoidal categories_, manuscripta mathematica 26.1-2 (1978): 123-139. ([doi:10.1007/BF01167969](https://doi.org/10.1007/BF01167969))
+
 * [[Pierre Deligne]], [[James Milne]]: §1 of: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
 
 * [[Albrecht Dold]], [[Dieter Puppe]], §1 of: *Duality, Trace and Transfer*, Proceedings of the Steklov Institute of Mathematics, **154** (1984) 85–103 &lbrack;[mathnet:tm2435](http://mi.mathnet.ru/tm2435), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)&rbrack;
