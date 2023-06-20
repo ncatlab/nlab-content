@@ -21,10 +21,18 @@ On [[Yukawa couplings]] in the [[G2-MSSM]]:
 
 * Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
 
-## Related $n$Lab entries
+On [[boundary conditions]] for interacting [[M2-branes]] in regarding through the [[ABJM model]]:
+
+* {#BPST09} [[David Berman]], [[Malcolm J. Perry]], [[Ergin Sezgin]], [[Daniel C. Thompson]], *Boundary Conditions for Interacting Membranes*, JHEP 1004:025, 2010 &lbrack;[arXiv:0912.3504](https://arxiv.org/abs/0912.3504), <a href="https://doi.org/10.1007/JHEP04(2010)025">doi:10.1007/JHEP04(2010)025</a>&rbrack;
+
+
+## Related entries
 
 * [[M5-brane]]
 
 * [[self-dual higher gauge field]]
 
 category: people
+
+
+[[!redirects Malcolm J. Perry]]
