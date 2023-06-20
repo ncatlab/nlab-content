@@ -168,7 +168,7 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 The BPS bound derives its name from the discussion of [[magnetic monopoles]] in 4-dimensional [[Yang-Mills theory]] in 
 
-* (E. B. Bogomolnyj) [[?. ?. ???????????]], _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454
+* (E. B. Bogomol'nyj) [[Е. Б. Богомольный]], _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454 (_Stability of slassical solutions_, Sov. J. Nucl. Phys. 24 (1976), 449); _Stability of slassical solutions_, Yad. Fiz. 24 (1976) 861
 
 * M. K. Prasad, [[Charles Sommerfield]], _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
 
@@ -239,12 +239,12 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 
 * {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
-* {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS States with Extra Supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](http://arxiv.org/abs/hep-th/9909098))
+* {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS states with extra supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](https://arxiv.org/abs/hep-th/9909098) [doi](https://doi.org/10.1088/1126-6708/2000/01/004))
 
 
-* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
+* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](https://arxiv.org/abs/hep-th/0703285))
 
-* Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D78:065042,2008 ([arXiv:0712.3235](http://arxiv.org/abs/0712.3235))
+* Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D78:065042,2008 ([arXiv:0712.3235](https://arxiv.org/abs/0712.3235))
 
 * Andrew Callister, [[Douglas Smith]], _Topological charges in $SL(2,\mathbb{R})$ covariant massive 11-dimensional and Type IIB SUGRA_, Phys.Rev.D80:125035,2009 ([arXiv:0907.3614](http://arxiv.org/abs/0907.3614))
 
@@ -262,7 +262,7 @@ see also
 
 * [[Jerome Gauntlett]], _Intersecting Branes_ ([hep-th/9705011](https://arxiv.org/abs/hep-th/9705011))
 
-* [[Igor Bandos]], [[Jose de Azcarraga]], Jose Izquierdo, Jerzy Lukierski, _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett.86:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
+* [[Igor Bandos]], [[[[José de Azcarraga]], [[[[José Izquierdo]], [[Jerzy Lukierski]], _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett. __86__:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
 
 * U. Gran, [[Jan Gutowski]], [[George Papadopoulos]], _Classification, geometry and applications of supersymmetric backgrounds_ ([arXiv:1808.07879](https://arxiv.org/abs/1808.07879))
 
@@ -273,24 +273,24 @@ Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
 
 Discussion for [[4d supergravity]], hence in [[KK-compactification]] of [[type II supergravity]] on a [[Calabi-Yau manifold]] is due to
 
-* {#Denef00} [[Frederik Denef]], _Supergravity flows and D-brane stability_, JHEP 0008:050,2000 ([arXiv:hep-th/0005049](http://arxiv.org/abs/hep-th/0005049))
+* {#Denef00} [[Frederik Denef]], _Supergravity flows and D-brane stability_, JHEP 0008:050, 2000 ([arXiv:hep-th/0005049](http://arxiv.org/abs/hep-th/0005049))
 
-* [[Frederik Denef]], _Quantum Quivers and Hall/Hole Halos_, JHEP 0210:023,2002 ([arXiv:hep-th/0206072](http://arxiv.org/abs/hep-th/0206072))
+* [[Frederik Denef]], _Quantum Quivers and Hall/Hole Halos_, JHEP 0210:023, 2002 ([arXiv:hep-th/0206072](http://arxiv.org/abs/hep-th/0206072))
 
 
 Discussion of more general classification of solutions to [[supergravity]] preserving some [[supersymmetry]], i.e. admitting some [[Killing spinors]] includes
  
 * [[Jerome Gauntlett]], Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
 
-* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP0812:047,2008 ([arXiv:0810.1484](http://arxiv.org/abs/0810.1484))
+* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP0812:047, 2008 ([arXiv:0810.1484](http://arxiv.org/abs/0810.1484))
 
 The conceptual identification of the relevant brane-charge extension of the [[supersymmetry]] algebra as that of the [[conserved currents]] of the [[Green-Schwarz super p-brane sigma models]] for branes is due to
 
-* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José Izquierdo|J. M. Izquierdo, [[Paul Townsend]], _Topological extensions of the supersymmetry algebra for extended objects_, Phys. Rev. Lett. __63__ (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
 reviewed in  
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.8. of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+* [[José de Azcárraga]], [[José Izquierdo|Jos&#233; M. Izquierdo]], section 8.8. of _Lie groups, Lie algebras, cohomology and some applications in physics_ , Cambridge monographs of mathematical physics (1995)
 
 This is for branes in the old [[brane scan]] ([[strings]], [[membranes]], [[NS5-branes]]), excluding [[D-branes]] and [[M5-brane]].
 
