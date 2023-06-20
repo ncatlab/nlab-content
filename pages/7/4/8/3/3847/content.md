@@ -60,28 +60,27 @@ A good survey is given in
 
 The characterization via [[2-Segal spaces]]/decomposition spaces is independently due to
 
-* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
+* [[Tobias Dyckerhoff]], [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
  {#DyckerhoffKapranov12} (now part of their book _Higher Segal spaces_, Springer Lec. Notes in Math. 2244  [doi](https://doi.org/10.1007/978-3-030-27124-4))
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], [[Andrew Tonks]], _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
 Canonical references on Hall algebras include the following.
 
-* [[Kapranov|M. Kapranov]], _Eisenstein series and quantum affine algebras_, Journal Math. Sciences __84__ (1997), 1311&#8211;1360.
-* M. Kapranov, E. Vasserot, _Kleinian singularities, derived categories and Hall algebras_,  Math. Ann.  __316__  (2000), 565-576, [arxiv/9812016](http://arxiv.org/abs/math/9812016)
-* [[Bernhard Keller]], Dong Yang, Guodong Zhou, _The Hall algebra of a spherical object_, J. London Math Soc. (2) __80__ (2009) 771&#8211;784, [doi](http://dx.doi.org/10.1112/jlms/jdp054), [pdf](www.math.jussieu.fr/~keller/publ/HallAlgSphericalObject.pdf)
+* [[Mikhail Kapranov]], _Eisenstein series and quantum affine algebras_, Journal Math. Sciences __84__ (1997), 1311&#8211;1360.
+* [[Mikhail Kapranov]], [[Eric Vasserot]], _Kleinian singularities, derived categories and Hall algebras_,  Math. Ann.  __316__  (2000) 565-576, [arXiv/9812016](https://arxiv.org/abs/math/9812016)
+* [[Bernhard Keller]], Dong Yang, Guodong Zhou, _The Hall algebra of a spherical object_, J. London Math Soc. (2) __80__ (2009) 771--784, [doi](https://doi.org/10.1112/jlms/jdp054), [pdf](www.math.jussieu.fr/~keller/publ/HallAlgSphericalObject.pdf)
 * C. Ringel, _Hall algebras and quantum groups_, Invent. Math. __101__ (1990), no. 3, 583&#8211;591.
-* O. Schiffmann, _Lectures on Hall algebras_, [arXiv:math/0611617](http://arXiv.org/abs/math/0611617)
-* O. Schiffmann, E. Vasserot, _The elliptic Hall algebra_, Cherednik Hecke algebras and Macdonald polynomials, [arXiv:0802.4001](http://arxiv.org/abs/0802.4001), (2008), to appear in Compositio Math.; _The elliptic Hall algebra and the equivariant K-theory of the Hilbert scheme of A2, [arXiv:0905.2555](http://arXiv.org/abs/0905.2555)
-* O. Schiffman, _Drinfeld realization of the elliptic Hall algebra_, [arxiv/1004.2575](http://arxiv.org/abs/1004.2575) 
-* O. Schiffmann, E. Vasserot, _Hall algebras of curves, commuting varieties and Langlands duality_, [arxiv/1009.0678](http://arxiv.org/abs/1009.0678)
-* [[Toen|B. Toen]], _Derived Hall algebras_, [arxiv/0501343](http://arxiv.org/abs/math/0501343)
+* O. Schiffmann, _Lectures on Hall algebras_, arXiv:[math/0611617](https://arXiv.org/abs/math/0611617)
+* [[Olivier Schiffmann]], [[Eric Vasserot]], _The elliptic Hall algebra_, Cherednik Hecke algebras and Macdonald polynomials, Compositio Mathematica __147__:1 (2011) 188-234 [doi](https://doi.org/10.1112/S0010437X10004872) [arXiv:0802.4001](https://arxiv.org/abs/0802.4001), (2008); _The elliptic Hall algebra and the equivariant K-theory of the Hilbert scheme of $\mathbf{A}^2$_,  Duke Math. J. 162(2): 279-366 (2013) [doi](https://doi.org/10.1215/00127094-1961849) [arXiv:0905.2555](http://arXiv.org/abs/0905.2555)
+* O. Schiffman, _Drinfeld realization of the elliptic Hall algebra_, J. Algebr. Comb. 35 (2012) 237--262  [doi](https://doi.org/10.1007/s10801-011-0302-8) [arxiv/1004.2575](https://arxiv.org/abs/1004.2575) 
+* O. Schiffmann, [[Eric Vasserot]], _Hall algebras of curves, commuting varieties and Langlands duality_, Math. Ann. 353 (2012) 1399-1451 [doi](https://doi.org/10.1007/s00208-011-0720-x) [arXiv:1009.0678](https://arxiv.org/abs/1009.0678)
+* [[Bertrand Toen]], _Derived Hall algebras_,  Duke Math. J. 135(3): 587-615 (2006) [doi](https://doi.org/10.1215/S0012-7094-06-13536-6) [arXiv:0501343](https://arxiv.org/abs/math/0501343)
 
-
-* [[Alexander I. Efimov|Alexander Efimov]], _Cohomological Hall algebra of a symmetric quiver_, [arxiv/1103.2736](http://arxiv.org/abs/1103.2736) 
+* [[Alexander I. Efimov]], _Cohomological Hall algebra of a symmetric quiver_, Compositio Mathematica __148__:4 (2012) 1133-1146 [doi](https://doi.org/10.1112/S0010437X12000152) [arxiv/1103.2736](https://arxiv.org/abs/1103.2736) 
 
 * Description of seminar on stability conditions, Hall algebras and [[Stokes phenomenon|Stokes factors]] in Bonn 2009 ([[Daniel Huybrechts|D. Huybrechts]]), [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
 
-* wikipedia: [Hall algebra](http://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](http://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
+* wikipedia: [Hall algebra](https://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](https://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
 
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 
