@@ -120,6 +120,10 @@ On the notion of [[center of a category]]:
 
 * {#Johnstone96} [[Peter Johnstone]], _Remarks on Quintessential and Persistent Localizations_, TAC **2** 8 (1996) 90-99 &lbrack;[tac:2-08](http://www.tac.mta.ca/tac/volumes/1996/n8/2-08abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf)&rbrack;
 
+and of an [[enriched category]]:
+
+* [[Harald Lindner]]. _Center and trace_, Archiv der Mathematik 35 (1980): 476-496. ([doi:10.1007/BF01235372](https://doi.org/10.1007/BF01235372))
+
 
 [[!redirects centre]]
 [[!redirects centers]]
