@@ -66,9 +66,10 @@ The original articles are
 
 * [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory III: $E_{8(8)}$_, 	Phys. Rev. D 90, 066002 (2014) ([arXiv:1406.3348](http://arxiv.org/abs/1406.3348))
 
-For a complete review of [[exceptional field theory]] see
+Review:
 
-* {#BermanBlair06} [[David Berman]], Chris D. A. Blair, _The Geometry, Branes and Applications of Exceptional Field Theory_, ([arXiv:2006.09777](http://arxiv.org/abs/2006.09777))
+* {#BermanBlair06} [[David Berman]], [[Chris D. A. Blair]], _The Geometry, Branes and Applications of Exceptional Field Theory_,  International Journal of Modern Physics A **35** 30 (2020) 2030014  &lbrack;[arXiv:2006.09777](http://arxiv.org/abs/2006.09777), [doi:10.1142/S0217751X20300148](https://doi.org/10.1142/S0217751X20300148)&rbrack;
+
 
 Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-duality]], includes
 
