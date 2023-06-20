@@ -219,23 +219,23 @@ $$
 
 The C-field tadpole cancellation condition is claimed in
 
-* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], p. 2 of: _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
+* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], p. 2 of: _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B **480** (1996) 213-224 &lbrack;[arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122), <a href="https://doi.org/10.1016/S0550-3213(96)00483-X">doi:10.1016/S0550-3213(96)00483-X</a>&rbrack;
 
 referring for proof to the computation in
 
-* [[Cumrun Vafa]], [[Edward Witten]], p. 11 (12 of 14) of: _A One-Loop Test Of String Duality_, Nucl. Phys. B480:213-224, 1996 ([arxiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053))
+* [[Cumrun Vafa]], [[Edward Witten]], p. 11 (12 of 14) of: _A One-Loop Test Of String Duality_, Nucl. Phys. B **480** (1996) 213-224 &lbrack;[arxiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053), <a href="https://doi.org/10.1016/0550-3213(95)00280-6">doi:10.1016/0550-3213(95)00280-6</a>&rbrack;
 
 A comment is also in
 
-* [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. 22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
+* [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. **22**  (1997) 1-13 &lbrack;[arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122), <a href="https://doi.org/10.1016/S0393-0440(96)00042-3">doi:10.1016/S0393-0440(96)00042-3</a>&rbrack;
 
 Another condition appears in
 
-* {#BeckerBecker96} [[Katrin Becker]], [[Melanie Becker]], around (2.58) in _M-Theory on Eight-Manifolds_, Nucl. Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
+* {#BeckerBecker96} [[Katrin Becker]], [[Melanie Becker]], around (2.58) in: *M-Theory on Eight-Manifolds*, Nucl. Phys. B **477** (1996) 155-167 &lbrack;[arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053), <a href="https://doi.org/10.1016/0550-3213(96)00367-7">doi:10.1016/0550-3213(96)00367-7</a>&rbrack;
 
 The formulas of [Sethi-Vafa-Witten 96](#SethiVafaWitten96) and [Becker-Becker 96](#BeckerBecker96) have been plugged together in
 
-* {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
+* {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in: *A Note on Low-Dimensional String Compactifications*, Phys. Lett. B **398** (1997) 285-290 &lbrack;[arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188), <a href="https://doi.org/10.1016/S0370-2693(97)00216-5">doi:10.1016/S0370-2693(97)00216-5</a>&rbrack;
 
 Further discussion:
 
