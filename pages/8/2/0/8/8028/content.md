@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[U-duality]] and [[diffeomorphisms]] in [[exceptional generalized geometry]]:
+
+* [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. 2013, 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
+
 
 On [[E9]] [[exceptional field theory]]:
 
