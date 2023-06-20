@@ -46,6 +46,10 @@ In [[material set theory]], this is equivalent given the [[axiom of foundation]]
 
 In higher categorical terms, the above axiom of finiteness could be stated as follows: [[Set]] is an initial algebra of the 2-endofunctor $F(X) \cong X \coprod 1$ in the [[(2,1)-category]] [[Grpd]]. 
 
+In [[dependent type theory]], given a [[Tarski universe]] $(U, T)$ that is closed under the [[empty type]], the [[unit type]], and [[sum types]], the axiom of finiteness states that 
+
+* For all type families $A:U \vdash C(A)$ such that $T(A) \simeq T(B)$ implies that $C(A) \simeq C(B)$, elements $c_0:C(\mathbb{0})$ and dependent functions $c_s:\prod_{A:U} C(A) \to C(A + \mathbb{1})$, there exists a unique dependent function $c:\prod_{A:U} C(A)$ such that $c(\mathbb{0}) =_{C(\mathbb{0})} c_0$ and for all $A:U$, $c(A + 1) =_{C(A + 1)} c_s(c(A))$. 
+
 ## Related concepts
 
 * [[finite set]], [[finite object]]
