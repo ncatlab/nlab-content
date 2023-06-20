@@ -82,31 +82,12 @@ tried to offer explanation and illustration of what is meant to be happening her
 
 and offered an argument in prose &lbrack;[Marolf (2001) pp. 3](#Marolf01)&rbrack;. 
 
-[Below](#D6StretchingBetweenNS5AndD8) we spell out this approach in more detail for the case $p = 6$, which is particularly clear-cut. It may be illustrated, fairly accurately, as follows:
-
-\linebreak
-
-\linebreak
-
-\linebreak
-
-\linebreak
-
-\linebreak
-
-
-\[
-  \label{IllustrationFluxDensitityofD6OnD8}
-\]
-<center>
-<div style="margin:-200px 10px 10px 0;">
-<img src="/nlab/files/FluxesOfD6BetweenNS5AndD8-230618b.jpg" width="650"></img>
-</div>
-</center>
+[Below](#Examples) we spell out this approach in more detail.
 
 
 
 ## Examples
+ {#Examples}
 
 ### D6 stretching between D8 and NS5
  {#D6StretchingBetweenNS5AndD8}
@@ -304,6 +285,28 @@ $$
 
 over $(\vec 0, x^9) \,\in\, \mathbb{R}^{6,1}$.  Now there are two cases:
 
+\linebreak
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+
+\[
+  \label{IllustrationFluxDensitityofD6OnD8}
+\]
+<center>
+<div style="margin:-200px 10px 10px 0;">
+<img src="/nlab/files/FluxesOfD6BetweenNS5AndD8-230618b.jpg" width="650"></img>
+</div>
+</center>
+
+
+
 1. **$d \lt 0$ -- indicated in the top part of figure (eq:IllustrationFluxDensitityofD6OnD8)**
 
    In this case the NS5-brane is to the "right" of the D8-brane and hence in the Romans vacuum where $F_0 = 0$. Here the differential equation (eq:BianchiIdentityForD6BraneFlux) becomes
@@ -333,6 +336,7 @@ over $(\vec 0, x^9) \,\in\, \mathbb{R}^{6,1}$.  Now there are two cases:
    $$
 
    This means now that as approach the NS5/D8-branes from the "left", $F_2$ is continuously increasing by a rate measured by the density $H_3$ of NS5-brane flux. While this is everywhere non-vanishing, it is concentrated around the NS5-brane worldvolume locus (falling off by a power law from there). Therefore once we have "crossed the NS5-brane" and thus picked up most of its flux, $\int_{S^2} F_2$ will have increased from its asympotically vanishing value to $N \int_{S^2} \int_{-\infty}^d H_3 \,\sim\, N \int_{S^3} H_3 \,\sim\, N k$, the product of the number of NS5-branes and D8-branes. This is hence the number of D6-branes "created" by the Hanany-Witten effect.
+
 
 ### D3 stretching between D5 and NS5
  {#D2StretchingBetweenNS5AndD5}
@@ -442,15 +446,16 @@ Now the [[Bianchi identity]] for the [[RR-field]] [[flux density]] $F_5$ sourced
   \,,
 \]
 
-Assuming the boundaty condition that $F_5$ [[vanishing at infinity|vanishes at infinity]],  the differential equation will imply the presence of non-vanishing $F_5$-flux and hence of $D3$-branes "in between" the D5/NS5 iff the [[wedge product]] $H_3 \wedge F_3$ has the form of a "multipole" roughly supported in between these branes.
+Imposing the [[boundary condition]] that $F_5$ [[vanishing at infinity|vanishes at infinity]],  the differential equation will imply the presence of non-vanishing $F_5$-flux and hence of $D3$-branes "in between" the D5/NS5 iff the [[wedge product]] $H_3 \wedge F_3$ has the form of a "multipole" roughly supported in between these branes.
 
 The following graphics, which shows a 2-dimensional shadow of the situation, qualitatively indicates that and why this is the case: 
 
 <center>
 <div style="margin:-40px 10px 10px 0;">
-<img src="/nlab/files/FivebraneDipole-230620.jpg" width="670"></img>
+<img src="/nlab/files/FivebraneDipole-230620b.jpg" width="580"></img>
 </div>
 </center>
+
 
 
 
@@ -462,11 +467,11 @@ Here
 
 * the little parallelograms indicate the [[orientation]] of the [[wedge product]] $H_3 \wedge F_3$ in the projection to the plane being shown.
 
-(Hence what the graphics is really showing, approximately, is the wedge product of a pair of translates of $dvol_{S}^1$ pulled back to around either puncture of the 2-punctured plane.)
+(Hence what the graphics is really showing, approximately, is the wedge product of a pair of translates of $dvol_{S^1}$ pulled back to around either puncture of the 2-punctured plane.)
 
 The point is to observe that --- besides the abolute value of the wedge product $F_3 \wedge H_3$ evidently being concentrated near the branes, hence particularly between them when they are close --- the sign of the orientation of the wedge product changes as the transverse coordinate passes through the axis between the branes.
 
-Hence as we solve the differential equation $\mathrm{d} F_5 \,=\, H_3 \wedge F_3$ incrementally by running, say, from the top to the bottom in the above graphics, we see that $F_5$ fist incrementally picks up positive contributions as we approach the area between the branes, and then dimishies again as we leave that area. In total, the absolute value of the solution $F_5$ will be supported roughly in between the two 5-branes. 
+Hence as we solve the differential equation $\mathrm{d} F_5 \,=\, H_3 \wedge F_3$ incrementally by running, say, from the top to the bottom in the above graphics, we see that the absolute value of $F_5$ --- indicated in $\color{red}\text{red shading}$ above ---  fist incrementally picks up positive contributions as we approach the area between the branes, and then dimishies again as we leave that area. In total, the absolute value of the solution $F_5$ will be supported roughly in between the two 5-branes. 
 
 Since $F_5$ is the flux sourced by [[D3-branes]], this means that D3-branes are seen to be "created" in between the 5-branes.
 
@@ -512,7 +517,7 @@ See also:
 
 * Wikipedia, *[Hanany-Witten transition](https://en.wikipedia.org/wiki/Hanany%E2%80%93Witten_transition)*
 
-Discussion for [[M2-M5 brane bound state|M2-M5 brane]] [[brane intersection|intersection]]:
+Discussion for [[M2-M5 brane bound state|M2-M5 brane]] [[brane intersection|intersections]]:
 
 * {#Hosomichi00} [[Kazuo Hosomichi]], *On Branes Ending on Branes in Supergravity*, JHEP 0006 (2000) 004 &lbrack;[arXiv:hep-th/0002069](https://arxiv.org/abs/hep-th/0002069), [doi:10.1088/1126-6708/2000/06/004](https://doi.org/10.1088/1126-6708/2000/06/004)&rbrack;
 
