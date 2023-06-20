@@ -67,7 +67,7 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * [[Troels Harmark]],  N.A. Obers, Section 5.1 of _Phase Structure of Non-Commutative Field Theories and Spinning Brane Bound States_, JHEP 0003 (2000) 024 ([arXiv:hep-th/9911169](https://arxiv.org/abs/hep-th/9911169))
 
-* Kazuo Hosomichi, *On Branes Ending on Branes in Supergravity*, JHEP 0006 (2000) 004 &lbrack;[arXiv:hep-th/0002069](https://arxiv.org/abs/hep-th/0002069), [doi:10.1088/1126-6708/2000/06/004](https://doi.org/10.1088/1126-6708/2000/06/004)&rbrack;
+* [[Kazuo Hosomichi]], *On Branes Ending on Branes in Supergravity*, JHEP 0006 (2000) 004 &lbrack;[arXiv:hep-th/0002069](https://arxiv.org/abs/hep-th/0002069), [doi:10.1088/1126-6708/2000/06/004](https://doi.org/10.1088/1126-6708/2000/06/004)&rbrack;
 
 * [[Arvind Rajaraman]], *Supergravity Solutions for Localised Brane Intersections*, JHEP 0109:018 (2001) &lbrack;[arXiv:hep-th/0007241](https://arxiv.org/abs/hep-th/0007241), [doi:10.1088/1126-6708/2001/09/018](https://doi.org/10.1088/1126-6708/2001/09/018)&rbrack;
 
