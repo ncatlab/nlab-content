@@ -463,7 +463,7 @@ Here
 
 * the strength of the circular lines indicates the [[absolute value]] of the [[flux densities]] $H_3$, $F_3$ (vanishing at infinity and spiked at the locus of the sourcing 5-brane), 
 
-* the little arrows indicate the [[orientation]] of the two flux densities, projected to the plane that is being shown
+* the little arrows indicate the [[orientation of a vector|orientation]] of the two flux densities, projected to the plane that is being shown
 
 * the little parallelograms indicate the [[orientation]] of the [[wedge product]] $H_3 \wedge F_3$ in the projection to the plane being shown.
 
