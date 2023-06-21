@@ -66,6 +66,20 @@ $$\mathrm{evpt}(a):\left(\prod_{x:A} B(x)\right) \to B(a)$$
 has a [[section]]. A **contractible type** is a pointed type which satisfies singleton induction. 
 \end{definition}
 
+### Coinductive definition
+
+In the absence of [[identity types]], contractible types can still be [[coinductive definition|defined coinductively]]:
+
+\begin{definition}
+A type $A$ is **contractible** if it comes with an element $\epsilon_A:A$ and a type family $x:A, y:A \vdash \mathrm{Eq}_A(x, y)$ such that for every element $x:A$ and $y:A$ the type $\mathrm{Eq}_A(x, y)$ is contractible. 
+\end{definition}
+
+Alternatively, if [[mere propositions]] are defined coinductively, then
+
+\begin{definition}
+A type $A$ is **contractible** if it is a [[mere proposition]] which comes with an element $\epsilon_A:A$. 
+\end{definition}
+
 ### Rules for isContr
 
 If the [[dependent type theory]] only has rules for [[identity types]] and [[dependent identity types]], one could define the isContr modality by the following rules:
@@ -253,6 +267,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 * [[empty type]], [[falsehood]]
 
 * [[center of contraction]]
+
+* [[coinduction]]
 
 ## References
 
