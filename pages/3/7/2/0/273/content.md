@@ -260,36 +260,40 @@ The case of [[nonabelian group cohomology]]:
 
 
 ### Categorified theory -- 2-bundles/gerbes 
+ {#CategorifiedTheory}
 
+Early discussion, of higher non-abelian cohomology with [[coefficients]] in certain [[2-groups]] (implicitly):
 
-Early original references include
+* [[Paul Dedecker]], *Cohomologie à coefficients non abéliens et espaces fibrés*,  Bulletins de l'Académie Royale de Belgique **41** (1955) 1132-1146 &lbrack;[persee:barb_0001-4141_1955_num_41_1_69497](https://www.persee.fr/doc/barb_0001-4141_1955_num_41_1_69497)&rbrack;
 
-* [[Paul Dedecker]], _Cohomologie de dimension 2 &#224; coefficients non ab&#233;liens_, C. R. Acad. Sci. Paris, 247 (1958), 1160&#8211;1163;
+* [[Paul Dedecker]], *Cohomologie de dimension 2 à coefficients non abéliens*, C. R. Acad. Sci. Paris **247** (1958) 1160-1163
 
-  (with coefficients in certain [[2-group]])
+* [[Paul Dedecker]], *Sur La Cohomologie Non Abelienne I (Dimension Deux)*, Canadian Journal of Mathematics **12** (1960) 231-251 &lbrack;[doi:10.4153/CJM-1960-019-7](https://doi.org/10.4153/CJM-1960-019-7)&rbrack;
 
-* [[John Duskin]], _Non-abelian cohomology in a topos_, reprinted as: Reprints in Theory and Applications of Categories, No. 23 (2013) pp. 1-165 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/23/tr23abs.html))
+and with coefficients in certain [[3-groups]] presented by [[crossed squares]]:
 
-* [[Paul Dedecker]], A. Frei, _Les relations d'&#233;quivalence des morphismes de la suite exacte de cohomologie non ab&#234;lienne_, C. R. Acad. Sci. Paris, 262(1966), 1298-1301
+* [[Paul Dedecker]], A. Frei, _Les relations d'&#233;quivalence des morphismes de la suite exacte de cohomologie non ab&#234;lienne_, C. R. Acad. Sci. Paris **262** (1966) 1298-1301
 
 * [[Paul Dedecker]], _Three dimensional non-abelian cohomology for groups_, Category theory, homology theory and their applications, II (Battelle Institute Conf.) 1969 ([MathSciNet](http://www.ams.org/mathscinet/pdf/263894.pdf?pg1=IID&s1=55880&vfpref=html&r=15))
 
-  (with coefficients in certain [[3-groups]] presented by [[crossed squares]])
-
-The standard classical monograph is
-
-* [[Jean Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971) ([doi:10.1007/978-3-662-62103-5](https://link.springer.com/book/10.1007/978-3-662-62103-5))
-
-  (aspects of classification of $G$-[[gerbes]] by cohomology with coefficients in the [[automorphism 2-group]] $AUT(G)$, but imposes extra constraints)
 
 The correct definition using [[crossed modules]] of sheaves then appeared in 
 
 * {#Debremaeker76} Raymond Debremaeker, _Cohomologie met waarden in een gekruiste groepenschoof op een situs_, PhD thesis, 1976 (Katholieke Universiteit te Leuven). English translation: 
 _Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.02128](https://arxiv.org/abs/1702.02128)
 
+
 Discussion in terms of [[gerbes]]:
 
+* [[Jean Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971) &lbrack;[doi:10.1007/978-3-662-62103-5](https://link.springer.com/book/10.1007/978-3-662-62103-5)&rbrack;
+
+  > (aspects of classification of $G$-[[gerbes]] by cohomology with coefficients in the [[automorphism 2-group]] $AUT(G)$, but imposes extra constraints)
+
+
 * [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_, The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, (1990) ([doi:10.1007/978-0-8176-4574-8_10](https://doi.org/10.1007/978-0-8176-4574-8_10))
+
+* [[John Duskin]], _Non-abelian cohomology in a topos_, reprinted as: Reprints in Theory and Applications of Categories **23** (2013) 1-165 &lbrack;[tac:tr23](http://www.tac.mta.ca/tac/reprints/articles/23/tr23abs.html)&rbrack;
+
 
 * [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
 
