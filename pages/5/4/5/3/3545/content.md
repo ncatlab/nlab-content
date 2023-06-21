@@ -81,6 +81,10 @@ Review with an eye towards the [[dd^c-lemma]] and [[H-cohomology]] is in
 
 * {#Cavalcanti03} [[Gil Cavalcanti]], p. 12 of _New aspects of the $d d^c$-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
+The case of [[Sullivan algebras]] of [[sphere bundles]]:
+
+* Jiawei Zhou, *Formality of Sphere Bundles* &lbrack;[arXiv:2304.09594](https://arxiv.org/abs/2304.09594)&rbrack;
+
 
 [[!redirects formal dg-algebra]]
 [[!redirects formal dg-algebras]]
