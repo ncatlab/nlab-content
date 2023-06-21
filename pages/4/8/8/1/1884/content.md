@@ -2431,7 +2431,7 @@ $$
 
 =--
 
-See for instance ([Friedlander, prop. 3.2](#Friedlander)) or ([Karoubi, prop. 1.32, theorem 1.33](#Karoubi)).
+See for instance ([Friedlander, prop. 3.2](#Friedlander)) or ([Karoubi II, prop. 1.32, theorem 1.33](#Karoubi)).
 
 +-- {: .proof}
 ###### Proof
