@@ -7,7 +7,6 @@ Co-founder of [[string theory]].
 
 ## Selected writings
 
-
 On the [[NSR superstring]]:
 
 * [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B31, 86 (1971) (<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>)
@@ -35,7 +34,12 @@ On the [[Green-Schwarz mechanism]] of [[anomaly cancellation]] in [[heterotic st
 
 On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
 
-* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B **254** (1985) Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+
+On [[anomaly cancellation]] in [[supergravity]]/[[string theory]]:
+
+* [[John H. Schwarz]], *Anomaly Cancellation: A Retrospective From a Modern Perspective* (2001) &lbrack;[doi:10.1142/9789812778185_0014](https://doi.org/10.1142/9789812778185_0014), [pdf](https://cds.cern.ch/record/508470/files/0107059.pdf)&rbrack;
+
 
 
 Review of the [[Green-Schwarz superstring]] on $Ads_5 \times S^5$ in light of the [[AdS/CFT correspondence]]:
@@ -87,7 +91,7 @@ Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]
 * [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String Theory and M-Theory: A Modern Introduction_, Cambridge University Press 2006 ([doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086))
 
 
-## related entries
+## Related entries
 
 * [[string theory]]
 
@@ -101,4 +105,12 @@ Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]
 
 * [[Perry-Schwarz action]]
 
+
+
+
+
 category: people
+
+
+[[!redirects John H. Schwarz]]
+
