@@ -195,3 +195,7 @@ See also:
 [[!redirects multi-adjunctions]]
 [[!redirects multiadjunction]]
 [[!redirects multiadjunctions]]
+[[!redirects multi-adjoint functor]]
+[[!redirects multi-adjoint functors]]
+[[!redirects multiadjoint functor]]
+[[!redirects multiadjoint functors]]
