@@ -24,8 +24,12 @@ On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic mon
 
 * [[Brian Day]], [[Ross Street]], *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
 
+On lax [[braided monoidal categories]] with possibly non-invertible [[braiding]]:
 
-## Related $n$Lab entries
+* [[Brian Day]], [[Elango Panchadcharam]], [[Ross Street]], _Lax braidings and the lax centre_, Contemporary Mathematics **441** 1 (2007) &lbrack;[pdf](http://science.mq.edu.au/~street/laxcentre.pdf), [[DayPanchadcharamStreet-LaxBraidings.pdf:file]]&rbrack;
+
+
+## Related entries
 
 
 * [[Day convolution]]
