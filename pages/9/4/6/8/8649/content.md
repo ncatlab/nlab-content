@@ -88,16 +88,24 @@ See also the references at *[[fiber bundles in physics]]*.
 
 ### For the electromagnetic field
 
-The original argument for charge quantization of the [[electromagnetic field]] is due to
+The original argument for charge quantization of the [[electromagnetic field]]:
 
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72 ([doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short))
 
-Review:
+Further early discussion
+
+* [[Julian Schwinger]], *Magnetic Charge and Quantum Field Theory*, Phys. Rev. **144** (1966) 1087 &lbrack;[doi:10.1103/PhysRev.144.1087](https://doi.org/10.1103/PhysRev.144.1087)&rbrack;
+
+* [[Daniel Zwanziger]], *Quantum Field Theory of Particles with Both Electric and Magnetic Charges*, Phys. Rev. **176** (1968) 1489 &lbrack;[doi:10.1103/PhysRev.176.1489](https://doi.org/10.1103/PhysRev.176.1489)&rbrack;
+
+
+Review and further discussion:
 
 * {#Alvarez85} [[Orlando Alvarez]], Section 2 of: _Topological quantization and cohomology_, Comm. Math. Phys. Volume 100, Number 2 (1985), 279-309 ([euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448))
 
-* {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press 2011 ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377))
+* {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
+* [[Luis Alvarez-Gaumé]], Frederic Zamora, Section II in:  *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1063/1.55087](https://doi.org/10.1063/1.55087)&rbrack;
 
 * {#Freed00} [[Daniel Freed]], Section 2 of: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7**, Int. Press (2000) 129-194 &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
 
@@ -106,7 +114,6 @@ Review:
 * [[Yakov Shnir]], Section 2.1 of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
 * [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
-
 
 * {#Heras18} Ricardo Heras, _Dirac quantisation condition: a comprehensive review_, Contemp. Phys. 59, 331 (2018) ([arXiv:1810.13403](https://arxiv.org/abs/1810.13403))
 
