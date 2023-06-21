@@ -331,6 +331,9 @@ Further development:
 
 * [[Paul Sutcliffe]], *A Skyrme model with novel chiral symmetry breaking* &lbrack;[arXiv:2301.03021](https://arxiv.org/abs/2301.03021)&rbrack;
 
+* Fabrizio Canfora, Scarlett C. Rebolledo-Caceres, *Skyrmions at Finite Density* &lbrack;[arXiv:2306.10226](https://arxiv.org/abs/2306.10226)&rbrack;
+
+
 
 Large computer search for Skyrmion solutions:
 
