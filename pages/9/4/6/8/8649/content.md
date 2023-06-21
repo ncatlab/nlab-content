@@ -114,6 +114,11 @@ See also
 
 * Wikipedia, _[Dirac's quantization](https://en.wikipedia.org/wiki/Magnetic_monopole#Dirac%27s_quantization)_
 
+Arguments for electric charge quantization from [[anomaly cancellation]] in the [[standard model of particle physics]]:
+
+* K. S. Babu and Rabindra N. Mohapatra, *Quantization of electric charge from anomaly constraints and a Majorana neutrino*, Phys. Rev. D **41** (1990) 271 &lbrack;[doi:10.1103/PhysRevD.41.271](https://doi.org/10.1103/PhysRevD.41.271)&rbrack;
+
+
 ### For the weak nuclear force field
 
 Discussion of the [[moduli space of monopoles]] for [[SU(2)]]-[[Yang-Mills theory]] ([[weak nuclear force]]):
