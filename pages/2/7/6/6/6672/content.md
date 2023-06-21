@@ -1,17 +1,26 @@
 
+
 Paul Dedecker was a Belgian mathematician, one of the pioneers of the subject of [[nonabelian cohomology]]. 
 
-Working also in general [[category theory]]. He was also doing, [[variational calculus]] and its relations to [[homological algebra]], [[exterior calculus]] on manifolds and [[mathematical physics]]. 
+He also worked on [[category theory]], [[variational calculus]] and its relations to [[homological algebra]], [[exterior calculus]] on [[manifolds]] and on [[mathematical physics]]. 
 
-His papers related to [[nonabelian cohomology]] (see also there) include
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Paul_Dedecker)
 
-* Cohomologie &#224; coefficients non ab&#233;liens et espaces fibr&#233;s. Acad. Roy. Belg. Bull. Cl. Sci. (5)  41  (1955), 1132--1146.
+## Selected writings
+
+On [[nonabelian cohomology]]:
+
+* [[Paul Dedecker]], *Cohomologie à coefficients non abéliens et espaces fibrés*,  Bulletins de l'Académie Royale de Belgique **41** (1955) 1132-1146 &lbrack;[persee:barb_0001-4141_1955_num_41_1_69497](https://www.persee.fr/doc/barb_0001-4141_1955_num_41_1_69497)&rbrack;
+
+* [[Paul Dedecker]], *Cohomologie de dimension 2 à coefficients non abéliens*, C. R. Acad. Sci. Paris **247** (1958) 1160-1163
+
+* [[Paul Dedecker]], *Sur La Cohomologie Non Abelienne I (Dimension Deux)*, Canadian Journal of Mathematics **12** (1960) 231-251 &lbrack;[doi:10.4153/CJM-1960-019-7](https://doi.org/10.4153/CJM-1960-019-7)&rbrack;
+
 
 * Groupo&#239;des de cohomologie &#224; coefficients non ab&#233;liens et espaces fibr&#233;s. Colloque de topologie alg&#233;brique, Louvain, 1956,  pp. 135--149. Georges Thone, Li&#232;ge; Masson & Cie, Paris, 1957.
 
 * On the exact cohomology sequence of a space with coefficients in a nonabelian sheaf.  1958  Symposium internacional de topolog&#237;a algebraica International symposium on algebraic topology  pp. 309--322 Universidad Nacional Aut&#243;noma de M&#233;xico and UNESCO, Mexico City
 
-* Cohomologie de dimension $2$ &#224; coefficients non ab&#233;liens. C. R. Acad. Sci. Paris  247  1958 1160--1163. 
 
 * Sur la cohomologie non ab&#233;lienne. I. Canad. J. Math.  12  1960 231--251; Sur la cohomologie non ab&#233;lienne. II.  Canad. J. Math.  15  1963 84--93.
 
