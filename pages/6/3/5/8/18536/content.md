@@ -19,6 +19,11 @@ On [[effective field theory]]-foundations of [[nuclear physics]] (introducing, a
 
 * [[Julian Schwinger]], _A Theory of the Fundamental Interactions_, Annals Phys. 2 (1957) 407-434 ([spire:12286](http://inspirehep.net/record/12286/))
 
+On [[Dirac charge quantization]]:
+
+* [[Julian Schwinger]], *Magnetic Charge and Quantum Field Theory*, Phys. Rev. **144** (1966) 1087 &lbrack;[doi:10.1103/PhysRev.144.1087](https://doi.org/10.1103/PhysRev.144.1087)&rbrack;
+
+
 On [[classical field theory|classical]] [[electrodynamics]]:
 
 * [[Julian Schwinger]] et al., *Classical Electrodynamics*, based on Schwinger's 1976 lecture, Routledge (1999) &lbrack;[ISBN:9780738200569](https://www.routledge.com/Classical-Electrodynamics/Schwinger-Jr-Milton-Tsai/p/book/9780738200569), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/schwinger_EM.pdf)&rbrack;
