@@ -17,7 +17,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea ##
 
 ### General idea
@@ -1193,9 +1192,21 @@ in the Deligne complex, we obtain the formulas for
 
 ## References 
 
-A classical reference is
+Classical accounts (in the generality of [[nonabelian cohomology]]):
 
-* Godement _Topologie alg&#233;brique et th&#233;orie de faisceaux_
+* [[Alexander Grothendieck]], *A General Theory of Fibre Spaces With Structure Sheaf*, University of Kansas, Report No. 4 (1955, 1958) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Kansasnotes.pdf), [[Grothendieck-FibreSpaces.pdf:file]]&rbrack;
+
+* [[Jean Frenkel]], *Cohomologie à valeurs dans un faisceau non abélien*, C. R. Acad. Se., t. 240 (1955) 2368-2370
+
+* [[Jean Frenkel]], *Cohomologie non abélienne et espaces fibrés*, Bulletin de la Société Mathématique de France, **85** (1957) 135-220 &lbrack;[numdam:BSMF_1957__85__135_0](http://www.numdam.org/item/BSMF_1957__85__135_0)&rbrack;
+
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+
+Textbook account:
+
+* [[Torsten Wedhorn]], *Torsors and Non-abelian Čech Cohomology*, chapter 7 in: *Manifolds, Sheaves, and Cohomology*, Springer (2016) &lbrack;[doi:10.1007/978-3-658-10633-1](https://doi.org/10.1007/978-3-658-10633-1)&rbrack;
+
 
 A historical survey (of some aspects) is in 
 
