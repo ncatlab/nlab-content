@@ -10,9 +10,14 @@ Initially working on [[topological vector spaces]] and [[analysis]], Grothendiec
 {:toc}
 
 
-## Texts by Grothendieck
+## Selected writings
 
 Grothendieck's geometric work is documented in texts known as [[EGA]] (with [[Dieudonné]]), an early account [[FGA]], and the many volume account [[SGA]] of the seminars at l'IH&#201;S, Bures-sur-Yvette, where he was based at the time. (See the [wikipedia article](http://en.wikipedia.org/wiki/Alexander_Grothendieck) for some indication of the story from there until the early 1980s.)
+
+On [[fiber bundles]] and [[nonabelian cohomology|nonabelian]] [[Čech cohomology]]:
+
+* [[Alexander Grothendieck]], *A General Theory of Fibre Spaces With Structure Sheaf*, University of Kansas, Report No. 4 (1955, 1958) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Kansasnotes.pdf), [[Grothendieck-FibreSpaces.pdf:file]]&rbrack;
+
 
 In the late 1970s and early 1980s Grothendieck wrote several documents that have been of outstanding importance in the origins of the theory that underlies the [[nPOV]].  These include
 
