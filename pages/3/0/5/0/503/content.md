@@ -406,20 +406,24 @@ $$
 
 on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
+[Lack and Tendas](#LT2022) give criteria for a $\mathcal{V}$-enriched category to be Cauchy complete in Cor. 4.22 and Prop. 4.23.
+
 =--
 
 
 ## Examples 
 
-* When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\mathcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]] by Corollary 3.16 of [Lack and Tendas](#LT2022).
+* When $\mathcal{V} = $ **[[Set]]**, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\mathcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]] by Corollary 3.16 of [Lack and Tendas](#LT2022).
 
 * When $\mathcal{V} = [0,\infty]$ is the extended nonnegative reals ordered by $\geq$ and with $+$ as monoidal product, $\mathcal{V}$-categories are generalized metric spaces. The Cauchy completion is the usual completion under _Cauchy nets_ or _Cauchy filters_.
 
-* When $\mathcal{V} = \mathbf{Ab}$ is the category of abelian groups, the Cauchy completion of $\mathcal{V}$-enriched category is its completion under _finite direct sums and idempotent splitting_.  This process of Cauchy completion can be accomplished by first taking the "finite coproduct completion", i.e. completing under finite direct sums, and then taking the [[Karoubi envelope]], i.e. splitting idempotents.
+* When $\mathcal{V} = $ **[[Ab]]** is the category of abelian groups, the Cauchy completion of $\mathcal{V}$-enriched category is its completion under _finite direct sums and idempotent splitting_.  This process of Cauchy completion can be accomplished by first taking the "finite coproduct completion", i.e. completing under finite direct sums, and then taking the [[Karoubi envelope]], i.e. splitting idempotents.
+
+* More generally, when $\mathcal{V} = R \mathbf{Mod}$ is the category of modules of a commutative ring $R$, the Cauchy completion of $\mathcal{V}$-enriched category is its completion under _finite direct sums and idempotent splitting_.  This result, probably folklore for many decades, follows from Cor. 4.22 of [Lack and Tendas](#LT2022).
 
 * When $\mathcal{V} = \mathbf{Ch}$ is [[chain complexes]], a $\mathcal{V}$-category is a [[dg-category]].  Cauchy complete dg-categories are characterized by [Nikolić, Street, and Tendas](#NST2020).
 
-* When $\mathcal{V} = \mathbf{Slat}$ is the category of sup-lattices, a $\mathcal{V}$-category is a locally posetal, [[locally cocomplete bicategory]], i.e. a [[quantaloid]]. The Cauchy completion is some sort of completion under _arbitrary_ sums: it is large even if the original quantaloid is small, and its existence depends on the precise definition we choose of Cauchy completion.
+* When $\mathcal{V} =$ **[[SupLat]]** is the category of [[suplattices]], a $\mathcal{V}$-category is a locally posetal, [[locally cocomplete bicategory]], i.e. a [[quantaloid]]. The Cauchy completion is some sort of completion under _arbitrary_ sums: it is large even if the original quantaloid is small, and its existence depends on the precise definition we choose of Cauchy completion.  See [Johnson](#J1989) for more details.
 
 * In the $\infty$-categorical context, we can consider enrichment in the $\infty$-category of [[spectra]]. The Cauchy completion of an $\infty$-category enriched in spectra is its completion under _all finite colimits_.
 
@@ -658,7 +662,7 @@ Surveys are in
 
 Further references include for instance
 
-* S. R. Johnson, _Small Cauchy Completions_ , JPAA **62** (1989) pp.35-45.
+* {#J1989} S. R. Johnson, _Small Cauchy completions_ , JPAA **62** (1989) pp.35-45.  ([web](https://www.sciencedirect.com/science/article/pii/0022404989900194))
 
 * R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
 
