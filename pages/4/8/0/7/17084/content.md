@@ -108,9 +108,11 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 ## References
 
+* [[Alan J. Deschner]], Exp. 3.5 (a) in: *Sullivan's theory of minimal models*, MSc thesis, Univ. British Columbia (1976) &lbrack;[doi:10.14288/1.0080132](http://hdl.handle.net/2429/20052), [pdf](https://open.library.ubc.ca/media/stream/pdf/831/1.0080132/2)&rbrack;
+
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], p. 142 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
-* {#Menichi13} [[Luc Menichi]], Section 1.2 in: _Rational homotopy -- Sullivan models_, IRMA Lect. Math. Theor. Phys., EMS ([arXiv:1308.6685](https://arxiv.org/abs/1308.6685))
+* {#Menichi13} [[Luc Menichi]], Section 1.2 in: _Rational homotopy -- Sullivan models_, in: *Free Loop Spaces in Geometry and Topology*, IRMA Lect. Math. Theor. Phys. **24**, EMS (2015) 111-136 &lbrack;[doi:10.4171/153](https://doi.org/10.4171/153), [arXiv:1308.6685](https://arxiv.org/abs/1308.6685)&rbrack;
 
 
 
