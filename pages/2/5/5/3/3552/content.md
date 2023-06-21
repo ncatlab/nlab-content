@@ -319,9 +319,15 @@ See at _[[the co-binary Sullivan differential is the dual Whitehead product]]_.
 
 * [[equivariant Sullivan model]]
 
+
+
 ## References
 
 Original articles:
+
+* [[Dennis Sullivan]], *Differential forms and the topology of manifolds*, in Proc. International  Conf.: *Manifolds Tokyo (1973)*, Univ. Tokyo Press (1975) 37-49 &lbrack;[pdf](https://www.math.stonybrook.edu/~dennis/publications/PDF/DS-pub-0017.pdf), [[Sullivan-DiffFormsManifolds.pdf:file]]&rbrack;
+
+* [[Alan J. Deschner]], *Sullivan's theory of minimal models*, MSc thesis, Univ. British Columbia (1976) &lbrack;[doi:10.14288/1.0080132](http://hdl.handle.net/2429/20052), [pdf](https://open.library.ubc.ca/media/stream/pdf/831/1.0080132/2)&rbrack;
 
 * {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item/PMIHES_1977__47__269_0/))
 
