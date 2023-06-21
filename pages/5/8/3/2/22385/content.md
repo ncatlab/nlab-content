@@ -55,8 +55,7 @@ In [[constructive mathematics]], such as in [[intuitionistic type theory]], the 
 
 Another perspective is that setoids in the sense of equivalence relations consitute the [[ex/reg completion]] of [[Sets]], while those in terms of pseudo-equivalence relations constitute the [[ex/lex completion]] of [[Sets]].
 
-In terms of [[type theory]], the definition in terms of [[equivalence relations]] is natural under the *[[propositions as some types]]*-paradigm, while the definition in temrs of [[pseudo-equivalence relations]] is natural under the *[[propositions-as-types|types as propositions]]*-paradigm.
-
+In terms of [[type theory]], the definition in terms of [[equivalence relations]] is natural under the *[[propositions as some types]]*-paradigm, while the definition in terms of [[pseudo-equivalence relations]] is natural under the *[[propositions-as-types|types as propositions]]*-paradigm.
 
 
 
