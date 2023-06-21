@@ -64,6 +64,8 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 * {#Rota} [[Gian-Carlo Rota]], _Book review of "Category Theory 1991"_, Advances in Mathematics, Vol. 102, No. 1, 1993, page 126. &lbrack;[doi:10.1006/aima.1993.1061](https://doi.org/10.1006/aima.1993.1061)&rbrack;
 
+* {#CT99} J. Adamek, P.T. Johnstone and M. Sobral (Eds), _Category Theory 1999: selected papers, conference held in Coimbra in honour of the 90th birthday of Saunders Mac Lane_, Journal of Pure and Applied Algebra **168** Issues 2–3 (2002) [journal](https://www.sciencedirect.com/journal/journal-of-pure-and-applied-algebra/vol/168/issue/2)
+
 * {#CT00} [[Aurelio Carboni]], [[Giuseppe Rosolini]] and [[Robert Walters]] (guest editors), _CT2000_, Theory and Applications of Categories, Vol. 9, 2001. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol9)&rbrack;
 
 * {#CT04} [[George Janelidze]], [[John MacDonald]], [[Ross Street]] and [[Walter Tholen]] (guest editors), _CT2004_, Theory and Applications of Categories, Vol. 15, 2005-2006. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol15)&rbrack;
