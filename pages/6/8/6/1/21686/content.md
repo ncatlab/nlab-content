@@ -4,7 +4,7 @@
 
 #### Original articles
 
-The [[differential geometry|differential-geometric]] [[Chern-Weil homomorphism]] (evaluating [[curvature 2-forms]] of [[connection on a principal bundle|connections]] in [[invariant polynomials]]) first appears in print (_[[Cartan's map]]_) in
+The [[differential geometry|differential-geometric]] [[Chern-Weil homomorphism]] (evaluating [[curvature 2-forms]] of [[connection on a principal bundle|connections]] in [[invariant polynomials]]) first appears in print (*[[Cartan's map]]*) in:
 
 * [[Henri Cartan]], Section 7 of: _Cohomologie réelle d'un espace fibré principal différentiable. I : notions d'algèbre différentielle, algèbre de Weil d'un groupe de Lie _, Séminaire Henri Cartan, Volume 2  (1949-1950), Talk no. 19, May 1950  ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
 
