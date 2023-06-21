@@ -26,7 +26,7 @@ More on [[absolute neighbourhood retracts]]:
 
 Introducing unstable [[Cohomotopy]]:
 
-* {#Borsuk36} [[Karol Borsuk]], _Sur les groupes des classes de transformations continues_, C. R. Acad. Sci. Paris 202.1400-1403 (1936): 2 ([doi:10.24033/asens.603](https://doi.org/10.24033/asens.603))
+* {#Borsuk36} [[Karol Borsuk]], _Sur les groupes des classes de transformations continues_, C. R. Acad. Sci. Paris 202.1400-1403 (1936)
 
 On [[shape theory]]:
 
