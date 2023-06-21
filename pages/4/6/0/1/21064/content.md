@@ -61,7 +61,7 @@ A new kind of [[perturbation series]] for the quantized super-membrane:
 
 Relation to the string [[dilaton]] under [[double dimensional reduction]]:
 
-* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* $[$[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)$]$
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton*,  J. High Energ. Phys. **2022** 219 (2022) $[$[arXiv:2208.05822](https://arxiv.org/abs/2208.05822), <a href="https://doi.org/10.1007/JHEP09(2022)219">doi:10.1007/JHEP09(2022)219</a>$]$
 
 
 
