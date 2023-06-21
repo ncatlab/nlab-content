@@ -1,7 +1,7 @@
 
-Nicola Gambino is associate professor of [[mathematics]] at Leeds.
+Nicola Gambino is associate professor of [[mathematics]] at Manchester.
 
-* [website](http://www1.maths.leeds.ac.uk/~pmtng/)
+* [website](https://personalpages.manchester.ac.uk/staff/nicola.gambino/)
 
 ## Selected writings
 
@@ -29,6 +29,14 @@ On [[Kripke-Joyal semantics]] and [[forcing]] in [[homotopy type theory]]:
 
 * {#AGH21} [[Steve Awodey]], [[Nicola Gambino]], [[Sina Hazratpour]], *Kripke-Joyal forcing for type theory and uniform fibrations* (2021) &lbrack;[arXiv:2110.14576](https://arxiv.org/abs/2110.14576)&rbrack;
 
+
+Including discussion of [[enriched profunctors]]\ bimodules, in the context of operads and [[analytic functors]]:
+
+* [[Nicola Gambino]], [[André Joyal]], _On operads, bimodules and analytic functors_, 
+Memoirs of the American Mathematical Society, 249 (1184), 2017, (v) + 110pp.
+ [Arxiv preprint: 1405.7270](https://arxiv.org/pdf/1405.7270.pdf)  [DOI:10.1090/memo/1184](https://doi.org/10.1090/memo/1184)
+
+From the AMS website: _The authors develop further the theory of operads and analytic functors. In particular, they introduce the bicategory OpdBim of operad bimodules, that has operads as 0-cells, operad bimodules as 1-cells and operad bimodule maps as 2-cells, and prove that it is cartesian closed. In order to obtain this result, the authors extend the theory of distributors and the formal theory of monads._
 
 ## Related entries 
 
