@@ -279,3 +279,7 @@ analytic De Rham cohomology_ ([pdf](http://www.emis.de/journals/JTNB/2004-2/page
 [[!redirects de Rham complex]]
 
 [[!redirects de Rham complexes]]
+
+[[!redirects exterior calculus]]
+
+
