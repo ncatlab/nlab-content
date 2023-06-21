@@ -454,6 +454,11 @@ On sphere fiber bundles as [[Kaluza-Klein compactifications]] in [[supergravity]
 
 * [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
 
+On sphere bundles with [[formal dg-algebra|formal]] [[Sullivan models]]:
+
+* Jiawei Zhou, *Formality of Sphere Bundles* &lbrack;[arXiv:2304.09594](https://arxiv.org/abs/2304.09594)&rbrack;
+
+
 
 
 [[!redirects sphere fiber bundles]]
