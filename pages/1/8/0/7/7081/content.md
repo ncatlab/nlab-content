@@ -50,20 +50,6 @@ The following are two provably [[equivalence in homotopy type theory|equivalent]
 
 The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $\infty$-groupoid is an $n$-groupoid if all its hom-groupoids are $(n-1)$-groupoids.  The second says that being a proposition is equivalent to being "[[contractible]] if [[inhabited]]".
 
-### Coinductive definition
-
-In the absence of [[identity types]], mere propositions can still be [[coinductive definition|defined coinductively]]:
-
-\begin{definition}
-A type $A$ is a **mere proposition** if it comes with a type family $x:A, y:A \vdash \mathrm{Eq}_A(x, y)$ such that for every element $x:A$ and $y:A$, there is an element $\epsilon_A(x, y):\mathrm{Eq}_A(x, y)$ and the type $\mathrm{Eq}_A(x, y)$ is a mere proposition. 
-\end{definition}
-
-Alternatively, if [[contractible types]] are defined coinductively, then 
-
-\begin{definition}
-A type $A$ is a **mere proposition** if it comes with a type family $x:A, y:A \vdash \mathrm{Eq}_A(x, y)$ such that for every element $x:A$ and $y:A$, the type $\mathrm{Eq}_A(x, y)$ is a [[contractible type]]. 
-\end{definition}
-
 ### Rules for isProp
 
 The usual definition of isProp is given by the following rules:
