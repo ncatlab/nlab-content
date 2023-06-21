@@ -58,7 +58,7 @@ along which one can generalize the coefficient objects of ordinary cohomology. (
 
 Depending on the [[model category|models]] chosen, there are different concrete realizations of nonabelian cohomology. 
 
-For instance nonabelian [[Cech cohomology]] played a special role in the motivation of the notion of [[gerbe]]s (see in particular [[gerbe (in nonabelian cohomology)]]), concretely thought of in terms of [[pseudofunctor]]s at least in the context of nonabelian [[group cohomology]], while more abstract (and less explicit) [[homotopy theory]] methods dominate the discussion of [[infinity-stack]]s.
+For instance nonabelian [[Čech cohomology]] played a special role in the motivation of the notion of [[gerbe]]s (see in particular [[gerbe (in nonabelian cohomology)]]), concretely thought of in terms of [[pseudofunctor]]s at least in the context of nonabelian [[group cohomology]], while more abstract (and less explicit) [[homotopy theory]] methods dominate the discussion of [[infinity-stack]]s.
 
 Either way, one obtains a notion of _cohomology on $\infty$-categories with coefficients in $\infty$-catgories_. This is, most generally, the setup of "[[nonabelian cohomology]]".
 
@@ -224,18 +224,35 @@ For examples and discussion of this see
 
 * [[twisted form|twisted forms]] .
 
+
 ## References
  {#References}
 
 ### Classical theory -- bundles and groups
 
-The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic groups]]:
+The classical notion of non-abelian ([[Čech cohomology|Čech]]-)cohomology in degree 1 and its relation to [[fiber bundles]]/[[principal bundles]]:
+
+
+* [[Alexander Grothendieck]], Chapter V of: *A General Theory of Fibre Spaces With Structure Sheaf*, University of Kansas, Report No. 4 (1955, 1958) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Kansasnotes.pdf), [[Grothendieck-FibreSpaces.pdf:file]]&rbrack;
+
+* [[Jean Frenkel]], *Cohomologie à valeurs dans un faisceau non abélien*, C. R. Acad. Se., t. 240 (1955) 2368-2370
+ 
+* [[Jean Frenkel]], *Cohomologie non abélienne et espaces fibrés*, Bulletin de la Société Mathématique de France, **85** (1957) 135-220 &lbrack;[numdam:BSMF_1957__85__135_0](http://www.numdam.org/item/BSMF_1957__85__135_0)&rbrack;
+
+Review:
+
+* [[Torsten Wedhorn]], *Torsors and Non-abelian Čech Cohomology*, chapter 7 in: *Manifolds, Sheaves, and Cohomology*, Springer (2016) &lbrack;[doi:10.1007/978-3-658-10633-1](https://doi.org/10.1007/978-3-658-10633-1)&rbrack;
+
+Lecture notes:
 
 * Nicolas Addington, _Fiber bundles and nonabelian cohomology_, 2007 ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
 
-* {#Mitchell11} Stephen Mitchell, around Theorem 7.4 in: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
+* {#Mitchell11} [[Stephen Mitchell]], around Theorem 7.4 in: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
 
-*  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
+See also:
+
+*  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_, Trans. Amer. Math. Soc. **360** (2008) 3019-3040 &lbrack;[doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5)&rbrack;
+
 
 The case of [[nonabelian group cohomology]]:
 
