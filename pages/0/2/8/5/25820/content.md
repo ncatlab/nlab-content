@@ -106,7 +106,7 @@ $$\mathrm{trans}(a, b, a)(f, \mathrm{sym}(a, b)(f)) = \mathrm{refl}(a)$$
 * for every vertex $a \in V$, $b \in V$ and edge $f:E(a, b)$
 $$\mathrm{trans}(b, a, b)(\mathrm{sym}(a, b)(f), f) = \mathrm{refl}(b)$$
 
-Additionally, a setoid with one vertex is equivalent to a [[pointed set|pointed]] [[magma]] with an [[endofunction]]. 
+Additionally, a pseudo-equivalence relation on a set with one vertex is equivalent to a [[pointed set|pointed]] [[magma]] with an [[endofunction]]. 
 
 ## Thin setoids
 
@@ -118,11 +118,11 @@ A thin setoid is equivalently a [[thin category|thin]] [[dagger category]], or a
 
 Sometimes in the mathematical literature, setoids are thin by default. 
 
-## Core of a setoid
+## Core of a pseudo-equivalence relation
 
-For any setoid $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $\mathrm{Core}(A)$ of $A$. 
+For any pseudo-equivalence relation $A$, the [[core]] of $A$ is defined as the maximal [[subgroupoid]] $\mathrm{Core}(A)$ of $A$. 
 
-More specifically, a subsetoid $G$ of a setoid $A$ is a setoid $G$ with an faithful injective-on-objects dagger functor $f:G \to A$. A subsetoid $G$ of $A$ is a subgroupoid if the pseudo-equivalence relation of $G$ additionally satisfy the groupoid equational axioms: 
+More specifically, a sub-pseudo-equivalence relation of a pseudo-equivalence relation $A$ is a set $G$ with a pseudo-equivalence relation and an faithful injective-on-objects dagger functor $f:G \to A$. A sub-pseudo-equivalence relation $G$ of $A$ is a subgroupoid if $G$ additionally satisfy the groupoid equational axioms: 
 
 * for every vertex $a \in V_G$, $b \in V_G$, $c \in V_G$, and $d \in V_G$ and edge $f \in E_G(a, b)$, $g \in E_G(b, c)$, and $h \in E_G(c, d)$
 $$\mathrm{trans}(a, b, d)(f, \mathrm{trans}(b, c, d)(g, h)) = \mathrm{trans}(a, c, d)(\mathrm{trans}(a, b, c)(f, g), h)$$
@@ -139,19 +139,19 @@ $$\mathrm{trans}(a, b, a)(f, \mathrm{sym}(a, b)(f)) = \mathrm{refl}(a)$$
 * for every vertex $a \in V_G$, $b \in V_G$ and edge $f:E_G(a, b)$
 $$\mathrm{trans}(b, a, b)(\mathrm{sym}(a, b)(f), f) = \mathrm{refl}(b)$$
 
-A subgroupoid $G$ of a setoid $A$ is a maximal subgroupoid if the dagger functor $f:G \to A$ is bijective-on-objects, and additionally if, for every other subgroupoid $H$ of $A$ with faithful injective-on-objects dagger functor $g:H \to A$, there is a unique faithful injective-on-objects dagger functor $h:H \to G$ such that $h \circ f = g$. 
+Every pseudo-equivalence relation has at least one subgroupoid given by only the [[identity morphisms]] $\mathrm{refl}(a):E_A(a, a)$ of $A$. A subgroupoid $G$ of a pseudo-equivalence relation $A$ is a maximal subgroupoid if the dagger functor $f:G \to A$ is bijective-on-objects, and additionally if, for every other subgroupoid $H$ of $A$ with faithful injective-on-objects dagger functor $g:H \to A$, there is a unique faithful injective-on-objects dagger functor $h:H \to G$ such that $h \circ f = g$. 
 
-## Category of setoids
+## Category of pseudo-equivalence relations
 
-Let the category [[Set|$Set$]] be defined as a [[category]] that is [[finitely complete category|finitely complete]] and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). This category of sets is not even a [[regular category]], let alone an [[exact category]], as can happen in certain [[foundations of mathematics]], such as bare [[set-level type theory|set-level]] [[Martin-Löf type theory]], or [[ZFC]] and [[ETCS]] without the [[powerset]] [[axiom]]. The category $Setoid$ of __setoids__ is then the [[exact completion|ex/lex completion]] of Set. 
+Let the category [[Set|$Set$]] be defined as a [[category]] that is [[finitely complete category|finitely complete]] and [[well-pointed category|well-pointed]] (i.e. whose [[terminal object]] is a [[extremal epimorphism|extremal]] [[separator|generating object]]). This category of sets is not even a [[regular category]], let alone an [[exact category]], as can happen in certain [[foundations of mathematics]], such as bare [[set-level type theory|set-level]] [[Martin-Löf type theory]], or [[ZFC]] and [[ETCS]] without the [[powerset]] [[axiom]]. The category $\mathrm{PseudoEquivRel}$ of sets with pseudo-equivalence relations is then the [[exact completion|ex/lex completion]] of Set. 
 
-More specifically, using the definition of setoid with two sets: if $(s_R, t_R):R\rightrightarrows X$ and $(s_S, t_S):S\rightrightarrows Y$ are two setoids, a morphism between them in $Setoid$ is defined to be a function $f:X\to Y$ with functions $f_1:R \to S$ with $s_S \circ f_1 = f \circ s_R$ and $t_S \circ f_1 = f \circ t_R$. Moreover, we declare two such functions $f,g:X\to Y$ to be *equal* if there exists a function $h:X\to S$ such that $s \circ h = f$ and $t \circ h = g$.  Because $(s_S, t_S):S\rightrightarrows Y$ is a pseudo-equivalence relation, this defines an actual [[equivalence relation]] on the morphisms $f:X\to Y$, which is compatible with composition; thus we have a well-defined category $Setoid$ of setoids, which is the ex/lex completion of $Set$.
+More specifically, using the definition of pseudo-equivalence relation with two sets: if $(s_R, t_R):R\rightrightarrows X$ and $(s_S, t_S):S\rightrightarrows Y$ are two pseudo-equivalence relations, a morphism between them in $\mathrm{PseudoEquivRel}$ is defined to be a function $f:X\to Y$ with functions $f_1:R \to S$ with $s_S \circ f_1 = f \circ s_R$ and $t_S \circ f_1 = f \circ t_R$. Moreover, we declare two such functions $f,g:X\to Y$ to be *equal* if there exists a function $h:X\to S$ such that $s \circ h = f$ and $t \circ h = g$. Because $(s_S, t_S):S\rightrightarrows Y$ is a pseudo-equivalence relation, this defines an actual [[equivalence relation]] on the morphisms $f:X\to Y$, which is compatible with composition; thus we have a well-defined category $\mathrm{PseudoEquivRel}$ of pseudo-equivalence relations, which is the ex/lex completion of $Set$.
 
-We have a [[full and faithful functor]] $Set\to Setoid$ sending an object $X$ to the pseudo-equivalence relation $(s_X, t_X):X\rightrightarrows X$. One can then verify directly that $Setoid$ is exact, that this embedding preserves finite limits, and that it is universal with respect to lex functors from $Set$ into exact categories.
+We have a [[full and faithful functor]] $Set\to \mathrm{PseudoEquivRel}$ sending an object $X$ to the pseudo-equivalence relation $(s_X, t_X):X\rightrightarrows X$. One can then verify directly that $\mathrm{PseudoEquivRel}$ is exact, that this embedding preserves finite limits, and that it is universal with respect to lex functors from $Set$ into exact categories.
 
-If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Set$, as a subcategory of $Setoid$, $Set$ could be thought of as the category of [[completely presented sets]], the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Set$, then $Set$ is equivalent to $Setoid$, as the axiom of choice implies that $Set$ is its own free exact completion, and $Set$ is equivalent to $Setoid$ because the free functor from $Set$ to $Setoid$ is an [[equivalence of categories]]. 
+If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Set$, as a subcategory of $\mathrm{PseudoEquivRel}$, $Set$ could be thought of as the category of [[completely presented sets]], the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Set$, then $Set$ is equivalent to $\mathrm{PseudoEquivRel}$, as the axiom of choice implies that $Set$ is its own free exact completion, and $Set$ is equivalent to $\mathrm{PseudoEquivRel}$ because the free functor from $Set$ to $\mathrm{PseudoEquivRel}$ is an [[equivalence of categories]]. 
 
-This construction could be generalized to any [[finitely complete category]] $C$, from which the category of [[setoid objects]] of $C$ is the [[ex/lex completion]] of $C$, and denoted as $C_{ex/lex}$. If every [[epimorphism]] in $C$ is additionally a [[split epimorphism]], then $C$ is its own free exact completion. 
+This construction could be generalized to any [[finitely complete category]] $C$, from which the category of [[internal pseudo-equivalence relations]] of $C$ is the [[ex/lex completion]] of $C$, and denoted as $C_{ex/lex}$. If every [[epimorphism]] in $C$ is additionally a [[split epimorphism]], then $C$ is its own free exact completion. 
 
 ## In type theory
 
@@ -162,6 +162,8 @@ In [[homotopy type theory]], and more generally in any [[intensional type theory
 ## Related concepts
 
 * [[Bishop set]], [[setoid]]
+
+* [[completely presented set]]
 
 * [[equivalence relation]]
 
@@ -181,7 +183,7 @@ In [[homotopy type theory]], and more generally in any [[intensional type theory
 
 * [[univalent setoid]]
 
-* [[setoid object]]
+* [[internal pseudo-equivalence relation]]
 
 [[!include oidification - table]]
 
@@ -201,3 +203,8 @@ For setoids defined as a set with an pseudo-equivalence relation:
 
 [[!redirects pseudo-equivalence relation]]
 [[!redirects pseudo-equivalence relations]]
+
+[[!redirects core of a pseudo-equivalence relation]]
+[[!redirects cores of a pseudo-equivalence relation]]
+[[!redirects core of pseudo-equivalence relations]]
+[[!redirects cores of pseudo-equivalence relations]]
