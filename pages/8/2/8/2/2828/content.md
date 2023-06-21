@@ -51,6 +51,11 @@ On [[homotopy theory]] and the [[Adams conjecture]]:
 
 * Dennis Sullivan, _Genetics of homotopy theory and the Adams conjecture_, Annals of Math., 100, (1974), 1&#8211;79.
 
+On what came to be called [[Sullivan models]]:
+
+* [[Dennis Sullivan]], *Differential forms and the topology of manifolds*, in Proc. International  Conf.: *Manifolds Tokyo (1973)*, Univ. Tokyo Press (1975) 37-49 &lbrack;[pdf](https://www.math.stonybrook.edu/~dennis/publications/PDF/DS-pub-0017.pdf), [[Sullivan-DiffFormsManifolds.pdf:file]]&rbrack;
+
+
 On [[rational homotopy theory]]:
 
 * Dennis Sullivan, _Infinitesimal computations in topology,_  Publications math&#233;matiques de l' I.H.&#201;.S. __47__ (1977) 269-331, [numdam](http://www.numdam.org/item?id=PMIHES_1977__47__269_0), [pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf)
