@@ -92,6 +92,11 @@ On the history of Australian [[higher category theory]] (such as the role of [Ro
 
 
 
+On lax [[braided monoidal categories]] with possibly non-invertible [[braiding]]:
+
+* [[Brian Day]], [[Elango Panchadcharam]], [[Ross Street]], _Lax braidings and the lax centre_, Contemporary Mathematics **441** 1 (2007) &lbrack;[pdf](http://science.mq.edu.au/~street/laxcentre.pdf), [[DayPanchadcharamStreet-LaxBraidings.pdf:file]]&rbrack;
+
+
 On [[monoidal categories]]:
 
 * [[Ross Street]], *Monoidal categories in, and linking, geometry and algebra*, Bull. Belg. Math. Soc. Simon Stevin **19** 5 (2012) 769-820 &lbrack;[arXiv:1201.2991](https://arxiv.org/abs/1201.2991), [doi:10.36045/bbms/1354031551](https://projecteuclid.org/journals/bulletin-of-the-belgian-mathematical-society-simon-stevin/volume-19/issue-5/Monoidal-categories-in-and-linking-geometry-and-algebra/10.36045/bbms/1354031551.full)&rbrack;
