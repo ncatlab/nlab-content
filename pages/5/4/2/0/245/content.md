@@ -227,13 +227,10 @@ For an elementary introduction to braided monoidal categories using [[string dia
 
 * [[John Baez]] and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf), to appear in _New Structures in Physics_, ed. Bob Coecke. 
 
-+--{.query}
-Eventually we should include all these diagrams here, along with the definition of braided monoidal functor and braided monoidal natural transformation!  Can anyone help out?
-=--
 
-A generalisation of braidings to *lax braidings*, where $B$ is not required to be invertible, is described in:
+A generalisation of braidings to *lax braidings*, where $B$ is not required to be invertible:
 
-* [[Brian Day]], [[Elango Panchadcharam]], and [[Ross Street]]. _Lax braidings and the lax centre_. Contemporary Mathematics 441 (2007): 1.
+* [[Brian Day]], [[Elango Panchadcharam]], [[Ross Street]], _Lax braidings and the lax centre_, Contemporary Mathematics **441** 1 (2007) &lbrack;[pdf](http://science.mq.edu.au/~street/laxcentre.pdf), [[DayPanchadcharamStreet-LaxBraidings.pdf:file]]&rbrack;
 
 
 [[!redirects braided monoidal category]]
