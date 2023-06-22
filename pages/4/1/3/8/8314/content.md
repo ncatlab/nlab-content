@@ -197,6 +197,8 @@ $$
 
 * [[cyclotomic spectrum]]
 
+* [[cyclically ordered group]]
+
 ## References
 
 Historical discussion of the cyclic group in the context of the [[classification of finite rotation groups]]:
