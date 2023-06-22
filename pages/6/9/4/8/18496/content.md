@@ -40,7 +40,7 @@ Then the vector space $C^\infty(\mathbb{R}^n)$ becomes a [[Fréchet vector space
 
 $$
   \array{
-    C^\infty_c(\mathbb{R}^n) 
+    C^\infty(\mathbb{R}^n) 
      &\overset{p_{K}^\alpha}{\longrightarrow}&
     [0,\infty)
     \\
@@ -51,13 +51,14 @@ $$
 
 indexed by $K \subset \mathbb{R}^n$ a [[compact subset]] and $\alpha \in \mathbb{N}^n$ a [[tuple]] encoding the degrees of the [[partial derivative]] $\partial^\alpha$. 
 
-Hence the seminorm $p_K^\alpha$ sends a [[bump function]] $\Phi$ to the [[supremum]] over the points $x \in K$ of the [[absolute value]] of the [[partial derivative]] $\partial^\alpha \Phi$; and the [[open subsets]] defined thereby are the [[unions]] of translations of the [[neighbourhood base|base]] [[open balls]]
+Hence the seminorm $p_K^\alpha$ sends a [[smooth function]] $\Phi$ to the [[supremum]] over the points $x \in K$ of the [[absolute value]] of the [[partial derivative]] $\partial^\alpha \Phi$; and the [[open subsets]] defined thereby are the [[unions]] of translations of the [[neighbourhood base|base]] [[open balls]]
 
 $$
+  
   B^\circ_{K,\alpha,\epsilon}(0)
   =
   \left\{
-    v \in \mathbb{R}^n
+    v \in C^\infty\mathbb{R}^n
     \;\vert\;
     p_K^\alpha(v)
     \lt
@@ -82,13 +83,13 @@ for the resulting [[Fréchet space|Fréchet]] [[topological vector space]].
 ###### Definition
 **(compactly supported distibutions as continuous linear duals to bump functions)**
 
-The space $\mathbb{E}'(\mathbb{R}^n)$ of _compactly supported distributions_ on $\mathbb{R}^n$ is the [[dual space]]
+The space $\mathcal{E}'(\mathbb{R}^n)$ of _compactly supported distributions_ on $\mathbb{R}^n$ is the [[dual space]]
 
 $$
   \mathcal{E}'(\mathbb{R}^n) \;\coloneqq\; \left(\mathcal{E}(\mathbb{R}^n)\right)^\ast
 $$
 
-to the [[topological vector space]] of [[bump functions]] from def. \ref{TVSOfCompactlySupportedFunctions}.
+to the [[topological vector space]] of [[smooth functions]] from def. \ref{TVSOfCompactlySupportedFunctions}.
 
 
 =--
