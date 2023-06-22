@@ -12,7 +12,7 @@ On [[nonabelian cohomology]]:
 
 * [[Paul Dedecker]], *Cohomologie à coefficients non abéliens et espaces fibrés*,  Bulletins de l'Académie Royale de Belgique **41** (1955) 1132-1146 &lbrack;[persee:barb_0001-4141_1955_num_41_1_69497](https://www.persee.fr/doc/barb_0001-4141_1955_num_41_1_69497)&rbrack;
 
-* [[Paul Dedecker]], *Cohomologie de dimension 2 à coefficients non abéliens*, C. R. Acad. Sci. Paris **247** (1958) 1160-1163
+* [[Paul Dedecker]], *Cohomologie de dimension 2 à coefficients non abéliens*, C. R. Acad. Sci. Paris **247** (1958) 1160-1163 [BnF](https://gallica.bnf.fr/ark:/12148/bpt6k7258/f192.item.r=dedecker)
 
 * [[Paul Dedecker]], *Sur La Cohomologie Non Abelienne I (Dimension Deux)*, Canadian Journal of Mathematics **12** (1960) 231-251 &lbrack;[doi:10.4153/CJM-1960-019-7](https://doi.org/10.4153/CJM-1960-019-7)&rbrack;
 
