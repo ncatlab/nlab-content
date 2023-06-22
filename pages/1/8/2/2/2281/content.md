@@ -9,6 +9,10 @@ Introducing the *[[Eilenberg-Steenrod axioms]]* for [[ordinary cohomology]]:
 
 * [[Samuel Eilenberg]], [[Norman E. Steenrod]], _Axiomatic Approach to Homology Theory_, Proceedings of the National Academy of Sciences **31** 4 (1945) 117–120  &lbrack;[doi:10.1073/pnas.31.4.117](http://dx.doi.org/10.1073/pnas.31.4.117)&rbrack;
 
+Introducing abstract [[group cohomology]]:
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
+
 
 Introducing [[simplicial sets]] and [[semi-simplicial sets]] (see the historical remarks [here](semi-simplicial+set#History)):
 
