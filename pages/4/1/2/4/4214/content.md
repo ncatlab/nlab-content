@@ -57,6 +57,10 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 * Companion pairs and mate-pairs of 2-cells between them in any double category $D$ form a 2-category $Comp(D)$.  The functor $Comp\colon DblCat \to 2Cat$ is right adjoint to the functor $Sq\colon 2Cat \to DblCat$ sending a 2-category to its double category of [[quintet construction|squares]].
 
+## Related concepts
+
+* [[retrocell]]
+
 ## References
 
 * [[Marco Grandis]] and [[Robert Pare]], *Adjoints for double categories*, [NUMDAM](http://www.numdam.org/item/CTGDC_2004__45_3_193_0.pdf)
