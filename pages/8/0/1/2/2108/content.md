@@ -67,7 +67,7 @@ _Geometric quantization_ is a tool for understanding the relation between [[clas
 
 1. Then we do *prequantization*: this gives us a Hermitian [[line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the **[[prequantum line bundle]]**.
 
-   **Warning:** we can only do this step if $\omega$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
+   **Warning:** we can only do this step if $\omega$ satisfies the *[[Bohr-Sommerfeld leaf|Bohr-Sommerfeld condition]]*, which says that $\omega/2\pi$ defines an [[integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
 
 1. The [[Hilbert space]] $H_0$ of square-integrable [[section]]s of $L$ is called the *prequantum Hilbert space*. This is not yet the Hilbert space of our quantized theory -- it's too big. But it's a good step in the right direction. In particular, we can *prequantize classical observables*: there's a map sending any smooth function on $X$ to an operator on $H_0$. This map takes [[Poisson bracket]]s to [[commutator]]s, just as one would hope. The formula for this map involves the [[connection on a bundle|connection]] $D$.
 
@@ -1093,6 +1093,8 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 ## Related concepts
 
+* [[Bohr-Sommerfeld quantization]]
+
 * [[fiber bundles in physics]]
 
 * [[prequantum geometry]]
@@ -1181,9 +1183,12 @@ Lecture notes with an emphasis on [[semiclassical states]] are in
 
 A careful discussion of the polarization-step from prequantization to quantization is in 
 
-* J. &Sacute;niatycki, _Wave functions relative to a real polarization_, Internat. J. Theoret. Phys., 14(4):277&#8211;288 (1975)
+* {#Śniatycki75} [[Jędrzej Śniatycki]], *Wave functions relative to a real polarization*, Internat. J. Theoret. Phys., **14** 4 (1975) 277-288 &lbrack;[doi:10.1007/BF01807689)](https://doi.org/10.1007/BF01807689)&rbrack;
 
-* J. &Sacute;niatycki, _Geometric Quantization and Quantum Mechanics_, volume 30 of Applied Mathematical Sciences. Springer-Verlag, New York (1980)
+* {#Śniatycki80} [[Jędrzej Śniatycki]], *Geometric Quantization and Quantum Mechanics*, Applied Mathematical Sciences **30**, Springer-Verlag (1980) &lbrack;[doi:10.1007/978-1-4612-6066-0](https://doi.org/10.1007/978-1-4612-6066-0)&rbrack;
+
+* {#Śniatycki16} [[Jędrzej Śniatycki]], *Lectures on Geometric Quantization*, in *Geom. Integrability & Quantization* (2016) 95-129 &lbrack;[doi:10.7546/giq-17-2016-95-129](https://projecteuclid.org/ebooks/geometry-integrability-and-quantization-proceedings-series/Lectures-on-Geometric-Quantization/chapter/Lectures-on-Geometric-Quantization/10.7546/giq-17-2016-95-129)&rbrack;
+
 
 The special case of K&#228;hler quantization is discussed for instance in 
 
