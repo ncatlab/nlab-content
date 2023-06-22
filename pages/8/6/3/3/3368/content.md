@@ -136,6 +136,8 @@ A morphism $e$ in an $(\infty,1)$-category $C$ is idempotent (i.e. $e:\Delta^1 \
 
 In other words, an incoherent idempotent can be fully coherentified as soon as it admits one additional coherence datum.
 
+However, there may be multiple inequivialent ways of doing so.
+
 ## Related concepts
 
 * [[Karoubi envelope]]
