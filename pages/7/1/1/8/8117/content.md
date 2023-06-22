@@ -148,7 +148,7 @@ observed that, under a transversality assumption, the set-theoretic composition 
 
 Shortly thereafter, 
 
-* J. Sniatycki, W.M. Tulczyjew, _Generating forms of Lagrangian submanifolds_, Indiana Univ. Math. J. 22(1972), 267&#8211;275.
+* [[Jędrzej Śniatycki]], W.M. Tulczyjew, *Generating forms of Lagrangian submanifolds*, Indiana Univ. Math. J. **22** (1972) 267-275
 
 defined symplectic relations as [[isotropic submanifolds]] of products and showed that this class of relations was closed under "clean" composition.  Following in part some (unpublished) ideas of [[Alan Weinstein]], 
 
