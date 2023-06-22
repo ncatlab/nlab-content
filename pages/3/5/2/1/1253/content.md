@@ -70,6 +70,10 @@ In any [[structural set theory]], the axiom of strong extensionality states that
 
 Similar to how in material set theory one can use the axiom of extensionality to define [[equality]] of sets, in structural set theory one can use the axiom of strong extensionality to define [[bijection]] of sets. 
 
+## In type theory
+
+In [[dependent type theory]], the *[[axiom of extensionality]]* is a property of [[power sets]], and states that given a [[type]] $A$ and [[subtypes]] $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, there is an [[equivalence of types]] between the [[identity type]] $B =_{\mathcal{P}(A)} C$ and the [[dependent function type]] $\prod_{x:A} (x \in_A B) \simeq (x \in_A C)$, where $(\Omega, \mathrm{El}_\Omega)$ is the [[type of all propositions]] and $x \in_A B \coloneqq \mathrm{El}_\Omega(B(x))$ is the local membership relation between elements $x:A$ and subtypes $B:\mathcal{P}(A)$. The axiom of extensionality holds in the [[dependent type theory]] if and only if [[function extensionality]] holds. 
+
 ## See also
 
 * [[extensionality]]
