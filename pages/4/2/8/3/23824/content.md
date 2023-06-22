@@ -145,6 +145,8 @@ where $\pi_1$ and $\pi_2$ are the first and second projection functions for the 
 
 * [[coercion]]
 
+* [[decidable subtype]]
+
 [[!redirects subtype]]
 [[!redirects subtypes]]
 [[!redirects subtyping]]
