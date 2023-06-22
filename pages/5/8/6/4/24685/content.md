@@ -16,7 +16,7 @@
 
 ## Definition
 
-In a [[finitely complete category]] $C$, an **[[internalization|internal]] [[pseudo-equivalence relation]]** on an object $X$ is an object $R$ with morphisms $p_1:R \to X$ and $p_2:R \to X$, along with the following [[morphisms]]: 
+In a [[category]] $C$ with [[pullbacks]], an **[[internalization|internal]] [[pseudo-equivalence relation]]** on an object $X$ is an object $R$ with morphisms $p_1:R \to X$ and $p_2:R \to X$, along with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$, i.e., $p_1 r = p_2 r = 1_X$;
 
