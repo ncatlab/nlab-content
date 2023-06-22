@@ -86,7 +86,7 @@ $$
 Def. 
 \ref{CrossedHomomorphism}
 appears, already with the non-abelian generality in mind, back in [Whitehead 1949, (3.1)](#Whitehead49) (together with the notion of [[crossed modules]], both as tools for analyzing [[homotopy types]] with non-trivial [[fundamental group]]).
-For [[abelian group|abelian]] $\Gamma$ the definition is picked up in [MacLane 1975, IV (2.1)](#MacLane75) and many following references on [[group cohomology]], e.g. [Brown 1982, p. 45](#Brown82).
+For [[abelian group|abelian]] $\Gamma$ the definition is in [Eilenberg & MacLane (1947) §3.1](#EilenbergMacLane47), [MacLane (1975) IV (2.1)](#MacLane75) and many following references on [[group cohomology]], e.g. [Brown 1982, p. 45](#Brown82).
 For general [[non-abelian group|non-abelian]] $\Gamma$ the notion is later used in [Murayama & Shimakawa 1995](#MurayamaShimakawa95) for discussion of [[equivariant principal bundles]]. 
 In the context of [[nonabelian group cohomology]] it is reviewed in [Gille & Szamuely, 2006, (1) on p. 25](#GilleSzamuely06).
 Another textbook account is in [Milne 2017, 15.a (16.a) in the pdf](#Milne17), aimed at application to [[algebraic groups]].
@@ -1374,6 +1374,8 @@ in the context of [[homological algebra]]:
 * {#MacLane75} [[Saunders Mac Lane]], Section IV.2 of: _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8 ([doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4))
 
 in the context of [[group cohomology]]:
+
+* {#EilenbergMacLane47} [[Samuel Eilenberg]], [[Saunders MacLane]], §3.1 in: *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
 
 * {#Brown82} [[Kenneth Brown]],  p. 45 of: _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
 
