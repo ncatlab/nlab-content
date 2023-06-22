@@ -406,10 +406,16 @@ $$
 
 on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
-[Lack and Tendas](#LT2022) give criteria for a $\mathcal{V}$-enriched category to be Cauchy complete in Cor. 4.22 and Prop. 4.23.
-
 =--
 
+
+
+[Lack and Tendas](#LT2022) give criteria for a $\mathcal{V}$-enriched category to be Cauchy complete in Cor. 4.22 and Prop. 4.23 of their paper, based on assumptions stated in Def. 4.3.  Their results apply when $\mathcal{V}$:
+
+* is a [[cocomplete category|cocomplete]] [[symmetric monoidal category|symmetric monoidal]] [[closed category|closed]] category
+* has a [[zero object]] and finite [[biproducts]]
+* has a strong [[separator]] consisting of [[dualizable objects]]
+* has for all objects $A, B$ and morphisms $z : I \to A \otimes B$ some dualizable object $P$ and maps $x: P \to A$, $y: P^\ast \to A$ such that $z = (x \otimes y) i$ where $i: I \to P \otimes P^\ast$ is the unit.
 
 ## Examples 
 
@@ -419,9 +425,9 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 * When $\mathcal{V} = $ **[[Ab]]** is the category of abelian groups, the Cauchy completion of $\mathcal{V}$-enriched category is its completion under _finite direct sums and idempotent splitting_.  This process of Cauchy completion can be accomplished by first taking the "finite coproduct completion", i.e. completing under finite direct sums, and then taking the [[Karoubi envelope]], i.e. splitting idempotents.
 
-* More generally, when $\mathcal{V} = R \mathbf{Mod}$ is the category of modules of a commutative ring $R$, the Cauchy completion of $\mathcal{V}$-enriched category is its completion under _finite direct sums and idempotent splitting_.  This result, probably folklore for many decades, follows from Cor. 4.22 of [Lack and Tendas](#LT2022).
+* More generally, when $\mathcal{V} = R \mathbf{Mod}$ is the category of modules of a commutative ring $R$, the Cauchy completion of $\mathcal{V}$-enriched category is its completion under _finite direct sums and idempotent splitting_.  This result, probably folklore for many decades, follows from Cor. 4.22 of [Lack and Tendas](#LT2022) (see above).
 
-* When $\mathcal{V} = \mathbf{Ch}$ is [[chain complexes]], a $\mathcal{V}$-category is a [[dg-category]].  Cauchy complete dg-categories are characterized by [Nikolić, Street, and Tendas](#NST2020).
+* When $\mathcal{V} = \mathbf{Ch}$ is the category of [[chain complexes]], a $\mathcal{V}$-category is a [[dg-category]].  Cauchy complete dg-categories are characterized by [Nikolić, Street, and Tendas](#NST2020).
 
 * When $\mathcal{V} =$ **[[SupLat]]** is the category of [[suplattices]], a $\mathcal{V}$-category is a locally posetal, [[locally cocomplete bicategory]], i.e. a [[quantaloid]]. The Cauchy completion is some sort of completion under _arbitrary_ sums: it is large even if the original quantaloid is small, and its existence depends on the precise definition we choose of Cauchy completion.  See [Johnson](#J1989) for more details.
 
