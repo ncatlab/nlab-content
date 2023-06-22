@@ -212,7 +212,7 @@ $H_{\mathbb{H}} \in \pi_7(S^4)$
 
 $H_{\mathbb{O}} \in \pi_{15}(S^8)$
 
-be the [[homotopy class]] of the [[complex Hopf fibration]], the [[quaternionic Hopf fibration]] and the [[octonionic Hopf fibration]], respectively. Then their [[suspensions]] are the generators of the corresponding [[stable homotopy groups of spheres]]:
+be the [[homotopy classes]] of the [[complex Hopf fibration]], the [[quaternionic Hopf fibration]] and the [[octonionic Hopf fibration]], respectively. Then their [[suspensions]] are the generators of the corresponding [[stable homotopy groups of spheres]]:
 
 $$
   \begin{aligned}
@@ -242,7 +242,13 @@ $$
   \end{aligned}
 $$
 
-see [this MO comment](https://mathoverflow.net/a/224082/381)
+see also at
+
+* [[first stable homotopy group of spheres]]
+
+* [[third stable homotopy group of spheres]]
+
+and [this MO comment](https://mathoverflow.net/a/224082/381)
 
 
 
