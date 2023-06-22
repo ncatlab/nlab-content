@@ -53,6 +53,9 @@ This is the cyclic counterpart of a monotone function between linear orders (one
 
 * a [[round chord diagram]] is a cyclic order equipped with a pairing of all its elements
 
+## References
+
+* [[Tim Campion]], [[Jinhe Ye]], *Non-trivial higher homotopy of first-order theories* ([arXiv:2306.12011](https://arxiv.org/abs/2306.12011))
 
 [[!redirects cyclic orders]]
 [[!redirects cyclic ordering]]
