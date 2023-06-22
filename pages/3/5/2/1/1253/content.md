@@ -82,6 +82,7 @@ Similar to how in material set theory one can use the axiom of extensionality to
 
 category: foundational axiom
 
+[[!redirects Axiom of extensionality]]
 
 [[!redirects axiom of extensionality]]
 [[!redirects axiom of weak extensionality]]
