@@ -34,7 +34,7 @@ Therefore, in [[category theory]] the term *congruence* is used in the broad gen
 +-- {: .num_defn #Definition}
 ###### Definition
 
-In a [[finitely complete category]] $C$, a **congruence** on an [[object]] $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$ (i.e.: an [[internal groupoid]] --- hence an [[internal category]] with all [[morphisms]] being [[isomorphisms]] --- but with no non-[[identity morphism|identity]] [[automorphisms]]). 
+In a [[category]] $C$ with [[pullbacks]], a **congruence** on an [[object]] $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$ (i.e.: an [[internal groupoid]] --- hence an [[internal category]] with all [[morphisms]] being [[isomorphisms]] --- but with no non-[[identity morphism|identity]] [[automorphisms]]). 
 
 This means that it consists of a [[subobject]] 
 
@@ -210,6 +210,8 @@ A special case of this is that of a _[[quotient module]]_.
 ## See also 
 
 * [[preordered object]]
+
+* [[internal pseudo-equivalence relation]]
 
 * [[setoid object]]
 
