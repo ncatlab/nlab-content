@@ -172,7 +172,9 @@ Relations may be considered in any category with a stable [[proper factorisation
 
 * [[Gregory Maxwell Kelly]]. *A note on relations relative to a factorization system*. Category Theory. Springer, Berlin, Heidelberg, 1991.
 
+An axiomatization of the category of sets and relations is found in:
 
+* [[Andre Kornell]], *Axioms for the category of sets and relations* ([arXiv:2302.14153](https://arxiv.org/abs/2302.14153))
 
 category: category
 
