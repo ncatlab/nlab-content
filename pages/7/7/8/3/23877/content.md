@@ -30,7 +30,7 @@ The notion of a *preordered object* is the generalization of that of *[[preorder
 +-- {: .num_defn #Definition}
 ###### Definition
 
-In a [[finitely complete category]] $C$, a **preordered object** $X$ is an object with an [[internal relation|internal]] [[preorder]] on $X$: a [[subobject]] of the product $R\stackrel{(s,t)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
+In a [[category]] $C$ with [[pullbacks]], a **preordered object** $X$ is an object with an [[internal relation|internal]] [[preorder]] on $X$: a [[subobject]] of the product $R\stackrel{(s,t)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $\rho \colon X \to R$ which is a [[section]] both of $s$ and of $t$, i.e., $s \circ \rho = t \circ \rho = 1_X$;
 
