@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -94,6 +95,24 @@ for all $x:A$, where
 $$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$ 
 is the [[existential quantification]] of a [[type family]] and $[T]$ is the propositional truncation of $T$. 
 \end{definition}
+
+\begin{definition}
+Given a type $A$, there is a binary relation $B:\mathcal{P}(A), C:\mathcal{P}(A) \vdash B \subseteq_A C$ on the power set of $A$ called the **subtype inclusion relation**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \subseteq_A C$ is defined as
+$$B \subseteq_A C \coloneqq \prod_{x:A} (x \in_A B) \to (x \in_A C)$$
+\end{definition}
+
+\begin{definition}
+Given a type $A$, there is a binary relation $B:\mathcal{P}(A), C:\mathcal{P}(A) \vdash \mathrm{Eq}_A(B, C)$ on the power set of $A$ called **observational equality**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$ is defined as
+$$\mathrm{Eq}_{\mathcal{P}(A)}(B, C) \coloneqq \prod_{x:A} (x \in_A B) \simeq (x \in_A C)$$
+\end{definition}
+
+\begin{proposition}
+**[[Axiom of extensionality]]**: Given a type $A$, for all subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$. 
+\end{proposition}
+
+\begin{proof}
+For all $x:A$ and $B:\mathcal{P}(A)$, since $x \in_A B$ is propositions, by the rules of the [[type of all propositions]], there is an element $(x \in_A B)_\Omega:\Omega$ such that $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq (x \in_A B)$. Thus, for all $x:A$, $B:\mathcal{P}(A)$, and $C:\mathcal{P}(A)$, $(x \in_A B) \simeq (x \in_A C)$ implies that $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq \mathrm{El}_\Omega((x \in_A C)_\Omega)$ by the univalence axiom for the [[type of all propositions]], $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq \mathrm{El}_\Omega((x \in_A C)_\Omega)$ implies that $(x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$. Thus, $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$ is equivalent to $\prod_{x:A} (x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$. But by [[function extensionality]], there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\prod_{x:A} (x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$; hence there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$. 
+\end{proof}
 
 ### Structural subtypes
 
