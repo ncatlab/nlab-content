@@ -186,9 +186,10 @@ For historical background see also
 
 Discussion in the modern formalism of [[geometric quantization]]:
 
-* J. &#346;niatycki, _Wave functions relative to a real polarization_, Internat. J. Theoret. Phys., 14(4):277&#8211;288 (1975)
+* {#Śniatycki75} [[Jędrzej Śniatycki]], *Wave functions relative to a real polarization*, Internat. J. Theoret. Phys., **14** 4 (1975) 277-288 &lbrack;[doi:10.1007/BF01807689)](https://doi.org/10.1007/BF01807689)&rbrack;
 
-* J. &#346;niatycki, _Geometric Quantization and Quantum Mechanics_, volume 30 of Applied Mathematical Sciences. Springer-Verlag, New York (1980)
+* {#Śniatycki80} [[Jędrzej Śniatycki]], *Geometric Quantization and Quantum Mechanics*, Applied Mathematical Sciences **30**, Springer-Verlag (1980) &lbrack;[doi:10.1007/978-1-4612-6066-0](https://doi.org/10.1007/978-1-4612-6066-0)&rbrack;
+
 
 * Mark Hamilton, _Locally toric manifolds and singular Bohr-Sommerfeld leaves_
 
