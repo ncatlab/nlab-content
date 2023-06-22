@@ -16,6 +16,10 @@ With [[Henry Whitehead]] he gave the first algebraic description of the [[homoto
 ## Selected writings
  {#Writings}
 
+Introducing abstract [[group cohomology]]:
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
+
 
 Introducing [[Eilenberg-MacLane spaces]]:
 
