@@ -896,11 +896,15 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 ### Original references
 
-* [[S. Eilenberg]], [[S. MacLane]], _Relations between Homology and Homotopy Groups_.  Proceedings of the National Academy of Sciences 29:5 (1943), 155–158.  [doi](https://doi.org/10.1073/pnas.29.5.155).
+* [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
 
-* [[Samuel Eilenberg]], [[Saunders MacLane]], _Relations Between Homology and Homotopy Groups of Spaces_.  The Annals of Mathematics 46:3 (1945), 480.  [doi](https://doi.org/10.2307/1969165).
+See also:
 
-* [[Samuel Eilenberg]], [[Saunders MacLane]], _Relations Between Homology and Homotopy Groups of Spaces. II_.  The Annals of Mathematics 51:3 (1950), 514.  [doi](https://doi.org/10.2307/1969365).
+* [[S. Eilenberg]], [[S. MacLane]], _Relations between Homology and Homotopy Groups_.  Proceedings of the National Academy of Sciences **29** 5 (1943) 155–158.  &lbrack;[doi:10.1073/pnas.29.5.155](https://doi.org/10.1073/pnas.29.5.155)&rbrack;
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _Relations Between Homology and Homotopy Groups of Spaces_,  The Annals of Mathematics **46** 3 (1945) 480  &lbrack;[doi:10.2307/1969165](https://doi.org/10.2307/1969165)&rbrack;
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _Relations Between Homology and Homotopy Groups of Spaces. II_, The Annals of Mathematics **51** 3 (1950) 514.  &lbrack;[doi:10.2307/1969365](https://doi.org/10.2307/1969365)&rbrack;
 
 * [[Dmitri Faddeev]], _On factor-systems in Abelian groups with operators_. (Russian), Doklady Akad. Nauk SSSR (N. S.) 58, (1947). 361–364.
 
