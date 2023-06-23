@@ -450,6 +450,9 @@ Application to [[motivic homotopy theory|motivic]] [[cobordism cohomology theory
 
 * Nobuaki Yagita, _Applications of the Atiyah-Hirzebruch spectral sequences for motivic cobordisms_ ([pdf](http://www.math.uiuc.edu/K-theory/0627/ah.pdf))
 
+Application to the [[K-theory classification of topological phases of matter]]:
+
+* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Atiyah-Hirzebruch Spectral Sequence in Band Topology: General Formalism and Topological Invariants for 230 Space Groups*, Phys. Rev. B **106** (2022) 165103 &lbrack;[arXiv:1802.06694](https://arxiv.org/abs/1802.06694), [doi:10.1103/PhysRevB.106.165103](https://doi.org/10.1103/PhysRevB.106.165103)&rbrack;
 
 
 [[!redirects Atiyah-Hirzebruch spectral sequence]]
