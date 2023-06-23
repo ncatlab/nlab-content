@@ -4,7 +4,11 @@
 
 ## Selected writings
 
-* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198 ([web](https://www.e-periodica.ch/digbib/view?pid=ens-001:1986:32::81#332))
+
+On [[Hopf fibrations]] and notably the [[quaternionic Hopf fibration]]:
+
+* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986), 173-198 &lbrack;[ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
+
 
 On [[Hopf fibrations]] and more general [[spherical fibrations]] over [[spheres]]:
 
