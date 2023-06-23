@@ -94,7 +94,7 @@ Then the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrigh
 
 =--
 
-This appears as ([Gluck-Warner-Ziller 86, Prop. 4.1](#GluckWarnerZiller86)).
+This appears as ([Gluck, Warner & Ziller (1986), Prop. 4.1](#GluckWarnerZiller86)).
 
 The statement is also almost explicit in [Porteous 95, p. 263](#Porteous95)
 
@@ -283,14 +283,13 @@ See also at _[[equivariant stable cohomotopy]]_
 
 ## References
 
-* {#GluckWarnerZiller86} Herman Gluck, Frank Warner, Wolfgang Ziller, _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198 ([ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations))
+* {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986), 173-198 &lbrack;[ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
 
-* {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of 
-$G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
+* {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. **30** 2 (1993) 179-202 &lbrack;[Euclid](http://projecteuclid.org/euclid.ojm/1200784357)&rbrack;
 
 * {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995) ([doi:10.1017/CBO9780511470912](https://doi.org/10.1017/CBO9780511470912))
 
-* {#HasudaTomizawa09} Machiko Hatsuda, Shinya Tomizawa, _Coset for Hopf fibration and Squashing_, Class.Quant.Grav.26:225007, 2009 ([arXiv:0906.1025](https://arxiv.org/abs/0906.1025))
+* {#HasudaTomizawa09} Machiko Hatsuda, Shinya Tomizawa, *Coset for Hopf fibration and Squashing*, Class. Quant. Grav. **26** 225007 (2009) &lbrack;[arXiv:0906.1025](https://arxiv.org/abs/0906.1025), [doi:10.1088/0264-9381/26/22/225007](https://doi.org/10.1088/0264-9381/26/22/225007)&rbrack;
 
 Discussion in [[parameterized homotopy theory]] includes
 
