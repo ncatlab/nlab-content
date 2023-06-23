@@ -74,7 +74,7 @@ Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[in
 
 ## Properties
 
-Every left quasigroup $G$ has a function $id_L:G\to G$ defined as $id_L(x)=x\backslash x$ for all $x$ in $G$, and every right quasigroup $G$ has a function $id_R:G\to G$ defined as $id_R(x)=x\backslash x$ for all $x$ in $G$. Every left quasigroup additionally has a function $inv_L:G\to G$ defined as $inv_L(x)=x\backslash id_L(x)$ for all $x$ in $G$, and every right quasigroup has a function $inv_R:G\to G$ defined as $inv_R(x)=id_L(x)/x$ for all $x$ in $G$.
+Every left quasigroup $G$ has a function $id_L:G\to G$ defined as $id_L(x)=x\backslash x$ for all $x$ in $G$, and every right quasigroup $G$ has a function $id_R:G\to G$ defined as $id_R(x)=x/x$ for all $x$ in $G$. Every left quasigroup additionally has a function $inv_L:G\to G$ defined as $inv_L(x)=x\backslash id_L(x)$ for all $x$ in $G$, and every right quasigroup has a function $inv_R:G\to G$ defined as $inv_R(x)=id_L(x)/x$ for all $x$ in $G$.
 
 A quasigroup is a __possibly empty left loop__ if $id_L(x) = id_L(y)$ for all $x,y$ in $G$, and it is a __possibly empty right loop__ if $id_R(x) = id_R(y)$ for all $x,y$ in $G$. A quasigroup is a __[[possibly empty loop]]__ if additionally $id_L(x) = id_R(y)$ for all $x,y$ in $G$, and it is an __[[invertible quasigroup]]__ if $inv_L(x) = inv_R(x)$ for all $x$ in $G$. If the quasigroup is commutative, then the left and right quotients are [[opposite magma]]s of each other. 
 
