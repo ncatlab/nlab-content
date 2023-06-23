@@ -332,7 +332,7 @@ has [[inverse image]] $f^\ast$ a [[cartesian closed functor]] and hence (see the
 
 ## Related concepts
 
-* [[Bck-Chevalley condition]]
+* [[Beck-Chevalley condition]]
 
 * [[Wirthmüller context]]
 
