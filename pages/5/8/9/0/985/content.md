@@ -118,7 +118,7 @@ Let $E$ be a [[Grothendieck topos]]. Then there exist an open [[localic groupoid
 
 ## References
 
-The original development of the theory by [[Grothendieck]]  is in . 
+The original development of the theory by [[Grothendieck]]  is in 
 
 * [[Alexander Grothendieck]], (1971), *[[SGA1]] -- Revetements  &#233;tales et groupe fondamental*, Lecture Notes in Maths. 224, Springer-Verlag. 
 
@@ -143,15 +143,15 @@ A very approachable account is given in
 
 (This has the advantage of looking towards Grothendieck's [[children's drawing|dessins d'enfants]].)
 
-Basic intuition is explained in 
+Some basic intuitions are explained in 
 
 * Pierre Cartier, _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
 
 The construction for general [[topos]]es is described in section 8.4 of
 
-* [[Peter Johnstone]], _Topos theory_ , Academic Press (1977)
+* [[Peter Johnstone]], _Topos theory_, Academic Press (1977)
 
-and, a current state of the art description is in 
+and, a current state-of-the-art description is in 
 
 * [[Marta Bunge]], _Galois groupoids and covering morphisms in topos theory_,  Galois theory, Hopf algebras, and semiabelian categories,  131--161, Fields Inst. Commun. __43__, Amer. Math. Soc., Providence, RI, 2004, [links](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.7071).
 
