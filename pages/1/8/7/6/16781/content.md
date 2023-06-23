@@ -125,7 +125,7 @@ Discussion of the group cohomology:
 
 * {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
 
-* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
+* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ &lbrack;[arXiv:1309.4238](http://arxiv.org/abs/1309.4238)&rbrack;
 
 Discussion of [[Platonic 2-group]]-extensions:
 
