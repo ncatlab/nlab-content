@@ -5,9 +5,17 @@
 
 ## Selected writings
 
-On [[Hurewicz fibrations]]:
+On [[fibrations]], such as
 
-* [[Tyrone Cutler]], _Fibrations III -- Locally trivial maps and bundles_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Fibrations%20III.pdf), [[CutlerFibrationsIII.pdf:file]])
+on [[Hurewicz fibrations]]:
+
+* [[Tyrone Cutler]], _Fibrations III -- Locally trivial maps and bundles_ (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Fibrations%20III.pdf), [[CutlerFibrationsIII.pdf:file]]&rbrack;
+
+on [[Hopf fibrations]]:
+
+* [[Tyrone Cutler]], *Fibrations IV* (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Fibrations%20IV.pdf), [[Cutler-FibrationsIV.pdf:file]]&rbrack;
+
+
 
 On [[pointed topological spaces]] and [[one-point compactification]]:
 
