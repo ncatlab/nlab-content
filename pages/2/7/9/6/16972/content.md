@@ -31,7 +31,8 @@ $$
   \array{
      S^3 &\hookrightarrow& S^7
      \\
-     && \downarrow^{\mathrlap{p_{\mathbb{H}}}}
+     && 
+     \Big\downarrow^{\mathrlap{p_{\mathbb{H}}}}
      \\
      && S^4
   }
@@ -283,6 +284,12 @@ See also at _[[equivariant stable cohomotopy]]_
 
 ## References
 
+The original article:
+
+* {#Hopf35} [[Heinz Hopf]], *Über die Abbildungen von Sphären auf Sphäre niedrigerer Dimension*, Fundamenta Mathematicae **25** 1 (1935) 427-440 &lbrack;[eudml:212801](https://eudml.org/doc/212801)&rbrack;
+
+Further discussion:
+
 * {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986), 173-198 &lbrack;[ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. **30** 2 (1993) 179-202 &lbrack;[Euclid](http://projecteuclid.org/euclid.ojm/1200784357)&rbrack;
@@ -290,6 +297,9 @@ See also at _[[equivariant stable cohomotopy]]_
 * {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995) ([doi:10.1017/CBO9780511470912](https://doi.org/10.1017/CBO9780511470912))
 
 * {#HasudaTomizawa09} Machiko Hatsuda, Shinya Tomizawa, *Coset for Hopf fibration and Squashing*, Class. Quant. Grav. **26** 225007 (2009) &lbrack;[arXiv:0906.1025](https://arxiv.org/abs/0906.1025), [doi:10.1088/0264-9381/26/22/225007](https://doi.org/10.1088/0264-9381/26/22/225007)&rbrack;
+
+* [[Rustam Sadykov]], §8.3 in: _Elements of Surgery Theory_, 2013 ([pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf), [[SadykovSurgeryTheory.pdf:file]])
+
 
 Discussion in [[parameterized homotopy theory]] includes
 
