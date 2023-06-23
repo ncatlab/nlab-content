@@ -36,7 +36,12 @@ On combined [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[
 
 On the [[K-theory classification of topological phases of matter]] for the case of [[topological crystalline insulators]] classified by [[equivariant K-theory]]:
 
-* Ken Shiozaki, Masatoshi Sato, [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 &lbrack;[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)&rbrack;
+* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 &lbrack;[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)&rbrack;
+
+and using the [[Atiyah-Hirzebruch spectral sequence]]:
+
+* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Atiyah-Hirzebruch Spectral Sequence in Band Topology: General Formalism and Topological Invariants for 230 Space Groups*, Phys. Rev. B **106** (2022) 165103 &lbrack;[arXiv:1802.06694](https://arxiv.org/abs/1802.06694), [doi:10.1103/PhysRevB.106.165103](https://doi.org/10.1103/PhysRevB.106.165103)&rbrack;
+
 
 On [[T-duality]] in the [[K-theory classification of topological phases of matter]]:
 
