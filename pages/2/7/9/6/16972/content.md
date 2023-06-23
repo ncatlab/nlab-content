@@ -300,10 +300,11 @@ Further discussion:
 
 * [[Rustam Sadykov]], §8.3 in: _Elements of Surgery Theory_, 2013 ([pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf), [[SadykovSurgeryTheory.pdf:file]])
 
+* [[Tyrone Cutler]], p. 23 of: *Fibrations IV* (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Fibrations%20IV.pdf), [[Cutler-FibrationsIV.pdf:file]]&rbrack;
 
 Discussion in [[parameterized homotopy theory]] includes
 
-* {#CookCrabb93} A. L. Cook, M.C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
+* {#CookCrabb93} A. L. Cook, M. C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
 
 * {#Iriye95} [[Kouyemon Iriye]], _Equivariant Hopf structures on a sphere_, J. Math. Kyoto Univ. Volume 35, Number 3 (1995), 403-412 ([Euclid](http://projecteuclid.org/euclid.kjm/1250518704))
 
