@@ -326,4 +326,3 @@ See also:
 
 * Wikipedia, *[Hanany-Witten transition](https://en.wikipedia.org/wiki/Hanany%E2%80%93Witten_transition)*
 
-
