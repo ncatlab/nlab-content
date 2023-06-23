@@ -88,6 +88,10 @@ with a more comprehensive account in:
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], Section 14 of: _[[Smooth manifolds and their applications in homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
 
+See also:
+
+* Mehmet Kirdar, *On the First, the Second and the Third Stems of the Stable Homotopy Groups of Spheres* &lbrack;[arXiv:2107.06103](https://arxiv.org/abs/2107.06103)&rbrack;
+
 
 Review:
 
