@@ -16,7 +16,7 @@ Mathematical Society, 1975.
 
 ###Baues-Wirsching cohomology of small categories:  Explicit references,
 
-* [[Hans Joachim Baues]], G&#252;nther Wirsching, _Cohomology of small categories_,  J. Pure Appl. Algebra  38  (1985),  no. 2-3, 187--211, [doi](http://dx.doi.org/10.1016/0022-4049(85)90008-8), [MR87g:18013](http://www.ams.org/mathscinet-getitem?mr=87g:18013) 
+* [[Hans Joachim Baues]], G&#252;nther Wirsching, _Cohomology of small categories_,  J. Pure Appl. Algebra  38  (1985),  no. 2-3, 187--211, [doi](http://dx.doi.org/10.1016/0022-4049%2885%2990008-8), [MR87g:18013](http://www.ams.org/mathscinet-getitem?mr=87g:18013) 
 
 * Hans Joachim Baues, Winfried Dreckmann, _The cohomology of homotopy categories and the general linear group_,  $K$-Theory __3__  (1989),  no. 4, 307--338,  [doi](http://dx.doi.org/10.1007/BF00584524), [MR91d:18008](http://www.ams.org/mathscinet-getitem?mr=91d:18008)
 
