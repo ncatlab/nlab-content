@@ -71,6 +71,11 @@ Review:
 
 * {#Putnam} [[Andrew Putman]], Section 10 of: _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
 
+See also:
+
+* Mehmet Kirdar, *On the First, the Second and the Third Stems of the Stable Homotopy Groups of Spheres* &lbrack;[arXiv:2107.06103](https://arxiv.org/abs/2107.06103)&rbrack;
+
+
 
 
 
