@@ -183,6 +183,11 @@ Review:
 
 * {#WangXu10} [[Guozhen Wang]], [[Zhouli Xu]], Section 2.6 of: _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
+See also:
+
+* Mehmet Kirdar, *On the First, the Second and the Third Stems of the Stable Homotopy Groups of Spheres* &lbrack;[arXiv:2107.06103](https://arxiv.org/abs/2107.06103)&rbrack;
+
+
 More on the computation via the [[MFr|framed cobordism ring]] and the [[K3-manifold]] giving the [[cobordism]] that witnesses the [[order of a group|order]] of 24:
 
 * {#Bauer10} [[Tilman Bauer]], answer to: _third stable homotopy group of spheres via geometry?_, 2010 ([MO:a/44885](https://mathoverflow.net/a/44885/381))
