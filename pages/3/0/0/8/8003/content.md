@@ -58,7 +58,7 @@ $$
 
 (recalled e.g. in [Bohmann-Osorno 14, p. 14](#BohmannOsorno14)).
 
-In particular for $R$ a [[topological ring]] one considers $C$ a [[skeletal category|skeleton]] of the [[groupoid]] of ([[finitely generated module|finitely generated]]) [[projective modules]] over $R$. Then the K-theory of $C$ is the [[algebraic K-theory]] of $R$ (e.g. [May 13, p. 25](#May13))
+In particular for $R$ a [[topological ring]] one considers $C$ a [[skeletal groupoid|skeleton]] of the [[groupoid]] of ([[finitely generated module|finitely generated]]) [[projective modules]] over $R$. Then the K-theory of $C$ is the [[algebraic K-theory]] of $R$ (e.g. [May 13, p. 25](#May13))
 
 $$
   \mathbb{K}\left( R Mod^{fin}_{proj} \right)
