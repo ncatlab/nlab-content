@@ -1057,7 +1057,7 @@ based on
 
 * [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], 
 
-  _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
+  *D-Branes, RR-Fields and Duality on Noncommutative Manifolds*, Commun. Math. Phys. **277** (2008) 643-706 &lbrack;[arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020), [doi:10.1007/s00220-007-0396-y](https://doi.org/10.1007/s00220-007-0396-y)&rbrack;
 
   _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
 
