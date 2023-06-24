@@ -89,5 +89,4 @@
  </defs>
 </svg>
 
-
 category: svg
