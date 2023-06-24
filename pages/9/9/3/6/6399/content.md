@@ -16,6 +16,11 @@ On the computation of the [[anomaly cancellation]] now known as the [[Green-Schw
 
 ## Selected writings
 
+Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
+
+* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-Brane Inflow and Anomalous Couplings on D-Branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
+
+
 Popular exposition of [[string theory]]:
 
 * {#Green86} [[Michael Green]], _Superstrings_, Scientific American
