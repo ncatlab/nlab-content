@@ -16,7 +16,7 @@ Further early discussion:
 
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019 (1998) &lbrack;[arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188), [doi:10.1088/1126-6708/1998/12/019](https://doi.org/10.1088/1126-6708/1998/12/019)&rbrack;
 
-* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
+* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 $[$[arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027), [doi:10.1088/1126-6708/2000/05/044](https://doi.org/10.1088/1126-6708/2000/05/044)$]$
 
 and with emphasis on the full picture of [[twisted differential K-theory|twisted]] [[differential K-theory]] in:
 
