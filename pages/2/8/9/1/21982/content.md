@@ -116,14 +116,13 @@ Discussion of D-branes in [[KK-theory]] is reviewed in
 
 based on
 
-* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
+* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ , Commun. Math. Phys. **266** (2006) 71-122 &lbrack;[arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043)&rbrack;
 
-* {#BrodzkiMathaiRosenbergSzabo06} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706, 2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
+* {#BrodzkiMathaiRosenbergSzabo06} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. **277** (2008) 643-706 $[$[arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020), [doi:10.1007/s00220-007-0396-y](https://doi.org/10.1007/s00220-007-0396-y)$]$
 
 * {#BMRS2} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys. 13:497-552, 2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
  
-
-* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. 103:012004, 2008 ([arXiv:0709.2128](http://arxiv.org/abs/0709.2128))
+* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. **103** 012004 (2008) $[$[arXiv:0709.2128](http://arxiv.org/abs/0709.2128), [doi:10.1088/1742-6596/103/1/012004](https://doi.org/10.1088/1742-6596/103/1/012004)$]$
 
 In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in
 
