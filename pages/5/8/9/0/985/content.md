@@ -26,7 +26,7 @@ for a [[locally path-connected space|locally path connected]], [[semi-locally si
 
 The objects on the left are not difficult to define for schemes (at least naively -- one really needs trivialisations over &#233;tale [[coverage|covers]]), but it may not be entirely immediate what the [[fundamental group]] defined in terms of loops should be.
 
-The reason Galois's name is attached to this theory is that in the case of the scheme $Spec(k)$, the objects corresponding to the covering spaces are simply [[field extension]]s $Spec(k')$. The fundamental group of schemes defined in this way is the [[algebraic fundamental group]], and is a [[profinite group]].
+The reason Galois's name is attached to this theory is that in the case of the scheme $Spec(k)$ associated to a field $k$, the objects corresponding to the covering spaces are simply the schemes $Spec(k')$ for [[field extension]]s $k'$, and the fundamental group of $Spec(k)$ is the [[Galois group]] of $k$.  More generally Grothendieck's Galois theory assigns to any scheme $X$ an [[algebraic fundamental group]] $\pi_1(X)$, which is a [[profinite group]].
 
 ### Generalizations
 
