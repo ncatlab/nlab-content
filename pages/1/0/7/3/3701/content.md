@@ -25,14 +25,14 @@ An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational
 3. If $a \sim b \gt c \sim d$, then $a \sim d$.
 4. If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-If we suggestively formally write $(a, b) \subseteq U_\sim$ for $a \sim b$, and $(a, b) \subseteq (c, d)$ for $c \leq a$ and $b \leq d$, then these say
+If we suggestively formally write $(a, b) \subseteq U_\sim$ for $a \sim b$, $(a, b) \subseteq (c, d)$ for $c \leq a$ and $b \leq d$, and $(a, b) \Subset (c, d)$ for $c \lt a$ and $b \lt d$, then these say
 
 1. If $a \geq b$, then $(a, b) \subseteq U_\sim$.
 2. If $(a, d) \subseteq (b, c)$ and $(b, c) \subseteq U_\sim$, then $(a, d) \subseteq U_\sim$.
 3. If $c \lt b$ and $(a, b), (c, d) \subseteq U_\sim$, then $(a, d) \subseteq U_\sim$.
-4. If $(b, c) \subseteq U_\sim$ for all $(b, c) \subsetneq (a, d)$, then $(a, d) \subseteq U_\sim$.
+4. If $(b, c) \subseteq U_\sim$ for all $(b, c) \Subset (a, d)$, then $(a, d) \subseteq U_\sim$.
 
-Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$. Property (2) is motivated because inclusion is transitive. Property (3) is motivated because if $c \lt b$, then $(a, d) = (a, b) \cup (c, d)$. Property (4) is motivated because $\bigcup_{(b, c) \subsetneq (a, d)} (b, c) = (a, d)$.
+Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$. Property (2) is motivated because inclusion is transitive. Property (3) is motivated because if $c \lt b$, then $(a, d) = (a, b) \cup (c, d)$. Property (4) is motivated because $\bigcup_{(b, c) \Subset (a, d)} (b, c) = (a, d)$.
 
 The really interesting property is property (3). It in fact generalises as follows:
 
