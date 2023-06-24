@@ -11,18 +11,20 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
 
-For a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformation]]s of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are [[monodromies]] induced by loops at the base point. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in the [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
+In [[topology]], the [[fundamental theorem of covering spaces]] says that for a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformations]] of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are [[monodromies]] induced by loops at the base point. 
 
-Grothendieck's [[Galois theory]] was constructed in order to define for [[scheme]]s an analogue of the familiar correspondence
+The functor which assigns to a point the fiber over it, generalizes to [[fiber functors]] in the [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also at *[[fundamental group of a topos]]*.
 
-: [[covering space]]s of $X$ : $\pi_1(X)$[[action|-sets]]
+Now, Grothendieck's [[Galois theory]] means to generalize to the context of [[schemes]] this familiar correspondence between
 
-for a [[locally path-connected space|locally path connected]], [[semi-locally simply connected space|semilocally simply connected]] [[topological space]] $X$. 
+[[covering spaces]] of $X$ : $\pi_1(X)$[[action|-sets]]
+
+for  [[locally path-connected space|locally path connected]], [[semi-locally simply connected space|semilocally simply connected]] [[topological spaces]] $X$. 
 
 The objects on the left are not difficult to define for schemes (at least naively -- one really needs trivialisations over &#233;tale [[coverage|covers]]), but it may not be entirely immediate what the [[fundamental group]] defined in terms of loops should be.
 
