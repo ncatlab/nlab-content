@@ -67,13 +67,18 @@ The RR field derives its name from the way it shows up when the [[supergravity]]
 
 ### General
 
-For a quick review see for instance
+Early discussion in relation to [[D-branes]]:
 
-* {#Freed00} [[Daniel Freed]], example 2.10 _Dirac charge quantization and generalized differential cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+* [[Joseph Polchinski]], *Dirichlet-Branes and Ramond-Ramond Charges*, Phys. Rev. Lett. **75** (1995) 4724-4727 &lbrack;[arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017), [doi:10.1103/PhysRevLett.75.4724](https://doi.org/10.1103/PhysRevLett.75.4724)&rbrack;
 
-Discussion of the [[NSR-string|NSR]] [[string perturbation theory]] in RR-field background is in 
+Review in the context of the [[K-theory classification of D-brane charge]]:
 
-* {#BerensteinLeigh99} [[David Berenstein]], Robert Leigh, _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D 60, 106002 (1999) ([arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104))
+* {#Freed00} [[Daniel Freed]], example 2.10 in: *Dirac charge quantization and generalized differential cohomology_*, Surveys in Differential Geometry, Int. Press, Somerville (2000) 129-194  &lbrack;[arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392)&rbrack;
+
+Discussion of the [[NSR-string|NSR]] [[string scattering amplitudes|string perturbation theory]] in RR-field [[background field|background]]:
+
+* {#BerensteinLeigh99} [[David Berenstein]], [[Robert Leigh]], _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D **60** (1999) 106002 &lbrack;[arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104)&rbrack;
+
 
 ### Self-duality and quadratic form
  {#ReferencesSelfDuality}
