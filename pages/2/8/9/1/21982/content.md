@@ -4,14 +4,17 @@
 
 On the conjectural [[D-brane charge quantization in topological K-theory]]:
 
-
 #### Origin and basics
 
-The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K-theory]] originates with:
+The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K-theory]] originates with the observation that their charge expressed in [[RR-field]] [[flux densities]] resembles the image of a [[Chern character]]:
 
-* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002, 1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
+* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-Brane Inflow and Anomalous Couplings on D-Branes*, Class. Quant. Grav. **14** (1997) 47-52 $[$[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)$]$
 
-* {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
+* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) $[$[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)$]$
+
+Further early discussion:
+
+* {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019 (1998) &lbrack;[arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188), [doi:10.1088/1126-6708/1998/12/019](https://doi.org/10.1088/1126-6708/1998/12/019)&rbrack;
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
@@ -21,7 +24,7 @@ and with emphasis on the full picture of [[twisted differential K-theory|twisted
 
 {#BasisOfTheConjecture} Here:
 
-* [Minasian-Moore 97](#MinasianMoore97) observe that [[differential form]]-expressions derived for [[D-brane charge]] look like images of K-theory classes under the [[Chern character]];
+* [Green, Harvey & Moore (1997)](#GreenHarveyMoore97), [Minasian & Moore (1997)](#MinasianMoore97) observe that [[RR-field]] [[flux]] [[differential form|form]]-expressions for [[D-brane charge]] look like images of K-theory classes under the [[Chern character]];
 
 \begin{imagefromfile}
     "file_name": "AntiBraneAnnihilationAsKGroupEquivRelation.jpg",
