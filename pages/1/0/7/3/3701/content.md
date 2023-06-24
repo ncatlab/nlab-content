@@ -25,12 +25,15 @@ An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational
 3. If $a \sim b \gt c \sim d$, then $a \sim d$.
 4. If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-If we suggestively formally write $(a, b) \subseteq U_\sim$ for $a \sim b$, $(a, b) \subseteq (c, d)$ for $c \leq a$ and $b \leq d$, and $(a, b) \Subset (c, d)$ for $c \lt a$ and $b \lt d$, then these say
+In practice, rather than using relation-like symbols for opens, we mimic the set-theoretic notation and terminology from point-set topology. 
+So if $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean that $a$ is related to $b$ through $G$ and say that $G$ __contains__ the interval from $a$ to $b$ and that this interval is __contained in__ $G$.
 
-1. If $a \geq b$, then $(a, b) \subseteq U_\sim$.
-2. If $(a, d) \subseteq (b, c)$ and $(b, c) \subseteq U_\sim$, then $(a, d) \subseteq U_\sim$.
-3. If $c \lt b$ and $(a, b), (c, d) \subseteq U_\sim$, then $(a, d) \subseteq U_\sim$.
-4. If $(b, c) \subseteq U_\sim$ for all $(b, c) \Subset (a, d)$, then $(a, d) \subseteq U_\sim$.
+In this notation, and writing $(a, b) \subseteq (c, d)$ for $c \leq a$ and $b \leq d$, and $(a, b) \Subset (c, d)$ for $c \lt a$ and $b \lt d$, these requirements say:
+
+1. If $a \geq b$, then $(a, b) \subseteq G$.
+2. If $(a, d) \subseteq (b, c)$ and $(b, c) \subseteq G$, then $(a, d) \subseteq G$.
+3. If $c \lt b$ and $(a, b), (c, d) \subseteq G$, then $(a, d) \subseteq G$.
+4. If $(b, c) \subseteq G$ for all $(b, c) \Subset (a, d)$, then $(a, d) \subseteq G$.
 
 Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a \geq b$. Property (2) is motivated because inclusion is transitive. Property (3) is motivated because if $c \lt b$, then $(a, d) = (a, b) \cup (c, d)$. Property (4) is motivated because $\bigcup_{(b, c) \Subset (a, d)} (b, c) = (a, d)$.
 
@@ -39,7 +42,7 @@ The really interesting property is property (3). It in fact generalises as follo
 * If
   \[ \label{zigzag}
      a_1 \sim b_1 \gt a_2 \sim b_2 \gt \cdots \gt a_n \sim b_n
-  , \]
+  ,\]
   then $a_1 \sim b_n$.
 
 We call the combined hypothesis of this property a __zigzag__; each hypothesis $a_i \sim b_i$ is a __zig__, and each hypothesis $b_i \gt a_{i^+}$ is a __zag__.  To indicate the length of a zigzag, we will count the zigs; the zigzag (eq:zigzag) has $n$ zigs (and $n - 1$ zags).  A typical nondegenerate zigzag with $3$ zigs is shown below; it consists of $3$ overlapping open intervals, each of which belongs to a given open set; we are motivated to conclude that the entire interval from $a_1$ to $b_3$ belongs to that open set.
@@ -48,9 +51,25 @@ We call the combined hypothesis of this property a __zigzag__; each hypothesis $
 [[!include zigzag of real numbers - SVG]]
 =--
 
-Thus the zigzag property for $n = 2$ is property (3), the zigzag property for $n = 1$ is trivial (if $a \sim b$, then $a \sim b$), and the zigzag property for $n \gt 2$ may be proved by [[induction]].  (There is also a sense in which the zigzag property for $n = 0$ is property (1), but I haven\'t quite got my head around that.  It would be awesome if the zigzag property for $n = \infty$ could be interepreted as property (4), but that seems unlikely so far.)
+Thus the zigzag property for $n = 2$ is property (3), the zigzag property for $n = 1$ is trivial (if $a \sim b$, then $a \sim b$), and the zigzag property for $n \gt 2$ may be proved by [[induction]].
 
-If $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean that $a$ is related to $b$ through $G$ and say that $G$ __contains__ the interval from $a$ to $b$.
+We can incorporate property (2) into this by saying:
+
+* If
+  \[
+     a \geq a_1 \sim b_1 \gt a_2 \sim b_2 \gt \cdots \gt a_n \sim b_n \geq b
+  ,\]
+  then $a \sim b$.
+
+Then you can think of property (1) as the zigzag property for $n = 0$.  Alternatively, we can incorporate property (4) by saying:
+
+* If, whenever $a \lt a_1$ and $b_n \lt b$, there is a zigzag
+  \[
+     a_1 \sim b_1 \gt a_2 \sim b_2 \gt \cdots \gt a_n \sim b_n
+  ,\]
+  then $a \sim b$.
+
+Or by making both modifications, we can stuff the entire definition into a single statement.
 
 
 ## The zigzag lemma
@@ -77,11 +96,11 @@ The [[top element|top]] open, denoted $\mathbb{R}$, is the binary relation which
 
 The [[bottom element|bottom]] open, denoted $\empty$, is the binary relation $\geq$.  That is, $(a,b) \subseteq \empty$ iff $a \geq b$.  It is easy to check that this is an open; it precedes every open by property (1).  Intuitively, this corresponds to the [[empty subset]] of the real line; $(a,b)$ is empty if and only if $a \geq b$.  However, note that $\empty$ is *not* the empty subset of $\mathbb{Q} \times \mathbb{Q}$; the notation follows our topological intuition rather than the [[relation theory|algebra of relations]].
 
-Given two opens $G$ and $H$, their [[join]] in the poset of opens, denoted $G \cup H$, is defined as follows:  $(a,b) \subseteq G \cup H$ if and only if there exists a zigzag (eq:zigzag) with $a = a_1$ and $b = b_n$ in which each zig is of the form $(a_i,b_i) \subseteq G$ or $(a_i,b_i) \subseteq H$.  It is immediate that this is an open in which $G$ and $H$ are both contained.  Conversely, any open in which $G$ and $H$ are contained must contain this open $G \cup H$, by property (3).
+Given two opens $G$ and $H$, their [[join]] in the poset of opens, denoted $G \cup H$, is defined as follows:  $(a,b) \subseteq G \cup H$ if, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag (eq:zigzag) in which each zig is of the form $(a_i,b_i) \subseteq G$ or $(a_i,b_i) \subseteq H$.  It is immediate that this is an open in which $G$ and $H$ are both contained.  Conversely, any open in which $G$ and $H$ are contained must contain this open $G \cup H$, by properties (3) and (4).
 
-More generally, given any family $(G_k)_k$ of opens, their [[join]] in the poset of opens, denoted $\bigcup_k G_k$, is defined as follows:  $(a,b) \subseteq \bigcup_k G_k$ if and only if $a \geq b$ or there exists a zigzag (eq:zigzag) with $a = a_1$ and $b = b_n$ in which each zig is of the form $(a_i,b_i) \subseteq G_k$ for some $k$.  (We can leave out the $a \geq b$ clause if the family is [[inhabited set|inhabited]].)  The same argument applies as before.  Note that each individual zigzag has finitely many zigs, and therefore involves finitely many of the opens $G_k$, even when taking the join of an infinite family.
+More generally, given any family $(G_k)_k$ of opens, their [[join]] in the poset of opens, denoted $\bigcup_k G_k$, is defined as follows:  $(a,b) \subseteq \bigcup_k G_k$ if and only if $a \geq b$ or, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag (eq:zigzag) in which each zig is of the form $(a_i,b_i) \subseteq G_k$ for some $k$.  (We can leave out the $a \geq b$ clause if the family is [[inhabited set|inhabited]].)  The same argument applies as before.  Note that each individual zigzag has finitely many zigs, and therefore involves finitely many of the opens $G_k$, even when taking the join of an infinite family.
 
-Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is, if $a \sim b$ directly through $G$ and $a \sim b$ through a zigzag of $H$s (or $a \geq b$), then we need that $a \sim b$ through a zigzag in which each zig is related both through $G$ and through some $H$ (or $a \geq b$).  To prove this (ignoring the trivial case where $a \geq b$), start with the zigzag of $H$s, and apply the zigzag lemma to get a zigzag of $H$s in which each zig involves values bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
+Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is (ignoring the trivial case where $a \geq b$), if $a \sim b$ directly through $G$ and $a_1 \sim b_n$ through a zigzag of $H$s for $(a_1,b_n) \Subset (a,b)$, then we need that $a_1 \sim b_n$ through a zigzag in which each zig is related both through $G$ and through some $H$.  To prove this, start with the zigzag of $H$s, and apply the zigzag lemma to get a zigzag of $H$s in which each zig involves values bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
 
 This frame of opens, interpreted as a [[locale]], is __the locale of real numbers__.  As usual, we denote this locale with the same symbol as the top element of its frame, in this case $\mathbb{R}$.  (Of course, the true etymology of the symbols runs in the other order.)
 
