@@ -246,6 +246,8 @@ This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcc
 
 * [homotopy of smooth paths relative to their endpoints](smooth+homotopy#HomotopyOfSmoothPathsRelativeToTheirEndpoints)
 
+* [[Grothendieck's Galois theory]]
+
 
 ## References
 
