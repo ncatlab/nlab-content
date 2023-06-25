@@ -45,23 +45,23 @@ The general concept of Hopf-Wess-Zumino terms was considered in
 
 The [[higher dimensional WZW model|higher WZW term]] of the [[M5-brane]] was first proposed in
 
-* {#Aharony94} [[Ofer Aharony]], p. 11 of _String theory dualities from M theory_, Nucl. Phys. B476:470-483, 1996 ([arXiv:hep-th/9604103](https://arxiv.org/abs/hep-th/9604103))
+* {#Aharony94} [[Ofer Aharony]], p. 10 (11 of 18) in *String theory dualities from M theory*, Nucl. Phys. B **476** (1996) 470-483 &lbrack;[arXiv:hep-th/9604103](https://arxiv.org/abs/hep-th/9604103), <a href="https://doi.org/10.1016/0550-3213(96)00321-5">doi:10.1016/0550-3213(96)00321-5</a>&rbrack;
 
 and had been settled by the time of 
 
-* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], (1) in: _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. **78** (1997) 4332-4334 &lbrack;[arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149), [doi:10.1103/PhysRevLett.78.4332](https://doi.org/10.1103/PhysRevLett.78.4332)&rbrack;
 
-  Paolo Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41.
+* [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], (17) in: _Covariant Action for a $D=11$ Five-Brane with the Chiral Field_, Phys. Lett. B **398** (1997) 41 &lbrack;[arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037), <a href="https://doi.org/10.1016/S0370-2693(97)00188-3">doi:10.1016/S0370-2693(97)00188-3</a>&rbrack;
 
 The resemblence of the first summand of the term to the [[Whitehead integral formula]] for the [[Hopf invariant]] was noticed in
 
-* {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, $\mathcal{N}= (2,0)$ Field Theories_, Nucl. Phys. B581 (2000) 257-273 ([arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205))
+* {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, $\mathcal{N}= (2,0)$ Field Theories_, Nucl. Phys. B **581** (2000) 257-273 &lbrack;[arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205), <a href="https://doi.org/10.1016/S0550-3213(00)00148-6">doi:10.1016/S0550-3213(00)00148-6</a>&rbrack;
 
 which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this terminology includes
 
 * {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
 
-* Shan Hu, Dimitri Nanopoulos, _Hopf-Wess-Zumino term in the effective action of the 6d, (2, 0) field theory revisted_, JHEP 1110:054, 2011 ([arXiv:1110.0861](https://arxiv.org/abs/1110.0861))
+* Shan Hu, [[Dimitri Nanopoulos]], _Hopf-Wess-Zumino term in the effective action of the 6d, $(2, 0)$ field theory revisted_, JHEP 1110:054 (2011) &lbrack;[arXiv:1110.0861](https://arxiv.org/abs/1110.0861), <a href="https://doi.org/10.1007/JHEP10(2011)054">doi:10.1007/JHEP10(2011)054</a>&rbrack;
 
 * [[Alex Arvanitakis]], Section 4.1 of _Brane Wess-Zumino terms from AKSZ and exceptional generalised geometry as an $L_\infty$-algebroid_, Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 5 ([arXiv:1804.07303](https://arxiv.org/abs/1804.07303), [doi:10.4310/ATMP.2019.v23.n5.a1](https://dx.doi.org/10.4310/ATMP.2019.v23.n5.a1))
 
