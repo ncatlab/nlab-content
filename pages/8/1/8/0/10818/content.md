@@ -159,10 +159,15 @@ In contrast to that situation, however, the lax-idempotent situation is of inter
 
 ## References
 
+As "KZ-adjunctions":
+
 * J. Meseguer, U. Montanari, and V. Sassone. *ω-Inductive completion of monoidal categories and infinite petri net computations*. (1993) ([pdf](https://eprints.soton.ac.uk/261872/1/w-ind-compl.pdf))
 
-* [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*.  In this book the notion is called a "KZ-adjointness" and defined by both (1) *and* (6).
+As "KZ-adjointness" (defined by both (1) *and* (6)):
 
+* [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*.
+
+As "lax idempotent 2-adjunctions":
 
 * [[Maria Manuel Clementino]] and [[Fernando Lucatelli Nunes]], §3 of: _Lax comma 2-categories and admissible 2-functors_. [arXiv:2002.03132](https://arxiv.org/abs/2002.03132) (2020).
 
