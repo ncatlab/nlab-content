@@ -10,6 +10,11 @@ On realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pa
 
 * {#ChenLiMayesNanopoulos07b} Ching-Ming Chen, Tianjun Li, [[Van Eric Mayes]], [[Dimitri Nanopoulos]], _Realistic Yukawa Textures and SUSY Spectra from Intersecting Branes_, Phys.Rev.D77:125023, 2008 ([arXiv:0711.0396](https://arxiv.org/abs/0711.0396))
 
+On the [[Hopf-Wess-Zumino term]] in the [[M5-brane]] [[Green-Schwarz sigma-model]]:
+
+* Shan Hu, [[Dimitri Nanopoulos]], _Hopf-Wess-Zumino term in the effective action of the 6d, $(2, 0)$ field theory revisted_, JHEP 1110:054 (2011) &lbrack;[arXiv:1110.0861](https://arxiv.org/abs/1110.0861), <a href="https://doi.org/10.1007/JHEP10(2011)054">doi:10.1007/JHEP10(2011)054</a>&rbrack;
+
+
 On the [[Starobinsky model of cosmic inflation]] and its embedding into [[supergravity]]:
 
 * {#EllisCarciaNanopoulosOlive15} [[John Ellis]], Marcos A. G. Garcia, [[Dimitri Nanopoulos]], [[Keith Olive]], _Phenomenological Aspects of No-Scale Inflation Models_ ([arXiv:1503.08867](http://arxiv.org/abs/1503.08867))
@@ -21,7 +26,7 @@ On the [[Starobinsky model of cosmic inflation]] and its embedding into [[superg
 * {#ENOV19} [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy_, Phys. Rev. D 100, 025009 (2019) ([arXiv:1903.05267](https://arxiv.org/abs/1903.05267), [doi:10.1103/PhysRevD.100.025009](https://doi.org/10.1103/PhysRevD.100.025009))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Starobinsky model of cosmic inflation]]
 
