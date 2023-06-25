@@ -57,6 +57,10 @@ A [[functor]] $i \colon S \to C$ is __dense__ if it satisfies the following equi
 
 1. $C$ is the closure of $S$ under [[colimits]] of a family of [[diagrams]], by which is meant a class of pairs $(F \colon L^{op} \to \mathcal{V}, P \colon L \to C)$ consisting of a [[weight]] and a diagram for that weight, and these colimits are $i$-absolute (i.e. preserved by the [[nerve]] $N_i$ of $i$). See [(Theorem 5.19 of Kelly)](#Kelly), for instance.
 
+1. For every category $B$, precomposition by $i$ induces a [[full and faithful functor]]
+$$[i, 1] : S\text{-Cocts}[C, B] \to [S, B]$$
+where $S\text{-Cocts}[C, B]$ is the category of functors preserving [[weighted colimits]] whose weights are presheaves $S^{op} \to V$.
+
 \end{definition}
 
 ## Properties
@@ -156,6 +160,8 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 * [[Horst Schubert]], _Kategorien II_ , Springer Heidelberg 1970. (section 17.2, pp.29ff)
 
 * [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_ , J. of Algebra **8** (1968) pp.77-95.
+
+* [[Giacomo Tendas]], *Dense functors and density presentations*, unpublished notes ([pdf](https://gtendas.github.io/pdfs/day.pdf))
 
 [[!redirects adequate subcategory]]
 [[!redirects left adequate subcategory]]
