@@ -9,3 +9,5 @@
 category: people
 
 [[!redirects Matt Strassler]]
+
+[[!redirects Matthew J. Strassler]]
