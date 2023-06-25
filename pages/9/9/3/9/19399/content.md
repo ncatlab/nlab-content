@@ -5,7 +5,7 @@
 
 On [[symmetric space|symmetric]] [[quaternion-Kähler manifolds]] ([[Wolf spaces]]):
 
-* [[Joseph K. Wolf]], _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Math. and Mech., 14 (1965), p. 166 ([jstor:24901319](https://www.jstor.org/stable/24901319))
+* [[Joseph Wolf|Joseph A. Wolf]], _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Math. and Mech., 14 (1965), p. 166 ([jstor:24901319](https://www.jstor.org/stable/24901319))
 
 
 On [[Clifford-Klein space forms]] such as [[spherical space forms]]:
@@ -21,4 +21,4 @@ On [[Clifford-Klein space forms]] such as [[spherical space forms]]:
 category: people
 
 
-[[!redirects Joseph K. Wolf]]
+[[!redirects Joseph A. Wolf]]
