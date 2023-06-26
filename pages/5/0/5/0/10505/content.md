@@ -24,6 +24,7 @@ A [[subcategory]] of a [[triangulated category]] which is itself triangulated.
 ## Related concepts
 
 * [[thick subcategory]]
+* [[full triangulated subcategory]]
 
 [[!redirects triangulated subcategories]]
 
