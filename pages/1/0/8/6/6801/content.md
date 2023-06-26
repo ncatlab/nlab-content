@@ -91,8 +91,7 @@ For light [[D-branes]] ending on NS5-branes (see [there](NS5-brane#DBranesEnding
 
 * {#Harmark00} Troels Harmark, _Open Branes in Space-Time Non-Commutative Little String Theory_,  Nucl.Phys. B593 (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
 
-
-* {#Lu06} J. X. Lu, _$(1 + p)$-Dimensional Open $D(p - 2)$ Brane Theories_, JHEP 0108:049, 2001 ([arXiv:hep-th/0102056](https://arxiv.org/abs/hep-th/0102056))
+* {#Lu06} [[Jian Xin Lu]], *$(1 + p)$-Dimensional Open $D(p - 2)$ Brane Theories*, JHEP 0108:049 (2001) &lbrack;[arXiv:hep-th/0102056](https://arxiv.org/abs/hep-th/0102056), [doi:10.1088/1126-6708/2001/08/049](https://doi.org/10.1088/1126-6708/2001/08/049)&rbrack;
 
 See also
 
