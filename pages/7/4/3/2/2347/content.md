@@ -273,6 +273,8 @@ See also
 
 * {#MacLane68} [[Saunders MacLane]], _Geometrical Mechanics_, Lectures 1968 ([web](https://harrydole.com/wp/2017/09/10/saunders-mac-lane-geometrical-mechanics/))
 
+* [[Valter Moretti]],  _Analytical Mechanics, Classical, Lagrangian and Hamiltonian Mechanics, Stability Theory, Special Relativity_, Springer 2023 https://link.springer.com/book/10.1007/978-3-031-27612-5
+
 [[!redirects classical mechanical system]]
 [[!redirects classical mechanical systems]]
 [[!redirects system of classical mechanics]]
