@@ -122,7 +122,7 @@ Let $n \geq 0$ be an integer. We often denote the object $\underbrace{I^{1} \oti
 
 ### The symmetric cube category
 
-The symmetric, or substructural, or "BCH", cube category has faces, degeneracies, and symmetries only.
+The symmetric, or substructural, or semicartesian, or "BCH", cube category has faces, degeneracies, and symmetries only.
 
 ### The cartesian cube category
 
@@ -130,11 +130,7 @@ The cartesian, or "ABCFHL", cube category has faces, degeneracies, symmetries, a
 
 ### The De Morgan cube category
 
-The De Morgan, or "CCHM", cube category has faces, degeneracies, symmetries, diagonals, connections, and reversals.
-
-### The semicartesian cube category
-
-The semicartesian cube category is has faces, degeneracies, symmetries, and ... but no diagonals or connections. 
+The De Morgan, or "CCHM", cube category has faces, degeneracies, symmetries, diagonals, connections, and reversals. 
 
 ## Expository material
 
