@@ -73,16 +73,17 @@ See also
 * Wikipedia, _[Black hole electron](https://en.wikipedia.org/wiki/Black_hole_electron)_
 
 
-
 ### General
 
-Original articles include
+Original articles:
 
-* [[Michael Duff]], J. X. Lu, _Black and super $p$-branes in diverse dimensions_, Nucl.Phys. B416 (1994) 301-334 ([arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)) 
+* [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)&rbrack;
 
-* {#DuffKhuriLu94} [[Mike Duff]], Ramzi R. Khuri, J. X. Lu, _String Solitons_, Phys.Rept. 259:213-326, 1995 ([arXiv:hep-th/9412184](https://arxiv.org/abs/hep-th/9412184))
+* {#DuffKhuriLu94} [[Mike Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String Solitons*, Phys. Rept. **259** (1995) 213-326 &lbrack;[arXiv:hep-th/9412184](https://arxiv.org/abs/hep-th/9412184), <a href="https://doi.org/10.1016/0370-1573(95)00002-X">doi:10.1016/0370-1573(95)00002-X</a>&rbrack;
 
-* [[Michael Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys.Lett.B382:73-80,1996 ([arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)) 
+  > ([[solitonic branes]])
+
+* [[Michael Duff]], H. Lu, [[Christopher Pope]], _The Black Branes of M-theory_, Phys. Lett. B **382** (1996) &lbrack;[arXiv:hep-th/9604052](http://arxiv.org/abs/hep-th/9604052)&rbrack; 
 
 The [[M5-brane]] was maybe first found as a black brane of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
 
@@ -140,4 +141,7 @@ Further developments include
 
 [[!redirects blackfold]]
 [[!redirects blackfolds]]
+
+[[!redirects solitonic brane]]
+[[!redirects solitonic branes]]
 
