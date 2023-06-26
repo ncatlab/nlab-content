@@ -31,7 +31,7 @@ For general theory and properties of matrix factorizations, see work of Orlov. F
 
 (Eisenbud 1980) A __matrix factorization__ of an element $x$ in a commutative ring $A$ is an ordered pair of maps of free $A$-modules $(\phi:F\to G,\psi: G\to F)$ such that $\phi\circ\psi = x\cdot 1_G$ and $\psi\circ\phi = x\cdot 1_F$.
 
-Note that if $(\phi,\psi)$ is a matrix factorization of $x$, then $x$ annihilates $Coker\phi$.
+Note that if $(\phi,\psi)$ is a matrix factorization of $x$, then $x$ annihilates $Coker\phi$. Often instead of the assumption that $A$-modules $F,G$ are free, one assumes that they are finitely generated projective. 
 
 ## Related concepts
 
