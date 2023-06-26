@@ -132,7 +132,7 @@ On the corresponding [[Green-Schwarz sigma-model|brane scan]] of [[super-conform
 
 * [[Miles P. Blencowe]], [[Mike Duff]], _Supersingletons_, Physics letters B, **203** 3(1988) 229-236 ([cds:184143](http://cds.cern.ch/record/184143), <a href="http://dx.doi.org/10.1016/0370-2693(88)90544-8">doi:10.1016/0370-2693(88)90544-8</a>)
 
-* [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
+* [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
 * {#Duff21} [[Michael Duff]], *The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
 
@@ -154,6 +154,16 @@ and specifically in [[supergravity]]:
 On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
 * {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
+
+On [[black branes]]:
+
+* [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)&rbrack;
+
+
+
+On [[solitonic branes]]:
+
+* {#DuffKhuriLu94} [[Mike Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String Solitons*, Phys. Rept. **259** (1995) 213-326 &lbrack;[arXiv:hep-th/9412184](https://arxiv.org/abs/hep-th/9412184), <a href="https://doi.org/10.1016/0370-1573(95)00002-X">doi:10.1016/0370-1573(95)00002-X</a>&rbrack;
 
 
 On [[M-theory]]:
