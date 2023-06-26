@@ -1,15 +1,24 @@
 
 * [Institute page Baruch college](https://www.baruch.cuny.edu/wsas/academics/natural_science/rkhuri.htm)
 
+* [InSpire page](https://inspirehep.net/authors/1003052)
+
 ## Selected publications
+
+On [[string-string duality]]:
+
 
 * {#DuffKhuri93} [[Michael Duff]], [[Ramzi Khuri]], _Four-Dimensional String/String Duality_, Nucl.Phys. B411 (1994) 473-486 ([arXiv:hep-th/9305142](https://arxiv.org/abs/hep-th/9305142))
 
-  (on [[string-string duality]])
+On [[solitonic branes]]:
+
+* {#DuffKhuriLu94} [[Mike Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String Solitons*, Phys. Rept. **259** (1995) 213-326 &lbrack;[arXiv:hep-th/9412184](https://arxiv.org/abs/hep-th/9412184), <a href="https://doi.org/10.1016/0370-1573(95)00002-X">doi:10.1016/0370-1573(95)00002-X</a>&rbrack;
+
+
+On [[M-theory on Calabi-Yau manifolds]]:
 
 * [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett.B 375:81-88, 1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
 
-  (on [[M-theory on Calabi-Yau manifolds]])
 
 
 ## Related $n$Lab entries
@@ -19,3 +28,6 @@
 * [[M-theory on Calabi-Yau manifolds]]
 
 category: people
+
+[[!redirects Ramzi R. Khuri]]
+
