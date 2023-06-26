@@ -23,7 +23,7 @@ The finite subgroups of [[SO(3)]] and [[SU(2)]] follow an [[ADE classification]]
 
 
 
-## Classifcations
+## Classifications
 
 ### Finite subgroups of $O(3)$, $SO(3)$ and $Spin(3)$
 
