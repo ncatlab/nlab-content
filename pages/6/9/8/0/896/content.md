@@ -97,6 +97,8 @@ This is evident from inspection of the defining [[universal property]].
 
 * [[internal full subcategory]]
 
+* [[full triangulated subcategory]]
+
 [[!redirects full subcategories]]
 [[!redirects full embedding]]
 [[!redirects full embeddings]]
