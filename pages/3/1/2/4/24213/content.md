@@ -89,7 +89,7 @@ Why not imitate the classical definition, using internal functors from the inter
 
 If one restricts the types involved to [[h-sets]], then this problem go away; but then one has again only defined semi-simplicial [[h-sets]], which are (presumably) strictly less general.
 
-Another approach is to extend type theory with streams typed by streams of types as in a HoTTEST talk by Astra Kolomatskaia.
+Another approach is to extend type theory with streams typed by streams of types as in [a HoTTEST talk by Astra Kolomatskaia](#Kolomatskaia22).
 
 ## Why semi-simplicial, not simplicial?
 
@@ -133,5 +133,7 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 * [[Nicolai Kraus]], [[Christian Sattler]]: *Space-valued diagrams, type-theoretically (extended abstract)* &lbrack;[arXiv:1704.04543](https://arxiv.org/abs/1704.04543)&rbrack; (Submitted on Apr 2017)
 
 * {#Kraus18} [[Nicolai Kraus]]: *On the Role of Semisimplicial Types*, 2018 &lbrack;[pdf](https://www.cs.nott.ac.uk/~psznk/docs/on_semisimplicial_types.pdf)&rbrack;
+
+* {#Kolomatskaia22} [[Astra Kolomatskaia]], *Semi-Simplicial Types*, [[Homotopy Type Theory Electronic Seminar Talks]], 15 December 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Kolomaskaia-2022-12-15-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=fQv2FpeFxew))
 
 
