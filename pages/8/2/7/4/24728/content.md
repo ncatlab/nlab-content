@@ -16,3 +16,5 @@ On [[displayed categories]]:
 * [[1lab]]
 
 category: people
+
+[[!redirects Amelia Liao]]
