@@ -27,13 +27,13 @@ Typically these model structures can be obtained as the [[Bousfield localization
 
 ## References
 
-* J. Cabello, A. Garzon, _Quillen's theory for algebraic models of $n$-types_, Extracta mathematica Vol. 9, Num. 1, 42-47 (1994)
+* J. Cabello, A. Garzon, _Quillen's theory for algebraic models of $n$-types_, Extracta mathematica Vol. 9, Num. 1, 42-47 (1994) [link](https://documat.unirioja.es/descarga/articulo/118427.pdf)
 
-* J. Cabello, A. Garzon, _Closed model structures for algebraic models of $n$-types_, Journal of pure and applied algebra 103 (1995) 287-302
+* J. Cabello, A. Garzon, _Closed model structures for algebraic models of $n$-types_, Journal of pure and applied algebra 103 (1995) 287-302 [link](https://www.sciencedirect.com/science/article/pii/002240499400105R)
 
 * J.  Cabello, _Estructuras de modelos de Quillen para categor&#237;as 
 que modelan algebraicamente tipos de homotop&#237;a de espacios_, Ph.D. thesis, Universidad de Granada. 
-(1993)
+(1993) [link](https://digibug.ugr.es/handle/10481/52657)
 
 
 * [[Georg Biedermann]], _On the homotopy theory of n-types_ (2006) ([arXiv:math/0604514](http://arxiv.org/abs/math/0604514))
