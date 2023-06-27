@@ -3213,7 +3213,7 @@ Review and further developments are in
 
 * {#Hollands07} [[Stefan Hollands]], appendix D of _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
-* {#KhavkineMoretti14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
+* {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], *Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction*, Chapter 5 in: [[Romeo Brunetti]] et al. (eds.) *Advances in Algebraic Quantum Field Theory* Springer (2015) &lbrack;[doi:10.1007/978-3-319-21353-8](https://doi.org/10.1007/978-3-319-21353-8)&rbrack;
 
 Discussion for [[electromagnetism]] is in
 
