@@ -150,9 +150,9 @@ For testing the standard model of cosmology in light of the [[James Webb Space T
 
 * Nikita Lovyagin, Alexander Raikov, Vladimir Yershov, Yuri Lovyagin, *Cosmological Model Tests with JWST*. ([arXiv:2212.06575](https://arxiv.org/abs/2212.06575))
 
-For testing the cosmological principle and FLRW metric in the standard model of cosmology:
+On the possibility that these tensions could, in part, by a sign/cause of [[inhomogeneous cosmology]] violating the widely assumed "cosmological principle":
 
-* Pavan Kumar Aluri, Paolo Cea, Pravabati Chingangbam, Ming-Chung Chu, Roger G. Clowes, Damien Hutsemékers, Joby P. Kochappan, Alexia M. Lopez, Lang Liu, Niels C. M. Martens, C. J. A. P. Martins, Konstantinos Migkas, Eoin Ó Colgáin, Pratyush Pranav, Lior Shamir, Ashok K. Singal, M. M. Sheikh-Jabbari, Jenny Wagner, Shao-Jiang Wang, David L. Wiltshire, Shek Yeung, Lu Yin, Wen Zhao, *Is the Observable Universe Consistent with the Cosmological Principle?*, Classical and Quantum Gravity, Volume 40, Number 9, 4 April 2023. ([doi:10.1088/1361-6382/acbefc](https://doi.org/10.1088/1361-6382/acbefc), [arXiv:2207.05765](https://arxiv.org/abs/2207.05765))
+* Pavan Kumar Aluri, et al., *Is the Observable Universe Consistent with the Cosmological Principle?*, Classical and Quantum Gravity **40** 9 (2023) &lbrack;[doi:10.1088/1361-6382/acbefc](https://doi.org/10.1088/1361-6382/acbefc), [arXiv:2207.05765](https://arxiv.org/abs/2207.05765)&rbrack;
 
 ### In AQFT on Curved spacetimes
 
