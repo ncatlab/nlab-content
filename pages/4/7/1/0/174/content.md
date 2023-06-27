@@ -35,7 +35,7 @@ Generally, there are two different incarnations of branes
 
 1. **fundamental $p$-branes** (as in "[[fundamental particle]]"): these are given by [[sigma-models]] on $(p+1)$-dimensional [[worldvolumes]] describing propagation of single $p$-dimensional objects on certain [[target spacetimes]]. If these sigma-models are required to exhibit manifest [[target spacetime]] [[supersymmetry]], then they are [[Green-Schwarz sigma models]], which are classified by a "[[brane scan]]" in [[super L-infinity algebra]] [[L-infinity algebra cohomology|cohomology]];
 
-1. **[[black branes|black p-branes]]** (as in "[[black hole]]"): these are [[soliton|solitonic]] solutions to [[field theories]], typically [[supergravity]] theories, with [[singularities]] of [[dimension]] $(p+1)$. In analogy to how a [[charged black hole]] ($p = 0$) [[source|sources]] an [[electromagnetic field]] with [[field strength]] 2-form, so black $p$-branes source $(p+2)$-form [[higher gauge fields]] and hence appear in those [[supergravity]] theories where such exists.
+1. **[[black branes|black p-branes]]** (as in "[[black hole]]"): these are solutions to [[field theories]], typically [[supergravity]] theories, with [[singularities]] of [[dimension]] $(p+1)$. In analogy to how a [[charged black hole]] ($p = 0$) [[source|sources]] an [[electromagnetic field]] with [[field strength]] 2-form, so black $p$-branes source $(p+2)$-form [[higher gauge fields]] and hence appear in those [[supergravity]] theories where such exists.
 
 The idea is that these two concepts match where a [[condensate]] of fundamental $p$-branes turns into a black $p$-brane.
 
