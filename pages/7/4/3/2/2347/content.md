@@ -251,7 +251,6 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 
 ## References
 
-
 Classical textbooks:
 
 * [[Tom W. B. Kibble]], [[Frank Berkshire]], *Classical mechanics*, McGraw-Hill (1966, 1973, 2004) &lbrack;[pdf](https://physicaeducator.files.wordpress.com/2018/02/classical-mechanics-by-kibble-and-berkshire.pdf), <a href="https://en.wikipedia.org/wiki/Classical_Mechanics_(Kibble_and_Berkshire)">Wikipedia entry</a>&rbrack;
@@ -260,7 +259,7 @@ Classical textbooks:
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
-* [[Lev Landau]], [[Evgeny Lifshitz]], _Classical mechanics_, vol. I of the [[Landau-Lifshitz|Course of theoretical physics]]
+* [[Lev Landau]], [[Evgeny Lifshitz]], _Classical mechanics_, vol. I of the *[[Course of Theoretical Physics]]*
 
 * [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf))
 
@@ -273,7 +272,8 @@ See also
 
 * {#MacLane68} [[Saunders MacLane]], _Geometrical Mechanics_, Lectures 1968 ([web](https://harrydole.com/wp/2017/09/10/saunders-mac-lane-geometrical-mechanics/))
 
-* [[Valter Moretti]],  _Analytical Mechanics, Classical, Lagrangian and Hamiltonian Mechanics, Stability Theory, Special Relativity_, Springer 2023 https://link.springer.com/book/10.1007/978-3-031-27612-5
+* [[Valter Moretti]], *Analytical Mechanics* -- *Classical, Lagrangian and Hamiltonian Mechanics, Stability Theory, Special Relativity*, Springer (2023) &lbrack;[doi:10.1007/978-3-031-27612-5](https://doi.org/10.1007/978-3-031-27612-5)&rbrack; 
+
 
 [[!redirects classical mechanical system]]
 [[!redirects classical mechanical systems]]
