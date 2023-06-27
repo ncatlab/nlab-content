@@ -1494,8 +1494,8 @@ there is an induced *[[opposite adjunction]]* of [[opposite functors]]  between 
 $$
   \mathcal{D}^{op}
     \underoverset
-      {\underset{L^{op}}{\longrightarrow}}
-      {\overset{R^{op}}{\longleftarrow}}
+      {\underset{L^{op}}{\longleftarrow}}
+      {\overset{R^{op}}{\longrightarrow}}
       {\;\;\;\;\bot\;\;\;\;}
   \mathcal{C}^{op}
   \,.
@@ -1508,18 +1508,18 @@ This is immediate from the definition of [[opposite categories]] and the charact
 The [[adjunction unit]] of the opposite adjunction has as components the components of the original [[adjunction counit]], regarded in the opposite category, and dually:
 
 $$
-  \epsilon^{R^{op} L^{op}}_{d}
+  \epsilon^{R^{op} L^{op}}_{c}
   \;\colon\;
-  R^{op}\circ L^{op}(d)
-  \xrightarrow{\;\;  \big( \eta^{R L}_d \big)^{op}  \;\;}
-  d
+  R^{op}\circ L^{op}(c)
+  \xrightarrow{\;\;  \big( \eta^{R L}_c \big) ^{op}  \;\;}
+  c
   \,,
   {\phantom{AAAAAA}}
-  \eta^{L^{op} R^{op}}_{c}
+  \eta^{L^{op} R^{op}}_{d}
   \;\colon\;
-  c
-  \xrightarrow{\;\;  \big( \epsilon^{L R}_c \big)^{op}  \;\;}
-  L^{op} \circ R^{op}(c)
+  d
+  \xrightarrow{\;\;  \big( \epsilon^{L R}_d \big) ^{op}  \;\;}
+  L^{op} \circ R^{op}(d)
   \,.
 $$
 
