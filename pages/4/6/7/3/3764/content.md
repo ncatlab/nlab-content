@@ -248,7 +248,7 @@ See also
 
 For general unital [[star-algebras]]: 
 
-* {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, , Springer, 2015
+* {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], *Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction*, Chapter 5 in: [[Romeo Brunetti]] et al. (eds.) *Advances in Algebraic Quantum Field Theory* Springer (2015) &lbrack;[doi:10.1007/978-3-319-21353-8](https://doi.org/10.1007/978-3-319-21353-8)&rbrack;
 
 in relation with the classical moment problem and the notion of [[POVM]]
 
