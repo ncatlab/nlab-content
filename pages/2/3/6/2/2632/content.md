@@ -446,7 +446,8 @@ Lecture notes:
 
 * Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
 
-* [[Valter Moretti]], _Mathematical Foundations of Quantum Mechanics: An Advanced Short Course_ ([arXiv:1508.06951](http://arxiv.org/abs/1508.06951))
+* [[Valter Moretti]], *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
+
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
