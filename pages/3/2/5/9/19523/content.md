@@ -242,7 +242,7 @@ General review:
 
 * {#Ellis18} [[George Ellis]], summary talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org/) ([[EllisCosmoBack18.pdf:file]])
 
-* {#AluriEtAl22} Pavan Kumar Aluri et al.: *Is the Observable Universe Consistent with the Cosmological Principle?* &lbrack;[arXiv:2207.05765](https://arxiv.org/abs/2207.05765)&rbrack;
+* {#AluriEtAl22} Pavan Kumar Aluri et al.: *Is the Observable Universe Consistent with the Cosmological Principle?*, Classical and Quantum Gravity **40** 9 (2023) &lbrack;[arXiv:2207.05765](https://arxiv.org/abs/2207.05765), [doi:10.1088/1361-6382/acbefc](https://doi.org/10.1088/1361-6382/acbefc)&rbrack;
 
 On [[computer experiment]]:
 
