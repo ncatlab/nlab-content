@@ -76,9 +76,10 @@ But it is expected ([AGMOO99](#AharonyGubserMaldacenaOoguriOz99), [p. 60](https:
 {#AdSCFTForSmallN} $\,$
 
 <center>
-<div style="margin:-40px 10px 10px 10px;"><img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN-230613.jpg" width="750">
+<div style="margin:-40px 10px 10px 10px;"><img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN-230627.jpg" width="750">
 </div>
 </center>
+
 
 > (graphics adapted from *[[schreiber:Anyonic topological order in TED K-theory|SS22]]*)
 
