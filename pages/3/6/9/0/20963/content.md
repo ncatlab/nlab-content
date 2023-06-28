@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the [[KK-monopole]] in [[massivel type IIA string theory]] and in a massive form of [[D=11 supergravity]]:
+
+* Eduardo Eyras, [[Yolanda Lozano]], *The Kaluza-Klein Monopole in a Massive IIA Background*, Nucl. Phys. B**546** (1999) 197-218 &lbrack;[arXiv:hep-th/9812188](https://arxiv.org/abs/hep-th/9812188), <a href="https://doi.org/10.1016/S0550-3213(99)00098-X">doi:10.1016/S0550-3213(99)00098-X</a>&rbrack;
+
+
 On [[M-brane polarization]]:
 
 * [[Yolanda Lozano]], _Non-commutative Branes from M-theory_, Phys. Rev. D64 (2001) 106011 ([arXiv:hep-th/0012137](https://arxiv.org/abs/hep-th/0012137))
