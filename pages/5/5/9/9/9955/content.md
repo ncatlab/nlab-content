@@ -11,7 +11,6 @@ On [[brane intersection]] laws of [[M-branes]]:
 * [[Eric Bergshoeff]], [[Joaquim Gomis]], [[Paul Townsend]], _M-brane intersections from worldvolume superalgebras_, Phys.Lett. B421 (1998) 109-118 ([arXiv:hep-th/9711043](http://arxiv.org/abs/hep-th/9711043))
 
 
-
 On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
 
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
@@ -32,5 +31,19 @@ On open [[M5-branes]] [[intersecting brane|intersecting]] [[M9-branes]] in a [[Y
 
 * [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
 
+On [[defect branes]]:
+
+* {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
+
+
+On [[black branes]]/[[solitonic branes]] and their [[double dimensional reduction]]:
+
+* [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
+
+
 
 category: people
+
+[[!redirects Eric A. Bergshoeff]]
+
+
