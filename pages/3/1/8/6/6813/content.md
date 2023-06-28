@@ -64,6 +64,7 @@ This duality of the brane picture is at the heart of the [[AdS/CFT correspondenc
 
 ## References
 
+
 ### Prehistory
 
 * {#EinsteinInfeldHoffmann39} [[Albert Einstein]], [[Leopold Infeld]], B. Hoffmann, _The gravitational equations and the problem of motion_, Annals of Mathematics, Vol 39, No. 1, 1938
@@ -76,6 +77,8 @@ See also
 ### General
 
 Original articles:
+
+* [[Michael Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String and Fivebrane Solitons: Singular or Non-singular?*, Nucl.Phys. B **377** (1992) 281-294 &lbrack;[arXiv:hep-th/9112023](https://arxiv.org/abs/hep-th/9112023), <a href="https://doi.org/10.1016/0550-3213(92)90025-7">doi:10.1016/0550-3213(92)90025-7</a>&rbrack;
 
 * [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)&rbrack;
 
