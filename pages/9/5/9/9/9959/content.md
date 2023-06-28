@@ -30,20 +30,19 @@ For more see at *[[flux]]* and at _[[Dirac charge quantization]]_.
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/MagneticMonopole-230628.jpg" width="700">
+<img src="https://ncatlab.org/nlab/files/MagneticMonopole-230628.jpg" width="650">
 </center>
 
 
 ## Properties
  {#Properties}
 
-The trajectory of an [[electron]] in the vicinity of a magnetic monopole is a helix on the surface of a [[cone (Riemannian geometry)|cone]] in space whose vertex is the location of the magnetic monopole
+The [[trajectory]] of an [[electron]] in the vicinity of a [[magnetic monopole]] is (e.g. [Ferraro (1956) §306](#Ferraro54)) a helix on the surface of a [[cone (Riemannian geometry)|cone]] in space whose vertex is the location of the magnetic monopole:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/ElectronTrajectoryNearMagneticMonopole-230628b.jpg" width="400">
+<img src="https://ncatlab.org/nlab/files/ElectronTrajectoryNearMagneticMonopole-230628b.jpg" width="350">
 </center>
  
-> (adapted from [Ferraro (1956) §306](#Ferraro54))
 
 
 ## Related concepts
