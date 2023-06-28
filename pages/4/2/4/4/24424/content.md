@@ -18,22 +18,13 @@ I’m writing a paper on:
 
 I want to write papers on:
 
-- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]] (with [[Rick Blute]], Florian Schwarz and Geoff Vooys).
+- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]].
 - Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
 
-A previous idea which seems to be unsuccessful was:
-
-- Make [[Schur functors]], which are usually used in [[representation theory of  the symmetric group]], into [[string diagrams]] and/or [[linear logic]] by using an [[graded modality|exponential modality]] graded by [[Young diagrams]].
-
-I also have various other more or less fuzzy ideas of projects and I'm open to collaboration if someone is interested by working with me on something. (I gladly share ideas if someone wants to work with me on them. If it produces more results, better results or just accelerate the process of research, that's all good for me.)
 
 ## Papers
 
 *  [[Jean-Simon Lemay|Jean-Simon Pacaud Lemay]], [[J-B Vienney|Jean-Baptiste Vienney]], _Graded Differential Categories and Graded Differential Linear Logic_, 2023, Preprint, [arXiv](https://arxiv.org/abs/2303.10586) 
-## Presentations 
-
-
-... to come (I will add some slides/videos soon) ...
 
 category: people
 
