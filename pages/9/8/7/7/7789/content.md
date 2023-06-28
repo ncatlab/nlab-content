@@ -11,5 +11,14 @@ On [[D=6 supergravity]]:
 
 * [[Fabio Riccioni]], _All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B605 (2001) 245-265 ([arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074))
 
+On [[black branes]]/[[solitonic branes]] and their [[double dimensional reduction]]:
+
+* [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
+
+On [[defect branes]]:
+
+* {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
+
+
 category: people
 
