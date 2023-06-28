@@ -100,6 +100,9 @@ Via [[factorization algebras]]:
 
 * {#GwilliamRabinovichWilliams2022} [[Owen Gwilliam]], [[Eugene Rabinovich]], [[Brian R. Williams]], *Factorization algebras and abelian CS/WZW-type correspondences*, Pure and Applied Mathematics Quarterly **18** 4 (2022) 1485–1553  &lbrack;[arXiv:2001.07888](https://arxiv.org/abs/2001.07888), [doi:10.4310/PAMQ.2022.v18.n4.a7](https://dx.doi.org/10.4310/PAMQ.2022.v18.n4.a7)&rbrack;
 
+Formulation in [[homotopical AQFT]]:
+
+* [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *The linear CS/WZW bulk/boundary system in AQFT*, Annales Henri Poincaré (2023) &lbrack;[arXiv:2302.06990](https://arxiv.org/abs/2302.06990)&rbrack;
 
 
 [[!include 3d gravity and Chern-Simons theory -- references]]
@@ -171,6 +174,7 @@ See also:
 
 
 [[!redirects CS-WZW correspondence]]
+[[!redirects CS/WZW correspondence]]
 
 [[!redirects AdS3-CFT2]]
 [[!redirects AdS3/CFT2]]
