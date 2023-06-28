@@ -177,7 +177,7 @@ The first approach uses existing functions already defined on the [[rational num
 
 ### Using the Dedekind real numbers. 
 
-The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$, if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto f'(x)$ on the locale of real numbers. 
+The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$, if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto \widetilde{f}(x)$ on the locale of real numbers. 
 
 This allows us to first define real-valued functions normally on the set of [[Dedekind real numbers]], and then lift them up to a real-valued function on the locale of real numbers, thus allowing us to define functions such as the [[exponential function]], the [[sine]], and the [[cosine]] which can't be directly defined using functions on the rational numbers. 
 
@@ -201,7 +201,7 @@ On lifting functions from the [[Dedekind real numbers]] to the locale of real nu
 
 * Madeleine Birchfield, [[Simon Henry]], *The field structure on the locale of real numbers*, ([MathOverflow](https://mathoverflow.net/questions/434706/the-field-structure-on-the-locale-of-real-numbers))
 
-* [[Valery Isaev]], [[Simon Henry]], *Locallic maps given by series* ([MathOverflow](https://mathoverflow.net/questions/426682/locallic-maps-given-by-series/426692#426692))
+* [[Valery Isaev]], [[Simon Henry]], *Localic maps given by series* ([MathOverflow](https://mathoverflow.net/q/426682/))
 
 [[!redirects the locale of real numbers]]
 [[!redirects locale of real numbers]]
