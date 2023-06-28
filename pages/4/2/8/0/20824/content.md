@@ -135,6 +135,12 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_ ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455))
 
+#### KK-Monopole
+
+On the [[KK-monopole]] in massivel IIA and its relation to some form of massive [[D=11 supergravity]]:
+
+* Eduardo Eyras, [[Yolanda Lozano]], *The Kaluza-Klein Monopole in a Massive IIA Background*, Nucl. Phys. B**546** (1999) 197-218 &lbrack;[arXiv:hep-th/9812188](https://arxiv.org/abs/hep-th/9812188), <a href="https://doi.org/10.1016/S0550-3213(99)00098-X">doi:10.1016/S0550-3213(99)00098-X</a>&rbrack;
+
 
 
 ### M-Theory/Strong coupling limit
