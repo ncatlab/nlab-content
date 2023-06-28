@@ -57,9 +57,15 @@ More generally, circle-shaped defect strings are going to satisfy *[[loop braid 
 
 ## References
 
+Branes of [[codimension]] $\leq 2$ are called *non-standard branes* in:
+
+* [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
+
+    
+
 The term "defect brane" was introduced in:
 
-* {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], F. Riccioni, _Defect Branes_, Nuclear Physics B Volume 856, Issue 2, 11 March 2012, Pages 210-227 ([arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037))
+* {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
 
 Identification of codimension-2 defect branes with [[U-duality]]-group [[monodromy]] as [[exotic branes]]:
 
