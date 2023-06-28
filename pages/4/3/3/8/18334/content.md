@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -118,6 +117,9 @@ Review:
 * [[Alexander Schenkel]], *Quantum field theories on Lorentzian manifolds*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#SchenkelMar2023), slides:[[Schenkel-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=YiQNAgcwZYQ)&rbrack;
 
 
+Application to the [[CS/WZW correspondence]]:
+
+* [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *The linear CS/WZW bulk/boundary system in AQFT*, Annales Henri Poincaré (2023) &lbrack;[arXiv:2302.06990](https://arxiv.org/abs/2302.06990)&rbrack;
 
 
 [[!redirects homotopical algebraic quantum field theories]]
