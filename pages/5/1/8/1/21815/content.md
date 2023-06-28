@@ -15,7 +15,7 @@ Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "dem
 
 On [[defect branes]]:
 
-* {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], F. Riccioni, _Defect Branes_, Nuclear Physics B Volume 856, Issue 2, 11 March 2012, Pages 210-227 ([arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037))
+* {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
 
 
 
