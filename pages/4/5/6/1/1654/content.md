@@ -84,7 +84,11 @@ which is given by the weighted colimit construction $W \mapsto W \cdot F$.
 
 ## Examples
 
-To be filled in. The [[tensor product of functors]] is a general example.
+* A [[conical colimit]] is a weighted colimit where $W(j)=I$ (the monoidal unit of $V$, e.g. $W(j)=1$ in the case $V=Set$). Then $F$ is the diagram. 
+
+* A [[copower]] is a weighted colimit where $J=1$, the one object category, and $W$ picks out the object of $V$ and $F$ picks out the object of $C$. 
+
+* The [[tensor product of functors]] is a general example.
 
 ## Cocompleteness
 
