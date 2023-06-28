@@ -173,7 +173,7 @@ Discussion as the [[fixed point]] of the [[circle group]]-[[action]] on the M-th
 
 > {#Witten01OnConicalSingularity} Chiral fermions arise when the locus of A&#8722;D&#8722;E singularities passes through isolated points at which X has an isolated conical singularity that is not just an orbifold singularity ([Witten 01, p. 2](#Witten01)).
   
-Discussion dealing carefully with the perspective where the locus of the [[D6-brane]] is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
+Discussion dealing carefully with the perspective where the locus of the [[D6-brane]] is not remived: [Gaillard & Schmude 09](#GaillardSchmude09).
 
 For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_ and at _[[M-theory lift of gauge enhancement on D6-branes]]_.
 
@@ -237,7 +237,7 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 * {#HanKoh85} Seung Kee Han, I. G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([doi:10.1103/PhysRevD.31.2503](https://doi.org/10.1103/PhysRevD.31.2503), [spire:204521](http://inspirehep.net/record/204521))
 
-* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068)&rbrack;
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
@@ -286,7 +286,7 @@ Relation to [[massive type IIA string theory]]:
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
-* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], p. 45 of _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], p. 45 of: _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys. Rept. **392** (2004) 121-189 &lbrack;[arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191)&rbrack;
 
 ### Relation to black holes
 
