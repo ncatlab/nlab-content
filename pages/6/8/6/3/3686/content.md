@@ -148,7 +148,7 @@ is preserved by pulling back along $\phi \colon P_n/S_n \to Q_n$. Since symplect
 
 Lecture notes include
 
-* Augustin Banyaga, _Introduction to the geometry of hamiltonian diffeomorphisms_ ([pdf](http://www.math.psu.edu/wade/dakar.pdf))
+* Augustin Banyaga, _Introduction to the geometry of hamiltonian diffeomorphisms_ ([pdf](https://www.personal.psu.edu/auw4/dakar.pdf))
 
 The example of volumes of balls is discussed in 
 
