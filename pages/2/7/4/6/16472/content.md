@@ -48,6 +48,10 @@ On [[model structure on modules in a monoidal model category|model structure on 
 
 * Angelos Anastopoulos, [[Marco Benini]], *Homotopy theory of net representations*, Rev. Math. Phys. &lbrack;[arXiv:2201.06464](https://arxiv.org/abs/2201.06464), [doi:10.1142/S0129055X23500083](https://doi.org/10.1142/S0129055X23500083)&rbrack;
 
+Formulation of the [[CS/WZW correspondence]] in [[homotopical AQFT]]:
+
+* [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *The linear CS/WZW bulk/boundary system in AQFT*, Annales Henri Poincaré (2023) &lbrack;[arXiv:2302.06990](https://arxiv.org/abs/2302.06990)&rbrack;
+
 
 
 ## Related $n$Lab entries
