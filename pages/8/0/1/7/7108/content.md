@@ -25,13 +25,19 @@ The most common choices of $S$ are probably:
 * the [[cyclic group of order 2|2-element set]] $\mathbb{Z}/2$.  In this case, the elements of degree $0$ are often called **even**, and those of degree $1$ **odd**.
 
 
-## Monoidal structure and enrichment
+## Monoidal structures and enrichment
 
 Suppose $(S,0,+)$ is a monoid, written additively.  Then the [[category]] $Set^S$ of $S$-graded sets has a [[closed monoidal category|closed]] [[monoidal category|monoidal]] [[mathematical structure|structure]], where
 
 $$ (X \otimes Y)_s = \coprod_{u+v = s} (X_u \times Y_v) $$
 
 This is a special case of [[Day convolution]].
+
+Furthermore, this monoidal structure laxly interchanges with the pointwise product of graded sets:
+
+$$ (X \times Y)_s := X_s \times Y_s $$
+
+where the lax interchange maps $(X \times Y) \otimes (Z \times W) \to (X \otimes Z) \times (Y \otimes W)$ are given by inclusions. These interacting monoidal structures make $Set^S$ into a [[duoidal category]].
 
 A $Set^S$-[[enriched category]] is a [[category]] whose [[morphisms]] all have degrees in $S$, and such that [[identity morphisms]] have degree $0$ and $deg(g f) = deg(g) + deg(f)$.  Note that its underlying ordinary category, in the usual sense of [[enriched category theory]], is the category of degree-$0$ morphisms.
 
