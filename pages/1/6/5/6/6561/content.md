@@ -231,7 +231,7 @@ Realization of the 6d theory in [[F-theory]] is discussed in ([Heckmann-Morrison
 A proposal for related higher nonabelian differential form data is made in 
 
 
-* {#SSW11} [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
+* {#SSW11} [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, _(1,0) superconformal models in six dimensions_,  J. High Energ. Phys. **2011** 62 (2011) &lbrack;[arXiv:1108.4060](http://arxiv.org/abs/1108.4060), <a href="https://doi.org/10.1007/JHEP12(2011)062">doi:10.1007/JHEP12(2011)062</a>&rbrack;
  
 
 Since by [[transgression]] every nonabelian [[principal 2-bundle]]/[[gerbe]] gives rise to some kind of nonabelian 1-bundle on [[loop space]] it is clear that some parts (but not all) of the nonabelian gerbe theory on the 5-brane has an equivalent reformulation in terms of ordinary gauge theory on the [[loop space]] of the 5-brane and possibly for gauge group the [[loop group]] of the original gauge group. 
