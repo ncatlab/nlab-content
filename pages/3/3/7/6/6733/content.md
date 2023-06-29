@@ -447,7 +447,7 @@ That this metric, as well as that of every black $p$ brane for _odd_ $p$, is com
 
 Classification of more general M5-brane [[ADE-singularities]] is in  
 
-* S. Ferrara, A. Kehagias, H. Partouche, A. Zaffaroni, _Membranes and Fivebranes with Lower Supersymmetry and their AdS Supergravity Duals_, Phys.Lett. B431 (1998) 42-48 ([arxiv:hep-th/9803109](https://arxiv.org/abs/hep-th/9803109))
+* S. Ferrara, A. Kehagias, H. Partouche, A. Zaffaroni, _Membranes and Fivebranes with Lower Supersymmetry and their AdS Supergravity Duals_, Phys. Lett. B **431** (1998) 42-48 ([arxiv:hep-th/9803109](https://arxiv.org/abs/hep-th/9803109))
 
 * {#MFF12} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], Section 8.3 of: _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
@@ -510,15 +510,16 @@ Enhanced to a [[defect field theory]]:
 
 The [[Green-Schwarz action functional]]-type [[sigma-model]] of the (single) M5-brane of  was found in covariant form in 
 
-* {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41 ([arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037))
+* {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Covariant Action for a $D=11$ Five-Brane with the Chiral Field*, Phys. Lett. B **398** (1997) 41 &lbrack;[arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037), <a href="https://doi.org/10.1016/S0370-2693(97)00188-3">doi:10.1016/S0370-2693(97)00188-3</a>&rbrack;
 
-* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. **78** (1997) 4332-4334 &lbrack;[arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149), [doi:10.1103/PhysRevLett.78.4332](https://doi.org/10.1103/PhysRevLett.78.4332)&rbrack;
+
 
 generally following
 
-* [[Paul Townsend]], section 3.3 of _D-branes from M-branes_, Phys. Lett. B373 (1996) 68-75 ([arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062))
+* [[Paul Townsend]], section 3.3 of: *D-branes from M-branes*, Phys. Lett. B **373** (1996) 68-75 &lbrack;[arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062), <a href="https://doi.org/10.1016/0370-2693(96)00104-9">doi:10.1016/0370-2693(96)00104-9</a>&rbrack;
 
-  (which did not yet have the [[Hopf-Wess-Zumino term]])
+  > (which did not yet have the [[Hopf-Wess-Zumino term]])
 
 and using the covariant mechanism for [[self-dual higher gauge fields]] from 
 
@@ -535,19 +536,20 @@ based on the non-covariant form of the [[self-dual higher gauge field|self-duali
 
 Discussion of the equivalence of these superficially different action functionals is in 
 
-* [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
+* [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *On the equivalence of different formulations of the M Theory five--brane*, Phys. Lett. B **408** (1997) 135-141 &lbrack;[arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127), <a href="https://doi.org/10.1016/S0370-2693(97)00784-3">doi:10.1016/S0370-2693(97)00784-3</a>&rbrack;
+
 
 The [[equations of motion]] in [[super spacetime]] were derived in
 
-* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
 
 and using the [[superembedding approach]] in
 
-* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
+* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
 
 see
 
-* {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of: _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
 
 A variant adapted to a 3+3-dimensional split in
