@@ -7,7 +7,7 @@
 
 This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the Heine--Borel theorem).
 
-The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the technical zigzag lemma is mine as far as I know (but it is not a very deep result!).
+The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the Zigzag Lemma \ref{zigzaglemma} is mine as far as I know (but it\'s not very deep, just bookkeeping).
 
 
 ## Idea
@@ -40,12 +40,12 @@ Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a 
 The really interesting property is property (3). It in fact generalises as follows:
 
 * If
-  \[ \label{zigzag}
+  \[
      a_1 \sim b_1 \gt a_2 \sim b_2 \gt \cdots \gt a_n \sim b_n
   ,\]
   then $a_1 \sim b_n$.
 
-We call the combined hypothesis of this property a __zigzag__; each hypothesis $a_i \sim b_i$ is a __zig__, and each hypothesis $b_i \gt a_{i^+}$ is a __zag__.  To indicate the length of a zigzag, we will count the zigs; the zigzag (eq:zigzag) has $n$ zigs (and $n - 1$ zags).  A typical nondegenerate zigzag with $3$ zigs is shown below; it consists of $3$ overlapping open intervals, each of which belongs to a given open set; we are motivated to conclude that the entire interval from $a_1$ to $b_3$ belongs to that open set.
+We call the combined hypothesis of this property a __zigzag__; each hypothesis $a_i \sim b_i$ is a __zig__, and each hypothesis $b_i \gt a_{i+}$ is a __zag__.  To indicate the length of a zigzag, we will count the zigs; the zigzag above has $n$ zigs (and $n - 1$ zags).  A typical nondegenerate zigzag with $3$ zigs is shown below; it consists of $3$ overlapping open intervals, each of which belongs to a given open set; we are motivated to conclude that the entire interval from $a_1$ to $b_3$ belongs to that open set.
 
 +-- {: style="text-align:center"}
 [[!include zigzag of real numbers - SVG]]
@@ -72,20 +72,55 @@ Then you can think of property (1) as the zigzag property for $n = 0$.  Alternat
 Or by making both modifications, we can stuff the entire definition into a single statement.
 
 
-## The zigzag lemma
+## The Zigzag Lemma
 
-We will often have occasion to consider a zigzag as in (eq:zigzag), but where the various zigs are taken relative to different opens.  Nevertheless, we will usually want to say something about the relationship of $a_1$ to $b_n$, and it will often be convenient to assume, for all $i$, that $a_1 \leq a_i$ and $b_i \leq b_n$.  We may do so without loss of generality as follows: consider the smallest value of $i$ such that $b_i \geq b_n$, truncate the zigzag so that it now has only $i$ zigs, and change the new endpoint $b_i$ to the old endpoint $b_n$.  The final zig $(a_i,b_i) \subseteq G_i$ becomes $(a_i,b_n) \subseteq G_i$, which will hold by property (2) since $b_i \geq b_n$.  Now consider the largest value of $j \leq i$ such that $a_1 \geq a_j$, and truncate similarly on the other side.  We now have a zigzag with $i - j + 1$ zigs that never falls below $a_1$ on a zag nor rises above $b_n$ on a zig.
+A zigzag may not look like the picture above; instead of an orderly progression, the zigs and zags may be wild swings that are undone by other zags and zigs.  It is sometimes convenient to replace a zigzag by a more orderly one.  Of course, this is easy if all of the zigs belong to a single open, since (by property (3) of the definition of an open), the whole zigzag can be replaced by a single zig.  But we\'ll also want to consider zigzags where the zigs are taken from different opens.  The following definitions make precise what kind of zigzag we\'ll want, and then there will be a lemma that we can indeed have this.
 
-To be precise:
-+-- {: .num_lemma}
-###### Zigzag lemma
++-- {: .num_defn #zigzagdefn}
+###### Definitions
 
-Given a collection $\mathcal{C}$ of opens and a zigzag in which each zig holds relative to some open in $\mathcal{C}$, there exists a zigzag (eq:zigzag) in which each zig holds relative to some open in $\mathcal{C}$, $a_1 \leq a_i$ for each $i$, and $b_i \leq b_n$ for each $i$.
+Given rational numbers $a$ and $b$ and a positive natural number $n$, a $2n$-tuple $(a_1,b_1,\ldots,a_n,b_n)$ of rational numbers forms a __zigzag of length $n$ from $a$ to $b$__ if we have:
 
-(Since each $b_i \gt a_{i^+}$, it follows further that $a_i \lt b_n$ for each $i \gt 1$ and $a_1 \lt b_i$ for each $i \lt n$, although this corollary doesn\'t seem to be particularly useful.)
+* $a = a_1$, $b = b_n$, and
+* $b_i \gt a_{i+}$ for $i = 1, \ldots, n - 1$.
+
+A zigzag of positive length is __orderly__ if we additionally have:
+
+* $a_i \lt a_{i+}$ for $i = 1, \ldots, n - 1$,
+* $a_i \lt b_i$ for $i = 1, \ldots, n$, and
+* $b_i \lt b_{i+}$ for $i = 1, \ldots, n - 1$.
+
+As a technicality, if $a \geq b$, then we also count the empty $0$-tuple as an __orderly zigzag of length $0$__ from $a$ to $b$.  (Notice that no zigzag of positive length can be orderly from $a$ to $b$ when $a \geq b$.)
+
+Given additionally a collection $\mathcal{U}$ of opens, a zigzag (orderly or not) has __zigs from $\mathcal{U}$__ if every pair $(a_i,b_i)$ is contained in at least one member of $\mathcal{U}$.
 =--
 
-At the moment, this lemma is used only in the proof of the infinite distributivity law.
+Now we can replace any zigzag with an orderly zigzag with zigs from the same opens:
+
++-- {: .num_lemma #zigzaglemma}
+###### Lemma
+(Zigzag Lemma)
+
+Given rational numbers $a$ and $b$, a natural number $n$, a collection $\mathcal{U}$ of opens, and a zigzag from $a$ to $b$ of length $n$ with zigs from $\mathcal{U}$, there exists an orderly zigzag from $a$ to $b$ of length at most $n$ with zigs from $\mathcal{U}$.
+=--
+
++-- {: .proof}
+###### Proof
+
+If $a \geq b$, then we use a zigzag of length $0$.  Otherwise, we assume that $a \lt b$ and prove the lemma by induction on $n$.  If $n = 1$, then the original zigzag is orderly since $a \lt b$.
+
+Now assume (as an inductive hypothesis) that the lemma holds for zigzags of length $k$ for some $k \geq 1$.  A zigzag of length $k+$ consists of a zig $(a,b_1)$ from some open in $\mathcal{U}$, a zag $b_1 \gt a_2$, and a zigzag of length $k$ from $a_2$ to $b$ with zigs from $\mathcal{U}$.  Using the inductive hypothesis, replace the zigzag of length $k$ with an orderly zigzag of length $l \leq k$ from $a_2$ to $b = b_{l+}$ with zigs from $\mathcal{U}$.  We now have a zigzag of length $l+ \leq k+$ from $a$ to $b$ with zigs from $\mathcal{U}$.
+
+If $a \lt a_2$ and $b_1 \lt b_2$, then also $a \lt a_2 \lt b_1$, so this zigzag of length $l+$ from $a$ to $b$ is orderly.
+
+Next suppose that $a \lt a_2$ but $b_1 \geq b_2$.  In this case, consider the largest value of $i \geq 2$ such that $b_1 \geq b_i$; if $i = l+$, then we can use the orderly zigzag of length $1$ from $a$ to $b$, which is contained in the same open as $(a,b_1)$ was, since $b_1 \geq b_i = b$.  If $i \leq l$ instead, then take the orderly zigzag from $a_{i+}$ to $b$, and precede it with the zig $(a,b_i)$, to get a zigzag of length $l - i + 2 \leq k$ from $a$ to $b$.  This zigzag is orderly, because $a \lt a_2 \lt a_{i+}$, and its zigs are from $\mathcal{U}$ since $(a,b_i)$ is contained in the same open as $(a,b_1)$ was (since $b_1 \geq b_i$).  So either way, we have an orderly zigzag of length at most $k$ from $a$ to $b$ with zigs from $\mathcal{U}$.
+
+Finally, suppose that $a \geq a_2$.  In this case, consider the largest value of $i \geq 2$ such that $a \geq a_i$, take the orderly zigzag from $a_i$ to $b$, and change $a_i$ to $a$ to get a zigzag from $a$ to $b$.  If $i \leq l$, then this is orderly since $a \lt a_{i+} \lt b_i$; if $i = l+$, then this is orderly since $a \lt b = b_i$.  Either way, $(a,b_i)$ belongs to the same open as $(a_i,b_i)$ did (since $a \geq a_i$), so this orderly zigzag of length $l - i + 2 \leq k$ from $a$ to $b$ still has zigs from $\mathcal{U}$.
+
+In any case, we have a zigzag of length at most $k+$ from $a$ to $b$ with zigs from $\mathcal{U}$, and the induction is complete.
+=--
+
+At the moment, this lemma is used only in the proof of the infinite distributivity law, and we don\'t even need its full strength; but more of it will be useful later.
 
 
 ## The frame of opens
@@ -96,11 +131,11 @@ The [[top element|top]] open, denoted $\mathbb{R}$, is the binary relation which
 
 The [[bottom element|bottom]] open, denoted $\empty$, is the binary relation $\geq$.  That is, $(a,b) \subseteq \empty$ iff $a \geq b$.  It is easy to check that this is an open; it precedes every open by property (1).  Intuitively, this corresponds to the [[empty subset]] of the real line; $(a,b)$ is empty if and only if $a \geq b$.  However, note that $\empty$ is *not* the empty subset of $\mathbb{Q} \times \mathbb{Q}$; the notation follows our topological intuition rather than the [[relation theory|algebra of relations]].
 
-Given two opens $G$ and $H$, their [[join]] in the poset of opens, denoted $G \cup H$, is defined as follows:  $(a,b) \subseteq G \cup H$ if, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag (eq:zigzag) in which each zig is of the form $(a_i,b_i) \subseteq G$ or $(a_i,b_i) \subseteq H$.  It is immediate that this is an open in which $G$ and $H$ are both contained.  Conversely, any open in which $G$ and $H$ are contained must contain this open $G \cup H$, by properties (3) and (4).
+Given two opens $G$ and $H$, their [[join]] in the poset of opens, denoted $G \cup H$, is defined as follows:  $(a,b) \subseteq G \cup H$ if, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag from $a_1$ to $b_n$ with zigs from $G$ and $H$.  It is immediate that this is an open in which $G$ and $H$ are both contained.  Conversely, any open in which $G$ and $H$ are contained must contain this open $G \cup H$, by properties (3) and (4).
 
-More generally, given any family $(G_k)_k$ of opens, their [[join]] in the poset of opens, denoted $\bigcup_k G_k$, is defined as follows:  $(a,b) \subseteq \bigcup_k G_k$ if and only if $a \geq b$ or, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag (eq:zigzag) in which each zig is of the form $(a_i,b_i) \subseteq G_k$ for some $k$.  (We can leave out the $a \geq b$ clause if the family is [[inhabited set|inhabited]].)  The same argument applies as before.  Note that each individual zigzag has finitely many zigs, and therefore involves finitely many of the opens $G_k$, even when taking the join of an infinite family.
+More generally, given any collection $\mathcal{U}$ (or family $(G_k)_k$) of opens, their [[join]] in the poset of opens, denoted $\bigcup \mathcal{U}$ (or $\bigcup_k G_k$), is defined as follows:  $(a,b) \subseteq \mathcal{U}$ if and only if, whenever $a \lt a_1$ and $b_n \lt b$, there exists a zigzag from $a_1$ to $b_n$ with zigs from $\mathcal{U}$.  (Notice that $a \geq b$ counts even when $\mathcal{U}$ is empty, using zigzags of length $0$.)  The same argument applies as before.  Note that each individual zigzag has finitely many zigs, and therefore involves finitely many of the opens $G_k$, even when taking the join of an infinite collection.
 
-Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is (ignoring the trivial case where $a \geq b$), if $a \sim b$ directly through $G$ and $a_1 \sim b_n$ through a zigzag of $H$s for $(a_1,b_n) \Subset (a,b)$, then we need that $a_1 \sim b_n$ through a zigzag in which each zig is related both through $G$ and through some $H$.  To prove this, start with the zigzag of $H$s, and apply the zigzag lemma to get a zigzag of $H$s in which each zig involves values bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
+Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is, if $a \sim b$ directly through $G$ and $a_1 \sim b_n$ through a zigzag of $H$s for $(a_1,b_n) \Subset (a,b)$, then we need that $a_1 \sim b_n$ through a zigzag in which each zig is related both through $G$ and through some $H$.  To prove this, start with the zigzag of $H$s, and apply the zigzag lemma to get an orderly zigzag of $H$s, so that each zig is bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
 
 This frame of opens, interpreted as a [[locale]], is __the locale of real numbers__.  As usual, we denote this locale with the same symbol as the top element of its frame, in this case $\mathbb{R}$.  (Of course, the true etymology of the symbols runs in the other order.)
 
@@ -127,7 +162,7 @@ Recall that a [[real number]] may be defined as a pair $(L,U)$ of [[inhabited se
 
 We define a __point__ of the real line to be a real number in this sense.  Given such a point $x = (L,U)$ and a rational number $a$, we write $a \lt x$ to mean that $a \in L$ and $a \gt x$ to mean that $a \in U$.  If we wish to refer to $L$ and $U$ directly, we may call $L$ the __lower set__ of $x$ and $U$ the __upper set__.
 
-Given a point $x$ and an open $G$, we say that $x$ __belongs__ to $G$, written $x \in G$, if $(a,b) \subseteq G$ for some $a \lt x$ and $b \gt x$; that is, $G$ contains an interval from some element of the lower set to some element of the upper set of $x$.  We have $x \in \mathbb{R}$ since its lower and upper sets are inhabited.  If $x \in G$ and $x \in H$, with $(a,b) \subseteq G$ and $(c,d) \subseteq H$, then $\big(\max(a,c), \min(b,d)\big) \subseteq G \cap H$, so $x \in G \cap H$; note that this argument fails for infinitary intersections.  (The converse, that $x \in G$ and $x \in H$ if $x \in G \cap H$, is immediate.)  Dually, suppose that $x \in \bigcup_k G_k$, as shown by some zigzag (since $a \geq b$ is impossible when $a \lt x$ and $b \gt x$, by 3).  Applying condition (4) of the definition of real number to each zag, we have $a_{i^+} \lt x$ or $b_i \gt x$, for each $i \lt n$.  Checking all $2^{n-1}$ possibilities, and knowing that $a_1 \lt x$ and $b_n \gt x$ in any case, we must have $a_i \lt x$ and $b_i \gt x$ for some $i$.  Then we have $x \in G_k$ for some $k$, whichever corresponds to the $i$th zig.  (The converse, that $x \in \bigcup_k G_k$ if $x \in G_k$ for some $k$, is immediate.)
+Given a point $x$ and an open $G$, we say that $x$ __belongs__ to $G$, written $x \in G$, if $(a,b) \subseteq G$ for some $a \lt x$ and $b \gt x$; that is, $G$ contains an interval from some element of the lower set to some element of the upper set of $x$.  We have $x \in \mathbb{R}$ since its lower and upper sets are inhabited.  If $x \in G$ and $x \in H$, with $(a,b) \subseteq G$ and $(c,d) \subseteq H$, then $\big(\max(a,c), \min(b,d)\big) \subseteq G \cap H$, so $x \in G \cap H$; note that this argument fails for infinitary intersections.  (The converse, that $x \in G$ and $x \in H$ if $x \in G \cap H$, is immediate.)  Dually, suppose that $x \in \bigcup_k G_k$, as shown by some zigzag (since $a \geq b$ is impossible when $a \lt x$ and $b \gt x$, by 3).  Applying condition (4) of the definition of real number to each zag, we have $a_{i+} \lt x$ or $b_i \gt x$, for each $i \lt n$.  Checking all $2^{n-1}$ possibilities, and knowing that $a_1 \lt x$ and $b_n \gt x$ in any case, we must have $a_i \lt x$ and $b_i \gt x$ for some $i$.  Then we have $x \in G_k$ for some $k$, whichever corresponds to the $i$th zig.  (The converse, that $x \in \bigcup_k G_k$ if $x \in G_k$ for some $k$, is immediate.)
 
 Therefore, each point defines a [[completely prime filter]] on the frame of all opens, which is the definition of a [[point of a locale|point]] in general locale theory.  Conversely, given such a completely prime filter $P$, let $L$ be the set of all rational numbers $a$ such that the open interval $(a, \infty)$ (when interpreted as an open in the real line as defined above) is in $P$, and symmetrically let $U$ be the set of all $a$ such that $(-\infty, a) \in P$.
 
