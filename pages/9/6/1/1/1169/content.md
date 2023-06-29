@@ -29,7 +29,7 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategorie
 
 * Every nonidentity morphism in $R_+$ raises degree,
 * Every nonidentity morphism in $R_-$ lowers degree, and
-* Every morphism $f$ in $R$ factors uniquely as a map in $R_-$ followed by a map in $R_+$.
+* Every morphism $f$ in $R$ factors uniquely as a map in $R_-$ followed by a map in $R_+$.  (Thus $(R_-,R_+)$ is a [[strict factorization system]].)
 
 
 ## Examples
