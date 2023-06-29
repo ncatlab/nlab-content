@@ -308,6 +308,12 @@ See also:
 
 * [[João Faria Martins]], [[Timothy Porter]], *A categorification of Quinn's finite total homotopy TQFT with application to TQFTs and once-extended TQFTs derived from strict omega-groupoids* &lbrack;[arXiv:2301.02491](https://arxiv.org/abs/2301.02491)&rbrack;
 
+* [[Christoph Schweigert]], [[Lukas Woike]], *Extended Homotopy Quantum Field Theories and their Orbifoldization*, Journal of Pure and Applied Algebra **224** 4 (2020) 106213 &lbrack;[arXiv:1802.08512](https://arxiv.org/abs/1802.08512), <a href="https://doi.org/10.1016/j.jpaa.2019.106213">doi:10.1016/j.jpaa.2019.106213</a>&rbrack;
+
+Understanding [[higher parallel transport]] of [[circle n-bundles with connection]] as an [[extended functorial field theory|extended]] [[homotopy field theory]]:
+
+* [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
+
 
 
 [[!redirects HQFTs]]
