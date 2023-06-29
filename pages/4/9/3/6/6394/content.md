@@ -1,14 +1,15 @@
 
 Paul Howe is emeritus professor in theoretical [[physics]] at King's College London-
 
-* [webpage](http://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/howep.aspx)
+* [institute page](https://www.kcl.ac.uk/people/paul-howe)
+
+* [inspire page](https://inspirehep.net/authors/1005477)
 
 ## Selected writings
 
 Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning string]] (via the supersymmetric [[Polyakov action]]):
 
 * [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B **65** Issue 5, 20 (1976) 471-474 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90445-7">doi:10.1016/0370-2693(76)90445-7</a>&rbrack;
-
 
 On [[spinning particles]] and their [[worldline]] [[supersymmetry]]:
 
@@ -27,17 +28,24 @@ and of its relation to [[D=4 N=2 super Yang-Mills theory]]:
 
 * [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
 
-
 * {#LambertWest98} [[Neil Lambert]], [[Peter West]], _$N=2$ Superfields and the M-Fivebrane_, Phys. Lett. B424 (1998) 281-287 ([arXiv:hep-th/9801104](https://arxiv.org/abs/hep-th/9801104))
+
+On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
+
+* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
+
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
+
+
 
 
 On how the [[torsion constraints in supergravity]] for [[11-dimensional supergravity]] already imply the [[equations of motion]]:
 
 * {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B, Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
-On [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as spikes/[[BIons]] from the [[M5-brane]]:
+On the [[self-dual string]] and [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as spikes/[[BIons]] from the [[M5-brane]]:
 
-* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+* [[Paul S. Howe]], [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl. Phys. B **515** (1998) 203-216 &lbrack;[arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014), <a href="https://doi.org/10.1016/S0550-3213(97)00750-5">doi:10.1016/S0550-3213(97)00750-5</a>&rbrack;
 
 Discussion of [[D=4 N=4 SYM]] with emphasis on [[multi-trace operators]]:
 
@@ -72,6 +80,12 @@ On [[tensor hierarchies]] in [[gauged supergravity]]:
 
 * [[3-brane in 6d]]
 
+
 category: people
 
+
+[[!redirects Paul S. Howe]]
 [[!redirects P. S. Howe]]
+
+
+
