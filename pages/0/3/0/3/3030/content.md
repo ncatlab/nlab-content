@@ -33,7 +33,7 @@ $$
 
 in the [[(∞,1)-category]] [[∞Grpd]], from the [[delooping]] $\mathbf{B}G$ of $G$ to the $n$-fold delooping $\mathbf{B}^n K$ of $K$.
 
-However, if the group $K$ is not abelian, then its $n$-fold delooping does not exist for $n \geq 2$, so accordingly the above does not give a prescription for cohomology of $G$ with coefficients in a nonabelian group $K$ in degree greater than 1 (and in degree 1 group cohomology it is not very interesting).
+However, if the group $K$ is not abelian, then its $n$-fold delooping does not exist for $n \geq 2$, so accordingly the above does not give a prescription for cohomology of $G$ with coefficients in a nonabelian group $K$ in degree greater than 1 (and in degree 1 group cohomology is not very interesting).
 
 But for nonabelian $K$ there are higher groupoids that _approximate_ the non-existing higher deloopings. Nonabelian group cohomology is the [[cohomology]] of $\mathbf{B}G$ with coefficients in such approximations.
 
@@ -109,11 +109,15 @@ $$
 As we shall discuss below, by following the [[category theory|abstract nonsense]] as described above, nonabelian degree 2 cocycles really classify something slightly richer, namely exact sequences of groupoids
 
 $$
-  Aut(K)//K \to Aut(K)//\hat G \to {*}//G
+  Aut(K) \sslash K 
+    \to 
+  Aut(K) \sslash \hat G
+   \to 
+  {*}\sslash G
   \,,
 $$
 
-where the double slashes denote [[action groupoid]]s (and ${*}//G = \mathbf{B}G$).
+where the double slashes denote [[homotopy quotients]] represented as [[action groupoids]] (and so ${*}\sslash G = \mathbf{B}G$ is the [[delooping groupoid]]).
 
 
 In the existing literature -- which does not usually present the picture quite in the way we are doing here -- nonabelian group cohomology is rarely considered beyond degree 2. But the picture does straightforwardly generalize. For instance degree 3 nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the [[cohomology]] of $\mathbf{B}G$ with coefficients in the 3-groupoid $\mathbf{B}AUT(AUT(K))$.
@@ -134,7 +138,7 @@ $$
   \mathbf{B}G \to \mathbf{B}AUT(K)
 $$
 
-correspond to in terms of claassical group data, using the relation between [[strict 2-group]]s and [[crossed module]]s that is spelled out in detail at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules).
+correspond to in terms of classical group data, using the relation between [[strict 2-groups]] and [[crossed module]]s that is spelled out in detail at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules).
 
 For making the translation we follow the **convention LB** there.
 
@@ -172,7 +176,7 @@ Degree 2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$
 +-- {: .proof}
 ###### Proof
 
-Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $(A \stackrel{Ad}{\to} Aut(K))$ in the _convention L B_ as described at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) to translate the relevant diagrams -- which are of the sort spelled out in great detail at [[group cohomology]]: the first three items of the above describe the maps
+Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $(A \stackrel{Ad}{\to} Aut(K))$ in the _convention L B_ as described at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules) to translate the relevant diagrams -- which are of the sort spelled out in great detail at [[group cohomology]]: the first three items of the above describe the maps
 
 $$
   (\psi, \chi) : 
@@ -287,9 +291,9 @@ $$
   \to
   Aut(K)
   \to 
-  Aut(K)//K
+  Aut(K) \sslash K
   \to 
-  Aut(K)//\hat G
+  Aut(K) \sslash \hat G
   \to
   \mathbf{B}G
   \stackrel{(\psi,\xi)}{\to}
@@ -300,7 +304,7 @@ $$
 where 
 
 $$
-  \hat G := K \times_{(\psi,\chi)} G
+  \hat G \coloneqq K \times_{(\psi,\chi)} G
 $$
 
 is the twisted product of $K$ with $G$, using the maps $\chi$ and $\psi$, i.e. the group whose underlying set is the cartesian [[product]] $K \times G$ with multiplication given by
@@ -319,7 +323,7 @@ To see this, we compute the [[homotopy pullback]]
 
 $$
   \array{
-    Aut(K)//\hat G & \to & {*}
+    Aut(K)\sslash\hat G & \to & {*}
     \\
     \downarrow && \downarrow
     \\
@@ -332,7 +336,7 @@ as the ordinary [[pullback]]
 
 $$
   \array{
-    Aut(K)//\hat G & \to & \mathbf{E}AUT(K)
+    Aut(K)\sslash\hat G & \to & \mathbf{E}AUT(K)
     \\
     \downarrow && \downarrow
     \\
@@ -418,7 +422,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
     \,.
   $$
 
-Translating these diagrams into forumas using the _convention LB_ as described at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) yields the given formulas.
+Translating these diagrams into forumas using the _convention LB_ as described at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules) yields the given formulas.
 
 =--
 
@@ -529,7 +533,7 @@ $$
   }
 $$
 
-In terms of the _conventionl LB_ at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules), this is equivalent to the equation
+In terms of the _conventionl LB_ at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules), this is equivalent to the equation
 
 \[
   \label{homotopy}
@@ -544,7 +548,7 @@ In terms of the _conventionl LB_ at [strict 2-group -- in terms of crossed modul
   \,.
 \]
 
-Compare this to the discussion of [2-coboundaries of extensions](http://ncatlab.org/nlab/show/group+extension#2Coboundaries) at [[group extension]].
+Compare this to the discussion of [2-coboundaries of extensions](group+extension#2Coboundaries) at [[group extension]].
 
 ## Nonabelian Lie algebra cohomology
 
