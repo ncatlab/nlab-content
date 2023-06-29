@@ -117,7 +117,7 @@ This starts with a different concept of [[bialgebroid]], which is discussed here
 
 A class of examples of Hopf algebroids have as underyling algebra the smash product of a Hopf algebra with a Yetter-Drinfeld module algebra over it. These are the scalar extension Hopf algebroids introduced in Brzeziński-Militaru article above modifying slightly a construction of Lu who considered modules over a Drinfeld double instead of Yetter-Drinfeld modules (what is equivalent for finite dimensional Hopf algebras). For a symmetric version see
 
-* M. Stojić, _Scalar extension Hopf algebroids_, [arXiv:2208.11696](https://arxiv.org/abs/2208.11696)
+* M. Stojić, _Scalar extension Hopf algebroids_, Journal of algebra and applications 2023 [doi](https://doi.org/10.1142/S0219498824501147) [arXiv:2208.11696](https://arxiv.org/abs/2208.11696)
 
 An internal version of associative bialgebroids in a symmetric monoidal category admiting coqualizers commuting with the monoidal product is studied in
 
