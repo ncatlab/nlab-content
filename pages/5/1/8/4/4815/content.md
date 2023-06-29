@@ -150,6 +150,11 @@ Careful discussion in [[perturbative quantum gravity]]:
 
 * [[John Donoghue]], *The cosmological constant and the use of cutoffs* ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
 
+### Tests
+
+A test to constrain the value of the cosmological constant is developed in:
+
+* David Benisty, Anne-Christine Davis, N. Wyn Evans, *Constraining Dark Energy from Local Group dynamics* ([arXiv:2306.14963](https://arxiv.org/abs/2306.14963))
 
 ### Observation
 
