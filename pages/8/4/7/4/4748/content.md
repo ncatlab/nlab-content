@@ -722,6 +722,12 @@ Remarks on $\infty$-parallel transport in [[Top]] are in
 * {#Stasheff}[[Jim Stasheff]], _[[StasheffParallelTransportv02.pdf:file]]_
 
 
+Understanding [[higher parallel transport]] of [[circle n-bundles with connection]] as an [[extended functorial field theory|extended]] [[homotopy field theory]]:
+
+* [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
+
+
+
 
 [[!redirects surface holonomy]]
 [[!redirects surface holonomies]]
