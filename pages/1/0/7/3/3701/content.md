@@ -199,6 +199,30 @@ Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathca
 This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
 
 
+## A result on measure
+
+The set of [[computable real numbers]] has [[null set|measure zero]] in the sense that, given any [[positive number]] $\epsilon$, there\'s a collection $\mathcal{I}$ of open intervals (even with rational endpoints), such that every computable real number belongs to at least one member of $\mathcal{I}$, and the sum of the lengths of any finite list of distinct members of $\mathcal{I}$ is less than $\epsilon$.  (We can do this by enumerating [[Turing machines]].)  This is a problem for a theory of [[Lebesgue measure]] in [[Russian constructivism]], where every real number is computable.
+
+From a localic perspective, however, while $\mathcal{I}$ might cover all the *points* of the real line, it cannot cover all of the pointless parts (which need not be empty).  Indeed, we have this result ruling out such shenanigans:
++-- {: .num_prop #not-null}
+###### Proposition
+
+Given any open interval $I = (a,b)$ with rational endpoints and any collection $\mathcal{J}$ of such intervals, if $I \subseteq \bigcup \mathcal{J}$, then for any length $L \lt b - a$, there must be a [[finite subset|finite]] (in the strictest sense) subcollection $\{K_1, \ldots, K_n\}$ of $\mathcal{J}$ such that
+$$ L \leq \sum_{i=1}^n \len K_i .$$
+=--
+In other words, any cover of $I$ must have a total length (defined as the [[supremum]] of the lengths of finite subcollections) at least the length of $I$.
+
++-- {: .proof}
+###### Proof
+
+Let $(c,d) \Subset (a,b)$ with $d - c \geq L$ (say with $c \coloneqq (a + b - L)/2$ and $d \coloneqq (a + b + L)/2$).  Then there is a zigzag from $c$ to $d$ with zigs from $\mathcal{J}$; by the Zigzag Lemma, we may take this zigzag to be orderly, say of length $n$.  Each zig is from one of the intervals in $\mathcal{J}$, say $K_1, \ldots, K_n$.  If these intervals are all distinct (which we can decide, since the endpoints are rational), then we\'re done, since
+$$ \sum_{i=1}^n \len K_i \geq \sum_{i=1}^n (b_i - a_i) = \sum_{i=1}^{n-1} (b_i - a_i) + (b_n - a_n) \geq \sum_{i=1}^{n-1} (a_{i+} - a_i) + (b_n - a_n) = b_n - a_1 = d - c \geq L ,$$
+or $ 0 \geq L $ if $n = 0$.  If they\'re not distinct, then we instead use the smallest $a_i$ and largest $b_i$ that appears in a given interval, and the argument still works (possibly even with some overlap now).
+=--
+
+This result can be strengthened to intervals without necessarily rational endpoints, by using the rational intervals that they contain, but this is not the most general statement either, and I think that what we really need to do is to develop a theory of measures of open subspaces (or perhaps even more general subspaces) and state a result about that.
+
+
 ## As a classifying locale
 
 The locale of real numbers is the [[classifying locale]] of the [[geometric theory]] of [[Dedekind real numbers]]. 
