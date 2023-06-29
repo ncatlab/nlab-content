@@ -37,7 +37,7 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 *[[soliton]] 
 
-* [[spin chain]], [[Bethe ansatz]]
+* [[spin chain]], [[Toda lattice]], [[Bethe ansatz]]
 
 * [[sine-Gordon model]]
 
@@ -65,17 +65,16 @@ were invented with a view toward quantum integrable systems systematizing analog
 * See [wikipedia](http://en.wikipedia.org/wiki/Integrable_system) for an overview and a list of some famous integrable systems and their respective pages. 
 * M.R. Adams, J. Harnad, J. Hurtubise, _Integrable Hamiltonian systems on rational coadjoint orbits of loop algebras, Hamiltonian systems, transformation groups and spectral transform methods_, Proc. CRM Workshop, Montreal 1989 (1990) pp. 19&#8211;32
 * [[Michèle Audin]], _Hamiltonian systems and their integrability_, SMF/AMS Texts and Monographs, vol. __15__ (2008)
-* A.Levin, M.Olshanetsky, A.Smirnov, A.Zotov, _Characteristic classes and integrable systems. General construction_, [arxiv/1006.0702](http://arxiv.org/abs/1006.0702)
-* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras), Proc. Natl. Acad. Sci. [arxiv/1105.4170](http://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
-* Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93-154, [MR80e:58028](http://www.ams.org/mathscinet-getitem?mr=533894), [doi](http://dx.doi.org/10.1007/BF02392090)
-* B. A. Dubrovin, _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
-* B. A. Dubrovin, _Integrable systems and Riemann surfaces
-lecture notes_, [pdf](http://people.sissa.it/~dubrovin/rsnleq_web.pdf)
+* A.Levin, M.Olshanetsky, A.Smirnov, A.Zotov, _Characteristic classes and integrable systems. General construction_, [arxiv/1006.0702](https://arxiv.org/abs/1006.0702)
+* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. [arxiv/1105.4170](https://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
+* Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93-154, [MR80e:58028](https://mathscinet.ams.org/mathscinet-getitem?mr=533894), [doi](https://doi.org/10.1007/BF02392090)
+* [[Boris Dubrovin|B. A. Dubrovin]], _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
+* [[Boris Dubrovin|B. A. Dubrovin]], _Integrable systems and Riemann surfaces lecture notes_, [pdf](http://people.sissa.it/~dubrovin/rsnleq_web.pdf)
 * [[Kevin Costello]], [[Edward Witten]], Masahito Yamazaki, _Gauge theory and integrability I_, [arxiv:1709.09993](https://arxiv.org/abs/1709.09993)
 
 Discussion in the context of [[harmonic maps]] is in 
 
-* [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and Vesture for Harmonic Maps into Symmetric Spaces_ ([arXiv:1209.1383](http://arxiv.org/abs/1209.1383))
+* [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and vesture for harmonic maps into symmetric spaces_ ([arXiv:1209.1383](https://arxiv.org/abs/1209.1383))
 
 See also 
 
