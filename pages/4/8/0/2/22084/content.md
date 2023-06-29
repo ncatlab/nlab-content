@@ -4,6 +4,12 @@
 
 ## Selected writings
 
+
+On [[higher parallel transport]] of [[circle n-bundles with connection]] as an [[extended functorial field theory|extended]] [[homotopy field theory]]:
+
+* [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
+
+
 On [[QFT]] [[quantum anomalies]] as invertibled [[extended TQFTs]]:
 
 * [[Lukas Müller]], _Extended Functorial Field Theories and Anomalies in Quantum Field Theories_ &lbrack;[arXiv:2003.08217](https://arxiv.org/abs/2003.08217)&rbrack;
