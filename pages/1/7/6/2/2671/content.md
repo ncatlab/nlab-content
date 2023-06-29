@@ -120,9 +120,12 @@ Historical texts:
 
 * {#Infeld1962} [[Leopold Infeld]] (ed.), *Relativistic Theories of Gravitation*, Proceedings of a conference held in Warsaw and Jablonna 1962, Pergamon Press (1964) &lbrack;[pdf](https://cds.cern.ch/record/2282975/files/warsaw-1962.pdf)&rbrack;
 
-Textbooks include
+Textbook accounts:
 
-* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_ (1973)
+
+* [[Robert Wald]], *General Relativity*, University of Chicago Press (1984) &lbrack;[doi:10.7208/chicago/9780226870373.001.0001](https://doi.org/10.7208/chicago/9780226870373.001.0001), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Wald_GR.pdf)&rbrack;
+
 
 Lecture notes
 
