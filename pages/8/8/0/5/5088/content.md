@@ -18,9 +18,17 @@ A **strict factorization system** is like an [[orthogonal factorization system]]
 
 ## Definition
 
-A **strict factorization system** on a category $C$ comprises [[wide subcategories]] $E$ and $M$ of $C$ such that every morphism in $C$ factors as $m e$ for $e \in E$ and $m \in M$.
+A **strict factorization system** on a category $C$ comprises [[wide subcategories]] $E$ and $M$ of $C$ such that every morphism in $C$ factors *uniquely* (not just uniquely up to unique isomorphism) as $m e$ for $e \in E$ and $m \in M$.
 
 Note that a strict factorization system is not necessarily an [[orthogonal factorization system]], since $E$ and $M$ may not contain the isomorphisms in $C$. However, for every strict factorization system, there is a unique orthogonal factorization system containing it, given by closing $E$ under postcomposition by isomorphisms and closing $M$ under precomposition by isomorphisms (see §2.1 of [Grandis (2000)](#Grandis00)).
+
+## Examples
+
+* Every category has two "trivial" strict factorization systems in which $E$, respectively $M$, consists of the [[identity morphisms]] only.  The corresponding orthogonal factorization systems are those with one class consisting of the isomorphisms.
+
+* Part of the structure of a (non-generalized) [[Reedy category]] is a strict factorization system.
+
+* The category [[Set]], as defined in a [[material set theory]], has a strict factorization system consisting of the surjections and the inclusions of [[subsets]].  Its associated orthogonal factorization system consists of surjections and [[injections]].  Other categories built out of structured sets have similar strict factorization systems.
 
 ## As distributive laws in a bicategory
 
