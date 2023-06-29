@@ -7,7 +7,7 @@
 
 This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the Heine--Borel theorem).
 
-The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the technical zigzag lemma is mine (but it is not a very deep result!).
+The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the technical zigzag lemma is mine as far as I know (but it is not a very deep result!).
 
 
 ## Idea
@@ -77,7 +77,7 @@ Or by making both modifications, we can stuff the entire definition into a singl
 We will often have occasion to consider a zigzag as in (eq:zigzag), but where the various zigs are taken relative to different opens.  Nevertheless, we will usually want to say something about the relationship of $a_1$ to $b_n$, and it will often be convenient to assume, for all $i$, that $a_1 \leq a_i$ and $b_i \leq b_n$.  We may do so without loss of generality as follows: consider the smallest value of $i$ such that $b_i \geq b_n$, truncate the zigzag so that it now has only $i$ zigs, and change the new endpoint $b_i$ to the old endpoint $b_n$.  The final zig $(a_i,b_i) \subseteq G_i$ becomes $(a_i,b_n) \subseteq G_i$, which will hold by property (2) since $b_i \geq b_n$.  Now consider the largest value of $j \leq i$ such that $a_1 \geq a_j$, and truncate similarly on the other side.  We now have a zigzag with $i - j + 1$ zigs that never falls below $a_1$ on a zag nor rises above $b_n$ on a zig.
 
 To be precise:
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Zigzag lemma
 
 Given a collection $\mathcal{C}$ of opens and a zigzag in which each zig holds relative to some open in $\mathcal{C}$, there exists a zigzag (eq:zigzag) in which each zig holds relative to some open in $\mathcal{C}$, $a_1 \leq a_i$ for each $i$, and $b_i \leq b_n$ for each $i$.
@@ -138,15 +138,15 @@ A related question is whether we can reconstruct $G$ from the set of points whic
 
 ## The Heine--Borel theorem
 
-The classical [[Heine-Borel theorem|Heine–Borel theorem]], as a statement about sets of real numbers, may fail constructively; this is related to the comments above about the [[fan theorem]].  But the beauty of the localic approach is that Heine--Borel necessarily holds when interpreted as a statement about opens in the locale of real numbers.  To state the theorem, we must define what it means for a collection of opens to [[cover]] the [[unit interval]].  We will give an ad-hoc definition, but this may also be derived from the general theory of [[closed sublocale]]s which allows us to interpret the unit interval as a [[compact space|compact]] locale in its own right.
+The classical [[Heine-Borel theorem|Heine--Borel theorem]], as a statement about sets of real numbers, may fail constructively; this is related to the comments above about the [[fan theorem]].  But the beauty of the localic approach is that Heine--Borel necessarily holds when interpreted as a statement about opens in the locale of real numbers.  To state the theorem, we must define what it means for a collection of opens to [[cover]] the [[unit interval]].  We will give an ad-hoc definition, but this may also be derived from the general theory of [[closed sublocale]]s which allows us to interpret the unit interval as a [[compact space|compact]] locale in its own right.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An __[[open cover]] of the unit interval__ is a collection $\mathcal{C}$ of opens in the real line such that $\mathbb{R}$ is the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathcal{C}$.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem #HeineBorel}
 ###### Theorem
 (Heine--Borel)
 
@@ -163,29 +163,35 @@ Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathca
 
 This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
 
-## As a classifying locale
+
+## As a classifying locale
 
 The locale of real numbers is the [[classifying locale]] of the [[geometric theory]] of [[Dedekind real numbers]]. 
 
-## Defining functions in the locale of real numbers
+
+## Defining functions in the locale of real numbers
 
 There are two general ways to define functions on the locale of real numbers, via the [[rational numbers]] and via the [[Dedekind real numbers]].
 
+
 ### Using the rational numbers
 
-The first approach uses existing functions already defined on the [[rational numbers]] $\mathbb{Q}$. Suppose that one has a locally uniformly continuous function $f:\mathbb{Q} \to \mathbb{Q}$. Then one could extend $f$ to a continuous map $f':\mathbb{R} \to \mathbb{R}$ on the locale of real numbers. 
+The first approach uses existing functions already defined on the [[rational numbers]] $\mathbb{Q}$. Suppose that one has a locally uniformly continuous function $f:\mathbb{Q} \to \mathbb{Q}$. Then one could extend $f$ to a continuous map $\widetilde{f}:\mathbb{R} \to \mathbb{R}$ on the locale of real numbers. 
 
-### Using the Dedekind real numbers. 
+
+### Using the Dedekind real numbers
 
 The other approach is via using existing functions defined on the [[Dedekind real numbers]] $\mathbb{R}$. In particular, given any well-defined continuous function $x \mapsto f(x)$ on the [[Dedekind real numbers]], and a [[geometric morphism]] $F:\mathrm{Set} \to \mathrm{Sh}(\mathbb{R}_D)$ from [[Set]] to the [[sheaf topos]] $\mathrm{Sh}(\mathbb{R}_D)$, if for all Dedekind real numbers $x \in \mathbb{R}_D$, $f(F^*(x)) = F^*(f(x))$, then the function $x \mapsto f(x)$ lifts to a function $x \mapsto \widetilde{f}(x)$ on the locale of real numbers. 
 
 This allows us to first define real-valued functions normally on the set of [[Dedekind real numbers]], and then lift them up to a real-valued function on the locale of real numbers, thus allowing us to define functions such as the [[exponential function]], the [[sine]], and the [[cosine]] which can't be directly defined using functions on the rational numbers. 
 
+
 ### Arithmetic
 
 Significantly, since the [[field]] operations on the discrete locale of [[rational numbers]] are all locally uniformly continuous on the $\mathbb{Q}$, and the field operations are well-defined and continuous on the Dedekind real numbers $\mathbb{R}_D$, the field operations in both cases lift up to a field structure on the locale of real numbers, allowing one to do basic [[arithmetic]] on $\mathbb{R}$. 
 
-## References
+
+## References
 
 * [[Simon Henry]], *Localic Metric spaces and the localic Gelfand duality*, ([arXiv:1411.0898](https://arxiv.org/abs/1411.0898))
 
@@ -202,6 +208,7 @@ On lifting functions from the [[Dedekind real numbers]] to the locale of real nu
 * Madeleine Birchfield, [[Simon Henry]], *The field structure on the locale of real numbers*, ([MathOverflow](https://mathoverflow.net/questions/434706/the-field-structure-on-the-locale-of-real-numbers))
 
 * [[Valery Isaev]], [[Simon Henry]], *Localic maps given by series* ([MathOverflow](https://mathoverflow.net/q/426682/))
+
 
 [[!redirects the locale of real numbers]]
 [[!redirects locale of real numbers]]
