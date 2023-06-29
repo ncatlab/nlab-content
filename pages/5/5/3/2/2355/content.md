@@ -473,6 +473,7 @@ This is a restatement of [[Higher Topos Theory|HTT, corr. 5.2.2.5]].
 =--
 
 
+
 \begin{lemma}\label{LadjAndRadj}
 There are anti-equivalences $ladj \,\colon\, RAdj^{op} \to LAdj$ and $radj \,\colon\, LAdj^{op} \to RAdj$ that are the identity on objects and the action on homspaces $LAdj(C, D) \simeq RAdj(D,C)$ is the equivalence sending a functor to its adjoint.
 \end{lemma}
@@ -480,7 +481,7 @@ There are anti-equivalences $ladj \,\colon\, RAdj^{op} \to LAdj$ and $radj \,\co
 +-- {: .proof}
 ###### Proof
 
-By the covariant Grothendieck construction, for any (∞,1)-category C, $Map(C, LAdj)$ can be identified with the core of the category of adjunct fibrations over $C$ with small fibers. The same is true of $Map(C^{\op}, RAdj)$.
+By the covariant Grothendieck construction, for any (∞,1)-category C, $Map(C, LAdj)$ can be identified with the ∞-groupoid of $(\infty,1)\widehat{Cat}_{/C}$ spanned by adjunct fibrations over $C$ with small fibers and all equivalences between them. The same is true of $Map(C^{\op}, RAdj)$.
 
 Since the Grothendieck construction is natural in the base category, we obtain the asserted equivalence between $LAdj$ and $RAdj^{op}$. Taking $C = [1]$, this establishes the correspondence between an adjunction and its associated adjoint pair of functors.
 
