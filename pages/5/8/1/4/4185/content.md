@@ -13,6 +13,12 @@ The [[FRS-theorem on rational 2d CFT]]:
 
 * [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
 
+On [[extended functorial field theory|extended]] [[homotopy field theory]]:
+
+* [[Christoph Schweigert]], [[Lukas Woike]], *Extended Homotopy Quantum Field Theories and their Orbifoldization*, Journal of Pure and Applied Algebra **224** 4 (2020) 106213 &lbrack;[arXiv:1802.08512](https://arxiv.org/abs/1802.08512), <a href="https://doi.org/10.1016/j.jpaa.2019.106213">doi:10.1016/j.jpaa.2019.106213</a>&rbrack;
+
+
+
 On potential generalization to [[logarithmic CFT]]:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
