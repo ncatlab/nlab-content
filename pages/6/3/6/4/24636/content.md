@@ -12,6 +12,11 @@ Relation to generalized cluster categories is in
 
 * Claire Amiot, _Cluster categories for algebras of global dimension 2 and quivers with potential_, Ann. Inst. Fourier __59__:6 (2009) 2525-2590 [link](http://aif.cedram.org/item?id=AIF_2009__59_6_2525_0)
 
+An analytic version of the theory is in
+
+* Zheng Hua, [[Bernhard Keller]], _Quivers with analytic potentials_, [arxiv:1909.13517](https://arxiv.org/abs/1909.13517)
+* Okke van Garderen, _Cyclic A-infinity algebras and Calabi-Yau structures in the analytic setting_, [arxiv:2306.00771](https://arxiv.org/abs/2306.00771)
+
 The proof that an important class of "exact" $d$-[[Calabi-Yau algebra]]s are derived from superpotentials is in 
 
 * [[Michel Van den Bergh]], _Calabi-Yau algebras and superpotentials_, Sel. Math. New Ser. __21__, 555–603 (2015). [doi](https://doi.org/10.1007/s00029-014-0166-6)
