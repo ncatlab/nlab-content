@@ -2,7 +2,18 @@
 
 * [webpage](http://grk1670.math.uni-hamburg.de/researchers/woike/)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[extended functorial field theory|extended]] [[homotopy field theory]]:
+
+* [[Christoph Schweigert]], [[Lukas Woike]], *Extended Homotopy Quantum Field Theories and their Orbifoldization*, Journal of Pure and Applied Algebra **224** 4 (2020) 106213 &lbrack;[arXiv:1802.08512](https://arxiv.org/abs/1802.08512), <a href="https://doi.org/10.1016/j.jpaa.2019.106213">doi:10.1016/j.jpaa.2019.106213</a>&rbrack;
+
+On [[higher parallel transport]] of [[circle n-bundles with connection]] as an [[extended functorial field theory|extended]] [[homotopy field theory]]:
+
+* [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
+
+
+## Related entries
 
 * [[homotopical algebraic quantum field theory]]
 
