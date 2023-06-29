@@ -239,6 +239,7 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 [[!include table of branes]]
 
 
+
 ## References
 
 
@@ -246,15 +247,16 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 The [[Green-Schwarz sigma-model]]-type formulation of the [[supermembrane]] in 11d (as in the [[brane scan]]) first appears in 
 
-* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
+* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], *Supermembranes and eleven-dimensional supergravity*, Phys. Lett. B **189** (1987) 75-78 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91272-X">doi:10.1016/0370-2693(87)91272-X</a>, [spire:248230](http://inspirehep.net/record/248230/)&rbrack;
+
 
 The [[equations of motion]] of the super membrane are derived via the [[superembedding approach]] in 
 
-* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], Chapter 3 of _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B446:79-118, 1995 ([arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113))
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], Chapter 3 of: _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
 
 and the [[Lagrangian density]] for the super membrane is derived via the [[superembedding approach]] in
 
-* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class. Quant. Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
+* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], *The supermembrane revisited*, Class. Quant. Grav. **22** (2005) 2167-2200 &lbrack;[arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245), [doi:10.1088/0264-9381/22/11/017](https://doi.org/10.1088/0264-9381/22/11/017)&rbrack;
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
 
@@ -267,7 +269,7 @@ The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz supe
 
 The interpretation of the membrane as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _M2-brane_ was proposed in 
 
-* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068)&rbrack;
 
 around the time when [[M-theory]] became accepted due to
 
@@ -276,7 +278,7 @@ around the time when [[M-theory]] became accepted due to
 
 See also
 
-* [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+* [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_ &lbrack;[arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245)&rbrack;
 
 * [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
 
