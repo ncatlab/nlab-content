@@ -49,6 +49,7 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * [[cosmic censorship]]
 
+
 ## References
  {#References}
 
@@ -56,7 +57,9 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 Textbook accounts:
 
-* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_ (1973)
+
+* [[Robert Wald]], *General Relativity*, University of Chicago Press (1984) &lbrack;[doi:10.7208/chicago/9780226870373.001.0001](https://doi.org/10.7208/chicago/9780226870373.001.0001), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Wald_GR.pdf)&rbrack;
 
 Lecture notes:
 
