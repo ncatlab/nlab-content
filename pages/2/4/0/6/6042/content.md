@@ -37,6 +37,16 @@ If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] a
 
 Named after [[Hendrik Lorentz]].
 
+Textbook accounts:
+
+* V. C. A. Ferraro, §303 in: *Electromagnetic Theory*, The Athlone Press (1954, 1956)
+
+Discussion in [[worldline]] [[Lagrangian mechanics]]:
+
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], Exc. 7.2 (p. 179) in: *[[Gravitation]]*, W. H. Freeman, San Francisco (1973) $[$ISBN:9780716703440$]$
+
+* {#Frankel97} [[Theodore Frankel]], §16.4b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) $[$[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)$]$
+
 See also 
 
 * Wikipedia, _[Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force)_
