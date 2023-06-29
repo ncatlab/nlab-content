@@ -55,7 +55,7 @@ Further discussion includes
 
 * [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
 
-* P.S. Howe, [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl.Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014))
+* [[Paul S. Howe]], [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl. Phys. B **515** (1998) 203-216 &lbrack;[arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014), <a href="https://doi.org/10.1016/S0550-3213(97)00750-5">doi:10.1016/S0550-3213(97)00750-5</a>&rbrack;
 
 * {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
 
@@ -67,3 +67,6 @@ In view of [[M-strings]] and the [[M-string elliptic genus]]:
 [[!redirects self-dual strings]]
 
 [[!redirects self-dual string in 6d]]
+
+
+
