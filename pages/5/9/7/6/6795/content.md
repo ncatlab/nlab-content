@@ -4,6 +4,13 @@
 
 ## Selected writings
 
+On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
+
+* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
+
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
+
+
 On [[D=14 supersymmetry]]:
 
 * [[Ergin Sezgin]], _Super Yang-Mills in $(11,3)$ Dimensions_, 	Phys.Lett. B403 (1997) 265-272 ([arXiv:hep-th/9703123](https://arxiv.org/abs/hep-th/9703123))
