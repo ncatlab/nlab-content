@@ -14,6 +14,10 @@ Early construction of [[type IIA supergravity]]:
 * I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B
 **243** 1 (1984) 112-124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
 
+On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
+
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
+
 
 On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
 
