@@ -264,6 +264,11 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 * {#GaillardSchmude09} [[Jérôme Gaillard]], [[Johannes Schmude]], _The lift of type IIA supergravity with D6 sources: M-theory with torsion_, JHEP 1002:032,2010 ([arXiv:0908.0305](http://arxiv.org/abs/0908.0305))
 
+Discussion for the [[massive type IIA string theory|massive]] case, [[KK-reduction|reducing]] to the [[D6-brane]] in [[massive type IIA string theory]]:
+
+* [[Eric Bergshoeff]], [[Eduardo Eyras]], [[Yolanda Lozano]], *The massive Kaluza-Klein monopole*, Physics Letters B
+**430** 1–2 (1998) 77-86 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00501-2">doi:10.1016/S0370-2693(98)00501-2</a>, [arXiv:hep-th/9802199](https://arxiv.org/abs/hep-th/9802199)&rbrack;
+
 Discussion in terms of [[G-structures]]:
 
 * [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Adolfo Guarino, _KK-monopoles and $G$-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
