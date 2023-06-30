@@ -3,7 +3,7 @@
 ## Selected writings
 
 
-On [[massive type IIA string theory]] and its embedding in [[M-theory]]:
+On [[massive type IIA string theory]] and its embedding in [[M-theory]] via [[M9-branes]]:
 
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
