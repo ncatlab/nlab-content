@@ -410,7 +410,7 @@ as a [[higher WZW model]]:
 
 Discussion of the effect of [[T-duality]] on NS5-branes includes
 
-* Eduardo Eyras, [[Bert Janssen]], [[Yolanda Lozano]], _5-branes, KK-monopoles and T-duality_, Nucl.Phys. B531 (1998) 275-301 ([arXiv:hep-th/9806169](https://arxiv.org/abs/hep-th/9806169))
+* [[Eduardo Eyras]], [[Bert Janssen]], [[Yolanda Lozano]], _5-branes, KK-monopoles and T-duality_, Nucl. Phys. B **531** (1998) 275-301 &lbrack;[arXiv:hep-th/9806169](https://arxiv.org/abs/hep-th/9806169), <a href="https://doi.org/10.1016/S0550-3213(98)00575-6">doi:10.1016/S0550-3213(98)00575-6</a>&rbrack;
 
 * [[David Tong]], _NS5-Branes, T-Duality and Worldsheet Instantons_, JHEP 0207:013,2002 ([arXiv:hep-th/0204186](https://arxiv.org/abs/hep-th/0204186))
 
