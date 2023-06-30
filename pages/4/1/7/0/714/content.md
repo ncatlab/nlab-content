@@ -331,10 +331,8 @@ regarded as a category equipped a homotopy invariant structure, as discussed in 
 
 But the notion of &#8224;-category is perfectly reasonable
 from an homotopy theoretic point of view. This is because the model category $DCat$ is a [[combinatorial model category]].
-It follows, by a general result, that the notion of
-of &#8224;-category is homotopy essentially algebraic
-There a homotopy limit sketch whose category of models (in spaces)
-is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
+It follows, by a general result, that the notion of &#8224;-category is homotopy essentially algebraic.
+There is a homotopy limit sketch whose category of models (in spaces) is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
 
 ### $\dagger$-simplicial set
 
