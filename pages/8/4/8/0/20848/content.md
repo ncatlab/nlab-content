@@ -3,8 +3,13 @@
 
 ## Selected writings
 
-On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D4-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
+On [[D=8 supergravity]]:
 
+* [[Mees de Roo]], [[Giuseppe Dibitetto]], Yihao Yin, _Critical points of maximal $D=8$ gauged supergravities_, JHEP 1201:029 (2012) &lbrack;[arXiv:1110.2886](http://arxiv.org/abs/1110.2886)&rbrack;
+
+
+
+On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D4-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
 
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _6d surface defects from massive type IIA_, JHEP 01 (2018) 039 ([arxiv:1707.06154](https://arxiv.org/abs/1707.06154))
 
