@@ -161,7 +161,7 @@ Discussion of possible realization of massive type IIA string theory in [[M-theo
 
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
-* {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
+* {#Hull98} [[Chris Hull]], *Massive String Theories From M-Theory and F-Theory*, JHEP 9811:027 (1998) &lbrack;[arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021), [doi:10.1088/1126-6708/1998/11/027](https://iopscience.iop.org/article/10.1088/1126-6708/1998/11/027)&rbrack;
 
 > Our purpose here is to argue that although the Romans supergravity theory may not be derivable from 11-dimensional supergravity, or any covariant massive deformation thereof, the massive IIA superstring, whose low energy limit is the Romans theory, can be obtained from M-theory.
 
