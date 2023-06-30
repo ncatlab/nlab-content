@@ -73,6 +73,12 @@ On M9-branes (and apparently introducing that terminology) as lifts of the [[D8-
 
 * [[Eric Bergshoeff]], [[Jan Pieter van der Schaar]], *On M-9-branes*, Class. Quant. Grav. **16** (1999) 23-39 &lbrack;[arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069), [doi:10.1088/0264-9381/16/1/002](https://doi.org/10.1088/0264-9381/16/1/002)&rbrack;
 
+Further discussion:
+
+* M. P. Garcia del Moral, P. Leon, A. Restuccia, *Wordsheet description of a* massive *type IIA superstring in 10D* &lbrack;[arXiv:2306.16620](https://arxiv.org/abs/2306.16620)&rbrack;
+
+
+
 
 
 A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
