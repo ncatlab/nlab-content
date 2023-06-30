@@ -21,5 +21,3 @@ On [[monads in computer science]], such as the (local) [[state monad]]:
 
 
 category: people
-
-category: computer science
