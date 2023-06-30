@@ -17,6 +17,10 @@ On the [[KK-monopole]] in massive [[D=11 supergravity]], [[KK-reduction|reducing
 
 * [[Eduardo Eyras]], [[Yolanda Lozano]], *The Kaluza-Klein Monopole in a Massive IIA Background*, Nucl. Phys. B**546** (1999) 197-218 &lbrack;[arXiv:hep-th/9812188](https://arxiv.org/abs/hep-th/9812188), <a href="https://doi.org/10.1016/S0550-3213(99)00098-X">doi:10.1016/S0550-3213(99)00098-X</a>&rbrack;
 
+On [[M-branes]]:
+
+* [[Laurent Houart]], [[Yolanda Lozano]], _Brane Descent Relations in M-theory_, Phys.Lett. B **479** (2000) 299-307 &lbrack;[arXiv:hep-th/0001170](https://arxiv.org/abs/hep-th/0001170), <a href="https://doi.org/10.1016/S0370-2693(00)00317-8">doi:10.1016/S0370-2693(00)00317-8</a>&rbrack;
+
 
 On [[M-brane polarization]]:
 
