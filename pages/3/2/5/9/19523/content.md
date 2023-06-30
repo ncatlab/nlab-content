@@ -453,6 +453,8 @@ See also
 
 ### Observed inhomogeneity
 
+* Moritz Haslbauer, Pavel Kroupa, Tereza Jerabkova, *The cosmological star formation history from the Local Volume of galaxies and constraints on the matter homogeneity* ([arXiv:2306.16436](https://arxiv.org/abs/2306.16436))
+
 Introducing observation of the [[KBC void]]:
 
 * {#KBC13} Ryan C. Keenan, Amy J. Barger, Lennox L. Cowie, _Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution_, 2013, ApJ, 775, 62 ([arXiv:1304.2884](https://arxiv.org/abs/1304.2884))
