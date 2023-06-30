@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[brane intersection]] laws of [[M-branes]]:
+
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Eduardo Eyras]], [[Bert Janssen]], [[Jan Pieter van der Schaar]], _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. **14** (1997) 2757 &lbrack;[doi:0264-9381/14/10/005](http://iopscience.iop.org/0264-9381/14/10/005)&rbrack;
+
+
 On the [[KK-monopole]] in massive [[D=11 supergravity]], [[KK-reduction|reducing]] to the [[D6-brane]] in [[massive type IIA string theory]]:
 
 * [[Eric Bergshoeff]], [[Eduardo Eyras]], [[Yolanda Lozano]], *The massive Kaluza-Klein monopole*, Physics Letters B
