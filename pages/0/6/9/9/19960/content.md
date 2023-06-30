@@ -638,6 +638,9 @@ These computations shown so far all use just the field theory in the bulk, not y
 * [[Antoine Van Proeyen]], [[Daniel Freedman]], Chapter VIII of: _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
 
 
+* [[Koji Hashimoto]], §6.4 in: _D-Brane -- Superstrings and New Perspective of Our World_, Springer (2012) &lbrack;[doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897)&rbrack;
+
+
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
 
 * Jorge Casalderrey-Solana, Hong Liu, [[David Mateos]], Krishna Rajagopal, Urs Achim Wiedemann, _Gauge/string duality, hot QCD and heavy ion collisions_,  Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
