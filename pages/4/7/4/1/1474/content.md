@@ -462,6 +462,9 @@ Note that the apartness $\#$ need not be [[tight relation|tight]], and in partic
 
 If the locale product $X\times X$ does not coincide with the spatial product, then the "only if" direction of the above proof still works, if we define $W_\#$ to be the open part of the locale product $X\times X$ given by $W_\# = \bigvee \{ U\otimes V \mid U\cap V = \emptyset \}$.  A different proof is to recall that by [this theorem](/nlab/show/apartness+relation#ClosedLocalicEquivalenceRelation), an apartness relation is the same as a (strongly) closed equivalence relation on a discrete locale, and the quotient of such an equivalence relation is the $\#$-topology.  Thus, if $X$ is localically strongly Hausdorff, its diagonal is a closed equivalence relation, which yields by pullback a closed equivalence relation on the discrete locale $X_d$ on the same set of points.  This is the [[kernel pair]] of the canonical surjection $X_d \to X$, and hence its quotient (the $\#$-topology) maps to $X$, i.e. refines the topology of $X$.
 
+## History
+
+First introduced by [[Hausdorff]] in [[Grundzüge der Mengenlehre]], Hausdorff spaces were the original concept of a [[topological space]].  Later the Hausdorffness condition was dropped, apparently first by [[Kuratowski]] in 1920s.
 
 ## Related concepts
 
