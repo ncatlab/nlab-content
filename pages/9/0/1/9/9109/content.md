@@ -9,6 +9,6 @@ On the [[Green-Schwarz mechanism]] in [[heterotic M-theory]]:
 
 On the [[non-abelian DBI action]]:
 
-* [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+* [[Eric Bergshoeff]], [[Adel Bilal]], [[Mees de Roo]], A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) &lbrack;[arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274)&rbrack;
 
 category: people
