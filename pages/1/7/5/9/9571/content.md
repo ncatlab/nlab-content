@@ -106,7 +106,7 @@ Review:
 
 See also:
 
-* [[Leila Schneps]], [[Pierre Lotchak]], _Geometric Galois actions_, 1, London Math. Soc. Lecture Note Ser. 242 ([doi](http://dx.doi.org/10.1017%2FCBO9780511666124))-- it contains a reprint of Groethendieck's Esquisse and some surveys by contributors, including Leila Schneps, _The Grothendieck-Teichmueller group GT: a survey_, [pdf](http://www.math.jussieu.fr/~leila/SchnepsGT.pdf)
+* [[Leila Schneps]], [[Pierre Lochak]], _Geometric Galois actions_, 1, London Math. Soc. Lecture Note Ser. 242 ([doi](http://dx.doi.org/10.1017%2FCBO9780511666124))-- it contains a reprint of Groethendieck's Esquisse and some surveys by contributors, including Leila Schneps, _The Grothendieck-Teichmueller group GT: a survey_, [pdf](http://www.math.jussieu.fr/~leila/SchnepsGT.pdf)
 
 * [[Maxim Kontsevich]], _Operads and motives in deformation quantization_, Lett. Math. Phys. 48 (1999), 35-72, [math.QA/9904055](http://arxiv.org/abs/math/9904055) [doi](https://doi.org/10.1023/A:1007555725247)
 
