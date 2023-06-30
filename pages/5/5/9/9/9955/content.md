@@ -3,21 +3,36 @@
 
 ## Selected writings
 
+On [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
+
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Tomas Ortin]], *The Eleven-dimensional Five-brane*, Phys. Lett. B **386** (1996) 85-90 &lbrack;[arXiv:hep-th/9606118](https://arxiv.org/abs/hep-th/9606118), <a href="https://doi.org/10.1016/0370-2693(96)00913-6">doi:10.1016/0370-2693(96)00913-6</a>&rbrack;
+
+
 
 On [[brane intersection]] laws of [[M-branes]]:
 
-* [[Eric Bergshoeff]], M. Roo, E. Eyras, [[Bert Janssen]], J. P. Schaar, _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. 14 2757 ([publisher](http://iopscience.iop.org/0264-9381/14/10/005/))
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Eduardo Eyras]], [[Bert Janssen]], [[Jan Pieter van der Schaar]], _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. **14** (1997) 2757 &lbrack;[doi:0264-9381/14/10/005](http://iopscience.iop.org/0264-9381/14/10/005)&rbrack;
 
 * [[Eric Bergshoeff]], [[Joaquim Gomis]], [[Paul Townsend]], _M-brane intersections from worldvolume superalgebras_, Phys.Lett. B421 (1998) 109-118 ([arXiv:hep-th/9711043](http://arxiv.org/abs/hep-th/9711043))
 
 
 On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
 
-* {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+* {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], [[Mees de Roo]], [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
-On [[massive type IIA string theory]] and its embedding in [[M-theory]]:
+On [[massive type IIA string theory]] and its embedding in [[M-theory]] via [[M9-branes]]:
 
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
+
+On the [[KK-monopole]] in massive [[D=11 supergravity]], [[KK-reduction|reducing]] to the [[D6-brane]] in [[massive type IIA string theory]]:
+
+* [[Eric Bergshoeff]], [[Eduardo Eyras]], [[Yolanda Lozano]], *The massive Kaluza-Klein monopole*, Physics Letters B
+**430** 1–2 (1998) 77-86 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00501-2">doi:10.1016/S0370-2693(98)00501-2</a>, [arXiv:hep-th/9802199](https://arxiv.org/abs/hep-th/9802199)&rbrack;
+
+
+More on [[M9-branes]]:
+
+* [[Eric Bergshoeff]], [[Jan Pieter van der Schaar]], *On M-9-branes*, Class. Quant. Grav. **16** (1999) 23-39 &lbrack;[arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069), [doi:10.1088/0264-9381/16/1/002](https://doi.org/10.1088/0264-9381/16/1/002)&rbrack;
 
 
 
@@ -28,7 +43,7 @@ Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "dem
 
 On the [[non-abelian DBI action]]:
 
-* [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+* [[Eric Bergshoeff]], [[Adel Bilal]], [[Mees de Roo]] and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
 
 
 
