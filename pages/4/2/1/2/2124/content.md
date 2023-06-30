@@ -242,7 +242,7 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 * {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS states with extra supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](https://arxiv.org/abs/hep-th/9909098) [doi](https://doi.org/10.1088/1126-6708/2000/01/004))
 
 
-* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](https://arxiv.org/abs/hep-th/0703285))
+* {#EHKNT07} [[Francois Englert]], [[Laurent Houart]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](https://arxiv.org/abs/hep-th/0703285)&rbrack;
 
 * Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D78:065042,2008 ([arXiv:0712.3235](https://arxiv.org/abs/0712.3235))
 
