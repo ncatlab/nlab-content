@@ -15,6 +15,11 @@ On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergr
 
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
+On [[massive type IIA string theory]] and its embedding in [[M-theory]]:
+
+* [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
+
+
 
 Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "democratic"/"[[pregeometric RR-field|pregeometric]]" [[RR-fields]] subject to [[self-dual higher gauge theory|self-duality]]:
 
