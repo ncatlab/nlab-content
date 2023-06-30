@@ -592,6 +592,10 @@ A space $X$ is compact if and only if the unique map $X\to 1$ is [[proper map|pr
 For topological spaces, this is either a definition of "proper map" (closed with compact fibers) or follows from the above characterization of compactness in terms of projections being closed maps (if proper maps are defined to be those that are universally closed).  For locales, it follows from the definition of proper map (a closed map such that $f_*$ preserves directed joins) and the fact that compact locales are automatically [[covert space|covert]] (see [[covert space]] for a proof).
 
 
+## History
+
+Compact spaces were introduced (under the name of “bicompact spaces”) by [[Paul Alexandroff]] and [[Paul Urysohn]] around 1924, see the 92nd volume of Mathematische Annalen, especially [AU](#AlexandroffUrysohn1924).
+
 ## Related concepts
 
 * [[Lebesgue number lemma]]
@@ -615,7 +619,13 @@ For topological spaces, this is either a definition of "proper map" (closed with
 * [[complete algebraic variety]]
 
 
+
+
 ## References
+
+Introduced and studied by [[Paul Alexandroff]] and [[Paul Urysohn]] in
+
+* {#AlexandroffUrysohn1924} [[Paul Alexandroff]], [[Paul Urysohn]], _Zur Theorie der topologischen Räume_, [EuDML](https://eudml.org/doc/159069).
 
 For general references see the [list](topology#References) at *[[topology]]*.
 
