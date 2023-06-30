@@ -127,6 +127,8 @@ Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear phys
 
 * [[Yakov Shnir]], Section 9.1. of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
+* [[Koji Hashimoto]], pp. 126 of: _D-Brane -- Superstrings and New Perspective of Our World_, Springer (2012) &lbrack;[doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897)&rbrack;
+
 * [Barnaföldi & Gogokhia (2019), p. 2](#BarnafoldiGogokhia19)
 
 * [Roberts & Schmidt (2020), p. 2](#RobertsSchmidt20)
