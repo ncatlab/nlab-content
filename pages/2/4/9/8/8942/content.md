@@ -60,6 +60,9 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 ## References
 
+* [[Mees de Roo]], p. 5 of: *Intersecting branes and Supersymmetry* &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124)&rbrack;
+
+
 Discussion of a possible [[black brane|black]] 9-brane in 11d is in 
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
