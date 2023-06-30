@@ -92,7 +92,7 @@ and offered an argument in prose &lbrack;[Marolf (2001) pp. 3](#Marolf01)&rbrack
 ### D6 stretching between D8 and NS5
  {#D6StretchingBetweenNS5AndD8}
 
-(cf. *[[D6-D8 brane bound state]]*)
+(cf. *[[D6-D8 brane bound state]]* and [Bergshoeff, Lozano & Ortin (1998)](#BergshoeffLozanoOrtin98))
 
 We explain the "Hanany-Witten effect" in detail for the case of "flat" [[NS5-brane|NS5]]--[[D6-brane|D6]]--[[D8-brane|D8]]-configurations, as a consequence of the [[pregeometric RR-field|pregeometric]] [[Bianchi identities]] (eq:GeneralBianchiIdentity) satisfied by the [[flux densities]] sourced by these branes.
 
@@ -516,6 +516,12 @@ Further discussion:
 See also:
 
 * Wikipedia, *[Hanany-Witten transition](https://en.wikipedia.org/wiki/Hanany%E2%80%93Witten_transition)*
+
+The case of [[D6-D8 brane bound states]]:
+
+* [[Amihay Hanany]], [[Alberto Zaffaroni]], §2.4 *Chiral Symmetry from Type IIA Branes*, Nucl. Phys. B **509** (1998) 145-168 &lbrack;[arXiv:hep-th/9706047](https://arxiv.org/abs/hep-th/9706047), <a href="https://doi.org/10.1016/S0550-3213(97)00595-6">doi:10.1016/S0550-3213(97)00595-6</a>&rbrack;
+
+* {#BergshoeffLozanoOrtin98} [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], p. 60 of: *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
 Discussion for [[M2-M5 brane bound state|M2-M5 brane]] [[brane intersection|intersections]]:
 
