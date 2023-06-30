@@ -453,8 +453,6 @@ See also
 
 ### Observed inhomogeneity
 
-* Moritz Haslbauer, Pavel Kroupa, Tereza Jerabkova, *The cosmological star formation history from the Local Volume of galaxies and constraints on the matter homogeneity* ([arXiv:2306.16436](https://arxiv.org/abs/2306.16436))
-
 Introducing observation of the [[KBC void]]:
 
 * {#KBC13} Ryan C. Keenan, Amy J. Barger, Lennox L. Cowie, _Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution_, 2013, ApJ, 775, 62 ([arXiv:1304.2884](https://arxiv.org/abs/1304.2884))
@@ -478,6 +476,8 @@ See also:
 * {#WhitePaper22} Snowmass White Paper, Section VII.H in: *Cosmology Intertwined: A Review of the Particle Physics, Astrophysics, and Cosmology Associated with the Cosmological Tensions and Anomalies*, J. High En. Astrophys **34** (2022) 49-211 &lbrack;[arXiv:2203.06142](https://arxiv.org/abs/2203.06142), [doi:10.1016/j.jheap.2022.04.002](https://doi.org/10.1016/j.jheap.2022.04.002)&rbrack;
 
   > "it is possible that data has reached a requisite precision that the cosmological principle has already become obsolete"
+
+* {#HaslbauerKroupaJerabkova23} Moritz Haslbauer, Pavel Kroupa, Tereza Jerabkova, *The cosmological star formation history from the Local Volume of galaxies and constraints on the matter homogeneity* &lbrack;[arXiv:2306.16436](https://arxiv.org/abs/2306.16436)&rbrack;
 
 
 
