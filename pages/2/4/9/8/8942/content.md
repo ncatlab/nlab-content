@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -59,6 +58,7 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 
 ## References
+
 
 * [[Mees de Roo]], p. 5 of: *Intersecting branes and Supersymmetry* &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124)&rbrack;
 
@@ -112,6 +112,16 @@ Discussion of open [[M5-branes]] ending on the [[M9-brane]] is in
 
 * [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
 
+Discussion as [[exotic branes]] in [[exceptional field theory]]:
+
+* {#ObersPioline99} [[Niels Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](https://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
+
+> p. 109: "conjectured M9-brane which should more properly be called M8-brane."
+
+* {#BermanMusaevOtsuki18} [[David S. Berman]], [[Edvard T. Musaev]], [[Ray Otsuki]], *Exotic Branes in Exceptional Field Theory: $E_{7(7)}$ and Beyond*,  J. High Energ. Phys. **2018** 53 (2018) &lbrack;[arXiv:1806.00430v4](https://arxiv.org/abs/1806.00430), <a href="https://doi.org/10.1007/JHEP12(2018)053">doi:10.1007/JHEP12(2018)053</a>&rbrack;
+
+  > [Berman, Musaev & Otsuki (2018), p. 65](#BermanMusaevOtsuki18): "However, as remarked in [1](#ObersPioline99), &lbrack;the M9 brane&rbrack; should more properly be called an M8-brane or perhaps KK8 following its mass formula designation 8(1,0). It is, perhaps, to be understood as an object that exists only as a lift of the D8-brane of Type IIA."
+
 
 
 
@@ -129,4 +139,11 @@ Discussion of open [[M5-branes]] ending on the [[M9-brane]] is in
 
 [[!redirects MO9-plane]]
 [[!redirects MO9-planes]]
+
+[[!redirects M8-brane]]
+[[!redirects M8-branes]]
+[[!redirects M8 brane]]
+[[!redirects M8 branes]]
+
+
 
