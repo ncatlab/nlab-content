@@ -101,7 +101,7 @@ See also:
 * Bianchi M. et al. (2004) Dynkin Index. In: Duplij S., Siegel W., Bagger J. (eds) Concise Encyclopedia of Supersymmetry. Springer, Dordrecht. _[publisher](https://doi.org/10.1007/1-4020-4522-0_169)_
 
 
-* {#MyersdeRooSorba79} C. Meyers, M. de Roo, P. Sorba,  _Group-theoretical aspects of instantons_. Nuov Cim A 52, 519–530 (1979) ([doi:10.1007/BF02770858](https://doi.org/10.1007/BF02770858))
+* {#MyersdeRooSorba79} C. Meyers, [[Mees de Roo]], P. Sorba,  _Group-theoretical aspects of instantons_. Nuov Cim A 52, 519–530 (1979) ([doi:10.1007/BF02770858](https://doi.org/10.1007/BF02770858))
 
 
 [[!redirects Dynkin diagrams]]
