@@ -23,7 +23,7 @@ A [[2d CFT]] is called *logarithmic* (LCFT) if it looks like a [[rational confor
 
 A classical example of a logarithmic CFT it the "triple algebra of the $c=-2$ Virasoso model", see the references [below](#ExampleTripletAlgebra).
 
-More rcently it was understood ([Gaberdiel 2001](#Gaberdiel01), review in [Ridout 2010](#Ridout10), [2020](#Ridout20)) that the chiral [[WZW models]] at "admissible" *[[rational number|fractional]]* [[level (Chern-Simons theory)|levels]] are examples of logarithmic CFTs, see the references [further below](#FractionalLevelWZWModelReferences}). (The [[WZW model]] at non-[[integer]]-level does not have a geometric [[sigma-model]]-description but but it still does make sense as a [[current algebra]]/[[vertex operator algebra]]/[[modular functor]] of [[conformal blocks]]). 
+More recently it was understood ([Gaberdiel 2001](#Gaberdiel01), review in [Ridout 2010](#Ridout10), [2020](#Ridout20)) that the chiral [[WZW models]] at "admissible" *[[rational number|fractional]]* [[level (Chern-Simons theory)|levels]] are examples of logarithmic CFTs, see the references [further below](#FractionalLevelWZWModelReferences}). (The [[WZW model]] at non-[[integer]]-level does not have a geometric [[sigma-model]]-description but but it still does make sense as a [[current algebra]]/[[vertex operator algebra]]/[[modular functor]] of [[conformal blocks]]). 
 
 In fact, the triple algebra $c=-2$-model turns out to be essentially equivalent to the [[su(2)|$\mathfrak{su}(2)$]]-WZW model at admissible level $k = 0$ ([Nichols 2002](#Nichols02), cf. at *[[KZ-equation]]*, [here](Knizhnik-Zamolodchikov+equation#HypergeometricReferencesForVanishingLevel)).
 
