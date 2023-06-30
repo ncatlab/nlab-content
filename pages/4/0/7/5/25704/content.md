@@ -32,6 +32,6 @@ See also:
 * Wikipedia, *[Grundzüge der Mengenlehre](https://en.wikipedia.org/wiki/Grundz%C3%BCge_der_Mengenlehre)*
 
 
-category: references
+category: reference
 
 [[!redirects Grundzuege der Mengenlehre]]
