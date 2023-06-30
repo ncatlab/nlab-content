@@ -12,7 +12,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 
 Weak function extensionality is not equivalent to the [[principle of unique choice]]. The principle of unique choice states that the dependent product type of a family of contractible types is pointed
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{weakfunext}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{uniquechoice}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
 
 ## Properties
 
