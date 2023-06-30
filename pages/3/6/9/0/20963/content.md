@@ -5,14 +5,17 @@
 ## Selected writings
 
 
-On [[massive type IIA string theory]] and its embedding in [[M-theory]]:
+On [[massive type IIA string theory]] and its embedding in [[M-theory]] via [[M9-branes]]:
 
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
+On the [[KK-monopole]] in massive [[D=11 supergravity]], [[KK-reduction|reducing]] to the [[D6-brane]] in [[massive type IIA string theory]]:
 
-On the [[KK-monopole]] in [[massive type IIA string theory]] and in a massive form of [[D=11 supergravity]]:
+* [[Eric Bergshoeff]], [[Eduardo Eyras]], [[Yolanda Lozano]], *The massive Kaluza-Klein monopole*, Physics Letters B
+**430** 1–2 (1998) 77-86 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00501-2">doi:10.1016/S0370-2693(98)00501-2</a>, [arXiv:hep-th/9802199](https://arxiv.org/abs/hep-th/9802199)&rbrack;
 
-* Eduardo Eyras, [[Yolanda Lozano]], *The Kaluza-Klein Monopole in a Massive IIA Background*, Nucl. Phys. B**546** (1999) 197-218 &lbrack;[arXiv:hep-th/9812188](https://arxiv.org/abs/hep-th/9812188), <a href="https://doi.org/10.1016/S0550-3213(99)00098-X">doi:10.1016/S0550-3213(99)00098-X</a>&rbrack;
+
+* [[Eduardo Eyras]], [[Yolanda Lozano]], *The Kaluza-Klein Monopole in a Massive IIA Background*, Nucl. Phys. B**546** (1999) 197-218 &lbrack;[arXiv:hep-th/9812188](https://arxiv.org/abs/hep-th/9812188), <a href="https://doi.org/10.1016/S0550-3213(99)00098-X">doi:10.1016/S0550-3213(99)00098-X</a>&rbrack;
 
 
 On [[M-brane polarization]]:
