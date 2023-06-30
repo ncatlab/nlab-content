@@ -6,7 +6,7 @@
 
 On [[brane intersection]] laws of [[M-branes]]:
 
-* [[Eric Bergshoeff]], M. Roo, E. Eyras, [[Bert Janssen]], J. P. Schaar, _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. 14 2757 ([publisher](http://iopscience.iop.org/0264-9381/14/10/005/))
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Eduardo Eyras]], [[Bert Janssen]], [[Jan Pieter van der Schaar]], _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. **14** (1997) 2757 &lbrack;[doi:0264-9381/14/10/005](http://iopscience.iop.org/0264-9381/14/10/005)&rbrack;
 
 On [[D8-branes]] as [[black branes]] in [[massive type IIA string theory]]:
 
