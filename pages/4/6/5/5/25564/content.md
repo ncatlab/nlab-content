@@ -14,6 +14,6 @@
 * _Simplicity via complexity via simplicity? Sandboxes for simplicity_, Simplicity conference (multidisciplinary), [yt](https://www.youtube.com/watch?v=p42oxR1kwV8)
 * _Galoisian model theory: the role(s) of Grothendieck (à son insu !)_, Los Angeles, May 22, 2022 [yt](https://www.youtube.com/watch?v=4NCk8ItLMR0) [slides](https://avillavecesn.net/2022/05/21/galoisian-model-theory-the-roles-of-grothendieck-a-son-insu-los-angeles-5-22)
 
-category: people, foundations
+category: people
 
 [[!redirects Andres Villaveces]]
