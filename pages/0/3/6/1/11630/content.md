@@ -190,7 +190,8 @@ with slides in
 
 Reviews with more [[M-theory]] lore include
 
-* {#ObersPioline98} N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+* {#ObersPioline98} [[Niels Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](https://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
+
 
 * Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
 
