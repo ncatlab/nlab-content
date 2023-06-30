@@ -84,7 +84,7 @@ The theory of [[localizers]] and [[modelizers]], Grothendieck's conception of ho
 ## History
  {#History}
 
-In his _Obituary to Aurelio Carboni_ ([pdf](http://comocategoryarchive.com/Archive/conferences/aurelio-carboni/tributes/Farewell-to-Aurelio-FW-Lawvere.pdf)) [[William Lawvere]] writes the following:
+In his _Obituary to Aurelio Carboni_ ([pdf](https://www.acsu.buffalo.edu/~wlawvere/FarewellAurelio.htm)) [[William Lawvere]] writes the following:
 
 In 1989 Aurelio proposed to accompany me with his Alfa Romeo to visit Alexander Grothendieck in his stone hut in the middle of a lavender field near Mormoiron in the South of France. I had already visited Grothendieck in 1981 at that stone
 hut, but this
