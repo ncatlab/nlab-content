@@ -136,7 +136,7 @@ $$
 is the $((-)\times X \dashv [X,-])$-[[adjunct]] of the following composite of two [[evaluation maps]], def. \ref{EvalMap}:
 
 $$
-  [Y, Z] \times [X , Y] \times X 
+  [Y, Z] \times ([X , Y] \times X) 
     \stackrel{(id_{[Y,Z]}, eval_{X,Y})}{\to}
   [Y,Z] \times Y
     \stackrel{eval_{Y,Z}}{\to}
