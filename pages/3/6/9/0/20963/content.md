@@ -4,7 +4,13 @@
 
 ## Selected writings
 
-On the [[KK-monopole]] in [[massivel type IIA string theory]] and in a massive form of [[D=11 supergravity]]:
+
+On [[massive type IIA string theory]] and its embedding in [[M-theory]]:
+
+* [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
+
+
+On the [[KK-monopole]] in [[massive type IIA string theory]] and in a massive form of [[D=11 supergravity]]:
 
 * Eduardo Eyras, [[Yolanda Lozano]], *The Kaluza-Klein Monopole in a Massive IIA Background*, Nucl. Phys. B**546** (1999) 197-218 &lbrack;[arXiv:hep-th/9812188](https://arxiv.org/abs/hep-th/9812188), <a href="https://doi.org/10.1016/S0550-3213(99)00098-X">doi:10.1016/S0550-3213(99)00098-X</a>&rbrack;
 
