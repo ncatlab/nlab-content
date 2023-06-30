@@ -115,8 +115,6 @@ Here we are showing
 
 ### As black brane solutions
 
-#### General
-
 On [[D6-D8-brane bound states]] as [[black brane]]-solutions in [[massive type IIA string theory]]:
 
 * [[Harvendra Singh]], _Duality symmetric massive type II theories in $D=8$ and $D=6$_, JHEP 0204:017, 2002 ([arXiv:hep-th/0109147](https://arxiv.org/abs/hep-th/0109147))
@@ -144,13 +142,22 @@ In view of [[AdS/CFT]]:
 
 
 
-
 [[!include AdS3-CFT2 on D2-D4-D6-D8 branes -- references]]
+
+
 
 The [[T-duality]] to [[AdS2/CFT1]]:
 
 * [[Yolanda Lozano]], [[Carlos Nunez]], [[Anayeli Ramirez]], Stefano Speziali, _New $AdS_2$ backgrounds and $\mathcal{N}=4$ Conformal Quantum Mechanics_ ([arXiv:2011.00005](https://arxiv.org/abs/2011.00005))
 
+
+### Hanany-Witten effect
+
+On the [[Hanany-Witten effect]] for NS5/D6/D8-branes:
+
+* [[Amihay Hanany]], [[Alberto Zaffaroni]], §2.4 *Chiral Symmetry from Type IIA Branes*, Nucl. Phys. B **509** (1998) 145-168 &lbrack;[arXiv:hep-th/9706047](https://arxiv.org/abs/hep-th/9706047), <a href="https://doi.org/10.1016/S0550-3213(97)00595-6">doi:10.1016/S0550-3213(97)00595-6</a>&rbrack;
+
+* {#BergshoeffLozanoOrtin98} [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], p. 60 of: *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
 
 
