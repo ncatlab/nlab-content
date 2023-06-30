@@ -67,7 +67,7 @@ For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
 
 ### General
 
-* {#Smith02} Douglas J. Smith, _Intersecting brane solutions in string and M-theory_, Class.Quant.Grav.20:R233, 2003 ([arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157))
+* {#Smith02} [[Douglas J. Smith]], *Intersecting brane solutions in string and M-theory*, Class. Quant. Grav. **20** R233 (2003) &lbrack;[arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157), [doi:10.1088/0264-9381/20/9/203](https://doi.org/10.1088/0264-9381/20/9/203)&rbrack;
 
 * {#Hashimoto98} Akikazu Hashimoto, _Supergravity Solutions for Localized Intersections of Branes_, JHEP 9901 (1999) 018 ([arXiv:hep-th/9812159](https://arxiv.org/abs/hep-th/9812159))
 
