@@ -628,7 +628,7 @@ Issues with this proposal at higher order have been found in
 
 * {#Bain99} P. Bain, _On the non-abelian Born-Infeld action_, In: L. Baulieu , [[Michael Green]], Picco M., Windey P. (eds.) _Progress in String Theory and M-Theory_. NATO Science Series (Series C: Mathematical and Physical Sciences), vol 564. Springer, Dordrecht ([arXiv:hep-th/9909154](https://arxiv.org/abs/hep-th/9909154), [doi:10.1007/978-94-010-0852-5_12](https://doi.org/10.1007/978-94-010-0852-5_12))
 
-* {#BergshoeffBilalRooSevrin01} [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+* {#BergshoeffBilalRooSevrin01} [[Eric Bergshoeff]], [[Adel Bilal]], [[Mees de Roo]], A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
 
 
 Correction terms have been proposed in
