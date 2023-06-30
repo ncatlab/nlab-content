@@ -111,6 +111,17 @@ confines in the non-perturbative regime.
 
 \linebreak
 
+* [[Koji Hashimoto]], _D-Brane -- Superstrings and New Perspective of Our World_, Springer (2012) $[$[doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897)$]$
+
+> pp 126:  Heuristically, one may speculate that, since the coupling constant of QCD is too large, quarks bind together so that any single quark may not be able to exist alone. However, it has never been proved theoretically. After all, at present we have not understood yet QCD, the theory with a large coupling constant in which quantum theoretical effects (many loops in Feynman graphs as in Fig. 2.18) are essential. This is really a serious problem. Actually, one of big seven mathematical millennium problems proposed by Clay mathematical institute in the United States is concerning this QCD, and one million dollars will be awarded for a solution of the problem
+related with this.
+
+> D-branes give us quite an innovative idea, as an approach to this problem. It is called "holography" which is introduced in this chapter. 
+
+
+
+\linebreak
+
 
 * {#Brambilla14} Brambilla et al., _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723). [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
