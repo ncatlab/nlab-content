@@ -60,14 +60,17 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 ## References
 
-
 Discussion of a possible [[black brane|black]] 9-brane in 11d is in 
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
-The term "M9-brane" maybe originates in
+On M9-branes (and apparently introducing that terminology) as lifts of the [[D8-branes]] in [[massive type IIA string theory]]:
 
-* [[Eric Bergshoeff]], Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
+* [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], (4.8) in: *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
+
+* [[Eric Bergshoeff]], [[Jan Pieter van der Schaar]], *On M-9-branes*, Class. Quant. Grav. **16** (1999) 23-39 &lbrack;[arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069), [doi:10.1088/0264-9381/16/1/002](https://doi.org/10.1088/0264-9381/16/1/002)&rbrack;
+
+
 
 A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
 
