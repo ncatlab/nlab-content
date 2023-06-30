@@ -93,7 +93,7 @@ For more exposition on the general idea of homotopy theory see:
 The archetypical example of a homotopy theory is the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]], where one considers [[topological spaces]] with [[continuous functions]] between them, and with the original concept of [topological homotopies](Introduction+to+Topology+--+2#LeftHomotopy) between these continuous functions. 
 
 
-The [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[homotopy equivalence]]-[[equivalence classes|class]] of [[continuous functions]] is also called the _[[classical homotopy category]]_. 
+The [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[homotopy equivalence]]-[[equivalence class|classes]] of [[continuous functions]] is also called the _[[classical homotopy category]]_. 
  
 Classical constructions in topological homotopy theory are *[[homotopy groups]]*, *[[Toda brackets]]*, *[[long exact sequences of homotopy groups]]*, ...
 
