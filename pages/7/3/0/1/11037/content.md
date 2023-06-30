@@ -42,7 +42,7 @@ $$
 
 may be [[deduction|deduced]]. This is often written in the form 
 
-$$\frac{\Gamma \vdash A, \Delta \; \; \; \Pi, A \vdash \Lambda}{\Pi, \Gamma \vdash \Lambda, \Delta} \; cut.$$ 
+$$\frac{\Gamma \vdash A, \Delta \quad \Pi, A \vdash \Lambda}{\Pi, \Gamma \vdash \Lambda, \Delta} \; cut.$$ 
 
 In the [[categorical semantics]] where each [[sequent]] here is interpreted as a [[morphism]] in a [[category]], the cut rule asserts the existence of [[composition]] of morphisms.
 
@@ -136,7 +136,7 @@ One can after this study the properties of this particular rewriting system: is 
 
 Unfortunately, the algorithmic aspect of cut elimination is rarely presented as explicitely, and most of the time the cut elimination is presented as the admissibility of the cut rule and the concrete algorithm to eliminate the instance of cuts in a proof $\pi$ must be extracted by the reader from this proof (of the cut elimination) which nevertheless use it in order to do the proof (of the cut elimination).
 
-We're not sure whether there isn't such an algorithm of cut elimination for [[classical logic]] and this an ongoing subject of research. We can think that the usual sequent calculus of classical logic must be modified by using ideas such as [[polarization in logic|polarization]] and [[focusing]] in order to understand the computational content of the cut elimination of classical logic.
+We're not sure whether there isn't such an algorithm of cut elimination for [[classical logic]] and this an ongoing subject of research. We can think that the usual sequent calculus of classical logic must be modified by using ideas such as [[polarity in type theory|polarization]] and [[focusing]] in order to understand the computational content of the cut elimination of classical logic.
 
 ## References
 
