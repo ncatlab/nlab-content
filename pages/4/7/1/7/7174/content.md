@@ -14,14 +14,20 @@ Early construction of [[type IIA supergravity]]:
 * I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B
 **243** 1 (1984) 112-124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
 
+On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
+
+* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+
+
 On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
 
 * {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
 
 
-On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
 
-* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+On obtaining [[massive type IIA supergravity]] from a form o [[D=11 supergravity]]:
+
+* [[Paul S. Howe]], [[Neil D. Lambert]], [[Peter C. West]], *A New Massive Type IIA Supergravity From Compactification*, Phys. Lett. B **416** (1998) 303-308 &lbrack;[arXiv:hep-th/9707139](https://arxiv.org/abs/hep-th/9707139), <a href="https://doi.org/10.1016/S0370-2693(97)01199-4">doi:10.1016/S0370-2693(97)01199-4</a>&rbrack;
 
 
 On the [[3-brane in 6d]] as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] 
