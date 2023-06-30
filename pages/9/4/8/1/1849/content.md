@@ -909,11 +909,11 @@ and in [[equivariant Cohomotopy]]:
 * [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
  
 
-Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]) includes
+Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]):
 
 * [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], _Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities_, Nucl.Phys.B535:242-292,1998 ([arXiv:hep-th/9806106](http://arxiv.org/abs/hep-th/9806106))
 
-* [[Eric Bergshoeff]], Mees de Roo, [[Olaf Hohm]], _Can dual gravity be reconciled with E11?_, 	Phys.Lett.B675:371-376,2009 ([arXiv:0903.4384](http://arxiv.org/abs/0903.4384))
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Olaf Hohm]], _Can dual gravity be reconciled with E11?_, 	Phys. Lett.  B **675** (2009) 371-376 &lbrack;[arXiv:0903.4384](http://arxiv.org/abs/0903.4384)&rbrack;
 
 Discussion of [[discrete torsion]] ([[orbifold]] [[equivariant cohomology|equivariance]]) for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]] is discussed in
 
