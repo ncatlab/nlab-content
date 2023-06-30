@@ -19,6 +19,10 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 * [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys.Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
 
+On obtaining [[massive type IIA supergravity]] from a form o [[D=11 supergravity]]:
+
+* [[Paul S. Howe]], [[Neil D. Lambert]], [[Peter C. West]], *A New Massive Type IIA Supergravity From Compactification*, Phys. Lett. B **416** (1998) 303-308 &lbrack;[arXiv:hep-th/9707139](https://arxiv.org/abs/hep-th/9707139), <a href="https://doi.org/10.1016/S0370-2693(97)01199-4">doi:10.1016/S0370-2693(97)01199-4</a>&rbrack;
+
 
 On the [[3-brane in 6d]] as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] 
 
