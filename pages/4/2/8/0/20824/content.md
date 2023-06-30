@@ -155,7 +155,11 @@ Speculation that strong-coupling limit of massive type IIA does not exist:
 
 * {#AJTZ10} [[Ofer Aharony]], [[Daniel Jafferis]], [[Alessandro Tomasiello]], [[Alberto Zaffaroni]], _Massive type IIA string theory cannot be strongly coupled_, JHEP 1011:047, 2010 ([arXiv:1007.2451](https://arxiv.org/abs/1007.2451))
 
-Claim of a realization of massive type IIA string theory in [[M-theory]]:
+Discussion of possible realization of massive type IIA string theory in [[M-theory]]:
+
+* [[Paul S. Howe]], [[Neil D. Lambert]], [[Peter C. West]], *A New Massive Type IIA Supergravity From Compactification*, Phys. Lett. B **416** (1998) 303-308 &lbrack;[arXiv:hep-th/9707139](https://arxiv.org/abs/hep-th/9707139), <a href="https://doi.org/10.1016/S0370-2693(97)01199-4">doi:10.1016/S0370-2693(97)01199-4</a>&rbrack;
+
+* [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
 
 * {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
 
@@ -163,9 +167,13 @@ Claim of a realization of massive type IIA string theory in [[M-theory]]:
 
 > The type IIB supergravity theory also cannot be obtained from 11-dimensional supergravity, but the type IIB string theory can be obtained from M-theory by compactifying on a 2-torus and taking a limit
 
-and claim of the corresponding [[BFSS matrix model]]:
+* Maria Pikar Garcia del Moral, Alvaro Restuccia, *10D Massive Type IIA Supergravities as the uplift of Parabolic M2-brane Torus bundles*, in: *"The String Theory Universe* (2015) &lbrack;[arXiv:1511.04784](https://arxiv.org/abs/1511.04784)&rbrack;
 
 * {#LoweNastaeRamgoolam03} D. A. Lowe, [[Horatiu Nastase]], [[Sanyaje Ramgoolam]], _Massive IIA String Theory and Matrix Theory Compactification_, Nucl. Phys. B 667 (2003) 55-89 ([cern:609880](http://cds.cern.ch/record/609880), <a href="https://doi.org/10.1016/S0550-3213(03)00547-9">doi:10.1016/S0550-3213(03)00547-9</a>)
 
+  > (corresponding [[BFSS matrix model]])
+
+
+* M. P. Garcia del Moral, P. Leon, A. Restuccia, *Wordsheet description of a* massive *type IIA superstring in 10D* &lbrack;[arXiv:2306.16620](https://arxiv.org/abs/2306.16620)&rbrack;
 
 
