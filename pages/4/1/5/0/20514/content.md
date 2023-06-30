@@ -28,6 +28,8 @@
 
 ### General
 
+* R. Brent Tully, *The Hubble Constant: A Historical Review* ([arXiv:2305.11950](https://arxiv.org/abs/2305.11950))
+
 See also
 
 * Wikipedia, _[Hubble's law](https://en.wikipedia.org/wiki/Hubble%27s_law)_
