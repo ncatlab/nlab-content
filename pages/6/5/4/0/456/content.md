@@ -164,7 +164,7 @@ where $f^*$ is the corresponding frame morphism as in def. \ref{LocaleHomomorphi
 =--
 
 +-- {: .num_prop}
-###### Propositon
+###### Proposition
 
 The functor $f_*$ in def. \ref{DirectImageInducedByLocaleMorphism} is the [[direct image]] part of a geometric morphism of sheaf toposes
 
@@ -188,7 +188,7 @@ Since a morphism of [[frame]]s is a morphism of [[site]]s, as discussed there, t
 =--
 
 +-- {: .num_prop}
-###### Propositon
+###### Proposition
 
 The construction $X \mapsto Sh(X)$ extends to a [[2-functor]]
 
@@ -340,7 +340,7 @@ Next we consider extra [[property]] on $C$, $D$ and $f$ such that $f^*$ induces 
 +-- {: .num_prop }
 ###### Proposition
 
-Let $C$ and $D$ by categories with [[finite limit]]s and let $f : C \to D$ be a finite-limit [[preserved limit|preserving]] functor.
+Let $C$ and $D$ be categories with [[finite limit]]s and let $f : C \to D$ be a finite-limit [[preserved limit|preserving]] functor.
 
 Then in the [[adjoint triple]]
 
