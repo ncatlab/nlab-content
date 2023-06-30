@@ -92,9 +92,11 @@ The [[brane intersection]] laws of M-branes are discussed in
 
 * {#Townsend97} [[Paul Townsend]], section 4 of _M-theory from its superalgebra_ ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
 
-Suppposed analogy with D-brane descent in K-theory (see [there](D-brane#OlsenSzabo00)) is discussed here:
+Suppposed analogy with D-brane descent in K-theory (see [there](D-brane#OlsenSzabo00)):
 
-* Laurent Houart, Yolanda Lozano, _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](https://arxiv.org/abs/hep-th/0001170))
+* [[Laurent Houart]], [[Yolanda Lozano]], _Brane Descent Relations in M-theory_, Phys.Lett. B **479** (2000) 299-307 &lbrack;[arXiv:hep-th/0001170](https://arxiv.org/abs/hep-th/0001170), <a href="https://doi.org/10.1016/S0370-2693(00)00317-8">doi:10.1016/S0370-2693(00)00317-8</a>&rbrack;
+
+  > (non-BPS M-branes such as M8-branes)
 
 On M-[[brane intersections]] such as [[M2-M5 brane bound states]]:
 
