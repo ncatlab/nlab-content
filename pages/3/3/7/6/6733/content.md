@@ -697,7 +697,7 @@ The observation that the [[basic differential form|basic form]] component  $G_4^
 
 The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills theory]] in its [[worldvolume]] [[physical theory|theory]] by [[double dimensional reduction]]:
 
-* [[Eric Bergshoeff]], Mees de Roo, Tomas Ortin, _The Eleven-dimensional Five-brane_ ([pdf](http://astro.eldoc.ub.rug.nl/FILES/root/Preprints/1996/Eleven-dimensional/eleven-dimensional_five-brane.pdf))
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Tomas Ortin]], *The Eleven-dimensional Five-brane*, Phys. Lett. B **386** (1996) 85-90 &lbrack;[arXiv:hep-th/9606118](https://arxiv.org/abs/hep-th/9606118), <a href="https://doi.org/10.1016/0370-2693(96)00913-6">doi:10.1016/0370-2693(96)00913-6</a>&rbrack;
 
 * [APPS 97a, Section 6](#APPS97a)
 
