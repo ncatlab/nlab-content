@@ -40,7 +40,7 @@ The [[U-duality]] group of maximax 8d SuGra is $SL(3,\mathbb{Z})\times SL(2,\mat
 
 * M. Awada, [[Paul Townsend]], _d = 8 Maxwell/Einstein supergravity_, Physics Letters B Volume 156, Issues 1&#8211;2, 13 June 1985
 
-* Mees de Roo, Giuseppe Dibitetto, Yihao Yin, _Critical points of maximal D=8 gauged supergravities_, JHEP 1201:029, 2012 ([arXiv:1110.2886](http://arxiv.org/abs/1110.2886))
+* [[Mees de Roo]], [[Giuseppe Dibitetto]], Yihao Yin, _Critical points of maximal $D=8$ gauged supergravities_, JHEP 1201:029 (2012) &lbrack;[arXiv:1110.2886](http://arxiv.org/abs/1110.2886)&rbrack;
 
 Discussion of [[U-duality]] in 8d:
 
