@@ -2,6 +2,10 @@
 
 ## Selected writings
 
+On [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
+
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Tomas Ortin]], *The Eleven-dimensional Five-brane*, Phys. Lett. B **386** (1996) 85-90 &lbrack;[arXiv:hep-th/9606118](https://arxiv.org/abs/hep-th/9606118), <a href="https://doi.org/10.1016/0370-2693(96)00913-6">doi:10.1016/0370-2693(96)00913-6</a>&rbrack;
+
 
 On [[massive type IIA string theory]] and its embedding in [[M-theory]] via [[M9-branes]]:
 
