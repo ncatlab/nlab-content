@@ -201,7 +201,10 @@ For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered co
   \label{UnorderedLabeledFixednCOnfigurationSpace}
   Conf_n\big(X, S^k \big)
   \;\coloneqq\;
-  Conf_n\big(X\big) \underset{Sym(n)}{\times}
+  \underset{ {}^{\{1,\cdots, n\}} }{ Conf }
+  \big( 
+    X
+  \big) \underset{Sym(n)}{\times}
   \big(
     S^k 
   \big)^n
