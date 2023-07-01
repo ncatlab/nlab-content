@@ -172,3 +172,7 @@ A perspective unifying EM-duality of [[higher gauge theories]]  with [[non-abeli
 
 [[!redirects electromagnetic duality]]
 [[!redirects electromagnetic dualites]]
+
+[[!redirects electromagnetic dual]]
+[[!redirects electromagnetic duals]]
+
