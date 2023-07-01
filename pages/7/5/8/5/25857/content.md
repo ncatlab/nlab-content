@@ -23,7 +23,7 @@ More specifically, when the term "solitonic brane" was introduced in [Duff, Khur
 However, while the term "solitonic brane" has become common place, authors often use it with somewhat different meaning.
 (For better or worse, already the reference term *[[soliton]]* in [[field theory]] is used in a variety of neighbouring but different meanings.) 
 
-Another convention ([Stelle (1998)](#Stelle98)) is to say "solitonic" for the singular magnetically charged brane solutions (eg. the [[black brane|black]] [[NS5-brane]]) which are the [[electromagnetic duals]] to the "elementary" (namely just as singular but) electrically charged brane solutions (eg. the [[black string]]). In this convention the adjective "solitonic" is not distinguishing between singular/non-singular fields, but identifies the secondary magnetic sources for given primary degrees of freedom. For instance in this terminology and regarding the [[electron]] as the [[fundamental particle]] that it is, the [[magnetic monopole]] would be its "solitonic" dual version.
+Another convention &lbrack;[Stelle (1998)](#Stelle98), [Bergshoeff & Riccioni (2012)](#BergshoeffRiccioni12)&rbrack; is to say "solitonic" for the singular magnetically charged brane solutions (eg. the [[black brane|black]] [[NS5-brane]]) which are the [[electromagnetic duals]] to the "elementary" (namely just as singular but) electrically charged brane solutions (eg. the [[black string]]). In this convention the adjective "solitonic" is not distinguishing between singular/non-singular fields, but identifies the secondary magnetic sources for given primary degrees of freedom. For instance in this terminology and regarding the [[electron]] as the [[fundamental particle]] that it is, the [[magnetic monopole]] would be its "solitonic" dual version.
 
 But nowadays many authors (eg. [Smith (2002), p. 5](#Smith02)) use "solitonic brane" to subsume all singular and non-singular brane-like supergravity solutions, hence use the term generally as the antonym to fundamental/elementary branes (a terminology that is not used fully consistently across authors, either), ie. as antonym to branes described by [[sigma-models]]. 
 
@@ -48,6 +48,10 @@ But nowadays many authors (eg. [Smith (2002), p. 5](#Smith02)) use "solitonic br
 * {#Stelle98} [[Kellogg Stelle]], *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
 
 * {#Smith02} [[Douglas J. Smith]], *Intersecting brane solutions in string and M-theory*, Class. Quant. Grav. **20** R233 (2003) &lbrack;[arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157), [doi:10.1088/0264-9381/20/9/203](https://doi.org/10.1088/0264-9381/20/9/203)&rbrack;
+
+* {#BergshoeffRiccioni12} [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
+
+  > (see also at *[[exotic branes]]*)
 
 
 
