@@ -22,7 +22,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-An [[object]] $X$ in an [[abelian category]] $A$ is said to be __semisimple__ or __completely reducible__ if it is a [[coproduct]] ([[direct sum]]) of [[simple objects]]. 
+An [[object]] $X$ in an [[abelian category]] is said to be __semisimple__ or __completely reducible__ if it is a [[coproduct]] ([[direct sum]]) of [[simple objects]]. 
 
 =--
 
@@ -40,12 +40,30 @@ A semisimple object is __isotypic__ if it is a [[direct sum]] of [[isomorphism|i
 
 =--
 
+## Properties
+
++-- {: .num_prop}
+###### Proposition 
+
+An object in an abelian category is semisimple if and only if it is the coproduct of all its simple subobjects.
+
+=--
+
++-- {: .num_prop}
+###### Proposition 
+
+If an object $X$ in an abelian category is semisimple then every [[short exact sequence]] $0 \to A \to X \to B \to 0$ [[split exact sequence|splits]].  
+
+=--
+
+An abelian category in which all short exact sequences split is called a *spectral category*, and not every spectral category is semisimple (see [MathOverflow](https://mathoverflow.net/a/327944/2893)).
+
+
 ## Special classes
 
 * semisimple left $R$-[[modules]] where $R$ is a [[ring]]; 
 
 * completely reducible [[representations]] of a [[group]]
-
 
 ## Related concepts
 
@@ -56,7 +74,9 @@ A semisimple object is __isotypic__ if it is a [[direct sum]] of [[isomorphism|i
 
 ## References
 
-* Wikipedia, _[Semisimple](http://en.wikipedia.org/wiki/Semisimple)_
+* Wikipedia, [Semisimplicity](http://en.wikipedia.org/wiki/Semisimplicity).
+
+* Wikipedia, [Semisimple module](http://en.wikipedia.org/wiki/Semisimple_module).
 
 
 [[!redirects semisimple objects]]
