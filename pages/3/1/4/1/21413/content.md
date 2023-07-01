@@ -14,16 +14,23 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Exotic branes are non-perturbative [[branes]] in [[non-perturbative string theory]], describing [[non-geometric backgrounds]].
+In [[string theory]], by "exotic branes" &lbrack;[deBoer & Shigemori (2012)](#deBoerShigemori12)&rbrack; one means first of all $p$-[[branes]] of small [[codimension]] $D-1-p \leq 2$ ("non-standard branes" [Bergshoeff & Riccioni (2012](#BergshoeffRiccioni12))), such as 
 
-According to [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12) these may be identified as [[codimension]]-2 [[defect branes]] with [[U-duality]]-[[group]] [[monodromy]].
+* [[D7-branes]] (codimension 2 [[defect branes]]), 
+
+* [[D8-branes]] and maybe [[M9-branes]] (codimension 1) 
+
+* [[D9-branes]] (codimension 0).
+
+More generally, exotic branes have been argued to be [[U-duality]]-twisted objects in [[non-geometric backgrounds]].
+
+According to [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12) all these may be identified as [[codimension]]-2 [[defect branes]] with [[U-duality]]-[[group]] [[monodromy]].
 
 \begin{imagefromfile}
         "file_name": "exotic_branes.jpg",
@@ -46,6 +53,14 @@ According to [deBoer & Shigemori 2012, p. 12](#deBoerShigemori12) these may be i
 * [[defect brane]]
 
 ## References
+
+Branes of [[codimension]] $\leq 2$ are called *non-standard branes* in:
+
+* {#BergshoeffRiccioni12} [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
+
+  > (see also at *[[solitonic brane]]*)
+
+The terminology "exotic branes" is due to:
 
 * {#deBoerShigemori12} [[Jan de Boer]], [[Masaki Shigemori]], _Exotic Branes in String Theory_, Physics Reports **532** (2013) 65-118 ([arXiv:1209.6056](https://arxiv.org/abs/1209.6056), [doi:j.physrep.2013.07.003](https://doi.org/10.1016/j.physrep.2013.07.003))
 
