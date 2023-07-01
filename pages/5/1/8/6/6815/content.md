@@ -69,7 +69,7 @@ See also the references at _[[M-theory]]_ and at _[[M2-brane]]_, _[[M5-brane]]_,
 
 Discussion of some [[black brane]]-aspects of M-branes includes
 
-* Takeshi Sato, Section 2.3 of: :_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_,  	Nucl. Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
+* Takeshi Sato, Section 2.3 of: _Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl. Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
 
 
 * [[David Berman]], _M-theory branes and their interactions_, Phys. Rept. 456:89-126, 2008 ([arXiv:0710.1707](http://arxiv.org/abs/0710.1707))
@@ -86,7 +86,7 @@ Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy th
 
 The [[brane intersection]] laws of M-branes are discussed in
 
-* [[Eric Bergshoeff]], M. Roo, E. Eyras, [[Bert Janssen]], J. P. Schaar, _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. 14 2757 ([publisher](http://iopscience.iop.org/0264-9381/14/10/005/))
+* [[Eric Bergshoeff]], [[Mees de Roo]], [[Eduardo Eyras]], [[Bert Janssen]], [[Jan Pieter Schaar]], _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. **14** 2757 &lbrack;[doi:0264-9381/14/10/005](http://iopscience.iop.org/0264-9381/14/10/005)&rbrack;
 
 * [[Eric Bergshoeff]], [[Joaquim Gomis]], [[Paul Townsend]], _M-brane intersections from worldvolume superalgebras_, Phys.Lett. B421 (1998) 109-118 ([arXiv:hep-th/9711043](http://arxiv.org/abs/hep-th/9711043))
 
