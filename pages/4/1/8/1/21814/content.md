@@ -9,14 +9,13 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2; such as, for example
+A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a [[brane]] of [[codimension]] 2 (hence an "[[exotic brane]]"); such as, for example
 
 * a [[cosmic string]] in 4-dimensional [[Yang-Mills theory]],
 
@@ -55,12 +54,16 @@ More generally, circle-shaped defect strings are going to satisfy *[[loop braid 
 * [[monopole]]
 
 
+
 ## References
 
 Branes of [[codimension]] $\leq 2$ are called *non-standard branes* in:
 
 * [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
 
+See also:
+
+* [[Claudia de Rham]], *The Effective Field Theory of Codimension-two Branes*, JHEP 0801:060 (2008) &lbrack;[arXiv:0707.0884](https://arxiv.org/abs/0707.0884), [doi:10.1088/1126-6708/2008/01/060](https://doi.org/10.1088/1126-6708/2008/01/060)&rbrack;
     
 
 The term "defect brane" was introduced in:
