@@ -87,7 +87,7 @@ A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Wi
 
 Discussion of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [[tachyon condensation]] is in
 
-* Laurent Houart, Yolanda Lozano, _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](http://arxiv.org/abs/hep-th/0001170))
+* [[Laurent Houart]], [[Yolanda Lozano]], _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](http://arxiv.org/abs/hep-th/0001170))
 
 Discussion of the M9 as the dual in [[Horava-Witten theory]] of [[O8-planes]] in [[type II string theory]] is in
 
