@@ -11,7 +11,7 @@ On [[D=6 supergravity]]:
 
 * [[Fabio Riccioni]], _All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B605 (2001) 245-265 ([arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074))
 
-On [[black branes]]/[[solitonic branes]] and their [[double dimensional reduction]]:
+On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [[double dimensional reduction]]:
 
 * [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
 
