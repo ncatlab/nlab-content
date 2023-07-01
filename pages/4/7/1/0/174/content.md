@@ -175,7 +175,9 @@ The corresponding table has been called the **[[brane scan]]**
 
 ## Related concepts
 
-* [[black brane]], [[Green-Schwarz sigma-model|fundamental brane]]
+* [[black brane]], [[solitonic brane]]
+
+  [[Green-Schwarz sigma-model|fundamental brane]]
 
   [[probe brane]], [[flavor brane]]
 
