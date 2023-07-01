@@ -27,7 +27,11 @@ A **semisimple ring** $R$ is one obeying any of the following equivalent conditi
 
 * The category of finitely generated right $R$-modules is a semisimple category.
 
-For [[commutative rings]], a semisimple ring is a ring which is both an Artinian ring and a [[reduced ring]]. 
+* Every left $R$-module is [[projective module|projective]].
+
+* Every right $R$-module is projective.
+
+A [[commutative ring]] is semisimple if and only if it is both Artinian and a [[reduced ring]]. 
 
 ## Examples
 
