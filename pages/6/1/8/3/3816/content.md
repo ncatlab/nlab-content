@@ -34,7 +34,9 @@ proteins.
 
 * [[integrable model]], [[Korteweg de Vries equation]]
 
-* [[black hole]], [[black brane]]
+* [[solitonic brane]]
+
+  [[black hole]], [[black brane]]
 
 ## Refereneces
 
