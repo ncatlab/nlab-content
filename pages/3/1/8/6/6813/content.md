@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -80,7 +79,8 @@ Original articles:
 
 * [[Michael Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String and Fivebrane Solitons: Singular or Non-singular?*, Nucl.Phys. B **377** (1992) 281-294 &lbrack;[arXiv:hep-th/9112023](https://arxiv.org/abs/hep-th/9112023), <a href="https://doi.org/10.1016/0550-3213(92)90025-7">doi:10.1016/0550-3213(92)90025-7</a>&rbrack;
 
-* [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)&rbrack;
+* [[Michael Duff]], [[Jian Xin Lu]], *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052), <a href="https://doi.org/10.1016/0550-3213(94)90586-X">doi:10.1016/0550-3213(94)90586-X</a>&rbrack;
+
 
 * {#DuffKhuriLu94} [[Mike Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String Solitons*, Phys. Rept. **259** (1995) 213-326 &lbrack;[arXiv:hep-th/9412184](https://arxiv.org/abs/hep-th/9412184), <a href="https://doi.org/10.1016/0370-1573(95)00002-X">doi:10.1016/0370-1573(95)00002-X</a>&rbrack;
 
@@ -107,7 +107,7 @@ Review includes,
 * {#Duff99} [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
 
-* {#Stelle98} [[Kellogg Stelle]], around section 3.3. of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+* {#Stelle98} [[Kellogg Stelle]], around section 3.3. of *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
@@ -145,6 +145,4 @@ Further developments include
 [[!redirects blackfold]]
 [[!redirects blackfolds]]
 
-[[!redirects solitonic brane]]
-[[!redirects solitonic branes]]
 
