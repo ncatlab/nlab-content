@@ -12,6 +12,11 @@
 
 * _Against philosophy_, in _Dreams of a final theory_ ([pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf))
 
+Re-introducing [[light-cone gauge quantization]]:
+
+* [[Steven Weinberg]], *Dynamics at Infinite Momentum*, Phys. Rev. **150** (1966) 1313,  Erratum Phys. Rev. 158, 1638 (1967) &lbrack;[doi:10.1103/PhysRev.150.1313](https://doi.org/10.1103/PhysRev.150.1313)&rbrack;
+
+
 Introducing the [[electroweak field|electroweak]] [[symmetry breaking]]:
 
 * {#Weinberg67} [[Steven  Weinberg]], *A model of Leptons*, Phys. Rev. Lett. **19** (1967) 1264 &lbrack;[doi:10.1103/PhysRevLett.19.1264](https://doi.org/10.1103/PhysRevLett.19.1264)&rbrack;
