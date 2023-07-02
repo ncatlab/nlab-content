@@ -86,7 +86,7 @@ See also:
 
 Discussion of defect [[(p,q)5-branes]]:
 
-* Tetsuji Kimura, _Defect $(p,q)$ Five-branes_, Nucl.Phys. B893 (2015) 1-20 ([arXiv:1410.8403](https://arxiv.org/abs/1410.8403), [doi:10.1016/j.nuclphysb.2015.01.023](https://doi.org/10.1016/j.nuclphysb.2015.01.023))
+* [[Tetsuji Kimura]], _Defect $(p,q)$ Five-branes_, Nucl. Phys. B **893** (2015) 1-20 &lbrack;[arXiv:1410.8403](https://arxiv.org/abs/1410.8403), [doi:10.1016/j.nuclphysb.2015.01.023](https://doi.org/10.1016/j.nuclphysb.2015.01.023)&rbrack;
 
 Discussion of codimension-2 defects in the [[M5-brane]] [[worldvolume]], hence defect branes in [[little string theory]]:
 
