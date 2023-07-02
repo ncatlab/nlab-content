@@ -1326,7 +1326,8 @@ See also
 
 * {#MaidenShiuStefanski06} John Maiden, [[Gary Shiu]], [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
 
-* Tetsuji Kimura, Mitsuhisa Ohta, Kei-Jiro Takahashi, _Type IIA orientifolds and orbifolds on non-factorizable tori_, Nucl.Phys.B798:89-123, 2008 ([arXiv:0712.2281](https://arxiv.org/abs/0712.2281))
+* [[Tetsuji Kimura]], Mitsuhisa Ohta, Kei-Jiro Takahashi, _Type IIA orientifolds and orbifolds on non-factorizable tori_, Nucl. Phys. B **798** (2008) 89-123 &lbrack;[arXiv:0712.2281](https://arxiv.org/abs/0712.2281), [doi:10.1016/j.nuclphysb.2008.01.030](https://doi.org/10.1016/j.nuclphysb.2008.01.030)&rbrack;
+
 
 * {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
@@ -1407,7 +1408,6 @@ Various:
 
 [[!redirects RR-tadpole cancellation]]
 [[!redirects RR-tadpole cancellations]]
-
 
 
 [[!redirects RR-field tadpole]]
