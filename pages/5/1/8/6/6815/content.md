@@ -102,6 +102,13 @@ On M-[[brane intersections]] such as [[M2-M5 brane bound states]]:
 
 * [[Arkady Tseytlin]], *Harmonic superpositions of M-branes*, Nucl. Phys. B **475** (19960 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>&rbrack;
 
+
+On [[M-brane]] [[sigma-models]] on [[exceptional geometry|exceptional]] [[exceptional generalized geometry|generalized geometric]] [[target spacetimes]]:
+
+* [[Yuho Sakatani]], [[Shozo Uehara]], _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. **117** 191601 (2016) &lbrack;[arXiv:1607.04265](https://arxiv.org/abs/1607.04265), [talk slides](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2016/slides/sakatani.pdf)&rbrack;
+
+* [[Yuho Sakatani]], [[Shozo Uehara]], _Exceptional M-brane sigma models and $\eta$-symbols_ &lbrack;[arXiv:1712.10316](https://arxiv.org/abs/1712.10316)&rbrack;
+
 Further references:
 
 
