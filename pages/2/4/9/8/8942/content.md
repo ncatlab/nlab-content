@@ -59,13 +59,16 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 ## References
 
+Early discussion of the possibility of a kind of 9-brane in [[11d supergravity]]:
 
-* [[Mees de Roo]], p. 5 of: *Intersecting branes and Supersymmetry* &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124)&rbrack;
+* [[Mike J. Duff]], p. 28 of: *Supermembranes*, TASI lectures (1996) &lbrack;[arXiv:hep-th/9611203](https://arxiv.org/abs/hep-th/9611203)&rbrack;
 
+* [[Paul S. Howe]], [[Ergin Sezgin]], p. 9 in: *Superbranes*, Phys. Lett. B **390** (1997) 133-142 &lbrack;[arXiv:hep-th/9607227](https://arxiv.org/abs/hep-th/9607227), <a href="https://doi.org/10.1016/S0370-2693(96)01416-5">doi:10.1016/S0370-2693(96)01416-5</a>&rbrack;
 
-Discussion of a possible [[black brane|black]] 9-brane in 11d is in 
+* [[Mees de Roo]], p. 5 of: *Intersecting branes and Supersymmetry*, in: *Supersymmetry and Quantum Field Theory*, Proceedings of the D. Volkov Memorial Seminar Held in Kharkov, Ukraine, 5–7 January 1997, Springer (1998) &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124), [doi:10.1007/BFb0105225](https://doi.org/10.1007/BFb0105225)&rbrack;
 
-* {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
+* {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B **509** (1998) 216-251 &lbrack;[arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162)&rbrack;
+
 
 On M9-branes (and apparently introducing that terminology) as lifts of the [[D8-branes]] in [[massive type IIA string theory]]:
 
