@@ -118,7 +118,7 @@ Discussion as [[exotic branes]] in [[exceptional field theory]]:
 
 > p. 109: "conjectured M9-brane which should more properly be called M8-brane."
 
-* {#BermanMusaevOtsuki18} [[David S. Berman]], [[Edvard T. Musaev]], [[Ray Otsuki]], *Exotic Branes in Exceptional Field Theory: $E_{7(7)}$ and Beyond*,  J. High Energ. Phys. **2018** 53 (2018) &lbrack;[arXiv:1806.00430v4](https://arxiv.org/abs/1806.00430), <a href="https://doi.org/10.1007/JHEP12(2018)053">doi:10.1007/JHEP12(2018)053</a>&rbrack;
+* {#BermanMusaevOtsuki18} [[David S. Berman]], [[Edvard T. Musaev]], [[Ray Otsuki]], *Exotic Branes in Exceptional Field Theory: $E_{7(7)}$ and Beyond*,  J. High Energ. Phys. **2018** 53 (2018) &lbrack;[arXiv:1806.00430](https://arxiv.org/abs/1806.00430), <a href="https://doi.org/10.1007/JHEP12(2018)053">doi:10.1007/JHEP12(2018)053</a>&rbrack;
 
   > [Berman, Musaev & Otsuki (2018), p. 65](#BermanMusaevOtsuki18): "However, as remarked in [1](#ObersPioline99), &lbrack;the M9 brane&rbrack; should more properly be called an M8-brane or perhaps KK8 following its mass formula designation 8(1,0). It is, perhaps, to be understood as an object that exists only as a lift of the D8-brane of Type IIA."
 
