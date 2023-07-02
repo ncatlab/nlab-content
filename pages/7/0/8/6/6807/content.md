@@ -106,11 +106,11 @@ The original articles on the BFSS matrix model:
 
 * [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
 
-  (argument for [[small N limit|small N]]-validity)
+  > (argument for [[small N limit|small N]]-validity)
 
-* {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv. Theor. Math. Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
+* {#Sen97} [[Ashoke Sen]], *D0 Branes on $T^n$ and Matrix Theory*, Adv. Theor. Math. Phys.**2** (1998) 51-59 &lbrack;[arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220)&rbrack;
 
-* {#Seiberg97} [[Nathan Seiberg]], _Why is the Matrix Model Correct?_, Phys. Rev. Lett. 79:3577-3580, 1997 ([arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009))
+* {#Seiberg97} [[Nathan Seiberg]], *Why is the Matrix Model Correct?*, Phys. Rev. Lett. **79** (1997) 3577-3580 &lbrack;[arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009), [doi:10.1103/PhysRevLett.79.3577](https://doi.org/10.1103/PhysRevLett.79.3577)&rbrack;
 
 In view of [[flat space holography]]:
 
@@ -118,28 +118,28 @@ In view of [[flat space holography]]:
 
 Review:
 
-* [[Tom Banks]], _Matrix Theory_, Nucl.Phys.Proc.Suppl. 67 (1998) 180-224 ([arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231))
+* [[Tom Banks]], _Matrix Theory_, Nucl. Phys. Proc. Suppl. 67 (1998) 180-224 &lbrack;[arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231), <a href="https://doi.org/10.1016/S0920-5632(98)00130-3">doi:10.1016/S0920-5632(98)00130-3</a>&rbrack;
 
-* [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev. Mod. Phys. 73:419-462, 2001 ([arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126))
+* [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev. Mod. Phys. **73** (2001) 419-462 &lbrack;[arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126)&rbrack;
 
-* {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+* {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ &lbrack;[arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9)&rbrack;
 
 Review in the context of the [[holographic principle]]:
 
-* [[Juan Maldacena]], *A simple quantum system that describes a black hole* &lbrack;[arXiv:2303.11534](https://arxiv.org/abs/2303.11534)&rbrack;
+* [[Juan Maldacena]], *A simple quantum system that describes a black hole* &lbrack;[arXiv:2303.11534](https://arxiv.org/abs/2303.11534), <a href="https://inspirehep.net/literature/2644529">inspire:2644529</a>&rbrack;
 
 
-A review of further developments is in 
+A review of further developments:
 
-* [[David Berenstein]], _Classical dynamics and thermalization in holographic matrix models_, talk at Leiden, October 2012 ([pdf](http://www.lorentzcenter.nl/lc/web/2012/514/presentations/Berenstein.pdf))
+* [[David Berenstein]], _Classical dynamics and thermalization in holographic matrix models_, talk at Leiden, October (2012) &lbrack;[pdf](http://www.lorentzcenter.nl/lc/web/2012/514/presentations/Berenstein.pdf)&rbrack;
 
 See also
 
-* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. 68:11-16, 1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. **68** (1998) 11-16 &lbrack;[arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034)&rbrack;
 
 Discussion as a solution to the open problem of defining [[M-theory]] is in 
 
-* {#Moore14} [[Gregory Moore]], section 12 p. 43-44 _[[Physical Mathematics and the Future]]_ talk at [Strings 2014](http://physics.princeton.edu/strings2014/)  ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
+* {#Moore14} [[Gregory Moore]], section 12, p. 43-44 in: _[[Physical Mathematics and the Future]]_, talk at *[Strings 2014](http://physics.princeton.edu/strings2014/)*  &lbrack;[talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]]&rbrack;
 
 where it says:
 
