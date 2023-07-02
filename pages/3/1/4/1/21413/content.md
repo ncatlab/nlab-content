@@ -66,8 +66,9 @@ The terminology "exotic branes" is due to:
 
   > (discussion as [[defect branes]] with [[U-duality]]-[[group]] [[monodromy]])
 
-* [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ ([arXiv:1409.6314](https://arxiv.org/abs/1409.6314))
+* [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ &lbrack;[arXiv:1409.6314](https://arxiv.org/abs/1409.6314)&rbrack;
 
+* [[Jose J. Fernandez-Melgarejo]], [[Tetsuji Kimura]], [[Yuho Sakatani]], *Weaving the Exotic Web*, JHEP **2018** 72 (2018) &lbrack;<a href="https://doi.org/10.1007/JHEP09(2018)072">doi:10.1007/JHEP09(2018)072</a>&rbrack;
 
 * {#BermanMusaevOtsuki18} [[David S. Berman]], [[Edvard T. Musaev]], [[Ray Otsuki]], *Exotic Branes in Exceptional Field Theory: $E_{7(7)}$ and Beyond*,  J. High Energ. Phys. **2018** 53 (2018) &lbrack;[arXiv:1806.00430v4](https://arxiv.org/abs/1806.00430), <a href="https://doi.org/10.1007/JHEP12(2018)053">doi:10.1007/JHEP12(2018)053</a>&rbrack;
 
