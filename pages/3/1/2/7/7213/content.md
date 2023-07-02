@@ -120,7 +120,7 @@ Relation to [[Borcherds superalgebras]] is surveyed and discussed in
 
 {#ExceptionalSigmaModelReferences} The [[string]] and [[membrane]] [[sigma-models]] on exceptional spacetime (the "exceptional sigma models") are discussed in
 
-* Yuho Sakatani, Shozo Uehara, _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. 117, 191601 (2016) ([arXiv:1607.04265](https://arxiv.org/abs/1607.04265))
+* [[Yuho Sakatani]], [[Shozo Uehara]], _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. **117** 191601 (2016) &lbrack;[arXiv:1607.04265](https://arxiv.org/abs/1607.04265)&rbrack;
 
 * [[Alex Arvanitakis]], [[Chris D. A. Blair]], _Type II strings are Exceptional_ ([arXiv:1712.07115](https://arxiv.org/abs/1712.07115))
 
