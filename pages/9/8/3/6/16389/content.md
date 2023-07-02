@@ -26,7 +26,7 @@ $$
   X^+ = p^+ \tau
 $$
 
-for some proportionality constant $p^+$, the _light cone momentum_  This is how light cone gauge appears in much of the physics literature.
+for some proportionality constant $p^+$, the *light cone momentum*.  This is how light cone gauge appears in much of the physics literature.
 
 If in addition, one assumes that the coordinate function $X^+$ on spacetime is periodic, hence that it actually runs along a [[circle]] [[fiber]] (which some authors take to be literally [[lightlike]], while others consider the [[limit of a sequence|limit]] of [[boosts]] of a [[spacelike]] [[circle]] [[fiber]]), then the lightcone momentum $p^+$ becomes quantized in units of the inverse [[radius]] $R$ of this circle
 
@@ -74,12 +74,31 @@ Alternatively, applying the light cone gauge quantization of the [[Green-Schwarz
 
 ### General
 
-For [[QCD]]:
+The concept originates with
 
-* [[Stanley Brodsky]], H-C Pauli, S. Pinsky, _Quantum Chromodynamics and Other Field Theories on the Light Cone_, Phys. Rept. 301:299-486, 1998 ([arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477))
+* [[Paul A. M. Dirac]], §5 "The Front Form", in: *Forms of Relativistic Dynamics*, Rev. Mod. Phys. **21** (1949) 392-399 &lbrack;[doi:10.1103/RevModPhys.21.392](https://doi.org/10.1103/RevModPhys.21.392)&rbrack;
+
+and was rediscovered in
+
+* [[Steven Weinberg]], *Dynamics at Infinite Momentum*, Phys. Rev. **150** (1966) 1313,  Erratum Phys. Rev. 158, 1638 (1967) &lbrack;[doi:10.1103/PhysRev.150.1313](https://doi.org/10.1103/PhysRev.150.1313)&rbrack;
+
+Early review:
+
+* Shau-Jin Chang, Robert G. Root, and Tung-Mow Yan, *Quantum Field Theories in the Infinite-Momentum Frame. I. Quantization of Scalar and Dirac Fields*, Phys. Rev. D **7**,  (1973) 1133 &lbrack;[doi:10.1103/PhysRevD.7.1133](https://doi.org/10.1103/PhysRevD.7.1133)&rbrack;
+
+The notion of lightlike circle compactificaiton ("discrete light cone quantization"):
+
+* [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Solving field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 1993 &lbrack;[doi:10.1103/PhysRevD.32.1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.32.1993)&rbrack;
 
 
-Review 
+Application to [[QCD]]:
+
+* [[G. Peter Lepage]], [[Stanley J. Brodsky]], *Exclusive processes in perturbative quantum chromodynamics*, Phys. Rev. D **22** (1980) 2157 &lbrack;[doi:10.1103/PhysRevD.22.2157](https://doi.org/10.1103/PhysRevD.22.2157)&rbrack;
+
+* [[Stanley Brodsky]], [[Hans-Christian Pauli]], S. Pinsky, *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
+
+
+Review:
 
 * {#Ydri18} [[Badis Ydri]], Section 3.9 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
