@@ -4,14 +4,16 @@
 
 ## Selected writings
 
-On the [[running coupling constant]] in [[QCD]]:
+Introducing [[light cone gauge quantization]]:
 
-* [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
+* [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Solving field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 1993 &lbrack;[doi:10.1103/PhysRevD.32.1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.32.1993)&rbrack;
 
 
-On [[light-front quantization]] of [[QCD]]:
+Applying [[light-front quantization]] to [[QCD]]:
 
-* [[Stanley Brodsky]], H-C Pauli, S. Pinsky, _Quantum Chromodynamics and Other Field Theories on the Light Cone_, Phys. Rept. 301:299-486, 1998 ([arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477))
+* [[G. Peter Lepage]], [[Stanley J. Brodsky]], *Exclusive processes in perturbative quantum chromodynamics*, Phys. Rev. D **22** (1980) 2157 &lbrack;[doi:10.1103/PhysRevD.22.2157](https://doi.org/10.1103/PhysRevD.22.2157)&rbrack;
+
+* [[Stanley Brodsky]], [[Hans-Christian Pauli]], S. Pinsky, *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
 
 * Philip D. Mannheim, Peter Lowdon, [[Stanley Brodsky]], 
 _Comparing light-front quantization with instant-time quantization_ ([arXiv:2005.00109](https://arxiv.org/abs/2005.00109))
@@ -62,7 +64,15 @@ In view of [[tetraquarks]]:
 * [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
 
 
+On the [[running coupling constant]] in [[QCD]]:
+
+* [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
 
 
 
 category: people
+
+
+[[!redirects Stanley J. Brodsky]]
+
+
