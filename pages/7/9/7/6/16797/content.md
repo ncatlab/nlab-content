@@ -89,7 +89,7 @@ See for instance
 * {#GMS09} Giovanni Giachetta, Luigi Mangiarotti, Gennadi Sardanashvily, _Advanced classical field theory_, World Scientific, 2009
 
 
-* {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]]) 
+* {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259-284. ([[ZuckermanVariation.pdf:file]]) 
 
 Exposition of [[variational calculus]] in terms of [[jet bundles]] and Lepage forms and aimed at examples from [[physics]] is in
 
