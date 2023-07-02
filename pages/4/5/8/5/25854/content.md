@@ -19,7 +19,7 @@ Identification of the [[D8-brane]] as a [[black brane]] in [[Romans supergravity
 
 On [[intersecting branes|intersecting]] [[M-branes]]:
 
-* [[Mees de Roo]], *Intersecting branes and Supersymmetry* &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124)&rbrack;
+* [[Mees de Roo]], *Intersecting branes and Supersymmetry*, in: *Supersymmetry and Quantum Field Theory*, Proceedings of the D. Volkov Memorial Seminar Held in Kharkov, Ukraine, 5–7 January 1997, Springer (1998) &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124), [doi:10.1007/BFb0105225](https://doi.org/10.1007/BFb0105225)&rbrack;
 
 * {#BREJS97} [[Eric Bergshoeff]], [[Mees De Roo]], [[Eduardo Eyras]], [[Bert Janssen]], [[Jan Pieter van der Schaar]], _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. **14** 2757 (1997) &lbrack;[arXiv:hep-th/9704120](https://arxiv.org/abs/hep-th/9704120), [doi:0264-9381/14/10/005](http://iopscience.iop.org/0264-9381/14/10/005)&rbrack;
 
