@@ -418,6 +418,11 @@ Discussion of Whitehead products specifically of [[homotopy groups of spheres]]:
 
 * {#James57} [[Ioan Mackenzie James]], _On the Suspension Sequence_, Annals of Mathematics Second Series, Vol. 65, No. 1 (Jan., 1957), pp. 74-107 ([arXiv:1969666](https://www.jstor.org/stable/1969666))
 
+Whitehead products in relation to [[Pontrjagin products]]:
+
+* [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
+
+
 As [[n-excisive functors]]:
 
 * {#SchererChorny11} [[Jerome Scherer]], [[Boris Chorny]], _Goodwillie calculus and Whitehead products_, Forum Math. 27 (2015), no. 1, 119 - 130 ([arXiv:1109.2691](https://arxiv.org/abs/1109.2691))
