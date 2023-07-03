@@ -9,6 +9,10 @@ On [[orientifolds]], [[O-planes]] and [[RR-field tadpole cancellation]]:
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], [[Eric Gimon]], [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
+Towards an enhancement of the [[BFSS matrix model]] by [[topological K-theory]] to account for the [[K-theory classification of D-brane charge]] ([[K-matrix model]]):
+
+* {#AsakawaSugimotoTerashima01} [[Tsuguhiko Asakawa]], [[Shigeki Sugimoto]], [[Seiji Terashima]], *D-branes, Matrix Theory and K-homology*, JHEP 0203 (2002) 034 &lbrack;[arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085), [doi:10.1088/1126-6708/2002/03/034](https://doi.org/10.1088/1126-6708/2002/03/034)&rbrack;
+
 
 On the [[Sakai-Sugimoto model]] for [[holographic QCD]] ([[geometric engineering of QFT|geometric engineering]] of [[QCD]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]]):
 
