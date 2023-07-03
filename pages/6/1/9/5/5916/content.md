@@ -23,11 +23,15 @@ An important property is that every cartesian theory has an initial model. It fo
 ## Definition
 
 Various definitions and names for the logic can be found in the references.
-The [[Elephant]] definition amounts to saying that a cartesian theory is a [[geometric theory]] in which there is no occurrence of $\vee$, and every use of $\exists$ requires a proof that the existence in unique.
+The [[Elephant]] definition amounts to saying that a cartesian theory is a [[first-order theory]] in which the only connectives used are $=$, $\top$, $\wedge$ and existential quantifiers over provably [[subterminal]] formulae, that is, $\exists x:A. \phi$ can only be used if
+$$\phi(x),\phi(y) \vdash x = y$$
+is provable. Unlike other first-order theories, this side-condition makes the order of presentation of axioms matter, as an axiom might require another in order to prove that a formula involved is subterminal. 
 
 [Palmgren and Vickers](#PalmgrenVickers07) showed that in a geometric logic of partial terms (with a non-reflexive equality), the cartesian theories are precisely those that can be presented using only $\wedge$, $\top$ and $=$.
 
+## Semantics in Categories with Finite Limits
 
+Cartesian logic can be given models interpreting formulae as [[subobjects]] in a category with [[finite limits]]. See [[internal logic]] for more details. The most interesting component of this is the existential quantifiers. As with [[regular logic]], the existential quantifier is interpreted as an [[image factorization]], but the subterminality side condition ensures the image exists even in an arbitrary category with finite limits. A formula $\phi(x)$ with $x:A$ in a context $\Gamma$ is interpreted as a subobject $\phi \to \Gamma \times A$, and the subterminality side condition is satisfied in the internal logic if and only if the first projection $\Gamma \times A \to \Gamma$ is mono, in which case the composition $\phi \to \Gamma \times A \to \Gamma$ is already the inclusion into its image.
 
 ## Related concepts
 
