@@ -354,6 +354,7 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 * [[quantum biology]]
 
 
+
 ## References
 
 ### Historical origins
@@ -441,8 +442,9 @@ On the [[interpretation of quantum mechanics]]:
 
 * [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
-
 Lecture notes:
+
+* [[Robert Geroch]], *Geometrical Quantum Mechanics*, University of Chicago (1974) &lbrack;[pdf](http://strangebeautiful.com/other-texts/geroch-geom-qm.pdf), [[Geroch-GeometricalQuantumMechanics.pdf:file]]&rbrack;
 
 * Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
 
