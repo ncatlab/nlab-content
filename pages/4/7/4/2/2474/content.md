@@ -184,9 +184,8 @@ Any algebra $M_n(A)$ of [[matrices]] with [[coefficients]] in a $C^\ast$-algebra
 
 =--
 
-+-- {: .num_example}
-###### Example
-
+\begin{example}
+\label{ContinuousFunctionsVanishingAtInfinity}
 For $A$ a $C^\ast$-algebra and for $X$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the set of [[continuous functions]] $X \to A$ which [[vanish at infinity]] is again a $C^\ast$-algebra by extending all operations pointwise.
 (This algebra is [[unital algebra|unital]] precisely if $A$ is and if $X$ is a [[compact topological space]].)
 
@@ -204,9 +203,13 @@ $$
   \,.
 $$
 
-This are the $C^\ast$-algebras to which the [[Gelfand duality]] theorem applies.
+This are the $C^\ast$-algebras to which the [[Gelfand duality]] theorem applies and which are the default [[algebras of observables]] in [[classical physics]] (for $X$ a [[phase space]], cf. eg. [Landsman (2017), §3](#Landsman17)).
+\end{example}
 
-=--
+\begin{remark}\label{CompactlySupportedContinuousFunctions}
+The subalgebra $C_{00}(X) \subset C_0(X)$ of [[compact support|compactly supported]] among all [[vanishing at infinity]]-functions (Exp. \ref{ContinuousFunctionsVanishingAtInfinity}) is not in general itself a $C^\ast$-algebra, but is a very well-behaved [[ideal]] inside $C_0(X)$, cf. [Amini (2004)](#Amini04).
+\end{remark}
+
 
 +-- {: .num_example}
 ###### Example
@@ -306,6 +309,10 @@ Specifically [[pullback]] and [[pushout]] of $C^\ast$-algebras is discussed in
 
 * Gerd Petersen, _Pullback and pushout constructions in $C^\ast$-algebra theory_ ([pdf](http://www.math.ru.nl/~mueger/ped2.pdf))
 
+See also 
+
+* {#Amini04} [[Massoud Amini]], *Locally Compact Pro-$C^\ast$-Algebras*, Canadian Journal of Mathematics **56** 1 (2004) 3-22  &lbrack;[arXiv:math/0205253](https://arxiv.org/abs/math/0205253), [doi:10.4153/CJM-2004-001-6](https://doi.org/10.4153/CJM-2004-001-6)&rbrack;
+
 
 The [[homotopy theory]] of $C^\ast$-algebras (a [[category of fibrant objects]]-structure on $C^\ast Alg$) is discussed in
 
@@ -313,6 +320,11 @@ The [[homotopy theory]] of $C^\ast$-algebras (a [[category of fibrant objects]]-
  {#Uuye}
 
 For more along such lines see the references at _[[KK-theory]]_ and _[[E-theory]]_.
+
+
+Discussion of $C^\ast$-algebras as [[algebras of observables]] in [[quantum physics]]/[[quantum probability theory]]:
+
+* {#Landsman17} [[Klaas Landsman]], *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
 
 
 [[!redirects C-star-algebra]]
