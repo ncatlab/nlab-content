@@ -108,7 +108,7 @@ The original articles on the BFSS matrix model:
 
   > (argument for [[small N limit|small N]]-validity)
 
-* {#Sen97} [[Ashoke Sen]], *D0 Branes on $T^n$ and Matrix Theory*, Adv. Theor. Math. Phys.**2** (1998) 51-59 &lbrack;[arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220)&rbrack;
+* {#Sen97} [[Ashoke Sen]], *D0 Branes on $T^n$ and Matrix Theory*, Adv. Theor. Math. Phys. **2** (1998) 51-59 &lbrack;[arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220)&rbrack;
 
 * {#Seiberg97} [[Nathan Seiberg]], *Why is the Matrix Model Correct?*, Phys. Rev. Lett. **79** (1997) 3577-3580 &lbrack;[arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009), [doi:10.1103/PhysRevLett.79.3577](https://doi.org/10.1103/PhysRevLett.79.3577)&rbrack;
 
