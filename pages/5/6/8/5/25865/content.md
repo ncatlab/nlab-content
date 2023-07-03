@@ -18,7 +18,7 @@
 
 ## Idea
 
-In the context of [[motivic integration]], the term _Greenberg scheme_ refers to one of multiple generalizations of an [[arc space]] (here referred to as "arc scheme"). Greenberg schemes are built on [[scheme]]s over a _complete_ [[discrete valuation ring]] (DVR). In the locally Noetherian setting, If $R$ is a complete DVR, then  Greenberg schemes of [[formal scheme]]s generalize this prior notion of Greenberg schemes. Greenberg schemes associated to such formal schemes are the setting for motivic integration.
+In the context of [[motivic integration]], the term _Greenberg scheme_ refers to one of multiple generalizations of [[arc spaces]] (here referred to as "arc schemes"). Greenberg schemes are built on [[schemes]] over a _complete_ [[discrete valuation ring]] (DVR). In the locally Noetherian setting, if $R$ is a complete DVR then  Greenberg schemes of [[formal schemes]] generalize this prior notion of Greenberg schemes. Greenberg schemes associated to such formal schemes are the setting for motivic integration.
 
 ## Definitions
 
