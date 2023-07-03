@@ -86,3 +86,7 @@ Singularity theory and its applications, Adv. Stud. Pure Math. 43, Math. Soc. Ja
 See also Corollary 4.4 in
 
 * Bhargav Bhatt, _Algebraization and Tannaka duality_, [arXiv/1404.7483](http://arxiv.org/abs/1404.7483)
+
+## Related entries
+
+[[Greenberg scheme]]
