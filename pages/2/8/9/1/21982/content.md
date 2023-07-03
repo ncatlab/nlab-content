@@ -55,9 +55,9 @@ Specifically for D-branes in [[WZW models]] see
 * [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
 
  
-Discussion of D-brane [[matrix models]] taking these K-theoretic effects into account ([[K-matrix model]]) is in
+Towards a [[BFSS matrix models]] taking these K-theoretic effects into account ([[K-matrix model]]):
 
-* {#AsakawaSugimotoTerashima01} T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085))
+* {#AsakawaSugimotoTerashima01} [[Tsuguhiko Asakawa]], [[Shigeki Sugimoto]], [[Seiji Terashima]], *D-branes, Matrix Theory and K-homology*, JHEP 0203 (2002) 034 $[$[arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085), [doi:10.1088/1126-6708/2002/03/034](https://doi.org/10.1088/1126-6708/2002/03/034)$]$
 
 
 
