@@ -172,8 +172,16 @@ This is also called the **Kostant-Souriau central extension**
 
 * [[Peter Olver]], _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995
 
-* [[Bertram Kostant]], _Quantization and unitary representations. I. Prequantization_, In _Lectures in Modern Analysis and Applications, III_, pages 87&#8211;208. Lecture Notes in Math., Vol. 170. Springer, Berlin (1970)
- {#Kostant}
+* {#Kostant} [[Bertram Kostant]], _Quantization and unitary representations. I. Prequantization_, In _Lectures in Modern Analysis and Applications, III_, pages 87&#8211;208. Lecture Notes in Math., Vol. 170. Springer, Berlin (1970)
+
+Discussion of [[Lie integration]] of the Poisson brackets on non-compact manifolds, by restriction to [[compactly supported functions]]:
+
+* Augustin Banyaga, Paul Donato, *Some remarks on the integration of the Poisson algebra*, Journal of Geometry and Physics **19** 4 (1996) 368-378 &lbrack;<a href="https://doi.org/10.1016/0393-0440(95)00039-9">doi:10.1016/0393-0440(95)00039-9</a>&rbrack;
+
+
+
+
+
 
 
 [[!redirects Poisson algebra]]
