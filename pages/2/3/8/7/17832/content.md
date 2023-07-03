@@ -95,7 +95,7 @@ anti-[[M2-branes]]:
 
 anti-[[M5-branes]]:
 
-* Seiji Terashima, footnote 2 on section 4 of _On M5-branes in N=6 Membrane Action_, JHEP0808:080,2008 ([arXiv:0807.0197](https://arxiv.org/abs/0807.0197))
+* [[Seiji Terashima]], footnote 2 on section 4 of _On M5-branes in N=6 Membrane Action_, JHEP0808:080,2008 ([arXiv:0807.0197](https://arxiv.org/abs/0807.0197))
 
 
 [[!redirects anti D-branes]]
