@@ -82,10 +82,10 @@ Further references include
 ### Relation to D-branes
  {#ReferencesRelationToDBranes}
 
-A relation between Dirac structures and [[D-branes]] is discussed in
+Relating Dirac structures to [[D-branes]]:
 
-* Tsuguhiko Asakawa, Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
- {#AsakawaSasaWatamura}
+* {#AsakawaSasaWatamura} [[Tsuguhiko Asakawa]], Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ &lbrack;[arXiv:1206.6964](http://arxiv.org/abs/1206.6964)&rbrack;
+ 
 
 Related observations for D-branes in the [[WZW model]] had long been made (unpublished) for the [[Cartan-Dirac structure]] over a Lie group.
 
