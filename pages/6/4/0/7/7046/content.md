@@ -1,5 +1,8 @@
+Erik Palmgren (1963–2019) was a Swedish category theorist.
 
-* [website](http://www2.math.su.se/~palmgren/)
+* [home page](https://staff.math.su.se/palmgren/) (broken) [archived](https://web.archive.org/web/20230325203454/https://staff.math.su.se/palmgren/).
+
+* [obituary by Peter LeFanu Lumsdaine](https://www.math.su.se/om-oss/nyheter/erik-palmgren-1963-2019-1.463835) (broken) [archived](https://web.archive.org/web/20200828141636/https://www.math.su.se/om-oss/nyheter/erik-palmgren-1963-2019-1.463835).
 
 ## Selected writings
 
