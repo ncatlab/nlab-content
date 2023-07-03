@@ -4,19 +4,25 @@
 
 ## Selected writings
 
-Introducing [[light cone gauge quantization]]:
+Introducing [[discretized light-cone quantization]]:
 
 * [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Solving field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 1993 &lbrack;[doi:10.1103/PhysRevD.32.1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.32.1993)&rbrack;
+
+* {#PauliBrodsky85b} [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Discretized light-cone quantization: Solution to a field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 2001 &lbrack;[doi:10.1103/PhysRevD.32.2001](https://doi.org/10.1103/PhysRevD.32.2001)&rbrack;
 
 
 Applying [[light-front quantization]] to [[QCD]]:
 
 * [[G. Peter Lepage]], [[Stanley J. Brodsky]], *Exclusive processes in perturbative quantum chromodynamics*, Phys. Rev. D **22** (1980) 2157 &lbrack;[doi:10.1103/PhysRevD.22.2157](https://doi.org/10.1103/PhysRevD.22.2157)&rbrack;
 
-* [[Stanley Brodsky]], [[Hans-Christian Pauli]], S. Pinsky, *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
+* [[Stanley J. Brodsky]], Gary McCartor, [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *The challenge of light-cone quantization of gauge field theory*, Part. World **3** 3 (1993) 109-124  &lbrack;[cds:240388](http://cds.cern.ch/record/240388), [inspire:335247](https://inspirehep.net/literature/335247)&rbrack;
+
+* [[Stanley Brodsky]], [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
+
+and in relation to instant-time quantization:
 
 * Philip D. Mannheim, Peter Lowdon, [[Stanley Brodsky]], 
-_Comparing light-front quantization with instant-time quantization_ ([arXiv:2005.00109](https://arxiv.org/abs/2005.00109))
+*Comparing light-front quantization with instant-time quantization*, Physics Reports **891** (2021) 1-65 &lbrack;[arXiv:2005.00109](https://arxiv.org/abs/2005.00109), [doi:10.1016/j.physrep.2020.09.001](https://doi.org/10.1016/j.physrep.2020.09.001)&rbrack;
 
 
 Introducing [[holographic light front QCD]]:
