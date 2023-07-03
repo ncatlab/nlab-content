@@ -4,7 +4,7 @@
 
 ## Idea
 
-Vertex algebras are intuitively analogues of associative algebras, except that certain singularities come up (in physics terminology thsi comes from [[OPE]]'s).
+Vertex algebras are intuitively analogues of associative algebras, except that certain singularities come up (in physics terminology this comes from [[OPE]]'s).
 
 Relaxed multicategories can be thought of, according to Borcherds, as multicategories in which the morphisms may have some sort of singularity. In the language of pseudotensor categories (a variant of coloured operads) this is studied by Beilinson and Drinfeld. In connection to quantum groups this has been studied by Soibelman. 
 
