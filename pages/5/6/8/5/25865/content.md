@@ -28,9 +28,9 @@ Let $R$ be a complete DVR, let $\mathfrak{m}$ be its unique [[maximal ideal]], a
 
 For every non-negative integer $n\ge0$, the functor $\mathscr{R}_n\colon\mathbf{Alg}_k\to\mathbf{Ring}$ from the category of $k$-algebras to the category of rings given by
 $$
-A\mapsto A\otimes_k R_n
+A\mapsto A\otimes_k R_n = A\otimes_k R/\mathfrak{m}^{n+1}
 $$
-where $R_n=R/\mathfrak{m}^{n+1}$ is a [[representable functor]] if $R$ is equicharacteristic (that is, $R$ and $k$ have the same characteristic). Denote by $\mathscr{R}_\infty$ the limit of these functors, which is again representable. As schemes, these are identified with $\mathbb{A}_k^n$ and $\mathbb{A}_k^\infty$, respectively, but the ring scheme structures endowed on $\mathscr{R}_n$ and $\mathscr{R}_\infty$ are not the same as the usual ones on affine space.
+is a [[representable functor]] if $R$ is equicharacteristic (that is, $R$ and $k$ have the same characteristic). Denote by $\mathscr{R}_\infty$ the limit of these functors, which is again representable. As schemes, these are identified with $\mathbb{A}_k^n$ and $\mathbb{A}_k^\infty$, respectively, but the ring scheme structures endowed on $\mathscr{R}_n$ and $\mathscr{R}_\infty$ are not the same as the usual ones on affine space.
 
 In the mixed characteristic case, let $W(-)$ be the functor which assigns a $k$-algebra to its [[ring of Witt vectors]]. The functor
 $$
