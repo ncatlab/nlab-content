@@ -123,7 +123,7 @@ The basic structures seen in  [[classical model structure on topological spaces|
 
 * _[[higher observational type theories]]_.
 
-The terminology _[[model category]]_ is short for "category of models of homotopy types". The idea here is to consider [[categories]] equipped with suitable [[stuff, structure, property|extra structure and properties]] that encodes the existence of [[homotopies]] between all [[morphisms]] and convenient means to handle and control these, in particular a means to construct the corresonding [[homotopy category]].
+The terminology _[[model category]]_ is short for "category of models of homotopy types". The idea here is to consider [[categories]] equipped with suitable [[stuff, structure, property|extra structure and properties]] that encodes the existence of [[homotopies]] between all [[morphisms]] and convenient means to handle and control these, in particular a means to construct the corresponding [[homotopy category]].
 
 
 \linebreak
