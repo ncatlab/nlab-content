@@ -537,7 +537,7 @@ variationally closed.
   Result: The construction of the pre-symplectic potential form-current and pre-symplectic form-current are given in essentially modern terms. Not all proofs are given. Little discussion of symplectic reduction.
  
 
-* {#CrnkovićWitten87} [[Cedomir Crnković]], [[Edward Witten]], *Covariant Description of Canonical Formalism in Geometrical Theories*, chapter 16 in: S. W. Hawking and W. Israel (eds.) *Three Hundred Years of Gravitation*, Cambridge University Press (1987) 676-684 &lbrack;[pdf](https://www.ias.edu/sites/default/files/sns/files/CovariantPaper-1987.pdf), [ISBN:9780521379762](https://www.cambridge.org/us/universitypress/subjects/physics/cosmology-relativity-and-gravitation/three-hundred-years-gravitation?format=PB&isbn=9780521379762)&rbrack;
+* {#CrnkovićWitten87} [[Čedomir Crnković]], [[Edward Witten]], *Covariant Description of Canonical Formalism in Geometrical Theories*, chapter 16 in: S. W. Hawking and W. Israel (eds.) *Three Hundred Years of Gravitation*, Cambridge University Press (1987) 676-684 &lbrack;[pdf](https://www.ias.edu/sites/default/files/sns/files/CovariantPaper-1987.pdf), [ISBN:9780521379762](https://www.cambridge.org/us/universitypress/subjects/physics/cosmology-relativity-and-gravitation/three-hundred-years-gravitation?format=PB&isbn=9780521379762)&rbrack;
 
   (S)
 
@@ -546,7 +546,7 @@ variationally closed.
 
   Result: Applies the "by inspection" methods of Witten's earlier paper to write down conserved, variationally-closed pre-symplectic currents for Yang-Mills and general relativity.
 
-* [[Cedomir Crnković]], *Symplectic Geometry of the Covariant Phase Space*, Class. Quant. Grav. **5** (1988) 1557-1575 &lbrack;[doi:10.1088/0264-9381/5/12/008](https://doi.org/10.1088/0264-9381/5/12/008), [inspire:247290](https://inspirehep.net/literature/247290)&rbrack;
+* [[Čedomir Crnković]], *Symplectic Geometry of the Covariant Phase Space*, Class. Quant. Grav. **5** (1988) 1557-1575 &lbrack;[doi:10.1088/0264-9381/5/12/008](https://doi.org/10.1088/0264-9381/5/12/008), [inspire:247290](https://inspirehep.net/literature/247290)&rbrack;
 
 
 * J. Lee, [[Robert Wald]], _Local symmetries and constraints_ (1989) J. Math. Phys. 31, 725 (1990); doi:10.1063/1.528801  ([jMP](http://jmp.aip.org/resource/1/jmapaq/v31/i3/p725_s1?isAuthorized=no))
