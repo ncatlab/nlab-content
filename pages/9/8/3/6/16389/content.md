@@ -97,7 +97,11 @@ The concept originates with
 
 * {#Dirac49} [[Paul A. M. Dirac]], §5 "The Front Form", in: *Forms of Relativistic Dynamics*, Rev. Mod. Phys. **21** (1949) 392-399 &lbrack;[doi:10.1103/RevModPhys.21.392](https://doi.org/10.1103/RevModPhys.21.392)&rbrack;
 
-and was rediscovered in
+reviewed in
+
+* K. K. Wan, J. J. Powis, *Quantum mechanics in Dirac's front form*,  Int J Theor Phys **33** (1994) 553–574 &lbrack;[doi:10.1007/BF00670516](https://doi.org/10.1007/BF00670516)&rbrack;
+
+and was rediscovered several times, such as in
 
 * [[Steven Weinberg]], *Dynamics at Infinite Momentum*, Phys. Rev. **150** (1966) 1313,  Erratum Phys. Rev. 158, 1638 (1967) &lbrack;[doi:10.1103/PhysRev.150.1313](https://doi.org/10.1103/PhysRev.150.1313)&rbrack;
 
