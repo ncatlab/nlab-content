@@ -21,7 +21,7 @@ Relation of [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[
 
 On [[Montonen-Olive duality]] in [[D=4 super Yang-Mills theory]] via [[ABJM-model]] as [[D3-brane]] model after [[double dimensional reduction]] followed by [[T-duality]]:
 
-* [[Koji Hashimoto]], Ta-Sheng Tai, Seiji Terashima, _Toward a Proof of Montonen-Olive Duality via Multiple M2-branes_, JHEP 0904:025, 2009 ([arxiv:0809.2137](https://arxiv.org/abs/0809.2137))
+* [[Koji Hashimoto]], Ta-Sheng Tai, [[Seiji Terashima]], _Toward a Proof of Montonen-Olive Duality via Multiple M2-branes_, JHEP 0904:025 (2009) &lbrack;[arxiv:0809.2137](https://arxiv.org/abs/0809.2137)&rbrack;
 
 On [[holographic QCD]]:
 
@@ -33,7 +33,7 @@ On the analogy between [[AdS/CFT duality]] and [[deep learning]]:
 
 * Tetsuya Akutagawa, Koji Hashimoto, Takayuki Sumimoto, _Deep Learning and AdS/QCD_ ([arXiv:2005.02636](https://arxiv.org/abs/2005.02636))
 
-Introducing the [[nuclear matrix model]] for [[baryons/nucleons]] in the [[Witten-Sakai-Sugimoto model]]:
+Introducing the [[nuclear matrix model]] for [[baryons]]/[[nucleons]] in the [[Witten-Sakai-Sugimoto model]]:
 
 * {#HashimotoIizukaYi10} [[Koji Hashimoto]], Norihiro Iizuka, Piljin Yi, _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
 
