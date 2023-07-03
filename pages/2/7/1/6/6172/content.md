@@ -14,7 +14,7 @@
 
 ## Searching the nLab
 
-There are two methods of searching the nLab:
+There are several methods of searching the nLab:
 
 1. **The built-in search.**  This is via the search box at the top of every page.  The distinguishing characteristics of this search are:
    1. It uses _regular expressions_.
@@ -28,9 +28,15 @@ red), and hit search. If you click on one of the hits, you get a URL,
 which puts you into nLab and highlights the formula hit (in gray).
 
 
-1. **An external search engine.** Most search engines allow you to restrict the search to a single site.  The best site to use for the nLab is `http://ncatlab.org/nlab`.  The distinguishing characteristics of an external search are:
-   1. Most just search for alphanumeric characters.
-   1. It searches the _rendered version_ of each page.
+1. **An external search engine.** 
+
+   Most search engines allow restricting the search to a single site, such as to `ncatlab.org/nlab`.  
+
+   The distinguishing characteristics of an external search are:
+   
+   1. Usually the search is for alphanumeric characters.
+   
+   1. It searches the _rendered version_ of each page, instead of the source code.
 
 
 ## Google Search
