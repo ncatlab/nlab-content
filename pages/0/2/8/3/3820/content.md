@@ -379,42 +379,41 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 A a popular introduction to the notion of phase space with some comments on the history of the concept are in
 
-* {#Nolte10} David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
+* {#Nolte10} David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) &lbrack;[web](https://works.bepress.com/ddnolte/2)&rbrack;
 
-An article reviewing much of the content of the following references is
-
-* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A 29 (2014) ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](http://www.worldscientific.com/doi/abs/10.1142/S0217751X14300099))
 
 ### Covariant phase space
 
-A standard textbook reference is chapter 17.1 of 
+Textbook account with an eye towards [[BRST-BV formalism]]: 
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_ , Princeton University Press 1992. xxviii+520 pp.
+* [[Marc Henneaux]], [[Claudio Teitelboim]], 17.1 in: _[[Quantization of Gauge Systems]]_ , Princeton University Press 1992.   Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems),[jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
 
-Reviews of covariant phase space theory include:
+An article reviewing much of the content of the following references:
 
-* {#Vitagliano} L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
- 
+* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A 29 (2014) ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](http://www.worldscientific.com/doi/abs/10.1142/S0217751X14300099))
+
+
+Further review:
+
+* {#Vitagliano} L. Vitagliano, *Secondary calculus and the covariant phase space* &lbrack;[arXiv:0809.4164](https://arxiv.org/abs/0809.4164)&rbrack;
 
 * M. J. Gotay, J. Isenberg, R. Montgomery, J. E. Marsden, _Momentum Maps and Classical Fields, Part I: Covariant Field Theory_ [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.6137&rep=rep1&type=pdf)
 
 A discussion in the context of the [[variational bicomplex]] with further pointers to the use in [[physics]] is in 
 
-* E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267&#8364;1286
+* E. Reyes, _On Covariant Phase Space and the Variational Bicomplex_ , Int. J. Theor. Phys. 43, no 5 (2004) 1267-1286
 
 A discussion in the language of [[D-module]]s, following the book [[Chiral Algebras]] and leading up to the derived covariant phase space by [[BRST-BV formalism]] is in section 8.3 of
 
 * {#Paugam} [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
 
 
-The relation between covariant phase space methods and [[multisymplectic geometry]] is discussed in
+On the relation between covariant phase space methods and [[multisymplectic geometry]]:
 
 * {#Helein} [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_, in  Roger B ielawski, Kevin Houston, Martin Speight, J. Martin Speight (eds.) _Variational problems in differential geometry_, London Mathematical Society Lecture Note Series (2012) ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
   
 
-* {#BridgesHydonLawson} Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson,
-_Multisymplectic structures and the variational bicomplex_
-[doi](http://dx.doi.org/10.1017/S0305004109990259)
+* {#BridgesHydonLawson} Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson, _Multisymplectic structures and the variational bicomplex_ &lbrack;[doi](http://dx.doi.org/10.1017/S0305004109990259)&rbrack;
  
 
 * Forger, M. and Romero, S. V. _Covariant poisson brackets in geometric field theory._ Communications in Mathematical Physics  256, 375-410. ([doi](http://dx.doi.org/10.1007/s00220-005-1287-8))
@@ -444,9 +443,7 @@ Fredenhagen-D&#252;tsch-et-al are a most readable modern formulation.
 
   (P)
 
-  Influence: Appears to be self-motivated. The result may have been
-guessed from the known unequal-time, covariant Poisson brackets
-between free fields, which involve the causal Green function in an
+  Influence: Appears to be self-motivated. The result may have been guessed from the known unequal-time, covariant Poisson brackets between free fields, which involve the causal Green function in an
 explicit way.
 
   Result: The [[Peierls bracket]] on the covariant phase pace of a non-gauge system is defined and equivalence with the Hamiltonian phase space symplectic structure is proved. Gauge systems are treated by example of electrodynamics. The solution to degenerate equations of motion is either adding gauge fixing terms to the action or consider non-degenerate equations of motion satisfied by gauge invariant fields. Fermions are handled by multiplying fermi fields by formal odd parameters.
@@ -507,23 +504,16 @@ Volume 86, Number 1, 55-68, DOI: 10.1007/BF01205661 (1982) ([springer](http://dx
 
   Result: Write down the explicit pre-symplectic current and the
 corresponding pre-symplectic form on the space of solutions of
-linearized gravitational wave equations. This symplectic form on the
-reduced space of solutions is shown to coincide with the ADM
-symplectic structure and with the Komar symplectic structure at null
-infinity. The motivation explicit pre-symplectic current formula
-appears from the desire to interpolate between the above two
-formalisms.
+linearized gravitational wave equations. This symplectic form on the reduced space of solutions is shown to coincide with the ADM symplectic structure and with the Komar symplectic structure at null
+infinity. The motivation explicit pre-symplectic current formula appears from the desire to interpolate between the above two formalisms.
 
-* [[Edward Witten]] _Interacting field theory of open superstrings_ Nuclear Physics B Volume 276, Issue 2, 13 October 1986, Pages 291-324  (1986) ([web](http://dx.doi.org/10.1016/0550-3213%2886%2990298-1))
+* [[Edward Witten]], §5 in: *Interacting field theory of open superstrings*, Nuclear Physics B **276** 2 (1986) 291-324  (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90298-1">doi:10.1016/0550-3213(86)90298-1</a>, [inspire:228073](https://inspirehep.net/literature/228073)&rbrack;
 
   (S)
 
   Influence: Appears to be self-motivated. Witten needed a covariant way to define Poisson brackets from the action of open string field theory. Acknowledges parallel, independent work of [Zuckerman](#Zuckerman).
 
-  Result: Witten writes down the pre-symplectic form-current "by
-inspection" for a scalar field and for a Chern-Simons theory, then he
-explicitly shows that the current is conserved on the space of
-solutions, and that its integral over a Cauchy surface is
+  Result: Witten writes down the pre-symplectic form-current "by inspection" for a scalar field and for a Chern-Simons theory, then he explicitly shows that the current is conserved on the space of solutions, and that its integral over a Cauchy surface is
 variationally closed.
 
 
@@ -542,13 +532,12 @@ variationally closed.
 
   (S)
 
-  Influence: Appears to be self-motivated. Possible motivation is a more general construction of conserved currents in variational problems, a la Noether. Acknowledges that he reproduces parallel, but applied to specific theories, work of Crnkovic-Witten and Ashtekar-Bombelli-Koul.
+  Influence: Appears to be self-motivated. Possible motivation is a more general construction of conserved currents in variational problems, a la Noether. Acknowledges that he reproduces parallel, but applied to specific theories, work of [Crnković & Witten (1987)](#CrnkovićWitten87) and Ashtekar-Bombelli-Koul.
 
   Result: The construction of the pre-symplectic potential form-current and pre-symplectic form-current are given in essentially modern terms. Not all proofs are given. Little discussion of symplectic reduction.
  
 
-* C. Crnkovi&#263;, [[Edward Witten]], _Covariant Description of Canonical Formalism in Geometrical Theories_, in Three Hundred Years of Gravitation, S. W. Hawking and W. Israel (Eds.), Cambridge
-University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu.edu/classes/spring2006/phys7777/crnkovicwitten.pdf))
+* {#CrnkovićWitten87} [[Cedomir Crnković]], [[Edward Witten]], *Covariant Description of Canonical Formalism in Geometrical Theories*, chapter 16 in: S. W. Hawking and W. Israel (eds.) *Three Hundred Years of Gravitation*, Cambridge University Press (1987) 676-684 &lbrack;[pdf](https://www.ias.edu/sites/default/files/sns/files/CovariantPaper-1987.pdf), [ISBN:9780521379762](https://www.cambridge.org/us/universitypress/subjects/physics/cosmology-relativity-and-gravitation/three-hundred-years-gravitation?format=PB&isbn=9780521379762)&rbrack;
 
   (S)
 
@@ -557,7 +546,7 @@ University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu
 
   Result: Applies the "by inspection" methods of Witten's earlier paper to write down conserved, variationally-closed pre-symplectic currents for Yang-Mills and general relativity.
 
-* C. Crnkovi&#263;, _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#128;1575.
+* [[Cedomir Crnković]], *Symplectic Geometry of the Covariant Phase Space*, Class. Quant. Grav. **5** (1988) 1557-1575 &lbrack;[doi:10.1088/0264-9381/5/12/008](https://doi.org/10.1088/0264-9381/5/12/008), [inspire:247290](https://inspirehep.net/literature/247290)&rbrack;
 
 
 * J. Lee, [[Robert Wald]], _Local symmetries and constraints_ (1989) J. Math. Phys. 31, 725 (1990); doi:10.1063/1.528801  ([jMP](http://jmp.aip.org/resource/1/jmapaq/v31/i3/p725_s1?isAuthorized=no))
