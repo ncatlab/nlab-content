@@ -331,3 +331,6 @@ and in the [[Hodge-filtered differential cohomology|Hodge-filtered]] version:
 
 [[!redirects wave-front set]]
 [[!redirects wave-front sets]]
+
+[[!redirects wavefront]]
+[[!redirects wavefronts]]
