@@ -13,9 +13,22 @@
 =--
 =--
 
-This entry is about the textbook
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of Gauge Systems_, Princeton University Press 1992. xxviii+520 pp.
+This entry is about the textbook:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]]: 
+
+  \linebreak
+
+  **Quantization of Gauge Systems**
+
+  \linebreak
+
+  Princeton University Press 1992
+
+  [ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems)
+
+  [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)
 
 on the [[BRST-BV formalism]] for describing [[gauge theories]].
 
