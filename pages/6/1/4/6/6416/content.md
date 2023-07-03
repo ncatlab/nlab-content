@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[quantum mechanics]]:
+
+* [[Robert Geroch]], *Geometrical Quantum Mechanics*, University of Chicago (1974) &lbrack;[pdf](http://strangebeautiful.com/other-texts/geroch-geom-qm.pdf), [[Geroch-GeometricalQuantumMechanics.pdf:file]]&rbrack;
+
+
 On [[mathematical physics]], making explicit the [[categories]] of some of its basic ingredients:
 
 * [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
