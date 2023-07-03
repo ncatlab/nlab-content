@@ -164,7 +164,7 @@ $
 $
 that _classifies_ this [[homotopy]], via the [[universal property]] of [[homotopy fibers]]/[[homotopy cofibers]]:
 
-* if $\mathcal{C}$ admits [[finite (∞,1)-colimits]] or at least [[reduced suspensions]] $\Sigma(-)$ ([[homotopy cofibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] correspondes to  a  [[1-morphism]] of the form:
+* if $\mathcal{C}$ admits [[finite (∞,1)-colimits]] or at least [[reduced suspensions]] $\Sigma(-)$ ([[homotopy cofibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] corresponds to  a  [[1-morphism]] of the form:
 
   $$
      \Sigma X_0
