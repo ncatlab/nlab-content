@@ -1,13 +1,23 @@
 This is a book entry for 
 
-* [[Leon A. Takhtajan]], _Quantum mechanics for mathematicians_, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
+* [[Leon A. Takhtajan]]:
 
-Preface, table of contents and chapters 1,2 ([pdf](http://www.ams.org/bookstore/pspdf/gsm-95-prev.pdf)) can be found at 
+  \linebreak
 
-* AMS [site](http://www.ams.org/bookstore?co1=AND&co2=AND&co3=AND&d=BOOK&f=G&fn=105&l=100&op1=AND&op2=AND&op3=AND&p=1&pg1=&pg2=&pg3=ALLF&r=2&s1=&s2=&s3=Takhtajan&subject=genint&u=)
+  **Quantum mechanics for mathematicians** 
 
-See also 
+  \linebreak
 
-* MAA [review](http://wwwdev.maa.org/maa%20reviews/1155.html)
+  Graduate Studies in Mathematics __95__
+
+  Amer. Math. Soc. (2008)
+
+  [ISBN:978-0-8218-4630-8](https://bookstore.ams.org/gsm-95)
+
+  chapters 1 & 2: [pdf](http://www.ams.org/bookstore/pspdf/gsm-95-prev.pdf)
+
+  MAA [review](http://wwwdev.maa.org/maa%20reviews/1155.html)
+
+on [[quantum mechanics]] in [[mathematical physics]].
 
 category: reference
