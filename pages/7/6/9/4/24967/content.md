@@ -36,7 +36,7 @@ Notice that the notions of _[[possibility]]_ and _[[necessity]]_ have different 
 
 ## Epistemic formulae
 
-These are variants of the formulae of the basic [[modal logic|modal language]].  The basic modal operators are, here, labelled $K_i$ since they relate to 'knowledge' and indicate the epistemic agent, the knower, $i$. These correspond to the $\Box$ operators in  the standard form, and are used in preference to the dual $\Diamond$ forms since they are more immediately relevant to applications.
+These are variants of the formulae of the basic [[modal logic|modal language]].  The basic modal operators are, here, labelled $K_i$ since they relate to 'knowledge' and indicate the epistemic agent, the knower, $i$. These correspond to the $\Box$ operators in  the standard form, and are used in preference to the dual $\lozenge$ forms since they are more immediately relevant to applications.
 
 More formally, we have $P$ or $Prop$, is a set of countably (finite or infinite) many atomic formulae.  there is also a set $A$, often called the set of 'agents' and taken to be $A = \{1,\ldots,m\}$.  The set of epistemic formulae (= basic $m$-agent epistemic language) will be denoted  $\mathcal{L}^m_K(P)$ is given by the rules
 
@@ -55,7 +55,7 @@ The 'agent' terminology is extremely useful, but in pure modal logic texts is no
 
 ## Axioms for epistemic logic {#Axioms}
 
-The question then arises as to which axioms of modal logic are appropriate to the epistemic case. Answers will depend on what interpretation is given to `know' in specifying how the operator $K$ behaves. E.g., there is a difference between the knowledge of a realistic, cognitively-limited agent and that of some idealized agent with boundless resources.
+The question then arises as to which axioms of modal logic are appropriate to the epistemic case. Answers will depend on what interpretation is given to 'know' in specifying how the operator $K$ behaves. E.g., there is a difference between the knowledge of a realistic, cognitively-limited agent and that of some idealized agent with boundless resources.
 
 It is generally admitted that axiom (T) should hold, here 
 
