@@ -18,7 +18,9 @@
 
 ## Idea
 
-In [[topology]], the notion of *properness* is that of [[compact topological space|compactness]], but generalized from [[topological spaces]] to [[continuous functions]] between them. 
+In [[topology]], the notion of *properness* is that of [[compact topological space|compactness]], but generalized from [[topological spaces]] to [[continuous functions]] between them.
+
+A continuous map $X \to Y$ is proper when “$X$ is compact, relatively to $Y$”.
 
 ## Definition
 
@@ -27,6 +29,8 @@ Just like there are various equivalent ways of characterizing [[compact topologi
 In the following we discuss:
 
 * [characterization via nets](#UsingNets);
+
+* [characterization via intersection of closed sets](#UsingClosedSets);
 
 * [characterization via closedness](#UsingClosedness);
 
@@ -52,6 +56,25 @@ Such $f$ is proper iff for every net $x_\bullet \in X$ and every $y \in Y$, if $
 
 \end{definition}
 
+### Via intersection of closed sets
+ {#UsingClosedSets}
+
+Recall that, equivalently, a [[topological space]] $X$ is [[compact topological space|compact]] if and only if for every cofiltered set of non-empty closed subsets $F_i \subset X$, their intersection $\cap_i F_i$ is also non-empty.
+
+\begin{definition}
+\label{PropernessViaClosedSets}
+
+A [[continuous map]]  $f \,\colon\, X \to Y$  is *proper* iff
+
+1. $f$ is closed;
+
+1. for every cofiltered set of closed subsets $\{F_i\}_{i \in I}$ of $X$, one has
+
+$$
+  f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)
+$$
+
+\end{definition}
 
 ### Via closedness
  {#UsingClosedness}
@@ -112,14 +135,15 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
 1. If $\mathcal{F}$ is a [[filter]] on $X$ and if $y$ is a [[cluster point]] of $f(\mathcal{F})$, then $\mathcal{F}$ has a cluster point $x \in X$ with $f(x) = y$;
 
+1. (Def. \ref{PropernessViaClosedSets}) 
+
+   $f$ is a [[closed map]] and for every cofiltered family $\{F_i\}_{i \in I}$ of
+closed subsets of $X$, one has $f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)$;
+
 1. (Def. \ref{PropernessViaClosedness}) 
 
    The image $f \times \mathrm{Id}_Z \,\colon\, X \times Z \to Y \times Z$ under the [[Cartesian product]]-[[functor]] is a [[closed map]] for every topological space $Z$;
 
-
-1. (Def. \ref{PropernessAsAContinuousFamilyOfCompactFibres})
-
-   $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
 
 1. ([[universally closed morphism|universally closed]]) 
    
@@ -133,6 +157,9 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
    is a [[closed map]];
 
+1. (Def. \ref{PropernessAsAContinuousFamilyOfCompactFibres})
+
+   $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
 
 1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}(K)$ of every [[compact subspace]] $K \subset Y$ is [[compact topological space|compact]].
 
@@ -219,6 +246,14 @@ $$
 is also a proper map.
 \end{theorem}
 
+## Comparison with proper maps of locales
+
+\begin{proposition}
+Every proper map $f\,:\, X \to Y$ between two topological spaces induces a
+proper map $\mathrm{Loc}(f)\,:\, \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ between the associated locales.
+
+Conversely, if $\mathrm{Loc}(f)\,:\, \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ is proper and $Y$ is a $\mathrm{T}_\mathrm{D}$-space, then $f\,:\, X \to Y$ is proper.
+\end{proposition}
 
 ## Related concepts
 
