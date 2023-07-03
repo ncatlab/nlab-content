@@ -66,6 +66,30 @@ Proper maps of locales can be generalized to [[geometric morphisms]] of [[Grothe
 The topos-theoretic condition refers only to directed unions of subterminal objects, suggesting a stronger condition that it preserve all [[filtered colimits]].  This is a strictly stronger condition even for locales (i.e. [[localic toposes]]), called being *tidy*.  In fact properness and tidiness are the first two rungs on an infinite ladder of higher properness for [[higher toposes]].
 
 
+\begin{remark} 
+**(Inconsistent terminology)**
+\linebreak
+In the world of 1-toposes, the concept of proper map splits into two
+subconcepts
+
+$$
+  \mathrm{tidy} \Rightarrow \mathrm{proper}
+$$
+
+with the stronger concept being called “tidy”.
+
+More generally in $\infty$-toposes, one gets an infinite tower of related
+definitions
+
+$$
+  \infty-\mathrm{proper} \Rightarrow ... \Rightarrow 1-proper \Rightarrow 0-proper
+$$
+
+This is where the inconsitency arises: in $\infty$-topos theory it is customary to call “proper morphism” the strongest notion while in 1-topos theory it is customary to use it for the weaker notion.
+Hence, a proper map of spaces $f\,:\, X \to Y$ will induce a proper map of 1-toposes but not a proper map of $\infty$-toposes (without extra assumptions).
+
+\end{remark} 
+
 ## Related concepts
 
 * [[proper map]], [[open map]], [[closed map]]
