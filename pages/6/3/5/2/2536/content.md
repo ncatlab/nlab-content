@@ -377,14 +377,12 @@ For more details see [[semilattice of commutative subalgebras]].
 
 ## References
 
-The original articles include
+The original articles:
 
-* {#Jordan32} [[Pascual Jordan]], &#220;ber eine Klasse nichtassociativer
-hyperkomplexer Algebren, _Nachr. Ges. Wiss. G&#246;ttingen
-(1932), 569--575.
+* {#Jordan32} [[Pascual Jordan]], *Über eine Klasse nichtassociativer hyperkomplexer Algebren*, Nachr. Ges. Wiss. Göttingen (1932) 569-575 &lbrack;[eudml:59403](https://eudml.org/doc/59403)&rbrack;
  
 
-* {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]] and [[Eugene Wigner]], On an algebraic generalization of the quantum mechanical formalism, _Ann. Math._ **35** (1934), 29--64.
+* {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
  
 
 * {#Zelmanov83} E. I. Zelmanov, On prime Jordan algebras. II,
