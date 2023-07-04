@@ -27,4 +27,8 @@ $$
 
 The [[spectral theorem]] asserts, roughly, that (bounded) normal operators can be diagonalized.
 
+## Related concepts
+
+* [[positive operator]]
+
 [[!redirects normal operators]]
