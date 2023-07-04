@@ -174,9 +174,11 @@ Introductory lecture notes:
 
 and for just [[quantum mechanics]] in the algebraic perspective:
 
-* {#Gleason09} Jonathan Gleason, _The $C^\ast$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
+* {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
 
-Textbookaccount
+* {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
+
+Textbook accounts:
 
 * [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_
 
