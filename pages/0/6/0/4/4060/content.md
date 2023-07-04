@@ -310,7 +310,7 @@
 <polygon style="fill:black;stroke:black;" points="649.5,-118 646,-108 642.5,-118 649.5,-118"/>
 </g>
 <g id="node28" class="node"><title>Mk</title>
-<a xlink:href="http://ncatlab.org/nlab/show/mackey topological vector space" xlink:title="Mackey">
+<a xlink:href="http://ncatlab.org/nlab/show/Mackey topological vector space" xlink:title="Mackey">
 <polygon style="fill:none;stroke:black;" points="206,-36 140,-36 140,-1.06581e-14 206,-0 206,-36"/>
 <text fill="#008B26" text-anchor="middle" x="173" y="-13.9" style="font-family:Times New Roman;font-size:14.00;">Mackey</text>
 </a>
