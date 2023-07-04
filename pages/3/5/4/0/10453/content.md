@@ -49,6 +49,8 @@ Here, 'positive' means positive semidefinite; see at [[inner product]] for the f
 
 ## Related concepts
 
+* [[normal operator]]
+
 * [[self-adjoint operator]]
 
 * [[state on an operator algebra]]
