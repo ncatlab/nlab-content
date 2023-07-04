@@ -372,7 +372,7 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 2-groups were introduced, under the name _Gr-categories_, in 
 
-* {#Sinh73} [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973), ([web] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html))
+* {#Sinh73} [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973) &lbrack;[web] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html)&rbrack;
 
 supervised by [[Alexander Grothendieck]].  She showed that 2-groups are classified, up to equivalence, by quadruples consisting of:
 
@@ -383,19 +383,19 @@ supervised by [[Alexander Grothendieck]].  She showed that 2-groups are classifi
 
 She later published two papers on 2-groups:
 
-* [[Hoàng Xuân Sính]],  Gr-cat&eacute;gories strictes, *Acta Mathematica Vietnamica* **3** (2) (1978), 47-59.  ([pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Gr_categories_strictes.pdf))
+* [[Hoàng Xuân Sính]],  Gr-cat&eacute;gories strictes, *Acta Mathematica Vietnamica* **3** 2 (1978) 47-59 &lbrack;[pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Gr_categories_strictes.pdf)&rbrack;
 
-* [[Hoàng Xuân Sính]], Cat&eacute;gories de Picard restreintes, *Acta Mathematica Vietnamica* **7** (1) (1983), 117-122.   ([pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Categories_de_Picard_restreintes.pdf))
+* [[Hoàng Xuân Sính]], Cat&eacute;gories de Picard restreintes, *Acta Mathematica Vietnamica* **7** 1 (1983), 117-122 &lbrack;[pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Categories_de_Picard_restreintes.pdf)&rbrack;
 
 The first appears to prove that every 2-group is equivalent to a strict 2-group arising from a crossed module.  The second calls a symmetric 2-group (i.e. a symmetric monoidal category with all objects and morphisms invertible) a *Picard category*, and calls a Picard category *restrained* if the [[braiding]] $B_{x,x} \colon x \otimes x \to x \otimes x$ is the identity for all objects $x$.  It then proves that every Picard category is equivalent to one arising from a 2-term chain complex of abelian groups.
 
-An early textbook account explaining the relation to [[crossed modules]]:
+An early textbook account on strict 2-groups explaining the relation to [[crossed modules]]:
 
 * [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 An exposition and discussion of 2-groups as [[monoidal categories]] with all objects and morphisms invertible (sometimes called [[Picard 2-groups]]):
 
-*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories **12** (2004) 423-491. &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200), [tac:12-14](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html)&rbrack;
+*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories **12** (2004) 423-491 &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200), [tac:12-14](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html)&rbrack;
 
 Computational enumeration of geometrically [[discrete group|discrete]] 2-groups using the computer program [XMod](http://pages.bangor.ac.uk/~mas023/chda/xmod/xmod244.html) is reported on in
 
