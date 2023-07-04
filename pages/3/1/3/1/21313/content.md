@@ -19,6 +19,9 @@ Applying [[light-front quantization]] to [[QCD]]:
 
 * [[Stanley Brodsky]], [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
 
+* [[Stanley Brodsky]], [[Thomas Heinzl]] et al. *Light-Front Quantum Chromodynamics: A framework for the analysis of hadron physics*, White Paper of International Light Cone Advisory Committee, Nuclear Physics B - Proceedings Supplements **251**, **252** (2014) 165-174 &lbrack;[doi:10.1016/j.nuclphysbps.2014.05.004](https://doi.org/10.1016/j.nuclphysbps.2014.05.004), [arXiv:1309.6333](https://arxiv.org/abs/1309.6333)&rbrack;
+
+
 and in relation to instant-time quantization:
 
 * Philip D. Mannheim, Peter Lowdon, [[Stanley Brodsky]], 
