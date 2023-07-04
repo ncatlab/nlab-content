@@ -405,7 +405,7 @@ Early discussion of [[composite quantum systems]] and their [[quantum entangleme
 
 Classical textbook account: 
 
-* [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
+* {#Mackey63} [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
   > (including an influential proposal for [[quantum logic]])
 
@@ -483,7 +483,9 @@ Further references:
 
 Introduction to mathematical foundations of quantum physics in [[quantum probability]], [[operator algebra]]:
 
-* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
+* {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
+
+* {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
 * {#FroehlichSchubnel15} [[Jürg Fröhlich]],  B. Schubnel, _Quantum Probability Theory and the Foundations of Quantum Mechanics_. In: Blanchard P., Fröhlich J. (eds.) _The Message of Quantum Science_. Lecture Notes in Physics, vol 899. Springer 2015 ([arXiv:1310.1484](https://arxiv.org/abs/1310.1484), [doi:10.1007/978-3-662-46422-9_7](https://doi.org/10.1007/978-3-662-46422-9_7))
 
