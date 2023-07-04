@@ -31,7 +31,7 @@ $$
   \array{
       M-Theory(?) &\stackrel{low\;energy\;limit}{\to}& \text{11d Supergravity}
       \\
-      {}^{\mathllap{ \array{ small \\ coupling \\ limit}}}\downarrow && \downarrow^{\mathrlap{ \array{KK\;reduction \\ on S^1 }}}
+      {}^{\mathllap{ \array{ small \\ coupling \\ limit}}}\bigg\downarrow && \bigg\downarrow{}^{\mathrlap{ \array{KK\;reduction \\ on S^1 }}}
       \\
       \text{type IIA string theory}
         &\stackrel{low\;energy\;effective\;QFT}{\to}&  
@@ -61,19 +61,25 @@ What convinced the community that [[11-dimensional supergravity]] really is the 
 
 ## References
 
+The original insight is due to
 
-* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
+* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B **191** (1987) 70 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91323-2">doi:10.1016/0370-2693(87)91323-2</a>&rbrack; and in: [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) &lbrack;[spire](http://inspirehep.net/record/245249)&rbrack;
 
-* {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* [[Paul K. Townsend]], *The eleven-dimensional supermembrane revisited*, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](https://arxiv.org/abs/hep-th/9501068), <a href="https://doi.org/10.1016/0370-2693(95)00397-4">doi:10.1016/0370-2693(95)00397-4</a>&rbrack;
+
+but it gained popularity only with:
+
+* {#Witten95} [[Edward Witten]], §2.2, §2.3 in: _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124), <a href="https://doi.org/10.1016/0550-3213(95)00158-O">doi:10.1016/0550-3213(95)00158-O</a>&rbrack;
 
 
-Review includes
 
+Review:
+
+* {#Duff96} [[Michael Duff]], §2(ii) in: _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A **11** (1996) 5623-5642 &lbrack;[arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117), [doi:10.1142/S0217751X96002583](https://doi.org/10.1142/S0217751X96002583)&rbrack;
 
 * {#Duff99} [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
-
-* {#ObersPioline98} N.A. Obers, B. Pioline, _U-duality and M-Theory_, Phys.Rept.318:113-225,1999 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+* {#ObersPioline98} [[Niels A. Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
 
 [[!redirects duality between M-theory and type IIA superstring theory]]
