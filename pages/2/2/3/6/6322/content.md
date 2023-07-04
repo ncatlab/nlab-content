@@ -189,7 +189,7 @@ On the early history of the development of quantum chromodynamics (the [[quark]]
 * [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) &lbrack;[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)&rbrack;
 
 
-### Lattice QCD checks
+### Lattice QCD 
 
 Due to _[[confinement]]_, the fundamental degrees of freedom in terms of which QCD is formulated, namely the [[quarks]], are actually not the low-energy [[bound states]] of the theory, which instead are the [[hadrons]]. This leaves room to speculate that QCD is not really the fundamental theory of the [[strong nuclear force]].
 
@@ -214,6 +214,21 @@ On [[string diagram]]-calculus ([Cvitanović 2008](string+diagram#Cvitanovic08):
 
 * [[Stéphane Peigné]], *Introduction to color in QCD: Initiation to the birdtrack pictorial technique* &lbrack;[arXiv:2302.07574](https://arxiv.org/abs/2302.07574)&rbrack;
 
+### Light-cone quantization
+
+Non-perturbative QCD and [[hadron]] bound states by [[light-cone quantization]] (see there for more):
+
+
+* [[G. Peter Lepage]], [[Stanley J. Brodsky]], *Exclusive processes in perturbative quantum chromodynamics*, Phys. Rev. D **22** (1980) 2157 &lbrack;[doi:10.1103/PhysRevD.22.2157](https://doi.org/10.1103/PhysRevD.22.2157)&rbrack;
+
+* {#PauliBrodsky85b} [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Discretized light-cone quantization: Solution to a field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 2001 &lbrack;[doi:10.1103/PhysRevD.32.2001](https://doi.org/10.1103/PhysRevD.32.2001)&rbrack;
+
+* [[Stanley J. Brodsky]], Gary McCartor, [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *The challenge of light-cone quantization of gauge field theory*, Particle World **3** 3 (1993) 109-124  &lbrack;[cds:240388](http://cds.cern.ch/record/240388), [inspire:335247](https://inspirehep.net/literature/335247)&rbrack;
+
+
+* {#BrodskyPauliPinsky98} [[Stanley Brodsky]], [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
+
+* [[Stanley Brodsky]], [[Thomas Heinzl]] et al. *Light-Front Quantum Chromodynamics: A framework for the analysis of hadron physics*, White Paper of International Light Cone Advisory Committee, Nuclear Physics B - Proceedings Supplements **251**, **252** (2014) 165-174 &lbrack;[doi:10.1016/j.nuclphysbps.2014.05.004](https://doi.org/10.1016/j.nuclphysbps.2014.05.004), [arXiv:1309.6333](https://arxiv.org/abs/1309.6333)&rbrack;
 
 
 
