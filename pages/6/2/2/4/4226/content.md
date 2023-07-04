@@ -21,13 +21,17 @@
 
 ## Idea
 
-What is called _motivic integration_ is an upgrade of [[p-adic integration]] to a geometric integration theory obtained by replacing the [[p-adic integers]] by a [[formal power series ring]] over the [[complex numbers]], and more generally by henselian discretely valued fields of residual characteristic zero.
+_Motivic integration_ refers to one of several generalizations of [[p-adic integration]] to a geometric integration theory obtained by replacing the [[p-adic integers]] by a more broad class of rings. Some examples include [[formal power series ring]] over the [[complex numbers]], and more generally any henselian discretely valued fields of residual characteristic zero. [Recently](#References), these cases have been generalized to the case of any complete [[discrete valuation ring]] (whose [[residue field]] is [[perfect field|perfect]] in the [[mixed characteristic]] case).
+
+In all of the described cases, the idea is to construct a suitable [[scheme]] over the residue field, called the [[arc space|arc scheme]] which serves as a suitable [[measure space]] on which functions are integrated; however, the value of integrals are not [[real number|real numbers]], but instead they are valued in the [[Grothendieck ring]] of varieties. In this sense, the value of a "motivic" integral is often regarded as a _geometric object_, rather than a numerical value.
+
+The notion of arc scheme has a further generalization, known as a [[Greenberg scheme]].
 
 ## History
 
-Motivic integration was introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995 in order to prove that [[Hodge numbers]] of [[Calabi-Yau manifolds]] are [[birational map|birational]] invariants. This talk also dealt with [[orbifold cohomology]] as well as 2 related papers of  [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, [[Yongbin Ruan]] and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. From physical side a pioneer of both subjects is also Batyrev. 
+Motivic integration was introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995 in order to prove that [[Hodge numbers]] of [[Calabi-Yau manifolds]] are [[birational map|birational]] invariants. This talk also dealt with [[orbifold cohomology]] as well as 2 related papers of  [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, [[Yongbin Ruan]] and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. Batyrev is another contributor to both subjects in the context of physics.
 
-Later, more general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using model theoretical approach is by Hrushovski and Kazhdan. 
+Later, a more general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using a model-theoretic approach is by Hrushovski and Kazhdan. 
 
 ## Related concepts
 
