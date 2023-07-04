@@ -13,6 +13,25 @@
 * table of contents
 {:toc}
 
+##Idea
+
+In [Lavers 97](#Lavers97) T.G. Lavers introduced the [[monoid]] of $n$-vines, $V_n$ whose elements are thought of as paths between two sets of $n$ distinct points in $\mathbb{R}^3$ which are allowed to merge into a single path, but not separate again. Some examples, from Lavers' original paper, are depicted below.
+
+\begin{imagefromfile}
+        "file_name": "vinesJPEG.jpg",
+        "width": 300
+    \end{imagefromfile}
+
+Notice that $V_n$ is not a group because a general vine can not be untangled to give the trivial vine which is $n$ paths straight down. However, via pre- and post-composition, the vine monoid is acted on by the [[braid group|braid group on $n$ strands]]. When two $n$-vines are composed any resulting strands which are only attached to one endpoint get retracted down to that endpoint, as in the following image (again from [Lavers 97](#Lavers97)):
+
+\begin{imagefromfile}
+        "file_name": "vinescompose.jpg",
+        "width": 300
+    \end{imagefromfile}
+
+More generally, one can consider vines from $n$ points to $m$ points. As a result vines can be assembled into a category, described below.
+
+
 ## Definition
 
 What is called the *category of vines* is the [[free construction|free]] [[braided monoidal category|braided]] [[strict monoidal category]] containing a braided monoid (i.e. an [[E2-algebra|$E_2$-algebra]]). It is also the [[PRO|PROB]] for braided monoids.  
@@ -44,10 +63,28 @@ Then an *$(m,n)$-vine* is a set of arcs $\{v_1,\ldots,v_m\}$ (i.e. piecewise lin
 Let $\mathbb{V}$ be the category with set of [[objects]] the [[natural numbers]] with set of [[morphisms]] $\mathbb{V}(m,n)$ being $(m,n)$-vines modulo a suitable notion of "isotopy" that allows arcs to be deformed up to homotopy but not pass through one another.
 \end{defn}
 
+##Properties
+
+The [[monoidal category|monoidal structure]] of $\mathbb{V}$ is given by addition of [[natural numbers]] and juxtaposition of vines. Because $\mathbb{V}$ contains the [[braid category]] as a [[subcategory]], it cannot be [[symmetric monoidal]], but it is [[braided monoidal category|braided monoidal]]. The braiding is the same as that of the braid category, the "$m$-over-$n$" braid depicted below.
+
+\begin{imagefromfile}
+        "file_name": "braiding.jpg",
+        "width": 300
+    \end{imagefromfile}
+
+
+
+\begin{exercise}
+Show that the above is a braided monoidal structure on $\mathbb{V}$.
+\end{exercise}
+
+
 
 ## References
 
-* [[Mark Weber]], §6.3 of: _Internal algebra classifiers as codescent objects of crossed internal categories_. Theory and Applications of Categories, **30** 50 (2015) 1713–1792 &lbrack;[tac:30/50](http://www.tac.mta.ca/tac/volumes/30/50/30-50abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/30/50/30-50.pdf)&rbrack;
+* {#Lavers97} T. G. Lavers, _The theory of vines_, Comm. Algebra 25 (1997), no. 4, 1257–1284.
+
+* {#Weber2015}[[Mark Weber]], §6.3 of: _Internal algebra classifiers as codescent objects of crossed internal categories_. Theory and Applications of Categories, **30** 50 (2015) 1713–1792 &lbrack;[tac:30/50](http://www.tac.mta.ca/tac/volumes/30/50/30-50abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/30/50/30-50.pdf)&rbrack;
 
 
 
