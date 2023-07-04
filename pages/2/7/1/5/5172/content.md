@@ -33,6 +33,11 @@ On the mathematical foundations of [[quantum mechanics]] based on [[Hilbert spac
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+Co-introducing [[Jordan algebras]] as [[algebras of quantum observables]]:
+
+* {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
+
+
 On [[quantum logic]]:
 
 * {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
