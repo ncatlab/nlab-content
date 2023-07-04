@@ -155,6 +155,8 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 
 * The category of [[crossed G-set|crossed G-sets]].
 
+* The category of [[vines]].
+
 ## Properties
 
 ### Tannaka duality
