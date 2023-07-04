@@ -53,6 +53,13 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 ## References
 
+Exposition in the [[AQFT|algebraic]] formulation of [[quantum mechanics]]:
+
+* {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
+
+* {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
+
+
 Careful discussion of local gauge invariant observables in [[gravity]]/[[general relativity]] is in 
 
 
