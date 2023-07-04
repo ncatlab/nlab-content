@@ -163,7 +163,7 @@ $$
     \;\colon\;  
   E_{\bullet + 1}(X, A)
     \longrightarrow
-  E^\bullet(A, \emptyset)  
+  E_\bullet(A, \emptyset)  
   \,.
 $$ 
 
@@ -207,12 +207,12 @@ such that:
      E_n(X, A)
    $$
 
-We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[direct sums]]:
+We say $E_\bullet$ is **additive** if it takes [[coproducts]] to [[direct sums]]:
 
 * **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
 
   $$
-    \oplus_i E^n(X_i, A_i) \overset{\simeq}{\longrightarrow} E^n(X, A)
+    \oplus_i E_n(X_i, A_i) \overset{\simeq}{\longrightarrow} E_n(X, A)
   $$
 
   is an [[isomorphism]]from the [[direct sum]] of the value on the summands, to the value on the total pair.
