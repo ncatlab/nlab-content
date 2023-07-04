@@ -15,6 +15,8 @@ and its application to [[QCD]]:
 
 * [[Stanley Brodsky]], [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *Quantum Chromodynamics and Other Field Theories on the Light Cone*, Phys. Rept. **301** (1998) 299-486 &lbrack;[arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477), <a href="https://doi.org/10.1016/S0370-1573(97)00089-6">doi:10.1016/S0370-1573(97)00089-6</a>&rbrack;
 
+* {#Pauli99} [[Hans-Christian Pauli]], *Discretized light-cone quantization and the effective interaction in hadrons*, AIP Conf. Proc. **494** (1999) 80-139 &lbrack;[arXiv:hep-ph/9910203](https://arxiv.org/abs/hep-ph/9910203), [doi:10.1063/1.1301662](https://doi.org/10.1063/1.1301662)&rbrack;
+
 
 
 category: people
