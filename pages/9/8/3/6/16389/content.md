@@ -109,11 +109,25 @@ Early review:
 
 * Shau-Jin Chang, Robert G. Root, and Tung-Mow Yan, *Quantum Field Theories in the Infinite-Momentum Frame. I. Quantization of Scalar and Dirac Fields*, Phys. Rev. D **7**,  (1973) 1133 &lbrack;[doi:10.1103/PhysRevD.7.1133](https://doi.org/10.1103/PhysRevD.7.1133)&rbrack;
 
-* [[Stanley J. Brodsky]], Gary McCartor, [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *The challenge of light-cone quantization of gauge field theory*, Part. World **3** 3 (1993) 109-124  &lbrack;[cds:240388](http://cds.cern.ch/record/240388), [inspire:335247](https://inspirehep.net/literature/335247)&rbrack;
+* [[Stanley J. Brodsky]], Gary McCartor, [[Hans-Christian Pauli]], [[Stephen S. Pinsky]], *The challenge of light-cone quantization of gauge field theory*, Particle World **3** 3 (1993) 109-124  &lbrack;[cds:240388](http://cds.cern.ch/record/240388), [inspire:335247](https://inspirehep.net/literature/335247)&rbrack;
+
+* Wei-Min Zhang, *Light-Front Dynamics and Light-Front QCD*, Chin. J. Phys. **32** (1994) 717-808 &lbrack;[arXiv:hep-ph/9412244](https://arxiv.org/abs/hep-ph/9412244)&rbrack;
+
+Further review:
+
+* Guillaume Beuf, Meijian Li, Tolga Altinoluk, Fabio Dominguez, *Course on Light-Cone Techniques applied to QCD*  (2022) &lbrack;[indico:1203236](https://indico.cern.ch/event/1203236)&rbrack;
+
+* [[Stanley Brodsky]], [[Thomas Heinzl]] et al. *Light-Front Quantum Chromodynamics: A framework for the analysis of hadron physics*, White Paper of International Light Cone Advisory Committee, Nuclear Physics B - Proceedings Supplements **251**, **252** (2014) 165-174 &lbrack;[doi:10.1016/j.nuclphysbps.2014.05.004](https://doi.org/10.1016/j.nuclphysbps.2014.05.004), [arXiv:1309.6333](https://arxiv.org/abs/1309.6333)&rbrack;
+ 
+* Wikipedia, *[Light front quantization](https://en.wikipedia.org/wiki/Light_front_quantization)*
+ 
 
 The notion of lightlike circle compactification ("discretized light-cone quantization"):
 
 * {#PauliBrodsky85a} [[Hans-Christian Pauli]], [[Stanley J. Brodsky]], *Solving field theory in one space and one time dimension*, Phys. Rev. D **32** (1985) 1993 &lbrack;[doi:10.1103/PhysRevD.32.1993](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.32.1993)&rbrack;
+
+* {#Pauli99} [[Hans-Christian Pauli]], *Discretized light-cone quantization and the effective interaction in hadrons*, AIP Conf. Proc. **494** (1999) 80-139 &lbrack;[arXiv:hep-ph/9910203](https://arxiv.org/abs/hep-ph/9910203), [doi:10.1063/1.1301662](https://doi.org/10.1063/1.1301662)&rbrack;
+
 
 Lecture notes:
 
