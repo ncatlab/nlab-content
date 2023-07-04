@@ -30,14 +30,15 @@ In particular, under mild technical conditions (see [Milnor-Moore 65, p. 262 ](#
 
 ## References
 
-The [[Pontrjagin product]] is due to:
+The "[[Pontryagin-multiplication]]" on loop/path spaces is due to
+
+* [[Raoul Bott]], [[Hans Samelson]], *On the Pontryagin product in spaces of paths*, Commentarii Mathematici Helvetici **27** (1953) 320–337 &lbrack;[doi:10.1007/BF02564566](https://doi.org/10.1007/BF02564566)&rbrack;
+
+named in honor of the analogous construction over [[compact Lie groups]] in:
 
 * [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
 
-Discussion of homology of (iterated) loop spaces:
-
-* [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America, Vol. 46, No. 4 (Apr. 15, 1960), pp. 543-545 (3 pages) ([jstor:70867 ](https://www.jstor.org/stable/70867))
-
+Further discussion of homology of ([[iterated loop space|iterated]]) [[loop spaces]]:
 
 * [[Eldon Dyer]], [[Richard Lashof]], _Homology of Iterated Loop Spaces_,  American Journal of Mathematics Vol. 84, No. 1 (Jan., 1962), pp. 35-88 ([jstor:2372804 ](https://www.jstor.org/stable/2372804))
 
