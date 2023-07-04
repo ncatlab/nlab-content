@@ -26,15 +26,38 @@ the _[[group completion theorem]]_ relates the [[Pontrjagin ring]] of a [[topolo
 
 * [[homology of loop spaces]]
 
+
 ## References
 
-* [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
+The concept and the terminology "Pontryagin-multiplication" is due to
+
+* [[Raoul Bott]], [[Hans Samelson]], *On the Pontryagin product in spaces of paths*, Commentarii Mathematici Helvetici **27** (1953) 320–337 &lbrack;[doi:10.1007/BF02564566](https://doi.org/10.1007/BF02564566)&rbrack;
+
+who name it in honor of the analogous product operation on the homology of [[compact Lie groups]] due to:
+
+* [[Lev Pontrjagin]], *Homologies in compact Lie groups*, Rec. Math. [Mat. Sbornik] N.S. **6**(**48**) 3 (1939) 389–422 &lbrack;[mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng)&rbrack;
+
+Further early discussion:
+
+* [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America **46** 4 (1960) 543-545 &lbrack;[jstor:70867](https://www.jstor.org/stable/70867)&rbrack;
+
+* [[William Browder]], p. 36 of: *Torsion in H-Spaces*, Annals of Mathematics, Second Series **74** 1 (1961) 24-51  &lbrack;[jstor:1970305](https://www.jstor.org/stable/1970305)&rbrack;
 
 * [[William Browder]], *Homology Rings of Groups*, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
 
 In relation to [[Whitehead products]]:
 
 * [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
+
+In the context of [[string topology]]:
+
+* [[Moira Chas]], [[Dennis Sullivan]], §3 in: *String Topology* &lbrack;[arXiv:math/9911159](https://arxiv.org/abs/math/9911159)&rbrack;
+
+Textbook account:
+
+* {#Hatcher02} [[Allen Hatcher]], §3.C, pp. 287 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
+
 
 See also
 
@@ -50,3 +73,13 @@ See also
 
 [[!redirects Pontrjagin product]]
 [[!redirects Pontrjagin products]]
+
+[[!redirects Pontryagin multiplication]]
+[[!redirects Pontryagin multiplications]]
+
+[[!redirects Pontryagin-multiplication]]
+[[!redirects Pontryagin-multiplications]]
+
+
+
+
