@@ -13,6 +13,13 @@ Early discussion of [[quantum mechanics]] (and apparently introducing that term)
 
 * [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
 
+Introducing [[Jordan algebras]]:
+
+* {#Jordan32} [[Pascual Jordan]], *Über eine Klasse nichtassociativer hyperkomplexer Algebren*, Nachr. Ges. Wiss. Göttingen (1932) 569-575 &lbrack;[eudml:59403](https://eudml.org/doc/59403)&rbrack;
+ 
+* {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
+
+
 ## Related entries
 
 * [[Jordan algebra]]
