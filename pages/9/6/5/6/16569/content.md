@@ -100,19 +100,23 @@ Duke Math. J., 120 (2003) 601&#8211;620 [math.AG/0207171](http://arxiv.org/abs/m
 
 * M Musta&#355;&#462;, _Jet schemes of locally complete intersection canonical singularities_, with an appendix by David Eisenbud and Edward Frenkel, Invent. Math., 145 (2001) 397&#8211;424; _Singularities of pairs via jet schemes_, J. Amer. Math. Soc., 15 (2002) 599&#8211;615
 
-* Cobo Pablos, H. and Gonz&#225;lez P&#233;rez, Pedro Daniel (2012) Motivic Poincar&#233; series, toric singularities and logarithmic Jacobian ideals. Journal of algebraic geometry, 21 (3). pp. 495-529 [pdf](http://www.ams.org/journals/jag/2012-21-03/S1056-3911-2011-00567-5/S1056-3911-2011-00567-5.pdf)
+* Cobo Pablos, H. and Gonz&#225;lez P&#233;rez, Pedro Daniel (2012) Motivic Poincar&#233; series, toric singularities and logarithmic Jacobian ideals. Journal of algebraic geometry, 21 (3) 495-529 [pdf](http://www.ams.org/journals/jag/2012-21-03/S1056-3911-2011-00567-5/S1056-3911-2011-00567-5.pdf)
 
 * Dave Anderson, Alan Stapledon, _Arc spaces and equivariant cohomology_, Transformation Groups 18:4 (2013) 931-969
 * J. Nicaise, _Arcs and resolution of singularities_, Manuscr. Math. 116: pp. 297-322 (2005)
 
-* W. Veys, _Arc spaces, motivic integration and stringy invariants_, in
-Singularity theory and its applications, Adv. Stud. Pure Math. 43, Math. Soc. Japan, Tokyo (2006) 529-572
+* W. Veys, _Arc spaces, motivic integration and stringy invariants_, in: Singularity theory and its applications, Adv. Stud. Pure Math. 43, Math. Soc. Japan, Tokyo (2006) 529-572
 
 See also Corollary 4.4 in
 
-* Bhargav Bhatt, _Algebraization and Tannaka duality_, [arXiv/1404.7483](http://arxiv.org/abs/1404.7483)
+* [[Bhargav Bhatt]], _Algebraization and Tannaka duality_, 
+Cambridge J. Math. __4__: 4 (2016)
+ 403-461 [doi](https://doi.org/10.4310/CJM.2016.v4.n4.a1)
+[arXiv:404.7483](https://arxiv.org/abs/1404.7483)
 
 
 
 
 [[!redirects arc spaces]]
+[[!redirects arc schemes]]
+[[!redirects arc scheme]]
