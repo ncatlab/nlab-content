@@ -165,11 +165,20 @@ where $h : \prod_{x : S^1} x = x$ is defined in Lemma 6.4.2 of the [[HoTT book]]
 
 Introduction and survey:
 
+
+* {#Hatcher02} [[Allen Hatcher]], §3.C in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
 * {#Arkowitz11} [[Martin Arkowitz]], *H-Spaces and Co-H-Spaces*, chapter 2 in: *Introduction to homotopy theory*, Springer (2011) 37-70 &lbrack;[doi:10.1007/978-1-4419-7329-0_2](https://doi.org/10.1007/978-1-4419-7329-0_2)&rbrack; 
 
-The terminology "$H$-space" is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
+The terminology "$H$-space" appear sin  
 
-* [[Jean-Pierre Serre]], _Homologie singuli&#232;re des espaces fibr&#233;s. Applications._, Ann. Math. __54__ (1951), 425--505. 
+* [[Jean-Pierre Serre]], Chapter IV, Section 1 of: _Homologie singuli&#232;re des espaces fibr&#233;s. Applications._, Ann. Math. __54__ (1951), 425--505. 
+
+Early discussion:
+
+* [[William Browder]], *Torsion in H-Spaces*, Annals of Mathematics, Second Series **74** 1 (1961) 24-51  &lbrack;[jstor:1970305](https://www.jstor.org/stable/1970305)&rbrack;
+
+
 
 More general notion of [[internalization|internal]] H-objects:
 
