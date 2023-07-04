@@ -212,13 +212,13 @@ Computation of [[graviton]] [[scattering amplitudes]] with the BFSS matrix model
 
 * [[Katrin Becker]], [[Melanie Becker]], _A Two-Loop Test of M(atrix) Theory_, Nucl.Phys. B506 (1997) 48-60 ([arXiv:hep-th/9705091](https://arxiv.org/abs/hep-th/9705091))
 
-* [[Katrin Becker]], [[Melanie Becker]], [[Joseph Polchinski]], [[Arkady Tseytlin]], _Higher Order Graviton Scattering in M(atrix) Theory_, Phys.Rev.D56:3174-3178,1997 ([arXiv:hep-th/9706072](https://arxiv.org/abs/hep-th/9706072))
+* [[Katrin Becker]], [[Melanie Becker]], [[Joseph Polchinski]], [[Arkady Tseytlin]], _Higher Order Graviton Scattering in M(atrix) Theory_, Phys. Rev. D **56** (1997) 3174-3178 &lbrack;[arXiv:hep-th/9706072](https://arxiv.org/abs/hep-th/9706072), [doi:10.1103/PhysRevD.56.R3174](https://doi.org/10.1103/PhysRevD.56.R3174)&rbrack;
 
 * also [Kabat-Taylor 97](#KabatTaylor97)
 
 * M. Fabbrichesi, _Graviton scattering in matrix theory and supergravity_, in: Ceresole A., Kounnas C., [[Dieter Lüst]], [[Stefan Theisen]] (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_, Lecture Notes in Physics, vol 525. Springer, Berlin, Heidelberg ([arXiv:hep-th/9811204](https://arxiv.org/abs/hep-th/9811204))
 
-* [[Robert Helling]], [[Jan Plefka]], Marco Serone, Andrew Waldron, _Three-graviton scattering in M-theory_, Nuclear Physics B Volume 559, Issues 1–2, 18 October 1999, Pages 184-204 ([arXiv:hep-th/9905183](https://arxiv.org/abs/hep-th/9905183))
+* [[Robert Helling]], [[Jan Plefka]], Marco Serone, Andrew Waldron, *Three-graviton scattering in M-theory*, Nuclear Physics B **559** 1–2 (1999) 184-204 &lbrack;[arXiv:hep-th/9905183](https://arxiv.org/abs/hep-th/9905183), <a href="https://doi.org/10.1016/S0550-3213(99)00451-4">doi:10.1016/S0550-3213(99)00451-4</a>&rbrack;
 
 * Robert Echols, _M-theory, supergravity and the matrix model: Graviton scattering and non-renormalization theorems_, PhD thesis, 1999 [pdf](https://web.calpoly.edu/~rechols/phys403/mythesis.pdf)
 
