@@ -3,13 +3,13 @@
 
 ## Selected writings
 
-On [[homology of H-spaces]]:
+On [[homology of H-spaces]] and their [[Pontryagin product]]:
 
-* [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America, Vol. 46, No. 4 (Apr. 15, 1960), pp. 543-545 (3 pages) ([jstor:70867 ](https://www.jstor.org/stable/70867))
+* [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America **46** 4 (1960) 543-545 &lbrack;[jstor:70867](https://www.jstor.org/stable/70867)&rbrack;
 
+* [[William Browder]], p. 36 of: *Torsion in H-Spaces*, Annals of Mathematics, Second Series **74** 1 (1961) 24-51  &lbrack;[jstor:1970305](https://www.jstor.org/stable/1970305)&rbrack;
 
-On [[Pontrjagin rings]]:
+* [[William Browder]], *Homology Rings of Groups*, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
 
-* [[William Browder]], _Homology Rings of Groups_, American Journal of Mathematics Vol. 90, No. 1 (Jan., 1968) ([jstor:2373440](https://www.jstor.org/stable/2373440))
 
 category: people
