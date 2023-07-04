@@ -55,8 +55,20 @@ See also
 
 * Wikipedia _[Motivic integration](https://en.wikipedia.org/wiki/Motivic_integration)_
 
-Original articles include the following:
+Lectures include
 
+* Karen Smith, _Motivic integration_, ([pdf](http://www.msri.org/ext/shortermotivic2.pdf))
+* Manuel Blickle, _A short course on geometric motivic integration_, [math.AG/0507404](http://arxiv.org/abs/math/0507404)
+* [[Raf Cluckers]], _Motivic integration for dummies_, [pdf](http://wis.kuleuven.be/algebra/Raf/MForD.pdf), A course on motivic integration [I](http://wis.kuleuven.be/algebra/Raf/LaRoche3Cluckers.pdf), [II](http://wis.kuleuven.be/algebra/Raf/LaRoche3Cluckers.pdf), [III](http://wis.kuleuven.be/algebra/Raf/LaRoche3Cluckers.pdf)
+* Julia Gordon, Yoav Yaffe, _An overview of arithmetic motivic integration_, [arxiv/0811.2160](http://arxiv.org/abs/0811.2160)
+* [[Lou van den Dries]], _Lectures on motivic integration_ , Ms. University of Illinois at Urbana-Champaign. ([dvi](http://www.math.uiuc.edu/~vddries/mo.dvi))
+* Thomas C. Hales, _What is motivic measure?_, [math.LO/0312229](https://arxiv.org/abs/math/0312229)
+
+The concept originates from
+
+* [[M. Kontsevich]], lecture on motivic integration, Orsay, December 7, 1995.
+
+Original articles include the following:
 
 * Jan Denef, [[François  Loeser]], _Definable sets, motives and $p$-adic integrals_,  J. Amer. Math. Soc. __14__ (2001),  no. 2, 429--469, [doi](http://dx.doi.org/10.1090/S0894-0347-00-00360-X)
 
@@ -68,35 +80,25 @@ Original articles include the following:
 
 * D. Abramovich, M. Mari&#241;o, M. Thaddeus, R. Vakil, _Enumerative invariants in algebraic geometry and string theory_, Lectures from the C.I.M.E. Summer School, Cetraro, June 6--11, 2005. Edited by Kai Behrend and Marco Manetti. LNIM 1947, Springer 2008. x+201 pp.
 
-* Manuel Blickle, _A short course on geometric motivic integration_, [math.AG/0507404](http://arxiv.org/abs/math/0507404)
+Hrushovski and Kazhdan studied motivic integration from [[model theory]] point of view:
 
 * [[Ehud Hrushovski]], [[David Kazhdan]], _Motivic Poisson summation_, [arxiv/0902.0845](http://arxiv.org/abs/0902.0845)
 
-* [[Ehud Hrushovski]], [[David Kazhdan]], _The value ring of geometric motivic integration and the Iwahori Hecke algebra of $SL_2$_, [math.LO/0609115](http://arxiv.org/abs/math/0609115); _Integration in valued fields_, in Algebraic geometry and number theory, 261&#8211;405, Progress. Math. __253__, Birkh&#228;user Boston, [pdf](http://math.huji.ac.il/~ehud/papers/intv-060428.pdf)
-
-* Julia Gordon, Yoav Yaffe, _An overview of arithmetic motivic integration_, [arxiv/0811.2160](http://arxiv.org/abs/0811.2160)
-
-* Thomas C. Hales, _What is motivic measure?_, [math.LO/0312229](http://arxiv.org/abs/math/0312229)
+* [[Ehud Hrushovski]], [[David Kazhdan]], _The value ring of geometric motivic integration and the Iwahori Hecke algebra of $SL_2$_, [math.LO/0609115](http://arxiv.org/abs/math/0609115); _Integration in valued fields_, in Algebraic geometry and number theory, 261&#8211;405, Progress. Math. __253__, Birkh&#228;user Boston, [pdf](http://math.huji.ac.il/~ehud/papers/intv-060428.pd
 
 * [[David Kazhdan]], _Lecture notes in motivic integration_, with intro to logic and model theory, [pdf](http://www.ma.huji.ac.il/~kazhdan/Notes/motivic/b.pdf)
 * R. Cluckers, J. Nicaise, J. Sebag (Editors), _Motivic Integration and its Interactions with Model Theory and Non-Archimedean Geometry_, 2 vols.
 London Mathematical Society Lecture Note Series __383__, __384__ 
-* [[Raf Cluckers]], _Motivic integration for dummies_, [pdf](http://wis.kuleuven.be/algebra/Raf/MForD.pdf), A course on motivic integration [I](http://wis.kuleuven.be/algebra/Raf/LaRoche3Cluckers.pdf), [II](http://wis.kuleuven.be/algebra/Raf/LaRoche3Cluckers.pdf), [III](http://wis.kuleuven.be/algebra/Raf/LaRoche3Cluckers.pdf)
-* Raf Cluckers, Julia Gordon, Immanuel Halupczok, _Motivic functions, integrability, and uniform in p bounds for orbital integrals_, [arxiv/1309.0594](http://arxiv.org/abs/1309.0594)
+* Raf Cluckers, Julia Gordon, Immanuel Halupczok, _Motivic functions, integrability, and uniform in p bounds for orbital integrals_, [arxiv:1309.0594](https://arxiv.org/abs/1309.0594)
 
-* [[Lou van den Dries]], _Lectures on Motivic Integration_ , Ms. University of Illinois at Urbana-Champaign. ([dvi](http://www.math.uiuc.edu/~vddries/mo.dvi))
+* Julien Sebag, _Int&#233;gration motivique sur les sch&#233;mas formels_,  Bull. Soc. Math. France __132__:1 (2004) 1--54, [MR2005e:14017](https://mathscinet.ams.org/mathscinet-getitem?mr=2075915) 
 
-* Julien Sebag, _Int&#233;gration motivique sur les sch&#233;mas formels_,  Bull. Soc. Math. France 132 (2004), no. 1, 1&#8211;54, [MR2005e:14017](http://www.ams.org/mathscinet-getitem?mr=2075915) 
+* Takehiko Yasuda, _Motivic integration over Deligne-Mumford stacks_ (2004) arXiv:[math/0312115](https://arxiv.org/abs/math/0312115)
 
-* Takehiko Yasuda, _Motivic Integration over Deligne-Mumford Stacks_ , arXiv.0312115 (2004). ([pdf](http://arxiv.org/pdf/math/0312115v5.pdf))
+* [[Michael Larsen]], [[Valery Lunts]], _Motivic measures and stable birational geometry_, Mosc. Math. J. 3 (2003), no. 1, 85--95, 259, [math.AG/0110255](http://arxiv.org/abs/math/0110255), [MR2005a:14026](http://www.ams.org/mathscinet-getitem?mr=1996804), [journal](http://www.ams.org/distribution/mmj/vol3-1-2003/abst3-1-2003.html#larsen-lunts_abstract); _Rationality criteria for motivic zeta functions_, Compos. Math. __140__ (2004), no. 6, 1537--1560, [math.AG/0212158](https://arxiv.org/abs/math/0212158)
+* [[Alexei Bondal]], [[Michael Larsen]], [[Valery Lunts]], _Grothendieck ring of pretriangulated categories_, Int. Math. Res. Not. 2004, no. 29, 1461--1495, [math.AG/0401009](https://arxiv.org/abs/math/0401009)
 
-* M. Larsen, [[Valery Lunts]], _Motivic measures and stable birational geometry_, 
-Mosc. Math. J. 3 (2003), no. 1, 85&#8211;95, 259, [math.AG/0110255](http://arxiv.org/abs/math/0110255), [MR2005a:14026](http://www.ams.org/mathscinet-getitem?mr=1996804), [journal](http://www.ams.org/distribution/mmj/vol3-1-2003/abst3-1-2003.html#larsen-lunts_abstract); _Rationality criteria for motivic zeta functions_, Compos. Math. __140__ (2004), no. 6, 1537&#8211;1560, [math.AG/0212158](http://arxiv.org/abs/math/0212158)
-* [[Alexei Bondal]]. M. Larsen, [[Valery Lunts]], _Grothendieck ring of pretriangulated categories_, Int. Math. Res. Not. 2004, no. 29, 1461&#8211;1495, [math.AG/0401009](http://arxiv.org/abs/math/0401009)
-
-* Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis [arxiv/1505.05688](http://arxiv.org/abs/1505.05688)
-
-* Karen Smith, _Motivic integration_, ([pdf](http://www.msri.org/ext/shortermotivic2.pdf))
+* Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis [arxiv/1505.05688](https://arxiv.org/abs/1505.05688)
 
  
 [[!redirects motivic measure]]
