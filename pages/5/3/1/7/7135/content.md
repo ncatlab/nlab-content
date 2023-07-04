@@ -16,6 +16,10 @@ On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
 * [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
 
+Early discussion of the [[duality between type IIA string theory and M-theory]] in view of [[double dimensional reduction]] of the [[M2-brane]]:
+
+* [[Paul K. Townsend]], *The eleven-dimensional supermembrane revisited*, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](https://arxiv.org/abs/hep-th/9501068), <a href="https://doi.org/10.1016/0370-2693(95)00397-4">doi:10.1016/0370-2693(95)00397-4</a>&rbrack;
+
 
 On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
 
@@ -71,3 +75,5 @@ On [[supersymmetry and division algebras]], the corresponding [twistor space](tw
 * [[M-theory super Lie algebra]]
 
 category: people
+
+[[!redirects Paul K. Townsend]]
