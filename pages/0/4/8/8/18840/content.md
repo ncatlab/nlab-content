@@ -14,7 +14,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -211,7 +210,9 @@ Further/other discussion of quantum probability theory:
 
 * {#Attal} [[Stéphane Attal]], *Quantum Probability*, Lecture 7 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Probability.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
 
-* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]])
+* {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
+
+* {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
 
 * [[Qiaochu Yuan]], _[Noncommutative probability](https://qchu.wordpress.com/2012/08/18/noncommutative-probability/)_, 2012
