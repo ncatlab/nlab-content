@@ -118,6 +118,8 @@ Further review:
 * Guillaume Beuf, Meijian Li, Tolga Altinoluk, Fabio Dominguez, *Course on Light-Cone Techniques applied to QCD*  (2022) &lbrack;[indico:1203236](https://indico.cern.ch/event/1203236)&rbrack;
 
 * [[Stanley Brodsky]], [[Thomas Heinzl]] et al. *Light-Front Quantum Chromodynamics: A framework for the analysis of hadron physics*, White Paper of International Light Cone Advisory Committee, Nuclear Physics B - Proceedings Supplements **251**, **252** (2014) 165-174 &lbrack;[doi:10.1016/j.nuclphysbps.2014.05.004](https://doi.org/10.1016/j.nuclphysbps.2014.05.004), [arXiv:1309.6333](https://arxiv.org/abs/1309.6333)&rbrack;
+
+* J. Vary et al. *Basis Light-Front Quantization: Recent Progress and Future Prospects*, Few-Body Syst **57** (2016) 695–702 &lbrack;[doi:10.1007/s00601-016-1117-x](https://doi.org/10.1007/s00601-016-1117-x)&rbrack;
  
 * Wikipedia, *[Light front quantization](https://en.wikipedia.org/wiki/Light_front_quantization)*
  
