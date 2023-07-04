@@ -386,7 +386,15 @@ Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]]
 
 ### General
 
-First indications for M-theory came from the [[supermembrane]] [[Green-Schwarz sigma-model]] now called the [[M2-brane]]. A comprehensive collection of early articles is in 
+First indications for M-theory came from the observation that the [[double dimensional reduction]] of the [[supermembrane]] [[Green-Schwarz sigma-model]] on [[11d supergravity]] [[target spacetimes]] (now called the [[M2-brane]] yields the [[type IIA superstring]]: 
+
+* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B **191** (1987) 70 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91323-2">doi:10.1016/0370-2693(87)91323-2</a>&rbrack; and in: [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) &lbrack;[spire](http://inspirehep.net/record/245249)&rbrack;
+
+and the first statement of what came to be known as the [[duality between type IIA string theory and M-theory]] is due to:
+
+* [[Paul K. Townsend]], *The eleven-dimensional supermembrane revisited*, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](https://arxiv.org/abs/hep-th/9501068), <a href="https://doi.org/10.1016/0370-2693(95)00397-4">doi:10.1016/0370-2693(95)00397-4</a>&rbrack;
+
+A comprehensive collection of early articles is in 
 
 * {#Duff99} [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
 
@@ -396,13 +404,13 @@ For some time though the success of [[string theory]] in 10-dimensions caused re
 
 The article that convinced the community of M-theory was
 
-* {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124), <a href="https://doi.org/10.1016/0550-3213(95)00158-O">doi:10.1016/0550-3213(95)00158-O</a>)
+* {#Witten95} [[Edward Witten]], esp. §2.2, §2.3 in: _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124), <a href="https://doi.org/10.1016/0550-3213(95)00158-O">doi:10.1016/0550-3213(95)00158-O</a>&rbrack;
 
 A public talk announcing the conjecture that the [[non-perturbative field theory|strong-coupling limit]] of [[type IIA string theory]] is [[11-dimensional supergravity]] [[KK-compactification|KK-compactified]] on a circle is at 15:12 in
 
-* {#Witten95Talk} [[Edward Witten]], talk at University of Southern California, 1995 ([video](https://youtu.be/1HYa4wxqe8Y))
+* {#Witten95Talk} [[Edward Witten]], talk at University of Southern California (1995) &lbrack;video:[YT](https://youtu.be/1HYa4wxqe8Y)&rbrack;
 
-   19:33: "Ten years ago we had the embarrassment that there were five consistent string theories plus a close cousin, which was 11-dimensional supergravity." (19:40): "I promise you that by the end of the talk we have just one big theory."
+   > 19:33: "Ten years ago we had the embarrassment that there were five consistent string theories plus a close cousin, which was 11-dimensional supergravity." (19:40): "I promise you that by the end of the talk we have just one big theory."
 
 The term "M-theory" originates in 
 
@@ -429,7 +437,7 @@ The argument that the regularized [[M2-brane]] [[worldvolume]] theory is the [[B
 
 * {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
 
-* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
+* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. **8** 1 (2002) Rev. Mex. Fis. **49S1**  (2003) 1-10 &lbrack;[arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182)&rbrack;
 
 Recollections include the last paragraph of 
 
@@ -439,7 +447,7 @@ Recollections include the last paragraph of
 
 The term became fully established with surveys including
 
-* {#Duff96} [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+* {#Duff96} [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A **11** (1996) 5623-5642 &lbrack;[arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117), [doi:10.1142/S0217751X96002583](https://doi.org/10.1142/S0217751X96002583)&rbrack;
 
 * {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf), [[DuffFormerlyStrings98.pdf:file]])
 
@@ -463,7 +471,7 @@ Early review:
 
 * [[Paul Townsend]], _Four Lectures on M-theory_,  in: Proceedings of the ICTP summer school on High Energy Physics and Cosmology, Trieste, June 1996. ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121))
 
-* {#ObersPioline98} N. A. Obers, B. Pioline, _U-duality and M-Theory_, Phys. Rept. **318** 113-225,1999 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+* {#ObersPioline98} [[Niels A. Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
 * [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
 
