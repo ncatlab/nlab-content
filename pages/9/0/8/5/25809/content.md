@@ -2,9 +2,12 @@ __Gang Tian__ is a Chinese-American differential geometer. With [[Yongbin Ruan]]
 
 ## Selected writings
 
-Introducing [[quantum cohomology]]:
+Introducing a mathematical definition of [[quantum cohomology rings]]:
 
 * [[Yongbin Ruan]], [[Gang Tian]], _A mathematical theory of quantum cohomology_, Mathematical Research Letters **1** 2 (1994) 269-278 &lbrack;[doi:10.4310/MRL.1994.v1.n2.a15](https://doi.org/10.4310/MRL.1994.v1.n2.a15), [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/mrl/1994/0001/0002/MRL-1994-0001-0002-a015.pdf)&rbrack;
+
+* [[Bernd Siebert]], [[Gang Tian]], *On Quantum Cohomology Rings of Fano Manifolds and a Formula of Vafa and Intriligator*,  Asian Journal of Mathematics **1** 4 (1997) 679 – 695 &lbrack;[arXiv:alg-geom/9403010](https://arxiv.org/abs/alg-geom/9403010), [doi:10.4310/AJM.1997.v1.n4.a2](https://dx.doi.org/10.4310/AJM.1997.v1.n4.a2)&rbrack;
+
 
 Related work on technique of virtual classes
 
