@@ -2,4 +2,11 @@ __Arun Ram__ is a mathematician at the University of Melbourne (formerly at the 
 
 * [web](http://www.ms.unimelb.edu.au/~ram)
 
+## Selected writings
+
+On [[quantum cohomology]] of [[flag varieties]]:
+
+* [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
+
+
 category: people
