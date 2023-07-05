@@ -3647,6 +3647,8 @@ $$
 
 * [[braid cobordism]]
 
+* [[vine monoid]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 
