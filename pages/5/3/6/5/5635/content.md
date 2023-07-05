@@ -48,6 +48,11 @@ motivated by
 
 * {#Witten88} [[Edward Witten]], *Topological sigma models*,  Comm. Math. Phys. **118** 3 (1988) 411-449 &lbrack;[euclid:cmp/1104162092](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-118/issue-3/Topological-sigma-models/cmp/1104162092.full)&rbrack;
 
+See also:
+
+* [[Eric Zaslow]], *Topological Orbifold Models and Quantum Cohomology Rings*, Commun. Math. Phys. **156** (1993) 301-331 &lbrack;[arXiv:hep-th/9211119](https://arxiv.org/abs/hep-th/9211119), [doi:10.1007/BF02098485](https://doi.org/10.1007/BF02098485)&rbrack;
+
+  > (targets [[orbifolds]] of [[Riemann sphere|$\mathbb{C}P^1$]])
 
 The rigorous mathematical formulation in [[differential geometry|differential]] [[symplectic geometry]] via [[Gromov-Ruan-Witten invariants]] is due to:
 
@@ -115,8 +120,10 @@ On quantum cohomology rings of [[flag varieties]] --- "quantum [[Schubert calcul
 * [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
 
 
-* [[Naichung Conan Leung]], [[Changzheng Li]], *An update of quantum cohomology of homogeneous varieties* &lbrack;[arXiv:1407.5905](https://arxiv.org/abs/1407.5905)&rbrack;
+* {#LeungLi14} [[Naichung Conan Leung]], [[Changzheng Li]], *An update of quantum cohomology of homogeneous varieties* &lbrack;[arXiv:1407.5905](https://arxiv.org/abs/1407.5905)&rbrack;
 
+
+> (e.g. for $\mathbb{C}P^1 = SL(2,\mathbb{C})/P$)
 
 
 
