@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-What us _uniform_ about this convergence is that the bound $N(\epsilon)$ is required to work for all $x \in X$ (hence uniformly over $x$). This is in contrast to [[pointwise convergence]] where one allows a different bound $N$ to exist for each $\epsilon$ and each point $x \in X$ separately. Since for non-[[finite set|finite]] $X$ the [[maximum]] of all such local choices of $N$ in general does not exist, uniform convergence is a stronger condition than [[pointwise convergence]].
+What is _uniform_ about this convergence is that the bound $N(\epsilon)$ is required to work for all $x \in X$ (hence uniformly over $x$). This is in contrast to [[pointwise convergence]] where one allows a different bound $N$ to exist for each $\epsilon$ and each point $x \in X$ separately. Since for non-[[finite set|finite]] $X$ the [[maximum]] of all such local choices of $N$ in general does not exist, uniform convergence is a stronger condition than [[pointwise convergence]].
 
 ## Examples
 
