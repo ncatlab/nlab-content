@@ -5,6 +5,8 @@ Joan Birman is an American mathematician who studies [[knots]] and [[braids]], a
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Joan_Birman)
 
+* [[Dan Margalit]], *The Mathematics of Joan Birman*, Notices of the AMS **66** 3 (2019) &lbrack;[pdf](https://www.ams.org/journals/notices/201903/rnoti-p341.pdf), [pdf](https://www.ams.org/journals/notices/201903/201903FullIssue.pdf)&rbrack;
+
 ## Selected writings
 
 On [[braid groups]], [[links]] and [[mapping class groups]]:
