@@ -27,6 +27,6 @@ Every [[group character]] is in particular a class function.
 
 See also 
 
-* Wikipedia, _[Class function](https://en.wikipedia.org/wiki/Class_function_(algebra)_
+* Wikipedia, _[Class function](https://en.wikipedia.org/wiki/Class_function)_
 
 [[!redirects class functions]]
