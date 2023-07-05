@@ -151,9 +151,12 @@ for some [[coefficients]] $\{c^w_{u v}\}$, to be determined.
 
   * [[Dirac induction]]
 
+* [[quantum Schubert calculus]]
+
 * [[twistor space]], 
 
 * [[twistor correspondence]], [[horocycle correspondence]], [[Grothendieck-Springer correspondence]] 
+
 
 ## References
 
