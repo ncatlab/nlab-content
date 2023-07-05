@@ -31,6 +31,19 @@ Together with [[Gromov-Witten theory]] quantum sheaf cohomology was discovered i
 
 ## References
 
+### General
+
+Introduction and review:
+
+* Martin Guest, *Introduction to Quantum Cohomology*, Vietnam Journal of Mathematics **33** SI (2005) 29–59 &lbrack;[pdf](http://www.math.ac.vn/publications/vjm/VJM_33/Pdf_files_DB_2005/Bai3_Guest.pdf)&rbrack;
+
+* [[Joachim Kock]], [[Israel Vainsencher]], *An Invitation to Quantum Cohomology -- Kontsevich's Formula for Rational Plane Curves*, Birkh&auml;ser (2007) &lbrack;[doi:10.1007/978-0-8176-4495-6](https://doi.org/10.1007/978-0-8176-4495-6)&rbrack;
+
+* Tom Coates, *An Introduction to Quantum Cohomology* &lbrack;[pdf](https://homepages.abdn.ac.uk/kedra/pages/lms/tom.pdf)&rbrack;
+
+* Alexander Givental, *A tutorial on Quantum Cohomology* &lbrack;[pdf](https://math.berkeley.edu/~giventh/papers/lqc.pdf)&rbrack;
+
+
 Lecture notes on quantum cohomology of [[flag varieties]]:
 
 * [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
@@ -45,17 +58,19 @@ After the original physics ideas of Vafa and Witten, a differential geometric fo
 
 * [[Yongbin Ruan]], [[Gang Tian]], _A mathematical theory of quantum cohomology_, J. Diff. Geometry __42__ 2 (1995) 259-367 &lbrack;[doi:10.4310/jdg/1214457234](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-42/issue-2/A-mathematical-theory-of-quantum-cohomology/10.4310/jdg/1214457234.full)&rbrack;
 
-and in temrs of [[algebraic geometry]] in
+and in terms of [[algebraic geometry]] and via [[Frobenius manifolds]]:
 
 * [[Maxim Kontsevich]], [[Yuri Manin]], _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Commun. Math. Physics __164__ (1994) 525-562 [doi](https://doi.org/10.1007/BF02101490) arXiv:[hep-th/9402147](https://arxiv.org/pdf/hep-th/9402147)
 
 * [[Maxim Kontsevich]], [[Yuri Manin]], [[Ralph Kaufmann]], _Quantum cohomology of a product_,  Invent. Math. __124__ (1996) 313-339 [doi](https://doi.org/10.1007/s002220050055) arXiv:[q-alg/9502009](https://arxiv.org/abs/q-alg/9502009)
 
-Somewhat equivalent approach by [[Frobenius manifold]]s has been independently pushed by Dubrovin with motivation in [[integrable system]]s.
+* [[Yuri I. Manin]], *Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces*, Colloquium Publications **47** (1999) &lbrack;[ISBN:978-0-8218-1917-3](https://bookstore.ams.org/coll-47), [mpim-eprint:1598](https://archive.mpim-bonn.mpg.de/id/eprint/1598)&rbrack;
 
-A comprehensive early monograph is
 
-* [[Yuri Manin]], _Frobenius manifolds, quantum cohomology, and moduli spaces_, Amer. Math. Soc. Colloqium Publications __47__, 1999
+also 
+
+* Dubrovin (?) with motivation in [[integrable systems]].
+
 
 See also:
 
@@ -73,5 +88,11 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
   _Quantum sheaf cohomology_ ([pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)) Brandeis university (2010)
 
   _Quantum sheaf cohomology I_ ([pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf))
+
+
+
+
+[[!include quantum cohomology as Pontrjagin rings -- references]]
+
 
 [[!redirects quantum cohomology]]
