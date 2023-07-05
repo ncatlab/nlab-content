@@ -19,11 +19,13 @@ The original reference for the [[Eilenberg-Moore category]] of a monad:
 
 * [[Samuel Eilenberg]], [[John Moore]], _Adjoint functors and triples_, Illinois J. Math. 9 (3), pp. 381 - 398, September 1965. ([doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141))
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Moore complex]]
 
 * [[compactly generated topological spaces]]
+
+* [[Pontrjagin product]]
 
 category: people
 
