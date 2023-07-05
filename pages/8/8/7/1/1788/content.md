@@ -1,5 +1,20 @@
 
 
+$$
+  Br_N
+  \longrightarrow
+  Aut\big(
+    \pi(\Sigma \setminus N)
+  \big)
+  \longrightarrow
+  Aut\Big(
+    A\big(
+      \Sigma \setminus N
+    \big)
+  \Big)
+$$
+
+
 > &lbrack;[Gleason (2011)](#Gleason11), [p. 12](https://ncatlab.org/nlab/files/GleasonFAlgebraic.pdf#page=12)&rbrack;: In [Mackey (1963)](quantum+mechanics#Mackey63), immediately after stating what he believes to be an unmotivated axiom that invokes in some way the usual Hilbert space formulation of quantum mechanics, the author states the following:
 
 > "Ideally one would like to have a list of physically plausible assumptions from which one could deduce [this axiom]. &lbrack;...&rbrack;"
