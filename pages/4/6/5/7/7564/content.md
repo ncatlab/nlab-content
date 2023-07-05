@@ -28,8 +28,12 @@ Also the perspective of [[string theory]] as the dimensional reduction of a conj
 ## Related concepts
 
 * [[TCFT]]
+
   * [[A-model]]
+
   * [[B-model]]
+
+* [[quantum cohomology ring]]
 
 * [[topological M-theory]], [[topological membrane]]
 
@@ -105,4 +109,7 @@ Computation via [[topological recursion]] in [[matrix models]] and all-[[genus o
 [[!redirects topological strings]]
 
 [[!redirects topological string theory]]
+[[!redirects topological string theories]]
+
+
 
