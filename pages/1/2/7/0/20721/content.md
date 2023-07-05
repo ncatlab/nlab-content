@@ -67,18 +67,15 @@ See also
 
 * Wikipedia, _[Pontryagin product](https://en.wikipedia.org/wiki/Pontryagin_product)_
 
-### In quantum (field) theory
+Computation of the Pontryagin products for (loop spaces of) [[flag manifolds]]:
 
-Relation to [[quantum cohomology]] ([[topological string]]-theory):
+* Jelena Grbic, Svjetlana Terzic, *The integral Pontrjagin homology of the based loop space on a flag manifold*, Osaka J. Math. **47** (2010) 439-460 &lbrack;[arXiv:math/0702113](https://arxiv.org/abs/math/0702113)
 
-* Thomas Lam, Mark Shimozono, §6.2 in: *Quantum cohomology of $G/P$ and homology of affine Grassmannian* &lbrack;[arXiv:0705.1386](https://arxiv.org/abs/0705.1386)&rbrack;
 
-* [[Naichung Conan Leung]], [[Changzheng Li]], *Gromov-Witten invariants for $G/B$ and Pontryagin product for $\Omega K$*, Transactions of the American Mathematical Society **364** 5 (2012) 2567-2599  &lbrack;[web](https://www.ams.org/journals/tran/2012-364-05/S0002-9947-2012-05438-9/), [arXiv:0810.4859](https://arxiv.org/abs/0810.4859), [jstor:41524936](https://www.jstor.org/stable/41524936)&rbrack;
 
-Relation to [[chiral rings]] of [[D=3 N=4 super Yang-Mills theory]]:
 
-* [[Constantin Teleman]], *Coulomb branches for quaternionic representations* &lbrack;[arXiv:2209.01088](https://arxiv.org/abs/2209.01088)&rbrack;
 
+[[!include quantum cohomology as Pontrjagin rings -- references]]
 
 
 
@@ -98,6 +95,9 @@ Relation to [[chiral rings]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 [[!redirects Pontryagin-multiplication]]
 [[!redirects Pontryagin-multiplications]]
+
+[[!redirects Peterson isomorphism]]
+[[!redirects Peterson isomorphisms]]
 
 
 
