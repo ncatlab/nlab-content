@@ -32,7 +32,7 @@ Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] 
 For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $(X \otimes Y)_\bullet \in Ch_\bullet(\mathcal{A})$ for the [[chain complex]] whose component in degree $n$ is given by the [[direct sum]]
 
 $$
-  (X \otimes Y)_n := \oplus_{i + j = n} X_i \otimes_R Y_j
+  (X \otimes Y)_n \coloneqq \oplus_{i + j = n} X_i \otimes_R Y_j
 $$
 
 over all tensor products of components whose degrees sum to $n$,
