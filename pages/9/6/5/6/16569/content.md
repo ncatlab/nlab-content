@@ -5,7 +5,7 @@
 
 ## Idea
 
-While for finite $m$, $m$-jets of a scheme of finite type (over an algebraically closed field of characteristic $0$) are represented by a scheme, the $m$-[[jet scheme]], the (inverse) limit of $m$-jet schemes is not 
+While for finite $m$, $m$-jets of a scheme of finite type (over an algebraically closed field of characteristic $0$) are represented by a scheme, the $\infty$-[[jet scheme]], the (inverse) limit of $m$-jet schemes is not 
 of finite type; this is the arc space.
 
 ## Motivation
