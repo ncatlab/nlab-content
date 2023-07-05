@@ -69,38 +69,33 @@ and in terms of [[algebraic geometry]] and via [[Frobenius manifolds]] due to:
 * [[Yuri I. Manin]], *Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces*, Colloquium Publications **47** (1999) &lbrack;[ISBN:978-0-8218-1917-3](https://bookstore.ams.org/coll-47), [mpim-eprint:1598](https://archive.mpim-bonn.mpg.de/id/eprint/1598)&rbrack;
 
 
-also 
-
-* Dubrovin (?) with motivation in [[integrable systems]].
-
-
 See also:
+
+* [[Boris Dubrovin]], *Geometry and Analytic Theory of Frobenius Manifolds*, Extra Volume ICM II (1998) 315–326 &lbrack;[arXiv:math/9807034](https://arxiv.org/abs/math/9807034)&rbrack;
+
 
 * [[Ron Donagi]], [[Josh Guffin]], [[Sheldon Katz]], [[Eric Sharpe]], *A Mathematical Theory of Quantum Sheaf Cohomology*, Asian J. Math. **18** (2014) 387-418 &lbrack;[arXiv:1110.3751](https://arxiv.org/abs/1110.3751), [doi:10.4310/AJM.2014.v18.n3.a1](https://doi.org/10.4310/AJM.2014.v18.n3.a1)&rbrack;
 
 Introduction and review:
 
-* Martin Guest, *Introduction to Quantum Cohomology*, Vietnam Journal of Mathematics **33** SI (2005) 29–59 &lbrack;[pdf](http://www.math.ac.vn/publications/vjm/VJM_33/Pdf_files_DB_2005/Bai3_Guest.pdf)&rbrack;
+* [[Martin A. Guest]], *Introduction to Quantum Cohomology*, Vietnam Journal of Mathematics **33** SI (2005) 29–59 &lbrack;[pdf](http://www.math.ac.vn/publications/vjm/VJM_33/Pdf_files_DB_2005/Bai3_Guest.pdf)&rbrack;
 
 * [[Joachim Kock]], [[Israel Vainsencher]], *An Invitation to Quantum Cohomology -- Kontsevich's Formula for Rational Plane Curves*, Birkh&auml;ser (2007) &lbrack;[doi:10.1007/978-0-8176-4495-6](https://doi.org/10.1007/978-0-8176-4495-6)&rbrack;
+
+* [[Martin A. Guest]], *Quantum cohomology: is it still relevant?* &lbrack;[arXiv:2210.05413](https://arxiv.org/abs/2210.05413)&rbrack;
+
+
+* Josh Guffin, _Quantum sheaf cohomology, a pr&#233;cis_, Matemática Contemporânea **41** (2012) 17-26 &lbrack;[arxiv:1101.1305](https://arxiv.org/abs/1101.1305)&rbrack;
 
 * Tom Coates, *An Introduction to Quantum Cohomology* &lbrack;[pdf](https://homepages.abdn.ac.uk/kedra/pages/lms/tom.pdf)&rbrack;
 
 * Alexander Givental, *A tutorial on Quantum Cohomology* &lbrack;[pdf](https://math.berkeley.edu/~giventh/papers/lqc.pdf)&rbrack;
 
 
-Lecture notes on quantum cohomology of [[flag varieties]]:
-
-* [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
-
 See also:
 
 * Wikipedia, *[Quantum cohomology](https://en.wikipedia.org/wiki/Quantum_cohomology)*
 
-
-An introduction for readers familiar with basic concepts of [[Gromov-Witten theory]]  is in
-
-* Josh Guffin, _Quantum sheaf cohomology, a pr&#233;cis_, [arxiv:1101.1305](https://arxiv.org/abs/1101.1305)
 
 Slides of a talk for an audience of mathematical [[string theory|string theorists]] are
 
@@ -109,6 +104,18 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
   _Quantum sheaf cohomology_ ([pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)) Brandeis university (2010)
 
   _Quantum sheaf cohomology I_ ([pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf))
+
+
+
+
+### Of flag varieties
+
+On quantum cohomology rings of [[flag varieties]] --- "quantum [[Schubert calculus]]":
+
+* [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
+
+
+* [[Naichung Conan Leung]], [[Changzheng Li]], *An update of quantum cohomology of homogeneous varieties* &lbrack;[arXiv:1407.5905](https://arxiv.org/abs/1407.5905)&rbrack;
 
 
 
@@ -123,5 +130,6 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
 [[!redirects quantum cohomology]]
 [[!redirects quantum sheaf cohomology]]
 
+[[!redirects quantum Schubert calculus]]
 
 
