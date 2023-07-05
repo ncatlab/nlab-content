@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[quantum cohomology]] of [[flag varieties]]:
+
+* [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
+
+
 On [[affine Lie algebras]] in relation to [[modular forms]]:
 
 * [[Victor G. Kac]], [[Dale H. Peterson]], *Affine Lie algebras and Hecke modular forms*,  Bull. Amer. Math. Soc. (N.S.) **3** 3 (1980) 1057-1061 &lbrack;[bams:1183547694](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-3/issue-3/Affine-Lie-algebras-and-Hecke-modular-forms/bams/1183547694.full)&rbrack;
