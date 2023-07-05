@@ -125,6 +125,8 @@ The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of t
 
 ## References
 
+### General
+
 Monographs:
 
 * {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
@@ -146,24 +148,24 @@ See also:
 
 * Wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
 
-Understanding the [[braid group]] as a mapping class gorup of punctured [[surfaces]] with [[boundary]]:
+### Braid groups
+
+Understanding of [[braid groups]] as mapping class group of punctured [[surfaces]] with [[boundary]]:
 
 * [[Wilhelm Magnus]], *Über Automorphismen von Fundamentalgruppen berandeter Flächen*, Mathematische Annalen **109** (1934) 617–646 &lbrack;[doi:10.1007/BF01449158](https://doi.org/10.1007/BF01449158)&rbrack;
+
+* {#MargalitWinarski21} [[Dan Margalit]], [[Rebecca R. Winarski]], *Braid groups and mapping class groups: The Birman–Hilden theory*, Bull. London Math. Soc. **53** 3 (2021) 643-659 &lbrack;[arXiv:1703.03448](https://arxiv.org/abs/1703.03448), [doi:10.1112/blms.12456](https://doi.org/10.1112/blms.12456)&rbrack;
+
 
 Algebraic descriptions of such mapping class groups/[[braid groups]]:
 
 * [[Warren Dicks]], Edward Formanek, *Algebraic Mapping-Class Groups of Orientable Surfaces with Boundaries*, in: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects*, Progress in Mathematics **248** Birkhäuser (2005) &lbrack;[doi:10.1007/3-7643-7447-0_4](https://doi.org/10.1007/3-7643-7447-0_4)&rbrack;
-
-    
-
+   
 See also:
-
-
 
 * {#MadsenWeiss02} [[Ib Madsen]], [[Michael Weiss]], _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843), [math.AT/0212321](http://arxiv.org/abs/math.AT/0212321)
 
-* John Harer, _The second homology group of the mapping class group
-of an orientable surface_, Invent. Math., 72(2):221&#8211;239, 1983; _The cohomology of the moduli space of curves_ in: Theory of moduli (Montecatini Terme, 1985), Lecture Notes in Math. __1337__, p. 138&#8211;221. Springer, Berlin, 1988.
+* John Harer, _The second homology group of the mapping class group of an orientable surface_, Invent. Math., **72**  2  221-239 (1983) _The cohomology of the moduli space of curves_ in: Theory of moduli (Montecatini Terme, 1985), Lecture Notes in Math. __1337__, p. 138&#8211;221. Springer, Berlin, 1988.
 
 * Robert C. Penner, _The decorated Teichm&#252;ller space of punctured surfaces_, Commun. Math. Phys. __113__ (2) (1987) 299--339. [MR89h:32044](http://www.ams.org/mathscinet-getitem?mr=89h:32044); _A construction of pseudo-Anosov homeomorphisms_, Trans. Amer. Math. Soc. __310__ (1):179&#8211;197, 1988.
 
