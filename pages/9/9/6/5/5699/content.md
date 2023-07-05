@@ -25,6 +25,10 @@ On [[F-theory]] [[KK-compactification|KK-compactified]] on [[Calabi-Yau manifold
 
 * {#MorrisonVafa96b} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- II_, Nucl. Phys. B476:437-469, 1996 ([arXiv:hep-th/9603161](http://arxiv.org/abs/hep-th/9603161))
 
+Introducing the idea of [[quantum cohomology]]:
+
+* [[Cumrun Vafa]], *Topological mirrors and quantum rings*, in [[Shing-Tung Yau]] (ed.) *Essays on mirror manifolds*, International Press (1992), republished in *Mirror Symmetry I*, AMS/IP Studies in Advanced Mathematics **9** (1998) &lbrack;[arXiv:hep-th/9111017](https://arxiv.org/abs/hep-th/9111017), [doi:10.1090/amsip/009](https://doi.org/10.1090/amsip/009)&rbrack;
+
 
 On [[Chern-Simons theory as a topological string theory]] ([[open/closed string duality]] in interpreting [['t Hooft double line notation]] in the [[large N limit]] and in [[AdS/CFT duality]]);
 
