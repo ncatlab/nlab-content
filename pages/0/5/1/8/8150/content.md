@@ -44,6 +44,8 @@ $$
   \,.
 $$
 
+Its unit $1_{Ch}$ is $R$ considered as a chain complex concentrated in degree 0.
+
 =--
 
 
@@ -111,6 +113,18 @@ P(i,j;k) = \begin{cases}
 0 & \mathrm{else}.
 \end{cases} 
 $$
+
+### Canonical Forgetful Functor
+
+Every monoidal $\mathcal{V}$-enriched category $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ has a canonical forgetful functor $U_{\mathcal{C}} \coloneqq \mathcal{C}(1_{\mathcal{C}},-) : \mathcal{C} \to \mathcal{V}$. This functor is automatically lax monoidal and if $\mathcal{C}$ is closed with internal hom $[-,-]_{\mathcal{C}}$ we further have $U_{\mathcal{C}}[-,-]_{\mathcal{C}} \cong \mathcal{C}(-,-)$. This functor is particularly important to the theory of enriched categories.
+
++-- {: .num_prop #CanonicalForgetfulFunctor} 
+###### Proposition
+
+$U_{Ch} : Ch_\bullet(\mathcal{A}) \to R\text{Mod}$ takes a chain complex to its cycles/closed elements of degree 0.
+=--
+
+In particular $U_{Ch}$ does not simply take a chain complex to its term at degree 0. That would of course give a different forgetful functor.
 
 ## Examples
 
