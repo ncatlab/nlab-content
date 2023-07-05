@@ -18,11 +18,15 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
-[[Gromov-Witten theory]] may be understood as providing a product on  formal [[power series]] over certain  [[abelian sheaf cohomology]] groups of [[Kähler manifold]]s $X$. The **quantum cohomology** of $X$ is the resulting [[Frobenius algebra]] structure on these formal power series.
+Certain [[topological string theories]] (2d [[topological field theory|topological]] [[sigma-models]] &lbrack;[Witten 1988](#Witten88)&rbrack;), with [[target space]] a suitable [[symplectic manifold]] $X$, have as [[spaces of quantum states]] the [[ordinary cohomology]] ([[real cohomology|real]]/[[complex cohomology|complex]]/[[de Rham cohomology]]) $H^\bullet(X)$ of the target manifold, but such that the [[genus of a surface|genus]]$=0$ [[worldsheet]] [[3-point function]] (a [[Gromov-Ruan-Witten invariant]]) equips the [[underlying]] [[vector space]] of the [[cohomology groups]] with a new product $H^\bullet(X) \otimes H^\bullet(X) \to H^\bullet(X)$ that [[deformation|deforms]] ("[[quantization|quantizes]]") the ordinary [[cup product]]/[[wedge product]]-[[cohomology ring]] to a non-commutative ring &lbrack;[Witten (1990), §3](#Witten90)&rbrack;, whence called a *quantum cohomology ring* &lbrack;[Vafa (1992)](#Vafa92)&rbrack;.
 
-Together with [[Gromov-Witten theory]] quantum sheaf cohomology was discovered in and has its geometric roots as part of the data that describes certain 2-[[dimension]]al [[sigma-model]] [[quantum field theories]] with [[target space]] $X$.
+Beware that later authors often abbreviate the term from *quantum cohomology ring* to just *quantum cohomology*, which is however a misnomer since it is not the underlying notion of ([[ordinary cohomology|ordinary]]) [[cohomology]] that is being deformed/quantized here (just the [[coefficients]] are typically enlarged), but the multiplicative *[[ring]]-[[structure]]* [[cohomology ring|on cohomology]] is deformed -- indeed the title of [Vafa (1992)](#Vafa92) speaks more properly of *quantum rings*.
+
+
+
 
 ## Related concepts
 
@@ -32,13 +36,18 @@ Together with [[Gromov-Witten theory]] quantum sheaf cohomology was discovered i
 
 ## References
 
-### Quantum cohomology
+### Quantum cohomology rings
 
 The notion of quantum cohomology originates as a model for certain [[topological string]] [[n-point functions]] in:
 
-* [[Cumrun Vafa]], §4 in: *Topological mirrors and quantum rings*, in [[Shing-Tung Yau]] (ed.) *Essays on mirror manifolds*, International Press (1992), republished in *Mirror Symmetry I*, AMS/IP Studies in Advanced Mathematics **9** (1998) &lbrack;[arXiv:hep-th/9111017](https://arxiv.org/abs/hep-th/9111017), [doi:10.1090/amsip/009](https://doi.org/10.1090/amsip/009)&rbrack;
+* {#Vafa92} [[Cumrun Vafa]], §4 in: *Topological mirrors and quantum rings*, in [[Shing-Tung Yau]] (ed.) *Essays on mirror manifolds*, International Press (1992), republished in *Mirror Symmetry I*, AMS/IP Studies in Advanced Mathematics **9** (1998) &lbrack;[arXiv:hep-th/9111017](https://arxiv.org/abs/hep-th/9111017), [doi:10.1090/amsip/009](https://doi.org/10.1090/amsip/009)&rbrack;
 
-* [[Edward Witten]],  §3 in: *Two-dimensional gravity and intersection theory on moduli space*,  Surveys in Differential Geometry **1** (1990) &lbrack;[doi:10.4310/SDG.1990.v1.n1.a5](https://dx.doi.org/10.4310/SDG.1990.v1.n1.a5), [inspire:307956](https://inspirehep.net/literature/307956), [SemanticScholar](https://www.semanticscholar.org/paper/Two-dimensional-gravity-and-intersection-theory-on-Witten/e5935bb91e79d8247468b19c310a201b8e41e808)&rbrack;
+* {#Witten90} [[Edward Witten]],  §3 in: *Two-dimensional gravity and intersection theory on moduli space*,  Surveys in Differential Geometry **1** (1990) &lbrack;[doi:10.4310/SDG.1990.v1.n1.a5](https://dx.doi.org/10.4310/SDG.1990.v1.n1.a5), [inspire:307956](https://inspirehep.net/literature/307956), [SemanticScholar](https://www.semanticscholar.org/paper/Two-dimensional-gravity-and-intersection-theory-on-Witten/e5935bb91e79d8247468b19c310a201b8e41e808)&rbrack;
+
+motivated by
+
+* {#Witten88} [[Edward Witten]], *Topological sigma models*,  Comm. Math. Phys. **118** 3 (1988) 411-449 &lbrack;[euclid:cmp/1104162092](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-118/issue-3/Topological-sigma-models/cmp/1104162092.full)&rbrack;
+
 
 The rigorous mathematical formulation in [[differential geometry|differential]] [[symplectic geometry]] via [[Gromov-Ruan-Witten invariants]] is due to:
 
@@ -53,9 +62,9 @@ with early computations in
 
 and in terms of [[algebraic geometry]] and via [[Frobenius manifolds]] due to:
 
-* [[Maxim Kontsevich]], [[Yuri Manin]], _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Commun. Math. Physics __164__ (1994) 525-562 [doi](https://doi.org/10.1007/BF02101490) arXiv:[hep-th/9402147](https://arxiv.org/pdf/hep-th/9402147)
+* [[Maxim Kontsevich]], [[Yuri Manin]], *Gromov-Witten classes, quantum cohomology, and enumerative geometry*, Commun. Math. Phys. __164__ (1994) 525-562 &lbrack;[doi:10.1007/BF02101490](https://doi.org/10.1007/BF02101490), [hep-th/9402147](https://arxiv.org/pdf/hep-th/9402147)&rbrack;
 
-* [[Maxim Kontsevich]], [[Yuri Manin]], [[Ralph Kaufmann]], _Quantum cohomology of a product_,  Invent. Math. __124__ (1996) 313-339 [doi](https://doi.org/10.1007/s002220050055) arXiv:[q-alg/9502009](https://arxiv.org/abs/q-alg/9502009)
+* [[Maxim Kontsevich]], [[Yuri Manin]], [[Ralph Kaufmann]], _Quantum cohomology of a product_,  Invent. Math. __124__ (1996) 313-339 &lbrack;[doi:10.1007/s002220050055](https://doi.org/10.1007/s002220050055) arXiv:[q-alg/9502009](https://arxiv.org/abs/q-alg/9502009)&rbrack;
 
 * [[Yuri I. Manin]], *Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces*, Colloquium Publications **47** (1999) &lbrack;[ISBN:978-0-8218-1917-3](https://bookstore.ams.org/coll-47), [mpim-eprint:1598](https://archive.mpim-bonn.mpg.de/id/eprint/1598)&rbrack;
 
@@ -107,4 +116,12 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
 [[!include quantum cohomology as Pontrjagin rings -- references]]
 
 
+
+[[!redirects quantum cohomology rings]]
+
+
 [[!redirects quantum cohomology]]
+[[!redirects quantum sheaf cohomology]]
+
+
+
