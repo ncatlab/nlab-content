@@ -15,7 +15,7 @@
 
 ##Idea
 
-In [Lavers 97](#Lavers97) T.G. Lavers introduced the [[monoid]] of $n$-vines, $V_n$ whose elements are thought of as paths between two sets of $n$ distinct points in $\mathbb{R}^3$ which are allowed to merge into a single path, but not separate again. Some examples, from Lavers' original paper, are depicted below.
+[Lavers (1997)](#Lavers97) introduced the [[monoid]] $V_n$ of *$n$-vines*,  whose elements are thought of as paths between two sets of $n$ distinct points in $\mathbb{R}^3$ which are allowed to merge into a single path, but not separate again. Some examples, from Lavers' original paper, are depicted below.
 
 \begin{imagefromfile}
         "file_name": "vinesJPEG.jpg",
