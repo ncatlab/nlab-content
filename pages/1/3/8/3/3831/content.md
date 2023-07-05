@@ -5,7 +5,11 @@
 
 ## Definition
 
-The **braid category** $\mathbf{B}$ is the strict [[monoidal category|monoidal]] [[groupoid]] obtained as the disjoint union of all the [[braid group|braid groups]] $B_n$, $n \geq 0$ (thus, the coproduct of 1-object groupoids in the category of groupoids). The objects of $\mathbf{B}$ are thus identified with natural numbers $n$, and all morphisms are automorphisms $n \to n$ given by elements in braid groups $B_n$. The monoidal product 
+The **braid category** $\mathbf{B}$ is the strict [[monoidal category|monoidal]] [[groupoid]] obtained as the [[disjoint union]] of all the [[braid group|braid groups]] $B_n$, $n \geq 0$ (thus, the [[coproduct]] of [[delooping groupoids]] in the category [[Grpd]] of groupoids). 
+
+The objects of $\mathbf{B}$ are thus identified with [[natural numbers]] $n$, and all morphisms are [[automorphisms]] $n \to n$ given by elements in braid groups $B_n$. 
+
+The monoidal product 
 
 $$\mathbf{B} \times \mathbf{B} \to \mathbf{B}$$ 
 
@@ -17,7 +21,7 @@ which may be described as juxtaposition of braids.
 
 ## Properties
 
-The braid category came into prominence with the celebrated paper _Braided Monoidal Categories_ by Joyal and Street, who showed that the category of Artin braids (hitherto a thoroughly geometric construction) was the free braided (strict) monoidal category on the terminal category $1$, and that the free [[braided monoidal category]] on a general category $C$ could be pictured as the category of braids whose strands are colored by morphisms in $C$. 
+The braid category came into prominence with the celebrated paper _Braided Monoidal Categories_ by Joyal and Street, who showed that the category of Artin braids (hitherto a thoroughly geometric construction) was the [[free construction|free]] [[braided monoidal category|braided]] ([[strict monoidal category|strict]]) [[monoidal category]] on the [[terminal category]], and that the free [[braided monoidal category]] on a general category $C$ could be pictured as the category of braids whose strands are colored by [[morphisms]] in $C$. 
 
 Joyal and Street also showed that the braid category could be regarded as a "[[walking structure|walking]] Yang-Baxter object". Recall that a [[Yang-Baxter object]] in a monoidal category $(M, \otimes, I)$ is an object $C$ equipped with an invertible "twist" map 
 
@@ -37,7 +41,11 @@ This result gave a conceptual framework in which to interpret quantum group repr
 
 [...]
 
-## Related concept
+## Related concepts
+
+* [[braid group]]
+
+* [[vine monoid]]
 
 * [[FinSet]]
 
