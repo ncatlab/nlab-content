@@ -12,8 +12,15 @@ On [[homotopy of rational maps]] from a compact [[Riemann surface]] to a [[toric
 
 * [[Martin A. Guest]], *Configuration spaces and the space of rational curves on a toric variety*, Bull. Amer. Math. Soc. 31 (1994), 191-196 ([doi:10.1090/S0273-0979-1994-00515-4](https://doi.org/10.1090/S0273-0979-1994-00515-4))
 
-
 * [[Martin A. Guest]], *The topology of the space of rational curves on a toric variety*, Acta Math. 174(1): 119-145 (1995) ([doi:10.1007/BF02392803](https://projecteuclid.org/journals/acta-mathematica/volume-174/issue-1/The-topology-of-the-space-of-rational-curves-on-a/10.1007/BF02392803.full), [arXiv:alg-geom/9301005](https://arxiv.org/abs/alg-geom/9301005))
+
+On [[quantum cohomology rings]]:
+
+* [[Martin A. Guest]], *Introduction to Quantum Cohomology*, Vietnam Journal of Mathematics **33** SI (2005) 29–59 &lbrack;[pdf](http://www.math.ac.vn/publications/vjm/VJM_33/Pdf_files_DB_2005/Bai3_Guest.pdf)&rbrack;
+
+* [[Martin A. Guest]], *Quantum cohomology: is it still relevant?* &lbrack;[arXiv:2210.05413](https://arxiv.org/abs/2210.05413)&rbrack;
+
+
 
 category: people
 
