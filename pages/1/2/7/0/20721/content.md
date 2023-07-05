@@ -29,6 +29,8 @@ the _[[group completion theorem]]_ relates the [[Pontrjagin ring]] of a [[topolo
 
 ## References
 
+### General
+
 The concept and the terminology "Pontryagin-multiplication" is due to
 
 * [[Raoul Bott]], [[Hans Samelson]], *On the Pontryagin product in spaces of paths*, Commentarii Mathematici Helvetici **27** (1953) 320–337 &lbrack;[doi:10.1007/BF02564566](https://doi.org/10.1007/BF02564566)&rbrack;
@@ -57,11 +59,28 @@ Textbook account:
 
 * {#Hatcher02} [[Allen Hatcher]], §3.C, pp. 287 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
+Lecture notes
 
+* [[Tyrone Cutler]], §3 in: *The Bott-Samelson Theorem* (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Week%2011%20-%20The%20Bott-Samelson%20Theorem.pdf)&rbrack;
 
 See also
 
 * Wikipedia, _[Pontryagin product](https://en.wikipedia.org/wiki/Pontryagin_product)_
+
+### In quantum (field) theory
+
+Relation to [[quantum cohomology]] ([[topological string]]-theory):
+
+* Thomas Lam, Mark Shimozono, §6.2 in: *Quantum cohomology of $G/P$ and homology of affine Grassmannian* &lbrack;[arXiv:0705.1386](https://arxiv.org/abs/0705.1386)&rbrack;
+
+* [[Naichung Conan Leung]], [[Changzheng Li]], *Gromov-Witten invariants for $G/B$ and Pontryagin product for $\Omega K$*, Transactions of the American Mathematical Society **364** 5 (2012) 2567-2599  &lbrack;[web](https://www.ams.org/journals/tran/2012-364-05/S0002-9947-2012-05438-9/), [arXiv:0810.4859](https://arxiv.org/abs/0810.4859), [jstor:41524936](https://www.jstor.org/stable/41524936)&rbrack;
+
+Relation to [[chiral rings]] of [[D=3 N=4 super Yang-Mills theory]]:
+
+* [[Constantin Teleman]], *Coulomb branches for quaternionic representations* &lbrack;[arXiv:2209.01088](https://arxiv.org/abs/2209.01088)&rbrack;
+
+
+
 
 [[!redirects Pontrjagin rings]]
 
