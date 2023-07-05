@@ -228,14 +228,18 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[Hopf ring spectrum]]
 
+* [[Pontrjagin product]]
+
+
 ## References
 
 * [[Kenneth Brown]], _Hopf algebras_, lectures, [pdf](http://www.maths.gla.ac.uk/~kab/Hopf%20lects%201-8.pdf)
 
+* Nicolas Andruskiewitsch, Walter Ferrer Santos, *The beginnings of the theory of Hopf algebras*, Acta Appl Math **108** (2009) 3-17 &lbrack;[arXiv:0901.2460](https://arxiv.org/abs/0901.2460)&rbrack;
+
 The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
 
 * Eiichi Abe, _Hopf algebras_, Cambridge UP 1980.
-
 
 * [[Pierre Cartier]], _A primer on Hopf algebras_, Frontiers in number theory, physics, and geometry II, 537--615, preprint IH&#201;S 2006-40, 81p ([doi:10.1007/978-3-540-30308-4_12](https://doi.org/10.1007/978-3-540-30308-4_12),  [pdf](http://preprints.ihes.fr/2006/M/M-06-40.pdf),  [pdf](http://www.math.osu.edu/~kerler.2/VIGRE/InvResPres-Sp07/Cartier-IHES.pdf), [[CartierHopfAlgebras.pdf:file]])
 
@@ -279,6 +283,8 @@ Discussion in [[algebraic topology]] with an eye towards [[stable homotopy theor
 
 * [[W. Stephen Wilson]], _Hopf rings in algebraic topology_, Expositiones Mathematicae, 18:369–388, 2000 ([pdf](https://math.jhu.edu/~wsw/papers2/math/39-hopf-rings-expo-2000.pdf))
 
+
+* [[Christoph Schweigert]], *Hopf algebras, quantum groups and topological field theory* (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/hskript.pdf)&rbrack;
 
 [[!redirects Hopf algebras]]
 
