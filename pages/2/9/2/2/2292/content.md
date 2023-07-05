@@ -34,6 +34,8 @@ Analogously for various suitable generalizations of the nature of $E$ and $X$  (
 
 ## Related concepts
 
+* [[quantum cohomology ring]]
+
 * [[genus]]
 
 * [[orientation in generalized cohomology]]
