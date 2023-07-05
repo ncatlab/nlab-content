@@ -82,10 +82,21 @@ Show that the above is a braided monoidal structure on $\mathbb{V}$.
 
 ## References
 
-* {#Lavers97} T. G. Lavers, _The theory of vines_, Comm. Algebra 25 (1997), no. 4, 1257–1284.
+* {#Lavers97} T. G. Lavers, *The theory of vines*, Comm. Algebra **25** 4 (1997) 1257–1284 &lbrack;[doi:10.1080/00927879708825919](https://doi.org/10.1080/00927879708825919)&rbrack;
 
 * {#Weber2015}[[Mark Weber]], §6.3 of: _Internal algebra classifiers as codescent objects of crossed internal categories_. Theory and Applications of Categories, **30** 50 (2015) 1713–1792 &lbrack;[tac:30/50](http://www.tac.mta.ca/tac/volumes/30/50/30-50abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/30/50/30-50.pdf)&rbrack;
 
 
 
 [[!redirects vines]]
+
+[[!redirects vine monoid]]
+[[!redirects vine monoids]]
+
+[[!redirects vine category]]
+[[!redirects vine categories]]
+
+
+
+
+
