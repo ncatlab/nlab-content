@@ -27,7 +27,17 @@ Together with [[Gromov-Witten theory]] quantum sheaf cohomology was discovered i
 
 * Quantum cohomology arises as [[chiral rings]] in [[super Yang-Mills theory]].
 
+* [[Pontryagin ring]]
+
 ## References
+
+Lecture notes on quantum cohomology of [[flag varieties]]:
+
+* [[Dale H. Peterson]] (notes by [[Arun Ram]]), *Quantum Cohomology of $G/H$*, MIT (1997) &lbrack;[web](http://math.soimeme.org/~arunram/Resources/QuantumCohomologyOfGPL1-5.html), [pdf](http://math.soimeme.org/~arunram/Resources/PetersonGmodBcourse1997.pdf), [[Peterson-QuantumCohomology.pdf:file]]&rbrack;
+
+See also:
+
+* Wikipedia, *[Quantum cohomology](https://en.wikipedia.org/wiki/Quantum_cohomology)*
 
 After the original physics ideas of Vafa and Witten, a differential geometric formalization was pioneered in
 
