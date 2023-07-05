@@ -3353,7 +3353,7 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures. 
 
-(review includes [Birman 1975, §4](#Birman75), [González-Meneses 2011, §1.4](#González-Meneses11))
+(review includes [Birman 1975, §4](#Birman75), [González-Meneses 2011, §1.4](#González-Meneses11), [Abadie 2022, §1.3(#Abadie22))
 
 Concretely, consider 
 
@@ -3396,10 +3396,7 @@ Now observe that
      \,.
    $$
 
-Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}big)$ therese is an [[isotopy]] of $\iota[\phi] \to id$ under which the locations of the punctures trace out a braid (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction zields a morphism
-
-and this is [[isomorphism|isomorphic]] to the braid group
-
+Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}big)$ therese is an [[isotopy]] of $\iota[\phi] \to id$ under which the locations of the punctures trace out a braid (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction yields a morphism from the [[mappign class group]] to the [[braid group]]
 $$
   MCG
   \big(
@@ -3409,8 +3406,16 @@ $$
   Br(n) 
   \,.
 $$
+and this is an [[isomorphism]].
 
-which is an [[isomorphism]].
+
+\begin{remark}\label{ActionOfBraidGroupOnFundamentalGroupOfPuncturedDisk}
+**(action of braid group on fundamental group of $n$-punctured disk)**
+\linebreak
+It follows in particular that the braid group $Br(n)$ has a canonical [[group action]] on the [[fundamental group]] of the $n$-punctured disk. Since the latter is [[isomorphism|isomorphic]] to the [[free group]] on $n$ generators, this leads to the purely algebraic characterization of the braid group [below](#AsAutomorphismsOfAFreeGroup).
+
+See also eg. [Margalit & Winarski (2021), §7](#MargalitWinarski21), [Amram, Lawrence & Vishne (2012), §7](#AmramLawrenceVishne12).
+\end{remark}
 
 
 
@@ -3708,7 +3713,7 @@ Further introduction and review:
 
 * Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
 
-* {#González-Meneses11} Juan González-Meneses, *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, Tome 18 (2011) no. 1, pp. 15-59 ([ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0))
+* {#González-Meneses11} [[Juan González-Meneses]], *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, Tome 18 1 (2011) 15-59 &lbrack;[ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0)&rbrack;
 
 * Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
 
@@ -3719,6 +3724,8 @@ Further introduction and review:
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
 * [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
+
+* {#Abadie22} Marie Abadie, §1 in: *A journey around mapping class groups and their presentations* (2022) &lbrack;[pdf](https://christianurech.github.io/Semester_Project.pdf)&rbrack;
 
 See also:
 
@@ -3742,6 +3749,11 @@ More [[finitely presented group|finite presentations]] of the *pure* braid group
 
 * {#Lee10} [[Eon-Kyung Lee]], *A positive presentation of the pure braid group*, Journal of the Chungcheong Mathematical Society **23** 3 (2010) 555-561 &lbrack;[JAKO201007648745187](https://koreascience.kr/article/JAKO201007648745187.view?orgId=anpor), [pdf](http://www.ccms.or.kr/data/pdfpaper/jcms23_3/23_3_555.pdf)&rbrack;
 
+More on the relation of braid groups to [[mapping class groups]]:
+
+* {#AmramLawrenceVishne12} M. Amram, R. Lawrence, U. Vishne, *Artin Covers of the Braid Group*,  Journal of Knot Theory and Its Ramifications **21** 07 (2012) 1250061 &lbrack;[doi:10.1142/S0218216512500617](https://doi.org/10.1142/S0218216512500617), [pdf](http://www.ma.huji.ac.il/~ruthel/papers/12artin.pdf)&rbrack; 
+
+* {#MargalitWinarski21} [[Dan Margalit]], [[Rebecca R. Winarski]], *Braid groups and mapping class groups: The Birman–Hilden theory*, Bull. London Math. Soc. **53** 3 (2021) 643-659 &lbrack;[arXiv:1703.03448](https://arxiv.org/abs/1703.03448), [doi:10.1112/blms.12456](https://doi.org/10.1112/blms.12456)&rbrack;
 
 More on the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
 
