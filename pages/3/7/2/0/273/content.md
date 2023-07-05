@@ -243,11 +243,13 @@ Review:
 
 * [[Torsten Wedhorn]], *Torsors and Non-abelian Čech Cohomology*, chapter 7 in: *Manifolds, Sheaves, and Cohomology*, Springer (2016) &lbrack;[doi:10.1007/978-3-658-10633-1](https://doi.org/10.1007/978-3-658-10633-1)&rbrack;
 
-Lecture notes:
+Review in topological spaces (via [[classifying spaces]]):
 
-* Nicolas Addington, _Fiber bundles and nonabelian cohomology_, 2007 ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
+* Nicolas Addington, _Fiber bundles and nonabelian cohomology_ (2007) &lbrack;[pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf)&rbrack;
 
-* {#Mitchell11} [[Stephen Mitchell]], around Theorem 7.4 in: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
+* {#Mitchell11} [[Stephen Mitchell]], around Theorem 7.4 in: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington (2011) &lbrack;[pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]]&rbrack;
+
+* {#RudolfSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], Thm. 3.5.1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8)&rbrack;
 
 See also:
 
