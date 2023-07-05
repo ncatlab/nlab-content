@@ -61,6 +61,13 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
+$[-,-]$ defined above and $-\otimes -$ from [[tensor product of chain complexes]] endow $Ch_\bullet(\mathcal{A})$ with the structure of a closed monoidal category.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
 The collection of [[cycles]] of the [[internal hom]] $[X,Y]$ in degree 0 coincides with the external [[hom functor]]
 
 $$
@@ -95,6 +102,10 @@ for a collection of maps $\{\lambda_k : X_k \to Y_{k+1}\}$. This are
 precisely the [[null homotopies]].
 
 =--
+
+In [[tensor product of chain complexes]] we [noted](tensor+product+of+chain+complexes#CanonicalForgetfulFunctor) that the canonical forgetful functor $U_{Ch} \coloneqq Ch_\bullet(\mathcal{A})(I_{Ch},-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}$ takes a chain complex to its 0-cycles.
+
+Thus the description of the 0-cycles in the above proposition is equivalent to the statement $U_{Ch}([-,-]) \cong Ch_\bullet(\mathcal{A})(-,-)$, which is true in any closed category.
 
 ## Related concepts
 
