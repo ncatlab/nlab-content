@@ -115,16 +115,41 @@ P(i,j;k) = \begin{cases}
 $$
 
 ### Canonical Forgetful Functor
+ {#CanonicalForgetfulFunctor}
 
-Every monoidal $\mathcal{V}$-enriched category $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ has a canonical forgetful functor $U_{\mathcal{C}} \coloneqq \mathcal{C}(1_{\mathcal{C}},-) : \mathcal{C} \to \mathcal{V}$. This functor is automatically lax monoidal and if $\mathcal{C}$ is closed with internal hom $[-,-]_{\mathcal{C}}$ we further have $U_{\mathcal{C}}[-,-]_{\mathcal{C}} \cong \mathcal{C}(-,-)$. This functor is particularly important to the theory of enriched categories.
+Every $\mathcal{V}$-[[enriched monoidal category]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ has a canonical [[forgetful functor]] 
+
+$$
+  U_{\mathcal{C}} 
+  \;\coloneqq\; 
+  \mathcal{C}(1_{\mathcal{C}},-) 
+  \;\colon\; 
+  \mathcal{C} \longrightarrow \mathcal{V}
+$$
+
+given by forming [[hom-objects]] out of the [[tensor unit]]. 
+
+This functor is automatically [[lax monoidal functor|lax monoidal]] and if $\mathcal{C}$ is [[closed monoidal category|closed monoidal]] with [[internal hom]] $[-,-]_{\mathcal{C}}$ then we further have $U_{\mathcal{C}}[-,-]_{\mathcal{C}} \cong \mathcal{C}(-,-)$. This functor is particularly important to the theory of enriched categories.
 
 +-- {: .num_prop #CanonicalForgetfulFunctor} 
 ###### Proposition
 
-$U_{Ch} : Ch_\bullet(\mathcal{A}) \to R\text{Mod}$ takes a chain complex to its cycles/closed elements of degree 0.
+$U_{Ch} \colon Ch_\bullet(R) \longrightarrow R\text{Mod}$ takes a chain complex to its [[cycles]]/closed elements of degree 0.
+
 =--
 
+\begin{proof}
+  Since the [[tensor unit]] $I \,\in\, Ch_\bullet(R)$ is the chain complex concentrated on $R$ in degree 0, hence with all [[differentials]] being 0, a [[chain map]] out of $I$  
+
+1. is fixed by its value on $1 \in R$ (by $R$-[[linear map|linearity]]) 
+
+1. must take values in elements of degree 0 whose differential also vanishes (by the chain map property).
+
+\end{proof}
+
+\begin{remark}
 In particular $U_{Ch}$ does not simply take a chain complex to its term at degree 0. That would of course give a different forgetful functor.
+\end{remark}
 
 ## Examples
 
