@@ -42,10 +42,16 @@ On [[invariant Riemannian metrics]] on ([[compact Lie group|compact]]) [[Lie gro
 
 * {#Milnor76} [[John Milnor]], _Curvatures of left invariant metrics on Lie groups_, Advances in Mathematics, Volume 21, Issue 3, September 1976, Pages 293-329 (<a href="https://doi.org/10.1016/S0001-8708(76)80002-3">doi:10.1016/S0001-8708(76)80002-3</a>)
 
+## Related entries
+
+* [[Pontrjagin ring]]
 
 
 
+[[!redirects John W. Milnor]]
 [[!redirects J. Milnor]]
 [[!redirects Milnor]]
+
+
 
 category: people
