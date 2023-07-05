@@ -27,6 +27,7 @@ the _[[group completion theorem]]_ relates the [[Pontrjagin ring]] of a [[topolo
 * [[homology of loop spaces]]
 
 
+
 ## References
 
 ### General
@@ -39,11 +40,17 @@ who name it in honor of the analogous product operation on the homology of [[com
 
 * [[Lev Pontrjagin]], *Homologies in compact Lie groups*, Rec. Math. [Mat. Sbornik] N.S. **6**(**48**) 3 (1939) 389–422 &lbrack;[mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng)&rbrack;
 
+see also:
+
+* [[Hans Samelson]], §3 in: *Beitr&auml;ge Zur Topologie der Gruppen-Mannigfaltigkeiten*, Annals of Mathematics, Second Series, **42** 5 (1941) 1091-1137 &lbrack;[jsotr:1970463](https://www.jstor.org/stable/1970463)&rbrack;
+
 Further early discussion:
 
 * [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America **46** 4 (1960) 543-545 &lbrack;[jstor:70867](https://www.jstor.org/stable/70867)&rbrack;
 
 * [[William Browder]], p. 36 of: *Torsion in H-Spaces*, Annals of Mathematics, Second Series **74** 1 (1961) 24-51  &lbrack;[jstor:1970305](https://www.jstor.org/stable/1970305)&rbrack;
+
+* [[John W. Milnor]], [[John C. Moore]], Appendix (pp. 262) of: *On the Structure of Hopf Algebras*, Annals of Mathematics, Second Series, **81** 2 (1965) 211-264 &lbrack;[jstor:1970615](https://www.jstor.org/stable/1970615)&rbrack;
 
 * [[William Browder]], *Homology Rings of Groups*, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
 
@@ -54,6 +61,9 @@ In relation to [[Whitehead products]]:
 In the context of [[string topology]]:
 
 * [[Moira Chas]], [[Dennis Sullivan]], §3 in: *String Topology* &lbrack;[arXiv:math/9911159](https://arxiv.org/abs/math/9911159)&rbrack;
+
+* Gwénaël Massuyeau, [[Vladimir Turaev]], *Brackets in the Pontryagin algebras of manifolds*, Mém. Soc. Math. France **154** (2017) &lbrack;[arXiv:1308.5131](https://arxiv.org/abs/1308.5131)&rbrack;
+
 
 Textbook account:
 
@@ -83,10 +93,11 @@ Computation of the Pontryagin products for (loop spaces of) [[flag manifolds]]:
 
 [[!redirects Pontryagin ring]]
 [[!redirects Pontryagin rings]]
+[[!redirects Pontrjagin ring]]
+[[!redirects Pontrjagin rings]]
 
 [[!redirects Pontryagin product]]
 [[!redirects Pontryagin products]]
-
 [[!redirects Pontrjagin product]]
 [[!redirects Pontrjagin products]]
 
@@ -95,6 +106,13 @@ Computation of the Pontryagin products for (loop spaces of) [[flag manifolds]]:
 
 [[!redirects Pontryagin-multiplication]]
 [[!redirects Pontryagin-multiplications]]
+
+[[!redirects Pontryagin algebra]]
+[[!redirects Pontryagin algebras]]
+[[!redirects Pontrjagin algebra]]
+[[!redirects Pontrjagin algebras]]
+
+
 
 [[!redirects Peterson isomorphism]]
 [[!redirects Peterson isomorphisms]]
