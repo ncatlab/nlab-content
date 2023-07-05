@@ -22,14 +22,14 @@ In [Lavers 97](#Lavers97) T.G. Lavers introduced the [[monoid]] of $n$-vines, $V
         "width": 300
     \end{imagefromfile}
 
-Notice that $V_n$ is not a group because a general vine can not be untangled to give the trivial vine which is $n$ paths straight down. However, via pre- and post-composition, the vine monoid is acted on by the [[braid group|braid group on $n$ strands]]. When two $n$-vines are composed any resulting strands which are only attached to one endpoint get retracted down to that endpoint, as in the following image (again from [Lavers 97](#Lavers97)):
+Notice that $V_n$ is not a group because a general vine cannot be untangled to give the trivial vine which is $n$ paths straight down. However, via pre- and post-composition, the vine monoid is acted on by the [[braid group|braid group on $n$ strands]]. When two $n$-vines are composed any resulting strands which are only attached to one endpoint get retracted down to that endpoint, as in the following image (again from [Lavers 97](#Lavers97)):
 
 \begin{imagefromfile}
         "file_name": "vinescompose.jpg",
         "width": 300
     \end{imagefromfile}
 
-More generally, one can consider vines from $n$ points to $m$ points. As a result vines can be assembled into a category, described below.
+More generally, one can consider vines from $n$ points to $m$ points. As a result vines can be assembled into a category, as described below.
 
 
 ## Definition
@@ -60,7 +60,7 @@ Then an *$(m,n)$-vine* is a set of arcs $\{v_1,\ldots,v_m\}$ (i.e. piecewise lin
 \end{defn}
 
 \begin{defn}\label{CategoryV}
-Let $\mathbb{V}$ be the category with set of [[objects]] the [[natural numbers]] with set of [[morphisms]] $\mathbb{V}(m,n)$ being $(m,n)$-vines modulo a suitable notion of "isotopy" that allows arcs to be deformed up to homotopy but not pass through one another.
+Let $\mathbb{V}$ be the category with set of [[objects]] the [[natural numbers]] with set of [[morphisms]] $\mathbb{V}(m,n)$ being $(m,n)$-vines modulo a suitable notion of ambient isotopy that allows arcs to be deformed up to homotopy but not pass through one another.
 \end{defn}
 
 ##Properties
