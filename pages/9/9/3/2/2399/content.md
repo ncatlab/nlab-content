@@ -189,3 +189,8 @@ Further investigation of these stacky Chow motives then appears in
 [[!redirects Gromov-Witten theory]]
 [[!redirects Gromov–Witten theory]]
 [[!redirects Gromov--Witten theory]]
+
+[[!redirects Gromov-Ruan-Witten invariant]]
+[[!redirects Gromov-Ruan-Witten invariants]]
+
+
