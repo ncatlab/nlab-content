@@ -32,13 +32,17 @@ Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] 
 For $X,Y \in Ch_\bullet(\mathcal{A})$ any two [[objects]], define a chain complex $[X,Y] \in Ch_\bullet(\mathcal{A})$ to have components
 
 $$
-  [X,Y]_n := \prod_{i \in \mathbb{Z}} Hom_{R Mod}(X_i, Y_{i+n})
+  [X,Y]_n 
+    \,\coloneqq\, 
+  \prod_{i \in \mathbb{Z}} Hom_{R Mod}(X_i, Y_{i+n})
 $$ 
 
 (the collection of degree-$n$ maps between the underlying [[graded object|graded]] modules) and whose [[differential]] is defined on homogeneously graded elements $f \in [X,Y]_n$ by
 
 $$
-  d f := d_Y \circ f - (-1)^{n} f \circ d_X
+  d f 
+    \,\coloneqq\, 
+  d_Y \circ f - (-1)^{n} f \circ d_X
   \,.
 $$
 
@@ -46,22 +50,26 @@ This defines a [[functor]]
 
 $$
   [-,-] 
-   : 
-  Ch_\bullet(\mathcal{A})^{op} \times
+   \;\colon\; 
+  Ch_\bullet(\mathcal{A})^{op} 
+   \times
   Ch_\bullet(\mathcal{A})
-  \to 
+  \longrightarrow 
   Ch_\bullet(\mathcal{A})
   \,.
 $$
 
 =--
 
+
 ## Properties
+ {#Properties}
+
 
 +-- {: .num_prop}
 ###### Proposition
 
-$[-,-]$ defined above and $-\otimes -$ from [[tensor product of chain complexes]] endow $Ch_\bullet(\mathcal{A})$ with the structure of a closed monoidal category.
+The internal hom $[-,-]$ (Def. \ref{ExplicitDefinition}) together with the [[tensor product of chain complexes]] $(\text{-})\otimes (\text{-})$ endow $Ch_\bullet(\mathcal{A})$ with the structure of a [[closed monoidal category]].
 
 =--
 
@@ -71,7 +79,9 @@ $[-,-]$ defined above and $-\otimes -$ from [[tensor product of chain complexes]
 The collection of [[cycles]] of the [[internal hom]] $[X,Y]$ in degree 0 coincides with the external [[hom functor]]
 
 $$
-  Z_0([X,Y]) \simeq Hom_{Ch_\bullet}(X,Y)
+  Z_0\big([X,Y]\big) 
+    \,\simeq\, 
+  Hom_{Ch_\bullet}(X,Y)
   \,.
 $$
 
@@ -83,10 +93,10 @@ The [[chain homology]] of the [[internal hom]] $[X,Y]$ in degree 0 coincides wit
 +-- {: .proof}
 ###### Proof
 
-By Definition \ref{ExplicitDefinition} the 0-cycles in $[X,Y]$ are collections of morphisms $\{f_k : X_k \to Y_k\}$ such that 
+By Definition \ref{ExplicitDefinition} the 0-cycles in $[X,Y]$ are collections of morphisms $\{f_k \colon X_k \to Y_k\}$ such that 
 
 $$
-  f_{k+1} \circ d_X = d_Y \circ f_k
+  f_{k+1} \circ d_X \;=\; d_Y \circ f_k
   \,.
 $$
 
@@ -98,14 +108,14 @@ $$
   \lambda_{k+1} \circ d_X + d_Y \circ \lambda_k
 $$
 
-for a collection of maps $\{\lambda_k : X_k \to Y_{k+1}\}$. This are
-precisely the [[null homotopies]].
+for a collection of maps $\{\lambda_k : X_k \to Y_{k+1}\}$. This are precisely the [[null homotopies]].
 
 =--
 
-In [[tensor product of chain complexes]] we [noted](tensor+product+of+chain+complexes#CanonicalForgetfulFunctor) that the canonical forgetful functor $U_{Ch} \coloneqq Ch_\bullet(\mathcal{A})(I_{Ch},-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}$ takes a chain complex to its 0-cycles.
+From the [remark](tensor+product+of+chain+complexes#CanonicalForgetfulFunctor) at *[[tensor product of chain complexes]]* we have that the canonical forgetful functor $U_{Ch} \coloneqq Ch_\bullet(\mathcal{A})(I_{Ch},-) \colon Ch_\bullet(\mathcal{A}) \to \mathcal{A}$ takes a chain complex to its 0-cycles.
 
 Thus the description of the 0-cycles in the above proposition is equivalent to the statement $U_{Ch}([-,-]) \cong Ch_\bullet(\mathcal{A})(-,-)$, which is true in any closed category.
+
 
 ## Related concepts
 
