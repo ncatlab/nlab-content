@@ -28,9 +28,7 @@ $$
   \,.
 $$
 
-satisfying the [action property](action#eq:ActionProperty),
-
-so a [[monoidal category]] $\mathcal{A}$ may act on other *[[categories]]* $\mathcal{N}$ by [[functors]] 
+satisfying the [action property](action#eq:ActionProperty), so a [[monoidal category]] $\mathcal{A}$ may act on other *[[categories]]* $\mathcal{N}$ by [[functors]] 
 
 $$
   \oslash 
