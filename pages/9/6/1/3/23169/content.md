@@ -29,6 +29,7 @@ Injective-on-objects functors are exactly
 
 [[!include properties of functors -- contents]]
 
+[[!redirects injective-on-objects functor]]
 [[!redirects injective-on-objects functors]]
 [[!redirects injective on objects functor]]
 [[!redirects injective on objects functors]]
