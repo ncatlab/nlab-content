@@ -1,4 +1,5 @@
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,6 +27,8 @@ If $f$ is dominant then in this situation is the composition $g\circ f$ is alway
 * [[unirational variety]]
 
 * [[homotopy of rational maps]]
+
+* [[CP^N sigma-model|$\mathbb{C}P^N$ sigma-model]]
 
 ## References
 
