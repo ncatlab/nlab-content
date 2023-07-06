@@ -191,6 +191,8 @@ The content of this section is at
 
   * [[2d (2,0)-supersymmetric sigma-model]]
 
+* [[CP^N sigma-model]]
+
 * [[brane]]
 
   * [[particle]], [[superparticle]]
