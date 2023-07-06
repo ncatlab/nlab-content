@@ -35,4 +35,11 @@ On [[D4-D8 brane bound states]] as [[black branes]]:
 * {#BrandhuberOz99} [[Andreas Brandhuber]], [[Yaron Oz]], _The D4-D8 Brane System and Five Dimensional Fixed Points_, Phys.Lett. B460:307-312, 1999 ([arXiv:hep-th/9905148](https://arxiv.org/abs/hep-th/9905148))
 
 
+
+On the [[CP^1 sigma-model|$\mathbb{C}P^1$ sigma-model]]:
+
+* [[Shmuel Elitzur]], [[Yaron Oz]], [[Eliezer Rabinovici]], [[Johannes Walcher]], *Open/Closed Topological $\mathbb{C}P^1$ Sigma Model Revisited*,  J. High Energ. Phys. **2012** 101 (2012) &lbrack;[arXiv:1106.2967](https://arxiv.org/abs/1106.2967)&rbrack;
+
+
+
 category: people
