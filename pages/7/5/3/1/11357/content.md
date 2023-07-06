@@ -50,7 +50,7 @@ Mathematical formalization and classification is discussed in
  
 * {#ElliottSafronov18} [[Chris Elliott]], [[Pavel Safronov]], _Topological twists of supersymmetric observables_ ([arXiv:1805.10806](https://arxiv.org/abs/1805.10806))
 
-* {#EagerSaberiWalcher18} Richard Eager, Ingmar Saberi, Johannes Walcher, _Nilpotence varieties_ ([arXiv:1807.03766](https://arxiv.org/abs/1807.03766))
+* {#EagerSaberiWalcher18} Richard Eager, Ingmar Saberi, [[Johannes Walcher]], _Nilpotence varieties_ ([arXiv:1807.03766](https://arxiv.org/abs/1807.03766))
 
 For more see the [references](topologically+twisted+D%3D4+super+Yang-Mills+theory#References) at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 
