@@ -83,12 +83,50 @@ $$\array{a & \overset{e}{\to} & c\\
 exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is closed under retracts.
 =--
 
+In many examples, the class $R_2 L_1$ is closed under composition, but this is not always the case.
+
++--{: .un_prop #R2L1Comp}
+###### Proposition
+In a ternary factorization system, the class $R_2L_1$ is closed under composition if and only if $L_1R_2 \subseteq R_2L_1$.
+=--
++--{: .proof}
+###### Proof
+This is Proposition 3.6 of [Pultr and Tholen](#PultrTholen).
+
+"Only if" is obvious, since $L_1R_2 \subseteq (R_2L_1)(R_2L_1)$ which is contained in $R_2L_1$ if it is closed under composition.  Conversely, if $L_1R_2 \subseteq R_2L_1$ then $(R_2L_1)(R_2L_1) = R_2 (L_1 R_2) L_1 \subseteq R_2 (R_2 L_1) L_1 \subseteq R_2 L_1$.
+=--
+
++--{: .un_cor #R2L1NotComp}
+###### Corollary
+In a ternary factorization system, if every morphism factors as an $R_2$-map followed by an $L_1$-map, then $R_2L_1$ is closed under composition if and only if it consists of all morphisms, and if and only if $L_2 \cap R_1$ consists of only the isomorphisms.
+=--
++--{: .proof}
+###### Proof
+This is remarked after Examples 3.12 in [Pultr and Tholen](#PultrTholen).
+
+By the Proposition \ref{R2L1Comp}, if $L_1R_2$ is all morphisms and $R_2L_1$ is closed under composition, then it is also all morphisms, and by uniqueness of ternary factorizations this is equivalent to $L_2 \cap R_1$ being the isomorphisms.
+=--
+
+Concrete examples are below.
+
+## Relation to iterated distributive laws
+
+Since [[strict factorization systems]] can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], it is natural to think that "strict" ternary factorization systems can be identified with [[iterated distributive laws]] in [[Span]].  However, this is not true in general, due to the lack of closure of $R_2L_1$ under composition.
+
+In a triple distributive law there are three monads $A,B,C$ and distributive laws $B A \to A B$, $C A \to A C$, and $C B\to B C$ satisfying the [[Yang-Baxter equation]].  Thus, in particular there are three composite monads $A B$, $A C$, and $B C$, and the Yang-Baxter equation ensures we get distributive laws $(B C)A\to A(B C)$ and $C(A B) \to (A B)C$ and a unique induced monad structure on $A B C$.
+
+In a ternary factorization system, we would naturally take $A = R_2$, $B = L_2 \cap R_1$, and $C = L_1$.  We then get distributive laws $B A \to A B$ and $C B \to B C$, since $A B = R_1$ and $B C = L_2$ are closed under composition.  However, if $A C = R_2L_1$ is not closed under composition, we do not get a distributive law $C A \to A C$.
+
+It is now natural to conjecture that this is the only obstacle, though: strict ternary factorization systems for which $R_2L_1$ is closed under composition should be equivalent to triple distributive laws in $Span$.  Similarly, the non-strict case should correspond to triple distributive laws over the groupoid of isomorphisms in [[Prof]], as for ordinary [[orthogonal factorization systems]] and ordinary distributive laws.
+
 
 ## Examples
 
 * In [[Top]], let $L_1=$ quotient maps, $R_1=$ injective continuous maps, $L_2=$ surjective continuous functions, and $R_2=$ subspace embeddings.  Here $L_2\cap R_1=$ bijective continuous maps, and the two intermediate objects in the ternary factorization of a continuous map are obtained by imposing the coarsest and the finest compatible topologies on its set-theoretic image.
 
 * More generally, if a category has both ([[epimorphism|epi]], [[strong monomorphism|strong mono]]) and ([[strong epimorphism|strong epi]], [[monomorphism|mono]]) factorizations, then since strong epis are epi, we have a ternary factorization.  Here $L_2\cap R_1$ is the class of monic epics, sometimes called [[bimorphisms]].  The maps in $R_2 L_1$ are sometimes called [[strict morphisms]].
+
+  By Corollary \ref{R2L1NotComp}, if every morphism factors as a strong mono followed by a strong epi, the strict morphisms are only closed under composition if they are the isomorphisms.  For instance, this is true if the category has coproducts whose injections are strong mono, since we can then factor $A\to B$ as $A \to A+B \to B$ where the second factor is even [[split epi]].  This is the case in [[Top]], so that is a concrete example where $R_2L_1$ is not closed under composition.
 
 * On [[Cat]] there is a 2-categorical version of a ternary factorization system, determined by the [[factorization system on a 2-category|2-categorical factorization systems]] ([[essentially surjective functor|eso]]+[[full functor|full]], [[faithful functor|faithful]]) and (eso, [[fully faithful functor|full and faithful]]).  Here $L_2\cap R_1$ is the class of eso+faithful functors, while $R_2 L_1$ is the class of full functors.  This factorization system plays an important role in the study of [[stuff, structure, property]]. 
 
@@ -111,12 +149,10 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
 * The notion of [[k-ary factorization system]] is a generalization to factorizations into $k$ morphisms.
 
-* Just as [[strict factorization system]]s can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], so "strict" ternary (and k-ary) factorization systems can be identified with [iterated distributive law](http://arxiv.org/abs/0710.1120)s in $Span$.
-
 
 ## References
 
-* A. Pultr and W. Tholen, *Free Quillen Factorization Systems*.  Georgian Math. J.9 (2002), No. 4, 807-820
+* {#PultrTholen} A. Pultr and W. Tholen, *Free Quillen Factorization Systems*.  Georgian Math. J.9 (2002), No. 4, 807-820
 
 * [Cafe discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html)
 
