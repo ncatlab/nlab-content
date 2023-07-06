@@ -54,7 +54,7 @@ via [[string theory]]:
 
   "the Riemann hypothesis can be rephrased in terms of ultraviolet relations occurring in perturbative closed string theory"
 
-* {#ACER11} Carlo Angelantonj, Matteo Cardella, Shmuel Elitzur, Eliezer Rabinovici, _Vacuum stability, string density of states and the Riemann zeta function_,JHEP 1102:024,2011 ([arXiv:1012.5091](http://arxiv.org/abs/1012.5091))
+* {#ACER11} Carlo Angelantonj, Matteo Cardella, [[Shmuel Elitzur]], [[Eliezer Rabinovici]], *Vacuum stability, string density of states and the Riemann zeta function*, JHEP **1102** 024 (2011) &lbrack;[arXiv:1012.5091](http://arxiv.org/abs/1012.5091)&rbrack;
 
 * Sergio L. Cacciatori, Matteo A. Cardella, _Uniformization, Unipotent Flows and the Riemann Hypothesis_ ([arXiv:1102.1201](http://arxiv.org/abs/1102.1201))
 
