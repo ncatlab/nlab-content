@@ -25,7 +25,7 @@ _Exact $(\infty,1)$-categories_ are the analog in [[(∞,1)-category theory]]  o
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,1)$-category_ if
 
-1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
+1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[(∞,1)-fiber products]];
 
 1. [[groupoid object in an (infinity,1)-category|groupoid objects]] in $\mathcal{C}$ are effective:
 
