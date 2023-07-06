@@ -120,8 +120,7 @@ The category of such functors and [[natural transformation]]s between them we de
 ###### Remark on terminology
 
 The standard name in the literature for generalized smooth algebras is
-**$C^\infty$-rings**. Even though standard, this has the disadvantages for us 
-that it collides badly with the use of $\infty$- for 
+**$C^\infty$-rings**. Even though standard, this has the disadvantage that it collides badly with the use of $\infty$- for 
 [[higher category theory|higher categorical]] structures. 
 
 =--
