@@ -1337,7 +1337,7 @@ In view of consistency of [[flux compactifications]]:
 
 For the [[topological string]]:
 
-* {#Walcher07} Johannes Walcher, _Evidence for Tadpole Cancellation in the Topological String_ ([arXiv:0712.2775](https://arxiv.org/abs/0712.2775))
+* {#Walcher07} [[Johannes Walcher]], _Evidence for Tadpole Cancellation in the Topological String_, Communications in Number Theory and Physics **3** 1 (2009) &lbrack;[arXiv:0712.2775](https://arxiv.org/abs/0712.2775)&rbrack;
 
 
 
