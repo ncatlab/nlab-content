@@ -1547,7 +1547,7 @@ The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces ove
 
 The [[Cohomotopy charge map]] ("electric field map", "scanning map") and hence the relation of configuration spaces to [[Cohomotopy]] goes back to 
 
-* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* {#May72} [[Peter May]], *The geometry of iterated loop spaces*, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf)&rbrack;
 
 * {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. __21__ (1973), 213&#8211;221.  ([doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377)
 
@@ -1573,7 +1573,7 @@ The relevant construction for the [[group completion]] of the configuration spac
 * [Segal 73, Theorem 1](#Segal73)
 
 
-* {#Salvatore99} [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
+* {#Salvatore01} [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics **196** Birkhäuser (2001) &lbrack;[arXiv:math/9907073](https://arxiv.org/abs/math/9907073)&rbrack;
 
 and from the point of view of [[cobordism categories]]:
 
