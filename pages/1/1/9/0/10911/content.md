@@ -149,6 +149,11 @@ Status report:
 
 * *Progress in the numerical studies of the type IIB matrix model* &lbrack;[arXiv:2210.17537](https://arxiv.org/abs/2210.17537)&rbrack;
 
+Further:
+
+* *The emergence of expanding space-time in the Lorentzian type IIB matrix model with a novel regularization* &lbrack;[arXiv:2307.01681](https://arxiv.org/abs/2307.01681)&rbrack;
+
+
 
 
 
