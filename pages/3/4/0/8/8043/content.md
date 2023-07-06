@@ -35,7 +35,7 @@ For example, the [[Riemann hypothesis]] certainly is a [[proposition]], but it r
 
 In other words, the judgement symbols "$\vdash \, P$ " convey that *we know* (a [[proof]] of, hence the [[truth]] of) $P$ &lbrack;[Martin-Löf (1996, lectures 1-2)](#Martin-Löf96)&rbrack;. 
 
-As such, judgements may be formalized as "meta-proposition", namely [[propositions]] but in an ambient [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]] in which the given $P$ itself is formulated. (More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.)
+As such, judgements may be formalized as "meta-proposition", namely [[propositions]] but in an ambient [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than in the [[object language]] in which the given $P$ itself is formulated. (More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.)
 
 More generally, one considers *hypothetical judgements* (maybe first made explicit in &lbrack;[Church (1940, §5)](#Church40)&rbrack;) which are such assertions/validations but conditioned on premises, hence claims/specifications of [[proofs]] based on assumptions $A$: Writing
 
