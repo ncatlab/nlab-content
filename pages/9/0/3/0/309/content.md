@@ -58,6 +58,8 @@ In any finitely complete category, the [[kernel pair]] of the [[identity morphis
 
 * [[locally cartesian category]]
 
+* [[finitely complete (infinity,1)-category]]
+
 [[!include categories and logic - table]]
 
 ## References
