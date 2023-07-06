@@ -32,4 +32,3 @@ In every dagger 2-poset, given two injective maps $f:hom_A(a,b)$ and $g:hom_A(a,
 * [[2-poset of partial maps]]
 * [[category of maps]]
 
-category: category theory
