@@ -71,10 +71,14 @@ T P P \ar{d}{T \mu^P} \ar{r}{l P} & P T P \ar{r}{P l} & P P T \ar{d}{\mu^P T} \\
 T P \ar{rr}{l} && P T
 \end{tikzcd}
 
+The correspondence between distributive laws and _endofunctor_ liftings extends to a correspondence between distributive laws and _monad_ liftings. That is, distributive laws $l : T P \Rightarrow P T$ from the monad $\mathbf{T}$ to the monad $\mathbf{P}$ are in a canonical bijection with lifts of the monad $\mathbf{P}$ to a monad $\mathbf{P}^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
+such that $U^{\mathbf T} : A^{\mathbf T}\to A$ preserves the monad structure.
+
 Thus all together a distributive law from a monad to a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
 Similarly, there are definitions of distributive law of a comonad over a comonad, a monad over a comonad (sometimes called a __mixed__ distributive law), and so on.
+
 
 ##Examples##
 
