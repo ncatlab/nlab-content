@@ -78,6 +78,8 @@ Textbook accounts:
 
 * {#JS75} [[John Slater]], *Solid-State and Molecular Theory: A Scientific Biography*, Wiley (1975) &lbrack;[archive](https://archive.org/details/solidstatemolecu00slat/)&rbrack;
 
+* [[Alexander L. Fetter]], [[John Dirk Walecka]], *Quantum theory of many-particle systems*, Mcgraw-Hill (1991); Dover (2003) &lbrack;[archive.org](https://archive.org/details/quantum-theory-of-many-particle-systems-by-alexander-l.-fetter-john-dirk-walecka-physics-z-lib.org/mode/thumb)&rbrack; 
+
 * {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) $[$[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)$]$
 
 In terms of [[quantum field theory]]:
