@@ -52,6 +52,8 @@ Theoretical introduction and review:
 
 * [[Lev Landau]], [[Evgeny Lifshitz]], Section VI of: *Electrodynamics of Continuous Media*, volume 8 of: *[[Course of Theoretical Physics]]*, Pergamon Press (1960, 1984) &lbrack;[ISBN:9780750626347](https://shop.elsevier.com/books/electrodynamics-of-continuous-media/koch/978-0-08-057060-0), [archive](https://archive.org/details/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/mode/2up),  [pdf](https://www.aldebaran.cz/studium/books/1984_Landau-Electrodynamics.pdf)&rbrack;
 
+* [[Alexander L. Fetter]], [[John Dirk Walecka]], Ch. 13 of: *Quantum theory of many-particle systems*, Mcgraw-Hill (1991); Dover (2003) &lbrack;[archive.org](https://archive.org/details/quantum-theory-of-many-particle-systems-by-alexander-l.-fetter-john-dirk-walecka-physics-z-lib.org/mode/thumb)&rbrack; 
+
 
 * {#Chapman00} S. J. Chapman, _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
 
