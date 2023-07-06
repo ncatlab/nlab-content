@@ -26,4 +26,3 @@ Given a [[dagger 2-poset]] $A$, the **2-poset of partial maps** $Map_\bot(A)$ is
 * [[category of maps]]
 * [[category of monic maps]]
 
-category: category theory
