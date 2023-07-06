@@ -218,7 +218,7 @@ and the beginnings of
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_, [arXiv:1111.4234](http://arxiv.org/abs/1111.4234)
 * K. Costello, C. Scheimbauer, _Lectures on mathematical aspects of (twisted) supersymmetric gauge theories_, pp. 57-88 in: Mathematical aspects of QFTs, D. Calaque, T. Strobl editors, Springer 2015
 
-Lecture notes include
+Lecture notes:
 
 * [[Kevin Costello]] (with [[Owen Gwilliam]]), _Factorization algebras in perturbative quantum field theory_ in [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Strings, Field, Topology]], Oberwolfach report No 28, 2009 ([pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf#page=12))
 
@@ -227,6 +227,10 @@ Lecture notes include
   * notes by  [[Christoph Wockel]], [[costello.pdf:file]]
 
   * notes by Evan Jenkins on the same talk: [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
+
+* [[Araminta Amabel]], *Notes on Factorization Algebras and TQFTs* &lbrack;[arXiv:2307.01306](https://arxiv.org/abs/2307.01306)&rbrack;
+
+  > (with relation to [[functorial field theory]])
 
 
 There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
