@@ -986,6 +986,8 @@ Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[
 
 * [[complex oriented cohomology]]
 
+* [[CP^N sigma-model|$\mathbb{C}P^N$-sigma model]]
+
 * [[classifying space]]
 
 * [[Fubini-Study metric]]
