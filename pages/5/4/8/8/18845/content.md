@@ -1,4 +1,19 @@
-# Admissible rule
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
