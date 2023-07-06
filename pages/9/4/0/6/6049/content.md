@@ -367,7 +367,7 @@ The [[brane intersection|intersection]] laws with [[black brane|black]] [[D-bran
 
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
 
-* {#EGKRS00} Shmuel Elitzur, Amit Giveon, [[David Kutasov]], Eliezer Rabinovici, Gor Sarkissian, _D-Branes in the Background of NS Fivebranes_, JHEP 0008 (2000) 046 &lbrack;[arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052), [doi:10.1088/1126-6708/2000/08/046](https://doi.org/10.1088/1126-6708/2000/08/046)&rbrack;
+* {#EGKRS00} [[Shmuel Elitzur]], [[Amit Giveon]], [[David Kutasov]], [[Eliezer Rabinovici]], [[Gor Sarkissian]], *D-Branes in the Background of NS Fivebranes*, JHEP 0008 (2000) 046 &lbrack;[arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052), [doi:10.1088/1126-6708/2000/08/046](https://doi.org/10.1088/1126-6708/2000/08/046)&rbrack;
 
 
 
