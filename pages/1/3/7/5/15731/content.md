@@ -78,7 +78,7 @@ Lecture notes for 1-loop vacuum amplitudes for [[strings]] (vacuum [[string scat
 
 And with relation to the [[Riemann hypothesis]]:
 
-* {#ACER11} Carlo Angelantonj, Matteo Cardella, Shmuel Elitzur, Eliezer Rabinovici, _Vacuum stability, string density of states and the Riemann zeta function_,JHEP 1102:024,2011 ([arXiv:1012.5091](http://arxiv.org/abs/1012.5091))
+* {#ACER11} Carlo Angelantonj, Matteo Cardella, [[Shmuel Elitzur]], [[Eliezer Rabinovici]], _Vacuum stability, string density of states and the Riemann zeta function_,JHEP 1102:024,2011 ([arXiv:1012.5091](http://arxiv.org/abs/1012.5091))
 
 
 [[!redirects vacuum amplitudes]]
