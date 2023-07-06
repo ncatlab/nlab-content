@@ -104,8 +104,9 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 ## Related concepts
 
-
 * [[weak distributive law]]
+
+* [[iterated distributive law]]
 
 * [[wreath]]
 
