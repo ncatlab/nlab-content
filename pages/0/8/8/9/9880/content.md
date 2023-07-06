@@ -269,7 +269,6 @@ In [Becker-Becker-Strominger 95](#BeckerBeckerStrominger95) it was realized that
 [[!redirects non-perturbative effects]]
 [[!redirects non-perturvative effects]]
 
-
 [[!redirects nonperturbative effect]]
 [[!redirects nonperturbative effects]]
 
@@ -277,5 +276,11 @@ In [Becker-Becker-Strominger 95](#BeckerBeckerStrominger95) it was realized that
 
 [[!redirects non-perturbative contribution]]
 [[!redirects non-perturbative contributions]]
+
+[[!redirects nonperturbative phenomenon]]
+[[!redirects nonperturbative phenomena]]
+[[!redirects non-perturbative phenomenon]]
+[[!redirects non-perturbative phenomena]]
+
 
 
