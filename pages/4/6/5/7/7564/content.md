@@ -33,6 +33,8 @@ Also the perspective of [[string theory]] as the dimensional reduction of a conj
 
   * [[B-model]]
 
+* [[CP^N sigma-model]]
+
 * [[quantum cohomology ring]]
 
 * [[topological M-theory]], [[topological membrane]]
