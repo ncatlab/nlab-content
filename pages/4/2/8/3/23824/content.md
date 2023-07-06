@@ -114,6 +114,12 @@ $$\mathrm{Eq}_{\mathcal{P}(A)}(B, C) \coloneqq \prod_{x:A} (x \in_A B) \simeq (x
 For all $x:A$ and $B:\mathcal{P}(A)$, since $x \in_A B$ is propositions, by the rules of the [[type of all propositions]], there is an element $(x \in_A B)_\Omega:\Omega$ such that $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq (x \in_A B)$. Thus, for all $x:A$, $B:\mathcal{P}(A)$, and $C:\mathcal{P}(A)$, $(x \in_A B) \simeq (x \in_A C)$ implies that $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq \mathrm{El}_\Omega((x \in_A C)_\Omega)$ by the univalence axiom for the [[type of all propositions]], $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq \mathrm{El}_\Omega((x \in_A C)_\Omega)$ implies that $(x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$. Thus, $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$ is equivalent to $\prod_{x:A} (x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$. But by [[function extensionality]], there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\prod_{x:A} (x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$; hence there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$. 
 \end{proof}
 
+\begin{definition}
+Given a type $T$, there is a binary function $(-) \times (-):\mathcal{P}(T) \times \mathcal{P}(T) \to \mathcal{P}(T \times T)$ called the **[[cartesian product]] of subtypes**, defined by 
+$$(A \times B)(a, b) \coloneqq ((a \in_T A) \times (b \in_T B))_\Omega$$
+for all elements $a:T$, $b:T$ and subtypes $A:\mathcal{P}(T)$ and $B:\mathcal{P}(T)$. 
+\end{definition}
+
 ### Structural subtypes
 
 \begin{definition}
@@ -133,6 +139,12 @@ Given a type $T$, the [[empty type]] is the **empty structural subtype**, with e
 Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hookrightarrow T$ and $i_S:S \hookrightarrow T$, the **[[union]]** of $R$ and $S$ is the [[pushout type]] 
 $$R \cup S \coloneqq R \sqcup^{R \cap S}_{\pi_1 ; \pi_1' \circ \pi_2} S$$
 where $\pi_1$ and $\pi_2$ are the first and second projection functions for the first dependent sum type and $\pi_1'$ is the first projection function for the second dependent sum type for the intersection as defined above ($\sum_{r:R} \sum_{s:S} i_R(r) =_T i_S(s)$)
+\end{definition}
+
+\begin{definition}
+Given a type $T$ and structural subtypes $R$ and $S$ with embeddings $i_R:R \hookrightarrow T$ and $i_S:S \hookrightarrow T$, the **[[cartesian product]]** of $R$ and $S$ is simply the [[product]] $R \times S$. The associated [[embedding]] $i_{R \times S}:(R \times S) \hookrightarrow (T \times T)$ is defined by 
+$$i_{R \times S}(a) \coloneqq (i_R(\pi_1(a)), i_S(\pi_2(a)))$$
+for all $a:R \times S$, where $\pi_1$ and $\pi_2$ are the first and second product projection functions defined in the [[inference rules]] of the negative [[product type]] $R \times S$. 
 \end{definition}
 
 ## See also ##
