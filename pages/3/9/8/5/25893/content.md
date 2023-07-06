@@ -25,7 +25,7 @@ _Finitely complete $(\infty,1)$-categories_ are the analog in [[(∞,1)-category
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called a _finitely complete $(\infty,1)$-category_ if  $\mathcal{C}$ has [[finite (∞,1)-limits]], i.e. 
 
-* if it has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
+* if it has a [[terminal object in an (∞,1)-category|terminal object]] and [[(∞,1)-fiber products]];
 * if it has a [[terminal object in a quasi-category|terminal object]] and for every [[object]] $x \in C$, the [[over-(∞,1)-category]] $C_{/x}$ has finite [[products]]. 
 
 =--
