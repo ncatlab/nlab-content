@@ -81,6 +81,7 @@ A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precise
 ## Related concepts
 
 * [[embedding type]]
+* [[decidable embedding]]
 
 [[!redirects embedding]]
 [[!redirects embeddings]]
