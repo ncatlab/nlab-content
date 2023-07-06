@@ -26,27 +26,30 @@ A natural [[tensor product]] of [[chain complexes]] that makes the [[category of
 Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] of [[modules]] over $R$. Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] of $R$-modules. 
 
 
-+-- {: .num_defn #TheTensorProdComplex}
-###### Definition
-
-For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $(X \otimes Y)_\bullet \in Ch_\bullet(\mathcal{A})$ for the [[chain complex]] whose component in degree $n$ is given by the [[direct sum]]
-
-$$
-  (X \otimes Y)_n \coloneqq \oplus_{i + j = n} X_i \otimes_R Y_j
-$$
-
-over all tensor products of components whose degrees sum to $n$,
-and whose [[differential]] is given on elements $(x,y)$ of homogeneous degree by
+\begin{definition}
+\label{TheTensorProdComplex}
+For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $(X \otimes Y)_\bullet \in Ch_\bullet(\mathcal{A})$ for the [[chain complex]] whose component in degree $n$ is given by the [[direct sum]] (the [[coproduct]]) of [[tensor products of modules]] whose degrees adds to $n$: 
 
 $$
-  \partial^{X \otimes Y} (x, y) = (\partial^X x, y) + 
-  (-1)^{deg(x)} (x, \partial^Y y)
+  (X \otimes Y)_n 
+    \;\coloneqq\; 
+  \bigoplus_{i + j = n} 
+    X_i \otimes_R Y_j
+$$
+
+and whose [[differential]] is given on elements $(x,y)$ of homogeneous degree by the following formula:
+
+$$
+  \partial^{X \otimes Y} (x, y) 
+  \;\coloneqq\; 
+  \big(\partial^X x, y\big) 
+    \,+\, 
+  (-1)^{deg(x)} \big(x, \partial^Y y\big)
   \,.
 $$
 
-Its unit $1_{Ch}$ is $R$ considered as a chain complex concentrated in degree 0.
-
-=--
+Its [[tensor unit]] $1_{Ch}$ is $R$ considered as a chain complex concentrated in degree 0.
+\end{definition}
 
 
 ## Properties
