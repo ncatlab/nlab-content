@@ -58,7 +58,7 @@ This appears as ([Lurie, prop. 6.1.5.2](#Lurie)).
 
 * [[finite limit]]
 * [[(∞,1)-limit]]
-
+* [[finitely complete (infinity,1)-category]]
 
 ## References
 
