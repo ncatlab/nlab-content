@@ -30,9 +30,9 @@ Discussion of [[Cayley forms]] and [[wrapped branes]] on [[associative submanifo
 
 * [[Katrin Becker]], [[Melanie Becker]], D.R.Morrison, [[Hirosi Ooguri]], Y.Oz, Z.Yin, _Supersymmetric Cycles in Exceptional Holonomy Manifolds and Calabi-Yau 4-Folds_, Nucl.Phys.B480:225-238,1996 ([arXiv:hep-th/9608116](http://arxiv.org/abs/hep-th/9608116))
 
-On [[non-geometric string vacua]]:
+On [[moduli stabilization]] [[non-geometric string vacua]]:
 
-* [[Katrin Becker]], [[Melanie Becker]], [[Cumrun Vafa]], Johannes Walcher, _Moduli Stabilization in Non-Geometric Backgrounds_,  	Nucl.Phys.B770:1-46,2007 ([arXiv:hep-th/0611001](https://arxiv.org/abs/hep-th/0611001))
+* [[Katrin Becker]], [[Melanie Becker]], [[Cumrun Vafa]], [[Johannes Walcher]], _Moduli Stabilization in Non-Geometric Backgrounds_,  	Nucl.Phys.B770:1-46,2007 ([arXiv:hep-th/0611001](https://arxiv.org/abs/hep-th/0611001))
 
 On [[supersymmetry breaking]] in [[flux compactifications]] of [[M-theory]]:
 
@@ -44,7 +44,7 @@ On [[D=5 supergravity]] formulated in $\mathcal{N} = 1/2$ [[superspace]]:
 * [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, William D. Linch III, Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[non-perturbative effect]]
 
