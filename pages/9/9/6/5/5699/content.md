@@ -109,6 +109,10 @@ On [[topological M-theory]]:
 
 * [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], *Topological M-theory as Unification of Form Theories of Gravity*, Adv. Theor. Math. Phys. **9** (2005) 603-665 &lbrack;[arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073), [doi:10.4310/ATMP.2005.v9.n4.a5](https://dx.doi.org/10.4310/ATMP.2005.v9.n4.a5)&rbrack;
 
+On [[moduli stabilization]] in [[non-geometric string vacua]]:
+
+* [[Katrin Becker]], [[Melanie Becker]], [[Cumrun Vafa]], [[Johannes Walcher]], _Moduli Stabilization in Non-Geometric Backgrounds_,  Nucl. Phys. B **770** (2007) 1-46 &lbrack;[arXiv:hep-th/0611001](https://arxiv.org/abs/hep-th/0611001)&rbrack;
+
 
 On [[M-theory on S1/G_HW times H/G_ADE]] and [[D=6 N=(1,0) SCFT]]:
 
