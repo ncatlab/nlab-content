@@ -93,6 +93,8 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 * [[equivalence relation]], [[pseudo-equivalence relation]]
 
+* [[homotopy exact completion]]
+
 ## References
 
 The notion of "[[Bishop sets]]" goes to back the definition of sets in [[constructive mathematics]]/[[constructive analysis]] according to:
