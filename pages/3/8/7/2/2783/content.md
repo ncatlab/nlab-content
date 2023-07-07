@@ -214,6 +214,9 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * A [[free cocompletion]] of a (possibly large) finitely complete category, i.e., the category of [[small presheaves]] on $C$, is the ex/lex completion of the [[free cartesian category|free coproduct completion]] of $C$. This appears as Lemma 3 [here](#JR). 
 
+## Related concepts
+
+* [[homotopy exact completion]]
 
 ## References
 
