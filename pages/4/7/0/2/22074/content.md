@@ -9,7 +9,7 @@ On [[Khovanov homology]] and [[knot theory]]:
 
 Identifying [[schreiber:Fundamental weight systems are quantum states|more]] [[weight systems]] on [[horizontal chord diagrams]] which are [[state on a star-algebra|quantum states]]:
 
-* {#Collari2023} [[nLab:Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023, in print) &lbrack;[arXiv:2210.05399](https://arxiv.org/abs/2210.05399)&rbrack;
+* {#Collari2023} [[nLab:Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023, in print) &lbrack;[arXiv:2210.05399](https://arxiv.org/abs/2210.05399), [doi:10.4153/S0008439523000206](https://doi.org/10.4153/S0008439523000206)&rbrack;
 
 Review:
 
