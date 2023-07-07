@@ -97,6 +97,11 @@ Further discussion of [[supergeometry|supergeometric]] [[Teichmüller space]]:
 
 * [[Anton Zeitlin]], _Super-Teichmüller spaces and related structures_ ([arXiv:1811.09939](https://arxiv.org/abs/1811.09939))
 
+In relation to [[fat graphs]]:
+
+* [[Albert S. Schwarz]], [[Anton M. Zeitlin]], *Super Riemann surfaces and fatgraphs* &lbrack;[arXiv:2307.02706](https://arxiv.org/abs/2307.02706)&rbrack;
+
+
 [[!redirects super Riemann surfaces]]
 
 [[!redirects super-Riemann surface]]
