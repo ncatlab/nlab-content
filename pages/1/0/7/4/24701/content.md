@@ -110,7 +110,7 @@ $$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, 
 Computation rules for dependent function types
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma, a:A \vdash \beta_{\prod_{x:A} B(x)}(a):\mathrm{ind}_{\prod_{x:A} B(x)}(\lambda(x:A).b(x), a) =_{B(a)} b(a)}$$
 
-Optional Uniqueness rules for identification types
+Uniqueness rules for identification types
 $$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, t:\prod_{a:A} C(a, a, \mathrm{refl}_A(a)), x:A, y:A, p:x =_A y, q:C(x, y, p) \vdash \eta_{=_A}(t, x, y, p, q):J_A(t, x, y, p) =_{C(x, y, p)} q}$$
 
 Uniqueness rules for dependent function types:
