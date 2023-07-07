@@ -73,7 +73,7 @@ For [[JT-gravity]]/[[SYK model]]-duality (i.e. analogous to [[AdS2/CFT1 duality]
 
 * Hamid Afshar, Hernan Gonzalez, [[Daniel Grumiller]], Dmitri Vassilevich, *Flat space holography and complex SYK*, Phys. Rev. D 101, 086024 ([arXiv:1911.05739](https://arxiv.org/abs/1911.05739), [doi:10.1103/PhysRevD.101.086024](http://dx.doi.org/10.1103/PhysRevD.101.086024))
 
-### Celestial amplitudes
+### Celestial amplitudes and celestial holography
 
 Introduction and survey:
 
@@ -81,10 +81,15 @@ Introduction and survey:
 
 Original articles:
 
-* [[Nima Arkani-Hamed]], Monica Pate, Ana-Maria Raclariu, [[Andrew Strominger]], *Celestial Amplitudes from UV to IR*, JHEP 08 (2021) 062 ([arXiv:2012.04208](https://arxiv.org/abs/2012.04208))
+* [[Nima Arkani-Hamed]], Monica Pate, [[Ana-Maria Raclariu]], [[Andrew Strominger]], *Celestial Amplitudes from UV to IR*, JHEP 08 (2021) 062 ([arXiv:2012.04208](https://arxiv.org/abs/2012.04208))
 
 (...)
 
+* Charlotte Sleight, Massimo Taronna, *Celestial Holography Revisited* ([arXiv:2301.01810](https://arxiv.org/abs/2301.01810))
+
+* [[Ana-Maria Raclariu]], *Lectures on Celestial Holography* ([arXiv:2107.02075](https://arxiv.org/abs/2107.02075))
+
+[[!redirects celestial holography]]
 
 [[!redirects celestial amplitude]]
 [[!redirects celestial amplitudes]]
