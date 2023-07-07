@@ -82,6 +82,10 @@ For more on this see
 
 * *[[Models for Smooth Infinitesimal Analysis]]*
 
+## Related concepts
+
+* [[smooth algebra]]
+
 ## References
 
 See the references at [[generalized smooth algebra|C-infinity-ring]].
