@@ -175,6 +175,8 @@ In [[homotopy type theory]], and more generally in any [[intensional type theory
 
 * [[ex/lex completion]]
 
+* [[homotopy exact completion]]
+
 * [[extensional function]]
 
 * [[dagger functor]]
