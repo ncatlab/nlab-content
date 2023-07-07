@@ -33,10 +33,6 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,
 
 =--
 
-## Examples
-
-The (infinity,1)-category of [[setoid objects]] of a [[finitely complete (infinity,1)-category]] is an exact (infinity,1)-category. This corresponds to the fact that in [[intensional type theory]], types represent [[infinity-groupoids]] and the [[setoids]] are the [[exact completion]] of types. 
-
 ## Other notions of "exact"
 
 There is another meaning for "exact (∞,1)-category" for which there is a [[Quillen Q-construction]] for exact (∞,1)-categories which allows to compute its [[algebraic K-theory]].
