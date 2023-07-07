@@ -60,6 +60,9 @@ The [[Picard 2-groupoid]] of a braided monoidal 2-category is a [[braided 3-grou
 
 * [[Sjoerd E. Crans]], Section 2.2. of: *Generalized Centers of Braided and Sylleptic Monoidal 2-Categories*, Advances in Mathematics, Volume 136, Issue 2, 25 June 1998, Pages 183-223 ([doi:10.1006/aima.1998.1720](https://doi.org/10.1006/aima.1998.1720))
 
+* Thibault D. Décoppet, Hao Xu, *Local Modules in Braided Monoidal 2-Categories* &lbrack;[arXiv:2307.02843](https://arxiv.org/abs/2307.02843)&rbrack;
+
+
 
 [[!redirects braided monoidal 2-categories]]
 [[!redirects braided monoidal bicategory]]
