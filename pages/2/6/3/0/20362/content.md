@@ -24,7 +24,7 @@ in particular [[dyon|dyonic]]$\,$[[black brane|black]] [[M2-branes]], i.e. [[M5-
 
 ### Image in type II string theory
 
-Under suitable [[duality between M-theory and type IIA string theory]] the M2/M5brane bound states become [[Dp-D(p+2)-brane bound states]] ([Basu-Harvey 05](#BasuHarvey05)).
+Under suitable [[duality between M-theory and type IIA string theory]] the M2/M5-brane bound states become [[Dp-D(p+2)-brane bound states]] ([Basu-Harvey 05](#BasuHarvey05)).
 
 
 ### Relation to giant gravitons
