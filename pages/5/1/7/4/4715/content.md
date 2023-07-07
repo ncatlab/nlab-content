@@ -311,3 +311,9 @@ Further discussion
 
 [[!redirects fat graph]]
 [[!redirects fat graphs]]
+
+[[!redirects fatgraph]]
+[[!redirects fatgraphs]]
+
+
+
