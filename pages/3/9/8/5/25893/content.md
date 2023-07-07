@@ -30,10 +30,6 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called a _finitely complet
 
 =--
 
-## Properties
-
-The (∞,1)-category of [[setoid objects]] of a finitely complete (∞,1)-category is an [[exact (∞,1)-category]]. This corresponds to the fact that in [[intensional type theory]], [[types]] represent [[infinity-groupoids]] and the [[setoids]] are the [[exact completion]] of types. 
-
 ## Related concepts
 
 * [[finitely complete category]]
