@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] satisfy the *reflection rule*, saying that if two terms are [[propositional equality|propositionally equal]] then they are also [[definitional equality|definitionally equal]].
+_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] satisfy the *reflection rule*, saying that if two terms are [[typal equality|typally equal]] then they are also [[judgmental equality|judgmentally equal]].
 
 In particular, this implies that all [[identity types]] are [[propositions]] / of [[h-level 1]], and thus equivalently that all types are required to be [[h-sets]].  Therefore, extensional type theory is a [[set-level type theory]], and hence a form of [[set-level foundations]].  However, there are other set-level type theories, such as those obtained by adding [[UIP]] as an axiom.
 
@@ -48,9 +48,9 @@ At first, this may appear to be only a "[[skeleton|skeletality]]" assumption, si
 
 $$ (x:A),(y:A),(p:Id_A(x,y)) \;\vdash\; Id_{Id_A(x,y)}(p,refl(x)). $$
 
-This is well-typed because the reflection rule applied to $p$ yields a definitional equality $x\equiv y$, so that we have $refl(x):Id_A(x,y)$.  Moreover, [[substitution|substituting]] $x$ for $y$ and $refl(x)$ for $p$ yields the type $Id_{Id_A(x,x)}(refl(x),refl(x))$, which is inhabited by $refl(refl(x))$.
+This is well-typed because the reflection rule applied to $p$ yields a judgmental equality $x\equiv y$, so that we have $refl(x):Id_A(x,y)$.  Moreover, [[substitution|substituting]] $x$ for $y$ and $refl(x)$ for $p$ yields the type $Id_{Id_A(x,x)}(refl(x),refl(x))$, which is inhabited by $refl(refl(x))$.
 
-Thus, by induction on identity, we have a term in the above type, witnessing a [[propositional equality]] between $p$ and $refl(x)$.  Finally, applying the equality reflection rule again, we get a definitional equality $p\equiv refl(x)$.
+Thus, by induction on identity, we have a term in the above type, witnessing a [[typal equality]] between $p$ and $refl(x)$.  Finally, applying the equality reflection rule again, we get a judgmental equality $p\equiv refl(x)$.
 
 +-- {: .num_remark}
 ###### Remark
