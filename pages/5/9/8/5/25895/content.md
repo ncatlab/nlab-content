@@ -17,7 +17,11 @@
 
 ## Idea
 
-A generalization of [[exact completion]] from [[finitely complete categories]] to [[categories with path objects]]. 
+A generalization of [[exact completion]] from [[finitely complete categories]] to [[categories with path objects]], which turns a category with path objects into an [[exact category]]. 
+
+## Examples
+
+* Let $\mathcal{C}$ be the [[syntactic category]] of a [[dependent type theory]]. Then the category of [[setoids]] in $\mathcal{C}$ is the homotopy exact completion of $\mathcal{C}$. 
 
 ## See also
 
