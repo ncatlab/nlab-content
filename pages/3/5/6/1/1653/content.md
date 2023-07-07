@@ -137,6 +137,10 @@ A discussion of the abstract properties of the category of localizable measurabl
 
 * Alain Guichardet, _Sur la cat&#233;gorie des alg&#232;bres de von Neumann_  (French) Bull. Sci. Math. (2) 90 1966 41&#8211;64. ([MSN](http://ams.org/mathscinet-getitem?mr=201989)) ([scan](http://dmitripavlov.org/scans/guichardet.pdf))
 
+A modern treatment of this discussion can be found in
+
+* [[Dmitri Pavlov]], _Gelfand-type duality for commutative von Neumann algebras_. ([arXiv:2005.05284](https://arxiv.org/abs/2005.05284))
+
 A useful series of expositions along these lines is in
 
 * [[Dmitri Pavlov]], _On measurable spaces_
