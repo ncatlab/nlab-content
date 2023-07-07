@@ -97,11 +97,18 @@ On [[quantum mechanics]] and [[quantum field theory]]:
 
 * Igor Frolov, [[Albert Schwarz]], *Quantum mechanics and quantum field theory. Algebraic and geometric approaches*, lecture notes &lbrack;[arXiv:2301.03804](https://arxiv.org/abs/2301.03804)&rbrack;
 
+On [[super Riemann surfaces]] and [[fat graphs]]:
 
-## Related $n$Lab entries
+* [[Albert S. Schwarz]], [[Anton M. Zeitlin]], *Super Riemann surfaces and fatgraphs* &lbrack;[arXiv:2307.02706](https://arxiv.org/abs/2307.02706)&rbrack;
+
+
+## Related entries
 
 * [[supergeometry]]
 
 * [[10d super Yang-Mills theory]], [[IKKT matrix model]]
 
 category: people
+
+
+[[!redirects Albert S. Schwarz]]
