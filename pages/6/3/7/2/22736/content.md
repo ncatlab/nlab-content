@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -49,6 +48,9 @@ See also
 
 * Wikipedia, *[Fermi liquid theory](https://en.wikipedia.org/wiki/Fermi_liquid_theory)*
 
+* Umang Mehta, *Postmodern Fermi Liquids* &lbrack;[arXiv:2307.02536](https://arxiv.org/abs/2307.02536)&rbrack;
+
+
 [[!redirects Fermi liquid theory]]
 
 [[!redirects fermion sea]]
@@ -56,4 +58,7 @@ See also
 
 [[!redirects Fermi sea]]
 [[!redirects Fermi seas]]
+
+[[!redirects Fermi liquid]]
+[[!redirects Fermi liquids]]
 
