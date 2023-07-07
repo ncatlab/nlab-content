@@ -370,6 +370,14 @@ $$ Id_{C(x,y,p)}(J(t[x/y, r(x)/p];x,y,p), t). $$
 
 This has none of the bad consequences of judgmental $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *judgmentally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *[[transport]]* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
 
+### Dependent universal property
+
+The identity types in Martin-Löf type theory satisfy the typal $\beta$-conversion and typal $\eta$-conversion rules, regardless if the original $\beta$-conversion and $\eta$-conversion rules used [[typal equality]] or [[judgmental equality]]. The elimination rule in conjunction with the typal $\beta$-conversion and typal $\eta$-conversion rules state that identity types satisfy the **dependent universal property of identity types**. If the dependent type theory also has [[dependent sum types]] [[product types]], [[dependent product types]], and [[dependent function types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the natural numbers could be simplified to the following rule: 
+
+$$
+\frac{\Gamma, x:A, y:A, p:\mathrm{Id}_A(x, y) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{Id}_A(c)) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{up}_{\mathrm{Id}_A}(t, a):\exists!J:\left(\prod_{c:A} C(c, c, \mathrm{Id}_A(c))\right) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:\mathrm{Id}_A(x, y)} C(x, y, p)\right).\mathrm{Id}_{C(a, a, \mathrm{Id}_A(a))}(J(t, a, a, \mathrm{id}_A(a)), t(a))}
+$$
+
 ## Definition in observational type theory
 
 Identity types in [[observational type theory]] and [[higher observational type theory]] are defined in a different manner than they are in [[Martin-Löf type theory]]. 
@@ -844,4 +852,7 @@ See also
 [[!redirects Id-induction]]
 [[!redirects id-induction]]
 
-
+[[!redirects dependent universal property of identity types]]
+[[!redirects dependent universal property of identification types]]
+[[!redirects dependent universal property of path types]]
+[[!redirects dependent universal property of equality types]]
