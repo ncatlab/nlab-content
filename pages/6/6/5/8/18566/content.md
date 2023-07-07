@@ -5,6 +5,8 @@ An interesting guy into theoretical physics.
 
 * [some thoughts on Ron](https://kew1beans.wordpress.com/2014/10/20/167/)
 
+* [cirosantilli.com/ron-maimon](https://cirosantilli.com/ron-maimon)
+
 ## Selcted writings
 
 
