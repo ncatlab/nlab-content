@@ -148,6 +148,8 @@ There are several notions of [[category with weak equivalences]] with similar bu
 
 * There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
 
+* A [[category with path objects]] is similar to a category of fibrant objects but has [[path space objects]]. 
+
 * [[semimodel category|Semimodel categories]] relax some of the conditions on lifting properties.
 
 * [[weak model category|Weak model categories]] relax these conditions even further.
