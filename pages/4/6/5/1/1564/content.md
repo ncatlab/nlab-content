@@ -83,6 +83,8 @@ Here is a very convenient result: although a boolean ring $R$ is a [[rig]] in tw
 
 The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$. This is a boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. In [[constructive mathematics]], one would use the set of [[decidable subsets]] $2^S$ instead of the set of all subsets $\mathcal{P}S$ to get the corresponding boolean ring.
 
+More generally, given any Boolean ring $R$ and a set $S$, the [[function ring]] $R^S$ is a Boolean ring. 
+
 In classical mathematics the free boolean ring on a set $X$ can be identified with $\mathcal{P}_f \mathcal{P}_f X$, where $\mathcal{P}_f X$ is  the set of all finite subsets of $X$.  In fact $\mathcal{P}_f$ can be extended to a functor in two different ways, which agree on objects but differ on morphisms, and each of these gives a monad:
 
 * the monad for [[semilattices]], $M \colon Set \to Set$ (which we use to describe multiplication in a boolean ring) 
