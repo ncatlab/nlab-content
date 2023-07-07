@@ -1,4 +1,8 @@
 
+> This article is about the notion of *path category* in ordinary category theory. For the notion of path category in [[model category theory]] and [[homotopy theory]], see [[category with path objects]]. 
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contex
