@@ -1,4 +1,4 @@
-A generalization of the [[Selberg trace formula]].
+A generalization of the [[Selberg trace formula]], developed by [[James Arthur]].
 
 ## References
 
