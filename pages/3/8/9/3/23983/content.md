@@ -106,6 +106,43 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{hId}_B}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)), t)}$$
 
+Uniqueness rule for non-dependent heterogeneous identity types:
+
+* Judgmental uniqueness rules
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_B(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:\mathrm{hId}_B(a, b, p, y, z) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_B(a, b, p, y, z) \vdash r:C(a, b, p, y, z, q)
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, y, z, q) \equiv r:C(a, b, p, y, z, q)}$$
+
+* Propositional uniqueness rules
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_B(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:\mathrm{hId}_B(a, b, p, y, z) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_B(a, b, p, y, z) \vdash r:C(a, b, p, y, z, q)
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, y, z, q) \equiv_{C(a, b, p, y, z, q)} r \; \mathrm{true}}$$
+
+* Typal uniqueness rules
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_B(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:\mathrm{hId}_B(a, b, p, y, z) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_B(a, b, p, y, z) \vdash r:C(a, b, p, y, z, q)
+    \end{array}
+  }{\Gamma \vdash \eta_{\mathrm{hId}_B}(t, a, b, p, y, z, q, r):\mathrm{Id}_{C(a, b, p, y, z, q)}(\mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, y, z, q), r)}$$
+
+Similar to the case for [[identity types]], having the judgmental or propositional uniqueness rules for non-dependent heterogeneous identity types implies that the type theory is an [[extensional type theory]]. The typal uniqueness rules for non-dependent heterogeneous identity types is always provable from the other four inference rules. 
+
 ### Rules for dependent heterogeneous identity types
 
 Formation rule for dependent heterogeneous identity types:
@@ -132,7 +169,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
       \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)
     \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, y, z, q):C(a, b, p, y, z, q)}$$
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q):C(a, b, p, y, z, q)}$$
 
 Computation rules for dependent heterogeneous identity types:
 
@@ -165,6 +202,46 @@ $$\frac{
       \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t)}$$
+
+Uniqueness rule for dependent heterogeneous identity types:
+
+* Judgmental uniqueness rules
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash r:C(a, b, p, y, z, q)
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q) \equiv r:C(a, b, p, y, z, q)}$$
+
+* Propositional uniqueness rules
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash r:C(a, b, p, y, z, q)
+    \end{array}
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q) \equiv_{C(a, b, p, y, z, q)} r \; \mathrm{true}}$$
+
+* Typal uniqueness rules
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash r:C(a, b, p, y, z, q)
+    \end{array}
+  }{\Gamma \vdash \eta_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q, r):\mathrm{Id}_{C(a, b, p, y, z, q)}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q), r)}$$
+
+Similar to the case for [[identity types]] and non-dependent heterogeneous identity types, having the judgmental or propositional uniqueness rules for dependent heterogeneous identity types implies that the type theory is an [[extensional type theory]]. The typal uniqueness rules for dependent heterogeneous identity types is always provable from the other four inference rules. 
 
 ### As weak transport along an identity
 
