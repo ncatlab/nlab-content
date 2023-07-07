@@ -115,7 +115,7 @@ $$
   }
 $$
 
-for the [[linear map]] which sends a [[formal linear combination]] or representations to the [[weight system]] on [[Sullivan chord diagrams]] with $deg \in \mathbb{N}$ chords which is given by [[trace|tracing]] in the given representation.
+for the [[linear map]] which sends a [[formal linear combination]] of representations to the [[weight system]] on [[Sullivan chord diagrams]] with $deg \in \mathbb{N}$ chords which is given by [[trace|tracing]] in the given representation.
 
 Then a [[M2-M5-brane bound state]] as in the traditional discussion [above](#TraditionalDiscussion), but now formalized as an [[Lie algebra weight system|su(2)-weight system]] 
 
@@ -193,7 +193,7 @@ hence those which have a single constitutent [[fuzzy 2-sphere]],  with the shape
 > (from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
 
 
-Therefore, with this normalization, the [[limit of a sequence|limits]] $N^{(M2)} \to \infty$ and $N^{(M5)} \to \infty$ of (eq:M2M5BraneBoundStateInWeightSystems) should exist in [[weight systems]]. The former trivially so, the latter by the usual convergence ofthe [[fuzzy 2-sphere]] to the [[round sphere|round]] [[2-sphere]] in the [[large N limit]].
+Therefore, with this normalization, the [[limit of a sequence|limits]] $N^{(M2)} \to \infty$ and $N^{(M5)} \to \infty$ of (eq:M2M5BraneBoundStateInWeightSystems) should exist in [[weight systems]]. The former trivially so, the latter by the usual convergence of the [[fuzzy 2-sphere]] to the [[round sphere|round]] [[2-sphere]] in the [[large N limit]].
 
 Notice that the [[multi trace observables]] on these states only see the relative [[radii]] of the constitutent [[fuzzy 2-spheres]]: If $N^{(M2)}_i = \delta_i^{i_0} N^{(M2)}$ then the $N^{(M2)}$-dependence of (eq:M2M5BraneBoundStateInWeightSystems) cancels out, reflecting the fact that then there is only a single constituent 2-sphere of which the observable sees only the radius fluctuations, not the absolute radius (proportional to $N^{(M2)}$).
 
