@@ -15,9 +15,10 @@
 
 ## Definition 
 
-A [[locale]] $L$ is **locally positive** or **overt** if every [[open sublocale]] $O \in \mathcal{O}(L)$ is an indexed join of [[positive open sublocales]], or equivalently, if it has a base of positive open sublocales. 
+A [[locale]] $L$ is **locally positive** (or **overt** or **open**) if every [[open sublocale]] $O \in \mathcal{O}(L)$ is an indexed join of [[positive open sublocales]], or equivalently, if it has a base of positive open sublocales. 
 
 Other definitions of a locally positive locale include that the unique map $!:L \to 1$ is open, and that the product projection $\pi_2:L \times L' \to L'$ is open for every locale $L'$. 
+
 
 ## See also 
 
@@ -25,15 +26,19 @@ Other definitions of a locally positive locale include that the unique map $!:L 
 
 * [[positive locale]]
 
+* [[overt space]]
+
 * [[premetric locale]]
 
 * [[geometric hyperdoctrine]]
+
 
 ## References
 
 * [[Simon Henry]], Localic Metric spaces and the localic Gelfand duality ([arXiv:1411.0898v1](https://arxiv.org/abs/1411.0898v1))
 
 * Graham Manuell, *Uniform locales and their constructive aspects*, ([arXiv:2106.00678](https://arxiv.org/abs/2106.00678))
+
 
 [[!redirects locally positive locale]]
 [[!redirects locally positive locales]]
