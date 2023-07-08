@@ -51,9 +51,9 @@ Elimination rules for the circle type:
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma, x:S^1 \vdash \mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(x):C(x)}$$
 
 Computation rules for the circle type:
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{*}:\mathrm{Id}_{C(*)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(*), c_*)}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{*}(c_*, c_\mathcal{l}):\mathrm{Id}_{C(*)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(*), c_*)}$$
 
-$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{\mathcal{l}}:\mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})), c_\mathcal{l}, *, *, \mathcal{l})}$$
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{\mathcal{l}}(c_*, c_\mathcal{l}):\mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})), c_\mathcal{l}, *, *, \mathcal{l})}$$
 
 Uniqueness rules for the circle type:
 $$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:S^1} C(x) \quad \Gamma \vdash p:S^1}{\Gamma\vdash \eta_{S^1}(c, p):\mathrm{Id}_{C(p)}(c,\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c(*), \mathrm{apd}_{x:S^1.C(x)}(c, *, *, \mathcal{l}))}$$
