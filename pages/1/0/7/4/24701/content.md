@@ -133,46 +133,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 Uniqueness rules for function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \eta_{A \to B}(f):f =_{A \to B} \lambda(x).f(x)}$$
 
-### Heterogeneous identification types
-
-Now that we have identification types and dependent product types, we can define heterogeneous identification types, which are important for defining the isEquiv dependent type on a function, used to determine whether a function is an equivalence, and then used to define definitions. 
-
-Formation rule for heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B
-    \end{array}
-  }{\Gamma \vdash y =_{B}^{p} z \; \mathrm{type}}$$ 
-
-Introduction rule for heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
-    \end{array}
-  }{\Gamma \vdash \mathrm{ap}_{B}(f, a, b, p):\mathrm{ind}_{A \to B}(f, a) =_{B}^{p} \mathrm{ind}_{A \to B}(f, b)}$$ 
-
-Elimination rule for heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{B}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, \mathrm{ind}_{A \to B}(f, a), \mathrm{ind}_{A \to B}(f, b), \mathrm{ap}_{B}(f, a, b, p)) \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \quad \Gamma \vdash q:y =_{B}^p z
-    \end{array}
-  }{\Gamma \vdash J_{B}(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
-
-Computation rules for heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:a =_A b, y:B, z:B, q:y =_{B}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, \mathrm{ind}_{A \to B}(f, a), \mathrm{ind}_{A \to B}(f, b), \mathrm{ap}_{B}(f, a, b, p)) \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
-    \end{array}
-  }{\Gamma \vdash \beta_{=_{B}^p}(t, f, a, b, p):J_{B}(t, a, \mathrm{ind}_{A \to B}(f, a), b, \mathrm{ind}_{A \to B}(f, b), p, \mathrm{ap}_{B}(f, a, b, p)) =_{C(a, \mathrm{ind}_{A \to B}(f, a), b, \mathrm{ind}_{A \to B}(f, b), p, \mathrm{ap}_{B}(f, a, b, p))} t}$$
-
 ### Function extensionality
 
 Function extensionality states that given functions $f:A \to B$ and $g:A \to B$ the dependent function type
@@ -184,46 +144,6 @@ behaves as an [[identity system]].
 $$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash J(t, f, g, h):C(f, g, h)}$$
 
 $$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B \vdash \beta(t, f):J(t, f, f, \mathrm{ap}_B(f)) =_{C(f, f, \mathrm{ap}_B(f))} \mathrm{ind}_{\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k))}(t, f)}$$
-
-### Dependent heterogeneous identification types
-
-Now that we have identification types and dependent product types, we can define dependent heterogeneous identification types, which are important for defining the rules for higher inductive types. 
-
-Formation rule for dependent heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b)
-    \end{array}
-  }{\Gamma \vdash y =_{x:A.B(x)}^{p} z \; \mathrm{type}}$$ 
-
-Introduction rule for dependent heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
-    \end{array}
-  }{\Gamma \vdash \mathrm{apd}_{x:A.B(x)}(f, a, b, p):f(a) =_{x:A.B(x)}^{p} f(b)}$$ 
-
-Elimination rule for dependent heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{x:A.B(x)}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:y =_{x:A.B(x)}^p z
-    \end{array}
-  }{\Gamma \vdash J_{x:A.B(x)}^p(t, a, y, b, z, p, q):C(a, y, b, z, p, q)}$$
-
-Computation rules for dependent heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:a =_A b, y:B(a), z:B(b), q:y =_{x:A.B(x)}^p z \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
-    \end{array}
-  }{\Gamma \vdash \beta_{=_{x:A.B(x)}^p}(t, f, a, b, p):J_{x:A.B(x)}(t, a, f(a), b, f(b), p, \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) =_{C(a, f(a), b, f(b), p, \mathrm{apd}_{x:A.B(x)}(f, a, b, p))} t}$$
 
 ### Pair types
 
@@ -275,13 +195,85 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \m
 
 ### Positive types
 
-Now that we have [[identification types]], [[dependent heterogeneous identification types]], [[equivalence types]], [[dependent sum types]], and [[dependent product types]], we can use that to define the [[equivalence type]], the [[isContr]] [[modality]], the [[uniqueness quantifier]]
+Now that we have [[identification types]], [[equivalence types]], [[dependent sum types]], and [[dependent product types]], we can use that to define the [[equivalence type]], the [[isContr]] [[modality]], the [[uniqueness quantifier]]
 $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 
 $$\mathrm{isContr}(A) \coloneqq \sum_{y:A} \prod_{z:A} y =_{A} z$$
 
 $$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
 and combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[universal property]] rule. In addition, every type has an [[extensionality]] rule. 
+
+#### Heterogeneous identification types 
+
+Formation rule for heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B
+    \end{array}
+  }{\Gamma \vdash y =_{B}^{p} z \; \mathrm{type}}$$ 
+
+Introduction rule for heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
+    \end{array}
+  }{\Gamma \vdash \mathrm{ap}_{B}(f, a, b, p):\mathrm{ind}_{A \to B}(f, a) =_{B}^{p} \mathrm{ind}_{A \to B}(f, b)}$$ 
+
+Universal property rule for heterogeneous identification types:
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_{B}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p)) \\
+      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
+    \end{array}
+  }{\Gamma \vdash \mathrm{up}_{\mathrm{hId}_{B}}(t, f, a, b, p):
+\begin{array}{c}
+\exists!J:\left(\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))\right) \\ 
+\to \left(\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B} \prod_{f:B} \prod_{s:\mathrm{hId}_{B}(c, d, r, e, f)} C(c, d, r, e, f, s)\right) \\
+.\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p)), t(f, a, b, p))
+\end{array}
+}$$
+
+#### Dependent heterogeneous identification types
+
+Dependent heterogeneous identification types are important for defining the rules for higher inductive types. 
+
+Formation rule for dependent heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b)
+    \end{array}
+  }{\Gamma \vdash y =_{x:A.B(x)}^{p} z \; \mathrm{type}}$$ 
+
+Introduction rule for dependent heterogeneous identification types:
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
+    \end{array}
+  }{\Gamma \vdash \mathrm{apd}_{x:A.B(x)}(f, a, b, p):f(a) =_{x:A.B(x)}^{p} f(b)}$$ 
+
+Universal property rule for dependent heterogeneous identification types:
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
+    \end{array}
+  }{\Gamma \vdash \mathrm{up}_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):
+\begin{array}{c}
+\exists!J:\left(\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))\right) \\ 
+\to \left(\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B(c)} \prod_{f:B(c)} \prod_{s:\mathrm{hId}_{x:A.B(x)}(c, d, r, e, f)} C(c, d, r, e, f, s)\right) \\
+.\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t(f, a, b, p))
+\end{array}
+}$$
 
 #### Unit type
 
@@ -303,7 +295,7 @@ Formation rules for the empty type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 
 Universal property rule for the empty type:
-$$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\exists!c:\prod_{x:\mathbb{0}} C(x).\mathbb{1}}$$
+$$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\mathrm{isContr}\left(\prod_{x:\mathbb{0}} C(x)\right)}$$
 
 #### Interval type
 
