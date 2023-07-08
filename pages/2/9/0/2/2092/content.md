@@ -55,9 +55,9 @@ See [[states]].
 
 ## References
 
-Textbook accounts
+Textbook:
 
-* [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_,
+* [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_
 
   * Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
@@ -73,6 +73,7 @@ Textbook accounts
 
 * {#Schmuedgen90} [[Konrad Schmüdgen]], _Unbounded  operator  algebras  and  representation  theory_, Operator  theory, advances and applications, vol. 37. Birkh&#228;user, Basel (1990) ([doi:10.1007/978-3-0348-7469-4](https://link.springer.com/book/10.1007/978-3-0348-7469-4))
 
+* [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
 
 Lecture notes with an eye towards application in [[quantum physics]]:
 
