@@ -79,7 +79,9 @@ Given two pointed topological spaces $(X,x)$ and $(Y,y)$, then:
      \array{
        \ast &\overset{x}{\longrightarrow}& X
        \\
-       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
+       {}^{\mathllap{y}}\downarrow 
+         &\mathclap{{}^{{}_{(po)}}}& 
+       \downarrow
        \\
        Y &\longrightarrow& X \vee Y
      }
