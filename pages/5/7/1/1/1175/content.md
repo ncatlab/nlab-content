@@ -332,9 +332,12 @@ The original definition is due to [[John von Neumann]]:
 
 * [[J. v. Neumann]], _Zur Algebra der Funktionaloperationen und Theorie der normalen Operatoren_, Mathematische Annalen 102:1 (1930), 370-427, [doi](http://dx.doi.org/10.1007/bf01782352).
 
-A comprehensive three-volume treatise:
+Monographs:
 
-* [[Masamichi Takesaki]]_, _Theory of Operator Algebras_, Encyclopaedia of Mathematical Sciences 124, 125, 127.  2002, 2003.  First Edition of Volume I: 1979.
+* [[Masamichi Takesaki]]_, _Theory of Operator Algebras_, Encyclopaedia of Mathematical Sciences **124**, **125**, **127** (1979, 2002, 2003)
+
+* {#Blackadar06} [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
+
 
 On [[von Neumann algebras]] in [[algebraic quantum field theory]]:
 
