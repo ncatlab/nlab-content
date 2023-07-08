@@ -108,10 +108,64 @@ For a discussion of this in the finite-dimensional case see for instance ([Vicar
 ## Properties
  {#Properties}
 
-$C^*$-algebras are [[monadic]] over sets. 
-More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See J Wick Pelletier & J Rosicky, On the equational theory of $C^*$-algebras, Algebra Universalis 30:275-284, 1993.
 
-See also [[operator algebras]].
+
+### Category theoretic properties
+
+$C^*$-algebras are [[monadic]] over sets. 
+More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See [Pelletier & Rosicky (1993)](#PelletierRosicky93).
+
+See also *[[operator algebras]]*.
+
+
+### Partial order and positive elements
+ {#PartialOrderAndPositiveElements}
+
+The [[self-adjoint elements]] in a $C^\ast$-algebra $\mathcal{A}$
+
+$$
+  Herm(\mathcal{A})
+  \;\coloneqq\;
+  \big\{
+    A \,\in\, \mathcal{A}
+    \,\big\vert\,
+    A^\ast \,=\, A 
+  \big\}
+$$
+
+form a [[partial order|partially ordered]] [[complex vector space]] by declaring an element $A$ to be "larger" than some $B$ if the difference is a [[normal operator]]
+
+$$
+  A \geq B 
+  \;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;
+  \underset{C \in \mathcal{A} }{\exists}
+  \;\;
+  A - B \,=\, C^\ast C
+  \,.
+$$
+
+In particular, the positive elements are exactly the [[normal operators]]
+
+$$
+  A \geq 0 
+  \;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;
+  \underset{C \in \mathcal{A} }{\exists}
+  \;\;
+  A \,=\, C^\ast C
+  \,.
+$$
+
+(It is (only) this [[partial order]] on the [[underlying]] [[complex vector space]] of $\mathcal{A}$ which determines which [[linear functions]] $\mathcal{A} \to \mathbb{C}$ count as *[[states on a C-star algebra|states]]*.) 
+
+E.g. [Murphy (1990) §2.2](#Murphy90), [Blackadar (2006) §II.3.1](#Blackadar06)
+
+Discussion in the context of [[algebraic quantum field theory]]: [Fredenhagen (2003) p. 6](AQFT#Fredenhagen03)
+
+
 
 
 ### Gelfand-Naimark theorem
@@ -277,13 +331,13 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 Textbook accounts:
 
-* [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press 1990 ([doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6))
+* {#KadisonRingrose} [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_, chapter 4 in: Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
+* {#Murphy90} [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
-* {#KadisonRingrose} Richard Kadison, John Ringrose, chapter 4 in volume 1 of: _Fundamentals of the theory of operator algebras_ Academic Press, (1983)
+* {#Blackadar06} [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
+
  
-
-
 An exposition that explicitly gives [[Gelfand duality]] as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement is in
 
 * Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.ethz.ch/u/ambrogio/exercise_C_-algebras.pdf))
@@ -297,6 +351,10 @@ For [[operator algebra]]-theory see there and see
 * [[Stanisław Woronowicz]], _Unbounded elements affiliated with $C^\ast$-algebras and non-compact quantum groups. Commun. Math. Phys. 136, 399&#8211;432 (1991)
 
 * [[Stanisław Woronowicz]], K. Napi&#243;rkowski, _[[Operator theory in the C*-algebra framework]]_, Reports on Mathematical Physics Volume 31, Issue 3, June 1992, Pages 353&#8211;371 ([publisher](http://www.sciencedirect.com/science/article/pii/003448779290025V), [pdf](http://www.fuw.edu.pl/~slworono/PDF-y/OP.pdf))
+
+On category-theoretic properties:
+
+* {#PelletierRosicky93} J Wick Pelletier,  J Rosicky, *On the equational theory of $C^*$-algebras*, Algebra Universalis **30** (1993) 275-284
 
 
 A characterizations of injections of commutative sub-$C^*$-algebras -- hence of the [[poset of commutative subalgebras]] of a $C^*$-algebra -- is in
