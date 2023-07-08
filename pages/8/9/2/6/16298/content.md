@@ -13,14 +13,21 @@
 =--
 =--
 
+> For [[Isaac Newton|Newton]]'s *[[Philosophiæ naturalis principia mathematica]]* see there.
+
+***
 
 This page collects material related to 
 
 * [[Bertrand Russell]], [[Alfred Whitehead]]
 
-  _Principia Mathematica_
+  \linebreak
 
-  1910, 1927
+  **Principia Mathematica**
+
+  \linebreak
+
+  (1910, 1927)
 
   [ISBN:9780521067911](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/principia-mathematica?format=WX&isbn=9780521067911)
 
