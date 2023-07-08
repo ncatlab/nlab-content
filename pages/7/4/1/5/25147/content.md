@@ -39,6 +39,8 @@ Having one of the three notions of dependent function application to identificat
 * [[transport]]
 * [[dependent function]]
 
+[[!redirects dependent function application]]
+
 [[!redirects dependent function application to identities]]
 [[!redirects dependent function application to identifications]]
 [[!redirects dependent function application to paths]]
