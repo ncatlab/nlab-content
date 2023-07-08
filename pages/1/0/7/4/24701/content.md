@@ -297,22 +297,6 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 Universal property rule for the empty type:
 $$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\mathrm{isContr}\left(\prod_{x:\mathbb{0}} C(x)\right)}$$
 
-#### Interval type
-
-Formation rules for the interval type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{I} \; \mathrm{type}}$$
-
-Introduction rules for the interval type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash p:0 =_{\mathbb{I}} 1}$$
-
-Universal property rule for the interval type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_{x:\mathbb{I}.C(x)}(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
-
-Extensionality rules for the interval type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{I}}^{0, 0}:(0 =_{\mathbb{I}} 0) \simeq \mathbb{1}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{I}}^{0, 1}:(0 =_{\mathbb{I}} 1) \simeq \mathbb{1}}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{I}}^{1, 0}:(1 =_{\mathbb{I}} 0) \simeq \mathbb{1}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{I}}^{1, 1}:(1 =_{\mathbb{I}} 1) \simeq \mathbb{1}}$$
-
 #### Copy types
 
 Formation rules for copy types:
