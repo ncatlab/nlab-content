@@ -29,6 +29,8 @@ In essence, the cofiber type takes the [[image]] of the function $f:A \to B$ and
 
 * The cofiber type of a function out of the [[unit type]] to any type $B$ is equivalent to $B$. 
 
+* The cofiber type of the [[identity function]] on a type $B$ is the [[cone type]] of $B$. 
+
 ## See also
 
 * [[cofiber]], [[homotopy cofiber]]
