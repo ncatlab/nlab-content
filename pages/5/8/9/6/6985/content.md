@@ -89,7 +89,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{in}_A}:\prod_{x:A} C(\mathrm{in}_A(x)) \quad \Gamma \vdash c_{\mathrm{in}_B}:\prod_{y:B} C(\mathrm{in}_B(y)) \quad \Gamma \vdash b:B}{\Gamma \vdash \beta_{A + B}^{\mathrm{in}_B}(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}, b):\mathrm{Id}_{C(\mathrm{in}_B(b))}(\mathrm{ind}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}, \mathrm{in}_B(b)), c(b))}$$
 
 Uniqueness rules for sum types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:A + B} C(x) \quad \Gamma \vdash z:A + B}{\Gamma \vdash \eta_{A + B}(c, z):\mathrm{Id}_{C(z)}(\mathrm{ind}_{A + B}^C(c_{\mathrm{in}_A}, c_{\mathrm{in}_B}, z), c(z))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma, x:A + B \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:A + B} C(x) \quad \Gamma \vdash z:A + B}{\Gamma \vdash \eta_{A + B}(c, z):\mathrm{Id}_{C(z)}(\mathrm{ind}_{A + B}^C(\lambda x:A.c(\mathrm{in}_A(x)), \lambda y:B.c(\mathrm{in}_B(y)), z), c(z))}$$
 
 The elimination, computation, and uniqueness rules for the sum type of $A$ and $B$ state that the sum type of $A$ and $B$ satisfy the **dependent universal property of the sum type** of $A$ and $B$. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the sum type of of $A$ and $B$ could be simplified to the following rule:
 
@@ -102,7 +102,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 * [[product type]]
 
 * [[dependent sum type]]
-
 
 ## References
 
