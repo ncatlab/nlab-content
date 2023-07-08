@@ -47,9 +47,9 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-In the case when the terminal object is in fact zero object, one can, more explicitly, characterize the object $coker(f)$ as [[generalized the|the]] object (unique up to unique [[isomorphism]]) that satisfies the following [[universal property]]:
+In the case when the terminal object is in fact [[zero object]], one can, more explicitly, characterize the object $coker(f)$ as [[generalized the|the]] object (unique up to unique [[isomorphism]]) that satisfies the following [[universal property]]:
 
-for every object $C$ and every morphism $h : B \to C$ such that $h \circ f = 0$ is the [[zero morphism]], there is a unique morphism $\phi : coker(f) \to C$ such that $h = \phi \circ i$.
+for every object $C$ and every morphism $h \colon B \longrightarrow C$ such that $h \circ f = 0$ is the [[zero morphism]], there is a unique morphism $\phi \colon coker(f) \to C$ such that $h = \phi \circ i$.
 
 =--
 
