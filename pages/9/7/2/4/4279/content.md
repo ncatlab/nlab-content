@@ -470,6 +470,10 @@ See at *[[Gleason's theorem]]*.
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
+Textbook account:
+
+* {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], §2.3 in: *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
+
 Discussion under the name "positive linear functionals"
 
 * {#Dixmier77} [[Jacques Dixmier]], §2 of: *$C^\ast$-algebras*, North Holland (1977)
@@ -516,6 +520,8 @@ With an eye towards [[Gelfand-Tsetlin algebra|Gelfand-Tsetlin algebras]] and in 
 
 For more references see at _[[operator algebra]]_.
 
+### The case of group algebras
+
 The case of [[group algebras]]:
 
 * {#Naimark56} [[Mark A. Naimark]], *Normed Rings*, Moscow (1956)
@@ -524,6 +530,9 @@ The case of [[group algebras]]:
 
 * {#Saworotnow72} Parfeny P. Saworotnow, *Generalized Positive Linear Functionals on a Banach Algebra with an Involution*, Proceedings of the AMS, **31** 1 (1972) 299-304  &lbrack;[jstor:2038564](https://www.jstor.org/stable/2038564)&rbrack;
 
+* [Dixmier (1977) Thm. 13.4.6](#Dixmier77)
+
+* [[eom]], *[Positive-definite function](https://encyclopediaofmath.org/wiki/Positive-definite_function)*
 
 
 [[!redirects states on a star-algebra]]
