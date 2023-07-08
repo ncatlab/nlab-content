@@ -23,9 +23,25 @@ On methods of [[topology]] and [[homotopy theory]] in [[hydrodynamics]]:
 
 * [[Vladimir Arnold]], [[Boris Khesin]], _Topological methods in hydrodynamics_, Applied Mathematical Sciences __125__, Springer 1998 ([doi:10.1007/b97593](https://link.springer.com/book/10.1007/b97593))
 
+On teaching [[mathematics]] informed by [[physics]]:
 
+* {#Arnold98} [[Vladimir I. Arnold]], *On teaching mathematics*, Russ. Math. Surv. **53** 1 (1998) 229 &lbrack;[doi:10.1070/RM1998v053n01ABEH000005](https://iopscience.iop.org/article/10.1070/RM1998v053n01ABEH000005), [web](https://www.math.fsu.edu/~wxm/Arnold.htm)&rbrack;
 
-## Related $n$Lab entries
+> "Mathematics is a part of physics. Physics is an experimental science, a part of natural science. Mathematics is the part of physics where experiments are cheap.
+
+> The Jacobi identity (which forces the altitudes of a triangle to meet in a point) is an experimental fact in the same way as the fact that the earth is round (that
+is, homeomorphic to a ball). But it can be discovered with less expense. 
+
+> In the middle of the twentieth century an attempt was made to separate physics and mathematics. The consequences turned out to be catastrophic. Whole generations of mathematicians grew up without knowing half of their science and, of course, in total ignorance of any other sciences. They first began teaching their ugly scholastic pseudo-mathematics to their students, then to schoolchildren (forgetting Hardy’s warning that ugly mathematics has no permanent place under the sun).
+
+> Since scholastic mathematics that is cut off from physics is fit neither for teaching nor for application in any other science, the result was a universal hatred of mathematicians, both on the part of the poor schoolchildren (some of whom in the meantime became ministers) and of the users.
+
+> &lbrack;...&rbrack;
+
+> A teacher of mathematics who has not got to grips with at least some of the volumes of the [[Course of Theoretical Physics|course]] by Landau and Lifshitz will then become a relic like the person nowadays who does not know the difference between an open and a closed
+set."
+
+## Related entries
 
 * [[symplectic geometry]]
 
