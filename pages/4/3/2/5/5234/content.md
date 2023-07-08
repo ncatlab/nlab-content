@@ -23,6 +23,11 @@ Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CF
 
 * Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
 
+On [[Hopf algebras]] in generative linguistics:
+
+* [[Matilde Marcolli]], [[Noam Chomsky]], Robert Berwick, *Mathematical Structure of Syntactic Merge* ([arXiv:2305.18278](https://arxiv.org/abs/2305.18278))
+
+* [[Matilde Marcolli]], Robert Berwick, [[Noam Chomsky]], *Old and New Minimalism: a Hopf algebra comparison* ([arXiv:2306.10270](https://arxiv.org/abs/2306.10270))
 
 category: people, noncommutative geometry
 
