@@ -51,7 +51,7 @@ Let $X$ be a [[locally path-connected topological space|locally path-connected]]
 
 1. extracting the [[monodromy]] $Fib_{E}$ of a [[covering space]] $E$ over $X$
 
-1. [[reconstructing a covering space from monodromy]] $Rec(\rho)$
+1. [[reconstructing a covering space from monodromy]] $\; Rec(\rho)$
 
 constitute an [[equivalence of categories]]
 
