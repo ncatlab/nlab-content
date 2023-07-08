@@ -30,7 +30,7 @@
 ## Idea
  {#Idea}
 
-The concept of _state on a star-algebra_ is the formalization of the general idea of [[states]] from the point of view of  [[quantum probability theory]] and [[AQFT|algebraic quantum theory]].
+The concept of _state on a star-algebra_ is the formalization of the general idea of *[[states]]* from the point of view of  [[quantum probability theory]] and [[AQFT|algebraic quantum theory]].
 
 In order to motivate the definition from more traditional formulations in  [[physics]], recall that there a _[[state]]_ $\langle - \rangle$ is the information that allows to  assign to each [[observable]] $A$ the [[expectation value]] $\langle A\rangle$ that this observable has when the [[physical system]] is assumed to be in that state.
 
@@ -58,7 +58,9 @@ $$
 
 which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this *a posteriori* via the _[[GNS construction]]_. 
 
-Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)[Landsman 2017, Def. 2.4](#Landsman17)), but the definition makes sense generally for plain [[star-algebras]] ([Meyer 95, I.1.1](#Meyer95)), such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
+Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen (2003) Sec. 2](#Fredenhagen03), [Landsman (2017) Def. 2.4](#Landsman17)), but the definition makes sense generally for plain [[star-algebras]] ([Meyer (1995), I.1.1](#Meyer95)), such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann (1996) Def. 1](#BordemannWaldmann96), [Fredenhagen & Rejzner (2012) Def. 2.4](#FredenhagenRejzner12), [Khavkine & Moretti (2015) Def. 6](#KhavkineMoretti15), [Dütsch (2018) Def. 2.11](#Duetsch18)).
+
+Of course the 
 
 The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
 
@@ -443,6 +445,12 @@ See at *[[Gleason's theorem]]*.
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
+See also 
+
+* Wikipedia, *[Positive linear functional](https://en.wikipedia.org/wiki/Positive_linear_functional)*
+
+* [[eom]], *[Positive0definite function](https://encyclopediaofmath.org/wiki/Positive-definite_function)*
+
 With an eye towards [[density matrices]] and their [[entropy]]:
 
 * Paolo Facchi, Giovanni Gramegna, Arturo Konderak, around (6) in: *Entropy of quantum states* ([arXiv:2104.12611](https://arxiv.org/abs/2104.12611), [spire:1860877](https://inspirehep.net/literature/1860877))
@@ -483,6 +491,11 @@ For more references see at _[[operator algebra]]_.
 [[!redirects states on a star-algebra]]
 
 [[!redirects states on star-algebras]]
+
+[[!redirects state on a C-star algebra]]
+[[!redirects states on a C-star algebra]]
+[[!redirects state on a C* algebra]]
+[[!redirects states on a C* algebra]]
 
 [[!redirects state on an operator algebra]]
 [[!redirects state of an operator algebra]]
