@@ -180,32 +180,27 @@ and for just [[quantum mechanics]] in the algebraic perspective:
 
 Textbook accounts:
 
-* [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_
-
-* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
+* {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
 
 * [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
 
+* [[Nikolay Bogolyubov]], Logunov, Oksak, Todorov, *General principles of quantum field theory* (Mathematical Physics and Applied Mathematics, 10. Dordrecht etc.: Kluwer Academic Publishers, 1990)
+
+* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ (1992)
+
+* [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_ (1999)
+
 * [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
+* [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ &lbrack;[arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
 
-
-A good account of the mathematical axiomatics of Haag-Kastler AQFT is
-
-* [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
-
-
-An account written by mathematicians for mathematicians is this:
+An account written by mathematicians for mathematicians:
 
 * [[Hellmut Baumgärtel]], Manfred Wollenberg, _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
 
-and this:
-
 * [[Hellmut Baumgärtel]], _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
 
-A classic of the trade is this one:
 
-* [[Nikolay Bogolyubov]], Logunov, Oksak, Todorov: _General principles of quantum field theory_ (Mathematical Physics and Applied Mathematics, 10. Dordrecht etc.: Kluwer Academic Publishers, 1990)
 
 
 ### Reviews
