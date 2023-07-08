@@ -413,6 +413,11 @@ Classical textbook account:
 
 * {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
 
+* {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
+
+  > ([[AQFT|algebraic]] [[quantum statistical mechanics]])
+
+
 * [[James Glimm]], [[Arthur Jaffe]], *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*, Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
 
   > (focus on the [[path integral]] in [[constructive quantum field theory]])
@@ -425,6 +430,7 @@ Classical textbook account:
 
 
 More recent textbook accounts:
+
 
 * [[Klaas Landsman]], *[[Mathematical Topics Between Classical and Quantum Mechanics]]*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
 
