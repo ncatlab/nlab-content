@@ -37,6 +37,56 @@ In [[Coq]] pseudocode, the cone is given by
 
 It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit type $1$ under $A$. Similarly, it is the [[cofiber]] of the [[identity function]] of $A$. This definition makes it clear that the cone type is always a [[contractible type]]. As a result, cone types could be though of as a way of constructing free contractible types for any type $A$. 
 
+### Induction rules
+
+
+Formation rules for cone types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{cone}(A)}$$
+
+Introduction rules for cone types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash *:\mathrm{cone}(A)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash i:A \to \mathrm{cone}(A)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathcal{g}:\prod_{x:A} * =_{\mathrm{cone}(A)} i(x)}$$
+
+Elimination rules for cone types:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x) 
+\end{array}}{\Gamma \vdash \mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g}):\prod_{y:\mathrm{cone}(A)} C(y)}$$
+
+Computation rules for cone types:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x)
+\end{array}}{\Gamma \vdash \beta_{\mathrm{cone}(A)}^{*}(c_*, c_i, c_\mathcal{g}):\mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g})(*) =_{C(*)} c_*}$$
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x)
+\end{array}}{\Gamma \vdash \beta_{\mathrm{cone}(A)}^{i}(c_*, c_i, c_\mathcal{g}):\prod_{x:A} \mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g})(i(x)) =_{C(i(x))} c_i(x)}$$
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ 
+\Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{x:A} C(i(x)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_i(x)
+\end{array}}{\Gamma \vdash \beta_{\mathrm{cone}(A)}^{\mathcal{g}}(c_*, c_i, c_\mathcal{g}):\prod_{x:A} \mathrm{apd}_{y:\mathrm{cone}(A).C(y)}(\mathrm{ind}_{\mathrm{cone}(A)}(c_*, c_i, c_\mathcal{g}), *, i(x), \mathcal{g}(x)) =_{y:\mathrm{cone}(A).C(y)}^{\mathcal{g}(x)} c_\mathcal{g}(x)}$$
+
+Uniqueness rules for cone types:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma, y:\mathrm{cone}(A) \vdash C(y) \; \mathrm{type} \\ \Gamma \vdash c:\prod_{y:\mathrm{cone}(A)} C(y) \quad \Gamma \vdash p:\mathrm{cone}(A) \\ 
+\Gamma \vdash l:\prod_{x:A} p =_{\mathrm{cone}(A)} i(x)
+\end{array}}{\Gamma \vdash \eta_{\mathrm{cone}(A)}(c, p, l):\mathrm{ind}_{\mathrm{cone}(A)}(c(p), \lambda x:A.c(i(x)), \lambda x:A.\mathrm{apd}_{y:\mathrm{cone}(A).C(y)}(c, p, i(x), l(x)))(p) =_{C(p)} c(p)}$$
+
 ## Examples
 
 * The [[unit type]] $1$ is the cone type of an empty type $0$. 
