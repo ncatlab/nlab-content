@@ -251,6 +251,11 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 
 ## References
 
+The origin of [[Newton's laws of motion]]:
+
+* {#Newton1687} [[Isaac Newton]], *[[Philosophiæ naturalis principia mathematica]]* (1687)
+
+
 Classical textbooks:
 
 * [[Tom W. B. Kibble]], [[Frank Berkshire]], *Classical mechanics*, McGraw-Hill (1966, 1973, 2004) &lbrack;[pdf](https://physicaeducator.files.wordpress.com/2018/02/classical-mechanics-by-kibble-and-berkshire.pdf), <a href="https://en.wikipedia.org/wiki/Classical_Mechanics_(Kibble_and_Berkshire)">Wikipedia entry</a>&rbrack;
