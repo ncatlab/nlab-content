@@ -16,19 +16,23 @@
 
 This entry is about the textbook:
 
-* [[Rudolf Haag]], 
+* [[Rudolf Haag]]:
 
-  _Local quantum physics -- Fields, particles, algebras_ 
+  \linebreak
 
-  Springer (1992) 2nd., rev. and enlarged ed. Springer (1996) 
+  **Local quantum physics -- Fields, particles, algebras** 
+
+  \linebreak
+
+  Springer (1992, 1996) 
 
   [ISBN 978-3-642-61458-3] (https://www.springer.com/gp/book/9783540610496)
 
   [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.46057&format=complete)
 
-which discusses basic aspects of [[quantum field theory]] from the axiomatic and precise point of view of [[AQFT]] (formalizing quantum field theories by their [[local nets of observables]]).
+on [[algebraic quantum field theory]] via [[local nets of observables]] satisfying the [[Haag-Kastler axioms]].
 
-While axiomatic, the book does contain a fair bit of discussion of the relation to actual physics.
+While axiomatic, the book does contain a fair bit of discussion of the relation to actual [[physics]].
 
 Here is a hyperlinked keyword list:
 
