@@ -8,9 +8,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -37,6 +35,33 @@ This says that the type is inductively constructed from
 
    Hence a non-constant path from the base point to itself.
 
+### In natural deduction
+
+Let $\mathrm{Id}_A(a, b)$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:\mathrm{Id}_A(a, b)$. Let $\mathrm{apd}_{x:A.B(x)}(f, a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:\mathrm{Id}_A(a, b)$
+
+In the [[natural deduction]] formulation of [[dependent type theory]], the circle type is given by the following [[inference rules]]:
+
+Formation rules for the circle type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash S^1 \; \mathrm{type}}$$
+
+Introduction rules for the circle type:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash *:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathcal{l}:\mathrm{Id}_{S^1}(*,*)}$$
+
+Elimination rules for the circle type:
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma, x:S^1 \vdash \mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(x):C(x)}$$
+
+Computation rules for the circle type:
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{*}:\mathrm{Id}_{C(*)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})(*), c_*)}$$
+
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \beta_{S^1}^{\mathcal{l}}:\mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l})), c_\mathcal{l}, *, *, \mathcal{l})}$$
+
+Uniqueness rules for the circle type:
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{x:S^1} C(x) \quad \Gamma \vdash p:S^1}{\Gamma\vdash \eta_{S^1}(c, p):\mathrm{Id}_{C(p)}(c,\mathrm{ind}_{S^1}^{x:S^1.C(x)}(c(*), \mathrm{apd}_{x:S^1.C(x)}(c, *, *, \mathcal{l}))}$$
+
+The elimination, computation, and uniqueness rules for the circle type state that the circle type satisfy the **dependent universal property of the circle type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the circle type could be simplified to the following rule:
+
+$$\frac{\Gamma, x:S^1 \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}{\Gamma \vdash \mathrm{up}_{S^1}^{x:S^1.C(x)}(c_*, c_\mathcal{l}):\exists!c:\prod_{x:S^1} C(x).\mathrm{Id}_{C(*)}(c(*), c_*) \times \mathrm{Id}_{\mathrm{hId}_{x:S^1.C(x)}(*, *, \mathcal{l}, c_*, c_*)}(\mathrm{apd}_{x:S^1.C(x)}(c, c_*, c_*, c_\mathcal{l}), c_\mathcal{l})}$$
+
 ### As a suspension
 
 The circle type could also be defined as the [[suspension type]] $\Sigma \mathbf{2}$ of the type of [[booleans]] $\mathbf{2}$. 
@@ -47,12 +72,14 @@ The circle type could also be defined as the [[coequalizer type]] of any two [[e
 
 $$\mathbf{1} \rightrightarrows \mathbf{1} \to S^1$$
 
-### Using torsors ###
+### Using torsors 
 
 The circle can also be defined without HITs using only univalence, as the type of $\mathbb{Z}$-torsors.  One can then prove that this type satisfies the same induction principle (propositionally).  This is due to [[Dan Grayson]].
 
-## Properties ##
+## Properties 
  {#Properties}
+
+### Induction and recursion principles
 
 Its [[induction principle]] says (e.g. [UFP13, p. 177](#UFP13)) that for 
 
@@ -70,11 +97,19 @@ As a special case, its [[recursion principle]] says that given any type $X$ with
 
 $$f(base)=x\qquad ap_f(loop)=l$$
 
-### $\Omega(S^1)=\mathbb{Z}$ ###
+### Extensionality principle of the circle type
+
+The extensionality principle of the circle type says that there is an equivalence of types between the identification type $\mathrm{Id}_S^1(*,*)$ and the type of integers $\mathbb{Z}$:
+
+$$\mathrm{ext}_S^1:\mathrm{Id}_S^1(*,*) \simeq \mathbb{Z}$$
+
+Thus, the extensionality principle of the circle type implies that the integers and thus the natural numbers are [[contractible types]] if [[axiom K]] or [[uniqueness of identity proofs]] hold for the entire type theory. If the extensionality principle of the natural numbers also hold in the type theory, then every type is contractible. 
+
+### $\Omega(S^1)=\mathbb{Z}$ 
 
 There are several proofs in the [[HoTT book]] that the [[loop space]] $\Omega(S^1)$ of the circle is the [[integers]] $\mathbb{Z}$.  (Any such proof requires the [[univalence axiom]], since without that it is consistent that $S^1$ is contractible.  Indeed, $S^1$ is contractible if and only if [[UIP]] holds.)
 
-## See also
+## Related concepts
 
 * [[circle]], [[unit circle]], [[circle group]], [[circle object]]
 
@@ -128,5 +163,8 @@ Alternative construction of the circle type as a coequalizer:
 
 * {#Shulman15} [[Mike Shulman]], Section 9 of  _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
-
+[[!redirects circle type]]
 [[!redirects circle types]]
+
+[[!redirects dependent universal property of the circle type]]
+[[!redirects dependent universal property of circle types]]
