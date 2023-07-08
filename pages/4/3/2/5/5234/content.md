@@ -4,6 +4,8 @@ She was a recipient of the Sonja Kovalevskaja prize and worked for several years
 
 * [web](http://www.its.caltech.edu/~matilde)
 
+* [wikipedia](https://en.wikipedia.org/wiki/Matilde_Marcolli)
+
 * [research works](http://www.its.caltech.edu/~matilde/work.html)
 
 * talks: [slides](http://www.its.caltech.edu/~matilde/slides.html)
