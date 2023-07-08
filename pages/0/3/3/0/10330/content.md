@@ -15,7 +15,7 @@
 
 ## Idea
 
-[[Isaac Newton]] formulated three law of [[mechanics]] (today called "[[classical mechanics]]") whose statement constitutes the beginning of [[physics]] as a science rooted in [[mathematics]], in contrast to the more naively descriptive "[[natural philosophy]]".
+[Newton (1687)](#Newton1687) formulated three law of [[mechanics]] (today called "[[classical mechanics]]") whose statement constitutes the beginning of [[physics]] as a science rooted in [[mathematics]], in contrast to the more naively descriptive "[[natural philosophy]]".
 
 
 ## Statements
@@ -39,6 +39,8 @@ The third Law expresses an invariance under the [[equations of motion]] under th
 
 ## Related concepts
 
+* [[Newtonian mechanics]]
+
 * [[equations of motion]]
 
   * [[Hamilton's equations]], [[de Donder-Weyl-Hamilton equation]]
@@ -47,6 +49,8 @@ The third Law expresses an invariance under the [[equations of motion]] under th
 
 
 ## References
+
+* {#Newton1687} [[Isaac Newton]], *[[Philosophiæ naturalis principia mathematica]]* (1687)
 
 * Wikipedia, _[Newton's laws of motion](http://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)_
 
