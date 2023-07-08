@@ -112,12 +112,13 @@ A [[univalent Tarski universe]] satisfies the **[[axiom of empty set|axiom of em
 * formation rules: $\mathbb{0}:U$
 
 * dependent universal property:
-$$\mathrm{up}_\mathbb{0}^U:\prod_{C:\mathbb{0} \to U} \exists!c:\prod_{x:\mathbb{0}} T(C(x)).T(\mathbb{1})$$
-where $\exists!x:A.B(x)$ is the [[uniqueness quantifier]] for the [[type family]] $x:A \vdash B(x)$. 
+$$\mathrm{up}_\mathbb{0}^U:\prod_{C:T(\mathbb{0}) \to U} \mathrm{isContr}\left(\prod_{x:T(\mathbb{0})} T(C(x))\right)$$
 
 By using [[dependent sum types]], these can be combined into a single element of the following type:
 
-$$\mathrm{axempty}_U:\sum_{\mathbb{0}:U} \prod_{C:\mathbb{0} \to U} \exists!c:\prod_{x:\mathbb{0}} T(C(x)).T(\mathbb{1})$$
+$$\mathrm{axempty}_U:\sum_{\mathbb{0}:U} \prod_{C:T(\mathbb{0}) \to U} \mathrm{isContr}\left(\prod_{x:T(\mathbb{0})} T(C(x))\right)$$
+
+Product regularity and the axiom of empty type imply the axiom of singletons, because the dependent universal property of the empty set states that for every type family $C:T(\mathbb{0}) \to U$ the dependent function type $\prod_{x:T(\mathbb{0})} T(C(x))$ is a singleton, and product regularity implies that $\prod_{x:T(\mathbb{0})} T(C(x))$ is essentially $U$-small. 
 
 ### Propositional resizing
 
