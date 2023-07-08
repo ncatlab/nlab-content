@@ -23,6 +23,55 @@ $$\mathrm{glue}:\prod_{x:A} \mathrm{Id}_{\mathrm{cofib}_{A, B}(f)}(i(f(x)),y)$$
 
 In essence, the cofiber type takes the [[image]] of the function $f:A \to B$ and makes it contractible, but leaves the rest of the [[codomain]] untouched. 
 
+### Induction rules
+
+Formation rules for cofiber types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathrm{cofib}_{A, B}(f)}$$
+
+Introduction rules for cofiber types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash *:\mathrm{cofib}_{A, B}(f)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash i:B \to \mathrm{cofib}_{A, B}(f)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B}{\Gamma \vdash \mathcal{g}:\prod_{x:A} * =_{\mathrm{cofib}_{A, B}(f)} i(f(x))}$$
+
+Elimination rules for cofiber types:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \\
+\Gamma, y:\mathrm{cofib}_{A, B}(f) \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{y:B} C(i(y)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cofib}_{A, B}(f).C(y)}^{\mathcal{g}(x)} c_i(f(x)) 
+\end{array}}{\Gamma \vdash \mathrm{ind}_{\mathrm{cofib}_{A, B}(f)}(c_*, c_i, c_\mathcal{g}):\prod_{y:\mathrm{cofib}_{A, B}(f)} C(y)}$$
+
+Computation rules for cofiber types:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \\
+\Gamma, y:\mathrm{cofib}_{A, B}(f) \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{y:B} C(i(y)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cofib}_{A, B}(f).C(y)}^{\mathcal{g}(x)} c_i(f(x)) 
+\end{array}}{\Gamma \vdash \beta_{\mathrm{cofib}_{A, B}(f)}^{*}(c_*, c_i, c_\mathcal{g}):\mathrm{ind}_{\mathrm{cofib}_{A, B}(f)}(c_*, c_i, c_\mathcal{g})(*) =_{C(*)} c_*}$$
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \\
+\Gamma, y:\mathrm{cofib}_{A, B}(f) \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{y:B} C(i(y)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cofib}_{A, B}(f).C(y)}^{\mathcal{g}(x)} c_i(f(x)) 
+\end{array}}{\Gamma \vdash \beta_{\mathrm{cofib}_{A, B}(f)}^{i}(c_*, c_i, c_\mathcal{g}):\prod_{y:B} \mathrm{ind}_{\mathrm{cofib}_{A, B}(f)}(c_*, c_i, c_\mathcal{g})(i(y)) =_{C(i(y))} c_i(y)}$$
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \\
+\Gamma, y:\mathrm{cofib}_{A, B}(f) \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c_*:C(*) \quad \Gamma \vdash c_i:\prod_{y:B} C(i(y)) \\ 
+\Gamma \vdash c_\mathcal{g}:\prod_{x:A} c_* =_{y:\mathrm{cofib}_{A, B}(f).C(y)}^{\mathcal{g}(x)} c_i(f(x)) 
+\end{array}}{\Gamma \vdash \beta_{\mathrm{cofib}_{A, B}(f)}^{\mathcal{g}}(c_*, c_i, c_\mathcal{g}):\prod_{x:A} \mathrm{apd}_{y:\mathrm{cofib}_{A, B}(f).C(y)}(\mathrm{ind}_{\mathrm{cofib}_{A, B}(f)}(c_*, c_i, c_\mathcal{g}), *, i(f(x)), \mathcal{g}(x)) =_{y:\mathrm{cofib}_{A, B}(f).C(y)}^{\mathcal{g}(x)} c_\mathcal{g}(x)}$$
+
+Uniqueness rules for cofiber types:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:A \to B \\
+\Gamma, y:\mathrm{cofib}_{A, B}(f) \vdash C(y) \; \mathrm{type} \quad \Gamma \vdash c:\prod_{y:\mathrm{cofib}_{A, B}(f)} C(y) \quad \Gamma \vdash p:\mathrm{cofib}_{A, B}(f)
+\end{array}}{\Gamma \vdash \eta_{\mathrm{cofib}_{A, B}(f)}(c, p):\mathrm{ind}_{\mathrm{cofib}_{A, B}(f)}(c_*, c_i, c_\mathcal{g})(p) =_{C(y)} c(p)}$$
+
 ## Examples
 
 * The cofiber type of the unique function out of the empty type to any type $B$ is the type $B + 1$. 
