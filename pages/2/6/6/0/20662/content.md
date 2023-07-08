@@ -76,7 +76,15 @@ The preliminarily last word is here
 
 * Noam Chomsky, _The UCLA Lectures_ , ms. October 2020.  ([lingbuzz](https://ling.auf.net/lingbuzz/005485))
 
+## Selected publications
 
+[[Hopf algebras]] in generative linguistics:
+
+* Matilde Marcolli, [[Noam Chomsky]], Robert Berwick, *Mathematical Structure of Syntactic Merge* ([arXiv:2305.18278](https://arxiv.org/abs/2305.18278))
+
+* Matilde Marcolli, Robert Berwick, [[Noam Chomsky]], *Old and New Minimalism: a Hopf algebra comparison* ([arXiv:2306.10270](https://arxiv.org/abs/2306.10270))
+
+category:people
 
 [[!redirects Noam Chomsky]]
 [[!redirects Noam Chomksy]]
