@@ -84,7 +84,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \\
       \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \equiv t:C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))}$$
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \equiv t(f, a, b, p):C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))}$$
 
 * Propositional computational rules
 $$\frac{
@@ -94,7 +94,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \\
       \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \equiv_{C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))} t \; \mathrm{true}}$$
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \equiv_{C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))} t(f, a, b, p) \; \mathrm{true}}$$
 
 * Typal computational rules
 $$\frac{
@@ -104,7 +104,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)) \\
       \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
-  }{\Gamma \vdash \beta_{\mathrm{hId}_B}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)), t)}$$
+  }{\Gamma \vdash \beta_{\mathrm{hId}_B}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, f(a), f(b), \mathrm{ap}_B(f, a, b, p)), t(f, a, b, p))}$$
 
 Uniqueness rule for non-dependent heterogeneous identity types:
 
@@ -142,6 +142,29 @@ $$\frac{
   }{\Gamma \vdash \eta_{\mathrm{hId}_B}(t, a, b, p, y, z, q, r):\mathrm{Id}_{C(a, b, p, y, z, q)}(\mathrm{ind}_{\mathrm{hId}_B}(t, a, b, p, y, z, q), r)}$$
 
 Similar to the case for [[identity types]], having the judgmental or propositional uniqueness rules for non-dependent heterogeneous identity types implies that the type theory is an [[extensional type theory]]. The typal uniqueness rules for non-dependent heterogeneous identity types is always provable from the other four inference rules. 
+
+The elimination, typal computation, and typal uniqueness rules for non-dependent heterogeneous identity types state that non-dependent heterogeneous identity types satisfy the **dependent universal property of non-dependent heterogeneous identity types**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of non-dependent heterogeneous identity types could be simplified to the following rule:
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_{B}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p)) \\
+      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
+    \end{array}
+  }{\Gamma \vdash \mathrm{up}_{\mathrm{hId}_{B}}(t, f, a, b, p):
+\begin{array}{c}
+\exists!J:\left(\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))\right) \\ 
+\to \left(\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B} \prod_{f:B} \prod_{s:\mathrm{hId}_{B}(c, d, r, e, f)} C(c, d, r, e, f, s)\right) \\
+.\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p)), t(f, a, b, p))
+\end{array}
+}$$
+
+In natural language this states that given types $A$ and $B$, and given a type family $C(a, b, p, y, z, q)$ indexed by elements $a:A$, $b:A$, $p:\mathrm{Id}_A(a, b)$, $y:B$, $z:B$, and $q:\mathrm{hId}_{B}(a, b, p, y, z)$, for all elements $t:\prod_{f:A \to B}$, $a:A$, $b:A$, and $p:\mathrm{Id}_A(a, b)$, there exists a unique function $J$ with domain 
+$$\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))$$
+and codomain 
+$$\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B} \prod_{f:B} \prod_{s:\mathrm{hId}_{B}(c, d, r, e, f)} C(c, d, r, e, f, s)$$
+such that $J(t, a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))$ is equal to $t(f, a, b, p)$ in the type $C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))$. 
 
 ### Rules for dependent heterogeneous identity types
 
@@ -181,7 +204,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
       \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \equiv t:C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}$$
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \equiv t(f, a, b, p):C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}$$
 
 * Propositional computational rules
 $$\frac{
@@ -191,7 +214,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
       \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \equiv_{C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))} t \; \mathrm{true}}$$
+  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \equiv_{C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))} t(f, a, b, p) \; \mathrm{true}}$$
 
 * Typal computational rules
 $$\frac{
@@ -201,7 +224,7 @@ $$\frac{
       \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
       \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
     \end{array}
-  }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t)}$$
+  }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):\mathrm{Id}_{C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t(f, a, b, p))}$$
 
 Uniqueness rule for dependent heterogeneous identity types:
 
@@ -242,6 +265,29 @@ $$\frac{
   }{\Gamma \vdash \eta_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q, r):\mathrm{Id}_{C(a, b, p, y, z, q)}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q), r)}$$
 
 Similar to the case for [[identity types]] and non-dependent heterogeneous identity types, having the judgmental or propositional uniqueness rules for dependent heterogeneous identity types implies that the type theory is an [[extensional type theory]]. The typal uniqueness rules for dependent heterogeneous identity types is always provable from the other four inference rules. 
+
+The elimination, typal computation, and typal uniqueness rules for dependent heterogeneous identity types state that dependent heterogeneous identity types satisfy the **dependent universal property of dependent heterogeneous identity types**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of dependent heterogeneous identity types could be simplified to the following rule:
+
+$$\frac{
+    \begin{array}{l}
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
+      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
+      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
+      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
+    \end{array}
+  }{\Gamma \vdash \mathrm{up}_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):
+\begin{array}{c}
+\exists!J:\left(\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))\right) \\ 
+\to \left(\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B(c)} \prod_{f:B(c)} \prod_{s:\mathrm{hId}_{x:A.B(x)}(c, d, r, e, f)} C(c, d, r, e, f, s)\right) \\
+.\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t(f, a, b, p))
+\end{array}
+}$$
+
+In natural language this states that given a type $A$, a type family $B(x)$ indexed by elements $x:A$, and given a type family $C(a, b, p, y, z, q)$ indexed by elements $a:A$, $b:A$, $p:\mathrm{Id}_A(a, b)$, $y:B(a)$, $z:B(b)$, and $q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$, for all elements $t:\prod_{f:\prod_{x:A} B(x)}$, $a:A$, $b:A$, and $p:\mathrm{Id}_A(a, b)$, there exists a unique function $J$ with domain 
+$$\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))$$
+and codomain 
+$$\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B(c)} \prod_{f:B(c)} \prod_{s:\mathrm{hId}_{x:A.B(x)}(c, d, r, e, f)} C(c, d, r, e, f, s)$$
+such that $J(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))$ is equal to $t(f, a, b, p)$ in the type $C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))$. 
 
 ### As weak transport along an identity
 
@@ -308,6 +354,8 @@ needs to be written
 [[!redirects heterogeneous identity types]]
 [[!redirects dependent heterogeneous identity type]]
 [[!redirects dependent heterogeneous identity types]]
+[[!redirects non-dependent heterogeneous identity type]]
+[[!redirects non-dependent heterogeneous identity types]]
 
 [[!redirects weak dependent identity type]]
 [[!redirects weak dependent identity types]]
@@ -315,6 +363,8 @@ needs to be written
 [[!redirects weak heterogeneous identity types]]
 [[!redirects weak dependent heterogeneous identity type]]
 [[!redirects weak dependent heterogeneous identity types]]
+[[!redirects weak non-dependent heterogeneous identity type]]
+[[!redirects weak non-dependent heterogeneous identity types]]
 
 [[!redirects strict dependent identity type]]
 [[!redirects strict dependent identity types]]
@@ -322,6 +372,8 @@ needs to be written
 [[!redirects strict heterogeneous identity types]]
 [[!redirects strict dependent heterogeneous identity type]]
 [[!redirects strict dependent heterogeneous identity types]]
+[[!redirects strict non-dependent heterogeneous identity type]]
+[[!redirects strict non-dependent heterogeneous identity types]]
 
 [[!redirects judgmentally strict dependent identity type]]
 [[!redirects judgmentally strict dependent identity types]]
@@ -329,6 +381,8 @@ needs to be written
 [[!redirects judgmentally strict heterogeneous identity types]]
 [[!redirects judgmentally strict dependent heterogeneous identity type]]
 [[!redirects judgmentally strict dependent heterogeneous identity types]]
+[[!redirects judgmentally strict non-dependent heterogeneous identity type]]
+[[!redirects judgmentally strict non-dependent heterogeneous identity types]]
 
 [[!redirects propositionally strict dependent identity type]]
 [[!redirects propositionally strict dependent identity types]]
@@ -336,6 +390,8 @@ needs to be written
 [[!redirects propositionally strict heterogeneous identity types]]
 [[!redirects propositionally strict dependent heterogeneous identity type]]
 [[!redirects propositionally strict dependent heterogeneous identity types]]
+[[!redirects propositionally strict non-dependent heterogeneous identity type]]
+[[!redirects propositionally strict non-dependent heterogeneous identity types]]
 
 [[!redirects dependent path type]]
 [[!redirects dependent path types]]
@@ -343,6 +399,8 @@ needs to be written
 [[!redirects heterogeneous path types]]
 [[!redirects dependent heterogeneous path type]]
 [[!redirects dependent heterogeneous path types]]
+[[!redirects non-dependent heterogeneous path type]]
+[[!redirects non-dependent heterogeneous path types]]
 
 [[!redirects weak dependent path type]]
 [[!redirects weak dependent path types]]
@@ -350,6 +408,8 @@ needs to be written
 [[!redirects weak heterogeneous path types]]
 [[!redirects weak dependent heterogeneous path type]]
 [[!redirects weak dependent heterogeneous path types]]
+[[!redirects weak non-dependent heterogeneous path type]]
+[[!redirects weak non-dependent heterogeneous path types]]
 
 [[!redirects strict dependent path type]]
 [[!redirects strict dependent path types]]
@@ -357,6 +417,8 @@ needs to be written
 [[!redirects strict heterogeneous path types]]
 [[!redirects strict dependent heterogeneous path type]]
 [[!redirects strict dependent heterogeneous path types]]
+[[!redirects strict non-dependent heterogeneous path type]]
+[[!redirects strict non-dependent heterogeneous path types]]
 
 [[!redirects judgmentally strict dependent path type]]
 [[!redirects judgmentally strict dependent path types]]
@@ -364,6 +426,8 @@ needs to be written
 [[!redirects judgmentally strict heterogeneous path types]]
 [[!redirects judgmentally strict dependent heterogeneous path type]]
 [[!redirects judgmentally strict dependent heterogeneous path types]]
+[[!redirects judgmentally strict non-dependent heterogeneous path type]]
+[[!redirects judgmentally strict non-dependent heterogeneous path types]]
 
 [[!redirects propositionally strict dependent path type]]
 [[!redirects propositionally strict dependent path types]]
@@ -371,6 +435,8 @@ needs to be written
 [[!redirects propositionally strict heterogeneous path types]]
 [[!redirects propositionally strict dependent heterogeneous path type]]
 [[!redirects propositionally strict dependent heterogeneous path types]]
+[[!redirects propositionally strict non-dependent heterogeneous path type]]
+[[!redirects propositionally strict non-dependent heterogeneous path types]]
 
 [[!redirects dependent identification type]]
 [[!redirects dependent identification types]]
@@ -378,6 +444,8 @@ needs to be written
 [[!redirects heterogeneous identification types]]
 [[!redirects dependent heterogeneous identification type]]
 [[!redirects dependent heterogeneous identification types]]
+[[!redirects non-dependent heterogeneous identification type]]
+[[!redirects non-dependent heterogeneous identification types]]
 
 [[!redirects weak dependent identification type]]
 [[!redirects weak dependent identification types]]
@@ -385,6 +453,8 @@ needs to be written
 [[!redirects weak heterogeneous identification types]]
 [[!redirects weak dependent heterogeneous identification type]]
 [[!redirects weak dependent heterogeneous identification types]]
+[[!redirects weak non-dependent heterogeneous identification type]]
+[[!redirects weak non-dependent heterogeneous identification types]]
 
 [[!redirects strict dependent identification type]]
 [[!redirects strict dependent identification types]]
@@ -392,6 +462,8 @@ needs to be written
 [[!redirects strict heterogeneous identification types]]
 [[!redirects strict dependent heterogeneous identification type]]
 [[!redirects strict dependent heterogeneous identification types]]
+[[!redirects strict non-dependent heterogeneous identification type]]
+[[!redirects strict non-dependent heterogeneous identification types]]
 
 [[!redirects judgmentally strict dependent identification type]]
 [[!redirects judgmentally strict dependent identification types]]
@@ -399,6 +471,8 @@ needs to be written
 [[!redirects judgmentally strict heterogeneous identification types]]
 [[!redirects judgmentally strict dependent heterogeneous identification type]]
 [[!redirects judgmentally strict dependent heterogeneous identification types]]
+[[!redirects judgmentally strict non-dependent heterogeneous identification type]]
+[[!redirects judgmentally strict non-dependent heterogeneous identification types]]
 
 [[!redirects propositionally strict dependent identification type]]
 [[!redirects propositionally strict dependent identification types]]
@@ -406,6 +480,8 @@ needs to be written
 [[!redirects propositionally strict heterogeneous identification types]]
 [[!redirects propositionally strict dependent heterogeneous identification type]]
 [[!redirects propositionally strict dependent heterogeneous identification types]]
+[[!redirects propositionally strict non-dependent heterogeneous identification type]]
+[[!redirects propositionally strict non-dependent heterogeneous identification types]]
 
 [[!redirects dependent equality type]]
 [[!redirects dependent equality types]]
@@ -413,6 +489,8 @@ needs to be written
 [[!redirects heterogeneous equality types]]
 [[!redirects dependent heterogeneous equality type]]
 [[!redirects dependent heterogeneous equality types]]
+[[!redirects non-dependent heterogeneous equality type]]
+[[!redirects non-dependent heterogeneous equality types]]
 
 [[!redirects weak dependent equality type]]
 [[!redirects weak dependent equality types]]
@@ -420,6 +498,8 @@ needs to be written
 [[!redirects weak heterogeneous equality types]]
 [[!redirects weak dependent heterogeneous equality type]]
 [[!redirects weak dependent heterogeneous equality types]]
+[[!redirects weak non-dependent heterogeneous equality type]]
+[[!redirects weak non-dependent heterogeneous equality types]]
 
 [[!redirects strict dependent equality type]]
 [[!redirects strict dependent equality types]]
@@ -427,6 +507,8 @@ needs to be written
 [[!redirects strict heterogeneous equality types]]
 [[!redirects strict dependent heterogeneous equality type]]
 [[!redirects strict dependent heterogeneous equality types]]
+[[!redirects strict non-dependent heterogeneous equality type]]
+[[!redirects strict non-dependent heterogeneous equality types]]
 
 [[!redirects judgmentally strict dependent equality type]]
 [[!redirects judgmentally strict dependent equality types]]
@@ -434,6 +516,8 @@ needs to be written
 [[!redirects judgmentally strict heterogeneous paequalityth types]]
 [[!redirects judgmentally strict dependent heterogeneous equality type]]
 [[!redirects judgmentally strict dependent heterogeneous paequalityth types]]
+[[!redirects judgmentally strict non-dependent heterogeneous equality type]]
+[[!redirects judgmentally strict non-dependent heterogeneous paequalityth types]]
 
 [[!redirects propositionally strict dependent equality type]]
 [[!redirects propositionally strict dependent equality types]]
@@ -441,6 +525,8 @@ needs to be written
 [[!redirects propositionally strict heterogeneous equality types]]
 [[!redirects propositionally strict dependent heterogeneous equality type]]
 [[!redirects propositionally strict dependent heterogeneous equality types]]
+[[!redirects propositionally strict non-dependent heterogeneous equality type]]
+[[!redirects propositionally strict non-dependent heterogeneous equality types]]
 
 [[!redirects dependent path]]
 [[!redirects dependent paths]]
@@ -448,6 +534,8 @@ needs to be written
 [[!redirects heterogeneous paths]]
 [[!redirects dependent heterogeneous path]]
 [[!redirects dependent heterogeneous paths]]
+[[!redirects non-dependent heterogeneous path]]
+[[!redirects non-dependent heterogeneous paths]]
 
 [[!redirects dependent identity]]
 [[!redirects dependent identities]]
@@ -455,6 +543,8 @@ needs to be written
 [[!redirects heterogeneous identities]]
 [[!redirects dependent heterogeneous identity]]
 [[!redirects dependent heterogeneous identities]]
+[[!redirects non-dependent heterogeneous identity]]
+[[!redirects non-dependent heterogeneous identities]]
 
 [[!redirects dependent identification]]
 [[!redirects dependent identifications]]
@@ -462,6 +552,8 @@ needs to be written
 [[!redirects heterogeneous identifications]]
 [[!redirects dependent heterogeneous identification]]
 [[!redirects dependent heterogeneous identifications]]
+[[!redirects non-dependent heterogeneous identification]]
+[[!redirects non-dependent heterogeneous identifications]]
 
 [[!redirects dependent equality]]
 [[!redirects dependent equalities]]
@@ -469,3 +561,25 @@ needs to be written
 [[!redirects heterogeneous equalities]]
 [[!redirects dependent heterogeneous equality]]
 [[!redirects dependent heterogeneous equalities]]
+[[!redirects non-dependent heterogeneous equality]]
+[[!redirects non-dependent heterogeneous equalities]]
+
+[[!redirects dependent universal property of dependent identity types]]
+[[!redirects dependent universal property of dependent identification types]]
+[[!redirects dependent universal property of dependent equality types]]
+[[!redirects dependent universal property of dependent path types]]
+
+[[!redirects dependent universal property of heterogeneous identity types]]
+[[!redirects dependent universal property of heterogeneous identification types]]
+[[!redirects dependent universal property of heterogeneous equality types]]
+[[!redirects dependent universal property of heterogeneous path types]]
+
+[[!redirects dependent universal property of dependent heterogeneous identity types]]
+[[!redirects dependent universal property of dependent heterogeneous identification types]]
+[[!redirects dependent universal property of dependent heterogeneous equality types]]
+[[!redirects dependent universal property of dependent heterogeneous path types]]
+
+[[!redirects dependent universal property of non-dependent heterogeneous identity types]]
+[[!redirects dependent universal property of non-dependent heterogeneous identification types]]
+[[!redirects dependent universal property of non-dependent heterogeneous equality types]]
+[[!redirects dependent universal property of non-dependent heterogeneous path types]]
