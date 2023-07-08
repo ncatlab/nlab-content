@@ -1,5 +1,5 @@
 
-* [webpage](http://en.wikipedia.org/wiki/Mark_Naimark)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Mark_Naimark)
 
 ## Selected writings
 
@@ -14,3 +14,5 @@ Introducing the [[GNS construction]]:
 
 
 category: people
+
+[[!redirects Mark A. Naimark]]
