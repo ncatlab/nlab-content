@@ -60,7 +60,7 @@ which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in
 
 Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen (2003) Sec. 2](#Fredenhagen03), [Landsman (2017) Def. 2.4](#Landsman17)), but the definition makes sense generally for plain [[star-algebras]] ([Meyer (1995), I.1.1](#Meyer95)), such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann (1996) Def. 1](#BordemannWaldmann96), [Fredenhagen & Rejzner (2012) Def. 2.4](#FredenhagenRejzner12), [Khavkine & Moretti (2015) Def. 6](#KhavkineMoretti15), [Dütsch (2018) Def. 2.11](#Duetsch18)).
 
-Of course the 
+{#AsPositiveLinearFunctionals} Of course, the notion of states depends only on the $\ast$-algebra's [[underlying]] [[partial order|partially ordered]] [[complex vector space]] (see [here](C-star-algebra#PartialOrderAndPositiveElements)) and hence makes sense in the generality of any [[partial order|partially ordered]] [[vector space]], in which case one refers to them also as *positive linear functionals* or similar (e.g. [Murphy (1990) §3.3](#Murphy90)).
 
 The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
 
@@ -286,6 +286,31 @@ More general states in this case are given by [[density matrices]].
 
 =--
 
+
+
+\begin{example}
+\label{StatesOnGroupAlgebrasAreUnitaryRepresentations}
+**(states on group algebras are unitary representations)**
+\linebreak
+  Let $G$ be a [[discrete group]] and $\mathbb{C}[G]$ its [[group algebra]] regarded as a complex [[star-algebra]] under the combined operation of [[inverse element|inversion]] of group elements and [[complex conjugation]] of the [[coefficients]].
+
+Then each state $\rho \,\colon\,\mathbb{C}[G] \longrightarrow \mathbb{C}$ arises from a [[unitary representation]] $\widehat{(\text{-})} \,\colon\, \longrightarrow U(\mathscr{H})$ on a [[Hilbert space]] $(\mathscr{H}, \langle -\vert-\rangle)$ with a [[cyclic vector]] $\psi \in \mathscr{H}$ as
+$$
+  \rho(g)
+  \;=\;
+  \big\langle 
+    \psi 
+   \big\vert 
+    \widehat{g} \cdot \psi
+  \big\rangle
+  \,.
+$$
+
+The statement generalizes to [[topological groups]] in a suitable way.
+
+This is due to [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), review in [Dixmier (1977) Thm. 13.4.6 (ii)](#Dixmier77).
+\end{example} 
+
 ## Properties
 
 ### Closure properties
@@ -445,11 +470,15 @@ See at *[[Gleason's theorem]]*.
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
-See also 
+Discussion under the name "positive linear functionals"
+
+* {#Dixmier77} [[Jacques Dixmier]], §2 of: *$C^\ast$-algebras*, North Holland (1977)
+
+* {#Murphy90} [[Gerard Murphy]], §3.3 in: _$C^\ast$-algebras and Operator Theory_, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
 * Wikipedia, *[Positive linear functional](https://en.wikipedia.org/wiki/Positive_linear_functional)*
 
-* [[eom]], *[Positive0definite function](https://encyclopediaofmath.org/wiki/Positive-definite_function)*
+* [[eom]], *[Positive-definite function](https://encyclopediaofmath.org/wiki/Positive-definite_function)*
 
 With an eye towards [[density matrices]] and their [[entropy]]:
 
@@ -485,8 +514,17 @@ With an eye towards [[Gelfand-Tsetlin algebra|Gelfand-Tsetlin algebras]] and in 
 
 * Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for $\ast$-algebras and their GNS representations_ ([doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528))
 
-
 For more references see at _[[operator algebra]]_.
+
+The case of [[group algebras]]:
+
+* {#Naimark56} [[Mark A. Naimark]], *Normed Rings*, Moscow (1956)
+
+* {#Saworotnow70} Parfeny P. Saworotnow, *Representation of a topological group on a Hilbert module*, Duke Math. J. **37** 1  (1970) 145-150 &lbrack;[doi:10.1215/S0012-7094-70-03720-8](https://projecteuclid.org/journals/duke-mathematical-journal/volume-37/issue-1/Representation-of-a-topological-group-on-a-Hilbert-module/10.1215/S0012-7094-70-03720-8.short)&rbrack;
+
+* {#Saworotnow72} Parfeny P. Saworotnow, *Generalized Positive Linear Functionals on a Banach Algebra with an Involution*, Proceedings of the AMS, **31** 1 (1972) 299-304  &lbrack;[jstor:2038564](https://www.jstor.org/stable/2038564)&rbrack;
+
+
 
 [[!redirects states on a star-algebra]]
 
@@ -520,4 +558,6 @@ For more references see at _[[operator algebra]]_.
 [[!redirects normal state]]
 [[!redirects normal states]]
 
+[[!redirects positive linear functional]]
+[[!redirects positive linear functionals]]
 
