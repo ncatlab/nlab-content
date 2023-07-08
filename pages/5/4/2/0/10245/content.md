@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -58,6 +59,11 @@ and the understanding of this configuration as resulting from two intersecting M
 
 * {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
 
+* [[Hironori Mori]], *M-theory Perspectives on Codimension-2 Defects*, Osaka (2016) &lbrack;[inspire:1519095](https://inspirehep.net/literature/1519095)&rbrack;
+
+* [[Hironori Mori]], Yuji Sugimoto, *Surface Operators from M-strings*, Phys. Rev. D **95** 026001 (2017) &lbrack;[arXiv:1608.02849](https://arxiv.org/abs/1608.02849), [doi:10.1103/PhysRevD.95.026001](https://doi.org/10.1103/PhysRevD.95.026001)&rbrack;
+
+
 with a [[matrix model]]-description in:
 
 * {#KachruOzYin98} [[Shamit Kachru]], [[Yaron Oz]], [[Zheng Yin]], *Matrix Description of Intersecting M5 Branes* JHEP 9811:004, (1998) ([arXiv:hep-th/9803050](https://arxiv.org/abs/hep-th/9803050))
@@ -69,7 +75,7 @@ For more on this see
 
 See also
 
-* S. Bellucci1, N. Kozyrev, S. Krivonos, A Sutulin, *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$,  Class. Quantum Grav. **32** (2015) 035025 ([doi:10.1088/0264-9381/32/3/035025](https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025))
+* S. Bellucci, N. Kozyrev, S. Krivonos, A Sutulin, *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$,  Class. Quantum Grav. **32** (2015) 035025 ([doi:10.1088/0264-9381/32/3/035025](https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025))
 
 The relation to [[D=4 N=2 super Yang-Mills theory]] is discussed in
 
