@@ -163,7 +163,7 @@ $$
 
 E.g. [Murphy (1990) §2.2](#Murphy90), [Blackadar (2006) §II.3.1](#Blackadar06)
 
-Discussion in the context of [[algebraic quantum field theory]]: [Fredenhagen (2003) p. 6](AQFT#Fredenhagen03)
+Discussion in the context of [[algebraic quantum field theory]]: [Bratteli & Robinson (1979) §2.2.2](AQFT#BratteliRobinson79), [Fredenhagen (2003) p. 6](AQFT#Fredenhagen03).
 
 
 
