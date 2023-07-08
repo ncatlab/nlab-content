@@ -72,6 +72,10 @@ $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 Uniqueness rules for the interval type:
 $$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma, x:\mathbb{I} \vdash c:C(x)}{\Gamma, x:\mathbb{I} \vdash \eta_\mathbb{I}(c):c =_{C(x)} \mathrm{ind}_\mathbb{I}^{C}(c(0), c(1), \mathrm{apd}_C(p, c))}$$
 
+The elimination, computation, and uniqueness rules for the interval type state that the interval type satisfy the **dependent universal property of the interval type**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the interval type could be simplified to the following rule:
+
+$$\frac{\Gamma, x:\mathbb{I} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1) \quad \Gamma \vdash c_p:c_0 =_C^p c_1}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_0, c_1, c_p):\exists!c:\prod_{x:\mathbb{I}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1) \times (\mathrm{apd}_{x:\mathbb{I}.C(x)}(c, c_0, c_1, c_p) =_{c_0 =_C^p c_1} c_p)}$$
+
 ### Using a function from the two-valued type
 
 The interval type is defined by the following rules:
