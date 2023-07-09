@@ -240,7 +240,7 @@ $$\frac{
 
 #### Dependent heterogeneous identification types
 
-Dependent heterogeneous identification types are important for defining the rules for higher inductive types. 
+Dependent heterogeneous identification types are important for defining the rules for higher inductive types and for characterizing the extensionality principle for dependent sum types. 
 
 Formation rule for dependent heterogeneous identification types:
 $$\frac{
@@ -274,6 +274,14 @@ $$\frac{
 .\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t(f, a, b, p))
 \end{array}
 }$$
+
+#### Extensionality principle for the dependent sum type
+
+The extensionality principle for the dependent sum type states that there is an [[equivalence of types]] between the [[identity type]] $(a, b) =_{\sum_{x:A} B(x)} (a', b')$ of a dependent sum type and the dependent sum $\sum_{p:a =_A a'} b =_B^p b'$ of its component's identity types:
+
+$$
+\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma \vdash a':A \quad \Gamma \vdash b':B(a')}{\Gamma \vdash \mathrm{ext}_{\Sigma}(a, b, a', b'):(a, b) =_{\sum_{x:A} B(x)} (a', b') \simeq \sum_{p:a =_A a'} b =_B^p b'}
+$$
 
 #### Unit type
 
