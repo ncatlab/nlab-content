@@ -7,6 +7,14 @@ __Anton Kapustin__ is a Russian mathematical physicist, now a Professor at Calte
 ## Selected writings
 
 
+A popular exposition of formal deformation quantization with emphasis of the [[string theory|stringy]] [[Poisson sigma-model]]-construction:
+
+* [[Anton Kapustin]], _Quantum geometry: The reunion of math and physics_ &lbrack;[[Kapustin-QuantumGeometry.pdf:file]]&rbrack;
+
+
+
+
+On [[topological quantum field theory]]:
 
 * [[Sergei Gukov]], [[Anton Kapustin]], _[[Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories]]_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
 
