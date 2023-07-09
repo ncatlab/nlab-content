@@ -14,7 +14,7 @@ on [[Tannakian categories]].
 
 The main theorem is a [[Tannaka duality|Tannakian reconstruction theorem]], which repairs a problem in the work of Grothendieck's student Saavedra Rivano:
 
-* Neantro Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Bulletin de la Société Mathématique de France **100** (1972)  417-430. ([web](https://eudml.org/doc/87193))
+* Neantro Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Bulletin de la Société Mathématique de France **100** (1972)  417-430 &lbrack;[eudml:87193](https://eudml.org/doc/87193)&rbrack;
 
 * Neantro Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Springer LNM 265, 1972.
 
