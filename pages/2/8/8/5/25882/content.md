@@ -45,7 +45,7 @@ On the variant for Pontryagin products not on [[ordinary homology]] but in [[top
 
 * {#Kato21} [[Syu Kato]], *Quantum $K$-groups on flag manifolds*, talk at *IMPANGA 20* (2021) $[$[pdf](https://www.impan.pl/konferencje/bcc/2020/20-impanga/impanga2021.pdf)$]$
 
-On the example of the [[CP^1 sigma-model]]: [LLMS18, §4.1](LamLiMihalceaShimozono18), [Kato21 p. 17](#Kato21), [Chow22 Exp. 1.4 ](#Chow22).
+On the example of the [[CP^1 sigma-model]]: [LLMS18, §4.1](#LamLiMihalceaShimozono18), [Kato21 p. 17](#Kato21), [Chow22 Exp. 1.4 ](#Chow22).
 
 See also:
 
