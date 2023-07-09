@@ -70,6 +70,12 @@ On the [[pure spinor]] [[Berkovits superstring]]:
 
 \linebreak
 
+On the usage of [[pure spinor]] [[superfield]]s in maximal [[supergravity]]:
+
+* [[Martin Cederwall]], *Pure spinors in classical and quantum supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.06141](https://arxiv.org/abs/2210.06141)&rbrack;
+
+\linebreak
+
 On [[D=4 N=1 supergravity]] formulated via [[superspace]]:
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
