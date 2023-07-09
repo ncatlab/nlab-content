@@ -12,9 +12,11 @@ This entry is about the article
 
 on [[Tannakian categories]].
 
-The main theorem is a [[Tannaka duality|Tannakian reconstruction theorem]], which repairs a problem in the book 
+The main theorem is a [[Tannaka duality|Tannakian reconstruction theorem]], which repairs a problem in the work of Grothendieck's student Saavedra Rivano:
 
-* N. Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Springer LNM 265, 1972 
+* Neantro Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Bulletin de la Société Mathématique de France **100** (1972)  417-430. ([web](https://eudml.org/doc/87193))
+
+* Neantro Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Springer LNM 265, 1972.
 
 which had a substantial gap in the proof of the main theorem.
 
@@ -30,7 +32,7 @@ the conditions for Tannakian reconstruction are relaxed further, see at _[[Delig
 
 Generalization to "non-neutral" Tannakian categories, and representations of [[gerbes]] is in 
 
-* {#DeligneMilne12} [[Pierre Deligne]] [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
+* {#DeligneMilne12} [[Pierre Deligne]] and [[James Milne]], _Tannakian categories_, 2012. ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
 
 See also
 
