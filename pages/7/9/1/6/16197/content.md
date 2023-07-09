@@ -162,7 +162,7 @@ See also:
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
 
-* {#Cecotti87} S. Cecotti, _Higher derivative supergravity Is equivalent to standard supergravity coupled to matter_, Phys. Lett. B 190, 86 (1987).
+* {#Cecotti87} [[Sergio Cecotti]], *Higher derivative supergravity is equivalent to standard supergravity coupled to matter*, Phys. Lett. B **190** 86 (1987) &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)90844-6">doi:10.1016/0370-2693(87)90844-6</a>&rbrack;
 
 * S. Cecotti, [[Sergio Ferrara]], M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
 
