@@ -192,7 +192,13 @@ This is related to the definition of [[Pi-algebras]].
 ### Relation to Pontrjagin product
  {#RelationToPontrjaginProduct}
 
-Under the [[Hurewicz homomorphism]], the Whitehead product on homotopy groups is the [[commutator]] of the [[Pontrjagin product]] on integral [[ordinar homology|homology]] groups of a [[based loop space]] &lbrack;[Samelson (1953)](#Samelson53)&rbrack;
+Under the [[Hurewicz homomorphism]], the Whitehead product on homotopy groups is the [[commutator]] of the [[Pontrjagin product]] on integral [[ordinary homology|homology]] groups of a [[based loop space]]. 
+
+This is due to [Samelson (1953)](#Samelson53) and for higher Whitehead brackets due to [Arkowitz (1971)](#Arkowitz71).
+
+In fact, in [[characteristic zero]] the [[Pontrjagin ring]] is the [[universal enveloping algebra]] of the Whitehead bracket [[Lie algebra]] &lbrack;[Milnor & Moore (1965) Appendix](#MilnorMoore65)&rbrack;.
+
+A textbook account is in [Whitehead (1978) Thm. X.7.10](#Whitehead78).
 
 
 
@@ -426,6 +432,19 @@ Proof that the Whitehead product is the [[commutator]] of the [[Pontrjagin produ
 
 * {#Samelson53} [[Hans Samelson]], *A Connection Between the Whitehead and the Pontryagin Product*, American Journal of Mathematics **75** 4 (1953) 744–752  &lbrack;[doi:10.2307/2372549](https://doi.org/10.2307/2372549)&rbrack;
 
+and in [[characteristic zero]]:
+
+* {#MilnorMoore65} [[John Milnor]], [[John Moore]], Appendix of: _On the structure of Hopf algebras_, Annals of Math. __81__ (1965) 211-264 &lbrack;[doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf)&rbrack;
+
+and for higher Whitehead brackets:
+
+* {#Arkowitz71} [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
+
+Textbook account:
+
+* {#Whitehead78} [[George W. Whitehead]], §X.7 in: *Elements of Homotopy Theory*, Springer (1978) &lbrack;[doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0)&rbrack;
+
+
 See also 
 
 * Wikipedia _[Whitehead product](http://en.wikipedia.org/wiki/Whitehead_product)_
@@ -436,9 +455,7 @@ Discussion of Whitehead products specifically of [[homotopy groups of spheres]]:
 
 * {#James57} [[Ioan Mackenzie James]], _On the Suspension Sequence_, Annals of Mathematics Second Series, Vol. 65, No. 1 (Jan., 1957), pp. 74-107 ([arXiv:1969666](https://www.jstor.org/stable/1969666))
 
-Whitehead products in relation to [[Pontrjagin products]]:
 
-* [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
 
 
 As [[n-excisive functors]]:
