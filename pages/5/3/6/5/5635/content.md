@@ -26,6 +26,28 @@ Certain [[topological string theories]] (2d [[topological field theory|topologic
 Beware that later authors often abbreviate the term from *quantum cohomology ring* to just *quantum cohomology*, which is however a misnomer since it is not the underlying notion of ([[ordinary cohomology|ordinary]]) [[cohomology]] that is being deformed/quantized here (just the [[coefficients]] are typically enlarged), but the multiplicative *[[ring]]-[[structure]]* [[cohomology ring|on cohomology]] is deformed -- indeed the title of [Vafa (1992)](#Vafa92) speaks more properly of *quantum rings*.
 
 
+## Examples
+
+\begin{example}
+\label{QuantumCohomologyOfComplexProjectiveSpace}
+**(quantum cohomology ring of complex projective space)**
+\newline
+The (small) quantum cohomology ring of [[complex projective space]] $\mathbb{C}P^N$ should be
+$$
+  QH^\bullet\big(
+    \mathbb{C}P^{N-1}
+    ;\,
+    \mathbb{C}
+  \big)
+  \;\simeq\;
+  \mathbb{C}\big[
+    a_2,\, b_{2N}
+  \big]/(a_2^N - b_{2N})
+  \,.
+$$
+\end{example}
+([Witten (1990) (3.30)](#Witten90), [Cecotti & Vafa (1992) p. 3](#CecottiVafa92), [Cecotti & Vafa (1993) p. 89](#CecottiVafa93), [Bourdeau & Douglas (1994) 3.4](#BourdeauDouglas94), see also [Dorfmeister, Guest & Rossman (2010) p .1](#DorfmeisterGuestRossman10))
+
 
 
 ## Related concepts
@@ -131,12 +153,18 @@ On quantum cohomology rings of [[flag varieties]] --- "quantum [[Schubert calcul
 
 Specifically the case of [[complex projective space|$\mathbb{C}P^N$]] ([[CP^N sigma-model|$\mathbb{C}P^N$ sigma-model]]):
 
-* [[Sergio Cecotti]], [[Cumrun Vafa]], *Exact Results for Supersymmetric Sigma Models*, Phys. Rev. Lett. **68** (1992) 903-906 &lbrack;[arXiv:hep-th/9111016](https://arxiv.org/abs/hep-th/9111016), [doi:10.1103/PhysRevLett.68.903](https://doi.org/10.1103/PhysRevLett.68.903)&rbrack;
+* {#Witten90} [[Edward Witten]], *On the structure of the topological phase of two-dimensional gravity*, Nuclear Physics B **340** 2–3 (1990) 281-332 &lbrack;<a href="https://doi.org/10.1016/0550-3213(90)90449-N">doi:10.1016/0550-3213(90)90449-N</a>&rbrack;
+
+* {#CecottiVafa92} [[Sergio Cecotti]], [[Cumrun Vafa]], *Exact Results for Supersymmetric Sigma Models*, Phys. Rev. Lett. **68** (1992) 903-906 &lbrack;[arXiv:hep-th/9111016](https://arxiv.org/abs/hep-th/9111016), [doi:10.1103/PhysRevLett.68.903](https://doi.org/10.1103/PhysRevLett.68.903)&rbrack;
+
+* {#CecottiVafa93} [[Sergio Cecotti]], [[Cumrun Vafa]], *On Classification of $N=2$ Supersymmetric Theories*, Comm. Math. Phys. **158** (1993) 569-644 &lbrack;[arXiv:hep-th/9211097](https://arxiv.org/abs/hep-th/9211097), [doi:10.1007/BF02096804](https://doi.org/10.1007/BF02096804)&rbrack;
+
+* {#BourdeauDouglas94} [[M. F. Bourdeau]], [[Michael R. Douglas]], *Topological-Antitopological Fusion and the Large $N$ $\mathbb{C}P^N$ Model*, Nucl. Phys. B **420** (1994) 243-267 &lbrack;[doi:hep-th/9312095](https://arxiv.org/abs/hep-th/9312095), <a href="https://doi.org/10.1016/0550-3213(94)90380-8">doi:10.1016/0550-3213(94)90380-8</a>&rbrack;
 
 
 And specifically the case of [[Riemann sphere|$\mathbb{C}P^1$]]:
 
-* Josef F. Dorfmeister, [[Martin A. Guest]], Wayne Rossman , *The $tt*$ Structure of the Quantum Cohomology of $\mathbb{C}P^1$ from the Viewpoint of Differential Geometry*, Asian Journal of Mathematics **14** 3 (2010) 417-438 &lbrack;[doi:10.4310/AJM.2010.v14.n3.a7](https://dx.doi.org/10.4310/AJM.2010.v14.n3.a7)&rbrack;
+* {#DorfmeisterGuestRossman10} Josef F. Dorfmeister, [[Martin A. Guest]], Wayne Rossman, *The $tt*$ Structure of the Quantum Cohomology of $\mathbb{C}P^1$ from the Viewpoint of Differential Geometry*, Asian Journal of Mathematics **14** 3 (2010) 417-438 &lbrack;[doi:10.4310/AJM.2010.v14.n3.a7](https://dx.doi.org/10.4310/AJM.2010.v14.n3.a7)&rbrack;
 
 
 
