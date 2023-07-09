@@ -308,7 +308,7 @@ $$
 The statement generalizes to [[topological groups]] in a suitable way.
 \end{example} 
 
-This is due to [Gelfand & Raikov (1943) (2)](#GelfandRaikov43), [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), textbook account in in [Dixmier (1977) Thm. 13.4.5 (ii)](#Dixmier77).
+This is due to [Gelfand & Raikov (1943) (2)](#GelfandRaikov43), [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), textbook account in [Dixmier (1977) Thm. 13.4.5 (ii)](#Dixmier77).
 
 ## Properties
 
@@ -545,9 +545,16 @@ The characterization of states on [[group algebras]]:
 
 * Wikipedia, *[Positive-definite function on a group](https://en.wikipedia.org/wiki/Positive-definite_function_on_a_group)*
 
+
+
 [[!redirects states on a star-algebra]]
 
 [[!redirects states on star-algebras]]
+
+[[!redirects state on a star algebra]]
+[[!redirects states on a star algebra]]
+[[!redirects states on star algebras]]
+
 
 [[!redirects state on a C-star algebra]]
 [[!redirects states on a C-star algebra]]
@@ -582,4 +589,5 @@ The characterization of states on [[group algebras]]:
 
 [[!redirects positive linear functional]]
 [[!redirects positive linear functionals]]
+
 
