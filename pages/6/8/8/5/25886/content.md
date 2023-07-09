@@ -47,6 +47,10 @@ and its [[supersymmetry|supersymmetric]] version:
 
 * Christian Wozar, §6 of: *Low-dimensional supersymmetric field theories on the lattice* (1981) &lbrack;[pdf](https://www.tpi.uni-jena.de/~wipf/abschlussarbeiten/wozar_diss.pdf)&rbrack;
 
+On the [[quantum cohomology]] inducd by the $\mathbb{C}P^N$-model:
+
+* [[Sergio Cecotti]], [[Cumrun Vafa]], *Exact Results for Supersymmetric Sigma Models*, Phys. Rev. Lett. **68** (1992) 903-906 &lbrack;[arXiv:hep-th/9111016](https://arxiv.org/abs/hep-th/9111016), [doi:10.1103/PhysRevLett.68.903](https://doi.org/10.1103/PhysRevLett.68.903)&rbrack;
+
 
 ### The $\mathbb{C}P^1$-model
 
