@@ -313,20 +313,6 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 0}:(
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 0}:(1 =_{\mathbb{2}} 0) \simeq \mathbb{0}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 1}:(1 =_{\mathbb{2}} 1) \simeq \mathbb{1}}$$
 
-#### Circle type
-
-Formation rules for the circle type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash S^1 \; \mathrm{type}}$$
-
-Introduction rules for the circle type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{base}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{loop}:\mathrm{base} =_{S^1} \mathrm{base}}$$
-
-Universal property rule for the circle type:
-$$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C(\mathrm{base}) \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_C^\mathrm{loop} c_\mathrm{base}}{\Gamma \vdash \mathrm{up}_\mathbb{I}^C(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:\prod_{x:S^1} C(x).(c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}) \times (\mathrm{apd}_C(c, c_\mathrm{base}, c_\mathrm{base}, c_\mathrm{loop}) =_{c_\mathrm{base} =_{x:S^1.C(x)}^\mathrm{loop} c_\mathrm{base}} c_\mathrm{loop})}$$
-
-Extensionality rules for the circle type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{S^1}^{\mathrm{base}}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq \mathbb{N} + \mathbb{1} + \mathbb{N}}$$
-
 #### Natural numbers type
 
 Formation rules for the natural numbers type:
