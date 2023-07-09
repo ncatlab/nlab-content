@@ -124,7 +124,7 @@ The [[second quantization]] [[effective field theory|effective]] field theory de
 
 Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeira-Spencer gravity]]/[[BCOV theory]] is in 
 
-* {#BCOV93} M. Bershadsky, S. Cecotti, [[Hirosi Ooguri]], [[Cumrun Vafa]], _Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes_, Commun.Math.Phys.165:311-428,1994 ([arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140))
+* {#BCOV93} [[Michael Bershadsky]], [[Sergio Cecotti]], [[Hirosi Ooguri]], [[Cumrun Vafa]], *Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes*, Commun. Math. Phys. **165** (1994) 311-428 &lbrack;[arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140), [doi:10.1007/BF02099774](https://doi.org/10.1007/BF02099774)&rbrack;
  
 
 * {#CostelloLi12} [[Kevin Costello]], [[Si Li]], _Quantum BCOV theory on Calabi-Yau manifolds and the higher genus B-model_ ([arXiv:1201.4501](http://arxiv.org/abs/1201.4501))
