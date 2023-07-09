@@ -13,6 +13,10 @@ On [[transitive actions]] on [[n-spheres|$n$-spheres]] by [[compact Lie groups]]
 
 * {#MontogomerySamelson43} [[Deane Montgomery]], [[Hans Samelson]], _Transformation Groups of Spheres_, Annals of Mathematics Second Series **44** 3 (1943) 454-470 &lbrack;[jstor:1968975](https://www.jstor.org/stable/1968975)&rbrack;
 
+Introducing the concept and terminology of the [[Pontrjagin product]] on the [[ordinary homology|homology]] of [[based loop spaces]]:
+
+* [[Raoul Bott]], [[Hans Samelson]], *On the Pontryagin product in spaces of paths*, Commentarii Mathematici Helvetici **27** (1953) 320–337 &lbrack;[doi:10.1007/BF02564566](https://doi.org/10.1007/BF02564566)&rbrack;
+
 
 Introducing the [[Samelson product]]:
 
