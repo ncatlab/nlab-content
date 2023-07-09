@@ -119,7 +119,7 @@ Relation to [[theta functions]]:
 
 * [[Krzysztof Gawędzki]], _Lectures on CFT_ (from Park City, published in QFT and strings for mathematicians, Dijkgraaf at al editors, [site](http://www.math.ias.edu/qft), [source](http://www.math.ias.edu/QFT/fall/NewGaw.tex), [dvi](http://www.math.ias.edu/QFT/fall/NewGaw.dvi), [ps](http://www.math.ias.edu/QFT/fall/NewGaw.ps)
 
-* A.A. Beilinson, Yu.I. Manin, V.V. Schechtman, _Sheaves of Virasoro and Neveu-Schwarz algebras_, Lecture Notes in Math. __1289__, Springer 1987, 52&#8211;66 
+* [[Alexander Beilinson]], [[Yuri Manin]], [[Vadim Schechtman]], _Sheaves of Virasoro and Neveu-Schwarz algebras_, Lecture Notes in Math. __1289__, Springer 1987, 52&#8211;66 
 
 * A.Mironov, A.Morozov, Sh.Shakirov, _Conformal blocks as Dotsenko-Fateev integral discriminants_, [arxiv/1001.0563](http://arxiv.org/abs/1001.0563)
 
