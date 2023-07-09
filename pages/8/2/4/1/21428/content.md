@@ -16,7 +16,7 @@
 
 ## Idea
 
-What is called *flat space holography* is a, somewhat more hypothetical, generalization of the [[holographic principle]] in the form of the [[AdS-CFT correspondence]], that should be applicable not to [[bulks]] that are [[asymptotic boundary|asymptotically]] [[anti de Sitter spacetime|anti de Sitter]] but to [[bulks]] that are [[asymptotic boundary|asymptotically]] [[Minkowski spacetime|Minkowskian]].
+What is called *flat space holography* is a -- somewhat more hypothetical -- generalization of the [[holographic principle]] in the form of the [[AdS-CFT correspondence]], which should be applicable not to the usual [[bulk]] [[spacetimes]] that are [[asymptotic boundary|asymptotically]] [[anti de Sitter spacetime|anti de Sitter]], but to [[bulks]] that are [[asymptotic boundary|asymptotically]] [[Minkowski spacetime|Minkowskian]].
 
 Notice here that the  *[[far horizon geometry]]* of all [[BPS state|BPS]] branes is a [[flat orbifold]] spacetime (see [here](near-horizon+geometry#FarHorizonGeometry)) and that "far" is [[Planck length|Planck scale]] for single branes ("[[cone branes]]"), hence in the [[large 1/N limit]] (opposite to the [[large N limit]] in which the [[AdS-CFT correspondence]] applies). 
 
@@ -77,7 +77,9 @@ For [[JT-gravity]]/[[SYK model]]-duality (i.e. analogous to [[AdS2/CFT1 duality]
 
 Introduction and survey:
 
-* [[Sabrina Pasterski]], *Lectures on Celestial Amplitudes* ([arXiv:2108.04801](https://arxiv.org/abs/2108.04801))
+* [[Sabrina Pasterski]], *Lectures on Celestial Amplitudes*, The European Physical Journal C **81** 1062 (2021) &lbrack;[arXiv:2108.04801](https://arxiv.org/abs/2108.04801), [doi:10.1140/epjc/s10052-021-09846-7](https://doi.org/10.1140/epjc/s10052-021-09846-7)&rbrack;
+
+* [[Sabrina Pasterski]], *Celestial Amplitudes*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021) &lbrack;slides: [pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/07/Sabrina-G.-Pasterski.pdf), video: [YT](https://youtu.be/cXSv_SWQsTs)&rbrack;
 
 Original articles:
 
