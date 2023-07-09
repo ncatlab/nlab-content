@@ -64,6 +64,12 @@ The general notion of [[sigma models]] with [[target space]] a [[sphere]] or a [
 
 
 
+
+[[!include quantum cohomology as Pontrjagin rings -- references]]
+
+
+
+
 [[!redirects CP^n sigma-models]]
 
 [[!redirects CP^1 sigma-model]]
