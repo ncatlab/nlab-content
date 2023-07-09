@@ -34,6 +34,8 @@ Beware that later authors often abbreviate the term from *quantum cohomology rin
 
 * [[Pontryagin ring]]
 
+
+
 ## References
 
 ### Quantum cohomology rings
@@ -63,7 +65,6 @@ The rigorous mathematical formulation in [[differential geometry|differential]] 
 with early computations in
 
 * [[Bernd Siebert]], [[Gang Tian]], *On Quantum Cohomology Rings of Fano Manifolds and a Formula of Vafa and Intriligator*,  Asian Journal of Mathematics **1** 4 (1997) 679 – 695 &lbrack;[arXiv:alg-geom/9403010](https://arxiv.org/abs/alg-geom/9403010), [doi:10.4310/AJM.1997.v1.n4.a2](https://dx.doi.org/10.4310/AJM.1997.v1.n4.a2)&rbrack;
-
 
 and in terms of [[algebraic geometry]] and via [[Frobenius manifolds]] due to:
 
@@ -100,6 +101,10 @@ Introduction and review:
 See also:
 
 * Wikipedia, *[Quantum cohomology](https://en.wikipedia.org/wiki/Quantum_cohomology)*
+
+Relation to [[chiral algebras]]:
+
+* [[Fyodor Malikov]], [[Vadim Schechtman]], *Deformations of chiral algebras and quantum cohomology of toric varieties* &lbrack;[arXiv:math/0001170](https://arxiv.org/abs/math/0001170)&rbrack;
 
 
 Slides of a talk for an audience of mathematical [[string theory|string theorists]] are
