@@ -145,7 +145,9 @@ For $R$ a pseudocompact ring, it is then easy to construct the corresponding pse
 ### For topological groups
  {#ForTopologicalGroups}
 
-(...)
+Discussion of group algebras in the generality of [[locally compact topological groups]]:
+
+e.g. [Dixmier (1977) §13.2](#Dixmier77)
 
 ## Properties
 
@@ -244,7 +246,7 @@ $$
     }{\oplus} 
     End_{\mathbb{C}}(V)
   $$
-  is an [[isomorphism]]: By the previous comment it is sujective, hence it is sufficient to observe that the [[dimension of a vector space|dimension]] of the group algebra equals that of the right hand side, hence that
+  is an [[isomorphism]]: By the previous comment it is [[surjective]], hence it is sufficient to observe that the [[dimension of a vector space|dimension]] of the group algebra equals that of the right hand side, hence that
 $$
   dim\big( 
     \mathbb{C}[Sym(G)]
@@ -253,7 +255,7 @@ $$
   \underset{[V]}{\sum} \big( dim(V)\big)^2
   \,.
 $$ 
-This is the case by [this property](regular+representation#RegularRepDecomposedIntoIrreps) of the [[regular representation]].
+That is the case by [this property](regular+representation#RegularRepDecomposedIntoIrreps) of the [[regular representation]].
 \end{proof}
 
 
@@ -286,9 +288,16 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 Textbook accounts:
 
-* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], Section 3.4 of: _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
+for [[locally compact topological groups]]:
 
-Lecture notes include
+* {#Dixmier77} [[Jacques Dixmier]], §13.2 in *$C^\ast$-algebras*, North Holland (1977)
+
+for [[finite groups]]
+
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], Section 3.4 of: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+
+
+Lecture notes:
 
 * [[Kiyoshi Igusa]], _Algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
 
