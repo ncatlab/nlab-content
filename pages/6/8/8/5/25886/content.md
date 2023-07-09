@@ -51,11 +51,16 @@ On the [[quantum cohomology]] inducd by the $\mathbb{C}P^N$-model:
 
 * [[Sergio Cecotti]], [[Cumrun Vafa]], *Exact Results for Supersymmetric Sigma Models*, Phys. Rev. Lett. **68** (1992) 903-906 &lbrack;[arXiv:hep-th/9111016](https://arxiv.org/abs/hep-th/9111016), [doi:10.1103/PhysRevLett.68.903](https://doi.org/10.1103/PhysRevLett.68.903)&rbrack;
 
+* {#CecottiVafa93} [[Sergio Cecotti]], [[Cumrun Vafa]], *On Classification of $N=2$ Supersymmetric Theories*, Comm. Math. Phys. **158** (1993) 569-644 &lbrack;[arXiv:hep-th/9211097](https://arxiv.org/abs/hep-th/9211097), [doi:10.1007/BF02096804](https://doi.org/10.1007/BF02096804)&rbrack;
+
+* {#BourdeauDouglas94} [[M. F. Bourdeau]], [[Michael R. Douglas]], *Topological-Antitopological Fusion and the Large $N$ $\mathbb{C}P^N$ Model*, Nucl. Phys. B **420** (1994) 243-267 &lbrack;[doi:hep-th/9312095](https://arxiv.org/abs/hep-th/9312095), <a href="https://doi.org/10.1016/0550-3213(94)90380-8">doi:10.1016/0550-3213(94)90380-8</a>&rbrack;
+
+
 
 ### The $\mathbb{C}P^1$-model
 
 * [[Edward Witten]], *On the structure of the topological phase of two-dimensional gravity*, Nuclear Physics B
-**340** 2–3 (1990) 281-332 &lbrack;<a href="https://doi.org/10.1016/0550-3213(90)90449-N">doi:10.1016/0550-3213(90)90449-N</a>
+**340** 2–3 (1990) 281-332 &lbrack;<a href="https://doi.org/10.1016/0550-3213(90)90449-N">doi:10.1016/0550-3213(90)90449-N</a>&rbrack;
 
 * [[Tohru Eguchi]], Sung-Kil Yang, *The Topological $C P^1$ Model and the Large-$N$ Matrix Integral*, Mod. Phys. Lett. A **9** (1994) 2893-2902 &lbrack;[arXiv:hep-th/9407134](https://arxiv.org/abs/hep-th/9407134), [doi:10.1142/S0217732394002732](https://doi.org/10.1142/S0217732394002732)&rbrack;
 
