@@ -35,7 +35,7 @@ Surely, one often works at the derived level. An adaptation of the  notion of st
 
 ### Introductions and lectures
 
-* Sergio Cecotti, _Trieste lectures on wall-crossing invariants_ (2010) ([pdf](http://people.sissa.it/~cecotti/ictptext.pdf))
+* [[Sergio Cecotti]], _Trieste lectures on wall-crossing invariants_ (2010) &lbrack;[pdf](http://people.sissa.it/~cecotti/ictptext.pdf)&rbrack
 
 * [[Greg Moore]], _PiTP Lectures on BPS states and wall-crossing in $d = 4$, $\mathcal{N} = 2$ theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/PiTP_July26_2010.pdf))
 
