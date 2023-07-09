@@ -53,7 +53,7 @@ The [[Poincaré–Birkhoff–Witt theorem]] states that the
 
 ### Relation to formal deformation quantization
 
-See at _[[deformation quantization]]_ the section _[Relation to universal enveloping algebras](deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
+See at _[[formal deformation quantization]]_ the section _[Relation to universal enveloping algebras](formal+deformation+quantization#RelationToUniversalEnvelopingAlgebras)_.
 
 ## Examples
 
