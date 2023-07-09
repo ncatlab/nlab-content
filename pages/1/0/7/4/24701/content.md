@@ -297,20 +297,6 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 Universal property rule for the empty type:
 $$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\mathrm{isContr}\left(\prod_{x:\mathbb{0}} C(x)\right)}$$
 
-#### Copy types
-
-Formation rules for copy types:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{Copy}(A) \; \mathrm{type}}$$
-
-Introduction rules for copy types:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{copy}_A:A \to \mathrm{Copy}(A)}$$
-
-Universal property rule for copy types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:\mathrm{Copy}(A) \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_{\mathrm{copy}_A}:\prod_{x:A} C(\mathrm{copy}_A(x))}{\Gamma \vdash \mathrm{up}_{\mathrm{Copy}(A)}^C(c_{\mathrm{copy}_A}):\exists!c:\prod_{x:\mathrm{Copy}(A)} C(x).\prod_{a:A} c(\mathrm{copy}_A(a)) =_{C(\mathrm{copy}_A(a))} c_{\mathrm{copy}_A}(a)}$$
-
-Extensionality rules for the copy type:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{ext}_{\mathrm{Copy}(A)}^{\mathrm{copy}_A}:\prod_{a:A} \prod_{b:A} (\mathrm{copy}_A(a) =_{\mathrm{Copy}(A)} \mathrm{copy}_A(b)) \simeq (a =_A b)}$$
-
 #### Booleans type
 
 Formation rules for the booleans type:
