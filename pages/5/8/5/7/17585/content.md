@@ -106,7 +106,7 @@ Thus the inclusion on the right is manifestly a [[relative Sullivan algebra]], i
 For $X$ a [[connected topological space|connected]] and [[simply connected topological space]] with [[Sullivan model]] $(\wedge\bullet V, d_X)$, the Sullivan model 
 $(\wedge^\bullet( s V ), d_{\Omega X})$ 
 of its [[based loop space]] $\Omega X$
-is the dgc-algebra obtained from $(\wedge\bullet V, d_X)$ by shifting down all generators in degree by 1, and by keeping only the co-unary componend of the [[differential]].
+is the dgc-algebra obtained from $(\wedge^\bullet V, d_X)$ by shifting down all generators in degree by 1, and by keeping only the co-unary componend of the [[differential]].
 
 =--
 
