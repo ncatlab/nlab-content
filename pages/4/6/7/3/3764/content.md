@@ -66,9 +66,9 @@ The GNS-construction plays a central role in [[algebraic quantum field theory]] 
 
 Given 
 
-1. a [[C*-algebra]], $\mathcal{A}$;
+1. a [[C*-algebra]] $\mathcal{A}$;
 
-1. a [[states in AQFT and operator algebra|state]], $\rho \;\colon\; \mathcal{A} \to \mathbb{C}$
+1. a [[state on a star-algebra|state]] $\rho \;\colon\; \mathcal{A} \to \mathbb{C}$
 
 there exists 
 
@@ -138,7 +138,7 @@ by the subspace of 0-norm elements
   \,.
 \]
 
-In fact, $N$ is a left [[ideal]] in $\mathcal{A}$ so that the left multiplication [[action]] of $\mathcal{A}$ on itself descends to an action the quotient Hilbert space (eq:TheNullIdeal)
+In fact, $N$ is a left [[ideal]] in $\mathcal{A}$ so that the left multiplication [[action]] of $\mathcal{A}$ on itself descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace)
 
 $$
   \array{
@@ -159,7 +159,7 @@ $$
   }
 $$
 
-The cyclic vector is hence the tautological
+Therefore, the cyclic vector in question can be taken to be that represented by the [[unit element]] $1 \in \mathcal{A}$:
 
 $$
   \psi_\rho \;\coloneqq\; [1]
@@ -169,9 +169,15 @@ $$
 Hence on this Hilbert space $\mathcal{H}$, the original  operator-algebraic state $\rho$ is now represented by the tautological [[density matrix]] 
 
 $$
-  \left\vert \psi_\rho \right\rangle \left\langle \psi_\rho \right\rangle
+  \left\vert 
+    \psi_\rho 
+  \right\rangle 
+  \left\langle 
+    \psi_\rho 
+  \right\rangle
   \;=\;
-  \left\vert [1] \right\rangle \left\langle [1] \right\rangle
+  \left\vert [1] \right\rangle 
+  \left\langle [1] \right\rangle
   \,.
 $$
 
