@@ -81,6 +81,9 @@ Introduction and survey:
 
 * [[Sabrina Pasterski]], *Celestial Amplitudes*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021) &lbrack;slides: [pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/07/Sabrina-G.-Pasterski.pdf), video: [YT](https://youtu.be/cXSv_SWQsTs)&rbrack;
 
+* [[Ana-Maria Raclariu]], *Lectures on Celestial Holography* &lbrack;[arXiv:2107.02075](https://arxiv.org/abs/2107.02075)&rbrack;
+
+
 Original articles:
 
 * [[Nima Arkani-Hamed]], Monica Pate, [[Ana-Maria Raclariu]], [[Andrew Strominger]], *Celestial Amplitudes from UV to IR*, JHEP 08 (2021) 062 ([arXiv:2012.04208](https://arxiv.org/abs/2012.04208))
@@ -89,7 +92,12 @@ Original articles:
 
 * Charlotte Sleight, Massimo Taronna, *Celestial Holography Revisited* ([arXiv:2301.01810](https://arxiv.org/abs/2301.01810))
 
-* [[Ana-Maria Raclariu]], *Lectures on Celestial Holography* ([arXiv:2107.02075](https://arxiv.org/abs/2107.02075))
+Description in terms of [[topological strings]] on [[twistor space]]:
+
+* [[Kevin Costello]], [[Natalie M. Paquette]], [[Atul Sharma]], *Top-down holography in an asymptotically flat spacetime* &lbrack;[arXiv:2208.14233](https://arxiv.org/abs/2208.14233)&rbrack;
+
+* [[Kevin Costello]], [[Natalie M. Paquette]], [[Atul Sharma]], *Burns space and holography* &lbrack;[arXiv:2306.00940](https://arxiv.org/abs/2306.00940)&rbrack;
+
 
 [[!redirects celestial holography]]
 
