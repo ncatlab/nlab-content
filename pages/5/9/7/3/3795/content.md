@@ -78,8 +78,7 @@ See also
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry_, ([arxiv/1303.3253](http://arxiv.org/abs/1303.3253))
 
 
-* S. Cecotti, [[Cumrun Vafa|C. Vafa]], _[[BPS state|BPS]] wall crossing and topological strings_, 
-[arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
+* [[Sergio Cecotti]], [[Cumrun Vafa]], *BPS wall crossing and topological strings*  &lbrack;[arXiv/0910.2615](http://arxiv.org/abs/0910.2615)&rbrack;
 
 * [[Davide Gaiotto]], [[Greg Moore|Gregory W. Moore]], [[Andrew Neitzke]], _[[wall crossing|Wall-crossing]], [[Hitchin system]]s, and the [[WKB approximation]], [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
 
