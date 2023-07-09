@@ -45,8 +45,12 @@ If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure 
 
 $$ 
   {\|f\|_p} 
-    \coloneqq \left(\int_\Omega {|f|^p} \,d\mu\right)^{1/p} 
-  \lt \infty
+    \;\coloneqq\; 
+  \left(
+    \textstyle{\int}_\Omega {|f|^p} \,d\mu
+  \right)^{1/p} 
+    \;\lt\; 
+  \infty
 $$
 
 exists. Two such are taken to be equivalent, $f \sim g$, if ${\|f-g\|_p} = 0$. For $p = 2$ this is the space $L^2$ of [[square integrable functions]].
@@ -63,7 +67,7 @@ For $0 \leq p \lt 1$, one can modify the definition to make $L^p$ into an [[F-sp
 ## Minkowski's inequality 
  {#MinkowskiInequality}
  
-We offer here a proof that ${\|f\|_p}$ indeed defines a norm in the case $1 \lt p \lt \infty$, in that it satisfies the [[triangle inequality]]. This is usually known as _[[Minkowski's inequality]]_.
+We offer here a proof that ${\|f\|_p}$ indeed defines a norm in the case $1 \lt p \lt \infty$, in that it satisfies the [[triangle inequality]]. This is usually known as *[[Minkowski's inequality]]*.
 
 (The cases $p = 1$ and $p = \infty$ follow by continuity and are easy to check from first principles.) 
 
@@ -72,9 +76,16 @@ The most usual textbook proofs involve a clever application of [[Hölder's inequ
 +-- {: .num_theorem} 
 ###### Theorem 
 
-Suppose $1 \leq p \leq \infty$, and suppose $\Omega$ is a [[measure space]] with [[measure]] $\mu$. Then the function ${|(-)|_p}\colon L^p(\Omega, \mu) \to \mathbb{R}$ defined by  
-$${\|f\|_p} \coloneqq (\int_\Omega {|f|^p} \,d\mu)^{1/p}$$ 
+Suppose $1 \leq p \leq \infty$, and suppose $\Omega$ is a [[measure space]] with [[measure]] $\mu$. Then the function ${|(-)|_p} \,\colon\, L^p(\Omega, \mu) \to \mathbb{R}$ defined by  
+$$
+  {\|f\|_p} 
+    \;\coloneqq\; 
+  \big(
+    \textstyle{\int}_\Omega {|f|^p} \,d\mu
+  \big)^{1/p}
+$$ 
 defines a [[norm]]. 
+
 =-- 
 
 One must verify three things: 
@@ -144,7 +155,12 @@ for all $t \in [0, 1]$.
 +-- {: .proof}
 ###### Proof of Minkowski's inequality   
 Let $u$ and $v$ be unit vectors in $L^p$. By condition 4, it suffices to show that ${|t u + (1-t)v|_p} \leq 1$ for all $t \in [0, 1]$. But 
-$$\int_\Omega {|t u + (1-t)v|^p} \,d\mu \leq \int_\Omega t{|u|}^p + (1-t){|v|}^p \,d\mu$$ 
+$$
+  \textstyle{\int}_\Omega {|t u + (1-t)v|^p} \,d\mu 
+    \;\leq\; 
+  \textstyle{\int}_\Omega t{|u|}^p + (1-t){|v|}^p \,d\mu
+  \,,
+$$ 
 by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done. 
 =-- 
 
