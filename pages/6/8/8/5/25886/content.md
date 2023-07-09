@@ -39,6 +39,13 @@ The general notion of [[sigma models]] with [[target space]] a [[sphere]] or a [
 
 * [[Edward Witten]], §3 of: *Instatons, the quark model, and the $1/N$ expansion*, Nuclear Physics B **149** 2 (1979) 285-320 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90243-8">doi:10.1016/0550-3213(79)90243-8</a>
 
+The [[lattice field theory]]-formulation:
+
+* [[Paolo Di Vecchia]], A. Holtkamp, R. Musto, F. Nicodemi, R. Pettorini, *Lattice $CP^{N-1}$ models and their large-$N$ behaviour*, Nuclear Physics B **190** 4 (1981) 719-733 &lbrack;<a href="https://doi.org/10.1016/0550-3213(81)90047-X">doi:10.1016/0550-3213(81)90047-X</a>&rbrack;
+
+and its [[supersymmetry|supersymmetric]] version:
+
+* Christian Wozar, §6 of: *Low-dimensional supersymmetric field theories on the lattice* (1981) &lbrack;[pdf](https://www.tpi.uni-jena.de/~wipf/abschlussarbeiten/wozar_diss.pdf)&rbrack;
 
 
 ### The $\mathbb{C}P^1$-model
