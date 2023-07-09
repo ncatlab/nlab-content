@@ -620,9 +620,10 @@ see also
 
 This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
 
-A popular exposition of this is in
+A popular exposition of formal deformation quantization with emphasis of the [[string theory|stringy]] [[Poisson sigma-model]]-construction:
 
-* [[Anton Kapustin]], _Quantum geometry: The reunion of math and physics_ ([online slides](https://dl.dropboxusercontent.com/u/12796267/kapustin-talk.swf) [Powerpoint](http://www.theory.caltech.edu/~kapustin/talk.ppt))
+* [[Anton Kapustin]], _Quantum geometry: The reunion of math and physics_ &lbrack;[[Kapustin-QuantumGeometry.pdf:file]]&rbrack;
+
 
 The classification of the space of such formal deformation quantization is discussed in
 
