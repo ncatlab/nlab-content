@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition. 
 
 Given a [[locally compact topological group]] $G$, a system of imprimitivity on $G$ consists of a
@@ -33,8 +38,8 @@ Remark: A possible extension is to replace $X$ by a measurable space with a meas
 
 This concept is important in Mackey machinery and in the applications to the study of coherent states and Berezin quantization.
 
-## Literature and related entries
+## References
 
-* sec. 6.4 in: Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Adv. Math. CRC Press 1995
+* [[Gerald B. Folland]], Sec. 6.4 in: *A course in abstract harmonic analysis*, Studies in Advanced Mathematics. CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
 
 [[!redirects systems of imprimitivity]]
