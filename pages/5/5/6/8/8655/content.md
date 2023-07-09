@@ -269,7 +269,7 @@ Informal comments on a possible general picture of duality in physics arising fr
 
 > **"Conjecture"**: Whenever the [[dimension]], [[number of supersymmetries|number of preserved supercharges]], and [[chiral fermion|chiralities]] of two different [[string theory vacuum|compactifications of string theory]] match, there are choices of [[KK-compactification|compactification geometries]] such that they are dual descriptions of the same physical theory.
 
-> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory.
+> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as [[Sergio Cecotti]] puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory.
 
 
 
