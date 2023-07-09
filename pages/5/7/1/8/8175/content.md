@@ -80,13 +80,14 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 ###### Proposition
 
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]], such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness: 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]], such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well-defined up to unique iso in the homotopy category by simply-connectedness: 
 
 $$
   \array{
     F &\longrightarrow& X
     \\
-    && \downarrow^{\mathrlap{\in Fib_{cl}}}
+    && 
+    \Big\downarrow\mathrlap{{}^{\in Fib_{cl}}}
     \\
     && B
   }
@@ -198,11 +199,11 @@ $$
     \\
     & \simeq \tilde A^{s+t}(\underset{\sigma \in C(n)}{\vee} S^s \wedge F_+)
     \\
-    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^{s+t}(S^s \wedge F_+)
+    & \simeq \underset{\sigma \in C(s)}{\textstyle{\prod}} \tilde A^{s+t}(S^s \wedge F_+)
     \\
-    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^t(F_+)
+    & \simeq \underset{\sigma \in C(s)}{\textstyle{\prod}} \tilde A^t(F_+)
     \\
-    & \simeq \underset{\sigma \in C(s)}{\prod} A^t(F)
+    & \simeq \underset{\sigma \in C(s)}{\textstyle{\prod}} A^t(F)
     \\
     & \simeq C^s_{cell}(B,A^t(F))
   \end{aligned}
