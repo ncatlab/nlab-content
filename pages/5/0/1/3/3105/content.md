@@ -189,6 +189,13 @@ In fact, together with [[composition operations]] and [[fundamental group]]-[[ac
 This is related to the definition of [[Pi-algebras]].
 
 
+### Relation to Pontrjagin product
+ {#RelationToPontrjaginProduct}
+
+Under the [[Hurewicz homomorphism]], the Whitehead product on homotopy groups is the [[commutator]] of the [[Pontrjagin product]] on integral [[ordinar homology|homology]] groups of a [[based loop space]] &lbrack;[Samelson (1953)](#Samelson53)&rbrack;
+
+
+
 ### In terms of Samelson products
 
 In the context of [[simplicial groups]], representing [[connected]] [[homotopy types]], there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. 
@@ -361,7 +368,7 @@ where the wedge product on the right is normalized as in (eq:WedgeProductNormali
 
 ###Relation to Goodwillie Calculus:
 
-See e.g. [Scherer-Chorny 11, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson product]]s.
+See e.g. [Scherer-Chorny 11, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson products]].
 
 ## Examples
 
@@ -393,6 +400,14 @@ $$
 
 \linebreak
 
+## Related concepts
+
+* [[Pontrjagin product]]
+
+* [[Samelson product]]
+
+
+
 ## References
 
 ### General
@@ -407,6 +422,9 @@ with early discussion in
 
 * {#Hilton55} [[Peter Hilton]], _On the homotopy groups of unions of spheres_, J. London Math. Soc., 1955, 30, 154–172 ([[Hilton55.pdf:file]], [doi:doi.org/10.1112/jlms/s1-30.2.154]( https://doi.org/10.1112/jlms/s1-30.2.154))
 
+Proof that the Whitehead product is the [[commutator]] of the [[Pontrjagin product]]:
+
+* {#Samelson53} [[Hans Samelson]], *A Connection Between the Whitehead and the Pontryagin Product*, American Journal of Mathematics **75** 4 (1953) 744–752  &lbrack;[doi:10.2307/2372549](https://doi.org/10.2307/2372549)&rbrack;
 
 See also 
 
