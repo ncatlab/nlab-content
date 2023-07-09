@@ -28,6 +28,6 @@ Expository accounts:
 
 History:
 
-* {#James71} [[Ioan Mackenzie James]], _Products between homotopy groups_,  Compositio Mathematica, Volume 23 (1971) no. 3, p. 329-345  ([numdam](http://www.numdam.org/item/?id=CM_1971__23_3_329_0))
+* {#James71} [[Ioan Mackenzie James]], *Products between homotopy groups*,  Compositio Mathematica, **23** 3 (1971) , 329-345 &lbrack;[numdam:CM_1971__23_3_329_0](http://www.numdam.org/item/?id=CM_1971__23_3_329_0)&rbrack;
 
 [[!redirects Samelson products]]
