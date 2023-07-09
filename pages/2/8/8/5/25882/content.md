@@ -3,7 +3,7 @@
  {#ReferencesOnQuantumCohomologyAsPontrjaginRings}
 
 
-On the relation between [[quantum cohomology rings]] ([[Gromov-Witten invariants]] in [[topological string theory]]) and [[Pontrjagin rings]] ([[homology]]-[[Hopf algebras]] of [[based loop spaces]]):
+On the relation between [[quantum cohomology rings]], hence of [[Gromov-Witten invariants]] in [[topological string theory]], for [[flag manifold]] [[target spaces]] (such as the [[CP^1 sigma-model|$\mathbb{C}P^1$-sigma model]]) and [[Pontrjagin rings]] ([[homology]]-[[Hopf algebras]] of [[based loop spaces]]):
 
 That the [[Pontryagin ring]]-[[structure]] on the [[ordinary homology]] of the [[based loop space]] of a [[simply-connected topological space|simply-connected]] [[compact Lie group]] $K$ is essentially  the [[quantum cohomology ring]] of the [[flag variety]] of its [[complexification]] by its [[Borel subgroup]] is attributed ("Peterson isomorphism") to
 
@@ -20,7 +20,7 @@ and proven in
 
 * [[Chi Hong Chow]], *Peterson-Lam-Shimozono's theorem is an affine analogue of quantum Chevalley formula* $[$[arXiv:2110.09985](https://arxiv.org/abs/2110.09985)$]$
 
-* [[Chi Hong Chow]], *On D. Peterson's presentation of quantum cohomology of $G/P$* $[$[arXiv:2210.17382](https://arxiv.org/abs/2210.17382)$]$
+* {#Chow22} [[Chi Hong Chow]], *On D. Peterson's presentation of quantum cohomology of $G/P$* $[$[arXiv:2210.17382](https://arxiv.org/abs/2210.17382)$]$
 
 
 reviewed in
@@ -33,13 +33,19 @@ with further discussion in:
 
 On the variant for Pontryagin products not on [[ordinary homology]] but in [[topological K-theory|topological]] [[K-homology]]:
 
-* [[Thomas Lam]], [[Changzheng Li]], [[Leonardo C. Mihalcea]], [[Mark Shimozono]], *A conjectural Peterson isomorphism in K-theory*, Journal of Algebra **513** (2018) 326-343 $[$[doi:10.1016/j.jalgebra.2018.07.029](https://doi.org/10.1016/j.jalgebra.2018.07.029), [arXiv:1705.03435](https://arxiv.org/abs/1705.03435)$]$
+* {#LamLiMihalceaShimozono18} [[Thomas Lam]], [[Changzheng Li]], [[Leonardo C. Mihalcea]], [[Mark Shimozono]], *A conjectural Peterson isomorphism in K-theory*, Journal of Algebra **513** (2018) 326-343 $[$[doi:10.1016/j.jalgebra.2018.07.029](https://doi.org/10.1016/j.jalgebra.2018.07.029), [arXiv:1705.03435](https://arxiv.org/abs/1705.03435)$]$
 
 * Takeshi Ikeda, Shinsuke Iwao, Toshiaki Maeno, *Peterson Isomorphism in K-theory and Relativistic Toda Lattice*, International Mathematics Research Notices **2020** 19 (2020) 6421–6462 $[$[arXiv:1703.08664](https://arxiv.org/abs/1703.08664), [doi:10.1093/imrn/rny051](https://doi.org/10.1093/imrn/rny051)$]$
 
-* Syu Kato, *On quantum $K$-groups of partial flag manifolds* $[$[arXiv:1906.09343](https://arxiv.org/abs/1906.09343)$]$
+* [[Syu Kato]], *Loop structure on equivariant K-theory of semi-infinite flag manifolds* $[$[arXiv:1805.01718](https://arxiv.org/abs/1805.01718)$]$
 
-* Syu Kato, *Quantum $K$-groups on flag manifolds*, talk at *IMPANGA 20* (2021) $[$[pdf](https://www.impan.pl/konferencje/bcc/2020/20-impanga/impanga2021.pdf)$]$
+* {#Kato19} [[Syu Kato]], *On quantum $K$-groups of partial flag manifolds* $[$[arXiv:1906.09343](https://arxiv.org/abs/1906.09343)$]$
+
+* [[Syu Kato]], *Darboux coordinates on the BFM spaces* $[$[arXiv:2008.01310](https://arxiv.org/abs/2008.01310)$]$
+
+* {#Kato21} [[Syu Kato]], *Quantum $K$-groups on flag manifolds*, talk at *IMPANGA 20* (2021) $[$[pdf](https://www.impan.pl/konferencje/bcc/2020/20-impanga/impanga2021.pdf)$]$
+
+On the example of the [[CP^1 sigma-model]]: [LLMS18, §4.1](LamLiMihalceaShimozono18), [Kato21 p. 17](#Kato21), [Chow22 Exp. 1.4 ](#Chow22).
 
 See also:
 
