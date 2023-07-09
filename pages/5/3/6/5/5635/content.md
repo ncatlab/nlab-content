@@ -127,8 +127,16 @@ On quantum cohomology rings of [[flag varieties]] --- "quantum [[Schubert calcul
 
 * {#LeungLi14} [[Naichung Conan Leung]], [[Changzheng Li]], *An update of quantum cohomology of homogeneous varieties* &lbrack;[arXiv:1407.5905](https://arxiv.org/abs/1407.5905)&rbrack;
 
-
 > (e.g. for $\mathbb{C}P^1 = SL(2,\mathbb{C})/P$)
+
+Specifically the case of [[complex projective space|$\mathbb{C}P^N$]] ([[CP^N sigma-model|$\mathbb{C}P^N$ sigma-model]]):
+
+* [[Sergio Cecotti]], [[Cumrun Vafa]], *Exact Results for Supersymmetric Sigma Models*, Phys. Rev. Lett. **68** (1992) 903-906 &lbrack;[arXiv:hep-th/9111016](https://arxiv.org/abs/hep-th/9111016), [doi:10.1103/PhysRevLett.68.903](https://doi.org/10.1103/PhysRevLett.68.903)&rbrack;
+
+
+And specifically the case of [[Riemann sphere|$\mathbb{C}P^1$]]:
+
+* Josef F. Dorfmeister, [[Martin A. Guest]], Wayne Rossman , *The $tt*$ Structure of the Quantum Cohomology of $\mathbb{C}P^1$ from the Viewpoint of Differential Geometry*, Asian Journal of Mathematics **14** 3 (2010) 417-438 &lbrack;[doi:10.4310/AJM.2010.v14.n3.a7](https://dx.doi.org/10.4310/AJM.2010.v14.n3.a7)&rbrack;
 
 
 
