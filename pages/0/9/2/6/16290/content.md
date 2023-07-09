@@ -15,7 +15,12 @@ On [[spinning particles]] and their [[worldline]] [[supersymmetry]]:
 
 On the [[theta angle]] in [[QCD]]:
 
-* {#CrewtherDiVecchiaVenezianoWitten79} [[Rodney Crewther]], [[Paolo Di Vecchia]], [[Gabriele Veneziano]], [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([CERN](http://cds.cern.ch/record/133382)). See also 
+* {#CrewtherDiVecchiaVenezianoWitten79} [[Rodney Crewther]], [[Paolo Di Vecchia]], [[Gabriele Veneziano]], [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([CERN](http://cds.cern.ch/record/133382)). 
+
+The [[lattice field theory|lattice]]-formulation of the [[CP^N sigma-model|$\mathbb{C}P^N$-model]]:
+
+* [[Paolo Di Vecchia]], A. Holtkamp, R. Musto, F. Nicodemi, R. Pettorini, *Lattice $CP^{N-1}$ models and their large-$N$ behaviour*, Nuclear Physics B **190** 4 (1981) 719-733 &lbrack;<a href="https://doi.org/10.1016/0550-3213(81)90047-X">doi:10.1016/0550-3213(81)90047-X</a>&rbrack;
+
 
 On the early history of [[string theory]]:
 
