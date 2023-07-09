@@ -9,8 +9,13 @@ On [[fractional level WZW models]] (non-integrable admissible [[affine Lie algeb
 
   > (appearance of [[osp|$\mathfrak{osp}(1\vert2)$]]-contributions)
 
+On [[chiral algebras]] in relation to [[quantum cohomology]]:
 
-## Related $n$Lab entries
+* [[Fyodor Malikov]], [[Vadim Schechtman]], *Deformations of chiral algebras and quantum cohomology of toric varieties* &lbrack;[arXiv:math/0001170](https://arxiv.org/abs/math/0001170)&rbrack;
+
+
+
+## Related entries
 
 * [[chiral de Rham complex]]
 
