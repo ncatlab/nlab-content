@@ -30,10 +30,9 @@ On the [[AdS-CFT correspondence]]:
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. 323:183-386, 2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
-On [[Kodeira-Spencer gravity]]:
+On how the [[second quantization]] of the [[B-model]] yields [[Kodeira-Spencer gravity]]/[[BCOV theory]]:
 
-* M. Bershadsky, S. Cecotti, H. Ooguri, C. Vafa, _Kodaira-Spencer theory of gravity and exact results for quantum string amplitudes_, 
-Comm. Math. Phys. __165__ (1994), no. 2, 311&#8211;427, [MR95f:32029](http://www.ams.org/mathscinet-getitem?mr=1301851), [euclid](http://projecteuclid.org/getRecord?id=euclid.cmp/1104271134)
+* {#BCOV93} [[Michael Bershadsky]], [[Sergio Cecotti]], [[Hirosi Ooguri]], [[Cumrun Vafa]], *Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes*, Commun. Math. Phys. **165** (1994) 311-428 &lbrack;[arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140), [doi:10.1007/BF02099774](https://doi.org/10.1007/BF02099774)&rbrack;
 
 On [[lattice field theory]]:
 
