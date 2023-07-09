@@ -307,9 +307,9 @@ $$
 $$
 
 The statement generalizes to [[topological groups]] in a suitable way.
-
-This is due to [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), review in [Dixmier (1977) Thm. 13.4.6 (ii)](#Dixmier77).
 \end{example} 
+
+This is due to [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), review in [Dixmier (1977) Thm. 13.4.5 (ii)](#Dixmier77).
 
 ## Properties
 
