@@ -155,8 +155,8 @@ where $\gamma_i$ denote the generators of the [[Clifford algebra]] given by the 
 This is such that the [[Lorentz metric]] [[norm]] is just the [[determinant]] of this [[matrix]]
 
 $$
-  \Vert \left(x^i\right) \Vert 
-   = 
+   \big\Vert (x^i) \big\Vert 
+   \;=\; 
    2 det\left(\left(x^{\alpha \beta} \right)\right)
   \,.
 $$
