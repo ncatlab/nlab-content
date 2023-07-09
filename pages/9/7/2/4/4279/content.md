@@ -3,7 +3,6 @@
 
 ***
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -309,7 +308,7 @@ $$
 The statement generalizes to [[topological groups]] in a suitable way.
 \end{example} 
 
-This is due to [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), review in [Dixmier (1977) Thm. 13.4.5 (ii)](#Dixmier77).
+This is due to [Gelfand & Raikov (1943) (2)](#GelfandRaikov43), [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), textbook account in in [Dixmier (1977) Thm. 13.4.5 (ii)](#Dixmier77).
 
 ## Properties
 
@@ -474,7 +473,9 @@ Textbook account:
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], §2.3 in: *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
 
-Discussion under the name "positive linear functionals"
+Discussion under the name "positive linear functionals":
+
+* {#Steward76} [[James D. Steward]], *Positive definite functions and generalizations, an historical survey*, The Rocky Mountain Journal of Mathematics **6** 3 (1976) 409-434 &lbrack;[jstor:44236118](https://www.jstor.org/stable/44236118)&rbrack;
 
 * {#Dixmier77} [[Jacques Dixmier]], §2 of: *$C^\ast$-algebras*, North Holland (1977)
 
@@ -522,7 +523,13 @@ For more references see at _[[operator algebra]]_.
 
 ### The case of group algebras
 
-The case of [[group algebras]]:
+The characterization of states on [[group algebras]]:
+
+* {#GelfandRaikov43} И. М. Гельфанд, Д. А. Райков, *Неприводимые унитарные представления локально бикомпактных групп*, Матем. сб., 13(55):2–3 (1943)  301–316 &lbrack;[mathnet pdf](https://www.mathnet.ru/links/728d630fdf2220b1ea8bdb2a5f6a5488/sm6181.pdf)&rbrack;
+
+  \linebreak
+
+  [[Israel Gelfand]], [[Dmitri Raikov]], *Irreducible unitary representations of locally bicompact groups*, Recueil Mathématique. N.S., 13(55) 2–3 (1943) 301–316 &lbrack;[mathnet:eng/sm6181](https://www.mathnet.ru/eng/sm6181)&rbrack;
 
 * {#Naimark56} [[Mark A. Naimark]], *Normed Rings*, Moscow (1956)
 
@@ -530,10 +537,13 @@ The case of [[group algebras]]:
 
 * {#Saworotnow72} Parfeny P. Saworotnow, *Generalized Positive Linear Functionals on a Banach Algebra with an Involution*, Proceedings of the AMS, **31** 1 (1972) 299-304  &lbrack;[jstor:2038564](https://www.jstor.org/stable/2038564)&rbrack;
 
+* [Steward (1976) §4](#Steward76)
+
 * [Dixmier (1977) Thm. 13.4.6](#Dixmier77)
 
 * [[eom]], *[Positive-definite function](https://encyclopediaofmath.org/wiki/Positive-definite_function)*
 
+* Wikipedia, *[Positive-definite function on a group](https://en.wikipedia.org/wiki/Positive-definite_function_on_a_group)*
 
 [[!redirects states on a star-algebra]]
 
@@ -566,6 +576,9 @@ The case of [[group algebras]]:
 
 [[!redirects normal state]]
 [[!redirects normal states]]
+
+[[!redirects positive-definite function]]
+[[!redirects positive-definite functions]]
 
 [[!redirects positive linear functional]]
 [[!redirects positive linear functionals]]
