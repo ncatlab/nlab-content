@@ -24,6 +24,10 @@ On the [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#Br
 
 * [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247  $[$[euclid:cmp/1104272957](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full)$]$
 
+On [[chiral algebras]] in relation to [[quantum cohomology]]:
+
+* [[Fyodor Malikov]], [[Vadim Schechtman]], *Deformations of chiral algebras and quantum cohomology of toric varieties* &lbrack;[arXiv:math/0001170](https://arxiv.org/abs/math/0001170)&rbrack;
+
 
 ## Related entries
 
