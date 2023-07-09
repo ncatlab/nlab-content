@@ -7,6 +7,15 @@
 
 ## Selected writings
 
+Introducing the concept and terminology of the [[Pontrjagin product]] on the [[ordinary homology|homology]] of [[based loop spaces]]:
+
+* [[Raoul Bott]], [[Hans Samelson]], *On the Pontryagin product in spaces of paths*, Commentarii Mathematici Helvetici **27** (1953) 320–337 &lbrack;[doi:10.1007/BF02564566](https://doi.org/10.1007/BF02564566)&rbrack;
+
+and application to the case of [[Lie groups]]:
+
+* [[Raoul Bott]], *The space of loops on a Lie group*, Michigan Math. J. **5** 1 (1958) 35-61 &lbrack;[doi:10.1307/mmj/1028998010](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-5/issue-1/The-space-of-loops-on-a-Lie-group/10.1307/mmj/1028998010.full)&rbrack;
+
+
 
 Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[MSpin^c|MSpin<sup><i>c</i></sup>]]$\to$[[KU]]:
 
