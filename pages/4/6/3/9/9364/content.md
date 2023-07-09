@@ -110,5 +110,13 @@ Polynomial monads as a "generalization of small categories" for homotopy theory 
 
 * [[Michael Batanin]], Florian De Leger; _Grothendieck's homotopy theory, polynomial monads and delooping of spaces of long knots_, 2017: [arxiv](https://arxiv.org/abs/1712.00904)
 
+The relation between polynomial monads, object classifiers, and models of (homotopy) type theory is studied in
+
+* [[Steve Awodey]],  _Natural models of homotopy type theory_, 2017: [arxiv](https://arxiv.org/abs/1406.3219)
+
+* [[Steve Awodey]], Clive Newstead; _Polynomial pseudomonads and dependent type theory_, 2018: [arxiv](https://arxiv.org/abs/1802.00997)
+
+* Clive Newstead; _Algebraic models of dependent type theory_, 2021: [arxiv](https://arxiv.org/abs/2103.06155)
+
 
 [[!redirects polynomial monads]]
