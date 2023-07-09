@@ -19,8 +19,21 @@ The operations on an [[H-space]] (such as a [[loop space]]) $X$ equip its [[homo
 
 ## Properties
 
+### Relation to Whitehead product
+ {#RelationToWhiteheadProduct}
+
+Under the [[Hurewicz homomorphism]], the [[commutator]] of the Pontrjagin product on homology is the [[Whitehead product]] on [[homotopy groups]] of a [[based loop space]] &lbrack;[Samelson (1953)](#Samelson53)&rbrack;
+
+### Homological group completion
+
 The homological version of 
 the _[[group completion theorem]]_ relates the [[Pontrjagin ring]] of a [[topological monoid]] $A$ to that of its [[group completion]] $\Omega B A$.
+
+### Relation to quantum cohomology
+ {#RelationToQuantumCohomology}
+
+The homology Pontrjagin product of certain [[compact Lie groups]] is identified with the [[quantum cohomology]] of corresponding [[flag varieties]] (see references [below](#ReferencesOnQuantumCohomologyAsPontrjaginRings)).
+
 
 ## Related concepts
 
@@ -44,7 +57,17 @@ see also:
 
 * [[Hans Samelson]], §3 in: *Beitr&auml;ge Zur Topologie der Gruppen-Mannigfaltigkeiten*, Annals of Mathematics, Second Series, **42** 5 (1941) 1091-1137 &lbrack;[jsotr:1970463](https://www.jstor.org/stable/1970463)&rbrack;
 
+Proof that the [[commutator]] of the Pontrjagin product is the [[Whitehead product]], under the [[Hurewicz homomorphism]]:
+
+* {#Samelson53} [[Hans Samelson]], *A Connection Between the Whitehead and the Pontryagin Product*, American Journal of Mathematics **75** 4 (1953) 744–752  &lbrack;[doi:10.2307/2372549](https://doi.org/10.2307/2372549)&rbrack;
+
+
 Further early discussion:
+
+* [[Raoul Bott]], *The space of loops on a Lie group*, Michigan Math. J. **5** 1 (1958) 35-61 &lbrack;[doi:10.1307/mmj/1028998010](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-5/issue-1/The-space-of-loops-on-a-Lie-group/10.1307/mmj/1028998010.full)&rbrack;
+
+  > (for loop spaces of [[Lie groups]])
+
 
 * [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America **46** 4 (1960) 543-545 &lbrack;[jstor:70867](https://www.jstor.org/stable/70867)&rbrack;
 
@@ -86,6 +109,9 @@ Computation of the Pontryagin products for (loop spaces of) [[flag manifolds]]:
 
 
 [[!include quantum cohomology as Pontrjagin rings -- references]]
+
+
+
 
 
 
