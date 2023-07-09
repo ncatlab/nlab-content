@@ -65,7 +65,8 @@ $$
 Lett. Math. Phys. 2 (1977/78), no. 2, 93&#8211;99, [MR473105](http://www.ams.org/mathscinet-getitem?mr=473105), [doi](http://dx.doi.org/10.1007/BF00398573)
 * Y. Flicker, [[D. Kazhdan]], G. Savin, _Explicit realization of a metaplectic representation_, J. Analyse Math. __55__ (1990), 17&#8211;39, [MR92c:22036](http://www.ams.org/mathscinet-getitem?mr=1094709), [doi](http://dx.doi.org/10.1007/BF02789195)
 
-* Gerald B. Folland, _Harmonic analysis in phase space_, Princeton Univ. Press 1989; ch. 4: Metaplectic representation
+* [[Gerald B. Folland]], Chapter 4 in: *A course in abstract harmonic analysis*, Studies in Advanced Mathematics. CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
+
 
 [[!redirects metaplectic representations]]
 
