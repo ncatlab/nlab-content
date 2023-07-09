@@ -77,12 +77,18 @@ $$
 $$
 This allows us to talk about the support of the spectral measure, i.e. the spectrum of $\mathcal{U}(\mathcal{T})$, as a subset of $\R^n$.
 
+## Related entries
+
+* [[projection measure]]
+
 ## References
 
-See also [[projection measure]].
 The theorem \ref{specmeasure} is theorem 4.44 in the following classic book:
 
-* Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Adv. Math. CRC Press 1995, [Zbl] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.43001&format=complete)
+* [[Gerald B. Folland]], *A course in abstract harmonic analysis*, Studies in Advanced Mathematics. CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
+
+See also:
+
 * A. A. Kirillov, A. D. Gvi&#353;iani, &#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1080; &#1079;&#1072;&#1076;&#1072;&#1095;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; (theorems and exercises in functional analysis), Moskva, Nauka 1979, 1988 
 
 [[!redirects spectral measures]]
