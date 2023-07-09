@@ -88,7 +88,7 @@ Disucssion of [[black holes in string theory]] via the topological string' [[Gop
 The following includes discussion of [[superstring]] [[string scattering amplitudes]] in terms of topological string scattering amplitudes (for review see [NeitzkeVafa04, section 6](#NeitzkeVafa04) and [Antoniadis-Hohenegger 07](#AntoniadisHohenegger07):
 
 
-* M. Bershadsky, S. Cecotti, [[Hirosi Ooguri]], [[Cumrun Vafa]], _Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes_, Commun.Math.Phys.165:311-428,1994 ([arXiv:hep-th/9309140](https://arxiv.org/abs/hep-th/9309140))
+* {#BCOV93} [[Michael Bershadsky]], [[Sergio Cecotti]], [[Hirosi Ooguri]], [[Cumrun Vafa]], *Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes*, Commun. Math. Phys. **165** (1994) 311-428 &lbrack;[arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140), [doi:10.1007/BF02099774](https://doi.org/10.1007/BF02099774)&rbrack;
 
 * I. Antoniadis, E. Gava, K.S. Narain, T.R. Taylor, _Topological Amplitudes in String Theory_, Nucl.Phys. B413 (1994) 162-184 ([arXiv:hep-th/9307158](http://xxx.lanl.gov/abs/hep-th/9307158))
 
