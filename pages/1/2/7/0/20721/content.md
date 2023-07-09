@@ -22,7 +22,15 @@ The operations on an [[H-space]] (such as a [[loop space]]) $X$ equip its [[homo
 ### Relation to Whitehead product
  {#RelationToWhiteheadProduct}
 
-Under the [[Hurewicz homomorphism]], the [[commutator]] of the Pontrjagin product on homology is the [[Whitehead product]] on [[homotopy groups]] of a [[based loop space]] &lbrack;[Samelson (1953)](#Samelson53)&rbrack;
+Under the [[Hurewicz homomorphism]], the [[commutator]] of the Pontrjagin product on homology is the [[Whitehead product]] on [[homotopy groups]] of a [[based loop space]]. 
+
+This is due to [Samelson (1953)](#Samelson53) and for higher Whitehead brackets due to [Arkowitz (1971)](#Arkowitz71). 
+
+In fact, in [[characteristic zero]] the [[Pontrjagin ring]] is the [[universal enveloping algebra]] of the Whitehead bracket Lie algebra &lbrack;[Milnor & Moore (1965) Appendix](#MilnorMoore65)&rbrack;.
+
+For review see [Whitehead (1978) Thm. X.7.10](#Whitehead78).
+
+
 
 ### Homological group completion
 
@@ -61,6 +69,14 @@ Proof that the [[commutator]] of the Pontrjagin product is the [[Whitehead produ
 
 * {#Samelson53} [[Hans Samelson]], *A Connection Between the Whitehead and the Pontryagin Product*, American Journal of Mathematics **75** 4 (1953) 744–752  &lbrack;[doi:10.2307/2372549](https://doi.org/10.2307/2372549)&rbrack;
 
+and in [[characteristic zero]]:
+
+* {#MilnorMoore65} [[John Milnor]], [[John Moore]], Appendix (pp. 262) of: _On the structure of Hopf algebras_, Annals of Math. __81__ (1965) 211-264 &lbrack;[doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf)&rbrack;
+
+and for higher Whitehead brackets:
+
+* {#Arkowitz71} [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
+
 
 Further early discussion:
 
@@ -73,13 +89,9 @@ Further early discussion:
 
 * [[William Browder]], p. 36 of: *Torsion in H-Spaces*, Annals of Mathematics, Second Series **74** 1 (1961) 24-51  &lbrack;[jstor:1970305](https://www.jstor.org/stable/1970305)&rbrack;
 
-* [[John W. Milnor]], [[John C. Moore]], Appendix (pp. 262) of: *On the Structure of Hopf Algebras*, Annals of Mathematics, Second Series, **81** 2 (1965) 211-264 &lbrack;[jstor:1970615](https://www.jstor.org/stable/1970615)&rbrack;
-
 * [[William Browder]], *Homology Rings of Groups*, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
 
-In relation to [[Whitehead products]]:
 
-* [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
 
 In the context of [[string topology]]:
 
@@ -88,7 +100,11 @@ In the context of [[string topology]]:
 * Gwénaël Massuyeau, [[Vladimir Turaev]], *Brackets in the Pontryagin algebras of manifolds*, Mém. Soc. Math. France **154** (2017) &lbrack;[arXiv:1308.5131](https://arxiv.org/abs/1308.5131)&rbrack;
 
 
-Textbook account:
+Textbook accounts:
+
+
+* {#Whitehead78} [[George W. Whitehead]], p. 98 in: *Elements of Homotopy Theory*, Springer (1978) &lbrack;[doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0)&rbrack;
+
 
 * {#Hatcher02} [[Allen Hatcher]], §3.C, pp. 287 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
