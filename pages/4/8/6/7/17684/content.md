@@ -47,6 +47,10 @@ Relation to [[picture changing operators]]:
 
 * Andrei Mikhailov, Dennis Zavaleta, _Geometrical framework for picture changing operators in the pure spinor formalism_ ([arXiv:2003.13995](https://arxiv.org/abs/2003.13995))
 
+On pure spinors in [[supergravity]]:
+
+* [[Martin Cederwall]], *Pure spinors in classical and quantum supergravity*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.06141](https://arxiv.org/abs/2210.06141)&rbrack;
+
 
 Relating the [[D'Auria-Fré formulation of supergravity]] to pure spinor-formalism:
 
