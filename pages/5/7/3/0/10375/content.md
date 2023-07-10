@@ -17,22 +17,26 @@
 
 This entry collects links related to the textbook
 
-* [[Vladimir Arnold]], 
+* [[Vladimir Arnold]]:
 
-  _Mathematical methods of classical mechanics_, 
+  \linebreak
 
-  Graduate texts in Mathematics 60 
+  **Mathematical methods of classical mechanics**
 
-  Springer (1989).
+  \linebreak
 
-on [[classical mechanics]] ([[physics]]) formulated precisely in [[mathematics]] and in particular in terms of [[symplectic geometry]].
+  Graduate Texts in Mathematics **60** 
 
-Later textbooks and lecture notes that pick up this perspective and develop if further include
+  Springer (1989)
 
-* [[Alan Weinstein]], _Lectures on Symplectic Manifolds_, volume 29 of CBMS Regional Conf. Series in Math. Amer. Math. Soc., 1983. third 
-printing.
-  {#Weinstein83}
+  [doi:10.1007/978-1-4757-1693-1](https://doi.org/10.1007/978-1-4757-1693-1)
 
+on [[classical mechanics|classical]] [[Hamiltonian mechanics]] formulated via [[symplectic geometry]] (the [[phase space]] regarded as a [[symplectic manifold]]).
+
+Later textbooks and lecture notes that pick up this perspective and further develop it in the context of [[geometric quantization]]:
+
+*  {#Weinstein83} [[Alan Weinstein]], _Lectures on Symplectic Manifolds_, volume 29 of CBMS Regional Conf. Series in Math. Amer. Math. Soc., 1983. third  printing.
+ 
 * Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_
 
 category: reference
