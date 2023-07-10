@@ -25,4 +25,7 @@ A [[commutative ring]] is Cohen-Macaulay iff it is a [[Cohen-Macaulay module]] a
 ## References 
 
 * Wikipedia, _[Cohen-Macaulay ring](https://en.wikipedia.org/wiki/Cohen%E2%80%93Macaulay_ring)_
-* _Cohen-Macaulay Rings_,  Winfried Bruns, Jürgen Herzog, Cambridge University Press (1993)
+* Winfried Bruns, Jürgen Herzog, _Cohen-Macaulay Rings_, Cambridge University Press (1993)
+* Ch. 18 of [[David Eisenbud]], _Commutative algebra with a view toward algebraic geometry_, Graduate Texts in Mathematics __150__
+
+category: algebra
