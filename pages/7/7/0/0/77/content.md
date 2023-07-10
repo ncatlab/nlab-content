@@ -254,7 +254,7 @@ Textbook accounts:
 
 * {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
-
+* [[Peter Woit]], Ch. 5 of *Quantum Theory, Groups and Representations: An Introduction*, Springer 2017 &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
 
 Discussion with a view towards [[Chern-Weil theory]]: 
 
