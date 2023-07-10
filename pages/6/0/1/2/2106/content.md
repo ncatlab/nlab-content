@@ -60,9 +60,10 @@ Discussion from the point of view of [[homological algebra]] of [[abelian sheave
 
 * C. Viterbo, _An introduction to symplectic topology through sheaf theory_ (2010) ([pdf](http://www.math.polytechnique.fr/cmat/viterbo/Eilenberg/Eilenberg.pdf))
 
-The notion of symplectic geometry may be understood as the mathematical structure that underlies the physics of [[Hamiltonian mechanics]]. A classical monograph that emphasizes this point of view is
+The notion of symplectic geometry may be understood as the mathematical structure that underlies the physics of [[Hamiltonian mechanics]]. A classical monograph that emphasizes this point of view:
 
-* [[Vladimir Arnold]], _[[Mathematical methods of classical mechanics]]_ 
+* [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate Texts in Mathematics **60**, Springer (1978) &lbrack;[doi:10.1007/978-1-4757-1693-1](https://doi.org/10.1007/978-1-4757-1693-1)&rbrack;
+
 
 For more on this see [[Hamiltonian mechanics]]. 
 
