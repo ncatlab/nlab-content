@@ -55,6 +55,8 @@ When the base category is set to be the category of [[optics (in computer scienc
 
 * [[lens (in computer science)]]
 
+* The Para construction is closely related to the "monoidal indeterminates" construction of [Hermida and Tennent]({#HermidaTennent2012}). Hermida and Tennent consider a monoidal functor $j:\mathbf{\Sigma}\to \mathcal{C}$ and provide a monoidal bicategory $\mathcal{C}(\mathbf{x}:j)$ and ordinary monoidal category $\mathcal{C}[\mathbf{x}:j]$. 
+The morphisms $X\to Y$ in $\mathcal{C}(\mathbf{x}:j)$ are pairs $(w,f)$ where $w$ is in $\mathbf{\Sigma}$ and $f:X\otimes j(w)\to Y$ in $\mathcal{C}$.
 
 ## References
 
@@ -65,3 +67,5 @@ When the base category is set to be the category of [[optics (in computer scienc
 * {#Capucci2020} Matteo Capucci, [[Bruno Gavranović]], [[Jules Hedges]], Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
 
 * {#Cruttwell2021} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+
+* {#HermidaTennent2012} [[Claudio Hermida]], [[Robert Tennent]]. Monoidal indeterminates and categories of possible worlds. Theoretical Computer Science vol 430. 2012. Preliminary version in MFPS 2009. [https://doi.org/10.1016/j.tcs.2012.01.001](https://doi.org/10.1016/j.tcs.2012.01.001)
