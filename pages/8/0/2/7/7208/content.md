@@ -84,7 +84,7 @@ Letters in Mathematical Physics **83** (2008) Issue 2, pp 139-148, doi:[10.1007/
 As far as applications this is the most important class. 
 See $n$Lab entry [[affine Lie algebra]] and 
 
-* David Hernandez, _An introduction to affine Kac-Moody algebras_ ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
+* [[David Hernandez]], _An introduction to affine Kac-Moody algebras_ ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
 
 ### In supergravity
 
@@ -95,8 +95,7 @@ The following references discuss aspects of the Kac-Moody [[exceptional geometry
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
-* Daniel Persson, Nassiba Tabti, _Lectures on Kac-Moody Algebras with
-Applications in (Super-)Gravity_ ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Rencontres/KMModaveLectures2007.pdf))
+* Daniel Persson, Nassiba Tabti, _Lectures on Kac-Moody algebras with applications in (Super-)Gravity_ ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Rencontres/KMModaveLectures2007.pdf))
  
 
 [[!redirects Kac-Moody algebras]]
