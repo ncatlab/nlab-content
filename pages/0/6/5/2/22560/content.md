@@ -32,7 +32,9 @@ If there is a specified object $I$, and natural isomorphisms $\lambda_A:\colon A
 
 ## Examples
 
-For example, [[monoidal categories]] such as [[braided monoidal categories]], [[symmetric monoidal categories]], [[cartesian monoidal categories]], [[cocartesian monoidal categories]], and [[rig categories]] are all magma categories. 
+For example, [[monoidal categories]] such as [[braided monoidal categories]], [[symmetric monoidal categories]], [[cartesian monoidal categories]], [[cocartesian monoidal categories]], and [[rig categories]] are all magmoidal categories. 
+
+Every [[magma]] is a [[discrete category|discrete]] magmoidal category. 
 
 An [[Ackermann groupoid]] is a particular sort of [[poset]] that is magmoidal (where 'groupoid' is here a synonym for '[[magma]]').
 
@@ -46,7 +48,9 @@ An [[Ackermann groupoid]] is a particular sort of [[poset]] that is magmoidal (w
 
 * [[magmoid]]
 
-## Reference
+## References
+
+* [[David Roberts]], *Substructural fixed-point theorems and the diagonal argument: theme and variations*, ([arXiv:2110.00239](https://arxiv.org/abs/2110.00239))
 
 The concept seems to first be named in
 
