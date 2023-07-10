@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
+
 This is a book entry for 
 
 * [[Leon A. Takhtajan]]:
@@ -16,7 +28,7 @@ This is a book entry for
 
   chapters 1 & 2: [pdf](http://www.ams.org/bookstore/pspdf/gsm-95-prev.pdf)
 
-  MAA [review](http://wwwdev.maa.org/maa%20reviews/1155.html)
+  [MAA review](https://www.maa.org/press/maa-reviews/quantum-mechanics-for-mathematicians)
 
 on [[quantum mechanics]] in [[mathematical physics]].
 
