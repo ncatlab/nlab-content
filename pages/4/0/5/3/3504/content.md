@@ -34,6 +34,8 @@ As well, the application of science and math to the theory of human perception o
 
 * [[acoustics]]
 
+* [[pitch-class]]
+
 ## Links 
 
 * John Baez: _This Week's Finds (Week 234)_, June 12, 2006. ([link](http://math.ucr.edu/home/baez/week234.html))
