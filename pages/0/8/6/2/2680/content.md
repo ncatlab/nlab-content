@@ -121,6 +121,11 @@ $n$ vortices on the sphere as finite dimensional limit of 2D [[equation of motio
 
 Named after [[William Rowan Hamilton]].
 
-A motivation for formulating Hamiltonian mechanics in terms of symplectic manifolds can be found in
+Formulation in [[symplectic geometry]]:
+
+* [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate Texts in Mathematics **60**, Springer (1978) &lbrack;[doi:10.1007/978-1-4757-1693-1](https://doi.org/10.1007/978-1-4757-1693-1)&rbrack;
+
+A motivation for formulating Hamiltonian mechanics in terms of [[symplectic manifolds]]:
 
  * Henry Cohn, _[Why symplectic geometry is the natural setting for classical mechanics ](http://math.mit.edu/~cohn/Thoughts/symplectic.html)_
+
