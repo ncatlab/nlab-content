@@ -548,6 +548,9 @@ Similarly, the [[homotopy category of an (infinity,1)-category|homotopy category
 
 * [[triangulated categories of sheaves]], [[Bondal-Orlov reconstruction theorem]]
 
+* [[triangulated subcategory]], [[full triangulated subcategory]], [[periodic triangulated category]]
+
+
 ## References
 
 The concept orignates in the thesis 
