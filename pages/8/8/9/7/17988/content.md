@@ -141,22 +141,25 @@ Unitarity, causality and stability in Asymptotic Safety:
 
 * Alessia Platania _Causality, unitarity and stability in quantum gravity: a non-perturbative perspective_ ([arXiv:2206.04072](https://arxiv.org/abs/2206.04072))
 
-On [[black holes]] in the context of asymptotic safety:
+Review on early-universe cosmology in the context of asymptotic safety:
+
+* Alessia Platania, *From renormalization group flows to cosmology*, Front.in Phys. 8 (2020) 188 &lbrack;[arXiv:2003.13656](https://arxiv.org/abs/2003.13656)&rbrack;
+
+Review on [[black holes]] in the context of asymptotic safety:
 
 * Alessia Platania, *Black Holes in Asymptotically Safe Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.04272](https://arxiv.org/abs/2302.04272)&rbrack;
-
 
 Relation to String Theory:
 
 * Senarath de Alwis, et al. _Asymptotic safety, string theory and the weak gravity conjecture_ ([arXiv:1907.07894](https://arxiv.org/abs/1907.07894))
 
-* Ivano Basile, Alessia Platania _Cosmological α′-corrections from the functional renormalization group_ ([arXiv:2101.02226](https://arxiv.org/abs/2101.02226))
+* Ivano Basile, Alessia Platania, _Cosmological α′-corrections from the functional renormalization group_ ([arXiv:2101.02226](https://arxiv.org/abs/2101.02226))
 
-* Ivano Basile, Alessia Platania _String tension between de Sitter vacua and curvature corrections_ ([arXiv:2103.06276](https://arxiv.org/abs/2103.06276))
+* Ivano Basile, Alessia Platania, _String tension between de Sitter vacua and curvature corrections_ ([arXiv:2103.06276](https://arxiv.org/abs/2103.06276))
 
-* Ivano Basile, Alessia Platania _Asymptotic Safety: Swampland or Wonderland?_ ([arXiv:2107.06897](https://arxiv.org/abs/2107.06897))
+* Ivano Basile, Alessia Platania, _Asymptotic Safety: Swampland or Wonderland?_ ([arXiv:2107.06897](https://arxiv.org/abs/2107.06897))
 
-* Fei Gao, Masatoshi Yamada _Determining holographic wave functions from Wilsonian renormalization group_ ([arXiv:2202.13699](https://arxiv.org/abs/2202.13699))
+* Fei Gao, Masatoshi Yamada, _Determining holographic wave functions from Wilsonian renormalization group_ ([arXiv:2202.13699](https://arxiv.org/abs/2202.13699))
 
 * Renata Ferrero, [[Martin Reuter]], *On the possibility of a novel (A)dS/CFT relationship emerging in Asymptotic Safety* &lbrack;[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)&rbrack;
 
