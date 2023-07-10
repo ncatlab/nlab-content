@@ -16,5 +16,10 @@ On [[string scattering amplitudes]] via [[AdS/CFT]] and the [[conformal bootstra
 
 * {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
 
+On [[AdS3/CFT2]] and relating to [[random matrix theory]]:
+
+* Gabriele Di Ubaldo, [[Eric Perlmutter]], *$AdS_3/RMT_2$ Duality* &lbrack;[arXiv:2307.03707](https://arxiv.org/abs/2307.03707)&rbrack;
+
+
 
 category: people
