@@ -174,6 +174,11 @@ More recent developments include
 
 * Behnam Pourhassan, Mubasher Jamil, Mir Faizal, _Black Remnants from T-Duality_ ([arXiv:1912.09235](https://arxiv.org/abs/1912.09235))
 
+See also:
+
+* Nejc Čeplak, Roberto Emparan, Andrea Puhm, Marija Tomašević, *The correspondence between rotating black holes and fundamental strings* &lbrack;[arXiv:2307.03573](https://arxiv.org/abs/2307.03573)&rbrack;
+
+
 
 ###  BPS black holes in $AdS_5/CFT_4$ duality
 
