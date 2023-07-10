@@ -162,6 +162,10 @@ See also:
 
 * Bruno Balthazar, Amit Giveon, David Kutasov, Emil J. Martinec, *Asymptotically Free AdS3/CFT2* ([arXiv:2109.00065](https://arxiv.org/abs/2109.00065))
 
+Relating to [[random matrix theory]]:
+
+* Gabriele Di Ubaldo, [[Eric Perlmutter]], *$AdS_3/RMT_2$ Duality* &lbrack;[arXiv:2307.03707](https://arxiv.org/abs/2307.03707)&rbrack;
+
 
 
 [[!include AdS3-CFT2 on D1-D5 branes -- references]]
