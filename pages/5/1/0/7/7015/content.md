@@ -1,4 +1,11 @@
-Lax equation is used in [[integrable system]]s; namely some systems are equivalent to the Lax equation. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The *Lax equation* is a general kind of [[equation]] controlling [[integrable systems]].
 
 __Lax equation__ is a linear [[ordinary differential equation]] of the form
 $$
@@ -18,6 +25,10 @@ $$
 M L \psi = M \lambda \psi = \lambda M \psi = \lambda \frac{d \psi}{d t} = \frac{d (\lambda\psi)}{d t} = \frac{d (L\psi)}{d t} = \frac{d L}{d t} \psi + L \frac{d \psi}{d t} = \frac{d L}{d t} \psi + L M\psi
 $$
 
-* Peter Lax, _Integrals of nonlinear equation of evolution and solitary waves_, Commun. on Pure and Applied Mathematics __21__:5, 467&#8211;490, 1968 [doi](http://dx.doi.org/10.1002/cpa.3160210503)
+## References
+
+* [[Peter Lax]], *Integrals of nonlinear equation of evolution and solitary waves*, Commun. on Pure and Applied Mathematics __21__ 5 (1968) 467-490 &lbrack;[doi:10.1002/cpa.3160210503](http://dx.doi.org/10.1002/cpa.3160210503)&rbrack;
+
+
 [[!redirects Lax equations]]
 [[!redirects Lax pair]]
