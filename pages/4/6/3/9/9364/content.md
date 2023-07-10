@@ -116,10 +116,9 @@ The relation between polynomial monads, object classifiers, and models of (homot
 
 * [[Steve Awodey]], Clive Newstead; _Polynomial pseudomonads and dependent type theory_, 2018: [arxiv](https://arxiv.org/abs/1802.00997)
 
-* Clive Newstead, *Algebraic models of dependent type theory* (2021) &lbrack;[arxiv:2103.06155](https://arxiv.org/abs/2103.06155), [pdf](https://www.math.cmu.edu/~cnewstea/thesis-clive-newstead.pdf)&rbrack;
+* Clive Newstead, _Algebraic models of dependent type theory_, 2021: [arxiv](https://arxiv.org/abs/2103.06155)
 
-  > (context of [[categorical semantics of dependent types]] and [[natural models of homotopy type theory]])
-
+* [[Steve Awodey]], _Algebraic type theory_, [slides from HoTT 2023](https://hott.github.io/HoTT-2023/slides/awodey.pdf)
 
 
 [[!redirects polynomial monads]]
