@@ -57,6 +57,10 @@ Further developments:
 
 * Viraj Meruliya, [[Sunil Mukhi]], Palash Singh, _Poincaré Series, 3d Gravity and Averages of Rational CFT_ ([arXiv:2102.03136](https://arxiv.org/abs/2102.03136))
 
-* [[Scott Collier]], [[Lorenz Eberhardt]], [[Mengyang Zhang]], *3d gravity and Chern-Simons theory -- references* &lbrack;[arXiv:2304.13650](https://arxiv.org/abs/2304.13650)&rbrack;
+* [[Scott Collier]], [[Lorenz Eberhardt]], [[Mengyang Zhang]], *3d gravity and Chern-Simons theory -- references* $[$[arXiv:2304.13650](https://arxiv.org/abs/2304.13650)$]$
+
+See also:
+
+* Nathan Benjamin, Scott Collier, Alexander Maloney, *Pure Gravity and Conical Defects*, Journal of High Energy Physics **2020** 34 (2020) $[$[arXiv:2004.14428](https://arxiv.org/abs/2004.14428), <a href="https://doi.org/10.1007/JHEP09(2020)034">doi:10.1007/JHEP09(2020)034</a>$]$
 
 
