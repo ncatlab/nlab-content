@@ -93,17 +93,25 @@ Canonical references on Hall algebras include the following.
 * [[Tobias Dyckerhoff]], _Higher categorical aspects of Hall Algebras_, In: Herbera D., Pitsch W., Zarzuela S. (eds) Building Bridges Between Algebra and Topology. Advanced Courses in Mathematics - CRM Barcelona. Birkhäuser 2015 [arXiv:1505.06940](https://arxiv.org/abs/1505.06940) [doi](https://doi.org/10.1007/978-3-319-70157-8_1)
 
 * [[Mauro Porta]], Francesco Salla, _Two-dimensional categorified Hall algebras_, J. Eur. Math. Soc. __25__:3 (2023) 1113-1205 [doi](https://doi.org/10.4171/jems/1303)
+* J. Xiao, _Drinfeld double and Ringel-Green theory of Hall algebras_, J Algebra __190__ (1997) 100--144 [Zbl0874.16026](https://zbmath.org/0874.16026)
+* J. Xiao, F. Xu, _Hall algebras associated to triangulated categories_, Duke Math. J. 143 (2) (2008) 357--373
+
+A realization of (Drinfeld-Jimbo) [[quantum group]]s via a "Bridgeland" version of Hall algebra,
+
+* [[Tom Bridgeland]], _Quantum groups via Hall algebras of complexes_, Ann of Math __177__ (2) (2013) 739--759
+
+
 
 Motivic Hall algebras:
 
-* {#Bridgeland10} [[Tom Bridgeland]], _An introduction to motivic Hall algebra_ ([arXiv:1002.4372](http://arxiv.org/abs/1002.4372))
+* {#Bridgeland10} [[Tom Bridgeland]], _An introduction to motivic Hall algebra_ ([arXiv:1002.4372](https://arxiv.org/abs/1002.4372))
 
-* {#KontsevichSoibelman08} [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_ ([arXiv:0811.2435](http://arxiv.org/abs/0811.2435))
+* {#KontsevichSoibelman08} [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_ ([arXiv:0811.2435](https://arxiv.org/abs/0811.2435))
 
-* [[Kontsevich|M. Kontsevich]], [[Yan Soibelman|Y. Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [arxiv/0910.4315](http://arxiv.org/abs/0910.4315)
+* [[Kontsevich|M. Kontsevich]], [[Yan Soibelman|Y. Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [arXiv/0910.4315](https://arxiv.org/abs/0910.4315)
 
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arxiv/1006.2706](http://arxiv.org/abs/1006.2706)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological Hall algebra, exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arXiv/1006.2706](https://arxiv.org/abs/1006.2706)
 
 
 [[!redirects Hall algebras]]
