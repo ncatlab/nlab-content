@@ -77,6 +77,14 @@ and for higher Whitehead brackets:
 
 * {#Arkowitz71} [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
 
+Refinement to algebra structure on the [[singular chain complex]] (Adams-Hilton model):
+
+* [[John F. Adams]], [[Peter J. Hilton]], *On the chain algebra of a loop space*, Commentarii Mathematici Helvetici **30** (1956) 305–330 &lbrack;[doi:10.1007/BF02564350](https://doi.org/10.1007/BF02564350)&rbrack;
+
+reviewed and further developed in:
+
+* [[Kathryn Hess]], [[Paul-Eugène Parent]], [[Jonathan Scott]], [[Andrew Tonks]], *A canonical enriched Adams-Hilton model for simplicial sets*, Advances in Mathematics **207** 2 (2006) 847-875 &lbrack;[doi:10.1016/j.aim.2006.01.013](https://doi.org/10.1016/j.aim.2006.01.013), [arXiv:math/0408216](https://arxiv.org/abs/math/0408216)&rbrack;
+
 
 Further early discussion:
 
@@ -159,6 +167,7 @@ Computation of the Pontryagin products for (loop spaces of) [[flag manifolds]]:
 [[!redirects Peterson isomorphism]]
 [[!redirects Peterson isomorphisms]]
 
-
+[[!redirects Adams-Hilton model]]
+[[!redirects Adams-Hilton models]]
 
 
