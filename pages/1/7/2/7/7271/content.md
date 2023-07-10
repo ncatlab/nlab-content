@@ -20,6 +20,11 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 ## Selected writings
 
+Introducing the [[Adams-Hilton model]] for the [[Pontrjagin ring]]-structure on the [[ordinary homology|homology]] of a [[based loop space]], refined to the [[singular chain complex]]:
+
+* [[John F. Adams]], [[Peter J. Hilton]], *On the chain algebra of a loop space*, Commentarii Mathematici Helvetici **30** (1956) 305–330 &lbrack;[doi:10.1007/BF02564350](https://doi.org/10.1007/BF02564350)&rbrack;
+
+
 On [[stable homotopy theory]] and [[generalized (Eilenberg-Steenrod) cohomology]]:
 
 * [[John Frank Adams]], *[[Stable homotopy and generalized homology]]*, Chicago Lectures in Mathematics, The University of Chicago Press (1974) &lbrack;[ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html), [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf)&rbrack;
@@ -53,3 +58,8 @@ On [[Lie groups]]:
 category: people
 
 [[!redirects John Adams]]
+
+[[!redirects John F. Adams]]
+[[!redirects J. Frank Adams]]
+[[!redirects J. F. Adams]]
+
