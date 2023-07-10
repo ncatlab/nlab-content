@@ -58,6 +58,9 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 ## References
 
+* Nathan Benjamin, Scott Collier, Alexander Maloney, *Pure Gravity and Conical Defects*, Journal of High Energy Physics **2020** 34 (2020) &lbrack;[arXiv:2004.14428](https://arxiv.org/abs/2004.14428), <a href="https://doi.org/10.1007/JHEP09(2020)034">doi:10.1007/JHEP09(2020)034</a>&rbrack;
+
+
 [[!include 3d gravity and Chern-Simons theory -- references]]
 
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
