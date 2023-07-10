@@ -484,6 +484,8 @@ On the example of [[Grothendieck abelian categories]]:
 
 * {#Beke00} [[Tibor Beke]], *Sheafifiable homotopy model categories*, Math. Proc. Cambridge Philosophical Society **129** 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](https://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack;
 
+* {#Bird82} [[Greg Bird]], _Limits in 2-Categories of Locally-Presentable Categories [pdf](http://maths.mq.edu.au/~street/BirdPhD.pdf)&rbrack;
+
 * {#Krause15} [[Henning Krause]], _Deriving Auslander's formula_, Documenta Math. **20** (2015) 669-688 &lbrack;[arXiv:1409.7051](https://arxiv.org/abs/1409.7051)&rbrack;
 
 
