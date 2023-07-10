@@ -17,7 +17,7 @@ Matrix factorizations were introduced by [[David Eisenbud]], and they were origi
 
 Matrix factorizations arise in [[string theory]] as categories of [[D-branes]] for [[Landau-Ginzburg model|Landau-Ginzburg]] [[B-model]]s. This was proposed by Kontsevich and elaborated in the paper of Kapustin-Li.
 
-Matrix factorizations have also been used by Khovanov-Rozansky in knot theory [math/0401268](http://arxiv.org/abs/math/0401268).
+Matrix factorizations have also been used by Khovanov-Rozansky in knot theory [math/0401268](https://arxiv.org/abs/math/0401268).
 
 __Matrix factorization categories__ are examples of [[Calabi-Yau categories]], hence correspond to [[TCFT]]s by the Costello/Kontsevich/Hopkins-Lurie theorem. The Calabi-Yau structure is elucidated in recent work of Dyckerhoff-Murfet and Polishchuk-Vaintrob.
 
@@ -39,15 +39,15 @@ Note that if $(\phi,\psi)$ is a matrix factorization of $x$, then $x$ annihilate
 
 ## Literature
 
-* [[David Eisenbud]], _Homological algebra on a complete intersection, with an application to group representations_, Trans. Amer. Math. Soc. __260__:3564 (1980) [doi](https://doi.org/10.1090/S0002-9947-1980-0570778-7)
+* [[David Eisenbud]], _Homological algebra on a complete intersection, with an application to group representations_, Trans. Amer. Math. Soc. __260__:35-64 (1980) [doi](https://doi.org/10.1090/S0002-9947-1980-0570778-7)
 
 * [[Tobias Dyckerhoff]], _Compact generators in the categories of matrix factorizations_,  Duke Math. J. 159(2): 223-274 (2011) [doi](https://doi.org/10.1215/00127094-1415869) [arXiv:0904.4713](https://arxiv.org/abs/0904.4713)
 
 The definition of a [[triangulated category]] of B-branes for the [[Landau-Ginzburg model]] via [[matrix factorization]] was proposed by [[Maxim Kontsevich]] and is written out in
 
-* [[Anton Kapustin]], Yi Li, _D-Branes in Landau-Ginzburg Models and Algebraic Geometry_ ([arXiv:hep-th/0210296](http://arxiv.org/abs/hep-th/0210296))
+* [[Anton Kapustin]], Yi Li, _D-Branes in Landau-Ginzburg models and algebraic geometry_ (arXiv:[hep-th/0210296](https://arxiv.org/abs/hep-th/0210296))
 
-* {#Orlov} [[Dmitri Orlov]], _Triangulated categories of singularities and D-branes in Landau-Ginzburg models_, Proc. Steklov Inst. Math. 2004, no. 3 (246), 227--248 ([arXiv:math/0302304](http://arxiv.org/abs/math/0302304))
+* {#Orlov} [[Dmitri Orlov]], _Triangulated categories of singularities and D-branes in Landau-Ginzburg models_, Proc. Steklov Inst. Math. 2004, no. 3 (246), 227--248 ([arXiv:math/0302304](https://arxiv.org/abs/math/0302304))
 
 * [[Dmitri Orlov]], _Derived categories of coherent sheaves and triangulated categories of singularities_, Algebra, arithmetic, and geometry: in honor of Yu. I. Manin. Vol. II, 503--531, Progr. Math. __270__, Birkh&#228;user 2009 arXiv:[math.AG/0503632](https://arxiv.org/abs/math.ag/0503632)
 
@@ -67,7 +67,7 @@ See also
 * [[Alexander Polishchuk]], _Homogeneity of cohomology classes associated with Koszul matrix factorizations_, Compositio Math. __152__ (2016) 2071--2112
 [doi](https://doi.org/10.1112/S0010437X16007557) [arXiv:1409.7115](https://arxiv.org/abs/1409.7115)
 
-* A. Efimov, L. Positselski, _Coherent analogues of matrix factorizations and relative singularity categories_, Algebra & Number Theory __9__ (2015) 1159--1292 [doi](https://doi.org/10.2140/ant.2015.9.1159)
+* [[Alexander Efimov]], [[Leonid Positselski]], _Coherent analogues of matrix factorizations and relative singularity categories_, Algebra & Number Theory __9__ (2015) 1159--1292 [doi](https://doi.org/10.2140/ant.2015.9.1159)
 
 On a connection to the representation theory of loop groups and families of Dirac operators (and the [[string 2-group]]) 
 
