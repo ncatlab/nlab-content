@@ -260,8 +260,9 @@ Classical textbooks:
 
 * [[Tom W. B. Kibble]], [[Frank Berkshire]], *Classical mechanics*, McGraw-Hill (1966, 1973, 2004) &lbrack;[pdf](https://physicaeducator.files.wordpress.com/2018/02/classical-mechanics-by-kibble-and-berkshire.pdf), <a href="https://en.wikipedia.org/wiki/Classical_Mechanics_(Kibble_and_Berkshire)">Wikipedia entry</a>&rbrack;
 
-* [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate texts in Mathematics 60 (1978)
+* [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate Texts in Mathematics **60**, Springer (1978) &lbrack;[doi:10.1007/978-1-4757-1693-1](https://doi.org/10.1007/978-1-4757-1693-1)&rbrack;
 
+ 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
 * [[Lev Landau]], [[Evgeny Lifshitz]], _Classical mechanics_, vol. I of the *[[Course of Theoretical Physics]]*
