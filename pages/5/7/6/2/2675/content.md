@@ -8,6 +8,7 @@
 
 * biography at MacTutor [history of math archive](http://www-history.mcs.st-andrews.ac.uk/Biographies/Arnold.html)
 
+
 ## Selected writings
 
 On the [[real cohomology]] of [[configuration spaces of points]]:
@@ -31,7 +32,14 @@ On methods of [[topology]] and [[homotopy theory]] in [[hydrodynamics]]:
 
 * [[Vladimir Arnold]], [[Boris Khesin]], _Topological methods in hydrodynamics_, Applied Mathematical Sciences __125__, Springer 1998 ([doi:10.1007/b97593](https://link.springer.com/book/10.1007/b97593))
 
-On teaching [[mathematics]] informed by [[physics]]:
+
+
+On [[mathematics]] and its relation to [[physics]]:
+
+* {#Arnold95} [[Vladimir I. Arnold]], *Will mathematics survive? Report on the Zurich Congress*, The Mathematical Intelligencer **17** (1995) 6–10 &lbrack;[doi:10.1007/BF03024363](https://doi.org/10.1007/BF03024363)&rbrack;
+
+  > "At the beginning of this century a self-destructive democratic principle was advanced in mathematics &lbrack;which&rbrack; led mathematicians to break from physics and to separate from all other sciences. In the eyes of all normal people, they were transformed into a sinister priestly caste of a dying religion, like Druids, parasitic on science and technology, recruiting acolytes in the mathematical schools by Zombie-like mental subjection. Bizarre questions like [[Fermat's last theorem|Fermat's problem]] or problems on sums of prime numbers were elevated to supposedly central problems of mathematics."
+
 
 * {#Arnold98} [[Vladimir I. Arnold]], *On teaching mathematics*, Russ. Math. Surv. **53** 1 (1998) 229 &lbrack;[doi:10.1070/RM1998v053n01ABEH000005](https://iopscience.iop.org/article/10.1070/RM1998v053n01ABEH000005), [web](https://www.math.fsu.edu/~wxm/Arnold.htm)&rbrack;
 
@@ -47,8 +55,6 @@ On teaching [[mathematics]] informed by [[physics]]:
 
   > A teacher of mathematics who has not got to grips with at least some of the volumes of the [[Course of Theoretical Physics|course]] by Landau and Lifshitz will then become a relic like the person nowadays who does not know the difference between an open and a closed set."
 
-
-Further on [[mathematics]]:
 
 * {#Arnold00} [[Vladimir I. Arnold]], *Polymathematics: Is mathematics a single science  or a set of arts?*, in: [[Vladimir Arnold|V. Arnold]], [[Peter Lax|P. Lax]], [[Barry Mazur|B. Mazur]] (eds.), *Mathematics: Frontiers and Perspectives*, AMS (2000) 403-416 &lbrack;[ISBN: 	978-0-8218-2697-3](https://bookstore.ams.org/mfp), [pdf](https://math.ucr.edu/home/baez/Polymath.pdf)&rbrack;
 
