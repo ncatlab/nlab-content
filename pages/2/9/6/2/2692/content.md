@@ -20,6 +20,12 @@ On [[rational homotopy theory]]:
 
 * {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
+On the [[Adams-Hilton model]] for the [[Pontrjagin ring]]-structure on the [[singular chain complex]] of a [[based loop space]]:
+
+* [[Kathryn Hess]], [[Paul-Eugène Parent]], [[Jonathan Scott]], [[Andrew Tonks]], *A canonical enriched Adams-Hilton model for simplicial sets*, Advances in Mathematics **207** 2 (2006) 847-875 &lbrack;[doi:10.1016/j.aim.2006.01.013](https://doi.org/10.1016/j.aim.2006.01.013), [arXiv:math/0408216](https://arxiv.org/abs/math/0408216)&rbrack;
+
+
+
 On [[model categories]] of [[coalgebras over a comonad]] via left-[[transferred model category|left transfer]] (left-induction):
 
 * [[Kathryn Hess]], [[Brooke Shipley]], *The homotopy theory of coalgebras over a comonad*, Proceedings of the London Mathematical Society **108** 2 (2014) &lbrack;[arXiv:1205.3979](https://arxiv.org/abs/1205.3979), [doi:10.1112/plms/pdt038](https://doi.org/10.1112/plms/pdt038)&rbrack;
