@@ -175,6 +175,9 @@ and more generally for [[compact Lie groups]]:
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
+In the context of [[quantum mechanics]]:
+
+* [[Peter Woit]], *Quantum Theory, Groups and Representations: An Introduction*, Springer 2017 &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
 
 Discussion via [[string diagrams]]/[[Penrose notation]]:
 
