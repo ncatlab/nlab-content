@@ -5,17 +5,18 @@
 
 * [thesis (Bangor, 1993)](https://groupoids.org.uk/pdffiles/tonksthesis.pdf)
 
-## related $n$Lab entries
-
-* [[Eilenberg-Zilber theorem]]
-
-* [[homotopy BV-algebra]]
 
 ## Selected writings
 
 On [[cohomology]] of [[monoids in monoidal categories]] (specifically in [[distributive monoidal categories]]):
 
 * [[Hans-Joachim Baues]], [[Mamuka Jibladze]], [[Andy Tonks]], *Cohomology of monoids in monoidal categories*, in: *Operads: Proceedings of Renaissance Conferences*, Contemporary Mathematics **202**, AMS (1997) 137-166 &lbrack;[doi:10.1090/conm/202](https://doi.org/10.1090/conm/202), preprint:[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/1484/1/preprint_1995_121.pdf)&rbrack;
+
+
+On the [[Adams-Hilton model]] for the [[Pontrjagin ring]]-structure on the [[singular chain complex]] of a [[based loop space]]:
+
+* [[Kathryn Hess]], [[Paul-Eugène Parent]], [[Jonathan Scott]], [[Andrew Tonks]], *A canonical enriched Adams-Hilton model for simplicial sets*, Advances in Mathematics **207** 2 (2006) 847-875 &lbrack;[doi:10.1016/j.aim.2006.01.013](https://doi.org/10.1016/j.aim.2006.01.013), [arXiv:math/0408216](https://arxiv.org/abs/math/0408216)&rbrack;
+
 
 See also:
 
@@ -30,6 +31,13 @@ See also:
 * Imma G&#225;lvez, [[Vassily Gorbounov]], Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], Andrew Tonks, _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
+
+## Related entries
+
+* [[Eilenberg-Zilber theorem]]
+
+* [[homotopy BV-algebra]]
+
 
 category: people
 
