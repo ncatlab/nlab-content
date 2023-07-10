@@ -18,3 +18,5 @@ In a 1959 article with Buchsbaum they proved the [[Auslander-Buchsbaum theorem]]
 * [[Maurice Auslander]], David A. Buchsbaum, _Unique factorization in regular local rings,_ Proc. Nat. Acad. Sci. __45__ (5): 733-734 (1959) [doi](https://doi.org/10.1073/pnas.45.5.733) [MR0103906](https://mathscinet.ams.org/mathscinet-getitem?mr=0103906)
 
 category: people
+
+[[!redirects David Alvin Buchsbaum]]
