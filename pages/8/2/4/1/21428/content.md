@@ -98,6 +98,10 @@ Description in terms of [[topological strings]] on [[twistor space]]:
 
 * [[Kevin Costello]], [[Natalie M. Paquette]], [[Atul Sharma]], *Burns space and holography* &lbrack;[arXiv:2306.00940](https://arxiv.org/abs/2306.00940)&rbrack;
 
+See also:
+
+* Niklas Garner, [[Natalie M. Paquette]], *Twistorial monopoles & chiral algebras* &lbrack;[arXiv:2305.00049](https://arxiv.org/abs/2305.00049)&rbrack;
+
 
 [[!redirects celestial holography]]
 
