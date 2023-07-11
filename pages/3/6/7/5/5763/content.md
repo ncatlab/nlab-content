@@ -1000,100 +1000,121 @@ Above is discussed the notion of Bohr topos given by [[covariant functors]] on t
 
 Alternatively one can explore the situation for [[contravariant functors]] on the [[poset of commutative subalgebras]] ([Isham-D&#246;ring 07](#IshamDoering07)).  The resulting [[presheaf topos]] then does not directly contain the given $C^\ast$-algebra, but by [[Gelfand duality]], does directly contain an internal [[locale]] which is its [[Gelfand spectrum]]. This is called the "[[spectral presheaf]]". 
 
+
+
 ## Related concepts
 
 * [[quantum logic]]
 
 [[!include states and observables -- content]]
 
+
+
+
 ## References
  {#References}
 
 The assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" is in
 
-* {#Bohr49} [[Nils Bohr]],  _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
+* {#Bohr49} [[Nils Bohr]],  *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.) *Albert Einstein, Philosopher-Scientist* (Evanston: Library of Living Philosophers) (1949) 201-241 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack;
 
-> _however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms_ . 
+  > "however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms."
 
 [[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed further in
 
-* {#Scheibe} Erhard Scheibe, _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
+* {#Scheibe} Erhard Scheibe, _The logical analysis of quantum mechanics_, Oxford: Pergamon Press (1973)
 
 
 For more see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
 
 Maybe the first article to propose to use [[intuitionistic logic]]/[[topos theory]] for the description of quantum physics is
 
-* Murray Adelman, John Corbett, _A Sheaf Model for Intuitionistic Quantum Mechanics_ Appl. Cat. Struct. 3: 79-104. 1995
+* Murray Adelman, John Corbett, *A Sheaf Model for Intuitionistic Quantum Mechanics*, Appl. Cat. Struct. **3**  (1995) 79-104 &lbrack;[doi:10.1007/BF00872949](https://doi.org/10.1007/BF00872949)&rbrack;
 
-The term _Bohrification_ and the investigations associated with it are initiated in
+The term _Bohrification_ and the investigations associated with it were initiated in
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification of operator algebras and quantum logic_ ([arXiv:0905.2275](http://arxiv.org/abs/0905.2275))
-  {#HeunenLandsmanSpitters09}
+* {#HeunenLandsmanSpitters09} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification of operator algebras and quantum logic_, Synthese **186** 3 (2012) 719-752 &lbrack;[arXiv:0905.2275](http://arxiv.org/abs/0905.2275), [doi;10.1007/s11229-011-9918-4](https://doi.org/10.1007/s11229-011-9918-4)&rbrack;
+  
 
 See also
 
-* {#HLSDeep} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_, in: _Deep Beauty_ Cambridge University Press(2009) ([arXiv:0909.3468](http://arxiv.org/abs/0909.3468))
+* {#HLSDeep} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_, in: *Deep Beauty -- Understanding the Quantum World through Mathematical Innovation*, Cambridge University Press (2009) 271-314 &lbrack;[arXiv:0909.3468](http://arxiv.org/abs/0909.3468), [doi:10.1017/CBO9780511976971.008](https://doi.org/10.1017/CBO9780511976971.008)&rbrack;
   
 
-* {#Landsman17} [[Klaas Landsman]], Section 12 of: _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
+* {#Landsman17} [[Klaas Landsman]], Section 12 of: _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
 
 
 The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initiated in 
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]] _A topos for algebraic quantum theory_, Comm. Math. Phys. 291:63--110, 2009, ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364), [doi](http://dx.doi.org/10.1007/s00220-009-0865-6))
+* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]] _A topos for algebraic quantum theory_, Comm. Math. Phys. **291**  (2009) 63-110 &lbrack;[arXiv:0709.4364](http://arxiv.org/abs/0709.4364), [doi:10.1007/s00220-009-0865-6](http://dx.doi.org/10.1007/s00220-009-0865-6)&rbrack;
 
 with some results in section 5 and 6 of 
 
-* Martijn Caspers, _Gelfand spectra of $C^*$-algebras in topos theory_ ([pdf](http://www.math.ru.nl/~landsman/scriptieMartijn.pdf))
+* Martijn Caspers, _Gelfand spectra of $C^*$-algebras in topos theory_, MSc thesis, Nijmegen (2008) &lbrack;[pdf](http://www.math.ru.nl/~landsman/scriptieMartijn.pdf), [[Caspers-GelfandSpectra.pdf:file]]&rbrack;
 
 and completed in 
 
-* Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_ ([arXiv:1010.2031](http://arxiv.org/abs/1010.2031))
+* Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_, Comm. Math. Phys. **317** (2013) 3–53 &lbrack;[arXiv:1010.2031](http://arxiv.org/abs/1010.2031), [doi:10.1007/s00220-012-1652-3](https://doi.org/10.1007/s00220-012-1652-3)&rbrack;
 
 An complete outline of the full proof is given in 
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_, [arxiv:1010.2050](http://arxiv.org/abs/1010.2050)
- {#HLSW}
+* {#HLSW} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_, Journal of the Australian Mathematical Society **90** (2011) 39-52 &lbrack;[arxiv:1010.2050](http://arxiv.org/abs/1010.2050), [doi:10.1017/S1446788711001157](https://doi.org/10.1017/S1446788711001157)&rbrack;
+ 
 
 Applications and examples for $A$ a [[matrix]] algebra are discussed in 
 
-* Martijn Caspers, [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Intuitionistic Quantum Logic of an $n$-level System_ ([pdf](http://www.math.ru.nl/~landsman/CHLS.pdf))
+* Martijn Caspers, [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Intuitionistic Quantum Logic of an $n$-level System_, Foundations of Physics **39** 7 (2009) 731-759 &lbrack;[arXiv:0902.3201](https://arxiv.org/abs/0902.3201), [doi:10.1007/s10701-009-9308-7](https://doi.org/10.1007/s10701-009-9308-7)&rbrack;
 
 The [[functor|functoriality]] of Bohrification is observed in 
 
-* [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_ ([arXiv:1003.3618](http://arxiv.org/abs/1003.3618))
- {#vdBergHeunen}
+* {#vdBergHeunen} [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_, Applied Categorical Structures **20** 4 (2012) 393-414 &lbrack;[arXiv:1003.3618](http://arxiv.org/abs/1003.3618), [doi:10.1007/s10485-011-9246-3](https://doi.org/10.1007/s10485-011-9246-3)&rbrack;
+ 
 
 The application of the [[double negation topology]] to make Bohrification coincide with ordinary [[Gelfand duality]] on commutative $C^*$-algebras is discussed in 
 
-* [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_ in Cooper, Kashefi, Panangaden (eds.) _Developments in computational models_ (DCM 2010)([arXiv:1006.1432](http://arxiv.org/abs/1006.1432))
-{#Spitters06}
+* {#Spitters06} [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_, EPTCS **26** (2010) 127-133 &lbrack;[arXiv:1006.1432](http://arxiv.org/abs/1006.1432), [doi:10.4204/EPTCS.26.12](https://doi.org/10.4204/EPTCS.26.12)&rbrack;
 
-The generalization of Bohrification from [[quantum mechanics]] to [[quantum field theory]] ([[AQFT]]) is discussed in
+
+The generalization of Bohrification from [[quantum mechanics]] to [[quantum field theory]] ([[AQFT]]):
 
 * {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218
-([arXiv:1109.1397](http://arxiv.org/abs/1109.1397))
+&lbrack;[arXiv:1109.1397](http://arxiv.org/abs/1109.1397)&rbrack;
 
 
 The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos over the [[poset of commutative subalgebras]] (there taken to be [[presheaves]] instead of [[copresheaves]]) is due to
 
-* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. 37(11):2669--2733, 1998, [MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557), [doi](http://dx.doi.org/10.1023/A:1026680806775); _II. conceptual aspects and classical analogues_ Int. J. of Theor. Phys. 38(3):827--859, 1999, [MR2000f:81012](http://www.ams.org/mathscinet-getitem?mr=1697983), [doi](http://dx.doi.org/10.1023/A:1026652817988); _III. Von Neumann algebras as the base category_, Int. J. of Theor. Phys. 39(6):1413--1436, 2000, [arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020), [MR2001k:81016](http://www.ams.org/mathscinet-getitem?mr=1788498),[doi](http://dx.doi.org/10.1023/A:1003667607842); _IV. Interval valuations_, Internat. J. Theoret. Phys. __41__ (2002), no. 4, 613&#8211;639, [MR2003g:81009](http://www.ams.org/mathscinet-getitem?mr=1902067), [doi](http://dx.doi.org/10.1023/A:1015276209768) 
+* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. **37** 11 (1998) 2669-2733 &lbrack;[MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557), [doi:10.1023/A:1026680806775](http://dx.doi.org/10.1023/A:1026680806775)&rbrack; 
 
-* {#IshamDoering07} [[Andreas Döring]], [[Chris Isham]], _A Topos Foundation for Theories of Physics_  ([arXiv:quant-ph/0703060](http://arxiv.org/abs/quant-ph/0703060), [arXiv:quant-ph/0703062](http://arxiv.org/abs/quant-ph/0703062), [arXiv:quant-ph/0703066](http://arxiv.org/abs/quant-ph/0703066))
+  _II. conceptual aspects and classical analogues_ Int. J. of Theor. Phys. **38**  3 (1999) 827-859 &lbrack;[MR2000f:81012](http://www.ams.org/mathscinet-getitem?mr=1697983), [doi:10.1023/A:1026652817988](http://dx.doi.org/10.1023/A:1026652817988)&rbrack;
+
+  _III. Von Neumann algebras as the base category_, Int. J. of Theor. Phys. **39** 6 (2000) 1413-1436 &lbrack;[arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020), [MR2001k:81016](http://www.ams.org/mathscinet-getitem?mr=1788498),[doi:10.1023/A:1003667607842](http://dx.doi.org/10.1023/A:1003667607842)&rbrack; 
+
+  _IV. Interval valuations_, Internat. J. Theoret. Phys. __41__ 4 (2002) 613-639 &lbrack;[MR2003g:81009](http://www.ams.org/mathscinet-getitem?mr=1902067), [doi](http://dx.doi.org/10.1023/A:1015276209768)&rbrack; 
+
+* {#IshamDoering07} [[Andreas Döring]], [[Chris Isham]], _A Topos Foundation for Theories of Physics_  
+
+  *I. Formal Languages for Physics*, J. Math. Phys. **49** (2008) 053515 &lbrack;[arXiv:quant-ph/0703060](http://arxiv.org/abs/quant-ph/0703060), [doi:10.1063/1.2883740](https://doi.org/10.1063/1.2883740)&rbrack;
+
+
+  *II. Daseinisation and the Liberation of Quantum Theory*, J. Math. Phys. **49** (2008) 053516
+  &lbrack;[arXiv:quant-ph/0703062](http://arxiv.org/abs/quant-ph/0703062), [doi:10.1063/1.2883742](https://doi.org/10.1063/1.2883742)&rbrack;
+
+  *III. The Representation of Physical Quantities With Arrows*, J. Math. Phys. **49** (2008) 053517 &lbrack;[arXiv:quant-ph/0703064](https://arxiv.org/abs/quant-ph/0703064), [doi:10.1063/1.2883777](https://doi.org/10.1063/1.2883777)&rbrack;
+
+  *IV. Categories of Systems*, J. Math. Phys. **49** (2008) 053518 &lbrack;[arXiv:quant-ph/0703066](http://arxiv.org/abs/quant-ph/0703066), [doi:10.1063/1.2883826](https://doi.org/10.1063/1.2883826)&rbrack;
   
 
 Discussion of aspects of the process of [[quantization]] in terms of Bohr toposes is in 
 
-* Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ ([arXiv:1109.1192](http://arxiv.org/abs/1109.1192))
+* Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ &lbrack;[arXiv:1109.1192](http://arxiv.org/abs/1109.1192)&rbrack;
 
 A variant of the Bohr topos construction meant to take more of the topology of the underlying $C^\ast$-algebra into account has been suggested for finite-dimensional $C^\ast$-algebra in 
 
-* Guillaume Raynaud, _Fibred contextual quantum physics_, PhD thesis, University of Birmingham, 2014. ([web](http://www.cs.bham.ac.uk/~sjv/grpage.php))
+* Guillaume Raynaud, _Fibred contextual quantum physics_, PhD thesis, University of Birmingham, 2014. &lbrack;[web](http://www.cs.bham.ac.uk/~sjv/grpage.php)&rbrack;
 
 and generalized to arbitrary $C^\ast$-algebras in 
 
-* [[Simon Henry]], _A Geometric Bohr topos_ ([arXiv:1502.01896](https://arxiv.org/abs/1502.01896))
+* [[Simon Henry]], _A Geometric Bohr topos_ &lbrack;[arXiv:1502.01896](https://arxiv.org/abs/1502.01896)&rbrack;
 
 [[!redirects Bohr topos]]
 [[!redirects Bohr toposes]]
