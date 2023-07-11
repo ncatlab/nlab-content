@@ -68,7 +68,7 @@ that sends pitches to their respective pitch-classes, so that the [[fiber]] of $
 
 According to the theory of forms and denotators due to [Mazzola (2012)](#Mazzola12), we may denote a pitch-class formally using the following notation,
 \[ 
-  n 
+  thisPitchClass
     \;\colon\; 
   0_\mathbb{Z} 
     \rightsquigarrow 
