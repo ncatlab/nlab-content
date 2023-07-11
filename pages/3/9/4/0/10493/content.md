@@ -219,6 +219,8 @@ see ([Lurie, def. 1.4.2.8 and around p. 823](#HigherAlg))
 
 * [[model structure for n-excisive functors]]
 
+
+
 ## References
 
 The notion of $n$-excisive functors was introduced in 
@@ -227,12 +229,12 @@ The notion of $n$-excisive functors was introduced in
 
 The [[Taylor tower]] formed by $n$-excisive functors was then studied in
 
-* {#Goodwillie03} [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
+* {#Goodwillie03} [[Thomas Goodwillie]], *Calculus III: Taylor Series*, Geom. Topol. **7** (2003) 645-711 &lbrack;[arXiv:math/0310481](http://arxiv.org/abs/math/0310481), [doi:10.2140/gt.2003.7.645](https://doi.org/10.2140/gt.2003.7.645)&rbrack;
  
 
 See also 
 
-* {#Rezk08} [[Charles Rezk]], _A streamlined proof of Goodwillie's $n$-excisive approximation_ ([arXiv:0812.1324](http://arxiv.org/abs/0812.1324))
+* {#Rezk08} [[Charles Rezk]], *A streamlined proof of Goodwillie's $n$-excisive approximation*, Algebr. Geom. Topol. **13** (2013) 1049-1051 &lbrack;[arXiv:0812.1324](http://arxiv.org/abs/0812.1324), [doi:10.2140/agt.2013.13.1049](https://doi.org/10.2140/agt.2013.13.1049)&rbrack;
 
 A discussion in the general abstract context of [[(∞,1)-category theory]] is in  
 
