@@ -257,7 +257,7 @@ a [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor
 
 =--
 
-This may be deduced fairly abstractly from the [above](#InTermsOfProfunctors) description of Day convolution in terms of profunctors, using the associativity of the promonoidal structure on $\mathcal{C}$.  
+This may be deduced fairly abstractly from the [above](#InTermsOfProfunctors) description of Day convolution in terms of profunctors, using the associativity of the promonoidal structure on $\mathcal{C}$. It of course also holds when $\mathcal{C}$ is only [[promonoidal category|promonoidal]], as shown in [Day70](#Day70) and [Day's thesis](#Day70Thesis).
 
 
 +-- {: .num_prop #DayMonoidalStructureIsClosed}
@@ -448,7 +448,6 @@ $$
 
 
 
-
 ### Monoids with respect to Day convolution
  {#Monoids}
 
@@ -508,8 +507,11 @@ satisfying analogous conditions. This is just the structure of a [[monoid object
 
 Similarly for [[module objects]] and [[modules over monoidal functors]].
 
+
 =--
 
+\begin{remark}\label{rmk:promonoidal functors as monoids} This page primarily addresses the Day convolution monoidal structure on $[\mathcal{C}^{op},\mathcal{V}]$ when $\mathcal{C}$ is monoidal or promonoidal and [[enriched]] over $\mathcal{V}$. This monoidal structure "convolves" the respective structures of $\mathcal{C}$ and $\mathcal{V}$. One might ask if one can convolve the monoidal structures of two promonoidal categories in general. In other words, is it possible to equip the functor category $[\mathcal{C},\mathcal{D}]$, for promonoidal categories $\mathcal{C}$ and $\mathcal{D}$, with a convolution monoidal structure? The literature does not seem to give a definite answer to this question in general. However, in the case that $\mathcal{D}$ is [[closed monoidal category|biclosed]] there is a monoidal convolution structure on $[\mathcal{C},\mathcal{D}]$ as shown in Proposition 5.4 of [Day74](#Day74). In this special situation, the [[monoid]] objects of $[\mathcal{C},\mathcal{D}]$ are precisely the promonoidal functors $\mathcal{C}\to\mathcal{D}$ (Remark 2.2 of [Day77](#Day77)), where $\mathcal{D}$ obtains a promonoidal structure from its monoidal structure by Theorem 4.1 of [Day70](#Day70).
+\end{remark}
 
 +-- {: .num_example}
 ###### Example
@@ -773,13 +775,17 @@ See also at _[[functor with smash products]]_.
 ## References
  {#References}
 
-The concept originates in
+The concept, and many of its basic properties, originates in several works of Brian day, including:
+
+
+* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, PhD thesis. School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
 
 * {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/DayReport.pdf)),
 
-as well as in Day's thesis
+* {#Day74} [[Brian Day]], _On closed categories of functors II_, Category Seminar, Sydney 1972/73, Springer Lecture Notes, Vol. 420, 20-53.
 
-* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, PhD thesis. School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
+* {#Day77} [[Brian Day]], _Promonoidal functor categories_, J. Austral. Math. Soc. 23 (Series A) (1977), 312-328.
+
 
 (Note that some unproven statements in [(Day's report)](#Day70) are proved in [(Day's thesis)](#Day70Thesis) and vice versa.)
 
