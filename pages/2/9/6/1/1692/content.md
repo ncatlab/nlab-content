@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # The Chu construction
 
 * table of contents
@@ -17,44 +16,73 @@
 
 ## Idea
 
-In [[category theory]], the _Chu construction_ is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of [[Michael Barr]], who gave the construction in his master's thesis at McGill University. It has been extensively developed by [[Vaughan Pratt]] for its potential applications in [[computer science|Theoretical Computer Science]].
+In [[category theory]], the _Chu construction_ is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of [[Michael Barr]], who gave the construction in his master's thesis at McGill University. It has been extensively developed by [Pratt (1999)](#Pratt99) for its potential applications in [[computer science|Theoretical Computer Science]].
 
-In outline, given a closed symmetric monoidal category $C$ with [[pullback]]s and an object $d$ of $C$, there is a star-autonomous category $Chu(C, d)$ and a strong symmetric monoidal functor 
+In outline, given a [[closed symmetric monoidal category]] $C$ with [[pullbacks]] and an [[object]] $d$ of $C$, there is a [[star-autonomous category]] $Chu(C, d)$ and a [[strong monoidal functor|strong]] [[symmetric monoidal functor]]
 
-$$i: C \to Chu(C, d)$$
+$$
+  i 
+  \;\colon\; 
+  C 
+    \longrightarrow 
+  Chu(C, d)
+$$
 
-which realizes $C$ as a [[coreflective subcategory]] of $Chu(C, d)$. Being star-autonomous, $Chu(C, d)$ is self-dual, hence $C^{op}$ also embeds as a full subcategory of $Chu(C, d)$, this time [[reflective subcategory|reflectively]]. 
+which realizes $C$ as a [[coreflective subcategory]] of $Chu(C, d)$. Being star-autonomous, $Chu(C, d)$ is self-dual, in that its [[opposite category]] $C^{op}$ also embeds as a full subcategory of $Chu(C, d)$, this time [[reflective subcategory|reflectively]]. 
 
-Many concrete dualities in mathematics can be seen as embedded in a larger ambient self-duality on a Chu construction. This applies in particular to the category of _Chu spaces_, $Chu(Set, 2)$ (see below).
+Many [[concrete dualities]] in mathematics can be seen as embedded in a larger ambient self-duality on a Chu construction. This applies in particular to the category of _Chu spaces_, $Chu(Set, 2)$ (see below).
 
-This construction may be [[categorified]] to what might be called a **2-Chu construction**, producing for example $Chu(Cat, Set)$ (see [Shulman17](#Shulman17)).  It also generalizes to a [[double Chu construction]] and to operations on [[multicategories]] and [[polycategories]].
+Th Chu construction may be [[categorified]] to what might be called a **2-Chu construction**, producing for example $Chu(Cat, Set)$ (see [Shulman17](#Shulman17)).  It also generalizes to a [[double Chu construction]] and to operations on [[multicategories]] and [[polycategories]].
 
 
 ## Definition ## 
 
 ### As a category with self-duality
 
-Let $C$ be a closed symmetric monoidal category and $d\in C$ an object.  The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $\rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
+Let $C$ be a [[closed symmetric monoidal category]] and $d\in C$ an [[object]].  The objects of $Chu(C, d)$ are [[triples]] $(a, b; r \,\colon\, a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a [[morphism]] of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $\rho$ is an instance of the canonical isomorphism (the right [[unitor]]) for the [[monoidal unit]] $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
 
 The morphisms of $Chu(C, d)$, 
 
-$$(a, b; r: a \otimes b \to d) \to (x, y; s: x \otimes y \to d),$$
+$$
+  (a, b; r \,\colon\, a \otimes b \to d) 
+   \longrightarrow 
+  (x, y; s: x \otimes y \to d)
+  \,,
+$$
 
-are pairs of morphisms $f: a \to x$, $g: y \to b$ which are adjoint with respect to the pairings, that is, making the diagram 
+are pairs of morphisms $f \colon a \to x$, $g \colon y \to b$ which are adjoints with respect to the pairings, that is, making the following [[commuting diagram|diagram commute]]:
 
 $$\array{
- & a \otimes y & \overset{1_a \otimes g}{\to} & a \otimes b\\
-f \otimes 1_y & \downarrow & & \downarrow r\\
-& x \otimes y & \overset{s}{\to} & d
-}$$
+  & a \otimes y & 
+  \overset{1_a \otimes g}{\longrightarrow} 
+  & a \otimes b
+  \\    
+  & 
+    {{}^{\mathllap{f \otimes 1_y}}}
+    \Big\downarrow 
+      & & 
+    \Big\downarrow{\mathrlap{{}^r}}
+  \\
+  & 
+    x \otimes y & \underset{\;\; s \;\;}{\longrightarrow} 
+  & 
+  d
+  \mathrlap{\,,}
+}
+$$
 
-commute. There is an evident self-duality 
+There is an evident self-duality [[functor]]
 
 $$Chu(C, d)^{op} \to Chu(C, d)$$ 
 
-which takes an object $(a, b; r: a \otimes b \to d)$ to 
+which takes an object $(a, b; r \,\colon\, a \otimes b \longrightarrow d)$ to 
 
-$$(b, a; r^\dagger = [b \otimes a \overset{\sigma}{\cong} a \otimes b \overset{r}{\to} d])$$ 
+$$
+  \big(
+    b, a; r^\dagger = [b \otimes a \overset{\sigma}{\cong} a \otimes b \overset{r}{\to} d]
+  \big)
+  \,,
+$$ 
 
 where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows make the functor contravariant on $Chu(C, d)$.
 
@@ -74,13 +102,24 @@ should be the object of adjoint pairs of maps: given
 
 $$A = (a, b; r: a \otimes b \to d), \qquad X = (x, y; s: x \otimes y \to d)$$ 
 
-define the first component as pullback: 
+define the first component as [[pullback]]: 
 
-$$\array{
-(A \multimap X)_0 & \to & x^a \\
-\downarrow & & \downarrow \tilde{s} \\
-b^y & \overset{\tilde{r}}{\to} & d^{a \otimes y}
-}$$
+$$
+  \array{
+    (A \multimap X)_0 
+      & \longrightarrow & 
+    x^a 
+    \\
+    \Big\downarrow 
+      & & 
+    \Big\downarrow\mathrlap{{}^{\tilde{s}}}  
+    \\
+    b^y 
+      & \underset{\tilde{r}}{\longrightarrow} & 
+   d^{a \otimes y}
+   \mathrlap{\,,}
+}
+$$
 
 where exponentials are used to denote internal homs in $C$, $\tilde{r}$ is the result of [[currying]] $r$ to $b \to d^a$ and exponentiating, and similarly for $\tilde{s}$. 
 
@@ -185,10 +224,19 @@ is effected by lifting the object $\mathbf{2}$ of $C$ to a $D$-algebra structure
 
 The point is that in each of these situations, a Stone duality is a restriction of the more global duality on Chu spaces, in that the diagram 
 
-$$\array{
- C^{op} & \overset{hom(-, \mathbf{2})}{\to} & D \\
-i^{op} \downarrow & & \downarrow i \\
-Chu(Set, 2)^{op} & \overset{(-)^*}{\to} & Chu(Set, 2)
+$$
+  \array{
+    C^{op} 
+      & \overset{hom(-, \mathbf{2})}{\longrightarrow} & 
+    D 
+    \\
+    \mathllap{{}^{i^{op}}}\Big\downarrow 
+      & & 
+    \Big\downarrow\mathrlap{{}^{i}}  
+    \\
+    Chu(Set, 2)^{op} 
+      & \underset{(-)^*}{\longrightarrow} & 
+    Chu(Set, 2)
 }$$ 
 
 (where the vertical arrows are full embeddings as described above) commutes up to canonical isomorphism. 
@@ -235,20 +283,32 @@ As a special case of this universal property, if all the $\ast$-polycategories a
 * [[ternary frame]]
 * [[multivariable adjunction]]
 
+
 ## References ##
 
-* A nice post by [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
-* Pratt, [Chu Spaces](http://boole.stanford.edu/pub/coimbra.pdf)
-* [[Michael Barr]], [The Chu construction: history of an idea](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf), in TAC 17 (2006-2007), special volume, _Chu spaces: theory and applications_.
+* {#Pavlovic97} [[Duško Pavlović]], *Chu I: cofree equivalences, dualities and $\ast$-autonomous categories*, Mathematical Structures in Computer Science **7** 1 (1997) 49-73 &lbrack;[doi:10.1017/S0960129596002046](https://doi.org/10.1017/S0960129596002046)&rbrack;
+
+* {#Pratt99} [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
+
+* {#BarrTobAb} [[Michael Barr]], *On duality of topological abelian groups*, &lbrack;[pdf](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)&rbrack;
+
+* [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
+
+* [[Vaughan Pratt]], *Linear process algebra*, in: *Distributed Computing and Internet Technology ICDCIT 2011*,  Lecture Notes in Computer Science **6536**, Springer (2011) &lbrack;[doi:10.1007/978-3-642-19056-8_6](https://doi.org/10.1007/978-3-642-19056-8_6), [pdf](http://boole.stanford.edu/pub/bhub.pdf)&rbrack;
+
+  > (uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency)
+
+
+Review and further pointers:
+
+* [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
+
+* Wikipedia, *[Chu space](https://en.wikipedia.org/wiki/Chu_space)*
+
 * [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
 
-* [[Vaughan Pratt]], *Linear process algebra*, [pdf](http://boole.stanford.edu/pub/bhub.pdf), uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency.
 
-* {#Pavlovic97} Duško Pavlović, _Chu I: cofree equivalences, dualities and $\ast$-autonomous categories_, [doi](https://doi.org/10.1017/S0960129596002046)
-
-* {#BarrTobAb} Michael Barr, On duality of topological abelian groups, [PDF](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)
-
-For categorifications and generalizations, see 
+On [[categorifications]] and generalizations:
 
 * {#Shulman17} Mike Shulman, _The 2-Chu Construction_, ([blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
 
