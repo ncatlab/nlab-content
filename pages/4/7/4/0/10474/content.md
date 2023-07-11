@@ -1,5 +1,11 @@
 
-* [webpage](http://www.home.uni-osnabrueck.de/gbiederm/)
+* [institute page](https://www.uninorte.edu.co/web/departamento-de-matematicas-y-estadistica/profesores)
+
+* [old home page](https://www.math.univ-paris13.fr/~biedermann/)
+
+* [old home webpage](http://www.home.uni-osnabrueck.de/gbiederm/)
+
+
 
 ## Selected writings
 
@@ -14,5 +20,11 @@ Proving the [[Blakers-Massey theorem]] in any [[(infinity,1)-topos|$(\infty,1)$-
 
 * {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
 
+
+## Related entries
+
+* [[Joyal locus]]
+
+* [[tangent (infinity,1)-topos|tangent $\infty$-topos]] 
 
 category: people
