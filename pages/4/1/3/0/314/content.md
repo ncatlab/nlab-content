@@ -1,25 +1,25 @@
 
-> This entry is about the notion of "limit" in [[category theory]]. For the notion of the same name in [[analysis]] and [[topology]] see at _[[limit of a sequence]]_.
+> This entry is about the notion of "limit" in [[category theory]]. For the notion of the same name in [[analysis]] and [[topology]] see _[[limit of a sequence]]_ and _[[limit of a function]]_.
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -583,3 +583,15 @@ Textbook accounts:
 [[!redirects limits]]
 [[!redirects limit functor]]
 [[!redirects limit functors]]
+
+[[!redirects limit of a functor]]
+[[!redirects limits of a functor]]
+[[!redirects limits of functors]]
+
+[[!redirects limit of a cofunctor]]
+[[!redirects limits of a cofunctor]]
+[[!redirects limits of cofunctors]]
+
+[[!redirects limit of a diagram]]
+[[!redirects limits of a diagram]]
+[[!redirects limits of diagrams]]
