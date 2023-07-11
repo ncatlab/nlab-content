@@ -3,6 +3,14 @@
 
 ## Selected writings
 
+On [[classical structures]] in the [[quantum information theory via dagger-compact categories]] and their graphical formalization in the [[ZX-calculus]]:
+
+
+* [[Aleks Kissinger]], *Graph Rewrite Systems for Classical Structures in $\dagger$-Symmetric Monoidal Categories*, MSc thesis, Oxford (2008) &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/Aleks.pdf), [[Kissinger-CLassicalStructures.pdf:file]]&rbrack;
+
+* [[Aleks Kissinger]], *Exploring a Quantum Theory with Graph Rewriting and Computer Algebra*, in: *Intelligent Computer Mathematics. CICM 2009*, Lecture Notes in Computer Science **5625** (2009) 90-105 &lbrack;[doi:10.1007/978-3-642-02614-0_12](https://doi.org/10.1007/978-3-642-02614-0_12)&rbrack;
+
+
 On [[quantum information theory via dagger-compact categories]]:
 
 * [[Bob Coecke]], [[Aleks Kissinger]], *Picturing Quantum Processes -- A First Course in Quantum Theory and Diagrammatic Reasoning*, Cambridge University Press (2017) &lbrack;[ISBN:9781107104228](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/picturing-quantum-processes-first-course-quantum-theory-and-diagrammatic-reasoning?format=HB&isbn=9781107104228)&rbrack;
