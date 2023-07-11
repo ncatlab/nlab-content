@@ -47,11 +47,26 @@ Generalization to [[quantum operations]] on [[mixed states]] ([[completely posit
 * [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], 
 *Categories of Quantum and Classical Channels*, EPTCS **158** (2014) 1-14 $[$[arXiv:1408.0049](https://arxiv.org/abs/1408.0049), [doi:10.4204/EPTCS.158.1](https://doi.org/10.4204/EPTCS.158.1)$]$
 
-Formalization of [[quantum measurement]] via [[Frobenius algebra]]-[[structures]]:
+Formalization of [[quantum measurement]] via [[Frobenius algebra]]-[[structures]] ("[[classical structures]]"):
 
 * {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], *Quantum measurements without sums*, in [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 $[$[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)$]$
 
+* [[Bob Coecke]], [[Eric Oliver Paquette]], *POVMs and Naimark's theorem without sums*, Electronic Notes in Theoretical Computer Science **210** (2008) 15-31 $[$[arXiv:quant-ph/0608072](https://arxiv.org/abs/quant-ph/0608072), [doi:10.1016/j.entcs.2008.04.015](https://doi.org/10.1016/j.entcs.2008.04.015)$]$
+
+* [[Bob Coecke]], [[Eric Oliver Paquette]], [[Duško Pavlović]], *Classical and quantum structuralism* $[$[arXiv:0904.1997](https://arxiv.org/abs/0904.1997)$]$
+
 * [[Bob Coecke]], [[Duško Pavlović]], [[Jamie Vicary]],  *A new description of orthogonal bases*, Mathematical Structures in Computer Science **23** 3 (2012) 555- 567 $[$[arXiv:0810.0812](https://arxiv.org/abs/0810.0812), [doi:10.1017/S0960129512000047](https://doi.org/10.1017/S0960129512000047)$]$
+
+and the evolution of the "[[classical structures]]"-monad into the "spider"-ingredient of the [[ZX-calculus]]:
+
+* {#CoeckeDuncan08} [[Bob Coecke]], [[Ross Duncan]], §3 in: *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) $[$[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)$]$
+
+* [[Aleks Kissinger]], §§2 in: *Graph Rewrite Systems for Classical Structures in $\dagger$-Symmetric Monoidal Categories*, MSc thesis, Oxford (2008) $[$[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/Aleks.pdf), [[Kissinger-CLassicalStructures.pdf:file]]$]$
+
+* [[Aleks Kissinger]], §4 in: *Exploring a Quantum Theory with Graph Rewriting and Computer Algebra*, in: *Intelligent Computer Mathematics. CICM 2009*, Lecture Notes in Computer Science **5625** (2009) 90-105 $[$[doi:10.1007/978-3-642-02614-0_12](https://doi.org/10.1007/978-3-642-02614-0_12)$]$
+
+* {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], Def. 6.4 in: *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
+
  
 Textbook accounts (with background on relevant [[monoidal category|monoidal]] [[category theory]]):
 
