@@ -164,6 +164,9 @@ A perspective unifying EM-duality of [[higher gauge theories]]  with [[non-abeli
 
 * [[Ján Pulmann]], [[Pavol Ševera]], [[Fridrich Valach]], _A non-abelian duality for (higher) gauge theories_ ([arXiv:1909.06151](https://arxiv.org/abs/1909.06151))
 
+An arithmetic version of EM-duality:
+
+* [[David Ben-Zvi]], [[Yiannis Sakellaridis]], [[Akshay Venkatesh]], *Relative Langlands Duality* ([pdf](https://www.math.ias.edu/~akshay/research/BZSVpaperV1.pdf))
 
 [[!redirects electric-magnetic dualities]]
 
