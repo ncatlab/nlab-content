@@ -14,15 +14,24 @@ In [[music theory]], a pitch-class is the [[equivalence relation|equivalence cla
 
 In Western classical music, all scales are derived as [[set|subsets]] of the chromatic scale of pitch-classes. In musical terminology, the set of pitch-classes is 
 \[ 
-
-\{C, C\sharp, D, D\sharp, E, F, F\sharp, G, G\sharp, A, A\sharp, B\}.
- 
+\big\{
+  C, C\sharp, D, D\sharp, E, F, F\sharp, G, G\sharp, A, A\sharp, B
+\big\}
+\,. 
 \]
-However, in more contemporary music theory these pitch-class names are replaced by integer notation, so that $C$ becomes 0, $C\sharp$ becomes 1, ..., and $B$ becomes 11. The integer notation immediately expresses the [[cyclic group|additive group]] structure of the pitch-classes, so that we can manipulate the set of pitch-classes as though it is the group $\mathbb{Z}/12\mathbb{Z}$, or $\mathbb{Z}_{12}$ for short, with addition (modulo 12) as the [[binary function|binary operation]]. An immediate result is that we can define [[map|mappings]] on the pitch-classes in a mathematically intuitive way. For instance, the mapping
+However, in more contemporary music theory these pitch-class names are replaced by [[integer]] notation, so that $C$ becomes 0, $C\sharp$ becomes 1, ..., and $B$ becomes 11. The integer notation immediately expresses the [[cyclic group|additive group]] structure of the pitch-classes, so that we can manipulate the set of pitch-classes as though it is the group $\mathbb{Z}/12\mathbb{Z}$, or $\mathbb{Z}_{12}$ for short, with addition (modulo 12) as the [[binary function|binary operation]]. An immediate result is that we can define [[map|mappings]] on the pitch-classes in a mathematically intuitive way. For instance, the mapping
 
 \[
-	\mathrm{INT} : \mathbb{Z}_{12} \times \mathbb{Z}_{12} \rightarrow \mathbb{Z}_{12} :
-	(x, y) \mapsto y - x \ (mod 12) \label{firstequation}
+\label{SubtractionOfPitchClasses}
+  \array{
+    \mathllap{INT \;\colon\;}
+    \mathbb{Z}_{12} \times \mathbb{Z}_{12} 
+      &\longrightarrow& 
+    \mathbb{Z}_{12}
+    \\
+    (x, y) &\mapsto&  y - x 
+    \mathrlap{\;(mod 12)} 
+  }
 \,
 \]
 
@@ -36,13 +45,20 @@ gives what is called the **pitch-class interval** between pitch-classes $x$ and 
 
 The set of pitch-classes can be derived from the relation of octave equivalence on pitch space $\mathbb{Z}$. One usually treats $\mathbb{Z}$ as the set of all pitches, with $0$ as middle-$C$. This way one derives the group $\mathbb{Z}_{12}$ (of pitch-classes) in the usual way, as the residue classes of the integers, so that e.g. the pitch-class $4$ is really the class of integers
 \[ 
-[4] \coloneqq \{ 4 + 12k \in \mathbb{Z} : k \in \mathbb{Z} \}. 
+  [4] 
+   \;\coloneqq\; 
+  \big\{ 
+    4 + 12k \in \mathbb{Z} 
+  \;\big\vert\; 
+    k \in \mathbb{Z} 
+  \big\}. 
 \]
 One may likewise derive these classes via the map
 \[ 
-c : \mathbb{Z} \rightarrow \mathbb{Z}_{12} 
+  c \;\colon\; 
+    \mathbb{Z} \longrightarrow \mathbb{Z}_{12} 
 \]
-that sends pitches to their respective pitch-classes, so that the fiber of $c$ over each $x \in \mathbb{Z}_{12}$ is its equivalence class of pitches.
+that sends pitches to their respective pitch-classes, so that the [[fiber]] of $c$ over each $x \in \mathbb{Z}_{12}$ is its equivalence class of pitches.
 
 
 
@@ -50,13 +66,23 @@ that sends pitches to their respective pitch-classes, so that the fiber of $c$ o
 ## As a denotator
 
 
-According to Mazzola's theory of forms and denotators, we may denote a pitch-class formally using the following notation,
+According to the theory of forms and denotators due to [Mazzola (2012)](#Mazzola12), we may denote a pitch-class formally using the following notation,
 \[ 
-n : 0_\mathbb{Z} \rightsquigarrow PC \underset{Id}{\longrightarrow} Simple(\mathbb{Z}_{12})(n), 
+  n 
+    \;\colon\; 
+  0_\mathbb{Z} 
+    \rightsquigarrow 
+  PC 
+    \underset{Id}{\longrightarrow} 
+  Simple(\mathbb{Z}_{12})(n)
+  \,, 
 \]
 where $PC$ is a form defined by
 \[ 
-PC \underset{Id}{\longrightarrow} Simple (\mathbb{Z}_{12}). 
+  PC 
+    \underset{Id}{\longrightarrow} 
+  Simple (\mathbb{Z}_{12})
+  \,.
 \]
 
 
@@ -75,7 +101,7 @@ One can generalize the notion of pitch-class to groups other than $\mathbb{Z}_{1
 
 * David Lewin, _Generalized musical intervals and transformations_, Oxford university press, USA, 2010.
 
-* Guerino Mazzola, _The topos of music: geometric logic of concepts, theory, and performance_, Birkhäuser, 2012. 
+* {#Mazzola12} Guerino Mazzola, _The topos of music: geometric logic of concepts, theory, and performance_, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-8141-8](https://doi.org/10.1007/978-3-0348-8141-8)&rbrack; 
 
 * Robert Morris, _Composition with pitch-classes_, Yale University, 1987.
  
