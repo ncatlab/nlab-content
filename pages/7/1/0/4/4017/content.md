@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+On the relation between [[toposes]] and [[abelian categories]] and introducing the unifying notion of *[[AT-categories]]*:
+
+* {#Freyd99} [[Peter Freyd]] in reply to [[Vaughan Pratt]], *Abelian-topos (AT) categories*, mailing list comments (1999) &lbrack;[catlist:1999/atcat](http://www.mta.ca/~cat-dist/catlist/1999/atcat), [[Freyd_AT-categories.txt:file]]&rbrack;
+
 
 On [[abelian categories]]:
 
