@@ -56,7 +56,7 @@ by observing &lbrack;[Coecke & Duncan, p. 1](#CoeckeDuncan)&rbrack; that:
 
 1. either equips $QBit = \mathbb{C}^2$ with a [[Frobenius algebra]]-[[structure]] (associated to the [[Frobenius monad]]-[[structure]] of the corresponding [[quantum reader monad]] as originally observed by &lbrack;[Coecke & Pavlović (2008)](quantum+measurement#CoeckePavlović08)&rbrack;);
 
-1. jointly these make a certain [[bialgebra]]-strucuture, algebraically reflecting the fact that they are [[mutually unbiased bases]].
+1. jointly these make a certain [[bialgebra]]-structure, algebraically reflecting the fact that they are [[mutually unbiased bases]].
 
 It is this bi-algebraic formalizaton of the interaction between the "Pauli-Z basis" and the "Pauli-X basis" for [[qbits]] which gives the ZX-calculus its name.
 
@@ -102,6 +102,13 @@ Textbook account:
 Introduction and review:
 
 * John van de Wetering, *ZX-calculus for the working quantum computer scientist* &lbrack;[arXiv:2012.13966](https://arxiv.org/abs/2012.13966)&rbrack;
+
+* [[Bob Coecke]], *Basic ZX-calculus for students and professionals* &lbrack;[arXiv:2303.03163](https://arxiv.org/abs/2303.03163)&rbrack;
+
+Further developments:
+
+* Hector Bombin, Daniel Litinski, Naomi Nickerson, Fernando Pastawski, Sam Roberts, *Unifying flavors of fault tolerance with the ZX calculus* &lbrack;[arXiv:2303.08829](https://arxiv.org/abs/2303.08829)&rbrack;
+
 
 
 Relation to [[braided fusion categories]] for [[anyon]] [[braiding]]:
