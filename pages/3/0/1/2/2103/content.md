@@ -15,7 +15,9 @@ Barr is well known to theoretical [[computer science|computer scientists]] for h
 
 *  _Category Theory for Computing Science_ with [[Charles Wells]],
 
-as well as for the development of [[star-autonomous category|star-autonomous categories]] and [[Chu space]]s which have found various applications in computer science. Also
+as well as for the development of [[star-autonomous category|star-autonomous categories]] and [[Chu space]]s which have found various applications in computer science. 
+
+Also
 
 *  _$*$-autonomous categories_,
 
@@ -42,9 +44,13 @@ On an improved context for [[Pontrjagin duality]]:
 
   > Did you know that there is a [[star-autonomous category|*-autonomous category]] of topological abelian groups that includes all the LCA groups and whose duality extends that of Pontrjagin?  The groups are characterized by the property that among all topological groups on the same underlying abelian group and with the same set of continuous homomorphisms to the circle, these have the finest topology.  It is not obvious that such a finest exists, but it does and that is the key.
 
+On the [[Chu construction]]:
+
+* [[Michael Barr]], *The Chu construction: history of an idea*, TAC **17** 1 (2006) 10-16 &lbrack;[tac:17-01](http://www.tac.mta.ca/tac/volumes/17/1/17-01abs.html), [pdf](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 *  [[Barr-exact category]]
 
