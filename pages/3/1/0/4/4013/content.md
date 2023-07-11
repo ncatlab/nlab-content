@@ -54,12 +54,29 @@ Furthermore, by choosing a *specific* initial object, a specific pullback for ea
 
 The crucial difference between "abelianness" and "toposness" is concentrated in the following definition: 
 
-+-- {: .num_defn}
-###### Definition
-Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \times X \to X$ be the two product projections. We say $X$ is of **type T** if $\pi_1$ is an isomorphism, and **type A** if $\pi_2$ is an isomorphism.
-=--
+\begin{definition}
+\label{TypeATObjects}
+Let $0$ denote the [[initial object]], and for any [[object]] $X$ let
 
-A pretopos will turn out to be precisely an AT category in which every object is of type T, and an abelian category will turn out to be an AT category where every object is of type A. 
+* $\pi_1 \,\colon\, 0 \times X \longrightarrow 0$, 
+
+* $\pi_2 \,\colon\, 0 \times X \longrightarrow X$ 
+
+denote the two product [[projections]]. 
+
+We say $X$ is 
+
+1. of **type T** if $\pi_1$ is an isomorphism, 
+
+1. of **type A** if $\pi_2$ is an isomorphism.
+
+\end{definition}
+
+With this:
+
+* A pretopos will turn out to be precisely an AT category in which every object is of type T.
+
+* An abelian category will turn out to be an AT category where every object is of type A. 
 
 Here then are the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and according to Freyd's thesis, any exactness condition satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks in his original posting are included in parentheses. 
 
@@ -68,29 +85,31 @@ Here then are the AT exactness axioms. Again, each of them is satisfied in every
 
 A category meeting the baseline assumptions above is an **AT category** if the following 8 axioms plus axiom "AE" are satisfied. 
 
-1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
+1. The category is an effective [[regular category]]. 
+
+   ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
 
 1. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
 
-1. If $i\colon A \to C$ is monic, then any pushout square 
+1. If $i\colon A \to C$ is [[monomorphism|mono]], then any [[pushout]] square 
 $$\array{
 A & \stackrel{i}{\to} & C \\
 \downarrow & & \downarrow \\
-B & \stackrel{j}{\to} & D
+B & \underset{j}{\to} & D
 }$$
-is also a pullback, and $j$ is monic. 
+is also a [[pullback]], and $j$ is mono. 
 
 1. The functor $0 \times -$ preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic. 
 
-1. If $f\colon B \to 0 \times C$ is epic and
+1. If $f\colon B \to 0 \times C$ is [[epimorphism|epi]] and
 $$\array{
 A & \to & B \\
 \downarrow & & \downarrow f \\
 0 & \to & 0 \times C
 }$$
-is a pullback, then it's also a pushout. 
+is a [[pullback]], then it's also a [[pushout]]. 
 
-1. In the full subcategory of type T objects, pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback). 
+1. In the [[full subcategory]] of type T objects (Def. \ref{TypeATObjects}), pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback). 
 
 1. Define a functor $T$ by the pushout diagram 
 $$\array{
@@ -338,7 +357,7 @@ The functor $F$ is full.
 Suppose given maps $f: 0 \times X \to 0 \times Y$, $g: T X \to T Y$, and contemplate the diagram 
 $$\array{
 0 \times X & \stackrel{\pi_2}{\to} & X & \to & T X \\
-f \downarrow & & & & \downarrow g \\
+f \Big\downarrow & & & & \Big\downarrow g \\
 0 \times Y & \underset{\pi_2}{\to} & Y & \stackrel{\overset{\xi}{\leftarrow}}{\to} & T Y
 }$$
 Since $X = (0 \times X) + T X$, the two obvious arrows $0 \times X \to Y$, $T X \to Y$ combine to give an arrow $(f, g): X \to Y$. It is straightforward to check that $0 \times (f, g) = f$ (because the functor $0 \times -$ kills the type T summands) and that $T(f, g) = g$. 
