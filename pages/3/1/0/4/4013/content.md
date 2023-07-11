@@ -23,7 +23,7 @@
 
 ## Idea
 
-In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the [[categories mailing list]], [[Peter Freyd]] gave a sharp and clever description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". Thus abelian categories and pretoposes are examples of AT categories; underscoring how much these structures have in common, Freyd's theory hews so closely to both of these two basic examples that in fact every AT category splits cleanly as a [[product]] of a pretopos part and an abelian part. 
+[Freyd (1999)](#Freyd99) gave a sharp and clever description of the commonalities and differences between [[abelian categories]] and [[toposes]] (or, in the first place, between abelian categories and [[pretoposes]]), by introducing a finitely axiomatized theory of "AT categories". Thus abelian categories and pretoposes are examples of AT categories; underscoring how much these structures have in common, Freyd's theory hews so closely to both of these two basic examples that in fact every AT category splits cleanly as a [[product]] of a pretopos part and an abelian part. 
 
 Here, the properties held in common between abelian categories and pretoposes are all exactness conditions; in the AT set-up, the decisive difference between abelian categories and pretoposes is concentrated solely in the behavior of the [[initial object]] with respect to [[cartesian product]] (being in one case the cartesian monoidal unit, i.e. an element that is universally absorbed into any other, and in the other an absorbing element, i.e. an element that absorbs any other element into itself, aka a zero element or annihilating element). 
 
@@ -400,6 +400,10 @@ And finally: "It's routine that both $0 \times {-}$ and $T$ preserve the new str
 1. For every $X$, $0 \times X \to X \stackrel{\xi}{\leftarrow} T X$ is a coproduct diagram." 
 
 _This section is likely to be rewritten and cleaned up._
+
+## References
+
+* {#Freyd99} [[Peter Freyd]] in reply to [[Vaughan Pratt]], *Abelian-topos (AT) categories*, mailing list comments (1999) &lbrack;[catlist:1999/atcat](http://www.mta.ca/~cat-dist/catlist/1999/atcat), [[Freyd_AT-categories.txt:file]]&rbrack;
 
 
 [[!redirects AT category]]
