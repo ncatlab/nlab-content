@@ -33,7 +33,7 @@ A [[functional program]] with
 
    (e.g. the state of a "random access memory" device, cf. [Yates (2019), p. 26 & Fig. 1.10](#Yates19)) 
 
-is clearly a [[function]] ([[morphism]]) of [[function type]] betwen the [[product types]] with $W$: 
+is clearly a [[function]] ([[morphism]]) of [[function type]] between the [[product types]] with $W$: 
 
 $$
   prog 
