@@ -13,6 +13,18 @@ On [[quantum programming]] via [[quantum logic]] understood as [[linear type the
 
 * {#Pratt92} [[Vaughan Pratt]], *Linear logic for generalized quantum mechanics*, in Proceedings of *[Workshop on Physics and Computation (PhysComp'92)](https://www.computer.org/csdl/proceedings/phycmp/1992/12OmNx19jVS)* (1992) 166-180 &lbrack;[doi:10.1109/PHYCMP.1992.615518](https://doi.ieeecomputersociety.org/10.1109/PHYCMP.1992.615518), [pdf](http://boole.stanford.edu/pub/ql.pdf), [[Pratt-LinearLogicForQuantum.pdf:file]]&rbrack;
 
+On [[Chu spaces]]:
+
+* [[Vaughan Pratt]], *Chu Spaces* (1999) &lbrack;[pdf](http://boole.stanford.edu/pub/coimbra.pdf), [[Pratt-ChuSpaces.pdf:file]]&rbrack;
+
+* [[Vaughan Pratt]], *Linear process algebra*, in: *Distributed Computing and Internet Technology ICDCIT 2011*,  Lecture Notes in Computer Science **6536**, Springer (2011) &lbrack;[doi:10.1007/978-3-642-19056-8_6](https://doi.org/10.1007/978-3-642-19056-8_6), [pdf](http://boole.stanford.edu/pub/bhub.pdf)&rbrack;
+
+
+
+On the relation between [[toposes]] and [[abelian categories]] (cf. *[[AT-categories]]*):
+
+* [[Vaughan Pratt]] in conversation with [[Peter Freyd]], *Topos-abelian categories that are neither*, mailing list comments (1999) &lbrack;[catlist:1999/atcat](http://www.mta.ca/~cat-dist/catlist/1999/atcat), [[Freyd_AT-categories.txt:file]]&rbrack;
+
 
 
 category: people
