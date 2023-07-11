@@ -149,7 +149,9 @@ The last point is of relevance in particular for [[infinity-category|higher cate
 ### Relation to exactness properties of toposes
  {#RelationToToposes}
 
-The [[exactness properties]] of abelian categories have many features in common with exactness properties of [[toposes]] or of [[pretoposes]]. In a fascinating post to the categories mailing list, [[Peter Freyd]] gave a sharp description of the properties shared by these categories, introducing a new concept called _[[AT categories]]_ (for "abelian-topos"), and showing convincingly that the difference between the A and the T can be concentrated precisely in the difference of the behavior of the initial object. 
+The [[exactness properties]] of abelian categories have many features in common with exactness properties of [[toposes]] or of [[pretoposes]]. 
+
+[Freyd (1999)](AT+category#Freyd99) gave a sharp description of the properties shared by these categories, introducing a new concept called _[[AT categories]]_ (for "abelian-topos"), and showing convincingly that the difference between the A and the T can be concentrated precisely in the difference of the behavior of the initial object. 
 
 ### Embedding theorems
  {#EmbeddingTheorems}
