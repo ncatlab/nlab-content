@@ -101,7 +101,7 @@ An introduction to group theory with applications to neo-Riemannian theory is
 * Ocatavio A. August&#237;n-Aquino, Janine du Plessis, Emilio Lluis-Puebla, Mariana Montiel, _Una introducci&#243;n a la Teor&#237;a de Grupos
 con aplicaciones en la Teor&#237;a Matem&#225;tica de la M&#250;sica_, Sociedad Matem&#225;tica Mexicana 2009. ([pdf](http://pesmm.org.mx/Serie%20Textos_archivos/T10.pdf))
 
-Besides the monumental [Mazzola (2002)]((#Mazzola02), the following employ category theory:
+Besides the monumental [Mazzola (2002)](#Mazzola02), the following employ category theory:
 
 * Thomas Noll, _The topos of triads_, pp.1-26 in Fripertinger, Reich (eds.),  _Colloquium on Mathematical Music Theory_,
 Grazer Math. Ber. **347** (2005). ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.134.5669))
