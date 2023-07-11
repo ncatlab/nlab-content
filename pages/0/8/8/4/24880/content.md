@@ -545,11 +545,27 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 
 The [[quantum reader monad]] -- implicitly, in its incarnation as the $\mathbb{1}^B$-[[writer monad|writer]] [[Frobenius monad]] -- is highlighted in the literature on [[quantum information theory via dagger-compact categories]] as formalizing "classical structures" (namely [[linear bases]] for [[quantum measurement]]):
 
-* {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], §1.5.1 of: *Quantum measurements without sums*, in [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 &lbrack;[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
+* {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], §1.5.1 of: *Quantum measurements without sums*, in: [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 &lbrack;[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
 
 * {#CoeckePaquette08} [[Bob Coecke]], [[Eric Oliver Paquette]], §2.3 in: *POVMs and Naimark's theorem without sums*, Electronic Notes in Theoretical Computer Science **210** (2008) 15-31 &lbrack;[arXiv:quant-ph/0608072](https://arxiv.org/abs/quant-ph/0608072), [doi:10.1016/j.entcs.2008.04.015](https://doi.org/10.1016/j.entcs.2008.04.015)&rbrack;
 
-* [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], Def. 2.8 in: *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]&rbrack;
+* [[Bob Coecke]], [[Eric Paquette]], [[Duško Pavlović]], Def. 2.8 in: *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]&rbrack;
+
+
+* [[Bob Coecke]], [[Eric Oliver Paquette]], [[Duško Pavlović]], *Classical and quantum structuralism* &lbrack;[arXiv:0904.1997](https://arxiv.org/abs/0904.1997)&rbrack;
+
+
+and the evolution of the "classical structures"-monad into the "spider"-ingredient of the [[ZX-calculus]]:
+
+* {#CoeckeDuncan08} [[Bob Coecke]], [[Ross Duncan]], §3 in: *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)&rbrack;
+
+* [[Aleks Kissinger]], §§2 in: *Graph Rewrite Systems for Classical Structures in $\dagger$-Symmetric Monoidal Categories*, MSc thesis, Oxford (2008) &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/Aleks.pdf), [[Kissinger-CLassicalStructures.pdf:file]]&rbrack;
+
+* [[Aleks Kissinger]], §4 in: *Exploring a Quantum Theory with Graph Rewriting and Computer Algebra*, in: *Intelligent Computer Mathematics. CICM 2009*, Lecture Notes in Computer Science **5625** (2009) 90-105 &lbrack;[doi:10.1007/978-3-642-02614-0_12](https://doi.org/10.1007/978-3-642-02614-0_12)&rbrack;
+
+* {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], Def. 6.4 in: *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 &lbrack;[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)&rbrack;
+
+
 
 Also, albeit without explicit mentioning of [[monad|monadic]] structures:
 
