@@ -1,4 +1,5 @@
 
+$\vert$ $\big\vert$ $\Big\vert x \Big\vert$ $\bigg\vert$ $\Bigg\vert$
 
 $C\sharp$ $C#$ $C\#$
 
