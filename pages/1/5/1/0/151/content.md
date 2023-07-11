@@ -181,4 +181,7 @@ See also
 
 [[!redirects formally dual]]
 
+[[!redirects concrete duality]]
+[[!redirects concrete dualities]]
+
 
