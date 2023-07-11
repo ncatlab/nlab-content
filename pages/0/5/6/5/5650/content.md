@@ -10,11 +10,17 @@
 
 This entry collects links related to the book
 
-* [[Jacob Lurie]], 
-  
-  _Higher Algebra_ 
+* [[Jacob Lurie]]:
 
-  ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
+  \linebreak
+ 
+  **Higher Algebra** 
+
+  \linebreak
+
+  ($\sim$2017)
+
+  [pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf)
 
 on [[higher algebra]].
 
