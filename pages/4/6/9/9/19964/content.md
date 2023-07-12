@@ -292,6 +292,8 @@ Other review:
 
 * [[Nicholas Manton]], *Skyrmions as Models for Nuclei*, Ischia (2022) &lbrack;[pdf](https://agenda.infn.it/event/19753/contributions/170544/attachments/90671/122280/SkyIschia.pdf)&rbrack;
 
+* [[Edward Witten]], from [34:05](https://youtu.be/TvIz-6YOdKs?t=2045) on in: *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
+
 
 See also
 
