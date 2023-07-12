@@ -277,7 +277,9 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 * [[(∞,n)-category]]
 
-* [[(n,r)-category]]
+* [[(n,r)-category]] 
+
+* [[double category]] 
 
 
 ## References
