@@ -35,4 +35,6 @@ Similarly, there are forgetful functors $G:Ring \to LeftMod$ from $Ring$ to the 
 
 * [[Noetherian ring]]
 
+* [[property sup]]
+
 [[!redirects ascending chain conditions]]
