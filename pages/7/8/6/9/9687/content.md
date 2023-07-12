@@ -229,6 +229,8 @@ See also:
 
 * _[What is Strongly-Coupled Quantum Chromodynamics?](https://ensnaredinvacuum.wordpress.com/2015/02/11/what-is-strongly-coupled-quantum-chromodynamics/)_
 
+* *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) 
+
 A formulation of confinement as an open problem of mathematical physics, together with many references, is in 
 
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
@@ -335,6 +337,11 @@ See also:
 * [[David Berman]], Maulik K. Parikh, _Confinement and the AdS/CFT Correspondence_, Phys.Lett. B483 (2000) 271-276 ([arXiv:hep-th/0002031](https://arxiv.org/abs/hep-th/0002031))
 
 * Henrique Boschi Filho, _AdS/QCD and confinement_, Seminar at the _Workshop on Strongly Coupled QCD: The confinement problem_, November 2011 ([pdf](http://www.if.ufrj.br/~boschi/pesquisa/seminarios/AdS_QCD_Confinement_UERJ_2011.pdf))
+
+* [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
+
+> [40:13](https://youtu.be/TvIz-6YOdKs?t=2413): "Personally, I think [[AdS/QCD|this setup]] really implies that pure [[Yang-Mills theory|$SU(N)$ gauge theory]] is [[gauge-string duality|dual]] to a [[string theory]]. The 'only' problem is that to get the pure gauge theory we need to make a relevant deformation and then take the limit that the deformation parameter is large..."
+
 
 
 ### In M-theory on $G_2$-manifolds
