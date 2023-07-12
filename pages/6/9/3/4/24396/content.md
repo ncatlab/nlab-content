@@ -17,7 +17,7 @@
 
 ## Idea
 
-On the one hand, [[infinity-groupoids|$\infty$-groupoids]] form an [[(infinity,1)-topos|$(\infty,1)$-topos]] ($Grpd_\infty$), while their [[stabilization]] -- plain [[spectra]] form -- form instead a [[stable (infinity,1)-category|stable $(\infty,1)$-category]]; on the other hand, the collection of (ie.: the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]] on) *[[parameterized spectra]]*, parameterized over [[infinity-groupoids|$\infty$-groupoids]], forms again an [[(infinity,1)-topos|$(\infty,1)$-topos]]: the "[[tangent (infinity,1)-topos|tangent $(\infty,1)$-topos]]" $T Grpd_\infty$.
+On the one hand, [[infinity-groupoids|$\infty$-groupoids]] form an [[(infinity,1)-topos|$(\infty,1)$-topos]] ($Grpd_\infty$), while their [[stabilization]] -- plain [[spectra]] -- form instead a [[stable (infinity,1)-category|stable $(\infty,1)$-category]]; on the other hand, the collection of (ie.: the [[(infinity,1)-Grothendieck construction|$\infty$-Grothendieck construction]] on) *[[parameterized spectra]]*, parameterized over [[infinity-groupoids|$\infty$-groupoids]], forms again an [[(infinity,1)-topos|$(\infty,1)$-topos]]: the "[[tangent (infinity,1)-topos|tangent $(\infty,1)$-topos]]" $T Grpd_\infty$.
 
 This observation is originally due to [Biedermann (2007)](#Biedermann07), noted down in [Joyal (2008) §35](#Joyal08).
 
