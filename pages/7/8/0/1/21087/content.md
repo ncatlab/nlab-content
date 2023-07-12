@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -119,6 +120,17 @@ Discussion of [[small N corrections]] specifically in [[holographic QCD]]:
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
 * Salvatore Baldino, [[Stefano Bolognesi]], Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
+
+
+* [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
+
+  > [26:26](https://youtu.be/TvIz-6YOdKs?t=1586): "by now it's clear &lbrack;[Lucini & Teper 2001](large+N+limit#LuciniTeper01)&rbrack; that [[lattice gauge theory]], at least for the [[glueball]] sector, has made it clear that the [[large N limit|$1/N$-expansion]] is a good approximation to the real world, especially if you include a leading correction to the [[large N limit|large $N$ limit]]. Now unfortunately this is best established in the [[glueball]] sector, which is not very accessible experimentally."
+  
+  > [28:56](https://youtu.be/TvIz-6YOdKs?t=1736): "but the $1/N$ expansion doesn't explain everything. In fact, it's not hard to find phenomena in meson physics where the $1/N$-expansion does *not* work well."
+
+  > [36:15](https://youtu.be/TvIz-6YOdKs?t=2175): "I suspect the [[large N limit|$1/N$-expansion]] works reasonably well for many aspects of [[baryons]]. However, as for mesons, it is easy to point to things that won't work well for baryons. In particular, among other things, I don't think the [[large N limit|$1/N$ expansion]] will be successful for [[nuclei]] as opposed to individual [[nucleons]]."
+
+  > [37:12](https://youtu.be/TvIz-6YOdKs?t=2232): "I don' t think the phenomenological models used by nuclear physicists would have any success at of if the [[large N limit]] was a good description of [[nuclei]]."
 
 
 
