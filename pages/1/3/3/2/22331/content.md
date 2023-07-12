@@ -10,7 +10,7 @@ Martina Rovelli is an Assistant Professor at University of Massachusetts Amherst
 
 On [[weighted limit|weighted]] [[(infinity,1)-limits|$(\infty,1)$-limits]]:
 
-* [[Martina Rovelli]], _Weighted limits in an (∞,1)-category_ (2019) &lbrack;[arxiv:1902.00805](https://arxiv.org/abs/1902.00805)&rbrabck;
+* [[Martina Rovelli]], _Weighted limits in an (∞,1)-category_ (2019) &lbrack;[arxiv:1902.00805](https://arxiv.org/abs/1902.00805)&rbrack;
 
 
 On the [[adjunction unit]] of [[total décalage]]:
