@@ -73,6 +73,9 @@ The concept was introduced in
 
 * {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
 
+([Wilson 1974](#Wilson74) envisioned to take the continuum limit by way of [[block spin transformations]], but [Creutz 1979](#Creutz79) successfully applied [[Monte Carlo methods]], and that has been the method of choice ever since.)
+
+
 Introduction and review:
 
 * S. Gupta, _Introduction to lattice field theory_, March 2011, ([pdf](http://theory.tifr.res.in/~sgupta/talks/11aslft.pdf))
@@ -130,15 +133,15 @@ Account of computer simulation results in lattice [[QCD]]:
 
 * {#FodorHoelbling12} Zoltan Fodor, Christian Hoelbling, sections II-IV of _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449 (2012) ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
 
-See also
+The idea of using [[Monte Carlo method]] for lattice gauge theory originates with:
 
-* [[Michael Creutz]], _Monte Carlo study of quantized SU(2) gauge theory_ Phys. Rev. D21 (1980) 2308-2315 ([journal](http://prd.aps.org/abstract/PRD/v21/i8/p2308_1), [pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub037.pdf))
+* {#Creutz79} [[Michael Creutz]], *Confinement and the Critical Dimensionality of Space-Time*, Phys. Rev. Lett. **43**  (1979) 553 &lbrack;[doi:10.1103/PhysRevLett.43.553](https://doi.org/10.1103/PhysRevLett.43.553)&rbrack; 
 
+* [[Michael Creutz]], _Monte Carlo study of quantized $SU(2)$ gauge theory_, Phys. Rev. D **21** (1980) 2308-2315 &lbrack;[doi:10.1103/PhysRevD.21.2308](https://doi.org/10.1103/PhysRevD.21.2308), [pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub037.pdf)&rbrack;
 
-* [[Michael Creutz]],  _Monte Carlo study of renormalization in lattice gauge theory_ Phys.Rev. D23 (1981) 1815  ([pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub045.pdf))
+* [[Michael Creutz]], *Monte Carlo study of renormalization in lattice gauge theory* Phys.Rev. D **23** (1981) 1815  &lbrack;[doi:10.1103/PhysRevD.23.1815](https://doi.org/10.1103/PhysRevD.23.1815), [pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub045.pdf)&rbrack
 
-
-* [[Michael Creutz]], Laurence Jacobs, Claudio Rebbi, _Monte Carlo computations in lattice gauge theories_, Volume 95, Issue 4, April 1983, Pages 201&#8211;282 ([pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub068.pdf))
+* [[Michael Creutz]], Laurence Jacobs, Claudio Rebbi, *Monte Carlo computations in lattice gauge theories*, Physics Reports **95** 4 (1983) 201-282 &lbrack;<a href="https://doi.org/10.1016/0370-1573(83)90016-9">doi:10.1016/0370-1573(83)90016-9</a>, [pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub068.pdf)&rbrack;
 
 Specifically computation of [[hadron]]-[[masses]] (see [[mass gap problem]]) in lattice QCD is reported here:
 
