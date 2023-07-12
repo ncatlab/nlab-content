@@ -36,7 +36,7 @@ on [[confinement]].
 
 * [[Nathan Seiberg]], *The Power of Symmetry* ([video](https://www.youtube.com/watch?v=eJnhrSgFhts))
 
-* [[Michael Teper]], *Lattice Gauge Theory and Confinement - an Introduction* ([video](https://www.youtube.com/watch?v=BjErVJVhXf8))
+* [[Michael Teper]], *Lattice Gauge Theory and Confinement - an Introduction* (part I: [video](https://www.youtube.com/watch?v=BjErVJVhXf8))
 
 * [[Mithat Unsal]], *Adiabatic Continuity, Compactification, and Confinement* ([video](https://www.youtube.com/watch?v=mr4qMj4dU0c))
 
