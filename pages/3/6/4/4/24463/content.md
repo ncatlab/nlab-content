@@ -1,6 +1,6 @@
 ## Definition
 
-A *Cohen-Macaulay module* is a [[module]] over a [[commutative]] [[noetherian]] [[local ring]] which is [[finitely generated]], non-zero, and such that its [[depth]] is equal to its Krull [[dimension]].
+A *Cohen-Macaulay module* is a [[module]] over a [[commutative]] [[noetherian]] [[local ring]] which is [[finitely generated]], non-zero, and such that its [[depth]] is equal to its [[Krull dimension]].
 
 ## References 
 
