@@ -121,6 +121,7 @@ $$
   \,.
 $$
 
+
 Now the fact that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This means by assumption that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]], implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
 
 =--
@@ -688,7 +689,7 @@ The [[Bousfield-Friedlander model structure]] $SeqSpectra_{stable}$ on [[sequent
 
 The theorem is due to 
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section A.3 of  _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section A.3 of  _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://ncatlab.org/nlab/files/BousfieldFriedlanderSpectra.pdf))
 
 and in improved form due to 
 
