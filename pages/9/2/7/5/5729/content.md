@@ -19,6 +19,8 @@ Given a [[category]] $C$ and an object $B:C$, let $\mathrm{Mono}(B)$ be the [[ca
 
 Given categories $C$ and $D$ with forgetful functor $F:C \to D$, an object $B$ is said to satisfy the **descending chain condition** on subobjects of $F(B)$ if for every descending chain of subobjects $(A, i_n)$ of $F(B)$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the monomorphism $i_n:A_{n+1} \hookrightarrow A_{n}$ is an [[isomorphism]]. 
 
+Subobjects (considered as isomorphism classes) form a possibly large [[partially ordered set]] (poset). A partially ordered set $(X,\geq)$ is satisfying a descending chain condition if any inverse sequence $x_1\geq x_2\geq x_3\geq\ldots$ eventually stabilizes, that is, there exists $n$ such that $x_n = x_{n+1} =x_{n+2}=\ldots$.
+
 ## Examples
 
 There is a [[forgetful functor]] $F:Ring \to BMod$ from the category [[Ring]] of [[rings]] to the category $BMod$ of [[bimodules]], which forgets the multiplicative structure on the bimodule, that the canonical [[left action]] and [[right action]] of each ring $R$ have [[domain]] $R^2$ and are equal to each other and to the multiplicative binary operation of $R$, and that the canonical [[biaction]] of each ring $R$ has domain $R^3$. 
