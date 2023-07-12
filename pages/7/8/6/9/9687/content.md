@@ -191,7 +191,9 @@ See also at _[[glueball]]_.
 
 * {#Wilson74} [[Kenneth Wilson]],  *Confinement of quarks*, Phys. Rev. D **10** 2445 (1974) &lbrack;[doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)&rbrack;
 
+Early demonstration of confinement by [[Monte Carlo simulation]] of [[lattice field theory]] (and demonstration that $SU(2)$-[[gauge theory]] in 4d does *not* confine, as it should be):
 
+* {#Creutz79} [[Michael Creutz]], *Confinement and the Critical Dimensionality of Space-Time*, Phys. Rev. Lett. **43**  (1979) 553 &lbrack;[doi:10.1103/PhysRevLett.43.553](https://doi.org/10.1103/PhysRevLett.43.553)&rbrack; 
 
 Textbook accounts:
 
