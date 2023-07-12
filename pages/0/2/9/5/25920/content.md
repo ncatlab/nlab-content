@@ -1,10 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition 
 
-__Krull dimension__ of a commutative ring $R$ is a supremum of lengths of chains
+The __Krull dimension__ of a [[commutative ring]] $R$ is the [[supremum]] of lengths of chains
 $$
-P_1\subset P_2\subset\ldots \subset P_r
+  P_1\subset P_2\subset\ldots \subset P_r
 $$
-of distinct [[prime ideal]]s in $R$.
+of distinct [[prime ideals]] in $R$.
 
 If $R$ is a possibly noncommutative ring $R$ and $M$ a left $R$-module, then the __Krull dimension__ of $M$ is by definition a deviation of the poset of subobjects of $M$. 
 
