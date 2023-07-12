@@ -124,6 +124,8 @@ For more details on Giry's monad and its variants see [[probability monad]].
 
 * [[p-value]]
 
+* [[Monte Carlo method]]
+
 ## References
 
 ### General
