@@ -610,8 +610,8 @@ These computations shown so far all use just the field theory in the bulk, not y
 [[!include effective field theories of nuclear physics -- contents]]
 
 
-## References
 
+## References
 
 
 [[!include Polyakov gauge-string duality -- references]]
@@ -684,6 +684,9 @@ Emphasis of the AdS-QCD correspondence at annual String-conferences:
 
 * [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems*, talk at *[[Strings 2022]]* &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
 
+* [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[Prospects in Theoretical Physics 2023: Understanding Confinement](https://www.ias.edu/video-tags/prospects-theoretical-physics-2023-understanding-confinement)*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
+
+  > [26:26](https://youtu.be/TvIz-6YOdKs?t=1586): "by now it's clear &lbrack;[Lucini & Teper 2001](large+N+limit#LuciniTeper01)&rbrack; that [[lattice gauge theory]], at least for the [[glueball]] sector, has made it clear that the [[large N limit|$1/N$-expansion]] is a good approximation to the real world, especially if you include a leading correction to the [[large N limit|large $N$ limit]]. Now unfortunately this is best established in the [[glueball]] sector, which is not very accessible experimentally."
 
 #### Top-down models 
 
