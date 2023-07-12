@@ -14,13 +14,13 @@
 
 ## Idea
 
-A *double monoid* &lbrack;[Aguiar & Mahajan (2010)](#AguiarMahajan10) or *duoid* *[Batanin & Markl (2012)](#BataninMarkl12)* is a [[set]] equipped with two compatible [[monoid]] [[structures]].
+A *double monoid* &lbrack;[Aguiar & Mahajan (2010)](#AguiarMahajan10) or *duoid* *[Batanin & Markl (2012)](#BataninMarkl12)* is an object of a [[duoidal category]] equipped with two compatible [[monoid]] [[structures]].
 
 ## Definitions
 
 ### With a binary operation and an element
 
-A **duoid** is a [[set]] $D$ equipped with a [[pair]] of [[monoid]] [[structures]] $(\otimes, I)$ and $(\odot, J)$ such that:
+Naively, a **duoid** is a [[set]] $D$ equipped with a [[pair]] of [[monoid]] [[structures]] $(\otimes, I)$ and $(\odot, J)$ such that:
 
 \[
   (v \otimes x) \odot (y \otimes z) 
@@ -29,13 +29,14 @@ A **duoid** is a [[set]] $D$ equipped with a [[pair]] of [[monoid]] [[structures
   \,.
 \]
 
+
+In this form, a duoid can be viewed as a [[strict double category]] with a single [[object]], one [[horizontal morphism]], and one [[vertical morphism]].
+
+However, due to the [[Eckmann–Hilton argument]], this is equivalent to a [[commutative monoid]]. In fact, this is true for a duoid in any [[braided monoidal category]] (viewed as a [[duoidal category]] in which both tensor products coincide).
+
 ### In a duoidal category
 
 See [[duoidal category]].
-
-### As a trivial double category
-
-A duoid is precisely a [[strict double category]] with a single [[object]], one [[horizontal morphism]], and one [[vertical morphism]].
 
 ## References
 
