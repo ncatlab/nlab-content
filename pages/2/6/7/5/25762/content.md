@@ -14,7 +14,7 @@
 
 ## Idea
 
-A *double monoid* &lbrack;[Aguiar & Mahajan (2010)](#AguiarMahajan10) or *duoid* *[Batanin & Markl (2012)](#BataninMarkl12)* is an object of a [[duoidal category]] equipped with two compatible [[monoid]] [[structures]].
+A *double monoid* &lbrack;[Aguiar & Mahajan (2010)](#AguiarMahajan10) or *duoid* &lbrack;[Batanin & Markl (2012)](#BataninMarkl12)&rbrack; is an [[object]] of a [[duoidal category]] equipped with two compatible [[monoid]] [[structures]].
 
 ## Definitions
 
@@ -40,14 +40,14 @@ See [[duoidal category]].
 
 ## References
 
-Duoids were introduced as "double monoids" in the context of [[duoidal categories]] in Definition 6.28:
+Duoids were introduced as "double monoids" in the context of [[duoidal categories]] in :
 
-* {#AguiarMahajan10} [[Marcelo Aguiar]], Swapneel Arvind Mahajan, _Monoidal functors, species and Hopf algebras_ **29** Providence, RI: American Mathematical Society (2010) &lbrack;[pdf](https://pi.math.cornell.edu/~maguiar/a.pdf), [ams:crmm-29](https://bookstore.ams.org/crmm-29)&rbrack;
+* {#AguiarMahajan10} [[Marcelo Aguiar]], Swapneel Arvind Mahajan, Definition 6.28 of: _Monoidal functors, species and Hopf algebras_ **29** Providence, RI: American Mathematical Society (2010) &lbrack;[pdf](https://pi.math.cornell.edu/~maguiar/a.pdf), [ams:crmm-29](https://bookstore.ams.org/crmm-29)&rbrack;
 
-They were given the name we use in:
+The name "duoid", following a suggestion by [[Ross Street]], is due to:
 
-* {#BataninMarkl12} [[Michael Batanin]], [[Martin Markl]], _Centers and homotopy centers in enriched monoidal categories_, Advances in Mathematics **230** 4-6 (2012) 1811-1858 &lbrack;[doi:10.1016/j.aim.2012.04.011](https://doi.org/10.1016/j.aim.2012.04.011)&rbrack;
+* {#BataninMarkl12} [[Michael Batanin]], [[Martin Markl]], *Centers and homotopy centers in enriched monoidal categories*, Advances in Mathematics **230** 4-6 (2012) 1811-1858 &lbrack;[doi:10.1016/j.aim.2012.04.011](https://doi.org/10.1016/j.aim.2012.04.011)&rbrack;
 
-as suggested by [[Ross Street]].
+.
 
 [[!redirects duoids]]
