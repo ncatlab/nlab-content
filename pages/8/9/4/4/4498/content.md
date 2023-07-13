@@ -72,7 +72,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-A simplicial $G$-principal bundle $P \to X$ is necessarly a [[Kan fibration]].
+A simplicial $G$-principal bundle $P \to X$ is necessarily a [[Kan fibration]].
 
 =--
 
