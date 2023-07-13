@@ -53,9 +53,11 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 
 * A [[regular category]] can be defined as a [[finitely complete category]] in which all images exist for $M=$ monomorphisms, and such images are moreover stable under [[pullback]].  In particular, this includes any [[topos]].
 
-* In [[Cat]] (considered as a [[1-category]]), the image of a [[functor]] $F\colon A\to B$ is the smallest [[subcategory]] of $B$ which contains images through $F$ of all morphisms in $A$.  Note that some of the morphisms in the image may not be images of any morphism in $A$; all morphisms in the image of $F$ are [[composite|compositions]] in $B$ of $B$-composable sequences of images of morphisms in $A$, but these themselves do not necessarily form $A$-composable sequences of morphisms in $A$.
+* In [[Cat]] (considered as a [[1-category]] of [[strict categories]]), the image of a [[functor]] $F\colon A\to B$ is the smallest [[subcategory]] of $B$ which contains images through $F$ of all morphisms in $A$.  Note that some of the morphisms in the image may not be images of any morphism in $A$; all morphisms in the image of $F$ are [[composite|compositions]] in $B$ of $B$-composable sequences of images of morphisms in $A$, but these themselves do not necessarily form $A$-composable sequences of morphisms in $A$. 
 
-  Usually it is better to treat $Cat$ as a 2-category, in which case one can use a more 2-categorical notion of image.  See, for instance, [[full image]] and [[essential image]].
+  {#RepleteImages} See also at at *[[replete subcategory]]* the section *[Repletion and replete images](replete+subcategory#RepletionAndRepleteImages)*.
+
+  Often it is desireable to instead treat $Cat$ as a [[2-category]], in which case one can use a more 2-categorical notion of image.  See, for instance, *[[full image]]* and *[[essential image]]*.
 
 ## Properties
 
