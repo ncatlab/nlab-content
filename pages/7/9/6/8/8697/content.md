@@ -36,13 +36,14 @@ Thus they conclude that quantum mechanics is not complete.
 
 ## References
 
-The original article is
+The original article:
 
 * {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review **47** 10 (1935) 777-780  &lbrack;[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
  
 
-
 Review and discussion:
+
+* [[Franco Selleri]] (ed.), *Quantum Mechanics Versus Local Realism -- The Einstein-Podolsky-Rosen Paradox*, Physics of Atoms and Molecules (PAMO), Springer (1988) &lbrack;[doi:10.1007/978-1-4684-8774-9](https://doi.org/10.1007/978-1-4684-8774-9)&rbrack;
 
 * [[Roland Omnès]], §9 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
@@ -50,6 +51,11 @@ Review and discussion:
 
 * [[Anthony Sudbery]], §5.3 of: *Quantum mechanics and the particles of nature: an outline for mathematicians*, Cambridge University Press (1986) &lbrack;[pdf](http://users.uoa.gr/~navidcon/sudbery.pdf), [spire:240835](https://inspirehep.net/literature/240835)&rbrack;
 
+* [[Jeffrey Bub]], §2.1 in: *Interpreting the quantum world*, Cambridge University Press (1999) &lbrack;[ISBN:9780521653862](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/interpreting-quantum-world?format=PB&isbn=9780521653862)&rbrack;
+
+Background discussion with emphasis on [[quantum logic]] and [[Bell's inequalities]]:
+
+* Laura Molenaar, *Quantum logic and the EPR paradox*, Delft (2014) &lbrack;[uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b](http://resolver.tudelft.nl/uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b)&rbrack;
 
 See also:
 
