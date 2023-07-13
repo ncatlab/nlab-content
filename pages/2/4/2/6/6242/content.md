@@ -372,6 +372,10 @@ Further exposition of non-cartesian [[monoidal categories]] as [[categorical sem
 
 * {#BaezStay09} [[John Baez]], [[Mike Stay]], *Physics, topology, logic and computation: a rosetta stone*, ([arxiv/0903.0340](http://arxiv.org/abs/0903.0340)); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer (2011) 95-174 &lbrack;[doi:10.1007/978-3-642-12821-9](https://link.springer.com/book/10.1007/978-3-642-12821-9)&rbrack;
 
+Review of of quantum logic with an eye towards the [[EPR paradox]] and [[Bell's inequalities]]:
+
+* Laura Molenaar, *Quantum logic and the EPR paradox*, Delft (2014) &lbrack;[uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b](http://resolver.tudelft.nl/uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b)&rbrack;
+
 
 ### Further development
 
