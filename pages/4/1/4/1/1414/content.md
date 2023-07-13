@@ -155,7 +155,7 @@ For $C \in sSet Cat$ any [[sSet-enriched category]], the homotopy coherent nerve
 
 $$ 
   Hom_{SSet}\big(\Delta[n], N(C)\big) 
-   \;\simrq\; 
+   \;\simeq\; 
   Hom_{SSet Cat}\big(S[n], C\big)
   \,.
 $$
