@@ -74,7 +74,7 @@ $$\frac{\Xi \; \mathrm{ctx}}{\Xi, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{asor
 
 $$\frac{\Xi \; \mathrm{ctx}}{\Xi, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{totl}(x, y):[(x \wedge y =_{\mathbb{2}} x) + (x \wedge y =_{\mathbb{2}} y)]} \quad \frac{\Xi \; \mathrm{ctx}}{\Xi \vdash \mathrm{nontriv}_\leq:(0 =_\mathbb{2} 1) \to \mathbb{0}}$$
 
-#### Simplicies and subshapes
+#### Simplices and subshapes
 
 We inductively define the $n$-simplices as the following family of non-fibrant types:
 
