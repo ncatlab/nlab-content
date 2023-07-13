@@ -46,9 +46,11 @@ Volumes 251–252, June–July 2014, Pages 165-174 ([arXiv:1309.6333](https://ar
 
 Original articles on holographic LFQCD:
 
-* [[Stanley Brodsky]], [[Guy de Teramond]], _Light-Front Hadron Dynamics and AdS/CFT Correspondence_, Phys. Lett. B582:211-221, 2004 ([arXiv:hep-th/0310227](https://arxiv.org/abs/hep-th/0310227))
+* [[Stanley Brodsky]], [[Guy de Teramond]], _Light-Front Hadron Dynamics and AdS/CFT Correspondence_, Phys. Lett. B **582** (2004) 211-221 &lbrack;[arXiv:hep-th/0310227](https://arxiv.org/abs/hep-th/0310227), [doi:10.1016/j.physletb.2003.12.050](https://doi.org/10.1016/j.physletb.2003.12.050)&rbrack;
 
-* [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. 102:081601, 2009 ([arXiv:0809.4899](https://arxiv.org/abs/0809.4899))
+* [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. **102** (2009) 081601 &lbrack;[doi:10.1103/PhysRevLett.102.081601](https://doi.org/10.1103/PhysRevLett.102.081601), [arXiv:0809.4899](https://arxiv.org/abs/0809.4899)&rbrack;
+
+
 
 Relation to [[renormalization]] ([[field-strength renormalization]]):
 
