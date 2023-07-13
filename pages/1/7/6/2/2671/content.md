@@ -169,6 +169,22 @@ Careful discussion of [[observables]] in gravity is in
 
 * {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html), preprint [arXiv:1503.03754](https://arxiv.org/abs/1503.03754)
 
+Further discussion of the phase space of gravity in [[first-order formulation of gravity|first-order formulation]] via [[BV-BFV formalism]]:
+
+* [[Michele Schiavina]], _BV-BFV approach to general relativity_ (2015) &lbrack;[pdf](http://user.math.uzh.ch/cattaneo/schiavina.pdf), [[Schiavina-Relativity.pdf:file]]&rbrack;
+
+* {#CattaneoSchiavina15} [[Alberto Cattaneo]], [[Michele Schiavina]], _BV-BFV approach to General Relativity, Einstein-Hilbert action_, J. Math. Phys. **57** 023515 (2016) &lbrack;[arXiv:1509.05762](https://arxiv.org/abs/1509.05762), [doi:10.1063/1.4941410](https://doi.org/10.1063/1.4941410)&rbrack;
+
+* {#CattaneoSchiavina17a} [[Alberto Cattaneo]], [[Michele Schiavina]], _The reduced phase space of Palatini-Cartan-Holst theory_, Ann. Henri Poincaré **20** (2019) 445 &lbrack;[arXiv:1707.05351](https://arxiv.org/abs/1707.05351), [doi:10.1007/s00023-018-0733-z](https://doi.org/10.1007/s00023-018-0733-z)&rbrack;
+
+* {#CattaneoSchiavina17b} [[Alberto Cattaneo]], [[Michele Schiavina]], *BV-BFV approach to General Relativity: Palatini-Cartan-Holst action*, Adv. Theor. Math. Phys. **23**  (2019) 1801-1835 &lbrack;[arXiv:1707.06328](https://arxiv.org/abs/1707.06328), [doi:10.4310/ATMP.2019.v23.n8.a3](https://doi.org/10.4310/ATMP.2019.v23.n8.a3)&rbrack;
+
+* [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
+
+  > (following [Kijowski & Tulczyjew (2005)](phase+space#KijowskiTulczyjew05))
+
+
+
 ### Non-renormalizability
 
 The result that gravity is not [[renormalizable interaction|renormalizable]] is due to:
