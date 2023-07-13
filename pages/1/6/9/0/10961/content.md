@@ -97,6 +97,8 @@ and continues:
 
   [[propositions as projections]]
 
+* [[EPR paradox]]
+
 * [[Gell-Mann principle]]
 
 * [[quantum logic]]
