@@ -23,7 +23,7 @@
 
 ## Idea
 
-A [[subcategory]] $D$ of a [[category]] $C$ is called __replete__ if it respects [[isomorphism]] of morphisms in the [[arrow category]] of $C$.  It is a subcategory for which the property of (strictly) belonging to it respects the [[principle of equivalence]] of categories.
+A [[subcategory]] $D$ of a [[strict category]] $C$ is called __replete__ if it respects [[isomorphism]] of morphisms in the [[arrow category]] of $C$.  It is a subcategory for which the property of (strictly) belonging to it respects the [[principle of equivalence]] of categories.
 
 
 ## Definition
@@ -36,6 +36,7 @@ A [[subcategory]] $D$ of $C$ is __replete__ if for any [[object]] $x$ in $D$ and
 
 
 ## Repletion and replete images
+ {#RepletionAndRepleteImages}
 
 Since repleteness is a "closure condition," the [[intersection]] of any collection of replete subcategories is again replete.  Therefore, any subcategory is contained in a smallest replete subcategory, called its **repletion**.  We can construct the repletion $repl(D)$ of $D\subset C$ explicitly as follows:
 
