@@ -10,6 +10,8 @@ Recent ongoing work by Ben-Zvi, Sakellaridis, and Venkatesh attempt to relate it
 
 ## References
 
-[[David Ben-Zvi]], _Relative Geometric Langlands Duality_ ([MSRI lectures](https://www.msri.org/workshops/918/schedules/28232))
+* [[David Ben-Zvi]], _Relative Geometric Langlands Duality_ ([MSRI lectures](https://www.msri.org/workshops/918/schedules/28232))
 
-Yiannis Sakellaridis, _Spherical Varieties, Functoriality, and Quantization_ ([arXiv:2111.03004](https://arxiv.org/abs/2111.03004))
+* [[Yiannis Sakellaridis]], _Spherical Varieties, Functoriality, and Quantization_ ([arXiv:2111.03004](https://arxiv.org/abs/2111.03004))
+
+* [[David Ben-Zvi]], [[Yiannis Sakellaridis]], [[Akshay Venkatesh]], _Relative Langlands duality_ ([pdf](https://www.math.ias.edu/~akshay/research/BZSVpaperV1.pdf)).
