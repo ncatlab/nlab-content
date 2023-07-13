@@ -10,6 +10,8 @@ On [[nuclear physics]] via [[chiral perturbation theory]]/[[quantum hadrodynamic
 
 On [[skyrmions]]:
 
+* [[Ismail Zahed]], [[Gerald E. Brown]] *The Skyrme model*, Physics Reports **142** 1–2 (1986) 1-102 &lbrack;<a href="https://doi.org/10.1016/0370-1573(86)90142-0">doi:10.1016/0370-1573(86)90142-0</a>&rbrack;
+
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 On the [[Cheshire cat principle]] of the [[quark bag model]]:
