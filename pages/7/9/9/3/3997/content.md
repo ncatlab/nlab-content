@@ -24,8 +24,6 @@ Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the correspon
 
 If $F$ creates all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ creates that sort of limit (e.g. $F$ creates products, $F$ creates equalizers, etc.).
 
-When $F\colon C\to D$ is [[fully faithful]], i.e. $C$ is a [[full subcategory]] of $D$, the property of $F$ creating limits is sometimes described as $C$ being **closed under limits** in $D$. In this case, the reflection property is trivial, since fully faithful functors always [[reflected limit|reflect limits]], so it is enough for $C$ to admit limits and for $F$ to preserve them.
-
 ## Examples
 
 \begin{proposition}\label{MonadicFunctorsCreateLimits}
