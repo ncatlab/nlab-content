@@ -50,7 +50,7 @@ on [[confinement]].
 
 * [[Edward Witten]], *Some Milestones in the Study of Confinement* ([video](https://www.youtube.com/watch?v=TvIz-6YOdKs))
 
-  > on understanding confinement via [[Polyakov gauge-string duality|gauge-string duality]]/[[holographic QCD]]
+  > on understanding confinement via [[Polyakov gauge-string duality|gauge-string duality]]/[[holographic QCD]] and the [[Skyrmion model]]
 
   > [40:13](https://youtu.be/TvIz-6YOdKs?t=2413): "Personally, I think [[AdS/QCD|this setup]] really implies that pure [[Yang-Mills theory|$SU(N)$ gauge theory]] is [[gauge-string duality|dual]] to a [[string theory]]."
 
