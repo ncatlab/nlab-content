@@ -37,25 +37,40 @@ The key points are the following.
 
 1. It is easy (requires little resources and time) to check that a particular hash has the required properties. 
 
-Suppose that we have $n$ nodes in a network. Each node accepts as the current blockchain the longest valid blockchain which it knows of. If a node $X$ adds a block $B$ to a blockchain $L = [ B_1, \ldots, B_m ]$, i.e. succeeds in a creating a hash of some unencrypted block of content, it sends $L' = [B_1, \ldots, B_m, B]$ out to all nodes listening to/connected to it. If longest blockchain $L''$ which a node $Y$ knows of has length $m$, then upon receiving $L'$ it drops any attempts it is currently making to add a block to $L''$, checks the validity of $L'$, and if it is valid accepts it as the current blockchain.
+Suppose that we have $n$ nodes in a network. Each node accepts as the current blockchain the longest valid blockchain which it knows of. If a node $X$ adds a block $B$ to a blockchain $L = [ B_1, \ldots, B_m ]$, i.e. succeeds in a creating a hash of some unencrypted block of content, it sends $L' = [B_1, \ldots, B_m, B]$ out to all nodes listening to/connected to it. If the longest blockchain $L''$ which a node $Y$ knows of has length $m$, then upon receiving $L'$ it drops any attempts it is currently making to add a block to $L''$, checks the validity of $L'$, and if it is valid accepts it as the current blockchain.
 
 In such a system, it is extremely difficult for any node to tamper with the  blockchain. This is because if it wishes to change the content of a particular block, then because of 2. and 3. it must not only re-create the hash of the tampered block, but also the hash of all blocks after it, as well as the hash of a new block. If any honest node creates the hash of just one new block in the meantime and sends it out to the network, the tampering attempt now has still another block to hash. Because of the computational resources required to create even one valid hash, it is thus highly unlikely that tampering will succeed, and thus a tamperer may soon use up great amounts of resources for no gain. If successful adding of blocks is incentivised appropriately, it is thus more sensible to act honestly.
 
 There are various further details, but this is the rough idea.
 
 \section{Criticisms}
+ {#Criticism}
 
 While in its way ingenious, the use of proof of work underlying the notion of a blockchain is rather crude. Enormous amounts of electricity, for example, are [being consumed](https://digiconomist.net/bitcoin-energy-consumption) by large blockchain networks such as bitcoin during proof of work, whilst the outcome of that proof of work is typically useless. This is not sustainable. 
 
 A different criticism regards the algorithm itself. If nodes were to co-operate in such a way that they controlled over 50% of the computational power on the network, a tampering attempt would eventually be able to 'catch up' with the honest additions to the blockchain. 
 
+
 \section{Related concepts}
 
 * [[distributed computing]]
 
-\section{References}
+* [[smart contract]]
 
-* this wiki: [[smart contract]], [[Ethereum]], [[computer science]], [[high performance distributed ledger]], [[Telegram Open Network]], [[virtual machine]]
+* [[Ethereum]]
+
+* [[computer science]]
+
+* [[high performance distributed ledger]]
+
+* [[Telegram Open Network]]
+
+* [[virtual machine]]
+
+
+## References
+
+### General
 
 * {#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
 
@@ -105,6 +120,30 @@ ledger_, Ethereum, Tech. Rep. 2017
 * Ittay Eyal, Emin Gün Sirer, _Majority is not enough: Bitcoin mining is vulnerable_, in: Financial Cryptography and Data Security 436–454, Springer 2014 [pdf](http://fc14.ifca.ai/papers/fc14_submission_82.pdf)
 
 For an extended list of references see [[zoranskoda:blockchain]] (at zoranskoda). 
+
+### Formal verification
+ {#References}
+
+On [[formal methods]] for [[software verification|verification]] of blockchain consensus algorithms (with [[proof assistants]] such as [[Coq]] or [[Agda]]): 
+
+* [Hedera](https://hedera.com) blog: *[Formal Methods: The Importance of Being Fault Tolerant in a World with Bad Actors](https://medium.com/hedera/formal-methods-the-importance-of-being-abft-in-a-world-with-bad-actors-7308a4997fdd)* (2018)
+
+* *[1st Workshop on Formal Methods for Blockchains](https://sites.google.com/view/fmbc/)*(October 2019)
+
+* Musab A. Alturki, Jing Chen, Victor Luchangco, Brandon Moore, Karl Palmskog, Lucas Peña, Grigore Roşu, *Towards a Verified Model of the Algorand Consensus Protocol in Coq*, Formal Methods. FM 2019 International Workshops. Lecture Notes in Computer Science **12232** (2019) 362-367 &lbrack;[arXiv:1907.05523](https://arxiv.org/abs/1907.05523), [doi:10.1007/978-3-030-54994-7_27](https://doi.org/10.1007/978-3-030-54994-7_27)&rbrack;
+
+* [Quantstamp](https://quantstamp.com/) blog: *[Formally Verifying Hedera Hashgraph's Stablecoin Framework](https://quantstamp.com/blog/quantstamp-stablecoin-case-study-formally-verifying-hedera-hashgraphs-stablecoin-framework)* (2020)
+
+* Karl Crary, *Verifying the Hashgraph Consensus Algorithm* &lbrack;[arXiv:2102.01167](https://arxiv.org/abs/2102.01167), [pdf](https://www.cs.cmu.edu/~crary/papers/2021/hashgraph.pdf)&rbrack;
+
+
+* Harold Carr, Christopher Jenkins, Mark Moir, Victor Cacciari Miraldo, Lisandra Silva, *Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda: Extended Version*, in: *NASA Formal Methods: 14th International Symposium, NFM 2022* Proceedings  (2022) 616–635 &lbrack;[doi:10.1007/978-3-031-06773-0_33](https://doi.org/10.1007/978-3-031-06773-0_33), [arXiv:2203.14711](https://arxiv.org/abs/2203.14711)&rbrack;
+
+
+* Sudhani Verma; Divakar Yadav; Girish Chandra, *Introduction of Formal Methods in Blockchain Consensus Mechanism and Its Associated Protocols*, IEEE Access **10** (2022) &lbrack;[doi:10.1109/ACCESS.2022.3184799](https://doi.org/10.1109/ACCESS.2022.3184799), [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9801830)&rbrack;
+
+* [Quantstamp](https://quantstamp.com/) blog: *[Applying lightweight formal methods and SAT solvers to build better blockchain applications](https://quantstamp.com/blog/towards-satisfactory-web3-software-engineering)* (July 2023)
+
 
 category: computer science, applications
 
