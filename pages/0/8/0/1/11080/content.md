@@ -797,10 +797,10 @@ A pre-smooth set $X$, def. \ref{SmoothPreSpace} is a **[[smooth set]]** if for a
 
 We may think of a [[smooth set]] as being a kind of [[space]] whose _local models_ (in the general sense discussed at _[[geometry]]_) are [[Cartesian spaces]]:
 
-while definition \ref{SmoothSpace} explicitly says that a smooth set is something that is _consistently probeable_ by such local models; by a [[category theory|general abstract]] fact -- which we discuss in more detail below in _[smooth sets - Semantic Layer](#SmoothSpacesLayerSem)_  -- that is sometimes called the [[co-Yoneda lemma]] it follows in fact that smooth sets are precisely the objects that are obtained by
-_gluing coordinate systems_ together.
+{#AmalgamatingSmoothSetsFromCoordinateCharts} While definition \ref{SmoothSpace} explicitly says that a smooth set is something that is _consistently probeable_ by such local models, a [[category theory|general abstract]] fact sometimes called the *[[co-Yoneda lemma]]* -- which we discuss in more detail below in _[smooth sets - Semantic Layer](#SmoothSpacesLayerSem)_  --  implies that smooth sets are also precisely the objects that are obtained by
+_[[amalgamation|amalgamating]] coordinate systems_, in some sense.
 
-For instance we will see that two open 2-balls $\mathbb{R}^2 \simeq D^2$ along a common rim yields the smooth set version of the [[sphere]] $S^2$, a basic example of a [[smooth manifold]]. But before we examine such explicit constructions, we discuss here for the moment more general properties of smooth sets. The reader instead wishing to see more of these concrete examples at this point should jump ahead to _[smooth sets - Outlook](#SmoothSpacesOutlook)_.
+For instance, we will see that two open 2-balls $\mathbb{R}^2 \simeq D^2$ along a common rim yields the smooth set version of the [[sphere]] $S^2$, a basic example of a [[smooth manifold]]. But before we examine such explicit constructions, we discuss here for the moment more general properties of smooth sets. The reader instead wishing to see more of these concrete examples at this point should jump ahead to _[smooth sets - Outlook](#SmoothSpacesOutlook)_.
 
 =--
 
