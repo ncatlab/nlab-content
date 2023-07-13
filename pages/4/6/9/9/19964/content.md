@@ -223,6 +223,7 @@ have eluded physicists, notably concepts such as the ‘Cheshire Cat phenomenon�
 
 > What has taken place since 1983 is a beautiful story in [[physics]]. It has not only profoundly influenced nuclear physics — which was Skyrme’s original aim — but also brought to light hitherto unforseen phenomena in other areas of physics, such as [[condensed matter physics]], [[astrophysics]] and [[string theory]].
 
+
 ## References
 
 ### General
@@ -232,6 +233,7 @@ The original articles:
 * {#Skyrme62} [[Tony Skyrme]], _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
 * {#AdkinsNappiWitten83} [[Gregory Adkins]], [[Chiara Nappi]], [[Edward Witten]], _Static Properties of Nucleons in the Skyrme Model_, Nucl. Phys. B228 (1983) 552 ([spire:190174](http://inspirehep.net/record/190174), <a href="https://doi.org/10.1016/0550-3213(83)90559-X">doi:10.1016/0550-3213(83)90559-X</a>)
+
 
 Textbook accounts:
 
@@ -268,7 +270,9 @@ Other review:
 
 * Yossef Dothan, L. C. Biedenham, *Old models never die: the revival of the Skyrme model*, Comments on Nuclear and Particle Physics **17** 2 (1987) 63-91 ([spire:18567](https://inspirehep.net/literature/18567), [pdf](https://inspirehep.net/files/e03cc4f4c9fa76aa4a94436cba63443b))
 
-* {#BrownRho88} G. E. Brown, [[Mannque Rho]], _The Chiral Bag_, Comments Nucl. Part. Phys. 18 (1988) no.1, 1-29 ([spire:18025](http://inspirehep.net/record/18025))
+* [[Ismail Zahed]], [[Gerald E. Brown]] *The Skyrme model*, Physics Reports **142** 1–2 (1986) 1-102 &lbrack;<a href="https://doi.org/10.1016/0370-1573(86)90142-0">doi:10.1016/0370-1573(86)90142-0</a>&rbrack;
+
+* {#BrownRho88} [[Gerald E. Brown]], [[Mannque Rho]], *The Chiral Bag*, Comments Nucl. Part. Phys. **18** 1 (1988) 1-29 &lbrack;[spire:18025](http://inspirehep.net/record/18025)&rbrack;
 
   (in relation to the [[bag model of quark confinement]])
 
