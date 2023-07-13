@@ -203,7 +203,7 @@ Suppose $C$ and $D$ are categories that admit [[small colimits]]
 (i.e., are [[cocomplete]])
 and $F\colon C\to D$ is a functor that preserves [[small colimits]]
 (i.e., is cocontinuous).
-The $F$ has a [[right adjoint functor]]
+The $F$ has a [[right adjoint functor|right adjoint]]
 if and only if for any object $d\in D$
 the functor
 $$C^{op} \to Set$$
