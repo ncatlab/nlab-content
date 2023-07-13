@@ -17,6 +17,12 @@ Introducing the modern notion of [[equivalence in type theory]] (namely via [[co
 
 * {#UnivalentFoundationsProject} [[Vladimir Voevodsky]],  *Univalent Foundations Project* (2010) &lbrack;[pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf), [[Voevodsky-UFP2010.pdf:file]]&rbrack;
 
+Proposal for a "[[Homotopy Type System]]" (cf. *[[semisimplicial type]]*):
+
+* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) &lbrack;[[Voevodsky-HTS.pdf:file]]&rbrack;
+
+* [[Vladimir Voevodsky]], _A simple type system_ (Jan 2013) &lbrack;[[Voevodsky-TTS.pdf:file]], [Implementation](https://github.com/DanGrayson/checker)&rbrack;
+
 
 ## Selected Talks
 
