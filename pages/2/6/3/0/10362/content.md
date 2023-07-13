@@ -268,6 +268,11 @@ Review:
 
 * {#Kuperberg05} [[Greg Kuperberg]], section 1.6.2 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
+on a background of [[quantum logic]]:
+
+* Laura Molenaar, *Quantum logic and the EPR paradox*, Delft (2014) &lbrack;[uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b](http://resolver.tudelft.nl/uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b)&rbrack;
+
+
 Experiments:
 
 * {#Aspect15} [[Alain Aspect]], *[Closing the Door on Einstein and Bohr’s Quantum Debate](https://physics.aps.org/articles/v8/123)*, Physics **8** 123 (2015)
