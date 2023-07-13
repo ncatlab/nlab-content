@@ -121,7 +121,7 @@ For more on this see at *[[holographic entanglement entropy]]*.
 
 ## Related entries
 
-* [[entanglement]]
+* [[entanglement]], [[EPR paradox]]
 
 * [[wormhole]]
 
