@@ -140,7 +140,9 @@ The original result of the [[Ryu-Takayanagi formula]]:
 
 The slogan "ER = EPR" is due to:
 
- * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
+ * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811 &lbrack;[arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)&rbrack;
+
+* {#Susskind14} [[Leonard Susskind]], *ER=EPR, GHZ, and the consistency of quantum measurements*, Fortsch. Phys. **64** 1 (2016) 72-83 &lbrack;[arXiv:1412.8483](https://arxiv.org/abs/1412.8483), [doi:10.1002/prop.201500094](https://doi.org/10.1002/prop.201500094)&rbrack;
 
 An email exchange of similar content that happened half a year earlier is recalled in:
 
