@@ -387,7 +387,7 @@ On Beck's theorem for [[pseudomonads]] ([[higher monadic descent]]):
 
 Discussion for [[(infinity,1)-monads]]:
 
-* [[Jacob Lurie]], section 6.2. of _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 4.7 of _[[Higher Algebra]]_
 
 and realized in the context of [[quasi-categories]]:
 
