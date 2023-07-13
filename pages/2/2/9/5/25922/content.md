@@ -44,6 +44,8 @@ on [[confinement]].
 
 ### 11 July 2022
 
+* [[Michael Teper]], *Lattice Gauge Theory and Confinement - an Introduction II* ([video](https://www.youtube.com/watch?v=AI7v9lW8mfs))
+
 * [[Phiala Shanahan]], *Lattice Field Theories with Fermions — Part 1* ([video](https://www.youtube.com/watch?v=hVsCCvsIPFA))
 
 * [[Mithat Unsal]], *Adiabatic Continuity, Compactification, and Confinement II* ([video](https://www.youtube.com/watch?v=1OR6cJX-VG4))
@@ -58,6 +60,10 @@ on [[confinement]].
 ### 12 July 2022
 
 * [[Mithat Unsal]], *Adiabatic Continuity, Compactification, and Confinement III* ([video](https://www.youtube.com/watch?v=P9HEmLtfNhg))
+
+* [[Phiala Shanahan]], *Lattice Field Theories with Fermions — Part 2* ([video](https://www.youtube.com/watch?v=MOhIApkF6iE))
+
+* [[Michael Teper]], *Lattice Gauge Theory and Confinement - an Introduction III* ([video](https://www.youtube.com/watch?v=CZsR10ug1lU))
 
 category:reference
 
