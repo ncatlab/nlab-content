@@ -46,9 +46,10 @@ Review and discussion:
 
 * [[Roland Omnès]], §9 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
-* Arthur Fine, _The Einstein-Podolsky-Rosen Argument in Quantum Theory_, Stanford Encyclopedia of Philosophy ([web](http://plato.stanford.edu/entries/qt-epr/))
+* Arthur Fine, *The Einstein-Podolsky-Rosen Argument in Quantum Theory*, Stanford Encyclopedia of Philosophy &lbrack;[web](http://plato.stanford.edu/entries/qt-epr/)&rbrack;
 
-* Anthony Sudbery, chapter 5 of: *Quantum mechanics and the particles of nature: An outline for mathematicians* 
+* [[Anthony Sudbery]], §5.3 of: *Quantum mechanics and the particles of nature: an outline for mathematicians*, Cambridge University Press (1986) &lbrack;[pdf](http://users.uoa.gr/~navidcon/sudbery.pdf), [spire:240835](https://inspirehep.net/literature/240835)&rbrack;
+
 
 See also:
 
