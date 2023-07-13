@@ -85,25 +85,23 @@ Discussion of semi-simplicial [[fiber bundles]] is in
 
 Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy type theory]] (for use as discussed at _[[category object in an (infinity,1)-category]]_) is in
 
-* [[UF-IAS-2012]], _[Semi-simplicial types](http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
- {#IAS}
-
+* {#IAS} [[UF-IAS-2012]], _[Semi-simplicial types](https://web.archive.org/web/20180728221737/http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
+ 
 [[Coq]]-code for semi-simplicial types in [[homotopy type theory]] had been proposed in
 
-* [[Vladimir Voevodsky]], _[semisimplicial.v](http://uf-ias-2012.wikispaces.com/file/detail/semisimplicial.v)_
+* [[Vladimir Voevodsky]], _[[Voevodsky-semisimplicial.txt:file]]_
 
 but its execution requires augmenting [[homotopy type theory]] with an auxilirary [[extensional type theory|extensional]] [[identity type]], discussed in 
 
-* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) ([pdf](http://uf-ias-2012.wikispaces.com/file/view/HTS_slides.pdf/410105196/HTS_slides.pdf))
+* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) &lbrack;[[Voevodsky-HTS.pdf:file]]&rbrack;
 
 See at _[[Homotopy Type System]]_ ("HTS") for more on this.
 
 More along these lines is in 
 
-* [[Hugo Herbelin]], _A dependently-typed construction of semi-simplicial types_ (March 2013) ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi-simplicial.pdf/416038766/semi-simplicial.pdf))
+* [[Hugo Herbelin]], _A dependently-typed construction of semi-simplicial types_ (March 2013) &lbrack;[[Herbelin-SemiSimplicial.pdf:file]]&rbrack;
 
-
-* [[Bruno Barras]], [[Thierry Coquand]], Simon Huber, _A generalization of Takeuti-Gandy Interpretation_  ([pdf](https://uf-ias-2012.wikispaces.com/file/view/semi.pdf))
+* [[Bruno Barras]], [[Thierry Coquand]], [[Simon Huber]], _A generalization of Takeuti-Gandy Interpretation_  &lbrack;[[BarrasCoquandHuber-TakeutiGandyInterpretation.pdf:file]]&rbrack;
 
 [[!redirects semi-simplicial object]]
 [[!redirects semisimplicial object]]
