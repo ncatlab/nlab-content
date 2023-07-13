@@ -18,7 +18,7 @@
 
 A _certification_ or _formal verification_ of a computer program is a formalized guarantee -- a [[proof]] -- that the program has given specified properties.  For instance, it could be guaranteed to compute a given output based on a given input, or to always terminate, or to not include a certain kind of security hole.
 
-Certifications often take the form of a [[proof]] that a program, regarded as a [[term]] of some sort (under _[[programs as proofs]]_), has a specified [[type]].  Thus, [[programming languages]] based on highly expressive [[type theories]] (including [[dependent types]]) are a natural place to do certified programming "natively".  Examples are _[[Coq]]_ and _[[Agda]]_. In this case, the program is written at the same time as a proof of its certification.  One often then wants to "extract" the executable code or "ignore" the proof part of the terms when actually running the code, for performance reasons; Coq and Agda include mechanisms designed for this.
+Certifications often take the form of a [[formal proof]] (whence "formal methods" [WLBF09](#WLBF09)) that a program, regarded as a [[term]] of some sort (under _[[programs as proofs]]_), has a specified [[type]].  Thus, [[programming languages]] based on highly expressive [[type theories]] (including [[dependent types]]) are a natural place to do certified programming "natively".  Examples are _[[Coq]]_ and _[[Agda]]_. In this case, the program is written at the same time as a proof of its certification.  One often then wants to "extract" the executable code or "ignore" the proof part of the terms when actually running the code, for performance reasons; Coq and Agda include mechanisms designed for this.
 
 It is also possible to write a program in some less strongly typed language and provide an "external" certification for it, rather than one built into the program itself.  Computer proof assistants like [[Coq]] and [[Agda]] are also used for this, using a formal representation of some other programming language.  There are also other program analysis tools which can produce automated proofs of certain aspects of a computer program, such as safety and termination (although of course a *complete* solution to termination-checking is impossible, being the [[halting problem]]).
 
@@ -47,13 +47,16 @@ From [Ghani et al. 15](#GhaniEtAl15):
 
 * [[Hoare logic]]
 
+
 ## References
 
 ### General
 
 Introduction:
 
-* Patrick Cousot, Radhia Cousot, *A gentle introduction to formal verification of computer systems by abstract interpretation*, NATO Science for Peace and Security Series - D: Information and Communication Security, **25** Logics and Languages for Reliability and Security (2009)&lbrack;[doi:10.3233/978-1-60750-100-8-1](https://dx.doi.org/10.3233/978-1-60750-100-8-1), [pdf](https://www.di.ens.fr/~cousot/publications.www/CousotCousot-Marktoberdorf-2009.pdf)&rbrack;
+* {#WLBF09} Jim Woodcock, Peter Gorm Larsen, Juan Bicarregui, John Fitzgerald, *Formal methods: Practice and experience*, ACM Computing Surveys **41**  19  (2009) 1–36 &lbrack;[doi:10.1145/1592434.1592436](https://doi.org/10.1145/1592434.1592436)&rbrack;
+
+* Patrick Cousot, Radhia Cousot, *A gentle introduction to formal verification of computer systems by abstract interpretation*, NATO Science for Peace and Security Series - D: Information and Communication Security, **25** Logics and Languages for Reliability and Security (2009)&lbrack;[doi:10.3233/978-1-60750-100-8-1](https://dx.doi.org/10.3233/978-1-60750-100-8-1), [pdf](https://www.di.ens.fr/~cousot/publications.www/CousotCousot-Marktoberdorf-2009.pdf), [[CousotCousot-FormalVerification.pdf:file]]&rbrack;
 
 * [[John Harrison]], *Formal Verification*, Lecture notes Marktoberdorf 2010 &lbrack;[web](https://www.cl.cam.ac.uk/~jrh13/papers/mark10.html), [pdf](https://www.cl.cam.ac.uk/~jrh13/papers/mark10.pdf), [[Harrison-FormalVerification.pdf:file]]&rbrack;
 
@@ -155,9 +158,13 @@ Background:
 
 With [[Coq]]:
 
-* [Hedera](https://hedera.com/) blog: *[Coq Proof Completed By Carnegie Mellon Professor Confirms Hashgraph Consensus Algorithm Is Asynchronous Byzantine Fault Tolerant](https://hedera.com/blog/coq-proof-completed-by-carnegie-mellon-professor-confirms-hashgraph-consensus-algorithm-is-asynchronous-byzantine-fault-tolerant)* (Oct 2018)
+* [Hedera](https://hedera.com) blog: *[Coq Proof Completed By Carnegie Mellon Professor Confirms Hashgraph Consensus Algorithm Is Asynchronous Byzantine Fault Tolerant](https://hedera.com/blog/coq-proof-completed-by-carnegie-mellon-professor-confirms-hashgraph-consensus-algorithm-is-asynchronous-byzantine-fault-tolerant)* (Oct 2018)
+
+* [Hedera](https://hedera.com) blog: *[Formal Methods: The Importance of Being Fault Tolerant in a World with Bad Actors](https://medium.com/hedera/formal-methods-the-importance-of-being-abft-in-a-world-with-bad-actors-7308a4997fdd)* (2018)
 
 * {#Baird18} Leemon Baird: *Formal Methods: A Deep Dive Using the Coq Proof Assistant -- Hedera18* (2018) &lbrack;video: [YT](https://youtu.be/6q15ytIOE3U?list=RDCMUCIhE4NYpaX9E9SssFnwrjww)&rbrack;
+
+* Matthew Salazar, *Consensus, Blockchain and Proof Assistants* (2018) &lbrack;[pdf](http://matthew-salazar-1.s3.amazonaws.com/static/analyze/pdf/Consensus_Blockchain_and_Proof_Assistants.pdf), [[Salazar-ConsensusProof.pdf:file]]&rbrack;
 
 * Karl Crary, *Formalizing the Hashgraph gossip protocol*, talk at *CyLab Partners Conference* (2019) &lbrack;[pdf](https://www.cylab.cmu.edu/_files/documents/formal-methods-3-kcrary-formalizing-the-hashgraph-gossip-protocol.pdf)&rbrack;
 
@@ -165,9 +172,11 @@ With [[Coq]]:
 
 * Musab A. Alturki, Jing Chen, Victor Luchangco, Brandon Moore, Karl Palmskog, Lucas Peña, Grigore Roşu, *Towards a Verified Model of the Algorand Consensus Protocol in Coq*, Formal Methods. FM 2019 International Workshops. Lecture Notes in Computer Science **12232** (2019) 362-367 &lbrack;[arXiv:1907.05523](https://arxiv.org/abs/1907.05523), [doi:10.1007/978-3-030-54994-7_27](https://doi.org/10.1007/978-3-030-54994-7_27)&rbrack;
 
+
+
 With [[Agda]]:
 
-* Harold Carr, Christopher Jenkins, Mark Moir, Victor Cacciari Miraldo, Lisandra Silva, *Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda: Extended Version* &lbrack;[arXiv:2203.14711](https://arxiv.org/abs/2203.14711)&rbrack;
+* Harold Carr, Christopher Jenkins, Mark Moir, Victor Cacciari Miraldo, Lisandra Silva, *Towards Formal Verification of HotStuff-based Byzantine Fault Tolerant Consensus in Agda: Extended Version*, in: *NASA Formal Methods: 14th International Symposium, NFM 2022* Proceedings  (2022) 616–635 &lbrack;[doi:10.1007/978-3-031-06773-0_33](https://doi.org/10.1007/978-3-031-06773-0_33), [arXiv:2203.14711](https://arxiv.org/abs/2203.14711)&rbrack;
 
 
 See also:
@@ -175,6 +184,14 @@ See also:
 * {#SpittersConcordium} [[Bas Spitters]], *[Formal verificaton](https://cs.au.dk/research/centers/concordium/research-areas/formal-verification)* at *[Concordium Blockchain Research Center](https://cs.au.dk/research/centers/concordium/)*
 
 * {#ThomsenSpitters20} Søren Eller Thomsen, [[Bas Spitters]], *Formalizing Nakamoto-Style Proof of Stake* &lbrack;[eprint:2020/917](https://eprint.iacr.org/2020/917)&rbrack;
+
+* *[1st Workshop on Formal Methods for Blockchains](https://sites.google.com/view/fmbc/)*(October 2019)
+
+* [Quantstamp](https://quantstamp.com/) blog: *[Formally Verifying Hedera Hashgraph's Stablecoin Framework](https://quantstamp.com/blog/quantstamp-stablecoin-case-study-formally-verifying-hedera-hashgraphs-stablecoin-framework)* (2020)
+
+* Sudhani Verma; Divakar Yadav; Girish Chandra, *Introduction of Formal Methods in Blockchain Consensus Mechanism and Its Associated Protocols*, IEEE Access **10** (2022) &lbrack;[doi:10.1109/ACCESS.2022.3184799](https://doi.org/10.1109/ACCESS.2022.3184799), [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9801830)&rbrack;
+
+* [Quantstamp](https://quantstamp.com/) blog: *[Applying lightweight formal methods and SAT solvers to build better blockchain applications](https://quantstamp.com/blog/towards-satisfactory-web3-software-engineering)* (July 2023)
 
 
 #### Via homotopy type theory
@@ -348,3 +365,7 @@ On [[hardware verification]] using [[proof assistants]]:
 
 [[!redirects hardware verification]]
 [[!redirects hardware verifications]]
+
+[[!redirects formal method]]
+[[!redirects formal methods]]
+
