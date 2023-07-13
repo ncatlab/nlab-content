@@ -176,9 +176,9 @@ The first definition is a naive translation of "strict 2-category" from set theo
 
 ## History 
 
-As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement (1958)](#Godement58), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken a few years later by [Ehresmann (1965)](#Ehresmann65). In any event, the primitive compositional operations in [Godement (1958)](#Godement58) were what we call *[[vertical composition]]* and *[[whiskering]]*, with [[horizontal composition]] of [[natural transformations]] being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, [[horizontal composition]] is often called the *Godement product*. 
+As intimated above, the essential rules which abstractly govern the behavior of functors and natural transformations and their various compositions were made explicit by [Godement (1958)](#Godement58), in his "five rules of functorial calculus". He did not however go as far as use these rules to define the abstract notion of 2-category; this step was taken later by [Bénabou (1965)](#Bénabou65). In any event, the primitive compositional operations in [Godement (1958)](#Godement58) were what we call *[[vertical composition]]* and *[[whiskering]]*, with [[horizontal composition]] of [[natural transformations]] being a derived operation (made unambiguous in the presence of the interchange axiom). Indeed, [[horizontal composition]] is often called the *Godement product*. 
 
-A few years after that, B&#233;nabou introduced the more general notion of *[[bicategories]]*. 
+A few years after introducing 2-categories, B&#233;nabou introduced the more general notion of *[[bicategories]]*. 
 
 Literature references for the abstract notion of [[sesquicategory]], a structure in which vertical compositions and whiskerings are primitive, do not seem to be abundant, but they are mentioned for example in [Street (1996)](#Street96) together with the observation that 2-categories are special types of sesquicategories (page 535). 
 
