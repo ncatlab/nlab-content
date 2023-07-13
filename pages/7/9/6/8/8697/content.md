@@ -63,6 +63,10 @@ See also:
 
 Realization in [[experiment]]:
 
+with massive bodies:
+
+* Roman Schnabel, *Einstein-Podolsky-Rosen -- entangled motion of two massive objects*,  Phys. Rev. A **92** 012126 (2015) &lbrack;[arXiv;1508.06462](https://arxiv.org/abs/1508.06462), [doi:10.1103/PhysRevA.92.012126](https://doi.org/10.1103/PhysRevA.92.012126)&rbrack;
+
 with [[Bose-Einstein condensates]]:
 
 * Paolo Colciaghi, Yifan Li, Philipp Treutlein, Tilman Zibold, *Einstein-Podolsky-Rosen experiment with two Bose-Einstein condensates* &lbrack;[arXiv:2211.05101](https://arxiv.org/abs/2211.05101)&rbrack;
