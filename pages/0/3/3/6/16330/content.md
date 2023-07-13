@@ -66,7 +66,7 @@ See also:
 
 * W. Farmer, _The seven virtues of simple type theory_, Journal of Applied Logic, Vol. 6, No. 3. (September 2008), pp. 267-286.
 
-
+* [[Nathanael Arkor]], [[Marcelo Fiore]], *Algebraic models of simple type theories: a polynomial approach*, Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science, July 2020, Pages 88-101 ([doi:10.1145/3373718.3394771](https://doi.org/10.1145/3373718.3394771), [arXiv:2006.16949](https://arxiv.org/abs/2006.16949))
 
 [[!redirects simple type theories]]
 
