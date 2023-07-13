@@ -20,7 +20,7 @@
 =--
 =--
 
-[[!redirects HTS]]
+
 
 # Contents
 * table of contents
@@ -31,9 +31,12 @@
 Proposed by [[Vladimir Voevodsky]], **Homotopy Type System (HTS)** is a type theory with two equality types, an "exact" or "strict" one which satisfies a [[reflection rule]], and a "path" or "homotopical" one which does not. It also distinguishes between "[[fibrant]]" and "non-fibrant" types: the path type only eliminates into fibrant types.
 
 ## Specification
+ {#Specifiation}
 
-* [[HTS.pdf:file]], [Slides](https://uf-ias-2012.wikispaces.com/file/view/HTS_slides.pdf/410105196/HTS_slides.pdf)
-* [TTS](http://uf-ias-2012.wikispaces.com/file/view/TTS.pdf) is a precursor for this system. [Implementation](https://github.com/DanGrayson/checker)
+* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) &lbrack;[[Voevodsky-HTS.pdf:file]]&rbrack;
+
+* [[Vladimir Voevodsky]], _A simple type system_ (Jan 2013) &lbrack;[[Voevodsky-TTS.pdf:file]], [Implementation](https://github.com/DanGrayson/checker)&rbrack;
+
 
 ## Implementation
 
@@ -168,5 +171,8 @@ It follows that $R(KP)$ is a fibrant type which is inhabited in the model in $sS
 
 * [[Danil Annenkov]], [[Paolo Capriotti]], [[Nicolai Kraus]], [[Christian Sattler]]: *Two-Level Type Theory and Applications* &lbrack;[arXiv:1705.03307](https://arxiv.org/abs/1705.03307)&rbrack; 
 
+
+
+[[!redirects HTS]]
 
 
