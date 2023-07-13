@@ -605,6 +605,13 @@ from Lee-Wald, Crnkovic-Witten, Ashtekar
 
   Result: Modern, elementary treatment of the Peierls bracket, including for classical fermi fields. The discussion is simplified by sticking to non-degenerate (or gauge fixed) actions. The choice of coordinates on the space of field configurations is simplified by considering only vector bundle valued fields.
 
+A different but related approach is 
+
+* {#KijowskiTulczyjew05} [[Jerzy Kijowski]], [[Wlodzimierz M. Tulczyjew]], *A Symplectic Framework for Field Theories*, Lecture Notes in Physics **107** (1979, 2005) &lbrack;[doi:10.1007/3-540-09538-1](https://doi.org/10.1007/3-540-09538-1)&rbrack;
+
+also discussed (with focus on application to [[gravity]]) in:
+
+* [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*,  Encyclopedia of Mathematical Physics (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
 
 
