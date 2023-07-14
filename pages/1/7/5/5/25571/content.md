@@ -50,11 +50,13 @@ A [[total category]] is a category whose [[Yoneda embedding]] admits a [[left ad
 
 ### Compact categories
 
-A category $A$ is **[[compact category|compact]]** in the sense of [Isbell (1968)](#Isbell68) if every [[cocontinuous functor]] from $A$ has a [[right adjoint]].
+A category $A$ is **[[compact category|compact]]** in the sense of [Isbell (1968)](#Isbell68) if every (large-)[[cocontinuous functor]] from $A$ has a [[right adjoint]].
 
 > Beware that this is *un-related* to the notion of [[compact closed category]].
 
 Every compact category has small [[limits]] and [[intersections]] of [[monomorphisms]], but not necessarily small colimits. A [[counterexample]] is mentioned in §3.15 of [Börger et al.](#Borger1981).
+
+A category $A$ is called **strongly compact** in [Brandenburg](#Brandenburg2021) if every small-[cocontinuous functor]] from $A$ has a [[right adjoint]]. Every strongly compact category is consequently compact.
 
 ## All large colimits
 
@@ -78,7 +80,7 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 
 * {#LackTendas2023} [[Stephen Lack]] and [[Giacomo Tendas]]. _Virtual concepts in the theory of accessible categories_. Journal of Pure and Applied Algebra 227.2 (2023): 107196.
 
-* [[Martin Brandenburg]]. _Large limit sketches and topological space objects_. [arXiv preprint 2106.11115](https://arxiv.org/abs/0810.1279) (2021).
+* {#Brandenburg2021} [[Martin Brandenburg]]. _Large limit sketches and topological space objects_. [arXiv preprint 2106.11115](https://arxiv.org/abs/0810.1279) (2021).
 
 [[!redirects compact category]]
 [[!redirects compact categories]]
