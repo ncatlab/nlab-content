@@ -15,7 +15,9 @@
 
 ## Statements
 
-In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object]] or [[group object]] [[internalization|internal]] to the [[category of monoids]] or [[Groups]] is [[abelian group|commutative]]. In other terms, if a [[set]] is equipped with two [[monoid]] structures, such that one is a [[homomorphism]] for the other, then the two structures coincide and the resulting monoid is [[commutative monoid|commutative]].
+In its original form, the _Eckmann--Hilton argument_ shows that a [[monoid object]] or [[group object]] [[internalization|internal]] to the [[category of monoids]] or [[Groups]] is necessarily [[abelian group|commutative]]. 
+
+In other words this says that if a [[set]] is equipped with a [[pair]] o [[monoid]] [[structures]], such that one is a [[homomorphism]] for the other, then the two structures actually coincide and the resulting monoid is [[commutative monoid|commutative]].
 
 From the [[nPOV]], we may want to think of the statement in this way:
 
