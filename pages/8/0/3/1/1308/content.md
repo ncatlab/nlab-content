@@ -39,7 +39,7 @@ A more general version is this:  If a set is equipped with two binary operations
 1.  the operation is commutative;
 1.  the operation is associative.
 
-This can also be [[internalisation|internalised]] in any [[monoidal category]].
+This can also be [[internalisation|internalised]] in any [[symmetric monoidal category]].
 
 
 ## Proofs
