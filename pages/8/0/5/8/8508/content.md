@@ -79,7 +79,9 @@ Special Issue on Super Riemann Surfaces and String Theory ([arXiv:1209.2459](htt
 
 See also:
 
-* [[Ugo Bruzzo]], Daniel Hernández Ruipérez, *The supermoduli of SUSY curves with Ramond punctures* ([arXiv:1910.12236](https://arxiv.org/abs/1910.12236))
+* [[Ugo Bruzzo]], Daniel Hernández Ruipérez, *The supermoduli of SUSY curves with Ramond punctures* &lbrack;[arXiv:1910.12236](https://arxiv.org/abs/1910.12236)&rbrack;
+
+* Dimitri Skliros, *Moving NS Punctures on Super Spheres* &lbrack;[arXiv:2307.06355](https://arxiv.org/abs/2307.06355)&rbrack;
 
 
 
