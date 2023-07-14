@@ -492,6 +492,11 @@ For functors in homotopy type theory
 
 * _[functors_transformations.v](https://github.com/benediktahrens/rezk_completion/blob/master/functors_transformations.v)_
 
+Formalization in [[cubicalAgda]]:
+
+* [[1lab]], *[Functors](https://1lab.dev/Cat.Functor.Base.html#functors)*
+
+
 [[!redirects functors]]
 [[!redirects covariant functor]]
 [[!redirects covariant functors]]
