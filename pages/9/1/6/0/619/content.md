@@ -145,7 +145,7 @@ The equivalence of statements (1), (2), (4) and (5) are originally due to ([Gabr
 
 The equivalence of (1) and (2) is [this proposition](adjoint+functor#FullyFaithfulAndInvertibleAdjoints). The equivalence of (1) and (4) is [this Prop.](idempotent+monad#EquivalentConditions). For (5) see _[[reflective localization]]_. The equivalence of (1) and (6) can be seen by observing that $lan_L L \cong L lan_L id \cong L R$, which is pointwise, since $lan_L id$ is absolute, and is isomorphic to the identity if and only if $R$ is fully faithful.
 
-To prove that (3) implies (2), the argument is to transfer the monad structure on $R L$ across the isomorphism to a monad structure on $1_B$, and observe for any monad structure on $1_B$ the unit is inverse to the multiplication, making this monad idempotent; thus the original monad structure on $R L$ must have been idempotent.  The same argument shows that for a monad in any 2-category the counit $\varepsilon : L R \to 1_B$ is an isomorphism iff $L R$ is isomorphic to $1_B$.
+To prove that (3) implies (2), the argument is to transfer the comonad structure on $L R$ across the isomorphism to a comonad structure on $1_B$, and observe that for any comonad structure on $1_B$ the counit is inverse to the comultiplication; thus the counit $\varepsilon$ of the original comonad structure on $L R$ must have been invertible. The same argument shows that for a comonad in any 2-category the counit $\varepsilon : L R \to 1_B$ is an isomorphism iff $L R$ is isomorphic to $1_B$.
 
 =--
 
@@ -320,7 +320,7 @@ The [[category of sheaves]] on a [[site]] $S$ is a reflective subcategory of the
 
 A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [[concrete site]] is a reflective subcategory.
 
-=--
+=--apocalypticists
 
 
 +-- {: .num_example }
@@ -376,7 +376,7 @@ For any [[Lawvere theory]] $T$, its category of models is the category
 $$Prod(T, Set)$$
 of product preserving functors into $Set$ and natural transformations between them. The inclusion 
 $$Prod(T, Set) \hookrightarrow [T, Set]$$
-is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,Set]$ is complete and cocomplete (limits and colimits are computed pointwise), so is $Prod(T, Set)$. This implies that many familar algebraic categories such as [[Grp]], [[Mon]], [[Ring]], etc. are complete and cocomplete as a special case.
+is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,Set]$ is complete and cocomplete (limitsapocalypticists and colimits are computed pointwise), so is $Prod(T, Set)$. This implies that many familar algebraic categories such as [[Grp]], [[Mon]], [[Ring]], etc. are complete and cocomplete as a special case.
 =--
 
 ## Related concepts
