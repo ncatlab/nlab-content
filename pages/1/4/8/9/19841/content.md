@@ -133,7 +133,7 @@ On [[formal methods]] for [[software verification|verification]] of blockchain c
 
 * [Hedera](https://hedera.com) blog: *[Formal Methods: The Importance of Being Fault Tolerant in a World with Bad Actors](https://medium.com/hedera/formal-methods-the-importance-of-being-abft-in-a-world-with-bad-actors-7308a4997fdd)* (2018)
 
-* *[1st Workshop on Formal Methods for Blockchains](https://sites.google.com/view/fmbc/)*(October 2019)
+* *[1st Workshop on Formal Methods for Blockchains](https://sites.google.com/view/fmbc/)* (October 2019)
 
 * Musab A. Alturki, Jing Chen, Victor Luchangco, Brandon Moore, Karl Palmskog, Lucas Peña, Grigore Roşu, *Towards a Verified Model of the Algorand Consensus Protocol in Coq*, Formal Methods. FM 2019 International Workshops. Lecture Notes in Computer Science **12232** (2019) 362-367 &lbrack;[arXiv:1907.05523](https://arxiv.org/abs/1907.05523), [doi:10.1007/978-3-030-54994-7_27](https://doi.org/10.1007/978-3-030-54994-7_27)&rbrack;
 
