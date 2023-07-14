@@ -42,12 +42,13 @@ Every [[fully faithful functor]], and more generally any [[pseudomonic functor]]
 Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
 \end{example}
 
-\begin{example}
 But further would-be converses of Exp. \ref{FullyFaithfulFunctorIsConservative} fail: not every conservative functor is full or faithful:
 
+\begin{example}
 An example of a functor that is conservative but not full is the inclusion of the [[groupoid core]] $Core(\mathcal{C}) \longrightarrow \mathcal{C}$ of a [[category]] $\mathcal{C}$ that is itself not a groupoid, into that category.  
 \end{example}
 
+\begin{example}
 An example of a functor that is conservative but not faithful is the unique functor from any groupoid with two distinct isomorphisms $f, g : x \to y$ to the [[terminal]] groupoid.
 \end{example}
 
