@@ -31,4 +31,6 @@ on [[monoidal functors]], [[combinatorial species]] and [[Hopf algebras]].
 
 * [[shuffle]]
 
+* [[duoidal category|Duoidal category]]
+
 category: reference
