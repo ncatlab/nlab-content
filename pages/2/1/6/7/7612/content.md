@@ -309,7 +309,7 @@ See also:
 
 * [[Mingsheng Ying]], Zhengfeng Ji, *Symbolic Verification of Quantum Circuits*,  $[$[arXiv:2010.03032](https://arxiv.org/abs/2010.03032)$]$
 
-* Li Zhou, Gilles Barthe, Pierre-Yves Strub, Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs* &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350)&rbrack;
+* [[Li Zhou]], [[Gilles Barthe]], [[Pierre-Yves Strub]], Junyi Liu, [[Mingsheng Ying]], *CoqQ: Foundational Verification of Quantum Programs*, Proceedings of the ACM on Programming Languages **7** POPL 09 (2023) 29 833–865 &lbrack;[arXiv:2207.11350](https://arxiv.org/abs/2207.11350), [doi:10.1145/3554343]( https://doi.org/10.1145/3554343)&rbrack;
 
   > (in [[Coq]])
 
