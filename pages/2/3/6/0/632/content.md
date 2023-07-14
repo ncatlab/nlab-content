@@ -39,7 +39,7 @@ See [[conservative morphism]] for a generalization to an arbitrary [[2-category]
 \begin{example}\label{FullyFaithfulFunctorIsConservative}
 Every [[fully faithful functor]], and more generally any [[pseudomonic functor]], is a conservative functor. 
 
-Conversely, every [[faithful functor|faithful]] conservative functor is [[pseudomonic]].
+(Every [[fully faithful functor]] is [[pseudomonic]].)
 \end{example}
 
 But further would-be converses of Exp. \ref{FullyFaithfulFunctorIsConservative} fail: not every conservative functor is full or faithful:
@@ -123,14 +123,18 @@ Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and s
 
 ## Literature
 
+
 * Geun Bin Im, [[Gregory Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](http://mathnet.kaist.ac.kr/mathnet/thesis_file/JKMS-23-1-19-33.pdf); _On classes of morphisms closed under limits_, J. Korean Math. Soc. __23__ (1986), no. 1, 1&#8211;18, _Adjoint-triangle theorems for conservative functors_, Bull. Austral. Math. Soc. __36__ (1987),  no. 1, 133&#8211;136, [MR88k:18005](http://www.ams.org/mathscinet-getitem?mr=897429), [doi](http://dx.doi.org/10.1017/S000497270002637X) 
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+Formalization in [[cubical Agda]]:
 
-For an example of a conservative, but not faithful, functor $f: A\to Set$ having a left adjoint see Example 2.4 in:
+* [[1lab]], *[Functors](https://1lab.dev/Cat.Functor.Base.html#functors)*
 
-* [[Reinhard Börger]], [[Walter Tholen]], _Strong regular and dense generators_,  [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **32** 3 (1991) 257-276 &lbrack;[numdam:CTGDC_1991__32_3_257_0](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0), [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111)&rbrack;
+For an example of a conservative, but not faithful, functor $f: A\to Set$ having a left adjoint:
+
+* [[Reinhard Börger]], [[Walter Tholen]], Example 2.4 in _Strong regular and dense generators_,  [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **32** 3 (1991) 257-276 &lbrack;[numdam:CTGDC_1991__32_3_257_0](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0), [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111)&rbrack;
 
 
 
