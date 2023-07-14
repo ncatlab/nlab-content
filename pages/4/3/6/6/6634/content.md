@@ -39,9 +39,9 @@ If the 2-cell is invertible, we call $f$ a **pseudo** or **strong** $T$-morphism
 
 Let $W$ be a 2-comonad on $K$, i.e. a 2-monad on the 1-cell dual $K^{op}$, and let $C$ and $D$ be $W$-coalgebras.  A **lax $W$-morphism** $f\colon C\to D$ is a morphism in $K$ together with a 2-cell
 
-$$\array{ C & \overset{T f}{\to} & D\\
+$$\array{ C & \overset{f}{\to} & D\\
 ^{c} \downarrow & \swArrow & \downarrow^{d}\\
-W C & \underset{f}{\to} & W D}$$
+W C & \underset{W f}{\to} & W D}$$
 
 satisfying some axioms.
 
