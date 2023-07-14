@@ -53,6 +53,13 @@ A *[[combinatorial species]]* is a [[functor]] from the [[category]] $Bij$ of [[
 
 Arguably, pseudomonic functors are precisely the functors for which it makes sense to say that $A$ is uniquely determined by $F A$ up to unique isomorphism.  However, we do not really need faithfulness for this; bijectivity on isos suffices.
 
+## References
+
+Formalization in [[cubical Agda]]:
+
+* [[1lab]], *[Pseudomonic Functors](https://1lab.dev/Cat.Functor.Base.html#pseudomonic-functors)*
+
+
 
 [[!redirects pseudomonic functors]]
 [[!redirects pseudomonic]]
