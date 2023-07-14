@@ -127,6 +127,8 @@ But cototal categories do occur:
 
 * [[lex total category]]
 
+* [[large cocompleteness]]
+
 ## References
 
 * {#StreetWalters}[[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-category_, (contains the original definition of total categories)
