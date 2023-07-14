@@ -51,6 +51,12 @@ Here are some important examples of colimits:
 * A colimit of a diagram consisting of two (or more) objects and no nontrivial morphisms is their [[coproduct]].
 * A colimit of a [[span]] is a [[pushout]].
 * A colimit of two (or more) [[parallel morphisms]] is a [[coequalizer]].
+* A colimit of a diagram whose domain is a [[sifted category]] is a [[sifted colimit]].
+* A colimit of a diagram whose domain is a [[filtered category]] is a [[filtered colimit]].
+* A colimit of a connected diagram is a [[connected colimit]].
+* A colimit of a nonempty diagram is a [[nonempty colimit]].
+
+See also [[limits and colimits by example]].
 
 ## Weighted colimits
 
