@@ -10,12 +10,12 @@
 =--
 
 
-
 \tableofcontents
 
-\section{Introduction}
+\section{Idea}
+ {#Idea}
 
-The notion of a _blockchain_, originating with Wei Dai, 1996 ([web](http://www.weidai.com/bmoney.txt), wikipedia [B-money](https://en.bitcoin.it/wiki/B-money)) and [(Nakamoto2008)](#NakamotoBitcoinAPeerToPeerElectronicCashSystem), allows for the creation of a linear log which can be added to, but is extremely difficult to otherwise modify, in a [[undirected graph|network]] with multiple nodes, without any central authority.
+In [[computer science]], the notion of _blockchains_ --- originating in concepts of cryptocurrency, with [Wei Dai (1996)](#WeiDai96) (*[B-money](https://en.bitcoin.it/wiki/B-money)*) and [Nakamoto (2008)](#NakamotoBitcoinAPeerToPeerElectronicCashSystem) (*[bitcoin](https://en.wikipedia.org/wiki/Bitcoin)*) --- refers to [[linear order|linearly ordered]] log files shared in a [[undirected graph|network]] with multiple nodes and without any central authority, which can be added to but are extremely difficult to otherwise modify --- as long as a majority of nodes act non-maliciously (see [below](#FaultTolerance)).
 
 Blockchain can be considered as certain data structure -- chain of blocks -- which are cryptographically "sealed" by hashes which are for each block added to the next block and which is incremented by one of many parties called nodes
 which follow a commonly accepted algorithm and each contains a copy of the blockchain (full node) or its essential part. Who adds a block, or whose added block is respected by other nodes is a part of the algorithm (blockchain protocol) and is desirable to be byzantine fault tolerant. The securest algorithm in nontrusted environment (public blockchain) is the proof of work algorithm. Regarding that blockchain is a tool to establish noncentralized record verification it is common to use blockchains to carry records of assets, including cryptocurrencies and other token, off chain assets, credential records, verification proofs and so on. These data and transaction steps belong and are authorized by accounts. Modern blockchain protocols
@@ -43,12 +43,11 @@ In such a system, it is extremely difficult for any node to tamper with the  blo
 
 There are various further details, but this is the rough idea.
 
-\section{Criticisms}
- {#Criticism}
+\section{Fault tolerance}
+  {#FaultTolerance}
 
-While in its way ingenious, the use of proof of work underlying the notion of a blockchain is rather crude. Enormous amounts of electricity, for example, are [being consumed](https://digiconomist.net/bitcoin-energy-consumption) by large blockchain networks such as bitcoin during proof of work, whilst the outcome of that proof of work is typically useless. This is not sustainable. 
+The intended functioning of blockchain networks relies on most but not necessarily all actors acting reliably/non-maliciously towards the protocol, a situation known as *Byzantine fault tolerance* (BFT), see eg. [Wang et al (2022)](#WangEtAl22)
 
-A different criticism regards the algorithm itself. If nodes were to co-operate in such a way that they controlled over 50% of the computational power on the network, a tampering attempt would eventually be able to 'catch up' with the honest additions to the blockchain. 
 
 
 \section{Related concepts}
@@ -72,11 +71,15 @@ A different criticism regards the algorithm itself. If nodes were to co-operate 
 
 ### General
 
+The idea originates with:
+
+* {#WeiDai96} Wei Dai *bmoney* (1996) &lbrack;[web](http://www.weidai.com/bmoney.txt)&rbrack;
+
 * {#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
 
 A foundational/mathematical introductory book from the point of view of (building) a distributed computing system is
 
-* Roger Wattenhofer, _The science of the blockchain_, 115 pp. Inverted Forest Publishing 2016
+* Roger Wattenhofer, _The science of the blockchain_, Inverted Forest Publishing (2016)
 
 A comprehensive guide for architects of blockchain applications with an attempt at certain level of abstraction of central concepts is
 
@@ -87,6 +90,8 @@ The following systematic book written by a several authors offers pretty rigorou
 * Sachin S. Shetty, Charles A. Kamhoua, Laurent L. Njilla (eds.) _Blockchain for distributed systems security_, 324 pp. IEEE Press, SMTE Books 2019
 
 See also:
+
+* {#WangEtAl22} Wang et al., *BFT in Blockchains: From Protocols to Use Cases*, ACM Computing Surveys **54** 10s (2022) 209 1–37 &lbrack;[pdf](https://bchainzhang.github.io/files/bft-csur22.pdf), [doi:10.1145/3503042](https://doi.org/10.1145/3503042)&rbrack;
 
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
