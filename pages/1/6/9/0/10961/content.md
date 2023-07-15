@@ -136,9 +136,12 @@ it was argued (see at *[[EPR paradox]]*) that quantum mechanics cannot be a comp
 the contrary was argued. In
 
 * {#Bohr49} [[Nils Bohr]], *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.), *Albert Einstein, Philosopher-Scientist*, The Library of Living Philosophers **VII** Evanston (1949) 201-241, and *Niels Bohr Collected Works* **7** (1996) 339-381 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack;
-
  
 is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*).
+
+The catch-phrase "shut up and calculate" for the agnostic interpretation:
+
+* [[N. David Mermin]], *What's Wrong with this Pillow?*, Physics Today **42** 4 (1989) 9–11 &lbrack;[doi:10.1063/1.2810963](https://doi.org/10.1063/1.2810963)&rbrack;
 
 
 ### Review and textbooks
