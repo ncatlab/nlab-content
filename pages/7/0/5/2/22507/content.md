@@ -1,4 +1,6 @@
 
+* [personal page](https://pub.ista.ac.at/~edels/)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Herbert_Edelsbrunner)
 
 ## Selected writings
