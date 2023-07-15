@@ -22,6 +22,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -46,8 +47,13 @@ In fact, the theorem holds in the generality of [[SU(n)|$SU(d)$]], $d \in \mathb
 
 Regarding the practical relevance, it has been argued &lbrack;[MO:a/22197](https://quantumcomputing.stackexchange.com/a/22197/19363)&rbrack; that [[quantum computing]]-hardware such as based on [[superconductors]] will already allow to approximate any operation on a "physical qbit" by a single [[quantum gate]], but that for such hardware the Solovay-Kitaev theorem is still relevant on the level of "[[logical qbits]]", i.e. taking [[quantum error correction]] into account.
 
-Similarly, in [[topological quantum computation]] the available set of basic [[anyon]] [[braiding|braid gates]] is highly constrained and the Solovay-Kitaev algorithm is used for "topological quantum compilation" (e.g. [Bonesteel, Hormozi, Zikos & Simon (2005)](#BonesteelHormoziZikosSimon05), [Hormozi, Zikos, Bonesteel & Simon (2007)](#HormoziZikosBonesteelSimon07), [Hormozi, Bonesteel & Simon (2009)](#HormoziBonesteelSimon09))
+Similarly, in [[topological quantum computation]] the available set of basic [[anyon]] [[braiding|braid gates]] is typically far from the usual [[QBit]]-basis requiring substantial effort in "topological quantum compilation" (e.g. [Bonesteel, Hormozi, Zikos & Simon (2005)](#BonesteelHormoziZikosSimon05), [Hormozi, Zikos, Bonesteel & Simon (2007)](#HormoziZikosBonesteelSimon07), [Hormozi, Bonesteel & Simon (2009)](#HormoziBonesteelSimon09)).
 
+{#BraidImplementingCNotGate} For example, the following lengthy braid has been proposed &lbrack;[Hormozi, Zikos, Bonesteel & Simon (2007)](#HormoziZikosBonesteelSimon07)&rbrack; as a possible topological quantum compilation of a *single* [[CNOT gate]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BraidImplementingCNOTGate.jpg" width="800">
+</center>
 
 
 ## References
