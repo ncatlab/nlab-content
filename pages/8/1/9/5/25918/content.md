@@ -28,7 +28,7 @@ Some aspects of the structure of the integers that also correspond to the struct
 
 * **Greater than**. For $a, b \in \mathbb{Z}$ pitches, if $a \lt b$ then the pitch denoted by $a$ sounds lower than the pitch denoted by $b$. Note that this relation does *not* make sense however for pitch-classes $x, y \in \mathbb{Z}_{12}$. 
 
-* **Interval-class**. For $w, x, y, z \in \mathbb{Z}_{12}$ pitch-classes, if $x-w = z-y$, then the pitch-class interval between $w$ and $x$ is equal to the pitch-class interval between $y$ and $z$. For instance, the pitch-class interval between $C$ and $E$ is $4$, as is the pitch-class interval between $F$ and $A$. This means that hearing a $C$ and an $E$ sounding simultaneously will have a similar harmonic "flavor" as hearing an $F$ and an $A$ simultaneously. 
+* **Interval-class**. For $w, x, y, z \in \mathbb{Z}_{12}$ pitch-classes, if $x-w = z-y$, then the pitch-class interval between $w$ and $x$ is equal to the pitch-class interval between $y$ and $z$. For instance, the pitch-class interval between $C$ (0) and $E$ (4) is $4$, as is the pitch-class interval between $F$ (5) and $A$ (9). This means that hearing a $C$ and an $E$ sounding simultaneously will have a similar harmonic "flavor" as hearing an $F$ and an $A$ simultaneously. 
  
 
 ## References
