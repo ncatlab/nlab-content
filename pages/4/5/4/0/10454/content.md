@@ -94,12 +94,16 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 The relation to Jordan algebras of $ComSub(A)$ is discussed in
 
-* [[John Harding]], [[Andreas Döring]], _Abelian subalgebras and the Jordan structure of a von Neumann algebra_ ([arXiv:1009.4945](http://arxiv.org/abs/1009.4945))
-{#HardingDoering}
+* {#HardingDoering} [[Andreas Döring]], [[John Harding]],  *Abelian subalgebras and the Jordan structure of a von Neumann algebra*, Houston Journal of Mathematics **42** 2 (2016) &lbrack;[arXiv:1009.4945](http://arxiv.org/abs/1009.4945), [issue](https://www.math.uh.edu/~hjm/Vol42-2.html), [pdf](https://wordpress.nmsu.edu/hardingj/files/2019/10/2010-Abelian-subalgebras-and-the-Jordan-structure-of-von-Neumann-algebras.pdf)&rbrack;
+
 
 for $A$ a [[von Neumann algebra]] and more generally for $A$ a [[C*-algebra]] in 
 
-* [[Jan Hamhalter]], _Isomorphisms of ordered structures of abelian $C^\ast$-subalgebras of $C^\ast$-algebras_, J. Math. Anal. Appl. 383 (2011) 391&#8211;399 ([journal](http://dx.doi.org/10.1016/j.jmaa.2011.05.035))
- {#Hamhalter}
+* {#Hamhalter} [[Jan Hamhalter]], _Isomorphisms of ordered structures of abelian $C^\ast$-subalgebras of $C^\ast$-algebras_, J. Math. Anal. Appl. 383 (2011) 391&#8211;399 ([journal](http://dx.doi.org/10.1016/j.jmaa.2011.05.035))
+ 
 
 * [[Jan Hamhalter]], E. Turilova, _Structure of associative subalgebras of Jordan operator algebras_ ([arXiv:1111.7240](http://arxiv.org/abs/1111.7240))
+
+
+[[!redirects Harding-Döring-Hamhalter theorem]]
+
