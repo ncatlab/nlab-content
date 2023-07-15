@@ -1112,6 +1112,11 @@ and then
 
   *IV. Categories of Systems*, J. Math. Phys. **49** (2008) 053518 &lbrack;[arXiv:quant-ph/0703066](http://arxiv.org/abs/quant-ph/0703066), [doi:10.1063/1.2883826](https://doi.org/10.1063/1.2883826)&rbrack;
   
+Further development in:
+
+* [[John Harding]], [[Chris Heunen]], *Topos quantum theory with short posets*, Order **38** 111–125 (2021) &lbrack;[arXiv:1903.01897](https://arxiv.org/abs/1903.01897), [doi:10.1007/s11083-020-09531-6](https://doi.org/10.1007/s11083-020-09531-6)&rbrack;
+
+
 
 Discussion of aspects of the process of [[quantization]] in terms of Bohr toposes is in 
 
