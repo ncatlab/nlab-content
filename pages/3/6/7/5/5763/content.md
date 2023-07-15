@@ -1039,9 +1039,7 @@ The term _Bohrification_ and the investigations associated with it were initiate
 See also
 
 * {#HLSDeep} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_, in: *Deep Beauty -- Understanding the Quantum World through Mathematical Innovation*, Cambridge University Press (2009) 271-314 &lbrack;[arXiv:0909.3468](http://arxiv.org/abs/0909.3468), [doi:10.1017/CBO9780511976971.008](https://doi.org/10.1017/CBO9780511976971.008)&rbrack;
-  
-
-* {#Landsman17} [[Klaas Landsman]], Section 12 of: _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
+ 
 
 
 The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initiated in 
@@ -1056,7 +1054,7 @@ and completed in
 
 * Sander Wolters, _Contravariant vs covariant quantum logic: A comparison of two topos-theoretic approaches to quantum theory_, Comm. Math. Phys. **317** (2013) 3–53 &lbrack;[arXiv:1010.2031](http://arxiv.org/abs/1010.2031), [doi:10.1007/s00220-012-1652-3](https://doi.org/10.1007/s00220-012-1652-3)&rbrack;
 
-An complete outline of the full proof is given in 
+An outline of the full proof is given in 
 
 * {#HLSW} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_, Journal of the Australian Mathematical Society **90** (2011) 39-52 &lbrack;[arxiv:1010.2050](http://arxiv.org/abs/1010.2050), [doi:10.1017/S1446788711001157](https://doi.org/10.1017/S1446788711001157)&rbrack;
  
@@ -1080,6 +1078,11 @@ The generalization of Bohrification from [[quantum mechanics]] to [[quantum fiel
 * {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218
 &lbrack;[arXiv:1109.1397](http://arxiv.org/abs/1109.1397)&rbrack;
 
+Review: 
+
+* {#Landsman17} [[Klaas Landsman]], *Topos theory and quantum logic*, Section 12 of: _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
+
+
 
 The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos over the [[poset of commutative subalgebras]] (there taken to be [[presheaves]] instead of [[copresheaves]]) is due to
 
@@ -1090,6 +1093,12 @@ The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos
   _III. Von Neumann algebras as the base category_, Int. J. of Theor. Phys. **39** 6 (2000) 1413-1436 &lbrack;[arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020), [MR2001k:81016](http://www.ams.org/mathscinet-getitem?mr=1788498),[doi:10.1023/A:1003667607842](http://dx.doi.org/10.1023/A:1003667607842)&rbrack; 
 
   _IV. Interval valuations_, Internat. J. Theoret. Phys. __41__ 4 (2002) 613-639 &lbrack;[MR2003g:81009](http://www.ams.org/mathscinet-getitem?mr=1902067), [doi](http://dx.doi.org/10.1023/A:1015276209768)&rbrack; 
+
+with some review and outlook in
+
+* [[Chris Isham]], [[Jeremy Butterfield]], *Some Possible Roles for Topos Theory in Quantum Theory and Quantum Gravity*, Found. Phys. **30** (2000) 1707-1735 &lbrack;[arXiv:gr-qc/9910005](https://arxiv.org/abs/gr-qc/9910005), [doi:10.1023/A:1026406502316](https://doi.org/10.1023/A:1026406502316)&rbrack;
+
+and then
 
 * {#IshamDoering07} [[Andreas Döring]], [[Chris Isham]], _A Topos Foundation for Theories of Physics_  
 
