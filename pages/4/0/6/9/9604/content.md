@@ -18,6 +18,10 @@ Proposal that the [[Kochen-Specker theorem]] suggests to understand [[quantum ph
 
   *IV. Categories of Systems*, J. Math. Phys. **49** (2008) 053518 &lbrack;[arXiv:quant-ph/0703066](http://arxiv.org/abs/quant-ph/0703066), [doi:10.1063/1.2883826](https://doi.org/10.1063/1.2883826)&rbrack;
 
+The [[Döring-Harding-Hamhalter theorem]]:
+
+* [[Andreas Döring]], [[John Harding]],  *Abelian subalgebras and the Jordan structure of a von Neumann algebra*, Houston Journal of Mathematics **42** 2 (2016) &lbrack;[arXiv:1009.4945](http://arxiv.org/abs/1009.4945), [issue](https://www.math.uh.edu/~hjm/Vol42-2.html), [pdf](https://wordpress.nmsu.edu/hardingj/files/2019/10/2010-Abelian-subalgebras-and-the-Jordan-structure-of-von-Neumann-algebras.pdf)&rbrack;
+
 
 ## Related entries
 
