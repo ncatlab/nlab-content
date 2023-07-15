@@ -107,9 +107,11 @@ and continues:
 
 * [[quantum probability]]
 
+* [[quantum measurement]], [[decoherence]], [[consistent histories approach to quantum mechanics]] 
+
 * [[philosophy of physics]]
 
-* [[quantum measurement]], [[decoherence]], [[consistent histories approach to quantum mechanics]] 
+* [[epistemology]]
 
 * [[coordination]]
 
@@ -139,36 +141,41 @@ the contrary was argued. In
 is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*).
 
 
-### Textbooks and reviews
+### Review and textbooks
 
-Modern textbook discussion of the issue is in 
+* [[Jagdish Mehra]], *The quantum principle: Its interpretation and epistemology*, Dialectica **27** 2 (1973) 75-157 &lbrack;[jstor:42968519](https://www.jstor.org/stable/42968519)&rbrack;
 
-* [[Robert Spekkens]], Lectures on _Foundations of quantum mechanics_ &lbrack;[web](http://www.perimeterscholars.org/332.html)7rbrack;
-
-  also: _The Quantum Puzzle_ &lbrack;[web](http://www.rwspekkens.com/index.php?Show=page&PI=2)&rbrack;
-
-Discussion with a focus on the [[Bub-Clifton theorem]]:
-
-* [[Jeffrey Bub]], *Interpreting the quantum world*, Cambridge University Press (1999) &lbrack;[ISBN:9780521653862](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/interpreting-quantum-world?format=PB&isbn=9780521653862)&rbrack;
-
-reviewed in :
-
-* {#Peres97} [[Asher Peres]], *Interpreting the Quantum World*, Stud. History Philos. Modern Physics **29** (1998) 611 &lbrack;[arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)&rbrack;
- 
-See also:
+* [[Eugene P. Wigner]], *Epistemology of Quantum Mechanics*, Part I in: [[Jagdish Mehra]] (ed.), *Philosophical Reflections and Syntheses* Vol B.VI in: *The Collected Works of Eugene Wigner*, Springer (1973) &lbrack;[doi:10.1007/978-3-642-78374-6_5](https://doi.org/10.1007/978-3-642-78374-6_5)&rbrack;
 
 * [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]* Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
+
+* {#Peres97} [[Asher Peres]], *Interpreting the Quantum World*, Stud. History Philos. Modern Physics **29** (1998) 611 &lbrack;[arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)&rbrack;
+
+* [[Jeffrey Bub]], *Interpreting the quantum world*, Cambridge University Press (1999) &lbrack;[ISBN:9780521653862](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/interpreting-quantum-world?format=PB&isbn=9780521653862)&rbrack;
+
+  > (focus on the [[Bub-Clifton theorem]])
+
+* [[Daniel Greenberger]], [[Wolfgang L. Reiter]], [[Anton Zeilinger]], *Epistemological and Experimental Perspectives on Quantum Physics*, Vienna Circle Institute Yearbook (VCIY) **7** (1999) &lbrack;[doi:10.1007/978-94-017-1454-9](https://doi.org/10.1007/978-94-017-1454-9)&rbrack;
+ 
+* Florian J. Boge, *Quantum Mechanics Between Ontology and Epistemology*,  European Studies in Philosophy of Science (ESPS) **10**, Springer (2008) &lbrack;[doi:10.1007/978-3-319-95765-4](https://doi.org/10.1007/978-3-319-95765-4)&rbrack;
+
+* {#Wallace07} [[David Wallace]], *Philosophy of Quantum Mechanics*, Part 2 in: Dean Rickles (ed.), *The Ashgate Companion to Contemporary Philosophy of Physics* (2008) 16-98 &lbrack;[ISBN:9780754655183](https://www.routledge.com/The-Ashgate-Companion-to-Contemporary-Philosophy-of-Physics/Rickles/p/book/9780754655183), [arXiv:0712.0149](http://arxiv.org/abs/0712.0149)&rbrack;
+
+
 * [[Edward MacKinnon]], *Interpreting Physics -- Language and the Classical/Quantum Divide*, Springer (2012) &lbrack;[doi:10.1007/978-94-007-2369-6](https://doi.org/10.1007/978-94-007-2369-6)&rbrack;
+
+
+* [[Robert Spekkens]], Lectures on _Foundations of quantum mechanics_ (2012) &lbrack;[web](https://pirsa.org/C12002)&rbrack;
+
+  also: _The Quantum Puzzle_ &lbrack;[web](http://www.rwspekkens.com/index.php?Show=page&PI=2)&rbrack;
+
 
 An approach to [[wave function collapse]] via macroscopic [[decoherence]]:
 
 * [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
 
 
-Discussion specifically with an eye towards the [[quantum measurement]] problem:
-
-* {#Wallace07} [[David Wallace]], *The Quantum Measurement Problem: State of Play* &lbrack;[arXiv:0712.0149](http://arxiv.org/abs/0712.0149)&rbrack;
 
 See also:
 
