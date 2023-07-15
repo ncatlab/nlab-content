@@ -3,96 +3,33 @@
 {: toc}
 
 
-## Idea
+## Introduction
 
 
-In [[music theory]], a pitch-class is the [[equivalence relation|equivalence class]] of all pitches that are separated by some number of octaves. However, the equivalence relation can be generalized to systems in which octave equivalence does not hold, and some other interval is chosen instead. 
+In [[music theory]], the term "pitch" is generally used to mean an individual [[frequency]], such as the pitch A4, which has a frequency of 440 Hz. The concept of pitch therefore does not take into account octave equivalence, so A4 (440 Hz) and A5 (880 Hz) are distinct pitches. On the other hand, a *pitch-class* denotes the [[equivalence relation|equivalence class]] of pitches that are octave-equivalent. Therefore A4 and A5 are members of the pitch-class A. 
+
+The need to formulate the notion of pitch-class arose with the rise of atonal music theory in the twentieth century. Due to a radical shift in musical idioms, the concepts from the past that were taken for granted for centuries were no longer adequate for music theory. The concept of pitch-class was one such notion. Rahn, in [Rahn 1980](#Rahn80), summarizes the situation as so:
 
 
-## Twelve tone equal temperament 
+> Tonal theory has been around so long and so pervasively that many of its concepts are built into our basic musical terminology. To call a particular pitch a $C\sharp$ is to accept at least two theoretical assumptions about structures of pitches. The first is the assumption of *pitch-class equivalence*: that all pitches that are called $C\sharp$, in whatever octave, have enough in common (for purposes of musical structure) that it is useful to give all of them the same name–"$C\sharp$". The second assumption of *diatonic functionality*: a $C\sharp$ cannot function as the fourth degree of an $A\flat$ major scale, even though a $C\sharp$ and a $D\flat$ (which can so function) may both be produced by hitting the same key on a piano. Of these two assumptions, that of diatonic functionality is more elaborate, more sophisticated, further along the tree of theoretical development, and more peculiarly "tonal".
+	
+> The theory of atonal music can retain the assumption of pitch-class equivalence, but must reject diatonic functionality as being too particularly "tonal". Hence there is a need for a way to notate pitches which does not incorporate diatonic functionality. For decades, theorists have been solving this problem using *integers* to notate pitches. This less specialized notation has allowed us also, as a bonus, to *construct* (rather than assume) the structures of diatonic functionality in tonal music. Tonal theory can in this sense be regarded as a special case of atonal theory, just as atonal theory is a special case (incorporating pitch-class equivalence) of  a more general theory of music. 
+ 
 
-
-In Western classical music, all scales are derived as [[set|subsets]] of the chromatic scale of pitch-classes. In musical terminology, the set of pitch-classes is 
-\[ 
-\big\{
-  C, C\sharp, D, D\sharp, E, F, F\sharp, G, G\sharp, A, A\sharp, B
-\big\}
-\,. 
-\]
-However, in more contemporary music theory these pitch-class names are replaced by [[integer]] notation, so that $C$ becomes 0, $C\sharp$ becomes 1, ..., and $B$ becomes 11. The integer notation immediately expresses the [[cyclic group|additive group]] structure of the pitch-classes, so that we can manipulate the set of pitch-classes as though it is the group $\mathbb{Z}/12\mathbb{Z}$, or $\mathbb{Z}_{12}$ for short, with addition (modulo 12) as the [[binary function|binary operation]]. An immediate result is that we can define [[map|mappings]] on the pitch-classes in a mathematically intuitive way. For instance, the mapping
-
+In music theory, one therefore denotes pitches with integer notation, where 0 usually refers to $C4$, 1 to $C\sharp4$ or $D\flat4$, -12 to $C3$, and so on. One then derives the notion of pitch-class, where two pitches $p$ and $p'$, represented as integers, are equivalent iff there is an $n \in \mathbb{Z}$ such that
 \[
-\label{SubtractionOfPitchClasses}
-  \array{
-    \mathllap{INT \;\colon\;}
-    \mathbb{Z}_{12} \times \mathbb{Z}_{12} 
-      &\longrightarrow& 
-    \mathbb{Z}_{12}
-    \\
-    (x, y) &\mapsto&  y - x 
-    \mathrlap{\;(mod 12)} 
-  }
-\,
-\]
+p + 12 n = p'.
+\] 
+This equivalence relation means that the set of pitch-classes is therefore treated as the [[cyclic group]] $\mathbb{Z}_{12}$. 
 
-gives what is called the **pitch-class interval** between pitch-classes $x$ and $y$. For instance, if $x = 4$ and $y = 7$, then $\mathrm{INT}(4, 7) = 3$, which, in musical terminology, expresses the fact that the pitch-classes $E$ and $G$ are three semitones, i.e. a minor third, apart. 
+It is important to note however that just because we use integers to denote pitches and pitch-classes, this does not mean that all properties of integers and cyclic groups make sense as properties of pitches/pitch-classes. For instance, 13 is a prime number, but it doesn't make sense to think of the pitch $C\sharp5$ as a prime pitch. The use of integers to denote pitches and pitch-classes is therefore a convention, which is used for the expediences of music theory. 
 
+Some aspects of the structure of the integers that also correspond to the structure of pitches/pitch-classes are the following:
 
+* **Greater than**. For $a, b \in \mathbb{Z}$ pitches, if $a \lt b$ then the pitch denoted by $a$ sounds lower than the pitch denoted by $b$. Note that this relation does *not* make sense however for pitch-classes $x, y \in \mathbb{Z}_{12}$. 
 
-
-## As an equivalence relation
-
-
-The set of pitch-classes can be derived from the relation of octave equivalence on pitch space $\mathbb{Z}$. One usually treats $\mathbb{Z}$ as the set of all pitches, with $0$ as middle-$C$. This way one derives the group $\mathbb{Z}_{12}$ (of pitch-classes) in the usual way, as the residue classes of the integers, so that e.g. the pitch-class $4$ is really the class of integers
-\[ 
-  [4] 
-   \;\coloneqq\; 
-  \big\{ 
-    4 + 12k \in \mathbb{Z} 
-  \;\big\vert\; 
-    k \in \mathbb{Z} 
-  \big\}. 
-\]
-One may likewise derive these classes via the map
-\[ 
-  c \;\colon\; 
-    \mathbb{Z} \longrightarrow \mathbb{Z}_{12} 
-\]
-that sends pitches to their respective pitch-classes, so that the [[fiber]] of $c$ over each $x \in \mathbb{Z}_{12}$ is its equivalence class of pitches.
-
-
-
-
-## As a denotator
-
-
-According to the theory of forms and denotators due to [Mazzola (2012)](#Mazzola12), we may denote a pitch-class formally using the following notation,
-\[ 
-  thisPitchClass
-    \;\colon\; 
-  0_\mathbb{Z} 
-    \rightsquigarrow 
-  PC 
-    \underset{Id}{\longrightarrow} 
-  Simple(\mathbb{Z}_{12})(n)
-  \,, 
-\]
-where $PC$ is a form defined by
-\[ 
-  PC 
-    \underset{Id}{\longrightarrow} 
-  Simple (\mathbb{Z}_{12})
-  \,.
-\]
-
-
-
-
-## Generalizations to non-twelve tone equal temperament
-
-
-One can generalize the notion of pitch-class to groups other than $\mathbb{Z}_{12}$, in particular for any $\mathbb{Z}_n$ for $n \geq 1$. One then derives the notion of an $n$-note scale. In general, neither ordinary octave equivalence nor equal temperament are required of such scales. For instance, the criterion for equivalence of pitches could be an interval larger or smaller than an octave, and pitch-classes may not be equally spaced. Nonetheless, one may still want to treat such scales as groups, in order to manipulate them algebraically. 
-
+* **Interval-class**. For $w, x, y, z \in \mathbb{Z}_{12}$ pitch-classes, if $x-w = z-y$, then the pitch-class interval between $w$ and $x$ is equal to the pitch-class interval between $y$ and $z$. For instance, the pitch-class interval between $C$ and $E$ is $4$, as is the pitch-class interval between $F$ and $A$. This means that hearing a $C$ and an $E$ sounding simultaneously will have a similar harmonic "flavor" as hearing an $F$ and an $A$ simultaneously. 
+ 
 
 ## References
  {#References}
@@ -104,4 +41,6 @@ One can generalize the notion of pitch-class to groups other than $\mathbb{Z}_{1
 * {#Mazzola12} Guerino Mazzola, _The topos of music: geometric logic of concepts, theory, and performance_, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-8141-8](https://doi.org/10.1007/978-3-0348-8141-8)&rbrack; 
 
 * Robert Morris, _Composition with pitch-classes_, Yale University, 1987.
+
+* {#Rahn80} John Rahn, _Basic atonal theory_, 1980. 
  
