@@ -145,6 +145,8 @@ is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechan
 
 * [[Jagdish Mehra]], *The quantum principle: Its interpretation and epistemology*, Dialectica **27** 2 (1973) 75-157 &lbrack;[jstor:42968519](https://www.jstor.org/stable/42968519)&rbrack;
 
+* {#Scheibe73} Erhard Scheibe, *The logical analysis of quantum mechanics*, Pergamon Press (1973)
+
 * [[Eugene P. Wigner]], *Epistemology of Quantum Mechanics*, Part I in: [[Jagdish Mehra]] (ed.), *Philosophical Reflections and Syntheses* Vol B.VI in: *The Collected Works of Eugene Wigner*, Springer (1973) &lbrack;[doi:10.1007/978-3-642-78374-6_5](https://doi.org/10.1007/978-3-642-78374-6_5)&rbrack;
 
 * [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]* Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
