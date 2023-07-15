@@ -29,6 +29,8 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 ## References
  {#References}
 
+### General
+
 Textbook accounts:
 
 * Rod Girle, *Possible Worlds*, McGill-Queen's University Press (2003) &lbrack;[jstor:j.cttq48cx](https://www.jstor.org/stable/j.cttq48cx)&rbrack;
@@ -47,8 +49,20 @@ See also:
 
 * {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
+
+[[!include possible-worlds and many-worlds -- references]]
+
+
+
+
+[[!redirects possible worlds semantics of modal logic]]
+
+
 [[!redirects possible world]]
 [[!redirects possible worlds]]
+
+[[!redirects possible-world]]
+[[!redirects possible-worlds]]
 
 
 
