@@ -13,7 +13,7 @@ On [[topological quantum computation]] with [[anyons]]:
 * {#Simon21} [[Steven H. Simon]], *Topological Quantum*, 2021 $[$[pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep1-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)$]$
 
 
-On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by (i.e. compiling them to) [[quantum circuit|cicuits]] of [[anyon]] [[braid representation|braid]] [[quantum gates|gates]] (generally considered for [[su(2)-anyons]] and here mostly for universal [[Fibonacci anyons]], to some extent also for non-universal [[Majorana anyons]]):
+On [[topological quantum compilation]] and approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by (i.e. compiling them to) [[quantum circuit|cicuits]] of [[anyon]] [[braid representation|braid]] [[quantum gates|gates]] (generally considered for [[su(2)-anyons]] and here mostly for universal [[Fibonacci anyons]], to some extent also for non-universal [[Majorana anyons]]):
 
 * [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) $[$[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)$]$
 
