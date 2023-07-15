@@ -62,13 +62,6 @@ For a [[algebra over a monad|$T$-algebra]] [[homomorphism]] given by an [[invert
 =--
 
 
-+-- {: .num_prop #Condition_for_Conservativity}
-###### Proposition
-
-A functor $F \colon C \to D$ is conservative if and only if $F(f)$ being an [[identity morphism]] implies that $f$ is an [[isomorphism]].
-
-=--
-
 +-- {: .num_prop #PullbackAlongEpimorphisms}
 ###### Proposition
 
