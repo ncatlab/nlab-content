@@ -31,7 +31,11 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 
 Textbook accounts:
 
+* Rod Girle, *Possible Worlds*, McGill-Queen's University Press (2003) &lbrack;[jstor:j.cttq48cx](https://www.jstor.org/stable/j.cttq48cx)&rbrack;
+
 * [[Johan van Benthem]], §2.2 of: *Modal Logic for Open Minds* (2010) &lbrack;[ISBN:9781575865980](http://web.stanford.edu/group/cslipublications/cslipublications/site/9781575865980.shtml),[pdf](http://fenrong.net/teaching/mljvb.pdf), [webpage](https://archive.illc.uva.nl/lgc/MLoM/)&rbrack;
+
+* Daniel Nolan, *Topics in the Philosophy of Possible Worlds* (2002) &lbrack;[ISBN:9780415516303](https://www.routledge.com/Topics-in-the-Philosophy-of-Possible-Worlds/Nolan/p/book/9780415516303)&rbrack;
 
 See also:
 
@@ -43,4 +47,9 @@ See also:
 
 * {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
+[[!redirects possible world]]
 [[!redirects possible worlds]]
+
+
+
+
