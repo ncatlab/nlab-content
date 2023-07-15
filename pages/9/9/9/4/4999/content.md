@@ -286,7 +286,9 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 Historical overview and introduction
 
-* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_ , in Gabbay, Woods (eds.), _Handbook of the History of Logic vol. 6_ , Elsevier Amsterdam 2005. ([draft](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
+* [[Robert Goldblatt]], *Mathematical modal logic: A view of its evolution*, Journal of Applied Logic **1** 5–6 (2003) 309-392 &lbrack;<a href="https://doi.org/10.1016/S1570-8683(03)00008-9">doi:10.1016/S1570-8683(03)00008-9</a>&rbrack;
+
+* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_, in Gabbay, Woods (eds.), _Handbook of the History of Logic vol. 6_ , Elsevier Amsterdam 2005. ([draft](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
 
 * {#SEPModernOrigins} Stanford Encyclopedia of Philosophy: _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_.
  
