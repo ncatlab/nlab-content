@@ -35,7 +35,7 @@ Textbook accounts:
 
 * [[Johan van Benthem]], §2.2 of: *Modal Logic for Open Minds* (2010) &lbrack;[ISBN:9781575865980](http://web.stanford.edu/group/cslipublications/cslipublications/site/9781575865980.shtml),[pdf](http://fenrong.net/teaching/mljvb.pdf), [webpage](https://archive.illc.uva.nl/lgc/MLoM/)&rbrack;
 
-* Daniel Nolan, *Topics in the Philosophy of Possible Worlds* (2002) &lbrack;[ISBN:9780415516303](https://www.routledge.com/Topics-in-the-Philosophy-of-Possible-Worlds/Nolan/p/book/9780415516303)&rbrack;
+* Daniel Nolan, *Topics in the Philosophy of Possible Worlds*, Routledge (2002) &lbrack;[ISBN:9780415516303](https://www.routledge.com/Topics-in-the-Philosophy-of-Possible-Worlds/Nolan/p/book/9780415516303)&rbrack;
 
 See also:
 
