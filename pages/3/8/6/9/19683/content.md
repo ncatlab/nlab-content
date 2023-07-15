@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+On [[interpretations of quantum mechanics]] and introducing the catch-phrase "shut up and calculate":
+
+* [[N. David Mermin]], *What's Wrong with this Pillow?*, Physics Today **42** 4 (1989) 9–11 &lbrack;[doi:10.1063/1.2810963](https://doi.org/10.1063/1.2810963)&rbrack;
+
 
 On [[defect]]$\;$[[anyons]]:
 
