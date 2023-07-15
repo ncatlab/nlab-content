@@ -27,6 +27,11 @@ Generalization to [[Hilbert bundles]]:
 
 * [[Chris Heunen]], [[Manuel L. Reyes]], *Frobenius Structures Over Hilbert $C^\ast$-Modules*, Commun. Math. Phys. **361** (2018) 787–824 &lbrack;[doi:10.1007/s00220-018-3166-0](https://doi.org/10.1007/s00220-018-3166-0), [arXiv:1704.05725](https://arxiv.org/abs/1704.05725)&rbrack;
 
+On [[Bohr toposes]]:
+
+* [[John Harding]], [[Chris Heunen]], *Topos quantum theory with short posets*, Order **38** 111–125 (2021) &lbrack;[arXiv:1903.01897](https://arxiv.org/abs/1903.01897), [doi:10.1007/s11083-020-09531-6](https://doi.org/10.1007/s11083-020-09531-6)&rbrack;
+
+
 On an [[axiom|axiomatic]] characterization of the [[compact closed dagger category]] [[Hilb]] of [[Hilbert spaces]]:
 
 * [[Chris Heunen]], [[Andre Kornell]], *Axioms for the category of Hilbert spaces*, PNAS **119** 9 (2022) e2117024119 &lbrack;[arXiv:2109.07418](https://arxiv.org/abs/2109.07418), [doi:10.1073/pnas.2117024119](https://doi.org/10.1073/pnas.2117024119)&rbrack;
