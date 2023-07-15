@@ -29,6 +29,8 @@ Co-introducing [[Jordan algebras]] as [[algebras of quantum observables]]:
 
 * [[group contraction]]
 
+* [[interpretation of quantum mechanics]]
+
 category: people
 
 [[!redirects Eugene P. Wigner]]
