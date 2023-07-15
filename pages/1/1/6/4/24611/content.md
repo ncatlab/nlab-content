@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On [[experiment|experimental]] [[quantum physics]] and its [[epistemology|epistemological]] [[interpretation of quantum mechanics]]:
+
+* [[Daniel Greenberger]], [[Wolfgang L. Reiter]], [[Anton Zeilinger]], *Epistemological and Experimental Perspectives on Quantum Physics*, Vienna Circle Institute Yearbook (VCIY) **7** (1999) &lbrack;[doi:10.1007/978-94-017-1454-9](https://doi.org/10.1007/978-94-017-1454-9)&rbrack;
+ 
+
 On the [[quantum physics]] of [[quantum information]]:
 
 * [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
