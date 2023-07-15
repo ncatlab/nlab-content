@@ -34,13 +34,13 @@ Some aspects of the structure of the integers that also correspond to the struct
 ## References
  {#References}
 
-* Allen Forte, _The structure of atonal music_, Yale University Press, 1973. 
+* Allen Forte, _The Structure of Atonal Music_, Yale University Press, 1973. 
 
-* David Lewin, _Generalized musical intervals and transformations_, Oxford university press, USA, 2010.
+* David Lewin, _Generalized Musical Intervals and Transformations_, Oxford University Press, USA, 2010.
 
-* {#Mazzola12} Guerino Mazzola, _The topos of music: geometric logic of concepts, theory, and performance_, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-8141-8](https://doi.org/10.1007/978-3-0348-8141-8)&rbrack; 
+* {#Mazzola12} Guerino Mazzola, _The Topos of Music: Geometric Logic of Concepts, Theory, and Performance_, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-8141-8](https://doi.org/10.1007/978-3-0348-8141-8)&rbrack; &lbrack;[web](https://www.researchgate.net/publication/257259829_The_Topos_of_Music_Geometric_Logic_of_Concepts_Theory_and_Performance)&rbrack;
 
-* Robert Morris, _Composition with pitch-classes_, Yale University, 1987.
+* Robert Morris, _Composition with Pitch-classes_, Yale University, 1987.
 
 * {#Rahn80} John Rahn, _Basic atonal theory_, 1980. 
  
