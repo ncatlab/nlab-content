@@ -176,7 +176,6 @@ An approach to [[wave function collapse]] via macroscopic [[decoherence]]:
 * [[Wojciech Zurek]], *Decoherence, einselection, and the quantum origins of the classical*, Rev. Mod. Phys. **75** (2003) 715-775 &lbrack;[quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127), [doi:10.1103/RevModPhys.75.715](http://dx.doi.org/10.1103/RevModPhys.75.715)&rbrack;
 
 
-
 See also:
 
 * [[Arnold Neumaier]], *Coherent Quantum Physics: A Reinterpretation of the Tradition*, 1st edition, De Gruyter (2019) &lbrack;ISBN:9783110667295, [doi:10.1515/9783110667387](https://doi.org/10.1515/9783110667387)&rbrack;
@@ -186,6 +185,11 @@ One quote above is taken from the first paragraphs of
  
 * {#SEP} Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
  
+
+
+[[!include possible-worlds and many-worlds -- references]]
+
+
 
 
 [[!redirects interpretation of quantum mechanics]]
