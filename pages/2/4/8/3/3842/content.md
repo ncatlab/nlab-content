@@ -130,9 +130,17 @@ A category $E$ is equivalent to a presheaf topos if and only if it is [[cocomple
 
 This characterisation is proven for [[enriched categories|enriched]] presheaf categories in Theorem 4.16 of [Bunge 1969](#Bunge69) (Corollary 4.19 for the unenriched statement).
 
-A second characterization using [[exact completion|exact completions]] can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)). The first paper has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
+A second characterization using [[exact completion|exact completions]] can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)):
+
++-- {: .num_theorem #carboni_vitale_theorem}
+###### Theorem 
+
+A category $E$ is equivalent to a presheaf topos if and only if it is [[locally small category|locally small]], [[extensive category|extensive]], [[exact category|exact]] and has a small set of projective and indecomposable [[separator|generators]].
+
+=--
 
 
+([1998](#CarboniVitale98)) has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
 
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithOvercategories}
