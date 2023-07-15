@@ -133,9 +133,10 @@ it was argued (see at *[[EPR paradox]]*) that quantum mechanics cannot be a comp
 
 the contrary was argued. In
 
-* {#Bohr49} [[Nils Bohr]], _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
+* {#Bohr49} [[Nils Bohr]], *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.), *Albert Einstein, Philosopher-Scientist*, The Library of Living Philosophers **VII** Evanston (1949) 201-241, and *Niels Bohr Collected Works* **7** (1996) 339-381 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack;
+
  
-is the famous assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms".
+is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*).
 
 
 ### Textbooks and reviews
