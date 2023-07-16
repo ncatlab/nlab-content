@@ -21,9 +21,17 @@
 
 ## Idea
 
-A [[module]] over a [[ring]] $R$ is called _flat_ if its satisfies one of many equivalent conditions, the simplest to state of which is maybe: forming the [[tensor product of modules]] with $N$ preserves [[submodules]].
+Flat modules were first defined in [GAGA](#GAGA). They are a generalisation of the class of [[torsion-free modules]] for rings $R$ that are not PID.
 
-Under the dual geometric interpretation of [modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) over the space on which $R$ is the ring of functions, flatness of a module is essentially the _local triviality_ of these bundles, hence in particular the fact that the [[fibers]] of these bundles do not change, up to isomorphism. See prop. \ref{ForFinitelyGeneratedFlatIsLocallyFree} below for the precise statement. On the other hand there is **no** relation to "flat" as in [[flat connection]] on such a bundle.
+An $R$-module $M$ is _flat_ (from the French word “plat”) if it has “no torsion” in the sense that :
+ the Tor-functor vanishes
+$$ \mathrm{Tor}_1^R(M, X) = 0$$
+for every $R$-module $X$.
+
+Finitely presented flat modules are locally free \[\ref{ForFinitelyGeneratedFlatIsLocallyFree}\], hence
+under the dual geometric interpretation of [modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) over the space on which $R$ is the ring of functions, flatness of a finitely presented module is essentially the _local triviality_ of this bundle, hence in particular the fact that the [[fibers]] of the bundle do not change, up to isomorphism.
+
+On the other hand there is **no** relation to "flat" as in [[flat connection]] on such a bundle.
 
 ## Definition
  {#Definition}
@@ -443,6 +451,11 @@ This is [_Direct products of modules_, Theorem 2.1](#Chase).
 
 
 ## References
+
+Flat modules (“modules plats” in French) where first defined in GAGA
+
+* Jean-Pierre Serre, _Géométrie Algébrique et Géométrie Analytique_([pdf](http://www.numdam.org/article/AIF_1956__6__1_0.pdf))
+{#GAGA}
 
 Original articles include
 
