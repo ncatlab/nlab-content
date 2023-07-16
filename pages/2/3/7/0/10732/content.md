@@ -1,4 +1,8 @@
 
+> This page is about characterizing the [[Lazard ring]] in [[formal group laws]]. For the characterization of [[flat modules]] see instead at *[[Lazard's criterion]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -48,12 +52,11 @@ A proof is spelled out in ([Kochman 96, theorem 4.4.9](#Kochman96)). Another pro
 
 ## References
 
-The proof is originally due to 
+The proof is originally due to :
 
-* [[Michel Lazard]], _Sur les groupes de Lie Formels &#224; un Param&#232;tre, Bull. Soc. France, 83 (1955)_
+* [[Michel Lazard]], *Sur les groupes de Lie Formels à un Paramètre*, Bull. Soc. France **83** (1955) &lbrack;[numdam:BSMF_1955__83__251_0](http://www.numdam.org/item/?id=BSMF_1955__83__251_0)&rbrack;
 
-* A. Fr&#246;hlich, _Formal group_,  Lecture Notes in Mathematics
-Volume 74, Springer (1968)
+* A. Fr&#246;hlich, _Formal group_,  Lecture Notes in Mathematics **74**, Springer (1968)
 
 Review includes
 
