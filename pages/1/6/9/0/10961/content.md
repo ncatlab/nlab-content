@@ -13,9 +13,7 @@
 =--
 =--
 
-> when it comes to atoms, language can be used only as in poetry. &lbrack;[[Niels Bohr|Bohr]], [1920](https://en.wikiquote.org/wiki/Niels_Bohr)&rbrack;
-
-
+> *when it comes to atoms, language can be used only as in poetry.* &lbrack;[[Niels Bohr|Bohr]], [1920](https://en.wikiquote.org/wiki/Niels_Bohr)&rbrack;
 
 
 # Contents
@@ -139,9 +137,13 @@ the contrary was argued. In
  
 is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*).
 
-The catch-phrase "shut up and calculate" for the agnostic interpretation:
+The catch-phrase "shut up and calculate" for the agnostic interpretation is due to 
 
 * [[N. David Mermin]], *What's Wrong with this Pillow?*, Physics Today **42** 4 (1989) 9–11 &lbrack;[doi:10.1063/1.2810963](https://doi.org/10.1063/1.2810963)&rbrack;
+
+even though often mis-attributed to [[Richard Feynman]]:
+
+* [[N. David Mermin]], *Could Feynman Have Said This?*, Physics Today **57** 5 (2004) 10–11 &lbrack;[doi:10.1063/1.1768652](https://doi.org/10.1063/1.1768652)&rbrack;
 
 
 ### Review and textbooks
