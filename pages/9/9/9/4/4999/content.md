@@ -302,11 +302,13 @@ One of the earliest texts that exhibits the [[intuitionism|intuitionist]] contex
 Textbook accounts:
  {#TextbookAccounts}
 
+* [[E. John Lemmon]] with [[Dana Scott]], *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
+
 * {#BradleySwartz79} Raymond Bradley, Norman Swartz, *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
 
 * {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press  (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
 
-* {#BlackburnvanBenthemWolter07} [[Patrick Blackburn]], [[Johan van Benthem]], [[Frank Wolter]] (eds.), *The Handbook of Modal Logic*, Elsevier Amsterdam (2007) &lbrack;[book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
+* {#BlackburnvanBenthemWolter07} [[Patrick Blackburn]], [[Johan van Benthem]], [[Frank Wolter]] (eds.), *The Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) &lbrack;[book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
 
 * {#Benthem10} [[Johan van Benthem]], *Modal Logic for Open Minds* (2010) &lbrack;[ISBN:9781575865980](http://web.stanford.edu/group/cslipublications/cslipublications/site/9781575865980.shtml), [pdf](http://fenrong.net/teaching/mljvb.pdf), [webpage](https://archive.illc.uva.nl/lgc/MLoM/)&rbrack;
 
