@@ -529,7 +529,7 @@ $$
 
 In the general case, it is not true that all finitely generated flat modules are projective.
 
-\begin{example}(Counter-example)
+\begin{example}([[counter-example]])
 Let $R = \prod_{i = 0}^\infty k$ be an infinite product of fields.
 Let $I = \oplus_{i = 0}^\infty k \subset R$ its ideal.
 
