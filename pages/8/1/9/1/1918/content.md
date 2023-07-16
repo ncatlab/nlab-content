@@ -769,29 +769,6 @@ Emphasis on the [[reflective subcategory|reflective]]-[[category theory]]:
 [[!redirects separated subspace]]
 [[!redirects separated subspaces]]
 
-
-[[!redirects T1]]
-
-[[!redirects T1 space]]
-[[!redirects T1 spaces]]
-[[!redirects T1-space]]
-[[!redirects T1-spaces]]
-[[!redirects T_1 space]]
-[[!redirects T_1 spaces]]
-[[!redirects T_1-space]]
-[[!redirects T_1-spaces]]
-
-[[!redirects T1 topological space]]
-[[!redirects T1 topological spaces]]
-[[!redirects T1-topological space]]
-[[!redirects T1-topological spaces]]
-[[!redirects T_1 topological space]]
-[[!redirects T_1 topological spaces]]
-[[!redirects T_1-topological space]]
-[[!redirects T_1-topological spaces]]
-
-
-
 [[!redirects perfectly normal topological space]]
 [[!redirects perfectly normal topological spaces]]
 [[!redirects perfectly normal space]]
