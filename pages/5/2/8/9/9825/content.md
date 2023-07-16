@@ -158,6 +158,8 @@ The original axiomatization of quantum measurement via the *projection postulate
 
 Review and discussion:
 
+* {#Scheibe73} [[Erhard Scheibe]], §VI of: _The logical analysis of quantum mechanics_, Pergamon Press, Oxford (1973)
+
 * [[Roland Omnès]], §8 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * {#Landsman17} [[Klaas Landsman]], Section 11: of _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
