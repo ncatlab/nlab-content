@@ -547,7 +547,18 @@ Let $I = \oplus_{i = 0}^\infty k \subset R$ its ideal.
 Then $R/I$ is a finitely generated $R$-module, flat (all $R$-modules are flat), but not projective.
 \end{example}
 
+The class of commutative rings $R$ over which all finitely generated flat modules are projective has been determined in the 1970s.
 
+\begin{theorem}
+Let $R$ be a commutative ring. The following two are equivalent :
+
+1. Every finitely generated flat $R$-module is projective ;
+1. Every sequence $(a_0, a_1, \dots)$ of elements of $R$ such that
+$a_{n+1} a_n = a_n$ for every $0 \leq n$, is eventually constant.
+
+\end{theorem}
+
+One can see Gena Puninski; Philipp Rothmaler (2004). _When every finitely generated flat module is projective_. Journal of Algebra, 277(2), 542–558.         doi:10.1016/j.jalgebra.2003.10.027     
 
 ## Examples
  {#Examles}
