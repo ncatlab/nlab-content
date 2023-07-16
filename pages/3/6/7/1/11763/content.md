@@ -59,21 +59,55 @@ $$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma, x \in A, y \in A \vdash \left(\
 ## In dependent type theory
  {#InHomotopyTypeTheory}
 
-In [[dependent type theory]], a direct translation of Leibniz's identity of indiscernibles requires a way to quantify over all propositions and predicates. The only way this is possible is if the dependent type theory comes with a [[type of all propositions]] and thus [[power sets]], upon which the identity of indiscenibles for type $A$ is given by the dependent function 
+### Leibniz's identity of indiscernibles
 
-$$\mathrm{indOfIDs}:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right)$$
+In [[dependent type theory]], a direct translation of Leibniz's identity of indiscernibles requires a way to quantify over all propositions and predicates. The only way this is possible is if the dependent type theory comes with a [[type of all propositions]] and thus [[power sets]]. In addition, unlike with [[set theory]], one cannot simply say that there is a dependent function 
 
-If one is working in a [[type universe]] $U$ in [[dependent type theory]], then one could use the type of $U$-small propositions $\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(A)$, upon which the identity of indiscenibles for universe $U$ and type $A$ is given by the dependent function 
+$$\mathrm{idOfInd}_A:\prod_{x:A} \prod_{y:A} \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right) \to (x =_A y)$$
 
-$$\mathrm{indOfIDs}_U:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:A \to \mathrm{Prop}_U} P(x) \simeq P(y)\right)$$
+This is because the [[identity type]] has more than one element, and thus indiscernibles could be identified in more than one way. Instead, the identity of indiscenibles for type $A$ is given by the dependent function 
 
-However, this version of the identity of indiscenibles for universe $U$ is weaker than Leibniz's original identity of indiscenibles, since it is possible that not every proposition in the [[dependent type theory]] is $U$-small. 
+$$\mathrm{idOfInd}_A:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right)$$
 
-In [[dependent type theories]] with [[identity types]], identity of indiscernibles holds trivially because of [[haecceity|haecceities]].
+More concretely, for all $x:A$ and $y:A$, the [[principle of substitution]] is always true because by induction on reflexivity, one could define a function 
+$$\mathrm{idToInd}_A(x, y):(x =_A y) \to \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right)$$
+The identity of indiscernibles is simply the statement that $\mathrm{idToInd}_A(x, y)$ is an [[equivalence of types]]. This is the same concept that motivates the definition of [[partial orders]], [[Kolmogorov topological spaces]], and [[skeletal categories]] in terms of equivalences between identity types and a [[binary endorelation]]. 
+
+If we define the local membership relation $x \in_A P$ as $x \in_A P \coloneqq P(x)$, then Leibniz's identity of indiscenibles becomes
+
+$$\mathrm{idOfInd}_A:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:\mathcal{P}(A)} (x \in_A P) \simeq (y \in_A P)\right)$$
+
+This is similar to but not identical to the [[axiom of extensionality]]: the axiom of extensionality is given by
+$$\mathrm{extax}_A:\prod_{P:\mathcal{P}(A)} \prod_{Q:\mathcal{P}(A)} (P =_{\mathcal{P}(A)} Q) \simeq \left(\prod_{x:A} (x \in_A P) \simeq (x \in_A Q)\right)$$
+
+If Leibniz's identity of indiscenibles is true for $A$, then $A$ is a set, because the type 
+$$\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)$$ 
+is always a proposition, in the context of [[weak function extensionality]], and thus by the [[equivalence of types]], $x =_A y$ is also a proposition for all $x:A$ and $y:A$, which means that $A$ is a set. Thus, if Leibniz's identity of indiscernibles is true for all types $A$, the [[dependent type theory]] becomes a [[set-level type theory]] with Leibniz's identity of indiscernibles as an [[axiom of set truncation]]. 
+
+On the other hand, one does not necessarily need Leibniz's identity of indiscernibles to be true for all types $A$, because the type family 
+$$x:A, y:A \vdash \mathrm{ind}_A(x, y) \coloneqq \prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)$$ 
+is always an [[equivalence relation]], and thus one could construct the [[quotient set]] 
+
+$$A/\mathrm{ind}_A$$
+
+as the type 
+
+$$A/\mathrm{ind}_A \coloneqq \sum_{Q:\mathcal{P}(A)} \left[\sum_{x:A} \prod_{y:A} Q(x) \simeq \mathrm{ind}_A(x, y)\right]$$
+
+In [[topology|topological]] terms, this means that every type $A$ with its power set $\mathcal{P}(A)$ is an [[R0-space]] and the quotient $A/\mathrm{ind}_A$ is a [[T1-space]]. 
+
+### Type-theoretic identity of indiscernibles 
+
+For a version of the identity of indiscernibles which applies to not just sets, but other non-set types, one would have to go from quantifying over predicates to quantifying over [[type families]]: For this, one has to use a [[type universe]] $U$, upon which the identity of indiscenibles for type $A$ is given by the dependent function 
+
+$$\mathrm{idOfInd}_U:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:A \to U} P(x) \simeq P(y)\right)$$
+
+The type-theoretic identity of indiscernibles is similar to but not identical to the [[univalence axiom]] for [[Tarski universes]]: univalence for Tarski universe $(U, T)$ quantifies over $U$-small types and fixes the type reflector type family $A:U \vdash T(A)$ for Tarski universes, while the identity of indiscernables for type $A$ quantifies over $U$-small type families and fixes the type $A$. 
+
+### Other versions
 
 In addition, extensionality principles like [[function extensionality]], [[propositional extensionality]], and [[univalence]] ("typal extensionality") are naturally regarded as a stronger form of identity of indiscernibles.
 In particular, the [[consistency]] of [[univalence]] means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes [[equivalence in homotopy type theory|equivalent]] [[types]]; thus equivalent types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
-
 
 "There are several ways to think about the axiom of [[univalence]]. One can see it as a sophisticated updating of Leibniz's principle of the identity of indiscernibles." --[[John Baez]] [nCaf&#233;](http://golem.ph.utexas.edu/category/2013/11/categories_for_the_working_phi.html)
 
@@ -90,17 +124,25 @@ Given a [[topological space]] one might declare that "topological observations" 
 With this convention, the condition that "indiscernibles be identical" is equivalently the condition that the topological space
 satisfies the $T_0$-[[separation axiom]], hence that it is a [[Kolmogorov space]]. Generally, one could regard the [$T_0$-reflection](Kolmogorov+topological+space#KolmogorovQuotient) as the [[modality]] under which identity becomes indiscernibility, in this sense.
 
-In [[dependent type theory]], given a [[dominance]] $\Sigma \subseteq \Omega$, let $\mathcal{O}(A)$ denote the type of $\Sigma$-[[open sets]] of the type $A$, the type of functions $A \to \Sigma$. The $T_0$-[[separation axiom]] for type $A$ is given by the dependent function
+In [[dependent type theory]], given a [[dominance]] $\Sigma \subseteq \Omega$, let $\mathcal{O}(A)$ denote the type of $\Sigma$-[[open sets]] of the type $A$, the type of functions $A \to \Sigma$. The $T_1$-[[separation axiom]] for type $A$ is given by the dependent function
 
 $$T_0:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:\mathcal{O}(A)} P(x) \simeq P(y)\right)$$
 
-The identity of indiscernibles is simply the $T_0$-separation axiom where the [[type of all propositions]] $\Omega$ is the dominance and where the [[predicates]]/[[subsets]] are the $\Omega$-[[open sets]]. 
+Leibniz's identity of indiscernibles is simply the $T_1$-separation axiom where the [[type of all propositions]] $\Omega$ is the dominance and where the [[predicates]]/[[subsets]] are the $\Omega$-[[open sets]]. 
+
+In addition, given an type universe $U$, Leibniz's identity of indiscernibles for $U$ is simply the $T_1$-separation axiom where the type of $U$-small propositions $\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(A)$ is the dominance, and where the $U$-small [[predicates]]/[[subsets]] are the $\mathrm{Prop}_U$-[[open sets]]
 
 ## Related entries
 
 * [[first law of thought]]
 
 * [[transport]]
+
+* [[axiom of extensionality]]
+
+* [[axiom of set truncation]]
+
+* [[T0-space]], [[T1-space]]
 
 ## References
 
@@ -149,6 +191,10 @@ See also:
 * [Ladyman & Presnell (2016)](https://academic.oup.com/philmat/article/doi/10.1093/philmat/nkw023/2593919/Identity-in-Homotopy-Type-Theory-Part-II-The) 
 
 [[!redirects identity of indiscernibles]]
+
+[[!redirects Leibniz's identity of indiscernibles]]
+[[!redirects type theoretic identity of indiscernibles]]
+[[!redirects type-theoretic identity of indiscernibles]]
 
 [[!redirects Leibniz's Law]]
 [[!redirects Leibniz's law]]
