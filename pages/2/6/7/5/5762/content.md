@@ -13,8 +13,12 @@ On the [[interpretation of quantum mechanics]] (see also at *[[Bohr topos]]*):
 
 > This crucial point, which was to become a main theme of the discussions reported in the following, implies the *impossibility of any sharp separation between the behaviour of atomic objects and the interaction with the measuring instwments which serve to define the conditions under which the phenomena appear.*"
 
+For more see: 
 
-For more see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
+* {#Scheibe73} Erhard Scheibe, *Bohr's interpretation of quantum mechanics*, Chapter I in: _The logical analysis of quantum mechanics_, Oxford: Pergamon Press (1973)
+
+
+and see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
 
 
 > when it comes to atoms, language can be used only as in poetry. 
