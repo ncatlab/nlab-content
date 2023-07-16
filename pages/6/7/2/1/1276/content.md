@@ -285,9 +285,9 @@ $$
 from _right_ $R$ modules to [[abelian groups]] is an [[exact functor]].
 
 
+## Properties
 
-
-## Equivalent characterizations
+### Equivalent characterizations
  {#EquivalentCharacterizations}
 
 By def. \ref{FlatModule}, or its immediate consequence, remark \ref{ImmediateReformulationOfFlatness}. $N \in R Mod$ is flat if for every injection $i \colon A \hookrightarrow B$ also $i \otimes_R N \colon A \otimes_R N \to B \otimes_R N$ is an injection. The following proposition says that this may already be checked on just a very small subclass of injections.
@@ -363,7 +363,7 @@ This is due to ([Lazard (1964)](#Lazard)).
 
 =--
 
-## General properties
+###  General properties
 
 \begin{proposition}
 The full subcategory of flat modules over a ring $R$ is stable under
@@ -425,7 +425,7 @@ Since $\mathrm{Tor}_1^R(M, -)$ commutes with filtered colimits and $R$ is PID, o
 $\mathrm{Tor}_1^R(M, R/I) = 0$ for every ideal $I \subset R$. This is true because $R$ is a PID and $M$ is torsion-free.
 \end{proof}
 
-## Finitely generated flat modules
+### Finitely generated flat modules
 
 Thanks to the general structure theorem of flat modules, one gets
 
