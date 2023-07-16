@@ -63,7 +63,7 @@ which means that $W$ decomposes as the [[disjoint union]] of its [[equivalence c
 \]
 
 
-**The simple case necessity logic.** In the further special case there is just a single such class (hence that "all possible worlds are related") this becomes
+{#NecessityLogic} **The simple case necessity logic.** In the further special case there is just a single such class (hence that "all possible worlds are related") this becomes
 
 \[
   \label{QuotientCoprojectionInCaseOfGlobalS5}
