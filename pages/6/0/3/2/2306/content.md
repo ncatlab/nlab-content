@@ -109,7 +109,12 @@ This construction could however break the left exactness condition. However, $E$
 
 * [[Landweber exact functor theorem]]
 
+* [[Lazard's theorem]]
+
 ## References
+
+* [[Michel Lazard]], *Sur les groupes de Lie Formels à un Paramètre*, Bull. Soc. France **83** (1955) &lbrack;[numdam:BSMF_1955__83__251_0](http://www.numdam.org/item/?id=BSMF_1955__83__251_0)&rbrack;
+
 
 * [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298.  ([Euclid](http://projecteuclid.org/euclid.bams/1183530915))
 
