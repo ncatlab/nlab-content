@@ -25,7 +25,7 @@ A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals
 
 In short this means that $A$ is 
 
-* a [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]];
+* a [[product]]-preserving [[copresheaf]] on [[CartSp]];
 
 * equivalently: an algebra for the [[Lawvere theory]] [[CartSp]];
 
@@ -43,7 +43,7 @@ $$
    = Hom_{Diff}(X,\mathbb{R}^n)
 $$
 
-of the [[set]] of smooth $\mathbb{R}^n$-valued functions on $X$ is clearly covariant and hence yields a co-presheaf on [[CartSp]] $\subset$ [[Diff]]: a [[functor]]
+of the [[set]] of smooth $\mathbb{R}^n$-valued functions on $X$ is clearly covariant and hence yields a copresheaf on [[CartSp]] $\subset$ [[Diff]]: a [[functor]]
 
 $$
   C^\infty(X,-) : CartSp \to Set
@@ -66,7 +66,7 @@ $$
  \cdot :  C^\infty(X) \times C^\infty(X) \to C^\infty(X)
 $$ 
 
-can be regarded as the image of our co-presheaf under the muliplication map $\mathbb{R} \times \mathbb{R} \stackrel{-\cdot -}{\to} \mathbb{R}$ on the algebra of real numbers:
+can be regarded as the image of our copresheaf under the muliplication map $\mathbb{R} \times \mathbb{R} \stackrel{-\cdot -}{\to} \mathbb{R}$ on the algebra of real numbers:
 
 $$
   \cdot
@@ -102,7 +102,7 @@ on manifolds of the form $\mathbb{R}^n$.
 +-- {: .num_defn}
 ###### Definition
 
-A $C^\infty$-algebra is a finite [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]], i.e. a finite [[product]] preserving [[functor]]
+A $C^\infty$-algebra is a finite [[product]]-preserving [[copresheaf]] on [[CartSp]], i.e. a finite [[product]] preserving [[functor]]
 
 $$
   A : CartSp \to Set
@@ -223,7 +223,7 @@ A $C^\infty$-ring $C$ is called **fair** or **finitely generated and germ-determ
 ### Internal $C^\infty$-rings
 
 For any [[smooth topos]] $(\mathcal{T}, R)$, there is an [[internalization|internal]]
-notion of [[generalized smooth algebra]]:
+notion of generalized smooth algebra:
 
 +-- {: .num_defn}
 ###### Definition (internal generalized smooth algebra)
@@ -304,7 +304,7 @@ Here
 1. the fourth step is the definition of $\mathbb{L}$ as the [[opposite category]] of
    $C^\infty Ring^{fin}$
    
-1. the fifth step expresses that $C^\infty(R^n)$ is the free [[generalized smooth algebra]]
+1. the fifth step expresses that $C^\infty(R^n)$ is the free generalized smooth algebra
    on $n$ generators ([[Models for Smooth Infinitesimal Analysis|MSIA, chaper I, prop 1.1]])
    
 =--
