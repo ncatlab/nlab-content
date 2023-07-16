@@ -31,7 +31,7 @@
 
 ## Idea
 
-A _preset_ is a [[set]] without an [[equality relation]].  Conversely, a set may be defined as a preset $X$ equipped with an equality relation (technically an [[equivalence relation|equivalence]] _prerelation_ on $X$).
+A _preset_ is a [[set]] without an [[equality relation]].  Conversely, a set may be defined as a preset $X$ equipped with an equality relation, an [[equivalence relation|equivalence]] _prerelation_ on $X$ which satisfies the [[principle of substitution]] and the [[identity of indiscernibles]]. 
 
 In his seminal work _The Foundations of Constructive Analysis_ (1967), [[Errett Bishop]] explained what you must do to define a _set_ (see also [[Bishop set]]) in three steps:
 
