@@ -1,18 +1,16 @@
+[[!redirects the logic S5(m)]]
 
-# The epistemic logics $S5$ and $S5_{(m)}$
+# Contents #
 * table of contents
 {:toc}
 
 ## Idea
 
-(Note that $S5 = S5_{(1)}$. See [[S5 modal logic]])
-
-Although better than $K$ (resp. $K(m)$), and $T$ (resp. $T(m)$), $S4$ (resp. $S4(m)$) is still not considered adequate for knowledge representation.  Because of this further axioms have been put forward, too many to be mentioned here.  We will limit ourselves, (at this stage in the development of these entries, at least) to introducing one more axiom, that is a bit more contentious, (but is nice from the nPOV.) 
-
+This entry is meant to be about the flavor of [[modal logic]] known as [[S5 modal logic]] with several ($m \in \mathbb{N}$) [[modal operators]] and their duals.
 
 ## The axioms $B_i$
 
-The axiom denoted $B_i$, (and again refer to Kracht for some indication of possible reasons) is 
+The axiom denoted $B_i$, (see [Kracht 1999](#Kracht99) for indication of possible reasons) is 
 
 * $p \to K_i M_i p$.
 
@@ -37,23 +35,19 @@ Axiom (5) interprets as saying 'If agent $i$ does not know that $p$ holds, then 
 
 In either case the same result can be obtained by adding in $5$ or $(5)_i$ in place of the corresponding $B$.
 
-+-- {: .un_remark}
-###### Critique
-
-This is highly doubtful as a property of knowledge when applied to human beings. If an agent is ignorant of the truth of an assertion, it is very often unlikely that (s)he knows this ignorance.
-=--
 
 ## Equivalence frames
 
-With $T_{(m)}$, the models corresponded to frames where each relation $R_i$ was reflexive. With $S4_{(m)}$, the frames needed to be transitive as well.  Here we consider the class $\mathcal{S}5(m)$ of models with frames, where each $R_i$ is an equivalence relation.  These are sometimes called _equivalence frames_.
+With $T_{(m)}$, the models corresponded to frames where each relation $R_i$ was reflexive. With $S4_{(m)}$, the frames needed to be transitive as well.  Here we consider the class $\mathcal{S}5(m)$ of models with [[Kripke frames]], where each $R_i$ is an [[equivalence relation]].  These are sometimes called _equivalence frames_.
 
-+-- {: .un_theorem}
-###### Theorem (Soundness of $S5_{(m)}$)
+\begin{theorem}
+**(Soundness of $S5_{(m)}$)**
 
 $S5_{(m)}\vdash \phi \Rightarrow \mathcal{S}5(m)\models \phi.$
-=--
 
-+-- {: .un_proof}
+\end{theorem}
+
++-- {: .proof}
 ###### Proof
 
 (We show this for $m = 1$.)
@@ -61,25 +55,26 @@ We have already shown (here in [[the logic S4(m)]]) that the older axioms $T$ an
 
 We suppose the we have a state $w$ so that $\mathfrak{W},w \models p$.  Now we need to find out if $\mathfrak{W},w \models K M p$, so we note that 
 
-1. $\mathfrak{W},w \models K M p$ if and only if $\forall u$ with $R w u$, $$\mathfrak{W},u \models M p$, but
+1. $\mathfrak{W},w \models K M p$ if and only if $\forall u$ with $R w u$, $\mathfrak{W},u \models M p$, but
 
 2. that holds if $\forall u$ with $R w u$, there is some $v$  with $R u v$ and $\mathfrak{W},v \models   p$.
 
 However whatever $u$ we have with $R w u$, we have $R u w$ as $R$ is symmetric, and we know, by assumption, that  $\mathfrak{W},w \models p$, so we have what we need.
+
 =--
 
 
 ## References
 
-More on $S5$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
-
-* J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995.
-
 General books on modal logics which treat  these logics thoroughly in the general context include e
 
 * [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
 
-* [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
+* {#Kracht99} [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
+
+Application to artificial intelligence: 
+
+* J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995.
 
 
 [[!redirects the logic S5(m)]]
