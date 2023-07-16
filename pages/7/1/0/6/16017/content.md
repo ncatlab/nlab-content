@@ -37,7 +37,9 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 
 ### General
 
-Monographs:
+In general see the [reference at](modal+logic#References) *[[modal logic]]*, such as:
+
+* {#BradleySwartz79} [[Raymond D. Bradley]], [[Norman Swartz]], *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[webpage](http://www.sfu.ca/~swartz/pw/), [pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
 
 * Rod Girle, *Possible Worlds*, McGill-Queen's University Press (2003) &lbrack;[jstor:j.cttq48cx](https://www.jstor.org/stable/j.cttq48cx)&rbrack;
 
