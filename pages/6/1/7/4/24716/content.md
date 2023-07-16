@@ -84,3 +84,7 @@ Further discussion:
 
 [[!redirects principle of plenitude]]
 [[!redirects plenitude principle]]
+
+[[!redirects quantum compulsion]]
+[[!redirects principle of quantum compulsion]]
+
