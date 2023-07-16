@@ -22,22 +22,31 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 
 ## Related concepts
 
+* [[Kripke frame]]
+
 * [[probability space]]
 
+* [[many-worlds interpretation of quantum mechanics]]
+
 * [[multiverse]]
+
+
 
 ## References
  {#References}
 
 ### General
 
-Textbook accounts:
+Monographs:
 
 * Rod Girle, *Possible Worlds*, McGill-Queen's University Press (2003) &lbrack;[jstor:j.cttq48cx](https://www.jstor.org/stable/j.cttq48cx)&rbrack;
 
 * [[Johan van Benthem]], §2.2 of: *Modal Logic for Open Minds* (2010) &lbrack;[ISBN:9781575865980](http://web.stanford.edu/group/cslipublications/cslipublications/site/9781575865980.shtml),[pdf](http://fenrong.net/teaching/mljvb.pdf), [webpage](https://archive.illc.uva.nl/lgc/MLoM/)&rbrack;
 
 * Daniel Nolan, *Topics in the Philosophy of Possible Worlds*, Routledge (2002) &lbrack;[ISBN:9780415516303](https://www.routledge.com/Topics-in-the-Philosophy-of-Possible-Worlds/Nolan/p/book/9780415516303)&rbrack;
+
+* [[Valentin Goranko]], [[Martin Otto]], *Model Theory of Modal Logic*, in Section 5 in: *Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 249-329 &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~otto/papers/mlhb.pdf),  [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
+
 
 See also:
 
