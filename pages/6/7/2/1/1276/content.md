@@ -470,7 +470,7 @@ Thus we see that finitely generated flat modules are locally free in the weak se
 +-- {: .num_defn #LocallyFreeModule}
 ###### Definition
 
-An $R$-module $M$ is called a **locally free module in the weak sense** if for every [[prime ideals]] $\mathfrak{p} \hookrightarrow R$ the localised module $M_\mathfrak{p}$ is a [[free module]] over the [[localization of a ring|localization]] $R_\mathfrak{p}$. 
+An $R$-module $M$ is called a **locally free module in the weak sense** if for every [[prime ideal]] $\mathfrak{p} \hookrightarrow R$ the localised module $M_\mathfrak{p}$ is a [[free module]] over the [[localization of a ring|localization]] $R_\mathfrak{p}$. 
 
 =--
 
@@ -515,7 +515,7 @@ Over a Noetherian ring all finitely generated modules are finitely presented.
 So this is a simple consequence of Corollary (\ref{FinitelyPresentedFlatIsProjective})
 \end{proof}
 
-\begin{theorem}(When $R$ is an integral domain)
+\begin{proposition}(When $R$ is an integral domain)
 If $R$ is an [[integral domain]] and $M$ is a [[finitely generated module]], then
 $$ 
   M\;\text{is flat}
@@ -525,7 +525,18 @@ $$
   M\;\text{is projective}
   \,.
 $$
-\end{theorem}
+\end{proposition}
+
+\begin{proof}
+Given two prime ideals $\mathfrak{p} \subset \mathfrak{q}$, one gets
+$\mathrm{r}(\mathfrak{p}) = \mathrm{r}(\mathfrak{q})$.
+Since $R$ is an integral domain $(0)$ is a prime ideal and $(0) \subset \mathfrak{p}$ for every prime ideal $\mathfrak{p}$.
+The function $\mathfrak{p} \mapsto \mathrm{r}(\mathfrak{p})$ is thus constant.
+\end{proof}
+
+\begin{remark}
+The proof of the above proposition shows that the same result is true for every ring $R$ with a unique minimal ideal.
+\end{remark}
 
 In the general case, it is not true that all finitely generated flat modules are projective.
 
