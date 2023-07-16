@@ -130,6 +130,8 @@ Satisfaction on a class of models  is related to [[validity]] of modal formulae.
 
 * [[modal type theory]]
 
+* [[Kripke frame]], [[Kripke semantics]]
+
 * [[algebraic model for modal logic]]
 
 ## References
@@ -138,7 +140,12 @@ The concept originates with:
 
 * {#Kripke59} [[Saul A. Kripke]], *A Completeness Theorem in Modal Logic*, The Journal of Symbolic Logic **24** 1 (1959) 1-14 &lbrack;[doi:10.2307/2964568](https://doi.org/10.2307/2964568), [jstor:2964568](https://www.jstor.org/stable/2964568), [pdf](https://www.filosoficas.unam.mx/~morado/Cursos/17Modal/Kripke1959.pdf)&rbrack;
 
-* {#Kripke63} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic I Normal Modal Propositional Calculi*, Mathematical Logic Quaterly **9** 5-6 (1963) 67-96 &lbrack;[doi:10.1002/malq.19630090502](https://doi.org/10.1002/malq.19630090502)&rbrack;
+* [[Saul A. Kripke]], *Semantical Considerations on Modal Logic*, Acta Philosophical Fennica **16** (1963) 83-94 &lbrack;[pdf](http://saulkripkecenter.org/wp-content/uploads/2019/03/Semantical-Considerations-on-Modal-Logic-PUBLIC.pdf)&rbrack;
+
+* {#Kripke63} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic I. Normal Modal Propositional Calculi*, Mathematical Logic Quaterly **9** 5-6 (1963) 67-96 &lbrack;[doi:10.1002/malq.19630090502](https://doi.org/10.1002/malq.19630090502)&rbrack;
+
+* {#Kripke65} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic II. Non-Normal Modal Propositional Calculi*, in *The Theory of Models* (Proceedings of the 1963 International Symposium at Berkeley) Studies in Logic and the Foundations of Mathematics (1965) 206-220 &lbrack;[doi:10.1016/B978-0-7204-2233-7.50026-5](https://doi.org/10.1016/B978-0-7204-2233-7.50026-5)&rbrack;
+
 
 Textbook accounts:
 
