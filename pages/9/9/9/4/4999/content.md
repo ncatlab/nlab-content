@@ -17,7 +17,6 @@
 =--
 =--
 
-
 # Modal Logics
 * table of contents
 {:toc}
@@ -31,7 +30,22 @@ The term _modal logic_ refers to an enrichment of standard [[formal logic]], whe
 
 where the "certain way" is (implicitly) specified by whatever [[axioms]] are satisfied by the given [[modal operator]].
 
-In other words, [[modal operators]] in modal logic are meant to express a certain **mode of being true** --- and in generalization to [[modal type theory]] they express more generally a **mode of being**, whence the reference to [[Kant]]'s [[modalities]].
+{#ModesOfBeing} In other words, [[modal operators]] in modal logic are meant to express a certain **mode of being true** --- and in generalization to [[modal type theory]] they express more generally a **mode of being**, whence the reference to  [[modalities]] as in [[Kant]]'s writings.
+
+\begin{imagefromfile}
+    "file_name": "LemmonScott-page1.jpg",
+    "float": "right",
+    "width": 370,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "p. 1 from [Lemmon and Scott 1977](#LemmonScott77)"
+\end{imagefromfile}
+
 
 For example (see also pointers [below](#Examples)):
 
@@ -39,7 +53,9 @@ For example (see also pointers [below](#Examples)):
 
   "$p$ is _[[necessity|necessarily]]_ true", or that "$p$ is _[[possibility|possibly]]_ true"
 
-  (often read as "necessarily *known* to be true" etc., whence the reference to [[epistemology]]);
+  (often read as "necessarily *known* to be true" etc., whence the reference to [[epistemology]])
+
+  This is the original sense of modal logic, going all the way back to [[Aristotle]] (whose account on the matter is reviewed in much detail by [Lemmon & Scott (1977) pp 1-12](#LemmonScott77)).
 
 * in *[[temporal logic]]* one considers modal operators meant to express that
 
@@ -63,10 +79,13 @@ In this sense, modal logic is the counterpart in the *[[computational trilogy]]*
 
 * [[computer science]] with (co-)[[monads in computer science]] ([[computational effects]]).
 
-A traditional [[semantics]] considered for modal logics is in terms of sets with [[relations]], called _[[Kripke frames]]_. 
-Specifically for [[epistemic logic]] this is also known as *[[possible worlds semantics]]*. However, the canonical [[categorical semantics]] for [[epistemic logic]] is arguably in [[categorical models of dependent types]], as explained [here](necessity+and+possibility#InFirstOrderLogicAndTypeTheory).
+{#ModelsInIntroduction} Among [[semantics]]/[[models]] of modal logics are the [[geometric model for modal logics|geometric models]] based on *[[Kripke frames]]* which are [[sets]] (of *[[possible worlds]]*) on which the [[propositions]] in the logic may [[dependent type|dependend]] and equipped with [[relations]] which prescribe over which such worlds to [[quantifier|quantify]] in interpreting the [[modal operators]] (eg. which worlds to inspect to conclude that a proposition holds *possibly*).
 
-There is also algebraic semantics in terms of algebras with (co)-[[closure operators]]. For instance, [[temporal logic|temporal logics]] can have [[posets]] as [[models]].
+Specifically for [[epistemic logic]] this *[[Kripke semantics]]* is hence also known as *[[possible worlds semantics]]*. (As least for [[S5 modal logic]] this is closely related to [[categorical models of dependent types]], as explained at *[[necessity and possibility]] -- [possible worlds via dependent types](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)*.)
+
+Some accounts of modal logic essentially regard the theory as being the logical study of such [[Kripke frames]] -- in the sense of sets equipped with [[relations]], hence "relational structures" (for instance [Blackburn, De Rijke & Venema (2001) p xi](#BlackburnDeRijkeVenema01) who start out saying that they do not know what modal logic is if not the study of relational structures).
+
+There are also [[algebraic model for modal logics|algebraic models for modal logic]] in terms of algebras with (co)-[[closure operators]]. For instance, [[temporal logic|temporal logics]] can have [[posets]] as [[models]].
 
 
 
@@ -284,16 +303,6 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 ## References
  {#References}
 
-Historical overview and introduction
-
-* [[Robert Goldblatt]], *Mathematical modal logic: A view of its evolution*, Journal of Applied Logic **1** 5–6 (2003) 309-392 &lbrack;<a href="https://doi.org/10.1016/S1570-8683(03)00008-9">doi:10.1016/S1570-8683(03)00008-9</a>&rbrack;
-
-* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_, in Gabbay, Woods (eds.), _Handbook of the History of Logic vol. 6_ , Elsevier Amsterdam 2005. ([draft](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
-
-* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy: _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_.
- 
-* {#SEPModalLogic} Stanford Encyclopedia of Philosophy: _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_.
-
 One of the earliest texts that exhibits the [[intuitionism|intuitionist]] context is
 
 * [[Oskar Becker]], *Zur Logik der Modalitäten*, Jahrbuch für Philosophie und phänomenologische Forschung **11** (1930)  497-548 &lbrack;[digizeit](http://www.digizeitschriften.de/dms/img/?PID=PPN827944462_0011%7CLOG_0010), [ophen:101138](https://ophen.org/pub-101138), [[Becker-LogikModalitaeten.pdf:file]]&rbrack;
@@ -302,10 +311,22 @@ translated in:
 
 *  Stefania Centrone, Pierluigi Minari, *Oskar Becker, On the Logic of Modalities (1930): Translation, Commentary and Analysis*,  Synthese Library **444**, Springer (2022) &lbrack;[doi:10.1007/978-3-030-87548-0](https://doi.org/10.1007/978-3-030-87548-0)&rbrack;
 
+Historical overview and introduction:
+
+* {#Goldblatt03} [[Robert Goldblatt]], *Mathematical modal logic: A view of its evolution*, Journal of Applied Logic **1** 5–6 (2003) 309-392 &lbrack;<a href="https://doi.org/10.1016/S1570-8683(03)00008-9">doi:10.1016/S1570-8683(03)00008-9</a>&rbrack;
+
+* {#Goldblatt05} [[Robert Goldblatt]], *Mathematical Modal Logic: a View of its Evolution*, in *Handbook of the History of Logic vol. 7*, Elsevier (2005) &lbrack;<a href="https://doi.org/10.1016/S1874-5857(06)80027-0">doi:10.1016/S1874-5857(06)80027-0</a>,[draft](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf)&rbrack;
+
+* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy: _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_.
+ 
+* {#SEPModalLogic} Stanford Encyclopedia of Philosophy: _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_.
+
+
 Textbook accounts:
  {#TextbookAccounts}
 
-* [[E. John Lemmon]] with [[Dana Scott]], *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
+* {#LemmonScott77} [[E. John Lemmon]] with [[Dana Scott]], *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
+
 
 * {#BradleySwartz79} Raymond Bradley, Norman Swartz, *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
 
