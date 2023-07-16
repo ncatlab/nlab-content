@@ -13,7 +13,7 @@
 
 ## Idea
 
-In [[philosophy]], **haecceity** or **primitive thisness** is the irreducible determination of a thing that makes it this particular thing. 
+In [[philosophy]], **haecceity** or **primitive thisness** is the irreducible determination of a thing that makes it the particular thing that it is. 
 
 ## See also
 
@@ -21,7 +21,7 @@ In [[philosophy]], **haecceity** or **primitive thisness** is the irreducible de
 
 ## References
 
-* Wikipedia, [Haecceity](https://en.wikipedia.org/wiki/Haecceity)
+* Wikipedia, *[Haecceity](https://en.wikipedia.org/wiki/Haecceity)*
 
 * French, Steven (2019), Zalta, Edward N. (ed.), *Identity and Individuality in Quantum Theory*, The Stanford Encyclopedia of Philosophy (Winter 2019 ed.), Metaphysics Research Lab, Stanford University. ([web](https://plato.stanford.edu/archives/win2019/entries/qt-idind/))
 
