@@ -156,6 +156,12 @@ This problem was pointed out and the modern formulation of the collapse postulat
 
   *Concerning the state-change due to the measurement process*, Ann. Phys. **15** 9 (2006) 663-670 &lbrack;[pdf](http://myweb.rz.uni-augsburg.de/~eckern/adp/history/historic-papers/2006_518_663-670.pdf), [[Lueders-StateChange.pdf:file]]&rbrack;
 
+Early review:
+
+
+* {#Scheibe73} [[Erhard Scheibe]], pp 137 in: _*The logical analysis of quantum mechanics&, Pergamon Press Oxford (1973)
+
+
 Textbook accounts in [[quantum information theory]]:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], §2.2.3 of: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
