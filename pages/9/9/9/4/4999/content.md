@@ -327,8 +327,7 @@ Textbook accounts:
 
 * {#LemmonScott77} [[E. John Lemmon]] with [[Dana Scott]], *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
 
-
-* {#BradleySwartz79} Raymond Bradley, Norman Swartz, *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
+* {#BradleySwartz79} [[Raymond D. Bradley]], [[Norman Swartz]], *Possible Worlds -- An Introduction to Logic and its Philosophy*, Hackett Publishing (1979) &lbrack;[webpage](http://www.sfu.ca/~swartz/pw/), [pdf](https://www.sfu.ca/~swartz/pw/text/pw_all.pdf)&rbrack;
 
 * {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press  (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
 
@@ -345,7 +344,7 @@ Other texts:
 
 * {#MakkaiReyes95} [[Michael Makkai]], [[Gonzalo Reyes]], _Completeness results for intuitionistic and modal logic in a categorical setting_, Annals of Pure and Applied Logic 72 (1995) 25-101
 
-  (on [[de dicto and de re]] phenomena in [[hyperdoctrine|hyperdoctrinal]] modal logic)
+  > (on [[de dicto and de re]] phenomena in [[hyperdoctrine|hyperdoctrinal]] modal logic)
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
