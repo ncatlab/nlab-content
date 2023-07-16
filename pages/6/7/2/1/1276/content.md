@@ -413,6 +413,12 @@ By the general discussion at [[derived functor in homological algebra]], the obs
 
 =--
 
+\begin{example}
+The ring of power series $R[[X]]$ is a flat $R$-module if and only if $R$ is a [[coherent ring]].
+\end{example}
+
+This is [_Direct products of modules_, Theorem 2.1](#Chase).
+
 ## Related concepts
 
 * [[flat morphism of schemes]]
@@ -468,6 +474,9 @@ Lecture notes include
 Further resources include
 
 * MO discussion _[flatness and local freeness](http://mathoverflow.net/questions/33522/flatness-and-local-freeness)_
+
+* Stephen Chase, _[Direct product of modules](https://www.ams.org/journals/tran/1960-097-03/S0002-9947-1960-0120260-3/S0002-9947-1960-0120260-3.pdf)
+{#Chase}
 
 [[!redirects flat modules]]
 
