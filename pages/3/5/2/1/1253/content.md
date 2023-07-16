@@ -77,6 +77,7 @@ In [[dependent type theory]], the *[[axiom of extensionality]]* is a property of
 ## See also
 
 * [[extensionality]]
+* [[identity of indiscernibles]]
 
 ## References
 
