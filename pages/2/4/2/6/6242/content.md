@@ -288,6 +288,10 @@ further discussed in:
 
 * Samuel S. Holland Jr., _Orthomodularity in infinite dimensions; a theorem of M. Sol&#232;r_, Bull. Amer. Math. Soc. (N.S.) __32__ (1995) 205-234 &lbrack;[arXiv:math.RA/9504224](http://arxiv.org/abs/math/9504224)&rbrack;
 
+An account of quantum logic within a comprehensive discussion of [[quantum mechanics]] and its [[interpretation of quantum mechanics]]:
+
+* {#Scheibe73} [[Erhard Scheibe]], pp 71 in: *The logical analysis of quantum mechanics*, Pergamon Press Oxford (1973)
+
 
 Discussion of [[categorical logic]] in [[symmetric monoidal categories]] (not just of [[vector spaces]] but of [[vector bundles]]) and hence of [[linear logic]] as quantum logic:
 
