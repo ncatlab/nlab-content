@@ -20,18 +20,31 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Flat modules were first defined in [GAGA](#GAGA). They are a generalisation of the class of [[torsion-free modules]] for rings $R$ that are not PID.
+In [[algebra]], the notion of *flat* [[modules]] (due to [GAGA](#GAGA)) is a generalisation of the class of [[torsion-free modules]] over [[rings]] $R$ that are not [[PID]].
 
-An $R$-module $M$ is _flat_ (from the French word “plat”) if it has “no torsion” in the sense that :
- the Tor-functor vanishes
-$$ \mathrm{Tor}_1^R(M, X) = 0$$
-for every $R$-module $X$.
+An $R$-module $M$ is _flat_ (from the French word “*plat*”) if it has “no torsion” in the sense that the [[Tor]]-functor vanishes for every $R$-module $X$:
+$$ 
+  M\;\text{is flat}
+  \;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;
+  \underset{X \in R Mod}{\forall}
+  \;\;\;
+  \mathrm{Tor}_1^R(M, X) \,=\, 0
+  \,.
+$$
 
-Finitely presented flat modules are locally free \[\ref{ForFinitelyGeneratedFlatIsLocallyFree}\], hence
-under the dual geometric interpretation of [modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) over the space on which $R$ is the ring of functions, flatness of a finitely presented module is essentially the _local triviality_ of this bundle, hence in particular the fact that the [[fibers]] of the bundle do not change, up to isomorphism.
+
+\begin{remark}\label{TerminologyAndRelationToFiberBundles}
+**(terminology and relation to fiber bundles)**
+\linebreak
+[[finitely presented module|Finitely presented]] flat modules are locally free \[\ref{ForFinitelyGeneratedFlatIsLocallyFree}\], hence
+under the [[duality between algebra and geometry|dual geometric interpretation]] of [modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) over the space on which $R$ is the [[ring of functions]], flatness of a finitely presented module is essentially the _[[local triviality]]_ of this bundle, hence in particular the fact that the [[fibers]] of the bundle do not change, up to isomorphism (cf. *[[fiber bundle]]*).
 
 On the other hand there is **no** relation to "flat" as in [[flat connection]] on such a bundle.
+\end{remark}
 
 ## Definition
  {#Definition}
