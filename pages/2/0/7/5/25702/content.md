@@ -26,6 +26,12 @@ A [[topological space]] $(X,\tau)$ is called a **symmetric topological space** o
 
 A $T_1$-topological space is a symmetric topological space which is also a [[Kolmogorov topological space]]. The [[quotient topological space|quotient]] of a symmetric topological space $(X, \tau)$ by its [[specialization order]] equivalence relation is a $T_1$-topological space, the [[Kolmogorov quotient]] of $X$. 
 
+## Examples
+
+Every [[set]] $X$ with its [[power set]] $\mathcal{P}(X)$ is a symmetric topological space with respect to the specialization order equivalence relation defined as 
+$$x \equiv y \coloneqq \forall P \in \mathcal{P}(X).P(x) \iff P(y)$$
+for all $x \in X$ and $y \in X$. 
+
 ## Related concepts
 
 * [[specialization order]]
