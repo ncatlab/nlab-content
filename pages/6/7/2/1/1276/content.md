@@ -527,7 +527,14 @@ $$
 $$
 \end{theorem}
 
+In the general case, it is not true that all finitely generated flat modules are projective.
 
+\begin{example}(Counter-example)
+Let $R = \prod_{i = 0}^\infty k$ be an infinite product of fields.
+Let $I = \oplus_{i = 0}^\infty k \subset R$ its ideal.
+
+Then $R/I$ is a finitely generated $R$-module, flat (all $R$-modules are flat), but not projective.
+\end{example}
 
 
 
