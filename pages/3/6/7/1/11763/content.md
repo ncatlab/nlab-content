@@ -61,7 +61,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma, x \in A, y \in A \vdash \left(\
 
 ### Leibniz's identity of indiscernibles
 
-In [[dependent type theory]], a direct translation of Leibniz's identity of indiscernibles requires a way to quantify over all propositions and predicates. The only way this is possible is if the dependent type theory comes with a [[type of all propositions]] and thus [[power sets]]. In addition, unlike with [[set theory]], one cannot simply say that there is a dependent function 
+In [[dependent type theory]], a direct translation of Leibniz's identity of indiscernibles requires a way to quantify over all [[propositions]] and [[predicates]]. The only way this is possible is if the dependent type theory comes with a [[type of all propositions]] and thus [[power sets]], the latter of which are the type of all [[predicates]] on a type. In addition, unlike with [[set theory]], one cannot simply say that there is a dependent function 
 
 $$\mathrm{idOfInd}_A:\prod_{x:A} \prod_{y:A} \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right) \to (x =_A y)$$
 
