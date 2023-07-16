@@ -99,6 +99,16 @@ Axiom K for identification types follows from axiom K for dependent heterogeneou
 $$\mathrm{Id}_{A}(a, b) \equiv \mathrm{Id}_{C(\mathrm{pt})}(a, b) \simeq \mathrm{hId}_{x:\mathbb{1}.C(x)}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$$
 and because $\mathrm{hId}_{x:\mathbb{1}.C(x)}(\mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}), a, b)$ is always a [[contractible type]] with [[center of contraction]] $\mathrm{apd}_{x:\mathbb{1}.C(x)}(f, \mathrm{pt}, \mathrm{pt}, \mathrm{refl}_{\mathbb{1}}(\mathrm{pt}))$ for element $a:A$, and dependent function $f:\prod_{x:\mathbb{1}} C(x)$, by axiom K for heterogeneous identification types, it follows that $\mathrm{Id}_{C(\mathrm{pt}}(a, a)$ and thus by definition $\mathrm{Id}_{A}(a, a)$ is also always a contractible type, with center of contraction $\mathrm{refl}_A(a)$. 
 
+### Leibniz’s identity of indiscernibles
+
+In [[dependent type theory]] with [[power sets]], [[Leibniz's identity of indiscernibles]] is given by the following [[inference rule]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash \mathrm{idOfInd}_A(x, y):\mathrm{Id}_A(x, y) \simeq \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right)}$$
+
+This implies that all types $A$ are sets, because the type 
+$$\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)$$ 
+is always a proposition, in the context of [[weak function extensionality]], and thus by the [[equivalence of types]], $\mathrm{Id}_A(x, y)$ is also a proposition for all $x:A$ and $y:A$, which means that $A$ is a set. 
+
 ### Boundary separation
 
 In [[cubical type theory]], [[boundary separation]] is given by the following rule:
