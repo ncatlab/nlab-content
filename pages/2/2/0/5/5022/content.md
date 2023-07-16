@@ -15,11 +15,14 @@ For modal logics involving multiple modal operators, frames are given by that nu
 
 ## References
 
-Generally this entry is based on
 
-* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press  (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
+* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], §1.3 in: *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
 
-* {#GasquetHerzigSaidSchwarzentruber13} Olivier Gasquet, Andreas Herzig, Bilal Said, François Schwarzentruber (2013). *Kripke's Worlds: An Introduction to Modal Logics via Tableaux.* Springer. ISBN 978-3764385033. ([doi:10.1007/978-3-7643-8504-0](https://doi.org/10.1007/978-3-7643-8504-0))
+* [[Valentin Goranko]], [[Martin Otto]], §1.2 in: *Model Theory of Modal Logic*, in Section 5 in: *Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 249-329 &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~otto/papers/mlhb.pdf),  [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
+
+* {#GasquetHerzigSaidSchwarzentruber13} Olivier Gasquet, Andreas Herzig, Bilal Said, François Schwarzentruber,  *Kripke's Worlds: An Introduction to Modal Logics via Tableaux*, Studies in Universal Logic, Springer (2014) &lbrack;[doi:10.1007/978-3-7643-8504-0](https://doi.org/10.1007/978-3-7643-8504-0), [ISBN:978-3764385033]()&rbrack;
+
+
 
 
 [[!redirects Kripke frame]]
