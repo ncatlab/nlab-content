@@ -411,6 +411,8 @@ Classical textbook account:
 
 * Eduard Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press (1971) &lbrack;[ISBN: 9780080874081](https://www.elsevier.com/books/quantum-mechanics-in-hilbert-space/prugovecki/978-0-12-566060-0)&rbrack;
 
+* {#Scheibe73} [[Erhard Scheibe]], _The logical analysis of quantum mechanics_, Pergamon Press Oxford (1973)
+
 * {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
