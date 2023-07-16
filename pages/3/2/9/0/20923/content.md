@@ -1,5 +1,5 @@
 
-* [webpage](https://www.dur.ac.uk/research/directory/staff/?mode=staff&id=16829)
+* [webpage](https://www.durham.ac.uk/staff/mathew-r-bullimore/)
 
 ## Selected writings
 
