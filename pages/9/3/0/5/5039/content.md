@@ -1,13 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {:toc}
 
 ## Models in Modal Logics
 
-To give the standard (geometric) semantics of [[modal logics]], one needs models and these will be discussed here and in the companion [[algebraic models for modal logics]].
+The [[semantics]] of [[modal logics]] based on [[Kripke frames]] ("geometric" in contrast to [[algebraic models for modal logics]]), often called **Kripke semantics** &lbrack;[Kripke (1959)](#Kripke59), [(1963)](#Kripke63)&rbrack;. 
 
-This outlines the basics of the semantics often called **Kripke semantics** of these logics. We concentrate on modal languages with unary modalities and therefore on relational structures with binary relations in them only.  This is largely for the sake of keeping the exposition fairly straightforward and simple.  This means the frames used will be 'Kripke frames'. 
+In the following we say *frame* for *[[Kripke frame]]*. 
 
 
 ### Models in Monomodal Logics
@@ -124,9 +134,18 @@ Satisfaction on a class of models  is related to [[validity]] of modal formulae.
 
 ## References
 
-Generally this entry is based on
+The concept originates with:
 
-* P. [[Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001, 
+* {#Kripke59} [[Saul A. Kripke]], *A Completeness Theorem in Modal Logic*, The Journal of Symbolic Logic **24** 1 (1959) 1-14 &lbrack;[doi:10.2307/2964568](https://doi.org/10.2307/2964568), [jstor:2964568](https://www.jstor.org/stable/2964568), [pdf](https://www.filosoficas.unam.mx/~morado/Cursos/17Modal/Kripke1959.pdf)&rbrack;
+
+* {#Kripke63} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic I Normal Modal Propositional Calculi*, Mathematical Logic Quaterly **9** 5-6 (1963) 67-96 &lbrack;[doi:10.1002/malq.19630090502](https://doi.org/10.1002/malq.19630090502)&rbrack;
+
+Textbook accounts:
+
+* {#BlackburnDeRijkeVenema01} [[Patrick Blackburn]], [[Maarten de Rijke]], [[Yde Venema]], *Modal Logic*, Cambridge Tracts in Theoretical Computer Science **53**, Cambridge University Press  (2001) &lbrack;[doi:10.1017/CBO9781107050884](https://doi.org/10.1017/CBO9781107050884)&rbrack;
+
+* [[Valentin Goranko]], [[Martin Otto]], §1 in: *Model Theory of Modal Logic*, in Section 5 in: *Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 249-329 &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~otto/papers/mlhb.pdf),  [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
+
 
 [[!redirects geometric model for modal logic]]
 [[!redirects geometric model for modal logics]]
@@ -134,3 +153,8 @@ Generally this entry is based on
 [[!redirects geometric models for modal logics]]
 
 [[!redirects Kripke semantics]]
+
+[[!redirects geometric model of formal logic]]
+[[!redirects geometric models of formal logic]]
+
+
