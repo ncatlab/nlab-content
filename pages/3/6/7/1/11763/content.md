@@ -51,18 +51,33 @@ This is what [[Grundlage der gesamten Wissenschaftslehre|Fichte 1794]] later cal
 
 From the perspective of [[homotopy type theory]], the "[[first law of thought]]" is the [[term introduction]]-rule for [[identity types]], and "indiscernability of identicals" is the [[transport]]-rule, which together with "identiy of indiscernible" is implied by the [[induction]]-rule of the [[identity type]] (the "[[J-rule]]"). For more on this see [below](#InHomotopyTypeTheory).
 
+In [[set theory]] with [[power sets]], the [[inference rule]] for the identity of indiscernables is given by 
 
-## In homotopy type theory
+$$\frac{\Gamma \vdash A \; \mathrm{set}}{\Gamma, x \in A, y \in A \vdash \left(\forall P \in \mathcal{P}(A).P(x) \iff P(y)\right) \implies x =_A y \; \mathrm{true}}$$
+
+
+## In dependent type theory
  {#InHomotopyTypeTheory}
 
-In [[type theories]] with [[identity types]] ([[homotopy type theory]]), identity of indiscernibles holds trivially because of [[haecceity|haecceities]]; but extensionality principles like [[function extensionality]], [[propositional extensionality]], and [[univalence]] ("typal extensionality") are naturally regarded as a stronger form of identity of indiscernibles.
+In [[dependent type theory]], a direct translation of Leibniz's identity of indiscernibles requires a way to quantify over all propositions and predicates. The only way this is possible is if the dependent type theory comes with a [[type of all propositions]] and thus [[power sets]], upon which the identity of indiscenibles for type $A$ is given by the dependent function 
+
+$$\mathrm{indOfIDs}:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)\right)$$
+
+If one is working in a [[type universe]] $U$ in [[dependent type theory]], then one could use the type of $U$-small propositions $\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(A)$, upon which the identity of indiscenibles for universe $U$ and type $A$ is given by the dependent function 
+
+$$\mathrm{indOfIDs}_U:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:A \to \mathrm{Prop}_U} P(x) \simeq P(y)\right)$$
+
+However, this version of the identity of indiscenibles for universe $U$ is weaker than Leibniz's original identity of indiscenibles, since it is possible that not every proposition in the [[dependent type theory]] is $U$-small. 
+
+In [[dependent type theories]] with [[identity types]], identity of indiscernibles holds trivially because of [[haecceity|haecceities]].
+
+In addition, extensionality principles like [[function extensionality]], [[propositional extensionality]], and [[univalence]] ("typal extensionality") are naturally regarded as a stronger form of identity of indiscernibles.
 In particular, the [[consistency]] of [[univalence]] means that in [[Martin-Löf type theory]] without univalence, one cannot define any [[predicate]] that provably distinguishes [[equivalence in homotopy type theory|equivalent]] [[types]]; thus equivalent types are "externally indiscernible", and univalence incarnates that principle internally by making them identical.
 
 
 "There are several ways to think about the axiom of [[univalence]]. One can see it as a sophisticated updating of Leibniz's principle of the identity of indiscernibles." --[[John Baez]] [nCaf&#233;](http://golem.ph.utexas.edu/category/2013/11/categories_for_the_working_phi.html)
 
 On the other hand, the converse substitution/substitutivity principle of "indiscernibility of identicals" is expressd by *[[transport]]* in [[homotopy type theory]].
-
 
 ## In point-set topology
  {#InPointSetTopology}
@@ -75,6 +90,11 @@ Given a [[topological space]] one might declare that "topological observations" 
 With this convention, the condition that "indiscernibles be identical" is equivalently the condition that the topological space
 satisfies the $T_0$-[[separation axiom]], hence that it is a [[Kolmogorov space]]. Generally, one could regard the [$T_0$-reflection](Kolmogorov+topological+space#KolmogorovQuotient) as the [[modality]] under which identity becomes indiscernibility, in this sense.
 
+In [[dependent type theory]], given a [[dominance]] $\Sigma \subseteq \Omega$, let $\mathcal{O}(A)$ denote the type of $\Sigma$-[[open sets]] of the type $A$, the type of functions $A \to \Sigma$. The $T_0$-[[separation axiom]] for type $A$ is given by the dependent function
+
+$$T_0:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:\mathcal{O}(A)} P(x) \simeq P(y)\right)$$
+
+The identity of indiscernibles is simply the $T_0$-separation axiom where the [[type of all propositions]] $\Omega$ is the dominance and where the [[predicates]]/[[subsets]] are the $\Omega$-[[open sets]]. 
 
 ## Related entries
 
