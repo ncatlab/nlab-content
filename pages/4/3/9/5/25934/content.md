@@ -15,7 +15,7 @@ in relation to each other:
 
 * Brian Skyrms, Part III of: *Possible Worlds, Physics and Metaphysics*, Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition **30** 5 (1976) 323-332 $[$[jstor:4319099](https://www.jstor.org/stable/4319099)$]$
 
-* Paul Tappenden, p. 102 (4 of 17) in: *Identity and Probability in Everett's Multiverse*, The British Journal for the Philosophy of Science, **51** 1 (2000) 99-114 $[$[jstor:3541750](https://www.jstor.org/stable/3541750)$]$
+* Paul Tappenden, p. 101 (4 of 17) in: *Identity and Probability in Everett's Multiverse*, The British Journal for the Philosophy of Science, **51** 1 (2000) 99-114 $[$[jstor:3541750](https://www.jstor.org/stable/3541750)$]$
 
 * Daniel Nolan, p. 22 of: *Topics in the Philosophy of Possible Worlds*, Routledge (2002) $[$[ISBN:9780415516303](https://www.routledge.com/Topics-in-the-Philosophy-of-Possible-Worlds/Nolan/p/book/9780415516303)$]$
 
