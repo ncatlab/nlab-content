@@ -42,7 +42,7 @@ A detailed motivation/derivation of this from classical theorems on the foundati
 
 One might think of a Bohr topos as (part of) a formalization of the "[[coordination]]" of the [[physical theory]] of [[quantum mechanics]], providing a formalized prescription of how to map the theory to [[propositions]] about ([[experiment|experimental]]) [[observables]] of the system. The [[internal logic]] of Bohr toposes has been argued (e.g. [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09)) to be a better formal context for such considerations than the old [[quantum logic]] going back to [[von Neumann]].
 
-The idea of Bohr toposes goes back to  [Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham), [Isham-D&#246;ring 07](IshamDoering07)) and [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09). The concept is named after [[Niels Bohr]], whose informal ideas about the nature of quantum mechanics (e.g. [Scheibe 73](#Scheibe)) it is supposed to formalize, see at _[interpretation of quantum mechanics -- Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
+The idea of Bohr toposes goes back to  [Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham), [Isham-D&#246;ring 07](#IshamDoering07)) and [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09). The concept is named after [[Niels Bohr]], whose informal ideas about the nature of quantum mechanics ([Bohr 1949](#interpretation+of+quantum+mechanics#Bohr49), cf. [Scheibe 1973](#Scheibe73)) it is supposed to formalize, see at _[interpretation of quantum mechanics -- Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
 
 Sometimes in the literature the discussion of Bohr toposes is referred to as "the topos-theoretic formulation of physics". But actually Bohr toposes currently formalize but one aspect of [[quantum mechanics]], namely "the quantum mechanical [[phase space]]" in the form of the [[quantum observables]] and the [[quantum states]]. The plain Bohr topos does not even encode any [[dynamics]], though in the spirit of [[AQFT]] a certain presheaf of Bohr toposes on [[spacetime]] does encode dynamics ([Nuiten 11](#Nuiten11)). For other and more comprehensive usages of [[topos theory]] in the formalization of [[physics]] see at _[[geometry of physics]]_ and at _[[higher category theory and physics]]_.
 
@@ -126,7 +126,7 @@ constitutes what is called a _[[ringed topos]]_ -- a special case of the notion 
 
 We shall call this ringed topos the **Bohr topos** of $A$. 
 
-This terminology is meant to indicate that one may think of this construction as formalizing faithfully and usefully a heuristic that has been emphasized by [[Nils Bohr]] -- one of the founding fathers of [[quantum mechanics]] -- and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. 
+This terminology is meant to indicate that one may think of this construction as formalizing faithfully and usefully a heuristic that has been emphasized by [[Nils Bohr]] -- one of the founding fathers of [[quantum mechanics]] -- and is known as the _doctrine of classical concepts_ ([Scheibe 1973](#Scheibe73)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. 
 
 Namely in terms of the Bohr topos we have the following equivalent reformulations of the foundational facts about quantum physics discussed above, now internally in $Bohr(A)$.
 
@@ -1022,7 +1022,7 @@ The assertion by Bohr that all experiments in quantum mechanics must be possible
 
 [[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed further in
 
-* {#Scheibe} Erhard Scheibe, _The logical analysis of quantum mechanics_, Oxford: Pergamon Press (1973)
+* {#Scheibe73} [[Erhard Scheibe]], *Bohr's interpretation of quantum mechanics*, Chapter I in: _The logical analysis of quantum mechanics_, Oxford: Pergamon Press (1973)
 
 
 For more see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
@@ -1086,7 +1086,7 @@ Review:
 
 The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos over the [[poset of commutative subalgebras]] (there taken to be [[presheaves]] instead of [[copresheaves]]) is due to
 
-* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. **37** 11 (1998) 2669-2733 &lbrack;[MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557), [doi:10.1023/A:1026680806775](http://dx.doi.org/10.1023/A:1026680806775)&rbrack; 
+* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. **37** 11 (1998) 2669-2733 &lbrack;[doi:10.1023/A:1026680806775](http://dx.doi.org/10.1023/A:1026680806775), [arXiv:quant-ph/9803055](https://arxiv.org/abs/quant-ph/9803055), [MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557)&rbrack; 
 
   _II. conceptual aspects and classical analogues_ Int. J. of Theor. Phys. **38**  3 (1999) 827-859 &lbrack;[MR2000f:81012](http://www.ams.org/mathscinet-getitem?mr=1697983), [doi:10.1023/A:1026652817988](http://dx.doi.org/10.1023/A:1026652817988)&rbrack;
 
