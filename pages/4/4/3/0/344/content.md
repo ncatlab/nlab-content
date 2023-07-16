@@ -74,7 +74,7 @@ A __finitely extensive category__ (or __finitary extensive category__) is a [[ca
 
    (e.g. [Carboni, Lack & Walters 1993, Def. 2.1](#CarboniLackWalters93)).
 
-1. {#DisjointAndPullbackStableCoproducts} [[pullback|Pullbacks]] of finite-coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
+1. {#DisjointAndPullbackStableCoproducts} [[pullback|Pullbacks]] of finite-coproduct injections along arbitrary morphisms exist and finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback-stable colimit|stable under pullback]].
 
    (e.g [CLW93, Prop. 2.6, Lem. 2.11](#CarboniLackWalters93))
 
