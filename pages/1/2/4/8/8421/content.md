@@ -160,6 +160,8 @@ For instance, the connectives of type theory are presentations of [[functors]], 
 
 * [[definition]]
 
+* [[congruence rule]]
+
 ## References
 
 In a broad sense, the idea of natural deduction can be traced back to [[Aristotle]]'s **Prior Analytics** as classical work by J. Bacon, J. Corcoran and T. Smiley around 1970 has argued that his theory of [[syllogism]] can be viewed as a [[fragment]] of natural deduction. For more on this see e.g.
