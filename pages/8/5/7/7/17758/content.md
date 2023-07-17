@@ -18,6 +18,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In the theory of [[fusion rings]]/[[fusion categories]], it is often very useful to have a good theory of dimensions of objects. Dimensions are useful linearization tool, as well as for defining invariants.
+
+The most natural way to define the dimension of an object in a fusion category is via the [[quantum dimension]]. Namely, one defines the dimension of an object to be the [[trace]] of the identity map on the object. In unitary fusion categories this works perfectly, but in higher generality there are some issues which can arise. The main issue is that trace is not defined. Even in [[spherical categories]] where there is a good notion of trace, there is no guarantee that the quantum dimension will be positive.
+
+The key observation is that in the unitary case the quantum dimension of an object will always be the [[Frobenius-Perron theorem | Frobenius-Perron eigenvector]] of its corresponding fusion matrix. In the spherical non-unitary case the quantum dimension will still be an eigenvector of the fusion matrix, just not necessarily the Frobenius-Perron one.
+
+The Frobenius-Perron dimension of an object is thus defined to be the Frobenius-Perron eigenvector of its corresponding fusion matrix. This is defined in higher generality than the quantum dimension, and serves the purpose of linearization equally well. It thus serves as a great tool in the study of fusion rings and fusion categories.
+
 ## Definition
 
 ### For elements of $\mathbb{N}$-rings
