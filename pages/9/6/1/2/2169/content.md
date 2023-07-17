@@ -159,7 +159,7 @@ see [[division algebra and supersymmetry]]
 ## References
 
 
-The classification of real divsion composition algebras is originally due ([[Hurwitz theorem]]) to 
+The classification of real division composition algebras is originally due ([[Hurwitz theorem]]) to 
 
 * {#Hurwitz1898} [[Adolf Hurwitz]], _&#220;ber die Composition der quadratischen Formen von beliebig vielen Variabeln_, Nachr. Ges. Wiss. G&#246;ttingen (1898) 309&#8211;316
 
