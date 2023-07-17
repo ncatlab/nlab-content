@@ -84,7 +84,7 @@ Textbook accounts:
 
 * [[Kirill Mackenzie]], _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
 
-For properly appreciating the [[homotopy theory]] of Lie groupoids and for passage to more general higher differential geometry it is crucial to understand Lie groupoids as [[smooth stacks]] which are [[geometric stack|geometric]]:  _[[differentiable stacks]]_. Each of the following references provides introduction to this point of view:
+For properly appreciating the [[homotopy theory]] of Lie groupoids and for passage to more general higher differential geometry, it is crucial to understand Lie groupoids as [[smooth stacks]] which are [[geometric stack|geometric]]:  _[[differentiable stacks]]_. Each of the following references provides introduction to this point of view:
 
 * [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
 
