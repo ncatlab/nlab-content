@@ -1,5 +1,5 @@
+__Dmitri Nikshych__ is a mathematician at University of New Hampshire ([web](https://ceps.unh.edu/person/dmitri-nikshych)). He has been one of the key figures in the development of the theory of [[fusion categories]].
 
-* [website](https://ceps.unh.edu/person/dmitri-nikshych)
 
 ## Selected writings
 
