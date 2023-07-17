@@ -12,12 +12,13 @@ Specifically on [[natural number objects]]:
 
 * [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, Theory and Applications of Categories **37** 13 (2021) 337-377.  ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734), [tac:37-13](http://www.tac.mta.ca/tac/volumes/37/13/37-13abs.html))
 
-
-
 Specifically on [[n-truncated objects in an (infinity,1)-category|n-truncation]]:
 
 * [[Nima Rasekh]], _An Elementary Approach to Truncations_ ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
 
+Discussion of straightening and unstraightening for [[(∞,n)-categories]]:
+
+* [[Lyne Moser]], [[Nima Rasekh]], [[Martina Rovelli]], _An (∞,n)-categorical straightening-unstraightening construction_ ([arXiv:2307.07259](https://arxiv.org/abs/2307.07259)).
 
 ## Related entries
 
