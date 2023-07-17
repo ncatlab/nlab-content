@@ -19,9 +19,9 @@ Let $\mathbb{R}$ denote the [[set]] of [[real numbers]]. Then there is a functio
 
 $$O:(\mathbb{R} \to \mathbb{R}) \to \mathcal{P}(\mathbb{R} \to \mathbb{R})$$
 
-from the set of [[endofunctions]] on the real numbers $\mathbb{R} \to \mathbb{R}$ to the set of [[subsets]] of [[endofunctions]] on the real numbers $\mathcal{P}(\mathbb{R} \to \mathbb{R})$, such that given a real-valued endofunction $g:\mathbb{R} \to \mathbb{R}$, an real-valued endofunction $f:\mathbb{R} \to \mathbb{R}$ is said to be in $O(g)$ if and only if there merely exists positive real numbers $c:\mathbb{R}^+$ and $n_0:\mathbb{R}^+$ such that for all positive real numbers $n:\mathbb{R}^+$, if $n \leq n_0$, then $\vert f(n) \vert \leq c \vert g(n) \vert$:
+from the set of [[endofunctions]] on the real numbers $\mathbb{R} \to \mathbb{R}$ to the set of [[subsets]] of [[endofunctions]] on the real numbers $\mathcal{P}(\mathbb{R} \to \mathbb{R})$, such that given a real-valued endofunction $g:\mathbb{R} \to \mathbb{R}$, an real-valued endofunction $f:\mathbb{R} \to \mathbb{R}$ is said to be in $O(g)$ if and only if there merely exists positive real numbers $c:\mathbb{R}^+$ and $n_0:\mathbb{R}^+$ such that for all positive real numbers $n:\mathbb{R}^+$, if $n \geq n_0$, then $\vert f(n) \vert \leq c \vert g(n) \vert$:
 
-$$f \in O(g) \coloneqq \exists c:\mathbb{R}^+.\exists n_0:\mathbb{R}^+.\exists n:\mathbb{R}^+.(n \leq n_0) \implies (\vert f(n) \vert \leq c \vert g(n) \vert)$$
+$$f \in O(g) \coloneqq \exists c:\mathbb{R}^+.\exists n_0:\mathbb{R}^+.\exists n:\mathbb{R}^+.(n \geq n_0) \implies (\vert f(n) \vert \leq c \vert g(n) \vert)$$
 
 If one doesn't have [[power sets]] in the foundations, one would have to define $O(g)$ as a [[family]] of structural [[subsets]]: for each $g:\mathbb{R} \to \mathbb{R}$, a set $O(g)$ and an [[injection]] $i_O(g):O(g) \hookrightarrow (\mathbb{R} \to \mathbb{R})$. Then $f \in O(g)$ if $f$ is in the [[image]] of $i_O(g)$. 
 
