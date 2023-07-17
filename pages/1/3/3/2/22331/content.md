@@ -26,6 +26,8 @@ A [[Quillen adjunction]] relating [[n-complicial sets|$n$-complicial sets]] to [
 
 * [[Viktoriya Ozornova]], [[Martina Rovelli]], *A Quillen adjunction between globular and complicial approaches to $(\infty,n)$-categories*, Advances in Mathematics **421** (2023) 108980 &lbrack;[doi:10.1016/j.aim.2023.108980](https://doi.org/10.1016/j.aim.2023.108980)&rbrack;
 
+Discussion of straightening and unstraightening for [[(∞,n)-categories]]:
 
+* [[Lyne Moser]], [[Nima Rasekh]], [[Martina Rovelli]], _An (∞,n)-categorical straightening-unstraightening construction_ ([arXiv:2307.07259](https://arxiv.org/abs/2307.07259)).
 
 category: people
