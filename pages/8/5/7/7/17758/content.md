@@ -32,6 +32,8 @@ The Frobenius-Perron dimension of an object is thus defined to be the Frobenius-
 
 ### For elements of $\mathbb{N}$-rings
 
+The most general setting for Frobenius-Perron dimensions is that of $\mathbb{N}$-rings.
+
 +-- {: .num_defn #NRing}
 ###### Definition
 
@@ -92,3 +94,6 @@ $$
 
 * {#EGNO15} [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], section 3.3 in _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
 ))
+
+* [[Pavel Etingof]], [[Dmitri Nikshych]], [[Viktor Ostrik]], "On Fusion Categories", Annals of mathematics, 2005 ([pdf](https://arxiv.org/pdf/math/0203060.pdf))
+
