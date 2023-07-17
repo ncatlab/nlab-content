@@ -19,7 +19,7 @@ Some works of relevance for the $n$lab:
 
 * Valery A. Lunts, _Coherent sheaves on configuration schemes_, J. Algebra __244__:2 (2001) 379-406 [doi](https://doi.org/10.1006/jabr.2001.8866) [math.AG/0012061](https://arxiv.org/abs/math/0012061)
 
-* Valery A. Lunts, _Categorical resolution of singularities_, J. Algebra __323__:10 (2010) 2977-3003 [math.AG/0905.4566](https://arxiv.org/abs/0905.4566)
+* Valery A. Lunts, _Categorical resolution of singularities_, J. Algebra __323__:10 (2010) 2977-3003 [doi](https://doi.org/10.1016/j.jalgebra.2009.12.023) [math.AG/0905.4566](https://arxiv.org/abs/0905.4566)
 
 * Valery A. Lunts, _Formality of DG algebras (after Kaledin)_
 [math.AG/0712.0996](https://arxiv.org/abs/0712.0996)
