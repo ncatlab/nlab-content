@@ -24,17 +24,17 @@ The concept of _adjoint functors_ &lbrack;[Kan (1958)](#Kan58)&rbrack; is a key 
 
 Abstractly, the notion of adjoint functors embodies the concept of *[[representable functors]]* and has as special cases the fundamental [[universal constructions]] of [[category theory]] such as notably *[[Kan extensions]]* and hence *([[colimit|co-]])[[limits]]* and *([[coend|co-]])[[ends]]*, while being itself the archetypical special case of a natural notion of *[[adjunction]]* which in [[2-category theory]] embodies a general [principle of duality](geometry+of+physics+--+categories+and+toposes#CategoryTheoryIsTheoryOfDuality).
 
-Concretely, the concept of adjoint functors $L \dashv R \,\colon\, \mathcal{C} \leftrightarrows \mathcal{D}$ is immediately transparent and compelling in its incarnation as a [[natural isomorphism]] on [[hom-sets]] (see [below](#InTermsOfHomIsomorphism)) and more generally on [[hom-objects]] (see at *[[enriched adjoint functor]]*), where it just says that adjoint functors are those that may [[coherence condition|coherently]] be switched left$\leftrightarrow$right in a [[hom-set]]
+Concretely, the concept of adjoint functors $L \dashv R \,\colon\, \mathcal{D} \leftrightarrows \mathcal{C}$ is immediately transparent and compelling in its incarnation as a [[natural isomorphism]] on [[hom-sets]] (see [below](#InTermsOfHomIsomorphism)) and more generally on [[hom-objects]] (see at *[[enriched adjoint functor]]*), where it just says that adjoint functors are those that may [[coherence condition|coherently]] be switched left$\leftrightarrow$right in a [[hom-set]]
 $$
   L \dashv R 
     \;\colon\; 
-  \mathcal{C} \leftrightarrows \mathcal{D}
+  \mathcal{D} \underoverset{R}{L}{\leftrightarrows} \mathcal{C}
   \;\;\;\;\;\;\;\;\;\;\;\;\;
     \text{means}
   \;\;\;\;\;\;\;\;\;\;\;\;\;
-  \mathcal{C}\big(L(-),\,-\big)
+  \mathcal{D}\big(L(-),\,-\big)
   \;\simeq\;
-  \mathcal{D}\big(-,\,R(-)\big)
+  \mathcal{C}\big(-,\,R(-)\big)
   \,.
 $$
 The striking analogy (in fact a kind of [[categorification]]) of this defining relation to the older notion of *[[adjoint operator|adjoint linear operators]]* between [[Hermitian vector spaces]]/[[Hilbert spaces]] $\mathscr{H}_i$ with [[inner products]] $\langle -,-\rangle_i$
@@ -43,17 +43,17 @@ $$
     = 
   R^\dagger 
     \;\colon\;
-  \mathscr{H}_1 \leftrightarrows \mathscr{H}_2
+  \mathscr{H}_2 \leftrightarrows \mathscr{H}_1
   \;\;\;\;\;\;\;\;\;\;\;
     \text{means}
   \;\;\;\;\;\;\;\;\;\;\;
   \big\langle
     L(-),\, -
-  \big\rangle_1
+  \big\rangle_2
   \;=\;
   \big\langle
     -,\, R(-)
-  \big\rangle_2  
+  \big\rangle_1  
 $$ 
 is what gives the notion of adjoint functors its name.
 
