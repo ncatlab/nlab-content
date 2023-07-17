@@ -1,5 +1,4 @@
-
-* [webpage](http://pages.uoregon.edu/vostrik/)
+__Victor Ostrik__ is a mathematicain at University of Oregon ([web](http://pages.uoregon.edu/vostrik/)). He has been one of the main figures in the development of the theory of [[fusion categories]].
 
 ## Selected writings
 
