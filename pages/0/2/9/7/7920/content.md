@@ -101,6 +101,9 @@ which (along the lines of the discussion of the universal left fibration from [C
 
 (see [video 3 at 1:16:58](https://youtu.be/P0Cfb4eUJo4?t=4618) and [slide 3.33](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk3.pdf#page=33)).
 
+Discussion of straightening and unstraightening for [[(∞,n)-categories]]:
+
+* [[Lyne Moser]], [[Nima Rasekh]], [[Martina Rovelli]], _An (∞,n)-categorical straightening-unstraightening construction_ ([arXiv:2307.07259](https://arxiv.org/abs/2307.07259)).
 
 
 [[!redirects straightening and unstraightening]]
