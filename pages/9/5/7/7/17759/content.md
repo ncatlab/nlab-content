@@ -20,21 +20,22 @@
 
 ## Definition
 
+Here we define a [[Z+ ring|$\mathbb{Z}_+$-ring]]
 
 +-- {: .num_defn #NRing}
 ###### Definition
 
-A _unital $\mathbb{N}$-ring_ is a [[ring]] such that 
+A _unital $\mathbb{Z}_+$-ring_ is a [[ring]] such that 
 
 1. the underlying [[abelian group]] is [[free abelian group]];
 
-1. there exists a finite $\mathbb{N}$-[[basis]]: a [[finite set]] $I$ of elements $X_i \in R$, $i \in I$, such that 
+1. there exists a finite $\mathbb{Z}_+$-[[basis]]: a [[finite set]] $I$ of elements $X_i \in R$, $i \in I$, such that 
 
    $$
      X_i X_j = \sum_{k \in I} c_{i j}^k X_k
    $$
 
-   for $c_{i j}^k \in \mathbb{N}$
+   for $c_{i j}^k \in \mathbb{Z}_+$
 
 1. the ring unit 1 is among these basis elements.
 
@@ -45,7 +46,7 @@ Let $\mathcal{C}$ be a [[fusion category]], i.e. a [[tensor category]] which is 
 +-- {: .num_defn #FusionRing}
 ###### Definition
 
-The [[isomorphism classes]] $[X]$ of objects of $\mathcal{C}$ form an $\mathbb{N}$-ring (def. \ref{NRing}) under [[tensor product]]. This is the _fusion ring_ of $\mathcal{C}$.
+The [[isomorphism classes]] $[X]$ of objects of $\mathcal{C}$ form an $\mathbb{Z}_+$-ring (def. \ref{NRing}) under [[tensor product]]. This is the _fusion ring_ of $\mathcal{C}$.
 
 =--
 
