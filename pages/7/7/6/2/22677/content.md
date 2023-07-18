@@ -86,7 +86,7 @@ The following relates the tensor product to [[bilinear functions]]. It is a defi
 ###### Definition/Proposition
 
 A [[function]] of underlying sets $f : A \times B \to C$
-is a [[bilinear function]] precisely if it factors by the morphism of \ref{TheCanonicalMap} through a [[group homomorphism]] $\phi : A \otimes B \to C$ out of the tensor product:
+is a [[bilinear function]] precisely if it factors by the morphism of \ref{TheCanonicalMap} through a [[monoid homomorphism]] $\phi : A \otimes B \to C$ out of the tensor product:
 
 $$
   f : A \times B \stackrel{\otimes}{\to}    
