@@ -27,7 +27,7 @@ $$
 
 a _local endomorphism_ is a [[natural transformation|natural]] [[associative algebra|algebra]] [[homomorphism]] $\rho : \mathcal{A} \to \mathcal{A}$ which is supported (nontrivial) on a [[compact space|compact]] region of [[spacetime]] $X$. 
 
-These _local endomorphism_ are physically interpreted as local [[charges]]. By the locality of the local net, one finds that local endomorphisms natural form a [[braided monoidal category]]. This is called the _DHR category_.
+These _local endomorphism_ are physically interpreted as local [[charges]]. By the locality of the local net, one finds that local endomorphisms naturally form a [[braided monoidal category]]. This is called the _DHR category_.
 
 The DHR category is thus built from data used in [[DHR superselection theory]] and is used to provide a simplified proof of the [[Doplicher-Roberts reconstruction theorem]]. 
 
