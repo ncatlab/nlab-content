@@ -605,9 +605,9 @@ the ideal $I$ must thus be idempotent;
 
 2 $\Rightarrow$ 3. For every $x \in R$, the ideal $(x)$ must be idempotent, that is $(x)(x) = (x)$ which means that there must exist $y$ such that $x = x^2y$;
 
-3 $\Rightarrow$ 2. Straightforward
-
-2 $\Rightarrow$ 1. By cyclic reduction, it shall be enough to show that each cyclic module $R/I$ is flat. (...)
+3 $\Rightarrow$ 1. For every finitely generated ideal $I \subset R$, there
+exists an idempotent $\pi$ such that $I = (\pi)$. Let us show why it is true in the case of an ideal $I = (x, y)$ with two generators $x, y \in R$. The general case being similar. By assumption there exists $\alpha, \beta \in R$ such that $x = x \alpha x$ and $y = y \beta y$. Let $\pi = \alpha x + \beta y - \alpha \beta x y$. By construction $\pi$ is idempotent, belongs to $I$ and we also have $x = x \pi$ and $y = y \pi$ so that $I = (\pi)$.
+It follows that for every finitely generated ideal $I$, the quotient module $R/I$ is projective, hence flat. We can now conclude the proof by cyclic reduction.
 \end{proof}
 
 ## Examples
@@ -637,6 +637,12 @@ $$
 $$
 of free $R$-modules.
 \end{example}
+
+\begin{example}
+If $\pi$ is an idempotent element of a commutative ring $R$, then
+the cyclic module $R/(\pi)$ is projective, hence flat.
+\end{example}
+
 ## Related concepts
 
 * [[flat morphism of schemes]]
