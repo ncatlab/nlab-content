@@ -427,6 +427,20 @@ $$
 One can then identify $Tor_1(R/(r), M)$ with the kernel of the map $x \mapsto rx$, that is ${}_r M$.
 \end{proof}
 
+This is no longer the case when $r$ is not regular.
+
+\begin{proposition}
+Let $\pi$ be an idempotent element of $R$, then the $R$-module $R/(\pi)$ is flat, that is
+$$
+  Tor_1^R(R/(\pi), X) = 0
+$$
+for every $R$-module $X$.
+\end{proposition}
+
+\begin{proof}
+Since $\pi$ is idempotent, $R/(\pi)$ can be identified with the direct summand $(1-\pi)R$ of $R$. It is then a projective $R$-module and is then flat.
+\end{proof}
+
 ### The case of abelian groups
 
 For $n \in \mathbb{N}$ with $n \geq 1$, write $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order]] $n$, as usual.
