@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[derived functor]] of a [[tensor product]] [[functor]]. In the context of [[homological algebra]] this is traditionally denoted by _[[Tor]]_
+The left [[derived functor]] of a [[tensor product]] [[functor]]. In the context of [[triangulated categories]] denoted by $\stackrel{\mathbf{L}}\otimes$ or $\otimes^L$. In the context of classical [[homological algebra]] its components (the classical left derived functors) are traditionally denoted by _[[Tor]]${}_{i}$_.
 
 
 ## Examples
