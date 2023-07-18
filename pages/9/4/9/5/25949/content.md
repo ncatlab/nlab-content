@@ -11,3 +11,5 @@ On [[fusion categories]]:
 On [[Hopf algebras]]:
 
 * Sonia Natale. "On semisimple Hopf algebras of dimension pq2." Journal of Algebra 221.1 (1999): 242-278.
+
+category: people
