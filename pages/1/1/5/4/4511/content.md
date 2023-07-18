@@ -312,6 +312,81 @@ $$
 
 =--
 
+
+
+### Symmetry in the two arguments
+ {#SymmetryInTheTwoArguments}
+
++-- {: .num_prop}
+###### Proposition
+
+For $N_1, N_2 \in R Mod$ and $n \in \mathbb{N}$ there is a [[natural isomorphism]]
+
+$$
+  Tor_n(A,B) \simeq Tor_n(B,A)
+  \,.
+$$
+
+=--
+
+We first give a proof for $R$ a [[principal ideal domain]] such as $\mathbb{Z}$.
+
++-- {: .proof}
+###### Proof
+
+Let $R$ be a [[principal ideal domain]] such as $\mathbb{Z}$ (in the latter case $R$[[Mod]]$\simeq$ [[Ab]]). Then by the discussion at _[projective resolution -- length-1 resolutions](projective+resolution#Lenght1ResolutionsOfAbelianGroups)_ there is always a [[short exact sequence]]
+
+$$
+  0 \to F_1 \to F_0 \to N \to 0
+$$
+
+exhibiting a [[projective resolution]] of any module $N$. It follows that $Tor_{n \geq 2}(-,-) = 0$.
+
+Let then $0 \to F_1 \to F_2 \to N_2 \to 0$ be such a short resolution for $N_2$. Then by the [long exact sequence of a derived functor](derived+functor+in+homological+algebra#LongExactSequence) this induces an [[exact sequence]] of the form
+
+$$
+  0 \to Tor_1(N_1, F_1) \to Tor_1(N_1, F_0) \to Tor_1(N_1, N_2) \to N_1 \otimes F_1 \to N_1 \otimes F_0 \to N_1 \otimes N_2 \to 0
+  \,.
+$$
+
+Since by construction $F_0$ and $F_1$ are already [[projective modules]] themselves this collapses to an exact sequence
+
+$$
+  0 \to Tor_1(N_1, N_2) \hookrightarrow N_1 \otimes F_1 \to N_1 \otimes F_0 \to N_1 \otimes N_2 \to 0
+  \,.
+$$
+
+To the last three terms we apply the natural [[braided monoidal category|symmetric braiding]] [[isomorphism]] in $(R Mod, \otimes_R)$  to get 
+
+$$
+  \array{
+    0 &\to& Tor_1(N_1, N_2) &\hookrightarrow& N_1 \otimes F_1 &\to& N_1 \otimes F_0 &\to& N_1 \otimes N_2 &\to& 0
+    \\
+    && \downarrow && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} 
+  && 
+    \\ 
+    0 &\to& Tor_1(N_2, N_1) &\hookrightarrow& F_1 \otimes N_1 &\to& F_0 \otimes N_1 &\to& N_2 \otimes N_1 &\to& 0
+  }
+  \,.
+$$
+
+This exhibits a morphism $Tor_1(N_1,N_2) \to Tor_1(N_2, N_1)$ as the morphism induced on [[kernels]] from an isomorphism between two morphisms. Hence this is itself an isomorphism. (This is just by the [[universal property]] of the [[kernel]], but one may also think of it as a simple application of the the [[four lemma]]/[[five lemma]].)
+
+=--
+
+
+### Localization
+ {#Localization}
+
+(...)
+
+For instance ([Weibel, cor. 3.2.13](#Weibel)).
+
+## Explicit computations for $Tor_1$
+
+Over a commutative ring $R$, the computation of the Tor functor can be
+reduced to the computation of each $Tor(M, R/I)$ where $I$ is a finitely generated ideal of $R$.
+
 ### Relation to torsion groups
  {#RelationToTorsionGroups}
 
@@ -471,74 +546,24 @@ An [[abelian group]] is [[torsion subgroup|torsion free]] precisely if regarded 
 
 See at _[flat module - Examples](flat+module#Examles)_ for more.
 
-### Symmetry in the two arguments
- {#SymmetryInTheTwoArguments}
+### $Tor_1$ of two cyclic modules
 
-+-- {: .num_prop}
-###### Proposition
-
-For $N_1, N_2 \in R Mod$ and $n \in \mathbb{N}$ there is a [[natural isomorphism]]
-
+\begin{proposition}
+Let $R$ be a commutative ring and let $I \subset R$ and $J \subset R$ be two ideals. Then
 $$
-  Tor_n(A,B) \simeq Tor_n(B,A)
-  \,.
+Tor^R_1(R/I, R/J) \simeq (I \cap J) /IJ
 $$
+\end{proposition}
 
-=--
-
-We first give a proof for $R$ a [[principal ideal domain]] such as $\mathbb{Z}$.
-
-+-- {: .proof}
-###### Proof
-
-Let $R$ be a [[principal ideal domain]] such as $\mathbb{Z}$ (in the latter case $R$[[Mod]]$\simeq$ [[Ab]]). Then by the discussion at _[projective resolution -- length-1 resolutions](projective+resolution#Lenght1ResolutionsOfAbelianGroups)_ there is always a [[short exact sequence]]
-
+\begin{proof}
+One has a short exact sequence $0 \to I \to R \to R/I \to 0$. Tensoring it
+with $R/J$, one gets the long exact sequence
 $$
-  0 \to F_1 \to F_0 \to N \to 0
+0 \to Tor_1(R/I, R/J) \to I \otimes R/J \to R/J \to R/I \otimes R/J \to 0
 $$
-
-exhibiting a [[projective resolution]] of any module $N$. It follows that $Tor_{n \geq 2}(-,-) = 0$.
-
-Let then $0 \to F_1 \to F_2 \to N_2 \to 0$ be such a short resolution for $N_2$. Then by the [long exact sequence of a derived functor](derived+functor+in+homological+algebra#LongExactSequence) this induces an [[exact sequence]] of the form
-
-$$
-  0 \to Tor_1(N_1, F_1) \to Tor_1(N_1, F_0) \to Tor_1(N_1, N_2) \to N_1 \otimes F_1 \to N_1 \otimes F_0 \to N_1 \otimes N_2 \to 0
-  \,.
-$$
-
-Since by construction $F_0$ and $F_1$ are already [[projective modules]] themselves this collapses to an exact sequence
-
-$$
-  0 \to Tor_1(N_1, N_2) \hookrightarrow N_1 \otimes F_1 \to N_1 \otimes F_0 \to N_1 \otimes N_2 \to 0
-  \,.
-$$
-
-To the last three terms we apply the natural [[braided monoidal category|symmetric braiding]] [[isomorphism]] in $(R Mod, \otimes_R)$  to get 
-
-$$
-  \array{
-    0 &\to& Tor_1(N_1, N_2) &\hookrightarrow& N_1 \otimes F_1 &\to& N_1 \otimes F_0 &\to& N_1 \otimes N_2 &\to& 0
-    \\
-    && \downarrow && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} 
-  && 
-    \\ 
-    0 &\to& Tor_1(N_2, N_1) &\hookrightarrow& F_1 \otimes N_1 &\to& F_0 \otimes N_1 &\to& N_2 \otimes N_1 &\to& 0
-  }
-  \,.
-$$
-
-This exhibits a morphism $Tor_1(N_1,N_2) \to Tor_1(N_2, N_1)$ as the morphism induced on [[kernels]] from an isomorphism between two morphisms. Hence this is itself an isomorphism. (This is just by the [[universal property]] of the [[kernel]], but one may also think of it as a simple application of the the [[four lemma]]/[[five lemma]].)
-
-=--
-
-
-### Localization
- {#Localization}
-
-(...)
-
-For instance ([Weibel, cor. 3.2.13](#Weibel)).
-
+Hence $Tor_1(R/I, R/J)$ can be identified with the kernel of the map
+$I \otimes R/J \to R/J$ which is isomorphic to $(I \cap J)/IJ$.
+\end{proof}
 
 ## Related concepts
 
