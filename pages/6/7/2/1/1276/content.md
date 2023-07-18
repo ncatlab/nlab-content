@@ -565,6 +565,51 @@ $a_{n+1} a_n = a_n$ for every $0 \leq n$, is eventually constant.
 
 One can see Gena Puninski; Philipp Rothmaler (2004). _When every finitely generated flat module is projective_. Journal of Algebra, 277(2), 542–558.         doi:10.1016/j.jalgebra.2003.10.027     
 
+## General (non-finitely generated) flat modules
+
+As we have seen, there is not much difference between flat modules and projective modules in the finitely generated case.
+The notion of flatness starts becoming really distinct in the case of infinitely generated modules. For example the $\mathbb{Z}$-module $\mathbb{Q}$ is flat (since it is torsion-free) but far from being free.
+
+On the other side, for infinitely generated module, the notion of projectivity is less useful since for example the module $\mathbb{Z}[[X]]$ which is the infinite product of copies of $\mathbb{Z}$ is _not free_ but still flat.
+It is common to encounter infinitely generated flat modules and uncommon to encounter infinitely generated projective modules.
+
+To better understand the general notion of flatness from a geometric perspective, very early after the definition of the notion, two questions have been asked
+
+1. What type of rings $R$ have all their modules flat?
+1. For what type of rings can flat modules be the filtered union of their finitely generated projective submodules?
+
+### Absolutely flat rings
+
+The first question can be answered simply.
+
+\begin{definition}
+We say that a ring $R$ is absolutely flat if every $R$-module is flat.
+\end{definition}
+
+\begin{theorem}
+The following propositions are equivalent for a commutative ring $R$:
+
+1. $R$ is absolutely flat;
+1. every ideal $I \subset R$ is idempotent, i.e. $I^2 = I$;
+1. for every $x \in R$ there exists an element $y \in R$ such that $x = x^2 y$.
+
+\end{theorem}
+
+\begin{proof}
+1 $\Rightarrow$ 2. Let $I \subset R$ be any ideal of $R$, then since $R$ is absolutely flat, the $R$-module $R/I$ must be flat.
+One has
+$$
+  Tor_1(R/I, R/I) \simeq I/{I^2}
+$$
+the ideal $I$ must thus be idempotent;
+
+2 $\Rightarrow$ 3. For every $x \in R$, the ideal $(x)$ must be idempotent, that is $(x)(x) = (x)$ which means that there must exist $y$ such that $x = x^2y$;
+
+3 $\Rightarrow$ 2. Straightforward
+
+2 $\Rightarrow$ 1. By cyclic reduction, it shall be enough to show that each cyclic module $R/I$ is flat. (...)
+\end{proof}
+
 ## Examples
  {#Examles}
 
