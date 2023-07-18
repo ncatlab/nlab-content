@@ -201,87 +201,7 @@ $$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 $$\mathrm{isContr}(A) \coloneqq \sum_{y:A} \prod_{z:A} y =_{A} z$$
 
 $$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
-and combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[universal property]] rule. In addition, every type has an [[extensionality]] rule. 
-
-#### Heterogeneous identification types 
-
-Formation rule for heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B
-    \end{array}
-  }{\Gamma \vdash y =_{B}^{p} z \; \mathrm{type}}$$ 
-
-Introduction rule for heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
-    \end{array}
-  }{\Gamma \vdash \mathrm{ap}_{B}(f, a, b, p):\mathrm{ind}_{A \to B}(f, a) =_{B}^{p} \mathrm{ind}_{A \to B}(f, b)}$$ 
-
-Universal property rule for heterogeneous identification types:
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B, z:B, q:\mathrm{hId}_{B}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p)) \\
-      \Gamma \vdash f:A \to B \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
-    \end{array}
-  }{\Gamma \vdash \mathrm{up}_{\mathrm{hId}_{B}}(t, f, a, b, p):
-\begin{array}{c}
-\exists!J:\left(\prod_{f:A \to B} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))\right) \\ 
-\to \left(\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B} \prod_{f:B} \prod_{s:\mathrm{hId}_{B}(c, d, r, e, f)} C(c, d, r, e, f, s)\right) \\
-.\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p)), t(f, a, b, p))
-\end{array}
-}$$
-
-#### Dependent heterogeneous identification types
-
-Dependent heterogeneous identification types are important for defining the rules for higher inductive types and for characterizing the extensionality principle for dependent sum types. 
-
-Formation rule for dependent heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b)
-    \end{array}
-  }{\Gamma \vdash y =_{x:A.B(x)}^{p} z \; \mathrm{type}}$$ 
-
-Introduction rule for dependent heterogeneous identification types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b
-    \end{array}
-  }{\Gamma \vdash \mathrm{apd}_{x:A.B(x)}(f, a, b, p):f(a) =_{x:A.B(x)}^{p} f(b)}$$ 
-
-Universal property rule for dependent heterogeneous identification types:
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)) \\
-      \Gamma \vdash f:\prod_{x:A} B(x) \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b)
-    \end{array}
-  }{\Gamma \vdash \mathrm{up}_{\mathrm{hId}_{x:A.B(x)}}(t, f, a, b, p):
-\begin{array}{c}
-\exists!J:\left(\prod_{f:\prod_{x:A} B(x)} \prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))\right) \\ 
-\to \left(\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B(c)} \prod_{f:B(c)} \prod_{s:\mathrm{hId}_{x:A.B(x)}(c, d, r, e, f)} C(c, d, r, e, f, s)\right) \\
-.\mathrm{Id}_{C(a, b, p, f(a), f(b))}(J(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p)), t(f, a, b, p))
-\end{array}
-}$$
-
-#### Extensionality principle for the dependent sum type
-
-The extensionality principle for the dependent sum type states that there is an [[equivalence of types]] between the [[identity type]] $(a, b) =_{\sum_{x:A} B(x)} (a', b')$ of a dependent sum type and the dependent sum $\sum_{p:a =_A a'} b =_B^p b'$ of its component's identity types:
-
-$$
-\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma \vdash a':A \quad \Gamma \vdash b':B(a')}{\Gamma \vdash \mathrm{ext}_{\Sigma}(a, b, a', b'):(a, b) =_{\sum_{x:A} B(x)} (a', b') \simeq \sum_{p:a =_A a'} b =_B^p b'}
-$$
+and combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[induction]] rule. 
 
 #### Unit type
 
@@ -291,18 +211,15 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{1} \; \mathrm{type}}$$
 Introduction rules for the unit type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{pt}:\mathbb{1}}$$
 
-Universal property rule for the unit type:
+Induction rule for the unit type:
 $$\frac{\Gamma, x:\mathbb{1} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{pt}:C(\mathrm{pt})}{\Gamma \vdash \mathrm{up}_\mathbb{1}^C(c_\mathrm{pt}):\exists!c:\prod_{x:\mathbb{1}} C(x).(c(\mathrm{pt}) =_{C(\mathrm{pt})} c_\mathrm{pt})}$$
-
-Extensionality rule for the unit type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{1}}^{\mathrm{pt}, \mathrm{pt}}:(\mathrm{pt} =_{\mathbb{1}} \mathrm{pt}) \simeq \mathbb{1}}$$
 
 #### Empty type
 
 Formation rules for the empty type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{0} \; \mathrm{type}}$$
 
-Universal property rule for the empty type:
+Induction rule for the empty type:
 $$\frac{\Gamma, x:\mathbb{0} \vdash C(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{up}_\mathbb{0}^C:\mathrm{isContr}\left(\prod_{x:\mathbb{0}} C(x)\right)}$$
 
 #### Booleans type
@@ -313,13 +230,8 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}}$$
 Introduction rules for the booleans type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}}$$
 
-Universal property rule for the booleans type:
+Induction rule for the booleans type:
 $$\frac{\Gamma, x:\mathbb{2} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_1:C(1)}{\Gamma \vdash \mathrm{up}_\mathbb{2}^C(c_0, c_1):\exists!c:\prod_{x:\mathbb{2}} C(x).(c(0) =_{C(0)} c_0) \times (c(1) =_{C(1)} c_1)}$$
-
-Extensionality rules for the booleans type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 0}:(0 =_{\mathbb{2}} 0) \simeq \mathbb{1}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{0, 1}:(0 =_{\mathbb{2}} 1) \simeq \mathbb{0}}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 0}:(1 =_{\mathbb{2}} 0) \simeq \mathbb{0}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ext}_{\mathbb{2}}^{1, 1}:(1 =_{\mathbb{2}} 1) \simeq \mathbb{1}}$$
 
 #### Natural numbers type
 
@@ -329,7 +241,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{N} \; \mathrm{type}}$$
 Introduction rules for the natural numbers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{N} \to \mathbb{N}}$$
 
-Universal property rule for the natural numbers type:
+Induction rule for the natural numbers type:
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
 
 #### Integers type
@@ -340,7 +252,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{Z} \; \mathrm{type}}$$
 Introduction rules for the integers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{Z} \simeq \mathbb{Z}}$$
 
-Universal property rule for the integers type:
+Induction rule for the integers type:
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{Z}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
 
 ## Categorical semantics
