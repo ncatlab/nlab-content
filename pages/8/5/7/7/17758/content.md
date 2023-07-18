@@ -32,9 +32,8 @@ The Frobenius-Perron dimension of an object is thus defined to be the Frobenius-
 
 ### For elements of $\mathbb{N}$-rings
 
-The most general setting for Frobenius-Perron dimensions is that of $\mathbb{N}$-rings.
+The most general setting for Frobenius-Perron dimensions is that of [[fusion ring | $\mathbb{N}$-rings]].
 
-+-- {: .num_defn #NRing}
 ###### Definition
 
 A _unital $\mathbb{N}$-ring_ is a [[ring]] such that 
