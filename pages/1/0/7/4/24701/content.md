@@ -133,18 +133,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 Uniqueness rules for function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \eta_{A \to B}(f):f =_{A \to B} \lambda(x).f(x)}$$
 
-### Function extensionality
-
-Function extensionality states that given functions $f:A \to B$ and $g:A \to B$ the dependent function type
-
-$$\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x)$$
-
-behaves as an [[identity system]]. 
-
-$$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash J(t, f, g, h):C(f, g, h)}$$
-
-$$\frac{\Gamma, f:A \to B, g:A \to B, h:\prod_{x:A} \mathrm{ind}_{A \to B}(f, x) =_B \mathrm{ind}_{A \to B}(g, x) \vdash C(f, g, h)}{\Gamma, t:\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k)), f:A \to B \vdash \beta(t, f):J(t, f, f, \mathrm{ap}_B(f)) =_{C(f, f, \mathrm{ap}_B(f))} \mathrm{ind}_{\prod_{k:A \to B} C(k, k, \mathrm{ap}_B(k))}(t, f)}$$
-
 ### Pair types
 
 Formation rules for pair types:
@@ -196,11 +184,11 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \coloneqq A \; \m
 ### Positive types
 
 Now that we have [[identification types]], [[equivalence types]], [[dependent sum types]], and [[dependent product types]], we can use that to define the [[equivalence type]], the [[isContr]] [[modality]], the [[uniqueness quantifier]]
-$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
-
 $$\mathrm{isContr}(A) \coloneqq \sum_{y:A} \prod_{z:A} y =_{A} z$$
 
 $$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
+
+$$A \simeq B \coloneqq \sum_{f:A \to B} \prod_{y:B}\exists!x:A.f(x) =_{B} y$$
 and combine the [[elimination rule]], the [[computation rule]], and the [[uniqueness rule]] for any [[positive type]] into one rule, the [[induction]] rule. 
 
 #### Unit type
