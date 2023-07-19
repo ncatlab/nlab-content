@@ -269,4 +269,12 @@ Weil Prolongation is discussed in the following papers:
 
 * Wolfgang Bertram and Arnaud Souvay. _A general construction of Weil functors._ arXiv preprint arXiv:1111.2463 (2011).([arXiv:1111.2463](https://arxiv.org/pdf/1111.2463.pdf))
 
+An extension of the concept of a tangent bundle category to $(\infty, 1)$-categories is in:
+
+* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).
+
+Two further examples of tangent structures on an $(\infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
+
+* [[Michael Ching]], _Dual tangent structures for infinity-toposes_, ([arXiv:2101.08805](https://arxiv.org/abs/2101.08805))
+
 [[!redirects tangent bundle categories]]
