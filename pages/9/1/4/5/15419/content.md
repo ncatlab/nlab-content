@@ -39,7 +39,7 @@ The analogy between [[p-adic numbers]] and [[Laurent series]] over $\mathbb{F}_p
 
 It is also the function field analogy which induces the conjecture of the [[geometric Langlands correspondence]] by analogy from the number-theoretic [[Langlands correspondence]]. Here one finds that the [[moduli stack of bundles]] over a [[complex curve]] is analogous in absolute [[arithmetic geometry]] to the [[coset space]] of the [[general linear group]] with coefficients in the [[ring of adeles]] of a number field, on which [[unramified]] [[automorphic representations]] are functions. Under this analogy the [[Weil conjecture on Tamagawa numbers]] may be regarded as giving the [[groupoid cardinality]] of the [[moduli stack of bundles]] in [[arithmetic geometry]].
 
-In summary then the analogy says that the theory of [[number fields]] and of [[function fields]] both looks much like a [[global analytic geometry]]-version of the theory [[complex curves]].
+In summary then the analogy says that the theories of [[number fields]] and of [[function fields]] both look much like a [[global analytic geometry]]-version of the theory of [[complex curves]].
 
 
 ## Formalizations
