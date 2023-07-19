@@ -491,6 +491,11 @@ Discussion of sheet diagrams for [[rig categories]] is in
 
 * {#CDH} Cole Comfort, Antonin Delpeuch, [[Jules Hedges]], _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
 
+For a discussion of the use of diagrams to treat [[universal properties]], [[limits]], [[Kan extensions]], and [[ends]], see
+
+* Kenji Nakahira, _Diagrammatic category theory_ ([arXiv:2307.08891](https://arxiv.org/abs/2307.08891))
+
+
 
 ### Software
 
