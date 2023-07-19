@@ -958,6 +958,10 @@ A more general notion of a _tangent structure on an $(\infty, 1)$-category_ was 
 
 * {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).
 
+Note that this is an extension to $(\infty, 1)$-categories of the concept of a [[tangent bundle category]]. In the following slides it is claimed that the tangent $(\infty, 1)$-category construction of this page is a particular case of their more general construction (see slide 3): 
+
+* [[Michael Ching]], _Tangent ∞-categories and Goodwillie calculus_ ([slides](http://www.math.muni.cz/~bourkej/29CHI/slides.pdf))
+
 Two further examples of tangent structures on an $(\infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
 
 * [[Michael Ching]], _Dual tangent structures for infinity-toposes_, ([arXiv:2101.08805](https://arxiv.org/abs/2101.08805))
