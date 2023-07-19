@@ -177,6 +177,7 @@ For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
 * [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
+[[!redirects bracket type]]
 [[!redirects bracket types]]
 
 [[!redirects propositional truncation]]
