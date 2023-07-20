@@ -92,7 +92,7 @@ On the [[Australian Category Theory Seminar]]:
 1. On the radical of a category, J. Austral. Math. Soc. 4 (1964) 299–307.
 1. Complete functors in homology: I. Chain maps and endomorphisms, Proc. Cambridge Phil. Soc. 60 (1964) 721–735.
 1. Complete functors in Homology: II. The exact homology sequence, Proc. Cambridge Phil. Soc. 60 (1964) 737–749.
-1. On the Mac Lane’s conditions for coherence of natural associativities, commutativities, etc. , J. Algebra 1 (1964) 397–402.
+1. On Mac Lane’s conditions for coherence of natural associativities, commutativities, etc. , J. Algebra 1 (1964) 397–402.
 1. A lemma in homological algebra, Proc. Cambridge Phil. Soc. 61 (1965) 49–52.
 1. Chain maps inducing zero homology maps, Proc. Cambridge Phil. Soc. 61 (1965), 847–854.
 1. (with S. Eilenberg) A generalization of the functorial calculus, J. Algebra 3 (1966), 366–375.
