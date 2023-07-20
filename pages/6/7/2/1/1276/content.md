@@ -682,7 +682,7 @@ the cyclic module $R/(\pi)$ is projective, hence flat.
 
 ## References
 
-Flat modules (“modules plats” in French) where first defined in GAGA
+Flat modules (“modules plats” in French) where first defined in [[GAGA]]
 
 * Jean-Pierre Serre, _Géométrie Algébrique et Géométrie Analytique_ ([pdf](http://www.numdam.org/article/AIF_1956__6__1_0.pdf))
 {#GAGA}
