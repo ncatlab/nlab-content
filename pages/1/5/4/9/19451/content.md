@@ -5,7 +5,7 @@
 
 ## Idea
 
-A *lax monoidal category* is a [[monoidal category]] in which the associativity and isomorphisms are replaced by not-necessarily-invertible transformations.  An *oplax monoidal category* is similar except that the transformations go in the other direction.
+A *lax monoidal category* is a [[monoidal category]] in which the associativity and unitality isomorphisms are replaced by not-necessarily-invertible transformations.  An *oplax monoidal category* is similar except that the transformations go in the other direction.
 
 ## Overview of variations
 
