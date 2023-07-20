@@ -24,7 +24,7 @@
 
 If the dependence of $F$ or $G$ on $x$ in a dinatural transformation is trivial, it reduces to an extranatural one.  Similarly, if the contravariant (or, dually, the covariant) dependence of $F$ and $G$ on $x$ are trivial, it reduces to an ordinary natural one.
 
-Arguably, most dinatural transformations which arise in practice are ordinary or extranatural.
+Arguably, most dinatural transformations which arise in practice are ordinary natural, extranatural, or [[paranatural]].
 
 
 ## Definition
