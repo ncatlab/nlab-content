@@ -565,7 +565,7 @@ $a_{n+1} a_n = a_n$ for every $0 \leq n$, is eventually constant.
 
 One can see Gena Puninski; Philipp Rothmaler (2004). _When every finitely generated flat module is projective_. Journal of Algebra, 277(2), 542–558.         doi:10.1016/j.jalgebra.2003.10.027     
 
-## General (non-finitely generated) flat modules
+## Classes of rings, related to flatness
 
 As we have seen, there is not much difference between flat modules and projective modules in the finitely generated case.
 The notion of flatness starts becoming really distinct in the case of infinitely generated modules. For example the $\mathbb{Z}$-module $\mathbb{Q}$ is flat (since it is torsion-free) but far from being free.
@@ -576,6 +576,7 @@ It is common to encounter infinitely generated flat modules and uncommon to enco
 To better understand the general notion of flatness from a geometric perspective, very early after the definition of the notion, two questions have been asked
 
 1. What type of rings $R$ have all their modules flat?
+1. For what type of rings $R$ is it true that all torsion-free modules are flat?
 1. For what type of rings can flat modules be the filtered union of their finitely generated projective submodules?
 
 ### Absolutely flat rings
@@ -609,6 +610,19 @@ the ideal $I$ must thus be idempotent;
 exists an idempotent $\pi$ such that $I = (\pi)$. Let us show why it is true in the case of an ideal $I = (x, y)$ with two generators $x, y \in R$. The general case being similar. By assumption there exists $\alpha, \beta \in R$ such that $x = x \alpha x$ and $y = y \beta y$. Let $\pi = \alpha x + \beta y - \alpha \beta x y$. By construction $\pi$ is idempotent, belongs to $I$ and we also have $x = x \pi$ and $y = y \pi$ so that $I = (\pi)$.
 It follows that for every finitely generated ideal $I$, the quotient module $R/I$ is projective, hence flat. We can now conclude the proof by cyclic reduction.
 \end{proof}
+
+### Prüfer domains
+
+Recall that a commutative ring $R$ is a [[Prüfer domain]] if every finitely generated ideal is projective.
+
+\begin{theorem}
+For a commutative ring $R$, the following are equivalent :
+
+1. $R$ is a [[Prüfer domain]];
+1. Every torsion-free and finitely generated $R$-module is projective;
+1. Every torsion-free $R$-module is flat.
+
+\end{theorem}
 
 ## Examples
  {#Examles}
