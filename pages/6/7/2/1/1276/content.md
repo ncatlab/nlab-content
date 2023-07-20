@@ -611,15 +611,21 @@ exists an idempotent $\pi$ such that $I = (\pi)$. Let us show why it is true in 
 It follows that for every finitely generated ideal $I$, the quotient module $R/I$ is projective, hence flat. We can now conclude the proof by cyclic reduction.
 \end{proof}
 
-### Prüfer domains
+### Semi-hereditary rings
 
-Recall that a commutative ring $R$ is a [[Prüfer domain]] if every finitely generated ideal is projective.
+\begin{definition}
+Recall that a commutative ring $R$ is  [[semi-hereditary]] if every finitely generated ideal is projective.
+\end{definition}
+
+\begin{lemma}
+If $R$ is a [[valuation ring]] then all torsion-free modules are flat.
+\end{lemma}
 
 \begin{theorem}
 For a commutative ring $R$, the following are equivalent :
 
-1. $R$ is a [[Prüfer domain]];
-1. Every torsion-free and finitely generated $R$-module is projective;
+1. $R$ is [[semi-hereditary]] ;
+1. The total ring of fractions $K$ of $R$ is absolutely flat and for every maximal ideal $\mathfrak{m}$ of $R$, the local ring $R_\mathfrak{m}$ is a [[valuation ring]] ;
 1. Every torsion-free $R$-module is flat.
 
 \end{theorem}
@@ -690,6 +696,8 @@ Flat modules (“modules plats” in French) where first defined in [[GAGA]]
 Original articles include
 
 * Shizuo Endo, _On flat modules over commutative rings_,  J. Math. Soc. Japan Volume 14, Number 3 (1962), 284-291. ([EUCLID](http://projecteuclid.org/euclid.jmsj/1261060583))
+
+* Shizuo Endo, _On semi-hereditary rings_,  J. Math. Soc. Japan Vol. 13, No. 2, 1961
 
 * Michel Raynaud, Laurent Gruson, _Crit&#232;res de platitude et de projectivit&#233;_, Techniques de "platification" d'un module. Invent. Math. 13 (1971), 1&#8211;89.
  {#RaynaudGruson}
