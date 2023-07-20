@@ -50,3 +50,5 @@ Recursive sets form a [[Boolean algebra|Boolean subalgebra]] of the [[power set]
 
 [[!redirects recursive subset]]
 [[!redirects recursive subsets]]
+[[!redirects recursive set]]
+[[!redirects recursive sets]]
