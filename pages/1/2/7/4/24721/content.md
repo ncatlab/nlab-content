@@ -23,7 +23,7 @@
 
 ## Idea
 
-In [[intensional type theory]] and [[homotopy type theory]], there are typically two ways to construct a "type of small types". One way is by [[Russell universes]], where a [[term]] $A:U$ of a [[type universe]] $U$ is literally a [[type]] $A \; \mathrm{type}$. The alternative is by Tarski universes, where terms $A:U$ are not literally types, but rather the universe type $U$ comes with the additional structure of a [[type family]] $T$, such that the [[dependent type]] $T(A)$ represents the actual type. 
+In [[intensional type theory]] and [[homotopy type theory]], there are typically two ways to construct a "type of small types". One way is by [[Russell universes]], where an [[element]] $A:U$ of a [[type universe]] $U$ is literally a [[type]] $A \; \mathrm{type}$. The alternative is by Tarski universes, where elements $A:U$ are not literally types, but rather the universe type $U$ comes with the additional structure of a [[type family]] $T$, such that the [[dependent type]] $T(A)$ represents the actual type. 
 Usually universes are defined in [[intensional type theory]] and [[homotopy type theory]] using [[derivations]] and [[rules]], such as the type reflection rule 
 $$\frac{\Gamma \vdash A:U}{\Gamma \vdash T(A) \; \mathrm{type}}$$
 for Tarski universes. Furthermore, universes are usually defined as being closed under all type formers inside the type theory, regardless of the type theory. 
@@ -38,18 +38,18 @@ From a global perspective, however, all of these types should be considered Tars
 
 ### With a family of types
 
-A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by terms $A:U$. The terms $A:U$ are usually called **$U$-small types**, or **small types** for short, and $T(A)$ is the **type of terms of $A$**. 
+A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by elements $A:U$. The elements $A:U$ are usually called **$U$-small types**, or **small types** for short, and $T(A)$ is the **type of elements of $A$**. 
 
 ### With a type and a function
 
-A **Tarski universe** or **universe à la Tarski** is a type $U$ of all $U$-small types with a type $T'$ of all terms, and a function $\mathrm{typeOf}:T' \to U$ which gets the associated type for every term $a:T'$. 
+A **Tarski universe** or **universe à la Tarski** is a type $U$ of all $U$-small types with a type $T'$ of all elements, and a function $\mathrm{typeOf}:T' \to U$ which gets the associated type for every element $a:T'$. 
 
 ### Equivalence of definitions
 
 From one direction, the individual dependent types $T(A)$ could be defined as the [[fiber type]] of $\mathrm{typeOf}$ at $A$
-$$T(A) \coloneqq \mathrm{fiber}_{T', U}(\mathrm{typeOf},A)$$
+$$T(A) \coloneqq \mathrm{fiber}_{T', U}(\mathrm{typeOf},A) \equiv \sum_{t:T'} \mathrm{typeOf}(t) =_U A$$
 
-From the other direction, the entire type of terms $T'$ is just the [[dependent sum type]] of all the type reflections of small types
+From the other direction, the entire type of elements $T'$ is just the [[dependent sum type]] of all the type reflections of small types
 $$T' \coloneqq \sum_{A:U} T(A)$$
 
 We shall be using the first definition throughout this article, but everything could be translated into the second definition of a Tarski universe. 
@@ -59,10 +59,10 @@ We shall be using the first definition throughout this article, but everything c
 The definitions above are already enough to build an internal model of dependent type theory inside the Tarski universe:
 
 * The type $A \; \mathrm{type}$ is represented by the small type $A:U$
-* The term $a:A$ is represented by the term $a:T(A)$ for small type $A:U$. 
+* The element $a:A$ is represented by the element $a:T(A)$ for small type $A:U$. 
 * The type family $B$ indexed by the type $A \; \mathrm{type}$ is represented by the function $B:T(A) \to U$ for small type $A:U$
-* The dependent type $a:A \vdash B \; \mathrm{type}$ is represented by the section $B(a):U$ for term $a:T(A)$ and small type $A:U$. 
-* The section $a:A \vdash b:B$ is represented by the term $b:T(B(a))$ for term $a:T(A)$ and small type $A:U$. 
+* The dependent type $a:A \vdash B \; \mathrm{type}$ is represented by the section $B(a):U$ for element $a:T(A)$ and small type $A:U$. 
+* The section $a:A \vdash b:B$ is represented by the element $b:T(B(a))$ for element $a:T(A)$ and small type $A:U$. 
 
 ## Properties
 
@@ -70,7 +70,7 @@ The definitions above are already enough to build an internal model of dependent
 
 There are two notions of equivalence in a Tarski universe $(U, T)$, equality $A =_U B$ and equivalence $T(A) \simeq T(B)$. By the properties of the [[identity type]], there is a canonical [[transport]] dependent function 
 $$\mathrm{transport}^T:\prod_{A:U} \prod_{B:U} (A =_U B) \to T(A) \simeq T(B)$$
-A Tarski universe is a **univalent Tarski universe** if for all terms $A:U$ and $B:U$ the function $\mathrm{transport}^T(A, B)$ is an [[equivalence of types]]
+A Tarski universe is a **univalent Tarski universe** if for all elements $A:U$ and $B:U$ the function $\mathrm{transport}^T(A, B)$ is an [[equivalence of types]]
 $$\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^T(A, B))$$
 
 This is the extensionality principle for any Tarski universe $(U, T)$. 
@@ -87,17 +87,33 @@ When the Tarski universe is closed under [[identity types]], [[dependent sum typ
 Let $(U, T)$ be a Tarski universe. Then one could construct a univalent Tarski universe as the [[higher inductive type]] $(U', T')$ generated by
 
 * a function $F:U \to U'$
-* a function $G(A):T(A) \to T'(A)$ for all terms $a:U$
+* a function $G(A):T(A) \to T'(A)$ for all elements $a:U$
 * a dependent function 
 $$\mathrm{ua}_{U'}:\prod_{A:U} \prod_{B:U} \mathrm{isEquiv}(\mathrm{transport}^{T'}(A, B))$$ 
 
 ### Regularity and product-regularity
 
-A univalent Tarski universe $(U, T)$ is **regular** if it is closed under [[dependent sum types]]: namely, for all $U$-small types $A:U$ and $U$-small type families $B:T(A) \to U$, the dependent sum type $\sum_{x:T(A)} T(B(x))$ is [[essentially small type|essentially $U$-small]]. Regular univalent Tarski universes are the type theoretic equivalent of [[regular cardinals]] in [[set theory]]. 
+A univalent Tarski universe $(U, T)$ is **regular** if it is closed under [[dependent sum types]]: namely, for all $U$-small types $A:U$ and $U$-small type families $B:T(A) \to U$, the dependent sum type $\sum_{x:T(A)} T(B(x))$ is [[essentially small type|essentially $U$-small]]. 
 
-A univalent Tarski universe $(U, T)$ is **product-regular** if it is closed under [[dependent product types]]: namely, for all $U$-small types $A:U$ and $U$-small type families $B:T(A) \to U$, the dependent product type $\sum_{x:T(A)} T(B(x))$ is [[essentially small type|essentially $U$-small]]. Product-regular univalent Tarski universes are the type theoretic equivalent of [[product-regular cardinals]] in [[set theory]]. 
+$$\mathrm{ax}_\Sigma:\sum_{\Sigma:\prod_{A:U} (T(A) \to U) \to U} \prod_{A:U} \prod_{B:T(A) \to U} T(\Sigma(A, B)) \simeq \sum_{x:T(A)} T(B(x))$$
 
-Since product-regularity implies that [[function types]] between $U$-small types are essentially $U$-small, and regularity implies that [[subtypes]] of essentially $U$-small types are essentially $U$-small, this implies that in a regular and product-regular universe, [[equivalence types]] between $U$-small types are essentially $U$-small, because equivalence types are [[subtypes]] of function types. In combination with [[univalence]], regularity and product-regularity implies that the [[identity types]] of $U$-small types are also essentially $U$-small. 
+Regular univalent Tarski universes are the type theoretic equivalent of [[regular cardinals]] in [[set theory]]. 
+
+A univalent Tarski universe $(U, T)$ is **product-regular** if it is closed under [[dependent product types]]: namely, for all $U$-small types $A:U$ and $U$-small type families $B:T(A) \to U$, the dependent product type $\sum_{x:T(A)} T(B(x))$ is [[essentially small type|essentially $U$-small]]. 
+
+$$\mathrm{ax}_\Pi:\sum_{\Pi:\prod_{A:U} (T(A) \to U) \to U} \prod_{A:U} \prod_{B:T(A) \to U} T(\Pi(A, B)) \simeq \prod_{x:T(A)} T(B(x))$$
+
+Product-regular univalent Tarski universes are the type theoretic equivalent of [[product-regular cardinals]] in [[set theory]]. 
+
+Since product-regularity implies that [[function types]] between $U$-small types are essentially $U$-small, and regularity implies that [[subtypes]] of essentially $U$-small types are essentially $U$-small, this implies that in a regular and product-regular universe, [[equivalence types]] between $U$-small types are essentially $U$-small, because equivalence types are [[subtypes]] of function types. In combination with [[univalence]], regularity and product-regularity implies that the [[identity types]] between $U$-small types are also essentially $U$-small. 
+
+### Closure under identity types
+
+A univalent Tarski universe $(U, T)$ is **closed under identity types** if for all $U$-small types $A:U$ and elements $x:T(A)$ and $y:T(A)$, the [[identity type]] $x =_{T(A)} y$ is [[essentially small type|essentially $U$-small]]. 
+
+$$\mathrm{ax}_\mathrm{Id}:\sum_{\mathrm{Id}:\prod_{A:U} (T(A) \times T(A)) \to U} \prod_{A:U} \prod_{x:T(A)} \prod_{y:T(A)} T(\mathrm{Id}(A, x, y)) \simeq (x =_{T(A)} y)$$
+
+Regularity and closure under identity types implies that the universe is closed under [[pullbacks]]. 
 
 ### Singletons
 
@@ -187,7 +203,7 @@ Given a Tarski universe which has all propositions, the type $\sum_{A:U} \mathrm
 Let $(U, T_U)$ be a Tarski universe. A Tarski universe $(V, T_V)$ is a **Tarski subuniverse** of $(U, T_U)$ if it comes with an [[embedding]] $t:V \hookrightarrow U$ and a dependent function
 $$p:\prod_{a:V} T_U(t(a)) \simeq T_V(a)$$
 
-This is equivalent to a family of Tarski universes $(U(i), T(i))$ indexed by terms $i:\mathbb{2}$ of the [[interval preorder]] $(\mathbb{2}, \leq_\mathbb{2})$, which comes with 
+This is equivalent to a family of Tarski universes $(U(i), T(i))$ indexed by elements $i:\mathbb{2}$ of the [[interval preorder]] $(\mathbb{2}, \leq_\mathbb{2})$, which comes with 
 
 * a dependent function
 $$t:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} (a \leq_\mathbb{2} b) \to (U(a) \hookrightarrow U(b))$$
@@ -218,11 +234,11 @@ A **[[modality]]** is...
 
 ## Essentially small Tarski universes
 
-A Tarski universe $(V, T_V)$ inside of a Tarski universe $(U, T_U)$ consists of a term $V:U$ and a function $T_V:T_U(V) \to U$. 
+A Tarski universe $(V, T_V)$ inside of a Tarski universe $(U, T_U)$ consists of an element $V:U$ and a function $T_V:T_U(V) \to U$. 
 
 Given a Tarski universe $(U, T_U)$, a Tarski universe $(V, T_V)$ is essentially $U$-small if it comes with 
 
-* a term $V':U$ 
+* an element $V':U$ 
 
 * a function $T_{V'}:T_U(V') \to U$
 
@@ -232,7 +248,7 @@ $$\mathrm{smallType}:V \simeq T_U(V')$$
 * a dependent function 
 $$\mathrm{smallFamily}:\prod_{A:V} T_V(A) \simeq T_U(T_{V'}(\mathrm{smallType}(A)))$$
 
-Equivalently, the entire structure could be regarded as a family of Tarski universes $(U(a), T(a))$ indexed by terms $a:\mathbb{2}$ of the [[interval preorder]] $(\mathbb{2}, \leq_\mathbb{2})$, which comes with 
+Equivalently, the entire structure could be regarded as a family of Tarski universes $(U(a), T(a))$ indexed by elements $a:\mathbb{2}$ of the [[interval preorder]] $(\mathbb{2}, \leq_\mathbb{2})$, which comes with 
 
 * a dependent function 
 $$U':\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} \prod_{p:a \leq_\mathbb{2} b} \left((b \leq_\mathbb{2} a) \to \emptyset\right) \to U(b)$$
@@ -250,7 +266,7 @@ $$\mathrm{smallFamily}:\prod_{a:\mathbb{2}} \prod_{b:\mathbb{2}} \prod_{p:a \leq
 
 Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of Tarski universes is a type family $U$ such that for all indices $a:P$, there is a Tarski universe $(U(a), T(a))$, such that for all indices $a:P$ and $b:P$ and witnesses $p:a \leq_P b$, the Tarski universe $(U(a), T(a))$ is an essentially $U(b)$-small Tarski subuniverse of the Tarski universe $(U(b), T(b))$. 
 
-Expanded out, the family of Tarski universes $(U(a), T(a))$ indexed by terms $a:P$ additionally come with
+Expanded out, the family of Tarski universes $(U(a), T(a))$ indexed by elements $a:P$ additionally come with
 
 * a dependent function 
 $$U':\prod_{a:P} \prod_{b:P} \prod_{p:a \leq_P b} \left((b \leq_P a) \to \emptyset\right) \to U(b)$$
