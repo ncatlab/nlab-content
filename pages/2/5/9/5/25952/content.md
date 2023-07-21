@@ -45,7 +45,7 @@ Computer Science. IEEE, 115–126.
 * Tarmo Uustalu. *A Note on Strong Dinaturality, Initial Algebras and Uniform Parameterized Fixpoint Operators*. In
 FICS. 77–82.
 
-* Jacob Neumann, *Paranatural Category Theory*, 2023, [arxiv:2307.09289](https://arxiv.org/abs/2307.09289)
+* [[Jacob Neumann]], *Paranatural Category Theory*, 2023, [arxiv:2307.09289](https://arxiv.org/abs/2307.09289)
 
 [[!redirects paranatural transformations]]
 [[!redirects paranatural]]
