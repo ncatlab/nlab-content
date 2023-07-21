@@ -15,13 +15,19 @@
 
 ## Idea 
 
-De Bruijn indices are used to represent [[terms]] in [[lambda calculus]] without naming [[bound variables]]. 
+De Bruijn indices are used to represent [[terms]] in [[lambda calculus]] and [[type theory]] without naming [[bound variables]]. 
+
+Usually in informal mathematical language, an expression involving a lambda is written out as $\lambda x.\phi(x)$. However, this involves the use of [[bound variables]], which are hard to deal with when formalizing [[substitution]] of variables; in addition, the statements $\lambda x.\phi(x)$ and $\lambda y.\phi(y)$ refer to the same thing. De Bruijn indices involve the use [[natural numbers]] instead of bound variables; both $\lambda x.\phi(x)$ and $\lambda y.\phi(y)$ would be written as $\lambda \phi(\underline{0})$ when using De Bruijn indices, and $\lambda x.\lambda y.\phi(x, y)$ would be written as $\lambda \lambda \phi(\underline{1}, \underline{0})$. A statement like $x \lambda x.\phi(x)$ where $x$ is both a bound variable and a free variable would be written as $\underline{1} \lambda \phi(\underline{0})$ using de Bruijn indices. 
 
 ## See also
 
 * [[explicit substitution]]
 
 ## References 
+
+de Bruijn indices are discussed in section 9.1 of:
+
+* [[Théo Winterhalter]], *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
 
 The notion is due to:
 
