@@ -375,7 +375,7 @@ This has none of the bad consequences of judgmental $\eta$-conversion, and in pa
 The identity types in Martin-Löf type theory satisfy the typal $\beta$-conversion and typal $\eta$-conversion rules, regardless if the original $\beta$-conversion and $\eta$-conversion rules used [[typal equality]] or [[judgmental equality]]. The elimination rule in conjunction with the typal $\beta$-conversion and typal $\eta$-conversion rules state that identity types satisfy the **dependent universal property of identity types**. If the dependent type theory also has [[dependent sum types]] [[product types]], [[dependent product types]], and [[dependent function types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the natural numbers could be simplified to the following rule: 
 
 $$
-\frac{\Gamma, x:A, y:A, p:\mathrm{Id}_A(x, y) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{Id}_A(c)) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{up}_{\mathrm{Id}_A}(t, a):\exists!J:\left(\prod_{c:A} C(c, c, \mathrm{Id}_A(c))\right) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:\mathrm{Id}_A(x, y)} C(x, y, p)\right).\mathrm{Id}_{C(a, a, \mathrm{Id}_A(a))}(J(t, a, a, \mathrm{id}_A(a)), t(a))}
+\frac{\Gamma, x:A, y:A, p:\mathrm{Id}_A(x, y) \vdash C(x, y, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{c:A} C(c, c, \mathrm{Id}_A(c)) \quad \Gamma \vdash a:A}{\Gamma \vdash \mathrm{up}_{\mathrm{Id}_A}(t, a):\exists!J:\left(\prod_{c:A} C(c, c, \mathrm{id}_A(c))\right) \to \left(\prod_{x:A} \prod_{y:A} \prod_{p:\mathrm{Id}_A(x, y)} C(x, y, p)\right).\mathrm{Id}_{C(a, a, \mathrm{id}_A(a))}(J(t, a, a, \mathrm{id}_A(a)), t(a))}
 $$
 
 ## Definition in observational type theory
