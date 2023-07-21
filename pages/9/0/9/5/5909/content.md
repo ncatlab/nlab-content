@@ -33,5 +33,3 @@ Page 34 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-[[!redirects regular functors]]
-
