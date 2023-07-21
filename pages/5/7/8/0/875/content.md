@@ -31,8 +31,8 @@ $$\id_A \subseteq R$$
 
 A set with a reflexive relation is the same as a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:E \to V)$ with function $refl:V \to E$ such that 
 
-* for every $a \in V$, $s(refl(a)) =_E a$
-* for every $a \in V$, $t(refl(a)) =_E a$
+* for every $a \in V$, $s(refl(a)) =_V a$
+* for every $a \in V$, $t(refl(a)) =_V a$
 
 ## Related concepts
 
