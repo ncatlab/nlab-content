@@ -28,3 +28,4 @@ quasitopos because it is a  [[Heyting algebra]].
 ## Related concepts
 
 * [[Surj]]
+* [[FinInj]]
