@@ -29,6 +29,12 @@ By comparison, a [[dinatural transformation]] asserts this condition *only* when
 
 ## References
 
+Originally introduced (as strong dinatural transformations) in
+
+* [[E. Dubuc]], [[R. Street]], _Dinatural transformations_, In [[Saunders Mac Lane]], ed., Reports of the Midwest Category Seminar IV, v. 137 of Lecture Notes in Mathematics, pp. 126–137. Springer-Verlag, Berlin, 1970.
+
+Further developments:
+
 * Philip S Mulry. *Strong monads, algebras and fixed points*. Applications of Categories in Computer Science 177 (1992), 202–216
 
 * Robert Paré and Leopoldo Román. *Dinatural numbers*.  Journal of Pure and Applied Algebra 128, 1 (1998), 33–92
