@@ -29,9 +29,9 @@ By comparison, a [[dinatural transformation]] asserts this condition *only* when
 
 ## References
 
-Originally introduced (as strong dinatural transformations) in
+Originally introduced (as strong dinatural transformations) in Definition 2.7 of
 
-* [[E. Dubuc]], [[R. Street]], _Dinatural transformations_, In [[Saunders Mac Lane]], ed., Reports of the Midwest Category Seminar IV, v. 137 of Lecture Notes in Mathematics, pp. 126–137. Springer-Verlag, Berlin, 1970.
+* [[Philip S. Mulry]], _Strong Monads, Algebras and Fixed Points_, in: _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177, 202–216, [doi](https://doi.org/10.1017/CBO9780511525902.012).
 
 Further developments:
 
