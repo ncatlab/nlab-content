@@ -29,6 +29,6 @@ Furthermore, most structures traditionally involving [[predicates]] or [[relatio
 
 ## Related concepts
 
-* [[propositions as types]]
+[[!include notions of type]]
 
 [[!redirects propositions as some types]]
