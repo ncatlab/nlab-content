@@ -53,6 +53,29 @@ Every [[divisible group|divisible]] torsion-free $\mathbb{Z}$-module is a [[rati
 Every [[integral domain]] $R$ is a torsion-free $R$-module. 
 \end{proposition}
 
+## Locality
+
+Being torsion-free is **not** a local property in general.
+
+\begin{proposition}
+Let $R$ be a commutative and assume its [[total ring of fractions]] $\mathrm{Q}(R)$ be [[absolutely flat]].
+Then for an $R$-module $M$ the following are equivalent :
+
+1. $M$ is torsion-free over $R$ ;
+1. $M_\mathfrak{p}$ is torsion-free over $R_\mathfrak{p}$ for every prime ideal $\mathfrak{p} \subset R$ ;
+1. $M_\mathfrak{m}$ is torsion-free over $R_\mathfrak{m}$ for every maximal ideal $\mathfrak{m} \subset R$.
+
+\end{proposition}
+
+\begin{proof}
+$1 \Rightarrow 2$. Suppose that $M$ is a torsion-free $R$-module and that $\overline{\alpha}\overline{x} = 0$ for a regular $\overline{\alpha} \in R_\mathfrak{p}$ and $\overline{x} \in M_\mathfrak{p}$.
+Set $\mathfrak{a}_\mathfrak{p} = \{a ; a s = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, a \in R\}$ and $M' = \{m ; s m = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, m \in M\}$. Then we may assume that $\overline{\alpha} \in R/\mathfrak{a}_\mathfrak{p}$ and $\overline{x} \in M'$. (...)
+
+$2 \Rightarrow 3$. Obvious.
+
+$3 \Rightarrow 1$. If $r$ is a regular element of $R$ and $x$ is non zero with $r x = 0$, then taking any maximal ideal $(r) \subset \mathfrak{m}$, one gets the same equation in $\overline{r}\overline{x} = 0$ in $M_\mathfrak{m}$. 
+\end{proof}
+
 ## Related concepts
 
 * [[free module]] $\Rightarrow$ [[projective module]] $\Rightarrow$ [[flat module]] $\Rightarrow$ **torsion-free module**
@@ -64,6 +87,8 @@ Every [[integral domain]] $R$ is a torsion-free $R$-module.
 * [[multiplicative submonoid of cancellative elements]]
 
 ## References
+
+* Shizuo Endo, On semi-hereditary rings, J. Math. Soc. Japan Vol. 13, No. 2, 1961
 
 See also 
 
