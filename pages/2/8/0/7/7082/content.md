@@ -159,6 +159,10 @@ If the dependent type theory also has [[function extensionality]], then one coul
 $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \left(\sum_{g:B \to A} \prod_{x:A} g(f(x)) =_A x\right) \times \left(\sum_{h:B \to A} \prod_{y:B} f(h(y)) =_B y\right)$$
 * For half adjoint equivalences, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the type of quasi-inverse functions with a coherence condition. 
 $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x:A} g(f(x)) =_A x\right) \times \left(\prod_{y:B} f(g(y)) =_B y\right) \times \left(\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))\right)$$
+* For invertible functions, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the proposition that the function merely has a [[quasi-inverse function]]:
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \exists g:B \to A.(\Pi x:A.g(f(x)) =_A x) \times (\Pi y:B.f(g(y)) =_B y)$$
+  and the [[equivalence type]] for the first definition: 
+$$A \simeq B \coloneqq \sum_{f:A \to B} \mathrm{isEquiv}(f)$$
 
 Finally, if the dependent type theory has [[axiom K]] or [[uniqueness of identity proofs]], then one could define the $\mathrm{isEquiv}$ type family and the [[equivalence type]] directly for homotopy equivalences above; the coherence condition follows from the fact that the type $g(f(x)) =_A x$ is always a [[mere proposition]] in the presence of axiom K or UIP:
 $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x:A} g(f(x)) =_A x\right) \times \left(\prod_{y:B} f(g(y)) =_B y\right)$$
@@ -291,6 +295,30 @@ $$
 
 \linebreak
 
+One could also use [[propositional truncations]] instead of [[0-truncation]]; this turns the [[dependent sum type]] in the definition into an [[existential quantifier]], and is the proper translation of one of the definitions of [[bijection]] in [[set theory]] into type theory in the [[propositions as some types]]: A function $f:A \to B$ is an equivalence if there (merely) exists a function $\overline{f}:B \to A$ such that $\overline{f} \circ f$ is equal to $(a \mapsto a)$ and $f \circ \overline{f}$ is equal to $(b \mapsto b)$:
+
+$$
+  Equiv(A,B)
+  \;\simeq\;
+  \underset{
+    f \colon A \to B
+  }{\sum}  
+  \exists \overline{f} \colon B \to A.
+  Id_{(A \to A)}
+  \big(
+    \overline{f} \circ f 
+    ,\,
+    (a \mapsto a)
+  \big)
+  \;\times\;
+  Id_{(B \to B)}
+  \big(
+    f \circ \overline{f} 
+    ,\,
+    (b \mapsto b)
+  \big)
+  \,.
+$$
 
 ### Constructing the inverse function
  {#ConstructingTheInverseFunction}
