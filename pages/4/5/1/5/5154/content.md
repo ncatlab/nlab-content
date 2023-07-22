@@ -429,10 +429,10 @@ The concrete construction of the specific cofibrant resolutions in these structu
 * {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_, Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
 
 
-The discussion of the model structure on algebras over a suitable operad is in
+The discussion of the model structure on algebras over a suitable operad:
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
-{#BergerMoerdijkAlgebras}
+* {#BergerMoerdijkAlgebras} [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 31-58 &lbrack;[arXiv:math/0512576](http://arxiv.org/abs/math/0512576), [ams:conm/431](www.ams.org/books/conm/431)&rbrack;
+
 
 More discussion on the transport of operad algebra structures along [[Quillen adjunctions]]/[[Bousfield localization of model categories|Bousfield localizations]] between the underlying model categories is in 
 
