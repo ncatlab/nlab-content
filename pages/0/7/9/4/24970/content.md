@@ -16,4 +16,6 @@ Recent ongoing work by Ben-Zvi, Sakellaridis, and Venkatesh attempt to relate it
 
 * [[David Ben-Zvi]], [[Yiannis Sakellaridis]], [[Akshay Venkatesh]], _Relative Langlands duality_ ([pdf](https://www.math.ias.edu/~akshay/research/BZSVpaperV1.pdf)).
 
-* David Ben-Zvi, _Relative Langlands_ ([pdf](https://www.msri.org/workshops/918/schedules/28233/documents/50487/assets/88599))
+* [[David Ben-Zvi]], _Relative Langlands_ ([pdf](https://www.msri.org/workshops/918/schedules/28233/documents/50487/assets/88599))
+
+* Raphael Beuzart-Plessis, _The Relative Langlands Program_ ([YouTube] (https://www.youtube.com/watch?v=J4xgPDJCymw)) ([Part 2] (https://www.youtube.com/watch?v=w4qn_WCb0bk)) ([Part 3] (https://www.youtube.com/watch?v=0rXaBG58YEs))
