@@ -616,7 +616,9 @@ The following propositions are equivalent for a commutative ring $R$:
 
 1. $R$ is absolutely flat;
 1. every ideal $I \subset R$ is idempotent, i.e. $I^2 = I$;
-1. for every $x \in R$ there exists an element $y \in R$ such that $x = x^2 y$.
+1. for every $x \in R$ there exists an element $y \in R$ such that $x = x^2 y$ ;
+1. $R_\mathfrak{p}$ is a field for every prime ideal $\mathfrak{p} \subset R$;
+1. $R_\mathfrak{m}$ is a field for every maximal ideal $\mathfrak{m} \subset R$.
 
 \end{theorem}
 
@@ -630,9 +632,12 @@ the ideal $I$ must thus be idempotent;
 
 2 $\Rightarrow$ 3. For every $x \in R$, the ideal $(x)$ must be idempotent, that is $(x)(x) = (x)$ which means that there must exist $y$ such that $x = x^2y$;
 
-3 $\Rightarrow$ 1. For every finitely generated ideal $I \subset R$, there
-exists an idempotent $\pi$ such that $I = (\pi)$. Let us show why it is true in the case of an ideal $I = (x, y)$ with two generators $x, y \in R$. The general case being similar. By assumption there exists $\alpha, \beta \in R$ such that $x = x \alpha x$ and $y = y \beta y$. Let $\pi = \alpha x + \beta y - \alpha \beta x y$. By construction $\pi$ is idempotent, belongs to $I$ and we also have $x = x \pi$ and $y = y \pi$ so that $I = (\pi)$.
-It follows that for every finitely generated ideal $I$, the quotient module $R/I$ is projective, hence flat. We can now conclude the proof by cyclic reduction.
+3 $\Rightarrow$ 4. Let $r \in \mathfrak{p}$. Let $u \in R$ such that $r u r = r$. Then $r ( 1 - u r ) = 0$. Since $u r \in \mathfrak{p}$ it follows that the image of $1- u r$ is invertible in $R_\mathfrak{p}$, so the image of $r$ is null in $R_\mathfrak{p}$. Thus the maximal ideal $R_\mathfrak{p}$ is trivial.
+
+4 $\Rightarrow$ 5. Obvious.
+
+5 $\Rightarrow$ 1. Because flatness is a local property.
+
 \end{proof}
 
 ### Semi-hereditary rings
