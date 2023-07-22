@@ -130,13 +130,15 @@ $$\mathrm{concat}_{a, f(1), b}(\mathrm{concat}_{a, f(0), f(1)}(\mathrm{inv}_{f(0
 
 ### Relation to dependent identity types
 
-Given a type $A$, a dependent type $x:A \vdash B$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B[a_0/x]$ and $b_1:B[a_1/x]$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the family of elements $x:\mathbb{I} \vdash f(x):B(x)$ by
+Given a type $A$, a dependent type $x:A \vdash B(x)$, terms $a_0:A$ and $a_1:A$, identity $q:a_0 =_A a_1$, terms $b_0:B(a_0)$ and $b_1:B(a_1)$, and [[dependent identity]] $r:b_0 =_B^q b_1$, let us inductively define the family of elements $x:\mathbb{I} \vdash f(x):B(x)$ by
 
-* $\beta_f^0:f(0) =_{B[a_0/x]} b_0$
-* $\beta_f^1:f(1) =_{B[a_1/x]} b_1$
+* $\beta_f^0:f(0) =_{B(a_0)} b_0$
+* $\beta_f^1:f(1) =_{B(a_1)} b_1$
 * $\beta_f^p:\mathrm{apd}_f(p) =_{f(0) =_B^q f(1)} \mathrm{concat}_{\mathrm{trans}_B^q(f(0)), b_1, f(1)}(\mathrm{concat}_{\mathrm{trans}_B^q(f(0)), \mathrm{trans}_B^q(b_0), b_1}(\mathrm{apd}_{\mathrm{trans}_B^q}(\beta_f^0), r), \mathrm{inv}_{f(1), b}(\beta_f^1))$
 
-where $\mathrm{trans}_B^q:B[a_0/x] \to B[a_1/x]$ is [[transport]], $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[function application to identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
+where $\mathrm{trans}_B^q:B(a_0) \to B(a_1)$ is [[transport]], $\mathrm{ap}_f:(0 =_\mathbb{I} 1) \to (f(0) =_A f(1))$ is the [[function application to identities]], $\mathrm{concat}_{a, b, c}:(a =_A b) \times (b =_A c) \to (a =_A c)$ is concatenation of identities (i.e. [[transitivity]]), and $\mathrm{inv}_{a, b}:(a =_A b) \to (b =_A a)$ is the inverse of identities (i.e. [[symmetry]]).
+
+Let $A$ and $B$ be types, and let $e:A \simeq B$ be an equivalence between $A$ and $B$. Then there is a type family $x:\mathbb{I} \vdash C(x) \; \mathrm{type}$ defined by $C(0) \coloneqq A$, $C(1) \coloneqq B$, and $\mathrm{trans}_C^p \coloneqq e:A \simeq B$. 
 
 ### Relation to function extensionality
 
