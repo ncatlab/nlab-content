@@ -30,13 +30,11 @@ If $P(x)$ implies $Q(x)$, we say that $P$ is a subclass of $Q$.
 
 A [[relation]] from $A$ to $B$ is a subclass of $A\times B$.
 
-A [[map]] $f$ from $A$ to $B$ is a relation $R$ from $A$ to $B$
-such that for any $a\in A$ there is a unique $b\in B$ such that $R(a,b)$.
+A [[map]] $f$ from $A$ to $B$ is a relation $R$ from $A$ to $B$ such that for any $a\in A$ there is a unique $b\in B$ such that $R(a,b)$.
 In this case we write $f(a)$ for this unique $b$,
 so $f(a)=b$ means $R(a,b)$.
 
-[[maps|Maps]] of [[classes]] can be [[composed]] in the usual manner,
-which produces a [[category]].
+[[maps|Maps]] of [[classes]] can be composed in the usual manner, which produces a [[category]].
 Here a category is understood in the sense of a [[first-order logic]]
 with two sorts (objects and morphisms),
 but at no point we attempt to consider all [[classes]] as a single unified whole.
