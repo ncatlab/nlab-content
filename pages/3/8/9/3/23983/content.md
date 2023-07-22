@@ -8,7 +8,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -289,22 +288,75 @@ and codomain
 $$\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B(c)} \prod_{f:B(c)} \prod_{s:\mathrm{hId}_{x:A.B(x)}(c, d, r, e, f)} C(c, d, r, e, f, s)$$
 such that $J(t, a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))$ is equal to $t(f, a, b, p)$ in the type $C(a, b, p, f(a), f(b), \mathrm{apd}_{x:A.B(x)}(f, a, b, p))$. 
 
-### As weak transport along an identity
+## Properties
 
-Another way to define the dependent heterogeneous identity type is by using [[weak transport]] along the identity $p$:
+### One-to-one correspondence structure
 
-$$
-  (a =_B^p b) 
-  \;\coloneqq\; 
-  \big(
-    \mathrm{tr}_B^p(a) 
-    =_{B(b)} 
-    b
-  \big)
-  \,.
-$$ 
+Heterogeneous identity types are [[one-to-one correspondences]]: given elements $a:A$, $b:A$, and $p:\mathrm{Id}_A(a, b)$, 
 
-### Definition in higher observational type theory 
+* for all elements $y:B(a)$, there exists a unique element $z:B(b)$ such that $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$
+
+$$\prod_{y:B(a)} \exists!z:B(b).\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$$
+
+* for all elements $z:B(b)$, there exists a unique element $y:B(a)$ such that $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$
+
+$$\prod_{z:B(b)} \exists!y:B(a).\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$$
+
+### Transport
+
+Since the uniqueness quantifier is defined as 
+
+$$\exists!x:A.B(x) \coloneqq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)$$
+
+uniqueness quantifiers have a [[center of contraction]]. For the uniqueness quantifers defined above, the centers of contraction are [[transport]]:
+
+$$\overrightarrow{\mathrm{transport}}_{x:A.B(x)}:\prod_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b) \to (B(a) \to B(b))$$ 
+$$\overrightarrow{\mathrm{lift}}_{x:A.B(x)}:\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{y:B(a)} \mathrm{hId}_{x:A.B(x)}(a, b, p, y, \overrightarrow{\mathrm{transport}}_{x:A.B(x)}(a, b, p, y))$$
+
+Similarly, 
+
+$$\overleftarrow{\mathrm{transport}}_{x:A.B(x)}:\prod_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b) \to (B(b) \to B(a))$$ 
+$$\overleftarrow{\mathrm{lift}}_{x:A.B(x)}:\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{z:B(b)} \mathrm{hId}_{x:A.B(x)}(a, b, p, \overleftarrow{\mathrm{transport}}_{x:A.B(x)}(a, b, p, z), z)$$
+
+One could then show that there exist equivalences
+
+$$\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \simeq \mathrm{Id}_{B(b)}(\overrightarrow{\mathrm{transport}}_{x:A.B(x)}(a, b, p, y), z)$$
+
+and 
+
+$$\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \simeq \mathrm{Id}_{B(a)}(y, \overleftarrow{\mathrm{transport}}_{x:A.B(x)}(a, b, p, z))$$
+
+for all $a:A$, $b:A$, $p:\mathrm{Id}_A(a, b)$, $y:B(a)$, and $z:B(b)$. For constant families $B$, $\overrightarrow{\mathrm{transport}}_{B}(a, b, p, y) \coloneqq y$ and $\overleftarrow{\mathrm{transport}}_{B}(a, b, p, z) \coloneqq z$, so the above two equivalences simplify down to
+
+$$\mathrm{hId}_{B}(a, b, p, y, z) \simeq \mathrm{Id}_{B}(y, z)$$
+
+for non-dependent heterogeneous identity types. 
+
+### Extensionality principles
+
+Heterogeneous identity types are used in many extensionality principles. 
+
+* The extensionality principle for [[function types]] states that there is an equivalence 
+
+$$\mathrm{ext}_{\to}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{Id}_{A \to B}(f, g) \simeq \prod_{a:A} \prod_{b:B} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{B}(a, b, p, f(a), g(b))$$
+
+* The extensionality principle for [[dependent product types]] states that there is an equivalence
+
+$$\mathrm{ext}_\Pi:\prod_{f:\prod_{x:A} B(x)} \prod_{g:\prod_{x:A} B(x)} \mathrm{Id}_{\prod_{x:A} B(x)}(f, g) \simeq \prod_{a:A} \prod_{b:B} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), g(b))$$
+
+* The extensionality principle for [[product types]] states that there is an equivalence
+
+$$\mathrm{ext}_{\times}:\prod_{s:A \times B} \prod_{t:A \times B} \mathrm{Id}_{A \times B}(s, t) \simeq \sum_{p:\mathrm{Id}_A(\pi_1(s), \pi_1(t))} \mathrm{hId}_{B}(\pi_1(s), \pi_1(t), p, \pi_2(s), \pi_2(t))$$
+
+* The extensionality principle for [[dependent sum types]] states that there is an equivalence
+
+$$\mathrm{ext}_\Sigma:\prod_{s:\sum_{x:A} B(x)} \prod_{t:\sum_{x:A} B(x)} \mathrm{Id}_{\sum_{x:A} B(x)}(s, t) \simeq \sum_{p:\mathrm{Id}_A(\pi_1(s), \pi_1(t))} \mathrm{hId}_{x:A.B(x)}(\pi_1(s), \pi_1(t), p, \pi_2(s), \pi_2(t))$$
+
+## Categorical semantics
+
+needs to be written
+
+## In higher observational type theory 
 
 In [[higher observational type theory]], the dependent heterogeneous identity type is a primitive type former (although depending on the presentation, it can also be obtained using $ap$ into the universe).  In its general form, the type family can depend not just on a single type but on a [[type telescope]] $\Delta$. The resulting dependent heterogeneous identity type then depends on an "identification in that telescope", which is defined by mutual recursion as a telescope of dependent heterogeneous identity types.  The [[type formation|formation rule]] is then
 
@@ -312,7 +364,7 @@ $$\frac{\varsigma:\delta =_\Delta \delta^{'} \quad \delta \vdash A\; \mathrm{typ
 
 ... needs to be finished
 
-#### Heterogeneous identity types in universes
+### Heterogeneous identity types in universes
 
 Given a term of a universe $A:\mathcal{U}$, a judgment $z:\mathcal{T}_\mathcal{U}(A) \vdash B:\mathcal{U}$, terms $x:\mathcal{T}_\mathcal{U}(A)$ and $y:\mathcal{T}_\mathcal{U}(A)$, and an identity $p:\mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(x,y)$, we have
 
@@ -333,10 +385,6 @@ $$\frac{A:\mathcal{U} \quad z:\mathcal{T}_\mathcal{U}(A) \vdash B:\mathcal{U} \q
 and for constant families $B:\mathcal{U}$
 
 $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\mathcal{T}_\mathcal{U}(B)}(u, v)$$
-
-## Categorical semantics
-
-needs to be written
 
 ## See also
 
