@@ -69,7 +69,7 @@ Then for an $R$-module $M$ the following are equivalent :
 
 \begin{proof}
 $1 \Rightarrow 2$. Suppose that $M$ is a torsion-free $R$-module and that $\overline{\alpha}\overline{x} = 0$ for a regular $\overline{\alpha} \in R_\mathfrak{p}$ and $\overline{x} \in M_\mathfrak{p}$.
-Set $\mathfrak{a}_\mathfrak{p} = \{a ; a s = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, a \in R\}$ and $M' = \{m ; s m = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, m \in M\}$. Then we may assume that $\overline{\alpha} \in R/\mathfrak{a}_\mathfrak{p}$ and $\overline{x} \in M'$. (...)
+Set $\mathfrak{a}_\mathfrak{p} = \{a ; a s = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, a \in R\}$ and $M' = \{m ; s m = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, m \in M\}$. Then we may assume that $\overline{\alpha} \in R/\mathfrak{a}_\mathfrak{p}$ and $\overline{x} \in M/M'$ by multiplying suitably elements of $R/\mathfrak{a}_\mathfrak{p} - \mathfrak{p}/\mathfrak{a}_\mathfrak{p}$ to $\overline{\alpha}, \overline{x}$. (...)
 
 $2 \Rightarrow 3$. Obvious.
 
