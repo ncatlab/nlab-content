@@ -1208,7 +1208,7 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 Precursors include
 
-* {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopy et classes de groupes abelians_, Ann. of Math. 58 (1953) 258-294
+* {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopie et classes de groupes abéliens_, Ann. of Math. 58 (1953) 258-294
 
 The original articles are
 
