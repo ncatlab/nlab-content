@@ -17,6 +17,34 @@ In [[intensional type theory]], [[equality]] is represented by the [[identity ty
 Instead, product extensionality is the statement that given types $A$ and $B$, the [[binary function application to identities]] $\mathrm{apbinary}_{(-,-)}(a, a', b, b')$ of the function $a:A, b:B \vdash (a, b):A \times B$ defined in the [[introduction rule]] for the [[product type]] is an [[equivalence of types]] for all elements $a:A$, $a':A$ and $b:A$, $b':A$:
 $$\mathrm{prodext}(a, a', b, b'):\mathrm{isEquiv}(\mathrm{apbinary}_{(-,-)}(a, a', b, b'))$$
 
+\subsection{Rules for product extensionality}
+
+Formation rules for the identity type of negative product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \times B \quad \Gamma \vdash y:A \times B}{\Gamma \vdash \mathrm{Id}_{A \times B}(x, y) \; \mathrm{type}}$$
+
+Introduction rules for the identity type of negative product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash a:A  \quad \Gamma \vdash a':A \quad \Gamma \vdash b:B \quad \Gamma \vdash b':B}{\Gamma \vdash \mathrm{apbinary}_{(-,-)}(a, a', b, b'):\mathrm{Id}_{A}(a, a) \times \mathrm{Id}_{B}(b, b') \to \mathrm{Id}_{A \times B}((a, b), (a', b'))}$$
+
+Elimination rules for the identity type of negative product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \times B \quad \Gamma \vdash y:A \times B}{\Gamma \vdash \mathrm{ap}_{\pi_1}(x, y):\mathrm{Id}_{A \times B}(x, y) \to \mathrm{Id}_{A}(\pi_1(x), \pi_1(y))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \times B \quad \Gamma \vdash y:A \times B}{\Gamma \vdash \mathrm{ap}_{\pi_2}(x, y):\mathrm{Id}_{A \times B}(x, y) \to \mathrm{Id}_{B}(\pi_2(x), \pi_2(y))}$$
+
+Computation rules for the identity type of negative product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \times B \quad \Gamma \vdash y:A \times B}{\Gamma, p:\mathrm{Id}_{A}(\pi_1(x), \pi_1(y)), q:\mathrm{Id}_{B}(\pi_2(x), \pi_2(y)) \vdash \mathrm{ap}_{\pi_1}(\mathrm{apbinary}_{(-,-)}(\pi_1(x), \pi_2(x), \pi_1(y), \pi_2(y))(p, q)) \equiv p:\mathrm{Id}_{A}(\pi_1(x), \pi_1(y))}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash x:A \times B \quad \Gamma \vdash y:A \times B}{\Gamma, p:\mathrm{Id}_{A}(\pi_1(x), \pi_1(y)), q:\mathrm{Id}_{B}(\pi_2(x), \pi_2(y)) \vdash \mathrm{ap}_{\pi_2}(\mathrm{apbinary}_{(-,-)}(\pi_1(x), \pi_2(x), \pi_1(y), \pi_2(y))(p, q)) \equiv q:\mathrm{Id}_{A}(\pi_2(x), \pi_2(y))}$$
+
+Uniqueness rules for the identity type of negative product types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash a:A  \quad \Gamma \vdash a':A \quad \Gamma \vdash b:B \quad \Gamma \vdash b':B}{\Gamma, r:\mathrm{Id}_{A \times B}((a, b), (a', b')) \vdash \mathrm{apbinary}_{(-,-)}(a, a', b, b')(\mathrm{ap}_{\pi_1}(r), \mathrm{ap}_{\pi_2}(r)) \equiv r:\mathrm{Id}_{A \times B}((a, b), (a', b'))}$$
+
+These rules ensure that $\mathrm{apbinary}_{(-,-)}$ is a judgmental equivalence of types. 
+
 \subsection{Judgmental product extensionality}
 
 One could replace the equivalence of types above with a [[judgmental equality]] of types, resulting in judgmental product extensionality, that for all types $A$ and $B$ and elements $a:A$, $a':A$, $b:B$, and $b':B$, 
