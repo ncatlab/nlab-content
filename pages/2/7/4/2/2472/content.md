@@ -34,6 +34,10 @@ See also _[[global analytic geometry]]_.
 
 The related type of cohomology is called [[rigid cohomology]].
 
+## Relation to perfectoid spaces
+
+Any smooth rigid-analytic variety $X$ admits a cover $U_{i}\to X$ where the $U_{i}$'s are affinoid [[perfectoid spaces]] (corollary 4.7 of [Scholze12](#Scholze12)). Together with the fact that $H^{i}(U_{et},\mathcal{O}_{X}^{+})$ is almost zero for $i\geq 1$ when $U$ is an affinoid perfectoid space, this allows one to compute the cohomology $H_{et}^{i}(X,\mathcal{O}_{X}^{+})$. The Artin-Schreier sequence can then be used to compute the cohomology $H^{i}(X_{et},\mathbb{Z}/p\mathbb{Z})$ (see the discussion in section 5.7 of [Weinstein15](#Weinstein15)).
+
 ## Applications
 
 * The solution by Raynaud and Harbater of Abyhankar's conjecture concerning fundamental groups of curves in positive characteristic uses the rigid analytic
@@ -99,6 +103,15 @@ See also
 
 * [[Kiran Kedlaya]], _$p$-Adic differential equations_ ([pdf](http://www-math.mit.edu/~kedlaya/18.787/compiled.pdf))
   {#Kedlaya}
+
+The relation to perfectoid spaces can be found in
+
+* [[Peter Scholze]], _$p$-adic Hodge theory for rigid-analytic varieties_ ([arXiv:1205.3463] (https://arxiv.org/abs/1205.3463)) {#Scholze12}
+
+There is also a survey of the above in chapter 5 of
+
+* Jared Weinstein, _Reciprocity laws and Galois representations: recent breakthroughs_ ([pdf] (https://math.bu.edu/people/jsweinst/CEB/BAMS.pdf)) {#Weinstein15}
+
 
 category: geometry
 
