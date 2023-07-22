@@ -2,7 +2,9 @@
 
 **[[type]]**, [[type theory]]
 
-* [[propositions as types]], [[inductive type]], [[W-type]]
+* [[propositions as types]], [[propositions as some types]]
+
+* [[inductive type]], [[W-type]]
 
 * [[empty type]], [[unit type]]
 
