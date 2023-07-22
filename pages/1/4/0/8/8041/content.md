@@ -59,32 +59,51 @@ Given [[types]] $A$ and $B$ and a [[function]] $f:A \to B$, a __coherent inverse
 
 $$G:\prod_{x:B} f(g(x)) =_B x \qquad H:\prod_{x:A} g(f(x)) =_A x$$
 
-which additionally has [[homotopies]]
-$$K_f:\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x)) \qquad K_g:\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_g(G(x)) $$
+which additionally has one of the two [[homotopies]]
+$$K:\prod_{x:A} \mathrm{ap}_{B}(f, g(f(x)), x, H(x)) =_{g(f(x)) =_A x} G(f(x)) \qquad L:\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_{A}(g, f(g(x)), x, G(x)) $$
 
-The type of coherent inverse functions of $f$ is given by the type
+The type of coherent inverse functions of $f$ is given by one of the following types
 
-$$\mathrm{CohInv}(f) \coloneqq \sum_{g:B \to A} \sum_{G:\prod_{x:B} f(g(x)) =_B x} \sum_{H:\prod_{x:A} g(f(x)) =_A x} \left(\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))\right) \times \left(\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_g(G(x))\right)$$
+$$\mathrm{CohInv}_1(f) \coloneqq \sum_{g:B \to A} \sum_{G:\prod_{x:B} f(g(x)) =_B x} \sum_{H:\prod_{x:A} g(f(x)) =_A x} \left(\prod_{x:A} \mathrm{ap}_{B}(f, g(f(x)), x, H(x)) =_{g(f(x)) =_A x} G(f(x))\right)$$
+
+$$\mathrm{CohInv}_2(f) \coloneqq \sum_{g:B \to A} \sum_{G:\prod_{x:B} f(g(x)) =_B x} \sum_{H:\prod_{x:A} g(f(x)) =_A x} \left(\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_{A}(g, f(g(x)), x, G(x))\right)$$
+
+$f$ is called a **half adjoint equivalence** if it has a coherent inverse function. 
 
 ## Properties
 
-Given a function $f:A \to B$ and a function $g:B \to A$, there are functions 
-$$G:\prod_{x:B} f(g(x)) =_B x, H:\prod_{x:A} (g(f(x)) =_A x) \vdash \mathrm{QInvToCohInv}_1(f, g)(G, H):\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))$$
-$$G:\prod_{x:B} f(g(x)) =_B x, H:\prod_{x:A} (g(f(x)) =_A x) \vdash \mathrm{QInvToCohInv}_2(f, g)(G, H):\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_g(G(x))$$
+Given functions $f:A \to B$ and $g:B \to A$ and homotopies $G:\prod_{x:B} f(g(x)) =_B x$ and $H:\prod_{x:A} g(f(x)) =_A x$, there are elements 
+$$\mathrm{QInvToCohInv}_1(f, g, G, H):\prod_{x:A} \mathrm{ap}_{B}(f, g(f(x)), x, H(x)) =_{g(f(x)) =_A x} G(f(x))$$
+$$\mathrm{QInvToCohInv}_2(f, g, G, H):\prod_{x:B} H(g(x)) =_{f(g(x)) =_B x} \mathrm{ap}_{A}(g, f(g(x)), x, G(x))$$
 
 which satisfies the [[commutative squares]] for all elements $a:A$ and $b:B$
 
 $$
   \array{& f(g(f(g(b)))) & \overset{G(f(g(b))}= & f(g(b)) & \\
-          \mathrm{ap}_{f}(H(g(b)))) & \Vert & =_{f(g(f(g(b)))) =_B b} & \Vert & \pi_1(\mathrm{QInvToCohInv}_1(f, g)(G, H))(b) \\
+          \mathrm{ap}_{B}(f, g(f(b)), b, H(b)) & \Vert & =_{f(g(f(g(b)))) =_B b} & \Vert & \mathrm{QInvToCohInv}_2(f, g, G, H)(b) \\
           & f(g(b)) & \underset{G(b)}= & b & \\
 }$$
 
 $$
   \array{& g(f(g(f(a)))) & \overset{H(g(f(a))}= & g(f(a)) & \\
-          \mathrm{ap}_{g}(G(f(a)))) & \Vert & =_{g(f(g(f(a)))) =_A a} & \Vert & \pi_1(\mathrm{QInvToCohInv}_2(f, g)(G, H))(a) \\
+          \mathrm{ap}_{A}(g, f(g(a)), a, G(a)) & \Vert & =_{g(f(g(f(a)))) =_A a} & \Vert & \mathrm{QInvToCohInv}_1(f, g, G, H)(a) \\
           & g(f(a)) & \underset{H(a)}= & a & \\
 }$$
+
+Thus, there are functions 
+$$\lambda g:B \to A.\lambda G:\prod_{x:B} f(g(x)) =_B x.\lambda H:\prod_{x:A} g(f(x)) =_A x.\mathrm{QInvToCohInv}_1(f, g, G, H):\mathrm{QInv}(f) \to \mathrm{CohInv}_1(f)$$ 
+and 
+$$\lambda g:B \to A.\lambda G:\prod_{x:B} f(g(x)) =_B x.\lambda H:\prod_{x:A} g(f(x)) =_A x.\mathrm{QInvToCohInv}_2(f, g, G, H):\mathrm{QInv}(f) \to \mathrm{CohInv}_2(f)$$
+
+Every coherent inverse function is a quasi-inverse function by forgetting the additional coherence condition. 
+
+\begin{theorem}
+If a function $f:A \to B$ has a coherent inverse function, then for all elements $b:B$ the fiber of $f$ at $b$ is contractible.
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
 
 ## Related concepts
 
@@ -100,6 +119,12 @@ Not really related
 
 * [[inverse image]]
 
+## References
+
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+* [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
 [[!redirects inverse function]]
 [[!redirects inverse functions]]
 [[!redirects inverse map]]
@@ -114,3 +139,8 @@ Not really related
 [[!redirects coherent inverse functions]]
 [[!redirects coherent inverse map]]
 [[!redirects coherent inverse maps]]
+
+[[!redirects half adjoint equivalence]]
+[[!redirects half adjoint equivalences]]
+[[!redirects half-adjoint equivalence]]
+[[!redirects half-adjoint equivalences]]
