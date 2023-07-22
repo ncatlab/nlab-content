@@ -10,7 +10,15 @@ In [[set theory]], a **one-to-one correspondence** is a [[relation]] or [[corres
 
 ### In type theory
 
-In [[type theory]], given types $A$ and $B$, a **one-to-one correspondence** is a [[correspondence]] $x:A, y:B \vdash R(x, y)$ for which for every element $x:A$, the dependent type $\sum_{y:B} R(x, y)$ is a [[contractible type]], and for every element $y:B$, the dependent type $\sum_{x:A} R(x, y)$ is a [[contractible type]]. Equivalently, it is an [[anafunction]] $x:A, y:B \vdash R(x, y)$ such that for every element $y:B$, the dependent type $\sum_{x:A} R(x, y)$ is a [[contractible type]]. 
+In [[type theory]], given types $A$ and $B$, a **one-to-one correspondence** is a [[correspondence]] $x:A, y:B \vdash R(x, y)$ for which for every element $x:A$, [[uniqueness quantifier|there exists a unique]] element $y:B$ such that $R(x, y)$, and for every element $y:B$, there exists a unique element $x:A$ such that $R(x, y)$. Equivalently, it is an [[anafunction]] $x:A, y:B \vdash R(x, y)$ such that for every element $y:B$, the dependent type $\sum_{x:A} R(x, y)$ is a [[contractible type]]. 
+
+Given a [[Tarski universe]] $(U, T)$, the type of all $U$-small one-to-one correspondences between $A$ and $B$ is given by the type 
+
+$$\mathrm{OneToOneCorr}_U(A, B) \coloneqq \sum_{R:A \times B \to U} \left(\prod_{x:A} \exists!y:B.T(R(x, y)\right) \times \left(\prod_{y:B} \exists!x:A.T(R(x, y))\right)$$
+
+The univalence axiom for $U$ is given by the [[equivalence of types]]
+
+$$\mathrm{ua}_U:\prod_{A:U} \prod_{B:U} (A =_U B) \simeq \mathrm{OneToOneCorr}_U(T(A), T(B))$$
 
 ## Properties
 
