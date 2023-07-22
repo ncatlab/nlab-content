@@ -325,7 +325,8 @@ the following categorical constructions :
 
 1. (infinite) sums ;
 1. filtered colimits ;
-1. retracts.
+1. retracts;
+1. tensor product.
 
 \end{proposition}
 
@@ -342,6 +343,16 @@ Every [[projective module]] is flat.
 Every projective module is a retract of a free module, which in turn is a sum of copies of the base ring $R$, which is flat over itself.
 
 =--
+
+\begin{corollary}
+Let $R$ be a commutative ring and $S \subset R$ be a multiplicative subset.
+Then the localisation $R[S^{-1}]$ is a flat $R$-module. 
+\end{corollary}
+
+\begin{proof}
+Regard the set $S$ as a poset with de divisibility relation. The fact that $S$ be multiplicative means that the poset is directed.
+One thus have that $R[S^{-1}] = \underset{\longrightarrow}{\lim}_s \frac{1}{s} \; R$ is a filtered colimit of free modules, hence it is flat.
+\end{proof}
 
 \begin{proposition}
 For any module $M$ over a ring $R$, one has
