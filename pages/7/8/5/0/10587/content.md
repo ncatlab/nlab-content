@@ -23,6 +23,8 @@ Accodingly the _lower half plane_ is the subset of complex numbers with negative
 
 * [[Siegel upper half-space]]
 
+* [[Drinfeld upper half-plane]]
+
 * [[moduli space of elliptic curves]], [[moduli space of Riemann surfaces]]
 
 ## References
