@@ -100,6 +100,8 @@ Discussion with an eye towards [[finite quantum mechanics in terms of dagger-com
 
 * {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
 
+* Kosta Došen and Zoran Petrić. _The maximality of cartesian categories_. Mathematical Logic Quarterly: Mathematical Logic Quarterly 47.1 (2001): 137-144.
+
 
 [[!redirects cartesian monoidal category]]
 [[!redirects cartesian monoidal categories]]
