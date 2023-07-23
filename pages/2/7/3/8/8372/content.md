@@ -68,16 +68,19 @@ Then for an $R$-module $M$ the following are equivalent :
 \end{proposition}
 
 \begin{proof}
+
 $1 \Rightarrow 2$. Suppose that $M$ is a torsion-free $R$-module and that $\overline{\alpha}\overline{x} = 0$ for a regular $\overline{\alpha} \in R_\mathfrak{p}$ and $\overline{x} \in M_\mathfrak{p}$.
 Set $\mathfrak{a}_\mathfrak{p} = \{a ; a s = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, a \in R\}$ and $M' = \{m ; s m = 0 \quad\text{ for some }\quad s \in R - \mathfrak{p}, m \in M\}$. Then we may assume that $\overline{\alpha} \in R/\mathfrak{a}_\mathfrak{p} \hookrightarrow R_\mathfrak{p}$ and $\overline{x} \in M/M' \hookrightarrow M_\mathfrak{p}$ by multiplying suitably elements of $R/\mathfrak{a}_\mathfrak{p} - \mathfrak{p}/\mathfrak{a}_\mathfrak{p}$ to $\overline{\alpha}, \overline{x}$.
 
 Denote by $\alpha \in R$ a representative of $\overline{\alpha}$ and
-$x \in M$ a representative of $\overline{x}$.
-(...)
+$x \in M$ a representative of $\overline{x}$. Since $\mathrm{Q}(R)$ is absolutely flat, there exists a regular $r \in R$ and $\beta \in R$ such that
+$\alpha ( \alpha \beta - r) = 0$.
+Because $\overline{\alpha}$ is regular, $\overline{r} = \overline{\alpha} \overline{\beta}$. Then one has $\overline{r} \overline{x} = 0$ which means that there exists $s \in R- \mathfrak{p}$ such that $s r x = 0$ but since $M$ is torsion-free and $r$ is regular, one has $s x = 0$, so $\overline{x} = 0$.
 
 $2 \Rightarrow 3$. Obvious.
 
-$3 \Rightarrow 1$. If $r$ is a regular element of $R$ and $x$ is non zero with $r x = 0$, then taking any maximal ideal $(r) \subset \mathfrak{m}$, one gets the same equation in $\overline{r}\overline{x} = 0$ in $M_\mathfrak{m}$. 
+$3 \Rightarrow 1$. Let $r \in R$ be a regular element and $x \in M$ such that $r x = 0$. For every maximal ideal $\mathfrak{m} \subset R$, the image $\overline{r} \in R_\mathfrak{m}$ is regular so that $\overline{r} \overline{x} = 0$ in $M_\mathfrak{m}$ means that $\overline{x} = 0$, for every $\mathfrak{m} \subset R$. As a consequence $x = 0$ in $M$.
+
 \end{proof}
 
 ## Related concepts
