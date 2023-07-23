@@ -626,7 +626,7 @@ One useful reference is
 
 There the abbreviation PCTP ( _principal twisted cartesian product_ ) is used for what above we called just [[twisted Cartesian product]]s.
 
-The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting function]] $\phi$ arises as the pullback of $W G \to \overline{W}G$ along a morphjism of simplicial sets $X \to \overline{W}G$ can be found there by combining
+The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting function]] $\phi$ arises as the pullback of $W G \to \overline{W}G$ along a morphism of simplicial sets $X \to \overline{W}G$ can be found there by combining
 
 1. the last sentence on p. 81 which asserts that pullbacks of PTCPs $X \times_\phi G \to X$ along morphisms of simplicial sets $f : Y \to X$ yield PTCPs corresponding to the composite of $f$ with $\phi$;
 
