@@ -209,8 +209,9 @@ Given any open cover $\mathcal{C}$ of the unit interval, there is a partition $0
 +-- {: .proof}
 ###### Proof
 
-...
+As in the previous proof, construct a zigzag $\zeta$ from $-1$ to $2$ with zigs from $\mathcal{C}$.  Using the Zigzag Lemma, replace this with an orderly zigzag.  Let $a_0$ be $0$, let $a_1$ be the smallest left endpoint of a zig from $\zeta$ satisfying $0 \lt a_1 \lt 1$, let $a_2$ be smallest left endpoint satisfying $a_1 \lt a_2 \lt 1$, and so on until none are left, and then finish with $a_n \coloneqq 1$.
 =--
+
 A corollary of this theorem, when the open cover is given by a function $\delta\colon [0,1] \to (0,\infty)$ (so that $\mathcal{C} \coloneqq \big\{\big(x - \delta(x), x + \delta(x)\big) \;|\; x \in [0,1]\big\}$), is used (classically) to prove the uniqueness (indeed, non-vacuity) of the [[Henstock–Kurzweil integral]], which could be used to define [[Lebesgue measure]] (see below).
 
 
