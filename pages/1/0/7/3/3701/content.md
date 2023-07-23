@@ -178,7 +178,7 @@ The classical [[Heine-Borel theorem|Heine--Borel theorem]], as a statement about
 +-- {: .num_defn}
 ###### Definition
 
-An __[[open cover]] of the unit interval__ is a collection $\mathcal{C}$ of opens in the real line such that $\mathbb{R}$ is the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathcal{C}$.
+An __[[open cover]] of the unit interval__ is a collection $\mathcal{C}$ of opens in the real line such that $\mathbb{R}$ is the join of $(-\infty,0)$, $(1,\infty)$, and the members of $\mathcal{C}$.
 =--
 
 +-- {: .num_theorem #HeineBorel}
@@ -188,15 +188,30 @@ An __[[open cover]] of the unit interval__ is a collection $\mathcal{C}$ of open
 Every open cover of the unit interval has a finite subcover.
 =--
 
+The proof is almost embarrassingly simple.  The key point is that the construction of joins in terms of zigzags involves only finite zigzags, even for an infinitary join.
+
 +-- {: .proof}
 ###### Proof
 
-The proof is almost embarrassingly simple.  The key point is that the construction of joins in terms of zigzags involves only finite zigzags, even for an infinitary join.
-
-Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathcal{C}$.  If this equals $\mathbb{R}$, then in particular $(-2,3) \subseteq J$, and since $(-1,2) \Subset (-2,3)$, we get a corresponding zigzag $\zeta$ involving finitely many zigs using finitely many of the elements of $\mathcal{C}$.  Let $\mathcal{D}$ be the collection of these, and let $K$ be the join of $(-\infty,0)$, $(1,\infty)$, and $\mathcal{D}$.  Now if $(a,b)$ is any pair of rational numbers, we construct a zigzag showing directly that $(a,b) \subseteq K$ as follows: the zig $(a,0) \subseteq (-\infty,0)$, the zag $0 \gt -1$, the zigzag $\zeta$ from $-1$ to $2$, the zag $2 \gt 1$, and the zig $(1,b) \subseteq (1,\infty)$.  This is always a valid zigzag, so $K = \mathbb{R}$.  Therefore, the finite collection $\mathcal{D}$ covers the unit interval.
+Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the members of $\mathcal{C}$.  Since this equals $\mathbb{R}$, then in particular $(-2,3) \subseteq J$, and since $(-1,2) \Subset (-2,3)$, we get a corresponding zigzag $\zeta$ involving finitely many zigs using finitely many of the members of $\mathcal{C}$.  Let $\mathcal{D}$ be the collection of these members of $\mathcal{C}$, and let $K$ be the join of $(-\infty,0)$, $(1,\infty)$, and $\mathcal{D}$.  Now if $(a,b)$ is any pair of rational numbers, we construct a zigzag showing directly that $(a,b) \subseteq K$ as follows: the zig $(a,0) \subseteq (-\infty,0)$, the zag $0 \gt -1$, the zigzag $\zeta$ from $-1$ to $2$, the zag $2 \gt 1$, and the zig $(1,b) \subseteq (1,\infty)$.  This is always a valid zigzag, so $K = \mathbb{R}$.  Therefore, the finite collection $\mathcal{D}$ covers the unit interval.
 =--
 
-This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
+This proof generalizes immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
+
+Another generalization is [[Cousin's lemma|Cousin's Theorem]]:
++-- {: .num_theorem #Cousin}
+###### Theorem
+**(Cousin\'s)**
+
+Given any open cover $\mathcal{C}$ of the unit interval, there is a partition $0 = a_0 \leq a_1 \leq \cdots \leq a_n = 1$ such that each subinterval $[a_i, a_{i+}]$ is covered by a single member $U$ of $\mathcal{C}$ (in that $(-\infty,a_i) \cup U \cup (a_{i+},\infty) = \mathbb{R}$).
+=--
+
++-- {: .proof}
+###### Proof
+
+...
+=--
+A corollary of this theorem, when the open cover is given by a function $\delta\colon [0,1] \to (0,\infty)$ (so that $\mathcal{C} \coloneqq \big\{\big(x - \delta(x), x + \delta(x)\big) \;|\; x \in [0,1]\big\}$), is used (classically) to prove the uniqueness (indeed, non-vacuity) of the [[Henstock–Kurzweil integral]], which could be used to define [[Lebesgue measure]] (see below).
 
 
 ## A result on measure
@@ -210,7 +225,7 @@ From a localic perspective, however, while $\mathcal{I}$ might cover all the *po
 Given any open interval $I = (a,b)$ with rational endpoints and any collection $\mathcal{J}$ of such intervals, if $I \subseteq \bigcup \mathcal{J}$, then for any length $L \lt b - a$, there must be a [[finite subset|finite]] (in the strictest sense) subcollection $\{K_1, \ldots, K_n\}$ of $\mathcal{J}$ such that
 $$ L \leq \sum_{i=1}^n \len K_i .$$
 =--
-In other words, any cover of $I$ must have a total length (defined as the [[supremum]] of the lengths of finite subcollections) at least the length of $I$.
+In other words, any cover of $I$ by intervals must have a total length (defined as the [[supremum]] of the lengths of finite subcollections) at least the length of $I$.
 
 +-- {: .proof}
 ###### Proof
