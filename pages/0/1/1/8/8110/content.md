@@ -13,13 +13,17 @@ A _Shimura datum_ is a pair $(G,X)$ where $G$ is a reductive group and $X$ is a 
 
 Given a Shimura datum $G(X)$ and a sufficiently small compact open subgroup $K$ of $G(\mathbb{A}_{f})$ (where $\mathbb{A}_{f}=\prod'\mathbb{Q}_{p}$ is the finite adeles), the quotient
 
-$$\Sh_{K}(G,X):=G(\mathbb{Q})\backslash G(\mathbb{A}_{f})\times X/K$$
+$$
+  \Sh_{K}(G,X)
+  \;\coloneqq\;
+  G(\mathbb{Q}) \backslash G(\mathbb{A}_{f}) \times X/K
+$$
 
 can be realized as a quasi-projective variety over $\mathbb{C}$ (and actually over a canonical number field called the _reflex field_ that depends on the Shimura datum). The inverse limit $\Sh(G,X):=(\Sh_{K}(G,X))_{K}$ over all sufficiently small compact subgroups is called a _Shimura variety_.
 
 ## Applications to the Langlands program
 
-Since the [[l-adic cohomology]] of the Shimura variety $\Sh(G,X)$ possesses an action of $G(\mathbb{A})$, as well as an action of the [[absolute Galois group]] $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$, the theory of Shimura varieties finds application in the [[Langlands program]]. See also [YoucisNotes](#YoucisNotes).
+Since the [[l-adic cohomology]] of the Shimura variety $\Sh(G,X)$ possesses an action of $G(\mathbb{A})$, as well as an action of the [[absolute Galois group]] $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$, the theory of Shimura varieties finds application in the [[Langlands program]]. See also [Youcis](#Youcis).
 
 ## Related concepts
 
@@ -31,7 +35,9 @@ Since the [[l-adic cohomology]] of the Shimura variety $\Sh(G,X)$ possesses an a
 
 ## References
 
-Surveys include
+### General
+
+Surveys:
 
 * [[James Milne]], _Introduction to Shimura Varieties_, 2004, ([pdf](https://www.jmilne.org/math/articles/2005aX.pdf))
 
@@ -53,11 +59,14 @@ Discussion relating to [[moduli space of Calabi-Yau spaces]] includes
 
 Discussion related to the Langlands program can be found in
 
-* Alex Youcis, _The cohomology of Shimura varieties and the Langlands correspondence_ ([pdf](https://alex-youcis.github.io/MatsushimaNotes.pdf)){#YoucisNotes}
+* {#Youcis} Alex Youcis, _The cohomology of Shimura varieties and the Langlands correspondence_ ([pdf](https://alex-youcis.github.io/MatsushimaNotes.pdf))
 
-#### Model theoretic aspects
+### Model theoretic aspects
+
+Discussion in [[model theory]]:
 
 * [[Boris Zilber]], _Model theory of special subvarieties and Schanuel-type conjectures_, Annals of Pure and Applied Logic __167__:10 (2016) 1000--1028 [doi](https://doi.org/10.1016/j.apal.2015.02.002)
+
 * C. Daw, A. Harris, _Categoricity of modular and Shimura curves_, J. Inst. Math. Jussieu, 16(5) (2017) 1075--1101 [doi](https://doi.org/10.1017/S1474748015000365)
 
 
