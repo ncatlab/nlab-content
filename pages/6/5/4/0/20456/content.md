@@ -76,7 +76,7 @@ where $\mathrm{Vect}_{B}$ is the set of finite projective $B$-modules.
 
 A stacky approach to the study of prismatic crystals has been developed independently by Drinfeld ([Drinfeld20](#Drinfeld20)) and Bhatt-Lurie ([BhattLurie22](#BhattLurie22)).
 
-Given p-adic formal scheme $X$, one can attach a stack, called the _Cartier-Witt stack_ and denoted $\mathrm{WCart}_{X}$ by Bhatt-Lurie, and called the _prismatization_ of $X$ and denoted $X^{\Delta}$ by Drinfeld. When $X$ is quasi-syntomic, one can identify the $\infty$-category of crystals of $(p,I_{\Delta})$-complete complexes on $(X_{\Delta},\mathcal{O}_{\Delta})$ with the derived $\infty$-category of quasi-coherent sheaves on $\mathrm{WCart}_{X}$ ([Bhatt21](#Bhatt21), Remark 2.6).
+Given p-adic formal scheme $X$, one can attach a stack, called the _Cartier-Witt stack_ and denoted $\mathrm{WCart}_{X}$ by Bhatt-Lurie, and called the _[[prismatization]]_ of $X$ and denoted $X^{\Delta}$ by Drinfeld. When $X$ is quasi-syntomic, one can identify the $\infty$-category of crystals of $(p,I_{\Delta})$-complete complexes on $(X_{\Delta},\mathcal{O}_{\Delta})$ with the derived $\infty$-category of quasi-coherent sheaves on $\mathrm{WCart}_{X}$ ([Bhatt21](#Bhatt21), Remark 2.6).
 
 ## Applications
 
