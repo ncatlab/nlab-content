@@ -263,6 +263,8 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
 * [[supply in a monoidal category]]
 
+* [[commutative monoidal category]]
+
 ## References
 
 Original references:
