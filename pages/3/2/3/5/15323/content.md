@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _Hecke correspondence_ is a certain [[correspondence]] between a [[moduli stacks of bundles]]. The [[integral transform]] induced by a [[Hecke correspondence]] is called a _Hecke transform_. The objects preserves by such a transform up to a tensor multiple are called [[Hecke eigensheaves]].
+A _Hecke correspondence_ is a certain [[correspondence]] between [[moduli stacks of bundles]]. The [[integral transform]] induced by a [[Hecke correspondence]] is called a _Hecke transform_. The objects preserves by such a transform up to a tensor multiple are called [[Hecke eigensheaves]].
 
 These are central objects of interest in [[geometric Langlands duality]].
 
