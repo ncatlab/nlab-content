@@ -1,5 +1,6 @@
 
-* [webpage](http://www.math.ias.edu/~bhattb/)
+* [webpage](http://www.math.ias.edu/~bhatt/)
+* [wikipedia](https://en.wikipedia.org/wiki/Bhargav_Bhatt_%28mathematician%29)
 
 ## Selected writings
 
