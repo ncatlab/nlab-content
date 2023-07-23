@@ -172,7 +172,7 @@ An early sketch of a general definition, motivated by the description of [[D-bra
 
 * [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry, Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
-* [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP (2000) 44, 14 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
+* [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP (2000) 44, 14 &lbrack;[arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027), [doi:10.1088/1126-6708/2000/05/044](https://doi.org/10.1088/1126-6708/2000/05/044)&rbrack;
 
 Then the general construction of [[differential cohomology]] theories via [[differential function complexes]] of 
 
