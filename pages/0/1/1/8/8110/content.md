@@ -17,6 +17,10 @@ $$\Sh_{K}(G,X):=G(\mathbb{Q})\backslash G(\mathbb{A}_{f})\times X/K$$
 
 can be realized as a quasi-projective variety over $\mathbb{C}$ (and actually over a canonical number field called the _reflex field_ that depends on the Shimura datum). The inverse limit $\Sh(G,X):=(\Sh_{K}(G,X))_{K}$ over all sufficiently small compact subgroups is called a _Shimura variety_.
 
+## Applications to the Langlands program
+
+Since the [[l-adic cohomology]] of the Shimura variety $\Sh(G,X)$ possesses an action of $G(\mathbb{A})$, as well as an action of the [[absolute Galois group]] $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$, the theory of Shimura varieties finds application in the [[Langlands program]]. See also [YoucisNotes](#YoucisNotes).
+
 ## Related concepts
 
 * [[Siegel modular form]]
@@ -31,7 +35,7 @@ Surveys include
 
 * [[James Milne]], _Introduction to Shimura Varieties_, 2004, ([pdf](https://www.jmilne.org/math/articles/2005aX.pdf))
 
-* Kai-Wen Lan, _An Example-Based Introduction to Shimura Varieties_, ([pdf])(https://www-users.cse.umn.edu/~kwlan/articles/intro-sh-ex.pdf)
+* Kai-Wen Lan, _An Example-Based Introduction to Shimura Varieties_, ([pdf](https://www-users.cse.umn.edu/~kwlan/articles/intro-sh-ex.pdf))
 
 * Wikipedia, _[Shimura variety](https://en.wikipedia.org/wiki/Shimura_variety)_
 
@@ -46,6 +50,10 @@ Discussion in [[GAGA]] include
 Discussion relating to [[moduli space of Calabi-Yau spaces]] includes
 
 * Alice Garbagnati, Bert van Geemen, _Examples of Calabi-Yau threefolds parametrised by Shimura varieties_ ([arXiv:1005.0478](https://arxiv.org/abs/1005.0478))
+
+Discussion related to the Langlands program can be found in
+
+* Alex Youcis, _The cohomology of Shimura varieties and the Langlands correspondence_ ([pdf](https://alex-youcis.github.io/MatsushimaNotes.pdf)){#YoucisNotes}
 
 #### Model theoretic aspects
 
