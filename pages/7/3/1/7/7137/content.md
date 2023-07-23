@@ -128,7 +128,7 @@ In the other direction (analogous to the "Galois to automorphic direction") Farg
 
 ## $p$-adic and mod $p$ local Langlands
 
-The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod $p$) representations of the [[absolute Galois group]] of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. It is related to [[p-adic Hodge theory]]. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
+The [[p-adic local Langlands correspondence]] concerns $p$-adic representations of the [[absolute Galois group]] of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. It is related to [[p-adic Hodge theory]]. It should also be compatible with a [[mod p local Langlands correspondence]], which has coefficients in finite fields. Currently the only known case of the $p$-adic and mod $p$ local Langlands correspondences is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
 
 ## Related concepts
 
