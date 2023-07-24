@@ -315,7 +315,7 @@ $$
   \phantom{AAAAA}
   g(v,w)
   \;=\;
-  \omega(v,J(v))
+  \omega(v,J(w))
   \,.
 $$
 
