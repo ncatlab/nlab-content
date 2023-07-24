@@ -251,7 +251,7 @@ The concept is studied in a 2-categorical setting in
 A discussion of [[accessible (∞,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 Some recent developments in the theory of accessible categories can be found in a series of papers on [categorical model theory](model+theory#CategoricalModelTheory) and [[abstract elementary classes]] (many of which also contain some results about arbitrary accessible categories), such as:
 
