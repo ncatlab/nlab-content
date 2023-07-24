@@ -19,23 +19,48 @@
 
 ## Definition
 
+\begin{definition}
+\label{TheDefinition}
 In a [[category]] $C$, a [[class]] $W\subseteq Mor(C)$ of [[morphisms]] is said to satisfy **2-out-of-6** if for any sequence of three composable morphisms
 
 $$ X\xrightarrow{u} Y \xrightarrow{v} Z \xrightarrow{w} K$$
 
 if $w v$ and $v u$ are in $W$, then so are $u$, $v$, $w$, and $w v u$.
+\end{definition}
+
+A category equipped with a class of "[[category with weak equivalences|weak equivalences]]" satisfying 2-out-of-6 and containing all the [[identity morphisms]] is called a *[[homotopical category]]* by [Dwyer, Hirschhorn, Kan & Smith (2004)](homotopical+category#DwyerHirschhornKanSmith04) (but not all authors follow this terminology, see [[homotopical category|there]]).
+
 
 ## Examples
 
-* The class of [[isomorphisms]] in any category satisfies 2-out-of-6.  This case is the archetype of most of the cases in which the property is invoked: 2-out-of-6 is characteristic of morphisms that have a notion of [[inverse]].
+\begin{example}
+\label{IsomorphismsSatisfyTwoOutOfSix}
+The class of [[isomorphisms]] in any category satisfies 2-out-of-6 (Def. \ref{TheDefinition}).  This case is the archetype of most of the cases in which the property is invoked: 2-out-of-6 is characteristic of morphisms that have a notion of [[inverse]].
+\end{example}
 
-* A category equipped with a class of "[[category with weak equivalences|weak equivalences]]" containing the [[identity morphisms]] and satisfying 2-out-of-6 is called a [[homotopical category]].  In particular, this includes any [[model category]].
+
+\begin{example}
+\label{ModelCategoriesSatisfyTwoOutOfSix}
+The weak equivalences in any [[model category]] satisfy two-out-of-six (Def. \ref{TheDefinition}). 
+
+This follows from Exp. \ref{IsomorphismsSatisfyTwoOutOfSix} and the fact ([here](Introduction+to+Homotopy+Theory#MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen)) that a morphism in a model category is a weak equivalence iff its image in the [[homotopy category of a model category|homotopy category]] is an [[isomorphism]]. 
+
+This is a special case of the general discussion of *saturation* [below](#Saturation). See also a comment by [[Charles Rezk]] on [Math.SE:a/1495891](https://math.stackexchange.com/a/1495891/58526).
+\end{example}
+
+
+
 
 ## Relation to other concepts
 
 ### 2-out-of-3
 
-The 2-out-of-6 property implies the [[two-out-of-three]] property.  For on the one hand, if $f$ and $g$ are in $W$, then applying 2-out-of-6 to $\xrightarrow{f} \xrightarrow{1} \xrightarrow{g}$, we find that $g f\in W$.  On the other hand, if $f$ and $g f$ are in $W$, then applying 2-out-of-6 to $\xrightarrow{1} \xrightarrow{f} \xrightarrow{g}$, we find that $g\in W$, and similarly if $g$ and $g f$ are in $W$.
+\begin{proposition}\label{When2OutOf6ImpliesTwoOutOfThree}
+If all [[identity morphisms]] are among the [[weak equivalences]] (as is usually assumed, cf. *[[homotopical category]]*) then the 2-out-of-6 property implies the [[two-out-of-three property]].
+\end{proposition}
+\begin{proof}
+Because, on the one hand, if $f$ and $g$ are in $W$, then applying 2-out-of-6 to $\xrightarrow{f} \xrightarrow{id} \xrightarrow{g}$, we find that $g f\in W$.  On the other hand, if $f$ and $g f$ are in $W$, then applying 2-out-of-6 to $\xrightarrow{id} \xrightarrow{f} \xrightarrow{g}$, we find that $g\in W$, and similarly if $g$ and $g f$ are in $W$.
+\end{proof}
 
 ### Identities and isomorphisms
 
@@ -87,6 +112,7 @@ exhibiting $w$ as a retract of $w g$ in the arrow category.  Thus, by assumption
 Of course, there is a dual theorem for fibrations.  Note that the fibrations in a [[category of fibrant objects]] satisfy (the duals of) all the above conditions.  They are not implied by the axioms for the cofibrations in a [[Waldhausen category]] (the factorization axiom is what is missing), but many Waldhausen categories do satisfy them.
 
 ### Saturation
+ {#Saturation}
 
 The 2-out-of-6 property is also closely related to the property that $W$ is *saturated*, in the sense that any morphism which becomes an isomorphism in the [[localization]] $C[W^{-1}]$ is already a weak equivalence.  (This is unrelated to the notion of [[saturated class of maps]] used in the theory of [[weak factorization systems]].)
 
