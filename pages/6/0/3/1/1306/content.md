@@ -130,7 +130,7 @@ Let $X$ be a [[presheaf]] over $A$.
 ###### Definition
 
 For $a \in A$,  a cell $v \in X(a)$ is called **degenerate** precisely if
-there is a morphism $\alpha : a \to a'$ in $A_-$ and a cell $u \in $
+there is a morphism $\alpha : a \to a'$ in $A_-$ and a cell $u \in X(a')$
 
 $$
   X(\alpha) : u \mapsto v
@@ -184,7 +184,7 @@ Let $f : X \to Y$ be a morphism of [[presheaves]] over $A$.
 +-- {: .num_defn}
 ###### Definition
 
-The morphism $f : X \to Y$ is called **normal** if every cell of $Y$ not in the [[image]] of $f$ is dominant.
+The morphism $f : X \to Y$ is called **normal** if every cell of $Y$ not in the [[image]] of $f$ is normal.
 
 =--
 
