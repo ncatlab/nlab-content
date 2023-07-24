@@ -236,7 +236,7 @@ Let $G$ be a finite [[group]] as above. We describe the generalizaton of the abo
    and the generating acyclic cofibrations to be
   
    $$
-     J_{O_G} := \{G/H \times j\}_{j \in I, H \subset G}
+     J_{O_G} := \{G/H \times j\}_{j \in J, H \subset G}
      \,.
    $$
 
@@ -255,7 +255,7 @@ Let $G$ be a finite [[group]] as above. We describe the generalizaton of the abo
    and the generating acyclic cofibrations to be
   
    $$
-     J_{\mathbf{B}G} := \{G/H \times j\}_{j \in I, H \subset G}
+     J_{\mathbf{B}G} := \{G/H \times j\}_{j \in J, H \subset G}
      \,.
    $$
 
