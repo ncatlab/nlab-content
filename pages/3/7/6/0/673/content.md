@@ -32,16 +32,16 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints
 
-* _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+* _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. (submitted for publication)
 
-* _Homotopy equivalence of topological categories_ (2009/2022) arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022).
+* _Homotopy equivalence of topological categories_ (2009/2022) arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). (submitted for publication)
 
 
 
 ### Papers
 
 
-* _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). Accepted for publication, Compositionality, 14 Feb 2022.
+* _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). Accepted for publication, [Compositionality](https://compositionality-journal.org/), 14 Feb 2022.
 
 
 * _Many finite-dimensional lifting bundle gerbes are torsion_, Bulletin of the Australian Mathematical Society **105** Issue 2 (2022) 323–338, doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936).
