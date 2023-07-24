@@ -63,6 +63,8 @@ K-theory of Proto-exact Categories*, Leiden (2017) &lbrack;[pdf](https://www.uni
 
 Notion of "homotopical categories" understood with more relaxed/unspecified axioms on the weak equivalences:
 
+* [[Julie Bergner]], *An introduction to homotopical categories*, lecture at MSRI (2014) &lbrack;part 1:[YT](https://youtube.com/watch?v=OgbaZHpUeD0), 2:[](https://youtube.com/watch?v=SKZT7x_0i_Y)&rbrack;
+
 * {#Arndt15} [[Peter Arndt]], *Homotopical categories of logics*, in: *The Road to Universal Logic*, Studies in Universal Logic Birkhäuser (2015) &lbrack;[pdf](https://www.math.uni-duesseldorf.de/~arndt/research/HomotopicalCategoriesOfLogics.pdf), [doi:10.1007/978-3-319-10193-4_2](https://doi.org/10.1007/978-3-319-10193-4_2)&rbrack;
  
 * {#Riehl19} [[Emily Riehl]], *Homotopical categories: from model categories to (∞,1)-categories* &lbrack;[arXiv:1904.00886](https://arxiv.org/abs/1904.00886)&rbrack; in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press (2022) &lbrack;ISBN:9781009123297&rbrack;
