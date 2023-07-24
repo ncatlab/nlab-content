@@ -20,7 +20,7 @@ thought of as playing a role analogous to [[logical conjunction]] (but not requi
 Left continuity is equivalent to the condition that $t \otimes -$ preserves [[suprema]]. By the [[adjoint functor theorem]] for posets, this implies that $t \otimes -$ has a [[right adjoint]] $t \Rightarrow -\colon [0, 1] \to [0, 1]$, or in other words that 
 
 $$a \otimes b \leq c\;\;\; \Leftrightarrow\;\;\; a \leq b \Rightarrow c.$$ 
-By considering the case $a = b \Rightarrow c$, one then easily derives the law of [[modus ponens]], $b \Rightarrow c \otimes b \leq c$. 
+By considering the case $a = (b \Rightarrow c)$, one then easily derives the corresponding law of [[modus ponens]], $(b \Rightarrow c) \otimes b \leq c$. 
 
 The resulting binary operation $\Rightarrow$ is often referred to in the literature as a *residuum* associated with $\otimes$. In alternative language, this class of "fuzzy logics" is identified with the class of commutative [[quantale]] structures on $[0, 1]$. 
 
