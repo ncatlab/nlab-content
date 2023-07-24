@@ -17,7 +17,9 @@
 
 \section{Idea}
 
-By a *homotopical category* authors tend to mean something like a [[relative category]] or a [[category with weak equivalences]], possibly satisfying further axioms (notably [[two-out-of-six]], as in the original definition of [Dwyer, Hirschhorn, Kan & Smith 2004](#DwyerHirschhornKanSmith04)), but in any case a [[1-category]] equipped with a [[class]] of morphisms to be called *[[weak equivalences]]* and satisfying some extra [[axioms]]. The terminology is that of a [[concept with an attitude]]: One is interested in the [[localization]]/[[homotopy category]] with respect to the weak equivalences, or rather in the [[simplicial localization]], hence in the [[(infinity,1)-category|$(\infty,1)$-category]] and hence "the [[homotopy theory]]" presented by this data.
+By a *homotopical category* authors tend to mean something like a [[relative category]]/[[category with weak equivalences]], possibly satisfying further axioms (notably [[two-out-of-six]], as in [Dwyer, Hirschhorn, Kan & Smith 2004](#DwyerHirschhornKanSmith04)), but in any case a [[1-category]] equipped with a [[class]] of morphisms to be called *[[weak equivalences]]* and satisfying some [[extra properties]]. 
+
+The terminology is that of a [[concept with an attitude]]: One is interested in the [[localization]]/[[homotopy category]] with respect to the weak equivalences, or rather in the [[simplicial localization]], hence in the [[(infinity,1)-category|$(\infty,1)$-category]] and hence "the [[homotopy theory]]" presented by this data.
 
 (An earlier proposal by [Grandis 1992](#Grandis92), [1994](#Grandis94) to say "homotopical categories" for 1-categories equipped with the [[extra structure]] of [[homotopies]]/[[2-morphisms]] subject (only) to [[horizontal composition]] does not seem to have caught on.)
 
@@ -25,11 +27,13 @@ Accordingly, a [[functor]] between the underlying categories of homotopical cate
 
 \section{Definition}
 
-Most authors will agree that a *homotopical category* is at least a [[strict category|strict]] [[1-category]] equipped with a sub-[[class]] of [[morphisms]] to be called the *[[weak equivalences]]*, closed under [[composition]] and containing all [[identity morphisms]], hence forming a [[wide subcategory]].
+Most authors seem to agree that a *homotopical category* is at least a [[strict category|strict]] [[1-category]] equipped with a sub-[[class]] of [[morphisms]] to be called the *[[weak equivalences]]*, closed under [[composition]] and containing all [[identity morphisms]], hence forming a [[wide subcategory]].
 
-The authors [Dwyer, Hirschhorn, Kan & Smith (2004)](#DwyerHirschhornKanSmith04) -- who seem to introduce the terminology "homotopical category" -- require that the weak equivalences satisfy the *[[2-out-of-6-property]]* (this includes all [[model categories]], see [here](two-out-of-six+property#ModelCategoriesSatisfyTwoOutOfSix)).  Notice that (with the assumption that all [[identity morphisms]] are among the weak equivalences) this *implies* the [[2-out-of-3 property]].
+The authors [Dwyer, Hirschhorn, Kan & Smith (2004)](#DwyerHirschhornKanSmith04) require that the weak equivalences satisfy the *[[2-out-of-6-property]]* (this includes all [[model categories]], see [here](two-out-of-six+property#ModelCategoriesSatisfyTwoOutOfSix)).  Notice that (with the assumption that all [[identity morphisms]] are among the weak equivalences) this *implies* the [[2-out-of-3 property]].
 
-Later authors (eg. [Arndt (2015)](#Arndt15), [Riehl (2019)](#Riehl19)) seem to use the term "homotopical category" nominally as in *[[relative category]]*, but the examples discussed are [[categories with weak equivalences]] and the [[two-out-of-six property]] (even when satisfied) is not mentioned.
+Later authors ([Bergner (2014)](#Bergner14), [Riehl (2019)](#Riehl19)) use the term "homotopical category" more vaguely, apparently thinking at least of [[categories with weak equivalences]] but focusing on examples that do satisfy also the  [[two-out-of-six property]] (without mentioning this property).
+
+[Arndt (2015)](#Arndt15) seems to use "homotopical categories" as a synonym for "[[relative categories]]".
 
 
 \section{Simplicial localization}
@@ -71,7 +75,7 @@ K-theory of Proto-exact Categories*, Leiden (2017) &lbrack;[pdf](https://www.uni
 
 Usage of "homotopical categories" understood with more relaxed or unspecified axioms on the weak equivalences:
 
-* [[Julie Bergner]], *An introduction to homotopical categories*, lecture at MSRI (2014) &lbrack;part 1:[YT](https://youtube.com/watch?v=OgbaZHpUeD0), 2:[YT](https://youtube.com/watch?v=SKZT7x_0i_Y)&rbrack;
+* {#Bergner14} [[Julie Bergner]], *An introduction to homotopical categories*, lecture at MSRI (2014) &lbrack;part 1:[YT](https://youtube.com/watch?v=OgbaZHpUeD0), 2:[YT](https://youtube.com/watch?v=SKZT7x_0i_Y)&rbrack;
 
 * {#Arndt15} [[Peter Arndt]], *Homotopical categories of logics*, in: *The Road to Universal Logic*, Studies in Universal Logic Birkhäuser (2015) &lbrack;[pdf](https://www.math.uni-duesseldorf.de/~arndt/research/HomotopicalCategoriesOfLogics.pdf), [doi:10.1007/978-3-319-10193-4_2](https://doi.org/10.1007/978-3-319-10193-4_2)&rbrack;
  
