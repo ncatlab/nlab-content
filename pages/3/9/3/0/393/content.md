@@ -33,12 +33,8 @@ The authors [Dwyer, Hirschhorn, Kan & Smith (2004)](#DwyerHirschhornKanSmith04) 
 
 Later authors ([Bergner (2014)](#Bergner14), [Riehl (2019)](#Riehl19)) use the term "homotopical category" more vaguely, apparently thinking at least of [[categories with weak equivalences]] but focusing on examples that do satisfy also the  [[two-out-of-six property]] (without mentioning this property).
 
-[Arndt (2015)](#Arndt15) seems to use "homotopical categories" as a synonym for "[[relative categories]]".
+On the other hand, [Arndt (2015)](#Arndt15) seems to use "homotopical categories" as a synonym for "[[relative categories]]" and [Szumiło 2019](#Szumiło19) seems to use  is as synonymous with "[[category with weak equivalences]]".
 
-
-\section{Simplicial localization}
-
-Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category]] $L C$, a [[simplicially enriched category]] called the [[simplicial localization]] of $C$, which is in some sense the universal solution to inverting the weak equivalence up to [[higher category theory|higher categorical]] morphisms.
 
 \section{Related concepts}
 
@@ -52,7 +48,7 @@ Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category
 
 * [[model category]]
 
-* category with a [[calculus of fractions]]
+* [[calculus of fractions]]
 
 * [[resolution]]
 
@@ -64,22 +60,32 @@ An early notion of "homotopical categories" as 1-categories equipped with [[homo
 
 * {#Grandis94} [[Marco Grandis]], *Homotopical algebra in homotopical categories*, Applied Categorical Structures **2** (1994) 351–406 &lbrack;[doi:10.1007/BF00873039](https://doi.org/10.1007/BF00873039)&rbrack;
 
-A notion of "homotopical categories" as [[relative categories]] with the requirement that the weak equivalences satisfy the 2-out-of-6 property:
+The notion of "homotopical categories" as [[relative categories]] with the requirement that the weak equivalences satisfy the 2-out-of-6 property:
 
 * {#DwyerHirschhornKanSmith04} [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], p. 23 & pp. 96 of: *[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]*, Mathematical Surveys and Monographs **113** AMS (2004) &lbrack;[ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf)&rbrack;
 
-Disucssion of [[complete Segal space]] objects in such categories:
+Authors following this terminology:
+
+* [[Karol Szumiło]], *Two Models for the Homotopy Theory of Cocomplete Homotopy Theories*, Bonn (2014) &lbrack;[arXiv:1411.0303](https://arxiv.org/abs/1411.0303), [hdl:20.500.11811/6136](https://hdl.handle.net/20.500.11811/6136)&rbrack;
 
 * J. Hekkind, *Segal Objects in Homotopical Categories &
 K-theory of Proto-exact Categories*, Leiden (2017) &lbrack;[pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/hekking_master.pdf)&rbrack; 
 
-Usage of "homotopical categories" understood with more relaxed or unspecified axioms on the weak equivalences:
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *Homotopical inverse diagrams in categories with attributes*, Journal of Pure and Applied Algebra **225** 4 (2021) 106563 &lbrack;[doi:10.1016/j.jpaa.2020.106563](https://doi.org/10.1016/j.jpaa.2020.106563)&rbrack;
+
+On the other hand, "homotopical categories" is used as synonymous with "[[category with weak equivalences]]" in:
+
+* {#Szumiło19} [[Karol Szumiło]], [slide 10](https://hott.github.io/HoTT-2019/conf-slides/Szumilo.pdf#page=10) of: *Internal Languages of Higher Categories* (2019) &lbrack;[pdf](https://hott.github.io/HoTT-2019/conf-slides/Szumilo.pdf)&rbrack;
+
+Usage of "homotopical categories" understood with more relaxed or unspecified axioms on the weak equivalences but focusing on examples which are homotopical in the [above](#DwyerHirschhornKanSmith04) sense: 
 
 * {#Bergner14} [[Julie Bergner]], *An introduction to homotopical categories*, lecture at MSRI (2014) &lbrack;part 1:[YT](https://youtube.com/watch?v=OgbaZHpUeD0), 2:[YT](https://youtube.com/watch?v=SKZT7x_0i_Y)&rbrack;
-
-* {#Arndt15} [[Peter Arndt]], *Homotopical categories of logics*, in: *The Road to Universal Logic*, Studies in Universal Logic Birkhäuser (2015) &lbrack;[pdf](https://www.math.uni-duesseldorf.de/~arndt/research/HomotopicalCategoriesOfLogics.pdf), [doi:10.1007/978-3-319-10193-4_2](https://doi.org/10.1007/978-3-319-10193-4_2)&rbrack;
  
 * {#Riehl19} [[Emily Riehl]], *Homotopical categories: from model categories to (∞,1)-categories* &lbrack;[arXiv:1904.00886](https://arxiv.org/abs/1904.00886)&rbrack; in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press (2022) &lbrack;ISBN:9781009123297&rbrack;
+
+Usage of "homotopical categories" as, apparently, synonymous with *[[relative categories]]*:
+
+* {#Arndt15} [[Peter Arndt]], *Homotopical categories of logics*, in: *The Road to Universal Logic*, Studies in Universal Logic Birkhäuser (2015) &lbrack;[pdf](https://www.math.uni-duesseldorf.de/~arndt/research/HomotopicalCategoriesOfLogics.pdf), [doi:10.1007/978-3-319-10193-4_2](https://doi.org/10.1007/978-3-319-10193-4_2)&rbrack;
 
 
 
