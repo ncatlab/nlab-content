@@ -17,26 +17,18 @@
 
 \section{Idea}
 
-A _homotopical category_ is a structure used in [[homotopy theory]], related to but more flexible than a [[model category]].
+By a *homotopical category* authors tend to mean something like a [[relative category]] or a [[category with weak equivalences]] or something stronger, but in any case a [[1-category]] equipped with a [[class]] of morphisms to be called *[[weak equivalences]]* and satisfying some extra [[axioms]]. The terminology is that of a [[concept with an attitude]]: One is interested in the [[localization]]/[[homotopy category]] with respect to the weak equivalences, or rather in the [[simplicial localization]], hence in the [[(infinity,1)-category|$(\infty,1)$-category]] and hence "the [[homotopy theory]]" presented by this data.
+
+Accordingly, a [[functor]] between the underlying categories of homotopical categories which preserves the weak equivalences is called a *[[homotopical functor]]*.
 
 \section{Definition}
 
-A _homotopical category_ is a category with a distinguished class of
-morphisms (called 'weak equivalences') satisfying the following
-conditions:
+Most authors will agree that a *homotopical category* is at least a [[strict category|strict]] [[1-category]] equipped with a sub-[[class]] of [[morphisms]] to be called the *[[weak equivalences]]*, closed under [[composition]] and containing all [[identity morphisms]], hence forming a [[wide subcategory]].
 
-* Every identity map is a weak equivalence.
+The authors [Dwyer, Hirschhorn, Kan & Smith (2004)](#DwyerHirschhornKanSmith04) -- who seem to introduce the terminology "homotopical category" -- require that the weak equivalences satisfy the *[[2-out-of-6-property]]* (this includes all [[model categories]]).  Notice that (with the assumption that all [[identity morphisms]] are among the weak equivalences) this *implies* the [[2-out-of-3 property]].
 
-* It has the **[[2-out-of-6-property]]**: 
-if morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$, $g$, $h$ and $h \circ g \circ f$.
+Later authors (eg. [Arndt (2015)](#Arndt15), [Riehl (2019)](#Riehl19)) seem to use the term "homotopical category" nominally as in *[[relative category]]*, but the examples discussed are [[categories with weak equivalences]] and the [[two-out-of-six property]] (even when satisfied) is not mentioned.
 
-\section{Remarks}
-
-* If the first condition in Def. 2 holds, then the 2-out-of-6-property implies the [[2-out-of-3]] property, hence every homotopical category is a [[category with weak equivalences]].
-
-* Every [[model category]] yields a homotopical category.
-
-* A functor $F : C \to D$ between homotopical categories which preserves weak equivalences is a [[homotopical functor]].
 
 \section{Simplicial localization}
 
@@ -60,15 +52,15 @@ Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category
 
 \section{References}
 
-This definition is in page 23 of
+The notion with the requirement that the weak equivalences satisfy the 2-out-of-6 property:
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+* {#DwyerHirschhornKanSmith04} [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], p. 23 & pp. 96 of: *[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]*, Mathematical Surveys and Monographs **113** AMS (2004) &lbrack;[ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf)&rbrack;
 
-with the main development of the concept starting in subsection 33 on page 96.
+The notion with more relaxed/unspecified axioms on the weak equivalences:
 
-Survey with an eye towards [[(∞,1)-categories]]:
+* {#Arndt15} [[Peter Arndt]], *Homotopical categories of logics*, in: *The Road to Universal Logic*, Studies in Universal Logic Birkhäuser (2015) &lbrack;[pdf](https://www.math.uni-duesseldorf.de/~arndt/research/HomotopicalCategoriesOfLogics.pdf), [doi:10.1007/978-3-319-10193-4_2](https://doi.org/10.1007/978-3-319-10193-4_2)&rbrack;
  
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886)) in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press 
+* {#Riehl19} [[Emily Riehl]], *Homotopical categories: from model categories to (∞,1)-categories* &lbrack;[arXiv:1904.00886](https://arxiv.org/abs/1904.00886)&rbrack; in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press (2022) &lbrack;ISBN:9781009123297&rbrack;
 
 
 [[!redirects homotopical categories]]
