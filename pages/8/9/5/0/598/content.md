@@ -695,15 +695,15 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. 
 
-This proof that simplicial groups are Kan complexes is originally due to theorem 3.4 in 
+This proof that simplicial groups are Kan complexes is originally due to  Moore, see theorem 3.4 in 
 
 * [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems_, in _Symposium International De Topologia Algebraica_ , 1956 conference, book published in 1958
 
-which appears in more detail as Theorem 3 on p. 18-04 of
+which earlier appeared in more detail as Theorem 3 on p. 18-04 of
 
 * {#Moore54} [[John Moore]], *Homotopie des complexes monoideaux, I*, Seminaire Henri Cartan (1954-55) &lbrack;[numdam:SHC_1954-1955__7_2_A8_0](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)&rbrack; 
  
-and is often attributed to
+and is often referenced to
 
 * {#Moore} [[John Moore]], _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
  
