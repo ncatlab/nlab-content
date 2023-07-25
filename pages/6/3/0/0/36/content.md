@@ -36,7 +36,7 @@ one observes that here:
 and that this is _only_ [[mathematical structure|structure]] on [[Sets]] that the definition of [[groups]] is making use of.
 Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mathcal{C}$ with [[finite products]] and declare that:
 
-* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $e \colon \ast \to G$ (i.e. out of the [[terminal object]]) and $M \colon G \times G \to G$ (i.e. out of the [[Cartesian product]]-object) and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
+* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $e \colon \ast \to G$ (i.e. out of the [[terminal object]]) and $m \colon G \times G \to G$ (i.e. out of the [[Cartesian product]]-object) and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
 
   * [[unitality]]
 
