@@ -25,6 +25,7 @@ In [[homotopy type theory]], given a [[type universe]] $\mathcal{U}$, a [[type]]
 * [[type universe]]
 * [[essentially small type]]
 * [[type theoretic axiom of replacement]]
+* [[locally finite type]]
 
 ## References ##
 
