@@ -1,4 +1,4 @@
-_The concept of a $\delta$-ring appearing in this article is distinct from that appearing in [[arithmetic differential geometry]]._
+_The concept of a $\delta$-ring appearing in this article is distinct from that appearing in [[arithmetic differential geometry]] For the latter, see [[Joyal delta-ring]]._
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
