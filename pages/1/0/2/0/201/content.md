@@ -206,21 +206,32 @@ A [[monoid]] in $(Ab, \oplus, 0)$ is equivalently just an abelian group again (s
 
 $Ab$ is a [[monoidal category]] with [[tensor unit]] $\mathbb{Z}$, so the [[pointed objects in a monoidal category|pointed objects]] in $Ab$ are the objects $A$ with a [[group homomorphism]] $\mathbb{Z} \to A$. 
 
-### Parametrized natural numbers object
+### Closed monoidal structure
 
-The [[parametrized natural numbers object]] in $Ab$ is the [[free abelian group]] $\mathbb{Z}[\mathbb{N}] = \bigoplus_{n \in \mathbb{N}} \mathbb{Z}$ on the [[natural numbers]], and comes with group homomrophisms $z_0:\mathbb{Z} \to \mathbb{Z}[\mathbb{N}]$ and $z_s:\mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ such that for all abelian groups $A$, $X$ and group homomorphisms $f: A \to X$, $g: X \to X$, there is a unique group homomorphism $\phi_{f, g}: A \otimes N \to X$ making the following diagram commute: 
+Abelian groups are equivalently $\mathbb{Z}$-modules. Because the [[Mod|category of $R$-modules]] $Mod_R$ is closed monoidal for all [[commutative rings]] $R$, $Ab = Mod_{\mathbb{Z}}$ is also closed monoidal. 
+
+### Natural numbers object
+
+The [[natural numbers object]] in $Ab$ is the [[free abelian group]] $\mathbb{Z}[\mathbb{N}] = \bigoplus_{n \in \mathbb{N}} \mathbb{Z}$ on the [[natural numbers]], and comes with group homomrophisms $z_0:\mathbb{Z} \to \mathbb{Z}[\mathbb{N}]$ and $z_s:\mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ such that for all abelian groups $A$ and group homomorphisms $f:\mathbb{Z} \to A$, $g: A \to A$, there is a unique group homomorphism $\phi_{f, g}:\mathbb{Z}[\mathbb{N}] \to A$ making the following diagram commute: 
 
 $$\array{
-A \otimes \mathbb{Z} & \stackrel{1_A \times z_0}{\to} & A \otimes \mathbb{Z}[\mathbb{N}] & \stackrel{1_A \times z_s}{\leftarrow} & A \otimes \mathbb{Z}[\mathbb{N}] \\
- \mathllap{\rho_A} \downarrow & & \downarrow \mathrlap{\phi_{f, g}} & & \downarrow \mathrlap{\phi_{f, g}} \\
- A & \underset{f}{\rightarrow} & X & \underset{g}{\leftarrow} & X
+\mathbb{Z} & \stackrel{z_0}{\to} & \mathbb{Z}[\mathbb{N}] & \stackrel{z_s}{\leftarrow} & \mathbb{Z}[\mathbb{N}] \\
+ & \mathllap{f} \searrow & \downarrow \mathrlap{\phi_{f, g}} & & \downarrow \mathrlap{\phi_{f, g}} \\
+ & & A & \underset{g}{\leftarrow} & A
 }$$ 
-
-where, for abelian group $A$, $\rho_A:A \otimes \mathbb{Z} \cong A$ is the [[right unitor]] for the [[tensor product of abelian groups]]. 
 
 Abelian groups are $\mathbb{Z}$-[[modules]], so the free $\mathbb{Z}$-module $\mathbb{Z}[\mathbb{N}]$ has a function $v:\mathbb{N} \to \mathbb{Z}[\mathbb{N}]$ representing the [[basis of a free module|basis]] of $\mathbb{Z}[\mathbb{N}]$; it has the property that for all integers $m \in \mathbb{Z}$, $m \cdot v(0) = z_0(m)$ and for all $n \in \mathbb{N}$, $m \cdot v(s(n)) = z_s(m \cdot v(n))$, where $m \cdot v$ is the scalar multiplication of an element $v$ by an integer $m$ in a $\mathbb{Z}$-module.
 
-The [[ring]] structure on $\mathbb{Z}[\mathbb{N}]$ is defined by double [[induction]] on $\mathbb{Z}[\mathbb{N}]$, we define $(-)(-):\mathbb{Z}[\mathbb{N}] \otimes \mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ by $z_0(m)z_0(n) = z_0(m \cdot n)$, $z_s(v)z_0(n) = z_s(v z_0(n))$, $z_0(m)z_s(w) = z_s(z_0(m) w)$, and $z_s(v)z_s(w) = z_s(z_s(vw))$, for all $m, n \in \mathbb{Z}$ and $v, w \in \mathbb{Z}[\mathbb{N}]$ (recall the definition of [[addition]] in the [[natural numbers]], inductively defined by $0(p) + 0(q) = 0(p \cdot q)$, $s(m) + 0(p) = s(m + 0(p))$, $0(p) + s(n) = s(0(p) + n)$, and $s(m) + s(n) = s(s(m + n))$ for all $p, q \in \mathbb{1}$ and $m, n \in \mathbb{N}$). It is a [[commutative ring]] and represents multiplication in the [[polynomial ring]] $\mathbb{Z}[X]$; the group homomorphism $z_0$ represents the function which takes integers to constant polynomials, and $z_s$ represents the function which takes a polynomial and multiplies it by the indeterminant $X$. 
+The [[ring]] structure on $\mathbb{Z}[\mathbb{N}]$ is defined by double [[induction]] on $\mathbb{Z}[\mathbb{N}]$, we define 
+
+$$(-)(-):\mathbb{Z}[\mathbb{N}] \times \mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}] \otimes \mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$$ 
+
+by 
+
+$$z_0(m)z_0(n) = z_0(m \cdot n) \qquad z_s(v)z_0(n) = z_s(v z_0(n))$$ 
+$$z_0(m)z_s(w) = z_s(z_0(m) w) \qquad z_s(v)z_s(w) = z_s(z_s(vw))$$ 
+
+for all $m, n \in \mathbb{Z}$ and $v, w \in \mathbb{Z}[\mathbb{N}]$ (recall the definition of [[addition]] in the [[natural numbers]], inductively defined by $0(p) + 0(q) = 0(p \cdot q)$, $s(m) + 0(p) = s(m + 0(p))$, $0(p) + s(n) = s(0(p) + n)$, and $s(m) + s(n) = s(s(m + n))$ for all $p, q \in \mathbb{1}$ and $m, n \in \mathbb{N}$). It is a [[commutative ring]] and represents multiplication in the [[polynomial ring]] $\mathbb{Z}[X]$; the group homomorphism $z_0$ represents the function which takes integers to constant polynomials, and $z_s$ represents the function which takes a polynomial and multiplies it by the indeterminant $X$. 
 
 ### Enrichment over $Ab$
 
@@ -243,6 +254,22 @@ category: category
 [[!redirects categories of abelian groups]]
 
 [[!redirects AbelianGroups]]
+
+[[!redirects ZMod]]
+[[!redirects Z Mod]]
+[[!redirects Z-Mod]]
+
+[[!redirects category of Z-modules]]
+[[!redirects categories of Z-modules]]
+
+[[!redirects category of integer modules]]
+[[!redirects categories of integer modules]]
+
+[[!redirects ZModules]]
+[[!redirects Z Modules]]
+[[!redirects Z-Modules]]
+
+[[!redirects IntegerModules]]
 
 
 
