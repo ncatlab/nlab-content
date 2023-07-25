@@ -17,11 +17,19 @@
 
 ## Definition
 
-In [[dependent type theory]], a **locally finite type** or a **locally $Fin$-small type** is a type $A$ such that for all elements $x:A$ and $y:A$, there is a natural number $n:\mathbb{N}$ and an [[equivalence of types]] between the [[identity type]] $x =_A y$ and the standard [[finite type]] $\mathrm{Fin}(n)$. 
+In [[dependent type theory]], a **locally finite type** is a type $A$ such that for all elements $x:A$ and $y:A$, there is a natural number $n:\mathbb{N}$ and an [[equivalence of types]] between the [[identity type]] $x =_A y$ and the standard [[finite type]] $\mathrm{Fin}(n)$. 
+
+The type of all finite types is a [[univalent universe]] $Fin$; thus one could also refer to a locally finite type as a **locally $Fin$-small type**, since locally finite types are precisely the types that are [[locally small type|locally small]] relative to the univalent universe $Fin$ of finite types. 
+
+## Examples
+
+\begin{example}
+Every [[locally finite category|locally finite]] [[univalent category]] is a locally finite type. 
+\end{example}
 
 ## Properties
 
-Since finite types are [[h-sets]], every locally finite type is an [[h-groupoid]], because its identity types are all h-sets. 
+Since finite types are [[h-sets]], every locally finite type is an [[h-groupoid]], because its identity types are all h-sets. In particular, locally finite types are precisely the [[locally finite category|locally finite]] [[univalent categories]] which are [[groupoids]]. 
 
 ## See also
 
