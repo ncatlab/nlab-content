@@ -21,19 +21,21 @@ By a *homotopical category* authors tend to mean something like a [[relative cat
 
 The terminology is that of a [[concept with an attitude]]: One is interested in the [[localization]]/[[homotopy category]] with respect to the weak equivalences, or rather in the [[simplicial localization]], hence in the [[(infinity,1)-category|$(\infty,1)$-category]] and hence "the [[homotopy theory]]" presented by this data.
 
-(An earlier proposal by [Grandis 1992](#Grandis92), [1994](#Grandis94) to say "homotopical categories" for 1-categories equipped with the [[extra structure]] of [[homotopies]]/[[2-morphisms]] subject (only) to [[horizontal composition]] does not seem to have caught on.)
+(An earlier proposal by [Grandis 1992](#Grandis92), [1994](#Grandis94) to say "homotopical categories" for 1-categories equipped instead with *[[extra structure]]* of [[homotopies]]/[[2-morphisms]] subject (only) to [[horizontal composition]] does not seem to have caught on.)
 
 Accordingly, a [[functor]] between the underlying categories of homotopical categories which preserves the weak equivalences is called a *[[homotopical functor]]*.
 
 \section{Definition}
 
-Most authors seem to agree that a *homotopical category* is at least a [[strict category|strict]] [[1-category]] equipped with a sub-[[class]] of [[morphisms]] to be called the *[[weak equivalences]]*, closed under [[composition]] and containing all [[identity morphisms]], hence forming a [[wide subcategory]].
+Most authors seem to agree that a *homotopical category* is at least a [[strict category|strict]] [[1-category]] equipped with a sub-[[class]] of [[morphisms]] to be called the *[[weak equivalences]]*, closed under [[composition]] and containing all [[identity morphisms]], hence forming a [[wide subcategory]] (a [[relative category]]).
 
-The authors [Dwyer, Hirschhorn, Kan & Smith (2004)](#DwyerHirschhornKanSmith04) require that the weak equivalences satisfy the *[[2-out-of-6-property]]* (this includes all [[model categories]], see [here](two-out-of-six+property#ModelCategoriesSatisfyTwoOutOfSix)).  Notice that (with the assumption that all [[identity morphisms]] are among the weak equivalences) this *implies* the [[2-out-of-3 property]].
+The authors [Dwyer, Hirschhorn, Kan & Smith (2004)](#DwyerHirschhornKanSmith04) require that the weak equivalences satisfy the *[[2-out-of-6-property]]* (this includes all [[model categories]], see [here](two-out-of-six+property#ModelCategoriesSatisfyTwoOutOfSix)) and give a detailed discussion. (Notice that --- with the assumption that all [[identity morphisms]] are among the weak equivalences --- [[2-out-of-6]] *[implies](two-out-of-six+property#2outof3)* the [[2-out-of-3 property]] required for [[categories with weak equivalences]].) 
 
-Later authors ([Bergner (2014)](#Bergner14), [Riehl (2019)](#Riehl19)) use the term "homotopical category" more vaguely, apparently thinking at least of [[categories with weak equivalences]] but focusing on examples that do satisfy also the  [[two-out-of-six property]] (without mentioning this property).
+This definition of "homotopical category" has found more followers, e.g. [Szumiło (2014)](#Szumiło14), [Hekking (2017)](#Hekking17).
 
-On the other hand, [Arndt (2015)](#Arndt15) seems to use "homotopical categories" as a synonym for "[[relative categories]]" and [Szumiło 2019](#Szumiło19) seems to use  is as synonymous with "[[category with weak equivalences]]".
+But some authors &lbrack;[Bergner (2014)](#Bergner14), [Riehl (2019)](#Riehl19)&rbrack; use the term "homotopical category" more vaguely, apparently thinking at least of [[categories with weak equivalences]] but focusing on examples that do satisfy also the  [[two-out-of-six property]] (without mentioning this property).
+
+On the other hand, [Arndt (2015)](#Arndt15) seems to use "homotopical categories" as a synonym for "[[relative categories]]" and [Szumiło (2019)](#Szumiło19) seems to use it as synonymous with "[[category with weak equivalences]]", see also [Bergner (2019)](#Bergner19).
 
 
 \section{Related concepts}
@@ -66,10 +68,9 @@ The notion of "homotopical categories" as [[relative categories]] with the requi
 
 Authors following this terminology:
 
-* [[Karol Szumiło]], *Two Models for the Homotopy Theory of Cocomplete Homotopy Theories*, Bonn (2014) &lbrack;[arXiv:1411.0303](https://arxiv.org/abs/1411.0303), [hdl:20.500.11811/6136](https://hdl.handle.net/20.500.11811/6136)&rbrack;
+* {#Szumiło14} [[Karol Szumiło]], *Two Models for the Homotopy Theory of Cocomplete Homotopy Theories*, Bonn (2014) &lbrack;[arXiv:1411.0303](https://arxiv.org/abs/1411.0303), [hdl:20.500.11811/6136](https://hdl.handle.net/20.500.11811/6136)&rbrack;
 
-* J. Hekkind, *Segal Objects in Homotopical Categories &
-K-theory of Proto-exact Categories*, Leiden (2017) &lbrack;[pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/hekking_master.pdf)&rbrack; 
+* {#Hekking17} [[Jeroen Hekking]], *Segal Objects in Homotopical Categories & K-theory of Proto-exact Categories*, Leiden (2017) &lbrack;[pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/hekking_master.pdf)&rbrack; 
 
 * [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *Homotopical inverse diagrams in categories with attributes*, Journal of Pure and Applied Algebra **225** 4 (2021) 106563 &lbrack;[doi:10.1016/j.jpaa.2020.106563](https://doi.org/10.1016/j.jpaa.2020.106563)&rbrack;
 
@@ -87,6 +88,12 @@ Usage of "homotopical categories" as, apparently, synonymous with *[[relative ca
 
 * {#Arndt15} [[Peter Arndt]], *Homotopical categories of logics*, in: *The Road to Universal Logic*, Studies in Universal Logic Birkhäuser (2015) &lbrack;[pdf](https://www.math.uni-duesseldorf.de/~arndt/research/HomotopicalCategoriesOfLogics.pdf), [doi:10.1007/978-3-319-10193-4_2](https://doi.org/10.1007/978-3-319-10193-4_2)&rbrack;
 
+see also:
+
+* {#Bergner19} [[Julie Bergner]], MAA review (2019) &lbrack;[web](https://www.maa.org/press/maa-reviews/higher-categories-and-homotopical-algebra)&rbrack; of: [[Denis-Charles Cisinski]]'s *[[Higher Categories and Homotopical Algebra]]*
+
+  > "the two subjects &lbrack;[[homotopy theory]] and [[category theory]]&rbrack; have come together in a deep way in the development of what one might call higher homotopical categories. The idea is to consider something like a category, but whose morphisms from one object to another form a topological space, rather than simply a set, and for which composition might only be defined up to homotopy. Such a structure turns out to have several other interpretations: a certain kind of higher category for which various higher morphisms are invertible (often called an (∞,1)-category or simply ∞-category), or even as a category with weak equivalences in the sense of abstract homotopy theory."
+ 
 
 
 [[!redirects homotopical categories]]
