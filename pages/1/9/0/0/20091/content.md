@@ -32,6 +32,9 @@ On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holom
 
 * [[Richard Battye]], [[Paul Sutcliffe]], *Skyrmions, Fullerenes and Rational Maps*, Rev. Math. Phys. 14 (2002) 29-86 ([arXiv:hep-th/0103026](https://arxiv.org/abs/hep-th/0103026))
 
+* [[Derek Harland]], [[Paul Sutcliffe]], *Rational Skyrmions* &lbrack;[arXiv:2307.09355](https://arxiv.org/abs/2307.09355)&rbrack;
+
+
 Introducing the [[Atiyah-Sutcliffe conjecture]]:
 
 * [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002), 1089–1115 ([hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
