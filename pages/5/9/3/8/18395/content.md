@@ -27,6 +27,7 @@ An example of a $p$-derivation is the [[Fermat quotient]].
 * [[arithmetic differential geometry]]
 * [[Borger's absolute geometry]]
 * [[derivation]]
+* [[Joyal delta-ring]]
 
 [[!redirects Frobenius lift]]
 [[!redirects Frobenius lifts]]
