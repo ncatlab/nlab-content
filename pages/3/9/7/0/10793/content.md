@@ -7,6 +7,7 @@
 On the [[Mordell conjecture]]:
 
 * {#BhattSnowden} [[Bhargav Bhatt]], [[Andrew Snowden]] (org.): _Faltings' proof of the Mordell conjecture_ (seminar notes, 2016) &lbrack;[pdf](https://web.math.princeton.edu/~takumim/Mordell.pdf), [[BhattSnowden-FaltingsProofofMordell.pdf:file]]&rbrack;
+
 * Bhargav Bhatt, [[Aise Johan de Jong]], _Crystalline cohomology and de Rham cohomology_ ([pdf](http://www.math.columbia.edu/~dejong/papers/crystalline-comparison.pdf))
 * Bhargav Bhatt, [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, Invent. math. 209, 329-423 (2017) [doi](https://doi.org/10.1007/s00222-016-0710-4) [arXiv:1507.06490](https://arxiv.org/abs/1507.06490)
 * Bhargav Bhatt, [[Matthew Morrow]], [[Peter Scholze]] *Integral $p$-adic Hodge Theory* &lbrack;[arXiv:1602.03148](https://arxiv.org/abs/1602.03148)&rbrack;
