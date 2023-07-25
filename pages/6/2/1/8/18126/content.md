@@ -6182,7 +6182,7 @@ $$
   Top_{sob}
     \underoverset
       {\underset{}{\hookrightarrow}}
-      {\overset{s}{\longrightarrow}}
+      {\overset{s}{\longleftarrow}}
       {\bot}
   Top
   \,.
