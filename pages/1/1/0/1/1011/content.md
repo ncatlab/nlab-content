@@ -47,6 +47,7 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 
 * [[finite (∞,1)-category]]
 
+* [[locally finite type]]
 
 
 [[!redirects finite category]]
