@@ -29,7 +29,7 @@ A **category with path objects** or a **path category** is a [[category]] $\math
 
 1. The pullback of an [[acyclic fibration]] along any other map is again an acyclic fibration.
 
-1. Weak equivalences satisfy the 2-out-of-6 property: if $f:A \to B$, $g:B \to C$, $h:C \to D$ are
+1. Weak equivalences satisfy the [[two-out-of-six property]]: if $f:A \to B$, $g:B \to C$, $h:C \to D$ are
 three composable maps and both $g \circ f$ and $h \circ g$ are weak equivalences, then so are $f$, $g$, $h$ and $h \circ g \circ f$.
 
 1. Isomorphisms are acyclic fibrations and every acyclic fibration has a section.
