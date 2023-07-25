@@ -9,9 +9,11 @@ On [[p-adic Hodge theory]]:
 
 * {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], [[Peter Scholze]] *Integral $p$-adic Hodge Theory* &lbrack;[arXiv:1602.03148](https://arxiv.org/abs/1602.03148)&rbrack;
 
-* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], [[Peter Scholze]], *Topological Hochschild Homology and Integral $p$-adic Hodge Theory* &lbrack;[arXiv:1802.03261](https://arxiv.org/abs/1802.03261)&rbrack;
+* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], [[Peter Scholze]], *Topological Hochschild homology and integral $p$-adic Hodge theory* &lbrack;[arXiv:1802.03261](https://arxiv.org/abs/1802.03261)&rbrack;
 
-* {#BhattScholze19}[[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
+* {#BhattScholze19}[[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and prismatic cohomology_,  Ann. of Math. (2) 196(3): 1135-1275 [doi](https://10.4007/annals.2022.196.3.5) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
+
+* Bhargav Bhatt, [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, Invent. math. 209, 329-423 (2017) [doi](https://doi.org/10.1007/s00222-016-0710-4) [arXiv:1507.06490](https://arxiv.org/abs/1507.06490)
 
 On [[cyclotomic spectra]] and [[topological cyclic homology]]:
 
