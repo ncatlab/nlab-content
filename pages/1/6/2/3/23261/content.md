@@ -6,6 +6,13 @@
 
 ## Selected writings
 
+On [[adiabatic quantum computation]] with [[Berry phase]]-[[quantum gates]] ([[holonomic quantum computation]]):
+
+* [[Jiannis Pachos]], [[Paolo Zanardi]], [[Mario Rasetti]], *Non-Abelian Berry connections for quantum computation*, Phys. Rev. A **61** (2000) 010305 &lbrack;[arXiv:quant-ph/9907103](https://arxiv.org/abs/quant-ph/9907103), [doi:10.1103/PhysRevA.61.010305](https://doi.org/10.1103/PhysRevA.61.010305)&rbrack;
+
+* [[Jiannis Pachos]], [[Paolo Zanardi]], *Quantum Holonomies for Quantum Computing*, Int. J. Mod. Phys. B **15** (2001) 1257-1286 &lbrack;[arXiv:quant-ph/0007110](https://arxiv.org/abs/quant-ph/0007110), [doi:10.1142/S0217979201004836](https://doi.org/10.1142/S0217979201004836)&rbrack;
+
+
 On [[topological quantum computation]] by [[braiding]] of [[anyon]] [[worldlines]]:
 
 * [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 $[$[arXiv:0704.2241](https://arxiv.org/abs/0704.2241), [doi:10.1098/rspa.2007.0026](https://doi.org/10.1098/rspa.2007.0026)$]$
