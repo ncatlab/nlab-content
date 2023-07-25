@@ -1,18 +1,26 @@
 This page is about the book:
 
-* [[Denis-Charles Cisinski]]
+* [[Denis-Charles Cisinski]]:
 
-  **Higher categories and homotopical algebra**
+  \linebreak
 
-  Cambridge Studies in Advanced Mathematics 180
+  **Higher Categories and Homotopical Algebra**
 
-  Cambridge University Press, 2019.
+  \linebreak
+
+  Cambridge Studies in Advanced Mathematics **180**
+
+  Cambridge University Press (2019)
+
+  \linebreak
 
   ISBN: 9781108588737
 
   [doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737)
 
-  [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf)
+  [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf)
+
+  [MAA review](https://www.maa.org/press/maa-reviews/higher-categories-and-homotopical-algebra)
 
 on [[(infinity,1)-category theory|$(\infty,1)$-category theory]] and [[homotopical algebra]].
 
