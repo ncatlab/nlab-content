@@ -6324,7 +6324,8 @@ But in fact these two components completely characterize the function out of the
 ([[natural bijection|natural]]) [[bijection]] between continuous functions out of disjoint union spaces
 and pairs of continuous functions out of the two summand spaces:
 
-$$
+\[
+  \label{HomOutOfCoproduct}
   \array{
     &
     \left\{
@@ -6349,7 +6350,7 @@ $$
     Hom(X_1, Y) \times Hom(X_2, Y)
   }
   \,.
-$$
+\]
 
 
 =--
