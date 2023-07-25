@@ -33,5 +33,9 @@ the impact of which, on the computation of [[atomic nuclei]], is highlighted in:
 
 * {#BattyeMantonSutcliffe10} [[Richard A. Battye]], [[Nicholas Manton]], [[Paul Sutcliffe]], p. 23 of: _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+See also:
+
+* [[Derek Harland]], [[Paul Sutcliffe]], *Rational Skyrmions* $[$[arXiv:2307.09355](https://arxiv.org/abs/2307.09355)$]$
+
 
 
