@@ -14,9 +14,15 @@ On the [[simplicial approximation theorem]]:
 
 * {#Jardine04} [[John F. Jardine]], *Simplicial approximation*, Theory and Applications of Categories, **12** 2 (2004) 34-72 &lbrack;[tac:12-02](https://www.emis.de/journals/TAC/volumes/12/2/12-02abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/12/2/12-02.pdf)&rbrack;
 
-On [[model structures on simplicial presheaves]]:
+On [[model structures on simplicial presheaves]] with an eye to application in [[motivic homotopy theory]]:
 
-* _[[Local homotopy theory]]_, 2015
+* [[John F. Jardine]], *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
+
+with brief exposition in:
+
+* [[John F. Jardine]], *Motivic spaces and the motivic stable category* &lbrack;[pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf), [[Jardine-MotivicSpaces.pdf:file]]&rbrack;
+
+
 
 
 On [[nonabelian cohomology]] using [[model structures on simplicial presheaves]]:
