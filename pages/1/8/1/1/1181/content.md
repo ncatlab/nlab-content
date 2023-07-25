@@ -12,7 +12,6 @@
 =--
 =--
 
-
 # Natural numbers object
 * table of contents
 {: toc}
@@ -257,6 +256,14 @@ So from a different perspective, in a topos the existence of free objects over v
 Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ of finite sets [[graphic category|free graphic monoids]] exist.
 
 ## Examples
+
+### In closed monoidal categories
+
+* The [[natural numbers]] are the natural numbers object in the [[closed monoidal category]] [[Set]]. 
+
+* The [[polynomial ring]] $\mathbb{Z}[X]$ is the natural numbers object in the closed monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X]$ taking [[integers]] to [[constant polynomials]] and $s:\mathbb{Z}[X] \to \mathbb{Z}[X]$ multiplying polynomials by the indeterminant $X$. 
+
+* More generally, given a [[commutative ring]] $R$, the [[polynomial ring]] $R[X]$ is the natural numbers object in the closed monoidal category [[RMod]], with $z:R \to R[X]$ taking [[scalars]] to [[constant polynomials]] and $s:R[X] \to R[X]$ multiplying polynomials by the indeterminant $X$. 
 
 ### In a sheaf topos
  {#ExamplesInASheafTopos}
