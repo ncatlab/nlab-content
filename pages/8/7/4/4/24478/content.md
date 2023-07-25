@@ -27,13 +27,15 @@ However, note that a generalization from [[Rel]] to the bicategory [[Prof]] of c
 
 ## In dependent type theory
 
-In dependent type theory, the **principle of unique choice** states that the dependent product type of a family of contractible types is pointed. 
+In dependent type theory, the **type-theoretic principle of unique choice** states that the dependent product type of a family of contractible types is pointed. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{uniquechoice}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{uniquechoice}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
 
 The [[principle of unique choice]] is not equivalent to [[weak function extensionality]]. Weak function extensionality states that the dependent product type of a family of contractible types is contractible
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isContr}\left(\prod_{x:A} B(x)\right)}$$
+
+However, this is not the same principle of unique choice as in set theory. The **set-theoretic principle of unique choice** in states that every *proposition-valued* binary type family $x:A, y:B \vdash C(x, y)$ which is functional and total determines a necessarily unique function, and is only true for propositional-valued binary type families in [[dependent type theory]] for which the second index type $B$ is a set. Making the set-theoretic principle of unique choice hold for all types is tantamount to saying that all types are sets; thus the set-theoretic principle of unique choice makes the type theory into a [[set-level type theory]]. 
 
 ## Related concepts
 
@@ -47,6 +49,12 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 [[!redirects function comprehension]]
 [[!redirects axiom of unique choice]]
 [[!redirects unique choice]]
+
+[[!redirects set theoretic principle of unique choice]]
+[[!redirects set-theoretic principle of unique choice]]
+
+[[!redirects set theoretic axiom of unique choice]]
+[[!redirects set-theoretic axiom of unique choice]]
 
 [[!redirects type theoretic principle of unique choice]]
 [[!redirects type-theoretic principle of unique choice]]
