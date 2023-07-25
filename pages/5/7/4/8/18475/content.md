@@ -219,6 +219,11 @@ On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 * [[Jan Zaanen]], *Lectures on quantum supreme matter* ([arXiv:2110.00961](https://arxiv.org/abs/2110.00961))
 
 
+### Application to chiral magnets
+
+* Yuki Amari, Muneto Nitta, *Chiral Magnets from String Theory* &lbrack;[arXiv:2307.11113](https://arxiv.org/abs/2307.11113)&rbrack;
+
+
 
 ### Application to quasicrystals
 
