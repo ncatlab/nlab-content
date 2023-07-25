@@ -615,6 +615,17 @@ For a commutative ring $R$, the following propositions are equivalent :
 
 \end{proposition}
 
+\begin{proof}
+
+$1 \Rightarrow 2$. Let $\{Q_\alpha\}_{\alpha \in A}$ be a set of flat $R$-modules. By cyclic reduction, we only need to show that the map $I \otimes \prod_\alpha Q_\alpha \to \prod_\alpha Q_\alpha$ is injective for every finitely generated ideal $I \subset R$. Since $R$ is coherent every such ideal $I$ is a [[finitely presented module]] and thus the map $I \otimes \prod_\alpha Q_\alpha \to \prod_\alpha Q_\alpha$ is the product of the maps $I \otimes Q_\alpha \to Q_\alpha$. It is injective since each individual map is injective by flatness of each $Q_\alpha$. 
+
+$2 \Rightarrow 1$. Let $I \subset R$ be a finitely generated ideal.
+Using one of the equivalent characterisations of [[finitely presented modules]], we shall show
+that the canonical map
+$I \otimes R^A \to I^A$ is an isomorphism, for every set $A$.
+By assumption, since $R^A$ is a flat module, the map $I \otimes R^A \to R^A$ is injective and since $I$ is finitely generated, its image is $I^A$.
+\end{proof}
+
 ### Absolutely flat rings
 
 \begin{definition}
