@@ -38,11 +38,11 @@ Let $T$ be the [[Lawvere theory]] for rings, viz. the category [[opposite catego
 ### Via the microcosm principle
  {#ViaTheMicrocosmPrinciple}
 
-Alternatively, one may define ring objects following the Baez–Dolan [[microcosm principle]]. Indeed, similarly to how it is possible to define monoids in a monoidal category (a pseudomonoid in $(\mathsf{Cat},\times,\mathsf{pt})$), it is possible to speak of  semiring objects internal to any [[bimonoidal category]] (a pseudomonoid in $(\mathsf{SymMonCats},\otimes_{\mathbb{F}},\mathbb{F})$).
+Alternatively, one may define ring objects following the Baez–Dolan [[microcosm principle]]. Indeed, similarly to how it is possible to define monoids in a monoidal category (a pseudomonoid in $(\mathsf{Cat},\times,\mathsf{pt})$), it is possible to speak of rig objects internal to any [[bimonoidal category]] (a pseudomonoid in $(\mathsf{SymMonCats},\otimes_{\mathbb{F}},\mathbb{F})$).
 
-Namely, a **semiring in a [[bimonoidal category]]** $(\mathcal{C},\otimes_{\mathcal{C}},\oplus_{\mathcal{C}},\mathbf{0}_{\mathcal{C}},\mathbf{1}_{\mathcal{C}})$ is given by a quintuple $(R,\mu^{+}_{R},\eta^{+}_{R},\mu^{\times}_{R},\eta^{\times}_{R})$ consisting of
+Namely, a **rig in a [[bimonoidal category]]** $(\mathcal{C},\otimes_{\mathcal{C}},\oplus_{\mathcal{C}},\mathbf{0}_{\mathcal{C}},\mathbf{1}_{\mathcal{C}})$ is given by a quintuple $(R,\mu^{+}_{R},\eta^{+}_{R},\mu^{\times}_{R},\eta^{\times}_{R})$ consisting of
 
-  - An object $R$ of $\mathcal{C}$, called the **underlying object** of the semiring;
+  - An object $R$ of $\mathcal{C}$, called the **underlying object** of the rig;
   - A morphism
     $$\mu^{+}_{R}\colon R\oplus_{\mathcal{C}}R\longrightarrow R$$
     of $\mathcal{C}$, called the **addition morphism of $R$**;
@@ -67,7 +67,7 @@ satisfying the following conditions:
          "width": 800
      \end{imagefromfile}
  
-     corresponding to the semiring axioms $a(b+c)=a b+a c$ and $(a+b)c=a c+b c$ commute;
+     corresponding to the rig axioms $a(b+c)=a b+a c$ and $(a+b)c=a c+b c$ commute;
   4. The diagrams
 
      \begin{imagefromfile}
@@ -75,9 +75,9 @@ satisfying the following conditions:
          "width": 500
      \end{imagefromfile}
 
-     corresponding to the semiring axioms $0a=0$ and $a0=0$ commute;
+     corresponding to the rig axioms $0a=0$ and $a0=0$ commute;
 
-Moreover, for $\mathcal{C}$ a _braided_ bimonoidal category, one defines a **commutative semiring in $\mathcal{C}$** to be a semiring in $\mathcal{C}$ whose multiplicative monoid structure is commutative.
+Moreover, for $\mathcal{C}$ a _braided_ bimonoidal category, one defines a **commutative rig in $\mathcal{C}$** to be a rig in $\mathcal{C}$ whose multiplicative monoid structure is commutative.
 
 A partial version of this definition first appeared in ([Brun 2006, Definition 5.1](#Brun2006)).
 
@@ -91,13 +91,13 @@ A partial version of this definition first appeared in ([Brun 2006, Definition 5
 
 * The [[affine line]] (see there) is a ring object in the given ambient [[topos]].
 
-For the notion of a semiring in a [[bimonoidal category]] [defined via the microcosm principle](#ViaTheMicrocosmPrinciple), we have the following examples.
+For the notion of a rig in a [[bimonoidal category]] [defined via the microcosm principle](#ViaTheMicrocosmPrinciple), we have the following examples.
 
- * A semiring in $\left(\mathsf{Sets},\coprod,\times,\emptyset,\times\right)$ is a monoid.
- * A semiring in $\left(\mathsf{CMon},\oplus,\otimes_\mathbb{N},0,\mathbb{N}\right)$ is a semiring.
- * A semiring in $\left(\mathsf{Ab},  \oplus,\otimes_\mathbb{Z},0,\mathbb{Z}\right)$ is a ring.
- * A semiring in $\left(\mathsf{Mod}_R,\oplus,\otimes_R,0,R\right)$ is an associative algebra.
- * A semiring in $\left(\mathsf{Cats},\coprod,\times,\emptyset_{\mathsf{cat}},\mathsf{pt}\right)$ is a strict monoidal category.
+ * A rig in $\left(\mathsf{Sets},\coprod,\times,\emptyset,\times\right)$ is a monoid.
+ * A rig in $\left(\mathsf{CMon},\oplus,\otimes_\mathbb{N},0,\mathbb{N}\right)$ is a rig.
+ * A rig in $\left(\mathsf{Ab},  \oplus,\otimes_\mathbb{Z},0,\mathbb{Z}\right)$ is a ring.
+ * A rig in $\left(\mathsf{Mod}_R,\oplus,\otimes_R,0,R\right)$ is an associative algebra.
+ * A rig in $\left(\mathsf{Cats},\coprod,\times,\emptyset_{\mathsf{cat}},\mathsf{pt}\right)$ is a strict monoidal category.
 
 ## Related concepts
 
@@ -115,3 +115,8 @@ For the notion of a semiring in a [[bimonoidal category]] [defined via the micro
 [[!redirects ring objects]]
 [[!redirects internal ring]]
 [[!redirects internal rings]]
+
+[[!redirects rig object]]
+[[!redirects rig objects]]
+[[!redirects internal rig]]
+[[!redirects internal rigs]]
