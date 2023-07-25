@@ -6344,7 +6344,7 @@ $$
     \text{i.e.:}
     \\
     &
-    Hom(X_1 \times X_2, Y)
+    Hom(X_1 \sqcup X_2, Y)
       &\simeq&
     Hom(X_1, Y) \times Hom(X_2, Y)
   }
