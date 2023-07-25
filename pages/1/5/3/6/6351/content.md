@@ -5,7 +5,7 @@
 
 On the [[CP^N sigma-model|$\mathbb{C}P^N$ sigma-model]] and its [[quantum cohomology ring]]:
 
-* {#BourdeauDouglas94} [[M. F. Bourdeau]], [[Michael R. Douglas]], *Topological-Antitopological Fusion and the Large $N$ $\mathbb{C}P^N$ Model*, Nucl. Phys. B **420** (1994) 243-267 &lbrack;[doi:hep-th/9312095](https://arxiv.org/abs/hep-th/9312095), <a href="https://doi.org/10.1016/0550-3213(94)90380-8">doi:10.1016/0550-3213(94)90380-8</a>&rbrack;
+* {#BourdeauDouglas94} [[M. F. Bourdeau]], [[Michael R. Douglas]], *Topological-antitopological fusion and the large $N$ $\mathbb{C}P^N$ model*, Nucl. Phys. B **420** (1994) 243-267 &lbrack;[doi:hep-th/9312095](https://arxiv.org/abs/hep-th/9312095), <a href="https://doi.org/10.1016/0550-3213(94)90380-8">doi:10.1016/0550-3213(94)90380-8</a>&rbrack;
 
 
 On the [[AdS/CFT correspondence]]:
@@ -15,17 +15,17 @@ On the [[AdS/CFT correspondence]]:
 
 On [[Yang-Mills instantons]] as [[Dp-D(p+4) brane bound states]]:
 
-* [[Michael Douglas]], _Branes within Branes_, In: Baulieu L., Di Francesco P., Douglas M., Kazakov V., Picco M., Windey P. (eds.) _[Strings, Branes and Dualities](https://link.springer.com/book/10.1007/978-94-011-4730-9)_ NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 520. Springer, Dordrecht ([arxiv:hep-th/9512077](https://arxiv.org/abs/hep-th/9512077), [doi:10.1007/978-94-011-4730-9_10](https://doi.org/10.1007/978-94-011-4730-9_10))
+* [[Michael Douglas]], _Branes within branes_, In: Baulieu L., Di Francesco P., Douglas M., Kazakov V., Picco M., Windey P. (eds.) _[Strings, Branes and Dualities](https://link.springer.com/book/10.1007/978-94-011-4730-9)_ NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 520. Springer, Dordrecht ([arxiv:hep-th/9512077](https://arxiv.org/abs/hep-th/9512077), [doi:10.1007/978-94-011-4730-9_10](https://doi.org/10.1007/978-94-011-4730-9_10))
 
-* [[Michael Douglas]], _Gauge Fields and D-branes_, J. Geom. Phys. 28 (1998) 255-262 ([arXiv:hep-th/9604198](https://arxiv.org/abs/hep-th/9604198))
+* [[Michael Douglas]], _Gauge fields and D-branes_, J. Geom. Phys. 28 (1998) 255-262 ([arXiv:hep-th/9604198](https://arxiv.org/abs/hep-th/9604198))
 
 On [[2d QCD]]:
 
-* [[Michael Douglas]], Keke Li, Matthias Staudacher, _Generalized Two-Dimensional QCD_ ([arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062))
+* [[Michael Douglas]], Keke Li, Matthias Staudacher, _Generalized two-dimensional QCD_ ([arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062))
 
 On [[chiral fermions]] in [[intersecting D-brane models]]:
 
-* {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl. Phys. B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
+* {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes intersecting at angles_, Nucl. Phys. B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
 On the [[mass gap]]-problem in [[Yang-Mills theory]]:
 
@@ -34,8 +34,11 @@ On the [[mass gap]]-problem in [[Yang-Mills theory]]:
 
 On [[F-theory on K3]]:
 
-* {#DouglasParkSchnell14} [[Michael Douglas]], Daniel S. Park, Christian Schnell, _The Cremmer-Scherk Mechanism in F-theory Compactifications on K3 Manifolds_, JHEP05 (2014) 135 ([arXiv:1403.1595](https://arxiv.org/abs/1403.1595))
+* {#DouglasParkSchnell14} [[Michael Douglas]], Daniel S. Park, Christian Schnell, _The Cremmer-Scherk Mmechanism in F-theory compactifications on K3 manifolds_, JHEP05 (2014) 135 ([arXiv:1403.1595](https://arxiv.org/abs/1403.1595))
 
+On large language models:
+
+* Michael R. Douglas, _Large language models_, [arXiv:2307.05782](https://arxiv.org/abs/2307.05782)
 
 category: people
 
