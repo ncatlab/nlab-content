@@ -599,13 +599,23 @@ It is common to encounter infinitely generated flat modules and uncommon to enco
 
 To better understand the general notion of flatness from a geometric perspective, very early after the definition of the notion, two questions have been asked
 
+1. A product of torsion-free modules is always torsion-free, is it true for flat modules ?
 1. What type of rings $R$ have all their modules flat?
 1. For what type of rings $R$ is it true that all torsion-free modules are flat?
 1. For what type of rings can flat modules be the filtered union of their finitely generated projective submodules?
 
-### Absolutely flat rings
 
-The first question can be answered simply.
+### Coherent rings
+
+\begin{proposition}
+For a commutative ring $R$, the following propositions are equivalent :
+
+1. $R$ is a [[coherent ring]] ;
+1. the product of a family of flat $R$-modules is flat.
+
+\end{proposition}
+
+### Absolutely flat rings
 
 \begin{definition}
 We say that a ring $R$ is absolutely flat if every $R$-module is flat.
