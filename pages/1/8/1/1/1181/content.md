@@ -352,6 +352,8 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 * [[free monoid]]
 
+* [[extended natural numbers object]]
+
 * [[arithmetic pretopos]]
 
 * [[integers object]]
