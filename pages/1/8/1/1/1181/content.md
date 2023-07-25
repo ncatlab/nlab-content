@@ -61,7 +61,30 @@ Let $C, D$ be cartesian closed categories, and suppose $D$ has a natural numbers
 
 The proof is straightforward. It follows for example that the left adjoint part $f^\ast$ of a geometric morphism $f^\ast \dashv f_\ast: E \to F$ between toposes with natural numbers objects preserves the natural numbers object, and also that a [[Grothendieck quasitopos]] $Q$ presented by a [[site]] $(C, J)$ has a natural numbers object, since the [[reflective subcategory|reflection functor]] $L: Set^{C^{op}} \to Q$ preserves finite products and the terminal object in particular. 
 
-### In a general category with finite products
+### In a closed monoidal category
+
+One could generalize the above definition of a natural numbers object to any [[closed monoidal category]]: [[pointed objects in a monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, a natural numbers object in a closed monoidal category $C$ with [[tensor unit]] $1$ is
+
+* an [[object]] $\mathbb{N}$ in $C$ 
+
+* equipped with 
+  
+  * a [[morphism]] $z :1 \to \mathbb{N}$ from the [[tensor unit]] $1$;
+
+  * a [[morphism]] $s : \mathbb{N} \to \mathbb{N}$ (successor);
+
+* such that for every other [[diagram]] $1 \stackrel{q}{\to}A \stackrel{f}{\to} A$ there is a unique morphism $u : \mathbb{N} \to A$ such that
+
+\begin{center}
+  \begin{tikzcd}
+    1 \ar[r, "z"] \ar[rd, "q"']        &
+    \mathbb{N} \ar[r, "s"] \ar[d, "u"] &
+    \mathbb{N} \ar[d, "u"]             \\
+    & A \ar[r, "f"'] & A
+  \end{tikzcd}
+\end{center}
+
+### In a category with finite products
 {#withparams}
 
 Note that this definition actually makes sense in any category $E$ having finite [[product]]s, such as a [[pretopos]].  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). What this amounts to is demanding that $(\mathbb{N}, z, s)$ not only be a natural numbers object (in the above, unparametrized sense) in $E$, but that also, for each object $A$, this is preserved by the cofree coalgebra functor into the [[Kleisli category]] of the [[comonad]] $X \mapsto A \times X$ (which may be thought of as the category of maps parametrized by $A$). (Put another way, the finite product structure of $E$ gives rise to a canonical [[self-indexing]], and we are demanding the existence of an (unparametrized) NNO within this [[indexed category]], rather than just within the base $E$).
@@ -107,6 +130,23 @@ Thus, by the uniqueness assumption, we have $\pi_1 \phi'(a,n) = a$ for all $a,n$
 The functions which are constructible out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since some non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
 
 In this context an important class is the class of [[pretopos|pretoposes]] with a parametrized NNO - the so called [[arithmetic pretopos|arithmetic pretoposes]].
+
+### In a monoidal category
+
+One could generalize the above definition of a parameterised natural numbers object to any [[monoidal category]]: [[pointed objects in a monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, 
+
++-- {: .num_defn} 
+###### Definition 
+In a [[monoidal category]] with [[tensor unit]] $1$ and [[tensor product]] $(A, B) \mapsto A \otimes B$, a _parametrized natural numbers object_ is an object $N$ together with maps $z: 1 \to N$, $s: N \to N$ such that given any objects $A$, $X$ and maps $f: A \to X$, $g: X \to X$, there is a unique map $\phi_{f, g}: A \otimes N \to X$ making the following diagram commute: 
+
+$$\array{
+A \otimes 1 & \stackrel{1_A \times z}{\to} & A \otimes N & \stackrel{1_A \times s}{\leftarrow} & A \otimes N \\
+ \mathllap{\rho_A} \downarrow & & \downarrow \mathrlap{\phi_{f, g}} & & \downarrow \mathrlap{\phi_{f, g}} \\
+ A & \underset{f}{\rightarrow} & X & \underset{g}{\leftarrow} & X
+}$$ 
+
+where $\rho_A:A \otimes 1 \cong A$ is the [[right unitor]] of the [[monoidal category]] $C$ for object $A$. 
+=--
 
 ### In type theory
 
