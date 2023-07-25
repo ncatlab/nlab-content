@@ -13,9 +13,9 @@
 
 ## Idea
 
-Emergentism is a philosophical position which states that all of that field cannot be reduced to a common foundation. 
+*Emergentism* is a philosophical position which claims that there are properties and behaviors of entities in the world that are dependent on, but are not reducible to, the properties and behaviors of their constituent parts. This contrasts with [[reductionism]] concerning a particular phenomenon, which claims that reduction is possible there, and with *dualism*, which claims full autonomy of the higher level (see [O'Connor 2021](#oconnor)).
 
-This contrasts with [[reductionism]], which says that the entire field can be reduced to a common foundation. 
+Emergence has long been debated in phenomena such as life and consciousness, but also regarding the chemical properties of water in relation to those of the constituent water molecules. 
 
 ## Emergentism in physics
 
@@ -33,6 +33,8 @@ In practice, emergentism is true, because even if one were to say the [[standard
 * [[pluralism]], [[monism]]
 
 ## References
+
+* {#oconnor} Timothy O’Connor, _Emergent Properties_, The Stanford Encyclopedia of Philosophy (Winter 2021 Edition), Edward N. Zalta (ed.), [SEP page](https://plato.stanford.edu/archives/win2021/entries/properties-emergent/).
 
 On how ontological reductionism is problematic in the philosophy of science:
 
