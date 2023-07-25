@@ -73,7 +73,7 @@ With regards to [[kernel methods]]:
 Proposal for applications of [[category theory]] to machine learning:
 
 * Dan Shiebler, [[Bruno Gavranović]], Paul Wilson, _Category Theory in Machine Learning_ ([arXiv:2106.07032](https://arxiv.org/abs/2106.07032))
-
+* [[Yiannis Vlassopoulos]], _Modelling language semantics and probability densities of text continuations_, QNLP 2022 [youtube](https://www.youtube.com/watch?v=c3IOe3JPfq8)
 
 The following framework claims to relate to [[homotopy type theory]] 
 
@@ -142,6 +142,11 @@ and with emphasis on [classically controlled](quantum+computation#ClassicalContr
 
 * [TensorFlow.org](https://www.tensorflow.org/) (Google), *[Quantum Machine Learning](https://www.tensorflow.org/quantum/concepts#quantum_machine_learning)*
 
+On transformers and large language models (LLM)
+
+* Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin, _Attention is all you need_, in  Advances in Neural Information Processing Systems 30 (NIPS 2017) [pdf](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+* [[Michael R. Douglas]], _Large language models_, [arXiv:2307.05782](https://arxiv.org/abs/2307.05782)
+
 ### Applications
 
 There are or will be innumerable applications. Here are some:
@@ -157,7 +162,7 @@ reviewed in:
 
 To the [[conformal bootstrap]]:
 
-* Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving Conformal Field Theories with Artificial Intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
+* Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving conformal field theories with artificial intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
 
 (...)
 
