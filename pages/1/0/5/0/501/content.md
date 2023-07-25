@@ -138,6 +138,8 @@ One can view $X$ as a 'constant scheme' over any other base scheme $Y$ by [[base
 
 * [[finite homotopy type]], [[π-finite homotopy type]]
 
+* [[locally finite type]]
+
 \section{References}
 
 Original articles:
