@@ -261,6 +261,8 @@ Notice that algebraic theories can nevertheless have free algebras even if the a
 
 * The [[natural numbers]] are the natural numbers object in the [[closed monoidal category]] [[Set]]. 
 
+* In [[classical mathematics]], the [[extended natural numbers]] $\overline{\mathbb{N}} = \mathbb{N} + \{\infty\}$ are the [[natural numbers object]] in the [[closed monoidal category]] of [[pointed sets]] $Set_*$, with $z:\mathbb{2} \to \overline{\mathbb{N}}$ taking the [[boolean]] [[true]] to $\infty$ and [[false]] to $0$ and $s:\overline{\mathbb{N}} \to \overline{\mathbb{N}}$ taking natural numbers to its successor and $\infty$ to $\infty$. In [[constructive mathematics]], the extended natural numbers $\overline{\mathbb{N}}$ and the [[disjoint union]] $\mathbb{N} + \{\infty\}$ are no longer the same; it is $\mathbb{N} + \{\infty\}$ which remains the natural numbers object in $Set_*$.
+
 * The [[polynomial ring]] $\mathbb{Z}[X]$ is the natural numbers object in the closed monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X]$ taking [[integers]] to [[constant polynomials]] and $s:\mathbb{Z}[X] \to \mathbb{Z}[X]$ multiplying polynomials by the indeterminant $X$. 
 
 * More generally, given a [[commutative ring]] $R$, the [[polynomial ring]] $R[X]$ is the natural numbers object in the closed monoidal category [[RMod]], with $z:R \to R[X]$ taking [[scalars]] to [[constant polynomials]] and $s:R[X] \to R[X]$ multiplying polynomials by the indeterminant $X$. 
