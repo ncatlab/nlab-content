@@ -585,6 +585,8 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 
 * A. Fedotov et al.,  Section 8 of: *Advances in QED with intense background fields* &lbrack;[arXiv:2203.00019](https://arxiv.org/abs/2203.00019)&rbrack;
 
+* M. Pentia, C. R. Badita, D. Dumitriu, A. R. Ionescu, H. Petrascu, *Nonperturbative QED Processes at ELI-NP* &lbrack;[arXiv:2307.09315](https://arxiv.org/abs/2307.09315)&rbrack;
+
 and in relation to [[magnetic monopoles]]:
 
 * B. Acharya et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
