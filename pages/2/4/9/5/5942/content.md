@@ -1,4 +1,8 @@
 
+> This article is about [[homomorphisms]] between [[schemes]] which are locally of finite type. For the notion of locally finite type in [[dependent type theory]], see [[locally finite type]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -65,5 +69,3 @@ Introductory disucssoon over the [[complex numbers]] (with an eye towards [[GAGA
 
 [[!redirects scheme of finite type]]
 [[!redirects schemes of finite type]]
-
-[[!redirects locally finite type]]
