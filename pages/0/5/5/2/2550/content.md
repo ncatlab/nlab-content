@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -466,10 +467,14 @@ Readable introductions to the subject are:
    {#Arndth19} exposition: lecture at _[Geometry in Modal HoTT](https://felix-cherubini.de/abstracts.html)_, 2019 ([recording I](https://www.youtube.com/watch?v=f0wpcNs8hQo), [recording II](https://www.youtube.com/watch?v=sTl8637a2Zo))
 
 
-The [[model structure on simplicial presheaves]] on the [[Nisnevich site]] and its [[homotopy localization]] to [[A1-homotopy theory]] is in
+Detailed discussion of the [[model structure on simplicial presheaves]] on the [[Nisnevich site]] and its [[homotopy localization]] to [[A1-homotopy theory]]:
 
-* [[Rick Jardine]], _Motivic spaces and the motivic stable category_ 
-  ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
+* [[John F. Jardine]], *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
+
+with brief exposition in:
+
+* [[John F. Jardine]], *Motivic spaces and the motivic stable category* &lbrack;[pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf), [[Jardine-MotivicSpaces.pdf:file]]&rbrack;
+
 
 For more on the general procedure see [[homotopy localization]].
 
