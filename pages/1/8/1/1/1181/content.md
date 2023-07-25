@@ -60,9 +60,9 @@ Let $C, D$ be cartesian closed categories, and suppose $D$ has a natural numbers
 
 The proof is straightforward. It follows for example that the left adjoint part $f^\ast$ of a geometric morphism $f^\ast \dashv f_\ast: E \to F$ between toposes with natural numbers objects preserves the natural numbers object, and also that a [[Grothendieck quasitopos]] $Q$ presented by a [[site]] $(C, J)$ has a natural numbers object, since the [[reflective subcategory|reflection functor]] $L: Set^{C^{op}} \to Q$ preserves finite products and the terminal object in particular. 
 
-### In a closed monoidal category
+### In a closed symmetric monoidal category
 
-One could generalize the above definition of a natural numbers object to any [[closed monoidal category]]: [[pointed objects in a monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, a natural numbers object in a closed monoidal category $C$ with [[tensor unit]] $1$ is
+One could generalize the above definition of a natural numbers object to any [[closed monoidal category|closed]] [[symmetric monoidal category]]: [[pointed objects in a monoidal category|pointed objects in a symmetric monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, a natural numbers object in a closed symmetric monoidal category $C$ with [[tensor unit]] $1$ is
 
 * an [[object]] $\mathbb{N}$ in $C$ 
 
@@ -130,13 +130,13 @@ The functions which are constructible out of the structure of a category with fi
 
 In this context an important class is the class of [[pretopos|pretoposes]] with a parametrized NNO - the so called [[arithmetic pretopos|arithmetic pretoposes]].
 
-### In a monoidal category
+### In a symmetric monoidal category
 
-One could generalize the above definition of a parameterised natural numbers object to any [[monoidal category]]: [[pointed objects in a monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, 
+One could generalize the above definition of a parameterised natural numbers object to any [[symmetric monoidal category]]: [[pointed objects in a monoidal category|pointed objects in a symmetric monoidal category]] are represented by morphisms out of the [[tensor unit]]. Thus, 
 
 +-- {: .num_defn} 
 ###### Definition 
-In a [[monoidal category]] with [[tensor unit]] $1$ and [[tensor product]] $(A, B) \mapsto A \otimes B$, a _parametrized natural numbers object_ is an object $N$ together with maps $z: 1 \to N$, $s: N \to N$ such that given any objects $A$, $X$ and maps $f: A \to X$, $g: X \to X$, there is a unique map $\phi_{f, g}: A \otimes N \to X$ making the following diagram commute: 
+In a [[symmetric monoidal category]] with [[tensor unit]] $1$ and [[tensor product]] $(A, B) \mapsto A \otimes B$, a _parametrized natural numbers object_ is an object $N$ together with maps $z: 1 \to N$, $s: N \to N$ such that given any objects $A$, $X$ and maps $f: A \to X$, $g: X \to X$, there is a unique map $\phi_{f, g}: A \otimes N \to X$ making the following diagram commute: 
 
 $$\array{
 A \otimes 1 & \stackrel{1_A \times z}{\to} & A \otimes N & \stackrel{1_A \times s}{\leftarrow} & A \otimes N \\
@@ -144,7 +144,7 @@ A \otimes 1 & \stackrel{1_A \times z}{\to} & A \otimes N & \stackrel{1_A \times 
  A & \underset{f}{\rightarrow} & X & \underset{g}{\leftarrow} & X
 }$$ 
 
-where $\rho_A:A \otimes 1 \cong A$ is the [[right unitor]] of the [[monoidal category]] $C$ for object $A$. 
+where $\rho_A:A \otimes 1 \cong A$ is the [[right unitor]] of the [[symmetric monoidal category]] $C$ for object $A$. 
 =--
 
 ### In type theory
@@ -257,15 +257,25 @@ Notice that algebraic theories can nevertheless have free algebras even if the a
 
 ## Examples
 
-### In closed monoidal categories
+There are many examples of natural numbers objects. 
 
-* The [[natural numbers]] are the natural numbers object in the [[closed monoidal category]] [[Set]]. 
+### In closed symmetric monoidal categories
 
-* In [[classical mathematics]], the [[extended natural numbers]] $\overline{\mathbb{N}} = \mathbb{N} + \{\infty\}$ are the [[natural numbers object]] in the [[closed monoidal category]] of [[pointed sets]] $Set_*$, with $z:\mathbb{2} \to \overline{\mathbb{N}}$ taking the [[boolean]] [[true]] to $\infty$ and [[false]] to $0$ and $s:\overline{\mathbb{N}} \to \overline{\mathbb{N}}$ taking natural numbers to its successor and $\infty$ to $\infty$. In [[constructive mathematics]], the extended natural numbers $\overline{\mathbb{N}}$ and the [[disjoint union]] $\mathbb{N} + \{\infty\}$ are no longer the same; it is $\mathbb{N} + \{\infty\}$ which remains the natural numbers object in $Set_*$.
+\begin{example}
+The [[natural numbers]] are the natural numbers object in the [[closed monoidal category|closed]] [[symmetric monoidal category]] [[Set]]. 
+\end{example}
 
-* The [[polynomial ring]] $\mathbb{Z}[X]$ is the natural numbers object in the closed monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X]$ taking [[integers]] to [[constant polynomials]] and $s:\mathbb{Z}[X] \to \mathbb{Z}[X]$ multiplying polynomials by the indeterminant $X$. 
+\begin{example}
+In [[classical mathematics]], the [[extended natural numbers]] $\overline{\mathbb{N}} = \mathbb{N} + \{\infty\}$ are the [[natural numbers object]] in the closed symmetric monoidal category of [[pointed sets]] $Set_*$, with $z:\mathbb{2} \to \overline{\mathbb{N}}$ taking the [[boolean]] [[true]] to $\infty$ and [[false]] to $0$ and $s:\overline{\mathbb{N}} \to \overline{\mathbb{N}}$ taking natural numbers to its successor and $\infty$ to $\infty$. In [[constructive mathematics]], the extended natural numbers $\overline{\mathbb{N}}$ and the [[disjoint union]] $\mathbb{N} + \{\infty\}$ are no longer the same; it is $\mathbb{N} + \{\infty\}$ which remains the natural numbers object in $Set_*$.
+\end{example}
 
-* More generally, given a [[commutative ring]] $R$, the [[polynomial ring]] $R[X]$ is the natural numbers object in the closed monoidal category [[RMod]], with $z:R \to R[X]$ taking [[scalars]] to [[constant polynomials]] and $s:R[X] \to R[X]$ multiplying polynomials by the indeterminant $X$. 
+\begin{example}
+The underlying abelian group of the [[polynomial ring]] $\mathbb{Z}[X]$ is the natural numbers object in the closed symmetric monoidal category [[Ab]], with $z:\mathbb{Z} \to \mathbb{Z}[X]$ taking [[integers]] to [[constant polynomials]] and $s:\mathbb{Z}[X] \to \mathbb{Z}[X]$ multiplying polynomials by the indeterminant $X$. 
+\end{example}
+
+\begin{example}
+More generally, given a [[commutative ring]] $R$, the underlying $R$-module of the [[polynomial ring]] $R[X]$ is the natural numbers object in the closed symmetric monoidal category [[RMod]], with $z:R \to R[X]$ taking [[scalars]] to [[constant polynomials]] and $s:R[X] \to R[X]$ multiplying polynomials by the indeterminant $X$. 
+\end{example}
 
 ### In a sheaf topos
  {#ExamplesInASheafTopos}
