@@ -19,7 +19,7 @@
 
 Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
 
-An **extended natural numbers object** (extended NNO) in a topos is an [[object]] that behaves in that topos like the set $\overline{\mathbb{N}}$ of [[extended natural number|extended natural numbers]] does in [[Set]]
+An **extended natural numbers object** (extended NNO) in a topos is an [[object]] that behaves [[internalization|internal to]] that topos like the set $\overline{\mathbb{N}}$ of [[extended natural number|extended natural numbers]] does in [[Set]].
 
 ## Definition
 
