@@ -16,7 +16,7 @@ Fix a prime number $p$ and a power $q = p^r$ ($r \geq 0$).
 
 1. $\delta(x+y) = \delta(y) + \delta(y) - \sum_{i=1}^{q-1} \frac1{p}\binom{q}{i} x^i y^{q-i}$; 
 
-1. $\delta(xy) = x^q\delta(y) + \delta(x)y^q + p\delta(x)\delta(y)$, $\delta(1) = 0$. 
+1. $\delta(x y) = x^q\delta(y) + \delta(x)y^q + p\delta(x)\delta(y)$, $\delta(1) = 0$. 
 
 We say that $A$ is a $\delta$-ring with respect to the pair $(p, q)$. 
 \end{definition} 
