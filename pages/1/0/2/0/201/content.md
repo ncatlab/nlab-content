@@ -206,9 +206,9 @@ A [[monoid]] in $(Ab, \oplus, 0)$ is equivalently just an abelian group again (s
 
 $Ab$ is a [[monoidal category]] with [[tensor unit]] $\mathbb{Z}$, so the [[pointed objects in a monoidal category|pointed objects]] in $Ab$ are the objects $A$ with a [[group homomorphism]] $\mathbb{Z} \to A$. 
 
-### Parameterized natural numbers object
+### Parametrized natural numbers object
 
-The parameterized [[natural numbers object]] in $Ab$ is the [[free abelian group]] $\mathbb{Z}[\mathbb{N}] = \bigotimes_{n \in \mathbb{N}} \mathbb{Z}$ on the [[natural numbers]], and comes with group homomrophisms $z_0:\mathbb{Z} \to \mathbb{Z}[\mathbb{N}]$ and $z_s:\mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ such that for all abelian groups $A$, $X$ and group homomorphisms $f: A \to X$, $g: X \to X$, there is a unique group homomorphism $\phi_{f, g}: A \otimes N \to X$ making the following diagram commute: 
+The [[parametrized natural numbers object]] in $Ab$ is the [[free abelian group]] $\mathbb{Z}[\mathbb{N}] = \bigoplus_{n \in \mathbb{N}} \mathbb{Z}$ on the [[natural numbers]], and comes with group homomrophisms $z_0:\mathbb{Z} \to \mathbb{Z}[\mathbb{N}]$ and $z_s:\mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ such that for all abelian groups $A$, $X$ and group homomorphisms $f: A \to X$, $g: X \to X$, there is a unique group homomorphism $\phi_{f, g}: A \otimes N \to X$ making the following diagram commute: 
 
 $$\array{
 A \otimes \mathbb{Z} & \stackrel{1_A \times z_0}{\to} & A \otimes \mathbb{Z}[\mathbb{N}] & \stackrel{1_A \times z_s}{\leftarrow} & A \otimes \mathbb{Z}[\mathbb{N}] \\
@@ -220,7 +220,7 @@ where, for abelian group $A$, $\rho_A:A \otimes \mathbb{Z} \cong A$ is the [[rig
 
 Abelian groups are $\mathbb{Z}$-[[modules]], so the free $\mathbb{Z}$-module $\mathbb{Z}[\mathbb{N}]$ has a function $v:\mathbb{N} \to \mathbb{Z}[\mathbb{N}]$ representing the [[basis of a free module|basis]] of $\mathbb{Z}[\mathbb{N}]$; it has the property that for all integers $m \in \mathbb{Z}$, $m \cdot v(0) = z_0(m)$ and for all $n \in \mathbb{N}$, $m \cdot v(s(n)) = z_s(m \cdot v(n))$, where $m \cdot v$ is the scalar multiplication of an element $v$ by an integer $m$ in a $\mathbb{Z}$-module.
 
-The [[ring]] structure on $\mathbb{Z}[\mathbb{N}]$ is defined by double [[induction]] on $\mathbb{Z}[\mathbb{N}]$, we define $(-)(-):\mathbb{Z}[\mathbb{N}] \otimes \mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ by $z_0(m)z_0(n) = z_0(m \cdot n)$, $z_s(v)z_0(n) = z_s(v z_0(n))$, $z_0(m)z_s(w) = z_s(z_0(m) w)$, and $z_s(v)z_s(w) = z_s(z_s(vw))$, for all $m, n \in \mathbb{Z}$ and $v, w \in \mathbb{Z}[\mathbb{N}]$. It is a [[commutative ring]] and represents multiplication in the [[polynomial ring]] $\mathbb{Z}[X]$; the group homomorphism $z_0$ represents the function which takes integers to constant polynomials, and $z_s$ represents the function which takes a polynomial and multiplies it by the indeterminant $X$. 
+The [[ring]] structure on $\mathbb{Z}[\mathbb{N}]$ is defined by double [[induction]] on $\mathbb{Z}[\mathbb{N}]$, we define $(-)(-):\mathbb{Z}[\mathbb{N}] \otimes \mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ by $z_0(m)z_0(n) = z_0(m \cdot n)$, $z_s(v)z_0(n) = z_s(v z_0(n))$, $z_0(m)z_s(w) = z_s(z_0(m) w)$, and $z_s(v)z_s(w) = z_s(z_s(vw))$, for all $m, n \in \mathbb{Z}$ and $v, w \in \mathbb{Z}[\mathbb{N}]$ (recall the definition of [[addition]] in the [[natural numbers]], inductively defined by $0(p) + 0(q) = 0(p \cdot q)$, $s(m) + 0(p) = s(m + 0(p))$, $0(p) + s(n) = s(0(p) + n)$, and $s(m) + s(n) = s(s(m + n))$ for all $p, q \in \mathbb{1}$ and $m, n \in \mathbb{N}$). It is a [[commutative ring]] and represents multiplication in the [[polynomial ring]] $\mathbb{Z}[X]$; the group homomorphism $z_0$ represents the function which takes integers to constant polynomials, and $z_s$ represents the function which takes a polynomial and multiplies it by the indeterminant $X$. 
 
 ### Enrichment over $Ab$
 
