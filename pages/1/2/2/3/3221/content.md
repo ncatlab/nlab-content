@@ -70,15 +70,14 @@ The Serre-Swan theorem serves to relate [[topological K-theory]] with [[algebrai
 
 ## References
 
-The two original articles are
+The two original articles:
 
-* {#Serre55} [[Jean-Pierre Serre]], _Faisceaux algebriques coherents_, Annals of Mathematics 61 (2): 197&#8211;278 (1955)
+* {#Serre55} [[Jean-Pierre Serre]], §50 in: *Faisceaux algebriques coherents*, Annals of Mathematics **61** 2 (1955) 197-278  &lbrack;[jstor:1969915](https://www.jstor.org/stable/1969915)&rbrack;
+ 
+* {#Swan} [[Richard Swan]], *Vector bundles and projective modules*, Trans. AMS **105** 2 (1962) 264-277 &lbrack;[doi:10.2307/1993627](https://doi.org/10.2307/1993627)&rbrack;
  
 
-* {#Swan} [[Richard Swan]], _Vector bundles and projective modules_, Trans. AMS __105__ (2): 264&#8211;277 (1962)
- 
-
-A textbook account in the context of [[differential geometry]] is in 
+A textbook account in the context of [[differential geometry]]:
 
 * {#Nestruev03} [[Jet Nestruev]], _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
  
