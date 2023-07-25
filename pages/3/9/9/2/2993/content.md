@@ -231,6 +231,8 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[power series]], [[formal power series]]
 
+* [[constant polynomial]]
+
 * [[monic polynomial]]
 
 * [[Lorentzian polynomial]]
