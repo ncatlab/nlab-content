@@ -7057,7 +7057,7 @@ _[[pullback]]_ of $f$ along $g$
 
 $$
   \array{
-     X \underset{X}{\times} Z
+     X \underset{Z}{\times} Y
        &\longrightarrow&
      Y
      \\
