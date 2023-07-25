@@ -109,6 +109,18 @@ This implies that all types $A$ are sets, because the type
 $$\prod_{P:\mathcal{P}(A)} P(x) \simeq P(y)$$ 
 is always a proposition, in the context of [[weak function extensionality]], and thus by the [[equivalence of types]], $\mathrm{Id}_A(x, y)$ is also a proposition for all $x:A$ and $y:A$, which means that $A$ is a set. 
 
+### Set-theoretic principle of unique choice
+
+In [[dependent type theory]] with [[power sets]], the [[set-theoretic principle of unique choice]] is given by the following rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{puc}_{A, B}:\left(\sum_{R:A \times B \to \mathcal{P}(\mathbb{1})} \mathrm{isTotal}(R) \times \mathrm{isFunctional}(R)\right) \simeq (A \to B)}$$
+
+Because the type $A \times B \to \mathcal{P}(\mathbb{1})$ is a [[set]], the type 
+
+$$\sum_{R:A \times B \to \mathcal{P}(\mathbb{1})} \mathrm{isTotal}(R) \times \mathrm{isFunctional}(R)$$ 
+
+is also a set, and the equivalence only exists if the function type $A \to B$ is a set, which only occurs if $B$ is a set. Thus, this rule implies that all types are sets. 
+
 ### Boundary separation
 
 In [[cubical type theory]], [[boundary separation]] is given by the following rule:
