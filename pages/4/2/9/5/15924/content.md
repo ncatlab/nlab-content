@@ -7,9 +7,9 @@ This [[axiom]] in [[set theory]] has important role implications in [[descriptiv
 +-- {: .num_defn }
 ###### Definition
 
-A [[game]] is called **determined** iff some player has a winnig strategy. Typically in set theory Gale-Stewart games are considered, i.&#8239;e. two players pick natural numbers (which might be required to be at most some $X$). The winning condition is then given as a subset $A$ of $X^\omega$ (for $X\le\omega$) and player 1 is considered to win iff the path chosen during the game is an elment of $A$.
+A [[game]] is called **determined** iff some player has a winning strategy. Typically in set theory Gale-Stewart games are considered, i.&#8239;e. two players pick natural numbers (which might be required to be at most some $X$). The winning condition is then given as a subset $A$ of $X^\omega$ (for $X\le\omega$) and player 1 is considered to win iff the path chosen during the game is an element of $A$.
 
-The set [[set]] providing the winning condition is also called determined in the case that the game is determined.
+The [[set]] providing the winning condition is also called determined in the case that the game is determined.
 =--
 
 ## Statement
