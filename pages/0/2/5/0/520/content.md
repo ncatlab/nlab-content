@@ -62,7 +62,34 @@ The [[internal hom]] $\Set_{\ast}(X,Y)$ is the [[hom-set]] in ${\ast}/\Set$ poin
 
 See at _[[pointed object]]_ for more details.
 
+#### Pointed objects in the category of pointed sets
 
+The [[tensor unit]] of pointed sets is the [[boolean domain]] $\mathbb{2}$, and [[pointed object in a monoidal category|pointed objects]] in the category of pointed sets are pointed sets $A$ with a point-preserving function $\mathbb{2} \to A$. 
+
+#### Natural numbers object
+
+In [[classical mathematics]], the [[natural numbers object]] in $Set_*$ is the [[set]] of [[extended natural numbers]] $\overline{\mathbb{N}} = \mathbb{N} + \{\infty\}$, and comes with point-preserving functions $z_0:\mathbb{2} \to \overline{\mathbb{N}}$ and $z_s:\overline{\mathbb{N}} \to \overline{\mathbb{N}}$ such that for all pointed sets $A$ and point-preserving functions $f:\mathbb{2} \to A$, $g: A \to A$, there is a unique point-preserving function $\phi_{f, g}:\overline{\mathbb{N}} \to A$ making the following diagram commute: 
+
+$$\array{
+\mathbb{2} & \stackrel{z_0}{\to} & \overline{\mathbb{N}} & \stackrel{z_s}{\leftarrow} & \overline{\mathbb{N}} \\
+ & \mathllap{f} \searrow & \downarrow \mathrlap{\phi_{f, g}} & & \downarrow \mathrlap{\phi_{f, g}} \\
+ & & A & \underset{g}{\leftarrow} & A
+}$$ 
+
+The point-preserving function $z_0$ represents the function which takes the [[boolean]] [[true]] to $\infty$ and [[false]] to zero, and $z_s$ represents the point-preserving function which takes a natural number to its successor and $\infty$ to $\infty$.
+
+The [[absorption monoid]] structure on $\overline{\mathbb{N}}$ is defined by double [[induction]] on $\overline{\mathbb{N}}$, we define 
+
+$$(-)+(-):\overline{\mathbb{N}} \times \overline{\mathbb{N}} \to \overline{\mathbb{N}} \wedge \overline{\mathbb{N}} \to \overline{\mathbb{N}}$$ 
+
+by 
+
+$$z_0(p) + z_0(q) = z_0(p \vee q) \qquad z_s(m) + z_0(q) = z_s(m + z_0(q))$$ 
+$$z_0(p) + z_s(n) = z_s(z_0(p) + n) \qquad z_s(m) + z_s(n) = z_s(z_s(m + n))$$ 
+
+for all $p, q \in \mathbb{2}$ and $m, n \in \overline{\mathbb{N}}$, where $p \vee q$ is the [[disjunction]] of [[booleans]] $p$ and $q$ (recall the definition of [[addition]] in the [[natural numbers]], inductively defined by $0(p) + 0(q) = 0(p \cdot q)$, $s(m) + 0(p) = s(m + 0(p))$, $0(p) + s(n) = s(0(p) + n)$, and $s(m) + s(n) = s(s(m + n))$ for all $p, q \in \mathbb{1}$ and $m, n \in \mathbb{N}$). It is a [[commutative monoid]] and represents addition in $\overline{\mathbb{N}}$. 
+
+In [[constructive mathematics]], the extended natural numbers $\overline{\mathbb{N}}$ and the [[disjoint union]] $\mathbb{N} + \{\infty\}$ are no longer the same; it is $\mathbb{N} + \{\infty\}$ which remains the natural numbers object in $Set_*$.
 
 #### Interpretation as universal Set-bundle 
  {#InterpretationAsUniversalSetBundle}
