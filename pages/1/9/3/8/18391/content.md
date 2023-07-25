@@ -36,14 +36,20 @@ Buium explains that when working with a single prime his approach is consistent 
 
 * [[arithmetic jet space]]
 
+* [[Joyal delta-ring]]
+
 * [[Borger's absolute geometry]]
 
 * [[D-geometry]]
 
 * [[arithmetic geometry]]
 
-##References 
+## References 
 
 * {#Buium17} [[Alexandru Buium]], _Foundations of arithmetic differential geometry_, 2017, AMS, Mathematical Surveys and Monographs Vol. 222, ([AMS](http://bookstore.ams.org/surv-222/), [Preface and Introduction](http://www.math.unm.edu/~buium/foundationsintro.pdf)).
 
 * [[Alexandru Buium]], _Arithmetic differential geometry_, May 19, 2017, [talk slides](http://www.math.unm.edu/~buium/adgtalk.pdf)
+
+[[!redirects arithmetic derivative]]
+[[!redirects arithmetic derivatives]]
+
