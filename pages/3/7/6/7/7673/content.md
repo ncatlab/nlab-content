@@ -577,7 +577,7 @@ Review:
 
 Contextual categories as models for [[homotopy type theory]] are discussed in
 
-* {#KapulkinLumsdaine16} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
+* {#KapulkinLumsdaine16} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The homotopy theory of type theories*, Advances in Mathematics **337** (2018) 1-38 &lbrack;[arXiv:1610.00037](https://arxiv.org/abs/1610.00037), [doi:10.1016/j.aim.2018.08.003](https://doi.org/10.1016/j.aim.2018.08.003)&rbrack;
 
 * {#Joyal17} [[André Joyal]], _Notes on Clans and Tribes_ &lbrack;[arXiv:1710.10238](https://arxiv.org/abs/1710.10238)&rbrack;
 
