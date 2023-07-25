@@ -138,6 +138,13 @@ In case $R$ is an [[integral domain]], the [[field of fractions]] of $R[z]$ is t
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+The underlying $R$-[[module]] of the polynomial ring $R[z]$ on one generator is the [[natural numbers object]] in the category [[RMod]] of $R$-modules.  
+
+=--
+
 ### As differential algebras
 
 Polynomial rings on one generator also have the structure of a [[differential algebra]]. 
