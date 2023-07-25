@@ -7,3 +7,13 @@ Under nice conditions on the category $C$, the cocontinuity in separate variable
 Any cocomplete [[cartesian closed category]] is monoidally cocomplete.
 
 [[Day convolution]] provides a construction of the free monoidally cocomplete category on a small monoidal category.
+
+## Related pages
+
+- [[monoidal category]]
+- [[cocomplete category]]
+- [[Day convolution]]
+
+## References
+
+* Geun Bin Im and G. M. Kelly, _A universal property of the convolution monoidal structure_, J. Pure Appl. Algebra 43 (1986), no. 1, 75-88.
