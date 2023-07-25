@@ -16,7 +16,7 @@ Affine Grassmannian of $SL_n$ admits embedding into [[Sato Grassmanian]].
 
 * Xinwen Zhu, _An introduction to affine Grassmannians and the geometric Satake  equivalence_, [arXiv:1603.05593](http://arxiv.org/abs/1603.05593v2).
 
-* [[Bhargav Bhatt]], [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, [arXiv:1507.06490](http://arxiv.org/abs/1507.06490)
+* [[Bhargav Bhatt]], [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, Invent. math. 209, 329-423 (2017) [doi](https://doi.org/10.1007/s00222-016-0710-4) [arXiv:1507.06490](https://arxiv.org/abs/1507.06490)
 
 * Alexander Schmitt, _Affine flag manifolds and principal bundles_, Trends in Mathematics, Springer 2010
 
