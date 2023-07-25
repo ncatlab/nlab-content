@@ -119,21 +119,27 @@ On adiabatic quantum computation combined with [[parameterized quantum system|pa
 
 
 
-### Geometric phase gates
+### Geometric phase gates, holonomic quantum computation
 
-References which consider quantum gates operating by (nonabelian) geometric Berry phases due to adiabatic parameter movement:
+References which consider quantum gates operating by (nonabelian) geometric Berry phases due to adiabatic parameter movement (*holonomic quantum computation*):
 
 * [[Paolo Zanardi]], [[Mario Rasetti]], *Holonomic Quantum Computation*, Phys. Lett. A **264** (1999) 94-99 &lbrack;<a href="https://doi.org/10.1016/S0375-9601(99)00803-8">doi:10.1016/S0375-9601(99)00803-8</a>, [arXiv:quant-ph/9904011](https://arxiv.org/abs/quant-ph/9904011)&rbrack;
+
+* [[Jiannis Pachos]], [[Paolo Zanardi]], [[Mario Rasetti]], *Non-Abelian Berry connections for quantum computation*, Phys. Rev. A **61** (2000) 010305 &lbrack;[arXiv:quant-ph/9907103](https://arxiv.org/abs/quant-ph/9907103), [doi:10.1103/PhysRevA.61.010305](https://doi.org/10.1103/PhysRevA.61.010305)&rbrack;
 
 * Jonathan A. Jones, Vlatko Vedral, Artur Ekert, Giuseppe Castagnoli, *Geometric quantum computation using nuclear magnetic resonance*, Nature **403** (2000) 869–871 &lbrack;[doi:10.1038/35002528](https://doi.org/10.1038/35002528)&rbrack;
 
 * Giuseppe Falci, Rosario Fazio, G. Massimo Palma, Jens Siewert & Vlatko Vedral, *Detection of geometric phases in superconducting nanocircuits*, Nature **407** 355–358 (2000) &lbrack;[doi:10.1038/35030052](https://doi.org/10.1038/35030052)&rbrack;
+
+* [[Jiannis Pachos]], [[Paolo Zanardi]], *Quantum Holonomies for Quantum Computing*, Int. J. Mod. Phys. B **15** (2001) 1257-1286 &lbrack;[arXiv:quant-ph/0007110](https://arxiv.org/abs/quant-ph/0007110), [doi:10.1142/S0217979201004836](https://doi.org/10.1142/S0217979201004836)&rbrack;
 
 * L. M. Duan, J. I. Cirac, P. Zoller, *Geometric Manipulation of Trapped Ions for Quantum Computation*, Science **292** (2001) 1695 &lbrack;[arXiv:quant-ph/0111086](https://arxiv.org/abs/quant-ph/0111086), [doi:10.1126/science.1058835](https://doi.org/10.1126/science.1058835)&rbrack;
 
 * Jiang Zhang, Thi Ha Kyaw, Stefan Filipp, Leong-Chuan Kwek, Erik Sjöqvist, Dianmin Tong, *Geometric and holonomic quantum computation* &lbrack;[arXiv:2110.03602](https://arxiv.org/abs/2110.03602)&rbrack;
 
 * Daniel Turyansky et al., *Inertial geometric quantum logic gates* &lbrack;[arXiv:2303.13674](https://arxiv.org/abs/2303.13674)&rbrack;
+
+* Logan W. Cooke et al., *Demonstration of Floquet engineered non-Abelian geometric phase for holonomic quantum computing* &lbrack;[arXiv:2307.12957](https://arxiv.org/abs/2307.12957)&rbrack;
 
 
 ### In topological quantum computation
@@ -180,3 +186,8 @@ References which make explicit that [[topological quantum computation]] by [[bra
 
 
 [[!redirects quantum annealing]]
+
+
+[[!redirects holonomic quantum computation]]
+
+
