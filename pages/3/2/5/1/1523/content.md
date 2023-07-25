@@ -74,6 +74,9 @@ See also [[categorification]].
 
 The claim that every extended natural number is either finite or infinite is equivalent to the [[limited principle of omniscience]] ($LPO$) for natural numbers.  On the other hand, the $LPO$ for extended natural numbers is simply true; given any function from $\bar{\mathbb{N}}$ to $\{0,1\}$, it is either all $0$s or has a $1$.  See [Escard&#243; (2011)](#Escardo).
 
+## Related concepts
+
+* [[extended natural numbers object]]
 
 ## References
 
