@@ -23,7 +23,7 @@ Notice that the [[coherence theorem for symmetric monoidal categories]] only say
 
 ## Examples
 
-Commutative monoidal categories are the natural type of category that [[Petri nets]] freely generate ([Baez-Master 18, Section 2](#BaezMaster18)).   
+Commutative monoidal categories are the natural type of category that [[Petri nets]] freely generate ([Meseguer-Montanari 90](#MeseguerMontanari90), [Baez-Master 18, Section 2](#BaezMaster18)).   
 
 The symmetric monoidal category of [[line bundles]] on a topological space, or [[smooth line bundles]] on a manifold, or [[invertible sheaf|invertible sheaves]] on a variety or scheme, is symmetric monoidally equivalent to a commutative monoidal category under the usual tensor product of these structures.
 
@@ -63,6 +63,7 @@ This conjecture was proved in [Kim 16](#Kim16) under the assumption that the obj
 
 ## References
 
+* {#MeseguerMontanari90} [[José Meseguer]], [[Ugo Montanari]], _Petri Nets are Monoids_ ([pdf](https://core.ac.uk/download/pdf/82342688.pdf))
 
 * {#BaezMaster18} [[John Baez]], [[Jade Master]], Section 2 of: _Open Petri Nets_ ([arXiv:1808.05415](https://arxiv.org/abs/1808.05415))
 
