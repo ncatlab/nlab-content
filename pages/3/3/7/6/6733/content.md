@@ -570,6 +570,9 @@ Further developments:
 
 * [[Pichet Vanichchapongjaroen]], *Covariant M5-brane action with self-dual 3-form* ([arXiv:2011.14384](https://arxiv.org/abs/2011.14384))
 
+* Sukŗti Bansal, *Manifestly Covariant Polynomial M5-brane Lagrangians* &lbrack;[arXiv:2307.13449](https://arxiv.org/abs/2307.13449)&rbrack;
+
+
 
 
 
