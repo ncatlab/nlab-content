@@ -54,6 +54,16 @@ On [[AdS-CFT duality|AdS-CFT dual]] [[type II supergravity]]-solutions correspon
 
 * [[Iosif Bena]], [[Stefano Giusto]], [[Rodolfo Russo]], [[Masaki Shigemori]], [[Nicholas P. Warner]], *Habemus Superstratum! A constructive proof of the existence of superstrata*, JHEP 1505 (2015) 110 &lbrack;[arXiv:1503.01463](https://arxiv.org/abs/1503.01463)&rbrack;
 
+and the non-supersymmetric generalization via [[AdS3-CFT2 duality]] ("[[microstrata]]"):
+
+* [[Bogdan Ganchev]], [[Anthony Houppe]], [[Nicholas P. Warner]], *Q-Balls Meet Fuzzballs: Non-BPS Microstate Geometries*, J. High Energ. Phys. **2021** 28 (2021)
+&lbrack;[arXiv:2107.09677](https://arxiv.org/abs/2107.09677)&rbrack;
+
+* [[Bogdan Ganchev]], [[Stefano Giusto]], [[Anthony Houppe]], [[Rodolfo Russo]], *$AdS_3$ holography for non-BPS geometries*, European Physical Journal C **82** 217 (2022)
+ &lbrack;[https://arxiv.org/abs/2112.03287](https://arxiv.org/abs/2112.03287), [doi:10.1140/epjc/s10052-022-10133-2](https://doi.org/10.1140/epjc/s10052-022-10133-2)&rbrack;
+
+
+
 
 
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
