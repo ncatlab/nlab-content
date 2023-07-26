@@ -118,7 +118,9 @@ The geometric or combinatorial semantics of epistemic models follows the same te
 
 ## References
 
-Early discussion of epistemical modal logic:
+### General
+
+Early discussion of epistemic modal logic:
 
 * [[Georg H. von Wright]], Section IV of: *An Essay in Modal Logic*, North-Holland Publishing (1951)
 
@@ -144,6 +146,15 @@ General books on [[modal logic]] with discussion of epistemic logic:
 See also:
 
 * Wikipedia, *[Epistemic modal logic](https://en.wikipedia.org/wiki/Epistemic_modal_logic)*
+
+
+
+
+[[!include S5 modal logic as epistemic logic -- references]]
+
+
+
+
 
 [[!redirects epistemic modal logics]]
 
