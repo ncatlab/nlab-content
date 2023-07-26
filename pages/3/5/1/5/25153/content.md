@@ -6,9 +6,9 @@ In [[dependent type theory]], a [[sequence]] in a type $A$ is a family of elemen
 
 ## Definition
 
-Given a family of types indexed by the natural numbers $n:\mathbb{N} \vdash A(x)$, a **dependent sequence** can be defined as 
+Given a family of types indexed by the natural numbers $n:\mathbb{N} \vdash A(n)$, a **dependent sequence** can be defined as 
 
-* a family of elements $n:\mathbb{N} \vdash x(n):A(x)$
+* a family of elements $n:\mathbb{N} \vdash x(n):A(n)$
 
 * a [[dependent sequential net]] $(x:\mathbb{N} \vdash P(x); x:\mathbb{N}, p:P(x) \vdash f(x, p):B(x), x:\mathbb{N} \vdash \mathrm{isInhab}(x):\left[P(x)\right])$ for which the dependent type $P(x)$ is a [[contractible type]] for all natural numbers $x:\mathbb{N}$
 
