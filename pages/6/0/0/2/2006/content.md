@@ -194,6 +194,8 @@ See [here](Kleisli+category+of+a+comonad#MatrixmultiplicationAsCoKleisliComposit
 
 * [[Kleisli 2-category]]
 
+* [[thunk-force category]]
+
 
 ## References
 
