@@ -43,9 +43,9 @@ The introduction rules for dependent and non-dependent heterogeneous identity ty
 
 Finally, as with every other type in [[dependent type theory]], the [[computation rules]] of both dependent and non-dependent heterogeneous identity types use [[judgmental equality]], [[propositional equality]], or [[typal equality]]. 
 
-### Rules for non-dependent heterogeneous identity types
+### Inference rules for non-dependent heterogeneous identity types
 
-In the same way that there are rules for non-dependent function types and non-dependent pair types, there are also rules for non-dependent heterogeneous identity types, where the type family $B$ is a constant type family. 
+In the same way that there are [[inference rules]] for non-dependent function types and non-dependent pair types, there are also rules for non-dependent heterogeneous identity types, where the type family $B$ is a constant type family. 
 
 Formation rule for non-dependent heterogeneous identity types:
 $$\frac{
