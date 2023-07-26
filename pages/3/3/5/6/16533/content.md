@@ -39,9 +39,28 @@ Review:
 
 ### Via superstrata
 
-* Daniel R. Mayerson, Masaki Shigemori, _Counting D1-D5-P Microstates in Supergravity_ ([arXiv:2010.04172](https://arxiv.org/abs/2010.04172))
+On [[AdS-CFT duality|AdS-CFT dual]] [[type II supergravity]]-solutions corresponding to D1-D5-P bound states ("superstrata"):
+
+* [[Iosif Bena]], [[Stefano Giusto]], [[Rodolfo Russo]], [[Masaki Shigemori]], [[Nicholas P. Warner]], *Habemus Superstratum! A constructive proof of the existence of superstrata*, JHEP 1505 (2015) 110 &lbrack;[arXiv:1503.01463](https://arxiv.org/abs/1503.01463)&rbrack;
+
+* [[Masaki Shigemori]], *Superstrata*, Gen Relativ Gravit **52** 51 (2020) &lbrack;[h)arXiv:2002.01592](https://arxiv.org/abs/2002.01592), [doi:10.1007/s10714-020-02698-8](https://doi.org/10.1007/s10714-020-02698-8)&rbrack;
+
+
+* Daniel R. Mayerson, Masaki Shigemori, _Counting D1-D5-P Microstates in Supergravity_ &lbrack;[arXiv:2010.04172](https://arxiv.org/abs/2010.04172)&rbrack;
 
 * [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
+
+And the non-supersymmetric generalization to "microstrata", via [[Ad3-CFT2 duality]]:
+
+* [[Bogdan Ganchev]], [[Anthony Houppe]], [[Nicholas P. Warner]], *Q-Balls Meet Fuzzballs: Non-BPS Microstate Geometries*, J. High Energ. Phys. **2021** 28 (2021)
+&lbrack;[arXiv:2107.09677](https://arxiv.org/abs/2107.09677)&rbrack;
+
+* [[Bogdan Ganchev]], [[Stefano Giusto]], [[Anthony Houppe]], Rodolfo Russo, *$AdS_3$ holography for non-BPS geometries*, European Physical Journal C **82** 217 (2022)
+ &lbrack;[https://arxiv.org/abs/2112.03287](https://arxiv.org/abs/2112.03287), [doi:10.1140/epjc/s10052-022-10133-2](https://doi.org/10.1140/epjc/s10052-022-10133-2)&rbrack;
+
+
+* [[Bogdan Ganchev]], [[Stefano Giusto]], [[Anthony Houppe]], [[Rodolfo Russo]], [[Nicholas P. Warner]], *Microstrata* &lbrack;[arXiv:2307.13021](https://arxiv.org/abs/2307.13021)&rbrack;
+
 
 
 ### As instantons
@@ -88,6 +107,14 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 [[!redirects D1-D5 brane intersection]]
 [[!redirects D1-D5 brane intersections]]
+
+[[!redirects D1-D5-P bound state]]
+[[!redirects D1-D5-P bound states]]
+[[!redirects superstratum]]
+[[!redirects superstrata]]
+[[!redirects microstratum]]
+[[!redirects microstrata]]
+
 
 
 
