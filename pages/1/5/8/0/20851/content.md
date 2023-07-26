@@ -50,6 +50,10 @@ On non-uniqueness of [[black rings]]:
 
 * [[Iosif Bena]], [[Simon Ross]], [[Nicholas Warner]], _Coiffured Black Rings_, Class.Quant.Grav. 31 (2014) 165015 ([arXiv:1405.5217](https://arxiv.org/abs/1405.5217))
 
+On [[AdS-CFT duality|AdS-CFT dual]] [[type II supergravity]]-solutions corresponding to [[D1-D5-P bound states]] ("[[superstrata]]"):
+
+* [[Iosif Bena]], [[Stefano Giusto]], [[Rodolfo Russo]], [[Masaki Shigemori]], [[Nicholas P. Warner]], *Habemus Superstratum! A constructive proof of the existence of superstrata*, JHEP 1505 (2015) 110 &lbrack;[arXiv:1503.01463](https://arxiv.org/abs/1503.01463)&rbrack;
+
 
 
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
