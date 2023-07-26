@@ -1242,6 +1242,11 @@ Other original articles include:
 
 * Irina Ya. Aref'eva, Kristina Rannu, Pavel Slepov, _Energy Loss in Holographic Anisotropic Model for Heavy Quarks in External Magnetic Field_ ([arXiv:2012.05758](https://arxiv.org/abs/2012.05758))
 
+See also:
+
+* Si-wen Li, Yi-peng Zhang, *Correlation function of fundamental fermion in holographic QCD* &lbrack;[arXiv:2307.13357](https://arxiv.org/abs/2307.13357)&rbrack;
+
+
 
 
 ### Application to lepton anomalous magnetic moment
