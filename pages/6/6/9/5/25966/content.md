@@ -47,3 +47,11 @@ The same idea applies to any infinitary [[algebraic theory]].
 From this point of view, identifying (equivalence classes of) $n$-ary operations of $T$ with natural transformations $f: U^n \to U$, one also often says that $f$ is constant if it factors through the unique map $U^n \to 1$, as in [[constant morphism]]. 
 
 For example, for the Lawvere theory of commutative $R$-algebras, $n$-ary operations $U^n \to U$ are in natural bijection with polynomials $p \in R[x_1, \ldots, x_n]$, and such a $p$ is constant iff it belongs to the image of the canonical inclusion map $R \to R[x_1, \ldots, x_n]$. See also [[constant polynomial]]. 
+
+## Related concepts
+
+* [[constant function]]
+
+[[!redirects constants of a theory]]
+
+
