@@ -33,6 +33,9 @@ $$
 Dependent\; K \colon \Box \Pi_{y:A} B(y) \to \Pi_{x: \Box A} \Box B [open\; x/y].
 $$
 
+## Related concepts
+
+* [[K modal logic]]
 
 ## References
 
