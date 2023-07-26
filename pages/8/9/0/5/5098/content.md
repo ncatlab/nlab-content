@@ -1,5 +1,24 @@
 
-# The epistemic logics $K$ and $K_{(m)}$
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Modalities
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
+# Contents #
 * table of contents
 {:toc}
 
@@ -50,15 +69,28 @@ This logic is the smallest [[normal modal logic]].
 
 ## Semantics
 
-The semantics of $K_{(m)}$ is just the Kripke semantics of this context, so a [[frame (modal logic)|frame]], $\mathfrak{F}$ is just a set, $W$  of possible worlds with $m$ relations $R_i$. A [[geometric models for modal logics|model]], $\mathfrak{M} = (\mathfrak{F},V)$, is a frame in that sense together with a valuation, $V: Prop \to \mathcal{P}(W)$, and the satisfaction relation is as described in [[geometric models for modal logics]] with just the difference implied by the fact that that page correspond to the use of $\Diamond_i = M_i$ whilst this uses $K_i$.  This means that 
+The semantics of $K_{(m)}$ is just the [[Kripke semantics]] of this context, so a [[frame (modal logic)|frame]], $\mathfrak{F}$ is just a set, $W$  of [[possible worlds]] with $m$ [[relations]] $R_i$. A [[geometric models for modal logics|model]], $\mathfrak{M} = (\mathfrak{F},V)$, is a frame in that sense together with a valuation, $V \colon Prop \to \mathcal{P}(W)$, and the satisfaction relation is as described in [[geometric models for modal logics]] with just the difference implied by the fact that that page correspond to the use of $\Diamond_i = M_i$ whilst this uses $K_i$.  This means that 
 
 * $\mathfrak{M},w \models K_i \phi$ if and only if, for all $v \in W$ such that $ R_i w v$, $\mathfrak{M},v \models \phi$.
 
 ## Related concepts
 
-* [[epistemic modal logic]]
+* [[modal logic]], [[epistemic modal logic]]
 
 * [[necessity and possibility]]
+
+* [[T modal logic]]
+
+* [[S4 modal logic]]
+
+* [[S5 modal logic]]
+
+
+## References
+
+The notation "K" for a modal operator meant to express [[epistemic modality]] originates with:
+
+* [[K. Jaakko J. Hintikka]], *Knowledge and belief: An introduction to the logic of the two notions*, Cornell University Press (1962) &lbrack;[ark:/13960/t9k437s65](https://archive.org/details/knowledgebeliefi00hint_0)&rbrack;
 
 
 [[!redirects the logic K(m)]]
@@ -66,4 +98,5 @@ The semantics of $K_{(m)}$ is just the Kripke semantics of this context, so a [[
 [[!redirects The logic $K_{(m)}$]]
 [[!redirects K(m)]]
 
-[[!redirects K modal logic]]
+
+
