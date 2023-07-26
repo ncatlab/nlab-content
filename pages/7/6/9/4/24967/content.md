@@ -118,6 +118,15 @@ The geometric or combinatorial semantics of epistemic models follows the same te
 
 ## References
 
+Early discussion of epistemical modal logic:
+
+* [[Georg H. von Wright]], Section IV of: *An Essay in Modal Logic*, North-Holland Publishing (1951)
+
+and introducing the formalization as [[K modal logic]]:
+
+* [[K. Jaakko J. Hintikka]], *Knowledge and belief: An introduction to the logic of the two notions*, Cornell University Press (1962) &lbrack;[ark:/13960/t9k437s65](https://archive.org/details/knowledgebeliefi00hint_0)&rbrack;
+
+
 A fairly recent book on epistemic logics and their applications (which was used for some of the material above):
 
 * J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995,
@@ -140,6 +149,9 @@ See also:
 
 [[!redirects epistemic logic]]
 [[!redirects epistemic logics]]
+
+[[!redirects epistemic modality]]
+[[!redirects epistemic modalities]]
 
 
 
