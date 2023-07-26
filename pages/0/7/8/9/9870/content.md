@@ -34,11 +34,12 @@ In [[string theory]] Baum-Douglas cycles constitute one formalization of the con
 
 ## References
 
-The original articles are
+The original articles:
 
-* [[Paul Baum]], R. Douglas, _K-homology and index theory: Operator Algebras and Applications (R. Kadison editor), volume 38 of Proceedings of Symposia in Pure Math., 117-173, Providence RI, 1982. AMS.
+* [[Paul Baum]], R. Douglas, *K-homology and index theory*, in: R. Kadison (ed.), *Operator Algebras and Applications, Proceedings of Symposia in Pure Math. **38** AMS (1982) 117-173 &lbrack;[ams:pspum-38-1](https://bookstore.ams.org/pspum-38-1)&rbrack;
 
-* [[Paul Baum]], R. Douglas. _Index theory, bordism, and K-homology_, Contemp. Math. 10: 1-31 1982.
+* [[Paul Baum]], R. Douglas. _Index theory, bordism, and K-homology_, Contemp. Math. **10** (1982) 1-31
+
 
 A generalization to [[twisted K-theory|twisted]] homology is discussed in section of
 
@@ -61,7 +62,7 @@ and a construction of [[bivariant cohomology theories]] in this spirit is in
 
 The interpretation as a formalization of [[D-branes]] in [[string theory]] is highlighted in
 
-* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
+* {#ReisSzabo05} [[Rui Reis]], [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
 
 * {#Szabo08} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
 
