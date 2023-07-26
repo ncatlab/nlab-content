@@ -83,6 +83,10 @@ Lecture notes in view of application to [[perturbative quantum field theory]] vi
 
 * Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
 
+Discussion that cancellation of the [[quantum anomaly]] of the spinning particle precisely requires [[Spin-structure]] on its [[target spacetime]]:
+
+* {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
+
 
 Discussion of worldline dynamics of spinning particles in [[background fields]]:
 
@@ -92,9 +96,12 @@ Discussion of worldline dynamics of spinning particles in [[background fields]]:
 
 * Krzysztof Andrzejewski, Cezary Gonera, Joanna Goner, Piotr Kosinski, Pawel Maslanka, _Spinning particles, coadjoint orbits and Hamiltonian formalism_ ([arXiv:2008.09478](https://arxiv.org/abs/2008.09478))
 
-Discussion that cancellation of the [[quantum anomaly]] of the spinning particle precisely requires [[Spin-structure]] on its [[target spacetime]]:
+Discussion via [[coadjoint orbits]]:
 
-* {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
+* Thomas Basile, Euihun Joung, TaeHwan Oh, *Manifestly Covariant Worldline Actions from Coadjoint Orbits. Part I: Generalities and Vectorial Descriptions* &lbrack;[arXiv:2307.13644](https://arxiv.org/abs/2307.13644)&rbrack;
+
+
+
 
 
 
