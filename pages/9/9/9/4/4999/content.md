@@ -311,6 +311,12 @@ translated in:
 
 *  Stefania Centrone, Pierluigi Minari, *Oskar Becker, On the Logic of Modalities (1930): Translation, Commentary and Analysis*,  Synthese Library **444**, Springer (2022) &lbrack;[doi:10.1007/978-3-030-87548-0](https://doi.org/10.1007/978-3-030-87548-0)&rbrack;
 
+The modern formalization of modal logic (and their enumeration by S1, ..., [[S4]], [[S5]]) originates with
+
+* [[Clarence I. Lewis]], [[Cooper H. Langford]], pp 153 & App II of: *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
+
+(who say "modal functions" for [[modal operators]]).
+
 Historical overview and introduction:
 
 * {#Goldblatt03} [[Robert Goldblatt]], *Mathematical modal logic: A view of its evolution*, Journal of Applied Logic **1** 5–6 (2003) 309-392 &lbrack;<a href="https://doi.org/10.1016/S1570-8683(03)00008-9">doi:10.1016/S1570-8683(03)00008-9</a>&rbrack;
