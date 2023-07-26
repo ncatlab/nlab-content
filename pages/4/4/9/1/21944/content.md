@@ -14,6 +14,12 @@ On [[D1-D5-brane bound states]]:
 
 * [[Iosif Bena]], [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
 
+On [[AdS-CFT duality|AdS-CFT dual]] [[type II supergravity]]-solutions corresponding to [[D1-D5-P bound states]] ("[[superstrata]]"):
+
+* [[Iosif Bena]], [[Stefano Giusto]], [[Rodolfo Russo]], [[Masaki Shigemori]], [[Nicholas P. Warner]], *Habemus Superstratum! A constructive proof of the existence of superstrata*, JHEP 1505 (2015) 110 &lbrack;[arXiv:1503.01463](https://arxiv.org/abs/1503.01463)&rbrack;
+
+
+
 
 Discussion of [[D-brane polarization]] in context of the [[AdS/CFT correspondence]] and [[AdS/QCD correspondence]]:
 
@@ -49,7 +55,6 @@ On the relation of [[polarized branes]] to [[giant gravitons]]:
 
 * [[Iosif Bena]], Douglas Smith, 
 _Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
-
 
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
 
