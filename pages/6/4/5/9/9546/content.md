@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -79,12 +78,20 @@ $$
 
 ## References
 
-* {#KK} [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, vol. 91, p.147 ([web](http://adsabs.harvard.edu/abs/1988InMat..91..147K))
+The "geometric model" of K-homology (cf. *[[Baum-Douglas geometric cycle]]*) is due to:
+
+* [[Paul Baum]], R. Douglas, *K-homology and index theory*, in: R. Kadison (ed.), *Operator Algebras and Applications, Proceedings of Symposia in Pure Math. **38** AMS (1982) 117-173 &lbrack;[ams:pspum-38-1](https://bookstore.ams.org/pspum-38-1)&rbrack;
+
+* [[Paul Baum]], R. Douglas. _Index theory, bordism, and K-homology_, Contemp. Math. **10** (1982) 1-31
+
+Analytic formulation via [[KK-theory]]:
+
+* {#KK} [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, **91** (1988) 147 &lbrack;[doi:10.1007/BF01404917](https://doi.org/10.1007/BF01404917), [web](http://adsabs.harvard.edu/abs/1988InMat..91..147K)&rbrack;
 
 
 An expository account of the analytic model:
 
-* [[Nigel Higson]], [[John Roe]], _Analytic K-homology_, Oxford Mathematical Monographs. Oxford University Press, Oxford, 2000, Oxford Science Publications.  ISBN: 9780198511762
+* [[Nigel Higson]], [[John Roe]], _Analytic K-homology_, Oxford Mathematical Monographs. Oxford University Press, Oxford (2000) &lbrack;[ISBN: 9780198511762](https://global.oup.com/academic/product/analytic-k-homology-9780198511762?cc=nl&lang=en&)&rbrack;
 
 Twisted K-homology:
 
