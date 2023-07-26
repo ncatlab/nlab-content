@@ -597,6 +597,10 @@ We see that the base type $B$ (eq:FiniteBaseType) *of [[quantum measurement]] ou
 
 ## References
 
+Discussion of [[modal logic]] of necessity and possibility goes back to [[Aristotle]], as nicely reviewed in
+
+* {#LemmonScott77} [[E. John Lemmon]] with [[Dana Scott]], pp 1-12 of: *An Introduction to Modal Logic -- The "Lemmon Notes"*, B. Blackwell (1977) &lbrack;[ark:/13960/t3gz25k3h](https://archive.org/details/introductiontomo0000lemm/)&rbrack;
+
 In 
 
 * [[Kant]], _Critique of pure reason_ 1781
@@ -608,6 +612,12 @@ In
 * [[Georg Hegel]], [book 2, section 3](http://ncatlab.org/nlab/show/Science+of+Logic#DieWirklichkeit), especially [book 2, section 3, chapter 2](http://ncatlab.org/nlab/show/Science+of+Logic#DieWirklichkeitKapitel2) in  _[[Science of Logic]]_ (1812)
 
 this is picked up and claimed to be refined to a [[dialectic]] system of [[unity of opposites|unities of opposites]].
+
+Early discussion in the context of [[alethic modal logic]]:
+
+* {#Wright51} [[Georg H. von Wright]], *An Essay in Modal Logic*, North-Holland Publishing (1951)
+
+See also:
 
 * {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
 
@@ -631,3 +641,5 @@ this is picked up and claimed to be refined to a [[dialectic]] system of [[unity
 
 [[!redirects definiteness and randomness]]
 
+[[!redirects alethic modal logic]]
+[[!redirects alethic modality]]
