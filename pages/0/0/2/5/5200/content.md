@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Modalities, Closure and Reflection
+#### Modalities
 +-- {: .hide}
 [[!include modalities - contents]]
 =--
@@ -68,23 +68,32 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
 
 ## Related concepts
 
+* [[modal logic]], [[S5 modal logic]]
+
 * [[epistemic modal logic]], [[necessity and possibility]]
 
 * [[K modal logic]]
   
 * [[T modal logic]]
 
+* [[Kripke frame]]
+
 * [[Löb's axiom]]
 
 
 ## References
 
-* {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
+The terminology "S4" in modal logic originates with:
 
+* [[Clarence I. Lewis]], [[Cooper H. Langford]], App. II, p 501 of: *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
+
+See also:
+
+* {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
 
 * Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], and Eike Ritter, _Categorical and Kripke Semantics for Constructive S4 Modal Logic_ ([pdf](http://www.cs.nott.ac.uk/~nza/papers/Alechina++:01a.pdf))
 
-* Gavin M. Bierman and Valeria de Paiva, _On an Intuitionistic Modal Logic_ Studia Logica volume 65, pages 383–416 (2000) ([pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf))
+* [[Gavin M. Bierman]], [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_ Studia Logica volume 65, pages 383–416 (2000) ([pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf))
 
 * [[Alex Simpson]], _The proof theory and semantics of intuitionistic modal logic_ ([pdf] (https://era.ed.ac.uk/handle/1842/407))
 
