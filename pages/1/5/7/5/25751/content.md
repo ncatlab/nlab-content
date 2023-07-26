@@ -24,7 +24,7 @@ The notion of **locally graded category** is a joint generalisation of [[enriche
 
 ## Definition
 
-Let $(V, \otimes, I)$ be a [[monoidal category]]. A **locally $V$-graded category** is a [[enriched category|category enriched]] over the [[presheaf category]] $([V^{op}, Set], \widehat\otimes, y_V)$, regarded with its monoidal structure given by [[Day convolution]].
+Let $(V, \otimes, I)$ be a [[monoidal category]]. For small $V$, a **locally $V$-graded category** is a [[enriched category|category enriched]] over the [[presheaf category]] $([V^{op}, Set], \widehat\otimes, y_V)$, regarded with its monoidal structure given by [[Day convolution]].
 
 ## Locally indexed categories
 
