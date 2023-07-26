@@ -10,3 +10,5 @@ On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]
 * {#Bierman95} [[Gavin Bierman]], *On Intuitionistic Linear Logic*, Cambridge (1993)  &lbrack;[pdf](https://www.dropbox.com/s/hdxgubjljb96rmf/Biermanthesis.pdf?dl=0)&rbrack;
 
 category: people
+
+[[!redirects Gavin M. Bierman]]
