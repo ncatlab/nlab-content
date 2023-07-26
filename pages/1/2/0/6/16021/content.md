@@ -52,6 +52,8 @@ In the [[Kripke frame]] semantics for modal logic, the accessibility relation fo
 
 ## References
 
+### General 
+
 The terminology "S5" in modal logic originates with:
 
 * [[Clarence I. Lewis]], [[Cooper H. Langford]], App. II, p 501 of: *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
@@ -63,6 +65,13 @@ The [[geometric model for modal logics|geometric model]] for S5 modal logic via 
 See also:
 
 * Wikipedia, *[S5 (modal logic)](http://en.wikipedia.org/wiki/S5_%28modal_logic%29)*
+
+
+
+[[!include S5 modal logic as epistemic logic -- references]]
+
+
+
 
 
 
