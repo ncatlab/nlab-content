@@ -11,7 +11,7 @@ One proposed application is to resolve paradoxes of Sorites type. For example, t
 
 To be properly considered "a logic", fuzzy logic should be developed into a full-fledged deductive system (with rules of inference and so on), but historically this has been a source of difficulty. See the [SEP](#SEP) for a description of what has been achieved on this front. 
 
-It may also be questioned whether it makes sense to have degrees of certainty be totally ordered, as $[0, 1]$ is. Goguen for example allows consideration of frames or locales $L$ more general than those supported on $[0, 1]$. For some analysis, see [Barr(1986)](#Barr). 
+It may also be questioned whether it makes sense to have degrees of certainty be totally ordered, as $[0, 1]$ is. Goguen for example allows consideration of frames or locales $L$ more general than $[0, 1]$, and presumably the same consideration would extend to quantale structures more general than those supported on $[0, 1]$. For some analysis of Goguen's framework, see [Barr(1986)](#Barr). 
 
 ## Examples
 
