@@ -40,7 +40,7 @@ and constants of $T$ may be identified, up to natural isomorphism, with natural 
 
 $$1 \to U$$ 
 
-(where $1 = U^0$ here denotes the terminal functor $Set^T \to Set$). Alternatively, constants of $T$ may be naturally identified with morphisms in the hom-set $T(i(1), i(0))$ where $i: FinSet^{op} \to T$ is the product-preserving functor given as one of the data for $T$. 
+(where $1 = U^0$ here denotes the terminal functor $Set^T \to Set$). Alternatively, constants of $T$ may be naturally identified with morphisms in the hom-set $T(i(0), i(1))$ where $i: FinSet^{op} \to T$ is the product-preserving functor given as one of the data for $T$. 
 
 The same idea applies to any infinitary [[algebraic theory]]. 
 
