@@ -70,7 +70,7 @@ If $p: F \to X$ is [[surjection|surjective]] and every [[fiber]] is finite, then
 
 +-- {: .proof} 
 ###### Proof 
-Using Proposition \ref{total} to totally order $F$, each fiber inherits a total order that is a [[well-ordered set|well-order]] by finiteness, and we can choose $s(x)$ for $x \in X$ to be the least element in the fiber $F_x$ by nonemptiness. 
+Use Proposition \ref{total} to totally order $F$. Each fiber inherits a total order; being finite, it is [[well-ordered set|well-order]]. Then choose $s(x)$ for $x \in X$ to be the least element in the fiber $F_x$ (which is nonempty because $p$ is surjective). 
 =-- 
 
 +-- {: .num_prop #countable} 
