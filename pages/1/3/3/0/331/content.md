@@ -178,6 +178,10 @@ Textbooks on mathematical logic:
 
 * {#HilbertAckermann59} [[David Hilbert]], [[Wilhelm Ackermann]], _Grundz&#252;ge der Theoretischen Logik_, 4th ed. Springer Heidelberg 1959 [1928]
 
+* [[Clarence I. Lewis]], [[Cooper H. Langford]], *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
+
+  > (giving the first modern formalizations of [[modal logic]])
+
 * {#BellMach77} [[John Lane Bell]], M. Machover, _A Course in Mathematical Logic_, North-Holland Amsterdam 1977. (ch. 10,&#167;5) ([ISBN:9780720428445](https://www.elsevier.com/books/a-course-in-mathematical-logic/bell/978-0-7204-2844-5))
 
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
