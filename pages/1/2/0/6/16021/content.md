@@ -1,4 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Modalities
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The [[modal logic]] obtained from [[S4 modal logic]] by adding the axiom that there is the [[implication]]
 
 $$
@@ -11,14 +36,27 @@ In the [[Kripke frame]] semantics for modal logic, the accessibility relation fo
 
 ## Related concepts
 
-* [[necessity and possibility]]
+* [[modal logic]], [[S4 modal logic]]
+
+* [[epistemic modal logic]], [[necessity and possibility]]
+
+* [[K modal logic]]
+  
+* [[T modal logic]]
 
 * [[Kripke frame]]
+
+* [[Löb's axiom]]
+
 
 
 ## References
 
-The notion is due to:
+The terminology "S5" in modal logic originates with:
+
+* [[Clarence I. Lewis]], [[Cooper H. Langford]], App. II, p 501 of: *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
+
+The [[geometric model for modal logics|geometric model]] for S5 modal logic via [[Kripke frames]] originates with: 
 
 * {#Kripke59} [[Saul A. Kripke]], *A Completeness Theorem in Modal Logic*, The Journal of Symbolic Logic **24** 1 (1959) 1-14 &lbrack;[doi:10.2307/2964568](https://doi.org/10.2307/2964568), [jstor:2964568](https://www.jstor.org/stable/2964568), [pdf](https://www.filosoficas.unam.mx/~morado/Cursos/17Modal/Kripke1959.pdf)&rbrack;
 
