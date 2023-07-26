@@ -49,13 +49,13 @@ where the "certain way" is (implicitly) specified by whatever [[axioms]] are sat
 
 For example (see also pointers [below](#Examples)):
 
-* in *[[epistemic logic]]* one considers modal operators meant to express that
+* in *[[alethic modal logic]]* ([Wright 1951, Sec. III](#Wright51)) one considers modal operators meant to express that
 
   "$p$ is _[[necessity|necessarily]]_ true", or that "$p$ is _[[possibility|possibly]]_ true"
 
-  (often read as "necessarily *known* to be true" etc., whence the reference to [[epistemology]])
-
   This is the original sense of modal logic, going all the way back to [[Aristotle]] (whose account on the matter is reviewed in much detail by [Lemmon & Scott (1977) pp 1-12](#LemmonScott77)).
+
+* in *[[epistemic modal logic]]* ([Wright 1951, Sec. IV](#Wright51)) one consider modal operators meant to express that something is "known to be true" etc. (whence the  reference to [[epistemology]]).
 
 * in *[[temporal logic]]* one considers modal operators meant to express that
 
@@ -316,6 +316,15 @@ The modern formalization of modal logic (and their enumeration by S1, ..., [[S4]
 * [[Clarence I. Lewis]], [[Cooper H. Langford]], pp 153 & App II of: *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
 
 (who say "modal functions" for [[modal operators]]).
+
+Early discussion making explicit [[epistemic modal logic]] and variants:
+
+* {#Wright51} [[Georg H. von Wright]], *An Essay in Modal Logic*, North-Holland Publishing (1951)
+
+* [[K. Jaakko J. Hintikka]], *Knowledge and belief: An introduction to the logic of the two notions*, Cornell University Press (1962) &lbrack;[ark:/13960/t9k437s65](https://archive.org/details/knowledgebeliefi00hint_0)&rbrack;
+
+  > (introducing the formalism of [[K modal logic]])
+
 
 Historical overview and introduction:
 
