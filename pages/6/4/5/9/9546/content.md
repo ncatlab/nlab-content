@@ -81,6 +81,13 @@ $$
 
 * {#KK} [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, vol. 91, p.147 ([web](http://adsabs.harvard.edu/abs/1988InMat..91..147K))
 
+
+An expository account of the analytic model:
+
+* [[Nigel Higson]], [[John Roe]], _Analytic K-homology_, Oxford Mathematical Monographs. Oxford University Press, Oxford, 2000, Oxford Science Publications.  ISBN: 9780198511762
+
+Twisted K-homology:
+
 * [[Christopher Douglas]], _On the Twisted K-Homology of Simple Lie Groups_, Topology 45 (2006), 955-988 ([arXiv:math/0402082](https://arxiv.org/abs/math/0402082))
 
 [[!redirects K-homology theory]]
