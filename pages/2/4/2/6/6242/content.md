@@ -288,6 +288,9 @@ further discussed in:
 
 * Samuel S. Holland Jr., _Orthomodularity in infinite dimensions; a theorem of M. Sol&#232;r_, Bull. Amer. Math. Soc. (N.S.) __32__ (1995) 205-234 &lbrack;[arXiv:math.RA/9504224](http://arxiv.org/abs/math/9504224)&rbrack;
 
+* Pavlos Kazakopoulos, Georgios Regkas, *Infinite Permutation Groups and the Origin of Quantum Mechanics* &lbrack;[arXiv:2307.13044](https://arxiv.org/abs/2307.13044)&rbrack;
+
+
 An account of quantum logic within a comprehensive discussion of [[quantum mechanics]] and its [[interpretation of quantum mechanics]]:
 
 * {#Scheibe73} [[Erhard Scheibe]], pp 71 in: *The logical analysis of quantum mechanics*, Pergamon Press Oxford (1973)
