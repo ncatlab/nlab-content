@@ -165,7 +165,7 @@ and codomain
 $$\prod_{c:A} \prod_{d:A} \prod_{r:\mathrm{Id}_A(c, d)} \prod_{e:B} \prod_{f:B} \prod_{s:\mathrm{hId}_{B}(c, d, r, e, f)} C(c, d, r, e, f, s)$$
 such that $J(t, a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))$ is equal to $t(f, a, b, p)$ in the type $C(a, b, p, f(a), f(b), \mathrm{apd}_{B}(f, a, b, p))$. 
 
-### Rules for dependent heterogeneous identity types
+### Inference rules for dependent heterogeneous identity types
 
 Formation rule for dependent heterogeneous identity types:
 $$\frac{
