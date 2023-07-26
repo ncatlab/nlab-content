@@ -24,6 +24,8 @@ See also [[constant morphism]].
 
 ## Related concepts
 
+* [[constant of a theory]]
+
 * **constant function** /  [[locally constant function]] 
 
 * [[constant sheaf]] / [[locally constant sheaf]]
