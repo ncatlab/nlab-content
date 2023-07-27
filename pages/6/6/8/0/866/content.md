@@ -219,6 +219,8 @@ Probably the trickiest bit is the definition of [[composition]] of binary relati
 
 ## Related concepts
 
+* [[Rel]]
+
 * [[graph]]
 
 * [[logical relation]]
