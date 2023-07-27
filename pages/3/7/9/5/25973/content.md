@@ -15,7 +15,7 @@ Discussion of [[S5 modal logic]] as [[epistemic logic]]:
 
 > p. 11: "The logical system S5 is by far the most popular and accepted epistemic logic"
 
-* Dov Samet, *S5 knowledge without partitions*, Synthese **172** (2010) 145–155 $[$[doi:10.1007/s11229-009-9469-0](https://doi.org/10.1007/s11229-009-9469-0)$]$
+* [[Dov Samet]], *S5 knowledge without partitions*, Synthese **172** (2010) 145–155 $[$[doi:10.1007/s11229-009-9469-0](https://doi.org/10.1007/s11229-009-9469-0)$]$
 
 * Meghyn Bienvenu, Hélène Fargier, Pierre Marquis, *Knowledge Compilation in the Modal Logic S5*, Proceedings of the AAAI Conference on Artificial Intelligence **24** 1 (2010) $[$[doi:10.1609/aaai.v24i1.7587](https://doi.org/10.1609/aaai.v24i1.7587), [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/7587/7448)$]$
 
