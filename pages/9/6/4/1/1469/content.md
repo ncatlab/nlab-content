@@ -52,6 +52,8 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 ## References
  {#References}
 
+Original references: [[EGA]] and [[SGA]].
+
 Textbook accounts:
 
 * {#ShafarevichVol1} [[Igor Shafarevich]], *Basic Algebraic Geometry 1 -- Varieties in Projective Space*, Springer (1977, 1994, 2013) &lbrack;[pdf](http://userpage.fu-berlin.de/aconstant/Alg2/Bib/Shafarevich.pdf), [doi:10.1007/978-3-642-57908-0](https://link.springer.com/book/10.1007/978-3-642-57908-0)&rbrack;
