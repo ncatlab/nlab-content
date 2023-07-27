@@ -175,3 +175,7 @@ So we find that in general [[spin structure]]s on $X$ are not in bijection to ju
   _I: Diffeological Bundles and Fusion Maps _ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212))
 
   _II: Gerbes and Fusion Bundles with Connection_ ([arXiv:1004.0031](http://arxiv.org/abs/1004.0031))
+
+For an extension of this formalism to include D-branes, see
+
+* [[Severin Bunk]], [[Konrad Waldorf]], _Transgression of D-branes_, Adv. Theor. Math. Phys. 25(5):1095-1198 (2021), ([arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894))
