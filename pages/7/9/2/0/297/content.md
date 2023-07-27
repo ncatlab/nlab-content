@@ -2581,6 +2581,12 @@ For the case of one-dimensional smooth field theories, see
 
 * [[Matthias Ludewig]], Augusto Stoffel, _A framework for geometric field theories and their classification in dimension one_ ([arXiv:2001.05721](https://arxiv.org/abs/2001.05721))
 
+and for a functorial construction of two-dimensional smooth field theories from 2-form U(1)-connections and D-branes, see
+
+* [[Severin Bunk]], [[Konrad Waldorf]], _Transgression of D-branes_, Adv. Theor. Math. Phys. 25(5):1095-1198 (2021), ([arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894))
+
+* [[Severin Bunk]], [[Konrad Waldorf]], _Smooth functorial field theories from B-fields and D-branes_, J. Homot. Rel. Struc. 16(1):75-153 (2021), ([arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990))
+
 For the analogous discussion in [[AQFT]] see also:
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], *Smooth 1-dimensional algebraic quantum field theories* ([arXiv:2010.13808](https://arxiv.org/abs/2010.13808))
