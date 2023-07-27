@@ -1,3 +1,4 @@
+[[!redirects quasicoherent module on an affine spectrum]]
 
 
 +-- {: .rightHandSide}
@@ -62,7 +63,7 @@ $$
   \mathcal{F}(D_f)
 $$ 
 
-of $R$-modules (with $R$ acting on the [[codomain]] by [[restriction of scalars]] along the ring map $R \to R[f^{-1}]$). 
+of $R$-modules (with $R$ acting on the [[codomain]] by [[restriction of scalars]] along the ring map $R \to R[f^{-1}]$), noting that $R[f^{-1}] \otimes_R (-)$ is left adjoint to the functor that restricts scalars along $R \to R[f^{-1}]$. 
 
 The theorem of [Serre (1955)](#Serre55) is that this [[adjoint functor|adjunction]] restricts to an [[adjoint equivalence]] of categories, which we denote as 
 
