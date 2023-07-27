@@ -516,6 +516,13 @@ Relation to [[extended TQFT]] is discussed in
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_
 
+For a formulation of the WZW term in the presence of D-branes as an open-closed smooth functorial field theory, see
+
+* [[Severin Bunk]], [[Konrad Waldorf]], _Transgression of D-branes_, Adv. Theor. Math. Phys. 25(5):1095-1198 (2021), ([arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894))
+
+* [[Severin Bunk]], [[Konrad Waldorf]], _Smooth functorial field theories from B-fields and D-branes_, J. Homot. Rel. Struc. 16(1):75-153 (2021), ([arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990))
+
+
 The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] (and other [[branes]] of [[string theory]]/[[M-theory]]) as WZW-models (and [[schreiber:∞-Wess-Zumino-Witten theory|∞-WZW models]]) on ([[super L-∞ algebra]] [[L-∞ extensions]] of) the [[super translation group]] is in 
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018  ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
