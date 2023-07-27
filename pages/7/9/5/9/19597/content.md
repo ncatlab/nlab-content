@@ -46,7 +46,7 @@ is a [[fully faithful functor]].
 
 It follows in particular that [[compact Hausdorff spaces]] $X$ and $Y$ are [[homeomorphism|homeomorphic]] precisely if the algebras $C(X,\mathbb{R})$ and $C(Y,\mathbb{R})$ are isomorphic. 
 
-In the literature, it is often this corollary alone which is referred to as the _Gelfand-Kolmogorov theorem_, but its proof by Gelfand-Kolmogorov, using a lemma by Stone, actually shows the fully faithfulness of $C(-,\mathbb{R})$.
+In the literature, it is often this corollary alone which is referred to as the _Gelfand-Kolmogorov theorem_, but its proof by Gelfand-Kolmogorov, using a lemma by Stone, actually shows the full faithfulness of $C(-,\mathbb{R})$.
 
 ## Related statements
 
