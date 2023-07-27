@@ -6,9 +6,13 @@
 
 Prismatization is a stacky approach to [[prismatic cohomology]] developed independently by Drinfeld in [#Drinfeld20] (#Drinfeld20) and Bhatt-Lurie in [#BhattLurie22](#BhattLurie22) and [#BhattLurie22b](#BhattLurie22b).
 
+## Motivation: Linear algebra via stacks
+
+The reference for this section is Section 2 of [#Bhatt22](#Bhatt22).
+
 ## Definitions
 
-\begin{definition}(Definition 3.1.4 of [#BhattLurie22a](#BhattLurie22a), definition 5.13 of [#Bhatt22](#Bhatt22))
+\begin{definition}(Definition 3.1.4 of [#BhattLurie22a](#BhattLurie22a), Definition 5.13 of [#Bhatt22](#Bhatt22))
 Let $R$ be a p-nilpotent ring and $W(R)$ its ring of Witt vectors. A _Cartier-Witt divisor_ on $R$ is an invertible $W(R)$-module $I$ together with a morphism $\alpha:I\to W(R)$ of $W(R)$-modules such that
 
 * The image of the map $I\to W(R)\twoheadrightarrow R$ is a nilpotent ideal of $R$.
@@ -19,6 +23,10 @@ Let $R$ be a p-nilpotent ring and $W(R)$ its ring of Witt vectors. A _Cartier-Wi
 \begin{definition}(Definition 5.1.6 of [#Bhatt22](#Bhatt22))
 Let $X$ be a bounded $p$-adic formal scheme. The _prismatization_ $X^{\Delta}$ is the presheaf over $\mathrm{Spf}(\mathbb{Z}_{p})$ defined as follows. For a $p$-nilpotent ring $R$, $X^{\Delta}(R)$ is the groupoid of Cartier-Witt divisors on $R$ together with a map $\mathrm{Spec}(\mathrm{Cone}(W(R)/I))\to X$ of derived $\mathrm{Spf}(\mathbb{Z}_{p})$-schemes.
 \end{definition}
+
+## Filtered prismatization
+
+The reference for this section is Section 5.3 of [#Bhatt22](#Bhatt22).
 
 ## References
 
