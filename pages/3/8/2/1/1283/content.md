@@ -471,6 +471,8 @@ Reviews are in
 
 * [[Michael Murray]], _An Introduction to Bundle Gerbes_, In: The Many Facets of Geometry, A Tribute to Nigel Hitchin, Edited by Oscar Garcia-Prada, Jean Pierre Bourguignon, [[Simon Salamon]], OUP, 2010. doi:[10.1093/acprof:oso/9780199534920.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199534920.001.0001), arXiv:[0712.1651](https://arxiv.org/abs/0712.1651)
 
+* [[Severin Bunk]], _Gerbes in geometry, field Theory, and quantisation_, Complex Manifolds 8(1):150-182 (2021), in special volume on Generalized Geometry, ([arXiv:2102.10406] ((https://arxiv.org/abs/2102.10406))
+
 With emphasis on [[surface holonomy]]:
 
 * [[Jürgen Fuchs]], [[Thomas Nikolaus]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Bundle Gerbes and Surface Holonomy_ ([arXiv:0901.2085](https://arxiv.org/abs/0901.2085))
