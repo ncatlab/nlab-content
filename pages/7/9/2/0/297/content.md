@@ -2574,22 +2574,22 @@ Claim of classification of geometric FQFTs (including [[conformal field theory]]
 
 For the case of one-dimensional smooth field theories, see
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_,
-([arXiv:0705.0452](https://arxiv.org/abs/0705.0452))
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_, ([arXiv:0705.0452](https://arxiv.org/abs/0705.0452))
 
 * [[Daniel Berwick-Evans]], [[Dmitri Pavlov]], _Smooth one-dimensional topological field theories are vector bundles with connection_( [arXiv:1501.00967](https://arxiv.org/abs/1501.00967))
 
 * [[Matthias Ludewig]], Augusto Stoffel, _A framework for geometric field theories and their classification in dimension one_ ([arXiv:2001.05721](https://arxiv.org/abs/2001.05721))
 
-and for a functorial construction of two-dimensional smooth field theories from 2-form U(1)-connections and D-branes, see
+And for the analogous discussion in [[AQFT]] see also:
 
-* [[Severin Bunk]], [[Konrad Waldorf]], _Transgression of D-branes_, Adv. Theor. Math. Phys. 25(5):1095-1198 (2021), ([arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894))
+* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], *Smooth 1-dimensional algebraic quantum field theories* &lbrack;[arXiv:2010.13808](https://arxiv.org/abs/2010.13808)&rbrack;
 
-* [[Severin Bunk]], [[Konrad Waldorf]], _Smooth functorial field theories from B-fields and D-branes_, J. Homot. Rel. Struc. 16(1):75-153 (2021), ([arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990))
 
-For the analogous discussion in [[AQFT]] see also:
+For a functorial construction of two-dimensional smooth field theories from 2-form U(1)-connections and D-branes:
 
-* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], *Smooth 1-dimensional algebraic quantum field theories* ([arXiv:2010.13808](https://arxiv.org/abs/2010.13808))
+* {#BunkWaldorf21a} [[Severin Bunk]], [[Konrad Waldorf]], *Transgression of D-branes*, Adv. Theor. Math. Phys. **25** 5 (2021) 1095-1198 &lbrack;[arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894), [doi:10.4310/ATMP.2021.v25.n5.a1](https://dx.doi.org/10.4310/ATMP.2021.v25.n5.a1)&rbrack;
+
+* {#BunkWaldorf21b} [[Severin Bunk]], [[Konrad Waldorf]], *Smooth functorial field theories from B-fields and D-branes*, J. Homot. Rel. Struc. **16** 1 (2021) 75-153 &lbrack;[doi:10.1007/s40062-020-00272-2](https://doi.org/10.1007/s40062-020-00272-2), [arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990)&rbrack;
 
 
 
