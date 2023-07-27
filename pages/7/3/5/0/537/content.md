@@ -45,7 +45,7 @@ $$
 
 An arbitrary coproduct $\sum_i a_i$ is disjoint if each coprojection $a_i\to \sum_k a_k$ is monic and the intersection of any two distinct ones is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
 
-A more [[constructive mathematics|constructive]] way to phrase disjointness of an arbitrary coproduct is that the pullback of any two coprojections $a_i\to \sum_k a_k$ and $a_j\to \sum_k a_k$ is the coproduct $\sum_{i=j} a_i$, where $i=j$ denotes the [[subsingleton]] corresponding to the [[proposition]] $i=j$, a.k.a. $\{ \ast \mid i=j \}$.  (Since $a_i=a_j$ as soon as this indexing set is inhabited, this coproduct could equally be written $\sum_{i=j} a_j$.)
+A more [[constructive mathematics|constructive]] way to phrase disjointness of an arbitrary coproduct is that the pullback of any two [[coprojections]] $a_i\to \sum_k a_k$ and $a_j\to \sum_k a_k$ is the coproduct $\sum_{i=j} a_i$, where $i=j$ denotes the [[subsingleton]] corresponding to the [[proposition]] $i=j$, a.k.a. $\{ \ast \mid i=j \}$.  (Since $a_i=a_j$ as soon as this indexing set is [[inhabited set|inhabited]], this coproduct could equally be written $\sum_{i=j} a_j$.)
 
 ## Examples
 
