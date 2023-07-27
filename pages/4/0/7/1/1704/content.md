@@ -752,6 +752,15 @@ A more comprehensive conceptual account is in
 
 * {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- General theory]]_, J. Hom. Rel. Struc. **10** 4 (2015) 749-801 &lbrack;[arXiv:1207.0248](https://arxiv.org/abs/1207.0248), [doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6)&rbrack;
 
+For some additional developments and applications to ∞-group extensions, see also
+
+* [[Severin Bunk]], _Principal ∞-bundles and smooth String group models_, Mathematische Annalen, online first, ([arXiv:2008.12263] (http://arxiv.org/abs/2008.12263))
+
+A comparison of smooth principal ∞-bundles and diffeological principal bundles for diffeological groups is in
+
+* [[Emilio Minichiello]], _Diffeological Principal Bundles and Principal Infinity Bundles_, ([arXiv:2202.11023] (http://arxiv.org/abs/2202.11023))
+
+
 The [[classifying spaces]] for a large class of principal $\infty$-bundles are discussed in
 
 * [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
