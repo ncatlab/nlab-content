@@ -516,11 +516,12 @@ Relation to [[extended TQFT]] is discussed in
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_
 
-For a formulation of the WZW term in the presence of D-branes as an open-closed smooth functorial field theory, see
+For a formulation of the WZW term in the presence of D-branes as an open-closed smooth [[functorial field theory]]:
 
-* [[Severin Bunk]], [[Konrad Waldorf]], _Transgression of D-branes_, Adv. Theor. Math. Phys. 25(5):1095-1198 (2021), ([arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894))
+* {#BunkWaldorf21a} [[Severin Bunk]], [[Konrad Waldorf]], *Transgression of D-branes*, Adv. Theor. Math. Phys. **25** 5 (2021) 1095-1198 &lbrack;[arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894), [doi:10.4310/ATMP.2021.v25.n5.a1](https://dx.doi.org/10.4310/ATMP.2021.v25.n5.a1)&rbrack;
 
-* [[Severin Bunk]], [[Konrad Waldorf]], _Smooth functorial field theories from B-fields and D-branes_, J. Homot. Rel. Struc. 16(1):75-153 (2021), ([arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990))
+* {#BunkWaldorf21b} [[Severin Bunk]], [[Konrad Waldorf]], *Smooth functorial field theories from B-fields and D-branes*, J. Homot. Rel. Struc. **16** 1 (2021) 75-153 &lbrack;[doi:10.1007/s40062-020-00272-2](https://doi.org/10.1007/s40062-020-00272-2), [arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990)&rbrack;
+
 
 
 The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] (and other [[branes]] of [[string theory]]/[[M-theory]]) as WZW-models (and [[schreiber:∞-Wess-Zumino-Witten theory|∞-WZW models]]) on ([[super L-∞ algebra]] [[L-∞ extensions]] of) the [[super translation group]] is in 
