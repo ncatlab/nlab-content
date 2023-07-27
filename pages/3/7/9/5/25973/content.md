@@ -3,7 +3,7 @@
 
 Discussion of [[S5 modal logic]] as [[epistemic logic]]:
 
-* [[Joseph Y. Halpern]], [[Yoram Moses]], §2.3 in: *A guide to completeness and complexity for modal logics of knowledge and belief*, Artificial Intelligence **54** 3 (1992) 319-379
+* [[Joseph Y. Halpern]], [[Yoram Moses]], §2.3 in: *A guide to completeness and complexity for modal logics of knowledge and belief*, Artificial Intelligence **54** 3 (1992) 319-379 $[$<a href="https://doi.org/10.1016/0004-3702(92)90049-4">doi:10.1016/0004-3702(92)90049-4</a>$]$
 
 * {#FaginHalpernMosesVardi95} Ronald Fagin, [[Joseph Y. Halpern]], [[Yoram Moses]], Moshe Y. Vardi, *Reasoning About Knowledge*, The MIT Press (1995) $[$[ISBN:9780262562003](https://mitpress.mit.edu/9780262562003/reasoning-about-knowledge/)$]$
 
