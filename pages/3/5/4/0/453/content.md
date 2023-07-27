@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _regular category_ is a [[finitely complete category]] which admits a good notion of [[image]] factorization. A primary _raison d'&#234;tre_ behind regular categories $C$ is to have a decently behaved _calculus of [[relations]]_ in $C$.  
+A _regular category_ is a [[finitely complete category]] which admits a good notion of [[image]] factorization. A primary _raison d'&#234;tre_ behind regular categories $C$ is to have a decently behaved _calculus of [[relations]]_ in $C$ (see [[Rel]]).  
 
 Regular categories also provide a natural [[semantics|semantic]] environment to [[interpretation|interpret]] a particularly well behaved positive [[fragment]] of [[first order logic]] having connectives $\top$, ${\wedge}$, $\exists$; in other words, their [[internal logic]] is [[regular logic]].
 
@@ -353,6 +353,8 @@ When the reg/lex completion is followed by the [[ex/reg completion]] which compl
 * [[Barr embedding theorem]]
 
 * [[allegory]]
+
+* [[Rel]]
 
 [[!include categories and logic - table]]
 
