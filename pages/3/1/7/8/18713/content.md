@@ -22,7 +22,11 @@ On variants of [[differential concretification|differentially concretified]] [[i
 
 * [[Severin Bunk]], [[Carlos S. Shahbazi]], *Higher Geometric Structures on Manifolds and the Gauge Theory of Deligne Cohomology* &lbrack;[arXiv:2304.06633](https://arxiv.org/abs/2304.06633)&rbrack;
 
+On a smooth open/closed [[functorial field theory]] exhibiting the [[string]]'s [[WZW term]] in a background with [[D-branes]]:
 
+* {#BunkWaldorf21a} [[Severin Bunk]], [[Konrad Waldorf]], *Transgression of D-branes*, Adv. Theor. Math. Phys. **25** 5 (2021) 1095-1198 &lbrack;[arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894), [doi:10.4310/ATMP.2021.v25.n5.a1](https://dx.doi.org/10.4310/ATMP.2021.v25.n5.a1)&rbrack;
+
+* {#BunkWaldorf21b} [[Severin Bunk]], [[Konrad Waldorf]], *Smooth functorial field theories from B-fields and D-branes*, J. Homot. Rel. Struc. **16** 1 (2021) 75-153 &lbrack;[doi:10.1007/s40062-020-00272-2](https://doi.org/10.1007/s40062-020-00272-2), [arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990)&rbrack;
 
 
 category: people
