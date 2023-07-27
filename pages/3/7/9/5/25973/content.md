@@ -11,7 +11,7 @@ Discussion of [[S5 modal logic]] as [[epistemic logic]]:
 
 * [[Joseph Y. Halpern]], *Should knowledge entail belief?*, Journal of Philosophical Logic **25** 5 (1996) 483-494  $[$[jstor:30226583](https://www.jstor.org/stable/30226583), [philpapers:HALSKE](https://philpapers.org/rec/HALSKE)$]$
 
-* Hans Ditmarsch, Wiebe Hoek, Barteld Kooi, *Epistemic Logic*, chapter 2 in: *Dynamic Epistemic Logic*, Studies In Epistemology, Logic, Methodology, And Philosophy Of Science (SYLI) **337** (2008) $[$[pdf](https://doi.org/10.1007/978-1-4020-5839-4_2), [pdf](http://www.ivanociardelli.altervista.org/wp-content/uploads/2018/04/Epistemic-logic.pdf)$]$
+* Hans Ditmarsch, Wiebe Hoek, Barteld Kooi, *Epistemic Logic*, chapter 2 in: *Dynamic Epistemic Logic*, Studies In Epistemology, Logic, Methodology, And Philosophy Of Science (SYLI) **337** (2008) $[$[doi:10.1007/978-1-4020-5839-4_2](https://doi.org/10.1007/978-1-4020-5839-4_2), [pdf](http://www.ivanociardelli.altervista.org/wp-content/uploads/2018/04/Epistemic-logic.pdf)$]$
 
 > p. 11: "The logical system S5 is by far the most popular and accepted epistemic logic"
 
