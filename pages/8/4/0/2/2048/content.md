@@ -127,4 +127,5 @@ Discussion in [[(∞,1)-topos theory]]
 
 category: sheaf theory, algebraic geometry
 
-[[!redirects coherent sheaves]]
+[[!redirects coherent sheaves]] 
+[[!redirects coherent modules]]
