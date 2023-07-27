@@ -314,6 +314,10 @@ More discussion is in
 Theory and applications of Categories, Vol. 35, No. 14, (2020) pp. 417-512
  {#Sharma}
 
+* Stefano Kasangian and Fabio Rossi. _Some remarks on symmetry for a monoidal category_. Bulletin of the Australian Mathematical Society 23.2 (1981): 209-214.
+
+* J. M. Egger. _On involutive monoidal categories_. Theory and Applications of Categories 25.14 (2011): 368-393.
+
 [[!redirects symmetric monoidal categories]]
 [[!redirects symmetric monoidal structure]]
 [[!redirects symmetric monoidal structures]]
