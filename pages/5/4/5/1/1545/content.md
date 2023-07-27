@@ -21,6 +21,14 @@ On [[T-folds]] via [[principal 2-bundles]] for the [[T-duality 2-group]]:
 
 * {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Higher geometry for non-geometric T-duals_, Commun. Math. Phys. **374**  (2020) 317-366 &lbrack;[arXiv:1804.00677](https://arxiv.org/abs/1804.00677), [doi:10.1007/s00220-019-03496-3](https://doi.org/10.1007/s00220-019-03496-3)&rbrack;
 
+
+On a smooth open/closed [[functorial field theory]] exhibiting the [[string]]'s [[WZW term]] in a background with [[D-branes]]:
+
+* {#BunkWaldorf21a} [[Severin Bunk]], [[Konrad Waldorf]], *Transgression of D-branes*, Adv. Theor. Math. Phys. **25** 5 (2021) 1095-1198 &lbrack;[arXiv:1808.04894] (https://arxiv.org/abs/arXiv:1808.04894), [doi:10.4310/ATMP.2021.v25.n5.a1](https://dx.doi.org/10.4310/ATMP.2021.v25.n5.a1)&rbrack;
+
+* {#BunkWaldorf21b} [[Severin Bunk]], [[Konrad Waldorf]], *Smooth functorial field theories from B-fields and D-branes*, J. Homot. Rel. Struc. **16** 1 (2021) 75-153 &lbrack;[doi:10.1007/s40062-020-00272-2](https://doi.org/10.1007/s40062-020-00272-2), [arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990)&rbrack;
+
+
 On geometric [[T-duality]]:
 
 * [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
