@@ -65,13 +65,13 @@ $$
 
 which states that if $\phi$ is known then $\phi$ is true. Truth is generally taken to be a precondition of knowledge.
 
-A much more contentious issue in the field is whether to admit an epistemic version of axiom (4). This corresponds to 
+A much more contentious issue in the field is whether to admit an epistemic version of axiom (4). Known as the _[[KK principle]]_ or _KK thesis_, this corresponds to 
 
 $$
 \mathbf{4}: K \phi \to K K \phi,
 $$
 
-which states that when $\phi$ is known to be true then it is also known that it is known.
+which states that when $\phi$ is known to be true then it is also known that it is known. T
 
 {#EvenPossible} It is even possible to challenge the admission of two of the most fundamental modal axioms, axioms (N) and (K). These correspond to 
 
