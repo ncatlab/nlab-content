@@ -153,6 +153,8 @@ But cototal categories do occur:
 
 * [[Ross Street]]. _The comprehensive construction of free colimits_. Sydney Category Seminar Reports (Macquarie University). 1979. ([pdf](http://science.mq.edu.au/~street/CCoFC.pdf))
 
+* [[Francisco Marmolejo]], [[Robert Rosebrugh]], and [[Richard Wood]]. _Completely and totally distributive categories I_. Journal of Pure and Applied Algebra 216.8-9 (2012): 1775-1790.
+
 [[!redirects total categories]]
 [[!redirects cototal category]]
 [[!redirects cototal categories]]
