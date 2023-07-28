@@ -22,9 +22,9 @@
 
 ## Idea 
 
-A basic result in the study of [[coherent sheaf|coherent]] and [[quasicoherent sheaves]] (of [[modules]]) over [[affine schemes]] says that for a [[commutative ring]] $R$ the [[quasicoherent modules]] over the [[spectrum of a ring|ring spectrum]] $Spec(R)$ are equivalent to $R$-modules &lbrack;[Serre 1955](#Serre55)&rbrack;.
+A basic result in the study of [[coherent sheaf|coherent]] and [[quasicoherent sheaves]] (of [[modules]]) over [[affine schemes]] says that for a [[commutative ring]] $R$ the [[quasicoherent modules]] over the [[spectrum of a ring|Zariski spectrum]] $Spec(R)$ are equivalent to $R$-modules &lbrack;[Serre 1955](#Serre55)&rbrack;.
 
-## Statement 
+## Statement in the formalism of locally ringed spaces
 
 Recall that given a commutative unital ring $R$, there is an adjunction 
 
@@ -88,6 +88,12 @@ $$
 is an [[isomorphism]]. 
 
 Furthermore, if $R$ is [[Noetherian ring|Noetherian]], the adjoint equivalence restricts further to an equivalence between [[coherent sheaves|coherent modules]] over $\mathcal{O}_{Spec R}$ and finitely generated modules over $R$. 
+
+## Statement in the formalism of functor of points
+
+In the formalism of [[functor of points]], the equivalence turns into a definition: affine schemes are defined as the [[opposite category]] of the category of [[commutative rings]] (with the functor $Spec$ now being tautologically defined as the identity functor), and the category of quasicoherent modules over $Spec R$ is now defined as the category of $R$-modules.  This assignment defines a [[stack]] of categories over the site of affine schemes with the [[Zariski topology]].
+
+The functor of points approach carries over to quasicoherent modules over non-affine schemes: given such a scheme $X$, a quasicoherent module over $X$ is a morphism of [[stacks]] from $X$ to the stack of quasicoherent modules defined above.  In concrete terms, this boils down to picking an open cover of $X$ and defining a quasicoherent module using [[cocycle data]].
 
 ## References 
 
