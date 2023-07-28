@@ -87,13 +87,22 @@ The terminology "S4" in modal logic originates with:
 
 * [[Clarence I. Lewis]], [[Cooper H. Langford]], App. II, p 501 of: *Symbolic Logic* (1932), Dover (2000) &lbrack;App. II [pdf](https://www.hist-analytic.com/Lewisstrict.pdf)&rbrack;
 
+The "[[possible worlds]]" [[Kripke semantics]] of S4 originates with:
+
+* {#Kripke63} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic I. Normal Modal Propositional Calculi*, Mathematical Logic Quaterly **9** 5-6 (1963) 67-96 &lbrack;[doi:10.1002/malq.19630090502](https://doi.org/10.1002/malq.19630090502)&rbrack;
+
 See also:
 
 * {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
 
+
+A [[natural deduction]]-formulation and making explicit the [[modal operator]] as a [[comonad]]:
+
+* [[Gavin M. Bierman]], [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_ Studia Logica **65** (2000) 383–416 &lbrack;[https://doi.org/10.1023/A:1005291931660](https://doi.org/10.1023/A:1005291931660), [pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf)&rbrack;
+
+
 * Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], and Eike Ritter, _Categorical and Kripke Semantics for Constructive S4 Modal Logic_ ([pdf](http://www.cs.nott.ac.uk/~nza/papers/Alechina++:01a.pdf))
 
-* [[Gavin M. Bierman]], [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_ Studia Logica volume 65, pages 383–416 (2000) ([pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf))
 
 * [[Alex Simpson]], _The proof theory and semantics of intuitionistic modal logic_ ([pdf] (https://era.ed.ac.uk/handle/1842/407))
 
