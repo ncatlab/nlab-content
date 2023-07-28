@@ -1,3 +1,4 @@
+[[!redirects enriched product category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
