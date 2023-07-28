@@ -44,7 +44,7 @@ Namely a [[geometric model for modal logics|model]] of the modal logic based on 
 * each [[modal operator|modal]] proposition $\Box_i P$ as the [[dependent type|dependent]] proposition which at $w \in W$ asserts that "$P$ holds at all those $w'$ that are in $i$th relation to $W$", hence "$P$ holds in all possible worlds $w'$ that are $i$-accessible from $w$".
 
 
-**The transparent case of S5 logic.** Specifically, for the case of [[S5 modal logic]] with a single [[comonad|comonadic]] [[modal operator]] $\Box$, a Kripke frame is an 
+**The transparent case of S5 logic.** Specifically, for the case of [[S5 modal logic]] with a single [[comonad|comonadic]] [[modal operator]] $\Box$, a Kripke frame (originally considered in [Kripke 1963](#Kripke63)) is an 
 
 * [[inhabited set]]$\;$ $W$
 
@@ -63,7 +63,7 @@ which means that $W$ decomposes as the [[disjoint union]] of its [[equivalence c
 \]
 
 
-{#NecessityLogic} **The simple case necessity logic.** In the further special case there is just a single such class (hence that "all possible worlds are related") this becomes
+{#NecessityLogic} **The simple case necessity logic.** In the further special case there is just a single such class (hence that "all possible worlds are related", originally considered by [Kripke 1959](#Kripke59)) this becomes
 
 \[
   \label{QuotientCoprojectionInCaseOfGlobalS5}
