@@ -19,7 +19,7 @@
 The __Calkin algebra__ is the [[quotient]] $B(H)/K(H)$ of the [[C*-algebra]] of [[bounded operator|bounded]] [[linear operators]] on an infinite-dimensional separable complex [[Hilbert space]] $H$ by the closed ideal of [[compact operators]].
 It is widely used in [[index theory]] and [[operator algebras]]. 
 
-It is sometimes viewed as a noncommutative analogue of the space of continuous functions on $\beta(\omega) \,\backslash\, \omega$ (where $\beta$ means taking the [[Stone-∞ech compactification]]).
+It is sometimes viewed as a noncommutative analogue of the space of continuous functions on $\beta(\omega) \,\backslash\, \omega$ (where $\beta$ means taking the [[Stone-Čech compactification]]).
 
 ## Properties
 
