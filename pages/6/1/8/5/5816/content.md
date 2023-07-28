@@ -21,7 +21,7 @@
 
 One notion often called an __enriched bicategory__ is the same as that of an [[enriched category]], but where the enriching context $\mathcal{V}$ is allowed to be generalized from a [[monoidal category]] to a [[monoidal bicategory]], while suitably weakening the [[associativity]] and [[unitality]] conditions on the enrichment.  Thus, it has a collection of objects with [[hom-objects]] $C(x,y)\in\mathcal{V}$.  It may also naturally be called a **pseudo enriched category**.
 
-A different notion that is also sometimes called an **enriched bicategory** is that of a bicategory enriched over a [[monoidal category|monoidal 1-category]] $V$ (which must be at least [[braided monoidal category|braided]]) at the level of 2-cells only.  Thus it has a collection of objects, with 1-morphisms between the objects, and for any parallel 1-morphisms $f,g\colon x\to y$, a hom-object $C(x,y)(f,g) \in V$.  This can be identified with a $(V Cat)$-enriched bicategory in the previous sense, so on this page we focus on the former, more general, definition.
+A different notion that is also sometimes called an **enriched bicategory** is that of a [[bicategory]] enriched over a [[monoidal category|monoidal 1-category]] $V$ (which must be at least [[braided monoidal category|braided]]) at the level of 2-cells only.  Thus it has a collection of objects, with 1-morphisms between the objects, and for any parallel 1-morphisms $f,g\colon x\to y$, a hom-object $C(x,y)(f,g) \in V$.  This can be identified with a $(V Cat)$-enriched bicategory in the previous sense, so on this page we focus on the former, more general, definition.
 
 
 ## Definition
