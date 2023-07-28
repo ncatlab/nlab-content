@@ -9,6 +9,10 @@ On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]
 
 * {#Bierman95} [[Gavin Bierman]], *On Intuitionistic Linear Logic*, Cambridge (1993)  &lbrack;[pdf](https://www.dropbox.com/s/hdxgubjljb96rmf/Biermanthesis.pdf?dl=0)&rbrack;
 
+A [[natural deduction]]-formulation of [[modal logic]] ([[S4 modal logic|S4]]/[[S5 modal logic|S5]]) and making explicit the [[necessity]] [[modal operator]] as a [[comonad]]:
+
+* [[Gavin M. Bierman]], [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_ Studia Logica **65** (2000) 383–416 &lbrack;[https://doi.org/10.1023/A:1005291931660](https://doi.org/10.1023/A:1005291931660), [pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf)&rbrack;
+
 category: people
 
 [[!redirects Gavin M. Bierman]]
