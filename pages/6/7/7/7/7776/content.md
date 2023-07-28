@@ -106,3 +106,4 @@ It appears in many texts (often without a name, but elsewhere in the nLab it is 
 category: algebra, algebraic geometry
 
 [[!redirects affine Serre&#39;s theorem]]
+[[!redirects affine Serre's theorem]]
