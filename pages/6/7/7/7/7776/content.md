@@ -1,3 +1,5 @@
+[[!redirects quasicoherent sheaves over affine schemes]]
+[[!redirects quasicoherent sheaves over affine schemes]]
 [[!redirects quasicoherent module on an affine spectrum]]
 
 
