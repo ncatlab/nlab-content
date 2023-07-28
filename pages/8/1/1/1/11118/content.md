@@ -32,7 +32,7 @@ such that the obvious [[associativity]] and [[unit]] [[axioms]] hold.
 
 Thus, a $M$-graded monoid is in particular a $M$-[[graded object]]. In fact, a $M$-graded monoid is just a [[monoid in a monoidal category|monoid]] in the monoidal category of $M$-graded objects of $\mathcal{V}$, hence a [[lax monoidal functor]] $M \to \mathcal{V}$ by [[Day convolution#DayMonoidsAreLaxMonoidalFunctorsOnTheSite|this proposition]] (where $M$ is viewed as a [[discrete category|discrete]] monoidal category).
 
-We say that a $M$-graded monoid is **connected** if it $\eta$ is an isomorphism.
+We say that a $M$-graded monoid is **connected** if $\eta$ is an isomorphism.
 
 
 If $\Phi$ is a $M$-graded monoid in $\mathcal{V}$, then $(\Phi_{0},\nabla_{0,0},\eta)$ is a (non-graded) monoid in $\mathcal{V}$.
