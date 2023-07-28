@@ -49,7 +49,7 @@ As with other [[universal construction]]s, an exponential object, if any exists,
 
 ### Without finite products
 
-In a category without finite products, an exponentiable object is given by an object $X^Y$ and a universal natural transformation $C(-, X^Y) \times C(-, X) \to C(-, Y)$. See, for instance, [this](https://github.com/punkdit/categories/blob/master/www.mta.ca/cat-dist/archive/2008/08-1#L751-L782) [[categories mailing list]] post by [[Richard Garner]].
+In a category without finite products, an exponential object is given by an object $X^Y$ and a universal natural transformation $C(-, X^Y) \times C(-, X) \to C(-, Y)$. See, for instance, [this](https://github.com/punkdit/categories/blob/master/www.mta.ca/cat-dist/archive/2008/08-1#L751-L782) [[categories mailing list]] post by [[Richard Garner]].
 
 
 ## Related notions 
