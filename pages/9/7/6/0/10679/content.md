@@ -30,7 +30,7 @@ $$
 
 which sends a general [[topological space]] to a [[compact topological spaces|compact]] [[Hausdorff topological space]], called its _Stone-&#268;ech compactification_. This hence exhibits $Top_{CHaus}$ as a [[reflective subcategory]] of all of $Top$.
 
-The Stone-Cech compactification is in general "very large", even for "ordinary" non-compact spaces such as the [[real line]].
+The Stone-Čech compactification is in general "very large", even for "ordinary" non-compact spaces such as the [[real line]].
 
 For more details see at _[compactum -- Stone-&#268;ech compactification](compactum#StoneCechCompactification)_
 
@@ -54,7 +54,7 @@ of the compactification [[adjunction]] $(\beta \dashv U)$ is an [[embedding]] pr
 +-- {: .num_example}
 ###### Example
 
-The Stone-Cech compactification of a [[discrete topological space]]
+The Stone-Čech compactification of a [[discrete topological space]]
 is an [[extremally disconnected topological space]].
 By a theorem by Gleason, these are precisely the [[projective objects]]
 in the [[category]] of [[compact topological space|compact]]
@@ -80,13 +80,13 @@ Such spaces appear for instance as connected components of [[w-contractible ring
 
 Lecture notes include
 
-* Tarun Chitra, _The Stone-Cech Compactification_ 2009 [pdf](httP://www.math.cornell.edu/~riley/Teaching/Topology2009/essays/chitra.pdf)
+* Tarun Chitra, _The Stone-Cech Compactification_ 2009 [pdf](http://www.math.cornell.edu/~riley/Teaching/Topology2009/essays/chitra.pdf)
 
 * Brian Bockelman, _Functional Analysis Notes, [The Stone-Cech compactification](http://www.math.unl.edu/~s-bbockel1/929/node16.html)_
 
 Discussion in the context of the [[pro-etale site]] is in 
 
-* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](https://arxiv.org/abs/1309.1198))
  {#BhattScholze13}
 
 
