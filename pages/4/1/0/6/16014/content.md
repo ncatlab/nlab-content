@@ -88,9 +88,9 @@ Therefore it makes sense to ask which _additional_ axioms on a modal operator ma
 ## Possible worlds via dependent types
  {#InFirstOrderLogicAndTypeTheory}
 
-One common philosophical interpretation of "necessarily" and "possibly" is in terms of a collection of "possible worlds" that are similar to the "real world", but not the same.  Under this interpretation, a proposition is necessarily true if it is true in all possible worlds, and possibly true if it is true in some possible world.
+One common philosophical interpretation of "necessarily" and "possibly" is ([[Kripke semantics]]) in terms of a collection of "[[possible worlds]]" that are similar to the "real world", but not the same.  Under this interpretation, a proposition is necessarily true if it is true in all possible worlds, and possibly true if it is true in some possible world.
 
-Now the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established in *predicate* logic: it is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.  In [[categorical logic]], these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induce a [[comonad]] and a [[monad]].  Thus, if we interpret "necessarily" and "possibly" in terms of possible worlds, we can model them by this [[base change]] [[adjoint triple]].
+Now the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established in *predicate* logic: it is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.  In [[categorical logic]], these [[quantifiers]] (see there for details) are part of [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induce a [[comonad]] and a [[monad]].  Thus, if we interpret "necessarily" and "possibly" according to [[S5 modal logic]] in terms of [[possible worlds]], we can model them by this [[base change]] [[adjoint triple]] (cf. [Awodey 2006, p. 279](#Awodey06)):
 
 ### Globally
  {#Globally}
@@ -623,7 +623,13 @@ See also:
 
 * Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
 
-* [[David Corfield]], Chap. 4 of _[Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)_.
+The understanding of [[Kripke semantics]] for [[S5 modal logic]] as [[base change]] is indicated in:
+
+* {#Awodey06} [[Steve Awodey]], p. 279 in: *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)&rbrack;
+
+* [[David Corfield]], Chap. 4 of: _[Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)_ (2020)
+
+See also:
 
 * [[Jake Chandler]], _Modality: Necessity and Possibility_, lecture notes ([pdf](http://www.jakechandler.com/assets/2006MetaphysicsBBK/%5B6%5D%20%5BModality%5D.pdf))
 
