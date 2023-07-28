@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **triple category** is an [[n-fold category]] for $n=3$.  That is, it is an [[internal category]] in [[double categories]].  This concept can be considered at various levels of strictness.
+A **triple category** is an [[n-fold category]] for $n=3$.  That is, it is an [[internal category]] in [[double categories]].  This concept can be considered at various levels of strictness. However, there is not yet a definition in the literature of a fully weak (i.e. pseudo) triple category.
 
 ## Examples
 
