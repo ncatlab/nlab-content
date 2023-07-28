@@ -667,19 +667,26 @@ the ideal $I$ must thus be idempotent;
 Recall that a commutative ring $R$ is  [[semi-hereditary]] if every finitely generated ideal is projective.
 \end{definition}
 
-\begin{lemma}
-If $R$ is a [[valuation ring]] then all torsion-free modules are flat.
-\end{lemma}
 
 \begin{theorem}
 For a commutative ring $R$, the following are equivalent :
 
 1. $R$ is [[semi-hereditary]] ;
-1. The total ring of fractions $K$ of $R$ is absolutely flat and for every maximal ideal $\mathfrak{m}$ of $R$, the local ring $R_\mathfrak{m}$ is a [[valuation ring]] ;
+1. The total ring of fractions $\mathrm{Q}(R)$ of $R$ is absolutely flat and for every maximal ideal $\mathfrak{m}$ of $R$, the local ring $R_\mathfrak{m}$ is a [[valuation ring]] ;
 1. Every torsion-free $R$-module is flat.
 
 \end{theorem}
 
+\begin{proof}
+First, if $R$ is a local ring, this follows from the equivalent characterisations of [[valuation rings]]. So we only need to take care of the global part of the theorem.
+
+$1 \Rightarrow 2$. Every $R_\mathfrak{m}$ is a localisation of $R$, so it is semi-hereditary and hence a valuation ring.
+To show that $\mathrm{Q}(R)$ is absolutely flat, it shall be enough to show that for every $x \in R$, there exists a regular $r$ such that $x^2 = r x$. Let $x \in R$, then $(x)$ is projective. As a consequence the annihilator $Ann(x) \subset R$ is a direct summand, so there exists an idempotent $\pi \in R$ such that $Ann(x) = (\pi)$. Then $r \coloneqq x + \pi$ is a regular element such that $x^2 = r x$.
+
+$2 \Rightarrow 3$. When $\mathrm{Q}(R)$ is absolutely flat, being torsion-free becomes a local property, as it is for flatness.
+
+$3 \Rightarrow 1$. Torsion-free modules are stable under product, so it follows that flat modules are also stable under product which means that $R$ is coherent. Then every finitely generated ideal $I \subset R$ is finitely presented. Since they are also torsion-free, they are flat and thus projective.
+\end{proof}
 ## Examples
  {#Examles}
 
