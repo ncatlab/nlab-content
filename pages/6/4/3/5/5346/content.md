@@ -53,7 +53,7 @@ There is a "projective" [[model category]] structure on the [[category]] $sGrp$ 
   Every object in the projective model structure (Prop. \ref{ModelStructureOnSimplicialGroups}) is [[fibrant object|fibrant]].
 \end{proposition}
 \begin{proof}
-  This statement amounts to saying that the underlying simplicial set of any simplicial group is a [[Kan complex]], which is case by Moore's theorem ([here](simplicial+group#EverySimplicialGroupIsAKanComplex)).
+  This statement amounts to saying that the underlying simplicial set of any simplicial group is a [[Kan complex]], which is the case by Moore's theorem ([here](simplicial+group#EverySimplicialGroupIsAKanComplex)).
 \end{proof}
 
 
