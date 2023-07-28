@@ -40,13 +40,15 @@ Icons are also used to construct [[distributors]] in the context of enriched bic
 
 ## Relation to pseudo double categories
 
-A bicategory can be viewed as a [[pseudo double category]] whose tight-cells are trivial. An icon is then precisely a transformation of oplax functors of pseudo double categories.
+A bicategory can be viewed as a [[pseudo double category]] whose tight-cells are trivial. An icon is then precisely a transformation of oplax functors of pseudo double categories. See [Paré](#Pare13) for details.
 
 ## References
 
 * {#Lack10} [[Stephen Lack]], _Icons_. Appl. Categ. Structures. Volume 18, Issue 3,(2010), pp 289&#8211;307. [arxiv:0711.4657](http://arxiv.org/abs/0711.4657)
 
 * {#GarnerShulman16} [[Richard Garner]], [[Mike Shulman]], Section 3.8 of _Enriched categories as a free cocompletion_, Adv. Math. 289 (2016), 1--94
+
+* {#Pare13} [[Robert Paré]]. _Composition of modules for lax functors_. Theory and Applications of Categories 27.16 (2013): 393-444.
 
 
 [[!redirects icon]]
