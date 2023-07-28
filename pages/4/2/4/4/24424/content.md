@@ -18,7 +18,7 @@ I’m writing a paper on:
 
 I want to write papers on:
 
-- Categorical framework for [[jet bundles]] similar to [[tangent bundle category|tangent bundle categories]].
+- Categorical framework for higher-order tangent bundles similar to [[tangent bundle category|tangent bundle categories]].
 - Higher-order differential linear logic and higher-order differential categories which replace differentiation by [[Hasse-Schmidt derivative|Hasse-Schmidt differentiation]].
 
 
