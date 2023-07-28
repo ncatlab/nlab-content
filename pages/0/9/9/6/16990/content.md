@@ -41,7 +41,7 @@ is equivalent (as an [[enhanced triangulated category]]) to the bounded derived 
 
 There is also a relative singularity category (usually defined in terms of some ring and module theoretic data) related to [[matrix factorization]]s
 
-* A. I. Efimov, L. Positselski, _Coherent analogues of matrix factorizations and relative singularity categories_, Algebra and Number Theory, 9(5):1159-1292 (2015) [arXiv:1102.0261](https://arxiv.org/abs/1102.0261)
+* [[Alexander I. Efimov]], [[Leonid Positselski]], _Coherent analogues of matrix factorizations and relative singularity categories_, Algebra and Number Theory, 9(5):1159-1292 (2015) [arXiv:1102.0261](https://arxiv.org/abs/1102.0261)
 * Massimo Pippi, _On the structure of dg categories of relative singularities_, High. Struct. __6__:1 (2022) 375--402 [arXiv:1911.01332](https://arxiv.org/abs/1911.01332)
 
 [[!redirects triangulated categories of singularities]]
