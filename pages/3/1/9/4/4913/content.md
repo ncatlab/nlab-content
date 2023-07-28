@@ -6,18 +6,19 @@ philosophy of mathematics, history of logic and analytic philosophy. For the 'n-
 
 ## Selected writings
 
-### On algebraic set theory
-
-* [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
-
-### On type theory
 
 On [[propositional truncation]] in [[dependent type theory]]:
 
 * [[Steve Awodey]], [[Andrej Bauer]], *Propositions as $[$Types$]$*, Journal of Logic and Computation, **14**  (2004) 447-471 &lbrack;[doi:10.1093/logcom/14.4.447](https://doi.org/10.1093/logcom/14.4.447), [pdf](http://andrej.com/papers/brackets_letter.pdf)&rbrack;
 
+On [[algebraic set theory]]:
 
-### On homotopy type theory
+* [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
+
+On [[category theory]]:
+
+* [[Steve Awodey]], *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)&rbrack;
+
 
 Early note on what came to be known as *[[homotopy type theory]]*:
 
