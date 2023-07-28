@@ -85,6 +85,8 @@ The semantics of $K_{(m)}$ is just the [[Kripke semantics]] of this context, so 
 
 * [[S5 modal logic]]
 
+* [[axiom K (modal logic)]]
+
 
 ## References
 
