@@ -10,10 +10,11 @@ Orlov is one of the pioneers of the modern emerging categorical framework which 
 * [[triangulated categories of sheaves]]
 * [[enhanced triangulated categories]]
 * [[Bondal-Orlov reconstruction theorem]]
+* [[derived category of singularities]]
 
 ## Publications
 
-* D. Orlov, _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
+* D. Orlov, _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat. __67__:3 ( 2003)119--138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
 * D. O. Orlov, _Derived categories of coherent sheaves and equivalences between them_, Uspekhi Mat. Nauk, 2003,  Vol. __58__,  issue 3(351), pp. 89&#8211;172, [Russian pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=629&volume=58&year=2003&issue=3&fpage=89&what=fullt&option_lang=eng), transl. as Russian Mathematical Surveys (2003),58(3):511, [doi link](http://dx.doi.org/10.1070/RM2003v058n03ABEH000629) ([pdf](http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf) at Orlov's webpage, not on arXiv!)
 
