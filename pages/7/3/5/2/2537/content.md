@@ -16,7 +16,7 @@ __Israel Moiseevich Gel'fand__ (&#1048;&#1079;&#1088;&#1072;&#1080;&#1083;&#1100
 
 * [[Gel'fand triple]]
 
-He helped write a 5-volume work on [[distribution]] theory.
+He is the author of a 6-volume treatise on [[distribution]] theory (various volumes in collaboration with Shilov, Vilenkin, Graev).
 
 ## Selected writings
 
@@ -41,9 +41,12 @@ Introducing the [[GNS construction]]:
 
 category: people
 
+[[!redirects Израиль Моисеевич Гельфанд]]
 [[!redirects Израиль Гельфанд]]
+[[!redirects Гельфанд]]
+[[!redirects И. М. Гельфанд]]
+[[!redirects И. Гельфанд]]
 [[!redirects Israel Gel'fand]]
 [[!redirects I. M. Gelfand]]
 [[!redirects I. M. Gel'fand]]
-
 [[!redirects Israel M. Gelfand]]
