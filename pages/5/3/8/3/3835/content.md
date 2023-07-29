@@ -17,9 +17,10 @@ On [[diffeological spaces]]:
 * {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  Dissertation (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
 
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
+* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185)).
+Reprint (revised version) by Beijing WPC (2022), World Map Technology, ([pdf] (http://www.icloud.com/iclouddrive/08bIgfV5NT8F8oBo-Ipqoz1kg#Diffeology), [publisher] (https://mp.weixin.qq.com/s?__biz=MjM5NzE3Nzc4MQ==&mid=2664511235&idx=2&sn=a2b55b7fc0e88a3ae4142a8f53077055)).
 
-On [[orbifolds]] regarded as naive local quotient [[diffeological spaces]]:
+On [[orbifolds]] regarded as geometric local quotient [[diffeological spaces]]:
 
 * {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093))
 
@@ -35,6 +36,11 @@ On [[orbifolds]] as [[stratified space|stratified]] [[diffeological spaces]]:
 
 * [[Serap Gürer]], [[Patrick Iglesias-Zemmour]], *Orbifolds as stratified diffeologies*, Differential Geometry and its Applications **86** (2023) 101969 &lbrack;[doi:10.1016/j.difgeo.2022.101969](https://doi.org/10.1016/j.difgeo.2022.101969)&rbrack;
 
+On [[Noncommutative Geometry]] and [[diffeology]]:
+
+* [[Patrick Iglesias-Zemmour]], Jean-Pierre Laffineur, *Noncommutative geometry and diffeology: The case of orbifolds*, Journal of Noncommutative Geometry, volume 12, issue 4 (2018). [doi 10.4171/jncg/319] (https://doi.org/10.4171/jncg/319).
+
+* [[Patrick Iglesias-Zemmour]], Elisa Prato, *Quasifolds, diffeology and noncommutative geometry*, Journal of Noncommutative Geometry, volume 15, issue 2 (2021). [doi 10.4171/jncg/419] (https://doi.org/10.4171/jncg/419).
 
 ## Related $n$Lab entries
 
@@ -42,9 +48,11 @@ On [[orbifolds]] as [[stratified space|stratified]] [[diffeological spaces]]:
 
 * [[moment map]]
 
-* [[manifold with boundary]]
+* [[manifolds with boundaries and corners]]
 
 * [[orbifold]]
+
+* [[Noncommutative Geometry]]
 
 
 [[!redirects Patrick Iglesias-Zemmour]]
