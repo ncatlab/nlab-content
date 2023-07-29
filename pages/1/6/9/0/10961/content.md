@@ -126,20 +126,21 @@ In
 
 * {#EinsteinPodoldskyRosen35} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review **47** 10 (1935) 777-780  &lbrack;[doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)&rbrack;
  
-
-it was argued (see at *[[EPR paradox]]*) that quantum mechanics cannot be a complete description of fundamental physics. In 
+it was argued (see at *[[EPR paradox]]*) that quantum mechanics cannot be a complete description of fundamental physics. The contrary was argued in:
 
 * [[Nils Bohr]], _Can Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 48, 696&#8211;702 (1935)  ([publisher](http://prola.aps.org/abstract/PR/v48/i8/p696_1))
 
-the contrary was argued. In
+The famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*):
 
-* {#Bohr49} [[Nils Bohr]], *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.), *Albert Einstein, Philosopher-Scientist*, The Library of Living Philosophers **VII** Evanston (1949) 201-241, and *Niels Bohr Collected Works* **7** (1996) 339-381 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack;
+* {#Bohr49} [[Nils Bohr]], *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.), *Albert Einstein, Philosopher-Scientist*, The Library of Living Philosophers **VII** Evanston (1949) 201-241, and *Niels Bohr Collected Works* **7** (1996) 339-381 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack; 
  
-is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*).
-
 The [[many-worlds interpretation of quantum mechanics]]:
 
-* [[Bryce S. DeWitt]], [[Neill Graham]] (eds.), *The Many-Worlds Interpretation of Quantum Mechanics*, Princeton Series in Physics, Princeton University Press (1973, 2016) &lbrack;[ISBN:9780691645926](https://press.princeton.edu/books/hardcover/9780691645926/the-many-worlds-interpretation-of-quantum-mechanics), [jstor:j.ctt13x0wwk](https://www.jstor.org/stable/j.ctt13x0wwk)&rbrack;
+* Hugh Everett III, *"Relative State" Formulation of Quantum Mechanics*, Rev. Mod. Phys. **29** (1957) 454-462 &lbrack;[doi:10.1103/RevModPhys.29.454](https://doi.org/10.1103/RevModPhys.29.454)&rbrack; (reprinted in [De Witt & Graham 1973](#DeWittGraham73))
+
+  > "This total lack of effect of one branch on another also implies that no observer will ever be aware of any 'splitting' process. Arguments that the world picture presented by this theory is contradicted by experience, because we are unaware of any branching process, are like the criticism of the Copernican theory that the mobility of the earth as a real physical fact is incompatible with the common sense interpretation of nature because we feel no such motion. In both cases the argument fails when it is shown that the theory itself predicts that our experience will bewhat it in fact is."
+
+* {#DeWittGraham73} [[Bryce S. DeWitt]], [[Neill Graham]] (eds.), *The Many-Worlds Interpretation of Quantum Mechanics*, Princeton Series in Physics, Princeton University Press (1973, 2016) &lbrack;[ISBN:9780691645926](https://press.princeton.edu/books/hardcover/9780691645926/the-many-worlds-interpretation-of-quantum-mechanics), [jstor:j.ctt13x0wwk](https://www.jstor.org/stable/j.ctt13x0wwk)&rbrack;
 
 The catch-phrase "shut up and calculate" for the agnostic interpretation is due to 
 
