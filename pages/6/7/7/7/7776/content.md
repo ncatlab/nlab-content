@@ -1,3 +1,5 @@
+[[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
+[[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
 [[!redirects quasicoherent sheaves over affine schemes]]
 [[!redirects quasicoherent sheaves over affine schemes]]
 [[!redirects quasicoherent module on an affine spectrum]]
