@@ -17,6 +17,11 @@ A [[natural deduction]]-formulation of [[modal logic]] ([[S4 modal logic|S4]]/[[
 
 * [[Gavin M. Bierman]], [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_ Studia Logica **65** (2000) 383–416 &lbrack;[https://doi.org/10.1023/A:1005291931660](https://doi.org/10.1023/A:1005291931660), [pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf)&rbrack;
 
+see also:
+
+* {#BentonBiermanPaiva98} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
+
+
 category: people
 
 [[!redirects Gavin M. Bierman]]
