@@ -60,6 +60,9 @@ In general see the [reference at](modal+logic#References) *[[modal logic]]*, suc
 
 * [[Valentin Goranko]], [[Martin Otto]], *Model Theory of Modal Logic*, Section 5 in: *Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 249-329 &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~otto/papers/mlhb.pdf),  [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/), [publisher page](https://www.sciencedirect.com/bookseries/studies-in-logic-and-practical-reasoning/vol/3/suppl/C)&rbrack;
 
+and more philosophically ("modal realism"):
+
+* David Lewis, *On the Plurality of Worlds*, Wiley (1986, 2001) &lbrack;[ISBN:978-0-631-22426-6](https://www.wiley.com/en-us/On+the+Plurality+of+Worlds-p-9780631224266), [Wikipedia entry](https://en.wikipedia.org/wiki/On_the_Plurality_of_Worlds)&rbrack;
 
 See also:
 
