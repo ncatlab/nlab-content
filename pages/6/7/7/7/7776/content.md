@@ -1,8 +1,3 @@
-[[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
-[[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
-[[!redirects quasicoherent sheaves over affine schemes]]
-[[!redirects quasicoherent sheaves over affine schemes]]
-[[!redirects quasicoherent module on an affine spectrum]]
 
 
 +-- {: .rightHandSide}
@@ -99,6 +94,13 @@ In the formalism of [[functor of points]], the equivalence turns into a definiti
 
 The functor of points approach carries over to quasicoherent modules over non-affine schemes: given such a scheme $X$, a quasicoherent module over $X$ is a morphism of [[stacks]] from $X$ to the stack of quasicoherent modules defined above.  In concrete terms, this boils down to picking an open cover of $X$ and defining a quasicoherent module using [[cocycle data]].
 
+## Related concepts
+
+* [[Serre-Swan theorem]]
+
+* [[duality between algebra and geometry]]
+
+
 ## References 
 
 The result is originally due to:
@@ -117,3 +119,10 @@ category: algebra, algebraic geometry
 
 [[!redirects affine Serre&#39;s theorem]]
 [[!redirects affine Serre's theorem]]
+
+[[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
+[[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
+[[!redirects quasicoherent sheaves over affine schemes]]
+[[!redirects quasicoherent sheaves over affine schemes]]
+[[!redirects quasicoherent module on an affine spectrum]]
+
