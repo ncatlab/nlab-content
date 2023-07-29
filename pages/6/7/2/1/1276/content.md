@@ -589,6 +589,25 @@ $a_{n+1} a_n = a_n$ for every $0 \leq n$, is eventually constant.
 
 One can see Gena Puninski; Philipp Rothmaler (2004). _When every finitely generated flat module is projective_. Journal of Algebra, 277(2), 542–558.         doi:10.1016/j.jalgebra.2003.10.027     
 
+## Countably presented flat modules
+
+As we have seen finitely presented flat module are always projective ; their projective dimension is equal to zero.
+For countably presented flat modules, the dimension cannot exceed one.
+
+\begin{theorem}
+A countably presented flat module has [[projective dimension]] inferior or equal to $1$.
+\end{theorem}
+
+\begin{proof}
+Let $M$ be a countably generated flat module. Being flat, it can be written as an inductive limit of finitely generated free modules $M = \underset{\longrightarrow}{\lim}_A M_\alpha$. Since $M$ is also countably presented, there exists a countable cofinal filtered subset $H \subset A$, so one can reduce to the case where $A = \mathbb{N}$.
+
+Denoting by $g_n : M_n \to M_{n+1}$ the transition maps, one can build the short exact sequence
+$$
+  0 \to \oplus M_n \overset{G}{\to} \oplus M_n \to M \to 0
+$$
+where the map $G$ restricted to $M_n$ is given by $1 - g_n$.
+\end{proof}
+
 ## Classes of rings, related to flatness
 
 As we have seen, there is not much difference between flat modules and projective modules in the finitely generated case.
