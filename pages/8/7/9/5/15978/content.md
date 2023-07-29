@@ -11,6 +11,10 @@ On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]
 and specifically as the [[comonad]] induced from an [[adjoint functors|adjunction]] between ordinary [[types]] and [[linear types]]:
 
 * {#Benton95} [[Nick Benton]], *A mixed linear and non-linear logic: Proofs, terms and models*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** &lbrack;[doi:10.1007/BFb0022251](https://doi.org/10.1007/BFb0022251), [[BentonLinearLogic.pdf:file]]&rbrack;
+
+On [[modal operator]]-like [[monad in computer science|monads in computer science]]:
+
+* {#BentonBiermanPaiva98} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
  
 
 On [[monads in computer science]]:
