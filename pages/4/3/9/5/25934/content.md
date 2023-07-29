@@ -23,12 +23,11 @@ in relation to each other:
 
 * Nuriya Nurgalieva, Lídia del Rio, *Inadequacy of Modal Logic in Quantum Settings*, EPTCS **287** (2019) 267-297 $[$[arXiv:1804.01106](https://arxiv.org/abs/1804.01106), [doi:10.4204/EPTCS.287.16](https://doi.org/10.4204/EPTCS.287.16)$]$
 
-* Alastair Wilson, p. 20 of: *Modal Metaphysics and the Everett Interpretation* (2006) $[$[philsci:2635](http://philsci-archive.pitt.edu/2635), [pdf](http://philsci-archive.pitt.edu/2635/1/modalmetaphysicsandeverett.pdf)$]$
+* [[Alastair Wilson]], p. 20 of: *Modal Metaphysics and the Everett Interpretation* (2006) $[$[philsci:2635](http://philsci-archive.pitt.edu/2635), [pdf](http://philsci-archive.pitt.edu/2635/1/modalmetaphysicsandeverett.pdf)$]$
 
 * Vladislav Terekhovich, *Modal Approaches in Metaphysics and Quantum Mechanics* $[$[arXiv:1909.10046](https://arxiv.org/abs/1909.10046)$]$
 
-
-* Alastair Wilson, *The Nature of Contingency: Quantum Physics as Modal Realism*, Oxford University Press (2020) $[$[ISBN:9780198846215](https://global.oup.com/academic/product/the-nature-of-contingency-9780198846215)$]$
+* [[Alastair Wilson]], *The Nature of Contingency: Quantum Physics as Modal Realism*, Oxford University Press (2020) $[$[ISBN:9780198846215](https://global.oup.com/academic/product/the-nature-of-contingency-9780198846215)$]$
 
 Beware that there is also
 
