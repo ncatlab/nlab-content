@@ -28,8 +28,7 @@ A [[natural deduction]]-formulation of [[modal logic]] ([[S4 modal logic|S4]]/[[
 
 See also:
 
-* [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational types from a logical perspective*, J. Functional Programming **8** 2 (1998) 177-193  &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
-
+* {#BentonBiermanPaiva98} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
 
 
 On Natural Language Inference:
