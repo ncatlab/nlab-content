@@ -137,6 +137,10 @@ the contrary was argued. In
  
 is the famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" (cf. *[[Bohr topos]]*).
 
+The [[many-worlds interpretation of quantum mechanics]]:
+
+* [[Bryce S. DeWitt]], [[Neill Graham]] (eds.), *The Many-Worlds Interpretation of Quantum Mechanics*, Princeton Series in Physics, Princeton University Press (1973, 2016) &lbrack;[ISBN:9780691645926](https://press.princeton.edu/books/hardcover/9780691645926/the-many-worlds-interpretation-of-quantum-mechanics), [jstor:j.ctt13x0wwk](https://www.jstor.org/stable/j.ctt13x0wwk)&rbrack;
+
 The catch-phrase "shut up and calculate" for the agnostic interpretation is due to 
 
 * [[N. David Mermin]], *What's Wrong with this Pillow?*, Physics Today **42** 4 (1989) 9–11 &lbrack;[doi:10.1063/1.2810963](https://doi.org/10.1063/1.2810963)&rbrack;
