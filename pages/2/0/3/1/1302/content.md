@@ -512,6 +512,8 @@ In the case of general (commutative) schemes, every presheaf of $O_X$-modules wh
 
 * [[coherent sheaf]]
 
+* [[modules over a ring are equivalent to quasicoherent sheaves over its spectrum]]
+
 * [[Bondal-Orlov reconstruction theorem]]
 
 * [[module over a derived stack]]
