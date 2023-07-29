@@ -13,7 +13,7 @@ Given [[morphisms]] $m:C\to A$ and $g:A\to D$ in a [[category]], a **pullback co
 $$ \array{ C & \to & A \\ \downarrow & & \downarrow \\ B & \to & D }$$
 [[commutative square|commutes]] and is a [[pullback]].  This is of course the dual of a [[pushout complement]].
 
-A morphism of pullback complements is a map $D\to D'$ making the obvious diagrams commute.  A **final pullback complement** is a [[terminal object]] in the category of pullback complements.  Since they have a universal property, final pullback complements are unique up to unique isomorphism when they exist.
+A morphism of pullback complements is a map $B\to B'$ making the obvious diagrams commute.  A **final pullback complement** is a [[terminal object]] in the category of pullback complements.  Since they have a universal property, final pullback complements are unique up to unique isomorphism when they exist.
 
 ## Relation to exponentials
 
