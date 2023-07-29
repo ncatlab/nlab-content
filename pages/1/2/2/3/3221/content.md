@@ -63,7 +63,10 @@ The Serre-Swan theorem serves to relate [[topological K-theory]] with [[algebrai
 
 * [[smooth Serre–Swan theorem]]
 
+* [[modules over a ring are equivalent to quasicoherent sheaves over its spectrum]]
+
 * [[duality between geometry and algebra]]
+
 
 [[!include Isbell duality - table]]
 
