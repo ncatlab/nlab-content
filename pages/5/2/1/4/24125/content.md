@@ -25,7 +25,7 @@ The notion of *composition rings* is an abstraction of the [[structure]] present
 ## Definition 
 
 A *composition ring* is a [[commutative ring]] $R$ equipped with an operation 
-$$(-)\circ(-) \colonR \times R \to R$$ 
+$$(-)\circ(-) \colon R \times R \to R$$ 
 such that for all [[elements]] $f \in R$, $g \in R$, and $h \in R$, we have:
 
 1. $(f + g) \circ h = (f \circ h) + (g \circ h)$,
