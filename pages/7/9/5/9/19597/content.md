@@ -54,6 +54,20 @@ In the literature, it is often this corollary alone which is referred to as the 
 
 ## References
 
+Original reference:
+
+* [[И. М. Гельфанд]], [[А. Н. Колмогоров]], _О кольцах непрерывных функций на топологических пространствах_, Доклады Академии наук СССР 22:1 (1939), 11–15.
+
+Reprinted in:
+
+* [[А. Н. Колмогоров]], _Избранные труды.  Математика и механика_, Наука, 1985, 264–269.
+
+English translation:
+
+* [[I. M. Gel'fand]], [[A. N. Kolmogorov]], _On rings of continuous functions on topological spaces_, In: Selected Works of A. N. Kolmogorov.  Volume I.  Mathematics and Mechanics.  Edited by V. M. Tikhomirov, translated from the Russian by V. M. Volosov.  Kluwer, 1991.
+
+See also
+
 * {#GarridoJaramillo02} M. Garrido, J. Jaramillo , theorem 18 in _Variations on the Banach-Stone theorem_, 2002 ([web](http://eprints.ucm.es/21378/))
 
 
