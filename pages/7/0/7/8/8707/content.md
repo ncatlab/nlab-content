@@ -21,9 +21,9 @@
 
 _Modal type theory_ is a flavor of [[type theory]] with [[type formation rules]] for [[modalities]], hence [[type theory]] which on [[propositions]] reduces to [[modal logic]]. 
 
-Following ([Moggi91](#Moggi91), [Benton, Bierman & de Paiva 95](#BentonBiermanPaiva); [Bierman & de Paiva 1996](#BiermanDePaiva96), [2000](#BiermanDePaiva96); [Kobayashi 1997](#Kobayashi97)) modal type theory  is specifically understood as being a type theory equipped with  ([[comonad|co-]])[[monads]] on its type system, representing the intended [[modal operators]]. Since [[monad (in computer science)|monads in computer science]] embody a notion of [[computation]], some authors also speak of _[[computational type theory]]_ here ([Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Fairtlough-Mendler 02](#FairtloughMendler02)).
+Following ([Moggi91](#Moggi91), [Benton, Bierman & de Paiva 19198](#BentonBiermanPaiva98); [Bierman & de Paiva 1996](#BiermanDePaiva96), [2000](#BiermanDePaiva96); [Kobayashi 1997](#Kobayashi97)) modal type theory  is specifically understood as being a type theory equipped with  ([[comonad|co-]])[[monads]] on its type system, representing the intended [[modal operators]]. Since [[monad (in computer science)|monads in computer science]] embody a notion of [[computation]], some authors also speak of _[[computational type theory]]_ here ([Benton, Bierman & de Paiva 1998](#BentonBiermanPaiva98), [Fairtlough-Mendler 02](#FairtloughMendler02)).
 
-According to ([Benton-Bierman-de Paiva 95, p. 1-2](#BentonBiermanPaiva)) this matches well with the default interpretation of ([[S4]]) [[modal logic]] as being about the [[modality]] $T$ of "[[possibility]]":
+According to ([Benton, Bierman & de Paiva 1998, p. 1-2](#BentonBiermanPaiva98)) this matches well with the default interpretation of ([[S4]]) [[modal logic]] as being about the [[modality]] $T$ of "[[possibility]]":
 
 > The starting point for Moggi's work is an explicit semantic distinction between _computations_ and _values_. If $A$ is an object which interprets the values of a particular type, then $T(A)$ is the object which models computation of that type $A$. $[...]$ For a wide variety of notions of computation, the unary operator $T(-)$ turns out to have the categorical structure of a _strong monad_ on an underlying cartesian closed category of values. $[...]$ On a purely intuitive level and particularly if one thinks about non-termination, there is certainly something appealing about the idea that a computation of type $A$ represents the possibility of a value of type $A$.
 
@@ -38,7 +38,7 @@ When the underlying type theory is [[homotopy type theory]] these modalities are
 
 At least in many cases, modalities in type theory are identified with [[monads (in computer science)|monads]] or comonads on the underlying [[type]] [[universe]], or on the subuniverse of [[propositions]].
 
-See for instance ([Benton-Bierman-de Paiva, section 3.2](#BentonBiermanPaiva)), ([Kobayashi](#Kobayashi)), ([Gabbay-Nanevski, section 8](#GabbayNanevski)), ([Gaubault-Larrecq, Goubault, section 5.1](#Gaubault-LarrecqGoubault)), ([Park-Harper, section 2.6](#ParkHarper)), ([Shulman](#Shulman)) as examples of the first, and ([Moggi, def. 4.7](#Moggi)), ([Awodey-Birkedal, section 4.2](#AwodeyBirkedal)) as examples of the second.
+See for instance ([Benton, Bierman & de Paiva 1998, section 3.2](#BentonBiermanPaiva98)), ([Kobayashi](#Kobayashi)), ([Gabbay-Nanevski, section 8](#GabbayNanevski)), ([Gaubault-Larrecq, Goubault, section 5.1](#Gaubault-LarrecqGoubault)), ([Park-Harper, section 2.6](#ParkHarper)), ([Shulman](#Shulman)) as examples of the first, and ([Moggi, def. 4.7](#Moggi)), ([Awodey-Birkedal, section 4.2](#AwodeyBirkedal)) as examples of the second.
 
 ### Relation to endo-adjunctions
 An endo-adjunction on a [[lex category]] gives rise to a modal type theory satisfying the modal axiom K; see [dependent right adjoint](#dradjoint). This also gives rise to a sound sound and complete interpretation of Fitch-style modal $\lambda$-calculus.
@@ -102,7 +102,7 @@ The clear identification of [[modal operators]] on types with [[monads]] (see at
 
 This was observed (independently) to systematically yield constructive [[modal logic]] in (see also at [[computational type theory]])
 
-* {#BentonBiermanPaiva} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], _Computational Types from a Logical Perspective I_ (1995) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778))
+* {#BentonBiermanPaiva98} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
 
 * {#BiermanDePaiva96} [[Gavin M. Bierman]], [[Valeria de Paiva]], *Intuitionistic necessity revisited*, School of Computer Science research reports-University of Birmingham CSR (1996) &lbrack;[researchgate](https://www.researchgate.net/publication/2810611_Intuitionistic_Necessity_Revisited), [[Bierman-dePaiva-NecessityRevisited.pdf:file]]&rbrack;
 
@@ -119,7 +119,7 @@ See also the type-theoretic generalization of _[[adjoint logic]]_, as discussed 
 
 * {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
 
-The modal systems "CL" and "PLL" in ([Benton-Bierman-Paiva](#BentonBiermanPaiva)) and ([Fairlough-Mendler](#FairloughMendler)), respectively,  turn out to be equivalent to the geometric modality of [Goldblatt](#Goldblatt). The system CS4 in ([Kobayashi 1997](#Kobayashi97)) yields a constructive version of [[S4 modal logic]].
+The modal systems "CL" and "PLL" in ([Benton, Bierman & de Paiva 1998](#BentonBiermanPaiva)) and ([Fairlough-Mendler](#FairloughMendler)), respectively,  turn out to be equivalent to the geometric modality of [Goldblatt](#Goldblatt). The system CS4 in ([Kobayashi 1997](#Kobayashi97)) yields a constructive version of [[S4 modal logic]].
 
 
 Explicit mentioning of type theory equipped with such a monad as _modal type theory_ or [[computational type theory]] is in
