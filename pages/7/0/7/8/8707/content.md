@@ -21,7 +21,7 @@
 
 _Modal type theory_ is a flavor of [[type theory]] with [[type formation rules]] for [[modalities]], hence [[type theory]] which on [[propositions]] reduces to [[modal logic]]. 
 
-Following ([Moggi91](#Moggi91), [Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Kobayashi 97](#Kobayashi)) modal type theory  is specifically understood as being a type theory equipped with  ([[comonad|co-]])[[monads]] on its type system, representing the intended [[modalities]]. Since [[monad (in computer science)|monads in computer science]] embody a notion of [[computation]], some authors also speak of _[[computational type theory]]_ here ([Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Fairtlough-Mendler 02](#FairtloughMendler02)).
+Following ([Moggi91](#Moggi91), [Benton, Bierman & de Paiva 95](#BentonBiermanPaiva); [Bierman & de Paiva 1996](#BiermanDePaiva96), [2000](#BiermanDePaiva96); [Kobayashi 1997](#Kobayashi97)) modal type theory  is specifically understood as being a type theory equipped with  ([[comonad|co-]])[[monads]] on its type system, representing the intended [[modal operators]]. Since [[monad (in computer science)|monads in computer science]] embody a notion of [[computation]], some authors also speak of _[[computational type theory]]_ here ([Benton-Bierman-de Paiva 95](#BentonBiermanPaiva), [Fairtlough-Mendler 02](#FairtloughMendler02)).
 
 According to ([Benton-Bierman-de Paiva 95, p. 1-2](#BentonBiermanPaiva)) this matches well with the default interpretation of ([[S4]]) [[modal logic]] as being about the [[modality]] $T$ of "[[possibility]]":
 
@@ -102,17 +102,24 @@ The clear identification of [[modal operators]] on types with [[monads]] (see at
 
 This was observed (independently) to systematically yield constructive [[modal logic]] in (see also at [[computational type theory]])
 
-* {#BentonBiermanPaiva} P.N. Benton , G.M. Bierman , [[Valeria de Paiva]], _Computational Types from a Logical Perspective I_ (1995) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778))
+* {#BentonBiermanPaiva} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], _Computational Types from a Logical Perspective I_ (1995) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778))
+
+* {#BiermanDePaiva96} [[Gavin M. Bierman]], [[Valeria de Paiva]], *Intuitionistic necessity revisited*, School of Computer Science research reports-University of Birmingham CSR (1996) &lbrack;[researchgate](https://www.researchgate.net/publication/2810611_Intuitionistic_Necessity_Revisited), [[Bierman-dePaiva-NecessityRevisited.pdf:file]]&rbrack;
+
+* {#BiermanDePaiva00} [[Gavin M. Bierman]], [[Valeria de Paiva]], *On an Intuitionistic Modal Logic*, Studia Logica **65** (2000) 383–416 &lbrack;[doi:10.1023/A:1005291931660](https://doi.org/10.1023/A:1005291931660), [pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf)&rbrack;
+
+* {#Kobayashi97} [[Satoshi Kobayashi]], *Monad as modality*, Theoretical Computer Science **175** 1 (1997) 29-74 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(96)00169-7">doi:10.1016/S0304-3975(96)00169-7</a>&rbrack;
  
-* {#FairloughMendler} M. Fairlough, Michael Mendler, _Propositional lax logic_, Information and computation 137(1):1-33 (1997)
+* {#FairloughMendler} M. Fairlough, Michael Mendler, _Propositional lax logic_, Information and computation 137(1):1-33 (1997) &lbrack;[pdf](https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_professuren/grundlagen_informatik/papersMM/pll.pdf)&rbrack;
  
-* {#Kobayashi} Satoshi Kobayashi, _Monad as modality_, Theoretical Computer Science, Volume 175, Issue 1, 30 (1997), Pages 29&#8211;74
+* [[Steve Awodey]], p. 279 in: *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)&rbrack;
+
 
 See also the type-theoretic generalization of _[[adjoint logic]]_, as discussed in
 
 * {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
 
-The modal systems "CL" and "PLL" in ([Benton-Bierman-Paiva](#BentonBiermanPaiva)) and ([Fairlough-Mendler](#FairloughMendler)), respectively,  turn out to be equivalent to the geometric modality of [Goldblatt](#Goldblatt). The system CS4 in ([Kobayashi](#Kobayashi)) yields a constructive version of [[S4 modal logic]].
+The modal systems "CL" and "PLL" in ([Benton-Bierman-Paiva](#BentonBiermanPaiva)) and ([Fairlough-Mendler](#FairloughMendler)), respectively,  turn out to be equivalent to the geometric modality of [Goldblatt](#Goldblatt). The system CS4 in ([Kobayashi 1997](#Kobayashi97)) yields a constructive version of [[S4 modal logic]].
 
 
 Explicit mentioning of type theory equipped with such a monad as _modal type theory_ or [[computational type theory]] is in
