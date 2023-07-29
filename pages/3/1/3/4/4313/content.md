@@ -62,6 +62,10 @@ See also
 
 * [[Alexander I. Efimov]], _Cyclic homology of categories of matrix factorizations_,  Intern. Math. Res. Notices __12__ (2018) 3834--3869 [doi](https://doi.org/10.1093/imrn/rnw332) [arXiv:1212.2859](https://arxiv.org/abs/1212.2859)
 
+A matrix factorization of a potential W which is a section of a line bundle on an algebraic stack is studied in
+
+* [[Alexander Polishchuk]], [[Arkady Vaintrob]], _Matrix factorizations and singularity categories for stacks_, Annales de l'Institut Fourier __61__:7 (2011) 2609-2642 [doi](https://doi.org/10.5802/aif.2788) [numdam](http://www.numdam.org/articles/10.5802/aif.2788)
+
 * A. Polishchuk, [[Arkady Vaintrob]], _Matrix factorizations and cohomological field theories_, J. Reine Angew. Math. 714 (2016) 1--122
 
 * [[Alexander Polishchuk]], _Homogeneity of cohomology classes associated with Koszul matrix factorizations_, Compositio Math. __152__ (2016) 2071--2112
