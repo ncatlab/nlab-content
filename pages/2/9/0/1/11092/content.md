@@ -32,5 +32,9 @@ category: people
 
 [[!redirects Kolmogorov]]
 [[!redirects A. N. Kolmogorov]]
-
 [[!redirects Andrei Kolmogoroff]]
+[[!redirects Андрей Николаевич Колмогоров]]
+[[!redirects Андрей Колмогоров]]
+[[!redirects Колмогоров]]
+[[!redirects А. Колмогоров]]
+[[!redirects А. Н. Колмогоров]]
