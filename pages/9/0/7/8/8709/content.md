@@ -18,7 +18,7 @@ On [[categorical semantics]] for (the [[exponential modality]] in) [[linear logi
 A [[natural deduction]]-formulation of [[modal logic]] ([[S4 modal logic|S4]]/[[S5 modal logic|S5]]) and making explicit the [[necessity]] [[modal operator]] as a [[comonad]]:
 
 
-* {#BiermanDePaiva96} [[Gavin M. Bierman]], [[Valeria de Paiva]], *Intuitionistic necessity revisited*, School of Computer Science research reports-University of Birmingham CSR (1996) &lbrack;[researchgate](https://www.researchgate.net/publication/2810611_Intuitionistic_Necessity_Revisited)&rbrack;
+* {#BiermanDePaiva96} [[Gavin M. Bierman]], [[Valeria de Paiva]], *Intuitionistic necessity revisited*, School of Computer Science research reports-University of Birmingham CSR (1996) &lbrack;[researchgate](https://www.researchgate.net/publication/2810611_Intuitionistic_Necessity_Revisited), [[Bierman-dePaiva-NecessityRevisited.pdf:file]]&rbrack;
 
 
 * [[Gavin M. Bierman]], [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_ Studia Logica **65** (2000) 383–416 &lbrack;[doi:10.1023/A:1005291931660](https://doi.org/10.1023/A:1005291931660), [pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf)&rbrack;
