@@ -140,6 +140,8 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * [[Michael Spivak]], _[[Calculus on Manifolds]]_ (1971)
 
+* [[M M Postnikov]], _Lectures on geometry_ 2001 (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
+
 * [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008) &lbrack;[pdf](https://www.mat.univie.ac.at/~michor/dgbook.pdf)&rbrack;
 
 * {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
@@ -147,8 +149,10 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * [[Loring Tu]], _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
 
+* {#GallierQuaintance20a} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A computational perspective*, Geometry and Computing **12**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46040-2](https://doi.org/10.1007/978-3-030-46040-2), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
 
-* [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
+* {#GallierQuaintance20b} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A second course*, Geometry and Computing **13**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46047-1](https://doi.org/10.1007/978-3-030-46047-1), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
+
 
 
 With emphasis on [[G-structures]]:
