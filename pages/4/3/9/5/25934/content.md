@@ -21,6 +21,9 @@ in relation to each other:
 
 * Rod Girle, Ch. 8 of: *Possible Worlds*, McGill-Queen's University Press (2003) $[$[jstor:j.cttq48cx](https://www.jstor.org/stable/j.cttq48cx)$]$
 
+* [[Simon Saunders]], p. 196 in: *Chance in the Everett Interpretation*, in: *Many Worlds?*, Oxford University Press (2010) 181–205 $[$[doi:10.1093/acprof:oso/9780199560561.003.0008](https://doi.org/10.1093/acprof:oso/9780199560561.003.0008)$]$
+
+
 * Nuriya Nurgalieva, Lídia del Rio, *Inadequacy of Modal Logic in Quantum Settings*, EPTCS **287** (2019) 267-297 $[$[arXiv:1804.01106](https://arxiv.org/abs/1804.01106), [doi:10.4204/EPTCS.287.16](https://doi.org/10.4204/EPTCS.287.16)$]$
 
 * [[Alastair Wilson]], p. 20 of: *Modal Metaphysics and the Everett Interpretation* (2006) $[$[philsci:2635](http://philsci-archive.pitt.edu/2635), [pdf](http://philsci-archive.pitt.edu/2635/1/modalmetaphysicsandeverett.pdf)$]$
@@ -33,4 +36,4 @@ Beware that there is also
 
 * Bas C. van Fraassen, *Modal interpretation of repeated measurement*, Philosophy of Science **64** 4 (1997) 669-676 $[$[doi:10.1086/392577](https://doi.org/10.1086/392577), [SEP review](https://plato.stanford.edu/entries/qm-modal/)$]$
 
-which however has no explicit discussion either of [[modal logic]] nor of the [[many-worlds interpretation of quantum mechanics|many-worlds]] interpretation.
+which, even if some vocabulary is superficially alike, does not refer either to [[modal logic]] nor to the [[many-worlds interpretation of quantum mechanics|many-worlds]] interpretation.
