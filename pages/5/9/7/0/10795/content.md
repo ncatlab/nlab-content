@@ -19,6 +19,8 @@ Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] wh
 
   * [[formal spectrum]]
 
+* [[modules over a ring are equivalent to quasicoherent sheaves over its spectrum]]
+
 * [[prime spectrum of a monoidal stable (∞,1)-category]]
 
 * [[affine scheme]]
