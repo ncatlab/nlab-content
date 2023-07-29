@@ -245,6 +245,11 @@ The [[exceptional Lie groups]] incude
 
 * {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
+* {#GallierQuaintance20a} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A computational perspective*, Geometry and Computing **12**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46040-2](https://doi.org/10.1007/978-3-030-46040-2), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
+
+* {#GallierQuaintance20b} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A second course*, Geometry and Computing **13**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46047-1](https://doi.org/10.1007/978-3-030-46047-1), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
+
+
 In the generality of [[Lie semigroups]]:
 
 * [[Joachim Hilgert]], [[Karl-Hermann Neeb]], *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer 1993 ([doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640))
