@@ -1,4 +1,4 @@
-[[!redirects enriched product category]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -41,6 +41,8 @@ See also
 
 * [[Haskell]]: [Data-Category-Enriched.html](https://hackage.haskell.org/package/data-category-0.10/docs/Data-Category-Enriched.html)
 
+
+[[!redirects enriched product category]]
 [[!redirects enriched product categories]]
 
 [[!redirects tensor product of enriched categories]]
