@@ -52,7 +52,7 @@ $$\Box(p\to q) \to (\lozenge p \to \lozenge q).$$
 
 One may also ask for a further compatibility such as $(\lozenge p \to \Box q) \to \Box(p\to q)$, as [Simpson](#Simpson) does.
 
-Similarly, the axiom $\Box(p \to q) \to (\Box p \to \Box q)$ implies that $\Box$ preserves [[logical conjunction]], i.e. $\Box(p\wedge q) \leftrightarrow (\Box p \wedge \Box q)$.  The nullary version $\Box(\top)\leftrightarrow \top$ follows from the "necessitation rule" which says that if $p$ is provable in the empty context, then so is $\Box p$.  (This is an additional rule assumed in modal logics.)  From duality (eq:deMorganDualityBetweenNecessiryAndPossibility) it follows that $\lozenge$ preserves [[logical disjunction]] (both binary and nullary), while intuitionistically one may want to ask for this separately ([Simpson](#Simpson) does, but [Biermann & de Paiva 2000](#BiermanPaiva00) don't).
+Similarly, the axiom $\Box(p \to q) \to (\Box p \to \Box q)$ implies that $\Box$ preserves [[logical conjunction]], i.e. $\Box(p\wedge q) \leftrightarrow (\Box p \wedge \Box q)$.  The nullary version $\Box(\top)\leftrightarrow \top$ follows from the "necessitation rule" which says that if $p$ is provable in the empty context, then so is $\Box p$.  (This is an additional rule assumed in modal logics.)  From duality (eq:deMorganDualityBetweenNecessiryAndPossibility) it follows that $\lozenge$ preserves [[logical disjunction]] (both binary and nullary), while intuitionistically one may want to ask for this separately ([Simpson](#Simpson) does, but [Biermann & de Paiva 2000](#BiermanDePaiva00) don't).
 
 A minimum further requirement on a formalization of $\Box$ and $\lozenge$ to have the interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
@@ -642,10 +642,11 @@ See also:
 
 Making explicit the [[necessity]] [[modal operator]] as a [[comonad]]:
 
-
 * {#BiermanDePaiva96} [[Gavin M. Bierman]], [[Valeria de Paiva]], *Intuitionistic necessity revisited*, School of Computer Science research reports-University of Birmingham CSR (1996) &lbrack;[researchgate](https://www.researchgate.net/publication/2810611_Intuitionistic_Necessity_Revisited)&rbrack;
 
 * {#BiermanDePaiva00} [[Gavin M. Bierman]], [[Valeria de Paiva]], *On an Intuitionistic Modal Logic*, Studia Logica **65** (2000) 383–416 &lbrack;[doi:10.1023/A:1005291931660](https://doi.org/10.1023/A:1005291931660), [pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf)&rbrack;
+
+* {#Kobayashi97} [[Satoshi Kobayashi]], *Monad as modality*, Theoretical Computer Science **175** 1 (1997) 29-74 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(96)00169-7">doi:10.1016/S0304-3975(96)00169-7</a>&rbrack;
 
 * Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], Eike Ritter: *Categorical and Kripke Semantics for Constructive S4 Modal Logic*, in *Computer Science Logic. CSL 2001* Lecture Notes in Computer Science **2142**, Springer (2001) 292 &lbrack;[doi:10.1007/3-540-44802-0_21](https://doi.org/10.1007/3-540-44802-0_21)&rbrack;
 
