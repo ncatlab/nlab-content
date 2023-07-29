@@ -132,6 +132,10 @@ for an arbitrary family (not necessarily finite) of commuting normal operators.
 
 * [[Zariski spectrum]]
 
+* [[modules over a ring are equivalent to quasicoherent sheaves over its spectrum]]
+
+* [[Serre-Swan theorem]], [[smooth Serre-Swan theorem]]
+
 * [[noncommutative geometry]]
 
 * [[reconstruction theorem]], [[Gabriel-Rosenberg theorem]]
