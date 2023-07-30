@@ -16,6 +16,7 @@
 > *when it comes to atoms, language can be used only as in poetry.* &lbrack;[[Niels Bohr|Bohr]], [1920](https://en.wikiquote.org/wiki/Niels_Bohr)&rbrack;
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -136,9 +137,11 @@ The famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics
  
 The [[many-worlds interpretation of quantum mechanics]]:
 
-* Hugh Everett III, *"Relative State" Formulation of Quantum Mechanics*, Rev. Mod. Phys. **29** (1957) 454-462 &lbrack;[doi:10.1103/RevModPhys.29.454](https://doi.org/10.1103/RevModPhys.29.454)&rbrack; (reprinted in [De Witt & Graham 1973](#DeWittGraham73))
+* {#Everett57a} [[Hugh Everett III]], *The Theory of the Universal Wavefunction* PhD thesis, Princeton (1957), reprinted in: [De Witt & Graham 1973](#DeWittGraham73)
 
-  > "This total lack of effect of one branch on another also implies that no observer will ever be aware of any 'splitting' process. Arguments that the world picture presented by this theory is contradicted by experience, because we are unaware of any branching process, are like the criticism of the Copernican theory that the mobility of the earth as a real physical fact is incompatible with the common sense interpretation of nature because we feel no such motion. In both cases the argument fails when it is shown that the theory itself predicts that our experience will bewhat it in fact is."
+* {#Everett57b} [[Hugh Everett III]], *"Relative State" Formulation of Quantum Mechanics*, Rev. Mod. Phys. **29** (1957) 454-462 &lbrack;[doi:10.1103/RevModPhys.29.454](https://doi.org/10.1103/RevModPhys.29.454)&rbrack; (reprinted in [De Witt & Graham 1973](#DeWittGraham73))
+
+  > "This total lack of effect of one branch on another also implies that no observer will ever be aware of any 'splitting' process. Arguments that the world picture presented by this theory is contradicted by experience, because we are unaware of any branching process, are like the criticism of the Copernican theory that the mobility of the earth as a real physical fact is incompatible with the common sense interpretation of nature because we feel no such motion. In both cases the argument fails when it is shown that the theory itself predicts that our experience will be what it in fact is."
 
 * {#DeWittGraham73} [[Bryce S. DeWitt]], [[Neill Graham]] (eds.), *The Many-Worlds Interpretation of Quantum Mechanics*, Princeton Series in Physics, Princeton University Press (1973, 2016) &lbrack;[ISBN:9780691645926](https://press.princeton.edu/books/hardcover/9780691645926/the-many-worlds-interpretation-of-quantum-mechanics), [jstor:j.ctt13x0wwk](https://www.jstor.org/stable/j.ctt13x0wwk)&rbrack;
 
