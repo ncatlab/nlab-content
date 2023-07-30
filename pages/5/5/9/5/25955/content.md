@@ -10,7 +10,7 @@ An approach to realizing one direction of the p-adic local Langlands corresponde
 
 ## Scholze's p-adic Jacquet-Langlands functor
 
-We describe the construction in [#Scholze2015](#Scholze2015). Let $F$ be a finite extension of $\mathbb{Q}_{p}$ and let $C=\widehat{\overline{F}}$. Let $\mathcal{M}_{\infty}$ be the infinite level Lubin-Tate space over $C$. It is a perfectoid space equipped with commuting actions of $\GL_{n}(F)$ and $D^{\times}$, where $D/F$ is the central simple algebra of invariant $1/n$. There is a Gross-Hopkins period map $\pi_{\mathrm{GH}}:\mathcal{M}_{\infty}\to\mathbb{P}_{C}^{n-1}$.
+We describe the construction in [#Scholze2015](#Scholze2015). Let $F$ be a finite extension of $\mathbb{Q}_{p}$ and let $C=\widehat{\overline{F}}$. Let $\mathcal{M}_{\infty}$ be the infinite level [[Lubin-Tate space]] over $C$. It is a perfectoid space equipped with commuting actions of $\GL_{n}(F)$ and $D^{\times}$, where $D/F$ is the central simple algebra of invariant $1/n$. There is a Gross-Hopkins period map $\pi_{\mathrm{GH}}:\mathcal{M}_{\infty}\to\mathbb{P}_{C}^{n-1}$.
 
 Let $\pi$ be a smooth $\mathbb{F}_{p}$-representation of $\GL_{n}(F)$. We define a sheaf $\mathcal{F}_{\pi}$ on $\mathbb{P}_{C}^{n-1}$ as follows. Given an etale map $U\to\mathbb{P}_{C}^{n-1}$, define
 
