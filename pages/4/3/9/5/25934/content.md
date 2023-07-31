@@ -1,7 +1,6 @@
 
 
 
-
 ### Possible-worlds vs. Many-worlds
  {#ManyPossibleWorldsReferences}
 
@@ -12,6 +11,9 @@ References which consider, in one way or another, the notions of
 * *[[many-worlds interpretation of quantum mechanics|many worlds]]* in [[interpretations of quantum mechanics]]:
 
 in relation to each other:
+
+* {#Bunge76} [[Mario Bunge]], *Possibility and Probability*,  in: *Foundations of Probability Theory, Statistical Interference, and Statistical Theories of Science*, Reidel (1976) 17-34 $[$[doi:10.1007/978-94-010-1438-0_2](https://doi.org/10.1007/978-94-010-1438-0_2)$]$
+
 
 * Brian Skyrms, Part III of: *Possible Worlds, Physics and Metaphysics*, Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition **30** 5 (1976) 323-332 $[$[jstor:4319099](https://www.jstor.org/stable/4319099)$]$
 
