@@ -110,7 +110,7 @@ The category of $k$-schemes is closed under finite limits, forming open- and clo
 
 ### Translation between the two approaches
 
-The __fundamental theorem on morphisms of schemes__ asserts that there is a [[fully faithful functor]] from the category $Sch$ of schemes to $Psh(Aff) \equiv Psh(CRing^{op}) $,  the category of [[presheaf|presheaves]] on the category of affine schemes, or equivalently on the opposite of the category of commutative rings,
+The [[fundamental theorem on morphisms of schemes]]  asserts that there is a [[fully faithful functor]] from the category $Sch$ of schemes to $Psh(Aff) \equiv Psh(CRing^{op}) $,  the category of [[presheaf|presheaves]] on the category of affine schemes, or equivalently on the opposite of the category of commutative rings,
 given by
 $$(X,\mathcal{O}_X)\mapsto Sch((|Spec (-)|,\mathcal{O}_{Spec(-)}),(X,\mathcal{O}_X))$$
 
@@ -152,21 +152,17 @@ In [[algebraic geometry]] this is a basic object of study, since the revolution 
 
 [[Jacob Lurie]] argues that underlying locale point of view is better than underlying topological space point of view, see [[schemes as locally affine structured (∞,1)-toposes]].
 
-### Simplicial schemes
-
-* [[simplicial scheme]]
-
-### Super-schemes
-
-* [[super-scheme]]
-
-### Semiring scheme
-
-* [[semiring scheme]]
-
 ## References
 
 Terminology: [[EGA]] says prescheme, for what we call scheme, and says scheme for what we call [[separated scheme]].
+
+Generalizations: [[simplicial scheme]], [[super-scheme]], [[semiring scheme]], [[noncommutative scheme]], [[derived scheme]]
+
+Other related entries include 
+
+* [[morphism of schemes]]
+* [[Serre's theorem on Proj]], [[Serre's theorem on quasicoherent sheaves on affine schemes]]
+* [[locally ringed space]]
 
 ### Standard monographs
 
