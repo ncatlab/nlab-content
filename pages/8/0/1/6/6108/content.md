@@ -89,6 +89,8 @@ Discussion as a [[supersymmetry|supersymmetric]] [[sigma model]] in [[string the
 
 * [[Brian Greene]], [[Cumrun Vafa]], _Calabi--Yau Manifolds and Renormalization Group Flows_, Nucl.Phys. B324 (1989) 371 (<a href="https://doi.org/10.1016/0550-3213(89)90471-9">doi:10.1016/0550-3213(89)90471-9</a>)
 
+* [[Paul Howe]], [[Peter West]], *Landau-Ginzburg Hamiltonians, string theory and critical phenomena*, in: *Proceedings of 25th International Conference on High Energy Physics*, Singapore (August 2-8, 1990) &lbrack;[inspire:301119](https://inspirehep.net/literature/301119), [pdf](https://inspirehep.net/files/f9b5ac3ccd39ef8c30ca5c7b69b92fc8)&rbrack;
+
 * [[Edward Witten]], _Phases of $N=2$ Theories In Two Dimensions_, Nucl.Phys.B 403:159--222, 1993 ([arXiv:hep-th/9301042](https://arxiv.org/abs/hep-th/9301042))
 
 Lecture notes:
