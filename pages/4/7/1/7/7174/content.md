@@ -18,6 +18,11 @@ On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic su
 
 * [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
 
+On [[Landau-Ginzburg models]] in the sense of [[string theory]] ([[sigma models]] with certain [[potential energy|potentials]]):
+
+* [[Paul Howe]], [[Peter West]], *Landau-Ginzburg Hamiltonians, string theory and critical phenomena*, in: *Proceedings of 25th International Conference on High Energy Physics*, Singapore, August 2-8, 1990 &lbrack;[inspire:301119](https://inspirehep.net/literature/301119), [pdf](https://inspirehep.net/files/f9b5ac3ccd39ef8c30ca5c7b69b92fc8)&rbrack;
+
+
 
 On the fundamental [[M5-brane]] [[Green-Schwarz sigma-model]]:
 
