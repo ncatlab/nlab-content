@@ -2542,7 +2542,6 @@ The characterization of infinitesimal extensions and formal smoothness by adjoin
 
 * {#KontsevichRosenbergSpaces} [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([pdf](http://nlab.mathforge.org/nlab/files/KontsevichRosenbergNCSpaces.pdf), [ps](http://www.mpim-bonn.mpg.de/preblob/2331), [dvi](http://www.mpim-bonn.mpg.de/preblob/2303))
  
-
 in the context of _[[Q-categories]]_ .
 
 The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale objects over a given object appears in
@@ -2551,6 +2550,10 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale o
  
 
 * {#Carchedi} [[David Carchedi]], _The Meaning of &#201;tale Stacks_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+
+Discussion for [[derived differential geometry]]:
+
+* [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
  
 
 
