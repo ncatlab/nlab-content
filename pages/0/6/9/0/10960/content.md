@@ -13,7 +13,20 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Immanuel_Kant)
 
-## Related $n$Lab entries
+## Quotes
+
+On [[mathematics]], 
+
+> {#IchBehaupteAber} Ich behaupte aber, daß in jeder besonderen Naturlehre nur so viel eigentliche Wissenschaft angetroffen werden könne, als darin Mathematik anzutreffen ist. 
+
+> I maintain that in each particular natural science there is only as much true science as there is mathematics.
+
+> &lbrack;From *[Metaphysische Anfangsgründe der Naturwissenschaft](https://de.wikipedia.org/wiki/Metaphysische_Anfangsgr%C3%BCnde_der_Naturwissenschaft) (1786), [Vorrede](http://www.zeno.org/Philosophie/M/Kant,+Immanuel/Metaphysische+Anfangsgr%C3%BCnde+der+Naturwissenschaft/Vorrede)*&rbrack;
+
+Later quoted by [[David Hilbert]] in *[[Naturerkennen und Logik]]* (1930), see [there](Naturerkennen+und+Logik#TheInstrumentThatMediates).
+
+
+## Related entries
 
 * [[Critique of Pure Reason]]
 
