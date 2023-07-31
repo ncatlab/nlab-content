@@ -44,6 +44,10 @@ Hartshorne proves as Proposition 5.15 that the counit of the corresponding adjun
 * [[Michael Artin]], J. Zhang, _Noncommutative projective schemes_, Adv. Math. 109, 228--287 (1994)
 * [[Fred van Oystaeyen]], L. Willaert, _Grothendieck topology, coherent sheaves and Serre’s theorem for schematic algebras_, J. Pure Appl. Alg. 104 (1995) 109--122
 * [[Alexander Rosenberg]], _Non-commutative algebraic geometry and representations of quantized algebras_, Mathematics and Its Applications __330__, Kluwer Academic Publishers, 1995
+* [[Alexander Polishchuk]], _Noncommutative Proj and coherent algebras_, arXiv:[math.RA/0212182](https://arxiv.org/abs/math/0212182)
+
+> We prove that an abelian category equipped with an ample sequence of objects is equivalent to the quotient of the category of coherent modules over the corresponding algebra by the subcategory of finite-dimensional modules. In the Noetherian case a similar result was proved by Artin and Zhang. 
+
 * Andrés Chacón, Armando Reyes, _Noncommutative scheme theory and the Serre-Artin-Zhang-Verevkin theorem for semi-graded rings_, [arXiv:2301.07815](https://arxiv.org/abs/2301.07815)
 
 category: algebraic geometry
