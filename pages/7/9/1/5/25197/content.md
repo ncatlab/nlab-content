@@ -96,14 +96,14 @@ Higher Kac-Moody algebras were proposed in
 
 * M. [[Kapranov]], _Infinite-dimensional (dg) Lie algebras and factorization algebras in algebraic geometry_, Japanese Journal of Mathematics volume 16, pages 49–80 (2021) [https://doi.org/10.1007/s11537-020-1921-4](https://doi.org/10.1007/s11537-020-1921-4).
 
-Higher Kac-Moody algebras were casted in the language of [[factorization algebras]] in
+Higher Kac-Moody algebras casted in the language of [[factorization algebras]]:
 
-* {#GW21} O. Gwilliam and B.R. Williams, _Higher Kac-Moody algebras and symmetries of holomorphic field theories_, Adv.Theor.Math.Phys. 25 (2021) 1, pages 129-239 [math.QA/1810.06534](https://arxiv.org/abs/1810.06534v2).
+* {#GW21} [[Owen Gwilliam]], B. R. Williams, _Higher Kac-Moody algebras and symmetries of holomorphic field theories_, Adv. Theor. Math. Phys. **25** 1 (2021) 129-239 &lbrack;[math.QA/1810.06534](https://arxiv.org/abs/1810.06534v2)&rbrack;
 
 A variant of this construction on the product of a [[worldsheet]] and a [[spectral curve|spectral plane]] (i.e. another copy of
-the complex plane $\mathbb{C}$ with marked points which defines any rational [[Gaudin integrable model|Gaudin model]]) was proposed in
+the complex plane $\mathbb{C}$ with marked points which defines any rational [[Gaudin integrable model|Gaudin model]]):
 
-* [[Luigi Alfonsi]] and Charles Young, _Higher current algebras, homotopy Manin triples, and a rectilinear adelic complex_, [math.QA/2208.06009](https://arxiv.org/abs/2208.06009).
+* [[Luigi Alfonsi]], [[Charles A. S. Young]], *Higher current algebras, homotopy Manin triples, and a rectilinear adelic complex*, Journal of Geometry and Physics **191** (2023) 104903 &lbrack;[doi:10.1016/j.geomphys.2023.104903](https://doi.org/10.1016/j.geomphys.2023.104903), [math.QA/2208.06009](https://arxiv.org/abs/2208.06009)&rbrack;
 
 
 [[!redirects higher Kac-Moody algebra]]
