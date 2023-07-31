@@ -137,7 +137,7 @@ The famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics
  
 The [[many-worlds interpretation of quantum mechanics]]:
 
-* {#Everett57a} [[Hugh Everett III]], *The Theory of the Universal Wavefunction* PhD thesis, Princeton (1957), reprinted in: [De Witt & Graham 1973](#DeWittGraham73)
+* {#Everett57a} [[Hugh Everett III]], *The Theory of the Universal Wavefunction* PhD thesis, Princeton (1957) &lbrack;[pdf](https://www.pbs.org/wgbh/nova/manyworlds/pdf/dissertation.pdf)&rbrack; reprinted in: [De Witt & Graham 1973](#DeWittGraham73)
 
 * {#Everett57b} [[Hugh Everett III]], *"Relative State" Formulation of Quantum Mechanics*, Rev. Mod. Phys. **29** (1957) 454-462 &lbrack;[doi:10.1103/RevModPhys.29.454](https://doi.org/10.1103/RevModPhys.29.454)&rbrack; (reprinted in [De Witt & Graham 1973](#DeWittGraham73))
 
