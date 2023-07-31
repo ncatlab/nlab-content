@@ -2,17 +2,17 @@
 
 Projective spectrum Proj assigns a locally ringed space $Proj(A)$ to a graded ring $A$. This construction has been introduced by Serre.
 
-Serre proved two elementary theorems concerning the structure of sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ relating graded modules over $A$ and [[quasicoherent sheaves]] over $X$: one on coherent and another on quasicoherent sheaves. In both cases, quasicoherent sheaves correspond to objects in the localization of a category of graded modules by a torsion (Serre's) subcategory.
+Serre proved two elementary theorems concerning the structure of sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ relating graded modules over $A$ and sheaves of $mathcal{O}_X$-modules: one on [[coherent sheaves]] and another on [[quasicoherent sheaves]]. In both cases, the sheaves correspond to objects in the localization of a category of graded modules by a torsion (Serre's) subcategory.
 
 There is an analogue for affine schemes, (affine) [[affine Serre's theorem|Serre's theorem on quasicoherent sheaves over affine schemes]]. 
 
-## Serre's theorem, quasicoherent version
+## Serre's theorem for quasicoherent sheaves
 
-There is a functor $M\mapsto \tilde{M}$ (todo: should be described here) from the category of graded modules over a $\mathbf{Z}_{\geq 0}$-graded ring $A$ to the category of quasicoherent sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ which has a fully faithful right adjoint, hence inducing an equivalence of the category of quasicoherent modules $qcoh(X)$ with a localization of the category of graded $A$-modules. The kernel of that localization is the subcategory of modules of finite length.
+There is a functor $M\mapsto \tilde{M}$ (to do: should be described here) from the category of graded modules over a $\mathbf{Z}_{\geq 0}$-graded ring $A$ to the category of quasicoherent sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ which has a fully faithful right adjoint, hence inducing an equivalence of the category of quasicoherent modules $qcoh(X)$ with a localization of the category of graded $A$-modules. The kernel of that localization is the subcategory of modules of finite length.
 
-## Serre's theorem, coherent version
+## Serre's theorem for coherent sheaves
 
-If $A$ is Noetherian the functor $M\mapsto \tilde{M}$ restricted to the category of finitely generated projective modules takes values in the category of coherent sheaves and the induced functor also has a fully faithful right adjoint, which moreover induces an equivalence between the localization of the category of finitely generated projective $A$-modules by the Serre's subcategory of modules of finite length and the category of coherent sheaves over $Proj(A)$.
+If $A$ is [[Noetherian ring|Noetherian]], the functor $M\mapsto \tilde{M}$ restricted to the category of finitely generated projective modules takes values in the category of coherent sheaves and the induced functor also has a fully faithful right adjoint, which moreover induces an equivalence between the localization of the category of finitely generated projective $A$-modules by the Serre's subcategory of modules of finite length and the category of coherent sheaves over $Proj(A)$.
 
 ## Noncommutative and derived analogues
 
