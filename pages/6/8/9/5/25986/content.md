@@ -1,0 +1,53 @@
+## Idea
+
+Projective spectrum Proj assigns a locally ringed space $Proj(A)$ to a graded ring $A$. This construction has been introduced by Serre.
+
+Serre proved two elementary theorems concerning the structure of sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ relating graded modules over $A$ and [[quasicoherent sheaves]] over $X$: one on coherent and another on quasicoherent sheaves. In both cases, quasicoherent sheaves correspond to objects in the localization of a category of graded modules by a torsion (Serre's) subcategory.
+
+There is an analogue for affine schemes, (affine) [[affine Serre's theorem|Serre's theorem on quasicoherent sheaves over affine schemes]]. 
+
+## Serre's theorem, quasicoherent version
+
+There is a functor $M\mapsto \tilde{M}$ (todo: should be described here) from the category of graded modules over a $\mathbf{Z}_{\geq 0}$-graded ring $A$ to the category of quasicoherent sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ which has a fully faithful right adjoint, hence inducing an equivalence of the category of quasicoherent modules $qcoh(X)$ with a localization of the category of graded $A$-modules. The kernel of that localization is the subcategory of modules of finite length.
+
+## Serre's theorem, coherent version
+
+If $A$ is Noetherian the functor $M\mapsto \tilde{M}$ restricted to the category of finitely generated projective modules takes values in the category of coherent sheaves and the induced functor also has a fully faithful right adjoint, which moreover induces an equivalence between the localization of the category of finitely generated projective $A$-modules by the Serre's subcategory of modules of finite length and the category of coherent sheaves over $Proj(A)$.
+
+## Noncommutative and derived analogues
+
+The subject of noncommutative projective algebraic geometry by Artin and Zhang, as well as independent (and different mainly in the level of generality) attempts to 
+noncommutative geometry by other authors take the Serre's
+theorem to the status of definition of the category of quasicoherent sheaves when the graded ring is generalized to a noncommutative one. 
+
+## References
+
+### Commutative
+
+This is Section 59, Proposition. 7.8, p. 252 in
+
+* J. P. Serre, Faisceaux algébriques cohérents, Ann. of Math. (2) 61 (2) (1955) 197--278
+
+See also 3.3.5 in
+
+* A. Grothendieck, J. Dieudonné, Eléments de géométrie algébrique II, Inst. Hautes Etudes Sci. Publ. Math. 8 (1961)
+
+Hartshorne proves as Proposition 5.15 that the counit of the corresponding adjunction is an isomorphism (hence we have the reflective subcategory that is localization functor)
+
+* Robin Hartshorne, _Algebraic geometry_, Graduate Texts in Mathematics 52, Springer 1977
+
+* _Serre's theorem on Proj_, [mathOverflow](https://math.stackexchange.com/questions/333325/serres-theorem-for-operatornameproj)
+
+### Noncommutative
+
+* A. B. Verevkin, _On a noncommutative analogue of the category of coherent sheaves on a projective scheme_, Amer. Math. Soc. Transl. (2) 151 (1992)
+* [[Michael Artin]], J. Zhang, _Noncommutative projective schemes_, Adv. Math. 109, 228--287 (1994)
+* [[Fred van Oystaeyen]], L. Willaert, _Grothendieck topology, coherent sheaves and Serre’s theorem for schematic algebras_, J. Pure Appl. Alg. 104 (1995) 109--122
+* [[Alexander Rosenberg]], _Non-commutative algebraic geometry and representations of quantized algebras_, Mathematics and Its Applications __330__, Kluwer Academic Publishers, 1995
+* Andrés Chacón, Armando Reyes, _Noncommutative scheme theory and the Serre-Artin-Zhang-Verevkin theorem for semi-graded rings_, [arXiv:2301.07815](https://arxiv.org/abs/2301.07815)
+
+category: algebraic geometry
+
+[[!redirects Serre's theorem for Proj]]
+[[!redirects projective Serre's theorem]]
+[[!redirects Serre's theorem on quasicoherent sheaves]]
