@@ -119,7 +119,7 @@ category: algebra, algebraic geometry
 
 [[!redirects affine Serre&#39;s theorem]]
 [[!redirects affine Serre's theorem]]
-
+[[!redirects Serre's theorem on quasicoherent sheaves over affine schemes]]
 [[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
 [[!redirects modules over a ring are equivalent to quasicoherent modules over its spectrum]]
 [[!redirects quasicoherent sheaves over affine schemes]]
