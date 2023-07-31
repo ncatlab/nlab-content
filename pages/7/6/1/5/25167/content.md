@@ -35,6 +35,12 @@ The theory of reduced local rings is a [[coherent theory]].
 
 * [[ordered reduced local ring]]
 
+## References
+
+For a division algorithm for [[polynomials]] over reduced local rings:
+
+* [[Fred Richman]], *A division algorithm* ([pdf](http://math.fau.edu/richman/docs/heyting3.pdf))
+
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
 | [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
