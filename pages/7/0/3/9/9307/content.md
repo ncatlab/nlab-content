@@ -115,3 +115,14 @@ and sections 1.2.4 ([[geometry of physics -- smooth homotopy types]]) as well as
 This goes on to discuss [[differential cohomology]] and the [[differential cohomology diagram]] formulated in [[stable homotopy type|stable]] objects in [[smooth ∞-groupoids]] (hence in [[sheaves of spectra]] on the [[site]] of [[smooth manifolds]]/[[Cartesian spaces]]) in higher differential geometry, see 
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+
+On [[derived differential geometry]] and [[higher Lie theory]] cast in ([[differential cohesion|differential]]) [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] theory:
+
+* [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
+
+exposition
+
+* [[Luigi Alfonsi]]: *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, [talk at](M-Theory+and+Mathematics#Alfonsi2023) *[[M-Theory and Mathematics]]* (Jan 2023) &lbrack;slides: [[Alfonsi-MTheoryAndMath2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=O7pQkyqCiA4)&rbrack;
+
+
+
