@@ -11,11 +11,11 @@ On the [[interpretation of quantum mechanics]] (see also at *[[Bohr topos]]*):
 
 > [pp. 209]: "I advocated a point of view conveniently termed 'complementarity", suited to embrace the characteristic features of individuality of quantum phenomena, and at the same time to clarify the peculiar aspects of the observational problem in this field of experience. For this purpose, it is decisive to recognize that *however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms*. The argument is simply that by the word 'experiment' we refer to a situation where we can tell others what we have done and what we have learned and that, therefore, the account of the experimental arrangement and the results of the observations must be expressed in unambiguous language with suitable application of the terminology of classical physics.
 
-> This crucial point, which was to become a main theme of the discussions reported in the following, implies the *impossibility of any sharp separation between the behaviour of atomic objects and the interaction with the measuring instwments which serve to define the conditions under which the phenomena appear.*"
+> This crucial point, which was to become a main theme of the discussions reported in the following, implies the *impossibility of any sharp separation between the behaviour of atomic objects and the interaction with the measuring instruments which serve to define the conditions under which the phenomena appear.*"
 
-For more see: 
+For commentary see: 
 
-* {#Scheibe73} Erhard Scheibe, *Bohr's interpretation of quantum mechanics*, Chapter I in: _The logical analysis of quantum mechanics_, Oxford: Pergamon Press (1973)
+* {#Scheibe73} [[Erhard Scheibe]], p. 24 of: *Bohr's interpretation of quantum mechanics*, Chapter I in: _The logical analysis of quantum mechanics_, Oxford: Pergamon Press (1973)
 
 
 and see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
