@@ -120,7 +120,11 @@ Hegel's philosophy of music can be found in his lectures on aesthetics though th
 
 A development of the basic concepts of music theory along his ideas on dialectics can be found in
 
-* Moritz Hauptmann, _Die Natur der Harmonik und Metrik_, Breitkopf & Härtel Leipzig 1853. ([wikisource](https://de.wikisource.org/wiki/Moritz_Hauptmann))
+* [[Moritz Hauptmann]], _Die Natur der Harmonik und Metrik_, Breitkopf & Härtel Leipzig 1853. ([wikisource](https://de.wikisource.org/wiki/Moritz_Hauptmann))
+
+The sonata form from a Hegelian perspective:
+
+* Ernst Nobbe, _Die thematische Entwicklung der Sonatenform im Sinne der Hegel'schen Philosophie betrachtet_, Triltsch Würzburg 1941.
 
 The following introductory texts on psychoacoustics help provide a foundation to better understand how sound becomes emotion becomes music:
 
