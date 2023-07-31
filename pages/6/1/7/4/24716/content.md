@@ -68,8 +68,7 @@ The original article:
 
 Further discussion:
 
- 
-* {#Bunge76} Mario Bunge, p. 31 in: *Possibility and Probability*, pp. 17-34  in: *Foundations of Probability Theory, Statistical Interference, and Statistical Theories of Science*  Reidel (1976) &lbrack;[doi:10.1007/978-94-010-1438-0_2](https://doi.org/10.1007/978-94-010-1438-0_2)&rbrack;
+* {#Bunge76} [[Mario Bunge]], p. 31 in: *Possibility and Probability*, in: *Foundations of Probability Theory, Statistical Interference, and Statistical Theories of Science*  Reidel (1976) 17-34 &lbrack;[doi:10.1007/978-94-010-1438-0_2](https://doi.org/10.1007/978-94-010-1438-0_2)&rbrack;
 
 * {#Israel96} Werner Israel, p. 607 of: *Imploding stars, shifting continents, and the inconstancy of matter*, Foundations of Physics **26** (1996) 595–616 &lbrack;[doi:10.1007/BF02058234](https://doi.org/10.1007/BF02058234)&rbrack;
 
@@ -87,4 +86,5 @@ Further discussion:
 
 [[!redirects quantum compulsion]]
 [[!redirects principle of quantum compulsion]]
+[[!redirects Gell-Mann principle of quantum compulsion]]
 
