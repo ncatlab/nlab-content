@@ -62,7 +62,7 @@ Using this dictionary for instance the notion of [[descent]] of vector bundles c
 The notion of [[monoid]] in a [[monoidal category]] generalizes
 directly to that of a monoid in a [[2-category]], where it is called a [[monad]]. Accordingly the notion of module generalizes to this more general case, where however it is called an _algebra over a monad_ . For more on this see [Modules for monoids in 2-categories: algebras over monads](#MonadAlgs) below.
 
-Apart from this direct generalization, there are two distinct and separately important perspective on the notion of module from the [[nPOV]]:
+Apart from this direct generalization, there are two distinct and separately important perspectives on the notion of module from the [[nPOV]]:
 
 * modules may usefully be thought of in the context of [[enriched category theory]] (and the enrichment may be over a [[2-category]]);
 
