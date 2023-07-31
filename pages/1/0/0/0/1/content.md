@@ -1,4 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Contents {: .clickToReveal}
+### Contents {: .clickToHide tabindex="0"}
++-- {: .hide}
+[[!include contents]]
+=--
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
++-- {: .query}
+$\,$
+ <div align="center" >
+ <em>Search the nLab ([[Searching the nLab|hints]])</em> 
+ <form  name="gsearch" method="get" action="https://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="https://ncatlab.org/nlab/"/></form>
+</div>
+$\,$
+=--
+
+
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki) for collaborative work on _[[Mathematics]]_, _[[Physics]]_, and _[[Philosophy]]_ --- especially (but far from exclusively) from the [[higher structures]] [[n-point of view|point of view]]: with a sympathy towards the tools and perspectives of [[homotopy theory]]/[[algebraic topology]], [[homotopy type theory|homotopy]] [[type theory]], [[higher category theory|higher]] [[category theory]] and [[higher algebra|higher]] [[categorical algebra]].
+
 
 \tableofcontents
 
@@ -11,6 +40,7 @@ If you take a little time to find something in the literature, or to work throug
 
 A fundamental idea behind the nLab is that the linking between pages of a wiki is a profound way to record knowledge, placing it in a rich context.
 
+For more, see also [[Urs Schreiber]]'s thoughts at [[schreiber:What is... the nLab|What is... the nLab?]]. 
 
 
 ## nForum, discussion, comments, and questions
@@ -95,3 +125,13 @@ Please do not try to contact the technical team on matters that are not purely t
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
 
+
+category: meta
+
+[[!redirects HomePage]]
+[[!redirects Home Page]]
+[[!redirects Homepage]]
+[[!redirects Home page]]
+[[!redirects homepage]]
+[[!redirects home page]]
+[[!redirects nLab]]
