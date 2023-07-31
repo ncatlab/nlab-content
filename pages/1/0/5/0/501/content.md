@@ -83,6 +83,20 @@ All of the above definitions except for Dedekind-finiteness only make sense give
 
 Can you think of a way to define these notions of finite without power objects and without a natural numbers object? More specifically (and generously), can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]] with [[enough projectives]]?
 
+Finite sets have [[decidable equality]], and given a set $S$ with [[decidable equality]], a finite subset $A \in P(S)$ is always a [[decidable subset]] of $S$. This means that we could use the set of decidable subsets $2^S$ in the definition of finite set instead of [[power sets]]:
+
+* Let $B(S)$ denote the smallest subset of $2^S$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$ [[disjoint sets|disjoint]] from $A$. Then a set $S$ is finite iff $S$ has [[decidable equality]] and $S \in B(S)$.
+
+The set of decidable subsets of $S$ is of course given by the [[function set]] from $S$ to the [[disjoint coproduct]] $1 + 1$ of a [[singleton]] $1$ with itself. 
+
+The definitions of subfinite, finitely indexed, and subfinitely indexed follow from above:
+
+* A set is [[subfinite]] if it admits an [[injection]] into some finite set.
+
+* A set is finitely indexed if it admits a [[surjection]] from some finite set.
+
+* A set is subfinitely indexed if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set.
+
 \subsection{In a topos}
 {#External}
 
