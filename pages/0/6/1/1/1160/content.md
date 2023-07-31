@@ -73,6 +73,8 @@ Either way, this is typically how the [[natural numbers type]] is proven to have
 
 * {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, [arxiv](https://arxiv.org/abs/1804.00427)
 
+[[!redirects decidable set]]
+[[!redirects decidable sets]]
 
 [[!redirects decidable equality]]
 [[!redirects truncated decidable equality]]
