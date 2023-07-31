@@ -65,6 +65,9 @@ A [[morphism]] $f \colon A \to B$ is called _decidable_ if it is a decidable obj
 
 * Of course, in a [[Boolean category]], every object is decidable. Conversely in a [[topos]] $\mathcal{E}$, or more generally a coherent category with a [[subobject classifier]], every object is decidable precisely if $\mathcal{E}$ is Boolean.
 
+## Properties
+
+The category of decidable objects in an [[topos]] is a [[Boolean pretopos]]. The category of decidable objects in a topos is only a [[topos]] when the original topos itself is a [[Boolean topos]]. 
 
 ## Related concepts
 
