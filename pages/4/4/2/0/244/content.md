@@ -212,7 +212,7 @@ where $q \ge 0$, and $1 \le i_{1},....,i_{q} \le n-1$.
 In every symmetric monoidal category, for $n \ge 2$ and $1 \le i \le n-1$, we have a natural transformation 
 $$t_{i}:A_{1} \otimes .... \otimes A_{n} \rightarrow A_{1} \otimes ... \otimes A_{i-1} \otimes A_{i+1} \otimes A_{i} \otimes A_{i+2} \otimes .... \otimes A_{n}$$ 
 defined by: 
-$$t_{i} = A_{1} \otimes ... \otimes A_{i-1} \otimes \B_{A_{i},A_{i+1}} \otimes A_{i+2} \otimes ... \otimes A_{n}$$
+$$t_{i} = 1_{A_{1}} \otimes ... \otimes 1_{A_{i-1}} \otimes \B_{A_{i},A_{i+1}} \otimes 1_{A_{i+2}} \otimes ... \otimes 1_{A_{n}}$$
 
 Given a $\sigma \in \mathfrak{S}_{n}$, the associated natural transformation is then defined as $t_{i_{1}};....;t_{i_{q}}$ for any such decomposition of $\sigma$. The fact that the result doesn't depend on the particular decomposition is a consequence of the [[coherence theorem for symmetric monoidal categories]].
  
