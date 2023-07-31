@@ -78,10 +78,7 @@ All of the above definitions except for Dedekind-finiteness only make sense give
 * $B(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$ [[disjoint sets|disjoint]] from $A$.  Then $S$ is finite iff $S \in B(S)$.
 * $\tilde{B}(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$ disjoint from $A$.  Then $S$ is subfinite iff $S \in \tilde{B}(S)$.
 
-\subsubsection{Challenge: Finiteness predicatively without infinity}
-{#Challenge}
-
-Can you think of a way to define these notions of finite without power objects and without a natural numbers object? More specifically (and generously), can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]] with [[enough projectives]]?
+\subsubsection{Finiteness predicatively without infinity}
 
 Finite sets have [[decidable equality]], and given a set $S$ with [[decidable equality]], a finite subset $A \in P(S)$ is always a [[decidable subset]] of $S$. This means that we could use the set of decidable subsets $2^S$ in the definition of finite set instead of [[power sets]]:
 
