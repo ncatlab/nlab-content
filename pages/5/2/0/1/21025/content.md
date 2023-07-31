@@ -388,6 +388,8 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   **Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory**
 
+  cf.: [arXiv:2307.15106](https://arxiv.org/abs/2307.15106)
+
   slides: [[Alfonsi-MTheoryAndMath2023.pdf:file]]
 
   video: [YT](https://www.youtube.com/watch?v=O7pQkyqCiA4)
