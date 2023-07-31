@@ -229,6 +229,8 @@ Therefore there are attempts to axiomatize properties of categories of affine sp
 
 * [[projective space]], [[conical space]]
 
+* [[relative affine n-space]]
+
 ## References
 
 * [[Aurelio Carboni]], _Categories of Affine Spaces_ , JPAA **61** (1989) pp.243-250.
