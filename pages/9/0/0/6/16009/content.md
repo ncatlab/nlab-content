@@ -41,8 +41,6 @@
 
 * [[paradigm shift]]
 
-* [[research program]]
-
 This entire subject about past research programs, paradigms in science and paradigm shifts could be expanded on in the nLab. Examples include the shift from Newtonian spacetime to Minkowski spacetime in the early 20th century in physics, the shift from geocentrism to heliocentrism in the 17th century, and the shift to galactocentrism and finally to acentrism in the early 20th century in cosmology, et cetera. 
 
 ## References
