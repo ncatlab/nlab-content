@@ -1,5 +1,4 @@
 
-
 * [[David Hilbert]], 
 
   _Naturerkennen und Logik_ (Engl.: _Logic and the knowledge of nature_), 
@@ -18,10 +17,9 @@
 
 The famous _finale_ from this lecture, in English translation:
 
-> The  instrument  that  mediates  between  theory  and  practice,  between  thought  and observation, is [[mathematics]];  it builds the connecting bridge and makes it stronger and stronger.  Thus it happens that our entire 
+> {#TheInstrumentThatMediates} The  instrument  that  mediates  between  theory  and  practice,  between  thought  and observation, is [[mathematics]];  it builds the connecting bridge and makes it stronger and stronger.  Thus it happens that our entire 
 present-day culture, insofar as it rests on intellectual insight into and harnessing of nature, is founded on mathematics.  Already, [[Galilei|GALILEO]] said:  Only he can understand nature who has learned the language and signs
-by which it speaks to us;  but this language is mathematics and its signs are mathematical figures.  [[Kant|KANT]] declared, “I maintain that in each 
-particular natural science there is only as much true science as there is mathematics.”  In fact, we do not master a theory in natural science until we have extracted its  mathematical kernel and laid it completely bare.  Without mathematics today’s astronomy  and physics would be impossible;  in their theoretical parts, these sciences unfold directly into mathematics.  These, like numerous other applications, give mathematics whatever authority it enjoys with the general public. 
+by which it speaks to us;  but this language is mathematics and its signs are mathematical figures.  [[Kant|KANT]] [declared](Immanuel+Kant#IchBehaupteAber), “I maintain that in each  particular natural science there is only as much true science as there is mathematics.”  In fact, we do not master a theory in natural science until we have extracted its  mathematical kernel and laid it completely bare.  Without mathematics today’s astronomy  and physics would be impossible;  in their theoretical parts, these sciences unfold directly into mathematics.  These, like numerous other applications, give mathematics whatever authority it enjoys with the general public. 
 
 > Nevertheless, all mathematicians have refused to let applications serve as the standard of value for mathematics.  [[Gauss|GAUSS]] spoke of the magical attraction that made number theory the favorite science for the first mathematicians, not to mention its inexhaustible richness,  in  which  it  so  far  surpasses  all  other  parts  of  mathematics. [[Leopold Kronecker|KRONECKER]] compared number theorists with the Lotus Eaters, who, once they had sampled that delicacy, could never do without it.
 
