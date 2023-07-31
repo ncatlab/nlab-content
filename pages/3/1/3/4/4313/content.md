@@ -90,6 +90,14 @@ Constructing $A_\infty$-category of matrix factorizations
 
 * [[Daniel Murfet]], _Constructing $A_\inf$-categories of matrix factorisations_, [arXiv:1903.07211](https://arxiv.org/pdf/1903.07211)
 
+Generalization of matrix factorizations to higher matrix factorizations:
+
+* [[David Eisenbud]], [[Irena Peeva]], _Matrix factorizations for complete intersections and minimal free resolutions_, [arXiv:1306.2615](https://arxiv.org/abs/1306.2615)
+
+Generalization to factorization categories
+
+* Matthew Ballard, Dragos Deliu, David Favero, M. Umut Isik, [[Ludmil Katzarkov]], _Resolutions in factorization categories_, [arXiv:1212.3264](https://arxiv.org/abs/1212.3264)
+
 
 [[!redirects matrix factorization]]
 [[!redirects matrix factorizations]]
