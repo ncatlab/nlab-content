@@ -86,6 +86,10 @@ On a category of [[matrix factorizations]] in the context of [[Landau-Ginzburg m
 
 * [[Daniel Murfet]], _The cut operation on matrix factorisations_, J. Pure Appl. Alg. **222** 7 (2018) 1911-1955 ([arXiv:1402.4541](https://arxiv.org/abs/1402.4541), [doi:10.1016/j.jpaa.2017.08.014](https://doi.org/10.1016/j.jpaa.2017.08.014))
 
+Constructing $A_\infty$-category of matrix factorizations 
+
+* [[Daniel Murfet]], _Constructing $A_\inf$-categories of matrix factorisations_, [arXiv:1903.07211](https://arxiv.org/pdf/1903.07211)
+
 
 [[!redirects matrix factorization]]
 [[!redirects matrix factorizations]]
