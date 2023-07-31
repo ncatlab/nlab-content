@@ -21,6 +21,16 @@ __Adic spaces__ are the basic objects in Huber's approach to [[non-archimedean a
 
 The framework of adic spaces are used to build [[perfectoid spaces]] out of perfectoid rings.
 
+## Definitions
+
+\begin{definition}
+Let $(A,A^{+})$ be a Huber pair, i.e. $A$ is a Huber ring and $A^{+}\subseteq A$ is a ring of integral elements. The _adic spectrum_ $\mathrm{Spa}(A,A^{+})$ is the set of equivalence classes of continuous valuations $\vert\cdot\vert$ on $A$ such that $\vert A^{+}\vert\leq 1$. 
+\end{definition}
+
+## Examples
+
+* The final object in the category of adic spaces is $\mathrm{Spa}(\mathbb{Z},\mathbb{Z})$.
+
 ## Related concepts
 
 * [[perfectoid space]]
