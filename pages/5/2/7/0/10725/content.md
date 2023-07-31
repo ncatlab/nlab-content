@@ -52,11 +52,17 @@ This induces (...) for every [[formal group]] $f$ over $k$ a [[deformation]] $\o
 
 ### As the universal deformation
 
-The [[Lubin-Tate theorem]] asserts that the Lubin-Tate formal group $\overline{f}$ is the [[universal construction|universal]] [[deformation]] of $f$. See at _[[Lubin-Tate theorem]]_.
+The *[[Lubin-Tate theorem]]* asserts that the Lubin-Tate formal group $\overline{f}$ is the [[universal construction|universal]] [[deformation]] of $f$. 
 
 ### As inducing Morava E-theory
 
 The Lubin-Tate [[formal group]] is [[Landweber exactness|Landweber exact]] and hence induces a [[complex oriented cohomology theory]]. This is [[Morava E-theory]], see there for more details.
+
+## Related concepts
+
+* [[Lubin-Tate theory]]
+
+* [[Lubin-Tate space]]
 
 ## References
 
