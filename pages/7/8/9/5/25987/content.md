@@ -1,3 +1,6 @@
+## Idea
+
+Grothendieck introduced spaces as locally representable sheaves over a fixed [[site]] whose objects are interpreted local models. If local models are affine schemes, then [[algebraic scheme]]s (and, more generally, [[algebraic space]]s) can be considered as an example. 
 
 ## Schemes as presheaves
 
@@ -32,15 +35,16 @@ See Demazure, Gabriel for functorial approach to schemes, and relations to stand
 
 ### Related entries in $n$Lab
 
+* [[affine scheme]], [[algebraic scheme]]
 * [[morphism of schemes]] 
+* [[Yoneda embedding]], [[Isbell duality]]
+* [[functorial geometry]]
 
 ### Web sources
 
 ...
 
 ### Literature
-
-Related entries include [[morphism of schemes]], [[Yoneda embedding]], [[Isbell duality]]
 
 A standard reference to the functorial approach to schemes
 
