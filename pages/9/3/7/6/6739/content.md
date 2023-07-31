@@ -2,7 +2,6 @@
 * automatic table of contents goes here
 {:toc}
 
-**Please don't tamper with this article for a little while -- I want to make more edits soon and not have the flow interrupted.**
 
 ## Idea 
 
@@ -112,7 +111,7 @@ where we use the simple fact that the pushout of a mono along an arrow in $SimpG
 
 For finite graphs, the subquotient relation is also antisymmetric (if $G$ and $H$ are minors of one another, then they are isomorphic). Indeed, if either the arrow $G \twoheadrightarrow G'$ or the arrow $H \hookrightarrow G'$ is not an isomorphism, then $H$ has strictly fewer edges and vertices than $G$. This is clearly not the case for infinite graphs (e.g., the infinite rooted binary tree without leaves contains as a subgraph a disjoint sum of two copies of itself). 
 
-(I intend to expand this section, eventually. Hopefully one can develop a categorical story about graph minors in particular.) 
+(To be expanded, eventually. Hopefully one can develop a categorical story about graph minors in particular.) 
 
 ## Minor-closed families 
 
