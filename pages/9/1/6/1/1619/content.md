@@ -393,7 +393,7 @@ The relation between the two pictures is analyzed for instance in
 
 A precise formulation of Killingback's original argument in [[differential K-theory]] appeared in 
 
-* [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_, Commun. Math. Phys. (2011) 307: 675 ([arXiv:0909.0846](http://arxiv.org/abs/0909.0846), [doi:10.1007/s00220-011-1348-0](https://doi.org/10.1007/s00220-011-1348-0))
+* [[Ulrich Bunke]], *String structures and trivialisations of a Pfaffian line bundle*, Commun. Math. Phys. **307** (2011) : 675-712 &lbrack;[arXiv:0909.0846](http://arxiv.org/abs/0909.0846), [doi:10.1007/s00220-011-1348-0](https://doi.org/10.1007/s00220-011-1348-0)&rbrack;
 
 A review of that is in 
 
@@ -409,7 +409,7 @@ For discussion of String-structures using 3-classes on total spaces see for inst
 
 Discussion of the [[moduli stack]] of [[twisted differential string structures]] is in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, October 2012, Volume 315, Issue 1, pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], *[[schreiber:Twisted Differential String and Fivebrane Structures]]*, Communications in Mathematical Physics **315** 1 (2012) 169-213 &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://doi.org/10.1007/s00220-012-1510-3)&rbrack;
 
 An explicit cocycle construction of the essentially unique [[string 2-group]]-[[principal 2-bundle]] lift of the [[tangent bundle]] of the [[sphere|5-sphere]] is given in 
 
