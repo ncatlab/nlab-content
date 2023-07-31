@@ -144,6 +144,8 @@ For multiplication, if $x y # x' y'$, then $x y - x' y'$ is invertible. Write $x
 
 Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **[[weak local ring]]** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible.  The quotients of weak local rings are precisely the *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field".
 
+There is also the notion of a **discrete local ring**, which is a local ring where every element is either invertible or noninvertible. The quotient of discrete local rings are precisely the [[discrete fields]]. 
+
 ## Local homomorphisms 
 
 Classically, if $R$ and $S$ are local rings with maximal ideals $m$ and $n$ respectively, then a ring [[homomorphism]] $f: R \to S$ is said to be *local* if $f(m) = \exists_f (m) \subseteq n$. Equivalently, $m \subseteq f^{-1}(n)$. Taking [[complements]] and using the fact that taking [[inverse images]] preserve complements, this is equivalent to $f^{-1}(S^\times) \subseteq R^\times$ where $R^\times$ is the [[group of units]]. Of course we also have $R^\times \subseteq f^{-1}(S^\times)$ (equivalently $f(R^\times) \subseteq S^\times$) just from the fact that $f$ is a ring homomorphism, so in brief $f$ is local if $R^\times = f^{-1}(S^\times)$: an element $f(r)$ is invertible (if and) only if $r$ is. 
@@ -193,3 +195,6 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 [[!redirects local ring]]
 [[!redirects local rings]]
+
+[[!redirects discrete local ring]]
+[[!redirects discrete local rings]]
