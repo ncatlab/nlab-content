@@ -1363,15 +1363,15 @@ Some aspects of the discussion here are, more or less explicitly, in
 For instance something similar to the notion of [[infinity-connected (infinity,1)-site|∞-connected site]] and the 
 [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] is the content of section 2.16.  The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3. The notion of geometric realization (see <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#Homotopy">structures in a cohesive (∞,1)-topos -- geometric realization</a>), is touched on around remark 2.22, referring to
 
-* [[Carlos Simpson]], _The topological realization of a simplicial presheaf_ , ([arXiv:q-alg/9609004](http://arxiv.org/abs/q-alg/9609004)).
- {#Simpson} 
+* {#Simpson}  [[Carlos Simpson]], _The topological realization of a simplicial presheaf_ , ([arXiv:q-alg/9609004](http://arxiv.org/abs/q-alg/9609004)).
+ 
 
 But, more or less explicitly, the presentation of geometric realization of simplicial presheaves is much older, going back to Artin-Mazur. See [[geometric homotopy groups in an (∞,1)-topos]] for a detailed commented list of literature.
 
 A characterization of infinitesimal extensions and formal smoothness by adjoint functors (discussed at [[infinitesimal cohesion]]) is considered in 
 
-* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
- {#KontsevichRosenbergSpaces}
+* {#KontsevichRosenbergSpaces} [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ 
 
 in the context of _[[Q-categories]]_ .
 
@@ -1382,6 +1382,14 @@ On the material presented here:
 * [[Urs Schreiber]], Section 3 of: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 * [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.1 of: _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+A model in [[derived differential geometry]]:
+
+* [[Luigi Alfonsi]], [[Charles A. S. Young]], *Towards non-perturbative BV-theory via derived differential cohesive geometry* &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
+
+exposition:
+
+* [[Luigi Alfonsi]]: *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, [talk at](M-Theory+and+Mathematics#Alfonsi2023) *[[M-Theory and Mathematics]]* (Jan 2023) &lbrack;slides: [[Alfonsi-MTheoryAndMath2023.pdf:file]], video: [YT](https://www.youtube.com/watch?v=O7pQkyqCiA4)&rbrack;
 
 
 ### In homotopy type theory
