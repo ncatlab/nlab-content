@@ -164,6 +164,8 @@ even though often mis-attributed to [[Richard Feynman]]:
 
 * [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]* Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
+* [[Max Tegmark]], *The Interpretation of Quantum Mechanics: Many Worlds or Many Words?*, Fortsch. Phys. **46** (1998) 855-862 &lbrack;[arXiv:quant-ph/9709032](https://arxiv.org/abs/quant-ph/9709032)&rbrack;
+
 
 * {#Peres97} [[Asher Peres]], *Interpreting the Quantum World*, Stud. History Philos. Modern Physics **29** (1998) 611 &lbrack;[arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)&rbrack;
 
