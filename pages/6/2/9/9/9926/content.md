@@ -62,16 +62,18 @@ between the $k$-[[associative algebra|algebra]]-[[homomorphisms]] from $R$ into 
 
 ## Related concepts
 
+* [[Lubin-Tate space]]
+
+* [[Lubin-Tate formal group]]
+
 * [[chromatic homotopy theory]]
 
 * [[Morava E-theory]]
 
 ## References
 
-Lecture 21 of 
-
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
- {#LurieLecture}
+* {#LurieLecture} [[Jacob Lurie]], Lecture 21 of: _[[Chromatic Homotopy Theory]]_, Lecture notes 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
+ 
 
 [[!redirects Lubin-Tate spectrum]]
 
