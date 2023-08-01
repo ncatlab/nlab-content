@@ -120,7 +120,9 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 
 The identification of universal/existential quantification with [[adjoints]] of [[substitution]]/[[context extension]] ([[dependent product]]/[[dependent sum]]) originates around
 
-* [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+* [[William Lawvere]], *Adjointness in Foundations*, Dialectica **23** (1969) 281-296, 
+
+  reprinted in: Reprints in Theory and Applications of Categories **16** (2006) 1-16 &lbrack;[tac:tr16](https://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html), [pdf](https://www.emis.de/journals/TAC/reprints/articles/16/tr16.pdf)&rbrack;
 
 * [[William Lawvere]],  *Quantifiers and sheaves*, Actes Congrès intern. Math. **1** (1970) 329-334 &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1970-quantifiers-and-sheaves.pdf), [[Lawvere-QuantifiersAndSheaves.pdf:file]]&rbrack;
 
