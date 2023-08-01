@@ -225,6 +225,11 @@ Probably the trickiest bit is the definition of [[composition]] of binary relati
 
 * [[logical relation]]
 
+
+[[!include flavors of modal logics and relations -- table]]
+
+
+
 [[!redirects relation]]
 [[!redirects relations]]
 [[!redirects relation theory]]
