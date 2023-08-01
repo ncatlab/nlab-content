@@ -24,8 +24,8 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 On the history of [[string theory]] as a theory of [[hadrons]] in [[QCD]]:
 
+* [[Lars Brink]], *Hadronic Strings -- A Revisit in the Shade of Moonshine*,  J. Phys. A: Math. Theor. **53** (2020) 091001 &lbrack;[arxiv:1911.06026](https://arxiv.org/abs/1911.06026), [doi:10.1088/1751-8121/ab6b93](https://iopscience.iop.org/article/10.1088/1751-8121/ab6b93)&rbrack;
 
-* [[Lars Brink]], _Hadronic Strings -- A Revisit in the Shade of Moonshine_ ([arxiv:1911.06026](https://arxiv.org/abs/1911.06026))
 
 On historical work by [[Yoichiro Nambu]] on the [[Ising model]]:
 
