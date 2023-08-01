@@ -18,6 +18,6 @@ The relation to the [[abc conjecture]] is discussed in
 
 The relation to [[Mochizuki's corollary 3.12]] is discussed in
 
-* Taylor Dupuy, Anton Hilado, _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, ([arxiv:2004.13108](https://arxiv.org/abs/2004.13108))
+* [[Taylor Dupuy]], [[Anton Hilado]], _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_ &lbrack;[arxiv:2004.13108](https://arxiv.org/abs/2004.13108)&rbrack;
 
 [[!redirects Szpiro conjecture]]
