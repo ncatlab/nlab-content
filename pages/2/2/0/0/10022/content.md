@@ -444,6 +444,8 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 * {#SimonsFoundationItFromQBit} [[Simons Foundation]], *[It from Qubit: Simons Collaboration on Quantum Fields, Gravity and Information](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)*
 
+  Final meeting: *[It from QBit 2023](https://events.perimeterinstitute.ca/event/43/)*
+
 * [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
 
 * {#Georgescu19} Iulia Georgescu, *Strings and qubits*, Nature Reviews Physics volume 1, page 477 (2019) ([doi:s42254-019-0087-6](https://www.nature.com/articles/s42254-019-0087-6))
