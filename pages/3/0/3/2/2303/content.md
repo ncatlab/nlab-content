@@ -113,7 +113,7 @@ Thom iso $\tilde H^{*+2}(X^\gamma) \simeq H^*(X)$
 
 **definition (Bott element and even periodic cohomology theory)**
 
-* An [[even cohomology theory]] is one whose odd cohomology rings vanish: $E^{2k+1}(X) = 0$.
+* An [[even cohomology theory]] is one whose odd cohomology rings vanish: $E^{2k+1}({*}) = 0$.
 
 * A [[periodic cohomology theory]] is one with a [[Bott element]] $\beta \in E^2({*})$ which is invertible (under multiplication in the [[cohomology ring]] of the point) 
 
@@ -236,6 +236,6 @@ $$
   E^n(X) := M P^n(X) \otimes_{M P({*})} R
 $$ 
 
-this construction could however break the left exactness condition. However, $E$ built this way will be left exact of the ring morphism $M P{{*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
+this construction could however break the left exactness condition. However, $E$ built this way will be left exact of the ring morphism $M P({*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
 
 [[!redirects A Survey of Eilliptic Cohomology - cohomology theories]]
