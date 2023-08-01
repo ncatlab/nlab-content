@@ -18,20 +18,39 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[modal logic]] the moniker "S5" refers to the logic obtained from [[S4 modal logic]] by adding the axiom that there is the [[implication]]
+In [[modal logic]] the moniker "S5" refers to the logic obtained from [[S4 modal logic]] by adjoining the [[axiom scheme]] that there is the [[implication]]
 
 $$
   \lozenge p \to \Box \lozenge p
   \,.
 $$
 
-In the [[possible worlds semantics]] for modal logic, S5 corresponds  precisely to those [[Kripke frames]] $\big(W \colon Set, \, R \colon W \times W \to Prop\big)$ where the [[relation]] $R$ is an [[equivalence relation]] (eg. [Fagin, Halpern, Moses & Vardi (1995) Thm. 3.1.5 (c)](#FaginHalpernMosesVardi95)).
+In the [[possible worlds semantics]] for modal logic, S5 corresponds  precisely to those [[Kripke frames]] $\big(W \colon Set, \, R \colon W \times W \to Prop\big)$ where the [[relation]] $R$ is an *[[equivalence relation]]* &lbrack;[Kripke (1959)](#Kripke59) [(1964)](#Kripke63), cf. [Fagin, Halpern, Moses & Vardi (1995) Thm. 3.1.5 (c)](#FaginHalpernMosesVardi95)&rbrack;.
+
+
+## Via dependent type theory
+ {#ViaDependentTypeTheory}
+
+In mild generalization of the discussion at *[necessity & possibility -- Via dependent types](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)*, we may observe that the [[modal operators]] in S5 Kripke semantics 
+
+<center>
+<img src="/nlab/files/StandardTranslationKripkeSemantics-230801.jpg" width="740">
+</center>
+
+are precisely those arising as [[adjoint pairs]] of ([[comonad|co]])[[monads]] induced on the left from a [[base change]] [[adjoint triple]] (the [[categorical semantics of dependent types|categorical semantics]] in [[Set]] of [[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[dependent function type]]-[[type formation|formation]]) along [[display maps]] $W \to \Gamma \equiv W_{/R}$ identified with the [[quotient]] [[coprojection]] of the Kripke frame:
+
+<center>
+<img src="/nlab/files/S5KripkeSemanticsAsMonadicDescent-230801.jpf" width="600">
+</center>
+
+This suggests that one may equivalently regard [[dependent type theory]] as a universal form of [[epistemic logic|epistemic]] [[modal type theory]], in generalization of how [[modal logics]] may be viewed as just another perspective on ([[fragments]] of) [[first-order logic]] (as in [Blackburn, van Benthem & Wolter (2007) pp. xiii](#modal+logic#BlackburnvanBenthemWolter07)): In both cases one switches perspective from type formation by [[base change]] [[adjoint triples]] (of [[quantification]] or dependent (co)product formation, respectively) to the induced [[adjoint pair]] of ([[comonad|co]])[[monads]]. (Another example of a change in perspective of this form occurs when describing [[descent]] as *[[monadic descent]]*).
 
 
 ## Related concepts
