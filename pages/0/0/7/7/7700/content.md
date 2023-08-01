@@ -31,6 +31,10 @@ Let $(A,A^{+})$ be a Huber pair, i.e. $A$ is a Huber ring and $A^{+}\subseteq A$
 
 * The final object in the category of adic spaces is $\mathrm{Spa}(\mathbb{Z},\mathbb{Z})$.
 
+* The adic closed disc over $\mathbb{Q}_{p}$ is given by $\mathrm{Spa}(A,A^{+})$ where $A=\mathbb{Q}_{p}\langle T\rangle$ and $A^{+}=\mathbb{Z}_{p}\langle T\rangle$.
+
+* The adic open disc over $\mathbb{Q}_{p}$ is the generic fiber of $\mathrm{Spa}(A,A)\to\mathrm{Spa}(\mathbb{Z}_{p},\mathbb{Z}_{p})$, where $A=\mathbb{Z}_{p}[[T]]$.
+
 ## Related concepts
 
 * [[perfectoid space]]
