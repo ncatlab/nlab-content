@@ -10,6 +10,10 @@ A _Lubin-Tate space_ is a space of [[deformations]] of a one-dimensional [[forma
 
 As the infinite-level Lubin-Tate space has actions of the groups appearing in the statement of the [[local Langlands correspondence]] for $\GL_{n}$, it has applications to its proof. See also Theorem 7 in [#WeinsteinNotes](#WeinsteinNotes), which is originally due to Harris-Taylor.
 
+## Generalizations
+
+The infinite-level Lubin-Tate space is a special case of an infinite-level [[Rapoport-Zink space]] (see [#ScholzeWeinstein12](#ScholzeWeinstein12)).
+
 ## Related concepts
 
 * [[Lubin-Tate theory]]
@@ -18,4 +22,6 @@ As the infinite-level Lubin-Tate space has actions of the groups appearing in th
 
 ## References
 
-{#WeinsteinNotes} [[Jared Weinstein]], _The geometry of Lubin-Tate spaces_, [pdf](https://math.bu.edu/people/jsweinst/FRGLecture.pdf)
+* {#WeinsteinNotes} [[Jared Weinstein]], _The geometry of Lubin-Tate spaces_, [pdf](https://math.bu.edu/people/jsweinst/FRGLecture.pdf)
+
+* {#ScholzeWeinstein12} [[Peter Scholze]], [[Jared Weinstein]], _Moduli of p-divisible groups_, [arXiv:1211.6357](https://arxiv.org/abs/1211.6357)
