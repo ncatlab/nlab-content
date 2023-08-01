@@ -47,6 +47,9 @@ The original articles:
 
 * {#Kripke65} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic II. Non-Normal Modal Propositional Calculi*, in *The Theory of Models* (Proceedings of the 1963 International Symposium at Berkeley) Studies in Logic and the Foundations of Mathematics (1965) 206-220 &lbrack;[doi:10.1016/B978-0-7204-2233-7.50026-5](https://doi.org/10.1016/B978-0-7204-2233-7.50026-5)&rbrack;
 
+Modern exposition:
+
+* [[Patrick Blackburn]], [[Johan van Benthem]], *Modal logic: a semantic perspective*, Ch 1 in: *The Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) &lbrack;<a href="https://doi.org/10.1016/S1570-2464(07)80004-8">doi:10.1016/S1570-2464(07)80004-8</a>, [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/)&rbrack;
 
 In general see the [reference at](modal+logic#References) *[[modal logic]]*, such as:
 
