@@ -1,8 +1,9 @@
 Mathematician enjoying higher and infinite-dimensional differential geometry and its applications.
 
-I am an associate professor at Nord university in Levanger, Norway. Previously, I was associate professor in Bergen and held postdoc positions at TU Berlin and NTNU Trondheim, see 
+I am an associate professor at NTNU Trondheim. 
+Before joining NTNU, I was associate professor at Nord University in Levanger and before that at the university in Bergen. See
 
-* [Nord webpage](https://www.nord.no/no/ansatte/alexander-schmeding)
+* [NTNU webpage](https://www.ntnu.edu/employees/alexander.schmeding)
 
 * [Research Gate profile](https://www.researchgate.net/profile/Alexander_Schmeding)
 
