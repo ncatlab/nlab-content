@@ -9,5 +9,7 @@ On [[AdS2/CFT1 duality]] between [[JT-gravity]] and the [[SYK model]] in terms o
 
 * [[Henry W. Lin]], *The bulk Hilbert space of double scaled SYK*, J. High Energ. Phys. **2022** 60 (2022) &lbrack;[arXiv:2208.07032](https://arxiv.org/abs/2208.07032), <a href="https://doi.org/10.1007/JHEP11(2022)060">doi:10.1007/JHEP11(2022)060</a>&rbrack;
 
+* [[Henry W. Lin]], [[Douglas Stanford]], *A symmetry algebra in double-scaled SYK* &lbrack;[arXiv:2307.15725](https://arxiv.org/abs/2307.15725)&rbrack;
+
 
 category: people
