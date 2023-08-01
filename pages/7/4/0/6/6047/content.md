@@ -73,15 +73,30 @@ $dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the
 
 * [[Dirac-Born-Infeld action]]
 
+* [[Veneziano amplitude]]
+
 * [[particle]], [[string]], [[membrane]]
 
 * [[membrane instanton]]
 
 * for more on brane tension see also _[Worldsheet and brane instantons](non-perturbative+effect#WorldsheetAndBraneInstantons)_
 
+
+
 ## References
 
-The Nambu-Goto action functional is named after [[Yoichiro Nambu]].
+The Nambu-Goto action functional originates as a proposal for the dynamics of [[strings]] meant to explain the "dual resonance model" for [[hadron]] [[bound states]] ([[quantum hadrodynamics]], cf. *[[Polyakov gauge-string duality]]*):
+
+* {#Nambu70} [[Yoichiro Nambu]], *Duality and Hadrodynamics*, Notes prepared for the Copenhagen High Energy Symposium (1970) &lbrack;[doi:10.1142/9789812795823_0026](https://doi.org/10.1142/9789812795823_0026), [[Nambu-DualityAndHadrodynamics.pdf:file]]&rbrack;
+
+* {#Gotō71} [[Tetsuo Gotō]], *Relativistic Quantum Mechanics of One-Dimensional Mechanical Continuum and Subsidiary Condition of Dual Resonance Model*, Progress of Theoretical Physics **46** 5 (1971) 1560–1569 &lbrack;[doi:10.1143/PTP.46.1560](https://doi.org/10.1143/PTP.46.1560)&rbrack;
+
+Historical review:
+
+* [[Joël Scherk]], *An introduction to the theory of dual models and strings*, Rev. Mod. Phys. **47** 123 (1975) &lbrack;[doi:10.1103/RevModPhys.47.123](https://doi.org/10.1103/RevModPhys.47.123)&rbrack;
+
+* [[Hiroshi Itoyama]], *Birth of String Theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A103 &lbrack;[arXiv:1604.03701](http://arxiv.org/abs/1604.03701), [doi:10.1093/ptep/ptw063](https://doi.org/10.1093/ptep/ptw063)&rbrack;
+
 
 Detailed discussion of the relation to the [[Polyakov action]] and the [[Dirac-Born-Infeld action]] is in
 
@@ -96,12 +111,16 @@ Discussion of the Nambu-Goto action and [[Polyakov action]] on [[worldsheets]] w
 
 * {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
 
+[[!redirects Nambu-Gotō action]]
 
 [[!redirects tension]]
 [[!redirects tensions]]
 
 [[!redirects Nambu-Goto action functional]]
 [[!redirects Nambu-Goto action functionals]]
+
+[[!redirects Nambu-Gotō action functional]]
+[[!redirects Nambu-Gotō action functionals]]
 
 
 
