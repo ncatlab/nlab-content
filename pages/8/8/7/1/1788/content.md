@@ -1,4 +1,6 @@
 
+[[flavors of modal logics and relations -- table]]
+
 \begin{tikzcd}
     W \ar[rr, "{ p_{{}_W} }"] && W/R
     \\
