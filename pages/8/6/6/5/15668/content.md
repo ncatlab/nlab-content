@@ -39,7 +39,7 @@ $$\mathrm{Frob}_{S}^{\ast}\mathcal{E}\vert_{S\times_{\mathbb{F}_{p}} X\setminus 
 
 Reviews of the basic definition include
 
-* [[David Goss]], _[What is ... a Shtuka?](http://www.ams.org/notices/200301/what-is.pdf)_, Notices of the AMS 50(1), pp. 36-37.
+* [[David Goss]], *What is ... a Shtuka?*, Notices of the AMS **50** 1 (2003) 36-37 &lbrack;[pdf](http://www.ams.org/notices/200301/what-is.pdf), full issue:[pdf](http://www.ams.org/notices/200301/200301FullIssue.pdf)&rbrack;
 
 * Wikipedia, _[Drinfeld module -- Shtuka](http://en.wikipedia.org/wiki/Drinfeld_module#Shtukas)_
 
