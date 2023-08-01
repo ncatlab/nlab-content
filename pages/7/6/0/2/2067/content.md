@@ -100,9 +100,9 @@ We can make this definition slightly more explicit by working with the fibres of
 Then for $x : X_y$, $x' : X_{y'}$ and $f : y' \to y$, a morphism $\bar f : X_f(x',x)$ is *cartesian* iff for any $u : y'' \to y'$, $x'' : X_{y''}$ and $h : X_{f \circ u}(x'', x)$, there is a unique $\bar u : X_u(x'',x')$ with $h = \bar f \circ \bar u$. This can be expressed in the following diagram, where the upper objects and morphisms live in $X$ over their corresponding data in $Y$:
 
 \begin{tikzcd}
-y'' \arrow[d, dotted, maps to] \arrow[rd, "\exists ! \bar u", dashed] \arrow[rrd, "h", bend left] &                                                   &                              \\
-x'' \arrow[rd, "u"]                                                                               & y' \arrow[d, dotted, maps to] \arrow[r, "\bar f"] & y \arrow[d, dotted, maps to] \\
-                                                                                                  & x' \arrow[r, "f"]                                 & x                           
+x'' \arrow[d, dotted, maps to] \arrow[rd, "\exists ! \bar u", dashed] \arrow[rrd, "h", bend left] &                                                   &                              \\
+y'' \arrow[rd, "u"]                                                                               & x' \arrow[d, dotted, maps to] \arrow[r, "\bar f"] & x \arrow[d, dotted, maps to] \\
+                                                                                                  & y' \arrow[r, "f"]                                 & y                           
 \end{tikzcd}
 
 There is a weaker universal property, originally devised by Grothendieck and Gabriel, where one requires above lifting property only for $u = id_{p(x_1)}$.  Morphisms satisfying this universal property have in recent years been called [[locally cartesian morphisms]], although historically they have been called simply cartesian, or rarely weak cartesian. In Grothendieck's [[fibered categories]] (see below), cartesian in the strong sense and cartesian in the weak sense are equivalent properties of morphisms.  
