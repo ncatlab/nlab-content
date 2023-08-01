@@ -62,6 +62,9 @@ We need a state with this property and we only know about one namely $w$, so tha
 
 ## Related entries
 
+[[!include flavors of modal logics and relations -- table]]
+
+
 * [[epistemic modal logic]]
 
 * [[necessity and possibility]]
