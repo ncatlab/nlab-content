@@ -10,4 +10,4 @@
 | [[S4 modal logic]] | [[reflexive relation|reflexive]] & [[transitive relation]] |
 | [[S5 modal logic]] | [[equivalence relation]] |
 
-> (cf. [BdRV (2001) Table 4.1 ](modal+logic#BlackburnDeRijkeVenema01))
+> (following [BdRV (2001) Table 4.1 ](modal+logic#BlackburnDeRijkeVenema01); cf. [Fagin, Halpern, Moses & Vardi (1995) Thm. 3.1.5](epistemic+modal+logic#FaginHalpernMosesVardi95))
