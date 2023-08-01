@@ -24,7 +24,7 @@ The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Poly
 
    The starting point is the [[hypothesis]] that the strong coupling of particles (such as [[quarks]]) by a (non-abelian) [[gauge field]] (such as the [[strong nuclear force]]) is embodied by the formation of "[[flux tubes]]" ("[[Wilson lines]]") between pairs of such particles, which in themselves behave like [[strings]] with a given [[tension]].
 
-   $[$[Kogut & Susskind (1974)](#KogutSusskind74), [(1975)](#KogutSusskind75); [Wilson (1974)](#Wilson74); [Polyakov (1979)](#Polyakov79), [(1980)](#Polyakov80), [(1987)](#Polyakov80); [Makeenko & Migdal (1981)](#MakeenkoMigdal81)$]$
+   $[$[Kogut & Susskind (1974)](#KogutSusskind74), [(1975)](#KogutSusskind75); [Wilson (1974)](#Wilson74); [Polyakov (1979)](#Polyakov79), [(1980)](#Polyakov80), [(1987)](#Polyakov80); [Makeenko & Migdal (1981)](#MakeenkoMigdal81), following [Nambu (1970)](Nambu-Goto+action#Nambu70), [Gotō (1971)](Nambu-Goto+action#Gotō71)$]$
 
    Under this assumption it would be:
 
