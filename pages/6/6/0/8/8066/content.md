@@ -1,8 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Game theory is the study of strategic interaction between agents. It is often used for mathematical modelling of real-world situations in which agents interact, including in microeconomics, computer science and ecology.
 
 Game theory should not be confused with [[game semantics]], which has some terminology and history in common but has little overlap in practice.
 
-##Via coalgebras##
+## Via coalgebras
 
 Several authors have approached game theory through coalgebraic systems theory, defining games as elements of the [[terminal coalgebra for an endofunctor|terminal coalgebra]] of an appropriate functor. This puts the concepts of _state_ and _state transition_ in a game to centre stage. It is closely related to [extensive form games](https://en.wikipedia.org/wiki/Extensive-form_game), whereby a game is defined by its tree of plays.
 
@@ -36,3 +43,8 @@ Libr. 259, pages 29&#8211;68. Dordrecht: Kluwer Academic Publishers, 1997.
 * {#Ghani18b} [[Neil Ghani]], [[Jules Hedges]], [[Viktor Winschel]] and [[Philipp Zahn]], _Compositional game theory_, LiCS 2018. ([arXiv:1603.04641](https://arxiv.org/abs/1603.04641), [doi:10.1145/3209108.3209165](https://doi.org/10.1145/3209108.3209165))
 * {#Hedges18} [[Jules Hedges]], _Morphisms of open games_, MFPS 2018. ([arXiv:1711.07059](https://arxiv.org/abs/1711.07059), [doi:10.1016/j.entcs.2018.11.008](https://doi.org/10.1016/j.entcs.2018.11.008))
 * {#Herings10} P. Jean-Jacques Herings and Ronald Peeters, _Homotopy methods to compute equilibria in game theory_, Economic Theory 2010. ([doi:10.1007/s00199-009-0441-5](https://doi.org/10.1007/s00199-009-0441-5))
+
+On [[modal logic]] in [[game theory]] and [[information science]]:
+
+* [[Wiebe van der Hoek]], [[Marc Pauly]], *Modal logic for games and information*, Ch. 20 in: *The Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 85-183 $[$<a href="https://doi.org/10.1016/S1570-2464(07)80023-1">doi:10.1016/S1570-2464(07)80023-1</a>, [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/)$]$
+
