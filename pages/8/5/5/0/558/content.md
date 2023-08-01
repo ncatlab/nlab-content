@@ -104,12 +104,11 @@ See [[homotopy hypothesis for 1-types]] for more.
 
 ### For Gray-groupoids
 
-(...) [[Gray-groupoid]]s model all [[homotopy n-type|homotopy 3-type]]s (...)
+It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, but that [[Gray-groupoid]]s ([[semi-strict infinity-category|semi-strict 3-groupoids]]) suffice; the obstruction is the [[Whitehead product]] which arises from a nontrivial [[interchanger]]. 
 
-It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, but that [[Gray-category|Gray-categories]] ([[semi-strict infinity-category|semi-strict 3-categories]]) suffice; the obstruction is the [[Whitehead product]] which arises from a nontrivial [[interchanger]]. 
+###  For Grothendieck &infin;-groupoids
 
-(...)
-
+For a review of progress on proving the homotopy hypothesis for Grothendieck's original conception of &infin;-groupoid in _Pursuing Stacks_, as later developed by [[Georges Maltsiniotis]], see [Henry and Lanari](#HenryLanari)'s 2019 paper.
 
 ### For Kan complexes {#ForKanComplexes}
 
@@ -284,7 +283,7 @@ $$
 
 are equal. This means equivalently that the $(|-| \dashv Sing)$-[[adjunct]] $\tilde \tilde f : U A \to Sing X$ sends distinguished fillers in $A$ to distinguished fillers in $\Pi_\infty(X)$ and is hence a morphism in $Alg Kan$.
 
-the constructon shows that the map $(f : |A|_r \to X) \mapsto (\tilde \tilde f : A \to \Pi_\infty(X))$ thus obtained is a bijection.
+This construction shows that the map $(f : |A|_r \to X) \mapsto (\tilde \tilde f : A \to \Pi_\infty(X))$ thus obtained is a bijection.
 
 =--
 
@@ -492,9 +491,9 @@ This is lemma 6.3.21 and corollary 6.3.24 in ([Pellissier](#Pellissier))
  {#ForStrictOmegaCategoriesWithWeakInverses}
 
 While [[strict omega-groupoids]] in the sense of 
-[[strict omega-categories]] with _strict_ inverses are far from modelling all homotopy types, strict $\omega$-categories with all _weak_ inverses come closer. In ([Kapranov-Voevodsky](#KapranovVoevodsky)) it was argued that these are in fact sufficient, but a mistake in the argument is claimed in ([Simpson, cor. 5.2](#Simpson)) (see also [here](Simpson%27s+conjecture#History)).
+[[strict omega-categories]] with _strict_ inverses are far from modelling all homotopy types, strict $\omega$-categories with all _weak_ inverses come closer. In ([Kapranov-Voevodsky](#KapranovVoevodsky)) it was argued that these are in fact sufficient, but a mistake in the argument was found in ([Simpson, Cor. 5.2](#Simpson)) (see also [here](Simpson%27s+conjecture#History)).
 
-The issue however is somewhat subtle, as very much highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014).
+The issue however is somewhat subtle, as highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014).
 For more on this see at _[[Simpson's conjecture]]_.
 
 ## Generalizations
@@ -523,11 +522,17 @@ it was argued that there were [[algebraic definitions of higher categories|algeb
 
 At this stage, (in the  1970s and early 1980s) more _geometric_ or _combinatorial_ definitions of infinity categories were not yet available, or, perhaps more accurately, had been discovered, but were not _recognised_ as having such an infinity categoric interpretation; see [[Tim Porter]]'s Letter to Grothendieck (16 June 1983) and the discussion [[Spaces as infinity-groupoids.pdf|here:file]]  in [[New Spaces for Mathematics and Physics]]. These models included Kan complexes which now are interpreted as being one model for infinity groupoids, and [[quasicategory|weak Kan complex]]es, as put forward by Boardman and Vogt, which give one of the main models for (weak) $(\infty,1)$-categories. From this perspective, Quillen's result can be seen as being a precursor of one form of the Homotopy Hypothesis.
 
-The name "homotopy hypothesis" for this statement is due to 
+The name "Homotopy Hypothesis" for this statement is due to 
 
-* [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
+* [[John Baez]], _The Homotopy Hypothesis_, 2007 ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-Technical reviews of Quillen's proof of the homotopy hypothesis includes
+More recently [[Georges Maltsiniotis]] has revived the approach to $\infty$-groupoids that Grothendieck initiated in _Pursuing Stacks_ - see [[Grothendieck ∞-groupoids]] - and work has begun on proving the homotopy hypothesis for Grothendieck ∞-groupoids.  For a review of progress so far, see:
+
+* {#HenryLanari} Simon Henry and Edoardo Lanari, On the homotopy hypothesis in dimension 3.  ([arxiv/1905.05625](https://arxiv.org/abs/1905.05625)).
+
+These authors have reduced the hypothesis to a conjecture which has so far been proved only up to dimension, hence the title of their paper.
+
+Technical reviews of Quillen's proof of a version of the homotopy hypothesis include:
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section I.11 of _[[Simplicial homotopy theory]]_, 1996
 
@@ -537,7 +542,7 @@ The homotopy hypothesis for strict $\omega$-categories with weak inverses is dis
 
 * {#KapranovVoevodsky} [[Mikhail Kapranov]], [[Vladimir Voevodsky]], _$\infty$-groupoids and homotopy types_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 32 no. 1 (1991), p. 29-46 
  
-but a mistake in the argument is claimed in cor 5.2 of
+but a mistake in the argument was pointed out in Corollary 5.2 of
 
 * {#Simpson} [[Carlos Simpson]], _Homotopy types of strict 3-groupoids_ ([arXiv:math/9810059](http://arxiv.org/abs/math/9810059))
  
@@ -545,6 +550,8 @@ The homotopy hypothesis for [[algebraic Kan complexes]] is established and discu
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
 {#Nikolaus}
+
+For progress on 
 
 The homotopy hypothesis for [[Segal groupoids]] is formulated in section 6.3.4 of
 
