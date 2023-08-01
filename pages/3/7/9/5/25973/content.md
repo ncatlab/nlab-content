@@ -11,6 +11,20 @@ Discussion of [[S5 modal logic]] as [[epistemic logic]]:
 
 * [[Joseph Y. Halpern]], *Should knowledge entail belief?*, Journal of Philosophical Logic **25** 5 (1996) 483-494  $[$[jstor:30226583](https://www.jstor.org/stable/30226583), [philpapers:HALSKE](https://philpapers.org/rec/HALSKE)$]$
 
+* {#Fitting07} [[Melvin Fitting]], *Logics of Knowlege*, Sec. 9 in: *Modal proof theory*, Ch. 2 in: *The Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 85-183 $[$[doi:10.1016/S1570-2464(07)80005-X](https://doi.org/10.1016/S1570-2464(07)80005-X), [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/)$]$
+
+> pp. 121: "What standard
+logics of knowledge capture is not actual knowledge, but potential knowledge --- what one
+is entitled to know. The switch to potential knowledge means we drop all considerations
+of complexity $[...]$ It is easy to see that, under such an assumption, a knowledge modality should be a normal modal
+operator. But, what else should be required? $[...]$ All these together make a
+knowledge operator obey the S5 conditions."
+
+
+* [[Wiebe van der Hoek]], [[Marc Pauly]], *Epistemic Logic*, Sec 4 in: *Modal logic for games and information*, Ch. 20 in: *The Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) 85-183 $[$[doi:10.1016/S1570-2464(07)80023-1](https://doi.org/10.1016/S1570-2464(07)80023-1), [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/)$]$
+
+> p. 198: "Modal epistemic logic, the logic of knowledge, provides a very natural interpretation to the accessibility relation in Kripke models. For an agent $i$, two worlds $w$ and $v$ are connected (written $R_i w v$), if the agent cannot (epistemically) distinguish them. In other words, we have $R_i v w$ if, according to $i$’s information at $w$, the world might as well be in state $v$, or that $v$ is compatible with i’s information at w. Using this interpretation of access, $R_i$ is obviously an equivalence relation. $[...]$ Thus, we are in the realm of the multi-modal logic $S5_m$."
+
 * Hans Ditmarsch, Wiebe Hoek, Barteld Kooi, *Epistemic Logic*, chapter 2 in: *Dynamic Epistemic Logic*, Studies In Epistemology, Logic, Methodology, And Philosophy Of Science (SYLI) **337** (2008) $[$[doi:10.1007/978-1-4020-5839-4_2](https://doi.org/10.1007/978-1-4020-5839-4_2), [pdf](http://www.ivanociardelli.altervista.org/wp-content/uploads/2018/04/Epistemic-logic.pdf)$]$
 
 > p. 11: "The logical system S5 is by far the most popular and accepted epistemic logic"
