@@ -1,4 +1,10 @@
-Local analogs of [[Shimura varieties]].
+## Idea
+
+A Rapoport-Zink space is a [[formal scheme]] parametrizing deformations of a [[p-divisible group]]. They may be thought of as local analogs of [[Shimura varieties]].
+
+## Related ideas
+
+* [[Lubin-Tate space]]
 
 ## References
 
