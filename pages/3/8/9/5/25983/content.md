@@ -12,7 +12,7 @@ As the infinite-level Lubin-Tate space has actions of the groups appearing in th
 
 ## Generalizations
 
-The infinite-level Lubin-Tate space is a special case of an infinite-level [[Rapoport-Zink space]] (see [#ScholzeWeinstein12](#ScholzeWeinstein12)).
+The infinite-level Lubin-Tate space is a special case of an infinite-level [[Rapoport-Zink space]] (see [#ScholzeWeinstein12](#ScholzeWeinstein12)). These are in turn special cases of local Shimura varieties and the even more general notion of moduli of local shtukas.
 
 ## Related concepts
 
