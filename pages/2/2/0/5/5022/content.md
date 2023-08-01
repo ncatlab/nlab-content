@@ -131,6 +131,13 @@ In this case the relation no longer defines a [[groupoid]] ("[[setoid]]") as it 
 
 As such, to retain the type-theoretic perspective (eq:BaseChange) in this case will require some form of *[[directed type theory]]*.
 
+\linebreak
+
+**General case**
+
+[[!include flavors of modal logics and relations -- table]]
+
+
 ## Related entries
 
 
