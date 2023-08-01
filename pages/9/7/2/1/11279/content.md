@@ -7,9 +7,15 @@
 
 On his contributions to [[string theory]]:
 
-* H. Itoyama, _Birth of String Theory_ ([arXiv:1604.03701](http://arxiv.org/abs/1604.03701))
+* H. Itoyama, *Birth of String Theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A103 &lbrack;[arXiv:1604.03701](http://arxiv.org/abs/1604.03701), [doi:10.1093/ptep/ptw063](https://doi.org/10.1093/ptep/ptw063)&rbrack;
+
 
 ## Selected writings
+
+Introducing discussion of what came to be called the *[[Nambu-Goto action]]* for [[strings]] (then motivated as explanation for the "dual resonance model" for [[hadrons]], cf. *[[Polyakov gauge-string duality]]*):
+
+* {#Nambu70} [[Yoichiro Nambu]], *Duality and Hadrodynamics*, Notes prepared for the Copenhagen High Energy Symposium (1970) &lbrack;[doi:10.1142/9789812795823_0026](https://doi.org/10.1142/9789812795823_0026), [[Nambu-DualityAndHadrodynamics.pdf:file]]&rbrack;
+
 
 Prediction of the [[omega-meson]]:
 
