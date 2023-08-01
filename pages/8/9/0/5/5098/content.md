@@ -75,6 +75,9 @@ The semantics of $K_{(m)}$ is just the [[Kripke semantics]] of this context, so 
 
 ## Related concepts
 
+[[!include flavors of modal logics and relations -- table]]
+
+
 * [[modal logic]], [[epistemic modal logic]]
 
 * [[necessity and possibility]]
