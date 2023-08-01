@@ -534,6 +534,9 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 ### History
  {#ReferencesHistory}
 
+* [[Joël Scherk]], *An introduction to the theory of dual models and strings*, Rev. Mod. Phys. **47** 123 (1975) &lbrack;[doi:10.1103/RevModPhys.47.123](https://doi.org/10.1103/RevModPhys.47.123)&rbrack;
+
+  > (on the [[Nambu-Goto action]] for the [[relativistic string]], then motivated as an explanation for [[quantum hadrodynamics]], cf. *[[Polyakov gauge-string duality]]*)
 
 * {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
 
@@ -571,7 +574,10 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 * {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2016/main/Schwarz.pdf), [[SchwarzString2016.pdf:file]])
 
-* [[Lars Brink]], _Hadronic Strings -- A Revisit in the Shade of Moonshine_ ([arxiv:1911.06026](https://arxiv.org/abs/1911.06026))
+* [[Hiroshi Itoyama]], *Birth of String Theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A103 &lbrack;[arXiv:1604.03701](http://arxiv.org/abs/1604.03701), [doi:10.1093/ptep/ptw063](https://doi.org/10.1093/ptep/ptw063)&rbrack;
+
+
+* [[Lars Brink]], *Hadronic Strings -- A Revisit in the Shade of Moonshine*,  J. Phys. A: Math. Theor. **53** (2020) 091001 &lbrack;[arxiv:1911.06026](https://arxiv.org/abs/1911.06026), [doi:10.1088/1751-8121/ab6b93](https://iopscience.iop.org/article/10.1088/1751-8121/ab6b93)&rbrack;
 
 
 
