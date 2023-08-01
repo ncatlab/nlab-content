@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the early theory of [[relativistic strings]] ([[Nambu-Goto action]]) then motivated a explanations of the "dual resonance model" for [[hadrons]] (cf. *[[Polyakov gauge-string duality]]*):
+
+* [[Joël Scherk]], *An introduction to the theory of dual models and strings*, Rev. Mod. Phys. **47** 123 (1975) &lbrack;[doi:10.1103/RevModPhys.47.123](https://doi.org/10.1103/RevModPhys.47.123)&rbrack;
+
+
 On the [[GSO projection]] for the [[spinning string]]/[[superstring]]:
 
 
