@@ -7,8 +7,7 @@
 
 On his contributions to [[string theory]]:
 
-* H. Itoyama, *Birth of String Theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A103 &lbrack;[arXiv:1604.03701](http://arxiv.org/abs/1604.03701), [doi:10.1093/ptep/ptw063](https://doi.org/10.1093/ptep/ptw063)&rbrack;
-
+* [[Hiroshi Itoyama]], *Birth of String Theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A103 &lbrack;[arXiv:1604.03701](http://arxiv.org/abs/1604.03701), [doi:10.1093/ptep/ptw063](https://doi.org/10.1093/ptep/ptw063)&rbrack;
 
 ## Selected writings
 
