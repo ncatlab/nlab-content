@@ -1,4 +1,30 @@
 
+
+$$
+  w \colon W
+  \;\;
+    \dashv
+  \;\;
+  (w'', w', d_{w'})
+  \;\mapsto\;
+  (w', d_{w'})
+  \;\mapsto\;
+  f_{(w, w', d_{w'})}
+$$
+
+$$
+  w \colon W
+  \;\;
+    \dashv
+  \;\;
+  (w'', w', d_{w'})
+  \;\mapsto\;
+  \Big(
+    w'', 
+    f_{(w, w', d_{w'})}
+  \Big)
+$$
+
 [[flavors of modal logics and relations -- table]]
 
 \begin{tikzcd}
