@@ -27,9 +27,9 @@ In itself, a Kripke frame is just
 
   often called the set of *[[possible worlds]]* (or the set of *nodes* or whatnot)
 
-* equipped with an [[indexed set]] of ([[reflexive relation|reflexive]]) [[relations]] $R_i \subset W \times W$, one for each [[modal operator]] $\Box_i$ in the given [[modal logic]]
+* equipped with an [[indexed set]] of binary [[relations]] $R_i W \times W \to Prop$, one for each [[modal operator]] $\Box_i$ in the given [[modal logic]]
 
-  called the *accessiblity* or *transition* relations between worlds, or similar.
+  called the *accessiblity* or *transition* relations between worlds, or similar, where $R_i (w,w')$ is interpreted as: "To agent $i$ in world $w$, world $w'$ appears (just as well) possible."
 
 Hence a Kripke frame is a [[concept with an attitude]], namely the attidute to serve as a model for a [[modal logic]] -- the idea is to interpret:
 
@@ -39,9 +39,15 @@ Hence a Kripke frame is a [[concept with an attitude]], namely the attidute to s
 
 Namely a [[geometric model for modal logics|model]] of the modal logic based on such a Kripke frame will interpret 
 
-* each proposition $P$ of the logic as a $W$-[[dependent type|dependent]] proposition,
+* each [[proposition]] $P$ of the logic as a $W$-[[dependent type|dependent]] proposition $P \colon W \to Prop$,
 
-* each [[modal operator|modal]] proposition $\Box_i P$ as the [[dependent type|dependent]] proposition which at $w \in W$ asserts that "$P$ holds at all those $w'$ that are in $i$th relation to $W$", hence "$P$ holds in all possible worlds $w'$ that are $i$-accessible from $w$".
+* each [[modal operator|modal]] proposition $\Box_i P$ as the $W$-[[dependent type|dependent]] proposition which at $w \in W$ asserts that "$P$ holds at all those $w'$ that are in $i$th relation to $W$", hence "$P$ holds in all worlds $w'$ that $i$ deems to be just as possible as $w$"; formally (eg. [Blackburn & van Benthem (2007) p. 10](#BlackburnVanBenthem07)):
+
+<center>
+<img src="/nlab/files/StandardTranslationKripkeSemantics-230801.jpg" width="740">
+</center>
+
+
 
 
 **The transparent case of S5 logic.** Specifically, for the case of [[S5 modal logic]] with a single [[comonad|comonadic]] [[modal operator]] $\Box$, a Kripke frame (originally considered in [Kripke 1963](#Kripke63)) is an 
@@ -159,6 +165,10 @@ The original articles:
 * [[Saul A. Kripke]], *Semantical Considerations on Modal Logic*, Acta Philosophical Fennica **16** (1963) 83-94 &lbrack;[pdf](http://saulkripkecenter.org/wp-content/uploads/2019/03/Semantical-Considerations-on-Modal-Logic-PUBLIC.pdf)&rbrack;
 
 * {#Kripke65} [[Saul A. Kripke]], *Semantical Analysis of Modal Logic II. Non-Normal Modal Propositional Calculi*, in *The Theory of Models* (Proceedings of the 1963 International Symposium at Berkeley) Studies in Logic and the Foundations of Mathematics (1965) 206-220 &lbrack;[doi:10.1016/B978-0-7204-2233-7.50026-5](https://doi.org/10.1016/B978-0-7204-2233-7.50026-5)&rbrack;
+
+Modern exposition
+
+* {#BlackburnVanBenthem07} [[Patrick Blackburn]], [[Johan van Benthem]], *Modal logic: a semantic perspective*, Ch 1 in: *The Handbook of Modal Logic*, Studies in Logic and Practical Reasoning **3** (2007) &lbrack;<a href="https://doi.org/10.1016/S1570-2464(07)80004-8">doi:10.1016/S1570-2464(07)80004-8</a>, [book webpage](https://cgi.csc.liv.ac.uk/~frank/MLHandbook/)&rbrack;
 
 
 Textbook accounts;
