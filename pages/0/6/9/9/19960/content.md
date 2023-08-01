@@ -1045,6 +1045,9 @@ In relation to the [[open string]] [[tachyon]]:
 
 * M. Järvinen, E. Kiritsis, F. Nitti, E. Préau, *Tachyon-dependent Chern-Simons terms and the V-QCD Baryon* &lbrack;[arXiv:2209.05868](https://arxiv.org/abs/2209.05868)&rbrack;
 
+See also:
+
+* Keiichiro Hori, Hideo Suganuma, Hiroki Kanda, *Numerical analysis of a baryon and its dilatation modes in holographic QCD* &lbrack;[arXiv:2307.16590](https://arxiv.org/abs/2307.16590)&rbrack;
 
 
 
