@@ -24,14 +24,14 @@
 
 ## Idea
 
-The [[modal logic]] obtained from [[S4 modal logic]] by adding the axiom that there is the [[implication]]
+In [[modal logic]] the moniker "S5" refers to the logic obtained from [[S4 modal logic]] by adding the axiom that there is the [[implication]]
 
 $$
   \lozenge p \to \Box \lozenge p
   \,.
 $$
 
-In the [[Kripke frame]] semantics for modal logic, the accessibility relation for worlds is an [[equivalence relation]].
+In the [[possible worlds semantics]] for modal logic, S5 corresponds  precisely to those [[Kripke frames]] $\big(W \colon Set, \, R \colon W \times W \to Prop\big)$ where the [[relation]] $R$ is an [[equivalence relation]] (eg. [Fagin, Halpern, Moses & Vardi (1995) Thm. 3.1.5 (c)](#FaginHalpernMosesVardi95)).
 
 
 ## Related concepts
