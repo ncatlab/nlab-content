@@ -271,6 +271,8 @@ Lecture notes University of Chicago 1975.
 
   (on [[space and quantity]] and on formalizing concepts from [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]])
 
+* _[[Introduction to Linear Categories and Applications]], course lecture notes, 1992. [[1992-introduction-to-linear-categories-and-applications.pdf:file]]
+
 * _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
   
   (an early version of the notion of [[cohesive topos|cohesive toposes]])
