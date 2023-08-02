@@ -51,7 +51,7 @@ The *support* of an object $X$ in a topos is the [[image]] $U \hookrightarrow 1$
 
 * [[subsingleton]]
 
-* [[propositional truncation object]]
+* [[support object]]
 
 [[!include types and logic - table]]
 
