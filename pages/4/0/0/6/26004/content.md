@@ -22,7 +22,6 @@ Decidable subsingletons could be generalized from [[Set]] to any [[coherent cate
 * [[decidable proposition]]
 * [[decidable subset]]
 * [[decidable injection]]
-* [[decidable subterimal object]]
 * [[subsingleton]]
 
 [[!redirects decidable subsingleton]]
