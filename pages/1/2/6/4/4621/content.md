@@ -50,6 +50,16 @@ The [[slice category]] $C/X$ is [[two-valued category|two-valued]] if and only i
 This makes me think that we should define $p$ to be externally decidable iff $p$ is provable whenever it is not refutable, which in a constructive metalogic is weaker than the definition above.  But then we lose the relationship with the disjunction property.  I guess that we need intuitionistic, classical, and paraconsistent forms of external decidability, just as for two-valuedness.
 =--
 
+## In dependent type theory
+
+In [[dependent type theory]], a decidable proposition is a [[mere proposition]] $P$ which comes with an element $\mathrm{lem}_P:P \vee \neg P$, where $A \vee B \coloneqq [A + B]$ is the [[disjunction]] of two types $A$ and $B$, $\neg A \coloneqq A \to \emptyset$ is the [[negation]] of type $A$, $A + B$ is the [[sum type]] of types $A$ and $B$, and $[A]$ is the [[propositional truncation]] of type $A$. 
+
+$$\mathrm{isDecidable}(P) \coloneqq \mathrm{isProp}(P) \times (P \vee \neg P)$$
+
+## Related concepts
+
+* [[type of decidable propositions]]
+* [[decidable subsingleton]]
 
 [[!redirects decidable proposition]]
 [[!redirects decidable propositions]]
