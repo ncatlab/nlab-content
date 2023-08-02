@@ -93,7 +93,7 @@ But as any reformulation in more abstract terms, it serves to
 
 1. and eventually it bears in it the seed for further developments pointing beyond this structure
 
-Regarding the first point: this formulation of Hamiltonian mechanics makes clear what th meaning of Hamilton's equations is for systems topologically more interesting than the example $X = \mathbb{R}^{2 n}$ that many introductory physics texts concentrate on-
+Regarding the first point: this formulation of Hamiltonian mechanics makes clear what the meaning of Hamilton's equations is for systems topologically more interesting than the example $X = \mathbb{R}^{2 n}$ that many introductory physics texts concentrate on-
 
 Regarding the second point: the differential calculus formulation lends itself much more to high-powered arguments than the traditional component-ridden presentation. Of course the latter may still be the preferred method for some concrete computations.
 
