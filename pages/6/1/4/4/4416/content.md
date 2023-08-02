@@ -33,7 +33,7 @@ On [[accessible categories]] and [[sketches]] in the generality of [[enriched ca
 
 On [[Galois theory]]:
 
-* F. Borceux, [[George Janelidze]], _[[Galois Theories]]_, Cambridge Studies in Advanced Mathematics __72__ (2001)
+* [[Francis Borceux]], [[George Janelidze]]: *[[Galois Theories]]*, Cambridge Studies in Advanced Mathematics **72**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511619939](https://doi.org/10.1017/CBO9780511619939)&rbrack;
 
 
 On [[accessible categories]] via [[doctrines of limits]]:
