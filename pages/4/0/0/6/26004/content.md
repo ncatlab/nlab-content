@@ -15,11 +15,14 @@ Every subsingleton $S$ comes with an [[injection]] $i \colon S \to 1$ into a [[s
 $$x \in_1 S \coloneqq \exists y \in 1.i(x) = y$$
 for all elements $x \in 1$, $x \in_1 S$ or $\neg (x \in_1 S)$. 
 
+Decidable subsingletons could be generalized from [[Set]] to any [[coherent category]]: they are precisely the [[decidable object|decidable]] [[subterminal objects]] in a coherent category. 
+
 ## Related concepts
 
 * [[decidable proposition]]
 * [[decidable subset]]
 * [[decidable injection]]
+* [[decidable subterimal object]]
 * [[subsingleton]]
 
 [[!redirects decidable subsingleton]]
