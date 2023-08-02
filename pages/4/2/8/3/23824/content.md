@@ -64,13 +64,13 @@ In [[dependent type theory]], a similar distinction can be made between the two 
 
 ### Material subtypes
 
-Let $(\Omega, \mathrm{El}_\Omega)$ denote the [[type of all propositions]] and its type reflector type family. Let $T$ be a type. 
+We work with a [[Russell type of all propositions]] $\Omega$. 
 
 \begin{definition}
-The **power set** of a type $A$ is defined as the function type from $A$ to the type of all propositions $\Omega$, $\mathcal{P}(A) \coloneqq A \to \Omega$. 
+The **[[power set]]** of a type $A$ is defined as the function type from $A$ to the Russell type of all propositions $\Omega$, $\mathcal{P}(A) \coloneqq A \to \Omega$. 
 \end{definition}
 
-The power set of a type $A$ is always a set because its [[codomain]], the type of all propositions $\Omega$, is a set due to the [[univalence axiom]] or [[propositional extensionality]]. 
+The power set of a type $A$ is always a set because its [[codomain]], the Russell type of all propositions $\Omega$, is a set due to the [[univalence axiom]] or [[propositional extensionality]]. 
 
 \begin{definition}
 A **material subtype** on $A$ is an element of the power set $B:\mathcal{P}(A)$. 
@@ -78,7 +78,7 @@ A **material subtype** on $A$ is an element of the power set $B:\mathcal{P}(A)$.
 
 \begin{definition}
 The **local membership relation** $x \in_A B$ between elements $x:A$ and material subtypes $B:\mathcal{P}(A)$ is defined as 
-$$x \in_A B \coloneqq \mathrm{El}_\Omega(B(x))$$
+$$x \in_A B \coloneqq B(x)$$
 \end{definition}
 
 ### Structural subtypes
@@ -89,13 +89,11 @@ A **structural subtype** of $A$ is a type $B$ with an embedding $i:B \hookrighta
 
 ### Comparison between material subtypes, structural subtypes, and predicates
 
-In the [[inference rules]] for the [[type of all propositions]], one has an operation $(-)_\Omega$ which takes a proposition $P$ and turns it into an element of the [[type of all propositions]] $P_\Omega:\Omega$. 
-
 | material subtype | predicate | structural subtype |
 |-|-|-|
-| $B:\mathcal{P}(A)$ | $x:A \vdash x \in_A B \coloneqq \mathrm{El}_\Omega(B(x))$ | $\sum_{x:A} x \in_A B$ |
-| $\lambda x:A.(B(x))_\Omega:\mathcal{P}(A)$ | $x:A \vdash B(x) \qquad x:A \vdash p(x):\mathrm{isProp}(B(x))$ | $\sum_{x:A} B(x)$ |
-| $\lambda x:A.\left(\sum_{y:B} i(y) =_A x\right)_\Omega:\mathcal{P}(A)$ | $x:A \vdash \sum_{y:B} i(y) =_A x$ | $B \qquad i:B \hookrightarrow A$ |
+| $B:\mathcal{P}(A)$ | $x:A \vdash x \in_A B \coloneqq B(x)$ | $\sum_{x:A} x \in_A B$ |
+| $\lambda x:A.B(x):\mathcal{P}(A)$ | $x:A \vdash B(x) \qquad x:A \vdash p(x):\mathrm{isProp}(B(x))$ | $\sum_{x:A} B(x)$ |
+| $\left(\lambda x:A.\sum_{y:B} i(y) =_A x\right):\mathcal{P}(A)$ | $x:A \vdash \sum_{y:B} i(y) =_A x$ | $B \qquad i:B \hookrightarrow A$ |
 
 ## Operations on material and structural subtypes
 
@@ -107,14 +105,16 @@ Given a type $A$, the **[[improper subset|improper]] material subtype** on $A$ i
 
 \begin{definition}
 Given a type $A$, there is a binary operation $(-)\cap(-):\mathcal{P}(A) \times \mathcal{P}(A) \to \mathcal{P}(A)$ on the power set of $A$ called the **[[intersection]]**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \cap C$ is defined as
-$$(B \cap C)(x) \coloneqq ((x \in_A B) \times (x \in_A C))_\Omega$$
-for all $x:A$.
+$$(B \cap C)(x) \coloneqq (x \in_A B) \wedge (x \in_A C)$$
+for all $x:A$, where $A \wedge B \coloneqq [A \times B]$ is the [[disjunction]] of two [[types]] and $[T]$ is the propositional truncation of $T$. 
 \end{definition}
 
 \begin{definition}
 Given a type $A$ and a type $I$, there is an function $\bigcap:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the **$I$-indexed [[intersection]]**, such that for all families of material subtypes $B:I \to \mathcal{P}(A)$, $\bigcap_{i:I} B(i)$ is defined as
-$$\left(\bigcap_{i:I} B(i)\right)(x) \coloneqq \left(\prod_{i:I} x \in_A B(i)\right)_\Omega$$
-for all $x:A$. 
+$$\left(\bigcap_{i:I} B(i)\right)(x) \coloneqq \forall i:I.x \in_A B(i)$$
+for all $x:A$, where 
+$$\forall x:A.B(x) \coloneqq \left[\prod_{x:A} B(x)\right]$$ 
+is the [[universal quantification]] of a [[type family]] and $[T]$ is the propositional truncation of $T$. 
 \end{definition}
 
 \begin{definition}
@@ -123,13 +123,13 @@ Given a type $A$, the **empty material subtype** on $A$ is the material subtype 
 
 \begin{definition}
 Given a type $A$, there is a binary operation $(-)\cup(-):\mathcal{P}(A) \times \mathcal{P}(A) \to \mathcal{P}(A)$ on the power set of $A$ called the **[[union]]**, such that for all material subtypes $B:\mathcal{P}(A)$ and $C:\mathcal{P}(A)$, $B \cup C$ is defined as
-$$(B \cup C)(x) \coloneqq ((x \in_A B) \vee (x \in_A C))_\Omega$$
+$$(B \cup C)(x) \coloneqq (x \in_A B) \vee (x \in_A C)$$
 for all $x:A$, where $A \vee B \coloneqq [A + B]$ is the [[disjunction]] of two [[types]] and $[T]$ is the propositional truncation of $T$. 
 \end{definition}
 
 \begin{definition}
 Given a type $A$ and a type $I$, there is an function $\bigcup:(I \to \mathcal{P}(A)) \to \mathcal{P}(A)$ called the **$I$-indexed [[union]]**, such that for all families of material subtypes $B:I \to \mathcal{P}(A)$, $\bigcup_{i:I} B(i)$ is defined as
-$$\left(\bigcup_{i:I} B(i)\right)(x) \coloneqq (\exists i:I.x \in_A B(i))_\Omega$$
+$$\left(\bigcup_{i:I} B(i)\right)(x) \coloneqq \exists i:I.x \in_A B(i)$$
 for all $x:A$, where 
 $$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$ 
 is the [[existential quantification]] of a [[type family]] and $[T]$ is the propositional truncation of $T$. 
@@ -150,12 +150,12 @@ $$\mathrm{Eq}_{\mathcal{P}(A)}(B, C) \coloneqq \prod_{x:A} (x \in_A B) \simeq (x
 \end{proposition}
 
 \begin{proof}
-For all $x:A$ and $B:\mathcal{P}(A)$, since $x \in_A B$ is propositions, by the rules of the [[type of all propositions]], there is an element $(x \in_A B)_\Omega:\Omega$ such that $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq (x \in_A B)$. Thus, for all $x:A$, $B:\mathcal{P}(A)$, and $C:\mathcal{P}(A)$, $(x \in_A B) \simeq (x \in_A C)$ implies that $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq \mathrm{El}_\Omega((x \in_A C)_\Omega)$ by the univalence axiom for the [[type of all propositions]], $\mathrm{El}_\Omega((x \in_A B)_\Omega) \simeq \mathrm{El}_\Omega((x \in_A C)_\Omega)$ implies that $(x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$. Thus, $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$ is equivalent to $\prod_{x:A} (x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$. But by [[function extensionality]], there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\prod_{x:A} (x \in_A B)_\Omega =_\Omega (x \in_A C)_\Omega$; hence there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$. 
+For all $x:A$ and $B:\mathcal{P}(A)$, since $x \in_A B$ is propositions, by the introduction rules of the [[Russell type of all propositions]], $x \in_A B:\Omega$. The [[univalence axiom]] for $\Omega$ states that $(x \in_A B) \simeq (x \in_A C)$ is equivalent to $(x \in_A B) =_\Omega (x \in_A C)$. Thus, $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$ is equivalent to $\prod_{x:A} (x \in_A B) =_\Omega (x \in_A C)$. But by [[function extensionality]], there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\prod_{x:A} (x \in_A B) =_\Omega (x \in_A C)$; hence there is an equivalence of types between $B =_{\mathcal{P}(A)} C$ and $\mathrm{Eq}_{\mathcal{P}(A)}(B, C)$. 
 \end{proof}
 
 \begin{definition}
 Given a type $T$, there is a binary function $(-) \times (-):\mathcal{P}(T) \times \mathcal{P}(T) \to \mathcal{P}(T \times T)$ called the **[[cartesian product]] of subtypes**, defined by 
-$$(A \times B)(a, b) \coloneqq ((a \in_T A) \times (b \in_T B))_\Omega$$
+$$(A \times B)(a, b) \coloneqq (a \in_T A) \wedge (b \in_T B)$$
 for all elements $a:T$, $b:T$ and subtypes $A:\mathcal{P}(T)$ and $B:\mathcal{P}(T)$. 
 \end{definition}
 
