@@ -45,15 +45,37 @@ In mild generalization of the discussion at *[necessity & possibility -- Via dep
 
 > {#SubtypeNotation} (Here we write --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
 
-
 are precisely those arising as [[adjoint pairs]] of ([[comonad|co]])[[monads]] induced on the left from a [[base change]] [[adjoint triple]] (the [[categorical semantics of dependent types|categorical semantics]] in [[Set]] of [[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[dependent function type]]-[[type formation|formation]]) along [[display maps]] $W \to \Gamma \equiv W_{/R}$ identified with the [[quotient]] [[coprojection]] of the Kripke frame:
 
 <center>
 <img src="/nlab/files/S5KripkeSemanticsAsMonadicDescent-230801.jpf" width="600">
 </center>
 
-This suggests that one may equivalently regard [[dependent type theory]] as a universal form of [[epistemic logic|epistemic]] [[modal type theory]], in generalization of how [[modal logics]] may be viewed as just another perspective on ([[fragments]] of) [[first-order logic]] (as in [Blackburn, van Benthem & Wolter (2007) pp. xiii](modal+logic#BlackburnvanBenthemWolter07)): In both cases one switches perspective from type formation by [[base change]] [[adjoint triples]] (of [[quantification]] or dependent (co)product formation, respectively) to the induced [[adjoint pair]] of ([[comonad|co]])[[monads]]. (Another example of a change in perspective of this form occurs when describing [[descent]] as *[[monadic descent]]*).
+(Obvious as this may be, the only existing reflection of this fact in the literature may be a side remark in [Awodey 2006, p. 279](#Awodey06), which goes in this direction, albeit not connecting to dependent type formation.)
 
+\begin{remark}
+This suggests that one may equivalently regard [[dependent type theory]] as a universal form of [[epistemic logic|epistemic]] [[modal type theory]], in generalization of how [[modal logics]] may be viewed as just another perspective on ([[fragments]] of) [[first-order logic]] (as in [Blackburn, van Benthem & Wolter (2007) pp. xiii](modal+logic#BlackburnvanBenthemWolter07)): In both cases one switches perspective from type formation by [[base change]] [[adjoint triples]] (of [[quantification]] or dependent (co)product formation, respectively) to the induced [[adjoint pair]] of ([[comonad|co]])[[monads]]. (Another example of a change in perspective of this form occurs when describing [[descent]] as *[[monadic descent]]*).
+\end{remark}
+
+\begin{remark}
+  \label{HaxagonOfEpistemicEntailments}
+  The above (co)monadic formulation of modal logic makes manifest another basic point not usually discussed in the subject, namely that the canonical epistemic entailments
+
+<center>
+<img src="/nlab/files/EpistemicEntailments-230802b.jpg" width="600">
+</center>
+
+are *[[natural transformations]]*. 
+
+This means that the following [[commuting square|squares commute]]. Their [[pasting diagram|pasting]] to the hexagonal [[commuting diagram]] as shown may not have received attention (?):
+
+<center>
+<img src="/nlab/files/HexagonalEpistemicEntailments-230802.jpg" width="700">
+</center>
+
+\end{remark}
+
+\linebreak
 
 ## Related concepts
 
@@ -107,7 +129,7 @@ A [[natural deduction]]-formulation and making explicit the [[modal operator]] a
 
 Understanding of S5 [[Kripke semantics]] as [[base change]] along the lines discussed at *[necessity and possibility -- via dependent types](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)*:
 
-* [[Steve Awodey]], p. 279 in: *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)&rbrack;
+* {#Awodey06} [[Steve Awodey]], p. 279 in: *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)&rbrack;
 
 
 
