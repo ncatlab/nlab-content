@@ -27,7 +27,30 @@ Its generalization from [[propositions]] to general [[types]] is the [[type univ
 
 ### The type of all propositions
 
-The type of all propositions is given by the following rules:
+The **type of all propositions** $\Omega$ in a [[dependent type theory]] could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[mere proposition]] in the type theory is literally an element of the type of all propositions, while in the latter, elements of $\Omega$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[mere proposition]] in the type theory is only [[essentially small type|essentially $\Omega$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\Omega$ for [[strict Tarski universes]]. 
+
+#### As a Russell universe
+
+As a [[Russell universe]], the type of all propositions is given by the following rules:
+
+Formation rules:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
+
+Type reflection:
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash A \; \mathrm{type}}$$
+
+Propositional truncation for each type reflection
+$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(A)}$$
+
+Introduction rule:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash A:\Omega}$$
+
+Univalence:
+$$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{Id}_\Omega(A, B) \simeq (A \simeq B)}$$
+
+#### As a Tarski universe
+
+As a [[Tarski universe]], the type of all propositions is given by the following rules:
 
 Formation rules:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
@@ -35,13 +58,14 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
 Type reflection:
 $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash El(A) \; \mathrm{type}}$$
 
-Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash A_\Omega:\Omega}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}$$
-
 Propositional truncation for each type reflection
 $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
+
+Introduction rule:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash A_\Omega:\Omega}$$
+
+[[essentially small type|Essential smallness]] of propositions (for weak types of all propositions) or [[judgmental equality]] (for strict types of all propositions):
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}\mathrm{weak} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A)}{\Gamma \vdash El(A_\Omega) \equiv A \; \mathrm{type}}\mathrm{strict}$$
 
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
@@ -136,13 +160,42 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 * [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ -- _[Library Universes](http://adam.chlipala.net/cpdt/html/Universes.html)_ 
 
+[[!redirects type of propositions]]
 [[!redirects types of propositions]]
+
+[[!redirects Russell type of propositions]]
+[[!redirects Russell types of propositions]]
+[[!redirects Tarski type of propositions]]
+[[!redirects Tarski types of propositions]]
+[[!redirects weak Tarski type of propositions]]
+[[!redirects weak Tarski types of propositions]]
+[[!redirects strict Tarski type of propositions]]
+[[!redirects strict Tarski types of propositions]]
+
 [[!redirects universe of propositions]]
+[[!redirects universes of propositions]]
+[[!redirects Russell universe of propositions]]
+[[!redirects Russell universes of propositions]]
+[[!redirects Tarski universe of propositions]]
+[[!redirects Tarski universes of propositions]]
+[[!redirects weak Tarski universe of propositions]]
+[[!redirects weak Tarski universes of propositions]]
+[[!redirects strict Tarski universe of propositions]]
+[[!redirects strict Tarski universes of propositions]]
 
 [[!redirects Prop]]
 
 [[!redirects type of all propositions]]
 [[!redirects types of all propositions]]
+
+[[!redirects Russell type of all propositions]]
+[[!redirects Russell types of all propositions]]
+[[!redirects Tarski type of all propositions]]
+[[!redirects Tarski types of all propositions]]
+[[!redirects weak Tarski type of all propositions]]
+[[!redirects weak Tarski types of all propositions]]
+[[!redirects strict Tarski type of all propositions]]
+[[!redirects strict Tarski types of all propositions]]
 
 [[!redirects booleans type]]
 [[!redirects type of booleans]]
