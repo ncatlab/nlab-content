@@ -15,6 +15,8 @@ Working with decidable subsets of sets with decidable equality makes constructiv
 
 * [[decidable equality]]
 * [[subset]]
+* [[decidable subsingleton]]
+* [[decidable injection]]
 
 [[!redirects decidable subset]]
 [[!redirects decidable subsets]]
