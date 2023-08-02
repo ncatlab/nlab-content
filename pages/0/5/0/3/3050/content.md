@@ -450,15 +450,17 @@ The [[Bénabou–Roubaud theorem]] on monadic descent is due to
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
-Review and further developments include
+Review and further developments:
 
-* {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], _Facets of descent I_, Applied Categorical Structures __2__:3 (1994) 245-281 [doi](https://doi.org/10.1007/BF00878100)
-* {#JanelidzeTholen97} _Facets of descent II_, Applied Categorical Structures __5__:3 (1997) 229-248 
-* [[George Janelidze]], [[Manuela Sobral]], [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
+* {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], *Facets of descent I*, Applied Categorical Structures **2** 3 (1994) 245-281 &lbrack;[doi:10.1007/BF00878100](https://doi.org/10.1007/BF00878100)&rbrack;
+
+* {#JanelidzeTholen97} [[George Janelidze]], [[Walter Tholen]], *Facets of descent II*, Applied Categorical Structures **5** 3 (1997) 229-248 &lbrack;[doi:10.1023/A:1008697013769](https://doi.org/10.1023/A:1008697013769)&rbrack;
+
+* [[George Janelidze]], Manuela Sobral, [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
 
 * Bachuki Mesablishvili, _Monads of effective descent type and comonadicity_, Theory and Applications of Categories __16__:1 (2006) 1-45, [link](http://tac.mta.ca/tac/volumes/16/1/16-01abs.html); _Pure morphisms of commutative rings are effective descent morphisms for modules—a new proof_, Theory Appl. Categ. 7(3), 38–42 (2000)
 
-* [[Francis Borceux]], [[Stefan Caenepeel]], [[George Janelidze]], _Monadic approach to Galois descent and cohomology_, [arXiv:0812.1674](http://arxiv.org/abs/0812.1674)
+* [[Francis Borceux]], Stefan Caenepeel, [[George Janelidze]], _Monadic approach to Galois descent and cohomology_, [arXiv:0812.1674](http://arxiv.org/abs/0812.1674)
 * S. Caenepeel, _Galois corings from the descent theory point of view,_ in: Fields Inst. Commun. __43__ (2004) 163–186
 * [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg–Moore category and a Beck-type theorem for a Morita context_, J. Appl Categor Struct (2011) 19: 821 [doi](https://doi.org/10.1007/s10485-009-9217-0)
 
