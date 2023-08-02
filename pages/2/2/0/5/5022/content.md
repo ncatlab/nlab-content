@@ -47,7 +47,7 @@ Namely a [[geometric model for modal logics|model]] of the modal logic based on 
 <img src="/nlab/files/StandardTranslationKripkeSemantics-230801.jpg" width="740">
 </center>
 
-
+> {#SubtypeNotation} (Here we write --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
 
 
 **The transparent case of S5 logic.** Specifically, for the case of [[S5 modal logic]] with a single [[comonad|comonadic]] [[modal operator]] $\Box$, a Kripke frame (originally considered in [Kripke 1963](#Kripke63)) is an 
