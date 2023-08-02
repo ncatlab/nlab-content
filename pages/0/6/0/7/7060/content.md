@@ -109,14 +109,11 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega_\mathrm{decidable} \; \math
 Type reflection:
 $$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash A \; \mathrm{type}}$$
 
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(A)}$$
-
 Excluded middle for each type reflection
-$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{lem}(A):A \vee \neg A}$$
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{isProp}(A) \to (A \vee \neg A)}$$
 
 Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash A:\Omega_\mathrm{decidable}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash A:\Omega_\mathrm{decidable}}$$
 
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable} \quad \Gamma \vdash B:\Omega_\mathrm{decidable}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{Id}_{\Omega_\mathrm{decidable}}(A, B) \simeq (A \simeq B)}$$
@@ -126,24 +123,23 @@ $$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable} \quad \Gamma \vdash B:\Omega_\
 As a [[Tarski universe]], the type of all decidable propositions is given by the following rules:
 
 Formation rules:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega_\mathrm{decidable} \; \mathrm{type}}$$
 
 Type reflection:
 $$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash El(A) \; \mathrm{type}}$$
 
-Introduction rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash A_\Omega:\Omega}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}$$
-
-Propositional truncation for each type reflection
-$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(El(A))}$$
-
 Excluded middle for each type reflection
-$$\frac{\Gamma \vdash A:\Omega}{\Gamma \vdash \mathrm{lem}(A):El(A) \vee \neg El(A)}$$
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{lem}(A):\mathrm{isProp}(El(A)) \to (El(A) \vee \neg El(A))}$$
+
+Introduction rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to A \vee \neg A}{\Gamma \vdash A_\Omega:\Omega_\mathrm{decidable}}$$
+
+[[essentially small type|Essential smallness]] of propositions (for weak types of all decidable propositions) or [[judgmental equality]] (for strict types of all decidable propositions):
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash \delta_A:El(A_\Omega) \simeq A}\mathrm{weak} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee \neg A)}{\Gamma \vdash El(A_\Omega) \equiv A \; \mathrm{type}}\mathrm{strict}$$
 
 Univalence:
-$$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable} \quad \Gamma \vdash B:\Omega_\mathrm{decidable}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
 ### The type of booleans
 
