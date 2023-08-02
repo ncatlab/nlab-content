@@ -47,7 +47,17 @@ equivalently, that
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\neg \neg A \to A}$$
 
-It then becomes clear that the [[law of double negation]] is simply the choice operator only for [[h-propositions]]. Thus, choice operators could be called the **type-theoretic double negation law**, especially under the [[propositions as types]] interpretation of [[dependent type theory]]. 
+It then becomes clear that the [[law of double negation]] is simply the choice operator only for [[h-propositions]]. Thus, choice operators could be called the **type-theoretic double negation law** under the [[propositions as types]] interpretation of [[dependent type theory]]. 
+
+One could equivalently define the set-theoretic choice operator using double negations, by one of these inference rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\neg \neg A \to \vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \times \neg \neg A \to A}$$
+
+By [[currying]] the conclusion of the second rule, one gets 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \to (\neg \neg A \to A)}$$
+
+which is a version of the [[law of double negation]] for [[h-sets]]. 
 
 ## Foundational status
 
