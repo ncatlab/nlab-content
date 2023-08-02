@@ -38,6 +38,15 @@ where $\mathrm{isProp}$ is the [[isProp]] [[modality]] commonly defined as $\pro
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to (P + \neg P)}$$
 
+\begin{theorem}
+The untruncated version of excluded middle implies the truncated version of excluded middle. 
+\end{theorem}
+
+\begin{proof}
+By the [[introduction rule]] of [[propositional truncations]], there exists a function $\mathrm{isInhab}_{P + \neg P}:(P + \neg P) \to [P + \neg P]$, and the truncated version of excluded middle is simply the [[composition]] of functions 
+$$\mathrm{isInhab}_{P + \neg P} \circ \mathrm{lem}_P:\mathrm{isProp}(P) \to (P \vee \neg P)$$
+\end{proof}
+
 If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
