@@ -3,6 +3,12 @@
 
 Discussion of [[S5 modal logic]] as [[epistemic logic]]:
 
+* [[Robert J. Aumann]], *Interactive epistemology I: Knowledge*, International Journal of Game Theory **28** (1999) 263–300 $[$[doi:10.1007/s001820050111](https://doi.org/10.1007/s001820050111)$]$
+
+> $[$[Ditmarsch, Hoek & Kooi (2008)](#DitmarschHoekKooi08):$]$ "in Aumann’s survey paper on interactive epistemology the reader will immediately recognise the system S5."
+
+    
+
 * [[Joseph Y. Halpern]], [[Yoram Moses]], §2.3 in: *A guide to completeness and complexity for modal logics of knowledge and belief*, Artificial Intelligence **54** 3 (1992) 319-379 $[$<a href="https://doi.org/10.1016/0004-3702(92)90049-4">doi:10.1016/0004-3702(92)90049-4</a>$]$
 
 * {#FaginHalpernMosesVardi95} Ronald Fagin, [[Joseph Y. Halpern]], [[Yoram Moses]], Moshe Y. Vardi, *Reasoning About Knowledge*, The MIT Press (1995) $[$[ISBN:9780262562003](https://mitpress.mit.edu/9780262562003/reasoning-about-knowledge/)$]$
@@ -25,7 +31,7 @@ knowledge operator obey the S5 conditions."
 
 > p. 198: "Modal epistemic logic, the logic of knowledge, provides a very natural interpretation to the accessibility relation in Kripke models. For an agent $i$, two worlds $w$ and $v$ are connected (written $R_i w v$), if the agent cannot (epistemically) distinguish them. In other words, we have $R_i v w$ if, according to $i$’s information at $w$, the world might as well be in state $v$, or that $v$ is compatible with i’s information at w. Using this interpretation of access, $R_i$ is obviously an equivalence relation. $[...]$ Thus, we are in the realm of the multi-modal logic $S5_m$."
 
-* [[Hans Ditmarsch]], [[Wiebe Hoek]], Barteld Kooi, *Epistemic Logic*, chapter 2 in: *Dynamic Epistemic Logic*, Studies In Epistemology, Logic, Methodology, And Philosophy Of Science (SYLI) **337**, Springer (2008) $[$[doi:10.1007/978-1-4020-5839-4_2](https://doi.org/10.1007/978-1-4020-5839-4_2), [pdf](http://www.ivanociardelli.altervista.org/wp-content/uploads/2018/04/Epistemic-logic.pdf)$]$
+* {#DitmarschHoekKooi08} [[Hans Ditmarsch]], [[Wiebe Hoek]], Barteld Kooi, *Epistemic Logic*, chapter 2 in: *Dynamic Epistemic Logic*, Studies In Epistemology, Logic, Methodology, And Philosophy Of Science (SYLI) **337**, Springer (2008) $[$[doi:10.1007/978-1-4020-5839-4_2](https://doi.org/10.1007/978-1-4020-5839-4_2), [pdf](http://www.ivanociardelli.altervista.org/wp-content/uploads/2018/04/Epistemic-logic.pdf)$]$
 
 > p. 11: "The logical system S5 is by far the most popular and accepted epistemic logic"
 
