@@ -1,4 +1,5 @@
 
+$X \to Prop$
 
 $$
   w \colon W
