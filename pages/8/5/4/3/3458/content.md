@@ -4,11 +4,17 @@ This entry is about the monograph:
  
   [[Francis Borceux]] and [[George Janelidze]]: 
 
+  \linebreak
+
   **Galois Theories** 
+
+  \linebreak
   
   Camb. Stud. Adv. Math. **72** 
 
   Cambridge University Press (2001)
+
+  [doi:10.1017/CBO9780511619939](https://doi.org/10.1017/CBO9780511619939)
 
 on [[Galois theory]].
 
@@ -120,9 +126,13 @@ Bibliography;
 
 Index.
 
-## References ##
+## Related entries
 
-* $n$lab entries [[categorical Galois theory]], [[Grothendieck's Galois theory]]
+* [[categorical Galois theory]]
+
+* [[Grothendieck's Galois theory]]
+
+## Related references
 
 * Grothendieck et al., [[SGA1]]
 
