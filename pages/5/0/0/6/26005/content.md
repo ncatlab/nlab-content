@@ -17,11 +17,23 @@ Similarly, in [[classical mathematics]], an *[[injection]]* between two sets $A$
 
 * A **decidable injection** between two sets $A$ and $B$ is a function $f:A \to B$ such that for all elements $b \in B$, the [[preimage]] or [[fiber]] of $f$ at $b$ is a [[decidable subsingleton]]; i.e. either [[empty set|empty]] or a [[singleton]]. 
 
+## Set of decidable injections
+
+Suppose the [[set theory]] has [[function sets]] $B^A$. Then one could define the set of decidable injections from $A$ to $B$ as the set 
+
+$$\mathrm{Inj}_d(A, B) \coloneqq \{f \in B^A \vert \forall b \in B.(\exists!a \in A.a \in f^*(b)) \vee (\neg \exists a \in A.a \in f^*(b))\}$$
+
+where $f^*(b)$ is the [[preimage]] or [[fiber]] of $f$ at $b$. 
+
 ## Related concepts
 
 * [[decidable subset]]
 * [[decidable subsingleton]]
 * [[injection]]
+* [[binomial set]]
 
 [[!redirects decidable injection]]
 [[!redirects decidable injections]]
+
+[[!redirects set of decidable injection]]
+[[!redirects set of decidable injections]]
