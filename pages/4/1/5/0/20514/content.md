@@ -1,6 +1,4 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -46,6 +44,10 @@ review:
 Indication that the tension is not in the data but in systematic errors:
 
 * Freedman et al. _The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch_ ([arxiv:1907.05922](https://arxiv.org/abs/1907.05922))
+
+Indication that the tension is not in systematic errors:
+
+* [[Adam Riess]], Gagandeep Anand, Wenlong Yuan, Stefano Casertano, Andrew Dolphin, Lucas Macri, Louise Breuval, Dan Scolnic, Marshall Perrin, Richard Anderson, *Crowded No More: The Accuracy of the Hubble Constant Tested\\with High Resolution Observations of Cepheids by JWST* ([arXiv:2307.15806](https://arxiv.org/abs/2307.15806))
 
 Indication from new data from the [[James Webb Space Telescope]] that the old data does not have systematic errors and the tension is in the data:
 
