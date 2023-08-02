@@ -103,11 +103,15 @@ The extensionality principle of the circle type says that there is an equivalenc
 
 $$\mathrm{ext}_S^1:\mathrm{Id}_S^1(*,*) \simeq \mathbb{Z}$$
 
+Equivalently, that the [[loop space type]] $\Omega(S^1, *)$ is equivalent to the [[integers]]. 
+
 Thus, the extensionality principle of the circle type implies that the integers and thus the natural numbers are [[contractible types]] if [[axiom K]] or [[uniqueness of identity proofs]] hold for the entire type theory. If the extensionality principle of the natural numbers also hold in the type theory, then every type is contractible. 
 
-### $\Omega(S^1)=\mathbb{Z}$ 
+One could prove the extensionality principle of the circle type, given a [[univalent universe]] where the circle is small relative to the universe. The [[HoTT book]] provides a number of such proofs. 
 
-There are several proofs in the [[HoTT book]] that the [[loop space]] $\Omega(S^1)$ of the circle is the [[integers]] $\mathbb{Z}$.  (Any such proof requires the [[univalence axiom]], since without that it is consistent that $S^1$ is contractible.  Indeed, $S^1$ is contractible if and only if [[UIP]] holds.)
+### H-space structures on the circle type
+
+The type of [[H-spaces]] on the circle type is a [[contractible type]]. 
 
 ## Related concepts
 
@@ -162,6 +166,10 @@ Alternative construction of the circle type as the type of $\mathbb{Z}$-torsors:
 Alternative construction of the circle type as a coequalizer:
 
 * {#Shulman15} [[Mike Shulman]], Section 9 of  _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+For the fact that the type of H-space structures on a circle type is contractible:
+
+* [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
 
 [[!redirects circle type]]
 [[!redirects circle types]]
