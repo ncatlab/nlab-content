@@ -159,7 +159,7 @@ Let $B$ be a [[bicategory]], and write $\otimes$ for horizontal (1-cell) composi
 * A function $\circ: X \times X \times X \to B_2$, satisfying the constraint $\circ_{x, y, z}: \hom(y, z) \otimes \hom(x, y) \to \hom(x, z)$, 
 * A function $j: X \to B_2$, satisfying the constraint $j_x: 1_{p(x)} \to \hom(x, x)$, 
 
-such that the associativity and unitality diagrams, as written above, commute. Viewing a monoidal category $M$ as a 1-object bicategory $\Sigma M$, the notion of enrichment in $M$ coincides with the notion of enrichment in the bicategory $\Sigma M$. 
+such that the associativity and unitality diagrams, as written above, commute. If $M$ is a monoidal category, we can view it as a 1-object bicategory by working with its [[delooping#delooping_of_higher_structures|delooping]] $\mathbf{B} M$; the notion of enrichment in $M$ coincides with the notion of enrichment in the bicategory $\mathbf{B} M$. 
 
 If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, together with a function $f_1: X \times X \to B_2$, satisfying the constraint $f_1(x, y): \hom_X(x, y) \to \hom_Y(f(x), f(y))$, and satisfying equations expressing coherence with the composition and unit data $\circ$, $j$ of $X$ and $Y$. (Diagram to be inserted, perhaps.)
 
