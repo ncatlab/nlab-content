@@ -1,24 +1,32 @@
 **George Janelidze** is a Georgian-South African category theorist, currently a professor at the University of Cape Town. He studied in [Tbilisi](http://en.wikipedia.org/wiki/Tbilisi) under [[Hvedri Inassaridze]] with the dissertation "Satellites and Galois Extensions of Commutative Rings". 
 
-His research includes nonabelian homological algebra, the discovery of categorical Galois theory, [[semiabelian categories]], internal actions and internal crossed modules, categorical approaches to universal algebra etc. With [[Francis Borceux]], he authored the monograph
+His research includes [[nonabelian homological algebra]], the discovery of [[categorical Galois theory]], [[semiabelian categories]], [[internal actions]] and [[internal crossed modules]], [[categorical algebra|categorical]] [[universal algebra]] etc. 
 
-* (with F. Borceux) Galois Theories, Cambridge Studies in Advanced Mathematics 72, Cambridge University Press, 2001
+* [website](http://www.mth.uct.ac.za/prof-george-janelidze-0)
 
+* [old website](http://www.rmi.ge/~gjanel)
 
-## External links
-
-* [Website](http://www.mth.uct.ac.za/prof-george-janelidze-0)
-
-* Janelidze's old webpage at Razmadze Institute in Tbilisi: [link](http://www.rmi.ge/~gjanel). 
-
-* [Mathematics genealogy project entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=80837)
+* [MathGenealogy entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=80837)
 
 
 ## Selected writings
 
+On ([[monadic descent|monadic]]) [[descent]]:
+
+* {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], *Facets of descent I*, Applied Categorical Structures **2** 3 (1994) 245-281 &lbrack;[doi:10.1007/BF00878100](https://doi.org/10.1007/BF00878100)&rbrack;
+
+* {#JanelidzeTholen97} [[George Janelidze]], [[Walter Tholen]], *Facets of descent II*, Applied Categorical Structures **5** 3 (1997) 229-248 &lbrack;[doi:10.1023/A:1008697013769](https://doi.org/10.1023/A:1008697013769)&rbrack;
+
+
 On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+
+On [[Galois theory]]:
+
+* [[Francis Borceux]], [[George Janelidze]]: *[[Galois Theories]]*, Cambridge Studies in Advanced Mathematics **72**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511619939](https://doi.org/10.1017/CBO9780511619939)&rbrack;
+
+
 
 On [[monoid objects in monoidal categories]]:
 
