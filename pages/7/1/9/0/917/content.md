@@ -60,6 +60,8 @@ If the category has a [[strict initial object]] $\emptyset$, then every morphism
 
 * [[equivariant function]]
 
+* [[decidable injection]]
+
 [[!redirects injective function]]
 [[!redirects strongly injective function]]
 [[!redirects injective functions]]
