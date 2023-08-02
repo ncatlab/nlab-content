@@ -13,6 +13,7 @@ Sometimes a slightly different convention is used: There what we call subsinglet
 
 * [[h-proposition]]
 * [[support]]
+* [[decidable subsingleton]]
 
 [[!include types and logic - table]]
 
