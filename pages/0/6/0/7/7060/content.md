@@ -97,7 +97,33 @@ $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mat
 
 ### The type of all decidable propositions
 
-The type of all decidable propositions is given by the following rules:
+Something similar holds for the **type of all decidable propositions** $\Omega_\mathrm{decidable}$ in a [[dependent type theory]], which could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[decidable proposition]] in the type theory is literally an element of the type of all decidable propositions, while in the latter, elements of $\Omega_\mathrm{decidable}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[decidable proposition]] in the type theory is only [[essentially small type|essentially $\Omega_\mathrm{decidable}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\Omega_\mathrm{decidable}$ for [[strict Tarski universes]]. 
+
+#### As a Russell universe
+
+As a [[Russell universe]], the type of all decidable propositions is given by the following rules:
+
+Formation rules:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega_\mathrm{decidable} \; \mathrm{type}}$$
+
+Type reflection:
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash A \; \mathrm{type}}$$
+
+Propositional truncation for each type reflection
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(A)}$$
+
+Excluded middle for each type reflection
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable}}{\Gamma \vdash \mathrm{lem}(A):A \vee \neg A}$$
+
+Introduction rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_A:\mathrm{isProp}(A) \quad \Gamma \vdash \mathrm{lem}_A:A \vee \neg A}{\Gamma \vdash A:\Omega_\mathrm{decidable}}$$
+
+Univalence:
+$$\frac{\Gamma \vdash A:\Omega_\mathrm{decidable} \quad \Gamma \vdash B:\Omega_\mathrm{decidable}} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{Id}_{\Omega_\mathrm{decidable}}(A, B) \simeq (A \simeq B)}$$
+
+#### As a Tarski universe
+
+As a [[Tarski universe]], the type of all decidable propositions is given by the following rules:
 
 Formation rules:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \Omega \; \mathrm{type}}$$
@@ -210,8 +236,6 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects strict Tarski universe of propositions]]
 [[!redirects strict Tarski universes of propositions]]
 
-[[!redirects Prop]]
-
 [[!redirects type of all propositions]]
 [[!redirects types of all propositions]]
 
@@ -224,12 +248,33 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects strict Tarski type of all propositions]]
 [[!redirects strict Tarski types of all propositions]]
 
-[[!redirects booleans type]]
-[[!redirects type of booleans]]
-
 [[!redirects type of decidable propositions]]
 [[!redirects types of decidable propositions]]
+
+[[!redirects Russell type of decidable propositions]]
+[[!redirects Russell types of decidable propositions]]
+[[!redirects Tarski type of decidable propositions]]
+[[!redirects Tarski types of decidable propositions]]
+[[!redirects weak Tarski type of decidable propositions]]
+[[!redirects weak Tarski types of decidable propositions]]
+[[!redirects strict Tarski type of decidable propositions]]
+[[!redirects strict Tarski types of decidable propositions]]
+
 [[!redirects type of all decidable propositions]]
 [[!redirects types of all decidable propositions]]
+
+[[!redirects Russell type of all decidable propositions]]
+[[!redirects Russell types of all decidable propositions]]
+[[!redirects Tarski type of all decidable propositions]]
+[[!redirects Tarski types of all decidable propositions]]
+[[!redirects weak Tarski type of all decidable propositions]]
+[[!redirects weak Tarski types of all decidable propositions]]
+[[!redirects strict Tarski type of all decidable propositions]]
+[[!redirects strict Tarski types of all decidable propositions]]
+
+[[!redirects Prop]]
+
+[[!redirects booleans type]]
+[[!redirects type of booleans]]
 
 [[!redirects decidable subset classifier]]
