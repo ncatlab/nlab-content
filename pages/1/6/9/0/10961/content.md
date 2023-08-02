@@ -162,7 +162,7 @@ even though often mis-attributed to [[Richard Feynman]]:
 
 * [[Eugene P. Wigner]], *Epistemology of Quantum Mechanics*, Part I in: [[Jagdish Mehra]] (ed.), *Philosophical Reflections and Syntheses* Vol B.VI in: *The Collected Works of Eugene Wigner*, Springer (1973) &lbrack;[doi:10.1007/978-3-642-78374-6_5](https://doi.org/10.1007/978-3-642-78374-6_5)&rbrack;
 
-* [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]* Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+* [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * [[Max Tegmark]], *The Interpretation of Quantum Mechanics: Many Worlds or Many Words?*, Fortsch. Phys. **46** (1998) 855-862 &lbrack;[arXiv:quant-ph/9709032](https://arxiv.org/abs/quant-ph/9709032)&rbrack;
 
