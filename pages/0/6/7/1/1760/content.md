@@ -185,7 +185,7 @@ $$
 is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
 
 
-## Deloopings of higher categorical structures 
+## Deloopings of higher categorical structures #{delooping_of_higher_structures}
 
 There is also a notion of delooping which takes a pointed $(n, k+1)$-category $C$ to a pointed $(n+1, k)$-category $\mathbf{B} C$ in which $\mathbf{B} C$ has a single $0$-cell $\bullet$, and where $\hom(\bullet, \bullet) = C$. This is a tautological construction if one accepts the [[delooping hypothesis]], which views a $(n, k+1)$-category $C$ as a special type of $(n+k+1)$-category, namely a pointed $k$-connected $(n+k+1)$-category: by viewing such as *a fortiori* a pointed $(k-1)$-connected $(n+k+1)$-category, we get the delooping $\mathbf{B} C$. 
 
