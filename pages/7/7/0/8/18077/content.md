@@ -1,7 +1,5 @@
 
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Definition
 
@@ -16,9 +14,15 @@ In [[classical logic]], this is simply true.  In [[constructive logic]], it is e
 
 ## In dependent type theory
 
-In [[dependent type theory]], the law of double negation states that given a type $A$ and a witness that it is an [[h-proposition]], one could derive that one could get an element of $A$ in the context of a function from the function type from $A$ to the [[empty type]] to the [[empty type]]:
+In [[dependent type theory]], we define the [[negation]] of a type $A$ as the function type from $A$ to the empty type $\mathbb{0}$; $\neg A \coloneqq A \to \mathbb{0}$. The law of double negation states that given a type $A$, one could derive that one could get an element of $A$ in the context of a witness that $A$ is an [[h-proposition]] and a witness of the double negation of $A$:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash \mathrm{proptrunc}_A(a, b):a =_A b}{\Gamma, c:(A \to \mathbb{0}) \to \mathbb{0} \vdash \mathrm{doubleneg}(c):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isProp}(A), c:\neg \neg A \vdash \mathrm{doubleneg}_A(p, c):A}$$
+
+Given [[function types]], this could be wrapped up as
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:\mathrm{isProp}(A) \to (\neg \neg A \to A)}$$
+
+The requirement that $A$ be an [[h-proposition]] is necessary; the law of double negation for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the law of double negation for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
 
 ## Related concepts
 
@@ -28,6 +32,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash \mathrm{p
 
 * [[closed subspace]]
 
+* [[type-theoretic law of double negation]]
 
 ## References
 
@@ -36,3 +41,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, a:A, b:A \vdash \mathrm{p
 
 [[!redirects law of double negation]]
 [[!redirects double negation law]]
+
+[[!redirects choice operator for propositions]]
+[[!redirects choice operator for h-propositions]]
+[[!redirects choice operator for mere propositions]]
