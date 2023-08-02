@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -43,6 +42,9 @@ In mild generalization of the discussion at *[necessity & possibility -- Via dep
 <center>
 <img src="/nlab/files/StandardTranslationKripkeSemantics-230801.jpg" width="740">
 </center>
+
+> {#SubtypeNotation} (Here we write --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
+
 
 are precisely those arising as [[adjoint pairs]] of ([[comonad|co]])[[monads]] induced on the left from a [[base change]] [[adjoint triple]] (the [[categorical semantics of dependent types|categorical semantics]] in [[Set]] of [[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[dependent function type]]-[[type formation|formation]]) along [[display maps]] $W \to \Gamma \equiv W_{/R}$ identified with the [[quotient]] [[coprojection]] of the Kripke frame:
 
