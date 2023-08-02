@@ -3,6 +3,13 @@
 
 ## Selected writings
 
+On ([[monadic descent|monadic]]) [[descent]]:
+
+* {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], *Facets of descent I*, Applied Categorical Structures **2** 3 (1994) 245-281 &lbrack;[doi:10.1007/BF00878100](https://doi.org/10.1007/BF00878100)&rbrack;
+
+* {#JanelidzeTholen97} [[George Janelidze]], [[Walter Tholen]], *Facets of descent II*, Applied Categorical Structures **5** 3 (1997) 229-248 &lbrack;[doi:10.1023/A:1008697013769](https://doi.org/10.1023/A:1008697013769)&rbrack;
+
+
 On [[free coproduct completions]]:
 
 * {#HuTholen95} Hongde Hu, [[Walter Tholen]], *Limits in  free  coproduct completions*, Journal of  Pure  and  Applied  Algebra 105 (1995) 277-291 (<a href="https://doi.org/10.1016/0022-4049(94)00153-7">doi:10.1016/0022-4049(94)00153-7</a>, [pdf](https://core.ac.uk/download/pdf/82604415.pdf))
