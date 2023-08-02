@@ -81,6 +81,9 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
 * _[Lean community and Mathlib] (https://leanprover-community.github.io/)_
 
+* [[Kyle Miller]], *Doing math the Lean way*, Berkeley Lean Seminar (2020) &lbrack;[pdf](https://math.berkeley.edu/~kmill/talks/2020-06-26-lean-seminar.pdf#page=22), [[Miller-MathTheLeanWay.pdf:file]]&rbrack;
+
+
 Tutorials and workshops:
 
 * *Lean for the Curious Mathematician 2020*, online event (Jul 2020) &lbrack;[web](https://leanprover-community.github.io/lftcm2020/)&rbrack;
