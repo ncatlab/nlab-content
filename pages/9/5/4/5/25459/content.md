@@ -56,31 +56,53 @@ where
 
 * $[-]$ denotes [[propositional truncation]] ([[bracket types]]).
 
+Since $A \simeq B$ is defined as the [[dependent pair type]] $\sum_{f:A \to B} \mathrm{isEquiv}(f)$, the above definition is the same as 
+
+$$
+  \left(
+    \begin{array}{c}
+    A 
+    \\ 
+    B
+   \end{array}
+\right) 
+  \;\coloneqq\;
+  \sum_{
+   f \colon 
+   A \to \mathbb{2}
+   } 
+  \exists g:B \to \left(
+    \sum_{a \colon A} 
+      f(a) 
+      =_\mathbb{2} 
+      1
+    \right).\mathrm{isEquiv}(g)
+  \,,
+$$
+
+where given a type family $x:A \vdash B(x)$ the [[existential quantifier]] is defined as the propositional truncation of the dependent pair type
+
+$$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$
 
 This definition can be translated directly into [[set theory]] notation as follows: 
 
 $$
   \left(
     \begin{array}{c}
-      A 
-      \\ 
-      B
-    \end{array}
-   \right) 
-   \;\coloneqq\; 
-   \coprod_{f \in \mathbb{2}^A} 
-   \Big[
-     B \cong 
-     \big\{
-       a \in A 
-     \vert 
-       f(a) = 1
-     \big\}
-   \Big]
-   \,,
+    A 
+    \\ 
+    B
+   \end{array}
+\right) 
+  \;\coloneqq\;
+  \{f \in \mathbb{2}^A \vert \exists g \in \{a \in A \vert f(a) =_\mathbb{2} 1\}^B.\mathrm{isBijection}(g)\}
+  \,,
 $$
 
-where $\left[A\right]$ is the [[support of a set|support]] of the set $A$ and $\mathbb{2}^A$ is the [[function set]] with [[domain]] $A$ and [[codomain]] the two-element $\mathbb{2}$ (the classical [[boolean domain]]). This results in **binomial sets**. 
+where $B^A$ is the [[function set]] with [[domain]] $A$ and [[codomain]] $B$ and $\mathbb{2}$ is the two-element set (the classical [[boolean domain]]), and the predicate $\mathrm{isBijection}(f)$ on the function set $f \in B^A$ is defined as 
+$$\mathrm{isBijection}(f) \coloneqq \forall y \in B.\exists!x \in A.f(x) = y$$
+
+This results in **binomial sets**. 
 
 ### Locally small binomial types
 
@@ -93,6 +115,18 @@ Let $(U, \mathrm{El})$ be a [[univalent Tarski universe]], and given type $A$, l
 $$U_A \coloneqq \sum_{X:U} \left[A \simeq \mathrm{El}(X)\right]$$
 Then given [[essentially small type|essentially $U$-small types]] $A$ and $B$, the locally $U$-small binomial type is defined as 
 $$\left(\begin{array}{c}A \\ B\end{array}\right)_U \coloneqq \sum_{X:U_B} \left[\mathrm{El}(X) \hookrightarrow_d A\right]$$
+
+One could also translate the above definition into [[set theory]]: 
+
+Given a [[universe]] $U$ of [[small sets]], the set $U_A$ is defined to be the set of all small sets in $U$ which are in bijection with $A$:
+
+$$U_A \coloneqq \{X \in U \vert \exists i \in X^A.\forall x \in X.\exists!a \in A.a \in i^*(x)\}$$
+
+where $i^*(x)$ is the [[preimage]] or [[fiber]] of $i$ at $x$. 
+
+Then given small sets $A$ and $B$, the locally $U$-small **binomial set** of $A$ and $B$ is defined as the set of all $X \in U_B$ such that there exists a [[decidable injection]] from $X$ to $A$:
+
+$$\left(\begin{array}{c}A \\ B\end{array}\right)_U \coloneqq \{X \in U_B \vert \exists i \in A^X.\forall x \in X.(\exists!a \in A.a \in i^*(x)) \vee (\neg \exists a \in A.a \in i^*(x))\}$$
 
 ## See also
 
