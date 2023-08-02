@@ -50,7 +50,7 @@ are precisely those arising as [[adjoint pairs]] of ([[comonad|co]])[[monads]] i
 <img src="/nlab/files/S5KripkeSemanticsAsMonadicDescent-230801.jpf" width="600">
 </center>
 
-This suggests that one may equivalently regard [[dependent type theory]] as a universal form of [[epistemic logic|epistemic]] [[modal type theory]], in generalization of how [[modal logics]] may be viewed as just another perspective on ([[fragments]] of) [[first-order logic]] (as in [Blackburn, van Benthem & Wolter (2007) pp. xiii](#modal+logic#BlackburnvanBenthemWolter07)): In both cases one switches perspective from type formation by [[base change]] [[adjoint triples]] (of [[quantification]] or dependent (co)product formation, respectively) to the induced [[adjoint pair]] of ([[comonad|co]])[[monads]]. (Another example of a change in perspective of this form occurs when describing [[descent]] as *[[monadic descent]]*).
+This suggests that one may equivalently regard [[dependent type theory]] as a universal form of [[epistemic logic|epistemic]] [[modal type theory]], in generalization of how [[modal logics]] may be viewed as just another perspective on ([[fragments]] of) [[first-order logic]] (as in [Blackburn, van Benthem & Wolter (2007) pp. xiii](modal+logic#BlackburnvanBenthemWolter07)): In both cases one switches perspective from type formation by [[base change]] [[adjoint triples]] (of [[quantification]] or dependent (co)product formation, respectively) to the induced [[adjoint pair]] of ([[comonad|co]])[[monads]]. (Another example of a change in perspective of this form occurs when describing [[descent]] as *[[monadic descent]]*).
 
 
 ## Related concepts
