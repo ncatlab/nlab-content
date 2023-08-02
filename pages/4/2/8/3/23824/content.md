@@ -12,12 +12,51 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-In [[set theory]], there are two notions of [[subsets]]
+In [[type theory]], the notion of *subtypes* is the analog of *[[subsets]]* in [[set theory]].
+
+In the presence of a [[type universe]] [[Prop|$Prop$]] of [[propositions]] (alternatively denoted "$\Omega$"), the subtypes of a given $A \colon Type$ may be simply be identified with the [[function type]] from $A$ to $Prop$:
+
+$$
+  Sub(A)
+  \;\;
+  =
+  \;\;
+  Prop_A
+  \;\;
+  \equiv
+  \;\;
+  A \to Prop
+  \;\;
+  \equiv
+  \;\;
+  A \to \Omega
+  \,.
+$$
+
+In [[topos theory|topos]]-[[categorical semantics of dependent type theory|semantics]], $Prop$ is interpreted as the *[[subobject classifier]]* and subtypes as *[[subobjects]]*.
+
+Notice that with $Prop$ itself being a subtype of a [[type universe]] $Type$, the subtypes of $A$ are thus a special case of the $A$-[[dependent types]]
+
+$$
+  Type_A 
+  \;\;
+  \equiv
+  \;\;
+  A \to Type
+  \,,
+$$
+
+namely those whose [[fiber type]] over $a \colon A$ is the proposition asserting that "$a$ is contained in the subtype".
+
+This is equivalent to other definitions of subtypes, which one can make sense of also in the absence of a Prop-universe.
+
+Notice here that in [[set theory]], there are in fact two notions of [[subsets]]:
 
 * In [[material set theory]], a subset of a set $A$ is a set $B$ with the property that for all $x$, if $x \in B$, then $x \in A$, which by the definition of [[power set]] in [[material set theory]], is the same thing as an element $B \in \mathcal{P}(A)$. 
 
-* In [[structural set theory]], a subset of a set $A$ is a set $B$ with an [[injection]] $i:B \hookrightarrow A$. 
+* In [[structural set theory]], a subset of a set $A$ is a set $B$ with an [[injection]] $i \colon B \hookrightarrow A$. 
 
 In [[dependent type theory]], a similar distinction can be made between the two notions of subtypes, resulting in *material subtypes* and *structural subtypes*. 
 
@@ -158,6 +197,29 @@ for all $a:R \times S$, where $\pi_1$ and $\pi_2$ are the first and second produ
 * [[coercion]]
 
 * [[decidable subtype]]
+
+
+
+## References
+ {#References}
+
+* [[Univalent Foundations Project]], [p. 111](https://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf#page=123) of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* {#Rijke19} [[Egbert Rijke]], §12.2 in: _[[Introduction to Homotopy Type Theory]]_ (2019)  &lbrack;[web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)&rbrack; 
+
+* [[Martín Escardó]], *[The subtype classifier and other classifiers](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#subtypeclassifier)*, in:  *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
+
+
+In [[Agda]]:
+
+* [[UniMath project]], *[foundation-core.subtypes.html](https://unimath.github.io/agda-unimath/foundation-core.subtypes.html)*
+
+* [[Ettore Aldrovandi]], *[Subtypes](https://www.math.fsu.edu/~ealdrov/teaching/2020-21/fall/MAS5932/agda/more-logic.html#subtypes)*, §4 in: *Propositions, Sets and Logic--Ⅱ* &lbrack;[web](https://www.math.fsu.edu/~ealdrov/teaching/2020-21/fall/MAS5932/agda/more-logic.html)&rbrack;
+
+In [[Lean]]:
+
+* [[Kyle Miller]], [pp. 22](https://math.berkeley.edu/~kmill/talks/2020-06-26-lean-seminar.pdf#page=22) in: *Doing math the Lean way*, Berkeley Lean Seminar (2020) &lbrack;[pdf](https://math.berkeley.edu/~kmill/talks/2020-06-26-lean-seminar.pdf#page=22), [[Miller-MathTheLeanWay.pdf:file]]&rbrack;
+
 
 [[!redirects subtype]]
 [[!redirects subtypes]]
