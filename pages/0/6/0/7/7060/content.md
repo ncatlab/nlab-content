@@ -19,9 +19,34 @@
 
 ## Idea
 
-In [[type theory]] a _type of propositions_ $Prop$ or $\Omega$ corresponds roughly under [[categorical semantics]] to a [[subobject classifier]].  (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
+In [[type theory]] a _type of propositions_ --- typically denoted  $Prop$ or $\Omega$ --- corresponds, under [[categorical semantics]], roughly to a *[[subobject classifier]]*.  
 
-Its generalization from [[propositions]] to general [[types]] is the [[type universe]]. 
+> (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
+
+Its generalization from [[propositions]] to general [[types]] is a *[[type universe]]*.
+
+The [[subtypes]] of a [[type]] $A$ may typically be identified with the [[function types]] into the type of propositions
+
+$$
+  Sub(A)
+  \;\;
+  =
+  \;\;
+  Prop_A
+  \;\;
+  \equiv
+  \;\;
+  A \to Prop
+  \;\;
+  \equiv
+  \;\;
+  A \to \Omega
+  \,.
+$$
+
+In [[dependent type theory]] such a $P \,\colon\, A \to Prop$ is equivalently an $A$-[[dependent type|dependent]] [[proposition]], to be understood as assingning to any [[term]] $a \colon A$ the assertion that "$a$ is contained in the given subtype".
+
+
 
 ## Definition
 
@@ -142,11 +167,13 @@ is the type of all propositions.
 
 ## Related concepts
 
+* [[subtype]], [[subobject]]
+
+* [[subobject classifier]]
+
 * [[dominance]]
 
 * [[propositional extensionality]]
-
-* [[subobject classifier]]
 
 * [[type universe]]
 
