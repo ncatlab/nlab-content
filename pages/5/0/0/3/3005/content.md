@@ -67,7 +67,7 @@ A functor $U \colon D \to C$ is monadic precisely if
 
 1. $U$ reflects [[isomorphisms]] (i.e. it is [[conservative functor|conservative]]), and
 
-1. $D$ has, and $U$ [[preserved limit|preserves]], coequalizers of $U$-split pairs.
+1. if for a [[parallel pair]] $(f,g)$ in $D$ the [[image]] $\big(U(f),\, U(g)\big)$ has a [[split coequalizer]] in $C$ then $(f,g)$ has a [[coequalizer]] in $D$ which is [[preserved colimit|preserved]] by $U$.
 
 \end{theorem}
 
