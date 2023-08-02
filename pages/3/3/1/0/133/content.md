@@ -255,6 +255,9 @@ category: foundational axiom
 [[!redirects axiom of n-choice]]
 [[!redirects axiom of k-connected choice]]
 
+[[!redirects set-theoretic axiom of choice]]
+[[!redirects set theoretic axiom of choice]]
+
 [[!redirects type-theoretic axiom of choice]]
 [[!redirects type theoretic axiom of choice]]
 [[!redirects external axiom of choice]]
