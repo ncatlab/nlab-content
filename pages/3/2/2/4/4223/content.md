@@ -209,7 +209,7 @@ Course notes:
 
 Discussion in [[complex analytic geometry]]:
 
-* {#Illusie12} [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_, talk notes 2012 ([pdf](http://www.math.u-psud.fr/~illusie/derived-deRham3.pdf))
+* {#Illusie12} [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_, talk notes 2012 ([pdf](https://www.imo.universite-paris-saclay.fr/~luc.illusie/derived-deRham3a1.pdf))
 
 following
 
