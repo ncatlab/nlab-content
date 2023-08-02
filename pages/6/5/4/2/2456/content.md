@@ -33,6 +33,22 @@ $$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{t
 
 $U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
 
+### Relation to double negation
+
+The existence of a choice operator implies [[excluded middle]] and the [[double negation law]], and in particular, means that in [[dependent type theory]] the [[propositional truncation]] of a type is given by the [[double negation]] [[modality]]:
+
+$$\vert A \vert \coloneqq \neg \neg A$$
+
+This means that the rules for choice operators can be rewritten using double negation rather than propositional truncations:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\neg \neg A \vdash \varepsilon_A(x):A}$$
+
+equivalently, that 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\neg \neg A \to A}$$
+
+It then becomes clear that the [[law of double negation]] is simply the choice operator only for [[h-propositions]]. Thus, choice operators could be called the **type-theoretic double negation law**, especially under the [[propositions as types]] interpretation of [[dependent type theory]]. 
+
 ## Foundational status
 
 It should be noted that Hilbert and Bourbaki take the $\varepsilon$-operator, called $\tau$ in "Theory of Sets" to be a primitive symbol in a mathematical theory.  This has the advantage of also allowing the existential and universal [[quantifiers]] to be constructed explicitly, since $\exists x$ translates to $P(\varepsilon_x(P(x)))$.  The intuitive meaning behind the operator is that it returns a distinguished object for which the proposition is true, or if no such object exists, it returns any object for which it is not true.  Of course, the intuitive meaning can be misleading since the properties of the epsilon operator are governed by the axiom schema of existence and $\varepsilon$-extensionality, without which, the symbol has no meaning.  The __axiom scheme of existence__ is a statement of Hilbert's axiom that avoids mention of the existential quantifier.
@@ -56,6 +72,7 @@ On the other hand, a type-theoretic global choice operator is inconsistent with 
 ## See also
 
 * [[split support]]
+* [[law of double negation]]
 
 ## Readings
 
@@ -91,3 +108,9 @@ category: foundational axiom
 [[!redirects axiom schema of existence]]
 [[!redirects axiom schemas of existence]]
 [[!redirects axiom schemata of existence]]
+
+[[!redirects typal double negation law]]
+[[!redirects typal law of double negation]]
+
+[[!redirects type-theoretic double negation law]]
+[[!redirects type-theoretic law of double negation]]
