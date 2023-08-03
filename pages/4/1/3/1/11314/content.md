@@ -28,7 +28,10 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 
 ### General
 
-Textbook account:
+Textbook accounts:
+
+* [[Hans Primas]], *Chemistry, Quantum Mechanics and Reductionism*, Springer (1983) &lbrack;[doi:10.1007/978-3-642-69365-6](https://doi.org/10.1007/978-3-642-69365-6)&rbrack;
+
 
 * [[Attila Szabo]], [[Neil S. Ostlund]], *Modern Quantum Chemistry -- Introduction to Advanced Electronic Structure Theory*, Macmillan (1982), McGraw-Hill (1989), Dover (1996) $[$[pdf](https://chemistlibrary.files.wordpress.com/2015/02/modern-quantum-chemistry.pdf)$]$
 
