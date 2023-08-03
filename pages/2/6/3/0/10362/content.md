@@ -476,8 +476,11 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 The original article:
 
 * {#Bell64} [[John Bell]], *On the Einstein Podolsky Rosen paradox*, Physics **1** 195 (1964) &lbrack;[doi:10.1103/PhysicsPhysiqueFizika.1.195](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195), [pdf](http://www.drchinese.com/David/Bell_Compact.pdf)&rbrack;
+
   
 Review:
+
+* [[John F. Clauser]], [[Abner Shimony]], *Bell's theorem. Experimental tests and implications*, Rep. Prog. Phys. **41** (1978) 1881 &lbrack;[doi:10.1088/0034-4885/41/12/002](https://iopscience.iop.org/article/10.1088/0034-4885/41/12/002)&rbrack;
 
 * {#Kuperberg05} [[Greg Kuperberg]], section 1.6.2 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
@@ -486,7 +489,7 @@ on a background of [[quantum logic]]:
 * Laura Molenaar, *Quantum logic and the EPR paradox*, Delft (2014) &lbrack;[uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b](http://resolver.tudelft.nl/uuid:cfee567c-425a-4b2d-9550-f7d7eea41b8b)&rbrack;
 
 
-Experiments:
+Further on experimental verification:
 
 * {#Aspect15} [[Alain Aspect]], *[Closing the Door on Einstein and Bohr’s Quantum Debate](https://physics.aps.org/articles/v8/123)*, Physics **8** 123 (2015)
 
