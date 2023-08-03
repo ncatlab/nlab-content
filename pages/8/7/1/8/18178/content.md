@@ -44,7 +44,7 @@ $$
   P P = P
 $$
 
-thought of as an event, then for any observable $A \in \mathcal{A}$ the [[conditional expectation value]] of $A$, conditioned on the observation of $P$, is (e.g. [Redei-Summers 06, section 7.3](#RedeiSummers06), see also [Fröhlich-Schubnel 15, (5.49)](#FroehlichSchubnel15), [Fröhlich 19 (45)](Froehlich19))
+thought of as an event, then for any observable $A \in \mathcal{A}$ the [[conditional expectation value]] of $A$, conditioned on the observation of $P$, is (e.g. [Redei-Summers 06, section 7.3](#RedeiSummers06), see also [Fröhlich-Schubnel 15, (5.49)](#FroehlichSchubnel15), [Fröhlich 19 (45)](#Froehlich16))
 
 $$
   \label{ConditionalExpectation}
@@ -172,7 +172,7 @@ Textbook accounts in [[quantum information theory]]:
 
 Discussion from the point of view of [[quantum probability]]:
 
-* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
 * {#RedeiSummers06} [[Miklos Redei]], [[Stephen Summers]], _Quantum Probability Theory_ ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158))
 
