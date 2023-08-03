@@ -79,10 +79,11 @@ Like the [[axiom of choice]], the existence of a global choice operator is consi
 
 On the other hand, a type-theoretic global choice operator is inconsistent with the [[univalence axiom]] of [[homotopy type theory]]. For univalence requires that all operations on the [[type of types]] must be natural with respect to equivalences, which no global choice operator can be.
 
-## See also
+## Related concepts
 
 * [[split support]]
 * [[law of double negation]]
+* [[propositions as types]]
 
 ## Readings
 
