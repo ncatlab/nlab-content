@@ -4,6 +4,7 @@
 ## Selected writings
 
 
+
 On [[extended TQFTs]] modelling [[topological phases of matter]] in [[solid state physics]]:
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Condensations in higher categories* ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
@@ -33,6 +34,11 @@ $\pi_3(\mathbb{S})$
 On [[Lie groups]] and [[quantum groups]]:
 
 * [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
+
+
+On the relation between [[functorial quantum field theory]] (axiomatizing the [[Schrödinger picture]] of [[quantum field theory]]) and [[algebraic quantum field theory]] (axiomatizing the [[Heisenberg picture]]):
+
+* {#Johnson-Freyd21} [[Theo Johnson-Freyd]], *Heisenberg-picture quantum field theory*, in *Representation Theory, Mathematical Physics, and Integrable Systems*, Progress in Mathematics **340** (2021) &lbrack;[arXiv:1508.05908](https://arxiv.org/abs/1508.05908), [doi:10.1007/978-3-030-78148-4_13](https://doi.org/10.1007/978-3-030-78148-4_13)&rbrack;
 
 
 
