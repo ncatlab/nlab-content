@@ -1,11 +1,26 @@
+
+\begin{imagefromfile}
+    "file_name": "PeterAczel-Portrait.jpg",
+    "float": "right",
+    "width": 200,
+    "unit": "px",
+    "margin": {
+        "top": -80,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "(picture [by S. Awodey](https://groups.google.com/g/HomotopyTypeTheory/c/8Xi1PWFV7z4/m/P-0bM603DgAJ))"
+\end{imagefromfile}
+
+
 Peter Aczel (1941–2023)
 
 * [webpage](http://www.cs.man.ac.uk/~petera/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Peter_Aczel)
 
-> In 2012 at IAS Peter Aczel initiated a working group on informal rigorous reasoning in [[type theory]], whose activities expanded into the writing of the [[HoTT book]]. Without Peter’s initiative there would be no book, nor the ensuing success of [[homotopy type theory]]. &lbrack;[A Bauer, Aug 2023](https://groups.google.com/g/HomotopyTypeTheory/c/8Xi1PWFV7z4/m/OjGU9A2BDwAJ)&rbrack;
-
+> In [2012 at IAS](https://www.ias.edu/idea-tags/homotopy-type-theory), Peter Aczel initiated a working group on informal rigorous reasoning in [[type theory]], whose activities expanded into the writing of the [[HoTT book]]. Without Peter’s initiative there would be no book, nor the ensuing success of [[homotopy type theory]]. &lbrack;[A Bauer, Aug 2023](https://groups.google.com/g/HomotopyTypeTheory/c/8Xi1PWFV7z4/m/OjGU9A2BDwAJ)&rbrack;
 
 
 ## Selected writings
