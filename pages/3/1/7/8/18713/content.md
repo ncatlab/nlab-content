@@ -28,5 +28,11 @@ On a smooth open/closed [[functorial field theory]] exhibiting the [[string]]'s 
 
 * {#BunkWaldorf21b} [[Severin Bunk]], [[Konrad Waldorf]], *Smooth functorial field theories from B-fields and D-branes*, J. Homot. Rel. Struc. **16** 1 (2021) 75-153 &lbrack;[doi:10.1007/s40062-020-00272-2](https://doi.org/10.1007/s40062-020-00272-2), [arXiv:1911.09990] (https://arxiv.org/abs/arXiv:1911.09990)&rbrack;
 
+On the relation between [[functorial quantum field theory]] (axiomatizing the [[Schrödinger picture]] of [[quantum field theory]]) and [[algebraic quantum field theory]] (axiomatizing the [[Heisenberg picture]]):
+
+* {#BunkMacManusSchenkel23} [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *Lorentzian bordisms in algebraic quantum field theory* &lbrack;[arXiv:2308.01026](https://arxiv.org/abs/2308.01026)&rbrack;
+
+
+
 
 category: people
