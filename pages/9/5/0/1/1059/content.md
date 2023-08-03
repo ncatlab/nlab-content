@@ -37,6 +37,8 @@ If the composition $g\circ f$ is a strict epimorphism then $g$ is a strict epimo
 
 ## References
 
+* Grothendieck, Alexander. [Technique de descente et théorèmes d'existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats](http://www.numdam.org/item/SB_1958-1960__5__299_0), in Séminaire Bourbaki, no. 5 (1960). In particular see Definition 2.2 on page 304.
+
 Textbook accounts:
 
 * [[Ion Bucur]], [[Aristide Deleanu]], _Introduction to the theory of categories and functors_, Wiley, 1968.  
