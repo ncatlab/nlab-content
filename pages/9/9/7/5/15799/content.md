@@ -84,6 +84,11 @@ Formulation of the [[CS/WZW correspondence]] in [[homotopical AQFT]]:
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *The linear CS/WZW bulk/boundary system in AQFT*, Annales Henri Poincaré (2023) &lbrack;[arXiv:2302.06990](https://arxiv.org/abs/2302.06990)&rbrack;
 
 
+On the relation between [[functorial quantum field theory]] (axiomatizing the [[Schrödinger picture]] of [[quantum field theory]]) and [[algebraic quantum field theory]] (axiomatizing the [[Heisenberg picture]]):
+
+* {#BunkMacManusSchenkel23} [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *Lorentzian bordisms in algebraic quantum field theory* &lbrack;[arXiv:2308.01026](https://arxiv.org/abs/2308.01026)&rbrack;
+
+
 
 ## Related entries
 
