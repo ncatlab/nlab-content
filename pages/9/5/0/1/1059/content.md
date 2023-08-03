@@ -37,7 +37,7 @@ If the composition $g\circ f$ is a strict epimorphism then $g$ is a strict epimo
 
 ## References
 
-* Grothendieck, Alexander. [Technique de descente et théorèmes d'existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats](http://www.numdam.org/item/SB_1958-1960__5__299_0), in Séminaire Bourbaki, no. 5 (1960). In particular see Definition 2.2 on page 304.
+* [[Alexander Grothendieck]], Definition 2.2, p. 304 in:  *Technique de descente et théorèmes d'existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats* ([[FGA]]), Séminaire Bourbaki, no. 5 (1960) &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/SB_1958-1960__5__299_0)&rbrack;
 
 Textbook accounts:
 
