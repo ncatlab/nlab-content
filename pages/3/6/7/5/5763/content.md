@@ -1075,8 +1075,7 @@ The application of the [[double negation topology]] to make Bohrification coinci
 
 The generalization of Bohrification from [[quantum mechanics]] to [[quantum field theory]] ([[AQFT]]):
 
-* {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218
-&lbrack;[arXiv:1109.1397](http://arxiv.org/abs/1109.1397)&rbrack;
+* {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_, in: *Proceedings of [QPL 2011](http://qpl.science.ru.nl/)*, [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011) (2012) 211-218 &lbrack;[arXiv:1109.1397](http://arxiv.org/abs/1109.1397),   [doi:10.4204/EPTCS.95.15](https://dx.doi.org/10.4204/EPTCS.95.15)&rbrack;
 
 Review: 
 
