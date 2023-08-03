@@ -1,7 +1,12 @@
 
+Peter Aczel (1941-2023)
+
 * [webpage](http://www.cs.man.ac.uk/~petera/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Peter_Aczel)
+
+> In 2012 at IAS Peter Aczel initiated a working group on informal rigorous reasoning in [[type theory]], whose activities expanded into the writing of the [[HoTT book]]. Without Peter’s initiative there would be no book, nor the ensuing success of [[homotopy type theory]]. &lbrack;[A Bauer, Aug 2023](https://groups.google.com/g/HomotopyTypeTheory/c/8Xi1PWFV7z4/m/OjGU9A2BDwAJ)&rbrack;
+
 
 
 ## Selected writings
@@ -18,8 +23,11 @@ On [[constructive set theory]]:
 * [[Peter Aczel]], *Constructive Set Theory*, 2008 ([pdf](http://www.cs.man.ac.uk/~petera/mathlogaps-slides.pdf))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[taboo]]
 
+* [[homotopy type theory]]
+
 category: people
+
