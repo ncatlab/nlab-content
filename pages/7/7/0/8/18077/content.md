@@ -36,11 +36,15 @@ The requirement that $A$ be an [[h-proposition]] is necessary; the law of double
 
 ## References
 
-* [[eom]] _[Double negation, law of](https://www.encyclopediaofmath.org/index.php/Double_negation,_law_of)_
+* [[eom]], _[Double negation, law of](https://www.encyclopediaofmath.org/index.php/Double_negation,_law_of)_
 
 
 [[!redirects law of double negation]]
 [[!redirects double negation law]]
+[[!redirects principle of double negation]]
+[[!redirects double negation principle]]
+[[!redirects axiom of double negation]]
+[[!redirects double negation axiom]]
 
 [[!redirects choice operator for propositions]]
 [[!redirects choice operator for h-propositions]]
