@@ -44,10 +44,10 @@ Namely a [[geometric model for modal logics|model]] of the modal logic based on 
 * each [[modal operator|modal]] proposition $\Box_i P$ as the $W$-[[dependent type|dependent]] proposition which at $w \in W$ asserts that "$P$ holds at all those $w'$ that are in $i$th relation to $W$", hence "$P$ holds in all worlds $w'$ that $i$ deems to be just as possible as $w$"; formally (eg. [Blackburn & van Benthem (2007) p. 10](#BlackburnVanBenthem07)):
 
 <center>
-<img src="/nlab/files/StandardTranslationKripkeSemantics-230801.jpg" width="740">
+<img src="/nlab/files/StandardTranslationKripkeSemantics-230803.jpg" width="740">
 </center>
 
-> {#SubtypeNotation} (Here we write --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
+> {#SubtypeNotation} (Here we are writing --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
 
 
 **The transparent case of S5 logic.** Specifically, for the case of [[S5 modal logic]] with a single [[comonad|comonadic]] [[modal operator]] $\Box$, a Kripke frame (originally considered in [Kripke 1963](#Kripke63)) is an 
