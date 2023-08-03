@@ -47,7 +47,7 @@ By the [[introduction rule]] of [[propositional truncations]], there exists a fu
 $$\mathrm{isInhab}_{P + \neg P} \circ \mathrm{lem}_P:\mathrm{isProp}(P) \to (P \vee \neg P)$$
 \end{proof}
 
-In all cases, the requirement that $P$ be an [[h-proposition]] is necessary; the law of excluded middle for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the law of excluded middle for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
+In the untruncated case, the requirement that $P$ be an [[h-proposition]] is necessary; the untruncated law of excluded middle for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the untruncated law of excluded middle for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
 
 If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
 
@@ -171,6 +171,36 @@ category: foundational axiom
 [[!redirects the principle of excluded middle]]
 [[!redirects axiom of excluded middle]]
 [[!redirects the axiom of excluded middle]]
+
+[[!redirects truncated excluded middle]]
+[[!redirects truncated law of excluded middle]]
+[[!redirects the truncated law of excluded middle]]
+[[!redirects truncated principle of excluded middle]]
+[[!redirects the truncated principle of excluded middle]]
+[[!redirects truncated axiom of excluded middle]]
+[[!redirects the truncated axiom of excluded middle]]
+
+[[!redirects law of truncated excluded middle]]
+[[!redirects the law of truncated excluded middle]]
+[[!redirects principle of truncated excluded middle]]
+[[!redirects the principle of truncated excluded middle]]
+[[!redirects axiom of truncated excluded middle]]
+[[!redirects the axiom of truncated excluded middle]]
+
+[[!redirects untruncated excluded middle]]
+[[!redirects untruncated law of excluded middle]]
+[[!redirects the untruncated law of excluded middle]]
+[[!redirects untruncated principle of excluded middle]]
+[[!redirects the untruncated principle of excluded middle]]
+[[!redirects untruncated axiom of excluded middle]]
+[[!redirects the untruncated axiom of excluded middle]]
+
+[[!redirects law of untruncated excluded middle]]
+[[!redirects the law of untruncated excluded middle]]
+[[!redirects principle of untruncated excluded middle]]
+[[!redirects the principle of untruncated excluded middle]]
+[[!redirects axiom of untruncated excluded middle]]
+[[!redirects the axiom of untruncated excluded middle]]
 
 [[!redirects sharp excluded middle]]
 [[!redirects sharp law of excluded middle]]
