@@ -214,8 +214,13 @@ Recent account of the principle of locality in AQFT from the point of view of tr
 
 Talk slides include
 
-* Edison Montoya, _Algebraic quantum field theory_ (2009) ([pdf](http://www.matmor.unam.mx/~robert/sem/20091021_Montoya.pdf))
- {#Montoya}
+* {#Montoya} Edison Montoya, _Algebraic quantum field theory_ (2009) ([pdf](http://www.matmor.unam.mx/~robert/sem/20091021_Montoya.pdf))
+ 
+
+More on the role of [[von Neumann algebra factors]] in AQFT
+
+* {#Yngvason} J. Yngvason, *The role of type III factors in quantum field theory* &lbrack;[arXiv:math-ph/0411058](http://arxiv.org/abs/math-ph/0411058)&rbrack;
+
 
 ### Examples
  {#ExamplesReferences}
@@ -336,16 +341,14 @@ Discussion of [[local nets of observables]] in [[AQFT]] as the natural language 
 * [[Thomas Faulkner]], _The holographic map as a conditional expectation_ ([arXiv:2008.04810](https://arxiv.org/abs/2008.04810))
  
 
-### Relation to functorial QFT
 
-A relation to [[FQFT]] is discussed in
 
-* [[Urs Schreiber]], _AQFT from $n$-functorial QFT_ , Comm. Math. Phys., Volume 291, Issue 2, pp.357-401 ([pdf](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf))
+[[!include relation between algebraic and functorial field theory -- references]]
 
-The role of [[von Neumann algebra factor]]s is discussed in
 
-* J. Yngvason, _The role of type III factors in quantum field theory_ ([arXiv:math-ph/0411058](http://arxiv.org/abs/math-ph/0411058))
- {#Yngvason}
+
+
+ 
 
 [[!redirects algebraic quantum field theory]]
 [[!redirects algebraic quantum field theories]]
