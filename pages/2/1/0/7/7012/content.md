@@ -1,6 +1,8 @@
 
 * [webpage](http://www.cs.man.ac.uk/~petera/)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Peter_Aczel)
+
 
 ## Selected writings
 
