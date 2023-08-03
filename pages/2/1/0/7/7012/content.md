@@ -1,5 +1,4 @@
-
-Peter Aczel (1941-2023)
+Peter Aczel (1941–2023)
 
 * [webpage](http://www.cs.man.ac.uk/~petera/)
 
