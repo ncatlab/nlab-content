@@ -15,14 +15,44 @@
 
 ## Definition
 
-Let $A$, $B$, $C$, and $D$ be (usually small) [[categories]], and consider a square of [[functors]]
-$$\array{A & \overset{f}{\to} & B\\
-  ^u\downarrow & \swArrow & \downarrow^v\\
-  C& \underset{g}{\to} & D}$$
-which is inhabited by a [[natural transformation]] (which might be an [[identity]]).  This is said to be an **exact square** if the canonical [[Beck-Chevalley transformation]]
+Let $A$, $B$, $C$, and $D$ be (usually [[small category|small]] [[strict category|strict]]) [[categories]], and consider a square of [[functors]]
+$$
+  \array{
+    A 
+    & 
+      \overset{f}{\longrightarrow} 
+    &
+    B
+    \\
+    \mathllap{^u}
+    \Big\downarrow 
+    & \swArrow & 
+    \Big\downarrow
+    \mathrlap{^v}
+    \\
+    C
+    &\underset{g}{\longrightarrow}& 
+    D
+  }
+$$
+that is filled by a [[natural transformation]] (which might be an [[identity natural transformation|identity]]).  
+
+This is said to be an **exact square** if the canonical [[Beck-Chevalley transformation]]
 $$ u_! f^* \to g^* v_!, $$
-relating functors with values in some other category $M$, is always an isomorphism.  Here $f^*\colon M^B\to M^A$ and $g^*\colon M^D\to M^C$ denote precomposition with $f$ and $g$ respectively, and $u_!\colon M^A\to M^C$ and $v_!\colon M^B\to M^D$ denote pointwise left [[Kan extensions]] along $u$ and $v$.  The Beck-Chevalley transformation is defined to be the composite
-$$ u_! f^* \to u_! f^* v^* v_! \to u_! u^* g^* v_! \to g^* v_!. $$
+relating functors with values in some other category $M$, is always an [[isomorphism]].  
+
+Here $f^*\colon M^B\to M^A$ and $g^*\colon M^D\to M^C$ denote precomposition with $f$ and $g$ respectively, and $u_!\colon M^A\to M^C$ and $v_!\colon M^B\to M^D$ denote pointwise left [[Kan extensions]] along $u$ and $v$.  The Beck-Chevalley transformation is defined to be the composite
+$$ 
+  u_! f^* 
+   \longrightarrow 
+  u_! f^* v^* v_! 
+    \longrightarrow
+  u_! u^* g^* v_! 
+    \longrightarrow
+  g^* v_!
+$$
+of ([[counit of an adjunction|co]])[[unit of an adjunction|unit]] maps.
+
 By the general calculus of [[mates]], this definition is equivalent to requiring that the dual transformation
 $$ v^* g_* \to f_* u^* $$
 is an isomorphism, where $f_*$ and $g_*$ denote pointwise *right* Kan extensions.
