@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Arithmetic gauge theory_ is a theory proposed by [Kim 2018 ](#Kim18) to look at [[Galois representations]] with an action of another group (the [[gauge group]]) as being analogous to [[gauge fields]] in [[gauge theory]]. It is an approach to Diophantine problems such as the effective [[Mordell conjecture]] and is influenced by the theory of the Selmer group and Chabauty's method.
+_Arithmetic gauge theory_ is a theory proposed by [Kim 2018 ](#Kim18) to look at [[Galois representations]] with an action of another group (the [[gauge group]]) as being analogous to [[gauge fields]] in [[gauge theory]]. It is an approach to Diophantine problems such as the effective [[Mordell conjecture]] and is influenced by the theory of the [[Selmer group]] and Chabauty's method.
 
 ## Definitions
 
