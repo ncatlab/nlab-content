@@ -47,7 +47,7 @@ equivalently, that
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\neg \neg A \to A}$$
 
-It then becomes clear that the [[law of double negation]] is simply the choice operator only for [[h-propositions]]. Thus, choice operators could be called the **type-theoretic double negation law** under the [[propositions as types]] interpretation of [[dependent type theory]]. 
+It then becomes clear that the [[law of double negation]] is simply the choice operator only for [[h-propositions]]. Thus, choice operators could be called the **type-theoretic law of double negation** under the [[propositions as types]] interpretation of [[dependent type theory]]. 
 
 One could equivalently define the set-theoretic choice operator using double negations, by one of these inference rules:
 
@@ -121,6 +121,14 @@ category: foundational axiom
 
 [[!redirects typal double negation law]]
 [[!redirects typal law of double negation]]
+[[!redirects typal double negation principle]]
+[[!redirects typal principle of double negation]]
+[[!redirects typal double negation axiom]]
+[[!redirects typal axiom of double negation]]
 
 [[!redirects type-theoretic double negation law]]
 [[!redirects type-theoretic law of double negation]]
+[[!redirects type-theoretic double negation principle]]
+[[!redirects type-theoretic principle of double negation]]
+[[!redirects type-theoretic double negation axiom]]
+[[!redirects type-theoretic axiom of double negation]]
