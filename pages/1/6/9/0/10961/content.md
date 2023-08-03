@@ -135,6 +135,10 @@ The famous assertion (pp. 209) by Bohr that all experiments in quantum mechanics
 
 * {#Bohr49} [[Nils Bohr]], *Discussion with Einstein on Epistemological Problems in Atomic Physics*, in: P. A. Schilpp (ed.), *Albert Einstein, Philosopher-Scientist*, The Library of Living Philosophers **VII** Evanston (1949) 201-241, and *Niels Bohr Collected Works* **7** (1996) 339-381 &lbrack;<a href="https://doi.org/10.1016/S1876-0503(08)70379-7">doi:10.1016/S1876-0503(08)70379-7</a>&rbrack; 
  
+{#PrimasStatementOfCopenhagen} The first systematic statement of what should count as the *Copenhagen interpretation* (broadly attributed to [[Werner Heisenberg]] and [[Nils Bohr]]) may be due to [Primas (1983) p. 99](#Primas83) (reproduced in [Omnès (1994) p. 85](#Omnès94)):
+
+<img src="https://ncatlab.org/nlab/files/Primas-CopenhagenInterpretation.jpg" width="600">
+
 The [[many-worlds interpretation of quantum mechanics]]:
 
 * {#Everett57a} [[Hugh Everett III]], *The Theory of the Universal Wavefunction* PhD thesis, Princeton (1957) &lbrack;[pdf](https://www.pbs.org/wgbh/nova/manyworlds/pdf/dissertation.pdf)&rbrack; reprinted in: [De Witt & Graham 1973](#DeWittGraham73)
@@ -158,11 +162,13 @@ even though often mis-attributed to [[Richard Feynman]]:
 
 * [[Jagdish Mehra]], *The quantum principle: Its interpretation and epistemology*, Dialectica **27** 2 (1973) 75-157 &lbrack;[jstor:42968519](https://www.jstor.org/stable/42968519)&rbrack;
 
+* {#Primas83} [[Hans Primas]], *Pioneer Quantum Mechanics and its Interpretation*, Ch. 3 in: *Chemistry, Quantum Mechanics and Reductionism*, Springer (1983) &lbrack;[doi:10.1007/978-3-642-69365-6](https://doi.org/10.1007/978-3-642-69365-6)&rbrack;
+
 * {#Scheibe73} [[Erhard Scheibe]], *The logical analysis of quantum mechanics*, Pergamon Press (1973)
 
 * [[Eugene P. Wigner]], *Epistemology of Quantum Mechanics*, Part I in: [[Jagdish Mehra]] (ed.), *Philosophical Reflections and Syntheses* Vol B.VI in: *The Collected Works of Eugene Wigner*, Springer (1973) &lbrack;[doi:10.1007/978-3-642-78374-6_5](https://doi.org/10.1007/978-3-642-78374-6_5)&rbrack;
 
-* [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+* {#Omnès94} [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
 * [[Max Tegmark]], *The Interpretation of Quantum Mechanics: Many Worlds or Many Words?*, Fortsch. Phys. **46** (1998) 855-862 &lbrack;[arXiv:quant-ph/9709032](https://arxiv.org/abs/quant-ph/9709032)&rbrack;
 
