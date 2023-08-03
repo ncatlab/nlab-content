@@ -74,7 +74,7 @@ is exact.  Exactness of this square says that for $F\colon B\to M$, the canonica
 A functor $f: A \to B$ is left adjoint to $u: B \to A$ with unit $\eta: 1_A \implies uf$ if and only if the square
 $$\array{A & \overset{id}{\to} & A \\
   ^f\downarrow & ^\eta\swArrow & \downarrow^{id}\\
-  B& \underset{u}{\to} & D}$$
+  B& \underset{u}{\to} & A}$$
 is exact. Dually, $f \dashv u$ with counit $\varepsilon: fu \implies 1_B$ if and only if the square
 $$\array{B & \overset{u}{\to} & A\\
   ^{id}\downarrow & ^\varepsilon \swArrow & \downarrow^f\\
