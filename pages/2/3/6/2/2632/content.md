@@ -403,7 +403,7 @@ Early discussion of [[composite quantum systems]] and their [[quantum entangleme
 ### General
  {#ReferencesGeneral}
 
-Classical textbook account: 
+Classical textbook accounts: 
 
 * {#Mackey63} [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
@@ -412,6 +412,8 @@ Classical textbook account:
 * Eduard Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press (1971) &lbrack;[ISBN: 9780080874081](https://www.elsevier.com/books/quantum-mechanics-in-hilbert-space/prugovecki/978-0-12-566060-0)&rbrack;
 
 * {#Scheibe73} [[Erhard Scheibe]], _The logical analysis of quantum mechanics_, Pergamon Press Oxford (1973)
+
+  > (focus on the [[interpretation of quantum mechanics]])
 
 * {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
 
@@ -423,6 +425,10 @@ Classical textbook account:
 * [[James Glimm]], [[Arthur Jaffe]], *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*, Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
 
   > (focus on the [[path integral]] in [[constructive quantum field theory]])
+
+* [[Hans Primas]], *Chemistry, Quantum Mechanics and Reductionism*, Springer (1983) &lbrack;[doi:10.1007/978-3-642-69365-6](https://doi.org/10.1007/978-3-642-69365-6)&rbrack;
+
+  > (with an eye towards [[quantum chemistry]] and [[interpretation of quantum mechanics]])
   
 * [[Anthony Sudbery]], *Quantum mechanics and the particles of nature: an outline for mathematicians*, Cambridge University Press (1986) &lbrack;[pdf](http://users.uoa.gr/~navidcon/sudbery.pdf), [spire:240835](https://inspirehep.net/literature/240835)&rbrack;
 
