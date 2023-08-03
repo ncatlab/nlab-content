@@ -97,7 +97,35 @@ Non-strict Conduch&#233; functors and [[Street fibrations]] may be equivalently 
 
 [Ayala and Francis](#AyalaFrancis) prove an analogous characterization of exponentiable [[(∞,1)-functors]].  The [[(∞,1)-category theory|(∞,1)-categorical context]] eliminates the "level-shifting" in the characterization via $Prof$ (i.e. the presence of a [[bicategory]] [[Prof]] when discussing only exponentiable 1-functors).  Thus, there is an [[(∞,1)-category]] [[(∞,1)Prof]] such that exponentiable $(\infty,1)$-functors into an $(\infty,1)$-category $B$ correspond to $(\infty,1)$-functors $B\to (\infty,1)Prof$.
 
-As in the 1-categorical case, ordinary $(\infty,1)$-transformations between functors $B\to (\infty,1)Prof$ do not give the correct maps between exponentiable $(\infty,1)$-functors over $B$; we need to instead regard $(\infty,1)Prof$ as a sort of "$(\infty,1)$-double category".  Ayala and Francis consider only the vertically-invertible fragment of this $(\infty,1)$-double category, which can be represented as a functor from an $\infty$-groupoid to an $(\infty,1)$-category (a sort of [[proarrow equipment]] with all 2-cells and all 1-cells in the domain invertible); this is what they call a "flagged" $(\infty,1)$-category and is also what is represented by a non-complete [[Segal space]].  Of course, restricting to the vertically-invertible fragment of $(\infty,1)Prof$ also restricts what it classifies to the $\infty$-groupoid of exponentiable $(\infty,1)$-functors over $B$ rather than the whole $(\infty,1)$-category thereof.
+As in the 1-categorical case, ordinary $(\infty,1)$-transformations between functors $B\to (\infty,1)Prof$ do not give the correct maps between exponentiable $(\infty,1)$-functors over $B$; we need to instead regard $(\infty,1)Prof$ as a sort of "$(\infty,1)$-double category".  Ayala and Francis consider only the vertically-invertible fragment of this $(\infty,1)$-double category, which can be represented as a functor from an $\infty$-groupoid to an $(\infty,1)$-category (a sort of [[proarrow equipment]] with all 2-cells and all 1-cells in the domain invertible); this is what they call a "flagged" $(\infty,1)$-category and is also what is represented by a non-complete [[Segal space]].  Of course, restricting to the vertically-invertible fragment of $(\infty,1)Prof$ also restricts what it classifies to the $\infty$-groupoid of exponentiable $(\infty,1)$-functors over $B$ rather than the whole $(\infty,1)$-category thereof.,
+
+## In a double category - completeness
+Functors satisfying a Conduch&#233;-like condition are central to completeness/cocompleteness in [[pseudo-double categories]]. In short, in 1-category theory, $A$ is complete iff for any small $M$ and locally small $C$, $K: M\to C$ a functor, $T : A\to M$, $T$ has a pointwise right Kan extension along $K$; in pseudo double categories, this is too strong, and we must restrict to double functors $K: M\to C$ satisfying a Conduch&#233; condition.
+
+A pseudo-double category is *unitary* if the vertical identity arrows are strict identities, so $1_A\circ f = f = f\circ 1_B$ on-the-nose. We here assume all double categories are unitary; this is not a severe restriction in practice.
+
+Call a lax functor $F: \mathbb{A}\to\mathbb{B}$ between pseudo-double categories *unitary* if it it preserves identity vertical arrows on-the-nose and the comparison map $1_{FA}\to F(1_A)$ is the identity; therefore it is only really lax from the point of view of composition. A unitary lax functor $1\to\mathbb{A}$ is automatically strict, as $1$ has no nontrivial compositions, whereas a lax functor $1\to\mathbb{A}$ is an object endowed with a vertical monad.
+
+Note that if we are working in a 2-category of lax functors, and we want to define the limit of a functor $F : \mathbb{A}\to\mathbb{B}$ as the right Kan extension of $F$ along $!_{\mathbb{A}}:\mathbb{A}\to 1$, we probably want to consider the initial extension $1\to \mathbb{B}$ along unitary lax functors rather than lax functors, so that our answer is just an object of $\mathbb{B}$ and a cocone rather than a vertical monad in $\mathbb{B}$. Thus we will here consider unitary Kan extensions.
+
+The correct definition of "complete" for a pseudo-double category $\mathbb{A}$ is that it admits pointwise unitary lax right Kan extensions of any lax double functor $S: \mathbb{I}\to\mathbb{A}$ ($\mathbb{I}$ small) along all lax double functor along a lax double functor $R: \mathbb{I}\to\mathbb{J}$, where $R$ satisfies the "right Conduch&#233; condition: that the laxity 2-cell for vertical composition in $R$,
+\begin{centre}
+\begin{tikzcd}
+	{\mathbb{I}_a\times_{\mathbb{I}_o}\mathbb{I}_a} & {\mathbb{J}_a\times_{\mathbb{J}_o}\mathbb{J}_a} \\
+	{\mathbb{I}_a} & {\mathbb{J}_a}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "{\circ_\mathbb{I}}"', from=1-1, to=2-1]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "{\circ_\mathbb{J}}", from=1-2, to=2-2]
+	\arrow["{R\times R}", from=1-1, to=1-2]
+	\arrow["R"', from=2-1, to=2-2]
+	\arrow["\alpha", shorten <=9pt, shorten >=9pt, Rightarrow, from=1, to=0]
+\end{tikzcd}
+\end{centre}
+is [[exact square|exact]].
+Here, $\mathbb{I}_o$ is the category of objects and horizontal morphisms of $\mathbb{I}$, and $\mathbb{I}_a$ is the category of arrows and 2-cells.
+
+The situation for cocompleteness is dual, replacing lax by colax everywhere.
+
+For more on this see [Grandis and Paré](#GrandisParé07), Theorem 5.2.
 
 ## Examples
 
@@ -114,6 +142,8 @@ As in the 1-categorical case, ordinary $(\infty,1)$-transformations between func
 
 * {#Conduche72} [[F. Conduché]], _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs 'image reciproque' dans la cat&#233;gorie des cat&#233;gories_ , C. R. Acad. Sci. Paris **275** S&#233;rie A (1972) pp.891-894. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k56191352/f19.image#))
 
+* {#GrandisParé07} [[Marco Grandis]], [[Robert Paré]] _Lax Kan extensions for double categories (on weak double categories, part IV)_ , Cahiers de topologie et géométrie différentielle catégoriques, tome 48, no 3 (2007), p. 163-199
+
 The definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in
 
 * [[Peter Johnstone]], "Fibrations and partial products in a 2-category", *Appl. Categ. Structures* 1 (1993), 141--179
@@ -127,6 +157,7 @@ Discrete Conduch&#233; functors are considered in
 * {#BN00}[[Marta Bunge|M. Bunge]], [[Susan Niefield|S. Niefield]], _Exponentiability and single universes_ , JPAA **148** (2000) pp.217-250.
 
 * [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
+
 
 An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps into an ∞-category version of [[Prof]], is studied in
 
