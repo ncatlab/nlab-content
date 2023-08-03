@@ -40,10 +40,10 @@ In the [[possible worlds semantics]] for modal logic, S5 corresponds  precisely 
 In mild generalization of the discussion at *[necessity & possibility -- Via dependent types](necessity+and+possibility#InFirstOrderLogicAndTypeTheory)*, we may observe that the [[modal operators]] in S5 Kripke semantics 
 
 <center>
-<img src="/nlab/files/StandardTranslationKripkeSemantics-230801.jpg" width="740">
+<img src="/nlab/files/StandardTranslationKripkeSemantics-230803.jpg" width="740">
 </center>
 
-> {#SubtypeNotation} (Here we write --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
+> {#SubtypeNotation} (Here we are writing --- following notation for *[[subtypes]]* --- $P \,\colon\,W \to Prop$ for a $W$-[[dependent type|dependent]] [[proposition]], equivalently a proposition about the elements of $W$, equivalently the [[subset]] of $W$ where the proposition holds.)
 
 are precisely those arising as [[adjoint pairs]] of ([[comonad|co]])[[monads]] induced on the left from a [[base change]] [[adjoint triple]] (the [[categorical semantics of dependent types|categorical semantics]] in [[Set]] of [[dependent pair type]] $\dashv$ [[context extension]] $\dashv$ [[dependent function type]]-[[type formation|formation]]) along [[display maps]] $W \to \Gamma \equiv W_{/R}$ identified with the [[quotient]] [[coprojection]] of the Kripke frame:
 
@@ -51,7 +51,7 @@ are precisely those arising as [[adjoint pairs]] of ([[comonad|co]])[[monads]] i
 <img src="/nlab/files/S5KripkeSemanticsAsMonadicDescent-230801.jpf" width="600">
 </center>
 
-(Obvious as this may be, the only existing reflection of this fact in the literature may be a side remark in [Awodey 2006, p. 279](#Awodey06), which goes in this direction, albeit not connecting to dependent type formation.)
+(Obvious as this may be, the only existing reflection of this fact in the literature may be a side remark in [Awodey 2006, p. 279](#Awodey06), albeit not relating to dependent type formation.)
 
 \begin{remark}
 This suggests that one may equivalently regard [[dependent type theory]] as a universal form of [[epistemic logic|epistemic]] [[modal type theory]], in generalization of how [[modal logics]] may be viewed as just another perspective on ([[fragments]] of) [[first-order logic]] (as in [Blackburn, van Benthem & Wolter (2007) pp. xiii](modal+logic#BlackburnvanBenthemWolter07)): In both cases one switches perspective from type formation by [[base change]] [[adjoint triples]] (of [[quantification]] or dependent (co)product formation, respectively) to the induced [[adjoint pair]] of ([[comonad|co]])[[monads]]. (Another example of a change in perspective of this form occurs when describing [[descent]] as *[[monadic descent]]*).
