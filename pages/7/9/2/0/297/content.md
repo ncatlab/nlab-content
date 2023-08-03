@@ -2449,17 +2449,16 @@ $$
 
 ## References
 
-### General
 
-* {#Stolz14} [[Stephan Stolz]], _Topology and Field Theories_, Contemporary Mathematics 613, American Mathematical Society 2014 ([ams:conm-613](https://bookstore.ams.org/conm-613))
 
 ### Terminology
 
-The term __functorial quantum field theory__ appears to originate around June 2008 in
+The idea of functorial field theory originates with the unpublished precursor note of [Segal (2004)](#Segal04) and became popular (in the special case of [[topological field theory]]) with [Atiyah (1988)](#Atiyah88).
 
-* [[Urs Schreiber]], _AQFT from $n$-functorial QFT_, [arXiv:0806.1079v1](https://arxiv.org/abs/0806.1079v1).
+The term *functorial quantum field theory* appears to originate around June 2008 with [Schreiber (2009)](#Schreiber09).
 
 At some point later, the adjective “quantum” was dropped because the formalism also encodes classical and prequantum field theories.
+
 
 ### Formalization of sewing and locality in terms of functoriality
 
@@ -2469,7 +2468,7 @@ It was in
 
 that it was realized that 
 
-* this means that this property can be taken as the <em>defining</em> property of the path integral, thereby circumventing the problem of constructing it as an actual integral;
+* this means that this property can be taken as the *defining* property of the path integral, thereby circumventing the problem of constructing it as an actual integral;
 
 * this property can be conveniently axiomatized by saying that the path integral is a [[functor]] from a suitable category whose morphisms are [[cobordism]]s to a category of vector spaces.
 
@@ -2489,6 +2488,11 @@ and a review of much of the existing material in the literature is in
 
 * [[Bruce Bartlett]], _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
 
+See also:
+
+* {#Stolz14} [[Stephan Stolz]], _Topology and Field Theories_, Contemporary Mathematics 613, American Mathematical Society 2014 ([ams:conm-613](https://bookstore.ams.org/conm-613))
+
+
 A survey of some further developments and conjectures (especially as related to the [[AGT correspondence]]) is in 
 
 * {#Tachikawa17} [[Yuji Tachikawa]], _On 'categories' of quantum field theories_ ([arXiv:1712.09456](https://arxiv.org/abs/1712.09456))
@@ -2504,7 +2508,17 @@ A picture-rich discussion is in
 * {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_, Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
 
 
-### Non-topological FQFTs (especially conformal)## 
+
+
+
+[[!include relation between algebraic and functorial field theory -- references]]
+
+
+
+
+
+
+### Non-topological FQFTs (especially conformal)
 
 This mostly concentrates on [[TQFT|topological quantum field theories]], those where the path integral depends only on the diffeomorphism class of the domain it is evaluated on. This is the simplest and by far best understood case. But the idea of functorial FQFT is not restricted to this case.
 
