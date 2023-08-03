@@ -144,8 +144,6 @@ For more see at _[[Bohr topos]]_.
 
 ## Related theorems
 
-* [[beable]]
-
 Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[order-theoretic structure in quantum mechanics]]
@@ -164,6 +162,8 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 
 ## Related concepts
+
+* [[beable]]
 
 * [[Bohr topos]]
 
@@ -219,21 +219,29 @@ The [[sheaf and topos theory|sheaf-theoretic]] interpretation of the theorem was
 
 The formulation in terms of presheaves on the category of commutative sub-algebra of $B(\mathcal{H})$ was proposed in part III of
 
-* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]], John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. 37(11):2669--2733, 1998, [MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557), [doi](http://dx.doi.org/10.1023/A:1026680806775); _II. conceptual aspects and classical analogues_ Int. J. of Theor. Phys. 38(3):827--859, 1999, [MR2000f:81012](http://www.ams.org/mathscinet-getitem?mr=1697983), [doi](http://dx.doi.org/10.1023/A:1026652817988); _III. Von Neumann algebras as the base category_, Int. J. of Theor. Phys. 39(6):1413--1436, 2000, [arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020), [MR2001k:81016](http://www.ams.org/mathscinet-getitem?mr=1788498),[doi](http://dx.doi.org/10.1023/A:1003667607842); _IV. Interval valuations_, Internat. J. Theoret. Phys. __41__ (2002), no. 4, 613&#8211;639, [MR2003g:81009](http://www.ams.org/mathscinet-getitem?mr=1902067), [doi](http://dx.doi.org/10.1023/A:1015276209768)    {#ButterfieldHamiltonIsham}
+* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]], John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, 
+
+  _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. 37(11):2669--2733, 1998, [MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557), [doi](http://dx.doi.org/10.1023/A:1026680806775); 
+
+  _II. conceptual aspects and classical analogues_ Int. J. of Theor. Phys. 38(3):827--859, 1999, [MR2000f:81012](http://www.ams.org/mathscinet-getitem?mr=1697983), [doi](http://dx.doi.org/10.1023/A:1026652817988); 
+
+  _III. Von Neumann algebras as the base category_, Int. J. of Theor. Phys. 39(6):1413--1436, 2000, [arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020), [MR2001k:81016](http://www.ams.org/mathscinet-getitem?mr=1788498),[doi](http://dx.doi.org/10.1023/A:1003667607842); 
+
+  _IV. Interval valuations_, Internat. J. Theoret. Phys. __41__ (2002), no. 4, 613&#8211;639, [MR2003g:81009](http://www.ams.org/mathscinet-getitem?mr=1902067), [doi](http://dx.doi.org/10.1023/A:1015276209768)    
 
 
-The original paper outlining [[Bell's theorem]] is
+The original paper outlining [[Bell's theorem]]:
 
-* J. S. Bell, *On the Einstein Podolsky Rosen Paradox*, Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
+* [[John S. Bell]], *On the Einstein Podolsky Rosen Paradox*, Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
 
 The original paper outlining [[Gleason's theorem]] is
 
 * {#Gleason57} [[Andrew M. Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
   
-A technical discussion on the interplay of Gleason's and Kochen-Specker theorems and various issues regarding non-contextuality, locality and Bell inequality: 
+A technical discussion on the interplay of [[Gleason's theorem|Gleason's]] and Kochen-Specker theorems and various issues regarding non-contextuality, locality and [[Bell's inequality]]: 
 
-* [[Valter Moretti]], Chapter 5 of: *Fundamental Mathematical Structures of Quantum Theory: Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation*
-Springer (2019)
+* [[Valter Moretti]], §5.1.2 of: *Fundamental Mathematical Structures of Quantum Theory: Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation*
+Springer (2019) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack;
 
 The hierarchy of strengths of no-go theorems in quantum context is studied from sheaf theoretic perspective in
 
