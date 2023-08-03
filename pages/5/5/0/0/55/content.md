@@ -180,21 +180,25 @@ Historically important is also the reference
 
 * [[Theodore Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
 
-on [[tangent Lie algebroid]]s. 
+on [[tangent Lie algebroids]]. 
 
 A bijective correspondence between Lie algebroid structures, homological vector fields of degree 1, and odd linear Poisson structures is established in the paper
 
 * [[A. Yu. Vaintrob]], _Lie algebroids and homological vector fields_, Russian Mathematical Surveys 52:2 (1997), 428–429.  [doi](http://dx.doi.org/10.1070/rm1997v052n02abeh001802), [[vaintrob.pdf:file]].
 
 
-Contemporary textbooks include:
+Textbook accounts
 
-* K. C. H. Mackenzie, _General theory of Lie groupoids and Lie algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages 
-([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
+* [[Kirill Mackenzie]], _General theory of Lie groupoids and Lie algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages  ([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
 
-* K. C. H. Mackenzie, _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
+* [[Kirill Mackenzie]], _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
 
 * [[Janez Mrčun]], [[Ieke Moerdijk]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, Cambridge University Press 2003. x+173 pp. ISBN: 0-521-83197-0
+
+Expository review (motivated by [[higher spin gauge theory]]):
+
+* [[Xavier Bekaert]], *Geometric tool kit for higher spin gravity (part II): An introduction to Lie algebroids and their enveloping algebras* &lbrack;[arXiv:2308.00724](https://arxiv.org/abs/2308.00724)&rbrack;
+
 
 For an infinite-dimensional version used in stochastic analysis see
 
