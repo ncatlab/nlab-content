@@ -274,6 +274,21 @@ The concept goes back to:
 
 * {#Ehresmann63} [[Charles Ehresmann]], Déf. 10, p. 389 in: *Catégories structurées*, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Elsevier, 1963 &lbrack;[eudml:81794](https://eudml.org/doc/urn:eudml:doc:81794)&rbrack;
 
+For a comprehensive treatment, it is probably best to consult the series of papers by Grandis and Par&#233;:
+
+* Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/article/CTGDC_1999__40_3_162_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
+
+* Marco Grandis and Robert Par&#233;, [Adjoints for double categories](http://www.numdam.org/article/CTGDC_2004__45_3_193_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **45** (2004), 193--240.
+
+* Marco Grandis and Robert Par&#233;, [Kan extensions in double categories (On weak double categories, Part III)](http://www.tac.mta.ca/tac/volumes/20/8/20-08abs.html), Theory and Applications of Categories, Vol. 20, 2008, No. 8, pp 152-185.
+
+* Marco Grandis and Robert Par&#233;, [Lax Kan extensions for double categories (On weak double categories, Part IV)](http://www.numdam.org/article/CTGDC_2007__48_3_163_0.pdf) Cahiers de topologie et géométrie différentielle catégoriques, tome 48, no 3 (2007), p. 163-199
+
+For basic theory of the (virtual) double category of presheaves on a double category, the Yoneda embedding, and the density theorem
+
+* Robert Par&#233; [Yoneda theory for double categories](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html), Theory and Applications of Categories, Vol. 25, 2011, No. 17, pp 436-489.
+
+* Robert Par&#233; [Composition of Modules for Lax Functors](http://www.tac.mta.ca/tac/volumes/27/16/27-16abs.html), Theory and Applications of Categories, Vol. 27, 2013, No. 16, pp 393-444. 
 
 Textbook accounts:
 
@@ -287,9 +302,6 @@ See also:
 
 * Tom Fiore, [Double categories and pseudo algebras](http://www-personal.umd.umich.edu/~tmfiore/1/CT2006Fioreslides.pdf). 
 
-* Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/article/CTGDC_1999__40_3_162_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
-
-* Marco Grandis and Robert Par&#233;, [Adjoints for double categories](http://www.numdam.org/article/CTGDC_2004__45_3_193_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **45** (2004), 193--240.
 
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
