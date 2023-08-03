@@ -89,7 +89,7 @@ Exact squares can be characterized in several ways, which generalize in differen
 
 Recall that for any functor $u\colon A\to C$, the left Kan extension $u_!$ can be computed as the colimit weighted by the corepresentable profunctor $C(u,1)$, while restriction $u^*$ along $u$ is the colimit weighted by the representable profunctor $C(1,u)$.  Moreover, given composable profunctors $H$ and $K$, an $H K$-weighted colimit is the same as a $K$-weighted colimit of an $H$-weighted colimit.  Therefore, $u_! f^*$ can be computed as a $C(u,1) \circ B(1,f)$-weighted colimit, while $g^* v_!$ can be computed as a $D(1,g) \circ D(v,1)$-weighted colimit.  Note that $D(1,g) \circ D(v,1) \cong D(v,g)$ by [[Yoneda reduction]].  Thus sufficient condition for a square as above to be exact is that the canonical induced transformation of profunctors
 $$ C(u,1) \circ B(1,f) \to D(v,g) $$
-is an isomorphism.  Moreover, by considering colimits of the Yoneda embedding $B\to [B^{op},Set]$ it is easy to see that this condition is necessary as well.  Unraveling it, we see that it says that for all objects $b\in B$ and $c\in C$, the function
+is an isomorphism. If the categories are large, $C(u,1)\circ B(1,f)$ may not exist *a priori*, but there is still a 2-cell in the virtual equipment of functors and profunctors, and we ask that this cell $C(u,1), B(1,f)\to D(v,g)$ realizes the composition of $C(u,1)\circ B(1,f)$ as $D(v,g)$. Moreover, by considering colimits of the Yoneda embedding $B\to [B^{op},Set]$ it is easy to see that this condition is necessary as well.  Unraveling it, we see that it says that for all objects $b\in B$ and $c\in C$, the function
 $$ \int^{a\in A} C(u(a),c) \times B(b,f(a)) \to D(v(b), g(c)) $$
 is an isomorphism.
 
