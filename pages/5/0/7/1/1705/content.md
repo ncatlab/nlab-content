@@ -305,7 +305,7 @@ The first condition is immediate from the first assumption. The second follows w
 +-- {: .num_prop}
 ###### Proposition
 
-Let $C$ be a [[simplicial model category]]. Write $C^\circ$ for the full $Set$-subcategory on the fibrant and cofibrant objects. 
+Let $C$ be a [[simplicial model category]]. Write $C^\circ$ for the full $sSet$-subcategory on the fibrant and cofibrant objects. 
 
 Then $C^\circ$ and $L^H C$ are connected by an [[equivalence of (∞,1)-categories]].
 
