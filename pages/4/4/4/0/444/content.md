@@ -1102,13 +1102,16 @@ For [[strict omega-categories]]:
 
 * [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra 49 (1987) 283-335; MR89a:18019 ([pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>).
 
-For [[2-categories]]:
+For [[2-categories]] and [[bicategories]]:
 
-* [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_ ([arxiv:1211.6603](http://arxiv.org/abs/1211.6603))
+* {#BullejosCegarra03} [[Manuel Bullejos]], [[Antonio M. Cegarra]],  *On the geometry of 2-categories and their classifying spaces*, K-Theory **29** 3 (2003) 211-229  &lbrack;[doi:10.1023/B:KTHE.0000006921.50151.00](http://dx.doi.org/10.1023/B:KTHE.0000006921.50151.00), [pdf](http://www.ugr.es/\%7Ebullejos/geometryampl.pdf)&rbrack;
 
-For [[bicategories]]:
 
-* [[Stephen Lack]] and [[Simona Paoli]], _2-nerves for bicategories_, K-Theory, **38**, 2008. ([arXiv:math/0607271](https://arxiv.org/abs/math/0607271), [doi:10.1007/s10977-007-9013-2](http://dx.doi.org/10.1007/s10977-007-9013-2))
+* [[Stephen Lack]], [[Simona Paoli]], _2-nerves for bicategories_, K-Theory  **38** (2008) &lbrack;[arXiv:math/0607271](https://arxiv.org/abs/math/0607271), [doi:10.1007/s10977-007-9013-2](http://dx.doi.org/10.1007/s10977-007-9013-2)&rbrack;
+
+* [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_ &lbrack;[arxiv:1211.6603v3](https://arxiv.org/abs/1211.6603v3)&rbrack;
+
+
 
 For [[3-categories]]:
 
