@@ -19,10 +19,12 @@ On [[topological data analysis]]:
 
 * Jens Agerberg, [[Wojciech Chacholski]], Ryan Ramanujam, *Data, geometry and homology* $[$[arXiv:2203.08306](https://arxiv.org/abs/2203.08306)$]$
 
+On [[persistent homology]]:
+
+* [[Wojciech Chachólski]], Alessandro De Gregorio, Nicola Quercioli, Francesca Tombari: *Symmetries of data sets and functoriality of persistent homology*, Theory and Applications of Categories **39** 23 (2023) 667-686 &lbrack;[tac:39/23](http://www.tac.mta.ca/tac/volumes/39/23/39-23abs.html)&rbrack;
 
 
-
-## Related nLab entries
+## Related entries
 
 * [[homotopy theory]]
 
