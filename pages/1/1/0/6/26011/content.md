@@ -1,3 +1,5 @@
+\tableofcontents
+
 ## Idea
 
 The Selmer group is a subgroup of the [[Galois cohomology]] satisfying certain local conditions.
