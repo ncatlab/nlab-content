@@ -54,7 +54,10 @@ See also:
 
 Textbook accounts:
 
-* {#EdelsbrunnerHarer10} [[Herbert Edelsbrunner]], [[John L. Harer]], *[[Computational Topology, An Introduction]]*, American Mathematical Society, 2010 ([ISBN:978-0-8218-4925-5](http://www.ams.org/bookstore-getitem/item=MBK-69), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf))
+* {#EdelsbrunnerHarer10} [[Herbert Edelsbrunner]], [[John L. Harer]], *[[Computational Topology, An Introduction]]*, American Mathematical Society (2010) &lbrack;[ISBN:978-0-8218-4925-5](http://www.ams.org/bookstore-getitem/item=MBK-69), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf)&rbrack;
+
+* [[Graham Ellis]], *An Invitation to Computational Homotopy*, Oxford University Press (2019) &lbrack;[ISBN:9780198832973](https://global.oup.com/academic/product/an-invitation-to-computational-homotopy-9780198832973?cc=de&lang=en&), [MAA review](https://www.maa.org/press/maa-reviews/an-invitation-to-computational-homotopy)&rbrack;
+
 
 
 See also:
