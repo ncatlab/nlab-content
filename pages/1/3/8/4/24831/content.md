@@ -41,12 +41,14 @@ Regarding the [[modality|modal]] nature of [[quantum states]] in [[quantum physi
 
 ## References
 
-Aristotle's discussion of potentiality and actuality permeates his text *Physics*:
+[[Aristotle]]'s discussion of potentiality and actuality permeates his text *Physics*:
 
 * {#Aristotle} [[Aristotle]], *Physics*, in: Jonathan Barnes (ed.), *The Complete Works of Aristotle* Vol 1 (1984) &lbrack;[pdf](https://sites.unimi.it/zucchi/NuoviFile/Barnes%20%20-%20Physics.pdf), [ISBN:9780691016504](https://press.princeton.edu/books/hardcover/9780691016504/complete-works-of-aristotle-volume-1)&rbrack;
 
+* {#FerroniGili16} Lorenzo Ferroni, Luca Gili, *Non-existent but potentially actual. Aristotle on plenitude (Met. Θ 3-4, 1047b1-6)*,  Revue de philologie, de littérature et d'histoire anciennes, Tome XC (2016) 81-114 &lbrack;[doi:10.3917/phil.901.0081](https://www.cairn.info/revue-de-philologie-litterature-et-histoire-anciennes-2016-1-page-81.htm)&rbrack;
 
-See also
+
+See also:
 
 * Stanford Encyclopedia of Philosophy, *[Aristotle's Metaphysics: Actuality and Potentiality](https://plato.stanford.edu/entries/aristotle-metaphysics/#ActuPote)*
 
