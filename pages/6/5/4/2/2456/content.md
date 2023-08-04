@@ -84,6 +84,7 @@ On the other hand, a type-theoretic global choice operator is inconsistent with 
 * [[split support]]
 * [[law of double negation]]
 * [[propositions as types]]
+* [[axiom of choice]]
 
 ## Readings
 
