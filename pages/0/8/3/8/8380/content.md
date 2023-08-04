@@ -566,8 +566,14 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 * The *[[selection monad]]* encodes selecting a value of a type depending on the values of some function on it.
 
 #### State monad and Random access memory
+ {#StateMonad}
 
-A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
+A [[functional program]] with input of [[type]] $D$, output of [[type]] $D'$ and mutable state $W$ is a [[function]] ([[morphism]]) of [[type]] $D \times W \longrightarrow D' \times W$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $D \longrightarrow [W, W \times D' ]$. Here the operation $[W, W\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[W, W\times (-)]$ is called the _[[state monad]]_ for mutable states of type $W$:
+
+<center>
+<img src="/nlab/files/State-Effectful-Program-230804.jpg" width="600">
+</center>
+
 
 
 #### Maybe monad and Controlled failure
