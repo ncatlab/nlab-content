@@ -50,3 +50,6 @@ Picard groupoids are well-known to model stable homotopy 1-types, at least if on
 * [[2-group]]
 
 [[!redirects Picard groupoids]]
+
+[[!redirects Picard groupoid]]
+[[!redirects Picard groupoids]]
