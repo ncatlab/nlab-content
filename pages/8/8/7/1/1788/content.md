@@ -1,4 +1,35 @@
 
+$$
+  \underset{
+    \color{blue}\text{given a potential thing}
+  }{
+  (D_\bullet, \rho_\bullet)
+  \,\in\, 
+  Type_W^{\lozenge_W}
+  }
+  \;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;
+  \underset{
+   \color{blue} \text{which is possible}
+  }{
+    \lozenge_W D_\bullet 
+  }
+  \underset{
+   \color{blue}\text{then}
+  }{
+    \phantom{\vert}
+    \xrightarrow{\;\; \rho \;\;} 
+    \phantom{\vert}
+  }
+  \underset{
+   \color{blue}\text{it is actual}
+  }{
+    D_\bullet
+  }
+$$
+
+
 $X \to Prop$
 
 $$
