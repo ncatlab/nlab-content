@@ -7,7 +7,7 @@ Antonio Mart&#237;nez Cegarra is a Spanish mathematician, who is in the [Departa
 * [[Moore complex]]
 
 
-##References
+## Selected writings
 
 On [[n-groups]] and [[homotopy types]]:
 
@@ -18,6 +18,10 @@ On [[n-groups]] and [[homotopy types]]:
 On [[non-abelian cohomology]] with [[coefficients]] in [[braided 2-groups]] and [[symmetric 2-groups]]:
 
 * [[Manuel Bullejos]], [[Pilar Carrasco]], [[Antonio M. Cegarra]], *Cohomology with coefficients in symmetric cat-groups. An extension of Eilenberg–MacLane's classification theorem*, Mathematical Proceedings of the Cambridge Philosophical Society , Volume 114 , Issue 1 , July 1993 , pp. 163 - 189 ([doi:10.1017/S0305004100071498](https://doi.org/10.1017/S0305004100071498))
+
+On "classifying spaces" (ie: [[topological realization]] of [[simplicial nerves]]) of [[2-categories]]:
+
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]],  *On the geometry of 2-categories and their classifying spaces*, K-Theory **29** 3 (2003) 211-229  &lbrack;[doi:10.1023/B:KTHE.0000006921.50151.00](http://dx.doi.org/10.1023/B:KTHE.0000006921.50151.00), [pdf](http://www.ugr.es/\%7Ebullejos/geometryampl.pdf)&rbrack;
 
 
 
