@@ -53,7 +53,11 @@ $$
 
 Here the operation $[W, W\times (-)]$ is the [[monad]] on the type system which is induced by the above [[adjunction]]; and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. 
 
-In the context of [[monad (in computer science)|monads in computer science]], this monad $[W, W\times (-)] \colon \mathbf{H} \to \mathbf{H}$ is called the _state monad_ for mutable states of type $W$.
+{#RAM} In the context of [[monad (in computer science)|monads in computer science]], this is called the _state monad_ for mutable states of type $W$, such as for a data type $W$ of  Random-Access-Memory:
+
+<center>
+<img src="/nlab/files/State-Effectful-Program-230804.jpg" width="600">
+</center>
 
 ## Properties
 
