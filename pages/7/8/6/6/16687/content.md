@@ -10,7 +10,7 @@ For more on Ho&#224;ng Xu&#226;n S&#237;nh see:
 
 Early discussion of [[2-groups]]:
 
-* Hoàng Xuân Sính, _Gr-cat&#233;gories_, Ph.D. thesis (1973) &lbrack;[web](http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html)&rbrack;
+* {#Sinh73} Hoàng Xuân Sính, _Gr_-catégories, PhD thesis, Hanoi (1973, 1975) &lbrack;[web](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/sinh.html), [pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/sinh_I.pdf), [[Sinh_Gr-Categories.pdf:file]]&rbrack;
 
 The version linked to above is a handwritten draft copy, with some annotations by someone (perhaps [[Grothendieck]]). A typed version does exist which does not contain the preliminary material in the first file. The date of the official thesis defense was 22 May 1975, with [[Jean-Louis Verdier]], [[Henri Cartan]], [[Laurent Schwartz]] and [[Michel Zisman]] as well as [[Alexander Grothendieck]] as the 'jury'. It was a 'doctorat d'&#233;tat'. The link to her thesis contains other material, including a collection of remarks by Grothendieck on her work as well as two papers by S&#237;nh related to the subject of her thesis:
 
