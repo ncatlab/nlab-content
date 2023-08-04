@@ -293,7 +293,7 @@ More general states in this case are given by [[density matrices]].
 \linebreak
   Let $G$ be a [[discrete group]] and $\mathbb{C}[G]$ its [[group algebra]] regarded as a complex [[star-algebra]] under the combined operation of [[inverse element|inversion]] of group elements and [[complex conjugation]] of the [[coefficients]].
 
-Then each state $\rho \,\colon\,\mathbb{C}[G] \longrightarrow \mathbb{C}$ arises from a [[unitary representation]] $\widehat{(\text{-})} \,\colon\, \longrightarrow U(\mathscr{H})$ on a [[Hilbert space]] $(\mathscr{H}, \langle -\vert-\rangle)$ with a [[cyclic vector]] $\psi \in \mathscr{H}$ as
+Then each state $\rho \,\colon\,\mathbb{C}[G] \longrightarrow \mathbb{C}$ (Def. \ref{StateOnAStarAlgebra}) arises from a [[unitary representation]] $\widehat{(\text{-})} \,\colon\, \longrightarrow U(\mathscr{H})$ on a [[Hilbert space]] $(\mathscr{H}, \langle -\vert-\rangle)$ with a [[cyclic vector]] $\psi \in \mathscr{H}$ as
 $$
   \rho(g)
   \;=\;
@@ -305,7 +305,7 @@ $$
   \,.
 $$
 
-The statement generalizes to [[topological groups]] in a suitable way.
+(With suitable adjustments, this statement generalizes from discrete to [[topological groups]].)
 \end{example} 
 
 This is due to [Gelfand & Raikov (1943) (2)](#GelfandRaikov43), [Naimark (1956) §30 Thm. 1](#Naimark56) (reviewed at [eom](https://encyclopediaofmath.org/wiki/Positive-definite_function)) further generalization in [Saworotnow (1970)](#Saworotnow70), [(1972)](Saworotnow72), textbook account in [Dixmier (1977) Thm. 13.4.5 (ii)](#Dixmier77).
