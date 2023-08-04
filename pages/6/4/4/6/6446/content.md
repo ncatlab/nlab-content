@@ -15,7 +15,7 @@
 
 ## Definition 
 
-Let $(R, \lt)$ be a [[linear order]]. An order-minimal or **o-minimal structure** on $R$ is a [[structure (model theory)|structure]] $\mathcal{S}$ on $R$ such that 
+Let $(R, \lt)$ be a [[dense linear order|dense]] [[linear order]] without [[bounded order|endpoints]]. An order-minimal or **o-minimal structure** on $R$ is a [[structure (model theory)|structure]] $\mathcal{S}$ on $R$ such that 
 
 * The relation $\lt$ belongs to $\mathcal{S}_2$; 
 
