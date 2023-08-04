@@ -201,6 +201,7 @@ See also
 
 * {#BerkoukGinotOudot19} [[Nicolas Berkouk]], [[Grégory Ginot]], [[Steve Oudot]], *Level-sets persistence and sheaf theory* $[$[arXiv:1907.09759](https://arxiv.org/abs/1907.09759)$]$
 
+* [[Wojciech Chachólski]], Alessandro De Gregorio, Nicola Quercioli, Francesca Tombari: *Symmetries of data sets and functoriality of persistent homology*, Theory and Applications of Categories **39** 23 (2023) 667-686 &lbrack;[tac:39/23](http://www.tac.mta.ca/tac/volumes/39/23/39-23abs.html)&rbrack;
 
 
 The following paper uses persistent homology to single out features relevant for training [[neural networks]]:
