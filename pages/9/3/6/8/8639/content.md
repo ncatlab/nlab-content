@@ -8,9 +8,9 @@ On [[n-groups]]:
 
 * [[Manuel Bullejos]], [[Antonio M. Cegarra]] and [[Jack Duskin]], On cat$^n$ -groups and homotopy types , J. Pure  Appl. Alg., 86, (1993), 135--154.
 
-On classifying spaces of 2-categories:
+On "classifying spaces" (ie: [[topological realization]] of [[simplicial nerves]]) of [[2-categories]]:
 
-* [[Manuel Bullejos]] and [[Antonio M. Cegarra]],  On the geometry of 2-categories and their classifying spaces, K-Theory, 29 (2003), 211--229.   ([pdf](http://www.ugr.es/\%7Ebullejos/geometryampl.pdf))
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]],  *On the geometry of 2-categories and their classifying spaces*, K-Theory **29** 3 (2003) 211-229  &lbrack;[doi:10.1023/B:KTHE.0000006921.50151.00](http://dx.doi.org/10.1023/B:KTHE.0000006921.50151.00), [pdf](http://www.ugr.es/\%7Ebullejos/geometryampl.pdf)&rbrack;
 
 On [[non-abelian cohomology]] with [[coefficients]] in [[braided 2-groups]] and [[symmetric 2-groups]]:
 
