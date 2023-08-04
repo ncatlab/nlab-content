@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc} 
@@ -368,46 +367,63 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 ## References 
  {#References}
 
-### General
+### Original articles
+ {#OriginalArticles}
 
-2-groups were introduced, under the name _Gr-categories_, in 
+The notion of 2-groups first appears in
 
-* {#Sinh73} [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973) &lbrack;[web] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html)&rbrack;
+* {#Solian72} [[Alexandru Solian]], *Groupe dans une catégorie*, C. R. Acad. Sc. Paris **275** (1972) &lbrack;[ark:/12148/bpt6k57310477/f7](https://gallica.bnf.fr/ark:/12148/bpt6k57310477/f7.item)&rbrack;
 
-supervised by [[Alexander Grothendieck]].  She showed that 2-groups are classified, up to equivalence, by quadruples consisting of:
+* {#Solian80} [[Alexandru Solian]], *Coherence in categorical groups*,  Communications in Algebra **9** 10 (1980) 1039-1057 &lbrack;[doi:10.1080/00927878108822631](https://doi.org/10.1080/00927878108822631)&rbrack;
+ 
+and in
+
+* {#Sinh73} [[Hoàng Xuân Sính]], _Gr_-catégories, PhD thesis, Hanoi (1973, 1975) &lbrack;[web](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/sinh.html), [pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/sinh_I.pdf), [[Sinh_Gr-Categories.pdf:file]]&rbrack;
+
+[Sinh (1973)](#Sinh73) was supervised by [[Alexander Grothendieck]] and showed that 2-groups are classified, up to equivalence, by quadruples consisting of:
 
 * a group $G$
 * an abelian group $A$
 * an action of $G$ as automorphisms of $A$
 * an element of $H^3(G,A)$, often called the *Sinh invariant*.
 
-She later published two papers on 2-groups:
+She later published two papers on the subject:
 
-* [[Hoàng Xuân Sính]],  Gr-cat&eacute;gories strictes, *Acta Mathematica Vietnamica* **3** 2 (1978) 47-59 &lbrack;[pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Gr_categories_strictes.pdf)&rbrack;
+* {#Sinh78} [[Hoàng Xuân Sính]],  *Gr-catégories strictes*, Acta Mathematica Vietnamica **3** 2 (1978) 47-59 &lbrack;[web](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/sinh.html), [pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Gr_categories_strictes.pdf)&rbrack;
 
-* [[Hoàng Xuân Sính]], Cat&eacute;gories de Picard restreintes, *Acta Mathematica Vietnamica* **7** 1 (1983), 117-122 &lbrack;[pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Categories_de_Picard_restreintes.pdf)&rbrack;
+* {#Sinh83} [[Hoàng Xuân Sính]], *Catégories de Picard restreintes*, Acta Mathematica Vietnamica **7** 1 (1983) 117-122 &lbrack;[pdf](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/Hoang_Xuan_Sinh_Categories_de_Picard_restreintes.pdf), [web](https://pnp.mathematik.uni-stuttgart.de/lexmath/kuenzer/sinh.html)&rbrack;
 
-The first appears to prove that every 2-group is equivalent to a strict 2-group arising from a crossed module.  The second calls a symmetric 2-group (i.e. a symmetric monoidal category with all objects and morphisms invertible) a *Picard category*, and calls a Picard category *restrained* if the [[braiding]] $B_{x,x} \colon x \otimes x \to x \otimes x$ is the identity for all objects $x$.  It then proves that every Picard category is equivalent to one arising from a 2-term chain complex of abelian groups.
+[Sinh 1978](Sinh78) appears to prove that every 2-group is equivalent to a [[strict 2-group]] arising from a [[crossed module]].  The second calls a [[symmetric 2-group]] (i.e. a [[symmetric monoidal category]] with all objects and morphisms invertible) a *[[Picard category]]*, and calls a Picard category *restrained* if the [[braiding]] $B_{x,x} \colon x \otimes x \to x \otimes x$ is the [[identity morphism|identity]] for all objects $x$. The article then proves that every Picard category is equivalent to one arising from a 2-term [[chain complex]] of abelian groups.
 
-An early textbook account on strict 2-groups explaining the relation to [[crossed modules]]:
+Computational enumeration of geometrically [[discrete group|discrete]] 2-groups using the computer program [XMod](http://pages.bangor.ac.uk/~mas023/chda/xmod/xmod244.html):
+
+* Murat Alp, Christopher Wensley, _Enumeration of $Cat^1$-groups of low order_,  Int. J. Algebra Comput. 10, 407 (2000) &lbrack;[doi:10.1142/S0218196700000170](http://www.worldscientific.com/doi/abs/10.1142/S0218196700000170)&rbrack;
+
+* [[Graham Ellis]], Luyen Van Le, *Homotopy 2-types of Low order*, Experimental Mathematics **23** 4 (2014)  &lbrack;[doi:10.1080/10586458.2014.912059](https://doi.org/10.1080/10586458.2014.912059), [pdf](http://hamilton.nuigalway.ie/preprints/2t.pdf)&rbrack;
+
+
+### Review
+
+An early textbook account on [[strict 2-groups]] and explaining the relation to [[crossed modules]]:
 
 * [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-An exposition and discussion of 2-groups as [[monoidal categories]] with all objects and morphisms invertible (sometimes called [[Picard 2-groups]]):
+Exposition of general 2-groups as [[monoidal categories]] with all objects and morphisms invertible (sometimes called [[Picard 2-groups]]):
 
 *  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories **12** (2004) 423-491 &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200), [tac:12-14](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html)&rbrack;
 
-Computational enumeration of geometrically [[discrete group|discrete]] 2-groups using the computer program [XMod](http://pages.bangor.ac.uk/~mas023/chda/xmod/xmod244.html) is reported on in
 
-* Murat Alp, Christopher Wensley, _Enumeration of $Cat^1$-groups of low order_,  Int. J. Algebra Comput. 10, 407 (2000) ([publisher](http://www.worldscientific.com/doi/abs/10.1142/S0218196700000170))
-
-* Graham Ellis, Le van Luyen, _Homotopy 2-types of Low order_ ([pdf](http://hamilton.nuigalway.ie/preprints/2t.pdf))
+### Geometric 2-groups
 
 Beware that most of the above discussion is about [[discrete infinity-group|geometrically discrete]] 2-groups.
 
-Discussion of structured 2-groups (notably [[smooth 2-groups]]) is in: 
+Discussion of geometrically structured 2-groups (notably [[smooth 2-groups]], hence "Lie 2-groups"):
 
-* [[Urs Schreiber]], Sections 2.6.5 and 3.4.2 of: _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#Schommer-Pries11} [[Chris Schommer-Pries]], *Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group* Geometry & Topology **15** (2011) 609-676 &lbrack;[arXiv:0911.2483](http://arxiv.org/abs/0911.2483), [doi:10.2140/gt.2011.15.609](https://doi.org/10.2140/gt.2011.15.609)&rbrack;
+
+and via [[group stacks]]:
+
+* [[Urs Schreiber]], §2.6.5 & §3.4.2 of: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
 For more on this see the references at *[[string 2-group]]*.
 
