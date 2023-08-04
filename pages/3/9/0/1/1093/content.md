@@ -80,7 +80,7 @@ Details on the first statement are at [[sheafification]]. A full proof for the s
 The category of sheaves is equivalent to the [[homotopy category]] of the [[category with weak equivalences]] $PSh(C)$ with the weak equivalences given by $W = $[[local isomorphisms]]
 
 $$
-  Sh(S) \simeq Ho_{PSh(S)} = PSh(C)[local isomorphisms]^{-1}
+  Sh(S) \simeq Ho_{PSh(S)} = PSh(C)[\text{local isomorphisms}]^{-1}
   \,.
 $$
 
