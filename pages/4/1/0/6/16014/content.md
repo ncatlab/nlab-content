@@ -245,24 +245,18 @@ that the types $P \,\in\, Type$ are equivalently
      \Box_B P_\bullet
    $
 
-In words this says that for such potential propositions the standard implications 
+{#PotentialDataAsPossibilityModalData} Hence:
 
-$$
-  necessarily  P_\bullet
-  \;\Rightarrow\;
-  actually P_\bullet 
-  \;\Rightarrow\;
-  possibly P_\bullet
-$$
+<center>
+<img src="https://ncatlab.org/nlab/files/PotentialDataAsPossibilityModalData-230804.jpg" width="780">
+</center>
 
-may be reversed. And indeed, if a kind of proposition holds as soon as it *possibly* holds, then it makes sense to say that it holds potentially.
-
-
+\linebreak
 
 ### Relative version
   {#ViaBaseChangeRelatively}
 
-With this axiomatization via [[base change]], it is immediate to consider the relative case where instead of [[base change]] to a [[unit type]] $W \to \ast$ one considers [[base change]] 
+With this axiomatization via [[base change]], it is immediate to consider the more general relative case where instead of [[base change]] to a [[unit type]] $W \to \ast$ one considers [[base change]] 
 
 $$
   (\exists_\omega \dashv \omega^\ast \dashv \forall_\omega)
@@ -279,7 +273,7 @@ $$
   \omega \colon W \longrightarrow W_0
 $$
 
-and set
+and sets
 
 $$
   (\underset{\omega}{\lozenge} \dashv \underset{\omega}{\Box})
@@ -300,11 +294,15 @@ $$
   \,.
 $$
 
-If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it exibits an [[equivalence relation]] on $W$, where $w_1\sim w_2$ is given by $\omega(w_1) = \omega(w_2)$. In traditional [[possible worlds semantics]] such equivalence relation is called an "accessibility relation between possible worlds". Now 
+If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it exibits an [[equivalence relation]] on $W$, where $w_1\sim w_2$ is given by $\omega(w_1) = \omega(w_2)$. In traditional [[possible worlds semantics]] such equivalence relation in a [[Kripke frame]] is called an "accessibility relation between possible worlds" for the case of [[S5 modal logic]]. Now 
 
 *  $\underset{\omega}{\lozenge} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at at least one $\tilde w$ in the same equivalence class of $w$;
 
 *  $\underset{\omega}{\Box} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at all $\tilde w$ in the same equivalence classes of $w$.
+
+For more on this see at *[[S5 modal logic]]* -- *[via dependent types](S5+modal+logic#ViaDependentTypeTheory)*.
+
+\linebreak
 
 ### Examples
  {#Examples}
