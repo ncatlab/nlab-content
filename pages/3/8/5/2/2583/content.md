@@ -547,7 +547,7 @@ A realization of the string 2-group in [[strict 2-group]]s internal to [[Frechet
 
 A realization of the string 2-group as a [[2-group]] in finite-dimensional [[smooth manifold]]s in in
 
-* {#Schommer-Pries} [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+* {#Schommer-Pries11} [[Chris Schommer-Pries]], *Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group* Geometry & Topology **15** (2011) 609-676 &lbrack;[arXiv:0911.2483](http://arxiv.org/abs/0911.2483), [doi:10.2140/gt.2011.15.609](https://doi.org/10.2140/gt.2011.15.609)&rbrack;
 
 
 A discussion as an [[∞-group]] object in [[Smooth∞Grpd]] and the realization of the smooth first fractional Pontryagin class is in
