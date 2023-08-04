@@ -33,7 +33,7 @@
 
 Regarding the [[modality|modal]] nature of [[quantum states]] in [[quantum physics]]:
 
-> In throwing dice we do not know the fine details of the motion of our hands which determine the fall of the dice and therefore we say that the probability for throwing a special number is just one in six. The probability wave of Bohr, Kramers, Slater, however, meant more that; it meant a tendency for something. It was a quantitative version of the old concept of "**potentia**" in Aristotelian philosophy. It introduced something standing in the middle between the idea of an event and the **actual** event, a strange kind of physical reality just in the middle between possibility and reality. &lbrack;[Heisenberg (1958)](#Heisenberg1958), our emphasis&rbrack;
+> In throwing dice we do not know the fine details of the motion of our hands which determine the fall of the dice and therefore we say that the probability for throwing a special number is just one in six. The probability wave of Bohr, Kramers, Slater, however, meant more than that; it meant a tendency for something. It was a quantitative version of the old concept of "**potentia**" in Aristotelian philosophy. It introduced something standing in the middle between the idea of an event and the **actual** event, a strange kind of physical reality just in the middle between possibility and reality. &lbrack;[Heisenberg (1958)](#Heisenberg1958), our emphasis&rbrack;
 
 ## Related entries
 
@@ -57,7 +57,7 @@ See also:
 
 With respect to [[quantum states]] in [[quantum physics]]:
 
-* {#Heisenberg1958} [[Werner Heisenberg]], *Physics and Philosophy -- The Revolution in Modern Science*, Harper & Brothers (1958) &lbrack;[archive](https://archive.org/details/physics-and-philosophy-the-revolution-in-modern-scirnce-werner-heisenberg-f.-s.-c.-northrop)&rbrack;
+* {#Heisenberg1958} [[Werner Heisenberg]], *Physics and Philosophy -- The Revolution in Modern Science*, Harper & Brothers (1958) &lbrack;[ark:13960/t3c050g7k](https://archive.org/details/physics-and-philosophy-the-revolution-in-modern-scirnce-werner-heisenberg-f.-s.-c.-northrop)&rbrack;
 
 further discussed in:
 
