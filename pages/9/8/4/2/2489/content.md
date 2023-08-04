@@ -121,3 +121,8 @@ The [[crossed modules]] (in groups or Lie groups) and the differential crossed m
 [[!redirects differential crossed modules]]
 [[!redirects crossed module in Lie algebras]]
 [[!redirects Lie algebra crossed module]]
+
+[[!redirects Lie crossed module]]
+[[!redirects Lie crossed modules]]
+
+
