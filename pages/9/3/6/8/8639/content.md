@@ -6,7 +6,11 @@ Manuel Bullejos is a Spanish mathematician based in the [Departamento de &#193;l
 
 On [[n-groups]]:
 
-* [[M. Bullejos]], [[A. M. Cegarra]] and [[J. Duskin]], On cat$^n$ -groups and homotopy types , J. Pure  Appl. Alg., 86, (1993), 135 &#8211; 154.
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]] and [[Jack Duskin]], On cat$^n$ -groups and homotopy types , J. Pure  Appl. Alg., 86, (1993), 135--154.
+
+On classifying spaces of 2-categories:
+
+* [[Manuel Bullejos]] and [[Antonio M. Cegarra]],  On the geometry of 2-categories and their classifying spaces, K-Theory, 29 (2003), 211--229.   ([pdf](http://www.ugr.es/\%7Ebullejos/geometryampl.pdf))
 
 On [[non-abelian cohomology]] with [[coefficients]] in [[braided 2-groups]] and [[symmetric 2-groups]]:
 
