@@ -251,6 +251,86 @@ that the types $P \,\in\, Type$ are equivalently
 <img src="https://ncatlab.org/nlab/files/PotentialDataAsPossibilityModalData-230804.jpg" width="780">
 </center>
 
+
+{#PotentialAxiomsComparedToAristotle} This formalization compares reasonably well with [[Aristotle]]'s discussion, who wrote (in the translation from [Ferroni & Gili (2016)](potentiality+and+actuality#FerroniGili16), [§44](https://www.cairn.info/revue-de-philologie-litterature-et-histoire-anciennes-2016-1-page-81.htm#pa44)) first that:
+
+> of non-existent things some exist potentially
+
+which is our
+
+$$
+ \underset{
+   \color{blue}
+   \text{non-existent thing}
+ }{
+  \big(
+    \varnothing
+    ,\,
+    \lozenge_W \varnothing \xrightarrow{\exists !} \varnothing
+  \big) 
+  }
+  \underset{
+    \color{blue}
+    \text{is a}
+  }{
+    \phantom{\vert}
+    \colon\;
+    \phantom{\vert}
+  }
+  \;
+  \underset{
+    \color{blue}
+    \text{potential thing}
+  }{
+    Type^{\lozenge_W}_W
+  }
+$$
+
+and then:
+
+> if they exist ... it is not possible that it is true to say that: this is possible but will not be the case.
+
+hence (unwinding the double negation)
+
+> if potential things exist ... and are possible then they will be the case (ie: will be actual)
+
+which is our
+
+$$
+  \underset{
+    \color{blue}\text{given a potential thing}
+  }{
+  (D_\bullet, \rho_\bullet)
+  \,\colon\, 
+  Type_W^{\lozenge_W}
+  }
+  \;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;
+  \underset{
+   \color{blue} \text{which is possible}
+  }{
+    \lozenge_W D_\bullet 
+  }
+  \underset{
+   \color{blue}\text{then}
+  }{
+    \phantom{\vert}
+    \xrightarrow{\;\; \rho_\bullet \;\;} 
+    \phantom{\vert}
+  }
+  \underset{
+   \color{blue}\text{it is actual}
+  }{
+    D_\bullet
+    \mathrlap{\phantom{vert_{g}}}
+  }
+$$
+
+
+
+
+
 \linebreak
 
 ### Relative version
