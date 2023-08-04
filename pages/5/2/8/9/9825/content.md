@@ -162,6 +162,8 @@ Review and discussion:
 
 * [[Roland Omnès]], §8 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
 
+* {#Renes15} [[Joseph M. Renes]], §A of: *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
+
 * {#Landsman17} [[Klaas Landsman]], Section 11: of _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
 See also:
