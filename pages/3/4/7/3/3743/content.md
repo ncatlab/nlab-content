@@ -117,8 +117,17 @@ The following [[machine learning]]-inspired rewriting systems for meta/hyper-gra
 * Xerxes D Arsiwalla, Jonathan Gorard, _Pregeometric spaces from Wolfram model rewriting systems as homotopy types_ [arXiv:2111.03460](https://arxiv.org/abs/2111.03460)
 
 category: combinatorics, algebra, computer science, logic
+
 [[!redirects rewriting]]
 [[!redirects rewriting system]]
 [[!redirects rewriting systems]]
 [[!redirects rewriting procedure]]
 [[!redirects rewriting procedures]]
+
+[[!redirects rewrite rule]]
+[[!redirects rewrite rules]]
+
+
+
+
+
