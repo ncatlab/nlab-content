@@ -1,4 +1,24 @@
-* N. Popescu, __Abelian categories with applications to rings and modules__, London Mathematical Society Monographs 3, Academic Press 1973, xii + 470 pp
+
+This page compiles pointers related to:
+
+* [[Nicolae Popescu]]:
+
+  \linebreak
+
+  __Abelian categories with applications to rings and modules__
+
+  \linebreak
+
+  London Mathematical Society Monographs **3* 
+
+  Academic Press (1973) 
+
+  [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+
+on the [[algebra]] of [[rings]] and [[modules]] via [[abelian categories]].
+
+\linebreak
+
 
 Contents:
 
@@ -51,3 +71,6 @@ Grothendieck categories. Duality theory for l.n.- and l.f.-categories. Colocaliz
 __Bibliography__
 
 __Index__
+
+category: reference
+
