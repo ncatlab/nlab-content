@@ -59,7 +59,7 @@ Discussion in [[2d TQFT]] includes
 
 * {#MooreSegal06} [[Gregory W. Moore]], [[Graeme Segal]] (2006), D-branes and K-theory in 2D topological field theory. ([arXiv:hep-th/0609042](https://arxiv.org/abs/hep-th/0609042))
 
-* {#MooreSegal02} [[Gregory W. Moore]], [[Graeme Segal]] (2002), Lectures on Branes, K-theory and RR Charges. Lecture notes from the Clay Institute School on Geometry and String Theory held at the Isaac Newton Institute, Cambridge, UK. Available [here](http://www.physics.rutgers.edu/∼gmoore/clay1/clay1.html); related notes from the ITP Miniprogram ‘The Duality Workshop’ at Santa Barbara available [here](http://online.itp.ucsb.edu/online/mp01/moore1/).
+* {#MooreSegal02} [[Gregory W. Moore]], [[Graeme Segal]] (2002), Lectures on Branes, K-theory and RR Charges. Lecture notes from the Clay Institute School on Geometry and String Theory held at the Isaac Newton Institute, Cambridge, UK. Available [here](http://www.physics.rutgers.edu/%7egmoore/clay1/clay1.html); related notes from the ITP Miniprogram ‘The Duality Workshop’ at Santa Barbara available [here](http://online.itp.ucsb.edu/online/mp01/moore1/).
 
 Discussion in [[2d CFT]] includes
 
