@@ -21,7 +21,7 @@ An _Euler system_ for $(T,\Sigma)$ is a collection $\mathbf{c}=(c_{m})_{m}$, whe
 $$\mathrm{norm}_{\mathbb{Q}(\mu_{m})}^{\mathbb{Q}(\mu_{m\ell})}(c_{m\ell})=
 
 \begin{cases}
-c_{m}\;\if \ell\in\Sigma or m\vert \ell\\
+c_{m}\;\if \ell\in\Sigma\;\or\;m\vert \ell\\
 P_{\ell}(V^{*}(1),\sigma_{\ell}^{-1})\cdot c_{m}\;\otherwise
 \end{cases}$$
 
@@ -34,6 +34,10 @@ where $\sigma_{\ell}$ is the image of $\mathrm{Frob}_{\ell}$ in $\mathrm{Gal}(\m
 \begin{theorem}(Theorem 2 of [#LoefflerZerbes18](#LoefflerZerbes18))
 Suppose $\mathbf{c}$ is an Euler system for $(T,\Sigma)$ with $c_{1}$ nonzero, and suppose that $V$ satisfies certain technical conditions. Then the strict Selmer group $\Sel_{\strict}(\mathbb{Q},V^{*}(1))$ is zero.
 \end{theorem}
+
+## Relation to motivic cohomology
+
+One of the ways to construct examples of Euler systems is via [[motivic cohomology]] (see chapter 3 of [#LoefflerZerbes18](#LoefflerZerbes18)).
 
 ## References
 
