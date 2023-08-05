@@ -279,3 +279,8 @@ $$
 
 
 [[!redirects invariants]]
+
+[[!redirects invariance]]
+
+
+
