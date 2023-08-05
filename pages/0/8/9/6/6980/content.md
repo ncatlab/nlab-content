@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -43,7 +44,36 @@ See also _[[proofs as programs]]_.
 ### Formal proofs
  {#FormalProof}
 
-A [[formal proof]] is whatever is called a 'proof' in a formal system; a formal system for [[mathematics]] then gives rules for producing a proof in the above sense.  Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
+A *[[formal proof]]* is whatever is called a 'proof' in a [[formal system]]; a formal system for [[mathematics]] then gives rules for producing a proof in the above sense.  
+
+Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
+
+\begin{remark}\label{MeaningOfTheWordFormal}
+**(meaning of "formal")**
+\linebreak
+  Generally, people tend to speak of *formal* arguments when referring to arguments by *formalism*, hence by purely *symbolic manipulations* following [[syntax|syntactic]] *[[rewrite rules]]*.
+
+Beware that the quality of such arguments depends drastically on how good the formalism is --- with the result that the term "formal" appears in practice in two different and almost opposite meanings:
+
+1. If it is granted that the syntactic rules properly reflect the intended logic in its most fine detail, then a *formal argument* via these rules is the most rigorous hence the **strongest form of argument**. This is the sense in which *formal proof* is understood in mathematics.
+
+1. But if the syntactic rules employed actually *fail* to reflect all intended aspects of a given problem, then the *formal arguments* based on these rules are superficial arguments, may not account for the actual detail in question, may give conclusions that are considered wrong and hence constitute a **weak form of argument**.
+
+
+The second sense is, incidentally, the sense in which reference to "formal argument" is typically used in *[[physics]]* (for instance when manipulating the [[integrand]] of a [[path integral]] as if one were dealing with an actual [[integral]]). 
+
+But also mathematicians sometimes speak of "formal computations" in this second sense of "superficial argument by overly na&iuml;ve formalism" (for instance when disregarding issues of [[convergence of a sequence|convergence]] in [[analysis]]).
+
+See also:
+
+* Wikipedia: *[Formal computation](https://en.wikipedia.org/wiki/Formal_calculation)*
+
+* MathOverflow: *[Why do people use "formal calculation"
+to describe informal calculations?
+](https://mathoverflow.net/q/206544/381)*
+
+
+\end{remark}
 
 
 
