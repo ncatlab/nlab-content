@@ -41,7 +41,7 @@ $$
   Z : Bord_n^{Def} \to \mathcal{C}
 $$
 
-a TQFT _with defects_. A general formalization is in ([Lurie, section 4.3](#Lurie)), see at _[Cobordism theorem -- For cobordisms with singuarities (boundaries/branes and defects/domain walls)](cobordism+hypothesis#ForCobordismsWithSingularities)_. See also ([Davydov-Runkel-Kong](#DavydovRunkelKong) and [Carqueville-Runkel-Schaumann](#CarquevilleRunkelSchaumann)).
+a TQFT _with defects_. A general formalization is in ([Lurie 09, section 4.3](#Lurie09)), see at _[Cobordism theorem -- For cobordisms with singuarities (boundaries/branes and defects/domain walls)](cobordism+hypothesis#ForCobordismsWithSingularities)_. See also ([Davydov, Runkel & Kong 2011](#DavydovRunkelKong11) and [Carqueville-Runkel-Schaumann](#CarquevilleRunkelSchaumann)).
 
 Such a morphism carries data as follows:
 
@@ -55,9 +55,9 @@ So one may think of the codimension $k$ colors as _defects_ where the TQFT that 
 
 In particular, when the QFT on one side of the defect is trivial, then the defect behaves like a _boundary condition_ for the remaining QFT. Since at least for $n=2$ QFT such boundary conditions are also called _[[branes]]_, defects are also called _[[bi-branes]]_.
 
-The statement of the **cobordism theorem with singularities** ([Lurie, theorem 4.3.11](#Lurie)) is essentially the following: 
+The statement of the **cobordism theorem with singularities** ([Lurie 09, theorem 4.3.11](#Lurie09)) is essentially the following: 
 
-Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for every choice of [[pasting diagram]] of [[k-morphisms]] for all $k$, there is a type of manifolds with singularity $Def$, such that $Bord_n^Def$ is the free symmetric monoidal $(\infty,n)$-category on this data, hence such that TFTs with defects $(Bord_n^Def)^\otimes \to \mathcal{C}^\otimes$ are equivalently given by realizing such a pasting diagram in $\mathcal{C}$, where each of the given [[k-morphism]] appears as the value of a codimension $(n-k)$-defect. (See also [Lurie, remark 4.3.14](#Lurie)).
+Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for every choice of [[pasting diagram]] of [[k-morphisms]] for all $k$, there is a type of manifolds with singularity $Def$, such that $Bord_n^Def$ is the free symmetric monoidal $(\infty,n)$-category on this data, hence such that TFTs with defects $(Bord_n^Def)^\otimes \to \mathcal{C}^\otimes$ are equivalently given by realizing such a pasting diagram in $\mathcal{C}$, where each of the given [[k-morphism]] appears as the value of a codimension $(n-k)$-defect. (See also [Lurie 09, remark 4.3.14](#Lurie09)).
 
 
 ### Topological defects from spontaneously broken symmetry
@@ -256,6 +256,8 @@ $$
 
 * [[anyon]], [[braid group statistics]], [[loop braid group]]
 
+* [[generalized global symmetry]]
+
 \linebreak
 
 [[!include field theory with boundaries and defects - table]]
@@ -266,25 +268,30 @@ $$
 
 ### General
 
-A general formulation via an [[(∞,n)-category of cobordisms]] with defects is in section 4.3 of 
+A general formulation via an [[(∞,n)-category of cobordisms]] with defects:
 
-* {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- 
+* {#Lurie09} [[Jacob Lurie]], section 4.3 of: _[[On the Classification of Topological Field Theories]]_,  Current Developments in Mathematics Volume 2008 (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465), [doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3)&rbrack;
 
 Defect TQFTs as 1-functors on stratified decorated bordisms are discussed in 
 
-* {#DavydovRunkelKong} [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+* {#DavydovRunkelKong11} [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ &lbrack;[arXiv:1107.0495](https://arxiv.org/abs/1107.0495)&rbrack;, in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS (2011) &lbrack;[ams:pspum-83](https://bookstore.ams.org/pspum-83)&rbrack;
  
-* {#CarquevilleRunkelSchaumann} [[Nils Carqueville]], [[Ingo Runkel]], [[Gregor Schaumann]], _Orbifolds of n-dimensional defect TQFTs_, ([arXiv:1705.06085](http://arxiv.org/abs/1705.06085)) 
+* {#CarquevilleRunkelSchaumann} [[Nils Carqueville]], [[Ingo Runkel]], [[Gregor Schaumann]], _Orbifolds of $n$-dimensional defect TQFTs_, Geom. Topol. **23** (2019) 781-864 *lbrack;[arXiv:1705.06085](http://arxiv.org/abs/1705.06085), [doi:10.2140/gt.2019.23.781](https://doi.org/10.2140/gt.2019.23.781)&rbrack;
 
 Details in dimension 2 and 3 are discussed in
 
 * [[Chris Schommer-Pries]], _Topological Defects and Classification of Local TQFTs in Low Dimension_, [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] ([pdf](https://ncatlab.org/nlab/files/SchommerPriesDefects.pdf))
 
+* {#FuchsSchweigertValentino13} [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], *Bicategories for boundary conditions and for surface defects in 3-d TFT*, Commun. Math. Phys. **321**  (2013) 543–575 &lbrack;[arXiv:1203.4568](https://arxiv.org/abs/1203.4568), [doi:10.1007/s00220-013-1723-0](https://doi.org/10.1007/s00220-013-1723-0)&rbrack;
+
+Review:
+
+* [[Andrew Neitzke]], *Some uses of defects in quantum field theory* (2016?) &lbrack;[html](https://gauss.math.yale.edu/~an592/talks/html/defects-aspen/talk.html)&rbrack;
+
 Discussion of defects in [[prequantum field theory]], hence for [[coefficients]] in an [[(∞,n)-category of spans]] is in 
 
-* [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
- {#FiorenzaValentino}
+* {#FiorenzaValentino} [[Domenico Fiorenza]], [[Alessandro Valentino]], *Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors*,  Commun. Math. Phys. **338** (2015) 1043–1074  &lbrack;[arXiv:1409.5723](https://arxiv.org/abs/1409.5723), [doi:10.1007/s00220-015-2371-3](https://doi.org/10.1007/s00220-015-2371-3)&rbrack;
+ 
 
 * {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
 
@@ -368,6 +375,9 @@ Defects field theory motivated from [[solid state physics]] is discussed in
 
 
 
+
+[[!redirects QFTs with defects]]
+
 [[!redirects defect]]
 [[!redirects defects]]
 
@@ -378,3 +388,5 @@ Defects field theory motivated from [[solid state physics]] is discussed in
 
 [[!redirects defect QFT]]
 [[!redirects defect QFTs]]
+
+
