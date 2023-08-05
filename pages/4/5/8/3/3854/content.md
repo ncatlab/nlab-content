@@ -27,6 +27,12 @@ On the relation between [[Rozansky-Witten theory]] and [[Chern-Simons theory]]:
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Chern-Simons-Rozansky-Witten topological field theory_, Nucl. Phys. B823 (2009) 403-427 ([arXiv:0904.1447](https://arxiv.org/abs/0904.1447), [spire:817599/](http://inspirehep.net/record/817599/))
 
+
+On [[generalized global symmetries]]:
+
+* {#GKSW14} [[Davide Gaiotto]], [[Anton Kapustin]], [[Nathan Seiberg]], [[Brian Willett]], *Generalized Global Symmetries*  J. High Energ. Phys. **2015** 172 (2015) &lbrack;[arXiv:1412.5148](https://arxiv.org/abs/1412.5148), <a href="https://doi.org/10.1007/JHEP02(2015)172">doi:10.1007/JHEP02(2015)172</a>&rbrack;
+
+
 On the [[theta angle]] in [[QCD]]:
 
 * [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_, JHEP05(2017)091 ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
