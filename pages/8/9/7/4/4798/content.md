@@ -101,13 +101,15 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[group averaging]]
 
-* [[Haag?Lopuszanski?Sohnius theorem]] on symmetries of an [[S-matrix]]
+* [[Haag–Łopuszański–Sohnius theorem]] on symmetries of an [[S-matrix]]
 
 * [[spontaneously broken symmetry]]
 
 * [[principle of equivalence]]
 
 * [[general covariance]]
+
+* [[generalized global symmetry]]
 
 [[!include gauge field - table]]
 
