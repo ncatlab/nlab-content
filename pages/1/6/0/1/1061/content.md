@@ -33,7 +33,7 @@ Some authors take *pre-additive category* to mean *[[Ab-enriched category|$Ab$-e
 
 Other authors require in addition the existence of a [[zero object]] (which, this being the [[empty diagram|empty]] [[coproduct]], is the first step towards requiring more general [[finite coproducts]] as for an [[additive category]], whence the terminology):
 
-* Sandro M. Roch, Def. 1.0.4 in :*A brief introduction to abelian categories* (2020) &lbrack;[pdf](https://page.math.tu-berlin.de/~roch/files/abelian_categories.pdf)&rbrack;
+* Sandro M. Roch, Def. 1.0.4 in: *A brief introduction to abelian categories* (2020) &lbrack;[pdf](https://page.math.tu-berlin.de/~roch/files/abelian_categories.pdf)&rbrack;
 
 
 
