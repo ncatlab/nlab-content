@@ -13,6 +13,12 @@ The [[FRS-theorem on rational 2d CFT]]:
 
 * [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
 
+
+On [[QFTs with defects]] via [[higher algebra|higher]] [[categorical algebra]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], *Bicategories for boundary conditions and for surface defects in 3-d TFT*, Commun. Math. Phys. **321**  (2013) 543–575 &lbrack;[arXiv:1203.4568](https://arxiv.org/abs/1203.4568), [doi:10.1007/s00220-013-1723-0](https://doi.org/10.1007/s00220-013-1723-0)&rbrack;
+
+
 On [[extended functorial field theory|extended]] [[homotopy field theory]]:
 
 * [[Christoph Schweigert]], [[Lukas Woike]], *Extended Homotopy Quantum Field Theories and their Orbifoldization*, Journal of Pure and Applied Algebra **224** 4 (2020) 106213 &lbrack;[arXiv:1802.08512](https://arxiv.org/abs/1802.08512), <a href="https://doi.org/10.1016/j.jpaa.2019.106213">doi:10.1016/j.jpaa.2019.106213</a>&rbrack;
