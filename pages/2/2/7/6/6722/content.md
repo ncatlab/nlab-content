@@ -29,12 +29,17 @@ On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] 
 * [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)$]$
 
 
+On [[generalized global symmetries]]:
+
+* {#GKSW14} [[Davide Gaiotto]], [[Anton Kapustin]], [[Nathan Seiberg]], [[Brian Willett]], *Generalized Global Symmetries*  J. High Energ. Phys. **2015** 172 (2015) &lbrack;[arXiv:1412.5148](https://arxiv.org/abs/1412.5148), <a href="https://doi.org/10.1007/JHEP02(2015)172">doi:10.1007/JHEP02(2015)172</a>&rbrack;
+
+
 On the [[theta angle]] in [[QCD]]:
 
 * [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_, JHEP05(2017)091 ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Seiberg-Witten theory]]
 
