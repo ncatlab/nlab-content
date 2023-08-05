@@ -47,4 +47,7 @@ A [[cocycle]] with coefficients in this 3-groupoid is a [[connection on a 3-bund
 
 For Lie 3-algebras coming from [[differential 2-crossed module]]s, at least parts of this data have been discussed in
 
-* [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv:0907.2566](http://arxiv.org/abs/0907.2566))
+* {#MartinsPicken11} [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_, Differential Geometry and its Applications **29** 2 (2011) 179-206  &lbrack;[arXiv:0907.2566](http://arxiv.org/abs/0907.2566), [doi:10.1016/j.difgeo.2010.10.002](https://doi.org/10.1016/j.difgeo.2010.10.002)&rbrack;
+
+
+
