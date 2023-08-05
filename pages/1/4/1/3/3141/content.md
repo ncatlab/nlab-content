@@ -31,7 +31,7 @@ $$
 
 where composition is defined as in $A$, $B$, and according to the actions of $A$ and $B$ on $H$.
 
-The [[cograph of a functor]] is the special case when $H$ is a "representable profunctor" of the form $B(f-,-)$ for some functor $f\colon A\to B$.
+The [[cograph of a functor]] is the special case when $H$ is a corepresentable profunctor of the form $B(f-,-)$ for some functor $f\colon A\to B$.
 
 ### Properties
 
