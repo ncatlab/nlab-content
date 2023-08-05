@@ -197,6 +197,11 @@ In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called a
 
 * [[additive disjunction]], [[quantum parallelism]]
 
+## References
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]]: Ntn. 8.2.5 in: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
+
 
 [[!redirects direct sum]]
 [[!redirects direct sums]]
