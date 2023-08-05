@@ -17,7 +17,7 @@
 
 In its original form, the _Eckmann--Hilton argument_ shows that a [[monoid object]] or [[group object]] [[internalization|internal]] to the [[category of monoids]] or [[Groups]] is necessarily [[abelian group|commutative]]. 
 
-In other words this says that if a [[set]] is equipped with a [[pair]] o [[monoid]] [[structures]], such that one is a [[homomorphism]] for the other, then the two structures actually coincide and the resulting monoid is [[commutative monoid|commutative]].
+In other words this says that if a [[set]] is equipped with a [[pair]] of [[monoid]] [[structures]], such that one is a [[homomorphism]] for the other, then the two structures actually coincide and the resulting monoid is [[commutative monoid|commutative]].
 
 From the [[nPOV]], we may want to think of the statement in this way:
 
@@ -28,7 +28,7 @@ Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[
 
 * [[horizontal composition]] and [[vertical composition]] define the same [[monoid object]] structure on $End(Id_x)$;
 
-* this is an [[abelian monoid]].
+* this is a [[commutative monoid]].
 =--
 
 On the face of it, this is a special case of the general situation, although in fact every case is an example for appropriate $C$.
