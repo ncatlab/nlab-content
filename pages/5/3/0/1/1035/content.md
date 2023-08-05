@@ -384,6 +384,14 @@ Textbook accounts:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], Section 8 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
 
+Discussion in [[homological algebra]]:
+
+* [[Charles Weibel]], *[[An Introduction to Homological Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
+
+See also:
+
+* {#IntroductionToLinearCategories} [[William Lawvere]], *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
+
 
 Discussion of [[model category]] structures on additive categories is around def. 4.3 of 
 
