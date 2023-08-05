@@ -7,6 +7,12 @@ The [[FRS-theorem on rational 2d CFT]]:
 
 * [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
 
+
+On [[QFTs with defects]] via [[higher algebra|higher]] [[categorical algebra]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], *Bicategories for boundary conditions and for surface defects in 3-d TFT*, Commun. Math. Phys. **321**  (2013) 543–575 &lbrack;[arXiv:1203.4568](https://arxiv.org/abs/1203.4568), [doi:10.1007/s00220-013-1723-0](https://doi.org/10.1007/s00220-013-1723-0)&rbrack;
+
+
 On potential generalization to [[logarithmic CFT]]:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
