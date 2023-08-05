@@ -18,6 +18,10 @@ On [[topological M-theory]]:
 
 * {#Neitzke2005} [[Andrew Neitzke]], *Elements of topological M-theory* (2005) &lbrack;[[Neitzke-TopologicalMTheory.pdf:file]]&rbrack;
 
+On [[QFTs with defects]]:
+
+* [[Andrew Neitzke]], *Some uses of defects in quantum field theory* (2016?) &lbrack;[html](https://gauss.math.yale.edu/~an592/talks/html/defects-aspen/talk.html)&rbrack;
+
 
 Discussion of [[topological quantum field theory]] with an eye towards [[supersymmetry|supersymmetric]] field theory, in terms of the [[ordinary homology]] of [[configuration spaces of points]] (see also at _[[correlators as differential forms on configuration spaces of points]]_):
 
