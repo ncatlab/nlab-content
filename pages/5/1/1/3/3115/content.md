@@ -17,7 +17,7 @@
 
 Let $\mathcal{A}$ be an [[abelian category]] [[category with translation|with translation]]. 
 
-An [[object]] in the [[category of chain complexes]] modulo [[chain homotopy]], $K(\mathcal{A})$,  is **homotopically injective** if for every $X \in K(\mathcal{A})$ that is
+An [[object]] $I$ in the [[category of chain complexes]] modulo [[chain homotopy]], $K(\mathcal{A})$,  is **homotopically injective** if for every $X \in K(\mathcal{A})$ that is
 [[quasi-isomorphism|quasi-isomorphic]] to $0$
 we have
 $$
