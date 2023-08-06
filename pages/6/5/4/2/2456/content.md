@@ -19,13 +19,19 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \vareps
 
 The type-theoretic global choice operator implies global [[axiom K]] or global [[UIP]], and thus is inconsistent with the existence of a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
 
-If one wants to express the set-theoretic global choice operator and still consistently have a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]], one needs to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
+One could try to set-truncate the target, or restrict the global choice operator to inhabited [[h-sets]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:\vert A \vert \vdash \varepsilon_A(x):\vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathrm{isSet}(A), x:\vert A \vert \vdash \varepsilon_A(p, x):A}$$
 
 The above rules could be simplified to the following rules using [[function types]] and [[product types]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \vert \to \vert A \vert_0} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\mathrm{isSet}(A) \times \vert A \vert \to A}$$
+
+However, this inference rule implies the untruncated [[axiom of choice]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash P(x, y) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash p(x, y):\mathrm{isProp}(P(x, y))}{\Gamma \vdash \mathrm{ac}_{A, B, P}:\Pi x:A.\exists y:B(x).P(x, y) \to \exists g:(\Pi x:A.B(x)).\Pi x:A.P(x, g(x))}$$
+
+which is inconsistent with a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
 
 There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
 
