@@ -575,16 +575,17 @@ where the interpretation of the modal ([[counit of a comonad|co-]])[[unit of a m
   \label{QuantumModalUnits}
 \]
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
+    "file_name": "QCwthLHT-QuantumModalUnits-230806.jpg",
     "width": "810",
     "unit": "px",
     "margin": {
-        "top": -10,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
+
 
 In the context of linear types not just $(p_B)^\ast$ is [[monadic functor|monadic]], but also $(p_B)_!$/$(p_B)_\ast$ (for details see the *[quantum reader monad](function+monad#QuantumReaderMonad)*), so that the factorization [above](#PotentialityAsMonadicDescent) enhances to the following situation:
 
