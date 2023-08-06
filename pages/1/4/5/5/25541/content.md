@@ -13,4 +13,5 @@ On [[orbifolds]] by [[2-groups]] in view of [[sigma-models]] inspired from [[str
 category: people
 
 [[!redirects Alonso Perez Lona]]
+[[!redirects perezl.alonso]]
 
