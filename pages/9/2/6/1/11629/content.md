@@ -25,6 +25,10 @@ and their [[anomaly cancellation]] via the [[Green-Schwarz mechanism]]:
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
+On [[generalized global symmetries]] and their [[gauge symmetry|gauging]]:
+
+* {#BT17} [[Lakshya Bhardwaj]], [[Yuji Tachikawa]]. *On finite symmetries and their gauging in two dimensions*, J. High Energ. Phys. **2018** 189 (2018) &lbrack;[arXiv:1704.02330](https://arxiv.org/abs/1704.02330), <a href="https://doi.org/10.1007/JHEP03(2018)189">doi:10.1007/JHEP03(2018)189</a>&rbrack;
+
 
 Relation of the [[GSO projection]] to the [[K-theory classification of topological phases of matter]]:
 
