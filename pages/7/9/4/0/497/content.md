@@ -49,6 +49,8 @@ $$\mathrm{isInhab}_{P + \neg P} \circ \mathrm{lem}_P:\mathrm{isProp}(P) \to (P \
 
 In the untruncated case, the requirement that $P$ be an [[h-proposition]] is necessary; the untruncated law of excluded middle for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the untruncated law of excluded middle for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
 
+There is also a third possible notion for excluded middle, which states that the type $P + \neg P$ is equivalent to the [[unit type]]. This not only implies truncated excluded middle, but also that every type is a [[h-proposition]] a la [[propositional logic as a dependent type theory]], because the only types $P$ such that $P + \neg P$ is equivalent to the unit type are the [[empty type]] and the [[unit type]]. 
+
 If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
