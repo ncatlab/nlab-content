@@ -10,6 +10,13 @@ $$
   \,.
 $$
 
+equivalently, that the double negation of a [[proposition]] is [[logically equivalent]] to that proposition:
+
+$$
+  \not \not A \iff A
+  \,.
+$$
+
 In [[classical logic]], this is simply true.  In [[constructive logic]], it is equivalent to the law of [[excluded middle]] (because $\not \not (P \vee \not P)$ is a constructive theorem), and is not assertable in general.
 
 ## In dependent type theory
@@ -23,6 +30,14 @@ Given [[function types]], this could be wrapped up as
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:\mathrm{isProp}(A) \to (\neg \neg A \to A)}$$
 
 The requirement that $A$ be an [[h-proposition]] is necessary; the law of double negation for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the law of double negation for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
+
+There is an alternative presentation of the law of double negation, which uses an [[equivalence type]] for [[logical equivalence]] rather than a [[function type]] for [[implication]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:\mathrm{isProp}(A) \to ((\neg \neg A) \simeq A)}$$
+
+In [[dependent type theory]] as [[foundations of mathematics]], the requirement that $A$ be an [[h-proposition]] is also necessary. This alternate law of double negation for general [[types]] implies that all types are [[h-propositions]] a la [[propositional logic as a dependent type theory]], since the double negation of a type is always an [[h-proposition]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:(\neg \neg A) \simeq A}$$
 
 ## Related concepts
 
