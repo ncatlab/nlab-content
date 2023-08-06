@@ -29,9 +29,9 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:\vert A \v
 
 However, this inference rule implies the untruncated [[axiom of choice]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash P(x, y) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash p(x, y):\mathrm{isProp}(P(x, y))}{\Gamma \vdash \mathrm{ac}_{A, B, P}:\Pi x:A.\exists y:B(x).P(x, y) \to \exists g:(\Pi x:A.B(x)).\Pi x:A.P(x, g(x))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash P(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{ac}_{A, B, P}:\Pi x:A.\exists y:B(x).[P(x, y)] \to \exists g:(\Pi x:A.B(x)).\Pi x:A.[P(x, g(x))]}$$
 
-which is inconsistent with a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. 
+which is inconsistent with a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. (See the [[HoTT book]], section 3.8). 
 
 There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
 
