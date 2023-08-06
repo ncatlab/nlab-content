@@ -64,7 +64,7 @@ Since full [[2d CFTs]] are what is relevant in [[string theory]], where these co
 
 The construction and the proof of the classification result is originally described in the series of articles
 
-* {#FuchsRunkelSchweigert02} [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _TFT construction of RCFT correlators I: Partition functions_, Nucl. Phys. B 646:353-497 (2002) ([arXiv:hep-th/0204148](http://arxiv.org/abs/hep-th/0204148))
+* {#FuchsRunkelSchweigert02} [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _TFT construction of RCFT correlators I: Partition functions_, Nucl. Phys. B **646**  (2002) 353-497 &lbrack;[arXiv:hep-th/0204148](http://arxiv.org/abs/hep-th/0204148), <a href="https://doi.org/10.1016/S0550-3213(02)00744-7">doi:10.1016/S0550-3213(02)00744-7</a>&rbrack;
 
 * {#FuchsRunkelSchweigert04a} [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _TFT construction of RCFT correlators II: Unoriented world sheets_, Nucl.Phys. B678 (2004) 511-637 ([arXiv:hep-th/0306164](http://arxiv.org/abs/hep-th/0306164))
 
@@ -110,6 +110,8 @@ On potential generalization from [[rational 2d CFT]] to [[logarithmic CFT]]:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
 
+
+[[!redirects FRS theorem on rational 2d CFT]]
 
 [[!redirects FFRS formalism]]
 
