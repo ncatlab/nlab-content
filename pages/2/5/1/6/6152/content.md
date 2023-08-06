@@ -49,11 +49,18 @@ Please do not confuse the terminology with the case of a functor which is a [[Gr
 
 * [[Tannakian category]]
 
-## Literature
+## References
+
 
 * [[P. Cartier]], _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
 
 * [[P. Deligne]], _[[Catégories Tannakiennes]]_
+
+For [[fusion 2-categories]]:
+
+* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
+
+
 
 [[!redirects fiber functors]]
 [[!redirects fibre functor]]
