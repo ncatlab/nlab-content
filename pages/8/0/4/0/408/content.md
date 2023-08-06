@@ -90,7 +90,7 @@ This 2-multicategory can also be promoted to a 2-[[polycategory]]; see [Shulman]
 
 ## References
 
-Under the name "*adjunction with a parameter*" the concept appears in:
+Under the name "*adjunction with a parameter*" the concept appears in p. 102 of:
 
 * {#MacLane71} [[Saunders MacLane]], §IV.7, Thm. 3 (p. 100) of: _[[Categories Work|Categories for the working mathematician]]_, Graduate Texts in Mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
