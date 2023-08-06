@@ -63,6 +63,8 @@ These taboos are unprovable in [[homotopy type theory]], even if we assume const
 
 * [[uniqueness of identity proofs]]
 * [[axiom K]]
+* [[choice operator]]
+* [[axiom of choice]] for all types
 
 A taboo found in [[cubical type theory]]:
 
