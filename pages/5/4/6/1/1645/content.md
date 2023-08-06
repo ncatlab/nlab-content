@@ -173,8 +173,9 @@ For the moment see [[Liouville cocycle]].
 
 ## Related concepts
 
-
 * [[classical anomaly]]
+
+* [['t Hooft anomaly]]
 
 * [[fiber bundles in physics]]
 
