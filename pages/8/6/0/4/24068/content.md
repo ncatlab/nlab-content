@@ -120,7 +120,9 @@ Relation to [[topological phases of matter]] with [[topological order]]:
 
 * Fernando Iemini, Christophe Mora, Leonardo Mazza, *Topological phases of parafermions: a model with exactly-solvable ground states*, Phys. Rev. Lett. **118** 170402 (2017) $[$[arXiv;1611.00832](https://arxiv.org/abs/1611.00832), [doi:10.1103/PhysRevLett.118.170402](https://doi.org/10.1103/PhysRevLett.118.170402)$]$
 
+On twisted parafermions:
 
+* Xiang-Mao Ding, Mark Gould, and Yao-Zhong Zhang. *Twisted Parafermions*. (2001). [arXiv:hep-th/0110165](https://arxiv.org/abs/hep-th/0110165)
 
 
 [[!redirects parafermions]]
