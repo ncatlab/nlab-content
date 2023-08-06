@@ -435,7 +435,7 @@ This way, one finds that the four (co)unit operations of quantum modal logic are
   \label{QuantumModalUnits}
 \]
 \begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
+    "file_name": "QCwthLHT-QuantumModalUnits-230806.jpg",
     "width": "840",
     "unit": "px",
     "margin": {
@@ -497,46 +497,15 @@ is the usual type of [[q-bits]].
 ### Quantum gates
  {#QuantumGates}
 
-The morphisms in the [[co-Kleisli category|(co-)]][[Kleisli category]] of $\Box$ and $\bigcirc$ are [[linear maps]]
+With the above modal quantum logic, we may naturally type ([[controlled quantum gates|controlled]]) [[quantum gates]] as follows:
 
-$$
-  \mathscr{H}
-  \;=\;
-  \Box \mathscr{H}_\bullet
-  \xrightarrow{\;}
-  \bigcirc \mathscr{H}_\bullet
-  \;=\;
-  \mathscr{H}
-$$
+<center>
+<img src="https://ncatlab.org/nlab/files/ControlledQuantumGateTyping-230806.jpg" width="870">
+</center>
 
-in the image of $p_B^\ast$
-and as such are [[quantum gates]] (we show how to restrict these to [[unitary operators]] below in ...).
+As indicated at the bottom, we may understand coherently controlled quantum gates as $\bigcirc$-effectful programs in the sense of [[monads in computer science]].
 
-Inspection shows that the four ways of relating these to [[co-Kleisli category|(co-)]][[Kleisli category|Kleisli morphisms]] correspond to composing quantum gates with:
-
-1. quantum measurement
-
-1. quantum state preparation
-
-1. quantum superposition
-
-1. quantum parallelization:
-
-
-
-\begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumGates-221021.jpg",
-    "width": "800",
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
-
-
+Next we see that the $\bigcirc$-effect handling, in this sense, is nothing but [[quantum measurement]]:
 
 ### Quantum measurement
  {#QuantumMeasurement}
@@ -560,21 +529,13 @@ which is encoded by its direct sum decomposition $\mathcal{H}_\bullet$:
     }
 \end{imagefromfile}
 
-Given this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$  is essentially the [[deferred measurement principle]] for [[quantum circuits]]:
+Hence we may type quantum measurement gates as follows:
 
-\begin{imagefromfile}
-    "file_name": "DeferredMeasurementAsKleisliEquiv-221027b.jpg",
-    "width": "800",
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
+<center>
+<img src="https://ncatlab.org/nlab/files/QuantumMeasurementGateTyping.jpg" width="500">
+</center>
 
-We may understand quantum measurement in this form as the *[effect handling](monad+in+computer+science#MonadModulesInIdeaSection)* (in the sense of [[monads in computer science]]) of indefiniteness effects (in the sense of [potentiality modal logic](necessity+and+possibility#RelationToPotentiality)):
+As indicated at the bottom, we may understand quantum measurement in this form as the *[effect handling](monad+in+computer+science#MonadModulesInIdeaSection)* (in the sense of [[monads in computer science]]) of indefiniteness effects (in the sense of [potentiality modal logic](necessity+and+possibility#RelationToPotentiality)):
 
 \begin{imagefromfile}
     "file_name": "QMeasurementViaIndefinitenessHandling-221109c.jpg",
@@ -608,28 +569,30 @@ There is another possible typing of quantum measurement, where a measurement lan
 \end{imagefromfile}
 
 
-These two are related by the following [[commuting diagram]] (being the [[naturality square]] of the necessity-counit on the possibility-unit):
+These two are related by the following [[commuting diagram]] (being the [[naturality square]] of the necessity-counit on the possibility-unit, see at *[[S5 modal logic]]*, [this remark](S5+modal+logic#HaxagonOfEpistemicEntailments)):
 
 \[
   \label{MeasurementViaWritedComonad}
 \]
+<center>
+<img src="https://ncatlab.org/nlab/files/QuantumEpistemicHexagon-230806.jpg" width="800"/>
+</center>
+
+\linebreak
+
+Given all this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$  is the **[[deferred measurement principle]]** for [[quantum circuits]]:
+
 \begin{imagefromfile}
-    "file_name": "MeasurementViaRandomMonad-230227.jpg",
-    "width": "680",
+    "file_name": "DeferredMeasurementAsKleisliEquiv-221027b.jpg",
+    "width": "800",
     "unit": "px",
     "margin": {
-        "top": -20,
+        "top": -30,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
-
-
-
-In the bottom row are making use of the notation (eq:NotationalConvention).
-
-
 
 
 
