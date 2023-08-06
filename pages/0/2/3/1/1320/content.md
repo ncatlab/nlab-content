@@ -150,18 +150,20 @@ Monadic functors to the category [[Set]] have additional properties.  For exampl
 
 &lbrack;[Vitale (1994)](#Vitale94)&rbrack;
 
+
 ## Related concepts
 
 * [[monadic adjunction]], [[structure-semantics adjunction]]
 
 * [[comonadic functor]], [[monadicity theorem]]
 
-
 * [[monadic decomposition]]
+
 
 ## References
 
-* {#MacLane71} [[Saunders Mac Lane]], Section VI in: _[[Categories for the Working Mathematician]]_ (1971)
+* {#MacLane71} [[Saunders Mac Lane]], Section VI in: _[[Categories for the Working Mathematician]]_, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
 
 * [[Francis Borceux]], Def. 4.4.1 in: *[[Handbook of Categorical Algebra]]*,   Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
