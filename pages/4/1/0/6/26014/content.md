@@ -51,9 +51,9 @@ Other references:
 
 * {#Vafa89} [[Cumrun Vafa]], *Quantum Symmetries of String Vacua* (1989) &lbrack;[doi:10.1142/S0217732389001842](https://doi.org/10.1142/S0217732389001842)&rbrack;
 
-* {#BT17} [[Lakshya Bhardwaj]], [[Yuji Tachikawa]]. *On finite symmetries and their gauging in two dimensions*. (2017). [arXiv:1704.02330](https://arxiv.org/abs/1704.02330)
+* {#BT17} [[Lakshya Bhardwaj]], [[Yuji Tachikawa]]. *On finite symmetries and their gauging in two dimensions*, J. High Energ. Phys. **2018** 189 (2018) &lbrack;[arXiv:1704.02330](https://arxiv.org/abs/1704.02330), <a href="https://doi.org/10.1007/JHEP03(2018)189">doi:10.1007/JHEP03(2018)189</a>&rbrack;
 
-* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023). [arXiv:2306.08117](https://arxiv.org/abs/2306.08117)
+* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
 
 
