@@ -77,22 +77,10 @@ There are different ways to *[[type theory|type]]* the quantum measurement, taki
 
 Both of these options naturally emerge and are naturally unified in the "[Quantum Modal Logic](necessity+and+possibility#ModalQuantumLogic)" inherent to [[dependent linear type theory]]: This is discussed at *[[quantum circuits via dependent linear types]]*.
 
-\begin{imagefromfile}
-    "file_name": "QCwthLHT-QuantumModalUnits-221110.jpg",
-    "width": "800",
-    "unit": "px",
-    "margin": {
-        "top": -10,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
 
-|  |  |
-|--|--|
-| quantum measurement | [[quantum state preparation]] |
-| [[quantum superposition]] | [[quantum parallelism]] |
+<center>
+<img src="https://ncatlab.org/nlab/files/QuantumEpistemicHexagon-230806.jpg" width="800"/>
+</center>
 
 
 ## Properties
