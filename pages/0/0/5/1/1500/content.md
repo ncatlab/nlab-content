@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents 
 {:toc}
@@ -121,6 +120,8 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
   
   * [[unitary fusion category]]
 
+  * [[fusion 2-category]]
+
   * [[fusion ring]], [[Frobenius-Perron dimension]]
 
 * [[pivotal category]]
@@ -187,11 +188,11 @@ See also:
 * Math Overflow, _[Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting)_ .
 
 
-On a notion of fusion [[2-categories]]:
+On a notion of [[fusion 2-categories]]:
 
 * [[Christopher L. Douglas]], [[David J. Reutter]], *Fusion 2-categories and a state-sum invariant for 4-manifolds* &lbrack;[arXiv:1812.11933](https://arxiv.org/abs/1812.11933)&rbrack;
 
-* Thibault D. Décoppet, Matthew Yu, *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
+* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
 
 
@@ -212,6 +213,4 @@ On a notion of fusion [[2-categories]]:
 
 [[!redirects fusion]]
 
-[[!redirects fusion 2-category]]
-[[!redirects fusion 2-categories]]
 
