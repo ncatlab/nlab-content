@@ -311,19 +311,23 @@ Examples in physics of interaction of defects of various dimension is discussed 
 
 #### In 2d field theory
 
-* Defects in 2-dimensional [[conformal field theory]] have a long history in real-world application, for instance in [[Kramers-Wannier duality]]
 
-  * [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Kramers-Wannier duality from conformal defects_ ([arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051))
 
-  * Fr&#246;hlich, Fuchs, Runkel, Schweigert, _Duality and defects in rational conformal field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0607247))
+* Defects in [[2-dimensional conformal field theory]] have a long history in real-world application, for instance in [[Kramers-Wannier duality]]. Formalization by [[higher algebra|higher]] [[categorical algebra]] via the [[FRS theorem on rational 2d CFT]] is due to:
 
-* Defects in 2-dimension TFT have been studied a lot in the context of genus-0 TFT, where they are described using the language of [[planar algebra]]s. 
+  * {#FRS04} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Kramers-Wannier duality from conformal defects*, Phys. Rev. Lett. **93** (2004) 070601 &lbrack;[doi:10.1103/PhysRevLett.93.070601](https://doi.org/10.1103/PhysRevLett.93.070601), [arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051)&rbrack;
 
-  * See the discussion at [Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html) for a start.
+  with a comprehensive review in
 
-Lecture notes include
+  * {#FFRS07} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Duality and defects in rational conformal field theory*, Nucl. Phys. B **763** (2007) 354-430 &lbrack;[arXiv:hep-th/0607247](http://arxiv.org/abs/hep-th/0607247), [doi:10.1016/j.nuclphysb.2006.11.017](https://doi.org/10.1016/j.nuclphysb.2006.11.017)&rbrack;
 
-* [[Nils Carqueville]], _Lecture notes on 2-dimensional defect TQFT_ ([arXiv:1607.05747](http://arxiv.org/abs/1607.05747))
+* Defects in 2-dimensional [[topological field theory]] have been studied a lot in the context of genus-0 TFT, where they are described using the language of [[planar algebras]]. 
+
+  * See the discussion at *[Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html)* for a start.
+
+Lecture notes:
+
+* [[Nils Carqueville]], _Lecture notes on 2-dimensional defect TQFT_ &lbrack;[arXiv:1607.05747](http://arxiv.org/abs/1607.05747)&rbrack;
 
 
 
