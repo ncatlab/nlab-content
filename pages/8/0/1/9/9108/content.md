@@ -26,7 +26,7 @@ $$
   Ric = \lambda g \in Sym^2 \Gamma(T X)
 $$
 
-by a proportionality constant $\lambda \in \mathbb{R}$. 
+by a proportionality constant $\lambda \in \mathbb{R}$. Such a metric $g$ is called an **Einstein metric**.
 
 ## Properties
 
