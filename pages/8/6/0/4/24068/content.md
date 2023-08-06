@@ -31,6 +31,8 @@
 
 (...)
 
+Related to the [[fractional superstring]].
+
 ## References
 
 ### General
