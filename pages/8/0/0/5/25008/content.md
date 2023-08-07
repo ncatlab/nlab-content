@@ -16,7 +16,7 @@
 
 A weaker notion of [[integral domain]] which allows for some [[zero divisors]], but for which one may [[quotient ring|quotient out]] the zero divisors to obtain an [[integral domain]]. 
 
-The author of this article doesn't know if this concept already has a name in the mathematics literature, but "approximate integral domains" ought to be to integral domains, as [[local rings]] are to [[Heyting fields]], and as [[weak local rings]] are to [[Peter Johnstone]]'s [[Johnstone residue field|notion of residue field]]. 
+"Approximate integral domain" is a placeholder name for a concept which may or may not have another name in the mathematics literature. The idea however is that approximate integral domains are to integral domains as [[local rings]] are to [[Heyting fields]], and as [[weak local rings]] are to [[Peter Johnstone]]&rsquo;s [[Johnstone residue field|notion of residue field]]. 
 
 ## Definition
 
@@ -38,7 +38,7 @@ A **weak approximate integral domain** is an approximate integral domain defined
 
 Recall that a [[cancellative element]] in a commutative ring $R$ is an element $a \in R$ for which both left and right multiplication by $a$ is an injection, and [[zero divisors]] are precisely the elements in $R$ which are not cancellative. 
 
-A **strict approximate integral domain** is an weak approximate integral domain for which additionally the cancellative elements form an [[anti-ideal]]:
+A **strict approximate integral domain** is a weak approximate integral domain for which additionally the cancellative elements form an [[anti-ideal]]:
 
 * $0$ is not cancellative
 * if $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative
@@ -63,7 +63,7 @@ For multiplication, if $x y # x' y'$, then $x y - x' y'$ is cancellative. Write 
 =-- 
 
 \begin{theorem}
-The [[ring of fractions]] of every strict approximate integral domain is a [[local ring]]. 
+For a strict approximate integral domain, the [[ring of fractions]] obtained by inverting the cancellative elements is a [[local ring]]. 
 \end{theorem}
 
 ## Examples and non-examples
