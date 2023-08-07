@@ -40,9 +40,9 @@ Recall that a [[cancellative element]] in a commutative ring $R$ is an element $
 
 A **strict approximate integral domain** is a weak approximate integral domain for which additionally the cancellative elements form an [[anti-ideal]]:
 
-* $0$ is not cancellative
-* if $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative
-* if $a \cdot b$ is cancellative, then $a$ is cancellative and $b$ is cancellative
+* $0$ is not cancellative;
+* if $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative;
+* if $a \cdot b$ is cancellative, then $a$ is cancellative and $b$ is cancellative (this is trivially true in any commutative ring).
 
 The [[quotient object|quotient ring]] of a strict approximate integral domain by its anti-ideal of cancellative elements is a [[Heyting integral domain]].
 
