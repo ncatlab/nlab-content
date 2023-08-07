@@ -13,5 +13,11 @@ Introducing the *[[many-worlds interpretation of quantum mechanics]]*:
 
 * {#DeWittGraham73} [[Bryce S. DeWitt]], [[Neill Graham]] (eds.), *The Many-Worlds Interpretation of Quantum Mechanics*, Princeton Series in Physics, Princeton University Press (1973, 2016) &lbrack;[ISBN:9780691645926](https://press.princeton.edu/books/hardcover/9780691645926/the-many-worlds-interpretation-of-quantum-mechanics), [jstor:j.ctt13x0wwk](https://www.jstor.org/stable/j.ctt13x0wwk)&rbrack;
 
+## Related entries
+
+* [[interpretation of quantum mechanics]]
+
+* [[deferred measurement principle]]
+
 
 [[!redirects Hugh Everett]]
