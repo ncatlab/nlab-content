@@ -38,16 +38,21 @@ The notion was introduced in
 
 Further developments are in
 
-* Paul Biran, Octav Cornea, _Lagrangian cobordism I, ([arxiv/1109.4984](http://arxiv.org/abs/1109.4984))
- {#BiranCornea11}
+* {#BiranCornea11} Paul Biran, Octav Cornea, _Lagrangian cobordism I, ([arxiv/1109.4984](http://arxiv.org/abs/1109.4984))
+ 
 
 
-* Paul Biran, Octav Cornea, _Lagrangian cobordism III_([arxiv/1304.6032](http://arxiv.org/abs/1304.6032))
- {#BiranCornea13}
+* {#BiranCornea13} Paul Biran, Octav Cornea, _Lagrangian cobordism III_([arxiv/1304.6032](http://arxiv.org/abs/1304.6032))
+ 
 
-A [[stable (infinity,1)-category]] of Lagrangian cobordisms is discussed in 
+A [[stable (infinity,1)-category|stable $(\infty,1)$-category]] of Lagrangian cobordisms is discussed in 
 
-* [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_, Adv. Math. __366__, 3 (2020) 107026 ([arXiv:1109.4835](https://arxiv.org/abs/1109.4835)[doi](https://doi.org/10.1016/j.aim.2020.107026))
-  {#NadlerTannaka11}
+* {#NadlerTannaka11} [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_, Adv. Math. __366__ 3 (2020) 107026 &lbrack;[arXiv:1109.4835](https://arxiv.org/abs/1109.4835), [doi:10.1016/j.aim.2020.107026](https://doi.org/10.1016/j.aim.2020.107026)&rbrack;
+  
 
 * Wenyuan Li, _Lagrangian cobordism functor in microlocal sheaf theory I_, [arXiv:2108.10914](https://arxiv.org/abs/2108.10914)
+
+
+[[!redirects Lagrangian cobordisms]]
+
+
