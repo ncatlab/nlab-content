@@ -262,6 +262,8 @@ Via the [[S-matrix]]/[[scattering amplitudes]] of [[mesons]]:
 
 * {#Weinberg79} [[Steven Weinberg]], _Phenomenological Lagrangians_, Physica A: Statistical Mechanics and its Applications Volume 96, Issues 1–2, April 1979, Pages 327-340 (<a href="https://doi.org/10.1016/0378-4371(79)90223-1">doi:10.1016/0378-4371(79)90223-1</a>)
 
+* {#tHooft1980} [[Gerard 't Hooft]], *Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking* In: G. 'Hooft et al., *Recent Developments in Gauge Theories*, NATO Advanced Study Institutes Series **59**, Springer (1980) &lbrack;[doi:10.1007/978-1-4684-7571-5_9](https://doi.org/10.1007/978-1-4684-7571-5_9)&rbrack;
+
 * [[Jürg Gasser]], [[Heinrich Leutwyler]], _Quark masses_, Physics Reports Volume 87, Issue 3, July 1982, Pages 77-169 (<a href="https://doi.org/10.1016/0370-1573(82)90035-7">doi:10.1016/0370-1573(82)90035-7</a>)
 
 * [[Jürg Gasser]], [[Heinrich Leutwyler]], _Chiral Perturbation Theory: Expansions in the Mass of the Strange Quark_, Nucl. Phys. B 250 (1985) 465-516, ([spire:200027](https://inspirehep.net/literature/200027), <a href="https://doi.org/10.1016/0550-3213(85)90492-4">doi:10.1016/0550-3213(85)90492-4</a>))
