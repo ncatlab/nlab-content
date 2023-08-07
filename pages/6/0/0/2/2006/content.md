@@ -131,6 +131,8 @@ from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[
 
 \end{proposition}
 
+(eg. [Borceux (1994), Prop. 4.1.6](#Borceux94))
+
 +-- {: .proof}
 ###### Proof 
 
@@ -197,6 +199,7 @@ See [here](Kleisli+category+of+a+comonad#MatrixmultiplicationAsCoKleisliComposit
 * [[thunk-force category]]
 
 
+
 ## References
 
 The original articles:
@@ -215,12 +218,21 @@ Early accounts (together with the [[Eilenberg-Moore category]]):
 
 The [[equivalence of categories]] between the [[Kleisli category]] over a given [[monad]] with the [[co-Kleisli category]] of an [[adjoint functor|adjoint]] [[comonad]] (if it exists):
 
-* [[Mark Kleiner]],  *Adjoint monads and an isomorphism of the Kleisli categories*, Journal of Algebra
-Volume **133** 1 (1990) 79-82 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90069-Z">doi:10.1016/0021-8693(90)90069-Z</a>&rbrack;
+* [[Mark Kleiner]],  *Adjoint monads and an isomorphism of the Kleisli categories*, Journal of Algebra **133** 1 (1990) 79-82 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90069-Z">doi:10.1016/0021-8693(90)90069-Z</a>&rbrack;
 
 The terminology "[[Kleisli triple]]" for a [[monad]] presented as an "[[extension system]]" and relation to [[computation]] with effects (see at *[[monads in computer science]]*):
 
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
+
+Textbook account making explicit the [[Kleisli equivalence]]:
+
+* {#Borceux94} [[Francis Borceux]], pp. 191 in: *[[Handbook of Categorical Algebra]]*, Vol 2 *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
+
+
+Lecture notes:
+
+* [[Thomas Streicher]], pp. 54 in: *Introduction to Category Theory and Categorical Logic* (2003) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/CTCL.pdf), [[Streicher-CategoryTheory.pdf:file]]&rbrack;
+
 
 Discussion of cases where the inclusion of the Kleisli category into the [[Eilenberg-Moore category]] is a [[reflective subcategory]]:
 
