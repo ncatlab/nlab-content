@@ -47,5 +47,7 @@ Further developments are in
 
 A [[stable (infinity,1)-category]] of Lagrangian cobordisms is discussed in 
 
-* [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_ ([arXiv:1109.4835](http://arxiv.org/abs/1109.4835))
+* [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_, Adv. Math. __366__, 3 (2020) 107026 ([arXiv:1109.4835](https://arxiv.org/abs/1109.4835)[doi](https://doi.org/10.1016/j.aim.2020.107026))
   {#NadlerTannaka11}
+
+* Wenyuan Li, _Lagrangian cobordism functor in microlocal sheaf theory I_, [arXiv:2108.10914](https://arxiv.org/abs/2108.10914)
