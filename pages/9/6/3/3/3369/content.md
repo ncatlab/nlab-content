@@ -21,13 +21,23 @@
 
 This entry is about the article
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], 
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]]:
  
-  _Topological Quantum Field Theories from Compact Lie Groups_ 
+  \linebreak
+  
+  **Topological Quantum Field Theories from Compact Lie Groups**
 
-  in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010)
+  \linebreak
 
-  ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
+  in P. R. Kotiuga (ed.): 
+
+  *A celebration of the mathematical legacy of Raoul Bott* 
+
+  AMS (2010)
+
+  [arXiv:0905.0731](http://arxiv.org/abs/0905.0731)
+
+  [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/view?ProductCode=CRMP/50)
 
 on 
 
