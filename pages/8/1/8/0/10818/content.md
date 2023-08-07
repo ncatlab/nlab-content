@@ -8,8 +8,6 @@
 =--
 =--
 
-# Lax-idempotent 2-adjunctions
-
 * automatic table of contents goes here
 {:toc}
 
