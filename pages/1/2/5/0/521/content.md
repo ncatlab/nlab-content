@@ -221,6 +221,12 @@ One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusi
 
   * [[over-(∞,1)-topos]]
 
+## References
+
+Discussion in the generality of [[(infinity,1)-categories|$(\infty,1)$-categories]]:
+
+* [[Jacob Lurie]], Rem. 1.2.5.9 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
+
 
 
 [[!redirects under category]]
