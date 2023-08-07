@@ -4,7 +4,6 @@
 ## Selected writings
 
 
-
 Proving the non-[[renormalizable interaction|renormalizability]] of Einstein-[[gravity]] ([[general relativity]]):
 
 * {#tHooftVelrman74} [[Gerard 't Hooft]], [[Martinus Veltman]], _One loop divergencies in the theory of gravitation_, Ann. Inst. Poincar &#233; 20 (1974) 69 ([numdam:AIHPA_1974__20_1_69_0](AIHPA_1974__20_1_69_0))
@@ -19,6 +18,10 @@ Introducing [['t Hooft double line notation]] and the [[large N limit]] of [[Yan
 On [[D=2 QCD]] ([['t Hooft model]]):
 
 * {#tHooft74} [[Gerard ’t Hooft]], _A Two-Dimensional Model For Mesons_, Nucl. Phys. B75, 461 (1974) (<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>)
+
+On [[naturalness]] and [[chiral symemtry breaking]] (and introducing the concept that became known as *[['t Hooft anomalies]]*):
+
+* {#tHooft1980} [[Gerard 't Hooft]], *Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking* In: G. 'Hooft et al., *Recent Developments in Gauge Theories*, NATO Advanced Study Institutes Series **59**, Springer (1980) &lbrack;[doi:10.1007/978-1-4684-7571-5_9](https://doi.org/10.1007/978-1-4684-7571-5_9)&rbrack;
 
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
