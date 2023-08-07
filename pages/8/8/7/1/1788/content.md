@@ -1,4 +1,82 @@
 
+
+\begin{tikzcd}[sep=0pt]
+    \mathcal{C}_{T}
+    \ar[
+      rr,
+      hook
+    ]
+    &&
+    \mathcal{C}^{T}
+    \\
+    X 
+    &\mapsto&
+    \big(
+      T(X)
+      ,\,
+      \mu_X
+    \big)
+    \\[+5pt]
+    \mathcal{C}_{T}
+    (X,\, Y)
+    \ar[
+      rr,
+      <->,
+      "{ \sim }"
+    ]
+    &&
+    \mathcal{C}^{T}
+    \Big(
+      \big(T(X),\mu_X\big)
+      ,\,
+      \big(T(X'),\mu_{X'}\big)
+    \Big)
+    \\
+    \Big(
+      X
+      \xrightarrow{
+        \hspace{22pt}
+        f
+        \hspace{22pt}
+      }
+      \mathcal{E}(Y)
+    \Big)
+    &\mapsto&
+    \Big(
+      \mathcal{E}(X) 
+      \xrightarrow{ \mathcal{E}(f)}
+      \mathcal{E}\big(\mathcal{E}(Y)\big)
+      \xrightarrow{ \mu_{Y} }
+      \mathcal{E}(Y)
+    \Big)
+    \\
+    \Big(
+    X
+    \xrightarrow{
+      \eta^{\mathcal{E}}_{X} 
+    }
+    \mathcal{E}(X)
+    \xrightarrow{ \phi }
+    \mathcal{E}(Y)
+    \Big)    
+    \ar[rr, phantom, "{\mapsto}"{rotate=180}]
+    &&
+    \Big(
+    \mathcal{E}(X)
+    \xrightarrow{ 
+      \hspace{39pt} 
+      \phi 
+      \hspace{39pt} 
+    }
+    \mathcal{E}(Y)
+    \Big)
+\end{tikzcd}
+
+
+
+\linebreak
+
+
 $$
   \underset{
     \color{blue}\text{given a potential thing}
