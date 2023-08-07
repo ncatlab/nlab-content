@@ -16,7 +16,7 @@
 
 Just as the classical notion of *[[pointed objects]]* refers to *morphisms* whose [[domain]] is [[terminal object|terminal]], which in the context or [[doctrine]] of [[cartesian monoidal categories]] is the monoidal unit, so one can generalize such "pointing": a pointed object in a [[monoidal category]] $\mathcal{C}$ is an [[object]] $X$ equipped with a [[morphism]] $I \to X$ from the [[monoidal unit]] $I$. 
 
-A [[morphism]] between a [[pair]] of monoidally-pointed objects is then typically taken to be a morphism of the [[underlying]] objects which respects these "points" under [[precomposition]]. This means that the [[category]] of monoidally-pointed objects is the [[coslice category]] $\mathcal{C}^{I/}$. 
+A [[morphism]] between a [[pair]] of monoidally-pointed objects is then typically taken to be a morphism of the [[underlying]] objects which respects these "points" under [[precomposition]]. This means that the [[category]] of monoidally-pointed objects is the [[coslice category]] $I \downarrow \mathcal{C}$. 
 
 Therefore, yet more generally, one might regard any [[coslice category]] as a category of generalized-pointed objects. But the coslice under a monoidal unit has further good properties, such as itself canonically inheriting the structure of a monoidal category.
 
