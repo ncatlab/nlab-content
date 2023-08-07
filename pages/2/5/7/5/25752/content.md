@@ -25,7 +25,7 @@ If $R$ is the [[integers]] then pointed $R$-modules are also called **[[pointed 
 
 
 \begin{remark}
-Equivalently, a pointed $R$-module (Def. \ref{PointedRModule}) is an $R$-[[module]] $M$ equipped with an $R$-[[linear map]] $R \to M$ (which is fixed by its [[image]] of $1 \in R$). Since $R$ is the [[tensor unit]] for the [[tensor product of modules]] in the [[monoidal category]] [[Mod|$R \mathrm{Mod}$]] of $R$-modules and $R$-linear maps, this means that pointed $R$-modules are equivalently [[pointed object in a monoidal category|pointed objects in the monoidal-categorical sense]] (in addition to their [[underlying]] [[sets]] being [[pointed set|pointed objects in the set-theoretic sense]]). Accordingly, the category of pointed modules is equivalently the [[coslice category]] $R Mod^{R/}$ of [[Mod|$R \mathrm{Mod}$]] under (the [[underlying]] $R$-module of) $R$.
+Equivalently, a pointed $R$-module (Def. \ref{PointedRModule}) is an $R$-[[module]] $M$ equipped with an $R$-[[linear map]] $R \to M$ (which is fixed by its [[image]] of $1 \in R$). Since $R$ is the [[tensor unit]] for the [[tensor product of modules]] in the [[monoidal category]] [[Mod|$R \mathrm{Mod}$]] of $R$-modules and $R$-linear maps, this means that pointed $R$-modules are equivalently [[pointed object in a monoidal category|pointed objects in the monoidal-categorical sense]] (in addition to their [[underlying]] [[sets]] being [[pointed set|pointed objects in the set-theoretic sense]]). Accordingly, the category of pointed modules is equivalently the [[coslice category]] $R \downarrow R \mathrm{Mod}$ of [[Mod|$R \mathrm{Mod}$]] under (the [[underlying]] $R$-module of) $R$.
 \end{remark}
 
 \section{Related concepts}
