@@ -22,7 +22,7 @@
 
 ## Idea
 
-The notion of **total categories** (also called **totally cocomplete categories**) is that of a [[categories]] with a well-behaved [[Yoneda embedding]] endowing them with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties while still admitting many types of categories occurring "in practice".
+The notion of **total categories** (also called **totally cocomplete categories** or **absolutely cocomplete categories**) is that of a [[categories]] with a well-behaved [[Yoneda embedding]] endowing them with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties while still admitting many types of categories occurring "in practice".
 
 ## Definition
 
@@ -155,8 +155,12 @@ But cototal categories do occur:
 
 * [[Francisco Marmolejo]], [[Robert Rosebrugh]], and [[Richard Wood]]. _Completely and totally distributive categories I_. Journal of Pure and Applied Algebra 216.8-9 (2012): 1775-1790.
 
+* [[Ross Street]]. _Elementary cosmoi I_. Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
+
 [[!redirects total categories]]
 [[!redirects cototal category]]
 [[!redirects cototal categories]]
 [[!redirects totally cocomplete category]]
 [[!redirects totally cocomplete categories]]
+[[!redirects absolutely cocomplete category]]
+[[!redirects absolutely cocomplete categories]]
