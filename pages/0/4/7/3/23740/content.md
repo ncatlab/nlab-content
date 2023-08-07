@@ -43,12 +43,16 @@ Since the multiplicative identity element $1$ is always cancellative, the multip
 
 ## Properties ##
 
-\begin{theorem}
-Given elements $a \in R$ and $b \in R$, if the product $a \cdot b$ is cancellative, then both $a$ and $b$ is cancellative. 
-\end{theorem}
+\begin{proposition}
+For a commutative ring $R$, given elements $a, b \in R$, if the product $a \cdot b$ is cancellative, then both $a$ and $b$ are cancellative. 
+\end{proposition} 
+
+By this proposition, a commutative ring $R$ is a [[approximate integral domain|strict approximate integral domain]] if the following condition holds: 
+
+* For all elements $a, b \in R$, if the $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative. 
 
 \begin{theorem}
-Given an [[approximate integral domain]] $R$, if for all elements $a \in R$ and $b \in R$, if the sum $a + b$ is cancellative, then either $a$ is cancellative or $b$ is cancellative, then the addition and multiplication operations on $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is cancellative.
+For a [[approximate integral domain|strict approximate integral domain]] $R$, the addition and multiplication operations on $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is cancellative.
 
 In this way $R$ becomes an internal commutative [[ring object]] in the category $\mathrm{Apart}$, consisting of sets with apartness relations and maps (strongly extensional functions) between them.
 \end{theorem}
