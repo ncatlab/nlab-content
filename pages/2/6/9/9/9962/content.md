@@ -21,7 +21,7 @@
 
 ## Idea
 
-In ([[particle physics|particle]]-)[[physics]] the term "naturalness" refers to the vague idea that a [[model (physics)|model]] of physics is expected to work without requiring unlikely-looking ad-hoc coincidences or "fine-tuning" of its parameters, and that instead all such "conspiracies" among parameter values are to have some systematic cause, such as some [[symmetry]] of the model.
+In ([[particle physics|particle]]-)[[physics]] the term "naturalness" &lbrack;['t Hooft 1980](#tHooft1980), [Gell- Mann 1983](#GellMann83)&rbrack; refers to the vague idea that a [[model (physics)|model]] of physics is expected to work without requiring unlikely-looking ad-hoc coincidences or "fine-tuning" of its parameters (such as the choice of [[renormalization]] constants), and that instead all such "conspiracies" among parameter values are to have some systematic cause, such as some ([[broken symmetry|broken]]) [[symmetry]] of the model.
 
 An archetypical example, which at times has been referred to as _the_ naturalness probem of the [[standard model of particle physics]], is that the [[mass]] of the [[Higgs boson]] is first of all many orders of magnitude below the [[Planck scale]], while at the same time potentially receiving very large potential [[renormalization|quantum corrections]] from the presence of (potentially undetected) heavy particles, which therefore must coincidentally cancel out. This is also called the _[[hierarchy problem]]_.
 
@@ -86,11 +86,18 @@ Similarly [Wilson 04, p. 10](#Wilson04):
 
 Early discussion:
 
-* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+* {#tHooft1980} [[Gerard 't Hooft]], *Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking* In: G. 'Hooft et al., *Recent Developments in Gauge Theories*, NATO Advanced Study Institutes Series **59**, Springer (1980) &lbrack;[doi:10.1007/978-1-4684-7571-5_9](https://doi.org/10.1007/978-1-4684-7571-5_9)&rbrack;
+
+
+  > &lbrack;pp 135:&rbrack; "it is unlikely that the microscopic equations contain various free parameters that are carefully adjusted by Nature to give cancelling effects such that the macroscopic systems have some special properties. This is a philosophy which we would like to apply to the unified gauge theories: the effective interactions at a large length scale, corresponding to a low energy scale $\mu_1$ should follow from the properties at a much smaller length scale, or higher energy scale $\mu_2$, without the requirement that various different parameters at the energy scale $\mu_2$ match with an accuracy of the order of $\mu_1/\mu_2$. That would be unnatural."
+
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_ (1983) &lbrack;[[Gell-Mann_ShelterIslandII_1983.pdf:file]], [[Gell-Mann-ShelterIslandII_1983.pdf:file]]&rbrack; 
 
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
-Survey and discussion includes
+  > "we seem to have to dial various renormalized quantities to small values. The situation of having numerous arbitrary dimensional parameters is even more humiliating when some of them are very small. &lbrack;...&rbrack; First of all, we'd like to interpret small or nearly symmetric quantities as coming from a slightly broken symmetry; otherwise they don't make sense to us. &lbrack;...&rbrack; When we can't avoid dialing some renormalized quantity to a small value &lbrack;...&rbrack; that situation has recently been described as a problem of 'naturalness'."
+
+Survey and further discussion:
 
 * {#Clarke17} [[Jackson Clarke]], _[Naturalness: A Pragmatist's Guide](http://syymmetries.blogspot.de/2017/06/naturalness-pragmatists-guide.html)_, 2017 
 
