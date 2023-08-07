@@ -192,3 +192,5 @@ In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization dom
 [[!redirects multiplicative submonoids of cancellative elements]]
 [[!redirects multiplicative submonoid of regular elements]]
 [[!redirects multiplicative submonoids of regular elements]]
+
+[[!redirects regular element in a ring]]
