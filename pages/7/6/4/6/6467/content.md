@@ -62,6 +62,10 @@ Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X,
 
 * over a [[Riemann surface]]: see at _[Riemann surface -- Picard group of holomorphic line bundles](Riemann+surface#PicardGroupOfHolomorphicLineBundles)_.
 
+## Properties
+
+* Let $R$ be the [[ring of integers]] of an algebraic number field. Then $R$ is a [[unique factorization domain]] if and only if the Picard group of $R$ is [[trivial group|trivial]]. 
+
 ## Related concepts
 
 * [[group of units]], **Picard group**, [[Picard stack]]
@@ -83,7 +87,7 @@ Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X,
 
 ### General
 
-
+* [[John Baez]], *Hoàng Xuân Sính’s thesis: categorifying group theory* ([pdf](https://math.ucr.edu/home/baez/sinh.pdf))
 
 ### In algebraic geometry
 
