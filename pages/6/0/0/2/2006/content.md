@@ -121,13 +121,85 @@ $$
   T(Y)
 $$ 
 
-constitutes a [[full and faithful functor]] 
+constitutes a [[fully faithful functor]] 
 
 $$
-  \mathcal{C}_{T} \longrightarrow \mathcal{C}^{T}
+  \mathcal{C}_{T} \xhookrightarrow{\phantom{--}} \mathcal{C}^{T}
 $$
 
-from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[algebra over a monad|$T$-algebras]], hence constitutes an [[equivalence of categories]] onto its  [[essential image]] which is that of free $T$-algebras.
+from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[algebra over a monad|$T$-algebras]], hence constitutes an [[equivalence of categories]] onto its  [[essential image]] (the free $T$-algebras).
+
+\begin{tikzcd}[sep=0pt]
+    \mathcal{C}_{T}
+    \ar[
+      rr,
+      hook
+    ]
+    &&
+    \mathcal{C}^{T}
+    \\
+    X 
+    &\mapsto&
+    \big(
+      T(X)
+      ,\,
+      \mu_X
+    \big)
+    \\[+5pt]
+    \mathcal{C}_{T}
+    (X,\, Y)
+    \ar[
+      rr,
+      <->,
+      "{ \sim }"
+    ]
+    &&
+    \mathcal{C}^{T}
+    \Big(
+      \big(T(X),\mu_X\big)
+      ,\,
+      \big(T(Y),\mu_{Y}\big)
+    \Big)
+    \\
+    \Big(
+      X
+      \xrightarrow{
+        \hspace{22pt}
+        f
+        \hspace{22pt}
+      }
+      \mathcal{E}(Y)
+    \Big)
+    &\mapsto&
+    \Big(
+      \mathcal{E}(X) 
+      \xrightarrow{ \mathcal{E}(f)}
+      \mathcal{E}\big(\mathcal{E}(Y)\big)
+      \xrightarrow{ \mu_{Y} }
+      \mathcal{E}(Y)
+    \Big)
+    \\
+    \Big(
+    X
+    \xrightarrow{
+      \eta^{\mathcal{E}}_{X} 
+    }
+    \mathcal{E}(X)
+    \xrightarrow{ \phi }
+    \mathcal{E}(Y)
+    \Big)    
+    \ar[rr, phantom, "{\mapsto}"{rotate=180}]
+    &&
+    \Big(
+    \mathcal{E}(X)
+    \xrightarrow{ 
+      \hspace{39pt} 
+      \phi 
+      \hspace{39pt} 
+    }
+    \mathcal{E}(Y)
+    \Big)
+\end{tikzcd}
 
 \end{proposition}
 
