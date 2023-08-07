@@ -22,7 +22,9 @@
 
 ## Idea
 
-The notion of **total categories** (also called **totally cocomplete categories** or **absolutely cocomplete categories**) is that of a [[categories]] with a well-behaved [[Yoneda embedding]] endowing them with very good [[complete category|completeness]] and [[cocomplete category|cocompleteness]] properties while still admitting many types of categories occurring "in practice".
+A **total category** (also called a **totally cocomplete category**, or an **absolutely cocomplete category**) is a [[category]] whose [[Yoneda embedding]] has a [[left adjoint]]. This totality condition implies various strong [[cocomplete category|cocompleteness]] and [[complete category|completeness]] properties that are especially convenient in the context of an [[adjoint functor theorem]]. 
+
+In the words of [Street](#Street84), "Total categories are precisely the categories, algebraic and topological, at which traditional category theory was aimed". In other words, categories like [[Set]], [[Ab]], [[Grp]], [[Top]], [[TopGrp]]: traditional large categories of "mathematical structures". Roughly speaking, for the various species of structure in the zoology of [[Bourbaki]] (structures of algebraic type, topological type, order type, or some hybrid), if we consider species of a given structure type, and homomorphisms preserving that type of structure, as forming a category, then those sorts of categories have a strong tendency to be total. More precise theorems to this effect are given below. 
 
 ## Definition
 
