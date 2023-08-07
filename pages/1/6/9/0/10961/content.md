@@ -143,6 +143,8 @@ The [[many-worlds interpretation of quantum mechanics]]:
 
 * {#Everett57a} [[Hugh Everett III]], *The Theory of the Universal Wavefunction* PhD thesis, Princeton (1957) &lbrack;[pdf](https://www.pbs.org/wgbh/nova/manyworlds/pdf/dissertation.pdf)&rbrack; reprinted in: [De Witt & Graham 1973](#DeWittGraham73)
 
+  > (for discussion of the key argument here see at *[[deferred measurement principle]]* the section *[Deferred measurement and Interpretations](deferred+measurement+principle#DeferredMeasurementAndInterpretations)*)
+
 * {#Everett57b} [[Hugh Everett III]], *"Relative State" Formulation of Quantum Mechanics*, Rev. Mod. Phys. **29** (1957) 454-462 &lbrack;[doi:10.1103/RevModPhys.29.454](https://doi.org/10.1103/RevModPhys.29.454)&rbrack; (reprinted in [De Witt & Graham 1973](#DeWittGraham73))
 
   > "This total lack of effect of one branch on another also implies that no observer will ever be aware of any 'splitting' process. Arguments that the world picture presented by this theory is contradicted by experience, because we are unaware of any branching process, are like the criticism of the Copernican theory that the mobility of the earth as a real physical fact is incompatible with the common sense interpretation of nature because we feel no such motion. In both cases the argument fails when it is shown that the theory itself predicts that our experience will be what it in fact is."
