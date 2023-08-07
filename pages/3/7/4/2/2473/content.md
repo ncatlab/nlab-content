@@ -44,6 +44,8 @@ splits and there is an isomorphism $K^\times \cong R^\times \oplus (K^\times/R^\
 Let $R$ be an [[integral domain]]. Then, $R$ is a UFD iff every non-zero [[prime ideal]] contains a non-zero non-unit [[prime element]].
 \end{proposition}
 
+* Let $R$ be the [[ring of integers]] of an algebraic number field. Then $R$ is a unique factorization domain if and only if the [[Picard group]] of $R$ is [[trivial group|trivial]]. 
+
 ## See also
 
 * [[GCD domain]]
@@ -55,5 +57,7 @@ Let $R$ be an [[integral domain]]. Then, $R$ is a UFD iff every non-zero [[prime
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 * [[Irving Kaplansky]], *Commutative rings*, rev. ed., the University of Chicago (1974), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kaprings.pdf)
+
+* [[John Baez]], *Hoàng Xuân Sính’s thesis: categorifying group theory* ([pdf](https://math.ucr.edu/home/baez/sinh.pdf))
 
 [[!redirects unique factorization domains]]
