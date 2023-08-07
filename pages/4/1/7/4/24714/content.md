@@ -26,7 +26,7 @@
 ## Idea
  {#Idea}
 
-The *contolled NOT* or *[[reversible computation|reversible]] [[XOR]]-gate* is the [[logic gate]] acting between [[pairs]] of [[bits]] which identically keeps the first bit in the pair and [[negation|negates]] the second IFF the first was set.
+The *controlled NOT* or *[[reversible computation|reversible]] [[XOR]]-gate* is the [[logic gate]] acting between [[pairs]] of [[bits]] which identically keeps the first bit in the pair and [[negation|negates]] the second IFF the first was set.
 
 This may be understood equivalently as 
 
