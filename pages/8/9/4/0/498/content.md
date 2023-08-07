@@ -148,7 +148,7 @@ There is also the notion of a **discrete local ring**, which is a local ring whe
 
 ## Local homomorphisms 
 
-Classically, if $R$ and $S$ are local rings with maximal ideals $m$ and $n$ respectively, then a ring [[homomorphism]] $f: R \to S$ is said to be *local* if $f(m) = \exists_f (m) \subseteq n$. Equivalently, $m \subseteq f^{-1}(n)$. Taking [[complements]] and using the fact that taking [[inverse images]] preserve complements, this is equivalent to $f^{-1}(S^\times) \subseteq R^\times$ where $R^\times$ is the [[group of units]]. Of course we also have $R^\times \subseteq f^{-1}(S^\times)$ (equivalently $f(R^\times) \subseteq S^\times$) just from the fact that $f$ is a ring homomorphism, so in brief $f$ is local if $R^\times = f^{-1}(S^\times)$: an element $f(r)$ is invertible (if and) only if $r$ is. 
+Classically, if $R$ and $S$ are local rings with maximal ideals $\mathfrak{m}$ and $\mathfrak{n}$ respectively, then a ring [[homomorphism]] $f: R \to S$ is said to be *local* if $f(\mathfrak{m}) = \exists_f (\mathfrak{m}) \subseteq \mathfrak{n}$. Equivalently, $\mathfrak{m} \subseteq f^{-1}(\mathfrak{n})$. Taking [[complements]] and using the fact that taking [[inverse images]] preserve complements, this is equivalent to $f^{-1}(S^\times) \subseteq R^\times$ where $R^\times$ is the [[group of units]]. Of course we also have $R^\times \subseteq f^{-1}(S^\times)$ (equivalently $f(R^\times) \subseteq S^\times$) just from the fact that $f$ is a ring homomorphism, so in brief $f$ is local if $R^\times = f^{-1}(S^\times)$: an element $f(r)$ is invertible (if and) only if $r$ is. 
 
 In constructive settings it makes sense to take this last formulation as our notion of local homomorphism. In view of Proposition \ref{internal}, it makes sense to say it like this: 
 
@@ -157,7 +157,7 @@ In constructive settings it makes sense to take this last formulation as our not
 A *local homomorphism* between local rings is an internal ring homomorphism between their associated internal rings in the category $Apart$. 
 =-- 
 
-Possible to-dos: say something about $m$-adic topology, completion, Zariski topos as classifying topos... 
+Possible to-dos: say something about $\mathfrak{m}$-adic topology, completion, Zariski topos as classifying topos... 
 
 
 
