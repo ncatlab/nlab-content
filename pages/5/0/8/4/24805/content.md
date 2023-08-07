@@ -49,6 +49,31 @@ Alternatively: In terms of the discussion at *[[quantum circuits via dependent l
     }
 \end{imagefromfile}
 
+
+
+## Deferred measurement and Interpretations
+ {#DeferredMeasurementAndInterpretations}
+
+A key argument in the discussion of [Everett (1957)](interpretation+of+quantum+mechanics#Everett57a), which famously led its author to the *[[many-worlds interpretation of quantum mechanics]]*, is that *intermediate state collapse* caused by one observer seems [[paradox|paradoxical]], since to a later observer the analogous state collapse occurs (only) at a later time. 
+(This is really the same paradox as that of [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat), if we grant that the cat is certainly an observer, too).
+
+[Everett (1957)](interpretation+of+quantum+mechanics#Everett57a) casts this into the following prose:
+
+>> &lbrack;[pp 4:](https://www.pbs.org/wgbh/nova/manyworlds/pdf/dissertation.pdf#page=3)&rbrack; Isolated somewhere out in space is a room containing an observer, $A$, who is about to perform a measurement upon a system $S$. After performing his measurement he will record the result in his notebook. We assume that he knows the state function of $S$ (perhaps as a result of previous measurement), and that it is not an eigenstate of the measurement he is about to perform. $A$, being an orthodox quantum theorist, then believes that the outcome of his measurement is undetermined and that the process is correctly described by Process 1 &lbrack;[[collapse of the wavefunction|state collapse]]&rbrack;.
+
+>> In the meantime, however, there is another observer, $B$, outside the room, who is in possession of the state function of the entire room, including $S$, the measuring apparatus, and $A$, just prior to the measurement. $B$ is only interested in what will be found in the notebook one week hence, so he computes the state function of the room for one
+week in the future according to Process 2 &lbrack;unitary time evolution&rbrack;. One week passes, and we find $B$ still in possession of the state function of the room, which
+this equally orthodox quantum theorist believes to be a complete description of the room and its contents. If $B$'s state function calculation tells beforehand exactly what is going to be in the notebook, then $A$ is incorrect in his belief about the indeterminacy of the outcome of his measurement. We therefore assume that $B$'s state function contains non-zero amplitudes over several of the notebook entries.
+
+>> At this point, $B$ opens the door to the room and looks at the notebook (performs his observation). Having observed the notebook entry, he turns to $A$ and informs him in a patronizing manner that since his ($B$'s) wave function just prior to his entry into the room, which he knows to have been a complete description of the room and its contents, had non-zero amplitude over other than the present result of the measurement, the result must have been decided only when $B$ entered the room, so that $A$, his notebook entry, and his memory about what occurred one week ago had no independent objective existence until the intervention by $B$. In short, $B$ implies that $A$ owes his present objective existence to $B$'s generous nature which compelled him to intervene on his behalf. However, to $B$'s consternation, $A$ does not react with anything like the respect and gratitude he should exhibit towards $B$, and at the end of a somewhat heated reply, in which $A$ conveys in a colorful manner his opinion of $B$ and his beliefs, he rudely punctures $B$'s ego by observing that if $B$'s view is correct, then he has no reason to feel complacent, since the whole present situation may have no objective existence, but may depend upon the
+future actions of yet another observer.
+
+> It is now clear that the interpretation of quantum mechanics with which we began &lbrack;the Copenhagen interpretation&rbrack; is untenable if we are to consider a universe containing more than one observer.
+
+
+While this may indeed seem paradoxical when expressed this way in ordinary language, notice that the [[deferred measurement principle]] may be regarded as making precise that/how both these perspectives are in fact equivalent.
+
+
 ## Related concepts
 
 * [[no-cloning theorem]]
