@@ -93,6 +93,24 @@ is valid.  One way to see this is to note that $\neg (A\vee B) = \neg A \wedge \
 
 However, a more direct argument makes the structure of the proof more clear.  When [[beta-reduced]], the [[proof term]] is $\lambda x. x(inr(\lambda a. x(inl(a))))$.   This means that we first assume $\neg (A\vee \neg A)$ for a contradiction, for which it suffices (by assumption) to prove $A\vee \neg A$.  We prove that by proving $\neg A$, which we prove by assuming $A$ for a contradiction.  But now we can reach a contradiction by invoking (again) our assumption of $\neg (A\vee \neg A)$ and proving $A\vee \neg A$ this time using our new assumption of $A$.  In other words, we start out claiming that $\neg A$, but whenever that "bluff gets called" by someone supplying an $A$ and asking us to yield a contradiction, we retroactively change our minds and claim that $A$ instead, using the $A$ that we were just given as evidence.
 
+\begin{theorem}
+In [[dependent type theory]], the double negation of untruncated excluded middle holds for all types $A$
+\end{theorem}
+
+\begin{proof}
+The type $\neg \neg A \to \neg \neg A$ has an element, the [[identity function]] $\mathrm{id}_{\neg \neg A}$. Given types $A$, $B$, and $C$, there are equivalences
+
+$$\mathrm{uncurry}_{A, B, C}:(A \to (B \to C)) \simeq ((A \times B) \to C)$$
+
+$$\mathrm{expconv}^{A, B, C}:((A \to C) \times (B \to C)) \simeq ((A + B) \to C)$$
+
+$$\mathrm{comm}_+^{A,B}:(A + B) \simeq (B + A)$$
+
+Thus, there is an element 
+
+$$\lambda z:\neg (A + \neg A).\lambda y:(\neg A + A).z(\mathrm{comm}_+^{\neg A,A}(\lambda x:(\neg \neg A \times \neg A).\mathrm{expconv}^{\neg A, A, \emptyset}(\mathrm{uncurry}_{\neg \neg A, \neg A, \emptyset}(\mathrm{id}_{\neg \neg A})(x))(y)):\neg \neg (A + \neg A)$$
+\end{proof}
+
 In particular, this shows how the [[double negation]] [[modality]] can be regarded computationally as a sort of [[continuation-passing]] transform.
 
 However, there is another meaning of "double negated PEM" that is not valid.  The above argument shows that
