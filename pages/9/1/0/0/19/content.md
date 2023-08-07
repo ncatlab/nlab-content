@@ -464,24 +464,30 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 * [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
 
 
+
 \subsection{Course notes}
  {#CourseNotes}
 
-* [[Peter Johnstone]], _Category Theory_ , Lecture notes taken by David Mehrle, University of Cambridge 2015. ([pdf](http://pi.math.cornell.edu/~dmehrle/notes/partiii/cattheory_partiii_notes.pdf))
 
-* [[Tom Leinster]], _[Notes](http://www.maths.ed.ac.uk/~tl/msci/) on basic category theory_
+* [[Jaap van Oosten]], _Basic category theory_ (2002) &lbrack;[pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf)&rbrack;
 
-* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+* [[Thomas Streicher]], *Introduction to Category Theory and Categorical Logic* (2003) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/CTCL.pdf), [[Streicher-CategoryTheory.pdf:file]]&rbrack;
 
-* [[Bodo Pareigis]], _Category theory_, [dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf)
+* [[Bodo Pareigis]], _Category theory_ (2004) &lbrack;[dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf)&rbrack;
 
-* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_. ([arXiv](http://arxiv.org/abs/1912.10642))
+* [[Tom Leinster]], _Notes on basic category theory_ (2007) &lbrack;[web](http://www.maths.ed.ac.uk/~tl/msci)&rbrack;
 
-* [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
+* [[David Spivak]], _Category theory for scientists_ &lbrack;[arXiv:1302.6946](http://arxiv.org/abs/1302.6946)&rbrack;
+
+
+* [[Peter Johnstone]], _Category Theory_ , Lecture notes taken by David Mehrle, University of Cambridge (2015) &lbrack;[pdf](http://pi.math.cornell.edu/~dmehrle/notes/partiii/cattheory_partiii_notes.pdf)&rbrack;
+
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_ (2019) &lbrack;[arXiv:1912.10642](http://arxiv.org/abs/1912.10642)&rbrack
+
 
 * [[André Joyal]], *[[joyalscatlab:Categories]]*
 
-* [[Benedikt Ahrens]] and Kobe Wullaert, _Category Theory for Programming_, ([arXiv:2209.01259](https://arxiv.org/abs/2209.01259))
+* [[Benedikt Ahrens]] and Kobe Wullaert, _Category Theory for Programming_ (2022)  &lbrack;[arXiv:2209.01259](https://arxiv.org/abs/2209.01259)&rbrack;
 
 \subsection{Videos} 
 
