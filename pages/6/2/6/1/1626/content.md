@@ -698,7 +698,7 @@ itself an interval. This implies the claim.
 ###### Proposition
 **([[topological closure]] of connected subspace is connected)**
 
-Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is connected. Then also the [[topological closure]] $Cl(S) \subset X$ is connected
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is connected. Then also the [[topological closure]] $Cl(S) \subset X$ is connected.
 
 
 =--
