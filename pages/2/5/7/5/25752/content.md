@@ -15,7 +15,7 @@
 \section{Definition}
 
 \begin{definition}\label{PointedRModule}
-Let $R$ be a ([[commutative ring|commutative]]) [[ring]]. Then a **pointed $R$-module** is an $R$-[[module]] $M$ equipped with the further choice of an [[element]] $1 \in M$. 
+Let $R$ be a ([[commutative ring|commutative]]) [[ring]]. Then a **pointed $R$-module** is an $R$-[[module]] $M$ equipped with the further choice of an [[element]] $m \in M$. 
 A [[homomorphism]] of pointed modules is a homomorphism of the [[underlying]] modules which preserves the choice of the extra points.
 \end{definition}
 
