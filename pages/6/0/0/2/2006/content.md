@@ -205,16 +205,81 @@ from the $T$-Kleisli category (Def. \ref{KleisliCategory}) to the category of [[
 
 (eg. [Borceux (1994), Prop. 4.1.6](#Borceux94))
 
-+-- {: .proof}
-###### Proof 
+\begin{proof}
+\label{ProofOfKleisliEquivalence}
+To see that the functor is [[full functor|full]], hence that $f \mapsto \mu_Y \circ T(f)$ is [[surjective]], oberve that any homomorphism $g \colon T(X) \to T(Y)$ of [[algebra over a monad|algebras]] is the [[image]] of $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$, as shown by the following [[commuting diagram]]:
 
-[[full functor|Fullness]] holds because any morphism $g \colon T(X) \to T(Y)$ of algebras has as antecedent the composite $X \stackrel{\eta_X}{\to} T(X) \stackrel{g}{\to} T(Y)$.
-Indeed, the latter is mapped by the functor into
-$\mu_Y \circ T(g) \circ T(\eta_X)$, which is seen to be equal to $g \circ \mu_X \circ T(\eta_X) \;=\;g$, using that $g$ is a [[homomorphism]] of algebras.
+\begin{tikzcd}
+  T(X)
+  \ar[r, "{ T(\eta_X) }"]
+  \ar[dr, equals]
+  &
+  T T(X)
+  \ar[r, "{ T(g) }"]
+  \ar[d, "{ \mu_X }"]
+  &
+  T T(Y)
+  \ar[d, "{ \mu_Y }"]
+  \\
+  &
+  T(X) 
+  \ar[r, "{ g }"]
+  &
+  T(Y)
+  \mathrlap{\,.}
+\end{tikzcd}
 
-[[faithful functor|Faithfulness]] holds as follows: if $\mu_Y \circ T(f) = \mu_Y \circ T(g)$, then precomposing by $\eta_X$ yields $\mu_Y \circ T(f) \circ \eta_X = \mu_Y \circ \eta_{T(Y)} \circ f = f$ and similarly for $g$, hence $f = g$.
+Here the triangle on the left is the [[unit law]] of the monad, while the commutativity of the square is the fact that $G$ is a [[homomorphism]] of [[algebra over a monad|algebras]].
 
-=--
+To see that the functor is [[faithful functor|faithful]], hence that $f \mapsto \mu_Y \circ T(f)$ is [[injectivity|injective]], notice that
+
+$$
+  \big( \mu_Y \circ T(f) \big) \circ \eta_X
+  \;=\;
+  f
+  \,,
+$$
+
+by [[naturality square|naturality]] of the [[unit of a monad|unit]] $\eta_X$ combined with its [[unit law]]:
+
+\begin{tikzcd}
+  X 
+    \ar[r, "{ f }"] 
+    \ar[d, "{ \eta_X }"]
+  &  
+  T(Y)
+    \ar[d, "{ \eta_Y }"]
+  \ar[dr, equals]
+  \\
+  T(X)
+  \ar[r, "{ T(f) }"{swap}]
+  & 
+  T T(Y)
+  \ar[r, "{ \mu_Y }"{swap}]
+  &
+  T(Y)
+  \mathrlap{\,,}
+\end{tikzcd}
+
+whence
+
+$$
+  \mu_Y \circ T(f)
+  \,=\,
+  \mu_Y \circ T(g)
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  \mu_Y \circ T(f) \circ \eta_X
+  \,=\,
+  \mu_Y \circ T(g) \circ \eta_X
+  \;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;
+  f \,=\, g
+  \,.
+$$
+\end{proof}
 
 +-- {: .num_remark}
 ###### Remark
