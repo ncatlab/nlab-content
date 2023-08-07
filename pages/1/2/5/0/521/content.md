@@ -82,10 +82,10 @@ If $C$ has a [[terminal object]] $\ast \,\in\, C$, then the coslice $C^{\ast/}$ 
 
 * the category of [[pointed topological spaces]] is the coslice of [[Top]] under the [[point space]],
 
-* the category of [[pointed simplicial set]] is the coslice of [[sSet]] under the [[0-simplex]].
+* the category of [[pointed simplicial sets]] is the coslice of [[sSet]] under the [[0-simplex]].
 
 
-If $C$ is a [[monoidal category]] with [[tensor unit]] $I \,\in\, C$, then the coslice $C^{I/}$ is also known as the category of *[[pointed objects in a monoidal category]]*. For instance:
+If $C$ is a [[monoidal category]] with [[tensor unit]] $I \,\in\, C$, then the coslice $I \downarrow C$ is also known as the category of *[[pointed objects in a monoidal category]]*. For instance:
 
 * the category of [[pointed abelian groups]] is the coslice of [[Ab]] under the additive group of [[integers]],
 
