@@ -313,17 +313,30 @@ Examples in physics of interaction of defects of various dimension is discussed 
 
 
 
-* Defects in [[2-dimensional conformal field theory]] have a long history in real-world application, for instance in [[Kramers-Wannier duality]]. Formalization by [[higher algebra|higher]] [[categorical algebra]] via the [[FRS theorem on rational 2d CFT]] is due to:
+Defects in [[2-dimensional conformal field theory]] have a long history in real-world application, for instance in [[Kramers-Wannier duality]]. Formalization by [[higher algebra|higher]] [[categorical algebra]] via the [[FRS theorem on rational 2d CFT]] is due to:
 
-  * {#FRS04} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Kramers-Wannier duality from conformal defects*, Phys. Rev. Lett. **93** (2004) 070601 &lbrack;[doi:10.1103/PhysRevLett.93.070601](https://doi.org/10.1103/PhysRevLett.93.070601), [arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051)&rbrack;
+* {#FRS04} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Kramers-Wannier duality from conformal defects*, Phys. Rev. Lett. **93** (2004) 070601 &lbrack;[doi:10.1103/PhysRevLett.93.070601](https://doi.org/10.1103/PhysRevLett.93.070601), [arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051)&rbrack;
 
-  with a comprehensive review in
+with a comprehensive review in
 
-  * {#FFRS07} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Duality and defects in rational conformal field theory*, Nucl. Phys. B **763** (2007) 354-430 &lbrack;[arXiv:hep-th/0607247](http://arxiv.org/abs/hep-th/0607247), [doi:10.1016/j.nuclphysb.2006.11.017](https://doi.org/10.1016/j.nuclphysb.2006.11.017)&rbrack;
+* {#FFRS07} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Duality and defects in rational conformal field theory*, Nucl. Phys. B **763** (2007) 354-430 &lbrack;[arXiv:hep-th/0607247](http://arxiv.org/abs/hep-th/0607247), [doi:10.1016/j.nuclphysb.2006.11.017](https://doi.org/10.1016/j.nuclphysb.2006.11.017)&rbrack;
 
-* Defects in 2-dimensional [[topological field theory]] have been studied a lot in the context of genus-0 TFT, where they are described using the language of [[planar algebras]]. 
+Realization in [[lattice field theory]]:
 
-  * See the discussion at *[Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html)* for a start.
+* David Aasen, Roger S. K. Mong, Paul Fendley, *Topological Defects on the Lattice I: The Ising model*, J. Phys. A: Math. Theor. **49** (2016) 354001 &lbrack;[arXiv:1601.07185](https://arxiv.org/abs/1601.07185), [doi:10.1088/1751-8113/49/35/354001](https://doi.org/10.1088/1751-8113/49/35/354001)&rbrack;
+
+* David Aasen, Paul Fendley, Roger S. K. Mong, *Topological Defects on the Lattice: Dualities and Degeneracies* &lbrack;[arXiv:2008.08598](https://arxiv.org/abs/2008.08598), [inspire:1812559](https://inspirehep.net/literature/1812559)&rbrack;
+
+* Mao Tian Tan, Yifan Wang, Aditi Mitra, *Topological Defects in Floquet Circuits* &lbrack;[arXiv:2206.06272](https://arxiv.org/abs/2206.06272)&rbrack;
+
+and simulation on a [[quantum computer]]:
+
+* Sutapa Samanta, Derek S. Wang, Armin Rahmani, Aditi Mitra, *Isolated Majorana mode in a quantum computer from a duality twist* &lbrack;[arXiv:2308.02387](https://arxiv.org/abs/2308.02387)&rbrack;
+
+
+
+Defects in 2-dimensional [[topological field theory]] have been studied a lot in the context of genus-0 TFT, where they are described using the language of [[planar algebras]]. 
+See discussion at *[Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html)*.
 
 Lecture notes:
 
