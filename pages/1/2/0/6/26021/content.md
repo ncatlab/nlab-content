@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
@@ -25,8 +29,9 @@ Any [[generalized global symmetry]] is also thought to potentially exhibit 't Ho
 
 
 ## References
+ {#References}
 
-* {#tHooft1980} [[Gerard 't Hooft]]. "Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking". In: Hooft, G., et al. *Recent Developments in Gauge Theories. NATO* Advanced Study Institutes Series, vol 59. (1980). Springer, Boston, MA. [doi](https://doi.org/10.1007/978-1-4684-7571-5_9)
+* {#tHooft1980} [[Gerard 't Hooft]], *Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking* In: G. 'Hooft et al., *Recent Developments in Gauge Theories*, NATO Advanced Study Institutes Series **59**, Springer (1980) &lbrack;[doi:10.1007/978-1-4684-7571-5_9](https://doi.org/10.1007/978-1-4684-7571-5_9)&rbrack;
 
 * {#FHLT09} [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], *[[Topological Quantum Field Theories from Compact Lie Groups]]*, in P. R. Kotiuga (ed.) *A celebration of the mathematical legacy of Raoul Bott* AMS (2010) &lbrack;[arXiv:0905.0731](https://arxiv.org/abs/0905.0731), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
 
