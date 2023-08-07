@@ -33,6 +33,11 @@ following
 
 * {#Manes76} [[Ernest G. Manes]], Sec 3, Ex. 12 (p. 32) of: *Algebraic Theories*, Springer (1976) &lbrack;[doi:10.1007/978-1-4612-9860-1](https://doi.org/10.1007/978-1-4612-9860-1)&rbrack;
 
+Lecture notes:
+
+* [[Thomas Streicher]], p. 55 in: *Introduction to Category Theory and Categorical Logic* (2003) &lbrack;[pdf](https://www2.mathematik.tu-darmstadt.de/~streicher/CTCL.pdf), [[Streicher-CategoryTheory.pdf:file]]&rbrack;
+
+
 
 
 [[!redirects Kleisli triples]]
