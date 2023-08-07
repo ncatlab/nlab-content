@@ -56,6 +56,9 @@ Review:
 
 * [[Hans J. Briegel]], [[Dan E. Browne]], [[Wolfgang Dür]], [[Robert Raussendorf]], [[Maarten Van den Nest]], *Measurement-based quantum computation*, Nature Physics **5** 1 (2009) 19-26 &lbrack;[arXiv:0910.1116](https://arxiv.org/abs/0910.1116), [doi:10.1038/nphys1157](https://doi.org/10.1038/nphys1157)&rbrack;
 
+* [[Tzu-Chieh Wei]], *Measurement-Based Quantum Computation*, Oxford Research Encyclopedia of Physics (2021) &lbrack;[arXiv:2109.10111](https://arxiv.org/abs/2109.10111), [doi:10.1093/acrefore/9780190871994.013.31](https://doi.org/10.1093/acrefore/9780190871994.013.31)&rbrack;
+
+
 Towards formalizing measurement-based quantum protocols:
 
 * {#DanosKahsefiPanangaden07} [[Vincent Danos]], [[Elham Kashefi]], [[Prakash Panangaden]], *The Measurement Calculus*, Journal of the ACM, **54** 2 (2007) &lbrack;[arXiv:0704.1263](https://arxiv.org/abs/0704.1263), [doi:10.1145/1219092.1219096](https://doi.org/10.1145/1219092.1219096)&rbrack;
