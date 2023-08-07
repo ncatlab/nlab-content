@@ -500,10 +500,11 @@ is the usual type of [[q-bits]].
 With the above modal quantum logic, we may naturally type ([[controlled quantum gates|controlled]]) [[quantum gates]] as follows:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/ControlledQuantumGateTyping-230806.jpg" width="870">
+<img src="https://ncatlab.org/nlab/files/ControlledQuantumGateTyping-230807.jpg" width="870">
 </center>
 
-As indicated at the bottom, we may understand coherently controlled quantum gates as $\bigcirc$-effectful programs in the sense of [[monads in computer science]].
+
+As indicated at the bottom, we may understand classically [[controlled quantum gates]] as $\bigcirc$-effectful programs (in the sense of [[monads in computer science]]).
 
 Next we see that the $\bigcirc$-effect handling, in this sense, is nothing but [[quantum measurement]]:
 
