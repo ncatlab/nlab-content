@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -45,10 +44,10 @@ Some references use "categorical algebra" much as a synonym for [[category theor
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994)
 
+
 Discussion more focused on actual [[universal algebra]]:
 
 * [[R. F. C. Walters]], *A categorical approach to universal algebra*, Ph.D. Thesis (1970) &lbrack;[anu:1885/133321](https://openresearch-repository.anu.edu.au/handle/1885/133321)&rbrack;
-
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
