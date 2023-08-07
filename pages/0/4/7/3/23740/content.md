@@ -84,7 +84,7 @@ Thus, we have established that cancellative elements and non-zero-divisors are t
 Since a [[zero-divisor]] is defined in the nLab as not being a non-zero-divisor, 
 
 \begin{theorem}
-In a commutativ ring $R$, an elmement $e \in R$ is a [[zero-divisor]] if and only if it is non-cancellative
+In a commutative ring $R$, an element $e \in R$ is a [[zero-divisor]] if and only if it is non-cancellative
 $$\mathrm{isZeroDivisor}(e) \iff \neg \mathrm{isCancellative}(e)$$
 \end{theorem}
 
@@ -120,7 +120,7 @@ If $R$ is an [[integral domain]], then $R[\mathrm{Can}(R)^{-1}]$ is the [[field 
 
 ### Unique factorization domains ###
 
-In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization domain]] is defined as a [[GCD domain]] $R$ for which the [[quotient object|quotient]] monoid of the multiplciative subset of cancellative elements by the group of units $\mathrm{Can}(R)/R^\times$ admits a complete factorization. 
+In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization domain]] is defined as a [[GCD domain]] $R$ for which the [[quotient object|quotient]] monoid of the multiplicative subset of cancellative elements by the group of units $\mathrm{Can}(R)/R^\times$ admits a complete factorization. 
 
 ## See also ##
 
