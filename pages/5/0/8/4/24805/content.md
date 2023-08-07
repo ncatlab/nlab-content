@@ -29,16 +29,16 @@ The principle can be useful in practice for optimizing [[quantum circuits]]. It 
 ## Formalizations
  {#Formalizations}
 
-See [Gurevich & Blass 2021](#GurevichBlass21) for a general formalization and proof. 
+One way to formalize the deferred measurement principle is briefly mentioned in [Staton (2015), Axiom B (p. 6 of 12)](#Staton15), there proposed as an [[axiom]] to be satisfied by [[quantum programming languages]]. 
 
-As an [[axiom]] for [[syntax]] of a [[quantum programming language]]: [Staton (2015), Axiom B (p. 6 of 12)](#Staton15).
+Another formalization and proof has been offered in [Gurevich & Blass 2021](#GurevichBlass21). 
+
 
 {#InTermsOfQuantumModalLogic}
-Alternatively: In terms of the discussion at *[[quantum circuits via dependent linear types]]*, the deferred measurement principle is essentially the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$ on [[dependent linear types]], like this:
-
+A quick *proof* of essentially the formulation of [Staton (2015)](#Staton15) exists in the [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) discussed at *[[quantum circuits via dependent linear types]]*: Here the deferred measurement principle is essentially the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$ on [[dependent linear types]], like this:
 
 \begin{imagefromfile}
-    "file_name": "DeferredMeasurementAsKleisliEquiv-221027b.jpg",
+    "file_name": "DeferredMeasurementAsKleisliEquiv-230807.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
