@@ -211,13 +211,15 @@ Here in the bottom left we assume that the state spaces  themselves are independ
 
 ## Examples
 
-
 ### Controlled NOT gate
+ {#ExampleCNOT}
 
-The following shows the [[CNOT gate]] in its two incarnations as a classically or a quantumly controlled quantum gate (also shown, for completeness, is a [[quantum measurement]] gate before or after, cf. at *[[deferred measurement principle]]*).
+The following shows the [[CNOT gate]] in its two incarnations as a classically or a quantumly controlled quantum gate:
+
+
 
 \begin{imagefromfile}
-    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "file_name": "CNOTgate-typing-230808.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
