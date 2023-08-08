@@ -822,22 +822,21 @@ x_{m 1} &amp; x_{m 2} &amp; \dots &amp; x_{m n}
 
 The operations that commute with a given set of operations in an algebraic theory form a subtheory. The __centre__ of an algebraic theory is given by the operations that commute with all the operations of the theory. An algebraic theory is __commutative__ if every pair of its operations commute. Another way of describing the centre is to say that it consists of those operations which are also [[homomorphisms]]; an algebraic theory is commutative if all of its operations are homomorphisms.
 
-Here is a more formal definition, expressed in terms of structure on the monad $T \colon Set \to Set$ associated with the algebraic theory. 
+This concept may also be formalized in the language of [[monads]], where it naturally generalizes to the concept of [[commutative monad]]. Suppose given an [[algebraic theory]] that admits the construction of a free algebra on any set, so that the theory may be equivalently described by a monad $T$ on $Set$, the category of sets. The monad $T$ is automatically strong, i.e., carries a left strength 
 
+$$\sigma_{A,B} \,\colon\, A \times (T B) \longrightarrow T(A \times B)$$ 
+
+(by [this example](strong+monad#example-in-set)), from which a right strength 
+
+$$\tau_{A,B} \,\colon\, (T A) \times B \longrightarrow T(A \times B)$$ 
+
+can be derived by exploiting the symmetry ([[braiding]]) of the cartesian product. 
+
+In this notation, we have the following definition. 
 \begin{definition}\label{CommutativeMonad}
-**([[commutative monads]])**
+**([[commutative monads]] on $Set$)**
 \linebreak
-Consider a [[monad]] $(T,\, m\colon T T \to T)$ on a [[symmetric monoidal category]] which is *[[strong monad|strong]]*, with
-
-* *left strength* $\sigma_{A,B} \,\colon\, A \otimes (T B) \longrightarrow T(A \otimes B)$,
-
-* *right strength* $\tau_{A,B} \,\colon\, (T A) \otimes B \longrightarrow T(A \otimes B)$
-
-(which are related by [[symmetric monoidal category|symmetry]]).
-For discussion of [[algebraic theories]] one is typically interested in the case that $T$ is a monad on [[Set]] equipped with its symmetric [[cartesian monoidal category|catesian monoidal]]-structure, in which case $T$ is automatically strong (by [this example](strong+monad#example-in-set)).
-
-
-Now $T$ is called _[[commutative monad|commutative]]_ if there is [[equality]] $\alpha = \beta$ between the two maps 
+$T$ is called _[[commutative monad|commutative]]_ if there is [[equality]] $\alpha = \beta$ between the two maps 
 
 $$
   \alpha 
@@ -868,7 +867,7 @@ where
       }{\longrightarrow} 
     T T(A \times B) 
       \overset{
-        m(A \times B)
+        m(A \otimes B)
       }{\longrightarrow} 
     T(A \times B)
     \,.
