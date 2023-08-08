@@ -42,7 +42,7 @@ On how ontological reductionism is problematic in the philosophy of science:
 
 * Jimmy Aames (2019) Patternhood and Generality: A Peircean Approach to Emergence. European Journal of Pragmatism and American Philosophy, XI (2). ([pdf](https://philsci-archive.pitt.edu/16878/1/Patternhood%20and%20Generality.pdf), [web](https://philsci-archive.pitt.edu/16878/))
 
-On how [[condensed matter physics]] cannot be fully reduced to quantum mechanical theory for all the atoms of which the system consists:
+A claim that [[condensed matter physics]] cannot be fully reduced to quantum mechanical theory for all the atoms of which the system consists:
 
 * Barbara Drossel, _Strong emergence in condensed matter physics_ ([arXiv:1909.01134](https://arxiv.org/abs/1909.01134)).
 
