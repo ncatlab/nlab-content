@@ -8,6 +8,20 @@ Augustus De Morgan is a 19th-century mathematician and logician most famous for 
 
 'I end with a word on the new symbols which I have employed. Most writers on logic strongly object to all symbols.  \[...\]  I should advise the reader not to make up his mind on this point until he has well weighed two facts which nobody disputes, both separately and in connexion.  First, logic is the only science which has made no progress since the revival of letters; secondly, logic is the only science which has produced no growth of symbols.'
 
+## Related entries
+
+* [[De Morgan laws]]
+
+* [[De Morgan duality]]
+
+* [[De Morgan Heyting algebra]]
+
+* [[De Morgan Heyting category]]
+
+* [[De Morgan algebra]]
+
+* [[De Morgan topos]]
+
 
 category: people
 
