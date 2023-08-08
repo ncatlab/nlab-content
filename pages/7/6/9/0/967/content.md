@@ -135,7 +135,7 @@ But cototal categories do occur:
 
 ## References
 
-* {#StreetWalters}[[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-category_, (contains the original definition of total categories)
+* {#StreetWalters}[[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_, Journal of Algebra, 50 no. 2 (1978), p. 350-379, [doi:10.1016/0021-8693(78)90160-6](https://doi.org/10.1016/0021-8693%2878%2990160-6),  (contains the original definition of total categories)
 
 *  {#Kelly} [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
 
