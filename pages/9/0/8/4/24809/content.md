@@ -169,7 +169,7 @@ A basic example of this construction is the [[controlled quantum NOT gate]].
 
 The following is a more general definition along the lines of *[[quantum circuits via dependent linear types]]*.
 
-Given a ([[finite set|finite]]) [[set]] $B$ of "control parameter values" (typically $B =$ [[Bool]] = $\{0, 1\}$), a $B$-[[indexed set]] of [[quantum logic gates]] is a [[morphism]]
+Given a ([[finite set|finite]]) [[set]] $W$ of "control parameter values" (typically $W =$ [[Bool]] = $\{0, 1\}$), a $W$-[[indexed set]] of [[quantum logic gates]] is a [[morphism]]
 
 $$
   \begin{array}{rccc}
@@ -180,84 +180,23 @@ $$
     &
     \mathscr{H}_\bullet
     \\
-    b \colon B \;\; \vdash \;
+    w \colon W \;\; \vdash \;
     &
-    \mathscr{H}_b
+    \mathscr{H}_w
     &
-    \xrightarrow{\;\;\; G_b \;\;\;}
+    \xrightarrow{\;\;\; G_w \;\;\;}
     &
-    \mathscr{H}_b
+    \mathscr{H}_w
   \end{array}
 $$
 
-in a [[category]] $LinType_B$ of $B$-[[dependent linear types]] (typically: [[complex vector bundles]] over $B$), which is [[fiber]]-wise a [[linear map]] $G_b$ with given desired properties ([[invertible]], [[unitary]], ...).
+in a [[category]] $LinType_B$ of $B$-[[dependent linear types]] (typically: [[complex vector bundles]] over $W$), which is [[fiber]]-wise a [[linear map]] $G_w$ with given desired properties ([[invertible]], [[unitary]], ...).
 
-As such, we may call this the **classically controlled quantum gate**, whose classical control parameter is $b \in B$ and whose quantum gate action for a given such parameter is $G_b$.
+As such, we may call this the **classically controlled quantum gate**, whose classical control parameter is $w \in W$ and whose quantum gate action for a given such parameter is $G_w$.
 
-Typically the state spaces $\mathscr{H}_\bullet$ are independent of $b \colon B$, say equal to some $\mathscr{K},$ and only the quantum gates operating on a fixed state space $\mathscr{H}$ varies with the control parameter.
-
-In this case, if we denote by
-
-$$
-  \mathscr{B}_\bullet
-  \;\coloneqq\;
-  (p_B)^\ast \mathbb{1}
-  \,,\;\;\;
-  \mathscr{B} 
-  \;\coloneqq\;
-  \Box_B \mathscr{B}_\bullet
-$$
-
-the quantum state space(s) of the control parameter,
-then a classically $B$-controlled quantum gate is equivalently a morphism in $LinType_B$ between the [[external tensor products]] of $\mathscr{B}_\bullet$ with $\mathscr{K}$: 
-
-$$
-  \array{
-    &
-    \mathscr{B}_\bullet 
-    \boxtimes
-    \mathscr{K}
-    &
-    \xrightarrow{\phantom{----}}
-    &
-    \mathscr{B}_\bullet 
-    \boxtimes
-    \mathscr{K}
-    \\
-    b \colon B \;\; \vdash
-    &
-    \mathscr{K}
-    &
-    \xrightarrow{\phantom{--}G_b\phantom{--}}
-    &
-    \mathscr{K}
-  }
-$$
-
-On the other hand, the corresponding **quantumly-controlled** quantum gate is the image of this under the [[necessity]]-[[comonad]] (in terms of *quantum modal logic*, see [here](necessity+and+possibility#ModalQuantumLogic)), hence under [[direct sum]]:
-
-\[
-  \label{QuantumlyControlledQuantumGate}
-  \Box_B G_\bullet 
-  \;\colon\;
-  \Box_B \mathscr{H}_\bullet
-  \;\simeq\;
-  \underset{b \colon B}{\bigoplus}
-  \mathscr{H}_b
-  \xrightarrow{
-    \;\;\;   
-    \underset{b \colon B}{\oplus}
-    G_b
-    \;\;\;
-  }
-  \underset{b \colon B}{\bigoplus}
-  \mathscr{H}_b
-  \;\simeq\;
-  \Box_B \mathscr{H}_\bullet
-\]
 
 \begin{imagefromfile}
-    "file_name": "ParameterizedQuantumGates-221027.jpg",
+    "file_name": "ControlledQuantumGateTyping-230808.jpg",
     "width": "750",
     "unit": "px",
     "margin": {
@@ -268,12 +207,31 @@ On the other hand, the corresponding **quantumly-controlled** quantum gate is th
     }
 \end{imagefromfile}
 
+Here in the bottom left we assume that the state spaces  themselves are independent of $w \colon W$, hence $\mathscr{H}_\bullet \,=\, \mathscr{H}$, which is typically the case in application.
 
 ## Examples
 
-* [[controlled NOT gate]] 
 
-* the correction-operation in the [[quantum teleportation protocol]] is given by classically-controlled quantum gates
+### Controlled NOT gate
+
+The following shows the [[CNOT gate]] in its two incarnations as a classically or a quantumly controlled quantum gate (also shown, for completeness, is a [[quantum measurement]] gate before or after, cf. at *[[deferred measurement principle]]*).
+
+\begin{imagefromfile}
+    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+### Quantum teleportation
+
+Also the correction-operation in the [[quantum teleportation protocol]] ("Bob's operation") is given by classically-controlled quantum gates.
 
 ## Properties
 
