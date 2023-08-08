@@ -499,14 +499,24 @@ is the usual type of [[q-bits]].
 
 With the above modal quantum logic, we may naturally type ([[controlled quantum gates|controlled]]) [[quantum gates]] as follows:
 
-<center>
-<img src="https://ncatlab.org/nlab/files/ControlledQuantumGateTyping-230807.jpg" width="870">
-</center>
-
+\begin{imagefromfile}
+    "file_name": "ControlledQuantumGateTyping-230808.jpg",
+    "width": "750",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 As indicated at the bottom, we may understand classically [[controlled quantum gates]] as $\bigcirc$-effectful programs (in the sense of [[monads in computer science]]).
 
+(In the bottom left we assume that the state spaces  themselves are independent of $w \colon W$, hence $\mathscr{H}_\bullet \,=\, \mathscr{H}$, which is typically the case in application.)
+
 Next we see that the $\bigcirc$-effect handling, in this sense, is nothing but [[quantum measurement]]:
+
 
 ### Quantum measurement
  {#QuantumMeasurement}
@@ -595,6 +605,19 @@ Given all this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) f
     }
 \end{imagefromfile}
 
+For examples, the following shows (deferred) quantum measurement before (after) a [[CNOT gate]]:
+
+\begin{imagefromfile}
+    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
 
 
