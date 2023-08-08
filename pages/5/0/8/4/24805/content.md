@@ -50,12 +50,30 @@ A quick *proof* of essentially the formulation of [Staton (2015)](#Staton15) exi
 \end{imagefromfile}
 
 
+\linebreak
 
-## Deferred measurement and Interpretations
+{#ExampleCNOT} For the **example** of a [[CNOT gate]]:
+
+\begin{imagefromfile}
+    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+## Interpretation of Deferred measurement
  {#DeferredMeasurementAndInterpretations}
 
 A key argument in the discussion of [Everett (1957)](interpretation+of+quantum+mechanics#Everett57a), which famously led its author to the *[[many-worlds interpretation of quantum mechanics]]*, is that *intermediate state collapse* caused by one observer seems [[paradox|paradoxical]], since to a later observer the analogous state collapse occurs (only) at a later time. 
-(This is really the same paradox as that of [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat), if we grant that the cat is certainly an observer, too).
+(This is really the same paradox as that of [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat), if we grant that the cat the role of the first observer).
 
 [Everett (1957)](interpretation+of+quantum+mechanics#Everett57a) casts this into the following prose:
 
