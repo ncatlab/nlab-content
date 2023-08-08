@@ -19,8 +19,9 @@
 
 In [[logic]], the __De Morgan laws__ refer to the the following laws:
 $$ \array {
-   \neg(p \wedge q) \iff \neg{p} \vee \neg{q} ,\\
-   \neg(p \vee q) \iff \neg{p} \wedge \neg{q} .
+   \neg(p \wedge q) \;\iff\; \neg{p} \vee \neg{q} ,
+   \\
+   \neg(p \vee q) \;\iff\; \neg{p} \wedge \neg{q} .
 } $$
 
 More generally, the __De Morgan laws__ are the statements, valid in various forms of logic, that [[De Morgan duality]] is mediated by [[negation]]. 
@@ -92,6 +93,7 @@ with the join and meet being the pseudolattice operations and negation being the
 
 In particular, the de Morgan laws are valid for the [[integers]], the [[rational numbers]], and the [[Dedekind real numbers]], with the join being the maximum function and the meet being the minimum function. 
 
+
 ## Related concepts
 
 * [[De Morgan Heyting algebra]]
@@ -106,9 +108,16 @@ In particular, the de Morgan laws are valid for the [[integers]], the [[rational
 
 * [[De Morgan duality]]
 
+
 ## References
 
+Named after *[[Augustus De Morgan]]*.
+
 * {#Freyd08} [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
+
+See also: 
+
+* Wikipedia, *[De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws)*
 
 
 [[!redirects De Morgan law]]
