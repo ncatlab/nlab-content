@@ -605,26 +605,13 @@ Given all this, the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) f
     }
 \end{imagefromfile}
 
-For examples, the following shows (deferred) quantum measurement before (after) a [[CNOT gate]]:
-
-\begin{imagefromfile}
-    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
-    "width": "800",
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    }
-\end{imagefromfile}
 
 
 
  
 \linebreak
 
-## Example: Traditional QBit-based quantum circuits
+## Example: Modal typing of basic QBit gates
  {#QCwthLHT-QBits}
 
 We spell out in terms of the above [[modal type theory|modal]] [[quantum logic]] found inside [[dependent linear type theory]] the traditional zoo of [[quantum gates]] and basic [[quantum circuits]] acting on [[tensor products]] of [[qbits]]. On the one hand this serves to show how all the expected constructions are naturally recovered, on the other hand it enhances these standard concepts by what is de-facto a [[quantum programming language]] for their classically-controlled versions (as such somewhat akin to parts of [[Quipper]])
@@ -645,7 +632,35 @@ The typing of the [[CNOT gate]] in its two incarnations as a classically or a qu
     }
 \end{imagefromfile}
 
-(...)
+
+Here the [[quantum measurement]] on one $QBit$:
+
+\begin{imagefromfile}
+    "file_name": "QBitMeasurementTyping-230808.jpg",
+    "width": "400",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+and their combination, in accord with the [[deferred measurement principle]]:
+
+\begin{imagefromfile}
+    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 
 ## Quantum Programming Language
