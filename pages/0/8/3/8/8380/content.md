@@ -665,13 +665,19 @@ The original observation of monads as "notions of computation" is:
 
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
+Further discussion:
+
+* [[Gordon Plotkin]], [[John Power]], *Notions of Computation Determine Monads*, in: *Foundations of Software Science and Computation Structures* FoSSaCS 2002, Lecture Notes in Computer Science **2303**, Springer (2002) &lbrack;[doi:10.1007/3-540-45931-6_24](https://doi.org/10.1007/3-540-45931-6_24), [era:1842/196](https://era.ed.ac.uk/handle/1842/196)&rbrack; 
+
 On the impact of [Moggi (1991)](#Moggi91):
 
-* {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive Volume 172, April, 2007 Pages 437-458  ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
+* {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive **172** (2007) 437-458  &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+
 
 In the generality of [[relative monads]]:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], Section 2 of: *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
+
 
 The dual notion of [[comonads in computer science]] as modelling *contexts*: 
 
