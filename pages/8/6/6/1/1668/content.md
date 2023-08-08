@@ -865,7 +865,8 @@ where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m 
 A classical example of a commutative algebraic theory is the theory of [[Abelian groups]]. This is a slightly misleading example: it is not true in general that the operations of a commutative algebraic theory are always commutative in the sense that they are invariant under permutation of their operands. That this is true for Abelian groups follows from the [[Eckmann–Hilton argument]], since a binary operation $\otimes$ commutes with itself when
 \[(a \otimes b) \otimes (c \otimes d) = (a \otimes c) \otimes (b \otimes d)\]
 and, since the theory of groups is associative and unital, we can take $a = d = 1$ and deduce that
-\[b \otimes c = c \otimes b\]
+\[b \otimes c = c \otimes b.\] 
+However, if we suppose *only* a binary operation that commutes with itself, then the operation is not invariant under a transposition of its arguments, since there are models of that theory like $(a, b) \mapsto a \otimes b \coloneqq a$ where such invariance is violated.  
 
 ### Abstract formulation 
 
