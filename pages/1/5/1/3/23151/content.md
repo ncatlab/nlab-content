@@ -66,7 +66,7 @@ $$
   \mathcal{C}
 $$
 
-on the [[contravariant functor|contravariant]] [[pseudofunctor]] on [[Set]] which sends a set $S$ to the $S$-indexed [[product category]] of $\mathcal{C}$ with itself (equivalently: to the [[functor category]] into $\mathcal{C}$ out of the [[discrete category]] on $\mathcal{C}$):
+on the [[contravariant functor|contravariant]] [[pseudofunctor]] on [[Set]] which sends a set $S$ to the $S$-indexed [[product category]] of $\mathcal{C}$ with itself (equivalently: to the [[functor category]] into $\mathcal{C}$ out of the [[discrete category]] on $S$):
 
 $$
   \array{
