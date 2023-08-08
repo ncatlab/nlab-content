@@ -42,6 +42,19 @@ On how ontological reductionism is problematic in the philosophy of science:
 
 * Jimmy Aames (2019) Patternhood and Generality: A Peircean Approach to Emergence. European Journal of Pragmatism and American Philosophy, XI (2). ([pdf](https://philsci-archive.pitt.edu/16878/1/Patternhood%20and%20Generality.pdf), [web](https://philsci-archive.pitt.edu/16878/))
 
+On how [[condensed matter physics]] cannot be fully reduced to quantum mechanical theory for all the atoms of which the system consists:
+
+* Barbara Drossel, _Strong emergence in condensed matter physics_ ([arXiv:1909.01134](https://arxiv.org/abs/1909.01134)).
+
+On the use of mathematical tools, including [[exact sequences]], to represent emergence (termed here generative and interactive effects:
+
+* Elie Adam, _Systems, Generativity and Interactional Effects_ ([pdf](https://elieadam.com/eadam_PhDThesis.pdf))
+
+On zeroth and first 'homotopy posets' to measure obstructions to compositionality:
+
+* Caterina Puca, [[Amar Hadzihasanovic]], Fabrizio Genovese, [[Bob Coecke]], _Obstructions to Compositionality_ ([arXiv:2307.14461](https://arxiv.org/abs/2307.14461)).
+
+
 ## External links
 
 * Wikipedia, _[Emergentism](https://en.wikipedia.org/wiki/Emergentism)_
