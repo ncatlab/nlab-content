@@ -53,7 +53,7 @@ $$
 
 This yields a [[bicategory]] in which
 
-* [[objects]] are [[categories]],
+* [[objects]] are [[small categories]],
 
 * [[morphism]]s are profunctors with the above composition, and
 
