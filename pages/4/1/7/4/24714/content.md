@@ -49,6 +49,8 @@ In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT 
 \end{imagefromfile}
 
 
+[[CNOTGateTyping-230808.jpg:file]]
+
 
 Similarly, by the *CCNOT*-gate (or *Toffoli gate*) one means the operation on triples of [[bits]]/[[qbit]] which keeps the first two and reverses the third iff the first two are both set.
 
