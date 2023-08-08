@@ -922,7 +922,34 @@ A classical example of a commutative algebraic theory is the theory of [[Abelian
 \[(a \otimes b) \otimes (c \otimes d) = (a \otimes c) \otimes (b \otimes d)\]
 and, since the theory of groups is associative and unital, we can take $a = d = 1$ and deduce that
 \[b \otimes c = c \otimes b.\] 
-However, if we suppose *only* a binary operation that commutes with itself, then the operation is not invariant under a transposition of its arguments, since there are models of that theory like $(a, b) \mapsto a \otimes b \coloneqq a$ where such invariance is violated.  
+However, if we suppose *only* a binary operation that commutes with itself, then the operation is not invariant under a transposition of its arguments, since there are models of that theory like $(a, b) \mapsto a \otimes b \coloneqq a$ where such invariance is violated.
+
+There is a fairly general situation in which commutativity of an operator with itself implies that the operation is invariant under permutation of arguments.
+
+\begin{proposition}
+Let $f$ and $g$ be $n$-ary operations and let $1$ be a constant that is a unit for both $f$ and $g$, in the sense that $x \vdash f(1, \ldots, 1, x, 1, \ldots, 1) = x$ and similarly for $g$. If $f$ and $g$ commute, then $f = g$ and $f$ is invariant under permutation of its operands.
+\end{proposition}
+
+\begin{proof}
+Let $\sigma$ be a permutation of $\{ 1, \ldots, n \}$. Let $y_1, \ldots, y_n$ be variables.
+Define a matrix $\{ x_{ij} \}_{ij}$ where $x_{i \sigma_i} = y_i$ and $x_{ij} = 1$ otherwise. Then commutativity of $f$ and $g$ implies that
+\[f(g(x_{11}, \ldots, x_{1n}), \ldots, g(x_{n1}, \ldots, x_{nn})) = g(f(x_{11}, \ldots, y_{n1}), \ldots, f(y_{1n}, \ldots, y_{nn}))\]
+and hence that
+\[f(g(1, \ldots, 1, y_1, 1, \ldots, 1), \ldots, g(1, \ldots, 1, y_n, 1, \ldots, 1)) = g(f(1, \ldots, 1, y_{\sigma_1}, 1, \ldots, 1), \ldots, f(1, \ldots, 1, y_{\sigma_n}, 1, \ldots, 1))\]
+hence
+\[f(y_1, \ldots, y_n) = g(y_{\sigma_1}, \ldots, y_{\sigma_n})\]
+Taking $\sigma$ to be the identity permutation, we have that $f = g$. It then follows that $f$ is invariant under permutation of its operands.
+\end{proof}
+
+This implies, for instance, that the $\otimes$ of an Abelian group is commutative.
+
+\begin{corollary}
+In a commutative algebraic theory such that every operation has a unit, every operation is invariant under permutation of its operands, and there is at most one $n$-ary operation for each $n \in \mathbb{N}$.
+\end{corollary}
+
+\begin{proof}
+In a commutative algebraic theory, there is at most constant, so the units for each operator are equal. The result then follows from the previous proposition, since every operation commutes with every other operation.
+\end{proof}
 
 ### Abstract formulation 
 
