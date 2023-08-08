@@ -383,6 +383,11 @@ On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[dou
 
 * [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
 
+An [[(∞,1)-category theory|(∞,1)-category theoretic]] version of proarrow equipments is in
+
+* Jaco Ruit, _Formal category theory in ∞-equipments I_ ([arXiv:2308.03583](https://arxiv.org/abs/2308.03583))
+
+
 
 
 [[!redirects 2-category equipped with proarrows]]
