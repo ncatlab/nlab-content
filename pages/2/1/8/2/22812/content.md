@@ -9,7 +9,7 @@ This page compiles pointers for the collection of seminar notes
 
   * original: [pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf), [[FGA.pdf:file]]
 
-    English translation by [[Tim Hosgood]]: [pdf](https://thosgood.com/translations/#fga), [web version](https://thosgood.com/fga).
+    English translation by [[Tim Hosgood]]: [web version](https://thosgood.com/fga).
 
     [Wikipedia entry](https://en.wikipedia.org/wiki/Fondements_de_la_G%C3%A9ometrie_Alg%C3%A9brique)
 
