@@ -77,7 +77,7 @@ $$
        Mat_{2^{\tfrac{d}{2}}}(\mathbb{C}) & for \, d \, even
        \\
        Mat_{2^{\tfrac{d-1}{2}}}(\mathbb{C}) \oplus Mat_{2^{\tfrac{d-1}{2}}}(\mathbb{C}) 
-       & for \, d \, odd
+       & for \, d \,  odd
     }
   \right.
 $$
