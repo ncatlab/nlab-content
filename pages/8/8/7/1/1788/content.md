@@ -18,3 +18,6 @@
   &
   T(Y)
 \end{tikzcd}
+
+
+Let $\mathbf{B}\mathbb{N}$ be the one-object category with morphisms the non-negative integers concatenated by addition. A functor $F:\mathbb{N}\to\mathbb{N}$ is necessarily of the form $F(n)=m\cdot n$.
