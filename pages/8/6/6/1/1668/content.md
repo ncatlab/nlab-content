@@ -824,23 +824,79 @@ The operations that commute with a given set of operations in an algebraic theor
 
 Here is a more formal definition, expressed in terms of structure on the monad $T \colon Set \to Set$ associated with the algebraic theory. 
 
-+-- {: .num_def} 
-###### Definition 
+\begin{definition}\label{CommutativeMonad}
+**([[commutative monads]])**
+\linebreak
+Consider a [[monad]] $(T,\, m\colon T T \to T)$ on a [[symmetric monoidal category]] which is *[[strong monad|strong]]*, with
 
-$T$ is a _[[commutative monad]]_ if there is an equality between two maps 
+* *left strength* $\sigma_{A,B} \,\colon\, A \otimes (T B) \longrightarrow T(A \otimes B)$,
 
-$$\alpha = \beta \colon T A \times T B \stackrel{\to}{\to} T(A \times B)$$ 
+* *right strength* $\tau_{A,B} \,\colon\, (T A) \otimes B \longrightarrow T(A \otimes B)$
+
+(which are related by [[symmetric monoidal category|symmetry]]).
+For discussion of [[algebraic theories]] one is typically interested in the case that $T$ is a monad on [[Set]] equipped with its symmetric [[cartesian monoidal category|catesian monoidal]]-structure, in which case $T$ is automatically strong (by [this example](strong+monad#example-in-set)).
+
+
+Now $T$ is called _[[commutative monad|commutative]]_ if there is [[equality]] $\alpha = \beta$ between the two maps 
+
+$$
+  \alpha 
+  ,
+  \beta 
+    \;\colon\; 
+  T A \times T B 
+    \rightrightarrows
+  T(A \times B)
+  \,,
+$$ 
 
 where 
 
 * $\alpha$ is the composite 
-$$T A \times T B \stackrel{\sigma_{A, T B}}{\to} T(A \times T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
-Here $\sigma$ denotes the _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. 
+
+  \[
+    \label{Alpha}
+    \alpha_{A,B}
+    \;\colon\;
+    T A \times T B 
+      \overset{
+        \sigma_{A, T B}
+      }{\longrightarrow} 
+    T(A \times T B) 
+      \overset{
+        T(\tau_{A, B})
+      }{\longrightarrow} 
+    T T(A \times B) 
+      \overset{
+        m(A \times B)
+      }{\longrightarrow} 
+    T(A \times B)
+    \,.
+  \]
 
 * $\beta$ is the composite 
-$$T A \times T B \stackrel{\tau_{T A, B}}{\to} T(T A \times B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
 
-=-- 
+  \[
+    \label{Beta}
+    \beta_{A,B}
+    \;\colon\;
+    T A \times T B 
+      \overset{
+        \tau_{T A, B}
+      }{\longrightarrow} 
+    T(T A \times B) 
+      \stackrel{
+        T(\sigma_{A, B})
+      }{\longrightarrow} 
+    T T(A \times B) 
+      \stackrel{
+        m(A \times B)
+      }{\longrightarrow} 
+    T(A \times B)
+    \,.
+  \] 
+
+\end{definition}
 
 It is worth checking what this description gives more explicitly. Starting with a pair of elements in $T A \times T B$, 
 
@@ -880,12 +936,13 @@ If $S$ and $T$ are commutative theories, then their coproduct in the category of
 
 ### Commutative theory as monoidal monad 
 
-Let $T$ be the $Set$-monad of a commutative theory. Then the map 
+Let $T$ be the $Set$-monad of a commutative theory. Then the map (eq:Alpha)
 
 $$\alpha_{A, B}: T A \times T B \to T(A \times B)$$ 
 
-as defined above can be shown to be the structure map for a monoidal structure on $T$, i.e., making $T$ a lax (symmetric) monoidal functor, and in fact the monad multiplication and unit become monoidal transformations. 
-In other words, we get a monad in the 2-category of symmetric monoidal categories, lax symmetric monoidal functors, and monoidal transformations: a [[monoidal monad]]. 
+can be shown to be the structure map for a monoidal structure on $T$, i.e., making $T$ a (symmetric) [[lax monoidal functor]], and in fact the monad multiplication and unit become [[monoidal natural transformations]].
+ 
+In other words, we get a monad in the [[2-category]] of symmetric monoidal categories, lax symmetric monoidal functors, and monoidal transformations: a [[monoidal monad]]. 
 
 In fact, it may be shown that commutative Lawvere theories on $Set$ are precisely the same things as (finitary) symmetric monoidal monad structures on $(Set, \times)$, as shown by Anders Kock. For more on this, see [[monoidal monad]]. 
 
