@@ -4,7 +4,7 @@
 
 ## Idea
 
-Neutral constructive mathematics is a branch of [[constructive mathematics]] which simply removes the [[axiom of choice]] and [[excluded middle]] from the [[axioms]] of the [[foundations]], and does not replace it either with weaker versions of the axiom of choice or with axioms which contradict the axiom of choice. 
+Neutral constructive mathematics is a branch of [[constructive mathematics]] which simply removes the [[axiom of choice]] and [[excluded middle]] from the [[axioms]] of the [[foundations]], and does not replace it either with weaker versions of the axiom of choice or with axioms which contradict the axiom of choice. Thus, neutral constructive mathematics is agnostic about the status of the [[axiom of choice]] and [[excluded middle]]. 
 
 As a result, it is the [[internal logic]] of an [[elementary topos]] with [[natural numbers object]]. 
 
@@ -25,6 +25,10 @@ Examples of mathematical foundations which one could do neutral constructive mat
 * the [[internal logic]] of any [[elementary topos]]
 
 ## Consequences
+
+* In general, for any statement $P$ which is true in [[classical mathematics]], the statement that "the [[law of excluded middle]] implies $P$" is true in neutral constructive mathematics. 
+
+* Furthermore, for any statement $P$ which is true in [[classical mathematics]] with the [[axiom of choice]], the statement that "the axiom of choice implies $P$" is true in neutral constructive mathematics. 
 
 ### Real analysis
 
