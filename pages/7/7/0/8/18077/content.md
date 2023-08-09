@@ -31,6 +31,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:\ma
 
 The requirement that $A$ be an [[h-proposition]] is necessary; the law of double negation for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the law of double negation for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
 
+If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of double negation could be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} (\neg \neg P) \to P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} (\neg \neg \mathrm{El}_\Omega(P)) \to \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
+
 There is an alternative presentation of the law of double negation, which uses an [[equivalence type]] for [[logical equivalence]] rather than a [[function type]] for [[implication]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:\mathrm{isProp}(A) \to ((\neg \neg A) \simeq A)}$$
@@ -38,6 +42,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:\ma
 In [[dependent type theory]] as [[foundations of mathematics]], the requirement that $A$ be an [[h-proposition]] is also necessary. This alternate law of double negation for general [[types]] implies that all types are [[h-propositions]] a la [[propositional logic as a dependent type theory]], since the double negation of a type is always an [[h-proposition]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{doubleneg}_A:(\neg \neg A) \simeq A}$$
+
+Similarly, if one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, this alternate law of double negation could be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} (\neg \neg P) \simeq P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} (\neg \neg \mathrm{El}_\Omega(P)) \simeq \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
 
 ## Related concepts
 
