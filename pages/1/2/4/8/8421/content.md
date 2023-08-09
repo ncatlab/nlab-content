@@ -240,10 +240,3 @@ Introductory textbook account:
 
 [[!redirects term constructor]]
 [[!redirects term constructors]]
-
-
-[[!redirects inference rule]]
-[[!redirects inference rules]]
-
-[[!redirects rule of inference]]
-[[!redirects rules of inference]]
