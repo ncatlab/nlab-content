@@ -57,7 +57,7 @@ where
 
 * the *[[monad unit]]* $\eta^G \colon id_\mathcal{A}\Rightarrow T^G$ is the [[natural transformation]] given by the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(id_\mathcal{A},\;1_G)\;$, 
 
-* the *monod multiplication* $\mu^G \colon T^G\circ T^G\Rightarrow T^G$ results from the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(T^G\circ T^G,\;\alpha\circ (1_{T^G}\ast\alpha))$.
+* the *monad multiplication* $\mu^G \colon T^G\circ T^G\Rightarrow T^G$ results from the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(T^G\circ T^G,\;\alpha\circ (1_{T^G}\ast\alpha))$.
 
 \end{definition}
 
