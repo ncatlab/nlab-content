@@ -9,46 +9,80 @@
 =--
 =--
 
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-
 ## Idea
+ {#Idea}
 
-Every [[adjunction|right adjoint functor]] $F\dashv G:\mathcal{B}\to\mathcal{A}$ yields by a classical result a [[monad]] on $\mathcal{A}$ with endofunctor $G\circ F$. The **codensity monad** $\mathbb{T}^G$ is a generalization of this monad to functors $G:\mathcal{B}\to\mathcal{A}$ admitting a right [[Kan extension]] $Ran_G G$ of $G$ along itself, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ is a right adjoint.
+Recall (eg. from [here](monad#RelationToAdjunctionsAndMonadicity)) that every [[right adjoint functor]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ indues a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
 
-The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
+The notion of the *codensity monad* $\mathbb{T}^G$ is a generalization of this construction to functors $G \colon \mathcal{B}\to\mathcal{A}$ that need not be [[right adjoints]] but do at least admit a right [[Kan extension]] $Ran_G G$ along themselves, such that both constructions agree when $G$ is in fact a [[right adjoint]].
 
-The same idea applies to [[2-categories]] or [[bicategories]] more general than $Cat$: codensity monads can be defined whenever suitable right Kan extensions exist. 
+The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the [[identity functor|identity]] monad iff $G \colon \mathcal{B}\to\mathcal{A}$ is a [[codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
+
+The same idea applies to [[2-categories]] or [[bicategories]] more general than [[Cat]]: codensity monads can be defined whenever suitable right Kan extensions exist. 
+
 
 ## Definition
+ {#Definition}
 
+\begin{definition}
+\label{codensity_monad}
+**(codensity monad)**
+\linebreak
+Let $G \colon \mathcal{B}\to\mathcal{A}$ be a [[functor]] whose [pointwise](Kan+extension#Pointwise) right [[Kan extension]] $Ran_G G \,\equiv\, (T^G,\;\alpha)$ along itself exists, with $\alpha \,\colon\, T^G \circ G \Rightarrow G$ denoting the corresponding [[universal construction|universal]] [[2-morphism]] on the [[underlying]] functor $T^G \colon \mathcal{A}\to\mathcal{A}$. 
 
-+-- {: .num_defn #codensity_monad}
-###### Definition 
-Let $G:\mathcal{B}\to\mathcal{A}$ be a functor such that the pointwise right [[Kan extension]] $Ran_G G=(T^G,\;\alpha)$ of $G$ along itself exists with $\alpha :T^G\circ G\Rightarrow G$ the universal 2-cell of the functor $T^G:\mathcal{A}\to\mathcal{A}$. The _codensity monad_ of $G$ is given by the monad
- $$\mathbb{T}^G:=\langle T^G:\mathcal{A}\to\mathcal{A},\;\eta^G:id_\mathcal{A}\Rightarrow T^G,\;\mu^G:T^G\circ T^G\Rightarrow T^G\rangle$$
- where the unit $\eta^G:id_\mathcal{A}\Rightarrow T^G$ is the natural transformation given by the universal property of $(T^G,\;\alpha)$ with respect to the pair $(id_\mathcal{A},\;1_G)\;$, whereas the multiplication $\mu^G:T^G\circ T^G\Rightarrow T^G$ results from the universal property of $(T^G,\;\alpha)$ with respect to the pair $(T^G\circ T^G,\;\alpha\circ (1_{T^G}\ast\alpha))$.
-
-=--
-
-That this indeed defines a monad follows from the universal properties that come with the Kan extension. Concerning existence, $Ran_G G$ exists for $G:\mathcal{B}\to\mathcal{A}$ e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
-
-In this circumstance, when $\mathcal{B}$ is small and $\mathcal{A}$ is complete, then the codensity monad is equivalently the one that arises from the adjunction 
+The _codensity monad_ of $G$ is the [[monad]]
 $$
+  \mathbb{T}^G
+    \coloneqq
+  \big\langle 
+    \;
+    T^G 
+     \,\colon\,
+    \mathcal{A} \to\mathcal{A}
+    ,\;\;\;
+    \eta^G \colon id_\mathcal{A}\Rightarrow T^G
+    ,\;\;\;
+   \mu^G \colon T^G\circ T^G \Rightarrow T^G
+   \;
+  \big\rangle
+  \,,
+$$
+where 
+
+* the *[[monad unit]]* $\eta^G \colon id_\mathcal{A}\Rightarrow T^G$ is the [[natural transformation]] given by the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(id_\mathcal{A},\;1_G)\;$, 
+
+* the *monod multiplication* $\mu^G \colon T^G\circ T^G\Rightarrow T^G$ results from the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(T^G\circ T^G,\;\alpha\circ (1_{T^G}\ast\alpha))$.
+
+\end{definition}
+
+That Def. \ref{codensity_monad} indeed defines a [[monad]] follows from the [[universal properties]] of the [[Kan extension]]. Concerning existence, $Ran_G G$ exists for $G \colon \mathcal{B}\to\mathcal{A}$, e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
+
+In this circumstance, when $\mathcal{B}$ is small and $\mathcal{A}$ is complete, then the codensity monad is equivalently the one that [arises](monad#RelationToAdjunctionsAndMonadicity) from the [[adjoint functor|adjunction]] 
+\[
+  \label{}
   \mathcal{A}
   \underoverset
     {\underset{}{\longleftarrow}}
     {\overset{hom(-,G)}{\longrightarrow}}
     {\bot}
   [\mathcal{B},Set]^{op}
-$$
-where the left adjoint 
-$hom(-,G):\mathcal{A}\to [\mathcal{B},Set]^{op}$ 
-takes an object $a$ to the functor $hom(a,G-):\mathcal{B}\to Set$. 
-The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical functor from the [[free completion]] of $\mathcal{B}$ to the category $\mathcal{A}$ which has limits. $G$ is codense if and only if the left adjoint is [[full and faithful]].
- 
+  \,,
+\]
+where 
+
+* the [[left adjoint]] 
+$hom(\text{-},G) \,\colon\, \mathcal{A} \to [\mathcal{B},Set]^{op}$ 
+takes any [[object]] $a$ to the [[hom-functor]] $Hom_{\mathcal{A}}\big(a, \,G(\text{-})\big) \colon \mathcal{B}\to Set$, 
+
+* the [[right adjoint]] $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the unique [[preserved limit|limit-preserving]] functor from the [[free completion]] of $\mathcal{B}$ to $\mathcal{A}$ which agrees on $\mathcal{B}$ with $G$. 
+
+$G$ is codense if and only if the left adjoint is [[full and faithful]]. 
 
 ## Examples
 
