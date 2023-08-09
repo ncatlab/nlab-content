@@ -28,9 +28,9 @@ In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **d
 1. A collection of [[judgments]], and
 2. A collection of *steps*, each of which has a (typically finite) list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
    $$ \frac{J_1 \quad \cdots \quad J_n}{J} $$
-   If $n=0$, a step is often called an [[axiom]].
+   If $n=0$, a step is often called an [[axiom]]. In [[set theory]], if $n \gt 0$, a step is usually called an [[axiom schema]]. 
 
-Usually, one generates the steps by using *rules of inference*, which are schematic ways of describing collections of steps, generally involving metavariables.
+Usually, one generates the steps by using **inference rules**, which are schematic ways of describing collections of steps, generally involving metavariables.
 
 +-- {: .un_remark}
 ###### Remark
@@ -45,7 +45,6 @@ The rules of inference express, among other things, that equality is a [[congrue
 $$ \frac{a=a' \quad b=b'}{a\cdot b = a'\cdot b'} $$
 where $a$, $b$, etc. are [[metavariable]]s.  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
 =--
-
 
 ## Proof trees and theorems
 
@@ -86,3 +85,9 @@ Depending on the strength of the metalanguage used to define the judgments and s
 [[!redirects deduction systems]]
 [[!redirects formal system]]
 [[!redirects formal systems]]
+
+[[!redirects inference rule]]
+[[!redirects inference rules]]
+
+[[!redirects rule of inference]]
+[[!redirects rules of inference]]
