@@ -64,6 +64,11 @@ Similarly, by the *CCNOT*-gate (or *Toffoli gate*) one means the operation on tr
 
 ## References
 
+Original discussion:
+
+* [[David E. Deutsch]], Figure 2 in: *Quantum computational networks*, Proceedings of the Royal Society A, **425** 1868 (1989) 73-90 &lbrack;[doi:10.1098/rspa.1989.0099](https://doi.org/10.1098/rspa.1989.0099), [jstor:2398494](https://www.jstor.org/stable/2398494)&rbrack;
+
+
 Textbook accounts:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], p. 21 in: *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
