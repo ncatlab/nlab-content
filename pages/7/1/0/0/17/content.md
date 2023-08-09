@@ -764,13 +764,42 @@ If you want to include multiple contents pages, you can repeat the four lines fr
 
 ### How to draw commutative diagrams and pictures {#diagrams}
 
+
 #### Tikz
+ {#TikZ}
 
-As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. The exception is that one should drop the $\backslash [... \backslash ]$ or double dollar signs which one would ordinarily use when entering and exiting display math mode. 
+You can enter basic [`tikz`](https://en.wikipedia.org/wiki/PGF/TikZ)-diagrams by (omitting the usual math delimiters such as `$$...$$' and instead) 
+directly opening a block of the form
 
-(Earlier statement, in case someone finds it helpful and not confusing: "The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
+<nowiki>
+\begin{tikzpicture}
+</nowiki>
+<nowiki>
+...
+</nowiki>
+<nowiki>
+\end{tikzpicture}
+</nowiki>
 
-Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.&rdquo;)
+or
+
+<nowiki>
+\begin{tikzcd}
+</nowiki>
+<nowiki>
+...
+</nowiki>
+<nowiki>
+\end{tikzcd}
+</nowiki>
+
+and adding usual `tikz`-code inside. 
+
+Beware that this functionality is a hack: The `tikz`-code is compiled server-side and then included as an SVG in the page's HTML source. 
+
+In practice this means that `tikz`-code does not interact with the ambient `instiki`-code, for instance it cannot be included inside bullet-items. To prevent `instiki`'s indentation mechanism to clash, be sure to align the outer block of the `tikz`-code to the left of the edit window.
+
+> (There used to be a claim here that `\usetikzlibrary` can be called inside the `tikz`-code block, but it does not seem to be the case.)
 
 ##### Examples
 
