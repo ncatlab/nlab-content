@@ -39,9 +39,9 @@ Compare with the bare notion of [[axiom]], which are inference rules without any
 
 * [[axiom schema of replacement]]
 
-* The [[set-theoretic axiom of choice]] in bare [[Martin-Löf type theory]] or [[cubical type theory]] with a [[type of all propositions]] $\mathrm{Prop}$ but without any general [[type universes]] is an axiom schema, since without universes one cannot quantify over sets as one could in [[set theory]] or in a [[type theory]] with [[universes]], and so the only way to express the axiom of choice is as an inference rule with a hypothesis; i.e. an axiom schema. 
+* The [[set-theoretic axiom of choice]] in bare [[Martin-Löf type theory]] or [[cubical type theory]] without any [[type universes]] is an axiom schema, since without universes one cannot quantify over types as one could in in a [[type theory]] with [[universes]] or for sets in [[set theory]], and so the only way to express the axiom of choice is as an inference rule with a hypothesis; i.e. an axiom schema. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{ac}_{A, B}:(\mathrm{isSet}(A) \times \Pi x:A.\mathrm{isSet}(B(x))) \to (\Pi P:((\Sigma x:A.B(x)) \to \mathrm{Prop}).(\exists y:B(x).P(x, y)) \to (\exists g:(\Pi x:A.B(x)).\Pi x:A.P(x, g(x))))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A, y:B(x) \vdash P(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{ac}_{A, B, P}:(\mathrm{isSet}(A) \times \Pi x:A.(\mathrm{isSet}(B(x)) \times \Pi y:B(x).\mathrm{isProp}(P(x, y)))) \to ((\exists y:B(x).P(x, y)) \to (\exists g:(\Pi x:A.B(x)).\Pi x:A.P(x, g(x))))}$$
 
 ## Related concepts
 
