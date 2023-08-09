@@ -621,7 +621,7 @@ We spell out in terms of the above [[modal type theory|modal]] [[quantum logic]]
 The typing of the [[CNOT gate]] in its two incarnations as a classically or a quantumly [[controlled quantum gate]]:
 
 \begin{imagefromfile}
-    "file_name": "CNOTgate-typing-230808.jpg",
+    "file_name": "CNOTgate-typing-230809.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
@@ -636,7 +636,7 @@ The typing of the [[CNOT gate]] in its two incarnations as a classically or a qu
 Here the [[quantum measurement]] on one $QBit$:
 
 \begin{imagefromfile}
-    "file_name": "QBitMeasurementTyping-230808.jpg",
+    "file_name": "QBitMeasurementTyping-230809.jpg",
     "width": "400",
     "unit": "px",
     "margin": {
@@ -647,10 +647,11 @@ Here the [[quantum measurement]] on one $QBit$:
     }
 \end{imagefromfile}
 
+
 and their combination, in accord with the [[deferred measurement principle]]:
 
 \begin{imagefromfile}
-    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "file_name": "CNOT-DeferredMeasurement-230809.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
