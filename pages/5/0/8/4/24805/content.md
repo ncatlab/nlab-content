@@ -55,7 +55,7 @@ A quick *proof* of essentially the formulation of [Staton (2015)](#Staton15) exi
 {#ExampleCNOT} For the **example** of a [[CNOT gate]]:
 
 \begin{imagefromfile}
-    "file_name": "CNOT-DeferredMeasurement-230808.jpg",
+    "file_name": "CNOT-DeferredMeasurement-230809.jpg",
     "width": "800",
     "unit": "px",
     "margin": {
