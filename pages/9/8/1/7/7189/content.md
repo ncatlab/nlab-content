@@ -80,7 +80,7 @@ takes any [[object]] $a$ to the [[hom-functor]] $Hom_{\mathcal{A}}\big(a, \,G(\t
 
 * the [[right adjoint]] $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the unique [[preserved limit|limit-preserving]] functor from the [[free completion]] of $\mathcal{B}$ to $\mathcal{A}$ which agrees on $\mathcal{B}$ with $G$. 
 
-(See also [[nerve and realization]]; the description of the adjunction above is a formal dual of a nerve-realization adjunction, and gives the right Kan extension $Ran_G G$ as a pointwise Kan extension.) $G$ is codense if and only if the left adjoint is [[full and faithful]]. 
+(See also [[nerve and realization]]; the description of the adjunction above is a formal dual of a nerve-realization adjunction, and gives the right Kan extension $Ran_G G$ as a pointwise Kan extension. In the pointwise setting, $G$ is codense if and only if the left adjoint is [[full and faithful]].)  
 
 Even if $Ran_G G$ (assuming it exists) is not a pointwise Kan extension, Def. \ref{codensity_monad} indeed defines a [[monad]]. The proof may be given generally for any [[2-category]] in which the right Kan extension $Ran_G G$ exists for a 1-cell $G: \mathcal{B} \to \mathcal{A}$. 
 
