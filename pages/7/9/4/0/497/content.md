@@ -30,13 +30,68 @@ In [[material set theory]], [Shulman 18](#Shulman18) makes the distinction betwe
 
 In [[dependent type theory]], there are many statements of excluded middle. 
 
+### Truncated excluded middle
+
 The statement which directly corresponds to excluded middle in logic states that given a type $P$, if $P$ is a [[mere proposition]], then either $P$ or the negation of $P$ holds
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to (P \vee \neg P)}$$
 
-where $\mathrm{isProp}$ is the [[isProp]] [[modality]] commonly defined as $\prod_{x:P} \prod_{y:P} \mathrm{Id}_P(x, y)$, negation $\neg P$ is simply the the function type $P \to \mathbb{0}$ into the [[empty type]] and [[disjunction]] $A \vee B$ is the [[bracket type]] of the [[sum type]] $[A + B]$. There is also an untruncated version of excluded middle, which uses the sum type instead of the disjunciton:
+where $\mathrm{isProp}$ is the [[isProp]] [[modality]] commonly defined as $\prod_{x:P} \prod_{y:P} \mathrm{Id}_P(x, y)$, negation $\neg P$ is simply the the function type $P \to \mathbb{0}$ into the [[empty type]] and [[disjunction]] $A \vee B$ is the [[bracket type]] of the [[sum type]] $[A + B]$. 
+
+If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of truncated excluded middle could be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} P \vee \neg P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{El}_\Omega(P) \vee \neg \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
+
+If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, truncated excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+
+By definition, the only two booleans are $0$ representing false and $1$ representing true. 
+
+### Untruncated excluded middle
+
+There is also an untruncated version of excluded middle, which uses the sum type instead of the disjunciton:
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to (P + \neg P)}$$
+
+In the untruncated case, the requirement that $P$ be an [[h-proposition]] is necessary; the untruncated law of excluded middle for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the untruncated law of excluded middle for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
+
+If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of untruncated excluded middle could be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} P + \neg P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{El}_\Omega(P) + \neg \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
+
+Similarly as above, if the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, there is also an untruncated version of excluded middle using the [[boolean domain]] and [[dependent sum types]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \sum_{Q:\mathrm{Bit}} P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+
+By definition, the only two booleans are $0$ representing false and $1$ representing true. 
+
+### Contractible excluded middle
+
+There is also a version of excluded middle, which uses [[contractible type|contractibility]] instead of [[pointed type|pointedness]] to express [[truth]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to \mathrm{isContr}(A + \neg A)}$$
+
+In [[dependent type theory]] as [[foundations of mathematics]], the requirement that $A$ be an [[h-proposition]] is also necessary. This alternate law of untruncated excluded middle for general types implies that every type is a [[h-proposition]] a la [[propositional logic as a dependent type theory]], because the only types $P$ such that $P + \neg P$ is equivalent to the unit type are the [[empty type]] and the [[unit type]], which are [[h-propositions]]: 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_A:\mathrm{isContr}(A + \neg A)}$$
+
+If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of excluded middle could be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{isContr}(P + \neg P)}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{isContr}(\mathrm{El}_\Omega(P) + \neg \mathrm{El}_\Omega(P))}\mathrm{Tarski}$$
+
+Similarly as above, if the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, there is also an contractible version of excluded middle using the [[boolean domain]] and [[dependent sum types]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \mathrm{isContr}\left(\sum_{Q:\mathrm{Bit}} P \simeq \mathrm{El}_\mathrm{Bit}(Q)\right)}$$
+
+or equivalently, using the [[boolean domain]] and the [[uniqueness quantifier]]:
+
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists!Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+
+By definition, the only two booleans are $0$ representing false and $1$ representing true. 
+
+### Relations between the notions of excluded middle
+
 
 \begin{theorem}
 The untruncated version of excluded middle implies the truncated version of excluded middle. 
@@ -47,17 +102,19 @@ By the [[introduction rule]] of [[propositional truncations]], there exists a fu
 $$\mathrm{isInhab}_{P + \neg P} \circ \mathrm{lem}_P:\mathrm{isProp}(P) \to (P \vee \neg P)$$
 \end{proof}
 
-In the untruncated case, the requirement that $P$ be an [[h-proposition]] is necessary; the untruncated law of excluded middle for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the untruncated law of excluded middle for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
+\begin{theorem}
+The contractible version of excluded middle implies the untruncated version of excluded middle
+\end{theorem}
 
-There is also a third possible notion for excluded middle, which states that the type $P + \neg P$ is equivalent to the [[unit type]]. This not only implies truncated excluded middle, but also that every type is a [[h-proposition]] a la [[propositional logic as a dependent type theory]], because the only types $P$ such that $P + \neg P$ is equivalent to the unit type are the [[empty type]] and the [[unit type]]. 
+\begin{proof}
+The type $\mathrm{isContr}(P + \neg P)$ is really the type 
 
-If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
+$$\sum_{a:P + \neg P} \prod_{b:P + \neg P} a =_{P + \neg P} b$$
 
-$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
-
-By definition, the only two booleans are $0$ representing false and $1$ representing true. Similarly as above, there is also an untruncated version using [[dependent sum types]]:
-
-$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \sum_{Q:\mathrm{Bit}} P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+Thus, by the [[introduction rules]] of [[function types]] and the elimination rules of [[negative type|negative]] [[dependent sum types]], there is a function 
+$$\lambda x:\mathrm{isProp}(P).\pi_1(\mathrm{lem}_P(x)):\mathrm{isProp}(P) \to (P + \neg P)$$
+which is precisely the untruncated version of excluded middle
+\end{proof}
 
 ## Relation to the axiom of choice
  {#RelationToTheAxiomOfChoice}
@@ -221,6 +278,21 @@ category: foundational axiom
 [[!redirects the principle of untruncated excluded middle]]
 [[!redirects axiom of untruncated excluded middle]]
 [[!redirects the axiom of untruncated excluded middle]]
+
+[[!redirects contractible excluded middle]]
+[[!redirects contractible law of excluded middle]]
+[[!redirects the contractible law of excluded middle]]
+[[!redirects contractible principle of excluded middle]]
+[[!redirects the contractible principle of excluded middle]]
+[[!redirects contractible axiom of excluded middle]]
+[[!redirects the contractible axiom of excluded middle]]
+
+[[!redirects law of contractible excluded middle]]
+[[!redirects the law of contractible excluded middle]]
+[[!redirects principle of contractible excluded middle]]
+[[!redirects the principle of contractible excluded middle]]
+[[!redirects axiom of contractible excluded middle]]
+[[!redirects the axiom of contractible excluded middle]]
 
 [[!redirects sharp excluded middle]]
 [[!redirects sharp law of excluded middle]]
