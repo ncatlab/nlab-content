@@ -106,12 +106,12 @@ The 2-cell $\eta^G\colon 1 \to T^G$ is defined so that $(\varepsilon) (\eta^G G)
 
 \begin{tikzcd} 
   T^G 
-  \ar[d, "\eta^G T^G"{description}] 
+  \ar[d, "\eta^G T^G"{swap}] 
   \ar[dr, "1_{T^G}"] 
   & 
   \\
   T^G T^G 
-    \ar[r, "\mu^G"{swap}] 
+    \ar[r, "\mu^G"] 
   & 
   T^G
 \end{tikzcd}
@@ -122,7 +122,7 @@ follows from commutativity of the diagram
 
 \begin{tikzcd} 
   T^G G 
-  \ar[d, "\eta^G T^G G"{description}] 
+  \ar[d, "\eta^G T^G G"] 
   \ar[r, "\varepsilon"] 
   & 
   G \ar[d, "\eta^G G"{description}] 
@@ -130,7 +130,7 @@ follows from commutativity of the diagram
   & 
   \\
   T^G T^G G 
-  \ar[r, swap, "\mu^G G"] 
+  \ar[r, swap, "T^G \varepsilon"] 
   & 
   T^G G 
   \ar[r, swap, "\varepsilon"] 
@@ -143,18 +143,8 @@ follows from commutativity of the diagram
 
 
 \begin{tikzcd} 
-  T^G G 
-  \ar[dr, "1_{T^G} G"{swap}] 
-  \ar[r, "\varepsilon"] 
-  & 
-  G \ar[dr, "1_G"] 
-  & 
-  \\
-  & 
-  T^G G 
-  \ar[r, swap, "\varepsilon"] 
-  & 
-  G
+T^G G \ar[dr, "1_{T^G} G"] \ar[r, "\varepsilon"] & G \ar[dr, "1_G"] & \\
+& T^G G \ar[r, swap, "\varepsilon"] & G
 \end{tikzcd}
 
 
