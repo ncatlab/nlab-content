@@ -10,7 +10,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {:toc}
@@ -28,7 +27,6 @@ The same idea applies to [[2-categories]] or [[bicategories]] more general than 
 
 
 ## Definition
- {#Definition}
 
 \begin{definition}
 \label{codensity_monad}
@@ -61,7 +59,7 @@ where
 
 \end{definition}
 
-That Def. \ref{codensity_monad} indeed defines a [[monad]] follows from the [[universal properties]] of the [[Kan extension]]. Concerning existence, $Ran_G G$ exists for $G \colon \mathcal{B}\to\mathcal{A}$, e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
+Concerning existence, $Ran_G G$ exists for $G \colon \mathcal{B}\to\mathcal{A}$, e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
 
 In this circumstance, when $\mathcal{B}$ is small and $\mathcal{A}$ is complete, then the codensity monad is equivalently the one that [arises](monad#RelationToAdjunctionsAndMonadicity) from the [[adjoint functor|adjunction]] 
 \[
@@ -82,7 +80,56 @@ takes any [[object]] $a$ to the [[hom-functor]] $Hom_{\mathcal{A}}\big(a, \,G(\t
 
 * the [[right adjoint]] $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the unique [[preserved limit|limit-preserving]] functor from the [[free completion]] of $\mathcal{B}$ to $\mathcal{A}$ which agrees on $\mathcal{B}$ with $G$. 
 
-$G$ is codense if and only if the left adjoint is [[full and faithful]]. 
+(See also [[nerve and realization]]; the description of the adjunction above is a formal dual of a nerve-realization adjunction, and gives the right Kan extension $Ran_G G$ as a pointwise Kan extension.) $G$ is codense if and only if the left adjoint is [[full and faithful]]. 
+
+Even if $Ran_G G$ (assuming it exists) is not a pointwise Kan extension, Def. \ref{codensity_monad} indeed defines a [[monad]]. The proof may be given generally for any [[2-category]] in which the right Kan extension $Ran_G G$ exists for a 1-cell $G: \mathcal{B} \to \mathcal{A}$. 
+
+\begin{theorem} 
+$Ran_G G$, with the unit $\eta^G$ and multiplication $\mu^G$, is a monad. 
+\end{theorem} 
+
+\begin{proof} 
+The [[universal property]] of the [[Kan extension]] states that for any $H: \mathcal{A} \to \mathcal{B}$, there is a natural bijection 
+
+\[\hom(H, T^G) \cong \hom(H G, G);\] 
+
+let $\varepsilon: T^G G \to G$ be the 2-cell corresponding to $1_{T^G} \in \hom(T^G, T^G)$. Note that the bijection takes a 2-cell $\alpha: H \to T^G$ to the composite 
+
+
+\begin{tikzcd} 
+H G \ar[r, "\alpha G"] & T^G G \ar[r, "\varepsilon"] & G. 
+\end{tikzcd}
+
+
+The 2-cell $\eta^G\colon 1 \to T^G$ is defined so that $(\varepsilon) (\eta^G G) = 1_G$, and the 2-cell $\mu^G \colon T^G T^G \to T^G$ is defined so that $(\varepsilon) (\mu^G G) = (\varepsilon)(T^G \varepsilon)$. Then one of the unit laws required for the monad, 
+
+
+\begin{tikzcd} 
+T^G \ar[d, "\eta^G T^G"] \ar[dr, "1_{T^G}"] & \\
+T^G T^G \ar[r, "\mu^G"] & T^G
+\end{tikzcd}
+ 
+
+follows from commutativity of the diagram 
+
+
+\begin{tikzcd} 
+T^G G \ar[d, "\eta^G T^G G"] \ar[r, "\varepsilon"] & G \ar[d, "\eta^G G"] \ar[dr, "1_G"] & \\
+T^G T^G G \ar[r, swap, "\mu^G G"] & T^G G \ar[r, swap, "\varepsilon"] & G 
+\end{tikzcd}
+
+
+(where the square commutes by 2-categorical interchange), together with the fact that the identity on $T^G$ is used to fill in the square 
+
+
+\begin{tikzcd} 
+T^G G \ar[dr, "1_{T^G} G"] \ar[r, "\varepsilon"] & G \ar[dr, "1_G"] & \\
+& T^G G \ar[r, swap, "\varepsilon"] & G
+\end{tikzcd}
+
+
+and does so uniquely (by the universal property). (Proof to be continued.) 
+\end{proof} 
 
 ## Examples
 
