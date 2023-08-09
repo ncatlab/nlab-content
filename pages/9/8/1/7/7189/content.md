@@ -101,7 +101,9 @@ H G \ar[r, "\alpha G"] & T^G G \ar[r, "\varepsilon"] & G.
 \end{tikzcd}
 
 
-The 2-cell $\eta^G\colon 1 \to T^G$ is defined so that $(\varepsilon) (\eta^G G) = 1_G$, and the 2-cell $\mu^G \colon T^G T^G \to T^G$ is defined so that $(\varepsilon) (\mu^G G) = (\varepsilon)(T^G \varepsilon)$. Then one of the unit laws required for the monad, 
+The 2-cell $\eta^G\colon 1 \to T^G$ is defined so that $(\varepsilon) (\eta^G G) = 1_G$, and the 2-cell $\mu^G \colon T^G T^G \to T^G$ is defined so that $(\varepsilon) (\mu^G G) = (\varepsilon)(T^G \varepsilon)$. 
+
+To check the monad unit law that says the triangle 
 
 
 \begin{tikzcd} 
@@ -116,8 +118,7 @@ The 2-cell $\eta^G\colon 1 \to T^G$ is defined so that $(\varepsilon) (\eta^G G)
   T^G
 \end{tikzcd}
  
-
-follows from commutativity of the diagram 
+commutes, it suffices by universality to check that applying $G$ on the right, followed by $\varepsilon$, results in a commutative diagram. This follows from commutativity of the diagram 
 
 
 \begin{tikzcd} 
@@ -139,16 +140,52 @@ follows from commutativity of the diagram
 \end{tikzcd}
 
 
-(where the square commutes by 2-categorical interchange), together with the fact that the identity on $T^G$ is used to fill in the square 
+(where the square commutes by 2-categorical interchange), together with commutativity of 
 
 
 \begin{tikzcd} 
 T^G G \ar[dr, "1_{T^G} G"] \ar[r, "\varepsilon"] & G \ar[dr, "1_G"] & \\
+& T^G G \ar[r, swap, "\varepsilon"] & G.
+\end{tikzcd}
+
+To check the other monad unit law is even simpler, because it follows directly from the commutativity of 
+
+\begin{tikzcd} 
+T^G G \ar[d, swap, "T^G \eta^G G"] \ar[dr, "1"] & & \\ 
+T^G T^G G \ar[r, swap, "T^G \varepsilon"] & T^G G \ar[r, swap, "\varepsilon"] & G
+\end{tikzcd} 
+
+where commutativity of the triangle comes from how we introduced $\eta^G$ in this proof. 
+
+Monad associativity follows by showing that the maximal paths in 
+
+\begin{tikzcd} 
+T^G T^G T^G G \ar[r, "T^G \mu^G G"] \ar[d, swap, "\mu^G T^G G"] & T^G T^G G \ar[d, "T^G \varepsilon"] & \\ 
+T^G T^G G \ar[r, swap, "T^G \varepsilon"] & T^G G \ar[r, swap, "\varepsilon"] & G
+\end{tikzcd} 
+
+evaluate to the same 2-cell. By 2-categorical interchange, we may replace the composite "down, then right" to obtain the diagram 
+
+\begin{tikzcd} 
+T^G T^G T^G G 
+\ar[r, "T^G \mu^G G"] \ar[d, swap, "T^G T^G \varepsilon"] & T^G T^G G \ar[d, "T^G \varepsilon"] & 
+\\ 
+T^G T^G G \ar[r, swap, "\mu^G G"] 
 & T^G G \ar[r, swap, "\varepsilon"] & G
 \end{tikzcd}
 
+and then use how we introduced $\mu^G$ in this proof to further replace "right, then down" by 
 
-and does so uniquely (by the universal property). (Proof to be continued.) 
+\begin{tikzcd} 
+T^G T^G T^G G \ar[r, "T^G T^G \varepsilon"] \ar[d, swap, "T^G T^G \varepsilon"] 
+& T^G T^G G \ar[d, "T^G \varepsilon"] & 
+\\ 
+T^G T^G G \ar[r, swap, "\mu^G G"] 
+& T^G G \ar[r, swap, "\varepsilon"] 
+& G,
+\end{tikzcd}
+
+and finally finish the proof by observing that $\varepsilon$ coequalizes $\mu^G G$, $T^G \varepsilon$. 
 \end{proof} 
 
 ## Examples
