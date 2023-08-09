@@ -766,9 +766,11 @@ If you want to include multiple contents pages, you can repeat the four lines fr
 
 #### Tikz
 
-As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
+As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. The exception is that one should drop the $\backslash [... \backslash ]$ or double dollar signs which one would ordinarily use when entering and exiting display math mode. 
 
-Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.
+(Earlier statement, in case someone finds it helpful and not confusing: "The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
+
+Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.&rdquo;)
 
 ##### Examples
 
