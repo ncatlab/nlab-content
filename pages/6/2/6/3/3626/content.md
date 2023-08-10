@@ -173,7 +173,7 @@ Frobenius algebras are closely connected with [[ambidextrous adjunctions]]. For 
 
 ### PROPs for Frobenius algebras
 
-Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda [Lauda (2006)](#Lauda2006) and illustrated here:
+Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by [Lauda (2006)](#Lauda2006) and illustrated here:
 
 [[frobenius_algebra.jpg:pic]]
 
