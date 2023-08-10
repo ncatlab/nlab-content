@@ -20,18 +20,18 @@
 
 ## Definition
 
-A [[monad]] $(T,\mu,\eta)$ is adjoint to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is _[[left adjoint]]_ to the underlying 1-cell $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint/[[mate]] 2-cells to $\mu$ and $\eta$ in the sense explained below.
+A [[monad]] $(T,\mu,\eta)$ is [[adjoint functor|adjoint]] to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is _[[left adjoint]]_ to the underlying [[1-morphism]] $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint/[[mate]] 2-cells to $\mu$ and $\eta$ in the sense explained below.
 
 
 ## Construction
 
 In fact given a [[monad]] $\mathbf{T} = (T,\mu^T,\eta^T)$ which has a _[[right adjoint]]_ $G$, automatically $G$ is a part of a comonad $\mathbf{G} = (G,\delta^G,\epsilon^G)$ where $\delta^G$ and $\epsilon^G$ are in some sense dual to $\mu^T$ and $\eta^T$.
 
-Thus there is a bijective correspondence between monads having a right adjoint and comonads having a left adjoint (what [[Alexander Rosenberg]] calls **duality**). I am not sure that the terminology is optimal. In any case, it is a little more than a consequence of two general facts. 
+Thus there is a bijective correspondence between monads having a right adjoint and comonads having a left adjoint (what [[Alexander Rosenberg]] calls **duality**). This is a little more than a consequence of two general facts: 
 
 1. If $T\dashv G$ then $T^k \dashv G^k$ for every [[natural number]] $k$. 
 
-2. Given two [[adjunction]]s $S\dashv T$ and $S'\dashv T'$ where $S,S': B\to A$, then there is a [[bijection]] between the [[natural transformation]]s $\phi:S'\Rightarrow S$ and natural transformations $\psi:T\Rightarrow T'$ such that 
+2. Given two [[adjunctions]] $S\dashv T$ and $S'\dashv T'$ where $S,S': B\to A$, then there is a [[bijection]] between the [[natural transformations]] $\phi:S'\Rightarrow S$ and natural transformations $\psi:T\Rightarrow T'$ such that 
 
 $$
 \array{
@@ -43,7 +43,7 @@ $$
 }
 $$
 
-where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg and Moore](#EilenbergMoore) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102).  It is a special case, of a general construction of [[mate]]s, in terminology of Australian category school. 
+where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg & Moore 1965](#EilenbergMoore65) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* (p 99-102 in *[[Categories for Working Mathematician]]*).  It is a special case, of a general construction of [[mates]]. 
 
 If $\eta,\eta'$ and $\epsilon,\epsilon'$ are their 
 [[unit of an adjunction|unit]] and counit of course the upper arrow is $(S M\stackrel{f}\to N)\mapsto T f\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
@@ -63,13 +63,13 @@ $$
 
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
 
-## Adjoint monad and comonad from an adjoint triple of functors
+## From an adjoint triple of functors
 
 Every [[adjoint triple]] $F^*\dashv F_* \dashv F^!$ induces an [[adjoint pair]] $F_* F^*\dashv F_* F^!$. The endofunctor $F_* F^*$ is underlying a monad induced by the adjunction $F^*\dashv F_*$ and $F_* F^!$ is underlying a comonad induced by the adjuntion $F_*\dashv F^!$. This pair of a monad and a comonad are adjoint. 
 
-## General adjoint algebras and coalgebras in $End(A)$
+## General adjoint (co)algebras $End(A)$
 
-Given a small category $A$, the category $End(A)$ of endofunctors and natural transformations of endofunctors (with vertical composition as composition) is monoidal with respect to the composition as the tensor product of objects (endofunctor) and Godement product (horizontal composition) as the tensor product of morphisms (natural transformations). Hence we can consider operads and algebras over operads, as well as, dually, coalgebras over cooperads; or some other framework for general algebras and coalgebras (or even props). 
+Given a [[small category]] $A$, the category $End(A)$ of endofunctors and natural transformations of endofunctors (with vertical composition as composition) is monoidal with respect to the composition as the tensor product of objects (endofunctor) and Godement product (horizontal composition) as the tensor product of morphisms (natural transformations). Hence we can consider operads and algebras over operads, as well as, dually, coalgebras over cooperads; or some other framework for general algebras and coalgebras (or even props). 
 
 In any case, given an adjunction $T\dashv G$, operations $T^n\to T$ dualize to cooperations $G\to G^n$, and more generally multioperations $T^k\to T^l$ dualize to the multioperations $G^l\to G^k$. We would like to sketch the proof that the identities for operations on $T$, correspond to the identities on cooperations on $G$ (and more generally there is a duality among the identities for multioperations). This is essentially the consequence of 
 
@@ -128,17 +128,18 @@ An [[adjoint modality]] is an example of a pair of adjoint monads.
 
 ## References
 
-There is a section 3, "adjoint triples" in
+Discussion of adjoint monads originates with
 
-* [[Samuel Eilenberg]], [[John Moore]], _Adjoint functors and triples_, Illinois J. Math. __9__, 3 (1965), 381-398, 
- {#EilenbergMoore}
+* {#EilenbergMoore65} [[Samuel Eilenberg]], [[John Moore]], Section 3 in: _Adjoint functors and triples_, Illinois J. Math. **9** 3 (1965) 381-398 &lbrack;[doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141)&rbrack;
+ 
+(there called "adjoint triples", sticking with the old term "triple" for "monad", a terminology that now clashes with the modern use of *[[adjoint triples]]* of [[adjoint functors]]).
 
-where triple is in the sense of [[monad]]. So we say instead a __monad adjoint to a comonad__. Distinguish from the [[adjoint triple]] of functors. 
 
-Discussion in the context of [[ambidextrous adjunctions]] is in 
+Discussion in the context of [[ambidextrous adjunctions]] and [[Frobenius monads]]:
 
-* [[Aaron Lauda]], _Frobenius algebras and ambidextrous adjunctions_ ([arXiv:math/0502550](http://arxiv.org/abs/math/0502550))
+* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
+* {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
 
 [[!redirects adjoint monads]]
 [[!redirects adjoint comonad]]
