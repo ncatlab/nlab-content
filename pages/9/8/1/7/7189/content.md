@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-Recall (eg. from [here](monad#RelationToAdjunctionsAndMonadicity)) that every [[right adjoint functor]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ indues a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
+Recall (eg. from [here](monad#RelationBetweenAdjunctionsAndMonads)) that every [[right adjoint functor]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ indues a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
 
 The notion of the *codensity monad* $\mathbb{T}^G$ is a generalization of this construction to functors $G \colon \mathcal{B}\to\mathcal{A}$ that need not be [[right adjoints]] but do at least admit a right [[Kan extension]] $Ran_G G$ along themselves, such that both constructions agree when $G$ is in fact a [[right adjoint]].
 
@@ -191,7 +191,7 @@ and finally finish the proof by observing that $\varepsilon$ coequalizes $\mu^G 
 ## Examples
 
 \begin{example} 
-Every monad that is induced by an adjunction $L \dashv R$ is the codensity monad of $R$. In particular, every [[enriched monad]] is a codensity monad (via its [[Kleisli category]]).
+Every monad that is [induced](monad#RelationBetweenAdjunctionsAndMonads) by an adjunction $L \dashv R$ is the codensity monad of $R$. In particular, every [[enriched monad]] is a codensity monad (via its [[Kleisli category]]).
 \end{example}
 
 \begin{example}
