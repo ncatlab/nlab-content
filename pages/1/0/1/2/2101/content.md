@@ -21,7 +21,7 @@
 
 ## Idea
 
-One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started.  Every monad comes from an adjunction, but only a _monadic adjunction_ comes from a monad via a [[monadic functor]].  (To be fair, there are two ways to turn a monad into an adjunction, given by the [[Kleisli category]] and the [[Eilenberg–Moore category]]; we are talking about the latter here.)
+One can turn [[monads]] into [[adjunctions]] and adjunctions into monads (see [there](monad#RelationBetweenAdjunctionsAndMonads)), but one doesn\'t always return where one started.  Every monad comes from an adjunction, but only a _monadic adjunction_ comes from a monad via a [[monadic functor]].  (To be fair, there are two ways to turn a monad into an adjunction, given by the [[Kleisli category]] and the [[Eilenberg–Moore category]]; we are talking about the latter here.)
 
 
 ## Definition
