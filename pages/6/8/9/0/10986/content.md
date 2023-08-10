@@ -74,7 +74,7 @@ and in general [[2-categories]]:
 
   > (motivated by [[2d TQFT]])
 
-See also:
+Discussion of [[ambidextrous adjunctions]] between [[abelian categories]]:
 
 * F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
 
