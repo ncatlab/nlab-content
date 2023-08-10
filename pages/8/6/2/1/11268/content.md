@@ -146,8 +146,8 @@ Formalization in [[Agda]]
 
 The necessary assumptions for Lawvere's account are reduced in various ways in
 
-* {#Roberts} [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) [arXiv:2110.00239](https://arxiv.org/abs/2110.00239)
-
+* {#Roberts} [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_,  Compositionality **5** issue 8 (2023) doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8),
+([arXiv:2110.00239](https://arxiv.org/abs/2110.00239)).
 
 
 [[!redirects Lawvere fixed point theorem]]
