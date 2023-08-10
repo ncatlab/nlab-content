@@ -151,7 +151,7 @@ With that the statement follows using the [[small object argument]] to show the 
 
 To find this small set, we make use of the assumption that the subcategory
 $Arr_W(C) \subset Arr(C)$ of weak equivalences and commuting squares in $C$ between them is an [[accessible category|accessible]] subcategory of the [[arrow category]] $Arr(C)$.  This means that there is a small set $W_0 \subset W$ such that every element of $W$
-is a $\kappa$-[[directed colimit]] over element in $W_0$ in $Arr_W(C)$, for some large enough [[cardinal number]] $\kappa$, such that all elements of $I$ are $\kappa$-[[compact object|compact]].
+is a $\kappa$-[[directed colimit]] over element in $W_0$ in $Arr_W(C)$, for some large enough [[cardinal number]] $\kappa$, such that all elements of $W_0$ are $\kappa$-[[compact object|compact]].
 
 Using the [[small object argument]] factor
 every morphism $P \to Q$ in $W_0$ as 
