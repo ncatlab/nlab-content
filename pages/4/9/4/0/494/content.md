@@ -1746,6 +1746,10 @@ Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Gr
 
 * {#Kan58} [[Daniel Kan]], *Adjoint functors*, Transactions of the American Mathematical Society **87** 2 (1958) 294-329 &lbrack;[jstor:1993102](http://www.jstor.org/stable/1993102)&rbrack;
 
+and in [relation](monad#RelationToAdjunctionsAndMonadicity) to [[comonad|co]]/[[monads]] to
+
+* [[Peter J. Huber]], §4 in: *Homotopy theory in general categories*, Mathematische Annalen **144** (1961) 361–385 &lbrack;[doi:10.1007/BF01396534](https://doi.org/10.1007/BF01396534)&rbrack;
+     
 and its fundamental relevance for [[category theory]] was highlighted in
 
 * {#Freyd64} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, Harper's  Series  in  Modern  Mathematics, Harper  &  Row,   New  York (1964) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)&rbrack;
