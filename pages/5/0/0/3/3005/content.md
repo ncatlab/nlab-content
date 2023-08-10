@@ -394,6 +394,7 @@ and realized in the context of [[quasi-categories]]:
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], section 7.2 of _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  
 
+[[!redirects monadicity theorems]]
 
 [[!redirects Beck's Monadicity Theorem]]
 [[!redirects Beck's Monadicity Theorem]]
