@@ -127,24 +127,8 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 ## Properties
 
 
-### Relation to adjunctions and monadicity
- {#RelationToAdjunctionsAndMonadicity}
+[[!include relation between adjunctions and monads -- section]]
 
-Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$.
-
-([Huber 1961, §4](#Huber61), see eg. [MacLane 1971, §VI.1 (p 134)](#MacLane71), [Borceux 1994, vol. 2, prop. 4.2.1](#Borceux94)).
-
-An adjunction inducing a monad $T$ is also called a *resolution of $T$*. There is in general more than one such resolution, in fact there is a [[category]] of adjunctions for a given monad whose morphisms are "[[comparison functors]]" (e.[MacLane 1971, §VI.3](#MacLane71)),
-
-In this category
-
-* [[initial object]]  is the adjunction over the [[Kleisli category]] of the monad 
-
-* the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras, also called the _[[monadic adjunction]]_ (recognized by *[[monadicity theorems]]*). 
-
-(e.g. [Borceux 1994, vol. 2, prop. 4.2.2](#Borceux94)) 
-
-Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, sometimes called the _[[semantics-structure adjunction]]_.
 
 
 
