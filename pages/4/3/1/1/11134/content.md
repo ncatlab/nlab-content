@@ -105,6 +105,11 @@ The abstract notion of the state monad:
 
 * {#PlotkinPower02} [[Gordon Plotkin]], [[John Power]], Section 3 of: *Notions of computation determine monads* In: M. Nielsen, U. Engberg, (eds.) FOSSACS 2002. LNCS, Lecture Notes in Computer Science **2303**,  Springer (2002) 342-356 &lbrack;[doi:10.1007/3-540-45931-6_24p](https://doi.org/10.1007/3-540-45931-6_24)&rbrack;
 
+Exposition:
+
+* {#Milewski19} [[Bartosz Milewski]], §21.2.5 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+
+
 Concrete applications via implementation in [[Haskell]]:
 
 * {#Yates19} Ryan Yates, *Improving Haskell Transactional Memory* (2019) &lbrack;[hdl:1802/35367](https://hdl.handle.net/1802/35367), [pdf](file:///C:/Users/us13/Downloads/Yates_rochester_0188E_11946.pdf)&rbrack;
