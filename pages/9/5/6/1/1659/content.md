@@ -90,7 +90,9 @@ The [[diagonal argument]] also shows the uncountability of the real numbers (non
 
 ## References
 
-*  <https://en.wikipedia.org/wiki/Georg_Cantor's_first_set_theory_article> (which discusses both the origin of the 1874 article and the questions of constructivity that arose in its aftermath)
+* Wikipedia, _[Cantor's first set theory article](https://en.wikipedia.org/wiki/Cantor%27s_first_set_theory_article)_ 
+
+which discusses both the origin of the 1874 article and the questions of constructivity that arose in its aftermath.
 
 
 [[!redirects countable set]]
