@@ -130,7 +130,9 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 ### Relation to adjunctions and monadicity
  {#RelationToAdjunctionsAndMonadicity}
 
-Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$. (see eg. [MacLane 1971, §VI.1 (p 134)](#MacLane71), [Borceux 1994, vol. 2, prop. 4.2.1](#Borceux94)).
+Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$.
+
+([Huber 1961, §4](#Huber61), see eg. [MacLane 1971, §VI.1 (p 134)](#MacLane71), [Borceux 1994, vol. 2, prop. 4.2.1](#Borceux94)).
 
 An adjunction inducing a monad $T$ is also called a *resolution of $T$*. There is in general more than one such resolution, in fact there is a [[category]] of adjunctions for a given monad whose morphisms are "[[comparison functors]]" (e.[MacLane 1971, §VI.3](#MacLane71)),
 
@@ -301,7 +303,18 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 ## References
  {#References}
 
-Original texts:
+([[comonad|co]])Monads are discussed under the name "standard construction" in:
+
+* {#Huber61} [[Peter J. Huber]], §2 in: *Homotopy theory in general categories*, Mathematische Annalen **144** (1961) 361–385 &lbrack;[doi:10.1007/BF01396534](https://doi.org/10.1007/BF01396534)&rbrack;
+
+following:
+
+* {#Godement58} [[Roger Godement]], Appendix of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+  > (where the monad laws appear on p. 272 as part of the structure of the induced [[canonical resolution]]).
+
+
+Further original texts:
 
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
