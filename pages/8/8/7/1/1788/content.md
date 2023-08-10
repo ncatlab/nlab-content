@@ -1,4 +1,6 @@
 
+$\bigstar$ $\Star$ $\bigcirc$
+
 <nowiki>
 \begin{tikzpicture}
 </nowiki>
