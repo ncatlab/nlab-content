@@ -104,6 +104,11 @@ role in the [[dynamical extension of a monoidal category]]. Hence the commutativ
 The smash product algebra is in that case the [[Heisenberg double]], hence 
 it inherits a Hopf algebroid structure. 
 
+If $F$ is a counital 2-cocycle for a bialgebra $H$, the Drinfeld twist $H^F$ of $F$ is also a bialgebra and there is a monoidal equivalence ${}_H\mathcal{M}\cong {}_{H^F}\mathcal{M}$. In Section 2 of [Škoda-Stojić2023](#Škoda-Stojić2023) it is shown how this monoidal equivalence lifts to a braided monoidal equivalence between the categories of Yetter-Drinfeld modules
+${}_H\mathcal{M}^H\cong {}_{H^F}\mathcal{M}^{H^F}$.
+
+* [[Zoran Škoda]], Martina Stojić, _Comment on "Twisted bialgebroids versus bialgebroids from Drinfeld twist"_, [arXiv:2308.05083](https://arxiv.org/abs/2308.05083)
+
 ## Yetter-Drinfeld module algebras
 
 A __left-right Yetter-Drinfeld module algebra__ is a monoid $(A,\mu)$ in ${}_B\mathcal{Y D}^B$. Let its multiplication map be denoted $\mu:a\otimes c\mapsto a\cdot c$. Let us unwind the requirements that $\mu:A\otimes A\to A$ is a morphism in ${}_B\mathcal{Y D}^B$.
