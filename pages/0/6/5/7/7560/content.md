@@ -107,7 +107,7 @@ A & & & & A \times 2 \times B & & & & B.
 
 ## References
 
-* [[William Lawvere]], Ordinal sums and equational doctrines. In ''Seminar on Triples and Categorical Homology Theory'', LNM 80 (1969), pp. 141-155.
+* [[William Lawvere]], *Ordinal sums and equational doctrines*, in *[[Seminar on Triples and Categorical Homology Theory]]* LNM **80** (1969) 141-155 &lbrack;[doi:10.1007/BFb0083085](https://doi.org/10.1007/BFb0083085)&rbrack;
 
 [[!redirects ordinal sum]]
 [[!redirects ordinal sums]]
