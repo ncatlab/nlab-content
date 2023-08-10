@@ -647,6 +647,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Menni22} [[Matías Menni|M. Menni]], *Maps with Discrete Fibers and the Origin of Basepoints*, Appl. Categor. Struct. **30** (2022) pp. 991–1015.
 
+* {#Menni23} [[Matías Menni|M. Menni]], *The successive dimension, without elegance*, arXiv:2308.04584 (2023). ([pdf](https://arxiv.org/pdf/2308.04584.pdf))
+
 * J. Petitot, *La Neige est Blanche ssi... Pr&#233;dication et Perception*, Math. Inf. Sci. Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
 * J. P. Pertille, *Aufhebung - Meta-categoria da L&#243;gica Hegeliana*, Revista Eletr&#244;nica Estudos Hegelianos **8** no.15 (2011) pp.58-66. ([pdf](http://www.hegelbrasil.org/reh_2011_2_art4.pdf))
