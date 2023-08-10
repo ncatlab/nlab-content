@@ -18,7 +18,7 @@
 
 ## Definition
 
-In a [[monoid]], an element $x$ is __irreducible__ if it is neither [[invertible element|invertible]] nor the product of two non-invertible elements.  Without [[bias]], we can say that $x$ is irreducible if, whenever it is written as a product of a [[finite list]] of elements, at least one element in the list is invertible.
+In a [[monoid]], an element $x$ is __irreducible__ if it is neither [[invertible element|invertible]] nor the product of two non-invertible elements.  Without [[bias]], we can say that $x$ is irreducible if, whenever it is written as a product of a [[finite list]] of elements, all but one elements in the list are invertible.
 
 In a [[commutative ring]], an element is **irreducible** if it is neither [[invertible element|invertible]] nor the product of two non-invertible elements, with respect to the multiplication operation on the commutative ring. 
 
