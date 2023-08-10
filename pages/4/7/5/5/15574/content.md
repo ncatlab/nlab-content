@@ -645,11 +645,11 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Menni19} [[Matías Menni|M. Menni]], *Monic skeleta, Boundaries, Aufhebung, and the meaning of 'one-dimensionality'*, TAC **34** no.25 (2019) pp.714-735. ([tac](http://www.tac.mta.ca/tac/volumes/34/25/34-25abs.html))
 
-* {#Menni22} [[Matías Menni|M. Menni]], *Maps with Discrete Fibers and the Origin of Basepoints*, Appl. Categor. Struct. **30** (2022) pp. 991–1015.
+* {#Menni22} [[Matías Menni|M. Menni]], *Maps with Discrete Fibers and the Origin of Basepoints*, Appl. Categor. Struct. **30** (2022) 991–1015 &lbrack;[doi:10.1007/s10485-022-09680-2](https://doi.org/10.1007/s10485-022-09680-2)&rbrack;
 
-* {#Menni23} [[Matías Menni|M. Menni]], *The successive dimension, without elegance*, arXiv:2308.04584 (2023). ([pdf](https://arxiv.org/pdf/2308.04584.pdf))
+* {#Menni23} [[Matías Menni|M. Menni]], *The successive dimension, without elegance* &lbrack;[arXiv:2308.04584](https://arxiv.org/abs/2308.04584)&rbrack;
 
-* J. Petitot, *La Neige est Blanche ssi... Pr&#233;dication et Perception*, Math. Inf. Sci. Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
+* J. Petitot, *La Neige est Blanche ssi... Pr&#233;dication et Perception*, Math. Inf. Sci. Hum **35** 140 (1997)  35-50. &lbrack;[numdam:MSH_1997__140__35_0](http://www.numdam.org/item/MSH_1997__140__35_0)&rbrack;
 
 * J. P. Pertille, *Aufhebung - Meta-categoria da L&#243;gica Hegeliana*, Revista Eletr&#244;nica Estudos Hegelianos **8** no.15 (2011) pp.58-66. ([pdf](http://www.hegelbrasil.org/reh_2011_2_art4.pdf))
 
