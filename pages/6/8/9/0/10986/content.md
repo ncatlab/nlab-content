@@ -58,10 +58,22 @@ In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[
 
 ## References
 
+The notion of Frobenius monads appears briefly in
+
+* [[William Lawvere]], pp. 151 of: *Ordinal sums and equational doctrines*, in *[[Seminar on Triples and Categorical Homology Theory]]* LNM **80** (1969) 141-155 &lbrack;[doi:10.1007/BFb0083085](https://doi.org/10.1007/BFb0083085)&rbrack;
+
+
+The relation of Frobenius monads to [[ambidextrous adjunctions]]:
+
+in [[Cat]]
+
 * {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
-* F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__:10, 4879--4900 (1998) [doi](https://doi.org/10.1080/00927879908826735)
 
+and in general [[2-categories]]:
 
+* {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
+
+* F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
 
 
 
