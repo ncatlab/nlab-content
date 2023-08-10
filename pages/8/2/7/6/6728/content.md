@@ -20,4 +20,7 @@ The **category of descent data** (sometimes shortcut to **descent category**) of
 *[[stack]]
 
 ##References##
+
 * [[Angelo Vistoli]], _Notes on Grothendieck topologies, fibered categories and descent theory_ ([arXiv](http://arxiv.org/abs/math/0412512)) (p.74)
+
+* [[Stacks Project]], ([Tag 02ZC](https://stacks.math.columbia.edu/tag/02ZC))
