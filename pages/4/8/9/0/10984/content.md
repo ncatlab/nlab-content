@@ -21,7 +21,11 @@
 ## Definition
 
 An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambiadjunction_ or _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$, or
-more precisely: equipped with a specified equivalence.  Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of *[[biadjunction]]*). Functor $G$ which has a left and right adjoint which are equivalent is said to be [[Frobenius functor]]. 
+more precisely: equipped with a specified equivalence.  
+
+In fact, often $F$ is *identified* with $H$*, which is the situation of a *strongly adjoint pair* $(F \dashv G \dashv F)$ originally considered by [Morita 1965](#Morita65). Some authors refer to this situation by saying that $G$ is a *[[Frobenius functor]]* (ie. a functor which has a [[left adjoint]] that is also a [[right adjoint]]).
+
+Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of *[[biadjunction]]*). Functor $G$ which has a left and right adjoint which are equivalent is said to be [[Frobenius functor]]. 
 
 In the special case that $G$ is a [[fully faithful functor]] with an ambidextrous adjoint one also speaks of an *[[essential localization]]* (cf. *[[bireflective subcategory]]*).
 
@@ -101,16 +105,25 @@ Every [[self-adjoint functor]] forms an ambidextrous adjunction.
 
 ## References
 
+Ambidextrous adjunctions were maybe first considered under the name *strongly adjoint pairs* (of functors), in:
+
+* {#Morita65} [[Kiiti Morita]], *Adjoint pairs of functors and Frobenius extensions*, Science Reports of the Tokyo Kyoiku Daigaku, Section A **9** 202/208 (1965) 40-71 &lbrack;[jstor:43698658](https://www.jstor.org/stable/43698658)&rbrack;
+
 On [[bireflective subcategories]]:
 
 * [[Peter Freyd]], [[Peter O’Hearn]],  [[A. John Power]], [[M. Takeyama]], [[Ross Street]], [[Robert D. Tennent]], *Bireflectivity*, Theoretical Computer Science **228** 1–2 (1999) 49-76 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
 
 
-The concept of Frobenius monads:
+On the [[Frobenius monads]] induced by ambidextrous adjuntions:
  
 * {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
 * {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
+
+Discussion of [[ambidextrous adjunctions]] between [[abelian categories]]:
+
+* F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
+
 
 See also:
  
@@ -136,6 +149,9 @@ Connection to [[Hopf adjunction]]s
 
 [[!redirects ambidextrous space]]
 [[!redirects ambidextrous spaces]]
+
+[[!redirects strongly adjoint pair]]
+[[!redirects strongly adjoint pairs]]
 
 [[!redirects biadjoint pair]]
 
