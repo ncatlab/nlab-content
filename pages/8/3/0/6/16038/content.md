@@ -14,10 +14,12 @@
 {:toc}
 
 ##Idea
-Let $K$ be the strict [[2-category]] [[Cat]] and $C$ a [[category]] in $K$. Then we can identify a [[monad]] on $C$ with an [[endofunctor]] $T:C\to C$ which is a [[monoid]] in $K(C,C)$. We recall that for any [[object]] $c$ of $C$, we obtain a certain sort of [[resolution]] of $c$. Note that the canonical resolution is not a resolution in the sense of the above cited nLab page because it is not necessarily acyclic or [[contractible]] in the relevant sense. In other words, it does not always have trivial [[cohomology]], especially since our category may not even be equipped with such a notion. 
+
+Let $K$ be the strict [[2-category]] [[Cat]] and $C$ a [[category]] in $K$. Then we can identify a [[monad]] on $C$ with an [[endofunctor]] $T \colon C\to C$ (a [[monoid]] in the [[endofunctor category]] $K(C,C)$). We recall that for any [[object]] $c$ of $C$, we obtain a certain sort of [[resolution]] of $c$. Note that the canonical resolution is not a resolution in the sense of the above cited nLab page because it is not necessarily acyclic or [[contractible]] in the relevant sense. In other words, it does not always have trivial [[cohomology]], especially since our category may not even be equipped with such a notion. 
 
 ##Definitions
-The _canonical resolution_ of $c$ in $C$ with respect to a monad $T:C\to C$ is a [[augmented simplicial set|coaugmented]] [[simplicial object|cosimplicial object]] $CanRes_T:\Delta_+\to C$ such that $CanRes_T([-1])=c$ and $CanRes_T([n])=T^{n+1}c$ for each $n\geq 0$. It has [[coface]] [[morphisms]] $T^{n}c\to T^{n+1}c$ given by the unit map of $T$, and codegeneracies given by the monoid structure $T T c\to T c$. 
+
+The _canonical resolution_ of $c$ in $C$ with respect to a [[monad]] $T \colon C\to C$ is a [[augmented simplicial set|coaugmented]] [[simplicial object|cosimplicial object]] $CanRes_T:\Delta_+\to C$ such that $CanRes_T([-1])=c$ and $CanRes_T([n])=T^{n+1}c$ for each $n\geq 0$. It has [[coface]] [[morphisms]] $T^{n}c\to T^{n+1}c$ given by the unit map of $T$, and codegeneracies given by the monoid structure $T T c\to T c$. 
 
 ###Monadic Cohomology
 {#monadiccohomology}
@@ -51,27 +53,29 @@ Thus we may produce the cosimplicial canonical resolution of any set $X$. If $X$
 * [[bar and cobar construction]]
 
 
-##References and Literature 
+## References
 
-The original source is
+The original articles:
 
-* [[Roger Godement]], _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
+* {#Godement58} [[Roger Godement]], Appendix of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+* {#Huber61} [[Peter J. Huber]], *Homotopy theory in general categories*, Mathematische Annalen **144** (1961) 361–385 &lbrack;[doi:10.1007/BF01396534](https://doi.org/10.1007/BF01396534)&rbrack;
 
 
-The theory is explained in many sources including 
+The theory is explained in many sources, including 
 
 * [[M. Barr]] and [[J. Beck]], 1969, _Homology and Standard Constructions_, in _Seminar on triples and categorical homology_, number 80 in Lecture Notes in Maths., Springer-Verlag, Berlin,
 
-and in Jack Duskin's  monograph:
+*  {#Duskin75} [[John Duskin]], *Simplicial methods and the interpretation of "triple" cohomology"*  Memoirs  of the AMS **163**, Amer. Math. Soc. (1975) &lbrack;[ISBN:978-1-4704-0645-5](https://bookstore.ams.org/memo-3-163)&rbrack;
 
-
-*  [[J. Duskin]], 1975, Simplicial methods and the interpretation of "triple" cohomology , number 163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc.
-
-
-A textbook account is in
+Textbook account:
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+[[!redirects canonical resolutions]]
+
 [[!redirects standard resolution]]
+[[!redirects standard resolutions]]
+
 [[!redirects cotriple homology]]
 [[!redirects triple cohomology]]
