@@ -3,6 +3,7 @@
 
 ***
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -125,16 +126,27 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 
 ## Properties
 
+
 ### Relation to adjunctions and monadicity
  {#RelationToAdjunctionsAndMonadicity}
 
-Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$. There is in general more than one adjunction which gives rise to a given monad this way, in fact there is a [[category]] of adjunctions for a given monad. An adjunction inducing a monad $T$ is called a **resolution of $T$**. The [[initial object]] in that category is the adjunction over the [[Kleisli category]] of the monad and the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras. (e.g. [Borceux, vol. 2, prop. 4.2.2](#Borceux)) The latter is called the _[[monadic adjunction]]_.
+Every [[adjunction]] $(L \dashv R)$ induces a monad $R \circ L$ and a [[comonad]] $L \circ R$. (see eg. [MacLane 1971, §VI.1 (p 134)](#MacLane71), [Borceux 1994, vol. 2, prop. 4.2.1](#Borceux94)).
 
-Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, called the _[[semantics-structure adjunction]]_.
+An adjunction inducing a monad $T$ is also called a *resolution of $T$*. There is in general more than one such resolution, in fact there is a [[category]] of adjunctions for a given monad whose morphisms are "[[comparison functors]]" (e.[MacLane 1971, §VI.3](#MacLane71)),
+
+In this category
+
+* [[initial object]]  is the adjunction over the [[Kleisli category]] of the monad 
+
+* the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras, also called the _[[monadic adjunction]]_ (recognized by *[[monadicity theorems]]*). 
+
+(e.g. [Borceux 1994, vol. 2, prop. 4.2.2](#Borceux94)) 
+
+Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, sometimes called the _[[semantics-structure adjunction]]_.
+
 
 
 ## Examples 
-
 
 ### Monads on $Set$
 
@@ -285,6 +297,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 * [[monadic descent]]
 
+
 ## References
  {#References}
 
@@ -294,7 +307,7 @@ Original texts:
 
 * {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
 
-* [[Saunders MacLane]], Ch. VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+* {#MacLane71} [[Saunders MacLane]], Ch. VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
@@ -306,7 +319,7 @@ Original texts:
 
 Textbook accounts:
 
-* {#Borceux} [[Francis Borceux|F. Borceux]], Ch. 4 "Monads" in: *[[Handbook of Categorical Algebra]]*  vol. 2, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
+* {#Borceux94} [[Francis Borceux|F. Borceux]], Ch. 4 "Monads" in: *[[Handbook of Categorical Algebra]]*  vol. 2, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
 
 Introductions:
