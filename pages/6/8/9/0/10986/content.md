@@ -24,24 +24,22 @@
 
 ## Idea
 
-A _Frobenius monad_ is a _[[monad]]_ which as a [[monoid]] in [[endofunctors]] is a [[Frobenius monoid]].
+A _Frobenius monad_ &lbrack;[Lawvere 1969](#Lawvere69)&rbrack; is a _[[monad]]_ which as a [[monoid]] in [[endofunctors]] is a [[Frobenius monoid]].
 
 ## Examples
 
-The monad induced from an [[ambidextrous adjunction]] is Frobenius. The converse is also true: 
+The monad [induced](monad#RelationBetweenAdjunctionsAndMonads) from an [[ambidextrous adjunction]] is Frobenius. The converse is also true: 
 
-+-- {: .num_prop #FrobMonadsHaveAmbidextrousEMAdjunctions} 
-###### Proposition 
-If $M$ is a Frobenius monad on a category $C$, then the usual [[free-forgetful adjunction]] $F \dashv U \colon Alg_M \to C$ on its [[Eilenberg-Moore category]] is an ambidextrous adjunction whose associated Frobenius monad is isomorphic to $M$. 
-
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[comonad]] [[structure]] [[mate|mated]] to the monad structure of $M$, and there is an [[adjoint equivalence]] $Alg_M \simeq CoAlg_K$ between their [[Eilenberg-Moore categories]] (considered as categories over $C$, via the usual [[forgetful functors]]). If $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to the monad is indeed the given comonad structure of $M$ (a proof is given at *[[Frobenius algebra]]* (see [there](Frobenius+algebra#general)). Hence the [[left adjoint]] $C \to Alg_M$ to the [[forgetful functor]] may be identified with the [[right adjoint]] $C \to CoAlg_M$ of the forgetful functor, each being unique (up to isomorphism) lifts of $M \colon C \to C$ through the forgetful functors. 
-=-- 
-
+\begin{prop}
+\label{FrobMonadsHaveAmbidextrousEMAdjunctions}
+If $M$ is a Frobenius monad on a category $C$, then the usual [[free-forgetful adjunction]] $F \dashv U \colon Alg_M \to C$ on its [[Eilenberg-Moore category]] is an [[ambidextrous adjunction]] whose associated Frobenius monad is isomorphic to $M$. 
+\end{prop}
 (cf. [Street (2004), Section II](#Street04))
+
+\begin{proof}
+In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[comonad]] [[structure]] [[mate|mated]] to the monad structure of $M$, and there is an [[adjoint equivalence]] $Alg_M \simeq CoAlg_K$ between their [[Eilenberg-Moore categories]] (considered as categories over $C$, via the usual [[forgetful functors]]). If $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to the monad is indeed the given comonad structure of $M$ (a proof is given at *[[Frobenius algebra]]* (see [there](Frobenius+algebra#general)). Hence the [[left adjoint]] $C \to Alg_M$ to the [[forgetful functor]] may be identified with the [[right adjoint]] $C \to CoAlg_M$ of the forgetful functor, each being unique (up to isomorphism) lifts of $M \colon C \to C$ through the forgetful functors. 
+\end{proof}
+
 
 
 ## Examples 
@@ -60,7 +58,7 @@ In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a [[
 
 The notion of Frobenius monads appears briefly in
 
-* [[William Lawvere]], pp. 151 of: *Ordinal sums and equational doctrines*, in *[[Seminar on Triples and Categorical Homology Theory]]* LNM **80** (1969) 141-155 &lbrack;[doi:10.1007/BFb0083085](https://doi.org/10.1007/BFb0083085)&rbrack;
+* {#Lawvere69} [[William Lawvere]], pp. 151 of: *Ordinal sums and equational doctrines*, in *[[Seminar on Triples and Categorical Homology Theory]]* LNM **80** (1969) 141-155 &lbrack;[doi:10.1007/BFb0083085](https://doi.org/10.1007/BFb0083085)&rbrack;
 
 
 The relation of Frobenius monads to [[ambidextrous adjunctions]]:
@@ -72,6 +70,10 @@ in [[Cat]]
 and in general [[2-categories]]:
 
 * {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
+
+  > (motivated by [[2d TQFT]])
+
+See also:
 
 * F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
 
