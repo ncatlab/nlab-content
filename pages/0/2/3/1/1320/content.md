@@ -24,10 +24,11 @@
 
 
 ## Idea
+ {#Idea}
 
-A [[functor]] $U \,\colon\, D\to C$ is _monadic_ iff it has a [[left adjoint]] $F \,\colon\, C\to D$ and the [[adjoint functor|adjunction]] $F\dashv U$ "comes from: the induced [[monad]] on $C$" -- that is, $U$ _monadic_ iff $F\dashv U$ is a [[monadic adjunction]].
+A [[functor]] $U \,\colon\, D\to C$ is _monadic_ iff it has a [[left adjoint]] $F \,\colon\, C\to D$ such that -- under the [relation between adjunctions and monads](monad#RelationBetweenAdjunctionsAndMonads) -- the [[adjoint functor|adjunction]] $F\dashv U$ is that induced by the [[monad]] which it induces -- in which case it is called a *[[monadic adjunction]]*.
 
-In this situation $U$ "looks like" the [[forgetful functor]] from the [[Eilenberg-Moore category]] of the monad $(U\circ F, \eta, U\epsilon_F)$ on $C$, and has 'nice properties' similar to these [[forgetful functors]].
+In this situation $U$ is identified with the [[forgetful functor]] from the [[Eilenberg-Moore category]] $EM(U \circ F)$ of the monad $(U \circ F, \eta, U\epsilon_F)$ on $C$, and hence shares the properties of these [[forgetful functors]].
 
 \begin{tikzcd}
   \mathcal{C}
