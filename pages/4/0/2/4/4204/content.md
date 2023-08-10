@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -341,11 +342,12 @@ The classification result for open-closed 2d TQFTs was famously announced and sk
 * {#Lazaroiu00} [[Calin Lazaroiu]], _On the structure of open-closed topological field theory in two dimensions_, Nuclear Phys. B 603(3), 497&#8211;530 (2001), ([arXiv:hep-th/0010269](http://arxiv.org/abs/hep-th/0010269))
 
 
-A standard textbook is
+Textbook account:
 
-* [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theory_ ([web](http://mat.uab.cat/~kock/TQFT.html), [course notes pdf](http://mat.uab.es/~kock/TQFT/FS.pdf))
+* {#Kock2004} [[Joachim Kock]], *Frobenius Algebras and 2d Topological Quantum Field Theories*, Cambridge U. Press (2004) &lbrack;[doi:10.1017/CBO9780511615443](https://doi.org/10.1017/CBO9780511615443), [webpage](http://mat.uab.cat/~kock/TQFT.html), [course notes pdf](http://mat.uab.es/~kock/TQFT/FS.pdf), [[Kock-FrobAlgTQFT-short.pdf:file]]&rbrack;
 
-A picture-rich description of what's going on is in 
+
+A picture-rich description of what's going on:
 
 * {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
 
