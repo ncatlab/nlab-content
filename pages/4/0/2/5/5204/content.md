@@ -31,6 +31,16 @@ More precisely, the class of PIE-limits is the [[saturation of a class of weight
 
 Furthermore, all [[strict pseudo-limits]] are PIE-limits, and therefore any [[strict 2-category]] which admits all PIE-limits also admits all non-strict 2-limits, although it may not have all strict 2-limits.  This is the case, for instance, for the 2-category of strict algebras and pseudo morphisms over a [[strict 2-monad]].
 
+Some examples of PIE-limits are:
+
+- [[comma object|Comma objects]]
+- Pseudo limits
+- Lax limits
+- Oplax limits
+- [[Eilenberg–Moore objects]]
+
+An intuition is that PIE-limits are those 2-dimensional limits that do not impose any equations between 1-cells. For instance, [[equalizers]] and [[pullbacks]] are not PIE-limits.
+
 PIE-limits can also be characterized as the coalgebras for a [[pseudo morphism classifier]] [[comonad]], exhibiting them as a 2-categorical version of the notion of [[rigged limit]].
 
 ## References
