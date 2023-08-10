@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+On [[Frobenius algebras]] and [[2d TQFT|2d]] [[topological quantum field theory]]:
+
+* {#Kock2004} [[Joachim Kock]], *Frobenius Algebras and 2d Topological Quantum Field Theories*, Cambridge U. Press (2004) &lbrack;[doi:10.1017/CBO9780511615443](https://doi.org/10.1017/CBO9780511615443), [webpage](http://mat.uab.cat/~kock/TQFT.html), [course notes pdf](http://mat.uab.es/~kock/TQFT/FS.pdf), [[Kock-FrobAlgTQFT-short.pdf:file]]&rbrack;
+
 On [[quantum cohomology]]:
 
 * [[Joachim Kock]], [[Israel Vainsencher]], *An Invitation to Quantum Cohomology -- Kontsevich's Formula for Rational Plane Curves*, Birkh&auml;ser (2007) &lbrack;[doi:10.1007/978-0-8176-4495-6](https://doi.org/10.1007/978-0-8176-4495-6)&rbrack;
