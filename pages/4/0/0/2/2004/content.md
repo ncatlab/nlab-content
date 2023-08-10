@@ -225,7 +225,7 @@ For instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)).
 
 Original reference: 
 
-* [[Samuel Eilenberg]], [[John Moore]], _Adjoint functors and triples_, Illinois J. Math. 9 (3), pp. 381 - 398, September 1965. ([doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141))
+* [[Samuel Eilenberg]], [[John Moore]], _Adjoint functors and triples_, Illinois J. Math. **9** 3 (1965) 381-398 &lbrack;[doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141)&rbrack;
 
 General discussion:
 
@@ -247,9 +247,9 @@ General discussion:
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
 
-Local presentability of EM-categories is discussed on p. 123, 124 of
+On [[locally presentable category|local presentability]] of EM-categories:
 
-* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], p. 123, 124 of: _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  
 
 The following paper of Melli&#232;s compares the representability condition of ([Linton 69](#Linton69)) with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
