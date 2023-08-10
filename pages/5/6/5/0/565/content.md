@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _concrete category_ is a [[category]] that looks like a category of "[[set]]s with extra [[stuff, structure, property|structure]]", that is a category of [[structured sets]].
+A _concrete category_ is a [[category]] that looks like a category of "[[sets]] equipped with [[extra structure|extra]] [[structure]]", hence like a category of [[structured sets]].
 
 
 ## Definition
