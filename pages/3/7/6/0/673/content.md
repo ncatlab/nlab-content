@@ -41,7 +41,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 ### Papers
 
 
-* _Substructural fixed-point theorems and the diagonal argument: theme and variations_, [Compositionality](https://compositionality-journal.org/) **5**, 8 (2023),  arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). 
+* _Substructural fixed-point theorems and the diagonal argument: theme and variations_, [Compositionality](https://compositionality-journal.org/) **5**, 8 (2023), doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8), arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). 
 
 * _Many finite-dimensional lifting bundle gerbes are torsion_, Bulletin of the Australian Mathematical Society **105** Issue 2 (2022) 323–338, doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936).
 
