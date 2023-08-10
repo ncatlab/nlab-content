@@ -96,7 +96,7 @@ consisting of the comonad $F G$ left adjoint to the monad $H G$ on $D$.
 
 =--
 
-See [[adjoint monad]] for more.
+See *[[adjoint monad]]* for more.
 
 In general there is a duality (an [[dual equivalence|antiequivalence of categories]]) between the categories of monads having right adjoints and of comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right-adjoint comonad. ([SGL, Theorems V.8.1 and V.8.2](#SGL))
 
@@ -234,7 +234,7 @@ Proofs of the folklore Proposition \ref{FullyFaithful} can be found in
 
 * {#KellyLawvere} [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289-319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
 
-* {#SGL} [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic|Sheaves in Geometry and Logic --- A First Introduction to Topos Theory]]_, Springer (1992), [doi](https://dx.doi.org/10.1007/978-1-4612-0927-0).
+* {#SGL} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic|Sheaves in Geometry and Logic --- A First Introduction to Topos Theory]]_, Springer (1992), &lbrack;[doi:10.1007/978-1-4612-0927-0](https://dx.doi.org/10.1007/978-1-4612-0927-0)&rbrack;
 
 
 Several lemmas concerning adjoint pairs and adjoint triples are included in
