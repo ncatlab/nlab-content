@@ -35,6 +35,9 @@ So to the programming language an IO-monad looks just like a [[state monad]] or 
 
 ## References
 
+* {#Milewski19} [[Bartosz Milewski]], §21.2.8 & §21.29 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+
+
 In [[Haskell]]: 
 
 * [A Gentle Introduction to Haskell](https://www.haskell.org/tutorial/), Section 7: *[Input/Output](https://www.haskell.org/tutorial/io.html)*
