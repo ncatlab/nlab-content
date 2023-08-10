@@ -98,7 +98,10 @@ consisting of the comonad $F G$ left adjoint to the monad $H G$ on $D$.
 
 See *[[adjoint monad]]* for more.
 
-In general there is a duality (an [[dual equivalence|antiequivalence of categories]]) between the categories of monads having right adjoints and of comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right-adjoint comonad. ([SGL, Theorems V.8.1 and V.8.2](#SGL))
+In general there is a duality (an [[dual equivalence|antiequivalence of categories]]) between the categories of monads having right adjoints and of comonads having left adjoints.  
+
+Note also (see [there](adjoint+monad#IsomorphismOfEMCategories)) that the [[algebra over a monad|algebras]] over a left-[[adjoint monad]] are identified with the [[coalgebra over a comonad|coalgebras]] for its right-adjoint comonad (duel to [Eilenberg & Moore 1965](adjoint+monad#EilenbergMoore65), see eg. [MacLane & Moerdijk 1992, Theorems V.8.1 and V.8.2](#SGL)).
+
 
 ### Fully faithful adjoint triples
  {#FullyFaithFulAdjointTriples}
