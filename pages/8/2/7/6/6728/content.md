@@ -28,6 +28,7 @@ The **category of descent data** (sometimes shortcut to **descent category**) of
 
 * [[Stacks Project]], ([Tag 02ZC](https://stacks.math.columbia.edu/tag/02ZC))
 
+
 [[!redirects Descent category]]
 [[!redirects descent category]]
 [[!redirects the category of descent data]]
