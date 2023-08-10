@@ -63,16 +63,51 @@ $$
 
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
 
-## From an adjoint triple of functors
+## Examples
 
-Every [[adjoint triple]] $F^*\dashv F_* \dashv F^!$ induces an [[adjoint pair]] $F_* F^*\dashv F_* F^!$. The endofunctor $F_* F^*$ is underlying a monad induced by the adjunction $F^*\dashv F_*$ and $F_* F^!$ is underlying a comonad induced by the adjuntion $F_*\dashv F^!$. This pair of a monad and a comonad are adjoint. 
 
-## General adjoint (co)algebras $End(A)$
+\begin{example}\label{AdjointMonadsInducedFromAdjointTriples}
+**(adjoint monads induced from adjoint triples of adjoint functors)**
+\linebreak
+Every [[adjoint triple]] (of [[adjoint functors]]) $F^*\dashv F_* \dashv F^!$ [induces](monad#RelationBetweenAdjunctionsAndMonads) an [[adjoint pair]] $F_* F^*\dashv F_* F^!$. The endofunctor $F_* F^*$ is underlying a monad induced by the adjunction $F^*\dashv F_*$ and $F_* F^!$ is underlying a comonad induced by the adjuntion $F_*\dashv F^!$. This pair of a monad and a comonad are adjoint. 
+\end{example}
 
-Given a [[small category]] $A$, the category $End(A)$ of endofunctors and natural transformations of endofunctors (with vertical composition as composition) is monoidal with respect to the composition as the tensor product of objects (endofunctor) and Godement product (horizontal composition) as the tensor product of morphisms (natural transformations). Hence we can consider operads and algebras over operads, as well as, dually, coalgebras over cooperads; or some other framework for general algebras and coalgebras (or even props). 
+(See also at *[[adjoint modality]]*.)
+
+## Properties
+
+### General
+
+\begin{proposition}
+\label{IsomorphismOfEMCategories}
+ Given an [[adjoint functor|adjoint pair]] of a [[monad]] and comonad
+
+$$
+  \lozenge \,\dashv\, \Box
+$$
+
+on some category $\mathcal{C}$, then there is an [[equivalence of categories|equivalence]] between their [[Eilenberg-Moore categories]] of [[algebra over a monad|algebras]] over $\lozenge$ and [[coalgebra over a comonad|coalgebras]] over $\Box$, compatible with their [[forgetful functors]] to $\mathcal{C}$:
+
+\begin{tikzcd}[column sep=-1pt]
+  \mathrm{EM}(\lozenge)
+  \ar[dr, "{ U }"{swap}]
+  \ar[rr, "{\sim}"]
+  &&
+  \mathrm{EM}(\Box)
+  \ar[dl, "{ U }"]  
+  \\
+  &
+  \mathcal{C}
+\end{tikzcd}
+\end{proposition}
+This is due to [Eilenberg & Moore 1965](#EilenbergMoore65), where it is implied by the last part of Prop. 3.3. In the more explicit form above the statement may be found in [MacLane & Moerdijk 1992, Thm. 2 on p. 249](#MacLaneMoerdijk92),
+
+
+### General adjoint (co)algebras $End(A)$
+
+Given a [[small category]] $A$, the [[endofunctor category]] $End(A)$ (of [[endofunctors]] and [[natural transformations]] between them, with [[vertical composition]] as [[composition]]) is [[monoidal category|monoidal]] with respect to the composition as the tensor product of objects (endofunctor) and Godement product ([[horizontal composition]]) as the [[tensor product]] of morphisms (natural transformations). Hence we can consider [[operads]] and [[algebras over operads]], as well as, dually, coalgebras over cooperads; or some other framework for general algebras and coalgebras (or even props). 
 
 In any case, given an adjunction $T\dashv G$, operations $T^n\to T$ dualize to cooperations $G\to G^n$, and more generally multioperations $T^k\to T^l$ dualize to the multioperations $G^l\to G^k$. We would like to sketch the proof that the identities for operations on $T$, correspond to the identities on cooperations on $G$ (and more generally there is a duality among the identities for multioperations). This is essentially the consequence of 
-
 
 __Lemma.__ ([[Zoran Škoda|Zoran]]) Given the adjunction $T\dashv G$ with unit $\eta$ and counit $\epsilon$, and the sequence
 
@@ -133,6 +168,12 @@ Discussion of adjoint monads originates with
 * {#EilenbergMoore65} [[Samuel Eilenberg]], [[John Moore]], Section 3 in: _Adjoint functors and triples_, Illinois J. Math. **9** 3 (1965) 381-398 &lbrack;[doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141)&rbrack;
  
 (there called "adjoint triples", sticking with the old term "triple" for "monad", a terminology that now clashes with the modern use of *[[adjoint triples]]* of [[adjoint functors]]).
+
+Textbook account:
+
+
+* {#MacLaneMoerdijk92} [[Saunders Mac Lane]], [[Ieke Moerdijk]], pp. 248 in: _[[Sheaves in Geometry and Logic|Sheaves in Geometry and Logic --- A First Introduction to Topos Theory]]_, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://dx.doi.org/10.1007/978-1-4612-0927-0)&rbrack;
+
 
 
 Discussion in the context of [[ambidextrous adjunctions]] and [[Frobenius monads]]:
