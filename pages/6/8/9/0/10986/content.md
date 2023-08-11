@@ -47,8 +47,24 @@ Now if $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to th
 ## Examples 
  {#Examples}
 
-* For $B$ a [[finite set]] and $k$ any [[ground field]], the [[reader monad]] $\bigcirc_B \;\colon\; Vect_k \to Vect_k$ on $k$-[[VectorSpaces]] is Frobenius and [[isomorphism|isomorphic]] to the [[writer monad]] corresponding to the [[Frobenius algebra]] $k^{\oplus^B}$ (see [there](function+monad#QuantumReaderMonadIsSpecialFrobeniusWriterMonad) for details), this reflecting the existence of [[biproducts]] (namely [[direct sums]]) of [[vector spaces]].
+\begin{example}
+\end{example}
 
+\begin{example}\label{FrobeniusWriterMonad}
+**(Frobenius writer monad)**
+\linebreak
+  For $A$ a [[Frobenius algebra]] (over some [[ground field]] $\mathbb{K}$) the [[writer monad]]/[[cowriter comonad]] $A \otimes (-) \,\colon\,$ is canonically a Frobenius monad, with (co)product and (co)unit induced from the corresponding operations on $A$.
+\end{example}
+
+\begin{example}\label{LinearCoReaderMonad}
+**(linear (co)reader monad)**
+\linebreak
+For $W$ a [[finite set]] and $\mathbb{K}$ any [[ground field]], the [[reader monad]] $\bigcirc_W \;\colon\; Vect_{\mathbb{K}} \to Vect_{\mathbb{K}}$ on $\mathbb{K}$-[[VectorSpaces]] is Frobenius and [[isomorphism|isomorphic]] (see [there](function+monad#QuantumReaderMonadIsSpecialFrobeniusWriterMonad) for details) with the corresponding [[comonad]] being the linear [[cowriter comonad]], this reflecting that [[finite products]] of vector spaces are [[biproducts]], namely [[direct sums]].
+
+Finally, this Frobenius monad $\bigcirc_W \,\simeq\, \bigstar_W \,\colon\, Vect \to Vect$ is isomorphic to the Frobenius [[writer monad]] (of Exp. \ref{FrobeniusWriterMonad}) corresponding to the [[Frobenius algebra]] $\mathrm{Q}W \,\equiv\,\oplus_W \mathbb{K}$ (see [there](Frobenius+algebra#VectorSpaceWithLinearBasis)).
+
+As such, it has been proposed &lbrack;[Coecke & Pavlović 2008](quantum+measurement#CoeckePavlović08)&rbrack; to reflect aspects of [[quantum measurement]] in the context of [[quantum information via dagger-compact categories]] and is used as such in the *[[zxCalculus]]* (where the Frobenius property is embodied by "spider diagrams"). Various authors discuss the Frobenius monads in this context, see the references [there](quantum+information+theory+via+dagger-compact+categories#MeasurementReferencesQuantumInformationTheoryViaStringDiagrams).
+\end{example}
 
 ## Related concepts
 
