@@ -164,7 +164,7 @@ The theory of topological functors can be developed along the lines of Grothendi
 * [[Richard Garner]], *Topological functors as total categories*, [TAC](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html)
 
 * [[Eduardo J. Dubuc]], Luis Espa&#241;ol, *Topological functors as familiarly fibrations* 
-arXiv:math/0611701v1 [math.CT] (2006)
+[arXiv](https://arxiv.org/abs/math/0611701) (2006)
 
 [[!redirects topological concrete category]]
 [[!redirects topological concrete categories]]
