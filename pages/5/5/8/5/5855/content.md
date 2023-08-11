@@ -136,6 +136,10 @@ Generally, for any [[fibered category]] like [[Mod]]$\to Aff$ we may regard the 
 
 For that reason if there is some other fibered category $\mathcal{F}$ over the opposite of some algebraic category $\mathcal{A}$ whose objects are considered "objects of scalars" one is inclined to call the inverse image functor, the extension of scalars. 
 
+### Frobenius extensions
+
+Extension of scalars coincides with *[[coextension of scalars]]* (to make an [[ambidextrous adjunction]] with [[restriction of scalars]]) in the case of [[Frobenius extensions]], see there for more.
+
 ## Examples
 
 * [[complexification]] is extension of scalars along the inclusion $\mathbb{R} \hookrightarrow \mathbb{C}$ of the [[real numbers]] into the [[complex numbers]].
