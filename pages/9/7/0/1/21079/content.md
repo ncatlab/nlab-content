@@ -209,6 +209,8 @@ This is related to the notion of [[quantum measurement]], and as such is discuss
 
 * [[stream]]
 
+* [[cowriter comonad]]
+
 * [[action]], [[G-set]], [[equivariant map]]
 
 * [[internalization]]
