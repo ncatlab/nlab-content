@@ -120,7 +120,7 @@ On the [[Frobenius monads]] induced by ambidextrous adjuntions:
 
 * {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
 
-Discussion of [[ambidextrous adjunctions]] between [[abelian categories]]:
+Discussion of [[ambidextrous adjunctions]] between [[abelian categories]] and introducing the termionology "[[Frobenius functor]]":
 
 * F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
 
