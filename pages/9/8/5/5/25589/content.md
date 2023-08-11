@@ -1,5 +1,7 @@
 __José Gómez-Torrecillas__ is an algebraist from Spain.
 
+* [personal page](https://www.ugr.es/~gomezj/)
+
 ## Selected writings
 
 * [[Tomasz Brzeziński]], [[Laiachi El Kaoutit]], J. Gómez-Torrecillas, _The bicategories of corings_, J. Pure & Appl. Alg. __205__:3 (2006) 510--541 [doi:10.1016/j.jpaa.2005.07.013](https://doi.org/10.1016/j.jpaa.2005.07.013) [math.RA/0408042](https://arxiv.org/abs/math/0408042)
