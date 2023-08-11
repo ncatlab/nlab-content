@@ -98,11 +98,26 @@ The terminology "quantum random access memory" is due to
 
 * {#GiovanettiyLloydMaccone08} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Quantum random access memory*, Phys. Rev. Lett. **100** 160501 (2008) &lbrack;[doi:10.1103/PhysRevLett.100.160501](https://doi.org/10.1103/PhysRevLett.100.160501), [arXiv:0708.1879](https://arxiv.org/abs/0708.1879)&rbrack;
 
+* {#GiovanettiyLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310), [arXiv:0807.4994](https://arxiv.org/abs/0807.4994)&rbrack;
+
 but it could be argued (?) that the notion is implicit already in [Knill (1996)](quantum+programming+language#Knill96).
 
-Further development:
+See also
 
-* {#GiovanettiyLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310), [arXiv:0807.4994](https://arxiv.org/abs/0807.4994)&rbrack;
+S. Arunachalam, *On the robustness of bucket brigade quantum RAM*, New Journal of Physics, **17** 12  (2015) 123010 &lbrack;[arXiv:1502.03450](https://arxiv.org/abs/1502.03450), [doi:10.1088/1367-2630/17/12/123010](https://doi.org/10.1088/1367-2630/17/12/123010)&rbrack;
+
+
+Review:
+
+* [[Alessandro Luongo]], *[The QRAM](https://quantumalgorithms.org/chap-classical-data-quantum-computers.html#the-qram)*, §3.1.1. in: *[Quantum algorithms for data analysis](https://quantumalgorithms.org/)*
+
+* Koustubh Phalak, Avimita Chatterjee, Swaroop Ghosh, *Quantum Random Access Memory For Dummies* &lbrack;[arXiv:2305.01178](https://arxiv.org/abs/2305.01178)&rbrack;
+
+* Samuel Jaques, Arthur G. Rattew, *QRAM: A Survey and Critique* &lbrack;[arXiv:2305.10310](https://arxiv.org/abs/2305.10310)&rbrack;
+
+With Qiskit:
+
+* *[Implementing QRAm in Qiskit](https://quantumcomputinguk.org/tutorials/implementing-qram-in-qiskit-with-code)*
 
 [[!redirects QRAMs]]
 
