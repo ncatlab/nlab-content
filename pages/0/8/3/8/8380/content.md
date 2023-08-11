@@ -546,7 +546,7 @@ By [[formal duality]]:
 
 ### Definable monads
 
-Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following.
+Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following:
 
 * The *[[maybe monad]]* encodes possible controlled failure of a program to execute.
 
@@ -554,12 +554,11 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 
 * The *[[reader monad]]* and *[[coreader comonad]]* both encode reading out a global parameter.
 
+* The *[[writer monad]]* and *[[cowriter comonad]]* both encode writing *consecutively* into a global resource, such as for a [[stream]].
 
 * The *[[state monad]]* encodes the possibility of *consecutive reading and re-setting* a global parameter  -- this provides a notion of *[[random access memory]]*.
 
 * The *[[costate comonad]]* encodes a way (a "[[lens in computer science|lens]]") to read and write fields in [[databases]].
-
-* The *[[writer monad]]* encodes writing *consecutively* into a global resource, such as for a [[stream]].
 
 * The *[[continuation monad]]* encodes [[continuation-passing style]] of program execution.
 
@@ -604,7 +603,7 @@ This includes:
 
 In this vein:
 
-* Equipping [[homotopy type theory]] (say implemented as a programming language concretely in [[Coq]] or [[Agda]]) with two axiomatic [[idempotent monads]], denoted $\sharp$ and $\Pi$, with some additional data and relations, turns it into _[[cohesive homotopy type theory]]_. See also _[[modal type theory]]_.
+* Equipping [[homotopy type theory]] (say implemented as a programming language concretely in [[Coq]] or [[Agda]]) with two axiomatic [[idempotent monads]], denoted $\sharp$ and $\Pi$, with some additional data and relations, turns it into _[[cohesive homotopy type theory]]_. See also at *[Agda flat](Agda#AgdaFlat)* and at *[[modal type theory]]*.
 
 
 ## Related concepts
