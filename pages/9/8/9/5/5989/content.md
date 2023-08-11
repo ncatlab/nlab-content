@@ -22,7 +22,7 @@ On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theo
 
 On ([[idempotent monad|idemponent]]) [[monads]]:
 
-* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *Seminar on Triples and Categorical Homology Theory* Lecture Notes in Mathematics, **80**, Springer  1969  ([doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086))
+* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  1969  &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
 
 On [[comonads]]:
 
