@@ -105,7 +105,7 @@ If one demands of the category $GenSp \,\hookrightarrow TopSp\,$ of generating s
 
 then $G TopSp$ is a [[Cartesian closed category]] ([Vogt 1971, Thm. 3.6](#Vogt71)), with [[internal hom]] given by the image under $G$-fication (eq:Gfication) of the [[compact open topology]].
 
-If one in addition demands that $GenSp$ contains all [[topological simices]] (or all [[Cartesian spaces]] $\mathbb{R}^n$), then $G(X) \to X$ is a [[weak homotopy equivalence]] ([Vogt 1971, Prop. 1.2 (g)](#Vogt71)).  
+If one in addition demands that $GenSp$ contains all [[topological simplices]] (or all [[Cartesian spaces]] $\mathbb{R}^n$), then $G(X) \to X$ is a [[weak homotopy equivalence]] ([Vogt 1971, Prop. 1.2 (g)](#Vogt71)).  
 
 As special cases of this general construction, the above examples of
 
