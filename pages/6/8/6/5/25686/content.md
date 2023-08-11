@@ -4,7 +4,7 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 
 |Year|Location|Website|Abstracts|
 |----|--------|-------|---------|
-|2023|Louvain-la-Neuve|[website](https://sites.uclouvain.be/ct2023/)| [pdf](https://sites.uclouvain.be/ct2023/img/abstracts.pdf)|
+|2023|Louvain-la-Neuve|[website](https://sites.uclouvain.be/ct2023/), [recordings](https://www.youtube.com/playlist?list=PLu4STGsfbix9l6rPxGsjG6Gl822k1hj2X)| [pdf](https://sites.uclouvain.be/ct2023/img/abstracts.pdf)|
 |2022|*no event due to lack of organisers*| | |
 |2021|Genoa|[website](https://sites.google.com/view/ct2021/)| |
 |2020|*no event due to COVID-19 pandemic*| | |
