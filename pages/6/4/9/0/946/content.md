@@ -29,7 +29,7 @@ Spaces with this topology, called _Alexandroff spaces_ and named after [[Paul Al
 
 Let $P$ be a [[preordered set]].
 
-Declare a [[subset]] $A$ of $P$ to be an _[[open subset]]_ if it is upwards-closed.  That is, if $x \leq y$ and $x \in A$, then $y \in A$.  
+Declare a [[subset]] $A$ of $P$ to be an _[[open subset]]_ if it is upwards-closed.  That is, if $x \leq y$ and $x \in A$, then $y \in A$. (Equivalently, closed subsets are the downwards-closed subsets.)
 
 This defines a [[topology]] on $P$, called the **specialization topology** or **Alexandroff topology**.
 =--
