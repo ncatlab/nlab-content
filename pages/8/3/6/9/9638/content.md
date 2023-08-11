@@ -197,6 +197,7 @@ Review:
 
 * Kamil Khadiev, *Lecture Notes on Quantum Algorithms* &lbrack;[arXiv:2212.14205](https://arxiv.org/abs/2212.14205)&rbrack;
 
+* [[Alessandro Luongo]], *[Quantum algorithms for data analysis](https://quantumalgorithms.org)*
 
 Quantum computation became widely thought to be not just a theoretical but a plausible practical possibility with the theoretical understanding of [[quantum error correction]] (which however remains to be implemented scalably):
 
