@@ -13368,7 +13368,7 @@ $$
   \,.
 $$
 
-Then a [[partition of unity]] $\{ f_n \colon \mathbb{R} \to [0,1] \}_{n \in \mathbb{N}}$  (def. \ref{PartitionOfUnity})) subordinate to this cover is given by
+Then a [[partition of unity]] $\{ f_n \colon \mathbb{R} \to [0,1] \}_{n \in \mathbb{Z}}$  (def. \ref{PartitionOfUnity})) subordinate to this cover is given by
 
 $$
   f_n(x)
