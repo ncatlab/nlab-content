@@ -51,7 +51,7 @@ In [[quantum computing]]/[[quantum information theory]], by the *controlled NOT 
 
 
 
-Similarly, by the *CCNOT*-gate (or *Toffoli gate*) one means the operation on triples of [[bits]]/[[qbit]] which keeps the first two and reverses the third iff the first two are both set.
+Similarly, by the *CCNOT*-gate (or *Toffoli gate*) one means the operation on triples of [[bits]]/[[qbit]] which (always retains the first two and) reverses the third iff the first two are both set.
 
 
 ## Related entries
