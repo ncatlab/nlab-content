@@ -97,13 +97,22 @@ $$
 
 =--
 
-## Relation to extension of scalars
+
+## Properties
+
+### Relation to extension of scalars
 
 In some cases coextension of scalars is naturally isomorphic to [[extension of scalars]], which is the *left* adjoint to restriction of scalars.  For example if $H$ is a [[subgroup]] of finite index of a group $G$, for any field $k$ there is an inclusion of [[group algebras]]
 $$   
  i \colon k[H] \to k[G]
 $$
 and coextension of scalars along $i$ is naturally isomorphic to extension of scalars along $i$.
+
+### Frobenius extensions
+
+Co-Extension of scalars coincides with *[[extension of scalars]]* (to make an [[ambidextrous adjunction]] with [[restriction of scalars]]) in the case of [[Frobenius extensions]], see there for more.
+
+
 
 ## Related concepts
 
