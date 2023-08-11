@@ -102,7 +102,7 @@ but it could be argued (?) that the notion is implicit already in [Knill (1996)]
 
 Further development:
 
-* {#GiovanettiyLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310)&rbrack;
+* {#GiovanettiyLloydMaccone08b} [[Vittorio Giovannetti]], [[Seth Lloyd]], [[Lorenzo Maccone]], *Architectures for a quantum random access memory*, Phys. Rev. A **78** 052310 (2008) &lbrack;[doi:10.1103/PhysRevA.78.052310](https://doi.org/10.1103/PhysRevA.78.052310), [arXiv:0807.4994](https://arxiv.org/abs/0807.4994)&rbrack;
 
 [[!redirects QRAMs]]
 
