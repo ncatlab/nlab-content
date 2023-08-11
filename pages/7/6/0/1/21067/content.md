@@ -150,7 +150,7 @@ $$
   \,.
 $$
 
-The [[category]] of [[Kleisli morphisms]] equipped with this [[Kleisli composition]] is called the *[[Kleisli category]]* and is [[equivalence of categories|eqivalent]] to the [[full subcategory]] of $T$-algebras on the free $T$-algebras (see [there](Kleisli+category#InTermsOfKleisliMorphisms) for more).
+The [[category]] of [[Kleisli morphisms]] equipped with this [[Kleisli composition]] is called the *[[Kleisli category]]* and is [[equivalence of categories|equivalent]] to the [[full subcategory]] of $T$-algebras on the free $T$-algebras (see [there](Kleisli+category#InTermsOfKleisliMorphisms) for more).
 
 ### Tensor product
 
