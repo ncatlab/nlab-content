@@ -53,6 +53,11 @@ On the [[KO-theory]] of [[complex projective 3-space]]:
 
 * [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_ Invent. Math.35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
 
+Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
+
+* [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], *Construction of instantons*, Physics Letters A **65**  3 (1978) 185-187  &lbrack;<a href="https://doi.org/10.1016/0375-9601(78)90141-X">doi:10.1016/0375-9601(78)90141-X</a>&rbrack;
+ 
+
 
 On [[quantum anomalies]] via [[index theory]]:
 
@@ -164,7 +169,7 @@ On [[twistors]]:
 
 > (M.F. Atiyah, "How research is carried out", Bull. IMA., 10:232&#8211;234, 1974)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[equivariant de Rham cohomology]]
 
