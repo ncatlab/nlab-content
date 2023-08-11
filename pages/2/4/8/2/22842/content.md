@@ -1,3 +1,4 @@
+
 #Contents#
 * table of contents
 {:toc}
@@ -42,7 +43,7 @@ B
 ## Properties ## 
 
 \begin{proposition}
-A delta lens $(f, \varphi) : A \to B$ is equivalent to a [[functor]] $f : A \to B$ and a [[cofunctor]] $\varphi : A \nrightarrow B$ such that $f a = \varphi_{0} a$ for all objects $a \in A$, and $f \varphi_{1}(a \in A, u : fa \to b \in B) = u$. 
+A delta lens $(f, \varphi) : A \to B$ is equivalent to a [[functor]] $f \colon A \to B$ and a [[cofunctor]] $\varphi \colon A \nrightarrow B$ such that $f a = \varphi_{0} a$ for all objects $a \in A$, and $f \varphi_{1}(a \in A, u \colon fa \to b \in B) = u$. 
 \end{proposition}
 \begin{proof}
 See ([Ahman-Uustalu 2017, Section 6](#AhmanUustalu17)) and ([Clarke 2020](#Clarke20a)). 
@@ -54,7 +55,7 @@ See ([Ahman-Uustalu 2017, Section 6](#AhmanUustalu17)) and ([Clarke 2020](#Clark
 
 * Every [[function]] $A \to B$ yields a delta lens $disc(A) \rightarrow disc(B)$ between [[discrete category|discrete categories]]. 
 
-* Every [[discrete fibration|discrete opfibration]] is a delta lens whose lifting operation is determined by the unique [[Cartesian morphism|opcartesian lifts]]. Conversely, a delta lens is a discrete opfibration if the equation $\varphi(a, f w) = w$ holds for all morphisms $w : a \to a'$ in $A$. 
+* Every [[discrete fibration|discrete opfibration]] is a delta lens whose lifting operation is determined by the unique [[Cartesian morphism|opcartesian lifts]]. Conversely, a delta lens is a discrete opfibration if the equation $\varphi(a, f w) = w$ holds for all morphisms $w \colon a \to a'$ in $A$. 
 
 * A split [[Grothendieck fibration|Grothendieck opfibration]] is a delta lens whose chosen lifts are [[Cartesian morphism|opcartesian morphisms]].
 
@@ -63,6 +64,10 @@ See ([Ahman-Uustalu 2017, Section 6](#AhmanUustalu17)) and ([Clarke 2020](#Clark
 * Every [[split epimorphism]] of [[monoid|monoids]] with a chosen [[section]] is a delta lens, when the monoids a considered as categories with a single object.
 
 * More generally, every [[bijective on objects functor]] with a chosen [[section]] is a delta lens. 
+
+## Related concepts
+
+* [[lens (in computer science)]]
 
 ## References ##
 
@@ -78,9 +83,9 @@ The following paper details the connection between delta lenses and the classica
 
 * {#JohnsonRosebrugh16} [[Michael Johnson]], [[Robert Rosebrugh]], _Unifying Set-Based, Delta-Based and Edit-Based Lenses_, CEUR Workshop Proceedings, 1571, 2016 ([pdf](http://ceur-ws.org/Vol-1571/paper_13.pdf))
 
-The characterisation of delta lenses in terms of [[functor|functors]] and [[cofunctor|cofunctors]] first appeared in the paper: 
+The characterisation of delta lenses in terms of [[functors]] and [[cofunctors]] first appeared in the paper: 
 
-* {#AhmanUustalu17} Danel Ahman, [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf)) 
+* {#AhmanUustalu17} [[Danel Ahman]], [[Tarmo Uustalu]], *Taking updates seriously*, Proceedings of the Sixth International Workshop on [Bidirectional Transformations (Bx 2017)](https://ceur-ws.org/Vol-1827/), CEUR Workshop Proceedings **1827** (2017) &lbrack;[pdf](http://ceur-ws.org/Vol-1827/paper11.pdf)&rbrack;
 
 The notion of delta lens between [[internal category|internal categories]] as well as the link between [[cofunctor|cofunctors]], delta lenses, and split [[Grothendieck fibration|Grothendieck opfibrations]] is developed in the papers: 
 
