@@ -53,5 +53,7 @@ See [[envelope of an adjunction]].
 
 * {#AveryLeinster} [[Tom Avery]], [[Tom Leinster]]. _Isbell conjugacy and the reflexive completion_. Theory and Applications of Categories, **36** 12 (2021) 306-347 &lbrack;[tac:36-12](http://www.tac.mta.ca/tac/volumes/36/12/36-12abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/36/12/36-12.pdf)&rbrack;
 
+* [[Richard Garner]], *Topological functors as total categories*, [TAC](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html)
+
 
 [[!redirects reflexive completions]]
