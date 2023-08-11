@@ -33,7 +33,7 @@ It may intuitively be understood in the following ways, where throughout we fix 
 
 * It is the monad whose [[algebra over a monad|algebras]] are $M$-sets and whose morphisms are [[equivariant maps]].
 
-* It is the [[monad in computer science|monad modeling computational effects]] that can be added or concatenated (using the multiplication map of $M$), such as writing into a log file or standard output to screen. In this case, $M$ is usually the [[free monoid]] on a fixed [[alphabet]] (i.e. the [[data type]] "[[String (in computer science)|String]]").
+* It is the [[monad in computer science|monad modeling computational effects]] that can be added or concatenated (using the multiplication map of $M$), such as writing into a log file or standard output to screen. In this case, $M$ is usually the [[free monoid]] on a fixed [[alphabet]] (i.e. the [[data type]] "[[string (in computer science)|String]]").
 
 If one, more generally, replaces [[sets]] and a [[monoid]] with a [[monoidal category]] and an [[internal monoid]], a similar construction can be given. This generalizes, for example, the [[action]] that [[rings]] have on their [[modules]], and that [[Lie groups]] have on [[manifolds]].
 
@@ -223,9 +223,9 @@ This is related to the notion of [[quantum measurement]], and as such is discuss
 
   * [[function monad]]
 
-  * [[coreader comonad]]
+[[!include reader-writer (co)monads -- table]]
 
-  * [[writer comonad]]
+
 
 
 ## References 
