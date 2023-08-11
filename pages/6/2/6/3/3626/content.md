@@ -133,6 +133,11 @@ We should warn the reader that [Rosebrugh et al (2005)](#Rosebrugh2005) call a s
 
 If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger = \mu$ and $(\epsilon)^\dagger = \eta$, then it is said to be a **&#8224;-Frobenius algebra**. These crop up in the theory of 2d [[TQFTs]], and also in the foundations of [[quantum mechanics in terms of dagger-compact categories|quantum theory]]. 
 
+## Examples
+
+
+(...)
+
 ## Properties 
 
 ### General
