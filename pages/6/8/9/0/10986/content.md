@@ -26,7 +26,8 @@
 
 A _Frobenius monad_ &lbrack;[Lawvere 1969](#Lawvere69)&rbrack; is a _[[monad]]_ which as a [[monoid]] in [[endofunctors]] is a [[Frobenius monoid]].
 
-## Examples
+## Properties
+ {#Properties}
 
 The monad [induced](monad#RelationBetweenAdjunctionsAndMonads) from an [[ambidextrous adjunction]] is Frobenius. The converse is also true: 
 
