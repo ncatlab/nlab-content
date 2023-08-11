@@ -89,13 +89,13 @@ A [[coalgebra of a comonad|coalgebra]] of the coreader comonad $W \times -$ is e
 
 ## Related concepts
 
-* [[writer monad]]
+[[!include reader-writer (co)monads -- table]]
 
 * [[maybe monad]]
 
 * [[continuation monad]]
 
-* [[reader monad]], [[state monad]]
+* [[state monad]]
 
 ## References
 
