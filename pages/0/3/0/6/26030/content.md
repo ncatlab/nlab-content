@@ -92,7 +92,7 @@ $$
   \,.
 $$
 
-Finally, if $A$ carries both [[monoid]]- and [[comonoid]]-[[structure]] in a compatible way to make a [[Frobenius monoid]], then the induced (co)writer (co)monad structures are compatible to make a [[Frobenius monoid]].
+Finally, if $A$ carries both [[monoid]]- and [[comonoid]]-[[structure]] in a compatible way to make a [[Frobenius monoid]], then the induced (co)writer (co)monad structures are compatible to make a [[Frobenius monad]].
 
 
 ## Related concepts
