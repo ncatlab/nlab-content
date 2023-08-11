@@ -546,7 +546,7 @@ By [[formal duality]]:
 
 ### Definable monads
 
-Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following:
+Various monads are _definable_ in terms of standard [[type formation|type-forming operations]] (such as [[product types]], [[function types]], etc.). These include the following (cf. [Moggi 1991, Exp. 1.1](#Moggi91)):
 
 * The *[[maybe monad]]* encodes possible controlled failure of a program to execute.
 
