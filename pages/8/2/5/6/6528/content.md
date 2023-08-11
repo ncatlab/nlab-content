@@ -272,7 +272,15 @@ The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 
 
 * [[gravitational instanton]]
 
+
 ## References
+
+The [[ADHM construction]]:
+
+* {#ADHM} [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], *Construction of instantons*, Physics Letters A **65**  3 (1978) 185-187  &lbrack;[pdf](http://www.new.ox.ac.uk/system/files/ADHM.pdf), <a href="https://doi.org/10.1016/0375-9601(78)90141-X">doi:10.1016/0375-9601(78)90141-X</a>&rbrack;
+ 
+
+
 
 ### General
 
@@ -280,17 +288,22 @@ Introductions and surveys:
 
 * J. Zinn-Justin, _The principles of instanton calculus_, Les Houches (1984)
 
-* [[Mikhail Shifman]] et al., _ABC of instantons_, Fortschr.Phys. 32,11 (1984) 585
+* [[Mikhail Shifman]] et al., _ABC of instantons_, Fortschr. Phys. **32** 11 (1984) 585
 
 * [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 10.2 of: _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
 
-
-
 * {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
+
+* [[Bert Lindenhovius]], *Instantons and the ADHM construction*, Amsterdam (2011) &lbrack;[[Lindenhovius-Instantons.pdf:file]]&rbrack;
+
+* Nick Dorey, Timothy J. Hollowood, Valentin V. Khoze, Michael P. Mattis, *The Calculus of Many Instantons*, Phys. Rept. **371** (2002) 231-459 &lbrack;[arXiv:hep-th/0206063](https://arxiv.org/abs/hep-th/0206063), <a href="https://doi.org/10.1016/S0370-1573(02)00301-0">doi:10.1016/S0370-1573(02)00301-0</a>&rbrack;
+
 
 A survey in view of the [[asymptotic series|asymptotic]] nature of the [[Feynman perturbation series]] is in
 
 * {#Suslov05} [[Igor Suslov]], section 4.5 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J.Exp.Theor.Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
+
+
 
 
 For a fairly comprehensive list of literature see the bibliography of 
