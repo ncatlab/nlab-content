@@ -14,7 +14,7 @@ Introducing [[relative monad|relative]] [[monads in computer science]]:
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
 
-On ([[comonad|co-]])[[monads in computer science]] (such as the [[writer monad]], [[reader monad]], [[coreader comonad]], [[state monad]], ...):
+On ([[comonad|co-]])[[monads in computer science]] (such as the [[writer monad]], [[reader monad]], [[cowriter comonad]], [[coreader comonad]], [[state monad]], ...):
 
 * Marco Gaboardi, [[Shin-ya Katsumata]], [[Dominic Orchard]], Flavien Breuvart, [[Tarmo Uustalu]], *Combining effects and coeffects via grading*, ICFP 2016: Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming (2016) 476–489 &lbrack;[doi:10.1145/2951913.2951939](https://doi.org/10.1145/2951913.2951939), [talk abstract](https://icfp16.sigplan.org/details/icfp-2016-papers/31/Combining-Effects-and-Coeffects-via-Grading), [video rec](https://www.youtube.com/watch?v=l1ZNMT3fQCo)&rbrack;
 
@@ -35,6 +35,11 @@ On ([[comonad|co-]])[[monads in computer science]] (such as the [[writer monad]]
   *Monads and Interaction Lecture 3* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
   *Monads and Interaction Lecture 4* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs4.pdf), [[Uustalu-Monads4.pdf:file]]&rbrack;
+
+On ([[delta lens|delta]]-)[[lenses in computer science]] and [[monads in computer science|(co)monadic effects]]:
+
+* {#AhmanUustalu17} [[Danel Ahman]], [[Tarmo Uustalu]], *Taking updates seriously*, Proceedings of the Sixth International Workshop on [Bidirectional Transformations (Bx 2017)](https://ceur-ws.org/Vol-1827/), CEUR Workshop Proceedings **1827** (2017) &lbrack;[pdf](http://ceur-ws.org/Vol-1827/paper11.pdf)&rbrack;
+
 
 On [[strong monad|strong]] [[monads in computer science]]:
 
