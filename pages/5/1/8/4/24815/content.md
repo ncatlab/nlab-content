@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,7 +24,49 @@
 
 In [[quantum computing]] and [[quantum information theory]], the notion of *quantum random access memory* (QRAM, due to [Giovanettiy, Lloyd & Maccone 2008](#GiovanettiyLloydMaccone08)) is meant to be the [[quantum physics|quantum]]-analog of the [[classical physics|classical]] notion of [[random access memory]]; the key point being that QRAM may be addressed by *[[quantum superpositions]]* of address values and then reads/writes the corresponding [[quantum superposition]] of quantum data ([GLM08, (1)](#GiovanettiyLloydMaccone08)).
 
-The (original and followup) references on QRAM are somewhat vague on the precise intended operational definition. But recall that a classical random access memory of [[data type]] $Mem$ is modeled (in terms of [[monads in computer science]]) by the [[state monad]] induced from the *[[cartesian monoidal category|cartesian]]* [[internal hom]]-[[adjoint functor|adjunction]] 
+
+## Circuit model
+ {#CircuitModel}
+
+The *circuit model* for QRAM essentially identifies a quantum program 
+
+* of nominal type $\mathscr{H} \longrightarrow \mathscr{H}$ 
+
+* but with access to a QRAM space $QMem$ 
+
+with a  a [[quantum circuit]] of type
+
+$$
+  QMem \otimes \mathscr{H} 
+    \longrightarrow
+  QMem \otimes \mathscr{H}
+  \,.
+$$
+
+In the existing literature this is typically stated in terms of concrete examples rather than in abstract generality, see for instance &lbrack;[Arunachalam et al 2015, Fig. 9](#ArunachalamEtAl15)&rbrack; or &lbrack;[Park, Petruccione & Rhee 2019, Fig 1](#ParkPetruccioneRhee19)&rbrack; with review in &lbrack;[Phalak, Chatterjee & Ghosh 2023, Fig 4](#PhalakChatterjeeGhosh23)&rbrack;. A nicely transparent example is given in by [quantumcomputinguk.org](#quantumcomputinguk):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CircuitQRAMExample-quantumcomputinguk.jpg" width="700">
+</center>
+
+(Here the block "Memory Cells" is our "$QMem$", the rest is our $\mathscr{H}$.)
+
+This [[quantum circuit]] is such that (assuming $q_2 =\cdots = q_6 = 0$)
+
+* if the Read/Write flag is 0 then
+
+  it keeps all qbits (except for "Routing" and) except that the "Readout QBit" is set to one of the four "Memory values" depending on the four possible values of the "Addressing QBits"
+
+* if the Read/Write flag is 1 then
+
+  it keeps all qbits (except for "Routing" and) except that the "Memory QBit" addressed by the value of the "Addressing QBits" is set to the value of $q_{10}$.
+
+* for a [[superposition]] of these inputs it yields the corresponding superposition of outputs.
+
+
+## Via linear state-effects 
+
+Recall that a classical random access memory of [[data type]] $Mem$ is modeled (in terms of [[monads in computer science]]) by the [[state monad]] induced from the *[[cartesian monoidal category|cartesian]]* [[internal hom]]-[[adjoint functor|adjunction]] 
 
 * [[product]]$\;$ $Mem \times (-) \;\;\dashv\;\; Maps(Mem, -)$ $\;$[[function set]]
 
@@ -52,7 +95,7 @@ Now, with classical data types (such as [[bits]]) replaced by quantum data types
 and the corresponding [[monad]] is
 
 $$
-  QRAM(Mem,A)
+  QRAM(Mem, \mathscr{H})
   \;\coloneqq\;
   LinMaps
   \big(
@@ -60,7 +103,7 @@ $$
     ,\,
     QMem 
     \otimes
-    A
+    \mathscr{H}
   \big)
 $$
 
@@ -102,22 +145,24 @@ The terminology "quantum random access memory" is due to
 
 but it could be argued (?) that the notion is implicit already in [Knill (1996)](quantum+programming+language#Knill96).
 
-See also
+Further development:
 
-S. Arunachalam, *On the robustness of bucket brigade quantum RAM*, New Journal of Physics, **17** 12  (2015) 123010 &lbrack;[arXiv:1502.03450](https://arxiv.org/abs/1502.03450), [doi:10.1088/1367-2630/17/12/123010](https://doi.org/10.1088/1367-2630/17/12/123010)&rbrack;
+* {#ArunachalamEtAl15} S. Arunachalam et al., *On the robustness of bucket brigade quantum RAM*, New Journal of Physics, **17** 12  (2015) 123010 &lbrack;[arXiv:1502.03450](https://arxiv.org/abs/1502.03450), [doi:10.1088/1367-2630/17/12/123010](https://doi.org/10.1088/1367-2630/17/12/123010)&rbrack;
+
+* {#ParkPetruccioneRhee19} Park, Petruccione, Rhee, *Circuit-Based Quantum Random Access Memory for Classical Data*, Scientific Reports **9** 3949 (2019) &lbrack;[doi:10.1038/s41598-019-40439-3](https://doi.org/10.1038/s41598-019-40439-3)&rbrack;
 
 
 Review:
 
 * [[Alessandro Luongo]], *[The QRAM](https://quantumalgorithms.org/chap-classical-data-quantum-computers.html#the-qram)*, §3.1.1. in: *[Quantum algorithms for data analysis](https://quantumalgorithms.org/)*
 
-* Koustubh Phalak, Avimita Chatterjee, Swaroop Ghosh, *Quantum Random Access Memory For Dummies* &lbrack;[arXiv:2305.01178](https://arxiv.org/abs/2305.01178)&rbrack;
+* {#PhalakChatterjeeGhosh23} Koustubh Phalak, Avimita Chatterjee, Swaroop Ghosh, *Quantum Random Access Memory For Dummies* &lbrack;[arXiv:2305.01178](https://arxiv.org/abs/2305.01178)&rbrack;
 
 * Samuel Jaques, Arthur G. Rattew, *QRAM: A Survey and Critique* &lbrack;[arXiv:2305.10310](https://arxiv.org/abs/2305.10310)&rbrack;
 
 With Qiskit:
 
-* *[Implementing QRAm in Qiskit](https://quantumcomputinguk.org/tutorials/implementing-qram-in-qiskit-with-code)*
+* {#quantumcomputinguk} *[Implementing QRAM in Qiskit](https://quantumcomputinguk.org/tutorials/implementing-qram-in-qiskit-with-code)*
 
 [[!redirects QRAMs]]
 
