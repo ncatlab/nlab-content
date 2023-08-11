@@ -109,20 +109,22 @@ Ambidextrous adjunctions were maybe first considered under the name *strongly ad
 
 * {#Morita65} [[Kiiti Morita]], *Adjoint pairs of functors and Frobenius extensions*, Science Reports of the Tokyo Kyoiku Daigaku, Section A **9** 202/208 (1965) 40-71 &lbrack;[jstor:43698658](https://www.jstor.org/stable/43698658)&rbrack;
 
-On [[bireflective subcategories]]:
+The terminology "[[Frobenius functors]]" for "strongly adjoint pairs" is due to 
+
+* {#CaenepeelMilitaruZhu97}  [[Stefaan Caenepeel]], [[Gigel Militaru]], [[Shenglin Zhu]], *Doi-Hopf modules, Yetter-Drinfel’d modules and Frobenius type properties*, Trans. Amer. Math. Soc. **349** (1997) 4311-4342 &lbrack;[1997-349-11/S0002-9947-97-02004-7](https://www.ams.org/journals/tran/1997-349-11/S0002-9947-97-02004-7), [pdf](https://www.ams.org/journals/tran/1997-349-11/S0002-9947-97-02004-7/S0002-9947-97-02004-7.pdf)&rbrack;
+
+* F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
+
+
+The case of [[bireflective subcategories]]:
 
 * [[Peter Freyd]], [[Peter O’Hearn]],  [[A. John Power]], [[M. Takeyama]], [[Ross Street]], [[Robert D. Tennent]], *Bireflectivity*, Theoretical Computer Science **228** 1–2 (1999) 49-76 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(98)00354-5">doi:10.1016/S0304-3975(98)00354-5</a>&rbrack;
-
 
 On the [[Frobenius monads]] induced by ambidextrous adjuntions:
  
 * {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
 * {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[arXiv:math/0502550](http://arxiv.org/abs/math/0502550), [tac:16-04](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html)&rbrack;
-
-Discussion of [[ambidextrous adjunctions]] between [[abelian categories]] and introducing the termionology "[[Frobenius functor]]":
-
-* F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
 
 
 See also:
