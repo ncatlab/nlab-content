@@ -8,7 +8,7 @@ $\,$
 
 For $G$ any [[gauge group]] (a [[Lie group]]), a $G$-[[Yang-Mills instanton]] on some 4-dimensional [[spacetime]] (a [[pseudo-Riemannian manifold]]) $X$ is a $G$-[[principal bundle]] on $X$ (whose class is going to be the "instanton sector"), equipped with a $G$-[[principal connection]] $\nabla$ (this is the actual [[gauge field]]) such that this is [[self-dual Yang-Mills theory|self-dual]], in that its [[curvature form]] $F_\nabla$ satisfies $F_\nabla = \star F_{\nabla}$, where $\star$ denotes the [[Hodge star]] operator for the given [[Riemannian metric|metric]] (which represents the field of [[gravity]]).
 
-A standard theorem says that there is precisely one self-dual [[principal connection]] $\nabla$ on every [[isomorphism class]] of $SU(2)$-[[principal bundles]]. Therefore classifying and counting instantons amounts to classifying and counting $G$-[[principal bundles]]. 
+The [[ADHM construction]] gives an essentially unique self-dual [[principal connection]] $\nabla$ on every [[isomorphism class]] of $SU(2)$-[[principal bundles]] (ie.: "in every instanton sector"). Therefore classifying and counting instantons amounts to classifying and counting $G$-[[principal bundles]]. 
 
 This is what makes instantons a "topological" structure in the parlance of physics, meaning that they do not depend on [[Riemannian metric]] information, after all. 
 
