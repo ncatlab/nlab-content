@@ -81,7 +81,8 @@ An organized way to see this [[Frobenius monad]]-[[structure]] on the quantum re
 \] 
 which is [[generators and relations|generated]] by a $B$-[[indexed set]] of mutually orthogonal [[projection operators]] $\{P_b\}_{b \colon B}$ (over the [[ground field]] $k$).
 
-It is immediate to check that (eq:AlgebraOfProjectorsInIntroduction) canonically carries the further [[structure]] of a [[Frobenius algebra]] with [[coproduct]] $\delta \;\colon\; \mathbb{1}^B \to \mathbb{1}^B \otimes \mathbb{1}^B$ given by duplication over the $B$-[[linear basis|basis]]: $\delta \;\colon\; P_b \,\mapsto\, P_B \otimes P_b$. But this makes manifest that the [[underlying]] [[functor]] of [[tensor product of vector spaces|tensoring]] $\mathbb{1}^B \otimes (-)$ also carries the [[structure]] of a [[comonad]] in a compatible way to make a [[Frobenius monad]].
+It is immediate to check that (eq:AlgebraOfProjectorsInIntroduction) canonically carries the further [[structure]] of a [[Frobenius algebra]] (see the example [there](Frobenius+algebra#VectorSpaceWithLinearBasis))
+with [[coproduct]] $\delta \;\colon\; \mathbb{1}^B \to \mathbb{1}^B \otimes \mathbb{1}^B$ given by duplication over the $B$-[[linear basis|basis]]: $\delta \;\colon\; P_b \,\mapsto\, P_B \otimes P_b$. But this makes manifest that the [[underlying]] [[functor]] of [[tensor product of vector spaces|tensoring]] $\mathbb{1}^B \otimes (-)$ also carries the [[structure]] of a [[comonad]] in a compatible way to make a [[Frobenius monad]].
 
 \[
   \label{EquivalencesOfTheQuantumReaderMonad}
@@ -103,8 +104,8 @@ In this its incarnation as the $\mathbb{1}^B$-[[writer monad|writer]] [[Frobeniu
 
 In this guise, the quantum reader monad is reflected by the "green spiders" in the [[ZX-calculus]].
 
-## Details
- {#Details}
+## Properties
+ {#Properties}
 
 We discuss the quantum reader monad as the reader monad induced by $B$-[[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]]. Notation and graphics follows [CQTS (2022)](#CQTS22).
 
