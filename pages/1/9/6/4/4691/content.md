@@ -305,6 +305,13 @@ A discussion of entropy with an eye towards the [[presheaf topos]] over the [[si
 
 * [[William Lawvere]], _State categories, closed categories, and the existence_ [of] _semi-continuous entropy functions_, IMA Preprint Series #86, 1984. ([web](https://www.ima.umn.edu/preprints/State-Categories-Closed-Categories-and-Existence-Semi-Continuous-Entropy-Functions))
 
+Category-theoretic characterizations of entropy are discussed in
+
+* [[John Baez]], [Entropy as a functor](https://ncatlab.org/johnbaez/show/Entropy+as+a+functor)
+
+* Cheuk Ting Li, _A Characterization of Entropy as a Universal Monoidal Natural Transformation
+_ ([arXiv:2308.05742](https://arxiv.org/abs/2308.05742))
+
 A (co)homological viewpoint is discussed in
 
 * Pierre Baudot, [[Daniel Bennequin]], _The homological nature of entropy_, Entropy, 17 (2015), 3253-3318. ([doi](https://doi.org/10.3390/e17053253))
@@ -323,7 +330,7 @@ A characterization of [relative entropy](#RelativeEntropy) on finite-[[dimension
 
 A simple characterization of von Neumann entropy of [[density matrices]] (mixed [[quantum states]]) is discussed in 
 
-* Bernhard Baumgartner, _Characterizing Entropy in Statistical Physics and in Quantum Information Theory_, [arXiv:1206.5727].(http://arxiv.org/abs/1206.5727)
+* Bernhard Baumgartner, _Characterizing Entropy in Statistical Physics and in Quantum Information Theory_ ([arXiv:1206.5727](http://arxiv.org/abs/1206.5727))
 
 Entropy-like quantities appear in the study of many PDEs, with entropy estimates. For an intro see
 
