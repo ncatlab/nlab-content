@@ -54,6 +54,8 @@ for a survey of his academic path and work. See also
 
 for an interview on his contributions to [[categorical logic]].
 
+A recording of the commemorative special session in honour of Bill Lawvere from CT2023 can be found here: ([video](https://www.youtube.com/watch?v=x23KS3VOpRg&list=PLu4STGsfbix9l6rPxGsjG6Gl822k1hj2X&index=1&pp=iAQB))
+
 For a (somewhat random) list of further links see also at "[conceptual mathematics](http://conceptualmathematics.wordpress.com/2013/02/09/happy-birthday-professor-f-william-lawvere/)".
 
 
