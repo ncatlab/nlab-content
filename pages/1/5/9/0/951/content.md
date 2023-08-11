@@ -147,5 +147,6 @@ category: category
 [[!redirects FinSet]]
 [[!redirects Fin Set]]
 
+[[!redirects FiniteSet]]
 [[!redirects FiniteSets]]
 
