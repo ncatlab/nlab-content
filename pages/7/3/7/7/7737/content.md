@@ -21,7 +21,7 @@
 
 The term *stratified space* usually refers to a [[topological space]] equipped with the structure of a [[stratification]], which decomposes the space into [[topological subspaces]] called *strata*. 
 
-Often strata are required to "nice" in some sense (for instance, one may require strata to be [[manifolds]], while the stratified space itself need not be a manifold), and the way that strata are linked together is typically controlled by additional conditions. More generally, the term "stratified space" may refer to any notion of [[spaces]] equipped with some type of stratification structure.
+Often strata are required to be "nice" in some sense (for instance, one may require strata to be [[manifolds]], while the stratified space itself need not be a manifold), and the way that strata are linked together is typically controlled by additional conditions. More generally, the term "stratified space" may refer to any notion of [[spaces]] equipped with some type of stratification structure.
 
 Examples are ubiquitous, canonical stratifications are carried by [[polyhedra]], [[cell complexes]], [[algebraic varieties]], [[orbit spaces]] of many [[group actions]] on [[manifolds]], [[mapping cylinders]] of maps between manifolds, and [[moduli stacks of formal groups]] (stratified by [[height of a formal group|height of formal groups]]).
 
