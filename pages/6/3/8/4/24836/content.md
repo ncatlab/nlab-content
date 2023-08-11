@@ -65,6 +65,9 @@ If here $Msg = \ast$ is the [[unit type]], then the exception monad is also know
 
 Exception handling as a [[monad in computer science]]:
 
+* {#Moggi91} [[Eugenio Moggi]], Exp. 1.1 in: *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
+
+
 * [[Jiří Adámek]], Stefan Milius, Nathan Bowler, Paul B. Levy, *Coproducts of Monads on Set*, 27th Annual IEEE Symposium on Logic in Computer Science (2012) &lbrack;[arXiv:1409.3804](https://arxiv.org/abs/1409.3804), [doi:10.1109/LICS.2012.16](https://doi.org/10.1109/LICS.2012.16)&rbrack;
 
 
