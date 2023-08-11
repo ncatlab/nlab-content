@@ -15,15 +15,23 @@
 
 ## Definition ##
 
-Given a [[dense linear order]] $A$ and a [[countable dense linear order]] $B$ such that $B \subseteq A$, a **$B$-indexed locator** for an [[element]] $c \in A$ is an element of the indexed [[cartesian product]] of the [[family]] of [[functions]] 
+Given a [[dense linear order]] $A$ and a [[countable dense linear order]] $B$ such that $B \subseteq A$, a **$B$-indexed locator** for an [[element]] $c \in A$ is a family of functions [[indexed set|indexed]] by the [[cartesian product]] [[set]] $B \times B$ 
 
-$$\left(]a,b[ \to (]a,c[ + ]c,b[)\right)_{(a,b) \in B \times B}$$ 
+$$(a, b) \in B \times B \vdash l(a, b) \in (\mathrm{OpenInt}(a,c) \uplus \mathrm{OpenInt}(c,b))^{\mathrm{OpenInt}(a,b)}$$ 
 
-[[indexed set|indexed]] by the [[cartesian product]] [[set]] $B \times B$ 
+or equivalently an element of the indexed [[cartesian product]]
 
-$$l \in \prod_{a:B} \prod_{b:B} ]a,b[ \to (]a,c[ + ]c,b[)$$
+$$l \in \prod_{a \in B} \prod_{b \in B} (\mathrm{OpenInt}(a,c) \uplus \mathrm{OpenInt}(c,b))^{\mathrm{OpenInt}(a,b)}$$
 
-where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$. 
+Equivalently, a **$B$-indexed locator** is a [[family]] of [[pairs]] of [[functions]] [[indexed set|indexed]] by the [[cartesian product]] [[set]] $B \times B$ 
+
+$$(a, b) \in B \times B \vdash l(a, b) \in \mathrm{OpenInt}(a,c)^{\mathrm{OpenInt}(a,b)} \times \mathrm{OpenInt}(c,b)^{\mathrm{OpenInt}(a,b)}$$ 
+
+or equivalently an element of the indexed [[cartesian product]]
+
+$$l \in \prod_{a \in B} \prod_{b \in B} \mathrm{OpenInt}(a,c)^{\mathrm{OpenInt}(a,b)} \times \mathrm{OpenInt}(c,b)^{\mathrm{OpenInt}(a,b)}$$
+
+where $\mathrm{OpenInt}(a,b)$, $\mathrm{OpenInt}(a,c)$, $\mathrm{OpenInt}(c,b)$ are [[open intervals]] in $A$. 
 
 ## Properties ##
 
