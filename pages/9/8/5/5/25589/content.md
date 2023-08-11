@@ -4,7 +4,13 @@ __José Gómez-Torrecillas__ is an algebraist from Spain.
 
 ## Selected writings
 
-* [[Tomasz Brzeziński]], [[Laiachi El Kaoutit]], J. Gómez-Torrecillas, _The bicategories of corings_, J. Pure & Appl. Alg. __205__:3 (2006) 510--541 [doi:10.1016/j.jpaa.2005.07.013](https://doi.org/10.1016/j.jpaa.2005.07.013) [math.RA/0408042](https://arxiv.org/abs/math/0408042)
+On [[Frobenius functors]]:
+
+* {#CGN98} F. Castaño Iglesias, [[José Gómez-Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
+
+See also:
+
+* [[Tomasz Brzeziński]], [[Laiachi El Kaoutit]], J. Gómez-Torrecillas, _The bicategories of corings_, J. Pure & Appl. Alg. __205__ 3 (2006) 510--541 &lbrack;[doi:10.1016/j.jpaa.2005.07.013](https://doi.org/10.1016/j.jpaa.2005.07.013) [math.RA/0408042](https://arxiv.org/abs/math/0408042)&rbrack;
 
 * [[Gabriella Böhm]], [[José Gómez-Torrecillas]], _Bilinear factorization of algebras_, Bull. Belg. Math. Soc. Simon Stevin 20(2): 221--244 (may 2013) [doi](https://doi.org/10.36045/bbms/1369316541) 
 
