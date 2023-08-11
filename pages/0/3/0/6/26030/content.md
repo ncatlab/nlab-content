@@ -94,6 +94,13 @@ $$
 
 Finally, if $A$ carries both [[monoid]]- and [[comonoid]]-[[structure]] in a compatible way to make a [[Frobenius monoid]], then the induced (co)writer (co)monad structures are compatible to make a [[Frobenius monoid]].
 
+
+## Related concepts
+
+[[!include reader-writer (co)monads -- table]]
+
+
+
 ## References
 
 The terminology "cowriter comonad" is used for instance in:
