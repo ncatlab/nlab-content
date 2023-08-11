@@ -125,3 +125,6 @@ See also:
 [[!redirects ZX calculus]]
 
 [[!redirects zx-calculus]]
+
+[[!redirects zxCalculus]]
+
