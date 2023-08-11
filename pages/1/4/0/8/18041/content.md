@@ -13,9 +13,9 @@ The concept of a _coring spectrum_  is to that of a  _[[ring spectrum]]_ like a 
 \begin{example}\label{SuspensionSpectraAsCoringSpectra}
 **([[suspension spectra]] carry canonical [[structure]] of [[coring spectra]])**
 \linebreak
-Every [[infinity-groupoid|$\infty$-groupoid]] ([[homotopy type]] of a [[topological space]]) is canonically a [[coalgebra object]] in the [[Cartesian monoidal (infinity,1)-category]] [[∞Grpd]] ([here](cartesian+monoidal+infinity,1-category#CoalgebraObjects)). Accordingly, since forming [[suspension spectra]] is [[strong monoidal functor|strong monoidal]], its suspension spectrum $\Sigma^\infty X_+$ is a coring spectrum. 
+Every [[infinity-groupoid|$\infty$-groupoid]] ([[homotopy type]] of a [[topological space]]) is canonically a [[comonoid object]] in the [[Cartesian monoidal (infinity,1)-category]] [[∞Grpd]] ([here](cartesian+monoidal+infinity,1-category#CoalgebraObjects)). Accordingly, since forming [[suspension spectra]] is [[strong monoidal functor|strong monoidal]], its suspension spectrum $\Sigma^\infty X_+$ is a coring spectrum. 
 
-For more on this coring structure on suspension spectra see also discussion of *[[A-theory]]* as in [Hess & Shipley 2014](#HessShipley14).
+For more on this coring structure on suspension spectra see also ([here](suspension+spectrum#SmashMonoidalDiagonals)) at *[[suspension spectrum]]* and see discussion of *[[A-theory]]* as in [Hess & Shipley 2014](#HessShipley14).
 \end{example}
 
 ## Related concepts
