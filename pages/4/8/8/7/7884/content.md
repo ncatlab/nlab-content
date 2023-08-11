@@ -30,6 +30,8 @@ The analog of [[group extensions]] for [[rings]], classified by an analog of [[S
 
 * [[infinitesimal extension]]
 
+* [[Frobenius extension]]
+
 ## References
 
 A classical textbook account is in paragraphs 52-54 of 
