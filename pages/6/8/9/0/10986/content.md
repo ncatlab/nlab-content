@@ -54,6 +54,8 @@ Now if $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to th
 **(Frobenius writer monad)**
 \linebreak
   For $A$ a [[Frobenius algebra]] (over some [[ground field]] $\mathbb{K}$) the [[writer monad]]/[[cowriter comonad]] $A \otimes (-) \,\colon\,$ is canonically a Frobenius monad, with (co)product and (co)unit induced from the corresponding operations on $A$.
+
+[[!include reader-writer (co)monads -- table]]
 \end{example}
 
 \begin{example}\label{LinearCoReaderMonad}
