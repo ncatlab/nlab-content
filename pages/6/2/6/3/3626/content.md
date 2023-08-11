@@ -386,13 +386,15 @@ In polycategorical language we can give another [[unbiased]] definition of a  co
 
 ## Related concepts
 
-* [[Frobenius monad]]
-
 * [[Calabi-Yau algebra]]
 
 * [[hypergraph category]]
 
 * [[Frobenius pseudomonoid]]
+
+
+[[!include reader-writer (co)monads -- table]]
+
 
 ## References ##
 
