@@ -277,6 +277,8 @@ In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ al
 
 * nCafé blog 2012: [Where do Monads come from?](https://golem.ph.utexas.edu/category/2012/09/where_do_monads_come_from.html)
 
+* MO-discussion [[Tim Campion]]: [What is the point of pointwise Kan extensions?](https://mathoverflow.net/questions/220246/what-is-the-point-of-pointwise-kan-extensions)
+
 ## References
 
 One of the first references is
@@ -302,6 +304,10 @@ The role in shape theory is discussed in
 * D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
 
 * J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+
+The dual concept of a „model-induced cotriple“ was studied by Applegate and Tierney in
+
+* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *Seminar on Triples and Categorical Homology Theory* Lecture Notes in Mathematics, **80**, Springer  1969  ([doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086))
 
 For a description of the [[Giry monad]] and other [[probability monads]] as codensity monads, see
 
