@@ -15,7 +15,7 @@
 
 ## Definition
 
-A function $f:\mathbb{R}_D \to \mathbb{R}_D$ is __locally nonzero__ if for all [[Dedekind real numbers]] $x \lt y$, there exists a Dedekind real number $z \in \mathbb{R}_D$ with $x \lt z \lt y$ and $\vert f(z) \vert \gt 0$. 
+A function $f:\mathbb{R}_D \to \mathbb{R}_D$ is __locally nonzero__ if for all [[Dedekind real numbers]] $x \in \mathbb{R}_D$ and $y \in \mathbb{R}_D$ such that $x \lt y$, there exists a Dedekind real number $z \in \mathbb{R}_D$ with $x \lt z \lt y$ and $\vert f(z) \vert \gt 0$. 
 
 ## Examples
 
