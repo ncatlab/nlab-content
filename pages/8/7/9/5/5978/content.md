@@ -13,7 +13,7 @@ This page compiles pointers related to:
 
   \linebreak
 
-  Lec. Notes in Math. **80**
+  Lecture Notes in Mathematics **80**
 
   Springer (1969)
 
@@ -35,13 +35,18 @@ on [[monads]] in [[universal algebra]] and ([[cohomology|co]]-)[[homology]]-theo
 
 **Contents**
 
-On [[functorial semantics]]:
+
+On [[functorial semantics]] (and the [[codensity monad]]):
 
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
 On equational [[doctrines]] (and introducing the notion of [[Frobenius monads]]):
 
 * {#Lawvere69} [[William Lawvere]], *Ordinal sums and equational doctrines*, in *[[Seminar on Triples and Categorical Homology Theory]]* LNM **80** (1969) 141-155 &lbrack;[doi:10.1007/BFb0083085](https://doi.org/10.1007/BFb0083085)&rbrack;
+
+On [[comonads]] (such as dual to the [[codensity monad]]):
+
+* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, in: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  (1969) 156-244   &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
 
 
 (...)
