@@ -2,6 +2,9 @@
 ### Quantum information theory via String diagrams
  {#ReferencesQuantumInformationTheoryViaStringDiagrams}
 
+#### General
+ {#GeneralReferencesQuantumInformationTheoryViaStringDiagrams}
+
 The observation that a natural language for [[quantum information theory]] and [[quantum computation]], specifically for [[quantum circuit diagrams]], is that of [[string diagrams]] in [[†-compact categories]] (see *[[quantum information theory via dagger-compact categories]]*):
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) $[$[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130), [doi:10.1109/LICS.2004.1319636](https://doi.org/10.1109/LICS.2004.1319636)$]$
@@ -47,6 +50,25 @@ Generalization to [[quantum operations]] on [[mixed states]] ([[completely posit
 * [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], 
 *Categories of Quantum and Classical Channels*, EPTCS **158** (2014) 1-14 $[$[arXiv:1408.0049](https://arxiv.org/abs/1408.0049), [doi:10.4204/EPTCS.158.1](https://doi.org/10.4204/EPTCS.158.1)$]$
 
+Textbook accounts (with background on relevant [[monoidal category|monoidal]] [[category theory]]):
+
+* [[Bob Coecke]], [[Aleks Kissinger]], *Picturing Quantum Processes -- A First Course in Quantum Theory and Diagrammatic Reasoning*, Cambridge University Press (2017) $[$[ISBN:9781107104228](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/picturing-quantum-processes-first-course-quantum-theory-and-diagrammatic-reasoning?format=HB&isbn=9781107104228)$]$
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 $[$[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)$]$
+
+  based on:
+
+  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) $[$[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]$]$
+
+* [[Bob Coecke]], [[Stefano Gogioso]], *Quantum in Pictures*, [Quantinuum Publications](https://www.quantinuum.com/publications) (2023) $[$[ISBN 978-1739214715](https://www.amazon.co.uk/dp/1739214714), [Quantinuum blog](https://www.quantinuum.com/news/quantum-in-pictures)$]$
+
+  > (focus on [[ZX-calculus]])
+
+
+
+#### Measurement & Classical structures
+{#MeasurementReferencesQuantumInformationTheoryViaStringDiagrams}
+
 Formalization of [[quantum measurement]] via [[Frobenius algebra]]-[[structures]] ("[[classical structures]]"):
 
 * {#CoeckePavlović08} [[Bob Coecke]], [[Duško Pavlović]], *Quantum measurements without sums*, in [[Louis Kauffman]], [[Samuel Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Taylor & Francis (2008) 559-596 $[$[arXiv:quant-ph/0608035](https://arxiv.org/abs/quant-ph/0608035), [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)$]$
@@ -68,24 +90,21 @@ and the evolution of the "[[classical structures]]"-monad into the "spider"-ingr
 * {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], Def. 6.4 in: *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
 
  
-Textbook accounts (with background on relevant [[monoidal category|monoidal]] [[category theory]]):
 
-* [[Bob Coecke]], [[Aleks Kissinger]], *Picturing Quantum Processes -- A First Course in Quantum Theory and Diagrammatic Reasoning*, Cambridge University Press (2017) $[$[ISBN:9781107104228](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/picturing-quantum-processes-first-course-quantum-theory-and-diagrammatic-reasoning?format=HB&isbn=9781107104228)$]$
-
-* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 $[$[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)$]$
-
-  based on:
-
-  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) $[$[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]$]$
-
-* [[Bob Coecke]], [[Stefano Gogioso]], *Quantum in Pictures*, [Quantinuum Publications](https://www.quantinuum.com/publications) (2023) $[$[ISBN 978-1739214715](https://www.amazon.co.uk/dp/1739214714), [Quantinuum blog](https://www.quantinuum.com/news/quantum-in-pictures)$]$
-
-  > (focus on [[ZX-calculus]])
+#### ZX-Calculus
+ {#ReferencesZXCalculus}
 
 
-Refinement to the [[ZX-calculus]] for specific control of [[quantum circuit]]-diagrams:
+Evolution of the "classical structures"-Frobenius algebra ([above](#MeasurementReferencesQuantumInformationTheoryViaStringDiagrams)) into the "spider"-ingredient of the [[ZX-calculus]] for specific control of [[quantum circuit]]-diagrams:
 
-* [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
+* {#CoeckeDuncan08} [[Bob Coecke]], [[Ross Duncan]], §3 in: *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)&rbrack;
+
+* [[Aleks Kissinger]], *Graph Rewrite Systems for Classical Structures in $\dagger$-Symmetric Monoidal Categories*, MSc thesis, Oxford (2008) &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/Aleks.pdf), [[Kissinger-CLassicalStructures.pdf:file]]&rbrack;
+
+* [[Aleks Kissinger]], *Exploring a Quantum Theory with Graph Rewriting and Computer Algebra*, in: *Intelligent Computer Mathematics. CICM 2009*, Lecture Notes in Computer Science **5625** (2009) 90-105 &lbrack;[doi:10.1007/978-3-642-02614-0_12](https://doi.org/10.1007/978-3-642-02614-0_12)&rbrack;
+
+* {#CoeckeDuncan11} [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 &lbrack;[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)&rbrack;
+
 
 Relating the [[ZX-calculus]] to [[braided fusion categories]] for [[anyon]] [[braiding]]:
 
