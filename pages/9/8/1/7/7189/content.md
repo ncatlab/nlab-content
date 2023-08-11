@@ -273,11 +273,7 @@ In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ al
 * [[idempotent monad]]
 
 
-## Link
 
-* nCafé blog 2012: [Where do Monads come from?](https://golem.ph.utexas.edu/category/2012/09/where_do_monads_come_from.html)
-
-* MO-discussion [[Tim Campion]]: [What is the point of pointwise Kan extensions?](https://mathoverflow.net/questions/220246/what-is-the-point-of-pointwise-kan-extensions)
 
 ## References
 
@@ -289,9 +285,18 @@ For the special case of double dualisation, see:
 
 * [[Anders Kock]]. _On double dualization monads_, Mathematica Scandinavica 27.2 (1970): 151-165. ([JSTOR](https://www.jstor.org/stable/24489892))
 
-A very nice overview is provided by
+Overview:
 
-* {#Leinster13}[[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **12** no.13 (2013) pp.332-370.  ([abstract](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html))
+* [[Fred Linton]], *Codensity triples*, Section 8 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+* {#Leinster13}[[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **12** no.13 (2013) pp.332-370.  &lbrack;[tac:28-13](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html)&rbrack;
+
+See alos:
+
+* nCafé blog 2012: *[Where do Monads come from?](https://golem.ph.utexas.edu/category/2012/09/where_do_monads_come_from.html)*
+
+* MO-discussion [[Tim Campion]]: *[What is the point of pointwise Kan extensions?](https://mathoverflow.net/questions/220246/what-is-the-point-of-pointwise-kan-extensions)*
+
 
 Codensity monads arising from subcategory inclusions are studied in
 
@@ -305,9 +310,9 @@ The role in shape theory is discussed in
 
 * J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
-The dual concept of a „model-induced cotriple“ was studied by Applegate and Tierney in
+The dual concept of a "model-induced cotriple":
 
-* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, p. 156-244 In: [[Beno Eckmann]] (ed.) *Seminar on Triples and Categorical Homology Theory* Lecture Notes in Mathematics, **80**, Springer  1969  ([doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086))
+* [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, in: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  (1969) 156-244   &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
 
 For a description of the [[Giry monad]] and other [[probability monads]] as codensity monads, see
 
