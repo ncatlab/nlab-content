@@ -941,11 +941,9 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 
 ## Related concepts
 
-* [[coreader comonad]]
+[[!include reader-writer (co)monads -- table]]
 
 * [[state monad]]
-
-* [[writer monad]]
 
 * [[quantum reader monad]]
 
