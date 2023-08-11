@@ -6,6 +6,11 @@ Nigel Hitchin is professor of pure [[mathematics]] at Oxford.
 
 ## Selected writings
 
+Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
+
+* [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], *Construction of instantons*, Physics Letters A **65**  3 (1978) 185-187  &lbrack;<a href="https://doi.org/10.1016/0375-9601(78)90141-X">doi:10.1016/0375-9601(78)90141-X</a>&rbrack;
+
+
 On the [[moduli spaces of monopoles]]:
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_  M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
@@ -23,7 +28,7 @@ On [[SL(2,O)]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[moduli space of monopoles]]
 
