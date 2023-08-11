@@ -54,8 +54,27 @@ which verifies the properties that the [[unit]] would verify if $C$ was a [[bimo
 
 
 ## Examples
+ {#Examples}
 
-For example, a comonoid in [[Vect]] (with its usual [[tensor product]]) is called a [[coalgebra]].  Every set can be made into a comonoid in [[Set]] (with the [[cartesian product]]) in a unique way.  More generally, every object in a [[cartesian monoidal category]] can be made into a comonoid in a unique way.
+\begin{example}
+A comonoid object in [[VectorSpaces]] (with its usual [[tensor product of vector spaces]]) is called a *[[coalgebra]]*.
+\end{example}
+
+\begin{example}\label{InACartesianMonoidalCategory}
+Every [[set]] carries a *unique* [[structure]] of a comonoid in the category of [[Sets]] with respect to the usual [[cartesian product]].  
+
+Generally, every object $X \,\in\, \mathcal{C}$ in a [[cartesian monoidal category]] $(\mathcal{C}, \ast, \times)$ becomes a ([[cocommutative coalgebra|cocommutative]]) comonoid by taking the
+
+* counit to be the [[terminal object|terminal morphism]] $ X \xrightarrow{\exists !} \ast$
+
+* coproduct to be the [[diagonal morphism]] $diag_X \,\colon\, X \to X \times X$. 
+
+Obvious as this may be, it plays a somewhat profound role in various contexts: 
+
+* In the case of [[topological spaces]] or other models of  classical [[homotopy types]], and using that the [[suspension spectrum]]-construction is a [[strong monoidal functor]], this implies the remarkable fact that [[suspension spectra]] carry [[coring spectrum]]-[[structure]], see [there](suspension+spectrum#SmashMonoidalDiagonals) for more.
+
+\end{example}
+
 
 
 ## Related concepts
@@ -65,6 +84,9 @@ For example, a comonoid in [[Vect]] (with its usual [[tensor product]]) is calle
 * [[co-associativity]]
 
 * [[co-unitality]]
+
+[[!include reader-writer (co)monads -- table]]
+
 
 [[!redirects comonoid]]
 [[!redirects comonoids]]
