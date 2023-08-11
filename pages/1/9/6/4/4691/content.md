@@ -307,10 +307,11 @@ A discussion of entropy with an eye towards the [[presheaf topos]] over the [[si
 
 Category-theoretic characterizations of entropy are discussed in
 
-* [[John Baez]], [Entropy as a functor](https://ncatlab.org/johnbaez/show/Entropy+as+a+functor)
+* [[John Baez]], *[[johnbaez:Entropy as a functor|Entropy as a functor]]*
 
-* Cheuk Ting Li, _A Characterization of Entropy as a Universal Monoidal Natural Transformation
-_ ([arXiv:2308.05742](https://arxiv.org/abs/2308.05742))
+
+
+* Cheuk Ting Li, *A Characterization of Entropy as a Universal Monoidal Natural Transformation* &lbrack;[arXiv:2308.05742](https://arxiv.org/abs/2308.05742)&rbrack;
 
 A (co)homological viewpoint is discussed in
 
