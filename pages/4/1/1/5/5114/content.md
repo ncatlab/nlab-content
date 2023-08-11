@@ -129,6 +129,10 @@ Frobenius monoidal functors are a special case of Frobenius *linear* functors be
 
 * **Frobenius monoidal functor**
 
+Beware of the *un*-related terminoilogy:
+
+* [[Frobenius functor]]
+
 ## References
 
 Equation (3.26), (3.27) in [p. 81](http://www.math.tamu.edu/~maguiar/a.pdf) of
