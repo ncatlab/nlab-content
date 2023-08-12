@@ -23,11 +23,11 @@ The term "semigroup" is standard, but _semi-monoid_ would be more systematic.
 
 A __semigroup__ is, equivalently,
 
-*  a [[set]] equipped with an [[associativity|associative]] binary operation.  
+*  a [[set]] equipped with an [[associativity|associative]] [[binary operation]].  
 
-*  an associative [[magma]];
+*  an [[associative magma]];
 
-*  the [[hom-set]] of a [[semicategory]] with a single object.
+*  the [[hom-set]] of a [[semicategory]] with a single [[object]].
 
 
 ## Properties
@@ -102,6 +102,10 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 [[!include oidification - table]]
 
 ## References
+
+On the history of the notion:
+
+* {#Hollings09} Christopher Hollings, *The Early Development of the Algebraic Theory of Semigroups*, Archive for History of Exact Sciences **63** (2009) 497–536 &lbrack;[doi:10.1007/s00407-009-0044-3](https://doi.org/10.1007/s00407-009-0044-3)&rbrack;
 
 Semicategories and semigroups are mentioned for instance 
 
