@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Motivation and historical appearance
 
 Given a finite-dimensional Hopf algebra $H$ and a $D(H)$-module algebra $A$ (where $D(H)$ is the Drinfeld double of $H$), [Lu1996](#Lu1996) has introduced the structure of a left $A$-[[associative bialgebroid|bialgebroid]] on the [[smash product algebra]] $A\sharp H$ as a noncommutative generalization of the algebra of functions on an [[action groupoid]]. In this finite-dimensional case, the category of left-right Yetter-Drinfeld modules is equivalent to the category of [[Yetter-Drinfeld module|Yetter-Drinfeld]] $H$-modules. In this new context of Yetter-Drinfeld module alegbras, the construction has been generalized 
@@ -33,7 +38,9 @@ complicated issues with completions are involved (e.g. in
 ## Literature
 
 * {#Lu1996} Jiang-Hua Lu, _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](https://arxiv.org/abs/q-alg/9505024), [MR95e:16037](https://mathscinet.ams.org/mathscinet-getitem?mr=95e:16037), [doi](https://doi.org/10.1142/S0129167X96000050); _On the Drinfeld double and the Heisenberg double of a Hopf algebra_, Duke Math. J. __7__:3 (1994) 763-776, [MR1277953](https://www.ams.org/mathscinet-getitem?mr=1277953), [doi](https://doi.org/10.1215/S0012-7094-94-07428-0)
-* {#BrzezinskiMilitaru} [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002 [math.QA/0012164](https://arxiv.org/abs/math.QA/0012164) 
+
+* {#BrzezinskiMilitaru} [[Tomasz Brzeziński]], [[Gigel Militaru]], *Bialgebroids, $\times_A$-bialgebras and duality*,  J. Algebra __251__ (2002) 279-294 &lbrack;[math.QA/0012164](https://arxiv.org/abs/math.QA/0012164), [doi:10.1006/jabr.2001.9101](https://doi.org/10.1006/jabr.2001.9101)&rbrack;
+
 
 Standard reference is now
 
