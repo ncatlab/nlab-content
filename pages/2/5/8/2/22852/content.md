@@ -13,6 +13,8 @@ The term "finite type" may refer to:
 
   [[types]] of the kind of [[finite sets]] (see at *[[family of finite types]]* and *[[inductive family]]*)
 
+  also [[pi-finite types]]. 
+
 Related concepts:
 
 * [[finite set]], [[profinite set]]
