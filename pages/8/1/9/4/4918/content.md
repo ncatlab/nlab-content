@@ -31,5 +31,12 @@ On [[categorical semantics]] for [[linear logic]]:
 
 * [[Martin Hyland]], Andrea Schalk, *Glueing and orthogonality for models of linear logic*, Theoretical Computer Science **294** 1–2 (2003) 183-231 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00241-9">doi:10.1016/S0304-3975(01)00241-9</a>&rbrack;
 
+On the history of [[categorical algebra|categorical]] [[universal algebra]] via [[Lawvere theories]] and [[monads]]:
+
+* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+
+
+
+
 
 category: people
