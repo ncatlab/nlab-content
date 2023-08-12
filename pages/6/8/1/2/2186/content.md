@@ -142,23 +142,28 @@ There are other ways of realizing the notion of [[infinitesimal number]] precise
 
 * Since the surreal numbers are the universally embedding ordered field, any field of hyperreals can be embedded in the surreals.  However, such embeddings don't seem very useful, since they don't preserve any of the important structure of the hyperreals (such as the transfer principle).
 
+## Related concepts
+
+* [[monad in nonstandard analysis]] ([[infinitesimal neighbourhood]])
 
 ## References 
  {#References}
 
-
-* [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
-
-* [[Jerome Keisler]], _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
+* [[Abraham Robinson]], *Non-standard analysis*, Studies in Logic and the Foundations of Mathematics **42**, North-Holland (1966), Princeton University Press (1996) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrack;
 
 * {#Keisler76} [[Jerome Keisler]], *Foundations of Infinitesimal Calculus*, Prindle Weber & Schmidt (1976, 2022) &lbrack;[pdf](https://people.math.wisc.edu/~hkeisler/foundations.pdf)&rbrack;
 
-* [[Abraham Robinson]], _Non-standard analysis_ (1966) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrackl
+* [[Jerome Keisler]], _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
+
+See also:
 
 * Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analysis), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduct), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson), [constructive non-standard analysis](http://en.wikipedia.org/wiki/Constructive_non-standard_analysis), [criticism of nonstandard analysis](http://en.wikipedia.org/wiki/Criticism_of_non-standard_analysis)
 
+* [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
+
 
 * Sergio Salbany, Todor Todorov, _Nonstandard analysis in topology_, [arxiv/1107.3323](http://arxiv.org/abs/1107.3323)  
+
 
 
 * {#Moerdijk95} [[Ieke Moerdijk]], _A model for intuitionistic nonstandard arithmetic_, Annals of Pure and Applied Logic __73__ (1995), pp. 37&#8211;51.
