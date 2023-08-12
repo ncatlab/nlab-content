@@ -27,9 +27,11 @@ For given [[natural number]] $n$, a type is a **$\pi_n$-finite type** if it has 
 
 * [[locally finite type]]
 
+* [[pi-finite homotopy type]]
+
 ## References
 
-* agda-unimath, *π-finite types* ([web](https://unimath.github.io/agda-unimath/univalent-combinatorics.pi-finite-types.html))
+* [[UniMath project]], *π-finite types* ([web](https://unimath.github.io/agda-unimath/univalent-combinatorics.pi-finite-types.html))
 
 [[!redirects π-finite type]]
 [[!redirects π-finite types]]
