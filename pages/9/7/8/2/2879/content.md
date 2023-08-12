@@ -79,8 +79,8 @@ The commutative version is classical, and there is an extensive literature, see 
 
 Over a noncommutative base ring, there is a nonsymmetric version due J-H. Lu and a similar version is later studied by [[Ping Xu]]
 
-*  Jiang-Hua Lu, _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](http://dx.doi.org/10.1142/S0129167X96000050); _On the Drinfeld double and the Heisenberg double of a Hopf algebra_, Duke Math. J. __7__:3 (1994) 763-776, [MR1277953](http://www.ams.org/mathscinet-getitem?mr=1277953), [doi](http://dx.doi.org/10.1215/S0012-7094-94-07428-0)
-* [[Ping Xu]], _Quantum groupoids_, Commun. Math. Phys., 216:539581, 2001, [q-alg/9905192](http://arxiv.org/abs/math/9905192), [doi](http://dx.doi.org/10.1007/s002200000334); _Quantum groupoids and deformation quantization_, [q-alg/9708020](http://arxiv.org/abs/q-alg/9708020), _Quantum groupoids associated to universal dynamical R-matrice_, [q-alg/9811172](http://arxiv.org/abs/math/9811172)
+* [[Jiang-Hua Lu]], _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arXiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](https://doi.org/10.1142/S0129167X96000050); _On the Drinfeld double and the Heisenberg double of a Hopf algebra_, Duke Math. J. __7__:3 (1994) 763-776, [MR1277953](https://mathscinet.ams.org/mathscinet-getitem?mr=1277953), [doi](https://doi.org/10.1215/S0012-7094-94-07428-0)
+* [[Ping Xu]], _Quantum groupoids_, Commun. Math. Phys., 216:539581, 2001, [q-alg/9905192](https://arxiv.org/abs/math/9905192), [doi](https://doi.org/10.1007/s002200000334); _Quantum groupoids and deformation quantization_, [q-alg/9708020](https://arxiv.org/abs/q-alg/9708020), _Quantum groupoids associated to universal dynamical R-matrice_, [q-alg/9811172](https://arxiv.org/abs/math/9811172)
 * blog discussion at [Theoretical Atlas](http://theoreticalatlas.wordpress.com/2009/03/18/a-note-on-quantum-groupoids)
 
 The modern concept over the noncommutative base has been discovered by several different people in several different formalisms.  Some of the differences are merely cosmetic, but there are at least two main concepts, depending on the underlying concept of 'bialgebroid'.
@@ -103,19 +103,18 @@ A different and more widely used concept was developed independently in these tw
 
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
 
-* [[R. Street]], [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications __43__ (American Math. Soc. 2004) 187-226; <a href = "http://arxiv.org/abs/math/0301209">arXiv:math/0301209</a>
+* [[R. Street]], [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications __43__ (American Math. Soc. 2004) 187-226; arXiv:[math/0301209](https://arxiv.org/abs/math/0301209)
 
 and also described in:
 
-* [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, Vol. 6, ed. by
-M. Hazewinkel, Elsevier 2009, 173&#8211;236 [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
-* G. B&#246;hm, [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](http://arxiv.org/abs/math.QA/0305136)
-* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
+* [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, Vol. 6, ed. by M. Hazewinkel, Elsevier 2009, 173--236 [arxiv:math.RA/0805.3806](https://arxiv.org/abs/0805.3806)
+* G. B&#246;hm, [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](https://arxiv.org/abs/math.QA/0305136)
+* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002 [math.QA/0012164](https://arxiv.org/abs/math.QA/0012164)
 * D. Chikhladze, Category of quantum categories, Theory and Applications of Categories __25__ (2011) 1 - 37.  ([pdf](http://www.tac.mta.ca/tac/volumes/25/1/25-01.pdf))
 
 This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
 
-A class of examples of Hopf algebroids have as underyling algebra the smash product of a Hopf algebra with a Yetter-Drinfeld module algebra over it. These are the scalar extension Hopf algebroids introduced in Brzeziński-Militaru article above modifying slightly a construction of Lu who considered modules over a Drinfeld double instead of Yetter-Drinfeld modules (what is equivalent for finite dimensional Hopf algebras). For a symmetric version see
+A class of examples of Hopf algebroids have as underyling algebra the smash product of a Hopf algebra with a Yetter-Drinfeld module algebra over it. These are the [[scalar extension Hopf algebroid]]s introduced in Brzeziński-Militaru article above modifying slightly a construction of Lu who considered modules over a Drinfeld double instead of Yetter-Drinfeld modules (what is equivalent for finite dimensional Hopf algebras). For a symmetric version see
 
 * M. Stojić, _Scalar extension Hopf algebroids_, Journal of algebra and applications 2023 [doi](https://doi.org/10.1142/S0219498824501147) [arXiv:2208.11696](https://arxiv.org/abs/2208.11696)
 
