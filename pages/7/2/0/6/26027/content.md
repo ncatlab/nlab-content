@@ -19,4 +19,8 @@ On associative [[bialgebroids]] and in particalar about those arising as smash p
 
 * [[Tomasz Brzeziński]], [[Gigel Militaru]], *Bialgebroids, $\times_A$-bialgebras and duality*,  J. Algebra __251__ (2002) 279-294 &lbrack;[math.QA/0012164](https://arxiv.org/abs/math.QA/0012164), [doi:10.1006/jabr.2001.9101](https://doi.org/10.1006/jabr.2001.9101)&rbrack;
 
+The structure of finite-dimensional Hopf algebras can be recovered from the fundamental operator (idea of [[multiplicative unitary]]) satisfying the pentagon relation, in the framework of finite-dimensional [[Heisenberg double]]s, as shown in   
+
+* [[Gigel Militaru]], _Heisenberg double, pentagon equation, structure and classification of finite-dimensional Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44--64 [doi](https://doi.org/10.1112/S0024610703004897)
+
 category: people
