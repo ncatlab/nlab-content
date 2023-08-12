@@ -74,6 +74,10 @@ For a magma $(A, \cdot)$ and for all elements $a, b, c:A$, a magma is __left ext
 
 ## Literature
 
+On the history of the notion:
+
+* {#Hollings09} Christopher Hollings, *The Early Development of the Algebraic Theory of Semigroups*, Archive for History of Exact Sciences **63** (2009) 497–536 &lbrack;[doi:10.1007/s00407-009-0044-3](https://doi.org/10.1007/s00407-009-0044-3)&rbrack;
+
 The wikipedia entry [magma](http://en.wikipedia.org/wiki/Magma_%28algebra%29) is quite useful, having a list and a table of various subclasses of magmas, hence of binary algebraic structures. 
 
 * [[eom]]: [magma](http://www.encyclopediaofmath.org/index.php?title=m/m110040)
