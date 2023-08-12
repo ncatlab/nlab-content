@@ -60,6 +60,7 @@ The inclusion of homotopy types with finite groups into all homotopy types gener
 
 * [[finite type]]
 
+* [[pi-finite type]]
 
 ## References
 
@@ -83,5 +84,3 @@ Discussion as an [[elementary (∞,1)-topos]]:
 
 [[!redirects pi-finite homotopy type]]
 [[!redirects pi-finite homotopy types]]
-
-
