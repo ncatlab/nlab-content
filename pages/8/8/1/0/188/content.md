@@ -20,22 +20,80 @@
 
 \tableofcontents
 
+## Idea
+ {#Idea}
+
+In [[algebra]], by a *monoid* one means a collection ([[set]]) of elements equipped with a [[binary operation]] (a "multiplication operation") which is [[associativity|associtive]] and has a [[unit element]].
+
+Hence monoid structure on a set is a fairly rudimentary form of algebraic [[structure]] which [[underlying|underlies]] many familiar [[structures]] considered [[algebra]], such as that of *[[groups]]* (which are monoids with all [[inverse elements]]) and *[[rings]]* (which are [[abelian groups]] compatibly equipped with a *second* monoid structure). 
+
+Therefore, in the algebraic literature monoids are, conversely, often called *unital [[semi-groups]]*. The root "mono-" in "monoid" refers to the  single [[binary operation]] (cf. *[[duoid]]* and *[[dioid]]*).
+
+The terminology of *[[magmas]]* is meant to invoke this rudimemtary but foundational nature of basic algebraic structures: Monoids are precisely the [[unital magma|unital]] [[associative magmas]].
+
+The [[categorification]] of the notion of monoids is that of *[[monads]]* whose ubiquitous role in [[mathematics]] (together with their [associated](adjoint+functor#RelationBetweenAdjunctionsAndMonads) [[adjoint functors]]) is hard to overstate.
+
+
+
+
 ## Definitions
 
-### With a binary operation and an element
+### Elementary definition
 
-Classically, a **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ (the _[[neutral element]]_) such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **[[associative law]]**:
+The classical definition of monoids in [[Sets]], as a [[unital magma|unital]] [[associative magma]]:
 
-$$ (x \cdot y) \cdot z = x \cdot (y \cdot z)$$
+\begin{definition}\label{MonoidsInSets}
+A **monoid** is a [[set]] $M$ equipped with the [[structure]] if 
 
-and the **left and right [[unit laws]]**: 
+1. (**[[binary operation]]**) a [[map]] from the [[Cartesian product]] of the set with itself to itself
 
-$$ 1 \cdot x = x = x \cdot 1 .$$
+   $$
+     (\text{-}) \cdot (\text{-}) 
+       \,\colon\, 
+     M \times M \to M
+   $$ 
+
+1. (**[[neutral element]]**) an [[element]] 
+
+   $$1 \in M$$ 
+
+such that the following [[equations]] are satisfied
+
+1. (**[[associativity]]**)
+
+   $$ 
+     x, y, z \,\in\, M
+     \;\;\;\;\;
+       \vdash
+     \;\;\;\;\;
+     (x \cdot y) \cdot z 
+       \;=\; 
+     x \cdot (y \cdot z)
+     \mathrlap{\,,}
+   $$
+
+* (**[[unitality]]**) 
+
+  $$ 
+    x \in M
+     \;\;\;\;\;
+       \vdash
+     \;\;\;\;\;
+    1 \cdot x 
+      \;=\; 
+    x 
+      \;=\; 
+    x \cdot 1
+    \mathrlap{\,.}
+  $$
+
+\end{definition}
+
 
 ### In a monoidal category
 {#inamonoidalcategory}
 
-See [[monoid in a monoidal category]].
+See *[[monoid in a monoidal category]]*.
 
 ### In terms of string diagrams
 
@@ -203,6 +261,26 @@ In summary, it is important to make people understand that groups can be identif
 [[!include oidification - table]]
 
 ## References
+
+Beware that the term "monoid" was first used by
+
+* [[Arthur Cayley]], *Second and Third Memoirs on Skew Surfaces*, Otherwise Scrolls, Phil. Trans. (1863 and 1869)
+
+for certain [[surfaces]], quite unrelated to the modern meaning of the term.
+
+Instead, what are now called *monoids* ([[unital magma|unital]] [[associative magmas]]) were called *groupoids* (now clashing with the modern use of *[[groupoid]]*) by
+
+* [[Garrett Birkhoff]], *Hausdorff Groupoids*, Annals of Mathematics, Second Series **35** 2 (1934) 351-360 &lbrack;[jstor:1968437](https://www.jstor.org/stable/1968437), [doi:10.2307/1968437](https://doi.org/10.2307/1968437)&rbrack;
+
+The modern terminology "monoid" for unital associative magmas is (according to [Hollings 2009, p. 529](#Hollings09)) due to 
+
+* [[Nicolas Bourbaki]], [[Éléments de Mathématique]] (1943)
+
+For more on the history of the notion:
+
+* {#Hollings09} Christopher Hollings, *The Early Development of the Algebraic Theory of Semigroups*, Archive for History of Exact Sciences **63** (2009) 497–536 &lbrack;[doi:10.1007/s00407-009-0044-3](https://doi.org/10.1007/s00407-009-0044-3)&rbrack;
+
+* Math.SE, *[Who invented Monoid?](https://mathoverflow.net/q/338281/381)*
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
