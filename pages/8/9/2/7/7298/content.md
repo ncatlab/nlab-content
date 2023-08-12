@@ -43,7 +43,7 @@ The collection of all infinitesimal disks forms the [[infinitesimal disk bundle]
 
 ### In nonstandard analysis
 
-In [[nonstandard analysis]], the __monad__ or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
+In [[nonstandard analysis]], the __[[monad (disambiguation)|monad]]__ (see eg. [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
 
 It is best to avoid the term 'monad' for this concept on this wiki, since it has more or less nothing to with the categorial [[monads]] that are all over the place here (including elsewhere on this very page).
 
@@ -68,20 +68,30 @@ In [[algebraic geometry]] (via [[infinitesimal shape modality]])
 
 * [[A. Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique (r&#233;dig&#233;s avec la collaboration de Jean Dieudonn&#233;) : IV. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas, Quatri&#232;me partie_, Publications Math&#233;matiques de l'IH&#201;S __32__ (1967), p. 5-361, [numdam](http://www.numdam.org/item?id=PMIHES_1967__32__5_0)
 
-Discussion in nonstandard analysis is in 
- 
-* wikipedia [Monad (non-standard analysis)](http://en.wikipedia.org/wiki/Monad_%28non-standard_analysis%29)
-* S. S. Kutateladze, _Leibnizian, Robinsonian, and Boolean valued monads_
-[arxiv/1106.2755](http://arxiv.org/abs/1106.2755)
-* [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, Nonstandard methods in stochastic analysis and mathematical physics, Academic Press 1986
+Discussion in [[nonstandard analysis]] and the "[[monad (disambiguation)|monad]]-"terminology:
 
-Discussion in [[differential cohesion]] is in
+* {#Luxemburg66} [[Wilhemus A. J. Luxemburg]], *A General Theory of Monads*, in: *Applications of Model Theory to Algebra, Analysis and Probability*, Holt, Rinehart and Minston (1966) 18–86 &lbrack;[ark](https://archive.org/stream/in.ernet.dli.2015.141486/2015.141486.Applications-Of-Model-Theory-To-Algebra-analysis-And-Probability_djvu.txt)&rbrack;
+
+* {#Keisler76} [[Jerome Keisler]], Def. 1.2 in: *Foundations of Infinitesimal Calculus*, Prindle Weber & Schmidt (1976, 2022) &lbrack;[pdf](https://people.math.wisc.edu/~hkeisler/foundations.pdf)&rbrack;
+
+* {#Kutateladze11} [[Semën S. Kutateladze]], *Leibnizian, Robinsonian, and Boolean valued monads*, Journal of Applied and Industrial Mathematics **5** 3 (2011) 365-373 &lbrack;[arxiv/1106.2755](http://arxiv.org/abs/1106.2755), [doi:10.1134/S1990478911030082](https://doi.org/10.1134/S1990478911030082)&rbrack;
+
+* [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, *Nonstandard methods in stochastic analysis and mathematical physics*, Academic Press 1986
+
+ * Wikipedia, *[Monad (non-standard analysis)](http://en.wikipedia.org/wiki/Monad_%28non-standard_analysis%29)*
+
+Discussion in [[synthetic differential geometry]], also using the "monad"-terminology:
+
+* {#Kock80} [[Anders Kock]], _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et Géométrie Différentielle Catégoriques **21** 3 (1980)  &lbrack;[numdam:CTGDC_1980__21_3_227_0](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0)&rbrack;
+
+
+Discussion in [[differential cohesion]] (see at *[[infinitesimal disk bundle]]*):
 
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
-Discussion in differentially cohesive [[homotopy type theory]] is in
+and its formalization in differentially [[cohesive homotopy type theory]]:
 
-* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ (2017)
 
 
 
