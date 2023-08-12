@@ -26,7 +26,8 @@ Let $\widehat{C}$ denote the [[Pontryagin duality|Pontryagin dual]] of $C$, and 
 
 $$\int_A f(a)\; d\mu_A = \int_{\widehat{C}} \widehat{f}(\widehat{c})\; d\mu_{\widehat{C}}$$ 
 
-where $\widehat{f}$ is the Fourier dual of $f$, as a function on $\widehat{B}$.
+where $\widehat{f}$ is the Fourier transform of $f$, as a function on $\widehat{B}$ defined by 
+$$\widehat{f}(\chi) = \int_B f(b)\overline{\chi(b)}d \mu_B(b).$$
 =--  
 
 In the special case of a [[lattice (discrete subgroup)|lattice]] $L$ inside $B$, the dual space $L^\perp = \widehat{B/L}$ is a lattice inside $\widehat{B}$, and the integrals are over discrete spaces, i.e. integration is just summation and we have 
