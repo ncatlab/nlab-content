@@ -35,4 +35,4 @@ Related concepts:
 
 * [[finite CW-complex]], [[finite spectrum]]
 
-[[!redirects finite type]]
+[[!redirects finite types]]
