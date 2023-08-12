@@ -18,12 +18,24 @@
 > Der unendlich kleinste Theil des Raumes ist immer ein Raum, etwas, das Continuit&#228;t hat, nicht aber ein blosser Punct, oder die Grenze zwischen bestimmten Stellen im Raume; ([Fichte 1795, Grundriss &#167;4.IV](Grundriss+des+Eigenth&#252;mlichen+der+Wissenschaftslehre#4IVUnendlichKleinsterTeilDesRaumes))
 
 
-An infinitesimal neighbourhood is a [[neighbourhood]] with [[infinitesimal]] diameter.  These can be defined in several setups: [[nonstandard analysis]], [[synthetic differential geometry]], [[ringed spaces]], ....
+An infinitesimal neighbourhood is a "[[neighbourhood]] with [[infinitesimal]] diameter". This can be made precise in several formalisms, including [[nonstandard analysis]], [[synthetic differential geometry]], [[differential cohesion]], [[ringed spaces]], ....
+
+{#MonadTerminology} **"Monads".** In [[nonstandard analysis]] the infinitesimal neighbourhood of a point is traditionally called (see [below](#InNonstandardAnalysis)) its *[[monad (disambiguation)|monad]]*, taking inspiration from [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)*. Curiously, in [[differential cohesion]] the construction of all infinitesimal neighbourhoods (the [[infinitesimal disk bundle]]) is indeed a [[monad]] in the sense of [[category theory]] (see [there](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles), namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]]). Whether this confluence of the terms "monads" is just a happy coincidence seems to be lost to history, see at *[[monad]]* the section *[Etymology](monad#Etymology)*.
+
+
 
 
 ## Definition
 
+
+### In nonstandard analysis
+ {#InNonstandardAnalysis}
+
+In [[nonstandard analysis]], the __[[monad (disambiguation)|monad]]__ (following [[Leibniz]], see eg. [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
+
+
 ### In differential cohesion
+ {#DifferentialCohesion}
 
 For $\mathbf{H}$ a context of [[differential cohesion]] with [[infinitesimal shape modality]] $\Im$, then for $x\colon \ast \to X$ a [[global point]] in any object $X \in \mathbf{H}$ the infinitesimal disk $\mathbb{D}^X_x \to X$ around that point is the ([[homotopy pullback|homotopy]]) [[pullback]] of the [[unit of a monad|unit]] $i \colon X \to \Im(X)$ of the $\Im$-monad
 
@@ -38,14 +50,7 @@ $$
   \,.
 $$
 
-The collection of all infinitesimal disks forms the [[infinitesimal disk bundle]] over $X$.
-
-
-### In nonstandard analysis
-
-In [[nonstandard analysis]], the __[[monad (disambiguation)|monad]]__ (see eg. [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
-
-It is best to avoid the term 'monad' for this concept on this wiki, since it has more or less nothing to with the categorial [[monads]] that are all over the place here (including elsewhere on this very page).
+The collection of all infinitesimal disks forms the *[[infinitesimal disk bundle]]* over $X$, see there for more.
 
 
 ### For ringed spaces
