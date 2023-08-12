@@ -241,6 +241,58 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
+## Etymology
+
+[[Michael Barr]] recounts the origin of the term "monad" [in an email](https://www.mta.ca/~cat-dist/archive/2009/09-4) to the [[categories mailing list]]:
+
+> I have told this story many times, but I guess one more can't hurt.  Of
+> course, it was originally used by Leibniz to describe the set of
+> infintesimals surrounding an ordinary point.
+> 
+> In the summer (or maybe late spring, the Oberwohlfach records will show
+> this) of 1966, there was a category meeting there.  It was, as far as I
+> know, the third meeting ever devoted to categories.  The first was the
+> first Midwest Category meeting, an invitation affair that consisted of
+> five people from Urbana (Jon Beck, John Gray, Alex Heller, Max Kelly, and
+> me), John Isbell and Fred Linton visiting Chicago that year, and a couple
+> people from U. Chicago, Mac Lane who was the host and arranged to pay our
+> expenses, Dick Swan, and maybe a couple others.  The second was in La
+> Jolla and this was the third.  The attendance consisted of practically
+> everyone in the world who had any interest in categories, with the notable
+> exception of Charles Ehresmann.
+> 
+> What, with one exception, most categorists call monads had by that time
+> been called "Standard constructions", "fundamental constructions" (in a
+> little-known paper by Jean-Marie Maranda pointed out to me by Peter
+> Huber), and, of course, "Triples".  The latter was created by
+> Eilenberg-Moore and I once asked Sammy (who was known to agonize over good
+> terminology--e.g. "Exact") why.  He answered that the concept seemed to be
+> of little importance, so he and John Moore spent no time on it!  So much
+> for the predictive ability of a great mathematician.
+> 
+> At any rate, the big unanswered question of the meeting, where the
+> importance of the concept was becoming clear (Jon and I had proved our
+> Acyclic models theorem, for example, and the fact of the triplebleness of
+> compact Hausdorff  spaces over sets, along with many mor familiar
+> examples), the search was on for a better name.  We tried many ideas (mine
+> was "Standard Natural Algebraic Functor with Unit" (try the acronym).  One
+> day at lunch or dinner I happened to be sitting next to Jean Benabou and
+> he turned to me and said something like "How about `monad'?"  I thought
+> about and said it sounded pretty good to me.  (Yes, I did.)  So Jean
+> proposed it to the general audience and there was general agreement.  It
+> suggested "monoid" of course and it is a monoid in a functor category.
+> The one dissenter was Jon Beck, who had invested as much into studying
+> them as anyone.  His argument was that while "triples" was not a good
+> name, "monad" wasn't either and we shouldn't change the name from a poor
+> one to a mediocre one, but instead continue to search for a better one.
+> 
+> Out of solidarity with Jon (we collaborated on several papers), I
+> continued to use "triple".  SLN 80 was (and is) known as the "Zurich
+> Triples Book".  By 1980, Jon was no longer doing serious mathematics and I
+> was ready to change.  Except that the book title "Toposes, Triples and
+> Theories" was too attactive to let go of.  Try "Toposes, Monads and
+> Theories".
+
 
 ## Related concepts
 
