@@ -670,7 +670,8 @@ Further discussion:
 
 On the impact of [Moggi (1991)](#Moggi91):
 
-* {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive **172** (2007) 437-458  &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+* [[Martin Hyland]], [[John Power]], §6 of: *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+
 
 
 In the generality of [[relative monads]]:
