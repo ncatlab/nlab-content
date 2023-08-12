@@ -15,7 +15,9 @@
 
 ## Idea
 
-In a context of [[differential cohesion]], with [[infinitesimal shape modality]] $\Im$, then for every object $X \in \mathbf{H}$ its _infinitesimal disk bundle_ $T_{inf}X$ is the [[homotopy fiber product|homotopy]] [[fiber product]]
+In a context of [[differential cohesion]], with [[infinitesimal shape modality]] $\Im$, then for every [[object]] $X \in \mathbf{H}$ its _infinitesimal disk bundle_ $T_{inf}X$ is the [[bundle]] over $X$ whose [[fiber]] over a [[point]] is the *[[infinitesimal neighbourhood]]* of that point, fomalized as the [[homotopy fiber]] at this point of the [[unit of a monad|unit]] of the [[infinitesimal shape modality]] $\Im$ on $X$.
+
+The collection of these fiber hence forms the [[homotopy fiber product|homotopy]] [[fiber product]]
 
 $$
   \array{
@@ -27,10 +29,9 @@ $$
   }
 $$
 
-of the $X$ component $i \colon X \to \Im X$ of the [[unit of a monad|unit]]  of the $\Im$-[[monad]] with itself.
+of the $X$ component $i \colon X \to \Im X$ of the [[unit of a monad|unit]]  of the [[infinitesimal shape modality]] $\Im$ with itself.
 
-
-By the [[pasting law]], the [[fibers]] of $p \colon T_{inf}X \to X$ over [[global points]] of $X$ are indeed the [[infinitesimal disks]] around these points.
+Conversely, by the [[pasting law]], the [[fibers]] of $p \colon T_{inf}X \to X$ over [[global points]] of $X$ are indeed the [[infinitesimal disks]] around these points.
 
 Evidently $T_{inf}X$ is the first stage in the [[Cech nerve]] of $X \to \Im(X)$, hence the object of morphisms of the [[groupoid object]] corresponding to this [[effective epimorphism]]. By the discussion at _[Lie algebroid -- General abstract definition](Lie+infinity-algebroid#GeneralAbstractDefinition)_ this is an [[infinity-Lie algebroid]], namely the (possibly higher jet order) [[tangent Lie algebroid]] of $X$.
 
@@ -91,7 +92,9 @@ $$
   \,.
 $$
 
-In the context of [[synthetic differential geometry]] this is [Kock 1980, prop. 2.2](#Kock80). In terms of [[differential cohesion]] this is ([Khavkine & Schreiber 2017, p. 23](#KhavkineSchreiber17)) simply the adjoint pair [induced](monad#RelationBetweenAdjunctionsAndMonads) by the [[base change]] [[adjoint triple]]:
+The [[underlying]] [[adjoint functor|adjunction]] has been observed in [Kock 1980, prop. 2.2](#Kock80), in the context of [[synthetic differential geometry]] .
+
+In terms of [[differential cohesion]] this pair of [[adjoint monads]] is seen in [Khavkine & Schreiber 2017, p. 23](#KhavkineSchreiber17) as the adjoint pair [induced](monad#RelationBetweenAdjunctionsAndMonads) by the [[base change]] [[adjoint triple]]:
 
 $$
   (i_! \dashv i^\ast \dashv i_\ast)
@@ -119,7 +122,7 @@ See at _[differential cohesion -- frame bundles](differential+cohesive+%28infini
 
 Discussion in [[synthetic differential geometry]] is, under the name "bundles of $k$-monads", in 
 
-* {#Kock80} [[Anders Kock]], above prop. 2.2 _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1980) Volume: 21, Issue: 3 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0))
+* {#Kock80} [[Anders Kock]], above prop. 2.2 of: _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques **21** 3 (1980)  &lbrack;[numdam:CTGDC_1980__21_3_227_0](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0)&rbrack;
 
 * {#Kock09} [[Anders Kock]], p. 39 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
