@@ -129,3 +129,6 @@ category: people
 [[!redirects L'association des collaborateurs de Nicolas Bourbaki]]
 [[!redirects l'Association des collaborateurs de Nicolas Bourbaki]]
 [[!redirects l'association des collaborateurs de Nicolas Bourbaki]]
+
+
+[[!redirects Éléments de Mathématique]]
