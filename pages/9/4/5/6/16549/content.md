@@ -82,15 +82,16 @@ In the standard models of [[differential cohesion]] (such as for [[formal smooth
 The [[tangent complex]] of a [[derived stack|derived]] [[algebraic stack]] $X$ is equivalently the (sheaf of modules of) sections of the [[formal neighbourhood of the diagonal]] of $X$ ([Hennion 13](#Hennion13)). Hence by the [above](#RelationToFormalNeighbourhoodOfTheDiagonal) one may generally think of (sections of) $T_{inf}X$ as being the [[tangent complex]] of $X$.
 
 ### Relation to jet bundles
+ {#MonadicityAdjointToJetBundles}
 
-The infinitesimal disk bundle construction is [[left adjoint]] to the [[jet comonad]]
+The infinitesimal disk bundle construction is the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]]
 
 $$
   T_{inf} \dashv Jet
   \,.
 $$
 
-In the context of [[synthetic differential geometry]] this is ([Kock 80, prop. 2.2](#Kock80)). In terms of [[differential cohesion]] this is simply the adjoint pair induced by the [[base change]] [[adjoint triple]]
+In the context of [[synthetic differential geometry]] this is [Kock 1980, prop. 2.2](#Kock80). In terms of [[differential cohesion]] this is ([Khavkine & Schreiber 2017, p. 23](#KhavkineSchreiber17)) simply the adjoint pair [induced](monad#RelationBetweenAdjunctionsAndMonads) by the [[base change]] [[adjoint triple]]:
 
 $$
   (i_! \dashv i^\ast \dashv i_\ast)
@@ -124,7 +125,7 @@ Discussion in [[synthetic differential geometry]] is, under the name "bundles of
 
 Discussion in [[differential cohesion]] is in
 
-* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+* {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
 and formalization in [[homotopy type theory]] in 
 
