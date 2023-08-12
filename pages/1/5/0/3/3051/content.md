@@ -14,9 +14,9 @@ Introducing the notion of [[enriched categories]] (and of [[strict 2-categories]
 * {#Bénabou68} [[Jean Bénabou]], *Structures algébriques dans les catégories*, Cahiers de topologie et géométrie différentielle, **10** 1 (1968) 1-126 &lbrack;[doi:CTGDC_1968__10_1_1_0](http://www.numdam.org/item/?id=CTGDC_1968__10_1_1_0)&rbrack;
 
 
-On [[bicategories]]:
+On [[bicategories]] (and introducing the terminology *[[monad]]*):
 
-* Jean B&#233;nabou, _Introduction to Bicategories_, Lecture Notes in Mathematics 47, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
+* Jean Bénabou, *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
 See also:
 
