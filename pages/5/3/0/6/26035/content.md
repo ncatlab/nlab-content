@@ -33,7 +33,15 @@ A type is **$\pi$-finite type** if it is $\pi_n$-finite for all $n \colon \mathb
 
 ## Properties
 
-Given two $\pi$-finite types $A$ and $B$, the types $A \times B$ and $A + B$ are both $\pi$-finite types. Similarly, given a family of $\pi$-finite types $B(x)$ indexed by a $\pi$-finite type $x:A$, the dependent sum type $\sum_{x:A} B(x)$ is a $\pi$-finite type. 
+Given two $\pi$-finite types $A$ and $B$, the types $A \times B$ and $A + B$ are both $\pi$-finite types. Similarly, given a family of $\pi$-finite types $B(x)$ indexed by a $\pi$-finite type $x:A$, the dependent sum type $\sum_{x:A} B(x)$ is a $\pi$-finite type.
+
+## Examples
+
+Given a [[univalent universe]] $U$ and a natural number $n:\mathbb{N}$, 
+
+* the type of all $U$-small types with $n$ elements is a $\pi$-finite type. 
+
+* The type of all $U$-small [[finite groups]] of [[order]] $n$ is a $\pi$-finite type. 
 
 ## See also
 
