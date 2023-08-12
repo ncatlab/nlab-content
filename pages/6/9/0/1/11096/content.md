@@ -74,6 +74,11 @@ Discussion as an [[elementary (∞,1)-topos]]:
 
 * {#Anel21} [[Mathieu Anel]], _The elementary infinity-topos of truncated coherent spaces_ ([arXiv:2107.02082](https://arxiv.org/abs/2107.02082))
 
+Formalization in [[homotopy type theory]] (via [[Agda]]):
+
+* [[UniMath project]], *π-finite types* &lbrack;[web](https://unimath.github.io/agda-unimath/univalent-combinatorics.pi-finite-types.html)&rbrack;
+
+
 [[!redirects homotopy types with finite homotopy groups]]
 
 [[!redirects tame homotopy type]]
