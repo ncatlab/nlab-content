@@ -141,36 +141,31 @@ One may also form the $n$-fold [[comma object]]-fiber product of a choice of bas
 
 The idea of Segal categories goes back (implicitly) to
 
-* [[Graeme Segal]], _Categories and cohomology theories_, Topology 13 (1974), 293-312.
+* [[Graeme Segal]], _Categories and cohomology theories_, Topology **13** 3 (1974) 293-312 &lbrack;<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>&rbrack;
 
-In
+and is explicit in
 
-* [[William Dwyer]], [[Daniel Kan]], [[Jeff Smith]], _Homotopy-commutative diagrams and their realizations_. J. P. A. A. 57 (1989), 5-24.
+* {#DwyerKanSmith89} [[William Dwyer]], [[Daniel Kan]], [[Jeff Smith]], *Homotopy-commutative diagrams and their realizations*, Journal of Pure and Applied Algebra **57** 1 (1989) 5-24 &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90023-6">doi:10.1016/0022-4049(89)90023-6</a>&rbrack;
 
-Segal categories were identified as a kind of bisimplicial sets "which are 'special' in
-the sense that they satisfy a slight variation on a condition of Segal". (but the name "Segal category" is not used)
+as kind of bisimplicial sets "which are 'special' in the sense that they satisfy a slight variation on a condition of Segal" (But the terminology "*Segal category*" is not used in [Dwyer, Kan & Smith 1989](#DwyerKanSmith89).)
+
+Discussion in the broader context of *[[Segal n-categories|Segal $n$-categories]]*:
+
+* [[André Hirschowitz]], [[Carlos Simpson]], *Les $n$-catégories de Segal*, §2 in: _Descente pour les $n$-champs (Descent for $n$-stacks)_ &lbrack;[arXiv:9807049](http://arxiv.org/abs/math/9807049)&rbrack;
+
+Discussion with emphasis on the comparison of the various [[model category]] presentations of [[(infinity,1)-categories|$(\infty,1)$-categories]]:
+
+* [[Julie Bergner]], *Segal Categories*, §5 in: _A survey of $(\infty,1)$-categories_, In: [[John Baez]], [[Peter May]] (eds.),  _[[Towards Higher Categories]]_, The IMA Volumes in Mathematics and its Applications **152**, Springer (2007) &lbrack;[arXiv:math/0610239](http://arxiv.org/abs/math/0610239), [doi:10.1007/978-1-4419-1524-5_2](https://doi.org/10.1007/978-1-4419-1524-5_2)&rbrack;
+
+* {#Joyal08} [[André Joyal]], pp 164-169 in: *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
 
-An overview is on pages 164 to 169 of
-
-* [[André Joyal]], _The theory of Quasi-Categories and its Applications_, notes from a lecture at [Simplicial Methods in Higher Categories](http://www.crm.cat/HigherCategories/) ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
-
-A discussion with emphasis on the comparison of the various [[model category]] structures is in
-
-* [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv:0610239](http://arxiv.org/abs/math.AT/0610239))
-
-The generalization to [[Segal n-categories]] is discussed in section 2 of
-
-* [[André Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs (Descent for $n$-stacks)_ ([arXiv:9807049](http://arxiv.org/abs/math/9807049))
-
-In the more general context of [[enriched (∞,1)-categories]], this is discussed in
+Discussion in the context of [[enriched (∞,1)-categories]]:
 
 * [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
 
-and in section 2 of 
-
-* [[Jacob Lurie]], _(Infinity,2)-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], section 2 of: _(Infinity,2)-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ 
 
 
 [[!redirects Segal categories]]
