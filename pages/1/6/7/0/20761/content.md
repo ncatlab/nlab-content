@@ -80,7 +80,7 @@ More categorical treatment and relation to [[Hopf-Galois extension]]s is in
 
 In the language of finite-dimensional Heisenberg doubles see also the treatment of fundamental operator in
 
-* G. Militaru, _Heisenberg double, pentagon equation, structure and classification of finite-dimensional Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.doi.org/10.1112/S0024610703004897)).
+* [[Gigel Militaru]], _Heisenberg double, pentagon equation, structure and classification of finite-dimensional Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44--64 [doi](https://doi.org/10.1112/S0024610703004897)
 
 Kashaev has explained the pentagon relations for quantum [[dilogarithm]] as coming from the pentagon for the canonical element in the double.
 
