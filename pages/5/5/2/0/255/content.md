@@ -23,13 +23,13 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A [[monad]] is a structure that is a lot like a [monoid](monoid+in+a+monoidal+category), but that lives in a [[bicategory]] rather than a [[monoidal category]]. In other words, the concept of a monad is a [[vertical categorification]] of that of a monoid.
+In [[category theory]], the notion of *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a [[vertical categorification]] of that of *[[monoid]]*: In their default incarnation monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]].
 
-Monads are among the most pervasive structures in [[category theory]] and its applications (notably to [[categorical algebra]]). For their applications to [[computer science]], see *[[monad (computer science)|monads in computer science]]*.
+Monads, together with the [[adjunctions]] ([[adjoint functors]]) that they correspond to (see [below](#RelationBetweenAdjunctionsAndMonads)) are among the most pervasive structures in [[category theory]] (where they form the basis of [[categorical algebra|categorical]] and [[universal algebra]]) and in [[mathematics]] more generally (certainly in fields like [[algebraic topology]], [[sheaf and topos theory]] and [[homological algebra]], where the notion originates in the guise of "[[canonical resolutions]]").
 
-Many of these applications use monads in the bicategory [[Cat]], which is called a monad *on a category*.   These are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].   
-
+Last not least, monads play a central role in [[formal logic]] (cf. [[modal logic]] and [[modal type theory]]) and in [[computer science]], where they are understood (cf. the "[[computational trilogy]]") as encoding "notions of computation" with "computational effects" in the framework of [[functional programming]]: see at *[[monad (computer science)|monads in computer science]]*.
 
 
 ## Definition
@@ -84,7 +84,6 @@ The axioms then appear as:
 
 [[monad-axioms-unlabeled.png:pic]]
 
-Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$), following Eilenberg and Moore, or **triads**.  In even older literature, they are also referred to as **standard constructions**, the original term used by Godement when he introduced the idea, or **fundamental constructions**. For terminological remarks by Ross Street see category-list [here](http://article.gmane.org/gmane.science.mathematics.categories/225/match=).
 
 
 ### The bicategory of monads
@@ -287,7 +286,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 ## References
  {#References}
 
-([[comonad|co]])Monads are discussed under the name "standard construction" in:
+The notion of ([[comonad|co]])monads was introduced under the name "standard construction" (namely what is now thought of as their induced [[canonical resolution]]) in:
 
 * {#Huber61} [[Peter J. Huber]], §2 in: *Homotopy theory in general categories*, Mathematische Annalen **144** (1961) 361–385 &lbrack;[doi:10.1007/BF01396534](https://doi.org/10.1007/BF01396534)&rbrack;
 
@@ -297,31 +296,45 @@ following:
 
   > (where the monad laws appear on p. 272 as part of the structure of the induced [[canonical resolution]]).
 
+In the early [[category theory]]-literature monads were called *triples*, referring to the fact that (just as for [[monoids]]) their data-[[structure]] is that of [[triples]] consisting of: (1.) the [[underlying]] [[category]], (2.) a [[binary operation]] and (3.) a [[unit of a monad|unit operation]]:
+
+* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+
+
+The modern terminology "monad" (and the definition in the generality internal to any [[bicategory]]) is due to:
+
+* {#Bénabou67} [[Jean Bénabou]], §5.4 in: *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
+
+Further historical comments:
+
+* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+
+* {#Street09} [[Ross Street]], *Re: monads* (April 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [jpg](https://ncatlab.org/nlab/files/Street-HistoryOfMonadTerminology.jpg)&rbrack;
+
 
 Further original texts:
 
 * [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
 
-* {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
-
 * {#MacLane71} [[Saunders MacLane]], Ch. VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
-
-* [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
-
+* {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
 
 * [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
 **175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
 
-Textbook accounts:
-
-* {#Borceux94} [[Francis Borceux|F. Borceux]], Ch. 4 "Monads" in: *[[Handbook of Categorical Algebra]]*  vol. 2, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
+* [[Michael Barr]], [[Charles Wells]], Chapter 3 of: *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278**, Springer (1983) &lbrack;[TAC:12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
 
 
-Introductions:
 
-* [[The Catsters]], _[Monads](http://www.youtube.com/view_play_list?p=0E91279846EC843E) (five short video lectures)_
+Further textbook accounts:
+
+* {#Borceux94} [[Francis Borceux]], Ch. 4 "Monads" in: *[[Handbook of Categorical Algebra]]*  vol. 2, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
+
+
+Expositions:
+
+* [[The Catsters]], *Monads*, short video lectures (2007) &lbrack;1:[YT](https://www.youtube.com/watch?v=9fohXBj2UEI&list=PL0E91279846EC843E&index=1), 2:[YT](https://www.youtube.com/watch?v=Si6_oG7ZdK4&list=PL0E91279846EC843E&index=2), 3:[YT](https://www.youtube.com/watch?v=eBQnysX7oLI&list=PL0E91279846EC843E&index=3), 3A:[YT](https://www.youtube.com/watch?v=uYY5c1kkoIo&list=PL0E91279846EC843E&index=4), 4:[YT](https://www.youtube.com/watch?v=Cm-O_ZWEIGY&list=PL0E91279846EC843E&index=5), 5/6:[YT](https://www.youtube.com/watch?v=g-SCYArh5RY&list=PL0E91279846EC843E&index=6)&rbrack;
 
 * [[John Baez]], _[Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf)_ (Introductory slides).
 
