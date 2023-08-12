@@ -149,7 +149,7 @@ There are other ways of realizing the notion of [[infinitesimal number]] precise
 ## References 
  {#References}
 
-* [[Abraham Robinson]], *Non-standard analysis*, Studies in Logic and the Foundations of Mathematics **42**, North-Holland (1966), Princeton University Press (1996) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrack;
+* {#Robinson66} [[Abraham Robinson]], *Non-standard analysis*, Studies in Logic and the Foundations of Mathematics **42**, North-Holland (1966), Princeton University Press (1996) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrack;
 
 * {#Keisler76} [[Jerome Keisler]], *Foundations of Infinitesimal Calculus*, Prindle Weber & Schmidt (1976, 2022) &lbrack;[pdf](https://people.math.wisc.edu/~hkeisler/foundations.pdf)&rbrack;
 
