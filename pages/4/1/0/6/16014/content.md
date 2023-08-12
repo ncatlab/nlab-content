@@ -114,7 +114,7 @@ Now the idea of a proposition being true "necessarily in all possible cases" or 
 
 In more detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions depend, i.e. the collection "of all [[possible worlds semantics|possible worlds]]" (in fact a [[Kripke frame]] for [[S5 modal logic]], see [there](Kripke+frame#NecessityLogic)).  Any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
 
-Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in a [[base change]] [[adjoint triple]] 
+Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{w\colon W}$ and $\exists_{w\colon W}$ participate in a [[base change]] [[adjoint triple]] 
 
 $$
   (\exists_W \dashv W^\ast \dashv \forall_W)
