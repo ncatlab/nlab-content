@@ -93,6 +93,12 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \mathrm{proptrunc}_
 Univalence:
 $$\frac{\Gamma \vdash A:\Omega \quad \Gamma \vdash B:\Omega} {\Gamma \vdash \mathrm{univalence}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
+#### The empty proposition and falsehood
+
+To ensure that the type of all propositions isn't a [[contractible type]], one could include the following axiom, which states that there exists a proposition satisfying [[ex falso quodlibet]]:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{axempty}:\sum_{\bot:\Omega} \prod_{C:\bot \to \Omega} \mathrm{isContr}\left(\prod_{x:\bot} C(x)\right)}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{axempty}:\sum_{\bot:\Omega} \prod_{C:\mathrm{El}(\bot) \to \Omega} \mathrm{isContr}\left(\prod_{x:\mathrm{El}(\bot)} \mathrm{El}(C(x))\right)}\mathrm{Tarski}$$
+
 ### The type of all decidable propositions
 
 Something similar holds for the **type of all decidable propositions** $\Omega_\mathrm{decidable}$ in a [[dependent type theory]], which could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[decidable proposition]] in the type theory is literally an element of the type of all decidable propositions, while in the latter, elements of $\Omega_\mathrm{decidable}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[decidable proposition]] in the type theory is only [[essentially small type|essentially $\Omega_\mathrm{decidable}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\Omega_\mathrm{decidable}$ for [[strict Tarski universes]]. 
