@@ -6,7 +6,7 @@
 ## Motivation and historical appearance
 
 Given a finite-dimensional Hopf algebra $H$ and a $D(H)$-module algebra $A$ (where $D(H)$ is the Drinfeld double of $H$), [Lu1996](#Lu1996) has introduced the structure of a left $A$-[[associative bialgebroid|bialgebroid]] on the [[smash product algebra]] $A\sharp H$ as a noncommutative generalization of the algebra of functions on an [[action groupoid]]. In this finite-dimensional case, the category of left-right Yetter-Drinfeld modules is equivalent to the category of [[Yetter-Drinfeld module|Yetter-Drinfeld]] $H$-modules. In this new context of Yetter-Drinfeld module algebras, the construction has been generalized 
-by the so called Brzeziński-Militaru construction or scalar extension bialgebroid in [BrzezinskiMilitaru2002](#BrzezinskiMilitaru).
+by the so called Brzeziński-Militaru construction or scalar extension bialgebroid in [BrzezinskiMilitaru2002](#BrzezinskiMilitaru). They also proved a converse, roughly that the formulas given for the scalar extension bialgebroid for an arbitrary smash product satisfy the axioms of a bialgebroid only if the module algebra which is also a comodule is in fact a braided commutative Yetter-Drinfeld algebra.
 
 ## Definition
 
@@ -74,8 +74,7 @@ Other articles include
 
 Scalar extension Hopf algebroids can be recast also in the form fitting the axioms of the Hopf algebroid with a balancing subalgebra, see Sec. 4 in
 
-* [[Zoran Škoda]], Martina Stojić, _Hopf algebroids with balancing subalgebra_, J. Alg. __598__ (2022) 445--469 [arxiv:1610.03837](https://arxiv.org/abs/1610.03837)
-[doi](https://doi.org/10.1016/j.jalgebra.2022.01.027)
+* [[Zoran Škoda]], Martina Stojić, _Hopf algebroids with balancing subalgebra_, J. Alg. __598__ (2022) 445--469 [arXiv:1610.03837](https://arxiv.org/abs/1610.03837) [doi](https://doi.org/10.1016/j.jalgebra.2022.01.027)
 
 category: algebra
 [[!redirects Brzeziński-Militaru construction]]
