@@ -40,3 +40,5 @@ Since finite types are [[h-sets]], every locally finite type is an [[h-groupoid]
 * [[locally finite category]]
 
 * [[locally small type]]
+
+* [[pi-finite type]]
