@@ -10,8 +10,8 @@ __Gabriella B&#246;hm__ is a Hungarian [[mathematical physicist]]. She studies s
 * [[Gabriella Böhm]], _Internal bialgebroids, entwining structures and corings_, [math.QA/0311244](http://arxiv.org/abs/math/0311244), in: Algebraic structures and their representations, 207&#8211;226,  Contemp. Math. __376__, Amer. Math. Soc. 2005.
 
 
-* [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
-
+* G. Böhm, _Hopf algebroids_, in: Handbook of algebra, Vol. __6__, ed. by M. Hazewinkel, Elsevier 2009, 173--236 [arXiv:math.RA/0805.3806](https://arxiv.org/abs/0805.3806)
+* G. B&#246;hm, [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](https://arxiv.org/abs/math.QA/0305136)
 
 [[!redirects Gabi Bohm]]
 [[!redirects Gabi Böhm]]
