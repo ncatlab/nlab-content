@@ -32,6 +32,19 @@ Monads, together with the [[adjunctions]] ([[adjoint functors]]) that they corre
 Last not least, monads play a central role in [[formal logic]] (cf. [[modal logic]] and [[modal type theory]]) and in [[computer science]], where they are understood (cf. the "[[computational trilogy]]") as encoding "notions of computation" with "computational effects" in the framework of [[functional programming]]: see at *[[monad (computer science)|monads in computer science]]*.
 
 
+## Etymology
+ {#Etymology}
+
+The reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad* seems to be lost to history. The closest contemporary account that seems to exist, [Barr 2009](#Barr09), only recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology "standard construction" and "triple":
+
+> In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Benabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me. So Jean proposed it to the general audience and there was general agreement. It suggested "monoid" of course and it is a monoid in a functor category.
+
+On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)) [[Leibniz]]'s old [terminology of "monads"](https://en.wikipedia.org/wiki/Monadology) had, a few years earlier, been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
+
+Now it so happens --- in the [[topos theory|topos theoretic]] formulation of [[infinitesimals]] via [[differential cohesion]] --- that the construction of [[infinitesimal neighbourhoods]] *is* (see [here](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles)) a monad in the sense of [[category theory]]! -- namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]] ([Khavkine & Schreiber 2017, p. 23](infinitesimal+disk+bundle#KhavkineSchreiber17)).
+
+
+
 ## Definition
 
 ### Monads
@@ -241,57 +254,8 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-## Etymology
 
-[Barr 2009](#Barr09) recounts the origin of the term "monad" as follows:
 
-> I have told this story many times, but I guess one more can't hurt.  Of
-> course, it was originally used by Leibniz to describe the set of
-> infintesimals surrounding an ordinary point.
-> 
-> In the summer (or maybe late spring, the Oberwohlfach records will show
-> this) of 1966, there was a category meeting there.  It was, as far as I
-> know, the third meeting ever devoted to categories.  The first was the
-> first Midwest Category meeting, an invitation affair that consisted of
-> five people from Urbana (Jon Beck, John Gray, Alex Heller, Max Kelly, and
-> me), John Isbell and Fred Linton visiting Chicago that year, and a couple
-> people from U. Chicago, Mac Lane who was the host and arranged to pay our
-> expenses, Dick Swan, and maybe a couple others.  The second was in La
-> Jolla and this was the third.  The attendance consisted of practically
-> everyone in the world who had any interest in categories, with the notable
-> exception of Charles Ehresmann.
-> 
-> What, with one exception, most categorists call monads had by that time
-> been called "Standard constructions", "fundamental constructions" (in a
-> little-known paper by Jean-Marie Maranda pointed out to me by Peter
-> Huber), and, of course, "Triples".  The latter was created by
-> Eilenberg-Moore and I once asked Sammy (who was known to agonize over good
-> terminology--e.g. "Exact") why.  He answered that the concept seemed to be
-> of little importance, so he and John Moore spent no time on it!  So much
-> for the predictive ability of a great mathematician.
-> 
-> At any rate, the big unanswered question of the meeting, where the
-> importance of the concept was becoming clear (Jon and I had proved our
-> Acyclic models theorem, for example, and the fact of the triplebleness of
-> compact Hausdorff  spaces over sets, along with many mor familiar
-> examples), the search was on for a better name.  We tried many ideas (mine
-> was "Standard Natural Algebraic Functor with Unit" (try the acronym).  One
-> day at lunch or dinner I happened to be sitting next to Jean Benabou and
-> he turned to me and said something like "How about `monad'?"  I thought
-> about and said it sounded pretty good to me.  (Yes, I did.)  So Jean
-> proposed it to the general audience and there was general agreement.  It
-> suggested "monoid" of course and it is a monoid in a functor category.
-> The one dissenter was Jon Beck, who had invested as much into studying
-> them as anyone.  His argument was that while "triples" was not a good
-> name, "monad" wasn't either and we shouldn't change the name from a poor
-> one to a mediocre one, but instead continue to search for a better one.
-> 
-> Out of solidarity with Jon (we collaborated on several papers), I
-> continued to use "triple".  SLN 80 was (and is) known as the "Zurich
-> Triples Book".  By 1980, Jon was no longer doing serious mathematics and I
-> was ready to change.  Except that the book title "Toposes, Triples and
-> Theories" was too attactive to let go of.  Try "Toposes, Monads and
-> Theories".
 
 
 ## Related concepts
@@ -361,9 +325,9 @@ Further historical comments:
 
 * [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
 
-* {#Barr09} [[Michael Barr]], *Re: Where does the term monad come from?* (April 1, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [jpg](https://ncatlab.org/nlab/files/Barr-HistoryOfMonadTerminology.jpg)&rbrack;
+* {#Barr09} [[Michael Barr]], *Re: Where does the term monad come from?* (April 1, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [txt](/nlab/files/Barr-HistoryOfMonadTerminology.txt),  [jpg](/nlab/files/Barr-HistoryOfMonadTerminology.jpg)&rbrack;
 
-* {#Street09} [[Ross Street]], *Re: monads* (April 4, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [jpg](https://ncatlab.org/nlab/files/Street-HistoryOfMonadTerminology.jpg)&rbrack;
+* {#Street09} [[Ross Street]], *Re: monads* (April 4, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [txt](/nlab/files/Street-HistoryOfMonadTerminology.txt), [jpg](/nlab/files/Street-HistoryOfMonadTerminology.jpg)&rbrack;
 
 
 Further original texts:
