@@ -1,4 +1,22 @@
 
+[[Benabou-MonadDefinition.jpg:file]]
+
+
+\begin{imagefromfile}
+    "file_name": "Benabou-MonadDefinition.jpg",
+    "float": "right",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Bénabou 1967, p. 39](##Bénabou67))"
+\end{imagefromfile}
+
+
 [[Barr-HistoryOfMonadTerminology.txt:file]]
 
 [[Street-HistoryOfMonadTerminology.txt:file]]
