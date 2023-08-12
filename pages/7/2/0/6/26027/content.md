@@ -15,8 +15,8 @@ On [[Frobenius functors]] (and introducing that terminology):
 
 * [[Stefaan Caenepeel]], [[Gigel Militaru]], [[Shenglin Zhu]], _Frobenius and separable functors for generalized module categories and nonlinear equations_, Springer Lec. Notes in Math. __1787__ (2002) &lbrack;[gBooks](http://books.google.hr/books?id=6erTEpKIUaYC&lpg=PA89&ots=-TGKqXRstB&dq=Frobenius%20functors&hl=en&pg=PA89#v=onepage&q&f=false)&rbrack;
 
-About associative bialgebroids and in particalar about those arising as smash products of a Hopf algebra $H$ with a braided commutative Yetter-Drinfeld $H$-module algebra $A$ ([[scalar extension bialgebroid]]s)
+On associative [[bialgebroids]] and in particalar about those arising as smash products of a [[Hopf algebra]] $H$ with a braided commutative Yetter-Drinfeld $H$-module algebra $A$ ([[scalar extension bialgebroid|scalar extension bialgebroids]]):
 
-* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002 [math.QA/0012164](https://arxiv.org/abs/math.QA/0012164)
+* [[Tomasz Brzeziński]], [[Gigel Militaru]], *Bialgebroids, $\times_A$-bialgebras and duality*,  J. Algebra __251__ (2002) 279-294 &lbrack;[math.QA/0012164](https://arxiv.org/abs/math.QA/0012164), [doi:10.1006/jabr.2001.9101](https://doi.org/10.1006/jabr.2001.9101)&rbrack;
 
 category: people
