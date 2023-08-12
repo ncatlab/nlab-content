@@ -143,10 +143,13 @@ The idea of Segal categories goes back (implicitly) to
 
 * [[Graeme Segal]], _Categories and cohomology theories_, Topology 13 (1974), 293-312.
 
-They were named _Segal categories_ in
+In
 
-* [[William Dwyer]], [[Daniel Kan]], [[Jeff Smith]], _Homotopy-commutative diagrams and their realizations_.
-J. P. A. A. 57 (1989), 5-24.
+* [[William Dwyer]], [[Daniel Kan]], [[Jeff Smith]], _Homotopy-commutative diagrams and their realizations_. J. P. A. A. 57 (1989), 5-24.
+
+Segal categories were identified as a kind of bisimplicial sets "which are 'special' in
+the sense that they satisfy a slight variation on a condition of Segal". (but the name "Segal category" is not used)
+
 
 An overview is on pages 164 to 169 of
 
