@@ -17,13 +17,19 @@
 
 ## Idea
 
-In [[dependent type theory]], a notion of [[finite type]] for [[types]] which are not just [[h-sets]]. 
+In [[dependent type theory]] ([[homotopy type theory]]), by *$\pi$-finite types* one means a kind of [[finite types]] which are not necessarily [[h-sets]] but have [[finite group|finite]] [[homotopy groups]] in each degree (what in [[homotopy theory]] are called a *[[pi-finite homotopy types]]* or similar).
 
 ## Definition
+ {#Definition}
 
-A type is a **$\pi$-finite type** if if it has finitely many connected components and there exists a [[natural number]] $n$ such that all its [[homotopy groups]] up to [[h-level]] $n$ at all base points are finite. 
+For given [[natural number]] $n$, a [[type]] is called *$\pi_n$-finite* if
 
-For given [[natural number]] $n$, a type is a **$\pi_n$-finite type** if it has finitely many connected components and all its [[homotopy groups]] up to [[h-level]] $n$ at all base points are finite. 
+1. it has a [[finite type]] of [[connected components]] ([[0-truncation]]), 
+
+1. all its [[homotopy groups]] up to [[h-level]] $n$ at all base points are [[finite group|finite]].
+
+A type is **$\pi$-finite type** if it is $\pi_n$-finite for all $n \colon \mathbb{N}$.
+
 
 ## Properties
 
