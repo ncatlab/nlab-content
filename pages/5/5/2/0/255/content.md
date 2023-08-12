@@ -243,7 +243,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 ## Etymology
 
-[[Michael Barr]] recounts the origin of the term "monad" [in an email](https://www.mta.ca/~cat-dist/archive/2009/09-4) to the [[categories mailing list]]:
+[Barr 2009](#Barr09) recounts the origin of the term "monad" as follows:
 
 > I have told this story many times, but I guess one more can't hurt.  Of
 > course, it was originally used by Leibniz to describe the set of
@@ -353,7 +353,7 @@ In the early [[category theory]]-literature monads were called *triples*, referr
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
 
-The modern terminology "monad" (and the definition in the generality internal to any [[bicategory]]) is due to:
+The modern terminology "monad" (and the definition in the generality internal to any [[bicategory]]) is (cf. [Barr 2009](Barr09)) due to:
 
 * {#Bénabou67} [[Jean Bénabou]], §5.4 in: *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967) 1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
 
@@ -361,7 +361,9 @@ Further historical comments:
 
 * [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
 
-* {#Street09} [[Ross Street]], *Re: monads* (April 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [jpg](https://ncatlab.org/nlab/files/Street-HistoryOfMonadTerminology.jpg)&rbrack;
+* {#Barr09} [[Michael Barr]], *Re: Where does the term monad come from?* (April 1, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [jpg](https://ncatlab.org/nlab/files/Barr-HistoryOfMonadTerminology.jpg)&rbrack;
+
+* {#Street09} [[Ross Street]], *Re: monads* (April 4, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [jpg](https://ncatlab.org/nlab/files/Street-HistoryOfMonadTerminology.jpg)&rbrack;
 
 
 Further original texts:
