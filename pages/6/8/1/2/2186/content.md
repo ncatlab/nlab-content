@@ -150,7 +150,10 @@ There are other ways of realizing the notion of [[infinitesimal number]] precise
 * [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
 
 * [[Jerome Keisler]], _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
-* [[Abraham Robinson]], _Non-standard analysis_, 1966
+
+* {#Keisler76} [[Jerome Keisler]], *Foundations of Infinitesimal Calculus*, Prindle Weber & Schmidt (1976, 2022) &lbrack;[pdf](https://people.math.wisc.edu/~hkeisler/foundations.pdf)&rbrack;
+
+* [[Abraham Robinson]], _Non-standard analysis_ (1966) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrackl
 
 * Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analysis), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduct), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson), [constructive non-standard analysis](http://en.wikipedia.org/wiki/Constructive_non-standard_analysis), [criticism of nonstandard analysis](http://en.wikipedia.org/wiki/Criticism_of_non-standard_analysis)
 
