@@ -26,8 +26,8 @@ The notion of _Segal $n$-category_ is a model for [[(∞,n)-categories]] via $n$
 
 The model structure for Segal $n$-categories was introduced in
 
-* [[André Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs (Descent for $n$-stacks)_ ([arXiv:9807049](http://arxiv.org/abs/math/9807049))
- {#HS}
+* {#HS} [[André Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs (Descent for $n$-stacks)_ &lbrack;[arXiv:9807049](http://arxiv.org/abs/math/9807049)&rbrack;
+ 
 
 Further developments are in
 
