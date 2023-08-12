@@ -33,6 +33,11 @@ On [[distributive laws]] between [[monads]] and [[comonads]]:
 
 * [[John Power]], [[Hiroshi Watanabe]], *Combining a monad and a comonad*, Theoretical Computer Science **280** 1–2 (2002) 137-162 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00024-X">doi:10.1016/S0304-3975(01)00024-X</a>&rbrack;
 
+On the history of [[categorical algebra|categorical]] [[universal algebra]] via [[Lawvere theories]] and [[monads]]:
+
+* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+
+
 
 category: people
 
