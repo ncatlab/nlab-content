@@ -31,7 +31,7 @@ An infinitesimal neighbourhood is a "[[neighbourhood]] with [[infinitesimal]] di
 ### In nonstandard analysis
  {#InNonstandardAnalysis}
 
-In [[nonstandard analysis]], the __[[monad (disambiguation)|monad]]__ (following [[Leibniz]], see eg. [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
+In [[nonstandard analysis]], the __[[monad (disambiguation)|monad]]__ ([Robinson 1966, p. 57](#Robinson66) following [[Leibniz]], see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
 
 
 ### In differential cohesion
@@ -69,11 +69,13 @@ Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ri
 
 ## References
 
-In [[algebraic geometry]] (via [[infinitesimal shape modality]])
+In [[algebraic geometry]] (via [[infinitesimal shape modality]]):
 
 * [[A. Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique (r&#233;dig&#233;s avec la collaboration de Jean Dieudonn&#233;) : IV. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas, Quatri&#232;me partie_, Publications Math&#233;matiques de l'IH&#201;S __32__ (1967), p. 5-361, [numdam](http://www.numdam.org/item?id=PMIHES_1967__32__5_0)
 
 Discussion in [[nonstandard analysis]] and the "[[monad (disambiguation)|monad]]-"terminology:
+
+* {#Robinson66} [[Abraham Robinson]], p. 57 of: *Non-standard analysis*, Studies in Logic and the Foundations of Mathematics **42**, North-Holland (1966), Princeton University Press (1996) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrack;
 
 * {#Luxemburg66} [[Wilhemus A. J. Luxemburg]], *A General Theory of Monads*, in: *Applications of Model Theory to Algebra, Analysis and Probability*, Holt, Rinehart and Minston (1966) 18–86 &lbrack;[ark](https://archive.org/stream/in.ernet.dli.2015.141486/2015.141486.Applications-Of-Model-Theory-To-Algebra-analysis-And-Probability_djvu.txt)&rbrack;
 
