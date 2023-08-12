@@ -3,7 +3,6 @@
 
 ***
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -25,7 +24,7 @@
 ## Idea
  {#Idea}
 
-In [[category theory]], the notion of *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a [[vertical categorification]] of that of *[[monoid]]*: In their default incarnation monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]].
+In [[category theory]], the notion of *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a [[categorification]] of that of *[[monoid]]*: In their default incarnation monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]].
 
 Monads, together with the [[adjunctions]] ([[adjoint functors]]) that they correspond to (see [below](#RelationBetweenAdjunctionsAndMonads)) are among the most pervasive structures in [[category theory]] (where they form the basis of [[categorical algebra|categorical]] and [[universal algebra]]) and in [[mathematics]] more generally (certainly in fields like [[algebraic topology]], [[sheaf and topos theory]] and [[homological algebra]], where the notion originates in the guise of "[[canonical resolutions]]").
 
@@ -38,6 +37,35 @@ Last not least, monads play a central role in [[formal logic]] (cf. [[modal logi
 The reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad* seems to be lost to history. The closest contemporary account that seems to exist, [Barr 2009](#Barr09), only recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology "standard construction" and "triple":
 
 > In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Benabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me. So Jean proposed it to the general audience and there was general agreement. It suggested "monoid" of course and it is a monoid in a functor category.
+
+
+\begin{imagefromfile}
+    "file_name": "Benabou-MonadDefinition.jpg",
+    "float": "right",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Bénabou 1967, p. 39](##Bénabou67))"
+\end{imagefromfile}
+
+
+But it is striking that [Bénabou 1967, Def. 5.4.1](#Bénabou67) *defines* a monad to be a [[lax 2-functor]] from the [[terminal category]] to the [[Cat|2-category of categories]] (and more generally to whatever given ambient [[2-category]]) and then proceeds to unwind the equivalence of this definition to the traditional one
+$$
+  Monads(Cat)
+  \;\;\;
+   \simeq
+  \;\;\;
+  \Big\{
+    \ast \xrightarrow{\; lax \;} Cat
+  \Big\}
+  \,.
+$$
+In this sense, monads are [[generalized elements|"points"]] in a [[2-category theory|2-category theoretic]] sense, which may square well with [[Leibniz]]'s notion (or at least its  common vulgarization) of [[monad (disambiguation)|monads]] as a kind of *[[atom]]*. 
 
 On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)) [[Leibniz]]'s old [terminology of "monads"](https://en.wikipedia.org/wiki/Monadology) had, a few years earlier, been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
 
