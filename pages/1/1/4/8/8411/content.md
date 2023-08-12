@@ -1,15 +1,28 @@
 
-__Gottfried Leibniz__ (1646-1716) is responsible for a great many constructions and concepts of current interest:
+__Gottfried Leibniz__ (1646-1716) 
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
+
+is responsible for a great many constructions and concepts of current interest:
 
 *  [[differential calculus]] and [[integral calculus]], especially the basic notation that we use today;
+
 *  the [[product rule]] of calculus may be called the _Leibniz rule_ or _Leibniz law_;
+
 *  [[differentiation under the integral sign]] follows the _Leibniz integral rule_;
+
 *  [[identity of indiscernibles]] may be called the _Leibniz law_;
 *  a version of [[infinitesimals]] sometimes regarded as a precursor to [[synthetic differential geometry]];
 
-*  a philosophy involving 'monads', simple mind-like substances, from which we get the names of both the [[monads]] of category theory and the [[infinitesimal neighbourhoods]] of [[nonstandard analysis]], see at _[[monad in nonstandard analysis]]_
+* {#OnMonads} a philosophy of 'monads' (*[monadology](https://en.wikipedia.org/wiki/Monadology)*) 
 
-   also see in [[Hegel]], _[[Science of Logic]]_ the section _[The monad of Leibniz](Science+of+Logic#TheMonadOfLeibniz)_
+  (compare also in [[Hegel]], _[[Science of Logic]]_ the section _[The monad of Leibniz](Science+of+Logic#TheMonadOfLeibniz))
+
+
+  from which it certainly seems (but remains implicit) that [Robinson 1966 (p. 57)](nonstandard+analysis#Robinson66) motivated the terminology of *[[monads in nonstandard analysis]]* ([[infinitesimal neighbourhoods]])
+
+  and which may or may not have motivated [Bénabou 1967 (§5.4)](monad#Bénabou67) to coin the term *[[monad]]* in [[category theory]] (see [there](monad#Etymology) for more).
+
 
 ## Metaphysics
 
@@ -18,7 +31,6 @@ __Gottfried Leibniz__ (1646-1716) is responsible for a great many constructions 
 
 ## References
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
 
 * [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Leibniz](Lectures+on+the+History+of+Philosophy#Leibniz)_
 
