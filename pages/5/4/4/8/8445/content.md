@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $N$ a [[module]] (over some [[ring]] $R$) and $S \hookrightarrow N$ a submodule, then the corresponding _quotient module_ $N/S$ is the module where all elements in $N$ that differ by n element in $S$ are identified.
+For $N$ a [[module]] (over some [[ring]] $R$) and $S \hookrightarrow N$ a submodule, then the corresponding _quotient module_ $N/S$ is the module where all elements in $N$ that differ by an element in $S$ are identified.
 
 If the ring $R$ is a [[field]] then $R$-modules are called _[[vector spaces]]_ and quotient modules are called _quotient vector spaces_.
 
@@ -61,6 +61,8 @@ The quotient module is equivalently the [[quotient object]] of the [[congruence]
 * [[quotient bimodule]]
 
 * [[quotient ring]]
+
+* [[quotient object]]
 
 [[!redirects  quotient modules]]
 
