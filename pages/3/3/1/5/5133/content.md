@@ -11,6 +11,12 @@ On [[strict omega-categories]] being [[monadic]] over [[polygraphs]]:
 
 * [[François Métayer]], _Strict $\omega$-categories are monadic over polygraphs_, Theory and Applications of Categories, Vol. 31, No. 27, 2016, pp. 799-806. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/31/27/31-27abs.html)&rbrack;
 
+On the [[module of a monad|modules]] ("algebras") over the [[state monad]]:
+
+* [[François Métayer]], *State monads and their algebras* &lbrack;[arXiv:math/0407251](https://arxiv.org/abs/math/0407251)&rbrack;
+
+
+
 category: people
 
 
