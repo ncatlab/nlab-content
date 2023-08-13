@@ -149,11 +149,18 @@ There are other ways of realizing the notion of [[infinitesimal number]] precise
 ## References 
  {#References}
 
+Original references:
+
 * {#Robinson66} [[Abraham Robinson]], *Non-standard analysis*, Studies in Logic and the Foundations of Mathematics **42**, North-Holland (1966), Princeton University Press (1996) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrack;
 
 * {#Keisler76} [[Jerome Keisler]], *Foundations of Infinitesimal Calculus*, Prindle Weber & Schmidt (1976, 2022) &lbrack;[pdf](https://people.math.wisc.edu/~hkeisler/foundations.pdf)&rbrack;
 
 * [[Jerome Keisler]], _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
+
+Textbook accounts:
+
+* E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
+
 
 See also:
 
@@ -172,13 +179,18 @@ See also:
 
 * Juha Ruokolainen, _Constructive nonstandard analysis without actual infinity_, 2004, [pdf](https://oa.doria.fi/bitstream/handle/10024/2865/construc.pdf)
 * E. Palmgren, _Developments in Constructive Nonstandard Analysis_, Bull. Symbolic Logic __4__, n. 3 (1998), 233&#8211;272.
+
 * E. Palmgren, _Constructive nonstandard representations of generalized functions_, <a href="http://dx.doi.org/10.1016/S0019-3577(00)88579-1">doi</a> 
 * Robert A. Herrmann, _Nonstandard analysis and generalized functions_, [math.FA/0403303](http://arxiv.org/abs/math/0403303)
+
 * Robert A. Hermann, _Nonstandard analysis applied to advanced undergraduate mathematics_, [math.GM/0312432](http://www.arXiv.org/abs/math.GM/0312432)
-* A. E. Hurd, P. A. Loeb, _Introduction to nonstandard real analysis_,
-Acad. Press 1985. 
+
+* A. E. Hurd, P. A. Loeb, _Introduction to nonstandard real analysis_, Acad. Press 1985. 
+
 * Hans Vernaeve, _Nonstandard principles for generalized functions_, [arxiv/1101.6075](http://arxiv.org/abs/1101.6075)
+
 * Imme van den Bergh, V&#237;tor Manuel Carvalho das Neves (eds.), _The strength of nonstandard analysis_, [gBooks](http://books.google.com/books?id=nWyPEAW16U8C)
+
 * R. F. Hoskins, J. Sousa Pinto, _Theories of generalized functions_, Horwood Publ. 2005
 
 * Imme van den Berg, _Nonstandard asymptotic analysis_, Lec. Notes Math. __1249__, Springer 1987
