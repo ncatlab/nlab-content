@@ -64,7 +64,7 @@ Just a few years later, [Bénabou 1967](monad#Bénabou67) introduces the term
         "right": 0, 
         "left": 10
     },
-    "caption": "(from [Bénabou 1967, p. 39](##Bénabou67))"
+    "caption": "(from [Bénabou 1967, p. 39](monad#Bénabou67))"
 \end{imagefromfile}
 
 Bénabou's explicit reasoning on this choice of terminology has not survived, but (see the historical discussion [there](monad#Etymology)) it is striking that he proceeds to (observe that it is equivalently possible to) define category-theoretic monads as [[lax 2-functors]] of the form $\ast \to Cat$, and hence as ([[global points|global]]) [[generalized element|elements]] or "units" in a [[2-category theory|2-category theoretic sense]]. 
