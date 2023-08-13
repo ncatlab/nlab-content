@@ -1,4 +1,8 @@
 
+> This entry is about what in [[nonstandard analysis]] are called *monads*. For disambiguation see at *[[monad (disambiguation)]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
