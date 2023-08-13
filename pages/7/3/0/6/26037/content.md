@@ -5,7 +5,15 @@
 
 ## Selected writings
 
-On [[monads in nonstandard analysis]]:
+On [[nonstandard analysis]]
+
+* E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
+
+and on [[monads in nonstandard analysis]]:
+
+* [[Semën S. Kutateladze]], *Leibniz's Definition of Monad*, NeuroQuantology **4** 3 (2006) 249-241 &lbrack;[arXiv:math/0608298](https://arxiv.org/abs/math/0608298), [pdf](https://www.researchgate.net/profile/Semen-Kutateladze/publication/2130297_Leibniz%27s_Definition_of_Monad/links/0912f5058405405dbb000000/Leibnizs-Definition-of-Monad.pdf)&rbrack;
+
+and the [[monad (disambiguation)|monad terminology]] in particular:
 
 * {#Kutateladze11} [[Semën S. Kutateladze]], *Leibnizian, Robinsonian, and Boolean valued monads*, Journal of Applied and Industrial Mathematics **5** 3 (2011) 365-373 &lbrack;[arxiv/1106.2755](http://arxiv.org/abs/1106.2755), [doi:10.1134/S1990478911030082](https://doi.org/10.1134/S1990478911030082)&rbrack;
 
