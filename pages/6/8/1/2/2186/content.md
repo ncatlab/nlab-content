@@ -214,7 +214,7 @@ verses, Part 1, Bounded set theory, Studia Logica, 1995.
 
 The relation of the techniques of the pioneers of infinitesimal calculus and the modern nonstandard analysis is discussed in
 
-* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, Semen S. Kutateladze, David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
+* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, [[Semen S. Kutateladze]], David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
 
 
 [[!redirects hyperreal]]
