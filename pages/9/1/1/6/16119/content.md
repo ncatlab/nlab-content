@@ -12,6 +12,8 @@
 
 [[Euclid]]'s series of books on [[synthetic geometry|synthetic]] [[Euclidean geometry]], elementary [[number theory]], and other [[mathematics|mathematical]] topics. 
 
+[Book XII](http://aleph0.clarku.edu/~djoyce/elements/bookVII/defVII1.html) discusses [[natural numbers]] as composed of *[[monad (disambiguation)|monads]]*
+
 [Book XIII](http://aleph0.clarku.edu/~djoyce/elements/bookXIII/bookXIII.html) discusses the [[Platonic solids]].
 
 
