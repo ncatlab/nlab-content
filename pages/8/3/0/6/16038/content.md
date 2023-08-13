@@ -76,6 +76,7 @@ Textbook account:
 
 [[!redirects standard resolution]]
 [[!redirects standard resolutions]]
+[[!redirects standard construction]]
 
 [[!redirects cotriple homology]]
 [[!redirects triple cohomology]]
