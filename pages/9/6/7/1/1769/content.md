@@ -98,12 +98,6 @@ When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spa
 [[!redirects Cauchy-complete space]]
 [[!redirects Cauchy-complete spaces]]
 
-
-[[!redirects Cauchy completion]]
-[[!redirects Cauchy completions]]
-[[!redirects Cauchy-completion]]
-[[!redirects Cauchy-completions]]
-
 [[!redirects complete metric space]]
 [[!redirects complete metric spaces]]
 [[!redirects Cauchy complete metric space]]
