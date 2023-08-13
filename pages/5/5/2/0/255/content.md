@@ -65,9 +65,10 @@ $$
   \Big\}
   \,.
 $$
-In this sense, monads are [[generalized elements|"points"]] in a [[2-category theory|2-category theoretic]] sense, which may square well with [[Leibniz]]'s notion (or at least its  common vulgarization) of [[monad (disambiguation)|monads]] as a kind of *[[atom]]*. 
+In this sense, monads are [[generalized elements|"points"]] in a [[2-category theory|2-category theoretic]] sense, which squares well with [Euclid's notion of monads](monad+terminology#HistoricalOrigins) as indivisible elements ("units").
 
-On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)) [[Leibniz]]'s old [terminology of "monads"](https://en.wikipedia.org/wiki/Monadology) had, a few years earlier, been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
+
+On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)), just a few years earlier the ancient [[monad terminology]] had been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
 
 Now it so happens --- in the [[topos theory|topos theoretic]] formulation of [[infinitesimals]] via [[differential cohesion]] --- that the construction of [[infinitesimal neighbourhoods]] *is* (see [here](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles)) a monad in the sense of [[category theory]]! -- namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]] ([Khavkine & Schreiber 2017, p. 23](infinitesimal+disk+bundle#KhavkineSchreiber17)).
 
