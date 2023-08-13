@@ -35,28 +35,105 @@ In this sense, lawless lenses are applications of two mathematical frameworks wh
 
 
 ## Definition
+ {#Definition}
 
-Let $(\mathbf{C}, 1, \times)$ be a [[category]] with [[finite products]].
+\begin{definition}\label{Lens}
+**(lenses)**
+\linebreak
+Given a [[category]] $(\mathbf{C}, 1, \times)$  with [[finite products]], a *lens* in $\mathbf{C}$ is:
 
-\begin{definition}
-Let $S,V$ be objects of $\mathbf C$. 
-A **(lawful) lens** $L$, with **source** $S$ and **view** $V$, is a pair of arrows $\mathrm{get} : S \to V$ and $\mathrm{put} : V \times S \to S$, often taken to satisfy the following equations, or _lens laws_:
+1. a [[pair]] of [[objects]] of $\mathbf{C}$
 
-1. (PutGet) the get of a put is the projection: 
-$\mathrm{get} \mathrm{put} = \pi_0$.
-2. (GetPut) the put for a trivially updated state is trivial: 
-$\mathrm{put} \langle \mathrm{get}, 1_S \rangle = 1_S$.
-3. (PutPut) composing puts does not depend on the first view update: $\mathrm{put}(1_V \times \mathrm{put}) = \mathrm{put} \pi_{0,2}$.
+   1. ("source") 
+
+      $$S \,\in\, \mathbf{C}$$
+   
+   1. ("view") 
+
+      $$V \,\in\, \mathbf{C}$$
+
+1. a [[pair]] of [[morphisms]] of the form
+
+   1. ("view", "read-out", "forward operation") 
+
+      $$
+        \mathrm{get} 
+          \;\colon\; 
+        S \longrightarrow V
+      $$ 
+
+   1. ("update", "write", "backward operation") 
+
+      $$
+        \mathrm{put} 
+          \;\colon\; 
+        V \times S \longrightarrow S
+        \,.
+      $$ 
+
+The lens is called *well-behaved* if this data satisfies:
+
+* (PutGet) "what has just been written is read out as such": 
+
+  $$
+    v \colon V
+    ,\,
+    s \colon S
+    \;\;\;\;\;\;
+    \vdash
+    \;\;\;\;\;\;
+    get\big(
+      put 
+     (v,\,s) 
+    \big)
+    \;=\; 
+    v
+    \,,
+  $$
+
+and
+
+* (GetPut) "writing what has just been read out means no change":
+
+  $$
+    s \colon S
+    \;\;\;\;\;\;
+    \vdash
+    \;\;\;\;\;\;
+    put\big(
+      get(s) 
+      ,\,
+      s
+    \big)   
+    \;=\;
+    s
+  $$
+
+and it is called *very well-behaved* or *lawful* if in addition it satisfies:
+
+* (PutPut) "writing means to over-write previous edits":
+
+  $$
+    v,\,v' \colon V
+    ,\;
+    s \colon S
+    \;\;\;\;\;\;
+    \vdash
+    \;\;\;\;\;\;
+    put\Big(
+      v',\,
+      put\big(
+        v,\, s 
+      \big)
+    \Big)
+    \;=\;
+    put(v',\, s)
+  $$
 
 \end{definition}
 
-\begin{remark}
-The two morphisms comprising a lens can also be called 'view' and 'update'. More generally, they are referred to as the 'forward' and 'backward' parts of the lens.
-\end{remark}
+([Bohannon, Pierce & Vaughan 2006](#BohannonPierceVaughan06), cf. eg. [Johnson, Rosebrugh & Wood 2010, Def. 8](#JohnsonRosebrughWood10))
 
-\begin{remark}
-Sometimes a lens satisfying all three laws is said to be _lawful_. Sometimes it is said that a _well-behaved_ lens satisfies (1) and (2) and a _very well-behaved_ lens satisfies also (3).
-\end{remark}
 
 ## The category of lenses
 
@@ -78,32 +155,81 @@ Crucially, associativity of this composition relies on [[monoidal category with 
 
 Moreover, the [[cartesian product]] of $\mathbf C$ endows $\mathrm{Lens}(\mathbf{C})$ of a [[monoidal product]].
 
+
 ## Properties 
 
-\begin{proposition}
-Lenses are [[algebra over a monad|algebras]] for a [[monad]] generated 
-by the [[adjunction]]: 
-\begin{centre}
-\begin{tikzcd}
-\mathbf{C}
-\arrow[r, shift right=7pt, "\Delta_{V}"', "\bot"] & 
-\mathbf{C} / V
-\arrow[l, shift right=7pt, "\Sigma"']
-\end{tikzcd}
-\end{centre}
-\end{proposition}
-\begin{proof}
-See ([Johnson-Rosebrugh-Wood 2010, Proposition 9](#JohnsonRosebrughWood10)). 
-See also the [possibility](necessity+and+possibility#globally) operator.
-\end{proof}
+### Monadicity over Possibility monad
+ {#PossibilityMonadicity}
 
 \begin{proposition}
-Let $\mathbf{C} = Set$. 
-Then every lens $L = (S, V, \mathrm{get}, \mathrm{put})$ is equivalent a "constant complement" lens whose **Get** is a product projection $\pi_{1} : C \times V \to V$ and whose **Put** is the function $\pi_{0,2} : C \times V \times V \to C \times V$ for some set $C$. 
-\end{proposition}
+\label{LawfulLensesArePossibilityModales}
+**(lawful lenses are possibility modales)**
+\linebreak
+Lawful lenses in $\mathbf{C}$ with view $V$ (Def. \ref{Lens})
+are equivalently the [[module of a monad|modules]] ([[modales]]) of the left [[base change]] [[monad]] on the [[slice category]] over $V$ (the $V$-[possibility](necessity+and+possibility#globally)-[[modality]] $\lozenge_V$):
+
+\[
+  \label{PossibilityMonadOverTheViewObject}
+\]
+\begin{tikzcd}
+  \mathbf{C}
+  \ar[
+    r,
+    shift right=8pt,
+    "{
+      \times V
+    }"{swap}
+  ]
+  \ar[
+    from=r,
+    shift right=8pt,
+    "{
+      \coprod_{V}
+    }"{swap}
+  ]
+  \ar[
+    r,
+    phantom,
+    "{ \scalebox{.7}{$\bot$} }"
+  ]
+  &
+  \mathbf{C}_{/V}
+    \ar[out=40, in=-40,
+      looseness=4.5, 
+      shorten=-3pt,
+      "{
+        \lozenge_{V}
+      }"{description},
+    ]  
+\end{tikzcd}
+
+where 
+
+1. $view \,\colon\, S \to V$ is identified with the slicing morphism,
+
+1. $get \,\colon\, V \times S \to S$ is identified with the module action $\lozenge_V(S) \to S$.
+
+\end{proposition} 
 \begin{proof}
-See ([Johnson-Rosebrugh-Wood 2010, Corollary 13](#JohnsonRosebrughWood10)).
+The objects are identified as shown by direct unwinding of the definitions, as in [Johnson, Rosebrugh & Wood 2010, Prop. 9](#JohnsonRosebrughWood10). (Notice that [JRW10, Def. 10](#JohnsonRosebrughWood10) then *defines* the morphisms of lawful $V$-lenses to coincide with those of $\lozenge_V$-modales.)
 \end{proof}
+
+
+\begin{proposition}
+\label{LawfulLensesMonadicity}
+  If the ambient category $\mathbf{C}$ is a [[topos]] (such as [[Sets]]) and the view $V$ is [[inhabited object|inhabited]],  then the adjunction (eq:PossibilityMonadOverTheViewObject) is [[monadic functor|monadic]].
+\end{proposition}
+For the case $\mathbf{C} = Sets$ this is [Johnson, Rosebrugh & Wood 2010, Thm. 12, Cor. 13](#JohnsonRosebrughWood10).
+\begin{proof}
+ The [[monadicity theorem]] ([here](monadicity+theorem#BeckMonadicityTheoremAlternative)) readily gives that the above adjunction (eq:PossibilityMonadOverTheViewObject) is [[monadic functor]]: $(\text{-})\times V$ [[preserved colimit|preserves]] all colimits (cf. [[universal colimits]]) hence in particular the relevant [[coequalizers]], and it is [[conservative functor|conservative]] by the assumption that $V$ is inhabited (this is clear by inspection in [[Sets]] -- which is what [JRW10](#JohnsonRosebrughWood10) observe on their p. 13 --  for the general case use [[Sketches of an Elephant|Johnstone 2002, vol 1, Lem. 1.3.2]]).
+\end{proof}
+
+\begin{remark}
+  Prop. \ref{LawfulLensesMonadicity} says that the category of $\lozenge_V$-[[modales]] among objects in $\mathbf{C}_{/V}$ is equivalent to $\mathbf{C}$. This makes good sense when viewing $\lozenge_V$ as the [[possibility]]-[[modality]], see the discussion of *potentiality* [there](necessity+and+possibility#RelationToPotentiality).
+\end{remark}
+
+### Monadicity over the CoState comonad
+ {#MonadicityOverStateMonade}
 
 \begin{proposition}\label{LensesAreCostateCoalgebras}
 **(well-behaved  lenses are the [[costate comonad|costate]] [[coalgebra over a comonad|coalgebras]])**
@@ -151,6 +277,7 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 * [[polynomial functor]]
 
 * [[delta lens]] 
+
 
 ## References
 
