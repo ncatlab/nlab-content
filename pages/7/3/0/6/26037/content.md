@@ -18,6 +18,11 @@ and the [[monad (disambiguation)|monad terminology]] in particular:
 
 * {#Kutateladze11} [[Semën S. Kutateladze]], *Leibnizian, Robinsonian, and Boolean valued monads*, Journal of Applied and Industrial Mathematics **5** 3 (2011) 365-373 &lbrack;[arxiv/1106.2755](http://arxiv.org/abs/1106.2755), [doi:10.1134/S1990478911030082](https://doi.org/10.1134/S1990478911030082)&rbrack;
 
+See also:
+
+* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, [[Mikhail Katz]], [[Semen S. Kutateladze]], David Sherry, *Toward a history of mathematics focused on procedures*, Foundations of Science **22** (2017) 763–783 &lbrack;[arxiv/1609.04531](http://arxiv.org/abs/1609.04531), [doi:10.1007/s10699-016-9498-3](https://doi.org/10.1007/s10699-016-9498-3)&rbrack;
+
+
 category: people
 
 [[!redirects Semen Kutateladze]]
