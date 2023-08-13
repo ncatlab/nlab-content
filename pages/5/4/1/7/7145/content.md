@@ -13,23 +13,26 @@ On the historical origin of the notion, cf. eg. [Gordon, Kusraev & Kutateladze 2
 
 [[Euclid]] used "monad" (*μονάς*, stem: *μοναδ*-) in [Book VII](http://aleph0.clarku.edu/~djoyce/elements/bookVII/defVII1.html) of the *[[Elements]]* ($\sim$300 BC) in the following way:
 
-> **Definition 1**: 
+> {#ElementsVIIDef1} **Definition 1**: 
 
 > [mονάς ἐστιν, καθ' ἣν ἕκαστον τῶν ὄντων ἓν λέγεται](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+7.Def.1&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
 > A *monad* is that by virtue of which each of the things that exist is called one.
 
-> **Definition 2**: 
+> {#ElementsVIIDef2} **Definition 2**: 
 
 > [ἀριθμὸς δὲ τὸ ἐκ μονάδων συγκείμενον πλῆθος](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+7.def.2&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
 > A *number* is a multitude composed of monads.
 
-The term "monad" (*μονάς*) in these two "definitions" is traditionally translated as "unit" ("with no sufficient ground for that", according to [GKK02, p. 18](#GordonKusraevKutateladze02)).
 
 [[Sextus Empiricus]] (2nd century AD) expands on this as follows: 
 
 > A whole as such is indivisible and a monad, since it is a monad, is not divisible. Or, if it splits into many pieces it becomes a union of many monads rather than a &lbrack;simple&rbrack; monad.
+
+
+The term "monad" (*μονάς*) here is traditionally translated as "unit". More explicitly, [Kutateladze 2006](#Kutateladze06) on [p. 2](https://arxiv.org/pdf/math/0608298.pdf#page=2) suggests to read the "is called one" in [Def. 1](#ElementsVIIDef1) in terms of *counting* -- as in: "one sheep here, another one there" -- which happens *by virtue* of an identification (what today we would call a [[bijection]] with a [[finite set]]): While sheep are different from geometrical points, we may still regard them as "units of sheep" for purpose of counting.
+
 
 
 Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) speaks of monads as *mind-like simple substances* in a way that is now more famous than Euclid's usage, but also more mysterious, if not puzzling.
