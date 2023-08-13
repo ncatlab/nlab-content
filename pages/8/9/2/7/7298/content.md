@@ -73,11 +73,13 @@ In [[algebraic geometry]] (via [[infinitesimal shape modality]]):
 
 * [[A. Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique (r&#233;dig&#233;s avec la collaboration de Jean Dieudonn&#233;) : IV. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas, Quatri&#232;me partie_, Publications Math&#233;matiques de l'IH&#201;S __32__ (1967), p. 5-361, [numdam](http://www.numdam.org/item?id=PMIHES_1967__32__5_0)
 
-Discussion in [[nonstandard analysis]] and the "[[monad (disambiguation)|monad]]-"terminology:
+Discussion of infinitesimal neighbourhoods in [[nonstandard analysis]] and use of the "[[monad (disambiguation)|monad-terminology]]":
 
 * {#Robinson66} [[Abraham Robinson]], p. 57 of: *Non-standard analysis*, Studies in Logic and the Foundations of Mathematics **42**, North-Holland (1966), Princeton University Press (1996) &lbrack;[ISBN:9780691044903](https://press.princeton.edu/books/paperback/9780691044903/non-standard-analysis)&rbrack;
 
 * {#Luxemburg66} [[Wilhemus A. J. Luxemburg]], *A General Theory of Monads*, in: *Applications of Model Theory to Algebra, Analysis and Probability*, Holt, Rinehart and Minston (1966) 18–86 &lbrack;[ark](https://archive.org/stream/in.ernet.dli.2015.141486/2015.141486.Applications-Of-Model-Theory-To-Algebra-analysis-And-Probability_djvu.txt)&rbrack;
+
+* E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], Chapter 4 in: *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
 
 * {#Keisler76} [[Jerome Keisler]], Def. 1.2 in: *Foundations of Infinitesimal Calculus*, Prindle Weber & Schmidt (1976, 2022) &lbrack;[pdf](https://people.math.wisc.edu/~hkeisler/foundations.pdf)&rbrack;
 
@@ -86,6 +88,11 @@ Discussion in [[nonstandard analysis]] and the "[[monad (disambiguation)|monad]]
 * [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, *Nonstandard methods in stochastic analysis and mathematical physics*, Academic Press 1986
 
  * Wikipedia, *[Monad (non-standard analysis)](http://en.wikipedia.org/wiki/Monad_%28non-standard_analysis%29)*
+
+More historical commentary on the [[monad (disambiguation)|monad-terminology]]
+
+* {#Kutateladze06} [[Semën S. Kutateladze]], *Leibniz's Definition of Monad*, NeuroQuantology **4** 3 (2006) 249-241 &lbrack;[arXiv:math/0608298](https://arxiv.org/abs/math/0608298), [pdf](https://www.researchgate.net/profile/Semen-Kutateladze/publication/2130297_Leibniz%27s_Definition_of_Monad/links/0912f5058405405dbb000000/Leibnizs-Definition-of-Monad.pdf)&rbrack;
+
 
 Discussion in [[synthetic differential geometry]], also using the "monad"-terminology:
 
