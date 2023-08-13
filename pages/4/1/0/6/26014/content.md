@@ -73,5 +73,6 @@ See also:
 
 [[!redirects generalized symmetry]]
 [[!redirects generalized symmetries]]
+[[!redirects non-invertible symmetry]]
 [[!redirects non-invertible symmetries]]
 
