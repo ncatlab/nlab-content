@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,15 +17,24 @@
 ## Idea
  {#Idea}
 
-In [[computer science]], originally in [[database theory]], a data structure called *lenses* &lbrack;[Bohannon, Pierce & Vaughan (2006, §3)](#BohannonPierceVaughan06), [Foster, Greenwald, Moore, Pierce & Schmitt  (2007, §3)](#FosterGreenwaldMoorePierceSchmitt07)&rbrack; is used to formally capture situations where from  some [[data]]([[database|-base]]) may be extracted a specific *view* (say one field  in a record structure) in such a way that changes made to the view can be reflected as *updates* to the original data. 
+In [[computer science]], originally in [[database theory]], a data [[structure]]-[[type]] now called (lawful) *lenses* &lbrack;[Bohannon, Pierce & Vaughan (2006, §3)](#BohannonPierceVaughan06), [Foster, Greenwald, Moore, Pierce & Schmitt  (2007, §3)](#FosterGreenwaldMoorePierceSchmitt07), but considered under different names already by [Oles 1982](#Oles82), [1986](#Oles86) and [Hofmann & Pierce 1996](#HofmannPierce96)&rbrack;
+is used to encode [[data]]([[database|-base]]) types $S$ equipped with a read/write functionality (only) for a specified view-type $V$.
 
-The same construction has been devised on numerous occasions (cf. [Hedges (2018)](#Hedges18)).
+In particular, "very well-behaved" or "lawful" lenses (see Def. \ref{Lens} below) -- those for which updates of the "view" $V$ completely overwrite any previous such changes -- turn out to equivalently be data base types of product form $S = D \times V$ with "view" given by projecting onto the $V$-factor.  As such, lawful lenses are equivalent to (cf. *[[monads in computer science]]*):
 
-In particular, "well-behaved lenses" ([BPV06, Def. 3.2](#BohannonPierceVaughan06)those for which updates of the "view" completely overwrite any previous such changes) turn out to equivalently be just the [[coalgebra over a comonad|coalgebras]] of the [[costate comonad]] (cf. *[[monads in computer science]]*),  an observation due to [O’Connor (2010)](#O’Connor10), [(2011)](#O’Connor11);  see Prop. \ref{LensesAreCostateCoalgebras} below.
+* the [[module over a monad|modales]] over the $V$-[[possibility]]-monad 
+
+  ([Johnson, Rosebrugh & Wood 2010, Prop. 9](#JohnsonRosebrughWood10), see Prop. \ref{LawfulLensesArePossibilityModales} below)
+
+* the [[comodule over a comonad|comodales]] over the [[costate comonad]],  
+
+  ([O’Connor (2010)](#O’Connor10), [(2011)](#O’Connor11), see Prop. \ref{LensesAreCostateCoalgebras} below).
+
+Thus, lawful lenses may be thought of as encoding read/write functionality (only) at a certain address in a data base (compare the [[RAM]]-model given by the [[state monad]] which encodes read/write of the entire data base type at once).
  
 More generally, there are two different approaches to lenses:
 
-* Lawful lenses are an algebraic structure which axiomatize product projections. The laws govern the ways views and updates relate. These are generalized into [[delta lens|Delta lenses]], which are more flexible lawful lenses.
+* Lawful lenses (as above) are an algebraic structure which axiomatize product projections. The laws govern the ways views and updates relate. These are generalized into [[delta lens|Delta lenses]], which are more flexible lawful lenses.
 
 * Lawless lenses, and in particular bi-directional or polymorphic lenses, separate the two directions of view and update so that the laws no longer type-check. These lawless lenses are used to organize bi-directional flow of data, and are generalized into [[optics (in computer science)|optics]] in the [[functional programming]] literature. 
 
@@ -132,7 +142,7 @@ and it is called *very well-behaved* or *lawful* if in addition it satisfies:
 
 \end{definition}
 
-([Bohannon, Pierce & Vaughan 2006](#BohannonPierceVaughan06), cf. eg. [Johnson, Rosebrugh & Wood 2010, Def. 8](#JohnsonRosebrughWood10))
+([Hofmann & Pierce 1996, p. 12](#HofmannPierce96); [Bohannon, Pierce & Vaughan 2006, Def. 3.2](#BohannonPierceVaughan06), cf. eg. [Johnson, Rosebrugh & Wood 2010, Def. 8](#JohnsonRosebrughWood10))
 
 
 ## The category of lenses
@@ -210,8 +220,23 @@ where
 1. $get \,\colon\, V \times S \to S$ is identified with the module action $\lozenge_V(S) \to S$.
 
 \end{proposition} 
+([Johnson, Rosebrugh & Wood 2010, Prop. 9](#JohnsonRosebrughWood10))
 \begin{proof}
-The objects are identified as shown by direct unwinding of the definitions, as in [Johnson, Rosebrugh & Wood 2010, Prop. 9](#JohnsonRosebrughWood10). (Notice that [JRW10, Def. 10](#JohnsonRosebrughWood10) then *defines* the morphisms of lawful $V$-lenses to coincide with those of $\lozenge_V$-modales.)
+\label{ProofOfLawfulLensesArePossibilityModales}
+By direct unwinding of the definitions:
+
+\begin{imagefromfile}
+    "file_name": "LawfulLensesAsPossibilityModales-230613.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 10,
+        "right": 10, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 \end{proof}
 
 
@@ -309,9 +334,21 @@ $\varphi(s, u) : s \to p(s, u)$ in $S$ where $p(s, u) = cod(\varphi(a, u))$ is t
 
 ### General
 
+The definition of what are now called (lawful) lenses is already in 
+
+* {#Oles82} [[Frank J. Oles]], *A category-theoretic approach to the semantics of programming languages*, Syracuse University (1982) &lbrack;[pdf](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www/FrankOlesThesis.pdf)&rbrack;
+
+* {#Oles86} [[Frank J. Oles]], *Type algebras, functor categories and block structure*, Algebraic methods in semantics (1986) 543–573, Daimi Report No. 156 (1983): &lbrack;[doi:10.7146/dpb.v12i156.7430](https://doi.org/10.7146/dpb.v12i156.7430), [pdf](https://tidsskrift.dk/daimipb/article/view/7430/6281)&rbrack;
+
+* {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], p. 12 in: *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
+
+but gained wider attention only with:
+
 * {#BohannonPierceVaughan06} Aaron Bohannon, [[Benjamin C. Pierce]], Jeffrey A. Vaughan, *Relational lenses: a language for updatable views*, Proceedings of Principles of Database Systems (PODS) (2006) 338-347 &lbrack;[doi:10.1145/1142351.1142399](https://doi.org/10.1145/1142351.1142399), [pdf](https://www.cis.upenn.edu/~bcpierce/papers/dblenses-pods.pdf)&rbrack;
 
 * {#FosterGreenwaldMoorePierceSchmitt07} J. N. Foster, M. B. Greenwald, J. T. Moore, [[Benjamin C. Pierce]], A. Schmitt, _Combinators for bidirectional tree transformations: A linguistic approach to the view-update problem_, ACM Transactions on Programming Languages and Systems **29** 3 (2007) 17-es &lbrack;[doi:x10.1145/1232420.1232424](https://doi.org/10.1145/1232420.1232424)&rbrack;
+
+Further discussion:
 
 * {#JohnsonRosebrughWood10} [[Michael Johnson]], [[Robert Rosebrugh]], [[Richard Wood]], _Algebras and Update Strategies_, Journal of Universal Computer Science **16** (2010) &lbrack;[doi:10.3217/jucs-016-05-0729](http://dx.doi.org/10.3217/jucs-016-05-0729)&rbrack;
 
