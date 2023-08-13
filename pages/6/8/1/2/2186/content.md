@@ -212,9 +212,9 @@ preface by M. Reeken.), IPM, Tehran, Iran, 1994.
 * V. Kanovei, M. Reeken, Internal approach to external sets and uni-
 verses, Part 1, Bounded set theory, Studia Logica, 1995.
 
-The relation of the techniques of the pioneers of infinitesimal calculus and the modern nonstandard analysis is discussed in
+On the relation of the techniques of the pioneers of infinitesimal calculus and Robinson's nonstandard analysis:
 
-* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, [[Semen S. Kutateladze]], David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
+* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, [[Mikhail Katz]], [[Semen S. Kutateladze]], David Sherry, *Toward a history of mathematics focused on procedures*, Foundations of Science **22** (2017) 763–783 &lbrack;[arxiv/1609.04531](http://arxiv.org/abs/1609.04531), [doi:10.1007/s10699-016-9498-3](https://doi.org/10.1007/s10699-016-9498-3)&rbrack;
 
 
 [[!redirects hyperreal]]
