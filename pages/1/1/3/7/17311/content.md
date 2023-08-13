@@ -64,3 +64,12 @@ On [[model category]]-[[mathematical structure|structures]] on coalgebras over a
 [[!redirects coalgebra of a comonad]]
 [[!redirects coalgebras of a comonad]]
 
+[[!redirects comodule over a comonad]]
+[[!redirects comodules over a comonad]]
+
+[[!redirects comodule for a comonad]]
+[[!redirects comodules for a comonad]]
+
+
+
+
