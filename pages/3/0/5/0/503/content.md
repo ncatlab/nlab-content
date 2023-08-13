@@ -674,7 +674,7 @@ Further references include for instance
 
 * R. Walters, _Sheaves on sites as Cauchy-complete categories, J. Pure Appl. Algebra 24 (1982) 95-102
 
-* {#NST2020} Branko Nikolić, [[Ross Street]], [[Giacomo Tendas]], _Cauchy completeness for DG-categories_, Theory and Applications of Categories, 37(28):940-963, 2021 [link](http://www.tac.mta.ca/tac/volumes/37/28/37-28abs.html).
+* {#NST2020} Branko Nikolić, [[Ross Street]], [[Giacomo Tendas]], _Cauchy completeness for DG-categories_, Theory and Applications of Categories, 37(28):940-963, 2021 [link](http://www.tac.mtI found a link explaining that the category additionally has biproducts, given by the componentwise product of semilattices.a.ca/tac/volumes/37/28/37-28abs.html).
 
 * {#LT2022} [[Stephen Lack]], [[Giacomo Tendas]], _Flat vs. filtered colimits in the enriched context_, Advances in Mathematics, 404(A):108381, 2022. [arXiv:2107.08612](https://arxiv.org/abs/2107.08612), [doi](https://doi.org/10.1016/j.aim.2022.108381).
 
@@ -688,16 +688,6 @@ Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy-complete category]]
 [[!redirects Cauchy-complete categories]]
-
-[[!redirects Cauchy complete]]
-[[!redirects Cauchy-complete]]
-[[!redirects Cauchy completeness]]
-[[!redirects Cauchy-completeness]]
-
-[[!redirects Cauchy completion]]
-[[!redirects Cauchy completions]]
-[[!redirects Cauchy-completion]]
-[[!redirects Cauchy-completions]]
 
 [[!redirects idempotent complete category]]
 [[!redirects idempotent complete categories]]
