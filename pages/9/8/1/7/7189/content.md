@@ -63,7 +63,7 @@ Concerning existence, $Ran_G G$ exists for $G \colon \mathcal{B}\to\mathcal{A}$,
 
 In this circumstance, when $\mathcal{B}$ is small and $\mathcal{A}$ is complete, then the codensity monad is equivalently the one that [arises](monad#RelationToAdjunctionsAndMonadicity) from the [[adjoint functor|adjunction]] 
 \[
-  \label{}
+
   \mathcal{A}
   \underoverset
     {\underset{}{\longleftarrow}}
@@ -246,7 +246,7 @@ The codensity monad induced by the [[Yoneda embedding]] is isomorphic to the mon
 \end{example} 
 
 \begin{example} 
-In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: B \to C$ is the relation $T/R: B \to C$ defined by the formula $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. This construction frequently recurs; see for instance [[specialization order]] for a [[topological space|topology]]. 
+In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: A \to B$ is the relation $T/R: B \to C$ such that $(b,c)\in T/R$ iff $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. This construction frequently recurs; see for instance [[specialization order]] for a [[topological space|topology]]. 
 \end{example} 
 
 ## Properties
