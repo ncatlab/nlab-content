@@ -111,6 +111,10 @@ Exposition:
 
 * {#Milewski19} [[Bartosz Milewski]], §21.2.5 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
+On the [[module of a monad|modules]] ("algebras") of the state monad:
+
+* [[François Métayer]], *State monads and their algebras* &lbrack;[arXiv:math/0407251](https://arxiv.org/abs/math/0407251)&rbrack;
+
 
 Concrete applications via implementation in [[Haskell]]:
 
