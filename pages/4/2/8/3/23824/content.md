@@ -203,6 +203,10 @@ for all $a:R \times S$, where $\pi_1$ and $\pi_2$ are the first and second produ
 ## References
  {#References}
 
+* {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
+  
+  > (including early discussion of [[lenses in computer science]])
+
 * [[Univalent Foundations Project]], [p. 111](https://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf#page=123) of: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * {#Rijke19} [[Egbert Rijke]], §12.2 in: _[[Introduction to Homotopy Type Theory]]_ (2019)  &lbrack;[web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)&rbrack; 
