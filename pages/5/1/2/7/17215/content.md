@@ -1,9 +1,28 @@
 
-Semantics in [[computer science]] is a field concerned with models of meaning of programming language constructs, what the constructions actually do in execution. In fact, semantics in computer science (and cybernetics) nowdays is often considered also beyond language constructs and deals also with semantics of more general signals, codes and processes, especially within concurrency models. 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Semantics in [[computer science]] is a field concerned with models of meaning ([[semantics]]) of [[programming language]] constructs, ie. with what the constructions actually do in execution. In fact, semantics in computer science (and cybernetics) nowdays is often considered also beyond language constructs and deals also with semantics of more general signals, codes and processes, especially within concurrency models. 
+
+
+## Related pages
+
+* [[denotational semantics]], 
+
+* [[operational semantics]]
+
+* [[categorical semantics]]
+
+* [[domain theory]]
+
+* [[computational trilogy]]
+
 
 ## Literature
 
-Related $n$Lab pages include [[denotational semantics]], [[operational semantics]], [[functional programming]], [[lambda calculus]], [[type theory]], [[domain theory]], [[currying]], [[Isabelle]]
 
 * wikipedia [semantics (computer science)](https://en.wikipedia.org/wiki/Semantics_%28computer_science%29)
 * Robert Harper, _Practical foundations for programming languages_, [pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
@@ -18,4 +37,5 @@ Related $n$Lab pages include [[denotational semantics]], [[operational semantics
 * Glynn Winskel, __Denotational semantics__, University of Cambridge [pdf](http://www.cl.cam.ac.uk/~gw104/dens.pdf)
 
 category: computer science
+
 [[!redirects semantics of programming languages]]
