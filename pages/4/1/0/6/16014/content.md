@@ -245,6 +245,8 @@ that the types $P \,\in\, Type$ are equivalently
      \Box_B P_\bullet
    $
 
+(The same conclusion in known in the theory of [[lenses in computer science]], see [there](lens+in+computer+science#PossibilityMonadicity).)
+
 {#PotentialDataAsPossibilityModalData} Hence:
 
 <center>
