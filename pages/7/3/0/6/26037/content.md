@@ -8,6 +8,7 @@
 On [[nonstandard analysis]]
 
 * E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
+* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, [[Semën S. Kutateladze]], David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](https://arxiv.org/abs/1609.04531)
 
 and on [[monads in nonstandard analysis]]:
 
@@ -22,4 +23,5 @@ category: people
 [[!redirects Semen Kutateladze]]
 [[!redirects Semën Samsonovich Kutateladze]]
 [[!redirects Semen Samsonovich Kutateladze]]
+[[!redirects Semen S. Kutateladze]]
 [[!redirects S. S. Kutateladze]]
