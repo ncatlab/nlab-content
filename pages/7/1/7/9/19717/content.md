@@ -224,23 +224,49 @@ For the case $\mathbf{C} = Sets$ this is [Johnson, Rosebrugh & Wood 2010, Thm. 1
  The [[monadicity theorem]] ([here](monadicity+theorem#BeckMonadicityTheoremAlternative)) readily gives that the above adjunction (eq:PossibilityMonadOverTheViewObject) is [[monadic functor]]: $(\text{-})\times V$ [[preserved colimit|preserves]] all colimits (cf. [[universal colimits]]) hence in particular the relevant [[coequalizers]], and it is [[conservative functor|conservative]] by the assumption that $V$ is inhabited (this is clear by inspection in [[Sets]] -- which is what [JRW10](#JohnsonRosebrughWood10) observe on their p. 13 --  for the general case use [[Sketches of an Elephant|Johnstone 2002, vol 1, Lem. 1.3.2]]).
 \end{proof}
 
-\begin{remark}
-  Prop. \ref{LawfulLensesMonadicity} says that the category of $\lozenge_V$-[[modales]] among objects in $\mathbf{C}_{/V}$ is equivalent to $\mathbf{C}$. This makes good sense when viewing $\lozenge_V$ as the [[possibility]]-[[modality]], see the discussion of *potentiality* [there](necessity+and+possibility#RelationToPotentiality).
+\begin{remark}\label{MonadicityOfLawfulLensesAsMonadicDescent}
+**(relation to [[monadic descent]])**
+\linebreak
+In ([[algebraic geometry|algebraic]]) [[geometry]], the statement of Prop. \ref{LawfulLensesMonadicity} is known as *[[monadic descent]]*. In this context one would say that:
+
+* the [[epimorphism]] $V \to \ast$ (reflecting that $V$ is [[inhabited objects|inhabited]], necessarily an [[effective epimorphism]] given that $\mathbf{C}$ is assumed to be a [[topos]]) is the *morphism of effective descent*, representing a [[covering]],
+
+* $\lozenge_V$-[[modale]]-[[structure]] is *[[descent data]]* on the [[underlying]] object in $\mathbf{C}_{/V}$,
+
+* the [[Eilenberg-Moore category|EM-category]] $\big(\mathbf{C}_{/V}\big)^{\lozenge_V}$ is the *[[category of descent data]]* along $V \to \ast$,
+
+and so the monadicity theorem $\mathbf{C} \,\simeq\, \big(\mathbf{C}_{/V}\big)^{\lozenge_V}$ in Prop. \ref{LawfulLensesMonadicity} states that objects over $V$ which are equipped with such descent data are equivalent to objects over $\ast$, hence "do descend" along $V \to \ast$.
 \end{remark}
+
+\begin{remark}
+**(relation to [[epistemic logic]])**
+\linebreak
+Prop. \ref{LawfulLensesMonadicity} says that the category of $\lozenge_V$-[[modales]] among objects in $\mathbf{C}_{/V}$ is equivalent to $\mathbf{C}$. This makes good sense when viewing $\lozenge_V$ as the [[possibility]]-[[modality]], see the discussion of *potentiality* [there](necessity+and+possibility#RelationToPotentiality).
+\end{remark}
+
 
 ### Monadicity over the CoState comonad
  {#MonadicityOverStateMonade}
 
-\begin{proposition}\label{LensesAreCostateCoalgebras}
-**(well-behaved  lenses are the [[costate comonad|costate]] [[coalgebra over a comonad|coalgebras]])**
+Alternatively:
 
-For $\mathbf{C}$ a [[cartesian closed category]],  the well-behaved lenses in $\mathbf{C}$ are equivalently the [[coalgebra over a comonad|coalgebras]] of the [[costate comonad|CoState]] [[comonad]],  i.e. that induced by the [[internal hom]]-[[adjoint functor|adjunction]]: 
+\begin{proposition}\label{LensesAreCostateCoalgebras}
+**(lawful lenses are the [[costate comonad|costate]] [[coalgebra over a comonad|coalgebras]])**
+
+For $\mathbf{C}$ a [[cartesian closed category]],  the lawful $V$-lenses in $\mathbf{C}$ (Def. \ref{Lens}) are equivalently the [[coalgebra over a comonad|coalgebras]] of the $V$-[[costate comonad|CoState]] [[comonad]],  i.e. that induced by the [[internal hom]]-[[adjoint functor|adjunction]]: 
 
 \begin{centre}
 
 \begin{tikzcd}
   \mathbf{C} 
   \arrow[r, shift right=7pt, "{[V, -]}"', "\bot"] 
+    \ar[out=135, in=-135,
+      looseness=5.1, 
+      shorten=-3pt,
+      "{
+        V\mathrm{CoState}
+      }"{description},
+    ]  
    & 
   \mathbf{C} 
   \arrow[l, shift right=7pt, "{(-) \times V}"']
