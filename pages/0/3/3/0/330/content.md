@@ -14,7 +14,7 @@
 =--
 
 # Global elements
-* tic
+* table of contents
 {: toc}
 
 
