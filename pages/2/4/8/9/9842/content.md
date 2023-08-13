@@ -14,19 +14,22 @@ There is little hard data on Euclid as a person; it seems to be generally agreed
 One could say that Euclid was the ancient version of [[Bourbaki]], who quite consciously fancied and presented themselves as a modern-day Euclid, collecting and reorganizing the mathematics of the day in rigorous logical form. (The naming of Bourbaki's _magnum opus_, the _[[Elements of Mathematics]]_, is of course no coincidence.) One notable stylistic difference: Euclid freely employed pictures as visual aids to the logical demonstrations in the _Elements_, whereas Bourbaki wrote in rather a puritanical spirit, sternly forbidding the use of pictorial representations, perhaps to avoid the kinds of errors that Hilbert patched in Euclid\'s work.
 
 
-## The _Elements_
-
-(Include some words on the extent to which Euclid actually wrote this by himself, or collected treatises which were works of others, etc.  Either on [[Elements|a separate page]], or else here with a redirect.) 
-
-
 ## Related entries
 
-*  [[Euclidean domain]]
-*  [[Euclidean geometry]]
-*  [[Euclidean relation]]
-*  [[Euclidean space]]
-*  [[Euclidean topology]]
-*  _[[Elements]]_ (his book)
+*  _[[Elements]]_ (Euclid's book on what is now called [[axiom|axiomatic]]/[[synthetic geometry|synthetic]] [[Euclidean geometry]])
+
+* [[Euclidean domain]]
+
+* [[Euclidean geometry]]
+
+* [[Euclidean relation]]
+
+* [[Euclidean space]]
+
+* [[Euclidean topology]]
+
+* [[monad terminology]]
+
 
 
 ## External links
