@@ -375,10 +375,9 @@ Introducing the [[Hilbert space]]-formulation (and the [[projection postulate]])
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
-but see:
+but see (on [[John von Neumann|von Neumann]]'s further reasoning regarding [[quantum logic]] and then of [[von Neumann algeba factors]]):
 
 * [[Miklos Rédei]], *Why John von Neumann did not Like the Hilbert Space formalism of quantum mechanics (and what he liked instead)*, Studies in History and Philosophy of Modern Physics **27** 4 (1996) 493-510 &lbrack;<a href="https://doi.org/10.1016/S1355-2198(96)00017-2">doi:10.1016/S1355-2198(96)00017-2</a>&rbrack;
-
 
 
 Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
