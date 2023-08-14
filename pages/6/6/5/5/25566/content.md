@@ -1,4 +1,4 @@
-The *categories mailing list* 
+The *Categories mailing list* 
 
 * [www.mta.ca/~cat-dist](https://www.mta.ca/~cat-dist)
 
