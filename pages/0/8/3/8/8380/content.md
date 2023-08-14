@@ -490,11 +490,34 @@ which makes a lot of sense.
 ### Dual idea: Comonadic contexts
  {#DualIdeaComonadicCauses}
 
-(...) e.g. [Uustalu & Vene (2008)](#UustaluVene08), [POM13](#POM13), [GKOBU16](#GKOBU16), [KRU20](#KRU20) (...):
+\begin{imagefromfile}
+    "file_name": "Overton-CoMonadHaskell.jpg",
+    "float": "right",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "(from [Overton 2014](#Overton14))"
+\end{imagefromfile}
 
-By [[formal duality]]:
 
-* On the one hand:
+By [[formal duality]], all of the above discussion has a dual version, where now (e.g. [Uustalu & Vene (2008)](#UustaluVene08), [POM13](#POM13), [GKOBU16](#GKOBU16), [KRU20](#KRU20)):
+
+* [[comonads]] encode *computational contexts* (*co-effects*),
+
+* their [[coproduct]] operation is the *duplication* (*co-join*) of contexts  which serves to *extend* (*co-bind*) contexts over consecutive programs,
+
+* [[comodules over comonads]] are data structures that *provide* (*co-handle*) such context.
+
+
+In more detail:
+
+
+* Above we had that:
 
   * A [[Kleisli map]] for a [[monad]] $\mathcal{E}$ is a program 
 
@@ -512,7 +535,7 @@ By [[formal duality]]:
   
     for *handling* such $\mathcal{E}$-effects.
 
-* Dually:
+* Now dually:
 
   * A [[co-Kleisli map]] for a [[comonad]] $\mathcal{C}$ is a program 
 
@@ -534,10 +557,7 @@ By [[formal duality]]:
 
      (cf. &lbrack;[Uustalu (2021), Lect. 3, slide 9](#Uustalu21Lecture3)&rbrack;)
 
-      
-
-
-(...)
+     
 
 
 ## Examples
@@ -685,6 +705,9 @@ The dual notion of [[comonads in computer science]] as modelling *contexts*:
 
 * {#POM13} Tomas Petricek, [[Dominic Orchard]], Alan Mycroft, *Coeffects: Unified Static Analysis of Context-Dependence*, in: *Automata, Languages, and Programming. ICALP 2013*, Lecture Notes in Computer Science **7966** Springer (2013) &lbrack;[doi:10.1007/978-3-642-39212-2_35](https://doi.org/10.1007/978-3-642-39212-2_35)&rbrack;
 
+* {#Overton14} David Overton, *Comonads in Haskell* (2014) &lbrack;[web](https://speakerdeck.com/dmoverton/comonads-in-haskell), [[Overton-ComonadsHaskell.pdf:file]]&rbrack;
+
+  > (in [[Haskell]])
    
 
 and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalities]]:
@@ -759,10 +782,7 @@ and with [[arrows (in computer science)]] is in
 * Exequiel Rivas, _Relating Idioms, Arrows and Monads from Monoidal Adjunctions_, ([arXiv:1807.04084](https://arxiv.org/abs/1807.04084))
 
 
-Discussion of [[comonads]] in this context includes
 
-
-* {#Overton14} David Overton, _Comonads in Haskell_, 2014 ([web](https://speakerdeck.com/dmoverton/comonads-in-haskell))
 
 ### In quantum computation
 
