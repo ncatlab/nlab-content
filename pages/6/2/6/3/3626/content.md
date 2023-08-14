@@ -99,9 +99,14 @@ where $S_{A,A} : A \otimes A \to A \otimes A$ is the symmetry, and $\epsilon\mu$
 
 A theorem of [Eilenberg & Nakayama (1955)](#Eilenberg1955) says that in the category [[Vect]] of [[vector spaces]] over a [[field]] $k$, an algebra $A$ can be equipped with the structure of a symmetric Frobenius algebra if (but not only if) it is **[[separable algebra|separable]]**, meaning that for any field $K$ [[field extension|extending]] $k$, $A \otimes_k K$ is a [[semisimple algebra|semisimple]] algebra over $K$.   
 
-### Special Frobenius algebras ###
+### Special Frobenius algebras
 
-If $\mu \circ \delta = 1$, a Frobenius algebra is said to be **special**.   In the category of vector spaces, any element $a$ of an associative unital algebra gives a left multiplication map 
+\begin{definition}
+\label{SpecialFrobeniusAlgebras}
+If $\mu \circ \delta = 1$, a Frobenius algebra is said to be **special**.   
+\end{definition}
+
+In the category of vector spaces, any element $a$ of an associative unital algebra gives a left multiplication map 
 $$ \array{ 
 L_a : &A &\to& A \\
       &b &\mapsto& a b 
@@ -354,9 +359,142 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 
 [[special_law.jpg:pic]]
 
+
+
+
 ### Classification of 2d TQFT
+ {#RelationTo2DTQFT}
 
 [[!include 2d TQFT -- table]]
+
+
+
+### Normal form and "Spider theorem"
+ {#NormalFormAndSpiderTheorem}
+
+\begin{proposition}
+**(normal form for 2d cobordisms)**
+\linebreak
+Every *[[connected topological space|connected]]* [[cobordism]] with
+
+* $n_{in}$ ingoing boundary components
+
+* $n_{out}$ outgoing boundary components
+
+* [[genus of a surface|genus]]$\;$ $g$
+
+is equivalent ([[diffeomorphism|diffeomorphic]]) to the [[composition]] of 
+
+* $n_{in}-1$ [[trinions]] regarded as $S^1 \times S^1 \to S^1$
+
+* $g$ 2-punctured [[tori]] $S^1 \to S^1$
+
+* $n_{out}-1$ [[trinions]] regared as $S^1 \to S^1 \times S^1$,
+
+as shown in the following example (graphics from [Kock 2004, p. 64](#Kock2004)) for 
+
+* $n_{in} = 5$
+
+* $g = 4$
+
+* $n_{out} = 4$
+
+<center>
+<img src="/nlab/files/2dCObordismNormalForm.jpg" width="600">
+</center>
+
+\end{proposition}
+This fact probably ought to be regarded as classical; an explicit account is given in [Kock 2004, §3.1.2](#Kock2004).
+
+By the [relation](#RelationTo2DTQFT) between 2d cobordism and Frobenius algebras this means equivalently that:
+
+\begin{corollary}\label{NormalFormForFrobeniusMaps}
+**(normal form for Frobenius maps)**
+\linebreak
+Given a Frobenius algebra
+
+$$
+  \big(
+    A 
+    ,\,
+    unit
+    ,\,
+    counit
+    ,\,
+    prod
+    ,\,
+    coprod
+  \big)
+$$
+
+then every linear map of the form
+
+$$
+  A^{\otimes^{n_{in}}}
+  \longrightarrow
+  A^{\otimes^{n_{out}}}
+$$
+
+which is 
+
+1. entirely the composite of the algebra's structure maps, ie. of the (co)unit and the (co)product, 
+
+1. *connected*, in that it does not decompose as a tensor product of such morphisms,
+
+is equal to the composite of
+
+* $n_{in}-1$ copies of $prod$
+
+* some number ($g$) of copies of $prod \circ coprod$
+
+* $n_{out}-1$ copies of $coprod$.
+  
+\end{corollary}
+
+\begin{corollary}\label{SpiderTheorem}
+**(Spider theorem)**
+\linebreak
+If the Frobenius algebra in Cor. \ref{NormalFormForFrobeniusMaps} is special (Def. \ref{SpecialFrobeniusAlgebras}) then every linear map
+of the form
+$$
+  A^{\otimes^{n_{in}}}
+  \longrightarrow
+  A^{\otimes^{n_{out}}}
+$$
+
+which is 
+
+1. entirely the composite of the algebra's structure maps, ie. of the (co)unit and the (co)product, 
+
+1. *connected* in that it does not decompose as a tensor product of such morphisms,
+
+is equal to the composite of
+
+* $n_{in}-1$ copies of $prod$
+
+* $n_{out}-1$ copies of $coprod$.
+
+\end{corollary}
+
+
+
+\begin{imagefromfile}
+    "file_name": "FrobNormalFormAsSpiderRule.jpg",
+    "float": "right",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Cocke & Duncan 2011](quantum+information+theory+via+dagger-compact+categories#CoeckeDuncan11)"
+\end{imagefromfile}
+
+The "spider theorem" (Cor. \ref{SpiderTheorem}) is called this way in [Coecke & Duncan 2008, Thm. 1](quantum+information+theory+via+dagger-compact+categories#CoeckeDuncan08) (it appears unnamed also in [Coecke & Paquette 2008, p. 6](quantum+information+theory+via+dagger-compact+categories#CoeckePaquette08)) and shares its name with the corresponding "spider diagrams" used in the [[ZX-calculus]] for [[quantum computation]] (where the Frobenius algebras that appear are those that realize the [[quantum reader monad]] as a [[Frobenius monad|Frobenius]] [[writer monad]]/[[cowriter comonad]]).
+
+
 
 ### Frobenius algebras in polycategories
 
