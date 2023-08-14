@@ -276,7 +276,11 @@ The original proposal on quantum logic:
 
 * {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
 
-Proposal for an enhancement of these axioms by [[probability measures]]:
+Historical account of [[John von Neumann]]'s further reasoning on quantum logic, which led him to develop the theory of [[von Neumann algebra factors]]:
+
+* [[Miklos Rédei]], *Why John von Neumann did not Like the Hilbert Space formalism of quantum mechanics (and what he liked instead)*, Studies in History and Philosophy of Modern Physics **27** 4 (1996) 493-510 &lbrack;<a href="https://doi.org/10.1016/S1355-2198(96)00017-2">doi:10.1016/S1355-2198(96)00017-2</a>&rbrack;
+
+Proposal for an enhancement of the Birkhoff-von Neumann axioms by [[probability measures]]:
 
 * [[George Mackey]], Section 2-2 of: *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
