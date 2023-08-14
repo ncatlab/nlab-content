@@ -20,7 +20,7 @@ On the [[categorical semantics]] of [[dependent type theory]] with [[function ty
 
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], *Revisiting the categorical interpretation of dependent type theory*, Theoretical Computer Science **546** 21 (2014) 99-119 &lbrack;[doi:10.1016/j.tcs.2014.03.003](https://doi.org/10.1016/j.tcs.2014.03.003), [[CurienGarnerHofmann.pdf:file]]&rbrack;
 
-On [[subtypes]] (with an early discussion of what came to be called *[[lenses (in computer science)]]*):
+On [[subtypes]] (with an early discussion of what came to be called *[[lenses (in computer science)]]*, motivated by [[object-oriented programming]]):
 
 * {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
 
