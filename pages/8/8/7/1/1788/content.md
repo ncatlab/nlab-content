@@ -1,32 +1,83 @@
 
-[[Benabou-MonadDefinition.jpg:file]]
+\begin{proposition}
+**(normal form for 2d cobordisms)**
+\linebreak
+Every *[[connected topological space|connected]]* [[cobordism]] with
+
+* $n_{in}$ ingoing boundary components
+
+* $n_{ouy}$ outgoing boundary components
+
+* [[genus of a surfce|genus]] $g$
+
+is equivalent ([[diffeomorphism|diffeomorphic]]) to the [[composition]] of 
+
+* $n_{in}-1$ [[trinions]] regarded as $S^1 \times S^1 \to S^1$
+
+* $g$ 2-punctured [[tori]] $S^1 \to S^1$
+
+* $n_{out}-1$ [[trinions]] regared as $S^1 \to S^1 \times S^1$
+
+as shown in the following example for 
+
+* $n_{in} = 5$
+
+* $g = 4$
+
+* $n_{out}$
+
+<center>
+<img src="/nlab/files/2dCObordismNormalForm.jpg" width="600">
+</center>
+
+> (graphics from [Kock 2004, p. 64](#Kock2004))
+
+\end{proposition}
+This fact probably ought to be regarded as classical; an explicit account is given in [Kock 2004, §3.1.2](#Kock2004).
+
+By the [relation](#RelationTo2DTQFT) between 2d cobordism and Frobenius algebras this means equivalently that:
 
 
-\begin{imagefromfile}
-    "file_name": "Benabou-MonadDefinition.jpg",
-    "float": "right",
-    "width": 650,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    },
-    "caption": "(from [Bénabou 1967, p. 39](##Bénabou67))"
-\end{imagefromfile}
 
+\begin{corollary}\label{NormalFormForFrobeniusMaps}
+**(normal form for Frobenius maps)**
+\linebreak
+Given a Frobenius algebra
 
-[[Barr-HistoryOfMonadTerminology.txt:file]]
+$$
+  \big(
+    A 
+    ,\,
+    unit
+    ,\,
+    counit
+    ,\,
+    prod
+    ,\,
+    coprod
+  \big)
+$$
 
-[[Street-HistoryOfMonadTerminology.txt:file]]
+then every linear map of the form
 
-[txt](/nlab/files/Street-HistoryOfMonadTerminology.txt)
+$$
+  A^{\otimes^{n_{in}}}
+  \longrightarrow
+  A^{\otimes^{n_{out}}}
+$$
 
-The reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad* seems to be lost to history. The closest contemporary account that seems to exist, [Barr 2009](#Barr09), only recalls the following event, on the backdrop of a widely felt dissatisfaction with the earlier terminology "standard construction" and "triple":
+which is 
 
-> In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Benabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me.  (Yes, I did.)  So Jean proposed it to the general audience and there was general agreement.
+1. entirely the composite of the algebra's structure maps, ie. of the (co)unit and the (co)product, 
 
-On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)) [[Leibniz]]'s old [terminology of "monads"](https://en.wikipedia.org/wiki/Monadology) had, a few years earlier, been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
+1. *connected* in that it does not decompose as a tensor product of such morphisms,
 
-Now it so happens --- in the [[topos theory|topos theoretic]] formulation of [[infinitesimals]] via [[differential cohesion]] --- that the construction of [[infinitesimal neighbourhoods]] *is* (see [here](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles)) a monad in the sense of [[category theory]]! -- namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]] ([Khavkine & Schreiber 2017, p. 23](infinitesimal+disk+bundle#KhavkineSchreiber17)).
+is equal to the composite of
+
+* $n_{in}-1$ copies of $prod$
+
+* some number ($g$) of copies of $prod \circ coprod$
+
+* $n_{out}$ copies of $coprod$ 
+  
+\end{corollary}
