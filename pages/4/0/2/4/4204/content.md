@@ -333,7 +333,9 @@ and this is also $k$-connected.
 
 The [[folklore]] result that global closed 2d TQFTs with coefficients in [[Vect]] are equivalent to commutative [[Frobenius algebra]] structures is proven rigorously in 
 
-* {#Abrams96} [[Lowell Abrams]], _Two-dimensional topological quantum eld theories and Frobenius algebras_, J. Knot Theory Ramications 5 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
+* {#Abrams96} [[Lowell Abrams]], *Two-dimensional topological quantum field theories and Frobenius algebra*, Jour. Knot. Theory and its Ramifications **5**, 569-587 (1996) &lbrack;[doi:10.1142/S0218216596000333](https://doi.org/10.1142/S0218216596000333), [ps](http://home.gwu.edu/~labrams/docs/tqft.ps)&rbrack;
+
+
 
 The classification result for open-closed 2d TQFTs was famously announced and sketched in 
 
