@@ -20,7 +20,7 @@ The category of $(\mathbf C, \mathbf D)$-mixed optics $\mathrm{Optic}_{\bullet, 
 $$
   \mathrm{Optic}_{\bullet, \ast}(\mathbf C, \mathbf D)((S,T),(A,B)) = \int^{M : \mathbf M} \mathbf C(S, M \bullet A) \times \mathbf D(M \ast B, T)
 $$
-Optics are morphisms in this category. See ([Riley](#Riley)) for the composition rule.
+Optics are morphisms in this category. See [Riley 2018](#Riley18) for the composition rule.
 \end{definition}
 
 \begin{remark}
@@ -56,7 +56,9 @@ A similar, but more detailed account, is in:
 
 Articles:
 
-* {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
+* {#Riley18} [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738)m video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
+
+
 
 * {#CEGLMPR20} [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, [[Mario Román]], _Profunctor optics, a categorical update_, 2020, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
@@ -64,4 +66,7 @@ Articles:
 * {#Roman} [[Mario Román]], _Open Diagrams via Coend Calculus_, ([arXiv:2004.04526](https://arxiv.org/abs/2004.04526))
 
 [[!redirects optics (in computer science)]]
+
+
+
 
