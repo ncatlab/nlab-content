@@ -373,7 +373,7 @@ $$F(X) \stackrel{F(p)}{\to} F U(A) \stackrel{\varepsilon_A}{\to} A$$
 
 For instance section 4.3 of
 
-* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf))
 
 
 
