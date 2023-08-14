@@ -4,7 +4,7 @@
 ## Selected writings
 
 
-On [[subtypes]] (with an early discussion of what came to be called *[[lenses (in computer science)]]*):
+On [[subtypes]] (with an early discussion of what came to be called *[[lenses (in computer science)]]* motivated by [[object-oriented programming]]):
 
 * {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
 
