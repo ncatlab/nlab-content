@@ -40,6 +40,9 @@ See at _[[Poincaré duality]]_ for more.
 
 ## References
 
+* [[James Munkres]], *Duality in Manifolds*, Chapter 8 in: *Elements of Algebraic Topology*, Addison-Wesley (1984) &lbrack;[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)&rbrack;
+
+
 In the general concext of [[spectral geometry]] ([[spectral triples]]):
 
 * {#Connes95} [[Alain Connes]], page 10 of _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
