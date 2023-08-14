@@ -79,7 +79,7 @@ Formalization of [[quantum measurement]] via [[Frobenius algebra]]-[[structures]
 
 * [[Bob Coecke]], [[Duško Pavlović]], [[Jamie Vicary]],  *A new description of orthogonal bases*, Mathematical Structures in Computer Science **23** 3 (2012) 555- 567 $[$[arXiv:0810.0812](https://arxiv.org/abs/0810.0812), [doi:10.1017/S0960129512000047](https://doi.org/10.1017/S0960129512000047)$]$
 
-and the evolution of the "[[classical structures]]"-monad into the "spider"-ingredient (originating in [Coecke & Paquette 2008, p. 6](#CoeckePaquette08)) of the [[ZX-calculus]]:
+and the evolution of the "[[classical structures]]"-monad into the "spider"-diagrams (terminology for [special Frobenius normal form](Frobenius+algebra#NormalFormAndSpiderTheorem), originating in [Coecke & Paquette 2008, p. 6](#CoeckePaquette08), [Coecke & Duncan 2008, Thm. 1](#CoeckeDuncan08)) of the [[ZX-calculus]]:
 
 * {#CoeckeDuncan08} [[Bob Coecke]], [[Ross Duncan]], §3 in: *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) $[$[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)$]$
 
