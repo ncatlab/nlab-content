@@ -44,9 +44,15 @@ See also:
 
 [[!redirects strings (computer science)]]
 
+[[!redirects string (in computer science)]]
+[[!redirects strings (in computer science)]]
+
 [[!redirects string in computer science]]
 [[!redirects strings in computer science]]
 
 
 [[!redirects String (computer science)]]
 [[!redirects Strings (computer science)]]
+
+
+
