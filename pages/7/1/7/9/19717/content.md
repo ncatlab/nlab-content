@@ -142,7 +142,11 @@ and it is called *very well-behaved* or *lawful* if in addition it satisfies:
 
 \end{definition}
 
-([Hofmann & Pierce 1996, p. 12](#HofmannPierce96); [Bohannon, Pierce & Vaughan 2006, Def. 3.2](#BohannonPierceVaughan06), cf. eg. [Johnson, Rosebrugh & Wood 2010, Def. 8](#JohnsonRosebrughWood10))
+Definition \ref{Lens} appears, under no particular name, in [Hofmann & Pierce 1996, p. 12](#HofmannPierce96), where it is thought of as providing aspects of [[object-oriented programming]]: Here one thinks of $S$ as a "class" which inherts functionality from the class $V$. And indeed, for lawful lenses it follows (see [below](#PossibilityMonadicity)) that $S \simeq D \times V$ is a "record" which inherits all fields present in $V$ but may add some more).
+
+The terminology "lens" for Def. \ref{Lens}
+is due to [Bohannon, Pierce & Vaughan 2006, Def. 3.2](#BohannonPierceVaughan06). 
+
 
 
 ## The category of lenses
@@ -342,6 +346,8 @@ The definition of what are now called (lawful) lenses is already in
 
 * {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], p. 12 in: *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
 
+  > (motivated by [[object-oriented programming]])
+
 but gained wider attention only with:
 
 * {#BohannonPierceVaughan06} Aaron Bohannon, [[Benjamin C. Pierce]], Jeffrey A. Vaughan, *Relational lenses: a language for updatable views*, Proceedings of Principles of Database Systems (PODS) (2006) 338-347 &lbrack;[doi:10.1145/1142351.1142399](https://doi.org/10.1145/1142351.1142399), [pdf](https://www.cis.upenn.edu/~bcpierce/papers/dblenses-pods.pdf)&rbrack;
@@ -358,7 +364,7 @@ Further discussion:
 
 * {#AhmanUustalu17} Danel Ahman, [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
 
-* {#Riley} [[Mitchell Riley]], _Categories of optics_, preprint, 2018 ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
+* {#Riley} [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738)m video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
 
 * {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_ ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
 
