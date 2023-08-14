@@ -70,7 +70,7 @@ and then its
 ### Traditional formulation
  {#TraditionalFormulation}
 
-Around 1895 [[Henri Poincaré]] made an observation about [[Betti numbers]] of [[closed manifolds]], which in the 1930s was then formulated by [[Eduard ?ech]] and [[Hassler Whitney]] in the following modern form:
+Around 1895 [[Henri Poincaré]] made an observation about [[Betti numbers]] of [[closed manifolds]], which in the 1930s was then formulated by [[Eduard Čech]] and [[Hassler Whitney]] in the following modern form:
 
 +-- {: .num_theorem #TraditionalPoincareDuality}
 ###### Theorem
