@@ -170,3 +170,7 @@ Here, $\psi$ is the norm, viewed as a [[convex function]] of multiple arguments.
 [[!redirects l^? direct sums]]
 [[!redirects l_? direct sum]]
 [[!redirects l_? direct sums]]
+
+[[!redirects direct integral]]
+[[!redirects direct integrals]]
+
