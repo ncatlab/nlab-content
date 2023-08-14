@@ -167,6 +167,14 @@ The [[propositions as some types]] interprets [[disjunction]] and [[existential 
 
 The [[propositions as types]] interprets [[disjunction]] and [[existential quantification]] directly as the [[sum type]] and [[dependent sum type]] respectively, and the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts. (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.) The equivalent form of the axiom of choice involving cartesian products of inhabited types then becomes in type theory the statement that "any [[dependent product]] of any [[family]] of [[pointed types]] is [[pointed]]". and is just the [[identity function]] on the dependent product type. Since both statements is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.
 
+### In spatial type theory
+
+In [[spatial type theory]], which is [[dependent type theory]] with the [[sharp modality]] and the [[flat modality]], there exists a version of the axiom of choice called the **sharp axiom of choice**, which is given by the following [[inference rule]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{ac}^{\sharp}_{A, B}:\left(\prod_{x:A} \sharp [B(x)]\right) \to \sharp\forall x:A.\sharp B(x)}$$
+
+where $\sharp A$ is the sharp modality of type $A$, $[A]$ is the [[propositional truncation]] of $A$, and the [[universal quantifier]] $\forall x:A.B(x)$ is the propositional truncation of the [[dependent product type]] $\prod_{x:A} B(x)$. 
+
 ## Consequences
 
 * The axiom of choice implies the [[principle of excluded middle]] (due to Diaconesu 1975) see [McLarty, theorem 17.9](#McLarty), and see at _[excluded middle -- Relation to axiom of choice](excluded+middle#RelationToTheAxiomOfChoice)_
@@ -240,6 +248,12 @@ Discussion in [[homotopy type theory]]:
 
 * [[Egbert Rijke]], section 17.4 of *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
+### In spatial type theory
+
+For the sharp axiom of choice in spatial type theory, see:
+
+* [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
 category: foundational axiom
 
 [[!redirects axioms of choice]]
@@ -262,3 +276,5 @@ category: foundational axiom
 [[!redirects type theoretic axiom of choice]]
 [[!redirects external axiom of choice]]
 [[!redirects internal axiom of choice]]
+
+[[!redirects sharp axiom of choice]]
