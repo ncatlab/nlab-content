@@ -33,7 +33,7 @@ This fact itself is fairly evident (certainly in modern formulations of Maxwell'
 We point out [below](#RRFieldInGravitationalBackground) (see also [Freed (2002)](#Freed02)) that, while the explicit perspective of "pre-metric electromagnetism" is maybe not widely appreciated under this name, in fact exactly the same idea -- just with the [[electromagnetic field]] replaced by the (hypothetical) "[[RR-field]]" and then often called the "democratic" instead of "premetric" formulation --  is secretly at the heart of the the widely recognized [[conjecture]] of [[K-theory classification of D-brane charge]] as well as of related conjectures, such as *[[schreiber:Hypothesis H]]*.
 
 
-## Premetric electromagentism
+## Premetric electromagnetism
  {#Details}
 
 ### Electromagnetism in gravitational backgrounds
