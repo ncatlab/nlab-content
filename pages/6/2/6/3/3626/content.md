@@ -337,7 +337,7 @@ Lauda and Pfeiffer [Lauda (2008)](#Lauda2008) showed that the PROP for _symmetri
 
 [[symmetric_frobenius_algebra_law.jpg:pic]]
 
-The PROP for _commutative_ Frobenius algebras is [[2Cob]], as noted by many people and formally proved in ([Abrams (1996)](#Abrams1996)).  This means that any commutative Frobenius algebra gives a 2d [[TQFT]].  See [Kock (2006)](#Kock2006) for a history of this subject and [Kock (2004)](#Kock2004) for a detailed introduction.  In 2Cob, the circle is a Frobenius algebra.  The monoid laws look like this:
+The PROP for _commutative_ Frobenius algebras is [[2Cob]], as noted by many people and formally proved in [Abrams (1996)](#Abrams96).  This means that any commutative Frobenius algebra gives a 2d [[TQFT]].  See [Kock (2006)](#Kock2006) for a history of this subject and [Kock (2004)](#Kock2004) for a detailed introduction.  In 2Cob, the circle is a Frobenius algebra.  The monoid laws look like this:
 
 [[monoid_laws.jpg:pic]]
 
@@ -391,7 +391,21 @@ is equivalent ([[diffeomorphism|diffeomorphic]]) to the [[composition]] of
 
 * $n_{out}-1$ [[trinions]] regared as $S^1 \to S^1 \times S^1$,
 
-as shown in the following example (graphics from [Kock 2004, p. 64](#Kock2004)) for 
+\begin{imagefromfile}
+    "file_name": "Abrams-2dCobordismNormalForm.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 10, 
+        "left": 10
+    },
+    "caption": "(from [Abrams 1996, Fig. 3](#Abrams96))"
+\end{imagefromfile}
+
+
+as shown in the following example for 
 
 * $n_{in} = 5$
 
@@ -399,12 +413,22 @@ as shown in the following example (graphics from [Kock 2004, p. 64](#Kock2004)) 
 
 * $n_{out} = 4$
 
-<center>
-<img src="/nlab/files/2dCObordismNormalForm.jpg" width="600">
-</center>
+
+\begin{imagefromfile}
+    "file_name": "2dCObordismNormalForm.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 10, 
+        "left": 10
+    },
+    "caption": "(from [Kock 2004, p. 64](#Kock2004))"
+\end{imagefromfile}
 
 \end{proposition}
-This fact probably ought to be regarded as classical; an explicit account is given in [Kock 2004, §3.1.2](#Kock2004).
+This is discussed in [Abrams 1996, Prop. 12](#Abrams96); [Kock 2004, §1.4.16](#Kock2004).
 
 By the [relation](#RelationTo2DTQFT) between 2d cobordism and Frobenius algebras this means equivalently that:
 
@@ -550,7 +574,7 @@ See for instance
 
 On the role of Frobenius algebras in [[2d TQFT]]:
 
-* {#Abrams1996} [[Lowell Abrams]] , _Two-dimensional topological quantum field theories and Frobenius algebra_, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
+* {#Abrams96} [[Lowell Abrams]], *Two-dimensional topological quantum field theories and Frobenius algebra*, Jour. Knot. Theory and its Ramifications **5**, 569-587 (1996) &lbrack;[doi:10.1142/S0218216596000333](https://doi.org/10.1142/S0218216596000333), [ps](http://home.gwu.edu/~labrams/docs/tqft.ps)&rbrack;
 
 * {#BaezTWF} [[John Baez]], This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html) and [week299](http://math.ucr.edu/home/baez/week299.html).
 
