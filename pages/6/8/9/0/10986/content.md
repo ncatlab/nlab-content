@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -93,9 +94,22 @@ and in general [[2-categories]]:
 
   > (motivated by [[2d TQFT]])
 
-Discussion of [[ambidextrous adjunctions]] between [[abelian categories]]:
+Discussion of [[ambidextrous adjunctions]] between [[abelian categories]] under the name *[[Frobenius morphisms]]*:
 
 * F. Castaño Iglesias, [[José Gómez Torrecillas]], C. Nastasescu, _Frobenius functors: applications_, Comm. Alg. __27__ 10  (1998) 4879-4900 &lbrack;[doi:10.1080/00927879908826735](https://doi.org/10.1080/00927879908826735)&rbrack;
+
+On Frobenius ([[cowriter comonad|co]])[[writer monads]] induced form [[Frobenius monoids]] with special attiotion to their [[strong monad|strength]] (following [Wolff 1973](action+monad#Wolff73)):
+
+* [[Martti Karvonen]], *Frobenius algebras in functor categories*, Oxford (2014) &lbrack;[pdf](https://www.cs.ox.ac.uk/people/aleks.kissinger/theses/bob/Karvonen.pdf), [[Karvonen-FrobeniusMonads.pdf:file]]&rbrack;
+
+and analogous discussion in [[dagger-categories]]:
+
+* [[Chris Heunen]], [[Martti Karvonen]], *Monads on dagger categories*, Theory and Applications of Categories **31** 35 (2016) 1016-1043 &lbrack;[arXiv:1602.04324](https://arxiv.org/abs/1602.04324), [tac:31-35](http://www.tac.mta.ca/tac/volumes/31/35/31-35abs.html)&rbrack;
+
+
+
+
+
 
 
 
