@@ -18,9 +18,11 @@ On [[adjoint logic]]:
 * [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
 
 
-On [[lenses (in computer science)]]:
+On [[optics (in computer science)]], such as [[lenses (in computer science)|lenses]]:
 
-* {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
+* [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738)m video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
+
+
 
 On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of dependent [[stable homotopy types]] (via a form of [[bunched logic]]) with [[categorical semantics]] in [[parametrized spectra]]:
 
