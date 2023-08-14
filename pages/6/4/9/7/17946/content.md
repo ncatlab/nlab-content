@@ -8,18 +8,27 @@ He got his Ph.D. degree in 1956 from the University of Michigan, advised by [[Ed
 
 On [[general topology|general]] [[topology]]:
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
 
 
 On [[differential topology]]:
 
 * [[James R. Munkres]], _Elementary Differential Topology_, Annals of Mathematics Studies 54 (1966), Princeton University Press ([doi:10.1515/9781400882656](http://dx.doi.org/10.1515/9781400882656)).
 
-## Related $n$Lab entries
+On [[algebraic topology]]:
+
+* [[James Munkres]], *Elements of Algebraic Topology*, Addison-Wesley (1984) &lbrack;[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)&rbrack;
+
+
+## Related entries
 
 * [[topology]]
+
+* [[Poincaré duality space]]
 
 category: people
 
 [[!redirects James R. Munkres]]
 [[!redirects James Raymond Munkres]]
+
+
