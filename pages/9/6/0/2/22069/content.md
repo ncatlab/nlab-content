@@ -118,7 +118,7 @@ $$
 
 * {#DwyerFarjounRavenel99} [[William G. Dwyer]], [[Emmanuel Dror Farjoun]], [[Douglas C. Ravenel]], pp. 1856 in: *Bousfield Localizations of Classifying Spaces of Nilpotent Groups*, Proceedings of the American Mathematical Society **127** 6 (1999) &lbrack;[jstor:119499](https://www.jstor.org/stable/119499)&rbrack;
 
-
+* {#Topospaces} Topospaces, *[Double mapping cylinder](https://topospaces.subwiki.org/wiki/Double_mapping_cylinder)*
 
 [[!redirects homotopy coequalizers]]
 
