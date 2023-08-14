@@ -159,8 +159,7 @@ $$
         "left": 10
     }
 \end{imagefromfile}
-
-
+(Something close to this statement, in its [[adjoint comonad|adjoint]] form for the quantum [[coreader comonad]] $\bigstar$, is the content of [Coecke & Pavlović 2008, Thm. 1.5](#CoeckePavlović08).)
 \begin{proof}
  We state first an abstract proof and then a concrete proof.
 
