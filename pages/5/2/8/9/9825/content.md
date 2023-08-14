@@ -191,7 +191,7 @@ in the [[quantum programming language]] [[QPL]]/[[Quipper]]:
 
 * [[Chris Heunen]], [[Martti Karvonen]], Exp. 6.5 in: *Monads on dagger categories*, Theory and Applications of Categories **31** 35 (2016) 1016-1043 &lbrack;[arXiv:1602.04324](https://arxiv.org/abs/1602.04324), [TAC:31-35](http://www.tac.mta.ca/tac/volumes/31/35/31-35abs.html)&rbrack;
 
-and the evolution of the "classical structures"-monad into the "spider"-ingredient (originating in [Coecke & Paquette 2008, p. 6](#CoeckePaquette08))
+and the evolution of the "classical structures"-monad into the "spider"-diagrams (terminology for [special Frobenius normal form](Frobenius+algebra#NormalFormAndSpiderTheorem), originating in [Coecke & Paquette 2008, p. 6](#CoeckePaquette08), [Coecke & Duncan 2008, Thm. 1](#CoeckeDuncan08))
 of the [[ZX-calculus]]:
 
 * {#CoeckeDuncan08} [[Bob Coecke]], [[Ross Duncan]], §3 in: *Interacting Quantum Observables*, in *Automata, Languages and Programming. ICALP 2008*, Lecture Notes in Computer Science **5126**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-70583-3_25](https://doi.org/10.1007/978-3-540-70583-3_25)&rbrack;
