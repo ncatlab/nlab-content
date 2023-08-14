@@ -416,7 +416,7 @@ On the role of Frobenius algebras in [[2d TQFT]]:
 
 * {#BaezTWF} [[John Baez]], This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html) and [week299](http://math.ucr.edu/home/baez/week299.html).
 
-* {#Kock2004} [[Joachim Kock]], *Frobenius Algebras and 2d Topological Quantum Field Theories*, Cambridge U. Press (2004) &lbrack;[doi:10.1017/CBO9780511615443](https://doi.org/10.1017/CBO9780511615443), [webpage](http://mat.uab.cat/~kock/TQFT.html), [course notes pdf](http://mat.uab.es/~kock/TQFT/FS.pdf), [[Kock-FrobAlgTQFT-short.pdf:file]]&rbrack;
+* {#Kock2004} [[Joachim Kock]], *Frobenius Algebras and 2d Topological Quantum Field Theories*, Cambridge U. Press (2004) &lbrack;[doi:10.1017/CBO9780511615443](https://www.cambridge.org/core/books/frobenius-algebras-and-2d-topological-quantum-field-theories/A6438118DFADFD27175779F1FC0FF7CB), [webpage](http://mat.uab.cat/~kock/TQFT.html), [course notes pdf](http://mat.uab.es/~kock/TQFT/FS.pdf), [[Kock-FrobAlgTQFT-short.pdf:file]]&rbrack;
 
 * {#Kock2006} [[Joachim Kock]], Remarks on the history of the Frobenius equation (2006) &lbrack;[web](http://mat.uab.es/~kock/TQFT.html#history)&rbrack;
 
@@ -424,7 +424,7 @@ On the role of Frobenius algebras in [[2d TQFT]]:
 
   > (relating to [[ambidextrous adjunctions]] and [[Frobenius monads]])
 
-* {#Lauda2008} [[Aaron Lauda]], [[Hendryk Pfeiffer]], Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155** (2005) 623-666. &lbrack;[arXiv:0510664](http://arxiv.org/abs/math/0510664)&rbrack;
+* {#Lauda2008} [[Aaron Lauda]], [[Hendryk Pfeiffer]], Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155** (2005) 623-666 &lbrack;[arXiv:0510664](http://arxiv.org/abs/math/0510664), [doi:10.1016/j.topol.2007.11.005](https://doi.org/10.1016/j.topol.2007.11.005)&rbrack;
 
 
 For applications in proof theory of classical and [[linear logic]] or linguistics:
