@@ -77,6 +77,8 @@ Textbooks:
 
   > (with focus on [[differential forms]], [[differential topology]])
 
+* [[James Munkres]], *Elements of Algebraic Topology*, Addison-Wesley (1984) $[$[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)$]$
+
 * [[Joseph J. Rotman]], *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)$]$ 
 
 * {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
