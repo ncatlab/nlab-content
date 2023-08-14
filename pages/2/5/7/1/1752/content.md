@@ -245,7 +245,7 @@ So
 ###### Theorem 
 
 The local injective model structure $SPr(C)_{loc inj}$ is [[Quillen equivalence|Quillen equivalent]] to the 
-"universal homtopy thepory" $U C/S$ constructed by
+"universal homotopy theory" $U C/S$ constructed by
 
 1. formally adding [[homotopy limit|homotopy colimits]] to the category $C$ to create the category $U C$.
 
