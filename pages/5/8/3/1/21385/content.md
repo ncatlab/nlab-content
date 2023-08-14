@@ -19,17 +19,17 @@ Object oriented [[programming language|programming languages]] are, roughly spea
 1. One defines for an object certain 'methods', which, given an object and optionally some further input, a programmer may call on that object, to obtain certain output. These methods typically use the 'stored' input. E.g. for our object of type 'mathematician', we may define a method 'worksInSameCountryAs' which takes as additional input some other university X, and which returns a [[boolean]] according to whether the stored university is in the same country as university X. (And to do this, university itself should be an object which has a method providing as output the country to which the university belongs, etc).
 1. The input (which may be mutable or immutable) stored inside the object is not typically exposed directly when a programmer uses the object, although one often provides a 'getter' method to return this stored variable at a given point in time (if it is mutable, it may have changed since the object was constructed). This is known as 'encapsulation'. One idea behind this is that the internals of an object can change without a programmer using an object needing to change their code accordingly.
 
-Often, an object oriented programming language admits a notion of blueprint for an object, i.e. a description of the input needed to construct one and possibly also of the methods which the programmer may call given one, as well as the definition of these methods: a language construct known for example as a 'class' or 'prototype'. An object is then simply an 'instance' of this class or 'extension' of this prototype, i.e. it is what one obtains by actually providing some input to the blueprint (class, prototype, ...). Often 'classes' or similar play the role of 'types' in a typed object oriented language.  
+Often, an object oriented programming language admits a notion of blueprint for an object, i.e. a description of the input needed to construct one and possibly also of the methods which the programmer may call given one, as well as the definition of these methods: a language construct known for example as a 'class' or 'prototype'. An object is then simply an 'instance' of this class or 'extension' of this prototype, i.e. it is what one obtains by actually providing some input to the blueprint (class, prototype, ...). Often 'classes' or similar play the role of '[[types]]' in a typed object oriented language.  
 
 One may also often 'extend' objects and their blueprints to make them more specific, adding methods which rely on this greater specificity. This is known as 'inheritance'. In the case that an object blueprint is a prototype, inheritance can even be viewed as involved in _construction_ of an object. It is, however, a tricky implementation problem to have an object extend (inherit from) more than one blueprint, and many languages (e.g. Java) forbid this.
 
 Often object oriented languages have further levels of abstraction, e.g. the notion of an 'interface' or, in a slightly different way, of an 'abstract class' in Java. These typically can be thought as blueprints for classes, or of blueprints of objects which do not provide the details of how methods are defined, describing only the type of the input to the method and the type of the output. One says that a class 'implements' an interface. This is entirely distinct from 'inheritance'. When the language has them, interfaces can also be used as types in the language, although classes are often still types too: it is usually good programming practise to 'code to an interface', e.g. use as interface as the output type of a method, rather than use a class which implements the interface, as this provides greater flexibility. 
 
-For a discussion of how object oriented programming languages may be able to be thought of type theoretically, see the section 'Examples' below.
+For a discussion of how object oriented programming languages may be able to be thought of via [[type theory]], see the *[Examples](#Examples)* below.
 
 Proponents of object oriented programming often argue that code in this style is more 'readable' and more 'flexible' than code in other styles, though often also more verbose. These points are, naturally, fiercely contended. 
 
-As touched upon above, there exist various different approaches to object oriented programming, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language)) or JavaScript, and the 'everything is an object'-approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). 
+As touched upon above, there exist various different approaches to object-oriented programming, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language)) or JavaScript, and the 'everything is an object'-approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). 
 
 \section{Relation to category theory}
 
@@ -38,8 +38,9 @@ Henry Story has [noted](https://www.quora.com/Why-is-functional-programming-seen
 Although, in the context of [[computer science]], [[category theory]] is perhaps most often associated with [[functional programming]], there has been work on analysing object-oriented programming from a category-theoretic viewpoint, e.g. in the work of [[Bart Jacobs]] (e.g [Jacobs 2003](#Jacobs2003)).
 
 \section{Examples}
+ {#Examples}
 
-Let us give here an implementation of a 'natural number' in a couple of object oriented programming languages. First, in Java, we can define a class as follows.
+Let us give here an implementation of *[[natural numbers]]* in a couple of object oriented programming languages. First, in Java, we can define a class as follows.
 
     public final class NaturalNumber {
         private final NaturalNumber successorOf;
@@ -75,7 +76,7 @@ Let us give here an implementation of a 'natural number' in a couple of object o
         }    
     }
 
-There are number of aspects to this which illustrate aspects of object oriented programming in languages such as Java. Firstly, if we try to see past the code itself and understand what is being expressed in terms of [[type theory]], we can observe the following.
+There are a number of aspects to this which illustrate aspects of object oriented programming in languages such as Java. Firstly, if we try to see past the code itself and understand what is being expressed in terms of [[type theory]], we can observe the following.
 
 1. A class corresponds roughly to a [[type]]. In other words, the class 'NaturalNumber' here corresponds roughly to a [[natural numbers type]]. 
 1. An object of this class corresponds roughly to a [[term]] of this type. In other words, a 'NaturalNumber' object corresponds roughly to a term of a natural numbers type, i.e. to a natural number.
@@ -156,6 +157,8 @@ The complementarity between user-defined types and objects was observed already 
 
 \section{Related concepts}
 
+* [[lens(in computer science)]]
+
 * [[functional programming]]
 
 * [[imperative programming]]
@@ -181,6 +184,12 @@ The complementarity between user-defined types and objects was observed already 
 * {#Story2018} Henry Story, _[Why is functional programming seen as the opposite of OOP rather than an addition to it?](https://www.quora.com/Why-is-functional-programming-seen-as-the-opposite-of-OOP-rather-than-an-addition-to-it/answer/Henry-Story)_, 2018
 
 * [[Anton Setzer]], _Object-oriented programming in dependent type theory_, in Henrik Nilsson (Ed.): Trends in Functional Programming. Volume 7, Series Trends in Functional Programming, Intellect, Intellect, Bristol and Chicago, 2007, pp. 91 -- 108. ISBN 978-184150-188-8, ([pdf](http://www.cs.swan.ac.uk/~csetzer/articles/objectOrientedProgrammingInDepTypeTheoryTfp2006PostProceedings.pdf))
+
+Early discussion of [[lenses in computer science]] (before that term was coined) as  formalizing aspects of object-oriented programming:
+
+* {#HofmannPierce96} [[Martin Hofmann]], [[Benjamin Pierce]], pp. 11-12 in: *Positive Subtyping*, Information and Computation **126** 1 (1996) 11-33 &lbrack;[doi:10.1006/inco.1996.0031](https://doi.org/10.1006/inco.1996.0031)&rbrack;
+
+
 
 [[!redirects object-oriented program]]
 [[!redirects object-oriented programs]]
