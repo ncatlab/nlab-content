@@ -60,10 +60,15 @@ $$x:A, y:A \vdash \delta(x, y):\mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_A(x, y)) \si
 
 Either way, this is typically how the [[natural numbers type]] is proven to have decidable equality, by defining a binary function into the boolean domain called [[observational equality]] and using the extensionality principle of the natural numbers. 
 
+### Properties
+
+Every set with decidable equality is [[locally finite type|locally finite]]. 
+
 ## Related concepts
 
 * [[decidability]]
 * [[stable equality]]
+* [[locally finite type]]
 
 ## References
 
