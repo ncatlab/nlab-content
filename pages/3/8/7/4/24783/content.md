@@ -44,7 +44,7 @@ The various fundamental quantum physics phenomena at play here may be identified
 
 Explicitly, in the language[^1] of [modal quantum logic](necessity+and+possibility#ModalQuantumLogic) on [[dependent linear types]] (see at *[[quantum circuits via dependent linear types]]*), the conditional preparation of a [[qbit]]-state reads as follows:
 
-[^1]: We follow *[[schreiber:Topological Quantum Programming in Linear Homotopy Type Theory]]*.
+[^1]: The above text follows *[[schreiber:Quantum Certification via Linear Homotopy Types]]*.
 
 \begin{imagefromfile}
     "file_name": "QCwthLHT-QBitStatePreparationCondt-221021.jpg",
