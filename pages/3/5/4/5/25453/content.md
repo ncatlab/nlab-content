@@ -56,7 +56,11 @@ Accordingly, the [[categorical semantics]] [[categorical semantics of dependent 
 
   [[substitution rule]]
 
+  [[exchange rule]]
+
 ## References
+
+* {#Jacobs98} [[Bart Jacobs]], p. 121 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
 * {#UFP13} [[Univalent Foundations Project]], p. 422 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
@@ -71,4 +75,5 @@ Accordingly, the [[categorical semantics]] [[categorical semantics of dependent 
 
 
 
+[[!redirects identity rule]]
 
