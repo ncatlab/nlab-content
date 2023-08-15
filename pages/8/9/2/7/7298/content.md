@@ -35,7 +35,8 @@ An infinitesimal neighbourhood is a "[[neighbourhood]] with [[infinitesimal]] di
 ### In nonstandard analysis
  {#InNonstandardAnalysis}
 
-In [[nonstandard analysis]], the __[[monad (disambiguation)|monad]]__ ([Robinson 1966, p. 57](#Robinson66) following [[Leibniz]], see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
+In [[nonstandard analysis]], the _*[[monad (disambiguation)|monad]]_  of a standard point $p$ 
+([Robinson 1966, p. 57](#Robinson66) following [[Leibniz]], see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoints]] infinitely close to $p$. It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the _infinitesimal neighbourhood_ of $p$.
 
 
 ### In differential cohesion
