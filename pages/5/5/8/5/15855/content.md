@@ -15,12 +15,22 @@ Affine Grassmannian of $SL_n$ admits embedding into [[Sato Grassmanian]].
 
 ## Definitions
 
+### The $\GL_{n}$ case
+
 \begin{definition}(Definition 1.1.1 of [#Zhu2016](#Zhu2016))
 Let $k$ be a field and let $R$ be a $k$-algebra. An _$R$-family of lattices in $k((t))^{n}$_ is a finitely generated projective submodule $\Lambda$ of $R((t))^{n}$ such that $\Lambda \otimes_{R[[t]]}R((t))=R((t))^{n}$. 
 \end{definition}
 
 \begin{definition}(Definition 1.1.2 of [#Zhu2016](#Zhu2016))
 The _affine Grassmannian $\Gr_{\GL_{n}}$ for $\GL_{n}$_ is the presheaf that assigns to every $k$-algebra $R$ the set of $R$-families of lattices in $k((t))^{n}$.
+\end{definition}
+
+### The general case
+
+\begin{definition}(Section 1.2 of [#Zhu2016](#Zhu2016))
+Let $k$ be a field and let $G$ be an affine $k$-group. If $R$ is a $k$-algebra, let $D_{R}=\Spec k[[t]]\widehat{\times}\Spec R$ and let $D^{*}_{R}=\Spec k((t))\widehat{\times} \Spec R$. Let $\mathcal{E}^{0}$ be the trivial $G$-torsor over $D_{R}$.
+
+The _affine Grassmannian $\Gr_{G}$ of $G$_ is the presheaf that assigns to every $k$-algebra $R$ the set of pairs $(\mathcal{E},\beta)$, where $\mathcal{E}$ is a $G$-torsor on $D_{R}$ and $\beta:\mathcal{E}\vert_{D^{*}_{R}}\xrightarrow{\simeq}\mathcal{E}^{0}\vert_{D^{*}_{R}}$ is a trivialization.
 \end{definition}
 
 ## Related
