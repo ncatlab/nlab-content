@@ -248,6 +248,18 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 [[!include substitution natural deduction - table]]
 
+* [[structural rules]]
+
+  * [[contraction rule]]
+
+  * [[weakening rule]]
+
+  * [[exchange rule]]
+
+  * [[variable rule]]
+
+  * [[substitution rule]]
+
 * [[explicit substitution]]
 
 * [[context extension]]
@@ -263,7 +275,7 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 Discussion of the substitution rule in [[intuitionistic type theory|intuitionistic]] [[dependent type theory]]:
 
-* {#Jacobs98} [[Bart Jacobs]], p. 122 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+* {#Jacobs98} [[Bart Jacobs]], p. 123 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
   > (emphasis on the [[categorical model of dependent types]])
 
