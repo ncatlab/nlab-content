@@ -105,12 +105,15 @@ More on quantum circuit compilation:
 
 * Robert Wille; Stefan Hillmich; Lukas Burgholzer, *Efficient and Correct Compilation of Quantum Circuits*, in *2020 IEEE International Symposium on Circuits and Systems (ISCAS)* IEEE Explore (2020) &lbrack;[doi:10.1109/ISCAS45731.2020.9180791](https://doi.org/10.1109/ISCAS45731.2020.9180791)&rbrack;
 
-* Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, *Quantum Compiling*, in *Quantum Computing Environments*, Springer (2021) &lbrack;[arXiv:2112.00187](https://arxiv.org/abs/2112.00187), [doi:10.1007/978-3-030-89746-8_2](https://doi.org/10.1007/978-3-030-89746-8_2)&rbrack;
-
 * Nathanial Stemen, *Quantum Circuit Compilation from the Ground Up* (2022) &lbrack;[pdf](https://uwaterloo.ca/applied-mathematics/sites/ca.applied-mathematics/files/uploads/files/quantum_circuit_compilation_from_the_ground_up.pdf)&rbrack;
 
 * Giulia Meuli, Fereshte Mozafari, Bruno Schmitt, Heinz Riener, Mathias Soeken, Giovanni De Micheli: *[Quantum Compilation](https://si2.epfl.ch/~demichel/research/quantum.html)*
  
+A textbook account:
+
+* Marco Maronese, Lorenzo Moro, Lorenzo Rocutto, Enrico Prati, *Quantum Compiling*, in *Quantum Computing Environments*, Springer (2021) 39-74 &lbrack;[arXiv:2112.00187](https://arxiv.org/abs/2112.00187), [doi:10.1007/978-3-030-89746-8_2](https://doi.org/10.1007/978-3-030-89746-8_2)&rbrack;
+
+     
 
 
 Quantum compilation with a [[proof assistant]] based on [[QWIRE]]:
