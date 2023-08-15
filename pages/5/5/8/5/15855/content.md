@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 According to [wikipedia](https://en.wikipedia.org/wiki/Affine_Grassmannian), 
