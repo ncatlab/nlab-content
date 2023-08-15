@@ -465,7 +465,7 @@ which is
 
 1. *connected*, in that it does not decompose as a tensor product of such morphisms,
 
-is equal to the composite of
+is equal to the composite, in this order, of
 
 * $n_{in}-1$ copies of $prod$
 
@@ -478,8 +478,7 @@ is equal to the composite of
 \begin{corollary}\label{SpiderTheorem}
 **(Spider theorem)**
 \linebreak
-If the Frobenius algebra in Cor. \ref{NormalFormForFrobeniusMaps} is special (Def. \ref{SpecialFrobeniusAlgebras}) then every linear map
-of the form
+If the Frobenius algebra in Cor. \ref{NormalFormForFrobeniusMaps} is special (in that $prod \circ coprod = id$, cf. Def. \ref{SpecialFrobeniusAlgebras}) then every linear map of the form
 $$
   A^{\otimes^{n_{in}}}
   \longrightarrow
@@ -492,7 +491,7 @@ which is
 
 1. *connected* in that it does not decompose as a tensor product of such morphisms,
 
-is equal to the composite of
+is equal to the composite, in this order, of
 
 * $n_{in}-1$ copies of $prod$
 
