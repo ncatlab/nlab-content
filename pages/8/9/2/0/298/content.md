@@ -175,15 +175,19 @@ Classification of strongly rational holomorphic vertex operator algebras of [[ce
 
 * [[Adrian Norbert Schellekens]], *Meromorphic $c = 24$ Conformal Field Theories*, Commun. Math. Phys. **153** (1993) 159-186 &lbrack;[doi:10.1007/BF02099044](https://doi.org/10.1007/BF02099044)&rbrack;
 
-* [[Chongying Dong]], [[Geoffrey Mason]], *Holomorphic Vertex Operator Algebras of Small Central Charges*, Pacific Journal of Mathematics **213** 2 (2004) 253–266 &lbrack;[arXiv:math/0203005](https://arxiv.org/abs/math/0203005), [doi:10.2140/pjm.2004.213.253](http://dx.doi.org/10.2140/pjm.2004.213.253)&rbrack;
+* [[Chongying Dong]], [[Geoffrey Mason]], *Holomorphic vertex operator algebras of small central charges*, Pacific Journal of Mathematics **213** 2 (2004) 253--266 &lbrack;[arXiv:math/0203005](https://arxiv.org/abs/math/0203005), [doi:10.2140/pjm.2004.213.253](http://dx.doi.org/10.2140/pjm.2004.213.253)&rbrack;
 
 * Philip Boyle Smith, Ying-Hsuan Lin, Yuji Tachikawa, Yunqin Zheng, *Classification of chiral fermionic CFTs of central charge $\leq 16$* &lbrack;[arXiv:2303.16917](https://arxiv.org/abs/2303.16917)&rbrack;
 
-* Brandon C. Rayhaun, *Bosonic Rational Conformal Field Theories in Small Genera, Chiral Fermionization, and Symmetry/Subalgebra Duality* &lbrack;[arXiv:2303.16921](https://arxiv.org/abs/2303.16921)&rbrack;
+* Brandon C. Rayhaun, *Bosonic rational conformal field theories in small genera, chiral fermionization, and symmetry/subalgebra duality* &lbrack;[arXiv:2303.16921](https://arxiv.org/abs/2303.16921)&rbrack;
 
-* [[Gerald Höhn]], [[Sven Möller]], *Classification of Self-Dual Vertex Operator Superalgebras of Central Charge at Most 24* &lbrack;[arXiv:2303.17190](https://arxiv.org/abs/2303.17190)&rbrack;
+* [[Gerald Höhn]], [[Sven Möller]], *Classification of self-dual vertex operator superalgebras of central charge at most 24* &lbrack;[arXiv:2303.17190](https://arxiv.org/abs/2303.17190)&rbrack;
 
+Another approach to the definition
 
+* Jethro van Ekeren, _A quantum field comonad_, [arXiv:2305.18223](https://arxiv.org/abs/2305.18223)
+
+> We encapsulate the basic notions of the theory of vertex algebras into the construction of a comonad on an appropriate category of formal distributions. Vertex algebras are recovered as coalgebras over this comonad. 
 
 ### As algebras over the holomorphic sphere operad
  {#AsOperadAlgebras}
@@ -276,9 +280,6 @@ Relation of the corresponding [[ribbon categories]]:
 * {#Gui18} Bin Gui, _Categorical extensions of conformal nets_ ([arXiv:1812.04470](https://arxiv.org/abs/1812.04470))
 
 
-
-
-
 ### Deformations
 
 There is an interesting theory of deformation quantization of VOAs from
@@ -292,9 +293,7 @@ Deformation quantization of chiral algebras are studied by
 
 A class of "free" vertex algebras are also quantized using [[Batalin-Vilkovisky formalism]], with results important for understanding [[mirror symmetry]], in
 
-* [[Si Li]], _Vertex algebras and quantum master equation_([arxiv/1612.01292](https://arxiv.org/abs/1612.01292))
-
-
+* [[Si Li]], _Vertex algebras and quantum master equation_ ([arxiv/1612.01292](https://arxiv.org/abs/1612.01292))
 
 
 [[!redirects vertex algebra]]
