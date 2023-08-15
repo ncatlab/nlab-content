@@ -15,6 +15,21 @@ Exactly how this looks depends on the [[logic]] used.
 
 ...
 
+## Related entries
+
+* [[inference rule]]
+
+* [[structural rule]]
+
+* [[contraction rule]]
+
+* [[weakening rule]]
+
+## References
+
+* {#Jacobs98} [[Bart Jacobs]], p. 122 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+
 
 [[!redirects exchange rule]]
 [[!redirects exchange rules]]
