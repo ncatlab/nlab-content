@@ -110,6 +110,8 @@ $$
 
 They are a __strictly dual pair of bigebras__ if the pairing is in also nondegenerate. If $B$ and $H$ are paired then one can quotient out [[biideal]]s $J_B\subset B$, $J_H\subset H$ of all those elements in each of them which pair as zero with all elements in the other bigebra; the quotients $B'$ and $H'$ will then be strictly paired bigebras.  
 
+See also [[dual bialgebra]].
+
 ## Literature
 
 Related $n$Lab entries: [[dual]], [[Heisenberg double]], [[gebra]]
@@ -117,6 +119,10 @@ Related $n$Lab entries: [[dual]], [[Heisenberg double]], [[gebra]]
 Quite detailed treatment of duality of gebras is in
 
 * Sorin D&#259;sc&#259;lescu, Constantin N&#259;st&#259;sescu, Serban Raianu, _Hopf algebras: an introduction_, Marcel & Dekker 2000
+
+and the entire Chapter VI (titled $()^\circ$) of
+
+* [[Moss E. Sweedler]], _Hopf algebras_, Benjamin, N.Y. 1969
 
 Other sources are
 
@@ -138,17 +144,19 @@ Hit-actions are recently studied in
 
 Some newer applications are in
 
-* Lowell Abrams, Charles Weibel, _Cotensor products of modules_, [math.RA/9912211](http://arxiv.org/abs/math/9912211)
+* Lowell Abrams, [[Charles Weibel]], _Cotensor products of modules_, [math.RA/9912211](https://arxiv.org/abs/math/9912211)
 
 Duality of dg-algebras vs. dg-coalgebras is studied recently in great detail in
 
-* Matthieu Anel, [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, 260 pp. [arxiv/1309.6952](http://arxiv.org/abs/1309.6952); cf. also Boston 2012 [slides](http://thales.math.uqam.ca/~anelm/mat/doc/boston.pdf)
+* [[Mathieu Anel]], [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, 260 pp. [arxiv/1309.6952](https://arxiv.org/abs/1309.6952); cf. also Boston 2012 [slides](http://thales.math.uqam.ca/~anelm/mat/doc/boston.pdf)
 
 Some special cases of finite duals are treated in
 
 * Stephen Donkin, _On the Hopf algebra dual of an enveloping algebra_, Math. Proc. Camb. Phil. Soc. (1982), 91, 215-224, [doi](http://dx.doi.org/10.1017/S0305004100059260)
 * Jahn Astrid, _The finite dual of crossed products_, thesis, [pdf](http://theses.gla.ac.uk/6158/1/2015jahnphd.pdf)
 * MathOverflow: [Hopf algebra duality and algebraic groups](http://mathoverflow.net/questions/31237/hopf-algebra-duality-and-algebraic-groups)
+
+category: algebra
 
 [[!redirects dual gebras]]
 [[!redirects Hopf pairing]]
