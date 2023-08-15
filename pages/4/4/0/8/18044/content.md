@@ -143,7 +143,7 @@ The proposal [above](#Definition) was originally motivated from the discussion o
 
 * {#Kapranov15} [[Mikhail Kapranov]], _Supergeometry in mathematics and physics_, in [[Gabriel Catren]], [[Mathieu Anel]], (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1512.07042](http://arxiv.org/abs/1512.07042))
 
-* {#Kapranov15b} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE))
+* {#Kapranov15b} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris (Oct-Sept 2015) &lbrack;[video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE)&rbrack;
 
 A closely related suggestion later appears in:
 
