@@ -185,7 +185,7 @@ in the [[quantum programming language]] [[QPL]]/[[Quipper]]:
 
 * [[Bob Coecke]], [[Eric Paquette]], [[Duško Pavlović]], *Classical and quantum structures* (2008) &lbrack;[pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf), [[Coecke-Paquette-Pavlovic-CQS.pdf:file]]&rbrack;
 
-* [[Bob Coecke]], [[Eric Oliver Paquette]], [[Duško Pavlović]], *Classical and quantum structuralism* &lbrack;[arXiv:0904.1997](https://arxiv.org/abs/0904.1997)&rbrack;
+* [[Bob Coecke]], [[Eric Oliver Paquette]], [[Duško Pavlović]], *Classical and quantum structuralism*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 29-69 &lbrack;[arXiv:0904.1997](https://arxiv.org/abs/0904.1997), [doi:10.1017/CBO9781139193313.003](https://doi.org/10.1017/CBO9781139193313.003)&rbrack;
 
 * [[Bob Coecke]], [[Duško Pavlović]], [[Jamie Vicary]],  *A new description of orthogonal bases*, Mathematical Structures in Computer Science **23** 3 (2012) 555- 567 &lbrack;[arXiv:0810.0812](https://arxiv.org/abs/0810.0812), [doi:10.1017/S0960129512000047](https://doi.org/10.1017/S0960129512000047)&rbrack;
 
