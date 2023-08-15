@@ -80,7 +80,7 @@ as follows:
 
 \begin{imagefromfile}
     "file_name": "KleisliCompositionOfEffectfulPrograms-221105.jpg",
-    "width": "700",
+    "width": "800",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -91,7 +91,7 @@ as follows:
 \end{imagefromfile}
 
 
-> (Beware that we are denoting by "$bind^{\mathcal{E}} prog (-)$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which some authors denote by "$prog^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
+> (Beware that we are denoting by "$bind^{\mathcal{E}} prog (-)$" what in [[programming languages]] like [[Haskell]] [is denoted by](https://wiki.haskell.org/Monad#The_Monad_class) "`(-) >>= prog`"  aka "fish notation", eg. [Milewski (2019)](#Milewski19), and which some authors denote by an upper-star, "$prog^\ast\,$", e.g.  [Moggi (1991)](#Moggi91); [Uustalu (2021), lecture 1](#Uustalu21Lecture1), [p. 12](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf#page=12).)
 
 Depending on the intended behaviour of these programs, it remains to specify how exactly $bind^{\mathcal{E}} prog_{23}$ "carries $\mathcal{E}(-)$-effects along", hence what the "bind" operation (eq:BindingLawInIntroduction) does concretely. 
 
@@ -557,8 +557,21 @@ In more detail:
 
      (cf. &lbrack;[Uustalu (2021), Lect. 3, slide 9](#Uustalu21Lecture3)&rbrack;)
 
+
+\begin{imagefromfile}
+    "file_name": "CoKleisliCompOfContextfulPrograms-230815.jpg",
+    "width": "800",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
      
 
+\linebreak
 
 ## Examples
  {#Examples}
