@@ -87,6 +87,9 @@ The ZX-calculus has its origin as a tool for organizing [[measurement-based quan
 
 * [[Ross Duncan]], [[Simon Perdrix]], *Rewriting Measurement-Based Quantum Computations with Generalised Flow*, in: *Automata, Languages and Programming. ICALP 2010*, Lecture Notes in Computer Science **6199**, Springer (2010) &lbrack;[doi:10.1007/978-3-642-14162-1_24](https://doi.org/10.1007/978-3-642-14162-1_24)&rbrack;
 
+* [[Ross Duncan]], *A graphical approach to measurement-based quantum computing* &lbrack;[arXiv:1203.6242](https://arxiv.org/abs/1203.6242) video exposition:[YT](https://youtu.be/E_zH9C0ds8c?t=648)&rbrack;
+
+
 The official introduction of the ZX-calculus:
 
 * {#CoeckeDuncan} [[Bob Coecke]], [[Ross Duncan]], *A graphical calculus for quantum observables* &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/GreenRed.pdf)&rbrack;
