@@ -19,3 +19,4 @@ and is a professor emeritus at Cornell. His work on noncommutative extensions de
 
 category: people
 [[!redirects M. E. Sweedler]]
+[[!redirects Moss E. Sweedler]]
