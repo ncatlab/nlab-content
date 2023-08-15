@@ -66,17 +66,21 @@ Weakening rules correspond to having [[semicartesian monoidal category|projectio
 
 ## Related concepts
 
+* [[inference rule]]
+
 * [[structural rules]]
 
-  [[variable rule]]
+* [[variable rule]]
 
-  [[substitution rule]]
+* [[substitution rule]]
 
 ## References
 
+* [[Bart Jacobs]], *Semantics of weakening and contraction*, Annals of Pure and Applied Logic **69** 1 (1994) 73-106 &lbrack;<a href="https://doi.org/10.1016/0168-0072(94)90020-5">doi:10.1016/0168-0072(94)90020-5</a>&rbrack;
+
 Discussion in [[intuitionistic type theory|intuitionistic]] [[dependent type theory]]:
 
-* {#Jacobs98} [[Bart Jacobs]], p. 122 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+* {#Jacobs98} [[Bart Jacobs]], p. 122, 585 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
   > (emphasis on the [[categorical model of dependent types]])
 
