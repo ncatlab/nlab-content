@@ -101,9 +101,54 @@ A theorem of [Eilenberg & Nakayama (1955)](#Eilenberg1955) says that in the cate
 
 ### Special Frobenius algebras
 
+
 \begin{definition}
 \label{SpecialFrobeniusAlgebras}
-If $\mu \circ \delta = 1$, a Frobenius algebra is said to be **special**.   
+
+The term "special Frobenius algebra" is not used consistently in the literature, but the main point is to require that the product is the [[left inverse]] to the coproduct, possibly up to a non-vanishing element $\beta_A$ in the [[ground field]]:
+
+\[
+  \label{ProdLeftInverseToCoprodUpToScaling}
+  prod \circ coprod \,=\, \beta_A \cdot id
+\]
+
+This condition removes the [[genus of a surface|genus]]-contribution in normal forms of "connected maps", up to rescaling, see [below](#NormalFormAndSpiderTheorem).
+
+But then it is natural to also require the counit to be left inverse to the unit, up to (another) non-vanishing ground field element $\beta_1$:
+
+\[
+  \label{CounitLeftInverseToUnitUpTOScaling}  
+  counit \circ unit \,=\, \beta_1 \cdot id
+\]
+
+which also removes the disconnected "vaccum"-contribution, up to scaling.
+
+The two conditions (eq:ProdLeftInverseToCoprodUpToScaling) and (eq:CounitLeftInverseToUnitUpTOScaling) on a Frobenius algebra are taken to be the definition of "special Frobenius" in [Fuchs, Runkel & Schweigert 2002, Def. 3.4 (i)](#FRS-theorem+on+rational+2d+CFT#FuchsRunkelSchweigert02):
+
+\begin{imagefromfile}
+    "file_name": "FRS-SpecialFrobeniusDiagram.jpg",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 10, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+However, other authors take the condition for "special Frobenius" to be the single constraint that 
+
+\[
+  \label{CoprodLetfInverseToProd}
+  prod \circ coprod \,=\, id
+\]
+
+(eg. [Coecke & Pavlović 2008, p. 17](quantum+information+theory+via+dagger-compact+categories#CoeckePavlović08), [Fauser 2012, Def. 3.7](https://arxiv.org/abs/1202.6380))
+
+and may instead call (eq:ProdLeftInverseToCoprodUpToScaling) the condition to be *trivially connected*.
+
+Beware that both of these conventions are adhered to by no small number of authors.
 \end{definition}
 
 In the category of vector spaces, any element $a$ of an associative unital algebra gives a left multiplication map 
@@ -377,9 +422,9 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 \linebreak
 Every *[[connected topological space|connected]]* [[cobordism]] with
 
-* $n_{in}$ ingoing boundary components
+* $n_{in} \gt 0$ ingoing boundary components
 
-* $n_{out}$ outgoing boundary components
+* $n_{out} \gt 0$ outgoing boundary components
 
 * [[genus of a surface|genus]]$\;$ $g$
 
@@ -478,7 +523,7 @@ is equal to the composite, in this order, of
 \begin{corollary}\label{SpiderTheorem}
 **(Spider theorem)**
 \linebreak
-If the Frobenius algebra in Cor. \ref{NormalFormForFrobeniusMaps} is special (in that $prod \circ coprod = id$, cf. Def. \ref{SpecialFrobeniusAlgebras}) then every linear map of the form
+If the Frobenius algebra in Cor. \ref{NormalFormForFrobeniusMaps} is *special* in that $prod \circ coprod = id$ (eq:CoprodLetfInverseToProd) then every linear map of the form
 $$
   A^{\otimes^{n_{in}}}
   \longrightarrow
@@ -563,8 +608,7 @@ Frobenius algebras were introduced by [[Brauer]] and Nesbitt and were named afte
 
 See for instance
 
-* {#Eilenberg1955} [[Samuel Eilenberg]], [[Tadasi Nakayama]], _On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings_, _Nagoya Math. J._ **9** (1955) 1-16 &lbrack;[doi](https://doi.org/10.1017/S0027763000023229)
-
+* {#Eilenberg1955} [[Samuel Eilenberg]], [[Tadasi Nakayama]], _On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings_, _Nagoya Math. J._ **9** (1955) 1-16 &lbrack;[doi:10.1017/S0027763000023229](https://doi.org/10.1017/S0027763000023229)&rbrack;
 
 * [[Marcelo Aguiar]] (2000), _A note on strongly separable algebras_, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([pdf](http://www.math.cornell.edu/~maguiar/strongly.pdf))
 {#Aguiar2000}
