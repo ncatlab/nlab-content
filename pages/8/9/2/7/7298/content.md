@@ -19,12 +19,16 @@
 
 ## Idea
 
-> Der unendlich kleinste Theil des Raumes ist immer ein Raum, etwas, das Continuit&#228;t hat, nicht aber ein blosser Punct, oder die Grenze zwischen bestimmten Stellen im Raume; ([Fichte 1795, Grundriss &#167;4.IV](Grundriss+des+Eigenth&#252;mlichen+der+Wissenschaftslehre#4IVUnendlichKleinsterTeilDesRaumes))
+> *Der unendlich kleinste Theil des Raumes ist immer ein Raum, etwas, das Continuität hat, nicht aber ein blosser Punct* ([Fichte 1795, Grundriss &#167;4.IV](Grundriss+des+Eigenth&#252;mlichen+der+Wissenschaftslehre#4IVUnendlichKleinsterTeilDesRaumes))
+
+> ("An infinitesimally small part of space is always a space, something with continuity, but not a bare point.")
 
 
-An infinitesimal neighbourhood is a "[[neighbourhood]] with [[infinitesimal]] diameter". This can be made precise in several formalisms, including [[nonstandard analysis]], [[synthetic differential geometry]], [[differential cohesion]], [[ringed spaces]], ....
+An infinitesimal neighbourhood is a "[[neighbourhood]] with [[infinitesimal]] diameter". This can be made precise in several formalisms, including [[nonstandard analysis]], [[ringed spaces]], [[synthetic differential geometry]], [[differential cohesion]], ....
 
-{#MonadTerminology} **"Monads".** In [[nonstandard analysis]] the infinitesimal neighbourhood of a point is traditionally called (see [below](#InNonstandardAnalysis)) its *[[monad (disambiguation)|monad]]*, taking inspiration from [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)*. Curiously, in [[differential cohesion]] the construction of all infinitesimal neighbourhoods (the [[infinitesimal disk bundle]]) is indeed a [[monad]] in the sense of [[category theory]] (see [there](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles), namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]]). Whether this confluence of the terms "monads" is just a happy coincidence seems to be lost to history, see at *[[monad]]* the section *[Etymology](monad#Etymology)*.
+{#MonadTerminology} **"Monads".** In [[nonstandard analysis]]   the infinitesimal neighbourhood of a point is traditionally called (see [below](#InNonstandardAnalysis)) its *[[monad (disambiguation)|monad]]*, apparently following the [ancient terminology going back to Euclid](monad+disambiguation#HistoricalOrigins), for more see [there](monad+disambiguation#HistoricalOrigins).
+
+Curiously, in [[differential cohesion]] the construction of all infinitesimal neighbourhoods (the [[infinitesimal disk bundle]]) is indeed a [[monad]] in the sense of [[category theory]] (see [there](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles), namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]]). Whether this confluence of the terms "monads" is just a happy coincidence seems to be lost to history, see at *[[monad]]* the section *[Etymology](monad#Etymology)*.
 
 
 
@@ -36,7 +40,7 @@ An infinitesimal neighbourhood is a "[[neighbourhood]] with [[infinitesimal]] di
  {#InNonstandardAnalysis}
 
 In [[nonstandard analysis]], the _*[[monad (disambiguation)|monad]]_  of a standard point $p$ 
-([Robinson 1966, p. 57](#Robinson66) following [[Leibniz]], see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoints]] infinitely close to $p$. It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the _infinitesimal neighbourhood_ of $p$.
+([Robinson 1966, p. 57](#Robinson66) following , see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoints]] infinitely close to $p$. It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the _infinitesimal neighbourhood_ of $p$.
 
 
 ### In differential cohesion
