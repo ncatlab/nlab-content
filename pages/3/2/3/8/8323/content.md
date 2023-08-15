@@ -43,31 +43,40 @@ shown in the following table together with their [[categorical semantics]] [[cat
 </center>
 
 
-
-
 ## Examples
 
-* the [[weakening rule]],
 
-* the [[contraction rule]],
+* [[structural rules]]
 
-* the [[exchange rule]],
+  * [[identity rule]]
 
-* the [[identity rule]],
+  * [[weakening rule]]
 
-* the [[cut rule]].
+  * [[contraction rule]]
+
+  * [[exchange rule]]
+
+  * [[substitution rule]]
+
+  * [[cut rule]]
 
 
-## Related pages
+## Sub-structural logic
 
-* [[substructural logic]] is logic in which one or more structural rules are omitted.
+If some of the structural rules are *not* imposed in a [[formal logic]] one speaks of *[[substructural logic]]*.
+
+For instance, if the [[weakening rule]] and [[contraction rule]] are omitted, one speaks of [[linear logic]]/[[linear type theory]] (see [there](linear+logic#AbsenceOfWeakeningAndContraction)), since then the [[logical conjunction]] is no longer consrained to behave like a [[Cartesian product]] but may behave like a non-cartesian [[tensor product]].
+
+
+
 
 ## References
 
+* {#Jacobs94} [[Bart Jacobs]], *Semantics of weakening and contraction*, Annals of Pure and Applied Logic **69** 1 (1994) 73-106 &lbrack;<a href="https://doi.org/10.1016/0168-0072(94)90020-5">doi:10.1016/0168-0072(94)90020-5</a>&rbrack;
+
 Discussion in [[dependent type theory]]:
 
-
-* {#Jacobs98} [[Bart Jacobs]], Chapter 10 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+* {#Jacobs98} [[Bart Jacobs]], p. 122, 585 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
 
   > (emphasis on the [[categorical model of dependent types]])
 
