@@ -183,11 +183,6 @@ Classification of strongly rational holomorphic vertex operator algebras of [[ce
 
 * [[Gerald Höhn]], [[Sven Möller]], *Classification of self-dual vertex operator superalgebras of central charge at most 24* &lbrack;[arXiv:2303.17190](https://arxiv.org/abs/2303.17190)&rbrack;
 
-Another approach to the definition
-
-* Jethro van Ekeren, _A quantum field comonad_, [arXiv:2305.18223](https://arxiv.org/abs/2305.18223)
-
-> We encapsulate the basic notions of the theory of vertex algebras into the construction of a comonad on an appropriate category of formal distributions. Vertex algebras are recovered as coalgebras over this comonad. 
 
 ### As algebras over the holomorphic sphere operad
  {#AsOperadAlgebras}
@@ -227,6 +222,15 @@ Discussion of vertex operator algebras as [[factorization algebras of observable
 * Emily Cliff, _Universal factorization spaces and algebras_, [arxiv:1608.08122](https://arxiv.org/abs/1608.08122)
 
 >  We introduce categories of weak factorization algebras and factorization spaces, and prove that they are equivalent to the categories of ordinary factorization algebras and spaces, respectively. This allows us to define the pullback of a factorization algebra or space by an \'etale morphism of schemes, and hence to define the notion of a universal factorization space or algebra. This provides a generalization to higher dimensions and to non-linear settings of the notion of a vertex algebra. 
+
+### As coalgebras over a comonad
+ {#ReferencesAsCoalgebrasOverAComonad}
+
+On vertex operator algebras as [[coalgebras over a comonad]]:
+
+* [[Jethro van Ekeren]], *A quantum field comonad* &lbrack;[arXiv:2305.18223](https://arxiv.org/abs/2305.18223)&rbrack;
+
+
 
 ### Relation to modular tensor categories
 
