@@ -51,6 +51,7 @@ While the [[infinitesimal neighbourhood]] of a point is more than that point, it
 
 
 ## Monads on categories
+ {#MonadsOnCategories}
 
 Just a few years later, [Bénabou 1967](monad#Bénabou67) introduces the term
 
@@ -74,6 +75,14 @@ Bénabou's explicit reasoning on this choice of terminology has not survived, bu
 
 At the same time, with hindsight one may notice that the construction of infinitesimal monads in the [above](MonadsOfInfinitesimals) sense of [[infinitesimal neighbourhoods]] is (see [there](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles)) in fact an example of a monad in the sense of categorical algebra.
 
+## Monads of computational effects
+ {#MonadsOfComputationalEffects}
+
+The notion of monads in [[computer science]] -- as a model for computational *effects* within otherwise [[functional programming languages]] -- is directly related to the [above](#MonadsOnCategories) notion of monads on categories (the category in question now being the data [[type system]]). See at *[[monad in computer science]]* for more.
+
+Notice in this context that, for $\mathcal{E}$ an effect monad, $\mathcal{E}$-effectful programs (see [there](monad+in+computer+science#BasicIdea)) cannot sensibly interact with plain programs unless and until they are "taken out of the monad"  (namely out of its [[Kleisli category]], or "out from under the monad symbol") by an *$\mathcal{E}$-effect handler* (see [there](monad+in+computer+science#MonadModulesInIdeaSection)). In this sense, computational effect monads have some semblance of the mutual isolation that some philosophers may associate with monads.
+
+
 ## Other
 
 Finally, there is the term
@@ -84,13 +93,21 @@ Finally, there is the term
 
 ## References
 
-* {#Kutateladze06} [[Semën S. Kutateladze]], *Leibniz's Definition of Monad*, NeuroQuantology **4** 3 (2006) 249-241 &lbrack;[arXiv:math/0608298](https://arxiv.org/abs/math/0608298), [pdf](https://www.researchgate.net/profile/Semen-Kutateladze/publication/2130297_Leibniz%27s_Definition_of_Monad/links/0912f5058405405dbb000000/Leibnizs-Definition-of-Monad.pdf)&rbrack;
+The Wikipedia entry knows various further historical writings on monads (but does not mention their role in Euclid's *[[Elements]]*)
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Monad_(philosophy)">Monad (philosophy)</a>*
+
+On monads in [[nonstandard analysis]] with attention to the historical origin of the term:
 
 * {#GordonKusraevKutateladze02} E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
+
+* {#Kutateladze06} [[Semën S. Kutateladze]], *Leibniz's Definition of Monad*, NeuroQuantology **4** 3 (2006) 249-241 &lbrack;[arXiv:math/0608298](https://arxiv.org/abs/math/0608298), [pdf](https://www.researchgate.net/profile/Semen-Kutateladze/publication/2130297_Leibniz%27s_Definition_of_Monad/links/0912f5058405405dbb000000/Leibnizs-Definition-of-Monad.pdf)&rbrack;
+
 
 
 category: disambiguation
 
+[[!redirects monad disambiguation]]
 [[!redirects monad terminology]]
 
 
