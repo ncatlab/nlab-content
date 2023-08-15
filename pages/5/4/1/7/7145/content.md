@@ -35,7 +35,7 @@ The term "monad" (*μονάς*) here is traditionally translated as "unit". More
 
 
 
-Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) speaks of monads as *mind-like simple substances* in a way that is now more famous than Euclid's usage, but also more mysterious, if not puzzling.
+{#LeibnizMonads} Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) speaks of monads as *mind-like simple substances* in a way that is now more famous than Euclid's usage, but also more mysterious, if not puzzling.
 
 
 ## Monads of infinitesimals
