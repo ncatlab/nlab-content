@@ -27,6 +27,10 @@ The type of all finite types is a [[univalent universe]] $Fin$; thus one could a
 Every [[locally finite category|locally finite]] [[univalent category]] is a locally finite type. 
 \end{example}
 
+\begin{example}
+The locally finite [[h-sets]] are precisely the [[h-sets]] with [[decidable equality]]
+\end{example}
+
 ## Properties
 
 Since finite types are [[h-sets]], every locally finite type is an [[h-groupoid]], because its identity types are all h-sets. In particular, locally finite types are precisely the [[locally finite category|locally finite]] [[univalent categories]] which are [[groupoids]]. 
