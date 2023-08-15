@@ -64,8 +64,14 @@ Towards formalizing measurement-based quantum protocols:
 * {#DanosKahsefiPanangaden07} [[Vincent Danos]], [[Elham Kashefi]], [[Prakash Panangaden]], *The Measurement Calculus*, Journal of the ACM, **54** 2 (2007) &lbrack;[arXiv:0704.1263](https://arxiv.org/abs/0704.1263), [doi:10.1145/1219092.1219096](https://doi.org/10.1145/1219092.1219096)&rbrack;
 
 
-Using (motivating) the [[ZX-calculus]] for formalizing measurement-based quantum protocols
+Using (motivating) the [[ZX-calculus]] for formalizing measurement-based quantum protocols:
 
 * [[Ross Duncan]], [[Simon Perdrix]], *Rewriting Measurement-Based Quantum Computations with Generalised Flow*, in: *Automata, Languages and Programming. ICALP 2010*, Lecture Notes in Computer Science **6199**, Springer (2010) &lbrack;[doi:10.1007/978-3-642-14162-1_24](https://doi.org/10.1007/978-3-642-14162-1_24)&rbrack;
 
-    
+* [[Ross Duncan]], *A graphical approach to measurement-based quantum computing* &lbrack;[arXiv:1203.6242](https://arxiv.org/abs/1203.6242) video exposition:[YT](https://youtu.be/E_zH9C0ds8c?t=648)&rbrack;
+
+
+
+
+
+
