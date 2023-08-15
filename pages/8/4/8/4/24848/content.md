@@ -75,7 +75,7 @@ Formalization of [[quantum measurement]] via [[Frobenius algebra]]-[[structures]
 
 * {#CoeckePaquette08} [[Bob Coecke]], [[Eric Oliver Paquette]], *POVMs and Naimark's theorem without sums*, Electronic Notes in Theoretical Computer Science **210** (2008) 15-31 $[$[arXiv:quant-ph/0608072](https://arxiv.org/abs/quant-ph/0608072), [doi:10.1016/j.entcs.2008.04.015](https://doi.org/10.1016/j.entcs.2008.04.015)$]$
 
-* [[Bob Coecke]], [[Eric Oliver Paquette]], [[Duško Pavlović]], *Classical and quantum structuralism* $[$[arXiv:0904.1997](https://arxiv.org/abs/0904.1997)$]$
+* {#CoeckePaquettePavlović09} [[Bob Coecke]], [[Eric Oliver Paquette]], [[Duško Pavlović]], *Classical and quantum structuralism*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 29-69 $[$[arXiv:0904.1997](https://arxiv.org/abs/0904.1997), [doi:10.1017/CBO9781139193313.003](https://doi.org/10.1017/CBO9781139193313.003)$]$
 
 * [[Bob Coecke]], [[Duško Pavlović]], [[Jamie Vicary]],  *A new description of orthogonal bases*, Mathematical Structures in Computer Science **23** 3 (2012) 555- 567 $[$[arXiv:0810.0812](https://arxiv.org/abs/0810.0812), [doi:10.1017/S0960129512000047](https://doi.org/10.1017/S0960129512000047)$]$
 
