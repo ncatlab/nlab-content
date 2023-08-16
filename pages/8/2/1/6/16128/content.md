@@ -6,7 +6,9 @@
 
 On [[perturbative quantum gravity]] as an [[effective quantum field theory]]:
 
-* {#DonoghueIntroduction} [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024), [spire](http://inspirehep.net/record/403510))
+* [[John Donoghue]], *General relativity as an effective field theory: The leading quantum corrections*, Phys. Rev. D **50** (1994) 3874-3888 &lbrack;[arXiv:gr-qc/9405057](https://arxiv.org/abs/gr-qc/9405057)&rbrack;
+
+* {#DonoghueIntroduction} [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ &lbrack;[arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024), [spire](http://inspirehep.net/record/403510)&rbrack;
 
 * [[John F. Donoghue]], *Quantum General Relativity and Effective Field Theory*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.09902](https://arxiv.org/abs/2211.09902)&rbrack;
 
