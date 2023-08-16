@@ -155,11 +155,14 @@ The idea of quantum computation was first expressed in:
 
 * [[Paul Benioff]], *Quantum Mechanical Models of Turing Machines That Dissipate No Energy*, Phys. Rev. Lett. **48** 1581  (1982) &lbrack;[doi:10.1103/PhysRevLett.48.1581](https://doi.org/10.1103/PhysRevLett.48.1581)&rbrack;
 
-* {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
+* {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys **21** (1982) 467–488 &lbrack;[doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179)&rbrack;
 
-  > because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical
+  > "because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical"
 
-The notion of [[quantum logic gates]] and [[quantum circuits]] was first made explicit in:
+
+The notion of ([[controlled quantum gate|controlled]]) [[quantum logic gates]] and [[quantum circuits]] was first made explicit in:
+
+* [[Richard Feynman]], *Quantum mechanical computers*, Foundations of Physics **16** (1986) 507–531 &lbrack;[doi:10.1007/BF01886518](https://doi.org/10.1007/BF01886518)&rbrack;
 
 * [[David E. Deutsch]], *Quantum computational networks*, Proceedings of the Royal Society A, **425** 1868 (1989) 73-90 &lbrack;[doi:10.1098/rspa.1989.0099](https://doi.org/10.1098/rspa.1989.0099), [jstor:2398494](https://www.jstor.org/stable/2398494)&rbrack;
 
@@ -208,6 +211,8 @@ Quantum computation became widely thought to be not just a theoretical but a pla
 * {#CalderbankShor96} [[Robert Calderbank]], [[Peter W. Shor]], *Good Quantum Error-Correcting Codes Exist*, Phys. Rev. A, Vol. 54, No. 2, pp. 1098-1106, 1996 ([doi:10.1103/PhysRevA.54.1098](https://doi.org/10.1103/PhysRevA.54.1098))
 
 Early review:
+
+* [[Adriano Barenco]], *Quantum Physics and Computers*,  Contemp. Phys. **37** (1996) 375-389 &lbrack;[arXiv:quant-ph/9612014](https://arxiv.org/abs/quant-ph/9612014), [doi:10.1080/00107519608217543](https://doi.org/10.1080/00107519608217543)&rbrack;
 
 * [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
