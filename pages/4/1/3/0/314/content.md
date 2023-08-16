@@ -310,7 +310,7 @@ $$
 An illustrative example is the following: a limit of the [[identity functor]] $Id_c:C\to C$ is, if it exists, an [[initial object]] of $C$.
 
 
-### Global Definition in terms of adjoint of the constant diagram functor 
+### Global definition in terms of adjoint of the constant diagram functor 
 
 Given categories $D$ and $C$, limits over functors $D^{op} \to C$ may exist for some functors, but not for all. If it does exist for all functors, then the above _local definition_ of limits is equivalent to the following _global definition_.
 
