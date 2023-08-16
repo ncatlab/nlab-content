@@ -181,15 +181,21 @@ Textbook account:
 
 As a [[perturbative quantum field theory]], quantum gravity exists (usually thought of as an [[effective quantum field theory]]):
 
-* {#Feynman63} [[Richard Feynman]], _Quantum theory of gravitation_, Acta Phys.Polon. 24 (1963) 697-722 ([spire:9148](http://inspirehep.net/record/9148/))
+* {#Feynman63} [[Richard Feynman]], _Quantum theory of gravitation_, Acta Phys. Polon. **24** (1963) 697-722 &lbrack;[spire:9148](http://inspirehep.net/record/9148/)&rbrack;
 
-* [[Martinus Veltman]], _Quantum theory of Gravitation_, In Les Houches 1975, Proceedings, Methods In Field Theory, (Amsterdam 1976) 265-327 ([[VeltmanQuantumnGravity76.pdf:file]], [spire](http://inspirehep.net/record/105735?ln=en))
+* [[Martinus Veltman]], _Quantum theory of Gravitation_, In Les Houches 1975, Proceedings, Methods In Field Theory, (Amsterdam 1976) 265-327 &lbrack;[[VeltmanQuantumnGravity76.pdf:file]], [spire](http://inspirehep.net/record/105735?ln=en)&rbrack;
 
-* {#Donoghue95} [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024), [spire](http://inspirehep.net/record/403510))
+* [[John Donoghue]], *General relativity as an effective field theory: The leading quantum corrections*, Phys. Rev. D **50** (1994) 3874-3888 &lbrack;[arXiv:gr-qc/9405057](https://arxiv.org/abs/gr-qc/9405057)&rbrack;
 
-* [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
+* Vlad-Mihai Mandric, Tim R. Morris, Dalius Stulga, *Off-shell divergences in quantum gravity* &lbrack;[arXiv:2308.07382](https://arxiv.org/abs/2308.07382)&rbrack;
 
-Review and outlook:
+Introduction, review and outlook:
+
+* {#Donoghue95} [[John Donoghue]], *Introduction to the Effective Field Theory Description of Gravity* &lbrack;[arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024), [spire](http://inspirehep.net/record/403510)&rbrack;
+
+* [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev. Relativ. **5** 1 (2002) 5 &lbrack;[arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5)&rbrack;
+
+* [[Cliff Burgess]], *Quantum Gravity in Everyday Life: General Relativity as an Effective Field Theory*, Living Rev. Rel. **7** 5 (2004) &lbrack;[arXiv:gr-qc/0311082](https://arxiv.org/abs/gr-qc/0311082), [doi:10.12942/lrr-2004-5](https://doi.org/10.12942/lrr-2004-5)&rbrack;
 
 * [[Richard Woodard]], _Perturbative Quantum Gravity Comes of Age_,  International Journal of Modern Physics DVol. 23, No. 09, 1430020 (2014) ([arXiv:1407.4748](https://arxiv.org/abs/1407.4748))
 
