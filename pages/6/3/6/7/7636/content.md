@@ -50,7 +50,7 @@
 | [[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | see [[homotopytypetheory:model of type theory in an (infinity,1)-topos|here]] |
 | [[multiplicative intuitionistic linear logic]] | | [[symmetric monoidal category|symmetric]] [[closed monoidal category]] | [various authors since ~68](linear%20type%20theory#HistoryCategoricalSemantics) | 
 | [[classical linear logic]] | | [[star-autonomous category ]] | [Seely 1989](#Seely89) |
-| [[dependent linear type theory]] |   | [[indexed monoidal category]] (with comprehension)  | [V&#225;k&#225;r 14](#Vakar14) |  
+| [[dependent linear type theory]] |   | [[indexed monoidal category]] (with comprehension)  | [Riley 2022](#Riley22Thesis) |  
 
 [[!include types and logic - table]]
 
@@ -431,10 +431,20 @@ and reviews/further developments are in
 * [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
 
 
-For [[dependent linear type theory]] see
+For [[dependent linear type theory]] see:
 
 
-* {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
+* {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ &lbrack;[arXiv:1405.0033](http://arxiv.org/abs/1405.0033)&rbrack;
+
+* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
+
+* [[Mitchell Riley]], *Extending Homotopy Type Theory with Linear Type Formers*, talk at *The ForML Lab* (2021)  &lbrack;[web](https://the-au-forml-lab.github.io/colloquium_talks/Riley.html), [video](https://www.youtube.com/watch?v=sPxtdCtjSDc)&rbrack;
+
+* {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
+
+  > (using ideas from [[bunched logic]])
+
+* {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
 
 
 An [[adjunction]] between the category of [[type theory|type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of
