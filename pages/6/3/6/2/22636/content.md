@@ -26,7 +26,10 @@ On [[optics (in computer science)]], such as [[lenses (in computer science)|lens
 
 On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of dependent [[stable homotopy types]] (via a form of [[bunched logic]]) with [[categorical semantics]] in [[parametrized spectra]]:
 
-* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
+* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* &lbrack;[arXiv:2102.04099](https://arxiv.org/abs/2102.04099)&rbrack;
+
+* [[Mitchell Riley]], *Extending Homotopy Type Theory with Linear Type Formers*, talk at *The ForML LAb* (2021)  &lbrack;[web](https://the-au-forml-lab.github.io/colloquium_talks/Riley.html), [video](https://www.youtube.com/watch?v=sPxtdCtjSDc)&rbrack;
+
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269),  [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
