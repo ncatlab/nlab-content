@@ -129,7 +129,7 @@ In: Walukiewicz I. (eds) Foundations of Software Science and Computation Structu
 
 
 * {#LSToposes} [[Steve Lack]] and [[Pawel Sobocinski]], *Toposes are adhesive*, In: Corradini A., Ehrig H., Montanari U., Ribeiro L., Rozenberg G. (eds) Graph Transformations. ICGT 2006. Lecture Notes in Computer Science, vol 4178. Springer, Berlin, Heidelberg. doi:[10.1007/11841883_14](https://doi.org/10.1007/11841883_14),
-[author PDF](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)
+[author PDF](https://www.ioc.ee/~pawel/papers/toposesAdhesive.pdf)
 
 
 * {#Lack} [[Steve Lack]], *An embedding theorem for adhesive categories*, Theory and Applications of Categories, Vol. 25, 2011, No. 7, pp 180-188. [journal page](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html), arXiv:[1103.0600](https://arxiv.org/abs/1103.0600)
