@@ -597,9 +597,18 @@ See also
 
 *  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied [[fragments]].
 
-Discussion of application of linear logic to [[quantum logic]], [[quantum computing]] and generally to [[quantum physics]] includes
+Discussion of application of linear logic to [[quantum logic]], [[quantum computing]] and generally to [[quantum physics]]:
 
 * {#Pratt92} [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
+
+* [[Benoît Valiron]], *A functional programming language for quantum computation with classical control*, MSc thesis, University of Ottawa (2004) &lbrack;[doi:10.20381/ruor-18372](http://dx.doi.org/10.20381/ruor-18372), [pdf](https://ruor.uottawa.ca/bitstream/10393/26790/1/MR01625.PDF)&rbrack;
+
+* {#SelingerValiron04} [[Peter Selinger]], [[Benoît Valiron]], *A lambda calculus for quantum computation with classical control*, Proc. of TLCA 2005 &lbrack;[arXiv:cs/0404056](https://arxiv.org/abs/cs/0404056), [doi:10.1007/11417170_26](https://doi.org/10.1007/11417170_26)&rbrack;
+
+* {#SelingerValiron09} [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 135-172 &lbrack;[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)&rbrack;
+
+  > (cf. *[[quantum lambda-calculus]]*)
+
 
 * {#Baez04} [[John Baez]], *Quantum Quandaries: a Category-Theoretic Perspective*, in D. Rickles et al. (ed.) *The structural foundations of quantum gravity*, Clarendon Press (2006) 240-265 &lbrack;[arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040), [ISBN:9780199269693](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)&rbrack;
 
@@ -607,6 +616,7 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 * {#AbramskyDuncan06} [[Samson Abramsky]], [[Ross Duncan]], *A Categorical Quantum Logic*, Mathematical Structures in Computer Science **16** 3 (2006) &lbrack;[arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275)&rbrack;
 
 * {#Duncan06} [[Ross Duncan]], _Types for quantum computation_, 2006 ([pdf](http://www.cs.ox.ac.uk/files/2425/Types%20for%20Quantum%20Computation.pdf))
+
 
 * {#DalLagoFaggian12} [[Ugo Dal Lago]], [[Claudia Faggian]], *On Multiplicative Linear Logic, Modality and Quantum Circuits*, EPTCS 95 (2012) 55-66 &lbrack;[arXiv:1210.0613](http://arxiv.org/abs/1210.0613), [doi:10.4204/EPTCS.95.6](https://doi.org/10.4204/EPTCS.95.6)&rbrack;
 
