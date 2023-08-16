@@ -29,18 +29,20 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |2001|*Data missing*|*Data missing*| |
 |2000|Como|[archive](https://web.archive.org/web/20060114193307/https://www.disi.unige.it/conferences/ct2000/)| |
 |1999|Coimbra|[website](http://www.mat.uc.pt/~ct99/)|[invited abstracts](https://www.mat.uc.pt/~ct99/invited.html), [contributed abstracts](https://www.mat.uc.pt/~ct99/talks.html)|
-|1998|*Data missing*|*Data missing*| |
+|1998|*no event*|*Data missing*| |
 |1997|Vancouver|*Data missing*| |
-|1996|*Data missing*|*Data missing*| |
+|1996|Isle of Thorns|*Data missing*| |
 |1995|Halifax|[website](https://www.mta.ca/~cat-dist/ct95.html)|[pdf](https://www.mta.ca/~cat-dist/ct95abs.pdf)|
 |1994|Tours|*Data missing*| |
-|1993|*Data missing*|*Data missing*| |
+|1993|*no event*|*Data missing*| |
 |1992|Isle of Thorns|*Data missing*| |
 |1991|Montreal|*Data missing*| |
 |1990|Como|*Data missing*| |
 |1989|Bangor|*Data missing*| |
-|1988|*Data missing*|*Data missing*| |
+|1988|Isle of Thorns|*Data missing*| |
 |1987|Louvain-la-Neuve|*Data missing*| |
+|1986|Cambridge|*Data missing*| |
+|1985|Isle of Thorns (University of Sussex)|*Data missing*| |
 
 The following is a quote from [Rota 1993](#Rota) on the proceedings of the Category Theory conference in held 1991:
 > It is good to know that category theory is alive and well after all these years. We were turned off to category theory by the excesses of the sixties, when a small but loud crowd pretended to reduce all of mathematics to the language of categories. Now at least they have toned down their claims, and category theory has taken its modest place in the mathematical spectrum side by side with lattice theory, more pretentious perhaps than the latter, but with a good pedigree. We wish there were two versions of each of the papers presented at this conference: one for the specialist, as one finds it in this book, and one for the would-be specialist, who needs some direction and encouragement before he or she swallows this morass of definitions.
