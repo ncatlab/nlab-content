@@ -219,7 +219,13 @@ Explicitly using [[type equivalences]]:
  {#ReferencesForQuantumProgrammingLanguages}
 
 
-First, on the problem of debugging quantum programs, as maybe first highlighted by [Rand (2018)](#Rand18) and [Ying & Feng (2018)](#YingFeng18):
+First, on the problem of debugging quantum programs, as maybe first highlighted by [VRSAS 2015](#VRSAS15), [Rand (2018)](#Rand18) and [Ying & Feng (2018)](#YingFeng18):
+
+* {#VRSAS15} [[Benoît Valiron]], [[Neil J. Ross]], [[Peter Selinger]], [[D. Scott Alexander]], [[Jonathan M. Smith]], *Programming the quantum future*, Communications of the ACM **58** 8 (2015) 52–61 &lbrack;[doi:10.1145/2699415](https://doi.org/10.1145/2699415), [pdf](https://www.iro.umontreal.ca/~brassard/cours/6155/Langages%20de%20programmation%20quantique/Programming%20the%20Quantum%20Future.pdf),  [web](https://cacm.acm.org/magazines/2015/8/189851-programming-the-quantum-future/abstract), promo vid:[YT](https://youtu.be/mzce69oFdH0?list=PLn0nrSd4xjjbIHhktZoVlZuj2MbrBBC_f)&rbrack;
+
+  > &lbrack;p 6:&rbrack; "In quantum computation, the cost of debugging is likely to be quite high. To begin with, observing a quantum system can change its state. A debugger for a quantum program would therefore necessarily give incomplete information about its state when run on actual quantum hardware. The alternative is to use a quantum simulator for debugging. But this is not practical due to the exponential cost of simulating quantum systems. Moreover, it can be expected that the initial quantum computers will be rare and expensive to run and therefore that the cost of runtime errors in quantum code will initially be much higher than in classical computing. This shifts the cost-benefit analysis for quantum programming toward strong compile-time correctness guarantees, as well as formal specification and verification."
+
+  > (with an eye towards [[Quipper]])
 
 
 * Andriy Miranskyy, Lei Zhang, Javad Doliskani, *Is Your Quantum Program Bug-Free?*, in *ICSE-NIER '20: Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: New Ideas and Emerging Results* (2020) 29–32 &lbrack;[arXiv:2001.10870](https://arxiv.org/abs/2001.10870), [doi:10.1145/3377816.3381731](https://doi.org/10.1145/3377816.3381731)&rbrack;
@@ -273,8 +279,6 @@ with [[QWIRE]] (in [[Coq]]):
 * [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
 
 * {#Rand18} [[Robert Rand]], *Formally Verified Quantum Programming*, UPenn (2018) &lbrack;[ediss:3175](https://repository.upenn.edu/edissertations/3175)&rbrack;
-
-  > emphasis on [[formal software verification]]:
 
   > &lbrack;p. iv:&rbrack; "We argue that [[quantum programs]] demand [[proof assistant|machine-checkable proofs]] of correctness. We justify this on the basis of the complexity of programs manipulating [[quantum states]], the expense of running [[quantum programs]], and the inapplicability of traditional debugging techniques to programs whose states cannot be examined."
 
