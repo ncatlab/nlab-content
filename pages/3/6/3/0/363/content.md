@@ -16,7 +16,7 @@
 
 ## Idea
 
-A *$Gray$-category* (or *Gray category() is a certain type of [[semi-strict infinity-category|semi-strict]] [[3-category]], in which [[composition]] is strictly [[associativity|associative]] and [[unitality|unital]], but the [[interchange law]] holds only up to [[coherence|coherent]] [[isomorphism]].
+A *$Gray$-category* (or *Gray category*) is a certain type of [[semi-strict infinity-category|semi-strict]] [[3-category]], in which [[composition]] is strictly [[associativity|associative]] and [[unitality|unital]], but the [[interchange law]] holds only up to [[coherence|coherent]] [[isomorphism]].
 
 
 ## Definition
