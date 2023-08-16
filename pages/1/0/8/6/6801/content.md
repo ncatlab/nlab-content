@@ -32,7 +32,7 @@ A limit of the [[worldvolume]] theory of the [[NS5-brane]], which is a [[string 
 
 The original reference is
 
-* [[Nathan Seiberg]], _New theories in six dimensions and matrix description of M-theory on $T^5$ and $T^5/\mathbb{Z}_2$_ Phys. Lett. B408 (1997) 98&#8211;104 ([arXiv:arXiv:hep-th/9705221](http://xxx.lanl.gov/abs/arXiv:hep-th/9705221))
+* [[Nathan Seiberg]], _New theories in six dimensions and matrix description of M-theory on $T^5$ and $T^5/\mathbb{Z}_2$_ Phys. Lett. B408 (1997) 98&#8211;104 ([arXiv:hep-th/9705221](https://arxiv.org/abs/hep-th/9705221))
 
 Review is in 
 
