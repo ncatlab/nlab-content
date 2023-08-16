@@ -300,9 +300,9 @@ Proposals for a genuine [[syntax]] for dependent linear type theory:
 
 * Ulrich Schöpp and Ian Stark, _A Dependent Type Theory with Names and Binding_, In Computer Science Logic: Proceedings of the 18th International Workshop CSL 2004, Karpacz, Poland, September 20–24, 2004, Lecture Notes in Computer Science 3210, pages 235–249. Springer-Verlag.  [web](https://homepages.inf.ed.ac.uk/stark/names+binding.html)
 
-* [[Eric Finster]], [[Dan Licata]], [[Mitchell Riley]], _Extending Homotopy Type Theory with Linear Type Formers_.  [talk video](https://www.youtube.com/watch?v=sPxtdCtjSDc)
-
 * {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
+
+* [[Mitchell Riley]], *Extending Homotopy Type Theory with Linear Type Formers*, talk at *The ForML Lab* (2021)  &lbrack;[web](https://the-au-forml-lab.github.io/colloquium_talks/Riley.html), [video](https://www.youtube.com/watch?v=sPxtdCtjSDc)&rbrack;
 
 * {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
