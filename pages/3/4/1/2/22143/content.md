@@ -9,8 +9,18 @@ Exposition of the general idea of [[quantum programming languages]] for [[classi
 
 * [[Benoît Valiron]], [[Neil J. Ross]], [[Peter Selinger]], [[D. Scott Alexander]], [[Jonathan M. Smith]], *Programming the quantum future*, Communications of the ACM **58** 8 (2015) 52–61 &lbrack;[doi:10.1145/2699415](https://doi.org/10.1145/2699415), [pdf](https://www.iro.umontreal.ca/~brassard/cours/6155/Langages%20de%20programmation%20quantique/Programming%20the%20Quantum%20Future.pdf),  [web](https://cacm.acm.org/magazines/2015/8/189851-programming-the-quantum-future/abstract), promo vid:[YT](https://youtu.be/mzce69oFdH0?list=PLn0nrSd4xjjbIHhktZoVlZuj2MbrBBC_f)&rbrack;
 
-On [[quantum programming languages]] ([[programming languages]] for [[quantum computation]]):
+On the historical attidude of the community:
 
+> &lbrack;[Selinger (2016)](Quipper#Selinger16):&rbrack; When the [QPL workshop series](https://www.mathstat.dal.ca/~selinger/qpl/) was first founded, it was called "*Quantum Programming Languages*". One year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
+
+> Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing, but the sad thing is: In those days nobody really cared. &lbrack;...&rbrack;
+
+> Now it's 15 years later and several of these parameters have changed: There has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. &lbrack;...&rbrack;
+
+> So now people are working on quantum programming languages *again*.
+
+
+On [[quantum programming languages]] ([[programming languages]] for [[quantum computation]]):
 
 General:
 
