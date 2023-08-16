@@ -62,9 +62,9 @@ Original articles on Quipper:
 
 Introduction and review:
 
-* [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science 7948:110-124, Springer, 2013 ([arXiv:1304.5485](https://arxiv.org/abs/1304.5485))
+* [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science **7948** Springer (2013) 110-124 &lbrack;[arXiv:1304.5485](https://arxiv.org/abs/1304.5485), [doi:10.1007/978-3-642-38986-3_10](https://doi.org/10.1007/978-3-642-38986-3_10)&rbrack;
 
-* [[Peter Selinger]], *Introduction to Quipper*, talk at [QPL2016](qpl2016.cis.strath.ac.uk) (2016) &lbrack;[video](https://youtu.be/59frzb__Eqo)&rbrack;
+* [[Peter Selinger]], *Introduction to Quipper*, talk at [QPL2016](http://qpl2016.cis.strath.ac.uk) (2016) &lbrack;[video](https://youtu.be/59frzb__Eqo)&rbrack;
 
 On quantum [[software verification]] for/with Quipper:
 
