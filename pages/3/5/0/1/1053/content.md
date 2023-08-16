@@ -84,7 +84,7 @@ Although linear logic is traditionally presented in terms of [[inference rules]]
 
 With the archetypical [[categorical semantics]] of linear logic in the [[compact closed category]] of [[finite dimensional vector spaces]] in mind, which is the habitat of [[quantum information theory]] (see [[quantum information theory via dagger-compact categories|there]] for more), one may naturally understand linear logic as a form of [[quantum logic]] &lbrack;[Pratt (1992)](#Pratt92)&rbrack; and in its natural [[propositions as types|enhancement]] to [[linear type theory]] also as a [[quantum circuit]]-[[quantum programming language|language]] &lbrack;[Abramsky & Duncan (2006)](#AbramskyDuncan06); [Duncan (2006)](#Duncan06)&rbrack;.
 
-> &lbrack;[Dal Lago & Faggian (2012)](#DalLagoFaggian12)&rbrack;: "It’s more and more clear that strong relationships exist between [[linear logic]] and [[quantum computation]]. This seems to go well beyond the easy observation that the intrinsic resource-consciousness of
+> {#DalLagoFaggianQuote} &lbrack;[Dal Lago & Faggian (2012)](#DalLagoFaggian12)&rbrack;: "It’s more and more clear that strong relationships exist between [[linear logic]] and [[quantum computation]]. This seems to go well beyond the easy observation that the intrinsic resource-consciousness of
 linear logic copes well with the [[no-cloning theorem|impossibility of cloning and erasing]] qubits."
 
 > &lbrack;[Staton (2015), p. 1](#Staton15)&rbrack;: "A [[quantum programming language]] captures the ideas of [[quantum computation]] in a [[linear type theory]]." 
