@@ -5,19 +5,25 @@ The first proposal towards formalizing quantum programming languages was:
 
 * {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, Los Alamos Technical Report (1996) $[$[LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [doi:10.2172/366453](https://doi.org/10.2172/366453), [pdf](https://www.osti.gov/servlets/purl/366453), [[Knill-QuantumPseudocode.pdf:file]]$]$
 
-Exposition of the general idea of [[quantum programming languages]] for [[classically controlled quantum computation]] with an eye towards the [[Quipper]]-language:
+and early formalization via [[quantum lambda-calculus]] invoking [[linear logic]]/[[linear type theory|linear types]] (cf. [Pratt 1992](#Pratt92) etc.):
 
-* [[Benoît Valiron]], [[Neil J. Ross]], [[Peter Selinger]], [[D. Scott Alexander]], [[Jonathan M. Smith]], *Programming the quantum future*, Communications of the ACM **58** 8 (2015) 52–61 &lbrack;[doi:10.1145/2699415](https://doi.org/10.1145/2699415), [pdf](https://www.iro.umontreal.ca/~brassard/cours/6155/Langages%20de%20programmation%20quantique/Programming%20the%20Quantum%20Future.pdf),  [web](https://cacm.acm.org/magazines/2015/8/189851-programming-the-quantum-future/abstract), promo vid:[YT](https://youtu.be/mzce69oFdH0?list=PLn0nrSd4xjjbIHhktZoVlZuj2MbrBBC_f)&rbrack;
+* [[Benoît Valiron]], *A functional programming language for quantum computation with classical control*, MSc thesis, University of Ottawa (2004) $[$[doi:10.20381/ruor-18372](http://dx.doi.org/10.20381/ruor-18372), [pdf](https://ruor.uottawa.ca/bitstream/10393/26790/1/MR01625.PDF)$]$
 
-On the historical attidude of the community:
+* {#SelingerValiron04} [[Peter Selinger]], [[Benoît Valiron]], *A lambda calculus for quantum computation with classical control*, Proc. of TLCA 2005 $[$[arXiv:cs/0404056](https://arxiv.org/abs/cs/0404056), [doi:10.1007/11417170_26](https://doi.org/10.1007/11417170_26)$]$
+
+* {#SelingerValiron09} [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 135-172 $[$[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)$]$
 
 > &lbrack;[Selinger (2016)](Quipper#Selinger16):&rbrack; When the [QPL workshop series](https://www.mathstat.dal.ca/~selinger/qpl/) was first founded, it was called "*Quantum Programming Languages*". One year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
 
-> Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing, but the sad thing is: In those days nobody really cared. &lbrack;...&rbrack;
+> Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing $[$[Selinger & Valiron 2004](#SelingerValiron04)$]$, but the sad thing is: In those days nobody really cared. $[...]$
 
-> Now it's 15 years later and several of these parameters have changed: There has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. &lbrack;...&rbrack;
+> Now it's 15 years later and several of these parameters have changed: There has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. $[...]$.
 
 > So now people are working on quantum programming languages *again*.
+
+Exposition of the general idea of [[quantum programming languages]] for [[classically controlled quantum computation]] with an eye towards the [[Quipper]]-language:
+
+* [[Benoît Valiron]], [[Neil J. Ross]], [[Peter Selinger]], [[D. Scott Alexander]], [[Jonathan M. Smith]], *Programming the quantum future*, Communications of the ACM **58** 8 (2015) 52–61 $[$[doi:10.1145/2699415](https://doi.org/10.1145/2699415), [pdf](https://www.iro.umontreal.ca/~brassard/cours/6155/Langages%20de%20programmation%20quantique/Programming%20the%20Quantum%20Future.pdf),  [web](https://cacm.acm.org/magazines/2015/8/189851-programming-the-quantum-future/abstract), promo vid:[YT](https://youtu.be/mzce69oFdH0?list=PLn0nrSd4xjjbIHhktZoVlZuj2MbrBBC_f)$]$
 
 
 On [[quantum programming languages]] ([[programming languages]] for [[quantum computation]]):
@@ -81,10 +87,6 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 * {#AltenkirchGrattage05} [[Thorsten Altenkirch]], [[Jonathan Grattage]], _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 Page(s):249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
 
 * [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, talk at *Quantum Physics and Logic 2008*, ENTCS: Proceedings of QPL V - DCV IV, 157-165, Reykjavik, Iceland, 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
-
-**[[quantum lambda calculus]]**:
-
-* [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, Semantic Techniques in Quantum Computation, Cambridge University Press (2009) 135-172 $[$[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)$]$
 
 
 **[[quantum IO monad]]:**
