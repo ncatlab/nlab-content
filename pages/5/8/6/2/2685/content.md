@@ -2,8 +2,20 @@
 * [wikipedia](http://en.wikipedia.org/wiki/Richard_Feynman)
 
 
+## Selected writings
 
-## Related $n$Lab entries
+Early discussion of [[quantum computation]]
+
+* {#Feynman82} [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys **21** (1982) 467–488 &lbrack;[doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179)&rbrack;
+
+  > "because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical"
+
+and [[quantum gates]]/[[quantum circuits]]:
+
+* [[Richard Feynman]], *Quantum mechanical computers*, Foundations of Physics **16** (1986) 507–531 &lbrack;[doi:10.1007/BF01886518](https://doi.org/10.1007/BF01886518)&rbrack;
+
+
+## Related entries
 
 * [[perturbative quantum field theory]]
 
