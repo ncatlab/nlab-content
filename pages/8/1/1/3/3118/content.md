@@ -3,18 +3,27 @@
 
 ## Selected writings
 
-Introducing [[quantum programming]]:
-
-via [[QPL]]:
+Early consideration of [[quantum programming languages]] ([[QPL]]):
 
 * {#Selinger04} [[Peter Selinger]], _Towards a quantum programming language_, Mathematical Structures in Computer Science 14(4):527–586, 2004 ([doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl))
 
-via [[quantum lambda-calculus]]:
+via [[quantum lambda-calculus]] invoking [[linear type theory|linear types]]:
 
-* [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, Semantic Techniques in Quantum Computation, Cambridge University Press (2009) 135-172 &lbrack;[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)&rbrack;
+* {#SelingerValiron04} [[Peter Selinger]], [[Benoît Valiron]], *A lambda calculus for quantum computation with classical control*, Proc. of TLCA 2005 $[$[arXiv:cs/0404056](https://arxiv.org/abs/cs/0404056), [doi:10.1007/11417170_26](https://doi.org/10.1007/11417170_26)$]$
+
+* {#SelingerValiron09} [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 135-172 $[$[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)$]$
 
 
-via [[Quipper]]:
+> &lbrack;[Selinger (2016)](Quipper#Selinger16):&rbrack; When the [QPL workshop series](https://www.mathstat.dal.ca/~selinger/qpl/) was first founded, it was called "*Quantum Programming Languages*". One year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
+
+> Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing $[$[Selinger & Valiron 2004](#SelingerValiron04)$]$, but the sad thing is: In those days nobody really cared. $[...]$
+
+> Now it's 15 years later and several of these parameters have changed: There has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. $[...]$.
+
+> So now people are working on quantum programming languages *again*.
+
+
+then via [[Quipper]]:
 
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: A Scalable Quantum Programming Language_, ACM SIGPLAN Notices 48(6):333-342, 2013 ([arXiv:1304.3390](https://arxiv.org/abs/1304.3390))
 
