@@ -106,15 +106,15 @@ The definition of [[internal category|internal]] cofunctor between [[internal ca
 
 The characterization of cofunctors as morphisms between directed [[polynomial functor|containers]] is developed in the papers: 
 
-* {#AhmanUustalu16} Danel Ahman, [[Tarmo Uustalu]], _Directed Containers as Categories_, EPTCS, 207, 2016 ([doi:10.4204/EPTCS.207.5](http://dx.doi.org/10.4204/EPTCS.207.5))
+* {#AhmanUustalu16} [[Danel Ahman]], [[Tarmo Uustalu]], _Directed Containers as Categories_, EPTCS, 207, 2016 ([doi:10.4204/EPTCS.207.5](http://dx.doi.org/10.4204/EPTCS.207.5))
 
-* {#AhmanUustalu17} Danel Ahman, [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
+* {#AhmanUustalu17} [[Danel Ahman]], [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
 
 The link between cofunctors, [[delta lenses]], and split [[Grothendieck fibration|Grothendieck opfibrations]] is developed in the papers: 
 
-* {#Clarke20a} Bryce Clarke, _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
+* {#Clarke20a} [[Bryce Clarke]], _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
 
-* {#Clarke20b} Bryce Clarke, _Internal split opfibrations and cofunctors_, Theory and Applications of Categories, 35, 2020 ([link](http://www.tac.mta.ca/tac/volumes/35/44/35-44abs.html))
+* {#Clarke20b} [[Bryce Clarke]], _Internal split opfibrations and cofunctors_, Theory and Applications of Categories, 35, 2020 ([link](http://www.tac.mta.ca/tac/volumes/35/44/35-44abs.html))
 
 Cofunctors between [[groupoid|groupoids]] and the link with [[inner automorphism|inner automorphisms]] of groupoids is explored in the paper: 
 
@@ -128,9 +128,13 @@ A detailed account of the relationship between cofunctors and polynomials appear
 
 * {#SpivakNiu21} [[David Spivak]], Nelson Niu, _Polynomial Functors: A General Theory of Interaction_, 2021 ([pdf](https://topos.site/poly-book.pdf))
 
+Enrichment in the category of $\mathbf{Cof}$ of categories and cofunctors is considered in the paper: 
+
+* [[Kristopher Brown]], [[David I. Spivak]], _Dynamic Tracing: a graphical language for rewriting protocols_, 2023. ([arXiv:2304.14950](https://arxiv.org/abs/2304.14950))
+
 The terminology _retrofunctor_ was introduced in:
 
-* Matthew Di Meglio. _The category of asymmetric lenses and its proxy pullbacks_. Master’s thesis. Macquarie University, 2021. doi: 10.25949/20236449, [pdf](https://mdimeglio.github.io/papers/The_category_of_asymmetric_lenses_and_its_proxy_pullbacks.pdf)
+* [[Matthew Di Meglio]], _The category of asymmetric lenses and its proxy pullbacks_. Master’s thesis. Macquarie University, 2021. doi: 10.25949/20236449, [pdf](https://mdimeglio.github.io/papers/The_category_of_asymmetric_lenses_and_its_proxy_pullbacks.pdf)
 
 The terminology is justified by the fact that retrofunctors are [[monad retromorphisms]] in the double category $Span(Set)$.
 
