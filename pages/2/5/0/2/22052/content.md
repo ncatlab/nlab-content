@@ -14,6 +14,10 @@ On the [[combinatorics]] of n-categorical [[pasting]]:
 
 * [[Michael Johnson]], _The combinatorics of n-categorical pasting_, Journal of Pure and Applied Algebra, Vol. 62, No. 3, 1989, pp. 211-225. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90136-9">doi:10.1016/0022-4049(89)90136-9</a>&rbrack;
 
+On representations of [[universal algebras|universal algebra]] by [[sheaves]] of [[quotient algebras]]: 
+
+* [[Michael Johnson]] and Shu-Hao Sun, _Remarks on representations of universal algebras by sheaves of quotient algebras_, Proceedings of the 1991 Summer Category Theory Meeting, 1992. (<a class='existingWikiWord' href='/nlab/files/johnson-sun-1992.pdf' title='Remarks on representations of universal algebras by sheaves of quotient algebras'>pdf</a>)
+
 On well-behaved [[lenses (in computer science)]] as the [[coalgebra over a comonad|coalgebras]] over the [[costate comonad]]:
 
 * {#GibbonsJohnson12} [[Jeremy Gibbons]], [[Michael Johnson]], *Relating Algebraic and Coalgebraic Descriptions of Lenses*, Electronic Communications of the EASST **49** (2012) &lbrack;[doi:10.14279/tuj.eceasst.49.726](http://dx.doi.org/10.14279/tuj.eceasst.49.726), [pdf](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/colens.pdf)&rbrack;
