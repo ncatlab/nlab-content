@@ -165,9 +165,9 @@ and for [[heterotic string theory]] in
 
 * [[David Gross]], J.A. Harvey, E.J. Martinec and R. Rohm, _Heterotic String Theory (II). The interacting heterotic string_, Nucl. Phys. B267 (1986) 75.
 
-The description of [[2-loop]] amplitudes, including the integration over the super-[[moduli space of conformal structures]] in superstring theory:
+The description of [[2-loop]] amplitudes, including the [[Berezin integral]] over the super-[[moduli space of super Riemann surfaces]] in superstring theory:
 
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings I, Main Formulas_, Phys. Lett. B529:241-255, 2002 ([arXiv:hep-th/0110247](http://arxiv.org/abs/hep-th/0110247))
+* {#DHokerPhong02} [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings I, Main Formulas_, Phys. Lett. B529:241-255, 2002 ([arXiv:hep-th/0110247](http://arxiv.org/abs/hep-th/0110247))
 
 * [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings II, The Chiral Measure on Moduli Space_, Nucl. Phys. B636:3-60, 2002 ([arXiv:hep-th/0110283](http://arxiv.org/abs/hep-th/0110283))
 
