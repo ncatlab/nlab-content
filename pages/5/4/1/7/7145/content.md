@@ -50,9 +50,9 @@ On the historical origin of the notion, cf. eg. [Gordon, Kusraev & Kutateladze 2
 
 The term "monad" (*μονάς*) here is traditionally translated as "unit" without mentioning of the original terminology.
 
-More explicitly, [Kutateladze 2006](#Kutateladze06) ([p. 2](https://arxiv.org/pdf/math/0608298.pdf#page=2)) suggests to understand this as *conceptual units for the purpose of counting*  -- and thus to read the phrase "is called one" in [Def. 1](#ElementsVIIDef1) in the sense of counting, as in counting sheep: "one sheep here, another one there" -- which happens *by virtue* of an identification (what today we would call a [[bijection]] with a [[finite set]]): While sheep are different from geometrical points, we still regard them as "indivisible units of sheep" for the purpose of counting them.
+More explicitly, [Kutateladze 2006](#Kutateladze06) ([p. 2](https://arxiv.org/pdf/math/0608298.pdf#page=2)) suggests to understand this as *conceptual units for the purpose of counting*  -- and thus to read the phrase "is called one" in [Def. 1](#ElementsVIIDef1) in the sense of counting, as in: "one sheep here, another one there" -- which happens *by virtue* of an identification (what today we would call a [[bijection]] with a [[finite set]]): While sheep are not atoms, we still regard them as "indivisible units of sheep" for the purpose of counting them.
 
-This would explain the distinction between Euclid's notion of monads and that of geometrical points from [Book I](http://aleph0.clarku.edu/~djoyce/elements/bookI/defI1.html) of the *[[Elements]]*:
+This brings out the distinction between Euclid's notion of monads and that of geometrical points from [Book I](http://aleph0.clarku.edu/~djoyce/elements/bookI/defI1.html) of the *[[Elements]]*:
 
 > **Book I, Definition 1**
 
@@ -62,11 +62,13 @@ This would explain the distinction between Euclid's notion of monads and that of
 
 While sheep are not actually without parts, we do have a "monadic" notion of their *conceptual* indivisible unit by virtue of which we call any sheep "one sheep" such as to count them *one-by-one*.
 
-In other words: 
+In summary: 
 
-Where Euclid's *points* are atoms in the sense of [[geometry]], 
-\linebreak
-so his *monads* are units in the sense of [[arithmetic]].
+<center>
+Where Euclid's points are atoms in the sense of [[geometry]], 
+</br>
+so his monads are units in the sense of [[arithmetic]].
+</center>
 
 
 ### Middle Ages and Early Modern Period: Monads as metaphysical units
@@ -111,7 +113,7 @@ It certainly seems (but remains implicit) that [Robinson 1966 (p. 57)](nonstanda
 
 referring to [[infinitesimal neighbourhoods]] in [[nonstandard analysis]] (as such also used in [[synthetic differential geometry]], cf. [Kock 1980](infinitesimal+neighborhood#Kock80)).
 
-While the [[infinitesimal neighbourhood]] of a point is more than that point, it does not contain any two distinct ([[global element|global]]) [[points]] and in this sense is indivisible, whence the "monad"-terminology seems well-motivated here, in view of the [above](#HistoricalOrigins).
+While the [[infinitesimal neighbourhood]] of a point is more than that point, it does not contain any two distinct ([[global element|global]]) [[points]] and in this sense is indivisible, whence the "monad"-terminology here seems to match well with the [original notion by Euclid](#Euclid).
 
 
 ## Monads on categories
