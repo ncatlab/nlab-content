@@ -113,9 +113,11 @@ Finally, in addition to these usual "denotational" categorical semantics, linear
 
 ## Related concepts
 
-* [[dependent linear type theory]]
-
 * [[quantum logic]], [[quantum programming]]
+
+* [[quantum lambda-calculus]]
+
+* [[dependent linear type theory]]
 
 * [[propositions as projections]]
 
