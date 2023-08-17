@@ -1,4 +1,13 @@
 
+> {#Blurb} **Cover blurb:** This book presents a novel development of fundamental and fascinating aspects of [[algebraic topology]] and [[mathematical physics]]: “[[Whitehead-generalized cohomology|extra-ordinary]]” and further [[generalized cohomology theories]] enhanced to "[[twisted cohomology|twisted]]" and [[differential cohomology|differential]]-geometric form with focus on their [[rational homotopy theory|rational approximation]] by [[Chern-Dold character|generalized Chern character]] maps and on the resulting [[charge quantization]] laws in [[higher gauge theory|higher $n$-form gauge field theories]] appearing in [[string theory]] and in the [[K-theory classification of topological phases of matter|classification of]] [[topological phase of matter|topological]] [[quantum materials]]. 
+
+> Motivation for the conceptual re-development is the observation, laid out in the introductory chapter, that famous and famously elusive effects in strongly interacting (“[[non-perturbative physics|non-perturbative]]”) [[quantum field theory|physics]] demand "[[non-abelian cohomology|non-abelian]]” generalization of much of established [[generalized cohomology theory]]. But the relevant higher [[non-abelian cohomology]] theory ("[[principal infinity-bundle|higher gerbes]]") has an esoteric reputation and has remained underdeveloped.
+
+> The book's theme is that variously [[generalized cohomology theories]] are best viewed through their [[classifying spaces]] -- possibly but not necessarily [[infinite-loop spaces]] -- from which perspective the [[Chern-Dold character|character map]] is really an incarnation of the [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem of rational homotopy theory]], thereby uniformly subsuming not only the classical [[Chern character]] and a multitude of scattered variants that have been proposed, but now seamlessly applying in the previously elusive generality of ([[twisted cohomology|twisted]], [[differential cohomology|differential]] and) [[non-abelian cohomology]].
+
+> In laying out this result with plenty of examples, we provide modernized introduction and review of fundamental classical topics: 1. abstract [[homotopy theory]] via [[model categories]], 2. [[generalized cohomology]] in [[homotopy theory|homotopical]] incarnation, 3. [[dg-algebra|dg-algebraic]] [[rational homotopy theory]], whose [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem]] we re-cast as a (twisted) non-abelian de Rham theorem which naturally induces the (twisted) non-abelian character map.
+
+
 $\Sigma$
 
 $\mathfrak{M}$
