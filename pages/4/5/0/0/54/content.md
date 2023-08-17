@@ -38,13 +38,13 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 I am researching mathematical and fundamental physics (e.g. on *[[Hypothesis H]]* and *[[schreiber:Quantum Certification via Linear Homotopy Types|Quantum Systems]]*).
 
-For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References)
+For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
 ## selected talks
 
 * **[[schreiber:Topological Quantum Gates from M-Theory|Topological Quantum Gates from M-Theory]]** 
 
-  [talk at](M-Theory+and+Mathematics#Schreiber2023) *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*
+  [talk at](M-Theory+and+Mathematics#Schreiber2023): *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*
   
   video: [YT](https://www.youtube.com/watch?v=Ob9tOgWumPI)
 
@@ -60,13 +60,13 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 * **[[schreiber:Topological Quantum Programming in TED-K]]**
 
-  [talk at](https://planqc2022.hotcrp.com/paper/33) *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
+  [talk at](https://planqc2022.hotcrp.com/paper/33): *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
 
   video: [YT](https://www.youtube.com/watch?v=hDwXQVcloB8&feature=emb_logo)
 
 * **[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in Homotopy Type Theory]]**
 
-  [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#SchreiberMar2023) *[QFT and Cobordism 2023](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)*
+  [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#SchreiberMar2023): *[QFT and Cobordism 2023](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)*
 
   video: [YT](https://www.youtube.com/watch?v=pu5bpJ263X0)
 
@@ -80,7 +80,32 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 * & those about *[Hypothesis H](https://ncatlab.org/nLab/show/Hypothesis%20H#References)*
 
-* monographs on the [[nLab]]:
+
+recent monograph:
+
+<div style="float:right;margin:0px 0px 0px 20px;">
+<a href="https://doi.org/10.1142/13422 "><img src="https://ncatlab.org/schreiber/files/CharacterMap-WSCover.jpg" width="300"></a> 
+</div>
+
+* **[[schreiber:The Character Map in Non-Abelian Cohomology]]**
+
+  (with [[Domenico Fiorenza|D. Fiorenza]] & [[Hisham Sati|H. Sati]])
+
+  World Scientific (2023)
+
+  &lbrack;[doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+
+> {#Blurb} **Cover blurb:** This book presents a novel development of fundamental and fascinating aspects of [[algebraic topology]] and [[mathematical physics]]: “[[Whitehead-generalized cohomology|extra-ordinary]]” and further [[generalized cohomology theories]] enhanced to "[[twisted cohomology|twisted]]" and [[differential cohomology|differential]]-geometric form with focus on their [[rational homotopy theory|rational approximation]] by [[Chern-Dold character|generalized Chern character]] maps and on the resulting [[charge quantization]] laws in [[higher gauge theory|higher $n$-form gauge field theories]] appearing in [[string theory]] and in the [[K-theory classification of topological phases of matter|classification of]] [[topological phase of matter|topological]] [[quantum materials]]. 
+
+> Motivation for the conceptual re-development is the observation, laid out in the introductory chapter, that famous and famously elusive effects in strongly interacting (“[[non-perturbative physics|non-perturbative]]”) [[quantum field theory|physics]] demand "[[non-abelian cohomology|non-abelian]]” generalization of much of established [[generalized cohomology theory]]. But the relevant higher [[non-abelian cohomology]] theory ("[[principal infinity-bundle|higher gerbes]]") has an esoteric reputation and has remained underdeveloped.
+
+> The book's theme is that variously [[generalized cohomology theories]] are [[cohomology|best viewed]] through their [[classifying spaces]] -- possibly but not necessarily [[infinite-loop spaces]] -- from which perspective the [[Chern-Dold character|character map]] is really an incarnation of the [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem of rational homotopy theory]], thereby uniformly subsuming not only the classical [[Chern character]] and a multitude of scattered variants that have been proposed, but now seamlessly applying in the previously elusive generality of ([[twisted cohomology|twisted]], [[differential cohomology|differential]] and) [[non-abelian cohomology]].
+
+> In laying out this result with plenty of examples, we provide modernized introduction and review of fundamental classical topics: 1. abstract [[homotopy theory]] via [[model categories]], 2. [[generalized cohomology]] in [[homotopy theory|homotopical]] incarnation, 3. [[dg-algebra|dg-algebraic]] [[rational homotopy theory]], whose [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem]] we re-cast as a (twisted) non-abelian [[de Rham theorem]] which naturally induces the (twisted) non-abelian character map.
+
+  
+
+* further monographs on the [[nLab]]:
 
   * _[[schreiber:Introduction to Homological algebra]]_
 
@@ -111,7 +136,7 @@ For more on the $n$Lab, see:
 
 * me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
 
-  (presentation at *[Big Data in Pure Mathematics 2022](http://math.bu.edu/people/matschke/BigDataPureMath2022/)*)
+  (presentation at: *[Big Data in Pure Mathematics 2022](http://math.bu.edu/people/matschke/BigDataPureMath2022/)*)
 
 * Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
 
