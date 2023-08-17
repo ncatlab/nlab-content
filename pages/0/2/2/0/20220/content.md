@@ -262,7 +262,8 @@ Comm. Math. Phys. **377**  (2020) 1961-2025 ([doi:10.1007/s00220-020-03707-2](ht
 
 surveyed in:
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Sec. 5.3 of: *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology]]* ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalizaed]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+
 
 
 
