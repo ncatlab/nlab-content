@@ -71,10 +71,12 @@ so his monads are units in the sense of [[arithmetic]].
 </center>
 
 
-### Middle Ages and Early Modern Period: Monads as metaphysical units
- {#MiddleAges}
+### Monads as metaphysical units
+ {#metaphysics}
 
-In the middle ages the primarily mathematical monad terminology of the ancients ([above](#Euclid)) receives a metaphysical and/or spiritual or even religious connotation, as in
+Alongside the primarily mathematical monad terminology of the ancients ([above](#Euclid)), there had also been a metaphysical and/or spiritual or even religious connotation. This derives in part from [[Pythagorean]] doctrines, and later from neo-Platonic (e.g., with Plotinus) and [[gnosticism|gnostic]] thought in the early centuries of the Christian era, where God is identified with the One.
+
+Such speculation continued through the Middle ages, e.g., in Thomas Aquinas's discussion on the Trinity ([Summa Theologica](https://www.ccel.org/ccel/aquinas/summa.FP_Q32_A1.html)), and continued into the Early Modern period, as with
 
 * [[Giordano Bruno]], *[De triplici minimo](https://www.digitale-sammlungen.de/de/view/bsb10205694?page=1)* (1591)
 
