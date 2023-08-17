@@ -36,17 +36,36 @@ _Quipper_ is a [[functional programming language|functional]] [[quantum programm
 
 ## References
 
-### General
 
-Resources:
+Quipper landing page:
 
-* [[Peter Selinger]], _The Quipper Language_ ([web](http://www.mathstat.dal.ca/~selinger/quipper/))
-
+* [www.mathstat.dal.ca/~selinger/quipper](http://www.mathstat.dal.ca/~selinger/quipper)
 
 
-Precursor discussion:
+### Precursors
+
+Quipper has grown out of developments initiated in
 
 * {#Selinger04} [[Peter Selinger]], _Towards a quantum programming language_, Mathematical Structures in Computer Science **14** 4 (2004) 527–586 &lbrack;[doi:10.1017/S0960129504004256](https://doi.org/10.1017/S0960129504004256), [pdf](https://www.mathstat.dal.ca/~selinger/papers/qpl.pdf),  [web](https://www.mathstat.dal.ca/~selinger/papers.html#qpl)&rbrack;
+
+and specifically the [[quantum lambda-calculus]] of:
+
+* [[Benoît Valiron]], *A functional programming language for quantum computation with classical control*, MSc thesis, University of Ottawa (2004) $[$[doi:10.20381/ruor-18372](http://dx.doi.org/10.20381/ruor-18372), [pdf](https://ruor.uottawa.ca/bitstream/10393/26790/1/MR01625.PDF)$]$
+
+* {#SelingerValiron04} [[Peter Selinger]], [[Benoît Valiron]], *A lambda calculus for quantum computation with classical control*, Proc. of TLCA 2005 $[$[arXiv:cs/0404056](https://arxiv.org/abs/cs/0404056), [doi:10.1007/11417170_26](https://doi.org/10.1007/11417170_26)$]$
+
+* {#SelingerValiron09} [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 135-172 $[$[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)$]$
+
+> &lbrack;[Selinger (2016)](Quipper#Selinger16):&rbrack; When the [QPL workshop series](https://www.mathstat.dal.ca/~selinger/qpl/) was first founded, it was called "*Quantum Programming Languages*". One year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
+
+> Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing $[$[Selinger & Valiron 2004](#SelingerValiron04)$]$, but the sad thing is: In those days nobody really cared. $[...]$
+
+> Now it's 15 years later and several of these parameters have changed: There has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. $[...]$.
+
+> So now people are working on quantum programming languages *again*.
+
+
+### Quipper as such
 
 Exposition of the general idea of [[quantum programming languages]] for [[classically controlled quantum computation]] with an eye towards the `Quipper`-language:
 
@@ -69,6 +88,10 @@ Introduction and review:
 * [[Alexander Green]], [[Peter LeFanu Lumsdaine]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _An Introduction to Quantum Programming in Quipper_, Lecture Notes in Computer Science **7948** Springer (2013) 110-124 &lbrack;[arXiv:1304.5485](https://arxiv.org/abs/1304.5485), [doi:10.1007/978-3-642-38986-3_10](https://doi.org/10.1007/978-3-642-38986-3_10)&rbrack;
 
 * {#Selinger16} [[Peter Selinger]], *Introduction to Quipper*, talk at [QPL2016](http://qpl2016.cis.strath.ac.uk) (2016) &lbrack;[video](https://youtu.be/59frzb__Eqo)&rbrack;
+
+Example algorithms:
+
+* Safat Siddiqui, Mohammed Jahirul Islam, Omar Shehab, *Five Quantum Algorithms Using Quipper* &lbrack;[arXiv:1406.4481](https://arxiv.org/abs/1406.4481)&rbrack;
 
 On quantum [[software verification]] for/with Quipper:
 
