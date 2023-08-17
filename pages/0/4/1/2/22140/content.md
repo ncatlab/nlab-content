@@ -1,6 +1,8 @@
 
 * [webpage](https://www.monoidal.net/)
 
+* [InSpire page](https://inspirehep.net/authors/2012244)
+
 ## Selected writings
 Early consideration of [[quantum programming languages]] as [[quantum lambda-calculus]] invoking [[linear type theory|linear types]]:
 
@@ -10,6 +12,8 @@ Early consideration of [[quantum programming languages]] as [[quantum lambda-cal
 
 * {#SelingerValiron09} [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 135-172 &lbrack;[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)&rbrack;
 
+* Pablo Arrighi, Alejandro Díaz-Caro, [[Benoît Valiron]], *A Type System for the Vectorial Aspect of the Linear-Algebraic Lambda-Calculus*, EPTCS **88** (2012) 1-15 &lbrack;[arXiv:1012.4032](https://arxiv.org/abs/1012.4032), [doi:10.4204/EPTCS.88.1](https://doi.org/10.4204/EPTCS.88.1)&rbrack;
+
 > &lbrack;[Selinger (2016)](Quipper#Selinger16):&rbrack; When the [QPL workshop series](https://www.mathstat.dal.ca/~selinger/qpl/) was first founded, it was called "*Quantum Programming Languages*". One year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
 
 > Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing $[$[Selinger & Valiron 2004](#SelingerValiron04)$]$, but the sad thing is: In those days nobody really cared. $[...]$
@@ -17,6 +21,10 @@ Early consideration of [[quantum programming languages]] as [[quantum lambda-cal
 > Now it's 15 years later and several of these parameters have changed: There has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. $[...]$.
 
 > So now people are working on quantum programming languages *again*.
+
+Implementation as an [[embedded programming language]] in [[Haskell]]:
+
+* Richard Eisenberg, [[Benoît Valiron]], Steve Zdancewic, *Typechecking Linear Data: Quantum Computation in Haskell* &lbrack;[[EisenbergValironZdancewic-LinearData.pdf:file]]&rbrack;
 
 
 Introducing the [[functional programming language|functional]] [[quantum programming language]] [[Quipper]]:
@@ -37,6 +45,11 @@ On [[dynamic lifting]] (of [[quantum measurement]]-results) in [[quantum program
 * [[Dongho Lee]], Sebastien Bardin, [[Valentin Perrelle]], [[Benoît Valiron]], *Formalization of a Programming Language for Quantum Circuits with Measurement and Classical Control*, talk at *[Journées Informatique Quantique 2019](https://quantcert.github.io/GT-IQ'19/)* (Nov 2019) &lbrack;[pdf](https://quantcert.github.io/GT-IQ%2719/slides/Lee.pdf), [[LBPV_QCWithClassicalControl.pdf:file]]&rbrack;
 
 * [[Dongho Lee]], [[Valentin Perrelle]], [[Benoît Valiron]], Zhaowei Xu, *Concrete Categorical Model of a Quantum Circuit Description Language with Measurement*, Leibniz International Proceedings in Informatics **213** (2021) 51:1-51:20 &lbrack;[arXiv:2110.02691](https://arxiv.org/abs/2110.02691), [doi:10.4230/LIPIcs.FSTTCS.2021.51](https://doi.org/10.4230/LIPIcs.FSTTCS.2021.51)&rbrack;
+
+See also:
+
+* Kostia Chardonnet, Marc de Visme, Benoît Valiron, Renaud Vilmart, *The Many-Worlds Calculus* &lbrack;[arXiv:2206.10234](https://arxiv.org/abs/2206.10234)&rbrack; 
+
 
 
 ## Related entries
