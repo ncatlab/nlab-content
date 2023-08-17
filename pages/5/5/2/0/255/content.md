@@ -24,9 +24,9 @@
 ## Idea
  {#Idea}
 
-In [[category theory]], the notion of *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a [[categorification]] of that of *[[monoid]]*: In their default incarnation monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]].
+In [[category theory]], the notion of *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a kind of [[categorification]] of that of *[[monoid]]*: In their default incarnation monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]]: Monads are [[monoid objects]] [[internalization|internal to]] [[endofunctor|endo]]-[[hom-categories]].
 
-Monads, together with the [[adjunctions]] ([[adjoint functors]]) that they correspond to (see [below](#RelationBetweenAdjunctionsAndMonads)) are among the most pervasive structures in [[category theory]] (where they form the basis of [[categorical algebra|categorical]] and [[universal algebra]]) and in [[mathematics]] more generally (certainly in fields like [[algebraic topology]], [[sheaf and topos theory]] and [[homological algebra]], where the notion originates in the guise of "[[canonical resolutions]]").
+Together with the [[adjunctions]] ([[adjoint functors]]) that they correspond to (see [below](#RelationBetweenAdjunctionsAndMonads)) monads are among the most pervasive structures in [[category theory]] (where they form the basis of [[categorical algebra|categorical]] and [[universal algebra]], whence one speaks of *[[algebras over a monad]]*) and in [[mathematics]] more generally (certainly in fields like [[algebraic topology]], [[sheaf and topos theory]] and [[homological algebra]], where the notion originates in the guise of "[[canonical resolutions]]").
 
 Last not least, monads play a central role in [[formal logic]] (cf. [[modal logic]] and [[modal type theory]]) and in [[computer science]], where they are understood (cf. the "[[computational trilogy]]") as encoding "notions of computation" with "computational effects" in the framework of [[functional programming]]: see at *[[monad (computer science)|monads in computer science]]*.
 
@@ -34,7 +34,7 @@ Last not least, monads play a central role in [[formal logic]] (cf. [[modal logi
 ## Etymology
  {#Etymology}
 
-The exact reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad* seems to be lost to history. The closest contemporary account that seems to exist, [Barr 2009](#Barr09), only recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology "standard construction" and "triple":
+The exact reasoning that made [Bénabou 1967](#Bénabou67) adopt the term *monad* seems to be lost to history. The closest contemporary account that seems to exist, [Barr 2009](#Barr09), only recalls the following exchange, on the backdrop of a widely felt dissatisfaction with the earlier terminology of "standard construction" and "triple":
 
 > In the summer (or maybe late spring, the Oberwohlfach records will show this) of 1966, there was a category meeting there. &lbrack;...&rbrack; One day at lunch or dinner I happened to be sitting next to Jean Benabou and he turned to me and said something like "How about `monad'?" I thought about and said it sounded pretty good to me. So Jean proposed it to the general audience and there was general agreement. It suggested "monoid" of course and it is a monoid in a functor category.
 
