@@ -42,6 +42,9 @@ Review:
 
 * Renato Portugal, *Basic Quantum Algorithms* &lbrack;[arXiv:2201.10574](https://arxiv.org/abs/2201.10574)&rbrack;
 
+Implementation in [[Quipper]]:
+
+* Safat Siddiqui, Mohammed Jahirul Islam, Omar Shehab, §4.1-2 in: *Five Quantum Algorithms Using Quipper* &lbrack;[arXiv:1406.4481](https://arxiv.org/abs/1406.4481)&rbrack;
 
 See also:
 
