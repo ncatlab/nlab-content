@@ -92,3 +92,6 @@ On non-perturbative [[BV-BRST formalism]]:
 [[!redirects nonperturbative QFT]]
 [[!redirects nonperturbative QFTs]]
 
+[[!redirects non-perturbative physics]]
+
+
