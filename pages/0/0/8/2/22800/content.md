@@ -14,6 +14,11 @@ On the rigorous construction of [[Liouville theory]] (from the [[Polyakov action
 
 * [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *The DOZZ formula from the path integral*, Journal of High Energy Physics volume 2018, Article number: 94 (2018) ([arXiv:1803.05418](https://arxiv.org/abs/1803.05418) <a href="https://doi.org/10.1007/JHEP05(2018)094">doi:10.1007/JHEP05(2018)094</a>)
 
+and as a [[functorial field theory]] following [Segal 1988](conformal+field+theory#Segal88):
+
+* [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* &lbrack;[arXiv:2112.14859](https://arxiv.org/abs/2112.14859)&rbrack;
+
+
 
 and via the [[conformal bootstrap]]:
 
