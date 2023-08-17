@@ -70,6 +70,10 @@ Discussion specifically of [[quantum programming languages]] for [[quantum circu
 [[!redirects embedded domain specific programming language]]
 [[!redirects embedded domain specific programming languages]]
 
-
 [[!redirects DSEL]]
 [[!redirects EDSL]]
+
+[[!redirects embedded programming language]]
+[[!redirects embedded programming languages]]
+
+
