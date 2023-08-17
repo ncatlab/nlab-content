@@ -1,4 +1,6 @@
 
+$\mathfrak{M}$
+$\mathcal{M}$
 
 I don't know if all of you know this, but when the QPL workshop series was first founded it was called "*Quantum Programming Languages*". And then one year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
 
