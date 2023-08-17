@@ -1,4 +1,11 @@
 
+
+<center>
+Where Euclid's points are atoms in the sense of [[geometry]], 
+</br>
+so his monads are units in the sense of [[arithmetic]].
+</center>
+
 > {#Blurb} **Cover blurb:** This book presents a novel development of fundamental and fascinating aspects of [[algebraic topology]] and [[mathematical physics]]: “[[Whitehead-generalized cohomology|extra-ordinary]]” and further [[generalized cohomology theories]] enhanced to "[[twisted cohomology|twisted]]" and [[differential cohomology|differential]]-geometric form with focus on their [[rational homotopy theory|rational approximation]] by [[Chern-Dold character|generalized Chern character]] maps and on the resulting [[charge quantization]] laws in [[higher gauge theory|higher $n$-form gauge field theories]] appearing in [[string theory]] and in the [[K-theory classification of topological phases of matter|classification of]] [[topological phase of matter|topological]] [[quantum materials]]. 
 
 > Motivation for the conceptual re-development is the observation, laid out in the introductory chapter, that famous and famously elusive effects in strongly interacting (“[[non-perturbative physics|non-perturbative]]”) [[quantum field theory|physics]] demand "[[non-abelian cohomology|non-abelian]]” generalization of much of established [[generalized cohomology theory]]. But the relevant higher [[non-abelian cohomology]] theory ("[[principal infinity-bundle|higher gerbes]]") has an esoteric reputation and has remained underdeveloped.
