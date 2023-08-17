@@ -27,6 +27,7 @@ On [[dynamical systems]] and their [[categorical systems theory]]:
 
 * [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
 
+* [[David Jaz Myers]], *A general definition of open dynamical systems*, talk at *MIT Category Theory Seminar* (2020) &lbrack;video:[YT](https://youtu.be/8T-Km3taNko)&rbrack;
 
 
 On [[logical topology]] in the context of [[cohesive toposes]], [[modal type theory]] and [[cohesive homotopy type theory]]:
