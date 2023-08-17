@@ -73,7 +73,10 @@ A short introductory/overview note:
 
 * [[Anthony Voutas]], *The basic theory of monads and their connection to universal algebra*, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf), [[Voutas-Monads.pdf:file]]&rbrack;
 
-
 * {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, (2022) &lbrack;[pdf](https://anuyts.github.io/files/keml-diagrams.pdf)&rbrack;
+
+Discussion via [[sheaves]] of quotient algebras:
+
+* [[Michael Johnson]] and Shu-Hao Sun, _Remarks on representations of universal algebras by sheaves of quotient algebras_, Proceedings of the 1991 Summer Category Theory Meeting, 1992. (<a class='existingWikiWord' href='/nlab/files/johnson-sun-1992.pdf' title='Remarks on representations of universal algebras by sheaves of quotient algebras'>pdf</a>)
 
 [[!redirects universal algebras]]
