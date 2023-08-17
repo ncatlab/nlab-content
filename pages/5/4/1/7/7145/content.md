@@ -62,9 +62,11 @@ This would explain the distinction between Euclid's notion of monads and that of
 
 While sheep are not actually without parts, we do have a "monadic" notion of their *conceptual* indivisible unit by virtue of which we call any sheep "one sheep" such as to count them *one-by-one*.
 
-Maybe in other words: 
+In other words: 
 
-Where Euclid's *points* are atoms in the sense of [[geometry]], so his *monads* are units in the sense of [[arithmetic]].
+Where Euclid's *points* are atoms in the sense of [[geometry]], 
+\linebreak
+so his *monads* are units in the sense of [[arithmetic]].
 
 
 ### Middle Ages and Early Modern Period: Monads as metaphysical units
