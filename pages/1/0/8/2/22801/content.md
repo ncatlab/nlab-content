@@ -26,6 +26,9 @@ and via the [[conformal bootstrap]]:
 
 * [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], _Conformal bootstrap in Liouville Theory_ ([arxiv:2005.11530](https://arxiv.org/abs/2005.11530))
 
+and as a [[functorial field theory]] following [Segal 1988](conformal+field+theory#Segal88):
+
+* [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* &lbrack;[arXiv:2112.14859](https://arxiv.org/abs/2112.14859)&rbrack;
 
 
 category: people
