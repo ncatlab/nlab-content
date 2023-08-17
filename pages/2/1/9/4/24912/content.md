@@ -12,6 +12,10 @@ A [[quantum computation]]-analog of the classical [[lambda calculus]], using [[l
 
 ## Related concepts
 
+* [[lambda-calculus]]
+
+* [[linear type theory]]
+
 * [[quantum programming languages]]
 
 * [[QML]], [[Quipper]]
@@ -33,6 +37,13 @@ A [[quantum computation]]-analog of the classical [[lambda calculus]], using [[l
 
 > So now people are working on [[quantum programming languages]] *again*.
 
+See also:
 
-(...)
+* Pablo Arrighi, Alejandro Díaz-Caro, [[Benoît Valiron]], *A Type System for the Vectorial Aspect of the Linear-Algebraic Lambda-Calculus*, EPTCS **88** (2012) 1-15 &lbrack;[arXiv:1012.4032](https://arxiv.org/abs/1012.4032), [doi:10.4204/EPTCS.88.1](https://doi.org/10.4204/EPTCS.88.1)&rbrack;
+
+Implementation as an [[embedded programming language]] in [[Haskell]]:
+
+* Richard Eisenberg, [[Benoît Valiron]], Steve Zdancewic, *Typechecking Linear Data: Quantum Computation in Haskell* &lbrack;[[EisenbergValironZdancewic-LinearData.pdf:file]]&rbrack;
+
+
 
