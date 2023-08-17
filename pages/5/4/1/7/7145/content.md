@@ -159,7 +159,7 @@ The Wikipedia entry knows various further historical writings on monads (but doe
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Monad_(philosophy)">Monad (philosophy)</a>*
 
-On monads in [[nonstandard analysis]] with attention to the historical origin of the term:
+On [[monad in nonstandard analysis|monads in]] [[nonstandard analysis]] with attention to the historical origin of the term:
 
 * {#GordonKusraevKutateladze02} E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
 
