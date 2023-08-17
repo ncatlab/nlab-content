@@ -17,6 +17,15 @@ On [[quantum sheaf cohomology]]:
 
 * [[Ron Donagi]], [[Josh Guffin]], [[Sheldon Katz]], [[Eric Sharpe]], *A Mathematical Theory of Quantum Sheaf Cohomology*, Asian J. Math. **18** (2014) 387-418 &lbrack;[arXiv:1110.3751](https://arxiv.org/abs/1110.3751), [doi:10.4310/AJM.2014.v18.n3.a1](https://doi.org/10.4310/AJM.2014.v18.n3.a1)&rbrack;
 
+On the [[supergeometry|super]]-[[moduli space]] of [[super Riemann surfaces]] (proving that it is generically not "projected" in that it does not [[retraction|retract]] onto its bosonic [[body]]):
+
+* {#DonagiWitten15} [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_, Proc. Symp. Pure Math. 90 (2015) 19-72 ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
+
+* [Supermoduli Workshop: May 18 &#8211; 22, 2015](http://scgp.stonybrook.edu/archives/10356), videos of lecture courses by [[Pierre Deligne]], [[Eric D'Hoker]], [[Ron Donagi]] and [[Edward Witten]]
+
+* [[Ron Donagi]], [[Nadia Ott]], *Supermoduli Space with Ramond punctures is not projected* &lbrack;[arXiv:2308.07957](https://arxiv.org/abs/2308.07957)&rbrack;
+
+
 
 
 
