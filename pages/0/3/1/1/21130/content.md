@@ -52,6 +52,9 @@ Realization in [[experiment]] with [[quantum error correction|error detecting co
 
 * Bibek Pokharel, Daniel Lidar, *Better-than-classical Grover search via quantum error detection and suppression* &lbrack;[arXiv:2211.04543](https://arxiv.org/abs/2211.04543)&rbrack;
 
+Implementation in [[Quipper]]:
+
+* Safat Siddiqui, Mohammed Jahirul Islam, Omar Shehab, §4.4 in: *Five Quantum Algorithms Using Quipper* &lbrack;[arXiv:1406.4481](https://arxiv.org/abs/1406.4481)&rbrack;
 
 
 See also
