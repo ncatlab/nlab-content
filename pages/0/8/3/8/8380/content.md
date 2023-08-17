@@ -1,4 +1,8 @@
 
+> This entry is about [[monads]] as known from [[categorical algebra]] but in their application to [[computer science]]. See also at *[[monad (disambiguation)]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
