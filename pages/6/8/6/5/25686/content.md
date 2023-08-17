@@ -61,8 +61,7 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 * {#CT90} [[Aurelio Carboni]], [[Maria Cristina Pedicchio]], [[Guiseppe Rosolini]] (Eds), _Category Theory: Proceedings of the International Conference held in Como, Italy, July 22-28, 1990_, Lecture Notes in Mathematics **1488** (1991) Springer–Verlag, doi:[10.1007/BFb0084207](https://doi.org/10.1007/BFb0084207)
 
-* {#CT91} [[R.A.G. Seely]] (Ed), _Category Theory 1991: Proceedings of the 1991 Summer Category Theory Meeting, Montreal, Canada_,  Conference Proceedings, Canadian Mathematical Society **13** (1992) American Mathematical Society/Canadian Mathematical Society [AMS bookstore](https://bookstore.ams.org/cmsams-13).
-
+* {#CT91} [[R.A.G. Seely]] (Ed), _Category Theory 1991: Proceedings of the 1991 Summer Category Theory Meeting, Montreal, Canada_,  Conference Proceedings, Canadian Mathematical Society **13** (1992) American Mathematical Society/Canadian Mathematical Society [AMS bookstore](https://bookstore.ams.org/cmsams-13). (<a class='existingWikiWord' href='/nlab/files/frontmatter.pdf' title='Category Theory 1991 - front matter'>pdf</a>)
 
 * {#Rota} [[Gian-Carlo Rota]], _Book review of "Category Theory 1991"_, Advances in Mathematics, Vol. 102, No. 1, 1993, page 126. &lbrack;[doi:10.1006/aima.1993.1061](https://doi.org/10.1006/aima.1993.1061)&rbrack;
 
