@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -11,31 +26,78 @@ Various concepts in [[philosophy]] and [[mathematics]] go by the name *monad*.
 
 On the historical origin of the notion, cf. eg. [Gordon, Kusraev & Kutateladze 2002, §2.2.7](#GordonKusraevKutateladze02); [Kutateladze 2006](#Kutateladze06):
 
+### Euclid: Monads as conceptual units
+ {#Euclid}
+
 [[Euclid]] used "monad" (*μονάς*, stem: *μοναδ*-) in [Book VII](http://aleph0.clarku.edu/~djoyce/elements/bookVII/defVII1.html) of the *[[Elements]]* ($\sim$300 BC) in the following way:
 
-> {#ElementsVIIDef1} **Definition 1**: 
+> {#ElementsVIIDef1} **Book VII, Definition 1**: 
 
 > [mονάς ἐστιν, καθ' ἣν ἕκαστον τῶν ὄντων ἓν λέγεται](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+7.Def.1&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
 > A *monad* is that by virtue of which each of the things that exist is called one.
 
-> {#ElementsVIIDef2} **Definition 2**: 
+> {#ElementsVIIDef2} **Book VII, Definition 2**: 
 
 > [ἀριθμὸς δὲ τὸ ἐκ μονάδων συγκείμενον πλῆθος](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+7.def.2&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
 > A *number* is a multitude composed of monads.
-
 
 [[Sextus Empiricus]] (2nd century AD) expands on this as follows: 
 
 > A whole as such is indivisible and a monad, since it is a monad, is not divisible. Or, if it splits into many pieces it becomes a union of many monads rather than a &lbrack;simple&rbrack; monad.
 
 
-The term "monad" (*μονάς*) here is traditionally translated as "unit". More explicitly, [Kutateladze 2006](#Kutateladze06) on [p. 2](https://arxiv.org/pdf/math/0608298.pdf#page=2) suggests to read the "is called one" in [Def. 1](#ElementsVIIDef1) in terms of *counting* -- as in: "one sheep here, another one there" -- which happens *by virtue* of an identification (what today we would call a [[bijection]] with a [[finite set]]): While sheep are different from geometrical points, we may still regard them as "units of sheep" for purpose of counting.
+The term "monad" (*μονάς*) here is traditionally translated as "unit" without mentioning of the original terminology.
+
+More explicitly, [Kutateladze 2006](#Kutateladze06) ([p. 2](https://arxiv.org/pdf/math/0608298.pdf#page=2)) suggests to understand this as *conceptual units for the purpose of counting*  -- and thus to read the phrase "is called one" in [Def. 1](#ElementsVIIDef1) in the sense of counting, as in counting sheep: "one sheep here, another one there" -- which happens *by virtue* of an identification (what today we would call a [[bijection]] with a [[finite set]]): While sheep are different from geometrical points, we still regard them as "indivisible units of sheep" for the purpose of counting them.
+
+This would explain the distinction between Euclid's notion of monads and that of geometrical points from [Book I](http://aleph0.clarku.edu/~djoyce/elements/bookI/defI1.html) of the *[[Elements]]*:
+
+> **Book I, Definition 1**
+
+> [Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D1%3Atype%3Ddef%3Anumber%3D1)
+
+> A point is that which has no part.
+
+While sheep are not actually without parts, we do have a "monadic" notion of their *conceptual* indivisible unit by virtue of which we call any sheep "one sheep" such as to count them *one-by-one*.
+
+Maybe in other words: 
+
+Where Euclid's *points* are atoms in the sense of [[geometry]], so his *monads* are units in the sense of [[arithmetic]].
+
+
+### Dark ages: Monads as metaphysical units
+ {#DarkAges}
+
+In the middle ages the primarily mathematical monad terminology of the ancients ([above](#Euclid)) receives a metaphysical and/or spiritual or even religious connotation, as in
+
+* [[Giordano Bruno]], *[De triplici minimo](https://www.digitale-sammlungen.de/de/view/bsb10205694?page=1)* (1591)
+
+who asserts that:
+
+> the substance of things is the minimum, of which there are three principal varieties: the general metaphysical minimum or *monad*; the corporeal minimum or *atom*; and the geometrical minimum or *point*
+
+This according to:
+
+* Edward P. Butler, *Transformation and Individuation
+in Giordano Bruno’s Monadology*, Socrates **3** 2 (2015) 57-70 &lbrack;[philpapers](https://philpapers.org/versions/BUTTAI-2), [pdf](https://philarchive.org/archive/BUTTAI-2)&rbrack;
+
+
+{#LeibnizMonads} Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) continues to insist on including "souls" and "god" among monads in a way that is more mysterious if not puzzling.
+
+Despite (or because?) the esoteric if not irrational nature of Leibniz' monadology it has become the most widely remembered usage of the "monad" terminology, while its rational origin with Euclid is nearly forgotten (for instance  *<a href="https://en.wikipedia.org/wiki/Monad_(philosophy)">Wikipedia's entry</a>* does not know of Euclid). 
+
+On the other hand, both Leibniz and Bruno may have been following a tradition of thought that originated deeper in the middle ages:
+
+> the striking similarities between aspects of Leibniz’s monadology and Bruno’s doctrine of minims are probably attributable to the sources and philosophical interests that they shared in common
+
+This according to
+
+* Dilwyn Knox, *[Giordano Bruno](https://plato.stanford.edu/Archives/spr2023/entries/bruno/)*, Stanford Encyclopedia of Philosophy (2019)
 
 
 
-{#LeibnizMonads} Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) speaks of monads as *mind-like simple substances* in a way that is now more famous than Euclid's usage, but also more mysterious, if not puzzling.
 
 
 ## Monads of infinitesimals
@@ -93,7 +155,7 @@ Finally, there is the term
 
 ## References
 
-The Wikipedia entry knows various further historical writings on monads (but does not mention their role in Euclid's *[[Elements]]*)
+The Wikipedia entry knows various further historical writings on monads (but does not mention their role in Euclid's *[[Elements]]*):
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Monad_(philosophy)">Monad (philosophy)</a>*
 
