@@ -61,6 +61,11 @@ Lecture notes:
 
 * [[Scott Aaronson]], Chapters 18-21 of: *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
+Implementation in [[Quipper]]:
+
+* Safat Siddiqui, Mohammed Jahirul Islam, Omar Shehab, §4.3, §4.5 in: *Five Quantum Algorithms Using Quipper* &lbrack;[arXiv:1406.4481](https://arxiv.org/abs/1406.4481)&rbrack;
+
+
 
 See also: 
 
