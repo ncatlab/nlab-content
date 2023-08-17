@@ -107,7 +107,7 @@ In the literature there is a _naive_ definition of Lie group cohomology and topo
 ## Tour through notions of cohomology 
  {#Overview}
 
-The statement of the above slogan is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
+The statement of the above slogan is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A \coloneqq K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
 
 $$
   \pi_0 \mathbf{H}(X,K(\mathbb{Z},n)) = H^n(X,\mathbb{Z})
@@ -188,7 +188,7 @@ Given an [[(∞,1)-category]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of 
 * the set of cohomology classes is the $A$-**cohomology set**
 
   $$
-    H(X,A) := Ho_{\mathbf{H}}(X,A) = \pi_0 \mathbf{H}(X,A)
+    H(X,A) \coloneqq Ho_{\mathbf{H}}(X,A) = \pi_0 \mathbf{H}(X,A)
   $$
 
   of $X$.
@@ -198,7 +198,7 @@ Given an [[(∞,1)-category]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of 
   cocycle
   
   $$
-     [k(c)] := [X \stackrel{c}{\to} A \stackrel{k}{\to} B] \in H(X,B)
+     [k(c)] \coloneqq [X \stackrel{c}{\to} A \stackrel{k}{\to} B] \in H(X,B)
   $$
 
   is the **[[characteristic class]]** of $c$ with respect to $k$.
@@ -239,7 +239,7 @@ Extra [[stuff, structure, property]] on the coefficient object $A$ will induce c
 In the case that the coefficient object $A$ admits $(n \in \mathbb{N})$ [[delooping]]s to objects $\mathbf{B}^n A$ one writes
 
 $$
-  H^n(X,A) := \pi_0 \mathbf{H}(X, \mathbf{B}^n A)
+  H^n(X,A) \coloneqq \pi_0 \mathbf{H}(X, \mathbf{B}^n A)
 $$
 
 and speaks of **$A$-cohomology in degree $n$**.
@@ -247,7 +247,7 @@ and speaks of **$A$-cohomology in degree $n$**.
 Similarly, [[loop space object|looping]] defines negative degree cohomology:
 
 $$
-  H^{-n}(X,A) := \pi_0 \mathbf{H}(X, \Omega^n A) 
+  H^{-n}(X,A) \coloneqq \pi_0 \mathbf{H}(X, \Omega^n A) 
   \,.
 $$
 
@@ -277,7 +277,7 @@ $$ H^\star(X, A)=\pi_0\mathbf{S}(X,\star\otimes A), \quad \star\in Pic(\mathbf{S
 
 The point of the Picard-grading is that it accounts for all possible suspension isomorphisms.
 
-For example, there is always the (∞,1)-category $\mathbf{S}=Stab(\mathbf{H})$ of [[spectrum objects]] in $\mathbf{H}$. The subgroup $\mathbb{Z}\subset Pic(\mathbf{S})$ consisting of the spheres $S^n:=\Sigma^n(1)$ gives the integer grading discussed above in the special case when the coefficient object is a spectrum object. This is discussed further [below](#abelian).
+For example, there is always the (∞,1)-category $\mathbf{S}=Stab(\mathbf{H})$ of [[spectrum objects]] in $\mathbf{H}$. The subgroup $\mathbb{Z}\subset Pic(\mathbf{S})$ consisting of the spheres $S^n \coloneqq \Sigma^n(1)$ gives the integer grading discussed above in the special case when the coefficient object is a spectrum object. This is discussed further [below](#abelian).
 
 Examples where some subgroup of the Picard group larger than $\mathbb{Z}$ is commonly used include:
 
@@ -304,7 +304,7 @@ $$
 this means that $A$ is of the form 
 
 $$
-  A = E_n := \Omega^\infty \circ \Sigma^n E
+  A = E_n \coloneqq \Omega^\infty \circ \Sigma^n E
 $$
 
 for some [[spectrum object]] $E$, and some [[integer]] $n$ (not necessarily a [[natural number]]).
@@ -312,7 +312,7 @@ for some [[spectrum object]] $E$, and some [[integer]] $n$ (not necessarily a [[
 One single such spectrum object this way yields a $\mathbb{Z}$-graded tower of cohomologies
 
 $$
-  H^n(X, E) := \pi_0 \mathbf{H}(X, \Omega^\infty \Sigma^n E)
+  H^n(X, E) \coloneqq \pi_0 \mathbf{H}(X, \Omega^\infty \Sigma^n E)
 $$
 
 which taken together, denoted $H^\bullet(X,E)$ is called a [[cohomology theory]]. For the case that $\mathbf{H} =$ [[Top]] this special case of cohomology is called [[generalized (Eilenberg-Steenrod) cohomology]].
@@ -550,7 +550,7 @@ Urs: I have posted a reply [here](http://www.math.ntnu.no/~stacey/Mathforge/nFor
 For $X$ a [[topological space]] and $A$ an [[∞-groupoid]], the standard way to define the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is to define it as the intrinsic cohomology as seen in [[∞Grpd]] $\simeq$ [[Top]]:
 
 $$
-  H(X,A) := \pi_0 Top(X, |A|) \simeq \pi_0 \infty Func(Sing X, A)
+  H(X,A) \coloneqq \pi_0 Top(X, |A|) \simeq \pi_0 \infty Func(Sing X, A)
   \,,
 $$
 
@@ -564,8 +564,10 @@ For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]] equ
 
 $$
   \mathbf{H}
-  :=
-  Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))
+  \coloneqq
+  Sh_{(\infty,1)}(X) 
+  \coloneqq 
+  Sh_{(\infty,1)}(Op(X))
 $$
 
 be the [[(∞,1)-category of (∞,1)-sheaves]] on $X$. The space $X$ itself is naturally identified with the [[terminal object]] $X = * \in Sh_{(\infty,1)}(X)$. This is the [[petit topos]] incarnation of $X$.
@@ -585,7 +587,7 @@ Under the [[constant (∞,1)-sheaf]] functor $LConst$ an [[∞-groupoid]] $A \in
 There is therefore the _intrinsic_ [[cohomology]] of the $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ with coefficients in the [[constant ∞-stack|constant (∞,1)-sheaf]] on $A$
   
 $$
-  H'(X,A) := \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
+  H'(X,A) \coloneqq \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
   \,.
 $$
 
@@ -602,7 +604,9 @@ $$
 If $X$ is a [[paracompact space]], then these two definitions of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
 
 $$
-  H(X,A) := \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
+  H(X,A) 
+  \coloneqq 
+  \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
   \,.
 $$
 
@@ -811,6 +815,15 @@ See also
 [[!include cohomology -- early references]]
 
 
+For more on the pre-history of the notion of cohomology see 
+
+* MO entry, <a href="http://mathoverflow.net/questions/39597/timeline-of-cohomology-1935-to-1938">Timeline of cohomology (1935 to 1938)</a>
+
+A bunch of survey information on types of cohomoloy theories is kept here:
+
+* [[Andreas Holmstrom]], _[[Cohomology Theory Database]]_
+
+
 ### General
 
 
@@ -839,16 +852,16 @@ This article establishes that
 are naturally special cases of one single concept: that of hom-sets 
 
 $$
-  H(X,A) := Ho_{SSh}(X,A)
+  H(X,A) 
+  \coloneqq 
+  Ho_{SSh}(X,A)
 $$ 
 
 in the [[homotopy category]] of [[∞-groupoid]]-valued [[sheaves]].
 
 The only fundamental new addition to this insight that is available now and was not available in 1973 is that 
 
-
 * These categories $H = Ho_{SSh}$ are precisely the [[homotopy category of an (infinity,1)-category|hom-wise decategorification]] of [[(∞,1)-category of (∞,1)-sheaves]] otherwise known as the [[(∞,1)-topoi]] of [[∞-stacks]].
-
 
 This is propositon 6.5.2.1 in [[Jacob Lurie]]'s _[[Higher Topos Theory]]_ and builds on the fundamental work by K. Brown, Joyal and Jardine and others on the  [[model structure on simplicial presheaves]].
 
@@ -856,35 +869,36 @@ For a _motivation_ of these definitions from the point of view of cohomology as 
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)) .
 
-The general abstract picture of cohomology as connected components of mapping spaces in [[(∞,1)-toposes]] is the topic of section 7.2.2 of
+The general abstract picture of cohomology as connected components of mapping spaces in [[(∞,1)-toposes]] is the topic of section 7.2.2 of:
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
 
 Notice that the discussion there is, as often in the literature, given from the perspective of a [[petit topos]], i.e. where one thinks of the [[(∞,1)-topos]] $\mathcal{X}$ as that of [[∞-stack]]s on a given [[space]] $X$ (instead of as a [[gros topos]] of _all_ generalized spaces, as we do in the above entry). Accordingly then from that perspective one wants to study the cohomology of $X$ itself, which corresponds to the [[terminal object]] in the $(\infty,1)$-topos. Accordingly, the cohomology in that section 7.2.2 is defined for the terminal coefficient object and for an [[Eilenberg-MacLane object]] $K(A,n)$:
 
 $$
-  H^n(\mathcal{X},A) := \pi_0\mathcal{X}({*}, K(A,n))
+  H^n(\mathcal{X},A) 
+  \coloneqq 
+  \pi_0\mathcal{X}({*}, K(A,n))
 $$
 
 (definition 7.2.2.14).
 
 A comprehensive account of the full non-abelian case and its classification of $G$-[[principal ∞-bundles]], $G$-[[∞-gerbes]] and the corresponding [[twisted cohomology]] is in 
 
-* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ (2012)
-  {#NSS}
+* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ (2012)
 
-Another reference with a  discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
+with generalization to [[equivariant cohomology]] in
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Proper Orbifold Cohomology]]* &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+
+and with discussion of the [[Chern-Dold character]] on cohomology understood in this generality:
+
+* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+
+Another reference with a  discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial objects]], is:
 
 * Brian Conrad, _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
 
-For more on the pre-history of the notion of cohomology see 
-
-* MO entry, <a href="http://mathoverflow.net/questions/39597/timeline-of-cohomology-1935-to-1938">Timeline of cohomology (1935 to 1938)</a>
-
-A bunch of survey information on types of cohomoloy theories is kept here:
-
-* [[Andreas Holmstrom]], _[[Cohomology Theory Database]]_
 
 
 
