@@ -1,4 +1,6 @@
 
+$\Sigma$
+
 $\mathfrak{M}$
 $\mathcal{M}$
 
