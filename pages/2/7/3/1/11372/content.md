@@ -2,7 +2,9 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Giordano_Bruno)
 
-## related $n$Lab entries
+## Related entries
+
+* [[monad terminology]]
 
 * [[multiverse]]
 
