@@ -378,6 +378,15 @@ Further discussion:
 
 * {#Clarke20b} [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
+* [[Matthew Di Meglio]], _The category of asymmetric lenses and its proxy pullbacks_, Master's Thesis, Macquarie University, (2021) &lbrack;[doi:10.25949/20236449.v1](https://doi.org/10.25949/20236449.v1)&rbrack;
+
+* [[Matthew Di Meglio]], _Coequalisers under the Lens_, EPTCS **372**, (2022) 149-163. &lbrack;[doi:10.4204/EPTCS.372.11](https://doi.org/10.4204/EPTCS.372.11)&rbrack;
+
+* [[Bryce Clarke]] and [[Matthew Di Meglio]], _An introduction to enriched cofunctors_, (2022) &lbrack;[arXiv:2209.01144](https://arxiv.org/abs/2209.01144)&rbrack;
+
+* [[Matthew Di Meglio]], _Universal Properties of Lens Proxy Pullbacks_, EPTCS **380** (2023) 400-416 &lbrack;[doi:10.4204/EPTCS.380.23](https://doi.org/10.4204/EPTCS.380.23)&rbrack;
+
+
 
 ### Relation to the costate comonad
  {#ReferencesRelationToCostateComonad}
