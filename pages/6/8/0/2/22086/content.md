@@ -5,16 +5,18 @@
 
 Discussion of [[D=2 conformal field theory]] as a [[functorial field theory]], namely as a [[monoidal functor|monoidal]] [[functor]] from a 2d [[conformal cobordism category]] to [[Hilbert spaces]]:
 
-* [[Graeme Segal]], *The definition of conformal field theory*, in: K. Bleuler, M. Werner (eds.), *Differential geometrical methods in theoretical physics* (Proceedings of Research Workshop, Como 1987), NATO Adv. Sci. Inst., Ser. C: Math. Phys. Sci. **250** Kluwer Acad. Publ., Dordrecht (1988) 165-171 $[$[doi:10.1007/978-94-015-7809-7](https://doi.org/10.1007/978-94-015-7809-7)$]$
+* {#Segal88} [[Graeme Segal]], *The definition of conformal field theory*, in: K. Bleuler, M. Werner (eds.), *Differential geometrical methods in theoretical physics* (Proceedings of Research Workshop, Como 1987), NATO Adv. Sci. Inst., Ser. C: Math. Phys. Sci. **250** Kluwer Acad. Publ., Dordrecht (1988) 165-171 $[$[doi:10.1007/978-94-015-7809-7](https://doi.org/10.1007/978-94-015-7809-7)$]$
 
 and including discussion of [[modular functors]]:
 
-* [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *Proceedings of the IXth International Congress on Mathematical Physics*, Swansea, 1988, Hilger, Bristol (1989) 22-37.
+* {#Segal89} [[Graeme Segal]], *Two-dimensional conformal field theories and modular functors*, in: *Proceedings of the IXth International Congress on Mathematical Physics*, Swansea, 1988, Hilger, Bristol (1989) 22-37.
 
 
-* [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
+* {#Segal04} [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
 
+General construction for the case of [[rational 2d conformal field theory]] is given by the 
 
+* *[[FRS-theorem on rational 2d CFT]]*
 
 
 See also:
@@ -29,6 +31,9 @@ A different but closely analogous development for chiral 2d CFT ([[vertex operat
 
 * {#Huang91} [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968 ([doi:10.1073/pnas.88.22.9964](https://doi.org/10.1073/pnas.88.22.9964))
 
+Discussion of the case of [[Liouville theory]]:
+
+* [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* &lbrack;[arXiv:2112.14859](https://arxiv.org/abs/2112.14859)&rbrack;
 
 
 Early suggestions to refine this to an [[extended TQFT|extended]] [[2-functor|2-functorial]] construction:
@@ -42,6 +47,7 @@ A step towards generalization to [[2d super-conformal field theory]]:
 Discussion of 2-functorial chiral 2d CFT:
 
 * [[André Henriques]], *The complex cobordism 2-category*, 2021 ([video](http://andreghenriques.com/ComplexCob2CatandCentralExt.mp4))
+
 
 
 [[!redirects D=2 CFT a functorial field theory -- references]]
