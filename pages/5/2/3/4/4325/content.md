@@ -61,3 +61,9 @@ Theorem 5.2.6.15 of
 
 
 [[!redirects infinite loop spaces]]
+
+[[!redirects infinite-loop space]]
+[[!redirects infinite-loop spaces]]
+
+
+
