@@ -67,8 +67,8 @@ Maybe in other words:
 Where Euclid's *points* are atoms in the sense of [[geometry]], so his *monads* are units in the sense of [[arithmetic]].
 
 
-### Dark ages: Monads as metaphysical units
- {#DarkAges}
+### Middle Ages and Early Modern Period: Monads as metaphysical units
+ {#MiddleAges}
 
 In the middle ages the primarily mathematical monad terminology of the ancients ([above](#Euclid)) receives a metaphysical and/or spiritual or even religious connotation, as in
 
