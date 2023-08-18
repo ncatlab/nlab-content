@@ -47,13 +47,17 @@ Also "contravariantly natural" bundles such as bundle of [[covectors]] are somet
 
 ## References
 
-Originally introduced in
+Original discussion:
 
 * [[Albert Nijenhuis]], _Geometric aspects of formal differential operations on tensor fields_, Proceedings of the International Congress of Mathematicians 1958, 463–469.  [PDF](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1958/ICM1958.ocr.pdf).
 
 * [[Albert Nijenhuis]], _Natural bundles and their general properties_, in: _Differential Geometry (in honor of Kentaro Yano)_, Kinokuniya, Tokyo, 1972, pp. 317–334.  [PDF](https://dmitripavlov.org/scans/nijenhuis-natural-bundles-and-their-general-properties.pdf).
 
-A comprehensive reference is available in
+* {#Terng78} [[Chuu-Lian Terng]], *Natural vector bundles and natural differential operators*, Amer. J. Math. **100** (1978) 775-828 &lbrack;[doi:10.2307/2373910](https://doi.org/10.2307/2373910), [jstor:2373910](https://www.jstor.org/stable/2373910)&rbrack;
+
+Lecture notes and textbook accounts:
+
+* [[Demeter Krupka]], [[Josef Janyška]], Part 2 of: _Lectures on differential invariants_, Univerzita J. E. Purkyně, Brno (1990) &lbrack;ISBN:80-210-165-8, [researchgate](https://www.researchgate.net/publication/36792711_Lectures_on_Differential_Invariants)&rbrack;
 
 * {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[webpage](https://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
 
