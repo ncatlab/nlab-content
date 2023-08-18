@@ -35,13 +35,13 @@ On the historical origin of the notion, cf. eg. [Gordon, Kusraev & Kutateladze 2
 
 > [mονάς ἐστιν, καθ' ἣν ἕκαστον τῶν ὄντων ἓν λέγεται](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+7.Def.1&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
-> A *monad* is that by virtue of which each of the things that exist is called one.
+> [A monad is that by virtue of which each of the things that exist is called one.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D1)
 
 > {#ElementsVIIDef2} **Book VII, Definition 2**: 
 
 > [ἀριθμὸς δὲ τὸ ἐκ μονάδων συγκείμενον πλῆθος](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+7.def.2&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
-> A *number* is a multitude composed of monads.
+> [A number is a multitude composed of monads.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D2)
 
 [[Sextus Empiricus]] (2nd century AD) expands on this as follows: 
 
@@ -58,7 +58,7 @@ This brings out the distinction between Euclid's notion of monads and that of ge
 
 > [Σημεῖόν ἐστιν, οὗ μέρος οὐθέν.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D1%3Atype%3Ddef%3Anumber%3D1)
 
-> A point is that which has no part.
+> [A point is that which has no part.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D1%3Atype%3Ddef%3Anumber%3D1)
 
 While sheep are not actually without parts, we do have a "monadic" notion of their *conceptual* indivisible unit by virtue of which we call any sheep "one sheep" such as to count them *one-by-one*.
 
@@ -70,13 +70,69 @@ Where Euclid's points are atoms in the sense of [[geometry]],
 so his monads are units in the sense of [[arithmetic]].
 </center>
 
+This also becomes clear by the way in which the concept of monad is used later in BooK VII:
+
+> {#ElementsVIIDef7} **Book VII, Definition 7**: 
+
+> [περισσὸς δὲ ὁ μὴ διαιρούμενος δίχα ἢ ὁ μονάδι διαφέρων ἀρτίου ἀριθμοῦ.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D7%3Atype%3Ddef%3Anumber%3D7)
+
+> [An odd number is that which is not divisible into two equal parts, or that which differs by a monad from an even number.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D7)
+
+> {#ElementsVIIDef15} **Book VII, Definition 15**: 
+
+> [ἀριθμὸς ἀριθμὸν πολλαπλασιάζειν λέγεται, ὅταν, ὅσαι εἰσὶν ἐν αὐτῷ μονάδες, τοσαυτάκις συντεθῇ ὁ πολλαπλασιαζόμενος, καὶ γένηταί τις.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D7%3Atype%3Ddef%3Anumber%3D15)
+
+> [A number is said to multiply a number when that which is multiplied is added to itself as many times as there are monads in the other, and thus some number is produced.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D15)
+
+These definitions evidently refer by "monad" to the unit element of the natural numbers seen under addition.
+
+Other definitions in *[[Elements]]* VII also refer to monads as the *multiplicative unit* element of the natural numbers. To see this one first has to notice that Euclid speaks of (natural) numbers being "measured" by another number where we today would say they are "divided" by that other number:
+
+> {#ElementsVIIDef5} **Book VII, Definition 5**: 
+
+> [πολλαπλάσιος δὲ ὁ μείζων τοῦ ἐλάσσονος, ὅταν καταμετρῆται ὑπὸ τοῦ ἐλάσσονος.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D7%3Atype%3Ddef%3Anumber%3D5)
+
+> [The greater number is a multiple of the less when it is measured by the less.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D15)
+
+With that understood, we see Euclid's crystal clear definition of [[prime numbers]]:
+
+> {#ElementsVIIDef11} **Book VII, Definition 11**: 
+
+> [πρῶτος ἀριθμός ἐστιν ὁ μονάδι μόνῃ μετρούμενος.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D7%3Atype%3Ddef%3Anumber%3D11)
+
+> [A prime number is that which is measured by a monad alone.](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D11)
+
 
 ### Monads as metaphysical units
  {#metaphysics}
 
-Alongside the primarily mathematical monad terminology of the ancients ([above](#Euclid)), there had also been a metaphysical and/or spiritual or even religious connotation. This derives in part from [[Pythagorean]] doctrines, and later from neo-Platonic (e.g., with Plotinus) and [[gnosticism|gnostic]] thought in the early centuries of the Christian era, where God is identified with the One.
+In the middle ages, the primarily mathematical notion of "monad" by the ancients ([above](#Euclid)) receives a metaphysical and in fact religious/[[gnosticism|gnostic]] connotation, following [[Pythagorean]] and later neo-Platonic doctrines. 
 
-Such speculation continued through the Middle ages, e.g., in Thomas Aquinas's discussion on the Trinity ([Summa Theologica](https://www.ccel.org/ccel/aquinas/summa.FP_Q32_A1.html)), and continued into the Early Modern period, as with
+{#Monoimus} Wikipedia claims that an Arab gnostic known as *[Monoimus](https://en.wikipedia.org/wiki/Monoimus)* (150-210 AD) "is known for coining the usage of the word Monad in a Gnostic context."
+
+{#BookOf24Philosophers} Then there is the first line in the "*Book of 24 Philophers*" (~1200 AD) sometimes attributed to Hermes Trismegestos:
+
+> Deus est monas monadem gignens is se unum reflectens ardorem.
+
+> &lbrack;[Latin original according to Vincent 2012](http://markusvinzent.blogspot.com/2012/10/book-of-24-philosophers.html)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "Litwa-BookOf24Philosophers.jpg",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 0
+    },
+    "caption": "(from [Litwa 2019](#Litwa19))"
+\end{imagefromfile}
+
+
+This line is quoted by Aquinas (13th century) in his *Summa Theologica* (see eg. [here](https://www.ccel.org/ccel/aquinas/summa.FP_Q32_A1.html)) as support for the claim that "the trinity of the divine persons can be known by natural reason".
+
+The mystic line of thought on "monads" continues in the Early Modern period, as with
 
 * [[Giordano Bruno]], *[De triplici minimo](https://www.digitale-sammlungen.de/de/view/bsb10205694?page=1)* (1591)
 
@@ -161,9 +217,35 @@ Finally, there is the term
 
 ## References
 
-The Wikipedia entry knows various further historical writings on monads (but does not mention their role in Euclid's *[[Elements]]*):
+The ancient mathematical notion of monads as arithmetic units:
+
+* [[Euclid]], *[[Elements]]* (~400-300 BC)
+
+  translated by Thomas L. Heath (1956)
+
+  [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+1.&fromdoc=Perseus%3Atext%3A1999.01.0085)
+
+The gnostic notion of monads:
+
+* *Book of the Twenty-Four Philosophers*,  Hermitica (~1200 AD)
+
+  &lbrack;[Wikipedia entry](https://en.wikipedia.org/wiki/Book_of_the_24_Philosophers)&rbrack;
+
+  reproduced in:
+
+  {#Litwa19} M David Litwa, *Hermetica II: The Excerpts of Stobaeus, Papyrus Fragments, and Ancient Testimonies in an English Translation with Notes and Introduction*, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781316856567.057](https://doi.org/10.1017/9781316856567.057)&rbrack;
+
+and quoted by
+
+* Thomas Aquinas, *Summar Theologica* &lbrack;[Wikipedia entry](https://en.wikipedia.org/wiki/Summa_Theologica), [ccel.org](https://www.ccel.org/ccel/aquinas/summa.FP_Q32_A1.html)&rbrack; (~1250 AS)
+
+
+The Wikipedia entries have further historical writings on monads (but does not mention their role in Euclid's *[[Elements]]*):
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Monad_(philosophy)">Monad (philosophy)</a>*
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Monad_(Gnosticism)">Monad (Gnosticism)</a>*
+
 
 On [[monad in nonstandard analysis|monads in]] [[nonstandard analysis]] with attention to the historical origin of the term:
 
