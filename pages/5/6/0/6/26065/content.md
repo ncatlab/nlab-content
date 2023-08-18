@@ -61,6 +61,8 @@ A symmetric monoidal double category is a braided monoidal double category whose
 
 * {#Shulman21} [[Mike Shulman]], Def. 2.9 in: _Constructing Symmetric Monoidal Double Categories_ (2010) &lbrack;[arxiv:1004.0993](https://arxiv.org/abs/1004.0993)&rbrack;
 
+* Linde Wester Hansen and [[Mike Shulman]]. _Constructing symmetric monoidal bicategories functorially_ (2019) &lbrack;[arxiv:1910.09240](https://arxiv.org/abs/1910.09240)&rbrack;
+
 [[!redirects monoidal double categories]]
 [[!redirects symmetric monoidal double category]]
 [[!redirects symmetric monoidal double categories]]
