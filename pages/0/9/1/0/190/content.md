@@ -90,12 +90,20 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## References
 
+The structure of the [[2-category]] of categories ([[vertical composition]], [[horizontal composition]] and [[whiskering]] of [[natural transformations]]) was first described in:
+
+* {#Godement58} [[Roger Godement]], Appendix (pp. 269) of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+(towards the goal of describing the [[standard resolution]] of [[abelian sheaves]]).
+
+Dedicated discussion in the spirit of [[formal category theory]]:
+
 * {#Law66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp. 1-20 in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 * [[John Gray]], _[[Adjointness for 2-Categories|Formal category theory: adjointness for 2-categories]]_, Lecture Notes in Mathematics, **391**, Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack;
 
 
-See also most references at _[[category]]_ and at _[[category theory]]_, such as
+See also most references at _[[category]]_ and at _[[category theory]]_, such as:
 
 * [[Horst Schubert]], §3 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
 
