@@ -189,11 +189,13 @@ In this diagram now
 
 ### General
 
-General accounts include
+General accounts:
 
-* [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 ([pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf))
+* [[Jean-François Pommaret]], *Partial Differential Equations and Group Theory*, Springer (1994) &lbrack;[doi:10.1007/978-94-017-2539-2](https://doi.org/10.1007/978-94-017-2539-2)&rbrack;
 
-* Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_, [pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)
+* [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 &lbrack;[pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf)&rbrack;
+
+* Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_ &lbrack;[pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)&rbrack;
 
 * Arthemy Kiselev, _The twelve lectures in the (non)commutative geometry of differential equations_, preprint IHES M/12/13 [pdf](http://preprints.ihes.fr/2012/M/M-12-13.pdf)
 
