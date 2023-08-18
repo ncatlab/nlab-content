@@ -82,7 +82,7 @@ where on the right we have the [[relative homology]] of the [[CW complex]] decom
 Then one has an expression for _ordinary Bredon cohomology_  similar to that of [[singular cohomology]] as follows:
 
 $$
-  H_G^n(X,A) \simeq H_n(Hom_{Orb_G}(C_\bullet(X,)A))
+  H_G^n(X,A) \simeq H_n(Hom_{Orb_G}(C_\bullet(X), A))
   \,.
 $$
 
