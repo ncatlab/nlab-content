@@ -53,7 +53,7 @@ A **braiding** on a monoidal double category is a natural transformation $\tau :
 A symmetric monoidal double category is a braided monoidal double category whose braiding $\tau$ satisfies $\tau\tau = 1$.
 \end{definition}
 
-## Related cocepts
+## Related concepts
 
 * [[monoidal 2-category]]
 
