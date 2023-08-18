@@ -280,8 +280,6 @@ Further introduction and survey:
 
 * Farzan Jazaeri, Arnout Beckers, Armin Tajalli, Jean-Michel Sallese, *A Review on Quantum Computing: Qubits, Cryogenic Electronics and Cryogenic MOSFET Physics*, 2019 MIXDES - 26th International Conference "Mixed Design of Integrated Circuits and Systems", 2019, pp. 15-25, ([arXiv:1908.02656](https://arxiv.org/abs/1908.02656), [doi:10.23919/MIXDES.2019.8787164](https://doi.org/10.23919/MIXDES.2019.8787164))
 
- 
-
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
 * Jiajun Chen, *Review on Quantum Communication and Quantum Computation*,  Journal of Physics: Conference Series, Volume 1865, 2021 International Conference on Advances in Optics and Computational Sciences (ICAOCS) 2021 21-23 January 2021, Ottawa, Canada ([doi:10.1088/1742-6596/1865/2/022008](https://iopscience.iop.org/article/10.1088/1742-6596/1865/2/022008))
@@ -296,6 +294,7 @@ Further introduction and survey:
 
 * Oswaldo Zapata, *A Short Introduction to Quantum Computing for Physicists* &lbrack;[arXiv:2306.09388](https://arxiv.org/abs/2306.09388)&rbrack;
 
+* [[Peter Shor]], *Quantum Computation*, Lecture notes (2022) &lbrack;[web](https://math.mit.edu/~shor/435-LN/)&rbrack;
 
 
 See also:
