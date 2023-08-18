@@ -27,7 +27,7 @@ Formally, a monoidal double category is a [[pseudomonoid]] in the ([[product of 
 ## Definition
 
 Recall a double category $\mathbb{D}$ is an [[internal category|internal (pseudo)category]] in [[Cat]], hence is given by two categories $\mathbb{D}_1$ (category of loose arrows) and $\mathbb{D}_0$ (category of objects), plus *source* and *target* functors $s,t:\mathbb{D}_1 \to \mathbb{D}_0$, a *loose identity* functor $U:\mathbb{D}_0 \to \mathbb{D}_1$, and a *loose composition* functor $\odot  : \mathbb{D}_1 {}_s\times_t \mathbb{D}_1 \to \mathbb{D}_0$.
-Clearly this data has to satisfy the properties of the composition of a category, thus $U$ provides identities for the $\odot$, which in turn is associative. In [Shulman'21](#Shulman21) moreover, these properties are only satisfied up to coherent isomorphism, making loose arrows form a [[bicategory]].
+Clearly this data has to satisfy the properties of the composition of a category, thus $U$ provides identities for the $\odot$, which in turn is associative. In [Shulman 2010](#Shulman10) moreover, these properties are only satisfied up to coherent isomorphism, making loose arrows form a [[bicategory]].
 
 \begin{definition}
 A monoidal double category is a double category $\mathbb{D}$ equipped with [[double functors]] $I: \mathbb{1} \to \mathbb{D}$ and $\otimes : \mathbb{D} \times \mathbb{D} \to \mathbb{D}$ and with [[double natural transformations]] $\alpha : (\otimes\otimes)\otimes \cong \otimes(\otimes\otimes)$, $\lambda : (I \times \mathbb{D})\otimes \cong \otimes$, $\rho : (\mathbb{D} \times I)\otimes \cong \otimes$ satisfying the usual coherence laws of a pseudomonoid (pentagon and triangle, see [[monoidal category]]).
@@ -59,7 +59,7 @@ A symmetric monoidal double category is a braided monoidal double category whose
 
 ## References
 
-* {#Shulman21} [[Mike Shulman]], Def. 2.9 in: _Constructing Symmetric Monoidal Double Categories_ (2010) &lbrack;[arxiv:1004.0993](https://arxiv.org/abs/1004.0993)&rbrack;
+* {#Shulman10} [[Mike Shulman]], Def. 2.9 in: _Constructing Symmetric Monoidal Double Categories_ (2010) &lbrack;[arxiv:1004.0993](https://arxiv.org/abs/1004.0993)&rbrack;
 
 * Linde Wester Hansen and [[Mike Shulman]]. _Constructing symmetric monoidal bicategories functorially_ (2019) &lbrack;[arxiv:1910.09240](https://arxiv.org/abs/1910.09240)&rbrack;
 
