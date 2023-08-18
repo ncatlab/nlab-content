@@ -107,6 +107,19 @@ $$\array{
 
 Under [[Tannaka duality]] (semisimple) weak Hopf algebras correspond to (multi-)[[fusion categories]] ([Ostrik](#Ostrik)).
 
+### Relation to Frobenius algebras
+
+As explained in [[Hopf algebra]], any finite-dimensional Hopf algebra can be given the structure of a [[Frobenius algebra]]. There is a similar result for weak Hopf algebras.
+
++-- {: .num_prop #WeakHopfAlgebraIsQuasiFrobeniusAlgebra}
+###### Proposition
+
+Any finite-dimensional weak Hopf algebra can be given the structure of a [[quasi-Frobenius algebra]].
+
+=--
+
+This is due to [Bohm, Nill, and Szlachanyi (1999)](#BNS99). While [Vecsernyés (2003)](Vec03) seems to show that finite-dimensional weak Hopf algebras can be turned into Frobenius algebras, it is observed in [Iovanov & Kadison (2008)](IK08) that the proof only implies they are *quasi-*Frobenius algebras.
+
 ## Literature
 
 Weak comultiplications were introduced in
@@ -136,6 +149,16 @@ The relation to [[fusion categories]] is discussed in
 
 * [[Victor Ostrik]], _Module categories, weak Hopf algebras and modular invariants_ ([arXiv:math/0111139](http://arxiv.org/abs/math/0111139)) 
  {#Ostrik}
+
+On the relation to [[Frobenius algebra|Frobenius algebras]]
+
+* {#BNS99} [[Gabriella Bohm]], [[Florian Nill]], [[Kornel Szlachanyi]]. *Weak Hopf Algebras I: Integral Theory and* $C^*$*-structure*. (1999). ([arXiv:math/9805116](https://arxiv.org/abs/math/9805116))
+
+
+* {#Vec03} [[Peter Vecsernyés]]. *Larson–Sweedler theorem and the role of grouplike elements in weak Hopf algebras*. Journal of Algebra. Volume 270, Issue 2, 15 December 2003, Pages 471-520. ([doi](https://doi.org/10.1016/j.jalgebra.2003.02.001))
+
+* {#IK08} [[Miodrag Iovanov]], [[Lars Kadison]]. *When weak Hopf algebras are Frobenius*. (2008). ([arXiv:0810.4777](https://arxiv.org/abs/0810.4777))
+
 
 category: algebra
 
