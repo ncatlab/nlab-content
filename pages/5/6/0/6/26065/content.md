@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -16,11 +20,12 @@
 {:toc}
 
 ## Idea
-A monoidal double category is a [[double category]] equipped with a monoidal product, compatible with both tight and loose morphisms.
+A *monoidal double category* is a [[double category]] equipped with a [[tensor product]] (cf. *[[monoidal 2-category]]*), compatible with both tight and loose morphisms.
 
-Formally, a monoidal double category is a [[pseudomonoid]] in the [[2-category]] $\mathbf{DblCat}$ of double categories, [[double functor|(lax) double functors]] and [[double natural transformation|loose natural transformations]].
+Formally, a monoidal double category is a [[pseudomonoid]] in the ([[product of categories|cartesian]] [[monoidal 2-category|monoidal]]) [[2-category]] $\mathbf{DblCat}$ of double categories, [[double functor|(lax) double functors]] and [[double natural transformation|loose natural transformations]].
 
 ## Definition
+
 Recall a double category $\mathbb{D}$ is an [[internal category|internal (pseudo)category]] in [[Cat]], hence is given by two categories $\mathbb{D}_1$ (category of loose arrows) and $\mathbb{D}_0$ (category of objects), plus *source* and *target* functors $s,t:\mathbb{D}_1 \to \mathbb{D}_0$, a *loose identity* functor $U:\mathbb{D}_0 \to \mathbb{D}_1$, and a *loose composition* functor $\odot  : \mathbb{D}_1 {}_s\times_t \mathbb{D}_1 \to \mathbb{D}_0$.
 Clearly this data has to satisfy the properties of the composition of a category, thus $U$ provides identities for the $\odot$, which in turn is associative. In [Shulman'21](#Shulman21) moreover, these properties are only satisfied up to coherent isomorphism, making loose arrows form a [[bicategory]].
 
@@ -48,8 +53,13 @@ A **braiding** on a monoidal double category is a natural transformation $\tau :
 A symmetric monoidal double category is a braided monoidal double category whose braiding $\tau$ satisfies $\tau\tau = 1$.
 \end{definition}
 
+## Related cocepts
+
+* [[monoidal 2-category]]
+
 ## References
-* {#Shulman21} [[Mike Shulman]], _Constructing Symmetric Monoidal Double Categories_, 2010, [arxiv](https://arxiv.org/abs/1004.0993)
+
+* {#Shulman21} [[Mike Shulman]], Def. 2.9 in: _Constructing Symmetric Monoidal Double Categories_ (2010) &lbrack;[arxiv:1004.0993](https://arxiv.org/abs/1004.0993)&rbrack;
 
 [[!redirects monoidal double categories]]
 [[!redirects symmetric monoidal double category]]
