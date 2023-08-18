@@ -84,9 +84,11 @@ One of the most important things about $\mathcal{F}$-categories is that they all
 
 The [[1-category]]-theoretic version:
 
-* [[relative categories]]$\;$[as enriched categories](relative+category#AsEnrichedCategories)
+* [[M-categories]] (cf. [[relative categories]]$\;$[as enriched categories](relative+category#AsEnrichedCategories))
 
 ## References
+
+$\mathcal{F}$-categories were introduced in the following, where they were called **enhanced 2-categories**:
 
 * {#LS} [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
  
@@ -99,3 +101,5 @@ The [[1-category]]-theoretic version:
 [[!redirects tight morphisms]]
 [[!redirects loose morphism]]
 [[!redirects loose morphisms]]
+[[!redirects enhanced 2-category]]
+[[!redirects enhanced 2-categories]]
