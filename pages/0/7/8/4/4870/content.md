@@ -71,6 +71,15 @@ Right whiskering is frequently written simply as $H \circ h$ or $H \cdot h$.
 
 ## References
 
+Whiskering (though not under this name) of [[natural transformations]] is first described in:
+
+* {#Godement58} [[Roger Godement]], Appendix (pp. 269) of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+For textbook accounts see most of those listed at *[[category]]*, such as:
+
+* [[Saunders MacLane]], §II.5, p. 43 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
 For whiskering in [[dependent type theory]]:
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
