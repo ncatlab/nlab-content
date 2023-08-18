@@ -179,6 +179,22 @@ By the discussion at [[n-vector space]] this allows to identify Hopf algebras wi
 More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally by [[sesquiunital sesquialgebras]].
 
 
+### Relation to Frobenius algebras
+
+Both Hopf algebras and [[Frobenius algebras]] are examples of [[bialgebra|bialgebras]], albeit with different additional structures and properties. Nevertheless, one may ask whether there is any relation between these two. This leads to the following result due to [Larson & Sweedler (1969)](#LS69).
+
+
++-- {: .num_prop #HopfAlgebraIsFrobeniusAlgebra}
+###### Proposition
+
+Any [[finite dimensional vector space|finite-dimensional]] Hopf algebra can be endowed with the structure of a Frobenius algebra.
+
+=--
+
+The finite-dimensional condition is expected since all Frobenius algebras are finite-dimensional. A nontrivial part of this result is that, while a finite-dimensional Hopf algebra $A$ already has a counit, this is not be the same counit that realizes $A$ as a Frobenius algebra. Rather, it is an *integral* (see [Larson & Sweedler (1969)](#LS69) for details on this).
+
+
+
 ## Examples
 
 * [[group algebra]]
@@ -276,6 +292,10 @@ For Hopf algebras in generative linguistics, see:
 * [[Matilde Marcolli]], [[Noam Chomsky]], Robert Berwick, *Mathematical Structure of Syntactic Merge* ([arXiv:2305.18278](https://arxiv.org/abs/2305.18278))
 
 * [[Matilde Marcolli]], Robert Berwick, [[Noam Chomsky]], *Old and New Minimalism: a Hopf algebra comparison* ([arXiv:2306.10270](https://arxiv.org/abs/2306.10270))
+
+The construction of a Frobenius algebra structure on finite-dimensional Hopf algebras due to
+
+* {#LS69}[[Richard Larson]], [[Moss Sweedler]]. *An Associative Orthogonal Bilinear Form for Hopf Algebras*. American Journal of Mathematics, Vol. 91, No. 1 (Jan., 1969), pp. 75-94 (20 pages). ([doi](https://doi.org/10.2307/2373270))
 
 [[!redirects Hopf algebras]]
 
