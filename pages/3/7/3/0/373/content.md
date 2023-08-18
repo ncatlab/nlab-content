@@ -295,14 +295,19 @@ Despite its being frequently attributed to Ehresmann, the notion of [[strict 2-c
 
   > (conceived as [[Cat]]-[[enriched categories]] and called *categories of the second type*) 
 
+both apparently following or inspired by the earlier definition of *[[double categories]]* due to
+
+* [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963) 1198-1201 &lbrack;[[Ehresmann-CategoriesDoubles.pdf:file]], [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246)&rbrack;
+
+An early definition also appears in the following, where it is mistakenly attributed to [[Charles Ehresmann]]:
 
 * {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, p. 425  in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
   > (expressed entirely in components, under the name *hypercategories*)
 
-all apparently following or inspired by the earlier definition of *[[double categories]]* due to
+The fundamental structure inherent to the 2-category of categories was first analysed in the first section of the appendix (p. 269) of the following:
 
-* [[Charles Ehresmann]], *Catégories double et catégories structurées*, C.R. Acad. Paris 256 (1963) 1198-1201 &lbrack;[[Ehresmann-CategoriesDoubles.pdf:file]], [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1246)&rbrack;
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
 Early discussion of the general notion of bicategories:
 
