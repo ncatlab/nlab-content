@@ -18,7 +18,7 @@
 
 ## Definition
 
-In a [[2-category]], the composition of [[2-morphism]]s along [[object]]s is called _horizontal composition_ .
+In a [[2-category]], the composition of [[2-morphisms]] along [[object]]s is called _horizontal composition_ .
 
 +-- {: style="text-align:center"}
 [[!include horizontal composition - SVG]]
@@ -37,4 +37,18 @@ Horizontal and vertical composition are subject to the compatibility condition c
 ## Related topics
 
 * [[whiskering]] 
+
+## References
+
+Horizontal composition of [[natural transformations]] is first describes in
+
+* {#Godement58} [[Roger Godement]], Appendix (pp. 269) of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+for textbook accounts see most of those listed at *[[category]]*, such as
+
+* [[Saunders MacLane]], §II.5, p. 43 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+
+
+
 
