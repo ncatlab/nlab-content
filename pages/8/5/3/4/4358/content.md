@@ -10,15 +10,20 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
+\linebreak
+
+> A prime number is that which is measured &lbrack;=divided by smaller number&rbrack; by a monad &lbrack;=unit&rbrack; alone. 
+
+> &lbrack;[[Euclid]], Def. 11 of *[[Elements]]* Book VII (~ 400-300 BC), see [here](monad+disambiguation#ElementsVIIDef11)&rbrack;
+
+
 ## Definition
 
-
-<div style="float:right;margin:0 10px 10px 0;">
+<div style="float:right;margin:0px 10px 10px 15px;">
 <img src="https://ncatlab.org/nlab/files/SomePrimes.jpg" width="60"/>
 </div>
 
