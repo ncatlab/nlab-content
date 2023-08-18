@@ -13,6 +13,17 @@
 * table of contents
 {:toc}
 
+
+\linebreak
+
+> An even number is that which is divisible into two equal parts. 
+
+> An odd number is that which is not divisible into two equal parts, or that which differs by a monad &lbrack;=unit&rbrack; from an even number.
+
+> &lbrack;[[Euclid]], Def. 6 & 7 of *[[Elements]]* Book VII (~ 400-300 BC), see [here](monad+disambiguation#ElementsVIIDef7)&rbrack;
+
+
+
 ## Definition
 
 An _even number_ is an [[integer]] $n \in \mathbb{Z}$ that is a multiple of 2, hence such that $n = 2 k$ for $k \in \mathbb{Z}$.
