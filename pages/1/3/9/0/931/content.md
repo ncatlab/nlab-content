@@ -356,7 +356,7 @@ In a [[model theory|model theoretic]] context of [[definable set]]s, principal h
 
 See also
 
-* MathOverflow, _[torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)_
+* MathOverflow, _[torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)_, [torsors-for-finite-group-schemes](https://mathoverflow.net/questions/46678/torsors-for-finite-group-schemes)
 
 [[!redirects torsors]]
 
