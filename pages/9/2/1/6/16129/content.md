@@ -23,7 +23,9 @@ The concept of _jet group_ is the generalization of [[general linear group]] fro
 
 In terms of [[synthetic differential geometry]]/[[differential cohesion]] a [[general linear group]] is the [[automorphism group]] of a first-order [[infinitesimal disk]], while a jet group is the automorphism group of a higher order infinitesimal disk. See also at _[differential cohesion -- Frame bundles](differential+cohesive+%28infinity%2C1%29-topos#GLnTangentBundles)_.
 
+
 ## Properties
+
 
 ### Homotopy type
  {#HomotopyType}
@@ -34,7 +36,11 @@ $$
   GL^k_+(n) \longrightarrow GL_+(n)
 $$
 
-is, on the level of the underlying [[topological spaces]], a [[homotopy equivalence]], indeed it preserves the [[maximal compact subgroup]], which is the [[special orthogonal group]] $SO(n)$ on both sides (recalled e.g. in [Dartnell 94, section 1](#Dartnell94)).
+is, on the level of the underlying [[topological spaces]], a [[homotopy equivalence]], indeed it preserves the [[maximal compact subgroup]], which is the [[special orthogonal group]] $SO(n)$ on both sides 
+
+(see [Kolář, Michor & Slovák 1993, §13.1 & Prop. on p. 131](#KolářMichorSlovák93); [Dartnell 1994, section 1](#Dartnell94), also [Grasseau 2006, pp. 14](#Grasseau06)).
+
+
 
 ### Group homology
 
@@ -57,17 +63,21 @@ $$
 
 ## References
 
-Original discussion (in the context of [[integrability of G-structures]]) is due to
+Original discussion in the context of [[integrability of G-structures]]
 
-* {#Guillemin65} [[Victor Guillemin]], section 3 of _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+* {#Guillemin65} [[Victor Guillemin]], section 3 of: *The integrability problem for $G$-structures*, Trans. Amer. Math. Soc. **116** (1965), 544-560 &lbrack;[jstor:1994134](http://www.jstor.org/stable/1994134)&rbrack;
 
-Textbook accounts and lecture notes include
+and in the context of [[natural vector bundles]]:
 
-* {#Terng78} C.L. Terng, _Natural vector bundles and natural differential operators_, Amer. J. Math. 100 (1978) 775-828.
+* {#Terng78} [[Chuu-Lian Terng]], p. 779 of: *Natural vector bundles and natural differential operators*, Amer. J. Math. **100** (1978) 775-828 &lbrack;[doi:10.2307/2373910](https://doi.org/10.2307/2373910), [jstor:2373910](https://www.jstor.org/stable/2373910)&rbrack;
 
-* [[Demeter Krupka]], Josef Jany&#353;ka,  _Lectures on differential invariants_, Univerzita JEP, Brno, 1990.
+Textbook accounts and lecture notes:
 
-* [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 13 of _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
+* [[Demeter Krupka]], [[Josef Janyška]], §2.2 in: _Lectures on differential invariants_, Univerzita J. E. Purkyně, Brno (1990) &lbrack;ISBN:80-210-165-8, [researchgate](https://www.researchgate.net/publication/36792711_Lectures_on_Differential_Invariants)&rbrack;
+
+  > (there jet groups are called "differential groups")
+
+* {#KolářMichorSlovák93} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 13 of: *[[Natural operators in differential geometry]]*, Springer (1993)  &lbrack;[doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [book webpage](https://www.emis.de/monographs/KSM/), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
 
 See also
 
@@ -75,11 +85,19 @@ See also
 
 * [MO discussion](http://mathoverflow.net/a/55322/381)
 
-Discussion of the [[group cohomology|group]] [[homology]] of jet groups includes
+Discussion of the [[group cohomology|group]] [[homology]] of jet groups:
 
-* {#Dartnell94} [[Pablo Dartnell]], _On the homology of groups of jets_, Journal of Pure and Applied Algebra Volume 92, Issue 2, 7 March 1994, Pages 109&#8211;121 ([publisher](http://www.sciencedirect.com/science/article/pii/0022404994900175))
+* {#Dartnell94} [[Pablo Dartnell]], *On the homology of groups of jets*, Journal of Pure and Applied Algebra **92** 2 (1994) 109-121 &lbrack;<a href="https://doi.org/10.1016/0022-4049(94)90017-5">doi:10.1016/0022-4049(94)90017-5</a>&rbrack;
 
-* Dror Farjoun, Jekel, Suciu, _Homology of jet groups_ ([pdf](http://www.northeastern.edu/suciu/papers/jets.pdf))
+* [[Emmanuel Dror Farjoun]], Jekel, Suciu, _Homology of jet groups_ ([pdf](http://www.northeastern.edu/suciu/papers/jets.pdf))
+
+Discussion of jet-[[frame bundles]] and their [[Cartan geometry]]:
+
+* {#Grasseau06} Michael Grasseau, *Jets, frames, and their Cartan geometry* &lbrack;[arXiv:math-ph/0603063](https://arxiv.org/abs/math-ph/0603063), [hal:00021276](https://hal.science/hal-00021276)&rbrack;
+
+
+
+
 
 
 [[!redirects jet groups]]
