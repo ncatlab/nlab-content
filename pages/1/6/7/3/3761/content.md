@@ -85,27 +85,7 @@ In fact compact closedness of the whole monoidal bicategory is not necessary to 
 
 All the above definitions can be found in [Day-Street 97](#DS97), except for the star-autonomous case which is in [Day-Street 03](#DS03) and [Street 04](#Street04).
 
-## Related concepts
 
-* [[monoidal (2,1)-category]]
-
-* [[monoidal category]]
-
-* [[module 2-category]]
-
-* [[braided monoidal 2-category]]
-
-* [[sylleptic monoidal 2-category]]
-
-* [[symmetric monoidal 2-category]]
-
-* [[compact closed 2-category]]
-
-* [[monoidal (infinity,1)-category]]
-
-* [[monoidal (infinity,n)-category]]
-
-* [[monoidal (∞,1)-category]]
 
 ## Coherence theorems
 
@@ -116,17 +96,31 @@ All the above definitions can be found in [Day-Street 97](#DS97), except for the
 
 ## Related concepts
 
-* [[Picard 3-group]]
-
 * [[braided monoidal 2-category]]
 
 * [[sylleptic monoidal 2-category]]
 
 * [[symmetric monoidal 2-category]]
 
-* [[monoidal (infinity,1)-category]]
+* [[Picard 3-group]]
 
-* [[monoidal (infinity,n)-category]]
+* [[compact closed 2-category]]
+
+* [[monoidal category]]
+
+* [[monoidal (2,1)-category]]
+
+* [[monoidal double category]]
+
+* [[monoidal (∞,1)-category]]
+
+* [[monoidal (∞,n)-category]]
+
+* [[module 2-category]]
+
+
+
+
 
 ## References
 
@@ -172,8 +166,9 @@ See also:
 
 * {#DS03} [[Brian Day]] and [[Ross Street]], "Quantum categories, star autonomy, and quantum groupoids", 2003 ([arxiv:0301209](https://arxiv.org/abs/math/0301209))
  
-* {#Street04} [[Ross Street]], "Frobenius monads and pseudomonoids", 2004
-  ([pdf](http://web.science.mq.edu.au/~street/Frob.pdf))
+* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids* (2004) &lbrack;[pdf](http://web.science.mq.edu.au/~street/Frob.pdf)&rbrack;
+
+  > (on [[Frobenius monads]])
 
 [[!redirects Gray monoid]]
 [[!redirects Gray-monoid]]
