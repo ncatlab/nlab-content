@@ -256,11 +256,15 @@ Exposition of [[variational calculus]] in terms of jet bundles and [[Lepage form
 * {#MusilovaHronek16} [[Jana Musilová]],  [[Stanislav Hronek]], _The calculus of variations on jet bundles as a universal approach for a variational formulation of fundamental physical theories_, Communications in Mathematics, Volume 24, Issue 2 (Dec 2016) ([doi.org/10.1515/cm-2016-0012]( https://doi.org/10.1515/cm-2016-0012))
 
 
-Textbook accounts and lecture notes include
+Lecture notes and textbook accounts:
+
 
 * {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
 
 * {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+
+* [[Demeter Krupka]], [[Josef Janyška]], Part 1 of: _Lectures on differential invariants_, Univerzita J. E. Purkyně, Brno (1990) &lbrack;ISBN:80-210-165-8, [researchgate](https://www.researchgate.net/publication/36792711_Lectures_on_Differential_Invariants)&rbrack;
+
 
 * [[Jean-François Pommaret]], Chapter II in: *Partial Differential Equations and Group Theory*, Springer (1994) &lbrack;[doi:10.1007/978-94-017-2539-2](https://doi.org/10.1007/978-94-017-2539-2)&rbrack;
 
