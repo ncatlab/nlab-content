@@ -24,6 +24,9 @@ Introducing [[stabilizer codes]]:
 
 * [[Robert Calderbank]], E. M Rains, [[Peter W. Shor]], N. J. A. Sloane, *Quantum Error Correction and Orthogonal Geometry*, Phys. Rev. Lett. 78:405-408, 1997 ([arXiv:quant-ph/9605005](https://arxiv.org/abs/quant-ph/9605005))
 
+On [[quantum computation]]:
+
+* [[Peter Shor]], *Quantum Computation*, Lecture notes (2022) &lbrack;[web](https://math.mit.edu/~shor/435-LN/)&rbrack;
 
 
 
