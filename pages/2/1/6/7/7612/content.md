@@ -78,6 +78,7 @@ Sources listing real-world issues programming issues that might motivate verific
 
 * Wikipedia, _[List of software bugs](https://en.wikipedia.org/wiki/List_of_software_bugs)_
 
+
 ### For cryptography
 
 Software verification for [[cryptography]]:
@@ -320,6 +321,10 @@ See also:
 Via [[Hoare logic]]:
 
 * {#Wu2019} Xiaodi Wu, *Toward Automatic Verification of Quantum Programs* (2019) &lbrack;[pdf](https://www.cs.umd.edu/class/fall2019/cmsc657/note/qhoare.pdf)&rbrack;
+
+Projects:
+
+* *[VeriqTAS -- Verification of Quantum Technologies, Applications and Systems](https://veriqtas.cft.edu.pl/index.html)*
 
 
 ### Hardware verification
