@@ -1,114 +1,59 @@
 
 
-<center>
-Where Euclid's points are atoms in the sense of [[geometry]], 
-</br>
-so his monads are units in the sense of [[arithmetic]].
-</center>
-
-> {#Blurb} **Cover blurb:** This book presents a novel development of fundamental and fascinating aspects of [[algebraic topology]] and [[mathematical physics]]: “[[Whitehead-generalized cohomology|extra-ordinary]]” and further [[generalized cohomology theories]] enhanced to "[[twisted cohomology|twisted]]" and [[differential cohomology|differential]]-geometric form with focus on their [[rational homotopy theory|rational approximation]] by [[Chern-Dold character|generalized Chern character]] maps and on the resulting [[charge quantization]] laws in [[higher gauge theory|higher $n$-form gauge field theories]] appearing in [[string theory]] and in the [[K-theory classification of topological phases of matter|classification of]] [[topological phase of matter|topological]] [[quantum materials]]. 
-
-> Motivation for the conceptual re-development is the observation, laid out in the introductory chapter, that famous and famously elusive effects in strongly interacting (“[[non-perturbative physics|non-perturbative]]”) [[quantum field theory|physics]] demand "[[non-abelian cohomology|non-abelian]]” generalization of much of established [[generalized cohomology theory]]. But the relevant higher [[non-abelian cohomology]] theory ("[[principal infinity-bundle|higher gerbes]]") has an esoteric reputation and has remained underdeveloped.
-
-> The book's theme is that variously [[generalized cohomology theories]] are best viewed through their [[classifying spaces]] -- possibly but not necessarily [[infinite-loop spaces]] -- from which perspective the [[Chern-Dold character|character map]] is really an incarnation of the [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem of rational homotopy theory]], thereby uniformly subsuming not only the classical [[Chern character]] and a multitude of scattered variants that have been proposed, but now seamlessly applying in the previously elusive generality of ([[twisted cohomology|twisted]], [[differential cohomology|differential]] and) [[non-abelian cohomology]].
-
-> In laying out this result with plenty of examples, we provide modernized introduction and review of fundamental classical topics: 1. abstract [[homotopy theory]] via [[model categories]], 2. [[generalized cohomology]] in [[homotopy theory|homotopical]] incarnation, 3. [[dg-algebra|dg-algebraic]] [[rational homotopy theory]], whose [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem]] we re-cast as a (twisted) non-abelian de Rham theorem which naturally induces the (twisted) non-abelian character map.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
 
 
-$\Sigma$
+# Contents
+* table of contents
+{:toc}
 
-$\mathfrak{M}$
-$\mathcal{M}$
+## Idea
+A monoidal double category is a [[double category]] equipped with a monoidal product, compatible with both tight and loose morphisms.
 
-I don't know if all of you know this, but when the QPL workshop series was first founded it was called "*Quantum Programming Languages*". And then one year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
+Formally, a monoidal double category is a [[pseudomonoid]] in the [[2-category]] $\mathbf{DblCat}$ of double categories, [[double functor|(lax) double functors]] and [[double natural transformation|loose natural transformations]].
 
-Back in those days in the early 21st century we were actually trying to do programming languages for quantum computing, but the sad thing is: In those days nobody really cared. 
+## Definition
+Recall a double category $\mathbb{D}$ is an [[internal category|internal (pseudo)category]] in [[Cat]], hence is given by two categories $\mathbb{D}_1$ (category of loose arrows) and $\mathbb{D}_0$ (category of objects), plus *source* and *target* functors $s,t:\mathbb{D}_1 \to \mathbb{D}_0$, a *loose identity* functor $U:\mathbb{D}_0 \to \mathbb{D}_1$, and a *loose composition* functor $\odot  : \mathbb{D}_1 {}_s\times_t \mathbb{D}_1 \to \mathbb{D}_0$.
+Clearly this data has to satisfy the properties of the composition of a category, thus $U$ provides identities for the $\odot$, which in turn is associative. In [Shulman'21](#Shulman21) moreover, these properties are only satisfied up to coherent isomorphism, making loose arrows form a [[bicategory]].
 
-Because, the algorithms-people said: "Who needs a programming language? Everything is equivalent to a Turing-machine anyway!"; and the programming-language people were interested but didn't really understand quantum, and they were not really end-customers&lbrack;?&rbrack; for such programming languages, because we didn't have -- and we still don't have -- any actual quantum computers. And then some people said: "Well, there is only five quantum algorithms, so why don't you just hard-code those in a chip and use that? Why do you need to program if there is only a fixed number of algorithms?"
+\begin{definition}
+A monoidal double category is a double category $\mathbb{D}$ equipped with [[double functors]] $I: \mathbb{1} \to \mathbb{D}$ and $\otimes : \mathbb{D} \times \mathbb{D} \to \mathbb{D}$ and with [[double natural transformations]] $\alpha : (\otimes\otimes)\otimes \cong \otimes(\otimes\otimes)$, $\lambda : (I \times \mathbb{D})\otimes \cong \otimes$, $\rho : (\mathbb{D} \times I)\otimes \cong \otimes$ satisfying the usual coherence laws of a pseudomonoid (pentagon and triangle, see [[monoidal category]]).
+\end{definition}
 
-Now it's 15 years later and, in fact, several of these parameters have changed. The interest in quantum programming languages in the last 3 or 4 years has &lbrack;increased&rbrack;, there has been a renewed interest, from government agencies and also from companies who are actually building quantum computers. They are starting to think about what they might actually do when they get ready. 
+\begin{remark}
+As often happens for structure on double categories, these arise as similar structures on the categories of loose arrows $\mathbb{D}_1$ and that of objects $\mathbb{D}_0$ when the source, identity and target maps respect it.
 
-So now people are working on quantum programming languages *again*.
+Specifically, a monoidal double category arises when both $\mathbb{D}_1$ and $\mathbb{D}_0$ are [[monoidal categories]] and
 
-\begin{proposition}
-**(normal form for 2d cobordisms)**
-\linebreak
-Every *[[connected topological space|connected]]* [[cobordism]] with
+1.  $s,t:\mathbb{D}_1\to\mathbb{D}_0$ are strict monoidal, meaning if $p:A \nrightarrow B$ and $p':A' \nrightarrow B'$ are loose arrows, $p \otimes q$ is a loose arrow $A \otimes A' \nrightarrow B \otimes B'$,
+2. $U:\mathbb{D}_0 \to \mathbb{D}_1$ is strong monoidal, meaning $U_1 : I \nrightarrow I$ is the monoidal unit for $\mathbb{D}_1$ and there is an iso $U_{A \otimes B} \cong U_A \otimes U_B$ for all $A,B:\mathbb{D}_0$.
+3. $\odot  : \mathbb{D}_1 {}_s\times_t \mathbb{D}_1 \to \mathbb{D}_0$ is monoidal, meaning there is an iso $(p \otimes q) \odot (p' \otimes q') \cong (p \odot p') \otimes (q \odot q')$ for any suitably composable loose arrows $p,p',q',q' : \mathbb{D}_1$.
 
-* $n_{in}$ ingoing boundary components
+and of course these isomorphisms satisfy coherence axioms one can find in [Shulman'21](#Shulman21).
 
-* $n_{ouy}$ outgoing boundary components
+\end{remark}
 
-* [[genus of a surfce|genus]] $g$
+\begin{definition}
+A **braiding** on a monoidal double category is a natural transformation $\tau : \otimes \cong \mathrm{swap}\otimes$ which satisfies the coherence laws of the braiding of a pseudomonoid (see [[braided monoidal category]])
+\end{definition}
 
-is equivalent ([[diffeomorphism|diffeomorphic]]) to the [[composition]] of 
+\begin{definition}
+A symmetric monoidal double category is a braided monoidal double category whose braiding $\tau$ satisfies $\tau\tau = 1$.
+\end{definition}
 
-* $n_{in}-1$ [[trinions]] regarded as $S^1 \times S^1 \to S^1$
+## References
+* {#Shulman21} [[Mike Shulman]], _Constructing Symmetric Monoidal Double Categories_, 2010, [arxiv](https://arxiv.org/abs/1004.0993)
 
-* $g$ 2-punctured [[tori]] $S^1 \to S^1$
-
-* $n_{out}-1$ [[trinions]] regared as $S^1 \to S^1 \times S^1$
-
-as shown in the following example for 
-
-* $n_{in} = 5$
-
-* $g = 4$
-
-* $n_{out}$
-
-<center>
-<img src="/nlab/files/2dCObordismNormalForm.jpg" width="600">
-</center>
-
-> (graphics from [Kock 2004, p. 64](#Kock2004))
-
-\end{proposition}
-This fact probably ought to be regarded as classical; an explicit account is given in [Kock 2004, §3.1.2](#Kock2004).
-
-By the [relation](#RelationTo2DTQFT) between 2d cobordism and Frobenius algebras this means equivalently that:
-
-
-
-\begin{corollary}\label{NormalFormForFrobeniusMaps}
-**(normal form for Frobenius maps)**
-\linebreak
-Given a Frobenius algebra
-
-$$
-  \big(
-    A 
-    ,\,
-    unit
-    ,\,
-    counit
-    ,\,
-    prod
-    ,\,
-    coprod
-  \big)
-$$
-
-then every linear map of the form
-
-$$
-  A^{\otimes^{n_{in}}}
-  \longrightarrow
-  A^{\otimes^{n_{out}}}
-$$
-
-which is 
-
-1. entirely the composite of the algebra's structure maps, ie. of the (co)unit and the (co)product, 
-
-1. *connected* in that it does not decompose as a tensor product of such morphisms,
-
-is equal to the composite of
-
-* $n_{in}-1$ copies of $prod$
-
-* some number ($g$) of copies of $prod \circ coprod$
-
-* $n_{out}$ copies of $coprod$ 
-  
-\end{corollary}
+[[!redirects monoidal double categories]]
+[[!redirects symmetric monoidal double category]]
+[[!redirects symmetric monoidal double categories]]
+[[!redirects braided monoidal double category]]
+[[!redirects braided monoidal double categories]]
