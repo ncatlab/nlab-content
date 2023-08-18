@@ -305,9 +305,10 @@ An early definition also appears in the following, where it is mistakenly attrib
 
   > (expressed entirely in components, under the name *hypercategories*)
 
-The fundamental structure inherent to the 2-category of categories was first analysed in the first section of the appendix (p. 269) of the following:
 
-* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+The fundamental structure of the [[2-category of categories]] (namely the [[vertical composition]], [[horizontal composition]] and the [[whiskering]] of [[natural transformations]]) was first described in:
+
+* {#Godement58} [[Roger Godement]], Appendix (pp. 269) of: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
 Early discussion of the general notion of bicategories:
 
