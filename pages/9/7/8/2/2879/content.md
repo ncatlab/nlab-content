@@ -140,5 +140,12 @@ A notion of multiplier Hopf algebroid is studied in
 * T. Timmermann, A. Van Daele, _Multiplier Hopf algebroids. Basic theory and examples_,  Commun. Alg. __46__:5 (2018) [arxiv/1307.0769](https://arxiv.org/abs/1307.0769) [doi](https://doi.org/10.1080/00927872.2017.1363220); _Multiplier Hopf algebroids arising from weak multiplier Hopf algebras_, [arxiv/1406.3509](https://arxiv.org/abs/1406.3509)
 * Frank Taipe, _Quantum transformation groupoids: An algebraic and analytical approach_, PhD thesis (2018) [link](https://hal.archives-ouvertes.fr/tel-02288186)
 
+Further examples and counterexamples
+
+* Ana Rovi, _Hopf algebroids associated to Jacobi algebras_, Int. J. Geom. Methods in Modern Phys. __11__: 10 (2014) 1450092 [doi](https://doi.org/10.1142/S0219887814500923)
+* [[Ulrich Krähmer]], Ana Rovi, _A Lie-Rinehart algebra with no antipode_, Commun. Alg. __43__:10 (2015) [doi](https://doi.org/10.1080/00927872.2014.896375) 
+
+> The aim of this note is to communicate a simple example of a Lie-Rinehart algebra whose enveloping algebra is not a Hopf algebroid, neither in the sense of Böhm and Szlachányi, nor in the sense of Lu.
+
 category: algebra
 [[!redirects Hopf algebroids]]
