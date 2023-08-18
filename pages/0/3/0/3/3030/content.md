@@ -24,7 +24,7 @@ This entry largely discusses [[Schreier theory]] of nonabelian [[group extension
 
 As [[group cohomology]] of a group $G$ is the cohomology of its [[delooping]] $\mathbf{B}G$, so _nonabelian group cohomology_ is the corresponding [[nonabelian cohomology]].
 
-By the [[category theory|general abstract]] definition of [[cohomology]], the _[[abelian group|abelian]]_ [[group cohomology]] in degree $k \in \mathbb{N}$ of a [[group]] $G$ with coefficients in an abelian group $K$ is the set of 
+By the [[category theory|general abstract]] definition of [[cohomology]], the _[[abelian group|abelian]]_ [[group cohomology]] in degree $n \in \mathbb{N}$ of a [[group]] $G$ with coefficients in an abelian group $K$ is the set of 
 [[equivalence classes]] of [[morphisms]]
 
 $$
