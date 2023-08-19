@@ -576,7 +576,7 @@ Conversely this gives a sense that if a category $\mathcal{C}$ is *not* extensiv
 
 Early discussion of the concept: 
 
-* {#Bénabou1985} [[Jean Bénabou]], §3 in: *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
+* {#Bénabou1985} [[Jean Bénabou]], §3.3 in: *Fibered Categories and the Foundations of Naive Category Theory*,  The Journal of Symbolic Logic, Vol. **50** 1 (1985) 10-37 &lbrack;[doi:10.2307/2273784](http://dx.doi.org/10.2307/2273784)&rbrack;
 
 On [[accessible category|accessibility]] of free coproduct completions:
 
