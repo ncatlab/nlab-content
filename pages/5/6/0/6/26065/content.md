@@ -30,11 +30,13 @@ Recall a double category $\mathbb{D}$ is an [[internal category|internal (pseudo
 Clearly this data has to satisfy the properties of the composition of a category, thus $U$ provides identities for the $\odot$, which in turn is associative. In [Shulman 2010](#Shulman10) moreover, these properties are only satisfied up to coherent isomorphism, making loose arrows form a [[bicategory]].
 
 \begin{definition}
-A monoidal double category is a double category $\mathbb{D}$ equipped with [[double functors]] $I: \mathbb{1} \to \mathbb{D}$ and $\otimes : \mathbb{D} \times \mathbb{D} \to \mathbb{D}$ and with [[double natural transformations]] $\alpha : (\otimes\otimes)\otimes \cong \otimes(\otimes\otimes)$, $\lambda : (I \times \mathbb{D})\otimes \cong \otimes$, $\rho : (\mathbb{D} \times I)\otimes \cong \otimes$ satisfying the usual coherence laws of a pseudomonoid (pentagon and triangle, see [[monoidal category]]).
+A monoidal double category is a double category $\mathbb{D}$ equipped with [[double functors]]
+$$I: \mathbb{1} \to \mathbb{D}\quad \text{and} \quad \otimes : \mathbb{D} \times \mathbb{D} \to \mathbb{D}$$
+and with [[double natural transformations]] $\alpha : (\otimes\otimes)\otimes \cong \otimes(\otimes\otimes)$, $\lambda : (I \times \mathbb{D})\otimes \cong \otimes$, $\rho : (\mathbb{D} \times I)\otimes \cong \otimes$ satisfying the usual coherence laws of a pseudomonoid (pentagon and triangle, see [[monoidal category]]).
 \end{definition}
 
 \begin{remark}
-As often happens for structure on double categories, these arise as similar structures on the categories of loose arrows $\mathbb{D}_1$ and that of objects $\mathbb{D}_0$ when the source, identity and target maps respect it.
+As often happens for structure on internal categories, these arise as structures on the categories of loose arrows $\mathbb{D}_1$ and that of objects $\mathbb{D}_0$ when the source, identity and target maps respect it.
 
 Specifically, a monoidal double category arises when both $\mathbb{D}_1$ and $\mathbb{D}_0$ are [[monoidal categories]] and
 
@@ -42,7 +44,7 @@ Specifically, a monoidal double category arises when both $\mathbb{D}_1$ and $\m
 2. $U:\mathbb{D}_0 \to \mathbb{D}_1$ is strong monoidal, meaning $U_1 : I \nrightarrow I$ is the monoidal unit for $\mathbb{D}_1$ and there is an iso $U_{A \otimes B} \cong U_A \otimes U_B$ for all $A,B:\mathbb{D}_0$.
 3. $\odot  : \mathbb{D}_1 {}_s\times_t \mathbb{D}_1 \to \mathbb{D}_0$ is monoidal, meaning there is an iso $(p \otimes q) \odot (p' \otimes q') \cong (p \odot p') \otimes (q \odot q')$ for any suitably composable loose arrows $p,p',q',q' : \mathbb{D}_1$.
 
-and of course these isomorphisms satisfy coherence axioms one can find in [Shulman'21](#Shulman21).
+and of course these isomorphisms satisfy coherence axioms one can find in [Shulman'10](#Shulman10).
 \end{remark}
 
 \begin{definition}
