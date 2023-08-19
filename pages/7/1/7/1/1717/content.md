@@ -186,7 +186,7 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
     \,.
   $$
 
-  The target of general 2-morphisms labeled by $h$ and starting at some $g$ is either $\delta(h)g $ of $g \delta(h)$, depending on the choice of conventions discussed in the following.
+  The target of general 2-morphisms labeled by $h$ and starting at some $g$ is either $\delta(h)g $ or $g \delta(h)$, depending on the choice of conventions discussed in the following.
 
 * Horizontal composition of 1-morphisms with 2-morphisms ("whiskering") is determined by the rule
 
