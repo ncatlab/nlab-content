@@ -253,11 +253,11 @@ which is picked up in
 
 and further developed into a theory of [[2-vector bundles]] (via algebra bundles with bundles of bimodules between them) in:
 
-* [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *The insidious bicategory of algebra bundles* &lbrack;[arXiv:2204.03900](https://arxiv.org/abs/2204.03900)&rbrack;
+* {#KristelLudewigWaldorf22} [[Peter Kristel]], [[Matthias Ludewig]], [[Konrad Waldorf]], *The insidious bicategory of algebra bundles* &lbrack;[arXiv:2204.03900](https://arxiv.org/abs/2204.03900)&rbrack;
 
 Essentially the same notion also appears, apparently independently, in:
 
-* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], §7.1 with Ex. 2.13 in: *[[Topological Quantum Field Theories from Compact Lie Groups]]* &lbrack;[arXiv:0905.0731](https://arxiv.org/abs/0905.0731)&rbrack;
+* {#FreedHopkinsTeleman09} [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], §7.1 with Ex. 2.13 in: *[[Topological Quantum Field Theories from Compact Lie Groups]]* &lbrack;[arXiv:0905.0731](https://arxiv.org/abs/0905.0731)&rbrack;
 
 The notion is reviewed in a list of "standard" definitions in [BDSPV15](#BDSPV15), without however referencing it.
 
