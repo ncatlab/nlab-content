@@ -166,7 +166,7 @@ In the case that the [[simplicial Lawvere theory]] $T$ happens to be simpliciall
 +-- {: .num_prop}
 ###### Proposition
 
-For $T$ a [[simplicial Lawvere theory]] (def. \ref{SimplicialLawvereTheory}) the category $(T Alg)_{poj}$ from def. \ref{SimplicialLawvereTheory} is a [[simplicial model category]].
+For $T$ a [[simplicial Lawvere theory]] (def. \ref{SimplicialLawvereTheory}) the category $(T Alg)_{proj}$ from def. \ref{SimplicialLawvereTheory} is a [[simplicial model category]].
 
 =--
 
