@@ -118,7 +118,7 @@ Hence by [this characterization](adjoint+functor#UniversalArrow) of [[adjoint fu
 
    for every $2k \leq n$ we have $2k \leq 2 \lfloor n/2 \rfloor $,
 
-which is readily seen to be the case
+which is readily seen to be the case.
 
 
 =--
