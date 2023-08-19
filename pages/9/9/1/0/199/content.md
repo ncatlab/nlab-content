@@ -34,6 +34,8 @@ The study of $Vect$ is called _[[linear algebra]]_.
 
 ## Properties
 
+For a field $k$, the category $Vect_k$ is [[ cocomplete category | cocomplete ]]. 
+
 ### Splitting lemma
 
 Assuming the [[axiom of choice]] (and essentially by the [[basis theorem]]):
