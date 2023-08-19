@@ -58,10 +58,13 @@ Further discussion:
 
   > (using the [[Atiyah-Hirzebruch spectral sequence]])
 
+Review:
+
+* {#vanNigtevecht19} [[Sven van Nigtevecht]], *Topological phases and K-theory*, Amsterdam (2019) $[$[web](https://svann.science/publication/bachelors), [pdf](https://webspace.science.uu.nl/~0554804/publications/bachelor.pdf)$]$
 
 Generalization to include interacting [[topological order]]:
 
-* {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)$]$
+* {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)$]$
 
 
 Via [[cobordism cohomology]]:
