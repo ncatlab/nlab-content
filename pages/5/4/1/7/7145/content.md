@@ -255,7 +255,7 @@ and quoted by
 * Thomas Aquinas, *Summar Theologica* &lbrack;[Wikipedia entry](https://en.wikipedia.org/wiki/Summa_Theologica), [ccel.org](https://www.ccel.org/ccel/aquinas/summa.FP_Q32_A1.html)&rbrack; (~1250 AS)
 
 
-The Wikipedia entries have further historical writings on monads (but does not mention their role in Euclid's *[[Elements]]*):
+The Wikipedia entries have further historical writings on monads (but do not mention their role in Euclid's *[[Elements]]*):
 
 * {#WikipediaMonadPhiliosophy} Wikipedia, *<a href="https://en.wikipedia.org/wiki/Monad_(philosophy)">Monad (philosophy)</a>*
 
