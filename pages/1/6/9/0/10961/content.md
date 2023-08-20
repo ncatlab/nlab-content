@@ -222,5 +222,10 @@ One quote above is taken from the first paragraphs of
 [[!redirects interpretation of quantum physics]]
 [[!redirects interpretations of quantum physics]]
 
+[[!redirects many-worlds interpretation]]
 [[!redirects many-worlds interpretation of quantum mechanics]]
+
+[[!redirects Copenhagen interpretation]]
+[[!redirects Copenhagen interpretation of quantum mechanics]]
+
 
