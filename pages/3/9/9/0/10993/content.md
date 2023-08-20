@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +23,7 @@
 
 ## Idea
 
-A _relative_ monad $T : \mathbf J \to \mathbf C$ is much like a [[monad]] except that it is not an [[endofunctor]] on one [[category]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically via a specified comparison functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. 
+A _relative_ monad $T \colon \mathbf J \to \mathbf C$ is much like a [[monad]] except that it is not an [[endofunctor]] on one [[category]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically via a specified comparison functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. 
 
 Ordinary monads are then the special case of $J$-relative monads where $J$ is the [[identity functor]].
 
@@ -32,27 +33,53 @@ In generalization of the [relation between adjunctions and monads](monad#Relatio
 ## Definitions
  {#Definition}
 
-Let $\mathbf J, \mathbf C$ be [[categories]] and $J \colon \mathbf J \to \mathbf C$ be a [[functor]].
+Let 
+
+* $\mathbf J, \mathbf C$ be [[categories]] 
+
+* $J \,\colon\, \mathbf J \to \mathbf C$ a [[functor]].
 
 
 ### As skew Kleisi triples
  {#AsSkewKleisliTriples}
 
+The following definition is a variation of the [[Kleisli triple]]-formulation of ordinary [[monads]]:
+
 \begin{definition}
 \label{def}
-A **relative monad $T$ on $J$** is a functor $T \colon \mathbf J \to \mathbf C$ equipped with
+A **relative monad $T$ on $J$** is 
 
-1.  a _[[unit of a monad|unit]]_ $\eta_X \colon J X \to T X$ [[natural transformation|natural]] in $X \colon \mathbf J$,
+* a [[functor]] $T \,\colon\, \mathbf J \to \mathbf C$ 
 
-1.  a _[[extension system|Kleisli extension]]_ $(-)^* \colon \mathbf C(J X, T Y) \to \mathbf C(T X, T Y)$ in both $X,Y \colon \mathbf J$
+equipped with
 
-such that for every $X,Y,Z \colon \mathbf J$ and $k \colon J X \to T Y$ the following [[equations]] hold:
+1. a *$J$-relative [[unit of a monad|unit]]* 
 
-1. _(left [[unitality]])_ $k = k^* \circ \eta_X$,
+   $\eta_X \,\colon\, J X \to T X$ 
 
-1. _(right [[unitality]])_ $\eta_X^* = 1_{T X}$,
+   [[natural transformation|natural]] in $X \colon \mathbf J$,
 
-1. _([[associativity]])_ $(\ell^* \circ k)^* = \ell^* \circ k^*$ for every $k \colon J X \to T Y$ and $\ell \colon J Y \to T Z$.
+1. a *$J$-relative [[Kleisli extension]]*
+
+   $(-)^* \colon \mathbf{C}(J X, T Y) \to \mathbf{C}(T X, T Y)$ 
+
+   natural in both $X, Y \colon \mathbf J$
+
+such that for $X, Y, Z \colon \mathbf J$ and $k \colon J X \to T Y$ the following [[equations]] hold:
+
+1. (*left [[unitality]]*) 
+
+   $k = k^* \circ \eta_X \;,$
+
+1. (*right [[unitality]]*) 
+
+   $\eta_X^* = 1_{T X} \;,$
+
+1. (*[[associativity]]*) 
+
+   $(\ell^* \circ k)^* = \ell^* \circ k^*$ 
+
+   for every $k \colon J X \to T Y$ and $\ell \colon J Y \to T Z$.
 
 \end{definition}
 
@@ -107,14 +134,120 @@ with essentially the same equations. This generalizes the previous definition by
 ### Generic examples
 
 \begin{example}
-**(relative monads induced from actual monads)**
 \label{RelativeMonadsInducedFromActualMonads}
-Any actual [[monad]] $T$ on $\mathbf{C}$ induces a relative monad $T J$ on $J$, for any $J \colon \mathbf{J}\to \mathbf{C}$. 
+**(relative monads induced from actual monads)**
+\linebreak
+Given 
+
+* a [[functor]] 
+ 
+  $J \,\colon\, \mathbf{J} \to \mathbf{C}$,
+
+* an actual$\;$ [[monad]] 
+
+  $T \,\colon\, \mathbf{C} \to \mathbf{C}$ 
+
+  with 
+
+  * [[unit of a monad|unit]]$\;$  $\eta^T_{(-)}$
+
+  * [[Kleisli extension]]$\;$ $bind^T$
+
+the composite
+
+* $T \circ J \,\colon\, \mathbf{J} \to \mathbf{C}$
+
+becomes a $\mathbf{J}$-relative monad (Def. \ref{def}) with
+
+* relative unit 
+
+  $\eta^{T J}_X \,\coloneqq\, \eta^T_{J(X)}$
+
+* relative Kleisli extension
+
+  $
+    bind^{T J}\big( J(X) \overset{k}{\to} T \circ J(Y) \big) 
+      \;\coloneqq\;
+    bind^T\big( J(X) \overset{k}{\to} T \circ J(Y) \big)
+    \,.
+  $
+
 \end{example}
+This example is stated in [ACU14, Prop. 2.3 (1)](#ACU14).
+\begin{proof}
+The required conditions on the relative Kleisli structure of $T \circ J$ immediately reduce to those of the actual Kleisli structure of $T$:
 
-This is the content of [ACU14, Prop. 2.3 (1)](#ACU14)
+Given
 
-A concrete instance of this case is spelled out in Exp. \ref{LinearSpan} below.
+$$
+  k \,\colon\, J(X) \to T \circ J(X')
+  ,\;\;\;
+  \ell \,\colon\, J(X') \to T \circ J(X'')
+$$
+
+we have
+
+left unitality:
+
+$$
+  \begin{array}{l}
+    bind^{T J}(k) \circ \eta^{T J}_{X}
+    \\
+    \;\equiv\;
+    bind^T(k) \circ \eta^T_{J(X)}
+    \\
+    \;=\;
+    k
+  \end{array}
+$$
+
+right unitality:
+
+$$
+  \begin{array}{l}
+    bind^{T J}\big(
+      \eta^{T J}_{X}
+    \big)
+    \\
+    \;\equiv\;
+    bind^T\big(
+      \eta^T_{J (X)}
+    \big)
+    \\
+    \;=\;
+    id_{T \circ J(X)}
+  \end{array}
+$$
+
+associativity:
+
+$$
+  \begin{array}{l}
+    bind^{T J}\big(
+      bind^{T J}(\ell)
+      \circ 
+      k
+    \big)
+    \\
+    \;\equiv\;
+    bind^{T}\big(
+      bind^{T}(\ell)
+      \circ 
+      k
+    \big)
+    \\
+    \;=\;
+    bind^T(\ell) \circ bind^T(k)
+    \\
+    \;\equiv\;
+    bind^{T J}(\ell) \circ bind^{T J}(k)    
+  \end{array}
+$$
+
+\end{proof}
+
+A concrete instance of Exp. \ref{RelativeMonadsFromActualMonads} is spelled out in Exp. \ref{LinearSpan} below.
+
 
 
 
