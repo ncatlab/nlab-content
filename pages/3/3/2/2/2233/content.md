@@ -21,20 +21,17 @@
 
 ## Idea
 
-_Extended quantum field theory_ (or _multi-tiered quantum field theory_) is the fully [[local quantum field theory|local]] formulation of [[functorial quantum field theory]], formulated in [[higher category theory]]
+_Extended quantum field theory_ (or _multi-tiered quantum field theory_) is the fully [[local quantum field theory|local]] formulation of [[functorial quantum field theory]], stated using [[higher category theory]]
 
 Whereas a
 
-
-* [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows one to compute topological invariants $Z(\Sigma)$ assigned to $d$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $d$-dimensional composable [[cobordism]]s with $(d-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
+* [[category theory|1-categorical]] [[functorial field theory]] may be regarded as a rule that allows one to compute invariants $Z(\Sigma)$ assigned to $d$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $d$-dimensional composable [[cobordism]]s with $(d-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
 
 we have that
 
-* in extended [[TQFT]] $Z(\Sigma)$ may be computed by decomposing $\Sigma$ into $d$-dimensional pieces with piecewise smooth boundaries, whose boundary strata are of arbitrary codimension $k$.
+* in extended [[functorial field theory]] $Z(\Sigma)$ may be computed by decomposing $\Sigma$ into $d$-dimensional pieces with piecewise smooth boundaries, whose boundary strata are of arbitrary codimension $k$.
 
-
-
-For that reason extended QFT is also sometimes called **local** or **localized** QFT. In fact, the notion of locality in [[quantum field theory]] is precisely this notion of locality. And, as also discussed at [[FQFT]], this higher dimensional version of locality is naturally encoded in terms of [[higher category theory|n-functoriality]] of $Z$ regarded as a functor on a [[higher category theory|higher category]] of [[cobordism]]s.
+For that reason extended functorial field theory is also sometimes called **local** or **localized** functorial field theory. In fact, the notion of locality in [[quantum field theory]] is precisely this notion of locality. And, as also discussed at [[FQFT]], this higher dimensional version of locality is naturally encoded in terms of [[higher category theory|n-functoriality]] of $Z$ regarded as a functor on a [[higher category theory|higher category]] of [[cobordism]]s.
 
 
 
@@ -54,11 +51,11 @@ See
 
 * [[extended cobordism]].
 
-### Extended TQFT
+### Extended functorial field theory
 
 Fix a [[base ring]] $R$, and let $C$ be the [[symmetric monoidal category|symmetric monoidal]] $n$-category of $n$-$R$-modules.
 
-An $n$-extended $C$-valued TQFT of dimension $d$ is a symmetric $n$-tensor functor $Z: n Cob_d \rightarrow C$ that maps
+An $n$-extended $C$-valued functorial field theory of dimension $d$ is a symmetric $n$-tensor functor $Z: n Cob_d \rightarrow C$ that maps
 
 * smooth compact oriented $d$-manifolds to elements of $R$
 
@@ -199,6 +196,9 @@ See also:
 
 [[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
 
+
+
+[[!redirects extended topological quantum field theory]]
 
 [[!redirects EQFT]]
 [[!redirects extended TQFT]]
