@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # The Bayesian interpretation of quantum physics
 * table of contents
 {: toc}
@@ -91,21 +92,25 @@ In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to
  
 * {#Baez2003} John Baez et al (2003). Bayesian Probability Theory and Quantum Mechanics. Collection of Usenet posts from 1994, with commentary. [Web](http://math.ucr.edu/home/baez/bayes.html).
  
-* {#CFS2001} Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [ArXiv](http://arxiv.org/abs/quant-ph/0104088).
+* {#CFS2001} Carlton Caves, [[Christopher Fuchs]], Ruediger Schack, *Unknown Quantum States: The Quantum de Finetti Representation* (2001) &lbrack;[arXiv:quant-ph/0104088](http://arxiv.org/abs/quant-ph/0104088)&rbrack;
 
-* {#Fuchs2002} [[Christopher Fuchs]] (2002). Quantum Mechanics as Quantum Information (and only a little more). [ArXiv](https://arxiv.org/abs/quant-ph/0205039).
+* {#Fuchs2002} [[Christopher Fuchs]], *Quantum Mechanics as Quantum Information (and only a little more)* (2002) &lbrack;[arXiv:quant-ph/0205039](https://arxiv.org/abs/quant-ph/0205039)&rbrack;
 
-* {#FMS2014} [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack (2014). An Introduction to QBism with an Application to the Locality of Quantum Mechanics. American Journal of Physics 82:8, 749--754. [ArXiv](https://arxiv.org/abs/1311.5253).
+* {#FMS2014} [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack, *An Introduction to QBism with an Application to the Locality of Quantum Mechanics*, American Journal of Physics **82**  8 (2014) 749--754 &lbrack;[arXiv:1311.5253](https://arxiv.org/abs/1311.5253)&rbrack;
 
-* {#Mermin2018} [[David Mermin]] (2018). Making better sense of quantum mechanics. [ArXiv](https://arxiv.org/abs/1809.01639).
+* {#FuchsSchlosshauerStacey14} [[Christopher A. Fuchs]], [[Maximilian Schlosshauer]] (foreword), [[Blake C. Stacey]] (ed.) *My Struggles with the Block Universe* &lbrack;[arXiv:1405.2390](https://arxiv.org/abs/1405.2390)&rbrack;
 
-* {#vandeWetering2018} John van de Wetering (2018). Quantum Theory is a Quasi-stochastic Process Theory. EPTCS 266, pp. 179--196. [ArXiv](https://arxiv.org/abs/1704.08525).
+My Struggles with the Block Universe
 
-* {#Stacey2019} Blake Stacey (2019). Ideas abandoned en route to QBism. [ArXiv](https://arxiv.org/abs/1911.07386).
+* {#Mermin2018} [[David Mermin]], *Making better sense of quantum mechanics* (2018) &lbrack;[arXiv:1809.01639](https://arxiv.org/abs/1809.01639)&rbrack; 
+
+* {#vandeWetering2018} John van de Wetering, *Quantum Theory is a Quasi-stochastic Process Theory& EPTCS 266 (2018) 179-196 &lbrack;[arXiv:1704.08525](https://arxiv.org/abs/1704.08525)&rbrack;
+
+* {#Stacey2019} [[Blake Stacey]], *Ideas abandoned en route to QBism* (2019) &lbrack;[arXiv:1911.07386](https://arxiv.org/abs/1911.07386)&rbrack;
 
 See also
 
-* {#Wikimedia} Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
+* {#Wikimedia} Wikipedia, *[Quantum Bayesianism](https://en.wikipedia.org/wiki/Quantum_Bayesianism)*
 
 
 [[!redirects Bayesian interpretation of quantum mechanics]]
