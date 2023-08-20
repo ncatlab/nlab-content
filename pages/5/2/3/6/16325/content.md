@@ -13,7 +13,7 @@ This pages collects material related to the textbook
 
   ISBN:9780716703440, 9780691177793
 
-  [inpire:95654](https://inspirehep.net/literature/95654)
+  [inspire:95654](https://inspirehep.net/literature/95654)
 
   <a href="https://en.wikipedia.org/wiki/Gravitation_(book)">Wikipedia entry</a>
 
