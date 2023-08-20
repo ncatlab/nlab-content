@@ -146,18 +146,24 @@ This presentation also generalizes naturally to [[dependent linear type theory]]
 
 ### General
 
+The exponential modality originates in [[linear logic]] with 
+
+* {#Girard1987} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
+ 
+A streamlined statement of the [[inference rules]] and the observation that these make the exponential a [[comonad]] is due to:
+
+* {#Seely} [[R. A. G. Seely]], §2 of: *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
+
+
 Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
 * {#MihályiNovitzká13} Daniel Mihályi, Valerie Novitzká, Section 2.2 of: *What about Linear Logic in Computer Science?*, Acta Polytechnica Hungarica **10** 4 (2013) 147-160 &lbrack;[pdf](http://acta.uni-obuda.hu/Mihalyi_Novitzka_42.pdf), [[MihalyiNovitzka-LinearLogic.pdf:file]]&rbrack;
 
 
-On the semantics of exponential conjunction as a [[comonad]]:
+Further on the semantics of exponential conjunction as a [[comonad]]:
 
-* {#depaiva89} [[ Valeria de Paiva]], *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92).
-
-* {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
+* {#depaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
   
-
 * {#BBPH92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], [[Martin Hyland]], *Linear $\lambda$-Calculus and Categorical Models Revisited*, in *Computer Science Logic. CSL 1992*, Lecture Notes in Computer Science **702**, Springer (1993) &lbrack;[doi:10.1007/3-540-56992-8_6](https://doi.org/10.1007/3-540-56992-8_6)&rbrack;
  
 
