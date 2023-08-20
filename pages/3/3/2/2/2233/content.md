@@ -188,7 +188,7 @@ For TQFTs appearing in [[solid state physics]] in the context of [[topological o
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Condensations in higher categories* ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
 
-See also: 
+For its relation to the notion of [[generalized symmetries]]: 
 
 * [[Daniel S. Freed]], [[Gregory W. Moore]], [[Constantin Teleman]], *Topological symmetry in quantum field theory* &lbrack;[arXiv:2209.07471](https://arxiv.org/abs/2209.07471)&rbrack;
 
