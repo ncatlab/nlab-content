@@ -26,7 +26,9 @@ and its mis-attribution to [[Richard Feynman]]:
 
 * [[N. David Mermin]], *Could Feynman Have Said This?*, Physics Today **57** 5 (2004) 10–11 &lbrack;[doi:10.1063/1.1768652](https://doi.org/10.1063/1.1768652)&rbrack;
 
+On [[quantum Bayesianism]]/[[QBism]]:
 
+* {#FMS2014} [[Christopher Fuchs]], [[David Mermin]], [[Ruediger Schack]], *An Introduction to QBism with an Application to the Locality of Quantum Mechanics*, American Journal of Physics **82**  8 (2014) 749--754 &lbrack;[arXiv:1311.5253](https://arxiv.org/abs/1311.5253)&rbrack;
 
 
 
