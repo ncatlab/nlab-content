@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Relative adjoint functors#
 * table of contents
 {:toc}
