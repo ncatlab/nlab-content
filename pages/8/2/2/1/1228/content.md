@@ -326,7 +326,7 @@ $$
 and natural transformations $\alpha : G \to F$ correspond to maps of fibrations 
 
 $$
-  El(G) \to El(f)
+  El(G) \to El(F)
 $$
 
 i.e. functor which commute on the nose with the projections $\Pi_G$, $\Pi_F$ to the base category $D$).
@@ -334,7 +334,7 @@ i.e. functor which commute on the nose with the projections $\Pi_G$, $\Pi_F$ to 
 
 This applies in particular to $F = hom(a,-)$. Notice the [[category of elements]] $El(hom(a,-))$ is the co-slice $(a \downarrow D)$, with its usual projection $\Pi$ to $D$.
 
-However, the [[comma category]] $(a \downarrow D)$ is the "lax pullback" (really, the [[comma object]], the discussion at [[2-limit]]) appearing in
+However, the [[comma category]] $(a \downarrow D)$ is the "lax pullback" (really, the [[comma object]], see discussion at [[2-limit]]) appearing in
 
 $$
   \array{
