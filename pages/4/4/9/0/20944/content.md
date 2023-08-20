@@ -18,7 +18,7 @@
 
 ## Idea
 
-An invertible ([[extended topological field theory|extended]]) [[topological field theory]] is one which is an [[invertible object]] under the [[tensor product]] on TQFTs &lbrack;[Freed & Moore (2006), Def. 5.7](#FreedMoore06)&rbrack;, which essentially means that it is one whose target category is a rigid symmetric monoidal groupoid, a [[Picard groupoid]] ([DGP 19, p.20](#DGP19)).
+An invertible ([[extended functorial field theory|extended]]) [[functorial field theory]] is one which is an [[invertible object]] under the [[tensor product]] on TQFTs &lbrack;[Freed & Moore (2006), Def. 5.7](#FreedMoore06)&rbrack;, which essentially means that it is one whose target category is a rigid symmetric monoidal groupoid, a [[Picard groupoid]] ([DGP 19, p.20](#DGP19)).
 
 ## References
 
