@@ -34,7 +34,7 @@ An **extension system** ([Marmolejo-Wood 2010](#MarmolejoWood10)) on a [[categor
 
 * For every [[object]] $A\in C$, an object $T A\in C$ and a [[morphism]] $\eta_A \colon A\to T A$, and
 
-* For every [[morphism]] $f\colon B\to T A$ in $C$, a morphism $f^T \colon T B \to T A$, satisfying the following [[axioms]]:
+* For every [[morphism]] $f\colon B\to T A$ in $C$, a morphism $f^T \colon T B \to T A$ (the *Kleisli extension* of $f$), satisfying the following [[axioms]]:
 
   * For every $A$ we have $(\eta_A)^T = 1_{T A}$,
 
@@ -101,4 +101,11 @@ Generalization to [[pseudomonads]]:
 * [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
 
 * [[Francisco Marmolejo]], [[Richard J. Wood]], *No-iteration pseudomonads*, [[TAC]] **28** 14 (2013) 371-402 &lbrack;[tac:28-14](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html)&rbrack;
+
+
 [[!redirects extension systems]]
+
+[[!redirects Kleisli extension]]
+[[!redirects Kleisli extensions]]
+
+
