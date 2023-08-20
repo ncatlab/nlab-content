@@ -291,15 +291,13 @@ The other direction is the statement of prop. \ref{OpenCoverOfParacompactHausdor
 
 * [[compact spaces equivalently have converging subnet of every net]]
 
-* [[Hausdorff spaces are sober]]
+* [[Hausdorff implies sober]]
 
 * [[compact subspaces of Hausdorff spaces are closed]]
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 * [[a CW-complex is a Hausdorff space]]
-
-* [[Hausdorff implies sober]]
 
 * [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
