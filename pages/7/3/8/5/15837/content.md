@@ -29,7 +29,7 @@ On [[quantum Bayesianism]]/[[QBism]]
 
 * [[POVM]]
 
-
+* [John Wheeler commanding equations to fly](John+Wheeler#CommandingEquationsToFly)
 
 
 category: people
