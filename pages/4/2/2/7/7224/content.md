@@ -14,36 +14,45 @@
 
 ## Idea ##
 
-Relative adjoints with respect to a functor $J$ are a generalization of [[adjoint functor|adjoints]], where $J$ in the relative case plays the role of the identity in the standard setting: adjoints are the same as $Id$-relative adjoints.
+The notion of *relative adjoint functors* with respect to a functor $J$ is a generalization of that of [[adjoint functor]] (to which it reduces for $J$ an [[identity functor]]). 
+In generalization of the [relation between adjunctions and monads](monad#RelationBetweenAdjunctionsAndMonads),
+relative adjoint functors are related to [[relative monads]].
+
 
 ## Definition ##
 
 ### Via hom-isomorphism  ###
 
-Fix a functor $J\colon B \to D$. Then, a functor 
+Fix a functor $J\colon B \to D$. Then, for a functor 
 
 \[
-	R \colon C \to D
+	R \colon C \longrightarrow D
 \] 
 
-has a _left $J$-relative adjoint_ (or $J$-left adjoint) if there is a functor 
+to have _left $J$-relative adjoint_ (or *$J$-left adjoint*) means that there is a functor 
 
 \[ 
-	L \colon B \to C
+	L \colon B \longrightarrow C
 \]
 
-and a natural isomorphism
+and a [[natural isomorphism]] of the ofrm
 
 \[
-	Hom_C(L(-),-) \simeq Hom_D(J(-),R(-))
+  Hom_C\big(L(-),-\big) 
+  \;\simeq\; 
+  Hom_D\big(J(-),R(-)\big)
+  \,.
 \]
 
-Dually, $L \colon C \to D$ has a _$J$-right adjoint_ $R \colon B \to C$ if there's a natural isomorphism
+[[formal duality|Dually]], for $L \colon C \longrightarrow D$ to have a _$J$-right adjoint_ $R \colon B \longrightarrow C$ means that there is a [[natural isomorphism]] of the form
 
 \[
-	 Hom_D(L(-), J(-)) \simeq Hom_C(-, R(-))
+  Hom_D\big(L(-), J(-)\big) 
+   \;\simeq\; 
+  Hom_C\big(-, R(-)\big)
 \]
 
+One writes
 
 - $L {\,\,}_J\!\dashv R$ stands for $L$ being the $J$-left adjoint of $R$
 - $L \dashv_J R$ stands for $R$ being the $J$-right adjoint of $L$
@@ -167,14 +176,14 @@ The concept of relative adjoint functors is a generalization of the concept of a
 
 ### General
 
-*  F. Ulmer, _Properties of dense and relative adjoint functors_, Journal of Algebra, Volume 8, Issue 1, 1968, Pages 77-95, [pdf](http://www.sciencedirect.com/science/article/pii/0021869368900367)
+* [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_, Journal of Algebra, **8** 1 (1968) 77-95 &lbrack;<a href="https://doi.org/10.1016/0021-8693(68)90036-7">doi:10.1016/0021-8693(68)90036-7</a>&rbrack;
 
-*  {#StreetWalters1978} [[Ross Street]], Bob Walters - _Yoneda structures on 2-categories_, Journal of Algebra, Volume 50, Issue 2, February 1978, Pages 350-379, [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
+*  {#StreetWalters1978} [[Ross Street]], [[Bob Walters]], *Yoneda structures on 2-categories*, Journal of Algebra, **50** 2 (1978) 350-379 &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>, [mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)&rbrack;
 
-*  [[Thorsten Altenkirch]], James Chapman and Tarmo Uustalu,  _Monads need not be endofunctors_ In: Ong L. (eds) Foundations of Software Science and Computational Structures. FoSSaCS 2010. Lecture Notes in Computer Science, vol 6014. Springer, Berlin, Heidelberg, arXiv:1412.7148 [cs.PL] ,[pdf](https://arxiv.org/pdf/1412.7148.pdf)
+* {#ACU14} [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
 
 
-*  {#Weber2007} [[Mark Weber]] - _Yoneda structures from 2-toposes_, Appl Categor Struct (2007) 15: 259. doi:10.1007/s10485-007-9079-2, [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)
+*  {#Weber2007} [[Mark Weber]] - _Yoneda structures from 2-toposes_, Appl Categor Struct. **15** (2007) 259. &lbrack;doi:10.1007/s10485-007-9079-2, [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
 ### Examples
 
