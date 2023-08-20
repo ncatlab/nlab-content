@@ -35,6 +35,7 @@ Here we consider the case $m\le 2$, although we allow $n$ and $m$ to be of the f
 +--{: .num_defn}
 ###### Definition
 Let $D$ be a [[2-congruence]] in a [[2-category]] $K$.
+
 * $D$ is a **(2,1)-congruence** if it is an internal groupoid, i.e. there is a map $D_1\to D_1$ providing "inverses".
 * It is a **(1,2)-congruence** if $D_1\to D_0\times D_0$ is ff.
 * It is a **1-congruence** if it is both a (2,1)-congruence and a (1,2)-congruence.
