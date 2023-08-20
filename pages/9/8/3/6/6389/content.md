@@ -30,4 +30,17 @@ Michael E. Fisher (1968), _Renormalization of Critical Exponents by Hidden Varia
 :The mathematical content of this article consists chiefly in the analysis of some thermodynamic manipulations appropriate to the imposition of "constraints" on certain previously free thermodynamic variables and is quite elementary.  To motivate our analysis and reveal its theoretical significance we ask the following fundamental question: "To what extent are the observed values of the critical-point exponents universal?" ... the fairly close concurrence of all the exponent values for fluids and magnets does suggest the existence of a universal set of exponents.
 
 
+## Selected writings
+
+On [[quantum Bayesianism]]/[[QBism]]
+
+* {#FuchsSchlosshauerStacey14} [[Christopher A. Fuchs]], [[Maximilian Schlosshauer]] (foreword), [[Blake C. Stacey]] (ed.) *My Struggles with the Block Universe* &lbrack;[arXiv:1405.2390](https://arxiv.org/abs/1405.2390)&rbrack;
+
+
+
+
+
 category: people
+
+[[!redirects Blake C. Stacey]]
+
