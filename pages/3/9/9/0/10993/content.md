@@ -22,7 +22,12 @@
 
 ## Idea
 
-A _relative_ monad $T : \mathbf J \to \mathbf C$ is much like a [[monad]] except that it is not an [[endofunctor]] on one [[category]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically via a specified comparison functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. Ordinary monads are then the special case where $J$ is the [[identity functor]].
+A _relative_ monad $T : \mathbf J \to \mathbf C$ is much like a [[monad]] except that it is not an [[endofunctor]] on one [[category]], but more generally a functor between two different categories. To even formulate such a notion, (for instance the definition of the [[unit]]), the two categories have to be related somehow, typically via a specified comparison functor $J \colon \mathbf J \to \mathbf C$, in which case we say that $T$ is a monad *relative to* $J$. 
+
+Ordinary monads are then the special case of $J$-relative monads where $J$ is the [[identity functor]].
+
+In generalization of the [relation between adjunctions and monads](monad#RelationBetweenAdjunctionsAndMonads), relative monads are related to [[relative adjunctions]].
+
 
 ## Definitions
  {#Definition}
@@ -341,10 +346,9 @@ Abstract discussion via [[virtual equipments]]:
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, 2023. &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
-Other references: 
+On [[distributive laws]] for relative monads:
 
-* [[Gabriele Lobbia]], _Distributive Laws for Relative Monads_, Applied Categorical Structures, Vol. 31, No. 19, 2023. 
-&lbrack;[doi:10.1007/s10485-023-09716-1](https://doi.org/10.1007/s10485-023-09716-1), [arXiv:2007.12982](https://arxiv.org/abs/2007.12982)&rbrack;
+* [[Gabriele Lobbia]], *Distributive Laws for Relative Monads*, Applied Categorical Structures **31** 19 (2023)  &lbrack;[doi:10.1007/s10485-023-09716-1](https://doi.org/10.1007/s10485-023-09716-1), [arXiv:2007.12982](https://arxiv.org/abs/2007.12982)&rbrack;
 
 [[!redirects relative monads]]
 
