@@ -3,7 +3,9 @@
 
 * [[Kip Thorne]], _John Archibald Wheeler: A Biographical Memoir_ ([arXiv:1901.06623](https://arxiv.org/abs/1901.06623))
 
-## related $n$Lab entries
+* list of video recordings of Wheeler: [YT](https://www.youtube.com/watch?v=8dQUaO_mwmI&list=PLVV0r6CmEsFzVlqiUh95Q881umWUPjQbB)
+
+## Related entries
 
 * [[gravity]]
 
