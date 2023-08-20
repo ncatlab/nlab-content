@@ -160,6 +160,10 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * Enrique Ruiz Hernández, *Another characterization of no-iteration distributive laws*, [arxiv](https://arxiv.org/abs/1910.06531)
 
+On distributive laws for [[relative monads]]:
+
+* [[Gabriele Lobbia]], *Distributive Laws for Relative Monads*, Applied Categorical Structures **31** 19 (2023)  &lbrack;[doi:10.1007/s10485-023-09716-1](https://doi.org/10.1007/s10485-023-09716-1), [arXiv:2007.12982](https://arxiv.org/abs/2007.12982)&rbrack;
+
 
 [[!redirects distributive laws]]
 [[!redirects mixed distributive law]]
