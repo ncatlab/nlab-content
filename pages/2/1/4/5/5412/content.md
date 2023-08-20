@@ -392,7 +392,7 @@ $$
 $$
 \end{lemma}
 
-Here $(e^*/X \dashv e_*/X)$ is the slice geometric morphism of $e$ over $X$ discussed [above](SliceGeometricMorphism) and $(x^* \dashv x_*)$ is the &eacute;tale geometric morphism discussed [above](GeneralEtaleGeometricMorphism) induced from the morphism 
+Here $(e^*/X \dashv e_*/X)$ is the slice geometric morphism of $e$ over $X$ discussed [above](#SliceGeometricMorphism) and $(x^* \dashv x_*)$ is the &eacute;tale geometric morphism discussed [above](#GeneralEtaleGeometricMorphism) induced from the morphism 
 $* \stackrel{x}{\to} e^*(X)$.
 
 Hence the [[inverse image]] of $(e,x)$ sends $A \to X$ to the [[fiber]] of $e^*(A) \to e^*(X)$ over $x$.
