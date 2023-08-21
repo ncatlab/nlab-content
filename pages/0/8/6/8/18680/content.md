@@ -263,7 +263,7 @@ Note that this framework was restricted to the _negative_ fragment of [[intuitio
 
 A dependent linear version of [[system L]] is considered in
 
-* {#Spiwack14} [[Arnaud Spiwack]], section 5 of _A dissection of L_, preprint [pdf](http://assert-false.net/arnaud/papers/A%20dissection%20of%20L.pdf)
+* {#Spiwack14} [[Arnaud Spiwack]], section 5 of: _A dissection of L_ (2014) &lbrack;[pdf](http://assert-false.science/arnaud/papers/A%20dissection%20of%20L.pdf)&rbrack;
 
 More recent work in the type-theoretic literature includes:
 
