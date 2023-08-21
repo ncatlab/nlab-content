@@ -202,7 +202,7 @@ A more even-handed approach is the following (see [Benton (1995)](#Benton95) and
 \begin{definition}
 \label{LinearNonlinearAdjunction}
 
-A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F \colon ClaTypes \rightleftarrows LinTypes \colon G$ in which $LinTypes$ is symmetric monoidal and $ClaTypes$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
+A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F \colon ClaTypes \rightleftarrows LinTypes \colon G$ in which $LinTypes$ is symmetric monoidal and $ClaTypes$ is cartesian monoidal.  The induced !-modality is the induced [[comonad]] $F G$ on $LinTypes$.
 
 \end{definition}
 
@@ -216,7 +216,7 @@ For "classical" linear logic, we want $LinTypes$ to be not just (closed) symmetr
 
 +-- {: .num_defn}
 ###### Definition
-Let $LinTypes$ be a [[linearly distributive category]] with tensor product $\otimes$ and cotensor product $\parr$.  A (!,?)-modality on $C$ consists of:
+Let $LinTypes$ be a [[linearly distributive category]] with tensor product $\otimes$ and cotensor product $\parr$.  A (!,?)-modality on $LinTypes$ consists of:
 
 1. a $\otimes$-monoidal comonad ! and a $\parr$-comonoidal monad ?
 
@@ -226,7 +226,7 @@ Let $LinTypes$ be a [[linearly distributive category]] with tensor product $\oti
 
 =--
 
-Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  [BCS96](#BluteCockettSeely96) showed that if $LinTypes$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = \big(!(A^*)\big)^*$ as expected.
+Here a functor $F$ is [[strong functor|strong]] with respect to a [[lax monoidal functor]] $G$ if there is a [[natural transformation]] of the form $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  [BCS96](#BluteCockettSeely96) showed that if $LinTypes$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = \big(!(A^*)\big)^*$, as expected.
 
 ## Examples
 
@@ -271,7 +271,7 @@ In [[dependent linear homotopy type theory]] the "linear-nonlinear adjunction" i
 
 ## Modal term calculi
 
-Girard's original presentation of linear logic involved rules that explicitly assumed the presence of $!$ on hypotheses or on entire contexts, such as ,[[dereliction rule| dereliction]], [[weakening rule|weakening]] and [[contraction rule|contraction]]:
+Girard's original presentation of linear logic involved rules that explicitly assumed the presence of $!$ on hypotheses or on entire contexts, such as [[dereliction rule| dereliction]], [[weakening rule|weakening]] and [[contraction rule|contraction]]:
 
 $$\frac{\Gamma, A \vdash B}{\Gamma, !A \vdash B} \qquad \frac{\Gamma \vdash B}{\Gamma, !A\vdash B} \qquad \frac{\Gamma,!A,!A \vdash B}{\Gamma, !A\vdash B}$$
 
@@ -375,7 +375,7 @@ based on
 
 On the [[modal type theory]]-approach to a term calculus for the $!$-modality:
 
-* {#Girard93} [[Jean-Yves Girard]].  *On the unity of logic.* Annals  of Pure and Applied  Logic **59** (1993) 201-217
+* {#Girard93} [[Jean-Yves Girard]].  *On the unity of logic* Annals of Pure and Applied  Logic **59** (1993) 201-217 &lbrack;<a href="https://doi.org/10.1016/0168-0072(93)90093-S">doi:10.1016/0168-0072(93)90093-S</a>&rbrack;
 
 * {#Plotkin93} [[Gordon Plotkin]],  *Type theory and recursion*, in: Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , IEEE Computer Society Press (1993) 374
 
@@ -424,3 +424,9 @@ category: logic
 [[!redirects storage modality]]
 [[!redirects exponential modalities]]
 [[!redirects storage modalities]]
+
+[[!redirects dereliction]]
+[[!redirects derelictions]]
+[[!redirects dereliction rule]]
+[[!redirects dereliction rules]]
+
