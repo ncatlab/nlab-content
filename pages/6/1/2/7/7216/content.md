@@ -199,5 +199,8 @@ Discussion in the context of [[distributions]] includes
 [[!redirects linear dual]]
 [[!redirects linear duals]]
 
+[[!redirects linear form]]
+[[!redirects linear forms]]
+
 
 
