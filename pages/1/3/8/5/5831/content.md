@@ -3,6 +3,7 @@ Thierry Coquand is a professor in computer science at the University of Gothenbu
 
 * [webpage](http://www.cse.chalmers.se/~coquand/)
 
+
 ## Selected writings
 
 Introducing the [[calculus of constructions]] that later forms the basis of the [[proof assistant]] *[[Coq]]*:
@@ -13,6 +14,15 @@ Introducing the [[calculus of constructions]] that later forms the basis of the 
 Introducing the notion of [[inductive types]] in [[type theory]] which later became the foundations of the [[calculus of inductive constructions]] used by [[Coq]]:
 
 * [[Thierry Coquand]], [[Christine Paulin]], *Inductively defined types*, COLOG-88 Lecture Notes in Computer Science **417**, Springer (1990) 50-66 &lbrack;[doi:10.1007/3-540-52335-9_47](https://doi.org/10.1007/3-540-52335-9_47)&rbrack;
+
+On [[homological algebra]] in [[constructive mathematics]] via [[type theory]]:
+
+* {#CoquandSpiwack} [[Thierry Coquand]], [[Arnaud Spiwack]], *Towards constructive homological algebra in type theory*, in: *Towards Mechanized Mathematical Assistants. MKM Calculemus 2007*,  Lecture Notes in Computer Science **4573** Springer (2007) &lbrack;[doi:10.1007/978-3-540-73086-6_4](https://doi.org/10.1007/978-3-540-73086-6_4), [pdf](https://hal.inria.fr/inria-00432525/document)&rbrack;
+
+
+Discussion of notions of [[finite sets]] in [[constructive mathematics]]:
+
+* [[Arnaud Spiwack]], [[Thierry Coquand]], *Constructively Finite?*, in: *Contribuciones cientifícas en honor de Mirian Andrés Gómez*, Universidad de La Rioja (2010) 217-230 &lbrack;ISBN:978-84-96487-50-5, [inria-00503917](https://inria.hal.science/inria-00503917)&rbrack;
 
 
 On [[identity types]] in [[dependent type theory]] ([[homotopy type theory]]):
