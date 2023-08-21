@@ -59,7 +59,8 @@ There are variants of the tools of homological algebra that can also be applied 
 
 [[!include homological algebra - contents]]
 
-## References ##
+
+## References
  {#References}
 
 The following lists references on homological algebra:
@@ -69,6 +70,7 @@ The following lists references on homological algebra:
 * [Lecture notes and course notes](#LectureNotes)
 
 * [History](#ReferencesHistory)
+
 
 ### General
  {#ReferencesGeneral}
@@ -141,13 +143,17 @@ See also
 
 ### In constructive mathematics
 
-Discussion of homological algebra in [[constructive mathematics]] is in 
+Discussion of homological algebra in [[constructive mathematics]]:
 
-* Julio Rubio, Francis Sergeraert, _Constructive homological algebra and applications_ ([arXiv:1208.3816](http://arxiv.org/abs/1208.3816))
 
-Discussion of a formalization in [[type theory]] is in 
+* {#CoquandSpiwack} [[Thierry Coquand]], [[Arnaud Spiwack]], *Towards constructive homological algebra in type theory*, in: *Towards Mechanized Mathematical Assistants. MKM Calculemus 2007*,  Lecture Notes in Computer Science **4573** Springer (2007) &lbrack;[doi:10.1007/978-3-540-73086-6_4](https://doi.org/10.1007/978-3-540-73086-6_4), [pdf](https://hal.inria.fr/inria-00432525/document)&rbrack;
 
-* {#CoquandSpiwack} [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
+  > (via [[type theory]])
+
+
+* [[Julio Rubio]], [[Francis Sergeraert]], _Constructive homological algebra and applications_ &lbrack;[arXiv:1208.3816](http://arxiv.org/abs/1208.3816)&rbrack;
+
+
  
 
 
