@@ -15,10 +15,35 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-A **Frobenius algebra** is a [[vector space]] that is both an [[algebra]] and a [[coalgebra]] in a compatible way.  This sort of compatibility is different (and more "topological") from that involved in a [[bialgebra]]/[[Hopf algebra]].  More generally, Frobenius algebras can be defined in any [[monoidal category]], and even in any [[polycategory]], in which case they are sometimes called **Frobenius monoids**.
+A *Frobenius algebra* is a [[vector space]] equipped with the [[structures]] both of an [[algebra]] and of an a [[coalgebra]] in a compatible way, where the compatibility is different from (more "topological" than) that in a [[bialgebra]]/[[Hopf algebra]]:
 
-Frobenius algebras have connections to [[TQFT]]s; for some more historical motivation see [this MO question](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras).
+The *Frobenius property* on an algebra/coalgebra $A$ states that all ways of using $n$ product operations and $m$ coproduct operations to map $A^{\otimes^{n+1}} \to A^{\otimes^{m+1}}$ are equal.
+
+More generally, Frobenius algebras can be defined [[internalization|internal]] to any [[monoidal category]] (and even in any [[polycategory]]) in which case they are sometimes called *Frobenius monoids*.
+(For example a Frobenius monoid in an [[endofunctor|endo]]-[[functor category]] is a *[[Frobenius monad]]*.)
+
+After their original introduction in pure [[algebra]] in the 1930s, Frobenius algebras later attracted much attention for the role they play in [[quantum physics]], in fact for two rather different roles they play there:
+
+* **in [[topological quantum field theory]]** Frobenius algebras encode the structure of [[2-dimensional TQFTs]]:
+
+  Her the underlying vector space of the Frobenius algebra is identified (cf. *[[functorial field theory]]*) with the [[space of quantum states]] over a connected 1-manifold (a [[circle]] for the "[[closed string]]" states or a [[closed interval]] for the "[[open string]]" states), the product and coproduct operations are the [[correlators]] on a [[trinion]] [[cobordism]] ("[[pair of pants]]") read in either direction, and the Frobenius property reflects the [[diffeomorphisms]] between [[cobordisms]] obtained by gluing [[trinions]] along their boundary components.
+
+  Beware that this is similar to but subtly different from the "non-compact" [[2d TQFTs]] commonly known as the "[[topological string]]" (the [[A-model]] and the [[B-model]] of [[mirror symmetry]]-fame) which are *not* described by Frobenius algebras (because here one ex-cludes the "cap" cobordism and thus the [[trace]]-operation hence the finite-dimensionality on the algebra of states) but by "[[Calabi-Yau objects]]" (for more see *[here](TCFT#Definition)* at *[[TCFT]]*.)
+
+  On the other hand, the [[FRS-theorem]] shows that all *[[rational 2d conformal field theories]]* -- hence the compact-target-space sectors of the *physical* [[string]] (such as [[WZW models]] and [[Gepner models]]) -- *are* described by [[Frobenius monoids]] [[internalization|internal]] to [[modular tensor categories]] (MTCs): Here the ambient MTC encodes the local non-topological ("chiral") component of the [[conformal field theory]] (its spaces of [[conformal blocks]]) while the internal Frobenius monoid encodes the remaining topological "[[sewing constraints]]".
+
+Later
+  
+* **in [[quantum information theory]]** (such as now in the [[ZX-calculus]]) Frobenius algebras encode aspects of the [[quantum measurement]]-process, including its associated [[wavefunction collapse]] (see [here](quantum+information+theory+via+dagger-compact+categories#MeasurementReferencesQuantumInformationTheoryViaStringDiagrams) at *[[quantum information theory via dagger-compact categories]]*).
+
+  One way to understand how this comes about (not the original way, though) is to observe that in the [[linear type theory]] which is relevant for [[quantum information theory]] the [[reader monad]] and [[coreader comonad]] for a given [[finite set]] $W$ of [[possible worlds|possible]] measurement outcomes merge to a single [[Frobenius monad]] (the *[[quantum reader monad]]*, see there for more) which is in turn identified with the [[writer monad]]/[[cowriter comonad]] for a canonical Frobenius algebra structure on the [[linear span]] of $W$.
+
+Curiously, these two different roles that Frobenius algebras play in [[quantum physics]] are not closely related, in fact they seem somewhat orthogonal to each other.
+
+
+
 
 
 ## Definition
