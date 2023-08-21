@@ -186,7 +186,7 @@ Review:
 
 * {#Melliès02} [[Paul-André Melliès]], *Categorical models of linear logic revisited* (2002) &lbrack;[hal:00154229](https://hal.science/hal-00154229)&rbrack;
 
-* {#Melliès09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, in *[Interactive models of computation and program behaviour](https://smf.emath.fr/publications/modeles-interactifs-de-calcul-et-de-comportement-de-programme)*, Panoramas et synthèses **27* (2009) 1-196 &lbrack;[web](https://smf.emath.fr/publications/semantique-categorielle-de-la-logique-lineaire), [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf), [[Mellies-CategoricalSemanticsLinear.pdf:file]]&rbrack;
+* {#Melliès09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, in *[Interactive models of computation and program behaviour](https://smf.emath.fr/publications/modeles-interactifs-de-calcul-et-de-comportement-de-programme)*, Panoramas et synthèses **27** (2009) 1-196 &lbrack;[web](https://smf.emath.fr/publications/semantique-categorielle-de-la-logique-lineaire), [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf), [[Mellies-CategoricalSemanticsLinear.pdf:file]]&rbrack;
 
  
  
