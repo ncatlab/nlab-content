@@ -147,7 +147,7 @@ The idea is to categorify the construction of a vector space as the space of fin
 
 We can regard the objects of the $n$-dimensional  Kapranov--Voevodsky $2$-vector space $Vect^n$ &#8211; which are $n$-tuples of vector spaces &#8211; as vector bundles over the finite set of $n$ elements. This has an obvious generalization to vector bundles over any topological space &#8211; in terms of modules these are the finitely generated projective modules of the algebra of continuous functions on this space. So categories of vector bundles can be regarded as infinite-dimensional 2-vector spaces. For the case that the underlying topological space is a _measure space_ such infinite dimensional K-V 2-vector spaces have been studied in
 
-* John C. Baez, Aristide Baratin, Laurent Freidel, Derek K. Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv](http://arxiv.org/abs/0812.4969)) 
+* John C. Baez, Aristide Baratin, [[Laurent Freidel]], Derek K. Wise, _Infinite-dimensional representations of 2-groups_ ([arXiv](https://arxiv.org/abs/0812.4969)) 
 
 
 ### Using a modular tensor category
