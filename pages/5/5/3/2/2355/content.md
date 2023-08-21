@@ -715,9 +715,17 @@ and also in
 [[!redirects adjoint ∞-functor]]
 [[!redirects adjoint ∞-functors]]
 
-
+[[!redirects (infinity,1)-adjunction]]
+[[!redirects (infinity,1)-adjunctions]]
 [[!redirects (∞,1)-adjunction]]
 [[!redirects (∞,1)-adjunctions]]
+
+[[!redirects (∞,1)-adjoint functor]]
+[[!redirects (∞,1)-adjoint functors]]
+[[!redirects (infinity,1)-adjoint functor]]
+[[!redirects (infinity,1)-adjoint functors]]
+
+
 
 [[!redirects adjunction of (infinity,1)-categories]]
 [[!redirects adjunctions of (infinity,1)-categories]]
