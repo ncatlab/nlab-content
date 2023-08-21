@@ -319,9 +319,9 @@ The construction of a Frobenius algebra structure on finite-dimensional Hopf alg
 
 On the $H_8$ Hopf algebra
 
-* {#KP66} G. I. Kac and V. G. Paljutkin. *Finite ring groups*. Trans. Moscow Math. Soc. 15 (1966), 251–294.
+* {#KP66} [[G. I. Kac]], V. G. Paljutkin, *Finite ring groups_, Trans. Moscow Math. Soc. 15 (1966), 251–294.
 
-* {#Burciu17} Sebastian Burciu. *Representations and Conjugacy Classes of Semisimple Quasitriangular Hopf Algebras*. (2017).(([arXiv:1709.02176
+* {#Burciu17} Sebastian Burciu. *Representations and conjugacy classes of semisimple quasitriangular Hopf algebras*. (2017) (([arXiv:1709.02176
 ](https://arxiv.org/abs/1709.02176)).
 
 [[!redirects Hopf algebras]]
