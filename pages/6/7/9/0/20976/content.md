@@ -18,7 +18,7 @@ Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization
 
 * {#BarNatan95} [[Dror Bar-Natan]], _Perturbative Chern-Simons theory_,  Journal of Knot Theory and Its RamificationsVol. 04, No. 04, pp. 503-547 (1995) ([doi:10.1142/S0218216595000247](https://doi.org/10.1142/S0218216595000247))
 
-* Daniel Altschuler, Laurent Freidel, Section 3 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arxiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
+* {#AF96} [[Daniel Altschuler]], [[Laurent Freidel]], _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. **187** (1997) 261-287 $[$[arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010), [doi:10.1007/s002200050136](https://doi.org/10.1007/s002200050136)$]$
  
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
