@@ -64,3 +64,5 @@ The less notationally-bound terminology tight/loose was introduced by
 * {#LackShulman12} [[Steve Lack]], [[Mike Shulman]], _Enhanced 2-categories and limits for lax morphisms_, Advances in Mathematics, vol. 229, 2012, ([arxiv:1104.2111](https://arxiv.org/abs/1104.2111), [doi:j.aim.2011.08.014](https://doi.org/10.1016/j.aim.2011.08.014))
 
 * {#Grandis19} [[Marco Grandis]], _Higher dimensional categories: from double to multiple categories_, World Scientific, 2019. ([doi:10.1142/11406](https://doi.org/10.1142/11406))
+
+
