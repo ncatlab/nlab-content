@@ -26,9 +26,15 @@ Dually, in a [[closed category]] there is a _unit object_ which is such that map
 
 * [[unit of a monad]]
 
+* [[monad terminology]]
+
+* [[physical unit]]
+
 * [[identity]]
 
 * [[dual object]], [[invertible object]]
+
+
 
 [[!redirects unit objects]]
 [[!redirects monoidal unit]]
