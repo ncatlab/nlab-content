@@ -14,14 +14,12 @@ The term "system L" may refer to (at least) two different concepts in [[formal l
 
 ## References
 
-
 ### The sequent calculus
 
 * {#CurienHerbelin00} Pierre-Louis Curien, [[Hugo Herbelin]], _The duality of computation_,  Proceeding
 ICFP '00 Proceedings of the fifth ACM SIGPLAN international conference on Functional programming Pages 233 - 243  ([web](https://dl.acm.org/citation.cfm?id=351262))
 
-
-* {#Spiwack14} [[Arnaud Spiwack]], section 5 of _A dissection of L_, preprint [pdf](http://assert-false.net/arnaud/papers/A%20dissection%20of%20L.pdf)
+* {#Spiwack14} [[Arnaud Spiwack]], _A dissection of L_ (2014) &lbrack;[pdf](http://assert-false.science/arnaud/papers/A%20dissection%20of%20L.pdf)&rbrack;
 
 ### The natural deduction system
 
