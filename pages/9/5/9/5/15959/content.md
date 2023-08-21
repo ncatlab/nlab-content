@@ -438,7 +438,7 @@ $$
   (\mathbf{B}G)_\bullet \in KanCplx
 $$
 
-for the [[nerve]] of the [[groupoid]] (G\stackrel{\longrightarrow}{\longrightarrow} \ast).
+for the [[nerve]] of the [[groupoid]] ($G\stackrel{\longrightarrow}{\longrightarrow} \ast$).
 
 See at _[[geometry of physics -- homotopy types]]_ for detailed discussion of these two constructions.
 
