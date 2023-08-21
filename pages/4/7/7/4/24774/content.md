@@ -197,7 +197,7 @@ Reviews the functional $f(R)$ approximations in [[asymptotic safety]]:
 
 On boundary charges and non-perturbative [[quantum gravity]]:
 
-* Laurent Freidel, Marc Geiller, Wolfgang Wieland, *Corner symmetry and quantum geometry*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.12799](https://arxiv.org/abs/2302.12799)&rbrack;
+* [[Laurent Freidel]], Marc Geiller, Wolfgang Wieland, *Corner symmetry and quantum geometry*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.12799](https://arxiv.org/abs/2302.12799)&rbrack;
 
 \linebreak
 
