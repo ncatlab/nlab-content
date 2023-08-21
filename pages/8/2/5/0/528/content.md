@@ -181,7 +181,7 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 ### Relation to Frobenius algebras
 
-Both Hopf algebras and [[Frobenius algebras]] are examples of [[bialgebra|bialgebras]], albeit with different additional structures and properties. Nevertheless, one may ask whether there is any relation between these two. This leads to the following result due to [Larson & Sweedler (1969)](#LS69).
+Both Hopf algebras and [[Frobenius algebras]] are at the same time an [[algebra]] and a [[coalgebra]], albeit with different additional structures and properties. Nevertheless, one may ask whether there is any relation between these two. This leads to the following result due to [Larson & Sweedler (1969)](#LS69).
 
 
 +-- {: .num_prop #HopfAlgebraIsFrobeniusAlgebra}
