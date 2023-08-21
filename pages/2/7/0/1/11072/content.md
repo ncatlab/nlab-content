@@ -12,7 +12,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -377,13 +376,13 @@ On the [[modal type theory]]-approach to a term calculus for the $!$-modality:
 
 * {#Girard93} [[Jean-Yves Girard]].  *On the unity of logic* Annals of Pure and Applied  Logic **59** (1993) 201-217 &lbrack;<a href="https://doi.org/10.1016/0168-0072(93)90093-S">doi:10.1016/0168-0072(93)90093-S</a>&rbrack;
 
-* {#Plotkin93} [[Gordon Plotkin]],  *Type theory and recursion*, in: Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , IEEE Computer Society Press (1993) 374
+* {#Plotkin93} [[Gordon Plotkin]], *Type theory and recursion*, in: Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , IEEE Computer Society Press (1993) 374 &lbrack;[doi:10.1109/LICS.1993.287571](https://doi.org/10.1109/LICS.1993.287571)&rbrack;
 
-* {#Wadler93} [[Philip  Wadler]], *A syntax for linear logic*, in: *Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics, Lecture Notes in COmputer Science **802** Springer (1993)
+* {#Wadler93} [[Philip  Wadler]], *A syntax for linear logic*, in: *Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics*, Lecture Notes in Computer Science **802** Springer (1993) &lbrack;[doi:10.1007/3-540-58027-1_24](https://doi.org/10.1007/3-540-58027-1_24)&rbrack;
 
 * [Benton 1995](#Benton95)
 
-* {#Barber96} Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh, Edinburgh (1996), &lbrack;[web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/)&rbrack;
+* {#Barber96} Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh (1996), &lbrack;[web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/ECS-LFCS-96-347.pdf), [[Barber-DualIntLinLogic.pdf:file]]&rbrack;
 
 
 A [[quantum programming language]] based on this linear/non-linear type theory adunction is [[QWIRE]]:
