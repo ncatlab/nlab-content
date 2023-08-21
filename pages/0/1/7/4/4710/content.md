@@ -115,9 +115,10 @@ It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
 * [[unit of a monad]]
 
+* [[monad terminology]]
+
 * [[exponential ring]]
 
-* [[inverse ring]]
 
 ## References
 
