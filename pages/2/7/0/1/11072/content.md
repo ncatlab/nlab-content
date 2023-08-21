@@ -18,32 +18,89 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [[modality]] traditionally denoted "!" whose role is to model the "underlying classical type" of a given linear type. 
+In full [[linear logic]] &lbrack;[Girard 1987](#Girard1987)&rbrack; and more generally in [[linear type theory]] there is assumed a (comonadic) [[modality]] traditionally denoted "!" whose role is to model the "underlying" classical [[intuitionistic type theory|(intuitionistic) type]] of a given [[linear type]]. 
 
-This is alternatively called the
+This is alternatively called the "exponential modality" (for good reasons discussed [below](#TheExponentialCondition)), or "storage modality" (as it allows to duplicate and hence "store" otherwise linear data) and sometimes pronounced "of course" (intended alongside "necessarily" and "possibly" as used in [[modal logic]]) or even "bang" (just in reference to the symbol "!").
 
-* "exponential modality",
+In classical linear logic (meaning with involutive [[de Morgan duality]]), the de Morgan dual of "!" is denoted "?" and then sometimes pronounced "why not".
 
-or
+Today it is understood (cf. [Melliès 2009](#Melliès09), [p. 36](/nlab/files/Mellies-CategoricalSemanticsLinear.pdf#page=36))
+that the exponential modality is best and generally to be thought as as, first of all a *[[comonad]]* on [[linear types]] ([Seely 1989  §2](#Seely89), [dePaiva 1989](#dePaiva89), [Benton, Bierman, de Paiva and Hyland 1992](#BBPH92)) which, secondly, is [induced](monad#RelationBetweenAdjunctionsAndMonads) by an adjunction to classical (meaning here: non-linear [[intuitionistic type theory|intuitionistic]]) types with special [[monoidal functor|monoidal]] properties ([Seely 1989  §2](#Seely89), [Bierman 1994 pp. 157](#Bierman94), [Benton 1995](#Benton95)).
 
-* "storage modality"
+In a most elementary and illuminating example (which may not have received the attention it deserves, cf. the history at *[[quantum logic]]*):
 
-and sometimes pronounced
+* classical intuitionistic types form (are interpreted in) the category of [[Sets]]
 
-* "of course" 
+  $ClaTypes \,\coloneqq\, Set$
 
-or
+* linear tupes form (are interpreted in) the category of [[vector spaces]] (cf. [Murfet 2014](linear+logic#Murfet14))
 
-* "bang".
+  $LinTypes  \,\coloneqq\, Vect_{\mathbb{K}}$
 
-In classical linear logic (meaning with involutive [[de Morgan duality]]), the de Morgan dual of "!" is denoted "?" and called sometimes the "why not"-modality.
+and the [[adjoint functors]] in question are
 
+* forming the [[linear span]] of a set
+
+  $$
+    \array{
+      Set &\overset{\mathrm{Q}}{\longrightarrow}& Vect
+      \\
+      W &\mapsto& \oplus_W \mathbb{1}
+    }
+  $$
+
+* forming the [[underlying set]] of a [[vector space]]:
+
+  $$
+    \array{
+      Vect &\overset{\mathrm{C}}{\longrightarrow}& Set
+      \\
+      \mathscr{V} &\mapsto& Hom(\mathbb{1}, \, \mathscr{V})
+    }
+  $$
+
+in which case the exponential modality acts by sending a vector space to the linear span of its underlying set
+
+\[
+  \array{
+     Vect &\overset{\;\; ! \;\;}{\longrightarrow}& Vect
+     \\
+     \mathscr{V} &\mapsto& \underset{\mathscr{V}}{\bigoplus} \mathbb{1}
+     \,.
+  }
+\]
+
+One sees that this construction takes ([[direct sums|direct]]) sums to ([[tensor product of vector spaces|tensor]]) products
+
+$$
+  !(\mathscr{V} \oplus \mathscr{V}')
+  \;\simeq\;
+  (! \mathscr{V}) \otimes (! \mathscr{V}')
+$$
+
+and zero ([[zero object|objects]]) to unit ([[unit object|objects]])
+
+$$
+  ! 0 
+    \;\simeq\;
+  \mathbb{1}
+$$
+
+as expected of any [[exponential map]], whence the name "exponential modality".
+
+This example is the 0-sector of the more famous *[[stabilization]]* ([[(infinity,1)-adjoint functor|$\infty$-]])adjunction $(\Sigma_+^\infty \dashv \Omega_+^\infty)$  between (the [[homotopy theory]] of) [[topological spaces]] and (the [[stable homotopy theory]] of) [[module spectra|module]] [[spectra]] equipped with the [[symmetric smash product of spectra]] (given by forming [[suspension spectra]] $X \mapsto \Sigma_+^\infty X$), which points to a deeper origin of the "exponential modality", see [below](#RealizationInLinearHomotopyTypeTheory) and at *[[linear homotopy type theory]]* for more on this.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/QuantClassExponential-230821.jpg" width="600"/>
+</center>
 
 
 ## Categorical semantics
 
-Following [Seely 1989](#Seely89), everyone agrees that the exponential modality, "!" should be a [[comonad]] on the type system (and ? should be a [[monad]], see also at *[[monads in computer science]]*), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
+Following [Seely 1989](#Seely89), [dePaiva 1989](#dePaiva89), [Benton, Bierman, de Paiva and Hyland 1992](#BBPH92) it is common convention that "!" should be a [[comonad]] on the type system (and ? should be a [[monad]], see also at *[[monads in computer science]]*), but there is some room in which further axioms to impose. 
+The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
 
 ### Intuitionistic case
 
@@ -84,7 +141,7 @@ meaning that there are [[natural transformations]] of the form
 and
 
 \[
-  ! \ast \;\;\to\;\; \mathbb{1}
+  ! \ast \;\;\simeq\;\; \mathbb{1}
   \,.
 \]
 
@@ -96,7 +153,7 @@ and
 \begin{remark}\label{TheExponentialCondition}
 **(the exponential condition)**
 \linebreak
-In [[linear logic]], the cartesian monoidal structure on linear types $\&$ ("[[additive conjunction]]"), in which case the condition (eq:StrongMonoidalPropertyOfExponential) reads
+In [[linear logic]], the cartesian monoidal structure on linear types is often denoted "$\&$" ("[[additive conjunction]]"), in which case the condition (eq:StrongMonoidalPropertyOfExponential) reads
 
 \[
   !(A \& B) 
@@ -105,7 +162,7 @@ In [[linear logic]], the cartesian monoidal structure on linear types $\&$ ("[[a
   \,.
 \] 
 
-Moreover, in key examples of categories of (the multiplicative fragment of) linear logic (such as [[Vect]], cf. [Murfet 2014](linear logic#Murfet14)), the [[cartesian product]] is actually a [[biproduct]], hence a [[direct sum]], in which case the condition on the exponential modality is that 
+But in key examples of categories of (the multiplicative fragment of) linear logic (such as [[Vect]], cf. [Murfet 2014](linear+logic#Murfet14)), the [[cartesian product]] is actually a [[biproduct]], hence a [[direct sum]], in which case the condition on the exponential modality is that 
 
 *it takes (direct) sums to (tensor) products*
 
@@ -113,59 +170,70 @@ Moreover, in key examples of categories of (the multiplicative fragment of) line
   !(A \oplus B) 
    \;\cong\; 
   (!A) \otimes (!B) 
-  \,.
 \] 
 
-This is expected of any [[exponential]] and may explain the choice of terminology.
+*it takes zero (objects) to unit (objects)*
+
+\[
+  ! 0 
+    \;\cong\;
+  \mathbb{1}
+\]
+
+as befits any [[exponential map]] and may explain the choice of terminology here.
 \end{remark}
 
 
-This condition implies that the [[Kleisli category of a comonad|Kleisli category]] of ! (i.e.\ the category of cofree !-coalgebras) is cartesian monoidal.  If $C$ is *closed* symmetric monoidal then the Kleisli category of a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
+This condition implies that the [[Kleisli category of a comonad|Kleisli category]] of $!$ (i.e. the category of cofree !-coalgebras) is cartesian monoidal.  If $LinTypes$ is *[[closed monoidal category|closed]]* symmetric monoidal then the Kleisli category of a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
 
 Of course, the above definition depends on the existence of the cartesian product.  A different definition that doesn't require the existence of $\times$ was given by [Benton, Bierman, de Paiva, and Hyland](#BBPH92):
 
 +-- {: .num_defn}
 ###### Definition
 
-Let $C$ be a [[symmetric monoidal category]]; a **linear exponential comonad** on $C$ is a [[lax monoidal functor|lax monoidal]] comonad such that every cofree !-coalgebra naturally carries the structure of a [[comonoid object]] in the category of coalgebras (i.e. the cofree-coalgebra functor lifts to the category of comonoids in the category of coalgebras).
+Let $LinTypes$ be a [[symmetric monoidal category]]; a **linear exponential comonad** on $LinTypes$ is a [[lax monoidal functor|lax monoidal]] comonad such that every cofree !-coalgebra naturally carries the structure of a [[comonoid object]] in the category of coalgebras (i.e. the cofree-coalgebra functor lifts to the category of comonoids in the category of coalgebras).
 
 =--
 
-It follows automatically that all !-coalgebras are comonoids,nd therefore that the category of all !-coalgebras (not just the cofree ones) is cartesian monoidal.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.
+It follows automatically that all !-coalgebras are comonoids, and therefore that the category of all !-coalgebras (not just the cofree ones) is cartesian monoidal.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.
 
 A more even-handed approach is the following (see [Benton (1995)](#Benton95) and [Melliès (2009)](#Melliès09)), based on the observation that both Kleisli and Eilenberg-Moore categories are instances of adjunctions.
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
+\label{LinearNonlinearAdjunction}
 
-A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F \colon M \rightleftarrows L \colon G$ in which $L$ is symmetric monoidal and $M$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
+A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F \colon ClaTypes \rightleftarrows LinTypes \colon G$ in which $LinTypes$ is symmetric monoidal and $ClaTypes$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
 
-=--
+\end{definition}
 
-This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.  Conversely, in any linear-nonlinear adjunction the induced comonad $F G$ can be shown to be a linear exponential comonad.  Moreover, if $!$ is a linear exponential comonad on a symmetric monoidal category $C$ with finite products, then the cofree !-coalgebra functor is a right adjoint and hence preserves cartesian products; but the cartesian products of coalgebras are the tensor products in $C$, so we have $!(A\times B) \cong !A \otimes !B$, the Seely condition.
+
+This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.  Conversely, in any linear-nonlinear adjunction the induced comonad $F G$ can be shown to be a linear exponential comonad.  Moreover, if $!$ is a linear exponential comonad on a symmetric monoidal category $LinTypes$ with finite products, then the cofree !-coalgebra functor is a right adjoint and hence preserves cartesian products; but the cartesian products of coalgebras are the tensor products in $C$, so we have $!(A\times B) \cong !A \otimes !B$, the Seely condition.
 
 
 ### Classical case
 
-For "classical" linear logic, we want $C$ to be not just (closed) symmetric monoidal but $\ast$-[[star-autonomous category|autonomous]].  If an $\ast$-autonomous category has a linear exponential comonad $!$ one can derive a ? from the ! by de Morgan duality, $?A = (!(A^*))^*$.  The resulting relationship between ! and ? was axiomatized in a way not requiring the de Morgan duality by [Blute, Cockett & Seely (1996)](#BluteCockettSeely96):
+For "classical" linear logic, we want $LinTypes$ to be not just (closed) symmetric monoidal but $\ast$-[[star-autonomous category|autonomous]].  If an $\ast$-autonomous category has a linear exponential comonad $!$ one can derive a ? from the ! by [[de Morgan duality]], $?A = \big(!(A^*)\big)^*$.  The resulting relationship between ! and ? was axiomatized in a way not requiring the de Morgan duality by [Blute, Cockett & Seely (1996)](#BluteCockettSeely96):
 
 +-- {: .num_defn}
 ###### Definition
-Let $C$ be a [[linearly distributive category]] with tensor product $\otimes$ and cotensor product $\parr$.  A (!,?)-modality on $C$ consists of:
+Let $LinTypes$ be a [[linearly distributive category]] with tensor product $\otimes$ and cotensor product $\parr$.  A (!,?)-modality on $C$ consists of:
 
 1. a $\otimes$-monoidal comonad ! and a $\parr$-comonoidal monad ?
+
 1. ? is a !-strong monad, and ! is a ?-strong comonad
+
 1. all free !-coalgebras are naturally commutative $\otimes$-comonoids, and all free ?-algebras are naturally commutative $\parr$-monoids.
+
 =--
 
-Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  [BCS96](#BluteCockettSeely96) showed that if $C$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = \big(!(A^*)\big)^*$ as expected.
+Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  [BCS96](#BluteCockettSeely96) showed that if $LinTypes$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = \big(!(A^*)\big)^*$ as expected.
 
 ## Examples
 
 ### Relation to Chu construction
 
 \begin{theorem}
-Suppose $F \colon M \rightleftarrows C : G$ is a linear-nonlinear adjunction, where $C$ is closed symmetric monoidal with finite limits and colimits, and $\bot\in C$ is an object.  Then there is an induced linear-nonlinear adjunction $M \rightleftarrows Chu(C,\bot)$ where $Chu(C,\bot)$ is the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits.  Hence $Chu(C,\bot)$ admits a !-modality.
+Suppose $F \colon M \rightleftarrows C : G$ is a linear-nonlinear adjunction (Def. \ref{LinearNonlinearAdjunction}), where $C$ is closed symmetric monoidal with finite limits and colimits, and $\bot\in C$ is an object.  Then there is an induced linear-nonlinear adjunction $M \rightleftarrows Chu(C,\bot)$ where $Chu(C,\bot)$ is the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits.  Hence $Chu(C,\bot)$ admits a !-modality.
 \end{theorem}
 \begin{proof}
 The embedding of $C$ in $Chu(C,\bot)$ as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal, hence the adjunction is a monoidal adjunction.  Therefore, the composite adjunction $M \rightleftarrows C \rightleftarrows Chu(C,\bot)$ is again a linear-nonlinear-adjunction.
@@ -238,7 +306,7 @@ A streamlined statement of the [[inference rules]] and the observation that thes
 
 * {#Seely89} [[R. A. G. Seely]], §2 of: *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
 
-* {#depaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
+* {#dePaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
 
 
 Brief survey in a context of [[computer science]]/[[linear type theory]]:
@@ -250,7 +318,6 @@ Further on the semantics of exponential conjunction as a [[comonad]]:
 
 * {#deP1988} [[Valeria de Paiva]], *The Dialectica Categories*, PhD thesis, technical report 213, Computer Laboratory, University of Cambridge (1991) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf), [[dePaivaDialectica.pdf:file]]&rbrack;
 
-
 * {#BBP92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], §8 of: *Term assignment for intuitionistic linear logic*, Technical report 262, Computer Laboratory, University of Cambridge (August 1992) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-262.pdf), [[BentonBiermanDePaiva-TermAssignment.pdf:file]]&rbrack; 
 
   > (published abridged as [BBPH92](#BBPH92))
@@ -261,9 +328,15 @@ Further on the semantics of exponential conjunction as a [[comonad]]:
  
 * {#BluteCockettSeely96} [[R. F. Blute]] , [[J. R. B. Cockett]], [[R. A. G. Seely]], *! and ? -- Storage as tensorial strength*, Mathematical Structures in Computer Science **6** 4 (1996) 313-351 &lbrack;[doi:10.1017/S0960129500001055](https://doi.org/10.1017/S0960129500001055)&rbrack;
  
-
-
 * {#HylandSchalk01} [[Martin Hyland]] and Andreas Schalk, _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+
+and its [resolution](monad#CategoryOfAdjunctionResolutionsOfAMonad) by a [[monoidal adjunction]] between the linear and a classical (intuitionistic) type system:
+
+* {#Bierman94} [[Gavin Bierman]], *On Intuitionistic Linear Logic*, Cambridge (1994)  &lbrack;[[Bierman-LinearLogic.pdf:file]], [pdf](https://www.dropbox.com/s/hdxgubjljb96rmf/Biermanthesis.pdf?dl=0)&rbrack;
+
+* {#Benton95} [[Nick Benton]], *A mixed linear and non-linear logic: Proofs, terms and models*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** (1995) 121-135 &lbrack;[doi:10.1007/BFb0022251](https://doi.org/10.1007/BFb0022251), [[BentonLinearLogic.pdf:file]]&rbrack;
+ 
+
 
 Review:
 
@@ -305,10 +378,6 @@ The modal approach to a term calculus for the $!$-modality can be found in:
 * [[Jean-Yves Girard]].  *On the unity of logic.* Annals  of Pure and Applied  Logic, 59:201-217, 1993.
 
 * G.  Plotkin.  *Type  theory  and  recursion.*   In Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , page 374. IEEE Computer Society Press, 1993.
-
-* {#Benton95} [[Nick Benton]], *A mixed linear and non-linear logic: Proofs, terms and models*, in *Computer Science Logic. CSL 1994*, Lecture Notes in Computer Science **933** &lbrack;[doi:10.1007/BFb0022251](https://doi.org/10.1007/BFb0022251), [[BentonLinearLogic.pdf:file]]&rbrack;
- 
-* {#Bierman95} [[Gavin Bierman]], *On Intuitionistic Linear Logic*, Cambridge (1993)  &lbrack;[pdf](https://www.dropbox.com/s/hdxgubjljb96rmf/Biermanthesis.pdf?dl=0)&rbrack;
 
 * Philip  Wadler.   *A  syntax  for  linear  logic.*   In Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics , volume 802 of LNCS . Springer Verlag, April 1993
 
