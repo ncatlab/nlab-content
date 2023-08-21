@@ -203,6 +203,26 @@ The finite-dimensional condition is expected since all Frobenius algebras are fi
 
 * the [[ordinary homology]] of a [[finite type]] [[H-space]] (for instance a [[based loop space]]) is a [[Hopf algebra]] via its [[Pontrjagin ring]]-[[mathematical structure|structure]] -- see at _[[homology of loop spaces]]_ for more
 
+### The Kac-Paljutkin $H_8$ Hopf algebra 
+
+The Kac-Paljutkin $H_8$ Hopf algebra was first described in [Kac & Paljutkin (1966)](#KP66) and it is the Hopf algebra with the smallest dimension that is [[semisimple object|semisimple]], [[commutative algebra|noncommutative]], and [[cocommutative coalgebra|noncocommutative]]. It is also [[self-dual object|self-dual]] (see e.g. [Burciu (2017)](#Burciu17)). One presentation  is in terms of generators $\{x,y,z\}$ satisfying the relations $x^2=y^2=z^2=1$, $xz=zx$, $zy=yz$, $xyz=yx$, along with comultiplication
+ 
+$$\Delta(x)=xe_0\otimes x+xe_1\otimes y$$
+
+ $$\Delta(y)=ye_1\otimes x+ye_0\otimes y$$ 
+
+$$\Delta(z)=z\otimes z$$
+
+ (where $e_0=\frac{1}{2}(1+z)$, $e_1=\frac{1}{2}(1-z)$) whose counit is $\epsilon(x)=\epsilon(y)=\epsilon(z)=1$. The antipode map is 
+
+$$S(x)=xe_0+ye_1$$
+
+ $$S(y)=xe_1+ye_0$$
+
+ $$S(z)=z$$
+
+. Its [[category of representations]] is the unique $\mathbb{Z}_2\times\mathbb{Z}_2$ [[Tambara-Yamagami category]] that admits a [[fiber functor]] and is not the representation category of some group.
+
 ## Related concepts
 
 * [[quasi-Hopf algebra]]
@@ -296,6 +316,13 @@ For Hopf algebras in generative linguistics, see:
 The construction of a Frobenius algebra structure on finite-dimensional Hopf algebras due to
 
 * {#LS69}[[Richard Larson]], [[Moss Sweedler]]. *An Associative Orthogonal Bilinear Form for Hopf Algebras*. American Journal of Mathematics, Vol. 91, No. 1 (Jan., 1969), pp. 75-94 (20 pages). ([doi](https://doi.org/10.2307/2373270))
+
+On the $H_8$ Hopf algebra
+
+* {#KP66} G. I. Kac and V. G. Paljutkin. *Finite ring groups*. Trans. Moscow Math. Soc. 15 (1966), 251–294.
+
+* {#Burciu17} Sebastian Burciu. *Representations and Conjugacy Classes of Semisimple Quasitriangular Hopf Algebras*. (2017).(([arXiv:1709.02176
+](https://arxiv.org/abs/1709.02176)).
 
 [[!redirects Hopf algebras]]
 
