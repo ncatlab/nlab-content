@@ -19,16 +19,31 @@
 
 ## Idea
 
-In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [[modality]] denoted "!" and called the _exponential modality_, whose role is, roughly, to give linear types also a non-linear interpretation. This is also called  the "of course"-modality or the _storage modality_, and sometimes the "bang"-operation.
+In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [[modality]] traditionally denoted "!" whose role is to model the "underlying classical type" of a given linear type. 
 
-In classical linear logic (meaning with involutive de Morgan duality), the de Morgan dual of "!" is denoted "?" and called the "why not"-modality.
+This is alternatively called the
 
-In [[categorical semantics]] of linear type theory, if one views [[linear logic]] as [[quantum logic]], the !-modality typically appears as a kind of [[Fock space]] construction.  Then this means that the !-modality produces [[free field theory|free]] [[second quantization]]. The original categorical semantics of linear logic, in terms of [Dialectica categories](#dePaiva89), sees the !-modality simply as a kind of free (as much as possible) comonoid.
+* "exponential modality",
+
+or
+
+* "storage modality"
+
+and sometimes pronounced
+
+* "of course" 
+
+or
+
+* "bang".
+
+In classical linear logic (meaning with involutive [[de Morgan duality]]), the de Morgan dual of "!" is denoted "?" and called sometimes the "why not"-modality.
+
 
 
 ## Categorical semantics
 
-Everyone agrees that ! should be a [[comonad]] (and ? should be a [[monad]], see also at *[[monads in computer science]]*), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
+Following [Seely 1989](#Seely89), everyone agrees that the exponential modality, "!" should be a [[comonad]] on the type system (and ? should be a [[monad]], see also at *[[monads in computer science]]*), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
 
 ### Intuitionistic case
 
@@ -36,21 +51,89 @@ The definition from [Seely](#Seely89), adapted to the intuitionistic case and mo
 
 +-- {: .num_defn}
 ###### Definition
-Let $C$ be an [[symmetric monoidal category]] with [[cartesian products]].  A **Seely comonad** on $C$ is a comonad that is a [[strong monoidal functor]] from the [[cartesian monoidal category|cartesian monoidal structure]] to the symmetric monoidal structure, i.e. we have $!(A\times B)\cong !A \otimes !B$ and $!1\cong I$ coherently.  (There is also an additional [[coherence]] [[axiom]] that should be imposed; see [Mellies, section 7.3](#Mellies09).)
+Let $LinTypes$ be 
+
+* a [[cartesian monoidal category]], with [[Cartesian product]] "$\times$" and [[tensor unit]] the [[terminal object]] $\ast$.
+
+which *in addition* carries the [[structure]] of 
+
+* a [[symmetric monoidal category]] with respect to a [[tensor product]] $\otimes$ with [[tensor unit]] $\mathbb{1}$.
+
+A **Seely comonad** on $LinTypes$ is a [[comonad]] that is a [[strong monoidal functor|strong monoidal]] as a functor from cartesian monoidal structure $\times$ to the other monoidal structure $\otimes$: 
+
+
+$$
+  (LinTypes, \times)
+  \xrightarrow{ \; ! \; }
+  (LinTypes, \otimes)
+$$
+
+meaning that there are [[natural transformations]] of the form
+
+\[
+  \label{StrongMonoidalPropertyOfExponential}
+  A,\, B \colon LinTypes
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  !(A \times B) 
+   \;\cong\; 
+  (!A) \otimes (!B) 
+\] 
+
+and
+
+\[
+  ! \ast \;\;\to\;\; \mathbb{1}
+  \,.
+\]
+
 =--
 
-(Note that in linear logic, the cartesian monoidal structure $\times$ is sometimes denoted by $\&$.)  This implies that the [[Kleisli category of a comonad|Kleisli category]] of ! (i.e.\ the category of cofree !-coalgebras) is cartesian monoidal.  If $C$ is *closed* symmetric monoidal then the Kleisli category of a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
+(There is also an additional [[coherence]] [[axiom]] that should be imposed; see [Melliès 2009, section 7.3](#Melliès09).)
+
+
+\begin{remark}\label{TheExponentialCondition}
+**(the exponential condition)**
+\linebreak
+In [[linear logic]], the cartesian monoidal structure on linear types $\&$ ("[[additive conjunction]]"), in which case the condition (eq:StrongMonoidalPropertyOfExponential) reads
+
+\[
+  !(A \& B) 
+   \;\cong\; 
+  (!A) \otimes (!B) 
+  \,.
+\] 
+
+Moreover, in key examples of categories of (the multiplicative fragment of) linear logic (such as [[Vect]], cf. [Murfet 2014](linear logic#Murfet14)), the [[cartesian product]] is actually a [[biproduct]], hence a [[direct sum]], in which case the condition on the exponential modality is that 
+
+*it takes (direct) sums to (tensor) products*
+
+\[
+  !(A \oplus B) 
+   \;\cong\; 
+  (!A) \otimes (!B) 
+  \,.
+\] 
+
+This is expected of any [[exponential]] and may explain the choice of terminology.
+\end{remark}
+
+
+This condition implies that the [[Kleisli category of a comonad|Kleisli category]] of ! (i.e.\ the category of cofree !-coalgebras) is cartesian monoidal.  If $C$ is *closed* symmetric monoidal then the Kleisli category of a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
 
 Of course, the above definition depends on the existence of the cartesian product.  A different definition that doesn't require the existence of $\times$ was given by [Benton, Bierman, de Paiva, and Hyland](#BBPH92):
 
 +-- {: .num_defn}
 ###### Definition
+
 Let $C$ be a [[symmetric monoidal category]]; a **linear exponential comonad** on $C$ is a [[lax monoidal functor|lax monoidal]] comonad such that every cofree !-coalgebra naturally carries the structure of a [[comonoid object]] in the category of coalgebras (i.e. the cofree-coalgebra functor lifts to the category of comonoids in the category of coalgebras).
+
 =--
 
-It follows automatically that all !-coalgebras are comonoids, and therefore that the category of all !-coalgebras (not just the cofree ones) is cartesian monoidal.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.
+It follows automatically that all !-coalgebras are comonoids,nd therefore that the category of all !-coalgebras (not just the cofree ones) is cartesian monoidal.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.
 
-A more even-handed approach is the following (see [Benton (1995)](#Benton95) and [Mellies (2009)](#Mellies09)), based on the observation that both Kleisli and Eilenberg-Moore categories are instances of adjunctions.
+A more even-handed approach is the following (see [Benton (1995)](#Benton95) and [Melliès (2009)](#Melliès09)), based on the observation that both Kleisli and Eilenberg-Moore categories are instances of adjunctions.
 
 +-- {: .num_defn}
 ###### Definition
@@ -153,7 +236,7 @@ The exponential modality originates in [[linear logic]] with
  
 A streamlined statement of the [[inference rules]] and the observation that these make the exponential a [[comonad]] is due to:
 
-* {#Seely} [[R. A. G. Seely]], §2 of: *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
+* {#Seely89} [[R. A. G. Seely]], §2 of: *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
 
 * {#depaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
 
