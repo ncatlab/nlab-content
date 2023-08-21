@@ -74,11 +74,11 @@ The construction and the proof of the classification result is originally descri
 
 * {#FjeldstadFuchsRunkelSchweigert06} [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _TFT construction of RCFT correlators V: Proof of modular invariance and factorisation_, Theor.Appl.Categor.16:342-433 (2006) ([arXiv:hep-th/0503194](http://arxiv.org/abs/hep-th/0503194))
 
-* {#FjeldstadFuchsRunkelSchweigert08} [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Uniqueness of open/closed rational CFT with given algebra of open states_, Adv.Theor.Math.Phys.12:1283-1375 (2008) ([hep-th/0612306](http://arxiv.org/abs/hep-th/0612306))
+* {#FjeldstadFuchsRunkelSchweigert08} [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Uniqueness of open/closed rational CFT with given algebra of open states*, Adv. Theor. Math. Phys. **12** (2008) 1283-1375 &lbrack;[hep-th/0612306](http://arxiv.org/abs/hep-th/0612306), [doi:10.4310/ATMP.2008.v12.n6.a4](https://dx.doi.org/10.4310/ATMP.2008.v12.n6.a4)&rbrack;
 
 Review:
 
-* [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics* Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
+* [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
 
 *  [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Open strings and 3d topological field theory_ ([pdf](http://www.mth.kcl.ac.uk/staff/i_runkel/PDF/ost.pdf))
 
