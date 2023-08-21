@@ -320,10 +320,10 @@ Original articles:
 * [[Le Tu Quoc Thang]], [[Jun Murakami]], _Representation of the category of tangles by Kontsevich's iterated integral_,  Comm. Math. Phys., Volume 168, Number 3 (1995), 535-562. ([euclid.cmp/1104272488](https://projecteuclid.org/euclid.cmp/1104272488))
 
 
-* Daniel Altschuler, Laurent Freidel, _On Universal Vassiliev Invariants_, Commun. Math. Phys. 170 (1995) 41-62 ([arXivhep-th/9403053](https://arxiv.org/abs/hep-th/9403053))
+* [[Daniel Altschuler]], [[Laurent Freidel]], _On Universal Vassiliev Invariants_, Commun. Math. Phys. **170** (1995) 41-62 &lbrack;[arXivhep-th/9403053](https://arxiv.org/abs/hep-th/9403053), [doi:10.1007/BF02099438](https://doi.org/10.1007/BF02099438)&rbrack;
 
+* {#AF96} [[Daniel Altschuler]], [[Laurent Freidel]], Theorem 5 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. *187** (1997) 261-287 &lbrack;[arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010), [doi:10.1007/s002200050136](https://doi.org/10.1007/s002200050136)&rbrack;
 
-* {#AF96} Daniel Altschuler, Laurent Freidel, Theorem 5 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
 
 * [[Le Tu Quoc Thang]], [[Jun Murakami]], Tomotada Ohtsuki, _On a universal perturbative invariant of 3-manifolds_, Topology Volume 37, Issue 3, May 1998, Pages 539-574 (<a href="https://doi.org/10.1016/S0040-9383(97)00035-9">https://doi.org/10.1016/S0040-9383(97)00035-9</a>)
 
