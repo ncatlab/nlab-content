@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -154,6 +155,8 @@ A streamlined statement of the [[inference rules]] and the observation that thes
 
 * {#Seely} [[R. A. G. Seely]], §2 of: *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
 
+* {#depaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
+
 
 Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
@@ -162,26 +165,38 @@ Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
 Further on the semantics of exponential conjunction as a [[comonad]]:
 
-* {#depaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
+* {#deP1988} [[Valeria de Paiva]], *The Dialectica Categories*, PhD thesis, technical report 213, Computer Laboratory, University of Cambridge (1991) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf), [[dePaivaDialectica.pdf:file]]&rbrack;
+
+
+* {#BBP92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], §8 of: *Term assignment for intuitionistic linear logic*, Technical report 262, Computer Laboratory, University of Cambridge (August 1992) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-262.pdf), [[BentonBiermanDePaiva-TermAssignment.pdf:file]]&rbrack; 
+
+  > (published abridged as [BBPH92](#BBPH92))
   
 * {#BBPH92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], [[Martin Hyland]], *Linear $\lambda$-Calculus and Categorical Models Revisited*, in *Computer Science Logic. CSL 1992*, Lecture Notes in Computer Science **702**, Springer (1993) &lbrack;[doi:10.1007/3-540-56992-8_6](https://doi.org/10.1007/3-540-56992-8_6)&rbrack;
- 
 
+  > (abridged version of [BBP92](#BBP92))
+ 
 * {#BluteCockettSeely96} [[R. F. Blute]] , [[J. R. B. Cockett]], [[R. A. G. Seely]], *! and ? -- Storage as tensorial strength*, Mathematical Structures in Computer Science **6** 4 (1996) 313-351 &lbrack;[doi:10.1017/S0960129500001055](https://doi.org/10.1017/S0960129500001055)&rbrack;
  
 
-* {#Mellies09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, 2009. [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf)
-
-
 
 * {#HylandSchalk01} [[Martin Hyland]] and Andreas Schalk, _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+
+Review:
+
+* {#Melliès02} [[Paul-André Melliès]], *Categorical models of linear logic revisited* (2002) &lbrack;[hal:00154229](https://hal.science/hal-00154229)&rbrack;
+
+* {#Melliès09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, in *[Interactive models of computation and program behaviour](https://smf.emath.fr/publications/modeles-interactifs-de-calcul-et-de-comportement-de-programme)*, Panoramas et synthèses **27* (2009) 1-196 &lbrack;[web](https://smf.emath.fr/publications/semantique-categorielle-de-la-logique-lineaire), [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf), [[Mellies-CategoricalSemanticsLinear.pdf:file]]&rbrack;
+
  
  
-Construction of such comonads based on cofree comonoids can be found in (among other places):
+Construction of such comonads based on cofree comonoids:
 
 * Mellies and Tabareau and Tasson, *An explicit formula for the free exponential modality of linear logic*. Mathematical Structures in Computer Science, 28(7), 1253-1286. doi:[10.1017/S0960129516000426](https://doi.org/10.1017/S0960129516000426)
 
 * [[Sergey Slavnov]], *On Banach spaces of sequences and free linear logic exponential modality*, Math. Struct. Comp. Sci. 29 (2019) 215-242, [arXiv:1509.03853](https://arxiv.org/abs/1509.03853)
+
+
 
 
 The relation to [[Fock space]] is discussed in:
