@@ -166,6 +166,9 @@ Formalization in [[homotopy type theory]]/[[univalent foundations of mathematics
 
 * [[Dan Frumin]], [[Herman Geuvers]], [[Léon Gondelman]], [[Niels van der Weide]], _Finite Sets in Homotopy Type Theory_, in *CPP 2018: Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs* (2018) 201–214 &lbrack;[doi:10.1145/3167085](https://doi.org/10.1145/3167085), [pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf)&rbrack;
 
+Various notions of finiteness considered in a constructive setting:
+
+* [[Arnaud Spiwack|A. Spiwack]], [[Thierry Coquand|T. Coquand]]. _Constructively Finite?_. Lambán Pardo, Laureano and Romero Ibáñez, Ana and Rubio García, Julio. Contribuciones cientifícas en honor de Mirian Andrés Gómez, Universidad de La Rioja, pp.217-230, 2010, 978-84-96487-50-5. [inria-00503917](https://inria.hal.science/inria-00503917)
 
 
 [[!redirects finite set]]
