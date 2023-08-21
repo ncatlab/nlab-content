@@ -3,6 +3,8 @@
 
 * [webpage (new)](http://vcvpaiva.github.io/)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Valeria_de_Paiva)
+
 ## Selected writings
 
 
