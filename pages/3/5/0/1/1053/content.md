@@ -563,11 +563,12 @@ Volume 115 Issue 1, July 5, 1993  Pages 3--41
 This is reviewed/further discussed in
 
 * {#Schalk04} Andrea Schalk, _What is a categorical model for linear logic?_ ([pdf](http://www.cs.man.ac.uk/~schalk/notes/llmodel.pdf))
- 
 
 * [[Richard Blute]], Philip Scott, _Category theory for linear logicians_, 2004 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.83.6250))
 
-* {#Mellies09} [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
+* {#Melliès02} [[Paul-André Melliès]], *Categorical models of linear logic revisited* (2002) &lbrack;[hal:00154229](https://hal.science/hal-00154229)&rbrack;
+
+* {#Melliès09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, in *[Interactive models of computation and program behaviour](https://smf.emath.fr/publications/modeles-interactifs-de-calcul-et-de-comportement-de-programme)*, Panoramas et synthèses **27** (2009) 1-196 &lbrack;[web](https://smf.emath.fr/publications/semantique-categorielle-de-la-logique-lineaire), [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf), [[Mellies-CategoricalSemanticsLinear.pdf:file]]&rbrack;
  
 
 * [[Paul-André Melliès]], *A Functorial Excursion Between Algebraic Geometry and Linear Logic*, in 37th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS '22), Haifa, Israel  (2022). ACM, New York &lbrack;[doi:10.1145/3531130.3532488](https://doi.org/10.1145/3531130.3532488), [pdf](https://www.irif.fr/~mellies//papers/functorial-excursion.pdf)&rbrack;
