@@ -87,7 +87,7 @@ This also becomes clear by the way in which the concept of monad is used further
 
 These definitions evidently refer by "monad" to the unit element of the natural numbers seen under addition.
 
-Other definitions in *[[Elements]]* VII also refer to monads as the *multiplicative unit* element of the natural numbers. To see this one first has to notice that Euclid speaks of (natural) numbers being "measured" by another number where we today would say they are "divided" by that other number:
+Other definitions in *[[Elements]]* VII also refer to monads as the *multiplicative [[unit]]* element of the [[ring]] of [[natural numbers]]. To see this one first has to notice that Euclid speaks of (natural) numbers being "measured" by another number where we today would say they are "divided" by that other number:
 
 > {#ElementsVIIDef5} **Book VII, Definition 5**: 
 
