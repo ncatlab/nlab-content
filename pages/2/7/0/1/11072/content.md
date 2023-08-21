@@ -281,7 +281,7 @@ $$ \frac{!\Gamma \vdash A}{!\Gamma\vdash !A} $$
 
 If this is translated into a [[natural deduction]] style term calculus, the resulting rules are more complicated than those of most type formers.  This can be avoided using [[adjoint type theory]] with two context zones, one "nonlinear" one where contraction and weakening are permitted (and [[admissible rule|admissible]]) and one "linear" one where they are not, with $!$ as a modality relating the two zones.
 
-Such a "modal" presentation of linear logic was first introduced by Girard in his work on [[LU]] and then developed by a number of other people such as Plotkin, Wadler, Benton, and Barber.  See the references for details.
+Such a "modal" presentation of linear logic was first introduced by [Girard 1993](#Girard93) and then developed by [Plotkin 1993](#Plotkin93), [Wadler 1993](#Wadler93), [Benton 1995](#Benton95), [Barber 1996](#Barber96).
 
 This presentation also generalizes naturally to [[dependent linear type theory]], with the nonlinear type theory being dependent, and the linear types depending on the nonlinear ones but nothing depending on linear types.  In this context, the $!$-modality decomposes into "context extension" and a "dependent sum".
 
@@ -363,7 +363,7 @@ The relation to [[Fock space]] is discussed in:
 
 * {#Vicary07} [[Jamie Vicary]], _A categorical framework for the quantum harmonic oscillator_, International Journal of Theoretical Physics December 2008, Volume 47, Issue 12, pp 3408-3447 ([arXiv:0706.0711](http://arxiv.org/abs/0706.0711))
 
-  (in the context of [[finite quantum mechanics in terms of dagger-compact categories]])
+  (in the context of [[quantum information theory in terms of dagger-compact categories]])
 
 The interpretation of $\Omega^\infty \Sigma^\infty_+$ as an exponential in the context of [[Goodwillie calculus]] is due to 
 
@@ -373,15 +373,17 @@ based on
 
 * {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, 1998 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
 
-The modal approach to a term calculus for the $!$-modality can be found in:
+On the [[modal type theory]]-approach to a term calculus for the $!$-modality:
 
-* [[Jean-Yves Girard]].  *On the unity of logic.* Annals  of Pure and Applied  Logic, 59:201-217, 1993.
+* {#Girard93} [[Jean-Yves Girard]].  *On the unity of logic.* Annals  of Pure and Applied  Logic **59** (1993) 201-217
 
-* G.  Plotkin.  *Type  theory  and  recursion.*   In Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , page 374. IEEE Computer Society Press, 1993.
+* {#Plotkin93} [[Gordon Plotkin]],  *Type theory and recursion*, in: Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , IEEE Computer Society Press (1993) 374
 
-* Philip  Wadler.   *A  syntax  for  linear  logic.*   In Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics , volume 802 of LNCS . Springer Verlag, April 1993
+* {#Wadler93} [[Philip  Wadler]], *A syntax for linear logic*, in: *Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics, Lecture Notes in COmputer Science **802** Springer (1993)
 
-* Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh, Edinburgh (1996), [web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/)
+* [Benton 1995](#Benton95)
+
+* {#Barber96} Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh, Edinburgh (1996), &lbrack;[web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/)&rbrack;
 
 
 A [[quantum programming language]] based on this linear/non-linear type theory adunction is [[QWIRE]]:
