@@ -4,6 +4,13 @@ His webpage is [here](http://www.pps.univ-paris-diderot.fr/~mellies/).
 
 ### Selected writings
 
+On [[categorical semantics]] of [[linear logic]] with its [[exponential modality]]:
+
+* {#Melliès02} [[Paul-André Melliès]], *Categorical models of linear logic revisited* (2002) &lbrack;[hal:00154229](https://hal.science/hal-00154229)&rbrack;
+
+* {#Melliès09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, in *[Interactive models of computation and program behaviour](https://smf.emath.fr/publications/modeles-interactifs-de-calcul-et-de-comportement-de-programme)*, Panoramas et synthèses **27** (2009) 1-196 &lbrack;[web](https://smf.emath.fr/publications/semantique-categorielle-de-la-logique-lineaire), [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf), [[Mellies-CategoricalSemanticsLinear.pdf:file]]&rbrack;
+
+
 On [[string diagrams]]
 
 * {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([hal:00154243](https://dumas.ccsd.cnrs.fr/PPS/hal-00154243), [pdf](https://hal.archives-ouvertes.fr/hal-00154243/document), [[MelliesFunctorialBoxesInStringDiagrams.pdf:file]])
@@ -20,6 +27,7 @@ On [[type refinement]]:
 On the [[local state monad]]:
 
 * [[Paul-André Melliès]], *Local States in String Diagrams*, In: G. Dowek (eds.) *Rewriting and Typed Lambda Calculi* RTA TLCA 2014, Lecture Notes in Computer Science **8560** Springer (2014) &lbrack;[doi:10.1007/978-3-319-08918-8_23](https://doi.org/10.1007/978-3-319-08918-8_23)&rbrack;
+
 
 
 On the [[Grothendieck construction for model categories]]:
