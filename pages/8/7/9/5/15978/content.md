@@ -6,6 +6,11 @@
 
 On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]]:
 
+
+* {#BBP92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Term assignment for intuitionistic linear logic*, Technical report 262, Computer Laboratory, University of Cambridge (August 1992) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-262.pdf), [[BentonBiermanDePaiva-TermAssignment.pdf:file]]&rbrack; 
+
+  > (published abridged as [BBPH92](#BBPH92))
+
 * {#BBPH92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], [[Martin Hyland]], *Linear $\lambda$-Calculus and Categorical Models Revisited*, in *Computer Science Logic. CSL 1992*, Lecture Notes in Computer Science **702**, Springer (1993) &lbrack;[doi:10.1007/3-540-56992-8_6](https://doi.org/10.1007/3-540-56992-8_6)&rbrack;
 
 and specifically as the [[comonad]] induced from an [[adjoint functors|adjunction]] between ordinary [[types]] and [[linear types]]:
