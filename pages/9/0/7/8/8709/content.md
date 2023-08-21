@@ -8,7 +8,14 @@
 
 On [[categorical semantics]] for (the [[exponential modality]] in) [[linear logic]]:
 
-* {#deP1988} [[Valeria de Paiva]], *The Dialectica Categories*, PhD thesis, DPMMS, University of Cambridge, issued as a technical report Computer Lab, 1991;
+* {#depaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
+
+* {#deP1988} [[Valeria de Paiva]], *The Dialectica Categories*, PhD thesis, technical report 213, Computer Laboratory, University of Cambridge (1991) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf), [[dePaivaDialectica.pdf:file]]&rbrack;
+
+* {#BBP92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Term assignment for intuitionistic linear logic*, Technical report 262, Computer Laboratory, University of Cambridge (August 1992) &lbrack;[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-262.pdf), [[BentonBiermanDePaiva-TermAssignment.pdf:file]]&rbrack; 
+
+  > (published abridged as [BBPH92](#BBPH92))
+
 
 * {#BBPH92} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], [[Martin Hyland]], *Linear $\lambda$-Calculus and Categorical Models Revisited*, in *Computer Science Logic. CSL 1992*, Lecture Notes in Computer Science **702**, Springer (1993) &lbrack;[doi:10.1007/3-540-56992-8_6](https://doi.org/10.1007/3-540-56992-8_6)&rbrack;
 
