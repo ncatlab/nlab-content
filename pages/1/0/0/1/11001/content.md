@@ -6,9 +6,12 @@
 
 On [[monads in computer science]]:
 
-* [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
+* [[Philip Wadler]], *Comprehending Monads*, in _Conference on Lisp and functional programming_, ACM Press (1990) &lbrack;[[WadlerMonads.pdf:file]], [doi:10.1145/91556.91592](https://doi.org/10.1145/91556.91592)&rbrack;
 
 * [[Philip Wadler]], *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
+
+* [[Philip Wadler]], *The essence of functional programming*, *POPL '92: Principles of programming languages* (1992) 1-14 &lbrack;[doi:10.1145/143165.143169](https://doi.org/10.1145/143165.143169), [pdf](https://jgbm.github.io/eecs762f19/papers/wadler-monads.pdf)&rbrack;
+
 
 On [[syntax]] and [[categorical semantics]] of [[linear logic]] with an [[exponential modality]]:
 
