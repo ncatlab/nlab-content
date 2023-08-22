@@ -35,7 +35,7 @@ A **differential $k$-form** (often called simplicial $k$-form or, less accuratel
 
 See definition 3.1.1 in 
 
-* Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
+* Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://tildeweb.au.dk/au76680/SGM-final.pdf))
 
 for this simplicial definition. A detailed account of this is in the entry [[infinitesimal object]] in the section [Spaces of infinitesimal simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl).
 
