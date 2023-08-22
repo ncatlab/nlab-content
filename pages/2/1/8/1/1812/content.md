@@ -82,6 +82,10 @@ Defined in this way, cosmoi are closed under [[opposite category|dualization]], 
 
 ## Related notions
 
+* [[Bénabou cosmos]]
+
+* [[base of enrichment]]
+
 * An [[infinity-cosmos]] is a "good place in which to do higher category theory" as axiomatized by Riehl and Verity in their work on the foundations of $(\infty,1)$- and $(\infty,n)$-category theory.
 
 
