@@ -1,7 +1,31 @@
 
-|$k$-group | $G^{ex}$ | $G_{ex}$ | | |
-|-------|-------|-------|-------|--------|
-| [[formal scheme|formal]] | [[connected object|connected]] | [[étale group scheme|étale]] | | p.34 |
-| finite | [[ infinitesimal object | infinitesimal]] | &#233;tale | splits if $k$ is perfect | p.35 |
-| [[nLab:ring spectrum|affine]] | multiplicative | [[unipotent group scheme|unipotent]] | splits if $k$ is perfect | p.39 |
-| | connected  | $G_{red}$ is [[smooth scheme|smooth]] | $G/G_{red}$ is infinitesimal |p.43 |  |
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+
+The concept _[[monad]]_ in the context of [[enriched category theory]], so a monad in the 2-category [[VCat]] of $V$-enriched categories. 
+
+## Kleisli presentation 
+
+Let 
+
+* $(V, \otimes, I)$ be a [[symmetric monoidal category]] which serves as the [[base of enrichment]], with $I$ denoting its [[unit object]].
+
+* $\mathbf{C}$ be a $V$-[[enriched category]] with [[hom-objects]] $\mathbf{C}(X,Y) \,\in\, V$.
+
+
