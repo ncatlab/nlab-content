@@ -26,7 +26,7 @@ Let $G$ be an algebraic subgroup of $GL(d,k)$. The Hopf algebra of regular ("coo
 
 ## Literature
 
-Related entries include [[Tannaka duality]], [[locally compact topological group]], [[Hopf algebra]], [[harmonic analysis]], [[representation theory]]
+Related entries include [[Tannaka duality]], [[locally compact topological group]], [[Hopf algebra]], [[harmonic analysis]], [[representation theory]], [[linear algebraic group]], [[distribution on an affine algebraic group]]
 
 * G. Hochschild,  G. D. Mostow, _Representations and representative functions of Lie groups_, Annals of Mathematics, Second ser. 66 (1957) 495--542 [jstor](https://www.jstor.org/stable/1969906) [MR0098796](https://www.ams.org/mathscinet-getitem?mr=0098796)
 
