@@ -459,7 +459,9 @@ On $n$-plectic formulation of [[gravity]], [[Maxwell theory]] and [[Einstein-Max
 
 * [[Dmitri Vey]], *Multisymplectic formulation of vielbein gravity. De Donder-Weyl formulation, Hamiltonian $(n-1)$-forms*,  Classical and Quantum Gravity **32** 9 (2015) &lbrack;[arxiv:1404.3546](https://arxiv.org/abs/1404.3546), [doi:10.1088/0264-9381/32/9/095005](https://iopscience.iop.org/article/10.1088/0264-9381/32/9/095005)&lbrack;
 
-* [[I.V. Kanatchikov]]. *The De Donder-Weyl Hamiltonian formulation of TEGR and its quantization*. (2023) ([arXiv:2308.10052](https://arxiv.org/abs/2308.10052))
+For [[teleparallel gravity]]
+
+* [[Igor V. Kanatchikov]]. *The De Donder-Weyl Hamiltonian formulation of TEGR and its quantization* (2023) &lbrack;[arXiv:2308.10052](https://arxiv.org/abs/2308.10052)&rbrack;
 
 [[!redirects n-plectic manifold]]
 [[!redirects n-plectic manifolds]]
