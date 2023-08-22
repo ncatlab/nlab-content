@@ -118,6 +118,11 @@ For example, if $V$ is the [[syntactic category]] of a [[programming language]],
 
 ## References 
 
+* {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], Def. 5.6 in: *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
+
+
+See also:
+
 * [[Max Kelly]], [[John Power]], *Adjunctions whose counits are coequalizers and presentations of finitary enriched monads*, Journal of Pure and Applied Algebra **89** (1993) &lbrack;<a href="https://doi.org/10.1016/0022-4049(93)90092-8">doi:10.1016/0022-4049(93)90092-8</a>&rbrack;
 
 * [[John Power]], *Enriched Lawvere theories*, Theory and Applications of Categories **6** 7 (1999) 83-93 &lbrack;[tac:6-07](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/6/n7/n7.pdf)&rbrack;
