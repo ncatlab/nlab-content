@@ -116,10 +116,15 @@ the object of differential forms on $X$ _is_ the cosimplicial [[generalized smoo
 
 
 
-# References #
+## References 
 
-* [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
 
-* Moerdijk-Reyes,  [[Models for Smooth Infinitesimal Analysis]]
+* {#Kock10} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[pdf](http://home.imf.au.dk/kock/SGM-final.pdf), [doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690)&rbrack;
 
-* Castiglioni, Cortinas, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf))
+* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]]: *[[Models for Smooth Infinitesimal Analysis]]*, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://link.springer.com/book/10.1007/978-1-4757-4143-8)&rbrack;
+
+* J. L Castiglioni, G. Cortiñas, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_, J. Pure Applied Algebra **191** (2004) 119-142 &lbrack;[arXiv:math/0306289](https://arxiv.org/abs/math/0306289), [doi:10.1016/j.jpaa.2003.11.009](https://doi.org/10.1016/j.jpaa.2003.11.009)&rbrack; 
+
+
+
+
