@@ -1,31 +1,36 @@
 
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Enriched category theory
-+--{: .hide}
-[[!include enriched category theory contents]]
-=--
-=--
-=--
+### Relation between strong and enriched functors (monads)
 
-#Contents#
-* table of contents
-{:toc}
+\begin{proposition}
+\label{EquivalenceBetweenStrengthAndEnrichment}
+**(equivalence between $V$-strength and $V$-enrichment)**
+For 
 
+* $V$ a [[closed monoidal category]]
 
-## Idea
+* $\mathbf{C}$, $\mathbf{D}$ a [[pair]] of $V$-[[enriched categories]]
 
+  which are also $V$-[[tensoring|tensored]] (=[[copower|copowered]]) 
 
-The concept _[[monad]]_ in the context of [[enriched category theory]], so a monad in the 2-category [[VCat]] of $V$-enriched categories. 
+then there is a [[bijection]] between
 
-## Kleisli presentation 
+* $V$-[[strong functors]] and $V$-[[enriched functors]] $\mathbf{C} \to \mathbf{D}$
 
-Let 
+and for any pair $F$, $G$ of such a [[bijection]] between
 
-* $(V, \otimes, I)$ be a [[symmetric monoidal category]] which serves as the [[base of enrichment]], with $I$ denoting its [[unit object]].
+* $V$-[[strong natural transformations]] and $V$-[[enriched natural transformation]] $F \to G$
 
-* $\mathbf{C}$ be a $V$-[[enriched category]] with [[hom-objects]] $\mathbf{C}(X,Y) \,\in\, V$.
+It follows in particular that there is a [[bijection]] between
+
+* $V$-[[strong monads]] and $V$-[[enriched monads]]
+
+on such $\mathbf{C}$.
+\end{proposition}
+([McDermott & Uustalu 2022, Prop. 5.4, 5.8](#McDermottUustalu22))
+
+\begin{remark}
+  For $V$ a [[closed monoidal category]] the further assumptions in Prop. \ref{EquivalenceBetweenStrengthAndEnrichment} apply to $\mathbf{C} = \mathbf{D} \coloneqq \mathbf{V}$ being the canonical self-enrichment of $V$.
+\end{remark}
 
 
