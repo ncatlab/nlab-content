@@ -87,7 +87,7 @@ This also becomes clear by the way in which the concept of monad is used further
 
 > A number is said to multiply a number when that which is multiplied is added to itself as many times as there are monads in the other, and thus some number is produced. ([source](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D15))
 
-These definitions evidently refer by "monad" to the unit element of the natural numbers seen under addition.
+These definitions evidently refer by "monad" to the element "[[1]]" among the natural numbers.
 
 Other definitions in *[[Elements]]* VII also refer to monads as the *multiplicative [[unit]]* element of the [[ring]] of [[natural numbers]]. To see this one first has to notice that Euclid speaks of (natural) numbers being "measured" by a *lesser* number where we today say they are "divided" by a smaller number:
 
