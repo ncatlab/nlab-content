@@ -733,22 +733,25 @@ and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalit
 
 * {#KRU20} [[Shin-ya Katsumata]], Exequiel Rivas, [[Tarmo Uustalu]], LICS (2020) 604-618 *Interaction laws of monads and comonads* &lbrack;[arXiv:1912.13477](https://arxiv.org/abs/1912.13477), [doi:10.1145/3373718.3394808](https://doi.org/10.1145/3373718.3394808)&rbrack;
 
+Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
-Textbook accounts of monads as used in actual [[programming languages]] such as [[Haskell]]:
+* [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
 
 * {#Milewski19} [[Bartosz Milewski]] (compiled by Igal Tabachnik), "Monads: Programmer's Definition", §20 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
 Further discussion/exposition of the notion and application of (co)monads in computer science:
  
-* [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
+* [[Philip Wadler]], *Comprehending Monads*, in _Conference on Lisp and functional programming_, ACM Press (1990) &lbrack;[[WadlerMonads.pdf:file]], [doi:10.1145/91556.91592](https://doi.org/10.1145/91556.91592)&rbrack;
 
 * {#BrookesGeva91} [[Stephen Brookes]], Shai Geva, *Computational Comonads and Intensional Semantics*, CMU-CS-91-190 (1991) &lbrack;[[BrookersGeva-ComputationalComonads.pdf:file]]&rbrack;
 
 * [[Philip Wadler]], *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
 
+* [[Philip Wadler]], *The essence of functional programming*, *POPL '92: Principles of programming languages* (1992) 1-14 &lbrack;[doi:10.1145/143165.143169](https://doi.org/10.1145/143165.143169), [pdf](https://jgbm.github.io/eecs762f19/papers/wadler-monads.pdf)&rbrack;
+
 * Philip Mulry, _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
 
-* John Hughes, section 2 of _Generalising Monads to Arrows_, Science of Computer Programming (Elsevier) 37 (1-3): 67&#8211;111. (2000) ([pdf](http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271600&_user=10&_pii=S0167642399000234&_check=y&_origin=search&_zone=rslt_list_item&_coverDate=2000-05-31&wchp=dGLzVlk-zSkWb&md5=fa91ab4ffc136b0cedc52318c7c249be&pid=1-s2.0-S0167642399000234-main.pdf))
+* [[John Hughes]], section 2 of: _Generalising Monads to Arrows_, Science of Computer Programming (Elsevier) 37 (1-3): 67&#8211;111. (2000) ([pdf](http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271600&_user=10&_pii=S0167642399000234&_check=y&_origin=search&_zone=rslt_list_item&_coverDate=2000-05-31&wchp=dGLzVlk-zSkWb&md5=fa91ab4ffc136b0cedc52318c7c249be&pid=1-s2.0-S0167642399000234-main.pdf))
 
 * {#Harper} [[Robert Harper]], _Of course ML Has Monads!_ (2011) ([web](http://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/))
 
