@@ -18,7 +18,9 @@
 * table of contents
 {:toc}
 
-Various concepts in [[philosophy]] and [[mathematics]] go by the name *monad*.
+\linebreak
+
+Various concepts in [[philosophy]] and [[mathematics]] go by the name *monad*. There is a surprising (if partly accidental) coherence in these notions from [[Euclid]] all the way to the modern mathematical usage -- if one disregards the long dark medieval use of the term.
 
 
 ## Historical origins
