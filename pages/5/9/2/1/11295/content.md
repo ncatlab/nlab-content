@@ -39,14 +39,14 @@ Let
   with [[hom-objects]] between any pais of [[objects]] $X, Y$ denoted $\mathbf{C}(X,Y) \,\in\, V$.
 
 \begin{definition}
-A *$V$-enriched monad* on $\mathbf{C}$ is, in [[Kleisli triple]]-presentation:
+A *$V$-enriched monad* on $\mathbf{C}$ is, in [[Kleisli triple]]-presentation (eg. [McDermott & Uustalu 2022, Def. 5.8](#McDermottUustalu22)):
 
 * for every object $X \,\in\, \mathbf{C}$, an object $T(X) \,\in\,\mathbf{C}$;
 
 * for every object $X \,\in\,\mathbf{C}$, a morphism in $V$ of the form
 
   $$
-   \eta_X 
+   ret_X 
      \;\colon\; 
     I \to \mathbf{C}\big(X,T(X)\big)
   $$ 
@@ -56,7 +56,7 @@ A *$V$-enriched monad* on $\mathbf{C}$ is, in [[Kleisli triple]]-presentation:
 * for all [[pairs]] of objects $X,Y$ of $mathbf{C}$, a morphism  in $V$ of the form
 
   $$
-    (\text{-})^\ast 
+    bind_{X,Y}
       \;\colon\; 
     \mathbf{C}\big(X,T(Y)\big) 
       \to 
@@ -65,23 +65,232 @@ A *$V$-enriched monad* on $\mathbf{C}$ is, in [[Kleisli triple]]-presentation:
 
   (the *[[Kleisli extension]]* or *bind*-operation)
 
-such that for all morphisms $f \colon X \to T(Y)$ and $g \colon Y \to T(Z)$ in $C$ the following holds:
+such that the structural equations on a [[Kleisli triple]]
 
-1. $f^\ast \circ \eta_X = f$,
+1. $bind(f) \circ ret_X = f$,
 
-1. $\big(\eta_X\big)^\ast = id$
+1. $bind(ret_X\big) = id$
 
-1. $g^\ast \circ f^\ast = (g^\ast \circ f)^\ast$. 
+1. $bind(g) \circ bind(f) = bind\big(bind(g) \circ f\big)$
+
+hold for [[generalized elements]] $f$, $g$ of the [[hom-objects]] $\mathbf{C}\big(X,\,T(Y)\big)$, $\mathbf{C}\big(Y,\,T(Z)\big)$, which means that the following [[commuting diagram|diagrams commute]] in $V$:
+
+\begin{tikzcd}[column sep=60pt]
+  &
+  \mathbf{C}\big(T(X),\, T(Y)\big)
+  \ar[
+    dr,
+    "{
+      \mathbf{C}\big(
+        \mathrm{ret}_X
+        ,\,
+        T(Y)
+     \big)
+    }"{sloped}
+  ]
+  \\
+  \mathbf{C}\big(
+    X
+    ,\,
+    T(Y)
+  \big)
+  \ar[
+    ur,
+    "{
+      \mathrm{bind}_{X,Y}
+    }"{sloped}
+  ]
+  \ar[
+    rr,
+    equals
+  ]
+  &&
+  \mathbf{C}\big(
+    X
+    ,\,
+    T(Y)
+  \big)  
+\end{tikzcd}
+
+\begin{tikzcd}[column sep=60pt]
+  &
+  \mathbf{C}\big(
+    X
+    ,\,
+    T(X)
+  \big)
+  \ar[
+    dr,
+    "{
+      \mathrm{bind}_{X,X}
+    }"{sloped}
+  ]
+  \\
+  I
+  \ar[
+    ur,
+    "{
+      \mathrm{ret}_X
+    }"{sloped}
+  ]
+  \ar[
+    rr,
+    "{ 
+      \mathrm{id}_{T(X)} 
+    }"{swap}
+  ]
+  &&
+  \mathbf{C}\big(
+    T(X)
+    ,\,
+    T(Y)
+  \big)  
+\end{tikzcd}
+
+\begin{tikzcd}[sep=60pt]
+  \mathbf{C}\big(
+    Y
+    ,\,
+    T(Z)
+  \big)
+  \otimes
+  \mathbf{C}\big(
+    X
+    ,\,
+    T(Y)
+  \big)
+  \ar[
+    rr,
+    "{
+      \mathrm{bind}_{Y,Z}
+      \otimes
+      \mathrm{Id}
+    }"
+  ]
+  \ar[
+    dd,
+    "{
+      \mathrm{bind}_{Y,Z}
+      \,\otimes\,
+      \mathrm{bind}_{X,Y}
+    }"{description}
+  ]
+  &&
+  \mathbf{C}\big(
+    T(Y)
+    ,\,
+    T(Z)
+  \big)
+  \otimes
+  \mathbf{C}\big(
+    X
+    ,\,
+    T(Y)
+  \big)
+  \ar[
+    d,
+    "{
+      \circ_{{}_{X, T(Y), T(Z)}}
+    }"
+  ]
+  \\
+  &&
+  \mathbf{C}\big(
+    X
+    ,\,
+    T(Z)
+  \big)  
+  \ar[
+    d,
+    "{
+      \mathrm{bind}_{X,Z}
+    }"
+  ]
+  \\
+  \mathbf{C}\big(
+    T(Y)
+    ,\,
+    T(Z)
+  \big)    
+  \otimes
+  \mathbf{C}\big(
+    T(X)
+    ,\,
+    T(Y)
+  \big)    
+  \ar[
+    rr,
+    "{
+      \circ_{{}_{T(X), T(Y), T(Z)}}
+    }"{swap}
+  ]
+  &&
+  \mathbf{C}\big(
+    T(X)
+    ,\,
+    T(Z)
+  \big)  
+\end{tikzcd}
+
 
 \end{definition}
 
 ## Properties
 
-### Relation to strong monads
+
+### Relation to strong and monoidal monads
+ {#RelationToStrongMonads}
+
+\begin{proposition}
+\label{EquivalenceBetweenStrengthAndEnrichment}
+**(equivalence between $V$-strength and $V$-enrichment)**
+For 
+
+* $V$ a [[closed monoidal category]]
+
+* $\mathbf{C}$, $\mathbf{D}$ a [[pair]] of $V$-[[enriched categories]]
+
+  which are also $V$-[[tensoring|tensored]] (=[[copower|copowered]]) 
+
+then there is a [[bijection]] between the [[structures]] of
+
+* $V$-[[strong functors]] and $V$-[[enriched functors]] $\mathbf{C} \to \mathbf{D}$
+
+on the [[underlying]] [[functors]],
+
+and for any pair $F$, $G$ of such a [[bijection]] between
+
+* $V$-[[strong natural transformations]] and $V$-[[enriched natural transformation]] $F \to G$
+
+It follows in particular that there is a [[bijection]] between
+
+* $V$-[[strong monads]] and $V$-[[enriched monads]]
+
+on such $\mathbf{C}$.
+\end{proposition}
+([McDermott & Uustalu 2022, Prop. 5.4, 5.8](#McDermottUustalu22))
 
 \begin{remark}
-If $C$ is $V$-enriched with [[copowers]], e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-[[strong monad]] on $C$. 
+  For $V$ a [[closed monoidal category]] the further assumptions in Prop. \ref{EquivalenceBetweenStrengthAndEnrichment} apply to $\mathbf{C} = \mathbf{D} \coloneqq \mathbf{V}$ being the canonical self-enrichment of $V$.
 \end{remark}
+
+Moreover:
+
+\begin{proposition}
+\label{RelationBetweenCommutativeStrongMonadsAndSymmetricMonoidalMonads}
+For $V$ a [[symmetric monoidal category|symmetric]] [[closed monoidal category]], there is a [[bijection]] between the [[structures]] of
+
+* [[commutative monad|commutative]] [[strong monads]] and [[symmetric monoidal functor|symmetric]] [[monoidal monads]]
+
+on [[underlying]] [[monads]] on $V$.
+
+\end{proposition}
+([Kock 1972, Thm. 3.2](monoidal+monad#Kock72))
+
+Hence from combining Prop. \ref{EquivalenceBetweenStrengthAndEnrichment} with Prop. \ref{RelationBetweenCommutativeStrongMonadsAndSymmetricMonoidalMonads} we get:
+\begin{prop}
+For $V$ a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with $\mathbf{V}$ denoting its self-[[enriched category]], every [[symmetric monoidal functor|symmetric]] [[monoidal monad]] on $V$ gives the [[structure]] of a $V$-[[enriched monad]] on $\mathbf{V}$.
+\end{prop}
 
 ## Examples
 
