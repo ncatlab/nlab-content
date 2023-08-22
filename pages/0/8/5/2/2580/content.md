@@ -1,5 +1,5 @@
 
-> This entry is about the concept of distributional densities in functional analysis. For the concept in differential geometry and Lie theory see at _[[distribution of subspaces]]_.
+> This entry is about the concept of distributional densities in functional analysis. For a [[distribution on an affine group scheme]] see there. For the concept of distribution in differential geometry and Lie theory see at _[[distribution of subspaces]]_. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
