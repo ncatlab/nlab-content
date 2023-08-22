@@ -362,7 +362,7 @@ The relation to [[Fock space]] is discussed in:
 
 * {#Vicary07} [[Jamie Vicary]], _A categorical framework for the quantum harmonic oscillator_, International Journal of Theoretical Physics December 2008, Volume 47, Issue 12, pp 3408-3447 ([arXiv:0706.0711](http://arxiv.org/abs/0706.0711))
 
-  (in the context of [[quantum information theory in terms of dagger-compact categories]])
+  > (in the context of [[quantum information theory in terms of dagger-compact categories]])
 
 The interpretation of $\Omega^\infty \Sigma^\infty_+$ as an exponential in the context of [[Goodwillie calculus]] is due to 
 
