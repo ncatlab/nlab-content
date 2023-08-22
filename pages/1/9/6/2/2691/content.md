@@ -1424,7 +1424,7 @@ For general **non-commutative** (or rather: not necessarily graded-commutative) 
 
 This is also the structure used in 
 
-* J.L. Castiglioni G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ ([arXiv](http://arxiv.org/abs/math/0306289v2))
+* J. L Castiglioni, G. Cortiñas, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_, J. Pure Applied Algebra **191** (2004) 119-142 &lbrack;[arXiv:math/0306289](https://arxiv.org/abs/math/0306289), [doi:10.1016/j.jpaa.2003.11.009](https://doi.org/10.1016/j.jpaa.2003.11.009)&rbrack; 
 
 where aspects of its relation to the [[model structure on cosimplicial rings]] is discussed. (See [[monoidal Dold-Kan correspondence]] for
 more on this).
