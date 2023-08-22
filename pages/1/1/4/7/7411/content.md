@@ -235,7 +235,7 @@ This relation has a converse:
 
 \begin{proposition}
 \label{BijectSymmMonoidalMonadsWithCommStrongMonads}
-([Kock (1972)](#Kock72), Thm. 2.3)
+**([Kock (1972)](#Kock72), Thm. 2.3)**
 \linebreak
 For a [[monad]] $T$ on (the [[underlying]] [[category]] of) a [[symmetric monoidal category|symmetric]] [[closed monoidal category]], there is a [[bijection]] between the [[structure]] on $T$ of:
 
