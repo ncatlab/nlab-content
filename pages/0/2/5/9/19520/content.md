@@ -37,10 +37,10 @@ Relatedly, in a [[framed bicategory]] loose 1-cells are called 'proarrows' and t
 
 |**1-cells in $\mathbb{D}_0$**|**0-cells in $\mathbb{D}_1$**| |
 |--|--|--|
-|tight|loose|([Lack and Shulman 2012](#LackShulman12))|
 |longitudinal|lateral|([Ehresmann 1963](#Ehresmann63))|
-|horizontal|vertical|Grandis and Parè|
+|horizontal|vertical|Dawson and Paré; Grandis and Paré|
 |vertical|horizontal|([Leinster 2004](#Lein04)), ([Cruttwell and Shulman, 2010](#CS10))|
+|tight|loose|([Lack and Shulman 2012](#LackShulman12))|
 |dynamic|static|([Grandis 2019](#Grandis19))|
 |transversal|1-objects|([Grandis 2019](#Grandis19))|
 
