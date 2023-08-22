@@ -13,6 +13,8 @@ On [[tensor networks]] in [[holographic entanglement entropy]]:
 
 Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
 
+* [[Geoff Penington]], _Entanglement Wedge Reconstruction and the Information Paradox_ ([arXiv:1905.08255](https://arxiv.org/abs/1905.08255))
+
 * [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_ ([arXiv:1911.11977](https://arxiv.org/abs/1911.11977))
 
 On [[holographic entanglement entropy]] and [[quantum error correcting codes]]:
