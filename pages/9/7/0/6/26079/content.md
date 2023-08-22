@@ -2,11 +2,11 @@
 
 ## Definition
 
-An __affine group scheme__ is a group object in the category of [[affine scheme]]s. 
+An __affine group scheme__ is a [[group object]] (hence a [[group scheme]]) [[internalization|internal]] to the [[category]] of [[affine schemes]]. 
 
 ## Related notions
 
-If $k$ is a commutative ring, the category of affine group $k$-schemes is opposite to the category of commutative [[Hopf algebra|Hopf]] $k$-algebras. 
+If $k$ is a [[commutative ring]], the category of affine group $k$-schemes is [[opposite category|opposite]] to the category of commutative [[Hopf algebra|Hopf $k$-algebras]]. 
 
 By an __affine algebraic group__, one additionally assumes that the underlying scheme is over an [[algebraic variety]] (in particular reducible) and over a field. The narrower notion then agrees with the notion of a [[linear algebraic group]].
 
@@ -22,8 +22,14 @@ By an __affine algebraic group__, one additionally assumes that the underlying s
 Comprehensive textbooks include
 
 * [[James Milne|James S. Milne]], _Basic theory of affine group schemes_, [pdf](https://www.jmilne.org/math/CourseNotes/AGS.pdf)
+
 * {#Waterhouse} William C. Waterhouse, _Introduction to affine group schemes_, Graduate texts in mathematics 66, 1979
 
 category: algebra, algebraic geometry
 
+[[!redirects affine group schemes]]
+
 [[!redirects affine algebraic group]]
+[[!redirects affine algebraic groups]]
+
+
