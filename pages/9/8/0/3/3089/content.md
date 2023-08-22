@@ -172,6 +172,10 @@ Since finitary monads $T$ preserve reflexive coequalizers, it follows that the m
 
 * Reflexive coequalizers figure in the [[crude monadicity theorem]].
 
+## See also
+
+* [[local reflexive coequalizer]]
+
 ## References
 
 * {#Linton} [[Fred Linton]], *Coequalizers in categories of algebras*, in: *Seminar on Triples and Categorical Homology Theory*, Lecture Notes in Mathematics **80** (1969) 75-90 &lbrack;[doi:10.1007/BFb0083082](https://doi.org/10.1007/BFb0083082)&rbrack;
