@@ -15,7 +15,7 @@ By an __affine algebraic group__, one additionally assumes that the underlying s
 
 ## Examples
 
-...
+* The *[[additive group]] scheme* (viewed as a group valued functor on the opposite of the category of affine schemes) assigns to a commutative ring its additive group.
 
 ## Literature
 
