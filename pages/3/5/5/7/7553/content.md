@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,7 +51,13 @@ The [[Schwarzschild spacetime]] in the context of teleparallel gravity is discus
 
 * Gheorghe Zet, _Schwarzschild solution on spacetime with torsion_ ([arXiv:gr-qc/0308078](http://arxiv.org/abs/gr-qc/0308078))
 
-
 The relation between flat tangent connections and parallelizablity is discussed in 
 
 * {#Thorpe65} [[John Thorpe]], _Parallelizablility and flat manifolds_, 1965 ([[ThorpeParallelizable.pdf:file]])
+
+
+Via [[multisymplectic geometry]] ([[De Donder-Weyl-Hamiltonian]]-formulation):
+
+* [[Igor V. Kanatchikov]]. *The De Donder-Weyl Hamiltonian formulation of TEGR and its quantization* (2023) &lbrack;[arXiv:2308.10052](https://arxiv.org/abs/2308.10052)&rbrack;
+
+
