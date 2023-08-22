@@ -176,15 +176,29 @@ Define [[tensorial strength|strengths]] on both the left and the right by:
 
 $$
   \tau_{A, B} 
-  \coloneqq 
-  (A \otimes T(B) \stackrel{u A \otimes 1}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B)),
+  \;\coloneqq\; 
+  \big(
+    A \otimes T(B) 
+      \overset{u_A \otimes id}{\to} 
+    T(A) \otimes T(B) 
+      \overset{\alpha_{A, B}}{\to} 
+    T(A \otimes B)
+  \big)
+  \,,
 $$ 
 
 $$\,$$ 
 
 $$
   \sigma_{A, B} 
-  \coloneqq (T(A) \otimes B \stackrel{1 \otimes u B}{\to} T(A) \otimes T(B) \stackrel{\alpha_{A, B}}{\to} T(A \otimes B))
+  \;\coloneqq\; 
+  \big(
+    T(A) \otimes B 
+      \overset{id \otimes u_B}{\to} 
+    T(A) \otimes T(B) 
+      \overset{\alpha_{A, B}}{\to} 
+    T(A \otimes B)
+  \big)
   \,.
 $$ 
 \end{definition}
