@@ -283,6 +283,7 @@ The unit is the unit of $- \otimes Y \dashv [Y, -]$ applied to $X$. The co-unit 
 =--
 
 ### Left-strong monads are enriched monads
+ {#LeftStrongMonadsAreEnrichedMonads}
 
 The original reference for this part is [Kock '72](#kock72). Note that in there the terminology is a little different:
 
