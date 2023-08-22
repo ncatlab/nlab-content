@@ -1,6 +1,11 @@
+
+\tableofcontents
+
 ## Idea
 
-Distribution in a sense of a linear functional on some functional space can be somewhat adapted to schemes. The problem is however to control the singular behaviour. A useful idea is to restrict singularities to a closed subscheme given by some ideal sheaf. The simplest case are distributions on a $k$-affine scheme $X$ over a field, supported at a point $p$. For a group scheme, one assumes that the point is the unit of the group and the algebra of distributions becomes a Hopf algebra. 
+The notion of *[[distributions]]* -- in the sense of [[linear functionals]] on some [[algebra of functions]] -- can to some extent be adapted from [[smooth manifolds]] to [[schemes]]. 
+
+The problem is however to control the singular behaviour. A useful idea is to restrict singularities to a closed subscheme given by some ideal sheaf. The simplest case are distributions on a $k$-[[affine scheme]] $X$ over a [[field]], supported at a point $p$. For a [[group scheme]], one assumes that the point is the [[neutral element]] of the group and the algebra of distributions becomes a Hopf algebra. 
 
 ## Definition
 
