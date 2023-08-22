@@ -855,9 +855,10 @@ The relation of multisymplectic formalism to [[covariant phase space]] and [[var
 
 The following articles discuss the [[quantization]] procedure for multisymplectic geometry, generalizing [[geometric quantization]] of [[symplectic geometry]].
 
-* I.V. Kanatchikov, _DeDonder-Weyl theory and a hypercomplex extension of quantum mechanics to field theory_ , ([arXiv:hep-th/9810165](http://arxiv.org/abs/hep-th/9810165))
 
-* I.V. Kanatchikov, _Geometric (pre)quantization in the polysymplectic approach to field theory_ , ([arXiv:hep-th/0112263](http://arxiv.org/abs/hep-th/0112263)).
+* [[Igor V. Kanatchikov]], _De Donder-Weyl theory and a hypercomplex extension of quantum mechanics to field theory_, Rept. Math. Phys. **43** (1999) 157-170 &lbrack;[arXiv:hep-th/9810165](http://arxiv.org/abs/hep-th/9810165), <a href="https://doi.org/10.1016/S0034-4877(99)80024-X">doi:10.1016/S0034-4877(99)80024-X</a>&rbrack;
+
+* [[Igor V. Kanatchikov]] *Geometric (pre)quantization in the polysymplectic approach to field theory*, in *Differential Geometry and Its Applications*, Proc. Conf., Opava (August 2001) &lbrack;[arXiv:hep-th/0112263](https://arxiv.org/abs/hep-th/0112263), [pdf](http://conferences.math.slu.cz/8icdga/PDF/309-322.pdf)&rbrack;
 
 
 
