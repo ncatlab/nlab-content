@@ -5,7 +5,7 @@
 
 ## Idea
 
-(...)
+[[representative function|Representative function]]s on a compact topological group form a dense subspace of the space of all continuous functions.
 
 ## References
 
