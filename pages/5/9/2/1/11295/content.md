@@ -10,55 +10,99 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
-
 ## Idea
 
+The notion of *enriched monads* is that of *[[monads]]* in the context of [[enriched category theory]]: For $V$ a [[base of enrichment]], a $V$-enriched monad is a [[monad]] [[internalization|internal]] to the [[2-category]] [[VCat]] of $V$-[[enriched categories]]. 
 
-The concept _[[monad]]_ in the context of [[enriched category theory]], so a monad in the 2-category [[VCat]] of $V$-enriched categories. 
+Generally (except in the base case $V = $ [[Set]]) the [[structure]] of a $V$-enriched monad on a $V$-[[enriched category]] $\mathbf{C}$ is *stronger* than that of the [[underlying]] monad on the underlying [[Set]]-category $C$, whence one also speaks of *[[strong monads]]* (*a priori* a different notion, which however coincides with that of enriched monads under mild conditions, such as when $V$ is [[closed monoidal category|closed]], see [there](strong+monad#LeftStrongMonadsAreEnrichedMonads)).
 
-## Kleisli presentation 
+The concept of enriched monads is key for the application of [[monads in computer science]], since a [[monad]] coded verbatim in a [[functional programming language]] --- where [[function types]] $X \to Y$ are to be [[categorical semantics|interpreted]] not as external [[hom-sets]] but as [[internal homs]] in the ambient [[closed monoidal category]] $V$ of [[data types]] --- is really a $V$-enriched monad (hence typicall a [[strong monad]]).
 
-The Kleisli presentation of a $V$-enriched monad on a $V$-category $C$ comprises
 
-* for every object $X$, an object $T(X)$;
+## Definition
 
-* for every object $X$, a morphism $\eta_X:I \to C(X,T(X))$ in $V$;
+Let 
 
-* for objects $X,Y$, a morphism $\ast:C(X,T(Y))\to C(T(X),T(Y))$ in $V$;
+* $(V, \otimes, I)$ be a [[symmetric monoidal category]] which serves as the [[base of enrichment]], 
 
-such that 
+  with $I$ denoting its [[unit object]].
 
-* $f^\ast\circ \eta = f$,
+* $\mathbf{C}$ be a $V$-[[enriched category]] 
 
-* $\eta^\ast = id$, and 
+  with [[hom-objects]] between any pais of [[objects]] $X, Y$ denoted $\mathbf{C}(X,Y) \,\in\, V$.
 
-* $
-g^\ast\circ f^\ast = (g^\ast f)^\ast$. 
+\begin{definition}
+A *$V$-enriched monad* on $\mathbf{C}$ is, in [[Kleisli triple]]-presentation:
 
-In the setting of [[monad (in computer science)]], $V=C$ is typically a [[cartesian closed category]] and $T$ needs to exist in the internal language of $V$, so $T$ is necessarily enriched. For example, if $V$ is the [[syntactic category]] of a programming language, then all the definable monads in the language are $V$-enriched. 
+* for every object $X \,\in\, \mathbf{C}$, an object $T(X) \,\in\,\mathbf{C}$;
 
-If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-[[strong monad]] on $C$. 
+* for every object $X \,\in\,\mathbf{C}$, a morphism in $V$ of the form
+
+  $$
+   \eta_X 
+     \;\colon\; 
+    I \to \mathbf{C}\big(X,T(X)\big)
+  $$ 
+
+  (the *[[monad unit]]*)
+
+* for all [[pairs]] of objects $X,Y$ of $mathbf{C}$, a morphism  in $V$ of the form
+
+  $$
+    (\text{-})^\ast 
+      \;\colon\; 
+    \mathbf{C}\big(X,T(Y)\big) 
+      \to 
+    \mathbf{C}\big(T(X),T(Y)\big)
+  $$
+
+  (the *[[Kleisli extension]]* or *bind*-operation)
+
+such that for all morphisms $f \colon X \to T(Y)$ and $g \colon Y \to T(Z)$ in $\mathbf{C}$ the following holds:
+
+1. $f^\ast \circ \eta_X = f$,
+
+1. $\big(\eta_X\big)^\ast = id$
+
+1. $g^\ast \circ f^\ast = (g^\ast \circ f)^\ast$. 
+
+\end{definition}
+
+## Properties
+
+### Relation to strong monads
+
+\begin{remark}
+If $C$ is $V$-enriched with [[copowers]], e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-[[strong monad]] on $C$. 
+\end{remark}
 
 ## Examples
 
-* In the case in of enrichment by [[truth values]], a monad is a [[closure operator]] on a poset.
+\begin{example}
+In the case in of enrichment by [[truth values]], a monad is a [[closure operator]] on a [[poset]].
+\end{example}
 
-## References 
+\begin{remark}
+In the application of [[monads in computer science]], $\mathbf{C} = \mathbf{V}$ is typically the [[base of enrichment]] itself, canonically enriched over itself. 
+For classical computing this is typically a [[cartesian closed category]].
 
-* [[Max Kelly]] and [[John Power]], *Adjunctions whose counits are coequalizers and presentations of finitary enriched monads*, Journal of Pure and Applied Algebra vol 89, 1993. ([pdf](https://core.ac.uk/download/pdf/82761050.pdf)).
+Since declaring a monad in a [[functional programming language]] means to define it in the [[internal language]] of $V$, such [[monads in computer science]] are actually enriched, see the discussion [there](monad+in+computer+science#RefinedIdea).
 
-* [[John Power]], _Enriched Lawvere theories_, ([tac](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html))
+For example, if $V$ is the [[syntactic category]] of a [[programming language]], then all the definable monads in the language are $V$-enriched.
+\end{remark}
 
-* [[Eduardo Dubuc]], _Kan Extensions in Enriched Category Theory_, Springer, 1970.
 
 
 ## Related entries
 
 * [[strong monad]]
+
+* [[monoidal monad]]
 
 * [[additive monad]]
 
@@ -69,5 +113,14 @@ If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In th
 * [[enriched adjunction]]
 
 * [[enriched Lawvere theory]]
+
+## References 
+
+* [[Max Kelly]] and [[John Power]], *Adjunctions whose counits are coequalizers and presentations of finitary enriched monads*, Journal of Pure and Applied Algebra vol 89, 1993. ([pdf](https://core.ac.uk/download/pdf/82761050.pdf)).
+
+* [[John Power]], _Enriched Lawvere theories_ &lbrack;[tac:6-07](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html)&rbrack;
+
+* [[Eduardo Dubuc]], _Kan Extensions in Enriched Category Theory_, Springer (1970)
+
 
 [[!redirects enriched monads]]
