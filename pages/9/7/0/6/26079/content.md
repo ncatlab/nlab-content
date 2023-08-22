@@ -13,6 +13,8 @@ By an __affine algebraic group__, one additionally assumes that the underlying s
 [Waterhouse](#Waterhouse)12.1 The Lie algebra of the affine group $k$-scheme $X$ is the Lie algebra of left-invariant $k$-linear derivations $T:\mathcal{O}(X)\to\mathcal{O}(X)$ of the Hopf algebra of regular functions of $X$, which are also morphisms of right comodules: $\Delta\circ T = (id\otimes T)\circ\Delta:\mathcal{O}(X)\to\mathcal{O}(X)\otimes\mathcal{O}(X)$ 
 (one says also that $T$ is left-invariant).
 
+This Lie algebra is also isomorphic to the Lie algebra of $k$-linear $k$-valued derivations of $\mathcal{O}(X)$.
+
 ## Examples
 
 * The *[[additive group]] scheme* (viewed as a group valued functor on the opposite of the category of affine schemes) assigns to a commutative ring its additive group.
