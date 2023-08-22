@@ -1,6 +1,6 @@
 ## Overview
 
-__Hyperalgebra__ of an [[affine algebraic group]] $G$ is the [[finite dual]]s of the Hopf algebra of [[representative function]]s of (irreducible component containing the unit element in) $G$. It can be interpreted (and is sometimes called) the algebra of [[distribution on an affine algebraic group|distribution]]s supported at unit. This algebra comes with a natural filtration. In characteristic $0$ it coincides (by L. Schwarz's theorem) with the [[universal enveloping algebra]] of the Lie algebra of $G$, but it is much bigger in positive characteristic. It can also be obtained by base change from the Kostant's integral form of the universal enveloping algebra of the complex Lie algebra associated to $G$.
+__Hyperalgebra__ of an [[affine algebraic group]] $G$ is the [[finite dual]]s of the Hopf algebra of [[representative function]]s of (irreducible component containing the unit element in) $G$. It can be interpreted as (and is sometimes called) the algebra of [[distribution on an affine algebraic group|distribution]]s supported at unit. This algebra comes with a natural filtration. In characteristic $0$ it coincides (by L. Schwarz's theorem) with the [[universal enveloping algebra]] of the Lie algebra of $G$, but it is much bigger in positive characteristic. It can also be obtained by base change from the Kostant's integral form of the universal enveloping algebra of the complex Lie algebra associated to $G$.
 
 ## Literature
 
