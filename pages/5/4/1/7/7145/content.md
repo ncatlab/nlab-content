@@ -89,7 +89,7 @@ This also becomes clear by the way in which the concept of monad is used further
 
 These definitions evidently refer by "monad" to the unit element of the natural numbers seen under addition.
 
-Other definitions in *[[Elements]]* VII also refer to monads as the *multiplicative [[unit]]* element of the [[ring]] of [[natural numbers]]. To see this one first has to notice that Euclid speaks of (natural) numbers being "measured" by another number where we today would say they are "divided" by that other number:
+Other definitions in *[[Elements]]* VII also refer to monads as the *multiplicative [[unit]]* element of the [[ring]] of [[natural numbers]]. To see this one first has to notice that Euclid speaks of (natural) numbers being "measured" by a *lesser* number where we today say they are "divided" by a smaller number:
 
 > {#ElementsVIIDef5} **Book VII, Definition 5**: 
 
@@ -149,11 +149,11 @@ This according to:
 in Giordano Bruno’s Monadology*, Socrates **3** 2 (2015) 57-70 &lbrack;[philpapers](https://philpapers.org/versions/BUTTAI-2), [pdf](https://philarchive.org/archive/BUTTAI-2)&rbrack;
 
 
-{#LeibnizMonads} Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) continues to insist on including "souls" and "god" among monads in a way that is more mysterious if not puzzling.
+{#LeibnizMonads} Later [[Leibniz]]'s *[Monadology](https://en.wikipedia.org/wiki/Monadology)* (1714) continues to insist on including "souls" and "god" among monads in a way that remains mysterious if not puzzling.
 
-Despite (or because?) the esoteric if not irrational nature of Leibniz' monadology it has become the most widely remembered usage of the "monad" terminology, while its rational origin with Euclid is nearly forgotten (for instance Wikipedia's [entries](#WikipediaMonadPhiliosophy) do not mention Euclid). 
+Despite (or because of?) the esoteric if not irrational nature of Leibniz' monadology it has become the most widely remembered usage of "monad", while its rational origin with Euclid is nearly forgotten (for instance Wikipedia's [entries](#WikipediaMonadPhiliosophy) do not mention Euclid). 
 
-On the other hand, both Leibniz and Bruno may have been following a tradition of thought that originated deeper in the middle ages:
+At the same time, both Leibniz and Bruno seem to have been following a tradition of thought that originated deeper in the middle ages:
 
 > the striking similarities between aspects of Leibniz’s monadology and Bruno’s doctrine of minims are probably attributable to the sources and philosophical interests that they shared in common
 
@@ -164,6 +164,8 @@ This according to
 
 
 ## Modern mathematical notions
+
+In the second half of the 20th century a couple of definitions in rigorous modern mathematics are introduced under the name of "monads":
 
 ### Monads of infinitesimals
  {#MonadsOfInfinitesimals}
