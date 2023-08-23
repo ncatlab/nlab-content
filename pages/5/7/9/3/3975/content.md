@@ -127,7 +127,8 @@ For instance, let $C = P A$ be a [[presheaf category]] with a [[Day convolution]
 
 ## References
 
-* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories._ Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §I.3 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 * Geoffrey Lewis, ["Coherence for a Closed Functor"](http://handle.unsw.edu.au/1959.4/63475) UNSW Ph.D. thesis 1974 
 
