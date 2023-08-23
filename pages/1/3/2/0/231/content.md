@@ -809,6 +809,14 @@ higher versions
 
 ## Related concepts
 
+* [[braided monoidal category]]
+
+* [[symmetric monoidal category]]
+
+* [[closed monoidal category]]
+
+* [[symmetric closed monoidal category]]
+
 * [[MonCat]]
 
 * [[enriched monoidal category]]
