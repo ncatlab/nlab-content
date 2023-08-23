@@ -16,6 +16,17 @@ With [[Henry Whitehead]] he gave the first algebraic description of the [[homoto
 ## Selected writings
  {#Writings}
 
+
+On [[group extensions]] and [[group homology]] via [[Ext]]/[[Tor]]-[[functors]]:
+
+* {#EilenbergMacLane42} [[Samuel Eilenberg]], [[Saunders MacLane]], *Group Extensions and Homology*, Annals of Mathematics **43** 4 (1942) 757-831 &lbrack;[doi:10.2307/1968966](https://doi.org/10.2307/1968966), [jstor:1968966](https://www.jstor.org/stable/1968966)&rbrack;
+
+
+Introducing [[category theory]]:
+
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _[[General Theory of Natural Equivalences]]_,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
+
+
 Introducing abstract [[group cohomology]]:
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology Theory in Abstract Groups. I*, Annals of Mathematics, Second Series **48** 1 (1947) 51-78 &lbrack;[doi:10.2307/1969215](https://doi.org/10.2307/1969215)&rbrack;
@@ -50,18 +61,17 @@ On [[category theory]]:
 
 * *[[Categories Work|Categories for the Working Mathematician]]*
 
-On [[sheaf and topos theory]]:
-
-* (with [[Ieke Moerdijk]]) _[[Sheaves in Geometry and Logic]]_
-
 On [[homological algebra]]:
-
+ 
 * [[Saunders MacLane]], *Homology*, Grundlehren der Mathematischen Wissenschaften **114**, Springer (1963, 1974), reprinted as: Classics in Mathematics, Springer (1995)  &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maclane_homology.pdf), [doi:10.1007/978-3-642-62029-4](https://doi.org/10.1007/978-3-642-62029-4)&rbrack;
-
 
 On [[philosophy of mathematics]]:
 
 * _Mathematics form and function_, Springer 1986
+
+On [[sheaf and topos theory]]:
+
+* (with [[Ieke Moerdijk]]) _[[Sheaves in Geometry and Logic]]_
 
 
 On [[homotopy 3-types]]:
