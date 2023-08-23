@@ -77,9 +77,12 @@ The following lists references on homological algebra:
 
 Classical accounts:
 
+* {#EilenbergMacLane42} [[Samuel Eilenberg]], [[Saunders MacLane]], *Group Extensions and Homology*, Annals of Mathematics **43** 4 (1942) 757-831 &lbrack;[doi:10.2307/1968966](https://doi.org/10.2307/1968966), [jstor:1968966](https://www.jstor.org/stable/1968966)&rbrack;
+
+
 * D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
 
-* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], *[[Homological Algebra]]*, Princeton Univ. Press (1956), Princeton Mathematical Series **19** (1999) &lbrack;[ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [doi:10.1515/9781400883844](https://doi.org/10.1515/9781400883844), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf)&rbrack;
  
 * [[A. Grothendieck]], _[[Tohoku|Sur quelques points d'algèbre homologique]]_ (1957)  ([part1](http://projecteuclid.org/euclid.tmj/1178244774), [part2](http://projecteuclid.org/euclid.tmj/1178244774))
 
@@ -128,8 +131,8 @@ See also
 
 * [[Alexander Beilinson]], _Introduction to homological algebra_ (handwritten notes, summer 2007, pdf) [lec1](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-1.pdf), [lec2](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-2.pdf), [lec3](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-3.pdf), [lec4](http://www.math.uchicago.edu/~mitya/beilinson/hom-alg-4.pdf)
 
-* Julia Collins, _Homological algebra_ (2006) ([pdf](http://www.maths.ed.ac.uk/~s0681349/HomologicalAlgebra.pdf))
- {#Collins}
+* {#Collins06} Julia Collins, _Homological algebra_ (2006) &lbrack;[pdf](http://www.maths.ed.ac.uk/~s0681349/HomologicalAlgebra.pdf)&rbrack;
+ 
 
 * [[Rick Jardine]], _Homological algebra_, course notes, 2009  ([index](http://www.math.uwo.ca/~jardine/papers/HomAlg/index.shtml))
 
@@ -163,12 +166,12 @@ Discussion of homological algebra in [[constructive mathematics]]:
 
 * [[Charles Weibel]], _A history of homological algebra_, [dvi](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
-From the introduction of ([Collins](#Collins)):
+From the introduction of [Collins 2006](#Collins06):
 
 > The word "[[homology]]" was first used in a [[topology|topological]] context by [[Poincaré]] in 1895, who used it to think about [[manifolds]] which were the [[boundaries]] of higher-dimensional manifolds. It was [[Emmy Noether]] in the 1920s who began thinking of homology in terms of [[groups]], and who developed algebraic techniques such as the idea of [[modules]] over a [[ring]]. These are both absolutely crucial ingredients in the modern theory of homological algebra, yet for the next twenty years homology theory was to remain confined to the realm of topology.
 
-> In 1942 came the first move forward towards homological algebra as we know it today, with the arrival of a paper by Samuel Eilenberg and Saunders MacLane. In it we find [[Hom]] and [[Ext]] defined for the very first time, and along with it the notions of a [[functor]] and [[natural isomorphism]]. These were needed to provide a precise language for talking about the properties of $Hom(A,B)$; in particular the fact that it varies naturally, contravariantly in $A$ and covariantly in $B$. 
+> In 1942 came the first move forward towards homological algebra as we know it today, with the arrival of a [paper by Samuel Eilenberg and Saunders MacLane](#EilenbergMacLane42). In it we find [[Hom]] and [[Ext]] defined for the very first time, and along with it the notions of a [[functor]] and [[natural isomorphism]]. These were needed to provide a precise language for talking about the properties of $Hom(A,B)$; in particular the fact that it varies naturally, contravariantly in $A$ and covariantly in $B$. 
 
-> Only three years later this language was expanded to include [[category]] and [[natural equivalence]]. However, this terminology was not widely accepted by the mathematical community until the appearance of [Cartan and Eilenberg's book](#CartanEilenberg) in 1956. Cartan and Eilenberg's book was truly a revolution in the subject, and in fact it was here that the term "Homological Algebra" was first coined. The book used [[derived functors]] in a systematic way which united all the previous [[homology theories]], which in the past ten years had arisen in [[group theory]], [[Lie algebras]] and [[algebraic geometry]]. The sheer list of terms that were first defined in this book may give the reader an idea of how much of this project is due to the existence of that one book! They defined what it means for an object to be [[projective object|projective]] or [[injective object|injective]], and defined the notions of [[projective resolution|projective]] and [[injective resolutions]]. It is here that we find the first mention of $Hom$ being [[left exact functor|left exact]] and the first occurrence of $Ext^n$ as the [[right derived functors]] of $Hom$.
+> Only three years later this language [was expanded](category#EilenbergMacLane45) to include [[category]] and [[natural equivalence]]. However, this terminology was not widely accepted by the mathematical community until the appearance of [Cartan and Eilenberg's book](#CartanEilenberg56). Cartan and Eilenberg's book was truly a revolution in the subject, and in fact it was here that the term "Homological Algebra" was first coined. The book used [[derived functors]] in a systematic way which united all the previous [[homology theories]], which in the past ten years had arisen in [[group theory]], [[Lie algebras]] and [[algebraic geometry]]. The sheer list of terms that were first defined in this book may give the reader an idea of how much of this project is due to the existence of that one book! They defined what it means for an object to be [[projective object|projective]] or [[injective object|injective]], and defined the notions of [[projective resolution|projective]] and [[injective resolutions]]. It is here that we find the first mention of $Hom$ being [[left exact functor|left exact]] and the first occurrence of $Ext^n$ as the [[right derived functors]] of $Hom$.
 
 
