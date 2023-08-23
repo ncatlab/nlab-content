@@ -249,7 +249,6 @@ This relation has a converse:
 
 \begin{proposition}
 \label{BijectSymmMonoidalMonadsWithCommStrongMonads}
-**([Kock (1972)](#Kock72), Thm. 2.3)**
 \linebreak
 For a [[monad]] $T$ on (the [[underlying]] [[category]] of) a [[symmetric monoidal category|symmetric]] [[closed monoidal category]], there is a [[bijection]] between the [[structure]] on $T$ of:
 
@@ -259,6 +258,7 @@ For a [[monad]] $T$ on (the [[underlying]] [[category]] of) a [[symmetric monoid
 
 \end{proposition}
 
+This is due to [Kock (1972)](#Kock72), Thm. 2.3), a detailed review is in  [GLLN08, §7.3, §A.4](#GLLN08).
 
 
 
@@ -315,9 +315,14 @@ See [[commutative monad#examples|examples of commutative monads]].
 
 * {#Brandenburg2014} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](https://arxiv.org/abs/1410.1716))
 
-A statement in the text appears in Appendix C of
+Discussion in the context of [[monads in computer science]]:
 
-* {#support} [[Tobias Fritz]], [[Paolo Perrone]] and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
+* {#GLLN08} [[Jean Goubault-Larrecq]], [[Slawomir Lasota]], [[David Nowak]], *Logical Relations for Monadic Types*, Mathematical Structures in Computer Science, **18** 6 (2008) 1169-1217 &lbrack;[arXiv:cs/0511006](https://arxiv.org/abs/cs/0511006), [doi:10.1017/S0960129508007172](https://doi.org/10.1017/S0960129508007172)&rbrack;
+
+
+A statement in the above text is from 
+
+* {#support} [[Tobias Fritz]], [[Paolo Perrone]] and Sharwin Rezagholi, Appendix C of: _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
 
 
 [[!redirects monoidal monads]]
