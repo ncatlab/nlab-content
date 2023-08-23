@@ -33,9 +33,12 @@ The term __cartesian category__ usually means a category with finite products bu
 
 ## Properties
 
-Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  
+Among general [[monoidal categories]], the cartesian monoidal categories have a number of special and important properties, such as the existence of [[diagonal maps]] $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$, cf. the *[[structural rules]]* in the corresponding [[internal type theory]]: In applications to [[computer science]] we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]]: (see also at *[comonoid -- In a cartesian monoidal category](comonoid#InACartesianMonoidalCategory)*):
 
-In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way, and this is automatically a [[cocommutative comonoid]].  Furthermore, this comonoid structure is 'natural', meaning that the all morphisms between objects preserve their comonoid structure.  In other words, any morphism $f: x \to y$ is a comonoid homomorphism:
+\begin{example}\label{ComonoidObjects}
+**(comonoid objects)**
+\linebreak
+In fact, any object in a cartesian monoidal category becomes a comonoid in a *unique* way, and this is automatically a [[cocommutative comonoid]] [[structure]].  Furthermore, this comonoid structure is 'natural', meaning that the all morphisms between objects preserve their comonoid structure.  In other words, any morphism $f: x \to y$ is a comonoid homomorphism:
 \[       (f \otimes f) \circ \Delta_x = \Delta_y \circ f, \quad i_x = i_y \circ f .\]
 
 Moreover, one can show (e.g. [Fox 1976](#Fox76) or [Heunen-Vicary 2012, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonal and augmentation maps _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
@@ -52,8 +55,9 @@ $$       x \stackrel{\Delta_x}{\longrightarrow} x \otimes x
 where $r$, $\ell$ are the right and left unitors.   Then $C$ is cartesian.  
 
 Heuristically: a symmetric monoidal category is cartesian if we can duplicate and delete data, and 'duplicating a piece of data and then deleting one copy is the same as not doing anything'.
+\end{example}
 
-A related theorem describes cartesian monoidal categories as monoidal categories satisfying two properties involving the unit object.  First, we say a monoidal category $C$ is [[semicartesian monoidal category|semicartesian]] if the unit for the tensor product is [[terminal object|terminal]].   If this is true, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
+A related theorem describes cartesian monoidal categories as monoidal categories satisfying two properties involving the [[unit object]].  First, we say a monoidal category $C$ is [[semicartesian monoidal category|semicartesian]] if the unit for the tensor product is [[terminal object|terminal]].   If this is true, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
 $$ p_x : x \otimes y  \to x $$
 $$ p_y : x \otimes y \to y$$
 given by
