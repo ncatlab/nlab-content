@@ -268,11 +268,14 @@ The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed mono
 
 * [[string diagram]], [[Kelly-Mac Lane diagram]], [[linguistics|natural language syntax]]
 
-##References 
+## References 
 
-Textbook account for symmetric closed categories:
 
-* {#Borceux94} [[Francis Borceux]], vol 2 section 6.1 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III.6 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+Textbook accounts
+
+* {#Borceux94} [[Francis Borceux]], vol 2 section 6.1 of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 Original articles studying monoidal biclosed categories are
 
@@ -292,11 +295,6 @@ In [[enriched category theory]] the enriching category is taken to be closed mon
 
 has a chapter on just closed monoidal categories.
 
-See also the article
-
-* {#EilenbergKelly65} [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
-
-on the concept of [[closed categories]].
 
 
 [[!redirects closed monoidal category]]
