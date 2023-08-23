@@ -704,7 +704,10 @@ The notion of [[injective modules]] was introduced in
 * {#Baer}R. Baer, _Abelian groups that are direct summands of every containing abelian group_ , Bulletin AMS **46** no. 10 (1940) pp.800-806. ([projecteuclid](http://projecteuclid.org/euclid.bams/1183503234))
  
 
-(The dual notion of [[projective modules]] was considered explicitly only much later.)
+The dual notion of [[projective modules]] was considered explicitly only much later in
+
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], *[[Homological Algebra]]*, Princeton Univ. Press (1956), Princeton Mathematical Series **19** (1999) &lbrack;[ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [doi:10.1515/9781400883844](https://doi.org/10.1515/9781400883844), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf)&rbrack;
+ 
 
 Textbook accounts:
 
