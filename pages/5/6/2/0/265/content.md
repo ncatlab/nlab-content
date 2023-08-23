@@ -322,6 +322,11 @@ Passage to left derived functors is a [[pseudofunctor]] from a [[2-category]] of
 
 ### General
 
+The notion of derived functors is due to:
+
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], *[[Homological Algebra]]*, Princeton Univ. Press (1956), Princeton Mathematical Series **19** (1999) &lbrack;[ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [doi:10.1515/9781400883844](https://doi.org/10.1515/9781400883844), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf)&rbrack;
+ 
+
 General discussion of derived functors in [[homotopy theory]]:
 
 * {#Adams74} [[Frank Adams]], part III, section 8 of _[[Stable homotopy and generalised homology]]_, 1974
