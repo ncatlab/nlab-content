@@ -261,6 +261,8 @@ $$
 
 ## References
 
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §I.10 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 * [[Max Kelly]], p. 9 of: _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics **64** (1982), Reprints in Theory and Applications of Categories, **10** (2005) 1-136 &lbrack;[tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 * {#Borceux94} [[Francis Borceux]], def. 6.2.4 of: _[[Handbook of Categorical Algebra]] Vol 2_, Cambridge University Press (1994)
