@@ -9,19 +9,27 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea 
 
-In the simplest case, _tensorial strength_ is a property of an [[endofunctor]] $T \colon V \to V$ on a [[monoidal category]] which characterizes it as a  $V$-[[enriched functor]] when $V$ is canonically regarded as an [[enriched category]] over itself. More generally this applies to functors between $V$-[[enriched categories]] which are [[tensoring|tensored]] ([[copowering|copowered]]) over $V$. 
+In the simplest case, _tensorial strength_ is a property of an [[endofunctor]] $T \colon V \to V$ on a [[monoidal category]] which characterizes it as a  $V$-[[enriched functor]] when $V$ is canonically regarded as an [[enriched category]] over itself. 
+
+More generally, tensorial strength on a  functor between $V$-[[enriched categories]] that are [[tensoring|tensored]] ([[copowering|copowered]]) is a [[natural transformation]] which makes the functor become compatible with that [[tensoring]]. A functor equipped with such tensorial strength is called a *strong functor*.
+
+In the case that $V$ is also [[closed monoidal category|closed monoidal]], there is a close relation between strong functors and [[enriched functors]].
+
 
 
 
 ## Definition 
 
-Given a [[monoidal category]] $(V, \otimes, I)$, a **tensorial left-strength** for a functor 
+### Standard definition
+
+Given a [[monoidal category]] $(V, \otimes, I)$ with [[tensor product]] $\otimes$, a **tensorial left-strength** for a functor 
 
 $$F \colon V \to V$$
 
@@ -64,9 +72,11 @@ A functor equipped with a tensorial strength is called a **strong functor** (not
 More generally, the notion makes sense not just for endofunctors of $V$, but for functors between any categories that are "tensored over $V$."
  
 
+### Tentative reformulation
+
 +-- {: .standout}
 
-_Tentative_ -- The following reformulation of the standard definition is tentative. See the discussion referenced below
+_Tentative_ -- The following reformulation &lbrack;[Baez 2009](&Baez09)&rbrack; of the standard definition is tentative.
 
 =--
 
@@ -97,8 +107,6 @@ and a **tensorial strength** for a functor $F: V \to V$ is a way of lifting it t
 
 ## Description 
 
-
-The first thing to notice about (covariant) **tensorial strengths** is that they attach to a [[functor]] from a [[monoidal category]] to itself, say $T: V \to V$. (The concept doesn't make much immediate sense if $T$ is a functor between different monoidal categories.) 
 
 One possible reason why it may be hard to grasp the notion of strength is because in the case $V = Set$, they're sort of invisible. Every functor $T: Set \to Set$ has one, in fact a canonical one! This will make more sense in a moment. 
 
@@ -148,17 +156,26 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 
 ## References 
 
-The tentative 'more conceptual' definition of tensorial strength, as well as the 'description' above, arose in this discussion:
+The notion of tensorial strength originates in
 
-* [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
+* {#Kock72} [[Anders Kock]], below Thm. 1.3 of: *Strong functors and monoidal monads*, Arch. Math **23** (1972) 113–120 &lbrack;[doi:10.1007/BF01304852](https://doi.org/10.1007/BF01304852), [pdf](http://home.imf.au.dk/kock/SFMM.pdf)&rbrack;
 
-The concept of tensorial strength is a prerequisite for the concept of [[strong monad]], so see the further discussion there.  An original reference is
+Comprehensive review:
 
-* {#Kock72} [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math **23** (1972) 113–120 &lbrack;[doi:10.1007/BF01304852](https://doi.org/10.1007/BF01304852), [pdf](http://home.imf.au.dk/kock/SFMM.pdf)&rbrack;
+* [[Kruna S. Ratkovic]], *Tensorial Strength*, Section 3 of: *Morita theory in enriched context* (2012) &lbrack;[arXiv:1302.2774](https://arxiv.org/abs/1302.2774), [hal:tel-00785301](https://theses.hal.science/tel-00785301/document)&rbrack;
  
 Review in the context of [[monads in computer science]]:
 
+* [[Tarmo Uustalu]], *Strong functors, Strong monads*, in: *[Containers for effects and contexts](https://www.ioc.ee/~tarmo/ssgep15/)*, Lecture notes (2015) &lbrack;[pdf](https://www.ioc.ee/~tarmo/ssgep15/ssgep-1a.pdf), [[Uustalu-StrongFunctors.pdf:file]]&rbrack;
+
 * {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], Section 3 of: *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
+
+
+The tentative 'more conceptual' definition of tensorial strength, as well as the 'description' above, arose in this discussion:
+
+* {#Baez09} [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
+
+
 
 [[!redirects tensorial strengths]]
 [[!redirects strong functor]]
