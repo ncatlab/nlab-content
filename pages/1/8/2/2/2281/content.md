@@ -1,9 +1,19 @@
-With [[Saunders Mac Lane]], 'Sammy' Eilenberg was one of the 'fathers' of [[category theory]]. In their 1945 paper [[General Theory of Natural Equivalences]] they introduced the definition of category. 
-The reason for introducing categories was to introduce functors, and the reason for introducing functors was to introduce natural transformations (more specifically natural equivalences) in order to define what natural means in mathematics.
+
+With [[Saunders Mac Lane]], 'Sammy' Eilenberg was one of the 'fathers' of [[category theory]]. In their 1945 paper *[[General Theory of Natural Equivalences]]* they introduced [[category theory]] with the notions of *[[categories]]*, *[[functors]]* and *[[natural transformations]]*. 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Samuel_Eilenberg)
 
 ## Selected writings
+
+On [[group extensions]] and [[group homology]] via [[Ext]]/[[Tor]]-[[functors]]:
+
+* {#EilenbergMacLane42} [[Samuel Eilenberg]], [[Saunders MacLane]], *Group Extensions and Homology*, Annals of Mathematics **43** 4 (1942) 757-831 &lbrack;[doi:10.2307/1968966](https://doi.org/10.2307/1968966), [jstor:1968966](https://www.jstor.org/stable/1968966)&rbrack;
+
+
+Introducing [[category theory]]:
+
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _[[General Theory of Natural Equivalences]]_,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
+
 
 Introducing the *[[Eilenberg-Steenrod axioms]]* for [[ordinary cohomology]]:
 
@@ -41,7 +51,8 @@ On [[separable algebras]] and [[Frobenius algebras]]:
 
 On [[homological algebra]]:
 
-* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], *[[Homological Algebra]]*, Princeton Univ. Press (1956), Princeton Mathematical Series **19** (1999) &lbrack;[ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [doi:10.1515/9781400883844](https://doi.org/10.1515/9781400883844), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf)&rbrack;
+
 
 On [[homology of loop spaces]]:
 
