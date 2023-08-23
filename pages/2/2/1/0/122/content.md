@@ -206,7 +206,6 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
 ## Related entries
 
-* [[transformation of adjoints]]
 
 * [[homotopy]]
 
@@ -214,9 +213,15 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
   * **natural transformation**
 
+    * [[transformation of adjoints]]
+
     * [[extranatural transformation]], [[dinatural transformation]]
 
     * [[cartesian natural transformation]]
+
+    * [[enriched natural transformation]]
+    
+    * [[strong natural transformation]]
 
   * [[pseudonatural transformation]]
 
