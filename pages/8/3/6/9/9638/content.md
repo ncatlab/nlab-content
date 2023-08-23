@@ -159,6 +159,12 @@ The idea of quantum computation was first expressed in:
 
   > "because nature isn't classical, dammit, if you want to make a simulation of nature, you'd better make it quantum mechanical"
 
+And first ideas of a [[quantum Turing machine]]:
+
+* David Z. Albert, *On quantum-mechanical automata*, Physics Letters A **98** 5–6 (1983) 249-252 &lbrack;<a href="https://doi.org/10.1016/0375-9601(83)90863-0">doi:10.1016/0375-9601(83)90863-0</a>&rbrack;
+
+* [[David Deutsch]], *Quantum theory, the Church–Turing principle and the universal quantum computer*, Proceedings of the Royal Society of London A **400** 1818 (1985) 97-117 &lbrack;[doi:10.1098/rspa.1985.0070](https://doi.org/10.1098/rspa.1985.0070), [pdf](https://www.daviddeutsch.org.uk/wp-content/deutsch85.pdf)&rbrack;
+
 
 The notion of ([[controlled quantum gate|controlled]]) [[quantum logic gates]] and [[quantum circuits]] was first made explicit in:
 
