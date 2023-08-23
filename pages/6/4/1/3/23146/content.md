@@ -39,7 +39,7 @@ A [[Bénabou cosmos]]  is ([Street 74, p. 1](#Street74)) a
 
 * [[monoidal category|monoidal]]
 
-[[category]].  
+[[category]] (cf *[[symmetric monoidal closed category]]*).  
 \end{definition}
 
 \begin{remark}
