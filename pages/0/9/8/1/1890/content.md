@@ -285,13 +285,18 @@ The unit is the unit of $- \otimes Y \dashv [Y, -]$ applied to $X$. The co-unit 
 ### Left-strong monads are enriched monads
  {#LeftStrongMonadsAreEnrichedMonads}
 
-The original reference for this part is [Kock '72](#kock72). Note that in there the terminology is a little different:
+The original reference for this part is [Kock '72](#kock72). For more references see at *[enriched monad -- Relation to strong and monoidal monads](enriched+monad#RelationToStrongMonads)*.
 
-* The left-strength as defined here is called _tensorial strength_;
-* The enrichment of the monad is called _strength_.
 
-Since the two notions are equivalent, the different terminology does not lead to confusion (once the equivalence is established).
-For more on this see also the treatment at [[tensorial strength#description|the related discussion for strong endofunctors]].
+Beware that [Kock '72](#kock72) uses somewhat different terminology:
+
+* The left-strength as defined here is called _[[tensorial strength]]_;
+
+* The [[enriched monad|enrichment]] of the monad is called _strength_.
+
+Since the two notions are equivalent under mild conditions see ([there](enriched+monad#RelationToStrongMonads)), the different terminology does not lead to confusion (once the equivalence is established).
+
+\linebreak
 
 First of all, a [[tensorial strength|strong endofunctor]] $T$ on a closed monoidal category $C$ is "the same thing" as a $C$-[[enriched functor|enriched endofunctor]]. To see this, note that an enriched endofunctor amounts to a [[natural transformation]] 
 $$
