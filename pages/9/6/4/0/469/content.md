@@ -10,6 +10,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -54,7 +55,7 @@ More abstractly, from the point of view of [[2-category]] theory, closed monoida
 ### Symmetric closed monoidal category
 
 
-A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ b \otimes - \colon C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
+A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** (cf. *[[symmetric monoidal closed category]]*) if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ b \otimes - \colon C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
 
 $$
   \underset{b \in C}{\forall}
@@ -268,10 +269,11 @@ The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed mono
 
 * [[string diagram]], [[Kelly-Mac Lane diagram]], [[linguistics|natural language syntax]]
 
+
 ## References 
 
 
-* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III.6 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 Textbook accounts
 
@@ -304,12 +306,6 @@ has a chapter on just closed monoidal categories.
 [[!redirects closed monoidal structure]]
 [[!redirects closed monoidal structures]]
 
-[[!redirects closed symmetric monoidal category]]
-[[!redirects closed symmetric monoidal categories]]
-[[!redirects symmetric monoidal closed category]]
-[[!redirects symmetric monoidal closed categories]]
-[[!redirects closed symmetric monoidal structure]]
-[[!redirects closed symmetric monoidal structures]]
 
 [[!redirects biclosed monoidal category]]
 [[!redirects biclosed monoidal categories]]
