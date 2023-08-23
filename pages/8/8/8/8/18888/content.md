@@ -21,7 +21,26 @@ It then repeats this sequence until its state is a _halting_ state, if ever, whe
 
 * [[halting problem]]
 
+## References
+
+### Classical computing
+
+* Wikipedia, *[Turing machine](https://en.wikipedia.org/wiki/Turing_machine)*
+
+### Quantum computing
+
+On Turing machines in the context of [[quantum computing]]
+
+* [[David Deutsch]], *Quantum theory, the Church–Turing principle and the universal quantum computer*, Proceedings of the Royal Society of London A **400** 1818 (1985) 97-117 &lbrack;[doi:10.1098/rspa.1985.0070](https://doi.org/10.1098/rspa.1985.0070), [pdf](https://www.daviddeutsch.org.uk/wp-content/deutsch85.pdf)&rbrack;
+
+* Wikipedia, *[Quantum Turing machine](https://en.wikipedia.org/wiki/Quantum_Turing_machine)*
+
 
 [[!redirects turing machine]]
 [[!redirects Turing machines]]
 [[!redirects turing machines]]
+
+[[!redirects quantum Turing machine]]
+[[!redirects quantum Turing machines]]
+
+
