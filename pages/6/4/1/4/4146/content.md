@@ -39,7 +39,7 @@ that is filled by a [[natural transformation]] (which might be an [[identity nat
 
 This is said to be an **exact square** if the canonical [[Beck-Chevalley transformation]]
 $$ u_! f^* \to g^* v_!, $$
-relating functors with values in some other category $M$, is always an [[isomorphism]].  
+relating functors with values in some other category $M$, is an [[isomorphism]].  
 
 Here $f^*\colon M^B\to M^A$ and $g^*\colon M^D\to M^C$ denote precomposition with $f$ and $g$ respectively, and $u_!\colon M^A\to M^C$ and $v_!\colon M^B\to M^D$ denote pointwise left [[Kan extensions]] along $u$ and $v$.  The Beck-Chevalley transformation is defined to be the composite
 $$ 
