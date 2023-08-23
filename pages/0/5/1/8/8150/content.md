@@ -550,6 +550,9 @@ $$
 
 ## References
 
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §IV.6 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 Textbook accounts:
 
 * [[Charles Weibel]], Section 2.7 of: *[[An Introduction to Homological Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
