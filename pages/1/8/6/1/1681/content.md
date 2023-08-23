@@ -191,6 +191,31 @@ $$
 
 This is reviewed for instance in ([Yin, section 4](#Yin)).
 
+In p.130 of [Eilenberg & MacLane (1954)](#EilenbergMacLane54II), some low-degree cohomology groups of $K(A,n)$ are computed.
+
++-- {: .num_prop #RationalCohomologyOfKZn}
+###### Proposition
+There are stable isomorphisms
+
+$$
+H^n(K(A,n),G) \cong \text{Hom}(A,G)
+$$
+$$
+H^{m+1}(K(A,m),G)\cong \text{Extabel}(A,G)\subset \text{Ext}(A,G)\cong H^2(K(A,1),G)
+$$
+for $n\geq 1$ and $m\geq 2$.
+
+=--
+
++-- {: .num_prop #RationalCohomologyOfKZn}
+###### Proposition
+There exists an isomorphism
+$$
+H^4(K(A,2),G)\cong \text{Hom}(\Gamma_4(A),G)
+$$
+where $\Gamma_4(A)$ is the group of quadratic functions from $A$ valued in $G$.
+=--
+
 ## Generalizations
 
 The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in $L_{whe}$[[Top]]. See at _[[Eilenberg-MacLane object]]_.
