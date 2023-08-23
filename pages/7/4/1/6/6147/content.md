@@ -1,4 +1,4 @@
-__Tannaka-Krein theorem__ (in the narrow sense) is a particular [[Tannaka duality]] theorem for compact topological groups. 
+The __Tannaka-Krein theorem__ (in the narrow sense) is a particular [[Tannaka duality]] theorem for compact topological groups. 
 
 The original theorem is (in two independent and different formulations) stated and proved in  
 
