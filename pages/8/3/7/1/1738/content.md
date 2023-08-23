@@ -123,7 +123,6 @@ The analogous statements are true in [[higher category theory]].
 
 
 
-[[!redirects 2]]
 [[!redirects I]]
 [[!redirects walking arrow]]
 [[!redirects walking morphism]]
