@@ -66,6 +66,8 @@ A bifunctor of the form $D^{op} \times C \to Set$ is called a [[profunctor]].
 
 ## Related concepts
 
+* [[extranatural transformation]]
+
 * [[binary function]], [[bilinear map]], [[multilinear map]]
 
 * [[binary morphism]]
@@ -75,6 +77,14 @@ A bifunctor of the form $D^{op} \times C \to Set$ is called a [[profunctor]].
   [[end]]/[[coend]]
 
 * [[multifunctor]]
+
+
+## References
+
+In the generality of [[enriched category theory]] (hence for [[enriched functors]] on [[enriched product categories]]):
+
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III.4 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 
 
 [[!redirects bifunctor]]
