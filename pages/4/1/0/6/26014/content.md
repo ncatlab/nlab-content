@@ -61,7 +61,8 @@ Further suggestion for mathematical formalization of what [GKSW14](#GaiottoKapus
 
 rooted in
 
-* {#FHTL09} [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]]. *Topological Quantum Field Theories from Compact Lie Groups*. ( [arXiv:0905.0731](https://arxiv.org/abs/0905.0731) )
+* {#FHTL09} [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], *[[Topological Quantum Field Theories from Compact Lie Groups]]*, in: *A celebration of the mathematical legacy of Raoul Bott*, AMS (2010) &lbrack;[arXiv:0905.0731](http://arxiv.org/abs/0905.0731), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
+
 
 See also:
 
