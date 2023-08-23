@@ -1612,9 +1612,11 @@ But examples of fundamental importance include for instance
 
 Original articles:
 
+* {#EilenbergMacLane42} [[Samuel Eilenberg]], [[Saunders MacLane]], *Group Extensions and Homology*, Annals of Mathematics **43** 4 (1942) 757-831 &lbrack;[doi:10.2307/1968966](https://doi.org/10.2307/1968966), [jstor:1968966](https://www.jstor.org/stable/1968966)&rbrack;
+
 * [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel*,  Ann. of Math. (2)  48,  (1947). 326--341 [jstor:1969174](http://www.jstor.org/pss/1969174)
 
-* [[Saunders MacLane]], Cohomology theory in abstract groups. III. Operator homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761. 
+* [[Saunders MacLane]], *Cohomology theory in abstract groups*. III. Operator homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761. 
 
 * [[Lawrence Breen]], Th&#233;orie de Schreier sup&#233;rieure, Ann. Sci. &#201;cole Norm. Sup. (4) 25 (1992), no. 5, 465--514 [numdam](http://www.numdam.org/item?id=ASENS_1992_4_25_5_465_0). 
 
