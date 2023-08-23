@@ -73,7 +73,7 @@ such that the structural equations on a [[Kleisli triple]]
 
 1. $bind(g) \circ bind(f) = bind\big(bind(g) \circ f\big)$
 
-hold for [[generalized elements]] $f$, $g$ of the [[hom-objects]] $\mathbf{C}\big(X,\,T(Y)\big)$, $\mathbf{C}\big(Y,\,T(Z)\big)$, which means that the following [[commuting diagram|diagrams commute]] in $V$:
+hold for [[generalized elements]] $f$, $g$ of the [[hom-objects]] $\mathbf{C}\big(X,\,T(Y)\big)$, $\mathbf{C}\big(Y,\,T(Z)\big)$, which means that the following [[commuting diagram|diagrams commute]] in $V$ for all objects $X, Y, Z$ of $\mathbf{C}$:
 
 \begin{tikzcd}[column sep=60pt]
   &
