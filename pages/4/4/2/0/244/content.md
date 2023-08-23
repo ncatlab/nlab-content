@@ -269,9 +269,13 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
 Original references:
 
-* {#MacLane} [[Saunders Mac Lane]], _Natural Associativity and Commutativity_ , Rice University Studies **49** (1963) pp.28-46. 
+* {#MacLane} [[Saunders Mac Lane]], _Natural Associativity and Commutativity_ , Rice University Studies **49** (1963) 28-46 &lbrack;[rice:1911/62865](https://scholarship.rice.edu/handle/1911/62865)&rbrack;
 
-* [[Jean Bénabou]], _Algèbre élémentaire dans les catégories_ (1964), C. R. Acad. Sci. Paris **258** (1964) pp.771-774, [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817)
+* [[Jean Bénabou]], _Algèbre élémentaire dans les catégories_ (1964), C. R. Acad. Sci. Paris **258** (1964) 771-774 &lbrack;[ark:12148/bpt6k40102/f817](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817)&rbrack;
+
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  Part III of: *Closed Categories*, [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 
 Textbook accounts:
 
