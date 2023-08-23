@@ -49,7 +49,7 @@ More exposition of this point is at:
 ### For Tannaka duality of Hopf algebras
  {#RelevanceForHopfAlgebras}
 
-By [[Tannaka duality]] [[rigid monoidal category]] [[symmetric monoidal categories]] in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras over [[algebraically closed fields]] of [[characteristic zero]] whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent to [[supercommutative Hopf algebras]]. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
+By [[Tannaka duality]], [[rigid monoidal category|rigid]] [[symmetric monoidal categories]] in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras over [[algebraically closed fields]] of [[characteristic zero]] whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent to [[supercommutative Hopf algebras]]. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
 
 [[!include structure on algebras and their module categories - table]]
 
