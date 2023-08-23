@@ -758,6 +758,15 @@ $$
 
 ## References
 
+Original discussion:
+
+* {#EilenbergMacLane42} [[Samuel Eilenberg]], [[Saunders MacLane]], *Group Extensions and Homology*, Annals of Mathematics **43** 4 (1942) 757-831 &lbrack;[doi:10.2307/1968966](https://doi.org/10.2307/1968966), [jstor:1968966](https://www.jstor.org/stable/1968966)&rbrack;
+
+* [[Nobuo Yoneda]], *On ext and exact sequences*, PhD thesis, Journal of the Faculty of Science, Imperial University of Tokyo, 1960 ([pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773))
+
+* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society, **95** 1 (1960) 1-16 &lbrack;[jstor:1993327](http://www.jstor.org/stable/1993327)&rbrack;
+
+
 Texbook accounts (see also most references at _[[homological algebra]]_):
 
 * {#Weibel} [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
@@ -783,11 +792,7 @@ Lecture notes:
 
   (warning: the last section on resolutions for cocycles for group (abelian) extensions is not correct)
 
-Original articles:
 
-* [[Nobuo Yoneda]], *On ext and exact sequences*, PhD thesis, Journal of the Faculty of Science, Imperial University of Tokyo, 1960 ([pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773))
-
-* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society, Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
 
 See also:
 
