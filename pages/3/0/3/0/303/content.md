@@ -63,7 +63,17 @@ where $C(x, y)$ denotes the hom-object in $V$,
 
 ## Properties
 
+### General
+
 * Analogous to the [[functor category]] for ordinary [[functors]] between ordinary [[categories]], enriched functors between two enriched categories form an [[enriched functor category]].
+
+### Relation to strong functors
+
+For [[closed monoidal categories]] $V$ there is a close relation between $V$-enriched functors and $V$-[[strong functors]].
+
+For the moment see at *[enriched monad -- relation to strong monads](enriched+monad#RelationToStrongMonads)* for more.
+
+
 
 ## Examples
 
