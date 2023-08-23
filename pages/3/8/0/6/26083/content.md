@@ -1,3 +1,4 @@
+[[!redirects 2]]
 
 \tableofcontents
 
