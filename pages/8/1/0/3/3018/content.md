@@ -203,6 +203,8 @@ More should go here, but for now see [[compact closed double category]].
 
 ## Related concepts
 
+* [[bifunctor]]
+
 * [[Kelly-Mac Lane graph]]
 
 * [[proof net]]
@@ -226,9 +228,11 @@ More should go here, but for now see [[compact closed double category]].
 
 ## References
 
-* [[Samuel Eilenberg]] and [[G. M. Kelly]], *A generalization of the functorial calculus*, J. Algebra 3:3, 366--375 (1966). ([doi](http://dx.doi.org/10.1016/0021-8693%2866%2990006-8))
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III.5 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
-* [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140. ([doi](http://dx.doi.org/10.1016/0022-4049%2871%2990013-2))
+* [[Samuel Eilenberg]], [[G. M. Kelly]], *A generalization of the functorial calculus*, J. Algebra **3&& 3 (1966) 366-375 &lbrack;[doi](http://dx.doi.org/10.1016/0021-8693%2866%2990006-8)&rbrack;
+
+* [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA **1** (1971) 97-140 &lbrack;[doi](http://dx.doi.org/10.1016/0022-4049%2871%2990013-2)&rbrack;
 
 A generalization to [[pseudonatural transformations]] can be found in
 
