@@ -29,7 +29,7 @@ The notion of _monoid_ (or _monoid object_, _algebra_, _algebra object_) in a [[
 
 ## Definition
 
-For $C$ a [[monoidal (∞,1)-category]] with monoidal structure determined by the [[(∞,1)-functor]] 
+For $C$ a [[monoidal (∞,1)-category]] with a Cartesian monoidal structure determined by the [[(∞,1)-functor]] 
 
 $$
   p_\otimes : C^\otimes \to N(\Delta)^{op}
@@ -47,6 +47,8 @@ $$
   * \to C
   \,.
 $$
+
+A generalization to the case that the monoidal (∞,1)-category $C$ is not Cartesian is discussed in Section 4.1.3 of Higher Algebra.
 
 ## Examples
 
