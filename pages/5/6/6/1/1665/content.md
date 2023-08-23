@@ -109,6 +109,28 @@ $$\forall_{d: D} r(d, c) \Rightarrow s(d, b)$$
 
 * In $Cat$, if $A$ is small and $B$ is locally small, and if $F: A \to B$ is a functor, then we have a Yoneda embedding $y: A \to P A = Set^{A^{op}}$ and a functor $B(F-, -): B \to P A$, and there is a canonical map 
 $$y_A \to B(F-, -) \circ f$$ 
-(essentially, $hom(a, b) \to hom(F a, F b)$ taking $f: a \to b$ to $F f: F a \to F b$). This arrow exhibits $F$ as a left Kan lift of $y$ through $B(F-, -)$, which is moreover absolute. This example is important in the theory of Yoneda structures, due to Street and Walters; see Mark Weber's updated [development](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf) in the context of 2-topos theory. 
+(essentially, $hom(a, b) \to hom(F a, F b)$ taking $f: a \to b$ to $F f: F a \to F b$). This arrow exhibits $F$ as a left Kan lift of $y$ through $B(F-, -)$, which is moreover absolute. This example is important in the theory of Yoneda structures, due to Street and Walters; see Mark Weber's updated [development](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf) in the context of 2-topos theory.
 
+## References
+
+Kan lifts were mentioned in passing in Definition I.12.6 of:
+
+* [[Adjointness for 2-Categories]] (1974)
+
+where it is mentioned the concept does not have a name since they have never been considered in [[Cat]].
+
+Kan lifts were called "liftings" in:
+
+* [[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_ ,  JPAA **50** (1978) pp.350-379.
+
+The terminology "Kan lifting" is used in:
+
+* Charles Grellois, _Algebraic theories, monads, and arities_, [arXiv:1110.3294](https://arxiv.org/abs/1110.3294) (2011).
+
+The terminology "Kan lift" seems to first appear in:
+
+* Weng Kin Ho, _Characterising E-projectives via Co-monads_, Electronic Notes in Theoretical Computer Science 301 (2014): 61-77.
+
+[[!redirects Kan lifts]]
 [[!redirects Kan lifting]]
+[[!redirects Kan liftings]]
