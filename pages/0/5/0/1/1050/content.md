@@ -189,7 +189,10 @@ The properties of corollary \ref{ExactFunctorPreservesExactSequences} explain th
 
 ## References
 
-An early use of _left exact_ and _exact_:
+Early use of _left exact_ and _exact_:
+
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], *[[Homological Algebra]]*, Princeton Univ. Press (1956), Princeton Mathematical Series **19** (1999) &lbrack;[ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19), [doi:10.1515/9781400883844](https://doi.org/10.1515/9781400883844), [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf)&rbrack;
+ 
 
 *  [[A. Grothendieck]], 1959, _Technique de descente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#232;brique. II. Le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, in S&#233;minaire Bourbaki, Vol. 5 , Exp. No. 195, 369 &#8211; 390, 
 Soc. Math. France [Numdam](http://www.numdam.org/numdam-bin/item?id=SB_1958-1960__5__369_0), Paris. 
