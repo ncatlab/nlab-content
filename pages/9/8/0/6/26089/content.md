@@ -1,13 +1,38 @@
-A foundational book on [[homological algebra]].
+A foundational book on [[homological algebra]]:
 
-Henri Cartan, Samuel Eilenberg.
-Homological Algebra.
-Princeton University Press, 1956.
+* [[Henri Cartan]] and [[Samuel Eilenberg]]
 
-Reprinted:
-Princeton Mathematical Series 19, 1999.
-[doi](https://doi.org/10.1515/9781400883844).
-ISBN: 9780691049915
+  \linebreak
+
+  **Homological Algebra**
+
+  \linebreak
+
+  Princeton University Press (1956)
+  
+  Princeton Mathematical Series **19** (1999)
+
+  \linebreak
+  
+  [doi:10.1515/9781400883844](https://doi.org/10.1515/9781400883844)
+
+  [ISBN:9780691049915](https://press.princeton.edu/books/paperback/9780691049915/homological-algebra-pms-19-volume-19)
+
+  [pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf)
+
+
+\linebreak
+
+
+{#FromCollins06} From [Collins 2006](homological+algebra#Collins06):
+
+> In 1942 came the first move forward towards [[homological algebra]] as we know it today, with the arrival of a [paper by Samuel Eilenberg and Saunders MacLane](homological+algebra#EilenbergMacLane42). In it we find [[Hom]] and [[Ext]] defined for the very first time, and along with it the notions of a [[functor]] and [[natural isomorphism]]. These were needed to provide a precise language for talking about the properties of $Hom(A,B)$; in particular the fact that it varies naturally, contravariantly in $A$ and covariantly in $B$. 
+
+> Only three years later this language [was expanded](category#EilenbergMacLane45) to include [[category]] and [[natural equivalence]]. However, this terminology was not widely accepted by the mathematical community until the appearance of [Cartan and Eilenberg's book](homological+algebra#CartanEilenberg56). 
+
+> Cartan and Eilenberg's book was truly a revolution in the subject, and in fact it was here that the term "Homological Algebra" was first coined. The book used [[derived functors]] in a systematic way which united all the previous [[homology theories]], which in the past ten years had arisen in [[group theory]], [[Lie algebras]] and [[algebraic geometry]]. The sheer list of terms that were first defined in this book may give the reader an idea of how much of this project is due to the existence of that one book! They defined what it means for an object to be [[projective object|projective]] or [[injective object|injective]], and defined the notions of [[projective resolution|projective]] and [[injective resolutions]]. It is here that we find the first mention of $Hom$ being [[left exact functor|left exact]] and the first occurrence of $Ext^n$ as the [[right derived functors]] of $Hom$.
+
+
 
 ## Contents
 ## Preface
@@ -195,3 +220,12 @@ ISBN: 9780691049915
 ## List of Symbols 387
 
 ## Index of Terminology 389
+
+
+[[!redirects Homological algebra]]
+
+
+category: reference
+
+
+
