@@ -29,9 +29,16 @@ If $\mathcal{V}$ is furthermore [[closed monoidal category|closed]] and [[comple
   For $\mathcal{V} = $ [[Set]] equipped with its [[cartesian product]] $\otimes \,\coloneqq\, \times$, the construction of enriched product categories reduces to the ordinary notion of [[product categories]].
 \end{example}
 
+## Related concepts
+
+* [[bifunctor]]
+
 ## References
 
 Textbook accounts:
+
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III.3 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
 
 * {#Kelly82} [[Max Kelly]], §2.3 of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
