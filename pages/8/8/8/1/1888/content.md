@@ -15,16 +15,17 @@
 
 ## Idea 
 
-In the simplest case, the notion of _tensorial strength_ is a way to talk about when an [[endofunctor]] $T : V \to V$ of a [[closed monoidal category]] is a $V$-[[enriched functor]] when $V$ is regarded as being a $V$-[[enriched category]].  But in fact the concept makes sense even when $V$ is not closed.
+In the simplest case, _tensorial strength_ is a property of an [[endofunctor]] $T \colon V \to V$ on a [[monoidal category]] which characterizes it as a  $V$-[[enriched functor]] when $V$ is canonically regarded as an [[enriched category]] over itself. More generally this applies to functors between $V$-[[enriched categories]] which are [[tensoring|tensored]] ([[copowering|copowered]]) over $V$. 
+
 
 
 ## Definition 
 
-Given a monoidal category $V$, a **tensorial left-strength** for a functor 
+Given a [[monoidal category]] $(V, \otimes, I)$, a **tensorial left-strength** for a functor 
 
-$$F : V \to V$$
+$$F \colon V \to V$$
 
-is usually defined as a [[natural transformation]]
+is usually defined as a [[natural transformation]] 
 
 $$
   \beta_{v, w}
@@ -51,7 +52,7 @@ I\otimes F(v) & \overset{\beta_{I,v}}{\to} & F(I\otimes v) \\
 & & F(v)
 }
 $$
-where $\alpha$ is the [[associator]] and $\lambda$ is the [[unitor]].
+where $\alpha$ is the [[associator]] and $\lambda$ is the [[unitor]] of the [[monoidal category]] $V$.
 
 A **tensorial right-strength** (not to be confused with a [[tensorial costrength]]) is defined symmetrically, as a natural transformation
 $$\gamma_{v, w}: F(w) \otimes v \to F(w \otimes v)$$
@@ -129,7 +130,7 @@ There's rather a lot more one could say about strengths, and I may come back to 
 
 The insight here can be related back to the enrichment = strength phenomenon. Suppose for instance we're in the theory of [[Boolean algebra]]s -- say we're studying the structure of a free Boolean algebra on a set of generators, $B[X]$. Then again we can think of this, or of any [[Heyting algebra]], as enriched in itself. Further, we have definable unary operators 
 
-$$T: B[X] \to B[X]$$ 
+$$T \colon B[X] \to B[X]$$ 
 
 in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The great discovery of Peirce is that any definable unary operator in the theory of Boolean algebras carries a strength, or if you prefer is enriched. That may be taken to be the essence of Peirce's iteration rule for Alpha, and it [[vertical categorification|categorifies]] right over to a similar statement for the theory of [[closed monoidal category|closed categories]], [[star-autonomous category|star-autonomous categories]], what have you: all definable unary covariant functors in such theories carry canonical strengths. 
 
@@ -138,8 +139,11 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 ## Related concepts
 
 * [[cartesian closed functor]]
+
 * [[strong monad]]
+
 * [[tensorial costrength]]
+
 * [[commutative monad]]
 
 ## References 
@@ -150,7 +154,11 @@ The tentative 'more conceptual' definition of tensorial strength, as well as the
 
 The concept of tensorial strength is a prerequisite for the concept of [[strong monad]], so see the further discussion there.  An original reference is
 
-* [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
+* {#Kock72} [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math **23** (1972) 113–120 &lbrack;[doi:10.1007/BF01304852](https://doi.org/10.1007/BF01304852), [pdf](http://home.imf.au.dk/kock/SFMM.pdf)&rbrack;
+ 
+Review in the context of [[monads in computer science]]:
+
+* {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], Section 3 of: *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
 
 [[!redirects tensorial strengths]]
 [[!redirects strong functor]]
