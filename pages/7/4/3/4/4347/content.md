@@ -41,5 +41,9 @@ All these ideas can be, and have been, categorified further.
 
 * [[trivial group]]
 
+* [[one]]
+
+* [[two]]
+
 [[!redirects zero]]
 [[!redirects 0]]
