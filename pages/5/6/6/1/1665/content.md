@@ -115,21 +115,21 @@ $$y_A \to B(F-, -) \circ f$$
 
 Kan lifts were mentioned in passing in Definition I.12.6 of:
 
-* [[Adjointness for 2-Categories]] (1974)
+* [[John Gray]], *[[Adjointness for 2-Categories|Formal category theory: adjointness for $2$-categories]]*, Lecture Notes in Mathematics, **391**, Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack;
 
-where it is mentioned the concept does not have a name since they have never been considered in [[Cat]].
+where it is mentioned the concept does not have a name since they had never been considered before in [[Cat]].
 
 Kan lifts were called "liftings" in:
 
-* [[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_ ,  JPAA **50** (1978) pp.350-379.
+* [[Ross Street]], [[Bob Walters]], *Yoneda structures on 2-categories*,  JPAA **50** (1978) 350-379 &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>&rbrack;
 
 The terminology "Kan lifting" is used in:
 
-* Charles Grellois, _Algebraic theories, monads, and arities_, [arXiv:1110.3294](https://arxiv.org/abs/1110.3294) (2011).
+* Charles Grellois, *Algebraic theories, monads, and arities* (2011) &lbrack;[arXiv:1110.3294](https://arxiv.org/abs/1110.3294), [hal:00670841](https://inria.hal.science/hal-00670841)&rbrack; 
 
 The terminology "Kan lift" seems to first appear in:
 
-* Weng Kin Ho, _Characterising E-projectives via Co-monads_, Electronic Notes in Theoretical Computer Science 301 (2014): 61-77.
+* Weng Kin Ho, *Characterising E-projectives via Co-monads*, Electronic Notes in Theoretical Computer Science **301** (2014) 61-77 &lbrack;[doi:10.1016/j.entcs.2014.01.006](https://doi.org/10.1016/j.entcs.2014.01.006)&rbrack;
 
 [[!redirects Kan lifts]]
 [[!redirects Kan lifting]]
