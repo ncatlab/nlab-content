@@ -26,7 +26,7 @@ All these ideas can be, and have been, categorified further.
 
 * [[zero]]
 
-* [[2]]
+* [[two]]
 
 * [[unit]]
 
