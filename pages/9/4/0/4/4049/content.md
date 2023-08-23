@@ -150,7 +150,10 @@ $$
   }
 $$
 
+
+
 ## Properties
+
 
 ### As 2-morphisms
 
@@ -238,6 +241,14 @@ $$
 \end{proposition}
 
 
+### Relation to strong natural transformations
+
+For [[closed monoidal categories]] $V$ there is a close relation between $V$-senriched natural transformations and $V$-[[strong natural transformations]].
+
+For the moment see at *[enriched monad -- relation to strong monads](enriched+monad#RelationToStrongMonads)* for more.
+
+
+
 ## Examples
 
 \begin{example}
@@ -251,6 +262,8 @@ $$
 
 
 ## Related concepts
+
+* [[strong natural transformation]]
 
 * [[enriched functor]]
 
