@@ -33,9 +33,12 @@ The term __cartesian category__ usually means a category with finite products bu
 
 ## Properties
 
-Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way.  
+Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  
 
-Moreover, one can show (e.g. [Fox 1976](#Fox76) or [Heunen-Vicary 2012, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
+In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way, and this is automatically a [[cocommutative comonoid]].  Furthermore, this comonoid structure is 'natural', meaning that the all morphisms between objects preserve their comonoid structure.  In other words, any morphism $f: x \to y$ is a comonoid homomorphism:
+\[       (f \otimes f) \circ \Delta_x = \Delta_y \circ f, \quad i_x = i_y \circ f .\]
+
+Moreover, one can show (e.g. [Fox 1976](#Fox76) or [Heunen-Vicary 2012, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonal and augmentation maps _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
 $$           \Delta_x : x \to x \otimes x $$
 and
 $$             e_x : x \to I   $$
