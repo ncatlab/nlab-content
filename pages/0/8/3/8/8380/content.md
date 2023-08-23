@@ -792,7 +792,9 @@ and an exposition of [[category theory]] and monads in terms of Haskell is in
 
 * WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
 
-On the issue of the CS-style monads really being [[strong monads]]:
+Further on the issue of the CS-style monads really being [[strong monads]]:
+
+* {#GLLN08} [[Jean Goubault-Larrecq]], [[Slawomir Lasota]], [[David Nowak]], *Logical Relations for Monadic Types*, Mathematical Structures in Computer Science, **18** 6 (2008) 1169-1217 &lbrack;[arXiv:cs/0511006](https://arxiv.org/abs/cs/0511006), [doi:10.1017/S0960129508007172](https://doi.org/10.1017/S0960129508007172)&rbrack;
 
 * {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
 
