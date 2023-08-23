@@ -285,7 +285,7 @@ For $V$ a [[symmetric monoidal category|symmetric]] [[closed monoidal category]]
 on [[underlying]] [[monads]] on $V$.
 
 \end{proposition}
-([Kock 1972, Thm. 3.2](monoidal+monad#Kock72))
+([Kock 1972, Thm. 3.2](monoidal+monad#Kock72), [GLLN08, §7.3, §A.4](monoidal+monad#GLLN08))
 
 Hence from combining Prop. \ref{EquivalenceBetweenStrengthAndEnrichment} with Prop. \ref{RelationBetweenCommutativeStrongMonadsAndSymmetricMonoidalMonads} we get:
 \begin{prop}
