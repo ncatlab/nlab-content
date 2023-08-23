@@ -18,10 +18,30 @@
 
 In the simplest case, _tensorial strength_ is a property of an [[endofunctor]] $T \colon V \to V$ on a [[monoidal category]] which characterizes it as a  $V$-[[enriched functor]] when $V$ is canonically regarded as an [[enriched category]] over itself. 
 
-More generally, tensorial strength on a  functor between $V$-[[enriched categories]] that are [[tensoring|tensored]] ([[copowering|copowered]]) is a [[natural transformation]] which makes the functor become compatible with that [[tensoring]]. A functor equipped with such tensorial strength is called a *strong functor*.
+More generally, tensorial strength on a functor
+$$
+  F \,\colon\, \mathbf{C}_0 \to \mathbf{C}_1
+$$
 
-In the case that $V$ is also [[closed monoidal category|closed monoidal]], there is a close relation between strong functors and [[enriched functors]].
+between categories that are [[tensoring|tensored]] ([[copowering|copowered]]) over $V$
 
+$$
+  \textstyle{\otimes} 
+    \,\colon\, 
+  V \times C_i \longrightarrow C_i
+$$
+
+is a [[natural transformation]] 
+
+$$
+  v \otimes F(c) \to F(v \otimes c)
+$$
+
+exhibiting compatibility of $F$ with that [[tensoring]].
+
+In the case that $V$ is also [[closed monoidal category|closed monoidal]], there is a close relation between strong functors and [[enriched functors]] (see [below](RelationToEnrichedFunctors)).
+
+{#WarningOnTerminology} In fact, beware that [Kock 1972](#Kock72) originally said *tensorial strength* in constrast to the *strength* of *strong functors* by which he referred to $V$-[[enriched functors]]. Beware that today "strong functor" (certainly as in "[[strong monad]]") is usually understood in the sense of tensorial strength, not in the sense of "enriched functor"  (to the extent that the two notions differ at all, see again [below](RelationToEnrichedFunctors)). Hence historically it would be more accurate to say "tensorially strong functors" for the notion discussed here, but this term is not commonly used at all.
 
 
 
@@ -105,7 +125,12 @@ $$V-Act \to Cat $$
 and a **tensorial strength** for a functor $F: V \to V$ is a way of lifting it to a morphism $\tilde{F}: \tilde{V} \to \tilde{V}$ in $V-Act$, where $\tilde{V}$ is $V$ equipped with its canonical left action on itself.
 
 
-## Description 
+## Properties
+
+### Relation to enriched functors
+ {#RelationToEnrichedFunctors}
+
+> (For more references see also at *[enriched monad -- relation to Strong monads](enriched+monad#RelationToStrongMonads)*)
 
 
 One possible reason why it may be hard to grasp the notion of strength is because in the case $V = Set$, they're sort of invisible. Every functor $T: Set \to Set$ has one, in fact a canonical one! This will make more sense in a moment. 
@@ -132,19 +157,27 @@ and presto, you're done. The strength axioms ensure that this enrichment structu
 
 After some work, one can convince oneself that the notions of strength and enrichment for endofunctors on closed monoidal categories really are equivalent notions. 
 
+
 And now we can understand why strengths in the case $V = Set$ are so "invisible" -- every functor $T: Set \to Set$ is $Set$-enriched; that's what we mean by an ordinary functor!  
 
-There's rather a lot more one could say about strengths, and I may come back to more of that later, but I would like to say that strengths are kind of a trade secret. The first mathematician I know of who intuitively grasped strength was C.S. Peirce! And particularly in his Alpha graphs, the notion of strength plays an important role. 
+## Examples
 
-The insight here can be related back to the enrichment = strength phenomenon. Suppose for instance we're in the theory of [[Boolean algebra]]s -- say we're studying the structure of a free Boolean algebra on a set of generators, $B[X]$. Then again we can think of this, or of any [[Heyting algebra]], as enriched in itself. Further, we have definable unary operators 
+(Plenty of examples of [[strong monads]] are of interest, particularly in the context of [[monads in computer science]]. See there for more.)
+
+\begin{example}
+\label{ForHeytingAlgebras}
+Suppose the theory of [[Boolean algebras]] -- say we're studying the structure of a free Boolean algebra on a set of generators, $B[X]$. Then again we can think of this, or of any [[Heyting algebra]], as enriched in itself. Further, we have definable unary operators 
 
 $$T \colon B[X] \to B[X]$$ 
 
-in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The great discovery of Peirce is that any definable unary operator in the theory of Boolean algebras carries a strength, or if you prefer is enriched. That may be taken to be the essence of Peirce's iteration rule for Alpha, and it [[vertical categorification|categorifies]] right over to a similar statement for the theory of [[closed monoidal category|closed categories]], [[star-autonomous category|star-autonomous categories]], what have you: all definable unary covariant functors in such theories carry canonical strengths. 
+in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The great discovery of [[Charles S. Peirce]] is that any definable unary operator in the theory of Boolean algebras carries a strength, or if you prefer is enriched. That may be taken to be the essence of Peirce's iteration rule for Alpha, and it [[vertical categorification|categorifies]] right over to a similar statement for the theory of [[closed monoidal category|closed categories]], [[star-autonomous category|star-autonomous categories]], what have you: all definable unary covariant functors in such theories carry canonical strengths. 
 
 (Peirce went a little further, and incorporated notions of contravariant strength as well.) 
+\end{example}
 
 ## Related concepts
+
+* [[strong natural transformation]]
 
 * [[cartesian closed functor]]
 
@@ -154,6 +187,7 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 
 * [[commutative monad]]
 
+
 ## References 
 
 The notion of tensorial strength originates in
@@ -162,7 +196,7 @@ The notion of tensorial strength originates in
 
 Comprehensive review:
 
-* [[Kruna S. Ratkovic]], *Tensorial Strength*, Section 3 of: *Morita theory in enriched context* (2012) &lbrack;[arXiv:1302.2774](https://arxiv.org/abs/1302.2774), [hal:tel-00785301](https://theses.hal.science/tel-00785301/document)&rbrack;
+* {#Ratkovic12} [[Kruna S. Ratkovic]], *Tensorial Strength*, Section 3 of: *Morita theory in enriched context* (2012) &lbrack;[arXiv:1302.2774](https://arxiv.org/abs/1302.2774), [hal:tel-00785301](https://theses.hal.science/tel-00785301/document)&rbrack;
  
 Review in the context of [[monads in computer science]]:
 
