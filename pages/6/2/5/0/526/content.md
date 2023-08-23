@@ -63,7 +63,7 @@ A comonoid object in [[VectorSpaces]] (with its usual [[tensor product of vector
 \begin{example}\label{InACartesianMonoidalCategory}
 Every [[set]] carries a *unique* [[structure]] of a comonoid in the category of [[Sets]] with respect to the usual [[cartesian product]].  
 
-Generally, every object $X \,\in\, \mathcal{C}$ in a [[cartesian monoidal category]] $(\mathcal{C}, \ast, \times)$ becomes a ([[cocommutative coalgebra|cocommutative]]) comonoid by taking the
+Generally, every object $X \,\in\, \mathcal{C}$ in a [[cartesian monoidal category]] $(\mathcal{C}, \ast, \times)$ becomes (see also [there](cartesian+monoidal+category#ComonoidObjects)) a ([[cocommutative coalgebra|cocommutative]]) comonoid by taking the
 
 * counit to be the [[terminal object|terminal morphism]] $ X \xrightarrow{\exists !} \ast$
 
