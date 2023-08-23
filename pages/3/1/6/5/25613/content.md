@@ -14,7 +14,7 @@
 
 ## Idea
 
-A [[functor]] $F\colon C \to D$ is **essentially injective** if it is [[injective]] on objects "up to isomorphism", nameley on [[isomorphism classes]] of objects.
+A [[functor]] $F\colon C \to D$ is **essentially injective** if it is [[injective]] on objects "up to isomorphism", namely on [[isomorphism classes]] of objects.
 
 
 ## Definition
@@ -27,7 +27,7 @@ $F\colon C \to D$ is **essentially injective** or **essentially injective on obj
 
 * An [[injective-on-objects functor]] is essentially injective if its image is [[skeletal category|skeletal]], but not generally otherwise.
 
-* A [[composition]] of any two essentially injective functors is essentially injective.
+* A [[composite]] of any two essentially injective functors is essentially injective.
 
 * If $g f$ is essentially injective, then $f$ is essentially injective.
 
