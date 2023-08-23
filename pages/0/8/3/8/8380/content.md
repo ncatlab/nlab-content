@@ -1,4 +1,4 @@
-
+fhupf
 > This entry is about [[monads]] as known from [[categorical algebra]] but in their application to [[computer science]]. See also at *[[monad (disambiguation)]]*.
 
 ***
@@ -300,7 +300,7 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
 \]
 
 
-### Refined idea: Internal monads
+### Refined idea: Strong monads
  {#RefinedIdea}
 
 But in fact, in [[functional programming]]-[[programming language|languages]] one typically considers an enhanced version of the above situation: 
@@ -363,9 +363,9 @@ $$
   \,.
 $$
 
-In general (except in the [[base topos]] of [[Sets]]), such an iterated [[function type]]/[[internal hom]] is richer than (certainly different from) the corresponding plain [[hom set]], and accordingly a "Kleisli triple" defined as above but with the binding operation typed in this [[internalization|internal]] way is *more* information than a plain [[monad]] on the underlying category of types: namely what is called a *[[strong monad]]* (eg. [McDermott & Uustalu (2022)](#McDermottUustalu22)).
+In general (except in the [[base topos]] of [[Sets]]), such an iterated [[function type]]/[[internal hom]] is richer than (certainly different from) the corresponding plain [[hom set]], and accordingly a "Kleisli triple" defined as above but with the binding operation typed in this [[internalization|internal]] way is *richer* or *stronger* [[structure]] than that of a plain [[monad]] on the underlying category of types: namely it is an *[[enriched monad]]* or [equivalently](enriched+monad#RelationToStrongMonads) a *[[strong monad]]*  with respect to the self-[[enriched category|enrichment]] of the [[symmetric monoidal closed category]] of types ([Moggi 1991 §3](#Moggi91), cf. [Goubault-Larrecq, Lasota & Nowak 2002](#GLLN08), [McDermott & Uustalu (2022)](#McDermottUustalu22)).
 
-On such a [[strong monad]], the bind operation is defined as the following composite:
+On such an [[enriched monad|enriched]]/[[strong monad]], the bind operation is defined as the following composite:
 
 $$
   \mathcal{E}(D_1) \times \mathcal{E} Map(D_1,\,D_2)
@@ -382,9 +382,10 @@ $$
   \,.
 $$ 
 
-This makes the monads be [[enriched monads]] in the self-[[enriched category|enrichment]] of the category of types given by the [[function type]]/[[internal hom]]. 
+In particular, monads as used in [[functional programming languages]] like [[Haskell]] are really strong/enriched monads, in this way.
 
-In particular, monads as used in [[Haskell]] are really strong/enriched monads, in this way.
+In this case -- and in most discussions by default -- the [[symmetric monoidal closed category]] of types is assumed to be [[cartesian closed category|cartesian closed]] ("classical types") but in contexts of [[linear type theory]] (such as [[quantum computation]]) it may be non-cartesian (or both: cf. [[doubly closed monoidal category]]).
+
 
 \linebreak
 
