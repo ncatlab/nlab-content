@@ -32,7 +32,7 @@ which as such is also:
 
 For [[monads]] on symmetric monoidal closed categories there is a close relation between [[structures]] of [[monoidal monads]] and of [[strong monads]].
 
-For the moment see at *[enriched monda -- Relation to strong and monoidal monads](enriched}monad#RelationToStrongMonads)* for more on this.
+For the moment see at *[enriched monad -- Relation to strong and monoidal monads](enriched}monad#RelationToStrongMonads)* for more on this.
 
 ## Examples
 
