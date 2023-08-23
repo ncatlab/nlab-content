@@ -253,6 +253,8 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
+* [[symmetric monoidal closed category]]
+
 * [[equivariant symmetric monoidal category]]
 
 * [[symmetric bicategory]]
