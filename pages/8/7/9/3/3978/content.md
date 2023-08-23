@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A *closed natural transformation* is the appropriate sort of [[natural transformation]] relating [[closed functors]] between [[closed categories]].
@@ -26,6 +31,9 @@ Let $F,G\colon C\to D$ be closed functors.  A **closed natural transformation** 
 
 ## References
 
-* Samuel Eilenberg and Max Kelly, _Closed categories._ Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §I.4 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+
 
 [[!redirects closed natural transformations]]
