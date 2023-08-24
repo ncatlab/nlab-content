@@ -11,6 +11,10 @@ A **tribe**, or **type-theoretic fibration category**, is a version of a [[fibra
 
 ...
 
+##Related concepts
+
+* [[clan]]
+
 ## References
 
 * {#Shulman15} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
