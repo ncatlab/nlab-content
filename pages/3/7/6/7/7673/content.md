@@ -490,6 +490,12 @@ One possible way to construct such a well-behaved model category is as follows (
 
 ## Related pages
 
+* [[fibration category]]
+
+  * [[clan]], [[tribe]]
+
+  * [[type-theoretic model category]]
+
 * [[categorical semantics]]
 
 * [[relation between type theory and category theory]]
