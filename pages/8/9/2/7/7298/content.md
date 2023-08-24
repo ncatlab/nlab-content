@@ -39,10 +39,17 @@ Curiously, in [[differential cohesion]] the construction of all infinitesimal ne
 ### In nonstandard analysis
  {#InNonstandardAnalysis}
 
-In [[nonstandard analysis]], the _*[[monad (disambiguation)|monad]]_  of a standard point $p$ 
-([Robinson 1966, p. 57](#Robinson66) following , see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoints]] infinitely close to $p$. It is 
-the (external) set constructed as the [[intersection]] of all of the standard [[neighbourhoods]] of $p$, the _infinitesimal neighbourhood_ of $p$.
+In [[nonstandard analysis]], the 
 
+* "*[[monad (disambiguation)|monad]]*"  ([Robinson 1966, p. 57](#Robinson66) following , see also [Luxemburg 1966](#Luxemburg66), [Keisler 1976, Def. 1.2](#Keisler76), [Kutateladze 2011](#Kutateladze11)) 
+
+or 
+
+* "*halo*" (eg. [Rayo 2015, Def. 4.11](#Rayo15))
+
+of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoints]] infinitely close to $p$. It is  the (external) set constructed as the [[intersection]] of all of the standard [[neighbourhoods]] of $p$, the _infinitesimal neighbourhood_ of $p$.
+
+Some
 
 ### In differential cohesion
  {#DifferentialCohesion}
@@ -96,6 +103,12 @@ Discussion of infinitesimal neighbourhoods in [[nonstandard analysis]] and use o
 * {#Kutateladze11} [[Semën S. Kutateladze]], *Leibnizian, Robinsonian, and Boolean valued monads*, Journal of Applied and Industrial Mathematics **5** 3 (2011) 365-373 &lbrack;[arxiv/1106.2755](http://arxiv.org/abs/1106.2755), [doi:10.1134/S1990478911030082](https://doi.org/10.1134/S1990478911030082)&rbrack;
 
 * [[Sergio Albeverio]], Jens Erik Fenstad, Raphael Hoegh-Krohn, *Nonstandard methods in stochastic analysis and mathematical physics*, Academic Press 1986
+
+and using the "*halo*"-terminology:
+
+* {#Rayo15} Diego Rayo, Def. 4.11 in: *Introduction to non-standard analysis* (2015) &lbrack;[pdf](http://math.uchicago.edu/~may/REUDOCS/Rayo.pdf)&rbrack;
+
+See also:
 
  * Wikipedia, *[Monad (non-standard analysis)](http://en.wikipedia.org/wiki/Monad_%28non-standard_analysis%29)*
 
