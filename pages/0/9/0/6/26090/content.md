@@ -20,7 +20,7 @@
 
 ## Idea
 
-A *clan* in the sense of [Joyal 2017, Def. 1.1.1](#Joyal17) is a minimum notion of [[fibration category]] providing [[categorical semantics for dependent types]] modelling (just) [[context extension]] and [[dependent pair type]]-[[type formation|formation]] (but not necessarily, say, [[function types]] or [[identity types]]):
+A *clan* in the sense of [Joyal 2017, Def. 1.1.1](#Joyal17) (previously: *category with [[display maps]]* &lbrack;[Taylor 1987, §4.3.2](#Taylor87)&rbrack;, or *display category* &lbrack;[Taylor 1999, §8.3](#Taylor99)&rbrack;, a non-strict notion of [[contextual categories]]) is a minimum notion of [[fibration category]] providing [[categorical semantics for dependent types]] modelling (just) [[context extension]] and [[dependent pair type]]-[[type formation|formation]] (but not necessarily, say, [[function types]] or [[identity types]]):
 
 a [[category]] with [[finite limits]] equipped with a sub-[[class]] $Fib \subset Mor$ of its [[morphisms]], to be called the *[[fibrations]]* and serving the role of [[display maps]], such that:
 
@@ -55,11 +55,19 @@ a [[category]] with [[finite limits]] equipped with a sub-[[class]] $Fib \subset
 
 ## References
 
-The particular terminology "clan" is due to:
+The definition of *categories with [[display maps]]* and their role as [[categorical semantics for dependent types]] is due to
+
+* {#Taylor87} [[Paul Taylor]], §4.3.2 in: *Recursive Domains, Indexed Category Theory and Polymorphism*, Cambridge (1983-7) &lbrack;[[Taylor-IndexedCategoryTheory.pdf:file]]&rbrack;
+
+being a non-strict version of [[contextual categories]]:
+
+* {#Taylor99} [[Paul Taylor]], §8.3 in: _[[Practical Foundations of Mathematics]]_, Cambridge University Press (1999) &lbrack;[webpage](http://www.paultaylor.eu/~pt/prafm/index.html)&rbrack;
+
+The terminology "clan" for this notion is due to:
 
 * {#Joyal17} [[André Joyal]], _Notes on Clans and Tribes_ &lbrack;[arxiv:1710.10238](https://arxiv.org/abs/1710.10238)&rbrack;
 
-but the underlying notion of [[categorical semantics of dependent types]] is classical, going back at least to [Seely 1984](relation+between+type+theory+and+category+theory#Seely84b) and  [Hofmann 1997](categorical+semantics+of+dependent+type+theory#Hofmann97).
+but the general notion of [[categorical semantics of dependent types]] is classical, going back at least to [Seely 1984](relation+between+type+theory+and+category+theory#Seely84b) and  [Hofmann 1997](categorical+semantics+of+dependent+type+theory#Hofmann97).
 
 The type-theory-literature traditionally refers to such categories generically as *[[display map]]/[[fibration categories]] with such-and-such types*, eg. 
 
