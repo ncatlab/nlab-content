@@ -44,7 +44,7 @@
 | [[modal logic]] |  | [[modal hyperdoctrine]] | |
 | [[linear logic]] |  | [[linear hyperdoctrine]] | |
 | [[simply-typed lambda calculus]] | | [[cartesian closed category]] | [Lambek & Scott 1986, Part I](#LambekScott86) |
-| extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | [Seely 1984b](#Seely) |
+| extensional [[dependent type theory]]|  | [[locally cartesian closed category]] | [Seely 1984b](#Seely84b) |
 | [[bunched logic]] | | [[doubly closed monoidal category]] |  [O'Hearn & Pym 1999](bunched+logic#O'HearnPym99) |
 | [[homotopy type theory]] without [[univalence]] (intensional M-L dependent type theory) |  | [[locally cartesian closed (∞,1)-category]] | [Cisinski 2012](locally+cartesian+closed+%28infinity%2C1%29-category#Presentations) & [Shulman 2012](#Shulman12) |
 | [[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | see [[homotopytypetheory:model of type theory in an (infinity,1)-topos|here]] |
@@ -453,7 +453,7 @@ An [[adjunction]] between the category of [[type theory|type theories]] with [[p
 
 The [[equivalence of categories]] between [[locally cartesian closed categories]] and [[dependent type theories]] was originally claimed in 
 
-* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. **95** (1984) 33-48  &lbrack;[doi:10.1017/S0305004100061284](https://doi.org/10.1017/S0305004100061284), [pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf)&rbrack;
+* {#Seely84b} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. **95** (1984) 33-48  &lbrack;[doi:10.1017/S0305004100061284](https://doi.org/10.1017/S0305004100061284), [pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf)&rbrack;
 
 
 following a statement earlier conjectured in 
