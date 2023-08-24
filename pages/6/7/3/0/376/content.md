@@ -42,7 +42,7 @@ We show how the [[dependent product]] and the [[internal hom]] in the [[slice ca
 +-- {: .num_prop #DependentProductImpliesLocalCartesinClosure}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] with [[pullbacks]] that has all [[dependent products]] $\prod_\bullet$,  equivalently that every morphism $f : E \to X$ in $\mathcal{C}$ induces an [[adjoint triple]]
+Let $\mathcal{C}$ be a [[category]] with [[pullbacks]] that has all [[dependent products]] $\prod_\bullet$, equivalently: such that every morphism $f \colon E \to X$ in $\mathcal{C}$ induces an [[base change]] [[adjoint triple]]
 
 $$
   \mathcal{C}_{/E}
@@ -51,12 +51,18 @@ $$
   \,.
 $$
 
-Then the [[internal hom]] in a slice $\mathcal{C}_{/X}$ exists and is given by 
+Then the [[internal hom]] in any [[slice category|slice]] $\mathcal{C}_{/X}$ exists and is given by 
 
 $$
-  [\langle E \stackrel{f}{\longrightarrow} X\rangle \; ,\;  -]_{\mathcal{C}_{/X}}
-  \simeq
-  \prod_f \circ f^* 
+  \big[
+     \langle 
+       E \stackrel{f}{\longrightarrow} X
+     \rangle 
+     \; ,\;  
+     \text{-}
+  \big]_{\mathcal{C}_{/X}}
+  \;\simeq\;
+  \textstyle{\prod}_f \circ f^*(\text{-})
   \,.
 $$
 
@@ -66,10 +72,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the discussion at _[[overcategory]]-[Limits and colimits](overcategory#LimitsAndColimits)_ the product in the slice $\mathcal{C}_{/X}$ of two objects $\langle E_1 \stackrel{f_1}{\longrightarrow} X\rangle$ and $\langle E_2 \stackrel{f_2}{\longrightarrow} X\rangle$ is given by the [[pullback]] $f_1^* E_2 = f_2^* E_1$ in $\mathcal{C}$, regarded again as a morphism over $X$. More formally this means that the product with $\langle E \stackrel{f}{\to} X\rangle $ is given by the composite
+By the discussion at *[[overcategory]] -- [limits and colimits](overcategory#LimitsAndColimits)*, the product in the slice $\mathcal{C}_{/X}$ of two objects $\langle E_1 \stackrel{f_1}{\longrightarrow} X\rangle$ and $\langle E_2 \stackrel{f_2}{\longrightarrow} X\rangle$ is given by the [[pullback]] $f_1^* E_2 = f_2^* E_1$ in $\mathcal{C}$, regarded again as a morphism over $X$. More formally this means that the product with $\langle E \stackrel{f}{\to} X\rangle $ is given by the composite
 
 $$ 
-  (-) \times_{\mathcal{C}_{/X}} \langle E \stackrel{f}{\to} X\rangle
+  (-) 
+    \times_{\mathcal{C}_{/X}} 
+  \langle E \stackrel{f}{\to} X\rangle
   \;\;\;:\;\;\; 
   \mathcal{C}_{/X}
     \stackrel{f^*}{\to}
@@ -86,7 +94,11 @@ $$
   \mathcal{C}_{/E} 
     \stackrel{f^* }{\leftarrow} \mathcal{C}_{/X}
   \;\;\;:\;\;\;
-  [\langle E\stackrel{f}{\to} X \rangle, -]_{\mathcal{C}_{/X}}
+  \big[
+    \langle E\stackrel{f}{\to} X \rangle
+    \,,\, 
+    \text{-}
+  \big]_{\mathcal{C}_{/X}}
   \,.
 $$
 
@@ -96,15 +108,31 @@ $$
 +-- {: .num_example }
 ###### Example
 
-In the slice category $Set/X$, the inner hom is explicitly given by
-$$ [\langle E \stackrel{f}{\to} X \rangle, \langle F \stackrel{g}{\to} X \rangle]_{Set/X} = \{ (x,h) | x \in X, h : f^{-1}(x) \to g^{-1}(x) \}. $$
+In a slice category $Set_{/X}$ of [[Sets]], whose [[objects]] are $X$-[[indexed sets]], the inner hom is explicitly given by the [[indexed set]] of [[function sets]] between [[preimages]]:
+$$ 
+  \big[
+    \langle E \stackrel{f}{\to} X \rangle
+    \,,\, 
+    \langle F \stackrel{g}{\to} X \rangle
+  \big]_{Set_{/X}} 
+    \;=\; 
+  \big\{ 
+    (x,h) 
+    \,\vert\, 
+    x \colon X, 
+    \;
+    h \colon f^{-1}(x) \to g^{-1}(x) 
+  \big\}. 
+$$
 
 =--
+
+And conversely:
 
 +-- {: .num_prop #DependentProductInTermsOfSliceInternalHom}
 ###### Proposition
 
-If for a [[category]] $\mathcal{C}$ every [[slice category]] is a [[cartesian closed category]], then for every morphism $f : X \to Y$ in $\mathcal{C}$ the [[dependent product]] $\prod_f$ exists and is given on an object $E \stackrel{p}{\to} X$ by the [[pullback]]
+If for a [[category]] $\mathcal{C}$ every [[slice category]] is a [[cartesian closed category]], then for every morphism $f \colon X \to Y$ in $\mathcal{C}$ the [[dependent product]] $\prod_f$ exists and is given on an object $E \stackrel{p}{\to} X$ by the [[pullback]]
 
 $$
   \array{
