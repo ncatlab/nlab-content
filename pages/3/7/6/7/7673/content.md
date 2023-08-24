@@ -511,6 +511,12 @@ One possible way to construct such a well-behaved model category is as follows (
 ## References
  {#References}
 
+The general idea of categorical semantics of dependent types goes back at least to [Seely 1984](#Seely84), a first formalization via *categories with [[display maps]]* ("[[clans]]") is due to:
+
+* {#Taylor87} [[Paul Taylor]], §4.3.2 in: *Recursive Domains, Indexed Category Theory and Polymorphism*, Cambridge (1983-7) &lbrack;[[Taylor-IndexedCategoryTheory.pdf:file]]&rbrack;
+
+* {#Taylor99} [[Paul Taylor]], Section 8.3 in: _[[Practical Foundations of Mathematics]]_, Cambridge University Press (1999) &lbrack;[webpage](http://www.paultaylor.eu/~pt/prafm/index.html)&rbrack;
+
 General overview:
 
 * {#Hofmann97} [[Martin Hofmann]], *Syntax and semantics of dependent types*, in *Semantics and logics of computation*, Publ. Newton Inst. **14**, Cambridge Univ. Press (1997) 79-130 &lbrack;[doi:10.1017/CBO9780511526619.004](https://doi.org/10.1017/CBO9780511526619.004)&rbrack;
@@ -534,10 +540,6 @@ A 2-categorical treatment of variant kinds of comprehension category is given in
 A correspondence with orthogonal factorization systems is discussed in
 
 * Clemens Berger, Ralph M. Kaufmann, *Comprehensive factorisation systems* ([pdf](https://arxiv.org/abs/1710.09438))
-
-Display maps are discussed in
-
-* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, section 8.3
 
 Categories with attributes are discussed in
 
@@ -604,7 +606,7 @@ Discussion of B-systems, another essentially algebraic model, is in
 
 The model of [[dependent type theory]] with [[dependent product types]]/[[dependent function types]] in [[locally cartesian closed categories]] was first made explicit in
 
-* {#Seely} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. **95** (1984) 33-48  &lbrack;[doi:10.1017/S0305004100061284](https://doi.org/10.1017/S0305004100061284), [pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf)&rbrack;
+* {#Seely84} [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. **95** (1984) 33-48  &lbrack;[doi:10.1017/S0305004100061284](https://doi.org/10.1017/S0305004100061284), [pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf)&rbrack;
 
 The problem with strict substitution compared to weak pullback in this argument was discussed and fixed in 
 
