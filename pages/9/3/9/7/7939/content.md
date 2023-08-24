@@ -67,6 +67,12 @@ and was popularized by early adoption such as in
 
 * {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
 
+Textbook account:
+
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §1.2 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
+
+
 See also:
 
 * Wikipedia, _[Qbit](http://en.wikipedia.org/wiki/Qubit)_
