@@ -19,9 +19,9 @@
 
 ## Idea
 
-In [[type theory]], a **display map** is a [[morphism]] $p\colon B\to A$ in a [[category]] which represents a [[dependent type]] under some [[categorical semantics]] of type theory valued in that category.  
+In [[type theory]], a **display map** &lbrack;[Tayloer 1983-7, §4.3.2](#Taylor87)&rbrack; is a [[morphism]] $p\colon B\to A$ in a [[category]] which represents a [[dependent type]] under [[categorical semantics of dependent type theory]].
 
-That is, $B$ represents a [[type]] dependent on a [[variable]] of type $A$, usually written syntactically as $x\colon A \vdash B(x)\colon Type$.  The intended intuition is that $B(x)$ is the [[fiber]] of the map $p$ over $x\colon A$.
+That is, $B$ represents (interprets) a [[type]] [[dependent type|dependent]] on a [[variable]] of type $A$, usually written syntactically as $x\colon A \vdash B(x)\colon Type$.  The intended intuition is that $B(x)$ is the [[fiber]] of the map $p$ over $x\colon A$.
 
 More specifically, the [[syntactic category]] of a type theory is naturally equipped with a class of maps called "display maps" which come from its type dependencies, while [[models]] for such a [[theory]] can be studied in any other category equipped with a suitable class of maps called "display maps."  By the [usual](type%20theory#CategoricalSemantics) [[adjunction]], such models are then equivalent to functors out of the syntactic category which preserve the relevant structure, including the display maps.
 
@@ -76,7 +76,7 @@ $$
 which preserves display maps and their pullbacks.
 =--
 
-This appears as ([Taylor, def. 8.3.2](#Taylor)).
+This appears as ([Taylor 1999, def. 8.3.2](#Taylor99)).
 
 
 ## Examples
@@ -101,24 +101,33 @@ Examples of categories with displays, def. \ref{CategoryWithDisplays}, include
 7. (...) 
 =--
 
-See also [Taylor](#Taylor), example 8.3.6.
+See also [Taylor 1999, Exp. 8.3.6](#Taylor99).
 
 
 ## Related pages
 
+* [[clan]]
+
 * [[bundle]]
 
-* [[display map category]], a sort of [[categorical model of dependent types]]
+* [[categorical semantics of dependent type theory]]
 
 ## References
 
-Section 8.3 in 
+The notion is due to
 
-* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_
-  {#Taylor}
+* {#Taylor87} [[Paul Taylor]], §4.3.2 in: *Recursive Domains, Indexed Category Theory and Polymorphism*, Cambridge (1983-7) &lbrack;[[Taylor-IndexedCategoryTheory.pdf:file]]&rbrack;
+
+* {#Taylor99} [[Paul Taylor]], Section 8.3 in: _[[Practical Foundations of Mathematics]]_, Cambridge University Press (1999) &lbrack;[webpage](http://www.paultaylor.eu/~pt/prafm/index.html)&rbrack;
+  
+
+
 
 
 [[!redirects display map]]
 [[!redirects display maps]]
 [[!redirects display morphism]]
 [[!redirects display morphisms]]
+
+
+
