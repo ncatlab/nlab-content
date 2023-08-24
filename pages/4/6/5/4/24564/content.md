@@ -39,7 +39,7 @@ But prominent claims of experimental detection of (these kinds of) Majorana zero
 
 * and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241). 
 
-While some (probably most) researchers now dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 22](#MicrosoftQuantum22) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22) and [Das Sarma 22, p. 9](#DasSarma22).
+While some (probably most) researchers now dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) there is a new claim of detection by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22) and [Das Sarma 22, p. 9](#DasSarma22).
 
 ## References
 
@@ -101,9 +101,26 @@ Non-retracted claims of experimental realization of something in the direction o
 
 * {#Nayak22} [[Chetan Nayak]], *Microsoft has demonstrated the underlying physics required to create a new kind of qubit*, Microsoft Research Blog (March 2022)
 
-* {#MicrosoftQuantum22} [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing), *InAs-Al Hybrid Devices Passing the Topological Gap Protocol* &lbrack;[arXiv:2207.02472](https://arxiv.org/abs/2207.02472), [video presentation](https://www.microsoft.com/en-us/research/video/inas-al-hybrid-devices-passing-the-topological-gap-protocol/)&rbrack;
+* {#MicrosoftQuantum23} M. Aghaee et al. ([Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing)), *InAs-Al Hybrid Devices Passing the Topological Gap Protocol*, Phys. Rev. B **107** 245423 (2023) &lbrack;[doi:10.1103/PhysRevB.107.245423](https://doi.org/10.1103/PhysRevB.107.245423), [arXiv:2207.02472](https://arxiv.org/abs/2207.02472), [video presentation](https://www.microsoft.com/en-us/research/video/inas-al-hybrid-devices-passing-the-topological-gap-protocol/)&rbrack;
+
+  \linebreak
+
+  with an accompanying caveat editorial:
+
+  Randall D. Kamien, Jessica Thomas, Stephen E. Nagler, Anthony M. Begley, and Sarma Kancharla, *Editorial: Transparency in Physical Review Articles*, Phys. Rev. B **107** 210001 (2023) &lbrack;[doi:10.1103/PhysRevB.107.210001](https://doi.org/10.1103/PhysRevB.107.210001)&rbrack;
+
+  saying:
+
+  > "In this issue of Physical Review B, Aghaee et al. &lbrack;[1](#MicrosoftQuantum23)&rbrack; report on an advancement towards the goal of topological quantum computing. While Physical Review readers are well aware that the many minutiæ of procedures, computations, and synthesis may be omitted in any particular dispatch, in this publication the intellectual property of the authors’ employer has prevented the release of some parameters of the studied devices that may be needed in order to reproduce them. As a reflection of the traditional values of the scholarly community, this is not in accordance with the usual norms of the Physical Review journals."
 
 but see commentary in:
+
+* [[Sergey Frolov]], *[Twitter:1671558089382957056](https://twitter.com/spinespresso/status/1671558089382957056) * (21 June 2023)
+
+* Karmela Padavic-Callaghan, *Microsoft says its weird new particle could improve quantum computers --- Researchers at Microsoft say they have created elusive quasiparticles called Majorana zero modes -- but scientists outside the company are sceptical*, New Scientist (21 June 2023) &lbrack;[web](https://www.newscientist.com/article/2378782-microsoft-says-its-weird-new-particle-could-improve-quantum-computers)&rbrack;
+
+
+and earlier:
 
 * {#FrolovMourik22b} [[Sergey M. Frolov]], [[Vincent Mourik]]: *Majorana Fireside Podcast, Episode 1: The Microsoft TGP paper live review* &lbrack;[video](https://www.youtube.com/watch?v=RnYghkDaHH0), conclusion at: [1:01:31](https://www.youtube.com/watch?v=RnYghkDaHH0&t=3691s)&rbrack;
 
