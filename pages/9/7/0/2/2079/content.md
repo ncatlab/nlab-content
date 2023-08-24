@@ -5,6 +5,11 @@ Paul Taylor works on the [[foundations]] of mathematics and [[computer science]]
 
 ## Selected writings
 
+Introducing (among other things) the notion of *categories with [[diplay maps]]* (later also "[[clans]]") for [[categorical semantics of dependent type theory]]:
+
+* [[Paul Taylor]], §4.3.2 in: *Recursive Domains, Indexed Category Theory and Polymorphism*, Cambridge (1983-7) &lbrack;[pdf](https://ncatlab.org/nlab/files/Taylor-IndexedCategoryTheory.pdf)&rbrack;
+
+
 On [[formal logic|form]] [[logic]] and [[formal proof|formal]] [[proof]] [[proof theory|theory]] ([[type theory|typed]] [[lambda-calculus|$\lambda$-calculus]], [[linear logic]],  [[coherence spaces]], ...)
 
 * {#Girard89} [[Jean-Yves Girard]] (translated and with appendiced by [[Paul Taylor]] and [[Yves Lafont]]), *Proofs and Types*, Cambridge University Press (1989) &lbrack;[ISBN:978-0-521-37181-0](), [webpage](http://www.paultaylor.eu/stable/Proofs+Types.html), [pdf](https://www.paultaylor.eu/stable/prot.pdf)&rbrack;
