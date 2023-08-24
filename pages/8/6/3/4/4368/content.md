@@ -93,7 +93,6 @@ For an extension of Gabriel--Ulmer duality to a duality between [[Cauchy-complet
 
 * [[Jonas Frey]], _Duality for Clans: a Refinement of Gabriel-Ulmer Duality_ ([arXiv:2308.11967](https://arxiv.org/abs/2308.11967))
 
-
 For a connection to [[Tannaka duality]] theory see
 
 * nCaf&eacute; discussion [here](http://golem.ph.utexas.edu/category/2011/07/doctrinal_and_tannakian_recons.html)
