@@ -89,6 +89,11 @@ This discusses (see Theorem 2.1) Kelly's original result for $V$-[[enriched cate
 
 * [[Max Kelly]], _Structures defined by finite limits in the enriched context_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle cat&#233;goriques, **23** no. 1 (1982), pp. 3-42, [MR648793](http://www.ams.org/mathscinet-getitem?mr=648793),[numdam](http://www.numdam.org/item?id=CTGDC_1982__23_1_3_0)
 
+For an extension of Gabriel--Ulmer duality to a duality between [[Cauchy-complete]] [[clans]] and [[locally finitely presentable categories]] equipped with a well-behaved kind of [[weak factorization system]] see
+
+* [[Jonas Frey]], _Duality for Clans: a Refinement of Gabriel-Ulmer Duality_ ([arXiv:2308.11967](https://arxiv.org/abs/2308.11967))
+
+
 For a connection to [[Tannaka duality]] theory see
 
 * nCaf&eacute; discussion [here](http://golem.ph.utexas.edu/category/2011/07/doctrinal_and_tannakian_recons.html)
