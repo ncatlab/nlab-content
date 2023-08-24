@@ -196,7 +196,7 @@ For $n \in \mathbb{C}$ there are [[homeomorphisms]]
 
    between
 
-   1. the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere|(2n+2)-sphere]], canonically regarded as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{2n+2} \simeq \mathbb{C}^{n+1}$ by the [[equivalence relation]] which identifies two points $\vec p \in \mathbb{C}^{n+1}$ if they differ by multiplication by an complex number of unit norm
+   1. the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere|(2n+2)-sphere]], canonically regarded as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{2n+2} \simeq \mathbb{C}^{n+1}$ by the [[equivalence relation]] which identifies two points $\vec p \in \mathbb{C}^{n+1}$ if they differ by multiplication by a complex number of unit norm
 
    1. [[complex projective space]] (def. \ref{TopologicalProjectiveSpace}).
 
