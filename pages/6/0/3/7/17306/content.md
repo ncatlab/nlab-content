@@ -28,7 +28,13 @@ or similar
 
 ## Related entries
 
-* [[categorical model of dependent types]]
+* [[category of fibrant objects]]
+
+* [[categorical semantics of dependent types]]
+
+  * [[clan]], [[tribe]]
+
+  * [[type-theoretic model category]]
 
 * [[cofibration category]]
 
