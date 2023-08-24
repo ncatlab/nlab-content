@@ -1,13 +1,17 @@
 
 The book
 
-* [[Paul Taylor]],  
+* [[Paul Taylor]]:
+
+  \linebreak
 
   **Practical Foundations of Mathematics**
 
+  \linebreak
+
   Cambridge Studies in Advanced Mathematics **59**
 
-  Cambridge University Press 1999
+  Cambridge University Press (1999)
 
   ISBN 0-521-63107-6
 
