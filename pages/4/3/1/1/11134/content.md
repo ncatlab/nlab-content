@@ -33,7 +33,7 @@ A [[functional program]] with
 
    (e.g. the state of a "random access memory" device, cf. [Yates (2019), p. 26 & Fig. 1.10](#Yates19)) 
 
-{#IsClearly} is clearly a [[function]] ([[morphism]]) of [[function type]] between the [[product types]] with $W$ (also known as a *[[Mealy machine]]*, see [there](Mealy+machine#MealyMachinesAsEffectfulMaps)) 
+{#IsClearly} is clearly a [[function]] ([[morphism]]) of [[function type]] between the [[product types]] with $W$ (also known as a *[[Mealy machine]]*, see [there](Mealy+machine#MealyMachinesAsEffectfulMaps) and cf. [Oliveira & Miraldo 2016, p. 462](#OliveiraMiraldo16)): 
 
 $$
   prog 
@@ -137,6 +137,16 @@ In the generality of the *local* state monad:
 * [Plotkin & Power (2002), Sec. 4](#PlotkinPower02)
 
 * [[Paul-André Melliès]], *Local States in String Diagrams*, In: G. Dowek (eds.) *Rewriting and Typed Lambda Calculi* RTA TLCA 2014, Lecture Notes in Computer Science **8560**, Springer (2014) &lbrack;[doi:10.1007/978-3-319-08918-8_23](https://doi.org/10.1007/978-3-319-08918-8_23)&rbrack;
+
+Explicit understanding of [[Kleisli morphisms]] for the state moand as [[Mealy machines]]:
+
+* {#OliveiraMiraldo16} José Nuno Oliveira, Victor Cacciari Miraldo, p. 462 in: *A practical approach to state-based system calculi*, Journal of Logical and Algebraic Methods in Programming **85** 4 (2016) 449-474 &lbrack;[doi:10.1016/j.jlamp.2015.11.007](https://doi.org/10.1016/j.jlamp.2015.11.007)&rbrack;
+
+and (almost):
+
+* {#PeroneKarachalias23} Marco Perone, Georgios Karachalias, *Composable Representable Executable Machines* &lbrack;[arXiv:2307.09090](https://arxiv.org/abs/2307.09090)&rbrack;
+
+
 
 [[!redirects state monads]]
 
