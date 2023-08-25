@@ -281,7 +281,7 @@ $$
 
 has independently been argued to have properties of an [[exponential map]] in the context of [[Goodwillie calculus]], see [there](Goodwillie+calculus#GoodwillieDerivativeOfExponentialModality).
 
-{#ComonadicityOfClassicalOverLinearHomotopyTypes} Moreover $\Sigma^\infty \dashv \Omega^\infty$ is a [[comonadic adjunction]] on [[simply connected homotopy type|simply connected]] [[homotopy types]] &lbrack;[Blomquist & Harper 2016, Thm. 1.8](#BlomquistHarper16)&rbrack;, meaning that simply-connected classical (but [[pointed homotopy types|pointed]]) homotopy types are identified with the $\Sigma^\infty \Omega^\infty$-[[modales]] among [[stable homotopy types]].
+{#ComonadicityOfClassicalOverLinearHomotopyTypes} Moreover $\Sigma^\infty \dashv \Omega^\infty$ is a [[comonadic adjunction]] on [[simply connected homotopy type|simply connected]] [[homotopy types]] &lbrack;[Blomquist & Harper 2016  Thm. 1.8](#BlomquistHarper16); [Hess & Kedziorek 2017 Thm. 3.11](#HessKedziorek17)&rbrack;, meaning that simply-connected classical (but [[pointed homotopy types|pointed]]) homotopy types are identified with the $\Sigma^\infty \Omega^\infty$-[[modales]] among [[stable homotopy types]].
 
 
 ## Modal term calculi
@@ -429,6 +429,8 @@ Discussion of the exponential modality via [[stabilization]] in [[dependent line
 The $\Omega^\infty \Sigma^\infty$ [[comonadic functor|comonadicity]] of simply connected pointed spaces over spectra: 
 
 * {#BlomquistHarper16} Jacobson R. Blomquist, John E. Harper, Thm. 1.8 in: *Suspension spectra and higher stabilization* &lbrack;[arXiv:1612.08623](https://arxiv.org/abs/1612.08623)&rbrack;
+
+* {#HessKedziorek17} [[Kathryn Hess]], [[Magdalena Kedziorek]], Thm. 3.11 in: *The homotopy theory of coalgebras over simplicial comonads*, Homology, Homotopy and Applications **21** 1 (2019) &lbrack;[arXiv:1707.07104](https://arxiv.org/abs/1707.07104), [doi:10.4310/HHA.2019.v21.n1.a11](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a11)&rbrack;
 
 
 category: logic
