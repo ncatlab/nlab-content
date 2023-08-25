@@ -70,9 +70,10 @@ On the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 
 
-Suggestion that the [[Chern-Dold character]] from [[tmf]] to [[modular forms]], sends a [[2d SCFT]] to its [[partition function]]/[[elliptic genus]]/supersymmetric index:
+Construction of [[2d SCFTs]] from [[error-correcting codes]] and suggestion that the [[Chern-Dold character]] from [[tmf]] to [[modular forms]], sends a [[2d SCFT]] to its [[partition function]]/[[elliptic genus]]/supersymmetric index:
 
-* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], Section 5 of: *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X))
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics , **74** 2 (2022) 573-601  &lbrack;[arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X)&rbrack;
+
  
 and discussion of the [[2d SCFTs]] (namely [[supersymmetry|supersymmetric]] [[SU(2)]]-[[WZW-models]]) conjecturally corresponding, under this conjectural identification, to the elements of 
 $\mathbb{Z}/24$ 
