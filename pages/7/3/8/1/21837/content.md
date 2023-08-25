@@ -49,6 +49,10 @@ based on [[chiral differential operators]]:
 
 * [[Vassily Gorbounov]], [[Fyodor Malikov]], [[Vadim Schechtman]], _Gerbes of chiral differential operators_, Math. Res. Lett. 7(1), 55&#8211;66 (2000) ([arXiv:math/9906117](http://arxiv.org/abs/math/9906117), [arXiv:math/0003170](http://arxiv.org/abs/math/0003170), [arXiv:math/0005201](http://arxiv.org/abs/math/0005201))
 
+In relation to error-correcting codes:
+
+* Kohki Kawabata, Shinichiro Yahagi, *Elliptic genera from classical error-correcting codes* $[$[arXiv:2308.12592](https://arxiv.org/abs/2308.12592)$]$
+
 
 ##### Via Dirac-Ramond operators on free loop space
 
