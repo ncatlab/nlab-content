@@ -37,9 +37,13 @@ On [[commutative ring]]-structure ([[E-infinity ring|$E_\infty$-ring]]-structure
 
 * [[Anna Marie Bohmann]], [[Christy Hazel]], [[Jocelyne Ishak]], [[Magdalena Kędziorek]], [[Clover May]], *Genuine-commutative ring structure on rational equivariant K-theory for finite abelian groups* ([arXiv:2104.01079](https://arxiv.org/abs/2104.01079))
 
+On [[simply connected homotopy type|simply connected]] [[homotopy types]] as the [[comodule over a comonad|comodules]] in [[spectra]] over the [[comonad]] $\Sigma^\infty \Omega^\infty$ (the [[exponential modality]], see [there](!-modality#RealizationInLinearHomotopyTypeTheory)) induced by the [[stabilization]] [[adjunction]]: 
+
+* {#HessKedziorek17} [[Kathryn Hess]], [[Magdalena Kedziorek]], Thm. 3.11 in: *The homotopy theory of coalgebras over simplicial comonads*, Homology, Homotopy and Applications **21** 1 (2019) &lbrack;[arXiv:1707.07104](https://arxiv.org/abs/1707.07104), [doi:10.4310/HHA.2019.v21.n1.a11](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a11)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[rational equivariant stable homotopy theory]]
 
