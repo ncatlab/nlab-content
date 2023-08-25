@@ -48,6 +48,11 @@ A brief survey is provided in
 
 * [[Mike Shulman]], ([blog entry](http://golem.ph.utexas.edu/category/2010/09/grothendieckmaltsiniotis_categ.html))
 
+On the [[homotopy hypothesis]] for Grothendieck 3-groupoids:
+
+* {#HenryLanari} [[Simon Henry]], [[Edoardo Lanari]], *On the homotopy hypothesis in dimension 3*, Theory and Applications of Categories **39** 26 (2023) 735-768 &lbrack;[arxiv/1905.05625](https://arxiv.org/abs/1905.05625), [tac:39-26](http://www.tac.mta.ca/tac/volumes/39/26/39-26abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/39/26/39-26.pdf)&rbrack;.
+
+
 [[!redirects Grothendieck-Maltsiniotis ∞-category]]
 [[!redirects Grothendieck-Maltsiniotis ∞-categories]]
 [[!redirects Grothendieck-Maltsiniotis infinity-categories]]
@@ -58,6 +63,9 @@ A brief survey is provided in
 
 [[!redirects Grothendieck ∞-groupoid]]
 [[!redirects Grothendieck ∞-groupoids]]
+
+[[!redirects Grothendieck infinity-groupoid]]
+[[!redirects Grothendieck infinity-groupoids]]
 
 
 [[!redirects Grothendieck-Maltiniotis infinity-category]]
@@ -73,3 +81,5 @@ A brief survey is provided in
 [[!redirects Grothendieck-Maltiniotis omega-groupoids]]
 [[!redirects Grothendieck-Maltsiniotis omega-groupoid]]
 [[!redirects Grothendieck-Maltsiniotis omega-groupoids]]
+
+
