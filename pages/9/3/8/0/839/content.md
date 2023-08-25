@@ -46,10 +46,15 @@ An entirely strict algebraic model for 3-groupoids (which no longer models all [
 
 ## References ##
 
-* Simona Paoli, Semistrict models of connected 3-types and Tamsamani's weak 3-groupoids, _Journal of Pure and Applied Algebra_
-**211** (2007), 801-820. ([arXiv](http://arxiv.org/abs/math/0607330))
+* [[Simona Paoli]], Semistrict models of connected 3-types and Tamsamani's weak 3-groupoids, _Journal of Pure and Applied Algebra_ **211** (2007), 801-820. ([arXiv](http://arxiv.org/abs/math/0607330))
 
 * [[Carlos Simpson]], _Homotopy types of strict 3-groupoids_  ([arXiv](http://arxiv.org/abs/math/9810059))
+
+On the [[homotopy hypothesis]] for [[Grothendieck infinity-groupoid|Grothendieck 3-groupoids]]:
+
+* {#HenryLanari} [[Simon Henry]], [[Edoardo Lanari]], *On the homotopy hypothesis in dimension 3*, Theory and Applications of Categories **39** 26 (2023) 735-768 &lbrack;[arxiv/1905.05625](https://arxiv.org/abs/1905.05625), [tac:39-26](http://www.tac.mta.ca/tac/volumes/39/26/39-26abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/39/26/39-26.pdf)&rbrack;.
+
+
 
 [[!redirects 3-groupoids]]
  
