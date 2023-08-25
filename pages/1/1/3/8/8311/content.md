@@ -236,6 +236,14 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 
 ## References
 
+Textbook accounts:
+
+* [[Frank W. Anderson]], [[Kent R. Fuller]], §19 in: _Rings and Categories of Modules_, Graduate Texts in Mathematics, **13** Springer (1992) &lbrack;[doi:10.1007/978-1-4612-4418-9](https://doi.org/10.1007/978-1-4612-4418-9)&rbrack;
+
+
+* [[Paul Edwin Bland]], §2.3 in: *Rings and Their Modules*, De Gruyter (2011) &lbrack;[doi:10.1515/9783110250237](https://doi.org/10.1515/9783110250237), [pdf](http://site.iugaza.edu.ps/mashker/files/%D9%85%D8%AD%D8%A7%D8%B6%D8%B1%D8%A7%D8%AA-%D8%AC%D8%A8%D8%B1-%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D8%A9.pdf)&rbrack;
+
+
 Lecture notes:
 
 * [[Keith Conrad]], *Tensor products* &lbrack;part I:[pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf), [[Conrad-TensorProductsI:file]]; part II: [pdf](https://kconrad.math.uconn.edu/blurbs/linmultialg/tensorprod2.pdf), [[Conrad-TensorProductsII:file]]&rbrack;
