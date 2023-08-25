@@ -129,7 +129,6 @@ $$i_1 p_1 i_2 p_2 = i_2 p_2 i_1 p_1.$$
 
 See Definition 3.1 in [Karvonen 2020](#Karvonen20).
 
-
 ## Semiadditive categories 
  {#SemiadditiveCategories}
 
@@ -138,6 +137,12 @@ A category $C$ with all finite biproducts is called a **semiadditive category**.
 Amusingly, for $C$ to be semiadditive, it actually suffices to assume that $C$ has finite products and coproducts and that there exists *any* [[natural transformation|natural]] family of isomorphisms $c_1 \sqcup c_2 \cong c_1 \times c_2$ --- not necessarily the canonical maps constructed above.  A proof can be found in ([Lack 09](#Lack09)).
 
 An [[additive category]], although normally defined through the theory of [[enriched categories]], may also be understood as a semiadditive category with an [[extra property]], as explained below at _[Properties -- Biproducts imply enrichment](#BiproductsImplyEnrichment)_.
+
+### As (co)cartesian objects
+The aforementioned result of Lack implies that a semiadditive category is a [[cartesian object|cocartesian object]] in the [[2-category]] of [[cartesian monoidal categories]] and product-preserving functors.
+In fact, by [[Eckmann-Hilton argument|Eckmann-Hilton]], any monoidal structure defined on an object $\mathcal{C}$ of such a 2-category has to coincide with the one given by the cartesian product of $\mathcal{C}$. Thus when we specify a cocartesian one on $\mathcal{C}$, Eckmann-Hilton gives us a natural isomorphism $c_1 \sqcup c_2 \cong c_1 \times c_2$.
+
+The exact same argument also shows semiadditive categories are [[cartesian objects]] in the [[2-category]] of [[cocartesian monoidal categories]] and coproduct-preserving functors.
 
 ## Properties
 
