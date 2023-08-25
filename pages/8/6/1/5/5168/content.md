@@ -49,7 +49,14 @@ On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [
 
 On [[category theory]] and [[homology]]:
 
-* [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
+* {#Hilton69} [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications_, 
+
+  vol 1: Lecture Notes in Mathematics **86**, Springer (1969) &lbrack;[doi:10.1007/BFb0079380](https://doi.org/10.1007/BFb0079380)&rbrack;
+
+  vol 2: Lecture Notes in Mathematics **92**, Springer (1969) &lbrack;[doi:10.1007/BFb0080761](https://doi.org/10.1007/BFb0080761)&rbrack;
+
+  vol 3: Lecture Notes in Mathematics **99**, Springer (1969) &lbrack;[doi:10.1007/BFb0081959](https://doi.org/10.1007/BFb0081959)&rbrack;
+
 
 On [[generalized cohomology]], the [[Chern-Dold character]] and [[topological K-theory]]:
 
