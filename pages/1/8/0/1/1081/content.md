@@ -168,6 +168,18 @@ The ingredients of homology and cohomology:
 [[!include chains and cochains - table]]
 
 
+## References
+
+* {#Hilton69} [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications_, 
+
+  vol 1: Lecture Notes in Mathematics **86**, Springer (1969) &lbrack;[doi:10.1007/BFb0079380](https://doi.org/10.1007/BFb0079380)&rbrack;
+
+  vol 2: Lecture Notes in Mathematics **92**, Springer (1969) &lbrack;[doi:10.1007/BFb0080761](https://doi.org/10.1007/BFb0080761)&rbrack;
+
+  vol 3: Lecture Notes in Mathematics **99**, Springer (1969) &lbrack;[doi:10.1007/BFb0081959](https://doi.org/10.1007/BFb0081959)&rbrack;
+
+
+
 [[!redirects homologies]]
 [[!redirects homology group]]
 [[!redirects homology groups]]
