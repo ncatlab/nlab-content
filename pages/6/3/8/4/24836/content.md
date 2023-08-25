@@ -67,6 +67,7 @@ Exception handling as a [[monad in computer science]]:
 
 * {#Moggi91} [[Eugenio Moggi]], Exp. 1.1 in: *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
+* [[Philip Wadler]], Section 2.2 in: *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
 
 * [[Jiří Adámek]], Stefan Milius, Nathan Bowler, Paul B. Levy, *Coproducts of Monads on Set*, 27th Annual IEEE Symposium on Logic in Computer Science (2012) &lbrack;[arXiv:1409.3804](https://arxiv.org/abs/1409.3804), [doi:10.1109/LICS.2012.16](https://doi.org/10.1109/LICS.2012.16)&rbrack;
 
