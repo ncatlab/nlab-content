@@ -71,9 +71,15 @@ Other accounts:
  
 * [[Yasuyuki Kawahigashi]], _$\mathcal{N} = 2$ Superconformal Field Theory and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
 
-A hint for a relation to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
 
-*  [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
+Constructing 2d SCFTs from [[error-correcting codes]] and a hint for a relation to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics , **74** 2 (2022) 573-601  &lbrack;[arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X)&rbrack;
+
+further on the resulting [[elliptic genera]]:
+
+* Kohki Kawabata, Shinichiro Yahagi, *Elliptic genera from classical error-correcting codes* &lbrack;[arXiv:2308.12592](https://arxiv.org/abs/2308.12592)&rbrack;
+
 
 ### Relation to 2-spectral triples
 
