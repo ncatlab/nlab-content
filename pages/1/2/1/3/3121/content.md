@@ -104,18 +104,31 @@ For classical discussion see also *[[spectrification]]* and the *[[Bousfield-Fri
 
 ## Properties
 
-* If $C$ is an $(\infty,1)$-category with finite limits that is a
-[[presentable (∞,1)-category]], then the functor $\Omega^\infty : Stab(C) \to C$
-has a [[left adjoint]]
+* For $C$ a [[presentable (∞,1)-category|presentable]] $(\infty,1)$-category with finite limits, the functor $\Omega^\infty \colon Stab(C) \to C$ has a [[left adjoint]] $\Sigma^\infty : C \to Stab(C)$
+(forming [[suspension spectra]]).
 
-  $$
-    \Sigma^\infty : C \to Stab(C)
-    \,.
-  $$
-
-  Prop 15.4 (2) of [StabCat](http://arxiv.org/abs/math/0608228).
+Prop 15.4 (2) of [StabCat](http://arxiv.org/abs/math/0608228).
 
 * stabilization is _not_ in general functorial on all of $(\infty, 1)Cat$. It's failure of being functorial, and approximations to it, are studied in [[Goodwillie calculus]].
+
+\begin{proposition}
+In the case of ordinary homotopy types (at least), the stabilization adjunction 
+$$
+  \Sigma^\infty \dashv \Omega^\infty
+  \;\colon\;
+  Grpd_\infty^{\ast/}
+  \rightleftarrows 
+  Spectra
+$$
+
+
+is a [[comonadic adjunction]] on [[simply connected homotopy type|simply connected]] [[homotopy types]], meaning that simply-connected classical (but [[pointed homotopy types|pointed]]) homotopy types are identified with the $\Sigma^\infty \Omega^\infty$-[[modales]] among [[stable homotopy types]].
+\end{proposition}
+&lbrack;[Blomquist & Harper 2016  Thm. 1.8](#BlomquistHarper16); [Hess & Kedziorek 2017 Thm. 3.11](#HessKedziorek17)&rbrack;
+
+Here $\Sigma^\infty \Omega^\infty$ is the (pointed) [[exponential modality]] in [[linear homotopy type theory]], see [there](!-modality#RealizationInLinearHomotopyTypeTheory) for more.
+
+
 
 ## Examples
 
@@ -133,9 +146,9 @@ An object in $Stab(Set)$ is a sequence of [[pointed sets]] $(E_0, E_1, \ldots)$ 
 
 A general discussion in the context of [[(∞,1)-category theory]] is in  
 
-* [[Jacob Lurie]], section 1.4 of _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 1.4 of: _[[Higher Algebra]]_
 
-* [[Jacob Lurie]], section 1 of _[[Spectral Schemes]]_
+* [[Jacob Lurie]], section 1 of: _[[Spectral Schemes]]_
 
 Discussion of stabilization as inversion of smashing with a suspension objects, and the relation between stabilization of [[(∞,1)-categories]] (to [[stable (∞,1)-categories]]) and of [[model categories]] (to [[stable model categories]]) in
 
@@ -152,6 +165,14 @@ with further remarks in
 Formalization of stabilization in [[dependent linear homotopy type theory]] (see also on the "[[exponential modality]]" [here](!-modality#RealizationInLinearHomotopyTypeTheory)):
 
 * {#Riley22Thesis} [[Mitchell Riley]], §2.1.2 in: *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
+
+On comonadicity of the "[[exponential modality]]" $\Sigma^\infty \Omega^\infty$:
+
+* {#BlomquistHarper16} Jacobson R. Blomquist, John E. Harper, Thm. 1.8 in: *Suspension spectra and higher stabilization* &lbrack;[arXiv:1612.08623](https://arxiv.org/abs/1612.08623)&rbrack;
+
+* {#HessKedziorek17} [[Kathryn Hess]], [[Magdalena Kedziorek]], Thm. 3.11 in: *The homotopy theory of coalgebras over simplicial comonads*, Homology, Homotopy and Applications **21** 1 (2019) &lbrack;[arXiv:1707.07104](https://arxiv.org/abs/1707.07104), [doi:10.4310/HHA.2019.v21.n1.a11](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a11)&rbrack;
+
+
 
 [[!redirects stabilizations]]
 [[!redirects stabilization of an (∞,1)-category]]
