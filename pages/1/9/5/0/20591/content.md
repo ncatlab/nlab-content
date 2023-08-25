@@ -1,44 +1,91 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _Mealy machine_ is a particular type of [[finite state automaton]].
-
-A Mealy machine with input alphabet $A$ and output alphabet, $B$ is just a [[deterministic finite automaton]],which produces a letter of the output alphabet, $B$ at every transition step. More formally
+A _Mealy machine_ (named after [Mealy 1955](#Mealy55)) -- traditionally understood as a particular type of [[finite state automaton]] -- is a [[map]] (traditionally thought of as a [[pair]] of maps, see Def. \ref{DefinitionInComponents} below) which takes input data *and* a given "state" to output data *and* an update of that "state". In modern language of [[monadic computational effects]] this just means that a Mealy machine is a *[[state monad|stateful]]-map*, namely a [[Kleisli morphisms]] for a [[state monad]] (see Rem. \ref{MealyMachinesAsEffectfulMaps}  below).
 
 ## Definition
 
-A finite _Mealy machine_, $\mathbf{A}$, consists of
+\begin{definition}
+\label{DefinitionInComponents}
+**(traditional component definition)**
+\linebreak
+A finite _Mealy machine_, $\mathbf{A}$, consists of [[finite sets]]
 
-* $Q$, a finite set of _states_;
+* $S$, of _states_;
 
-* $A$, an _input alphabet_;
+* $I$, the _input alphabet_;
 
-* $B$, an _output alphabet_;
+* $O$, the _output alphabet_;
 
-* $q_0$, an _initial state_;
+and [[functions]]
 
-* $\delta: Q\times A\to Q$, a _transition function_;
+* $trans \colon S \times I \to S$, a _transition function_;
 
-and
+* $out \colon S \times I \to O$, an _output function_
 
-* $\lambda:Q\times A \to B$, which associates  an output symbol with each transition.
+and often an [[element]]
 
+* $q_0 \in S$, the _initial state_.
 
-Again as for [[Moore machines]], there is an output response function $\omega_\mathbf{A}:A^*\to B^*$ defined s follows:
+\end{definition}
 
-if $x= x_1 \ldots x_n\in A^*$ and the states that $\mathbf{A}$ passes through when processing this string are $q_0, q_1, \ldots, q_n$, so diagrammatically
+\begin{remark}\label{MealyMachinesAsEffectfulMaps}
+**(Mealy machines as effectful maps)**
+\linebreak
+More concisely a Mealy machine as in Def. \ref{DefinitionInComponents} is (except for the specification of the initial state) just a [[map]] between [[Cartesian products]] of this form:
 
-$$q_0\xrightarrow{x_1} q_1\xrightarrow{x_2}\ldots \xrightarrow{x_n} q_n,$$
+\[
+  \label{MealyMachineAsMapBetweenProducts}
+  (out, trans)
+  \;\colon\; 
+  I \times S \longrightarrow O \times S
+\]
 
-define $\omega_\mathbf{A}(x)= \lambda(q_0,x_1)\ldots \lambda(q_{n-1},x_n)$.
+As such this makes sense [[internalization|in]] any [[cartesian monoidal category]] other than [[Sets]]. 
 
-Mealy machines and [[Moore machines]] have essentially the same descriptive power.
+In a *[[cartesian closed monoidal category|closed]]* cartesian monoidal category (such as [[Sets]]) with [[internal hom]] $[\text{-},\text{-}]$, such a map (eq:MealyMachineAsMapBetweenProducts) is equivalent to (namely: is the "[[currying|curried]]" [[internal hom]]-[[adjunct]] of) a map of the form
+
+$$
+  S \longrightarrow \big[I,\, O \times S\big]
+  \,.
+$$
+
+In this form Mealy machines are discussed as [[coalgebras of an endofunctor]], for instance in &lbrack;[Pattinson 2003, 1.1.3](#Pattinson03)&rbrack;, &lbrack;[Bonsangue, Rutten & Silva 2008, p. 1](BonsangueRuttenSilva08)&rbrack;, &lbrack;[Ghica, Kaye & Sprunger 2022, Def. 25](#GhicaKayeSprunger22)&rbrack;.
+
+But of course, by the same token  (eq:MealyMachineAsMapBetweenProducts) is also [[adjunct]] to a map of the form
+
+\[
+  \label{MealyMachineAsStateEffectufulFunction}
+  I \longrightarrow \big[S ,\, S \times O \big]
+\]
+
+which makes more manifest how a Mealy machine is a map sending input $i \in I$ to output $o \in O$ after also reading out a stated $s \in S$ and then also updating that state.
+
+In fact, in this form (eq:MealyMachineAsStateEffectufulFunction) Mealy machines are exactly the *$S$-effectful maps* in these sense of [[monadic computational effects]], namely the [[Kleisli morphisms]] for the $S$-[[state monad]] (mentioned as such for instance in [Oliveira & Miraldo 2016, p. 462](#OliveiraMiraldo16)).
+
+For discussion of this perspective in [[Haskell]]: &lbrack;[github.com/orakaro/MonadicMealyMachine](https://github.com/orakaro/MonadicMealyMachine)&rbrack;, &lbrack;[Perone & Karachalias 2023, p. 3](#PeroneKarachalias23)&rbrack;.
+
+\end{remark}
+
 
 ## Related entries
+
+* [[state monad]]
 
 * [[Moore machine]]
 
@@ -46,12 +93,31 @@ Mealy machines and [[Moore machines]] have essentially the same descriptive powe
 
 * [[Mealy morphism]]
 
-##References
+## References
 
-* [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press, see also [here](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf) for a shorter version in the form of Course Notes.
+The notion is due to:
+
+* {#Mealy55} [[George H. Mealy]], *A Method for Synthesizing Sequential Circuits*, Bell System Technical Journal **34** 5 (1955) 1045-1079 &lbrack;[doi:10.1002/j.1538-7305.1955.tb03788.x](https://doi.org/10.1002/j.1538-7305.1955.tb03788.x)&rbrack;
 
 
-* [[Dirk Pattinson]], _An Introduction to the Theory of Coalgebras_, [here](http://indiana.edu/~nasslli/2003/datas/DirkPattinson.pdf).
+
+* [[Mark V. Lawson]], *Finite automata*, CRC Press (2003) &lbrack;[webpage](http://www.ma.hw.ac.uk/~markl/books.html), course notes:[pdf](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf)&rbrack;
+
+Discussion via [[category theory]] and as [[coalgebras of an endofunctor]]
+
+* {#Pattinson03} [[Dirk Pattinson]], Section 1.1.3 in: _An Introduction to the Theory of Coalgebras_ (2003) &lbrack;[pdf](https://nasslli.sitehost.iu.edu/2003/datas/DirkPattinson.pdf), [[Pattinson-Coalgebras.pdf:file]]&rbrack;
+
+* {#BonsangueRuttenSilva08} M. M. Bonsangue, Jan Rutten & Alexandra Silva , *Coalgebraic Logic and Synthesis of Mealy Machines*,  in: *Foundations of Software Science and Computational Structures. FoSSaCS 2008*, Lecture Notes in Computer Science, **4962** (2008) &lbrack;[doi:10.1007/978-3-540-78499-9_17](https://doi.org/10.1007/978-3-540-78499-9_17)&rbrack;
+
+* H. Hansen, Jan Rutten, *Symbolic synthesis of Mealy machines from arithmetic bitstream functions*, Scientific Annals of Computer Science **20** (2010) 97–130 &lbrack;[pub:16639](https://ir.cwi.nl/pub/16639), [pdf](https://core.ac.uk/download/pdf/301659512.pdf)&rbrack;
+
+* {#GhicaKayeSprunger22} [[Dan R. Ghica]], George Kaye, David Sprunger, Def. 25 in: *A compositional theory of digital circuits* &lbrack;[arXiv:2201.10456](https://arxiv.org/abs/2201.10456)&rbrack;
+
+Discussion as [[state monad|stateful]]-maps:
+
+* {#OliveiraMiraldo16} José Nuno Oliveira, Victor Cacciari Miraldo, *A practical approach to state-based system calculi*, Journal of Logical and Algebraic Methods in Programming **85** 4 (2016) 449-474 &lbrack;[doi:10.1016/j.jlamp.2015.11.007](https://doi.org/10.1016/j.jlamp.2015.11.007)&rbrack;
+
+* {#PeroneKarachalias23} Marco Perone, Georgios Karachalias, *Composable Representable Executable Machines* &lbrack;[arXiv:2307.09090](https://arxiv.org/abs/2307.09090)&rbrack;
 
 
 [[!redirects Mealy machines]]
