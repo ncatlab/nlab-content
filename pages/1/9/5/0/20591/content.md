@@ -47,8 +47,21 @@ and often an [[element]]
 \begin{remark}\label{MealyMachinesAsEffectfulMaps}
 **(Mealy machines as effectful maps)**
 \linebreak
-More concisely a Mealy machine as in Def. \ref{DefinitionInComponents} is (except for the specification of the initial state) just a [[map]] between [[Cartesian products]] of this form:
+More generally and concisely, a Mealy machine can be defined in any [[symmetric monoidal category]] $(\mathcal{C},\otimes,1)$ as an object of the following pullback in [[Cat]]: 
+\begin{centre}
+\begin{tikzcd}
+Mly(I,O)\ar[r]\ar[d] & \mathcal{C}/O \ar[d, "V"]\\ 
+Alg(-\otimes I) \ar[r, "U"']& \mathcal{C}
+\end{tikzcd}
+\end{centre}
+where $Alg(-\otimes I)$ is the category of endofunctor algebras for $-\otimes I : \mathcal{C}\to\mathcal{C} : S\mapsto S\otimes I$, $U$ the forgetful functor, and $V$ the domain functor from the [[slice category]] $\mathcal{C}/O$.
+\end{remark}
 
+Then, a Mealy machine as in Def. \ref{DefinitionInComponents} consists (except for the specification of the initial state) of a span
+\[ 
+  E \leftarrow E\otimes I \to O
+\]
+Unwinding this definition in the case of the category of [[Set|sets]], a Mealy machine consists of a [[map]] between [[Cartesian products]] of this form:
 \[
   \label{MealyMachineAsMapBetweenProducts}
   (out, trans)
@@ -56,9 +69,7 @@ More concisely a Mealy machine as in Def. \ref{DefinitionInComponents} is (excep
   I \times S \longrightarrow O \times S
 \]
 
-As such this makes sense [[internalization|in]] any [[cartesian monoidal category]] other than [[Sets]]. 
-
-In a *[[cartesian closed monoidal category|closed]]* cartesian monoidal category (such as [[Sets]]) with [[internal hom]] $[\text{-},\text{-}]$, such a map (eq:MealyMachineAsMapBetweenProducts) is equivalent to (namely: is the "[[currying|curried]]" [[internal hom]]-[[adjunct]] of) a map of the form
+Mealy machines in a *[[cartesian closed monoidal category|closed]]* cartesian monoidal category (such as [[Sets]]) with [[internal hom]] $[\text{-},\text{-}]$, are a particularly well-behaved structure for a variety of reasons: for starters, a map like the one in (eq:MealyMachineAsMapBetweenProducts) is equivalent to (namely: is the "[[currying|curried]]" [[internal hom]]-[[adjunct]] of) a map of the form
 
 $$
   S \longrightarrow \big[I,\, O \times S\big]
@@ -79,8 +90,6 @@ which makes more manifest how a Mealy machine is a map sending input $i \in I$ t
 In fact, in this form (eq:MealyMachineAsStateEffectufulFunction) Mealy machines are exactly the *$S$-effectful maps* in these sense of [[monadic computational effects]], namely the [[Kleisli morphisms]] for the $S$-[[state monad]] (mentioned as such for instance in [Oliveira & Miraldo 2016, p. 462](#OliveiraMiraldo16)).
 
 For discussion of this perspective in [[Haskell]]: &lbrack;[github.com/orakaro/MonadicMealyMachine](https://github.com/orakaro/MonadicMealyMachine)&rbrack;, &lbrack;[Perone & Karachalias 2023, p. 3](#PeroneKarachalias23)&rbrack;.
-
-\end{remark}
 
 
 ## Related entries
