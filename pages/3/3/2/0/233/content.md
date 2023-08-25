@@ -477,12 +477,19 @@ $$
 ## References
 
 ### General 
+  
 
 Textbook accounts:
 
 * [[Frank W. Anderson]], [[Kent R. Fuller]], _Rings and Categories of Modules_, Graduate Texts in Mathematics, **13** Springer (1992) &lbrack;[doi:10.1007/978-1-4612-4418-9](https://doi.org/10.1007/978-1-4612-4418-9)&rbrack;
 
 * [[Paul Edwin Bland]], *Rings and Their Modules*, De Gruyter (2011) &lbrack;[doi:10.1515/9783110250237](https://doi.org/10.1515/9783110250237), [pdf](http://site.iugaza.edu.ps/mashker/files/%D9%85%D8%AD%D8%A7%D8%B6%D8%B1%D8%A7%D8%AA-%D8%AC%D8%A8%D8%B1-%D8%AF%D9%83%D8%AA%D9%88%D8%B1%D8%A7%D8%A9.pdf)&rbrack;
+
+Lecture notes:
+
+* {#Lawvere92} [[William Lawvere]], pp. 27 of: *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf)&rbrack;
+
+  > (where $R$-modules are called $R$-*linear spaces*)
 
 
 Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]]:
