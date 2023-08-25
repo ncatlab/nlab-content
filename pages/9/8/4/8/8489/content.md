@@ -21,6 +21,11 @@ See
 
 * [[consistency]]
 
+## Logical operations
+ {#LogicalOperations}
+
+[[!include logic symbols -- table]]
+
 ## References
 
 * [[Georg Kreisel]], *Mathematical Logic*,  in T. Saaty et al. (ed.), *Lectures on Modern Mathematics III*, Wiley New York (1965) 95-195
