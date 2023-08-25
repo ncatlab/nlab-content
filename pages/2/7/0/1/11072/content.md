@@ -281,6 +281,8 @@ $$
 
 has independently been argued to have properties of an [[exponential map]] in the context of [[Goodwillie calculus]], see [there](Goodwillie+calculus#GoodwillieDerivativeOfExponentialModality).
 
+{#ComonadicityOfClassicalOverLinearHomotopyTypes} Moreover $\Sigma^\infty \dashv \Omega^\infty$ is a [[comonadic adjunction]] on [[simply connected homotopy type|simply connected]] [[homotopy types]] &lbrack;[Blomquist & Harper 2016, Thm. 1.8](#BlomquistHarper16)&rbrack;, meaning that simply-connected classical (but [[pointed homotopy types|pointed]]) homotopy types are identified with the $\Sigma^\infty \Omega^\infty$-[[modales]] among [[stable homotopy types]].
+
 
 ## Modal term calculi
 
@@ -311,7 +313,7 @@ This presentation also generalizes naturally to [[dependent linear type theory]]
 
 ### General
 
-The exponential modality originates in [[linear logic]] with 
+The notion of the exponential modality originates in [[linear logic]] with 
 
 * {#Girard1987} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science **50** 1 (1987)  &lbrack;<a href="https://doi.org/10.1016/0304-3975(87)90045-4">doi:10.1016/0304-3975(87)90045-4</a>, [pdf](http://iml.univ-mrs.fr/~girard/linear.pdf)&rbrack;
  
@@ -364,8 +366,6 @@ Construction of such comonads based on cofree comonoids:
 * Mellies and Tabareau and Tasson, *An explicit formula for the free exponential modality of linear logic*. Mathematical Structures in Computer Science, 28(7), 1253-1286. doi:[10.1017/S0960129516000426](https://doi.org/10.1017/S0960129516000426)
 
 * [[Sergey Slavnov]], *On Banach spaces of sequences and free linear logic exponential modality*, Math. Struct. Comp. Sci. 29 (2019) 215-242, [arXiv:1509.03853](https://arxiv.org/abs/1509.03853)
-
-
 
 
 The relation to [[Fock space]] is discussed in:
@@ -425,6 +425,11 @@ Discussion of the exponential modality via [[stabilization]] in [[dependent line
 * {#Schreiber14} [[Urs Schreiber]], Sec. 4.2 of: *[[schreiber:Quantization via Linear homotopy types]]* &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
 
 * {#Riley22Thesis} [[Mitchell Riley]], §2.1.2 in: *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139)&rbrack;
+
+The $\Omega^\infty \Sigma^\infty$ [[comonadic functor|comonadicity]] of simply connected pointed spaces over spectra: 
+
+* {#BlomquistHarper16} Jacobson R. Blomquist, John E. Harper, Thm. 1.8 in: *Suspension spectra and higher stabilization* &lbrack;[arXiv:1612.08623](https://arxiv.org/abs/1612.08623)&rbrack;
+
 
 category: logic
 
