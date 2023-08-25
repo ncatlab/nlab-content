@@ -56,7 +56,7 @@ A similar, but more detailed account, is in:
 
 Articles:
 
-* {#Riley18} [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738)m video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
+* {#Riley18} [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738), video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
 
 
 
