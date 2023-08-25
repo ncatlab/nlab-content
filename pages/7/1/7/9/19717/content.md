@@ -364,7 +364,7 @@ Further discussion:
 
 * {#AhmanUustalu17} Danel Ahman, [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
 
-* {#Riley} [[Mitchell Riley]], *Categories of optics*, &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738)m video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
+* {#Riley} [[Mitchell Riley]], *Categories of optics* &lbrack;[arXiv:1809.00738](https://arxiv.org/abs/1809.00738), video:[YT](https://www.youtube.com/watch?v=Qy7Y4-mgwbw)&rbrack;
 
 * {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_ ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
 
