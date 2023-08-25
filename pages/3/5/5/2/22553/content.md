@@ -52,12 +52,24 @@ Much attention in [[coding theory]] is instead on the special class of *[[linear
 
 ## References
 
+### General
 
-See the referennces at *[[coding theory]]* and *[[linear code]]*.
+See the references at *[[coding theory]]* and *[[linear code]]*.
 
 An observation on classical codes preconceiving aspects of [[holographic tensor network]] [[quantum error correcting codes]]:
 
 * [[Beni Yoshida]], *Information storage capacity of discrete spin systems*, Annals of Physics 338, 134 (2013) ([arXiv:1111.3275](https://arxiv.org/abs/1111.3275))
+
+### Relation to 2d CFT
+
+Construction of chiral [[2d SCFTs]] from error-correcting codes:
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics , **74** 2 (2022) 573-601  &lbrack;[arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X)&rbrack;
+
+
+On their [[elliptic genera]]
+
+* Kohki Kawabata, Shinichiro Yahagi, *Elliptic genera from classical error-correcting codes* &lbrack;[arXiv:2308.12592](https://arxiv.org/abs/2308.12592)&rbrack;
 
 
 
