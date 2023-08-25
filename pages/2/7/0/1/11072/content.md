@@ -266,6 +266,17 @@ In [[dependent linear homotopy type theory]] the "linear-nonlinear adjunction" i
     }
 \end{imagefromfile}
 
+Curiously, this homotopy-theoretic realization of the exponential modality
+
+$$
+  ! 
+  \;\equiv\; 
+  \Sigma^\infty \circ \Omega^\infty
+  \;\colon\;
+  Spectra \to Spectra
+$$
+
+has independently been argued to have properties of an [[exponential map]] in the context of [[Goodwillia calculus]].
 
 
 ## Modal term calculi
