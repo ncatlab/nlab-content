@@ -9,17 +9,51 @@
 =--
 =--
 
+
+
 # Structural rules
 * table of contents
 {: toc}
 
 ## Idea
 
+\begin{imagefromfile}
+    "file_name": "Gentzen-StrukturSchlussfiguren.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Gentzen 1935](#Gentzen35))"
+\end{imagefromfile}
+
+
 ### General
 
-The _structural rules_ of a [[logic]] or [[deductive system]] are those rules which make no reference to logical operators but only to the unstructured [[premise]]s of a [[deduction]].
+In [[formal logic]] and [[type theory]], by the _structural inference rules_ &lbrack;[Gentzen 1935 §1.2.1](#Gentzen35), [1969, §1.21](#Gentzen69)&rbrack; of a [[deductive system]]  one means those [[inference rules]] which make no reference to [logical operations](formal+logic#LogicalOperations) but only to the unstructured [[premises]] of a [[deduction]].
 
-In standard [[intuitionistic logic]] the structural rules notably include the [[weakening rule]] and the [[contraction rule]]. Discarding these rules leads to [[linear logic]]. Generally, logical systems discarding some structural rules are called *[[substructural logics]]*.
+In standard [[intuitionistic logic]] ([[intuitionistic type theory]]) the structural rules notably include the [[weakening rule]] and the [[contraction rule]] in the [[antecedent]], which exhibit [[context extensions]] $\Gamma \,\mapsto\, \Gamma, P$ as admitting [[natural transformation|natural]] [[diagonal map|diagonal]] and [[projection]] [[maps]], respectively, hence as admitting [[categorical semantics|interpretation]] as *[[cartesian products]]* $\Gamma \times P$ (cf. [Jacobs 1994](structural+rule#Jacobs94)):
+
+\begin{imagefromfile}
+    "file_name": "WeakeningContractionRules-230330d.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Discarding these rules leads to [[linear logic]] ([[linear type theory]]). 
+
+Generally, logical systems discarding some structural rules are called *[[substructural logics]]*.
+
 
 ### In dependent type theory
  {#InDependentTypeTheory}
@@ -44,7 +78,6 @@ shown in the following table together with their [[categorical semantics]] [[cat
 
 
 ## Examples
-
 
 * [[structural rules]]
 
@@ -72,6 +105,15 @@ For instance, if the [[weakening rule]] and [[contraction rule]] are omitted, on
 
 ## References
 
+The notion of the structural inference rules originates (under the German name *Struktur-Schlußfiguren*) with 
+
+* {#Gentzen35} [[Gerhard Gentzen]], §1.2.1 in: _Untersuchungen &#252;ber das logische Schlie&#223;en. I_, _Mathematische Zeitschrift_ **39** 1 (1935) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
+
+* {#Gentzen69} [[Gerhard Gentzen]], §1.21 in: *Investigations into Logical Deduction*, in M. E. Szabo (ed.), *The Collected Papers of Gerhard Gentzen*, Studies in Logic and the Foundations of Mathematics **55**, Springer (1969) 68-131 &lbrack;[ISBN:978-0-444-53419-4](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/55), [pdf](https://logic-teaching.github.io/prop/texts/Gentzen%201969%20-%20Investigations%20into%20Logical%20Deduction.pdf)&rbrack;
+
+
+Their [[categorical semantics]] is made explicit in:
+
 * {#Jacobs94} [[Bart Jacobs]], *Semantics of weakening and contraction*, Annals of Pure and Applied Logic **69** 1 (1994) 73-106 &lbrack;<a href="https://doi.org/10.1016/0168-0072(94)90020-5">doi:10.1016/0168-0072(94)90020-5</a>&rbrack;
 
 Discussion in [[dependent type theory]]:
@@ -92,3 +134,6 @@ Discussion in [[dependent type theory]]:
 
 [[!redirects structural rule]]
 [[!redirects structural rules]]
+
+[[!redirects structural inference rule]]
+[[!redirects structural inference rules]]
