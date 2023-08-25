@@ -246,8 +246,7 @@ $$
 sends coproducts to products and is supposed to be like $e^{x - 1}$.
 (The "$-1$" comes about from issues to do with basepoints.)
 
-A homogeneous linear functor is defined to be one sending coproducts
-to products, so it is like an [[exponential map|exponential]].  Compared to an exponential, the [[identity functor]] is like a [[logarithm]], so it has a non-trivial Taylor series.
+A homogeneous linear functor is defined to be one sending coproducts to products, so it is like an [[exponential map|exponential]].  Compared to an exponential, the [[identity functor]] is like a [[logarithm]], so it has a non-trivial Taylor series.
 
 >...our point of view is that stable homotopy is analogous to the function $e^{x - 1}$ rather than to a linear function, and the Goodwillie tower is an infinite product, rather than an infinite sum, namely it is analogous to the product
 
@@ -304,9 +303,36 @@ The Goodwillie derivatives of the [[identity functor]] on  [[pointed topological
 
 See at _[[Goodwillie derivatives of the identity functor]]_ 
 
+### Goodwillie derivatives of exponential modality
+ {#GoodwillieDerivativeOfExponentialModality}
+
+The ([[(infinity,1)-functor|$\infty$-]])functor
+
+$$
+  \Sigma^\infty \circ \Omega^\infty
+  \;\colon\;
+  Spectra \to Spectra
+$$
+
+[induced](monad#RelationBetweenAdjunctionsAndMonads) from the [[stabilization]]-[[adjoint (infinity,1)-functor|adjunction]] is (see [there](!-modality#RealizationInLinearHomotopyTypeTheory)) the [[exponential modality]] in [[linear homotopy type theory]] (or rather the un-pointed version is). Indeed, in Goodwillie calculus it behaves like an [[exponential function]] ("minus 1"), for instance in that on [[suspension spectra]] $\mathbb{X} \equiv \Sigma^\infty_+ X$ we have
+
+$$
+  \Sigma^\infty \Omega^\infty \mathbb{X}
+  \;\simeq\;
+  \underset{n \geq 1}{\oplus}
+  \mathbb{X}^{\wedge n} \sslash Sym(n)
+  \,.
+$$
+
+([Arone & Ching 2019, Exp. 2.6](#AroneChing19), using [Ahearn & Kuhn 2002, Cor. 1.3](#AhearnKuhn02))
+
+
+
 ### Goodwillie derivatives of mapping spaces
 
 See at _[[stable splitting of mapping spaces]]_.
+
+
 
 ## Related concepts
 
@@ -344,9 +370,8 @@ The original articles:
 
 * [[Thomas Goodwillie]], _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([euclid:gt/1513883319](https://projecteuclid.org/euclid.gt/1513883319) [doi:10.2140/gt.2003.7.645](http://dx.doi.org/10.2140/gt.2003.7.645), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
 
-Oberwolfach Report
 
-* {#OWR2004} The Goodwillie Calculus of Functors. Workshop Report 2004,17. [doi:10.4171/OWR/2004/17](https://doi.org/10.14760/OWR-2004-17)
+* {#OWR2004} The Goodwillie Calculus of Functors. Workshop Oberwolfach Report 17 (2004) &lbrack;[doi:10.4171/OWR/2004/17](https://doi.org/10.14760/OWR-2004-17)&rbrack;
 
 
 Surveys and introductions:
@@ -358,6 +383,8 @@ Surveys and introductions:
 * [[Michael Ching]], [[Nicholas Kuhn]], [[Victor Turchin]], _[Functor Calculus and Operads](http://www.birs.ca/events/2011/5-day-workshops/11w5058)_, BANFF Workshop 2011
 
 * [[Gregory Arone]], [[Michael Ching]] _[Talbot Workshop 2012: Calculus of Functors](https://math.mit.edu/events/talbot/index.php?year=2012)_ ([Talk schedule](https://math.mit.edu/events/talbot/2012/2012TalbotTalks.pdf), [Notes](https://math.mit.edu/events/talbot/index.php?year=2012&sub=talks))
+
+* {#AroneChing19} [[Gregory Arone]], [[Michael Ching]], *Goodwillie Calculus*, in: *[[Handbook of Homotopy Theory]]* Taylor & Francis (2019) &lbrack;[arXiv:1902.00803](https://arxiv.org/abs/1902.00803),[doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)&rbrack;
 
 
 A [[model category]] presentation for [[n-excisive functors]]:
@@ -372,6 +399,9 @@ A [[model category]] presentation for [[n-excisive functors]]:
 
 
 See also:
+
+* {#AhearnKuhn02} [[Stephen T. Ahearn]], [[Nicholas J. Kuhn]], *Product and other fine structure in polynomial resolutions of mapping spaces*, Algebr. Geom. Topol. **2** (2002) 591-647 &lbrack;[arXiv:math/0109041](https://arxiv.org/abs/math/0109041), [doi:10.2140/agt.2002.2.591](https://doi.org/10.2140/agt.2002.2.591)&rbrack;
+
 
 * Andrew Mauer-Oats, _Algebraic Goodwillie calculus and a cotriple model for the remainder_, Trans. Amer. Math. Soc. __358__  (2006),  no. 5, 1869--1895 [journal](http://www.ams.org/tran/2006-358-05/S0002-9947-05-03936-X/home.html), [math.AT/0212095](http://arxiv.org/abs/math/0212095)
 
