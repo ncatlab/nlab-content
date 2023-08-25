@@ -346,11 +346,17 @@ This and much more history is recalled in
 * {#Mitchell65} [[Barry Mitchell]], *Theory of categories*, Pure and Applied Mathematics **17**, Academic Press (1965) &lbrack;[ISBN:978-0-12-499250-4](https://www.elsevier.com/books/theory-of-categories/mitchell/978-0-12-499250-4)&rbrack;
 
 
-* [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
+* [[Saunders MacLane]] (notes by [[Ellis Cooper]]), *[[Lectures on category theory]]*, Bowdoin Summer School (1969)  
 
-* [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
+* {#Hilton69} [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications_, 
 
-* [[Bodo Pareigis]], _Categories and functors_, 1970 ([pdf](https://epub.ub.uni-muenchen.de/7244/1/7244.pdf))
+  vol 1: Lecture Notes in Mathematics **86**, Springer (1969) &lbrack;[doi:10.1007/BFb0079380](https://doi.org/10.1007/BFb0079380)&rbrack;
+
+  vol 2: Lecture Notes in Mathematics **92**, Springer (1969) &lbrack;[doi:10.1007/BFb0080761](https://doi.org/10.1007/BFb0080761)&rbrack;
+
+  vol 3: Lecture Notes in Mathematics **99**, Springer (1969) &lbrack;[doi:10.1007/BFb0081959](https://doi.org/10.1007/BFb0081959)&rbrack;
+
+* {#Pareigis70} [[Bodo Pareigis]], section 2.2 in: *Categories and Functors*, Pure and Applied Mathematics **39**, Academic Press (1970) &lbrack;[doi:10.5282/ubm/epub.7244](https://doi.org/10.5282/ubm/epub.7244), [pdf](https://epub.ub.uni-muenchen.de/7244/1/7244.pdf)&rbrack;
 
 * {#MacLane97} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
