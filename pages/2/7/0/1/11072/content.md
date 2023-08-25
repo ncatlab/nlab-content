@@ -254,9 +254,13 @@ Note that the !-modality obtained from the corollary is [[idempotent comonad|ide
 
 In [[dependent linear homotopy type theory]] the "linear-nonlinear adjunction" is naturally identified ([Ponto & Shulman (2012), Ex. 4.2](#PontoShulman12), see also [Schreiber (2014), Sec. 4.2](#Schreiber14)) with the [[stabilization]] [[adjoint functor|adjunction]] between [[homotopy types]] and [[stable homotopy types]] ([Riley (2022), Prop. 2.1.31](#Riley22Thesis)), whose [[left adjoint]] (forming [[suspension spectra]] $\Sigma^\infty_+$) is equivalently given (cf. [Riley (2022), Rem. 2.4.13](#Riley22Thesis)) by sending $B \,\colon\, Type$ to the linear [[dependent sum]] $\star_B \mathbb{1} \;\coloneqq\; (p_B)_! (p_B)^\ast \mathbb{1}$ over the monoidal unit in the context $B$. In terms of [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) this is forming the "linear randomization" of the given classical homotopy type (its "[[motive]]"): 
 
+\[
+  \label{MotivizationInLHott}
+\]
+
 \begin{imagefromfile}
-    "file_name": "MotivizationInLHoTT-221111.jpg",
-    "width": "350",
+    "file_name": "MotivizationInLHoTT-230825b.jpg",
+    "width": "460",
     "unit": "px",
     "margin": {
         "top": -20,
@@ -266,11 +270,10 @@ In [[dependent linear homotopy type theory]] the "linear-nonlinear adjunction" i
     }
 \end{imagefromfile}
 
-Curiously, this homotopy-theoretic realization of the exponential modality
+
+Curiously, this homotopy-theoretic realization of the exponential modality (beware the little subtlety of whether or not to reflect onto [[pointed homotopy types]])
 
 $$
-  ! 
-  \;\equiv\; 
   \Sigma^\infty \circ \Omega^\infty
   \;\colon\;
   Spectra \to Spectra
