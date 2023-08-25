@@ -272,7 +272,7 @@ The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264 ([doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
-* Susan Montgomery, _Hopf algebras and their action on rings_, AMS 1994, 240p.
+* Susan Montgomery, _Hopf algebras and their actions on rings_, AMS 1994, 240p.
 
 * B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
 
