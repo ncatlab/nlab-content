@@ -243,6 +243,9 @@ Some categories possess all [[binary products]] and [[coproducts]] but they are 
 
 * {#MacLane} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_
 
+* {#Lawvere92} [[William Lawvere]], around p. 56 of: *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
+
+
 * {#Lack09} [[Stephen Lack]], _Non-canonical isomorphisms_, ([arXiv:0912.2126](http://arxiv.org/abs/0912.2126)).
 
 * {#Houston06} [[Robin Houston]], _Finite Products are Biproducts in a Compact Closed Category_, Journal of Pure and Applied Algebra, Volume 212, Issue 2, February 2008, Pages 394-400 ([arXiv:math/0604542](http://arxiv.org/abs/math/0604542))
