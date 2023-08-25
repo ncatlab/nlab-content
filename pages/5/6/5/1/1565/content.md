@@ -9,17 +9,20 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, get it?).  
+In [[algebra]], by a _rig_ one means a [[mathematical structure]] much like a [[ring]] but without the assumption that every element has an additive inverse, hence without the assumption of *negatives* (whence the omission of "n" from "ring" &lbrack;[Lawvere 1992, p. 2](#Lawvere92)&rbrack;)
 
-## Rigs and semirings
 
+\begin{remark}
+**(Terminology: Rigs and semirings)**
 Rigs are commonly also called _semirings_, but the term 'semiring' is overloaded in the mathematics literature, with different authors each defining a semiring to be different algebraic structures from each other. See [[semiring]] for a discussion about the various definitions of semirings; only one of the proposed definitions is the same as the rig definition. 
+\end{remark}
 
 ## Definition
  {#Definition}
@@ -99,6 +102,10 @@ Some rigs which are neither rings nor distributive lattices include:
 * [[multiplicatively cancellable rig]]
 
 ## References
+
+
+* {#Lawvere92} [[William Lawvere]], pp. 1 of: *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
+
 
 * {#Golan1999} Jonathan S. Golan, _Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
 * {#Golan2003} Jonathan S. Golan, _Semirings and affine equations over them: theory and applications_ (Vol. 556). Springer Science & Business Media, 2003.
