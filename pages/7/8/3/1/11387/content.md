@@ -13,3 +13,6 @@ On [[generic representation theory]]:
 
 
 category: people
+
+[[!redirects Nicholas J. Kuhn]]
+
