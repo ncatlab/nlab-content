@@ -57,10 +57,15 @@ which verifies the properties that the [[unit]] would verify if $C$ was a [[bimo
  {#Examples}
 
 \begin{example}
-A comonoid object in [[VectorSpaces]] (with its usual [[tensor product of vector spaces]]) is called a *[[coalgebra]]*.
+**(coassociative coalgebras)**
+A comonoid object in [[VectorSpaces]] (with its usual [[tensor product of vector spaces]]) is called a *[[coalgebra]]*. 
+
+(Beware though that the term "coalgebra" is overused in many ways, for instance in *[[coalgebras for endofunctor]]*. To be more specific to the linear-algebraic context one can say *[[coassociative coalgebra]]*.)
 \end{example}
 
 \begin{example}\label{InACartesianMonoidalCategory}
+**(cartesian comonoids)**
+\linebreak
 Every [[set]] carries a *unique* [[structure]] of a comonoid in the category of [[Sets]] with respect to the usual [[cartesian product]].  
 
 Generally, every object $X \,\in\, \mathcal{C}$ in a [[cartesian monoidal category]] $(\mathcal{C}, \ast, \times)$ becomes (see also [there](cartesian+monoidal+category#ComonoidObjects)) a ([[cocommutative coalgebra|cocommutative]]) comonoid by taking the
@@ -69,9 +74,15 @@ Generally, every object $X \,\in\, \mathcal{C}$ in a [[cartesian monoidal catego
 
 * coproduct to be the [[diagonal morphism]] $diag_X \,\colon\, X \to X \times X$. 
 
-Obvious as this may be, it plays a somewhat profound role in various contexts: 
+The analogous statement remains true for [[cartesian monoidal (infinity,1)-categories]] (see [there](https://ncatlab.org/nlab/show/cartesian+monoidal+infinity,1-category#CoalgebraObjects)).
+\end{example}
 
-* In the case of [[topological spaces]] or other models of  classical [[homotopy types]], and using that the [[suspension spectrum]]-construction is a [[strong monoidal functor]], this implies the remarkable fact that [[suspension spectra]] carry [[coring spectrum]]-[[structure]], see [there](suspension+spectrum#SmashMonoidalDiagonals) for more.
+Obvious as Exp. \ref{InACartesianMonoidalCategory} may be, it plays a somewhat profound role in various contexts: 
+
+\begin{example}
+**([[suspension spectra|suspension]] [[coring spectra]])**
+\linebreak
+In the case of [[topological spaces]] or other models of  classical [[homotopy types]], and using that the [[suspension spectrum]]-construction is a [[strong monoidal functor]], Exp. \ref{InACartesianMonoidalCategory} implies the remarkable fact that [[suspension spectra]] carry [[coring spectrum]]-[[structure]] via [smash-monoidal diagonals](suspension+spectrum#SmashMonoidalDiagonals).
 
 \end{example}
 
