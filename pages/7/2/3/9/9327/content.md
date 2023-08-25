@@ -37,7 +37,9 @@ In the special case that the underlying [[(∞,1)-category]] is equivalent to ju
 ### Coalgebra objects
  {#CoalgebraObjects}
 
- Every object in a Cartesian monoidal $\infty$-category is canonically a [[comonoid object]] via the [[diagonal map]]. See also at _[[(infinity,n)-category of correspondences]]_ the section _[Via coalgebras](%28infinity%2Cn%29-category+of+correspondences#DefinitionViaCoalgebras)_.
+ Every object in a Cartesian monoidal $\infty$-category is canonically a [[comonoid object]] via the [[diagonal map]] (just as in the 1-categorical case [here](comonoid#InACartesianMonoidalCategory)). 
+
+See also at _[[(infinity,n)-category of correspondences]]_ the section _[Via coalgebras](%28infinity%2Cn%29-category+of+correspondences#DefinitionViaCoalgebras)_.
 
 
 ## References
