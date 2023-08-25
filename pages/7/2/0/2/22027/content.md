@@ -126,7 +126,7 @@ is a [[strong monoidal functor]] from [[pointed topological spaces]] (eq:SmashMo
   \big)  
 \]
 
-to their respective [[symmetric smash product of spectra]].
+to their respective [[symmetric smash product of spectra]], which hence makes them into *[[comonoid objects]]*, namely *[[coring spectra]]*.
 
 For example, given a [[Whitehead-generalized cohomology theory]] $\widetilde E$ [[Brown representability theorem|represented]] by a  [[ring spectrum]]  
 
