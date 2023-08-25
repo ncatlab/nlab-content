@@ -49,9 +49,10 @@ There is a [[category]] $Aut$ whose [[object|objects]] are deterministic sequent
 
 ## Examples
 
+* [[Mealy machine]]
+
 * [[Moore machine]]
 
-* [[Mealy machine]]
 
 ## Variants
 
@@ -100,9 +101,13 @@ Review:
 
 category:computer science
 
-[[!redirects automaton]]
 [[!redirects automata]]
+[[!redirects automatons]]
+
 [[!redirects Aut]]
 
 [[!redirects finite state automaton]]
 [[!redirects finite state automatons]]
+[[!redirects finite state automata]]
+
+
