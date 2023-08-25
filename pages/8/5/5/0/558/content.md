@@ -528,9 +528,9 @@ The name "Homotopy Hypothesis" for this statement is due to
 
 More recently [[Georges Maltsiniotis]] has revived the approach to $\infty$-groupoids that Grothendieck initiated in _Pursuing Stacks_ - see [[Grothendieck ∞-groupoids]] - and work has begun on proving the homotopy hypothesis for Grothendieck ∞-groupoids.  For a review of progress so far, see:
 
-* {#HenryLanari} Simon Henry and Edoardo Lanari, On the homotopy hypothesis in dimension 3.  ([arxiv/1905.05625](https://arxiv.org/abs/1905.05625)).
+* {#HenryLanari} [[Simon Henry]], [[Edoardo Lanari]], *On the homotopy hypothesis in dimension 3*, Theory and Applications of Categories **39** 26 (2023) 735-768 &lbrack;[arxiv/1905.05625](https://arxiv.org/abs/1905.05625), [tac:39-26](http://www.tac.mta.ca/tac/volumes/39/26/39-26abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/39/26/39-26.pdf)&rbrack;.
 
-These authors have reduced the hypothesis to a conjecture which has so far been proved only up to dimension, hence the title of their paper.
+These authors have reduced the hypothesis to a conjecture which has so far been proved only up to dimension 3, hence the title of their paper.
 
 Technical reviews of Quillen's proof of a version of the homotopy hypothesis include:
 
