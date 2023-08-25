@@ -1,4 +1,4 @@
-fhupf
+
 > This entry is about [[monads]] as known from [[categorical algebra]] but in their application to [[computer science]]. See also at *[[monad (disambiguation)]]*.
 
 ***
@@ -605,7 +605,9 @@ Various monads are _definable_ in terms of standard [[type formation|type-formin
 #### State monad and Random access memory
  {#StateMonad}
 
-A [[functional program]] with input of [[type]] $D$, output of [[type]] $D'$ and mutable state $W$ is a [[function]] ([[morphism]]) of [[type]] $D \times W \longrightarrow D' \times W$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $D \longrightarrow [W, W \times D' ]$. Here the operation $[W, W\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[W, W\times (-)]$ is called the _[[state monad]]_ for mutable states of type $W$:
+A [[functional program]] with input of [[type]] $D$, output of [[type]] $D'$ and *mutable state $W$* is a [[function]] ([[morphism]]) of [[type]] $D \times W \longrightarrow D' \times W$ -- also called a *[[Mealy machine]]* (see [there](Mealy+machine#MealyMachinesAsEffectfulMaps)). 
+
+Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] ([[currying]]) this is equivalently given by its [[adjunct]], which is a function of type $D \longrightarrow [W, W \times D' ]$. Here the operation $[W, W\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[W, W\times (-)]$ is called the _[[state monad]]_ for mutable states of type $W$:
 
 <center>
 <img src="/nlab/files/State-Effectful-Program-230804.jpg" width="600">
