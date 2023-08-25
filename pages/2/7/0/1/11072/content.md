@@ -276,7 +276,7 @@ $$
   Spectra \to Spectra
 $$
 
-has independently been argued to have properties of an [[exponential map]] in the context of [[Goodwillia calculus]].
+has independently been argued to have properties of an [[exponential map]] in the context of [[Goodwillie calculus]], see [there](Goodwillie+calculus#GoodwillieDerivativeOfExponentialModality).
 
 
 ## Modal term calculi
