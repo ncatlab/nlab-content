@@ -33,7 +33,7 @@ A [[functional program]] with
 
    (e.g. the state of a "random access memory" device, cf. [Yates (2019), p. 26 & Fig. 1.10](#Yates19)) 
 
-is clearly a [[function]] ([[morphism]]) of [[function type]] between the [[product types]] with $W$: 
+{#IsClearly} is clearly a [[function]] ([[morphism]]) of [[function type]] between the [[product types]] with $W$ (also known as a *[[Mealy machine]]*, see [there](Mealy+machine#MealyMachinesAsEffectfulMaps)) 
 
 $$
   prog 
@@ -85,7 +85,9 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 ## Related concepts
 
-* [[maybe monad]],
+* [[Mealy machine]]
+
+* [[maybe monad]]
 
 * [[continuation monad]]
 
