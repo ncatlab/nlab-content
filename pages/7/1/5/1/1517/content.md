@@ -129,8 +129,10 @@ More information may be found at [[coalgebra of the real interval]].
 
 ## References
 
-* [[Jiri Adamek]], _[Introduction to coalgebras](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html)_ ,
-_Theory and Applications of Categories_, Vol. 14 (2005), No. 8, 157-199.
+* {#Pattinson03} [[Dirk Pattinson]], *An Introduction to the Theory of Coalgebras* (2003) &lbrack;[pdf](https://nasslli.sitehost.iu.edu/2003/datas/DirkPattinson.pdf), [[Pattinson-Coalgebras.pdf:file]]&rbrack;
+
+* [[Jiri Adamek]], *Introduction to coalgebras*,
+Theory and Applications of Categories **14** 8 (2005) 157-199 &lbrack;[tac:14-08](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/14/8/14-08.pdf)&rbrack;
 
 There are connections between the theory of coalgebras and [[modal logic]]  for which see
 
