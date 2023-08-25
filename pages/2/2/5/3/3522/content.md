@@ -314,15 +314,19 @@ $$
   Spectra \to Spectra
 $$
 
-[induced](monad#RelationBetweenAdjunctionsAndMonads) from the [[stabilization]]-[[adjoint (infinity,1)-functor|adjunction]] is (see [there](!-modality#RealizationInLinearHomotopyTypeTheory)) the [[exponential modality]] in [[linear homotopy type theory]] (or rather the un-pointed version is). Indeed, in Goodwillie calculus it behaves like an [[exponential function]] ("minus 1"), for instance in that on [[suspension spectra]] $\mathbb{X} \equiv \Sigma^\infty_+ X$ we have
+[induced](monad#RelationBetweenAdjunctionsAndMonads) from the [[stabilization]]-[[adjoint (infinity,1)-functor|adjunction]] is (see [there](!-modality#RealizationInLinearHomotopyTypeTheory)) the [[exponential modality]] in [[linear homotopy type theory]] (or rather the un-pointed version is). Indeed, in Goodwillie calculus it behaves like an [[exponential function]] ("minus 1"), for instance in that 
 
-$$
-  \Sigma^\infty \Omega^\infty \mathbb{X}
-  \;\simeq\;
-  \underset{n \geq 1}{\oplus}
-  \mathbb{X}^{\wedge n} \sslash Sym(n)
-  \,.
-$$
+* all its higher [[Goodwillie derivatives]] are the [[unit object|unit]] [[sphere spectrum]], and
+
+* on [[suspension spectra]] $\mathbb{X} \equiv \Sigma^\infty_+ X$ we have
+
+  $$
+    \Sigma^\infty \Omega^\infty \mathbb{X}
+    \;\simeq\;
+    \underset{n \geq 1}{\oplus}
+    \mathbb{X}^{\wedge n} \sslash Sym(n)
+    \,.
+  $$
 
 ([Arone & Ching 2019, Exp. 2.6](#AroneChing19), using [Ahearn & Kuhn 2002, Cor. 1.3](#AhearnKuhn02))
 
