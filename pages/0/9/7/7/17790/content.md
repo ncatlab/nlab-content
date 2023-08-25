@@ -78,6 +78,12 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 =--
 
+
+## References
+
+* *Tensor Products*, §III.89 in: *The Princeton Companion to Mathematics* (2009) &lbrack;[doi:10.1515/9781400830398.301a](https://doi.org/10.1515/9781400830398.301a)&rbrack;
+
+
 ## Related concepts
 
 * [[tensor product of modules]]
