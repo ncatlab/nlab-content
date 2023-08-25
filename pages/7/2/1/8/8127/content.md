@@ -61,6 +61,12 @@ An __[[affine linear combination]]__ is a linear combination whose coefficients 
 
 If $R$ is [[ordered ring|ordered]], then a __[[conical linear combination]]__ is a linear combination whose coefficients are all positive, and a __[[convex linear combination]]__ an affine conical linear combination.  These are the operations in (respectively) a [[conical space]] and a [[convex space]].
 
+## References
+
+* {#Lawvere92} [[William Lawvere]], pp. 33 of: *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
+
+
+
 
 [[!redirects linear combination]]
 [[!redirects linear combinations]]
