@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _Moore machine_ is a particular type of [[finite state automaton]].
+_Moore machines_ are a special type of [[finite state automata]] and in particular a special case of *[[Mealy machines]]* (see there for more).
 
 ## Definition
 
