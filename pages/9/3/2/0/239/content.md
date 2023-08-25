@@ -192,14 +192,17 @@ Lecture notes:
 
 * [[Keith Conrad]], *Tensor products* &lbrack;part I:[pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf), [[Conrad-TensorProductsI:file]]; part II: [pdf](https://kconrad.math.uconn.edu/blurbs/linmultialg/tensorprod2.pdf), [[Conrad-TensorProductsII:file]]&rbrack;
 
+For more on the  
+
+* [[tensor product of modules]]
+
+* [[tensor product of vector spaces]]
+
+see there.
 
 For the [[category theory|category theoretic]] formalization of tensor products see the references at
 
 * *[[monoidal category]]* and *[[tensor category]]*
-
-A characterization for tensor products of $R$-modules in terms of [[heteromorphisms]]:
-
-* David Ellerman, Section 9 of: _Mac Lane, Bourbaki, and Adjoints: A Heteromorphic Retrospective_ ([pdf](http://www.ellerman.org/wp-content/uploads/2015/06/Maclane-Bourbaki-Redux.pdf))
 
 Formalization of tensor products in [[dependent linear type theory]]:
 
