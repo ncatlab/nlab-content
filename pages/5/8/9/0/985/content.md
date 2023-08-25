@@ -141,7 +141,7 @@ and more related categorical and topos theoretic aspects in
 
 A very approachable account is given in 
 
-* Marco Ant&#242;nio Delgado Robalo, _Galois theory towards dessins d'enfants_, masters thesis, Lisboa 2009, [pdf](https://dspace.ist.utl.pt/bitstream/2295/575330/1/dissertacao.pdf)
+* Marco Ant&#242;nio Delgado Robalo, _Galois theory towards dessins d'enfants_, masters thesis, Lisboa 2009, [pdf](https://fenix.tecnico.ulisboa.pt/downloadFile/395139415315/dissertacao.pdf)
 
 (This has the advantage of looking towards Grothendieck's [[children's drawing|dessins d'enfants]].)
 
