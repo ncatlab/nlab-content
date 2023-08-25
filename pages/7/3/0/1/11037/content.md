@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _cut rule_ in [[sequent calculus]] ([[formal logic]]) is the rule that from [[sequents]] of the form
+The _cut rule_ in [[sequent calculus]] ([[formal logic]]) is the [[structural rule|structural]] [[inference rule]] that from [[sequents]] of the form
 
 $$
   \Gamma \vdash A , \Delta
@@ -139,6 +139,14 @@ Unfortunately, the algorithmic aspect of cut elimination is rarely presented as 
 We're not sure whether there isn't such an algorithm of cut elimination for [[classical logic]] and this an ongoing subject of research. We can think that the usual sequent calculus of classical logic must be modified by using ideas such as [[polarity in type theory|polarization]] and [[focusing]] in order to understand the computational content of the cut elimination of classical logic.
 
 ## References
+
+The notion of the cut rule as a [[structural inference rule]] originates (under the German name *Schnitt*) with: 
+
+* {#Gentzen35} [[Gerhard Gentzen]], §1.2.1 in: _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ **39** 1 (1935) &lbrack;[doi:10.1007/BF01201353](http://dx.doi.org/10.1007/BF01201353)&rbrack;
+
+* {#Gentzen69} [[Gerhard Gentzen]], §1.21 in: *Investigations into Logical Deduction*, in M. E. Szabo (ed.), *The Collected Papers of Gerhard Gentzen*, Studies in Logic and the Foundations of Mathematics **55**, Springer (1969) 68-131 &lbrack;[ISBN:978-0-444-53419-4](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/55), [pdf](https://logic-teaching.github.io/prop/texts/Gentzen%201969%20-%20Investigations%20into%20Logical%20Deduction.pdf)&rbrack;
+
+
 
 * Wikipedia, _[Cut-elimination theorem](http://en.wikipedia.org/wiki/Cut-elimination_theorem)_
 
