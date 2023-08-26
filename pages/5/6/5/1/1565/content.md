@@ -9,19 +9,18 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[algebra]], by a _rig_ one means a [[mathematical structure]] much like a [[ring]] but without the assumption that every element has an additive inverse, hence without the assumption of *negatives* (whence the omission of "n" from "ring" &lbrack;[Lawvere 1992, p. 2](#Lawvere92)&rbrack;)
+In [[algebra]], by a _rig_ one means a [[mathematical structure]] much like a [[ring]] but without the assumption that every element has an additive inverse, hence without the assumption of *negatives* (whence the omission of "n" from "ring" &lbrack;[Schanuel 1991 p. 379](#Schanuel91), [Lawvere 1992 p. 2](#Lawvere92)&rbrack;)
 
 
 \begin{remark}
 **(Terminology: Rigs and semirings)**
-Rigs are commonly also called _semirings_, but the term 'semiring' is overloaded in the mathematics literature, with different authors each defining a semiring to be different algebraic structures from each other. See [[semiring]] for a discussion about the various definitions of semirings; only one of the proposed definitions is the same as the rig definition. 
+Rigs are commonly also called _semirings_, but the term 'semiring' is overloaded in the mathematics literature, with different authors each defining a semiring to be different algebraic structures from each other. See *[[semiring]]* for a discussion about the various definitions of semirings; only one of the proposed definitions is the same as the one of *rigs* as considered here. 
 \end{remark}
 
 ## Definition
@@ -103,14 +102,22 @@ Some rigs which are neither rings nor distributive lattices include:
 
 ## References
 
+Early use of the terminology "rig" is due to:
+
+* {#Schanuel91} [[Stephen H. Schanuel]], p. 379 of: *Negative sets have Euler characteristic and dimension*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) 379–385 &lbrack;[doi:10.1007/BFb0084232](https://doi.org/10.1007/BFb0084232)&rbrack;
 
 * {#Lawvere92} [[William Lawvere]], pp. 1 of: *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
 
+Discussion under the name *semirings*:
 
 * {#Golan1999} Jonathan S. Golan, _Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
+
 * {#Golan2003} Jonathan S. Golan, _Semirings and affine equations over them: theory and applications_ (Vol. 556). Springer Science & Business Media, 2003.
+
 * [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
+
 * wikipedia [semiring](http://en.wikipedia.org/wiki/Semiring)
+
 * J. Jun, S. Ray, J. Tolliver, _Lattices, spectral spaces, and closure operations on idempotent semirings_, [arxiv/2001.00808](https://arxiv.org/abs/2001.00808)
 
 
