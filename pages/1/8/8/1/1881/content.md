@@ -112,7 +112,7 @@ In [[computer science]], the free monoid on a given [[alphabet]] is the [[catego
 
 ## The free monoid monad
 
-If the free monoid functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important in [[computer science]], where it is known as the __[[list monad]]__.
+If the free monoid functor $F\colon Set \to Mon$ is followed by the forgetful functor $U\colon Mon \to Set$, then we get a [[monad]] on $Set$.  This monad is very important as a [[monad in computer science]], where it is known as the __[[list monad]]__.
 
 The list monad bears the same relation to [[multicategories]] as the [[identity monad]] on $Set$ bears to ordinary [[categories]].  This relation should be explained at [[generalized multicategory]].
 
