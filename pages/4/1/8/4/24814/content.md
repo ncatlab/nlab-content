@@ -17,6 +17,10 @@ More specifically on [[domain specific embedded programming languages]]:
 
 * [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=685738), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
 
+On the history of the development of the [[Haskell]] [[programming language]]:
+
+* [[Paul Hudak]], [[John Hughes]], [[Simon Peyton Jones]], [[Philip Wadler]], *A history of Haskell: being lazy with class*, History of Programming Languages (2007) 12-1 - 12-55 &lbrack;[doi:10.1145/1238844.1238856](https://doi.org/10.1145/1238844.1238856)&rbrack;
+
 
 ## Related entries
 
