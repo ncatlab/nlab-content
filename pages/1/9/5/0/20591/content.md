@@ -42,7 +42,7 @@ and [[functions]]
 
 and often an [[element]]
 
-* $q_0 \in S$, the _initial state_.
+* $s_0 \in S$, the _initial state_.
 
 \end{definition}
 
@@ -74,6 +74,7 @@ But of course, by the same token  (eq:MealyMachineAsMapBetweenProducts) is also 
 \[
   \label{MealyMachineAsStateEffectufulFunction}
   I \longrightarrow \big[S ,\, S \times O \big]
+  \, 
 \]
 
 which makes more manifest how a Mealy machine is a map sending input $i \in I$ to output $o \in O$ after also reading out a stated $s \in S$ and then also updating that state.
@@ -198,7 +199,7 @@ Concisely, there is an [[equivalence of categories]]
 between $I$-semiautomata and the [[Eilenberg-Moore category]] of the monad [[action monad|induced]] by the monoid $I^*$.
 \end{remark}
 
-Then, a Mealy machine as in Def. \ref{FoscoDefinition} consists (except for the specification of the initial state) of a [[span]]
+Then, a Mealy machine as in Def. \ref{FoscoDefinition} consists indeed of a [[span]]
 \[ 
   S \leftarrow S\otimes I \to O
   \,.
@@ -223,7 +224,7 @@ The notion is due to:
 
 * {#Mealy55} [[George H. Mealy]], *A Method for Synthesizing Sequential Circuits*, Bell System Technical Journal **34** 5 (1955) 1045-1079 &lbrack;[doi:10.1002/j.1538-7305.1955.tb03788.x](https://doi.org/10.1002/j.1538-7305.1955.tb03788.x)&rbrack;
 
-
+For discussion in the context of [[finite state automata]] see:
 
 * [[Mark V. Lawson]], *Finite automata*, CRC Press (2003) &lbrack;[webpage](http://www.ma.hw.ac.uk/~markl/books.html), course notes:[pdf](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf)&rbrack;
 
