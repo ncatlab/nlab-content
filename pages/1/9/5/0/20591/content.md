@@ -26,7 +26,7 @@ A _Mealy machine_ (named after [Mealy 1955](#Mealy55)) -- traditionally understo
 \label{DefinitionInComponents}
 **(traditional component definition)**
 \linebreak
-A finite _Mealy machine_, $\mathbf{A}$, consists of [[finite sets]]
+A (finite) _Mealy machine_ consists of ([[finite sets|finite]]) [[sets]]
 
 * $S$, of _states_;
 
@@ -49,7 +49,7 @@ and often an [[element]]
 \begin{remark}\label{MealyMachinesAsEffectfulMaps}
 **(Mealy machines as effectful maps)**
 \linebreak
-More concisely a Mealy machine as in Def. \ref{DefinitionInComponents} is (except for the specification of the initial state) just a [[map]] between [[Cartesian products]] of this form:
+More concisely, a Mealy machine as in Def. \ref{DefinitionInComponents} is (except for the specification of the initial state) just a [[map]] between [[Cartesian products]] of this form:
 
 \[
   \label{MealyMachineAsMapBetweenProducts}
