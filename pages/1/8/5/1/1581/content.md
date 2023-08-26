@@ -64,4 +64,12 @@ Given any linearly independent set $A$ and spanning set $C$, if $A \subseteq C$,
 
 ## References
 
-* {#Blass84} [[Andreas Blass]], _Existence of bases implies the axiom of choice_, Contemporary Mathematics **31** (1984) pp. 31-33, [doi:10.1090/conm/031](https://doi.org/10.1090/conm/031), ([author pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf))
+The original proof of the existence of [[Hamel bases]] (after which the concept was named) was for the case of the [[real numbers]] regarded as a [[rational vector space]] and used (not directly [[Zorn's lemma]] but) the [[well-ordering theorem]]:
+
+* {#Hamel1905} [[Georg Hamel]], pp. 460 in: *Eine Basis aller Zahlen und die unstetigen Lösungen der Funktionalgleichung: $f(x + y) = f(x) + f(y)$*, Mathematische Annalen **60** (1905) 459–462 &lbrack;[doi:10.1007/BF01457624](https://doi.org/10.1007/BF01457624)&rbrack;
+
+See also: 
+
+* {#Blass84} [[Andreas Blass]], *Existence of bases implies the axiom of choice*, Contemporary Mathematics **31** (1984) 31-33 &lbrack;[doi:10.1090/conm/031](https://doi.org/10.1090/conm/031) [pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf)&rbrack;
+
+
