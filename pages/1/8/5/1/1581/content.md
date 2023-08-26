@@ -68,6 +68,11 @@ The original proof of the existence of [[Hamel bases]] (after which the concept 
 
 * {#Hamel1905} [[Georg Hamel]], pp. 460 in: *Eine Basis aller Zahlen und die unstetigen Lösungen der Funktionalgleichung: $f(x + y) = f(x) + f(y)$*, Mathematische Annalen **60** (1905) 459–462 &lbrack;[doi:10.1007/BF01457624](https://doi.org/10.1007/BF01457624)&rbrack;
 
+Lecture notes:
+
+* [[Christoph Schweigert]], *Basis und Dimension*, §2.4 in:  *Lineare Algebra*, lecture notes, Hamburg (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/laskript.pdf)&rbrack;
+
+
 See also: 
 
 * {#Blass84} [[Andreas Blass]], *Existence of bases implies the axiom of choice*, Contemporary Mathematics **31** (1984) 31-33 &lbrack;[doi:10.1090/conm/031](https://doi.org/10.1090/conm/031) [pdf](https://dept.math.lsa.umich.edu/~ablass/bases-AC.pdf)&rbrack;
