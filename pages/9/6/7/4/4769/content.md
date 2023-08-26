@@ -172,7 +172,7 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 ## Related concepts
 
-* [[pane wave]]
+* [[plane wave]]
 
 * [[flow of a vector field]]
 
