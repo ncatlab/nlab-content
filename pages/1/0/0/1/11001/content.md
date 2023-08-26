@@ -12,6 +12,10 @@ On [[monads in computer science]]:
 
 * [[Philip Wadler]], *The essence of functional programming*, *POPL '92: Principles of programming languages* (1992) 1-14 &lbrack;[doi:10.1145/143165.143169](https://doi.org/10.1145/143165.143169), [pdf](https://jgbm.github.io/eecs762f19/papers/wadler-monads.pdf)&rbrack;
 
+Introducing the [[IO-monad]] (then adopted in [[Haskell]]):
+
+* [[Simon L. Peyton Jones]], [[Philip Wadler]], *Imperative functional programming*, Principles of programming languages (1993) 71–84 &lbrack;[doi:10.1145/158511.158524](https://doi.org/10.1145/158511.158524), [pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf)&rbrack;
+
 
 On [[syntax]] and [[categorical semantics]] of [[linear logic]] with an [[exponential modality]]:
 
