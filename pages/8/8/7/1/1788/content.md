@@ -1,4 +1,17 @@
 
+\begin{imagefromfile}
+    "file_name": "KleisliCompositeInDoNotation-230826.jpg",
+    "width": "520",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 \begin{tikzcd}[sep=20pt]
   & I \otimes S
   \ar[dl, "{ \mathrm{out} }"{sloped}]
