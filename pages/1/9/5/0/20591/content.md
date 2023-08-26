@@ -34,7 +34,7 @@ A finite _Mealy machine_, $\mathbf{A}$, consists of [[finite sets]]
 
 and [[functions]]
 
-* $trans \colon S \times I \to S$, a _transition function_;
+* $trans \colon S \times I \to S$, a _transition function_ (the pair $(S,trans)$ is sometimes called a ($I$-)_semiautomaton_, cf. [Kilp et al](#KilpKnauerMikhal));
 
 * $out \colon S \times I \to O$, an _output function_
 
@@ -47,19 +47,28 @@ and often an [[element]]
 \begin{remark}\label{MealyMachinesAsEffectfulMaps}
 **(Mealy machines as effectful maps)**
 \linebreak
-More generally and concisely, a Mealy machine can be defined in any [[symmetric monoidal category]] $(\mathcal{C},\otimes,1)$ as an object of the following pullback in [[Cat]]: 
+More generally and concisely, a Mealy machine with (finite or infinite) input alphabet $I$ and output alphabet $O$ can be defined in any [[symmetric monoidal category]] $(\mathcal{C},\otimes,1)$ as an object of the following pullback $Mly(I,O)$ in [[Cat]]: 
 \begin{centre}
 \begin{tikzcd}
-Mly(I,O)\ar[r]\ar[d] & \mathcal{C}/O \ar[d, "V"]\\ 
+Mly(I,O)\ar[r]\ar[d] & (-\otimes I)/O \ar[d, "V"]\\ 
 Alg(-\otimes I) \ar[r, "U"']& \mathcal{C}
 \end{tikzcd}
 \end{centre}
-where $Alg(-\otimes I)$ is the category of endofunctor algebras for $-\otimes I : \mathcal{C}\to\mathcal{C} : S\mapsto S\otimes I$, $U$ the forgetful functor, and $V$ the domain functor from the [[slice category]] $\mathcal{C}/O$.
+Here, $Alg(-\otimes I)$ is the category of endofunctor algebras for $-\otimes I : \mathcal{C}\to\mathcal{C} : S\mapsto S\otimes I$, $U$ the forgetful functor, and similarly, $(-\otimes I)/O$ is the [[comma category]] of morphisms $out : X\otimes I\to O$, and $V$ the forgetful functor $(X,out)\mapsto X$.
+\end{remark}
+\begin{remark}
+If $\mathcal{C}$ has countable [[coproduct|coproducts]], a semiautomaton $trans : S\otimes I \to S$ consists of an [[action#actions_of_a_monoid|action]] of the free monoid on $I$, $\sum_{n=0}^\infty I^{\otimes n}$; this is well-explained [[action#actions_of_a_set|_ibi_]]. 
+
+Concisely, there is an equivalence of categories
+\[
+  Alg(-\otimes I) \simeq EM(I^*)
+\]
+between $I$-semiautomata and the [[Eilenberg-Moore category]] of the monad [[action monad|induced]] by the monoid $I^*$.
 \end{remark}
 
 Then, a Mealy machine as in Def. \ref{DefinitionInComponents} consists (except for the specification of the initial state) of a span
 \[ 
-  E \leftarrow E\otimes I \to O
+  S \leftarrow S\otimes I \to O
 \]
 Unwinding this definition in the case of the category of [[Set|sets]], a Mealy machine consists of a [[map]] between [[Cartesian products]] of this form:
 \[
@@ -91,6 +100,15 @@ In fact, in this form (eq:MealyMachineAsStateEffectufulFunction) Mealy machines 
 
 For discussion of this perspective in [[Haskell]]: &lbrack;[github.com/orakaro/MonadicMealyMachine](https://github.com/orakaro/MonadicMealyMachine)&rbrack;, &lbrack;[Perone & Karachalias 2023, p. 3](#PeroneKarachalias23)&rbrack;.
 
+Second, Mealy machines in the category of sets organize in a bicategory, in the sense that the categories $Mly(I,O)$ in \ref{MealyMachinesAsEffectfulMaps} happen to be the hom-categories of a [[bicategory]]; specifically, it is possible to define [[bifunctor|bifunctors]]
+\[
+  \odot \colon  
+  Mly(Y,Z)\times Mly(X,Y) \to Mly(X,Z)
+\]
+for a bicategory $\mathcal{M}ly$ whose objects are sets. 
+
+This is the subject of &lbrack;[Katis, Sabadini, Walters 1997](#Katis1)&rbrack; and &lbrack;[Katis, Sabadini, Walters 2002](#Katis2)&rbrack;
+
 
 ## Related entries
 
@@ -121,6 +139,15 @@ Discussion via [[category theory]] and as [[coalgebras of an endofunctor]]
 * H. Hansen, Jan Rutten, *Symbolic synthesis of Mealy machines from arithmetic bitstream functions*, Scientific Annals of Computer Science **20** (2010) 97–130 &lbrack;[pub:16639](https://ir.cwi.nl/pub/16639), [pdf](https://core.ac.uk/download/pdf/301659512.pdf)&rbrack;
 
 * {#GhicaKayeSprunger22} [[Dan R. Ghica]], George Kaye, David Sprunger, Def. 25 in: *A compositional theory of digital circuits* &lbrack;[arXiv:2201.10456](https://arxiv.org/abs/2201.10456)&rbrack;
+
+* {#KilpKnauerMikhal} Kilp, Mati, Knauer, Ulrich and Mikhalev, Alexander V. *Monoids, Acts and Categories: With Applications to Wreath Products and Graphs. A Handbook for Students and Researchers*, Berlin, New York: De Gruyter, 2000. &lbrack;[https://doi.org/10.1515/9783110812909](https://doi.org/10.1515/9783110812909)&rbrack;
+
+The bicategory of Mealy machines is discussed in:
+
+* {#Katis1} P. Katis a, N. Sabadini b, R.F.C. Walters, _Bicategories of processes_, Journal of Pure and Applied Algebra, Volume 115, Issue 2, 28 February 1997, Pages 141-178. [doi:10.1016/S0022-4049(96)00012-6](https://doi.org/10.1016/S0022-4049(96)00012-6)
+
+* {#Katis2} Katis, P.; Sabadini, Nicoletta; Walters, Robert F. C. _Feedback, trace and fixed-point semantics
+_. RAIRO - Theoretical Informatics and Applications - Informatique Théorique et Applications, Volume 36 (2002) no. 2, pp. 181-194. [doi:10.1051/ita:2002009](https://doi.org/10.1051/ita:2002009)
 
 Discussion as [[state monad|stateful]]-maps:
 
