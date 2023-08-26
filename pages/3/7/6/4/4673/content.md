@@ -47,6 +47,11 @@ Introductory textbooks:
 
 * Sheldon Axler, *Linear Algebra Done Right*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-11080-6](https://doi.org/10.1007/978-3-319-11080-6)&rbrack;
 
+Lecture notes:
+
+* [[Christoph Schweigert]], *Lineare Algebra*, lecture notes, Hamburg (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/laskript.pdf)&rbrack;
+
+
 Discussion of linear algebra as [[categorical semantics]] for [[linear logic]]:
 
 * {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
