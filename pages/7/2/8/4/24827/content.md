@@ -1,5 +1,5 @@
 
-* [personal page](https://math.washington.edu/people/nelson-niu)
+* [personal page](https://nelsonniu.com)
 
 ## Selected writing
 
