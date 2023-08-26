@@ -94,6 +94,10 @@ Discussion of the [[category]] of Haskell [[types]] (see at _[[relation between 
 
 * WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
  
+History of Haskell:
+
+* {#HHPW07} [[Paul Hudak]], [[John Hughes]], [[Simon Peyton Jones]], [[Philip Wadler]], *A history of Haskell: being lazy with class*, History of Programming Languages (2007) 12-1 - 12-55 &lbrack;[doi:10.1145/1238844.1238856](https://doi.org/10.1145/1238844.1238856)&rbrack;
+
 ### Mathematics in Haskell
  {#ReferencesMathematicsInHaskell}
 
