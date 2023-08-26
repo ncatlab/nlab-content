@@ -1,4 +1,26 @@
 
+\begin{tikzcd}[sep=20pt]
+  & I \otimes S
+  \ar[dl, "{ \mathrm{out} }"{sloped}]
+  \ar[dr, "{ \mathrm{trans} }"{sloped}]
+  \ar[dd, "{ I \otimes f }"]
+  \\
+  O 
+  \ar[dd, equals]
+  && 
+  S
+  \ar[dd, "{f}"]
+  \\
+  & 
+  I \otimes S'
+  \ar[dl, "{ \mathrm{out}' }"{sloped}]
+  \ar[dr, "{ \mathrm{trans}' }"{sloped}]
+  \\
+  O && S'  
+\end{tikzcd}
+
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -246,7 +268,7 @@ The codensity monad induced by the [[Yoneda embedding]] is isomorphic to the mon
 \end{example} 
 
 \begin{example} 
-In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: A \to B$ is the relation $T/R: B \to C$ such that $(b,c)\in T/R$ iff $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. In particular, $R/R$ reduces to the identity relation $id_B$ iff whenever $(b,b')$ is such that $\forall_{a:A}\; R(a,b)\Rightarrow R(a,b')$ then $b=b'\,$, in other words, iff $R^{op}$ is _straight_ in the terminology of [[Categories, Allegories|Freyd-Scedrov 1990]], p.232.\\
+In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: A \to B$ is the relation $T/R: B \to C$ such that $(b,c)\in T/R$ iff $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. In particular, $R/R$ reduces to the identity relation $id_B$ iff whenever $(b,b')$ is such that $\forall_{a:A}\; R(a,b)\Rightarrow R(a,b')$ then $b=b'\,$, in other words, iff $R^{op}$ is _straight_ in the terminology of [[Categories, Allegories|Freyd-Scedrov 1990]], p.232.
 The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. This construction frequently recurs; see for instance [[specialization order]] for a [[topological space|topology]].
 
 \end{example} 
