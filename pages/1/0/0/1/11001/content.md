@@ -21,6 +21,10 @@ On [[syntax]] and [[categorical semantics]] of [[linear logic]] with an [[expone
 
 * {#Wadler93} [[Philip  Wadler]], *A syntax for linear logic*, in: *Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics*, Lecture Notes in Computer Science **802** Springer (1993) &lbrack;[doi:10.1007/3-540-58027-1_24](https://doi.org/10.1007/3-540-58027-1_24)&rbrack;
 
+On the history of the development of the [[Haskell]] [[programming language]]:
+
+* [[Paul Hudak]], [[John Hughes]], [[Simon Peyton Jones]], [[Philip Wadler]], *A history of Haskell: being lazy with class*, History of Programming Languages (2007) 12-1 - 12-55 &lbrack;[doi:10.1145/1238844.1238856](https://doi.org/10.1145/1238844.1238856)&rbrack;
+
 
 On [[propositions as types]]:
 
