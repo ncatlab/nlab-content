@@ -35,6 +35,13 @@ So to the programming language an IO-monad looks just like a [[state monad]] or 
 
 ## References
 
+Original discussion:
+
+* [[Simon L. Peyton Jones]], [[Philip Wadler]], *Imperative functional programming*, Principles of programming languages (1993) 71–84 &lbrack;[doi:10.1145/158511.158524](https://doi.org/10.1145/158511.158524), [pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf)&rbrack;
+
+
+Textbook account:
+
 * {#Milewski19} [[Bartosz Milewski]], §21.2.8 & §21.29 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
 
