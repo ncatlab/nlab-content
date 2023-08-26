@@ -574,7 +574,35 @@ In more detail:
         "left": 10
     }
 \end{imagefromfile}
-     
+ 
+\linebreak
+
+### Syntactic idea: Do-notation
+ {#DoNotation}
+
+Finally, to turn all this into an efficient [[programming language]] one just has to declare a convenient [[syntax]] for denoting [[Kleisli composition]]. 
+
+One such syntax is known as "*do notation*" (introduced by [[Mark Jones]] in the 1990s &lbrack;[HHPW07, p. 25](Haskell#HHPW07)&rbrack; and adopted by [[Haskell]] in [version 1.3](https://www.haskell.org/definition/from12to13.html#do), see for instance [Milewski 2019 §20.3](#Milewski19)), which aims to jointly express: 
+
+1. successive Kleisli composition in words like "do this, do that, and return the result",
+
+1. any intermediate bind-operation as "extracting" a $D$-datum $d$ out of an $\mathcal{E}(D)$-datum $E$ with notation `d <- E`
+
+like this:
+
+\begin{imagefromfile}
+    "file_name": "KleisliCompositeInDoNotation-230826.jpg",
+    "width": "520",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 
 \linebreak
 
