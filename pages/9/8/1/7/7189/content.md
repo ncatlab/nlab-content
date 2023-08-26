@@ -217,16 +217,16 @@ The codensity monad of the inclusion $FinSet \to Top$
 computes the [[Stone spectrum]] of the [[Boolean algebra]] of [[clopen subsets]]
 of a [[topological space]].
 Its algebras are precisely the [[Stone spaces]].
-([Sipoș, Theorem 2](#Sipos)). 
+([Sipoș, Theorem 2](#Sipos)). 
 \end{example}
 
 \begin{example}
 The codensity monad of the inclusion $N \to Top$, where
 $N$ denotes the [[full subcategory]] of [[Top]] consisting
-of arbitrary [[small products]] of the [[Sierpinski space|Sierpiński space]],
+of arbitrary [[small products]] of the [[Sierpinski space|Sierpiński space]],
 is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]].
 Its algebras are precisely the [[sober spaces]].
-([Sipoș, Theorem 6](#Sipos)) 
+([Sipoș, Theorem 6](#Sipos)) 
 \end{example}
 
 \begin{example}
@@ -246,7 +246,9 @@ The codensity monad induced by the [[Yoneda embedding]] is isomorphic to the mon
 \end{example} 
 
 \begin{example} 
-In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: A \to B$ is the relation $T/R: B \to C$ such that $(b,c)\in T/R$ iff $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. This construction frequently recurs; see for instance [[specialization order]] for a [[topological space|topology]]. 
+In the bicategory [[Rel]], the right Kan extension of a relation $T: A \to C$ along a relation $R: A \to B$ is the relation $T/R: B \to C$ such that $(b,c)\in T/R$ iff $\forall_{a: A}\; R(a, b) \Rightarrow T(a, c)$. In particular, $R/R$ reduces to the identity relation $id_B$ iff whenever $(b,b')$ is such that $\forall_{a:A}\; R(a,b)\Rightarrow R(a,b')$ then $b=b'\,$, in other words, iff $R^{-1}b\subseteq R^{-1}b'$ implies $b=b'$. 
+The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. This construction frequently recurs; see for instance [[specialization order]] for a [[topological space|topology]].
+
 \end{example} 
 
 ## Properties
@@ -313,6 +315,10 @@ The role in shape theory is discussed in
 The dual concept of a "model-induced cotriple":
 
 * [[Harry Applegate]], [[Myles Tierney]], *Categories with models*, in: [[Beno Eckmann]] (ed.) *[[Seminar on Triples and Categorical Homology Theory]]* Lecture Notes in Mathematics, **80**, Springer  (1969) 156-244   &lbrack;[doi:10.1007/BFb0083086](https://doi.org/10.1007/BFb0083086), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0083086)&rbrack;
+
+On possible uses in [[functional programming]]:
+
+* Ralf Hinze, *Kan extensions for program optimisation - Or: Art and Dan explain an old trick*, in: Jeremy Gibbons, Pablo Nogueira (eds.), *11th International Conference on Mathematics of Program Construction (MPC '12)*, LNCS **7342** Springer (2012) 324–362. ([doi: 10.1007/978-3-642-31113-0_16](http://dx.doi.org/10.1007/978-3-642-31113-0_16), [pdf draft](https://www.cs.ox.ac.uk/ralf.hinze/publications/MPC12.pdf)) 
 
 For a description of the [[Giry monad]] and other [[probability monads]] as codensity monads, see
 
