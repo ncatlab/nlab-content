@@ -80,3 +80,7 @@ A list of category theory conferences appears in the unpublished note:
 * [[Peter Johnstone]], *Category Theory Summer Conferences* (2023) &lbrack;[pdf](https://ncatlab.org/nlab/files/CThistory.pdf)&rbrack;
 
 category: reference
+
+[[!redirects category theory conference]]
+[[!redirects category theory conferences]]
+[[!redirects Category Theory conferences]]
