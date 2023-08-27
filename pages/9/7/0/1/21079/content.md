@@ -210,7 +210,7 @@ This is related to the notion of [[quantum measurement]], and as such is discuss
 
 * [[stream]]
 
-* [[cowriter comonad]]
+* [[list monad]]
 
 * [[action]], [[G-set]], [[equivariant map]]
 
@@ -223,6 +223,8 @@ This is related to the notion of [[quantum measurement]], and as such is discuss
 * [[monad in computer science]], 
 
   * [[function monad]]
+
+
 
 [[!include reader-writer (co)monads -- table]]
 
