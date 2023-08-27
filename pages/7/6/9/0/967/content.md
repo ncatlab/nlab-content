@@ -135,6 +135,8 @@ But cototal categories do occur:
 
 ## References
 
+* [[Syméon Bozapalides]], *Quelques Remarques sur les Cosmos Elementaires*, Δελτίο της Ελληνικής Μαθηματικής Εταιρίας 15.15 (1974) 144-151 &lbrack;[pdf](https://hdml.di.ionio.gr/pdfs/journals/1.pdf), [[Bozapalides-CosmosElementaires.pdf:file]]&rbrack;
+
 * {#StreetWalters}[[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_, Journal of Algebra, 50 no. 2 (1978), p. 350-379, [doi:10.1016/0021-8693(78)90160-6](https://doi.org/10.1016/0021-8693%2878%2990160-6),  (contains the original definition of total categories)
 
 *  {#Kelly} [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
@@ -159,7 +161,6 @@ But cototal categories do occur:
 
 * [[Ross Street]]. _Elementary cosmoi I_. Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
 
-* [[Symeon Bozapalides]]. _Quelques Remarques sur les Cosmos Elementaires_ Δελτίο της Ελληνικής Μαθηματικής Εταιρίας 15.15 (1974): 144-151. ([pdf](https://hdml.di.ionio.gr/pdfs/journals/1.pdf))
 
 [[!redirects total categories]]
 [[!redirects cototal category]]
