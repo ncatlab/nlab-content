@@ -258,6 +258,10 @@ Then on p. 9 the universal morphism that we are looking for here is identified a
 
 (This text, by the way, contains various other gems. A pity that it is left unfinished.)
 
+An early paper on free completions:
+
+* [[Věra Trnková]]. _Limits in categories and limit-preserving functors_, Commentationes Mathematicae Universitatis Carolinae 7.1 (1966): 1-73.
+
 [[!redirects free cocompletions]]
 
 [[!redirects free colimit completion]]
