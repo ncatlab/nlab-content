@@ -13,23 +13,29 @@
 
 ## Idea
 
-Recall the notion of a [[Grothendieck fibration]]: a [[functor]] $p \colon E \to B$ whose fibres $E_b$ are (contravariantly) functorial in $b \in B$.
+Recall the notion of a [[Grothendieck fibration]]: a [[functor]] $p \colon E \to B$ whose [[fibres]] $E_b$ are ([[contravariant functor|contravariantly]]) [[functor|functorial]] in $b \in B$.
 
-This idea may be generalized to work in any suitable [[2-category]] $K$, although if the 2-category is not [[strict 2-category|strict]], then one has to generalize instead the non-strict notion of [[Street fibration]].  The generalized definition can be given in any of several equivalent ways, in such a way that
+This idea may be generalized to work in any suitable [[2-category]] $K$ besides [[Cat]], although if the 2-category is not [[strict 2-category|strict]], then one has to generalize instead the non-strict notion of *[[Street fibrations]]*.  The generalized definition can be given in several equivalent ways, such that:
 
 +-- {: .standout #ElemFibSpecializesToCat }
 
-When $K$ is [[Cat]], strict fibrations in this sense are precisely [[Grothendieck fibration|Grothendieck fibrations]], while non-strict ones are precisely [[Street fibrations]].
+When $K$ is [[Cat]], strict fibrations in this sense are precisely [[Grothendieck fibrations]], while non-strict ones are precisely [[Street fibrations]].
 
 =--
 
 ## Definition
 
-Fix a [[2-limit|finitely complete]] (non-strict) 2-category $K$.  Recall that for any two morphisms $f: A \to C$ and $g: B \to C$, $f/g$ denotes their [[comma object]].  Let $f/_{\cong} g$ be their [[2-pullback]].
+Fix a (non-strict) [[2-category]] $K$ with all [[finite limit|finite]] [[2-limits]].
 
-A morphism $p \colon E \to B$ in $K$ is a (non-strict) **fibration** when the following equivalent conditions hold:
+For a [[pair]] of [[1-morphisms]] $f\colon A \to C$ and $g \colon B \to C$ in $K$ write 
 
-* $p_* = K(X,p) \colon K(X,E) \to K(X,B)$ is a Street fibration in $Cat$ for each $X \in K$, and for all $f \colon Y \to X$ in $K$
+* $f/g$ for their [[comma object]] 
+
+* $f/_{\cong} g$ for their [[2-pullback]].
+
+A [[1-morphism]] $p \colon E \to B$ in $K$ is called a (non-strict) **fibration** when the following equivalent conditions hold:
+
+* $p_* = K(X,p) \colon K(X,E) \to K(X,B)$ is a [[Street fibration]] in $Cat$ for each $X \in K$, and for all $f \colon Y \to X$ in $K$
 $$
 \array{
   K(X,E) & \overset{f^*}{\to} & K(Y,E) \\
@@ -124,7 +130,7 @@ This is a standard result, at least in the case $K=Cat$, and is apparently due t
 
 ## References
 
-* [[Syméon Bozapalides]]. _Fibrations et faisceaux dans une 2-catégorie_, Archivum Mathematicum 12.4 (1976): 199-208. ([pdf](https://dml.cz/bitstream/handle/10338.dmlcz/106944/ArchMath_012-1976-4_4.pdf))
+* [[Syméon Bozapalides]]. _Fibrations et faisceaux dans une 2-catégorie_, Archivum Mathematicum 12.4 (1976) 199-208. &lbrack;[10338.dmlcz/106944](https://dml.cz/handle/10338.dmlcz/106944), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/106944/ArchMath_012-1976-4_4.pdf)&rbrack;
 
 * [[Ross Street]], _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
 
