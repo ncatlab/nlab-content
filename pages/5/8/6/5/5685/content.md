@@ -26,6 +26,12 @@ On the theory of *[[locales]]* (and introducing that term):
 
 * [[John R. Isbell]], *Atomless Parts of Spaces*, Mathematica Scandinavica **31** (1972) 5–32 &lbrack;[doi:10.7146/math.scand.a-11409](https://doi.org/10.7146/math.scand.a-11409)&rbrack;
 
+On [[functorial semantics]]:
+
+* [[John Isbell]], _General functorial semantics, I_, American Journal of Mathematics 94.2 (1972): 535-596.
+
+* [[John Isbell]], _**Top** and its adjoint relatives_, General Topology and Its Relations to Modern Analysis and Algebra (1971): 143-154.
+
 ## Related entries
 
 * [[Isbell duality]]
