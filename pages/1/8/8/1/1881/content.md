@@ -18,13 +18,16 @@
 =--
 =--
 
+
 # Finite lists and free monoids
 * table of contents
 {: toc}
 
 ## Idea
 
-Given a [[set]] $S$, the __free [[monoid]]__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __[[concatenation]]__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
+Given a [[set]] $S$, the _free monoid_ on $S$ is the set $S^*$ of all _[[lists]]_ (finite [[sequences]]) of [[elements]] of $S$, made into a [[monoid]] via [[concatenation]].  
+
+The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$. Combined with its [[right adjoint]] [[forgetful functor]] this is the *[[list monad]]* whose [[modules over a monad|modules]] are [[monoids]].
 
 
 ## Definitions
@@ -196,12 +199,11 @@ The list [[monad]] as a [[monad in computer science]]:
 [[!redirects finite sequences]]
 
 [[!redirects free monoid]]
-[[!redirects free monoid functor]]
-[[!redirects free monoid monad]]
-[[!redirects list monad]]
 
 [[!redirects queue]]
 [[!redirects queues]]
 
 [[!redirects list object]]
 [[!redirects list objects]]
+
+
