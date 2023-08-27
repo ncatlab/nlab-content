@@ -79,3 +79,5 @@ Discussion of aspects of [[quantum computing]] in terms of [[monad (in computer 
 
 [[!redirects functional program]]
 [[!redirects functional programs]]
+[[!redirects functional programming language]]
+[[!redirects functional programming languages]]
