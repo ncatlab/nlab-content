@@ -46,7 +46,8 @@ Graded monads are also known as **parametric** monads. The grading idea may also
 
 1. For graded monads relevant for probability theory see ([Perrone](#Perrone)).
 
-1. Given the strict action of a monoidal category, $\mathcal{M}$ on a category $\mathcal{B}$, and an adjunction
+ 
+1. Given the strict action of a monoidal category, $\mathcal{M}$ on a category $\mathcal{B}$, and an adjunction {#FromStrictAction}
 
 \begin{center}
   \begin{tikzcd}
