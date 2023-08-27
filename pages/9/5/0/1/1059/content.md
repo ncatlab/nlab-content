@@ -32,8 +32,7 @@ It is easy to see that in *any* category, any regular epimorphism is strict.  In
 
 
 ## Properties
-
-If the composition $g\circ f$ is a strict epimorphism then $g$ is a strict epimorphism.
+If for an epimorphism $f$, the composition $g \circ f$ is a strict epimorphism then $g$ is a strict epimorphism.
 
 ## References
 
@@ -46,7 +45,6 @@ Textbook accounts:
 * [[Masaki Kashiwara]], [[Pierre Schapira]], p. 115-116 in: _[[Categories and Sheaves]]_ 
 
 
-[[!redirects strict epimorphism]]
 [[!redirects strict epimorphisms]]
 [[!redirects strict epi]]
 [[!redirects strict epis]]
