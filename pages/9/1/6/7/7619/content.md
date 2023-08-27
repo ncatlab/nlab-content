@@ -15,11 +15,17 @@
 
 ## Examples {#sidebar_examples}
 
-* [[natural numbers object]], [[list]], 
+* [[natural numbers object]], [[natural numbers type]]
+
+* [[list]] 
 
 * [[identity type]]
 
 * [[W-type]]
+
+* [[circle type]] 
+
+* [[interval type]]
 
 
 
