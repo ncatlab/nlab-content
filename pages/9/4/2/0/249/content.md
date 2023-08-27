@@ -57,7 +57,7 @@ Arguably, pseudomonic functors are precisely the functors for which it makes sen
 
 Formalization in [[cubical Agda]]:
 
-* [[1lab]], *[Pseudomonic Functors](https://1lab.dev/Cat.Functor.Base.html#pseudomonic-functors)*
+* [[1lab]], *[Pseudomonic Functors](https://1lab.dev/Cat.Functor.Properties.html#pseudomonic-functors)*
 
 
 
