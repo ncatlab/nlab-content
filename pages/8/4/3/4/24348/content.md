@@ -20,7 +20,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Tensor and cotensor products of bifunctors|George D. Reynolds|1973| | |
 |Some Aspects of Internal Category Theory in an Elementary Topos|[[Peter Johnstone]]|1974| | |
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
-|Théorie formelle des bicatégories|Syméon Bozapalides|1976| <a href="https://ncatlab.org/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
+|Théorie formelle des bicatégories|[[Syméon Bozapalides]]|1976| <a href="/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Indical methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
 |Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content)| |
