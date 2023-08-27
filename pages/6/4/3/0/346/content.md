@@ -218,7 +218,7 @@ Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]]
 
 The relationship to [[monoidal categories]] was studied more deeply in:
 
-* Jan Pavelka. _A note on closed categories_, Commentationes Mathematicae Universitatis Carolinae 17.2 (1976): 261-272. ([pdf](https://dml.cz/bitstream/handle/10338.dmlcz/105692/CommentatMathUnivCarol_017-1976-2_5.pdf))
+* Jan Pavelka, _A note on closed categories_, Commentationes Mathematicae Universitatis Carolinae 17.2 (1976) 261-272. &lbrack;[10338.dmlcz/105692](https://dml.cz/handle/10338.dmlcz/105692), [pdf](https://dml.cz/bitstream/handle/10338.dmlcz/105692/CommentatMathUnivCarol_017-1976-2_5.pdf)&rbrack;
 
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
