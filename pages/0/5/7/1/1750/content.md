@@ -8,8 +8,6 @@
 =--
 =--
 
-# Fibrations in a 2-category
-
 * table of contents
 {: toc}
 
@@ -125,6 +123,8 @@ This is a standard result, at least in the case $K=Cat$, and is apparently due t
 
 
 ## References
+
+* [[Syméon Bozapalides]]. _Fibrations et faisceaux dans une 2-catégorie_, Archivum Mathematicum 12.4 (1976): 199-208. ([pdf](https://dml.cz/bitstream/handle/10338.dmlcz/106944/ArchMath_012-1976-4_4.pdf))
 
 * [[Ross Street]], _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
 
