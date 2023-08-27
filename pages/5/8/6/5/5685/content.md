@@ -12,7 +12,7 @@
 
 ## Selected writings
 
-Introducing the notion that came to be known as *[[Isbell duality]]* (and discussing [[foundations]] for [[category theory]] via a kind of [[Gorthendieck universes]]):
+Introducing the notion that came to be known as *[[Isbell duality]]* (and discussing [[foundations]] for [[category theory]] via a kind of [[Grothendieck universes]]):
 
 * {#Isbell66} [[John Isbell]], *Structure of categories*, Bulletin of the American Mathematical Society **72** (1966), 619-655. &lbrack;[euclid:1183528163](http://projecteuclid.org/euclid.bams/1183528163), [ams:1966-72-04/S0002-9904-1966-11541-0](https://www.ams.org/journals/bull/1966-72-04/S0002-9904-1966-11541-0/)&rbrack;
 
@@ -28,9 +28,9 @@ On the theory of *[[locales]]* (and introducing that term):
 
 On [[functorial semantics]]:
 
-* [[John Isbell]], _General functorial semantics, I_, American Journal of Mathematics 94.2 (1972): 535-596.
+* [[John Isbell]], *General functorial semantics, I*, American Journal of Mathematics 94.2 (1972) 535-596 &lbrack;[doi:10.2307/2374638](https://doi.org/10.2307/2374638), [jstor:2374638](https://www.jstor.org/stable/2374638)&rbrack;
 
-* [[John Isbell]], _**Top** and its adjoint relatives_, General Topology and Its Relations to Modern Analysis and Algebra (1971): 143-154.
+* [[John Isbell]], _**Top** and its adjoint relatives_, General Topology and Its Relations to Modern Analysis and Algebra (1971) 143-154 &lbrack;[eudml:221076](https://eudml.org/doc/221076)&rbrack;
 
 ## Related entries
 
