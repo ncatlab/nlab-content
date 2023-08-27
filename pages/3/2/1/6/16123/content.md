@@ -19,7 +19,7 @@ A polynomial all of whose monomial terms have the same [[degree of a polynomial|
 
 ## Definition
 
-If $R$ is a commutative rig, then the set $R_{n}[X_{1},...,X_{q}]$ of homogeneous polynomials of degree $n$ with variables $X_{1},...,X_{q}$ is given by all the expressions of the form $\underset{\substack{0\le i_{1},...,i_{q} \le n\\ i_{1}+...+i_{q} = n}}{\sum} a_{i_{1},...,i_{q}}X_{1}^{i_{1}}...X_{q}^{i_{q}}$.
+If $R$ is a [[commutative rig]], then the set $R_{n}[X_{1},...,X_{q}]$ of homogeneous polynomials of degree $n$ with variables $X_{1},...,X_{q}$ is given by all the expressions of the form $\underset{\substack{0\le i_{1},...,i_{q} \le n\\ i_{1}+...+i_{q} = n}}{\sum} a_{i_{1},...,i_{q}}X_{1}^{i_{1}}...X_{q}^{i_{q}}$.
 
 ## Euler identity
 
