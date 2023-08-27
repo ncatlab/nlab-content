@@ -583,7 +583,7 @@ In more detail:
 
 Finally, to turn all this into an efficient [[programming language]] one just has to declare a convenient [[syntax]] for denoting [[Kleisli composition]]. 
 
-One such syntax is known as "*do notation*" (introduced by [[Mark Jones]] in the 1990s &lbrack;[HHPW07, p. 25](Haskell#HHPW07)&rbrack; and adopted by [[Haskell]] in [version 1.3](https://www.haskell.org/definition/from12to13.html#do), see for instance [Milewski 2019 §20.3](#Milewski19)), which aims to jointly express: 
+One such syntax is known as "*do notation*" (introduced by [[Mark Jones]] in the 1990s &lbrack;[HHPW07, p. 25](Haskell#HHPW07)&rbrack; and adopted by [[Haskell]] in [version 1.3](https://www.haskell.org/definition/from12to13.html#do), for review see [Benton, Hughes & Moggi 2002 p. 70](#BentonHughesMoggi02), [Milewski 2019 §20.3](#Milewski19)), which aims to jointly express: 
 
 1. successive Kleisli composition in words like "do this, do that, and return the result",
 
@@ -833,7 +833,7 @@ and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalit
 
 Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
-* [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
+* {#BentonHughesMoggi02} [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
 
 * {#Milewski19} [[Bartosz Milewski]] (compiled by Igal Tabachnik), "Monads: Programmer's Definition", §20 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
