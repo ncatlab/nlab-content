@@ -45,6 +45,8 @@ See also [Rennela & Staton (2020)](#RennelaStaton17) for more general discussion
 
 * {#Hudak98} [[Paul Hudak]], _Modular Domain Specific Languages and Tools_, in: _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  (1998)  &lbrack;[pdf](http://staff.um.edu.mt/afra1/seminar/ModularDSL.pdf), [doi:10.5555/551789.853532](https://dl.acm.org/doi/10.5555/551789.853532)&rbrack;
 
+* {#BentonHughesMoggi02} [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], §5.3 in: *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
+
 Discussion for embedding in [[Haskell]]:
 
 * HaskellWiki, _[Embedded domain specific language](http://www.haskell.org/haskellwiki/Embedded_domain_specific_language)_
