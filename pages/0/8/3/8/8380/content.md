@@ -602,7 +602,23 @@ like this:
     }
 \end{imagefromfile}
 
+This becomes particularly suggestive with the further convention that variables names may notationally be suppressed for functions with trivial in- or out-put (ie. of [[unit type]] $\ast$) besides their $\mathcal{E}$-effect, in which case the above becomes
 
+\begin{imagefromfile}
+    "file_name": "PureEffectKleisliCompositeInDoNotation-230826.jpg",
+    "width": "520",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This case brings out clearly how the ambient "`do`...`return`"-syntax block expresses the (Kleisli-)composition of any number of $\mathcal{E}$-effectful procedures.
+
+On top of that the "`<-`"-syntax is meant to be suggestive of *reading out* a value. This is commonly motivated by appeal to the [[IO-monad]], but a pure example of the same idea is provided by the [[list monad]], where "`<-`" may be understood as "reading the next element from the list".
 
 \linebreak
 
