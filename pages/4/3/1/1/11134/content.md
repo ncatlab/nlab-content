@@ -111,6 +111,7 @@ Original discussion of the state/side-effect monad as a [[monad in computer scie
 
 * [[Philip Wadler]], Section 2.3 in: *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
 
+* {#BentonHughesMoggi02} [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], Ex. 42 in: *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
 
 * {#PlotkinPower02} [[Gordon Plotkin]], [[John Power]], Section 3 of: *Notions of computation determine monads* In: M. Nielsen, U. Engberg, (eds.) FOSSACS 2002. LNCS, Lecture Notes in Computer Science **2303**,  Springer (2002) 342-356 &lbrack;[doi:10.1007/3-540-45931-6_24p](https://doi.org/10.1007/3-540-45931-6_24)&rbrack;
 
