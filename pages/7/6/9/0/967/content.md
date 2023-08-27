@@ -159,6 +159,8 @@ But cototal categories do occur:
 
 * [[Ross Street]]. _Elementary cosmoi I_. Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
 
+* [[Symeon Bozapalides]]. _Quelques Remarques sur les Cosmos Elementaires_ Δελτίο της Ελληνικής Μαθηματικής Εταιρίας 15.15 (1974): 144-151. ([pdf](https://hdml.di.ionio.gr/pdfs/journals/1.pdf))
+
 [[!redirects total categories]]
 [[!redirects cototal category]]
 [[!redirects cototal categories]]
