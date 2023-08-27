@@ -646,7 +646,7 @@ Therefore the conceptually more accurate (if maybe practically less convenient) 
     "width": "420",
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -20,
         "bottom": 20,
         "right": 0, 
         "left": 10
@@ -658,7 +658,7 @@ In terms of such for-do-notation, the generic case that we started with above ha
 
 \begin{imagefromfile}
     "file_name": "KleisliCompositeInForDoNotation-230826.jpg",
-    "width": "540",
+    "width": "670",
     "unit": "px",
     "margin": {
         "top": -30,
