@@ -212,11 +212,13 @@ Closed categories were first defined in:
 
 * {#EK65} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
-
-
 Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]] in 
 
-* {#KM71} [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
+* {#KM71} [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132))
+
+The relationship to [[monoidal categories]] was studied more deeply in:
+
+* Jan Pavelka. _A note on closed categories_, Commentationes Mathematicae Universitatis Carolinae 17.2 (1976): 261-272. ([pdf](https://dml.cz/bitstream/handle/10338.dmlcz/105692/CommentatMathUnivCarol_017-1976-2_5.pdf))
 
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
