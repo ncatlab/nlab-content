@@ -112,7 +112,7 @@ In **summary**:
     \overset{ \phantom{AA} = \phantom{AA} }{\leftrightarrow}
   U(\mathcal{H})_{weak}  
     \overset{ \phantom{AA} = \phantom{AA} }{\leftrightarrow}
-  U(\mathcal{H})_{compop}  
+  U(\mathcal{H})_{comp.open}  
 \]
 
 (also [Espinoza & Uribe 2014, Thm. 1.2](#EspinozaUribe14))
@@ -204,7 +204,7 @@ Previous influential but wrong claim that they do not:
 
 Further properties:
 
-Proof of complete metrizability:
+Proof of complete metrizability for the strong (and hence weak) operator topology:
 
 * {#Neeb97} [[Karl-Hermann Neeb]], *On a Theorem of S. Banach*, Journal of Lie Theory **8**  (1997) 293–300 ([pdf](https://www.heldermann-verlag.de/jlt/jlt07/NEEBPL.PDF))
 
