@@ -69,7 +69,22 @@ In [[supergravity]] this is accompanied by the [[gravitino]].
 
 ### General
 
-See at _[quantum gravity -- and an effective perturbative field theory](quantum+gravity#ReferencesAsAnEffectiveFieldTheory)_
+See the references at _[quantum gravity -- and an effective perturbative field theory](quantum+gravity#ReferencesAsAnEffectiveFieldTheory)_
+
+
+On potential [[experiments]] detecting gravitons:
+
+* [[Freeman Dyson]], *Is the graviton detectable?*, International Journal of Modern Physics A **28** 25 (2013) 1330041 &lbrack;[doi:10.1142/S0217751X1330041X](https://doi.org/10.1142/S0217751X1330041X)&rbrack;
+
+* Tony Rothman, Stephen Boughn, *Can Gravitons be Detected?*, Foundations of Physics **36** (2006) 1801–1825 &lbrack;[doi:10.1007/s10701-006-9081-9](https://doi.org/10.1007/s10701-006-9081-9)&rbrack;
+
+* Tony Rothman, Stephen Boughn, *Aspects of graviton detection: graviton emission and absorption by atomic hydrogen*, Classical and Quantum Gravity **23** 20 (2006)  5839 &lbrack;[doi:10.1088/0264-9381/23/20/006](https://iopscience.iop.org/article/10.1088/0264-9381/23/20/006)&rbrack;
+
+* Daniel Carney, Valerie Domcke, Nicholas L. Rodd, *Graviton detection and the quantization of gravity* &lbrack;[arXiv:2308.12988](https://arxiv.org/abs/2308.12988)&rbrack;
+
+
+
+    
 
 
 
