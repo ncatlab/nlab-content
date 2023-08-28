@@ -628,9 +628,43 @@ but the notation becomes more suggestive with the rule that the "`<-`"-symbols m
 
 This case brings out clearly how the ambient "`do`...`return`"-syntax block expresses the (Kleisli-)composition of any number of $\mathcal{E}$-effectful procedures.
 
-On top of that the "`<-`"-syntax is meant to be suggestive of *reading out* a value. This is commonly motivated by appeal to the [[IO-monad]], but a pure example of the same idea is provided by the [[list monad]], where "`<-`" may be understood as "reading the next element from the list".
+On top of that the "`<-`"-syntax is meant to be suggestive of *reading out* a value. This is accurate imagery for the [[state monad]] (and its abstraction to the [[IO-monad]]), where from the two pasic operations of reading/writng a global variable 
+$$
+  \array{
+    read &\colon& W State(W)
+    \\
+    read &\equiv& w \mapsto (w,w)
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    write &\colon& W \to W State(\ast)
+    \\
+    write &\equiv& w \mapsto (w' \mapsto w)
+  }
+$$
+any $W$-stateful program, such as the simple example
+$$
+  \array{
+    inc &\colon& \mathbb{N}State(\ast)
+    \\
+    inc &\equiv& n \mapsto n+1 
+  }
+$$
+may be constucted in do-notation, such as:
 
-For instance, the following code produces the [[list]] obtained from a given list of [[natural numbers]] by incrementing all entries:
+\begin{imagefromfile}
+    "file_name": "StatefulNumberIncrementInDONotation-230828.jpg",
+    "width": 560,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+For a similar effect monad such as the [[list monad]] the analogous `do`-code for incrementing all entries in a list of numbers looks as follows:
 
 \begin{imagefromfile}
     "file_name": "ListReadKleisliCompositeInDoNotation-230826.jpg",
@@ -644,14 +678,26 @@ For instance, the following code produces the [[list]] obtained from a given lis
     }
 \end{imagefromfile}
 
-The `do`-notation on the right evokes the idea that a number $n \colon \mathbb{N}$ is "read out" from MyList and then its increment returned --- while leaving linguistically implicit the idea that this operation is "repeated until the list is empty" and all results re-compiled into an output list.
+Here The `do`-notation on the right evokes the idea that in *each step* a number $n \colon \mathbb{N}$ is "read out" from MyList and then its increment returned --- but leaves linguistically implicit the idea that this operation is to be performed *for all elements* of the list and all results re-compiled into an output list.
 
-Indeed, in general it may be misleading to think of Kleisli composition as being about "reading out" data. What Kleisli composition is really about is acting on data that has *generators* and defining a program by what it does *on generators*, hence *for* a given generator. 
-
-Therefore the conceptually more accurate (if maybe practically less convenient) program-linguistic reflection of the monadic effect-binding operation would be a "`for`...`do`"-block:
+Indeed, in general it is misleading to think of Kleisli composition as being about "reading out" data. What Kleisli composition is really about is acting on data that has *generators* and defining a program by what it does *on generators*, hence *for* a given generating datum:
 
 \begin{imagefromfile}
-    "file_name": "ForDoNotation-230827b.jpg",
+    "file_name": "KleisliMapsActOnGeneratingData-23-828.jpg",
+    "width": 560,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Therefore the conceptually more accurate (if maybe less concise) program-linguistic reflection of the monadic effect-binding operation would be a "`for`...`do`"-block:
+
+\begin{imagefromfile}
+    "file_name": "ForDoNotation-230827c.jpg",
     "width": "420",
     "unit": "px",
     "margin": {
@@ -677,7 +723,26 @@ In terms of such for-do-notation, the generic case that we started with above ha
     }
 \end{imagefromfile}
 
-This syntax may be notationally less convenient in practice but it evokes rather closely what is actually going on in monadic effect binding.
+This syntax may be notationally less concise but it evokes rather closely what is actually going on in programming with monadic effects. 
+
+For example, the above operation of icrementing all numbers in a given list reads in `for`...`do`-notation as follows:
+
+\begin{imagefromfile}
+    "file_name": "ListIncrementViaForDo-280827b.jpg",
+    "width": "750",
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+neatly indicative of how the operation $+1$ is applied *for* every number $n$ found *in* the list.
+
+(NB.: There is no clash with `for`...`do`-notation as used for loops in [[imperative programming]], since [[functional programming|functionally]] these are instead expressed by [[recursion]].) 
+
 
 
 \linebreak
