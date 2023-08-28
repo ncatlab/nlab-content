@@ -590,7 +590,7 @@ One such syntax is known as "*do notation*" (introduced with "`{...}`" instead o
 
 1. any intermediate bind-operation as "extracting" a $D$-datum $d$ out of an $\mathcal{E}(D)$-datum $E$ with notation `d <- E`
 
-Concretely, do-notation is the following [[syntactic sugar]] for combined [[Kleisli composition]] and [[bound variable|variable binding]]
+Syntactically, do-notation is the following [[syntactic sugar]] for combined [[Kleisli composition]] and [[bound variable|variable binding]]:
 
 1. `do prog` $\;\;\equiv\;\;$ `prog`
 
@@ -598,7 +598,21 @@ Concretely, do-notation is the following [[syntactic sugar]] for combined [[Klei
 
 3. `do (x <- prog1) prog2` $\;\;\equiv\;\;$ `prog1 bind (\x -> prog2)`
  
-The generic case looks like this:
+This is, first of all, a suggestive notation for expressing effect-binding:
+
+\begin{imagefromfile}
+    "file_name": "EffectBindingViaDoNotation-230828.jpg",
+    "width": "350",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+but thereby it furthermore provides a convenient means of expressing successive Kleisli-composition simply by successivley ``calling'' the separate procedures, much in the style of [[imperative programming]] (which thereby is emulated into [[functional programming]]): 
 
 \begin{imagefromfile}
     "file_name": "KleisliCompositeInDoNotation-230826.jpg",
