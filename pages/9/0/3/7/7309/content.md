@@ -31,7 +31,7 @@ With respect to the [[Boardman-Vogt tensor product]] (see there for details) sym
 
 ### Thomason model structure
 
-A full subcategory of based symmetric multicategories admit a Thomason-style model structure that is [[Quillen equivalent]] to [[connective spectra]], according to [Fuentas-Keuthan](#FuentesKeuthan2019).
+A full subcategory of based symmetric multicategories admit a Thomason-style model structure that is [[Quillen equivalent]] to [[connective spectra]], according to [Fuentes-Keuthan](#FuentesKeuthan2019).
 
 ### References
 
