@@ -22,6 +22,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -583,13 +584,21 @@ In more detail:
 
 Finally, to turn all this into an efficient [[programming language]] one just has to declare a convenient [[syntax]] for denoting [[Kleisli composition]]. 
 
-One such syntax is known as "*do notation*" (introduced by [[Mark Jones]] in the 1990s &lbrack;[HHPW07, p. 25](Haskell#HHPW07)&rbrack; and adopted by [[Haskell]] in [version 1.3](https://www.haskell.org/definition/from12to13.html#do), for review see [Benton, Hughes & Moggi 2002 p. 70](#BentonHughesMoggi02), [Milewski 2019 §20.3](#Milewski19)), which aims to jointly express: 
+One such syntax is known as "*do notation*" (introduced with "`{...}`" instead of "`do`" by [Launchbury 1993 §3.3](#Launchbury93), then promoted by [[Mark Jones]] in the 1990s &lbrack;[HHPW07, p. 25](Haskell#HHPW07)&rbrack; and adopted by [[Haskell]] in [version 1.3](https://www.haskell.org/definition/from12to13.html#do), for review see [Benton, Hughes & Moggi 2002 p. 70](#BentonHughesMoggi02), [Milewski 2019 §20.3](#Milewski19)), which aims to jointly express: 
 
 1. successive Kleisli composition in words like "do this, do that, and return the result",
 
 1. any intermediate bind-operation as "extracting" a $D$-datum $d$ out of an $\mathcal{E}(D)$-datum $E$ with notation `d <- E`
 
-as follows:
+Concretely, do-notation is the following [[syntactic sugar]] for combined [[Kleisli composition]] and [[bound variable|variable binding]]
+
+1. `do prog` $\;\;\equiv\;\;$ `prog`
+
+2. `do prog1 prog2` $\;\;\equiv\;\;$ `prog1 bind (\_ -> prog2)`
+
+3. `do (x <- prog1) prog2` $\;\;\equiv\;\;$ `prog1 bind (\x -> prog2)`
+ 
+The generic case looks like this:
 
 \begin{imagefromfile}
     "file_name": "KleisliCompositeInDoNotation-230826.jpg",
@@ -603,7 +612,7 @@ as follows:
     }
 \end{imagefromfile}
 
-The notation becomes more suggestive with the further convention that the "`<-`"-symbols may notationally be suppressed for functions with trivial in- or out-put (ie. of [[unit type]] $\ast$) besides their $\mathcal{E}$-effect, as in this example:
+but the notation becomes more suggestive with the rule that the "`<-`"-symbols may notationally be suppressed for functions with trivial in- or out-put (ie. of [[unit type]] $\ast$) besides their $\mathcal{E}$-effect, as in this example:
 
 \begin{imagefromfile}
     "file_name": "PureEffectKleisliCompositeInDoNotation-230826.jpg",
@@ -797,6 +806,8 @@ The original observation of monads as "notions of computation" is:
 
 * {#Moggi89} [[Eugenio Moggi]], *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
 
+* [[Philip Wadler]], *Comprehending Monads*, in _Conference on Lisp and functional programming_, ACM Press (1990) &lbrack;[[WadlerMonads.pdf:file]], [doi:10.1145/91556.91592](https://doi.org/10.1145/91556.91592)&rbrack;
+
 * {#Moggi91} [[Eugenio Moggi]], *Notions of computation and monads*, Information and Computation, **93** 1 (1991) &lbrack;<a href="https://doi.org/10.1016/0890-5401(91)90052-4">doi:10.1016/0890-5401(91)90052-4</a>, [pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf)&rbrack;
 
 Further discussion:
@@ -807,6 +818,9 @@ On the impact of [Moggi (1991)](#Moggi91):
 
 * [[Martin Hyland]], [[John Power]], §6 of: *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
 
+Origin of the [[do-notation]] for [[Kleisli composition]] of effectful programs:
+
+* {#Launchbury93} [[John Launchbury]], §3.3 in: *Lazy imperative programming*, Proceedings of *ACM Sigplan Workshop on State in Programming Languages*, Copenhagen (1993) &lbrack;[pdf](https://launchbury.files.wordpress.com/2019/01/lazy-imperative-programming.pdf), [[Launchbury-LazyImperative.pdf:file]]&rbrack;
 
 
 In the generality of [[relative monads]]:
@@ -839,8 +853,6 @@ Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
 Further discussion/exposition of the notion and application of (co)monads in computer science:
  
-* [[Philip Wadler]], *Comprehending Monads*, in _Conference on Lisp and functional programming_, ACM Press (1990) &lbrack;[[WadlerMonads.pdf:file]], [doi:10.1145/91556.91592](https://doi.org/10.1145/91556.91592)&rbrack;
-
 * {#BrookesGeva91} [[Stephen Brookes]], Shai Geva, *Computational Comonads and Intensional Semantics*, CMU-CS-91-190 (1991) &lbrack;[[BrookersGeva-ComputationalComonads.pdf:file]]&rbrack;
 
 * [[Philip Wadler]], *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
@@ -950,5 +962,6 @@ Implementation in [[Haskell]]:
 
 [[!redirects comonads in computer science]]
 
-
+[[!redirects do-notation]]
+[[!redirects do notation]]
 
