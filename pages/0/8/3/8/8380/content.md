@@ -743,6 +743,62 @@ neatly indicative of how the operation $+1$ is applied *for* every number $n$ fo
 
 (NB.: There is no clash with `for`...`do`-notation as used for loops in [[imperative programming]], since [[functional programming|functionally]] these are instead expressed by [[recursion]].) 
 
+The appropriateness of rendering effect binding as a `for`...`do`-expression becomes yet more pronounced in contexts of [[substructural logic|substructural]] [[type theory|typing contexts]] such as in [[linear type theory]], where the idea of "reading out" of monadic types via "`<-`"-notation becomes yet more dubious.
+
+For example, consider the [[relative monad]] ([this example](relative+monad#LinearSpan)) which sends [[sets]] to the [[vector spaces]] that are their [[linear spans]]:
+
+$$
+  \array{
+    \mathllap{\mathrm{Q} \;\;\colon\;\;}
+    Set &\longrightarrow& Vect
+    \\
+    W &\mapsto& \underset{W}{\oplus} \mathbb{1}
+  } 
+$$
+
+with
+$$
+  \array{
+    \mathllap{bind^{\mathrm{Q}} \;\;\colon\;\;}
+    (W  \to \mathrm{Q}W') 
+    &\longrightarrow& 
+    (\mathrm{Q}W \to \mathrm{Q}W')
+    \\
+    \left(
+      w
+      \mapsto
+      \left\vert \psi_w \right\rangle
+    \right)
+    &\mapsto&
+    \left(
+      \sum_w q_{{}_W} \left\vert w \right\rangle
+      \,\mapsto\,
+      \sum_w q_{{}_w} \left\vert \psi_w \right\rangle
+    \right)
+  } 
+$$
+
+In this case the traditional `do`-notation would suggest that given a vector one may "read out" a basis element from it -- which does not make conceptual sense. 
+
+Instead, what's really happening is that to define a linear map $G \colon \mathrm{Q}W \to \mathscr{H}$ on a vector space equipped with a [[basis of a vector space|linear basis]] $W$ (literally: a set of free [generators](basis+of+a+vector+space#GeneratedVectorSpace)) it is sufficient to define this map *for* each basis-vector $\left\vert w \right\rangle$ --- and this is just what the `for`...`do`-notation for the $\mathrm{Q}$-monad expresses:
+
+\begin{imagefromfile}
+    "file_name": "LinearMapInForDoNotation-230828.jpg",
+    "width": "150",
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+
+
+
 
 
 \linebreak
