@@ -612,7 +612,7 @@ This is, first of all, a suggestive notation for expressing effect-binding:
     }
 \end{imagefromfile}
 
-but thereby it furthermore provides a convenient means of expressing successive Kleisli-composition simply by successivley ``calling'' the separate procedures, much in the style of [[imperative programming]] (which thereby is emulated into [[functional programming]]): 
+but thereby it furthermore provides a convenient means of expressing successive Kleisli-composition simply by successivley "calling" the separate procedures, much in the style of [[imperative programming]] (which thereby is emulated/encapsulated by pure [[functional programming]]): 
 
 \begin{imagefromfile}
     "file_name": "KleisliCompositeInDoNotation-230826.jpg",
