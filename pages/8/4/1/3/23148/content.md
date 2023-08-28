@@ -19,7 +19,7 @@ The "fundamental theorem" of [[topos theory]], in the terminology of [McLarty 19
 
 If $\mathcal{T} \,\simeq\, Sh(\mathcal{S})$ is a [[category of sheaves]], hence a [[Grothendieck topos]], then so its its slice: $\mathcal{T}_{/X} \,\simeq\, Sh\big( \mathcal{S}_{/X} \big)$ ([SGA4.1, p. 295](#SGA41)).
 
-The analogous statement holds for [[slice (infinity,1)-category|slice $\infty$-categories]] of [[(infinity,1)-toposes|$\infty$-toposes]]: *[[slice (infinity,1)-toposes|slice $\infty$-toposes]]* ([Lurie 2009, Prop. 6.5.3.1](#Lurie09)).
+The analogous statement holds for [[slice (infinity,1)-category|slice $\infty$-categories]] of [[(infinity,1)-toposes|$\infty$-toposes]]: *[[slice (infinity,1)-toposes|slice $\infty$-toposes]]* ([Lurie 2009, Prop. 6.3.5.1](#Lurie09)).
 
 The archetypical special case is that [[slice categories]] $PSh(\mathcal{S})_{/y(s)}$ of [[categories of presheaves]] over a [[representable functor|representable]] are [[equivalence of categories|equivalently]] categories of presheaves on the slice site $\mathcal{S}_{/s}$. This is exhibited by the [[functor]] which sends a [[bundle]] $E \to y(X)$ [[internalization|internal]] to [[presheaves]] to its system $U_X \mapsto \Gamma_U(E)$ of sets of [[local sections]]:
 
