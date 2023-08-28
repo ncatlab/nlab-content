@@ -76,7 +76,7 @@ Clearly this definition generalizes the previous one since collections of object
 
 ### Of collections of vertical morphisms
 \begin{definition}
-A collection of [[vertical morphisms]] of $\mathcal{E}$ os definable iff it is definable as collection of functors out of the arrow category $\downarrow$.
+A collection of [[vertical morphisms]] of $\mathcal{E}$ is definable iff it is definable as collection of functors out of the arrow category $\downarrow$.
 \end{definition}
 
 ### Of subfibrations
