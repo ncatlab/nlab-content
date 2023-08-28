@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _state monad_ is a [[monad (in computer science)]] used to implement computational side-effects in [[functional programming]].
+The _state monad_ is the name for the [[monad in computer science]] which is used to implement the functionality of read/write on a global "mutable state" (a global variable) in the context of [[functional programming languages]].
 
 A [[functional program]] with 
 
@@ -58,6 +58,71 @@ Here the operation $[W, W\times (-)]$ is the [[monad]] on the type system which 
 <center>
 <img src="/nlab/files/State-Effectful-Program-230804.jpg" width="600">
 </center>
+
+
+## Definition
+ {#Definition}
+
+Concretely, with the [[underlying]] functor being
+
+$$
+  W State \;\colon\; D \,\mapsto\, \big[W,\, W \times D \big]
+$$
+
+the join operation of the $W$-state monad is given by [[evaluation]] on the intermediate $W$-variable, hence the bind operation is given as follows:
+
+\begin{imagefromfile}
+    "file_name": "StateMonadBinding-230828.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+To see more in detail how this encodes access to a global variable $w \colon W$ in the sense of [[programming languages]] consider the following operations which isolate the processes of reading from and writing to that variable, respectively:
+
+$$
+  \array{
+    read &\colon& W State(W)
+    \\
+    read &\equiv& w \mapsto (w,w)
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    write &\colon& W \to W State(\ast)
+    \\
+    write &\equiv& w \mapsto (w' \mapsto w)
+  }
+$$
+
+With these, for instance the procedure 
+$$
+  \array{
+    inc &\colon& \mathbb{N}State(\ast)
+    \\
+    inc &\equiv& n \mapsto n+1 
+  }
+$$
+which first reads-in the state of a global natural number variable and then overwrites it by its increment may be constructed as shown (on the right in [do-notation](monad+in+computer+science#DoNotation)) here:
+
+\begin{imagefromfile}
+    "file_name": "StatefulNumberIncrementInDONotation-230828.jpg",
+    "width": 560,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+(This is essentially the example from [Benton, Hughes & Moggi 2002 p. 68 & 71](#BentonHughesMoggi02))
+
 
 ## Properties
 
