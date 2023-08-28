@@ -65,6 +65,11 @@ In [[Haskell]]:
 [[!redirects I/O monad]]
 [[!redirects I/O monads]]
 
+[[!redirects IO]]
+
+[[!redirects I/O]]
+
+
 [[!redirects input]]
 [[!redirects inputs]]
 
@@ -76,4 +81,5 @@ In [[Haskell]]:
 
 [[!redirects output and input]]
 [[!redirects outputs and inputs]]
+
 
