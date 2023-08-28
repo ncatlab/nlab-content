@@ -72,6 +72,9 @@ See also:
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
+Further activity:
+
+* {#CategoricalSymmetries23} *Categorical Symmetries in Quantum Field Theory* (28 Aug -1 Sept 2023) &lbrack;[indico:1131193](https://indico.cern.ch/event/1131193)&rbrack;
 
 
 [[!redirects generalized global symmetries]]
