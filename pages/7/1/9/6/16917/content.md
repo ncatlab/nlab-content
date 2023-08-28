@@ -22,7 +22,12 @@ Physicist, co-founder of [[perturbative quantum field theory]] (see [[Schwinger-
 
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
-## related $n$Lab entries
+On whether/how [[experiments]] can detect [[gravitons]]:
+
+* [[Freeman Dyson]], *Is the graviton detectable?*, International Journal of Modern Physics A **28** 25 (2013) 1330041 &lbrack;[doi:10.1142/S0217751X1330041X](https://doi.org/10.1142/S0217751X1330041X)&rbrack;
+
+
+## Related entries
 
 * [[perturbative quantum field theory]]
 
