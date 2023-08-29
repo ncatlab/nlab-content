@@ -212,7 +212,7 @@ Abelian groups are equivalently $\mathbb{Z}$-modules. Because the [[Mod|category
 
 ### Natural numbers object
 
-The [[natural numbers object]] in $Ab$ is the [[free abelian group]] $\mathbb{Z}[\mathbb{N}] = \bigoplus_{n \in \mathbb{N}} \mathbb{Z}$ on the [[natural numbers]], and comes with group homomrophisms $z_0:\mathbb{Z} \to \mathbb{Z}[\mathbb{N}]$ and $z_s:\mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ such that for all abelian groups $A$ and group homomorphisms $f:\mathbb{Z} \to A$, $g: A \to A$, there is a unique group homomorphism $\phi_{f, g}:\mathbb{Z}[\mathbb{N}] \to A$ making the following diagram commute: 
+The [[natural numbers object]] in $Ab$ is the [[free abelian group]] $\mathbb{Z}[\mathbb{N}] = \bigoplus_{n \in \mathbb{N}} \mathbb{Z}$ on the [[natural numbers]], and comes with group homomorphisms $z_0:\mathbb{Z} \to \mathbb{Z}[\mathbb{N}]$ and $z_s:\mathbb{Z}[\mathbb{N}] \to \mathbb{Z}[\mathbb{N}]$ such that for all abelian groups $A$ and group homomorphisms $f:\mathbb{Z} \to A$, $g: A \to A$, there is a unique group homomorphism $\phi_{f, g}:\mathbb{Z}[\mathbb{N}] \to A$ making the following diagram commute: 
 
 $$\array{
 \mathbb{Z} & \stackrel{z_0}{\to} & \mathbb{Z}[\mathbb{N}] & \stackrel{z_s}{\leftarrow} & \mathbb{Z}[\mathbb{N}] \\
@@ -231,7 +231,7 @@ by
 $$z_0(m)z_0(n) = z_0(m \cdot n) \qquad z_s(v)z_0(n) = z_s(v z_0(n))$$ 
 $$z_0(m)z_s(w) = z_s(z_0(m) w) \qquad z_s(v)z_s(w) = z_s(z_s(vw))$$ 
 
-for all $m, n \in \mathbb{Z}$ and $v, w \in \mathbb{Z}[\mathbb{N}]$ (recall the definition of [[addition]] in the [[natural numbers]], inductively defined by $0(p) + 0(q) = 0(p \cdot q)$, $s(m) + 0(p) = s(m + 0(p))$, $0(p) + s(n) = s(0(p) + n)$, and $s(m) + s(n) = s(s(m + n))$ for all $p, q \in \mathbb{1}$ and $m, n \in \mathbb{N}$). It is a [[commutative ring]] and represents multiplication in the [[polynomial ring]] $\mathbb{Z}[X]$; the group homomorphism $z_0$ represents the function which takes integers to constant polynomials, and $z_s$ represents the function which takes a polynomial and multiplies it by the indeterminant $X$. 
+for all $m, n \in \mathbb{Z}$ and $v, w \in \mathbb{Z}[\mathbb{N}]$ (recall the definition of [[addition]] in the [[natural numbers]], inductively defined by $0(p) + 0(q) = 0(p \cdot q)$, $s(m) + 0(p) = s(m + 0(p))$, $0(p) + s(n) = s(0(p) + n)$, and $s(m) + s(n) = s(s(m + n))$ for all $p, q \in \mathbb{1}$ and $m, n \in \mathbb{N}$). It is a [[commutative ring]] and represents multiplication in the [[polynomial ring]] $\mathbb{Z}[X]$; the group homomorphism $z_0$ represents the function which takes integers to constant polynomials, and $z_s$ represents the function which takes a polynomial and multiplies it by the indeterminate $X$. 
 
 ### Enrichment over $Ab$
 
