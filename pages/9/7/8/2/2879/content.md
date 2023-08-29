@@ -118,18 +118,22 @@ A class of examples of Hopf algebroids have as underyling algebra the smash prod
 
 * M. Stojić, _Scalar extension Hopf algebroids_, Journal of algebra and applications 2023 [doi](https://doi.org/10.1142/S0219498824501147) [arXiv:2208.11696](https://arxiv.org/abs/2208.11696)
 
-An internal version of associative bialgebroids in a symmetric monoidal category admiting coqualizers commuting with the monoidal product is studied in
+An internal version of associative bialgebroids over a noncommutative base monoid in a symmetric monoidal category admiting coqualizers commuting with the monoidal product is studied in
 
 * [[G. Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. __376__ (2005) 207-226 [arXiv:math/0311244](https://arxiv.org/abs/math/0311244) [doi](https://doi.org/10.48550)
 
-The concept has been extended to an internal version of Hopf algebroids and a class of examples of Hopf algebroids internally in a symmetric monoidal category of filtered cofiltered vector spaces is described in
+The concept of internal bialgebroids over noncommutative base has been refined to an internal version of symmetric Hopf algebroids in
 
-* M. Stojić, PhD thesis, _Completed Hopf algebroids_, University of Zagreb, 2017
+* Martina Stojić, _Internal Hopf algebroid_, [arXiv:2308.14546](https://arxiv.org/abs/2308.14546)
+
+This is actually an exposition of a part of the author's earlier thesis where also a nontrivial class of examples of Hopf algebroids internal to a symmetric monoidal category of filtered cofiltered vector spaces is described:
+
+* M. Stojić, PhD thesis, _Completed Hopf algebroids_, Ph.D. thesis, University of Zagreb, 2017
 
 A somewhat less canonical version of the same main subexample, written in coordinates, and with somewhat ad hoc treatment of completions (focusing on global cofiltrations only) is in 
 
-* S. Meljanac, Z. &#352;koda, M. Stojić, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, Lett. Math. Phys. 107:3, 475–503 (2017) [enhanced pdf](http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSHnmX9Ae5OTohRXxZ3Kuwuk-3D_fxWtIqIinsN9WJMaEHmGcrXGHheD-2FQtZ0bATf5S8uPqTE1vT5wX4Z3MHOr3LESbPy9zd7ZFfFy-2BgrWYwBzwnkToXTLfpXlfVLbWgoyxh3yG3X87hmFOy6WBB8-2BfFT6d5xCnkUAl78V3yBYjEJE6K0TYy2-2FYZewOjCVwZXxVneWJX8yW4YWbnghVE5d2d5zhz6lkzaj9LLNSVj-2B3QvKR6Dg-3D-3D)
- (free for online use) [doi](http://dx.doi.org/10.1007/s11005-016-0908-9) [arxiv/1409.8188](http://arxiv.org/abs/1409.8188)
+* S. Meljanac, Z. &#352;koda, M. Stojić, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, Lett. Math. Phys. 107:3, 475--503 (2017) [enhanced pdf](http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSHnmX9Ae5OTohRXxZ3Kuwuk-3D_fxWtIqIinsN9WJMaEHmGcrXGHheD-2FQtZ0bATf5S8uPqTE1vT5wX4Z3MHOr3LESbPy9zd7ZFfFy-2BgrWYwBzwnkToXTLfpXlfVLbWgoyxh3yG3X87hmFOy6WBB8-2BfFT6d5xCnkUAl78V3yBYjEJE6K0TYy2-2FYZewOjCVwZXxVneWJX8yW4YWbnghVE5d2d5zhz6lkzaj9LLNSVj-2B3QvKR6Dg-3D-3D)
+ (free for online use) [doi](https://doi.org/10.1007/s11005-016-0908-9) [arxiv/1409.8188](https://arxiv.org/abs/1409.8188)
 
 A definition of a variant of Hopf algebroid which is somewhat similar to Lu's definition but involves working with a 2-sided ideal, with help of a distinguished „balancing” subalgebra, is in
 
