@@ -173,7 +173,7 @@ Consider the case that $X = const X_0$ is simplicially constant. Then the condit
     \,.
   $$
 
-  Its [[pullback]] is $(Y_0 \times Y_0)_{X_0 \times X_0} X_0 \simeq Y_0 \times_{X_0} Y_0$, Hence the condition is that
+  Its [[pullback]] is $(Y_0 \times Y_0)\times_{X_0 \times X_0} X_0 \simeq Y_0 \times_{X_0} Y_0$, hence the condition is that
 
   $Y_1 \to Y_0 \times_{X_0} Y_0$ is a local epimorphism.
 
