@@ -150,6 +150,9 @@ The original article:
 
 Traditional review:
 
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], §1.3.7 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
+
 * {#Aaronson18} [[Scott Aaronson]], §10.1 in *Introduction to Quantum Information Science* (2018) &lbrack;[pdf](https://www.scottaaronson.com/qclec.pdf), [webpage](https://www.scottaaronson.com/cs378/)&rbrack;
 
 and phrased in the [[quantum programming language]] [[Quipper]]:
