@@ -47,11 +47,11 @@ For more see at _[[cosmological constant]]_ [here](cosmological+constant#InPertu
 
 To some extent the problem of AQFT on curved spacetime was formulated in 
 
-* {#Dyson72} [[Freeman Dyson]],_Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
+* {#Dyson72} [[Freeman Dyson]], *Missed opportunities*, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
 
   > $\,$
 
-  > $[$ the [[Haag-Kastler axioms]] $]$  taken  together  with  the  axioms  defining  a  C*-algebra  are  a  distillation  into  abstract  mathematical  language  of  all  the   general  truths  that  we  have  learned  about  the  physics  of  microscopic   systems  during  the  last  50 years. They  describe a  mathematical  structure of  great  elegance  whose  properties  correspond  in  many  respects  to  the facts  of  experimental  physics.  In  some  sense,  the  axioms  represent  the most  serious  attempt  that  has  yet  been  made  to  define  precisely  what physicists mean by the words "observability, causality, locality, relativistic invariance," which  they are constantly  using  or  abusing  in their  everyday speech. $[$...$]$ I  therefore  propose  as  an  outstanding  opportunity  still  open  to  the  pure mathematicians, to  create a mathematical structure preserving the  main   features of the Haag-Kastler axioms but possessing E-invariance instead of P-invariance. 
+  > $[$ the [[Haag-Kastler axioms]] $]$  taken  together  with  the  axioms  defining  a  [[C*-algebra]]  are  a  distillation  into  abstract  mathematical  language  of  all  the   general  truths  that  we  have  learned  about  the  physics  of  microscopic   systems  during  the  last  50 years. They  describe a  mathematical  structure of  great  elegance  whose  properties  correspond  in  many  respects  to  the facts  of  experimental  physics.  In  some  sense,  the  axioms  represent  the most  serious  attempt  that  has  yet  been  made  to  define  precisely  what physicists mean by the words "observability, causality, locality, relativistic invariance," which  they are constantly  using  or  abusing  in their  everyday speech. $[$...$]$ I therefore  propose as an  outstanding opportunity  still open to the pure mathematicians, to  create a mathematical structure preserving the  main features of the Haag-Kastler axioms but possessing E-invariance instead of P-invariance. 
 
 $P$ here denotes the [[Poincaré group]], while $E$ denotes what Dyson calls the 'Einstein group', which is now called the [[diffeomorphism group]].
 
@@ -64,6 +64,11 @@ General accounts of (perturbative, algebraic) quantum field theory on curved spa
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001))
 
 * [[Christopher Fewster]], [[Rainer Verch]], _Algebraic quantum field theory in curved spacetimes_ ([arXiv:1504.00586](https://arxiv.org/abs/1504.00586))
+
+See also:
+
+* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, Encyclopaedia of Mathematical Physics (2023) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
+
 
 Foundations for [[perturbative quantum field theory]] on curved spacetimes in terms of [[causal perturbation theory]] were laid in 
 
