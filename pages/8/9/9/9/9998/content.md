@@ -63,7 +63,11 @@ The [[KK-compactification]] of the [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[
 
 * Jin Chen, Babak Haghighat, Shuwei Liu, Marcus Sperling, _4d N=1 from 6d D-type N=(1,0)_ ([arXiv:1907.00536](https://arxiv.org/abs/1907.00536))
 
-### Witten index
+Via [[D3 branes]] at resolved [[orbifold singularities]] and invoking a generalized [[McKay correspondence]]:
+
+* [[Pietro G. Fré]], *Lectures on resolutions à la Kronheimer of orbifold singularities, McKay quivers for Gauge Theories on D3 branes, and the issue of Ricci flat metrics on the resolved three-folds* &lbrack;[arXiv:2308.14022](https://arxiv.org/abs/2308.14022)&rbrack;
+
+
 
 The [[Witten index]]:
 
