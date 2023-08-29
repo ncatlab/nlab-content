@@ -6,6 +6,8 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Don_Zagier)
 
+*  C. S. Aravinda, Sudhir Rao: *Speaking the language of mathematics*, interview with Don Zagier, Bhāvanā mathematics magazine **7** 2 (2023) &lbrack;[web](https://bhavana.org.in/speaking-the-language-of-mathematics/)&rbrack;
+
 ## Selected writings
 
 
