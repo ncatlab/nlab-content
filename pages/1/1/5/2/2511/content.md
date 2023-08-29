@@ -26,6 +26,10 @@ On [[D=7 supergravity]]:
 
 * [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
 
+On [[N=1 D=4 super Yang-Mills theory]] via [[D3 branes]] at resolved [[orbifold singularities]] and invoking a generalized [[McKay correspondence]]:
+
+* [[Pietro G. Fré]], *Lectures on resolutions à la Kronheimer of orbifold singularities, McKay quivers for Gauge Theories on D3 branes, and the issue of Ricci flat metrics on the resolved three-folds* &lbrack;[arXiv:2308.14022](https://arxiv.org/abs/2308.14022)&rbrack;
+
 
 
 ## Related entries
@@ -49,3 +53,5 @@ On [[D=7 supergravity]]:
 category: people
 
 [[!redirects Pietro Fre]]
+
+[[!redirects Pietro G. Fré]]
