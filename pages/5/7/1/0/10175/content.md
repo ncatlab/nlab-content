@@ -24,12 +24,14 @@ A **modelizer** is a presentation of the [[(infinity,1)-category|(∞,1)-categor
 ## Definition
 
 A **modelizer** is a [[category]] $M$ and a subcategory $W$ satisfying these conditions:
+
 * $(M, W)$ is a saturated [[homotopical category]], meaning $W$ is precisely the class of morphisms in $M$ that become invertible in the [[localization]] $M [W^{-1}]$.
 * $M [W^{-1}]$ is [[equivalence of categories|equivalent]] to the category of weak [[homotopy types]], i.e. [[Ho(Top)]] (with respect to [[weak homotopy equivalences]]).
 
 More precisely, it is a category $M$ equipped with a functor $\pi : M \to Ho(Top)$ such that, for $W$ the class of morphisms inverted by $\pi$, the induced functor $M [W^{-1}] \to Ho(Top)$ is an equivalence of categories.
 
 A **morphism of modelizers** $(M, W) \to (M', W')$ is a functor $F : M \to M'$ such that:
+
 * $F$ sends morphisms in $W$ to morphisms in $W'$.
 * The functor $M [W^{-1}] \to M' [W'^{-1}]$ so induced is an equivalence of categories.
 * The composite $M \overset{F}{\to} M' \overset{\pi}{\to} Ho(Top)$ is isomorphic to $M \overset{\pi}{\to} Ho(Top)$.
