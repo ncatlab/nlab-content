@@ -3,3 +3,6 @@ Abraham Robinson was a German born mathematician, who studied in Jerusalem, befo
 * [Abraham Robinson in Wikipedia](http://en.wikipedia.org/wiki/Abraham_Robinson)
 
 * [Abraham Robinson's biography](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Robinson.html) on the St. Andrews History website. 
+
+
+category: people
