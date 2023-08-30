@@ -1,5 +1,18 @@
 
-..
+
+\begin{tikzcd}
+  \fbox{
+    \hspace{-7pt}
+    \begin{tabular}{c}
+      Chen
+      \\   
+      1973
+    \end{tabular}
+    \hspace{-7pt}
+  }
+\end{tikzcd}
+
+
 
 $$
   \Big(W \to W \times \big(W \to W \times D\big)\Big)
