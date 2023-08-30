@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, is __finitely generated__ if there exist a [[finite set]] $S\subset N$ such that the canonical morphism from the [[free module]] $F(S) \longrightarrow N$ is a [[surjection]].
+Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, is __finitely generated__ if there exists a [[finite set]] $S\subseteq N$ such that the canonical morphism from the [[free module]] $F(S) \longrightarrow N$ is a [[surjection]].
 
 
 ## Related concepts
