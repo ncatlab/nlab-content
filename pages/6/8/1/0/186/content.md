@@ -54,19 +54,25 @@ According to the general nonsense of [[space and quantity]], generalized smooth 
 
   * [[Froelicher space|Frölicher spaces]]
 
-The relationships between (some) of the categories can be sumarised by the following diagram.
+{#DiagramOfAdjointFunctors} The relationships between (some) of the categories can be sumarised by the following diagram of [[adjoint functors]]:
 
-$$
-\begin{svg}
-[[!include generalized smooth space > relationships]]
-\end{svg}
-$$
+\begin{imagefromfile}
+    "file_name": "Stacey-NotionsOfSmoothSpaceRelationships.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Stacey 2011](#Stacey11))"
+\end{imagefromfile}
 
 
 
 ## Literature
 
-Eventually the following will be a _commented_ list -- promised.
 
 * John Baez and Alexander Hoffnung, _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc., Vol. 363 No. 11 (2011), 5789-5825, doi:[10.1090/S0002-9947-2011-05107-X](https://doi.org/10.1090/S0002-9947-2011-05107-X), [arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html).
 
@@ -78,7 +84,7 @@ Eventually the following will be a _commented_ list -- promised.
 
 * David Spivak, _Quasi-smooth derived manifolds_, thesis (2010) ([pdf](https://web.archive.org/web/20221206173621/https://math.mit.edu/~dspivak/files/thesis1.pdf)).
 
-* Andrew Stacey, _Comparative Smootheology_, Theory and Applications of Categories, Vol. 25, 2011, No. 4, pp 64-117, ([journal](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html)), [arXiv:0802.2225](http://arxiv.org/abs/0802.2225).
+* {#Stacey11} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories, **25** 4 (2011) 64-117, &lbrack;[tac:25-4](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html)), [arXiv:0802.2225](http://arxiv.org/abs/0802.2225)&rbrack;
 
 * Martin Laubinger, _Differential Geometry in Cartesian Closed Categories of Smooth Spaces_ ([pdf](https://web.archive.org/web/20150920152120/http://etd.lsu.edu/docs/available/etd-02212008-165645/unrestricted/laubingerdiss.pdf))
 
