@@ -1,6 +1,5 @@
 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,17 +17,37 @@
 
 ## Idea
 
-An __inner product space__ ("scalar product", i.e. with values in [[scalars]]) is a [[vector space]] $V$ equipped with a (conjugate)-symmetric [[bilinear form|bilinear]] or [[sesquilinear form]]: a [[linear map]] from the [[tensor product]] $V \otimes V$ of $V$ with itself, or of $V$ with its [[dual module]] $\bar{V} \otimes V$  to the [[ground ring]] $k$.
+An _inner product_ on a [[vector space]] $V$ (also "scalar product" in the sense of: with values in "[[scalars]]", namely in the [[ground field]] $\mathbb{K}$) is a pairing $\langle\text{-},\text{-}\rangle$ of [[vectors]] to [[scalars]]
+$$
+  v_1,\, v_2
+  \,\in\,
+  V
+  \;\;\;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;\;\;
+  \langle v_1,\, v_2 \rangle
+  \,\in\,
+  \mathbb{K}
+$$
+which is  [[bilinear form|bilinear]] *or rather* -- namely if $\mathbb{K}$ is understood with a [[star-algebra|star]]-[[involution]] (such as the [[complex numbers]] under [[complex conjugation]]) -- [[sesquilinear form|sesquilinear]], in which case one also speaks of a *[[Hermitian inner product]]*, for definiteness.
 
-One often studies _positive-definite_ inner product spaces; for these, see [[Hilbert space]].  Here we do not assume positivity (positive semidefiniteness) or definiteness (nondegeneracy). See also [[bilinear form]]. 
+Often one requires such a pairing to be non-degenerate or even positive-definite in order to qualify as an inner product, standard conventions depend on context.
 
-The group of automorphisms of an inner product space is the [[orthogonal group of an inner product space]].
+For example, the ([[Hermitian inner product|Hermtian]]) inner product on a [[Hilbert space]] is required to be positive definite, as is that on [[tangent spaces]] in [[Riemannian geometry]], but the inner product on [[tangent spaces]] in [[pseudo-Riemannian geometry]] is only required to be non-degenerate. 
+
+The group of [[automorphisms]] of an inner product space is the [[orthogonal group of an inner product space]].
 
 
 ## Definitions
 
-Let $V$ be a [[vector space]] over the [[field]] (or more generally a [[ring]]) $k$.  Suppose that $k$ is equipped with an [[involution]] $r \mapsto \bar{r}$, called _conjugation_; in many examples, this will simply be the [[identity function]], but not always.  An __inner product__ on $V$ is a function
-$$ \langle {-},{-} \rangle: V \times V \to k $$
+Let $V$ be a [[vector space]] over the [[field]] (or more generally a [[ring]]) $\mathbb{K}$.  Suppose that $\mathbb{K}$ is equipped with an [[involution]] $r \mapsto \overline{r}$, called _conjugation_; in many examples, this will simply be the [[identity function]], but not always (for the [[complex numbers]] one typically consider the involution by [[complex conjugation]]).  
+
+Then a ([[Hermitian inner product|Hermitian]]) _inner product_ on $V$ is a function
+$$ 
+  \langle\text{-},\, \text{-}\rangle
+  \;\colon\;
+  V \times V \to k 
+$$
 that is (1--3) _sesquilinear_ (or _bilinear_ when the involution is the identity) and (4) _conjugate-symmetric_ (or _symmetric_ when the involution is the identity).  That is:
 
 1.  $ \langle 0, x \rangle = 0 $ and $ \langle x, 0 \rangle = 0 $;
@@ -37,7 +56,9 @@ that is (1--3) _sesquilinear_ (or _bilinear_ when the involution is the identity
 $\langle x, c y \rangle = \langle x, y \rangle c$;
 4.  $ \langle x, y \rangle = \overline{\langle y, x \rangle} $.
 
-Here we use the _physicist\'s convention_ that the inner product is antilinear (= conjugate-linear) in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s and is often used in a generalization for [[Hilbert module]]s.  Note that we use the same ring as values of the inner product as for [[scalars]]. Notice that $\langle x, c y \rangle = \langle x, y \rangle c$ is written with $c$ on the right for the case that we deal with noncommutative division ring.
+Here we use the _physicist\'s convention_ that the inner product is antilinear (= conjugate-linear) in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.   
+
+Note that we use the same ring as values of the inner product as for [[scalars]], and that $\langle x, c y \rangle = \langle x, y \rangle c$ is written with $c$ on the right for the case that we deal with noncommutative division ring.
 
 +-- {: .query}
 Are the two conventions really equivalent when $k$ is noncommutative?  &#8212;Toby
