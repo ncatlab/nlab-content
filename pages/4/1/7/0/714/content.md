@@ -395,38 +395,68 @@ For more on this see
 
 * [[symmetric bicategory]]
 
-## References
-
-The concept of $\dagger$-category is discussed here:
-
-* [[Samson Abramsky|S. Abramsky]] and [[Bob Coecke|B. Coecke]], A categorical semantics of quantum protocols, _Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04)_, IEEE Computer Science Press (2004).  [arXiv](http://arxiv.org/abs/quant-ph/0402130)
-
-and further abstracted in:
-
-* [[Peter Selinger|P. Selinger]], Dagger compact closed categories and completely positive maps, _Proceedings of the 3rd International Workshop on Quantum Programming Languages_, Chicago, June 30&#8211;July 1, 2005. [web](http://www.mscs.dal.ca/~selinger/papers.html#dagger)
-
-The importance of $\dagger$-categories in quantum theory is discussed here:
-
-* [[John Baez]], Quantum quandaries: a category-theoretic perspective, in _Structural Foundations of Quantum Gravity_, eds. Steven French, Dean Rickles and Juha Saatsi, Oxford U. Press, 2006, pp. 240--265.  See especially Section 3: The $\star$-category of Hilbert spaces.  ([web](http://math.ucr.edu/home/baez/quantum/node3.html))
-
-Note that in older literature, the term "$\star$-category"  or "star-category" is sometimes used instead of $\dagger$-category.
-
-The term "symmetric category" is occasionally encountered, analogous to [[symmetric proset]] or [[symmetric bicategory]], e.g. in
-
-* R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
-
-Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modular tensor category|modular tensor categories]], play an important role in topological quantum field theory and the theory of quantum groups:
-
-* [[Jürg Fröhlich]] and Thomas Kerler, _Quantum Groups, Quantum Categories, and Quantum Field Theory_, Springer Lecture Notes in Mathematics 1542, Springer-Verlag, Berlin, 1991. 
-
-* Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
-([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
-
-Three definitions of an $(\infty, 1)$-$\dagger$-category have been proposed by [[Simon Henry]] in: 
-
-* *$(n,1)$-dagger categories*, MathOverflow, ([web](https://mathoverflow.net/questions/427302/n-1-dagger-categories/427322#427322))
+\linebreak
 
 [[!include oidification - table]]
+
+\linebreak
+
+
+
+## References
+ {#References}
+
+The concept of $\dagger$-categories appears in the form of *strongly compact closed categories* in
+
+* {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], around Prop. 7.3 *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04), IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
+
+then named *[[dagger compact closed categories]]* in
+
+* {#Selinger07} [[Peter Selinger]], *Dagger compact closed categories and completely positive maps*, Electronic Notes in Theoretical Computer Science **170** (2007) 139-163 &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018), [web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](https://www.mscs.dal.ca/~selinger/papers/dagger.pdf)&rbrack;
+
+and as such became the foundation of *[[quantum information theory via dagger-compact categories]]*.
+
+Exposition in this context of [[quantum physics]]:
+
+* [[John Baez]], *The $\star$-category of Hilbert spaces*, Section 3 in: *Quantum quandaries: a category-theoretic perspective*, in _Structural Foundations of Quantum Gravity_, Oxford U. Press (2006) 240-265 &lbrack;[web](http://math.ucr.edu/home/baez/quantum/node3.html), [arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040)&rbrack;
+
+But the notion of plain dagger categories has been considered much earlier, reinvented many times under different names (see [Karvonen 2018 §1.2](#Karvonen18) for more historical references) such as under the name "categories with involution":
+
+* [[Saunders Mac Lane]], pp. 1045 of: *An Algebra of Additive Relations*, Proceedings of the National Academy of Sciences of the United States of America **47** 7 (1961) 1043-1051 &lbrack;[jstor:71127](https://www.jstor.org/stable/71127)&rbrack;
+
+* [[Dieter Puppe]], §1 in *Korrespondenzen in abelschen Kategorien*, Mathematische Annalen **148** (1962) 1–30 &lbrack;[doi:10.1007/BF01438388](https://doi.org/10.1007/BF01438388)&rbrack;
+
+* {#Burgin70} [[Mark S. Burgin]], *Categories with involution, and correspondences in $\gamma$-categories*, Trudy Moskovskogo Matematicheskogo Obshchestva **22** (1970) 161–228 &lbrack;[mathnet:mmo235](https://www.mathnet.ru/eng/mmo235)&rbrack;	
+
+Vaguely related is the notion of "symmetric category" is (analogous to [[symmetric proset]] or [[symmetric bicategory]])
+
+* {#Walters81} [[Robert Walters]], *Sheaves and Cauchy complete categories*, Cahiers Top. Geom. Diff. Cat. **22** 3 (1981) 283-286 &lbrack;[numdam:CTGDC_1981__22_3_283_0](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0)&rbrack;
+
+
+Still, dedicated discussion of these notions only appears later under the name of dagger-categories:
+
+* {#Karvonen18} [[Martti Karvonen]], *The Way of the Dagger*, Edinburgh (2018) &lbrack;[arXiv:1904.10805](https://arxiv.org/abs/1904.10805), [pdf](https://mysite.science.uottawa.ca/mkarvone/papers/Karvonen%20-%20Thesis.pdf)&rbrack;
+
+concerning [[limits]]
+
+* [[Chris Heunen]], [[Martti Karvonen]], *Limits in dagger categories*, Theory and Applications of Categories **34** 18 (2019) 468-513 &lbrack;[arXiv:1803.06651](https://arxiv.org/abs/1803.06651), [34-18](http://www.tac.mta.ca/tac/volumes/34/18/34-18abs.html)&rbrack;
+
+concerning [[monads]] (such as the [[Frobenius monad|Frobenius]] [[quantum reader monad]]):
+
+* [[Chris Heunen]], [[Martti Karvonen]], *Monads on dagger categories*, Theory and Applications of Categories **31** 35 (2016) 1016-1043 &lbrack;[arXiv:1602.04324](https://arxiv.org/abs/1602.04324), [tac:31-35](http://www.tac.mta.ca/tac/volumes/31/35/31-35abs.html)&rbrack;
+
+concerning abstract characterization:
+
+* [[Luuk Stehouwer]], [[Jan Steinebrunner]], *Dagger categories via anti-involutions and positivity* &lbrack;[arXiv:2304.02928](https://arxiv.org/abs/2304.02928)&rbrack;
+
+
+
+Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
+
+Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] have been proposed by:  
+
+* [[Simon Henry]], *$(n,1)$-dagger categories* &lbrack;[MO:a/427322](https://mathoverflow.net/a/427322/381)&rbrack;
+
 
 [[!redirects dagger-category]]
 [[!redirects dagger-categories]]
@@ -436,3 +466,7 @@ Three definitions of an $(\infty, 1)$-$\dagger$-category have been proposed by [
 
 [[!redirects symmetric category]]
 [[!redirects symmetric categories]]
+
+[[!redirects category with involution]]
+[[!redirects categories with involution]]
+[[!redirects categories with involutions]]
