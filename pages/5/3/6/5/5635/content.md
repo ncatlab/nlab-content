@@ -96,11 +96,9 @@ and in terms of [[algebraic geometry]] and via [[Frobenius manifolds]] due to:
 
 * [[Yuri I. Manin]], *Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces*, Colloquium Publications **47** (1999) &lbrack;[ISBN:978-0-8218-1917-3](https://bookstore.ams.org/coll-47), [mpim-eprint:1598](https://archive.mpim-bonn.mpg.de/id/eprint/1598)&rbrack;
 
-
 See also:
 
 * [[Boris Dubrovin]], *Geometry and Analytic Theory of Frobenius Manifolds*, Extra Volume ICM II (1998) 315–326 &lbrack;[arXiv:math/9807034](https://arxiv.org/abs/math/9807034)&rbrack;
-
 
 * [[Ron Donagi]], [[Josh Guffin]], [[Sheldon Katz]], [[Eric Sharpe]], *A Mathematical Theory of Quantum Sheaf Cohomology*, Asian J. Math. **18** (2014) 387-418 &lbrack;[arXiv:1110.3751](https://arxiv.org/abs/1110.3751), [doi:10.4310/AJM.2014.v18.n3.a1](https://doi.org/10.4310/AJM.2014.v18.n3.a1)&rbrack;
 
@@ -117,8 +115,7 @@ Introduction and review:
 
 * Tom Coates, *An Introduction to Quantum Cohomology* &lbrack;[pdf](https://homepages.abdn.ac.uk/kedra/pages/lms/tom.pdf)&rbrack;
 
-* Alexander Givental, *A tutorial on Quantum Cohomology* &lbrack;[pdf](https://math.berkeley.edu/~giventh/papers/lqc.pdf)&rbrack;
-
+* [[Alexander Givental]], *A tutorial on Quantum Cohomology* &lbrack;[pdf](https://math.berkeley.edu/~giventh/papers/lqc.pdf), [[Givental-QuantumCohomologyTutorial.pdf:file]]&rbrack;
 
 See also:
 
@@ -136,7 +133,6 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
   _Quantum sheaf cohomology_ ([pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)) Brandeis university (2010)
 
   _Quantum sheaf cohomology I_ ([pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf))
-
 
 
 
@@ -167,6 +163,62 @@ And specifically the case of [[Riemann sphere|$\mathbb{C}P^1$]]:
 * {#DorfmeisterGuestRossman10} Josef F. Dorfmeister, [[Martin A. Guest]], Wayne Rossman, *The $tt*$ Structure of the Quantum Cohomology of $\mathbb{C}P^1$ from the Viewpoint of Differential Geometry*, Asian Journal of Mathematics **14** 3 (2010) 417-438 &lbrack;[doi:10.4310/AJM.2010.v14.n3.a7](https://dx.doi.org/10.4310/AJM.2010.v14.n3.a7)&rbrack;
 
 
+### Quantum K-cohomology rings
+ {#ReferencesQuantumKTheoryRings}
+
+The idea of an analogous deformation of [[topological K-theory]]-rings originates around:
+
+* [[Alexander B. Givental]], *On the WDVV-equation in quantum K-theory*, Michigan Math. J. **48** 1 (2000) 295-304 &lbrack;[arXiv:math/0003158](https://arxiv.org/abs/math/0003158), [doi:10.1307/mmj/1030132720](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-48/issue-1/On-the-WDVV-equation-in-quantum-K-theory/10.1307/mmj/1030132720.full)&rbrack;
+
+* Y.-P. Lee, *Quantum K-Theory I: Foundations*, Duke Math. J. **121** 3 (2004) 389-424 &lbrack;[arXiv:math/0105014](https://arxiv.org/abs/math/0105014), [doi:10.1215/S0012-7094-04-12131-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-121/issue-3/Quantum-K--theory-I-Foundations/10.1215/S0012-7094-04-12131-1.short)&rbrack;
+
+and for some form of [[equivariant K-theory]]:
+
+* [[Alexander B. Givental]], *Permutation-equivariant quantum K-theory* &lbrack;[webpage](https://math.berkeley.edu/~giventh/perm/perm.html)&rbrack;
+
+  *I. Definitions. Elementary K-theory of $\overline{\mathcal{M}}_{0,n}/S_n$* &lbrack;[arXiv:1508.02690](https://arxiv.org/abs/1508.02690)&rbrack;
+
+  *II. Fixed point localization* &lbrack;[arXiv:1508.04374](https://arxiv.org/abs/1508.04374)&rbrack;
+
+  *III. Lefschetz' formula on $\overline{\mathcal{M}}_{0,n}/S_n$ and adelic characterization* &lbrack;[arXiv:1508.06697](https://arxiv.org/abs/1508.06697)&rbrack;
+
+  *IV. $D_q$-modules* &lbrack;[arXiv:1508.06697](https://arxiv.org/abs/1508.06697)&rbrack;
+
+  *V. Toric $q$-hypergeometric functions* &lbrack;[arXiv:1509.03903](https://arxiv.org/abs/1509.03903)&rbrack;
+
+  *VI. Mirrors* &lbrack;[arXiv:1509.07852](https://arxiv.org/abs/1509.07852)&rbrack;
+
+  *VII. General theory* &lbrack;[arXiv:1510.03076](https://arxiv.org/abs/1510.03076)&rbrack;
+
+  *VIII. Explicit reconstruction* &lbrack;[arXiv:1510.06116](https://arxiv.org/abs/1510.06116)&rbrack;
+
+  *IX. Quantum Hirzebruch-Riemann-Roch in all genera* &lbrack;[arXiv:1709.03180](https://arxiv.org/abs/1709.03180)&rbrack;
+
+  *X. Quantum Hirzebruch-Riemann-Roch in genus 0*, SIGMA **16** 031 (2020) &lbrack;[arXiv:1710.02376](https://arxiv.org/abs/1710.02376), [doi:10.3842/SIGMA.2020.031](https://doi.org/10.3842/SIGMA.2020.031)&rbrack;
+
+  *XI. Quantum Adams-Riemann-Roch* &lbrack;[arXiv:1711.04201](https://arxiv.org/abs/1711.04201)&rbrack;
+
+See also:
+
+* [[Anders S. Buch]], [[Leonardo C. Mihalcea]], *Quantum K-theory of Grassmannians*, Duke Math. J. **156** 3 (2011) 501-538 &lbrack;[arXiv:0810.0981](https://arxiv.org/abs/0810.0981), [doi:10.1215/00127094-2010-218](https://doi.org/10.1215/00127094-2010-218)&rbrack;
+
+Relation to [[D=3 N=2 super Yang-Mills theory]]:
+
+* [[Hans Jockers]], [[Peter Mayr]], *Quantum K-Theory of Calabi-Yau Manifolds*, J. High Energ. Phys. **2019** 11 (2019) &lbrack;[arXiv:1905.03548](https://arxiv.org/abs/1905.03548), <a href="https://doi.org/10.1007/JHEP11(2019)011">doi:10.1007/JHEP11(2019)011</a>&rbrack;
+
+* [[Hans Jockers]], [[Peter Mayr]], *A 3d Gauge Theory/Quantum K-Theory Correspondence*, Advances in Theoretical and Mathematical Physics **24** 2 (2020) &lbrack;[arXiv:1808.02040](https://arxiv.org/abs/1808.02040), [doi:10.4310/ATMP.2020.v24.n2.a4](https://dx.doi.org/10.4310/ATMP.2020.v24.n2.a4)&rbrack;
+
+For more references see also those listed in 
+
+* W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
+
+
+
+
+
+
+
+
 
 [[!include quantum cohomology as Pontrjagin rings -- references]]
 
@@ -180,4 +232,7 @@ And specifically the case of [[Riemann sphere|$\mathbb{C}P^1$]]:
 
 [[!redirects quantum Schubert calculus]]
 
+[[!redirects quantum K-theory]]
+[[!redirects quantum K-theory ring]]
+[[!redirects quantum K-theory rings]]
 
