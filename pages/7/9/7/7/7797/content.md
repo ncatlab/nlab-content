@@ -87,10 +87,7 @@ See also
 [[!redirects canonical line bundles]]
 
 [[!redirects anticanonical line bundle]]
-[[!anticanonical line bundles]]
-
 [[!redirects anti-canonical line bundle]]
-[[!anti-canonical line bundles]]
 
 
 
