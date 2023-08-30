@@ -65,6 +65,10 @@ On the status of the Hubble tension as of 25 January 2023
 
 * Maria Dainotti, Biagio De Simone, Giovanni Montani, Tiziano Schiavone, Gaetano Lambiase, *The Hubble constant tension: current status and future perspectives through new cosmological probes* ([arXiv:2301.10572](https://arxiv.org/abs/2301.10572))
 
+On the local value of the Hubble constant:
+
+* [[Adam G. Riess]],  Louise Breuval, *The Local Value of $H_0$* ([arXiv:2308.10954](https://arxiv.org/abs/2308.10954))
+
 [[!redirects Hubble constant]]
 
 [[!redirects Hubble tension]]
