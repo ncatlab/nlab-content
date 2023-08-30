@@ -68,23 +68,23 @@ $$
 
 Eventually the following will be a _commented_ list -- promised.
 
-* John Baez and Alexander Hoffnung, _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html))
+* John Baez and Alexander Hoffnung, _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc., Vol. 363 No. 11 (2011), 5789-5825, doi:[10.1090/S0002-9947-2011-05107-X](https://doi.org/10.1090/S0002-9947-2011-05107-X), [arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html).
 
-* Patrick Iglesias-Zemmour, _Diffeology_ ([pdf](http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html))
+* Patrick Iglesias-Zemmour, _Diffeology_, Mathematical Surveys and Monographs **185**, AMS (2013), [publisher page](https://doi.org/10.1090/surv/185), ([book site](http://math.huji.ac.il/~piz/Site/TheBook-AMS.html)).
 
-* Matthias Kreck, _Stratifolds and differential algebraic topology_ ([pdf](http://www.hausdorff-research-institute.uni-bonn.de/files/kreck-DA24_08_07.pdf))
+* Matthias Kreck, _Differential Algebraic Topology: From Stratifolds to Exotic Spheres_, Graduate Studies in Mathematics Volume **110**, AMS (2010)  ([publisher page](https://bookstore.ams.org/gsm-110)), ([author pdf](https://www.hcm.uni-bonn.de/fileadmin/user_upload/kreck-DA.pdf)).
 
-* William Lawvere, _Taking categories seriously_ ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* William Lawvere, _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8 (2005) pp. 1-24 ([journal](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html)).
 
-* David Spivak, _Quasi-smooth derived manifolds_ ([pdf](http://math.mit.edu/~dspivak/files/thesis1.pdf))
+* David Spivak, _Quasi-smooth derived manifolds_, thesis (2010) ([pdf](https://web.archive.org/web/20221206173621/https://math.mit.edu/~dspivak/files/thesis1.pdf)).
 
-* Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
+* Andrew Stacey, _Comparative Smootheology_, Theory and Applications of Categories, Vol. 25, 2011, No. 4, pp 64-117, ([journal](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html)), [arXiv:0802.2225](http://arxiv.org/abs/0802.2225).
 
-* Martin Laubinger, _Differential Geometry in Cartesian Closed Categories of Smooth Spaces_ ([pdf](http://etd.lsu.edu/docs/available/etd-02212008-165645/unrestricted/laubingerdiss.pdf))
+* Martin Laubinger, _Differential Geometry in Cartesian Closed Categories of Smooth Spaces_ ([pdf](https://web.archive.org/web/20150920152120/http://etd.lsu.edu/docs/available/etd-02212008-165645/unrestricted/laubingerdiss.pdf))
 
-* Alexander Hoffnung, _Smooth spaces: convenient categories for differential geometry_, ([pdf slides](http://math.ucr.edu/~alex/goettingen.pdf))
+* Alexander Hoffnung, _Smooth spaces: convenient categories for differential geometry_, ([pdf slides](https://web.archive.org/web/20100629002755/http://math.ucr.edu/~alex/goettingen.pdf))
 
-* Alexander Hoffnung, _From Smooth Spaces to Smooth Categories_, ([pdf slides](http://aix1.uottawa.ca/~scpsg/Fields09/alex.hoffnung.pdf))
+* Alexander Hoffnung, _From Smooth Spaces to Smooth Categories_, ([pdf slides](https://web.archive.org/web/20110714114128/http://aix1.uottawa.ca/%7Escpsg/Fields09/alex.hoffnung.pdf))
 
 There are also Hofer's [[polyfold|polyfolds]].
 
