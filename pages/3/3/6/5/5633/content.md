@@ -51,7 +51,6 @@ On [[duality in string theory]] in view of [[category theory]] and [[higher geom
 * {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
 
-
 Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
 
 * [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
@@ -59,6 +58,10 @@ Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
 On [[orbifolds]] by [[2-groups]] in view of [[sigma-models]] inspired from [[string theory]]:
 
 * [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
+
+On [[quantum K-theory rings]]:
+
+* W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
 
 
 ## Selected talks
