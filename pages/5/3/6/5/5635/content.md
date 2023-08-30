@@ -166,13 +166,13 @@ And specifically the case of [[Riemann sphere|$\mathbb{C}P^1$]]:
 ### Quantum K-cohomology rings
  {#ReferencesQuantumKTheoryRings}
 
-The idea of an analogous deformation of [[topological K-theory]]-rings originates around:
+The idea of an analogous quantum deformation of [[topological K-theory]]-rings originates around:
 
 * [[Alexander B. Givental]], *On the WDVV-equation in quantum K-theory*, Michigan Math. J. **48** 1 (2000) 295-304 &lbrack;[arXiv:math/0003158](https://arxiv.org/abs/math/0003158), [doi:10.1307/mmj/1030132720](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-48/issue-1/On-the-WDVV-equation-in-quantum-K-theory/10.1307/mmj/1030132720.full)&rbrack;
 
 * Y.-P. Lee, *Quantum K-Theory I: Foundations*, Duke Math. J. **121** 3 (2004) 389-424 &lbrack;[arXiv:math/0105014](https://arxiv.org/abs/math/0105014), [doi:10.1215/S0012-7094-04-12131-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-121/issue-3/Quantum-K--theory-I-Foundations/10.1215/S0012-7094-04-12131-1.short)&rbrack;
 
-and for some form of [[equivariant K-theory]]:
+and for some form of [[equivariant K-theory]] in:
 
 * [[Alexander B. Givental]], *Permutation-equivariant quantum K-theory* &lbrack;[webpage](https://math.berkeley.edu/~giventh/perm/perm.html)&rbrack;
 
