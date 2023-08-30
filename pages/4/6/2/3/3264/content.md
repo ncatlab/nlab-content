@@ -56,3 +56,5 @@ See also:
 [[!redirects Beĭlinson]]
 [[!redirects A. A. Beĭlinson]]
 [[!redirects A. Beĭlinson]]
+
+category: people
