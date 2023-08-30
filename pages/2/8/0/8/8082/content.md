@@ -54,7 +54,7 @@ Information theories in methodological proximity to mathematics are e.g.
 
 * [[Giuseppe Primiero]], [[spahn:information and knowledge - a constructive type-theoretical approach]], Springer, 2008{#Primiero}
 
-* Mark Burgin, Theory of information, 2010{#Burgin}
+* {#Burgin} [[Mark Burgin]], *Theory of information*, World Scientific (2009) &lbrack;[doi:10.1142/7048](https://doi.org/10.1142/7048)&rbrack;
 
 
 [[!redirects information theory]]
