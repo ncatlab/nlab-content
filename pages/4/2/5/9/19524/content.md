@@ -27,7 +27,6 @@ On [[inhomogeneous cosmology]]:
 
 * {#BuchertEtAl15} [[Thomas Buchert]] et. al, _Is there proof that backreaction of inhomogeneities is irrelevant in cosmology?_, Class. Quantum Grav. 32 215021, 2015 ([arXiv:1505.07800](https://arxiv.org/abs/1505.07800))
 
-
   exposition in _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+, 2016
 
 * Léo Brunswic, [[Thomas Buchert]], _Gauss-Bonnet-Chern approach to the averaged Universe_, Class. Quantum Grav. 37 (2020) 215022 ([arXiv:2002.08336](https://arxiv.org/abs/2002.08336))
@@ -53,6 +52,7 @@ On [[inhomogeneous cosmology]]:
 
   > We believe that this model architecture needs convincing arguments to be rejected as a physically viable show-case, on the basis of which the model ingredients can be improved in order to build a physical cosmology in the future.
 
+* Pratyush Pranav, [[Thomas Buchert]], *Homology reveals significant anisotropy in the cosmic microwave background* ([arXiv:2308.10738](https://arxiv.org/abs/2308.10738))
 
 ## Related $n$Lab entries
 
