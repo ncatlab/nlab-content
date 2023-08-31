@@ -41,3 +41,5 @@ Anatoly Malcev (Анато́лий Ива́нович Ма́льцев; [ˈmɐl�
 [[!redirects Anatoly Maltsev]]
 [[!redirects Anatoly I. Mal'tsev]]
 [[!redirects Anatoly Mal'tsev]]
+
+category: people
