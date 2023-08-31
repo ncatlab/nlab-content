@@ -370,11 +370,13 @@ Discussion of Hermitian forms over the [[complex numbers]] as understood today o
 
   pp. 38 in: *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
-Textbook account in the context of [[operator algebra]]:
+Textbook accounts in the context of [[operator algebras]]:
 
 * [[Richard V. Kadison]], [[John R. Ringrose]], §2.1 in: *Fundamentals of the theory of operator algebras* Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS (1997) &lbrack;[ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15)&rbrack;
 
 * [[Bruce Blackadar]], §I.1.1 in: *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
+
+* {#Landsman17} [[Klaas Landsman]], §A.1 in: *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
 
 See also:
 
