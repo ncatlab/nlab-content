@@ -75,18 +75,16 @@ Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called 
 ## References
  {#References}
 
-The theory of quadratic forms emerged as a part of (elementary)
-[[number theory]], dealing with quadratic [[diophantine equations]], initially
-over the rational integers
+The theory of quadratic forms emerged as a part of (elementary) [[number theory]], dealing with quadratic [[diophantine equations]], initially over the rational integers
 
-The terminology "form" possibly originated with 
+The terminology "form" possibly originated with: 
 
 * [[Leonhard Euler]],  _Novae demonstrations circa divisors numerorum formae $x x + n y y$..._, Acad. Petrop. recitata, Nov 20, 1775, published poshumously
 
 (which is cited as such in [Gauss 1798, paragraph 151](#Gauss1798)).
 
 
-First classification results for forms over the [[integers]] were due to 
+First classification results for forms over the [[integers]] were due to:
 
 * {#Gauss1798} [[Carl Gauss]], section V of _[[Disquisitiones Arithmeticae]]_, 1798
 
@@ -96,11 +94,15 @@ First classification results for forms over the [[integers]] were due to
 
 * [[Hermann Minkowski]], _Untersuchungen &#252;ber quadratische Formen. Bestimmung der Anzahl verschiedener Formen, die ein gegebenes Genus enth&#228;lt_, K&#246;nigsberg 1885; Acta Mathematica 7 (1885), 201&#8211;258
 
+Discussion in the generality of [[noncommutative ring|noncommutative]] [[ground rings]]:
+
+* [[John Milnor]], [[Dale Husemöller]], *Quadratic forms*, Appendix 1 of: *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
+
 See also
 
 * Rudolf Scharlau, _Martin Kneser's work on quadratic forms and algebraic groups_, 2007 ([pdf](http://inst-mat.utalca.cl/qfc2007/Talks/scharlau.pdf))
 
-Course notes include for instance
+Course notes:
 
 * _On the relation between quadratic and bilinear forms_ ([pdf](http://www.maths.manchester.ac.uk/~khudian/Etudes/Algebra/quadrform2.pdf))
 
