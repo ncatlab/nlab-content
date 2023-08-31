@@ -934,10 +934,13 @@ and
 * {#LurieHigherAlgebra} [[Jacob Lurie]], section 7.3 of _[[Higher Algebra]]_
  
 
-The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories
-is discussed in 35.5 of
+The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories (cf. *[[Joyal loci]]*):
 
-* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]]&rbrack;
+* {#Joyal08} [[André Joyal]], §35.5 of *Notes on Logoi* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]]&rbrack;
+
+with expository emphasis in:
+
+* [[Mathieu Anel]], [[André Joyal]], §4.2.3 in: *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
 
 Presentation by [[model categories]] is discussed in
 
