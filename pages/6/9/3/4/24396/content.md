@@ -54,6 +54,10 @@ apparently motivated by the archetypical example of the [[tangent (infinity,1)-t
 
 * {#Joyal08} [[André Joyal]], §35 of: _Notes on Logoi_ (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]]&rbrack;
 
+and further highlighted in
+
+* [[Mathieu Anel]], [[André Joyal]], §4.2.3 in: *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
+
 which goes back to 
 
 * {#Biedermann07} [[Georg Biedermann]], private communication with Joyal (2007)
