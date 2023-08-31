@@ -131,7 +131,23 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 ## References
 
-Discussion in terms of [[self-dual objects]] in suitable [[symmetric monoidal category|symmetric]] [[monoidal categories]]:
+Original discussion of [[Hermitian inner products]] in the context of mathematical foundations of [[quantum mechanics]]:
+
+* {#vonNeumann30} [[John von Neumann]], p. 64 in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
+
+* [[John von Neumann]]:
+
+  p. 21 in: *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  pp. 38 in: *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+Textbook accounts in the context of [[operator algebra]]:
+
+* [[Richard V. Kadison]], [[John R. Ringrose]], §2.1 in: *Fundamentals of the theory of operator algebras* Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS (1997) &lbrack;[ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15)&rbrack;
+
+* [[Bruce Blackadar]], §I.1.1 in: *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
+
+Discussion of plain inner products (without star-involution) in terms of [[self-dual objects]] in suitable [[symmetric monoidal category|symmetric]] [[monoidal categories]]:
 
 * {#Selinger12} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
  
