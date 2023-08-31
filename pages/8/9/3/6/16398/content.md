@@ -14,3 +14,5 @@
 
 [[!redirects A. C. Ewing]]
 [[!redirects Alfred Cyril Ewing]]
+
+category: people
