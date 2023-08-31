@@ -10,9 +10,13 @@ Proving the [[Blakers-Massey theorem]] in any [[(infinity,1)-topos|$(\infty,1)$-
 * {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
 
 
-
 On [[homotopy type with finite homotopy groups]]
 
 * {#Anel21} [[Mathieu Anel]], _The elementary infinity-topos of truncated coherent spaces_ ([arXiv:2107.02082](https://arxiv.org/abs/2107.02082))
+
+On [[(infinity,1)-topos|$(\infty,1)$-toposes]] understood as *[[logoi]]*:
+
+* {#AnelJoyal19} [[Mathieu Anel]], [[André Joyal]], *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
+
 
 category: people
