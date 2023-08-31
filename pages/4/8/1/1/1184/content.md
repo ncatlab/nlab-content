@@ -26,8 +26,8 @@ A [[binary relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is [[tr
 
 Other definitions of a well-order may be found in the literature; they are equivalent given [[excluded middle]], but the definition above seems to be the most powerful in [[constructive mathematics]].  Specifically:
 
-*  a well-order is precisely a [[well-founded relation|well-founded]] [[linear order]];
-*  a well-order is precisely a [[well-founded relation|well-founded]] [[total order]];
+*  a well-order is precisely a [[well-founded relation|well-founded]] [[linear order]] $\prec$;
+*  a well-order is precisely a [[total order]] $\preceq$ whose strict version $\prec$ (defined by $x \prec y$ iff $x \preceq y$ and $x \ne y$) is [[well-founded relation|well-founded]];
 *  (assuming also [[dependent choice]]) a well-order is precisely a linear order $\prec$ with no infinite descending sequence $\cdots \prec x_2 \prec x_1 \prec x_0$;
 *  (assuming also [[dependent choice]]) a well-order is precisely a total order $\preceq$ such that every infinite descending sequence $\cdots \preceq x_2 \preceq x_1 \preceq x_0$ has $x_i = x_{i^+}$ for some $i$ (and hence for infinitely many $i$);
 *  a well-order on $S$ is precisely a [[linear order]] $\prec$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that no $x \in U$ satisfies $x \prec \bot_U$;
@@ -35,7 +35,8 @@ Other definitions of a well-order may be found in the literature; they are equiv
 
 The really interesting thing here is that every well-order is linear; it is a constructive theorem that every linear order is weakly extensional (and so extensional if well-founded) and transitive.  (For a [[weak counterexample]], take the set of [[truth values]] with $x \prec y$ iff $y$ is true and $x$ is false; this is a well-order that\'s linear iff [[excluded middle]] holds.)  For the other equivalences, we\'re simply using well-known classical equivalents for well-foundedness and the classical correspondence between a linear relation $\prec$ and its [[reflexive closure]] $\preceq$.
 
-For reference, a __classical well-order__ is any order satisfying the last definition (a total order that is classically well-founded).  A classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ elements has a classical well-order, [[excluded middle]] follows.
+For reference, a __classical well-order__ is any order satisfying the last definition (a total order that is classically well-founded).  A classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ [[denial inequality|unequal]] elements has a classical well-order, then [[excluded middle]] follows.  (But there are still interesting examples of classically well-ordered sets in constructive mathematics, such as the [[Higgs object|Higgs set]].)
+
 
 ### Well-orders are linear 
 
@@ -88,7 +89,6 @@ Given two well-ordered sets $S$ and $T$, a [[function]] $f\colon S \to T$ is a _
 Note that any simulation of $S$ in $T$ must be unique.  Thus, well-ordered sets and simulations form a category that is in fact a (large) [[preorder]], whose reflection in the category of [[posets]] is in fact the poset of [[ordinal numbers]]. 
 
 
-
 ## Successor
 
 A well-ordered set $S$ comes equipped with a **[[successor]]**, which is a [[partial function|partial map]] 
@@ -105,10 +105,12 @@ A **limit** well-order is a well-order $S$ whose successor map is a [[total func
 
 Similarly, one may define a successor [[functor]] on the [[category]] of well-ordered sets, taking $S$ to the well-order obtained by freely adjoining a (new) top element to $S$. Since this category (which is [[thin category|thin]]) can be regarded as itself a well-ordered [[proper class]], this is a special case of the successor operation above.  (Hence the ordinal of all ordinals is a limit ordinal.)
 
+
 ## Related entries
 
 * [[well-quasi-order]]
 * [[marked extensional well-founded relation]]
+
 
 [[!redirects well order]]
 [[!redirects well orders]]
@@ -127,5 +129,3 @@ Similarly, one may define a successor [[functor]] on the [[category]] of well-or
 [[!redirects well-ordered sets]]
 [[!redirects woset]]
 [[!redirects wosets]]
-
-
