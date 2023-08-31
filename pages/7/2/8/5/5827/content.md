@@ -62,6 +62,10 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 
 * [[Bochner's theorem]]
 
+## References
+
+* [[John Milnor]], [[Dale Husemöller]], *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
+
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
 
