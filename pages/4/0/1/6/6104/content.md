@@ -14,7 +14,13 @@ and with an eye towards [[topological K-theory]]:
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_,  Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
  
 
-## related $n$Lab entries
+On [[bilinear forms]]:
+
+* [[John Milnor]], [[Dale Husemöller]], *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
+
+
+
+## Related entries
 
 * [[Milnor construction]]
 
