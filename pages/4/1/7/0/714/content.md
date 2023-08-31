@@ -420,6 +420,16 @@ Exposition in this context of [[quantum physics]]:
 
 * [[John Baez]], *The $\star$-category of Hilbert spaces*, Section 3 in: *Quantum quandaries: a category-theoretic perspective*, in _Structural Foundations of Quantum Gravity_, Oxford U. Press (2006) 240-265 &lbrack;[web](http://math.ucr.edu/home/baez/quantum/node3.html), [arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040)&rbrack;
 
+and of [[quantum information theory via dagger-compact categories]]:
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], §2.3 in: *Categories for Quantum Theory*, Oxford University Press 2019 &lbrack;[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)&rbrack;
+
+  based on:
+
+  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], §2.3 in: *Lectures on categorical quantum mechanics* (2012) &lbrack;[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]&rbrack;
+
+
+
 But the notion of plain dagger categories has been considered much earlier, reinvented many times under different names (see [Karvonen 2018 §1.2](#Karvonen18) for more historical references) such as under the name "categories with involution":
 
 * [[Saunders Mac Lane]], pp. 1045 of: *An Algebra of Additive Relations*, Proceedings of the National Academy of Sciences of the United States of America **47** 7 (1961) 1043-1051 &lbrack;[jstor:71127](https://www.jstor.org/stable/71127)&rbrack;
@@ -437,7 +447,7 @@ Still, dedicated discussion of these notions only appears later under the name o
 
 * {#Karvonen18} [[Martti Karvonen]], *The Way of the Dagger*, Edinburgh (2018) &lbrack;[arXiv:1904.10805](https://arxiv.org/abs/1904.10805), [pdf](https://mysite.science.uottawa.ca/mkarvone/papers/Karvonen%20-%20Thesis.pdf)&rbrack;
 
-concerning [[limits]]
+concerning [[limits]]:
 
 * [[Chris Heunen]], [[Martti Karvonen]], *Limits in dagger categories*, Theory and Applications of Categories **34** 18 (2019) 468-513 &lbrack;[arXiv:1803.06651](https://arxiv.org/abs/1803.06651), [34-18](http://www.tac.mta.ca/tac/volumes/34/18/34-18abs.html)&rbrack;
 
