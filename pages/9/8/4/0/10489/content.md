@@ -19,7 +19,8 @@ The term "logos" is used
 
 * {#Joyal15} [[André Joyal]], _A crash course in topos theory : the big picture_, lecture series at Topos à l'IHÉS, 2015 [Video 1](https://www.youtube.com/watch?v=Ro8KoFFdtS4), [Video 2](https://www.youtube.com/watch?v=4vxzK4LjFlY), [Video 3](https://www.youtube.com/watch?v=u_cl0qiJxWY), [Video 4](https://www.youtube.com/watch?v=xzyxgJBNW8w). 
 
-* {#AnelJoyal19} [[Mathieu Anel]] and [[André Joyal]], _Topo-logie_, preprint, 2019 ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
+* {#AnelJoyal19} [[Mathieu Anel]], [[André Joyal]], *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
+
 
 * {#Anel19} [[Mathieu Anel]], _Descent and Univalence_, talk at [HoTTEST](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html), May 2019, [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Anel-2019-05-2-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=86s0BCB3HGo)
 
