@@ -467,6 +467,8 @@ Anisotropy:
 
   > The joint significance of this rejection of the cosmological principle is 5.2σ.
 
+Applying [[topological data analysis]]/[[persistent homology]] to the [[CMB]]:
+
 * Pratyush Pranav, [[Thomas Buchert]], *Homology reveals significant anisotropy in the cosmic microwave background* ([arXiv:2308.10738](https://arxiv.org/abs/2308.10738))
 
 Survey of deviations:
