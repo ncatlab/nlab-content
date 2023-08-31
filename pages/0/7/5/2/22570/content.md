@@ -14,3 +14,5 @@ Introducing the notion of [[Rényi entropy]]:
 
 [[!redirects A. Rényi]]
 [[!redirects A. Renyi]]
+
+category: people
