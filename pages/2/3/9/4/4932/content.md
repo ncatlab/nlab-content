@@ -34,6 +34,11 @@ On the [[cobordism ring]]:
 
 * {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
 
+On [[bilinear forms]]:
+
+* [[John Milnor]], [[Dale Husemöller]], *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
+
+
 On [[characteristic classes]]:
 
 * [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
