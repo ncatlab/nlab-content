@@ -52,9 +52,11 @@ On [[inhomogeneous cosmology]]:
 
   > We believe that this model architecture needs convincing arguments to be rejected as a physically viable show-case, on the basis of which the model ingredients can be improved in order to build a physical cosmology in the future.
 
+Applying [[topological data analysis]]/[[persistent homology]] to the [[CMB]]:
+
 * Pratyush Pranav, [[Thomas Buchert]], *Homology reveals significant anisotropy in the cosmic microwave background* ([arXiv:2308.10738](https://arxiv.org/abs/2308.10738))
 
-## Related $n$Lab entries
+## Related entries
 
 * [[inhomogeneous cosmology]]
 
