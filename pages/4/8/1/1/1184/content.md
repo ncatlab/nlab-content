@@ -35,7 +35,7 @@ Other definitions of a well-order may be found in the literature; they are equiv
 
 The really interesting thing here is that every well-order is linear; it is a constructive theorem that every linear order is weakly extensional (and so extensional if well-founded) and transitive.  (For a [[weak counterexample]], take the set of [[truth values]] with $x \prec y$ iff $y$ is true and $x$ is false; this is a well-order that\'s linear iff [[excluded middle]] holds.)  For the other equivalences, we\'re simply using well-known classical equivalents for well-foundedness and the classical correspondence between a linear relation $\prec$ and its [[reflexive closure]] $\preceq$.
 
-For reference, a __classical well-order__ is any order satisfying the last definition (a total order that is classically well-founded).  A classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ [[denial inequality|unequal]] elements has a classical well-order, then [[excluded middle]] follows.  (But there are still interesting examples of classically well-ordered sets in constructive mathematics, such as the [[Higgs object|Higgs set]].)
+For reference, a __classical well-order__ is any order satisfying the last definition (a total order that is classically well-founded).  A classically well-ordered set is a [[choice set]], and so if any set with at least $2$ [[denial inequality|unequal]] elements has a classical well-order, then [[excluded middle]] follows.  (But there are still interesting examples of classically well-ordered sets in constructive mathematics, such as the [[Higgs object|Higgs set]].)
 
 
 ### Well-orders are linear 
