@@ -63,3 +63,5 @@ Further on 1-[[twisted de Rham cohomology]] related to [[sl(2)|$\mathfrak{sl}(2)
 * [[singularity theory]]
 
 [[!redirects A. Varchenko]]
+
+category: people
