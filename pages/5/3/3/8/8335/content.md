@@ -64,6 +64,10 @@ Discussion of this claim incluces
 
 * {#Falkowski18} [[Adam Falkowski]], _[21cm to dark matter](http://resonaances.blogspot.fr/2018/03/21cm-to-dark-matter.html)_, March 2018
 
+Applying [[topological data analysis]]/[[persistent homology]] to the CMB in search for signatures of [[inhomogeneous cosmology]]:
+
+* Pratyush Pranav, [[Thomas Buchert]], *Homology reveals significant anisotropy in the cosmic microwave background* ([arXiv:2308.10738](https://arxiv.org/abs/2308.10738))
+
 
 
 [[!redirects cosmic microwave background]]
