@@ -30,7 +30,7 @@ $$
 \\
 g_{i}u = g_{j}u &\vdash \bot\quad \text{for all pairs}\;g_i\neq g_j\quad\text{(G acts freely)}
 \\
-\top &\vdash (\exists x) \bigvee_{g\in G} gx=y\quad \text{(G acts transitively)}\quad .
+\top &\vdash \bigvee_{g\in G} gx=y\quad \text{(G acts transitively)}\quad .
 \end{aligned}
 $$
 
