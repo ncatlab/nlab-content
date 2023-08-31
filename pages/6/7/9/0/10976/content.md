@@ -4,3 +4,5 @@
 
 * [[derived categories of coherent sheaves]]
 * [[derived noncommutative algebraic geometry]]
+
+category: people
