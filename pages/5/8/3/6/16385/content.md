@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -347,15 +348,47 @@ Using this, one may identify:
 
 ## References
 
-Among original articles:
+Hermitian forms are named in honor of the discussion of [[quadratic forms]] due to:
 
-* [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. **67** (1970) 243-250 &lbrack;[doi:10.1017/S0305004100045515](https://doi.org/10.1017/S0305004100045515), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/wall9.pdf)&rbrack;
+* [[Charles Hermite]], *Sur la théorie des formes quadratiques. Premier mémoire*,  Journal für die reine und angewandte Mathematik **47** (1854) 313-342 &lbrack;[doi:10.1515/crll.1854.47.343](https://doi.org/10.1515/crll.1854.47.343)&rbrack;
+
+maybe starting with
+
+* [[Luigi Bianchi]], *Forme definite di Hermite*, §24 in:  *Sui gruppi di sostituzioni lineari con coefficienti appartenenti a corpi quadratici immaginarî*, Mathematische Annalen **40** (1892) 332–412 &lbrack;[doi:10.1007/BF01443558](https://doi.org/10.1007/BF01443558)&rbrack;
+
+see:
+
+* Jürgen Elstrodt, Fritz Grunewald, Jens Mennicke: *Integral Binary Hermitian Forms*, Ch. 9 in *Groups Acting on Hyperbolic Space*, Springer (1998) &lbrack;[doi:10.1007/978-3-662-03626-6_9]( https://doi.org/10.1007/978-3-662-03626-6_9)&rbrack;
+
+Discussion of Hermitian forms over the [[complex numbers]] as understood today originates in the definition of [[Hilbert space]] (in laying of mathematical foundations of [[quantum mechanics]]):
+
+* {#vonNeumann30} [[John von Neumann]], p. 64 in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
+
+* [[John von Neumann]]:
+
+  p. 21 in: *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  pp. 38 in: *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+Textbook account in the context of [[operator algebra]]:
+
+* [[Richard V. Kadison]], [[John R. Ringrose]], §2.1 in: *Fundamentals of the theory of operator algebras* Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS (1997) &lbrack;[ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15)&rbrack;
+
+* [[Bruce Blackadar]], §I.1.1 in: *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
 
 See also:
 
 * Wikipedia, _[Hermitian form](https://en.wikipedia.org/wiki/Sesquilinear_form#Hermitian_form)_
 
 and see the references at *[[Hilbert space]]*.
+
+Hermitian forms in the generality over [[noncommutative ring|noncommutative]] [[ground rings]]:
+
+* [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. **67** (1970) 243-250 &lbrack;[doi:10.1017/S0305004100045515](https://doi.org/10.1017/S0305004100045515), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/wall9.pdf)&rbrack;
+
+* [[John Milnor]], [[Dale Husemöller]], *Hermitian forms*, Appendix 2 of: *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
+
+
 
 [[!redirects Hermitian forms]]
 
