@@ -131,7 +131,7 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 ## References
 
-Original discussion of [[Hermitian inner products]] in the context of mathematical foundations of [[quantum mechanics]]:
+Original discussion of [[Hermitian inner products]] in the context of defining [[Hilbert spaces]] (as mathematical foundations of [[quantum mechanics]]):
 
 * {#vonNeumann30} [[John von Neumann]], p. 64 in: *Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren*, Math. Ann. **102** (1930) 49–131 &lbrack;[doi:10.1007/BF01782338](https://doi.org/10.1007/BF01782338)&rbrack;
 
