@@ -35,7 +35,7 @@ Brief synopsis of teleportation, [[entanglement]] swapping, BB84, E91, Deutsch-J
 
 ## Category-theoretic formulation
 
-There is a formulation of (aspects of) [[quantum mechanics in terms of dagger-compact categories]]. This lends itself to (and is in fact motivated by) to a discussion of quantum information.
+There is a formulation of (aspects of) [[quantum mechanics in terms of dagger-compact categories]]. This lends itself to (and is in fact motivated by) a discussion of quantum information.
 
 The linear adjoint $(-)^\dagger$ gives Hilbert spaces the structure of a [[†-category]]. The category of Hilb of Hilbert spaces forms a **&#8224;-symmetric monoidal category**, that is, a [[symmetric monoidal category]] equipped with a symmetric monoidal functor $(-)^\dagger$ from $Hilb^{op}$ to $Hilb$. Furthermore, the category FHilb of _finite dimensional_ Hilbert spaces forms a **[[dagger-compact category|†-compact closed category]]**, or a [[compact closed category]] such that $A_*$ := $(A^*)^\dagger = (A^\dagger)^*$ and $(\eta_A)^\dagger = \epsilon_{A^*}$.
 
