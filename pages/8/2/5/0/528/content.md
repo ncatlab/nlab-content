@@ -191,7 +191,20 @@ Any [[finite dimensional vector space|finite-dimensional]] Hopf algebra can be e
 
 =--
 
-The finite-dimensional condition is expected since all Frobenius algebras are finite-dimensional. A nontrivial part of this result is that, while a finite-dimensional Hopf algebra $A$ already has a counit, this is not be the same counit that realizes $A$ as a Frobenius algebra. Rather, it is an *integral* (see [Larson & Sweedler (1969)](#LS69) for details on this).
+The finite-dimensional condition is expected since all Frobenius algebras are finite-dimensional. A nontrivial part of this result is that, while a finite-dimensional Hopf algebra $A$ already has a counit, this is not be the same counit that realizes $A$ as a Frobenius algebra. Rather, it is an *integral* (see [Larson & Sweedler (1969)](#LS69) for details on this), which for finite-dimensional Hopf algebras always exist and are unique up to scaling.
+
+In fact, more is true. In [Fuchs, Schweigert & Stigner (2011)](#FSS11) a [symmetric special Frobenius algebra](https://ncatlab.org/nlab/show/Frobenius+algebra#special_frobenius_algebras) is constructed from a particular kind of Hopf algebra.
+
++-- {: .num_prop #DualHopfAlgebraIsSSFrobeniusAlgebra}
+###### Proposition
+
+Let $H$ be a finite-dimensional factorizable ribbon Hopf algebra, with multiplication $\mu$, counit $\epsilon$, comultiplication $\Delta$, and antipode $S$. Let $\Lambda$ be a left-integral element of $H$ and $\lambda$ a right-cointegral of $H$ (since $H$ is finite-dimensional, this is equivalent to an integral of the dual Hopf algebra $H^*$) such that $\lambda\circ\Lambda=1$. Then the dual vector space $H^*$ endowed with: a unit $\epsilon^*$, a multiplication $\Delta^*$, a counit $\Lambda^*$, and comultiplication 
+
+$$\Delta_F=((\text{id}_H\otimes (\lambda\circ \mu))\circ (\text{id}_H\otimes S\otimes\text{id}_H)\circ (\Delta\otimes\text{id}_H))^*$$
+
+is a symmetric Frobenius object in the category $\text{Bimod}(H,H)$ of bimodules of $H$, and it is furthermore special iff $H$ is is semisimple.
+
+=--
 
 
 
@@ -316,6 +329,11 @@ For Hopf algebras in generative linguistics, see:
 The construction of a Frobenius algebra structure on finite-dimensional Hopf algebras due to
 
 * {#LS69}[[Richard Larson]], [[Moss Sweedler]]. *An Associative Orthogonal Bilinear Form for Hopf Algebras*. American Journal of Mathematics, Vol. 91, No. 1 (Jan., 1969), pp. 75-94 (20 pages). ([doi](https://doi.org/10.2307/2373270))
+
+The proof that $H^*$ can be endowed with the structure of a symmetric special Frobenius object in $\text{Bimod}(H,H)$ is in
+
+* {#FSS11} [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Carl Stigner]]. *Modular invariant Frobenius algebras from ribbon Hopf algebra automorphisms*. Journal of Algebra **363**, 1 August 2012, Pages 29-72. ([doi](https://doi.org/10.1016/j.jalgebra.2012.04.008))
+
 
 On the $H_8$ Hopf algebra
 
