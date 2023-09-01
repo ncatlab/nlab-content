@@ -52,7 +52,11 @@ $$\array{
 (\bot,l) & \to & (\bot,r)
 }$$
 
-then viewing the identity as a functor of 2-arguments, we get an obvious separately functorial action, but since the square does not commute, it is not a bifunctor. 
+then viewing the identity as a functor of 2-arguments, we get an obvious separately functorial action, but since the square does not commute, it is not a bifunctor.
+
+## Enrichment
+
+Categories enriched in the funny tensor product monoidal structure are precisely [[sesquicategories]].
 
 ## Related pages
 
