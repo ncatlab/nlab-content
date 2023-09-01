@@ -9,7 +9,9 @@ It is an associative [[bialgebroid]] whose structure, given a Hopf-Galois extens
 ## Literature
 
 * [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge 2003.
-* Peter Schauenburg, _Bialgebras over noncommutative rings and a structure theorem for Hopf bimodules_, Appl. Cat. Str.6:193–222 (1998)
+
+* [[Peter Schauenburg]], _Bialgebras over noncommutative rings and a structure theorem for Hopf bimodules_, Appl. Cat. Str. **6** (1998) 193–222 &lbrack;[doi:10.1023/A:1008608028634](https://doi.org/10.1023/A:1008608028634)&rbrack;
+
 * Piotr M. Hajac, Tomasz Maszczyk, _Pullbacks and nontriviality of associated noncommutative vector bundles_, [arxiv/1601.00021](https://arxiv.org/abs/1601.00021)
 * Tomasz Brzezi&#324;ski, Joost Vercruysse, _Bimodule herds_, J. Algebra __321__:9, (2009) 2670-2704 [arXiv:0805.2510](http://arXiv.org/abs/0805.2510) [doi](https://doi.org/10.1016/j.jalgebra.2009.01.020)
 * Xiao Han, Giovanni Landi, _On the gauge group of Galois objects_, [arxiv/2002.06097](https://arxiv.org/abs/2002.06097)
