@@ -5,7 +5,11 @@
 
 Early discussion of the foundations of [[quantum mechanics]] (including the possibly first consideration of what came to be known as the [[Slater determinant]]):
 
-* [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) $[$[di:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)$]$
+* [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
+
+Introducing [[bra-ket]]-notation to [[quantum mechanics]]:
+
+* {#Dirac39} [[Paul A. M. Dirac]], *A new notation for quantum mechanics*, Mathematical Proceedings of the Cambridge Philosophical Society **35** 3 (1939) 416-418 &lbrack;[doi:10.1017/S0305004100021162](https://doi.org/10.1017/S0305004100021162), [pdf](https://www.ifsc.usp.br/~lattice/wp-content/uploads/2014/02/Dirac_notation.pdf)&rbrack;
 
 
 On a [[relativistic membrane]] [[model (in theoretical physics)|model]] for the [[electron]]:
@@ -27,16 +31,20 @@ On [[quantum mechanics]] (and some [[quantum field theory]]):
   
 ## Quotes
 
+{#OnNotation} On [[syntax]]:
+
+> &lbrack;[Dirac 1939](#Dirac39)&rbrack; In mathematical theories the question of notation, while not of primary importance, is yet worthy of careful consideration, since a good notation can be of great value in helping the development of a theory, by making it easy to write down those quantities or combinations of quantities that are important, and difficult or impossible to write down those that are unimportant. 
+
+
 On [[mathematical physics]]:
 
-> One should keep the need for a sound mathematical basis dominating one’s search for a new theory. Any physical or philosophical ideas that one has must be adjusted to  fit the mathematics. Not the way round. 
+> &lbrack;[Dirac 1978](#Dirac78):&rbrack; One should keep the need for a sound mathematical basis dominating one’s search for a new theory. Any physical or philosophical ideas that one has must be adjusted to  fit the mathematics. Not the way round. 
 
 > Too many physicists are inclined to start from some preconceived physical ideas and then to try to develop them and ﬁnd a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and ﬁnds no  reasonable way out of them. One ought then to realize that one’s whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis.
 
-> ([Dirac 78](#Dirac78))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[The Principles of Quantum Mechanics]]
 
