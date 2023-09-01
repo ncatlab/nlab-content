@@ -7,7 +7,7 @@ The term "logos" is used
 
 * in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]], cf. also *[[Joyal locus]]*);
 
-* in [Joyal 2015](#Joyal15) and [Anel & Joyal 2019](#AnelJoyal19) for the [[formal duality|formal dual]] of a [[topos]], namely for an object of the [[opposite category|opposite]] of the category of [[toposes]]. This is along the same lines as the classical [[formal duality]] between [[frames]] and [[locales]] ([[(0,1)-toposes]]) and extends immediately to  [[(infinity,1)-topos|$(\infty,1)$-toposes]] whose [[formal duality|formal duals]] are hence "$(\infty,1)$-logoi" or "$\infty$-logoi", for short;
+* in [Joyal 2015](#Joyal15), [Anel & Joyal 2019](#AnelJoyal19), [ABFJ 2023 p. 3](#ABFJ23) for the [[formal duality|formal dual]] of a [[topos]], namely for an object of the [[opposite category|opposite]] of the category of [[toposes]]. This is along the same lines as the classical [[formal duality]] between [[frames]] and [[locales]] ([[(0,1)-toposes]]) and extends immediately to  [[(infinity,1)-topos|$(\infty,1)$-toposes]] whose [[formal duality|formal duals]] are hence "$(\infty,1)$-logoi" or "$\infty$-logoi", for short;
 
 * in [Anel 2019](#Anel19) for a [[cartesian closed (infinity,1)-category|cartesian closed $\infty$-category]] with [[finite (infinity,1)-limits|finite $\infty$-limits]] and [[van Kampen colimits]] in size bounded by some [[inaccessible cardinal]].
 
@@ -21,8 +21,9 @@ The term "logos" is used
 
 * {#AnelJoyal19} [[Mathieu Anel]], [[André Joyal]], *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
 
-
 * {#Anel19} [[Mathieu Anel]], *Descent and Univalence*, talk at [HoTTEST](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) (May 2019) &lbrack;[slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Anel-2019-05-2-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=86s0BCB3HGo)&rbrack;
+
+* {#ABFJ23} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], *Left-exact Localizations of ∞-Topoi III: The Acyclic Product* &lbrack;[arXiv:2308.15573](https://arxiv.org/abs/2308.15573)&rbrack;
 
 Discussion of relation to [[taoism]]:
 
