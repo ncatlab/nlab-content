@@ -107,6 +107,8 @@ In this guise, the quantum reader monad is reflected by the "green spiders" in t
 ## Properties
  {#Properties}
 
+### Relation to dependent linear types
+
 We discuss the quantum reader monad as the reader monad induced by $B$-[[dependent linear types]] which have [[biproducts]], such as $B$-[[indexed sets]]  of [[vector spaces]]. Notation and graphics follows [CQTS (2022)](#CQTS22).
 
 \begin{proposition}
@@ -175,7 +177,7 @@ Therefore the conditions for the [[monadicity theorem]] are met (see [there](mon
 
 Alternatively, we now check the claim more concretely by unwinding what it means for a vector space to carry $\bigcirc_B$-algebra structure and for a linear map between vector spaces to be a [[homomorphism]] for this structure:
 
-First observe that the $\bigcirc_B$-[[monad]] product $\mu \;\colon\; \bigcirc_B \bigcirc_B \xrightarrow{\mu} \bigcirc_B$ on a [[vector space]] $\mathscr{H} \,\in\, Vect$ is explicitly given by:
+First observe that the $\bigcirc_B$-[[monad]] product $join^{\bigcirc_B} \;\colon\; \bigcirc_B \bigcirc_B \xrightarrow{join^{\bigcirc}} \bigcirc_B$ on a [[vector space]] $\mathscr{H} \,\in\, Vect$ is explicitly given by:
 
 $$
   \array{
@@ -185,7 +187,7 @@ $$
   \;
   \mathscr{H}
   &
-  \xrightarrow{\;\; \mu^{\bigcirc}_{\mathscr{H}} \;\;}
+  \xrightarrow{\;\; join^{\bigcirc}_{\mathscr{H}} \;\;}
   &
   \underset{b'' \colon B}{\bigoplus}
   \mathscr{H}
@@ -223,7 +225,7 @@ $$
     \underset{b' \colon B}{\bigoplus}
     \;
     \mathscr{H}
-      &\xrightarrow{\; \mu^\bigcirc_{\mathscr{H}}  \;}&
+      &\xrightarrow{\; join^\bigcirc_{\mathscr{H}}  \;}&
     \underset{b'' \colon B}{\bigoplus}
     \mathscr{H}
       &\xrightarrow{\; \rho^\bigcirc_{\mathscr{H}} \;}&  
@@ -293,13 +295,13 @@ $$
   \right.
 $$
 
-Moreover, the $\bigcirc_B$-[[unit of a monad|unit]] $\id \xrightarrow{\;\; \eta^{\bigcirc_B} \;\;} \bigcirc_B$ is given by the [[diagonal map]] into the [[biproduct]]
+Moreover, the $\bigcirc_B$-[[unit of a monad|unit]] $\id \xrightarrow{\;\; ret^{\bigcirc_B} \;\;} \bigcirc_B$ is given by the [[diagonal map]] into the [[biproduct]]
 
 $$
   \array{
     \mathscr{H}
     &\xrightarrow{\;\;
-      \eta^{\bigcirc_B}_{\mathscr{H}}
+      ret^{\bigcirc_B}_{\mathscr{H}}
     \;\;}
     &
     \underset{b \colon B}{\bigoplus}
@@ -316,7 +318,7 @@ so that the unitality property ([here](algebra+over+a+monad#eq:UnitProperty)) of
 $$
   \array{
     \mathscr{H}   
-    &\xrightarrow{\; \eta^{\bigcirc_B}_{\mathscr{H}} \;}&
+    &\xrightarrow{\; ret^{\bigcirc_B}_{\mathscr{H}} \;}&
     \underset{b \colon B}{\bigoplus}
     \mathscr{H}
     &\xrightarrow{\; \rho^{\bigcirc_B}_{\mathscr{H}} \;}&
@@ -455,7 +457,10 @@ $$
   }
 $$
 
-In [[quantum information theory]] the $\bigcirc_B$-algebras in [[complex vector spaces]] which are free on the [[tensor unit]] $\mathbb{C} \,\in\, \mathbb{C} Vect$ (the [[dimension of a vector space|1-dimensional]] [[complex vector space]]) play the role of  ([[finite dimensional vector space|finite dimensional]] [[complex vector spaces]] [[underlying]]) [[Hilbert space]] [[space of quantum states|of quantum states]] which are [[linear space|spanned]] by the set $B$ regarded as a "[[quantum measurement]] [[linear basis|basis]]".
+
+### Relation to quantum measurement
+
+In [[quantum information theory]] the $\bigcirc_B$-algebras in [[complex vector spaces]] which are free on the [[tensor unit]] $\mathbb{C} \,\in\, \mathbb{C} Vect$ (the [[dimension of a vector space|1-dimensional]] [[complex vector space]]) play the role of  ([[finite dimensional vector space|finite dimensional]] [[complex vector spaces]] [[underlying]]) [[finite-dimensional Hilbert spaces]] [[space of quantum states|of quantum states]] which are [[linear space|spanned]] by the set $B$ regarded as a "[[quantum measurement]] [[linear basis|basis]]".
 
 For example, the [[dependent linear type]] of [[qbits]] is the free $\bigcirc_B$-algebra $\bigcirc_{Bool} \mathbb{C}$ spanned by the [[intuitionistic type theory|classical type]] [[Bool]] $= \{0,1\}$ of [[bits]], reflecting the two canonical [[quantum measurement]]-outcomes ($\vert 0\rangle$, $\vert 1 \rangle$) of [[qbits]]. 
 
@@ -533,6 +538,31 @@ This provides a rather transparent re-derivation of and alternative perspective 
 [[formal duality|Dually]], as in Prop. \ref{QuantumReaderMonadIsFrobenius}, the quantum [[coreader comonad]] is isomorphic to the [[coreader comonad]] corresponding to the [[coalgebra]]-[[structure]] on $k^{\otimes^B}$.
 Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the quantum reader corresponds to $k^{\otimes^B}$ regarded as a [[Frobenius algebra]], in fact as a commutative and special Frobenius algebra. In this form the quantum  reader monad is prominent in the literature on [[quantum information theory via dagger-compact categories]] &lbrack;[Coecke & Pavlović (2008), §1.5.1](#CoeckePavlović08), [Coecke & Paquette (2008), §2.3](#CoeckePaquette08)&rbrack;.
 \end{remark}
+
+
+
+### Monoidal monad structure
+ {#MonoidalMonadStructure}
+
+\begin{proposition}
+  The above quantum reader monad becomes a [[monoidal monad]] with respect to the [[tensor product of vector spaces]] (or whatever the [[tensor product]] of the given linear types)
+
+via the following lax monoidal transformation:
+
+<center>
+<img src="/nlab/files/LaxMonoidalStructureOnQuantumReader-230901.jpg" width="610">
+</center>
+
+
+\end{proposition}
+\begin{proof}
+  It is readily seen that $pair^{\bigcirc_W}$ together with the [[unit of a monad|monad unit]] (necessarily, see [there](monoidal+monad#eq:LaxUnitIsMonadUnit)) makes a [[lax monoidal functor]]. The remaining monoidal monad conditions are the following two commuting diagrams, which in components are evidently seen to commute, as show:
+
+<center>
+<img src="/nlab/files/MonoidalMonadConditionsForQuantumReader230901.jpg" width="820">
+</center>
+
+\end{proof}
 
 
 ## Related entries
