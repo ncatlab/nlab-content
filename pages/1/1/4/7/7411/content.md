@@ -90,7 +90,7 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
      \mathcal{E}(c \otimes c')
    $
 
-1. such that the monad structure transformations $ret^{\mathcal{E}}$ and $join^{\mathcal{E}}$ together with the lax monoidal structure transformation $\epsilon^{\mathcal{E}}$ and $\mu^{\mathcal{E}}$ make the following [[commuting diagram|diagrams commute]]:
+1. such that the monad structure transformations $ret^{\mathcal{E}}$ and $join^{\mathcal{E}}$ are [[monoidal transformations]] in that together with the lax monoidal structure transformation $\epsilon^{\mathcal{E}}$ and $\mu^{\mathcal{E}}$ they make the following [[commuting diagram|diagrams commute]]:
 
 First of all, the [[lax monoidal functor|lax monodal unit]] must coincide with the [[unit of a monad|monad unit]]
 
@@ -118,7 +118,7 @@ First of all, the [[lax monoidal functor|lax monodal unit]] must coincide with t
   \mathcal{E}(1\!\!1)
 \end{tikzcd}
 
-which already implies
+which already implies the unit diagram for the join operation:
 
 \begin{tikzcd}
   & 
@@ -245,6 +245,8 @@ and
   &&
   \mathcal{E}(c \otimes c')
 \end{tikzcd}
+
+Moreover, if $\mathbf{C}$ is even a [[symmetric monoidal category]] with [[braiding]] $\sigma$, then a monoidal monad on $\mathbf{C}$ as above is a *symmetric monoidal monad* if the [[underlying]] [[monoidal functor]] is a *[[symmetric monoidal functor]]*.
 
 
 +-- {: .num_remark}
