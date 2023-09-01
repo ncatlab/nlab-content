@@ -32,7 +32,7 @@ A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category
 \end{definition}
 
 
-{#InComponents} In components, this means:
+{#InComponents} In components, this means (cf. eg. [Seal 2012, §1.2](#Seal12)):
 
 Monoidal [[structure]] on a [[monad]]
 
