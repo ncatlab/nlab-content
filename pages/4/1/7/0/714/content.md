@@ -376,12 +376,8 @@ The [[category convolution algebra]] of a dagger category is naturally a [[star-
 
 ### Quantum mechanics in terms of $\dagger$-compact categories
 
-Large parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-categories that are 
-also [[compact closed categories]] in a compatible way -- [[dagger compact categories]].
-
-For more on this see 
-
-* [[quantum mechanics in terms of †-compact categories]].
+The [[finite-dimensional Hilbert spaces]] of interest in [[quantum information theory]] and [[quantum computation]] form $\dagger$-categories that are 
+also [[compact closed categories]] ([[dagger compact categories]]), a fact that allow a [[string diagram]]-calculus for [[quantum mechanics in terms of †-compact categories]] which motivates much of the contemporary discussion of dagger-categories, starting with [Abramsky & Coecke 2004](#AbramskyCoecke04).
 
 ## Related concepts
 
@@ -406,7 +402,7 @@ For more on this see
 ## References
  {#References}
 
-The concept of $\dagger$-categories appears in the form of *strongly compact closed categories* in
+Motivated by the example of [[finite-dimensional Hilbert spaces]], the concept of $\dagger$-categories appears in the form of *strongly compact closed categories* in
 
 * {#AbramskyCoecke04} [[Samson Abramsky]], [[Bob Coecke]], around Prop. 7.3 *A categorical semantics of quantum protocols*, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04), IEEE Computer Science Press (2004) &lbrack;[arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130)&rbrack;
 
