@@ -94,13 +94,13 @@ Instead of being fully respected by maps, the inner product on Hilbert spaces in
 
 
 \begin{remark}\label{FiniteDimensionalInnerProductSpaces}
-**(finite-dimensional Hilbert space)**
+**([[finite-dimensional Hilbert space]])**
 \linebreak
   In the case that the underlying vector space $\mathscr{H}$ happens to be [[finite dimensional vector space]], any hermitian inner product is necessarily complete. Therefore: 
 
-A *finite-dimensional Hilbert space* is equivalently a positive-definite hermitian inner product space of finite dimension.
+A *finite-dimensional Hilbert space* is equivalently a positive-definite [[hermitian inner product]]-space of [[finite set|finite]] [[dimension of a vector space|dimension]].
 
-Finite-dimensional Hilbert spaces form a [[dagger-compact category]] and play a central role in [[quantum information theory]] and [[quantum computation]], see also at *[[finite quantum mechanics in terms of dagger-compact categories]]*.
+Finite-dimensional Hilbert spaces form a [[dagger-compact category]] and play a central role in [[quantum information theory]] and [[quantum computation]], see also at *[[quantum information theory via dagger-compact categories]]*.
 \end{remark}
 
 \linebreak
@@ -344,6 +344,8 @@ This is really two theorems (at least): an abstract theorem that the inequality 
 
 
 ## Related concepts
+
+* [[finite-dimensional Hilbert space]]
 
 * [[rigged Hilbert space]]
 
