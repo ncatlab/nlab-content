@@ -1,7 +1,7 @@
 
 **[[(∞,1)-topos theory]]**
 
-## Background ##
+## Background {#sidebar_background}
 
 * [[sheaf and topos theory]]
 
@@ -13,7 +13,7 @@
 
 * [[(∞,1)-category of (∞,1)-presheaves]]
 
-## Definitions ##
+## Definitions {#sidebar_definitions}
 
 * [[elementary (∞,1)-topos]]
 
@@ -66,7 +66,7 @@
 
 * [[(∞,n)-topos]]
 
-## Characterization ##
+## Characterization {#sidebar_characterization}
 
 * [[universal colimits]]
 
@@ -76,7 +76,7 @@
 
   * [[effective epimorphism]]
 
-## Morphisms
+## Morphisms {#sidebar_morphisms}
 
 * [[(∞,1)-geometric morphism]]
 
@@ -84,7 +84,7 @@
 
 * [[Lawvere distribution]]
 
-## Extra stuff, structure and property
+## Extra stuff, structure and property {#sidebar_extra}
 
 * [[hypercomplete (∞,1)-topos]]
 
@@ -110,7 +110,7 @@
 
 * [[cohesive (∞,1)-topos]]
 
-## Models ##
+## Models {#sidebar_models}
 
 * [[models for ∞-stack (∞,1)-toposes]]
 
@@ -126,7 +126,7 @@
 
   * [[Verity on descent for strict omega-groupoid valued presheaves|descent for presheaves with values in strict ∞-groupoids]]
 
-## Constructions  ##
+## Constructions {#sidebar_constructions}
 
 **structures in a [[cohesive (∞,1)-topos]]**
 
