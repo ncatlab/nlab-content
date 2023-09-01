@@ -1,6 +1,15 @@
 Paul Halmos was a Hungarian-born American-based mathematician.
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Paul_Halmos)
+
 ## Selected writings
+
+On [[finite-dimensional Hilbert spaces]]:
+
+* [[Paul R. Halmos]], *Finite-Dimensional Hilbert Spaces*, The American Mathematical Monthly, **77** 5 (1970) 457-464 &lbrack;[doi:10.2307/2317378](https://doi.org/10.2307/2317378), [jstor:2317378](https://www.jstor.org/stable/2317378)&rbrack;
+
+
+See also:
 
 * Measure Theory. D. Van Nostrand Company, 1950.
 
@@ -19,3 +28,5 @@ Paul Halmos was a Hungarian-born American-based mathematician.
 * Naive set theory.  D. Van Nostrand Co., 1960.
 
 * Linear algebra problem book. The Dolciani Mathematical Expositions, 16. Mathematical Association of America, 1995.  ISBN: 0-88385-322-1.
+
+[[!redirects Paul R. Halmos]]
