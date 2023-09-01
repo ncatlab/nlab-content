@@ -291,11 +291,11 @@ the analogous statement for  Hermitian complex inner products $\langle - \vert -
 
 $$
   \array{
-    \mathscr{H}
+    H
       &\overset{\sim}{\longrightarrow}& 
-    \mathscr{H}
+    H^\ast
       &\overset{\sim}{\longrightarrow}& 
-    \mathscr{H}
+    H
     \\
     \vert \psi \rangle 
     &\mapsto& 
@@ -307,16 +307,16 @@ $$
 
 are now complex *[[anti-linear map|anti-linear]]* and hence not [[morphisms]] in the [[category]] of [[complex vector spaces]].
 
-What one does get is a complex-linear isomorphism to the [[anti-dual space]].
+(What one does get is a complex-linear isomorphism to the anti-dual space.)
 
-Another way to regard this situation is to observe that complex anti-linear involutions $\mathscr{H} \leftrightarrow \mathscr{H}^\ast$ on non-degenerate Hermitian spaces $\mathscr{H}$ are equivalently $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-[[module object|module]] structures on the [[direct sum]] $\mathscr{H} \oplus \mathscr{H}^\ast$, regarded in the [[topos]] of [[G-sets|$\mathbb{Z}/2$-sets]], for $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$ the [[ring object]] given by the [[complex numbers]] equipped with their involution by [[complex conjugation]]:
+Another way to regard this situation is to observe that complex anti-linear involutions $H \leftrightarrow H^\ast$ on non-degenerate Hermitian spaces $H$ are equivalently $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-[[module object|module]] structures on the [[direct sum]] $H \oplus H^\ast$, regarded in the [[topos]] of [[G-sets|$\mathbb{Z}/2$-sets]], for $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$ the [[ring object]] given by the [[complex numbers]] equipped with their involution by [[complex conjugation]]:
 
 <center>
-<img src="/nlab/files/HermitianSpacesAsEquivariantModules-221018.jpg" width="640">
+<img src="/nlab/files/HermitianSpacesAsEquivariantModules-230901.jpg" width="780">
 </center>
 
 
-{#HermitianOperatorsAsZTwoActsCModules} Notice that these $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-modules arising from (non-degenerate, finite-dimensional) Hermitian vector spaces this way happen to carry also a [[complex structure]], hence a compatible module-structure by the actual [[complex numbers]] (i.e. equipped with the trivial [[involution]]), given by $\underline{\mathrm{i}}$. 
+{#HermitianOperatorsAsZTwoActsCModules} Notice that these $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-modules arising from (non-degenerate, finite-dimensional) Hermitian vector spaces this way happen to carry also a [[complex structure]], hence a compatible module-structure by the actual [[complex numbers]] (i.e. equipped with the trivial [[involution]]), given by $\mathrm{i}$. 
 
 Using this, one may identify:
 
@@ -325,8 +325,9 @@ Using this, one may identify:
 1. among these that of [[hermitian operators]] as the further [[fixed locus]] of the involution action:
 
 <center>
-<img src="/nlab/files/HermitianOperatorsAsEquivariantModules-221019.jpg" width="710">
+<img src="/nlab/files/HermitianOperatorsAsEquivariantModules-230901.jpg" width="900">
 </center>
+
 
 \linebreak
 
