@@ -61,6 +61,8 @@ Finite-dimensional vector spaces are exactly the [[compact objects]] of [[Vect]]
 
 ## Related concepts
 
+* [[finite-dimensional Hilbert space]]
+
 * [[finite abelian category]]
 
 * [[Schur functor]]
