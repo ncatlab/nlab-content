@@ -1,4 +1,63 @@
 
+quantum measurement on density matrices is
+
+\begin{tikzcd}[row sep=-2pt] 
+  \mathrm{Q}W
+  &&
+  \underset{W}{\bigcirc}
+  \big(
+    1\!\!1
+    \oplus
+    1\!\!1
+  \big)
+  \\
+  \otimes
+  \ar[
+    rr,
+    "{
+      \mathrm{collapse}
+    }",
+    "{
+      \otimes
+    }"{description},
+    "{
+      \mathrm{collapse}
+    }"{swap}
+  ]
+  &&
+  \otimes
+  \ar[
+    rr,
+    "{
+      \mathrm{pair}
+    }"
+  ]
+  &&
+  \underset{W}{\bigcirc}
+  \Big(
+    \big(
+    1\!\!1
+    \oplus
+    1\!\!1
+    \big)
+    \otimes
+    \big(
+    1\!\!1
+    \oplus
+    1\!\!1
+    \big)
+  \Big)
+  \\
+  \mathrm{Q}W
+  &&
+  \underset{W}{\bigcirc}
+  \big(
+    1\!\!1
+    \oplus
+    1\!\!1
+  \big)
+\end{tikzcd}
+
 \begin{tikzcd}
   & 
   1\!\!1
