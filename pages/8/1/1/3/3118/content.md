@@ -44,6 +44,10 @@ On [[string diagram]]-calculus for [[monoidal categories]]:
 
 * {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
 
+On [[finite-dimensional Hilbert spaces]] as a [[dagger-compact category]]:
+
+* {#Selinger12} [[Peter Selinger]], *Finite dimensional Hilbert spaces are complete for dagger compact closed categories*, Logical Methods in Computer Science, **8** 3 (2012) lmcs:1086 &lbrack;[arXiv:1207.6972](https://arxiv.org/abs/1207.6972), <a href="https://doi.org/10.2168/LMCS-8(3:6)2012">doi:10.2168/LMCS-8(3:6)2012</a>&rbrack;
+
 Exposition of the general idea of [[quantum programming languages]] for [[classically controlled quantum computation]] with an eye towards the [[Quipper]]-language:
 
 * [[Benoît Valiron]], [[Neil J. Ross]], [[Peter Selinger]], [[D. Scott Alexander]], [[Jonathan M. Smith]], *Programming the quantum future*, Communications of the ACM **58** 8 (2015) 52–61 &lbrack;[doi:10.1145/2699415](https://doi.org/10.1145/2699415), [pdf](https://www.iro.umontreal.ca/~brassard/cours/6155/Langages%20de%20programmation%20quantique/Programming%20the%20Quantum%20Future.pdf),  [web](https://cacm.acm.org/magazines/2015/8/189851-programming-the-quantum-future/abstract), promo vid:[YT](https://youtu.be/mzce69oFdH0?list=PLn0nrSd4xjjbIHhktZoVlZuj2MbrBBC_f)&rbrack;
