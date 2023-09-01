@@ -5,11 +5,11 @@ The term "logos" is used
 
 * in [Freyd-Scedrov](#FreydScedrov) as a synonym for _[[Heyting category]]_;
 
-* in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]], cf. also *[[Joyal locus]]*).
+* in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]], cf. also *[[Joyal locus]]*);
 
-* In [Joyal 2015](#Joyal15) and [Anel–Joyal 2019](#AnelJoyal19) for an object of the opposite of the category of [[toposes]]. This works on the same lines as the duality between [[frames]] and [[locales]]. There is a [[higher category theory|higher]] version of logos, known as an $\infty$-logos.
+* in [Joyal 2015](#Joyal15) and [Anel & Joyal 2019](#AnelJoyal19) for the [[formal duality|formal dual]] of a [[topos]], namely for an object of the [[opposite category|opposite]] of the category of [[toposes]]. This is along the same lines as the classical [[formal duality]] between [[frames]] and [[locales]] ([[(0,1)-toposes]]) and extends immediately to  [[(infinity,1)-topos|$(\infty,1)$-toposes]] whose [[formal duality|formal duals]] are hence "$(\infty,1)$-logoi" or "$\infty$-logoi", for short;
 
-* In [Anel 2019](#Anel19) for a cartesian closed [[(infinity,1)-category]] with finite limits and [[van Kampen colimits]] in size bounded by some [[inaccessible cardinal]].
+* in [Anel 2019](#Anel19) for a [[cartesian closed (infinity,1)-category|cartesian closed $\infty$-category]] with [[finite (infinity,1)-limits|finite $\infty$-limits]] and [[van Kampen colimits]] in size bounded by some [[inaccessible cardinal]].
 
 ## References
 
@@ -22,11 +22,11 @@ The term "logos" is used
 * {#AnelJoyal19} [[Mathieu Anel]], [[André Joyal]], *Topo-logie*, in *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 155-257 &lbrack;[doi:10.1017/9781108854429.007](https://doi.org/10.1017/9781108854429.007), [pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf)&rbrack;
 
 
-* {#Anel19} [[Mathieu Anel]], _Descent and Univalence_, talk at [HoTTEST](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html), May 2019, [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Anel-2019-05-2-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=86s0BCB3HGo)
+* {#Anel19} [[Mathieu Anel]], *Descent and Univalence*, talk at [HoTTEST](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) (May 2019) &lbrack;[slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Anel-2019-05-2-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=86s0BCB3HGo)&rbrack;
 
 Discussion of relation to [[taoism]]:
 
-* {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris 2013 ([[Butti13.pdf:file]])
+* {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris (2013) &lbrack;[[Butti13.pdf:file]]&rbrack;
   
 
 
