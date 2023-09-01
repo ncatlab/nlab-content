@@ -52,7 +52,7 @@ In [[constructive mathematics]], the elementary rephrasing above is equivalent t
 
 ### Higher filteredness
 
-More generally, if $\kappa$ is an infinite [[regular cardinal]] (or an [[arity class]]), then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has $\lt \kappa$ arrows, or equivalently that any functor $F: D \to C$ whose domain has fewer than $\kappa$ morphisms admits an extension $\tilde{F}: D^+ \to C$. The usual filtered categories are then the case $\kappa = \omega$, i.e., where the $D$ have fewer than $\omega$ morphisms (in other words are finite).  (We could also say in this case "$\aleph_0$-filtered", but $\omega$-filtered is more usual in the literature.) 
+More generally, if $\kappa$ is an infinite [[regular cardinal]] (or an [[arity class]]), then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone when $D$ has $\lt \kappa$ arrows, or equivalently that any functor $F: D \to C$ whose domain has fewer than $\kappa$ morphisms admits an extension $\tilde{F}: D^+ \to C$. The usual filtered categories are then the case $\kappa = \omega$, i.e., where the $D$ have fewer than $\omega$ morphisms (in other words are finite).  (We could also say in this case "$\aleph_0$-filtered", but $\omega$-filtered is more usual in the literature.) 
 
 Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder. 
 
