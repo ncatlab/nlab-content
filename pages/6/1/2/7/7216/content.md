@@ -161,6 +161,8 @@ See _[[Riesz representation theorem]]_ for more examples from [[functional analy
 
 * [[dual vector bundle]]
 
+* [[bra-ket]]
+
 ## References
 
 Discussion in the context of [[distributions]] includes
@@ -198,6 +200,10 @@ Discussion in the context of [[distributions]] includes
 
 [[!redirects linear dual]]
 [[!redirects linear duals]]
+
+[[!redirects linear dual space]]
+[[!redirects linear dual spaces]]
+
 
 [[!redirects linear form]]
 [[!redirects linear forms]]
