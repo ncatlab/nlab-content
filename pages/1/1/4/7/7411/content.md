@@ -92,6 +92,10 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
 
 1. such that the monad structure transformations $ret^{\mathcal{E}}$ and $join^{\mathcal{E}}$ together with the lax monoidal structure transformation $\epsilon^{\mathcal{E}}$ and $\mu^{\mathcal{E}}$ make the following [[commuting diagram|diagrams commute]]:
 
+First of all, the [[lax monoidal functor|lax monodal unit]] must coincide with the [[unit of a monad|monad unit]]
+
+\[\label{LaxUnitIsMonadUnit}\]
+
 \begin{tikzcd}
   & 
   1\!\!1
@@ -113,6 +117,39 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
   &&
   \mathcal{E}(1\!\!1)
 \end{tikzcd}
+
+which already implies
+
+\begin{tikzcd}
+  & 
+  1\!\!1
+  \ar[
+    dl,
+    "{
+       \epsilon^{\mathcal{E}}_{\mathcal{E}(1\!\!1)}
+       \circ
+       \epsilon^{\mathcal{E}}_{1\!\!1}
+    }"{description}
+  ]
+  \ar[
+    dr,
+    "{
+      \epsilon^{\mathcal{E}}_{1\!\!1}
+    }"
+  ]
+  \\
+  \mathcal{E}\circ\mathcal{E}(1\!\!1)
+  \ar[
+    rr,
+    "{
+      \mathrm{join}^{\mathcal{E}}_{1\!\!1}
+    }"{swap}
+  ]
+  &&
+  \mathcal{E}(1\!\!1)
+\end{tikzcd}
+
+and then the two main conditions:
 
 \begin{tikzcd}
   c \otimes c'
@@ -146,35 +183,7 @@ acting on a [[monoidal category]] $(\mathbf{C}, \otimes, \mathbb{1})$ is:
   \mathcal{E}(c \otimes c')
 \end{tikzcd}
 
-\begin{tikzcd}
-  & 
-  1\!\!1
-  \ar[
-    dl,
-    "{
-       \epsilon^{\mathcal{E}}_{\mathcal{E}(1\!\!1)}
-       \circ
-       \epsilon^{\mathcal{E}}_{1\!\!1}
-    }"{description}
-  ]
-  \ar[
-    dr,
-    "{
-      \epsilon^{\mathcal{E}}_{\mathcal{E}(1\!\!1)}
-    }"
-  ]
-  \\
-  \mathcal{E}\circ\mathcal{E}(1\!\!1)
-  \ar[
-    rr,
-    "{
-      \mathrm{join}^{\mathcal{E}}_{1\!\!1}
-    }"{swap}
-  ]
-  &&
-  \mathcal{E}(1\!\!1)
-\end{tikzcd}
-
+and
 
 \begin{tikzcd}
   \big(\mathcal{E}\circ\mathcal{E}(c)\big)
