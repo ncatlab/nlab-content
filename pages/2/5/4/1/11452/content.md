@@ -19,7 +19,7 @@
 
 ## Idea
 
-In the context of [[real-oriented cohomology theory]], notably in _[[KR-theory]]_, by "real space" (real manifold) one means a [[space]] ([[manifold]]) equipped with an [[action]] of the [[group of order 2]] $\mathbb{Z}/2\mathbb{Z}$ (a "non-linear [[real structure]]").
+In the context of [[real-oriented cohomology theory]], notably in _[[KR-theory]]_, by "real space" ("real manifold") one means a [[topological space]] (a [[manifold]]) equipped with an [[group action|action]] of the [[cyclic group|cyclic]] [[group of order 2]] $\mathbb{Z}/2$ (a "non-linear [[real structure]]").
 
 In the context of [[string theory]] real spaces appear as [[orientifold]] [[target space|target]] [[spacetimes]]. The involution [[fixed points]] here are known as _[[O-planes]]_.
 
