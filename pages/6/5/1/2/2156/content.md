@@ -129,6 +129,8 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 * [[inner product of vector bundles]]
 
+* [[bra-ket]]
+
 ## References
 
 Original discussion of [[Hermitian inner products]] in the context of defining [[Hilbert spaces]] (as mathematical foundations of [[quantum mechanics]]):
