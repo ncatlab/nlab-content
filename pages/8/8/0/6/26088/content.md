@@ -44,9 +44,22 @@ For the moment see at *[enriched monad -- Relation to strong and monoidal monads
  A *[[Bénabou cosmos]]* (a good [[base for enrichment]] in [[enriched category theory]]) is defined to be a [[bicomplete category|bicomplete]] symmetric monoidal closed category.
 \end{example}
 
+
+## Related concepts
+
+* [[Bénabou cosmos]]
+
+
 ## References
 
 * {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III and specifically §III.6 in: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+
+* {#Kelly82} [[Max Kelly]], §1.4, 1.5 in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
+* {#Borceux94} [[Francis Borceux]], §6.1 of: *Categories and Structures*, Vol 2 of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
+
+
+
 
 [[!redirects symmetric monoidal closed categories]]
 
