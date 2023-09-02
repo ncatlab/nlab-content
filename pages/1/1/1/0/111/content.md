@@ -273,7 +273,7 @@ Other standard operations on categories include
 
 ## References
 
-(See also the references at _[[category theory]]_.)
+(For more extensive references see at _[[category theory]]_.)
 
 The concept originates in
 
@@ -286,13 +286,14 @@ The definition "with a single set of morphisms" (i.e. as [[internal categories]]
 
 Textbook accounts:
 
-* {#MacLane97} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+* {#MacLane97} [[Saunders MacLane]], *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
 
 
 
-
-Expositions include
+Expositions:
 
 * A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
 
