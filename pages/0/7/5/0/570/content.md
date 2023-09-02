@@ -43,7 +43,7 @@ Explicitely, this means that:
 
 * [[Saunders MacLane]], §XI.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* [[Peter Schauenburg]], *Turning Monoidal Categories into Strict Ones*, New York Journal of Mathematics **7** (2001) 257-265 &lbrack;[nyjm:j/2001/7-16](http://nyjm.albany.edu/j/2001/7-16.html), [eudml:121925](https://eudml.org/doc/121925)&rbrack;
+* {#Schauenburg01} [[Peter Schauenburg]], *Turning Monoidal Categories into Strict Ones*, New York Journal of Mathematics **7** (2001) 257-265 &lbrack;[nyjm:j/2001/7-16](http://nyjm.albany.edu/j/2001/7-16.html), [eudml:121925](https://eudml.org/doc/121925)&rbrack;
 
 
 [[!redirects strict monoidal categories]]
