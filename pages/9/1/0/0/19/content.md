@@ -358,7 +358,7 @@ This and much more history is recalled in
 
 * {#Pareigis70} [[Bodo Pareigis]], section 2.2 in: *Categories and Functors*, Pure and Applied Mathematics **39**, Academic Press (1970) &lbrack;[doi:10.5282/ubm/epub.7244](https://doi.org/10.5282/ubm/epub.7244), [pdf](https://epub.ub.uni-muenchen.de/7244/1/7244.pdf)&rbrack;
 
-* {#MacLane97} [[Saunders MacLane]], _[[Categories Work|Categories for the working mathematician]]_, Graduate texts in mathematics, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+* {#MacLane97} [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 
 
@@ -381,7 +381,7 @@ This and much more history is recalled in
 
 * [[Benjamin Pierce]], _Basic category theory for computer scientists_, 1991 20 ([publisher](https://mitpress.mit.edu/books/basic-category-theory-computer-scientists))
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, 1994
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
 * {#BarrWells95} [[Michael Barr]], [[Charles Wells]], *Category theory for computing science*, Prentice-Hall International Series in Computer Science (1995); reprinted in: Reprints in Theory and Applications of Categories **22** (2012) 1-538 &lbrack;[pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), [tac:tr22](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html)&rbrack;
 
