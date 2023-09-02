@@ -215,7 +215,7 @@ $$
     C^{ob I}
   }
 $$
-This [[commuting diagramcommutes]] because the tensor product in $[I,C]$ is pointwise (here $F_0$ means the family of objects $F(x)$ in $C^{ob I}$).
+This [[commuting diagram|commutes]] because the tensor product in $[I,C]$ is pointwise (here $F_0$ means the family of objects $F(x)$ in $C^{ob I}$).
 Since $C$ is closed, $F_0 \otimes -$ has a [[right adjoint]].
 Since the vertical functors are [[comonadic functor|comonadic]], the (dual of the) [[adjoint lifting theorem]] implies that $F\otimes -$ has a right adjoint as well.
 \end{proof}
@@ -275,9 +275,11 @@ The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed mono
 
 * {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §III of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
-Textbook accounts
+Textbook accounts:
 
-* {#Borceux94} [[Francis Borceux]], vol 2 section 6.1 of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+* {#MacLane97} [[Saunders MacLane]], VII.7 in: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
+
+* {#Borceux94} [[Francis Borceux]], vol 2 section 6.1 of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
 Original articles studying monoidal biclosed categories are
 
