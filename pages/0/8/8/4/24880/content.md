@@ -545,24 +545,15 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
  {#MonoidalMonadStructure}
 
 \begin{proposition}
-  The above quantum reader monad becomes a [[monoidal monad]] with respect to the [[tensor product of vector spaces]] (or whatever the [[tensor product]] of the given linear types)
-
-via the following lax monoidal transformation:
+\label{SymmetricMonoidalMonadStructure}
+  The above quantum reader monad carries the [[structure]] of a [[symmetric monoidal functor|symmetric]] [[monoidal monad]] with respect to the [[tensor product of vector spaces]] (or whatever the [[tensor product]] of the given linear types) as follows:
 
 <center>
-<img src="/nlab/files/LaxMonoidalStructureOnQuantumReader-230901.jpg" width="610">
+<img src="/nlab/files/LaxMonoidalStructureOnQuantumReader-230902.jpg" width="850">
 </center>
-
 
 \end{proposition}
-\begin{proof}
-  It is readily seen that $pair^{\bigcirc_W}$ together with the [[unit of a monad|monad unit]] (necessarily, see [there](monoidal+monad#eq:LaxUnitIsMonadUnit)) makes a [[lax monoidal functor]]. The remaining monoidal monad conditions are the following two commuting diagrams, which in components are evidently seen to commute, as show:
-
-<center>
-<img src="/nlab/files/MonoidalMonadConditionsForQuantumReader230901.jpg" width="820">
-</center>
-
-\end{proof}
+(Here we have assumed [[strict monoidal category|strict monoidal structure]] cf. &lbrack;[Schauenburg 2001](strinct+monoidal+category#Schauenburg01)&rbrack;, to notationally suppress its [[associators]] and [[unitors]].)
 
 
 ## Related entries
