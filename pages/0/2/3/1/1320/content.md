@@ -151,6 +151,17 @@ Monadic functors to the category [[Set]] have additional properties.  For exampl
 
 &lbrack;[Vitale (1994)](#Vitale94)&rbrack;
 
+## Examples
+ {#Examples}
+
+\begin{example}
+  \label{ReflectiveSubcategoryInclusion}
+  Every [[reflective subcategory]]-inclusion is a [[monadic functor]]. See also [there](reflective+subcategory#ReflectiveSubcategoryInclusionIsMonadic).
+\end{example}
+
+A proof is spelled out for instance in [Borceux 1994, vol 2, cor. 4.2.4](reflective+subcategory#Borceux94b). A [[formal proof]] in [[cubical Agda]] is given in [1Lab](reflective+subcategory#1Lab). See also at _[idempotent monad -- Properties -- Algebras for an idempotent monad and localization](idempotent+monad#AlgebrasForAnIdempotentMonad)_.
+
+
 
 ## Related concepts
 
