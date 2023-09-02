@@ -149,7 +149,7 @@ To prove that (3) implies (2), the argument is to transfer the comonad structure
 
 =--
 
-This is a well-known set of equivalences concerning [[idempotent monads]]. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of [[algebra over a monad|algebras for the monad]] $i r$ on $A$, where $r: A \to B$ is the reflector. 
+This is a well-known set of equivalences concerning [[idempotent monads]]. The essential point is that a reflective subcategory $i \colon B \to A$ is [[monadic functor|monadic]] (Prop. \ref{ReflectiveSubcategoryInclusionIsMonadic}), i.e., realizes $B$ as the category of [[algebra over a monad|algebras for the monad]] $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
 See also the related discussion at [[reflective sub-(infinity,1)-category]].
 
@@ -228,21 +228,21 @@ From ([Adamek-Rosick&#253;](#AdamekRosicky)) the "only if"-direction follows imm
 
 ### General
 
-A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, hence creates limits, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.5.15](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
+
+A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, by Prop. \ref{ReflectiveSubcategoryInclusionIsMonadic}, [hence](monadic+functor#MonadicFunctorsCreateLimits) creates limits, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.5.15](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
 ### As Eilenberg-Moore category of the idempotent monad
  {#AsEilenbergMooreCategory}
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proposition}
+\label{ReflectiveSubcategoryInclusionIsMonadic}
+Every reflective subcategory inclusion is a [[monadic functor]], exhibiting the reflective subcategory as the [[Eilenberg-Moore category]] of [[algebra over a monad|modules]] for its [induced](monad#RelationBetweenAdjunctionsAndMonads) [[idempotent monad]]. Conversely, the [[Eilenberg-Moore category]] of an [[idempotent monad]] is a reflective subcategory
+\end{proposition}
+A proof is spelled out for instance in [Borceux 1994, vol 2, cor. 4.2.4](#Borceux94b). A [[formal proof]] in [[cubical Agda]] is given in [1Lab](#1Lab). See also Prop. \ref{CharacterizationByLocalization} and see at _[idempotent monad -- Properties -- Algebras for an idempotent monad and localization](idempotent+monad#AlgebrasForAnIdempotentMonad)_.
 
-Any reflective subcategory is recovered as the [[Eilenberg-Moore category]] of [[algebra over a monad|algebras]] over its associated [[idempotent monad]].
 
-=--
-
-See for instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)) and see at _[idempotent monad -- Properties -- Algebras for an idempotent monad and localization](idempotent+monad#AlgebrasForAnIdempotentMonad)_.
 
 ### Reflective subcategories of locally presentable categories
 
@@ -408,8 +408,10 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 
 * [[Saunders MacLane]], §IV.3 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
+* {#Borceux94a} [[Francis Borceux]], p. 196 in *Basic Category Theory*,  vol.1 of: *[[Handbook of Categorical Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
+* {#Borceux94b} [[Francis Borceux]], Cor. 2.4.2 in: *Categories and Structures*, *[[Handbook of Categorical Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
+
 
 * {#AdamekRosicky} [[Jiri Adamek|Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
  
@@ -440,6 +442,13 @@ Related discussion of [[reflective sub-(∞,1)-categories]] is in
 The example of affine schemes in [[noncommutative algebraic geometry]] is in 
 
 * {#Rosenberg98} [[Alexander Rosenberg]], _Noncommutative schemes_, Comp. Math. 112, 93&#8211;125 (1998)
+
+## References
+
+Formalization in [[cubical Agda]]:
+
+* {#1Lab} [[1lab]], *[Reflective Subcategories](https://1lab.dev/Cat.Functor.Adjoint.Reflective.html)*
+
 
 
 [[!redirects reflector]]
