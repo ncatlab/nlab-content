@@ -91,7 +91,7 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 ### General
 
-(...)
+* {#Uustalu21} [[Tarmo Uustalu]], slide 14 of: *Monads and Interaction Lecture 3* , lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
 ### Related to lenses
 
