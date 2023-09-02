@@ -43,6 +43,9 @@ Exposition:
 
 * [[Alexander Green]], *The Quantum IO Monad*, Nottingham  (2007) &lbrack;[pdf](http://drinkupthyzider.co.uk/asg/pdfs/bctcs07.pdf), [[Green-QIOMonad.pdf:file]] &rbrack;
 
+* [[Alexander Green]], *Towards a formally verified functional quantum programming language* (2010) &lbrack;[eprints:11457](http://eprints.nottingham.ac.uk/11457)&rbrack;
+
+
 Implementation in [[Haskell]]:
 
 * [[Alexander Green]], *[hackage.haskell.org/package/QIO](https://hackage.haskell.org/package/QIO)*
