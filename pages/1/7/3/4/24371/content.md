@@ -93,7 +93,7 @@ where it appears (though disregarding the norm symbol) as a brief footnote-added
 
 \begin{imagefromfile}
     "file_name": "Born_stating_the_BornRule-Footnote.jpg",
-    "width": 500,
+    "width": 560,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -111,7 +111,7 @@ which provides the mathematical details (p. 805):
 
 \begin{imagefromfile}
     "file_name": "Born_stating_the_BornRule-Expanded.jpg",
-    "width": 460,
+    "width": 480,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -139,15 +139,13 @@ which makes the interpretation more explicit (p. 171):
     }
 \end{imagefromfile}
 
-Early adoption of the Born rule:
-
-* {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
-
-where it is again a footnote:
+The generalization of this idea to probability *densities* for continuous [[observables]] is due to [[Wolfgang Pauli]], as first recounted in:
+ 
+* {#Jordan27} [[Pascual Jordan]], *Über eine neue Begründung der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 809–838 &lbrack;[doi:10.1007/BF01390903](https://doi.org/10.1007/BF01390903)&rbrack;
 
 \begin{imagefromfile}
-    "file_name": "HilbertNeumannNordheim-BornRule.jpg",
-    "width": 500,
+    "file_name": "Jordan-PauliBornRule.jpg",
+    "width": 510,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -157,7 +155,60 @@ where it is again a footnote:
     }
 \end{imagefromfile}
 
-and then its full recognition and amplification as a pillar of quantum physics:
+and then by Pauli himself, again in a footnote:
+
+* [[Wolfgang Pauli]], *Über Gasentartung und Paramagnetismus*, Zeitschrift für Physik: A Hadrons and nuclei **41** (1927) 81–102 &lbrack;[doi:10.1007/BF01391920](https://doi.org/10.1007/BF01391920)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "PauliStatingBornPauliRule.jpg",
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+Early review of the Born-Pauli rule:
+
+* {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
+
+where it is once again a footnote:
+
+\begin{imagefromfile}
+    "file_name": "HilbertNeumannNordheim-BornRule.jpg",
+    "width": 530,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+and in 
+
+*  [[Paul A. M. Dirac]], *The physical interpretation of the quantum dynamics*, Proceedings of the Royal Society of London **113** 765 (1927) &lbrack;[doi:10.1098/rspa.1927.0012](https://doi.org/10.1098/rspa.1927.0012)&rbrack;
+
+
+\begin{imagefromfile}
+    "file_name": "Dirac_OnBornPauliRule.jpg",
+    "width": 530,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+The full recognition and amplification of the Born rule as a pillar of quantum physics making it a [[probability theory|probabilistic]] [[theory (physics)|theory]] (cf. *[[quantum probability]]*) is (maybe besides [Jordan 1927](#Jordan27)) due to:
 
 * [[John von Neumann]], *Die quantenmechanische Statistik*, Part III in:
 
@@ -189,6 +240,9 @@ and then its full recognition and amplification as a pillar of quantum physics:
     }
 \end{imagefromfile}
 
+Historical survey:
+
+* [[Jagdish Mehra]], Helmut Rechenberg, *The Probability Interpretation and the Statistical Transformation Theory, the Physical Interpretation, and the Empirical and Mathematical Foundations of Quantum Mechanics 1926-1932*, Part 1 in:  *The Historical Development of Quantum Theory. Volume 6: The Completion of Quantum Mechanics, 1926-1941*, Springer (2001)   &lbrack;[ISBN:978-0-387-98971-6](https://link.springer.com/book/9780387989716)&rbrack;
 
 ### Further discussion
 
@@ -201,4 +255,6 @@ See also:
 
 * Wikipedia, *[Born rule](https://en.wikipedia.org/wiki/Born_rule)*
 
+
+[[!redirects Born-Pauli rule]]
 
