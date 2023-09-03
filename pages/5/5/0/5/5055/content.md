@@ -7,6 +7,11 @@ Early discussion of the foundations of [[quantum mechanics]] (including the poss
 
 * [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
 
+and with early emphasis of the [[Born-Pauli rule]]:
+
+*  [[Paul A. M. Dirac]], *The physical interpretation of the quantum dynamics*, Proceedings of the Royal Society of London **113** 765 (1927) &lbrack;[doi:10.1098/rspa.1927.0012](https://doi.org/10.1098/rspa.1927.0012)&rbrack;
+
+
 Introducing [[bra-ket]]-notation to [[quantum mechanics]]:
 
 * {#Dirac39} [[Paul A. M. Dirac]], *A new notation for quantum mechanics*, Mathematical Proceedings of the Cambridge Philosophical Society **35** 3 (1939) 416-418 &lbrack;[doi:10.1017/S0305004100021162](https://doi.org/10.1017/S0305004100021162), [pdf](https://www.ifsc.usp.br/~lattice/wp-content/uploads/2014/02/Dirac_notation.pdf)&rbrack;
