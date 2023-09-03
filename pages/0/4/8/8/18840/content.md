@@ -188,6 +188,14 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 ## References
 
+The understanding of [[quantum physics]] as a [[probability theory|probabilistic]] [[theory (physics)|theory]] originates with the formulation of the [[Born rule]] and was made fully explicit in:
+
+* [[John von Neumann]], *Die quantenmechanische Statistik*, Part III in:
+
+  *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
 The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in
 
 *  {#Segal65} [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489 ([eculid:1183526903](https://projecteuclid.org/euclid.bams/1183526903))
