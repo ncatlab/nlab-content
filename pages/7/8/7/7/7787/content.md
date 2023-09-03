@@ -7,6 +7,17 @@ Early discussion of [[quantum mechanics]] (and apparently introducing that term)
 
 * [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
 
+Introducing what came to be called the *[[Born rule]]* of [[quantum mechanics]]:
+
+
+* {#Born26a} [[Max Born]], *Zur Quantenmechanik der Stoßvorgänge*, Zeitschrift für Physik **37** (1926) 863–867 &lbrack;[doi:10.1007/BF01397477](https://doi.org/10.1007/BF01397477)&rbrack;
+
+* {#Born26b} [[Max Born]], *Quantenmechanik der Stoßvorgänge*, Zeitschrift für Physik **38** (1926) 803–827 &lbrack;[doi:10.1007/BF01397184](https://doi.org/10.1007/BF01397184)&rbrack;
+
+* {#Born72} [[Max Born]], *Das Adiabatenprinzip in der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 167–192 &lbrack;[doi:10.1007/BF01400360](https://doi.org/10.1007/BF01400360)&rbrack;
+
+
+
 Introducing the [[adiabatic theorem]]:
 
 * [[Max Born]], [[Vladimir Fock]],  *Beweis des Adiabatensatzes*, Zeitschrift für Physik **51**  (1928) 165–180 ([doi:10.1007/BF01343193](https://doi.org/10.1007/BF01343193))
