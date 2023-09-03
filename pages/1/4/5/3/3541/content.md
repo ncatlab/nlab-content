@@ -85,7 +85,7 @@ A _quantum operation_ (or quantum channel) is a map that is both completely posi
 ### In terms of compact closed categories
  {#InTermsOfCompactClosedCategories}
 
-... due to ([Selinger 05](#Selinger)) ... see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)) for a quick summary ...
+... due to ([Selinger 05](#Selinger05)) ... see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)) for a quick summary ...
 
 ## Properties
 
