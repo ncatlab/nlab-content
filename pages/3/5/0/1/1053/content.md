@@ -146,8 +146,7 @@ For example, $P \vdash P$ can be won by using the copycat strategy where one mak
 
 ### As a relevance logic
 
-Linear logic is closely related to notions of [[relevance logic]], which have been studied for much longer.  The goal of relevance logic is to disallow statements like "if pigs can fly, then grass is green" which are true, under the usual logical interpretation of [[implication]], but in which the hypothesis has nothing to do with the conclusion.  Clearly there is a relationship with the "resource semantics": if we want to require that all hypotheses are "used" in a proof then we need to disallow weakening.
-
+Linear logic is closely related to notions of [[relevance logic]], which have been studied for much longer.  The goal of relevance logic is to disallow statements like "if pigs can fly, then grass is green" which are true, under the usual logical interpretation of [[implication]], but in which the hypothesis has nothing to do with the conclusion.  Clearly there is a relationship with the "resource semantics": if we want to require that all hypotheses are "used" in a proof then we need to disallow weakening. In linear logic, all hypotheses must be used *exactly once*, whereas in relevance logic(s), all hypotheses must be used *at least* once.  
 
 
 ## Definition
