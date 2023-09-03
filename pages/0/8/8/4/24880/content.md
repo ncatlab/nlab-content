@@ -566,6 +566,8 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 <img src="/nlab/files/QuantumReaderMonoidalnessAsDecoherence-230903.jpg" width="780">
 </center>
 
+This operation hence sends quantum states (pure or not) to their corresponding [[probability distributions]] (under [[quantum measurement]]) just as demanded by the *[[Born rule]]* postulate.
+
 \end{remark}
 
 \linebreak
