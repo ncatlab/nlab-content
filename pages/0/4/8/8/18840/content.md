@@ -198,13 +198,19 @@ The understanding of [[quantum physics]] as a [[probability theory|probabilistic
 
   *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
+see also:
+
+* [[Jagdish Mehra]], Helmut Rechenberg, *The Probability Interpretation and the Statistical Transformation Theory, the Physical Interpretation, and the Empirical and Mathematical Foundations of Quantum Mechanics 1926-1932*, Part 1 in:  *The Historical Development of Quantum Theory. Volume 6: The Completion of Quantum Mechanics, 1926-1941*, Springer (2001)   &lbrack;[ISBN:978-0-387-98971-6](https://link.springer.com/book/9780387989716)&rbrack;
+
+
 The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in
 
 *  {#Segal65} [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489 ([eculid:1183526903](https://projecteuclid.org/euclid.bams/1183526903))
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992 ([doi:10.1007/978-1-4612-0509-8](https://link.springer.com/book/10.1007/978-1-4612-0509-8))
 
-Further/other discussion of quantum probability theory:
+
+Dedicated discussion of quantum probability theory:
 
 * [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
 
