@@ -459,6 +459,7 @@ $$
 
 
 ### Relation to quantum measurement
+ {#RelationToQuantumMeasurement}
 
 In [[quantum information theory]] the $\bigcirc_B$-algebras in [[complex vector spaces]] which are free on the [[tensor unit]] $\mathbb{C} \,\in\, \mathbb{C} Vect$ (the [[dimension of a vector space|1-dimensional]] [[complex vector space]]) play the role of  ([[finite dimensional vector space|finite dimensional]] [[complex vector spaces]] [[underlying]]) [[finite-dimensional Hilbert spaces]] [[space of quantum states|of quantum states]] which are [[linear space|spanned]] by the set $B$ regarded as a "[[quantum measurement]] [[linear basis|basis]]".
 
@@ -541,7 +542,7 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
 
 
 
-### Monoidal monad structure
+### Monoidal monad structure and Decoherence
  {#MonoidalMonadStructure}
 
 \begin{proposition}
@@ -549,12 +550,25 @@ Hence, as a [[Frobenius monad]] (Prop. \ref{QuantumReaderMonadIsFrobenius}), the
   The above quantum reader monad carries the [[structure]] of a [[symmetric monoidal functor|symmetric]] [[monoidal monad]] with respect to the [[tensor product of vector spaces]] (or whatever the [[tensor product]] of the given linear types) as follows:
 
 <center>
-<img src="/nlab/files/LaxMonoidalStructureOnQuantumReader-230902.jpg" width="850">
+<img src="/nlab/files/LaxMonoidalStructureOnQuantumReader-230903.jpg" width="850">
 </center>
+
 
 \end{proposition}
 (Here we have assumed [[strict monoidal category|strict monoidal structure]] cf. &lbrack;[Schauenburg 2001](strinct+monoidal+category#Schauenburg01)&rbrack;, to notationally suppress its [[associators]] and [[unitors]].)
 
+
+\begin{remark}
+\label{MonoidalMonadStructureAndDecoherence}
+  The monoidal monad structure from Prop. \ref{SymmetricMonoidalMonadStructure} extends the [above](#RelationToQuantumMeasurement) quantum measurement typing from [[pure states]] to [[mixed states]], by implementing the [[decoherence]] process which eliminates the off-diagonal terms in the density matrix, as indicated in the following:
+
+<center>
+<img src="/nlab/files/QuantumReaderMonoidalnessAsDecoherence-230903.jpg" width="780">
+</center>
+
+\end{remark}
+
+\linebreak
 
 ## Related entries
 
