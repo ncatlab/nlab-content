@@ -1033,10 +1033,14 @@ Maybe the first article to propose to use [[intuitionistic logic]]/[[topos theor
 
 The term _Bohrification_ and the investigations associated with it were initiated in
 
-* {#HeunenLandsmanSpitters09} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification of operator algebras and quantum logic_, Synthese **186** 3 (2012) 719-752 &lbrack;[arXiv:0905.2275](http://arxiv.org/abs/0905.2275), [doi;10.1007/s11229-011-9918-4](https://doi.org/10.1007/s11229-011-9918-4)&rbrack;
+* {#HeunenLandsmanSpitters09} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], *Bohrification of operator algebras and quantum logic*, Synthese **186** 3 (2012) 719-752 &lbrack;[arXiv:0905.2275](http://arxiv.org/abs/0905.2275), [doi;10.1007/s11229-011-9918-4](https://doi.org/10.1007/s11229-011-9918-4)&rbrack;
   
+see also related comments in disucssion of the [[Born rule]] here:
 
-See also
+* [[Klaas Landsman]], *The Born rule and its interpretation*, in: *Compendium of Quantum Physics*, Springer (2009) 64-70 &lbrack;[doi:10.1007/978-3-540-70626-7_20](https://doi.org/10.1007/978-3-540-70626-7_20), [pdf](https://www.math.ru.nl/~landsman/Born.pdf), [[Landsman-BornRule.pdf:file]]&rbrack;
+
+
+See also:
 
 * {#HLSDeep} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_, in: *Deep Beauty -- Understanding the Quantum World through Mathematical Innovation*, Cambridge University Press (2009) 271-314 &lbrack;[arXiv:0909.3468](http://arxiv.org/abs/0909.3468), [doi:10.1017/CBO9780511976971.008](https://doi.org/10.1017/CBO9780511976971.008)&rbrack;
  
