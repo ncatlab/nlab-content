@@ -72,6 +72,8 @@ Essentially in this form the rule was first formulated by [Born 1926b p 805](#Bo
 
 ## Related concepts
 
+* [[quantum probability]]
+
 
 [[!include states and observables -- content]]
 
@@ -79,6 +81,9 @@ Essentially in this form the rule was first formulated by [Born 1926b p 805](#Bo
 
 ## References
  {#References}
+
+### Historical origins
+  {#ReferencesHistoricalOrigins}
 
 The Born rule is named in honor of 
 
@@ -102,7 +107,7 @@ and its expanded version
 
 * {#Born26b} [[Max Born]], *Quantenmechanik der Stoßvorgänge*, Zeitschrift für Physik **38** (1926) 803–827 &lbrack;[doi:10.1007/BF01397184](https://doi.org/10.1007/BF01397184)&rbrack;
 
-which provides the details:
+which provides the mathematical details (p. 805):
 
 \begin{imagefromfile}
     "file_name": "Born_stating_the_BornRule-Expanded.jpg",
@@ -116,12 +121,82 @@ which provides the details:
     }
 \end{imagefromfile}
 
+and finally in the followup
+
+* {#Born27} [[Max Born]], *Das Adiabatenprinzip in der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 167–192 &lbrack;[doi:10.1007/BF01400360](https://doi.org/10.1007/BF01400360)&rbrack;
+
+which makes the interpretation more explicit (p. 171):
+
+\begin{imagefromfile}
+    "file_name": "Born_stating_the_BornRule-ExpandedII.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Early adoption of the Born rule:
+
+* {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
+
+where it is again a footnote:
+
+\begin{imagefromfile}
+    "file_name": "HilbertNeumannNordheim-BornRule.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+and then its full recognition and amplification as a pillar of quantum physics:
+
+* [[John von Neumann]], *Die quantenmechanische Statistik*, Part III in:
+
+  *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "vonNeumann-BornRule.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\begin{imagefromfile}
+    "file_name": "vonNeumann-QMStatistics.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+### Further discussion
+
 Review:
 
 * [[Klaas Landsman]], *The Born rule and its interpretation*, in: *Compendium of Quantum Physics*, Springer (2009) 64-70 &lbrack;[doi:10.1007/978-3-540-70626-7_20](https://doi.org/10.1007/978-3-540-70626-7_20), [pdf](https://www.math.ru.nl/~landsman/Born.pdf), [[Landsman-BornRule.pdf:file]]&rbrack;
 
     
-
 See also:
 
 * Wikipedia, *[Born rule](https://en.wikipedia.org/wiki/Born_rule)*
