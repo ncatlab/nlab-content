@@ -80,3 +80,5 @@ doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
 * [[Stephen Lack]], [[John Power]], _Gabriel-Ulmer Duality and Lawvere Theories Enriched over a General Base_, [pdf](http://maths.mq.edu.au/~slack/papers/jfp.pdf)
 
 * [[Richard Garner]], [[John Power]], _An enriched view on the extended finitary monad--Lawvere theory correspondence_, ([ arXiv:1707.08694](https://arxiv.org/abs/1707.08694))
+
+[[!redirects enriched algebraic theory]]
