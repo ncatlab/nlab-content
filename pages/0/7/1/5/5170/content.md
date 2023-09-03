@@ -13,6 +13,11 @@ Early discussion of [[quantum mechanics]] (and apparently introducing that term)
 
 * [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
 
+and with emphasis on the [[Born rule]] and [[quantum probability]]:
+
+* [[Pascual Jordan]], *Über eine neue Begründung der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 809–838 &lbrack;[doi:10.1007/BF01390903](https://doi.org/10.1007/BF01390903)&rbrack;
+
+
 Introducing [[Jordan algebras]]:
 
 * {#Jordan32} [[Pascual Jordan]], *Über eine Klasse nichtassociativer hyperkomplexer Algebren*, Nachr. Ges. Wiss. Göttingen (1932) 569-575 &lbrack;[eudml:59403](https://eudml.org/doc/59403)&rbrack;
