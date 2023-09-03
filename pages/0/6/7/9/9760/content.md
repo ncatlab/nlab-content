@@ -1,7 +1,7 @@
 
 The **[[brane]] scan**.
 
-The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [[sigma-models]] (see at _[[table of branes]]_ for further links and see at _[[schreiber:The brane bouquet]]_ for the full classification):
+The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [[sigma-models]] (see at _[[table of branes]]_ for further links and see at _[[schreiber:The brane bouquet]]_ for the full classification): 
 
 | $\stackrel{d}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
 |--|--------|---|---|---|---|---|---|---|----|----|
@@ -29,4 +29,15 @@ The corresponding exceptional [[super L-∞ algebra]] [[∞-Lie algebra cohomolo
 | 6 | |  $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](5,1)  |  | $\Psi^2 E^3$ on  [[super Poincare Lie algebra|sIso]](5,1) |   |  |   |   |   |   | 
 | 5 | |  | $\Psi^2 E^2$ on  [[super Poincare Lie algebra|sIso]](4,1)   | |   |  |   |   |   |   |      
 | 4 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](3,1) | $\Psi^2 E^2$ on  [[super Poincare Lie algebra|sIso]](3,1)   | |   |  |   |   |   |   |   
-| 3 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](2,1)  |  | |   |  |   |   |   |   |     
+| 3 | | $\Psi^2 E^1$ on  [[super Poincare Lie algebra|sIso]](2,1)  |  | |   |  |   |   |   |   |   
+
+### The Brane molecule
+
+Furthermore, there exists a more general classification of possible supermembranes in spacetime with $S$ spatial dimensions and $T$ time dimensions, appearing in ([Blencowe-Duff 88](#BlencoweDuff88)). In this sense, the brane scan is but the $T=1$ branch of the brane molecule. The objects appearing here are expected to be related to other generalizations of string theory. See [[D=12 supergravity]] and [[bosonic M-theory]].
+
+[[branemoleculepc.png:pic]]
+
+## References
+
+* {#BlencoweDuff88} [[Miles Blencowe]], [[Mike Duff]], _Supermembranes and the Signature of Space-time_, Nucl. Phys. B310 (1988) 387-404 ([spire:262142](inspirehep.net/record/262142), <a href="https://doi.org/10.1016/0550-3213(88)90155-1">10.1016/0550-3213(88)90155-1</a>, [pdf](http://inspirehep.net/record/262142/files/cer-000099708.pdf))
+
