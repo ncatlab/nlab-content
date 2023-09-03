@@ -1,4 +1,19 @@
 
+$$
+  \big(
+  \vert w \rangle
+  +
+  \langle w \vert
+  \big)
+  \otimes
+  \big(
+  \vert w \rangle
+  +
+  \langle w \vert
+  \big)
+$$
+
+
 quantum measurement on density matrices is
 
 \begin{tikzcd}[row sep=-2pt] 
@@ -47,6 +62,15 @@ quantum measurement on density matrices is
     1\!\!1
     \big)
   \Big)
+  \ar[
+    rr,
+    "{
+      \bigcirc_w \mathrm{ev}
+    }"
+  ]
+  &&
+  \underset{W}{\bigcirc}
+  1\!\!1
   \\
   \mathrm{Q}W
   &&
