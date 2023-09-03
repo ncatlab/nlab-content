@@ -40,7 +40,7 @@ As often happens for structure on internal categories, these arise as structures
 
 Specifically, a monoidal double category arises when both $\mathbb{D}_1$ and $\mathbb{D}_0$ are [[monoidal categories]] and
 
-1.  $s,t:\mathbb{D}_1\to\mathbb{D}_0$ are strict monoidal, meaning if $p:A \nrightarrow B$ and $p':A' \nrightarrow B'$ are loose arrows, $p \otimes q$ is a loose arrow $A \otimes A' \nrightarrow B \otimes B'$,
+1.  $s,t:\mathbb{D}_1\to\mathbb{D}_0$ are strict monoidal, meaning if $p:A \nrightarrow B$ and $q:A' \nrightarrow B'$ are loose arrows, $p \otimes q$ is a loose arrow $A \otimes A' \nrightarrow B \otimes B'$,
 2. $U:\mathbb{D}_0 \to \mathbb{D}_1$ is strong monoidal, meaning $U_1 : I \nrightarrow I$ is the monoidal unit for $\mathbb{D}_1$ and there is an iso $U_{A \otimes B} \cong U_A \otimes U_B$ for all $A,B:\mathbb{D}_0$.
 3. $\odot  : \mathbb{D}_1 {}_s\times_t \mathbb{D}_1 \to \mathbb{D}_0$ is monoidal, meaning there is an iso $(p \otimes q) \odot (p' \otimes q') \cong (p \odot p') \otimes (q \odot q')$ for any suitably composable loose arrows $p,p',q',q' : \mathbb{D}_1$.
 
