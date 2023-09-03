@@ -31,13 +31,15 @@ The Pauli exclusion principle implies that [[fermions]], as opposed to [[bosons]
 
 * [[spin-statistics theorem]]
 
-* [[slater determinant]]
+* [[Slater determinant]]
 
 ## References
 
 ### General
 
-* {#Pauli25} [[Wolfgang Pauli]], _&#220;ber den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der Spektren_, Zeitschrift f&#252;r Physik, February 1925, Volume 31, Issue 1, pp 765-783
+* {#Pauli25} [[Wolfgang Pauli]], *Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der Spektren*, Zeitschrift f&#252;r Physik, **31** 1 (1925) 765-783 &lbrack;[doi:10.1007/BF02980631](https://doi.org/10.1007/BF02980631)&rbrack;
+
+* [[Wolfgang Pauli]], *Über Gasentartung und Paramagnetismus*, Zeitschrift für Physik: A Hadrons and nuclei **41** (1927) 81–102 &lbrack;[doi:10.1007/BF01391920](https://doi.org/10.1007/BF01391920)&rbrack;
 
 * Wikipedia, _[Pauli exclusion principle](http://en.wikipedia.org/wiki/Pauli_exclusion_principle)_
 
