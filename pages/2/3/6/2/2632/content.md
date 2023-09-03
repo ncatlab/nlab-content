@@ -365,6 +365,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 * [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
 
+*  [[Paul A. M. Dirac]], *The physical interpretation of the quantum dynamics*, Proceedings of the Royal Society of London **113** 765 (1927) &lbrack;[doi:10.1098/rspa.1927.0012](https://doi.org/10.1098/rspa.1927.0012)&rbrack;
+
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
 
 Formulating the [[Born rule]]:
@@ -375,6 +377,7 @@ Formulating the [[Born rule]]:
 
 * {#Born72} [[Max Born]], *Das Adiabatenprinzip in der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 167–192 &lbrack;[doi:10.1007/BF01400360](https://doi.org/10.1007/BF01400360)&rbrack;
 
+* [[Pascual Jordan]], *Über eine neue Begründung der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 809–838 &lbrack;[doi:10.1007/BF01390903](https://doi.org/10.1007/BF01390903)&rbrack;
 
 Introducing the [[Hilbert space]]-formulation (and the [[projection postulate]]):
 
