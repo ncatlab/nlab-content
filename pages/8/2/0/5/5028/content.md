@@ -26,6 +26,11 @@ Exposition:
 * [[Bas Spitters]], *Verified Implementation of Exact Real Arithmetic in Type Theory*, talk at *Computable Analysis and Rigorous Numeric* (2013) &lbrack;[pdf](https://users-cs.au.dk/spitters/CARN.pdf), [[Spitters-ExactRealArithmetic.pdf:file]]&rbrack;
 
 
+On [[Bohr toposes]]:
+
+* {#HeunenLandsmanSpitters09} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], *Bohrification of operator algebras and quantum logic*, Synthese **186** 3 (2012) 719-752 &lbrack;[arXiv:0905.2275](http://arxiv.org/abs/0905.2275), [doi;10.1007/s11229-011-9918-4](https://doi.org/10.1007/s11229-011-9918-4)&rbrack;
+
+
 On [[mathematical structures]] formulated in [[dependent type theory]], specifically via [[ufias2012:Type classes]] in [[Coq]]:
 
 * [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119)&rbrack;
