@@ -65,3 +65,5 @@ See also:
 [[!redirects ket]]
 [[!redirects bras]]
 [[!redirects kets]]
+
+[[!redirects bra-ket notation]]
