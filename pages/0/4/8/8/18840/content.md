@@ -190,6 +190,8 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 The understanding of [[quantum physics]] as a [[probability theory|probabilistic]] [[theory (physics)|theory]] originates with the formulation of the [[Born rule]] and was made fully explicit in:
 
+* [[Pascual Jordan]], *Über eine neue Begründung der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 809–838 &lbrack;[doi:10.1007/BF01390903](https://doi.org/10.1007/BF01390903)&rbrack;
+
 * [[John von Neumann]], *Die quantenmechanische Statistik*, Part III in:
 
   *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
