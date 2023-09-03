@@ -5,9 +5,9 @@ Chris Heunen is EPSRC research fellow in [[computer science]] at Oxford.
 
 ## Selected writings
 
-On [[limits]] in [[dagger categories]]:
+On [[Bohr toposes]]:
 
-* [[Chris Heunen]], [[Martti Karvonen]], *Limits in dagger categories*, Theory and Applications of Categories **34** 18 (2019) 468-513 &lbrack;[arXiv:1803.06651](https://arxiv.org/abs/1803.06651), [34-18](http://www.tac.mta.ca/tac/volumes/34/18/34-18abs.html)&rbrack;
+* {#HeunenLandsmanSpitters09} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], *Bohrification of operator algebras and quantum logic*, Synthese **186** 3 (2012) 719-752 &lbrack;[arXiv:0905.2275](http://arxiv.org/abs/0905.2275), [doi;10.1007/s11229-011-9918-4](https://doi.org/10.1007/s11229-011-9918-4)&rbrack;
 
 
 On [[monads]] on [[dagger categories]] with an eye towards [[quantum measurement]] expressed in [[finite quantum mechanics in terms of dagger-compact categories]]:
@@ -18,6 +18,13 @@ On [[monads]] on [[dagger categories]] with an eye towards [[quantum measurement
 On the [[category]] of [[matroids]] with *strong maps* between them:
 
 * [[Chris Heunen]], [[Vaia Patta]], *The category of matroids*, Applied Categorical Structures **26** (2018) 205–237 &lbrack;[arXiv:1512.01390](https://arxiv.org/abs/1512.01390), [doi:10.1007/s10485-017-9490-2](https://doi.org/10.1007/s10485-017-9490-2)&rbrack;
+
+
+
+On [[limits]] in [[dagger categories]]:
+
+* [[Chris Heunen]], [[Martti Karvonen]], *Limits in dagger categories*, Theory and Applications of Categories **34** 18 (2019) 468-513 &lbrack;[arXiv:1803.06651](https://arxiv.org/abs/1803.06651), [34-18](http://www.tac.mta.ca/tac/volumes/34/18/34-18abs.html)&rbrack;
+
 
  
 On [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]]:
