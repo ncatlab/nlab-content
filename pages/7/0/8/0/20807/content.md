@@ -450,6 +450,11 @@ Discussion in the context of [[M2-M5-brane bound states]]/[[E-strings]]:
 
 * {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
+See also:
+
+* Samuel Kováčik, Juraj Tekel, *Fuzzy Onion as a Matrix Model* &lbrack;[arXiv:2309.00576](https://arxiv.org/abs/2309.00576)&rbrack;
+
+
 ### Fuzzy 4-sphere
 
 The [[fuzzy 4-sphere]]:
