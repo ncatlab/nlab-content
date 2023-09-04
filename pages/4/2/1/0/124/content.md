@@ -313,7 +313,10 @@ A quick introduction of the basic facts of [[Grothendieck topos]] theory is Chap
 
 Course notes covering both [[Grothendieck toposes]] and the [[effective topos]]:
 
-* [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos Theory_, Master class notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
+* [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos Theory_, Master class notes (2007) &lbrack;[pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf)&rbrack;
+
+* [[Jaap van Oosten]], *Topos Theory* (2018) &lbrack;[pdf](https://webspace.science.uu.nl/~ooste110/syllabi/topostheory.pdf), [[vanOosten-ToposTheory.pdf:file]]&rbrack;
+
 
 A gentle basic introduction is 
 
