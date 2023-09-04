@@ -69,6 +69,18 @@ Finite-dimensional vector spaces are exactly the [[compact objects]] of [[Vect]]
 
 * [[finite quantum mechanics in terms of dagger-compact categories]]
 
+## References
+
+Discussion of finite-dimensional vector spaces as [[categorical semantics]] for [[linear logic]]/[[linear type theory]]:
+
+* [[Benoît Valiron]], [[Steve Zdancewic]], *Finite Vector Spaces as Model of Simply-Typed Lambda-Calculi*, in: *Proc. of ICTAC'14*, Lecture Notes in Computer Science **8687**, Springer (2014) 442-459 &lbrack;[arXiv:1406.1310](https://arxiv.org/abs/1406.1310), [doi:10.1007/978-3-319-10882-7_26](https://doi.org/10.1007/978-3-319-10882-7_26), slides:[pdf](https://www.cs.bham.ac.uk/~drg/bll/steve.pdf), [[Zdancewic-LinearLogicAlgebra.pdf:file]]&rbrack;
+
+  > (focus on [[finite field|finite]] [[ground fields]])
+
+* {#Murfet14} [[Daniel Murfet]], *Logic and linear algebra: an introduction* &lbrack;[arXiv:1407.2650](http://arxiv.org/abs/1407.2650)&rbrack;
+
+
+
 [[!redirects finite-dimensional vector space]]
 [[!redirects finite-dimensional vector spaces]]
 [[!redirects finite dimensional vector space]]
