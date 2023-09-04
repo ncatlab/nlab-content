@@ -282,9 +282,14 @@ The **proof** is a straightforward check that the continuity conditions match up
 
 ## References
 
+Basic exposition of the topos of $G$-sets for [[discrete groups]]:
+
+* [[Jaap van Oosten]], (eg. p. 32 in:) *Topos Theory* (2018) &lbrack;[pdf](https://webspace.science.uu.nl/~ooste110/syllabi/topostheory.pdf), [[vanOosten-ToposTheory.pdf:file]]&rbrack;
+
+
 Some elementary properties of continuous $G$-sets can be found in books such as
 
-* {#MaclaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]
+* {#MaclaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
 The formal correspondence between permutation models of [[ZFA]] and toposes of continuous $G$-sets can be found in
 
