@@ -35,6 +35,11 @@ Introducing the [[functional programming language|functional]] [[quantum program
 
 * [[Jonathan Smith]], [[Neil Ross]], [[Peter Selinger]], [[Benoît Valiron]], _Quipper: Concrete Resource Estimation in Quantum Algorithms_, QAPL 2014 ([arXiv:1412.0625](https://arxiv.org/abs/1412.0625))
 
+On [[linear algebra]] ([[finite-dimensional vector spaces]] over [[finite fields]]) as [[categorical semantics]] for [[linear logic]]/[[linear type theory]]:
+
+* [[Benoît Valiron]], [[Steve Zdancewic]], *Finite Vector Spaces as Model of Simply-Typed Lambda-Calculi*, in: *Proc. of ICTAC'14*, Lecture Notes in Computer Science **8687**, Springer (2014) 442-459 &lbrack;[arXiv:1406.1310](https://arxiv.org/abs/1406.1310), [doi:10.1007/978-3-319-10882-7_26](https://doi.org/10.1007/978-3-319-10882-7_26), slides:[pdf](https://www.cs.bham.ac.uk/~drg/bll/steve.pdf), [[Zdancewic-LinearLogicAlgebra.pdf:file]]&rbrack;
+
+
 Exposition of the general idea of [[quantum programming languages]] for [[classically controlled quantum computation]] with an eye towards the [[Quipper]]-language:
 
 * [[Benoît Valiron]], [[Neil J. Ross]], [[Peter Selinger]], [[D. Scott Alexander]], [[Jonathan M. Smith]], *Programming the quantum future*, Communications of the ACM **58** 8 (2015) 52–61 &lbrack;[doi:10.1145/2699415](https://doi.org/10.1145/2699415), [pdf](https://www.iro.umontreal.ca/~brassard/cours/6155/Langages%20de%20programmation%20quantique/Programming%20the%20Quantum%20Future.pdf),  [web](https://cacm.acm.org/magazines/2015/8/189851-programming-the-quantum-future/abstract), promo vid:[YT](https://youtu.be/mzce69oFdH0?list=PLn0nrSd4xjjbIHhktZoVlZuj2MbrBBC_f)&rbrack;
