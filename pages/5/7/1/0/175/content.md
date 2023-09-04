@@ -28,6 +28,12 @@ The study of [[groups]].
 
 * [[combinatorial group theory]], [[geometric group theory]]
 
+* [[discrete group]], [[finite group]]
+
+* [[permutation group]], [[symmetric group]] 
+
+* [[Cayley's theorem]]
+
 * [[group action]], [[linear representation]] 
 
 * [[representation theory]]
