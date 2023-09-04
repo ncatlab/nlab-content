@@ -18,6 +18,8 @@
 
 In [[group theory]], *Cayley's theorem* is the statement that every *[[discrete group]]* is [[isomorphism|isomorphic]] to a [[subgroup]] of the [[symmetric group]] $Sym(G)$ on its [[underlying set]], namely as the group of [[permutations]] of elements of $G$ by left-multiplication with $G$ on itself (the "[[regular representation|regular]] [[permutation representations]]" of $G$).
 
+[[Wagner-Preston theorem]] is a generalization of Cayley's theorem to [[inverse semigroup]]s (every inverse semigroup is a subsemigroup of a semigroup of partial bijections of a set).
+
 
 ## References
 
@@ -44,5 +46,7 @@ See also:
 More on the case of [[finite groups]]:
 
 * {#HMM18} R. Heffernan, Des Machale, Brendan McCann, *Cayley’s Theorem Revisited: Embeddings of Small Finite Groups*, Mathematics Magazine **91** 2 (2018) 103-111 &lbrack;[jstor:48665514](https://www.jstor.org/stable/48665514)&rbrack;
+
+category: algebra
 
 
