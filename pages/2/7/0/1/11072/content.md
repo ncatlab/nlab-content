@@ -323,6 +323,10 @@ A streamlined statement of the [[inference rules]] and the observation that thes
 
 * {#dePaiva89} [[ Valeria de Paiva]], §2 of: *The Dialectica Categories*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92), [doi:10.1090/conm/092](https://doi.org/10.1090/conm/092)&rbrack;
 
+Review:
+
+* [[Anne Sjerp Troelstra]], §12 in: *Lectures on Linear Logic* (1992) &lbrack;[ISBN:0937073776](https://web.stanford.edu/group/cslipublications/cslipublications/site/0937073776.shtml)&rbrack;
+
 
 Brief survey in a context of [[computer science]]/[[linear type theory]]:
 
