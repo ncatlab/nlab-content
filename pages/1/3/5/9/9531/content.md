@@ -119,5 +119,12 @@ For a more modern account see
 
 * {#tomDieck79} [[Tammo tom Dieck]], chapter 1 of _[[Transformation Groups and Representation Theory]]_, Springer 1979
 
+Basic exposition of $G$-sets as a [[Grothendieck topos]]:
+
+* [[Jaap van Oosten]], (eg. p. 32 in:) *Topos Theory* (2018) &lbrack;[pdf](https://webspace.science.uu.nl/~ooste110/syllabi/topostheory.pdf), [[vanOosten-ToposTheory.pdf:file]]&rbrack;
+
+
+
+
 
 [[!redirects G-sets]]
