@@ -24,12 +24,14 @@ the concrete definition of heaps is more direct and simpler in the sense that it
 
 Concretely, for heaps [[underlying]] a [[group]] [[structure]], this ternary operation is defined from the binary group operation $(\text{-})\cdot(\text{-})$ by 
 
-$$
+\[
+  \label{HeapOperationInAGroup}
   (a,b,c) 
-  \,\mapsto\, 
+  \;\mapsto\; 
   a \cdot b^{-1} \cdot c
-  \,,
-$$  
+\]  
+
+and every heap arises this way, up to [[isomorphism]], from a group called its *automorphism group* (Prop. \ref{PrinIsEssentiallySurjective} below).
 
 There is also a dual version of this concept, see at *[[quantum heap]]*.
 
@@ -49,63 +51,153 @@ nor with
 \begin{remark}\label{Synonyms}
 **(synonyms)**
 \linebreak
-There are also a number of synonyms for the term 'heap'; below we consider '[[torsor]]' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
+There are also a number of synonyms for the term 'heap'; [below](#HeapsAndTorsors) we consider '[[torsor]]' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
 \end{remark}
 
 
 ## Definition
 
-A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] [[set]] $H$
-equipped with a ternary operation $t \colon H \times H \times H\to H$ satisfying the following two relations
+\begin{definition}
+A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] [[set]] $H$ equipped with a ternary operation $t \colon H \times H \times H\to H$ satisfying the following two relations
 
-1. $ t(b,b,c) = c = t(c,b,b)$
+1. $ t(b,b,c) = c = t(c,b,b)$,
 
-1. $ t\big(a,b,t(c,d,e)\big) = t\big(t(a,b,c),d,e\big) $
+1. $ t\big(a,b,t(c,d,e)\big) = t\big(t(a,b,c),d,e\big) $.
+
+\end{definition}
 
 More generally, a ternary operation in some [[variety of algebras]] satisfying the first pair of equations is called a [[Mal'cev operation]].  A Mal'cev operation is  called _associative_ if it also satisfies the latter equation (i.e. it makes its domain into a heap).
 
 A heap is **abelian** if it additionally satisfies the relation
 $$
-t(a,b,c) = t(c,b,a)
+  t(a,b,c) = t(c,b,a)
 $$
 
-A **heap homomorphism**, of course, is a function that preserves the ternary operations.  This defines a category $Heap$ of heaps. 
+A **heap [[homomorphism]]**, of course, is a function that preserves the ternary operations.  This defines a [[category]] $Heap$ of heaps. 
 
 The [[hom-sets]] of the [[full subcategory]] $AbHeap$ of abelian heaps inherit an abelian heap structure from the pointwise operation in the codomain: given $f,g,h\colon H \to G$, the function $a\mapsto t_G(f(a),g(a),h(a))$ is again a heap homomorphism. 
 
+## Properties
 
-## Automorphism group
+### Automorphism groups of heaps
+ {#AutomorphismsGroupsOfHeaps}
 
-As suggested above, if $G$ is a group and we define $t(a,b,c) = a b^{-1} c$, then $G$ becomes a heap.  This construction defines a functor $Prin:Grp\to Heap$.  In fact, up to isomorphism, all heaps arise in this way; to every heap is associated a group $Aut(H)$ called its _automorphism group_, unique up to isomorphism.  There are a number of ways to define $Aut(H)$ from $H$.
+As indicated in (eq:HeapOperationInAGroup) a [[group]] $G$ becomes a heap by setting
 
-1. If we choose an arbitrary element $e\in H$, then we can define a multiplication on $H$ by $a b = t(a,e,b)$.  It is straightforward to verify that this defines a group structure on $H$, whose underlying heap structure is the original one.
+\[
+  a,b,c \,\in\, G
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  t(a,b,c) \,\coloneqq\, a \cdot b^{-1} \cdot c
+  \,.
+\] 
 
-2. We can define $Aut(H)$ to be the set of pairs $(a,b)\in H\times H$, modulo the [[equivalence relation]] $(a,b)\sim (a',b')$ iff $t(a,a',b')=b$.  (We think of $(a,b)$ as representing $a^{-1} b$.)  We then define multiplication by $(c,d)(a,b) = (c,t(d,a,b))$; the inverse of (the [[equivalence class]] of) $(a,b)$ is (the equivalence class of) $(b,a)$ and the identity element is (the equivalence class of) $(a,a)$ (for any $a$).
+\begin{proposition}
+\label{PrinIsEssentiallySurjective}
+This construction (eq:HeapOperationInAGroup) defines a [[functor]] 
 
-3. We can also define $Aut(H)$ as an actual subgroup of the [[symmetric group]] of $H$, analogously to [[Cayley's theorem]] (see [Wikipedia](http://en.wikipedia.org/wiki/Cayley's_theorem)) for groups.  We take the elements of $Aut(H)$ to be set bijections
-of the form $t(-,a,b): H \rightarrow H$
-where $a,b \in H$, with composition as the group operation.  Note that
-\[ t(-,c,d) \cdot_{Aut(H)} t(-, a,b) =
- t(t(-,c,d),a,b) = t(-,c,t(d,a,b)), \]
- so $Aut(H)$ is closed under this operation.  The first axiom of a  heap shows that $Aut(H)$ contains the identity $t(-,x,x)$ for any  $x$), and the inverse of $t(\cdot,a,b)$ is $t(\cdot,b,a)$; thus  $Aut(H)$ is a subgroup of the symmetric group of $H$.
+$$
+  Prin 
+    \,\colon\, 
+  Grp \longrightarrow Heap
+$$  
 
-Note that in both the second and third constructions, the elements of $Aut(H)$ are determined by pairs of elements of $H$, modulo some equivalence relation.  The following theorem shows that the two equivalence relations are the same.
+from the category [[Grp]] of [[groups]] to that of heaps,
+which is [[essentially surjective functor|essentially surjective]], meaning that, up to [[isomorphism]] all heaps arise in this way.
 
-+-- {: .un_theorem}
-###### Theorem
+In fact, there is a converse functor
+$$
+  Aut 
+   \,\colon\,
+  Heap \longrightarrow Grp
+$$
 
-The following are equivalent
+such that
 
-1. bijections $t(\cdot,a,b)$ and $t(\cdot,a',b')$ are
-the same maps,
+1. there exist [[natural isomorphisms|natural]] group isomorphisms of the form
 
-2. $t(a,a',b') = b$,
+   $Aut\big(Prin(G)\big) \,\cong\, G$ 
 
-3. $t(b,b',a') = a$.
-=--
 
-+-- {: .proof}
-###### Proof
+1. there exist heap isomorphisms of the form 
+
+   $Prin\big(Aut(H)\big) \,\cong\, H$  
+  
+   which however are *not* [[natural transformation|natural]] (whence we do *not* have an [[equivalence of categories]]).
+
+\end{proposition}
+This group $Aut(H)$ is called the *automorphism group* of the heap $H$.
+\begin{proof}
+Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [[isomorphism]], by any of the following constructions:
+
+1. Choosing any [[element]] $\mathrm{e} \in H$, then the [[binary operation]]
+
+   $$
+     a \cdot b \,\coloneqq\, t(a, \mathrm{e} ,b)
+     \,.
+   $$
+
+   constitutes a [[group]] [[structure]] on $H$, with [[neutral element]] $\mathrm{e}$. 
+
+   This serves as the required automorphism group: $Aut(H) \,\coloneqq\, (H, \cdot)$.
+
+
+2. Take the [[underlying set]] of $Aut(H)$ to be that of [[equivalence classes]] of [[pairs]] $(a,b) \in H\times H$, subject to the [[equivalence relation]] 
+
+   $$
+     (a,b) \,\sim\, (a',b')
+     \;\;\;\;\text{iff}\;\;\;\;
+     t(a,a',b') \,=\, b
+   $$  
+
+   (the idea is to think of the pair $(a,b)$ as the representative of $a^{-1} \cdot b$)
+
+   and take the [[binary operation]] on the group to be given on representatives by
+
+   $$
+     (c,d) \cdot (a,b) 
+     \,\coloneqq\, 
+     \big( c, t(d,a,b) \big)
+     \,.
+   $$ 
+
+   This again defines a group $Aut(H)$. 
+
+   Notice that: 
+
+   * the [[inverse element|inverse]] of (the [[equivalence class]] of) $(a,b)$ is (the equivalence class of) $(b,a)$ 
+
+   * the [[neutral element]] is (the equivalence class of) $(a,a)$ (for any $a$).
+
+3. Finally, $Aut(H)$ is realized also as an actual [[subgroup]] of the [[symmetric group]] on the [[underlying set]] of  $H$, analogously to [[Cayley's theorem]] for groups.  We take the elements of $Aut(H)$ to be set [[bijections]] of the form $t(-,a,b) \colon H \rightarrow H$
+where $a,b \in H$, with [[composition]] as the group's [[binary operation]].  
+
+   Notice here that 
+
+   \[ 
+      t(-,c,d) \cdot_{Aut(H)} t(-, a,b) 
+      \;=\;
+      t\big(t(-,c,d),a,b\big) \;=\; t\big(-,c,t(d,a,b)\big)
+      \,, 
+   \]
+
+   so that $Aut(H)$ is closed under this operation.  
+
+   The first axiom of a  heap shows that $Aut(H)$ contains the [[neutral element]] $t(-,x,x)$, for any  $x$), and the [[inverse element]] of $t(\cdot,a,b)$ is $t(\cdot,b,a)$; thus  $Aut(H)$ is a subgroup of the symmetric group of $H$.
+
+It remains to see that these constructions all agree and are functorial.
+
+First to see that the [[equivalence relations]] used in the second and third construction agree, notice that 
+the following are equivalent:
+
+* (i) the bijections $t(\cdot,a,b)$ and $t(\cdot,a',b')$ coincide
+
+* (ii) $t(a,a',b') = b$,
+
+* (iii) $t(b,b',a') = a$.
+
+Namely:
 
 (ii) follows from (i) and $t(a,a,b) = b$.
 
@@ -115,14 +207,18 @@ right. Similarly (ii) follows from (iii).
 (i) follows from (ii) by the calculation:
 \[ t(x,a',b') = t(t(x,a,a),a',b')= t(x,a,t(a,a',b'))
  = t(x,a,b).\]
-=--
 
-The composition laws are also easily seen to agree, so the second two constructions of $Aut(H)$ are canonically isomorphic.  To compare them to the first construction, observe that for a fixed $e\in H$, any equivalence class contains a unique pair of the form $(e,a)$.  (If $(b,c)$ is in the equivalence class, then $a$ is determined by $a = t(e,b,c)$.)  This sets up a bijection between the first two constructions, which we can easily show is an isomorphism.
+Since the composition laws are also easily seen to agree, we have that the second two constructions of $Aut(H)$ are canonically isomorphic.  
 
-The second two constructions are clearly functorial, so we have a functor $Aut:Heap\to Grp$.  Note that we have $Aut(Prin(G))\cong G$ for any group $G$, and $Prin(Aut(H))\cong H$ for any heap $H$, but while the first isomorphism is natural, the second is not.  In particular, the categories $Heap$ and $Grp$ are not [[equivalence of categories|equivalent]].
+To compare them to the first construction, observe that for a fixed $\mathrm{e} \in H$, any equivalence class contains a unique pair of the form $(\mathrm{e},a)$.  (If $(b,c)$ is in the equivalence class, then $a$ is determined by $a = t(\mathrm{e},b,c)$.)  This sets up a bijection between the first two constructions, which we can easily show is an isomorphism.
+
+Finally, the second constructions is manifestly functorial.
+\end{proof}
 
 
-## Heaps and torsors
+
+### Relation to torsors
+ {#HeapsAndTorsors}
 
 Note that $Aut(H)$ comes equipped with a canonical action on $H$ (this is most clear from the third definition).  This action is transitive
 (by $t(a,a,b) = b$) and  free (if $t(a,b,c) = a$ then
