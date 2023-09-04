@@ -1,23 +1,66 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Heaps
 * table of contents
 {: toc}
 
 ## Idea
+ {#Idea}
 
-A _heap_ is an algebraic structure which is basically equivalent to a [[group]] when one forgets about which element is the [[identity element|unit]].  Similar notions are [[affine space]], [[principal homogeneous space]] and so on. However, the notion of a heap has a directness and simplicity in the sense that it is formalized as an algebraic structure with only one ternary operation satisfying a short list of axioms. If we start with a group the ternary operation is defined via $(a,b,c)\mapsto a b^{-1}c$.  We can interpret that operation as shifting $a$ by the (right) translation in the group which translates $b$ into $c$.  There is also a dual version, [[quantum heap]].
+In [[algebra]], a _heap_ is an algebraic [[structure]] which is almost that of a [[group]] structure but without the specification of a [[neutral element]].  
 
-Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science, nor should they be confused with [heaps of pieces](https://link.springer.com/chapter/10.1007/BFb0072524) in the sense of Viennot.  There are also a number of synonyms for the term 'heap'; below we consider 'torsor' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
+While notions such as *[[affine spaces]]*, *[[principal homogeneous spaces]]* are very similar,
+the concrete definition of heaps is more direct and simpler in the sense that it postulates just a single ternary operation satisfying just two [[axioms]]. 
+
+Concretely, for heaps [[underlying]] a [[group]] [[structure]], this ternary operation is defined from the binary group operation $(\text{-})\cdot(\text{-})$ by 
+
+$$
+  (a,b,c) 
+  \,\mapsto\, 
+  a \cdot b^{-1} \cdot c
+  \,,
+$$  
+
+There is also a dual version of this concept, see at *[[quantum heap]]*.
+
+\begin{remark}\label{Disambiguation}
+**(disambiguation)**
+\linebreak
+Heaps in the sense of algebra should not be confused with wither
+
+* [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical [[computer science]], 
+
+nor with 
+
+* *heaps of pieces* in the [[combinatorics|combinatorial]] sense of [Viennot 2006](https://link.springer.com/chapter/10.1007/BFb0072524).  
+
+\end{remark}
+
+\begin{remark}\label{Synonyms}
+**(synonyms)**
+\linebreak
+There are also a number of synonyms for the term 'heap'; below we consider '[[torsor]]' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
+\end{remark}
 
 
 ## Definition
 
-A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] set $H$
-equipped with a ternary operation $t : H \times H \times H\to H$ satisfying the relations
+A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] [[set]] $H$
+equipped with a ternary operation $t \colon H \times H \times H\to H$ satisfying the following two relations
 
-$$ t(b,b,c) = c = t(c,b,b)$$
+1. $ t(b,b,c) = c = t(c,b,b)$
 
-$$ t(a,b,t(c,d,e)) = t(t(a,b,c),d,e) $$
+1. $ t\big(a,b,t(c,d,e)\big) = t\big(t(a,b,c),d,e\big) $
 
 More generally, a ternary operation in some [[variety of algebras]] satisfying the first pair of equations is called a [[Mal'cev operation]].  A Mal'cev operation is  called _associative_ if it also satisfies the latter equation (i.e. it makes its domain into a heap).
 
@@ -28,7 +71,7 @@ $$
 
 A **heap homomorphism**, of course, is a function that preserves the ternary operations.  This defines a category $Heap$ of heaps. 
 
-The hom-sets of the full subcategory $AbHeap$ of abelian heaps inherit an abelian heap structure from the pointwise operation in the codomain: given $f,g,h\colon H \to G$, the function $a\mapsto t_G(f(a),g(a),h(a))$ is again a heap homomorphism. 
+The [[hom-sets]] of the [[full subcategory]] $AbHeap$ of abelian heaps inherit an abelian heap structure from the pointwise operation in the codomain: given $f,g,h\colon H \to G$, the function $a\mapsto t_G(f(a),g(a),h(a))$ is again a heap homomorphism. 
 
 
 ## Automorphism group
