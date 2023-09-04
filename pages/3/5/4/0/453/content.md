@@ -75,13 +75,20 @@ The last condition in Def. \ref{RegularCategory} may equivalently be stated in t
   along a morphism $c' \to c$ is again a coequalizer diagram (nor need a regular category have coequalizers of all parallel pairs).
 \end{remark}
 
-In fact, a definition equivalent to Def. \ref{RegularCategory} is:
+In fact, a characterization equivalent to Def. \ref{RegularCategory} is:
 
-\begin{definition}
-A **regular category** is a [[finitely complete category]] with [[pullback]]-stable [[image]] factorizations.
-\end{definition}
+\begin{proposition}
+\label{CharacterizationViaImageFactorization}
+A **regular category** is a [[finitely complete category]] with [[pullback]]-[[stable factorization system|stable]] [[image]] [[factorization system|factorizations]] in that 
 
-Here we are using "image" in the sense of "the smallest [[monomorphism]] through which a morphism factors."  See *[[familial regularity and exactness]]* for a generalization of this approach to include [[coherent category|coherent]] categories as well.
+1. every morphism factors as a [[regular epimorphism]] followed  by a [[monomorphism]]
+
+1. these factorizations as preserved under [[pullback]].
+
+\end{proposition}
+(eg. [Gran 2020, Thm. 1.14](#Gran20), cf. also [MO:a/252842](https://mathoverflow.net/a/252842/381))
+
+See also *[[familial regularity and exactness]]* for a generalization of this approach to include [[coherent category|coherent]] categories as well.
 
 
 ## Examples
