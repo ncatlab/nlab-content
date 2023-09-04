@@ -234,6 +234,12 @@ The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital
 ### Nonunital ring theory
  {#ReferencesTheory}
 
+A survey of various notions between unital rings and nonunital rings:
+
+* Patrik Nystedt, _A survey of s-unital and locally unital rings_, Revista Integración, temas de matemáticas
+Escuela de Matemáticas, Universidad Industrial de Santander, Vol. 37, N◦ 2, 2019, pág. 251–260.  [doi](http://dx.doi.org/10.18273/revint.v37n2-2019003), [arXiv](https://arxiv.org/abs/1809.02117).
+
+
 The terminology "rng" originates in
 
 * {#Jacobson} Nathan Jacobson _Basic Algebra_.  
