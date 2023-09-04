@@ -4,6 +4,16 @@
 
 ## Selected writings
 
+Introducing what came to be called the *[[Nicolai map]]*:
+
+* [[Hermann Nicolai]], *On a new characterization of scalar supersymmetric theories*, Physics Letters B **89** 3–4 (1980) Pages 341-346 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90138-0">doi:10.1016/0370-2693(80)90138-0</a>&rbrack;
+
+* [[Hermann Nicolai]], *Supersymmetry and functional integration measures*, Nuclear Physics B
+**176** 2 (1980) 419-428 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90460-5">doi:10.1016/0550-3213(80)90460-5</a>&rbrack;
+
+* [[Hermann Nicolai]], *Supersymmetric functional integration measures*, NATO Advanced Study Institute on Supersymmetry, Bonn (Aug 1984) 393-420 &lbrack;[cds:155731](https://cds.cern.ch/record/155731)&rbrack;
+
+
 On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[BFSS matrix model]]:
 
 * {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]], [spire:261702](http://inspirehep.net/record/261702))
@@ -106,6 +116,8 @@ On [[Lars Brink]]:
 
 
 ## Related entries
+
+* [[Nicolai map]]
 
 * [[supergravity]], [[gauged supergravity]]
 
