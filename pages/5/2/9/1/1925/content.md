@@ -26,12 +26,23 @@ Concretely, for heaps [[underlying]] a [[group]] [[structure]], this ternary ope
 
 \[
   \label{HeapOperationInAGroup}
+  t
+  \,\colon\,
   (a,b,c) 
   \;\mapsto\; 
   a \cdot b^{-1} \cdot c
 \]  
 
-and every heap arises this way, up to [[isomorphism]], from a group called its *automorphism group* (Prop. \ref{PrinIsEssentiallySurjective} below).
+and every heap arises this way, up to [[isomorphism]], from a group called its *automorphism group* (Prop. \ref{PrinIsEssentiallySurjective} below). 
+
+{#HowToThinkAboutT} The discussion there (eq:BinaryOperationInSecondModel) shows that one may usefully think of this heap operation (eq:HeapOperationInAGroup) as bracketed to the right
+
+$$
+  t(a,b,c) \,=\, a \cdot \big( b^{-1} \cdot c \big)
+$$
+
+and thought of as the action of group elements $a$ on elements of its [[underlying]] [[torsor]], which reduces to the group action on itself (eq:BinaryOperationInFirstModel) once the otherwise arbitrary origin "$b$" of this torsor is (re-)identified with the [[neutral element]].
+
 
 There is also a dual version of this concept, see at *[[quantum heap]]*.
 
@@ -133,10 +144,11 @@ Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [
 
 1. Choosing any [[element]] $\mathrm{e} \in H$, then the [[binary operation]]
 
-   $$
+   \[
+     \label{BinaryOperationInFirstModel}
      a \cdot b \,\coloneqq\, t(a, \mathrm{e} ,b)
      \,.
-   $$
+   \]
 
    constitutes a [[group]] [[structure]] on $H$, with [[neutral element]] $\mathrm{e}$. 
 
@@ -155,12 +167,13 @@ Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [
 
    and take the [[binary operation]] on the group to be given on representatives by
 
-   $$
+   \[
+     \label{BinaryOperationInSecondModel}
      (c,d) \cdot (a,b) 
      \,\coloneqq\, 
      \big( c, t(d,a,b) \big)
      \,.
-   $$ 
+   \] 
 
    This again defines a group $Aut(H)$. 
 
@@ -170,8 +183,15 @@ Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [
 
    * the [[neutral element]] is (the equivalence class of) $(a,a)$ (for any $a$).
 
-3. Finally, $Aut(H)$ is realized also as an actual [[subgroup]] of the [[symmetric group]] on the [[underlying set]] of  $H$, analogously to [[Cayley's theorem]] for groups.  We take the elements of $Aut(H)$ to be set [[bijections]] of the form $t(-,a,b) \colon H \rightarrow H$
-where $a,b \in H$, with [[composition]] as the group's [[binary operation]].  
+3. Finally, $Aut(H)$ is realized also as an actual [[subgroup]] of the [[symmetric group]] on the [[underlying set]] of  $H$, analogously to [[Cayley's theorem]] for groups.  We take the elements of $Aut(H)$ to be set [[bijections]] of the form 
+
+   \[
+      \label{GroupActionInThirdModel}
+      t(-,a,b) \,\colon\, H \rightarrow H
+      \,,
+   \]
+
+    where $a,b \in H$, with [[composition]] as the group's [[binary operation]].  
 
    Notice here that 
 
@@ -220,11 +240,32 @@ Finally, the second constructions is manifestly functorial.
 ### Relation to torsors
  {#HeapsAndTorsors}
 
-Note that $Aut(H)$ comes equipped with a canonical action on $H$ (this is most clear from the third definition).  This action is transitive
-(by $t(a,a,b) = b$) and  free (if $t(a,b,c) = a$ then
-by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,c) = b$ and also $t(b,b,c) = c$).  Therefore, $H$ is an $Aut(H)$-[[torsor]] (over a point).  Conversely, a torsor $H$ over any group $G$ can be made into a heap, by defining $t(a,b,c) = g\cdot c$, where $g\in G$ is the unique group element such that $g\cdot b = a$.
+The automorphism group $Aut(H)$ in (eq:PrinIsEssentiallySurjective) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
 
-In fact, the category $Heap$ is equivalent to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
+This action is 
+
+* [[transitive action|transitive]] 
+
+  by $t(a,a,b) = b$
+
+and
+
+* [[free action|free]]
+
+  since if $t(a,b,c) = a$ then by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,c) = b$ and also $t(b,b,c) = c$.  
+
+Therefore, $H$ is an $Aut(H)$-[[torsor]] (over a point).  
+
+Conversely, any [[torsor]] $H$ over a group $G$ becomes a heap, by defining 
+
+$$
+  t(a,b,c) \,\coloneqq\, g \cdot c
+  \,,
+$$
+
+where $g\in G$ is the unique group element such that $g\cdot b = a$.
+
+In fact, the category $Heap$ is [[equaivalence of categories|equivalent]] to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
 
 
 ## The empty heap {#empty}
