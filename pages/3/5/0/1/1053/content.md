@@ -7,9 +7,9 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
-#### $(0,1)$-Category theory
+#### Type theory
 +-- {: .hide}
-[[!include (0,1)-category theory - contents]]
+[[!include type theory - contents]]
 =--
 #### Monoidal categories
 +-- {: .hide}
@@ -459,6 +459,8 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 * [[bounded linear logic]]
 
+* [[affine logic]]
+
 * [[coherence space]]
 
 * [[game semantics]]
@@ -504,7 +506,9 @@ The original article:
 
 Review:
 
-* [[Frank Pfenning]], *Linear Logic*, lecture notes (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
+* [[Anne Sjerp Troelstra]], *Lectures on Linear Logic*, CSLI Lectures notes **29** (1992) &lbrack;[ISBN:0937073776](https://web.stanford.edu/group/cslipublications/cslipublications/site/0937073776.shtml)&rbrack;
+
+* [[Frank Pfenning]], *Linear Logic*, CSLI Lecture Notes **29** (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
 
 
 * [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ (2006) &lbrack;[pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf)&rbrack;
