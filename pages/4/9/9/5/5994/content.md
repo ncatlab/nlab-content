@@ -220,7 +220,7 @@ One shows that these constructions for each $\mu$ glue together to define
 
 * with a smooth [[section]] $pfaff(D)$.
 
-Moreover, there is canonically a [[hermitean metric]] and a  canonical unitary [[connection on a bundle]] (the [[Freed-Bismut connection]]) on this bundle.
+Moreover, there is canonically a [[Hermitian form|Hermitian metric]]  and a  canonical unitary [[connection on a bundle]] (the [[Freed-Bismut connection]]) on this bundle.
 
 
 
@@ -229,7 +229,9 @@ Moreover, there is canonically a [[hermitean metric]] and a  canonical unitary [
 
 For the [[sigma model]] describing the [[brane|heterotic superstring]] propagating on a [[pseudo-Riemannian manifold]] $X$, the trivialization of the Pfaffian line bundle, hence the cancellation of its fermionic [[quantum anomaly]] is related to the existence of a (twisted) [[differential string structure]] on $X$. See there for more details.
 
-## Related entries
+## Related concepts
+
+* [[Nicolai map]]
 
 * [[path integral]]
 
