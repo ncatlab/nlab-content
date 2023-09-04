@@ -939,11 +939,13 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 * [[supermultiplet]], [[adinkra]]
 
-* [[naturalness]]
+* [[Nicolai map]]
 
 * [[split supersymmetry]]
 
 * [[gauge coupling unification]]
+
+* [[naturalness]]
 
 * [[supergeometry]], [[superalgebra]]
   
