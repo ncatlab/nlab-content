@@ -102,6 +102,11 @@ See also
 
 * Rudolf Scharlau, _Martin Kneser's work on quadratic forms and algebraic groups_, 2007 ([pdf](http://inst-mat.utalca.cl/qfc2007/Talks/scharlau.pdf))
 
+Textbook accounts:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §6 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
 Course notes:
 
 * _On the relation between quadratic and bilinear forms_ ([pdf](http://www.maths.manchester.ac.uk/~khudian/Etudes/Algebra/quadrform2.pdf))
