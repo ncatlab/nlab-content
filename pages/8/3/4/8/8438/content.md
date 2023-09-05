@@ -64,7 +64,7 @@ collecting survey articles on subjects in [[algebraic topology]]/[[homotopy theo
 
 1. Stable operations in generalized cohomology ([[J. M. Boardman]]).
 
-   ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf))
+   [pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]
 
 1. Unstable operations in generalized cohomology ([[J. M. Boardman]], [[David Copeland Johnson|D. C. Johnson]], [[W. S. Wilson]])
 
