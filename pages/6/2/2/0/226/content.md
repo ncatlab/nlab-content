@@ -92,6 +92,10 @@ An early expository account is in §14 of
 
 The literature on vector spaces is now extremely large, including lots of elementary linear algebra textbooks. 
 
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §3 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
+
 Classics include:
 
 * [[Michael Artin]], Algebra
