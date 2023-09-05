@@ -82,7 +82,7 @@ The notion of (commutative) homotopy ring spectra, i.e. ([[commutative monoid|co
 
 Review:
 
-* [[John Michael Boardman]], Sections 3,7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+* [[John Michael Boardman]], Sections 3,7 of: _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 * {#BakerRichter04} [[Andrew Baker]], [[Birgit Richter]] _Structured ring spectra_, London Mathematical Society Lecture Notes Series 315, Springer 2004 ([ISBN:9780521603058](https://www.cambridge.org/de/academic/subjects/mathematics/algebra/structured-ring-spectra?format=PB))
 
