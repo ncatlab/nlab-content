@@ -1,4 +1,5 @@
 
+$\curvearrowright$
 
 Given [[small categories]] $I$ and $K$, for any [[diagram]] 
 
