@@ -43,7 +43,11 @@ Historical precursors:
 
 * [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
 
-Introductory textbooks:
+
+Textbook accounts:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
 
 * Sheldon Axler, *Linear Algebra Done Right*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-11080-6](https://doi.org/10.1007/978-3-319-11080-6)&rbrack;
 
