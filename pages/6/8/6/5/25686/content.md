@@ -51,6 +51,7 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 - [[Peripatetic Seminar on Sheaves and Logic]]
 - [Séminaire Itinérant des Catégories](http://www-lmpa.univ-littoral.fr/SIC/)
+- [[Oberwolfach]]
 
 ## References 
 
