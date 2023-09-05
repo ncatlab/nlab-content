@@ -68,13 +68,13 @@ $$
 
 ## Literature
 
+Related $n$Lab entries include [[Lie theory]], [[Malcev completion]], [[exponential map]]
+
 Here we list mostly references about the classical part of the subject. The references connecting Hausdorff series to [[Drinfeld associator]]s, [[Grothendieck-Teichmueller group]] and [[Kashiwara-Vergne conjecture]] see in the corresponding entries.
 
 * [[N. Bourbaki]], _Lie groups and algebras_, chapter II
 * [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
-* E. B. Dynkin, _Calculation of the coefficents in the Campbell-Hausdorff formula_, Doklady Akad. Nauk SSSR (N.S.) 57, 323-326, (1947).
-
-cf. [[Malcev completion]] 
+* E. B. Dynkin, _Calculation of the coefficents in the Campbell-Hausdorff formula_, Doklady Akad. Nauk SSSR (N.S.) 57, 323-326, (1947) 
 
 * [[Terence Tao]], 254A, Notes 1, _Lie groups, Lie algebras, and the Baker-Campbell-Hausdorff formula_, blog entry
 * V. Kurlin, _Exponential Baker-Campbell-Hausdorff formula_, [http://arxiv.org/abs/math/0606330](http://arxiv.org/abs/math/0606330)
@@ -82,6 +82,7 @@ cf. [[Malcev completion]]
 * [wikipedia](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)
 * Kuo-Tsai Chen, _Integration of paths, geometric invariants and a generalized Baker-Hausdorff formula_, Annals of Mathematics __65__:1 (1957) 163--178 [doi](https://doi.org/10.2307/1969671) [jstor](http://www.jstor.org/stable/1969671) 
 * [[Wilhelm Magnus]], _A connection between the Baker-Hausdorff formula and a problem of Burnside_, Ann. of Math. __52__ (1950) 111-126
+* Federico Zadra et al. _The flow method for the Baker-Campbell-Hausdorff formula: exact results_, J. Phys. A: Math. Theor. __56__ (2023) 385206 [doi](https://doi.org/10.1088/1751-8121/acf102)
 
 category: algebra
 [[!redirects Baker-Campbell-Hausdorff series]]
