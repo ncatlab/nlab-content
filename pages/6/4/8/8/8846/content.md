@@ -28,7 +28,7 @@ Let $R$ be a [[commutative ring]], and let $A$ be an $n \times n$ [[matrix]] wit
 
 +-- {: .proof}
 ###### Proof 
-We may as well take $R$ to be the [[polynomial ring]] $\mathbb{Z}[a_{i j}]_{1 \leq i, j \leq n}$, since we are then free to interpret the indeterminates $a_{i j}$ however we like along a ring map $\mathbb{Z}[a_{i j}] \to R$. Let $A$ denote the corresponding generic matrix. 
+We may as well take $R$ to be the [[polynomial ring]] $\mathbb{Z}[a_{i j}]_{1 \leq i, j \leq n}$, since we are then free to interpret the indeterminates $a_{i j}$ however we like along a ring map $\mathbb{Z}[a_{i j}] \to R$. Let $A = (a_{i j})$ denote the corresponding generic matrix. 
 
 Guided by Cramer's rule (see [[determinant]]), put 
 
@@ -39,6 +39,29 @@ the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{
 Indeed, we can interpret this as a [[polynomial]] equation in $\mathbb{C}[a_{i j}]$ and check it there. As an equation between polynomial functions on the space of matrices $A \in Mat_n(\mathbb{C}) = Spec(\mathbb{C}[a_{i j}])$, it holds on the dense subset $GL_n(\mathbb{C}) \hookrightarrow Mat_n(\mathbb{C})$. Therefore, by continuity, it holds on all of $Mat_n(\mathbb{C})$. But a polynomial function equation with coefficients in $\mathbb{C}$ implies the corresponding polynomial identity, and the proof is complete. 
 =-- 
 
+An alternative proof that avoids appeal to a continuity 
+argument runs as follows: the desired equation holds over $R = \mathbb{Z}[a_{i j}]$ if it holds in a field $k$ in which $R$ embeds. If $V$ is an $n$-dimensional vector space over $k$ and $A\colon V \to V$ is $k$-linear, then the natural transformation 
+
+$$\wedge \colon V \otimes_k \Lambda^{n-1} V \to \Lambda^n V$$ 
+
+gives an exact pairing $V \otimes_k \Lambda^{n-1} V \to k$ which induces an isomorphism $V \cong (\Lambda^{n-1} V)^\ast$, and the adjugate $\widetilde{A}: V \to V$ is defined to be the evident composite 
+
+$$V \cong (\Lambda^{n-1} V)^\ast \stackrel{(\Lambda^{n-1} A)^\ast}{\to} (\Lambda^{n-1} V)^\ast \cong V.$$ 
+
+The equation $\widetilde{A} A = \det A \cdot 1_V$ holds iff the perimeter of the diagram 
+
+\begin{tikzcd}
+V \ar[r, "A"] \ar[dr, swap, "\det A \cdot 1_V"] & V \ar[r, "\sim"] \ar[d, "\widetilde{A}"] & (\Lambda^{n-1} V)^\ast \ar[d, "(\Lambda^{n-1} A)^\ast"] \\ 
+& V \ar[r, "\sim"] & (\Lambda^{n-1} V)^\ast 
+\end{tikzcd} 
+
+commutes, but this is equivalent to commutativity of the naturality square 
+
+\begin{tikzcd} 
+V \otimes_k \Lambda^{n-1} V \ar[r, "\wedge"] \ar[d, swap, "A \otimes_k \Lambda^{n-1} A"] & \Lambda^n V \ar[d, "\det A \cdot 1"] \\ V \otimes_k \Lambda^{n-1} V \ar[r, "\wedge"] & \Lambda^n V
+\end{tikzcd} 
+
+and this completes the proof. 
 
 +-- {: .num_theorem}
 ###### Theorem 
