@@ -128,6 +128,11 @@ and other inner products are recovered by linearity.  (We must then use the axio
 
 * {#Euclid300BC} [[Euclid]], _[[Elements]]_, 300BC 
 
+Textbook accounts:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §7 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
 On the use of the Dedekind real numbers in constructive and predicative constructive mathematics, such as for Euclidean spaces:
 
 * [[Univalent Foundations Project]], [[Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
