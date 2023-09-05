@@ -39,6 +39,8 @@ of the limit projection for $i\in I$ and the colimit injection for $c(i)\in K$. 
 
 More generally, we can allow $K$ to vary with $i$, becoming a functor $K\colon I\to Cat$.  Now instead of $K^I$ we use the limit category $lim_I K$, and the diagram $D$ is defined on the [[Grothendieck construction]] ([[lax colimit]]) $\int^I K$.  We recover the above definition when $K$ is a [[constant functor]].
 
+In the simple example $A \times (B + C) \cong (A \times B) + (A \times C)$ alluded to in the introduction, $I$ is a two-element [[discrete category]], $K(0)$ is the [[terminal category]] and $K(1)$ is again a two-element discrete category. The [[Grothendieck construction]] $\int^I K$ is a three-element discrete category, and the diagram $D\colon \int^I K \to \mathcal{C}$ picks the objects $A$, $B$ and $C$.
+
 If $\mathcal{K}$ is a class of small categories rather than a single one, we say that **$I$-limits distribute over $\mathcal{K}$-colimits** in a category $C$ if the corresponding map is an isomorphism for any $K:I\to Cat$ taking values in $\mathcal{K}$.  For instance, if $\mathcal{K}$ is the class of all [[discrete categories]], we obtain the notion of $I$-limits distributing over coproducts, and so on.  If instead $I$-limits distribute over $K$-colimits for any single $K\in \mathcal{K}$, we may say instead that "$I$-limits distribute over uniform $K$-limits."
 
 +--{: .standout}
