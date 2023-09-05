@@ -78,3 +78,9 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 
 [[!redirects unitary transformation]]
 [[!redirects unitary transformations]]
+
+[[!redirects unitary map]]
+[[!redirects unitary maps]]
+
+[[!redirects unitary linear map]]
+[[!redirects unitary linear maps]]
