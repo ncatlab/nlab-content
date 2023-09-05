@@ -6,4 +6,15 @@ My undergraduate institution was Amherst College, where I studied with [[Michael
 
 If you'd like to contact me for any reason, I can be reached at kaya (dot) arro (at) ucr (dot) edu.
 
+
+
+
+## Selected  writings
+ {#SelectedWritings}
+
+On [[FI-representations]] and their [[representation stability]] in the generality of [[infinity-representations|$\infty$-representations]] in [[stable infinity-categories|stable $\infty$-categories]] and their analysis via [[Goodwillie calculus]]:
+
+* [[Kaya Arro]], *FI-Calculus and Representation Stability* (2023) &lbrack;[doi:](https://arxiv.org/abs/2306.13597)&rbrack;
+
+
 category: people
