@@ -32,9 +32,9 @@ $$
   \;\;\;\;\;\;\;\;\;\;\;\;\;
     \text{means}
   \;\;\;\;\;\;\;\;\;\;\;\;\;
-  \mathcal{D}\big(L(-),\,-\big)
+  \mathcal{D}\bigl(L(-),\,-\bigr)
   \;\simeq\;
-  \mathcal{C}\big(-,\,R(-)\big)
+  \mathcal{C}\bigl(-,\,R(-)\bigr)
   \,.
 $$
 The striking analogy (in fact a kind of [[categorification]]) of this defining relation to the older notion of *[[adjoint operator|adjoint linear operators]]* between [[Hermitian vector spaces]]/[[Hilbert spaces]] $\mathscr{H}_i$ with [[inner products]] $\langle -,-\rangle_i$
@@ -47,13 +47,13 @@ $$
   \;\;\;\;\;\;\;\;\;\;\;
     \text{means}
   \;\;\;\;\;\;\;\;\;\;\;
-  \big\langle
+  \bigl\langle
     L(-),\, -
-  \big\rangle_2
+  \bigr\rangle_2
   \;=\;
-  \big\langle
+  \bigl\langle
     -,\, R(-)
-  \big\rangle_1  
+  \bigr\rangle_1  
 $$ 
 is what gives the notion of adjoint functors its name.
 
