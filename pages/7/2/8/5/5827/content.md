@@ -66,6 +66,9 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 
 * [[John Milnor]], [[Dale Husemöller]], *Symmetric Bilinear Forms*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **73**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-88330-9](https://doi.org/10.1007/978-3-642-88330-9)&rbrack;
 
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §6 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
 [[!redirects bilinear form]]
 [[!redirects bilinear forms]]
 
