@@ -197,7 +197,7 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 ## References
 
-Original reference (including the case of a [[commutative monoid]] in a [[symmetric monoidal category]]):
+Original references (including the case of a [[commutative monoid]] in a [[symmetric monoidal category]]):
 
 * [[Jean Bénabou]], _Algèbre élémentaire dans les catégories_ (1964), C. R. Acad. Sci. Paris **258** (1964) pp.771-774, [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817)
 
@@ -215,9 +215,15 @@ Original reference (including the case of a [[commutative monoid]] in a [[symmet
 
 See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
 
+* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], pp. 15 in: *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
+
+Lecture notes:
+
+* [[Urs Schreiber]]: *[Algebras and Modules](Introduction+to+Stable+homotopy+theory+--+1-2#AlgebrasAndModules)*, in *[[Introduction to Stable Homotopy Theory]]* 1.2: *[[Introduction to Stable homotopy theory -- 1-2|Structured Spectra]]* 
+
 In [[cartesian monoidal categories]]:
 
-* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 and here formalized as [[mathematical structures]] in [[proof assistants]]:
 
