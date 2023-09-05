@@ -83,7 +83,7 @@ A **regular category** is a [[finitely complete category]] with [[pullback]]-[[s
 
 1. every morphism factors as a [[regular epimorphism]] followed  by a [[monomorphism]]
 
-1. these factorizations as preserved under [[pullback]].
+1. these factorizations are preserved under [[pullback]].
 
 \end{proposition}
 (eg. [Gran 2020, Thm. 1.14](#Gran20), cf. also [MO:a/252842](https://mathoverflow.net/a/252842/381))
