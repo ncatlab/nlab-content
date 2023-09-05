@@ -215,7 +215,8 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
 
 * {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([euclid:ijm/1255644953](http://projecteuclid.org/euclid.ijm/1255644953))
 
-* {#Robinson87} Alan Robinson, _The extraordinary derived category_, Math. Z. 196 (2) (1987) 231&#8211;238.
+* {#Robinson87} [[Alan Robinson]], *The extraordinary derived category*, Math. Z. **196** 2 (1987) 231-238 &lbrack;[doi:10.1007/BF01163657](https://doi.org/10.1007/BF01163657)&rbrack;
+
  
 * {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf), <a href="https://doi.org/10.1016/S0040-9383(02)00006-X">doi:10.1016/S0040-9383(02)00006-X</a>)
 
