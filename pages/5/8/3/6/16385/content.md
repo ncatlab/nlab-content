@@ -325,7 +325,7 @@ Write
     Mod_{\mathbb{R}}
   \big)
 \]
-for the category of [[real vector spaces]] equipped with a [[linear map|linear]] [[involution]] (equivalently the [[functor category]] form the [[delooping groupoid]] of the [[cyclic group of order two]] to the category [[Vect|$Mod_{\mathbb{R}}$]] of [[real vector spaces]]).
+for the category of [[real vector spaces]] equipped with a [[linear map|linear]] [[involution]] (equivalently the [[functor category]] from the [[delooping groupoid]] of the [[cyclic group of order two]] to the category [[Vect|$Mod_{\mathbb{R}}$]] of [[real vector spaces]]).
 
 This becomes a [[monoidal category]] whose modoidal stucture $\otimes$ is the [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[vector spaces]] equipped with the tensor product of their involutions.
 \end{definition}
