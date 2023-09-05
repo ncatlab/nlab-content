@@ -22,7 +22,7 @@ See also _[[determinant]]_.
 +-- {: .num_lemma}
 ###### Lemma 
 
-Let $R$ be a [[commutative ring]], and let $A$ be an $n \times n$ [[matrix]] with entries in $R$. Then there exists an $n \times n$ matrix $\tilde{A}$ with entries in $R$ such that $A \tilde{A} = \tilde{A} A = \det(A) \cdot I_n$. 
+Let $R$ be a [[commutative ring]], and let $A$ be an $n \times n$ [[matrix]] with entries in $R$. Then there exists an $n \times n$ matrix $\tilde{A}$ with entries in $R$, called the **adjugate** of $A$, such that $A \tilde{A} = \tilde{A} A = \det(A) \cdot I_n$. 
 
 =-- 
 
@@ -40,7 +40,7 @@ Indeed, we can interpret this as a [[polynomial]] equation in $\mathbb{C}[a_{i j
 =-- 
 
 An alternative proof that avoids appeal to a continuity 
-argument runs as follows: the desired equation holds over $R = \mathbb{Z}[a_{i j}]$ if it holds in a field $k$ in which $R$ embeds. If $V$ is an $n$-dimensional vector space over $k$ and $A\colon V \to V$ is $k$-linear, then the natural transformation 
+argument may be given in terms of [[exterior algebra]]. Start by observing that the equation $\widetilde{A} A = 1$ holds over $R = \mathbb{Z}[a_{i j}]$ if it holds over a field $k$ in which $R$ embeds. If $V$ is an $n$-dimensional vector space over $k$ and $A\colon V \to V$ is $k$-linear, then the natural transformation 
 
 $$\wedge \colon V \otimes_k \Lambda^{n-1} V \to \Lambda^n V$$ 
 
@@ -58,7 +58,7 @@ V \ar[r, "A"] \ar[dr, swap, "\det A \cdot 1_V"] & V \ar[r, "\sim"] \ar[d, "\wide
 commutes, but this is equivalent to commutativity of the naturality square 
 
 \begin{tikzcd} 
-V \otimes_k \Lambda^{n-1} V \ar[r, "\wedge"] \ar[d, swap, "A \otimes_k \Lambda^{n-1} A"] & \Lambda^n V \ar[d, "\det A \cdot 1"] \\ V \otimes_k \Lambda^{n-1} V \ar[r, "\wedge"] & \Lambda^n V
+V \otimes_k \Lambda^{n-1} V \ar[r, "\wedge"] \ar[d, swap, "A \otimes_k \Lambda^{n-1} A"] & \Lambda^n V \ar[d, "\det A \cdot Id"] \\ V \otimes_k \Lambda^{n-1} V \ar[r, "\wedge"] & \Lambda^n V
 \end{tikzcd} 
 
 and this completes the proof. 
