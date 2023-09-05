@@ -17,18 +17,42 @@
  {#Idea}
 
 In elementary algebra (or more generally in a [[ring]]), [[multiplication]] distributes over [[addition]], meaning that
-$$ a\cdot (b+c) = (a\cdot b) + (a\cdot c)$$
-and dually.  Since multiplication and addition are a [[decategorification]] of [[products]] and [[coproducts]] in a category, we can categorify this relationship to say what it means for products to distribute over coproducts in any category.  More generally, we can talk about arbitrary [[limits]] distributing over [[colimits]].  Note that this is *not* the same as limits [[commutativity of limits and colimits|commuting]] with colimits, although in some cases they are related (see at *[[permuting limits and colimits]]* for more).
+
+$$ 
+  a \cdot (b + c) 
+  \;=\; 
+  (a\cdot b) + (a\cdot c)
+$$
+and dually.  Since multiplication and addition are a [[decategorifications]] of [[products]] and [[coproducts]] in [[category theory]], it is suggestive to ask for products to distribute over coproducts in any category. 
+
+More generally, one may consider arbitrary [[limits]] distributing over [[colimits]].  Note that this is *not* the same notion as limits *[[commutativity of limits and colimits|commuting]]* with colimits, although in some cases they are related (see at *[[permuting limits and colimits]]* for more).
 
 ## Definitions
 
 ### Explicitly using limits and colimits
 
-Given [[small categories]] $I$ and $K$, for any [[diagram]] $D\colon I\times K\to C$ in a [[category]] $C$ that admits all necessary [[limits]] and [[colimits]] we have a [[morphism]]
-$$f\colon colim_K lim_I D \to lim_I colim_K D$$
-induced using the universal property of $colim_K$ and $lim_I$ by the family of composites
-$$ lim_I D(-,k) \to D(i,k) \to colim_K D(i,-) $$
-of the limit projection for $i\in I$ and the colimit injection for $k\in K$.
+Given [[small categories]] $I$ and $K$, for any [[diagram]] 
+$$
+  D \,\colon\, I \times K \longrightarrow C
+$$ 
+in a [[category]] $C$ that admits all necessary [[limits]] and [[colimits]] we have a [[morphism]]
+$$
+  f 
+    \,\colon\, 
+  colim_K lim_I D 
+   \longrightarrow 
+  lim_I colim_K D
+$$
+induced using the [[universal property]] of $colim_K$ and $lim_I$ by the family of composites
+$$ 
+  lim_I D(-,k) 
+   \longrightarrow 
+  D(i,k) 
+   \longrightarrow 
+  colim_K D(i,-) 
+$$
+of the limit [[projection]] for $i\in I$ and the colimit [[coprojection|injection]] for $k\in K$.
+
 Recall that $I$-[[limits]] are said to [[commutativity of limits and colimits|commute]] with $K$-[[colimits]] if and only if $f$ is an [[isomorphism]] for all $D$.
 
 Now we note that $f$ factors as a [[composition]]
@@ -39,13 +63,28 @@ of the limit projection for $i\in I$ and the colimit injection for $c(i)\in K$. 
 
 More generally, we can allow $K$ to vary with $i$, becoming a functor $K\colon I\to Cat$.  Now instead of $K^I$ we use the limit category $lim_I K$, and the diagram $D$ is defined on the [[Grothendieck construction]] ([[lax colimit]]) $\int^I K$.  We recover the above definition when $K$ is a [[constant functor]].
 
-In the simple example $A \times (B + C) \cong (A \times B) + (A \times C)$ alluded to in the introduction, $I$ is a two-element [[discrete category]], $K(0)$ is the [[terminal category]] and $K(1)$ is again a two-element discrete category. The [[Grothendieck construction]] $\int^I K$ is a three-element discrete category, and the diagram $D\colon \int^I K \to \mathcal{C}$ picks the objects $A$, $B$ and $C$.
+\begin{example}
+\label{DistributivityOfProductsOverSums}
+In the simple example $A \times (B + C) \cong (A \times B) + (A \times C)$ alluded to in the introduction, 
 
-If $\mathcal{K}$ is a class of small categories rather than a single one, we say that **$I$-limits distribute over $\mathcal{K}$-colimits** in a category $C$ if the corresponding map is an isomorphism for any $K:I\to Cat$ taking values in $\mathcal{K}$.  For instance, if $\mathcal{K}$ is the class of all [[discrete categories]], we obtain the notion of $I$-limits distributing over coproducts, and so on.  If instead $I$-limits distribute over $K$-colimits for any single $K\in \mathcal{K}$, we may say instead that "$I$-limits distribute over uniform $K$-limits."
+* $I$ is a two-element [[discrete category]], 
+
+* $K(0)$ is the [[terminal category]] 
+
+* $K(1)$ is again a two-element discrete category. 
+
+The [[Grothendieck construction]] $\int^I K$ is a three-element discrete category, and the diagram $D \colon \int^I K \to \mathcal{C}$ picks the objects $A$, $B$ and $C$.
+\end{example}
+
+If $\mathcal{K}$ is a class of small categories rather than a single one, we say that **$I$-limits distribute over $\mathcal{K}$-colimits** in a category $C$ if the corresponding map is an isomorphism for any $K \,\colon\, I\to Cat$ taking values in $\mathcal{K}$.  
+For instance, if $\mathcal{K}$ is the class of all [[discrete categories]], we obtain the notion of $I$-limits distributing over coproducts, and so on.  
+
+If instead $I$-limits distribute over $K$-colimits for any single $K\in \mathcal{K}$, we may say instead that "$I$-limits distribute over uniform $K$-limits."
 
 +--{: .standout}
-I don't know whether distributivity over uniform colimits is actually any weaker, but if it is, then the non-uniform version seems more correct.
+The author of the previous paragraph doesn't know whether distributivity over uniform colimits is actually any weaker, but if it is, then the non-uniform version seems more correct.
 =--
+
 
 ### For Kan extensions
 
