@@ -65,6 +65,14 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[piecewise linear function]]
 
+## References
+
+Textbook accounts:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §4 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
+
 [[!redirects linear map]]
 [[!redirects linear maps]]
 [[!redirects linear mapping]]
