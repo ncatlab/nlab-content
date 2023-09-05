@@ -77,7 +77,7 @@ such that
 
 =--
 
-([Hovey-Shipley-Smith 00, def. 1.2.1](HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
+([Hovey-Shipley-Smith 00, def. 1.2.1](#HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
 
 ### As $\mathbb{S}_{Sym}$-modules
  {#AsSModules}
@@ -191,7 +191,7 @@ Technically, the issue comes down to the fact that the [[quotients]] of [[symmet
 
 The orginal article is
 
-* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
 
 A comprehensive textbook account is in 
 
