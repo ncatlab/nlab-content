@@ -772,7 +772,7 @@ $$
   \,.
 $$
 
-To apply an analogous argument for ${B'}^{hor}$, we combine this kind of identification with the [[zigzag]] of intramural maps along the diagonal
+To apply an analogous argument for ${B'}^{hor}$, we combine this kind of identification with the [[zigzag]] of extramural maps along the diagonal
 
 $$
   \array{
@@ -852,7 +852,7 @@ We can extend the middle and right columns by adding the cokernel of $B \to B''$
 
 Exactness in $A'$ and $B'$ is as in prop. \ref{ShortSharp3x3}.
 For exactness in $C'$ we now use the long [[zigzag]] of 
-intramural isomorphisms, cor \ref{ExtramuralIso}. 
+extramural isomorphisms, cor \ref{ExtramuralIso}. 
 
 $$
   \array{  
@@ -932,7 +932,7 @@ This appears as ([Bergman, lemma 2.6](#Bergman)).
 ###### Proof
 
 The proof proceeds in direct generalization of the proofs of the 
-3x3 lemma [above](#3x3Lemmas): the isomorphism for each $k$ is given by the composite of two extramural isomorphism that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
+3x3 lemma [above](#3x3Lemmas): the isomorphism for each $k$ is given by the composite of two extramural isomorphisms that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
 
 =--
 
@@ -1051,7 +1051,7 @@ $$
   (B'/im(f))^{hor} \simeq {}^{\Box}(B'/im(f))
 $$
 
-and then the long sequence of zigzags of extramural ismoporphisms identifies this with the $0_\Box \simeq 0$ in the top right corner.
+and then the long sequence of zigzags of extramural isomorphisms identifies this with the $0_\Box \simeq 0$ in the top right corner.
 
 =--
 
