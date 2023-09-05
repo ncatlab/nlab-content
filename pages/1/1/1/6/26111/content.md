@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A generalization of [[Cayley's theorem]] to [[inverse semigroup]]s. The same idea, when sets have additional local structure, is responsible for the appearance of [[pseudogroup]]s of symmetries in geometry.
+The Wagner-Preston theorem is a generalization of [[Cayley's theorem]] to [[inverse semigroups]]. The same idea, when sets have additional local structure, is responsible for the appearance of [[pseudogroup]]s of symmetries in geometry.
 
 ## Statement
 
