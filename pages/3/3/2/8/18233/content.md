@@ -137,7 +137,7 @@ These and more examples are discussed in [Benabou](#Benabou).
 
 The correspondence between categories over $C$ and [[normal lax functors]] $C\to Prof$ was observed by [[Jean Benabou|B&#233;nabou]] already in 1972:
 
-* [[Jean Benabou|Jean B&#233;nabou]], *2-dimensional limits and colimits of distributors (or how to glue together categories)*, Oberwolfach 'Tagungsbericht', 1972, [(web)](https://oda.mfo.de/handle/mfo/1575)
+* [[Jean Benabou|Jean B&#233;nabou]], *2-dimensional limits and colimits of distributors (or how to glue together categories)*, [[Oberwolfach]] 'Tagungsbericht', 1972, [(web)](https://oda.mfo.de/handle/mfo/1575)
 
 A more detailed account of Benabou's work on this topic can be found at:
 
