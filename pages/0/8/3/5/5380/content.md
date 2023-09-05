@@ -558,7 +558,12 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 
 * {#Mobius27} [[August Ferdinand Möbius]], _Der barycentrische Calc&#252;l_ (1827)
 
-An introduction to projective spaces over the theory of ordinary commutative rings is in
+Textbook account:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §9 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
+See also:
 
 * Miles Reid, _Graded rings and varieties in weighted projective space_ ([pdf](http://www.warwick.ac.uk/~masda/surf/more/grad.pdf))
 
