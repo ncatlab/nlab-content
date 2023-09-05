@@ -61,5 +61,13 @@ Operations on/with matrices: [[transpose matrix]], [[adjoint matrix]]  [[trace]]
 
 Determinants and [[determinant]] like notions, and special cases: [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]], [[resultant]], [[discriminant]]
 
+## References
+
+Textbook accounts:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §2 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
+
 [[!redirects matrix]]
 [[!redirects matrices]]
