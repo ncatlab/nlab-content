@@ -821,10 +821,9 @@ The universal coefficient theorem in [[symmetric smash product of spectra|symmet
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 8 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 
-Universal coefficient theorems for [[generalized homology]] are discussed in 
+Universal coefficient theorems for [[generalized homology]] are discussed in:
 
-* [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_ Quaestiones Mathematicae
-Volume 9, Issue 1 & 4, 1986, Pages 29 - 54 
+* [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_ Quaestiones Mathematicae **9** 1, 4 (1986) 29-54 
 
 More on the universal coefficient theorem in generalized homology is in:
 
@@ -834,7 +833,8 @@ More on the universal coefficient theorem in generalized homology is in:
 
 * {: #Ati62 }  **Ati62** [[Michael Atiyah|M. F. Atiyah]]. Vector bundles and the K&#252;nneth formula. Topology, 1:245--248, 1962.
 
-* {: #Boa95} **Boa95** [[J. M. Boardman]],  (1995). Stable operations in generalized cohomology. (pp. 585&ndash;686). Amsterdam: North-Holland.
+* {: #Boa95} **Boa95** [[J. M. Boardman]],  _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
 
 * {: BJW95} **BJW95** [[J. M. Boardman]], and Johnson, David Copeland and Wilson, W. Stephen. (1995). Unstable operations in generalized cohomology. (pp. 687&ndash;828). Amsterdam: North-Holland.
 
