@@ -53,6 +53,9 @@
 
 * {#Ratcliffe06} [[John Ratcliffe]], _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
 
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §12 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
 * Brice Loustau, _Hyperbolic geometry_ ([arXiv:2003.11180](https://arxiv.org/abs/2003.11180))
 
 See also
