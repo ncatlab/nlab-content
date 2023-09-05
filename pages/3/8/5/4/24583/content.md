@@ -1,3 +1,6 @@
+
+* [personal page](https://jozefg.github.io/)
+
 ## Selected works
 
 On [[categorical models of dependent types]] via [[locally Cartesian closed categories]]:
@@ -8,6 +11,10 @@ On [[modal type theory]]:
 
 * [[Daniel Gratzer]], [[G. Alex Kavvos]], [[Andreas Nuyts]], [[Lars Birkedal]]: _Multimodal Dependent Type Theory_, Logical Methods in Computer Science **17** 3 (2021) lmcs:7713 &lbrack;[arXiv:2011.15021](https://arxiv.org/abs/2011.15021), <a href="https://doi.org/10.46298/lmcs-17(3:11)2021">doi:10.46298/lmcs-17(3:11)2021</a>&rbrack;
 
+* Daniel Gratzer, _Implementing Modal Dependent Type Theory_, talk at [ICFP 19](https://icfp19.sigplan.org/) ([slides pdf](https://jozefg.github.io/papers/2019-icfp-modal-slides.pdf))
+
+* [[Daniel Gratzer]], *Syntax and semantics of modal type theory*, PhD Aarhus (2023) &lbrack;[pdf](https://jozefg.github.io/papers/phd-thesis.pdf)&rbrack;
+
 
 On [[XTT]]:
 
@@ -16,3 +23,4 @@ On [[XTT]]:
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
 category: people
+
