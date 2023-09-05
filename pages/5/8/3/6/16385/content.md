@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -270,8 +269,8 @@ $$
 =--
 
 
-### As $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-modules
- {#AsEquivariantModules}
+### As Real complex modules
+ {#AsRealComplexModules}
 
 While a non-degenerate [[inner product]] $(-\vert-)$ on a [[finite-dimensional vector space|finite-dimensional]] [[real vector space]] $V$ is equivalently a [[linear isomorphism]] to its [[dual vector space]]
 
@@ -289,7 +288,8 @@ $$
 
 the analogous statement for  Hermitian complex inner products $\langle - \vert - \rangle$ fails, since the corresponding maps
 
-$$
+\[
+  \label{AntiLinearIsomorphismWithDualVectorSpace}
   \array{
     H
       &\overset{\sim}{\longrightarrow}& 
@@ -303,26 +303,251 @@ $$
     &\mapsto& 
     \vert \psi \rangle    
   }
-$$
+\]
 
 are now complex *[[anti-linear map|anti-linear]]* and hence not [[morphisms]] in the [[category]] of [[complex vector spaces]].
 
 (What one does get is a complex-linear isomorphism to the anti-dual space.)
 
-Another way to regard this situation is to observe that complex anti-linear involutions $H \leftrightarrow H^\ast$ on non-degenerate Hermitian spaces $H$ are equivalently $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-[[module object|module]] structures on the [[direct sum]] $H \oplus H^\ast$, regarded in the [[topos]] of [[G-sets|$\mathbb{Z}/2$-sets]], for $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$ the [[ring object]] given by the [[complex numbers]] equipped with their involution by [[complex conjugation]]:
+But one may absorb this anti-linearity into an ambient category so that Hermitian/unitary structure regarded *[[internalization|internally]]* to that category looks just like Euclidean/orthogonal structure. Since this uses basic structures known from Atiyah's *[[Real K-theory]]* --- with capital "R", [[KR-theory]] --- it is suggestive and convenient to refer to "Real" structures, as follows:
+
+\begin{definition}
+Write 
+\[
+  \label{CategoryOfRealvectorBundlesWithInvolution}
+  Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}_2}
+  \;\;\;
+    \coloneqq
+  \;\;\;
+  Func\big(
+    \mathbf{B}\mathbb{Z}_2
+    ,\,
+    Mod_{\mathbb{R}}
+  \big)
+\]
+for the category of [[real vector spaces]] equipped with a [[linear map|linear]] [[involution]] (equivalently the [[functor category]] form the [[delooping groupoid]] of the [[cyclic group of order two]] to the category [[Vect|$Mod_{\mathbb{R}}$]] of [[real vector spaces]]).
+
+This becomes a [[monoidal category]] whose modoidal stucture $\otimes$ is the [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[vector spaces]] equipped with the tensor product of their involutions.
+\end{definition}
+\begin{example}
+**(Real complex numbers)**
+  The [[complex numbers]] regarded as a [[real vector space]] equipped with its real-linear involution given by [[complex conjugation]] is an object of (eq:CategoryOfRealvectorBundlesWithInvolution). Moreover, since complex-conjugation is actually an [[algebra homomorphism]] on the complex numbers, the usual product operation makes this a [[monoid object]] [[internalization|internal]] to (eq:CategoryOfRealvectorBundlesWithInvolution), which we will refer to as the *Real complex numbers*:
+
+\[
+  \label{RealComplexNumbersObject}
+  \mathbb{Z}_2
+  \curvearrowright
+  \mathbb{C}
+  \;\in\;
+  Mon\big(
+    Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}_2}    
+  \big)
+  \,.
+\]
+
+\end{example}
+
+\begin{definition}
+ **(Real complex modules)**
+\label{CategoryOfRealComplexModules}
+ We say that the [[category of modules|category of]] [[module objects]] over the Real complex numbers (eq:RealComplexNumbersObject) [[internalization|internal]] to (eq:CategoryOfRealvectorBundlesWithInvolution) is the category of *Real complex modules*:
+$$
+  Mod_{
+    \mathbb{Z}_2 \curvearrowright \mathbb{C}  
+  }
+  \;\;\;\;
+    \equiv
+  \;\;\;\;
+  Mod_{
+    \mathbb{Z}_2 \curvearrowright \mathbb{C}
+  }
+  \big(
+    Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}_2}
+  \big)
+  \,.
+$$
+\end{definition}
+\begin{lemma}
+\label{AntilinearInvolutionFromRealComplexModules}
+  The category of Real complex modules (Def. \ref{CategoryOfRealComplexModules}) is [[equivalence of categories|equivalent]], as a [[symmetric monoidal category]], to the category of [[complex vector spaces]] equipped with *[[anti-linear map|anti-linear]]* [[involutions]]:
+$$
+  Mod_{
+    \mathbb{Z}_2 \curvearrowright \mathbb{C}  
+  }
+  \;\;
+  \simeq
+  \;\;
+  \big(
+    V \,\colon\, Mod_{\mathbb{C}}
+  \big)
+  \times
+  \big(
+    \sigma 
+    \,\colon\,
+    V 
+    \xrightarrow{
+      \mathbb{C} antilinear 
+    }
+    V
+  \big)
+$$
+\end{lemma}
+\begin{proof}
+By direct unwinding of the definitions, one finds that the module property enforces the anti-linearity of the involution:
+
+\begin{imagefromfile}
+    "file_name": "AntilinInvViaRealComplexModules-230905.jpg",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+Moreover, to see that the [[tensor products]] agree one can argue that the relevant [[coequalizers]] in $Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}}$ are [[colimits]] in a [[category of presheaves]] which [[limits of presheaves are computed objectwise|are computed objectwise]] --- hence here over the single object of $\mathbf{B}\mathbb{Z}_2$, where they agree with the usual [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[complex vector spaces]]. 
+\end{proof}
+
+\begin{example}\label{HermtianSpacesAsRealComplexModules}
+**(Complex Hermitian spaces as Euclidean Real complex modules)**
+\linebreak
+
+For $H, \langle-\vert-\rangle_H$ a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space|complex]] [[Hermitian form|Hermitian]] [[inner product space]] (assumed non-degenerate), its [[direct sum]] with its [[linear dual space]] carries the [[anti-linear map|anti-linear]] [[involution]] induced
+(eq:AntiLinearIsomorphismWithDualVectorSpace) by the Hermitian form:
+
+\begin{imagefromfile}
+    "file_name": "HermitianSpaceAsRealComplexModule-230905.jpg",
+    "width": 270,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Therefore the Hermitian space $H$ induces a Real complex module by Lem. \ref{AntilinearInvolutionFromRealComplexModules}, which we denote by the corresponding script symbol:
+$$
+  \mathscr{H}
+  \;\coloneqq\;
+  \mathbb{Z}_2 \curvearrowright 
+  \big(
+    H  \oplus H^\ast
+  \big)
+  \;\;
+  \in
+  \;\;
+  Mod_{
+   \mathbb{Z}_2 \curvearrowright \mathbb{C}
+   \,.
+  }
+$$
+
+Notice that the Real complex modules $\mathscr{H}$ arising this way have special properties:
+
+1. $\mathscr{H}$ is a [[self-dual object]], via the following ([[coevaluation map|co]]-)[[evaluation maps]]
+
+\begin{imagefromfile}
+    "file_name": "SelfDualStructureOnRealComplexModule-230905.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+1. $\mathscr{H}$ carries an [[internalization|internal]] [[complex structure]], namely an [[automorphism]] (now of Real complex modules!) which squares to minus the [[identity morphism]]:
+
+\begin{imagefromfile}
+    "file_name": "ComplexStructureOnRealComplexModule-230905.jpg",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Due to this complex and [[self-dual object|self-dual]] structure we may think of $\mathscr{H}$ as being a *[[Euclidean space|Euclidean]]* (instead of Hermitian) complex linear space but now *[[internalization|internal to]]* Real complex modules.
+\end{example}
+
+\begin{proposition}
+  Given a [[pair]] of ([[finite-dimensional vector space|finite-dimensional]], non-degenerate) complex Hermitian spaces $H, \langle-\vert-\rangle_H$ and $K, \langle-\vert-\rangle_K$, there the complex [[linear maps]] between them are in bijection to the [[homomorphisms]] between the corresponding Real complex modules according to Exp. \ref{HermtianSpacesAsRealComplexModules}, as follows:
+
+1. the ordinary $\mathrm{i}$-complex linear maps $H \to K$ correspond to the $\mathrm{i}\beta$-complex homomorphism $\mathscr{H} \to \mathscr{K}$
+
+1. the ordinary [[unitary maps]] $H \to K$ correspond to the [[orthogonal maps]] $\mathscr{H} \to \mathscr{K}$ (namely those which respect the [[evaluation maps]] on these [[self-dual objects]]).
+
+\end{proposition}
+\begin{proof}
+  This follows by straightforward unwinding of the definitions:
+
+First, for a homomorphism $\mathscr{H} \to \mathscr{K}$ to commute with $\mathrm{i}\beta$ its [[underlying]] complex linear map clearly needs to respect the [[direct sum]], structure $H \oplus H^\ast \to K \oplus K^\ast$, hence it needs to come from complex linear map $g \,\colon\,H \to K$. But then the respect for the complex involution uniquely fixes the action $H^\ast \to K^\ast$. Interestingly, it fixes them to be given by the linear dual of the [[adjoint operator|operator adjoint]] $g^\dagger$:
+
+
+\begin{imagefromfile}
+    "file_name": "ComplexLinMapsAsRealComplexHoms-230905.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+Second: A unitary map is a complex linear map that preserves the Hermitian form. But with the first point above one sees that this is equivalent to preserving the evaluation map on the corresponding Real complex modules:
+
+\begin{imagefromfile}
+    "file_name": "UnitaryCLinMapIsOrthRealComplexMap-230905.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\end{proof}
+
+In **summary**: After [[internalization]] as Real complex modules, complex Hermitian/unitary space look like complex Euclidean/orthogonal spaces: 
+
+\begin{imagefromfile}
+    "file_name": "HermitianSpAsEuclidRealComplexMods-230905.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak
 
 <center>
 <img src="/nlab/files/HermitianSpacesAsEquivariantModules-230901.jpg" width="780">
 </center>
 
+\linebreak
 
-{#HermitianOperatorsAsZTwoActsCModules} Notice that these $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-modules arising from (non-degenerate, finite-dimensional) Hermitian vector spaces this way happen to carry also a [[complex structure]], hence a compatible module-structure by the actual [[complex numbers]] (i.e. equipped with the trivial [[involution]]), given by $\mathrm{i}$. 
-
-Using this, one may identify:
-
-1. the space of [[linear operators]] on a Hermitian vector space as the [[equalizer]] of this imaginary rotation on the [[tensor product|tensor square]] of the $(\mathbb{Z}/2 \curvearrowright \mathbb{C})$-module with the [[braided monoidal category|braiding]] and the [[identity morphism|identity]],
-
-1. among these that of [[hermitian operators]] as the further [[fixed locus]] of the involution action:
+Furthermore, one may also internally characterize the [[Hermitian operators]] on some Hermtian space $H$ inside the tensor product $\mathscr{H} \otimes \mathscr{H}$ of the corresponding Real complex module with itself (...):
 
 <center>
 <img src="/nlab/files/HermitianOperatorsAsEquivariantModules-230901.jpg" width="900">
