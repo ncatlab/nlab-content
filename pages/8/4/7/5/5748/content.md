@@ -28,14 +28,44 @@
 
 ## Definition
 
-+-- {: .num_defn #LinearComplexStructure}
-###### Definition
+### Complex structure on vector spaces
 
-A _(linear) complex structure_ on a [[vector space]] $V$ is an [[automorphism]] $J : V \to V$ that squares to minus the [[identity]]: $J \circ J = - Id$.
+\begin{definition}
+\label{LinearComplexStructure}
+Given a [[ground field]] $\mathbb{K}$,
+_complex structure_ on a $\mathbb{K}$[[vector space]] $V$ is a $\mathbb{K}$-[[linear map]] [[automorphism]] 
+$$
+  J 
+    \,\colon\, 
+  V \longrightarrow V
+$$ 
+that squares to minus the [[identity morphism|identity]]: 
+$$
+  J \circ J = - Id_V
+  \,.
+$$
+\end{definition}
 
-=--
+The idea here is that $J$ acts by multiplication with the would-be [[imaginary unit]] $\mathrm{i}$, and indeed: A [[real vector space]] ($\mathbb{K}$ the [[real numbers]]) equipped with a complex structure $J$ as in Def. \ref{LinearComplexStructure} becomes a [[complex vector space]] by declaring that $\mathrm{i}$ acts via $J$:
+$$
+  \array{
+    \mathbb{C} \times V &\longrightarrow& V
+    \\
+    \big(
+      x + \mathrm{i} \cdot y
+      ,\;
+      v
+    \big)
+    &\mapsto&  
+    x \cdot v + y \cdot J(v)
+  }
+$$
 
-More generally, an almost complex structure on a [[smooth manifold]] is a smoothly varying [[fiber]]wise complex structure on its [[tangent spaces]]:
+
+
+### Complex structure on manifolds
+
+More generally, an almost complex structure on a [[smooth manifold]] is a smoothly varying [[fiber]]wise complex structure in the sense of Def. \ref{LinearComplexStructure} on on its [[tangent spaces]] (which a priori are [[real vector spaces]]):
 
 +-- {: .num_defn}
 ###### Definition
