@@ -127,7 +127,7 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 ### General but traditional diff geometry
 
-* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
+* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprinted by Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
 
