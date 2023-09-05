@@ -408,7 +408,7 @@ By direct unwinding of the definitions, one finds that the module property enfor
 \end{imagefromfile}
 
 
-Moreover, to see that the [[tensor products]] agree one can argue that the relevant [[coequalizers]] in $Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}}$ are [[colimits]] in a [[category of presheaves]] which [[limits of presheaves are computed objectwise|are computed objectwise]] --- hence here over the single object of $\mathbf{B}\mathbb{Z}_2$, where they agree with the usual [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[complex vector spaces]]. 
+Moreover, to see that the [[tensor products]] agree one can argue that the relevant [[coequalizers]] (see [here](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfModulesOverCommutativeMonoidObject)) in $Mod_{\mathbb{R}}^{\mathbf{B}\mathbb{Z}}$ are [[colimits]] in a [[category of presheaves]] which [[limits of presheaves are computed objectwise|are computed objectwise]] --- hence here over the single object of $\mathbf{B}\mathbb{Z}_2$, where they agree with the usual [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[complex vector spaces]]. 
 \end{proof}
 
 \begin{example}\label{HermtianSpacesAsRealComplexModules}
