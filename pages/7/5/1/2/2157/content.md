@@ -233,6 +233,13 @@ Therefore there are attempts to axiomatize properties of categories of affine sp
 
 ## References
 
+Textbook accounts:
+
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §8 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
+See also:
+
 * [[Aurelio Carboni]], _Categories of Affine Spaces_ , JPAA **61** (1989) pp.243-250.
 
 * [[Aurelio Carboni]], [[George Janelidze]], _Modularity and Descent_ , JPAA **99** (1995) pp.255-265.
