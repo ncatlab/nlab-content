@@ -87,3 +87,10 @@ If however $f$ is a _surjective_ isometry between normed vector spaces, then $f$
 
 [[!redirects isometric isomorphism]]
 [[!redirects isometric isomorphisms]]
+
+[[!redirects orthogonal map]]
+[[!redirects orthogonal maps]]
+
+[[!redirects orthogonal linear map]]
+[[!redirects orthogonal linear maps]]
+
