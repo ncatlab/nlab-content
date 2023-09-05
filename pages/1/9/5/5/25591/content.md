@@ -57,7 +57,7 @@ Further discussion in relation to [[representation stability]]:
 
 Discussion of [[FI-representations]] in the generality of [[infinity-representations|$\infty$-representations]] in [[stable infinity-categories|stable $\infty$-categories]] and their analysis via [[Goodwillie calculus]]:
 
-* [[Kaya Arro]], *FI-Calculus and Representation Stability* (2023) &lbrack;[pdf](https://kayaarro.site/pdf/FI-calculus.pdf)&rbrack;
+* [[Kaya Arro]], *FI-Calculus and Representation Stability* (2023) &lbrack;[doi:](https://arxiv.org/abs/2306.13597)&rbrack;
 
 [[!redirects FI-representations]]
 
