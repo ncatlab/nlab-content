@@ -29,11 +29,12 @@
 ## Definition
 
 ### Complex structure on vector spaces
+ {#ComplexStructureOnAVectorSpace}
 
 \begin{definition}
 \label{LinearComplexStructure}
 Given a [[ground field]] $\mathbb{K}$,
-_complex structure_ on a $\mathbb{K}$[[vector space]] $V$ is a $\mathbb{K}$-[[linear map]] [[automorphism]] 
+a _complex structure_ on a $\mathbb{K}$-[[vector space]] $V$ is a $\mathbb{K}$-[[linear map|linear]] [[automorphism]] 
 $$
   J 
     \,\colon\, 
@@ -61,11 +62,17 @@ $$
   }
 $$
 
+Here a real-[[linear map]] $\phi \colon V \to V$ is complex-linear iff it commutes with the complex structure in that:
+$$
+  \phi \circ J \,=\, J \circ \phi
+  \,.
+$$
+
 
 
 ### Complex structure on manifolds
 
-More generally, an almost complex structure on a [[smooth manifold]] is a smoothly varying [[fiber]]wise complex structure in the sense of Def. \ref{LinearComplexStructure} on on its [[tangent spaces]] (which a priori are [[real vector spaces]]):
+More generally, an almost complex structure on a [[smooth manifold]] is a smoothly varying [[fiber]]wise complex structure in the sense of Def. \ref{LinearComplexStructure} on its [[tangent spaces]] (which *a priori* are [[real vector spaces]]):
 
 +-- {: .num_defn}
 ###### Definition
@@ -198,6 +205,18 @@ One may consider the [[moduli stack of complex structures]] on a given manifold.
 
 ## References
 
+### Complex structure on vector spaces
+
+Textbook accounts:
+
+* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], p. 114 in: _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprinted by Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
+
+See also: 
+
+* Wikipedia, *[Linear complex structure](https://en.wikipedia.org/wiki/Linear_complex_structure)*
+
+
+### Complex structure on manifolds
 
 Lecture notes include
 
@@ -218,6 +237,8 @@ The _[[moduli space of complex structures]]_ on a manifold is discussed for inst
 and in
 
 * Yurii M. Burman, _Relative moduli spaces of complex structures: an example_ ([arXiv:math/9903029](http://arxiv.org/abs/math/9903029))
+
+
 
 [[!redirects complex structures]]
 
