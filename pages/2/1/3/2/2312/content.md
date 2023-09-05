@@ -322,7 +322,7 @@ See also
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], p. 23 (30 of 120) in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
-* [[John Michael Boardman]], Section 3 (p. 10-11) of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+* [[John Michael Boardman]], Section 3 (p. 10-11) of: _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 	
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], chapter 2.6 of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
