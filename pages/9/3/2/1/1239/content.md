@@ -159,6 +159,9 @@ Lecture notes:
 
 * Joel Robbin, _Real, Complex and Quaternionic representations_, 2006 ([pdf](http://www.math.wisc.edu/~robbin/angelic/RCH-G.pdf), [[Robbin08RCHRep.pdf:file]])
 
+* [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §14 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+
 Textbook accounts 
 
 for [[finite groups]]:
