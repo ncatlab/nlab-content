@@ -1,4 +1,14 @@
 
+
+Given [[small categories]] $I$ and $K$, for any [[diagram]] 
+
+$$
+  D \,\colon\, I \times K \longrightarrow C
+$$ 
+
+in a [[category]] $C$ that admits all necessary [[limits]] and [[colimits]] we have a [[morphism]]
+
+
 [xxx](https://github.com/CQTS/summer23-homework)
 
 $$
