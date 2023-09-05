@@ -201,7 +201,7 @@ Original references (including the case of a [[commutative monoid]] in a [[symme
 
 * [[Jean Bénabou]], _Algèbre élémentaire dans les catégories_ (1964), C. R. Acad. Sci. Paris **258** (1964) pp.771-774, [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817)
 
-* [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
+* [[Saunders MacLane]], Sections III.6 & VII.3 in: *[[Categories for the Working Mathematician]]*, Springer  (1979, 2nd ed.) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * [[Hans-Joachim Baues]], [[Mamuka Jibladze]], [[Andy Tonks]], *Cohomology of monoids in monoidal categories*, in: *Operads: Proceedings of Renaissance Conferences*, Contemporary Mathematics **202**, AMS (1997) 137-166 &lbrack;[doi:10.1090/conm/202](https://doi.org/10.1090/conm/202), preprint:[pdf](https://archive.mpim-bonn.mpg.de/id/eprint/1484/1/preprint_1995_121.pdf)&rbrack;
 
