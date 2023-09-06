@@ -8,7 +8,7 @@ one of the more pleasant places on this planet.
 
 # Tagungsbericht
 
-A series of workshops on category theory have taken place in Oberwolfach over the years. "Tagungsbericht" means "conference report", and comprises various notes on discussions that took place during the workshops.
+A series of workshops on [[category theory]] have taken place in Oberwolfach over the years. "Tagungsbericht" means "conference report", and comprises various notes on discussions that took place during the workshops.
 
 - 1966: [link](https://oda.mfo.de/handle/mfo/1809)
 - 1972: [link](https://oda.mfo.de/handle/mfo/1575)
