@@ -55,7 +55,7 @@ There are many [[proofs]] of the Wedderburn--Artin theorem (Prop. \ref{TheTheore
 
 A common modern approach proceeds as follows.  
 
-Suppose $R$ is semisimple. Then the right $R$-module ${}_R R$ is isomorphic to a finite direct sum of [[simple module|simple $R$-modules]] (which are the same as [[minimal ideal|minimal]] right [[ideals]] of $R$).  Write this direct sum as
+Suppose $R$ is semisimple. Then by definition any right $R$-module is a direct sum of [[simple module|simple $R$-modules]], and any finitely generated $R$-module must be a finite direct sum of such.   Thus, the right $R$-module $R_R$ is isomorphic to a finite direct sum of simple $R$-modules, which will be [[minimal ideal|minimal]] right [[ideals]] of $R$.  Write this direct sum as
 
 $$ 
    R_R 
