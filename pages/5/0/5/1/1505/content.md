@@ -30,8 +30,12 @@ See also
 
 * _Vers une interprétation Galoisienne de la théorie de l’homotopie_. Cahiers de Top. et de Geo. Diff. Cat. 43, No. 4 (2002), 257-312. [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2012/04/Galhom.pdf)
 
+Discussion of [[opposite categories]] of [[commutative monoids in a symmetric monoidal category]] regarded as categories of generalized [[affine schemes]] (and [[Spec(Z)]]):
 
-## Related $n$Lab entries 
+* [[Bertrand Toën]], [[Michel Vaquié]], *Au-dessous de $Spec \mathbb{Z}$*, Journal of K-Theory **3** 3 (2009) 437-500 &lbrack;[doi:10.1017/is008004027jkt048](https://doi.org/10.1017/is008004027jkt048)&rbrack;
+
+
+## Related entries 
 
 * [[∞-stack]], [[derived stack]], [[locally constant ∞-stack]]
 
