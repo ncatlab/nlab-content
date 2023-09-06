@@ -215,6 +215,10 @@ See also:
 
 * Wikipedia, *[Linear complex structure](https://en.wikipedia.org/wiki/Linear_complex_structure)*
 
+Fiberwise complex structure on [[real vector bundles]]:
+
+* Emery Thomas, *Complex Structures on Real Vector Bundles*, American Journal of Mathematics **89** 4 (1967) 887-908 &lbrack;[arXiv;10.2307/2373409](https://doi.org/10.2307/2373409), [jstor:2373409](https://www.jstor.org/stable/2373409)&rbrack;
+
 
 ### Complex structure on manifolds
 
