@@ -18,4 +18,4 @@ with focus on [[quantum probability]] ([[Born rule]]):
 * [[Jagdish Mehra]], Helmut Rechenberg, *The Probability Interpretation and the Statistical Transformation Theory, the Physical Interpretation, and the Empirical and Mathematical Foundations of Quantum Mechanics 1926-1932*, Part 1 in:  *The Historical Development of Quantum Theory. Volume 6: The Completion of Quantum Mechanics, 1926-1941*, Springer (2001)   &lbrack;[ISBN:978-0-387-98971-6](https://link.springer.com/book/9780387989716)&rbrack;
 
 
-category: peope
+category: people
