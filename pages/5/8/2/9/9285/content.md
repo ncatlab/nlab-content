@@ -255,6 +255,18 @@ See also:
 
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], pp. 15 in: *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
 
+Discussion that the [[Mod|category of module objects]] over a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] a [[bicomplete category|bicomplete]] [[closed symmetric monoidal category]] is itself [[bicomplete category|bicomplete]] [[closed symmetric monoidal category|closed symmetric monoidal]]:
+
+* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], Lemma 2.2.2 & 2.2.8 in: *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
+
+* [[Florian Marty]], Prop. 1.2.14, 1.2.16, 1.2.17 in: _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Toulouse (2009) &lbrack;[theses:2009TOU30071](https://www.theses.fr/2009TOU30071), [[Marty-DesOuverts.pdf:file]]&rbrack;
+
+* [[Martin Brandenburg]], Prop. 4.1.10: *Tensor categorical foundations of algebraic geometry* &lbrack;[arXiv:1410.1716](http://arxiv.org/abs/1410.1716)&rbrack;
+
+See also:
+
+* [MO:180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+
 Lecture notes:
 
 * [[Urs Schreiber]]: *[Algebras and Modules](Introduction+to+Stable+homotopy+theory+--+1-2#AlgebrasAndModules)*, in *[[Introduction to Stable Homotopy Theory]]* 1.2: *[[Introduction to Stable homotopy theory -- 1-2|Structured Spectra]]* 
