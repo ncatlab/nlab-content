@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -455,11 +456,11 @@ The $c$ that satisfy this equation hence satisfy $\partial^{hor}\partial^{vert} 
 
 1. exactness at $A_\Box \to {}^\Box B \to B^{hor}$
 
-   An element $[b] \in {}^\Box B$ is in the kernel of ${}^\Box B \to B^{hor}$ if there is $a$ such that $\partial^{hor} a = b$. But since the representative $b$ of $[b] \in {}^\Box B$ has to satisfy in particular $\partial^{hor} b = 0$ it follows that $\partial^{hor} \partial^{vert}a  = 0$ and hence that $a$ represents an alement in $A_{\Box}$, hence that $[b]$ is in the image of $A_{\Box} \to {}^{\Box }B$. Conversely, clearly every element in that image is in the kernel of ${}^\Box B \to B^{hor}$.
+   An element $[b] \in {}^\Box B$ is in the kernel of ${}^\Box B \to B^{hor}$ if there is $a$ such that $\partial^{hor} a = b$. But since the representative $b$ of $[b] \in {}^\Box B$ has to satisfy in particular $\partial^{vert} b = 0$ it follows that $\partial^{hor} \partial^{vert}a  = 0$ and hence that $a$ represents an element in $A_{\Box}$, hence that $[b]$ is in the image of $A_{\Box} \to {}^{\Box }B$. Conversely, clearly every element in that image is in the kernel of ${}^\Box B \to B^{hor}$.
 
 1. exactness at ${}^\Box B \to B^{hor} \to {}^\Box D$
 
-   An element $[b] \in B^{hor}$ is in the kernel of $B^{hor} \to {}^\Box D$ if there is $a$ with $\partial^{vert} b = \partial^{vert} \partial^{hor} a$, hence $\partial^{vert}(b - \partial^{hor}a) = 0$ Since in addition $\partial^{hor}(b - \partial^{hor}a) = 0$ by assumption on $b$ and the chain complex property, this says that $[b] = [b + \partial^{hor} a]$ is in the image of ${}^\Box B \to B^{hor}$. Moreover, clearly everything in this image is in the kernel of $B^{hor} \to {}^\Box D$.
+   An element $[b] \in B^{hor}$ is in the kernel of $B^{hor} \to {}^\Box D$ if there is $a$ with $\partial^{vert} b = \partial^{vert} \partial^{hor} a$, hence $\partial^{vert}(b - \partial^{hor}a) = 0$ Since in addition $\partial^{hor}(b - \partial^{hor}a) = 0$ by assumption on $b$ and the chain complex property, this says that $[b] = [b - \partial^{hor} a]$ is in the image of ${}^\Box B \to B^{hor}$. Moreover, clearly everything in this image is in the kernel of $B^{hor} \to {}^\Box D$.
 
 =--
 
