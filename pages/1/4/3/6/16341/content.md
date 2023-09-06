@@ -197,7 +197,7 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 ## References
 
-Original references (including the case of a [[commutative monoid]] in a [[symmetric monoidal category]]):
+Original references (including the case of a [[commutative monoids in a symmetric monoidal category]], but see there for more):
 
 * [[Jean Bénabou]], _Algèbre élémentaire dans les catégories_ (1964), C. R. Acad. Sci. Paris **258** (1964) pp.771-774, [gallica](https://gallica.bnf.fr/ark:/12148/bpt6k40102/f817)
 
@@ -209,13 +209,18 @@ Original references (including the case of a [[commutative monoid]] in a [[symme
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], p. 7 in: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
 
-* Florian Marty, Dections 1.2, 1.3 in: _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009 ([web](http://thesesups.ups-tlse.fr/540/))
+Discussion for [[commutative monoids in a symmetric monoidal category]] including proof that/when the category of [[module objects]] is itself [[closed symmetric monoidal category|closed symmetric monoidal]]:
+
+* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], pp. 15 in: *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
+
+See also:
+
+* [MO:180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+
+* [[Florian Marty]], Sections 1.2, 1.3 in: _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Toulouse (2009) &lbrack;[theses:2009TOU30071](https://www.theses.fr/2009TOU30071), [[Marty-DesOuverts.pdf:file]]&rbrack;
 
 * [[Martin Brandenburg]], Section 4.1 of: _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
 
-See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
-
-* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], pp. 15 in: *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
 
 Lecture notes:
 
