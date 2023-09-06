@@ -33,6 +33,11 @@ On [[equivariant K-theory]]:
 
 * [[Max Karoubi]], _Equivariant K-theory of real vector spaces and real vector bundles_, Topology and its Applications, 122, (2002) 531-456 ([arXiv:math/0509497](https://arxiv.org/abs/math/0509497))
 
+On [[KR-theory]] of [[algebraic varieties]]:
+
+* [[Max Karoubi]], [[Charles Weibel]], *Algebraic and Real K-theory of Algebraic varieties*, Topology **42** (2003) 715-742 &lbrack;[arXiv:math/0509412](https://arxiv.org/abs/math/0509412), <a href="https://doi.org/10.1016/S0040-9383(02)00069-1">doi:10.1016/S0040-9383(02)00069-1</a>&rbrack;
+
+
 On [[Bott periodicity]]:
 
 * {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) _[[Handbook of K-Theory]]_, Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
