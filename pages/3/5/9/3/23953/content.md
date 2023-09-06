@@ -40,7 +40,7 @@ Note that despite the name, synthetic Tait computability is not a subfield of [[
 
 * [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_, ([pdf](https://www.jonmsterling.com/papers/sterling-2022-naive.pdf))
 
-Further references are documented on [Jon Sterling's personal website](https://www.jonmsterling.com/stc-bibliography.html).
+Further references are documented on [Jon Sterling's personal website](https://www.jonmsterling.com/jms-005T.xml).
 
 [[!redirects synthetic Tait computability theory]]
 
