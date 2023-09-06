@@ -77,7 +77,7 @@ While $\pi_\bullet(M \mathbb{R})$ is _not_ the [[cobordism ring]] of [[real mani
 
 ## References
 
-* {#Atiyah66} [[Michael Atiyah]], _K-theory and reality_, The Quarterly Journal of Mathematics. Oxford. Second Series 17 (1) (1966),: 367&#8211;386, ISSN 0033-5606, MR 0206940 ([doi:10.1093/qmath/17.1.367]( https://doi.org/10.1093/qmath/17.1.367), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/atiyahkr.pdf))
+* {#Atiyah66} [[Michael Atiyah]], *K-theory and reality*, The Quarterly Journal of Mathematics. Oxford. Second Series **17** 1 (1966)  367-386 &lbrack;[doi:10.1093/qmath/17.1.367](https://doi.org/10.1093/qmath/17.1.367), [[AtiyahKReal.pdf:file]], ISSN:0033-5606&rbrack;
 
 * {#Kriz01} [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
 
@@ -86,4 +86,7 @@ While $\pi_\bullet(M \mathbb{R})$ is _not_ the [[cobordism ring]] of [[real mani
 
 [[!redirects real manifold]]
 [[!redirects real manifolds]]
+
+[[!redirects Real space]]
+[[!redirects Real spaces]]
 
