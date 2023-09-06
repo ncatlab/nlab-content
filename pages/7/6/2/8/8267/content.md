@@ -777,7 +777,7 @@ To apply an analogous argument for ${B'}^{hor}$, we combine this kind of identif
 
 $$
   \array{
-    &&&& {B'}^{hor}
+    &&&& B'
     \\
     &&&&& \Box
     \\
@@ -785,7 +785,7 @@ $$
     \\
     &&& \Box
     \\
-    A^{vert} && \nearrow && B
+    A && \nearrow && B
     \\
     & \Box
   }
@@ -857,7 +857,7 @@ extramural isomorphisms, cor \ref{ExtramuralIso}.
 
 $$
   \array{  
-    &&&&&&&& {C'}^{hor}
+    &&&&&&&& C'
     \\
     &&&&&&&& & \Box
     \\
@@ -873,7 +873,7 @@ $$
     \\
     &&& \Box
     \\
-    {A''}^{hor} && \nearrow && B''
+    A'' && \nearrow && B''
     \\
     & \Box
   }
