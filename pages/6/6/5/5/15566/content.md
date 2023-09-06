@@ -79,9 +79,11 @@ However, in view of the [analogy between the Selberg zeta function and the Artin
 
 * {#KohnoMorishita06} [[Toshitake Kohno]], [[Masanori Morishita]] (eds.), _Primes and Knots_, Contemporary Mathematics, AMS 2006 ([web](http://www.ams.org/bookstore-getitem/item=CONM-416))
 
-
 * {#LeBruyn10} [[Lieven LeBruyn]], talk 2010 ([pdf slides](http://win.ua.ac.be/~lebruyn/LeBruyn2010d.pdf) (35 mb), [MO comment](http://mathoverflow.net/a/50995/381) (with more details))
 
 * {#Fujiwara07} K. Fujiwara, _$p$-adic gauge theory in number theory_, 2007 ([pdf slides](http://www.ms.u-tokyo.ac.jp/~t-saito/conf/rv/Leopoldt.pdf))
+
+* [[Bertrand Toën]], [[Michel Vaquié]], *Au-dessous de $Spec \mathbb{Z}$*, Journal of K-Theory **3** 3 (2009) 437-500 &lbrack;[doi:10.1017/is008004027jkt048](https://doi.org/10.1017/is008004027jkt048)&rbrack;
+
 
 [[!redirects Spec Z]]
