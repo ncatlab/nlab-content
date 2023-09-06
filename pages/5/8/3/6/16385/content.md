@@ -329,7 +329,7 @@ for the category of [[real vector spaces]] equipped with a [[linear map|linear]]
 
 This becomes a [[monoidal category]] whose modoidal stucture $\otimes$ is the [[tensor product of vector spaces|tensor product]] of the [[underlying]] [[vector spaces]] equipped with the tensor product of their involutions.
 \end{definition}
-\begin{example}
+\begin{example}\label{RealComplexNumbers}
 **(Real complex numbers)**
   The [[complex numbers]] regarded as a [[real vector space]] equipped with its real-linear involution given by [[complex conjugation]] is an object of (eq:CategoryOfRealvectorBundlesWithInvolution). Moreover, since complex-conjugation is actually an [[algebra homomorphism]] on the complex numbers, the usual product operation makes this a [[monoid object]] [[internalization|internal]] to (eq:CategoryOfRealvectorBundlesWithInvolution), which we will refer to as the *Real complex numbers*:
 
