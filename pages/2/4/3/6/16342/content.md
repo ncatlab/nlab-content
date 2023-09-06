@@ -16,7 +16,7 @@
 
 ## Idea
 
-Generalizing the classical notion of [[commutative monoid]], one can define a _commutative monoid_ (or _commutative monoid object_) in any [[symmetric monoidal category]] $(C,\otimes,I)$.
+Generalizing the classical notion of [[commutative monoid]], one can define a _commutative monoid_ (or _commutative monoid object_) [[internalization|internal to]] any [[symmetric monoidal category]] $(C,\otimes,I)$.
 These are [[monoids in a monoidal category]] whose multiplicative operation is commutative.
 Classical commutative monoids are of course just commutative monoids in [[Set]] with the [[cartesian product]].
 
@@ -232,32 +232,41 @@ Since the category $CommMon$ of commutative monoids (in $Set$) is cocartesian, t
 * [[semilattice object]]
 * [[commutative monoid in a symmetric monoidal (infinity,1)-category]]
 
+
 ## References
 
 ### General
 
-Categorical properties of [[commutative monoid objects]] in [[symmetric monoidal categories]] are spelled out in sections 1.2 and 1.3 of
 
-* Florian Marty, _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009, [web](http://thesesups.ups-tlse.fr/540/)
-
-A summary is in section 4.1 of
-
-* [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
-
-See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+Discussion including proof that/when the category of [[module objects]] is itself [[closed symmetric monoidal category|closed symmetric monoidal]]:
 
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], pp. 15 in: *Symmetric spectra*, J. Amer. Math. Soc. **13** (2000) 149-208 &lbrack;[arXiv:math/9801077](http://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack;
+
+See also:
+
+* [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+
+* [Marty 2009, 1.2 and 1.3](#Marty09)
+
+* [[Martin Brandenburg]], Section 4.1 _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
+
 
 Lecture notes:
 
 * [[Urs Schreiber]]: *[Algebras and Modules](Introduction+to+Stable+homotopy+theory+--+1-2#AlgebrasAndModules)*, in *[[Introduction to Stable Homotopy Theory]]* 1.2: *[[Introduction to Stable homotopy theory -- 1-2|Structured Spectra]]* 
 
+
 ### Opposite categories
  {#ReferencesOppositeCategories}
 
-Discussion of the [[opposite categories]] of commutative monoids objects regarded as categories of generalized [[affine schemes]]:
+Discussion of the [[opposite categories]] of commutative monoid objects and regarded as categories of generalized [[affine schemes]]:
 
 * [[Bertrand Toën]], [[Michel Vaquié]], *Au-dessous de $Spec \mathbb{Z}$*, Journal of K-Theory **3** 3 (2009) 437-500 &lbrack;[doi:10.1017/is008004027jkt048](https://doi.org/10.1017/is008004027jkt048)&rbrack;
+
+* {#Marty09} [[Florian Marty]], *Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative*, Ph.D. Toulouse (2009) &lbrack;[theses:2009TOU30071](https://www.theses.fr/2009TOU30071), [[Marty-DesOuverts.pdf:file]]&rbrack;
+
+* [[Florian Marty]], *Relative Zariski Open Objects*, Journal of K-Theory **10** 1 (2012) 9-39  &lbrack;[arXiv:0712.3676](https://arxiv.org/abs/0712.3676), [doi:10.1017/is011012004jkt176 ](https://doi.org/10.1017/is011012004jkt176 )&rbrack;
+
 
 * [[Abhishek Banerjee]], *The relative Picard functor on schemes over a symmetric monoidal category*, Bulletin des Sciences Mathématiques **135** 4 (2011) 400-419 &lbrack;[doi:10.1016/j.bulsci.2011.02.001](https://doi.org/10.1016/j.bulsci.2011.02.001)&rbrack;
 
@@ -272,6 +281,12 @@ Discussion of the [[opposite categories]] of commutative monoids objects regarde
 [[!redirects commutative monoid objects]]
 
 [[!redirects commutative monoids in a symmetric monoidal category]]
+[[!redirects commutative monoids in symmetric monoidal categories]]
+
+[[!redirects commutative monoid object in a symmetric monoidal category]]
+[[!redirects commutative monoid objects in a symmetric monoidal category]]
+[[!redirects commutative monoid objects in symmetric monoidal categories]]
+
 
 [[!redirects commutative monoids in a monoidal category]]
 [[!redirects commutative monoids in monoidal categories]]
@@ -279,3 +294,5 @@ Discussion of the [[opposite categories]] of commutative monoids objects regarde
 [[!redirects commutative monoid object in a monoidal category]]
 [[!redirects commutative monoid objects in a monoidal category]]
 [[!redirects commutative monoid objects in monoidal categories]]
+
+
