@@ -234,6 +234,8 @@ Since the category $CommMon$ of commutative monoids (in $Set$) is cocartesian, t
 
 ## References
 
+### General
+
 Categorical properties of [[commutative monoid objects]] in [[symmetric monoidal categories]] are spelled out in sections 1.2 and 1.3 of
 
 * Florian Marty, _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009, [web](http://thesesups.ups-tlse.fr/540/)
@@ -249,6 +251,21 @@ See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-module
 Lecture notes:
 
 * [[Urs Schreiber]]: *[Algebras and Modules](Introduction+to+Stable+homotopy+theory+--+1-2#AlgebrasAndModules)*, in *[[Introduction to Stable Homotopy Theory]]* 1.2: *[[Introduction to Stable homotopy theory -- 1-2|Structured Spectra]]* 
+
+### Opposite categories
+ {#ReferencesOppositeCategories}
+
+Discussion of the [[opposite categories]] of commutative monoids objects regarded as categories of generalized [[affine schemes]]:
+
+* [[Bertrand Toën]], [[Michel Vaquié]], *Au-dessous de $Spec \mathbb{Z}$*, Journal of K-Theory **3** 3 (2009) 437-500 &lbrack;[doi:10.1017/is008004027jkt048](https://doi.org/10.1017/is008004027jkt048)&rbrack;
+
+* [[Abhishek Banerjee]], *The relative Picard functor on schemes over a symmetric monoidal category*, Bulletin des Sciences Mathématiques **135** 4 (2011) 400-419 &lbrack;[doi:10.1016/j.bulsci.2011.02.001](https://doi.org/10.1016/j.bulsci.2011.02.001)&rbrack;
+
+* [[Abhishek Banerjee]], *On integral schemes over symmetric monoidal categories* &lbrack;[arXiv:1506.04890](https://arxiv.org/abs/1506.04890)&rbrack;
+
+* [[Abhishek Banerjee]], *Noetherian Schemes over abelian symmetric monoidal categories*, International Journal of Mathematics **28** 07 (2017) 1750051 &lbrack;[doi:1410.3212](https://arxiv.org/abs/1410.3212), [doi:10.1142/S0129167X17500513](https://doi.org/10.1142/S0129167X17500513)&rbrack;
+
+
 
 
 [[!redirects commutative monoid object]]
