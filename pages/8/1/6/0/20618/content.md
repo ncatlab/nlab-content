@@ -22,4 +22,4 @@ Introducing the [[super Poincaré Lie algebra]] ("[[supersymmetry]]"):
 
   translated and reprinted in: [[Mikhail Shifman]] (ed.) _[[The Many Faces of the Superworld]]_ pp. 44-53,  World Scientific (2000) ([doi:10.1142/9789812793850_0006](https://doi.org/10.1142/9789812793850_0006))
 
-category: reference
+category: people
