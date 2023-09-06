@@ -152,6 +152,7 @@ Much else to be discussed...
 
 
 ## Literature
+ {#Literature}
 
 * Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
 
