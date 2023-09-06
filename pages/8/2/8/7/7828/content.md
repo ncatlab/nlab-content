@@ -143,9 +143,10 @@ As suggested there and by the main ([Lawson-Naumann 12, theorem 1.2](#LawsonNaum
 
 [[!include moduli stack of curves -- table]]
 
+
 ## References
 
-KR theory was introduced in
+KR theory was introduced in:
 
 * {#Atiyah66} [[Michael Atiyah]], *K-theory and reality*, The Quarterly Journal of Mathematics. Oxford. Second Series **17** 1 (1966)  367-386 &lbrack;[doi:10.1093/qmath/17.1.367](https://doi.org/10.1093/qmath/17.1.367), [[AtiyahKReal.pdf:file]], ISSN:0033-5606&rbrack;
 
@@ -157,10 +158,14 @@ Early discussion in the broader context of [[real-oriented cohomology theory]] a
 
 * [[Shôrô Araki]], *$\tau$-Cohomology Theories*, Japanese Journal of Mathematics **4** 2 (1978) &lbrack;[doi:10.4099/math1924.4.363](https://doi.org/10.4099/math1924.4.363)&rbrack;
 
+The dual concept of KR-homology:
 
-The dual concept of KR-homology was defined in
+* [[Gennady Kasparov]], _The operator K-functor and extensions of $C^\ast$-algebras,_ Izv. Akad. Nauk. SSSR Ser. Mat. 44, 571-636 (1980)
 
-* [[Gennady Kasparov]], _The operator K-functor and extensions of $C^\ast$-algebras,_ Izv. Akad. Nauk. SSSR Ser. Mat. 44, 571-636 (1980).
+Discussion for [[algebraic varieties]]:
+
+* [[Max Karoubi]], [[Charles Weibel]], *Algebraic and Real K-theory of Algebraic varieties*, Topology **42** (2003) 715-742 &lbrack;[arXiv:math/0509412](https://arxiv.org/abs/math/0509412), <a href="https://doi.org/10.1016/S0040-9383(02)00069-1">doi:10.1016/S0040-9383(02)00069-1</a>&rbrack;
+
 
 Discussion in [[equivariant homotopy theory]]:
 
