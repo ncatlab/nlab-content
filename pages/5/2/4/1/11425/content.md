@@ -176,6 +176,9 @@ The notion of "Real vector bundle" over a [[Real space]] in the sense of [[KR-th
 
 * [[Allan L. Edelson]], *Real Vector Bundles and Spaces with Free Involutions*, Transactions of the American Mathematical Society **157** (1971) 179-188 &lbrack;[doi:10.2307/1995841](https://doi.org/10.2307/1995841), [jstor:1995841](https://www.jstor.org/stable/1995841)&rbrack;
 
+* [[Allan L. Edelson]], *Real Line Bundles on Spheres*, Proceedings of the American Mathematical Society **27** 3 (1971) 579-583 &lbrack;[doi:10.2307/2036501](https://doi.org/10.2307/2036501), [jstor:2036501](https://www.jstor.org/stable/2036501)&rbrack;
+
+  > (on Real [[line bundles]] over [[spheres]] [[group actions on spheres|with involution action]])
 
 
 [[!redirects real vector bundles]]
