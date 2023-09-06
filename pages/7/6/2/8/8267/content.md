@@ -40,7 +40,7 @@ The Salamander lemma, prop. \ref{SalamanderLemma} below, is a statement about th
 ###### Remark
 **(general assumption/convention)**
 
-As always in [[homological algebra]], when we consider _[[elements]]_ of [[objects]] in the ambient [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[embedding theorems](habelian+category#EmbeddingTheorems)_ has been used to embed it into such, by a [[faithful functor|faithful]] and [[exact functor]], so that these elements are actual elements of the [[sets]] underlying these [[modules]].
+As always in [[homological algebra]], when we consider _[[elements]]_ of [[objects]] in the ambient [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[embedding theorems](abelian+category#EmbeddingTheorems)_ has been used to embed it into such, by a [[faithful functor|faithful]] and [[exact functor]], so that these elements are actual elements of the [[sets]] underlying these [[modules]].
 
 In the following, many of the [[proofs]] are spelled out in terms of elements this way, and we will not always repeat this assumption. This should help to amplify how utterly elementary the salamander lemma is. But explicitly element-free/general abstract proofs can of course be given without much more effort, too, see ([Wise](#Wise)).
 
