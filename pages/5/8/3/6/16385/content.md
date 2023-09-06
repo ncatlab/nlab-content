@@ -528,7 +528,7 @@ Second: A unitary map is a complex linear map that preserves the Hermitian form.
 In **summary**: After [[internalization]] as Real complex modules, complex Hermitian/unitary space look like complex Euclidean/orthogonal spaces: 
 
 \begin{imagefromfile}
-    "file_name": "HermitianSpAsEuclidRealComplexMods-230905.jpg",
+    "file_name": "HermitianSpAsEuclidRealComplexMods-230906.jpg",
     "width": 650,
     "unit": "px",
     "margin": {
@@ -538,6 +538,7 @@ In **summary**: After [[internalization]] as Real complex modules, complex Hermi
         "left": 10
     }
 \end{imagefromfile}
+
 
 \linebreak
 
