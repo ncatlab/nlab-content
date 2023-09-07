@@ -764,6 +764,17 @@ To record some aspects of the [[linear representation|linear]] [[representation 
 
 ## References
 
+* [[Howard Georgi]], §3  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
+
+On the [[coadjoint orbits]] of $SU(2)$:
+
+* [[Alexandre Kirillov]], p. 183 in: _[[Lectures on the Orbit Method]]_, Graduate Studies in Mathematics, 64, American Mathematical Society, (2004)
+
+
+
 See also
 
 * [[Qiaochu Yuan]], _[The representation theory of SU(2)](https://qchu.wordpress.com/2011/06/26/the-representation-theory-of-su2/)_
