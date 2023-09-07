@@ -1829,11 +1829,17 @@ Accounts in the mathematical literature include
 
 * Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
 
+
 Specifically for [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[supersymmetry]] in [[QFT]], see 
 
 * {#Freed99} [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_ 1999
   
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
+
+With an eye towards application in [[grand unified theory]]:
+
+* [[Howard Georgi]], §21 & 22 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
   
 For the component notation traditionally used in physics see for instance
 
