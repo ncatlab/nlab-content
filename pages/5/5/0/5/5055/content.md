@@ -30,10 +30,16 @@ On a [[relativistic membrane]] [[model (in theoretical physics)|model]] for the 
 
 On [[quantum mechanics]] (and some [[quantum field theory]]):
 
+* {#Dirac30} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1930) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
+
 * {#Dirac78} [[Paul Dirac]], _The mathematical foundations of quantum theory_, pages 1-8 in A. R. Marlow (ed.) _Mathematical Foundations of Quantum Theory_, Ac. Press 1978
 
-* {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
   
+Early discussion of the [[positron]]:
+
+* {#Dirac33} [[Paul A. M. Dirac]], *Théorie du Positron*, Proceedings of *Structure et propriétés des noyaux atomiques*, [Solvay](http://www.solvayinstitutes.be/) Conference (1933) 203-212 &lbrack;full:[pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf)&rbrack;
+
+
 ## Quotes
 
 {#OnNotation} On [[syntax]]:
@@ -50,6 +56,8 @@ On [[mathematical physics]]:
 
 
 ## Related entries
+
+* [[Planck's constant]]
 
 * [[The Principles of Quantum Mechanics]]
 
