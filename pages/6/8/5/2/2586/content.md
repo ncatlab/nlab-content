@@ -303,9 +303,14 @@ $\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\t
 
 ## References
 
-A standard textbook reference is
+Textbook accounts:
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter I, section 2 of _[[Spin geometry]]_, Princeton University Press (1989)
+
+* [[Howard Georgi]], §21 & 22 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to [[spinors]] in (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
 
 See also
 
