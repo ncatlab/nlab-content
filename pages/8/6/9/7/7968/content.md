@@ -19,21 +19,21 @@
 What is called _Planck's constant_ in [[physics]] and specifically in [[quantum physics]] (after [[Max Planck]]) is a [[physical unit]] of 
 "[[action functional|action]]" which sets the [[scale]] at which effects of [[quantum physics]] are genuinely important and physics is no longer well approximated by [[classical mechanics]]/[[classical field theory]]. 
 
-This we discuss below at
+This is discussed in the section:
 
 * _[As a physical constant](#AsAPhysicalConstant)_
 
 In the [[mathematics|mathematical]] formulation of the [[theory (physics)|theory]], Planck's constant $h$ is the choice of [[unit]] $h \in \mathbb{R}^\times$ in the [[short exact sequence]]  $\mathbb{Z}\stackrel{h\cdot(-)}{\longrightarrow} \mathbb{R} \to U(1)$ 
-which governs the [[prequantization]] lift from real ([[differential cohomology|differential]]) [[cohomology]] to ([[differential cohomology|differential]]) [[integral cohomology]]. The [[integer|integrality]] of $\mathbb{Z}$ here is the very "quantum"-ness of quantum theory, and this is what Planck's constant parameterizes. This we discuss below in
+which governs the [[prequantization]] lift from real ([[differential cohomology|differential]]) [[cohomology]] to ([[differential cohomology|differential]]) [[integral cohomology]]. The [[integer|integrality]] of $\mathbb{Z}$ here is the very "quantum"-ness of quantum theory, and this is what Planck's constant parameterizes. This is discussed in the section:
 
 * _[In geometric quantization](#InGeometricQuantization)_.
 
 
-Finally, when infinitesimally approximating this [[quantization]] step in [[perturbation theory]] in $\hbar$ (see at [[formal deformation quantization]]), then Planck's constant is the very [[formal geometry|formal expansion parameter]] of the [[deformation theory|deformation]]. This we discuss below in
+Finally, when infinitesimally approximating this [[quantization]] step in [[perturbation theory]] in $\hbar$ (see at [[formal deformation quantization]]), then Planck's constant is the very [[formal geometry|formal expansion parameter]] of the [[deformation theory|deformation]]. This is discussed in the section:
 
 * _[In perturbative quantization](#InFormalDeformationQuantization)_.
 
-Applied to the key example of [[perturbative quantum field theory]] it turns out that the powers of $\hbar$ in contributions to the [[Feynman perturbation series]]  essentially correspond to the [[loop order]] of the given [[Feynman diagram]]. This we discuss in
+Applied to the key example of [[perturbative quantum field theory]] it turns out that the powers of $\hbar$ in contributions to the [[Feynman perturbation series]]  essentially correspond to the [[loop order]] of the given [[Feynman diagram]]. This is discussed in the section
 
 * _[In the Feynman perturbation series](#InFeynmanPerturbationSeries)_
 
@@ -49,7 +49,13 @@ $$h = 6.62607015 \cdot 10^{-34} m^2 kg / s$$
 
 by the SI definition of the kilogram. 
 
-The __reduced Planck constant__ or __Dirac constant__ $\hbar = h/2\pi$ is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
+The *reduced Planck constant* or *Dirac constant* &lbrack;[Dirac 1933](#Dirac33) [p. 208](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf#page=235)&rbrack;
+
+$$
+  \hbar \,\coloneqq\, h/2\pi
+$$ 
+
+is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
 
 
 ## In geometric quantization
@@ -93,10 +99,14 @@ $$
 
 where
 
-$$
+\[
+  \label{ReducedPlanckViaPrequantization}
   \hbar \coloneqq h/2\pi
-  \,.
-$$
+\]
+
+is the "reduced Planck constant", or *Dirac constant* &lbrack;[Dirac 1933](#Dirac33) [p. 208](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf#page=235)&rbrack;.
+
+
 
 The resulting [[short exact sequence]] is the real [[exponential exact sequence]]
 
@@ -309,10 +319,54 @@ $$
 
 
 ## References
+ {#References}
 
-The notation $\hbar$ is due to:
+Planck's constant originates in:
 
-* [[Paul A. M. Dirac]], p. 208 in: *Theorie du Positron*, Solvay Conference (1933) &lbrack;[pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf#page=235)&rbrack;
+* [[Max Planck]] (transl. M. Martius), [p. 164](https://www.gutenberg.org/files/40030/40030-pdf.pdf#page=178) in: *The Theory of Heat Radiation* (1914) &lbrack;[pdf](https://www.gutenberg.org/files/40030/40030-pdf.pdf)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "DiracPrinciples-DiracConstant.jpg",
+    "float": "right",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Dirac 1930, p. 87](#Dirac30))"
+\end{imagefromfile}
+
+The notation $\hbar$ for the reduced Planck constant (eq:ReducedPlanckViaPrequantization) is  due to:
+
+* {#Dirac30} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1930) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "DiracIntroducingHBar.jpg",
+    "float": "right",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Dirac 1933, p. 208](#Dirac33))"
+\end{imagefromfile}
+
+
+but Dirac did not stick to this notation in his publications, until:
+
+* {#Dirac33} [[Paul A. M. Dirac]], [p. 208](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf#page=235) in: *Théorie du Positron*, Proceedings of *Structure et propriétés des noyaux atomiques*, [Solvay](http://www.solvayinstitutes.be/) Conference (1933) 203-212 &lbrack;full:[pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf)&rbrack;
+
+
+
+Further discussion may be found in any monograph on [[quantum mechanics]] (see references [there](quantum+mechanics#References)).
+
+
 
 See also:
 
