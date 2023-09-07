@@ -26,7 +26,7 @@ This entry collects hyperlinks related to the classic textbook
 
   International series of monographs on physics, 
 
-  Oxford University Press (1978)
+  Oxford University Press (1930, 1935, 1947)
 
   [ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)
 
@@ -34,7 +34,7 @@ This entry collects hyperlinks related to the classic textbook
 
   [Wikipedia entry](http://en.wikipedia.org/wiki/The_Principles_of_Quantum_Mechanics)
 
-on [[quantum mechanics]] and a bit of [[quantum field theory]].
+on [[quantum mechanics]] and (from the third edition on) a bit of [[quantum field theory]] ([[quantum electrodynamics]]).
 
 
 category: reference
