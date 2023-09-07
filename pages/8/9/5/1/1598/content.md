@@ -234,6 +234,10 @@ The [[exceptional Lie groups]] incude
 
 * [[José de Azcárraga]], [[José M. Izquierdo]], *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
 
+* [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
 
 * [[Hans Duistermaat]], [[Johan A. C. Kolk]], *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
