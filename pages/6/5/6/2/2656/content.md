@@ -216,6 +216,12 @@ Connection to [[algebraic geometry]]:
 
 * C. de Concini, [[D. Eisenbud]], C. Procesi, _Young diagrams and determinantal varieties_, Invent. Math. __56__ (1980), 129-165.
 
+With an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]:
+
+* [[Howard Georgi]], §12  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
+
 
 category: combinatorics
 
