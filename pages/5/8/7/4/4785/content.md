@@ -44,6 +44,10 @@ More generally, other [[matrix Lie groups]], such as the [[general linear group]
 
 * {#Bredon72} [[Glen Bredon]], Section 0.2 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
+* [[Howard Georgi]], §19  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]] and [[grand unified theory]]
+
 
 [[!redirects classical Lie group]]
 [[!redirects classical Lie groups]]
