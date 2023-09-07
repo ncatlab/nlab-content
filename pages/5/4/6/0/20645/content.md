@@ -43,6 +43,9 @@ Discussion as a [[gauge group]] in [[grand unified theory]] (see [there](GUT#The
 
 review:
 
+* [[Howard Georgi]], §24 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
 * {#Malinsky09} [[Michal Malinský]], _35 years of GUTs - where do we stand?_, 2009 ([pdf](https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Malinsky.pdf))
 
 for non-superymmetric [[model (physics)|models]]:
