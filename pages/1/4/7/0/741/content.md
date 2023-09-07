@@ -142,11 +142,16 @@ See also:
 
 * _[Atlas of finite group representations](http://brauer.maths.qmul.ac.uk/Atlas/v3/)_
 
-
 Discussion of [[free actions]] of finite groups on [[n-spheres]] (see also at _[[ADE classification]]_) includes
 
 * {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
 
 * {#Keenan03} [[Adam Keenan]], _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
+
+With an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]:
+
+* [[Howard Georgi]], §1 in :*Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
 
 [[!redirects finite groups]]
