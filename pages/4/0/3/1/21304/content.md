@@ -27,6 +27,10 @@ By a _constituent quark_ one refers to a [[quark]] thought of as part of a [[had
 
 ## References
 
+* [[Howard Georgi]], §17  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
+
 See also 
 
 * Wikipedia, _[Constituent quark](https://en.m.wikipedia.org/wiki/Constituent_quark)
