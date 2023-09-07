@@ -264,7 +264,9 @@ Review and introduction:
 
 * Ben Gripaios, _Lectures: From quantum mechanics to the Standard Model_ ([arXiv:2005.06355](https://arxiv.org/abs/2005.06355))
 
-Review with an eye towards [[grand unified theory]]:
+Mathematical ([[representation theory|representation theoretic]]) review with an eye towards [[grand unified theory]]:
+
+* [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull. Am. Math. Soc. 47:483-552, 2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
