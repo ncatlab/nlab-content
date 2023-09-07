@@ -122,3 +122,7 @@ This is a re-statement of
 
   Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
 
+* [[Howard Georgi]], §7 & §9  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
