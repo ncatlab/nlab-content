@@ -13,8 +13,8 @@ On [[brace]]s, [[$L$-algebra]]s and related algebraic structures:
 
 * W. Rump, _Braces, radical rings, and the quantum Yang-Baxter equation_, J. Algebra __307__ (2007), no. 1, 153--170
 * Wolfgang Rump, _Generalized radical rings, unknotted biquandles, and quantum groups_, Colloquium Mathematicum __109__ (2007), 85-100 [doi](https://doi.org/10.4064/cm109-1-7)
-* W. Rump, _The brace of a classical group_, Note di Matematica __34__ (2014) n.1, 115--144 [pdf](https://core.ac.uk/download/pdf/187088098.pdf) 
-* W. Rump, _Construction of finite braces_, Ann. Comb. 23, 391--416 (2019) [doi](https://doi.org/10.1007/s00026-019-00430-1)
+* W. Rump, _The brace of a classical group_, Note di Matematica __34__ (2014) n.1, 115--144 [doi](https://doi.org/10.1285/i15900932v34n1p115)
+* W. Rump, _Construction of finite braces_, Ann. Comb. 23, 391--416 (2019) [doi](https://doi.org/10.1007/s00026-019-00430-1) 
 * W. Rump, _The category of $L$-algebras_, Theory App. Cat. __39__ (2023), n. 21, 598--624 [pdf](http://www.tac.mta.ca/tac/volumes/39/21/39-21.pdf)
 
 category: people
