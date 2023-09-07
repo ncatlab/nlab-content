@@ -310,6 +310,12 @@ $$
 
 ## References
 
+The notation $\hbar$ is due to:
+
+* [[Paul A. M. Dirac]], p. 208 in: *Theorie du Positron*, Solvay Conference (1933) &lbrack;[pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf#page=235)&rbrack;
+
+See also:
+
 * {#Donaldson00} [[Simon Donaldson]], _Planck's constant in complex and almost-complex geometry_, XIIIth International Congress on Mathematical Physics (London,
 2000), 63&#8211;72, Int. Press, Boston, MA, 2001
  
