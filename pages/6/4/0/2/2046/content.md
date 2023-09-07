@@ -61,13 +61,24 @@ An [[object]] which is a [[direct sum]] of simple objects is called a **[[semisi
 
 ### In an abelian category
 
-+-- {: .num_prop #SchurLemma}
-###### Proposition
+\begin{proposition}
 **([[Schur's lemma]])**
 
-In an [[abelian category]] $C$, every [[morphism]] between simple objects is either a [[zero morphism]] or an [[isomorphism]]. 
+In an [[abelian category]] $C$, every [[morphism]] between simple objects is either a [[zero morphism]] or an [[isomorphism]], and the [[endomorphism]] [[algebra]] of any simple object is a [[division ring]].
 
-If $C$ is also [[enriched category|enriched]] in [[finite-dimensional vector spaces]] over an [[algebraically closed field]], it follows that $\hom(X, Y)$ has [[dimension]] $0$ or $1$.
+If $C$ is also [[enriched category|enriched]] in [[finite-dimensional vector spaces]] over an [[algebraically closed field]] $k$, then $hom(X, Y)$ has [[dimension]] $0$ or $1$ for any pair of simple objects $X$ and $Y$.  In this case the endomorphism algebra of any simple object is $k$.
+\end{proposition} 
+
+\begin{proof} 
+Suppose $X$ and $Y$ are simple objects in an abelian categor $C$.    If $f \colon X \to Y$ is any morphism then the kernel of $f$ must be either $0$ or $X$, while its kernel must be $0$ or $Y$.  If the kernel and cokernel are both $0$, $f$ is an isomorphism; otherwise $f = 0$.  It follows that every element of the endomorphism ring $End(X)$ of a simple object $X$ is zero or invertible, so $End(X)$ is a division ring. 
+
+Next suppose $C$ is enriched over finite-dimensional vector spaces over an algebraically closed field $k$.   In this case $End(X)$ is a finite-dimensional division algebra over $k$, but any such algebra is isomorphic to $k$.   Post-composing with an isomorphism $f: X \to Y$ gives a vector space isomorphism $End(X) \to hom(X,Y)$, so if such an isomorphism $f$ exists then $hom(X,Y)$ is one-dimensional.  If no such isomorphism exists all the morphisms from $X$ to $Y$ are zero.
+\end{proof}
+
++-- {: .num_remark}
+###### Remark
+
+If an abelian category is enriched over finite-dimensional vector spaces over a field $k$ that is not algebraically closed, the endomorphism algebra of a simple object can be a division algebra other than $k$.  For example consider $k = \mathbb{R}$.  In the category of real representations of the [[Lie group]] [[SO(2)]], the usual action of rotations on the plane gives a simple object (that is, [[irreducible representation]]) $X$ with $End(X) \cong \mathbb{C}$. In the category of real representations of [[SU(2)]], the usual action of this group as automorphisms of the [[quaternions]] gives a simple object $X$ with $End(X) \cong \mathbb{H}$.
 
 =--
 
