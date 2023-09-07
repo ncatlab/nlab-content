@@ -267,8 +267,7 @@ Conceptual explanation by stellar feedback:
 
 ### Axions
 
-The observation that the "invisible [[axion]]" is a candidate for dark 
-matter is due to three groups:
+The observation that the "invisible [[axion]]" is a candidate for dark matter is due to three groups:
 
 * {#PreskillWiseWilcek83} [[John Preskill]], M. Wise, [[Frank Wilcek]], _Cosmology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
 
@@ -279,6 +278,11 @@ matter is due to three groups:
 A proposal that [[axions]] account for [[fuzzy dark matter]], and thus fix the [[WIMP]] model for dark matter with its problem of reproducing galactic rotation curves, is in
 
 * {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_, Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
+
+Discussion in the broader context of [[Kalb-Ramond fields]]:
+
+* Christian Capanelli, Leah Jenks, Edward W. Kolb, Evan McDonough, *Cosmological Implications of Kalb-Ramond-Like-Particles* &lbrack;[arXiv:2309.02485](https://arxiv.org/abs/2309.02485)&rbrack;
+
 
 ### Lightest super-partner 
 
@@ -317,14 +321,6 @@ Further discussion:
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
 
-
-### Flavour anomalies
-
-Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
-
-* {#Baek19} Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
-
-* {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
 
 
 [[!redirects cold dark matter]]
