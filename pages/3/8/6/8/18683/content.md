@@ -101,11 +101,11 @@ Discussion of the *charged* [[vacua]]/[[ground states]] of the [[free field|free
 
 Identification of the [[vacua]]/[[ground states]] of the [[free field|free]] [[Dirac field]] in a [[electromagnetic field|Coulomb]] [[background field]]:
 
-* {#KlausScharf77} [[Martin Klaus]], [[Günter Scharf]], *The regular external field problem in quantum electrodynamics*, Helv. Phys. Acta **50** (1977) $[$[doi:10.5169/seals-114890](http://doi.org/10.5169/seals-114890)$]$
+* {#KlausScharf77} [[Martin Klaus]], [[Günter Scharf]], *The regular external field problem in quantum electrodynamics*, Helv. Phys. Acta **50** (1977) &lbrack;[doi:10.5169/seals-114890](http://doi.org/10.5169/seals-114890), [hpa-001:1977:50::1019](https://www.e-periodica.ch/cntmng?var=true&pid=hpa-001:1977:50::1019)&rbrack;
 
 and the observation that these vacua are characterized by [[Fredholm operators]] whose [[index]] is the total charge in the vacuum:
 
-* {#CareyHurstOBrien82} [[Alan Carey]], [[Charles Angas Hurst]], [[Denis O'Brien]], *Automorphisms of the canonical anticommutation relations and index theory*, Journal of Functional Analysis **48** 3 (1982) 360-393 $[$<a href="https://doi.org/10.1016/0022-1236(82)90092-1">doi:10.1016/0022-1236(82)90092-1</a>$]$
+* {#CareyHurstOBrien82} [[Alan Carey]], [[Charles Angas Hurst]], [[Denis O'Brien]], *Automorphisms of the canonical anticommutation relations and index theory*, Journal of Functional Analysis **48** 3 (1982) 360-393 &lbrack;<a href="https://doi.org/10.1016/0022-1236(82)90092-1">doi:10.1016/0022-1236(82)90092-1</a>&rbrack;
 
 This curious observation seems not to have been followed up on much, but some related references are listed in [Thaller 92, p. 319](#Thaller92).
 
