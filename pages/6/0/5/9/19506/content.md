@@ -21,8 +21,12 @@ On [[waves]] ([[wave equations]], [[Fourier analysis]], etc.):
 
 * [[Howard Georgi]], *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
 
+Review of ([[Lie group|Lie]]-)[[group theory]] ([[Lie algebras]]) and [[representation theory]] with application to the ([[standard model of particle physics|standard model of]]) [[particle physics]] and [[grand unified theory]]:
 
-## Related $n$Lab entries
+* [[Howard Georgi]], *Lie Algebras In Particle Physics -- From Isospin to Unified Theories*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
+## Related entries
 
 * [[grand unified theory]]
 
