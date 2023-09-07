@@ -52,7 +52,7 @@ One canonical way to strictify a monoidal category $M$ is by considering cliques
 
 1. We may form a monoidal category $Oper(M)$ whose objects are functors 
 $$F: M^j \to M$$ 
-and whose morphisms are natural transformations between such functors. The tensor product of $F: M^j \to M$ and $G: M^k \to M$ in $Oper(M)$ is the composite 
+for natural numbers $j$, and whose morphisms are natural transformations between such functors. The tensor product of $F: M^j \to M$ and $G: M^k \to M$ in $Oper(M)$ is the composite 
 $$M^{j+k} \cong M^j \times M^k \stackrel{F \times G}{\to} M \times M \stackrel{\otimes}{\to} M$$ 
 and the rest of the monoidal structure on $Oper(M)$ is inherited from the monoidal structure on $M$. 
 
