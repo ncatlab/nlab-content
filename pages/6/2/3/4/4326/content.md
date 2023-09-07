@@ -248,9 +248,11 @@ See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorp
 
 ## References
 
-The [[coadjoint orbits]] of $SU(2)$ are discussed around p. 183 of
 
-* [[Alexandre Kirillov]], _[[Lectures on the Orbit Method]]_, Graduate Studies in Mathematics, 64, American Mathematical Society, (2004)
+* [[Howard Georgi]], §13  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
 
 
 
