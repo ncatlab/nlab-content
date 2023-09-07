@@ -159,6 +159,12 @@ Textbook accounts:
 
 * {#Pfeifer} Walter Pfeifer, _The Lie algebra $\mathfrak{su}(2)$_, In: _The Lie Algebras $\mathfrak{su}(N)$, Birkhäuser, Basel (2003) ([doi:10.1007/978-3-0348-8097-8_3](https://doi.org/10.1007/978-3-0348-8097-8_3), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-0348-8097-8_3.pdf))
 
+* [[Howard Georgi]], §3 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
+
+
 See also
 
 * [[Qiaochu Yuan]], _[The representation theory of SU(2)](https://qchu.wordpress.com/2011/06/26/the-representation-theory-of-su2/)_
