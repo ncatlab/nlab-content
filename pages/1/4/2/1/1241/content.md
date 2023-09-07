@@ -254,6 +254,8 @@ Textbook accounts:
 
 * [[Robert E. Marshak]], Chapter 8 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
 
+* [[Howard Georgi]], §18 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
 
 See also
 
