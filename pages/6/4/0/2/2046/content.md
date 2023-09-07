@@ -78,7 +78,7 @@ Next suppose $C$ is enriched over finite-dimensional vector spaces over an algeb
 +-- {: .num_remark}
 ###### Remark
 
-If an abelian category is enriched over finite-dimensional vector spaces over a field $k$ that is not algebraically closed, the endomorphism algebra of a simple object can be a division algebra other than $k$.  For example consider $k = \mathbb{R}$.  In the category of real representations of the [[Lie group]] [[SO(2)]], the usual action of rotations on the plane gives a simple object (that is, [[irreducible representation]]) $X$ with $End(X) \cong \mathbb{C}$. In the category of real representations of [[SU(2)]], the usual action of this group as automorphisms of the [[quaternions]] gives a simple object $X$ with $End(X) \cong \mathbb{H}$.
+If an abelian category is enriched over finite-dimensional vector spaces over a field $k$ that is not algebraically closed, the endomorphism algebra of a simple object can be a division algebra other than $k$.  For example consider $k = \mathbb{R}$.  In the category of real representations of the [[Lie group]] [[SO(2)]], the usual action of rotations on the plane gives a simple object (that is, [[irreducible representation]]) $X$ with $End(X) \cong \mathbb{C}$. In the category of real representations of [[Sp(1))]], the action of this group by right multiplication on the [[quaternions]] gives a simple object $X$ with $End(X) \cong \mathbb{H}$.
 
 =--
 
