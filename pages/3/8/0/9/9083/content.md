@@ -54,6 +54,11 @@ For connected [[compact Lie groups]] the
 
 ## References
 
+* [[Howard Georgi]], §6 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+
+
 * Peter Woit, _Topics in representation theory: Roots and weights_ ([pdf](http://www.math.columbia.edu/~woit/notes6.pdf))
 
 * Wikipedia, _[Weight (representation theory)](http://en.wikipedia.org/wiki/Weight_%28representation_theory%29)_
