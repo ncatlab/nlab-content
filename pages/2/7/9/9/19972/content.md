@@ -35,6 +35,9 @@ Hence, more generally one could reasonably say that the "number of colors" of a 
 
 ## References
 
+* [[Howard Georgi]], §16  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
 See also
 
 * Wikipedia, _[Color charge](https://en.wikipedia.org/wiki/Color_charge)_
