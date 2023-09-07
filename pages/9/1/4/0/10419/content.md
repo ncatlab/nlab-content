@@ -34,7 +34,7 @@ This entry collects hyperlinks related to the classic textbook
 
   [Wikipedia entry](http://en.wikipedia.org/wiki/The_Principles_of_Quantum_Mechanics)
 
-on [[quantum mechanics]] and (from the third edition on) a bit of [[quantum field theory]] ([[quantum electrodynamics]]).
+on [[quantum mechanics]] (introducing the "$\hbar$"-notation for the reduced [[Planck's constant]]) and (from the third edition on) a bit of [[quantum field theory]] ([[quantum electrodynamics]]).
 
 
 category: reference
