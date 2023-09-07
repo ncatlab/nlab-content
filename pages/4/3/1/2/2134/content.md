@@ -240,9 +240,9 @@ Part (1) is essentially [[category theory|category-theoretic]] and can be genera
 
 ### For simple objects in an abelian category
 
-More generally, given an [[abelian category]], part (1) of  Schur's lemma applies to the [[simple objects]] (see [there](simple+object#SchurLemma)) and the  [[endomorphism ring]] of a [[simple object]] is a [[division ring]]. 
+More generally, part (1) of  Schur's lemma applies to [[simple objects]] in any [[abelian category]], and the  [[endomorphism ring]] of such a [[simple object]] is a [[division ring]], as proved [here](simple+object#in_an_abelian_category).
 
-For (2), if the [[endomorphism rings]] of all objects in an [[abelian category]] are [[finite-dimensional vector space|finite-dimensional]] over an [[algebraically closed field]] $k$ (as is the case for group representations), then the endomorphism ring of a simple object is $k$ itself.
+For (2), if the [[endomorphism rings]] of all objects in an [[abelian category]] are [[finite-dimensional vector space|finite-dimensional]] over an [[algebraically closed field]] $k$, then the endomorphism ring of a simple object is $k$ itself, as proved [here](simple+object#in_an_abelian_category).  This is the case for the category of finite-dimensional complex representations of a group.
 
 ### For Bridgeland stable objects
 
