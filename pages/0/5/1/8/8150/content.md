@@ -306,7 +306,7 @@ The tensor product basis elements appearing in the above expressions have a clea
 $$
   \array{
      ((0),(1)')
-     &&\underset{((0\to 1),(0))}{\to}&&
+     &&\underset{((0\to 1),(1)')}{\to}&&
      ((1),(1)')
      \\
      \\
