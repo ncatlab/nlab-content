@@ -68,9 +68,11 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 ## References
 
-For instance section 2.4 of 
+Discussion with an eye towards application in ([[particle physics|particle]]) [[physics]]:
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], section 2.4 in: _[[The Geometry of Physics - An Introduction]]_
+
+* [[Howard Georgi]], §10  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
 
 
 
