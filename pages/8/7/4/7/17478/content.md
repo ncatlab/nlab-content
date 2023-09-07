@@ -44,7 +44,12 @@ The quaternionic unitary group $Sp(n)$ is the group of quaternion-unitary transf
 
 ## References
 
+* [[Howard Georgi]], §26 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+
+
 * _Quaternionic groups_ ([pdf](http://www-math.mit.edu/~dav/quatcoordfree.pdf))
+
+
 
 [[!redirects quaternionic unitary groups]]
 
