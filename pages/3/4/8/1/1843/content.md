@@ -140,7 +140,7 @@ and for the refinement to the [[superstring]] in
 * {#DistlerFreedMooreII} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_, Surveys in Differential Geometry, Volume 15 (2010) ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581), [doi:10.4310/SDG.2010.v15.n1.a4](http://dx.doi.org/10.4310/SDG.2010.v15.n1.a4))
 See at _[[orientifold]]_ for more on this.
 
-The role of the KR field in [[twisted K-theory]] is discussed a bit also in 
+The role of the KR field in [[twisted K-theory]] (see *[[K-theory classification of D-brane charge]]*) is discussed a bit also in 
 
 * {#Moore} [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
 
@@ -149,6 +149,12 @@ In relation to Einstein-Cartan theory:
 * Richa Kapoor, _A review of Einstein Cartan Theory to describe superstrings with intrinsic torsion_ ([arXiv:2009.07211](https://arxiv.org/abs/2009.07211))
 
 * Tanmoy Paul, _Antisymmetric tensor fields in modified gravity: a summary_ ([arXiv:2009.07732](https://arxiv.org/abs/2009.07732))
+
+In the context of [[cosmology]] with the Kalb-Ramond field as a [[dark matter]]-candidate (cf, *[[axion]]* and *[[fuzzy dark matter]]*):
+
+* Christian Capanelli, Leah Jenks, Edward W. Kolb, Evan McDonough, *Cosmological Implications of Kalb-Ramond-Like-Particles* &lbrack;[arXiv:2309.02485](https://arxiv.org/abs/2309.02485)&rbrack;
+
+
 
 
   
