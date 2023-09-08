@@ -128,9 +128,9 @@ More generally, the [[universal covering groupoid]] of a groupoid is just the ca
 
 ### Representable Presheaves
 
-Let $Y(C):\mathcal{C}^{op}\to \mathbf{Set}$ be a [[representable functor|representable presheaf]] with $Y(C)(D)=Hom_{\mathcal{C}}(D,C)$. Consider the contravariant category of elements $\int_\mathcal{C} Y(C)$ . This has objects $(D_1,p_1)$ with $p_1\in Y(C)(D_1)$, hence $p_1$ is just an arrow $D_1\to C$ in $\mathcal{C}$. A map from $(D_1, p_1)$ to $(D_2, p_2)$ is just a map $u:D_1\to D_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in the [[overcategory|slice category]] $\mathcal{C}/C$. Accordingly we see that $\int_\mathcal{C} Y(C)\simeq \mathcal{C}/C$ .
+Let $Y(c):\mathcal{C}^{op}\to \mathbf{Set}$ be a [[representable functor|representable presheaf]] with $Y(c)(d)=Hom_{\mathcal{C}}(d,c)$. Consider the contravariant category of elements $\int_\mathcal{C} Y(c)$ . This has objects $(d_1,p_1)$ with $p_1\in Y(c)(d_1)$, hence $p_1$ is just an arrow $d_1\to c$ in $\mathcal{C}$. A map from $(d_1, p_1)$ to $(d_2, p_2)$ is just a map $u:d_1\to d_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in the [[overcategory|slice category]] $\mathcal{C}/c$. Accordingly we see that $\int_\mathcal{C} Y(c)\simeq \mathcal{C}/c$ .
 
-This equivalence comes in handy when one wants to compute [[category of presheaves|slices of presheaf toposes]] over representable presheaves $Y(C)$ since $PSh(\int_\mathcal{C} F) \simeq PSh(\mathcal{C})/F$ in general for presheaves $F:\mathcal{C}^{op}\to \mathbf{Set}$ , whence $PSh(\mathcal{C})/Y(C) \simeq PSh(\mathcal{C}/C)$ . An instructive example of this construction is spelled out in detail at [[hypergraph]].
+This equivalence comes in handy when one wants to compute [[category of presheaves|slices of presheaf toposes]] over representable presheaves $Y(c)$ since $PSh(\int_\mathcal{C} F) \simeq PSh(\mathcal{C})/F$ in general for presheaves $F:\mathcal{C}^{op}\to \mathbf{Set}$ , whence $PSh(\mathcal{C})/Y(c) \simeq PSh(\mathcal{C}/c)$ . An instructive example of this construction is spelled out in detail at [[hypergraph]].
 
 ### Action Groupoid
 
