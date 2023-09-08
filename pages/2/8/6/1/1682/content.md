@@ -135,9 +135,8 @@ There is a way to "construct" the tmf-spectrum as the [[E-∞ ring]] of [[global
 
 The discussion happens in the context of [[derived geometry]] in the [[(∞,1)-topos]] $\mathbf{H}$ over a [[small (∞,1)-category|small]] version of the [[(∞,1)-site]] of formal duals of [[E-∞ ring]]s ([[ring spectra]]). This is equipped with some [[subcanonical coverage]]. For $R \in E_\infty Ring$ we write $Spec R$ for its image under the [[(∞,1)-Yoneda embedding]] $(E_\infty Ring)^{op} \hookrightarrow \mathbf{H}$.
 
-+-- {: .un_lemma}
-###### Observation
 
+\begin{remark}
 The [[terminal object in an (∞,1)-category|terminal object]] in $\mathbf{H}$ is the formal dual of the [[sphere spectrum]]
 
 $$
@@ -145,9 +144,9 @@ $$
   \,.
 $$
 
-=--
-
 Because the sphere spectrum is the [[initial object]] in $E_\infty Ring$.
+\end{remark}
+
 
 #### Coverings by the Thom spectrum
 
@@ -580,6 +579,14 @@ On equivariant topological modular forms (on [[equivariant elliptic cohomology]]
 On the [[Boardman homomorphism]] (generalized [[Hurewicz homomorphism]]) to [[tmf]]:
 
 * [[Mark Behrens]], [[Mark Mahowald]], J.D. Quigley, _The 2-primary Hurewicz image of $tmf$_ ([arXiv:2011.08956](https://arxiv.org/abs/2011.08956))
+
+More on the role of lifting the [[Witten genus]] to tmf from the point of view of [[heterotic string theory]]:
+
+* [[Yuji Tachikawa]], *Topological modular forms and the absence of a heterotic global anomaly*, Progress of Theoretical and Experimental Physics, **2022** 4 (2022) 04A107 $[$[arXiv:2103.12211](https://arxiv.org/abs/2103.12211), [doi:10.1093/ptep/ptab060](https://doi.org/10.1093/ptep/ptab060)$]$
+
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Topological modular forms and the absence of all heterotic global anomalies*, Comm. Math. Phys. **402** (2023) 1585-1620 &lbrack;[arXiv:2108.13542](https://arxiv.org/abs/2108.13542), [doi:10.1007/s00220-023-04761-2](https://doi.org/10.1007/s00220-023-04761-2)&rbrack;
+
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Anderson self-duality of topological modular forms, its differential-geometric manifestations, and vertex operator algebras* &lbrack;[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)&rbrack;
 
 
 
