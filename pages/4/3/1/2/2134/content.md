@@ -42,13 +42,14 @@ Let $G$ be a [[group]]. In the following:
 \begin{prop}\label{SchurLemma}
 **(Schur's lemma)**
 \linebreak
-1. A [[homomorphism]] $\phi \;\colon\; V\to W$ between [[irreducible representations]], is either the [[zero morphism]] or an [[isomorphism]]. 
+
+1. {#FirstItem} A [[homomorphism]] $\phi \;\colon\; V\to W$ between [[irreducible representations]], is either the [[zero morphism]] or an [[isomorphism]]. 
 
    It follows that the [[endomorphism ring]] of an [[irreducible representation]] is a [[division ring]].
 
-2. In the case that the [[ground field]] is an [[algebraically closed field]]; [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiple $c \cdot id$ of the [[identity morphism|identity operator]]. 
+2. {#SecondItem} In the case that the [[ground field]] is an [[algebraically closed field]]; [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiple $c \cdot id$ of the [[identity morphism|identity operator]]. 
 
-   In other words, nontrivial automorphisms of irreducible representations, _a priori_ possible by (1), are ruled out over algebraically closed fields.  
+   In other words, nontrivial automorphisms of irreducible representations, _a priori_ possible by [(1)](#FirstItem), are ruled out over algebraically closed fields.  
 
 \end{prop}
 
@@ -235,27 +236,27 @@ with respect to the canonical [[decategorification|decategorified]] [[inner prod
 
 ### For simple modules
   
-Part (1) is essentially [[category theory|category-theoretic]] and can be generalized in many ways, for example, by replacing the [[group]] $G$ by some $k$-[[associative algebra|algebra]] and taking the representations compatible with the action of $k$. 
+Part [(1)](#FirstItem) of Schur's lemma is essentially [[category theory|category-theoretic]] and can be generalized in many ways, for example, by replacing the [[group]] $G$ by some $k$-[[associative algebra|algebra]] and taking the representations compatible with the action of $k$. 
 
 
 ### For simple objects in an abelian category
 
-More generally, part (1) of  Schur's lemma applies to [[simple objects]] in any [[abelian category]], and the  [[endomorphism ring]] of such a [[simple object]] is a [[division ring]], as proved [here](simple+object#in_an_abelian_category).
+More generally, part [(1)](#FirstItem) of  Schur's lemma applies to [[simple objects]] in any [[abelian category]], and the  [[endomorphism ring]] of such a [[simple object]] is a [[division ring]], as proved [here](simple+object#in_an_abelian_category).
 
-For (2), if the [[endomorphism rings]] of all objects in an [[abelian category]] are [[finite-dimensional vector space|finite-dimensional]] over an [[algebraically closed field]] $k$, then the endomorphism ring of a simple object is $k$ itself, as proved [here](simple+object#in_an_abelian_category).  This is the case for the category of finite-dimensional complex representations of a group.
+For [(2)](#SecondItem), if the [[endomorphism rings]] of all objects in an [[abelian category]] are [[finite-dimensional vector space|finite-dimensional]] over an [[algebraically closed field]] $k$, then the endomorphism ring of a simple object is $k$ itself, as proved [here](simple+object#in_an_abelian_category).  This is the case for the category of finite-dimensional complex representations of a group.
 
 ### For Bridgeland stable objects
 
-The statement of Schur's lemma applies also to objects which are stable with respect to a [[Bridgeland stability condition]], see [there](Bridgeland+stability+condition#SchurLemma)
+The statement of Schur's lemma applies also to objects which are stable with respect to a [[Bridgeland stability condition]], see [there](Bridgeland+stability+condition#SchurLemma).
 
 
 ## References
 
 Named after *[[Issai Schur]]*.
 
-Lecture notes include
+Lecture notes include:
 
-* {#tomDieck09} [[Tammo tom Dieck]], (1.1.2) in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+* {#tomDieck09} [[Tammo tom Dieck]], §1.1.2 in: _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]]&rbrack;
 
 
 See also 
