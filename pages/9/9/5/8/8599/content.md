@@ -1,5 +1,5 @@
 
-* [webpage](http://www.isg.rhul.ac.uk/dusko/)
+* [webpage](http://dusko.org/)
 
 * [webpage](http://www.cs.ox.ac.uk/people/dusko.pavlovic/)
 
@@ -8,11 +8,11 @@
 
 On [[monadic descent]] and the [[Beck-Chevalley condition]]:
 
-* {#Pavlović91} [[Duško Pavlović]], *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1990-BCDE-Como.pdf)&rbrack;
+* {#Pavlović91} [[Duško Pavlović]], *Categorical interpolation: Descent and the Beck-Chevalley condition without direct images*, in: *Category Theory*, Lecture Notes in Mathematics **1488** (1991) &lbrack;[doi:10.1007/BFb0084229](https://doi.org/10.1007/BFb0084229), [pdf](http://dusko.org/wp-content/uploads/2020/03/1990-Como-BCDE.pdf)&rbrack;
 
 and its role in [[categorical logic]]/[[proof theory]]:
 
-* [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://www.isg.rhul.ac.uk/dusko/papers/1996-mapsII-IGPL.pdf)&rbrack;
+* [[Duško Pavlović]], *Maps II: Chasing Diagrams in Categorical Proof Theory*, Logic Journal of the IGPL, **4** 2 (1996) 159–194 &lbrack;[doi:10.1093/jigpal/4.2.159](https://doi.org/10.1093/jigpal/4.2.159), [pdf](http://dusko.org/wp-content/uploads/2020/03/00-95-IGPL-mapsII.pdf)&rbrack;
 
 
 On [[quantum measurement]] formulated in [[finite quantum mechanics in terms of dagger-compact categories ]] in terms of [[Frobenius algebras]] and the [[quantum reader monad]]:
