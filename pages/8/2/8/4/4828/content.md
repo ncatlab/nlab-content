@@ -68,8 +68,9 @@ As a [[strict monoidal category]] is a [[monoid]] in the [[cartesian monoidal ca
 
 From this point of view, a binoidal category is just a category $C$ with a functor $C \Box C \to C$
 
-It may be possible to make $(Cat,\Box)$ a [[symmetric monoidal 2-category]], in which a [[pseudomonoid]] object is precisely a non-strict premonoidal category, but if so, nobody seems to have written this up yet.  It is possible, however, to describe part of the structure of a non-strict premonoidal category in terms of $(Cat,\Box)$.  For instance, a binoidal structure on $C$ is precisely a functor $C\Box C \to C$, and the naturality of the associator $\alpha$ can be expressed by saying that it is a natural transformation (with central components) between functors $C\Box C\Box C \to C$.
+We might hope that non-strict premonoidal categories are [[pseudomonoids]] in $(Cat,\Box)$ seen as a [[monoidal 2-category]], by taking either natural or [[unnatural transformations]] as 2-cells. For the requirement that coherence maps are natural, suggests taking [[natural transformations]]. However, this is not enough to ensure the coherence maps are central.
 
+[Román 22](#R22) provides the solution, showing that [[Freyd categories]] (or *effectful categories*), which include premonoidal categories as a special case, are precisely pseudomonoids in a monoidal bicategory of [[promonads]] equipped with their *pure tensor product* (described in Section 4 of [Román 22](#R22)).
 
 ## Examples
 
@@ -110,6 +111,8 @@ It seems unlikely that these desiderata can be reconciled purely in the world of
 * Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](https://web.archive.org/web/20120303033606if_/http://fpl.cs.depaul.edu/ajeffrey/papers/premonA.pdf)
 
 * {#SL13} [[Sam Staton]] and Paul Blain Levy, *Universal Properties of Impure Programming Languages*.  ACM Sigplan Notices, 2013, [doi](https://doi.org/10.1145/2480359.2429091).
+
+* {#R22} [[Mario Román]], *Promonads and String Diagrams for Effectful Categories*.  Proceedings of Fifth International Conference on Applied Category Theory, 2022, [doi](https://dx.doi.org/10.4204/EPTCS.380.20).
 
 [[!redirects premonoidal category]]
 [[!redirects premonoidal categories]]
