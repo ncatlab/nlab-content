@@ -74,7 +74,7 @@ This mechanism plays a role in [[string theory]] when realizing $\mathbb{R}^{11;
 
 ### In dimension 1
 
-The additive group structure on $\mathbb{R}^{1|1}$ is given on [[generalized element]]s in (i.e. in the logic internal to) the [[topos]] of [[sheaf|sheaves]] on the category [[SCartSp]] of [[cartesian space|cartesian]] superspaces by
+The additive group structure on $\mathbb{R}^{1|1}$ is given on [[generalized element]]s in (i.e. in the logic internal to) the [[topos]] of [[sheaf|sheaves]] on the category [[super Cartesian space|SCartSp]] of [[cartesian space|cartesian]] superspaces by
 
 $$
   \mathbb{R}^{1|1} \times \mathbb{R}^{1|1} \to 
