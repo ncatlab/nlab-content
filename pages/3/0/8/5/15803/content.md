@@ -106,6 +106,11 @@ A detailed mathematical derivation is in
 
 * [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of: _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
 
+See also:
+
+* Valentin Benedetti, Horacio Casini, Javier M. Magan, *ABJ anomaly as a $U(1)$ symmetry and Noether's theorem* &lbrack;[arXiv:2309.03264](https://arxiv.org/abs/2309.03264)&rbrack;
+
+
 Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) from chiral symmetry breaking is offered in 
 
 * [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
