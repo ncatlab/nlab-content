@@ -143,14 +143,13 @@ The interpretation of [[equivariant elliptic genera]] as [[partition functions]]
 
 * {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
 
-Speculations on physics aspects of lifting the [[Witten genus]] to [[topological modular forms]]:
+Proposals on physics aspects of lifting the [[Witten genus]] to [[topological modular forms]]:
 
-* [[Yuji Tachikawa]], _Topological modular forms and the absence of a heterotic global anomaly_ ([arXiv:2103.12211](https://arxiv.org/abs/2103.12211))
+* [[Yuji Tachikawa]], *Topological modular forms and the absence of a heterotic global anomaly*, Progress of Theoretical and Experimental Physics, **2022** 4 (2022) 04A107 $[$[arXiv:2103.12211](https://arxiv.org/abs/2103.12211), [doi:10.1093/ptep/ptab060](https://doi.org/10.1093/ptep/ptab060)$]$
 
-* [[Yuji Tachikawa]], Mayuko Yamashita, _Topological modular forms and the absence of all heterotic global anomalies_ ([arXiv:2108.13542](https://arxiv.org/abs/2108.13542))
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Topological modular forms and the absence of all heterotic global anomalies*, Comm. Math. Phys. **402** (2023) 1585-1620 $[$[arXiv:2108.13542](https://arxiv.org/abs/2108.13542), [doi:10.1007/s00220-023-04761-2](https://doi.org/10.1007/s00220-023-04761-2)$]$
 
-
-
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Anderson self-duality of topological modular forms, its differential-geometric manifestations, and vertex operator algebras* $[$[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)$]$
 
 
 ##### M5-brane elliptic genus
