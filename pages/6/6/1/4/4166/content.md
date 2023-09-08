@@ -373,9 +373,7 @@ So by the above theorem
 
 The original articles on BDR 2-vector bundles are
 
-* [[Nils Baas]], [[Ian Dundas]],  [[John Rognes]], _Two-vector bundles
-and forms of elliptic cohomology_, in: _Topology, geometry and quantum field
-theory_, volume 308 of London Math. Soc. Lecture Note Ser., pages 18&#8211;45.
+* [[Nils Baas]], [[Ian Dundas]],  [[John Rognes]], _Two-vector bundles and forms of elliptic cohomology_, in: _Topology, geometry and quantum field theory_, volume 308 of London Math. Soc. Lecture Note Ser., pages 18&#8211;45.
 Cambridge Univ. Press, Cambridge, (2004).
 
 Their [[classifying spaces]] are discussed in
@@ -384,8 +382,7 @@ Their [[classifying spaces]] are discussed in
 
   (a previous version of this carried the title _Two-vector bundles define a form of elliptic cohomology_)
 
-* [[Nils Baas]], M. B&#246;ckstedt, [[Tore Kro]], _Two-Categorical Bundles and Their
-Classifying Spaces_ (2008) ([arXiv:math/0612549](http://arxiv.org/abs/math/0612549)), .
+* [[Nils Baas]], M. B&#246;ckstedt, [[Tore Kro]], _Two-Categorical Bundles and Their Classifying Spaces_ (2008) ([arXiv:math/0612549](http://arxiv.org/abs/math/0612549)), .
 
 Divisibility of the gerbe on the 3-sphere, seen as a 2-vector bundle is in
 
