@@ -190,7 +190,7 @@ so that
 \end{equation}
 
 Thus all the information about the commutators is encoded
-in functions $\chi : \mathfrak{b} \wedge \mathfrak{b} \rightarrow Der(\mathfrak{k})$
+in functions $\chi : \mathfrak{b} \wedge \mathfrak{b} \rightarrow \mathfrak{k}$
 and $\psi : \mathfrak{b} \to Der(\mathfrak{k})$,
 without knowledge of $\sigma$.
 
