@@ -548,12 +548,8 @@ In **summary**: After [[internalization]] as Real complex modules, complex Hermi
 
 \linebreak
 
-Furthermore, one may also internally characterize the [[Hermitian operators]] on some Hermtian space $H$ inside the tensor product $\mathscr{H} \otimes \mathscr{H}$ of the corresponding Real complex module with itself (...):
 
-<center>
-<img src="/nlab/files/HermitianOperatorsAsEquivariantModules-230901.jpg" width="900">
-</center>
-
+(...)
 
 \linebreak
 
