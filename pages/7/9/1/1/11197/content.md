@@ -70,6 +70,11 @@ The Anderson duals of [[KU]] and of [[tmf]] are discussed in
 
 * {#HeardStojanoska14} [[Drew Heard]], [[Vesna Stojanoska]], _K-theory, reality, and duality_ ([arXiv:1401.2581](http://arxiv.org/abs/1401.2581))
 
+In the context of [[heterotic string theory]]:
+
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Anderson self-duality of topological modular forms, its differential-geometric manifestations, and vertex operator algebras* &lbrack;[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)&rbrack;
+
+
 ### Equivariant duality
 
 Anderson duality in [[equivariant stable homotopy theory]] is discussed in
