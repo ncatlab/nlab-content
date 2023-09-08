@@ -55,6 +55,11 @@ The general strategy of realizing [[Majorana zero modes]] in supercondocuting/se
 
 * {#OregRefaelvonOppen10} Yuval Oreg, Gil Refael, and Felix von Oppen, *Helical Liquids and Majorana Bound States in Quantum Wires*, Phys. Rev. Lett. **105** (2010) 177002 &lbrack;[doi:10.1103/PhysRevLett.105.177002](https://doi.org/10.1103/PhysRevLett.105.177002)&rbrack;
 
+* [[Lukasz Fidkowski]], [[Alexei Kitaev]], *The effects of interactions on the topological classification of free fermion systems*, Phys. Rev. B **81** (2010) 134509  &lbrack;[arXiv:0904.2197](https://arxiv.org/abs/0904.2197), [doi:10.1103/PhysRevB.81.134509](https://doi.org/10.1103/PhysRevB.81.134509)&rbrack;
+
+  > ([[interaction|interacting]] generalization)
+
+
 reviewed in:
 
 * [[Pasquale Marra]], *Majorana nanowires for topological quantum computation: A tutorial*, J. of Applied Physics **132** (2022) 231101   &lbrack;[arXiv:2206.14828](https://arxiv.org/abs/2206.14828), [doi:10.1063/5.0102999](https://doi.org/10.1063/5.0102999)&rbrack;
