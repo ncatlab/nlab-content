@@ -439,9 +439,13 @@ $$
 
 * **module**, [[(∞,1)-module]], [[2-module]], [[module category]]
 
+  * [[module object]]
+
   * [[operad for modules over an algebra]]
 
   * [[linear independence]]
+
+  * [[injective module]], [[projective module]], [[free module]]
 
   * [[Noetherian module]]
 
