@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On ([[non-perturbative effect|strongly]]) [[interaction|interacting]] [[topological phases of matter]] (such as [[topological order]]):
+
+* [[Jason Alicea]], [[Matthew Fisher]], [[Marcel Franz]], [[Yong-Baek Kim]],  *Strongly Interacting Topological Phases*, report on Banff workshop [15w5051](http://www.birs.ca/events/2015/5-day-workshops/15w5051) (2015) &lbrack;[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf), [[AliceaEtAl-InteractingTopPhases.pdf:file]]&rbrack;
+
 Introducing [[Majorana dimers]] for [[Ising anyons]]:
 
 * Brayden Ware, Jun Ho Son, [[Meng Cheng]], Ryan V. Mishmash, [[Jason Alicea]], and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B 94, 115127 2016 ([arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127))
