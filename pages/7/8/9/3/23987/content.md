@@ -1247,7 +1247,7 @@ Stone-von Neumann**
 
   [zoom link](https://nyu.zoom.us/rec/play/7bZ5QFOvN2cUPSEQ2-8F1Ek8-SjV7ibQbBJANgPd1jJKP5Fv3J664ck86Rin-74Sv6HLOxSrhqOhVx4u.4Dxb1bbc5C0fN-nB?autoplay=true&startTime=1649246546000)
 
-  > [[differential cohomology|Differential generalized cohomologies]] refine generalized cohomologies on manifolds so as to retain information on differential forms. The aim of my talk is to describe formulations of [[differential K-theory|differential]] [[KO-theory]] based on gradations and [[mass terms]]. The formulation based on mass terms is motivated by a conjecture of Freed and Hopkins about a classification of [[invertible quantum field theories]] and by a model of the [[Anderson dual]] of [[cobordism cohomology|cobordism theory]] given by Yamashita and Yonekura. I will start with an account of this background, and then describe the formulation of [[differential K-theory|differential]] [[KO-theory]]. In the formulation a key role is played by a uperconnection associated to a mass term. This is a joint work with Mayuko Yamashita.
+  > [[differential cohomology|Differential generalized cohomologies]] refine generalized cohomologies on manifolds so as to retain information on differential forms. The aim of my talk is to describe formulations of [[differential K-theory|differential]] [[KO-theory]] based on gradations and [[mass terms]]. The formulation based on mass terms is motivated by a conjecture of Freed and Hopkins about a classification of [[invertible quantum field theories]] and by a model of the [[Anderson dual]] of [[cobordism cohomology|cobordism theory]] given by Yamashita and Yonekura. I will start with an account of this background, and then describe the formulation of [[differential K-theory|differential]] [[KO-theory]]. In the formulation a key role is played by a uperconnection associated to a mass term. This is a joint work with [[Mayuko Yamashita]].
 
 \linebreak
 
@@ -1648,7 +1648,17 @@ Stone-von Neumann**
 
   > [[conformal field theory|Conformal field theory]] is an integral part of modern [[mathematical physics]] with applications to [[statistical physics]], [[string theory]] and pure [[mathematics]].  Textbooks teach us that such theories are built from [[chiral algebras]] (also called [[vertex operator algebras]]) with nice ([[semisimple category|semisimple]]) [[representation theories]].  But, what happens when the algebra has non-semisimple representations?  This is the defining feature of [[logarithmic conformal field theory]]...
 
+\linebreak
 
+### Sep 2023
+
+* {#YamashitaSep2023} 13 Sep 2023
+
+  [[Mayuko Yamashita]]  (Kyoto University, Japan):
+
+  **Topological Modular Forms and Heterotic String Theory**
+
+  > In this talk, I will explain my works with [[Yuji Tachikawa|Y. Tachikawa]] to study [[quantum anomaly|anomalies]] in [[heterotic string theory]] via [[homotopy theory]], especially the theory of [[topological modular forms|Topological Modular Forms]] ([[TMF]]). TMF is an [[E-infinity ring|E-infinity]] [[ring spectrum]] which is [[What is an elliptic object?|conjectured by Stolz-Teichner]] to classify [[(2,1)-dimensional Euclidean field theory|two-dimensional supersymmetric quantum field theories]] in physics. In the previous work &lbrack;[arXiv:2108.13542](https://arxiv.org/abs/2108.13542)&rbrack;, we proved the vanishing of anomalies in heterotic string theory mathematically using TMF. Additionally, we have a recent update on the previous work &lbrack;[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)&rbrack;. Due to the vanishing result, we can consider a secondary transformation of spectra, which coincides with the [[Anderson duality|Anderson self-duality]] morphism of TMF. This allows us to detect subtle torsion phenomena in TMF by [[differential geometry|differential-geometric]] methods.
 
 
 \linebreak
@@ -1816,6 +1826,23 @@ External presentations reporting on work at CQTS.
   slides: [pdf](https://ncatlab.org/schreiber/files/Schreiber-ToposInstitute-230413b.pdf) (view full screen)
 
   video: [YT](https://www.youtube.com/watch?v=G24jHsx_BQE)
+
+\linebreak
+
+### Aug 2023
+
+
+* [24 Aug 2023](https://researchseminars.org/talk/ToposInstituteColloquium/104/)
+
+  [[Urs Schreiber]]:
+
+  **[[schreiber:Quantum Certification via Linear Homotopy Types|Effective Quantum Certification via Linear Homotopy Types]] --- Part II** 
+
+  [talk at](https://researchseminars.org/talk/ToposInstituteColloquium/104/) [Colloquium of the *Topos Institute*](https://topos.site/topos-colloquium/)
+
+  slides: [pdf](https://ncatlab.org/schreiber/files/Schreiber-ToposInstitute-230413b.pdf) (view full screen)
+
+  video: [YT](https://www.youtube.com/watch?v=tqsH41b2xFA)
 
 
 \linebreak
