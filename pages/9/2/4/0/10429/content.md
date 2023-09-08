@@ -292,10 +292,26 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 [[!include topological phases of matter via K-theory -- references]]
 
 
-
 ### Interacting topological phases
+ {#ReferencesInteractingTopologicalPhases}
 
-* *Strongly Interacting Topological Phases* (2015) $[$[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf)$]$
+There is comparatively little discussion of the classification of topological phases of matter where the elementary excitations cannot be approximated as being non-interacting with each other.
+
+Strong interaction is thought to be necessary for [[topological order]], see [there](topological+order#ReferencesLongRangeEntanglementRelationToStrongInteraction) for references on this point.
+
+Discussion for the example of the [[Kitaev spin chain]]:
+
+* [[Lukasz Fidkowski]], [[Alexei Kitaev]], *The effects of interactions on the topological classification of free fermion systems*, Phys. Rev. B **81** (2010) 134509  &lbrack;[arXiv:0904.2197](https://arxiv.org/abs/0904.2197), [doi:10.1103/PhysRevB.81.134509](https://doi.org/10.1103/PhysRevB.81.134509)&rbrack;
+
+An overview:
+
+* [[Jason Alicea]], [[Matthew Fisher]], [[Marcel Franz]], [[Yong-Baek Kim]],  *Strongly Interacting Topological Phases*, report on Banff workshop [15w5051](http://www.birs.ca/events/2015/5-day-workshops/15w5051) (2015) &lbrack;[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf), [[AliceaEtAl-InteractingTopPhases.pdf:file]]&rbrack;
+
+A proposal for the generalization of the [[K-theory classification of topological phases]] to interacting systems
+
+* [Sati & Schreiber 2023](#SatiSchreiber23).
+
+
 
 ### Other articles
 
