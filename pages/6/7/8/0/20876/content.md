@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -24,34 +23,31 @@
 ###### Definition
 **([[infinitesimal braid Lie algebra]])**
 
-For $D,n \in \mathbb{N}$ [[natural numbers]], let $F(\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}})$ be the [[free Lie algebra]] (over a given [[ground field]]) on [[generators and relations|generators]] $t_{i j}$ in degree $D-2$ with two indices ranging from 1 to $n$ and distinct.
+For $n \in \mathbb{N}$ [[natural numbers]], let $F(\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}})$ be the [[free Lie algebra]] (over a given [[ground field]]) on [[generators and relations|generators]] $t_{i j}$ in degree with two indices ranging from 1 to $n$ and distinct.
 
-The _infinitesimal braid relations_ are the following [[generators and relations|relations]] on the underlying [[vector space]] of the [[free construction|free]] [[Lie algebra]] on [[generators and relations|generators]] $\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}}$ 
+The _infinitesimal braid relations_ in dimension $D = 2$ are the following [[generators and relations|relations]] on the underlying [[vector space]] of the [[free construction|free]] [[Lie algebra]] on [[generators and relations|generators]] $\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}}$ 
 
 \[
   \label{InfinitesimalBriadRelations}
-  \left.
- \array{
-    R0: \;\; & t_{i j} - (-1)^D t_{j i} & = 0 
+ \left.
+ \begin{array}{lcll}
+    R0: \;\; & t_{i j} - t_{j i} & = 0 
     \\
     R1: \;\; & [t_{i j}, t_{k l}] & =  0  
     \\
-    R2: \;\; & [t_{i k} + t_{j k}, t_{i j}] & = 0 
-  }
-  \;\;
+    R2: \;\; & [t_{i j}, t_{i k} + t_{k j}] & = 0 
+    &
+    \mathrlap{\,}
+  \end{array}
   \right\}
-  \phantom{AAA}
-  {
-  \text{for all pairwise distinct}
-  \atop
-  \text{tuples of indices}
-  }
+  \text{for pairwise distinct indices}
+  \;\;
 \]
 
 This defines a quotient [[Lie algebra]] often denoted 
 
 $$
-  \mathcal{L}_n(D)
+  \mathcal{L}_n
   \;\coloneqq\;
   F(\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}})
   /(R0, R1, R2)
@@ -60,8 +56,12 @@ $$
 
 =--
 
+More generally, there is a version of this in any dimension $D \in \mathbb{N}$ with some extra signs thrown in.
+
 This is originally due to [Kohno 87 (1.1.4)](#Kohno87), it
-appears also in [Kohno 88](#Kohno88), [Bar-Natan 96, Fact 3](#BarNatan96), [Fadell-Husseini 01](#FadellHusseini01), [Cohen-Gitler 01, Section 3](#CohenGitler01), [Cohen-Gitler 02, p. 2](#CohenGitler02).
+appears also in [Kohno 88](#Kohno88), [Bar-Natan 96, Fact 3](#BarNatan96), [Fadell-Husseini 01](#FadellHusseini01), [Cohen-Gitler 01, Section 3](#CohenGitler01).
+
+Authors have used different equivalent versions of this presentation, see [Cohen-Gitler 02, p. 2](#CohenGitler02) for a clear statement.
 
 ## Properties
 
