@@ -76,7 +76,7 @@ We might hope that non-strict premonoidal categories are [[pseudomonoids]] in $(
 
 * Every [[monoidal category]] is a premonoidal category.
 
-* If $T$ is a [[strong monad|bistrong monad]] on a monoidal category $C$ (e.g. a strong monad on a braided monoidal category), then the [[Kleisli category]] $C_T$ of $T$ inherits a premonoidal structure, such that the functor $C\to C_T$ is a strict premonoidal functor.  This premonoidal structure is only a monoidal structure if $T$ is a [[commutative monad]].
+* If $T$ is a [[strong monad|left- and right-strong monad]] on a monoidal category $C$ (e.g. a strong monad on a braided monoidal category), then the [[Kleisli category]] $C_T$ of $T$ inherits a premonoidal structure, such that the functor $C\to C_T$ is a strict premonoidal functor.  This premonoidal structure is only a monoidal structure if $T$ is a [[commutative monad]].
 
 * A strict premonoidal category is the same as a [[sesquicategory]] with one object, so any object of a sesquicategory has a corresponding premonoidal category whose objects are endomorphisms and arrows are 2-cells.
 
