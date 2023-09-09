@@ -158,13 +158,13 @@ For example:
 
 On the $R$-[[module]] $R\langle \mathcal{D}^{pb}\rangle$ of [[horizontal chord diagrams]] consider the following [[relations]]:
 
-The [[2T relations]]:
+The [[2T relations]] -- for pairwise distinct indices $i,j,k,l$ the $(i,j)$-chord commutes with the $(k,l)$-chord, for instance: 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram2TRelation.jpg" width="600">
 </center>
 
-and the [[4T relations]]:
+and the [[4T relations]] -- for pairwise distinct indices $i,j,k$ we have:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram4TRelation.jpg" width="600">
