@@ -19,6 +19,8 @@
 
 In [[knot theory]] the _2-term relations_ on [[horizontal chord diagrams]] are the following [[relations]] in the [[linear span]] of the set of [[horizontal chord diagrams]]:
 
+For pairwise distinct indices $i,j,k,l$, the $(i,j)$-chord generator commutes with the $(k,l)$-chord generator, for instance:
+
 <center>
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram2TRelation.jpg" width="600">
 </center>
