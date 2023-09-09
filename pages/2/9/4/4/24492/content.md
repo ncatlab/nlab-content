@@ -16,5 +16,7 @@ On [[smooth ∞-groupoids]] (called "[[differentiable stacks]]") and the [[smoot
 
 * {#Clough21} [[Adrian Clough]], *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
+* *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
+
 category: people
 
