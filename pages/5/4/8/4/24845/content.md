@@ -23,6 +23,10 @@ All of these terms refer to the equivalent [[axiom|axiomatization]] of [[monads]
 
 This is the natural and common incarnation of [[monads in computer science]]; see there for more.
 
+## Related concepts
+
+* [[extension system]]
+
 ## References
 
 * {#Moggi89} [[Eugenio Moggi]], Def. 1.2 in: *Computational lambda-calculus and monads*, in: *Proceedings of the Fourth Annual Symposium on Logic in Computer Science* (1989) 14-23 &lbrack;[doi:10.1109/LICS.1989.39155](https://doi.org/10.1109/LICS.1989.39155)&rbrack;
