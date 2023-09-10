@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -52,7 +51,13 @@ Textbook account:
 
 and with emphasis on the relation to [[type theory]]:
 
-* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack;
+* [[Simon Thompson]], *[[Type Theory and Functional Programming]]*, Addison-Wesley (1991) &lbrack;ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)&rbrack
+
+Exposition of the [[categorical semantics]] of functional programming (such as via [[monads in computer science]]):
+
+* {#Milewski19} [[Bartosz Milewski]] (compiled by Igal Tabachnik), *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+
+* [[Bartosz Milewski]], *The Dao of Functional Programming* (2023) &lbrack;[pdf](https://github.com/BartoszMilewski/Publications/blob/master/TheDaoOfFP/DaoFP.pdf), [github](https://github.com/BartoszMilewski/Publications/tree/master/TheDaoOfFP)&rbrack;
 
 See also:
 
