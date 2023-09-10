@@ -32,7 +32,7 @@ We consider the category $Mod_{\mathbb{C}}$ of [[complex vector spaces]] with, a
 
 * [[tensor unit]]$\;$ $\mathbb{1} \,\equiv\, \mathbb{C}$ the [[complex numbers]] themselves,
 
-* [[internal hom]] $\mathscr{H} \multimal \mathscr{H}'$ the vector space of [[linear maps]].
+* [[internal hom]] $\mathscr{H} \multimap \mathscr{H}'$ the vector space of [[linear maps]].
 
 
 Throughout the following we fix
