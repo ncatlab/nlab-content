@@ -77,6 +77,8 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 ## Related concepts
 
+* [[quantum costate comonad]]
+
 * [[maybe monad]],
 
 * [[continuation monad]]
