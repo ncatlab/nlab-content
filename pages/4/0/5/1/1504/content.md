@@ -488,7 +488,7 @@ See also
 
 The fundamental work of Zwiebach on closed SFT is summed up in
 
-* {#Zwiebach93} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+* {#Zwiebach93} [[Barton Zwiebach]], *Closed string field theory: Quantum action and the Batalin-Vilkovisky master equation*, Nucl. Phys. B **390** 1 (1993) 33-152 &lbrack;[arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084), <a href="https://doi.org/10.1016/0550-3213(93)90388-6">doi:10.1016/0550-3213(93)90388-6</a>&rbrack;
   
 
 Brief reviews include
@@ -677,12 +677,11 @@ Volume 352, Issue 2, 25 March 1991, Pages 451-468 (<a href="https://doi.org/10.1
 
 The [[L-infinity algebra]] structure on Zwiebach's bosonic closed string fields is apparently due to a comment by [[Jim Stasheff]] to the conference contribution
 
-* {#Zwiebach89} [[Barton Zwiebach]], _Issues In Covariant Closed String Theory_, pages 192-200 in Proceedings of _[10th and Final Workshop on Grand Unification](http://inspirehep.net/record/966930)_, 20-22 Apr 1989. Chapel Hill, North Carolina ([spire](http://inspirehep.net/record/282685?ln=de))
+* {#Zwiebach89} [[Barton Zwiebach]], *Issues In Covariant Closed String Theory*, pp 192-200 in: *Proceedings of [10th and Final Workshop on Grand Unification](http://inspirehep.net/record/966930)*, 20-22 Apr 1989. Chapel Hill, North Carolina &lbrack;[spire:282685](http://inspirehep.net/record/282685)&rbrack;
 
 It appears in print in
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 
-([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+* [[Barton Zwiebach]], *Closed string field theory: Quantum action and the Batalin-Vilkovisky master equation*, Nucl. Phys. B **390** 1 (1993) 33-152 &lbrack;[arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084), <a href="https://doi.org/10.1016/0550-3213(93)90388-6">doi:10.1016/0550-3213(93)90388-6</a>&rbrack;
 
 See also at _[[L-infinity algebras in physics]]_.
 
