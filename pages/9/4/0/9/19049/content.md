@@ -48,7 +48,7 @@ This means that given an [[object]] $S \in \mathcal{C}$ there is a pair of [[adj
 
 Notice that 
 
-* the [[unit of an adjunction|unit]] of this adjunction (being the [[adjunct]] of the [[identity morphism]] on ${S \times D}$) is (the "[[coevaluation map]]"):
+* the [[unit of an adjunction|unit]] of this adjunction (being the [[adjunct]] of the [[identity morphism]] on ${S \times D}$) is:
 
   \[
     \label{InternalHomAdjunctionUnit}
@@ -263,9 +263,11 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 ### General
 
+* {#Milewski19} [[Bartosz Milewski]] (compiled by Igal Tabachnik), §23.6 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
+
 * {#Uustalu21} [[Tarmo Uustalu]], slide 14 of: *Monads and Interaction Lecture 3* , lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021) &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
-### Related to lenses
+### Relation to lenses
 
 The observation that [[lenses (in computer science)]] are equivalently the [[coalgebra over a comonad|coalgebras]] of the [[costate comonad]] (cf.  *[[monads in computer science]]*) is due  to:
 
