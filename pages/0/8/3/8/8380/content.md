@@ -1105,6 +1105,13 @@ Implementation in [[Haskell]]:
 [[!redirects comonadic context]]
 [[!redirects comonadic contexts]]
 
+[[!redirects monadic bind operation]]
+[[!redirects monadic bind operations]]
+
+[[!redirects comonadic extend operation]]
+[[!redirects comonadic extend operations]]
+
+
 [[!redirects do-notation]]
 [[!redirects do notation]]
 
