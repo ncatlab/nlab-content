@@ -82,25 +82,23 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 The characterization of the free compact closed category over a closed symmetric monoidal category is described in
 
-* {#Day1977} [[Brian Day]], _Note on compact closed categories_, J. Austral. Math. Soc. 24 (Series A), 309-311 (1977) doi:[10.1017/S1446788700020334](https://doi.org/10.1017/S1446788700020334)
+* {#Day1977} [[Brian Day]], *Note on compact closed categories*, J. Austral. Math. Soc. (Series A) **24**  309-311 (1977) &lbrack;[doi:10.1017/S1446788700020334](https://doi.org/10.1017/S1446788700020334)&rbrack;
 
-Discussion of [[coherence]] in compact closed categories is due to
-
+Discussion of [[coherence]] in compact closed categories is due to:
 
 * {#KellyLaplaza80} [[Max Kelly]], [[M. L. Laplaza]], *Coherence for compact closed categories*, Journal of Pure and Applied Algebra, **19** 193-213 (1980) &lbrack;<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf)&rbrack;
 
 
-The relation to [[quantum operations]] and [[completely positive maps]] is discussed in
+On the relation to [[quantum operations]] and [[completely positive maps]]:
 
-* Peter Selinger, _Dagger compact closed categories and
-completely positive maps_, Electronic Notes in Theoretical Computer Science
-**170** (2007) Pages 139-163, doi:[10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)
+* [[Peter Selinger]], _Dagger compact closed categories and
+completely positive maps_, Electronic Notes in Theoretical Computer Science **170** (2007) 139-163, &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)&rbrack;
 
-The relation to [[traced monoidal categories]] is discussed in
+On the relation to [[traced monoidal categories]]:
 
 * {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf)), doi:[10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)
 
-
+See also:
 
 * Wikipedia, _[Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category)_ .
 
