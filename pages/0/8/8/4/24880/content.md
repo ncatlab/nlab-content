@@ -574,6 +574,8 @@ This operation hence sends quantum states (pure or not) to their corresponding [
 
 ## Related entries
 
+* [[quantum costate comonad]]
+
 * [[quantum circuits via dependent linear types]]
 
 * [[doubly closed monoidal category]]
