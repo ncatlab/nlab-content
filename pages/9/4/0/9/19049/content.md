@@ -28,32 +28,202 @@ see [there](lens+in+computer+science#LensesAreCostateCoalgebras)) used to inspec
 
 ## Definition
 
-On a [[cartesian closed category]], the costate comonad is that induced by the [[internal hom]]-[[adjoint functor|adjunction]] ([[left adjoint]] to the [[state monad]]).
+### On a cartesian closed category
+ {#OnACartesianClosedCategory}
 
-In detail: As a comonadic triple $(D,\varepsilon,\delta)$ it is given by an [[endofunctor]],
-$$
-D X : X \rightarrow W \times [W,X],
-$$
-with [[natural transformations]] the counit,
-$$
-\varepsilon : D X \rightarrow X 
-$$
-$$
-\varepsilon(v,f) \mapsto f(v),
-$$
-usually called **extract** and comultiplication,
-$$
-\delta: D X \rightarrow D D X
-$$
-$$
-\delta (s, v) \mapsto (s, \lambda  s' . (s', v)),
-$$ 
+By default, the costate comonad is understood to be defined on a [[cartesian closed category]] $(\mathcal{C}, \times \ast)$ whose [[internal hom]] we denote by $[\text{-}, \text{-}]$.
 
-simply called **duplicate**.
+This means that given an [[object]] $S \in \mathcal{C}$ there is a pair of [[adjoint functors]]
+
+\[
+  \label{CartesianInternalHomAdjunction}
+  \mathcal{C}
+  \underoverset
+    {\underset{[S,\text{-}]}{\longrightarrow}}
+    {\overset{S \times (\text{-})}{\longleftarrow}}
+    {\;\; \bot \;\;}
+  \mathcal{C}
+  \,.
+\] 
+
+Notice that 
+
+* the [[unit of an adjunction|unit]] of this adjunction (being the [[adjunct]] of the [[identity morphism]] on ${S \times D}$) is (the "[[coevaluation map]]"):
+
+  \[
+    \label{InternalHomAdjunctionUnit}
+    \array{
+      D
+      &
+      \overset{
+        ret^{ S State }_D
+      }{\longrightarrow}
+      &
+      \big[ S ,\, S \times D \big]
+      \\
+      d &\mapsto& \big( s \mapsto (s,d)  \big)
+      \mathrlap{\,,}
+    }
+  \]
+
+* the [[counit of an adjunction|counit]] of this adjunction (being the [[adjunct]] of the [[identity morphism]] on ${[S,D]}$) is the [[evaluation map]]
+
+  \[
+    \label{InternalHomAdjunctionCoUnit}
+    \array{
+      S \times [S,D]
+      &
+      \overset{
+        obt^{S Store}_D
+      }{\longrightarrow}
+      &
+      D
+      \\
+      \big(
+        s, f
+      \big)
+      &\mapsto&
+      f(s)
+      \mathrlap{\,.}
+    }
+  \]
+
+While  the $S$-[[state monad]] is the [[monad]] [induced](monad#RelationBetweenAdjunctionsAndMonads) by this adjunction (eq:CartesianInternalHomAdjunction)
+
+  $$
+    S State 
+      \,\coloneqq\, 
+    \big[
+      S
+      ,\,
+      S \times (\text{-})
+    \big]
+  $$
+
+the *$S$-state comonad* is the induced comonad
+
+$$
+  S Store
+  \,\coloneqq\,
+  S \times \big[ S,\, (\text{-}) \big]
+  \,.
+$$
+
+whose [[counit of a comonad|counit]] is (eq:InternalHomAdjunctionCoUnit) and whose duplicate operation (comonad coproduct) is given by the unit (eq:InternalHomAdjunctionUnit) as
+
+$$
+  \array{
+    S \times [S, D]
+    &
+    \overset{
+      S \times 
+      ret^{S State}_{[S,D]}
+    }
+    {\longrightarrow}
+    &
+    S \times \big[S, S \times [S,D] \big]
+    \\
+    (s, f)
+    &\mapsto&
+    \Big(
+      s
+      ,\,
+      \big(
+        s' 
+        \,\mapsto\,
+        (s', f) 
+      \big)
+    \Big)
+  }
+$$
+
+Therefore the [[comonadic extend operation]] sends a [[coKleisli morphism]]
+
+$$
+  \mathcal{O}
+  \,\colon\,
+  S \times [S,D]
+  \longrightarrow
+  D'
+$$
+
+to
+
+$$
+  \array{
+    \mathllap{
+      extend^{ S Store }_{D,D'} \mathcal{O}
+      \;\;\colon\;\;
+    }
+    S \times [S,D]
+    &\overset{
+      S \times ret^{S State}_{[S,D]}
+    }{\longrightarrow}&
+    S \times \big[ S \times [S,D]  \big]
+    &\overset{
+      S \times \big[ S, \mathcal{O} \big]
+    }{\longrightarrow}&
+    S \times [S, D']
+    \\
+    (s,f)
+    &\mapsto&
+    \Big(
+      s
+      ,\,
+      \big(
+        s' 
+        \,\mapsto\,
+        (s', f) 
+      \big)
+    \Big)   
+    &\mapsto&
+    \Big(
+      s
+      ,\,
+      \big(
+        s' 
+        \,\mapsto\,
+        \mathcal{O}(s',f)
+      \big)
+    \Big)   
+    \mathrlap{\,.}
+  }
+$$
+
+In applications of [[comonads in computer science]] one thinks of 
+
+* $S$ as an address type,
+
+* $[S,D]$ a data base of $S$-indexed $D$-data
+
+hence of the $S Store$-comonad on $D$ as providing the computational context consisting of data base (of "stored $D$-values", whence the name *store comonad*) and an address.
+
+Thus the *obtain*-operation (eq:InternalHomAdjunctionCoUnit) literally obtains (reads, extracts) the memory content at the given address.
+
+### On closed monoidal categories
+
+More generally, for $(\mathcal{C}, \otimes, \mathbb{1})$ a [[closed monoidal category]] (not necessarily [[cartesian closed category|cartesian]]), every object $D$ still still gives an [[internal-hom]] [[adjoint functor|adjunction]] of the form (eq:CartesianInternalHomAdjunction)
+
+\[
+  \label{MonoidalInternalHomAdjunction}
+  \mathcal{C}
+  \underoverset
+    {\underset{[S,\text{-}]}{\longrightarrow}}
+    {\overset{S \otimes (\text{-})}{\longleftarrow}}
+    {\;\; \bot \;\;}
+  \mathcal{C}
+\] 
+
+and the [induced](monad#RelationBetweenAdjunctionsAndMonads) [[monad]] and [[comonad]] may be understood as [[substructural logic|substructural]] forms of the [[state monad]] and store comonad, respectively.
+
+Particularly when $\mathcal{C} \,\equiv\, Mod_{\mathbb{C}}$ is the [[category of vector bundles|category of]] [[complex vector spaces]] ("$\mathbb{C}$-[[linear spaces]]") this gives a [[linear type theory|linear]] form of the costate comonad, discussed at
+
+* *[[quantum costate comonad]]*.
+
 
 ## Properties
 
-### Realization in dependent type theory
+### Realization by base change
 
 In a [[locally Cartesian closed category]]/[[dependent type theory]] $\mathbf{H}$, then to every type $W$ is associated its [[base change]] [[adjoint triple]]
 
