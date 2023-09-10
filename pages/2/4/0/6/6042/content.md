@@ -43,20 +43,19 @@ Textbook accounts:
 
 Discussion in [[worldline]] [[Lagrangian mechanics]]:
 
-* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], Exc. 7.2 (p. 179) in: *[[Gravitation]]*, W. H. Freeman, San Francisco (1973) $[$ISBN:9780716703440$]$
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], Exc. 7.2 (p. 179) in: *[[Gravitation]]*, W. H. Freeman, San Francisco (1973) &lbrack;ISBN:9780716703440&rbrack;
 
-* {#Frankel97} [[Theodore Frankel]], §16.4b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) $[$[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)$]$
+* {#Frankel97} [[Theodore Frankel]], §16.4b in: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
 See also 
 
 * Wikipedia, _[Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force)_
 
-The generalization to the [[spinning particle]] is discussed for instance in 
+On generalization to the [[spinning particle]]:
 
-* J.W. van Holten, _Relativistic Dynamics of Spin in Strong
-External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
+* [[Jan-Willem van Holten]], *Relativistic Dynamics of Spin in Strong External Fields* &lbrack;[arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124)&rbrack;
 
-Discussion of Lorentz force from the point of view of the [[Kaluza-Klein mechanism]] is in
+Discussion of Lorentz force from the point of view of the [[Kaluza-Klein mechanism]]:
 
 * {#Bleecker81} David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. 
   
