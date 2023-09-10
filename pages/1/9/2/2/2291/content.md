@@ -51,7 +51,7 @@ Similarly:
 +-- {: .num_example #CanonicalLineBundle}
 ###### Example
 
-Every [[orientable]] [[complex manifold]] carries a [[complex vector bundle|comple]] line bundle of top-degree [[holomorphic differential forms]]. This is called its _[[canonical line bundle]]_. 
+Every [[orientable]] [[complex manifold]] carries a [[complex vector bundle|complex]] line bundle of top-degree [[holomorphic differential forms]]. This is called its _[[canonical line bundle]]_. 
 
 =--
 
