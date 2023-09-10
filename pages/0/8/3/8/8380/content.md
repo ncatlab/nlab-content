@@ -994,6 +994,9 @@ Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
 * {#Milewski19} [[Bartosz Milewski]] (compiled by Igal Tabachnik), "Monads: Programmer's Definition", §20 in: *Category Theory for Programmers*, Blurb (2019) &lbrack;[pdf](https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf), [github](https://github.com/hmemcpy/milewski-ctfp-pdf), [webpage](https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/), [ISBN:9780464243878](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco)&rbrack;
 
+* [[Bartosz Milewski]], §14 in: *The Dao of Functional Programming* (2023) &lbrack;[pdf](https://github.com/BartoszMilewski/Publications/blob/master/TheDaoOfFP/DaoFP.pdf), [github](https://github.com/BartoszMilewski/Publications/tree/master/TheDaoOfFP)&rbrack;
+
+
 Further discussion/exposition of the notion and application of (co)monads in computer science:
  
 * {#BrookesGeva91} [[Stephen Brookes]], Shai Geva, *Computational Comonads and Intensional Semantics*, CMU-CS-91-190 (1991) &lbrack;[[BrookersGeva-ComputationalComonads.pdf:file]]&rbrack;
