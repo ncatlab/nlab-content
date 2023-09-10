@@ -959,6 +959,7 @@ Origin of the [[do-notation]] for [[Kleisli composition]] of effectful programs:
 
 * {#Launchbury93} [[John Launchbury]], §3.3 in: *Lazy imperative programming*, Proceedings of *ACM Sigplan Workshop on State in Programming Languages*, Copenhagen (1993) &lbrack;[pdf](https://launchbury.files.wordpress.com/2019/01/lazy-imperative-programming.pdf), [[Launchbury-LazyImperative.pdf:file]]&rbrack;
 
+    
 
 In the generality of [[relative monads]]:
 
@@ -969,12 +970,17 @@ The dual notion of [[comonads in computer science]] as modelling *contexts*:
 
 * {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science **203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
 
-* {#POM13} Tomas Petricek, [[Dominic Orchard]], Alan Mycroft, *Coeffects: Unified Static Analysis of Context-Dependence*, in: *Automata, Languages, and Programming. ICALP 2013*, Lecture Notes in Computer Science **7966** Springer (2013) &lbrack;[doi:10.1007/978-3-642-39212-2_35](https://doi.org/10.1007/978-3-642-39212-2_35)&rbrack;
+* {#POM13} [[Tomas Petricek]], [[Dominic Orchard]], [[Alan Mycroft]], *Coeffects: Unified Static Analysis of Context-Dependence*, in: *Automata, Languages, and Programming. ICALP 2013*, Lecture Notes in Computer Science **7966** Springer (2013) &lbrack;[doi:10.1007/978-3-642-39212-2_35](https://doi.org/10.1007/978-3-642-39212-2_35)&rbrack;
 
 * {#Overton14} David Overton, *Comonads in Haskell* (2014) &lbrack;[web](https://speakerdeck.com/dmoverton/comonads-in-haskell), [[Overton-ComonadsHaskell.pdf:file]]&rbrack;
 
   > (in [[Haskell]])
    
+
+on codo-notation for comonadic contexts:
+
+* [[Dominic Orchard]], [[Alan Mycroft]], *A Notation for Comonads*, in: *Implementation and Application of Functional Languages. IFL 2012*, Lecture Notes in Computer Science **8241** &lbrack;[doi:10.1007/978-3-642-41582-1_1](https://doi.org/10.1007/978-3-642-41582-1_1)&rbrack;
+
 
 and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalities]]:
 
@@ -1096,6 +1102,12 @@ Implementation in [[Haskell]]:
 
 [[!redirects comonads in computer science]]
 
+[[!redirects comonadic context]]
+[[!redirects comonadic contexts]]
+
 [[!redirects do-notation]]
 [[!redirects do notation]]
+
+[[!redirects codo-notation]]
+[[!redirects codo notation]]
 
