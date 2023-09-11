@@ -35,6 +35,7 @@ _Quipper_ is a [[functional programming language|functional]] [[quantum programm
 * [[QPL]]
 
 ## References
+ {#References}
 
 
 Quipper landing page:
