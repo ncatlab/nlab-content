@@ -199,7 +199,7 @@ A theory is said to be __complete__ if it is equivalent to $Th(M)$ for some stru
 
 #### Categorical point of view and models in topoi
 
-From the categorical point of view, for every theory $T$ there exists a [[category]] $C_T$ -- the  **[[syntactic category]]** $C_T$ -- such that a model for $T$ is a [[functor]] $C_T \to \mathcal{T}$ into some [[topos]] $T$, satisfying certain conditions.
+From the categorical point of view, for every theory $T$ there exists a [[category]] $C_T$ -- the  **[[syntactic category]]** $C_T$ -- such that a model for $T$ is a [[functor]] $C_T \to \mathcal{T}$ into some [[topos]] $\mathcal{T}$, satisfying certain conditions.
 
 For instance the syntactic categories of [[Lawvere theory|Lawvere theories]] are precisely those categories that have finite cartesian [[product]]s and in which every object is [[isomorphic]] to a finite cartesian power $x^n$ of a distinguished object $x$. A model for a Lawvere theory is precisely a finite product preserving functor $C_T \to \mathcal{T}$.
 
