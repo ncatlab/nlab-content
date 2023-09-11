@@ -14,6 +14,11 @@ On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-t
 
 * {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
 
+On [[quantum mechanics]]:
+
+* [[Chris Isham]], *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
+
+
 Proposal that the [[Kochen-Specker theorem]] suggests to understand [[quantum physics]] via the [[internal logic]] of 
 (what later would be called) a *[[Bohr topos]]*:
 
