@@ -1,5 +1,7 @@
 
-* [webpage](http://www.mscs.dal.ca/~selinger/)
+* [personal webpage](http://www.mscs.dal.ca/~selinger/)
+
+* [institute page](https://www.dal.ca/faculty/science/math-stats/faculty-staff/our-faculty/mathematics/peter-selinger.html)
 
 ## Selected writings
 
