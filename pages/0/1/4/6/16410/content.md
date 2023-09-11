@@ -181,11 +181,16 @@ For analogous discussion of embedding of the [[ekpyrotic cosmology]]-scenario in
 
 Discussion of *asymptotic* de Sitter spacetimes from time-dependent [[KK-compactification]] of [[type II supergravity]]:
 
-* {#MarconnetTsimpis23} Paul Marconnet, [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*,  J. High Energ. Phys. **2023** 33 (2023) &lbrack;[arXiv:2210.10813](https://arxiv.org/abs/2210.10813), <a href="https://doi.org/10.1007/JHEP01(2023)033">doi:10.1007/JHEP01(2023)033</a>&rbrack;
+* {#MarconnetTsimpis23} Paul Marconnet, [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, J. High Energ. Phys. **2023** 33 (2023) &lbrack;[arXiv:2210.10813](https://arxiv.org/abs/2210.10813), <a href="https://doi.org/10.1007/JHEP01(2023)033">doi:10.1007/JHEP01(2023)033</a>&rbrack;
 
 reviewed in:
 
 * [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;slides:[[Tsimpis-MTheoryMath2023.pdf:file]], video:video: [YT](https://www.youtube.com/watch?v=LEiqYz-G34g), [web](/nlab/show/M-Theory+and+Mathematics#Tsimpis2023)&rbrack;
+
+and further discussed in:
+
+* David Andriot, [[Dimitrios Tsimpis]], Timm Wrase, *Accelerated expansion of an open universe, and string theory realizations* &lbrack;[arXiv:2309.03938](https://arxiv.org/abs/2309.03938)&rbrack;
+
 
 
 [[!redirects de Sitter spacetimes]]
