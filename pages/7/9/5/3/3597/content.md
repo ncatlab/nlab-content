@@ -119,6 +119,9 @@ The notion of density matrices originates with
 
 Most accounts of [[quantum physics]] discuss density matrices in some form. See for instance:
 
+* [[Jun John Sakurai]], Jim Napolitano, §3.4 in: *Modern Quantum Mechanics*, Cambridge University Press (1985, 1994, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
+
+
 * [[Chris Isham]], §6.1 in: *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
 
 
