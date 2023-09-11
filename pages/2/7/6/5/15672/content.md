@@ -31,7 +31,7 @@ The point is that the [[partition function]] of this system is the [[Riemann zet
 
 The original article is
 
-* {#BostConnes95} [[Jean-Benoit Bost]]; [[Alain Connes]], _Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory_, Selecta Mathematica. New Series 1 (3): 411&#8211;457, (1995) doi:10.1007/BF01589495, ISSN 1022-1824, MR 1366621 ([pdf](http://www.alainconnes.org/docs/bostconnesscan.pdf))
+* {#BostConnes95} [[Jean-Benoit Bost]]; [[Alain Connes]], _Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory_, Selecta Mathematica. New Series 1 (3): 411&#8211;457, (1995) doi:10.1007/BF01589495, ISSN 1022-1824, MR 1366621 ([pdf](https://web.archive.org/web/20110806043925/https://alainconnes.org/docs/bostconnesscan.pdf))
 
 A review is in 
 
