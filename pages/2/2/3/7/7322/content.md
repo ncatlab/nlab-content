@@ -1,7 +1,9 @@
 
 Thorsten Altenkirch is an associate professor for [[computer science]] at University of Nottingham.
 
-* [webpage](http://www.cs.nott.ac.uk/~txa/)
+* [personal page](http://www.cs.nott.ac.uk/~txa/)
+
+* [institute page](https://www.nottingham.ac.uk/computerscience/People/thorsten.altenkirch)
 
 ## Talks
 
