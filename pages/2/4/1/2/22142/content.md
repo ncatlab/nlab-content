@@ -1,4 +1,7 @@
 
+* [haskellers page](https://www.haskellers.com/user/alexandersgreen)
+
+* [github page](https://github.com/alexandersgreen)
 
 ## Selected writings
 
