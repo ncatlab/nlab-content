@@ -556,7 +556,7 @@ is in
 
 Topological modular forms with _[[level N-structure]]_ -- $tmf(N)$ -- is discussed in 
 
-* {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
+* {#MahowaldRezk09} [[Mark Mahowald]],  [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
 * {#DavisMahowald10} [[Donald Davis]], [[Mark Mahowald]], _Connective versions of $TMF(3)$_ ([arXiv:1005.3752](http://arxiv.org/abs/1005.3752))
 
