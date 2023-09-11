@@ -248,7 +248,7 @@ This means that the duplication (cojoin) operation in the $\mathscr{H}$-CoState 
   }
 \]
 
-Finally, the obtain-operation (the [[counit of a comonad|comonad counit]]) is the [[evaluation map]]:
+Finally, the obtain-operation (the [[counit of a comonad|comonad counit]]) is the [[evaluation map]], hence the [[partial trace]] over $\mathscr{H}$:
 
 $$
   \array{
@@ -275,7 +275,27 @@ $$
   }
 $$
 
+The [[coKleisli morphisms]] are the [[superoperators]]:
 
+$$
+  \frac{
+  \mathscr{H}
+    \otimes
+  \mathscr{H}^\ast
+    \otimes
+  \mathscr{K}
+  \longrightarrow
+  \mathscr{K}
+  }{
+  \mathscr{H}
+    \otimes
+  \mathscr{H}^\ast
+  \longrightarrow
+  \mathscr{K}
+    \otimes
+  \mathscr{K}^\ast
+  }
+$$
 
 
 ## Costate co-effects are quantum observables
@@ -356,7 +376,7 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-  From (eq:DuplicationOperation) we find the the extension operation is given as follows:
+  From (eq:DuplicationOperation) we find that the extension operation is given as follows:
 $$
   \array{
     \mathscr{H}
