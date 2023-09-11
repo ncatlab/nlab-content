@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In quantum algebra, the partial trace is a generalization of trace. Instead of taking in an endomorphism $f:A\to A$ and returning a scalar $\tr(f)$, the partial trace takes in a function $f:A\otimes X\to B\otimes X$ and returns a restricted morphism $\tr^X(f):A\to B$.
+In quantum algebra, partial traces are a generalization of [[traces]]: Instead of taking in an endomorphism $f:A\to A$ and returning a scalar $\tr(f)$, the partial trace takes in a function $f:A\otimes X\to B\otimes X$ and returns a restricted morphism $\tr^X(f):A\to B$.
 
 In quantum physics, [[measurement]] (and in particular partial measurement) play a very subtle but very key role. The partial trace corresponds to partial measurement on a physical system.
 
