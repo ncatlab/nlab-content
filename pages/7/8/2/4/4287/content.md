@@ -51,9 +51,13 @@ On classification of possible long-range [[forces]], hence of [[scattering]] pro
 
 * [[Steven Weinberg]], _Photons and Gravitons in Perturbation Theory: Derivation of Maxwell’s and Einstein’s Equations,” Phys. Rev. 138 (1965) B988 ([doi:10.1103/PhysRev.138.B988](https://doi.org/10.1103/PhysRev.138.B988))
 
+On [[quantum mechanics]]:
+
+* [[Steven Weinberg]], *Lectures on Quantum Mechanics*, Cambridge University Press (2015) &lbrack;[doi:10.1017/CBO9781316276105](https://doi.org/10.1017/CBO9781316276105)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[perturbative quantum field theory]]
 
