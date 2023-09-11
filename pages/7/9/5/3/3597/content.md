@@ -114,16 +114,22 @@ The notion of density matrices originates with
 
   *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
 
-  *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+  *Mathematical Foundations of Quantum Mechanics*, Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
 
 
 Most accounts of [[quantum physics]] discuss density matrices in some form. See for instance:
+
+* [[Chris Isham]], §6.1 in: *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
+
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], §2.4 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
 * {#Kuperberg05} [[Greg Kuperberg]], § 1.4 of: *A concise introduction to quantum probability, quantum mechanics, and quantum computation* (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf)&rbrack;
 
 * [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapters 8 and 12 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+* [[Franco Strocchi]], pp. 46 in: *An introduction to the mathematical structure of quantum mechanics*, Advanced Series in Mathematical Physics **28**, World Scientific (2008) &lbrack;[doi:10.1142/7038](https://doi.org/10.1142/7038)&rbrack;
+
 
 * [[Benjamin Schumacher]], [[Michael Westmoreland]], §8 of:  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
 
