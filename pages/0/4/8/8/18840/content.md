@@ -192,7 +192,7 @@ The understanding of [[quantum physics]] as a [[probability theory|probabilistic
 
 * [[Pascual Jordan]], *Über eine neue Begründung der Quantenmechanik*, Zeitschrift für Physik **40** (1927) 809–838 &lbrack;[doi:10.1007/BF01390903](https://doi.org/10.1007/BF01390903)&rbrack;
 
-* [[John von Neumann]], *Die quantenmechanische Statistik*, Part III in:
+* {#vonNeumann32} [[John von Neumann]], *Die quantenmechanische Statistik*, Part III in:
 
   *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
 
@@ -204,6 +204,8 @@ see also:
 
 
 The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in
+
+* [vonNeumann 1932, §IV.1](#vonNeumann32)
 
 *  {#Segal65} [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489 ([eculid:1183526903](https://projecteuclid.org/euclid.bams/1183526903))
 
