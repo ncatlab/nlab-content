@@ -13,6 +13,8 @@ On [[quantum mechanics]]:
 
 * [[Valter Moretti]], *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
 
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
+
 * [[Valter Moretti]], *Fundamental Mathematical Structures of Quantum Theory* -- *Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation*, Springer (2020) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack; 
 
 
