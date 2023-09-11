@@ -425,6 +425,8 @@ Early discussion of [[composite quantum systems]] and their [[quantum entangleme
 
 Classical textbook accounts: 
 
+* {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1930, 1935, 1947) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
+
 * {#Mackey63} [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
 
   > (including an influential proposal for [[quantum logic]])
@@ -434,8 +436,6 @@ Classical textbook accounts:
 * {#Scheibe73} [[Erhard Scheibe]], _The logical analysis of quantum mechanics_, Pergamon Press Oxford (1973)
 
   > (focus on the [[interpretation of quantum mechanics]])
-
-* {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1978) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
 
@@ -456,7 +456,7 @@ Classical textbook accounts:
 
   > (emphasis on [[effect algebras]] and [[quantum operations]])
 
-* [[Jun John Sakurai]], Jim Napolitano, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
+* [[Jun John Sakurai]], Jim Napolitano, *Modern Quantum Mechanics*, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
 
 More recent textbook accounts:
 
