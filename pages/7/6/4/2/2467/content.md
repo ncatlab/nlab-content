@@ -33,9 +33,14 @@ On [[noncommutative geometry]]:
 
 * Alain Connes, [[Matilde Marcolli]], _Noncommutative geometry, quantum fields and motives_, draft [pdf](http://www.alainconnes.org/docs/bookwebfinal.pdf)
 
+Introducing the [[Bost-Connes system]]:
+
+* {#BostConnes95} [[Jean-Benoit Bost]]; [[Alain Connes]], *Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory*, Selecta Mathematica, New Series **1** 3 (1995) 411-457 &lbrack;[doi:10.1007/BF01589495](https://doi.org/10.1007/BF01589495), ISSN 1022-1824, [pdf](https://web.archive.org/web/20110806043925/https://alainconnes.org/docs/bostconnesscan.pdf)&rbrack;
+
+
 For more see Connes' official [website](http://www.alainconnes.org/en).
 
-## Related $n$Lab entries
+## Related entries
 
 * [[noncommutative geometry]], [[operator algebra]], [[C-star algebra]]
 
