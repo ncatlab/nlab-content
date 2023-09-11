@@ -132,7 +132,7 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 The original axiomatization of quantum measurement via the *projection postulate*:
 
-* {#vonNeumann32} [[John von Neumann]], §III.3 and §VI of: 
+* {#vonNeumann32} [[John von Neumann]], §III.3, §V.1 and §VI  of: 
 
   *Mathematische Grundlagen der Quantenmechanik* (German) (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
 
