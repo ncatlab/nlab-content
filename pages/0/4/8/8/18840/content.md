@@ -186,6 +186,7 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 [[!include states and observables -- content]]
 
+
 ## References
 
 The understanding of [[quantum physics]] as a [[probability theory|probabilistic]] [[theory (physics)|theory]] originates with the formulation of the [[Born rule]] and was made fully explicit in:
@@ -227,6 +228,9 @@ Dedicated discussion of quantum probability theory:
 * {#RedeiSummers06} [[Miklos Redei]], [[Stephen Summers]], _Quantum Probability Theory_, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics Volume 38, Issue 2, June 2007, Pages 390-417 ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158), [doi:10.1016/j.shpsb.2006.05.006](https://doi.org/10.1016/j.shpsb.2006.05.006))
 
 * {#Attal} [[Stéphane Attal]], *Quantum Probability*, Lecture 7 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Quantum_Probability.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
+
+* [[Franco Strocchi]], Section 2.4 in: *An introduction to the mathematical structure of quantum mechanics*, Advanced Series in Mathematical Physics **28**, World Scientific (2008) &lbrack;[doi:10.1142/7038](https://doi.org/10.1142/7038)&rbrack;
+
 
 * {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
 
