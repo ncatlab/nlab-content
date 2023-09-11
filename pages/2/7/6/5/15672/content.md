@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Bost-Connes system_ ([Bost-Connes 95](#BostConnes95)) is the [[semigroup]] [[crossed product C*-algebra]] $C^\ast(\mathbb{Q}/\mathbb{Z})\rtimes \mathbb{N}^\times$ equipped with a canonical 1-parameter flow $t\mapsto\exp(-t H)$, and as such thought of as a [[quantum mechanical system]].
+The _Bost-Connes system_ ([Bost & Connes 1995](#BostConnes95)) is the [[semigroup]] [[crossed product C*-algebra]] $C^\ast(\mathbb{Q}/\mathbb{Z})\rtimes \mathbb{N}^\times$ equipped with a canonical 1-parameter flow $t\mapsto\exp(-t H)$, and as such thought of as a [[quantum mechanical system]].
 
 The point is that the [[partition function]] of this system is the [[Riemann zeta function]] ([Bost-Connes 95, theorem 5 (c) (page 6)](#BostConnes95)). 
 
@@ -29,18 +29,18 @@ The point is that the [[partition function]] of this system is the [[Riemann zet
 
 ## References
 
-The original article is
+The original article:
 
-* {#BostConnes95} [[Jean-Benoit Bost]]; [[Alain Connes]], _Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory_, Selecta Mathematica. New Series 1 (3): 411&#8211;457, (1995) doi:10.1007/BF01589495, ISSN 1022-1824, MR 1366621 ([pdf](https://web.archive.org/web/20110806043925/https://alainconnes.org/docs/bostconnesscan.pdf))
+* {#BostConnes95} [[Jean-Benoit Bost]]; [[Alain Connes]], *Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory*, Selecta Mathematica, New Series **1** 3 (1995) 411-457 &lbrack;[doi:10.1007/BF01589495](https://doi.org/10.1007/BF01589495), ISSN 1022-1824, [pdf](https://web.archive.org/web/20110806043925/https://alainconnes.org/docs/bostconnesscan.pdf)&rbrack;
 
-A review is in 
+Review:
 
 * {#ConnesMarcolli06} [[Alain Connes]], [[Matilde Marcolli]], section 22 of _A walk in the noncommutative garden_ ([arXiv:0601054](http://arxiv.org/abs/math/0601054))
 
-Further developments include
+Further developments:
 
 * Marcelo Laca, Sergey Neshveyev, Mak Trifkovic, _Bost-Connes systems, Hecke algebras, and induction_ ([arXiv:1010.4766](http://arxiv.org/abs/1010.4766))
 
-An abstract generalization is proposed in
+An abstract generalization:
 
-* Matilde Marcolli, Goncalo Tabuada, _Bost-Connes systems, categorification, quantum statistical mechanics, and Weil numbers_, [arxiv/1411.3223](http://arxiv.org/abs/1411.3223)
+* [[Matilde Marcolli]], [[Goncalo Tabuada]], _Bost-Connes systems, categorification, quantum statistical mechanics, and Weil numbers_ &lbrack;[arxiv/1411.3223](http://arxiv.org/abs/1411.3223)&rbrack;
