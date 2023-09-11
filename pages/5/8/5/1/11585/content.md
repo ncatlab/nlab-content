@@ -1,6 +1,6 @@
 
 
-* [webpage](http://www.cs.unibo.it/~dallago/)
+* [personal page](https://udallago.github.io/)
 
 ## Selected writings
 
@@ -16,7 +16,7 @@ On ([[categorical semantics]] for) [[dynamic lifting]]  in the [[quantum program
 * [[Andrea Colledan]], [[Ugo Dal Lago]], *On Dynamic Lifting and Effect Typing in Circuit Description Languages*, talk at *TYPES Workshop*, Nantes (2022)  &lbrack;[pdf](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_13.pdf), [[ColledanLago-DynamicsLifting.pdf:file]]&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[linear logic]], [[linear type theory]]
 
