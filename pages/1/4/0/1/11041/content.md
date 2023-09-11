@@ -25,8 +25,9 @@ Notably [[density matrices]] representing [[quantum states]] are given by linear
 
 ## References
 
-* [[Greg Kuperberg]], section 1.4 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
- {#Kuperberg05}
+* {#Kuperberg05} [[Greg Kuperberg]], Section 1.4 of: _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
+
+
 
 * Wikipedia, _[Superoperator](http://en.wikipedia.org/wiki/Superoperator)_
 
