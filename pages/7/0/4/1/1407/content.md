@@ -542,6 +542,7 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
+* [[Paul H. Frampton]], *Dual Resonance Models and Superstrings*, World Scientific (1986) &lbrack;[doi:10.1142/0249](https://doi.org/10.1142/0249)&rbrack;
 
 * {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996), in: Proceedings of *COSMION 96: 2nd International Conference on Cosmo Particle Physics* Dedicated to the 75th Anniversary of Andrei D. Sakharov, Moscow (1996) &lbrack;[arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067), [spire:969846](https://inspirehep.net/conferences/969846)&rbrack;
 
