@@ -50,14 +50,23 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 
 ## References
 
+Hidden variables (and their non-existence) are already mentioned in: 
+
+* {#vonNeumann32} [[John von Neumann]], 
+
+  p. 172 in: *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
+
+  p. 198 in: *Mathematical Foundations of Quantum Mechanics* Princeton University Press (1955) &lbrack;[doi:10.1515/9781400889921](https://doi.org/10.1515/9781400889921), [Wikipedia entry](https://en.wikipedia.org/wiki/Mathematical_Foundations_of_Quantum_Mechanics)&rbrack;
+
+
 Surveys include
 
 * Wikipedia, _[Hidden variable theory](http://en.wikipedia.org/wiki/Hidden_variable_theory)_
 
 The original article on [[Bell's theorem]] is
 
-* [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics 1, 195, 1964 ([pdf](http://www.drchinese.com/David/Bell_Compact.pdf))
-  {#Bell64}
+* {#Bell64} [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics **1** (1964) 195-200 &lbrack;[pdf](http://www.drchinese.com/David/Bell_Compact.pdf)&rbrack;
+  
 
 The original article on the [[Kochen-Specker theorem]] is
 
