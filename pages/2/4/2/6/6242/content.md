@@ -360,6 +360,7 @@ Interpreting the [[linear logic]]-sector of [[bunched logic]] as a quantum logic
 
 Early general introductions and survey:
 
+
 * [[Itamar Pitowsky]], *Quantum Probability -- Quantum Logic*, Lecture Notes in Physics **321**, Springer (1989) &lbrack;[doi:10.1007/BFb0021186](https://doi.org/10.1007/BFb0021186)&rbrack;
 
   > (including discussion of [[quantum probability theory]])
@@ -375,7 +376,11 @@ A bibliography of hundreds of works up to 1992:
 * [[Mladen Pavičić]], *Bibliography on quantum logics and related structures*,  Int J Theor Phys **31** (1992) 373–455 &lbrack;[doi:10.1007/BF00739999](https://doi.org/10.1007/BF00739999), [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf)&rbrack;
 
 
+
 See also:
+
+* [[Franco Strocchi]], §2.5 in: *An introduction to the mathematical structure of quantum mechanics*, Advanced Series in Mathematical Physics **28**, World Scientific (2008) &lbrack;[doi:10.1142/7038](https://doi.org/10.1142/7038)&rbrack;
+
 
 * Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
 
