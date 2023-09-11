@@ -47,6 +47,10 @@ reviewed in:
 
 * [[Dimitrios Tsimpis]], *Universal accelerating cosmologies from 10d supergravity*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (Jan 2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Tsimpis2023)&rbrack;
 
+and further discussed in:
+
+* David Andriot, [[Dimitrios Tsimpis]], Timm Wrase, *Accelerated expansion of an open universe, and string theory realizations* &lbrack;[arXiv:2309.03938](https://arxiv.org/abs/2309.03938)&rbrack;
+
 
 ## Related entries
 
