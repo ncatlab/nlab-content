@@ -456,9 +456,11 @@ Classical textbook accounts:
 
   > (emphasis on [[effect algebras]] and [[quantum operations]])
 
+* [[Jun John Sakurai]], Jim Napolitano, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
 
 More recent textbook accounts:
 
+* [[Chris Isham]], *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
 
 * [[Klaas Landsman]], *[[Mathematical Topics Between Classical and Quantum Mechanics]]*, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
 
@@ -500,21 +502,26 @@ Lecture notes:
 
 Further references:
 
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_ AMS (1997) &lbrack;[pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)&rbrack;
+
+  > (on [[geometric quantization]])
+
+
 * [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
 
   > (on rigorous [[path integrals]])
 
-* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. 2008. 
+* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. (2008)
 
-* Michael Movshev, *Concepts of Quantum Mechanics* &lbrack;[web](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)&rbrack; 
+* Michael Movshev, *Concepts of Quantum Mechanics* (2008) &lbrack;[web](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)&rbrack; 
 
-* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_ &lbrack;[pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)&rbrack;
- 
-* F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ 
+* [[Franco Strocchi]], *An introduction to the mathematical structure of quantum mechanics*, Advanced Series in Mathematical Physics **28**, World Scientific (2008) &lbrack;[doi:10.1142/7038](https://doi.org/10.1142/7038)&rbrack;
 
-* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics_ 2nd edition  Springer 2018
+* [[Steven Weinberg]], *Lectures on Quantum Mechanics*, Cambridge University Press (2015) &lbrack;[doi:10.1017/CBO9781316276105](https://doi.org/10.1017/CBO9781316276105)&rbrack;
 
-* [[Valter Moretti]], _Fundamental Mathematical Structures of Quantum Theory_  Springer 2019
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
+
+* [[Valter Moretti]], *Fundamental Mathematical Structures of Quantum Theory* -- *Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation*, Springer (2020) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack; 
 
 * Jan Perina, Z. Hradil, [[Branislav Jurčo]], _[[Quantum optics and fundamentals of physics]]_, Kluwer 1994
 
