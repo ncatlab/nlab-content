@@ -13,7 +13,7 @@ On [[meson]]-[[effective field theory]], introducing [[vector meson dominance]]:
 
 On [[quantum mechanics]]:
 
-* [[Jun John Sakurai]], Jim Napolitano, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
+* [[Jun John Sakurai]], Jim Napolitano, *Modern Quantum Mechanics*, Cambridge University Press (1985, 1994, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
 
 
 category: people
