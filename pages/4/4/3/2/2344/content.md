@@ -486,9 +486,9 @@ it is shown that $(\infty,1)$-categories can be literally embedded in "prederiva
 
 * Daniel Fuentes-Keuthan, Magdalena Kedziorek, Martina Rovelli, *A model structure on prederivators for (∞,1)-categories*, [arxiv](https://arxiv.org/abs/1810.06496), 2018
 
-On a proposal for $2$-derivators for [[(infinity,2)-category|(infinity,2)-categories]]
+On lifting derivators from the [[homotopy categories of (infinity,1)-categories]] to the [[homotopy 2-categories]] of [[(infinity,2)-categories]]:
 
-* Nicola Di Vittorio. *2-derivators*. (2023). ([arXiv:2309.05216](https://arxiv.org/abs/2309.05216)).
+* {#DiVittorio23} [[Nicola Di Vittorio]], *2-derivators* (2023). &lbrack;[arXiv:2309.05216](https://arxiv.org/abs/2309.05216)&rbrack;
 
 
 
