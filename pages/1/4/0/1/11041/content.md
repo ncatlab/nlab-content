@@ -47,13 +47,13 @@ If $(\mathcal{C}, \otimes, \mathbb{1})$ is also [[compact closed category|compac
 
 (whence one also speaks of operators on spaces of ([[density matrix|density]]) [[matrices]]) 
 
-which in turn is [[adjunct]] to a morphism of the form
+which in turn is [[adjunct]], in particular, to a morphism of the form
 
 \[
   \label{PartialAdjunctOfSuperoperator}
-  \mathscr{H} \otimes \mathscr{K}
+  \mathscr{K}^\ast \otimes \mathscr{H}
   \longrightarrow
-  \mathscr{K} \otimes \mathscr{K}
+  \mathscr{K}^\ast \otimes \mathscr{H}
   \mathrlap{\,.}
 \]
 
