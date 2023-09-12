@@ -486,7 +486,9 @@ Lecture notes:
 
 * [[Robert Geroch]], *Geometrical Quantum Mechanics*, University of Chicago (1974) &lbrack;[pdf](http://strangebeautiful.com/other-texts/geroch-geom-qm.pdf), [[Geroch-GeometricalQuantumMechanics.pdf:file]]&rbrack;
 
-* Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
+* Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](https://web.archive.org/web/20001101031920/http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
+
+
 
 * [[Valter Moretti]], *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
 
