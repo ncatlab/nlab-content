@@ -51,7 +51,7 @@ This is simpler since $x \in |X|$ is an element of $C$ and so $|\psi|(x) = \psi(
 However, not all Fr&#246;licher spaces can be obtained in this manner.
 The simplest example is the following:
 \[
-(\{0,1\},\mathbb{R}^{\{0,1\}},\mathbb{R})
+(\{0,1\},{\{0,1\}} ^{\mathbb{R}},{\Delta}_{\mathbb{R}})
 \]
 where this is taken to mean that all curves are smooth and only the constant functionals are smooth.
 The problem here is that there are far more curves than the functionals warrant.
