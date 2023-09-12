@@ -106,34 +106,33 @@ $$
 In this [[bra-ket]]-notation, the 
 [[compact closed category|compact closure]] for [[finite-dimensional vector space|finite-dimensional]] $\mathscr{H}$ (see [there](finite-dimensional+vector+space#CompactClosure)) is witnessed by the following [[isomorphism]]
 
-$$
+\[
+  \label{CompactClosureViaBraKetNotation}
   \array{
     \Big(
       \mathscr{H}
       \multimap
       \mathscr{H}'
     \Big)
-    &\longrightarrow&
+    &\overset{\;\; \sim \;\;}{\longrightarrow}&
     \mathscr{H}' \otimes \mathscr{H}^\ast
     \\
     \Big(
       \left\vert w \right\rangle
       \,\mapsto\,
-      \underset{w}{\sum}
+      \underset{w'}{\sum}
       \left\vert w' \right\rangle
       \cdot
       A_{w', w}
     \Big) 
     &\mapsto&
-    \Big(
       \underset{w,w'}{\sum} 
       \left\vert w' \right\rangle
       A_{w', w}
       \left\langle w \right\vert
-    \Big)
     \mathrlap{\,.}
   }
-$$
+\]
 
 
 
@@ -214,7 +213,8 @@ $$
   }
 $$
 
-Using the orthonormal basis (eq:OrthonormalBasis) we may equivalently write this as:
+Using the orthonormal basis (eq:OrthonormalBasis) and the compact closure (eq:CompactClosureViaBraKetNotation)
+we may equivalently write this as:
 
 $$
   \array{
@@ -225,20 +225,17 @@ $$
        ^{ \mathscr{H}State }
        _{\mathbb{1},\mathbb{1}}
     }{\longrightarrow}&
-    \mathscr{H} 
-      \multimap
-    \big(
-      \mathscr{H}
-        \otimes
-      (\text{-})
-    \big)
+    \mathscr{H}
+      \otimes
+    \mathscr{H}^\ast
+      \otimes
+    (\text{-})
     \\
     \vert \psi \rangle
     &\mapsto&
-    \underset{w}{\sum}
-    \left\langle w \right\vert 
-    \otimes
+    \sum_w
     \left\vert w \right\rangle
+    \left\langle w \right\vert 
     \otimes
     \left\vert \psi \right\rangle
     \mathrlap{\,.}
@@ -266,10 +263,10 @@ This means that the duplication (cojoin) operation in the $\mathscr{H}$-CoState 
     &
     \mathscr{H}
     \otimes
-    \big(
+    \bigg(
       \mathscr{H}
       \multimap
-      (
+      \Big(
         \mathscr{H}
           \otimes
         \big(
@@ -277,8 +274,8 @@ This means that the duplication (cojoin) operation in the $\mathscr{H}$-CoState 
           \multimap
           (\text{-})
         \big)
-      )
-    \big)
+      \Big)
+    \bigg)
     \\
     \left\vert \psi \right \rangle
     \left\langle \phi \right\vert
