@@ -64,11 +64,21 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 ## Examples
 
-* The category [[FinDimVect]] of [[finite-dimensional vector spaces]] is compact closed when equipped with the [[tensor product of vector spaces]] as monoidal structure, see [[finite-dimensional vector space]]. It is not compact closed with the direct sum as monoidal product.
+\begin{example}
+**(finite-dimensional vector spaces)**
+\linebreak
+The category [[FinDimVect]] of [[finite-dimensional vector spaces]] is compact closed with resoect to the usual [[tensor product of vector spaces]], see [there](finite-dimensional+vector+space#CompactClosure). 
 
-* A compact closed [[discrete category]] is just an [[abelian group]].
+  (It is not compact closed with the [[direct sum]] as monoidal product.)
+\end{example}
 
-* The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a compact closed category, and conversely, any compact closed category (or more generally, any [[closed monoidal category]]) with a single object must be isomorphic to the delooping of some commutative monoid.
+\begin{example}
+A compact closed [[discrete category]] is just an [[abelian group]].
+\end{example}
+
+\begin{example}
+The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a compact closed category, and conversely, any compact closed category (or more generally, any [[closed monoidal category]]) with a single object must be isomorphic to the delooping of some commutative monoid.
+\end{example}
 
 ## Related concepts
 
@@ -91,8 +101,7 @@ Discussion of [[coherence]] in compact closed categories is due to:
 
 On the relation to [[quantum operations]] and [[completely positive maps]]:
 
-* [[Peter Selinger]], _Dagger compact closed categories and
-completely positive maps_, Electronic Notes in Theoretical Computer Science **170** (2007) 139-163, &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)&rbrack;
+* [[Peter Selinger]], *Dagger compact closed categories and completely positive maps*, Electronic Notes in Theoretical Computer Science **170** (2007) 139-163, &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)&rbrack;
 
 On the relation to [[traced monoidal categories]]:
 
