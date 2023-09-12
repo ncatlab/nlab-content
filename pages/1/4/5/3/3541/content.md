@@ -215,7 +215,7 @@ See also
 
 The description of completely positive maps in terms of [[dagger-categories]] (see at _[[quantum information theory via dagger-compact categories]]_) goes back to
 
-* {#Selinger05} [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_, Electronic Notes in Theoretical Computer Science (special issue: Proceedings of the 3rd International Workshop on Quantum Programming Languages). 2005 ([[SelingerPositiveMaps.pdf:file]], [ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
+* {#Selinger05} [[Peter Selinger]], *Dagger-compact closed categories and completely positive maps*, Electronic Notes in Theoretical Computer Science, **170** (2007) 139-163 &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018), [[SelingerPositiveMaps.pdf:file]]&rbrack;
 
 * {#Coecke07} [[Bob Coecke]], _Complete positivity without compactness_, 2007 ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
  
