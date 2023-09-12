@@ -136,7 +136,7 @@ In this [[bra-ket]]-notation, the
 
 
 
-## The Linear CoState comonad
+## The linear store comonad
 
 The [[internal hom]]-[[adjoint functor|adjunction]] for $\mathscr{H}$ (eq:TheFinDimHilbertSpace)
 
@@ -257,7 +257,7 @@ This means that the duplication (cojoin) operation in the $\mathscr{H}$-CoState 
     &
     \overset{
       dupl
-        ^{ \mathscr{H}CoState }
+        ^{ \mathscr{H}Store }
         _{ \mathbb{1} }
     }{\longrightarrow}
     &
@@ -306,7 +306,7 @@ $$
       (\text{-})
     \big)
     &\overset{
-      obt^{ \mathscr{H}CoState }_{}
+      obt^{ \mathscr{H}Store }_{}
     }{\longrightarrow}&
     (\text{-})
     \\
@@ -321,32 +321,266 @@ $$
   }
 $$
 
-The [[coKleisli morphisms]] are the [[superoperators]]:
 
-$$
-  \frac{
+## Kleisli structure
+ {#KleisliStructure}
+
+We assume an ambient [[compact closed category]] such as that of [[finite-dimensional vector spaces]].
+
+For the formula in Prop. \ref{KleisliCompositionIsSuperoperatorComposition} to come out naturally, we take -- without loss of generality -- the generic object on which to apply the linear store comonad to be a [[dual object]] $\mathscr{K}^\ast \coloneqq (\mathscr{K} \multimap \mathbb{1})$. 
+
+\begin{remark}
+The [[coKleisli morphisms]] of the quantum store comonad (eq:UnderlyingEndofunctor)
+
+\[
+  \label{KleisliMorphism}
+  \mathcal{O}_A
+  \;\colon\;
+  \mathscr{H}
+    \otimes
+  \big(
+  \mathscr{H}
+    \multimap
+  \mathscr{K}^\ast
+  \big)
+  \longrightarrow
+  \mathscr{K}^\ast
+\]
+
+are [[isomorphism|isomorphically]] of the form 
+
+\[
+  \label{KleisliMorphismUnderCompactClosure}
+  \mathcal{O}_A
+  \;\colon\;
   \mathscr{H}
     \otimes
   \mathscr{H}^\ast
-    \otimes
-  \mathscr{K}
-  \longrightarrow
-  \mathscr{K}
-  }{
-  \mathscr{H}
-    \otimes
-  \mathscr{H}^\ast
-  \longrightarrow
-  \mathscr{K}
     \otimes
   \mathscr{K}^\ast
+    \longrightarrow
+  \mathscr{K}^\ast
+\]
+
+and as such are equivalently ([[adjunct]] to) morphisms of the form
+
+\[
+  \label{SuperoperatorOnMatrices}
+  A
+  \;\colon\;
+  \mathscr{H}
+    \otimes
+  \mathscr{K}^\ast
+    \longrightarrow
+  \mathscr{H}
+    \otimes
+  \mathscr{K}^\ast
+\]
+
+which in turn are isomorphically "*[[superoperators]]*" of the form
+
+\[
+  \label{Superoperator}
+  \big(
+    \mathscr{K} \multimap \mathscr{H}
+  \big)
+  \longrightarrow
+  \big(
+    \mathscr{K} \multimap \mathscr{H}
+  \big)
+  \,.
+\]
+
+\end{remark}
+
+\begin{proposition}
+\label{KleisliCompositionIsSuperoperatorComposition}
+  The [[Kleisli composition]] on [[Kleisli morphisms]] (eq:KleisliMorphism) of the quantum store comoand is given by the plain composition of the linear duals of the corresponding [[superoperators]] (eq:SuperoperatorOnMatrices):
+\[
+  \label{KleisliComposition}
+  \big(
+    extend^{\mathscr{H}Store}
+      \mathcal{O}_{A'}
+  \big)
+  \circ
+  \big(
+    extend^{\mathscr{H}Store}
+      \mathcal{O}_{A}
+  \big)
+  \;\;=\;\;
+  \Big(
+    \left\vert \psi \right\rangle
+    \left\langle \phi, \kappa \right\vert
+    \,\mapsto\,    
+    \left\vert \psi \right\rangle
+    \left\langle \phi, \kappa \right\vert
+    A \circ A'
+  \Big)
+  \,.
+\]
+\end{proposition}
+Here for $\psi \in \mathscr{H}$ and $\kappa \in \mathscr{K}$ we denote their tensor product as
+$$
+  \left\vert \psi, \kappa \right\rangle
+  \,\in\,
+  \mathscr{H} \otimes \mathscr{K}
+  \,.
+$$
+\begin{proof}
+The relation between a Kleisli morphism $\mathcal{O}_A$ (eq:KleisliMorphismUnderCompactClosure) and the corresponding super-operator $A$ (eq:SuperoperatorOnMatrices) on matrices is
+
+$$
+  \array{
+    \mathllap{
+      \mathcal{O}_A
+      \;\colon\;
+    }
+    \mathscr{H} 
+      \otimes 
+    \mathscr{H}^\ast
+      \otimes
+    \mathscr{K}^\ast
+    &\longrightarrow&
+    \mathscr{K}^\ast
+    \\
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    \otimes
+    \left\langle \kappa \right\vert
+    &\mapsto&    
+    \left\langle
+      \phi, \kappa
+    \right\vert
+     A
+    \left\vert
+      \psi, -
+    \right\rangle    
+    \mathrlap{\,.}
+  }
+$$ 
+
+With this and the cojoin operation (eq:DuplicationOperation) it follows that the extend-operation turns $\mathcal{O}_A$ into 
+
+$$
+  \array{
+    \mathscr{H}
+      \otimes
+    \big(
+      \mathscr{H}
+      \multimap
+      \mathscr{K}^\ast
+    \big)
+    &
+      \overset{
+        dupl^{ \mathscr{H}Store }_{\mathscr{K}^\ast,\mathscr{K}^\ast}
+      }{\longrightarrow}
+    &
+    \mathscr{H}
+    \otimes
+    \bigg(
+      \mathscr{H}
+      \multimap
+      \Big(
+        \mathscr{H}
+        \otimes
+        \big(
+          \mathscr{H}
+          \multimap
+          \mathscr{K}^\ast
+        \big)
+      \Big)
+    \bigg)
+    &\overset{
+      \mathscr{H} 
+      \otimes
+      \big(
+        \mathscr{H}
+          \multimap
+        \mathcal{O}_A
+      \big)
+    }{\longrightarrow}&
+    \mathscr{H}
+    \otimes
+    \big(
+      \mathscr{H}
+      \multimap
+      (\mathscr{K}')^\ast
+    \big)
+    \\
+    \left\vert \psi \right\rangle
+    \left\langle \phi \right\vert
+    \otimes
+    \left\langle \kappa \right\vert
+    &\mapsto&
+    \sum_w
+    \left\vert \psi \right\rangle
+    \left\langle w \right\vert
+    \otimes
+    \left\vert w \right\rangle
+    \left\langle \phi \right\vert
+    \otimes
+    \left\langle \kappa \right\vert
+    &\mapsto&
+    \;\;
+    \underset{
+      = 
+        \left\vert \psi \right\rangle
+        \left\langle \phi, \kappa \right\vert
+         A      
+    }{
+    \underbrace{
+    \sum_{w, k'}
+        \left\vert \psi \right\rangle
+        \left\langle \phi, \kappa \right\vert
+         A
+        \left\vert w, k' \right\rangle
+        \left\langle w, k' \right\vert
+    }
+    }
+  }
+$$  
+
+hence
+$$
+  \array{
+    \mathllap{
+      exend^{\mathscr{H} Store}
+      \mathcal{O}_A
+      \;\colon\;
+    }
+    \mathscr{H}
+      \otimes
+    \mathscr{H}^\ast
+      \otimes
+    \mathscr{K}^\ast
+    &\longrightarrow&
+    \mathscr{K}^\ast
+    \\
+    \left\vert \psi \right\rangle
+    \left\langle \phi, \kappa \right\vert
+    &\mapsto&    
+    \left\vert \psi \right\rangle
+    \left\langle \phi, \kappa \right\vert
+    A
   }
 $$
+This implies the claim (eq:KleisliComposition).
+\end{proof}
 
+The same argument applies with the second copy of $\mathscr{K}$ replaced by some $\mathscr{K}'$: The Kleisli category is the [[opposite category|opposite]] of that of superoperators of the form
+
+$$
+  \mathscr{H}\otimes\mathscr{K}
+  \longrightarrow
+  \mathscr{H}\otimes\mathscr{K}'
+  \longrightarrow
+  \mathscr{H}\otimes\mathscr{K}''
+  \,.
+$$
 
 ## Costate co-effects are quantum observables
 
-For the classical [[costate comonad]] on a [[cartesian closed category]] the monad and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
+For the classical [[costate comonad]] on a [[cartesian closed category]] its value and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
 
 \begin{example}
 **(quantum observables as CoState coeffects)**
@@ -355,7 +589,7 @@ For the classical [[costate comonad]] on a [[cartesian closed category]] the mon
 First notice that the value of the costate comonad on the tensor unit
 
 $$
-  \mathscr{H}CoState(\mathbb{1})
+  \mathscr{H}Store(\mathbb{1})
   \;\equiv\;
   \mathscr{H} 
     \otimes
@@ -404,7 +638,7 @@ $$
   \mathcal{O}_{A'}
   \circ
   \big(
-    ext^{ \mathscr{H}CoState }_{\mathbb{1},\mathbb{1}} 
+    ext^{ \mathscr{H}Store }_{\mathbb{1},\mathbb{1}} 
     \mathcal{O}_A
   \big)
   \;\;
@@ -430,7 +664,7 @@ $$
     \mathscr{H}^\ast
     &
       \overset{
-        dupl^{ \mathscr{H}CoState }_{\mathbb{1},\mathbb{1}}
+        dupl^{ \mathscr{H}Store }_{\mathbb{1},\mathbb{1}}
       }{\longrightarrow}
     &
     \mathscr{H}
@@ -493,7 +727,7 @@ $$
 hence
 
 $$
-  ext^{ \mathscr{H}CoState }_{\mathbb{1},\mathbb{1}}
+  ext^{ \mathscr{H}Store }_{\mathbb{1},\mathbb{1}}
   \,\colon\,
   \Big(
     \left\vert \psi \right\rangle
