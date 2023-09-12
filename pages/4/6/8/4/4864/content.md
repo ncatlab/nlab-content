@@ -1,4 +1,4 @@
-<div style="float:right;margin:0 10px 10px 0;">
+<div style="float:right;margin:-30px 0px 00px 20px;">
 <img src="https://grahamfarmelo.com/wp-content/uploads/2019/07/Mike-Portrait-28_900.jpg" width="180"> 
 </div>
 
