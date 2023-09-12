@@ -121,13 +121,17 @@ Most accounts of [[quantum physics]] discuss density matrices in some form. See 
 
 * [[Jun John Sakurai]], Jim Napolitano, §3.4 in: *Modern Quantum Mechanics*, Cambridge University Press (1985, 1994, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
 
-
 * [[Chris Isham]], §6.1 in: *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
 
+In the context of [[quantum computation]]:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], §2.4 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
+* [[John Preskill]], §2.3 in: *States and Ensembles*, chapter 2 of: *Quantum Computation*, lecture notes, since 2004 &lbrack;[pdf](http://www.theory.caltech.edu/~preskill/ph219/chap2_15.pdf), [web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
+
 * {#Kuperberg05} [[Greg Kuperberg]], § 1.4 of: *A concise introduction to quantum probability, quantum mechanics, and quantum computation* (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf)&rbrack;
+
+Further:
 
 * [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapters 8 and 12 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
 
