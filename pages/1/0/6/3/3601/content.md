@@ -207,7 +207,9 @@ Textbook accounts:
 
 * [[Benjamin Schumacher]], [[Michael Westmoreland]],  *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
 
-* Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
+* [[Mark M. Wilde]], *Quantum Information Theory*, Cambridge University Press (2013) &lbrack;[doi:10.1017/CBO9781139525343](https://doi.org/10.1017/CBO9781139525343), [arXiv:1106.1445](https://arxiv.org/abs/1106.1445)&rbrack;
+
+* [[Sumeet Khatri]], [[Mark M. Wilde]], _Principles of Quantum Communication Theory: A Modern Approach_ &lbrack;[arXiv:2011.04672](https://arxiv.org/abs/2011.04672)&rbrack;
 
 * [[Masahito Hayashi]], _Quantum information theory - mathematical foundation_, Graduate Texts in Physics, Springer (2017) &lbrack;[doi:10.1007/978-3-662-49725-8](https://doi.org/10.1007/978-3-662-49725-8)&rbrack;
 
