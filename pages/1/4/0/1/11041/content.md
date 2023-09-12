@@ -27,9 +27,15 @@ Notably [[density matrices]] representing [[quantum states]] are given by linear
 
 * {#Kuperberg05} [[Greg Kuperberg]], Section 1.4 of: _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
-
+See also:
 
 * Wikipedia, _[Superoperator](http://en.wikipedia.org/wiki/Superoperator)_
+
+Formalizing superoperators as [[arrows (in computer science)]]:
+
+* J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, *Structuring quantum effects: superoperators as arrows*, Mathematical Structures in Computer Science **16** 3 (2006)  453-468 &lbrack;[arXiv:quant-ph/0501151](https://arxiv.org/abs/quant-ph/0501151), [doi:10.1017/S0960129506005287](https://doi.org/10.1017/S0960129506005287)&rbrack;
+
+
 
 [[!redirects superoperators]]
 
