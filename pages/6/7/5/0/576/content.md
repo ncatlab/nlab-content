@@ -92,6 +92,12 @@ Applied for instance to the category of finite-dimensional [[inner product space
 
 A good example of a $\dagger$-compact category where most objects are *not* isomorphic to their duals is the category of continuous unitary representations of [[U(n)]] on finite-dimensional complex Hilbert spaces. 
 
+## Related concepts
+
+* [[bra-ket notation]]
+
+* [[quantum information theory via dagger-compact categories]]
+
 ## References
 
 The concept was introduced in 
