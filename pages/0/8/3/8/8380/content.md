@@ -1064,7 +1064,9 @@ and with [[arrows (in computer science)]] is in
 
 Discussion of aspects of [[quantum computing]] in terms of monads:
 
-* J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, _Structuring quantum effects: superoperators as arrows_ ([arXiv:quant-ph/0501151](http://arxiv.org/abs/quant-ph/0501151))
+* J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, *Structuring quantum effects: superoperators as arrows*, Mathematical Structures in Computer Science **16** 3 (2006)  453-468 &lbrack;[arXiv:quant-ph/0501151](https://arxiv.org/abs/quant-ph/0501151), [doi:10.1017/S0960129506005287](https://doi.org/10.1017/S0960129506005287)&rbrack;
+
+  > ([[superoperators]] as [[arrows in computer science]])
 
 
 The [[quantum IO monad]]:
