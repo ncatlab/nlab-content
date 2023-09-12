@@ -46,14 +46,14 @@ For $B \in $ [[C*Alg]], a [[Hilbert C*-module]] over $B$ is
 1. equipped with a [[sesquilinear map]] (linear in the second argument)
 
    $$
-     \langle -,-\rangle \colon H \times H \to B
+     \langle -,-\rangle \,\colon\, H \times H \to B
    $$
 
    (the $B$-valued [[inner product]])
 
 such that 
 
-1. $\langle -,-\rangle$ behaves like a positive definite inner product over $B$ in that for all $x,y \in H$ and $b \in B$ we have
+1. $\langle -,-\rangle$ behaves like a positive definite [[Hermitian form|Hermitian]] [[inner product]] over $B$ in that for all $x,y \in H$ and $b \in B$ we have
 
    1. $\langle x,y\rangle^\ast = \langle y,x\rangle$
 
