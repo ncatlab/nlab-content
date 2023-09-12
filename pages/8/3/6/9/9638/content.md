@@ -262,7 +262,7 @@ Further introduction and survey:
 * [[Eleanor Rieffel]], [[Wolfgang Polak]],  *An Introduction to Quantum Computing for Non-Physicists*, ACM Comput. Surveys **32** (2000) 300-335 &lbrack;[arXiv:quant-ph/9809016](https://arxiv.org/abs/quant-ph/9809016), [doi:10.1145/367701.367709](https://dl.acm.org/doi/10.1145/367701.367709)&rbrack;
 
 
-* [[John Preskill]], *Quantum Computation* lecture notes, since 2004 ([web](http://theory.caltech.edu/~preskill/ph229/))
+* [[John Preskill]], *Quantum Computation*, lecture notes, since 2004 &lbrack;[web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
