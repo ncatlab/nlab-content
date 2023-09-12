@@ -753,8 +753,14 @@ $$
 
 [[!redirects quantum costate comonads]]
 
+[[!redirects quantum store comonad]]
+[[!redirects quantum store comonad]]
+
 [[!redirects linear costate comonad]]
 [[!redirects linear costate comonads]]
+
+[[!redirects linear store comonad]]
+[[!redirects linear store comonad]]
 
 
 
