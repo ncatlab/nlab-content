@@ -20,7 +20,7 @@ More on the use of [[string diagrams]] in [[quantum information theory via dagge
 
 * [[Bob Coecke]], _Kindergarten quantum mechanics_ ([arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032))
 
-* [[Bob Coecke]], _Quantum Picturalism_ ([arXiv:0908.1787](http://arxiv.org/abs/0908.1787))
+* {#Coecke10} [[Bob Coecke]], *Quantum Picturalism*, Contemporary Physics **51** 1 (2010) &lbrack;[arXiv:0908.1787](http://arxiv.org/abs/0908.1787), [doi:10.1080/00107510903257624](https://doi.org/10.1080/00107510903257624)&rbrack;
 
 * [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
 
