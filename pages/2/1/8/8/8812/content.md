@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -33,7 +32,7 @@ where in the [[commutator]] on the right we regard multiplication by $f$ as an [
 
 {#InKTheory} The symbol of an [[elliptic differential operator]]  may naturally be thought of as an element in the [[topological K-theory]] of $T^\ast X$ (see [Freed 1987](#Freed87), [p. 13](https://ncatlab.org/nlab/files/FreedGeometryOfDiracOperators.pdf#page=13)).
 
-Generally, the symbol of a possibly non-linear [[differential operator]] is similarly the map on the [[cotangent bundle]] given by "replacing [[partial derivatives]] by [[covectors]]" in the definition of the differential operator. In this case the _principal symbol_ is the highest degree [[homogeneous function|homogeneous]] component of the symbol.
+Generally, the symbol of a possibly non-linear [[differential operator]] is similarly the map on the [[cotangent bundle]] given by "replacing [[partial derivatives]] by [[covectors]]" in the definition of the differential operator. In this case the [[principal symbol]] is the highest degree [[homogeneous function|homogeneous]] component of the symbol. Many authors say total symbol for symbol in the sense of this entry and symbol for a principal symbol.
 
 ## Examples
 
@@ -55,7 +54,7 @@ For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal
 
 ## Related concepts
 
-* [[symbol order]]
+* [[symbol order]], [[symbol map]], [[principal symbol]]
 
 * [[elliptic differential operator]], [[elliptic chain complex]]
 
@@ -73,7 +72,4 @@ For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal
 See also
 
 * Wikipedia, _[Symbol of a differential operator](http://en.wikipedia.org/wiki/Symbol_of_a_differential_operator)_
-
-[[!redirects principal symbol]]
-[[!redirects principal symbols]]
 
