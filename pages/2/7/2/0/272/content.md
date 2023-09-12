@@ -143,7 +143,7 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
 The original article that introduced the [[Haag-Kastler axioms]] is
 
-* {#Haag64} [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 ([doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124))
+* {#Haag64} [[Rudolf Haag]], [[Daniel Kastler]], *An algebraic approach to quantum field theory*, Journal of Mathematical Physics, **5** (1964) 848-861 &lbrack;[doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124)&rbrack;
 
 following 
 
