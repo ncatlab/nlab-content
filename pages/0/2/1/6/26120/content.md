@@ -27,13 +27,11 @@ The [[costate comonads]] are typically discussed on [[cartesian closed categorie
 
 We consider the category $Mod_{\mathbb{C}}$ of [[complex vector spaces]] with, as usual:
 
-
 * [[monoidal category|monoidal structure]] given by the [[tensor product of vector spaces]],
 
 * [[tensor unit]]$\;$ $\mathbb{1} \,\equiv\, \mathbb{C}$ the [[complex numbers]] themselves,
 
-* [[internal hom]] $\mathscr{H} \multimap \mathscr{H}'$ the vector space of [[linear maps]].
-
+* [[internal hom]]$\;$ $\mathscr{H} \multimap \mathscr{H}'$ the vector space of [[linear maps]].
 
 Throughout the following we fix
 
@@ -82,10 +80,61 @@ For notational purposes only (at this point) we choose on $\mathscr{H}$:
      \;\;\;\;
      \left\langle w \vert w' \right\rangle
      \,=\,
-     \delta_{k, k'}
+     \delta_{w, w'}
    \]
 
    ([[Kronecker delta]]).
+
+Furthermore, for $\psi \in \mathscr{H}$, $\phi \in \mathscr{K}$ we leave the [[tensor product]]-symbol implicit in
+
+$$
+  \left\vert \psi \right\rangle
+  \left\langle \phi \right\vert
+  \;\;
+    \equiv
+  \;\;
+  \psi 
+    \otimes 
+  \left\langle \phi \vert \text{-} \right\rangle
+  \;\;
+  \in
+  \;\;
+  \mathscr{H} \otimes \mathscr{K}^\ast
+  \,.
+$$
+
+In this [[bra-ket]]-notation, the 
+[[compact closed category|compact closure]] for [[finite-dimensional vector space|finite-dimensional]] $\mathscr{H}$ (see [there](finite-dimensional+vector+space#CompactClosure)) is witnessed by the following [[isomorphism]]
+
+$$
+  \array{
+    \Big(
+      \mathscr{H}
+      \multimap
+      \mathscr{H}'
+    \Big)
+    &\longrightarrow&
+    \mathscr{H}' \otimes \mathscr{H}^\ast
+    \\
+    \Big(
+      \left\vert w \right\rangle
+      \,\mapsto\,
+      \underset{w}{\sum}
+      \left\vert w' \right\rangle
+      \cdot
+      A_{w', w}
+    \Big) 
+    &\mapsto&
+    \Big(
+      \underset{w,w'}{\sum} 
+      \left\vert w' \right\rangle
+      A_{w', w}
+      \left\langle w \right\vert
+    \Big)
+    \mathrlap{\,.}
+  }
+$$
+
 
 
 ## The Linear CoState comonad
