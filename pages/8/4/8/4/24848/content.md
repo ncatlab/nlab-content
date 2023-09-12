@@ -28,7 +28,7 @@ Early exposition with introduction to [[monoidal category|monoidal]] [[category 
 
 * {#CoeckePractising} [[Bob Coecke]], [[Eric Oliver Paquette]], *Categories for the practising physicist*, in: *New Structures for Physics*, Lecture Notes in Physics **813**, Springer (2010) $[$[arXiv:0905.3010](http://arxiv.org/abs/0905.3010), [doi:10.1007/978-3-642-12821-9_3](https://doi.org/10.1007/978-3-642-12821-9_3)$]$
 
-* {#CoeckePicturalism} [[Bob Coecke]], *Quantum Picturalism* $[$[arXiv:0908.1787](http://arxiv.org/abs/0908.1787)$]$
+* {#CoeckePicturalism} [[Bob Coecke]], *Quantum Picturalism*, Contemporary Physics **51** 1 (2010) $[$[arXiv:0908.1787](http://arxiv.org/abs/0908.1787), [doi:10.1080/00107510903257624](https://doi.org/10.1080/00107510903257624)$]$
 
 
 Review in contrast to [[quantum logic]]:
