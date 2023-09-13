@@ -187,6 +187,10 @@ even though often mis-attributed to [[Richard Feynman]]:
 
 * {#Wallace07} [[David Wallace]], *Philosophy of Quantum Mechanics*, Part 2 in: Dean Rickles (ed.), *The Ashgate Companion to Contemporary Philosophy of Physics* (2008) 16-98 &lbrack;[ISBN:9780754655183](https://www.routledge.com/The-Ashgate-Companion-to-Contemporary-Philosophy-of-Physics/Rickles/p/book/9780754655183), [arXiv:0712.0149](http://arxiv.org/abs/0712.0149)&rbrack;
 
+* [[Maximilian Schlosshauer]], *Decoherence, the measurement problem, and interpretations of quantum mechanics*,  	Rev. Mod. Phys. **76** (2004) 1267-1305 &lbrack;[arXiv;quant-ph/0312059](https://arxiv.org/abs/quant-ph/0312059), [doi:10.1103/RevModPhys.76.1267](https://doi.org/10.1103/RevModPhys.76.1267)&rbrack;
+
+  > (in view of dynamical [[quantum decoherence]])
+
 
 * [[Edward MacKinnon]], *Interpreting Physics -- Language and the Classical/Quantum Divide*, Springer (2012) &lbrack;[doi:10.1007/978-94-007-2369-6](https://doi.org/10.1007/978-94-007-2369-6)&rbrack;
 
