@@ -35,7 +35,7 @@ The axioms of structural ZFC are as follows:
 
 **Axiom 0A (Axiom of equality preservation):** _For all sets $A$ and $B$, functions $f:A \to B$, and elements $a \in A$ and $b \in A$, if $a = b$, then $f(a) = f(b)$. 
 
-**Axiom 0B ([[axiom of unique choice|Axiom of unique choice]]):** _For all functions $f:A \to B$, there is a unique relation $\varphi:A \looparrowright B$ such that for all $a \in A$, $\varphi(a, f(a))$ holds of $a$ and $f(a)$, and for all relations $\varphi:A \looparrowright B$ such that for all $a \in A$, there is a unique $b \in B$ such that $\varphi(a, b)$ holds of $a$ and $b$, there is a function $f:A \to B$ such that $f(a) = b$._ 
+**Axiom 0B ([[axiom of unique choice|Axiom of unique choice]]):** _For all functions $f:A \to B$, there is a unique relation $\varphi:A \looparrowright B$ such that for all $a \in A$ and $b \in B$, $\varphi(a, b)$ iff $b = f(a)$, and for all relations $\varphi:A \looparrowright B$ such that for all $a \in A$, there is a unique $b \in B$ such that $\varphi(a, b)$ holds of $a$ and $b$, there is a function $f:A \to B$ such that $f(a) = b$._ 
 
 A function $f:A \to B$ is an **[[injection]]** if for all elements $a \in A$ and $b \in A$, $a = b$ if and only if $f(a) = f(b)$. Injections are written as $f:A \hookrightarrow B$. 
 
