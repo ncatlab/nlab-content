@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Dependent linear type theory
 
 * table of contents
@@ -308,7 +307,7 @@ Proposals for a genuine [[syntax]] for dependent linear type theory:
 
   > (using ideas from [[bunched logic]])
 
-* {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
+* {#Riley22} [[Mitchell Riley]], *Linear Homotopy Type Theory*, talk at: [HoTTEST Event for Junior Researchers 2022](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_junior_2022.html)  (Jan 2022) &lbrack;slides: [pdf](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riley-2022-01-20-HoTTEST.pdf), [[Riley-LHoTT-talk.pdf:file]], video: [YT](https://www.youtube.com/watch?v=o2oWhHabjdM)&rbrack;
 
   > **Abstract.** Some ∞-toposes support constructions that are inherently 'linear', such as the external smash product of parameterised spectra. These cannot be added axiomatically to ordinary HoTT, because there is no way to enforce this linearity: there are no restrictions on variable uses. This talk describes an extension of HoTT with linear tensor and hom type formers, as a kind of 'binary modality' and its right adjoint. Trying to stay compatible with existing results in HoTT naturally leads us to a novel kind of bunched dependent type theory. Our type theory is intended to be as human-usable as possible, with an eye towards synthetic stable homotopy theory.
 
