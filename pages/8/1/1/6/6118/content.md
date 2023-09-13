@@ -605,7 +605,7 @@ For more on relations between Barr's approach to topological spaces, Lawvere's a
 * Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen, _The convergence approach to exponentiable maps_, Portugaliae Mathematica (Nova Series), Vol. 60 Issue 2 (2003), 139-160. ([web](https://eudml.org/doc/51942)) ([pdf](https://cmuc.mat.uc.pt/rdonweb/publications/publication22.pdf)) 
 {#CHT} 
 
-* Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen, _One Setting for All: Metric, Topology, Uniformity, Approach Structure._ ([pdf](http://www.math.yorku.ca/~tholen/ProMat_V_.pdf)) 
+* Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen, _One Setting for All: Metric, Topology, Uniformity, Approach Structure._ ([Springer Link](https://link.springer.com/article/10.1023/B:APCS.0000018144.87456.10), doi: 10.1023/B:APCS.0000018144.87456.10) 
 {#CHT2} 
 
 * Gavin J. Seal, _Canonical and op-canonical lax algebras_, Theory and 
