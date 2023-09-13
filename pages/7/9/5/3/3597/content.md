@@ -129,11 +129,20 @@ In the context of [[quantum computation]]:
 
 * [[John Preskill]], §2.3 in: *States and Ensembles*, chapter 2 of: *Quantum Computation*, lecture notes, since 2004 &lbrack;[pdf](http://www.theory.caltech.edu/~preskill/ph219/chap2_15.pdf), [web](http://theory.caltech.edu/~preskill/ph229/)&rbrack;
 
-* {#Kuperberg05} [[Greg Kuperberg]], § 1.4 of: *A concise introduction to quantum probability, quantum mechanics, and quantum computation* (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf)&rbrack;
+* {#Kuperberg05} [[Greg Kuperberg]], §1.4 of: *A concise introduction to quantum probability, quantum mechanics, and quantum computation* (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf)&rbrack;
+
+In the context of [[entanglement]]:
+
+* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapters 8 and 12 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
+
+
+In the context of [[decoherence]]:
+
+* [[Maximilian Schlosshauer]], §2.4 in: *Decoherence and the Quantum-To-Classical Transition*, The Frontiers Collection, Springer (2007) &lbrack;[doi:10.1007/978-3-540-35775-9](https://doi.org/10.1007/978-3-540-35775-9)&rbrack;
+
 
 Further:
 
-* [[Ingemar Bengtsson]], [[Karol Życzkowski]], Chapters 8 and 12 of: *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
 
 * [[Franco Strocchi]], pp. 46 in: *An introduction to the mathematical structure of quantum mechanics*, Advanced Series in Mathematical Physics **28**, World Scientific (2008) &lbrack;[doi:10.1142/7038](https://doi.org/10.1142/7038)&rbrack;
 
