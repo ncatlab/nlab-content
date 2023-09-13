@@ -14,7 +14,7 @@ If you'd like to contact me for any reason, I can be reached at kaya (dot) arro 
 
 On [[FI-representations]] and their [[representation stability]] in the generality of [[infinity-representations|$\infty$-representations]] in [[stable infinity-categories|stable $\infty$-categories]] and their analysis via [[Goodwillie calculus]]:
 
-* [[Kaya Arro]], *FI-Calculus and Representation Stability* (2023) &lbrack;[doi:](https://arxiv.org/abs/2306.13597)&rbrack;
+* [[Kaya Arro]], *FI-Calculus and Representation Stability* (2023) &lbrack;[arXiv:2306.13597](https://arxiv.org/abs/2306.13597)&rbrack;
 
 
 category: people
