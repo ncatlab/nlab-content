@@ -39,7 +39,7 @@ Let
 
 * $\Lambda^k[n]$ be the stratified simplicial set whose underlying simplicial set is the $k$-[[horn]] of $\Delta[n]$, with marked cells those that are marked in $\Delta^k[n]$;
 
-* $\Lambda^k[n]'$ be obtained from $\Delta^k[n]$ by making the $(k-1)$st $(n-1)$-face and the $(k+1)$st $(n-1)$ face thin;
+* $\Delta^k[n]'$ be obtained from $\Delta^k[n]$ by making the $(k-1)$st $(n-1)$-face and the $(k+1)$st $(n-1)$ face thin;
 
 * $\Delta^k[n]''$ be obtained from $\Delta^k[n]$ by making all $(n-1)$-faces thin.
 
@@ -50,7 +50,7 @@ An **elementary anodyne extension** in $Strat$, the category [[stratified simpli
 
 or
 
-* a **complicial thinness extension** $\Lambda^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
+* a **complicial thinness extension** $\Delta^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
 
 for $n = 1,2, \cdots$ and $k \in [n]$.
 
@@ -65,7 +65,7 @@ for $n = 1,2, \cdots$ and $k \in [n]$.
 A [[stratified simplicial set]] is a **weak complicial set** if it has the [[right lifting property]] with respect to all 
 
 $\Lambda^k[n] \stackrel{\subset_r}{\hookrightarrow} \Delta^k[n]$  and
-$\Lambda^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
+$\Delta^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
 
 A [[complicial set]] is a weak complicial set in which such liftings are unique.
 
