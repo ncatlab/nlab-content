@@ -77,7 +77,7 @@ be a [[Quillen adjunction]]. Then
 
 ## Properties
 
-* A [[Quillen adjunction]] is a [[Quillen equivalence]] precisely if both its derived adjunction units and derived adjunction counit at [[weak equivalences]].
+* A [[Quillen adjunction]] is a [[Quillen equivalence]] precisely if both its derived adjunction units and derived adjunction counit are [[weak equivalences]].
 
 * A [[Quillen adjunction]] is a [[Quillen reflection]] precisely if the components of its derived adjunction counit are [[weak equivalences]].
 
