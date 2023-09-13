@@ -59,13 +59,13 @@ So let $f \colon X \longrightarrow Y$ be an acyclic fibration between fibrant-co
 
 $$
   \array{
-    \emptyset &\rightarrow& Y
+    \emptyset &\rightarrow& X
     \\
     {}^{\mathllap{\in cof}}\downarrow 
      &{}^{{f^{-1}}}\nearrow& 
    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib \cap W}}
     \\
-    X &=& X
+    Y &=& Y
   }
   \,.
 $$
