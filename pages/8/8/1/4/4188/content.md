@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _Lagrangian correspondence_ is a [[correspondence]] between two [[symplectic manifolds]] $(X_i,\omega_i)$ given by a [[Lagrangian submanifold]] of their [[product]] $(X_1 \times X_2, p_1^\ast \omega_1 - p_2^\ast \omega_2)$. The [[graph of a function|graph]] of any [[symplectomorphism]] induces a Lagragian correspondence. 
+A _Lagrangian correspondence_ is a [[correspondence]] between two [[symplectic manifolds]] $(X_i,\omega_i)$ given by a [[Lagrangian submanifold]] of their [[product]] $(X_1 \times X_2, p_1^\ast \omega_1 - p_2^\ast \omega_2)$. The [[graph of a function|graph]] of any [[symplectomorphism]] induces a Lagrangian correspondence. 
 
 Lagrangian correspondences are supposed to form, subject to some technicalities, the [[morphisms]] of a [[category]] to be called the _[[symplectic category]]_.
 
