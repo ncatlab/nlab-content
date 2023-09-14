@@ -53,7 +53,9 @@ A _cyclotomic spectrum_ is
      F_p \;\colon\; X \longrightarrow X^{t C_p}
    $$
 
-   to the [[Tate spectrum]] (the [[homotopy cofiber]] $X^{t C_p} \coloneqq cofib( X_{C_p} \overset{norm_p}{\to} X^{C_p} )$ of the [[norm map]]), where the circle action on the Tate spectrum comes from the canonical identification $S^1/C_p \simeq S^1$.
+   to the [[Tate spectrum]] (the [[homotopy cofiber]] $X^{t C_p} \coloneqq cofib( X_{C_p} \overset{norm_p}{\to} X^{C_p} )$ of the [[norm map]]), 
+
+   {#CircleQuotient} where the circle action on the Tate spectrum comes from the canonical identification $S^1/C_p \simeq S^1$.
 
 (These morphisms $F_p$ are called the _[[Frobenius morphisms]]_ of the cyclotomic structure, due to [this def. ](Frobenius+morphism#EInfinityFrobenius), [this example](Frobenius+morphism#EInfinityFrobeniusReducesToOrdinaryFrobenius)).
 
@@ -193,7 +195,6 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 * [[Clark Barwick]], [[Saul Glasman]], _Noncommutative syntomic realization_ ([pdf](http://dl.dropbox.com/u/1741495/papers/tornado2.pdf))
 
 * {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
-
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
 
