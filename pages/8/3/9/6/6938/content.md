@@ -16,7 +16,7 @@
 
 **[[homotopy type]]**, [[homotopy type theory]]
 
-* [[identity type]], [[heterogeneous identity type]], [[dependent heterogeneous identity type]]
+* [[identity type]], [[heterogeneous identity type]]
 
 * [[homotopy n-type]], [[connected type]]
 
