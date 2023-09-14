@@ -16,4 +16,5 @@ On analogues of Howe pairs
 * B. Lian, A. Linshaw, Howe pairs in the theory of vertex algebras, J. Algebra 317, 111-152 (2007) arXiv:[math.RT/0605174](https://arxiv.org/abs/math/0605174) [doi](https://doi.org/10.1016/j.jalgebra.2007.07.002)
 
 category: people
+
 [[!redirects Bong H. Lian]]
