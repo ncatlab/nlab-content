@@ -53,7 +53,7 @@ A _cyclotomic spectrum_ is
      F_p \;\colon\; X \longrightarrow X^{t C_p}
    $$
 
-   to the [[Tate spectrum]] (the [[homotopy cofiber]] $X^{t C_p} \coloneqq cofib( X_{C_p} \overset{norm_p}{\to} X^{C_p} )$ of the [[norm map]]), where the circle action on the Tate spectrum comes from the canonical identification $S^1/C_p \simeq C_p$.
+   to the [[Tate spectrum]] (the [[homotopy cofiber]] $X^{t C_p} \coloneqq cofib( X_{C_p} \overset{norm_p}{\to} X^{C_p} )$ of the [[norm map]]), where the circle action on the Tate spectrum comes from the canonical identification $S^1/C_p \simeq S^1$.
 
 (These morphisms $F_p$ are called the _[[Frobenius morphisms]]_ of the cyclotomic structure, due to [this def. ](Frobenius+morphism#EInfinityFrobenius), [this example](Frobenius+morphism#EInfinityFrobeniusReducesToOrdinaryFrobenius)).
 
