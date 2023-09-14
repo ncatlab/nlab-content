@@ -23,9 +23,7 @@
 
 ## Idea
 
-In [[dependent type theory]], given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a:A$, $b:A$, and an [[identification]] $p:a =_A b$, a **heterogeneous identity type** between two elements $y: B(a)$ and $z:B(b)$ is a type whose elements witness that $y$ and $z$ are "equal" over or modulo the identification $p$. 
-
-Heterogeneous identity types, like [[function types]] and [[pair types]], come in dependent and non-dependent versions. However, unlike the case for function types and pair types, for which the bare phrases "function type" and "pair type" refer to the non-dependent versions of function and pair types, the bare phrase "heterogeneous identity types" refers to the dependent version of heterogeneous identity types. The non-dependent versions of heterogeneous identity types are simply dependent heterogeneous identity types for which the type family $x:A \vdash B(x)$ is a constant type family; i.e. for which $B(a)$ and $B(b)$ are [[judgmentally equal]] to each other for all $a:A$ and $b:A$. Non-dependent heterogeneous identity types are written as $\mathrm{hId}_{B}(a, b, p, y, z)$ and its heterogeneous reflexivity elements are written as $\mathrm{hrefl}_{B}(a, y)$ to indicate that the type family $B$ is constant. 
+In [[dependent type theory]], given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a:A$, $b:A$, and an [[identification]] $p:a =_A b$, a **heterogeneous identity type** between two elements $y: B(a)$ and $z:B(b)$ is a type whose elements witness that $y$ and $z$ are "equal" over or modulo the identification $p$.
 
 ### Note on terminology
 
@@ -42,7 +40,7 @@ These four names have different reasons behind the use of the name:
 
 * The name "heterogeneous identity type" comes from the fact that the dependent identity type is the canonical [[one-to-one correspondence]] $x:B(a), y:B(b) \vdash \mathrm{Id}_B^p(x, y)$ of the [[transport]] [[equivalence in type theory|equivalence]] $\mathrm{tr}_B^p:B(a) \simeq B(b)$ on a type family $x:A \vdash B(x)$ and an identification $p:a =_A b$, which is the dependent/heterogeneous version of the identity type for the identity equivalence $\mathrm{id}_A:A \simeq A$
 
-* The name "heterogeneous path type" comes from either the fact that every term in the heterogeneous identity type is represented by a [[dependent function]] from the [[interval type]], the dependent version of the path type. 
+* The name "heterogeneous path type" comes from the fact that, in a context where terms of ordinary identity types can be represented as functions from an [[interval type]], the terms of the heterogeneous identity type can similarly be represented as [[dependent functions]] from the [[interval type]].  For instance, this is true in some categorical semantics and in [[cubical type theory]].
 
 ## Definitions
 
@@ -56,7 +54,7 @@ $$a:A, y:B(a) \vdash \mathrm{hrefl}_{x:A.B(x)}(a, y):\mathrm{hId}_{x:A.B(x)}(a, 
 
 ### Inference rules
 
-The inference rules for forming heterogeneous identity types and terms are as follows (expressed in [[sequent calculus]]).  First the inference rule that defines the heterogeneous identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+The inference rules for forming heterogeneous identity types and terms are as follows.  First the inference rule that defines the heterogeneous identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
 Formation rule for dependent heterogeneous identity types:
 $$\frac{
@@ -98,11 +96,11 @@ then we can construct a canonically defined term called the *eliminator*
 $$\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t,a,b,p,y,z,q):C(a,b,p,y,z,q)$$ 
 for *any* $a$, $b$, $p$, $y$, $z$, and $q$. 
 
-Then, we have the [[computation rule]] or [[beta-reduction]] rule. This says that for all elements $a:A$ and $y:B(a)$, substituting the dependent function $t:\prod_{a:A} \prod_{y:B(a)} C(a,a,\mathrm{refl}_A(x),y,y,\mathrm{hrefl}_{x:A.B(x)}(a, y))$ into the eliminator along heterogeneous [[reflexive relation|reflexivity]] for $a$ and $y$ yields an element equal to $t(a, y)$ itself. There are three possible computation rules, depending on whether the computation rules use [[judgmental equality]], [[propositional equality]], and [[typal equality]] respectively
+Then, we have the [[computation rule]] or [[beta-reduction]] rule. This says that for all elements $a:A$ and $y:B(a)$, substituting the dependent function $t:\prod_{a:A} \prod_{y:B(a)} C(a,a,\mathrm{refl}_A(x),y,y,\mathrm{hrefl}_{x:A.B(x)}(a, y))$ into the eliminator along heterogeneous [[reflexive relation|reflexivity]] for $a$ and $y$ yields an element equal to $t(a, y)$ itself.  Normally "equal" here means [[judgmental equality]] (a.k.a. definitional equality), but it is also possible for it to mean [[propositional equality]] (a.k.a. typal equality), so there are two possible computation rules.
 
 Computation rules for dependent heterogeneous identity types:
 
-* Judgmental computational rules
+* Judgmental computational rule
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -111,16 +109,7 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y)) \equiv t(a, y):C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y))}$$
 
-* Propositional computational rules
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{a:A} \prod_{y:B(a)} C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y)) \quad \Gamma \vdash a:A \quad \Gamma \vdash y:B(a)
-    \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y)) \equiv_{C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y))} t(a, y) \; \mathrm{true}}$$
-
-* Typal computational rules
+* Propositional computational rule
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -129,53 +118,7 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, a, y):\mathrm{Id}_{C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y), t(a, y))}$$
 
-Finally, we have the [[uniqueness rule]] or [[eta-reduction]] rule. The uniqueness rule states that
-
-1. for any elements $a:A$ and $b:A$, any identification $p:\mathrm{Id}_A(a,b)$, any elements $y:B(a)$ and $z:B(b)$, and any heterogeneous identification $q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$ we have a type $C(a, b, p, y, z, q)$, and
-1. we have a specified dependent function 
-$$t:\prod_{a:A} \prod_{y:B(a)} C(a,a,\mathrm{refl}_A(x),y,y,\mathrm{hrefl}_{x:A.B(x)}(a, y))$$
-
-every element $r:C(a,b,p,y,z,q)$ is equal to the canonically defined eliminator. There are three possible uniquness rules, depending on whether the uniqueness rules use [[judgmental equality]], [[propositional equality]], and [[typal equality]] respectively
-
-Uniqueness rule for dependent heterogeneous identity types:
-
-* Judgmental uniqueness rules
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{a:A} \prod_{y:B(a)} C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y)) \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \\
-      \Gamma \vdash r:C(a, b, p, y, z, q)
-    \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q) \equiv r:C(a, b, p, y, z, q)}$$
-
-* Propositional uniqueness rules
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{a:A} \prod_{y:B(a)} C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y)) \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \\
-      \Gamma \vdash r:C(a, b, p, y, z, q)
-    \end{array}
-  }{\Gamma \vdash \mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q) \equiv_{C(a, b, p, y, z, q)} r \; \mathrm{true}}$$
-
-* Typal uniqueness rules
-
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma, a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b), q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \vdash C(a, b, p, y, z, q) \; \mathrm{type} \\
-      \Gamma \vdash t:\prod_{a:A} \prod_{y:B(a)} C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y)) \\
-      \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \quad \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \\
-      \Gamma \vdash r:C(a, b, p, y, z, q)
-    \end{array}
-  }{\Gamma \vdash \eta_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q, r):\mathrm{Id}_{C(a, b, p, y, z, q)}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, b, p, y, z, q), r)}$$
-
-Similar to the case for [[identity types]], having the judgmental or propositional uniqueness rules for heterogeneous identity types implies that the type theory is an [[extensional type theory]]. The typal uniqueness rules for heterogeneous identity types is always provable from the other four inference rules. 
+Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  But similar to the case for [[identity types]], a judgmental uniqueness rule for heterogeneous identity types implies that the type theory is an [[extensional type theory]], in which case there is not much need for heterogeneous identity types, so such a rule is almost never written down.  And as for identity types and other inductive types, the propositional/typal uniqueness rule is provable from the other four inference rules, so we don't write it out explicitly.
 
 ### Dependent universal property
 
@@ -213,18 +156,6 @@ $$\mathrm{apd}_{x:A.B(x)}(f):\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b
 inductively defined by:
 
 $$\mathrm{apd}_{x:A.B(x)}(f, a, a, \mathrm{refl}_A(a)) \equiv \mathrm{hrefl}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), f(a), f(a)):\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), f(a), f(a))$$
-
-for strict identity types. 
-
-The non-dependent [[function application to identifications]] uses non-dependent functions and non-dependent heterogeneous identity types: given a type $A$, a constant type family $x:A \vdash B$, and a non-dependent [[function]] $f:A \to B$, there is a dependent function
-
-$$\mathrm{ap}_{B}(f):\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{B}(a, b, p, f(a), f(b))$$
-
-inductively defined by:
-
-$$\mathrm{ap}_{B}(f, a, a, \mathrm{refl}_A(a)) \equiv \mathrm{hrefl}_{B}(a, a, \mathrm{refl}_A(a), f(a), f(a)):\mathrm{hId}_{B}(a, a, \mathrm{refl}_A(a), f(a), f(a))$$
-
-for strict identity types. 
 
 ### One-to-one correspondence structure
 
@@ -270,13 +201,13 @@ for non-dependent heterogeneous identity types.
 
 ### Extensionality principles
 
-Heterogeneous identity types are used in many extensionality principles. 
+Heterogeneous identity types are used in many extensionality principles.
 
-* The extensionality principle for [[function types]] states that there is an equivalence 
+* The extensionality principle for [[function types]] (non-dependent [[function extensionality]]) states that there is an equivalence 
 
 $$\mathrm{ext}_{\to}:\prod_{f:A \to B} \prod_{g:A \to B} \mathrm{Id}_{A \to B}(f, g) \simeq \prod_{a:A} \prod_{b:B} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{B}(a, b, p, f(a), g(b))$$
 
-* The extensionality principle for [[dependent product types]] states that there is an equivalence
+* The extensionality principle for [[dependent product types]] (dependent [[function extensionality]]) states that there is an equivalence
 
 $$\mathrm{ext}_\Pi:\prod_{f:\prod_{x:A} B(x)} \prod_{g:\prod_{x:A} B(x)} \mathrm{Id}_{\prod_{x:A} B(x)}(f, g) \simeq \prod_{a:A} \prod_{b:B} \prod_{p:\mathrm{Id}_A(a, b)} \mathrm{hId}_{x:A.B(x)}(a, b, p, f(a), g(b))$$
 
