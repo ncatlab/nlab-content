@@ -26,7 +26,7 @@ More generally, if the given [[quasi-Hopf algebra]] is the [[twisted groupoid co
 
 ## Definition
 
-Given a [[field]] $k$, __Drinfel'd__ (or Drinfeld or quantum) __double__ of a finite dimensional Hopf $k$-algebra $H$ is the tensor product algebra $D(H) = H\otimes H^*$ where $H^* = Hom_k(H, k)$ with induced canonical Hopf algebra structure. It appears that the canonical element in $D(H)$ (the image of the identity under the isomorphism $Hom_k(H,H) \cong H\otimes H^*$) is a universal $R$-element in $D(H)$ making it into a [[quasitriangular Hopf algebra]], which is making it "almost commutative". 
+Given a [[field]] $k$, __Drinfel'd__ (or Drinfeld or quantum) __double__ of a finite dimensional Hopf $k$-algebra $H$ is the tensor product algebra $D(H) = H\otimes H^*$ where $H^* = Hom_k(H, k)$ with induced canonical Hopf algebra structure. It appears that the canonical element in $D(H)$ (the image of the identity under the isomorphism $Hom_k(H,H) \cong H\otimes H^*$) is a universal $R$-element in $D(H)$ making it into a [[quasitriangular Hopf algebra]], which is making it "almost cocommutative". 
 
 This quasitriangular structure in some infinite-dimensional versions of the construction is related to the quasitriangular structure on some [[quantum groups]]. 
 
