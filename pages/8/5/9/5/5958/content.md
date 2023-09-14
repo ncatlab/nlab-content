@@ -1,15 +1,17 @@
 __Gregg Jay Zuckerman__ is a mathematician at Yale University.
 
-* wikipedia [Gregg Zuckerman](http://en.wikipedia.org/wiki/Gregg_Zuckerman), [Zuckerman functor](http://en.wikipedia.org/wiki/Zuckerman_functor)
+* Wikipedia: [Gregg Zuckerman](http://en.wikipedia.org/wiki/Gregg_Zuckerman), [Zuckerman functor](http://en.wikipedia.org/wiki/Zuckerman_functor)
 
 * [website](http://directory.math.yale.edu/public_html/People/gjz2.html)
+
 
 ## Selected writings
 
 On the [[variational bicomplex]]:
 
-* {#Zuckerman87} [[Gregg Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.) *Mathematical Aspects of String Theory*, World Scientific (1987) 259-284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/0383](https://doi.org/10.1142/0383)&rbrack;
-* [[Bong Lian|Bong H. Lian]], Gregg J. Zuckerman, _New perspectives on the BRST-algebraic structure of string theory_, Commun.Math. Phys. 154, 613-646 (1993) [doi](https://doi.org/10.1007/BF02102111)
+* {#Zuckerman87} [[Gregg J. Zuckerman]], *Action principles and global geometry*, in: [[Shing-Tung Yau]] (ed.) *Mathematical Aspects of String Theory*, World Scientific (1987) 259-284 &lbrack;[[ZuckermanVariation.pdf:file]], [doi:10.1142/0383](https://doi.org/10.1142/0383)&rbrack;
+
+* [[Bong H. Lian]], [[Gregg J. Zuckerman]], _New perspectives on the BRST-algebraic structure of string theory_, Commun. Math. Phys. **154** (1993) 613-646 &lbrack;[doi:10.1007/BF02102111](https://doi.org/10.1007/BF02102111)&rbrack;
 
 On [[representation theory]] and [[derived functors]]:
 
@@ -38,3 +40,5 @@ On [[modular forms]] in [[string theory]]:
 
 
 category: people
+
+[[!redirects Gregg J. Zuckerman]]
