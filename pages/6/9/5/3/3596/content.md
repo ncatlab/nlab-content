@@ -267,7 +267,7 @@ The definition of identity types was originally given in explicit form by [[Per 
 ### With introduction and elimination rules
  {#ExplicitDefinition}
 
-The rules for forming identity types and terms are as follows (expressed in [[sequent calculus]]).  First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+The rules for forming identity types and terms are as follows.  First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
 **[[type formation]]**
 
