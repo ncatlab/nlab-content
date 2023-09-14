@@ -208,6 +208,9 @@ Relation to [[D=3 N=2 super Yang-Mills theory]]:
 
 * [[Hans Jockers]], [[Peter Mayr]], *A 3d Gauge Theory/Quantum K-Theory Correspondence*, Advances in Theoretical and Mathematical Physics **24** 2 (2020) &lbrack;[arXiv:1808.02040](https://arxiv.org/abs/1808.02040), [doi:10.4310/ATMP.2020.v24.n2.a4](https://dx.doi.org/10.4310/ATMP.2020.v24.n2.a4)&rbrack;
 
+* Cyril Closset, Osama Khlaif, *Grothendieck lines in 3d $\mathcal{N}=2$ SQCD and the quantum K-theory of the Grassmannian* &lbrack;[arXiv:2309.06980](https://arxiv.org/abs/2309.06980)&rbrack;
+
+
 For more references see also those listed in 
 
 * W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
