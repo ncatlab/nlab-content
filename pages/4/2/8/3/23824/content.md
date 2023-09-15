@@ -215,6 +215,8 @@ for all $a:R \times S$, where $\pi_1$ and $\pi_2$ are the first and second produ
 
 * [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], *A Foundation for Synthetic Algebraic Geometry* (2023) &lbrack;[arXiv:2307.00073](https://arxiv.org/abs/2307.00073)&rbrack;
 
+  > (in the context of [[synthetic algebraic geometry]])
+
 In [[Agda]]:
 
 * [[UniMath project]], *[foundation-core.subtypes.html](https://unimath.github.io/agda-unimath/foundation-core.subtypes.html)*
