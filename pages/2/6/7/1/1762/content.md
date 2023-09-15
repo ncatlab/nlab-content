@@ -20,14 +20,21 @@ On the [[2-category theory]] of [[monads]] and their [[Eilenberg-Moore categorie
 
 * {#Street72} [[Ross Street]], *The formal theory of monads*, Journal of Pure and Applied Algebra **2** 2 (1972) 149-168 &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90019-9">doi:10.1016/0022-4049(72)90019-9</a>&rbrack;
 
-* [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
-**175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
-
 On [[enriched category theory]] and [[cosmoi]]:
 
 * {#Street74} [[Ross Street]],  *Elementary cosmoi I.* in *Category Seminar*, Lecture Notes in Mathematics **420**, Springer (1974) &lbrack;[doi:10.1007/BFb0063103](https://doi.org/10.1007/BFb0063103)&rbrack;
 
 * {#Street80} [[Ross Street]], *Cosmoi of internal categories*, Transactions of the American Mathematical Society **258** 2 (1980) 271-318 &lbrack;[doi:10.2307/1998059](https://doi.org/10.2307/1998059)&rbrack;
+
+
+Introducing the notion of [[traced monoidal categories]]:
+
+* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. **119** (1996) 447-468 &lbrack;[pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf), [doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
+
+
+* [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra
+**175** 1–3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
+
 
 * {#Street81} [[Ross Street]], *Cauchy characterization of enriched categories*, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233, Reprints in Theory and Applications of Categories, **4** (2004) 1-16 &lbrack;[tac:tr4](http://www.tac.mta.ca/tac/reprints/articles/4/tr4abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/4/tr4.pdf)&rbrack;
 
@@ -59,7 +66,6 @@ Further:
 
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
 
-* A. Joyal, R. Street, [[D. Verity]], _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468.
 
 * R.H. Street, _Fibrations in bicategories_, Cahiers de topologie et géométrie différentielle XXI (1980) 111–160
 
