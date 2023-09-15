@@ -16,6 +16,10 @@ On [[modal homotopy type theory]] (such as concerning [[homotopy n-types]]/[[n-t
 
 * [[Felix Cherubini]], [[Egbert Rijke]], *Modal Descent*, Mathematical Structures in Computer Science **31** 4 (2021) 363-391  &lbrack;[doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201), [arXiv:2003.09713](https://arxiv.org/abs/2003.09713)&rbrack;
 
+On [[synthetic algebraic geometry]]:
+
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], *A Foundation for Synthetic Algebraic Geometry* (2023) &lbrack;[arXiv:2307.00073](https://arxiv.org/abs/2307.00073)&rbrack;
+
 
 
 category: people
