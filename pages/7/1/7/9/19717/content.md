@@ -306,6 +306,8 @@ For $\mathbf{C}$ a [[cartesian closed category]],  the lawful $V$-lenses in $\ma
 \end{proposition}
 This is due to [O’Connor (2010)](#O’Connor10),  [O’Connor (2011)](#O’Connor11), for further discussion see  [Gibbons & Johnson (2012), Section 3.2](#GibbonsJohnson12).
 
+A **proof** is spelled out [here](store+comonad#LabelStoreComodalesAreLenses) at *[[store comonad]]*.
+
 ## Generalizations
 
 There are many generalizations of lenses which have been proposed, however they can be broadly classified into those which satisfy analogues of the _lens laws_, and those without any axioms or laws. 
@@ -430,4 +432,6 @@ Further review:
 [[!redirects lens in computer science]]
 [[!redirects lenses in computer science]]
 
+[[!redirects lawful lens]]
+[[!redirects lawful lenses]]
 
