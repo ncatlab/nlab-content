@@ -14,8 +14,12 @@ On [[enriched category theory]] and [[internal categories]]:
 
 * _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
 
-On [[weak complicial sets]]:
+Introducing the notion of [[traced monoidal categories]]:
 
+* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. **119** (1996) 447-468 &lbrack;[pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf), [doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
+
+
+On [[weak complicial sets]]:
 
 *   D. R. Verity, 2005, Complicial Sets , available from : [arXiv:math.CT/0410412](http://arxiv.org/abs/math.CT/0410412). 
 
