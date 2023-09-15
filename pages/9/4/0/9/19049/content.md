@@ -245,6 +245,262 @@ of [[context extension]], followed by [[dependent product]] , followed by [[cont
 Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader monad]]_ and $\sum_W W^\ast = W \times (-)$ is the _[[writer comonad]]_.
 
 
+
+### Store-Comodales are Lenses
+ {#LabelStoreComodalesAreLenses}
+
+We spell out the data of [[comodule over a comonad|comodales]] over the classical Store-comonad (from [above](#OnACartesianClosedCategory)).
+
+> (Beware that we are switching herefrom using "$S$" for the state space to using it for the argument of the comonad -- this in order to be closer to the notation used at *[[lens in computer science]]*.)
+
+Unwinding the definitions, a $V$-store [[comodule over a comonad|comodale]] [[structure]] on a type $S$ is a [[map]] of the form
+
+\[
+  \label{ComodaleMap}
+  \array{
+    S
+    &
+    \overset{
+      \big(
+        get
+        ,\, 
+        \widetilde{put}
+      \big)
+    }{\longrightarrow}
+    &
+    V \times [V, S]    
+    \\
+    s
+    &\mapsto&
+    \big(
+      get(s)
+      ,\,
+      put(-,s)
+    \big)
+  }
+\]
+
+and hence consists, equivalently, of a [[pair]] of [[functions]] of the form
+
+\[
+  \label{LensStructureMaps}
+  \begin{array}{l}
+    get \;\colon\; S \to V \,,
+    \\
+    put \;\colon\; V \times S \to S \,.
+  \end{array}
+\]
+
+On this data, the counitality condition of a comodale (eq:ComodaleMap) requires that the following composite is the [[identity morphism|identity]]
+
+$$
+  \array{
+    S
+    &
+    \overset{
+      \big(
+        get
+        ,\, 
+        \widetilde{put}
+      \big)
+    }{\longrightarrow}
+    &
+    V \times [V, S]    
+    &
+    \overset{
+      obt^{ V Store }_S
+      \equiv
+      ev 
+    }{\longrightarrow}
+    &
+    S
+    \\
+    s 
+    &\mapsto&
+    \big(
+      get(s)
+      ,\,
+      put(-,s)
+    \big)
+    &\mapsto&
+    put\big(
+      get(s)
+      ,\,
+      s
+    \big)
+    \mathrlap{\,,}
+  }
+$$
+
+hence that
+
+\[
+  \label{GetPutLaw}
+  s \in S
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  put\big(
+    get(s)
+    ,\,
+    s
+  \big)  
+  \;=\;
+  s
+  \mathrlap{\,,}
+\]
+
+while the coaction property requires that the following [[commuting diagram|diagram commutes]]
+
+\begin{tikzcd}[  
+  column sep=4pt
+]
+  V \times [V,S]
+  \ar[
+    rrrrr,
+    "{
+      \mathrm{dupl}^{ V\mathrm{Store} }_S
+    }"
+  ]
+  &[-5pt]
+  &&&[-150pt]
+  &[-30pt]
+  V \times \Big[ 
+    V 
+    ,\,
+    \big[
+      V 
+      \times 
+      [V,S] 
+    \big]
+  \Big]
+  \\
+  &
+  \big(
+    \mathrm{get}(s)
+    ,\,
+    \mathrm{put}(-,s)
+  \big)
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  \Big(
+    \mathrm{get}(s)
+    ,\,
+    v' \mapsto \big(v', \mathrm{put}(-,s)\big) 
+  \Big)
+  \\
+  &&&& 
+  \bigg(
+    \mathrm{get}(s)
+    ,\,
+    v'
+    \mapsto
+    \Big(
+      \mathrm{get}\big(\mathrm{put}(v',s)\big)
+      ,\,
+      \mathrm{put}\big(-, \mathrm{put}(v',s)\big)      
+    \Big)
+  \bigg)
+  \ar[ul, equals]
+  \\
+  & 
+  &&& 
+  \\
+  & 
+  s 
+  \ar[rrr, phantom, "{ \mapsto }"]
+  \ar[uuu, phantom, "{ \mapsto }"{sloped}]
+  &&& 
+  \big(
+    \mathrm{get}(s)
+    ,\,
+    v' \mapsto \mathrm{put}(v',s)
+  \big)
+  \ar[uu, phantom, "{ \mapsto }"{sloped}]
+  \\
+  S 
+  \ar[
+    rrrrr,
+    "{
+      \big(
+        \mathrm{get}
+        ,\,
+        \widetilde{\mathrm{put}}
+      \big)
+    }"{swap}
+  ]
+  \ar[
+    uuuuu,
+    "{
+      \big(
+        \mathrm{get}
+        ,\,
+        \widetilde{\mathrm{put}}
+      \big)
+    }"
+  ]
+  &&&&&
+  V \times [V, S]
+  \ar[
+    uuuuu,
+    "{
+      V \times \Big[
+        V
+        ,\,
+        \big(
+          \mathrm{get}
+          ,\,
+          \widetilde{\mathrm{put}}
+        \big)       
+      \Big]
+    }"{swap}
+  ]
+\end{tikzcd}
+
+which amounts to the two conditions
+
+\[
+  \label{PutGetLaw}
+  v \in V
+  ,\;
+  s \in S
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
+  get\big( put(v,s) \big)
+  \,=\,
+  v
+\]
+
+and
+
+\[
+  \label{PutPutLaw}
+  \label{}
+  v, v' \in V
+  ,\,
+  s \in S
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  put\big(
+    v
+    ,\,
+    put(v', s)
+  \big)
+  \,=\,
+  put(v,\, s)
+\]
+
+This data --- a pair of maps (eq:LensStructureMaps) satisfying the *get-put law* (eq:GetPutLaw), the *put-get law* (eq:PutGetLaw) and the *put-put law* (eq:PutPutLaw) -- is known as a *lawful [[lens in computer science]]* (see [there](#lens+in+computer+science#Lens)).
+
+Hence, as first observed by [O’Connor 2010](#O’Connor10):
+
+\begin{proposition}
+Classical $V$-store [[comodule over a comonad|comodales]] are equivalently [[lawful lenses]] with "view" $V$.
+\end{proposition}
+
+
 ## Related concepts
 
 * [[quantum costate comonad]]
