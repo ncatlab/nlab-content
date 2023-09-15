@@ -22,36 +22,9 @@
 
 ## Idea
 
-Just as there are two notions of [[judgmental equality]] in [[dependent type theory]], judgmental equality of terms and judgmental equality of types, there are two types in [[dependent type theory]] which could be considered **typal equality**: 
+In [[dependent type theory]], the term *typal equality* is used to describe the use of the [[identity type]] to represent the notion of equality, and is primarily used to distinguish from the notion of [[judgmental equality]]. 
 
-* Typal equality of [[terms]] is the [[identity type]] or [[path type]]
-* Typal equality of [[types]] is the [[equivalence type]]
-
-In [[type universes]] $U$, this means that small types $A:U$ have two notions of typal equality, one from the identity type between small types, and the other from the equivalence type between small types, and the [[univalence axiom]] states that these two types are equivalent (i.e. typally equal) to each other. 
-
-## Parallels between judgmental equality and typal equality
-
-The parallels between the structural rules for judgmental equality and typal equality are shown below:
-
-| judgmental equality | typal equality |
-|---------------------|----------------|
-| judgmental equality of terms | identification |
-| reflexivity of judgmental equality of terms | identity identification |
-| symmetry of judgmental equality of terms | inverse identification |
-| transitivity of judgmental equality of terms | composition of identifications |
-| judgmental equality of types | equivalence |
-| reflexivity of judgmental equality of types | identity equivalence |
-| symmetry of judgmental equality of types | inverse equivalence |
-| transitivity of judgmental equality of types | composition of equivalences |
-| principle of substitution | transport |
-| variable conversion rule | substitution of evaluation of inverse equivalence |
-
-## Homogeneous and heterogeneous typal equality
-
-| | homogeneous identification | heterogeneous identification | homogeneous equivalence | heterogeneous equivalence |
-|-|----------|--------------------|-------------|-----------------------|
-| type | $a =_A b$ | $x =_B^p y$ | $A \simeq B$ | $A \simeq B$ |
-| identity term | $\mathrm{refl}_A(a):a =_A a$ | $\mathrm{apd}_B^p(f):f(a) =_B^p f(b)$ | $\mathrm{id}_A:A \simeq A$ | $\mathrm{tr}_B^p:B(a) \simeq B(b)$ |
+In dependent type theories with a separate [[proposition]] [[judgment]] $\phi \mathrm{prop}$, the term *typal equality* is also used to distinguish identity types from [[propositional equality]], which is the equality judged to be a proposition; i.e. $a =_A b \mathrm{prop}$. On the other hand, in dependent type theory without a separate [[proposition]] [[judgment]], propositions are usually defined to be certain types, and the term "propositional equality" is used as a synonym of typal equality in referring to identity types. 
 
 ## See also
 
