@@ -53,7 +53,7 @@ corresponding to the [[tensorial strength]] of the functors $[A,-] : \mathcal{S}
 ### Relation to traced monoidal categories
  {#RelationToTracedMonoidalCategories}
 
-Given a [[traced monoidal category]] $\mathcal{C}$, there is a [[free construction]] completion of it to a compact closed category $Int(\mathcal{C})$ ([Joyal-Street-Verity 96](#JoyalStreetVerity96)):
+Given a [[traced monoidal category]] $\mathcal{C}$, there is a [[free construction]] completion of it to a compact closed category $Int(\mathcal{C})$ &lbrack;[Joyal, Street & Verity 1996](#JoyalStreetVerity96)&rbrack;:
 
 the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal{C}$, a morphism $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ is given by a morphism of the form $A^+\otimes B^- \longrightarrow A^- \otimes B^+$ in $\mathcal{C}$, and [[composition]] of two such morphisms $(A^+ , A^-) \to (B^+ , B^-)$ and $(B^+ , B^-) \to (C^+ , C^-)$ is given by [[trace|tracing out]] $B^+$ and $B^-$ in the evident way.
 
@@ -105,7 +105,7 @@ On the relation to [[quantum operations]] and [[completely positive maps]]:
 
 On the relation to [[traced monoidal categories]]:
 
-* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf)), doi:[10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)
+* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. **119** (1996) 447-468 &lbrack;[pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf), [doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
 
 See also:
 
