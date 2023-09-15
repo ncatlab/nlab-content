@@ -988,6 +988,12 @@ and emphasis on the combination of [[monads]], [[comonads]] and [[graded modalit
 
 * {#KRU20} [[Shin-ya Katsumata]], Exequiel Rivas, [[Tarmo Uustalu]], LICS (2020) 604-618 *Interaction laws of monads and comonads* &lbrack;[arXiv:1912.13477](https://arxiv.org/abs/1912.13477), [doi:10.1145/3373718.3394808](https://doi.org/10.1145/3373718.3394808)&rbrack;
 
+The identification of (co)effect handling with ([[comodule over a comonad|co]])[[modules over a monad|modales]] over the given (co)monad:
+
+* [[Gordon D. Plotkin ]], [[Matija Pretnar]], *Handling Algebraic Effects*, Logical Methods in Computer Science, **9** 4 (2013) lmcs:705 &lbrack;[arXiv:1312.1399](https://arxiv.org/abs/1312.1399), <a href=" https://doi.org/10.2168/LMCS-9(4:23)2013">doi:10.2168/LMCS-9(4:23)2013</a>&rbrack;
+
+* Ohad Kammar, Sam Lindley, Nicolas Oury, *Handlers in action*, ACM SIGPLAN Notices **48** 9 (2013) 145–158 &lbrack;[doi:10.1145/2544174.2500590](https://doi.org/10.1145/2544174.2500590)&rbrack;
+
 Review and discussion in actual [[programming languages]] such as [[Haskell]]:
 
 * {#BentonHughesMoggi02} [[Nick Benton]], [[John Hughes]], [[Eugenio Moggi]], *Monads and Effects*, in: *Applied Semantics*, Lecture Notes in Computer Science **2395**, Springer (2002) 42-122 &lbrack;[doi:10.1007/3-540-45699-6_2](https://doi.org/10.1007/3-540-45699-6_2)&rbrack;
