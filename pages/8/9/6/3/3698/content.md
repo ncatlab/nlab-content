@@ -37,6 +37,9 @@ A system in
 
 * [[subsystem]], [[composite system]]
 
+* [[open quantum system]]
+
+
 ## References
 
 See also the references at *[[quantum mechanics]]*.
