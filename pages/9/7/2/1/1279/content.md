@@ -26,11 +26,9 @@ A central property of sequent calculi, which distinguishes them from systems of 
 
 We will start with an arbitrary [[signature (in logic)|signature]] $\Sigma$; the simplest case (for [[propositional logic]]) uses the empty signature (with no [[types]]).  We will assume unlimited [[variables]] for [[propositions]] and unlimited variables for each type.
 
-+-- {: .num_remark}
-###### Warning
-
+\begin{remark}
 We will be defining several terms below; but keep in mind that these are definitions *for sequent calculus*, since these terms may also be used more generally.
-=--
+\end{remark}
 
 +-- {: .num_defn}
 ###### Definition
@@ -60,15 +58,15 @@ $$ \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi} ,$$
 where $\vec{x}\colon \vec{T}$ is the context $\Gamma$, with the antecedent on the left and the succedent on the right.
 =--
 
-+-- {: .num_remark}
-###### Warnings
+\begin{remark}
 
 If $\Sigma$ has a single type (a so-called 'untyped' signature) and one tacitly assumes that the single type is [[inhabited type|inhabited]], then one may (up to equivalence in a certain sense) reconstruct the context of any sequent from the cedents, by examining which variables appear; this is even possible if $\Sigma$ has more than one type (all assumed inhabited), although more difficult if certain abuses of notation are used.  Then the context can be ignored.  This is not really the right way to do things, but (especially for untyped signatures) it is traditional.
 
 Confusingly, the cedents are sometimes also called 'contexts'; then one speaks of the __left context__ (the antecedent), the __right context__ (the succedent).  This is most easily done when ingoring what we have been calling the context; I\'m not even sure what term would then be used for that context (maybe the __type context__?).  See also also the [interpretation of sequents as hypothetical judgements](sequent#Gentzen2MartinLof) (which I hope to write soon), which shows how the type context, antecedent, and succedent are all used to form the context of a related [[hypothetical judgement]].
 
 One also sometimes uses 'antecedent' or 'succedent' for an *individual* proposition on the relevant side of the sequent; see also the use of 'consequent' in [minimal sequents](#minimaletc) below.
-=--
+
+\end{remark}
 
 +-- {: .num_defn}
 ###### Definition
