@@ -213,7 +213,7 @@ for all $a:R \times S$, where $\pi_1$ and $\pi_2$ are the first and second produ
 
 * [[Martín Escardó]], *[The subtype classifier and other classifiers](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#subtypeclassifier)*, in:  *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)&rbrack;
 
-* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], *A Foundation for Synthetic Algebraic Geometry* ([pdf](https://felix-cherubini.de/iag.pdf))
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], *A Foundation for Synthetic Algebraic Geometry* (2023) &lbrack;[arXiv:2307.00073](https://arxiv.org/abs/2307.00073)&rbrack;
 
 In [[Agda]]:
 
