@@ -295,11 +295,13 @@ The identification of stable cohomotopy with the [[K-theory of a permutative cat
 
 * {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>, [pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
-see also
+see also:
 
 * {#Priddy73} [[Stewart Priddy]], _Transfer, symmetric groups, and stable homotopy theory_, in _Higher K-Theories_, Springer, Berlin, Heidelberg, 1973. 244-255 ([pdf](https://link.springer.com/content/pdf/10.1007/BFb0067060.pdf))
 
-* {#Glasman13} [[Saul Glasman]], _The multiplicative Barratt-Priddy-Quillen theorem and beyond_, talk 2013 ([pdf](http://math.mit.edu/~sglasman/bpq-beamer.pdf))
+* {#Glasman13} [[Saul Glasman]], _The multiplicative Barratt-Priddy-Quillen theorem and beyond_, talk notes (2013) &lbrack;[pdf](http://math.mit.edu/~sglasman/bpq-beamer.pdf), &rbrack;
+
+* [[Pedro Boavida de Brito]], [[Ieke Moerdijk]], Thm. 1.2 in: *Dendroidal spaces, $\Gamma$-spaces and the special Barratt-Priddy-Quillen theorem*, Journal für die reine und angewandte Mathematik **2020** 760 (2020) 229-265 &lbrack;[arXiv:1701.06459](https://arxiv.org/abs/1701.06459), [doi:10.1515/crelle-2018-0002](https://doi.org/10.1515/crelle-2018-0002)&rbrack;
 
 The resulting interpretation of stable cohomotopy as [[algebraic K-theory]] over the [[field with one element]] is amplified in the following texts:
 
@@ -390,6 +392,6 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 [[!redirects framed cobordism ring]]
 [[!redirects framed cobordism rings]]
 
-
+[[!redirects Barrat-Priddy-Quillen theorem]]
 
 
