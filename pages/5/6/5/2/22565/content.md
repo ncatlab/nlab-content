@@ -20,13 +20,21 @@
 
 **[[quantum physics]]**
 
-* ([[parameterized quantum systems|parameterized]]) [[quantum systems]]
+* [[quantum systems]] 
 
-  [[Dyson formula]]
+  ([[parameterized quantum systems|parameterized]], [[open quantum system|open]])
+
+  [[quantum measurement]]
+
+  [[quantum state collapse]]
+
+  [[quantum decoherence]] 
 
   [[quantum adiabatic theorem]]
 
   [[Berry phases]]
+
+  [[Dyson formula]]
 
 * [[quantum many-body physics]]
 
