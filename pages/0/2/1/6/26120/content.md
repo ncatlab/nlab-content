@@ -191,7 +191,8 @@ $$
 
 To see its duplication operation (the comonad coproduct) notice first that the $\big(\mathscr{H} \otimes (\text{-}) \,\dashv\, \mathscr{H} \multimap (\text{-})\big)$-[[unit of an adjunction|unit]] is:
 
-$$
+\[
+  \label{TheAdjunctionUnit}
   \array{
     (\text{-})
     &\overset{
@@ -218,7 +219,7 @@ $$
     \big)
     \mathrlap{\,.}
   }
-$$
+\]
 
 Using the orthonormal basis (eq:OrthonormalBasis) and the compact closure (eq:CompactClosureViaBraKetNotation)
 we may equivalently write this as:
@@ -303,7 +304,8 @@ This means that the duplication (cojoin) operation in the $\mathscr{H}$-CoState 
 
 Finally, the obtain-operation (the [[counit of a comonad|comonad counit]]) is the [[evaluation map]], hence the [[partial trace]] over $\mathscr{H}$:
 
-$$
+\[
+  \label{TheAdjunctionCounit}
   \array{
     \mathscr{H}
     \otimes
@@ -326,7 +328,7 @@ $$
     \,
     \left\vert \text{-} \right\rangle    
   }
-$$
+\]
 
 ## Properties
 
@@ -378,6 +380,9 @@ We assume an ambient [[compact closed category]] such as that of [[finite-dimens
 For the formula in Prop. \ref{KleisliCompositionIsSuperoperatorComposition} to come out naturally, we take -- without loss of generality -- the generic object on which to apply the linear store comonad to be a [[dual object]] $\mathscr{K}^\ast \coloneqq (\mathscr{K} \multimap \mathbb{1})$. 
 
 \begin{remark}
+\label{TheCoKleisliMorphisms}
+**(the coKleisli morphisms)**
+\linebreak
 The [[coKleisli morphisms]] of the quantum store comonad (eq:UnderlyingEndofunctor)
 
 \[
@@ -589,7 +594,8 @@ $$
 $$  
 
 hence
-$$
+\[
+  \label{StoreExtension}
   \array{
     \mathllap{
       exend^{\mathscr{H} Store}
@@ -602,6 +608,10 @@ $$
       \otimes
     \mathscr{K}^\ast
     &\longrightarrow&
+    \mathscr{H}
+      \otimes
+    \mathscr{H}^\ast
+      \otimes
     \mathscr{K}^\ast
     \\
     \left\vert \psi \right\rangle
@@ -611,7 +621,7 @@ $$
     \left\langle \phi, \kappa \right\vert
     A
   }
-$$
+\]
 This implies the claim (eq:KleisliComposition).
 \end{proof}
 
@@ -628,7 +638,9 @@ $$
 
 ## Examples
 
-### Costate co-effects are quantum observables
+### Quantum observables
+
+> (The following is now a little repetitive, being a special case of the general statement above. Will streamline...)
 
 For the classical [[costate comonad]] on a [[cartesian closed category]] its value and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
 
@@ -800,35 +812,78 @@ $$
 
 \end{proof}
 
-### Mixed state expectation values
+\begin{remark}\label{Traces}
+Understanding $\mathscr{H}Store$ as a [[Frobenius monad]] as [above](#FrobeniusStructure) makes it natural to combine the [[unit of a monad|monad unit]] (eq:TheAdjunctionUnit) with the Kleisli morphisms of Rem. \ref{TheCoKleisliMorphisms}.
 
-Observe that
+This gives the *[[trace]]* of linear operators, as seen via (eq:StoreExtension):
 
 $$
   \array{
     \mathbb{1}
-    &\overset{return}{\longrightarrow}&
+    &\overset{ret^{\mathscr{H}^\ast State}_{\mathbb{1}}}{\longrightarrow}&
     \mathscr{H}
     \otimes
     \mathscr{H}^\ast
     &\overset{
-      extend \mathcal{O}_{\rho}
+      ext^{\mathscr{H}Store}_{\mathbb{1}, \mathbb{1}} \mathcal{O}_{A}
     }{\longrightarrow}&
     \mathscr{H}
     \otimes
     \mathscr{H}^\ast
-    &\overset{\mathcal{O}_A}{\longrightarrow}&
+    &\overset{obt^{\mathscr{H}Store}_{\mathbb{1}}}{\longrightarrow}&
     \mathbb{1}
     \\
     1
-    &&
     &\mapsto&
-    &&
-    tr\big( \rho \cdot A \big)
+    \underset{w}{\sum}
+    \left\vert w \right\rangle
+    \left\langle w \right\vert
+    &\mapsto&
+    \underset{w}{\sum}
+    \left\vert w \right\rangle
+    \left\langle w \right\vert    
+    A
+    &\mapsto&
+    tr\big( A \big)
   }
 $$
+and generally the [[partial trace]]:
+$$
+  \array{
+    \mathscr{K}^\ast
+    &\overset{ret^{\mathscr{H}^\ast State}_{\mathscr{K}^\ast}}{\longrightarrow}&
+    \mathscr{H}
+    \otimes
+    \mathscr{H}^\ast
+    \otimes
+    \mathscr{K}^\ast
+    &\overset{
+      ext^{\mathscr{H}Store}_{\mathscr{K}^\ast, \mathscr{K}^\ast} \mathcal{O}_{A}
+    }{\longrightarrow}&
+    \mathscr{H}
+    \otimes
+    \mathscr{H}^\ast
+    \otimes
+    \mathscr{K}^\ast
+    &\overset{obt^{\mathscr{H}Store}_{\mathscr{K}^\ast}}{\longrightarrow}&
+    \mathscr{K}^\ast
+    \\
+    \left\langle \kappa \right\vert
+    &\mapsto&
+    &\mapsto&
+    &\mapsto&
+    \left\langle \kappa \right\vert
+    tr_{\mathscr{H}}\big(A \big)
+  }
+$$
+\end{remark}
 
 (...)
+
+
+## Related concepts
+
+* [[quantum reader monad]]
 
 
 [[!redirects quantum costate comonads]]
