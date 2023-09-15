@@ -31,7 +31,14 @@ We consider the category $Mod_{\mathbb{C}}$ of [[complex vector spaces]] with, a
 
 * [[tensor unit]]$\;$ $\mathbb{1} \,\equiv\, \mathbb{C}$ the [[complex numbers]] themselves,
 
-* [[internal hom]]$\;$ $\mathscr{H} \multimap \mathscr{H}'$ the vector space of [[linear maps]].
+* [[internal hom]]$\;$ $\mathscr{H} \multimap \mathscr{H}'$ the vector space of [[linear maps]]
+
+  \[
+    \label{InternalHomHomIsomorphism}
+    \mathscr{H} \otimes (\text{-})
+    \;\;\dashv\;\;
+    \mathscr{H} \multimap (\text{-})
+  \]
 
 Throughout the following we fix
 
@@ -321,8 +328,49 @@ $$
   }
 $$
 
+## Properties
 
-## Kleisli structure
+### Frobenius structure
+ {#FrobeniusStructure}
+
+For $\mathscr{H}$ a [[finite-dimensional vector space]] (and generally in a [[compact closed category]]) we have not just 
+
+* the  adjointness  $\;\;\mathscr{H}\otimes(\text{-}) \;\;\dashv\;\; \mathscr{H} \multimap(\text{-})\;\;$ from (eq:InternalHomHomIsomorphism)
+
+* the compact closure $\;\;\mathscr{H} \multimap(\text{-}) \;\;\simeq\;\; \mathscr{H}^\ast \otimes (\text{-})\;\;$ from (eq:CompactClosureViaBraKetNotation)
+
+but also
+
+* double-dual isomorphisms ${\mathscr{H}^{\ast}}^\ast \,\simeq\, \mathscr{H}$
+
+and hence an [[ambidextrous adjunction]]
+
+$$
+  \mathscr{H}\otimes(\text{-}) 
+    \;\dashv\; 
+  \mathscr{H}^\ast\otimes(\text{-}) 
+    \;\dashv\; 
+  \mathscr{H}\otimes(\text{-}) 
+  \,.
+$$
+
+This exhibits the linear $\mathscr{H}$-store comonad as [[left adjoint]] equivalent to the linear $\mathscr{H}^\ast$-[[state monad]] and hence as a [[Frobenius monad]]:
+
+\begin{imagefromfile}
+    "file_name": "LinearStoreStateFrobeniusMonad-230915.jpg",
+    "width": 310,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+### Kleisli structure
  {#KleisliStructure}
 
 We assume an ambient [[compact closed category]] such as that of [[finite-dimensional vector spaces]].
@@ -578,7 +626,9 @@ $$
   \,.
 $$
 
-## Costate co-effects are quantum observables
+## Examples
+
+### Costate co-effects are quantum observables
 
 For the classical [[costate comonad]] on a [[cartesian closed category]] its value and its operations on the [[tensor unit]] (the [[terminal object]] in this case) are vacuous. Quite in contrast, the linear CoState comonad on the tensor unit encodes core structure of [[quantum physics]]:
 
@@ -749,6 +799,36 @@ $$
 $$
 
 \end{proof}
+
+### Mixed state expectation values
+
+Observe that
+
+$$
+  \array{
+    \mathbb{1}
+    &\overset{return}{\longrightarrow}&
+    \mathscr{H}
+    \otimes
+    \mathscr{H}^\ast
+    &\overset{
+      extend \mathcal{O}_{\rho}
+    }{\longrightarrow}&
+    \mathscr{H}
+    \otimes
+    \mathscr{H}^\ast
+    &\overset{\mathcal{O}_A}{\longrightarrow}&
+    \mathbb{1}
+    \\
+    1
+    &&
+    &\mapsto&
+    &&
+    tr\big( \rho \cdot A \big)
+  }
+$$
+
+(...)
 
 
 [[!redirects quantum costate comonads]]
