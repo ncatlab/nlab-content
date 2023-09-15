@@ -44,6 +44,12 @@ Evident but important and in contrast to general [[epimorphisms]]:
 \end{proposition}
 
 \begin{proposition}
+  A morphism is an [[isomorphism]] if and only if it is an [[monomorphism]] and a split epimorphism.
+\end{proposition}
+
+For a proof, see [Yuan](#Yuan).
+
+\begin{proposition}
 **(relation to the [[axiom of choice]])**
 \linebreak
 The [[axiom of choice]] [[internal logic|internal]] to a category $C$ can be phrased as "all epimorphisms are split."  In [[Set]] this is equivalent to the usual axiom of choice; in many other categories it may be true without assuming the axiom of choice (in $Set$), or it may be false regardless of the axiom of choice.
@@ -82,6 +88,7 @@ For more on this see at *[[split exact sequence]]* the section *[Of free modules
 
 * [[Saunders MacLane]], §I.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
+* {#Yuan} [Split epimorphisms and split monomorphisms](https://qchu.wordpress.com/2012/10/01/split-epimorphisms-and-split-monomorphisms/) (2012), a blog post by [[Qiaochu Yuan]]
 
 [[!redirects split epimorphisms]]
 
