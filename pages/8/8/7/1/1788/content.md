@@ -1,119 +1,168 @@
 
-$$
-  \array{
-    \mathscr{H}
-      \otimes
-    \big(
-      \mathscr{H}
-      \multimap
-      \mathscr{K}^\ast
-    \big)
-    &\longrightarrow&
-    \mathscr{K}'
-    \\
-    \left\vert \psi \right\rangle
-    \left\langle \phi \right\vert
-    \otimes
-    \left\langle \kappa \right\vert
-    &\mapsto&    
-    \left\langle
-      \phi, \kappa
-    \right\vert
-     A
-    \left\vert
-      \psi, -
-    \right\rangle
-  }
-$$
+a coKleisli morphism
 
 $$
   \array{
-    \mathscr{H}
-      \otimes
-    \big(
-      \mathscr{H}
-      \multimap
-      \mathscr{K}^\ast
-    \big)
+    S
     &
-      \overset{
-        dupl^{ \mathscr{H}CoState }_{\mathscr{K}^\ast,(\mathscr{K}')^\ast}
-      }{\longrightarrow}
-    &
-    \mathscr{H}
-    \otimes
-    \bigg(
-      \mathscr{H}
-      \multimap
-      \Big(
-        \mathscr{H}
-        \otimes
-        \big(
-          \mathscr{H}
-          \multimap
-          \mathscr{K}^\ast
-        \big)
-      \Big)
-    \bigg)
-    &\overset{
-      \mathscr{H} 
-      \otimes
+    \overset{
       \big(
-        \mathscr{H}
-          \multimap
-        \mathcal{O}_A
+        get
+        ,\, 
+        \widetilde{put}
       \big)
-    }{\longrightarrow}&
-    \mathscr{H}
-    \otimes
-    \big(
-      \mathscr{H}
-      \multimap
-      (\mathscr{K}')^\ast
-    \big)
+    }{\longrightarrow}
+    &
+    V \times [V, S]    
     \\
-    \left\vert \psi \right\rangle
-    \left\langle \phi \right\vert
-    \otimes
-    \left\langle \kappa \right\vert
+    s
     &\mapsto&
-    \sum_w
-    \left\vert \psi \right\rangle
-    \left\langle w \right\vert
-    \otimes
-    \left\vert w \right\rangle
-    \left\langle \phi \right\vert
-    \otimes
-    \left\langle \kappa \right\vert
-    &\mapsto&
-    \;\;
-    \sum_{w, k'}
-        \left\vert \psi \right\rangle
-        \left\langle \phi, \kappa \right\vert
-         A
-        \left\vert w, k' \right\rangle
-        \left\langle w, k' \right\vert
+    \big(
+      get(s)
+      ,\,
+      put(-,s)
+    \big)
   }
-$$  
-
-
-$$
-    \sum_{w, k'}
-      \left\langle 
-        w, k'
-      \right\vert
-        A'
-      \left\vert
-        \psi, - 
-      \right\rangle
-        \left\langle \phi, \kappa \right\vert
-         A
-        \left\vert w, k' \right\rangle
 $$
 
+counitality
+
+$$
+  \array{
+    S
+    &
+    \overset{
+      \big(
+        get
+        ,\, 
+        \widetilde{put}
+      \big)
+    }{\longrightarrow}
+    &
+    V \times [V, S]    
+    &
+    \overset{\;\; ev \;\;}{\longrightarrow}
+    &
+    S
+    \\
+    s 
+    &\mapsto&
+    \big(
+      get(s)
+      ,\,
+      put(-,s)
+    \big)
+    &\mapsto&
+    put\big(
+      get(s)
+      ,\,
+      s
+    \big)
+  }
+$$
 
 
-
-
-
-
+\begin{tikzcd}[  
+  column sep=4pt
+]
+  V \times [V,S]
+  \ar[
+    rrrrr,
+    "{
+      \mathrm{dupl}^{ V\mathrm{Sotr} }_S
+    }"
+  ]
+  &[-5pt]
+  &&&[-150pt]
+  &[-30pt]
+  V \times \Big[ 
+    V 
+    ,\,
+    \big[
+      V 
+      \times 
+      [V,S] 
+    \big]
+  \Big]
+  \\
+  &
+  \big(
+    \mathrm{get}(s)
+    ,\,
+    \mathrm{put}(-,s)
+  \big)
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  \Big(
+    \mathrm{get}(s)
+    ,\,
+    v' \mapsto \big(v', \mathrm{put}(-,s)\big) 
+  \Big)
+  \\
+  &&&& 
+  \bigg(
+    \mathrm{get}(s)
+    ,\,
+    v'
+    \mapsto
+    \Big(
+      \mathrm{get}\big(\mathrm{put}(v',s)\big)
+      ,\,
+      \mathrm{put}\big(-, \mathrm{put}(v',s)\big)      
+    \Big)
+  \bigg)
+  \ar[ul, equals]
+  \\
+  & 
+  &&& 
+  \\
+  & 
+  s 
+  \ar[rrr, phantom, "{ \mapsto }"]
+  \ar[uuu, phantom, "{ \mapsto }"{sloped}]
+  &&& 
+  \big(
+    \mathrm{get}(s)
+    ,\,
+    v' \mapsto \mathrm{put}(v',s)
+  \big)
+  \ar[uu, phantom, "{ \mapsto }"{sloped}]
+  \\
+  S 
+  \ar[
+    rrrrr,
+    "{
+      \big(
+        \mathrm{get}
+        ,\,
+        \widetilde{\mathrm{put}}
+      \big)
+    }"{swap}
+  ]
+  \ar[
+    uuuuu,
+    "{
+      \big(
+        \mathrm{get}
+        ,\,
+        \widetilde{\mathrm{put}}
+      \big)
+    }"
+  ]
+  &&&&&
+  V \times [V, S]
+  \ar[
+    uuuuu,
+    "{
+      V \times \Big[
+        V
+        ,\,
+        \big(
+          \mathrm{get}
+          ,\,
+          \widetilde{\mathrm{put}}
+        \big)       
+      \Big]
+    }"{swap}
+  ]
+\end{tikzcd}
