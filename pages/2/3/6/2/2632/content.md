@@ -458,6 +458,7 @@ Classical textbook accounts:
 
 * [[Jun John Sakurai]], Jim Napolitano, *Modern Quantum Mechanics*, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
 
+
 More recent textbook accounts:
 
 * [[Chris Isham]], *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
@@ -471,6 +472,11 @@ More recent textbook accounts:
 * [[Ingemar Bengtsson]], [[Karol Życzkowski]], *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
 
   > (focus on the [[geometry]] of [[quantum state spaces]] and culminating in a chapter on [[quantum entanglement]])
+
+* [[Heinz-Peter Breuer]], [[Francesco Petruccione]], *The Theory of Open Quantum Systems*, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199213900.001.0001](https://doi.org/10.1093/acprof:oso/9780199213900.001.0001)&rbrack;
+
+  > (focus on [[open quantum systems]])
+
 
 * {#Landsman17} [[Klaas Landsman]], *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
