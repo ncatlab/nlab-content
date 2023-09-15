@@ -219,6 +219,20 @@ $$\mathrm{ext}_{\times}:\prod_{s:A \times B} \prod_{t:A \times B} \mathrm{Id}_{A
 
 $$\mathrm{ext}_\Sigma:\prod_{s:\sum_{x:A} B(x)} \prod_{t:\sum_{x:A} B(x)} \mathrm{Id}_{\sum_{x:A} B(x)}(s, t) \simeq \sum_{p:\mathrm{Id}_A(\pi_1(s), \pi_1(t))} \mathrm{hId}_{x:A.B(x)}(\pi_1(s), \pi_1(t), p, \pi_2(s), \pi_2(t))$$
 
+### Inference rules for higher inductive types
+
+Whenever there is an [[identification]] given in an [[introduction rule]] for a [[higher inductive type]], one of the hypothesis in the elimination and computation rules for the higher inductive types is a judgment of a term of the corresponding heterogeneous identification type along the given identification in the introduction rule. 
+
+For example, the introduction rules for the [[circle type]] $S^1$ state that one could construct an element $\mathcal{b}:S^1$ and an identification $\mathcal{l}:\mathrm{Id}_{S^1}(\mathcal{b}, \mathcal{b})$. The elimination rule for the circle type states that given the hypotheses of 
+
+* a type family $x:S^1 \vdash C(x)$, 
+
+* an element $c_\mathcal{b}:C(\mathcal{b})$,  
+
+* a heterogeneous identification $c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(\mathcal{b}, \mathcal{b}, \mathcal{l}, c_\mathcal{b}, c_\mathcal{b})$, 
+
+one could construct the family of elements $p:S^1 \vdash \mathrm{ind}_{S^1}(c_\mathcal{b}, c_\mathcal{l})(p):C(p)$.
+
 ## Categorical semantics
 
 needs to be written
