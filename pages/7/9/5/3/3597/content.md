@@ -140,6 +140,10 @@ In the context of [[decoherence]]:
 
 * [[Maximilian Schlosshauer]], §2.4 in: *Decoherence and the Quantum-To-Classical Transition*, The Frontiers Collection, Springer (2007) &lbrack;[doi:10.1007/978-3-540-35775-9](https://doi.org/10.1007/978-3-540-35775-9)&rbrack;
 
+In the context of [[open quantum systems]]:
+
+* [[Heinz-Peter Breuer]], [[Francesco Petruccione]], §2.1.3 and Part II of: *The Theory of Open Quantum Systems*, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199213900.001.0001](https://doi.org/10.1093/acprof:oso/9780199213900.001.0001)&rbrack;
+
 
 Further:
 
