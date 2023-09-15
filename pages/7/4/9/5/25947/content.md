@@ -39,3 +39,6 @@ $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma \vdash a \equiv b
 ## References
 
 * [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+[[!redirects congruence rule]]
+[[!redirects congruence rules]]
