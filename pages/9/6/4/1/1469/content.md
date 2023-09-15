@@ -53,6 +53,8 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 
 ## Related pages
 
+* [[synthetic algebraic geometry]]
+
 * [[contributors to algebraic geometry]]
 
 * [[books in algebraic geometry]], 
