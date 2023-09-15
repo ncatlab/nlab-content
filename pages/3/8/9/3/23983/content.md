@@ -237,6 +237,10 @@ one could construct the family of elements $p:S^1 \vdash \mathrm{ind}_{S^1}(c_\m
 
 needs to be written
 
+## In cubical type theory
+
+The [[path types]] in cubical type theory are heterogeneous path types. See [[cubical path type]] for more details. 
+
 ## In higher observational type theory 
 
 In [[higher observational type theory]], the dependent heterogeneous identity type is a primitive type former (although depending on the presentation, it can also be obtained using $ap$ into the universe).  In its general form, the type family can depend not just on a single type but on a [[type telescope]] $\Delta$. The resulting dependent heterogeneous identity type then depends on an "identification in that telescope", which is defined by mutual recursion as a telescope of dependent heterogeneous identity types.  The [[type formation|formation rule]] is then
@@ -276,6 +280,8 @@ $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\math
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
+
+* [[Théo Winterhalter]], *A conservative and constructive translation from extensional type theory to weak type theory*, Strength of Weak Type Theory, [[DutchCATS]], 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf))
 
 [[!redirects dependent identity type]]
 [[!redirects dependent identity types]]
