@@ -98,18 +98,31 @@ Discussion of [[coherence]] in compact closed categories is due to:
 
 * {#KellyLaplaza80} [[Max Kelly]], [[M. L. Laplaza]], *Coherence for compact closed categories*, Journal of Pure and Applied Algebra, **19** 193-213 (1980) &lbrack;<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf)&rbrack;
 
-
-On the relation to [[quantum operations]] and [[completely positive maps]]:
-
-* [[Peter Selinger]], *Dagger compact closed categories and completely positive maps*, Electronic Notes in Theoretical Computer Science **170** (2007) 139-163, &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)&rbrack;
-
 On the relation to [[traced monoidal categories]]:
 
 * {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. **119** (1996) 447-468 &lbrack;[pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf), [doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
 
 See also:
 
-* Wikipedia, _[Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category)_ .
+* Wikipedia, _[Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category)_
+
+
+On the relation to [[quantum operations]] and [[completely positive maps]]:
+
+* [[Peter Selinger]], *Dagger compact closed categories and completely positive maps*, Electronic Notes in Theoretical Computer Science **170** (2007) 139-163, &lbrack;[doi:10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)&rbrack;
+
+On [[biproducts]]:
+
+* [[Robin Houston]], *Finite products are biproducts in a compact closed category*, Journal of Pure and Applied Algebra **212** 2 (2008) 394-400 &lbrack;[arXiv:math/0604542](https://arxiv.org/abs/math/0604542), [doi:10.1016/j.jpaa.2007.05.021](https://doi.org/10.1016/j.jpaa.2007.05.021)&rbrack;
+
+
+
+On compact closure in [[homotopical algebra]] and relating to the [Barrat-Priddy theorem](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement):
+
+* [[Amit Sharma]], *Compact closed categories and Γ-categories (with an appendix by [[André Joyal]])*, Theory and Applications of Categories **37** 37 (2021) 1222-1261 &lbrack;[arXiv:2010.09216](https://arxiv.org/abs/2010.09216), [tac:37-37](http://www.tac.mta.ca/tac/volumes/37/37/37-37abs.html)&rbrack;
+
+
+
 
 [[!redirects compact closed]]
 [[!redirects compact closed categories]]
