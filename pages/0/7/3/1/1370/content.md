@@ -30,6 +30,11 @@ On [[transition systems]], [[bisimulations]] and [[open morphisms]]:
 
 * {#JoyalNielsenWisnkel94} [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]]: *Bisimulation from open maps*, BRICS report series RS-94-7 (1994) &lbrack;[doi:10.7146/brics.v1i7.21663](https://doi.org/10.7146/brics.v1i7.21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)&rbrack;, Information and Computation **127** 2 (1996) 164-185 &lbrack;[doi:10.1006/inco.1996.0057](https://doi.org/10.1006/inco.1996.0057)&rbrack;
 
+Introducing the notion of [[traced monoidal categories]]:
+
+* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. **119** (1996) 447-468 &lbrack;[pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf), [doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
+
+
 On the [[Dwyer-Kan loop groupoid]]-construction ([[path groupoid|path]]-[[simplicial groupoids]]):
 
 * [[André Joyal]], [[Myles Tierney]], *On the theory of path groupoids*, Journal of Pure and Applied Algebra **149** 1 (2000) 69-100 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(98)00164-9">doi:10.1016/S0022-4049(98)00164-9</a>&rbrack;
@@ -87,8 +92,6 @@ See also:
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
 
 * A. Joyal, R. Street, _Braided monoidal categories_, Macquarie Math Reports 860081 (1986) [pdf](http://www.maths.mq.edu.au/~street/JS1.pdf); Macquarie Math Reports 850067 (1985) [pdf](http://www.math.mq.edu.au/~street/BMC850067.pdf).
-
-* A. Joyal, R. Street, D. Verity, _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468. 
 
 
 * A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
