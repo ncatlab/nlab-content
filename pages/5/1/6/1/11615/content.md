@@ -38,7 +38,9 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
   Alternatively one may set up synthetic differential geometry via axioms for [[differential cohesion]].
 
-* **[[synthetic homotopy theory]]** -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
+* **[[synthetic homotopy theory]]** -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see at *[[mathematics presented in homotopy type theory]]*
+
+* [[synthetic topology]]
 
 * [[synthetic differential topology]]
 
@@ -46,9 +48,9 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
   * [[synthetic guarded domain theory]]
 
-* [[synthetic probability theory]]
+* [[synthetic algebraic geometry]]
 
-* [[synthetic topology]]
+* [[synthetic probability theory]]
 
 * [[synthetic computability theory]]
 
