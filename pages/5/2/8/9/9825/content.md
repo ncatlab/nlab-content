@@ -107,6 +107,10 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[Bell's inequality]]
 
+* [[open quantum system]]
+
+* [[decoherence]]
+
 * [[quantum sensing]]
 
 * [[no-cloning theorem]]
@@ -116,8 +120,6 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 * [[quantum state preparation]]
 
 * [[quantum fluctuation]]
-
-* [[decoherence]]
 
 * [[quantum probability]]
 
@@ -149,6 +151,13 @@ Review and discussion:
 * {#Scheibe73} [[Erhard Scheibe]], §VI of: _The logical analysis of quantum mechanics_, Pergamon Press, Oxford (1973)
 
 * [[Roland Omnès]], §8 of: *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
+
+  > (with an eye towards [[interpretations of quantum mechanics]])
+
+* [[Heinz-Peter Breuer]], [[Francesco Petruccione]], §2.4 and Part V in: *The Theory of Open Quantum Systems*, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199213900.001.0001](https://doi.org/10.1093/acprof:oso/9780199213900.001.0001)&rbrack;
+
+  > (form the perspective of [[open quantum systems]] and with focus on [[relativistic field theory]])
+
 
 * {#Renes15} [[Joseph M. Renes]], §A of: *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
 
