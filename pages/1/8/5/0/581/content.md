@@ -47,7 +47,7 @@ Evident but important and in contrast to general [[epimorphisms]]:
   A morphism is an [[isomorphism]] if and only if it is an [[monomorphism]] and a split epimorphism.
 \end{proposition}
 
-For a proof, see [Yuan](#Yuan).
+For a proof, see [Yuan 2012](#Yuan12).
 
 \begin{proposition}
 **(relation to the [[axiom of choice]])**
@@ -88,7 +88,7 @@ For more on this see at *[[split exact sequence]]* the section *[Of free modules
 
 * [[Saunders MacLane]], §I.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* {#Yuan} [Split epimorphisms and split monomorphisms](https://qchu.wordpress.com/2012/10/01/split-epimorphisms-and-split-monomorphisms/) (2012), a blog post by [[Qiaochu Yuan]]
+* {#Yuan12} [[Qiaochu Yuan]], *[Split epimorphisms and split monomorphisms](https://qchu.wordpress.com/2012/10/01/split-epimorphisms-and-split-monomorphisms/)*, blog post (2012)
 
 [[!redirects split epimorphisms]]
 
